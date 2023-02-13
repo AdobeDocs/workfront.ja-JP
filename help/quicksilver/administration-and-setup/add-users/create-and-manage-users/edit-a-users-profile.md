@@ -1,0 +1,167 @@
+---
+title: ユーザーのプロファイルの編集
+user-type: administrator
+product-area: system-administration;user-management
+navigation-topic: create-and-manage-users
+description: Adobe Workfront管理者は、新しいユーザーを作成し、既存のユーザーのプロファイルを管理できます。
+author: Caroline
+feature: System Setup and Administration
+role: Admin
+exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
+source-git-commit: 1ebdb3797e30a7e06f4dfd4a7e0e5f540351c126
+workflow-type: tm+mt
+source-wordcount: '2557'
+ht-degree: 0%
+
+---
+
+# ユーザーのプロファイルの編集
+
+>[!IMPORTANT]
+>
+>このページで説明する手順は、まだAdmin Consoleにオンボーディングされていない組織にのみ適用されます。 組織がAdobe Admin Consoleにオンボーディングされている場合、Adobe Admin Consoleを通じてこの操作を実行する必要があります。
+>
+>Adobe Admin Consoleでユーザーのプロファイルを編集する手順については、この記事の「ユーザーの詳細を編集する」の節を参照してください [ユーザーを個別に管理](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) または、Adobe Admin Console管理者に問い合わせてください。
+>
+>組織がAdobe Admin Consoleにオンボーディングされているかどうかに応じて異なる手順のリストについては、 [プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+Adobe Workfront管理者は、新しいユーザーを作成し、既存のユーザーのプロファイルを管理できます。 ユーザーの作成について詳しくは、 [ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+
+プランライセンスを持つユーザーは、ユーザーの作成と管理もできます。 ユーザーの編集に必要なアクセスについて詳しくは、 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+## アクセス要件
+
+この記事の手順を実行するには、次の手順を実行する必要があります。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td>計画</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>次のいずれかが必要です。</p> 
+    <ul> 
+     <li> <p>システム管理者のアクセスレベル。 詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>. </p> </li> 
+     <li> <p><b>ユーザー</b> 設定を <b>編集</b> アクセス、 <b>作成</b> そして少なくとも 2 つのうち 1 つは <b>ユーザー管理者</b> 以下で有効になるオプション <b>設定を微調整する</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>この 2 つのオプションのうち、ユーザー <b>管理者（グループユーザー）</b> が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> <p>詳しくは、 <b>ユーザー</b> アクセスレベルでの設定については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## ユーザープロファイルの編集
+
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **ユーザー** ![](assets/users-icon-in-main-menu.png).
+1. ユーザーを選択して、編集アイコンをクリックします。 ![](assets/edit-icon.png).
+
+1. 内 **ユーザーを編集** 表示されるボックスで、次の情報を変更し、 **変更を保存**:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">個人情報 </td> 
+      <td> 
+       <ul> 
+        <li><b>名</b>, <b>姓</b></li> 
+        <li> <p><b>メールアドレス：</b> ユーザーの電子メールアドレスは、Workfrontでのユーザー名でもあります。 このフィールドでは大文字と小文字が区別され、一意である必要があります。 10 分間以内に、一意でない電子メールアドレスを 3 回追加しようとすると、reCAPTCHA 応答が表示されます。</p> <p>電子メールドメインを使用し許可リストて、リストにない電子メールドメインを入力した場合、ユーザーは電子メール通知を受け取りません。 このタブについて詳し許可リストくは、 <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">電子メールの設定を許可リスト行う</a>.</p> </li> 
+        <li> <p><b>パスワードをリセット</b>:このリンクをクリックすると、ユーザーのパスワードがリセットされます。 ユーザーのパスワードをリセットする前に、自分のパスワードを求められます。</p> <p>別のユーザーのパスワードをリセットするには、Workfront管理者またはグループ管理者である必要があります。</p> <p><b>メモ</b>:  
+          <ul> 
+           <li> <p>グループ管理者の場合は、自分が指定されたグループ内のユーザーのパスワードのみをリセットできます。 また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。</p> <p> <img src="assets/group-admin-user.png" > </p> <p>この設定は、デフォルトでは無効です。 詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </li> 
+           <li> <p>Workfront管理者のパスワードはリセットできません。</p> </li> 
+          </ul> </p> </li> 
+        <li><b>&lt;sso configuration=""&gt; ユーザー名</b>:Workfront管理者がWorkfrontとの SSO 統合を有効にした場合、このフィールドに「SSO ユーザー名」が表示されます。 Workfrontインスタンスで有効になっている SSO 設定のタイプは、このフィールドに表示されます。 </li> 
+        <li> <p><b>OnlyAllow &lt;sso configuration=""&gt; 認証</b>:Workfront管理者がWorkfrontとの SSO 統合を有効にし、SSO 用にすべてのユーザーを更新した場合、このフィールドはデフォルトで選択されます。 Workfrontインスタンスで有効になっている SSO 設定のタイプは、このフィールドに表示されます。</p> <p>このフィールドを選択した場合、ユーザーは SSO 資格情報を使用してWorkfrontにログインする必要があります。 これをオフにすると、ユーザーはWorkfrontの資格情報を使用してWorkfrontにログインできます。</p> <p>SSO ソリューションでのWorkfrontの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Adobe Workfrontでのシングルサインオンの概要</a></p> <p>SSO のユーザーの更新の詳細は、 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">シングルサインオンのユーザーを更新</a>.</p> <p><b>注意</b>:グループ管理者は、 &lt;sso configuration=""&gt; フィールドは、自分が指定されたグループ内のユーザーに対してのみ使用できます。 また、ユーザー管理者（グループユーザー）権限をアクセスレベルで有効にする必要があります。
+        <p>グループ管理者で、ユーザー管理者（すべてのユーザー）権限をアクセスレベルで有効にしている場合は、 &lt;sso configuration=""&gt; すべてのユーザーのフィールド。</p> </li> 
+        <li><b>ジョブ情報：</b> 役職、ユーザーが担当する専門知識の領域など、ジョブに関する情報。</li> 
+        <li><p><b>連絡先情報</b>:ユーザーの電話番号と住所。</p>
+        <p>ユーザーが統合ユーザー管理 (UUM) またはAdobeIdentity Managementシステム (IMS) に対して有効になっている場合、 <b>国</b> 「連絡先情報」セクションのフィールドには、国コードの値（例：US、GB、IN）のみを入力できます。</p></li>
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">環境設定 </td> 
+      <td> 
+       <ul> 
+        <li> <p><b>タイムゾーン：</b> ユーザーのタイムゾーン。</p> <p>タイムゾーンをまたいでWorkfrontでユーザーが共同作業する際に役立つ情報については、 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">タイムゾーンをまたいでの作業</a>.</p> </li> 
+        <li><b>メールのロケール</b>:ユーザーが優先する電子メールロケールです。 これは、Workfrontから送信される E メールの数値および日付の形式に影響します。</li> 
+        <li><b>更新ステータスの完了率を表示</b>:このユーザーのタスクの [ 更新 ] 領域内に完了率のバーを表示する場合は、このオプションを選択します。</li> 
+        <li><b>自分に割り当てた作業を [ 作業 ] タブに送信する</b>:ユーザーが割り当てたすべてのものを「作業中」タブに直接表示する場合は、このオプションを選択します。 デフォルトでは、ユーザーに割り当てられたすべての項目が「作業リクエスト」タブにリストされます。</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">通知</td> 
+      <td> <p>新しいユーザーに対して有効にする電子メール通知を選択します。</p> <p>インスタント通知と、毎日のダイジェスト通知を選択できます。</p> <p>詳しくは、 <a href="../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">システムの全員に対するイベント通知を設定する</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">アクセス</td> 
+      <td> 
+       <ul> 
+        <li><b>アクティブ：</b> このボックスを選択して、ユーザーがアクティブであることを示します。 アクティブなユーザーはWorkfrontのライセンスを使用しています。 このボックスをオフにすると、ユーザーが非アクティブになります。</li> 
+        <li> <p><b>アクセスレベル：</b> このユーザーに割り当てるアクセスレベルを選択します。</p> 
+        <p>ユーザーにアクセスレベルを割り当てる際に、自分のアクセスレベルと等しいかそれ以下のレベルを割り当てることができます。 （たとえば、アクセス・レベルが「プランナ」の場合は、管理者アクセス・レベルを割り当てることはできません）。 ただし、Workfront管理者がアクセスレベルで有効にしているデフォルト以外の権限を、独自のアクセスレベルでも有効にしている場合は、デフォルトで自分のアクセスレベルより小さいアクセスレベルを割り当てることはできません ( <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>) をクリックします。 </p> 
+        <p>アクセスレベルの詳細については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfrontへのアクセスの設定</a>.</p> </li> 
+        <li> <p><b>レイアウトテンプレート</b>:ユーザーのレイアウトテンプレートを選択します。 このレイアウトテンプレートは、ユーザのホームグループ、ホームチーム、または主要な職務の役割に割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当て優先度の詳細については、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>.</p> <p><b>メモ</b>:  <p>このフィールドで使用できるテンプレートのリストは、アクセス権によって異なります。</p> 
+          <ul> 
+           <li>Workfront管理者は、すべてのシステムレベルおよびグループレベルのレイアウトテンプレートを表示できます。</li> 
+           <li>グループ管理者は、システムレベルのレイアウトテンプレートと、管理するグループに関連付けられているレイアウトテンプレートを表示できます。</li> 
+           <li>プランライセンスを持ち、ユーザを編集するためのアクセス権を持つユーザは、システムレベルのレイアウトテンプレートのみを表示できます。</li> 
+          </ul> <p>グループレベルのレイアウトテンプレートの詳細については、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>.</p> </p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">組織 </td> 
+      <td> 
+       <ul> 
+      <li><b>会社</b>:ユーザーの会社。 ユーザーは、1 つの会社にのみ関連付けることができます。 会社をユーザーに関連付ける前に、会社を作成する必要があります。 アクティブな会社のみがリストに表示されます。 会社の作成について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">会社の作成と編集</a>.</li> 
+      <li><b>レポート先：</b> ユーザーの会社を指定した場合は、このフィールドでユーザーのダイレクトマネージャーも指定できます。 1 人のユーザーが管理者を 1 つだけ持つことができます。</li> 
+      <li><b>ダイレクトレポート：</b> ユーザーに会社を指定した場合は、そのユーザーの直属のレポートも指定できます。 1 人のユーザーが複数のダイレクトレポートを持つことができます。</li> 
+      <li><b>ホームチーム</b>:ユーザーのホームチームを指定します。 ホームチームは 1 つだけです。</li> 
+      <li><b>その他のチーム</b>:ユーザーは複数のチームに属することができます。</li> 
+      <li> <p><b>ホームグループ：</b> 適切なグループを選択してユーザーを割り当てます。 これにより、ユーザーはグループと共有されているオブジェクトにアクセスできます。</p> <p>これは必須フィールドです. すべてのユーザーは、ホームグループに関連付ける必要があります。 選択しない場合、グループは新しいユーザーのホームグループとして割り当てられます。</p> <p><b>注意</b>:ユーザーにグループを割り当てることができるのは、Workfront管理者か、そのグループの管理者か、そのグループが公開されている場合のみです。</p> </li> 
+      <li> <p><b>その他のグループ</b>:ユーザーは複数のグループに属することができます。 ユーザーにグループを割り当てることができるのは、Workfront管理者か、そのグループの管理者か、そのグループが公開されている場合のみです。</p> <p><b>重要</b>:100 を超えるグループにユーザーを追加すると、Workfrontのどの領域でも、グループのリストを読み込む際にパフォーマンスの問題が発生する場合があります。</p> <p>パブリックグループについて詳しくは、 <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">グループの作成</a>.</p> <p>グループについて詳しくは、 <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">グループの概要</a>.</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">リソース計画 </td> 
+      <td> 
+       <ul> 
+       <li><b>無効化をスケジュール</b>:一定期間後にこのユーザーを非アクティブ化するようにスケジュールする場合は、このチェックボックスをオンにします。 </li> 
+       <li><b>予定されている非アクティブ化日</b>:ユーザーが非アクティブ化された日付。 非アクティブ化のためのユーザーのスケジュール設定について詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">ユーザーのアクティベーション解除をスケジュール</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーを非アクティブ化または再アクティブ化する</a>.</li> 
+       <li> <p><b>プライマリの役割</b>:これは、Workfrontでユーザーが満たすことができる主な役割です。 ユーザーが割り当てられているタスクと問題も、このジョブの役割に割り当てられます。 リソース管理には、ジョブの役割が不可欠です。 このフィールドは、管理者ユーザーアクセス権を持つプランライセンスを持っている場合、またはWorkfront管理者である場合にのみ更新できます。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> <p>リストには、アクティブなジョブの役割のみが表示されます。 </p> </li> 
+       <li>選択した <b>プライマリの役割</b>、 <b>FTE の可用性の割合</b> フィールドが表示されます。 このジョブの役割に割り当てるユーザーのスケジュールの時間の割合を指定します。 [プライマリロールの FTE 可用性の割合 ] のデフォルト値は 100%です。 </li> 
+       <li> <p><b>その他の役割</b>:ユーザーは、Workfrontで複数のジョブの役割を持つことができます。 リソース管理には、ジョブの役割が不可欠です。 ユーザーが実行できるジョブの役割の数に制限はありません。 ただし、リソース管理が複雑すぎる場合があるので、1 人のユーザーを多数のジョブの役割に割り当てすぎないようにすることをお勧めします。<p>リストには、アクティブなジョブの役割のみが表示されます。 ジョブの役割について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">ジョブの役割の作成と管理</a>.</p> <p>このフィールドは、管理者ユーザーアクセス権を持つプランライセンスを持っている場合、またはWorkfront管理者である場合にのみ更新できます。 <br>管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> </li> 
+       <li> <p>（条件付き）1 つまたは複数の <b>その他の役割</b>、 <b>FTE の可用性の割合</b> 各役割に対して表示されるフィールド 各ジョブの役割に割り当てるユーザーのスケジュールの時間の割合を指定します。 その他のロールの FTE 可用性の割合のデフォルト値は 0%です。</p> <p><b>注意</b>:「その他のロール」に 0%の FTE 可用性がある場合は、ユーザーがこれらのロールのタスクに割り当てられていない限り、リソース・プランナには表示されません。</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>メモ</b>: <p>すべての <b>FTE の可用性の割合</b> は、すべてのロールが 100%に等しい必要があります。 FTE 可用性の各割合は、リソース・プランナの各ユーザーのロールの使用可能時間を計算します。 各役割の使用可能時間は、ユーザーの使用可能時間によって異なります。</p> <p>ユーザーの使用可能な時間は、Workfront管理者がリソース管理環境設定で FTE を計算する際に選択した方法に応じて、Workfrontが計算します。</p> <p>ユーザーの可用性の計算について詳しくは、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.</p> <p>リソース管理環境設定の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>.</p> </p> </li> 
+       <li> <p><b>スケジュール</b>:スケジュールをユーザーに関連付けます。 ユーザーのスケジュールは、ユーザーが割り当てられているタスクのタイムラインを計算します。</p> <p>スケジュールをユーザーに関連付ける前に、スケジュールを作成する必要があります。 スケジュールの作成について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>.</p> <p><b>注意</b>:ユーザーに関連付けるスケジュールは、そのユーザーのタイムゾーンと一致することをお勧めします。</p> </li> 
+       <li> <p><b>タイムシートプロファイル</b>:タイムシートプロファイルをユーザーに関連付けて、ユーザーに対してタイムシートが自動的に生成されるようにします。</p> <p><b>注意</b>:このフィールドで使用可能なプロファイルのリストは、アクセス権によって異なります。
+       <ul>
+       <li>Workfrontの管理者は、すべてのシステムレベルおよびすべてのグループレベルのタイムシートプロファイルを表示できます。</li>
+       <li>グループ管理者は、システムレベルのタイムシートプロファイルと、管理するグループに関連付けられたプロファイルを表示できます。</li>
+       <li>プランライセンスを持ち、ユーザーを編集するアクセス権を持つユーザーは、システムレベルのタイムシートプロファイルのみを表示できます。 グループレベルのタイムシートプロファイルの詳細については、「 <a href="../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md" class="MCXref xref">タイムシートプロファイルの作成、編集、割り当て</a>.</li>
+      </ul></p> </li> 
+       <li><b>デフォルトの時間タイプ</b>:ユーザーのデフォルトの時間タイプを選択します。 ユーザーが時間をログに記録する際にデフォルトで使用される時間タイプです。</li> 
+       <li><b>利用可能な時間タイプ</b>:ユーザーが使用できる時間タイプを選択します。 これらの時間タイプは、Workfrontのどこでもユーザーが時間をログに記録できる場所に表示されます。 ユーザーは、プロジェクトレベルおよびユーザーレベルで有効になっている時間タイプのみを表示できます。 ユーザーが使用できる時間のタイプについて詳しくは、 <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">タイムシートの時間の種類と可用性を定義する</a>.</li> 
+       <li><b>ログイン時間：</b> ユーザーが作業項目に対する時間を時間単位または日単位で記録するかどうかを選択します。 詳しくは、 <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">時間をログイン時間または日に設定</a>.</li> 
+       <li> <p><b>FTE</b>:この数値を使用して、システム・レベルで「生産資源管理プリファレンス」が「次の値」に設定されている場合にのみ、デフォルト・スケジュールに基づいてユーザーの可用性が計算されます。 <b>デフォルトのスケジュール</b>. 値は <i>0</i> または <i>.1</i> および <i>1</i>.</p> <p>例えば、FTE 値が 0.5 で、デフォルトのスケジュールが 40 時間の場合、ユーザーは週に 20 時間働くことができます。</p> <p>システム・レベルで「生産資源管理プリファレンス」が「 <b>ユーザーのスケジュール</b>に設定すると、ここで指定した値は無視され、ユーザーは、スケジュールに指定された内容に従って使用可能と見なされます。 この場合、リソース・プランナのユーザーの FTE は次の式で計算されます。</p> <p ><code>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code><em><br></em> </p> <p>ユーザー FTE の計算について詳しくは、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.<br>Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>.</p> <p>スケジュールの例外とタイムオフは、計画時間または工数の量に影響を与える場合があります。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>. </p> </li> 
+        <li><b>リソースプール</b>:ユーザーをリソースプールに関連付けます。 詳しくは、 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">リソースプールとユーザーの関連付け </a>.</li> 
+        <li><b>時間あたりのコスト</b>:ユーザーの 1 時間あたりのコストの量。 </li> 
+        <li><b>1 時間あたりの請求</b>:ユーザーの 1 時間あたりの請求額。</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">カスタムフォーム</td> 
+      <td>既存のユーザーカスタムフォームをこのユーザーに関連付けます。 カスタムフォームをユーザーに関連付ける前に、カスタムフォームを作成する必要があります。 リストには、アクティブなカスタムフォームのみが表示されます。 カスタムフォームの作成について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">コメント</td> 
+      <td> <p>ユーザーに送信するコメントと、ユーザープロファイルの「更新」領域に入力します。</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
