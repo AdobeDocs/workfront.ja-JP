@@ -8,9 +8,8 @@ navigation-topic: apps-and-their-modules
 title: Power BIモジュール
 description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
 author: Becky
-hidefromtoc: true
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 3b5f203ead1e7b8ab83bec58adb25dd03c520787
+source-git-commit: 30e9b175e29acaed638f005eb6a701777f65e0bc
 workflow-type: tm+mt
 source-wordcount: '2352'
 ht-degree: 0%
