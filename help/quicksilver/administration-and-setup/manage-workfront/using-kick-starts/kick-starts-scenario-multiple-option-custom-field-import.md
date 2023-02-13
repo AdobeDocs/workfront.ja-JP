@@ -8,7 +8,7 @@ description: キックスタート機能を使用して、Adobe Workfrontで複�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ ht-degree: 0%
 * 複数選択ドロップダウン
 * ドロップダウン
 * チェック ボックス
-* ラジオ ボタン.
+* ラジオ ボタン
 
 これらのフィールドには、多数（場合によっては数百）のオプションが含まれることがあります。 Kick-Start 機能を使用して読み込むと、Workfront管理者として多くの時間を節約し、エラーを回避できます。
 
-キックスタートを使用して複数のオプションを持つカスタムフィールドを読み込むには、以下のセクションで説明されている手順に従う必要があります。
+>[!IMPORTANT]
+>
+>キックスタートを使用して複数のオプションを持つカスタムフィールドを読み込むには、以下のセクションで説明されている手順に従う必要があります。
+>
+>1. Workfrontからの既存のカスタムデータのエクスポート（オプション手順）
+>1. カスタムデータ用のキックスタートテンプレートのエクスポート
+>1. Excel の「キック開始」スプレッドシートを設定する
+>1. Excel スプレッドシートをWorkfrontにアップロード
 
-1. Workfrontからの既存のカスタムデータのエクスポート（オプション手順）
-1. カスタムデータ用のキックスタートテンプレートのエクスポート
-1. Excel の「キック開始」スプレッドシートを設定する
-1. Excel スプレッドシートをWorkfrontにアップロード
+
 
 ## Workfrontからの既存のカスタムデータのエクスポート（オプション手順）
 
@@ -115,15 +119,20 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
 1. 前の節でダウンロードした Excel スプレッドシートを開き、多数のシートが表示されていることを確認します。 各シートは、アプリケーション内の 1 つのオブジェクトを表します。
 
-   例： **パラメータ** （カスタムフィールドを示す） **パラメーターオプション**（カスタムフィールドオプションを参照）、 **カテゴリ** （カスタムフォームを参照）。
+   >[!INFO]
+   >
+   >例： **パラメータ** （カスタムフィールドを示す） **パラメーターオプション**（カスタムフィールドオプションを参照） **カテゴリ** （カスタムフォームを参照）。
+   >
+   >オブジェクトの名前と属性は、Workfrontデータベースでサポートされている形式で記述する必要があります。
+   >
+   >これらのオブジェクトの意味について詳しくは、 [Workfront用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Workfrontデータベース内のオブジェクトの名前について詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   オブジェクトの名前と属性は、Workfrontデータベースでサポートされている形式で記述する必要があります。
 
-   これらのオブジェクトの意味について詳しくは、 [Workfront用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Workfrontデータベース内のオブジェクトの名前について詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. 次の情報が正しくフォーマットされていることを確認します。
@@ -164,7 +173,9 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    * **`setName`** = Workfrontで表示するカスタムフィールドの名前を入力します。
 
-      例えば、 _ブランド_、チェックボックスフィールド、 _メディア_：ラジオボタンフィールド。
+      >[!INFO]
+      >
+      >例えば、 _ブランド_、チェックボックスフィールド、 _メディア_：ラジオボタンフィールド。
 
    * この **`setName`** そして **`setValue`** 通常、列には同じ情報が含まれ、新しいフィールドに対するWorkfrontインターフェイスでの必要な名前が反映されている必要があります。
    フィールドの値は、例えば、レポートに表示される名前です。名前は、オブジェクトに添付されたカスタムフォームに表示されます。
