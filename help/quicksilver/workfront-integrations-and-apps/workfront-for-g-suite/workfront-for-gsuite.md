@@ -8,9 +8,9 @@ description: Adobe Workfront for G Suite を使用すると、Gmail、Google Cal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 66b7d2fa6d6ee2e1c7f096382b183c7ea4e479c4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * [アクセス [!DNL Adobe Workfront] [!DNL G Suite] のホームコンテンツ](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
 * [の更新 [!DNL Adobe Workfront] オブジェクトを [!DNL G Suite] から](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-* [[!DNL G Suit]e のドキュメントの表示と管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+* [[!DNL G Suite] のドキュメントの表示と管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
 * [表示と管理 [!DNL Adobe Workfront] オブジェクトの詳細 [!UICONTROL G スイート]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
 * [表示 [!DNL Adobe Workfront] オブジェクトの更新 [!UICONTROL G スイート]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
