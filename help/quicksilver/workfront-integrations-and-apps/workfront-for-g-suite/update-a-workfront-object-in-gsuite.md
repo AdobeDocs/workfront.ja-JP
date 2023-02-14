@@ -7,14 +7,18 @@ description: G Suite を離れることなく、 [!DNL Adobe Workfront] オブ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
 
 # の更新 [!DNL Adobe Workfront] からのオブジェクト [!DNL G Suite]
+
+>[!NOTE]
+>
+>ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
 
 離れずに [!DNL G Suite]を投稿すると、 [!DNL Adobe Workfront] オブジェクト。
 

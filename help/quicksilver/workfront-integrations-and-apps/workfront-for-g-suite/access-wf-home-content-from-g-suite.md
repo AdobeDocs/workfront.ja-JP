@@ -7,14 +7,18 @@ description: 次にアクセス： [!DNL Adobe Workfront] 割り当てられた�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # アクセス [!DNL Adobe Workfront] [!UICONTROL ホーム] コンテンツ [!DNL G Suite]
+
+>[!NOTE]
+>
+>ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
 
 次にアクセス： [!DNL Adobe Workfront] [!UICONTROL ホーム] 割り当てられているすべてのタスク、問題、承認、アクセス要求を含むコンテンツ（G Suite を離れることなく）。
 

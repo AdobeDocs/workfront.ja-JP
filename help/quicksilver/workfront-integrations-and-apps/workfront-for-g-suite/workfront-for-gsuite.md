@@ -8,14 +8,18 @@ description: Adobe Workfront for G Suite を使用すると、Gmail、Google Cal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for G Suite]
+
+>[!NOTE]
+>
+>ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
 
 [!DNL Adobe Workfront for G Suite] 最も重要な作業につながり、社内にいる間に他のユーザーと共同で作業できるようになります [!DNL Gmail], [!DNL Google Calendar]、および [!DNL Google Drive]. これらのアプリケーションを終了することなく、電子メールで送信されたリクエストや業務の更新を取り込み、それらを [!DNL Workfront]. で何が起きているかを確認できます。 [!DNL Workfront]：期限、優先度、ドキュメント、更新、追加のコンテキストを含み、インボックスから離れることはありません。 承認の決定、コメントに対する返信、または新しい作業リクエストの承認を行うことができます。 また、メールを個人のプロジェクトタスクに変換したり、仕事や優先度を他の人に割り当てたりできます。
 
