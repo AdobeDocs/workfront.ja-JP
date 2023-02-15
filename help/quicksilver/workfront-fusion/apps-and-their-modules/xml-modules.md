@@ -95,33 +95,33 @@ ht-degree: 1%
 >   ![](assets/url-of-xml-file-350x184.png)
 >
 >1. クリック **[!UICONTROL OK]**&#x200B;をクリ&#x200B;ックし、モジュールの設定を保存して閉じます。
-1. 追加 [!UICONTROL XML] > [!UICONTROL XML を解析] モジュール、次の後に接続 [!UICONTROL HTTP] > [!UICONTROL ファイルの取得] をモジュール化し、次のように設定します。
-<table style="table-layout:auto"> 
-&gt;    <col> 
-&gt;    <col> 
-&gt;    <tbody> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL データ構造 ]</td> 
-&gt;      <td> 
-&gt;       <ol> 
-&gt;        <li value="1">次をクリック： <strong>[!UICONTROL 追加 ]</strong> 」ボタンをクリックします。</li> 
-&gt;        <li value="2">次をクリック： <strong>[!UICONTROL Generator]</strong> 」ボタンをクリックします。</li> 
-&gt;        <li value="3">Web ブラウザーで、新しいタブまたはウィンドウを開きます。</li> 
-&gt;        <li value="4">3 番目の手順で使用した URL をアドレスバーに入れ、XML ファイルを取得します。</li> 
-&gt;        <li value="5">すべての XML テキストを選択し、クリップボードにコピーします。</li> 
-&gt;        <li value="6">タブまたはウィンドウを閉じて、シナリオに戻ります。</li> 
-&gt;        <li value="7">コピーした XML テキストを「サンプルデータ」フィールドに貼り付けます。</li> 
-&gt;        <li value="8">クリック <strong>[!UICONTROL 保存 ]</strong>.</li> 
-&gt;        <li value="9">データ構造が正常に生成されたことを確認します。</li> 
-&gt;        <li value="10">クリック <strong>[!UICONTROL 保存 ]</strong> をクリックして、データ構造を保存します。</li> 
-&gt;       </ol> <p>手順 2 ～ 9 をスキップして、空のデータ構造を指定できます。 データ構造が空の場合、モジュールが少なくとも 1 回実行されるまで、モジュールの出力はマッピングパネルで使用できません。</p> </td> 
-&gt;     </tr> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL XML]</td> 
-&gt;      <td> <p>を <code>Data </code>[!UICONTROL HTTP] / [!UICONTROL ファイルを取得 ] モジュールの出力からフィールドにアイテムを入力します。 以下を使用： <code>toString()</code> 関数を使用して、値を [!UICONTROL Buffer] （バイナリデータ）型から [!UICONTROL Text] 型に変換します。</p> <p>数式のコードをコピーして、フィールドに貼り付けることができます。 <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Buffer データ型と Text データ型の詳細については、 <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Adobe Workfront Fusion の項目データ型</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
-&gt;     </tr> 
-&gt;    </tbody> 
-&gt;   </table>
+>1. 追加 [!UICONTROL XML] > [!UICONTROL XML を解析] モジュール、次の後に接続 [!UICONTROL HTTP] > [!UICONTROL ファイルの取得] をモジュール化し、次のように設定します。
+><table style="table-layout:auto"> 
+>    <col> 
+>    <col> 
+>    <tbody> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL データ構造 ]</td> 
+>      <td> 
+>       <ol> 
+>        <li value="1">次をクリック： <strong>[!UICONTROL 追加 ]</strong> 」ボタンをクリックします。</li> 
+>        <li value="2">次をクリック： <strong>[!UICONTROL Generator]</strong> 」ボタンをクリックします。</li> 
+>        <li value="3">Web ブラウザーで、新しいタブまたはウィンドウを開きます。</li> 
+>        <li value="4">3 番目の手順で使用した URL をアドレスバーに入れ、XML ファイルを取得します。</li> 
+>        <li value="5">すべての XML テキストを選択し、クリップボードにコピーします。</li> 
+>        <li value="6">タブまたはウィンドウを閉じて、シナリオに戻ります。</li> 
+>        <li value="7">コピーした XML テキストを「サンプルデータ」フィールドに貼り付けます。</li> 
+>        <li value="8">クリック <strong>[!UICONTROL 保存 ]</strong>.</li> 
+>        <li value="9">データ構造が正常に生成されたことを確認します。</li> 
+>        <li value="10">クリック <strong>[!UICONTROL 保存 ]</strong> をクリックして、データ構造を保存します。</li> 
+>       </ol> <p>手順 2 ～ 9 をスキップして、空のデータ構造を指定できます。 データ構造が空の場合、モジュールが少なくとも 1 回実行されるまで、モジュールの出力はマッピングパネルで使用できません。</p> </td> 
+>     </tr> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL XML]</td> 
+>      <td> <p>を <code>Data </code>[!UICONTROL HTTP] / [!UICONTROL ファイルを取得 ] モジュールの出力からフィールドにアイテムを入力します。 以下を使用： <code>toString()</code> 関数を使用して、値を [!UICONTROL Buffer] （バイナリデータ）型から [!UICONTROL Text] 型に変換します。</p> <p>数式のコードをコピーして、フィールドに貼り付けることができます。 <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Buffer データ型と Text データ型の詳細については、 <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Adobe Workfront Fusion の項目データ型</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+>     </tr> 
+>    </tbody> 
+>   </table>
 
 
 ## [!UICONTROL XML 属性の解析]
@@ -181,26 +181,31 @@ ht-degree: 1%
 </table>
 
 >[!INFO]
-**例:**
-一般的な使用例は、 [!DNL Google] > スプレッドシートを XML に変換します。
-1. を [!DNL Google Sheets] > [!UICONTROL 行を選択] モジュールを使用してデータを取得します。 から行を取得するモジュールを設定します。 [!DNL Google] スプレッドシート。 を設定しま&#x200B;す。**[!UICONTROL 返される行の最大数]** を小さい数に設定しますが、テスト用に 1 より大きい値（例：3）に設定します。 を実行します。 [!DNL Google Sheets] モジュールを右クリックし、「**[!UICONTROL このモジュールのみを実行]**.&quot; モジュールの出力を確認します。
-1. 接続 [!UICONTROL 配列集約] モジュールの後 [!DNL Google Sheets] モジュール。 モジュールの設定で、 [!DNL Google Sheets] モジュール **[!UICONTROL ソースノード]** フィールドに入力します。 その他のフィールドは、現時点ではそのままにしておきます。
-1. 接続 [!UICONTROL XML] > [!UICONTROL XML を作成] モジュールの後 [!UICONTROL 配列集約] モジュール。
-   モジュールの設定には、XML 出力の構造を記述したデータ構造が必要です。 次をクリック： **[!UICONTROL 追加]** ボタンをクリックして、データ構造の設定を開きます。 このデータ構造を作成する最も簡単な方法は、XML サンプルから自動的に生成することです。
-1. 次をクリック： **[!UICONTROL ジェネレーター]** ボタンをクリックし、XML サンプルを [!UICONTROL サンプルデータ] フィールド：
-
-![](assets/sample-data-field-350x146.png)
-1. 「**[!UICONTROL 保存]**」をクリックします。これで、データ構造の「仕様」フィールドに、生成された構造が含まれます。
-1. データ構造の名前をより具体的なものに変更し、「 **[!UICONTROL 保存]**. ルート配列属性に対応するフィールドは、JSON モジュールの設定で、マッピング可能なフィールドとして表示されます。
-1. 次をクリック： **[!UICONTROL マップ]** ボタンをクリックし、 `Array[]` 項目 [!UICONTROL 配列の集約] 出力先：
-1. クリック **[!UICONTROL OK]** をクリックして、XML モジュールの設定を閉じます。
-1. の設定を開きます。 [!UICONTROL 配列集約] モジュール。 を **[!UICONTROL ターゲット構造]** 親 XML 要素に対応するカスタムから XML モジュールのフィールド。 [!DNL Google Sheets] を適切なフィールドに追加します。
-1. クリック **[!UICONTROL OK]** をクリックして、配列集約モジュールの設定を閉じます。
-1. シナリオを実行します。
-
-   XML モジュールは、正しい XML ファイルを出力します。
-1. の設定を開きます。 [!DNL Google Sheets] モジュールを追加し、 [!UICONTROL 返される行の最大数] すべてのデータを処理するには、スプレッドシートの行数より大きい数を指定します。
-   結果の XML はに保存できます。 [!DNL Dropbox]、電子メールで送信、FTP 経由でサーバーにアップロードなど。
+> 
+>**例:**
+> 
+>一般的な使用例は、 [!DNL Google] > スプレッドシートを XML に変換します。
+>1. を [!DNL Google Sheets] > [!UICONTROL 行を選択] モジュールを使用してデータを取得します。 から行を取得するモジュールを設定します。 [!DNL Google] スプレッドシート。 を設定しま&#x200B;す。**[!UICONTROL 返される行の最大数]** を小さい数に設定しますが、テスト用に 1 より大きい値（例：3）に設定します。 を実行します。 [!DNL Google Sheets] モジュールを右クリックし、「**[!UICONTROL このモジュールのみを実行]**.&quot; モジュールの出力を確認します。
+>1. 接続 [!UICONTROL 配列集約] モジュールの後 [!DNL Google Sheets] モジュール。 モジュールの設定で、 [!DNL Google Sheets] モジュール **[!UICONTROL ソースノード]** フィールドに入力します。 その他のフィールドは、現時点ではそのままにしておきます。
+>1. 接続 [!UICONTROL XML] > [!UICONTROL XML を作成] モジュールの後 [!UICONTROL 配列集約] モジュール。
+>   モジュールの設定には、XML 出力の構造を記述したデータ構造が必要です。 次をクリック： **[!UICONTROL 追加]** ボタンをクリックして、データ構造の設定を開きます。 このデータ構造を作成する最も簡単な方法は、XML サンプルから自動的に生成することです。
+>1. 次をクリック： **[!UICONTROL ジェネレーター]** ボタンをクリックし、XML サンプルを [!UICONTROL サンプルデータ] フィールド：
+>
+>   ![](assets/sample-data-field-350x146.png)
+>
+>1. 「**[!UICONTROL 保存]**」をクリックします。これで、データ構造の「仕様」フィールドに、生成された構造が含まれます。
+>1. データ構造の名前をより具体的なものに変更し、「 **[!UICONTROL 保存]**. ルート配列属性に対応するフィールドは、JSON モジュールの設定で、マッピング可能なフィールドとして表示されます。
+>1. 次をクリック： **[!UICONTROL マップ]** ボタンをクリックし、 `Array[]` 項目 [!UICONTROL 配列の集約] 出力先：
+>1. クリック **[!UICONTROL OK]** をクリックして、XML モジュールの設定を閉じます。
+>1. の設定を開きます。 [!UICONTROL 配列集約] モジュール。 を **[!UICONTROL ターゲット構造]** 親 XML 要素に対応するカスタムから XML モジュールのフィールド。 [!DNL Google Sheets] を適切なフィールドに追加します。
+>1. クリック **[!UICONTROL OK]** をクリックして、配列集約モジュールの設定を閉じます。
+>1. シナリオを実行します。
+>
+>   XML モジュールは、正しい XML ファイルを出力します。
+>
+>1. の設定を開きます。 [!DNL Google Sheets] モジュールを追加し、 [!UICONTROL 返される行の最大数] すべてのデータを処理するには、スプレッドシートの行数より大きい数を指定します。
+>
+>   結果の XML はに保存できます。 [!DNL Dropbox]、電子メールで送信、FTP 経由でサーバーにアップロードなど。
 
 
 ## XML 属性の追加

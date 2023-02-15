@@ -133,18 +133,14 @@ Web サービスを [!DNL Workfront Fusion] シナリオの場合、 [!UICONTROL
 >
 >**例:**
 >
->
-```
+>```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
 >
+>"token":"123459evz8aepwtxydndydgyumbfx",
 >
-"token":"123459evz8aepwtxydndydgyumbfx",
+>"message":"Hello World!",
 >
->
-"message":"Hello World!",
->
->
-"title":"The Push Notification"}
+>"title":"The Push Notification"}
 >```
 
 <table style="table-layout:auto"> 
