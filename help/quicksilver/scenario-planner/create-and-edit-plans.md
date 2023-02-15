@@ -6,9 +6,9 @@ description: 会社の高レベル戦略を優先する際に、Workfront Scenar
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2402'
 ht-degree: 1%
 
 ---
@@ -127,12 +127,14 @@ ht-degree: 1%
       <td role="rowheader"><span>FTE（[!UICONTROL フルタイム相当 ]）または [!UICONTROL 時間 ]</span> </td> 
       <td> <p><span>次のオプションの 1 つを選択して、この計画のジョブ・ロール情報を見積もる方法を指定します。</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>. これはデフォルトの設定です </span> </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
-         --> <p>すべての計算について [!DNL Scenario Planner], [!DNL Workfront] は次の値を使用します。1 日= 8 時間 </p> </li> 
-        <li> <p><strong>[!UICONTROL 時間 ]</strong> </p> </li> 
-       </ul> <p>重要： <span>ここで選択するオプションは、プラン、プランのシナリオ、およびイニシアチブに関する役職情報の表示方法を決定します。</span> </p> </td> 
-     </tr> 
+      <li> <p><span><strong>FTE</strong>. これはデフォルトの設定です </span> </p> 
+      <p><b>重要</b></p>  
+      <p>すべての計算について [!DNL Scenario Planner], [!DNL Workfront] は次の値を使用します。1 日= 8 時間 </p> </li> 
+      <li> <p><strong>[!UICONTROL 時間 ]</strong> </p> </li> 
+       </ul> <p><b>重要</b></p>
+
+   ここで選択するオプションは、プラン、プランのシナリオ、およびイニシアチブに関する役職情報の表示方法を決定します</p> </td>
+   </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 開始日 ]</td> 
       <td> <p>プランを開始する月と年を選択します。 このフィールドで選択できるのは月のみです。 [!DNL Workfront] は、プランの開始日が選択した月の最初の日で、終了日がその期間の月末の最後の日であると仮定します。 </p> </td> 
@@ -148,6 +150,8 @@ ht-degree: 1%
      </tr> 
     </tbody> 
    </table>
+
+<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. （条件付き）クリック **[!UICONTROL 次へ]**.
 

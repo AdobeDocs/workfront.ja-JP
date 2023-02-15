@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
 <!-drafted for Work Time field  
 
-* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time in non-project-related work like meetings or trainings.</span>
+* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time on non-project-related work like meetings or trainings.</span>
 
 -->
 
@@ -104,7 +104,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
 >[!NOTE]
 >
->この選択はグローバル設定なので、システム全体、すべてのユーザー、すべてのリソース管理ツール、およびすべてのリソースプールのすべての計算に影響を与えます。
+>この設定はグローバル設定なので、この選択は、すべてのユーザーに対して、すべてのリソース管理ツールのシステム全体のすべての計算に影響を与えます。
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 1. クリック **[!UICONTROL リソース管理]**.
@@ -114,7 +114,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       スケジュールについて詳しくは、 [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-      ユーザーの値の詳細 [!UICONTROL FTE]を参照してください。  [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+      ユーザーの [!UICONTROL FTE]を参照してください。  [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
       Workfrontは、Workfront管理者が [!UICONTROL デフォルトのスケジュール]:
 
@@ -179,16 +179,22 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       >[!NOTE]
       >
-      >ユーザーがスケジュールに関連付けられていない場合、ユーザーの「使用可能時間」は [!UICONTROL デフォルトのスケジュール].
+      >ユーザーがスケジュールに関連付けられていない場合、ユーザーの使用可能時間は [!UICONTROL デフォルトのスケジュール].
 
       <!--drafted for Work Time field:
       In the Production environment: 
       -->
 
+      ユーザーが使用できる時間は、次の数式で計算されます。
+
+      ```
+      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
+      ```
+
       利用可能な [!UICONTROL FTE] の値は、次の式で計算されます。
 
       ```
-      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - Time off hours) / [!UICONTROL Default Schedule] hours
+      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
       ```
 
       >[!INFO]
@@ -229,8 +235,7 @@ When calculating a user's capacity, Workfront takes into account the following i
       >```
       >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
       >```
-      (************ checking this second other with Dev/ Artur - not sure where Exceptions fit in **********)
-
+      
       </div>
       -->
 1. 「**[!UICONTROL 保存]**」をクリックします。

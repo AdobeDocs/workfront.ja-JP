@@ -7,9 +7,9 @@ description: リソースプランナーのプロジェクトビューとロー�
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,8 @@ ht-degree: 0%
      <li>他のプロジェクトで予算に計上された時間数。 </li> 
     </ul> <p>ユーザーの利用可能な時間、工数またはコストは、次の項目に従って変更されます。 </p> 
     <ul> 
-     <li>システム・レベルでのリソース管理プリファレンスに基づいて、スケジュールと FTE を計算する方法。<br>ユーザーとジョブの役割の可用性の計算の詳細については、「 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.</li> 
+     <li>システム・レベルでのリソース管理プリファレンスに基づいて、スケジュールと FTE を計算する方法。<br><p>ユーザーとジョブの役割の可用性の計算の詳細については、「 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.</p>
+     Workfrontでのリソース管理環境設定について詳しくは、 <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a></li> 
     </ul> 
     <ul> 
      <li>の <strong>プロジェクト計画の優先順位</strong>（ユーザーが予算で作業する場合）<br>プロジェクト計画優先度がユーザーの使用可能時間に与える影響の詳細は、 <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">リソースプランナーのナビゲーションの概要 </a>. </li> 
@@ -135,6 +136,8 @@ ht-degree: 0%
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### 「PLN （計画済み）」列 {#the-pln-planned-column}
 
@@ -173,7 +176,7 @@ ht-degree: 0%
 * 各リソースの予定時間の計算には、次のタスクのカテゴリが含まれます。
 
    * リソースプール、ジョブロール、またはプロジェクトのチームでユーザーに割り当てられたタスク\
-      タスクがチームに割り当てられると、その割り当てが以下に表示されます。 **ロールなし** および **ユーザーなし** セクション。 チームに関連付けられた「計画時間」は表示できますが、タスクに関連付けられた役割もユーザーもないので、時間を予算できません。
+      タスクがチームに割り当てられると、その割り当てが以下に表示されます。 **ロールなし** および **ユーザーなし** セクション。 チームに関連付けられた「計画時間」は表示できますが、役割もユーザーもタスクに関連付けられていないので、時間を予算できません。
 
    * 未割り当てタスク
 
@@ -303,7 +306,7 @@ ht-degree: 0%
       <li> <p>使用可能な時間またはコストと、ロールの予算時間またはコストの差異：</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>「使用可能な時間または原価」と、「NET 計算で計画 (PLN) 値を使用」設定が有効な場合のロールの計画時間または原価の差異：</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>ヒント</b> <span>
 
-このオプションは、「選択した項目を表示」セクションでビューをカスタマイズした場合にのみ適用されます。</span> </p> <p><span>詳しくは、</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a> </p> </li>
+このオプションは、「選択した項目を表示」セクションでビューをカスタマイズした場合にのみ適用されます。</span> </p> <p><span>詳しくは、 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -316,7 +319,7 @@ ht-degree: 0%
       <li> <p>「使用可能な時間またはコスト」と、ユーザーの予算時間またはコストの差。</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>NET 計算設定で計画済 (PLN) 値を使用可能にした場合の、使用可能な時間またはコストと、ユーザーの計画済時間またはコストの差異：</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>ヒント</b> <span>
 
-このオプションは、「選択した項目を表示」セクションでビューをカスタマイズした場合にのみ適用されます。</span> </p> <p><span>詳しくは、</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a> </p> </li>
+このオプションは、「選択した項目を表示」セクションでビューをカスタマイズした場合にのみ適用されます。</span> </p> <p><span>詳しくは、 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 

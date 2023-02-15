@@ -6,9 +6,9 @@ description: Adobe Workfront Scenario Planner を使用する場合、自分が�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,18 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">必要なジョブの役割の節 </td> 
-      <td> <p>次をクリック： <strong>[!UICONTROL ジョブの役割の入力を開始 ]</strong> フィールドを開き、リストから役割を選択するか、名前を入力します。<span>アクティブな</span> ジョブの役割。 </p> <p><span>FTE を使用するように計画が設定されているか、時間を使用するかに応じて、</span> FTE でこのイニシアチブに必要なジョブロール数を追加 <span><span>または時間</span></span><span> イニシアティブの各月に</span>. <span>イニシアチブの最初の 3 か月がデフォルトで表示されます。</span></p> <p><span>イニシアチブのジョブの役割情報を更新すると、プランの必要なジョブの役割情報も更新されます。</span> </p> <p>FTE または時間を使用するプランの設定については、 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">でプランを作成および編集 [!DNL Scenario Planner]</a>. </p> <p>ヒント：  
-        <ul> 
-         <li> <p><span>次の月に移行するには、 [!UICONTROL Tab] キーを使用します。</span> </p> </li> 
-         <li> <p> すべて <span>アクティブ</span> システムのジョブの役割は、このフィールドをクリックすると表示されます。 </p> </li> 
-         <li> <p>プランの「使用可能なジョブ」ロールに既に追加されているジョブロールが最初に表示されます。 使用可能なジョブの役割をプランに追加する方法については、 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">シナリオプランナーでのプランの作成と編集</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] では、フルタイム同等の時間が 1 か月に 160 時間であると見なされます。 </p> </li> 
-        </ul> </p> <p>FTE には、1 より小さい数値または 10 進数を入力できます <span>または</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">時間</span>. 例えば、0.5 コンサルタントの役割を持つ場合、コンサルタントは FTE の半分（通常 4 時間、8 時間は 1 FTE）をこのイニシアティブに取り組むように割り当てます。 </p> <p>シナリオ・プランナのすべての計算に対して、Workfrontは次の値を使用します。1 日= 8 時間 </p> </td> 
+      <td> <p>次をクリック： <strong>[!UICONTROL ジョブの役割の入力を開始 ]</strong> フィールドを開き、リストから役割を選択するか、名前を入力します。<span>アクティブな</span> ジョブの役割。 </p> <p><span>FTE を使用するように計画が設定されているか、時間を使用するかに応じて、</span> FTE でこのイニシアチブに必要なジョブロール数を追加 <span><span>または時間</span></span><span> イニシアティブの各月に</span>. <span>イニシアチブの最初の 3 か月がデフォルトで表示されます。</span></p> <p><span>イニシアチブのジョブの役割情報を更新すると、プランの必要なジョブの役割情報も更新されます。</span> </p> <p>FTE または時間を使用するプランの設定については、 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">でプランを作成および編集 [!DNL Scenario Planner]</a>. </p>
+      <p><b>重要</b></p>  
+      <p>すべての計算について [!DNL Scenario Planner], [!DNL Workfront] は次の値を使用します。1 日= 8 時間 </p>
+
+   <p><b>ヒント</b></p>
+
+   <ul> 
+       <li> <p><span>次の月に移行するには、 [!UICONTROL Tab] キーを使用します。</span> </p> </li> 
+      <li> <p> すべて <span>アクティブ</span> システムのジョブの役割は、このフィールドをクリックすると表示されます。 </p> </li> 
+       <li> <p>プランの「使用可能なジョブ」ロールに既に追加されているジョブロールが最初に表示されます。 使用可能なジョブの役割をプランに追加する方法については、 <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">シナリオプランナーでのプランの作成と編集</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] では、フルタイム同等の時間が 1 か月に 160 時間であると見なされます。 </p> <p>シナリオ・プランナのすべての計算に対して、Workfrontは次の値を使用します。1 日= 8 時間 </p></li> 
+      </ul> </p> <p>FTE には、1 より小さい数値または 10 進数を入力できます <span>または</span> <span>時間</span>. 例えば、0.5 コンサルタントの役割を持つ場合、コンサルタントは FTE の半分（通常 4 時間、8 時間は 1 FTE）をこのイニシアティブに取り組むように割り当てます。 </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">コストセクション</td> 

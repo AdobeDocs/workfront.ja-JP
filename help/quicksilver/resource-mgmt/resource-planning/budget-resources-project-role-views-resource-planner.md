@@ -6,9 +6,9 @@ description: 「プロジェクト」ビューと「ロール」ビューを使�
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ ht-degree: 0%
    ビジネス事例の「生産資源予算設定」領域の詳細は、この記事の「生産資源予算設定」の項を参照してください [ビジネス事例の領域の概要](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. （オプション）各ユーザーの「使用可能時間」と「予定時間」の間のユーザーの割り当て超過または過少使用に注意するには、「ユーザー」ビューを選択します。 予算時間は、[ ユーザー ] ビューには表示されません。
+
+   Workfrontがユーザーの可用性を計算する方法について詳しくは、 [リソース管理環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### 役割ビューの予算リソース {#budget-resources-in-the-role-view}
 

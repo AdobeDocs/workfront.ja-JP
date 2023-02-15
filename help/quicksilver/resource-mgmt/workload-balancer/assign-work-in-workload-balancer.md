@@ -6,7 +6,7 @@ description: リソースマネージャーは、Adobe Workfrontワークロー�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: d6516c0d7b92172ebe10c9f219c9c0ff8d614167
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -14,6 +14,10 @@ ht-degree: 0%
 ---
 
 # ワークロードバランサーでの作業割り当ての概要
+
+<!--drafted for Work Time story:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 リソースマネージャーは、Adobe Workfrontワークロードバランサーを使用して、まだユーザーに割り当てられていない作業項目を表示し、それらの項目を割り当てることができます。
 
@@ -47,6 +51,9 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 * ユーザーの休日。 これは、ユーザーがオフにする予定の日を示します。
 
    詳しくは、 [Adobe Workfrontでの個人の休日の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+<!--drafted for Work Time: 
+* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
 
 ## ワークロードバランサーでの作業の割り当て
 
