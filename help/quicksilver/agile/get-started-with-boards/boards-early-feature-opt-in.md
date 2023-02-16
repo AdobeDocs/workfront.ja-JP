@@ -6,9 +6,9 @@ title: の初期の機能オプトイン [!DNL Adobe Workfront] ボード
 description: この記事で [!DNL Workfront Boards] 初期機能のオプトイン。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 814765092d5906417513966d9f563ae5e097d1d1
+source-git-commit: d02c6cd8ed8234bc9f8757835956290334f41e30
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '614'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,10 @@ ht-degree: 0%
   <tr>
    <td>サブタスクをチェックリスト項目としてカードに読み込む</td>
    <td>予定</td>
+  </tr>
+  <tr>
+   <td>列に移動されたカードのデフォルトのステータスを定義する</td>
+   <td>部分的にリリース済み</td>
   </tr>
  </tbody> 
 </table>

@@ -6,14 +6,16 @@ description: 新しいボードには、デフォルトで 3 つの列が含ま�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
 
 # ボード列を管理
+
+{{highlighted-preview}}
 
 新しいボードには、デフォルトで 3 つの列が含まれています。 列の追加、列の順序の変更、列の名前の変更、不要な列の削除を行うことができます。
 
@@ -119,12 +121,18 @@ ht-degree: 0%
       接続されたカードのステータス翻訳オプションも表示されます。 （ステータス翻訳はアドホックカードには適用されません）。 これらのオプションは、 [!DNL Workfront] 接続されたカードがこの列に移動されたとき。
 
    1. デフォルトのステータス翻訳の選択を変更するには、 **[!UICONTROL 編集]** アイコン ![編集アイコン](assets/edit-icon-spectrum.png).
-   1. タスクのステータスと問題のステータスを選択します。 デフォルトの [!DNL Workfront] ステータスは利用できます。カスタムステータスは利用できません。
+   1. <span class="preview">プレビュー環境では、次の操作をおこないます。を選択します。 [!UICONTROL **カスタム**] ステータスと [!UICONTROL **システム**] タスクと問題の両方に対してカードに適用するステータス。</span>
 
-   >[!NOTE]
-   >
-   >カスタムステータスを [!DNL Workfront]をクリックした場合、最初に接続されたカードをこの列に移動すると、ステータスを選択するよう求められます。 たとえば、接続されたプロジェクトに複数のステータスタイプがあり、すべてが [!UICONTROL 完了]を使用する場合は、で使用するステータスを選択する必要があります [!DNL Workfront]. カードを列に移動するたびに選択を行う必要がなくなるよう、デフォルトとして選択を設定できます。
-   >ステータスについて詳しくは、 [ステータスの概要](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      <span class="preview">カードがこの列に移動されたとき、 [!DNL Workfront] 最初に、カスタムステータスの適用を試みます（「解決済み」など）。 そのカードでカスタムステータスが使用できない場合、Workfrontは代わりにシステムステータスを適用します（例：クローズ）。</span>
+
+      <span class="preview">また、接続されたタスクまたは問題のステータスが列ポリシーで設定されたカスタムまたはシステムのステータスに変更された場合、カードは自動的に列に移動されます。</span>
+
+   1. 実稼動環境では、以下のことがおこなわれます。タスクのステータスと問題のステータスを選択します。 デフォルトの [!DNL Workfront] ステータスは利用できます。カスタムステータスは利用できません。
+
+      >[!NOTE]
+      >
+      >カスタムステータスを [!DNL Workfront]をクリックした場合、最初に接続されたカードをこの列に移動すると、ステータスを選択するよう求められます。 たとえば、接続されたプロジェクトに複数のステータスタイプがあり、すべてが [!UICONTROL 完了]を使用する場合は、で使用するステータスを選択する必要があります [!DNL Workfront]. カードを列に移動するたびに選択を行う必要がなくなるよう、デフォルトとして選択を設定できます。
+      >ステータスについて詳しくは、 [ステータスの概要](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. （オプション）カードの割り当て先の値を設定します。
 
