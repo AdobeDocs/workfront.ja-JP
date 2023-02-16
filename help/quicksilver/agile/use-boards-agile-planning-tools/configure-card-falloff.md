@@ -6,7 +6,7 @@ title: カードのフォールオフを設定
 description: カードをスケジュールに従ってアーカイブしたり、ボードからフォールオフしたりするようにボードを設定できます。
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    ![カードフォールオフ設定](assets/card-falloff-switch.png)
 
-1. カードをボードからアーカイブするタイミングを選択します。 最大 4 週間または最大 30 日まで選択できます。
+1. カードをボードからアーカイブするタイミングを選択します。 最大 8 週間または最大 60 日まで選択できます。
 
    日付は、カードが最後に変更された日時から決定されます。
 
