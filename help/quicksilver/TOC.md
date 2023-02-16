@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 1%
 
 ---
@@ -891,6 +891,7 @@ ht-degree: 1%
       * [ボードでの接続済みカードの使用](agile/get-started-with-boards/connected-cards.md)
       * [カードの管理](agile/get-started-with-boards/move-board-items.md)
       * [カードのチェックリスト項目を管理](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [ボードからのカードの削除またはアーカイブ](agile/get-started-with-boards/delete-board-items.md)
       * [ボードでのフィルターと検索](agile/get-started-with-boards/filter-search-in-board.md)
       * [タグを追加](agile/get-started-with-boards/add-tags.md)
@@ -1668,8 +1669,8 @@ ht-degree: 1%
       * [承認リクエストを委任](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [新規または既存の承認プロセスと作業の関連付け](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [送信済み承認の取り消し](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * 校正 {#proofing}
-      * [校正](review-and-approve-work/proofing/proofing.md)
+   * プルーフ {#proofing}
+      * [プルーフ](review-and-approve-work/proofing/proofing.md)
       * 校正の概要 {#proofing-overview}
          * [校正の概要](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [配達確認権限プロファイルの概要](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

@@ -6,9 +6,9 @@ description: Workfrontでボードを使用する方法については、以下�
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 0%
 * [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [カードの管理](../../agile/get-started-with-boards/move-board-items.md)
 * [カードのチェックリスト項目を管理](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+* [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
 * [ボードからのカードの削除またはアーカイブ](../../agile/get-started-with-boards/delete-board-items.md)
 * [ボードでのフィルターと検索](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [タグを追加](../../agile/get-started-with-boards/add-tags.md)
