@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '12688'
+source-wordcount: '12695'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 1%
       * [Adobe Workfrontの四半期リリースに備える](product-announcements/product-releases/release-readiness.md)
       * 23.2 リリース {#release-23-2}
          * [23.2 リリースの概要](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [23.2 リリースアクティビティ：2023 年 2 月 13 日の週](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
          * [23.2 リリースアクティビティ：2023 年 2 月 7 日の週](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
          * [23.2 リリースアクティビティ： 2023 年 1 月 23 日の週](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
          * [23.2 リリース期間中のルックアンドフィールの更新](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -901,6 +902,7 @@ ht-degree: 1%
       * [ボードに吸気柱を追加する](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [ボードでのグループの使用](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [カードのフォールオフを設定](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
    * アジャイルチームのかんばん {#kanban}
       * [アジャイルチームのかんばん](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [かんばんの概要](agile/use-kanban-in-an-agile-team/kanban-overview.md)

@@ -6,16 +6,20 @@ description: 次の [!UICONTROL ボード] ダッシュボードを使用する�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 5%
 
 ---
 
 # ボードの作成または編集
 
+{{highlighted-preview}}
+
 次の [!UICONTROL ボード] ダッシュボードを使用すると、新しいボードを作成したり、既存のボードを編集したりできます。
+
+<span class="preview">コレクションにボードを追加するには、 [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
 
 ## アクセス要件
 
@@ -41,7 +45,28 @@ ht-degree: 0%
 ## 新しいボードを作成
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. クリック **[!UICONTROL 新規作成]**.
+1. スタンドアロンボードを作成するには、 **[!UICONTROL 新規作成]** 内 [!UICONTROL ボード] 領域 <span class="preview">コレクションにボードを追加するには、 [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+
+   >[!NOTE]
+   >
+   > コレクションは、初期の機能オプトインでのみ使用できます。 [!DNL Workfront] [!UICONTROL ボード].
+
+1. <span class="preview">ボードのテンプレートを選択します。</span>
+
+   <div class="preview">
+
+   | テンプレート | 説明 |
+   |---------|----------|
+   | 基本ボード | 3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 |
+   | かんばんボード | 次の列がボードに表示されます。「バックログ」、「新規」、「処理中」、「完了」、「保留中」。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。<p>バックログを使用するには、取り込みカラムのフィルタを設定する必要があります。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>各列のデフォルトのポリシーを確認するには、 [!UICONTROL **詳細** メニュー] 列で、 [!UICONTROL **編集**]. これらの事前設定済みポリシーは任意に変更できます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | レトロボード | 次の列がボードに表示されます。何が上手く行った？ 改善すべき点? お祝いすべき対象? 迅速化のためにできること? 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>列ポリシーは適用されません。 |
+
+   >[!NOTE]
+   >
+   > ボードテンプレートは、の初期機能オプトインでのみ使用できます。 [!DNL Workfront] [!UICONTROL ボード].
+
+   </div>
+
 1. ボードの名前を **[!UICONTROL ボード]** フィールドに入力し、Enter キーを押します。
 1. 必要に応じて、ボードを設定します。
 

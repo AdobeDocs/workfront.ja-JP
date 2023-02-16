@@ -6,9 +6,9 @@ title: の初期の機能オプトイン [!DNL Adobe Workfront] ボード
 description: この記事で [!DNL Workfront Boards] 初期機能のオプトイン。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>ボードのコレクションを作成する</td>
-   <td>予定</td>
+   <td>部分的にリリース済み</td>
   </tr>
   <tr>
    <td>反復を作成</td>
@@ -162,7 +162,7 @@ ht-degree: 0%
 のみ [!DNL Workfront] 管理者は、ボードの初期の機能をオプトインできます。 When a [!DNL Workfront] 管理者は早期の機能を有効にし、組織のすべてのユーザーがオプトインします。
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. クリック **[!UICONTROL 早期機能オプトイン]** をクリックします。
+1. クリック ![早期機能オプトイン](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期機能オプトイン]) をクリックします。
 1. クリック **[!UICONTROL 有効にする]**.
 1. ボードの初期の機能を使用し始めます。
 
@@ -192,5 +192,5 @@ ht-degree: 0%
 のみ [!DNL Workfront] 管理者は、初期の機能の受信をオプトアウトできます。 次の場合、 [!DNL Workfront] 管理者が初期機能を無効にすると、組織内のすべてのユーザーがオプトアウトされます。
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. クリック **[!UICONTROL 早期機能オプトインが有効]** をクリックします。
+1. クリック ![早期機能オプトインが有効](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 早期機能オプトインが有効]) をクリックします。
 1. クリック **[!UICONTROL 無効にする]**.
