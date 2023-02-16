@@ -6,18 +6,16 @@ description: リソースマネージャーは、Adobe Workfrontワークロー�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # ワークロードバランサーでの作業割り当ての概要
 
-<!--drafted for Work Time story:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 リソースマネージャーは、Adobe Workfrontワークロードバランサーを使用して、まだユーザーに割り当てられていない作業項目を表示し、それらの項目を割り当てることができます。
 
@@ -52,8 +50,7 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 
    詳しくは、 [Adobe Workfrontでの個人の休日の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-<!--drafted for Work Time: 
-* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
+* <span class="preview">ユーザーの作業時間。 これは、オーバーヘッドを含まずに、実際のプロジェクト関連作業を実行するためにユーザーが使用できる FTE 時間の割合を示します。 [ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。</span>
 
 ## ワークロードバランサーでの作業の割り当て
 
@@ -61,7 +58,7 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 
 ワークロードバランサーで作業を割り当てるには、次の方法を使用します。
 
-* 各項目を手動で割り当てることにより、一度に 1 つの項目に制限します。
+* 各項目を手動で割り当てることにより、一度に 1 つの項目に設定できます。
 
    項目を手動で一度に 1 つずつ割り当てる際に、[ 高度な割り当て ] を実行できます。
 

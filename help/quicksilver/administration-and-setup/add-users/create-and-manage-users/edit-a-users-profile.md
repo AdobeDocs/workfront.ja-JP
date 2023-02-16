@@ -8,54 +8,17 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '2557'
+source-wordcount: '2760'
 ht-degree: 0%
 
 ---
 
 # ユーザーのプロファイルの編集
 
-<!--drafted for Work Time field: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
-
-<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
-
-<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
-
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span> 
-
-<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
-
-<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-<b>TIP</b>
-
-<span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
-
-
-***UPDATED FTE FIELD***
-
-FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
-
-The FTE must be a decimal number up to 1, and it cannot be 0. 
-The field's default is 1.
-
-For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
-
-Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
-
-For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
--->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 >[!IMPORTANT]
 >
@@ -144,16 +107,16 @@ Adobe Workfront管理者は、新しいユーザーを作成し、既存のユ�
       <td role="rowheader">アクセス</td> 
       <td> 
        <ul> 
-        <li><b>アクティブ：</b> このボックスを選択して、ユーザーがアクティブであることを示します。 アクティブなユーザーはWorkfrontのライセンスを使用しています。 このボックスをオフにすると、ユーザーが非アクティブになります。</li> 
-        <li> <p><b>アクセスレベル：</b> このユーザーに割り当てるアクセスレベルを選択します。</p> 
-        <p>ユーザーにアクセスレベルを割り当てる際に、自分のアクセスレベルと等しいかそれ以下のレベルを割り当てることができます。 （たとえば、アクセス・レベルが「プランナ」の場合は、管理者アクセス・レベルを割り当てることはできません）。 ただし、Workfront管理者がアクセスレベルで有効にしているデフォルト以外の権限を、独自のアクセスレベルでも有効にしている場合は、デフォルトで自分のアクセスレベルより小さいアクセスレベルを割り当てることはできません ( <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>) をクリックします。 </p> 
-        <p>アクセスレベルの詳細については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfrontへのアクセスの設定</a>.</p> </li> 
-        <li> <p><b>レイアウトテンプレート</b>:ユーザーのレイアウトテンプレートを選択します。 このレイアウトテンプレートは、ユーザのホームグループ、ホームチーム、または主要な職務の役割に割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当て優先度の詳細については、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>.</p> <p><b>メモ</b>:  <p>このフィールドで使用できるテンプレートのリストは、アクセス権によって異なります。</p> 
-          <ul> 
-           <li>Workfront管理者は、すべてのシステムレベルおよびグループレベルのレイアウトテンプレートを表示できます。</li> 
-           <li>グループ管理者は、システムレベルのレイアウトテンプレートと、管理するグループに関連付けられているレイアウトテンプレートを表示できます。</li> 
-           <li>プランライセンスを持ち、ユーザを編集するためのアクセス権を持つユーザは、システムレベルのレイアウトテンプレートのみを表示できます。</li> 
-          </ul> <p>グループレベルのレイアウトテンプレートの詳細については、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>.</p> </p> </li> 
+      <li><b>アクティブ：</b> このボックスを選択して、ユーザーがアクティブであることを示します。 アクティブなユーザーはWorkfrontのライセンスを使用しています。 このボックスをオフにすると、ユーザーが非アクティブになります。</li> 
+       <li> <p><b>アクセスレベル：</b> このユーザーに割り当てるアクセスレベルを選択します。</p> 
+       <p>ユーザーにアクセスレベルを割り当てる際に、自分のアクセスレベルと等しいかそれ以下のレベルを割り当てることができます。 （たとえば、アクセス・レベルが「プランナ」の場合は、管理者アクセス・レベルを割り当てることはできません）。 ただし、Workfront管理者がアクセスレベルで有効にしているデフォルト以外の権限を、独自のアクセスレベルでも有効にしている場合は、デフォルトで自分のアクセスレベルより小さいアクセスレベルを割り当てることはできません ( <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>) をクリックします。 </p> 
+       <p>アクセスレベルの詳細については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfrontへのアクセスの設定</a>.</p> </li> 
+       <li> <p><b>レイアウトテンプレート</b>:ユーザーのレイアウトテンプレートを選択します。 このレイアウトテンプレートは、ユーザのホームグループ、ホームチーム、または主要な職務の役割に割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当て優先度の詳細については、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>.</p> <p><b>メモ</b>:  <p>このフィールドで使用できるテンプレートのリストは、アクセス権によって異なります。</p> 
+       <ul> 
+       <li>Workfront管理者は、すべてのシステムレベルおよびグループレベルのレイアウトテンプレートを表示できます。</li> 
+       <li>グループ管理者は、システムレベルのレイアウトテンプレートと、管理するグループに関連付けられているレイアウトテンプレートを表示できます。</li> 
+       <li>プランライセンスを持ち、ユーザを編集するためのアクセス権を持つユーザは、システムレベルのレイアウトテンプレートのみを表示できます。</li> 
+       </ul> <p>グループレベルのレイアウトテンプレートの詳細については、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>.</p> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -173,7 +136,24 @@ Adobe Workfront管理者は、新しいユーザーを作成し、既存のユ�
       <td role="rowheader">リソース計画 </td> 
       <td> 
        <ul>
-       <li><b>無効化をスケジュール</b>:一定期間後にこのユーザーを非アクティブ化するようにスケジュールする場合は、このチェックボックスをオンにします。 </li> 
+       <li>
+       <b><span class="preview">作業時間</span></b>: <span class="preview">ユーザーが実際の作業に使用できるフルタイム相当 (FTE) 時間の割合を表します（オーバーヘッドは含まれません）。 [ 作業時間 ] には 1 までの 10 進数を指定する必要があります。0 は指定できません。 例えば、実際の作業時間の 20%の可用性は 0.2 となります。</span>
+
+   <span class="preview">フィールドのデフォルト値は 1 で、ユーザーが FTE 全体を実際のプロジェクト関連の作業に費やすことを示します。</span>
+
+   <span class="preview">この数値を使用して、プロジェクト関連の実際の作業に対するユーザーの可用性が計算されます。 </span>
+
+   <span class="preview">Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>.</span>
+
+   <span class="preview">スケジュールの例外とタイムオフも、ユーザーの容量に影響を与える可能性があります。
+
+   Workfrontは、セットアップ領域のリソース管理環境設定に基づいて、ユーザーの可用性を計算します。 詳しくは、 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a>.
+
+   <b>ヒント</b>
+
+   <span class="preview">[ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。</span>
+   </li> 
+      <li> <b>無効化をスケジュール</b>:一定期間後にこのユーザーを非アクティブ化するようにスケジュールする場合は、このチェックボックスをオンにします。 </li> 
        <li><b>予定されている非アクティブ化日</b>:ユーザーが非アクティブ化された日付。 非アクティブ化のためのユーザーのスケジュール設定について詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">ユーザーのアクティベーション解除をスケジュール</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーを非アクティブ化または再アクティブ化する</a>.</li> 
        <li> <p><b>プライマリの役割</b>:これは、Workfrontでユーザーが満たすことができる主な役割です。 ユーザーが割り当てられているタスクと問題も、このジョブの役割に割り当てられます。 リソース管理には、ジョブの役割が不可欠です。 このフィールドは、管理者ユーザーアクセス権を持つプランライセンスを持っている場合、またはWorkfront管理者である場合にのみ更新できます。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> <p>リストには、アクティブなジョブの役割のみが表示されます。 </p> </li> 
        <li>選択した <b>プライマリの役割</b>、 <b>FTE の可用性の割合</b> フィールドが表示されます。 このジョブの役割に割り当てるユーザーのスケジュールの時間の割合を指定します。 [プライマリロールの FTE 可用性の割合 ] のデフォルト値は 100%です。 </li> 
@@ -188,9 +168,28 @@ Adobe Workfront管理者は、新しいユーザーを作成し、既存のユ�
       </ul></p> </li> 
        <li><b>デフォルトの時間タイプ</b>:ユーザーのデフォルトの時間タイプを選択します。 ユーザーが時間をログに記録する際にデフォルトで使用される時間タイプです。</li> 
        <li><b>利用可能な時間タイプ</b>:ユーザーが使用できる時間タイプを選択します。 これらの時間タイプは、Workfrontのどこでもユーザーが時間をログに記録できる場所に表示されます。 ユーザーは、プロジェクトレベルおよびユーザーレベルで有効になっている時間タイプのみを表示できます。 ユーザーが使用できる時間のタイプについて詳しくは、 <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">タイムシートの時間の種類と可用性を定義する</a>.</li> 
-       <li><b>ログイン時間：</b> ユーザーが作業項目に対する時間を時間単位または日単位で記録するかどうかを選択します。 詳しくは、 <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">時間をログイン時間または日に設定</a>.</li> 
-       <li> <p><b>FTE</b>:この数値を使用して、システム・レベルで「生産資源管理プリファレンス」が「次の値」に設定されている場合にのみ、デフォルト・スケジュールに基づいてユーザーの可用性が計算されます。 <b>デフォルトのスケジュール</b>. 値は <i>0</i> または <i>.1</i> および <i>1</i>.</p> <p>例えば、FTE 値が 0.5 で、デフォルトのスケジュールが 40 時間の場合、ユーザーは週に 20 時間働くことができます。</p> <p>システム・レベルで「生産資源管理プリファレンス」が「 <b>ユーザーのスケジュール</b>に設定すると、ここで指定した値は無視され、ユーザーは、スケジュールに指定された内容に従って使用可能と見なされます。 この場合、リソース・プランナのユーザーの FTE は次の式で計算されます。</p> <p ><code>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code><em><br></em> </p> <p>ユーザー FTE の計算について詳しくは、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.<br>Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>.</p> <p>スケジュールの例外とタイムオフは、計画時間または工数の量に影響を与える場合があります。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>. </p> </li> 
-        <li><b>リソースプール</b>:ユーザーをリソースプールに関連付けます。 詳しくは、 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">リソースプールとユーザーの関連付け </a>.</li> 
+       <li><b>ログイン時間：</b> ユーザーが作業項目に対する時間を時間単位または日単位で記録するかどうかを選択します。 詳しくは、 <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">時間をログイン時間または日に設定</a>.</li>
+
+   <li> <b>FTE</b>:これは、ユーザーと同等のフルタイムです。 Workfrontは、この数値を使用して、システム・レベルの「生産資源管理プリファレンス」が「デフォルト・スケジュール」に設定されている場合にのみ、デフォルト・スケジュールに基づいてユーザーの可用性を計算します。
+
+   <p>FTE は、ユーザーが仕事に費やす時間を示します。 これには、オーバーヘッドや、プロジェクト作業に費やされた時間が含まれます。 例えば、ミーティングやトレーニングに費やした時間も FTE に含まれます。</p>
+
+   FTE は 1 までの 10 進数で、0 にはできません。 例えば、FTE 値が 0.5 で、Workfrontのデフォルトのスケジュールが 40 時間の場合、ユーザーは週に 20 時間使用できます。
+
+   フィールドのデフォルトは 1 です。
+
+   スケジュールの例外、タイムオフの場合があります。 <span class="preview">と Work Time の値</span> は、ユーザーの可用性に影響を与える可能性があります。
+
+   Workfrontは、セットアップ領域のリソース管理環境設定に基づいて、ユーザーの可用性を計算します。
+
+   システム・レベルの「生産資源管理プリファレンス」が「ユーザーのスケジュール」に設定されている場合、ここで指定した値は無視され、ユーザーはスケジュールで指定された内容に従って使用可能と見なされます。
+
+   詳しくは、 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a>.
+
+   Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>.
+   </li>
+
+   <li><b>リソースプール</b>:ユーザーをリソースプールに関連付けます。 詳しくは、 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">リソースプールとユーザーの関連付け </a>.</li> 
         <li><b>時間あたりのコスト</b>:ユーザーの 1 時間あたりのコストの量。 </li> 
         <li><b>1 時間あたりの請求</b>:ユーザーの 1 時間あたりの請求額。</li> 
        </ul> </td> 

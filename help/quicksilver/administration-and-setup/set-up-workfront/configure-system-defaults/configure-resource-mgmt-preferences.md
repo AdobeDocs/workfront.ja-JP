@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-<!--drafted for Work time field: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] システムの環境設定。 これらの環境設定では、 [!DNL Workfront] リソースのスケジュールおよび計画ツール。
 
@@ -79,26 +79,18 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
  </tbody> 
 </table>
 
-<!--drafted for Work time field: 
+## ユーザーの容量を計算する際に考慮される情報
 
-## Information taken into account when calculating user's capacity
+ユーザーの容量を計算する際、Workfrontでは次の情報が考慮されます。
 
-When calculating a user's capacity, Workfront takes into account the following information:
-
-* The number of scheduled hours, as defined in either the Schedule of the user or the Workfront system's [!UICONTROL Default Schedule]
-* [!UICONTROL Schedule] [!UICONTROL Exceptions] (depending on which [!UICONTROL Schedule] is used, it can be the exceptions of the user's schedule, or those associated with the [!DNL Workfront] [!UICONTROL Default Schedule])
-* User's time off
-* The value of the Full Time Equivalent ([!UICONTROL FTE]) of the user or that of the [!DNL Workfront] system. The [!UICONTROL FTE] equals 1 when the user works full time, as defined in the schedule. 
-
-<!-drafted for Work Time field  
-
-* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time on non-project-related work like meetings or trainings.</span>
-
--->
+* ユーザーのスケジュールまたはWorkfrontシステムのスケジュールで定義された、スケジュールされた時間数 [!UICONTROL デフォルトのスケジュール]
+* [!UICONTROL スケジュール] [!UICONTROL 例外] ( [!UICONTROL スケジュール] が使用されている場合、ユーザーのスケジュールの例外である場合、または [!DNL Workfront] [!UICONTROL デフォルトのスケジュール])
+* ユーザーのオフタイム
+* フルタイム相当 ([!UICONTROL FTE]) に含まれます。 [!DNL Workfront] システム。 この [!UICONTROL FTE] は、スケジュールで定義されているように、ユーザーがフルタイムで作業する場合は 1 に等しくなります。
+* <span class="preview">の値 [!UICONTROL 作業時間] ユーザーがプロジェクト関連の作業に費やした時間を参照するユーザーの場合。 会議やトレーニングなどのオーバーヘッド時間は含まれません。 この [!UICONTROL 作業時間] が 1 に等しいのは、ユーザーが作業に使用できる状態が [!UICONTROL FTE] スケジュールとは、会議やトレーニングなど、プロジェクトに関連しない作業に時間を費やさないということです。</span>
 
 でのリソースの計画とスケジュールに関する情報 [!DNL Workfront]を参照してください。 [リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-—>
 
 ## 設定 [!UICONTROL リソース管理] 環境設定
 
@@ -118,9 +110,8 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       Workfrontは、Workfront管理者が [!UICONTROL デフォルトのスケジュール]:
 
-      <!--drafted for Work Time field:
-      In the Production environment: 
-      -->
+
+      実稼動環境では、次の操作をおこないます。
 
       ```
       User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
@@ -135,11 +126,10 @@ When calculating a user's capacity, Workfront takes into account the following i
       ```
       >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
       >```
-   <!--drafted for Work Time field
 
       <div class="preview">
-      
-      In the Preview environment: 
+
+      プレビュー環境では、次の操作をおこないます。
 
       ```
       User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * Work Time
@@ -147,19 +137,19 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       >[!INFO]
       >
-      >For example, if the Default Schedule is 40 hours a week,  the FTE in the profile of the user is 0.5, the user has 1 hour of Time off one day, and the [!UICONTROL Work Time] in the profile of the user is 0.5, the user is available for actual project work for 9.5 hours a week.
+      >例えば、デフォルトスケジュールが週 40 時間の場合、ユーザーのプロファイルの FTE が 0.5 である場合、ユーザーは 1 日 1 時間のオフタイムを持ち、 [!UICONTROL 作業時間] ユーザーのプロファイルが 0.5 の場合、ユーザーは週に 9.5 時間、実際のプロジェクト作業に使用できます。
       >
-      >If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:
+      >ユーザーが 1 日に 1 時間のオフタイムを持っている場合、利用可能な時間は次のように計算されます。
       >
-      >```
+      >
+      ```
       >User Available Hours = [(40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours
       >```
 
       </div>
 
-   -->
 
-   <!--      
+      <!--      
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE: this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
       <div class="example" data-mc-autonum="<b>Example: </b>">      
       <span class="autonumber"><span><b>Example: </b></span></span>      
@@ -181,9 +171,8 @@ When calculating a user's capacity, Workfront takes into account the following i
       >
       >ユーザーがスケジュールに関連付けられていない場合、ユーザーの使用可能時間は [!UICONTROL デフォルトのスケジュール].
 
-      <!--drafted for Work Time field:
-      In the Production environment: 
-      -->
+      実稼動環境では、次の操作をおこないます。
+
 
       ユーザーが使用できる時間は、次の数式で計算されます。
 
@@ -208,19 +197,17 @@ When calculating a user's capacity, Workfront takes into account the following i
       >User Weekly Available [!UICONTROL FTE] = (30-2) / 40 = 0.70
       >```
 
-      <!--drafted for Work Time field:
-
       <div class="preview">
 
-      In the Preview environment: 
-      
-      The Available hours for the user is calculated by the following formula:
+      プレビュー環境では、次の操作をおこないます。
+
+      ユーザーが使用できる時間は、次の数式で計算されます。
 
       ```
       User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]
-      ```    
+      ```
 
-      The Available [!UICONTROL FTE] for the user is calculated by the following formula:
+      利用可能な [!UICONTROL FTE] の値は、次の式で計算されます。
 
       ```
       User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours
@@ -228,14 +215,15 @@ When calculating a user's capacity, Workfront takes into account the following i
 
       >[!INFO]
       >
-      >For example, if the [!UICONTROL Default Schedule] is 40 hours a week, the schedule of the user is 30 hours a week, and the user's [!UICONTROL Work Time] is 0.5 the [!UICONTROL FTE] of the user is 0.35.
+      >例えば、 [!UICONTROL デフォルトのスケジュール] が週に 40 時間、ユーザーのスケジュールが週に 30 時間、ユーザーの [!UICONTROL 作業時間] は 0.5 です。 [!UICONTROL FTE] の値は 0.35 です。
       >
-      >If the user has 2 hours of Time off one day, their Weekly Available [!UICONTROL FTE] will be calculated as follows:
+      >ユーザーが 1 日に 2 時間の休暇を取っている場合、そのユーザーの週間利用可能 [!UICONTROL FTE] は次のように計算されます。
       >
-      >```
+      >
+      ```
       >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
       >```
-      
+
       </div>
-      -->
+
 1. 「**[!UICONTROL 保存]**」をクリックします。

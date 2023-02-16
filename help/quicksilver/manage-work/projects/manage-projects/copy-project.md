@@ -6,16 +6,16 @@ description: プロジェクトは、ゼロから作成する代わりにコピ�
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '736'
 ht-degree: 5%
 
 ---
 
 # プロジェクトのコピー
 
-<!--some areas are drafted for the 23.2 release story-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +33,7 @@ ht-degree: 5%
 >* メモ
 >* 時間
 >* プロジェクト間の先行タスク
->* 予算計上時間数 <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
+>* <span class="preview">予算計上時間数</span>
 >
 >次の項目は、常に既存のプロジェクトから新しいプロジェクトにコピーされます。
 >
@@ -137,11 +137,6 @@ ht-degree: 5%
 
 1. （オプション）新しいプロジェクトにコピーしない項目の選択を解除します。 次の表は、項目を選択解除した場合の動作を示しています。
 
-   <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
-      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
-      <b>NOTE</b>
-      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
-      -->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -178,9 +173,20 @@ ht-degree: 5%
      </tr> 
      <tr> 
       <td role="rowheader">すべての先行タスク</td> 
-      <td> <p>プロジェクト上のタスク間の先行タスク関係をすべて削除します。 </p> <p>ヒント：プロジェクト間の先行タスクは、選択されているかどうかに関係なく、新しいプロジェクトに転送されません。 </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>プロジェクト上のタスク間の先行タスク関係をすべて削除します。 </p> <p><b>ヒント</b>
+
+   プロジェクト間の先行タスクは、選択されているかどうかに関係なく、新しいプロジェクトに転送されません。 </p> </td>
+   </tr>
+
+<tr> 
+      <td role="rowheader"><span class="preview">予算計上時間数</span></td> 
+      <td> <p><span class="preview">プロジェクトのビジネスケースの「リソース計画」領域に予算された時間を、コピーしたプロジェクトから削除します。 <span class="preview"></p>
+
+<b>メモ</b>
+
+<span class="preview">シナリオ・プランナを使用して予算化された時間は、新規プロジェクトはシナリオ・プランナのイニシアチブにリンクされていないので、新規プロジェクトにはコピーされません。 詳しくは、 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">シナリオ・プランナを使用したビジネス・ケースの予算生産資源</a></span>
+</tr></td>
+    <tr> 
       <td role="rowheader">財務情報</td> 
       <td> <p>次の領域の情報を削除します。 </p> 
        <ul> 
