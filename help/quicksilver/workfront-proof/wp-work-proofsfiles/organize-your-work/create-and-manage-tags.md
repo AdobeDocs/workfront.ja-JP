@@ -7,9 +7,9 @@ description: タグを作成および編集し、配達確認およびファイ�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
 1. クリック **[!UICONTROL タグ]** > **[!UICONTROL タグを管理]** リストのすぐ上に
 
 1. の [!UICONTROL タグ] 表示されるタブで、前述のようにタグを管理します。 [タブの作成、編集、削除。](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
-   タグの横のチェックボックスのチェックインがダークグレーの場合、選択したすべての項目にタグが適用されます。 薄いグレーの場合は、選択したバッチ内の一部の項目のみがその項目にタグ付けされます。 選択したすべての項目からタグを削除する場合は、タグの横にあるチェックボックスが空であることを確認します。\
+   タグの横のチェックボックスがダークグレーの場合、選択したすべての項目にタグが適用されます。 薄いグレーの場合は、選択したバッチ内の一部の項目のみがその項目にタグ付けされます。 選択したすべての項目からタグを削除する場合は、タグの横にあるチェックボックスが空であることを確認します。\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## 配達確認の詳細またはファイルの詳細からのタグの管理

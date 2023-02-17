@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: eeff0c8a3f7cbccd942c978d771d24f4cf9c425d
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -92,12 +92,14 @@ ht-degree: 1%
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>（必須）ウィジェットがインターネット上で保存されているウィジェットの URL を入力または貼り付けます。</p> 
+       <p><strong>重要</strong>:の URL は、パブリック URL である必要があります。 </p>
       <p>ビデオウィジェットを追加する場合は、現在、URL ボックスに次のコードを追加して追加できます。</p> 
       <ul> 
       <li> <p>YouTubeまたは Vimeo リンク</p> </li> 
       <li> <p>Google Drive ビデオリンク</p> </li> 
       <li> <p>MP4 および MOV 拡張子を持つビデオへのリンク</p> </li> 
-      <li> <p>Workfrontインスタンスのドキュメント領域に既にアップロードされているビデオへのリンク。 手順については、 <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">「ドキュメント」領域からカスタムフォームにビデオウィジェットを追加する</a> 」を参照してください。</p> </li> 
+      <li> <p>Workfrontインスタンスのドキュメント領域に既にアップロードされているビデオへのリンク。 手順については、 <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">「ドキュメント」領域からカスタムフォームにビデオウィジェットを追加する</a> 」を参照してください。</p> 
+      </li> 
       </ul> 
        </td> 
      </tr> 

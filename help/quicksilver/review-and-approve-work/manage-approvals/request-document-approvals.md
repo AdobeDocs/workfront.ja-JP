@@ -6,9 +6,9 @@ description: Adobe Workfrontのドキュメントに対して、マネージャ�
 author: Courtney
 feature: Work Management
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe Workfrontのドキュメントに対して、マネージャーまたは�
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リクエストのアクセスまたは承認に関連付けられたオブジェクトへの表示または高いアクセス権 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>リクエストのアクセスまたは承認に関連付けられたオブジェクトへのアクセスを管理します </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
