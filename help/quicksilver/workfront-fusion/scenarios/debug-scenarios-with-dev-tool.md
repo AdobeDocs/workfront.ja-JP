@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion DevTool を使用すると、シナリオを
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c74a804e5c998a2a127100ae62eac371a7e55d39
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1666'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 次の手順で [!DNL Workfront Fusion] DevTool は、最初にインストールする必要があります。
 
-1. クリック [このリンク](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) をクリックして、拡張機能をダウンロードします。
+1. クリック [このリンク](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool+(3).zip) をクリックして、拡張機能をダウンロードします。
 1. ファイルがダウンロードされたら、目的のフォルダーに展開します。
 1. でタブを開く [!DNL Chrome]
 1. タブの検索バーに、 `chrome://extensions`.
