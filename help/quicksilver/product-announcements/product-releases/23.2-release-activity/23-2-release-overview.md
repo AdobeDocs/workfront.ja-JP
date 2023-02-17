@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 0%
 
 * [管理者の機能強化](#administrator-enhancements)
 * [アジャイルの強化](#agile-enhancements)
+* [プロジェクト管理の強化](#project-management-enhancements)
+* [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者の機能強化
@@ -81,6 +83,57 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">カードでのフィールド表示のカスタマイズ</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>カードを開いたときのフルビューと、ボード上の縮小されたカード表示の両方で、どのフィールドをカードに表示するかを設定できるようになりました。 無効にしたフィールドは、どちらのビューにも表示されません。 また、フルビューでフィールドを有効にして、縮小表示で非表示にすることもできます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 2 月 17 日<br /></p>
+                            </li>
+                            <li>
+                                 <p>先行オプトインの実稼動リリース：2023 年 2 月 24 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.2 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">ボード列に移動されたカードのデフォルトのステータスを定義する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>列ポリシーでカスタムステータスとシステムステータスを選択することで、特定の列に移動したカードに適用するデフォルトのステータスを設定できるようになりました。 カードを列に移動すると、Workfrontは最初にカスタムステータス（フィードバック待ちなど）の適用を試みます。 そのカードでカスタムステータスが使用できない場合、Workfrontは代わりにシステムステータスを適用します（保留中など）。 また、接続されたタスクまたは問題のステータスが列ポリシーで設定されたカスタムまたはシステムのステータスに変更された場合、カードは自動的に列に移動されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 2 月 17 日<br /></p>
+                            </li>
+                            <li>
+                                 <p>先行オプトインの実稼動リリース：2023 年 2 月 24 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.2 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">コレクションがAdobe Workfrontボードで利用可能に</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>ボードダッシュボードでコレクションを作成できるようになりました。 コレクションは、作業での共同作業用のボードのグループです。 コレクションに名前を付けたら、列名などの事前定義済みの設定を提供する一連のテンプレートを使用して、コレクションにボードを追加できます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 2 月 17 日<br /></p>
+                            </li>
+                            <li>
+                                 <p>先行オプトインの実稼動リリース：2023 年 2 月 24 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.2 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">接続されたカードの推定フィールドは、Workfrontオブジェクトの「ストーリーポイント」フィールドにマッピングされます</a></p>
@@ -99,7 +152,6 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">インテーク列でカードをプレビュー</a></p>
@@ -113,6 +165,77 @@ ht-degree: 0%
                             <li>
                                  <p>先行オプトインの実稼動リリース：2023 年 2 月 3 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.2 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### プロジェクト管理の強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">プロジェクトのコピー時の予算時間のコピー</a><span style="color: #ff0000;"> プレビューの新機能</span>
+                        <p>これで、プロジェクトをコピーする際に、ビジネス事例の「生産資源予算設定」領域または「生産資源プランナ」領域で予算計画された時間をコピーするオプションが用意されました。 この機能強化の前は、プロジェクトに予算が割り当てられた時間は、コピーされたプロジェクトには転送されませんでした。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 2 月 17 日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">実稼動版リリース：2023 年 3 月 2 日（オフサイクル）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### リソース管理の強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">ユーザー容量を正確に計算する「作業時間」フィールドの紹介</a><span style="color: #ff0000;"> プレビューの新機能</span>
+                        <p>リソースマネージャが、実際のプロジェクト関連の作業に専念するユーザーとアカウントの可用性を正確に計算できるように、Adobe Workfrontに「作業時間」の概念を導入しました。</p>
+                        <p>各ユーザーのプロファイルを作成または編集する際に、各ユーザーの「作業時間」フィールドの値を定義できます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 2 月 17 日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">実稼動版リリース：2023 年 3 月 2 日（オフサイクル）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for XDで、1 つのPDFまたは複数のPDFファイルとしてアートボードを書き出す</span></a><span style="color: #ff0000;"> 実稼動環境での新規作成</span>
-                        <p>Adobe Workfront for XDプラグインで、アートボードを 1 つのPDFファイルまたは複数のPDFファイルとして書き出すように選択できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for XDで、1 つのPDFまたは複数のPDFファイルとしてアートボードを書き出す</span></a>
+                        </span></a><p>Adobe Workfront for XDプラグインで、アートボードを 1 つのPDFファイルまたは複数のPDFファイルとして書き出すように選択できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
