@@ -6,9 +6,9 @@ description: タスクの割り当てを管理する場合、タスクのリス�
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 0%
 
 この記事では、タスクリスト内の複数のタスクに対する複数のユーザー割り当てを変更する方法について説明します。 他の領域の複数のタスクに対する割り当てを変更する場合は、次の記事も参照してください。
 
-* 「スケジュール設定」領域の複数のタスクに対する割り当ての変更の詳細については、 [[ スケジュール ] 領域のタスクに対する複数のユーザ割り当てを変更する](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * ワークロード・バランサを使用したタスクの割り当ての詳細は、 [ワークロードバランサーでの作業割り当ての概要](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 リスト内の 1 つのリソースにタスクを割り当てる方法については、 [タスクを割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

@@ -7,9 +7,9 @@ description: Adobe Workfrontでフィルターを使用すると、リスト、�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: a74cc358c547e11a55cce728ad5330712ed0bd49
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,6 @@ Workfrontの次の領域で、組み込みフィルターを使用するか、�
 * 使用率レポート
 
    詳しくは、 [使用状況情報のフィルタリング](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) 記事内 [リソース使用率情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-
-* リソーススケジュール領域\
-   詳しくは、 [スケジュール領域の情報のフィルタリング](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
 * ワークロードバランサー
 

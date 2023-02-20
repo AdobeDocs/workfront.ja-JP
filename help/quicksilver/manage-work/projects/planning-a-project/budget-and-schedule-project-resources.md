@@ -6,10 +6,10 @@ description: 予算およびスケジュールプロジェクトリソース
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +30,4 @@ Adobe Workfrontでプロジェクトの計画を完了する際は、次の手�
    * [Adobe Workfrontでのリソース計画](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [シナリオプランナーの概要](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* リソースをスケジュールしたり、タスクやタスクに割り当てたりします。 リソースをタスクとタスクに割り当てるときに、ユーザー、チームまたはロールを特定の作業項目に実際に関連付けて、それらの項目の完了を担当させることができます。.
-
-   詳しくは、次の記事を参照してください。
-
-   * [ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-   * [リソース スケジュール](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
+* リソースをスケジュールしたり、タスクやタスクに割り当てたりします。 リソースをタスクとタスクに割り当てるときに、ユーザー、チームまたはロールを特定の作業項目に実際に関連付けて、それらの項目の完了を担当させることができます。 詳しくは、 [ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

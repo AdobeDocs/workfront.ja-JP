@@ -6,7 +6,7 @@ description: リソースマネージャーは、Adobe Workfrontワークロー�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 0%
@@ -49,8 +49,9 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 * ユーザーの休日。 これは、ユーザーがオフにする予定の日を示します。
 
    詳しくは、 [Adobe Workfrontでの個人の休日の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-* <span class="preview">ユーザーの作業時間。 これは、オーバーヘッドを含まずに、実際のプロジェクト関連作業を実行するためにユーザーが使用できる FTE 時間の割合を示します。 [ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。</span>
+<div class="preview">
+*ユーザーの作業時間。 これは、オーバーヘッドを含まずに、実際のプロジェクト関連作業を実行するためにユーザーが使用できる FTE 時間の割合を示します。 [ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。
+</div>
 
 ## ワークロードバランサーでの作業の割り当て
 
@@ -58,7 +59,7 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 
 ワークロードバランサーで作業を割り当てるには、次の方法を使用します。
 
-* 各項目を手動で割り当てることにより、一度に 1 つの項目に設定できます。
+* 各項目を手動で割り当てることにより、一度に 1 つの項目に制限します。
 
    項目を手動で一度に 1 つずつ割り当てる際に、[ 高度な割り当て ] を実行できます。
 

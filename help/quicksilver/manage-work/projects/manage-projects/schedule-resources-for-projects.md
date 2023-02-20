@@ -6,7 +6,7 @@ description: 1 つのプロジェクトのリソースをスケジュールし�
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 2%
@@ -59,7 +59,7 @@ ht-degree: 2%
 1. リソースをスケジュールするプロジェクトに移動します。
 1. 次をクリック： **スケジュール** またはワークロードバランサーセクションを開きます。 Scheduling または Workload Balancer のセクションは、 **さらに表示**.
 
-   プロジェクトのスケジュールツールを使用してリソースをスケジュールする方法については、 [ユーザー割り当てと割り当ての変更](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) 記事のセクション [リソーススケジュールの概要](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   プロジェクトのスケジューリングツールを使用してリソースをスケジュールする方法の詳細については、「リソーススケジュールの概要」の「ユーザー割り当てと割り当てを変更する」の節を参照してください。
 
 1. （条件付きおよび推奨）「スケジュール設定」をクリックした場合は、 **ワークロードバランサーに切り替え** ワークロードバランサーを使用してリソースをスケジュールする場合。
 

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
 * [!UICONTROL スケジュール] [!UICONTROL 例外] ( [!UICONTROL スケジュール] が使用されている場合、ユーザーのスケジュールの例外である場合、または [!DNL Workfront] [!UICONTROL デフォルトのスケジュール])
 * ユーザーのオフタイム
 * フルタイム相当 ([!UICONTROL FTE]) に含まれます。 [!DNL Workfront] システム。 この [!UICONTROL FTE] は、スケジュールで定義されているように、ユーザーがフルタイムで作業する場合は 1 に等しくなります。
-* <span class="preview">の値 [!UICONTROL 作業時間] ユーザーがプロジェクト関連の作業に費やした時間を参照するユーザーの場合。 会議やトレーニングなどのオーバーヘッド時間は含まれません。 この [!UICONTROL 作業時間] が 1 に等しいのは、ユーザーが作業に使用できる状態が [!UICONTROL FTE] スケジュールとは、会議やトレーニングなど、プロジェクトに関連しない作業に時間を費やさないということです。</span>
+<div class="preview">
+*ユーザーの [!UICONTROL Work Time] の値。ユーザーがプロジェクト関連の作業に費やした時間を指します。 会議やトレーニングなどのオーバーヘッド時間は含まれません。 [!UICONTROL 作業時間 ] は、[!UICONTROL FTE] またはスケジュールで示されたとおりに、ユーザーが作業に使用できる場合は 1 になります。つまり、会議やトレーニングなど、プロジェクト関連以外の作業に時間を費やしません。
+</div>
 
 でのリソースの計画とスケジュールに関する情報 [!DNL Workfront]を参照してください。 [リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

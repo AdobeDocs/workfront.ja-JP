@@ -6,9 +6,9 @@ description: このページでは、R1.3 リリースでプレビュー環境�
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ R1 で行われたすべての変更のリストについては、 [R1 リリー
 
 ## カレンダーの作業チームの更新
 
+>[!NOTE]
+>
+>リソーススケジュールツールは廃止され、23.1 リリースでWorkfrontから削除されました。 ワークロード・バランサを使用したリソースのスケジュール設定の詳細は、 [ワークロードバランサーの概要](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 チームで使用できるカレンダーの操作に、追加の機能とルックアンドフィールが追加されました。 チームの [ 作業カレンダー ] は、プロジェクトのリソーススケジュールツールと同様に機能するようになりました。
 
 更新されたチームのカレンダーの作業には、次の改善点が含まれています。
@@ -52,22 +56,26 @@ R1 で行われたすべての変更のリストについては、 [R1 リリー
 * タスクは、チームの [ カレンダーで作業 ] にデフォルトで表示されます。\
    プロジェクトのリソースをスケジュールする場合、デフォルトでは問題は表示されません。
 
-更新されたチームの使用の詳細については、「カレンダーの操作」を参照してください。 [リソーススケジュール](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+更新されたチームのカレンダー作業の詳細については、「リソースのスケジュール設定」を参照してください。
 
 ## リソーススケジュールの強化
 
 スケジュールタイムラインには、次の機能強化が含まれています。
 
-* [フィルターを使用して、スケジュールタイムラインに表示するユーザーを制御します](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [タスクの割り当て後も、ユーザーがタイムラインに留まる](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* 「フィルターを使用して、スケジューリング・タイムラインに表示するユーザーを制御する」
+* タスクの割り当て後も、ユーザーがタイムラインに留まる
 
 ### フィルターを使用して、スケジュールタイムラインに表示するユーザーを制御します {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>リソーススケジュールツールは廃止され、23.1 リリースでWorkfrontから削除されました。 ワークロード・バランサを使用したリソースのスケジュール設定の詳細は、 [ワークロードバランサーの概要](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 これで、フィルターを使用して、スケジューリングタイムラインに表示するユーザーと、「未割り当て」領域に表示するタスクおよび問題を制御できるようになりました。 フィルタでユーザを選択すると、[ 未割り当て ] 領域のタスクの役割割り当てに一致する役割割り当てがあるかどうかに関係なく、選択したユーザのみが表示されます。 現在そのユーザーに割り当てられているすべてのタスクも表示されます。
 
 この変更以前は、フィルターは未割り当て領域に表示されたタスクと問題のみを制御していました。 ユーザーが「未割り当て」領域でタスクのロール割り当てに一致した場合にのみ、スケジュールタイムラインに表示されていました。
 
-フィルターを使用して、スケジューリングタイムラインに表示する内容を制御する方法について詳しくは、  [スケジュール領域の情報のフィルタリング](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)、および  [スケジュール領域で未割り当てタスクとタスクを手動で割り当てる](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [スケジュール領域で未割り当てタスクとタスクを手動で割り当てる](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+フィルタを使用して、スケジューリングタイムラインに表示する内容を制御する方法の詳細は、「スケジュール領域の情報をフィルタ」および「スケジュール領域の未割り当てタスクと問題を手動で割り当てる」を参照してください。
 
 ### タスクの割り当て後も、ユーザーがタイムラインに留まる {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ R1 で行われたすべての変更のリストについては、 [R1 リリー
 
 この変更がおこなわれる前は、タスクまたはイシューが割り当てられた直後に、「未割り当て」領域に、一致するロール割り当てを持つタスクまたはイシューが残っていない場合、ユーザーはスケジュールタイムラインから消えます。
 
-詳しくは、  [スケジュール領域で未割り当てタスクとタスクを手動で割り当てる](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [スケジュール領域で未割り当てタスクとタスクを手動で割り当てる](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+詳細については、「スケジュール領域で未割り当てタスクと問題を手動で割り当てる」を参照してください。
 
 ## オブジェクト名の変更によるWorkfrontの用語のカスタマイズ
 

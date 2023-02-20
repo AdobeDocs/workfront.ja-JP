@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '12695'
+source-wordcount: '12587'
 ht-degree: 1%
 
 ---
@@ -1626,18 +1626,6 @@ ht-degree: 1%
       * [リソースプランナーからの情報のエクスポート](resource-mgmt/resource-planning/export-resource-planner.md)
       * [生産資源プランナの予算時間に関するレポート](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [リソース・プランナの表示制限](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-   * リソース スケジュール {#resource-scheduling}
-      * [リソース スケジュール](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-      * [リソーススケジュールの概要](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-      * [スケジューリング領域の概要](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-      * [[ 集計 ] 領域で設定を行う](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-      * [スケジュール領域の役割およびグループメンバーシップに関係なく、ユーザー割り当てを許可します](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-      * [スケジュール領域で未割り当てタスクとタスクを自動的に割り当てます](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-      * [Workfrontがスケジューリング領域のリソース時間と FTE の可用性を計算する方法を設定します](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-      * [スケジュール領域の情報のフィルタリング](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-      * [スケジューリング領域でユーザー割り当てを管理します](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-      * [スケジュール領域で未割り当てタスクとタスクを手動で割り当てる](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-      * [[ スケジュール ] 領域のタスクに対する複数のユーザ割り当てを変更する](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
    * リソース使用率 {#resource-utilization}
       * [リソース使用率](resource-mgmt/resource-utilization/resource-utilization.md)
       * [リソース使用率情報の表示](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1853,7 +1841,6 @@ ht-degree: 1%
       * [Adobe Workfront目標での情報のフィルター](workfront-goals/goal-management/filter-information-wf-goals.md)
       * [Adobe Workfront目標の目標ステータスの概要](workfront-goals/goal-management/goal-status-overview.md)
       * [Adobe Workfront目標で目標コメントを管理](workfront-goals/goal-management/manage-goal-comments.md)
-      * [目標リストをAdobe Workfront目標に印刷](workfront-goals/goal-management/print-the-goal-list.md)
       * [Adobe Workfront目標の「目標の詳細」節の目標を更新します](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Adobe Workfront Goals での問題の発生している目標の確認](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Adobe Workfront目標の目標の調整 {#goal-alignment}
@@ -1869,7 +1856,6 @@ ht-degree: 1%
       * [Adobe Workfront目標での目標の進捗状況の更新](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
       * [Adobe Workfront目標の目標リストで目標を管理](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
       * [グラフを確認してAdobe Workfront目標の目標の進行状況の傾向を理解する](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-      * [Adobe Workfront目標パルスの節で目標を確認する](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
    * Adobe Workfront目標の結果とアクティビティ {#results-activities-adobe-workfront-goals}
       * [Adobe Workfront目標の結果とアクティビティ](workfront-goals/results-and-activities/results-and-activities.md)
       * [Adobe Workfront目標での目標へのアクティビティの追加](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1877,7 +1863,7 @@ ht-degree: 1%
       * [Adobe Workfront目標の目標へのプロジェクトの追加](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
       * [Adobe Workfront目標で結果とアクティビティを編集](workfront-goals/results-and-activities/edit-results-and-activities.md)
       * [Adobe Workfront目標の結果とアクティビティの概要](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-      * [Adobe Workfront目標の目標から結果、アクティビティ、プロジェクトを削除](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+      * [Adobe Workfront目標の目標から進行状況インジケーターを削除](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
    * Adobe Workfront目標設定 {#adobe-workfront-goal-settings}
       * [Adobe Workfront目標設定](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
       * [Adobe Workfront目標の用語のカスタマイズ](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)

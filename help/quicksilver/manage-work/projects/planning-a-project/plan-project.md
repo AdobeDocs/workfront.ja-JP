@@ -6,9 +6,9 @@ description: プロジェクトの概要の計画
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ ht-degree: 0%
 
    予定時間の詳細については、「 [計画時間の概要](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* 各タスクの完了を担当するユーザーまたはチームに各タスクを割り当てます。 
+* 各タスクの完了を担当するユーザーまたはチームに各タスクを割り当てます。
 * タスクに割り当てるユーザーの可用性を確認します。 割り当てられたタスクを完了できるように、タスクが自由に作業でき、割り当て超過になっていないことを確認します。 ユーザーの割り当てが超過している場合や、スケジュールに時間がない場合は、次のいずれかを考慮します。
 
    * 各タスクの計画時間を短縮します。
    * タスクに割り当てられた時間内にタスクを完了できるように、タスクにユーザーを追加します。
    * 他の制約を持たない使用可能なユーザーにタスクを再割り当てします。\
       プロジェクトリソースの計画の詳細については、「 [Adobe Workfrontでのリソース計画](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      プロジェクトで作業を遂行するためのリソースのスケジュール設定については、「 [リソーススケジュール](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      プロジェクトで作業を遂行するためのリソースのスケジュール設定について詳しくは、 [ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

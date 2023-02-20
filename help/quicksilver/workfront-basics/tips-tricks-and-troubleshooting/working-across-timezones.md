@@ -5,9 +5,9 @@ title: タイムゾーンをまたいでの作業
 description: 次の方法を理解すると役立ちます。 [!DNL Adobe Workfront] は、タイムゾーンを使用して以下の計算を行います — EDIT ME.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,7 @@ ht-degree: 0%
 
    プロジェクトまたはユーザーにスケジュールを割り当てる手順については、 [スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   スケジュールで設定されたタイムゾーンがの配布に与える影響について詳しくは、 [!UICONTROL 予定時間] 内 [!UICONTROL スケジュール] ツールと [!DNL Workload Balancer]を参照してください。
-
-   * [ユーザー割り当てを [!UICONTROL スケジュール] 領域](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-   * [ユーザー割り当てを [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-
+   スケジュールで設定されたタイムゾーンがの配布に与える影響について詳しくは、 [!UICONTROL 予定時間] 内 [!DNL Workload Balancer]を参照してください。 [ユーザー割り当てを [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### カスタムフォームで計算時間フィールドを使用する {#use-calculated-time-fields-in-a-custom-form}

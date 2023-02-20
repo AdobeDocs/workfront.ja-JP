@@ -7,9 +7,9 @@ description: 以下の記事を参照して、Workfront目標の基本事項、�
 author: Alina
 feature: Workfront Goals
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,5 @@ For additional information about access to Workfront Goals, see [Requirements to
 * [Adobe Workfront目標の目標の達成状況と条件の概要](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [Adobe Workfront目標での情報のフィルター](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md)
-* [目標リストをAdobe Workfront目標に印刷](../../workfront-goals/goal-management/print-the-goal-list.md)
 * [Adobe Workfront目標の「目標の詳細」節の目標を更新します](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
 * [Adobe Workfront Goals での問題の発生している目標の確認](../../workfront-goals/goal-management/view-in-trouble-goals.md)

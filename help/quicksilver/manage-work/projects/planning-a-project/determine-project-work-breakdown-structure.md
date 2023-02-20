@@ -6,9 +6,9 @@ description: プロジェクトの作業分類構造 (WBS) の定義とは、プ
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ Workfrontでのリソース管理を使用すると、プロジェクトを完�
 より高いレベルでのリソースの使用計画の詳細については、「 [リソース計画の概要](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 1 つのプロジェクトの作業分類構造を構築するコンテキストでリソースを管理し、各タスクを正しいリソースに割り当てる場合は、必ず実行する必要のある作業に対してリソースをスケジュールする準備が整います。\
-リソースのスケジュール設定について詳しくは、 [リソーススケジュール](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) 」セクションに入力します。
+リソースのスケジュール設定について詳しくは、 [ワークロードバランサー](../../../resource-mgmt/workload-balancer/workload-balancer.md) 」セクションに入力します。
 
 ## プロジェクトの財務を見積もる
 

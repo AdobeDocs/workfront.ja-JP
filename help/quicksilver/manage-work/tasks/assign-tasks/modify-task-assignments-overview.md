@@ -7,7 +7,7 @@ description: ユーザー、チームまたはジョブの役割にタスクを�
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * タスクの割り当てについて詳しくは、 [タスクを割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md) および [タスクリスト内の複数のユーザー割り当てを変更する](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* 「スケジュール設定」領域の複数のタスクに対する割り当ての変更の詳細については、 [[ スケジュール ] 領域のタスクに対する複数のユーザ割り当てを変更する](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* 「スケジューリング」領域の複数のタスクに対する割り当ての変更の詳細は、「スケジューリング領域のタスクに対する複数のユーザー割り当ての変更」を参照してください。
 * ワークロード・バランサを使用したタスクの割り当ての詳細は、 [ワークロードバランサーでの作業割り当ての概要](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 この記事の一部の情報は、問題への割り当てにも適用されます。 問題の割り当てとその他の考慮事項について詳しくは、 [問題の割り当ての変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

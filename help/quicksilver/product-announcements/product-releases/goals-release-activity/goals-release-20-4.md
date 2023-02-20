@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,12 @@ ht-degree: 0%
 
 * 目標リストを印刷するエクスペリエンスを更新し、より直感的な「目標リスト」セクションの印刷リンクを追加しました。
 
-   印刷目標について詳しくは、 [目標リストをAdobe Workfront目標に印刷](../../../workfront-goals/goal-management/print-the-goal-list.md).
+   目標の印刷について詳しくは、「Adobe Workfront目標の目標リストの印刷」を参照してください。
+
+   >[!NOTE]
+   >
+   >  目標を印刷する機能は廃止され、Workfrontから削除されました。
+
 
 * 目標の詳細パネルの結果とアクティビティに関する情報を追加し、違いを明確に理解できるようにしました。
 

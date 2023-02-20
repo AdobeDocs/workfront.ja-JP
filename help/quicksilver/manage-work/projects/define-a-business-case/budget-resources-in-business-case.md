@@ -5,9 +5,9 @@ description: リソース計画の一環として、ビジネスケースの構�
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->予算のリソースは、プロジェクトのリソースをスケジュールするのとは異なります。 リソースを予算する際に、プロジェクトでの作業の完了に必要な役割を見積もります。 プロジェクトでの作業に対して、実際にユーザーをスケジュールしたり、割り当てたりする方法については、 [リソーススケジュールの概要](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Adobe Workfrontでのリソース計画について詳しくは、 [リソース計画の概要](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>予算のリソースは、プロジェクトのリソースをスケジュールするのとは異なります。 リソースを予算する際に、プロジェクトでの作業の完了に必要な役割を見積もります。 プロジェクトでの作業に対して、実際にユーザーをスケジュールしたり、割り当てたりする方法については、 [ワークロードバランサーでのユーザー割り当ての管理](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 リソースを予算で割り当てる前に、ジョブの役割をプロジェクトに関連付ける必要があります。 次に、ジョブの役割をプロジェクトに割り当てる方法を示します。
 

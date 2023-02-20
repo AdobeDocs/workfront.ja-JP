@@ -7,9 +7,9 @@ description: 結果とアクティビティは、Adobe Workfront目標の目標�
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。
 >
 >Workfront Goals へのアクセスについて詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Workfront目標の進行状況を記録するには、進行状況インジケーターを目標に関連付ける必要があります。 結果やアクティビティに加えて、進行状況を記録するために、プロジェクトや子の目標を目標に関連付けることもできます。
 
 この節では、次の記事を扱います。
 

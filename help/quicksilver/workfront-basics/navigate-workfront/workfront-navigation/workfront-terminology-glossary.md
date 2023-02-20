@@ -5,9 +5,9 @@ title: 用語集 [!DNL Adobe Workfront] 用語
 description: この [!DNL Adobe Workfront] 用語集には、Adobe Workfrontでよく使用される用語が記載されています。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '19106'
+source-wordcount: '19138'
 ht-degree: 0%
 
 ---
@@ -480,8 +480,14 @@ ht-degree: 0%
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
-  --> 
-  <tr> 
+  -->
+
+<tr> 
+   <td> <p>キャパシティ</p> </td> 
+   <td> <p>リソースを作業に割り当てることができる時間です。 「可用性」を参照してください。 </p></td> 
+  </tr>
+
+<tr> 
    <td> <p>[!UICONTROL カテゴリ ]</p> </td> 
    <td> <p>カテゴリはカスタムフォームです。 このオブジェクトに関するレポートを作成し、他のオブジェクトレポートにも表示できます。 すべてのオブジェクトがカスタムフォームまたはカテゴリを持つことはできません。 次のオブジェクトは、カスタムフォームを持つことができます。 <br></p> 
     <ul> 
@@ -870,28 +876,28 @@ ht-degree: 0%
    <td>[!UICONTROL フォルダー ]</td> 
    <td>フォルダは、オブジェクトに関連付けられたドキュメントやレポートを整理するために使用します。</td> </tr>
   <tr>
-  <td>FTE（フルタイム相当）</td> 
+  <td>[!UICONTROL FTE] （フルタイム相当）</td> 
    <td>これは、リソースが作業に使用できる時間を示す [ フルタイム相当 ] です。 
-   「工数」フィールドは、次の領域に表示されます。 
+   [!UICONTROL FTE] フィールドは、次の領域に表示されます。 
   <ul>
    <li> ユーザーを編集または作成する際のユーザーのプロファイル </li>
-   <li> リソースプランナ </li>
-   <li> シナリオ・プランナ (Workfront Scenario Planner の追加ライセンスが必要 ) </li>
+   <li> [!UICONTROL リソースプランナー ] </li>
+   <li> [!UICONTROL Scenario Planner] (Workfront Scenario Planner の追加ライセンスが必要 ) </li>
    <li> ユーザーリストとレポート </li> </ul>
 
-<p>FTE は 1 までの 10 進数で、0 にはできません。 </p>
-   <p> FTE が 1（ユーザーのプロファイルで定義されている FTE フィールドのデフォルト）の場合、リソース（ユーザーまたは役割）は、使用可能性を計算するスケジュールに基づいて、時間全体で機能します。 </p>
+<p>[!UICONTROL FTE] は、1 までの 10 進数で指定する必要があり、0 にはできません。 </p>
+   <p> [!UICONTROL FTE] が 1（ユーザーのプロファイルで定義されている [!UICONTROL FTE] フィールドのデフォルト）の場合、リソース（ユーザーまたは役割）は、可用性を計算するスケジュールに基づいて、時間数全体で機能します。 </p>
    <p>Workfront管理者が、ユーザーの可用性を判断する際に使用するスケジュールを決定します。  </p>
    <ul>
-   <li> デフォルトスケジュールを使用すると、Workfrontはプロファイル内のユーザーの FTE を使用して可用性を計算します。 </li>
-   <li> ユーザーのスケジュールを使用すると、Workfrontはユーザーのタイムオフを使用します。 <span class="preview">作業時間の値</span>、およびユーザーの FTE を計算するデフォルトのスケジュールの時間。 </li> </ul>
+   <li> [!UICONTROL デフォルトスケジュール ] を使用すると、Workfrontはプロファイル内のユーザーの [!UICONTROL FTE] を使用して可用性を計算します。 </li>
+   <li> ユーザーのスケジュールを使用すると、Workfrontはユーザーのタイムオフを使用します。 <span class="preview">[!UICONTROL Work Time] 値</span>、および [!UICONTROL デフォルトスケジュール ] の時間（ユーザーの [!UICONTROL FTE] を計算する場合）。 </li> </ul>
 
 <p>詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a>.  </p>
-   <p>Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>. </p>
+   <p>でのスケジュール作成の詳細 [!DNL Workfront]を参照してください。 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>. </p>
 
 <p><b>メモ</b></p>
-   <p>シナリオ・プランナのすべての計算に対して、Workfrontは次の値を使用します。1 日= 8 時間</p>
-   <p>詳しくは、 <a href="../../../scenario-planner/get-started-with-scenario-planning.md">シナリオプランナーの概要</a>. </p>
+   <p>[!UICONTROL シナリオプランナー ] のすべての計算に対して、Workfrontは次の値を使用します。1 [!UICONTROL FTE] = 8 時間。</p>
+   <p>詳しくは、 <a href="../../../scenario-planner/get-started-with-scenario-planning.md">[!UICONTROL Scenario Planner] の概要</a>. </p>
    </td> </tr> 
    </tbody> 
    </table>
@@ -1451,7 +1457,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
-   <td> <p>何かが発生するようにスケジュールされている時間枠。 でプロジェクト、タスクまたはイシューを作成する場合 [!DNL Workfront]を使用して、計画された開始日と終了日、およびそれらが発生する計画された期間を設定します。 これらの値は、作業時間が完了するまでに要する元の意図または推定を表します。 </p></td> 
+   <td> <p>何かが発生するようにスケジュールされている時間枠。 でプロジェクト、タスクまたはイシューを作成する場合 [!DNL Workfront]を使用して、計画された開始日と終了日、およびそれらが発生する計画された期間を設定します。 これらの値は、項目の完了に要する時間の元の意図または推定を表します。 </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Benefit]</td> 
@@ -1904,7 +1910,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL スケジュールの除外 ]</td> 
-   <td>[!UICONTROL 変更済みシフト ] とも呼ばれます。 スケジュールで定義されている通常の週別作業時間とは異なり、スケジュールされた日数。 例えば、土曜日が機能するようにスケジュールを設定した場合、月曜日から金曜日までの作業のみがスケジュールに設定されていると、[!UICONTROL スケジュールの適用除外 ] となります。</td> 
+   <td>[!UICONTROL 変更済みシフト ] とも呼ばれます。 スケジュールで定義されている、通常の週別作業時間とは異なる、スケジュールされた日数。 例えば、土曜日が機能するようにスケジュールを設定した場合、月曜日から金曜日までの作業のみがスケジュールに設定されていると、[!UICONTROL スケジュールの適用除外 ] となります。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 予定レポート ]</td> 
@@ -2328,15 +2334,15 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
    <td>[!UICONTROL 作業時間 ]</td> 
    <td>
 
-<p><span class="preview">ユーザーが実際の作業に使用できるフルタイム相当 (FTE) 時間の割合を表します（オーバーヘッドは含まれません）。 [ 作業時間 ] には 1 までの 10 進数を指定する必要があります。0 は指定できません。 例えば、実際の作業時間の 20%の可用性は 0.2 となります。</span>  </p>
-   </p><span class="preview">フィールドのデフォルト値は 1 で、ユーザーが FTE 全体を実際のプロジェクト関連の作業に費やすことを示します。</span>   </p>
+<p><span class="preview">ユーザーが実際の作業に使用できる（オーバーヘッドを含まずに）フルタイム相当 ([!UICONTROL FTE]) 時間の割合を表します。 [!UICONTROL 作業時間 ] は、1 までの 10 進数で指定する必要があります。0 は指定できません。 例えば、実際の作業時間の 20%の可用性は 0.2 となります。</span>  </p>
+   </p><span class="preview">フィールドのデフォルト値は 1 で、ユーザーが [!UICONTROL FTE] 全体を実際のプロジェクト関連の作業に費やすことを示します。</span>   </p>
    <p><span class="preview">この数値を使用して、プロジェクト関連の実際の作業に対するユーザーの可用性が計算されます。 </span></p>
    <p> <span class="preview">スケジュールの例外とタイムオフも、ユーザーの容量に影響を与える可能性があります。</span> </p>
-   <p><span class="preview">Workfrontでスケジュールを作成する方法について詳しくは、「スケジュールを作成する」を参照してください。 （リンクを挿入）</span> </p>
-    <p>Workfrontは、セットアップ領域のリソース管理環境設定に基づいて、ユーザーの可用性を計算します。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">リソース管理環境設定の指定</a>. </p> 
-   <p><span class="preview">ユーザーを編集または作成する際に、ユーザーの作業時間を更新できます。 詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">ユーザーのプロファイルの編集</a></span></p> 
+   <p><span class="preview">Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>.</span> </p>
+    <p>Workfrontは、[!UICONTROL セットアップ ] 領域のリソース管理環境設定に応じて、ユーザーの可用性を計算します。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">リソース管理環境設定の指定</a>. </p> 
+   <p><span class="preview">ユーザーの [!UICONTROL 作業時間 ] は、ユーザーの編集時または作成時に更新できます。 詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">ユーザーのプロファイルの編集</a></span></p> 
    <b>ヒント</b> 
-   <p><span class="preview">[ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。</span></p> 
+   <p><span class="preview">[!UICONTROL Work Time] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。</span></p> 
    </td> 
   </tr> 
   <tr> 

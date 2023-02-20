@@ -7,9 +7,9 @@ description: タスク、タスク、またはプロジェクトに関連付け�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ ht-degree: 0%
 >
 >1 日あたりの計画時間または 1 日あたりの配分は、タスクの期間中の各日の計画時間の配分です。 タスクに割り当てが 1 つある場合、この数は割り当てごとの予定時間数を表します。 タスクに複数の割り当てがある場合、割り当てごとの予定時間数は、タスクの [ 予定時間数/日 ] とは異なります。 複数の割り当てを持つタスクの日別予定時間数は、Workfrontに表示されません。
 
- 
-
 ## 計画時間の値の検索と理解
 
 計画時間の値は、Workfrontの様々な領域で検索できます。 
@@ -89,7 +87,6 @@ ht-degree: 0%
 * [プロジェクト、タスクまたはイシューの詳細セクション](#the-details-section-of-a-project-task-or-issue)
 * [「タスクを編集」または「問題を編集」ボックス](#the-edit-task-or-edit-issue-box)
 * [レポート](#reports)
-* [[ 集計 ] 領域](#the-scheduling-areas)
 * [ワークロードバランサー](#the-workload-balancer)
 * [リソースプランナー](#the-resource-planner)
 * [使用率レポート](#the-utilization-report)
@@ -131,20 +128,22 @@ ht-degree: 0%
 >
 >プロジェクト（財務データ）レポートを作成し、日付別にグループ化する場合、計画時間には、プロジェクト上のタスクのタイムラインに応じて、プロジェクトの計画時間の一部が表示されます。 デフォルトでは、Workfrontはタスク期間の各日に対して予定時間を均等に配分します。 特定の期間の計画時間は、プロジェクト（財務データ）レポートのその期間のWorkfrontが設定した均等配分に一致します。
 
-### [ 集計 ] 領域  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-タスクおよびタスクの予定時間は、[ 予定時間 ] フィールドの [ 予定 ] 領域に表示されます。
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-タスクまたはイシューに割り当てられた各ユーザーに対する計画時間の日次配分を「スケジュール設定」領域で表示できます。
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-1 日の時間数は、次のいずれかを表します。 
+The daily hour amount represents one of the following:
 
-* タスクまたは問題の期間の日ごとにWorkfrontが均等に配分するデフォルトの金額
-* リソースマネージャが管理する調整済の日次配分。
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   スケジューリング・ツールで日次配分を調整する方法については、 [スケジューリング領域でユーザー割り当てを管理します](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### ワークロードバランサー {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ ht-degree: 0%
 * プロジェクトの場合は、画面に表示されるタスクと問題からの計画時間数。
 
    >[!TIP]
-   ワークロード・バランサは、プロジェクトの計画時間のすべてを、プロジェクトの「詳細」領域に表示されるように表示するわけではありません。
+   >
+   >ワークロード・バランサは、プロジェクトの計画時間のすべてを、プロジェクトの「詳細」領域に表示されるように表示するわけではありません。
 
 タスクまたはワークロードバランサーでタスクに割り当てられた各ユーザーの計画時間の日割りを表示できます。
 
@@ -176,7 +176,8 @@ ht-degree: 0%
 リソース・プランナの「PLN」列で、作業項目に関連付けられたユーザーとジョブのロールに対する計画時間の週次割当を表示できます。
 
 >[!TIP]
-ワークロード・バランサの日次割当調整は、リソース・プランナのタスクと問題に対する週次割当に影響を与えます。
+>
+>ワークロード・バランサの日次割当調整は、リソース・プランナのタスクと問題に対する週次割当に影響を与えます。
 
 各オブジェクトの計画時間数は、リソース・プランナに適用するビューに応じて異なります。 詳しくは、 [リソースプランナーのプロジェクトビューとロールビューの時間、工数、コスト情報の概要](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ ht-degree: 0%
 「計画時間」は、各タスクおよび発行の割り当てに関連付けられた時間です。
 
 >[!IMPORTANT]
-なお、[ 稼働状況 ] レポートの [ 計画時間 ] は、タスクや問題自体ではなく、割り当てに関連付けられています。 [ 稼働状況 ] レポートの [ 計画時間 ] は、プロジェクトのタスクと問題に関する [ 計画時間 ] と必ずしも一致しません。 ただし、予定時間は、タスクおよびタスクに関する割り当てに関連する時間と一致します。
+>
+>なお、[ 稼働状況 ] レポートの [ 計画時間 ] は、タスクや問題自体ではなく、割り当てに関連付けられています。 [ 稼働状況 ] レポートの [ 計画時間 ] は、プロジェクトのタスクと問題に関する [ 計画時間 ] と必ずしも一致しません。 ただし、予定時間は、タスクおよびタスクに関する割り当てに関連する時間と一致します。
 
 「稼働状況」レポートには、次のタイプの計画時間が表示されます。
 
