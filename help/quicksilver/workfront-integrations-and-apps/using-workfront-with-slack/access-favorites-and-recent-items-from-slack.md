@@ -6,9 +6,9 @@ description: のインストールと設定が完了したら、 [!DNL Adobe Wor
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ ht-degree: 0%
 
    お気に入りのリストが表示されます。
 
-* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
-
 1. （オプション）「 **[!UICONTROL 詳細を表示]** 」をクリックして、さらにお気に入りをリストします。
 1. お気に入りの名前をクリックして開きます。 [!DNL Workfront] をクリックします。
 
@@ -73,7 +71,6 @@ ht-degree: 0%
    >コマンドでは大文字と小文字が区別されます。 コマンドは、 `/wf` の代わりに `/workfront`.
 
    最近使用した項目のリストが、最後にアクセスした順序で表示され、一番上に最新の項目が表示されます。 項目は一度に 3 つずつリストされ、オブジェクトタイプ別にグループ化されます。\
-   ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
 
 1. （オプション）「 **[!UICONTROL 詳細を表示]** をクリックして、最近使用した項目の一覧を表示します。
 1. （オプション）最近アクセスした項目の名前をクリックして、その項目を開きます。 [!DNL Workfront] をクリックします。

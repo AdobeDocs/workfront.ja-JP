@@ -7,7 +7,7 @@ description: この記事では、 [!DNL Adobe Workfront for] G スイートの�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -69,8 +69,6 @@ ht-degree: 1%
 
 1. この [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、 [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) 内 [!DNL G Suite] ページの右端にあるアドオンサイドバー。
 1. 次をクリック： **[!UICONTROL その他のアクション]** アイコン [!DNL Workfront for G Suite] パネル。
-
-   ![](assets/more-actions-icon.png)
 
 1. クリック **[!UICONTROL ログアウト]** をクリックします。
 

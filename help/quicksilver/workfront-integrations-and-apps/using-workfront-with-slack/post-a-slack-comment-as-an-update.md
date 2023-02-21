@@ -6,9 +6,9 @@ description: Adobe Workfrontで、Slackのコメントを特定のプロジェ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -45,19 +45,13 @@ ht-degree: 0%
 
 ## 投稿： [!DNL Slack] の更新としてコメントする [!DNL Workfront]
 
-1. 内で追加したコメントの上にマウスポインターを置きます。 [!DNL Slack] チャネルを選択し、 **[!UICONTROL その他のアクション]** アイコン
-
-   ![](assets/slack-more-icon.png)
+1. 内で追加したコメントの上にマウスポインターを置きます。 [!DNL Slack] チャネルを選択し、 **[!UICONTROL その他のアクション]** （3 ドット）アイコン
 
 1. クリック **[!UICONTROL 更新を投稿] ...`<the name of your Workfront app>`**.
 
    >[!NOTE]
    >
    >クリックが必要な場合があります **[!UICONTROL その他のメッセージショートカット]** 下にスクロールして **[!UICONTROL 更新を投稿]** オプション。
-   >
-   >
-   >![](assets/slack-more-message-shortcuts.png)
-
 1. 内 **[!UICONTROL プロジェクト、タスクまたはタスク]** ボックスに、更新を追加するプロジェクト、タスク、またはタスクの名前を入力し、一覧に表示されたら、プロジェクト、タスク、またはタスクの名前をクリックします。 オブジェクトをリストに表示するには、そのオブジェクトへのアクセス権が必要です。
 1. （オプション） **[!UICONTROL 別のユーザーを含める]** ボックスに、更新に含めるユーザーの名前を入力し、リストに表示されたらクリックします。
 1. クリック **[!UICONTROL 送信]**.
@@ -66,6 +60,6 @@ ht-degree: 0%
 
 1. （オプション）更新を投稿したプロジェクト、タスクまたは問題の名前をクリックして、その更新にアクセスします [!DNL Workfront].
 
-   ここに示唆がある [!DNL Workfront] 更新が [!DNL Slack].
+   コメントが [!DNL Slack]をクリックした場合、コメントに「[!UICONTROL 投稿元 [!DNL Slack]]」内 [!DNL Workfront].
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

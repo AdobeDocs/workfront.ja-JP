@@ -7,7 +7,7 @@ description: Adobe Workfront以外の E メールからの情報に関する既�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -57,8 +57,6 @@ ht-degree: 0%
 1. の下 **[!UICONTROL タイプ]**」をクリックし、ドロップダウン矢印をクリックして、更新を追加するオブジェクトのタイプをクリックします。
 1. 次をクリック： **[!UICONTROL を検索]** 「 」オプションで、更新を追加するオブジェクトの名前の入力を開始し、下のリストに表示されたら項目を選択します。
 
-   ![](assets/click-search-for-task-issue.png)
-
    このオプションは、手順 3 で選択した内容に応じて異なります。 そうかもしれません **[!UICONTROL プロジェクトの検索]**, **[!UICONTROL タスクの検索]**&#x200B;または **[!UICONTROL 問題を検索]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ ht-degree: 0%
 1. クリック **[!UICONTROL 更新]**.
 
    ブラウザーを更新すると、 [!DNL Workfront for G Suite] 電子メールを更新に変換したことを確認するパネルが表示されます。
-
-   ![](assets/email-was-converted-as-update.png)
 
    リンクをクリックすると、 [!UICONTROL 更新] タブ [!DNL Workfront] 手順 4 で指定したオブジェクトの
 

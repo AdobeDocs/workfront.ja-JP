@@ -6,9 +6,9 @@ description: この [!DNL Adobe Workfront for Microsoft Teams] アプリでは�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,6 @@ ht-degree: 0%
 1. をインストールするチームを選択します [!DNL Workfront for Microsoft Teams] アプリを使用します。
 1. クリック **[!UICONTROL ストア]** をクリックします。
 
-   ![ms_teams_Store_icon.png](assets/ms-teams-store-icon-319x809.png)
-
 1. 内 **[!UICONTROL すべて検索]** ボックス、タイプ *[!DNL Workfront]*.
 
 1. 次をクリック： **[!DNL Workfront]** カードに移動して、ウィザードの指示に従います。
@@ -69,9 +67,7 @@ ht-degree: 0%
 
    ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
 
-1. 選択 **[!UICONTROL 一般]** 選択したチームのそのチャネルでアプリを使用するには、 **[!UICONTROL 設定]**.
-
-   ![teams_select_which_channel_to_use_the_app_install.PNG](assets/teams-select-which-channel-to-use-the-app-install-350x330.png)
+1. チャネルの場合は、 **[!UICONTROL 一般]** 選択したチームのそのチャネルでアプリを使用するには、 **[!UICONTROL 設定]** を選択します。
 
 1. インストールが完了すると、インストールが成功したという通知が [!UICONTROL 一般] 選択したチームのチャネル。 チームのすべてのメンバーがこの通知を表示できます。
 1. （オプション）固定する [!DNL Workfront] より簡単にアクセスできるアプリ：
@@ -79,8 +75,6 @@ ht-degree: 0%
    1. 次をクリック： **[!UICONTROL 詳細]** アイコンをクリックします。 [!UICONTROL 一般] チャネル。
 
    1. マウスを [!DNL Workfront] アプリをクリックし、 **[!UICONTROL 詳細]** アイコンが右に表示されます。
-
-      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
    1. クリック **[!UICONTROL ピン留め]**.
 
@@ -104,18 +98,14 @@ ht-degree: 0%
 1. にログインします。 [!DNL Microsoft Teams] as a [!DNL Microsoft] チーム所有者。
 1. 次をクリック： **[!UICONTROL 詳細]** インストールするチームのアイコン [!DNL Workfront for Microsoft Teams].
 
-   ![ms_teams_more_icon_for_team.png](assets/ms-teams-more-icon-for-team-350x177.png)
-
 1. クリック **[!UICONTROL チームの管理]**.
 1. を選択します。 **[!UICONTROL アプリ]** 「 」タブで、「 **[!UICONTROL カスタムアプリのアップロード]** をクリックします。
 
 1. お使いのコンピューターに保存したプライベートファイルを参照し、インストール手順に従ってをインストールします。 [!DNL Workfront for Microsoft Teams].
 1. インストールが完了すると、選択したチームの「一般」チャネルに、インストールが成功したことを示す通知が表示されます。 チームのすべてのメンバーがこの通知を表示できます。
-1. （オプション） **[!UICONTROL 詳細]** アイコン **[!UICONTROL ここに質問を入力]** フィールドに入力します。
+1. （オプション） **[!UICONTROL 詳細]** （3 ドット）アイコンを **[!UICONTROL ここに質問を入力]** フィールドに入力します。
 
 1. （オプション） [!DNL Workfront] アプリをクリックし、 **[!UICONTROL 詳細]** アイコンが右に表示されます。
-
-   ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
 1. （オプション）「 **[!UICONTROL ピン留め]**.
 
@@ -138,15 +128,11 @@ As a [!DNL Microsoft Teams] チーム所有者、インストールする必要�
 
    この [!DNL Workfront] ボットチャットチャネルが [!DNL Microsoft Teams] チャットチャネル。
 
-   ![teams_workfront_bot_channel_highlighted.PNG](assets/teams-workfront-bot-channel-highlighted-350x220.png)
-
 1. 次に移動： [!DNL Workfront] のボットチャットチャネル [!DNL Microsoft Teams] と入力します。 *[!UICONTROL ログイン]* 内 **[!UICONTROL ここに質問を入力]** フィールドに入力します。
 
    または
 
    クリック **[!UICONTROL ログイン]**.
-
-   ![](assets/ms-teams-log-in-prompt-with-4-tabs-350x139.png)
 
    新しいブラウザータブが開きます。
 

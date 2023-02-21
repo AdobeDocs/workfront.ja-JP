@@ -6,9 +6,9 @@ description: Outlook 電子メールからの情報に関する既存のプロ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ ht-degree: 0%
 1. 次をクリック： **[!DNL Workfront]** アイコン（電子メールメッセージの右上隅）を使用して、Workfrontアドインを表示します。\
    電子メールの右上にある下向き矢印をクリックして、 [!DNL Workfront] アイコン
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックして使用可能な [!DNL Workfront] オプション。\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 次をクリック： **[!UICONTROL メニュー]** アイコン ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 使用可能な [!DNL Workfront] オプション。\
+
 
 1. クリック **[!UICONTROL 更新] Workfront**.\
-   ![outlook_Update_in_workfront_menu.png](assets/outlook-update-in-workfront-menu-253x345.png)\
    電子メールをタスクとして保存する前に、次の情報を更新できます。
 
    * **[!UICONTROL タイプ]**:更新するオブジェクトのタイプを選択します。 次を選択できます。 **[!UICONTROL プロジェクト]**, **[!UICONTROL タスク]**&#x200B;または **[!UICONTROL 問題]**. 選択したオブジェクトによって、 **[!UICONTROL 名前]** フィールドを参照してください。 オブジェクトのタイプが不明な場合は、 **[!UICONTROL すべて]** プロジェクト、タスク、問題を同時に検索する
@@ -67,7 +66,6 @@ ht-degree: 0%
 1. （オプション）「 **[!UICONTROL その他を含む]**&#x200B;で、更新に含めるユーザーの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。\
    この手順を繰り返して追加のユーザーを含め、 **[!UICONTROL 完了]**.\
    デフォルトでは、返信先のユーザーは、そのユーザーを含めているかどうかに関係なく通知を受け取ります。\
-   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. （オプション） **[!UICONTROL ロック]** アイコンを使用して、この更新を社内のユーザーに制限します。 更新がロックされている場合、会社外のユーザーは更新を表示できません。
 

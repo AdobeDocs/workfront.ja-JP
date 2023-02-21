@@ -7,7 +7,7 @@ description: 外部 E メールを ( [!DNL Adobe Workfront)] から [!DNL Workfr
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -102,8 +102,6 @@ ht-degree: 0%
    の下部に **[!UICONTROL 詳細]** 」タブで、 **[!UICONTROL Workfrontで表示]** Workfrontの新しい問題に移る
 
    ブラウザーを更新すると、 [!UICONTROL Workfront for G Suite] パネルで、E メールを問題に変換したことを確認します。
-
-   ![](assets/email-was-converted.png)
 
    リンクをクリックして、 [!DNL Workfront for G Suite] パネルに表示されます。
 

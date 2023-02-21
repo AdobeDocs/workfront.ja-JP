@@ -6,9 +6,9 @@ description: リンク時 [!DNL Jira] 問題 [!DNL Adobe Workfront] タスクま
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>カスタムFormsとカスタムフィールド</td> 
-   <td> <p> 次に表示： [!DNL Workfront] 右パネル [!DNL Jira] 問題。 <br>実際の値を持つカスタムフィールドのみがパネルに表示されます。<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>注意：カスタムフォームセクションが、 [!DNL Workfront] 管理者。 </p> </td> 
+   <td> <p> 次に表示： [!DNL Workfront] 右パネル [!DNL Jira] 問題。 <br>実際の値を持つカスタムフィールドのみがパネルに表示されます。<br></p> <p>注意：カスタムフォームセクションが、 [!DNL Workfront] 管理者。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 問題またはタスクの優先度 ]</td> 
@@ -201,8 +201,7 @@ Jira にログインしたとき ( [!DNL Workfront] パネルの [!DNL Workfront
 
 1. ログイン [!DNL Jira].
 1. 次に移動： [!DNL Jira] 関連する問題 [!DNL Workfront] 項目。
-1. を展開します。 **[!UICONTROL 詳細]** メニューとクリック **[!UICONTROL 作業をログに記録]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. を展開します。 **[!UICONTROL 詳細]** メニューとクリック **[!UICONTROL 作業をログに記録]**.
 
 1. 内 **[!UICONTROL 滞在時間]** 「 」フィールドで、この問題の作業に費やした時間を指定します。 次の期間を使用して時間を指定する必要があります。
 
@@ -225,8 +224,6 @@ Jira にログインしたとき ( [!DNL Workfront] パネルの [!DNL Workfront
 
 1. 次をクリック： **[!UICONTROL ログ時間]** アイコン
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. 金額を指定 **[!UICONTROL 時間]** および **[!UICONTROL 分]** 問題をログに記録します。
 
 1. クリック **[!UICONTROL ログ時間]**.
@@ -246,7 +243,7 @@ Jira にログインしたとき ( [!DNL Workfront] パネルの [!DNL Workfront
 
    詳細 [!DNL Workfront] 項目が [!DNL Workfront] 問題の右パネル。
 
-1. 次をクリック： **[!UICONTROL コメント]** アイコン [!DNL Workfront] パネルまたは **[!UICONTROL コメント]** タブをクリックします。 ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. 次をクリック： **[!UICONTROL コメント]** アイコン [!DNL Workfront] パネルまたは **[!UICONTROL コメント]** タブをクリックします。
 
 1. コメントの入力を開始し、「 **[!UICONTROL 送信]**.
 

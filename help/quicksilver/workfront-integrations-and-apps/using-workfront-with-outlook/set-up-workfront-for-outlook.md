@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion は、Outlook との統合を提供します
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -123,8 +123,6 @@ ht-degree: 0%
 
 1. を検索 **[!DNL Workfront]** 内 **[!UICONTROL アドインを検索]** 「 」フィールドで、「 **[!UICONTROL 入力]**.
 
-   ![workfront_for_outlook_on_the_web.png](assets/workfront-for-outlook-on-the-web-350x116.png)
-
 1. リストに表示されたら、 **追加**.
 
 ### [!DNL Workfront for Outlook] オン [!UICONTROL Windows] または [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
@@ -132,8 +130,6 @@ ht-degree: 0%
 1. クリック **[!UICONTROL ホーム]** > **[!UICONTROL ストア]** をリボンに貼り付けます。
 
 1. を検索 **[!DNL Workfront]** 内 **[!UICONTROL 検索]** 「 」フィールドで、「 **[!UICONTROL 入力]**.
-
-   ![o365_addin_search.png](assets/o365-addin-search-350x158.png)
 
 1. 切り替えボタンをクリックして、 **[!UICONTROL [!DNL Workfront]アドイン]**.
 

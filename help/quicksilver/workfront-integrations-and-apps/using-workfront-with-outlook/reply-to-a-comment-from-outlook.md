@@ -6,9 +6,9 @@ description: 以下を受け取った場合、 [!DNL Adobe Workfront] メール�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -48,14 +48,13 @@ ht-degree: 0%
 1. 次をクリック： **[!DNL Workfront]** アイコン（電子メールメッセージの右上隅）を使用して、Workfrontアドインを表示します。\
    電子メールの右上にある下向き矢印をクリックして、 [!DNL Workfront] アイコン
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックして使用可能な [!DNL Workfront] オプション。\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 次をクリック： **[!UICONTROL メニュー]** アイコン ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 使用可能な [!DNL Workfront] オプション。\
+
 
 1. クリック **[!UICONTROL コメントに返信]**.
 1. 提供されたフィールドにコメントを指定します。
 1. （オプション）「 **[!UICONTROL その他を含む]**&#x200B;で、更新に含めるユーザーの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。\
    この手順を繰り返して追加のユーザーを含め、 **[!UICONTROL 完了]**.\
    デフォルトでは、返信先のユーザーは、そのユーザーを含めているかどうかに関係なく通知を受け取ります。\
-   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. クリック **[!UICONTROL コメント]**.

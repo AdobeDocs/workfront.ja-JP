@@ -6,9 +6,9 @@ description: リンク先 [!DNL Adobe Workfront] オブジェクトがSlackチ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,6 @@ ht-degree: 2%
    >[!NOTE]
    >
    >リンクを共有するユーザーには、少なくとも [!UICONTROL 表示] 権限をプロジェクトに設定して、プロジェクトに関する追加情報を表示できます。
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. （オプション）プロジェクトの名前をクリックしてで開きます。 [!DNL Workfront] をクリックします。
 1. プロジェクトに関する次の追加情報を確認することを検討します。

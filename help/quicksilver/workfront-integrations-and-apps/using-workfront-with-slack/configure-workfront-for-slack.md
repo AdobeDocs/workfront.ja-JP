@@ -6,9 +6,9 @@ description: 統合 [!DNL Adobe Workfront] Slackを使用すると、にアク�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
-source-git-commit: 09b4644a63241fa9e0a213bfa6f1a7e4264a1703
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -79,11 +79,8 @@ ht-degree: 0%
 1. クリック **[!UICONTROL 次で開く：[!DNL Slack]]**.
 
 1. 次の項目を指定して、ワークスペースにサインイン [!DNL Slack] URL とクリック **[!UICONTROL 続行]**.\
-   ![Screen_Shot_2017-10-17_at_8.27.38_AM.png](assets/screen-shot-2017-10-17-at-8.27.38-am-350x432.png)
 
 1. アクセス権を確認します。 [!DNL Slack] がリクエストしています。 このアクセスに同意する場合は、 **[!UICONTROL アクセスを許可]** 認証する [!DNL Workfront] アプリを使用します。
-
-   ![](assets/integrations-access-screen-350x429.png)
 
 これで、 [!DNL Workfront] から [!DNL Slack]( [アクセス [!DNL Workfront] から [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] から [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -98,8 +95,6 @@ ht-degree: 0%
    または
 
    次をクリック： **[!UICONTROL アプリを追加]** アイコン [!DNL Slack] インスタンス。
-
-   ![add_apps_in_Slack.png](assets/add-apps-in-slack-350x112.png)
 
 1. 入力を開始 *[!DNL Workfront]* 」と入力します。
 1. Enter キーを押します。

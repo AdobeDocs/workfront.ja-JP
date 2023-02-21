@@ -6,9 +6,9 @@ description: のインストールと設定が完了したら、 [!DNL Adobe Wor
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ ht-degree: 0%
    >
    >コマンドでは大文字と小文字が区別されます。 コマンドは、 `/wf` の代わりに `/workfront`.
    >  
-   >タスク名は、 [!DNL Workfront] インターフェイスで使用できます。\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >タスク名は、 [!DNL Workfront] インターフェイスで使用できます。
 
 1. （オプション）新しいタスクを関連付けるプロジェクトの名前の入力を開始し、リストに表示されたら選択します。\
    選択したプロジェクトにタスクが追加されたことを示す確認メッセージが表示されます。
@@ -81,8 +80,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >コマンドでは大文字と小文字が区別されます。 コマンドは、「/workfront」ではなく「/wf」を使用して開始できます。 \
-   >問題名は、 [!DNL Workfront] インターフェイスで使用できます。\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >問題名は、 [!DNL Workfront] インターフェイスで使用できます。
 
 1. （オプション）新しいイシューを関連付けるプロジェクトの名前を入力し、リストに表示されたら選択します。\
    選択したプロジェクトに問題が追加されたことを示す確認メッセージが表示されます。

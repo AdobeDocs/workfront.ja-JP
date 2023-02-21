@@ -6,9 +6,9 @@ description: 受信 [!DNL Adobe Workfront] 通知 [!DNL Slack]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '589'
 ht-degree: 6%
 
 ---
@@ -66,8 +66,6 @@ ht-degree: 6%
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. デフォルトでは、すべての通知が有効になっています。\
    次のいずれかの通知を無効にします。
 
@@ -107,25 +105,15 @@ ht-degree: 6%
 
    * クリック **[!UICONTROL 作業]** タスクの作業を承認する場合。
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * （条件付きおよびオプション）「 **[!UICONTROL 返信イン[!DNL Workfront]]** コメントに返信するには、返信を入力して、 **[!UICONTROL 返信]**.
 
-   * （条件付きおよびオプション）「 **[!UICONTROL 返信イン[!DNL Workfront]]** コメントに返信するには、返信を入力して、 **[!UICONTROL 返信]**.\
+   * （条件付きおよびオプション）「 **[!UICONTROL 承認]** または **[!UICONTROL 拒否]** 承認待ちのタスク、イシューまたはプロジェクトを承認または却下する場合。
 
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
+   * （条件付きおよびオプション）「 **[!UICONTROL 承認]**, **[!UICONTROL 変更点]**&#x200B;または **[!UICONTROL 拒否]**、承認、変更を加えて承認、またはドキュメントを拒否する場合。
 
-   * （条件付きおよびオプション）「 **[!UICONTROL 承認]** または **[!UICONTROL 拒否]** 承認待ちのタスク、イシューまたはプロジェクトを承認または却下する場合。\
-
-      ![slack_approve_task_notification.png](assets/slack-approve-task-notification-350x105.png)
-
-   * （条件付きおよびオプション）「 **[!UICONTROL 承認]**, **[!UICONTROL 変更点]**&#x200B;または **[!UICONTROL 拒否]**、承認、変更を加えて承認、またはドキュメントを拒否する場合。\
-
-      ![slack_approve_a_document.png](assets/slack-approve-a-document-350x362.png)\
       ドキュメントを承認する前に、ドキュメントのサムネールの上にマウスを移動し、虫眼鏡アイコンをクリックして、ドキュメントの大きなプレビューを表示することもできます。\
       承認済みSlackのみ [ファイルタイプ](https://api.slack.com/types/file) をプレビューできます。
 
    * （条件付きおよびオプション）「 **[!UICONTROL 付与]** または **[!UICONTROL 無視]** 別のユーザーからのアクセス権の追加要求を許可または無視する。\
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       アクションが完了したことを示す確認メッセージが [!DNL Workfront]通知内でおこなうすべての決定に対して、

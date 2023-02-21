@@ -7,7 +7,7 @@ description: 外部 E メールを変換できます (Adobeで生成されませ
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ ht-degree: 0%
 1. この [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、 [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) 内 [!DNL G Suite] ページの右端にあるアドオンサイドバー。
 1. 電子メールメッセージをで開きます。 [!DNL G Suite]、「 [!DNL Workfront for G Suite] 電子メールを新しい [!DNL Workfront] タスク。
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. を選択します。 **[!UICONTROL 新規作成]** タスクをプロジェクトに含めるか、プロジェクトから独立した個人用タスクにするかを指定するオプションです。
 1. タスクを親プロジェクトに添付する場合は、 **[!UICONTROL プロジェクト名]**&#x200B;タスクを実行するプロジェクトの名前を入力し、下の一覧に表示されたら、プロジェクト名をクリックします。
 1. 次の変更を行います。
@@ -107,8 +105,6 @@ ht-degree: 0%
    の下部に **[!UICONTROL 詳細]** 」タブで、 **[!UICONTROL 表示場所[!DNL Workfront]]** Workfrontの新しいタスクに移動する
 
    ブラウザーを更新すると、 [!DNL Workfront for G Suite] 電子メールをタスクに変換したことを確認するパネルが表示されます。
-
-   ![](assets/email-was-converted.png)
 
    リンクをクリックして、 [!DNL Workfront for G Suite] パネル（作成したタスク用）
 

@@ -6,9 +6,9 @@ description: チームの所有者がMicrosoft Teams用にAdobe Workfrontをイ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -49,9 +49,7 @@ ht-degree: 1%
 
 ## 送信 [!DNL Workfront] からのリクエスト [!DNL Microsoft Teams]
 
-1. 次をクリック： **[!UICONTROL その他の追加済みアプリ]** アイコンをクリックします。Microsoft Teams
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 次をクリック： **[!UICONTROL その他の追加済みアプリ]** （3 ドット）アイコン [!DNL Microsoft Teams].
 
 1. クリック **[!DNL Workfront]** 表示されるリスト内。
 1. 次をクリック： **[!UICONTROL リクエスト]** タブをクリックします。
@@ -89,14 +87,10 @@ ht-degree: 1%
 
 ## 表示 [!DNL Workfront] 次で送信したリクエスト： [!DNL Microsoft Teams]
 
-1. 次をクリック： **[!UICONTROL その他の追加済みアプリ]** アイコンをクリックします。Microsoft Teams
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. 次をクリック： **[!UICONTROL その他の追加済みアプリ]** （3 ドット）アイコン [!DNL Microsoft Teams].
 
 1. クリック **[!DNL Workfront]** 表示されるリスト内。
 1. 次をクリック： **[!UICONTROL リクエスト]** タブをクリックします。
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    送信したリクエストは、 [!UICONTROL 送信した要求] 領域 [!UICONTROL リクエスト] タブをクリックします。 このタブに表示される、送信したリクエストに関する情報は設定できません。
 

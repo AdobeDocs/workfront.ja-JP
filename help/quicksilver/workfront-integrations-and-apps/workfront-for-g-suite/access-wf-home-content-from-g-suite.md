@@ -7,7 +7,7 @@ description: 次にアクセス： [!DNL Adobe Workfront] 割り当てられた�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -56,11 +56,7 @@ ht-degree: 0%
 1. この [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、 [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) 内 [!DNL G Suite] ページの右端にあるアドオンサイドバー。
 1. 左向き矢印が [!DNL Workfront] 対象 [!DNL G Suite]、矢印をクリックして、 [!UICONTROL ホーム] 領域
 
-   ![](assets/left-arrow-to-home.png)
-
 1. 内 **[!UICONTROL 並べ替え基準]** 領域で、展開矢印をクリックします。 ![](assets/dropdown-arrow.png)」をクリックし、作業項目をグループ化する方法を指定して、目的の項目を検索します。
-
-   ![](assets/sort-by-area.png)
 
    並べ替えの条件 **[!UICONTROL コミット日]** または **[!UICONTROL 計画完了]** 日付：最も古い作業項目が一番上に表示されます。
 

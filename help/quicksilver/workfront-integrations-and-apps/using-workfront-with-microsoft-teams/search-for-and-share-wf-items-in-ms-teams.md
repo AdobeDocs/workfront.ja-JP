@@ -6,16 +6,16 @@ description: 以下を検索できます。 [!DNL Workfront] 任意の項目 [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
 
 # 検索と共有 [!DNL Adobe Workfront] 項目 [!DNL Microsoft Teams]
 
-以下を検索できます。 [!DNL Workfront] 任意の項目 [!DNL Adobe WorkfrontWorkfront] チャネルイン [!DNL Microsoft Teams] これらの項目をチームのメンバーと共有します。
+以下を検索できます。 [!DNL Workfront] 任意の項目 [!DNL Adobe Workfront] チャネルイン [!DNL Microsoft Teams] これらの項目をチームのメンバーと共有します。
 
 * [共有の前提条件 [!DNL Workfront] 項目 [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [検索と共有 [!DNL Workfront] 項目 [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -94,5 +94,5 @@ ht-degree: 1%
    これにより、 [!DNL Workfront] 項目をチャネルに追加します。\
    このメッセージは、チャネルのすべてのメンバーが、 [!DNL Workfront] カード。
 
-1. クリック **[!UICONTROL Workfrontで表示]** をクリックして、Workfrontで項目を表示します。\
-   次を持つユーザーのみ： [!DNL Workfront] ライセンスは、Workfrontで項目を表示できます。
+1. クリック **[!UICONTROL Workfrontで表示]** 次の場所にアイテムを表示する： [!DNL Workfront].\
+   次を持つユーザーのみ： [!DNL Workfront] ライセンスは、 [!DNL Workfront].

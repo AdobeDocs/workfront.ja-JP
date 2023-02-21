@@ -6,9 +6,9 @@ description: 次の項目を作成できます。 [!DNL Adobe Workfront] Outlook
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ ht-degree: 0%
 1. 次をクリック： **[!DNL Workfront]** アイコン（電子メールメッセージの右上隅）を使用して、Workfrontアドインを表示します。\
    電子メールの右上にある下向き矢印をクリックして、 [!DNL Workfront] アイコン
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックして使用可能な [!DNL Workfront] オプション。
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. 次をクリック： **[!UICONTROL メニュー]** アイコン ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) 使用可能な [!DNL Workfront] オプション。
 
 1. クリック **[!UICONTROL リクエストを送信]**.
 1. 内 **[!UICONTROL リクエストタイプを選択]** 「 」フィールドで、リクエストを送信するリクエストキューを選択します。
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. 次の情報を指定します。\
    リクエストキューの設定方法に応じて、使用可能なフィールドは異なる場合があります。 使用可能なフィールドの完全なリストと説明については、 [作成して送信 [!DNL Adobe Workfront] リクエスト](../../manage-work/requests/create-requests/create-submit-requests.md) 記事。
@@ -78,5 +74,4 @@ ht-degree: 0%
    リクエストが次に送信されました： [!DNL Workfront]、指定したリクエストキュー内。
 
 1. （オプション）に戻る [!DNL Outlook]をクリックし、元の E メールを選択します。\
-   の上部 [!DNL Workfront] アドインパネルに、電子メールが要求としてWorkfrontに追加されたことを示すリンクが表示され、確認がおこなわれます。 リンクには、変換された日付が含まれます。\
-   ![outlook_submitted_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)
+   の上部 [!DNL Workfront] アドインパネルに、電子メールが要求としてWorkfrontに追加されたことを示すリンクが表示され、確認がおこなわれます。 リンクには、変換された日付が含まれています。\

@@ -6,9 +6,9 @@ description: インストール後 [!DNL Adobe Workfront] Salesforce の場合�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1506'
 ht-degree: 3%
 
 ---
@@ -198,8 +198,6 @@ ht-degree: 3%
 1. を選択します。 **[!UICONTROL プロジェクト]** タブをクリックします。
 
    定義済みのプロジェクトで作成されたすべてのトリガーがこのタブに表示されます。 の任意のユーザー [!DNL Salesforce] 同じく [!DNL Workfront] アカウントと、これらのプロジェクトをで表示する権限を持つユーザー [!DNL Workfront] また、 [!DNL Salesforce] の [!UICONTROL 商談] または生成したアカウント。
-
-   ![[!DNL salesforce_projects_tab_with_projects_listed].png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
 
    統合で作成されたプロジェクトに関する次の情報を表示できます。
 

@@ -6,9 +6,9 @@ description: 次のリンクが可能： [!DNL Jira] 問題 [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Jira の問題を自動的に作成するトリガーの定義について詳し
 
    内 **[!UICONTROL 更新]** 新しいタスクの領域に、新しいイシューが [!DNL Jira].
 
-   ![WF_confirmation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. （オプション）Jira イシューへのリンクをクリックして、Jira で開きます。
 
    または
@@ -142,15 +140,14 @@ Jira の問題を自動的に作成するトリガーの定義について詳し
 
    または
 
-   次の [!UICONTROL 詳細] 領域 ![](assets/details-icon-in-left-panel.png)、 **[!UICONTROL 参照番号]** Workfrontの項目の
+   次の [!UICONTROL 詳細] 領域、コピー **[!UICONTROL 参照番号]** Workfrontの項目の
 
    >[!NOTE]
    >
    >次をお持ちの場合は、 [!DNL Workfront] にログインするためのライセンス [!DNL Workfront]. それ以外の場合は、 [!DNL Workfront] ユーザーがこの情報をユーザーに提供する必要があります。
 
 1. In [!DNL Jira]をクリックし、 [!DNL Workfront] 項目。
-1. 内 [!DNL Workfront] 右側のパネル、 **URL** または **[!UICONTROL 参照番号]** の [!DNL Workfront] リンク先の項目です。\
-   ![manually_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. 内 [!DNL Workfront] 右側のパネル、 **URL** または **[!UICONTROL 参照番号]** の [!DNL Workfront] リンク先の項目です。
 
 1. クリック **[!UICONTROL リンク]**.
 
@@ -168,8 +165,6 @@ Jira の問題を自動的に作成するトリガーの定義について詳し
 
 右側のパネルに追加のフィールドを表示できるようにする方法について詳しくは、 [次の間のフィールド同期の設定 [!DNL Jira] および [!DNL Workfront] 項目](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) セクション [設定 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). 次からのコメント： [!DNL Workfront] 統合に関連付けられた管理者は、 **[!DNL Workfront]** タブ [!DNL Jira] 新たに確認する問題 [!DNL Jira] 項目が作成されました。 コメントには、 [!DNL Jira] 問題。
 
-![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## 間の項目のリンクを解除 [!DNL Jira] および [!DNL Workfront]
 
 次の間にリンクされた項目： [!DNL Jira] および [!DNL Workfront] 手動でリンクを解除できる [!DNL Jira].\
@@ -185,6 +180,6 @@ a のみ [!DNL Workfront] 管理者は、自動的にリンクされた項目の
 リンクを解除するには [!DNL Jira] ～からの問題 [!DNL Workfront] 項目：
 
 1. In [!DNL Jira]、 [!DNL Workfront] タスクまたは問題。
-1. 次に移動： [!DNL Workfront] 右側のパネルをクリックし、 **[!UICONTROL リンク解除]** アイコンをクリックし、 **[!UICONTROL リンク解除]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. 次に移動： [!DNL Workfront] 右側のパネルをクリックし、 **[!UICONTROL リンク解除]** アイコンをクリックし、 **[!UICONTROL リンク解除]**.
+
    以前にリンクされた [!DNL Jira] および [!DNL Workfront] 項目のリンクが解除されました。 今後、それらに対して個別に更新される可能性のあるフィールド、コメント、ドキュメントは、他のアプリケーションの以前の対応するドキュメントには更新されません。

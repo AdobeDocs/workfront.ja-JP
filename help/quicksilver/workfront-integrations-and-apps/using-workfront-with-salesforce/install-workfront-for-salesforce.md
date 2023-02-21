@@ -6,9 +6,9 @@ description: アプリがで使用可能になる前にインストールする�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '878'
 ht-degree: 1%
 
 ---
@@ -79,8 +79,6 @@ As a [!DNL Salesforce] および [!DNL Adobe Workfront] 管理者、インスト
 
 1. 次を確認します。 **[!UICONTROL はい、これらのサードパーティ Web サイトへのアクセス権を付与します]** ボックス
 
-   ![salesforce_grant_access.png](assets/salesforce-grant-access-350x249.png)
-
    読み込み画面が表示され、インストールに時間がかかる場合があります。
 
 1. クリック **[!UICONTROL 完了]** インストールが完了したら、
@@ -123,11 +121,9 @@ As a [!DNL Salesforce] および [!DNL Adobe Workfront] 管理者、インスト
 
    この [!DNL Workfront] アプリは、以下のリストに表示されます。 **[!UICONTROL インストール済みパッケージ]**.
 
-   ![salesforce_classic_Installed_Packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. に移動します。 **[!UICONTROL [ 設定 ]>[ セキュリティコントロール ]>[ リモートサイトの設定 ]]**.
 1. （条件付き） [!DNL Workfront] URL が **[!UICONTROL すべてのリモートサイト]** リスト、クリック **[!UICONTROL 新規リモートサイト]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. 次を指定： **[!UICONTROL リモートサイト名]**.\
    例： *[!DNL Workfront]*.
@@ -167,15 +163,11 @@ As a [!DNL Salesforce] および [!DNL Adobe Workfront] 管理者、インスト
 
    この [!DNL Workfront] アプリは、以下のリストに表示されます。 **[!UICONTROL インストール済みパッケージ]**.
 
-   ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. に移動します。 **[!UICONTROL 設定].**
 1. 内 **[!UICONTROL 設定]** セクション、展開&#x200B;**[!UICONTROL セキュリティ].**
 
 1. クリック **[!UICONTROL リモートサイト設定]**.
 1. （条件付き） [!DNL Workfront] URL が **[!UICONTROL すべてのリモートサイト]** リスト、クリック **[!UICONTROL 新規リモートサイト]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. 次を指定： **[!UICONTROL リモートサイト名]**.
 

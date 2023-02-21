@@ -6,9 +6,9 @@ description: インストール後 [!DNL Adobe Workfront] （Salesforce as a 用
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '705'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,6 @@ A [!UICONTROL Pro] [!DNL Workfront] この機能を使用するにはプラン�
    クリック **[!UICONTROL 新規]** をクリックして、新しいレイアウトを追加します。
 
 1. （オプション） **[!UICONTROL セクション]** コンポーネントをレイアウトに追加し、目的の位置にドロップします。\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
 
 1. （オプション）新しいセクションの名前を指定します。
 
@@ -87,10 +86,8 @@ A [!UICONTROL Pro] [!DNL Workfront] この機能を使用するにはプラン�
    または
 
    次をドラッグ&amp;ドロップ： **[!UICONTROL WorkfrontAccounts]** コンポーネントを  **[!UICONTROL アカウント]** レイアウト。\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
-1. 次をクリック： **[!UICONTROL プロパティ]** 新しく追加されたコンポーネントの右上にあるアイコン\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
+1. 次をクリック： **[!UICONTROL プロパティ]** 新しく追加されたコンポーネントの右上にあるアイコン。\
 
 1. 最適な表示を実現するには、 [!DNL Workfront Visualforce] ページ：
 
@@ -104,8 +101,6 @@ A [!UICONTROL Pro] [!DNL Workfront] この機能を使用するにはプラン�
    このレイアウトを割り当てたすべてのユーザーが、 [!DNL Workfront] セクション [!UICONTROL 商談] または [!UICONTROL アカウント] オブジェクト。
 
    ユーザーには [!DNL Workfront] ログイン画面 ( [!DNL Workfront] 」セクションに入力します。 この [!DNL Workfront] アカウントを使用すると、セクションを折りたたむことはできますが、レイアウトからは削除できません。
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## の設定 [!DNL Workfront] セクション [!DNL Salesforce Lightning Experience] 枠組み
 
@@ -142,14 +137,11 @@ A [!UICONTROL Pro] [!DNL Workfront] この機能を使用するにはプラン�
 1. 次に移動： **[!UICONTROL 商談]** または **[!UICONTROL アカウント]**.
 
 1. 次をクリック： **[!UICONTROL 設定]** アイコンをクリックし、 **[!UICONTROL ページを編集]**.\
-   ![salesforce_lightning_opportunity_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. を展開します。 **[!UICONTROL カスタム管理]** 」セクションに入力します。
 1. 次をドラッグ&amp;ドロップ： **[!DNL Workfront]** コンポーネント [!UICONTROL 商談] またはアカウントページ。
 
    ページの幅全体を [!DNL Workfront] 」セクションを使用します。
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -159,4 +151,3 @@ A [!UICONTROL Pro] [!DNL Workfront] この機能を使用するにはプラン�
    >
    >ユーザーには [!DNL Workfront] ログイン画面 ( [!DNL Workfront] 」セクションに入力します。 この [!DNL Workfront] アカウントを使用すると、セクションを折りたたむことはできますが、レイアウトからは削除できません。 ユーザーは、有効にした認証方法を使用してログインできます。認証またはセキュリティアサーションマークアップ言語 (SAML)URL の拡張。
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

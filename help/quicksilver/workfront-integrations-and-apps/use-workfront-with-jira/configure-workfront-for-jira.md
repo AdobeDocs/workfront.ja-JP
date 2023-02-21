@@ -6,9 +6,9 @@ description: 以下を使用できます。 [!DNL Adobe Workfront for Jira] を 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,6 @@ ht-degree: 0%
 
    この **[!UICONTROL トリガー]** 「 」タブがデフォルトで選択されています。
 
-   ![トリガー_タブ_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. クリック **[!UICONTROL 追加トリガー]** をクリックして新しいトリガーを追加します。
 1. 内 **[!UICONTROL Workfrontチーム/ユーザー/ロール]** フィールドに、 [!DNL Workfront] チーム、ユーザー、またはジョブの役割。次に、リストに表示されるときにクリックして選択します。
 
@@ -180,8 +178,6 @@ ht-degree: 0%
 1. クリック **[!UICONTROL 設定]**.
 1. にログインします。 [!DNL Workfront] Workfront管理者。
 1. 次をクリック： **[!UICONTROL 設定]** タブをクリックします。
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. 内 **[!UICONTROL Jira からWorkfrontに同期]** 「 」セクションで、更新するフィールドを [!DNL Jira] Workfrontで更新されたとき。
 
@@ -305,7 +301,7 @@ ht-degree: 0%
            <li>次を選択した場合： <strong>[!UICONTROL Always]</strong> 統合を有効にすると、 [!DNL Jira] ユーザーが [!DNL Workfront] アカウントは、リンクされた [!DNL Jira] 問題：
             <ul>
              <li>次に割り当てられている： [!DNL Jira] 問題</li>
-             <li><p>に時間を記録します。 [!DNL Jira] 問題</p><p>この新しいユーザーは [!DNL Workfront] ライセンス。 デフォルト設定は「常に」です。 ユーザーが次の方法で作成しました： [!DNL Workfront] には、名前に「[!UICONTROL Jira]」が追加されています。</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>に時間を記録します。 [!DNL Jira] 問題</p><p>この新しいユーザーは [!DNL Workfront] ライセンス。 デフォルト設定は「常に」です。 ユーザーが次の方法で作成しました： [!DNL Workfront] には、名前に「[!UICONTROL Jira]」が追加されています。</p></li>
             </ul></li>
            <li>次を選択した場合： <strong>[!UICONTROL なし ]</strong>では、次のことが発生します。
             <ul>

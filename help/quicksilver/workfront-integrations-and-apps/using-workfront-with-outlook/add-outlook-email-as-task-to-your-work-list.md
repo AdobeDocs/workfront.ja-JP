@@ -6,9 +6,9 @@ description: 変換できる [!DNL Outlook] メール送信先 [!DNL Adobe Workf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,10 @@ ht-degree: 0%
 1. 次をクリック： **[!DNL Workfront]** 電子メールメッセージの右上隅にあるアイコン [!DNL Workfront] アドインです。\
    電子メールの右上にある下向き矢印をクリックして、 [!DNL Workfront] アイコン
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックして使用可能な [!DNL Workfront] オプション。\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. 次をクリック： **[!UICONTROL メニュー]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) アイコンをクリックして使用可能な [!DNL Workfront] オプション。\
+
 
 1. クリック **[!UICONTROL 作業に追加]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. 選択を解除する **[!UICONTROL プロジェクトに追加]** フィールドに入力します。
 1. （オプション）電子メールをタスクとして保存する前に、次の情報を更新できます。
@@ -67,5 +66,4 @@ ht-degree: 0%
 1. （オプション）「 **[!UICONTROL Workfrontで表示]** タスクを [!DNL Workfront] 新しいタブのアプリケーション。
 
 1. （オプション）に戻る [!DNL Outlook]をクリックし、元の E メールを選択します。\
-   の上部 [!DNL Workfront] アドインパネルに、電子メールがタスクとしてWorkfrontに追加されたことを示すリンクが表示されます。 リンクには、変換された日付が含まれます。\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)
+   の上部 [!DNL Workfront] アドインパネルに、電子メールがタスクとしてWorkfrontに追加されたことを示すリンクが表示されます。 リンクには、変換された日付が含まれています。\

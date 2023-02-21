@@ -6,9 +6,9 @@ description: メールは、 [!DNL Adobe Workfront] タスクまたは問題。 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,11 @@ ht-degree: 0%
 
    電子メールの右上にある下向き矢印をクリックして、 [!DNL Workfront] アイコン
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックして使用可能な [!DNL Workfront] オプション。
+1. 次をクリック： **[!UICONTROL メニュー]** アイコン ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 使用可能な [!DNL Workfront] オプション。
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
 
 1. クリック **[!UICONTROL 作業に追加]**.
-
-   ![outlook___add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. を選択します。 **[!UICONTROL プロジェクトに追加]** フィールドに入力します。
 1. プロジェクトの名前を **[!UICONTROL プロジェクト]** フィールドに値を入力し、リストに表示されるときに選択します。
@@ -95,4 +93,3 @@ ht-degree: 0%
 
    の上部 [!DNL Workfront] アドインパネルに、E メールが追加されたことを示すリンクが表示されていることに注意してください。 [!DNL Workfront] タスクまたはイシューとして。 リンクには、変換された日付が含まれます。
 
-   ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

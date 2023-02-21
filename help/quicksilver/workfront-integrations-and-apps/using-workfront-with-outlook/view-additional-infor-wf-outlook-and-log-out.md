@@ -6,9 +6,9 @@ description: Outlook 用Adobe Workfrontアドインのバージョンに関す�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,6 @@ ht-degree: 0%
 1. メールを選択 [!DNL Outlook].
 1. クリック **[!DNL Workfront]** アイコンをクリックしてWorkfrontアドインを表示します。
 1. ユーザー名の横にあるドロップダウン矢印をクリックします。
-
-   ![outlook_additional_information_for_the_app.png](assets/outlook-additional-information-for-the-app-249x341.png)
 
 1. 次のいずれかのオプションをクリックします。
 
