@@ -7,7 +7,7 @@ description: G Suite を離れることなく、作業項目の詳細を表示�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ ht-degree: 0%
 
    タスクまたはイシューを選択すると、 **[!UICONTROL 詳細]** 」タブが開きます。 上の領域 **[!UICONTROL 詳細]** 「 」タブには、親オブジェクトの名前、タスクまたはタスクの名前、および [!UICONTROL 期限] （タスクの場合）または [!UICONTROL 優先日] （問題の場合）。
 
-   ![](assets/details-tab.png)
 
    このタブでは、 [!DNL G Suite]（以下を含む）
 

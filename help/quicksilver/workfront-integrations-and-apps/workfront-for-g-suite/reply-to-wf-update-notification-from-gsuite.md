@@ -7,7 +7,7 @@ description: の更新に関する通知を受け取ったとき [!DNL Adobe] [!
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >
 >ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
 
-の更新に関する通知を受け取ったとき [!DNL Adobe] [!DNL Workfront]を使用すると、 [!DNL Workfront for G Suite].
+の更新に関する通知を受け取ったとき [!DNL Adobe Workfront]を使用すると、 [!DNL Workfront for G Suite].
 
 ## アクセス要件
 
