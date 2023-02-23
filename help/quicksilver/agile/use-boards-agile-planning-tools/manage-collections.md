@@ -6,7 +6,7 @@ title: コレクションの管理
 description: コレクションは、作業時の共同作業用に設定可能なボードのグループです。
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # コレクションの管理
-
-{{highlighted-preview-article-level}}
 
 コレクションは、作業時の共同作業用に設定可能なボードのグループです。 コレクションには、テンプレートから作成した様々なタイプのボードを含めることができます。
 

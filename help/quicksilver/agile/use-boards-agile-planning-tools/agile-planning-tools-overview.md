@@ -7,7 +7,7 @@ description: アドホックカードと接続カードを使用してボード�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 # アジャイル計画ツールの概要
 
-{{highlighted-preview}}
-
-アドホックカードと接続カードを使用してボードを作成する場合、列の WIP 制限、スイムレーンへのカードのグループ化、バックログに使用できるインテーク列など、追加のアジャイル計画ツールを活用できます。 <span class="preview">板の集まり</span>.
+アドホックカードと接続カードを使用してボードを作成する場合、列 WIP 制限、スイムレーンへのカードのグループ化、バックログに使用できるインテーク列、ボードの集まりなど、追加のアジャイル計画ツールを活用できます。
 
 これらのツールは、カンバンやスクラムなどの特定のアジャイルな手法にコミットすることなく、ユーザーやチームに適した方法で使用できます。
 

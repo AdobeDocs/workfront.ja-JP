@@ -5,9 +5,9 @@ title: カードに表示するフィールドのカスタマイズ
 description: カードに表示するフィールドをカスタマイズするには、フルカード表示や縮小表示に表示されないようにフィールドを無効にするか、縮小表示でフィールドを非表示にします。
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # カードに表示するフィールドのカスタマイズ
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
+>この機能は、の初期の機能オプトインでのみ使用できます。 [!DNL Workfront] [!UICONTROL ボード]. 詳しくは、 [Adobe Workfrontボードの初期機能のオプトイン](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 デフォルトでは、すべての使用可能なフィールドは、カードが開いているときのフルビューと、ボード上の縮小されたカードビューの両方で、カードに表示されます。 表示するフィールドは、次の方法でカスタマイズできます。
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 1. クリック [!UICONTROL **設定**] をクリックして、設定パネルを開きます。
 1. 展開 [!UICONTROL **カード**].
 
-   すべてのフィールドは、デフォルトで有効になっています。
+   ほとんどのフィールドは、デフォルトで有効になっています。
 
 1. フィールドをオフにすると、両方のカード表示で無効になります。
 1. 非表示アイコンをクリックします。 ![アイコンを非表示](assets/eye-hide-icon.png) 縮小表示で非表示にするフィールドの横に表示されます。

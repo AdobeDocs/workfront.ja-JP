@@ -6,7 +6,7 @@ description: この [!UICONTROL ボード] 「ダッシュボード」には、�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # ボードダッシュボードの使用
 
-{{highlighted-preview}}
-
-ボードダッシュボードには、ボードのリストが表示されます <span class="preview">およびコレクション</span> にアクセスできます。作成したボードや追加したボードも含まれます。 <span class="preview">アクセス権を持ち、コレクションに含まれていない個々のボードが最初に表示されます。</span>
+ボードダッシュボードには、自分が作成したボードや追加したボードなど、アクセス権のあるボードやコレクションのリストが表示されます。 アクセス権を持ち、コレクションに含まれていない個々のボードが最初に表示されます。
 
 >[!NOTE]
 >
 >コレクションは、初期の機能オプトインでのみ使用できます。 [!DNL Workfront] [!UICONTROL ボード].
 
-ダッシュボードでは、ボードとボードに対して次の操作を実行できます <span class="preview">コレクション</span>:
+ダッシュボードでは、ボードやコレクションに対して次の操作を実行できます。
 
 * ボードのアーカイブ（コレクションはアーカイブできません）
 * ボードリストをフィルター
@@ -31,7 +29,7 @@ ht-degree: 0%
 * ボードまたはコレクションの検索
 * ボードまたはコレクションの削除
 
-新しいボードの作成や既存のボードの編集について詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">新しいコレクションの作成について詳しくは、 [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+新しいボードの作成や既存のボードの編集について詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md). 新しいコレクションの作成について詳しくは、 [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## アクセス要件
 
@@ -72,9 +70,9 @@ ht-degree: 0%
 
    デフォルト以外の並べ替えがダッシュボードに適用されると、並べ替えアイコンにインジケーターが表示されます ![適用された並べ替え](assets/sort-applied-boards.png).
 
-## ボードの検索 <span class="preview">またはコレクション</span>
+## ボードまたはコレクションの検索
 
-<span class="preview">「ボード」領域で特定のボードを検索したり、「コレクション」領域で特定のコレクションを検索したりできます。</span>
+「ボード」領域で特定のボードを検索したり、「コレクション」領域で特定のコレクションを検索したりできます。
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
 1. クリック [!UICONTROL **検索**] 検索語句を入力します。 次に、Enter キーを押します。
@@ -102,11 +100,11 @@ ht-degree: 0%
 
 1. アーカイブしたボードを復元するには、 **[!UICONTROL 詳細]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL 復元]**.
 
-## ボードの削除 <span class="preview">またはコレクション</span>
+## ボードまたはコレクションの削除
 
 ボードを削除すると、そのボードは次の場所から永久に削除されます： [!DNL Workfront] 復元することはできません。 ボード上のカードもボードと一緒に削除されます。
 
-<span class="preview">コレクションを削除すると、コレクション内のすべてのボードが削除されます。</span>
+コレクションを削除すると、コレクション内のすべてのボードが削除されます。
 
 >[!NOTE]
 >
@@ -115,11 +113,9 @@ ht-degree: 0%
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
 1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 削除]**.
 
-   <span class="preview">コレクションでは、右側のメニューが「 [!UICONTROL **コレクションを表示**] 」ボタンをクリックします。</span>
+   コレクションでは、右側のメニューが「 [!UICONTROL **コレクションを表示**] 」ボタンをクリックします。
 
 1. クリック **[!UICONTROL ボードを削除]** または [!UICONTROL **コレクションを削除**] をクリックします。
-
-<div class="preview">
 
 ## ボードをコレクションに移動
 
@@ -135,5 +131,3 @@ ht-degree: 0%
 
    ボードはコレクションに移動され、 [!UICONTROL ボード] 領域
 コレクションをまだ作成していない場合は、ボードを移動するコレクションを作成するよう求めるプロンプトが表示されます。
-
-</div>

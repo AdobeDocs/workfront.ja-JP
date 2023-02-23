@@ -6,7 +6,7 @@ title: ボードの削除またはアーカイブ
 description: ボードは、Workfrontで削除またはアーカイブできます。 ボードを削除すると、Workfrontから完全に削除されます。ボードをアーカイブすると、すべてのカードが保持され、後で復元することができます。
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 1%
@@ -15,9 +15,7 @@ ht-degree: 1%
 
 # ボードの削除またはアーカイブ
 
-{{highlighted-preview}}
-
-ボードは、 [!DNL Workfront]. ボードを削除すると、そのボードは完全に削除されます [!DNL Workfront]をアーカイブすると、ボードはすべてのカードを保持し、後で復元できます。 <span class="preview">これらのオプションは、コレクションの一部であるスタンドアロンボードとボードの両方に適用されます。</span>
+ボードは、 [!DNL Workfront]. ボードを削除すると、そのボードは完全に削除されます [!DNL Workfront]をアーカイブすると、ボードはすべてのカードを保持し、後で復元できます。 これらのオプションは、コレクションの一部であるスタンドアロンボードとボードの両方に適用されます。
 
 >[!NOTE]
 >
