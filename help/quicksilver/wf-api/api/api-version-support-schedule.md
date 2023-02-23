@@ -6,10 +6,10 @@ description: API のバージョン管理とサポートのスケジュール
 author: John
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 183f7b766fd6f02b51625778e380cf00c5ecf61f
+source-git-commit: 5804eed9451084614cc6331a4234ae88d9b58b3c
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 10%
+source-wordcount: '217'
+ht-degree: 11%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 
 
-Adobe Workfrontは、6 ～ 8 ヶ月ごとに新しい API バージョンを年 2 回リリースします。 API バージョンは、リリース後 3 年間サポートされています。 3 年より前の API バージョンはサポートされなくなりました。
+Adobe Workfrontは新しい API バージョンを定期的にリリースしています（通常は年に 2 回）。 API バージョンは、リリース後 3 年間サポートされています。 3 年より前の API バージョンはサポートされなくなりました。
 
 次の表に、Workfront API のリリースおよびサポートスケジュールを示します。
 

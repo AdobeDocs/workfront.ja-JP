@@ -7,7 +7,7 @@ description: イベント購読メッセージのフィルタリング
 author: John
 feature: Workfront API
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 606d19b8a83b833aba6d6b15231a8683aa2cee40
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%
@@ -301,7 +301,7 @@ Node.js の次の例は、で行ったように、プロジェクトのグルー
 public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuery(LambdaLogger logger) {
     HttpClient httpClient = HttpClientBuilder.create().build();
 
-    // Produces a URL of https://<my-domain>.workfront.com/attask/api/v9.0/PROJ/search?groupID=<DESIRED_GROUP_ID>
+    // Produces a URL of https://<my-domain>.workfront.com/attask/api/v15.0/PROJ/search?groupID=<DESIRED_GROUP_ID>
     replacing <...> with the appropriate values
     URI projectGroupQueryUri = generateProjectRecoveryQueryURI(logger);
 
