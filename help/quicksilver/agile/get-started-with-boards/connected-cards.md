@@ -6,14 +6,16 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '1227'
+ht-degree: 0%
 
 ---
 
 # ボードでの接続済みカードの使用
+
+{{highlighted-preview}}
 
 ボードに、 [!DNL Workfront].
 
@@ -182,3 +184,27 @@ ht-degree: 1%
    プロジェクト名は、カードの詳細の「接続」領域に表示されます。
 
 1. クリック **[!UICONTROL 閉じる]** ボードに戻る
+
+<div class="preview">
+
+## 接続されたカードでのログ時間
+
+>[!NOTE]
+>
+>この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
+
+接続されたタスクまたは問題に関する時間を記録するには、適切な権限が必要です。
+
+デフォルトでは、接続されたカードにタイムログフィールドが表示されません。 有効にする必要があります [!UICONTROL **時間**] 内 [!UICONTROL 設定] 下の領域 [!UICONTROL カード]. 詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. タスクまたはタスクの発行時間数を入力します。
+1. を選択します。 [!UICONTROL 時間タイプ] デフォルトと異なる場合は、ドロップダウンメニューから。
+1. クリック [!UICONTROL **ログ時間**].
+
+   ![カードに記録する時間](assets/log-hours-on-card.png)
+
+   カードに記録された時間は、接続されたタスクまたはイシューにも保存されます。
+
+カードのログ記録時間は、タスクまたは問題のログ記録時間と同じです。 詳細については、この記事の「プロジェクト、タスク、または問題に対するログの記録」を参照してください [ログ時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>

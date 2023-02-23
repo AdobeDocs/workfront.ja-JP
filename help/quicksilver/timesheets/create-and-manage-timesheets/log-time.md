@@ -6,14 +6,16 @@ description: 作業項目の時間を&nbsp;Adobe Workfrontに記録して、作�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 4fc7e3b62f6518c9c4f93e711017fd27f0ecad4e
 workflow-type: tm+mt
-source-wordcount: '2897'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
 
 # ログ時間
+
+{{highlighted-preview}}
 
 Adobe Workfrontの作業項目に費やした時間を記録して、その作業項目に費やした時間を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。 記録した時刻がタイムシートに表示されます。
 
@@ -96,6 +98,7 @@ Workfrontの次の領域で時間をログに記録できます。
 * [ホーム](#home)
 * [プロジェクト、タスクまたはタスク](#project-task-or-issue)
 * [概要パネル](#summary-panel)
+* <span class="preview">[ボード](#boards)</span>
 * [モバイルアプリ](#mobile-app)
 
 ### タイムシート {#timesheet}
@@ -394,7 +397,20 @@ Summary パネルで、タスクと問題に関する時間を記録できます
 
 ![](assets/summary-hour-log.png)
 
+<div class="preview">
+
+### ボード {#boards}
+
+>[!NOTE]
+>
+>この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
+
+Workfrontボードの接続済みカードで時間を記録できます。 これは、タスクまたはイシューの時間を記録するのと同じプロセスで、カードに記録された時間は、接続されたタスクまたはイシューに保存されます。
+詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+</div>
 
 ### モバイルアプリ {#mobile-app}
 
 Workfrontモバイルアプリから時間をログに記録できます。
+詳しくは、 [Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) または [Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
