@@ -6,24 +6,22 @@ title: コレクションの管理
 description: コレクションは、作業時の共同作業用に設定可能なボードのグループです。
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
 
 # コレクションの管理
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>コレクションは、初期の機能オプトインでのみ使用できます。 [!UICONTROL [!DNL Workfront] ボード]. 詳しくは、 [Adobe Workfrontボードの初期機能のオプトイン](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 コレクションは、作業時の共同作業用に設定可能なボードのグループです。 コレクションには、テンプレートから作成した様々なタイプのボードを含めることができます。
 
 コレクションは、コレクションに含まれていない個々のボードと共にダッシュボードに表示されます。 ボードダッシュボードについて詳しくは、 [ボードダッシュボードの使用](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). ダッシュボード上の任意のボード名をクリックして開くことができます。
-
->[!NOTE]
->
->コレクションは、初期の機能オプトインでのみ使用できます。 [!UICONTROL [!DNL Workfront] ボード].
 
 ## アクセス要件
 
