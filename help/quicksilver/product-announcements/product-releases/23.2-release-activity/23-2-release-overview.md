@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートのピン名を変更する</span></a><span style="color: #ff0000;"> プレビューの新機能</span>
-                        <p>固定されたページの既定の名前を使用する代わりに、レイアウトテンプレートのピン名を変更して、ユーザーにとってより意味のある名前に変更できるようになりました。 管理者が作成したピンは、レイアウトテンプレートに割り当てられたすべてのユーザに対して表示され、ユーザはこれらのピンの名前を変更できません。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートのピン名を変更する</span></a>
+                        </span></a><p>固定されたページの既定の名前を使用する代わりに、レイアウトテンプレートのピン名を変更して、ユーザーにとってより意味のある名前に変更できるようになりました。 管理者が作成したピンは、レイアウトテンプレートに割り当てられたすべてのユーザに対して表示され、ユーザはこれらのピンの名前を変更できません。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -83,9 +83,26 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">ボード上の接続されたカードのログ時間</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>タスクやイシューと同じ方法で、接続されたカードに時間を記録できるようになりました。 時刻を記録するには、タスクまたはイシューに対する適切な権限が必要です。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 2 月 24 日<br /></p>
+                            </li>
+                            <li>
+                                 <p>先行オプトインの実稼動リリース：2023 年 3 月 3 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.2 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">カードでのフィールド表示のカスタマイズ</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">カードでのフィールド表示のカスタマイズ</a></p>
                         <p>カードを開いたときのフルビューと、ボード上の縮小されたカード表示の両方で、どのフィールドをカードに表示するかを設定できるようになりました。 無効にしたフィールドは、どちらのビューにも表示されません。 また、フルビューでフィールドを有効にして、縮小表示で非表示にすることもできます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -102,7 +119,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">ボード列に移動されたカードのデフォルトのステータスを定義する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">ボード列に移動されたカードのデフォルトのステータスを定義する</a></p>
                         <p>列ポリシーでカスタムステータスとシステムステータスを選択することで、特定の列に移動したカードに適用するデフォルトのステータスを設定できるようになりました。 カードを列に移動すると、Workfrontは最初にカスタムステータス（フィードバック待ちなど）の適用を試みます。 そのカードでカスタムステータスが使用できない場合、Workfrontは代わりにシステムステータスを適用します（保留中など）。 また、接続されたタスクまたは問題のステータスが列ポリシーで設定されたカスタムまたはシステムのステータスに変更された場合、カードは自動的に列に移動されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -119,7 +136,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">コレクションがAdobe Workfrontボードで利用可能に</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">コレクションがAdobe Workfrontボードで利用可能に</a></p>
                         <p>ボードダッシュボードでコレクションを作成できるようになりました。 コレクションは、作業での共同作業用のボードのグループです。 コレクションに名前を付けたら、列名などの事前定義済みの設定を提供する一連のテンプレートを使用して、コレクションにボードを追加できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -190,7 +207,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">プロジェクトのコピー時の予算時間のコピー</a><span style="color: #ff0000;"> プレビューの新機能</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">プロジェクトのコピー時の予算時間のコピー</a>
                         <p>これで、プロジェクトをコピーする際に、ビジネス事例の「生産資源予算設定」領域または「生産資源プランナ」領域で予算計画された時間をコピーするオプションが用意されました。 この機能強化の前は、プロジェクトに予算が割り当てられた時間は、コピーされたプロジェクトには転送されませんでした。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -225,7 +242,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">ユーザー容量を正確に計算する「作業時間」フィールドの紹介</a><span style="color: #ff0000;"> プレビューの新機能</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">ユーザー容量を正確に計算する「作業時間」フィールドの紹介</a>
                         <p>リソースマネージャが、実際のプロジェクト関連の作業に専念するユーザーとアカウントの可用性を正確に計算できるように、Adobe Workfrontに「作業時間」の概念を導入しました。</p>
                         <p>各ユーザーのプロファイルを作成または編集する際に、各ユーザーの「作業時間」フィールドの値を定義できます。</p>
                     </td>
@@ -328,6 +345,21 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 
 各Adobe Workfront製品リリースの学習プログラム、学習パス、ビデオ、ガイドに対しておこなわれた最新のアップデートを確認します。 詳しくは、 [トレーニングリリースの更新ページ](https://one.workfront.com/s/training-release-updates).
 
+### 機能は間もなくWorkfrontから削除されます
+
+次の機能は、近日中にWorkfrontから削除されます。
+
+#### **Workfront Default API の変更**
+
+API 呼び出しで最新のWorkfront API 機能を確実に利用できるように、デフォルト API を更新しています。 API 呼び出しで API のバージョンが指定されていない場合、呼び出しはデフォルトの API に対しておこなわれます。
+
+現在、デフォルト API は、API の最新バージョンを反映しています。 今後、新しい API バージョンがリリースされるたびにデフォルト API が更新されるので、デフォルト API への呼び出しでは常に最新バージョンの API が使用されます。
+
+以前は、Default API でWorkfront API バージョン 2.0 が使用されていましたが、これは非推奨（廃止予定）となっていました。
+
+お客様の組織が現在非推奨のデフォルト API を使用している場合、Workfront管理者に、デフォルト API に関する詳細な手順を含むアナウンスセンターのメッセージが届きます。
+
+詳しくは、 [デフォルトの API バージョン管理を使用する統合を更新](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

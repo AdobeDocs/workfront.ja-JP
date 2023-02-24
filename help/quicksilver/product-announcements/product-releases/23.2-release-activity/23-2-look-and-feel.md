@@ -4,7 +4,7 @@ description: 23.2 リリース期間中のルックアンドフィールの更�
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->プレビューリリース：2023 年 2 月 9 日；実稼動予定リリース：2023 年 2 月 24 日
+>プレビューリリース：2023 年 2 月 9 日；実稼動予定リリース：2023 年 3 月 3 日
 
 次の領域でユーザーを追加すると、追加のユーザー情報が表示されるようになりました。
 
