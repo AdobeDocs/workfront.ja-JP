@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 94094c0f-1f40-46ea-a58f-5a6aa7f131a8
 hidefromtoc: true
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
 
 ## Workfront /レコードを更新またはWorkfront /レコードを作成モジュールを使用する際に、入力フィールドを選択します
 

@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Workfrontのドキュメント領域のパフォーマンスが向上しまし�
 ### プレビューリリース：2022 年 2 月 10 日；実稼動版リリース： 2022 年 3 月 4 日
 
 >[!NOTE]
-ダッシュボード内でこれらの同じレポート用のツールバーも、実稼動環境では毎週更新されました [メンテナンスの更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) 2022 年 3 月 3 日。
+ダッシュボード内でこれらの同じレポート用のツールバーも、実稼動環境では毎週更新されました [メンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) 2022 年 3 月 3 日。
 
 * プロジェクトレポート
 * タスクレポート

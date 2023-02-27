@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Fusion
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

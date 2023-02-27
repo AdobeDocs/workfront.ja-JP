@@ -7,9 +7,9 @@ description: プレビュー環境は週に 1 回更新され、新機能が追�
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### メンテナンスの更新
 
-Adobe Workfront製品に対する問題の修正は、毎週実稼動環境でおこなわれます。 詳しくは、 [Workfrontメンテナンスのアップデート](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) ページを開いて、最近修正された問題を確認します。
+Adobe Workfront製品に対する問題の修正は、毎週実稼動環境でおこなわれます。 詳しくは、 [Workfrontメンテナンスのアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開いて、最近修正された問題を確認します。
 
 ## 四半期リリースから削除された機能
 

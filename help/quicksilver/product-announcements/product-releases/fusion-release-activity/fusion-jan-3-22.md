@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Fusion
 exl-id: af3aaeac-38da-4ca3-86b5-aea27cb49bf4
 hidefromtoc: true
-source-git-commit: 9c2321794c5ba773bfda1d6e9dfda6b8de1a1449
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
 
 ## Workfront Fusion で Frame.io モジュールを利用できるようになりました。
 

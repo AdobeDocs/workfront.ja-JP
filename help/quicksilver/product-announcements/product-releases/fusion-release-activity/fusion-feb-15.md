@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Fusion
 exl-id: d4bac9f7-500a-40c1-bb44-7726830ae154
 hidefromtoc: true
-source-git-commit: 9c2321794c5ba773bfda1d6e9dfda6b8de1a1449
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
 
-このリリースには、1 つ以上のメンテナンスアップデートが含まれていました。 Workfront Fusion 2.0 のメンテナンスアップデートについて詳しくは、 [Workfrontメンテナンスの更新](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+このリリースには、1 つ以上のメンテナンスアップデートが含まれていました。 Workfront Fusion 2.0 のメンテナンスアップデートについて詳しくは、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## チームが電子メール通知設定を共有するようになりました
 
