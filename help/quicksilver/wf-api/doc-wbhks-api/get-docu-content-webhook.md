@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Web フックを使用したドキュメントコンテンツの取得
 description: ドキュメントの生のバイトを返します
-author: John
+author: Becky
 feature: Workfront API, Digital Content and Documents
 exl-id: 0f0b5af7-f276-4856-852c-e976fa491f83
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 5%

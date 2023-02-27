@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 7 の新機能
 description: コレクション
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 50%

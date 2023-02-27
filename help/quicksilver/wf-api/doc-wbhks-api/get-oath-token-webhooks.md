@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: OAuth2 トークンの取得
 description: OAuth2 トークンの取得
-author: John
+author: Becky
 feature: Workfront API
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: 492361028e7cf0d886c1f84f437ce9c55bc6603e
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 3%

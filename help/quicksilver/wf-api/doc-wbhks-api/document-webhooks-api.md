@@ -5,9 +5,9 @@ product-area: documents
 navigation-topic: workfront-api
 title: Document Webhook API の概要
 description: Document Webhook API トピック
-author: John
+author: Becky
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 0d6346cf849ba1228c52b5cd678e71dd01a37b94
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

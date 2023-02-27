@@ -3,10 +3,10 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: 大きなページ分割検索中に返される重複
 description: 大きなページ分割検索中に返される重複
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 0359d6ba-b219-4d11-9f6f-cec2ff9ee058
-source-git-commit: a939e14cbd6936bdd0c46c1ed641acdda497b8fc
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

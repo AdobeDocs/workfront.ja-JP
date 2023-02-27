@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: カスタム OAuth 2 アプリケーションの認証コードフロー
 description: カスタム OAuth 2 アプリケーションの認証コードフロー
-author: John
+author: Becky
 feature: Workfront API
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e67f397ec82858bc489313db963259ce05175428
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

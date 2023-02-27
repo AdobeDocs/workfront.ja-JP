@@ -4,10 +4,10 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: ドキュメント Web フックの認証
 description: ドキュメント Web フックの認証
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2303c202-27c7-4922-a613-e9824910504c
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
