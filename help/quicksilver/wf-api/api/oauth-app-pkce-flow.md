@@ -83,18 +83,14 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >**例:**
 >
->
-```
+>```
 >{
 >
+>  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
-  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
+>  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >
->
-  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
->
-}
+>}
 >```
 
 アプリが `code_verifier` の場合は後で、を `code_challenge` お使いの認証サーバーの `/authorize` URL。
@@ -108,12 +104,10 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >**例:**
 >
 >
->
-```
+>```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
 >
->
-&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
 渡されるパラメーターに注意してください。
@@ -139,21 +133,16 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >**例:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
+>  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
 >[!IMPORTANT]
@@ -179,21 +168,16 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >**例:**
 >
->
-```
+>```
 >{
 >
+>    "access\_token": "eyJhd\[...\]Yozv",
 >
-    "access\_token": "eyJhd\[...\]Yozv",
+>    "expires\_in": 3600,
 >
+>    "token\_type": "Bearer"
 >
-    "expires\_in": 3600,
->
->
-    "token\_type": "Bearer"
->
->
-}
+>}
 >```
 
 ## アクセストークンの検証
@@ -206,12 +190,10 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >**例:**
 >
->
-```
+>```
 >/attask/api/<api version>/proj/search \\
 >
->
-  --header 'sessionID: <access\_token>' \\
+>  --header 'sessionID: <access\_token>' \\
 >```
 
 ## 更新トークンのリクエスト
@@ -222,19 +204,14 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >**例:**
 >
->
-```
+>```
 >/token \\
 >
+>  --header 'accept: application/json' \\
 >
-  --header 'accept: application/json' \\
+>  --header 'cache-control: no-cache' \\
 >
+>  --header 'content-type: application/x-www-form-urlencoded' \\
 >
-  --header 'cache-control: no-cache' \\
->
->
-  --header 'content-type: application/x-www-form-urlencoded' \\
->
->
-  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
+>  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```
