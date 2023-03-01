@@ -7,9 +7,9 @@ description: Select または Premium プランをお持ちの場合は、既存
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Select または Premium プランをお持ちの場合は、既存の組織の�
 
 サービスプロバイダーとして、エンティティ ID をここに公開しました。
 
-[https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq) （「サブドメイン」はアカウントのサブドメインです）。
+[https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq) （「サブドメイン」はアカウントのサブドメインです）。
 
 [!DNL Workfront Proof] では、ユーザーの電子メールアドレスを一意の識別子として使用する必要があります。この識別子は、次の属性の 1 つとして渡すことができます。
 
