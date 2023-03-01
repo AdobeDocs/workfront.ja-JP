@@ -7,18 +7,22 @@ description: Workfront Proof では、レポートを表示して、チームの
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: a0d76692f9e9d12ed0d538c1344638dbc208d625
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
 
 # でのレポートの実行 [!DNL Workfront Proof]
 
+
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>* <span class="previe">レポート機能は、 [!DNL Workfront Proof]. 「レポート」タブは引き続き表示されますが、データは正確ではありません。</span>
+> 
+>* この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+
 
 Workfront Proof では、レポートを表示して、チームの作業の進行状況や効率性を追跡できます。
 
