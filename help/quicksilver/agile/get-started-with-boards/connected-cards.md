@@ -6,7 +6,7 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
+source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
 workflow-type: tm+mt
 source-wordcount: '1227'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # ボードでの接続済みカードの使用
-
-{{highlighted-preview}}
 
 ボードに、 [!DNL Workfront].
 
@@ -185,8 +183,6 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL 閉じる]** ボードに戻る
 
-<div class="preview">
-
 ## 接続されたカードでのログ時間
 
 >[!NOTE]
@@ -207,4 +203,3 @@ ht-degree: 0%
 
 カードのログ記録時間は、タスクまたは問題のログ記録時間と同じです。 詳細については、この記事の「プロジェクト、タスク、または問題に対するログの記録」を参照してください [ログ時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
-</div>
