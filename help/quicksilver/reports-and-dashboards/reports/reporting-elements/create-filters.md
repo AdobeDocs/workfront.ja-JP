@@ -6,14 +6,16 @@ description: フィルターを使用して、項目のリストに表示する�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: fd2723eeb6a8323a8f2fcdb506991704777bdea8
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2513'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfrontでフィルターを作成または編集
+
+<span class="preview">プレビュー環境では、拡張フィルターエクスペリエンス（旧称「ベータ版」）がデフォルトになりました。 これらの拡張フィルターは、「標準」になり、以前のフィルターエクスペリエンスは「レガシー」になりました。</span>
 
 フィルターを使用して、項目のリストに表示する情報の量を制限できます。 特定の基準を、オブジェクトに関する特定の情報に基づいて定義し、その基準を満たすオブジェクトのみを表示できます。
 

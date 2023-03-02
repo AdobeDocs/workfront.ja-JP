@@ -6,14 +6,16 @@ description: 作成したリストやレポート、または自分と共有さ�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: a3e4eb500570f86c689ef3bef654d659b9c465a2
+source-git-commit: b56e6591c7da166bd1548420b562b838cc7fe0f2
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
 
 # フィルター、ビュー、およびグループを削除する
+
+<span class="preview">プレビュー環境では、拡張フィルターエクスペリエンス（旧称「ベータ版」）がデフォルトになりました。 これらの拡張フィルターは、「標準」になり、以前のフィルターエクスペリエンスは「レガシー」になりました。</span>
 
 作成したリストやレポート、または自分と共有されているリストやレポートから、フィルター、表示、グループを削除できます。 デフォルトのフィルター、ビュー、グループは削除できません。
 

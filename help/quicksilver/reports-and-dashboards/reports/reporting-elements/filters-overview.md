@@ -7,14 +7,16 @@ description: Adobe Workfrontでフィルターを使用すると、リスト、�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfrontのフィルターの概要
+
+<span class="preview">プレビュー環境では、拡張フィルターエクスペリエンス（旧称「ベータ版」）がデフォルトになりました。 これらの拡張フィルターは、「標準」になり、以前のフィルターエクスペリエンスは「レガシー」になりました。</span>
 
 Adobe Workfrontでフィルターを使用すると、リスト、レポート、その他の領域で画面に表示する情報の量を減らすことができます。
 
