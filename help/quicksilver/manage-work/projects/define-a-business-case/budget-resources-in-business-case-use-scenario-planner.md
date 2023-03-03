@@ -5,7 +5,7 @@ description: リソース計画の一環として、Adobe Workfrontシナリオ�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 0%
@@ -13,10 +13,6 @@ ht-degree: 0%
 ---
 
 # シナリオ・プランナを使用したビジネス・ケースの予算生産資源
-
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 リソース計画の一環として、Adobe Workfrontシナリオプランナーを使用して、ビジネスケースの構築時に、プロジェクトでの作業の完了に必要な役割を予算できます。
 
@@ -132,21 +128,16 @@ ht-degree: 0%
 
       Workfrontは、リンク・イニシアティブから必要な職務ロール時間を使用して、プロジェクトの予算労務費と予算時間を計算します。 これが推奨されるオプションです。 コストは、ビジネスケースにプロジェクトの通貨で表示されます。
 
-      <!--drafted for Budgeted Hours:
-   <span class="preview">プロジェクトをコピーし、予算時間を新規プロジェクトにコピーする場合、シナリオ・プランナを使用して予算された時間は新規プロジェクトにコピーされません。 リソース・プランナで予算設定された時間のみがコピーされます。 詳しくは、 [プロジェクトのコピー](../manage-projects/copy-project.md)</span>
--->
+      プロジェクトをコピーし、予算時間を新規プロジェクトにコピーする場合、シナリオ・プランナを使用して予算された時間は新規プロジェクトにコピーされません。 リソース・プランナで予算設定された時間のみがコピーされます。 詳しくは、 [プロジェクトのコピー](../manage-projects/copy-project.md).
 
-   >[!IMPORTANT]
-   > 
-   >シナリオ・プランナを使用してプロジェクトの生産資源を予算すると、Workfrontの次の領域に予算労務費が表示されます。
-   > 
-   >* ビジネス事例のリソース予算領域
-   >* プロジェクトにリンクされたイニシアチブの「個人原価」としてのシステム・レベルのシナリオ・プランナ。 詳しくは、 [シナリオプランナーでイニシアチブを作成および編集します](../../../scenario-planner/create-and-edit-initiatives.md).
+      >[!IMPORTANT]
+      シナリオ・プランナを使用してプロジェクトの生産資源を予算すると、Workfrontの次の領域に予算労務費が表示されます。
+      * ビジネス事例のリソース予算領域
+      * プロジェクトにリンクされたイニシアチブの「個人原価」としてのシステム・レベルのシナリオ・プランナ。 詳しくは、 [シナリオプランナーでイニシアチブを作成および編集します](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. （オプション）「 **シナリオプランナーで表示** ：プロジェクトにリンクされたイニシアチブを含むプランを開きます。 これにより、新しいブラウザタブでシナリオプランナーが開きます。
 1. （オプション）イニシアチブの情報を更新します。 詳しくは、 [シナリオプランナーでイニシアチブを作成および編集します](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   > 
-   >プロジェクトの「生産資源予算設定」領域が更新されるたびに、イニシアチブを発行する必要があります。
+   プロジェクトの「生産資源予算設定」領域が更新されるたびに、イニシアチブを発行する必要があります。

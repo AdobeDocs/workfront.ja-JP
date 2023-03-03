@@ -6,16 +6,14 @@ description: プロジェクトは、ゼロから作成する代わりにコピ�
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '715'
 ht-degree: 5%
 
 ---
 
 # プロジェクトのコピー
-
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +31,7 @@ ht-degree: 5%
 >* メモ
 >* 時間
 >* プロジェクト間の先行タスク
->* <span class="preview">予算計上時間数</span>
+>* 予算計上時間数
 >
 >次の項目は、常に既存のプロジェクトから新しいプロジェクトにコピーされます。
 >
@@ -179,12 +177,12 @@ ht-degree: 5%
    </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">予算計上時間数</span></td> 
-      <td> <p><span class="preview">プロジェクトのビジネスケースの「リソース計画」領域に予算された時間を、コピーしたプロジェクトから削除します。 <span class="preview"></p>
+      <td role="rowheader">予算計上時間数</td> 
+      <td> <p>プロジェクトのビジネスケースの「リソース計画」領域に予算された時間を、コピーしたプロジェクトから削除します。</p>
 
 <b>メモ</b>
 
-<span class="preview">シナリオ・プランナを使用して予算化された時間は、新規プロジェクトはシナリオ・プランナのイニシアチブにリンクされていないので、新規プロジェクトにはコピーされません。 詳しくは、 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">シナリオ・プランナを使用したビジネス・ケースの予算生産資源</a></span>
+シナリオ・プランナを使用して予算化された時間は、新規プロジェクトはシナリオ・プランナのイニシアチブにリンクされていないので、新規プロジェクトにはコピーされません。 詳しくは、 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">シナリオ・プランナを使用したビジネス・ケースの予算生産資源</a>
 </tr></td>
     <tr> 
       <td role="rowheader">財務情報</td> 

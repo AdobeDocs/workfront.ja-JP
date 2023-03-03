@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2363'
 ht-degree: 0%
 
 ---
 
 # ユーザープロファイルの一括編集
-
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 >[!IMPORTANT]
 >
@@ -145,21 +143,21 @@ ht-degree: 0%
        <ul>
 
    <li>
-       <b><span class="preview">作業時間</span></b>: <span class="preview">ユーザーが実際の作業に使用できるフルタイム相当 (FTE) 時間の割合を表します（オーバーヘッドは含まれません）。 [ 作業時間 ] には 1 までの 10 進数を指定する必要があります。0 は指定できません。 例えば、実際の作業時間の 20%の可用性は 0.2 となります。</span>
+       <b>作業時間</b>:ユーザーが実際の作業に使用できるフルタイム相当 (FTE) 時間の割合を表します（オーバーヘッドは含まれません）。 [ 作業時間 ] には 1 までの 10 進数を指定する必要があります。0 は指定できません。 例えば、実際の作業時間の 20%の可用性は 0.2 となります。
 
-   <span class="preview">フィールドのデフォルト値は 1 で、ユーザーが FTE 全体を実際のプロジェクト関連の作業に費やすことを示します。</span>
+   フィールドのデフォルト値は 1 で、ユーザーが FTE 全体を実際のプロジェクト関連の作業に費やすことを示します。
 
-   <span class="preview">この数値を使用して、プロジェクト関連の実際の作業に対するユーザーの可用性が計算されます。 </span>
+   この数値を使用して、プロジェクト関連の実際の作業に対するユーザーの可用性が計算されます。
 
-   <span class="preview">Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>.</span>
+   Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>.
 
-   <span class="preview">スケジュールの例外とタイムオフも、ユーザーの容量に影響を与える可能性があります。
+   スケジュールの例外とタイムオフも、ユーザーの容量に影響を与える可能性があります。
 
    Workfrontは、セットアップ領域のリソース管理環境設定に基づいて、ユーザーの可用性を計算します。 詳しくは、 <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a>.
 
    <b>ヒント</b>
 
-   <span class="preview">[ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。</span>
+   [ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。
    </li>
 
    <li><b>無効化をスケジュール</b>:一定期間後にユーザーの非アクティブ化をスケジュールする場合は、このチェックボックスをオンにします。</li> 
@@ -196,7 +194,7 @@ ht-degree: 0%
 
    フィールドのデフォルトは 1 です。
 
-   スケジュールの例外、タイムオフの場合があります。 <span class="preview">と Work Time の値</span> は、ユーザーの可用性に影響を与える可能性があります。
+   スケジュールの例外、タイムオフ、および作業時間の値は、ユーザーの可用性に影響を与える場合があります。
 
    Workfrontは、セットアップ領域のリソース管理環境設定に基づいて、ユーザーの可用性を計算します。
 

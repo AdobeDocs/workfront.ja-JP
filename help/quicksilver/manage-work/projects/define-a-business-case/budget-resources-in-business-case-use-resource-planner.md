@@ -5,18 +5,14 @@ description: 生産資源計画の一環として、プロジェクト・レベ�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
 
 # リソース・プランナを使用したビジネス・ケースの予算リソース
-
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 生産資源計画の一環として、プロジェクト・レベルの生産資源計画担当を使用して、ビジネス・ケースの構築時に、プロジェクトでの作業の完了に必要な役割を予算できます。
 
@@ -174,6 +170,4 @@ ht-degree: 0%
 
    ビジネス・ケースで指定された予算情報は、リソース・プランナにも表示されます。
 
-   <!--drafted for Budgeted Hours: 
-   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
-   -->
+   プロジェクトをコピーする場合、予算時間も新しいプロジェクトにコピーできます。 リソース・プランナで予算設定された時間のみがコピーされます。 詳しくは、 [プロジェクトのコピー](../manage-projects/copy-project.md).

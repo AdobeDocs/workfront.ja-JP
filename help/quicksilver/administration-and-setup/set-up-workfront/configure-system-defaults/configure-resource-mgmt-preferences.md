@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
-
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] システムの環境設定。 これらの環境設定では、 [!DNL Workfront] リソースのスケジュールおよび計画ツール。
 
@@ -87,9 +85,8 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
 * [!UICONTROL スケジュール] [!UICONTROL 例外] ( [!UICONTROL スケジュール] が使用されている場合、ユーザーのスケジュールの例外である場合、または [!DNL Workfront] [!UICONTROL デフォルトのスケジュール])
 * ユーザーのオフタイム
 * フルタイム相当 ([!UICONTROL FTE]) に含まれます。 [!DNL Workfront] システム。 この [!UICONTROL FTE] は、スケジュールで定義されているように、ユーザーがフルタイムで作業する場合は 1 に等しくなります。
-<div class="preview">
-*ユーザーの [!UICONTROL Work Time] の値。ユーザーがプロジェクト関連の作業に費やした時間を指します。 会議やトレーニングなどのオーバーヘッド時間は含まれません。 [!UICONTROL 作業時間 ] は、[!UICONTROL FTE] またはスケジュールで示されたとおりに、ユーザーが作業に使用できる場合は 1 になります。つまり、会議やトレーニングなど、プロジェクト関連以外の作業に時間を費やしません。
-</div>
+* の値 [!UICONTROL 作業時間] ユーザーがプロジェクト関連の作業に費やした時間を参照するユーザーの場合。 会議やトレーニングなどのオーバーヘッド時間は含まれません。 この [!UICONTROL 作業時間] が 1 に等しいのは、ユーザーが作業に使用できる状態が [!UICONTROL FTE] スケジュールとは、会議やトレーニングなど、プロジェクトに関連しない作業に時間を費やさないということです。
+
 
 でのリソースの計画とスケジュールに関する情報 [!DNL Workfront]を参照してください。 [リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
@@ -112,29 +109,8 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
 
       Workfrontは、Workfront管理者が [!UICONTROL デフォルトのスケジュール]:
 
-
-      実稼動環境では、次の操作をおこないます。
-
       ```
-      User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
-      ```
-
-      >[!INFO]
-      >
-      > 例えば、 [!UICONTROL デフォルトのスケジュール] は週に 40 時間、 [!UICONTROL FTE] ユーザーのプロファイルが 0.5 の場合、そのユーザーは週に 20 時間働くことができます。
-      >ユーザーが 1 日に 1 時間のオフタイムを持っている場合、利用可能な時間は次のように計算されます。
-      >
-      >
-      ```
-      >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
-      >```
-
-      <div class="preview">
-
-      プレビュー環境では、次の操作をおこないます。
-
-      ```
-      User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * Work Time
+      User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]
       ```
 
       >[!INFO]
@@ -148,7 +124,22 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
       >User Available Hours = [(40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours
       >```
 
-      </div>
+      <!--This used to be the calculation before we implemented the Work Time field: 
+    
+      ```
+      User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
+      ```
+
+      >[!INFO]
+      >
+      > For example, if the [!UICONTROL Default Schedule] is 40 hours a week and the [!UICONTROL FTE] in the profile of the user is 0.5, the user is available to work for 20 hours a week.
+      >If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:
+      >
+      >```
+      >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
+      >```
+      -->
+
 
 
       <!--      
@@ -173,36 +164,6 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
       >
       >ユーザーがスケジュールに関連付けられていない場合、ユーザーの使用可能時間は [!UICONTROL デフォルトのスケジュール].
 
-      実稼動環境では、次の操作をおこないます。
-
-
-      ユーザーが使用できる時間は、次の数式で計算されます。
-
-      ```
-      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
-      ```
-
-      利用可能な [!UICONTROL FTE] の値は、次の式で計算されます。
-
-      ```
-      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
-      ```
-
-      >[!INFO]
-      >
-      >例えば、 [!UICONTROL デフォルトのスケジュール] は週に 40 時間、ユーザーのスケジュールは週に 30 時間です。 [!UICONTROL FTE] の値は 0.70 です。
-      >  
-      >ユーザーが 1 日に 2 時間の休暇を取っている場合、そのユーザーの週間利用可能 [!UICONTROL FTE] は次のように計算されます。
-      > 
-      >
-      ```
-      >User Weekly Available [!UICONTROL FTE] = (30-2) / 40 = 0.70
-      >```
-
-      <div class="preview">
-
-      プレビュー環境では、次の操作をおこないます。
-
       ユーザーが使用できる時間は、次の数式で計算されます。
 
       ```
@@ -223,9 +184,33 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
       >
       >
       ```
-      >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
+      >User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35
       >```
 
-      </div>
+      <!--This used to be the calculation before we implemented the Work Time field: 
+      
+
+      The Available hours for the user are calculated by the following formula:
+
+      ```
+      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
+      ```  
+
+      The Available [!UICONTROL FTE] for the user is calculated by the following formula:
+
+      ```
+      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
+      ```
+
+      >[!INFO]
+      >
+      >For example, if the [!UICONTROL Default Schedule] is 40 hours a week and the schedule of the user is 30 hours a week, the [!UICONTROL FTE] of the user is 0.70.
+      >  
+      >If the user has 2 hours of Time off one day, their Weekly Available [!UICONTROL FTE] will be calculated as follows:
+      > 
+      >```
+      >User Weekly Available [!UICONTROL FTE] = (30-2) / 40 = 0.70
+      >```
+      -->
 
 1. 「**[!UICONTROL 保存]**」をクリックします。

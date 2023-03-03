@@ -5,17 +5,15 @@ title: テンプレートタスクのコピーと移動
 description: テンプレートタスクは、同じテンプレートにコピーしたり、別のテンプレートに移動したりできます。
 author: Alina
 feature: Work Management
-source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2065'
 ht-degree: 3%
 
 ---
 
 
 # テンプレートタスクのコピーと移動
-
-<span class="preview">テンプレートタスクのコピーと移動は、実稼動環境で使用できます。 ただし、このページで説明する手順は、プレビュー環境でのみ機能を指します。 この機能は、2023 年 3 月 3 日に実稼動環境で利用できるようになります。</span>
 
 テンプレートタスクは、テンプレートから別のテンプレートにコピーすることも、別のテンプレートに移動することも、同じテンプレート内の別の場所に移動することもできます。
 

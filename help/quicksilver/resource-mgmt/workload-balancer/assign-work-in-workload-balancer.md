@@ -6,16 +6,14 @@ description: リソースマネージャーは、Adobe Workfrontワークロー�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
 
 # ワークロードバランサーでの作業割り当ての概要
-
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 リソースマネージャーは、Adobe Workfrontワークロードバランサーを使用して、まだユーザーに割り当てられていない作業項目を表示し、それらの項目を割り当てることができます。
 
@@ -49,9 +47,9 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 * ユーザーの休日。 これは、ユーザーがオフにする予定の日を示します。
 
    詳しくは、 [Adobe Workfrontでの個人の休日の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-<div class="preview">
-*ユーザーの作業時間。 これは、オーバーヘッドを含まずに、実際のプロジェクト関連作業を実行するためにユーザーが使用できる FTE 時間の割合を示します。 [ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。
-</div>
+
+* ユーザーの作業時間。 これは、オーバーヘッドを含まずに、実際のプロジェクト関連作業を実行するためにユーザーが使用できる FTE 時間の割合を示します。 [ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。
+
 
 ## ワークロードバランサーでの作業の割り当て
 
