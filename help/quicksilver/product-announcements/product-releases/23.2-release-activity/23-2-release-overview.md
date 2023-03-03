@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 26e15632013bc4ecdad67dd3843bc42ca9cc3ddb
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,26 @@ ht-degree: 0%
                         <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 2, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">ボード上の接続されたカードのログ時間</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">ボード上の接続されたカードのログ時間</a></p>
                         <p>タスクやイシューと同じ方法で、接続されたカードに時間を記録できるようになりました。 時刻を記録するには、タスクまたはイシューに対する適切な権限が必要です。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -203,6 +219,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontで一般に利用可能な拡張フィルターエクスペリエンス<span style="color: #ff0000;"> プレビューの新機能</span></a>
+                        <p>拡張されたフィルターエクスペリエンスは一般に利用可能になり、2023 年 3 月 3 日にプレビューで標準のフィルタービルダーになります。 実稼動環境での段階的なロールアウトは 3 月 2 日から始まり、23.2 リリースのすべてのお客様が利用できるようになります。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 3 月 3 日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">実稼動版リリース：23.2 リリースの場合</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
