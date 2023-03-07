@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: e1df51f5f689d7ecc7db56d1d836d34dbe40d1e1
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '12597'
+source-wordcount: '12602'
 ht-degree: 1%
 
 ---
@@ -884,6 +884,7 @@ ht-degree: 1%
       * [スクラムの設定](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Adobe Workfrontのボードの概要 {#boards-in-workfront}
       * [Adobe Workfrontのボードの概要](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Adobe Workfront Boards のビデオデモ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [ボードの先行機能のオプトイン](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [ボードダッシュボードの使用](agile/get-started-with-boards/use-boards-page.md)
       * [ボードの作成または編集](agile/get-started-with-boards/create-edit-board.md)
