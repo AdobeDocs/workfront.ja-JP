@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 5292069412a73f824dbcd967d47737cff5ef58fa
+source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ ht-degree: 0%
 個々のユーザーは、新しい [!DNL SharePoint] 統合とも呼ばれます。 統合には管理者設定は必要ありません。 代わりに、ユーザーが [!DNL Microsoft] ドキュメントをリンクする際にアカウントを作成します。これにより、統合でユーザーの [!DNL SharePoint].
 
 ユーザーが [!DNL Workfront] [!DNL SharePoint] 統合と [!DNL SharePoint] アカウントを使用する場合、 [!DNL Workfront] は、 [!UICONTROL SharePoint] アカウント 読み取り権限許可 [!DNL Workfront] 次のファイルを表示してアクセスする： [!DNL SharePoint]、および書き込み権限を持つユーザーは、にファイルをアップロードできます。 [!DNL SharePoint].
+
+![SharePoint の権限](assets/sharepoint-permissions.png)
 
 新しい [!DNL SharePoint] 統合については、 [外部ドキュメントを次にリンク： [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
