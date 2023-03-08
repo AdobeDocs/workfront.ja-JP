@@ -6,7 +6,7 @@ title: コレクションの管理
 description: コレクションは、作業時の共同作業用に設定可能なボードのグループです。
 author: Lisa
 feature: Agile
-source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
@@ -47,7 +47,7 @@ ht-degree: 4%
 ## コレクションの作成
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. クリック **[!UICONTROL 新規作成]** 内 [!UICONTROL コレクション] 領域に表示されます。
+1. クリック **[!UICONTROL コレクションを追加]** 内 [!UICONTROL コレクション] 領域に表示されます。
 1. 置き換える名前を入力 **[!UICONTROL 無題のコレクション]** をクリックし、Enter キーを押します。
 
    コレクションにボードを追加するか、 [!UICONTROL **すべてのボード**] をクリックして、ダッシュボードに戻ります。
@@ -55,7 +55,7 @@ ht-degree: 4%
 ## コレクションに新しいボードを作成する
 
 1. コレクションにまだ存在しない場合は、「 [!UICONTROL **コレクションを表示**] をクリックして、既存のコレクションを開きます。
-1. クリック **[!UICONTROL 新規作成]** の [!UICONTROL ボード] コレクションのタブ。
+1. クリック **[!UICONTROL ボードを追加]** の [!UICONTROL ボード] コレクションのタブ。
 1. ボードのテンプレートを選択します。
 
 | テンプレート | 説明 |

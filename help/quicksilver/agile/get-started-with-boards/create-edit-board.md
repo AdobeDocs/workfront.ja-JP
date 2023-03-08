@@ -6,7 +6,7 @@ description: 次の [!UICONTROL ボード] ダッシュボードを使用する�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 03feb17020cb5b8e1c595fd4d8ab683900e2fbfa
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 5%
@@ -43,7 +43,7 @@ ht-degree: 5%
 ## 新しいボードを作成
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. スタンドアロンボードを作成するには、 **[!UICONTROL 新規作成]** 内 [!UICONTROL ボード] 領域 コレクションにボードを追加するには、 [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. スタンドアロンボードを作成するには、 **[!UICONTROL ボードを追加]** 内 [!UICONTROL ボード] 領域 コレクションにボードを追加するには、 [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
