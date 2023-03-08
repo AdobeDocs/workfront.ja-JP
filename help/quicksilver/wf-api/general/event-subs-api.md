@@ -6,9 +6,9 @@ description: イベント購読 API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2109'
 ht-degree: 3%
 
 ---
@@ -73,65 +73,10 @@ ht-degree: 3%
 
 イベント購読を作成、クエリ、または削除するには、Workfrontユーザーが次の条件を満たす必要があります。
 
-* 「システム管理者」のアクセスレベル
-* API キー
+* イベントサブスクリプションを使用するには、「システム管理者」のアクセスレベルが必要です。
+* A `sessionID`  イベント購読 API を使用するにはヘッダーが必要です
 
-   >[!NOTE]
-   >
-   >ユーザーが既にWorkfront API を使用している場合は、既に apiKey を持っている必要があります。 次の HTTP リクエストを使用して apiKey を取得できます。
-
-**リクエスト URL:**
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**リクエストヘッダー：**
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>ヘッダー名</p> </th> 
-   <th> <p>ヘッダー値</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Content-type</p> </td> 
-   <td> <p>text/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**応答コード：**
-
-| 応答コード | 説明 |
-|---|---|
-| 200(OK) | リクエストは正常に処理され、ユーザーの既存の apiKey が応答本文に返されます。 |
-| 401 （未認証） | サーバーはリクエストを確認しましたが、リクエスト apiKey/user がこのリクエストを行うためのアクセス権を持っていないので、リクエストを処理できませんでした。 |
-
-{style=&quot;table-layout:auto&quot;}
-
-**応答本文の例：**
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
-> Workfront API を初めて使用する場合は、次のリンクから実行できる apiKey を生成する必要があります。
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   詳しくは、 [認証](api-basics.md#authentication) in [API の基本](api-basics.md).
 
 ## 購読リソースの作成
 
@@ -268,8 +213,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>認証</p> </td> 
-   <td> <p>apiKey 値</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID 値</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,13 +236,14 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 201 （作成済み） | イベント配信登録が正常に作成されました。 |
 | 400（無効なリクエスト） | サブスクリプションリソースの URL フィールドが無効と見なされました。 |
-| 401 （未認証） | 提供された apiKey は空であったか、無効と見なされました。 |
-| 403 （禁止） | 指定された apiKey と一致するユーザーには、管理者アクセス権がありません。 |
+| 401 （未認証） | 提供された sessionID が空であったか、無効と見なされました。 |
+| 403 （禁止） | 指定された sessionID と一致するユーザーには、管理者アクセス権がありません。 |
 
 サブスクリプションリソースをリクエストの本文として渡すと（content-type は「application/json」）、指定されたオブジェクトに対してイベントサブスクリプションが作成されます。 応答コード 201 （作成済み）は、購読が作成されたことを示します。 201 以外の応答コードは、サブスクリプションが **NOT** 作成済み
 
 >[!NOTE]
- 「Location」応答ヘッダーには、新しく作成されたイベント購読の URI が含まれます。
+>
+> 「Location」応答ヘッダーには、新しく作成されたイベント購読の URI が含まれます。
 
 **応答ヘッダーの例：**
 
@@ -342,8 +288,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>認証</p> </td> 
-   <td> <p>apiKey 値</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID 値</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,9 +298,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | 応答コード | 説明 |
 |---|---|
-| 200(OK) | 指定された apiKey に一致する顧客に対して見つかったすべてのイベント購読で返されたリクエスト。 |
-| 401 （未認証） | 提供された apiKey は空でした。 |
-| 403 （禁止） | 指定された apiKey と一致するユーザーには、管理者アクセス権がありません。 |
+| 200(OK) | 指定された sessionID と一致する顧客に対して見つかったすべてのイベント購読で返されたリクエスト。 |
+| 401 （未認証） | 提供された sessionID は空でした。 |
+| 403 （禁止） | 指定された sessionID と一致するユーザーには、管理者アクセス権がありません。 |
 
 
 **応答ヘッダーの例：**
@@ -435,8 +381,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>認証</p> </td> 
-   <td> <p>apiKey 値</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID 値</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -446,8 +392,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 応答コード | 説明 |
 |---|---|
 | 200(OK) | 指定された購読 ID と一致するイベント購読が返されたリクエスト。 |
-| 401 （未認証） | 提供された apiKey は空でした。 |
-| 403 （禁止） | 指定された apiKey と一致するユーザーには、管理者アクセス権がありません。 |
+| 401 （未認証） | 提供された sessionID は空でした。 |
+| 403 （禁止） | 指定された sessionID と一致するユーザーには、管理者アクセス権がありません。 |
 
 
 **応答本文の例：**
@@ -729,8 +675,8 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>認証</p> </td> 
-   <td> <p> ユーザーの apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID 値 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -753,11 +699,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
   </tr> 
   <tr> 
    <td>401 （未認証）</td> 
-   <td>提供された apiKey は空でした。</td> 
+   <td>提供された sessionID は空でした。</td> 
   </tr> 
   <tr> 
    <td>403 （禁止）</td> 
-   <td>指定された apiKey と一致するユーザーには、管理者アクセス権がありません。</td> 
+   <td>指定された sessionID と一致するユーザーには、管理者アクセス権がありません。</td> 
   </tr> 
   <tr> 
    <td>404 （見つかりません）</td> 
@@ -949,7 +895,7 @@ base64Encoding フィールドを true に設定してリクエストをおこ�
 
 次の API エンドポイントは非推奨（廃止予定）となっており、新しい実装では使用しないでください。 また、古い実装を **イベント購読のクエリ** 上記の節を参照してください。
 
-apiKey 値で指定された顧客のすべてのイベント購読をクエリできます。 特定の顧客に関するすべてのイベント購読を一覧表示するためのリクエスト構文は、次の URL です。
+sessionID 値で指定された顧客のすべてのイベント購読をクエリできます。 特定の顧客に関するすべてのイベント購読を一覧表示するためのリクエスト構文は、次の URL です。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -970,8 +916,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>認証</p> </td> 
-   <td> <p> ユーザーの apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID 値 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -994,11 +940,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
   </tr> 
   <tr> 
    <td>401 （未認証）</td> 
-   <td>提供された apiKey は空でした。</td> 
+   <td>提供された sessionID は空でした。</td> 
   </tr> 
   <tr> 
    <td>403 （禁止）</td> 
-   <td>指定された apiKey と一致するユーザーには、管理者アクセス権がありません。</td> 
+   <td>指定された sessionID と一致するユーザーには、管理者アクセス権がありません。</td> 
   </tr> 
  </tbody> 
 </table>
