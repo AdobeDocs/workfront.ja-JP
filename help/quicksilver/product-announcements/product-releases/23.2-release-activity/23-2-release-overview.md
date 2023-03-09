@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 4f3764665b902cd52fa15c56294df084111e3399
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -388,6 +388,23 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">問題に関する新しいコメント作成機能ベータ版</a><span style="color: #ff0000;"> プレビューの新機能</span>
+                        <p>Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、一部のオブジェクトの更新セクションのパフォーマンスの向上が含まれています。</p>
+                        <p>この新しいエクスペリエンスは、最終的にはAdobe Workfront全体およびそれ以降の、Adobe Experience Cloud全体でコメントを統合します。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 3 月 10 日<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">実稼動版リリース：23.2 リリースの場合 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

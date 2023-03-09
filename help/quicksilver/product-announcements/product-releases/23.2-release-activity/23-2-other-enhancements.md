@@ -4,9 +4,9 @@ description: 23.2 その他の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 このページでは、23.2 リリースでプレビュー環境に対しておこなわれたその他すべての機能強化について説明します。 これらの機能強化は、23.2 リリースで実稼動環境で利用できるようになります。
 
 23.2 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 問題に関する新しいコメント作成機能ベータ版
+
+Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、一部のオブジェクトの更新セクションのパフォーマンスの向上が含まれています。
+
+この新しいエクスペリエンスは、最終的にはAdobe Workfront全体およびそれ以降の、Adobe Experience Cloud全体でコメントを統合します。
+
+このアップデートの一環として、問題の「アップデート」セクションに新しいコメントエクスペリエンスが導入されます。 現在のリリースでは、各ユーザーがベータモードで、独自の環境でこのエクスペリエンスを有効にするための切り替えを利用できるようになります。 ベータ版の使用許諾契約に同意すると、新しい「更新」セクションが表示され、現在のように、そのセクションでの作業を引き続き管理できます。
+23.1 リリースのWorkfront Goals にも同様の機能がリリースされました。
+
+この更新に含まれる機能の一部を次に示します。
+
+* コメントとシステム更新用のタブを分割
+* パフォーマンスの向上
+
+機能は他のオブジェクトにも追加されるので、今後のリリースでは機能が追加される予定です。
+
+新しいコメントエクスペリエンスのオファーについて詳しくは、 [統合されたコメント機能](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Adobe Workfront for XDで、1 つのPDFまたは複数のPDFファイルとしてアートボードを書き出す
 
