@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
 workflow-type: tm+mt
-source-wordcount: '12605'
+source-wordcount: '12613'
 ht-degree: 1%
 
 ---
@@ -893,6 +893,7 @@ ht-degree: 1%
       * [ボード列を管理](agile/get-started-with-boards/manage-board-columns.md)
       * [ボードへのアドホックカードの追加](agile/get-started-with-boards/add-card-to-board.md)
       * [ボードでの接続済みカードの使用](agile/get-started-with-boards/connected-cards.md)
+      * [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [カードの管理](agile/get-started-with-boards/move-board-items.md)
       * [カードのチェックリスト項目を管理](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
       * [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
