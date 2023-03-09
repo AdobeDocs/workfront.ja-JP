@@ -6,9 +6,9 @@ description: 外部 Web ページをダッシュボードに埋め込んで、Ad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,27 @@ ht-degree: 0%
 >セキュリティ上の理由から、一部の Web サイトでは Web ページを iframe として埋め込むことができません。 ダッシュボードに埋め込む Web ページで許可されていない場合、そのページはダッシュボードに表示されません。 ただし、ダッシュボードの名前をクリックして、外部ページにアクセスすることはできます。\
 >![](assets/qs-empty-external-page-report-350x165.png)\
 >所有している Web サイトに埋め込みを許可するには、Web 管理者に問い合わせて、 **X-Frame-Options** 設定。 詳しくは、 [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+
+
+>[!IMPORTANT]
+>
+>ダッシュボードの埋め込み外部ページは、サポートされなくなりました。 特に、次のWorkfront.com サブドメインはサポートされなくなりました。
+>
+>* /dashboards&#x200B;
+>* /dashboard/:&#x200B;ID
+>* /portfolio/:ID/content-dashboard__:dashboardID &#x200B;
+>* /program/:ID/content-dashboard__:dashboardID &#x200B;
+>* /project/:ID/content-dashboard__:dashboardID &#x200B;
+>* /task/:ID/content-dashboard__:dashboardID &#x200B;
+>* /template/:ID/content-dashboard__:dashboardID &#x200B;
+>* /templatetask/:ID/content-dashboard__:dashboardID &#x200B;
+>* /resourcemanagement/:ID/content-dashboard__:dashboardID &#x200B;
+>* /team/:ID/content-dashboard__:dashboardID &#x200B;
+>* /iteration/:ID/content-dashboard__:dashboardID &#x200B;
+>* /requests/:ID/content-dashboard__:dashboardID &#x200B;
+>* /group/:ID/content-dashboard__:dashboardID &#x200B;
+>* /billingrecord/:ID/content-dashboard__:dashboardID
+
 
 ## アクセス要件
 

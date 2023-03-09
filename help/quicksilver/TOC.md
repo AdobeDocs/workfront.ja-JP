@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '12602'
+source-wordcount: '12605'
 ht-degree: 1%
 
 ---
@@ -1582,6 +1582,7 @@ ht-degree: 1%
          * [ダッシュボードの印刷](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [ダッシュボードの共有](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [ダッシュボードからの外部ページの削除](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+         * [キャンバスダッシュボードの概要](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * 拡張分析 {#enhanced-analytics}
       * [拡張分析](enhanced-analytics/enhanced-analytics.md)
       * [分析の強化の概要](enhanced-analytics/enhanced-analytics-overview.md)
