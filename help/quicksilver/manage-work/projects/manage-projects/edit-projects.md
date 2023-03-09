@@ -6,7 +6,7 @@ description: 必要に応じて、Adobe Workfrontでプロジェクトを編集�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
+source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -64,6 +64,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 -->
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -230,10 +231,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>状況タイプ</strong> </td> 
       <td> <p>次の条件タイプの中から選択します。 
-        <ul> 
-         <li><strong>手動：</strong> プロジェクト所有者が、手動でプロジェクトに条件を設定します。</li> 
-         <li><strong>進捗状況ステータス：</strong> Workfrontは、クリティカルパス上のタスクの進捗状況ステータスに基づいて、条件を自動的に設定します。 進捗状況ステータスについて詳しくは、 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">タスクの進捗状況ステータスの概要</a>.</li> 
-        </ul><p>Workfront管理者<span> またはグループ管理者</span> システムに対するプロジェクトの条件の計算方法のデフォルトを選択します <span>またはグループ</span>. プロジェクトの既定値の設定については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>. </p></p> </td> 
+       <ul> 
+       <li><strong>手動：</strong> プロジェクト所有者が、手動でプロジェクトに条件を設定します。</li> 
+       <li><strong>進捗状況ステータス：</strong> Workfrontは、クリティカルパス上のタスクの進捗状況ステータスに基づいて、条件を自動的に設定します。 進捗状況ステータスについて詳しくは、 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">タスクの進捗状況ステータスの概要</a>.</li> 
+       </ul><p>Workfront管理者<span> またはグループ管理者</span> システムに対するプロジェクトの条件の計算方法のデフォルトを選択します <span>またはグループ</span>. プロジェクトの既定値の設定については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>状況</strong> </td> 
@@ -242,10 +243,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>スケジュール モード</strong> </td> 
       <td> <p>プロジェクトを「開始日」からスケジュールするか、「完了日」からスケジュールするかを指定します。 この選択により、プロジェクト上のタスクの予定日が決まります。 
-        <ul> 
-         <li><strong>開始日</strong>:プロジェクトの最初のタスクには、デフォルトで、プロジェクトと同じ計画開始日が設定されます。 計画開始日タスクの詳細は、 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">タスクの計画開始日の概要</a>. プロジェクトタイムラインは開始日から計算され、プロジェクトの完了日は、すべてのタスクの期間に基づいてシステムによって計算されます。 </li> 
-         <li><strong>完了日</strong>:プロジェクトの最後のタスクには、プロジェクトと同じ計画完了日が設定されます。 プロジェクトタイムラインは、プロジェクトの完了日から計算され、プロジェクトの開始日は、プロジェクトの完了日からすべてのタスクの期間を引くことで、システムによって計算されます。 </li> 
-        </ul><p>Workfront管理者<span> またはグループ管理者</span> システムまたはグループのデフォルトのスケジュールモード設定を選択します。 プロジェクトの既定値の設定については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p></p> </td> 
+       <ul> 
+       <li><strong>開始日</strong>:プロジェクトの最初のタスクには、デフォルトで、プロジェクトと同じ計画開始日が設定されます。 計画開始日タスクの詳細は、 <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">タスクの計画開始日の概要</a>. プロジェクトタイムラインは開始日から計算され、プロジェクトの完了日は、すべてのタスクの期間に基づいてシステムによって計算されます。 </li> 
+       <li><strong>完了日</strong>:プロジェクトの最後のタスクには、プロジェクトと同じ計画完了日が設定されます。 プロジェクトタイムラインは、プロジェクトの完了日から計算され、プロジェクトの開始日は、プロジェクトの完了日からすべてのタスクの期間を引くことで、システムによって計算されます。 </li> 
+       </ul><p>Workfront管理者<span> またはグループ管理者</span> システムまたはグループのデフォルトのスケジュールモード設定を選択します。 プロジェクトの既定値の設定については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>計画開始日時</strong> </td> 
@@ -266,10 +267,10 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader"><strong>グループ</strong></td> 
       <td> <p> <p>プロジェクトに関連付けられているグループの名前を指定します。 </p>これは必須フィールドです. グループに関連付けられていないプロジェクトを持つことはできません。 </p> <p>適切なグループを選択していることを確認するには、グループにカーソルを移動して、情報アイコンをクリックします <img src="assets/info-icon.png"> その横に表示されます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> 別のグループを指定しない限り、デフォルトでは、次のグループの 1 つがプロジェクトの作成時に自動的にプロジェクトに関連付けられます。</p> 
-        <ul> 
-         <li> <p><span>プロジェクトを「プロジェクト」領域から作成すると、プロジェクト作成者の「ホームグループ」がプロジェクトに関連付けられます。</span> </p> <p>これは、ポートフォリオまたはプログラムの「プロジェクト」セクションからプロジェクトを作成した場合にも当てはまります。</p> </li> 
-         <li> <p>設定領域のグループのメインページからプロジェクトを作成すると、そのグループがプロジェクトに関連付けられます。</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>グループレベルのカスタムステータスを使用して、プロジェクト、またはそのタスクまたは問題が既にグループレベルの承認プロセスに関連付けられている場合、グループを変更すると、前のグループの承認ステータスとシステムレベルの承認ステータスが競合する可能性があります。 グループを更新する前に、プロジェクト上のグループレベルの承認プロセス、またはそのタスクや問題を削除することを検討してください。 グループレベルの承認プロセスの作成について詳しくは、 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>. グループレベルのカスタムステータスの作成について詳しくは、 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">グループのステータスの作成または編集</a></p> </td> 
+       <ul> 
+       <li> <p><span>プロジェクトを「プロジェクト」領域から作成すると、プロジェクト作成者の「ホームグループ」がプロジェクトに関連付けられます。</span> </p> <p>これは、ポートフォリオまたはプログラムの「プロジェクト」セクションからプロジェクトを作成した場合にも当てはまります。</p> </li> 
+       <li> <p>設定領域のグループのメインページからプロジェクトを作成すると、そのグループがプロジェクトに関連付けられます。</p> </li> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>グループレベルのカスタムステータスを使用して、プロジェクト、またはそのタスクまたは問題が既にグループレベルの承認プロセスに関連付けられている場合、グループを変更すると、前のグループの承認ステータスとシステムレベルの承認ステータスが競合する可能性があります。 グループを更新する前に、プロジェクト上のグループレベルの承認プロセス、またはそのタスクや問題を削除することを検討してください。 グループレベルの承認プロセスの作成について詳しくは、 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>. グループレベルのカスタムステータスの作成について詳しくは、 <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">グループのステータスの作成または編集</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>会社</strong> </td> 
@@ -293,7 +294,7 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >   「プロジェクト所有者」、「プロジェクトスポンサー」、「リソースマネージャー」の各フィールドを更新する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >「プロジェクト所有者」、「プロジェクトスポンサー」、「リソースマネージャー」の各フィールドを更新する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
 
 1. （オプション）変更する情報に応じて、以降のセクションを引き続き編集します。
 
@@ -302,7 +303,6 @@ ht-degree: 2%
    「**保存**」をクリックします。
 
 ### カスタムフォーム {#custom-forms}
-
 
 アクセスレベルとプロジェクトに対する権限に応じて、次のシナリオが存在します。
 
@@ -333,7 +333,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >   カスタムフォームをこのフィールドで選択できるようにするには、事前にカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 1 つのプロジェクトに最大 10 個のカスタムフォームを追加できます。
+   >カスタムフォームをこのフィールドで選択できるようにするには、事前にカスタムフォームを作成する必要があります。 アクティブなカスタムフォームのみがリストに表示されます。 カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 1 つのプロジェクトに最大 10 個のカスタムフォームを追加できます。
 
 
 1. （条件付き）カスタムフォームをプロジェクトに添付した場合、フォーム上の任意のフィールドを編集します。 プロジェクトを保存する前に、すべての必須フィールドを指定する必要があります。
@@ -514,17 +514,12 @@ ht-degree: 2%
        <td> <p>プロジェクトに関連付ける承認プロセスを選択します。 Workfront管理者は、プロジェクトに関連付ける前に、システムレベルの承認プロセスを定義する必要があります。 <span>承認プロセスへの管理者アクセス権を持つユーザーは、グループ固有の承認プロセスを作成することもできます。</span> 承認プロセスの作成について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業項目の承認プロセスの作成</a>.</p> <p>承認プロセスを追加する際は、次の点を考慮してください。 </p> 
        <ul> 
        <li>アクティブな承認プロセスのみがリストに表示されます。 </li> 
-       <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。 プロジェクトの承認プロセス以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p>プロジェクトに関連付けられたグループが変更されると、グループ固有の承認プロセスが単一使用の承認プロセスになります。 プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が、割り当てられた承認プロセスに及ぼす影響</a>. </p> </li>
-
-   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
-
-   <p>プロジェクトの一括編集では、次のシナリオが存在します。</p>
-
-   <ul> 
-   <li> <p>同じグループからプロジェクトを選択すると、システムレベルとグループレベルの両方の承認プロセスがこのフィールドに表示されます。</p> </li> 
-   <li> <p>異なるグループからプロジェクトを選択すると、このフィールドにはシステムレベルの承認プロセスのみが表示されます。</p> </li> 
-   <li> <p>プロジェクトに 1 回限りの承認プロセスが添付されている場合、選択したシステムレベルまたはグループレベルの承認プロセスに置き換えられます。 </p> </li> 
-   </ul> 
+       <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。 プロジェクトの承認プロセス以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p>プロジェクトに関連付けられたグループが変更されると、グループ固有の承認プロセスが単一使用の承認プロセスになります。 プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が、割り当てられた承認プロセスに及ぼす影響</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <p>プロジェクトの一括編集では、次のシナリオが存在します。</p> 
+       <ul> 
+       <li> <p>同じグループからプロジェクトを選択すると、システムレベルとグループレベルの両方の承認プロセスがこのフィールドに表示されます。</p> </li> 
+       <li> <p>異なるグループからプロジェクトを選択すると、このフィールドにはシステムレベルの承認プロセスのみが表示されます。</p> </li> 
+       <li> <p>プロジェクトに 1 回限りの承認プロセスが添付されている場合、選択したシステムレベルまたはグループレベルの承認プロセスに置き換えられます。 </p> </li> 
       </ul> </td> 
       </tr> 
       <tr> 
@@ -867,7 +862,7 @@ Workfront管理者またはグループ管理者がレイアウトテンプレ�
 
    >[!CAUTION]
    >
-   >   カスタムフォームを削除すると、フォーム上の既存のカスタムフィールド情報がすべて失われます。 これは復元できません。
+   >カスタムフォームを削除すると、フォーム上の既存のカスタムフィールド情報がすべて失われます。 これは復元できません。
 
    カスタムフォームの編集について詳しくは、 [カスタムForms](#custom-forms) 」を参照してください。
 
@@ -887,5 +882,3 @@ Workfront管理者またはグループ管理者がレイアウトテンプレ�
 
 1. （オプション）「 **キャンセル** ～の最下部に **プロジェクトを編集** ページを開き、すべてのプロジェクトに対して行われたすべての変更を削除します。
 1. 「**保存**」をクリックします。
-
-<div>
