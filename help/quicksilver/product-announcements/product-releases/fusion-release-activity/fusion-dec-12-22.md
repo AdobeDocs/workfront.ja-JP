@@ -4,7 +4,7 @@ description: Workfront Fusion リリースアクティビティ 2022 年 12 月 
 author: Becky
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
-source-git-commit: 5293ea1b83334567da5dfdd85221faec3deeb64b
+source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Workfront Fusion リリースアクティビティ：2022 年 12 月 12 日の週
 
-このページでは、2022 年 2 月 14 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2022 年 12 月 12 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 
 最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
