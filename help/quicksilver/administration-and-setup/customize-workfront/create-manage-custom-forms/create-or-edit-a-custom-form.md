@@ -1,5 +1,5 @@
 ---
-title: カスタムフォームの作成または編集
+title: レガシーフォームビルダーを使用したカスタムフォームの作成または編集
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,18 +8,18 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
-# カスタムフォームの作成または編集
+# レガシーフォームビルダーを使用したカスタムフォームの作成または編集
 
 新しいカスタムフォームを作成または編集できます。 両方のタスクについては、この記事で説明します。
 
-既存のフォームから新しいカスタムフォームを作成する方法について詳しくは、 [カスタムフォームをコピーして新しいフォームを作成する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+既存のフォームから新しいカスタムフォームを作成する方法について詳しくは、 [カスタムフォームをコピーして、レガシーフォームビルダーで新しく作成する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
 ## アクセス要件
 

@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: カスタムフォーム内でのカスタムフィールドおよびウィジェットの配置
+title: 従来のフォームビルダーを使用したカスタムフォーム内でのカスタムフィールドおよびウィジェットの配置
 description: カスタムフォーム内のカスタムフィールドとウィジェットの位置を変更できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: d1fe7165932fb6f2aff3c8488bdb8e1dfae3b6d3
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
 
-# カスタムフォーム内でのカスタムフィールドおよびウィジェットの配置
+# 従来のフォームビルダーを使用したカスタムフォーム内でのカスタムフィールドおよびウィジェットの配置
 
 カスタムフォーム内のカスタムフィールドとウィジェットの位置を変更できます。
 
@@ -48,8 +48,8 @@ ht-degree: 0%
 
 ## カスタムフォーム内でのカスタムフィールドおよびウィジェットの配置
 
-1. カスタムフォームの作成または編集を開始します ( [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. カスタムフィールドとウィジェットをフォームに追加します。詳しくは、 [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) および [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. カスタムフォームの作成または編集を開始します ( [レガシーフォームビルダーを使用したカスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. カスタムフィールドとウィジェットをフォームに追加します。詳しくは、 [レガシーフォームビルダーを使用したカスタムフォームへのカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) および [レガシーフォームビルダーを使用したカスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 1. （オプション）カスタムフィールドとウィジェットを同じ行に配置するには、その間に行が表示されるまで、隣り合わせにドラッグします。
 
@@ -73,9 +73,9 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. クリック **適用**.
 1. 他の方法でカスタムフォームの作成を続ける場合は、次の記事のいずれかに進みます。
 
-   * [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
-   * [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [カスタムフォームにセクション区切りを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-   * [表示ロジックの追加とカスタムフォームへのロジックのスキップ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [カスタムフォームのプレビューと完了](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [レガシーフォームビルダーを使用したカスタムフォームへのカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [レガシーフォームビルダーを使用したカスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [レガシーフォームビルダーを使用して計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [レガシーフォームビルダーを使用したカスタムフォームへのセクション区切りの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+   * [従来のフォームビルダーを使用して、表示ロジックを追加し、ロジックをカスタムフォームにスキップします](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

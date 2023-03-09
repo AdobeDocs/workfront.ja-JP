@@ -8,20 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 5b6583172b46e980a11fa9dc00895b9add5701ed
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 6%
 
 ---
 
 # カスタムフォームの概要
-
-**ビデオ**:
-
-カスタムフォームに関するこのビデオの概要を参照してください。
-
-![](assets/video-icon-verysmall.png) [新しいWorkfrontエクスペリエンスのカスタムForms](https://one.workfront.com/s/learningpath2/custom-forms-in-the-new-workfront-experience-final-MCC2AF4MH6NRHKHJJBXO6T65DHUU)
 
 ユーザーがWorkfrontオブジェクトに添付できるカスタムフォームを作成できます。 オブジェクトの操作を行うユーザーは、カスタムフォームに入力して、オブジェクトに関する情報を入力できます。
 
@@ -45,11 +39,12 @@ Workfrontのカスタムフォームに、次のタイプのカスタムフィ�
 * ラジオボタン
 * 説明テキスト
 
-詳しくは、 [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+## カスタムフォームの作成方法
 
-また、カスタムフォームにビジュアルアセットウィジェットを追加することもできます。 これは、ブランディング画像や視覚的な指示などのコンテンツを含める必要がある場合に役立ちます。 詳しくは、 [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+でカスタムフォームを作成する方法は 2 つあります。 [!DNL Workfront]. 従来のカスタムフォームビルダーまたは新しいフォームデザイナーを使用できます。
 
-カスタムフォームの作成手順については、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* [レガシーカスタムフォームビルダー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+* [フォームデザイナー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
 ## ユーザーがカスタムフォームを添付できるオブジェクト
 
@@ -68,4 +63,4 @@ Workfrontのカスタムフォームに、次のタイプのカスタムフィ�
 
 手順については、 [オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-カスタムフォームを作成するユーザーは、複数のオブジェクトタイプで動作するように設定できます。 詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+カスタムフォームを作成するユーザーは、複数のオブジェクトタイプで動作するように設定できます。

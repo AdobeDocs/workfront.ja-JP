@@ -2,19 +2,19 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: カスタムフォームにセクション区切りを追加する
+title: レガシーフォームビルダーを使用したカスタムフォームへのセクション区切りの追加
 description: カスタムフォームのカスタムフィールドとウィジェットを、見出し付きのセクションにグループ化できます。 これは、フォームに入力するユーザーに、整理されたエクスペリエンスを提示する場合に役立ちます。 また、特定のカスタムフィールドとウィジェットへのアクセスを特定のユーザーに制限する必要がある場合は、それらをセクションに配置し、そのセクションへのアクセス権をそれらのユーザーにのみ付与することができます。
 feature: System Setup and Administration
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
 
-# カスタムフォームにセクション区切りを追加する
+# レガシーフォームビルダーを使用したカスタムフォームへのセクション区切りの追加
 
 カスタムフォームのカスタムフィールドとウィジェットを、見出し付きのセクションにグループ化できます。 これは、フォームに入力するユーザーに、整理されたエクスペリエンスを提示する場合に役立ちます。 また、特定のカスタムフィールドとウィジェットへのアクセスを特定のユーザーに制限する必要がある場合は、それらをセクションに配置し、そのセクションへのアクセス権をそれらのユーザーにのみ付与することができます。
 

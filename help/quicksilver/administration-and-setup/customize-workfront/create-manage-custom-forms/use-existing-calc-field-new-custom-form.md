@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: カスタムフォームで既存の計算済みカスタムフィールドを再利用する
+title: 既存の計算済みカスタムフィールドを、従来のフォームビルダーでカスタムフォーム内で再利用する
 description: 異なるオブジェクトに属するカスタムフォームでも、同じ計算済みカスタムフィールドを使用できます。 例えば、タスクのカスタムフォームのプロジェクトのカスタムフォーム用に作成した [ 利益計算済み ] フィールドを使用できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
 
-# カスタムフォームで既存の計算済みカスタムフィールドを再利用する
+# 既存の計算済みカスタムフィールドを、従来のフォームビルダーでカスタムフォーム内で再利用する
 
 異なるオブジェクトに属するカスタムフォームでも、同じ計算済みカスタムフィールドを使用できます。 例えば、タスクのカスタムフォームのプロジェクトのカスタムフォーム用に作成した [ 利益計算済み ] フィールドを使用できます。
 
-計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、 [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、 [レガシーフォームビルダーを使用して計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 既存の計算済みカスタムフィールドを使用する場合、計算は新しいフォームに転送されません。 同じフィールドの新しいカスタムフォームに計算を再度追加する必要があります。
 

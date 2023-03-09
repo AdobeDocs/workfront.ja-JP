@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: 作成，カスタム，フォーム，コピー，ベース，別の
 navigation-topic: create-and-manage-custom-forms
-title: カスタムフォームをコピーして新しいフォームを作成する
+title: カスタムフォームをコピーして、レガシービルダーで新しく作成する
 description: 既存のフォームに基づいて新しいカスタムフォームを作成できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# カスタムフォームをコピーして新しいフォームを作成する
+# カスタムフォームをコピーして、レガシービルダーで新しく作成する
 
 既存のフォームに基づいて新しいカスタムフォームを作成できます。
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 1. 先ほどコピーしたフォームを選択し、「 **編集**.
 1. 次の記事で説明するように、フォームに変更を加えます。
 
-   * [カスタムフォームをコピーして新しいフォームを作成する](#Add2)
-   * [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-   * [カスタムフォーム内でのカスタムフィールドおよびウィジェットの配置](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [カスタムフォームで既存の計算済みカスタムフィールドを再利用する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [表示ロジックの追加とカスタムフォームへのロジックのスキップ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [カスタムフォームのプレビューと完了](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [カスタムフォームをコピーして、レガシーフォームビルダーで新しく作成する](#Add2)
+   * [レガシーフォームビルダーを使用して計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [従来のフォームビルダーを使用したカスタムフォーム内でのカスタムフィールドおよびウィジェットの配置](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [レガシーフォームビルダーを使用したカスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+   * [既存の計算済みカスタムフィールドを、従来のフォームビルダーでカスタムフォーム内で再利用する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+   * [従来のフォームビルダーを使用して、表示ロジックを追加し、ロジックをカスタムフォームにスキップします](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 1. （オプション） **保存して閉じる**&#x200B;を使用する場合は、使用するオブジェクトにフォームを添付します。詳しくは、 [オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

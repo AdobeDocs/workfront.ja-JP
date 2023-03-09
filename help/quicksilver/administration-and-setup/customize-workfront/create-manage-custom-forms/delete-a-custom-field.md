@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,14 @@ ht-degree: 0%
 >500 個を超えるフィールドとウィジェットを持つカスタムフォームからのカスタムフィールドの削除は元に戻すことができません。 このフィールドを削除すると、フォームに含まれるフィールドとウィジェットの数が 500 個未満になるまで、再度追加することはできません。
 
 1. 元のカスタムフォームから削除するカスタムフィールドを決定しますが、この時点では削除しないでください。
-1. 新しいカスタムフォームを作成します。 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. 新しいカスタムフォームを作成します。
 
-   1. 元のカスタムフォームから削除する新しいフォームにカスタムフィールドを追加します。詳しくは、 [カスタムフォームでカスタムフィールドまたはウィジェットを再利用する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   1. 元のカスタムフォームから削除する新しいフォームにカスタムフィールドを追加します。
+
+      * カスタムフォームビルダーを使用している場合は、 [カスタムフォームでカスタムフィールドまたはウィジェットを再利用する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+      * フォームデザイナーを使用している場合は、 [新規または既存のフィールドをカスタムフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
    1. 新しいカスタムフォームを保存します。
+
 
 1. カスタムフォームへのアクセスを、管理者アクセス権を持つユーザーのみに制限します。詳しくは、 [カスタムフォームの共有](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. 元のカスタムフォームが既に適用されているオブジェクトに新しいカスタムフォームを適用します。詳しくは、 [オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

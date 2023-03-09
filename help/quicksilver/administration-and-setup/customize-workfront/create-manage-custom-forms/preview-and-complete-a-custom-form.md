@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: カスタムフォームのプレビューと完了
+title: レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます
 description: カスタムフォームの作成または編集が完了したら、カスタムフォームをプレビューして、ユーザーに対する表示を確認し、保存して閉じることができます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# カスタムフォームのプレビューと完了
+# レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます
 
 カスタムフォームの作成または編集が完了したら、カスタムフォームをプレビューして、ユーザーに対する表示を確認し、保存して閉じることができます。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## カスタムフォームのプレビューと作成の終了
 
-1. 記事の説明に従って、カスタムフォームの作成と設定を開始します。 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)など。
+1. 記事の説明に従って、カスタムフォームの作成と設定を開始します。 [レガシーフォームビルダーを使用したカスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [レガシーフォームビルダーを使用したカスタムフォームへのカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [レガシーフォームビルダーを使用したカスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)など。
 
 1. （オプション）「 **プレビュー** 使用時にフォームがどのように表示されるかを確認するには、 **プレビューを終了** をクリックして、フォームの編集に戻ります。
 

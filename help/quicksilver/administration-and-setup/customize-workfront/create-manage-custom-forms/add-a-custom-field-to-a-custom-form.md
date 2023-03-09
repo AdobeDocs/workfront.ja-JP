@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: カスタムフォームにカスタムフィールドを追加する
+title: レガシーフォームビルダーを使用したカスタムフォームへのカスタムフィールドの追加
 description: カスタムフォームを使用している場合、新しいカスタムフィールドを作成してカスタムフォームに追加できます。 また、別のカスタムフォームに既に追加されているカスタムフィールドを追加することもできます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: a0b483e3ced69cbe59d51cca2edfb017ddadd09a
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 3%
+source-wordcount: '2208'
+ht-degree: 2%
 
 ---
 
-# カスタムフォームにカスタムフィールドを追加する
+# レガシーフォームビルダーを使用したカスタムフォームへのカスタムフィールドの追加
 
 カスタムフォームを使用している場合、新しいカスタムフィールドを作成してカスタムフォームに追加できます。
 

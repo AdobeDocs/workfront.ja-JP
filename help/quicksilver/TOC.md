@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 51d4fdb5a47099f22d171a700ee9cf5270fb1553
+source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
 workflow-type: tm+mt
-source-wordcount: '12620'
+source-wordcount: '12770'
 ht-degree: 1%
 
 ---
@@ -475,29 +475,48 @@ ht-degree: 1%
       * カスタムフォーム {#custom-forms}
          * [カスタムフォーム](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [カスタムフォームの概要](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * [カスタムフォームの作成または編集](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-         * [カスタムフォームをコピーして新しいフォームを作成する](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-         * [カスタムフィールドを追加](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-         * [画像または他のアセットウィジェットをカスタムフォームに追加する](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-         * [セクション区切りを追加](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-         * [カスタムフィールドへのアクセス](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
-         * [計算データを追加](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-         * [既存の計算済みカスタムフィールドを再利用](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-         * [カスタムフィールドとウィジェットの配置](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-         * [カスタムフィールドおよびウィジェットの共有](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-         * [カスタムフィールドまたはウィジェットを再利用する](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-         * [表示ロジックの追加とロジックのスキップ](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-         * [カスタムフォームの共有](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-         * [カスタムフォームのプレビューと完了](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-         * [レポートでのカスタムフォームの参照](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
-         * [カスタムフィールドまたはウィジェットを使用するレポートを表示する](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
-         * [カスタムフィールドまたはウィジェットを使用するカスタムフォームを表示する](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
-         * [オブジェクトの変換時にカスタムフォームデータを転送する](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-         * [カスタムフォームの削除または非アクティブ化](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
-         * [カスタムフィールド、セクション区切り、またはウィジェットのプロパティを編集する](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-         * [システムからカスタムフィールドまたはウィジェットを削除する](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-         * [API のリッチテキストフィールドストレージ](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-         * [カスタムフォームのオブジェクトタイプの削除](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * レガシーカスタムフォームビルダー {#custom-form-builder}
+            * カスタムフォームビルダーを使用する {#use-the-custom-form-builder}
+               * [レガシーカスタムフォームビルダーの使用](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+               * [レガシービルダーを使用したカスタムフォームの作成または編集](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+               * [カスタムフォームをコピーして、レガシービルダーで新しく作成する](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+               * [カスタムフィールドを追加](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [レガシービルダーを使用して、画像または他のアセットウィジェットをカスタムフォームに追加する](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+               * [レガシービルダーでのセクション区切りの追加](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+               * [レガシービルダーを使用した計算データの追加](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+               * [レガシービルダーで既存の計算カスタムフィールドを再利用する](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+               * [レガシービルダーでのカスタムフィールドおよびウィジェットの配置](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+               * [レガシービルダーとのカスタムフィールドおよびウィジェットの共有](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+               * [レガシービルダーでカスタムフィールドまたはウィジェットを再利用する](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
+               * [レガシービルダーでの表示ロジックの追加とロジックのスキップ](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+               * [レガシービルダーでカスタムフォームのプレビューと完了を行う](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+               * [レガシービルダーを使用したカスタムフォームのオブジェクトタイプの削除](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+         * フォームデザイナー {#form-designer}
+            * [フォームデザイナー](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+            * [フォームデザイナーの概要](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+            * カスタムフォームのデザイン {#design-a-form}
+               * [フォームのデザイン](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+               * [フォームデザイナーを使用したフォームのデザイン](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+               * [フォームデザイナーを使用したコピーからのフォームのデザイン](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+               * [フォームデザイナーで計算フィールドを追加する](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+               * [フォームデザイナーを使用したフォームの整理とプレビュー](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+            * フォームの管理 {#manage-a-form}
+               * [フォームの管理](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
+               * [フォームデザイナーを使用して既存のカスタムフォームにオブジェクトの種類を追加または削除する](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+               * [フォームデザイナーでカスタムフォームの名前を変更する](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+         * カスタムフォームの管理 {#manage-custom-forms}
+            * [カスタムフォームとカスタムフィールドの管理](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [カスタムフォームの共有](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+            * [カスタムフィールドへのアクセス](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+            * [カスタムフォームの非アクティブ化または再アクティブ化](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+            * [レポートでのカスタムフォームの参照](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
+            * [カスタムフィールドまたはウィジェットを使用するレポートを表示する](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
+            * [カスタムフィールドまたはウィジェットを使用するカスタムフォームを表示する](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
+            * [オブジェクトの変換時にカスタムフォームデータを転送する](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+            * [カスタムフィールド、セクション区切り、またはウィジェットのプロパティを編集する](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [システムからカスタムフィールドまたはウィジェットを削除する](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+            * [カスタムフォームの削除](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+            * [API のリッチテキストフィールドストレージ](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
       * ステータスと優先度ラベル {#statuses-priority-labels}
          * [カスタムステータスと優先度ラベルの作成](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [ステータスの概要](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)

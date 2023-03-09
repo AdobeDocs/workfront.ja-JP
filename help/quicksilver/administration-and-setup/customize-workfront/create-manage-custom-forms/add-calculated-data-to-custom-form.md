@@ -1,5 +1,5 @@
 ---
-title: 計算データをカスタムフォームに追加する
+title: レガシーフォームビルダーを使用して計算データをカスタムフォームに追加する
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e24a0408049e7eb2e7cb97833e7f41ea66e8131b
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2573'
 ht-degree: 0%
 
 ---
 
-# 計算データをカスタムフォームに追加する
+# レガシーフォームビルダーを使用して計算データをカスタムフォームに追加する
 
 カスタムフォームでは、カスタムフォームがオブジェクトに添付される際に、既存のデータを使用して新しいデータを生成する計算済みカスタムフィールドを追加できます。
 
@@ -145,9 +145,9 @@ ht-degree: 0%
    >* 計算エラーを見つけます。計算エラーはピンク色で強調表示されます。 強調表示されたエラーの上にマウスポインターを置くと、その原因に関する簡単な説明が表示されます。
       >  ![](assets/error-help.png)
    >* 計算の下の領域で、既存のWorkfrontオブジェクトの結果をプレビューします。
+      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
 
-   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-   >  ![](assets/preview-calc.jpg)
+      >  ![](assets/preview-calc.jpg)
    >* 左側に表示される行番号を使用して長い計算で式を参照します。
 
 

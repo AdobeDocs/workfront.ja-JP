@@ -1,5 +1,5 @@
 ---
-title: 表示ロジックの追加とカスタムフォームへのロジックのスキップ
+title: 従来のフォームビルダーを使用して、表示ロジックを追加し、ロジックをカスタムフォームにスキップします
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 59e3b958dd81f2f068bc06c3fe439de0084f9ce4
+source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
 
-# 表示ロジックの追加とカスタムフォームへのロジックのスキップ
+# 従来のフォームビルダーを使用して、表示ロジックを追加し、ロジックをカスタムフォームにスキップします
 
 カスタムフォームのどのセクションを表示またはスキップするかは、ユーザーが入力時に行った選択に基づいて決定できます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * カスタムフィールド、ウィジェットまたはセクション区切りに表示ロジックを追加するには、フォーム上で、1 つ以上の複数選択フィールド（ラジオボタン、ドロップダウン、チェックボックス）をその前に配置する必要があります。
 
-   カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、 [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) および [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、 [レガシーフォームビルダーを使用したカスタムフォームへのカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) および [レガシーフォームビルダーを使用したカスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * スキップロジックをウィジェットやセクション区切りに追加することはできません。 追加できるのは、複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）のみです。
 

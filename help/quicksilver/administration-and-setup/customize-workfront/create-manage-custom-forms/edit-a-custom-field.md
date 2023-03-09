@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -52,15 +52,11 @@ Adobe Workfrontインスタンスでカスタムフォームで使用される�
 
 1. クリック **カスタムForms。**
 1. 次をクリック： **フィールド** タブをクリックします。
-
-   <!--
-   Or
-   If you are editing the properties for an image or video widget, click the <b>Widget Library</b> tab.</p>
-   -->
-
 1. カスタムフィールド、セクション区切り、またはウィジェットを選択し、 **編集**.
 1. 表示されるボックスで、編集中の項目に対して使用可能なオプションを変更します。
 
-   これらのオプションについて詳しくは、 [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) または [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   これらのオプションの詳細を表示
+   * カスタムフォームビルダーを使用している場合は、 [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) または [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * フォームデザイナーを使用している場合は、 [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. 完了したら、「 **保存して閉じる**.

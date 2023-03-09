@@ -1,18 +1,18 @@
 ---
-title: カスタムフォームでの画像や他のアセットウィジェットの追加や編集
+title: 従来のフォームビルダーを使用したカスタムフォームでの画像または他のアセットウィジェットの追加または編集
 description: カスタムフォーム内の画像、ビデオ、PDFファイル、Adobe XDファイルなど、次のアセットウィジェットのプロパティを追加または編集できます。 これは、デザイン中のアプリに、ブランディング画像、説明用ビデオ、インタラクティブプロトタイプなどのビジュアルコンテンツを含める必要がある場合に役立ちます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
 
-# カスタムフォームでの画像や他のアセットウィジェットの追加や編集
+# 従来のフォームビルダーを使用したカスタムフォームでの画像または他のアセットウィジェットの追加または編集
 
 カスタムフォームでは、次のアセットウィジェットのプロパティを追加または編集できます。
 
