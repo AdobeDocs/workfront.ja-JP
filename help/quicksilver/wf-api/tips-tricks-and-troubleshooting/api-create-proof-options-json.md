@@ -6,9 +6,9 @@ description: Adobe Workfront API で高度な校正オプションを追加
 author: Becky
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 1. を使用した配達確認の作成 `Document createProof` アクションを使用して、Workfront API で実行できます。
 
    >[!NOTE]
-   配達確認を作成する場合は、 advancedProofingOptions パラメーターに値を指定しないでください。
+   配達確認を作成する際に、 `{}` を `advancedProofingOptions` パラメーター。
 
 1. 配達確認を作成した後、ProofHQ API を使用して詳細オプションを追加します。
 
