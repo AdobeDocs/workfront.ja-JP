@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
+source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
 workflow-type: tm+mt
-source-wordcount: '12770'
+source-wordcount: '12759'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 1%
       * [Adobe Workfrontの四半期リリースに備える](product-announcements/product-releases/release-readiness.md)
       * 23.2 リリース {#release-23-2}
          * [23.2 リリースの概要](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
-         * [23.2 リリースアクティビティ：2023 年 2 月 28 日の週](product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md)
-         * [23.2 リリースアクティビティ：2023 年 2 月 21 日の週](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
-         * [23.2 リリースアクティビティ：2023 年 2 月 13 日の週](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
-         * [23.2 リリースアクティビティ：2023 年 2 月 7 日の週](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
-         * [23.2 リリースアクティビティ： 2023 年 1 月 23 日の週](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
+         * [23.2 管理者の機能強化](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
+         * [23.2 アジャイルの強化](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
+         * [23.2 プロジェクト管理の強化](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
+         * [23.2 リソース管理の強化](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 モバイル機能の強化](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
+         * [23.2 その他の機能強化](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [23.2 リリース期間中のルックアンドフィールの更新](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
       * 23.1 リリース {#release-23-1}
          * [23.1 リリースの概要](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
