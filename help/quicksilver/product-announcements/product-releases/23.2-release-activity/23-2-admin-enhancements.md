@@ -4,9 +4,9 @@ description: 23.2 管理者の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ ht-degree: 0%
 
 * **説明テキストのサイズの変更**:「説明テキスト」フィールドに、小、中、大のサイズを割り当てることができるようになりました。 また、他のフィールドと同じ行で使用することもできます。 <span style="color: #ff0000;"> 説明テキストのサイズ変更は、一時的に遅延しましたが、近日中におこなわれます。</span></li>
 
-詳しくは、 [フォームデザイナーの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
+詳しくは、 [フォームデザイナーの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+
+[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## レイアウトテンプレートのピン名を変更する
 
@@ -37,4 +39,4 @@ ht-degree: 0%
 
 詳しくは、 [レイアウトテンプレートを使用して固定されたページをカスタマイズする](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). ユーザーが自分で固定したページの名前を変更する方法について詳しくは、 [ページを固定してワークスペースをカスタマイズ](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3414364/)
+[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3414364/){target=_blank}

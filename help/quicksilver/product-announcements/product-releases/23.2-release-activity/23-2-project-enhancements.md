@@ -4,9 +4,9 @@ description: 23.2 プロジェクトの機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Workfrontエクスペリエンスのルックアンドフィールを更新す�
 * 「プロジェクトを編集」ボックスからコメント機能を削除しました。
 
 詳しくは、 [プロジェクトを編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Adobe Workfrontで一般に利用可能な拡張フィルターエクスペリエンス
 
