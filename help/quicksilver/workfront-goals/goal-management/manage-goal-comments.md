@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -188,9 +188,6 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->このページの内容は、現在Adobe Workfront目標でのみ利用可能な、新しい Unified Commenting Experience の一部である機能を指します。 Unified Commenting Experience について詳しくは、 [Unified Commenting Experience](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 目標に対するコメントは、目標のページの「更新」セクションで追加できます。
 
 この領域に追加したコメントに対して、自分または他のユーザーが返信したり、「いいね！」をしたりできます。
@@ -203,6 +200,10 @@ You can edit or delete a comment that you entered in this area, or you can like 
 1. でコメントの入力を開始 **コメントを書く** ボックス
 
    ![](assets/comment-box-empty-unshimmed.png)
+
+   >[!TIP]
+   >
+   >コメントを入力して送信する前に「更新」セクションから移動すると、ログオフしてログオンし直した後でも、ページ上のコメントがドラフトモードのままになります。 下書きのコメントは、ユーザーが入力した場合にのみ表示されます。
 
 1. （オプション） **通知** 領域に入力し、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
 1. クリック **送信**.

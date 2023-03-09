@@ -6,17 +6,16 @@ description: 必要に応じて、Adobe Workfrontでプロジェクトを編集�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '6670'
+source-wordcount: '7664'
 ht-degree: 2%
 
 ---
 
 # プロジェクトを編集
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -691,16 +690,14 @@ ht-degree: 2%
 
 一括でプロジェクトを編集し、選択したすべてのプロジェクトの情報を同時に更新できます。
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
 
-Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+選択したすべてのプロジェクトに対して変更する情報は、[ リソースマネージャ ] フィールドを除き、個々のプロジェクトに関する既存の情報を上書きします。
 
-Editing projects in bulk differs depending on what environment you choose to update them in. 
+プロジェクトを一括編集する際に新しいリソースマネージャーを追加すると、そのマネージャーが選択したすべてのプロジェクトに追加されます。 他のリソースマネージャが選択したプロジェクトに関連付けられている場合、一括編集で追加されたプロジェクトに加えて、プロジェクトに残ります。
 
-### Edit projects in bulk in the Production environment
+プロジェクトを一括で編集する場合は、更新する環境によって異なります。
 
--->
+### 実稼動環境でプロジェクトを一括編集する
 
 プロジェクトを一括編集するには：
 
@@ -792,105 +789,103 @@ Editing projects in bulk differs depending on what environment you choose to upd
 
    これで、行った変更が、選択したすべてのプロジェクトに表示されます。
 
-<!--drafted for bulk editing projects:  
-
 <div class="preview">
 
-### Edit projects in the Preview environment
+### プレビュー環境でのプロジェクトの編集
 
-Consider the following when editing projects in bulk in the Preview environment:
+プレビュー環境でプロジェクトを一括編集する際は、次の点を考慮してください。
 
-* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+* 同じフィールドに異なる値を持つプロジェクトを選択すると、そのフィールドには、「プロジェクトを編集」ボックスに「複数の値」のインジケータが表示されます。 チェックボックス、ラジオボタン、トグルの各フィールドの横には、「複数値」インジケータが表示されます。
 
    ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
-* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+* 「複数値」インジケーターに加えて、選択したプロジェクトの少なくとも 1 つで選択したオプションが異なる場合、複数のオプションを持つフィールドは、次のいずれかの方法で表示されます。
 
-    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+   * チェックボックスフィールドには、選択したすべてのプロジェクトではチェックされていない一部のオプションのチェックボックスの代わりに行が表示されます。
 
       ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
-    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+   * トグルタイプのフィールドは淡色表示になり、選択した一部のプロジェクトで有効になっているが、すべてのプロジェクトで有効になっていないオプションが中央に表示されます。
 
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
-    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+   * 一部のオプションが選択されているが、すべてではないラジオボタンタイプのフィールドは、すべてのラジオボタンが空として表示されます。
 
       ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
-* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+* 複数オプションフィールドで 1 つのオプションを更新する場合（トグルまたはチェックボックスのセットとして表示されるフィールドなど）、他のすべてのオプションは選択したプロジェクト間で一致する必要があります。
 
    >[!IMPORTANT]
    >
-   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+   >例えば、3 つのチェックボックス（オプション 1、オプション 2、およびオプション 3）を持つチェックボックスフィールドがあり、すべてのプロジェクトで「オプション 1」がオフになっている場合、選択した他のプロジェクトでは「オプション 2」と「3」がオフになっています。 すべてのプロジェクトで「オプション 1」をオンにする場合は、選択したすべてのプロジェクトで「オプション 2」と「3」を一致させてから変更を保存する必要があります。そのため、選択したすべてのプロジェクトで一致させるには、選択または選択を解除します。 オプションを変更しない場合は、フィールドをそのまま保存でき、すべてのオプションに対して現在の選択が維持されます。
 
-* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+* 異なるグループに属する複数のプロジェクトを選択する場合、「ステータス」フィールドに表示されるステータスは、グループレベルのステータスではなく、システムレベルのステータスになります。
 
-To edit projects in the Preview environment: 
+プレビュー環境でプロジェクトを編集するには：
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
-1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
-The **Edit Projects** dialog box opens. 
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
+1. クリック **プロジェクト**.
+1. リストから複数のプロジェクトを選択します。
+1. 次をクリック： **編集** アイコン ![](assets/edit-icon.png) をクリックします。
+この **プロジェクトを編集** ダイアログボックスが開きます。
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
-Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+Workfront管理者またはグループ管理者がレイアウトテンプレートを変更した方法に応じて、「プロジェクトを編集」ボックスの左側のパネルにある領域またはこれらの領域に表示されるフィールドの順序が変わったり表示されなかったりします。 詳しくは、 [レイアウトテンプレートを使用して詳細ビューをカスタマイズする](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
-
-   >[!TIP]
-   >
-   >Fields that you edit display with a light purple background.
-
-1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
-
-   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
-
-   ![](assets/custom-forms-in-common-unshimmed.png) 
+1. クリック **概要** 選択したプロジェクトに関する一般情報を編集するには、次の手順に従います。  概要領域の編集について詳しくは、 [概要](#overview) 」を参照してください。
 
    >[!TIP]
    >
-   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+   >編集したフィールドは、薄紫色の背景で表示されます。
 
-1. Start typing the name of a custom form in the **Add custom form** field.
+1. クリック **カスタムForms** 選択したプロジェクトに関連付けられたカスタムフォームを編集、追加、または置き換える場合。
+
+   選択したすべてのプロジェクトに添付されるカスタムフォームは、 **共通のカスタムフォーム** ( **カスタムForms** 領域
+
+   ![](assets/custom-forms-in-common-unshimmed.png)
+
+   >[!TIP]
+   >
+   >   選択したすべてのプロジェクトに共通するフォームの名前は、「プロジェクトを編集」ボックスの左パネルに表示されます。
+
+1. カスタムフォームの名前を **カスタムフォームを追加** フィールドに入力します。
 
 
    ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
-   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
-   
-   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
-   
-1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+   選択したプロジェクトに既に添付されているカスタムフォームは、 **添付されたフォーム** ( **カスタムフォームを追加** フィールドに入力します。
 
-   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
+   プロジェクトに関連付けることはできるが、選択したプロジェクトに添付されていない追加のカスタムフォームは、 **Formsを追加** ( **カスタムフォームを追加** フィールドに入力します。
 
-1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+1. をクリックして、 **カスタムフォームを追加** または **Formsを追加** サブセクションを設定します。
+
+   選択したプロジェクトの一部に既にカスタムフォームが添付されている場合、フォームを追加する際に、フォームの名前の横に、選択したフォームが既に存在するプロジェクトの数が表示されます。
+
+1. （オプション） **x** カスタムフォーム名の右にあるアイコンをクリックし、 **削除** をクリックして、選択したすべてのプロジェクトから削除します。
 
    >[!CAUTION]
    >
-   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+   >   カスタムフォームを削除すると、フォーム上の既存のカスタムフィールド情報がすべて失われます。 これは復元できません。
 
-   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+   カスタムフォームの編集について詳しくは、 [カスタムForms](#custom-forms) 」を参照してください。
 
-1. Click **Finance** to edit financial information for all selected projects.
-For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
-1. Click **Project Settings** to edit the settings for all selected projects.
-For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
-1. Click **Task Settings** to edit the task settings for all selected projects. 
-For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
-1. Click **Issue Settings** to edit the issue settings for all selected projects.
-For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
-1. Click **Access** to edit the access settings for all selected projects.
-For more information about editing the Access area, see the section [Access](#access) in this article.
-1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+1. クリック **金融** 選択したすべてのプロジェクトの財務情報を編集するには、次の手順に従います。
+「財務」領域の編集の詳細については、「 [金融](#finance) 」を参照してください。
+1. クリック **プロジェクト設定** 選択したすべてのプロジェクトの設定を編集するには、次の手順に従います。
+「プロジェクト設定」領域の編集の詳細については、「 [プロジェクト設定](#project-settings) 」を参照してください。
+1. クリック **タスク設定** 選択したすべてのプロジェクトのタスク設定を編集するには、次の手順に従います。
+タスク設定領域の編集の詳細については、「 [タスク設定](#task-settings) 」を参照してください。
+1. クリック **問題の設定** ：選択したすべてのプロジェクトのイシュー設定を編集します。
+「問題の設定」領域の編集について詳しくは、 [問題の設定](#issue-settings) 」を参照してください。
+1. クリック **アクセス** 選択したすべてのプロジェクトのアクセス設定を編集するには
+アクセス領域の編集の詳細については、「 [アクセス](#access) 」を参照してください。
+1. （オプション）「プロジェクトを編集」ボックスに追加した情報を削除するには、編集したフィールドの上にマウスポインターを置いて、 **x** フィールドの右上にある破棄アイコン。
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
-1. Click **Save**. 
+1. （オプション）「 **キャンセル** ～の最下部に **プロジェクトを編集** ページを開き、すべてのプロジェクトに対して行われたすべての変更を削除します。
+1. 「**保存**」をクリックします。
 
 <div>
--->
