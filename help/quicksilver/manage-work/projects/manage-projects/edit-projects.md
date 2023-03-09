@@ -6,7 +6,7 @@ description: 必要に応じて、Adobe Workfrontでプロジェクトを編集�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: c8acabde5f4c2588dada4378ff85ff9876681d59
+source-git-commit: a533beb1a28bedb8f7f05e8f0321b275d080eefb
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -882,3 +882,5 @@ Workfront管理者またはグループ管理者がレイアウトテンプレ�
 
 1. （オプション）「 **キャンセル** ～の最下部に **プロジェクトを編集** ページを開き、すべてのプロジェクトに対して行われたすべての変更を削除します。
 1. 「**保存**」をクリックします。
+
+</div>
