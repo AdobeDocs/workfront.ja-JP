@@ -1,5 +1,5 @@
 ---
-source-git-commit: 6969697714365bf38a77f4972c3b97e4d13a1725
+source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -62,6 +62,7 @@ ht-degree: 0%
 ## 手順 1 — ユーザーにアクセスする {#step-1-to-users}
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL ユーザー]** ![](assets/users-icon-in-main-menu.png).
+
 
 <!-- Agile -->
 
