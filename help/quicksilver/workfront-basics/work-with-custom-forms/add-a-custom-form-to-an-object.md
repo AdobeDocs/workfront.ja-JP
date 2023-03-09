@@ -7,17 +7,16 @@ description: 以下に示す任意のオブジェクトに既存のカスタム�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 0b0140245a636db73ae1b6dc2e4abac2eecc6909
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
 
 # オブジェクトへのカスタムフォームの追加
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 以下に示す任意のオブジェクトに既存のカスタムフォームを追加できます。 カスタムフォームには、オブジェクトに関する情報を格納できるカスタムフィールドが含まれています。
 
@@ -53,8 +52,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームを管理するオブジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
-  </tr> 
+   <td> <p>カスタムフォームを管理するオブジェクトへのアクセスを編集</p> <p><b>メモ</b></p>
+
+まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>カスタムフォームを添付するオブジェクトに対する権限を管理します。</p> <p>カスタムフォームに対する表示権限以上の権限 ( <b>カスタムデータに添付</b> オブジェクト（プロジェクト、タスク、問題）。 詳しくは、 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">カスタムフォームの共有</a>.</p> <p>重要：Custom Formsへの管理アクセス権を持つプランライセンスをお持ちでない場合は、カスタムフォームを表示するための特定の権限が必要です。詳しくは、 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">カスタムフォームの共有</a>. フォームがシステム全体で表示されている場合でも、これらの権限をユーザーに付与する必要があります。 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
@@ -110,13 +111,13 @@ Workfrontの管理者またはプランライセンスを持ち、カスタム�
 カスタムフォームをリスト内で選択して、複数のオブジェクトに追加できます。
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+><span class="preview">プレビュー環境でカスタムフォームを一括でプロジェクトに追加する方法については、この記事を参照してください [プロジェクトを編集](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
--->
+—>
 
 1. オブジェクトのリストに移動します。
 1. リストで複数のオブジェクトを選択します。
