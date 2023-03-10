@@ -4,9 +4,9 @@ description: 23.2 プロジェクトの機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Workfrontエクスペリエンスのルックアンドフィールを更新す�
 * 選択したプロジェクトに既に添付されているカスタムフォームの種類、および特定のフォームが既に添付されているプロジェクトの数を示します。
 
 * 「プロジェクトを編集」ボックスからコメント機能を削除しました。
+
+* プロジェクトの一括編集時に「スコアカードを再計算」オプションを廃止しました。
 
 詳しくは、 [プロジェクトを編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
