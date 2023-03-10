@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいフォームデザイナーでカスタムフォームを作成する</a><span style="color: #ff0000;"> プレビューの新機能</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいフォームデザイナーベータ版でカスタムフォームを作成する</a><span style="color: #ff0000;"> プレビューの新機能</span>
                         <p>新しいフォームデザイナーには、フィールド、キャンバス、フィールドの設定をすべて同時に表示できる、新しいキャンバススタイルのワークスペースが追加されました。</p>
                         <p>新しいフォームデザイナーでは、 
                         <ul>

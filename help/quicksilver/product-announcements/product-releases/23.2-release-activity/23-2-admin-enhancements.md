@@ -4,9 +4,9 @@ description: 23.2 管理者の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 23.2 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## 新しいフォームデザイナーでカスタムフォームを作成する
+## 新しいフォームデザイナーベータ版でカスタムフォームを作成する
 
-新しいフォームデザイナーには、フィールド、キャンバス、フィールドの設定をすべて同時に表示できる、新しいキャンバススタイルのワークスペースが追加されました。
+パブリックベータ版で利用できるようになりました。新しいフォームデザイナーには、フィールド、キャンバスおよびフィールドの設定を同時に表示できる新しいキャンバススタイルのワークスペースが追加されました。
 
 新しいフォームデザイナーでは、
 
