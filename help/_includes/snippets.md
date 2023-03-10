@@ -1,5 +1,5 @@
 ---
-source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
+source-git-commit: 7ef1d55a7d743d83bd4f6625252848442919b9f4
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -240,7 +240,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 最新の DPV バージョン {#latest-version}
 
-**最新バージョン**:1/11/2023時点で 2.1.20
+**最新バージョン**:3/10/2023時点で 2.1.22
 
 <!-- Release -->
 
