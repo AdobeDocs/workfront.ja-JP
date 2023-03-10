@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
+source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
 workflow-type: tm+mt
-source-wordcount: '2517'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,44 @@ ht-degree: 0%
 >* ユーザーは、 [!DNL Workfront] [!DNL SharePoint] の統合と同様に、 [!DNL SharePoint] アカウント
 
 
-## ドキュメントに引き続きアクセスするための従来のSharePoint統合の設定
+## のセキュリティ、アクセス、および認証情報 [!DNL SharePoint] 統合
 
-従来のSharePoint統合を使用して、Workfrontにリンクされたドキュメントにユーザーが引き続きアクセスできるようにするには、従来のSharePoint統合へのアクセスを再設定し、SharePoint Client Secret を最新の状態に保つ必要があります。
+### 認証と承認
+
+[!DNL Workfront] は OAuth2 を使用して、アクセストークンと更新トークンを取得します。 このアクセストークンは、すべての [!DNL SharePoint] 領域
+
+### アクセスと権限
+
+ユーザーが初めてドキュメントを [!DNL Workfront] から [!DNL SharePoint]に設定されている場合は、次の権限を要求する画面が表示されます。
+
+| アクセス | 理由 |
+|---|---|
+| ファイルへのフルアクセス権を持つ | 許可 [!DNL Workfront] をクリックして、アセットをリンクするユーザーのファイルにアクセスします。 ドキュメントの送信元 [!DNL Workfront] から [!DNL SharePoint], [!DNL Workfront] アセットを作成するには、アクセス権が必要です。 |
+| すべてのサイトコレクションの項目を読み取る | 許可 [!DNL Workfront] をクリックしてアセットを読み取り、ユーザーナビゲーションを有効にします。 |
+| すべてのサイトコレクションの項目を編集または削除 | 許可 [!DNL Workfront] をクリックして、sites と site collection にアセットを作成します。 「削除」は、リンクの試行に失敗した後にクリーンアップする場合にのみ使用します。 |
+| アクセス権を付与したデータへのアクセスを維持 | 許可 [!DNL Workfront] 更新トークンを生成します。 |
+| サインインとユーザープロファイルの読み取り | 許可 [!DNL Workfront] を使用して、OAuth2 ログインフローを通じて、ユーザーの代わりにアクセストークンを使用します。 |
+
+このアクセス権は、ユーザーが初めて統合を使用する際に付与され、いつでも取り消すことができます。
+
+へのアクセスに関して以下の点を考慮してください。 [!DNL SharePoint] から [!DNL Workfront] [!DNL SharePoint] 統合：
+
+* [!DNL Workfront] は、統合で操作を実行するのに必要な最小限のアクセス権を要求します。
+* 次の項目の表示、編集、削除を行うためのアクセス [!DNL Adobe Workfront] リンクされたドキュメント [!DNL SharePoint] は、 [!DNL Workfront]. ただし、 [!DNL SharePoint] ファイルまたはフォルダーは、次へのアクセスを必要とします： [!DNL SharePoint]にアクセスし、これらのアクションへのアクセスを制御するには、 [!DNL SharePoint].
+* ユーザーは、次の場所から提供されるサムネールを表示し、画像をプレビューできます [!DNL SharePoint]の [!DNL SharePoint]（にログインせずに） [!DNL SharePoint].
+* ユーザーのアクセストークンは、ユーザーがオフラインの場合にのみ使用され、別のユーザーがリンク先のフォルダーのコンテンツを表示する場合にのみ使用されます [!DNL Workfront]. アクセストークンは、フォルダー内のドキュメントが追加、削除または編集されたかどうかを検出するために使用されます。
+
+### セキュリティ
+
+間のすべての通信 [!DNL Workfront] および [!DNL SharePoint] は HTTPS 経由で実行され、情報を暗号化します。
+
+[!DNL Workfront] 次のデータを保存、コピー、複製しない [!DNL SharePoint]. 唯一の例外は [!DNL Workfront] 次のサムネールを保存： [!DNL SharePoint] をクリックして、リスト表示とプレビューに表示します。
+
+アセットが最初に [!DNL Workfront]に送信してから、 [!DNL SharePoint], [!DNL Workfront] ユーザーは以前のバージョンのをダウンロードできるので、最初のファイルのデータを保持します。 [!DNL Workfront] 文書。 ドキュメントが [!DNL SharePoint], [!DNL Workfront] はそのファイルデータを保存しません。
+
+## レガシーの [!DNL SharePoint] ドキュメントへの継続的なアクセスの統合
+
+従来の [!DNL SharePoint] 統合の場合、従来の [!DNL SharePoint] 統合をおこない、SharePoint Client Secret を最新の状態に保ちます。
 
 * [従来の [!DNL SharePoint] 統合](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
 * [従来の [!DNL SharePoint] 統合](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
@@ -130,213 +165,220 @@ ht-degree: 0%
 1. 新しいクライアント秘密鍵を **[!UICONTROL クライアント秘密鍵]** フィールドに入力します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
+<!--
 
-
-## 従来のSharePoint統合の設定手順
+## Instructions for setting up the legacy SharePoint integration
 
 >[!IMPORTANT]
 >
->この統合は非推奨（廃止予定）となりました。 ここで説明する内容は情報提供のみで、近い将来に削除されます。
+>This integration has been deprecated. The instructions here are for information only and will be removed in the near future.
 
 
-Workfrontが [!DNL SharePoint] OAuth 2.0 を使用したオンライン。これは、ほとんどの Web ベースの統合で、ユーザーの認証と承認に使用される標準です。
+Workfront connects to [!DNL SharePoint] Online using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
 
-OAuth を設定するには、 [!DNL SharePoint] サイトと、 [!DNL SharePoint]. このプロセスについては、以降の節で説明します。
+To configure OAuth, you need to create a [!DNL SharePoint] site and a Site App within [!DNL SharePoint]. This process is described in the following sections.
 
-OAuth について詳しくは、 [http://oauth.net](http://oauth.net/).
+For more information about OAuth, see [http://oauth.net](http://oauth.net/).
 
 >[!TIP]
 >
->情報のコピーと貼り付けを簡単に行う [!DNL Workfront] および [!DNL SharePoint] この手順では、両方のアプリケーションを別々のタブで開いたままにすることをお勧めします。
+>To make it easy to copy and paste information between [!DNL Workfront] and [!DNL SharePoint] in these steps, we recommend keeping both applications open in separate tabs.
 
-* [の作成と設定 [!DNL SharePoint] サイト](#create-and-configure-a-sharepoint-site)
-* [サイトアプリに対する書き込み権限を付与する](#grant-write-permissions-to-the-site-app)
-* [の作成 [!DNL Workfront] [!DNL SharePoint] 統合インスタンス](#create-a-workfront-sharepoint-integration-instance)
-* [統合の完了](#complete-your-integration)
-* [ドキュメントを追加します](#add-documents)
+* [Create and configure a [!DNL SharePoint] site](#create-and-configure-a-sharepoint-site) 
+* [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app) 
+* [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance) 
+* [Complete your integration](#complete-your-integration) 
+* [Add documents](#add-documents)
 
-### の作成と設定 [!DNL SharePoint] サイト  {#create-and-configure-a-sharepoint-site}
+### Create and configure a [!DNL SharePoint] site  {#create-and-configure-a-sharepoint-site}
 
-次のために [!DNL Workfront] 認証を受ける [!DNL SharePoint], [!DNL Workfront] ユーザーが [!UICONTROL フルコントロール] 権限レベルまたは特定の Manage 権限。 このマスターサイトは、 [!DNL Workfront].
+In order for [!DNL Workfront] to authenticate with [!DNL SharePoint], [!DNL Workfront] ca use a master site where users have the [!UICONTROL Full Control] permission level or specific Manage permissions. This master site acts as an Authentication Entry Point for [!DNL Workfront].
 
-を作成して設定するには、以下を実行します。 [!DNL SharePoint] サイト：
+To create and configure a [!DNL SharePoint] Site:
 
-1. （オプション）組織のルートサイトを使用しない場合は、 [!DNL SharePoint].
+1. (Optional) If you do not want to use your organization's root site, you can create a master site in [!DNL SharePoint].
 
-   手順については、 [サイトの作成](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) 内 [!DNL Microsoft] ドキュメント。
+   For instructions, visit [Create a site](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) in the [!DNL Microsoft] Documentation.
 
-   * を選択します。 **[!UICONTROL チームサイト]** オプションを使用して、サイトを作成できます。
+   * Select the **[!UICONTROL Team Site]** option when creating the site.
 
-1. （条件付き）手順 1 でサイトを作成した場合は、作成したサイトに移動します。
+1. (Conditional) If you created a site in step 1, go to the site you just created.
 
-   または
+   Or
 
-   手順 1 でサイトを作成しなかった場合は、組織のルートサイトに移動します。
+   If you did not create a site in step 1, go to your organization's root site.
 
-1. 追加 `/_layouts/15/appregnew.aspx` を追加します。
-1. 次のフィールドを設定します。
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL クライアント ID]</p> </td> 
-      <td> <p>クリック <strong>[!UICONTROL 生成 ]</strong> をクリックしてクライアント ID を生成します。 この ID を安全な場所にコピーします。 後で [!DNL SharePoint] 統合 [!DNL Workfront].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client ID]</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client ID. Copy this ID to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL クライアント秘密鍵 ]</p> </td> 
-      <td> <p>クリック <strong>[!UICONTROL 生成 ]</strong> をクリックして、クライアントシークレットを生成します。 このシークレットを安全な場所にコピーします。 後で [!DNL SharePoint] 統合 [!DNL Workfront].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client Secret]</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client Secret. Copy this Secret to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>タイトル</p> </td> 
-      <td> <p>タイトルを入力します（例： ）。 [!DNL Workfront] サイトアプリ。 ユーザーがドキュメントを追加すると、このタイトルが表示されます。</p> </td> 
+      <td role="rowheader"> <p>Title</p> </td> 
+      <td> <p>Enter a title, such as [!DNL Workfront] Site App. Users see this title when adding documents..</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL App Domain]</p> </td> 
       <td> <p><code>my.workfront.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL リダイレクト URI]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Redirect URI]</p> </td> 
       <td> <p><code>https://oauth.my.workfront.com/oauth2/redirect</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. クリック **[!UICONTROL 作成]**
-1. 続行 [サイトアプリに対する書き込み権限を付与する](#grant-write-permissions-to-the-site-app).
+1. Click **[!UICONTROL Create]**
+1. Continue to [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app).
 
-### サイトアプリに対する書き込み権限を付与する  {#grant-write-permissions-to-the-site-app}
+### Grant write permissions to the site app  {#grant-write-permissions-to-the-site-app}
 
-この時点で、Site アプリが正常に作成され、内で登録されました。 [!DNL Workfront]. このサイトアプリは、 [!DNL SharePoint]. テナント内に存在します。 新しいサイトアプリは、テナント内のサイトコレクションに自動的にアクセスできません。 権限は、各サイトコレクションに対して明示的に付与する必要があります。 以下の手順では、新しい Site App にサイトコレクションへの書き込み権限を付与する方法を示します。 以下に追加した各サイトコレクションに対して、これらの手順を繰り返します。 [!UICONTROL 表示されるサイトコレクション] 上記の手順で説明します。
+At this point, you have successfully created a Site App and registered it within [!DNL Workfront]. This site app is also known as an app principal in [!DNL SharePoint]. It resides within your tenant. New site apps do not automatically have access to site collections within the tenant. Permissions must be granted explicitly, for each site collection. The steps below will show you how to grant Write permission to the new Site App a site collection. Repeat these steps for each of the site collections you added under [!UICONTROL Visible Site Collections] in the steps above.
 
-このサイトアプリには [!UICONTROL 書き込み] ユーザーがアクセスする必要があるすべてのサイトコレクションへの権限 [!DNL Workfront].
+This site app must have [!UICONTROL Write] permission to any site collections that users need to access through [!DNL Workfront].
 
-1. URL に「/_layouts/15/appinv.aspx」を [!DNL Sharepoint].
+1. Add '/_layouts/15/appinv.aspx' to the URL in [!DNL Sharepoint].
 
-   **例:**
+   **Example:**
 
    ```
    https://mycompany.sharepoint.com/sites/mysite/_layouts/15/appinv.aspx
    ```
 
-1. 次のフィールドを設定します
+1. Configure the following fields
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL アプリ ID]</td> 
-      <td> <p>作成したクライアント ID を追加します。 <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">の作成と設定 [!DNL SharePoint] サイト </a>をクリックし、 <strong>[!UICONTROL 参照 ]</strong>.</p> </td> 
+      <td role="rowheader">[!UICONTROL App ID]</td> 
+      <td> <p>Add the Client ID that you created in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>and click <strong>[!UICONTROL Lookup]</strong>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL クライアント ] / [!UICONTROL アプリドメイン ] / [!UICONTROL リダイレクト URL]</p> </td> 
-      <td> <p>[!UICONTROL ルックアップ ] をクリックすると、これらは自動的に入力されます。</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client] / [!UICONTROL App Domain] / [!UICONTROL Redirect URL]</p> </td> 
+      <td> <p>These automatically fill when you click [!UICONTROL Lookup].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 権限リクエスト XML]</td> 
-      <td> <p>次の XML を「[!UICONTROL 権限リクエスト XML]」フィールドにコピーします。 追加のスペースなしで、表示されたとおりに追加されていることを確認します。 エラーを回避するために。</p> 
+      <td role="rowheader">[!UICONTROL Permission Request XML]</td> 
+      <td> <p>Copy the following XML to the [!UICONTROL Permission Request XML] field. Make sure that it is added exactly as shown without additional spaces etc. in order to avoid errors.</p> 
       <div></a> 
       <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 
-       <pre></pre></div></div></td></tr></tbody></table>
+       <pre><code><span style="color: #63a35c; ">&lt;AppPermissionRequests&gt;</span><br><span style="color: #63a35c; ">&lt;AppPermissionRequest <span style="color: #795da3; ">Scope</span><span style="color: #df5000; ">="http://sharepoint/content/sitecollection/web"</span> <span style="color: #795da3; ">Right</span><span style="color: #df5000; ">="Write"</span>/&gt;</span><br><span style="color: #63a35c; ">&lt;/AppPermissionRequests&gt;</span></code></pre> 
+      </div> 
+      </div> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
-1. 表示されるダイアログで、 **[!UICONTROL 信頼する]**.
-1. サイトアプリがサイトコレクションにアクセスできることを確認するには、 **[!UICONTROL サイトコレクションアプリの権限]** リンクイン [!UICONTROL サイト設定].
-1. 残りのサイトコレクションに対して上記の手順を繰り返し、次に続行します。 [の作成 [!DNL Workfront] [!DNL SharePoint] 統合インスタンス](#create-a-workfront-sharepoint-integration-instance).
+1. Click **[!UICONTROL Create]**. 
+1. In the dialog that appears, click **[!UICONTROL Trust it]**.
+1. Verify that the site app has access to the site collection by clicking the **[!UICONTROL Site collection app permissions]** link in [!UICONTROL Site Settings].
+1. Repeat the steps above for the remaining site collections, then continue with [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance).
 
-### の作成 [!DNL Workfront] [!DNL SharePoint] 統合インスタンス {#create-a-workfront-sharepoint-integration-instance}
+### Create a [!DNL Workfront] [!DNL SharePoint] integration instance {#create-a-workfront-sharepoint-integration-instance}
 
-サイトアプリを [!DNL SharePoint]を使用すると、サイトアプリから [!DNL Workfront]. サイトアプリはアプリのプリンシパルで、サイトコレクション内のドキュメントにアクセスするために OAuth 要求が行われるコンジットとして機能します。
+When you have created a site app in [!DNL SharePoint], you can now copy information from the site app into [!DNL Workfront]. The site app is an app principal and acts as the conduit through which OAuth requests are made to access documents within site collections.
 
-1. ログイン [!DNL Workfront] 管理者として。
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. Log into [!DNL Workfront] as an administrator.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. 左側のパネルで、 **[!UICONTROL ドキュメント]** > **[!UICONTROL [!DNL SharePoint]統合]**.
-1. クリック **[!UICONTROL 追加[!DNL SharePoint]]**.
-1. 次のフィールドを設定します。
+1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
+1. Click **[!UICONTROL Add [!DNL SharePoint]]**.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 名前 ]</p> </td> 
-      <td> <p>名前を入力 [!DNL SharePoint] 統合とも呼ばれます。 ユーザーは、[!UICONTROL 追加 ] / [!UICONTROL 元 ] 「統合名」をクリックすると、この名前が表示されます。 </p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Name]</p> </td> 
+      <td> <p>Enter a name for the [!DNL SharePoint] integration. Users see this name when they click [!UICONTROL Add] &gt; [!UICONTROL From] 'name of integration'. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] ホストインスタンス ]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] Host Instance]</p> </td> 
       <td> <p><code>&lt;YourDomain&gt;.sharepoint.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] ドメインにアクセス ]</p> </td> 
-      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>これは、ユーザーがマスターを通じて認証する際に使用する認証サイトを指します。 [!UICONTROL [!DNL SharePoint] ホストインスタンス ]。</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] Access Domain]</p> </td> 
+      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>This refers to the Master Site that users will use to authenticate through. It is likely the same domain as the [!UICONTROL [!DNL SharePoint] Host Instance].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>
       </p> </td> 
-      <td> <b>重要</b> サイトコレクションはレガシー [!DNL SharePoint] 統合。
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] Integration.
        <ul> 
-        <li> <p><b>組織のルートサイトを使用している場合</b><b>:</b> </p> <p>入力 <code>/</code></p> </li> 
-        <li> <p><b>マスター・サイトとサブサイトを使用している場合：</b> </p> <p><b>重要</b>: [!DNL Microsoft SharePoint] では、サブサイトの使用をお勧めしていません。</p> <p>上記のセクションで作成したサイトコレクションの URL ステムを入力します。</p> <p>これは、.com の後の URL のセクションです。</p> <p>例：（URL の） <code>https://mycompany.sharepoint.com/sites/mysite</code>の場合、ステムは <code>/sites/mysite</code>.</p> </li> 
+        <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL SharePoint] クライアント ID]</td> 
-      <td>生成したクライアント ID を <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">の作成と設定 [!DNL SharePoint] サイト </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client ID]</td> 
+      <td>Enter the Client ID that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL SharePoint] クライアント秘密鍵 ]</td> 
-      <td>生成したクライアント秘密鍵を入力します。 <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">の作成と設定 [!DNL SharePoint] サイト </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client Secret]</td> 
+      <td>Enter the Client Secret that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 表示可能なサイトコレクション ]</td> 
-      <td> <b>重要</b> サイトコレクションはレガシー [!DNL SharePoint] 統合とも呼ばれます。
+      <td role="rowheader">[!UICONTROL Visible Site Collections]</td> 
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] integration.
        <ul> 
-        <li> <p><b> 組織のルートサイトを使用している場合</b><b>:</b> </p> <p>入力 <code>/</code></p> </li> 
-        <li> <p><b>マスター・サイトとサブサイトを使用している場合：</b> </p> <p><b>重要</b>: [!DNL Microsoft SharePoint] では、サブサイトの使用をお勧めしていません。</p> <p>を [!DNL SharePoint] 統合の場合は、サブサイトのステムを入力します。</p> <p>例：（URL の）<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>の場合、ステムは <code>/sites/mysite/mysubsite</code>.</p> <p><b>メモ</b>:   <p>設定のみをテストする場合（サブサイトを使用しない場合）は、マスターサイトのステムを入力します。 </p> <p>例：（URL の） <code> https://mycompany.sharepoint.com/sites/mysite</code>の場合、ステムは <code>/sites/mysite</code>.</p> <p>設定をテストしたとき ( <a href="#complete-your-integration" class="MCXref xref">統合の完了</a>の場合は、マスターサイトを削除してサブサイトを入力する必要があります。</p> 
+        <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p><b>NOTE</b>:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete-your-integration" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
           <ol> 
-           <li value="1">次をクリック： <strong>[!UICONTROL メインメニュー ]</strong> アイコン <img src="assets/main-menu-icon.png"> 右上隅に [!DNL Adobe Workfront]を選択し、「 <strong>[!UICONTROL 設定 ]</strong> <img src="assets/gear-icon-settings.png">.<li><p>左側のパネルで、 <strong>[!UICONTROL ドキュメント ]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] 統合 ]</strong>.</p></li><li><p>次をクリック： [!DNL SharePoint] 統合を設定して、「編集」をクリックします。</p></li><li><p>「[!UICONTROL 表示可能なサイトコレクション ]」フィールドからマスターサイトのステムを削除します。</p></li><li><p>を [!DNL SharePoint] 統合の場合は、サブサイトのステムを入力します。</p></li><p>例：（URL の）<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>の場合、ステムは <code>/sites/mysite/mysubsite</code>.</p></li> 
+           <li value="1">Click the <strong>[!UICONTROL Main Menu]</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of [!DNL Adobe Workfront], then click <strong>[!UICONTROL Setup]</strong> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <strong>[!UICONTROL Documents]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] Integration]</strong>.</p></li><li><p>Click the [!DNL SharePoint] integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the [!UICONTROL Visible Site Collections] field.</p></li><li><p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
           </ol> </p> </li> 
        </ul> <p> </p> <p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. クリック **[!UICONTROL 保存]**
-1. 続行 [統合の完了](#complete-your-integration).
+1. Click **[!UICONTROL Save]**
+1. Continue to [Complete your integration](#complete-your-integration).
 
-### 統合の完了 {#complete-your-integration}
+### Complete your integration {#complete-your-integration}
 
-基本設定はほぼ完了です。
+The basic configuration is almost complete.
 
-1. Workfrontで、 **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **[!UICONTROL ドキュメント]** ![](assets/document-icon.png).
-1. クリック **[!UICONTROL 新規追加]**.
-1. クリック **[!UICONTROL 送信者]`<title of your [!DNL SharePoint] site>`** 」と入力します。
+1. In Workfront, Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Documents]** ![](assets/document-icon.png).
+1. Click **[!UICONTROL Add new]**.
+1. Click **[!UICONTROL From] `<title of your [!DNL SharePoint] site>`** in the dropdown.
 
-   [ このサイトを信頼する ] を選択するように促すダイアログが表示されます。
+   A dialog that invites you to Trust this site appears.
 
    >[!NOTE]
    >
-   >このダイアログが表示されない場合は、 [!DNL SharePoint] 統合が正しく設定されていません。
+   >If this dialog does not appear, your [!DNL SharePoint] integration is not configured correctly.
 
-1. クリック **[!UICONTROL 信頼する]**.
+1. Click **[!UICONTROL Trust it]**.
 
-### ドキュメントを追加します {#add-documents}
+### Add documents {#add-documents}
 
-これで、 [!DNL SharePoint] サイト。
+You can now add documents from your [!DNL SharePoint] site.
 
-手順については、 [外部ドキュメントを次にリンク： [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
+For instructions, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 
 >[!IMPORTANT]
 >
->フォルダーをリンクしたユーザーが外部アプリケーションにアクセスできなくなった場合、 [!DNL Workfront] では、フォルダーのコンテンツにアクセスできなくなりました。 この問題は、例えば、フォルダーを最初にリンクしたユーザーが会社を離れた場合に発生する可能性があります。 引き続きアクセスできるように、フォルダーへのアクセス権を持つユーザーは、フォルダーを再リンクする必要があります。
+>If the user who linked a folder no longer has access to the external application, [!DNL Workfront] can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
+> 
+
+-->
 
 ## トラブルシューティング
 
 * [問題：ユーザーは、 [!DNL SharePoint] 統合とも呼ばれます。](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [問題：As a [!DNL Workfront] ユーザー、新しいをプロビジョニングできません [!DNL SharePoint] インスタンス。 この操作を行うと、エラーが表示されます。](#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error)
 * [問題：参照しようとしたとき [!DNL SharePoint] ファイル [!DNL Workfront]の場合、サイトコレクションが表示されません。](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [問題：以前リンクしたフォルダやドキュメントには、 [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
@@ -373,15 +415,19 @@ OAuth について詳しくは、 [http://oauth.net](http://oauth.net/).
 
 権限レベルの作成および編集手順については、 [権限レベルの作成および編集方法](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) (Microsoftドキュメント ) を参照してください。
 
-### 問題：As a [!DNL Workfront] ユーザー、新しいをプロビジョニングできません [!DNL SharePoint] インスタンス。 この操作を行うと、エラーが表示されます。 {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
+<!--
 
-解決策：
+### Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
 
-これは、次のいずれかに由来する多くのものによって引き起こされます。 [!DNL Workfront] または [!DNL SharePoint]&#39;s 設定。 以下を確認します。
+Solutions:
 
-* クライアント ID、クライアント秘密鍵、戻り URL およびその他の設定フィールドが、 [!DNL Workfront] [!DNL SharePoint] 統合インスタンスと [!DNL SharePoint] サイトアプリ。
-* ユーザーが [!UICONTROL フルコントロール] 認証に使用されるサイトコレクションへの権限。
-* Site App がの下に表示されます。 [!UICONTROL サイトアプリの権限] の [!UICONTROL サイトコレクション] 認証に使用されます。
+This can be caused by a number of things, originating in either [!DNL Workfront] or [!DNL SharePoint]'s configuration. Verify that:
+
+* The Client ID, Client Secret, return URL and other configuration fields are correctly mapped between the [!DNL Workfront] [!DNL SharePoint] Integration instance and the [!DNL SharePoint] Site App.
+* The user has [!UICONTROL Full Control] permission to the Site Collection used for authentication.
+* The Site App is listed under [!UICONTROL Site App Permissions] for the [!UICONTROL Site Collection] used for authentication.
+
+-->
 
 ### 問題：参照しようとしたとき [!DNL SharePoint] ファイル [!DNL Workfront]の場合、サイトコレクションが表示されません。 {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
@@ -389,25 +435,31 @@ OAuth について詳しくは、 [http://oauth.net](http://oauth.net/).
 
 でサイトコレクションを表示するには [!DNL Workfront]の場合は、次の条件を満たす必要があります。
 
-* サイトコレクションは、 [!DNL Workfront] [!DNL SharePoint] 統合インスタンス。
+<!--
 
-   次の手順でこれを検証します。 [!DNL Workfront]:
+* The site collection must be registered in the [!DNL Workfront] [!DNL SharePoint] Integration instance.
 
-   1. に移動します。 [!UICONTROL 設定] > [!UICONTROL ドキュメント] > [!UICONTROL [!DNL SharePoint] 統合].
-   1. を編集します。 [!DNL SharePoint] 統合インスタンスの情報。
-   1. サイトコレクションがの下に表示されていることを確認します。 [!UICONTROL 表示されるサイトコレクション].
+  To verify this in [!DNL Workfront]:
+
+   1. Go to [!UICONTROL Setup] > [!UICONTROL Documents] > [!UICONTROL [!DNL SharePoint] Integration].
+   1. Edit the [!DNL SharePoint] Integration instance information.
+   1. Verify that the site collection is listed under [!UICONTROL Visible Site Collections].
+   -->
 
 * ユーザーは、のサイトコレクションに対するビューアクセス権を持っている必要があります。 [!DNL SharePoint].
-* 次の手順でこれを検証します。 [!DNL SharePoint]に移動します。 [!DNL SharePoint]を開き、サイトコレクションを開きます。 [!UICONTROL 設定] > [!UICONTROL サイトの権限].
-* この [!DNL SharePoint] サイトアプリは、サイトコレクションにアクセスできる必要があります。
 
-   次の手順でこれを検証します。 [!DNL SharePoint]:
+   次の手順でこれを検証します。 [!DNL SharePoint]に移動します。 [!DNL SharePoint]を開き、サイトコレクションを開きます。 [!UICONTROL 設定] > [!UICONTROL サイトの権限].
+<!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
-   1. サイトコレクションに移動します ( > [!UICONTROL 設定] > [!UICONTROL サイトアプリの権限].
-   1. 次を確認します。 [!UICONTROL サイトアプリ] 使用者 [!DNL Workfront] をここにリストします。
-   1. （条件付き） Site App が一覧に表示されない場合は、_layouts/15/appinv.aspxを使用してサイトコレクションに追加します。
+  To verify this in [!DNL SharePoint]:
 
-      サイトコレクションの追加については、「 Site App に対する書き込み権限の付与」を参照してください。
+   1. Go to the site collection > [!UICONTROL Settings] > [!UICONTROL Site app permissions].
+   1. Ensure that the [!UICONTROL Site App] used by [!DNL Workfront] is listed here.
+   1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
+
+      For information about adding the site collection, see Granting Write Permissions To The Site App.
+      
+-->
 
 ### 問題：以前リンクしたフォルダやドキュメントには、 [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
@@ -419,8 +471,10 @@ OAuth について詳しくは、 [http://oauth.net](http://oauth.net/).
 
 外部プロバイダーからのフォルダーのリンクについて詳しくは、 [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### 問題：からドキュメントを追加しようとすると、「404 が見つかりません」というエラーが表示される [!DNL Sharepoint]
+<!--
 
-#### 解決策：
+### Problem: I see a "404 not found" error when attempting to add a document from [!DNL Sharepoint]
 
-このエラーは、 [!UICONTROL 表示されるサイトコレクション] リストが SharePoint で削除されました。 次を確認します。 [!UICONTROL 表示されるサイトコレクション] SharePoint で削除されたサイトの一覧を表示し、削除します。
+#### Solution:
+
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
