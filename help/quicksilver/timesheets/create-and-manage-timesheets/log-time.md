@@ -6,9 +6,9 @@ description: 作業項目の時間を&nbsp;Adobe Workfrontに記録して、作�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
-source-wordcount: '2973'
+source-wordcount: '3000'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Legacy license: Review or higher</p> </td> 
+   <p>Review or higher</p> 
+   <p><b>NOTE</b></p>
+
+   <ul><li>Reviewers can log only General Hours in a timesheet</li>
+   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -60,7 +64,12 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td> <p>レビュー以上</p> 
+   <p><b>メモ</b></p>
+
+<ul><li>レビュー担当者は、タイムシートに [ 一般時間 ] のみを記録できます</li>
+   <li>プロジェクト、タスク、または問題に関する時間を記録するには、作業用ライセンス以上が必要です</li></ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 

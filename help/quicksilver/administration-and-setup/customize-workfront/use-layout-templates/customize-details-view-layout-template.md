@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -41,7 +41,7 @@ or billing record
 * <span class="preview">「オブジェクトの編集」画面（プロジェクトの編集など）をプロジェクトを一括編集する場合</span>
 
    <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
--->
+
 
 * 概要 ![](assets/summary-panel-icon.png) タスクと問題のリストのパネル
 
