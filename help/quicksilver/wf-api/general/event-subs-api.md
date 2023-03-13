@@ -6,9 +6,9 @@ description: イベント購読 API
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 3%
 
 ---
@@ -260,7 +260,7 @@ HTTP を使用してWorkfrontに問い合わせる場合は、GETメソッドを
 
 ### すべてのイベント購読をクエリ
 
-apiKey 値で指定された顧客のすべてのイベント購読をクエリできます。 また、次のオプションを使用して応答を管理することもできます。
+ある顧客に関するすべてのイベント購読をクエリしたり、次の機能を使用して応答を管理したりできます。 また、次のオプションを使用して応答を管理することもできます。
 
 * **ページ**:返すページ数を指定するクエリパラメーターオプション。 デフォルトは 1 です。
 * **制限**:クエリーパラメーターオプションを使用して、1 ページあたりに返す結果の数を指定します。 デフォルトは 100 で、最大は 1000 です。
