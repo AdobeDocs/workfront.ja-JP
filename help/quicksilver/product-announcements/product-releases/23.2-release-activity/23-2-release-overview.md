@@ -4,7 +4,7 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+source-git-commit: 14178b9dadc5da0d858fd3b8d19fde2e7764aaee
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
@@ -399,7 +399,7 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 3 月 10 日<br /></p>
+                                <p>プレビューリリース：2023 年 3 月 21 日<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">実稼動版リリース：23.2 リリースの場合 </span></p>
