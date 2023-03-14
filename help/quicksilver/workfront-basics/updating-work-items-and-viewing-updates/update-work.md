@@ -6,7 +6,7 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 1%
@@ -103,7 +103,7 @@ Adding an update to a work item differs depending on what environment and what o
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals, in the Production and Preview environements. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>The following functionality is available for all objects except for goals, in the Production and Preview environments. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 -->
 
@@ -286,12 +286,10 @@ Adding an update to a work item differs depending on what environment and what o
 1. Click **Submit**. 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********)
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
-
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. 
-
 1. (Conditional and Optional) If you included additional people in your comment, click on the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 
    ![](assets/members-icons-expanded-unshimmed.png)
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. 
 
 -->
 
@@ -370,7 +368,7 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
 ## システム更新を有効または無効にする
 
-Workfrontオブジェクトの「更新」タブには、次の 2 種類の情報が表示されます。
+Workfrontオブジェクトの「更新」セクションには、次の 2 種類の情報が表示されます。
 
 * **ユーザーの更新：** ユーザーの更新とは、自分とシステム内の他のユーザーが入力するコメントです。
 
@@ -392,3 +390,4 @@ Workfrontオブジェクトの「更新」タブには、次の 2 種類の情�
    ![](assets/show-system-updates-qs-350x55.png)
 
    このオプションは、Workfront全体のすべてのオブジェクトにわたって永続的で、Workfrontからログアウトした場合でも、選択した位置にとどまります。
+

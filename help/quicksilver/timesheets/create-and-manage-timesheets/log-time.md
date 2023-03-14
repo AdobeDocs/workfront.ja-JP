@@ -6,9 +6,9 @@ description: 作業項目の時間を&nbsp;Adobe Workfrontに記録して、作�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2992'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,9 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Review or higher</p> 
-   <p><b>NOTE</b></p>
-
-   <ul><li>Reviewers can log only General Hours in a timesheet</li>
-   <li>You must have a Work license or higher to log hours on a project, task, or issue</li></ul> </td> 
+   <p>Legacy license: 
+   <ul><li>Review or higher to log General Hours in a timesheet</li>
+   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -64,11 +62,8 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>レビュー以上</p> 
-   <p><b>メモ</b></p>
-
-<ul><li>レビュー担当者は、タイムシートに [ 一般時間 ] のみを記録できます</li>
-   <li>プロジェクト、タスク、または問題に関する時間を記録するには、作業用ライセンス以上が必要です</li></ul>
+   <td> <ul><li>タイムシートの一般時間を記録するには、確認するか、それ以上を指定します</li>
+   <li> 作業時間以上：プロジェクト、タスク、またはタスクに時間を記録します</li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -77,7 +72,7 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ログ時間に対する権限を含む、時刻を記録する作業項目に対する権限を提供するか、それ以上の権限を付与する</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ログ時間に対する権限を含む、時刻を記録する作業項目に対する権限を付与するか、それ以上の権限を付与します。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

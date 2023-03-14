@@ -5,14 +5,16 @@ description: スコアカードを使用して、プロジェクトが以前に�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
 
 # プロジェクトにスコアカードを適用し、線形スコアを生成する
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 スコアカードを使用して、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合しているかを測定できます。 スコアカードは、多くの場合、組織のミッション、価値、戦略目標を反映します。
 
