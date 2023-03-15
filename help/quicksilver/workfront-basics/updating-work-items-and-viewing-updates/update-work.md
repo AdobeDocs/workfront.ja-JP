@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1827'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,15 @@ ht-degree: 1%
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for a limited number of objects.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
 
-Adobe Workfrontオブジェクト（プロジェクト、タスクまたはイシュー）に更新を追加して、オブジェクトの進行状況を伝えることができます。 オブジェクトを割り当てられた、またはサブスクライブしたユーザーは、更新を表示できます。 また、ユーザーにタグを付けて、更新に注意を向けることもできます。
+Workfrontの複数のオブジェクトにコメントを追加できます。 詳しくは、 [「更新」タブの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Workfrontの次の領域で、オブジェクトに更新を追加できます。
+Adobe Workfrontオブジェクト（プロジェクト、タスクまたはイシュー）にコメントを追加するだけでなく、オブジェクトの進行状況を伝える更新を追加できます。 オブジェクトを割り当てられた、またはサブスクライブしたユーザーは、更新を表示できます。 また、ユーザーにタグを付けて、更新に注意を向けることもできます。
+
+このページの情報は、プロジェクト、タスクまたはイシューの作業を更新する場合に使用します。 目標に対するコメントおよび更新の追加について詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+Workfrontの次の領域で、プロジェクト、タスクおよび問題を更新できます。
 
 * Workfrontオブジェクトの「更新」セクションで、
 * 「ホーム」領域から（タスクおよび問題について）

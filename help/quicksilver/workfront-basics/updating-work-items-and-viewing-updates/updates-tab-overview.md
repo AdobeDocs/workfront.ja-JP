@@ -7,16 +7,22 @@ description: 「更新」タブには、過去 90 日以内におこなわれた
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 6%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
 # 「更新」タブの概要
 
-「更新」タブには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。 次のオブジェクトの更新に返信できます。
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+「更新」タブには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
+
+次のオブジェクトに対してコメントを付けたり、更新に返信したりできます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,21 +31,22 @@ ht-degree: 6%
   <tr> 
    <td> 
     <ul> 
+     <li>ドキュメント</li> 
+     <li>目標</li> 
+     <li>問題</li> 
+     <li>反復</li> 
      <li>プロジェクト</li> 
-     <li>ポートフォリオ</li> 
      <li>プログラム</li> 
-     <li>テンプレート</li> 
-     <li>テンプレート タスク</li> 
-     <li>タスク</li> 
+     <li>ポートフォリオ</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>問題</li> 
-     <li>反復</li> 
      <li>ストーリー</li> 
-     <li>ユーザー</li> 
-     <li>ドキュメント</li> 
+     <li>タスク</li> 
+     <li>テンプレート</li> 
+     <li>テンプレート タスク</li> 
      <li>タイムシート</li> 
+     <li>ユーザー</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,6 +107,11 @@ ht-degree: 6%
   <tr> 
    <td>反復</td> 
    <td>チーム</td> 
+  </tr>
+
+<tr> 
+   <td>目標</td> 
+   <td>結果、アクティビティ</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,8 +119,11 @@ ht-degree: 6%
 >[!NOTE]
 >
 >システム更新に追加された返信は、親オブジェクトにロールアップされません。 子オブジェクトに対する直接応答と、既存の更新に追加された返信のみが、親オブジェクトにロールアップされます。
+>
+>Adobe Workfrontのオブジェクト階層について詳しくは、 [Adobe Workfrontのオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-Adobe Workfrontのオブジェクト階層について詳しくは、 [Adobe Workfrontのオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## 「更新」タブの制限事項
 
