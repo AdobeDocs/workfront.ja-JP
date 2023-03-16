@@ -4,9 +4,9 @@ description: 23.2 アジャイルの強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d9fa1c876f2b789c3c387387964ba749c5453a1e
+source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,27 @@ ht-degree: 0%
 
 23.2 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## リストやレポートからWorkfrontボードにタスクやイシューを追加する
+<!--
 
-既存のタスクやイシューをリスト表示やレポート表示から直接Workfrontボードに追加できるようになりました。 ボードに追加した項目は、すべて接続されたカードになります。
+## Iteration functionality available in Adobe Workfront Boards
 
-また、タスクやタスクのリストやレポートに「ボード」フィールドを追加できるようになりました。 このフィールドには、タスクまたはイシューが追加されたすべてのボードが表示されます。
+Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
 
-詳しくは、 [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+* Workstreams for grouping boards related to the same team, and collaborating on work
+* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
+* Iteration planning and iteration process boards
+
+Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+
+For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+
+## Add tasks and issues to Boards workstreams from lists and reports
+
+You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+-->
 
 ## ボード上の接続されたカードのログ時間
 
