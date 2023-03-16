@@ -6,9 +6,9 @@ description: Adobe Workfront Workload Balancer を使用して、作業項目を
 author: Alina
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 10b905c8a66f2507cbfac7c15a01f38d40ab3e00
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1543'
 ht-degree: 2%
 
 ---
@@ -37,8 +37,8 @@ Adobe Workfront Workload Balancer を使用して、作業項目を手動でユ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>チームまたはリソースエリアでワークロードバランサーを使用する場合の計画 </p>
-   <p>プロジェクトのワークロードバランサーを使用する場合の作業 </p>
+   <td> <p>リソース領域でワークロードバランサーを使用する場合の計画</p>
+   <p>チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p>
 
 </td> 
   </tr> 
@@ -83,7 +83,7 @@ Adobe Workfront Workload Balancer を使用して、作業項目を手動でユ�
 
 1. 作業を割り当てるワークロードバランサーに移動します。
 
-   リソースエリア、プロジェクト、またはチームレベルで、ワークロードバランサーを使用して、作業をユーザーに割り当てることができます。 ワークロードバランサーのWorkfront内の場所について詳しくは、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   リソースエリア、プロジェクト、またはチームレベルのワークロードバランサーを使用して、作業をユーザーに割り当てることができます。 ワークロードバランサーのWorkfront内の場所について詳しくは、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
 1. クリック **一括割り当て** ![](assets/bulk-assignments-wb.png) ワークロードバランサーの最上部に表示されます。

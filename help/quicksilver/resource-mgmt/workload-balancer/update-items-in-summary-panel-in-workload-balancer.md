@@ -6,9 +6,9 @@ description: ワークロード・バランサの「要約」パネルを開い�
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ Summary パネルは、ワークロードバランサーの「Assigned」作業�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>チームまたはリソースエリアでワークロードバランサーを使用する場合の計画 </p>
-   <p>プロジェクトのワークロードバランサーを使用する場合の作業 </p>
+   <td> <p>リソース領域でワークロードバランサーを使用する場合の計画</p>
+   <p>チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p> 
  </p> </td> 
   </tr> 
   <tr> 

@@ -7,9 +7,9 @@ description: ワークロード・バランサを使用して、作業用のリ�
 author: Alina
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 87f02f3908c86575ca2dfacd7d88146b9967a804
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -53,8 +53,8 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>チームまたはリソースエリアでワークロードバランサーを使用する場合の計画 </p>
-   <p>プロジェクトのワークロードバランサーを使用する場合の作業 </p>
+   <td> <p>リソース領域でワークロードバランサーを使用する場合の計画</p>
+   <p>チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p>
  </td> 
   </tr> 
   <tr> 

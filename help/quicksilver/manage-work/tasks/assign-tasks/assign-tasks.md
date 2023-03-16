@@ -6,7 +6,7 @@ description: タスクをユーザー、役割またはチームに割り当て�
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>複数の役割が割り当てられ、そのうち少なくとも 1 つがユーザーの他の役割のいずれかと一致する場合、タスクまたは問題がユーザーに割り当てられます（複数の役割が一致する場合はランダムに選択されます）。</li>
       <li>1 つ以上のジョブの役割が割り当てられ、ユーザーのジョブの役割に一致する役割がない場合、タスクまたは問題は役割または役割の両方とユーザーに割り当てられます。</li>
      </ul>
-   <p>ユーザーの主な役割とその他の役割について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">ユーザーのプロファイルの編集</a>.</p>
-   </td>
-  </tr>
+   <p>ユーザーの主な役割とその他の役割について詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">ユーザーのプロファイルの編集</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

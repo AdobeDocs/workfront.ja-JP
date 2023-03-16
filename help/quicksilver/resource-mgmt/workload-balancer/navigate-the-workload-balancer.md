@@ -6,9 +6,9 @@ description: ワークロードバランサーを使用して、リソースの�
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '4050'
+source-wordcount: '4048'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,8 @@ Adobe Workfrontのワークロードバランサーを使用して、使用可�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>チームまたはリソースエリアでワークロードバランサーを使用する場合の計画 </p>
-   <p>プロジェクトのワークロードバランサーを使用する場合の作業 </p>
+   <td> <p>リソース領域でワークロードバランサーを使用する場合の計画</p>
+   <p>チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p>
  </td> 
   </tr> 
   <tr> 

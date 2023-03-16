@@ -6,9 +6,9 @@ description: 作業項目を効率的に検索し、管理するユーザーや�
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 10b905c8a66f2507cbfac7c15a01f38d40ab3e00
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2466'
+source-wordcount: '2464'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>チームまたはリソースエリアでワークロードバランサーを使用する場合の計画 </p>
-   <p>プロジェクトのワークロードバランサーを使用する場合の作業 </p>
+   <td> <p>リソース領域でワークロードバランサーを使用する場合の計画</p>
+   <p>チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p>
  </td> 
   </tr> 
   <tr> 

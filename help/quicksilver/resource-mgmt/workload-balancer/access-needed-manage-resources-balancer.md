@@ -6,10 +6,10 @@ description: 正しいアクセス権または権限がないと、ワークロ�
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront プラン</td> 
+   <td role="rowheader"><p>Workfront プラン</p></td> 
    <td> <p>ワークロードバランサーにアクセスできる領域</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ Workfrontのワークロードバランサーの場所について詳しくは�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td> <p>リソースエリアにワークロードバランサーを表示する計画</p>
+   <p>チームまたはプロジェクトのワークロードバランサーを表示する作業</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -83,8 +84,8 @@ Workfrontのワークロードバランサーの場所について詳しくは�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> 
-   <p>プロジェクトのワークロードバランサーでリソースを管理する作業</p>
+   <td> <p>リソース領域のワークロードバランサーで割り当てを管理する計画</p>
+   <p>チームまたはプロジェクトのワークロードバランサーで割り当てを管理する作業</p>
    </td> 
   </tr> 
   <tr> 

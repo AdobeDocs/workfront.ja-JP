@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -179,8 +179,15 @@ As a [!DNL Adobe Workfront] 管理者は、システム全体で作成される�
        <ul> 
         <li>ステータスが [!UICONTROL Current] である</li> 
         <li>過去 3 か月間に更新があります</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>プロジェクトの範囲が変更されたとき</strong>:プロジェクト範囲の変更が発生したときにプロジェクトタイムラインをすぐに再計算する場合は、これを選択します。 プロジェクト範囲の変更を構成する情報については、 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">プロジェクトタイムラインを再計算</a>.</p> </li> 
+        <li>次のいずれかの更新タイプを持っている。</li>
+        <ul>
+        <li>自動/変更時</li>
+        <li>変更時のみ</li>
+        <li>自動のみ</li> 
+      </ul>       
+    <b>ヒント</b>
+    <p>[ 更新の種類 ] が [ 手動のみ ] のプロジェクトは、この設定の影響を受けません。</p>
+    <li> <p><strong>プロジェクトの範囲が変更されたとき</strong>:プロジェクト範囲の変更が発生したときにプロジェクトタイムラインをすぐに再計算する場合は、これを選択します。 プロジェクト範囲の変更を構成する情報については、 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">プロジェクトタイムラインを再計算</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

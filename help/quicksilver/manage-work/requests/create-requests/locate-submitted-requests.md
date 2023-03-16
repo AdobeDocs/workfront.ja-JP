@@ -6,9 +6,9 @@ description: 自分または他のユーザーが送信したリクエストや�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,11 @@ ht-degree: 1%
 
    問題がタスクまたはプロジェクトに変換され、変換処理で問題が削除された場合、[ 概要 ] パネルは空白になります。 問題の変換について詳しくは、 [Adobe Workfrontでの変換の問題の概要](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. 次の **フィルターアイコン** ![](assets/filter-nwepng.png) リストの右上で、次のいずれかのフィルターを選択します。
+1. 次の **フィルターアイコン** ![](assets/filter-nwepng.png) リストの右上で、次の表に示すフィルターのいずれかを選択します。
+
+   >[!TIP]
+   >
+   >「要求」領域では、フィルターを変更できません。 また、「リクエスト」領域の表示を変更または変更するオプションはありません。
 
    <table style="table-layout:auto"> 
     <col> 
