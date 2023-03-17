@@ -6,7 +6,7 @@ description: ボードをフィルタリングして、特定のカードのみ�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -115,4 +115,4 @@ ht-degree: 0%
 
    「 X 」をクリックして検索をクリアします。
 
-   ![[!UICONTROL ボード内のカードの検索]](assets/boards-searchbox.png)
+   ![ボード内のカードの検索](assets/boards-searchbox.png)

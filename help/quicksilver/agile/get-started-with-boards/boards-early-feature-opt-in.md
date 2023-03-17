@@ -6,9 +6,9 @@ title: の初期の機能オプトイン [!DNL Adobe Workfront] ボード
 description: この記事で [!DNL Workfront Boards] 初期機能のオプトイン。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -125,16 +125,16 @@ ht-degree: 0%
    <td>部分的にリリース済み</td>
   </tr>
   <tr>
-   <td>ボードのコレクションを作成する</td>
+   <td>ワークストリームの作成とワークストリームへのボードの追加</td>
    <td>部分的にリリース済み</td>
   </tr>
   <tr>
    <td>反復を作成</td>
-   <td>予定</td>
+   <td>部分的にリリース済み（プレビューで使用可能）</td>
   </tr>
   <tr>
    <td>カードリストまたはバックログを定義</td>
-   <td>予定</td>
+   <td>部分的にリリース済み（プレビューで使用可能）</td>
   </tr>
   <tr>
    <td>サブタスクをチェックリスト項目としてカードに読み込む</td>

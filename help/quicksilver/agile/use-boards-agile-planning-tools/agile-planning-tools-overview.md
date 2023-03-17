@@ -7,18 +7,36 @@ description: アドホックカードと接続カードを使用してボード�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # アジャイル計画ツールの概要
 
-アドホックカードと接続カードを使用してボードを作成する場合、列 WIP 制限、スイムレーンへのカードのグループ化、バックログに使用できるインテーク列、ボードの集まりなど、追加のアジャイル計画ツールを活用できます。
+{{highlighted-preview}}
 
-これらのツールは、カンバンやスクラムなどの特定のアジャイルな手法にコミットすることなく、ユーザーやチームに適した方法で使用できます。
+アドホックカードと接続カードを使用してボードを作成する場合、追加のアジャイルプランニングツールを利用する必要が生じる場合があります。
+
+かんばんに役立つツールは次のとおりです。
+
+* 列の WIP 制限
+* カードをスイムレーンにグループ化
+* バックログに使用できる吸気列
+
+<div class="preview">
+
+スクラムに役立つツールは次のとおりです。
+
+* ワークストリームとイテレーションボード
+* カードリストまたはバックログ
+* 反復指標
+
+</div>
+
+特定のアジャイルな手法を使用することなく、お客様やチームに適した方法で、これらのツールのいずれかまたはすべてを使用できます。
 
 この節では、次の記事を扱います。
 
@@ -26,4 +44,7 @@ ht-degree: 0%
 * [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [ボードでのグループの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [カードのフォールオフを設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [反復を作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [反復指標の確認](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

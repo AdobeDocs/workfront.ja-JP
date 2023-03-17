@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '12763'
+source-wordcount: '12773'
 ht-degree: 1%
 
 ---
@@ -928,7 +928,10 @@ ht-degree: 1%
       * [ボードに吸気柱を追加する](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [ボードでのグループの使用](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [カードのフォールオフを設定](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [コレクションの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+      * [反復を作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [反復指標の確認](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * アジャイルチームのかんばん {#kanban}
       * [アジャイルチームのかんばん](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [かんばんの概要](agile/use-kanban-in-an-agile-team/kanban-overview.md)
