@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '12759'
+source-wordcount: '12763'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 1%
          * [23.2 アジャイルの強化](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
          * [23.2 プロジェクト管理の強化](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
          * [23.2 リソース管理の強化](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 レポートおよびダッシュボードの機能強化](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
          * [23.2 モバイル機能の強化](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
          * [23.2 その他の機能強化](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [23.2 リリース期間中のルックアンドフィールの更新](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -334,7 +335,7 @@ ht-degree: 1%
 * 管理と設定 {#administration-and-setup}
    * [管理と設定](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
-      * [はじめに](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
+      * [基本を学ぶ](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [実装の目標を定義](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [ライセンスを管理](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [基本の設定](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
@@ -2193,8 +2194,8 @@ ht-degree: 1%
       * [Analyplan 予算配分のAdobe Workfrontプロジェクトへの適用](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Adobe Workfrontキャンペーンリクエストからの Analyplan リスト項目の作成](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Adobe Workfrontキャンペーンリクエストまたはキャンペーンプロジェクトへの Analyplan 予算配分の適用](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront Proof {#workfront-proof}
-   * [Workfront Proof](workfront-proof/workfront-proof.md)
+* Workfront プルーフ {#workfront-proof}
+   * [Workfront プルーフ](workfront-proof/workfront-proof.md)
    * Workfront Proof の概要 {#get-started-wf-proof}
       * [Workfront Proof の概要](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * ワークフローの例 {#workflow-examples}

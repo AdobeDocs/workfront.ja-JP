@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 03908f6ebb5693e48b36f93150267e9986dc1069
+source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2376'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 * [アジャイルの強化](#agile-enhancements)
 * [プロジェクト管理の強化](#project-management-enhancements)
 * [リソース管理の強化](#resource-management-enhancements)
-* [レポートとダッシュボードの機能強化]
+* [レポートとダッシュボードの機能強化](#reports-and-dashboards-enhancements)
 * [モバイル機能の強化](#mobile-enhancements)
 * [その他の機能強化](#other-enhancements)
 
@@ -377,8 +377,8 @@ ht-degree: 0%
             </tbody>
         </table>
 
-<!--
-### Reports and Dashboards enhancements
+
+### レポートとダッシュボードの機能強化
 
 
 <table>
@@ -387,34 +387,32 @@ ht-degree: 0%
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">機能</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">リリース日</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">キャンバスダッシュボード</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>キャンバスダッシュボードが、レイアウトテンプレートで有効にできるダッシュボードの作業中の機能として追加されました。 キャンバスダッシュボードでは、新しいレイアウトオプションに加えて、レポートキャンバスのビジュアライゼーションを既存のレポートと組み合わせることができます。 現在、リストレポートのみがサポートされていますが、開発が続くにつれ、さらに多くのオプションが追加されます。</p>
                     </td>
-                    <td><p><b>Available on these dates: N/A</b></p>
+                    <td><p><b>次の日に利用可能：該当なし</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:<br /></p>
+                                <p>プレビューリリース：<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.2 release</span></p>
+                                <p><span class="preview">実稼動版リリース：23.2 リリースの場合</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-        -->
 
 ### モバイル機能の強化
 
