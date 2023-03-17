@@ -6,9 +6,9 @@ title: の初期の機能オプトイン [!DNL Adobe Workfront] ボード
 description: この記事で [!DNL Workfront Boards] 初期機能のオプトイン。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 8837a3ffe8378cf126d0663ea70b7366a9e5b4c5
+source-git-commit: 88d0ce017401e7767ceeff9abc7a65986a07f0b9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -151,6 +151,10 @@ ht-degree: 0%
   <tr>
    <td>接続されたカードでのログ時間</td>
    <td>部分的にリリース済み</td>
+  </tr>
+  <tr>
+   <td>接続されたカードへのカスタムフィールドの追加</td>
+   <td>部分的にリリース済み（プレビューで使用可能）</td>
   </tr>
  </tbody> 
 </table>
