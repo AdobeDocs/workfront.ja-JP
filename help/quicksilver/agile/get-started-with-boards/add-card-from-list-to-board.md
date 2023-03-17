@@ -5,18 +5,18 @@ title: Adobe Workfrontボードへの既存のタスクまたはイシューの�
 description: リスト表示またはレポート表示からAdobe Workfrontのボードに任意のタスクまたはイシューを追加できます。
 author: Lisa
 feature: Agile
-source-git-commit: e7cd8447ad257c9808de0b76762061343d004a4a
+source-git-commit: fd0b220801d26e10ad65ac7d6b8fa17bbeec629a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
 
-# 既存のタスクまたはタスクを [!DNL Adobe Workfront] ボード
+# 既存のタスクまたはタスクを [!DNL Adobe Workfront] ボードまたはワークストリーム
 
 {{highlighted-preview-article-level}}
 
-任意のタスクまたはイシューを [!DNL Adobe Workfront] を選択します。
+任意のタスクまたはイシューを、 [!DNL Adobe Workfront] を選択します。
 
 ## アクセス要件
 
@@ -52,11 +52,25 @@ ht-degree: 0%
 1. クリック [!UICONTROL **詳細**] > [!UICONTROL **ボードに追加**].
 1. 内 [!UICONTROL 追加先] ダイアログボックスで、項目を追加するボードを選択します。
 
-   スタンドアロンボードのみが利用可能で、コレクションの一部であるボードは利用できません。
+   このオプションではスタンドアロンボードのみを使用できます。ワークストリームの一部であるボードは使用できません。
 
 1. クリック [!UICONTROL **追加**].
 
    タスクまたはイシューがボードに追加されます。 ボードにステータス用の列ポリシーが適用されている場合、そのステータスに対応する列にカードが追加されます。 それ以外の場合は、左側の最初の列に表示され、取り込みカラムは含まれません。
+
+   列のポリシーについて詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+## 既存のタスクまたはタスクをワークストリームに追加
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront].
+1. 次のいずれかを選択します。 **[!UICONTROL プロジェクト]**, **[!UICONTROL レポート]**&#x200B;または **[!UICONTROL ダッシュボード]**.
+1. ワークストリームに追加するタスクまたはタスクが含まれるプロジェクト、レポート、またはダッシュボードに移動します。
+1. 1 つ以上のタスクまたはタスクを選択します。
+1. クリック [!UICONTROL **詳細**] > [!UICONTROL **ワークストリームに追加**].
+1. 内 [!UICONTROL 追加先] ダイアログボックスで、項目を追加するワークストリームを選択します。
+1. クリック [!UICONTROL **追加**].
+
+   タスクまたは問題は、ワークストリームのカードリストに、予期しないカードとして追加されます。
 
 ## タスクまたはイシューに関連するボードを表示
 
