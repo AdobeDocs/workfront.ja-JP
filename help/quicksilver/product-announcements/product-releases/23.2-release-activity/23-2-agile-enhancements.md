@@ -4,9 +4,9 @@ description: 23.2 アジャイルの強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -17,27 +17,24 @@ ht-degree: 0%
 
 23.2 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## Adobe Workfront Boards で利用可能なイテレーション機能
 
-## Iteration functionality available in Adobe Workfront Boards
+Workfront Boards で利用できるいくつかの新機能により、アジャイルスクラム機能を使用できます。 次の機能が含まれます。
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* 同じチームに関連するボードをグループ化し、作業で共同作業するためのワークストリーム
+* カードのリスト、または作業のバックログ。ソースを使用してWorkfrontのタスクと問題にカードを接続するオプションがあります。
+* 反復計画と反復処理のプロセスボード
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+コレクションの名前は、ワークストリームに変更されました。 ワークストリームは、様々な方法でデータを視覚化するのに役立ちます。 カード上の項目をリスト、ボード、または反復で表示できます。 ワークストリーム内のカードは、複数のボードで共有することもできます。 ワークストリーム内でカードやボードを使用すると、簡単にワークフローを容易に実行できます。
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+詳しくは、 [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [反復を作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)、および [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 2 つ目の 2 つの記事は、ブランチを公開するまで、Main で使用できません。
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## リストとレポートからワークストリームをボードに追加する
 
-## Add tasks and issues to Boards workstreams from lists and reports
+既存のタスクやイシューをWorkfrontボードのワークストリームにリスト表示やレポート表示から直接追加できるようになりました。 ワークストリームに追加する項目は、予定外のカードとしてカードリストに追加されます。
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+詳しくは、 [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## ボード上の接続されたカードのログ時間
 
@@ -50,6 +47,14 @@ For more information, see [Add existing tasks or issues to a board](/help/quicks
 デフォルトでは、接続されたカードにタイムログフィールドが表示されません。 有効にする必要があります **時間** をクリックします。
 
 詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## リストやレポートからWorkfrontボードにタスクやイシューを追加する
+
+既存のタスクやイシューをリスト表示やレポート表示から直接Workfrontボードに追加できるようになりました。 ボードに追加した項目は、すべて接続されたカードになります。
+
+また、タスクやタスクのリストやレポートに「ボード」フィールドを追加できるようになりました。 このフィールドには、タスクまたはイシューが追加されたすべてのボードが表示されます。
+
+詳しくは、 [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## カードでのフィールド表示のカスタマイズ
 

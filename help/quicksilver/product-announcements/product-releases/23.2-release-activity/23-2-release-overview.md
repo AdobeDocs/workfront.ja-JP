@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2571'
 ht-degree: 0%
 
 ---
@@ -114,44 +114,60 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-              <!-- <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Boards で利用可能なイテレーション機能</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>Workfront Boards で利用できるいくつかの新機能により、アジャイルスクラム機能を使用できます。 次の機能が含まれます。
+                        <ul>
+                        <li>同じチームに関連するボードをグループ化し、作業で共同作業するためのワークストリーム</li>
+                        <li>カードのリスト、または作業のバックログ。ソースを使用してWorkfrontのタスクと問題にカードを接続するオプションがあります。</li>
+                        <li>反復計画と反復処理のプロセスボード</li>
+                        </ul>
+                        </p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>プレビューリリース：2023 年 3 月 18 日<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>実稼動版リリース：23.2 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">リストとレポートからワークストリームをボードに追加する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>既存のタスクやイシューをWorkfrontボードのワークストリームにリスト表示やレポート表示から直接追加できるようになりました。 ワークストリームに追加する項目は、予定外のカードとしてカードリストに追加されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 3 月 18 日<br /></p>
+                            </li>
+                            <li>
+                                <p>実稼動版リリース：23.2 リリースの場合</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
-                        <ul>
-                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
-                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
-                        <li>Iteration planning and iteration process boards</li>
-                        </ul>
-                        </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボード上のカードへのカスタムフィールドの追加</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>Adobe Workfrontボードにカスタムフィールドを含めることができるようになりました。 フィールドは、既にWorkfrontで作成されている必要があります。 ボード内で新しいカスタムフィールドをデザインして作成することはできません。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 23, 2023<br /></p>
+                                <p>プレビューリリース：2023 年 3 月 18 日<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.2 release</p>
+                                <p>実稼動版リリース：23.2 リリースの場合</p>
                             </li>
                         </ul>
                     </td>
-                </tr> -->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">リストやレポートからWorkfrontボードにタスクやイシューを追加する</a></p>
