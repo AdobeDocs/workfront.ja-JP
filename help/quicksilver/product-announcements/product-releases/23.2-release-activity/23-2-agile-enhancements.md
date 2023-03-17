@@ -4,9 +4,9 @@ description: 23.2 アジャイルの強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Workfront Boards で利用できるいくつかの新機能により、アジャ
 
 詳しくは、 [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [反復を作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)、および [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 2 つ目の 2 つの記事は、ブランチを公開するまで、Main で使用できません。
 
-## リストとレポートからワークストリームをボードに追加する
+## リストとレポートからワークストリームカードリストにタスクとイシューを追加する
 
 既存のタスクやイシューをWorkfrontボードのワークストリームにリスト表示やレポート表示から直接追加できるようになりました。 ワークストリームに追加する項目は、予定外のカードとしてカードリストに追加されます。
+
+詳しくは、 [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## ボード上のカードへのカスタムフィールドの追加
+
+Adobe Workfrontボードにカスタムフィールドを含めることができるようになりました。 フィールドは、既にWorkfrontで作成されている必要があります。 ボード内で新しいカスタムフィールドをデザインして作成することはできません。
+
+デフォルトのフィールドと同様に、カードのフルビューにカスタムフィールドを表示し、ボードに縮小表示を表示するように選択できます。
+
+カード上のカスタムフィールドのデータはすべて読み取り専用です。
+
+詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## リストとレポートからWorkfrontボードへのタスクとイシューの追加
+
+既存のタスクやイシューをリスト表示やレポート表示から直接Workfrontボードに追加できるようになりました。 ボードに追加した項目は、すべて接続されたカードになります。
+
+また、タスクやタスクのリストやレポートに「ボード」フィールドを追加できるようになりました。 このフィールドには、タスクまたはイシューが追加されたすべてのボードが表示されます。
 
 詳しくは、 [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Workfront Boards で利用できるいくつかの新機能により、アジャ
 
 詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## リストやレポートからWorkfrontボードにタスクやイシューを追加する
-
-既存のタスクやイシューをリスト表示やレポート表示から直接Workfrontボードに追加できるようになりました。 ボードに追加した項目は、すべて接続されたカードになります。
-
-また、タスクやタスクのリストやレポートに「ボード」フィールドを追加できるようになりました。 このフィールドには、タスクまたはイシューが追加されたすべてのボードが表示されます。
-
-詳しくは、 [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## カードでのフィールド表示のカスタマイズ
 

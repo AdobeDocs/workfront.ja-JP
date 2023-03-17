@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">リストとレポートからワークストリームをボードに追加する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">リストとレポートからワークストリームカードリストにタスクとイシューを追加する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
                         <p>既存のタスクやイシューをWorkfrontボードのワークストリームにリスト表示やレポート表示から直接追加できるようになりました。 ワークストリームに追加する項目は、予定外のカードとしてカードリストに追加されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -170,7 +170,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">リストやレポートからWorkfrontボードにタスクやイシューを追加する</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">リストとレポートからWorkfrontボードへのタスクとイシューの追加</a></p>
                         <p>既存のタスクやイシューをリスト表示やレポート表示から直接Workfrontボードに追加できるようになりました。 ボードに追加した項目は、すべて接続されたカードになります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
