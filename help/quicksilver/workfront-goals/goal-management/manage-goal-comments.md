@@ -6,7 +6,7 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Adobe Workfront目標で目標コメントを管理
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Adobe Workfront目標で表示できるすべての目標にコメントを追加できます。
 
@@ -206,7 +208,28 @@ You can edit or delete a comment that you entered in this area, or you can like 
    >コメントを入力して送信する前に「更新」セクションから移動すると、ログオフしてログオンし直した後でも、ページ上のコメントがドラフトモードのままになります。 下書きのコメントは、ユーザーが入力した場合にのみ表示されます。
 
 1. （オプション） **担当者またはチームのタグ付け** 領域に入力し、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
+
+<!--drafted for beta release 23.2:
+1. <span class="preview">(Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. </span>
+1. <span class="preview">Edit the information in the comment, or remove any of the tagged users. </span>
+   <span class="preview">You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.</span> 
+
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+
+   >[!TIP]
+   >
+   >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
+-->
 1. クリック **送信**.
+
+<!--drafted for 23.2 beta release: 
+
+   >[!TIP]
+   >
+   >   <span class="preview">If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. </span>
+   >
+   > ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 5～7 に従います。 <!--insure this stays accurate-->
 1. （オプション） **次に類似** アイコン![](assets/like-icon.png) 他の誰かが追加したコメントが気に入った。 アイコンは「いいね！」の数に応じて更新されます。
 1. （オプション）リッチテキストの書式設定を更新に追加するには、入力時にリッチテキストツールバーの任意の属性を使用します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

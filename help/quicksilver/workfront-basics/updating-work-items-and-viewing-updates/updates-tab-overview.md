@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 「更新」タブの概要
-description: 「更新」タブには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
+title: アップデートセクションの概要
+description: 「更新」セクションには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 6%
 
 ---
 
-# 「更新」タブの概要
+# アップデートセクションの概要
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-「更新」タブには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-次のオブジェクトに対してコメントを付けたり、更新に返信したりできます。
+-->
+
+オブジェクトの「更新」(Updates) セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更を追跡するシステム更新が表示されます。
+
+## アップデートセクションの概要
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+オブジェクトの「更新」セクションには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+「更新」セクションには、次の情報が表示されます。
+
+* ユーザーが行ったコメントと、そのコメントへの返信。
+* 特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージです。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+次のオブジェクトの「更新」セクションが表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ ht-degree: 7%
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## 上位のオブジェクトにも表示される更新
 
-次の表に示すように、特定のオブジェクトに対して更新を行った返信も、上位のオブジェクトの [ 更新 ] タブに表示されます。
+次の表に示すように、特定のオブジェクトに対して更新を行った返信も、上位のオブジェクトの [ 更新 ] セクションに表示されます。
 
-たとえば、タスクに更新を追加すると、更新がタスクの [ 更新 ] タブと、タスクを含むプロジェクトの [ 更新 ] タブに表示されます。
+たとえば、タスクに更新を追加すると、更新がタスクの [ 更新 ] セクションと、タスクを含むプロジェクトの [ 更新 ] セクションに表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ ht-degree: 7%
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## 「更新」タブの制限事項
+## 更新の節の制限
 
 ### ユーザーおよびチームの制限
 
-チームを更新することはできません。 チームの「更新」タブには、次のオブジェクトに入力された更新が入力されます。
+チームを更新することはできません。 チームの「更新」セクションには、次のオブジェクトに入力された更新が入力されます。
 
 * ユーザー
 * タイムシート
 * ストーリー
 * 反復
 
-ユーザーおよびチームの「更新」タブでは、過去 90 日間に入力された更新を表示できます。
+ユーザーおよびチームの「更新」セクションでは、過去 90 日間に入力された更新を表示できます。
 
 ユーザーまたはチームに対しておこなわれたすべての更新を 90 日の制限を超えて確認する場合は、メモに関するレポートを作成できます。 ユーザーまたはチームが行った更新をすべて表示する時間フィルターをレポートに含めないでください。 詳しくは、 [カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

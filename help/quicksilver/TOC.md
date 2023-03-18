@@ -2,7 +2,7 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: 9582a06327901300d2473c1847ddaf46d88ad35e
 workflow-type: tm+mt
 source-wordcount: '12773'
 ht-degree: 1%
@@ -784,7 +784,7 @@ ht-degree: 1%
          * [マイアップデート領域を使用](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * 作業項目を更新し、更新を表示 {#update-work-items-view-updates}
       * [作業項目を更新し、更新を表示](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
-      * [「更新」タブの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+      * [アップデートセクションの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [作業を更新](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [フィールドの文字制限](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
       * [更新情報に返信](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
