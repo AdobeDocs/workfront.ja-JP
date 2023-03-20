@@ -4,9 +4,9 @@ description: 23.2 その他の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Adobe Workfrontのコメントエクスペリエンスのアップデートは�
 今後のリリースでは、これらの機能が引き続き他のオブジェクトに追加されるので、さらに機能が追加される予定です。
 
 新しいコメントエクスペリエンスのオファーについて詳しくは、 [統合されたコメント機能](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Adobe Workfront for XDで、1 つのPDFまたは複数のPDFファイルとしてアートボードを書き出す
 
