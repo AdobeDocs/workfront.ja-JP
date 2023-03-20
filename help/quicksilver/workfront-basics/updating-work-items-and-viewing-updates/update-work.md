@@ -3,32 +3,31 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 作業を更新
 description: Adobe Workfrontオブジェクト（プロジェクト、タスクまたはイシュー）に更新を追加して、オブジェクトの進行状況を伝えることができます。 オブジェクトを割り当てられた、またはサブスクライブしたユーザーは、更新を表示できます。 また、ユーザーにタグを付けて、更新に注意を向けることもできます。
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2690'
 ht-degree: 1%
 
 ---
 
 # 作業を更新
 
-<!-- Drafted for commenting experience: 
-
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 >[!NOTE]
 >
->We are currently redesigning the way you update work when using the Updates section of an object. 
->You can access the new design by enabling the commenting Beta. 
->Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>現在、オブジェクトの「更新」セクションを使用する際の作業の更新方法を再設計中です。
+>
+>新しいデザインにアクセスするには、コメントベータ版を有効にします。
+>
+>現在、ベータ版は <span class="preview">問題</span>.
+>
+>新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 「更新」セクションのAdobe Workfrontのほとんどのオブジェクトにコメントを追加できます。 更新セクションを表示するオブジェクトの詳細については、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -111,17 +110,15 @@ drafted for P&P release:
 
 ## 作業項目に更新を追加する
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects
+<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
 
-Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
+作業項目に更新を追加する方法は、[ 更新 ] セクションのバージョンと選択したオブジェクトによって異なります。
 
-### Add an update to a work item in the current Updates section
+### 現在の更新セクションの作業項目に更新を追加する
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
-
--->
+>次の機能は、目標を除くすべてのオブジェクトで使用できます。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 1. 更新を行う作業項目（プロジェクト、タスク、タスクなど）に移動します。
 1. 次をクリック： **更新** 」セクションに入力します。
@@ -135,7 +132,7 @@ Adding an update to a work item differs depending on what version of the Updates
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>通知 </strong></td> 
-      <td>更新の通知が必要なユーザーを特定します。 オブジェクトに割り当てられた、またはサブスクライブされたユーザーは、更新がおこなわれると、自動的に通知を受け取ります。<br><p>更新に他のユーザーを含める方法について詳しくは、 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新時の他のユーザーへのタグ付け</a>.</p></td> 
+      <td>更新の通知を受け取る必要があるユーザーを特定します。 オブジェクトに割り当てられた、またはサブスクライブされたユーザーは、更新がおこなわれると、自動的に通知を受け取ります。<br><p>更新に他のユーザーを含める方法について詳しくは、 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新時の他のユーザーへのタグ付け</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>コミット日</strong></td> 
@@ -147,7 +144,7 @@ Adding an update to a work item differs depending on what version of the Updates
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ステータス</strong></td> 
-      <td>現在のステータスの横にある矢印をクリックし、ドロップダウンメニューから目的のステータスを選択します。 ステータスの設定について詳しくは、 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">タスクステータスを更新</a>.<p>作業項目のステータスを更新しても、プロジェクトのステータスは自動的には変更されません。 プロジェクトの設定に応じて、プロジェクトのステータスを個別に更新する必要が生じる場合があります。 様々なプロジェクト更新タイプの詳細については、 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクトの更新タイプを選択 </a>.</p><p><b>メモ</b>
+      <td>現在のステータスの横にある矢印をクリックし、ドロップダウンメニューから目的のステータスを選択します。 ステータスの設定について詳しくは、 <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">タスクステータスを更新</a>.<p>作業項目のステータスを更新しても、プロジェクトのステータスは自動的には変更されません。 プロジェクトの設定に応じて、プロジェクトのステータスを個別に更新する必要があります。 様々なプロジェクト更新タイプの詳細については、 <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクトの更新タイプを選択 </a>.</p><p><b>メモ</b>
 
    作業項目のステータスが「承認待ち」の場合は、ステータスを変更できません。</p></td>
    </tr> 
@@ -175,94 +172,91 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. 更新に返信するには、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<!--
-
-### Add an update to a work item using the commenting Beta experience
+### コメントベータ版エクスペリエンスを使用して作業項目の更新を追加する
 
 
 >[!NOTE]
 >
->The functionality described in this section is available for the following objects:
+>この節で説明する機能は、次のオブジェクトで使用できます。
 >
->* <span class="preview">Issues, when you enable the commenting Beta experience.</span>
->
->   <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
->
->   * <span class="preview">Home</span>
->   * <span class="preview">Summary panel in lists</span>
->   * <span class="preview">Summary panel in timesheets</span>
->* Goals
->
->   The commenting experience Beta is the default current experience for goals.
->   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>* <span class="preview">コメント機能のベータ版を有効にした場合の問題。</span>
+   >
+   >   <span class="preview">この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。</span>
+   >
+   >   * <span class="preview">ホーム</span>
+   >   * <span class="preview">リストの概要パネル</span>
+   >   * <span class="preview">タイムシートの概要パネル</span>
+>* 目標
+
+   >
+   >   新しいコメントエクスペリエンスは、目標のデフォルトの現在のエクスペリエンスです。
+   >   Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-1. Locate the object you want to update, then click its name to open the object's page.
-1. Click  **Updates** in the left panel. 
-1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
-   The **Comments** tab is selected by default. 
-1. Start entering a comment in the **New comment** box. 
-   
+
+1. 更新するオブジェクトを探し、その名前をクリックしてオブジェクトのページを開きます。
+1. クリック  **更新** をクリックします。
+1. <span class="preview">クリック **コメントベータ版を試す** ボタンをクリックし、 **同意する** （ベータ版使用許諾契約） これにより、「更新」領域が「コメントベータ版」のエクスペリエンスに切り替わります。 </span>
+この 
+**コメント** 「 」タブがデフォルトで選択されています。
+1. でコメントの入力を開始 **新しいコメント** ボックス
+
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
+   >コメントを入力して送信する前に「更新」セクションから移動すると、ログオフしてログオンし直した後でも、ページ上のコメントがドラフトモードのままになります。 下書きのコメントは、ユーザーが入力した場合にのみ表示されます。
 
-1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
+1. （オプション） **担当者またはチームのタグ付け** 領域に入力し、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
+1. （オプション）リッチテキスト書式を更新に追加するには、 **リッチテキスト** ツールバーを使用してテキストを拡張します。
 
-   * Bold
-   * Italics
-   * Underline
-   * Link
-   * Bulleted List
-   * Numbered List
-   * Add attachment (mark this parenthesis as draft: ************ this might be renamed)
-   
-   For more information, see the "Use Rich Text in a Workfront update" section in this article.
+   * 太字
+   * 斜体
+   * 下線
+   * リンク
+   * 箇条書き
+   * 番号付きリスト
+   * 添付ファイルを追加 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   >[!TIP]
-   >
-   >   If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-   >
-   > ![](assets/real-time-new-red-indicator-unified-commenting.png)
+   詳しくは、この記事の「Workfrontの更新でのリッチテキストの使用」の節を参照してください。 <!--remove this list, above, when we get to parity for Rich Text-->
 
+   <!--not available yet in preview - should be live with production: format this as a TIP: 
+      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
+      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
-
-1. Click **Submit** to add the update to the Workfront object. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. 
-1. Edit the information in the comment, or remove any of the tagged users. 
-   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+1. クリック **送信** をクリックして、Workfrontオブジェクトに更新を追加します。
+1. （オプション）コメントを編集するには、 **詳細** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
+1. コメント内の情報を編集したり、タグ付きユーザーを削除したりします。
+コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********). For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
-1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
-1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
+   >   元の更新を送信した場合にのみ、ユーザーに更新を通知する電子メールが生成されます。 更新を編集した後は、電子メールは生成されません。
+1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 4～7 に従います。 <!--(**************insure this stays accurate***********)-->. 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （オプション） **次に類似** アイコン![](assets/like-icon.png). アイコンは「いいね！」の数に応じて更新されます。
+1. （条件付きおよびオプション）コメントに追加の担当者を含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているエンティティのリストを表示します。
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
+1. （オプション） **システムアクティビティ** タブをクリックして、システムによって記録された更新を表示します。 オブジェクトまたはその子オブジェクトが更新されると、Workfrontはその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。
 
-   For more information see [Updates section  overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   詳しくは、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
    >[!TIP]
    >
-   >You cannot add a comment to a system update.
--->
+   >システム更新にコメントを追加することはできません。
 
 
 ## Workfrontの更新でのリッチテキストの使用
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.
+<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Some of the options in the Rich Text toolbar are not available for the commenting Beta experience.-->
-
+>リッチテキストツールバーの一部のオプションは、コメントベータ版のエクスペリエンスでは使用できない場合があります。
 
 リッチテキストを使用したり、絵文字、リンク、画像などの様々な項目を追加したりして、更新内容を強化できます。
 
@@ -326,17 +320,16 @@ Adding an update to a work item differs depending on what version of the Updates
    >* 画像は、オブジェクトの「更新」タブからのみアクセスでき、「ドキュメント」タブでは使用できません。
    >* 画像とテキストを含まない更新を送信できます。
 
-1. クリック **更新**  <!--<span class="preview">or **Submit**</span>, in the commenting Beta experience-->.
+1. クリック **更新**  <span class="preview">または **送信**</span>（コメントベータ版エクスペリエンス）
 
 
 ## 更新情報をコピー
 
-<!--drafted for beta release toggle - remove when copying an update will be available: 
+<!--drafted for beta release toggle - remove when copying an update will be available:-->
 
 >[!NOTE]
 >
->Copying an update is not possible when using the Beta commenting experience.
--->
+>ベータ版のコメント機能を使用している場合、更新をコピーすることはできません。
 
 更新をコピーする方法はいくつかあります。 リンクをコピーした後、他のユーザーとリンクを共有して、更新に導くことができます。
 
@@ -382,7 +375,7 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 表示されるメッセージで、 **確認** <!--<span class="preview">or **Delete**</span>, in the commenting Beta experience-->.
+1. 表示されるメッセージで、 **確認** <span class="preview">または **削除**</span>（コメントベータ版エクスペリエンス）
 
 >[!NOTE]
 >
@@ -409,16 +402,16 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
 ## システム更新を有効または無効にする
 
-<!--remove preview with 23.2 production: 
+<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-<div class="preview">
+
+
 >[!NOTE]
 >
->It is not possible to disable system updates when using the Beta commenting experience. 
->The information in this section refers only to functionality available in the current Updtes section. 
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 
-</div>
--->
+><span class="preview">ベータ版のコメント機能を使用する際に、システムの更新を無効にすることはできません。 </span>
+><span class="preview">この節の情報は、現在の「更新」節で利用できる機能のみを示しています。 </span>
+><span class="preview">ベータ版のシステム更新の詳細については、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+
 
 Workfrontオブジェクトの「更新」セクションには、次の 2 種類の情報が表示されます。
 

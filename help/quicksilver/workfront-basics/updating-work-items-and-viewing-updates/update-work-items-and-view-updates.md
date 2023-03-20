@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: get-started-with-workfront
 title: 作業項目を更新し、更新を表示
 description: ほとんどのオブジェクトの「更新」セクションを使用して、コメントや返信を追加したり、オブジェクト上で行われた変更に関するシステム追跡の更新に従ったりできます。
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%

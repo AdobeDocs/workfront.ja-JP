@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: アップデートセクションの概要
-description: 「更新」セクションには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
-author: Lisa and Alina
+description: オブジェクトの「更新」(Updates) セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更を追跡するシステム更新が表示されます。
+author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 6%
+source-wordcount: '890'
+ht-degree: 4%
 
 ---
 
@@ -18,35 +18,29 @@ ht-degree: 6%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 >[!NOTE]
 >
->We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
-Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>現在、オブジェクトの「更新」セクションを再設計中です。 新しいデザインにアクセスするには、コメントベータ版を有効にします。
+>
+>現在、ベータ版は <span class="preview">問題</span>.
+>
+>新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 オブジェクトの「更新」(Updates) セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更を追跡するシステム更新が表示されます。
 
 ## アップデートセクションの概要
 
-<!--drafted for the commenting beta for issues: 
-The information is organized differently in the Updates section, depending on which environment you access it from. 
+「更新」セクションの情報は、アクセス元の環境に応じて異なります。
 
-###  Overview of the current Updates section 
--->
+### 現在の更新の節の概要
 
 オブジェクトの「更新」セクションには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
 
-<!--drafted for the commenting beta for issues: 
-The current Updates section shows the following information:
+![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
--->
-
-「更新」セクションには、次の情報が表示されます。
+現在の更新のセクションには、次の情報が表示されます。
 
 * ユーザーが行ったコメントと、そのコメントへの返信。
 * 特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージです。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
@@ -63,7 +57,7 @@ The current Updates section shows the following information:
      <li>ドキュメント</li> 
      <li>目標</li> 
      <li>問題</li> 
-     <li>反復</li> 
+     <li>イテレーション</li> 
      <li>プロジェクト</li> 
      <li>プログラム</li> 
      <li>ポートフォリオ</li> 
@@ -81,15 +75,16 @@ The current Updates section shows the following information:
  </tbody> 
 </table>
 
-<!--drafted for the commenting beta for issues: 
-###  Overview of the Updates section in the Beta commenting experience
+### ベータコメントエクスペリエンスの更新の節の概要
 
-The Updates section displays information in the following tabs in the Beta commenting experience: 
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Updates**: Displays comments made by users and replies to those comments. 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+「更新」セクションには、ベータ版のコメントエクスペリエンスの次のタブに情報が表示されます。
 
-Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+* **更新**:ユーザーが行ったコメントと、それらのコメントに対する返信を表示します。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
+* **システムアクティビティ**:特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージであるシステム更新を表示します。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+現在、以下のオブジェクトに対するベータ版のコメント機能を使用して、コメントを入力したり、更新に返信したりできます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,11 +93,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   <tr> 
    <td> 
     <ul> 
-     <li>Goals</li> 
+     <li>目標</li> 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Issues</span></li> 
+     <li><span class="preview">問題</span></li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -110,8 +105,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 
 >[!NOTE]
 >
->The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+>コメントエクスペリエンスベータ版は、目標に関するデフォルトの現在のエクスペリエンスです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。
+>
+>詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## 上位のオブジェクトにも表示される更新
 
@@ -182,11 +180,12 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 >システム更新に追加された返信は、親オブジェクトにロールアップされません。 子オブジェクトに対する直接応答と、既存の更新に追加された返信のみが、親オブジェクトにロールアップされます。
 >
 >Adobe Workfrontのオブジェクト階層について詳しくは、 [Adobe Workfrontのオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
-><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
+>
+><span class="preview"> 新しいコメントベータ版エクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
 
 ## 更新の節の制限
+
+チームの「更新」セクションでは、他のユーザーに代わって更新を入力する場合の制限事項がいくつかあります。
 
 ### ユーザーおよびチームの制限
 
@@ -195,7 +194,7 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 * ユーザー
 * タイムシート
 * ストーリー
-* 反復
+* イテレーション
 
 ユーザーおよびチームの「更新」セクションでは、過去 90 日間に入力された更新を表示できます。
 

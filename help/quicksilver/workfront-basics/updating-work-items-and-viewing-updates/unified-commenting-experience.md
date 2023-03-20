@@ -3,11 +3,11 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Unified Commenting Experience
 description: 新しい Unified Commenting Experience は次のようになります
-author: Nolan
+author: Alina
 feature: Get Started with Workfront
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '552'
 ht-degree: 1%
 
 ---
@@ -15,108 +15,65 @@ ht-degree: 1%
 
 # 新しいコメントエクスペリエンス
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、および選択したオブジェクトの更新セクションのパフォーマンスの向上が含まれます。
 
-<!--drafted for commenting experience on issues: 
-
->[!NOTE]
->
->The new commenting experience is only available for the Updates section of select objects. 
->
->For information about what objects include the Updates section, see [Updates section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
->The new commenting experience is not available for other areas of Workfront that display updates. For example, the new experience is not availabe for the following areas:
->
->* Home
->* Summary panel in a list
->* Summary panel in a timesheet
->
-
--->
-
-現在、Adobeの Workfont 目標でのみ実装されていますが、この新しいエクスペリエンスは、Workfrontの「更新」セクションを持つすべてのオブジェクトで徐々に使用できるようになり、後で他のAdobe Experience Cloudアプリケーションにも拡張されます。
-
-<!--when we release to Preview for issues with a toggle, we need to remove the last sentence above and replace it with this: 
-
-The new commenting experience is currently supported for the following objects in Workfront:
-
-By default, in the Preview and Production environments for all customers: 
-
-* Goals
-
-    >[!NOTE]
-    >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
-
-
-<div class="preview">
-
-By enabling the Beta version in the Updates section, in the Preview environment: 
-
-* Issues
-
-    For more information about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-</div>
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
--->
+Workfrontの「更新」セクションを含むすべてのオブジェクトで、新しいコメントエクスペリエンスの利用が徐々に可能になり、後で他のAdobe Experience Cloudアプリケーションにも拡張されます。
 
 ## 機能
 
 新しいコメントエクスペリエンスには、既存の更新ストリームの改善と変更が含まれます。
 
+<!-- Previous content here - replaced with the table below: 
+
 >[!IMPORTANT]
->以下に示す統合コメントエクスペリエンスの機能は、現在、Adobe Workfront目標でのみ使用できます。
+>The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
 
-* **コメントの作成**
+* **Creating comments**
 
-   新しいコメントを作成し、リッチテキストで書式設定し、他のユーザーに通知するタグを付けることができます。 コメントの作成について詳しくは、 [目標のコメントを管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-* **コメントへの回答**
+* **Responding to comments**
 
-   コメントに対して「いいね！」を付けたり、新しいコメントをスレッド内で返信したりして、元のコメントとオブジェクトの所有者に通知できます。
+    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
 
-* **システムアクティビティ**
+* **System Activity**
+    
+    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-   オブジェクトに対してシステムが生成した更新が、更新タブで行ったコメントとは別に表示されるようになりました。 システムアクティビティストリームの表示の詳細については、次のステップ 11 を参照してください： [目標のコメントを管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+-->
 
-<!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
+新しいコメント作成機能に含まれる改善点の一つは次のとおりです。
 
-Among the improvements included in the new commenting experience are the following:
+* パフォーマンスとユーザーエクスペリエンスの向上
+* システムアクティビティからのユーザーコメントの分離が更新されました。 システムの更新方法に変更はありません。
+* オブジェクトに新しいコメントが追加されたときのリアルタイムインジケーター
+* 送信後のコメントの編集。
 
-* Improved performance and user experience
-* Separation of user comments from the system activity. There are no changes in the way the system updates function. 
-* Real-time updates
-* Edit comments after submitting them. 
+次の機能が新しいエクスペリエンスから削除されました。
 
-The following features have been removed from the new experience:
+* システム更新に対するコメント。
 
-* Comment on a system update
-
-The following table illustrates the features that will be available in the new commenting experience as well as their availability now in areas where they are supported: 
+次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
 
 <table>
   <tr>
-   <td><strong>Feature </strong>
+   <td><strong>機能 </strong>
    </td>
-   <td><strong>Exists in old commenting experience </strong>
+   <td><strong>以前のコメントエクスペリエンスに存在 </strong>
    </td>
-   <td><strong>Exists in Beta version of the new commenting experience </strong>
+   <td><strong>ベータ版の新しいコメントエクスペリエンスに存在します </strong>
    </td>
-   <td><strong>Will be introduced in the new commenting experience </strong>
+   <td><strong>新しいコメントエクスペリエンスで導入されます </strong>
    </td>
-   <td><strong>When will be introduced in the new commenting experience </strong>
+   <td><strong>新しいコメントエクスペリエンスで導入されるタイミング </strong>
    </td>
-   <td><strong>In research </strong>
+   <td><strong>調査中 </strong>
    </td>
   </tr>
   <tr>
-   <td>Create/read/reply/delete comments 
+   <td>コメントの作成/読み取り/返信/削除 
    </td>
    <td>✓ 
   </td>
@@ -130,11 +87,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Rich text (exludes quoting and emojis)
+   <td>リッチテキスト（引用符と絵文字を除く）
    </td>
    <td>✓ 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span> 
    </td>
    <td> 
    </td>
@@ -145,7 +102,7 @@ The following table illustrates the features that will be available in the new c
   </tr>
   <tr>
  <tr>
-   <td>Rich text (quoting and emojis)
+   <td>リッチテキスト（引用符と絵文字）
    </td>
    <td>✓ 
    </td>
@@ -153,14 +110,14 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> Q2, 2023
+   <td> 2023 年第 2 四半期
    </td>
    <td> 
    </td>
   </tr>
   <tr>
 
-   <td>React to comments (Like) 
+<td>コメントに反応（「いいね！」） 
    </td>
    <td>✓ 
    </td>
@@ -174,7 +131,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Attach images to comments 
+   <td>コメントに画像を添付 
    </td>
    <td>✓ 
    </td>
@@ -188,7 +145,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Tag people in comments 
+   <td>コメント内の担当者のタグ付け 
    </td>
    <td>✓ 
    </td>
@@ -202,25 +159,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Remove people from the thread 
+   <td>スレッドから担当者を削除 
    </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Comments that are private to a company 
-   </td>
-   <td>✓ 
-   </td>
-   <td>✓ 
+   <td><span class="preview">✓ </span>
    </td>
    <td> 
    </td>
@@ -230,49 +173,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Undo posting of a comment 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with edit comment 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Turn off system updates 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Replaced with Activity tab 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Edit comments 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Saving comment drafts when navigating away from the page 
+   <td>会社の非公開のコメント 
    </td>
    <td>✓ 
    </td>
@@ -286,7 +187,63 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>See new comments in real time 
+   <td>コメントの投稿を取り消します 
+   </td>
+   <td>✓ 
+   </td>
+   <td><span class="preview">編集コメントに置き換え </span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>システムの更新をオフにする 
+   </td>
+   <td>✓ 
+   </td>
+   <td>「アクティビティ」タブに置き換え 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>コメントを編集 
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>ページから移動する際のコメントのドラフトの保存 
+   </td>
+   <td>✓ 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>新しいコメントをリアルタイムで表示 
    </td>
    <td> 
    </td>
@@ -300,7 +257,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Log time 
+   <td>ログ時間 
    </td>
    <td>✓ 
    </td>
@@ -314,7 +271,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Edit custom form 
+   <td>カスタムフォームを編集 
    </td>
    <td>✓ 
    </td>
@@ -328,7 +285,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Ability to edit status, condition, commit date while commenting 
+   <td>コメント中にステータス、条件、コミット日を編集可能 
    </td>
    <td>✓ 
    </td>
@@ -342,7 +299,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Copy thread link 
+   <td>スレッド リンクをコピー 
    </td>
    <td>✓ 
    </td>
@@ -350,13 +307,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023 年第 2 四半期 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy comment link 
+   <td>コメントリンクをコピー 
    </td>
    <td>✓ 
    </td>
@@ -364,13 +321,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023 年第 2 四半期 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Quote comment text 
+   <td>コメントテキストを引用 
    </td>
    <td>✓ 
    </td>
@@ -378,13 +335,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023 年第 2 四半期 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Copy body text 
+   <td>本文をコピー 
    </td>
    <td>✓ 
    </td>
@@ -392,13 +349,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q2, 2023 
+   <td>2023 年第 2 四半期 
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>Resolve comments 
+   <td>コメントを解決 
    </td>
    <td> 
    </td>
@@ -406,13 +363,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>2023 年第 3 四半期 
    </td>
    <td>✓ 
    </td>
   </tr>
   <tr>
-   <td>Search in comments 
+   <td>コメント内の検索 
    </td>
    <td> 
    </td>
@@ -420,7 +377,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Q3, 2023 
+   <td>2023 年第 3 四半期 
    </td>
    <td>✓ 
    </td>
@@ -428,29 +385,42 @@ The following table illustrates the features that will be available in the new c
 </table>
 
 
-## Locate the new commenting experience
+## 新しいコメントエクスペリエンスを見つける
 
-The new commenting experience is the default experience for Workfront goals. 
+次のバージョンの「更新」セクションを表示する場合、新しいコメントエクスペリエンスは、現在、次のオブジェクトでサポートされています。
 
-<div span="preview">
-For all other objects that have an Updates section, you can enable the new commenting experience by opting in to the Beta program. The Beta option will be available, gradually, for all objects that have an Updates section. 
-</div>
+* 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
+   <div class="preview">
 
-Currently, the new experience is available for the following objects:
+   * 問題.
+   Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* Goals. The new exprience is already the default experience for Goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
-* <span class="preview">Issues</span>
+   </div>
+
+* デフォルトでは、メインのコメントエクスペリエンスとして次のようになります。
+
+   * 目標
+   >[!NOTE]
+   >
+   >Workfrontのこの領域にアクセスするには、 Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   目標の更新の管理について詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 <div class="preview">
-To enable the new commenting exprience Beta: 
 
-1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
-1. Click **Try out the Commenting Beta** in the lower-right corner of the Updates area. 
-1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
-1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens. 
-1. Click the  **System Activity** tab to view the activity updates generated by Workfront. 
-    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+新しい Commenting Exprience Beta を有効にするには：
+
+1. 新しいコメントエクスペリエンスを有効にするオブジェクトに移動し、 **更新** をクリックします。
+1. クリック **Commenting Beta を試す** をクリックします。
+1. クリック **同意する** （ベータ版使用許諾契約）をクリックします。 これにより、選択したオブジェクトの新しいコメント式が有効になります。
+1. 更新の入力を開始するには、 **コメント** タブをクリックします。 新しいエクスペリエンスを開く際、「コメント」タブがデフォルトのタブになるようにしてください
+
+   または
+
+   次をクリック：  **システムアクティビティ** 」タブに移動して、Workfrontが生成したアクティビティの更新を表示します。
+
+   新しいコメントエクスペリエンスでオブジェクトを更新する方法について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
 
 </div>
--->
