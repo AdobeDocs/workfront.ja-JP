@@ -6,7 +6,7 @@ description: 作業項目を正しいユーザーにドラッグ&ドロップす
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リソースエリアのワークロードバランサーで作業を割り当てる計画</p>
+   <td> <p>リソース領域のワークロードバランサーで作業を割り当てる計画</p>
    <p>チームまたはプロジェクトのワークロードバランサーで作業を割り当てる作業</p>
  </td> 
   </tr> 

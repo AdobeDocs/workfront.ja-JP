@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2674'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->現在、オブジェクトの「更新」セクションを使用する際の作業の更新方法を再設計中です。
->
->新しいデザインにアクセスするには、コメントベータ版を有効にします。
->
->現在、ベータ版は <span class="preview">問題</span>.
->
+>現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
 >新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>次のオブジェクトの新しいデザインにアクセスできます。
+> * <span class="preview">コメントベータ版を有効にする際の問題。 </span>
+   >
+   >     <span class="preview">この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。</span>
+   >
+   >     * <span class="preview">ホーム</span>
+   >     * <span class="preview">リストの概要パネル</span>
+   >     * <span class="preview">タイムシートの概要パネル</span>
+>
+> * 目標
+   >   新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 「更新」セクションのAdobe Workfrontのほとんどのオブジェクトにコメントを追加できます。 更新セクションを表示するオブジェクトの詳細については、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ drafted for P&P release:
 1. 更新に返信するには、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### コメントベータ版エクスペリエンスを使用して作業項目の更新を追加する
-
-
->[!NOTE]
->
->この節で説明する機能は、次のオブジェクトで使用できます。
->
->* <span class="preview">コメント機能のベータ版を有効にした場合の問題。</span>
-   >
-   >   <span class="preview">この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。</span>
-   >
-   >   * <span class="preview">ホーム</span>
-   >   * <span class="preview">リストの概要パネル</span>
-   >   * <span class="preview">タイムシートの概要パネル</span>
->* 目標
-
-   >
-   >   新しいコメントエクスペリエンスは、目標のデフォルトの現在のエクスペリエンスです。
-   >   Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. 更新するオブジェクトを探し、その名前をクリックしてオブジェクトのページを開きます。
 1. クリック  **更新** をクリックします。
