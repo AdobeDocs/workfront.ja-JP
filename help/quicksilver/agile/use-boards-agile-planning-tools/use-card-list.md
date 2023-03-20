@@ -6,9 +6,9 @@ title: カードリストを使用
 description: ワークストリーム上にカードリストを作成し、カードを繰り返しに追加できます。
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->カードを追加する前に、イテレーションを作成する必要があります。 詳しくは、 [反復を作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>カードを追加する前に、イテレーションを作成する必要があります。 詳しくは、 [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. ワークストリームのカードリストにアクセスします。
 1. を選択します。 [!UICONTROL **反復表示**] を使用して、反復に割り当てられているカードと予期しないカードを確認します。

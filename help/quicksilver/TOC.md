@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 9582a06327901300d2473c1847ddaf46d88ad35e
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '12773'
+source-wordcount: '12776'
 ht-degree: 1%
 
 ---
@@ -930,7 +930,7 @@ ht-degree: 1%
       * [カードのフォールオフを設定](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
       * [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-      * [反復を作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [反復指標の確認](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * アジャイルチームのかんばん {#kanban}
       * [アジャイルチームのかんばん](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
@@ -956,8 +956,8 @@ ht-degree: 1%
          * [バーンダウンチャートのサイズ変更と折りたたみ](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [バーンダウンチャートのデータを同期](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
          * [バーンダウングラフに代替のチームスケジュールを使用](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
-      * 反復 {#iterations}
-         * [反復](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
+      * イテレーション {#iterations}
+         * [イテレーション](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [反復の概要](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
          * [反復を作成](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
          * [反復での俊敏なストーリーの作成](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)

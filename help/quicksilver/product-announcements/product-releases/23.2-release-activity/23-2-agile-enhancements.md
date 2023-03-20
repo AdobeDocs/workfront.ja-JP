@@ -4,9 +4,9 @@ description: 23.2 アジャイルの強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Workfront Boards で利用できるいくつかの新機能により、アジャ
 
 コレクションの名前は、ワークストリームに変更されました。 ワークストリームは、様々な方法でデータを視覚化するのに役立ちます。 カード上の項目をリスト、ボード、または反復で表示できます。 ワークストリーム内のカードは、複数のボードで共有することもできます。 ワークストリーム内でカードやボードを使用すると、簡単にワークフローを容易に実行できます。
 
-詳しくは、 [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [反復を作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)、および [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 2 つ目の 2 つの記事は、ブランチを公開するまで、Main で使用できません。
+詳しくは、 [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、および [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 2 つ目の 2 つの記事は、ブランチを公開するまで、Main で使用できません。
 
 ## リストとレポートからワークストリームカードリストにタスクとイシューを追加する
 
