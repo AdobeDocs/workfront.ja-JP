@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
+source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,7 @@ ht-degree: 0%
 
 へのアクセスに関して以下の点を考慮してください。 [!DNL SharePoint] から [!DNL Workfront] [!DNL SharePoint] 統合：
 
+* この統合に必要な権限は次のとおりです。 **委任** 権限。
 * [!DNL Workfront] は、統合で操作を実行するのに必要な最小限のアクセス権を要求します。
 * 次の項目の表示、編集、削除を行うためのアクセス [!DNL Adobe Workfront] リンクされたドキュメント [!DNL SharePoint] は、 [!DNL Workfront]. ただし、 [!DNL SharePoint] ファイルまたはフォルダーは、次へのアクセスを必要とします： [!DNL SharePoint]にアクセスし、これらのアクションへのアクセスを制御するには、 [!DNL SharePoint].
 * ユーザーは、次の場所から提供されるサムネールを表示し、画像をプレビューできます [!DNL SharePoint]の [!DNL SharePoint]（にログインせずに） [!DNL SharePoint].
