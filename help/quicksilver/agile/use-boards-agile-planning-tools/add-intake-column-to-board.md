@@ -7,9 +7,9 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: db62d7361f6d432c2ac8846938de4bc437923295
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ ht-degree: 0%
    >[!NOTE]
    >
    >取り込みカラムをフィルタして、タスクと問題の両方を含めることができますが、オブジェクトタイプごとに個別にフィルタを設定する必要があります。
+   >
+   >また、保存済みのフィルターとシステムのデフォルトのフィルターも選択できます。
 
 1. フィルターパネルで、 **[!UICONTROL 新しいフィルター]** をクリックして開始します。
 
