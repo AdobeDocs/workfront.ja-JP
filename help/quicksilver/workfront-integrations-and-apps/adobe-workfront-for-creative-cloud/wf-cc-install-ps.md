@@ -6,9 +6,9 @@ description: Adobe Workfront for Photoshopプラグインは、Marketplace プ�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 95bedadeb2a0a4e4e91f82c193f6e95e034a6a34
+source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,11 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >ドメインを検索するには、ブラウザーを開き、 [!DNL Workfront] インスタンスを作成し、URL の最初の部分をコピーします。\
-   >![](assets/domain-350x50.png)   >
+   >* ドメインを検索するには、ブラウザーを開き、 [!DNL Workfront] インスタンスを作成し、URL の最初の部分をコピーします。\
+      >![](assets/domain-350x50.png)
+   >
+   > * WorkfrontインスタンスがExperience Cloudと統合されている場合は、Admin Consoleの製品/WorkfrontにあるWorkfrontドメインを管理者に連絡し、提供してもらってください。
+
 
 1. ブラウザーで、 [!DNL Workfront] 資格情報を選択し、「 **[!UICONTROL ログイン]**. シングルサインオン (SSO) を使用している場合は、SSO プロバイダのページにアクセスしてログインします。
 
