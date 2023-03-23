@@ -6,9 +6,9 @@ description: データをエクスポートする理由のいくつかは、-EDI
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Workfrontインターフェイスから手動でレポートをエクスポー�
 ### 書き出し制限 {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 Workfrontでのレポートの表示方法や、手動での書き出し、配信されたレポート、API での書き出し方法には、いくつかの制限があります。
@@ -106,9 +106,13 @@ Workfrontでのレポートの表示方法や、手動での書き出し、配�
    * Excelの.xlsx ファイルの場合、この制限はです。 **100,000 行**.
    * これらの制限により、列見出しと、レポート内のグループ化の行が除外されます。 例えば、1 つのレポートに 6 つのグループが含まれ、50,000 の行またはデータが含まれる場合、エクスポートされるファイルの行数は 50,000 行になります。
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >レポートにこれらの制限を超える項目がある場合は、エクスポートが成功しなかったというエラーが表示されます。 結果を書き出すには、画面に表示される項目の数を、この制限値以下の数に減らします。
+   >コレクション参照を含むレポートを列にエクスポートすると、レポートがそれ以外の場合にリストに表示されるエクスポート制限内にあるとしても、エラーが発生する場合があります。 参照されているコレクションが大きすぎる場合、書き出し処理はタイムアウトし、その後エラーが発生します。
+   >
+   >このエラーを回避するには、大きなコレクションを参照する列を除外するか、書き出す前に参照されるコレクションのサイズを小さくします。
+
+   レポートにこれらの制限を超える項目がある場合は、エクスポートが成功しなかったというエラーが表示されます。 結果を書き出すには、画面に表示される項目の数を、この制限値以下の数に減らします。
 
    レポートの行数が 50,000/65,000/100,000 を超える場合、すべてのデータをエクスポートするには、フィルターまたはプロンプトを使用してデータの負荷を減らし、複数のエクスポートを実行します。
 
