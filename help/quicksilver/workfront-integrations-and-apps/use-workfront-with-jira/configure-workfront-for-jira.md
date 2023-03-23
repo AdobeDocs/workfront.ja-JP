@@ -6,9 +6,9 @@ description: 以下を使用できます。 [!DNL Adobe Workfront for Jira] を 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: d2c366a69b986bd8d559a18994810011c6d33441
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -89,12 +89,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >[!UICONTROL Workfront] 接続先 [!DNL Jira] OAuth 2.0 を使用。これは、ほとんどの Web ベースの統合で、ユーザーの認証と承認に使用される標準です。
+   >ユーザーは有効な `apiKey` in [!UICONTROL Workfront] 接続が成功した場合は、
 
    にログインする必要があります。 [!DNL Workfront] as a [!DNL Workfront] 管理者：設定を続行します。
 
    >[!NOTE]
    >
+   >* [!UICONTROL Workfront] 接続先 [!DNL Jira] OAuth 2.0 を使用。これは、ほとんどの Web ベースの統合で、ユーザーの認証と承認に使用される標準です。
    >* のドメインの入力を求められたら、 [!DNL Workfront] アカウントに次の形式で入力します。 *yourCompany&#39;sDomain.my.workfront.com*. 会社のドメインは通常、会社の名前です。
    >* 拡張認証は、 [!DNL Workfront] 管理者がこの統合に対して有効にします。
 
