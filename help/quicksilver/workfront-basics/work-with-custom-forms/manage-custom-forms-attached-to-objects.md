@@ -6,16 +6,16 @@ description: 1 つのオブジェクトに添付されたカスタムフォー�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
 
 # オブジェクトに添付されたカスタムフォームの管理
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
 
 1 つのオブジェクトに添付されたカスタムフォームの表示順を更新したり、それらを削除したり、複数のオブジェクトでのカスタムフォームの表示方法を一括編集したりできます。
 
@@ -156,4 +156,4 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
    クリック **Formsを展開** をクリックして、すべてのフォームを同時に展開します。 
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。

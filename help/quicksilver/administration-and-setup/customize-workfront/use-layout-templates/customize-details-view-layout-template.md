@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # レイアウトテンプレートを使用して詳細ビューをカスタマイズする
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
 
 Adobe Workfront管理者は、レイアウトテンプレートを使用して、ユーザーが「詳細」アイコンをクリックしたときに表示される情報を決定できます ![](assets/project-details-icon.png) タスク、イシュー、ドキュメント、プログラム、またはポートフォリオを表示しているときに左のパネルに表示されます。
 

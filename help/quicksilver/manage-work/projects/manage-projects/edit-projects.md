@@ -6,16 +6,16 @@ description: 必要に応じて、Adobe Workfrontでプロジェクトを編集�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '7705'
+source-wordcount: '7718'
 ht-degree: 2%
 
 ---
 
 # プロジェクトを編集
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -290,7 +290,7 @@ ht-degree: 2%
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>プロジェクト スポンサー</strong> </td> 
+      <td role="rowheader"><strong>プロジェクトスポンサー</strong> </td> 
       <td> <p>プロジェクトに追加するユーザーの名前を入力し始め、リストに表示されたら選択します。 ユーザーはプロジェクトチームに追加され、プロジェクトに対する表示権限が自動的に付与されます。 プロジェクトスポンサーに指定されたユーザーは、Workfrontのアクティブユーザーである必要があります。<br></p> </td> 
      </tr> 
      <tr> 
@@ -788,7 +788,7 @@ ht-degree: 2%
 
    このコメントは、プロジェクトへの表示アクセス権を持ち、メモの表示アクセス権を持つすべてのユーザーに対して表示されます。
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
 
    これで、行った変更が、選択したすべてのプロジェクトに表示されます。
 

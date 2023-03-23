@@ -7,16 +7,16 @@ description: 複数選択できるカスタムフィールドを使用して、�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 0%
+source-wordcount: '809'
+ht-degree: 1%
 
 ---
 
 # 複数選択できるカスタムフィールドによってレポートをグラフ化する
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
 
 複数選択できるカスタムフィールドを使用して、レポートのグラフを表示することはできません。 複数選択カスタムフィールドを参照する追加の計算フィールドを作成して、複数選択カスタムフィールドの値を基準にレポートのグラフを表示する必要があります。
 
@@ -99,7 +99,7 @@ ht-degree: 0%
    これにより、新しいフィールドには、既にオブジェクトに添付されているフォームに追加される際に、複数選択カスタムフィールドの値が自動的に入力されます。
 
 1. クリック **完了**.
-1. クリック **保存+閉じる**.
+1. 「**保存して閉じる**」をクリックします。
 
 ### 計算されたカスタムフィールドを参照するグラフを作成する {#build-a-chart-that-references-a-calculated-custom-field}
 
@@ -119,4 +119,4 @@ ht-degree: 0%
 1. を<strong>計算された複数選択フィールド</strong> をグループ化として作成しました。
 1. を選択します。 <strong>グラフ</strong> タブをクリックし、レポートにグラフを追加します。<br>レポートへのグラフの追加について詳しくは、 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">レポートへのグラフの追加</a> 記事内 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">カスタムレポートの作成</a>.
 1. を選択します。 <strong>計算された複数選択フィールド</strong> をグラフに表示するフィールドの 1 つとして追加します。
-1. クリック <strong>保存して閉じる</strong>.<br>レポートには、計算された複数選択フィールドでグループ化された結果がグラフに表示されます。
+1. 「<strong>保存して閉じる</strong>」をクリックします。<br>レポートには、計算された複数選択フィールドでグループ化された結果がグラフに表示されます。
