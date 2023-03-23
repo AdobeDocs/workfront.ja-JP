@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Boards で利用可能なイテレーション機能</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">オブジェクトの詳細からWorkfrontボードまたはワークストリームにタスクとイシューを追加する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>既存のタスクやイシューを、オブジェクトの詳細から直接Workfrontボードやワークストリームカードのリストに追加できるようになりました。 ボードに追加した項目はすべてカードに接続され、ワークストリームに追加した項目は、予期しないカードとしてカードリストに追加されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 3 月 24 日<br /></p>
+                            </li>
+                            <li>
+                                <p>実稼動版リリース：23.2 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Boards で利用可能なイテレーション機能</a></p>
                         <p>Workfront Boards で利用できるいくつかの新機能により、アジャイルスクラム機能を使用できます。 次の機能が含まれます。
                         <ul>
                         <li>同じチームに関連するボードをグループ化し、作業で共同作業するためのワークストリーム</li>
@@ -138,7 +154,7 @@ ht-degree: 0%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">リストとレポートからワークストリームカードリストにタスクとイシューを追加する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">リストとレポートからワークストリームカードリストにタスクとイシューを追加する</a></p>
                         <p>既存のタスクやイシューをWorkfrontボードのワークストリームにリスト表示やレポート表示から直接追加できるようになりました。 ワークストリームに追加する項目は、予定外のカードとしてカードリストに追加されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -154,7 +170,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボード上のカードへのカスタムフィールドの追加</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボード上のカードへのカスタムフィールドの追加</a></p>
                         <p>Adobe Workfrontボードにカスタムフィールドを含めることができるようになりました。 フィールドは、既にWorkfrontで作成されている必要があります。 ボード内で新しいカスタムフィールドをデザインして作成することはできません。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -484,7 +500,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">問題に関する新しいコメント作成機能ベータ版<span style="color: #ff0000;"> プレビューの新機能</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">問題に関する新しいコメント作成機能ベータ版</a>
                         <p>Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、一部のオブジェクトの更新セクションのパフォーマンスの向上が含まれています。 </p>
                         <p>この新しいエクスペリエンスは、最終的にはAdobe Workfront全体およびそれ以降の、Adobe Experience Cloud全体でコメントを統合します。 </p>
                     </td>

@@ -4,9 +4,9 @@ description: 23.2 アジャイルの強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 このページでは、プレビュー環境の 23.2 リリースでおこなわれたすべてのアジャイルの機能強化について説明します。 これらの機能強化は、23.2 リリースで実稼動環境で利用できるようになります。
 
 23.2 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## オブジェクトの詳細からWorkfrontボードまたはワークストリームにタスクとイシューを追加する
+
+既存のタスクやイシューを、オブジェクトの詳細から直接Workfrontボードやワークストリームカードのリストに追加できるようになりました。 ボードに追加した項目はすべてカードに接続され、ワークストリームに追加した項目は、予期しないカードとしてカードリストに追加されます。
+
+詳しくは、 [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Adobe Workfront Boards で利用可能なイテレーション機能
 
@@ -28,6 +34,8 @@ Workfront Boards で利用できるいくつかの新機能により、アジャ
 コレクションの名前は、ワークストリームに変更されました。 ワークストリームは、様々な方法でデータを視覚化するのに役立ちます。 カード上の項目をリスト、ボード、または反復で表示できます。 ワークストリーム内のカードは、複数のボードで共有することもできます。 ワークストリーム内でカードやボードを使用すると、簡単にワークフローを容易に実行できます。
 
 詳しくは、 [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、および [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). 2 つ目の 2 つの記事は、ブランチを公開するまで、Main で使用できません。
+
+[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## リストとレポートからワークストリームカードリストにタスクとイシューを追加する
 
