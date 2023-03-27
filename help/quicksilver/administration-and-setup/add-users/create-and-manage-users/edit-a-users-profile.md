@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -91,10 +91,16 @@ Adobe Workfront管理者は、新しいユーザーを作成し、既存のユ�
       <td role="rowheader">環境設定 </td> 
       <td> 
        <ul> 
-        <li> <p><b>タイムゾーン：</b> ユーザーのタイムゾーン。</p> <p>タイムゾーンをまたいでWorkfrontでユーザーが共同作業する際に役立つ情報については、 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">タイムゾーンをまたいでの作業</a>.</p> </li> 
-        <li><b>メールのロケール</b>:ユーザーが優先する電子メールロケールです。 これは、Workfrontから送信される E メールの数値および日付の形式に影響します。</li> 
-        <li><b>更新ステータスの完了率を表示</b>:このユーザーのタスクの [ 更新 ] 領域内に完了率のバーを表示する場合は、このオプションを選択します。</li> 
-        <li><b>自分に割り当てた作業を [ 作業 ] タブに送信する</b>:ユーザーが割り当てたすべてのものを「作業中」タブに直接表示する場合は、このオプションを選択します。 デフォルトでは、ユーザーに割り当てられたすべての項目が「作業リクエスト」タブにリストされます。</li> 
+      <li> <p><b>タイムゾーン：</b> ユーザーのタイムゾーン。</p> <p>タイムゾーンをまたいでWorkfrontでユーザーが共同作業する際に役立つ情報については、 <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">タイムゾーンをまたいでの作業</a>.</p> </li> 
+       <li><b>メールのロケール</b>:ユーザーが優先する電子メールロケールです。 これは、Workfrontから送信される E メールの数値および日付の形式に影響します。</li>
+
+   <li><b>このテスト環境からメールを受信</b>:現在ログインしている環境から電子メール通知を受け取る場合は、このオプションを選択します。
+      <p><b>メモ</b></p>
+      このオプションは、プレビューおよびサンドボックス環境でのみ使用できます。 電子メール通知は、実稼動環境でデフォルトで有効になっています。 
+      </li>
+
+   <li><b>更新ステータスの完了率を表示</b>:このユーザーのタスクの [ 更新 ] 領域内に完了率のバーを表示する場合は、このオプションを選択します。</li> 
+       <li><b>自分に割り当てた作業を [ 作業 ] タブに送信する</b>:ユーザーが割り当てたすべてのものを「作業中」タブに直接表示する場合は、このオプションを選択します。 デフォルトでは、ユーザーに割り当てられたすべての項目が「作業リクエスト」タブにリストされます。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
