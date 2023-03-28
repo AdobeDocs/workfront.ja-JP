@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2689'
 ht-degree: 0%
 
 ---
@@ -496,6 +496,26 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontの新しいCreative Cloudプラグイン</a>
+                        <p>WorkfrontにCreative Cloudプラグインに関する次の変更を追加しました。
+                        <ul>
+                        <li>タスクに先行タスクがある場合に、プラグインが通知するようになりました</li>
+                        <li>韓国語は現在、サポートされている言語です</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：該当なし<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">実稼動版リリース：2023 年 3 月 24 日 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

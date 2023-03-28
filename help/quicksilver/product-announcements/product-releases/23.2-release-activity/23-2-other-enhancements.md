@@ -4,9 +4,9 @@ description: 23.2 その他の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
+source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 このページでは、23.2 リリースでプレビュー環境に対しておこなわれたその他すべての機能強化について説明します。 これらの機能強化は、23.2 リリースで実稼動環境で利用できるようになります。
 
 23.2 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Workfrontの新しいCreative Cloudプラグイン
+
+WorkfrontにCreative Cloudプラグインに関する次の変更を追加しました。
+
+* タスクに先行タスクがある場合に、プラグインが通知するようになりました
+* 韓国語は現在、サポートされている言語です
 
 ## 問題に関する新しいコメント作成機能ベータ版
 

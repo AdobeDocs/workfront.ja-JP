@@ -6,9 +6,9 @@ description: Adobe Workfrontでの作業をシームレスに完了し、Adobe C
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ ht-degree: 0%
 
 1. 次の **[!UICONTROL 作業用リスト]**、完了とマークするタスクまたは問題を選択します。
 1. クリック **[!UICONTROL 完了]**.\
-   これにより、Workfrontで項目が完了したことを示します。\
-   ![](assets/complete-work-350x529.png)
+   これにより、Workfrontで項目が完了したことを示します。
+
+   >[!NOTE]
+   >
+   >作業項目に先行タスクがある場合、先行タスクが完了とマークされるまで、[ 完了 ] ボタンは灰色で表示されます。 内の先行タスクを表示するには [!DNL Workfront]、タスク名をクリックします。
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
