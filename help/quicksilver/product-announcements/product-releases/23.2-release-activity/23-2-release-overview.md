@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
 workflow-type: tm+mt
-source-wordcount: '2689'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 23.2 リリースの概要
 
-このページでは、2023 年 4 月に予定されている 23.2 リリースに含まれる機能について説明します。
+このページでは、2023 年 4 月 3 日の週に予定されている 23.2 リリースに含まれる機能について説明します。
 
 このページの機能強化は、プレビュー環境で利用できます。 23.2 リリースが予定されている実稼動版リリースに近づくにつれ、このページは追加の機能強化で更新されます。
 
