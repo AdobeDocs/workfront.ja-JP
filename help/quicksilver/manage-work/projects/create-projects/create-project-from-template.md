@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: テンプレートを使用したプロジェクトの作成
-description: テンプレートをフレームワークとして使用して、新しいプロジェクトを作成できます。 頻繁に繰り返されるプロジェクトがある場合、新しいプロジェクトの一般的なタイムラインでテンプレートを使用すると、同じプロジェクトを繰り返し作成する必要がなくなります。
+description: テンプレートをフレームワークとして使用して、プロジェクトを作成できます。 頻繁に繰り返されるプロジェクトがある場合、新しいプロジェクトの一般的なタイムラインでテンプレートを使用すると、同じプロジェクトを繰り返し作成する必要がなくなります。
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
 
 # テンプレートを使用したプロジェクトの作成
 
-テンプレートをフレームワークとして使用して、新しいプロジェクトを作成できます。 頻繁に繰り返されるプロジェクトがある場合、新しいプロジェクトの一般的なタイムラインでテンプレートを使用すると、同じプロジェクトを繰り返し作成する必要がなくなります。
+テンプレートをフレームワークとして使用して、プロジェクトを作成できます。 頻繁に繰り返されるプロジェクトがある場合、新しいプロジェクトの一般的なタイムラインでテンプレートを使用すると、同じプロジェクトを繰り返し作成する必要がなくなります。
 
-テンプレートを使用すると、プロジェクトに関連する繰り返し可能なプロセス、情報、設定をすべてキャプチャすることができます。 テンプレートに関連付けられているすべての情報がプロジェクトに転送されます。 これには、タスク、割り当て、期間、ドキュメント、財務の詳細、リスク、およびカスタムフォームが含まれます。
+テンプレートを使用すると、繰り返し可能なプロセス、情報、およびプロジェクトに関連する設定を取り込むことができます。 テンプレートに関連付けられた情報がプロジェクトに転送されます。 これには、タスク、割り当て、期間、ドキュメント、財務の詳細、リスク、およびカスタムフォームが含まれます。
 
 >[!TIP]
 >
->テンプレートから作成された新しいプロジェクトのステータスは、主な「プロジェクトの環境設定」領域でWorkfront管理者が定義したステータス、またはグループの「プロジェクトの環境設定」領域でグループ管理者 ( またはWorkfront管理者 ) が定義したステータスに対応します。 プロジェクトの環境設定の詳細については、 [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) または [グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfrontでは、新しいプロジェクトのグループとステータスを次のように定義します。
+>
+>* テンプレートから作成される新しいプロジェクトのデフォルトのステータスは、主なプロジェクト環境設定領域のWorkfront管理者、またはグループの「プロジェクト環境設定」領域のグループ管理者 ( またはWorkfront管理者 ) が定義したステータスに対応します。 プロジェクトの環境設定の詳細については、 [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) または [グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* 新しいプロジェクトのグループは、テンプレートのグループです。 テンプレートがグループに関連付けられていない場合、プロジェクトのグループは、プロジェクトを作成するユーザーのホームグループになります。
+>
+>* 新しいプロジェクトで使用できるステータスは、テンプレートのグループであるプロジェクトのグループのステータス、またはプロジェクトを作成するユーザーのホームグループに一致します。
+
 
 テンプレートからプロジェクトを作成するには、次のオプションがあります。
 
@@ -88,7 +95,7 @@ ht-degree: 1%
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>テンプレートに対する権限の表示</p> <p>プロジェクトを作成すると、自動的にプロジェクトに対する管理権限が付与されます </p> <p> プロジェクト権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfrontでプロジェクトを共有する</a>.</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>テンプレートに対する権限の表示</p> <p>プロジェクトを作成すると、そのプロジェクトに対する管理権限が自動的に付与されます </p> <p> プロジェクト権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfrontでプロジェクトを共有する</a>.</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
