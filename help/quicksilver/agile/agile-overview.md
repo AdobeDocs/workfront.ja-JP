@@ -7,10 +7,10 @@ description: アジャイルは、チームが少量で管理しやすい作業�
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 867da7dd9d8b13f13e816c20ccd9a8a96ab04eb8
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 0%
+source-wordcount: '326'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Workfrontで高度なアジャイルを使用し始めるには：
 
-1. 機敏なチームを作成します。
+1. アジャイルチームの作成.
 
    詳しくは、 [新しいアジャイルチームを作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#creating-an-agile-team-from-scratch) または [既存のチームをアジャイルチームに変換する](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 記事内 [アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
@@ -43,3 +43,7 @@ Workfrontで高度なアジャイルを使用し始めるには：
 1. プロジェクトのタスクをチームのバックログまたはストーリーボードに追加します。
 
    詳しくは、 [アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [既存のタスクまたはタスクを [!UICONTROL かんばん] ボード](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)、および [既存の反復にストーリーを追加する](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+
+## プロジェクトでの機敏な使用
+
+一般的にアジャイルプラクティスに伴う管理上の課題（チームバックログの管理、反復の作成など）がなくても、プロジェクトにアジャイル機能を活用できます。 詳しくは、 [アジャイルビューでのプロジェクト管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

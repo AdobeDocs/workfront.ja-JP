@@ -7,22 +7,24 @@ description: Adobe Workfrontでのアジャイルの使用方法については�
 author: Lisa
 feature: Agile
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
 # アジャイル
 
+[!DNL Adobe Workfront] には、アジャイルワークフローを定義するのに役立つツールがいくつか用意されています。 ボードは、チームコラボレーションのためのシンプルで柔軟なツールです。 従来のアジャイル計画ツールには、カンバンまたはスクラムチームのバックログとストーリーボードが含まれます。
+
 このセクションでは、以下のサブセクションについて説明します。
 
-* [アジャイルの概要](../agile/agile-overview.md)
 * [ボードの概要](../agile/boards-overview.md)
-* [プロジェクトでのアジャイル](../agile/agile-in-projects/agile-in-projects.md)
-* [での機敏な使用を開始する [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [のボードの概要 [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md)
+* [ボードでのアジャイルプランニングツールの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
+* [アジャイルの概要](../agile/agile-overview.md)
+* [での機敏な使用を開始する [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [アジャイルチームのかんばん](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [機敏なチームのスクラム](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [機敏な環境での作業](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 4588327c6b02b0d243e2a49f98cb88baac3e1270
+source-git-commit: 25580047b2fe586852b9143f1f33c9858f51ee9f
 workflow-type: tm+mt
-source-wordcount: '12783'
+source-wordcount: '12775'
 ht-degree: 2%
 
 ---
@@ -895,16 +895,7 @@ ht-degree: 2%
       * [ページヘッダーにフィルターボタンが表示されない](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * アジャイル {#agile}
    * [アジャイル](agile/agile.md)
-   * [アジャイルの概要](agile/agile-overview.md)
    * [ボードの概要](agile/boards-overview.md)
-   * プロジェクトでのアジャイル {#agile-in-projects}
-      * [プロジェクトでのアジャイル](agile/agile-in-projects/agile-in-projects.md)
-      * [アジャイルプロジェクト](agile/agile-in-projects/use-agile-on-a-project.md)
-   * Adobe Workfrontでのアジャイルの概要 {#agile-in-workfront}
-      * [Adobe Workfrontでのアジャイルの概要](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-      * [アジャイルチームの作成](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-      * [かんばんの構成](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-      * [スクラムの設定](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Adobe Workfrontのボードの概要 {#boards-in-workfront}
       * [Adobe Workfrontのボードの概要](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront Boards のビデオデモ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
@@ -933,6 +924,12 @@ ht-degree: 2%
       * [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
       * [反復指標の確認](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+   * [アジャイルの概要](agile/agile-overview.md)
+   * Adobe Workfrontでのアジャイルの概要 {#agile-in-workfront}
+      * [Adobe Workfrontでのアジャイルの概要](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+      * [アジャイルチームの作成](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+      * [かんばんの構成](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+      * [スクラムの設定](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * アジャイルチームのかんばん {#kanban}
       * [アジャイルチームのかんばん](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [かんばんの概要](agile/use-kanban-in-an-agile-team/kanban-overview.md)
@@ -1438,7 +1435,7 @@ ht-degree: 2%
          * [日付ベースのワイルドカードを使用してレポートを一般化する](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [ユーザーベースのワイルドカードを使用してレポートを一般化する](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [フィルター、表示またはグループ化の共有](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-         * [フィルター、ビュー、グループ化の削除](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+         * [フィルター、ビュー、グループの削除](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [マイルストーンビューの使用](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [列の幅と順序を変更する](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
       * 組み込みレポートの使用 {#built-in-reports}
