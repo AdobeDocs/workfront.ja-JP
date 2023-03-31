@@ -6,9 +6,9 @@ description: 新しいリクエストキューをダッシュボードに埋め�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -97,11 +97,9 @@ ht-degree: 1%
 
    コードは次のようになります。
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   これは、選択したプロジェクトに関連付けられたリクエストキューへのリンクです。リクエストタイプは事前に選択されています。
+   これは、選択したプロジェクトに関連付けられたリクエストキューへのリンクです。 「リクエストタイプ」が事前に選択されています。
 
    ユーザーは、必要なトピックグループやキュートピックを選択したり、別のリクエストタイプを選択したりできます。
 
@@ -120,19 +118,15 @@ ht-degree: 1%
 
    コードは次のようになります。
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. コードを編集して、以下の情報のみを保持します。
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >この `<samp>iframe </samp>` タグを使用して、Workfront以外のアプリケーションにコードを埋め込むこともできます。
+   >次の項目を追加できます： `<samp>iframe </samp>` タグを使用して、Workfront以外のアプリケーションにコードを埋め込むこともできます。
 
    これは、選択したプロジェクトに関連付けられたリクエストキューへのリンクです。 リクエストタイプは事前に選択されており、変更できません。
 
