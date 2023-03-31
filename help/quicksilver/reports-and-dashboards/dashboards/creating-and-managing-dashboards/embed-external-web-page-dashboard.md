@@ -6,9 +6,9 @@ description: 外部 Web ページをダッシュボードに埋め込んで、Ad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->ダッシュボードの埋め込み外部ページは、サポートされなくなりました。 特に、次のWorkfront.com サブドメインはサポートされなくなりました。
+>ダッシュボードの埋め込み外部ページは、サポートされなくなりました。 既存のダッシュボードは自動的に変更されてこれらの外部ページが削除されることはありませんが、そのような参照を含むダッシュボードに対する変更は、参照が削除または変更されるまで保存できません。
+>
+>特に、次のWorkfront.com サブドメインはサポートされなくなりました。
 >
 >* /dashboards&#x200B;
 >* /dashboard/:&#x200B;ID
@@ -44,7 +46,8 @@ ht-degree: 0%
 >* /requests/:ID/content-dashboard__:dashboardID &#x200B;
 >* /group/:ID/content-dashboard__:dashboardID &#x200B;
 >* /billingrecord/:ID/content-dashboard__:dashboardID
-
+>
+>別の解決策として、ダッシュボードにリストレポートを含めることを検討します。詳しくは、 [ダッシュボードへのレポートの追加](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## アクセス要件
 
@@ -159,7 +162,7 @@ ht-degree: 0%
 
    詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. クリック **保存して閉じる**.
+1. 「**保存して閉じる**」をクリックします。
 
    新しいレポートで、システム内の外部ページに関連付けられている名前と URL を表示できます。
 
