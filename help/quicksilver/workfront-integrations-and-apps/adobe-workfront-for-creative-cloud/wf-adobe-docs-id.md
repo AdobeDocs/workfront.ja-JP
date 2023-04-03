@@ -6,9 +6,9 @@ description: アートボードをドキュメントとしてアップロード�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 9ed0fcb4344d72d6629cafd16f1a81dee4063a1e
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ ht-degree: 0%
 1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
 
 1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にある。
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
 1. （オプション） **[!UICONTROL 更新]** 領域
-1. クリック **[!UICONTROL アップロード]**を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
+1. を開きます。 **[!UICONTROL 書き出しファイル設定の設定]** ダイアログボックスで、上で選択したアセットタイプに基づいて必要な書き出しオプションを設定します。
+
+   ![](assets/file-export-settings.png)
+1. クリック **[!UICONTROL アップロード]**.
 ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。

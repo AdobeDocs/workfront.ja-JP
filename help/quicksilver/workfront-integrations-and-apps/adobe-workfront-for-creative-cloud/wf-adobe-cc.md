@@ -7,9 +7,9 @@ description: Adobe Workfront plugin forCreative Cloud・アプリケーション
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 04c3f1e3ec9273e3287c777b4f22f0ee44696809
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,9 @@ ht-degree: 0%
 
 {{cc-app-list}}
 
-プラグインの使用およびインストール方法について詳しくは、次の記事を参照してください。
+プラグインの使用およびインストール方法について詳しくは、次のリソースを参照してください。
 
 * [のインストール [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [を使用して作業を管理 [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [でドキュメントと配達確認をアップロード [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [ビデオチュートリアル：用途 [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)

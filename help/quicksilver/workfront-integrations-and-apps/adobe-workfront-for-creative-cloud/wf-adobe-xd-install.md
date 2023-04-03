@@ -6,9 +6,9 @@ description: Adobe Workfront for XDプラグインは、Marketplace からAdobe�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -66,15 +66,10 @@ ht-degree: 1%
 >次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. を開きます。 [!DNL Adobe Creative Cloud] アプリを使用します。
-1. 次をクリック： **[!UICONTROL Marketplace]** タブをクリックします。
-1. 内 **[!UICONTROL すべてのプラグインを検索]** ボックス、タイプ *Workfront*&#x200B;をクリックし、 **[!UICONTROL 入力]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. 条件 [!DNL Adobe Workfront for XD] 検索結果にプラグインが表示されたら、 **[!UICONTROL 取得]**.
+1. 次に移動： [Adobe Workfront for XDのインストールページ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) をAdobeExchange に追加します。
+1. 表示されるダイアログで、 **開く [!DNL Adobe Creative Cloud] デスクトップアプリ**.
+1. 1 回 [!DNL Adobe XD] プラグインマネージャーが開き、「 **[!UICONTROL インストール]**.
 1. ダイアログボックスの情報を読み、 **[!UICONTROL OK]**.
-
 1. プラグインを開く方法については、次の節を参照してください。
 
 ## を開きます。 [!DNL Adobe Workfront for XD] プラグイン

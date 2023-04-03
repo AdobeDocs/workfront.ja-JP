@@ -5,9 +5,9 @@ title: Illustratorからドキュメントをアップロード
 description: アートボードをドキュメントとしてアップロードして、すばやいレビューや承認を得たり、Adobe Workfrontに保存するだけで済みます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ ht-degree: 0%
 1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
 
 1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にある。
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
 1. （オプション） **[!UICONTROL 更新]** 領域
-1. クリック **[!UICONTROL アップロード]**を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
+1. を開きます。 **[!UICONTROL 書き出しファイル設定の設定]** ダイアログボックスで、上で選択したアセットタイプに基づいて必要な書き出しオプションを設定します。
+
+   ![](assets/file-export-settings.png)
+1. クリック **[!UICONTROL アップロード]**.
 ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
