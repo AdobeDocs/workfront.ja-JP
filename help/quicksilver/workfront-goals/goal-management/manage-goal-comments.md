@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -151,17 +151,12 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
    >
    >   <span class="preview">元の更新を送信した場合にのみ、ユーザーに更新を通知する電子メールが生成されます。 更新を編集した後は、電子メールは生成されません。</span>
 
-   <!-- <div class="preview">
-   1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
+   1. （オプション） **詳細** メニュー ![](assets/more-icon.png)次に、次のいずれかのオプションをクリックして、コメントからクリップボードに情報をコピーします。
 
-      * **Copy update link** to copy the link of an update, without the replies.
-      * **Copy thread link** to copy the link of an update, including the replies.
-      * **Copy body text** to copy the text of an update. 
+      * **リンクをコピー** ：返信なしで更新のリンクをコピーします。
+      * **本文をコピー** をクリックして、更新のテキストをコピーします。
 
-         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-   </div>
-   -->
+         詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. クリック **送信**.
 
@@ -174,6 +169,7 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
    >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント付けエクスペリエンスを使用している場合にのみ表示されます。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. <span class="preview">（オプション） **詳細** メニュー ![](assets/more-icon.png) コメントの右側に移動し、「 **削除** 追加したコメントを削除します。 </span>
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 5～9 に従います。 <!--insure this stays accurate-->
 1. （オプション） **次に類似** アイコン![](assets/like-icon.png) 他の誰かが追加したコメントが気に入った。 アイコンは「いいね！」の数に応じて更新されます。
 1. （オプション）リッチテキストの書式設定を更新に追加するには、入力時にリッチテキストツールバーの任意の属性を使用します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

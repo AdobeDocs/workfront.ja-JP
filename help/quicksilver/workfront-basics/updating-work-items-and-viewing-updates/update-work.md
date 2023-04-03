@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ drafted for P&P release:
 
 1. 更新するオブジェクトを探し、その名前をクリックしてオブジェクトのページを開きます。
 1. クリック  **更新** をクリックします。
-1. クリック **コメントベータ版を試す** ボタンをクリックし、 **同意する** （ベータ版使用許諾契約） これにより、「更新」領域が「コメントベータ版」のエクスペリエンスに切り替わります。
+1. を有効にします。 **Commenting Beta** 「更新」領域の右上隅を切り替えて、 **同意する** （ベータ版使用許諾契約） これにより、「更新」領域が「コメントベータ版」のエクスペリエンスに切り替わります。
 この **コメント** 「 」タブがデフォルトで選択されています。
 1. でコメントの入力を開始 **新しいコメント** ボックス
 
@@ -224,7 +224,7 @@ drafted for P&P release:
 
 1. クリック **送信** をクリックして、Workfrontオブジェクトに更新を追加します。
 1. （オプション）コメントを編集するには、 **詳細** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
-1. コメント内の情報を編集したり、タグ付きユーザーを削除したりします。
+1. コメント内の情報を編集したり、タグ付きユーザーを削除したりします。 <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ drafted for P&P release:
 
 ## 更新情報をコピー
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->ベータ版のコメント機能を使用している場合、更新をコピーすることはできません。
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 更新をコピーする方法はいくつかあります。 リンクをコピーした後、他のユーザーとリンクを共有して、更新に導くことができます。
 
@@ -348,7 +349,7 @@ drafted for P&P release:
 このオプションは、スレッドを他のユーザーと共有できるように、完全なスレッドリンクをクリップボードにコピーします。
 
 1. コピーする更新スレッドに移動します。
-1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー**.
+1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー** <span class="preview">または **リンクをコピー** ベータ版エクスペリエンスを使用する場合</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ drafted for P&P release:
 このオプションは、特定の更新リンクをクリップボードにコピーします。 更新リンクを共有すると、リンクをたどるユーザーには、更新の周囲に境界線が表示されます。
 
 1. コピーする更新または返信に移動します。
-1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー**.
+1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー** <span class="preview">または **リンクをコピー** ベータ版エクスペリエンスを使用する場合</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

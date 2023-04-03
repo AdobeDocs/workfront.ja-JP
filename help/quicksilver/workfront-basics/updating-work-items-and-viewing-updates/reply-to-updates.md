@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 更新情報に返信
+title: 更新に返信する
 description: 作業オブジェクトの更新に対して、誰かが追加または返信すると、その返信がそのオブジェクトの [ 更新 ] セクションの通信スレッドに表示されます。 オブジェクトに対するビューアクセス権を持っている場合は、更新に返信を追加したり、「いいね！」をクリックしたりできます。
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
 
-# 更新情報に返信
+# 更新に返信する
 
 <!--take "Beta" references out when we remove the beta-->
 
@@ -109,14 +109,11 @@ ht-degree: 1%
 
 1. 返信の入力を開始し、リッチテキストツールバーの追加のオプションを使用します。 リッチテキストの使用について詳しくは、「Workfrontの更新でのリッチテキストの使用」の節を参照してください。 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. クリック **送信** 返信を保存します。
 
+1. （オプション） **詳細** メニュー ![](assets/more-menu.png) をクリックし、返信を管理するその他のオプションを選択します。 詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
+
 </div>
-
-
 
 ## 電子メール通知で更新に返信
 
