@@ -6,9 +6,9 @@ description: ブラウザーの言語設定とWorkfront内のデフォルトの�
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 961eba73186f8fe3f10affc0c6e52067f997ef31
+source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,16 @@ Workfrontの用語は、Workfrontが更新されるたびに、サポート対�
 
 Workfrontは、次の言語をサポートしています。
 
-* 中国語 — 簡体字 (zh-CN)
-* 中国語 — 繁体字 (zh-TW)
 * 英語 (en-US)
 * フランス語 (fr-FR)
 * ドイツ語 (de-DE)
-* イタリア語 (it_IT)
 * 日本語 (ja)
+* スペイン語 (es)
+* イタリア語 (it_IT)
 * ポルトガル語 (pt-BR)
-* スペイン語 — ラテンアメリカ
+* 韓国語 (ko)
+* 中国語 — 簡体字 (zh-CN)
+* 中国語 — 繁体字 (zh-TW)
 
 ブラウザーでWorkfrontを表示する際に使用する言語は、ブラウザーの言語設定で制御します。 サポート対象の言語の一覧に表示されているブラウザーの言語を選択していることを確認します。
 
@@ -146,4 +147,4 @@ Workfrontでサポートされている言語について詳しくは、 [Adobe 
 
 1. 内 **環境設定** セクションで、 **メールのロケール** ドロップダウンリストを使用して、Workfront E メールを表示する言語を選択します。
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
