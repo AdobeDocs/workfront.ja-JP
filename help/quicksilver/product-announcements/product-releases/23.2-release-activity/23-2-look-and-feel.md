@@ -4,10 +4,10 @@ description: 23.2 リリース期間中のルックアンドフィールの更�
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 2%
 このページでは、23.2 リリース期間内におこなわれた、Adobe Workfrontアプリケーションの様々な領域のルックアンドフィールに対するマイナーアップデートについて説明します。 これらの機能強化は、プレビューのリリース後最低 2 週間で実稼動環境で利用できるようになります。
 
 23.2 リリースで使用可能なすべての変更点の一覧については、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## 「リクエスト」領域のドラフトリストのルックアンドフィールを更新しました。
+
+>[!NOTE]
+>
+>プレビューリリース：2023 年 4 月 4 日；実稼動予定リリース：2023 年 4 月 19 日
+
+Workfrontの最新のリストと一致するように、リクエスト領域のドラフトリストを更新しました。
+更新の一部を次に示します。
+
+* 「リクエストタイプでフィルター」フィルターを標準のクイックフィルターに置き換えました
+* リストに要求が含まれていない場合に、下書きリストから画像を削除しました
+* リストにページネーションと列の並べ替えを追加しました。
+
+詳しくは、 [下書きからのリクエストの作成](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Workfrontのその他の領域で利用可能なスマートユーザー選択
 

@@ -6,7 +6,7 @@ title: Adobe Workfront Goals 23.2 リリースアクティビティ 2023 年 3 �
 description: このページでは、Adobe Workfront Goals のプレビュー環境向けの 23.2 リリースでおこなわれたすべての機能強化について説明します。 これらの機能強化は、2023 年 3 月 20 日の週に実稼動環境で利用可能になる予定です。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 69fbdd87bcb7a2743aec6d6ad06246b018b9ff16
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Workfront Goals 23.2 リリースアクティビティ：2023 年 3 月 20 日の週
 
-このページでは、2023 年 3 月 20 日のAdobe Workfront Goals のプレビュー環境に対する 23.2 リリースでおこなわれたすべての機能強化について説明します。
+このページでは、2023 年 3 月 20 日のプレビュー環境に対するAdobe Workfront Goals の 23.2 リリースでおこなわれたすべての機能強化について説明します。
 
 これらの機能強化は、2023 年 4 月 3 日の週に予定されている 23.2 リリースを含む実稼動環境で利用できるようになります。
 
