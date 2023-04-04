@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ ht-degree: 0%
 
 ## 最新リリース
 
+### アルファリリース 3 - 2023 年 3 月
+
+この 3 つ目のアルファリリースでは、承認者やレビュー担当者の追加または削除などの操作の完了時に表示される成功メッセージを紹介し、フィードバックを取り込みました。 さらに、このリリースでは保留中の承認が表示され、ホームページと更新ページで確認できるようになり、ユーザーはこれらのページから直接ドキュメントを簡単に承認できます。
+
+以下の完全なビデオのウォークスルーを確認します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _過去のリリース_
+
 ### アルファリリース 2 - 2023 年 1 月
 
 この Alpha 2 リリースでは、個人とチームをレビュー担当者または承認者として追加し、ドキュメントの詳細ページから直接承認の決定をおこなうことができます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _過去のリリース_
+次を監視： [ビデオウォークスルー](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### アルファリリース 1 - 2022 年 11 月
 
