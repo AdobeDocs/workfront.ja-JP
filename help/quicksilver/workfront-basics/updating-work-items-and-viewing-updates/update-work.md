@@ -6,7 +6,7 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 1%
@@ -232,6 +232,7 @@ drafted for P&P release:
    >[!TIP]
    >
    >   元の更新を送信した場合にのみ、ユーザーに更新を通知する電子メールが生成されます。 更新を編集した後は、電子メールは生成されません。
+
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 4～7 に従います。 <!--(**************insure this stays accurate***********)-->. 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （オプション） **次に類似** アイコン![](assets/like-icon.png). アイコンは「いいね！」の数に応じて更新されます。
 1. （条件付きおよびオプション）コメントに追加の担当者を含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているエンティティのリストを表示します。
@@ -349,7 +350,12 @@ drafted for P&P release:
 このオプションは、スレッドを他のユーザーと共有できるように、完全なスレッドリンクをクリップボードにコピーします。
 
 1. コピーする更新スレッドに移動します。
-1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー** <span class="preview">または **リンクをコピー** ベータ版エクスペリエンスを使用する場合</span>.
+
+1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー**
+
+   または
+
+   <span class="preview">**リンクをコピー** ベータ版エクスペリエンスを使用する場合</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ drafted for P&P release:
 このオプションは、特定の更新リンクをクリップボードにコピーします。 更新リンクを共有すると、リンクをたどるユーザーには、更新の周囲に境界線が表示されます。
 
 1. コピーする更新または返信に移動します。
-1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー** <span class="preview">または **リンクをコピー** ベータ版エクスペリエンスを使用する場合</span>.
+1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー**
+
+   または
+
+   <span class="preview">**リンクをコピー** ベータ版エクスペリエンスを使用する場合</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 表示されるメッセージで、 **確認** <span class="preview">または **削除**</span>（コメントベータ版エクスペリエンス）
+1. 表示されるメッセージで、 **確認**
+
+   または
+
+   <span class="preview"> **削除**（コメントベータ版エクスペリエンスの場合）</span>.
 
 >[!NOTE]
 >

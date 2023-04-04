@@ -5,9 +5,9 @@ title: Unified Commenting Experience
 description: 新しい Unified Commenting Experience は次のようになります
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -414,7 +414,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 新しい Commenting Exprience Beta を有効にするには：
 
 1. 新しいコメントエクスペリエンスを有効にするオブジェクトに移動し、 **更新** をクリックします。
-1. クリック **Commenting Beta を試す** をクリックします。
+1. を有効にします。 **Commenting Beta** 「更新」領域の右上隅にある切り替え。
 1. クリック **同意する** （ベータ版使用許諾契約）をクリックします。 これにより、選択したオブジェクトの新しいコメント式が有効になります。
 1. 更新の入力を開始するには、 **コメント** タブをクリックします。 新しいエクスペリエンスを開く際、「コメント」タブがデフォルトのタブになるようにしてください
 
