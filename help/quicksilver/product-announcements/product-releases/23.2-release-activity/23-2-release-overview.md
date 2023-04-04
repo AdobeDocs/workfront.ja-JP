@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -625,7 +625,7 @@ Workfront Fusion の新機能は、実稼動環境の 23.2 リリーススケジ
 
 ### Workfront目標の強化
 
-このリリースでは、現時点でWorkfront Goals の更新はありません。 この領域は、更新が利用可能になると更新されます。
+23.2 リリースを含むWorkfront Goals リリースの新機能。 プレビューで利用できる新機能について詳しくは、 [Adobe Workfront 23.2 リリースでの目標](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API バージョン 15
 

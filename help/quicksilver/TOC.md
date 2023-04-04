@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 19e1b6053f4def9e611bc45eae062cbb96325efe
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '12782'
+source-wordcount: '12799'
 ht-degree: 2%
 
 ---
@@ -175,6 +175,9 @@ ht-degree: 2%
          * [20.3 リリースのWorkfront Scenario Planner - 2020 年 8 月 14 日](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
       * Adobe Workfront Goals リリースアクティビティ {#goals-release}
          * [Adobe Workfront Goals リリースアクティビティ](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+         * 23.1 リリースの目標 {#goals-23-2}
+            * [Adobe Workfront 23.2 リリースでの目標](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
+            * [Adobe Workfront Goals 23.2 リリースアクティビティ：2023 年 3 月 20 日の週](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
          * 23.1 リリースの目標 {#goals-23-1}
             * [Adobe Workfront 23.1 リリースでの目標](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Adobe Workfront Goals 23.1 リリースアクティビティ：2023 年 12 月 5 日の週](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
