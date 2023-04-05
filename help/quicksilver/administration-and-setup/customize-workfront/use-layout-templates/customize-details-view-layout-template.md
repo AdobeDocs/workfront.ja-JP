@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # レイアウトテンプレートを使用して詳細ビューをカスタマイズする
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Adobe Workfront管理者は、レイアウトテンプレートを使用して、ユーザーが「詳細」アイコンをクリックしたときに表示される情報を決定できます ![](assets/project-details-icon.png) タスク、イシュー、ドキュメント、プログラム、またはポートフォリオを表示しているときに左のパネルに表示されます。
 
@@ -38,9 +38,9 @@ or billing record
    ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">「オブジェクトの編集」画面（プロジェクトの編集など）をプロジェクトを一括編集する場合</span>
+* オブジェクトを一括編集する際の「オブジェクトの編集」画面 現在、これはプロジェクトの一括編集でサポートされています。
 
-   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * 概要 ![](assets/summary-panel-icon.png) タスクと問題のリストのパネル

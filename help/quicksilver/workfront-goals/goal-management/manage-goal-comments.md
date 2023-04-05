@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Adobe Workfront目標で表示できるすべての目標にコメントを追加できます。
 
@@ -140,16 +140,15 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
    >コメントを入力して送信する前に「更新」セクションから移動すると、ログオフしてログオンし直した後でも、ページ上のコメントがドラフトモードのままになります。 下書きのコメントは、ユーザーが入力した場合にのみ表示されます。
 
 1. （オプション） **担当者またはチームのタグ付け** 領域に入力し、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
-1. <span class="preview">（オプション）コメントを編集するには、 **詳細** メニュー ![](assets/more-icon.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**. </span>
-1. <span class="preview">コメント内の情報を編集したり、タグ付きユーザーを削除したりします。 </span>
+1. （オプション）コメントを編集するには、 **詳細** メニュー ![](assets/more-icon.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
+1. コメント内の情報を編集します。&lt;<!--, or remove any of the tagged users-->.
+コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
-   <span class="preview">コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。</span>
-
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">元の更新を送信した場合にのみ、ユーザーに更新を通知する電子メールが生成されます。 更新を編集した後は、電子メールは生成されません。</span>
+   > 元の更新を送信した場合にのみ、ユーザーに更新を通知する電子メールが生成されます。 更新を編集した後は、電子メールは生成されません。
 
    1. （オプション） **詳細** メニュー ![](assets/more-icon.png)次に、次のいずれかのオプションをクリックして、コメントからクリップボードに情報をコピーします。
 
@@ -169,7 +168,7 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
    >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント付けエクスペリエンスを使用している場合にのみ表示されます。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. <span class="preview">（オプション） **詳細** メニュー ![](assets/more-icon.png) コメントの右側に移動し、「 **削除** 追加したコメントを削除します。 </span>
+1. （オプション） **詳細** メニュー ![](assets/more-icon.png) コメントの右側に移動し、「 **削除** 追加したコメントを削除します。
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 5～9 に従います。 <!--insure this stays accurate-->
 1. （オプション） **次に類似** アイコン![](assets/like-icon.png) 他の誰かが追加したコメントが気に入った。 アイコンは「いいね！」の数に応じて更新されます。
 1. （オプション）リッチテキストの書式設定を更新に追加するには、入力時にリッチテキストツールバーの任意の属性を使用します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

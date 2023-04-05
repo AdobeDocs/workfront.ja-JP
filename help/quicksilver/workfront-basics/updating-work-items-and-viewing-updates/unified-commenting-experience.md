@@ -5,9 +5,9 @@ title: Unified Commenting Experience
 description: 新しい Unified Commenting Experience は次のようになります
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '530'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # 新しいコメントエクスペリエンス
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、および選択したオブジェクトの更新セクションのパフォーマンスの向上が含まれます。
 
@@ -91,7 +91,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -163,9 +163,8 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -191,7 +190,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">編集コメントに置き換え </span>
+   <td>編集コメントに置き換え 
    </td>
    <td> 
    </td>
@@ -219,7 +218,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -247,8 +246,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">この機能は 23.2 で使用できるはずで、一時的に遅延しています。</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -304,9 +302,9 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2023 年第 2 四半期 
    </td>
@@ -318,7 +316,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -346,7 +344,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -388,16 +386,13 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
 ## 新しいコメントエクスペリエンスを見つける
 
-次のバージョンの「更新」セクションを表示する場合、新しいコメントエクスペリエンスは、現在、次のオブジェクトでサポートされています。
+次のバージョンのWorkfrontの「更新」セクションを表示する場合、新しいコメントエクスペリエンスは、現在、次のオブジェクトでサポートされています。
 
 * 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
-   <div class="preview">
-
-   * 問題.
+   * 問題
    Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   </div>
 
 * デフォルトでは、メインのコメントエクスペリエンスとして次のようになります。
 
@@ -408,8 +403,6 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
    目標の更新の管理について詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-
-<div class="preview">
 
 新しい Commenting Exprience Beta を有効にするには：
 
@@ -423,5 +416,3 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    次をクリック：  **システムアクティビティ** 」タブに移動して、Workfrontが生成したアクティビティの更新を表示します。
 
    新しいコメントエクスペリエンスでオブジェクトを更新する方法について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
-
-</div>

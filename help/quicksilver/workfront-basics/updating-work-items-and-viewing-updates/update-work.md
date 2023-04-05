@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいデザインにアクセスできます。
-> * <span class="preview">コメントベータ版を有効にする際の問題。 </span>
+> * コメントベータ版を有効にする際の問題。
    >
-   >     <span class="preview">この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。</span>
+   >     この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。
    >
-   >     * <span class="preview">ホーム</span>
-   >     * <span class="preview">リストの概要パネル</span>
-   >     * <span class="preview">タイムシートの概要パネル</span>
+   >     * ホーム
+   >     * リストの概要パネル
+   >     * タイムシートの概要パネル
 >
 > * 目標
-   >   新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ drafted for P&P release:
 
 1. 更新に返信するには、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### コメントベータ版エクスペリエンスを使用して作業項目の更新を追加する
 
 1. 更新するオブジェクトを探し、その名前をクリックしてオブジェクトのページを開きます。
@@ -224,7 +223,7 @@ drafted for P&P release:
 
 1. クリック **送信** をクリックして、Workfrontオブジェクトに更新を追加します。
 1. （オプション）コメントを編集するには、 **詳細** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
-1. コメント内の情報を編集したり、タグ付きユーザーを削除したりします。 <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. コメント内の情報を編集 <!--or remove any of the tagged users-->.
 コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ drafted for P&P release:
    >
    >システム更新にコメントを追加することはできません。
 
-</div>
 
 ## Workfrontの更新でのリッチテキストの使用
 
@@ -318,7 +316,7 @@ drafted for P&P release:
    >* 画像は、オブジェクトの「更新」タブからのみアクセスでき、「ドキュメント」タブでは使用できません。
    >* 画像とテキストを含まない更新を送信できます。
 
-1. クリック **更新**  <span class="preview">または **送信**</span>（コメントベータ版エクスペリエンス）
+1. クリック **更新**  または **送信**（コメント機能ベータ版のエクスペリエンスを使用する場合）
 
 
 ## 更新情報をコピー
@@ -351,11 +349,7 @@ drafted for P&P release:
 
 1. コピーする更新スレッドに移動します。
 
-1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー**
-
-   または
-
-   <span class="preview">**リンクをコピー** ベータ版エクスペリエンスを使用する場合</span>.
+1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー** または **リンクをコピー**（ベータ版エクスペリエンスを使用する場合）
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ drafted for P&P release:
 このオプションは、特定の更新リンクをクリップボードにコピーします。 更新リンクを共有すると、リンクをたどるユーザーには、更新の周囲に境界線が表示されます。
 
 1. コピーする更新または返信に移動します。
-1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー**
-
-   または
-
-   <span class="preview">**リンクをコピー** ベータ版エクスペリエンスを使用する場合</span>.
+1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー** または **リンクをコピー**（ベータ版エクスペリエンスを使用する場合）
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 表示されるメッセージで、 **確認**
-
-   または
-
-   <span class="preview"> **削除**（コメントベータ版エクスペリエンスの場合）</span>.
+1. 表示されるメッセージで、 **確認** または **削除**（コメント機能ベータ版のエクスペリエンスを使用する場合）
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">ベータ版のコメント機能を使用する際に、システムの更新を無効にすることはできません。 </span>
-><span class="preview">この節の情報は、現在の「更新」節で利用できる機能のみを示しています。 </span>
-><span class="preview">ベータ版のシステム更新の詳細については、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>ベータ版のコメント機能を使用する際に、システムの更新を無効にすることはできません。
+>この節の情報は、現在の「更新」節で利用できる機能のみを示しています。
+>ベータ版のシステム更新の詳細については、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Workfrontオブジェクトの「更新」セクションには、次の 2 種類の情報が表示されます。

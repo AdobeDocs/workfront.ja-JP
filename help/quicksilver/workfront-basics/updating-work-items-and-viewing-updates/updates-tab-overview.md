@@ -7,9 +7,9 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 4%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->現在、オブジェクトの「更新」セクションを再設計中です。
->
+>現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
 >新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->新しいデザインには、次のオブジェクトおよび次の環境からアクセスできます。
+>次のオブジェクトの新しいデザインにアクセスできます。
+> * コメントベータ版を有効にする際の問題。
+   >
+   >     この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。
+   >
+   >     * ホーム
+   >     * リストの概要パネル
+   >     * タイムシートの概要パネル
 >
->* <span class="preview">次のオブジェクトに対してコメントベータ版のエクスペリエンスを有効にする場合：</span>
-   >
-   >     * <span class="preview">問題</span>
-
-   >     
-   >     <span class="preview">この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。</span>
-   >
-   >     * <span class="preview">ホーム</span>
-   >     * <span class="preview">リストの概要パネル</span>
-   >     * <span class="preview">タイムシートの概要パネル</span>
->
->* デフォルトでは、次のオブジェクトの現在のコメントエクスペリエンスとして：
-   >
-   >     * 目標
+> * 目標
 
    >
-   >     Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 オブジェクトの「更新」(Updates) セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更を追跡するシステム更新が表示されます。
@@ -116,7 +111,7 @@ ht-degree: 4%
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">問題</span></li> 
+     <li>問題</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ ht-degree: 4%
 >
 >Adobe Workfrontのオブジェクト階層について詳しくは、 [Adobe Workfrontのオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> 新しいコメントベータ版エクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> 新しいコメントベータ版エクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## 更新の節の制限
 

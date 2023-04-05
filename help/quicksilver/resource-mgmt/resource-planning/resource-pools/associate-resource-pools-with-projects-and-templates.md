@@ -6,9 +6,9 @@ description: リソースプールは、Adobe Workfrontでのリソースの管�
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Also - take out all the references to Preview and Prod at prod final
 
    >[!NOTE]
    >
-   >* 実稼働環境では、プロジェクトまたはテンプレートを一括編集すると、選択したすべてのプロジェクトまたはテンプレートに共通のリソースプールのみがこのフィールドに表示されます。 選択したプロジェクトに共有リソースプールがない場合、このフィールドは空になります。 ここで指定したリソースプールは、プロジェクトまたはテンプレートの個々のリソースプールを上書きします。
+   >* 一括でテンプレートを編集する場合、選択したすべてのテンプレートに共通するリソースプールのみがこのフィールドに表示されます。 選択したテンプレートに共有リソースプールがない場合、このフィールドは空です。 ここで指定したリソースプールは、プロジェクトまたはテンプレートの個々のリソースプールを上書きします。
    >
-   >* <span class="preview">プレビュー環境では、プロジェクトを一括で編集すると、選択したプロジェクトに異なるリソースプールがある場合は、「複数値」インジケータが表示されます。 リソースプールを一括で追加すると、すべてのプールが選択したプロジェクトに追加され、元のリソースプールが上書きされます。</span>
+   >* プロジェクトを一括で編集する場合、選択したプロジェクトに異なるリソースプールがある場合は、「複数値」インジケータが表示されます。 プロジェクトの資源プールを一括で追加する場合、すべてのプールが選択したプロジェクトに追加され、元の資源プールが上書きされます。</span>
 
 
    <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
