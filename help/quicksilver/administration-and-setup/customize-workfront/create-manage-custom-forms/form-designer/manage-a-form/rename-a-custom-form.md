@@ -7,7 +7,7 @@ description: 既存のカスタムフォームの名前は、フォームデザ�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # フォームデザイナーでカスタムフォームの名前を変更する
-
-{{highlighted-preview-article-level}}
 
 カスタムフォームの名前は、フォームデザイナーで作成された後でいつでも変更できます。
 

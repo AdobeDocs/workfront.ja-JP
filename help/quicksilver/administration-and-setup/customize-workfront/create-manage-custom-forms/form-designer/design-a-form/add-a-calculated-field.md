@@ -7,7 +7,7 @@ description: カスタムフォームをオブジェクトに添付する際に�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # フォームデザイナーで計算フィールドを追加する
-
-{{highlighted-preview-article-level}}
 
 カスタムフォームをオブジェクトに添付する際に、既存のデータを使用して新しいデータを生成する計算カスタムフィールドを追加できます。
 

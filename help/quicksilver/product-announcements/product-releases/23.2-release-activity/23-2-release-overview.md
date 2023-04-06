@@ -4,9 +4,9 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # 23.2 リリースの概要
 
-このページでは、2023 年 4 月 3 日の週に予定されている 23.2 リリースに含まれる機能について説明します。
-
-このページの機能強化は、プレビュー環境で利用できます。 23.2 リリースが予定されている実稼動版リリースに近づくにつれ、このページは追加の機能強化で更新されます。
+このページでは、23.1 リリースに含まれる機能について説明します。 これらの機能強化は、2023 年 4 月 6 日および 7 日の 23.2 リリースで、実稼動環境で使用可能になりました。
 
 今後のリリースの準備に関するヒントは、 [Adobe Workfrontの四半期リリースに備える](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">オブジェクトの詳細からWorkfrontボードまたはワークストリームにタスクとイシューを追加する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">オブジェクトの詳細からWorkfrontボードまたはワークストリームにタスクとイシューを追加する</a></p>
                         <p>既存のタスクやイシューを、オブジェクトの詳細から直接Workfrontボードやワークストリームカードのリストに追加できるようになりました。 ボードに追加した項目はすべてカードに接続され、ワークストリームに追加した項目は、予期しないカードとしてカードリストに追加されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -429,7 +427,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">キャンバスダッシュボード</a><span style="color: #ff0000;"> 近日開始！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">キャンバスダッシュボード</a></p>
                         <p>キャンバスダッシュボードが、レイアウトテンプレートで有効にできるダッシュボードの作業中の機能として追加されました。 キャンバスダッシュボードでは、新しいレイアウトオプションに加えて、レポートキャンバスのビジュアライゼーションを既存のレポートと組み合わせることができます。 現在、リストレポートのみがサポートされていますが、開発が続くにつれ、さらに多くのオプションが追加されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -464,8 +462,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">モバイルアプリでの生体認証ログインとボードコレクション</span></a><span style="color: #ff0000;"> 近日開始！</span>
-                        <p>生体認証ログインは、モバイルアプリへの迅速なログインのためのオプションになりました。 初回ログイン後に生体認証が設定されると、ユーザーは指紋または顔認識を使用して、時々のパスワード再確認のみでアプリにすばやく再ログインできます。 さらに、後で更新する際に提供される一般的なログイン操作に対して、ルックアンドフィールが多数改善されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">モバイルアプリでの生体認証ログインとボードコレクション</span></a>
+                        </span></a><p>生体認証ログインは、モバイルアプリへの迅速なログインのためのオプションになりました。 初回ログイン後に生体認証が設定されると、ユーザーは指紋または顔認識を使用して、時々のパスワード再確認のみでアプリにすばやく再ログインできます。 さらに、後で更新する際に提供される一般的なログイン操作に対して、ルックアンドフィールが多数改善されます。</p>
                         <p>モバイルアプリでボードコレクションもサポートされるようになり、モバイルユーザーはモバイルボードリストからデスクトップバージョンでアクセス権のあるコレクションを表示できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -537,7 +535,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新規顧客を Unified Experience にオンボーディングするAdobe</a><span style="color: #ff0000;"> 近日開始！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新規顧客を Unified Experience にオンボーディングするAdobe</a></p>
                         <p>AdobeUnified Experience には次の内容が含まれます。
                         <ul>
                         <li>Adobe Experience Cloudを介したすべてのAdobe・アプリケーションへの 1 回のログイン</li>
@@ -559,7 +557,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Unified Experience のユーザー向けに、新しいタブで校正ビューアが開きます</a><span style="color: #ff0000;"> 近日開始！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Unified Experience のユーザー向けに、新しいタブで校正ビューアが開きます</a></p>
                         <p>統合エクスペリエンスのユーザー向けに、新しいタブで校正ビューアが開くようになりました。
                         </p>
                     </td>
@@ -627,11 +625,11 @@ Workfront Fusion の新機能は、実稼動環境の 23.2 リリーススケジ
 
 23.2 リリースを含むWorkfront Goals リリースの新機能。 プレビューで利用できる新機能について詳しくは、 [Adobe Workfront 23.2 リリースでの目標](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API バージョン 15
+### API バージョン 16
 
-API バージョン 15 では、いくつかのリソースとエンドポイントを変更しました。 一部の変更は新しい機能をサポートし、他の変更では、API を通じて入手可能な情報を使いやすくします。
+API バージョン 16 は 22.3 リリースでリリースされます。 API バージョン 16 では、いくつかのリソースとエンドポイントを変更しました。 一部の変更は新しい機能をサポートし、他の変更では、API を通じて入手可能な情報を使いやすくします。
 
-の新機能と更新点について詳しくは、 [API バージョン 15 の新機能](/help/quicksilver/wf-api/api/new-api-version-15.md).
+の新機能と更新点について詳しくは、 [API バージョン 16 の新機能](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 API バージョンについて詳しくは、 [API のバージョン管理とサポートのスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

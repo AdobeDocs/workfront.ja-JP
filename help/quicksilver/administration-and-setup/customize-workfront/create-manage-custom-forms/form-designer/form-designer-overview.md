@@ -7,7 +7,7 @@ description: ユーザーがWorkfrontオブジェクトに添付できるカス�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # フォームデザイナーの概要
-
-{{highlighted-preview-article-level}}
 
 新しいフォームデザイナーを使用すると、ユーザーがWorkfrontオブジェクトに添付できるカスタムフォームをデザインできます。 オブジェクトの操作を行うユーザーは、カスタムフォームに入力して、オブジェクトに関する情報を入力できます。
 

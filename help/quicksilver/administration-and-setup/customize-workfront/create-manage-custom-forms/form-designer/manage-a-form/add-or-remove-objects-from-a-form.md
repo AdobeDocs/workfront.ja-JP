@@ -7,7 +7,7 @@ description: フォームデザイナーを使用して、カスタムフォー�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # フォームデザイナーを使用して既存のカスタムフォームにオブジェクトの種類を追加または削除する
-
-{{highlighted-preview-article-level}}
 
 フォームデザイナーを使用して、既存のカスタムフォームに対してオブジェクトの種類を追加または削除できます。
 

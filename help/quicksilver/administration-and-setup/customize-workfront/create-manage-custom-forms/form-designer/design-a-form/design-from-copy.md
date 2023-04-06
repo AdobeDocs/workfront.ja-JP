@@ -7,7 +7,7 @@ description: フォームデザイナーを使用して、コピーからカス�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 4700e5650f6ef9de5291f36072db8706bade92ee
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 
 
 # フォームデザイナーを使用したコピーからのフォームのデザイン
-
-{{highlighted-preview-article-level}}
 
 既存のフォームに基づいて新しいカスタムフォームをデザインできます。 異なるWorkfrontオブジェクトにカスタムフォームを添付して、これらのオブジェクトに関するデータを取り込むことができます。
 

@@ -7,7 +7,7 @@ description: フォームデザイナーを使用してカスタムフォーム�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '3803'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 
 
 # フォームデザイナーを使用したフォームのデザイン
-
-{{highlighted-preview-article-level}}
 
 フォームデザイナーを使用してカスタムフォームをデザインできます。 異なるWorkfrontオブジェクトにカスタムフォームを添付して、これらのオブジェクトに関するデータを取り込むことができます。
 
@@ -332,7 +330,7 @@ ht-degree: 4%
     </ul></td>
     </tr> 
      <tr> 
-    <td role="rowheader">必須フィールドの作成</td> 
+    <td role="rowheader">必須フィールドを作成</td> 
     <td>ユーザーがカスタムフォームに入力するためにフィールドを必須にする場合は、このオプションを選択します。 </td> 
     <td><ul>
     <li>ラジオボタン</li>
@@ -470,7 +468,7 @@ ht-degree: 4%
     </ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">必須フィールドの作成</td> 
+      <td role="rowheader">必須フィールドを作成</td> 
       <td>ユーザーがカスタムフォームに入力するためにフィールドを必須にする場合は、このオプションを選択します。 </td> 
        <td><ul>
     <li>先行入力</li>

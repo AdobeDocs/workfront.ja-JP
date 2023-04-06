@@ -4,10 +4,10 @@ description: 23.2 リリース期間中のルックアンドフィールの更�
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '529'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プレビューリリース：2023 年 4 月 4 日；実稼動予定リリース：2023 年 4 月 19 日
+>プレビューリリース：2023 年 4 月 4 日；実稼動予定リリース：2023 年 4 月 21 日
 
 Workfrontの最新のリストと一致するように、リクエスト領域のドラフトリストを更新しました。
 更新の一部を次に示します。
