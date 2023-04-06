@@ -6,18 +6,14 @@ description: デフォルトの API バージョン管理を使用する統合�
 author: Becky
 feature: Workfront API
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # デフォルトの API バージョン管理を使用する統合を更新
-
-<!-- This article is going to need a complete revamp or to be removed-->
-
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
 
 Adobe Workfront API の新しいバージョンを年 2 回リリースします。 各バージョンはリリース後 3 年間サポートされ、追加の年は廃止済み状態で、バージョンは使用可能ですがサポートされていません。
 
@@ -27,38 +23,16 @@ URI で API のバージョンを指定しない統合は、自動的にデフ�
 >
 >お客様の組織が現在デフォルト API を使用している場合、Workfront管理者に、デフォルト API に関する詳細な手順を含むアナウンスセンターのメッセージが届きました。
 
-
-<!--
-Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.
--->
-
 API リクエストでバージョンを指定する方法については、 [統合での API バージョンの指定](../../wf-api/api/specify-api-version-integrations.md).
 
 ## デフォルト API を使用する際の考慮事項
 
 Workfront Default API を使用する際は、次の点に注意してください。
 
-* 23.2 リリース以降、API のデフォルトバージョンは最新バージョンに設定されます。 バージョンが指定されていない API 呼び出しでは、デフォルトバージョンが使用されます。 Workfrontが API の新しいバージョンをリリースするたびに、デフォルトのバージョンが最新バージョンに更新されます。 **したがって、新しいバージョンのWorkfront API がリリースされた後は、デフォルトバージョンを使用する API 呼び出しをチェックして、機能が引き続きサポートされていることを確認する必要があります**.
-* お客様の組織が現在非推奨のデフォルト API を使用している場合、Workfront管理者に、デフォルト API に関する詳細な手順を含むアナウンスセンターのメッセージが届きます。
-* <span class="preview">プレビュー環境のデフォルト API は、現在、最新バージョンに設定されています。 実稼動環境のデフォルト API は、23.2 リリース以降、最新バージョンに設定されます。</span>
+* API のデフォルトバージョン（最新バージョン）。 バージョンが指定されていない API 呼び出しでは、デフォルトバージョンが使用されます。 Workfrontが API の新しいバージョンをリリースするたびに、デフォルトのバージョンが最新バージョンに更新されます。 **したがって、新しいバージョンのWorkfront API がリリースされた後は、デフォルトバージョンを使用する API 呼び出しをチェックして、機能が引き続きサポートされていることを確認する必要があります**.
+* お客様の組織が現在、以前の非推奨のデフォルト API を使用している場合は、Workfront管理者に、デフォルト API に関する詳細な手順を含むアナウンスセンターのメッセージが届きます。
 
 この API の最新バージョンについては、 [API のバージョン管理とサポートのスケジュール](../../wf-api/api/api-version-support-schedule.md).
-
-<!--
-
-## Deprecating Default
-
-In an effort to improve the Workfront API, we are in the process of removing older API versions that have exceeded our support window of three years. One of these versions is Version 2, to which Default is mapped. This version was released in 2010, and much of the logic supported in the Attask/Workfront application at that time either no longer exists or has substantially changed.
-
-We deprecated Default in July 2017, and we will no longer designate a specific version of the API to be the default version. Instead, all Workfront API requests must specify a specific API version.
-
->[!IMPORTANT]
->
-> By July 1, 2018 all of your Workfront integrations that use Default must be updated to call a specific supported API version. After that date, all of your Workfront API requests used by integrations that do not specify a version will fail.
-
-To learn about the Workfront deprecation cadence, see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
-
--->
 
 ## サポートされる API バージョンへの統合の更新
 
