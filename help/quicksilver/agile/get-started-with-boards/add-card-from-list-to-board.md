@@ -5,7 +5,7 @@ title: 既存のタスクまたはイシューをAdobe Workfrontボードまた�
 description: リスト表示またはレポート表示からAdobe Workfrontのボードに任意のタスクまたはイシューを追加できます。
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # 既存のタスクまたはタスクを [!DNL Adobe Workfront] ボードまたはワークストリーム
-
-{{highlighted-preview-article-level}}
 
 任意のタスクまたはイシューを、 [!DNL Adobe Workfront] リスト表示やレポート表示、またはオブジェクトの詳細から。
 
