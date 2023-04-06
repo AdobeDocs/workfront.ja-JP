@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reports
 title: レポート要素の概要
 description: すべてのAdobe Workfrontのレポートとリストは、ビュー、フィルター、グループ化の 3 つの重要な要素を組み合わせたものです。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -46,6 +46,6 @@ ht-degree: 0%
 * [日付ベースのワイルドカードを使用してレポートを一般化する](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
 * [ユーザーベースのワイルドカードを使用してレポートを一般化する](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
 * [フィルター、表示またはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
-* [フィルター、ビュー、およびグループを削除する](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+* [フィルター、ビュー、グループの削除](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [マイルストーンビューの使用](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
 * [列の幅と順序を変更する](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)

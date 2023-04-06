@@ -4,19 +4,17 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfrontのフィルターの概要
 description: Adobe Workfrontでフィルターを使用すると、リスト、レポート、その他の領域で画面に表示する情報の量を減らすことができます。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: eddffe2951b5228d4abc287c16d5796b9394d9a6
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1840'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfrontのフィルターの概要
-
-<span class="preview">プレビュー環境では、拡張フィルターエクスペリエンス（旧称「ベータ版」）がデフォルトになりました。 これらの拡張フィルターは、「標準」になり、以前のフィルターエクスペリエンスは「レガシー」になりました。</span>
 
 Adobe Workfrontでフィルターを使用すると、リスト、レポート、その他の領域で画面に表示する情報の量を減らすことができます。
 
@@ -64,7 +62,7 @@ Workfrontのオブジェクトと、レポートの作成対象について詳�
 リストおよびレポートのフィルターの詳細については、次の記事を参照してください。
 
 * [Adobe Workfrontでフィルターを作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [フィルター、ビュー、およびグループを削除する](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+* [フィルター、ビュー、グループの削除](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [フィルター、表示またはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
 ## Workfrontの特殊領域用フィルター {#workfront-filters-for-special-areas}
@@ -77,7 +75,7 @@ Workfrontの次の領域で、組み込みフィルターを使用するか、�
 
    詳しくは、 [送信された要求の場所](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-* リソースプランナ\
+* リソースプランナー\
    詳しくは、 [リソースプランナーの情報のフィルタリング](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * 使用率レポート
@@ -96,7 +94,7 @@ Workfrontの次の領域で、組み込みフィルターを使用するか、�
 
    詳しくは、 [ブループリントのインストール](../../../administration-and-setup/blueprints/blueprints-install.md).
 
-* シナリオ プランナ
+* シナリオプランナー
 
    シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
 
@@ -169,11 +167,11 @@ Workfrontレポートについて詳しくは、 [Adobe Workfrontでのレポー
 
 次に、標準フィルタービルダーの例を示します。
 
-![標準フィルタービルダー](assets/filter-statements-with-or-and-and-nwe.png)
+![標準フィルタービルダー](assets/filter-sample-with-or.png)
 
-ベータ版のフィルタービルダーの例を次に示します。
+以下に、従来のフィルタービルダーの例を示します。
 
-![ベータフィルタービルダー](assets/filter-sample-with-or.png)
+![レガシーフィルタービルダー](assets/filter-statements-with-or-and-and-nwe.png)
 
 フィルターには、次の要素が含まれます。
 
@@ -233,13 +231,13 @@ Workfrontには、各フィルター文を結び付ける 2 つのフィルタ�
 
 ## ビルダーインターフェイスでのフィルターの作成
 
-次の方法で、標準またはベータのビルダーインターフェイスを使用してフィルターを作成できます。
+標準またはレガシーのビルダーインターフェイスを使用して、フィルターを作成するには、次の方法があります。
 
 * ゼロから
 * 既存のフィルターの変更
 * 既存のフィルターのコピー
 
-標準またはベータ版のビルダーインターフェイスを使用したフィルターの作成について詳しくは、 [Adobe Workfrontでフィルターを作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+標準またはレガシーのビルダーインターフェイスを使用したフィルターの作成について詳しくは、 [Adobe Workfrontでフィルターを作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## テキストモードインターフェイスを使用したフィルターの作成
 

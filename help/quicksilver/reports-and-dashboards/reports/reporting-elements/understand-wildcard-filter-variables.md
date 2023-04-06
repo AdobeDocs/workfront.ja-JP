@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: ワイルドカードフィルター変数
 description: フィルターでワイルドカードを使用すると、特定のユーザーや日付ではなく、汎用のユーザーや日付を参照できます。 このようにして、作成する要素は動的で、使用するコンテキストに応じて結果が変わります。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Workfrontの日付ベースのワイルドカードオプションは、任意�
 | **m** | 月 |
 | **y** | 年 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **修飾子** |  |
 |---|---|
 | **b** | 週の最初（日曜日） |
 | **e** | 週の終わり（土曜日） |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **演算子** |  |
 |---|---|
 | **+** | ワイルドカード値に値を追加 |
 | **-** | ワイルドカード値から値を減算 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 例えば、ワイルドカード `$$TODAYb+2w` は、「今週の初めから 2 週間」を指します。 ワイルドカード*`$$NOW+2h` は、「今から 2 時間後」を指します。
 
@@ -171,7 +171,7 @@ Workfrontは、次のユーザーベースの変数を提供します。
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
    <td> <p>$$USER.name 変数は、ログインしているユーザーのフルネームを参照します。</p> <p>メモ:   <p>このワイルドカード変数は、テキストモードでフィルターを変更する場合にのみ機能します。 このワイルドカードは、テキストモードをサポートしていないフィルターでは使用できません。 例えば、次の領域のフィルターでは、このワイルドカードを使用できません。</p> 
      <ul> 
-      <li> <p>リソースプランナ</p> </li> 
+      <li> <p>リソースプランナー</p> </li> 
       <li> <p>ワークロードバランサー</p> </li> 
       <li> <p>分析</p> </li> 
      </ul> </p> </td> 

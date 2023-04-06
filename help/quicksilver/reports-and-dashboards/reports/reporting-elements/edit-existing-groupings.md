@@ -1,10 +1,10 @@
 ---
 title: 既存のグループを編集
 description: 既存のグループを編集
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%

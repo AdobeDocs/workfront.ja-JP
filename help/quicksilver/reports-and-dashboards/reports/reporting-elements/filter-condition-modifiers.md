@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: フィルターおよび条件修飾子
 description: フィルターおよび条件修飾子を使用すると、フィルターを作成し、レポート結果を書式設定するための条件を設定できます。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 1%
@@ -66,7 +66,7 @@ ht-degree: 1%
    <td> <p>フィルターを適用するフィールドが存在し、null 以外の値が含まれています。</p> <p>この修飾子は、テキストモードのフィルターでのみ使用できます。 フィルターのテキストモードについて詳しくは、 <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">テキストモードを使用したフィルターの編集</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>含む</strong> </p> </td> 
+   <td> <p><strong>次を含む</strong> </p> </td> 
    <td> <p><strong>蝉</strong> </p> </td> 
    <td> <p>（大文字と小文字を区別しない）これは、 <strong>次を含む</strong>. 例："cicontains inf"は"Inf"または"inf"を含む値をキャプチャします。</p> <p> <p>注意：Adobe Workfrontは、各フィルター文に指定した語句を検索します。 例えば、名前に「new project」という語句を含むプロジェクトを検索すると、Workfrontでは、名前に「new」、「project」、「new main project」のいずれかが含まれるプロジェクトは表示されません。 フィルターは、名前に「new project」と完全に一致するフレーズを持つプロジェクトのみを検索します。</p> </p> </td> 
   </tr> 
@@ -111,7 +111,7 @@ ht-degree: 1%
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> <p> </p> <p> </p> <p><strong>等しい (大文字と小文字を区別しない)</strong> </p> </td> 
-   <td> <p><strong>以内</strong> </p> </td> 
+   <td> <p></strong>の<strong> </strong></p> </td> 
    <td> <p>（大文字と小文字を区別）この修飾子を使用すると、変数のコンマ区切りリストを作成して、フィルターで評価された単一の属性と比較できます。 リスト全体は OR ステートメントとして扱われ、1 つ以上の変数の条件を満たす結果が返されます。</p> <p>たとえば、プロジェクトを検索する場合、「CUR、PLN、CPL」を使用すると、「現在」、「計画」、「完了」のステータスのすべてのプロジェクトが戻されます。</p> <p>組み込みの修飾子 <strong>次と等しい</strong> は、 <strong>in</strong>. つまり、「次と等しい」をフィールドに複数の値を指定して選択できます。</p> <p>例えば、プロジェクトレポートで「ステータス=現在、計画、デッド」を選択し、これらのステータスのプロジェクトを表示できます。</p> </td> 
   </tr> 
   <tr valign="top"> 

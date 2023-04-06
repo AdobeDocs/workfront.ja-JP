@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: '''レポート要素：フィルター、ビュー、グループ化`'
 description: Workfrontでは、すべてのリストとレポートに含める必要がある主な要素は、フィルター、ビューおよびグループです。 各要素は、どのレポート内でも異なる情報を提供します。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%

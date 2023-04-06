@@ -4,10 +4,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Adobe Workfrontの概要を表示
 description: リストまたはレポートに表示する情報のタイプは、リストまたはレポートの表示を管理することでカスタマイズできます。 オブジェクトとその属性をビューに表示できます。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%

@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: ビューでの条件付き書式の使用
 description: レポートをAdobe Workfrontの他のユーザーと共有する際は、レポートの表示をカスタマイズし、特定の情報を読みやすく、または目立つようにすることを検討します。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 2%
     </tbody> 
    </table>
 
-1. クリック **この列にルールを追加**.
+1. 「**この列にルールを追加**」をクリックします。
 
    <!--
    <note type="note">
@@ -171,5 +171,5 @@ ht-degree: 2%
 
 
 1. クリック **完了**.
-1. クリック **保存して閉じる**.\
+1. 「**保存して閉じる**」をクリックします。\
    レポートで、指定した条件が満たされた場合に、形式に対する変更が表示されます。

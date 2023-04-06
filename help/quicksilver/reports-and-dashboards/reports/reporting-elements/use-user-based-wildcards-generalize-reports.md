@@ -3,13 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: ユーザーベースのワイルドカードを使用してレポートを一般化する
 description: 特定のレポート要素を作成する際に、特定の情報ではなくワイルドカードを使用して、レポートを一般化できます。
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. クリック **保存して閉じる**.
+1. 「**保存して閉じる**」をクリックします。
 
 ## 追加情報
 
