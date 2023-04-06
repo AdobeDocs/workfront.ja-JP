@@ -1,15 +1,11 @@
 ---
-content-type: reference
-navigation-topic: betas
 title: 'レポートキャンバスベータ版：リリースアクティビティ'
 description: Adobe Workfront Reporting Canvas ベータ版の週次リリースアクティビティ
-author: Nolan
-feature: Product Announcements
-exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+hidefromtoc: true
+source-git-commit: 4d41779e2e93e40f295bcff2bbdc0c84ea290b41
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 4%
 
 ---
 
@@ -77,3 +73,152 @@ ht-degree: 0%
 
 * #値! 行ごとに計算を実行できない場合は、セルにが表示されます
 * 特定のデータタイプをフィールドビルダーの特定の関数にドラッグ&amp;ドロップする際の検証機能を追加しました。
+
+## 計画されている機能
+
+Reporting Canvas の開発では、レポート作成を合理化する目的で、いくつかの機能を大幅に再設計し、新しい機能を一から作成しました。 次の表に、既存のレポートツールとの比較におけるレポートキャンバスの主な機能と、現在のリリースステータスの概要を示します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>機能の説明</th> 
+   <th>従来の用語 </th> 
+   <th>レポートキャンバスの用語</th> 
+   <th>ステータス</th> 
+  </tr> 
+  <tr> 
+   <td>レポート</td> 
+   <td>レポート</td> 
+   <td>レポートキャンバス</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>ダッシュボード</td> 
+   <td>ダッシュボード</td> 
+   <td>レポートキャンバス</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>テーブル</td> 
+   <td>「詳細」タブ</td> 
+   <td>テーブルブロック</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>グラフ</td> 
+   <td>「グラフ」タブ</td> 
+   <td>ビジュアライゼーションブロック</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>小計</td> 
+   <td>「概要」タブ</td> 
+   <td>KPI ビジュアライゼーション</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>ドリルパス</td> 
+   <td>レポートビューアモーダル</td> 
+   <td>レポートビューアオーバーレイ</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>列</td> 
+   <td>「表示」タブ</td> 
+   <td>テーブル編集</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>フィルター</td> 
+   <td>「フィルター」タブ</td> 
+   <td>テーブル編集</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>グループ</td> 
+   <td>「グループ」タブ</td> 
+   <td>テーブル編集</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>フィールド設定<br>（集計と条件付き書式）</td> 
+   <td>「表示」タブ</td> 
+   <td>テーブルの編集（列を選択）</td> 
+   <td>リリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>列のサイズ変更</td> 
+   <td>テキストモード</td> 
+   <td>テーブルの編集（列を選択）</td> 
+   <td>リリース済み</td> 
+  </tr> 
+   <tr> 
+   <td>外部コンテンツ</td> 
+   <td>外部ページ</td> 
+   <td>Web コンテンツブロック</td> 
+   <td>リリース済み</td> 
+  </tr> 
+   <tr> 
+   <td>エクスポート中</td> 
+   <td>レポートのアクション</td> 
+   <td><strong>詳細</strong> ビューアのメニュー</td> 
+   <td>部分的にリリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>列の共有</td> 
+   <td>テキストモード</td> 
+   <td>フィールドビルダー</td> 
+   <td>部分的にリリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>計算列</td> 
+   <td>テキストモード</td> 
+   <td>フィールドビルダー</td> 
+   <td>部分的にリリース済み</td> 
+  </tr> 
+  <tr> 
+   <td>グラフのスタイル設定</td> 
+   <td>「グラフ」タブ</td> 
+   <td>ビジュアライゼーションブロック（「スタイル」タブ）</td> 
+   <td>予定</td> 
+  </tr> 
+  <tr> 
+   <td>配信予定</td> 
+   <td>レポートのアクション</td> 
+   <td><strong>詳細</strong> ビューアのメニュー</td> 
+   <td>予定</td> 
+  </tr> 
+  <tr> 
+   <td>レポートアクセスの許可</td> 
+   <td>レポートのアクション</td> 
+   <td><strong>詳細</strong> ビューアのメニュー</td> 
+   <td>予定</td> 
+  </tr> 
+  <tr> 
+   <td>未認証のダッシュボードアクセス</td> 
+   <td>ダッシュボードのアクション</td> 
+   <td><strong>詳細</strong> ビューアのメニュー</td> 
+   <td>予定</td> 
+  </tr> 
+  <tr> 
+   <td>レポートデータの編集</td> 
+   <td>インライン編集</td> 
+   <td>概要ペイン</td> 
+   <td>予定</td> 
+  </tr> 
+  <tr> 
+   <td>ページのフィルター</td> 
+   <td>該当なし</td> 
+   <td>キャンバスフィルター</td> 
+   <td>予定</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>ここに示す機能は、階層型製品リリーススキームの一環としてリリースされます。 お客様の組織の計画に基づき、本ベータ版でアクセス権を持つ機能が完全リリースで使用できない可能性があります。
