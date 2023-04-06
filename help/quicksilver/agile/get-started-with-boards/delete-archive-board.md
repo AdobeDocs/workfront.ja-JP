@@ -6,9 +6,9 @@ title: ボードの削除またはアーカイブ
 description: ボードは、Workfrontで削除またはアーカイブできます。 ボードを削除すると、Workfrontから完全に削除されます。ボードをアーカイブすると、すべてのカードが保持され、後で復元することができます。
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 1%
 # ボードの削除またはアーカイブ
 
 ボードは、 [!DNL Workfront]. ボードを削除すると、そのボードは完全に削除されます [!DNL Workfront]をアーカイブすると、ボードはすべてのカードを保持し、後で復元できます。 これらのオプションは、ワークストリームの一部であるスタンドアロンボードとボードの両方に適用されます。
-
->[!NOTE]
->
->以前のバージョンのワークストリーム（コレクションと呼ばれる）は、初期の機能オプトインでのみ使用できます。 [!UICONTROL [!DNL Workfront] ボード]. 詳しくは、 [Adobe Workfrontボードの初期機能のオプトイン](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
->ワークストリームは、プレビュー環境の全員が使用できます。
 
 ## アクセス要件
 

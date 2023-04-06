@@ -7,7 +7,7 @@ description: アドホックカードと接続カードを使用してボード�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # アジャイル計画ツールの概要
-
-{{highlighted-preview}}
 
 アドホックカードと接続カードを使用してボードを作成する場合、追加のアジャイルプランニングツールを利用する必要が生じる場合があります。
 
@@ -26,15 +24,11 @@ ht-degree: 0%
 * カードをスイムレーンにグループ化
 * バックログに使用できる吸気列
 
-<div class="preview">
-
 スクラムに役立つツールは次のとおりです。
 
 * ワークストリームとイテレーションボード
 * カードリストまたはバックログ
 * 反復指標
-
-</div>
 
 特定のアジャイルな手法を使用することなく、お客様やチームに適した方法で、これらのツールのいずれかまたはすべてを使用できます。
 

@@ -6,24 +6,18 @@ title: ワークストリームの管理
 description: ワークストリームは、作業時の共同作業用に設定可能なボードとカードのグループです。
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '841'
 ht-degree: 3%
 
 ---
 
 # ワークストリームの管理
 
-{{highlighted-preview}}
+ワークストリームは、作業時の共同作業用に設定可能なボードとカードのグループです。 ワークストリームには、テンプレートから作成された様々なタイプのボードや、作業項目のカードリストが含まれる場合があります。 ワークストリームでは、繰り返しまたはスプリントで作業を追跡できます。
 
->[!NOTE]
->
->ワークストリームはプレビュー環境で、実稼動環境では初期の機能オプトインから次のように使用できます。 [!UICONTROL [!DNL Workfront] ボード]. 詳しくは、 [Adobe Workfrontボードの初期機能のオプトイン](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-ワークストリームは、作業時の共同作業用に設定可能なボードとカードのグループです。 ワークストリームには、テンプレートから作成された様々なタイプのボードを含めることができます。 <span class="preview">および作業項目のカードリスト。 ワークストリームでは、繰り返しまたはスプリントで作業を追跡できます。</span>
-
-<span class="preview">詳しくは、 [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) および [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
+詳しくは、 [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) および [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 ワークストリームは、ワークストリームに含まれない個々のボードと共に、ダッシュボードに表示されます。 ボードダッシュボードについて詳しくは、 [ボードダッシュボードの使用](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). ダッシュボード上の任意のボード名をクリックして開くことができます。
 
@@ -68,7 +62,7 @@ ht-degree: 3%
 | 基本ボード | 3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>列ポリシーは適用されません。 |
 | かんばんボード | 次の列がボードに表示されます。「バックログ」、「新規」、「処理中」、「完了」、「保留中」。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。<p>バックログを使用するには、取り込みカラムのフィルタを設定する必要があります。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>各列のデフォルトのポリシーを確認するには、 [!UICONTROL **詳細** メニュー] 列で、 [!UICONTROL **編集**]. これらの事前設定済みポリシーは任意に変更できます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | レトロボード | 次の列がボードに表示されます。何が上手く行った？ 改善すべき点? お祝いすべき対象? 迅速化のためにできること? 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>列ポリシーは適用されません。 |
-| <span class="preview">イテレーションプロセス</span> | <span class="preview">これは、反復を定義して実行するために使用されるボードです。 <p>次の列がボードに表示されます。「バックログ」、「新規」、「処理中」、「完了」、「保留中」。 ボードに列を追加することはできません。 <p>各列のデフォルトのポリシーを確認するには、 [!UICONTROL **詳細**] 列のメニューで「 」を選択し、 [!UICONTROL **編集**]. これらの事前設定済みポリシーは任意に変更できます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| イテレーションプロセス | これは、反復を定義して実行するために使用されるボードです。 <p>次の列がボードに表示されます。「バックログ」、「新規」、「処理中」、「完了」、「保留中」。 ボードに列を追加することはできません。 <p>各列のデフォルトのポリシーを確認するには、 [!UICONTROL **詳細**] 列のメニューで「 」を選択し、 [!UICONTROL **編集**]. これらの事前設定済みポリシーは任意に変更できます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 ボードの設定について詳しくは、 [ボードの作成または編集](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -99,8 +93,6 @@ ht-degree: 3%
 
    これは、ボードにメンバーを追加する場合と同じ手順です。 詳しくは、 [ボードに対するメンバーの追加または削除](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## ワークストリームの設定
 
 {{step1-to-boards}}
@@ -118,4 +110,3 @@ ht-degree: 3%
 
    ワークストリームソースに対するフィルタの追加は、基本ボードまたはかんばんボードに対する吸気列に対するフィルタの追加と同じです。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-</div>

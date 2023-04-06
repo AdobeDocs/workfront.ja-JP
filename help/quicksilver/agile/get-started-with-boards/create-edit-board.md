@@ -6,10 +6,10 @@ description: 次の [!UICONTROL ボード] ダッシュボードを使用する�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 4%
+source-wordcount: '477'
+ht-degree: 5%
 
 ---
 
@@ -45,10 +45,6 @@ ht-degree: 4%
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
 1. スタンドアロンボードを作成するには、 **[!UICONTROL ボードを追加]** 内 [!UICONTROL ボード] 領域 ワークストリームにボードを追加するには、 [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-   >[!NOTE]
-   >
-   >ワークストリームはプレビュー環境で、実稼動環境では初期の機能オプトインから次のように使用できます。 [!UICONTROL [!DNL Workfront] ボード]. 詳しくは、 [Adobe Workfrontボードの初期機能のオプトイン](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 1. ボードのテンプレートを選択します。
 
    | テンプレート | 説明 |
@@ -56,10 +52,6 @@ ht-degree: 4%
    | 基本ボード | 3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 |
    | かんばんボード | 次の列がボードに表示されます。「バックログ」、「新規」、「処理中」、「完了」、「保留中」。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。<p>バックログを使用するには、取り込みカラムのフィルタを設定する必要があります。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>各列のデフォルトのポリシーを確認するには、 [!UICONTROL **詳細** メニュー] 列で、 [!UICONTROL **編集**]. これらの事前設定済みポリシーは任意に変更できます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | レトロボード | 次の列がボードに表示されます。何が上手く行った？ 改善すべき点? お祝いすべき対象? 迅速化のためにできること? 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>列ポリシーは適用されません。 |
-
-   >[!NOTE]
-   >
-   > ボードテンプレートは、の初期機能オプトインでのみ使用できます。 [!DNL Workfront] [!UICONTROL ボード]. そうでない場合は、基本ボードに限定されます。
 
 1. ボードの名前を **[!UICONTROL ボード]** フィールドに入力し、Enter キーを押します。
 1. 必要に応じて、ボードを設定します。

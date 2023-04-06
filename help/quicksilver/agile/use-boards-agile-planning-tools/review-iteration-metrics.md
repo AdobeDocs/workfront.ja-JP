@@ -6,18 +6,16 @@ title: 反復指標の確認
 description: 指標は、ワークストリームの各イテレーションに対して、イテレーションプロセスボードで使用できます。
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
 # 反復指標の確認
 
-{{highlighted-preview-article-level}}
-
-指標は、ワークストリームの各イテレーションに対して、イテレーションプロセスボードで使用できます。
+指標は、ワークストリーム、イテレーションプロセスボード、ダッシュボードで、各イテレーションに対して使用できます。
 
 ## アクセス要件
 

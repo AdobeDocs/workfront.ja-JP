@@ -6,27 +6,21 @@ description: この [!UICONTROL ボード] 「ダッシュボード」には、�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # ボードダッシュボードの使用
 
-{{highlighted-preview}}
-
 ボードダッシュボードには、作成したボードや追加したボードを含む、アクセス権のあるボードやワークストリームのリストが表示されます。 アクセス権を持つ個々のボードは、最初にワークストリームに含まれていません。
-
->[!NOTE]
->
->ワークストリームはプレビュー環境で、実稼動環境では初期の機能オプトインから次のように使用できます。 [!UICONTROL [!DNL Workfront] ボード]. 詳しくは、 [Adobe Workfrontボードの初期機能のオプトイン](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ダッシュボードでは、ボードとワークストリームに対して次の操作を実行できます。
 
-* ボードのアーカイブ <span class="preview">または workstream</span>
-* ボードをフィルター <span class="preview">およびワークストリーム</span>
+* ボードまたはワークストリームのアーカイブ
+* ボードとワークストリームのフィルタリング
 * ボード名または変更日でボードリストを並べ替え
 * ボードまたはワークストリームの検索
 * ボードまたはワークストリームの削除
@@ -54,7 +48,7 @@ ht-degree: 0%
 
 &#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
 
-## フィルターボード <span class="preview">およびワークストリーム</span> {#filter-boards}
+## ボードとワークストリームのフィルタリング {#filter-boards}
 
 ボードダッシュボードにフィルターを適用して、アクティブなボード、アーカイブされたボード、またはすべてのボードやワークストリームを表示できます。
 
@@ -85,7 +79,7 @@ ht-degree: 0%
 
    ![ダッシュボードでのボードの検索](assets/boards-searchbox.png)
 
-## ボードのアーカイブ <span class="preview">またはワークストリーム</span>
+## ボードまたはワークストリームのアーカイブ
 
 ボードまたはワークストリームをアーカイブすると、アーカイブに送信され、後で復元できます。
 
@@ -123,17 +117,18 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL ボードを削除]** または [!UICONTROL **ワークストリームを削除**] をクリックします。
 
-## ワークストリームへのボードの移動
+<!-- ## Move a board to a workstream
 
-スタンドアロン・ボードをワークストリーム内に移動したり、あるワークストリームから別のワークストリームにボードを移動したりできます。
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->移動できるのは自分で作成したボードのみで、自分が追加したボードは移動できません。
+>You can only move boards that you created, not boards that you were added to.
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) を選択し、 [!UICONTROL **ワークストリームに移動**].
-1. ボードを追加するワークストリームを選択し、 [!UICONTROL **移動**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   ボードがワークストリーム内に移動され、 [!UICONTROL ボード] 領域
-まだワークストリームを作成していない場合は、ボードを移動するワークストリームを作成するように求められます。
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->
