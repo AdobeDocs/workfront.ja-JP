@@ -6,9 +6,9 @@ description: 自分が作成したオブジェクトや自分が共有してい�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 0%
 
 アクセス権のあるオブジェクトに対する権限を共有するのはAdobe Workfront管理者である必要はありませんが、オブジェクトに対する権限はWorkfront管理者が設定したアクセスレベルで機能します。
 
-アクセスレベルと権限の詳細については、 [アクセスレベルと権限の連携](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
-
-自分が作成したオブジェクトや自分が共有していたオブジェクトに対する権限を共有または削除できます。 オブジェクトの作成者でない場合は、オブジェクトに対する共有権限に加えて、アクセスレベルで共有するオブジェクトに対する共有アクセス権が必要です。 アクセス・レベルの詳細は、 [アクセスレベルの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+自分が作成したオブジェクトや自分が共有していたオブジェクトに対する権限を共有または削除できます。 オブジェクトの作成者でない場合は、オブジェクトに対する共有権限に加えて、アクセスレベルで共有するオブジェクトに対する共有アクセス権が必要です。 アクセス・レベルの詳細は、 [アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) または [レガシーアクセスレベルの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ Workfrontで以下のオブジェクトを他のユーザーと共有できま�
 
    例えば、オブジェクトに対する Contribute の権限を持っている場合、そのオブジェクトに対する別のユーザに管理権限を付与することはできません。
 
-* ユーザーのアクセスレベルより高いアクセスレベルのオブジェクトを共有することはできません。 例えば、ユーザーのアクセスレベルでプロジェクトへの表示アクセス権を持っている場合、プロジェクトに対する管理権限を付与することはできません。
+* ユーザーのアクセスレベルより高いアクセスレベルのオブジェクトを共有することはできません。 例えば、ユーザーのアクセスレベルでプロジェクトへの表示アクセス権を持っている場合、プロジェクトに対する管理権限を付与することはできません。
 * 少なくとも 1 つのオブジェクトを表示する権限を持つユーザーは、そのオブジェクトを他のユーザーと共有できます。
 * オブジェクトは、アクティブなユーザー、ジョブの役割、チーム、グループ、会社と共有できます。
 

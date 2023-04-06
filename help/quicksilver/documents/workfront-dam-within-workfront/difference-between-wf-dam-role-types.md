@@ -7,9 +7,9 @@ description: Adobe Workfront管理者は、アクセスレベルを使用して�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dcca0158-dc31-4aba-bd87-90ccc64e77cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Workfront管理者は、ライセンスの種類を割り当てて、ユーザ�
 * リクエスト
 * 外部
 
-詳しくは、 [Adobe Workfrontライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) Workfrontの様々なライセンスタイプの説明
+詳しくは、 [レガシーライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) Workfrontの様々なライセンスタイプの説明
 
 ## Workfront DAM の役割タイプ
 

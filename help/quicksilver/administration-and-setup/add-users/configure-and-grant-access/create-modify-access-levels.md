@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-Adobe Workfront管理者は、カスタムアクセスレベルを作成してユーザーに適用できます。詳しくは、 [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Adobe Workfront管理者は、カスタムアクセスレベルを作成し、ユーザーに適用できます。 アクセスレベルを使用する場合は、ユーザーがオブジェクトを共有する際に付与するオブジェクト権限と連携する方法を理解することが重要です。 アクセスレベルの詳細については、
 
-アクセスレベルを使用する場合は、ユーザーがオブジェクトを共有する際に付与するオブジェクト権限と連携する方法を理解することが重要です。 詳しくは、 [アクセスレベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [レガシーアクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->ユーザーを設定した後で参照できるように、組み込みのアクセスレベルを変更しないことを強くお勧めします。 アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、コピーを変更します。 （システム管理者と外部ユーザーを除くすべてのアクセスレベルに対してこれを実行できます）。
+>ユーザーを設定した後で参照できるように、組み込みのアクセスレベルを変更しないことを強くお勧めします。 アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、コピーを変更します。 これは、システム管理者と外部ユーザーを除くすべてのアクセスレベルで実行できます。
 
 ## アクセス要件
 
@@ -41,11 +42,13 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成して�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td>現在のプラン：標準
+   <p>または</p>
+   <p>レガシープラン：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="#" class="MCXref xref selected">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成して�
     <tbody> 
      <tr> 
       <td role="rowheader">名前</td> 
-      <td> <p>アクセスレベルの名前を入力します。 </p> <p>アクセスレベルをコピーして新しいアクセスレベルを作成した場合、デフォルトの名前は「アクセスレベル名（コピー）」です。ここで、「アクセスレベル名」はコピーしたアクセスレベルです。</p> <p><strong>ヒント</strong>:コピーの名前には、元のアクセスレベル名を含めることをお勧めします。 例えば、ACME の会社では、プランナーのアクセスレベルのコピーは、ACME プランナーという名前にすることができます。</p> </td> 
+      <td> <p>アクセスレベルの名前を入力します。 </p> <p>アクセスレベルをコピーして新しいアクセスレベルを作成した場合、デフォルトの名前は「アクセスレベル名（コピー）」です。ここで、「アクセスレベル名」はコピーしたアクセスレベルです。</p> <p><strong>ヒント</strong>:コピーの名前には、元のアクセスレベル名を含めることをお勧めします。 例えば、ACME の会社では、標準アクセスレベルのコピーを ACME Standard という名前にできます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">説明 </td> 
@@ -77,12 +80,12 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成して�
      </tr> 
      <tr> 
       <td role="rowheader">ライセンスの種類</td> 
-      <td>ここで選択したライセンスが、作成または編集するアクセスレベルの種類に最も密接に関連しているライセンスであることを確認します。 選択したライセンスによって、アクセスレベルで使用できる設定が決まります。 詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</td> 
+      <td>ここで選択したライセンスが、作成または編集するアクセスレベルの種類に最も密接に関連しているライセンスであることを確認します。 選択したライセンスによって、アクセスレベルで使用できる設定が決まります。 詳しくは、 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">レガシーライセンスの概要</a> または <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontレガシーライセンスの概要</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （条件付き） **プラン** が **ライセンスの種類** ボックス、セクションまでスクロール **次の管理アクセスを許可：** をクリックし、このアクセスレベルを持つユーザーに対する管理アクセス権限を選択します。
+1. （条件付き） **標準** または **プラン** が **ライセンスの種類** ボックス、セクションまでスクロール **次の管理アクセスを許可：** をクリックし、このアクセスレベルを持つユーザーに対する管理アクセス権限を選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成して�
         <li>新しいジョブの役割を追加</li> 
         <li>ロールの請求とコスト率を編集</li> 
        </ul> 
-       <p>ジョブ・ロールへの管理アクセス権を持つ Planner ユーザーが使用できる財務データへのアクセスに関する重要な情報は、次を参照してください： <a href="#planner-users-with-administrative-access-to-job-roles">ジョブ・ロールへの管理アクセス権を持つプランナ・ユーザー</a>.</p>
+       <p>ジョブ・ロールへの管理アクセス権を持つ標準またはプランナ・ユーザーが使用できる財務データへのアクセスに関する重要な情報は、次を参照してください： <a href="#planner-users-with-administrative-access-to-job-roles">ジョブ・ロールへの管理アクセス権を持つ標準ユーザーまたはプランナ・ユーザー</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成して�
      </tr> 
      <tr> 
       <td role="rowheader">タイムシートと時間</td> 
-      <td> <p>グループ管理者は、管理するグループとサブグループ内のユーザーにタイムシートプロファイルを割り当てることができます。</p> <p>このオプションを有効にしないと、グループ管理者は管理するグループとサブグループ内の他のユーザーにタイムシートプロファイルを割り当てることができませんが、作成はできます。</p> <p>プランライセンスを持つ他のすべてのユーザーは、Workfrontですべての時間とタイムシートを表示できます。</p> <p>このオプションを有効にしないと、ユーザーは次の日にのみ時間を表示できます。</p> 
+      <td> <p>グループ管理者は、管理するグループとサブグループ内のユーザーにタイムシートプロファイルを割り当てることができます。</p> <p>このオプションを有効にしないと、グループ管理者は管理するグループとサブグループ内の他のユーザーにタイムシートプロファイルを割り当てることができませんが、作成はできます。</p> <p>Standard または Plan のライセンスを持つ他のすべてのユーザーは、Workfrontですべての時間とタイムシートを表示できます。</p> <p>このオプションを有効にしないと、ユーザーは次の日にのみ時間を表示できます。</p> 
        <ul> 
         <li>管理するプロジェクト、タスクまたは問題</li> 
         <li>自分のタイムシート</li> 
@@ -203,9 +206,9 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成して�
 
    システム管理者がAdobeにシステム管理者のアクセスレベルを割り当てる方法については、 [ユーザーに完全な管理アクセス権を付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## ジョブ・ロールへの管理アクセス権を持つプランナ・ユーザー {#planner-users}
+## ジョブ・ロールへの管理アクセス権を持つ標準ユーザーまたはプランナ・ユーザー {#planner-users}
 
-プランナ・ユーザーにジョブ・ロールへの管理アクセス権を付与すると、「ロールの請求と原価率の編集」設定がユーザーに対して自動的に有効になります。
+標準またはプランナのユーザー管理アクセス権をジョブ・ロールに付与すると、「ロールの請求と原価率の編集」設定が自動的にユーザーに対して有効になります。
 
 後で、ユーザーのジョブロールへの管理アクセスを無効にしても、「ロールの請求とコスト率の編集」設定が有効なままなので、ジョブロールは引き続きユーザーに表示されます。
 

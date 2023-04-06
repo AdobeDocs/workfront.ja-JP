@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe Workfront管理者は、シナリオ・プランナに対するユーザ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>レビュー以上 詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td> <p>レビュー以上 詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">レガシーライセンスの概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 

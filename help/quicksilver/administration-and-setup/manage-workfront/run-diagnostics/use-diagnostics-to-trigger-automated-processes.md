@@ -7,10 +7,10 @@ description: 診断を使用して、時間ベースのスクリプト、再計�
 feature: System Setup and Administration
 role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 6%
+source-wordcount: '328'
+ht-degree: 7%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 6%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a> </td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">レガシーライセンスの概要</a> </td> 
    <td> <p>計画 </p>Workfront管理者である。 Workfront管理者について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</td> 
   </tr> 
  </tbody> 

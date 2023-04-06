@@ -1,23 +1,23 @@
 ---
-title: アクセスレベルの概要
+title: レガシーアクセスレベルの概要
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: アクセス，レベル，システム，管理者，プランナー，ワーカー，レビュー担当者，要求者，外部，ユーザー
 navigation-topic: access-levels
 description: Workfrontにログインして作業するには、すべてのユーザーにアクセスレベルが必要です。 アクセスレベルを使用して、特定のWorkfrontオブジェクトや領域でユーザーが表示したり実行したりする操作を制御できます。 組み込みの 6 つのアクセスレベルはそれぞれ、5 つのWorkfrontライセンス（プラン、作業、レビュー、リクエスト、外部）の 1 つに関連付けられています。
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 33c269cee3fbab51ce67f50cbdd1fdd190d948b7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# アクセスレベルの概要
+# レガシーアクセスレベルの概要
 
 Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセスレベルを割り当てます。
 
@@ -41,8 +41,8 @@ Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセ�
  </thead> 
  <tbody> 
   <tr> 
-   <td>ライセンス数</td> 
-   <td> <p>アクセスレベルに付属するライセンスによって、アクセスレベルの設定方法が決まります。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> <p><strong>ヒント</strong>:各ユーザに割り当てられているアクセスレベルとライセンスは、ユーザリストまたはレポートを表示することで確認できます。 手順については、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">ユーザーのアクセスレベルとライセンスを一覧表示する</a>.</p> </td> 
+   <td>ライセンス</td> 
+   <td> <p>アクセスレベルに付属するライセンスによって、アクセスレベルの設定方法が決まります。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">レガシーライセンスの概要</a>.</p> <p><strong>ヒント</strong>:各ユーザに割り当てられているアクセスレベルとライセンスは、ユーザリストまたはレポートを表示することで確認できます。 手順については、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">ユーザーのアクセスレベルとライセンスを一覧表示する</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>組み込みのアクセスレベル</td> 

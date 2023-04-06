@@ -6,10 +6,10 @@ navigation-topic: configure-proofing-functionality
 title: 配達確認を自動的に生成するかどうかの設定
 description: Workfrontにドキュメントを追加するユーザーを指定した場合に、システムが配達確認を自動的に生成するかどうかを設定できます。 この設定は、デフォルトでは無効です。
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 0%
+source-wordcount: '234'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Workfrontにドキュメントを追加するユーザーを指定した場合�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">レガシーライセンスの概要</a>*</td> 
    <td>計画</td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Workfrontにドキュメントを追加するユーザーを指定した場合�
 
    ![](assets/autogenerate-proofs-350x216.png)
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
 
 ## 複数のユーザーに対して配達確認を自動的に生成するかどうかを設定
 
@@ -66,5 +66,5 @@ Workfrontにドキュメントを追加するユーザーを指定した場合�
 
    ![](assets/autogenerate-proofs-bulk-350x285.png)
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
 

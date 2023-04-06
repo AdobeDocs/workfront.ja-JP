@@ -5,12 +5,10 @@ title: 非有料ユーザーに対する限定的なドキュメントおよび�
 description: 配達確認とドキュメントの決定は、有料Workfrontライセンスのすべてに対して制限されます。 制限は、ユーザーごとに 1 ヶ月ごとにリセットされます。
 author: Courtney
 feature: Work Management
-hide: true
-hidefromtoc: true
-source-git-commit: 6961bc960312d364ee785543e13a7d75035ef326
+source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 8%
+source-wordcount: '225'
+ht-degree: 6%
 
 ---
 
@@ -74,13 +72,13 @@ ht-degree: 8%
 
 ## 投稿者ユーザー
 
-寄稿者ライセンスを持つユーザーが決定制限に達すると、配達確認とドキュメントに関する無制限の決定を含む Light ライセンスに自動的にアップグレードされます。 <!-- For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.-->
+寄稿者ライセンスを持つユーザーが決定制限に達すると、配達確認とドキュメントに関する無制限の決定を含む Light ライセンスに自動的にアップグレードされます。 Light ライセンスの詳細については、 [ライトアクセスレベル](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) セクション [アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 記事。
 
 >[!NOTE]
 >
->Workfront管理者とユーザーの両方に、このアップグレードに関する電子メール通知が送信されます。
+>Workfront管理者に、このアップグレードに関する電子メール通知が届きます。
 
-<!-- 
-## View the number of decisions for a user
 
-You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md). -->
+## ユーザーの決定数の表示
+
+ユーザーの決定数は、Workfrontの「ユーザー」領域で表示できます。 詳しくは、 [すべてのユーザーの決定数を表示](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

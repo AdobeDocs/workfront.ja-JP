@@ -6,9 +6,9 @@ description: ユーザーがWorkfrontインスタンスにアップロードで�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>*</td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">レガシーライセンスの概要</a>*</td> 
    <td> <p>Workfront管理者である。 Workfront管理者について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> </td> 
   </tr> 
  </tbody> 

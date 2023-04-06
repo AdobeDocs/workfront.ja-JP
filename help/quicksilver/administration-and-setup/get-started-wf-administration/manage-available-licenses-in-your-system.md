@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 5ec772260c965b83824ff307bc84755fe06e1ba0
+source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Workfront管理者は、組織で購入されたライセンスの数や�
 
 1. 左側のパネルの下部で、 **システム** > **ライセンス**.
 
-   このページに記載されているライセンスの詳細については、 [Adobe Workfrontライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   このページに記載されているライセンスの詳細については、 [レガシーライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ Adobe Workfront管理者は、組織で購入されたライセンスの数や�
 
 1. （条件付き）メッセージが表示された場合 **最大値を設定するには、ホームグループを追加する必要があります**&#x200B;を使用して、の節で説明されている方法で、システムにホームグループを追加します。 [[ ライセンス ] ページにホームグループを追加または削除する](#add-or-remove-a-home-group-to-the-licenses-page) 」を参照してください。
 
-## Workfrontアドオンのライセンス情報の表示
+## Workfrontアドオンのライセンスに関する情報を表示
 
 下のスクリーンショットで **5/10 個の配達確認ライセンス** この組織が有料Workfront Proof アドオンを持ち、現在購入した 10 個のWorkfront Proof ライセンスのうち 5 個を使用していることを示します。
 
@@ -88,6 +88,20 @@ If an organization has other paid add-on products, their license information als
 >* ライセンスの種類制限：プランナーの制限
 >
 >レポートの作成について詳しくは、 [カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+## 月次配達確認とドキュメントの決定割り当てに関する情報を表示します
+
+配達確認とドキュメントの決定は、有料Workfrontライセンスのすべてに対して制限されます。 制限は、ユーザーごとに 1 ヶ月ごとにリセットされます。
+
+>[!IMPORTANT]
+>
+>配達確認とドキュメントの決定制限は、 [レガシーWorkfrontライセンスとアクセスレベル](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+各ライセンスの決定制限は、使用するプランによって異なります。 毎月の割り当ては、[ セットアップ ] > [ ライセンス ] で確認できます。
+
+配達確認とドキュメントの決定制限について詳しくは、 [非有料ユーザーに対する限定的なドキュメントおよび配達確認の決定の概要](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+![](assets/monthly-decision-allotment.png)
 
 ## [ ライセンス ] ページにホームグループを追加または削除する {#add-or-remove-a-home-group-to-the-licenses-page}
 

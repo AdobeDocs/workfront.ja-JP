@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス，モデル，ファネル，ダイアグラム，レベル，権限
 navigation-topic: access-levels
-title: 各オブジェクトタイプで使用できる機能
+title: 様々なレガシーアクセスレベルで各オブジェクトタイプで使用可能な機能
 description: 次の表に、様々なアクセスレベルで各オブジェクトタイプで使用できる機能を示します。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 1949879ec86e2203c422d1fc05fcb19edf19b4fd
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1446'
 ht-degree: 12%
 
 ---
 
-# 各オブジェクトタイプで使用できる機能
+# 様々なレガシーアクセスレベルで各オブジェクトタイプで使用可能な機能
 
 次の表に、様々なアクセスレベルで各オブジェクトタイプで使用できる機能を示します。
 
@@ -91,7 +91,7 @@ ht-degree: 12%
 | 財務を表示 | ✓ | ✓ | ✓ |   |   |
 | 更新/コメント | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; アクセスレベルを使用して、Workfront管理者はこの機能を無効または有効にできます。 詳しくは、 [各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -113,7 +113,7 @@ ht-degree: 12%
 | イシューをコピー | ✓ | ✓ | ✓ | ✓ |   |
 | イシューの移動 | ✓ | ✓ | ✓ | ✓ |   |
 | ログ時間 | ✓ | ✓ |   |   |   |
-| イシューをプロジェクトに変換する | ✓ | ✓ |   |   |   |
+| イシューのプロジェクトへの変換 | ✓ | ✓ |   |   |   |
 | イシューのタスクへの変換 | ✓ |   |   |   |   |
 | 割り当てを承認 | ✓ | ✓ |   |   |   |
 | 割り当てを行う | ✓ | ✓ |   |   |   |
@@ -187,7 +187,7 @@ ht-degree: 12%
 | 編集 | ✓ |   |   |   |   |
 | コピー | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; アクセスレベルを使用して、Workfront管理者はこの機能を無効または有効にできます。 詳しくは、 [各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -305,7 +305,7 @@ ht-degree: 12%
 | リンク（統合と） | ✓ | ✓ | ✓ | ✓ |   |
 | リンク解除（統合と） | ✓ | ✓ | ✓ | ✓ |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; アクセスレベルを使用して、Workfront管理者はこの機能を無効または有効にできます。 詳しくは、 [各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -477,7 +477,7 @@ ht-degree: 12%
 | コピー | ✓ |   |   |   |   |
 | テンプレートの詳細を編集 | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; アクセスレベルを使用して、Workfront管理者はこの機能を無効または有効にできます。 詳しくは、 [各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -502,7 +502,7 @@ ht-degree: 12%
 | プロジェクトに対するリスクの発生 | ✓ |   |   |
 | プロジェクトのリスクの表示 | ✓ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; アクセスレベルを使用して、Workfront管理者はこの機能を無効または有効にできます。 詳しくは、 [各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -523,7 +523,7 @@ ht-degree: 12%
 | リソース計画ツールの予算リソース&#42;&#42; | ✓ |   |   |   |   |
 | プロジェクト、テンプレート、ユーザーに資源プールを添付する | ✓ |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; アクセスレベルを使用して、Workfront管理者はこの機能を無効または有効にできます。 詳しくは、 [各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
@@ -542,7 +542,7 @@ ht-degree: 12%
 | メインメニューでのシナリオの表示 ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ |  |   |
 | ユーザーが作成したプランとイニシアチブを表示します&#42; | ✓ | ✓ | ✓ |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

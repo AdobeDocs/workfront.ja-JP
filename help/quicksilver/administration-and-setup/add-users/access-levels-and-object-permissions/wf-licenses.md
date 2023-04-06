@@ -1,35 +1,35 @@
 ---
-title: Adobe Workfrontライセンスの概要
+title: レガシーライセンスの概要
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: ライセンス、タイプ
 navigation-topic: access-levels
 description: 組織がAdobe Workfrontを購入したときに、一定数のライセンスを購入しました。 Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 4 種類の有料Workfrontライセンスのいずれかを付与します。
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '361'
 ht-degree: 2%
 
 ---
 
-# Adobe Workfrontライセンスの概要
+# レガシーライセンスの概要
 
-組織がAdobe Workfrontを購入したときに、一定数のライセンスを購入しました。 Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 4 種類の有料Workfrontライセンスのいずれかを付与します。
+組織がAdobe Workfrontを購入した際に、一定数のレガシーライセンスを購入しました。 Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 4 種類の有料Workfrontレガシーライセンスのいずれかを付与します。
 
-## Workfrontのライセンスとアクセスレベルを結び付ける方法
+## 従来のライセンスと従来のアクセスレベルを結び付ける方法
 
-4 種類の有料Workfrontライセンスを使用すると、Workfrontに対するアクセスレベルを変更できます。 各アクセスレベルは、これらのライセンスの 1 つに付属しています。
+4 種類の有料Workfrontレガシーライセンスを使用すると、Workfrontにアクセスするレベルが異なります。 各レガシーアクセスレベルは、これらのレガシーライセンスの 1 つに付属しています。
 
-Workfront管理者は、ライセンスをユーザーに割り当てる代わりに、そのライセンスに関連付けられているアクセスレベルを割り当てます。
+Workfront管理者は、レガシーライセンスをユーザーに割り当てる代わりに、そのレガシーライセンスに付随するレガシーアクセスレベルを割り当てます。
 
 次の表と図は、Workfrontへの主なアクセスレベルを示しています。
 
-| ライセンス | 関連するアクセスレベル |
+| レガシーライセンス | 関連付けられたレガシーアクセスレベル |
 |--- |--- |
 | 計画 | システム管理者、プランナ |
 | 作業 | 作業者 |
@@ -38,9 +38,7 @@ Workfront管理者は、ライセンスをユーザーに割り当てる代わ�
 
 >[!NOTE]
 >
->外部ライセンスは有料ライセンスではありません。 これは、主に、Workfrontを使用しない共同作業者とドキュメントを共有する目的で設計されています。 詳しくは、 [Adobe Workfrontの組み込みアクセスレベル](default-access-levels-in-workfront.md).
-
-![](assets/licenses-and-access-levels.png)
+>外部ライセンスは有料ライセンスではありません。 これは、主に、Workfrontを使用しない共同作業者とドキュメントを共有する目的で設計されています。 詳しくは、 [Adobe Workfrontの組み込みアクセスレベル](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## ライセンスがアクセスレベルを定義する方法
 

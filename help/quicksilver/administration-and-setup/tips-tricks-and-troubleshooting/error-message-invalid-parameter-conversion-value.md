@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '337'
 ht-degree: 1%
 
 ---
@@ -27,18 +27,18 @@ ht-degree: 1%
 
 このメッセージは、次のシナリオで発生します。
 
-例えば、テキスト形式のカスタムフィールドがあるとします。  次に、カスタムフィールドの形式を通貨に変更します。 任意の場所に [!DNL Adobe Workfront] インスタンス、このフィールドは既にオブジェクトにアタッチされており、既にオブジェクトに指定されている情報を持ちます。 少なくとも 1 つのフィールドの既存の情報は、既にテキスト形式で書式設定されています。 したがって、フィールドの形式を通貨に変更することはできません。
+例えば、テキスト形式のカスタムフィールドがあるとします。  次に、カスタムフィールドの形式を通貨に変更します。 Adobe Workfrontインスタンスのどこかで、このフィールドは既にオブジェクトに関連付けられており、その中で既に指定されている情報が含まれています。 少なくとも 1 つのフィールドの既存の情報は、既にテキスト形式で書式設定されています。 したがって、フィールドの形式を通貨に変更することはできません。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Workfront] 計画</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfrontプラン</a>*</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] ライセンスの概要</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">レガシーライセンスの概要</a>*</p> </td> 
    <td>計画</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -47,7 +47,7 @@ ht-degree: 1%
     <ul> 
      <li> <p>レポート、ダッシュボードおよびカレンダーの作成</p> </li> 
      <li> <p>フィルター、ビュー、グループの作成</p> </li> 
-    </ul> <p><b>注意</b>:まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者は、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+    </ul> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
