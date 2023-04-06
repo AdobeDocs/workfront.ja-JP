@@ -6,7 +6,7 @@ description: Adobe Workfrontは、2021 年 4 月 23 日に API バージョン 1
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -456,7 +456,7 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
 
 ### UITemplate {#uitemplate}
 
-Adobe Workfrontの管理者またはグループ管理者は、テンプレートを作成して、Adobe Workfrontのレイアウト要素をカスタマイズできます。 LayoutTemplate オブジェクトは、新しいAdobe Workfrontエクスペリエンスに固有のものです。
+Adobe Workfrontの管理者またはグループ管理者は、テンプレートを作成して、Adobe Workfrontのレイアウト要素をカスタマイズできます。 UITemplate オブジェクトは、新しいAdobe Workfrontエクスペリエンスに固有です。
 
 Adobe Workfront Classic のレイアウトテンプレートを表すオブジェクトについては、 [LayoutTemplate](#layouttemplate).
 
