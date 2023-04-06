@@ -6,7 +6,7 @@ description: アドホックカードをボードにすばやく追加し、ボ�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 推定 ]</strong></td> 
-      <td><p>カードが完了する推定時間数を入力します。 これは手動のエントリのみです。</p></td>
+      <td>カードが完了する推定時間数を入力します。 これは手動のエントリのみです。</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 期限 ]</strong></td> 

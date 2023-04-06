@@ -7,9 +7,9 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ ht-degree: 0%
    ![取り込み列](assets/intake-column-added3.png)
 
    取り込みカラムのカードは、他のボードカラムに移動するまで編集できません。 カードをクリックして読み取り専用ビューで開くか、 ![タスクまたは問題を開く](assets/boards-launch-icon.png) をクリックして、タスクまたはイシューを新しいブラウザータブで開きます。
-
-   >[!NOTE]
-   >
-   >インテーク列のカードの読み取り専用表示は、 [!DNL Workfront] [!UICONTROL ボード].
 
    インテーク列の項目は、手動で並べ替えることができます。
 

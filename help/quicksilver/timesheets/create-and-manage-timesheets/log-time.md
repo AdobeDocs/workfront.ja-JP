@@ -6,9 +6,9 @@ description: 作業項目の時間を&nbsp;Adobe Workfrontに記録して、作�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
+source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '2979'
 ht-degree: 0%
 
 ---
@@ -400,10 +400,6 @@ Summary パネルで、タスクと問題に関する時間を記録できます
 ![](assets/summary-hour-log.png)
 
 ### ボード {#boards}
-
->[!NOTE]
->
->この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
 
 Workfrontボードの接続済みカードで時間を記録できます。 これは、タスクまたはイシューの時間を記録するのと同じプロセスで、カードに記録された時間は、接続されたタスクまたはイシューに保存されます。
 詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).

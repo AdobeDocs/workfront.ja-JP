@@ -6,10 +6,10 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 0%
+source-wordcount: '1181'
+ht-degree: 1%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 0%
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL 推定 ]</strong></td>
-      <td><p>カードが完了するまでの時間数。</p><p>の初期の機能オプトインを使用している場合は、 [!DNL Workfront] [!UICONTROL ボード ]、見積もりを変更すると、接続された [!DNL Workfront] オブジェクト。</p><p>初期の機能をオプトインしない場合、このフィールドは手動での入力のみで、値を 99 以下にする必要があります。</p></td>
+      <td><p>カードが完了するまでの時間数。</p><p>見積もりを変更すると、接続されたストーリーポイントの値も変更されます [!DNL Workfront] オブジェクト。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL タグ ]</strong></td>
@@ -184,10 +184,6 @@ ht-degree: 0%
 1. クリック **[!UICONTROL 閉じる]** ボードに戻る
 
 ## 接続されたカードでのログ時間
-
->[!NOTE]
->
->この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
 
 接続されたタスクまたは問題に関する時間を記録するには、適切な権限が必要です。
 

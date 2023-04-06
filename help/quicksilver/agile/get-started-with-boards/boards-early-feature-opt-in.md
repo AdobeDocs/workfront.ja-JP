@@ -6,9 +6,9 @@ title: の初期の機能オプトイン [!DNL Adobe Workfront] ボード
 description: この記事で [!DNL Workfront Boards] 初期機能のオプトイン。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>インテーク列の表示専用カード</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>カードの「見積もり」フィールドをタスクの「ストーリーポイント」フィールドにマッピング</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>ワークストリームの作成とワークストリームへのボードの追加</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>反復を作成</td>
-   <td>部分的にリリース済み（プレビューで使用可能）</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>カードリストまたはバックログを定義</td>
-   <td>部分的にリリース済み（プレビューで使用可能）</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>サブタスクをチェックリスト項目としてカードに読み込む</td>
@@ -142,19 +142,31 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>カードでのフィールド表示のカスタマイズ</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>  
   <tr>
    <td>列に移動されたカードのデフォルトのステータスを定義する</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>接続されたカードでのログ時間</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>接続されたカードへのカスタムフィールドの追加</td>
-   <td>部分的にリリース済み（プレビューで使用可能）</td>
+   <td>リリース済み</td>
+  </tr>
+  <tr>
+   <td>ボードの電子メール通知を定義する</td>
+   <td>予定</td>
+  </tr>
+  <tr>
+   <td>従来のかんばんカードをボードに移行</td>
+   <td>予定</td>
+  </tr>
+  <tr>
+   <td>ダイナミックボードの作成</td>
+   <td>予定</td>
   </tr>
  </tbody> 
 </table>
