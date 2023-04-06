@@ -7,16 +7,16 @@ description: 以下に示す任意のオブジェクトに既存のカスタム�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '850'
 ht-degree: 2%
 
 ---
 
 # オブジェクトへのカスタムフォームの追加
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 以下に示す任意のオブジェクトに既存のカスタムフォームを追加できます。 カスタムフォームには、オブジェクトに関する情報を格納できるカスタムフィールドが含まれています。
 
@@ -115,18 +115,21 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">プレビュー環境でカスタムフォームを一括でプロジェクトに追加する方法については、この記事を参照してください [プロジェクトを編集](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>カスタムフォームをオブジェクトに追加する方法は、プロジェクト以外のすべてのオブジェクトで同じです。
+>
+>カスタムフォームを一括でプロジェクトに追加する方法については、この記事を参照してください [プロジェクトを編集](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. オブジェクトのリストに移動します。
 1. リストで複数のオブジェクトを選択します。
 
-1. 次をクリック： **詳細** メニュー ![](assets/more-icon.png)」、「 **編集** アイコン  ![](assets/edit-icon.png)または、 **編集** アイコン ![](assets/edit-icon.png).
+1. 次をクリック： **詳細** メニュー ![](assets/more-icon.png)」、「 **編集** アイコン  ![](assets/edit-icon.png)または、 **編集** アイコン ![](assets/edit-icon.png) をクリックします。
 1. クリック **カスタムForms** をクリックします。
 1. 選択したオブジェクトを **選択を行う** ドロップダウンメニュー。
    >[!NOTE]
    >
    >ドロップダウンメニューにフォームが表示されない場合は、1 つ以上のオブジェクトに、既にフォームが関連付けられていることを意味します。 フォームを残りのオブジェクトに追加する前に、どのオブジェクトを選択するかを決定し、選択から削除します。
+
 
 1. 「**変更を保存**」をクリックします。
 

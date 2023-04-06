@@ -6,16 +6,16 @@ description: 1 つのオブジェクトに添付されたカスタムフォー�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # オブジェクトに添付されたカスタムフォームの管理
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 1 つのオブジェクトに添付されたカスタムフォームの表示順を更新したり、それらを削除したり、複数のオブジェクトでのカスタムフォームの表示方法を一括編集したりできます。
 
@@ -101,7 +101,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">プレビュー環境でプロジェクト上のカスタムフォームを一括で管理する方法については、この記事を参照してください。 [プロジェクトを編集](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>オブジェクトに対するカスタムフォームの管理は、プロジェクト以外のすべてのオブジェクトで同じです。
+>
+>カスタムフォームを一括でプロジェクトに追加する方法については、この記事を参照してください [プロジェクトを編集](../../manage-work/projects/manage-projects/edit-projects.md).
 
 複数のカスタムフォームが適用されたオブジェクトを一括編集する場合は、それらのオブジェクトに対するカスタムフォームの表示方法を編集したり、カスタムフォーム間の共通フィールドを編集したりできます。
 

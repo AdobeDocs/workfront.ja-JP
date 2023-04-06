@@ -7,16 +7,16 @@ description: 複数選択できるカスタムフィールドを使用して、�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
 
 # 複数選択できるカスタムフィールドによってレポートをグラフ化する
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 複数選択できるカスタムフィールドを使用して、レポートのグラフを表示することはできません。 複数選択カスタムフィールドを参照する追加の計算フィールドを作成して、複数選択カスタムフィールドの値を基準にレポートのグラフを表示する必要があります。
 
@@ -109,7 +109,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   ><span class="preview">このオプションは、プレビュー環境でプロジェクトを一括編集する際に使用できなくなりました。  プロジェクトの式を一括で再計算する場合は、「 **詳細** ![](assets/more-icon-45x33.png) をクリックし、 **式を再計算**. </span>
+   >このオプションは、プロジェクトを一括編集する際には使用できなくなりました。  ただし、 **詳細** アイコン ![](assets/more-icon-45x33.png) をクリックし、 **式を再計算**.
 
 
 1. 複数選択カスタムフィールドを参照する計算フィールドのグラフを追加するレポートに移動します。
