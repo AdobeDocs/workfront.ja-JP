@@ -6,9 +6,9 @@ title: ワークストリームでの反復の作成
 description: 繰り返しとは、作業の完了に必要な一定時間のことです。 アジャイルチームの中には、反復をスプリントと呼ぶものもあります。
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '350'
 ht-degree: 1%
 
 ---
@@ -86,3 +86,8 @@ ht-degree: 1%
 
    反復が開始された後は、反復名のみ変更できます。
 
+## 繰り返しの削除
+
+1. 次をクリック： [!UICONTROL **カードリスト**] 」タブをクリックし、イテレーションビューを開きます。
+1. 次をクリック： **削除** 繰り返しの横にあるアイコン
+1. クリック [!UICONTROL **反復を削除**] をクリックします。
