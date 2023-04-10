@@ -7,16 +7,16 @@ title: Adobe Workfront統合方法
 description: 統合可能な [!DNL Adobe Workfront] サードパーティのアプリケーションを使用する場合。 これらの統合は、のユーティリティを拡張できます [!DNL Workfront] 組織のニーズに合わせて調整します。 特定のタスクで最も役立つ統合に応じて、これらの統合のいずれかまたはすべてを使用できます。
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront統合方法
 
-統合可能な [!DNL Adobe Workfront] サードパーティのアプリケーションを使用する場合。 これらの統合は、のユーティリティを拡張できます [!DNL Workfront] 組織のニーズに合わせて調整します。 特定のタスクで最も役立つ統合に応じて、これらの統合のいずれかまたはすべてを使用できます。
+統合可能な [!DNL Adobe Workfront] サードパーティのアプリケーション、およびその他の [!DNL Adobe] 製品。 これらの統合は、のユーティリティを拡張できます [!DNL Workfront] 組織のニーズに合わせて調整します。 特定のタスクで最も役立つ統合に応じて、これらの統合のいずれかまたはすべてを使用できます。
 
 ## 組み込み統合
 

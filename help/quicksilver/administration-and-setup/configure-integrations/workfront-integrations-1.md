@@ -9,16 +9,16 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] 統合
 
-Adobe Workfrontをサードパーティのアプリケーションと統合できます。 統合は、Workfrontのユーティリティを拡張し、組織のニーズに合わせてカスタマイズできます。
+Adobe Workfrontを他のサードパーティアプリケーションと同様に統合できます [!DNL Adobe] 製品。 統合は、Workfrontのユーティリティを拡張し、組織のニーズに合わせてカスタマイズできます。
 
 の統合 [!DNL Workfront] 次のカテゴリに分類されます。
 

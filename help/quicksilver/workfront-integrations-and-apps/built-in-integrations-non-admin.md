@@ -6,16 +6,16 @@ title: Adobe Workfrontの組み込み統合の概要
 description: 統合可能な [!DNL Adobe Workfront] サードパーティのアプリケーションを使用する場合。 これらの統合は、のユーティリティを拡張できます [!DNL Workfront] 組織のニーズに合わせて調整します。 例えば、マーケティング業界のクリエイティブワーカーの場合、Adobe Creative Cloudアドインを使用して、PhotoshopからWorkfrontに直接アセットを書き出すことができます。
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Adobe Workfrontの組み込み統合の概要
 
-統合可能な [!DNL Adobe Workfront] サードパーティのアプリケーションを使用する場合。 これらの統合は、のユーティリティを拡張できます [!DNL Workfront] 組織のニーズに合わせて調整します。 例えば、マーケティング業界のクリエイティブワーカーの場合、Adobe Creative Cloudアドインを使用して、PhotoshopからWorkfrontに直接アセットを書き出すことができます。
+統合可能な [!DNL Adobe Workfront] サードパーティのアプリケーション、およびその他の [!DNL Adobe] 製品。 これらの統合は、のユーティリティを拡張できます [!DNL Workfront] 組織のニーズに合わせて調整します。 例えば、マーケティング業界のクリエイティブワーカーの場合、 [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] PhotoshopからWorkfrontに直接アセットを書き出すアプリケーション
 
 お使いの [!DNL Workfront] 組み込み統合を使用するには、管理者が組み込み統合を有効にして設定する必要があります。 組織内で使用される組み込み統合については、 [!DNL Workfront] 管理者。
 
