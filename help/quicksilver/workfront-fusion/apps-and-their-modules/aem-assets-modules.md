@@ -10,7 +10,7 @@ description: を使用 [!DNL Adobe Experience Manager Assets] コネクタ [!DNL
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -71,7 +71,7 @@ ht-degree: 0%
 
       この設定には、 [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
       この設定には、ユーザー名とパスワードが必要です。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
    の場合 [!DNL AEM Assets as a Cloud Service]を参照してください。 [接続の設定対象 [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   の場合 [!UICONTROL AEM Assets Basic]を参照してください。 [接続の設定対象 [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   の場合 [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]) を参照してください。 [接続の設定対象 [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. クリック **[!UICONTROL 続行]** 接続を保存し、モジュールに戻ります。
 
@@ -135,7 +135,7 @@ ht-degree: 0%
       </table>
 
 
-### 接続の設定対象 [!DNL AEM Assets Basic]
+### 接続の設定対象 [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>
