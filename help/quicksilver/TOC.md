@@ -2,7 +2,7 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 2bc977f3d6ec6ca3e232da95d92c0e6bfcf706ef
+source-git-commit: 078f1a4d35f8aab9e650d1e7ddb1ac76665e79c4
 workflow-type: tm+mt
 source-wordcount: '12860'
 ht-degree: 2%
@@ -378,7 +378,7 @@ ht-degree: 2%
          * [会社メンバーシップの管理](administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
          * [会社を非アクティブ化または再アクティブ化する](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
          * [ジョブの役割](administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)
-         * [ジョブの役割の作成と管理](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+         * [担当業務の作成と管理](administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
          * [ジョブの役割を削除](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [ジョブの役割の非アクティブ化](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [ジョブロールの請求率の上書き](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
@@ -1824,7 +1824,7 @@ ht-degree: 2%
       * [タイムシートの時間の種類と可用性を定義する](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [単一使用のタイムシートを作成する](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [タイムシート情報の編集](timesheets/create-and-manage-timesheets/edit-timesheets.md)
-      * [ログ時間](timesheets/create-and-manage-timesheets/log-time.md)
+      * [時間のログ記録](timesheets/create-and-manage-timesheets/log-time.md)
       * [承認用のタイムシートを送信](timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
       * [タイムシートを承認](timesheets/create-and-manage-timesheets/timesheet-approvals.md)
       * [タイムシートの合計時間を表示](timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
