@@ -6,7 +6,7 @@ description: カードにタグを追加して、類似していることを視�
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -93,7 +93,7 @@ ht-degree: 1%
 
    次をクリック： **[!UICONTROL 詳細]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 編集]**.
 
-1. カードから削除するタグを見つけ、 **[!UICONTROL 削除]**&#x200B;アイコン ![タグを削除](assets/copy-of-boards-remove-30x23.png).
+1. カードから削除するタグを見つけ、 **[!UICONTROL 削除]** アイコン ![タグを削除](assets/copy-of-boards-remove-30x23.png).
 1. 「**[!UICONTROL 閉じる]**」をクリックします。
 
 ## タグの削除
