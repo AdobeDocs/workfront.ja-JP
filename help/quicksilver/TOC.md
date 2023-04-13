@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
 workflow-type: tm+mt
-source-wordcount: '12867'
+source-wordcount: '12875'
 ht-degree: 2%
 
 ---
@@ -2149,6 +2149,7 @@ ht-degree: 2%
    * Adobe Workfront for G Suite {#workfront-for-g-suite}
       * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [Adobe Workfront for G Suite のインストール](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [Workfront for G Suite のプライバシーと権限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
       * [Adobe Workfront for G Suite へのログインとログアウト](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
       * [G Suite からAdobe Workfrontホームコンテンツにアクセス](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
       * [G Suite からのAdobe Workfrontオブジェクトの更新](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
