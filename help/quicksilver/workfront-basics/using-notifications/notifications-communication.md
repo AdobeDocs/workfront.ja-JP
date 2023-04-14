@@ -6,10 +6,10 @@ description: 次の通知は、関係する作業項目に対する更新コメ�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 4%
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>誰かが自分の作業アイテムのいずれかに対してコメントした</strong> </p> <p>作業項目の担当者は、更新を追加したユーザーが担当者でもない限り、ユーザーが作業項目に更新を追加するたびに電子メール通知を受け取ります。 </p> <p>リクエストにコメントが投稿されたら、問題の主要連絡先に電子メールを送信します。</p> <p>コメントを投稿したユーザーがイシューの主要連絡先でもある場合を除き、イシューの主要連絡先は、リクエストに対してコメントが投稿されると電子メール通知を受け取ります。</p> <p>コメントに直接含まれるユーザーにも電子メール通知が送信されます。</p> <p>プロジェクトのステータスが [!UICONTROL Current] の場合にのみ通知が送信されます。</p> <p>即時通知 E メールの件名は次のとおりです。 <em>[!UICONTROL コメント先 ] &lt;work item="" name=""&gt; オン &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> 日次ダイジェスト通知の件名は次のとおりです。<em> [!UICONTROL 通信のダイジェスト ] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>誰かが自分の作業アイテムのいずれかに対してコメントした</strong> </p> <p>作業項目の担当者は、更新を追加したユーザーが担当者でもない限り、ユーザーが作業項目に更新を追加するたびに電子メール通知を受け取ります。 </p> <p>リクエストにコメントが投稿されたら、問題の主要連絡先に電子メールを送信します。</p> <p>コメントを投稿したユーザーがイシューの主要連絡先でもある場合を除き、イシューの主要連絡先は、リクエストに対してコメントが投稿されると電子メール通知を受け取ります。</p> <p>コメントに直接含まれるユーザーにも電子メール通知が送信されます。</p> <p>即時通知 E メールの件名は次のとおりです。 <em>[!UICONTROL コメント先 ] &lt;work item="" name=""&gt; オン &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> 日次ダイジェスト通知の件名は次のとおりです。<em> [!UICONTROL 通信のダイジェスト ] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> 作業項目名<br>プロジェクト名<br>作業項目の参照番号<br>作業項目にコメントしたユーザーの名前<br>作業項目に対して行われたコメントのテキスト<br>コメントが行われた日時<br>*受け取ったコメントの総数<br>*各オブジェクトに対して受け取ったコメント数<br>*プロジェクト名<br>*<strong>[!UICONTROL すべての通知を表示 ]</strong> ボタン<br>*1 日のダイジェストの日付 </td> 
    <td><strong>日次</strong> </td> 
   </tr> 
