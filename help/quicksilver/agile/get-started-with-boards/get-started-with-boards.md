@@ -6,10 +6,10 @@ description: Workfrontでボードを使用する方法については、以下�
 author: Lisa
 feature: Agile
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: c224114b3516937ef7b074f4bf5a403ad9fc41fa
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 * [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)
 * [ボードの削除またはアーカイブ](/help/quicksilver/agile/get-started-with-boards/delete-archive-board.md)
 * [ボードに対するメンバーの追加または削除](../../agile/get-started-with-boards/add-members-to-board.md)
-* [ボード列を管理](../../agile/get-started-with-boards/manage-board-columns.md)
+* [ボードの列の管理](../../agile/get-started-with-boards/manage-board-columns.md)
 * [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)
 * [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
@@ -33,3 +33,4 @@ ht-degree: 0%
 * [ボードからのカードの削除またはアーカイブ](../../agile/get-started-with-boards/delete-board-items.md)
 * [ボードでのフィルターと検索](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [タグを追加](../../agile/get-started-with-boards/add-tags.md)
+* [電子メール通知と環境設定をボード](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)

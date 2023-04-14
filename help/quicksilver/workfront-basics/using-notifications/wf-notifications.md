@@ -6,14 +6,16 @@ description: Adobe Workfrontは、モバイルデバイスで電子メール通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 1%
+source-wordcount: '1301'
+ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront] 通知
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] は、モバイルデバイスで電子メール通知、アプリ内通知および通知を送信します。
 
@@ -32,6 +34,7 @@ ht-degree: 1%
 * [投稿されたコメントの通知](#notification-of-posted-comments)
 * [自動リマインダー](#automatic-reminders)
 * [リマインダ通知](#reminder-notifications)
+* [ボード通知](#boards-notifications)
 * [その他 [!DNL Workfront] 電子メール](#other-workfront-emails)
 
 ### イベント通知
@@ -94,7 +97,7 @@ ht-degree: 1%
 
 自動リマインダーは [!DNL Workfront] 管理者：予定完了日に期限が切れている、遅れている、または予定完了日に近いタスクや問題を警告します。 遅延通知の場合、電子メールはタスクまたは問題が完了するまで毎晩送信されます。 管理者が設定した後で、無効にすることはできません。 また、自動リマインダーによってトリガーされる E メールの内容や件名を変更することはできません。
 
-これらは、次の 1 つ以上に送信できます。
+自動リマインダーは、次のいずれか、または複数の相手に送信できます。
 
 * タスクまたはイシューに割り当てられたユーザー
 * ユーザーの即時管理者
@@ -126,6 +129,16 @@ A [!DNL Workfront] 管理者 ( または [!UICONTROL プランナー] アクセ�
 リマインダー通知は、 [!DNL Workfront] 送信メールを処理するように選択された管理者。
 
 リマインダー通知の設定と有効化について詳しくは、 [リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+
+<span class="preview">
+
+### ボード通知
+
+[!DNL Adobe Workfront] [!UICONTROL ボード] は、あなたがボードに追加されたとき、およびカードが割り当てられたときに電子メールを送信します。
+
+ボードの環境設定で受信する電子メールを選択できます。 詳しくは、 [電子メール通知と環境設定をボード](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+</span>
 
 ### その他 [!DNL Workfront] 電子メール
 
