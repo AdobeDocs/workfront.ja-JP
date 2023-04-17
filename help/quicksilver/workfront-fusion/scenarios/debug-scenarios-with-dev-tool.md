@@ -7,10 +7,10 @@ description: Adobe Workfront Fusion DevTool を使用すると、シナリオを
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 3d5b9e178cc3222523b558e3c6717ce54f322ff9
+source-git-commit: c7946e975c82f54c1a20e716f73d0cf8053ee1a6
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 0%
+source-wordcount: '1622'
+ht-degree: 1%
 
 ---
 
@@ -51,17 +51,28 @@ ht-degree: 0%
 
 ## のインストール [!DNL Chrome] DevTool 拡張機能
 
-次の手順で [!DNL Workfront Fusion] DevTool は、最初にインストールする必要があります。
+<!--
+To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
-1. クリック [このリンク](assets/workfront-fusion-devtool-2023-feb.zip) をクリックして、拡張機能をダウンロードします。
-1. ファイルがダウンロードされたら、目的のフォルダーに展開します。
-1. でタブを開く [!DNL Chrome]
-1. タブの検索バーに、 `chrome://extensions`.
-1. 次をクリック： **[!UICONTROL 開発者モード]** 画面の右上にあるを切り替えて、デベロッパーモードを有効にします。 右に切り替えると、デベロッパーモードが有効になります。
-1. クリック **[!UICONTROL パック解除済みを読み込み]**.
-1. DevTool（手順 2 でファイルを抽出したフォルダー）を含むフォルダーを選択します。
+1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
+1. When the files have downloaded, extract them to a folder of your choice.
+1. Open a tab in [!DNL Chrome]
+1. In the search bar of the tab, enter `chrome://extensions`.
+1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
+1. Click **[!UICONTROL Load unpacked]**.
+1. Select the folder containing the DevTool (where you extracted the files in step 2).
 
-   パックが解除されると、DevTool が他の Chrome 拡張機能と共に表示されます。
+   Once unpacked, the DevTool appears among your other Chrome extensions.
+   -->
+
+次の項目を追加できます。 [!DNL Workfront Fusion] 開発ツール [!DNL Chrome] から [!UICONTROL [!DNL Chrome] Web ストア].
+
+1. クリック [このリンク](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 行く [!DNL Workfront Fusion] の DevTool [!UICONTROL [!DNL Chrome] Web ストア].
+1. クリック [!UICONTROL 追加先 [!DNL Chrome]].
+1. 表示されるウィンドウで、権限を確認します。 権限に同意する場合は、 [!UICONTROL 拡張機能を追加].
+
+この [!DNL Workfront Fusion] DevTool 拡張機能が [!DNL Chrome] 拡張機能。
+
 
 ## を [!DNL Workfront Fusion] DevTool
 
@@ -112,7 +123,7 @@ Live Stream は、シナリオで「1 回実行」をクリックすると、バ
     <thead> 
      <tr> 
       <th>アクション</th> 
-      <th>指示</th> 
+      <th>手順</th> 
      </tr> 
     </thead> 
     <tbody> 
