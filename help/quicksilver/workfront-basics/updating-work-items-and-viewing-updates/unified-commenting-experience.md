@@ -1,17 +1,17 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Unified Commenting Experience
+title: 新しいコメントエクスペリエンス
 description: 新しい Unified Commenting Experience は次のようになります
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 1%
+source-wordcount: '539'
+ht-degree: 2%
 
 ---
-
 
 # 新しいコメントエクスペリエンス
 
@@ -204,7 +204,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td>「アクティビティ」タブに置き換え 
+   <td>「アクティビティ」タブに置き換えられました 
    </td>
    <td> 
    </td>
@@ -256,7 +256,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
   </tr>
   <tr>
-   <td>ログ時間 
+   <td>時間のログ記録 
    </td>
    <td>✓ 
    </td>
@@ -302,7 +302,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> コピーリンクに置き換え
    </td>
    <td> 
    </td>
@@ -316,7 +316,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> コピーリンクに置き換え
    </td>
    <td> 
    </td>

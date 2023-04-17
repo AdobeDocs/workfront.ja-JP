@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
 
 1. （オプション） **詳細** メニュー ![](assets/more-icon.png) コメントの右側に移動し、「 **削除** 追加したコメントを削除します。
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 5～9 に従います。 <!--insure this stays accurate-->
+1. （条件付きおよびオプション）「更新」セクションの表示領域の外側に表示されるコメントを他のユーザーが追加した場合は、 **表示** 青の中に **新しいコメントバナー** をクリックして、これらのコメントを表示します。
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   追加のコメントが画面の下部に表示されます。
 1. （オプション） **次に類似** アイコン![](assets/like-icon.png) 他の誰かが追加したコメントが気に入った。 アイコンは「いいね！」の数に応じて更新されます。
 1. （オプション）リッチテキストの書式設定を更新に追加するには、入力時にリッチテキストツールバーの任意の属性を使用します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （オプション） **システムアクティビティ** タブをクリックして、システムによって記録された更新を表示します。 目標が更新されると、Workfrontはその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。 Workfrontは、結果、アクティビティ、またはプロジェクトが目標に追加されたときや、結果が更新されたときに、システムの更新も記録します。 <!--ensure the casing on the tab has not changed-->

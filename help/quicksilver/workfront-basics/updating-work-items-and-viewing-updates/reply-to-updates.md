@@ -6,9 +6,9 @@ description: 作業オブジェクトの更新に対して、誰かが追加ま�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 1%
 
    会話に積極的に関与しているユーザーがの下部に表示されます。 **新しいコメント** 」ボックスに追加して、不要なものを追加したり、削除したりできます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。 さらに多くのユーザーにタグを付けて、返信に含めることもできます。  さらに多くのユーザーにタグを付けるには、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. 返信の入力を開始し、リッチテキストツールバーの追加のオプションを使用します。 リッチテキストの使用について詳しくは、「Workfrontの更新でのリッチテキストの使用」の節を参照してください。 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
+1. 返信の入力を開始し、リッチテキストツールバーの追加のオプションを使用します。 リッチテキストなどの更新機能の使用について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. クリック **送信** 返信を保存します。
 
