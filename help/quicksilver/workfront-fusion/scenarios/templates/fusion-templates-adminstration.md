@@ -7,9 +7,9 @@ description: 管理者は、他のユーザーが作成したテンプレート�
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: bcca026e193e66cfb92ab9a0fb1aaf1eeb6892fb
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -99,4 +99,4 @@ ht-degree: 0%
 
 管理者は、シナリオをテンプレートとして複製できます。
 
-テンプレートとしてシナリオを複製する手順については、 [で新しいテンプレートを作成 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [で新しいテンプレートを作成 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+テンプレートとしてシナリオを複製する手順については、 [シナリオからのテンプレートの作成](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) in [で新しいテンプレートを作成 [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
