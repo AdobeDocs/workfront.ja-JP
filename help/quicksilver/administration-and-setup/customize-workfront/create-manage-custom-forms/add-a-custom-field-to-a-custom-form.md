@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: f9fce2715cad3e2ea2bf16de5f4ba457f981725c
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 2%
+source-wordcount: '2264'
+ht-degree: 3%
 
 ---
 
@@ -149,18 +149,19 @@ ht-degree: 2%
       </ul> <p>各カスタムフィールド名は、組織のWorkfrontインスタンス内で一意である必要があります。 これにより、既に作成済みのものを別のカスタムフォームに再利用できます。 詳しくは、 <a href="#Add" class="MCXref xref">カスタムフォームにカスタムフィールドを追加する</a> 」を参照してください。</p> </td>
      </tr> 
      <tr> 
-      <td role="rowheader">指示</td> 
+      <td role="rowheader">手順</td> 
       <td> <p>カスタムフィールドに関する追加情報を入力します。 カスタムフォームに入力する際に、疑問符アイコンの上にマウスポインターを置くと、ここに入力した情報を含むツールヒントが表示されます。</p> 
       <p> <img src="assets/custom-field-tooltip.png"> </p>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">形式</td> 
-      <td> <p>カスタムフィールドに取り込むデータのタイプを選択します。</p> <p><b>メモ</b>:   
-        <ul> 
-         <li>フォームを保存した後は、このフィールドを編集できません。 数学計算でフィールドを使用する場合は、必ず「数値」または「通貨」フォーマットを選択してください。<br></li> 
-         <li>「数値」または「通貨」を選択すると、0 から始まる数値が自動的に切り捨てられます。</li> 
-        </ul> </p> </td> 
+      <td> <p>カスタムフィールドに取り込むデータのタイプを選択します。 フォームの保存後に書式の選択を変更できますが、新しい書式は入力値に対応している必要があります。</p>
+
+   <p><strong>例：</strong> 少なくとも 1 つのオブジェクトにテキスト形式のフィールドの数値を保存し、後でその形式を「数値」または「通貨」に変更した場合、エラーは発生しません。 </p>
+      <p>ただし、少なくとも 1 つのオブジェクトで [ テキスト ] 形式のフィールドに英数字の値を保存し、その形式を [ 数値 ] または [ 通貨 ] に変更しようとすると、保存された英数字の値が [ 数値 ] または [ 通貨 ] 形式と互換性がないため、エラーが発生します。 </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">表示タイプ</td> 
@@ -204,7 +205,7 @@ ht-degree: 2%
       <td>（説明テキストフィールドのみ）入力した説明テキストにハイパーリンクを適用する場合は、ここに追加します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">必須フィールドの作成</td> 
+      <td role="rowheader">必須フィールドを作成</td> 
       <td>ユーザーがカスタムフォームに入力するためにフィールドを必須にする場合は、このオプションを選択します。 </td> 
      </tr> 
      <tr> 
