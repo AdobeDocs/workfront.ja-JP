@@ -7,9 +7,9 @@ description: 現在、Adobe Workfront Fusion では、次のパブリックテ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 0%
 ### Workfront — 週単位のベースライン作成
 
 このテンプレートは、ポートフォリオでフィルタリングされたプロジェクトに関し、毎週月曜日の午前 6 時に、プロジェクトのベースラインをキャプチャし、更新ストリームでログに記録する更新を作成します。
+
+### ポリシー時間で使用されていないプロジェクトテンプレートを検索して通知
+
+月に 1 回、独自のポリシーを使用してプロジェクトテンプレートを確認します。管理が容易なテンプレートで、ポリシーに違反してテンプレートに関する通知が適切なユーザーに送信されます。
 
 ## Workfront - Workfront配達確認テンプレート
 
