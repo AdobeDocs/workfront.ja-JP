@@ -7,10 +7,10 @@ description: Adobe Workfront plugin forCreative Cloud・アプリケーション
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '121'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 以下を使用して、 [!DNL Adobe Workfront] 対象 [!DNL Creative Cloud] プラグイン
 
-* ログ時間
+* 時間のログ記録
 * レビューと承認プロセスの開始
 * ファイルをアップロード
 * プロジェクトとタスクの表示
@@ -37,3 +37,4 @@ ht-degree: 0%
 * [を使用して作業を管理 [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [でドキュメントと配達確認をアップロード [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [ビデオチュートリアル：用途 [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [ビデオチュートリアル：パッケージの作成と管理、アップデートのデプロイ、インストールエラーのトラブルシューティング](https://www.youtube.com/watch?v=zzvXNLIBzrc)
