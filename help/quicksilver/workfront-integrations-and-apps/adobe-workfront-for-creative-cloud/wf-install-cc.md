@@ -6,9 +6,9 @@ description: Workfront forCreative Cloudプラグインは、Marketplace からA
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
@@ -66,13 +66,15 @@ ht-degree: 1%
 
 * 次をインストールする必要があります： [!DNL Creative Cloud] プラグインをインストールする前に使用するアプリ。
 
-## のインストール [!DNL Adobe Workfront for design and video] プラグイン
+## のインストール [!DNL Adobe Workfront for design and video] 組織内のプラグイン
 
->[!TIP]
->
->次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-をインストールするには、以下を実行します。 [!DNL Adobe Workfront for design and video] プラグイン：
+[こちらでビデオチュートリアルを表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## のインストール [!DNL Adobe Workfront for design and video] 個別にプラグイン
+
+次をインストールできます： [!DNL Adobe Workfront for design and video] 自分用のプラグイン [!DNL Adobe Exchange].
 
 1. 次に移動： [Adobe Workfront for Design and Video のインストールページ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) をAdobeExchange に追加します。
 1. 表示されるダイアログで、 **開く [!DNL Adobe Creative Cloud] デスクトップアプリ**.
@@ -107,7 +109,7 @@ ht-degree: 1%
 ## にログインします。 [!DNL Adobe Workfront for design and video]
 
 1. 次の **[!UICONTROL プラグイン]** 画面上部のメニューで、「 」を選択します。 **[!UICONTROL プラグインパネル]**.
-1. Select **[!DNL Adobe Workfront for design and video]**.
+1. 選択 **[!DNL Adobe Workfront for design and video]**.
 1. ドメインを入力し、「 **[!UICONTROL ログイン]**. ブラウザーページが開きます。
 
    >[!TIP]
