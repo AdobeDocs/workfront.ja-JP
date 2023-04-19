@@ -6,9 +6,9 @@ description: Adobe Workfront for XDプラグインは、Marketplace からAdobe�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
@@ -59,12 +59,15 @@ ht-degree: 1%
 
 * 次をインストールする必要があります： [!DNL Adobe XD] アプリを使用してください。
 
-## のインストール [!DNL Adobe Workfront for XD] プラグイン
+## のインストール [!DNL Adobe Workfront for XD] 組織内のプラグイン
 
->[!TIP]
->
->次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[こちらでビデオチュートリアルを表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## のインストール [!DNL Adobe Workfront for XD] 個別にプラグイン
+
+次をインストールできます： [!DNL Adobe Workfront for XD] 自分用のプラグイン [!DNL Adobe Exchange].
 
 1. 次に移動： [Adobe Workfront for XDのインストールページ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) をAdobeExchange に追加します。
 1. 表示されるダイアログで、 **開く [!DNL Adobe Creative Cloud] デスクトップアプリ**.
