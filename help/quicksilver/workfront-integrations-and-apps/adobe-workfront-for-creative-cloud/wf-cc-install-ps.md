@@ -6,9 +6,9 @@ description: Adobe Workfront for Photoshopプラグインは、Marketplace プ�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -57,12 +57,15 @@ ht-degree: 1%
 
 * 次をインストールする必要があります： [!DNL Adobe Photoshop] インストール前のアプリ [!DNL Workfront] プラグイン。
 
-## のインストール [!DNL Adobe Workfront for Photoshop] プラグイン
+## のインストール [!DNL Adobe Workfront for Photoshop] 組織内のプラグイン
 
->[!TIP]
->
->次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[こちらでビデオチュートリアルを表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## のインストール [!DNL Adobe Workfront for Photoshop] 個別にプラグイン
+
+次をインストールできます： [!DNL Adobe Workfront for Photoshop] 自分用のプラグイン [!DNL Adobe Exchange].
 
 1. 次に移動： [Adobe Workfront for Photoshopのインストールページ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) をAdobeExchange に追加します。
 1. 表示されるダイアログで、 **開く [!DNL Adobe Creative Cloud] デスクトップアプリ**.
@@ -92,7 +95,7 @@ ht-degree: 1%
 ## にログインします。 [!DNL Adobe Workfront for Photoshop]
 
 1. 次の **[!UICONTROL プラグイン]** 画面上部のメニューで、「 」を選択します。 **[!UICONTROL プラグインパネル]**.
-1. Select **[!DNL Adobe Workfront for Photoshop]**.
+1. 選択 **[!DNL Adobe Workfront for Photoshop]**.
 1. ドメインを入力し、「 **[!UICONTROL ログイン]**. ブラウザーページが開きます。 ブラウザーを開くには、Photoshopの権限を付与する必要がある場合があります。
 
    >[!TIP]
