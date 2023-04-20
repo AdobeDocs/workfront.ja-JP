@@ -6,7 +6,7 @@ description: Adobe Workfrontは、モバイルデバイスで電子メール通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 2%
@@ -14,8 +14,6 @@ ht-degree: 2%
 ---
 
 # [!DNL Adobe Workfront] 通知
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] は、モバイルデバイスで電子メール通知、アプリ内通知および通知を送信します。
 
@@ -130,15 +128,11 @@ A [!DNL Workfront] 管理者 ( または [!UICONTROL プランナー] アクセ�
 
 リマインダー通知の設定と有効化について詳しくは、 [リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### ボード通知
 
 [!DNL Adobe Workfront] [!UICONTROL ボード] は、あなたがボードに追加されたとき、およびカードが割り当てられたときに電子メールを送信します。
 
 ボードの環境設定で受信する電子メールを選択できます。 詳しくは、 [電子メール通知と環境設定をボード](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### その他 [!DNL Workfront] 電子メール
 
