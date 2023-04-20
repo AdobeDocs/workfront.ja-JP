@@ -3,13 +3,13 @@ title: 23.3 リリースの概要
 description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: c1ea77a65df5922f49e2f52091e54584e8a304e5
+exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
+source-git-commit: 3add9b96e2faae0fba2f3b0561271dafd484d281
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
-
 
 # 23.3 リリースの概要
 
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfrontの機能強化
 
 * [アジャイルの強化](#agile-enhancements)
+* [その他の機能強化](#other-enhancements)
 
 ### アジャイルの強化
 
@@ -46,7 +47,61 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">電子メール通知と環境設定をボード</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">ダイナミックボードテンプレート</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>新しいテンプレートであるダイナミックボードがスタンドアロンボードで使用できるようになりました。 このテンプレートは、ワークストリーム内のボードでは使用できません。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">アジャイルチームかんばんカードをボードに移行</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>新しい <b>ボードに追加</b> アジャイルチームのボタンアジャイルチームかんばんボードを使用すると、かんばんボードからWorkfrontボードにすべてのカードを追加できます。 新しいWorkfrontボードを作成するか、既存のボードにカードを追加するかを選択できます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">ボードのカードの詳細に左側のナビゲーションが追加されました</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>Workfrontボードのカードにフィールドオプションが追加されるにつれ、カードの詳細は長くなっています。 カードの詳細の左側にある新しいナビゲーションパネルを使用すると、セクションを選択して、そのフィールドグループに自動的に移動できます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">電子メール通知と環境設定をボード</a></p>
                         <p>Adobe Workfrontボードで電子メール通知を利用できるようになりました。 通知はデフォルトでオンになっており、環境設定で受信する電子メールを選択できます。 ボードに追加されたときや、カードが割り当てられたときに、電子メールが送信されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -82,7 +137,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.3 リリース期間のルックアンドフィールの更新</a></p>
@@ -106,7 +177,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-このリリースでは、現時点でWorkfront Fusion のアップデートはありません。 この領域は、更新が利用可能になると更新されます。
+Workfront Fusion の新機能は、実稼動環境の 23.3 リリーススケジュール以外の段階で使用できます。 最新の機能について詳しくは、 [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner の機能強化
 
