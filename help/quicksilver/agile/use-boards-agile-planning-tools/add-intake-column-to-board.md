@@ -7,9 +7,9 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 必要に応じて、ボードに取り込みカラムを追加し、追加時に接続されたカードとしてタスクと問題を自動的に引き込むことができます。 [!DNL Workfront]：定義したフィルターに基づきます。 取り入れ列は、かんばんチームのバックログ列、サポートチームの取り入れ場所として、要求キューに追加された問題を確認するための取り入れ場所、または必要なその他の目的に使用できます。
 
 1 つのボード上で許可される取り込みカラムは 1 つだけで、常に一番左のカラムとして表示されます。
+
+取り込みカラムはダイナミックボード上では使用できません。
 
 取り込みカラムは、300 タスクと 300 問題に制限されます。 項目は、項目に定義された優先度で並べ替えられます。 優先度について詳しくは、 [タスクの優先度を更新](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) および [問題の優先順位を更新](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
