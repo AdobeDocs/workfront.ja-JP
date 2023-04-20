@@ -6,16 +6,14 @@ description: 新しいリクエストを入力する際にWorkfrontが提案す�
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
 
 # 下書きからのリクエストの作成
-
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 新しいリクエストを入力する際にWorkfrontが提案する利用可能なドラフトを使用する以外に、「ドラフト」セクションからドラフトリクエストにアクセスし、そこから送信を完了することもできます。
 
@@ -61,7 +59,7 @@ ht-degree: 1%
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
-1. <span class="preview">（オプション）列見出しをクリックして、その列でリストを並べ替えます。</span>
+1. （オプション）列見出しをクリックして、その列でリストを並べ替えます。
 
 1. 下書きリストの次の列で各下書きに関する情報を確認します。
 
@@ -73,7 +71,12 @@ ht-degree: 1%
 
    {style="table-layout:auto"}
 
-1. <span class="preview">（任意）下書きリストの右上隅にあるクイックフィルターを使用して、下書きの要求、要求キュー、キュートピック、またはトピックグループの名前を入力し、下書きの名前をクリックして開きます。 </span>
+1. （任意）下書きリストの右上隅にあるクイックフィルターを使用して、下書きの要求、要求キュー、キュートピック、またはトピックグループの名前を入力し、下書きの名前をクリックして開きます。
+
+   >[!TIP]
+   >
+   >「要求」領域の「ドラフト」セクションでは、永続的なフィルターを適用できません。 また、ドラフトリストの表示を変更または変更するオプションはありません。
+
 1. リクエストの情報を更新します。詳しくは、 [Adobe Workfront要求の作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. （オプションおよび条件付き）リクエストの入力中の任意の時点で、 **破棄** 下書きを削除する場合は、下書きを選択します。 これにより、復元できない下書きが削除されます。 ドラフトの削除について詳しくは、 [要求下書きの削除](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
