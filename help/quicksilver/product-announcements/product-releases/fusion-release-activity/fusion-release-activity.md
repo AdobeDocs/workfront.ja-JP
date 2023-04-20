@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion は、アプリと Web サービスをシー
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: fd610e1493724f922672f42f03e7f19bd779828e
+source-git-commit: 8e45f0c0126058236e0c9fd69130937d7f356f4f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe Workfront Fusion は、アプリと Web サービスをシームレスに�
 Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## 最近のリリース
+
+### 2023 年 4 月
+
+* [Workfront Fusion リリースアクティビティ：2023 年 4 月 17 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
 
 ### 2023 年 3 月
 
@@ -84,6 +88,10 @@ Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../.
 
 * [Workfront Fusion リリースアクティビティ：2022 年 1 月 3 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
 
+## 2021 年の Fusion リリース
+
++++**クリックして開く**
+
 ### 2021 年 11 月
 
 * [Workfront Fusion リリースアクティビティ：2021 年 11 月 29 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
@@ -142,6 +150,12 @@ Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../.
 * [Workfront Fusion リリースアクティビティ：2021 年 1 月 11 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
 * [Workfront Fusion リリースアクティビティ：2021 年 1 月 4 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
++++
+
+## 2020 年の Fusion リリース
+
++++**クリックして開く**
+
 ### 2020 年 12 月
 
 * [Workfront Fusion リリースアクティビティ：2020 年 12 月 7 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
@@ -160,3 +174,5 @@ Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../.
 
 * [Workfront Fusion リリースアクティビティ：2020 年 8 月 24 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
 * [Workfront Fusion リリースアクティビティ：2020 年 8 月 17 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+
++++
