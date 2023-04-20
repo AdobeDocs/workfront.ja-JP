@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 3d7a9637ea3f2bb11919456ed8e47ba3be6f791f
+source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
 workflow-type: tm+mt
-source-wordcount: '12917'
+source-wordcount: '12919'
 ht-degree: 2%
 
 ---
@@ -2035,6 +2035,7 @@ ht-degree: 2%
       * [Adobe Experience Manager Assets モジュール](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Journey Optimizerモジュール](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe PDF Services モジュール](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+      * [エアテーブルモジュール](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Adobe Targetモジュール](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
       * [Allocadia モジュール](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Anaplan モジュール](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
