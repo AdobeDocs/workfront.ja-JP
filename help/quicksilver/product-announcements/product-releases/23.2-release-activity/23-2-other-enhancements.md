@@ -4,7 +4,8 @@ description: 23.2 その他の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -48,7 +49,7 @@ Adobe Workfrontのコメントエクスペリエンスのアップデートは�
 
 今後のリリースでは、これらの機能が引き続き他のオブジェクトに追加されるので、さらに機能が追加される予定です。
 
-新しいコメントエクスペリエンスのオファーについて詳しくは、 [統合されたコメント機能](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+新しいコメントエクスペリエンスのオファーについて詳しくは、 [新しいコメントエクスペリエンス](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3416962/){target=_blank}
 

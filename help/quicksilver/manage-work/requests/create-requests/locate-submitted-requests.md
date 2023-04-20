@@ -6,9 +6,9 @@ description: 自分または他のユーザーが送信したリクエストや�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >「要求」領域の「送信済み」セクションでは、フィルターを変更できません。 また、送信されたリクエストのリストの表示を変更または変更するオプションはありません。
+   >「要求」領域の「送信済み」セクションでは、フィルターを変更できません。
 
    <table style="table-layout:auto"> 
     <col> 
