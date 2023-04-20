@@ -2,7 +2,7 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: ee6b1ed410b797eb60264d8374d9993910a189a4
+source-git-commit: dbcbf6c5f5e8abdb553265242a23684bd738c339
 workflow-type: tm+mt
 source-wordcount: '12910'
 ht-degree: 2%
@@ -21,8 +21,8 @@ ht-degree: 2%
       * 23.3 リリース {#release-23-3}
          * [23.3 リリースの概要](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 リリース期間中のルックアンドフィールの更新](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
-         * [2023 年 4 月 18 日のリリース活動週](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-      * [2023 年 4 月 18 日のリリース活動週](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
+         * [2023 年 4 月 10 日の 23.3 リリースアクティビティ週](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
+         * [2023 年 4 月 18 日のリリース活動週](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
       * 23.2 リリース {#release-23-2}
          * [23.2 リリースの概要](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 管理者の機能強化](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
