@@ -6,14 +6,16 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 1%
+source-wordcount: '1242'
+ht-degree: 0%
 
 ---
 
 # ボードでの接続済みカードの使用
+
+{{highlighted-preview}}
 
 ボードに、 [!DNL Workfront].
 
@@ -96,11 +98,11 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 名前 ]</strong></td> 
-      <td> <p>名前を変更すると、接続された [!DNL Workfront] オブジェクト。</p> </td> 
+      <td>名前を変更すると、接続された [!DNL Workfront] オブジェクト。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 説明 ]</strong></td> 
-      <td> <p>説明を変更すると、接続されているの説明も変更されます [!DNL Workfront] オブジェクト。</p> </td> 
+      <td>説明を変更すると、接続されているの説明も変更されます [!DNL Workfront] オブジェクト。 <span class="preview">説明に URL を追加すると、カードを保存する際にクリック可能なリンクになります。</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong></td>
@@ -110,7 +112,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 列 ]</strong></td>
-      <td><p>カードの列を選択します。</p></td>
+      <td>カードの列を選択します。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL ステータス ]</strong></td>
@@ -120,7 +122,7 @@ ht-degree: 1%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 計画完了 ]</strong></td>
-      <td><p>この日付を変更すると、接続された [!DNL Workfront] オブジェクト。</p></td>
+      <td>この日付を変更すると、接続された [!DNL Workfront] オブジェクト。</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL 推定 ]</strong></td>
@@ -137,6 +139,12 @@ ht-degree: 1%
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">左側のナビゲーションパネルを使用して、カード詳細上のフィールドのグループ間を移動します。</span>
+
+   >[!NOTE]
+   >
+   >左側のナビゲーションパネルと「説明」フィールドにクリック可能なリンクを追加する機能は、Workfrontボードの初期機能オプトインからのみ使用できます。
 
 1. クリック **[!UICONTROL 閉じる]** ボードに戻る
 接続されたオブジェクト、割り当て先、タグ、期限、チェックリストカウンター、推定時間、ステータスがカードに表示されます。
