@@ -6,9 +6,9 @@ title: の初期の機能オプトイン [!DNL Adobe Workfront] ボード
 description: この記事で [!DNL Workfront Boards] 初期機能のオプトイン。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 199a83eaeb7fb96b41cec44ea116121cb84c1721
+source-git-commit: 0e838c75bddb97d53f5fa791d609be9b6d8d27f8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -166,6 +166,10 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>ダイナミックボードの作成</td>
+   <td>部分的にリリース済み</td>
+  </tr>
+  <tr>
+   <td>カードの詳細に左のナビゲーションを使用</td>
    <td>部分的にリリース済み</td>
   </tr>
  </tbody> 
