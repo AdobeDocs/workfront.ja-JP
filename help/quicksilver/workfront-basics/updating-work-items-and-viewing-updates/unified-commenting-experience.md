@@ -6,9 +6,9 @@ description: 新しい Unified Commenting Experience は次のようになりま
 author: Alina
 feature: Get Started with Workfront
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '546'
 ht-degree: 2%
 
 ---
@@ -163,8 +163,9 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td> 
    </td>
-   <td>
-   <td>✓ 
+   <td>✓
+   </td>
+   <td> 
    </td>
    <td> 
    </td>
@@ -242,7 +243,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
   </tr>
   <tr>
-   <td>新しいコメントをリアルタイムで表示 
+   <td>新しいコメントをリアルタイムで表示（コメントが削除された際の表示を含む）
    </td>
    <td> 
    </td>
