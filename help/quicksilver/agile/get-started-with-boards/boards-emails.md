@@ -5,7 +5,8 @@ navigation-topic: boards
 title: 電子メール通知と環境設定をボード
 description: Adobe Workfrontボードは、ボードに追加されたときや、カードが割り当てられたときに、電子メールを送信します。
 author: Lisa
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -13,8 +14,6 @@ ht-degree: 1%
 ---
 
 # 電子メール通知と環境設定をボード
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] [!UICONTROL ボード] は、あなたがボードに追加されたとき、およびカードが割り当てられたときに電子メールを送信します。 通知はデフォルトでオンになっており、ボードの設定で受信するメールを選択できます。
 
