@@ -5,13 +5,13 @@ title: Illustratorから配達確認をアップロード
 description: アートボードをドキュメントとしてアップロードして、すばやいレビューや承認を得たり、Adobe Workfrontに保存するだけで済みます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # 配達確認のアップロード元 [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ ht-degree: 0%
 
 1. 内 **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 自動]**.
 1. （オプション） **[!UICONTROL ワークフローテンプレート]** 「 」ボックスに、配達確認ワークフローテンプレートの名前を入力します。
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. （オプション） **[!UICONTROL 更新]** 領域
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->

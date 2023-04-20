@@ -1,8 +1,8 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 1%
+source-wordcount: '1538'
+ht-degree: 3%
 
 ---
 # スニペット
@@ -115,7 +115,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 前提条件 {#cc-install-prereq}
 
-使用しているAdobe Creative Cloudアプリケーション用の正しいプラグインをインストールする必要があります。
+使用している Adobe Creative Cloud アプリケーションに適したプラグインをインストールする必要があります。
 * Photoshopについては、 [Adobe Workfront for Photoshopのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * XDの場合は、 [Adobe Workfront for XDのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * InDesign、Illustrator、Premiere Pro、After Effectsについては、 [Adobe Workfrontをインストールしてデザインとビデオを作成](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -138,83 +138,82 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 自動配達確認設定の調整 {#adjust-proof-settings}
 
-1. （オプション）自動配達確認設定の調整
+1. （オプション）自動配達確認ワークフロー設定を調整します
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>配達確認ステージ</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>ステージの無効化
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>配達確認ステージ</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>ステージの無効化
+         </td>
+         <td>
+      <ol>
 
    <li>「すべて選択」を切り替えて、すべてのステージを無効にします。 
-   <p>または</p></li>
-   <li>個々のステージを切り替えます。</li>
+      <p>または</p></li>
+      <li>個々のステージを切り替えます。</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>受信者を追加
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>受信者を追加
+         </td>
+         <td>
+      <ol>
 
    <li>「新しい受信者を追加」ボックスに、ユーザーの名前を入力します。
-
-   注意：プラグインから E メールを使用して外部受信者を追加することはできません。
 
    <li>配達確認の役割を指定します。
 
    <li>受信者に関する E メールアラートのタイプを選択します。 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>期限を設定
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>期限を設定
+         </td>
+         <td>
+      <ol>
 
    <li>期限を選択します。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>メール通知</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>配達確認について受信者に通知
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>メール通知</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>配達確認について受信者に通知
+         </td>
+         <td>
+      <ol>
 
    <li>配達確認の作成時にユーザーに通知する場合は、このチェックボックスをオンにします。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>カスタムメッセージを追加
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>カスタムメッセージを追加
+         </td>
+         <td>
+      <ol>
 
    <li>件名を入力します。
 
    <li>カスタムメッセージを入力します。
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 
