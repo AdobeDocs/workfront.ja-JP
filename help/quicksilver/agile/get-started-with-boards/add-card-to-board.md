@@ -6,14 +6,16 @@ description: アドホックカードをボードにすばやく追加し、ボ�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # ボードへのアドホックカードの追加
+
+{{highlighted-preview}}
 
 カードをボードにすばやく追加し、ボード上のメンバーに割り当てることができます。 カードは、タスク、問題、人物、グループ、またはボードに含める任意の種類の項目を表すことができます。
 
@@ -63,7 +65,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 説明 ]</strong> </td> 
-      <td>カードの説明。</td> 
+      <td>カードの説明。 <span class="preview">説明に URL を追加すると、カードを保存する際にクリック可能なリンクになります。</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong> </td> 
@@ -96,7 +98,17 @@ ht-degree: 0%
     </tbody> 
    </table>
 
+   実稼動環境でのカード詳細画像の例：
    ![アドホックカードの詳細](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">プレビュー環境でのカード詳細画像の例：
+   ![アドホックカードの詳細](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">左側のナビゲーションパネルを使用して、カード詳細上のフィールドのグループ間を移動します。</span>
+
+   >[!NOTE]
+   >
+   >左側のナビゲーションパネルと「説明」フィールドにクリック可能なリンクを追加する機能は、Workfrontボードの初期機能オプトインからのみ使用できます。
 
 1. クリック **[!UICONTROL 閉じる]** カードをボードに追加します。
 
