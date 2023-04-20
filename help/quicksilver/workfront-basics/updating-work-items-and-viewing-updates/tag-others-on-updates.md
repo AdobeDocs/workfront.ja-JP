@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    ![](assets/tag-users-in-update.png)
 
-1. （オプション）更新を非公開にするには、 **私の会社に対してプライベート** をクリックします。 これにより、会社のユーザーだけが更新を表示できるようになります。
+1. （オプション）更新を非公開にするには、 **私の会社に対してプライベート** をクリックします。 これにより、会社のユーザーだけが更新を表示できるようになります。 この **私の会社に対してプライベート** オプションは、会社がWorkfrontプロファイルで指定されている場合にのみ使用できます。
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ ht-degree: 0%
 
 ### コメントベータ版エクスペリエンスの更新に関する他のユーザーへのタグ付け
 
+コメントベータ版のエクスペリエンスで、更新時に他のユーザーにタグ付けすることができます。 また、コメントの編集時に誤ってタグ付けされたユーザーを削除することもできます。
+
 1. 作業項目の更新を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 内 **担当者またはチームのタグ付け** フィールドに、含めるユーザーまたはチームの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -148,7 +150,7 @@ ht-degree: 0%
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. （オプション）更新を非公開にするには、 **私の会社に対してプライベート** をクリックします。 これにより、会社のユーザーだけが更新を表示できるようになります。
+1. （オプション）更新を非公開にするには、 **私の会社に対してプライベート** をクリックします。 これにより、会社のユーザーだけが更新を表示できるようになります。 この **私の会社に対してプライベート** オプションは、会社がWorkfrontプロファイルで指定されている場合にのみ使用できます。
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ ht-degree: 0%
    ![](assets/members-icons-expanded-unshimmed.png)
 
    作業項目の更新時に使用できる追加機能について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. （オプション） **詳細** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**. タグ付きユーザーを削除し、「 **送信**. コメントは、入力後 15 分以内に編集できます。 編集できるのは、自分が追加したコメントだけです。
