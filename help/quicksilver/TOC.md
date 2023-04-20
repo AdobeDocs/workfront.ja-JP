@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 4b396508c85758aa7efeca9e18cdbd204b06146f
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '12897'
+source-wordcount: '12905'
 ht-degree: 2%
 
 ---
@@ -935,6 +935,7 @@ ht-degree: 2%
       * [ボードに吸気柱を追加する](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [ボードでのグループの使用](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [カードのフォールオフを設定](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [アジャイルチームかんばんカードをWorkfrontボードに移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
       * [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
       * [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
       * [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
