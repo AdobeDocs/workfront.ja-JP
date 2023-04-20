@@ -7,16 +7,18 @@ description: かんばんボードの機能をより深く理解するには、�
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: a478e5355db33e076b321a6219442198901f3252
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # かんばんの概要
 
-以下の節では、 [!UICONTROL かんばん] ボード機能：
+以下の節では、 [!UICONTROL かんばん] ボードの機能。
+
+アジャイルチームからの移行に関心がある場合 [!UICONTROL かんばん] ～に乗る [!DNL Workfront] [!UICONTROL ボード]を参照してください。 [チームのアジャイルの移行 [!UICONTROL かんばん] カード [!DNL Workfront] ボード](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL かんばん] ボードのレイアウトと機能
 
