@@ -9,9 +9,9 @@ description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、SharePoin
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ ht-degree: 0%
 
 ![](assets/map-toggle-350x74.png)
 
+* [ドライブ項目](#drive-item)
 * [アイテム](#item)
 * [リスト](#list)
 * [ページ（ベータ版）](#page-beta)
 * [サイト](#site)
 * [その他](#other)
+
+### ドライブ項目
+
+* [ファイルの作成](#create-a-file)
+* [フォルダーの作成](#create-a-folder)
+* [ファイルの取得](#get-a-file)
+* [フォルダー項目を監視する](#watch-folder-items)
+
+#### ファイルの作成
+
+このアクションモジュールは、SharePointに新しいファイルを作成します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL サイト、ドライブ、フォルダー ID を入力 ]</td> 
+   <td> <p>作成するファイルの場所を識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL フォルダー ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>ファイルを作成する場所を選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
+   <td>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</td> 
+  </tr>  </tbody> 
+</table>
+
+#### フォルダーの作成
+
+このアクションモジュールは、SharePointに新しいフォルダーを作成します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL サイト、ドライブ、フォルダー ID を入力 ]</td> 
+   <td> <p>作成するフォルダーの場所を識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL フォルダー ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>フォルダーを作成する場所を選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL フォルダー名 ]</td> 
+   <td>新しいフォルダの名前を入力またはマップします。</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### ファイルの取得
+
+このアクションモジュールは、指定されたSharePointファイルを取得します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL サイト、ドライブ、フォルダー ID を入力 ]</td> 
+   <td> <p>取得するファイルの場所を識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL ファイル ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>ファイルの場所を選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### フォルダー項目を監視する
+
+このトリガーモジュールは、選択したフォルダー内の項目が更新されると、シナリオを開始します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL サイト、ドライブ、フォルダー ID を入力 ]</td> 
+   <td> <p>取得するファイルの場所を識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL フォルダー ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>監視するフォルダの場所を選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td>最大項目数を入力 [!DNL Workfront Fusion] は、1 回のシナリオ実行サイクルで返されます。</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### アイテム
 
