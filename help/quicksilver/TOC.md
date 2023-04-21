@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
+source-git-commit: 09f55c5ea7f7bc37886ec1bc2fa41ecb5b6b02b0
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12923'
 ht-degree: 2%
 
 ---
@@ -417,22 +417,22 @@ ht-degree: 2%
          * [監査ログの表示と書き出し](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [ユーザーログイン情報の表示](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-      * アクセスレベルの仕組み {#access-levels}
-         * [アクセスレベルの仕組み](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-         * [アクセスレベルの概要](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-         * [ライセンスの概要](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [ライセンスタイプ別のオブジェクトや領域へのアクセス](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-         * [各オブジェクトタイプで使用できる機能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-      * レガシーアクセスレベルの仕組み {#legacy-access-levels}
-         * [レガシーレベルへのアクセスの仕組み](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-         * [レガシーアクセスレベルの概要](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-         * [レガシーライセンスの概要](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-         * [従来のアクセスレベルと権限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-         * [ライセンスタイプ別のオブジェクトへの従来のアクセス](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+      * 新しいアクセスレベルの仕組み {#access-levels}
+         * [新しいアクセスレベルの仕組み](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+         * [新しいアクセスレベルの概要](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+         * [新しいライセンスの概要](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+         * [新しいライセンスを受けるために、によるオブジェクトや領域へのアクセス](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [新しいアクセスレベルで各オブジェクトタイプで使用可能な機能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * アクセスレベルの仕組み {#legacy-access-levels}
+         * [アクセスレベルの仕組み](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+         * [アクセスの概要](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+         * [ライセンスの概要](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+         * [アクセスレベルと権限](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+         * [ライセンスタイプ別のオブジェクトや領域へのアクセス](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [各オブジェクトタイプの機能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-         * [各オブジェクトタイプに対して設定可能なレガシーアクセス](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [組み込みのレガシーアクセスレベル](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-         * [ユーザーの従来のアクセスレベルとライセンスの一覧を表示する](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+         * [各オブジェクトタイプに対して設定可能なアクセス](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+         * [組み込みのアクセスレベル](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [ユーザーのアクセスレベルとライセンスの一覧表示](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Workfrontへのアクセスの設定 {#configure-access}
          * [アクセスの設定](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [カスタムアクセスレベルの作成または変更](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1820,7 +1820,7 @@ ht-degree: 2%
          * [FAQ:Adobe Workfront内での検証 — 米国から EMEA への移行](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
    * 承認に関するヒント、テクニックおよびトラブルシューティング {#ttt-approvals}
       * [承認に関するヒント、テクニックおよびトラブルシューティング](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
-      * [すべてのユーザーの決定数を表示](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
+      * [すべてのユーザーに対する配達確認およびドキュメントの決定数を表示します](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * タイムシート {#timesheets}
    * [タイムシート](timesheets/timesheets-all.md)
    * タイムシートの詳細 {#details}

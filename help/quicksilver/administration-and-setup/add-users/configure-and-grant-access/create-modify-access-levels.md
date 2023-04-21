@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 6%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 Adobe Workfront管理者は、カスタムアクセスレベルを作成し、ユーザーに適用できます。 アクセスレベルを使用する場合は、ユーザーがオブジェクトを共有する際に付与するオブジェクト権限と連携する方法を理解することが重要です。 アクセスレベルの詳細については、
 
-* [アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [レガシーアクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">ライセンスの種類</td> 
-      <td>ここで選択したライセンスが、作成または編集するアクセスレベルの種類に最も密接に関連しているライセンスであることを確認します。 選択したライセンスによって、アクセスレベルで使用できる設定が決まります。 詳しくは、 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">レガシーライセンスの概要</a> または <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontレガシーライセンスの概要</a>.</td> 
+      <td>ここで選択したライセンスが、作成または編集するアクセスレベルの種類に最も密接に関連しているライセンスであることを確認します。 選択したライセンスによって、アクセスレベルで使用できる設定が決まります。 詳しくは、 <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新しいライセンスの概要</a> または <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">ライセンスの概要</a>.</td> 
      </tr> 
     </tbody> 
    </table>

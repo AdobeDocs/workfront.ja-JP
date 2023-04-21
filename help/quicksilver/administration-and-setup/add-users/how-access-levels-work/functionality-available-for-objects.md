@@ -4,19 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス，モデル，ファネル，ダイアグラム，レベル，権限
 navigation-topic: access-levels
-title: 各オブジェクトタイプで使用できる機能
+title: 新しいアクセスレベルで各オブジェクトタイプで使用可能な機能
 description: 次の表に、様々なアクセスレベルで各オブジェクトタイプで使用できる機能を示します。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 14652fb34dbd9f830dd7a5ee397b2583869e02f9
+exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1250'
 ht-degree: 13%
 
 ---
 
-# 様々なアクセスレベルで各オブジェクトタイプで使用可能な機能
+# 新しいアクセスレベルで各オブジェクトタイプで使用可能な機能
 
 次の表に、様々なアクセスレベルで各オブジェクトタイプで使用できる機能を示します。
 

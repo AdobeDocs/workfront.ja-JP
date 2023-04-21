@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Workfront管理者は、組織で購入されたライセンスの数や�
 
 1. 左側のパネルの下部で、 **システム** > **ライセンス**.
 
-   このページに記載されているライセンスの詳細については、 [レガシーライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   このページに記載されているライセンスの詳細については、 [ライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## 月次配達確認とドキュメントの決定割り当てに関する情報を表示します
 
-配達確認とドキュメントの決定は、有料Workfrontライセンスのすべてに対して制限されます。 制限は、ユーザーごとに 1 ヶ月ごとにリセットされます。
-
 >[!IMPORTANT]
 >
->配達確認とドキュメントの決定制限は、 [レガシーWorkfrontライセンスとアクセスレベル](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>配達確認とドキュメントの決定制限は、新しいライセンスのユーザーにのみ適用されます。 詳しくは、 [新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+配達確認とドキュメントの決定は、有料Workfrontライセンスのすべてに対して制限されます。 制限は、ユーザーごとに 1 ヶ月ごとにリセットされます。
 
 各ライセンスの決定制限は、使用するプランによって異なります。 毎月の割り当ては、[ セットアップ ] > [ ライセンス ] で確認できます。
 

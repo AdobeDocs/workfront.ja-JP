@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 1%
+source-wordcount: '906'
+ht-degree: 2%
 
 ---
 
-# 従来のアクセスレベルと権限の連携
+# アクセスレベルと権限の連携
 
 Adobe Workfront管理者は、各ユーザーが持つ必要のあるアクセスレベルを決定します。 このアクセスレベルは、ユーザーがシステム内のオブジェクトの種類や領域で表示および操作できる内容を定義します。
 
@@ -31,11 +31,11 @@ Adobe Workfront管理者は、各ユーザーが持つ必要のあるアクセ�
 
 この記事では、この組み合わせの仕組みを説明します。
 
-## レガシーアクセスレベル
+## アクセスレベル
 
 Workfrontへのログインには、Workfront管理者が各ユーザーに割り当てたアクセスレベルが必要です。
 
-デフォルトのレガシーアクセスレベルは次のとおりです。
+デフォルトのアクセスレベルは次のとおりです。
 
 * システム管理者（プランライセンスに添付）
 * プランナー（プランライセンスに添付）

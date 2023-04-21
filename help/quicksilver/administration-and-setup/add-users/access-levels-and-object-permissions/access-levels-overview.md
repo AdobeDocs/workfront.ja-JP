@@ -1,5 +1,5 @@
 ---
-title: レガシーアクセスレベルの概要
+title: アクセスレベルの概要
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,14 +10,14 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-# レガシーアクセスレベルの概要
+# アクセスレベルの概要
 
 Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセスレベルを割り当てます。
 
@@ -42,7 +42,7 @@ Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセ�
  <tbody> 
   <tr> 
    <td>ライセンス</td> 
-   <td> <p>アクセスレベルに付属するライセンスによって、アクセスレベルの設定方法が決まります。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">レガシーライセンスの概要</a>.</p> <p><strong>ヒント</strong>:各ユーザに割り当てられているアクセスレベルとライセンスは、ユーザリストまたはレポートを表示することで確認できます。 手順については、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">ユーザーのアクセスレベルとライセンスを一覧表示する</a>.</p> </td> 
+   <td> <p>アクセスレベルに付属するライセンスによって、アクセスレベルの設定方法が決まります。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">ライセンスの概要</a>.</p> <p><strong>ヒント</strong>:各ユーザに割り当てられているアクセスレベルとライセンスは、ユーザリストまたはレポートを表示することで確認できます。 手順については、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">ユーザーのアクセスレベルとライセンスを一覧表示する</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>組み込みのアクセスレベル</td> 

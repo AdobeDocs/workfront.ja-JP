@@ -1,5 +1,5 @@
 ---
-title: アクセスレベルの概要
+title: 新しいアクセスレベルの概要
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,23 +9,24 @@ description: Workfrontにログインして作業するには、すべてのユ�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5baf629b368649ec07a789ea8970ed70ea750d68
+exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
+source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1626'
 ht-degree: 5%
 
 ---
 
-# アクセスレベルの概要
+# 新しいアクセスレベルの概要
 
 Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセスレベルを割り当てます。
 
 * Workfrontにログインして作業するには、すべてのユーザーにアクセスレベルが必要です。
 * アクセスレベルを使用して、特定のWorkfrontオブジェクトや領域でユーザーが表示したり実行したりする操作を制御できます。
 
-## Adobe Workfrontの組み込みアクセスレベル {#built-in-access}
+## Adobe Workfrontの新しい組み込みアクセスレベル {#built-in-access}
 
-Workfrontには 6 つの組み込みアクセスレベルがあります。
+Workfrontには、次の 6 つの新しい組み込みアクセスレベルがあります。
 
 * システム管理者
 * 標準

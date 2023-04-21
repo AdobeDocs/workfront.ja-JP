@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: ライセンスタイプ別のオブジェクトおよび領域への従来のアクセス
-description: 次の表に、Adobe Workfrontの各レガシーライセンスでWorkfrontのオブジェクトと領域に対して許可されている最高レベルのアクセス（編集または表示）を示します。
+title: ライセンスタイプ別のオブジェクトや領域へのアクセス
+description: 次の表に、各Adobe WorkfrontライセンスでWorkfrontのオブジェクトと領域に対して許可されている最高レベルのアクセス（編集または表示）を示します。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 19%
+source-wordcount: '430'
+ht-degree: 20%
 
 ---
 
-# ライセンスタイプ別のオブジェクトおよび領域への従来のアクセス
+# ライセンスタイプ別のオブジェクトや領域へのアクセス
 
-次の表に、各Adobe WorkfrontライセンスでWorkfrontのオブジェクトと領域に対して許可されているレガシーアクセス（編集または表示）の最高レベルを示します。
+次の表に、各Adobe WorkfrontライセンスでWorkfrontのオブジェクトと領域に対して許可されている最高レベルのアクセス（編集または表示）を示します。
 
 * **表示**:ユーザーは、項目を確認および共有できます。
 * **編集**:ユーザーは、項目の作成、編集、削除、共有をおこなうことができます。
@@ -49,11 +49,11 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->レビューライセンスまたはリクエストライセンスを持つユーザーは、共有機能に制限があります。 詳しくは、 [Adobe Workfrontライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) または [Adobe Workfrontレガシーライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>レビューライセンスまたはリクエストライセンスを持つユーザーは、共有機能に制限があります。 詳しくは、 [Adobe Workfrontライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) または [Adobe Workfrontライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >外部ユーザーはWorkfrontで項目を検索できません。 ユーザーは、特別に共有されているドキュメントやカレンダーを表示できます。 また、アイテムを共有しているユーザーを表示することもできます。
 
-各オブジェクトおよび領域に対してレガシーアクセスレベルで許可される内容に関する詳細は、次の記事を参照してください。
+次の記事では、各オブジェクトおよび領域に対してアクセス・レベルで許可されるアクセス・レベルに関する詳細情報を示します。
 
 * [プロジェクトへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
