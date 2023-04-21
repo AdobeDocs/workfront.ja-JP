@@ -8,14 +8,13 @@ navigation-topic: apps-and-their-modules
 title: エアテーブルモジュール
 description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
 author: Becky
-hidefromtoc: true
-source-git-commit: 6955c979d504adb6514ae64bf5108174d7a90ce4
+exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
+source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 2%
 
 ---
-
 
 # エアテーブルモジュール
 
