@@ -7,16 +7,16 @@ description: Workfront for G Suite のプライバシーと権限
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: 90d088846e72f1632274043c8d8ca7807ff05b4a
+source-git-commit: a156092bf2b6cca70d09b76a65d755fbe05ec8da
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Workfront for G Suite のプライバシーと権限
 
-顧客のプライバシーは重要なので、Adobe Workfrontは、Googleプラグインアプリのサードパーティ認証によって生じる、識別する顧客データを保存または収集しません。 Workfront for G Suite は、Google API Services のユーザーデータポリシー（使用制限の要件を含む）に準拠しています。
+顧客のプライバシーは重要なので、Adobe Workfrontは、Googleプラグインアプリのサードパーティ認証によって生じる、識別する顧客データを保存または収集しません。 Workfront for G Suite の使用と、Google API から受け取った情報の他のアプリへの転送は、Google API Services のユーザーデータポリシー（使用制限の要件を含む）に従います。
 
 Workfront for G Suite プラグインが最大値を提供できるように、次の権限が必要です。
 
