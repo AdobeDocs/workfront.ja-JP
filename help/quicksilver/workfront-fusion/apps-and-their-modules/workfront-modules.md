@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfrontコネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '5276'
+source-wordcount: '5288'
 ht-degree: 3%
 
 ---
@@ -771,7 +771,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr> 
    <td>[!UICONTROL 検索条件 ]</td> 
-   <td> <p>検索するフィールド、クエリで使用する演算子、および「 」フィールドで検索する値を入力します。</p> <p>注意：使用しない <code>username </code>」と入力します。 次を含む <code>username </code>を [!DNL Workfront] ユーザーをWorkfrontに記録すると、検索に失敗します。</p> </td> 
+   <td> <p>検索するフィールド、クエリで使用する演算子、および「 」フィールドで検索する値を入力します。</p> <p>注意：使用しない <code>username </code>」と入力します。 次を含む <code>username </code>を [!DNL Workfront] ユーザーをWorkfrontに記録すると、検索に失敗します。</p> <p>注意： <code>In</code> および <code>NotIn</code>は配列を使用します。 入力は配列形式である必要があります。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 出力 ]</td> 
