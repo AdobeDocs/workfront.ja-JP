@@ -7,9 +7,9 @@ description: 次のタスクでは、 [!DNL Adobe Workfront Fusion] シナリオ
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ ht-degree: 0%
 1. クリック **[!UICONTROL シナリオ]** ![](assets/scenarios-icon.png) をクリックします。
 
 1. クリック **[!UICONTROL 新しいシナリオの作成]** をクリックします。
-1. （オプション） **[!UICONTROL 統合するサービス]**&#x200B;新しいシナリオを作成する場合は、シナリオで使用するアプリを選択し、「 **[!UICONTROL 続行]**.
-
-   または
-
-   クリック **[!UICONTROL スキップ]** シナリオエディター内からアプリを選択する場合。
-
 1. 表示される画面（シナリオエディター）で、新しいシナリオを作成する場合は、「 **[!UICONTROL 新しいシナリオ]** 左上隅にシナリオの名前を入力します。
 1. 続行： [シナリオへのモジュールの追加](#add-a-module-in-a-scenario).
 

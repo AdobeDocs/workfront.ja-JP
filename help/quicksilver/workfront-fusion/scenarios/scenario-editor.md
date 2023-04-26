@@ -7,9 +7,9 @@ description: シナリオエディターを使用すると、視覚的なイン�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -61,12 +61,6 @@ ht-degree: 1%
 
    既存のシナリオを編集する場合は、シナリオをクリックします。
 
-1. （条件付き）新しいシナリオを作成する場合、「 **[!UICONTROL 統合するサービス]**」で、シナリオで使用するアプリを選択し、 **[!UICONTROL 続行]**.
-
-   または
-
-   クリック **[!UICONTROL スキップ]** シナリオエディター内からアプリを選択する場合。
-
    表示されるシナリオエディターで、次の表に示す操作をすべて実行できます。 詳しくは、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. シナリオの編集が終了したら（または編集中に任意の時点で）、 [!UICONTROL 保存] アイコン ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ ht-degree: 1%
    >シナリオを保存すると、将来アクセスする必要が生じた場合に備えて、3 ドットメニューで新しいバージョンを使用できるようになります。 以前に保存したシナリオのバージョンは 60 日間のみ使用できます。
 
 ## 使用可能なシナリオエディターのアクション
+
+シナリオエディターでは、次のアクションを使用できます。
 
 <table style="table-layout:auto"> 
 <tbody>
