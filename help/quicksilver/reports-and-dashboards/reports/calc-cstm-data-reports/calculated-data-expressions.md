@@ -7,9 +7,9 @@ description: データ式を使用して、Adobe Workfrontで計算済みのカ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2302'
 ht-degree: 7%
 
 ---
@@ -104,11 +104,11 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>この式では、日付に日数を追加し、次の形式で記述します。</p><pre>ADDDAYS(date, number)</pre> </td> 
+   <td> <p>この式は、日付に日数を追加します。 数値には日の一部を含めることができます（例： 1.5 は日付に 1 日半を追加します）。</p> <p>式の形式は次のとおりです。</p><pre>ADDDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>平日の追加</strong> </td> 
-   <td> <p>この式は、日付に曜日数を追加し、次の形式で表されます。</p><pre>平日の追加 (日、数値)</pre> </td> 
+   <td> <p>この式は、日付に平日数を追加します。 この式は、整数値を切り捨てて日付に加算します。 </p> <p>式の形式は次のとおりです。</p><pre>平日の追加 (日、数値)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
@@ -234,7 +234,7 @@ ht-degree: 7%
    <td>この式は、リスト内の最大の項目を返し、次のように書式設定されます。<pre>MAX(item1, item2, ...)</pre></td> 
   </tr> 
   <tr> 
-   <td><strong>MIN</strong> </td> 
+   <td><strong>最小</strong> </td> 
    <td>この式は、リスト内の最小の項目を返し、次のように書式設定されます。<pre>MIN(item1, item2, ...)</pre></td> 
   </tr> 
   <tr> 
@@ -304,7 +304,7 @@ ht-degree: 7%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>含む</strong> </td> 
+   <td><strong>次を含む</strong> </td> 
    <td>この式は、findText 文字列が withinText 文字列内で見つかり、次の形式である場合、true を返します。<pre>CONTAINS(findText, withinText)</pre></td> 
   </tr> 
   <tr> 

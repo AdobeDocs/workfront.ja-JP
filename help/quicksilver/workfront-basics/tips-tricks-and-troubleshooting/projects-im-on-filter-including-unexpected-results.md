@@ -5,10 +5,10 @@ title: 予期しない結果を含む、フィルター処理中のプロジェ�
 description: この記事を読んで、予期しない結果を含む I'm On フィルタのトラブルシューティングを行ってください。
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. 次を確認します。 [!UICONTROL **プロジェクトの詳細**] フィルターに含まれる予期しない各プロジェクトに対して、お客様の名前をすべてのフィールドから削除します。
 
-または
+   または
 
 1. 次のような類似のフィルターを使用してみてください。 [!UICONTROL **自分が所有するプロジェクト**]：ユーザーに特別に割り当てられたプロジェクトのみが含まれます。
 
