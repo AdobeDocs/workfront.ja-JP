@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>プレビューリリース：2023 年 4 月 28 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
                     </td>
@@ -75,9 +74,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
                     </td>
@@ -93,9 +91,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
                     </td>
@@ -111,9 +108,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                                <p><span class="preview">すべてのお客様向けの実稼動版リリース：2023 年 4 月 28 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -129,9 +124,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>プレビューリリース：2023 年 4 月 14 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 14 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 14 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
                     </td>

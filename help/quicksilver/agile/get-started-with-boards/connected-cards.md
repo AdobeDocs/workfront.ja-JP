@@ -6,9 +6,9 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ ht-degree: 0%
    </table>
 
    左側のナビゲーションパネルを使用して、カード詳細上のフィールドのグループ間を移動します。
-
-   >[!NOTE]
-   >
-   >左側のナビゲーションパネルと「説明」フィールドにクリック可能なリンクを追加する機能は、Workfrontボードの初期機能オプトインからのみ使用できます。
 
 1. クリック **[!UICONTROL 閉じる]** ボードに戻る
 接続されたオブジェクト、割り当て先、タグ、期限、チェックリストカウンター、推定時間、ステータスがカードに表示されます。
