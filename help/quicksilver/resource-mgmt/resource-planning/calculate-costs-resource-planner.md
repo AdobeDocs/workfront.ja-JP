@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: リソースプランナーでコストを計算する
-description: '( アリナ：***「リソースプランナー」の記事の「計画」にリンクされています。「リソースプランナーの領域について」の記事です。  — 移動、変更、削除はしないでください。)'
-author: Alina
+description: Adobe Workfront Resource Planner でリソースを予算設定するには、Hours 値や FTE 値の代わりにコスト値を使用します。 リソースプランナーの「**ユーザー別に表示**」ビューでは、コスト値は使用できません。
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 Adobe Workfront Resource Planner でリソースを予算設定するには、Hours 値や FTE 値の代わりにコスト値を使用します。 コスト値は、**ユーザー別に表示** 「生産資源プランナ」で表示します。
 
@@ -70,7 +72,7 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
 
 1. クリック **リソース**.
-1. に移動します。
+1. 「生産資源プランナ」に移動します。
 1. （条件付き）選択 **プロジェクト別に表示** または **ロール別に表示**.\
    デフォルト **プロジェクト別に表示** が選択されている。\
    配分および稼動状況の情報は、「時間」に表示されます。

@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. （オプション）コメントを編集するには、 **詳細** メニュー ![](assets/more-icon.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
-1. コメント内の情報を編集するか、タグ付きユーザーを削除します。
+1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。
 コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

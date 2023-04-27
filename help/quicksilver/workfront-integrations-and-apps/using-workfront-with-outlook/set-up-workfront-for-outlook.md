@@ -6,9 +6,9 @@ description: Adobe Workfront Fusion は、Outlook との統合を提供します
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,11 @@ ht-degree: 0%
 
 メールサーバーの要件は、 [!DNL Office 365] または [!DNL Outlook.com]. ただし、オンプレミスインストールの [!DNL Exchange Server]の場合、次の要件が適用されます。
 
-* サポート [!DNL Exchange 2016 On-Premise]
+* 当社は全てをサポートしています [!DNL Exchange On-Premise] サーバー
 * [!DNL Exchange Web Services] (EWS) を有効にし、インターネットに公開する必要があります。
 * サーバーが有効な ID トークンを発行するには、サーバーに有効な認証証明書が必要です。 の新規インストール [!DNL Exchange Server] デフォルトの認証証明書を含めます。
 
-   詳しくは、 [での電子証明書と暗号化 [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) および [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
+   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * 次にアクセスするために： [!DNL Workfront] からのアドイン [[!DNL Office] ストア](https://store.office.com/)を使用する場合、クライアントアクセスサーバーはと通信できる必要があります  [https://store.office.com](https://store.office.com/).
 

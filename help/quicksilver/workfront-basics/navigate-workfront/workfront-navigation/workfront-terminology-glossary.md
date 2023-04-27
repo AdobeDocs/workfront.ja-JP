@@ -5,9 +5,9 @@ title: 用語集 [!DNL Adobe Workfront] 用語
 description: この [!DNL Adobe Workfront] 用語集には、Adobe Workfrontでよく使用される用語が記載されています。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '19138'
+source-wordcount: '19387'
 ht-degree: 0%
 
 ---
@@ -844,11 +844,32 @@ ht-degree: 0%
    <td>[!UICONTROL 外部 ]</td> 
    <td> <p>通常は、ライセンスの種類、またはそのようなライセンスを持つユーザーで、システム内の情報を確認する機能のみを持っています。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] ライセンスの概要</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL 外部システム ]</td> 
    <td>指定された記録システムの外部に保存および管理されるサービスまたはソフトウェア。</td> 
-  </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL フィールド ]</td> 
+   <td><p>任意のWorkfrontオブジェクト、またはそれに関連付けられている情報（データベースに表示されるもの）。 </p>
+   <p>例えば、「project」、「user」、「hour」は、Workfrontオブジェクトとフィールドの両方です。 「名前」、「ステータス」、「所有者」、「開始日」は、上記のオブジェクトに関連付けられたWorkfrontフィールドです。 </p>
+
+<p>オブジェクトを参照する場合、「objects」と「fields」は同じ意味で使用できます。</p>
+   <p>レポートの範囲では、「フィールド」は、レポートに取り込むオブジェクトまたはオブジェクトに関する情報を指します。</p>
+
+<p><b>メモ</b></p>
+
+<p>テキストの詳細レポートでは、フィールドは、データベースに表示されるオブジェクトまたはその情報を参照します。</p>
+   <p>ユーザーインターフェイスに表示される名前が、データベースのフィールドの名前と異なる場合があります。 例えば、「issue」はWorkfrontインターフェイスのオブジェクトの名前ですが、「opTask」はWorkfrontデータベースのオブジェクト（またはフィールド）の名前です。 </p> 
+   <p> テキストモードのレポート、表示、フィルター、グループ化の記述時、または計算フィールドの作成時に、データベースに表示されるフィールドを使用することが重要です。</p>
+
+<p>詳しくは、 <a href="../../../wf-api/general/api-explorer.md">API エクスプローラ</a> および <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">テキストモードの概要</a>.</p>
+
+<p>デフォルトでは、Workfrontには、オブジェクトとその情報の両方を定義する一連のフィールドが用意されています。 また、カスタムフィールドを作成してオブジェクトを定義することもできますが、カスタムオブジェクトを作成することはできません。</p> 
+   </td> 
+  </tr>
+
+<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL フィルター ]</td> 
    <td> <p>画面に表示する情報を定義する、レポートの主要な構成要素またはリスト要素の 1 つ。 レポート要素について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">レポート要素：フィルター、ビュー、グループ化</a>.</p> <p>フィルターは、レポートまたは [!DNL Workfront] パネルリスト（プロジェクト、タスク、タスクなど）。</p> </td> 
   </tr> 
@@ -1300,7 +1321,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL オブジェクト ]</td> 
-   <td> <p>組織の作業項目とレポート、および [!UICONTROL Workfront] でそれらを管理するユーザーのグループ。 オブジェクトは次のようになります。</p> 
+   <td> <p>表示する情報 [!DNL Adobe Workfront] は、 [!DNL Workfront] データベース。 オブジェクトは、Workfrontの情報を動かすものです。 オブジェクトの例を次に示します。</p> 
     <ul> 
      <li>[!UICONTROLPortfolio]</li> 
      <li>[!UICONTROL プログラム ]</li> 
@@ -1314,7 +1335,17 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
      <li>[!UICONTROL チーム ]</li> 
      <li>[!UICONTROL ユーザー ]</li> 
      <li>[!UICONTROL 会社 ]</li> 
-    </ul> <p>詳しくは、 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">[!UICONTROL Adobe Workfront] のオブジェクトについて</a>.</p> </td> 
+     <li>[!UICONTROL カスタムフォーム ]</li>
+     <li>[!UICONTROL カスタムフィールド ]</li>  
+     <li>[!UICONTROL 時間 ]</li> 
+     <li>[!UICONTROL 請求率 ]</li> 
+     <li>[!UICONTROL テンプレート ]</li> 
+     <li>[!UICONTROL テンプレートタスク ]</li>
+
+<p><b>メモ</b></p>
+  <p>これは広範なリストではありません。 </p>
+
+</ul> <p>詳しくは、 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">[!UICONTROL Adobe Workfront] のオブジェクトについて</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL オブジェクトタイプ ]</td> 

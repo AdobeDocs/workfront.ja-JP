@@ -7,9 +7,9 @@ description: プレビュー環境は週に 1 回更新され、新機能が追�
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
+source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,12 @@ Workfrontで利用可能なベータプログラムの種類を次に示しま�
    * 機能がパブリックベータ版にリリースされたタイミングに関する情報が、製品リリースページに含まれています。
 
 製品リリースノートについて詳しくは、 [製品リリース](../../product-announcements/product-releases/product-releases.md).
+
+## その他のリリース
+
+リリースノート、メンテナンスアップデート、または実際のドキュメント記事に記載されていない可能性のある機能が、Workfrontにリリースされる場合があります。 これは、新しい機能を永続的に使用する前にテストするために行われます。 通常、これらのテストは限られた数のお客様にリリースされますが、全員にリリースされる場合もあります。
+
+システム内でドキュメントと一致しないものが見つかった場合は、カスタマーサポートチームに連絡してください。 詳しくは、 [カスタマーサポートに連絡](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## リリースノート
 
