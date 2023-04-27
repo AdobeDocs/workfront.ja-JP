@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
+source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfrontの機能強化
 
 * [アジャイルの強化](#agile-enhancements)
+* [統合の強化](#integration-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### アジャイルの強化
@@ -45,9 +46,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">ダイナミックボードテンプレートに追加されたシンプルなフィルター</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>ダイナミックボードテンプレート上のフィルターが簡素化され、ボードをより迅速に作成できるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 4 月 28 日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">ダイナミックボードテンプレート</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">ダイナミックボードテンプレート</a></p>
                         <p>新しいテンプレートであるダイナミックボードがスタンドアロンボードで使用できるようになりました。 このテンプレートは、ワークストリーム内のボードでは使用できません。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -57,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
                             </li>
                         </ul>
@@ -65,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">アジャイルチームかんばんカードをボードに移行</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">アジャイルチームかんばんカードをボードに移行</a></p>
                         <p>新しい <b>ボードに追加</b> アジャイルチームのボタンアジャイルチームかんばんボードを使用すると、かんばんボードからWorkfrontボードにすべてのカードを追加できます。 新しいWorkfrontボードを作成するか、既存のボードにカードを追加するかを選択できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -75,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
                             </li>
                         </ul>
@@ -83,7 +102,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">ボードのカードの詳細に左側のナビゲーションが追加されました</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">ボードのカードの詳細に左側のナビゲーションが追加されました</a></p>
                         <p>Workfrontボードのカードにフィールドオプションが追加されるにつれ、カードの詳細は長くなっています。 カードの詳細の左側にある新しいナビゲーションパネルを使用すると、セクションを選択して、そのフィールドグループに自動的に移動できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -93,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p></span></p>
                             </li>
                         </ul>
@@ -120,7 +139,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### 統合の強化
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Creative CloudにAdobe Workfrontを使用して自動配達確認ワークフローテンプレート設定を調整</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>既存の自動ワークフローテンプレート設定をCreative Cloudで直接調整できるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 4 月 28 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 4 月 28 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### その他の機能強化
 
@@ -140,7 +192,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">アバターを持たないプロファイルにユーザーのイニシャルが表示されるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">アバターを持たないプロファイルにユーザーのイニシャルが表示されるようになりました</a></p>
                         <p>大きなリスト内の特定のユーザーを簡単に見つけられるように、カスタマイズされたアバターを持たないプロファイルで、リストとレガシーレポートの色付きの背景にユーザーのイニシャルが表示されるようになりました。 これは小さな外観上の変更であり、アバター写真が既に使用されている場合や、ユーザーが非アクティブ化されている場合は適用されません。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -149,7 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>プレビューリリース： 2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース： 23.3 リリースを使用</span></p>
+                                <p><span class="preview">実稼動版リリース：2023 年 5 月 5 日</span></p>
                             </li>
                         </ul>
                     </td>
