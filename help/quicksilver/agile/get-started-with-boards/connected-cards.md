@@ -6,7 +6,7 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # ボードでの接続済みカードの使用
-
-{{highlighted-preview}}
 
 ボードに、 [!DNL Workfront].
 
@@ -102,7 +100,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 説明 ]</strong></td> 
-      <td>説明を変更すると、接続されているの説明も変更されます [!DNL Workfront] オブジェクト。 <span class="preview">説明に URL を追加すると、カードを保存する際にクリック可能なリンクになります。</span></td> 
+      <td>説明を変更すると、接続されているの説明も変更されます [!DNL Workfront] オブジェクト。 説明に URL を追加すると、カードを保存する際にクリック可能なリンクになります。</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong></td>
@@ -140,7 +138,7 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-   <span class="preview">左側のナビゲーションパネルを使用して、カード詳細上のフィールドのグループ間を移動します。</span>
+   左側のナビゲーションパネルを使用して、カード詳細上のフィールドのグループ間を移動します。
 
    >[!NOTE]
    >
