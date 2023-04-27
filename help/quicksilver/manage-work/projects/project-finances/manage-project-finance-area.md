@@ -6,10 +6,10 @@ description: プロジェクトの財務エリアで情報を管理します
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -189,22 +189,18 @@ ht-degree: 2%
       <td>このプロジェクトの予算を指定します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>固定コスト</strong> </td> 
+      <td role="rowheader">固定コスト</td> 
       <td>このプロジェクトの固定コストを指定します。 これには、労務費や費用費用は含まれません。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>固定収益</strong> </td> 
+      <td role="rowheader">固定収益</td> 
       <td> <p>このプロジェクトの固定売上高を指定します。 パートナーやサードパーティに対して請求された請求レコードから得られる売上高は含まれません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">プロジェクトの通貨</td> 
       <td> <p>システム内のデフォルトの通貨と異なる場合は、このプロジェクトの通貨を指定します。 システムのデフォルトの通貨は、Workfront管理者が定義します。 Workfrontでの為替レートの設定について詳しくは、 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. クリック **保存****変更**.
+1. 「**変更を保存**」をクリックします。
