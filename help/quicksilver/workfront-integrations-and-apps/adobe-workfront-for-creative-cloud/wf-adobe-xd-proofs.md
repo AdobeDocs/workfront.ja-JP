@@ -6,10 +6,10 @@ description: アートボードを配達確認としてAdobe Workfrontに直接�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -99,6 +99,8 @@ ht-degree: 0%
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. （オプション） **[!UICONTROL 更新]** 領域
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ ht-degree: 0%
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. （オプション） **[!UICONTROL 更新]** 領域
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -186,7 +190,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >ユーザーは、 [!UICONTROL デスクトップ校正ビューア] インタラクティブな配達確認を確認および承認するには 詳しくは、 [のインストール [!UICONTROL デスクトップ校正ビューア]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >ユーザーは、 [!UICONTROL デスクトップ校正ビューア] インタラクティブな配達確認を確認および承認するには 詳しくは、[[!UICONTROL デスクトッププルーフビューア]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)のインストールを参照してください。
 
 ## 新しい配達確認バージョンをアップロード
 
@@ -229,6 +233,8 @@ ht-degree: 0%
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. 書き出し形式を **[!UICONTROL アセットタイプ]** ドロップダウンメニュー。
 

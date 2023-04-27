@@ -6,9 +6,9 @@ description: アートボードを配達確認としてAdobe Workfrontに直接�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ ht-degree: 0%
 1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
 1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にある。
 1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス
 1. 内 **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 基本]**.
 1. （オプション）承認者を追加します。
 1. （オプション） **[!UICONTROL 更新]** 領域
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. （オプション）配達確認の名前を**[!UICONTROL 配達確認名]**テキストボックス。
+1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
+
 1. （オプション）「 」を選択します。 **[!UICONTROL 外部ファイルを追加]** をクリックして、コンピュータからファイルを追加します。
-1. クリック **[!UICONTROL アップロード]**.
+1. クリック **[!UICONTROL アップロード]**&#x200B;を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
 
    ![](assets/plugin-files-350x307.png)\
    ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+
 
 ## 自動配達確認のアップロード
 
@@ -93,25 +92,26 @@ ht-degree: 0%
 1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
 
 1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にある。
-1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替えて、 **[!UICONTROL アセットタイプ]** を選択します。
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
+1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス
 1. 内 **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 自動]**.
 1. （オプション） **[!UICONTROL ワークフローテンプレート]** 「 」ボックスに、配達確認ワークフローテンプレートの名前を入力します。
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
+
+>[!NOTE]
+>
+> ワークフローテンプレートに空白の必須フィールドがある場合は、自動配達確認設定が自動的に開き、配達確認をアップロードするには、これらのフィールドに入力する必要があります。
+
 
 1. （オプション） **[!UICONTROL 更新]** 領域
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!--new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス
+1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
 1. （オプション）「 」を選択します。 **[!UICONTROL 外部ファイルを追加]** をクリックして、コンピュータからファイルを追加します。
-1. クリック **[!UICONTROL アップロード]**.
-
-   ![](assets/plugin-files-350x307.png)\
-   ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+1. クリック **[!UICONTROL アップロード]**を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
 
 ## 新しい配達確認バージョンをアップロード
 
@@ -124,16 +124,14 @@ ht-degree: 0%
 1. ドキュメントのアップロード先の作業項目に移動します。
 1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png)をクリックします。
 
-1. クリック **[!UICONTROL 新しいバージョン]** プラグインの下部付近に…
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
-1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替えて、 **[!UICONTROL アセットタイプ]** を選択します。
+1. クリック **[!UICONTROL 新しいバージョン]** プラグインの下部付近にある。
+1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
 
-   ![](assets/plugin-create-proof-350x182.png)
-
-1. 内 **[!UICONTROL 配達確認の承認]** セクションで、 **[!UICONTROL 基本]** または **[!UICONTROL 自動]**.
+1. 内 *[!UICONTROL *配達確認の承認]**セクションで、「 **[!UICONTROL 基本]** または **[!UICONTROL 自動]**.
 
 1. 追加 **[!UICONTROL レビュー担当者]** または **[!UICONTROL ワークフローテンプレート]** 手順 7 で選択した承認タイプに基づいて
 
 1. （オプション） **[!UICONTROL 更新]** 領域
-1. クリック **[!UICONTROL アップロード]**.\
-   ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
+1. クリック **[!UICONTROL アップロード]**を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
