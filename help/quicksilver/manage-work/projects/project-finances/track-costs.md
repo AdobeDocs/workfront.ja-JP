@@ -7,9 +7,9 @@ description: Adobe Workfrontでプロジェクト、タスクおよび問題の�
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 1%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>プロジェクトの実費コストは次のように計算されます。
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>これらのコストは、実際のコストの計算では重複しません。 たとえば、固定コストがプロジェクトの実費コストに含まれている場合、実費には別途追加されません。
+
+>[!NOTE]
+>
 >プロジェクトで時間を記録する場合、プロジェクトの実績労務費を計算する際には、次のシナリオが存在します。
 >
 >* デフォルトでは、Workfrontはユーザーの時間あたりのコスト率を使用して、実際の労務費を計算します。
 >* 時間のログを記録するユーザーがコストに関連付けられていない場合、Workfrontはユーザーのプライマリロールの時間あたりのコスト率を使用します。
 >* Workfront管理者が **ジョブの役割を時間エントリに手動で割り当て** [ タイムシートと時間の基本設定 ] 領域の設定を行い、プロジェクトのユーザーログ時間に関連付ける別の役割が選択されると、プロジェクトの実績コストは、時間が記録されたときに指定した役割に基づいて計算されます。 特定のジョブの役割のログ時間の有効化について詳しくは、この記事を参照してください。 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### Workfrontがタスクのコストタイプを計算する方法 {#how-workfront-calculates-cost-types-for-tasks}

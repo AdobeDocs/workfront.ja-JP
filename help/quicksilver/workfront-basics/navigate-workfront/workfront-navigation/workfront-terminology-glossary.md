@@ -5,7 +5,7 @@ title: 用語集 [!DNL Adobe Workfront] 用語
 description: この [!DNL Adobe Workfront] 用語集には、Adobe Workfrontでよく使用される用語が記載されています。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
 source-wordcount: '19138'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
    <td>[!UICONTROL 実費コスト ]</td> 
    <td> <p>プロジェクトまたはタスクでログに記録されたすべての費用の [!UICONTROL 実際の金額 ] の合計です。</p> <b>例 </b>
    <p>Task 1 の費用を作成し、[!UICONTROL Actual Amount] フィールドに$600.00 と入力した場合、このタスクの [!UICONTROL Actual Expense Cost] は$600.00 になります。 </p> 
-   <p>プロジェクトの場合、 [!DNL Workfront] では、次の式を使用して [!UICONTROL 実費 ] を計算します。</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> 
+   <p>プロジェクトの場合、 [!DNL Workfront] では、次の式を使用して [!UICONTROL 実費 ] を計算します。</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
