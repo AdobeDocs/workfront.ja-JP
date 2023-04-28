@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 0%
 ## ワークロードバランサーの新しいデフォルトオプション
 
 スケジュールを廃止し、Workload Balancer Workfrontのメインリソース割り当てツールを作成する取り組みの一環として、Workfront Balancer をすべての新規ユーザーのデフォルトオプションにしました。 現在、「スケジュール設定」がデフォルトのオプションです。 この変更は、スケジュール設定にアクセスできるすべての領域に適用されます。この領域には、新しいAdobe Workfrontエクスペリエンスのリソース領域、人物領域 (Adobe Workfront Classic) のほか、プロジェクトレベルとチームレベルでも適用されます。
-
-スケジュールの廃止について詳しくは、 [Adobe Workfrontのリソーススケジュールツールの廃止](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 ## ワークロードバランサーでの新しいフィルターエクスペリエンス
 

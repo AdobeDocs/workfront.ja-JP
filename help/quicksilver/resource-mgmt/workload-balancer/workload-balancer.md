@@ -3,26 +3,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: ワークロードバランサー
-description: ワークロードバランサーは、現在廃止されている現在のリソーススケジューリングツールに代わるリソーススケジューリングツールです。
+description: ワークロードバランサーは、リソースに作業項目を割り当てるためのリソーススケジューリングツールです。
 author: Alina
 feature: Resource Management
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 94799ba026e29f614e98444ebfc5ed2c665b29ab
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 # ワークロードバランサー
-
->[!IMPORTANT]
->
->ワークロード・バランサは、現在廃止されているスケジューリング・ツールに代わるリソース・スケジューリング・ツールです。
->
->リソーススケジューリングツールを削除し、ワークロードバランサーに置き換える方法の詳細は、 [Adobe Workfrontのリソーススケジュールツールの廃止](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->リソースのスケジュールには、ワークロードバランサーを使用することをお勧めします。
 
 ワークロードバランサーの概要、ナビゲート方法、および使用する作業の割り当て方法については、次の記事を参照してください。
 

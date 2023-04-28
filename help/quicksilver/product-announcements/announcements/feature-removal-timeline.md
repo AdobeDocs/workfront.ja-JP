@@ -7,9 +7,9 @@ description: 様々な機能がAdobe Workfront製品から廃止されていま�
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
    <td>21.2 リリースでのサポート終了</td> 
   </tr> 
   <tr> 
-   <td> <p>リソース スケジュール</p> <p>ワークロードバランサーは、リソースをスケジュールする際のエクスペリエンスを向上させます。</p> <p>ワークロードバランサーおよびリソーススケジューリングツールとの機能比較の詳細は、 <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">Adobe Workfrontのリソーススケジュールツールの廃止</a>.</p> </td> 
+   <td> <p>リソース スケジュール</p> <p>ワークロードバランサーは、リソースをスケジュールする際のエクスペリエンスを向上させます。</p> <p>ワークロード・バランサの詳細は、 <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">ワークロードバランサーの概要</a>.</p> </td> 
    <td> </td> 
    <td> <p>2020 年 11 月 9 日（20.4 リリースを含む）のサポート終了</p> <p>--</p> <p>2022 年上半期以降にWorkfrontプラットフォームから削除されました</p> </td> 
   </tr> 

@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -760,11 +760,7 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 >
 >リソーススケジューラーの廃止は、22.4 リリース後間もなく延期されました。
 
-ワークロードバランサーがリソーススケジューラを置き換えています。 廃止の詳細およびワークロードバランサーの使用準備方法については、次のリソースを参照してください。
-
-* [Adobe Workfrontのリソーススケジュールツールの廃止](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [リソース・スケジュールからワークロード・バランサへの移行](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+ワークロードバランサーがリソーススケジューラを置き換えています。
 
 * ズーム統合
 

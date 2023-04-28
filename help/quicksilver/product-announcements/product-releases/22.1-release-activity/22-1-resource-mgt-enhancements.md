@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ in January 2022
 新しい一括割り当てには、名前に加えて、プロジェクトステータスとタスクステータス別の新しいフィルタリング機能も含まれます。
 
 詳しくは、 [ワークロードバランサーでの作業割り当ての概要](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-スケジュールツールの廃止について詳しくは、 [Adobe Workfrontのリソーススケジュールツールの廃止](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## ジョブの役割を管理する際の通貨の上書き
 
