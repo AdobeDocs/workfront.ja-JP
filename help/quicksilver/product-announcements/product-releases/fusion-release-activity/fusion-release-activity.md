@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion は、アプリと Web サービスをシー
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 8e45f0c0126058236e0c9fd69130937d7f356f4f
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,11 @@ Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../.
 
 ## 最近のリリース
 
-### 2023 年 4 月
+### 2023 年 5 月
+
+* [Workfront Fusion リリースアクティビティ：2023 年 5 月 1 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
+
+### 4月2023日（PT）
 
 * [Workfront Fusion リリースアクティビティ：2023 年 4 月 17 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
 
@@ -68,7 +72,7 @@ Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../.
 * [Workfront Fusion リリースアクティビティ：2022 年 5 月 9 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
 
 
-### 2022 年 4 月
+### 4月2022日（PT）
 
 * [Workfront Fusion リリースアクティビティ：2022 年 4 月 25 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
 * [Workfront Fusion リリースアクティビティ：2022 年 4 月 18 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-18-22.md)
@@ -128,7 +132,7 @@ Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../.
 * [Workfront Fusion リリースアクティビティ：2021 年 5 月 10 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
 * [Workfront Fusion リリースアクティビティ：2021 年 5 月 3 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
 
-### 2021 年 4 月
+### 4月2021日（PT）
 
 * [Workfront Fusion リリースアクティビティ：2021 年 4 月 26 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
 * [Workfront Fusion リリースアクティビティ：2021 年 4 月 19 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)

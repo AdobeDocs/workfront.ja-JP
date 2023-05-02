@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfrontコネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
+source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
 workflow-type: tm+mt
-source-wordcount: '5288'
+source-wordcount: '5345'
 ht-degree: 3%
 
 ---
@@ -1665,7 +1665,26 @@ Fusion ユーザーは、イベントサブスクリプションフィルタを�
 
 これは、 [!DNL Workfront Fusion] シナリオ。 イベント購読フィルターがない場合、Webhook は選択したオブジェクトタイプに関連するすべてのイベントを受け取ります。 これらのイベントのほとんどはシナリオとは無関係で、シナリオを続行する前に除外する必要があります。
 
+Workfront/イベントを監視フィルターでは、次の演算子を使用できます。
+
+* が次と等しい
+* 等しくない
+* より大きい
+* 未満
+* 次よりも大きいか等しい
+* 次よりも小さいか等しい
+* が次を含む
+* 存在
+* 存在しない
+* 変更済み
+
 >[!NOTE]
+>
+> * この `Exists`, `Does not exist`、および `Changed` 演算子は値を必要とせず、「値」フィールドはこれらのオプションには含まれません。
+> * この `Changed` 演算子は「状態」フィールドを無視します。
+
+
+>[!IMPORTANT]
 >
 >既存のフィルターは編集できません [!DNL Workfront] ウェブフック。 別のフィルターを設定するには [!DNL Workfront] イベントの購読、現在の webhook を削除し、新しく作成します。
 
