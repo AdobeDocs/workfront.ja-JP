@@ -7,7 +7,7 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
->新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいデザインにアクセスできます。
 > * コメントベータ版を有効にする際の問題。
@@ -189,7 +189,7 @@ ht-degree: 4%
 >
 >Adobe Workfrontのオブジェクト階層について詳しくは、 [Adobe Workfrontのオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 新しいコメントベータ版エクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+> 新しいコメントベータ版エクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## 更新の節の制限
 

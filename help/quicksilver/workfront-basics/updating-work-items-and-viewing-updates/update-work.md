@@ -6,7 +6,7 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
 workflow-type: tm+mt
 source-wordcount: '2949'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!NOTE]
 >
 >現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
->新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいデザインにアクセスできます。
 > * コメントベータ版を有効にする際の問題。

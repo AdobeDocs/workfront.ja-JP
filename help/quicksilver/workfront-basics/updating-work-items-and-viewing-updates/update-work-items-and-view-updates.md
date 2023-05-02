@@ -7,9 +7,9 @@ description: ほとんどのオブジェクトの「更新」セクションを�
 author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 2%
 
 ---
@@ -28,4 +28,4 @@ ht-degree: 2%
 * [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [メモレポートですべての更新を表示する](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [「作業と完了」ボタンの概要](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-* [新しいコメントエクスペリエンス](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+

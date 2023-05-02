@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12934'
 ht-degree: 2%
 
 ---
@@ -344,6 +344,10 @@ ht-degree: 2%
       * レポートキャンバスベータ版 {#reporting-canvas-beta}
          * [レポートキャンバスベータ版の概要](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
          * [レポートキャンバスベータ版：リリース活動](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * 新しいコメントエクスペリエンスベータ版 {#new-commenting-experience-beta}
+         * [新しいコメントベータ版のエクスペリエンス情報](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * [新しいコメントエクスペリエンス](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * [新しいコメントベータ版エクスペリエンスリリースアクティビティ](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * 管理と設定 {#administration-and-setup}
    * [管理と設定](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
@@ -810,7 +814,6 @@ ht-degree: 2%
       * [更新時の他のユーザーへのタグ付け](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [メモレポートですべての更新を表示する](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [「作業と完了」ボタンの概要](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [新しいコメントエクスペリエンス](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * カスタムフォームの使用 {#work-with-custom-forms}
       * [カスタムフォームの使用](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [オブジェクトへのカスタムフォームの追加](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

@@ -6,7 +6,8 @@ title: Adobe Workfront Goals 23.2 リリースアクティビティ 2023 年 3 �
 description: このページでは、Adobe Workfront Goals のプレビュー環境向けの 23.2 リリースでおこなわれたすべての機能強化について説明します。 これらの機能強化は、2023 年 3 月 20 日の週に実稼動環境で利用可能になる予定です。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+exl-id: 2397339a-7a78-41ee-8882-0606309e356c
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -25,4 +26,4 @@ ht-degree: 0%
 
 23.2 リリース以降、目標に対するコメントの作成エクスペリエンスは、問題のためにリリースされた新しいコメントの作成エクスペリエンスベータ版と一致します。 アドビでは、2023 年のすべてのリリースで、この領域のアップデートを引き続きリリースしています。
 
-Commenting Experience Beta で使用できる機能について詳しくは、 [新しいコメントエクスペリエンス](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+Commenting Experience Beta で使用できる機能について詳しくは、 [新しいコメントエクスペリエンス](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
