@@ -8,9 +8,9 @@ description: シナリオの実行中にエラーが発生する場合があり�
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,9 @@ ht-degree: 0%
 * 最初のモジュールでエラーが発生した場合、シナリオの実行は警告メッセージで終了します。 [!DNL Workfront Fusion] その後、時間間隔を増やして、シナリオを繰り返し再実行します（以下で説明します）。 すべての試みが失敗した場合、 [!DNL Workfront Fusion] シナリオを非アクティブ化します。
 * 最初のモジュール以外で接続エラーが発生した場合、以降の手順は [不完全な実行の保存を許可](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) オプションを使用します。
 
-   * このオプションが有効な場合、シナリオの実行は [!UICONTROL 実行が不完全です] フォルダ [!DNL Workfront Fusion] は、時間間隔を増やして、シナリオを繰り返し再実行しようとします。 すべての試行が失敗した場合、実行は [での不完全な実行の表示と解決 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) ユーザーが手動で解決するのを待っているフォルダー。
+   * このオプションが有効な場合、シナリオの実行は [!UICONTROL 実行が不完全です] フォルダ [!DNL Workfront Fusion] は、時間間隔を増やして、シナリオを繰り返し再実行しようとします。 すべての試行が失敗した場合、ユーザーが手動で解決するのを待っている「不完全な実行」フォルダーに実行が残ります。
+
+      実行が不完全な場合について詳しくは、 [での不完全な実行の表示と解決 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
    * このオプションを無効にした場合、シナリオの実行はエラーで終わり、ロールバックフェーズが続きます。 [!DNL Workfront Fusion] その後、時間間隔を増やして、繰り返しシナリオの再実行を試みます。 すべての試みが失敗した場合、 [!DNL Workfront Fusion] シナリオを非アクティブ化します。
 
 ### 時間間隔の増加
@@ -80,17 +82,19 @@ ht-degree: 0%
 >
 >**例:**
 >
->シナリオには、 [!DNL Google Sheets] トリガー [!UICONTROL 監視行]. [!DNL Google Sheets] は、 [!DNL Workfront Fusion] はシナリオを開始するので、新しい行を取得できません。 シナリオは停止し、10 分後に再試行します。 この期間内にサービスが利用できない状態が続くため、 [!DNL Workfront Fusion] は、まだ新しい行に関する情報を取得できません。 次回のシナリオの実行は、1 時間でスケジュールされます。 [!DNL Google Sheets] はこの時間内に再び使用可能になり、シナリオは正常に実行されます。
+>シナリオには、 [!DNL Google Sheets] トリガー [!UICONTROL 監視行]. [!DNL Google Sheets] は、 [!DNL Workfront Fusion] はシナリオを開始するので、新しい行を取得できません。 シナリオは停止し、10 分後に再試行します。 理由： [!DNL Google Sheets] はまだ使用できません。 [!DNL Workfront Fusion] は、まだ新しい行に関する情報を取得できません。 次回のシナリオの実行は、1 時間でスケジュールされます。 [!DNL Google Sheets] はこの時点で再び使用可能になり、シナリオは正常に実行されます。
 
 ## データエラー
 
 `DataError`
 
-項目が誤ってマッピングされ、 [!DNL Workfront Fusion] サイドまたはサードパーティのサービスのサイドで使用されます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+項目が誤ってマッピングされ、 [!DNL Workfront Fusion] サイドまたはサードパーティのサービスのサイドで使用されます。
 
 このエラーが発生した場合は、モジュールが失敗した場所までのシナリオが不完全な実行フォルダーに移動し、このフォルダーで問題のトラブルシューティングをおこなうことができます。 ただし、シナリオは停止せず、スケジュールに従って実行を続けます。 データエラーが表示されたときにシナリオの実行を停止するには、シナリオ設定パネルの「順次処理」オプションを有効にします。
 
 を有効にしていない場合、 [!UICONTROL 不完全な実行の保存を許可] オプションを選択すると、シナリオの実行はエラーで終了し、ロールバックが実行されます。
+
+マッピングについて詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 実行が不完全な場合について詳しくは、 [Adobe Workfront Fusion での不完全な実行の表示と解決](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -108,7 +112,7 @@ If [!DNL Workfront Fusion] 重複データを許可しないサービスに対�
 
 `InvalidAccessTokenError`
 
-無効なアクセストークンエラーは、 [!DNL Workfront Fusion] は、サードパーティのサービスに登録されているアカウントにアクセスできません。 これは主に、 [!DNL Workfront Fusion] 特定のサービスの管理では、関連するシナリオは、スケジュールに従って実行を続けます。
+無効なアクセストークンエラーは、 [!DNL Workfront Fusion] は、サードパーティのサービスに登録されているアカウントにアクセスできません。 これは通常、 [!DNL Workfront Fusion] 特定のサービスの管理では、関連するシナリオは、スケジュールに従って実行を続けます。
 
 このエラーが発生すると、シナリオの実行は直ちに停止します。 エラーが発生したモジュール以降の残りのシナリオは、不完全な実行フォルダーに移動されます。
 
@@ -118,7 +122,9 @@ If [!DNL Workfront Fusion] 重複データを許可しないサービスに対�
 
 `RateLimitError`
 
-特定のサービスによって設定された制限を超えると、レート制限エラーが発生します。 このエラーが発生した場合、 [!DNL Workfront Fusion] は、接続エラーの場合と同じ方法で実行されます。 詳しくは、 [接続エラー](#connection-error).
+特定のサービスによって設定された制限を超えると、レート制限エラーが発生します。 このエラーが発生した場合、 [!DNL Workfront Fusion] は、接続エラーの場合と同じ方法で実行されます。
+
+詳しくは、 [接続エラー](#connection-error).
 
 ## 不完全なデータエラー
 
@@ -126,11 +132,15 @@ If [!DNL Workfront Fusion] 重複データを許可しないサービスに対�
 
 不完全なデータエラーは、エラーでのみトリガーします。 このエラーは、トリガーが特定のサービスから必要なデータをダウンロードできなかった場合に生成されます。
 
-シナリオが `IncompleteDataError`の場合、その以降の動作は設定によって異なります [!UICONTROL 連続エラーの最大数]. 詳しくは、 [連続エラー数](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) 記事内 [Adobe Workfront Fusion のシナリオ設定パネル](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+シナリオが `IncompleteDataError`の場合、その以降の動作は設定によって異なります [!UICONTROL 連続エラーの最大数].
+
+詳しくは、 [連続エラー数](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) 記事内 [Adobe Workfront Fusion のシナリオ設定パネル](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 >[!INFO]
 >
->**例：** シナリオには [!DNL Workfront] トリガー [!UICONTROL レコードを監視] ドキュメントを監視するように設定します。 このシナリオは、長いビデオなどの大きなドキュメントをアップロードする際に実行されます。 理由： [!UICONTROL Workfront Fusion] Workfrontへのアップロード中にビデオのダウンロードを試みると、シナリオは `IncompleteDataError`.
+>**例:**
+>
+>シナリオには [!DNL Workfront] トリガー [!UICONTROL レコードを監視] ドキュメントを監視するように設定します。 このシナリオは、長いビデオなどの大きなドキュメントをアップロードする際に実行されます。 理由： [!UICONTROL Workfront Fusion] Workfrontへのアップロード中にビデオのダウンロードを試みると、シナリオは `IncompleteDataError`.
 
 ## 実行時エラー
 

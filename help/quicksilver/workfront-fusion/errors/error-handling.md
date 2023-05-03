@@ -8,9 +8,9 @@ description: シナリオの実行中にエラーが発生した場合、通常�
 author: Becky
 feature: Workfront Fusion
 exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: e936bbd2837e4aec67d4136b8efcccb6f8454a89
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 シナリオの実行中にエラーが発生した場合、通常は、エラーが発生したためにサービスが利用できなくなったり、サービスが予期しないデータで応答したり、入力データの検証が失敗したりするからです。
 
->[!NOTE]
->
->モジュールがシナリオの実行中にエラーをスローし、モジュールにエラー処理ルートが添付されていない場合は、デフォルトのエラー処理ロジックが実行されます。詳しくは、 [でのエラー処理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
+モジュールがシナリオの実行中にエラーをスローし、モジュールにエラー処理ルートが添付されていない場合は、デフォルトのエラー処理ロジックが実行されます。詳しくは、 [でのエラー処理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
 
-エラーハンドラールートをモジュールに追加することで、デフォルトのエラー処理ロジックを独自のエラー処理ロジックに置き換えることができます。 [!DNL Adobe Workfront Fusion] は 5 つの異なるディレクティブを提供し、その任意のディレクティブをエラーハンドラールートの最後に挿入できます。 詳しくは、 [でのエラー処理用のディレクティブ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+エラーハンドラールートをモジュールに追加することで、デフォルトのエラー処理ロジックを独自のエラー処理ロジックに置き換えることができます。 [!DNL Adobe Workfront Fusion] は、エラーハンドラールートの最後に挿入できる 5 つの異なるディレクティブを提供します。
+
+詳しくは、 [でのエラー処理用のディレクティブ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 ## アクセス要件
 
@@ -58,21 +58,32 @@ ht-degree: 0%
 
 ## エラーハンドラールート
 
-モジュールにエラーハンドラールートを追加するには（Module X と呼びます）、モジュールを右クリックし、 **[!UICONTROL エラーハンドラーを追加]**:
+モジュールにエラーハンドラールートを追加するには：
 
-![](assets/error-handler-route.png)
+1. モジュールを右クリックし、「 」を選択します。 **[!UICONTROL エラーハンドラーを追加]**:
 
-モジュールには、ディレクティブのリストと、シナリオで使用されているアプリが表示されます。 Module X がルート内の最後のモジュールの場合は、ディレクティブの 1 つを選択する必要があります。 または、に移動して、1 つ以上のモジュールをルートに追加できます。 この場合、 [!UICONTROL 無視] デフォルトでは、ディレクティブはモジュール X に適用され、エラーが発生した場合は、そのルート上の後続のモジュールが処理されます。
+   ![](assets/error-handler-route.png)
 
-![](assets/directives-350x426.png)
+   モジュールには、ディレクティブのリストと、シナリオで使用されているアプリが表示されます。
 
-以下に示すように、 [!UICONTROL フォルダーの作成] モジュール、 [!UICONTROL 無視] ディレクティブが自動的に適用され、「Data Error Takes Place」フィルタが 1 つ以上のバンドルを返した場合、シナリオはエラーハンドラルート上の次のモジュールに移動します。
+1. エラーハンドラーを追加したモジュールがルートの最後のモジュールの場合は、ディレクティブの 1 つを選択します。
 
-ただし、エラーがない場合、シナリオは [!UICONTROL フォルダーモジュール内のすべてのファイルのリスト] 通常のルートで
+   または
 
-![](assets/if-there-is-no-error-350x234.png)
+   1 つ以上のモジュールをエラーハンドラールートに追加します。
 
-また、エラーハンドラルートを通常のルートと区別するために、前者は上記のように透明な円で構成されます。
+   ルートにモジュールを追加する場合、 [!UICONTROL 無視] デフォルトではディレクティブが適用され、エラーが発生した場合は、そのルートの後続のモジュールが処理されます。
+
+
+>[!INFO]
+>
+>この例では、 [!UICONTROL フォルダーの作成] モジュール、 [!UICONTROL 無視] ディレクティブが自動的に適用され、シナリオはエラーハンドラルート上の次のモジュールに移動します。
+>
+>ただし、エラーがない場合、シナリオは [!UICONTROL フォルダーモジュール内のすべてのファイルのリスト] 通常のルートで
+>
+>![](assets/if-there-is-no-error-350x234.png)
+
+エラーハンドラルートは透明な円で構成され、通常のルートは実線の円で構成されます。
 
 ## エラー処理ディレクティブ
 
@@ -82,16 +93,16 @@ ht-degree: 0%
 
 次のディレクティブを使用して、シナリオの実行が継続されるようにします。
 
-* **[!UICONTROL 再開]** エラーを含むモジュールの代替出力を指定でき、シナリオの実行ステータスは成功とマークされます
-* **[!UICONTROL 無視]** は単にエラーを無視し、シナリオの実行ステータスが成功とマークされます
-* **[!UICONTROL 改行]** には不完全な実行のキューへの入力が格納され、シナリオの実行ステータスは警告としてマークされます。 詳しくは、 [での不完全な実行の表示と解決 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+* **[!UICONTROL 再開]**:エラーを含むモジュールの代替出力を指定できます。 シナリオの実行ステータスが成功とマークされます
+* **[!UICONTROL 無視]**:はエラーを無視します。 シナリオの実行ステータスが成功とマークされます
+* **[!UICONTROL 改行]**:不完全な実行のキューへの入力を格納します。 シナリオの実行ステータスは警告としてマークされます。 詳しくは、 [での不完全な実行の表示と解決 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-一方、シナリオの実行を停止する場合は、次のいずれかのディレクティブを使用する必要があります。
+エラーが発生したときにシナリオの実行が停止する場合は、次のいずれかのディレクティブを使用します。
 
-* **[!UICONTROL ロールバック]** シナリオの実行を直ちに停止し、そのステータスをエラーとしてマークします
-* **[!UICONTROL コミット]** シナリオの実行を直ちに停止し、そのステータスを成功としてマークします
+* **[!UICONTROL ロールバック]**:シナリオの実行を直ちに停止し、そのステータスをエラーとしてマークします
+* **[!UICONTROL コミット]**:シナリオの実行を直ちに停止し、ステータスを成功としてマークします
 
-## その他のリソース
+エラー処理の詳細については、以下を参照してください。
 
 * [でのエラー処理用のディレクティブ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [での高度なエラー処理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md) ( 上記のDropboxシナリオの設定を含む )
+* [での高度なエラー処理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)

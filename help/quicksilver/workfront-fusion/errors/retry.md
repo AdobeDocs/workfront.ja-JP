@@ -7,7 +7,7 @@ description: 場合によっては、失敗の理由が時間の経過と共に�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -71,11 +71,11 @@ ht-degree: 0%
 * 再試行間隔の最小値は 1 分です。
 * モジュールが複数のバンドルを処理していて、バンドルの処理が失敗した場合、部分的な実行（エラーが発生したバンドルのみ）は不完全な実行フォルダーに移動され、 [!UICONTROL 改行] ディレクティブ設定。 ただし、現在の実行は続き、モジュールは後続のバンドルを引き続き処理します。 「[!UICONTROL 順次処理]」オプションが [!UICONTROL シナリオ設定] :「実行が不完全です」フォルダーに保存されている実行が正常に解決されるまで、シナリオが再実行されないようにします。
 
-実行が不完全な場合について詳しくは、 [での不完全な実行の表示と解決 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   実行が不完全な場合について詳しくは、 [での不完全な実行の表示と解決 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### 以下を使用： [!UICONTROL リピーター] モジュール
 
-1. 使用する **[!UICONTROL リピーター]** モジュールとその設定 [!UICONTROL 繰り返し] フィールドに最大試行回数を入力します。
+1. 使用する **[!UICONTROL リピーター]** モジュールとその設定 **[!UICONTROL 繰り返し]** フィールドに最大試行回数を入力します。
 1. 問題が発生する可能性のあるモジュールを **[!UICONTROL リピーター]** モジュール。
 1. このモジュールにエラーハンドラールートをアタッチします ( [でのエラー処理 [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)) をクリックします。
 1. リンク **[!UICONTROL ツール] > [!UICONTROL スリープ]** モジュールをエラーハンドラルートに追加し、その **[!UICONTROL 遅延]** フィールドに、試行間の秒数を入力します。
@@ -98,7 +98,7 @@ ht-degree: 0%
 >
 >![](assets/http-make-request-350x116.png)
 >
->モジュールの失敗の可能性の結果が複雑すぎて、単純な変数に格納できない場合は、データストアを使用して結果を保存または取得できます。 データストアには、1 つのレコードのみが含まれます。 レコードのキーは、例えば、 `Result`.
+>モジュールの失敗の可能性の結果が複雑すぎて、単純な変数に格納できない場合は、データストアを使用して結果を保存/取得できます。 データストアには、1 つのレコードのみが含まれます。 レコードのキーは、例えば、 `Result`.
 >
 >データストアの詳細については、 [のデータストア [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
