@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # ユーザーのプロファイルの編集
-
 
 >[!IMPORTANT]
 >
@@ -200,11 +199,11 @@ Adobe Workfront管理者は、新しいユーザーを作成し、既存のユ�
      </tr> 
      <tr> 
       <td role="rowheader">カスタムフォーム</td> 
-      <td>既存のユーザーカスタムフォームをこのユーザーに関連付けます。 カスタムフォームをユーザーに関連付ける前に、カスタムフォームを作成する必要があります。 リストには、アクティブなカスタムフォームのみが表示されます。 カスタムフォームの作成について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>.</td> 
+      <td><p>既存のユーザーカスタムフォームをこのユーザーに関連付けます。 カスタムフォームをユーザーに関連付ける前に、カスタムフォームを作成する必要があります。 リストには、アクティブなカスタムフォームのみが表示されます。 編集するアクセス権がないフィールドは、個々のカスタムフォームには表示されません。</p> <p>カスタムフォームの作成について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">コメント</td> 
-      <td> <p>ユーザーに送信するコメントと、ユーザープロファイルの「更新」領域に入力します。</p> </td> 
+      <td>ユーザーに送信するコメントと、ユーザープロファイルの「更新」領域に入力します。</td> 
      </tr> 
     </tbody> 
    </table>
