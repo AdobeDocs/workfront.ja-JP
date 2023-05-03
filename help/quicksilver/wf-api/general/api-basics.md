@@ -8,7 +8,7 @@ feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
 workflow-type: tm+mt
-source-wordcount: '4478'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ API の使用は、実稼動環境で実行する前に、Workfrontベータ環�
 
 有効な ObjCode のリストについては、  [API エクスプローラ](../../wf-api/general/api-explorer.md).
 
-### 操作
+### オペレーション
 
 オブジェクトは、一意の URI に HTTP リクエストを送信することで操作されます。 実行する操作は HTTP メソッドで指定します。
 
@@ -272,7 +272,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 | 含む | 名前に「Workfront」が含まれる結果を返します | <pre>...name=Workfront&amp;name_Mod=contains...</pre> |
 | 間 | 過去 7 日間に入力日があった結果を返します | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 検索リクエストでは、大文字と小文字が区別されます。 エラーが発生した場合は、  **_Mod** および **範囲 (_R)** 大文字と小文字が正しい。
