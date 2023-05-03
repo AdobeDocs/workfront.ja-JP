@@ -7,7 +7,7 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,9 +23,10 @@ ht-degree: 4%
 >[!NOTE]
 >
 >現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
->新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->次のオブジェクトの新しいデザインにアクセスできます。
+>新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>次のオブジェクトの新しいエクスペリエンスにアクセスできます。
 > * コメントベータ版を有効にする際の問題。
    >
    >     この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。

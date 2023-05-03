@@ -5,24 +5,22 @@ title: アジャイルチームかんばんカードをWorkfrontボードに移�
 description: 作業項目をアジャイルチームかんばんボードから新しいまたは既存のWorkfrontボードに移行できます。
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # アジャイルチームかんばんカードをWorkfrontボードに移行
 
+{{highlighted-preview-article-level}}
+
 作業項目をアジャイルチームかんばんボードから新しいまたは既存のWorkfrontボードに移行できます。 移行を実行すると、かんばんボード上のすべてのカードがWorkfrontボードにコピーされます。 特定のカードを選択することはできません。
 
 Workfrontボードでのカードの配置は、列ポリシーに基づいています。 ( 例えば、ポリシーを使用すると、ステータスが「処理中」のすべてのカードを特定の列に移動できます。 列ポリシーの詳細については、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) ポリシーがない場合や、カードがポリシーと一致しない場合、カードはボードの左端の列に配置されます。 現時点では、レガシーボードの「バックログ」列のカードはWorkfrontボードに追加されません。
 
 カードはアジャイルチームかんばんボードからは削除されず、カードの状態の変更は両方のボードに同期します。 Workfrontボードに切り替える準備が整うまで、両方のボードをアクティブにしておくことができます。
-
->[!NOTE]
->
->この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
 
 ## アクセス要件
 

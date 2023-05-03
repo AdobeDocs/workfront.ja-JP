@@ -6,7 +6,7 @@ description: 作業オブジェクトの更新に対して、誰かが追加ま�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 1%
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
->新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->次のオブジェクトの新しいデザインにアクセスできます。
+>新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>次のオブジェクトの新しいエクスペリエンスにアクセスできます。
 > * コメントベータ版を有効にする際の問題。
    >
    >     この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。

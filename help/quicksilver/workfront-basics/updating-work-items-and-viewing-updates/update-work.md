@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
+source-wordcount: '3012'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
->新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->次のオブジェクトの新しいデザインにアクセスできます。
+>新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>次のオブジェクトの新しいエクスペリエンスにアクセスできます。
 > * コメントベータ版を有効にする際の問題。
    >
    >     この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。
@@ -135,7 +136,7 @@ drafted for P&P release:
 1. 更新を行う作業項目（プロジェクト、タスク、タスクなど）に移動します。
 1. 次をクリック： **更新** 」セクションに入力します。
 1. クリック **新しい更新を開始し、** 次に、更新を入力します。
-1. （オプション）リッチテキストを使用するか、更新に絵文字、リンク、画像を追加して、コンテンツを拡張します。 詳しくは、この記事の「Workfrontの更新でのリッチテキストの使用」の節を参照してください
+1. （オプション）リッチテキストを使用するか、更新に絵文字、リンク、画像を追加して、コンテンツを拡張します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) この記事の節
 1. （オプション）作業項目に関する次の情報を更新します。
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ drafted for P&P release:
    * 番号付きリスト
    * 添付ファイルを追加 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   詳しくは、この記事の「Workfrontの更新でのリッチテキストの使用」の節を参照してください。 <!--remove this list, above, when we get to parity for Rich Text-->
+   詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。 <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ drafted for P&P release:
    >システム更新にコメントを追加することはできません。
 
 
-## Workfrontの更新でのリッチテキストの使用
+## Workfrontの更新でのリッチテキストの使用{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ drafted for P&P release:
 
    または
 
-   次をクリック： **添付ファイルを追加** アイコン ![](assets/add-image-paperclip-icon.png) コメントベータ版の使用時に、コンピュータ上の画像を参照します。
+   次をクリック： **添付ファイルを追加** アイコン ![](assets/add-image-paperclip-icon.png) コメントベータ版の使用時に、コンピュータ上の画像を参照します。 <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* 画像アイコンを表示するには、Workfrontの管理者が画像の追加を有効にする必要があります。
+   >* 画像または添付ファイルを追加アイコンを表示するには、Workfront管理者が、Workfrontインターフェイス領域の「フィードの環境設定を更新」セクションで画像の追加を有効にする必要があります。 詳しくは、 [ユーザーの更新の環境設定を構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 画像ファイルの最大サイズは 7 MB です。 サポートされる画像ファイルタイプは、.jpg、.gif および.png です。
-   >* 画像は、オブジェクトの「更新」タブからのみアクセスでき、「ドキュメント」タブでは使用できません。
+   >* 画像は、オブジェクトの「更新」セクションからアクセスでき、「ドキュメント」領域でも使用できます。
+   >* <!--In the current commenting experience,--> 画像を含むコメントを削除しても、画像は「ドキュメント」領域に残りますが、「更新」セクションには表示されません。
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* 画像とテキストを含まない更新を送信できます。
 
 1. クリック **更新**  または **送信**（コメント機能ベータ版のエクスペリエンスを使用する場合）
@@ -392,7 +396,7 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
    >[!NOTE]
    >
-   >画像が添付された更新を削除すると、コメントと画像の両方が削除されます。
+   >画像が添付された更新を削除すると、コメントと画像の両方が削除されます。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
 
    削除したコメントに返信が関連付けられている場合は、コメントが削除されたユーザーの名前で削除されたことを示すメッセージが表示されます。
 

@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
+source-wordcount: '5008'
 ht-degree: 28%
 
 ---
@@ -220,11 +220,8 @@ ht-degree: 28%
   <tr> 
    <td> <p>ドキュメント</p> </td> 
    <td> <p>問題のプライマリ連絡先宛要求ドキュメントの追加</p> </td> 
-   <td> <p>自分がプライマリ連絡先となっている問題に関するドキュメントが、変更またはアップロードされた.</p> <p>問題の主要連絡先は、問題に関するドキュメントがアップロードまたは変更されたときに電子メール通知を受け取ります。ただし、ドキュメントをアップロードまたは変更したユーザーが主要連絡先でもある場合は除きます。</p> <p>プロジェクトのステータスが「現在」で、プロジェクトの「キューの設定」タブで「ヘルプリクエストキューとして公開」が有効になっている場合にのみ、通知が送信されます。 <!-- FLARE で下書き：プロジェクトをヘルプリクエストキューとして公開する方法について詳しくは、 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">プロジェクトの「キューの詳細」タブの概要</a>.
-
-    --></p> </td>
-<td> <p>アクティブ</p> </td> 
+   <td> <p>自分がプライマリ連絡先となっている問題に関するドキュメントが、変更またはアップロードされた.</p> <p>問題の主要連絡先は、問題に関するドキュメントがアップロードまたは変更されたときに電子メール通知を受け取ります。ただし、ドキュメントをアップロードまたは変更したユーザーが主要連絡先でもある場合は除きます。</p> <p>プロジェクトのステータスが「現在」で、プロジェクトの「キューの設定」タブで「ヘルプリクエストキューとして公開」が有効になっている場合にのみ、通知が送信されます。</p> </td> 
+   <td> <p>アクティブ</p> </td> 
   </tr> 
   <tr> 
    <td> <p>問題</p> </td> 
@@ -234,6 +231,11 @@ ht-degree: 28%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## コミュニケーション
 
@@ -268,10 +270,8 @@ ht-degree: 28%
   <tr> 
    <td> <p>ユーザー</p> </td> 
    <td>ユーザーに対する直接更新</td> 
-   <td> <p>自分が更新を受信する対象者として追加された.</p> <p>有向更新とは、ユーザーが更新に別のユーザーを特別に含める場合です。詳しくは、 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新時の他のユーザーへのタグ付け</a>.</p> <p>この場合、有効な更新に含まれるユーザーは、更新に関する電子メール通知を受け取ります。</p> <p>電子メール通知は、ユーザーがオブジェクトに対するアクセス権を持っている場合にのみ送信されます&lt;!&gt;— FLARE で下書き：とは、更新を入力したユーザーとは異なります
-
-    -->. &lt;/p> &lt;p>このイベント通知は、デフォルトで有効化され、無効にすることはできません。&lt;/p> &lt;/td>
-<td> <p>アクティブ</p> </td> 
+   <td> <p>自分が更新を受信する対象者として追加された.</p> <p>有向更新とは、ユーザーが更新に別のユーザーを特別に含める場合です。詳しくは、 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新時の他のユーザーへのタグ付け</a>.</p> <p>この場合、有効な更新に含まれるユーザーは、更新に関する電子メール通知を受け取ります。</p> <p>電子メール通知は、ユーザーがオブジェクトに対するアクセス権を持ち、プロファイルで有効のままにしている場合にのみ送信されます。  </p> <p>このイベント通知は、デフォルトで有効化され、無効にすることはできません。</p> </td> 
+   <td> <p>アクティブ</p> </td> 
   </tr> 
   <tr> 
    <td> <p>チーム</p> </td> 
@@ -308,6 +308,10 @@ ht-degree: 28%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## 承認情報
 
@@ -398,7 +402,7 @@ ht-degree: 28%
   </tr> 
   <tr> 
    <td> <p>問題</p> </td> 
-   <td> <p>割り当て先の問題に対する承認決定</p> </td> 
+   <td> <p>割り当て先の問題に対する承認の決定</p> </td> 
    <td> <p>自分が解決する問題が承認または拒否された.</p> <p>イシューの担当者は、承認の決定（承認または却下）がおこなわれると、E メール通知を受け取ります。</p> <p>Review ライセンスを持つユーザーには通知は送信されません。</p> </td> 
    <td> <p>非アクティブ</p> </td> 
   </tr> 
@@ -429,11 +433,8 @@ ht-degree: 28%
   <tr> 
    <td> <p>ドキュメント</p> </td> 
    <td> <p>問題割り当て先宛要求ドキュメントの追加</p> </td> 
-   <td> <p>自分が割り当てられた要求に関するドキュメントが追加あるいは更新された.</p> <p>問題の担当者は、追加した問題に関するドキュメントがアップロードまたは変更されると、電子メール通知を受け取ります。</p> <p>問題を入力したユーザーが問題の担当者の場合、電子メール通知は送信されません。</p> <p>プロジェクトのステータスが「現在」で、プロジェクトの「キューの設定」タブで「ヘルプリクエストキューとして公開」が有効になっている場合にのみ、通知が送信されます。<!-- FLARE で下書き：プロジェクトをヘルプリクエストキューとして公開する方法について詳しくは、 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">プロジェクトの「キューの詳細」タブの概要</a>.
-
-    --></p> </td>
-<td> <p>アクティブ</p> </td> 
+   <td> <p>自分が割り当てられた要求に関するドキュメントが追加あるいは更新された.</p> <p>問題の担当者は、追加した問題に関するドキュメントがアップロードまたは変更されると、電子メール通知を受け取ります。</p> <p>問題を入力したユーザーが問題の担当者の場合、電子メール通知は送信されません。</p> <p>プロジェクトのステータスが「現在」で、プロジェクトの「キューの設定」タブで「ヘルプリクエストキューとして公開」が有効になっている場合にのみ、通知が送信されます。</p> </td> 
+   <td> <p>アクティブ</p> </td> 
   </tr> 
   <tr> 
    <td> <p>タスク</p> </td> 
@@ -450,7 +451,7 @@ ht-degree: 28%
   <tr> 
    <td> <p>タスク</p> </td> 
    <td> <p>タスクの完了予定日変更</p> </td> 
-   <td> <p>自分に割り当てられているタスクの完了予定日が変更した.</p> <p>タスク担当者は、タスクの計画完了日が変更されたときに電子メール通知を受け取ります。ただし、計画完了日を変更したユーザーがタスク担当者でもある場合を除きます。</p> <p>通知は、プロジェクトのステータスが Planning 以外の場合にのみ送信されます。</p> <p>個人のタスクに関する通知は送信されません。</p> </td> 
+   <td> <p>自分に割り当てられているタスクの完了予定日が変更になった.</p> <p>タスク担当者は、タスクの計画完了日が変更されたときに電子メール通知を受け取ります。ただし、計画完了日を変更したユーザーがタスク担当者でもある場合を除きます。</p> <p>通知は、プロジェクトのステータスが Planning 以外の場合にのみ送信されます。</p> <p>個人のタスクに関する通知は送信されません。</p> </td> 
    <td> <p>アクティブ</p> </td> 
   </tr> 
   <tr> 
@@ -461,6 +462,11 @@ ht-degree: 28%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## 自分のプロジェクトに関する情報
 
@@ -570,7 +576,7 @@ ht-degree: 28%
   <tr> 
    <td> <p>問題</p> </td> 
    <td> <p>プロジェクト所有者宛問題追加</p> </td> 
-   <td> <p>自分が所有するプロジェクトに問題が追加された.</p> <p>プロジェクト所有者は、問題がプロジェクトに追加されると、電子メール通知を受け取ります。</p> <p>通知は、プロジェクトのステータスが「現在」または「計画」の場合にのみ送信されます。</p> <p>Review ライセンスを持つユーザーには通知は送信されません。</p> </td> 
+   <td> <p>自分が所有するプロジェクトにイシューが追加された.</p> <p>プロジェクト所有者は、問題がプロジェクトに追加されると、電子メール通知を受け取ります。</p> <p>通知は、プロジェクトのステータスが「現在」または「計画」の場合にのみ送信されます。</p> <p>Review ライセンスを持つユーザーには通知は送信されません。</p> </td> 
    <td> <p>非アクティブ</p> </td> 
   </tr> 
   <tr> 
@@ -739,12 +745,7 @@ ht-degree: 28%
    <td> </td> 
    <td> <p>エラー通知</p> </td> 
    <td> <p>注意が必要なエラーが見つかりました。</p> <p>Workfrontが POP アカウントへの接続を試みた後、電子メール通知が生成されます。 25 回試行すると、Workfrontはリソースを保持するために POP アカウントへの接続を無効にし、通知を送信します。 </p> <p>電子メール通知は、POP 電子メールがリクエストキューに関連付けられている場合はプロジェクト所有者に、POP アカウントが電子メール設定の「受信メール」機能に関連付けられている場合はWorkfront管理者に送信されます。
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>アクティブ</p> </td> 
   </tr> 
   <tr> 
@@ -797,6 +798,14 @@ ht-degree: 28%
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## 委任
 

@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 更新時の他のユーザーへのタグ付け
 description: Adobe Workfrontオブジェクトに更新コメントを付けると、プロジェクトのすべてのユーザーが、送信された情報を表示できます。 ただし、プロジェクトに参加していないユーザーがこの情報を表示する方がメリットが得られる場合があります。 これらのユーザーをプロジェクトに含める代わりに、更新時にタグ付けして、ユーザーと共有できます。 タグ付きユーザーは、イベント通知を受け取ります。
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
->新しい更新エクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->次のオブジェクトの新しいデザインにアクセスできます。
+>新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>次のオブジェクトの新しいエクスペリエンスにアクセスできます。
 > * コメントベータ版を有効にする際の問題。
    >
    >     この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。
@@ -48,13 +49,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ユーザーが電子メール通知を受け取るには、イベント通知を有効にする必要があります。 管理者は、システム全体またはトップレベルグループに対する通知を有効にできます。 また、ユーザーは、独自のユーザープロファイルで個々のイベント通知を有効または無効にすることもできます。 詳しくは、次を参照してください。
->
->* [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
->* [グループのイベント通知を表示および設定する](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
->* [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
->
-
+>ユーザーが電子メール通知を受け取るには、プロファイルで個人通知を有効にする必要があります。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 更新をWorkfrontオブジェクトに追加する方法について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
