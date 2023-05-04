@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
+source-git-commit: 122751851792dfecd062f156f804827cb732c40b
 workflow-type: tm+mt
-source-wordcount: '12934'
+source-wordcount: '12940'
 ht-degree: 2%
 
 ---
@@ -2012,6 +2012,7 @@ ht-degree: 2%
       * [Adobe Workfront Fusion のシナリオの実行、サイクル、フェーズ](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
       * [Adobe Workfront Fusion でシナリオの実行履歴を表示します](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Adobe Workfront Fusion での不完全な実行の表示と解決](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+      * [でのロックされたシナリオの表示と管理 [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
       * [Adobe Workfront Fusion でのシナリオのスケジュール](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Adobe Workfront Fusion でのシナリオのアクティブ化または非アクティブ化](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adobe Workfront Fusion でシナリオにフィルターを追加する](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2636,6 +2637,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->
