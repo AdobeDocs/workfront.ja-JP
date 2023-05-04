@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 99c53f74554e559e5857eff9f5931dc6f70f93b1
+source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -218,7 +218,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
-            </tbody>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新しいコメントベータ版エクスペリエンスの強化</a></p>
+                        <p>更新に関する節の機能強化は、23.3 リリース期間内に、新しいコメントベータ版体験用に提供される予定です。 特に指定のない限り、これらの機能強化は、23.3 リリースの実稼動環境で利用可能になります。 
+ </p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 23.3 リリース期間を通じて<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース： 23.3 リリース（特に指定のない限り）を使用</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
         </table>
 
 ## お知らせ
@@ -237,7 +254,7 @@ Workfront Fusion の新機能は、実稼動環境の 23.3 リリーススケジ
 
 ### Workfront目標の強化
 
-このリリースでは、現時点でWorkfront Goals の更新はありません。 この領域は、更新が利用可能になると更新されます。
+23.3 リリース期間内にWorkfront Goals リリースに追加される新機能。 プレビューで利用できる新機能について詳しくは、 [Adobe Workfront 23.3 リリースでの目標](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md).
 
 ### API バージョン 16
 
