@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -330,10 +330,13 @@ drafted for P&P release:
    >* 画像または添付ファイルを追加アイコンを表示するには、Workfront管理者が、Workfrontインターフェイス領域の「フィードの環境設定を更新」セクションで画像の追加を有効にする必要があります。 詳しくは、 [ユーザーの更新の環境設定を構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 画像ファイルの最大サイズは 7 MB です。 サポートされる画像ファイルタイプは、.jpg、.gif および.png です。
    >* 画像は、オブジェクトの「更新」セクションからアクセスでき、「ドキュメント」領域でも使用できます。
-   >* <!--In the current commenting experience,--> 画像を含むコメントを削除しても、画像は「ドキュメント」領域に残りますが、「更新」セクションには表示されません。
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* 画像とテキストを含まない更新を送信できます。
+   >* 画像を含むコメントを削除する場合、選択したエクスペリエンスに応じて、次のシナリオが存在します。
+      >
+      >     * 現在のコメントエクスペリエンスでは、画像は「ドキュメント」領域に残りますが、「更新」セクションには表示されません。
+      >     * 新しいコメントエクスペリエンスでは、画像は「更新」セクションおよび「ドキュメント」領域から削除されます。 コメントを編集して画像を削除すると、その画像もドキュメント領域から削除されます。
+   >* コメントに添付された画像を「ドキュメント」領域から削除すると、その画像もコメントから削除されます。
+
 
 1. クリック **更新**  または **送信**（コメント機能ベータ版のエクスペリエンスを使用する場合）
 

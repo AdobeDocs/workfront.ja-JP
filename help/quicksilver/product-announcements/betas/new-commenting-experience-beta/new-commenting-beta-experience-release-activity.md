@@ -5,9 +5,9 @@ title: '新しいコメントエクスペリエンスベータリリースアク
 description: Adobe Workfrontの新しいコメントベータ版エクスペリエンスの毎週のリリースアクティビティを確認します。
 author: Alina
 feature: Product Announcements
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 0%
 
 現在利用可能な機能や調査中の機能のリストなど、新しいコメントベータ版の使用に関する一般的な情報については、 [新しいコメントエクスペリエンス](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
-
 >[!IMPORTANT]
 >
 >23.2 リリースでベータ版が開始された新しいコメント機能です。 元のリリースについて詳しくは、 [23.2 リリースの概要](../../product-releases/23.2-release-activity/23-2-release-overview.md).
@@ -29,18 +27,16 @@ ht-degree: 0%
 
 以下の節では、最近リリースされた機能から、元のリリースの後に追加された機能を示します。
 
-<!--
+## 2023 年 5 月 2 日の週
 
-## Week of May 2, 2023
+### 添付ファイルがコメントから削除されたり、添付ファイルを含むコメントが削除されたりすると、画像は「ドキュメント」領域から削除されます
 
-### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
+添付ファイルを含むコメントを削除または編集する際の添付ファイルの動作方法を変更します。 これで、コメントを編集して添付ファイルを削除する場合、または添付ファイルを含むコメントを削除する場合に、添付ファイルも「ドキュメント」領域から削除されます。 この変更前のコメント作成の場合、添付ファイルは「ドキュメント」領域に残りました。 詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+ベータ版エクスペリエンスに関する問題とWorkfront目標に関する問題の報告は、デフォルトで、次の日付に掲載されます。
 
-Available for issue commenting Beta experience and for Workfront Goals on the following dates:
+* プレビューと実稼動：2023 年 5 月 5 日
 
-* Preview and Production: May 4, 2023
--->
 
 ## 2023年4月27日（PT）
 
