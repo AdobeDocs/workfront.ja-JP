@@ -6,9 +6,9 @@ title: の初期の機能オプトイン [!DNL Adobe Workfront] ボード
 description: この記事で [!DNL Workfront Boards] 初期機能のオプトイン。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 0e838c75bddb97d53f5fa791d609be9b6d8d27f8
+source-git-commit: 4c59a63d08efe6dcd6be294c49ec98ebf70feed6
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>従来のかんばんカードをボードに移行</td>
-   <td>部分的にリリース済み</td>
+   <td>この機能は、2023 年 5 月 4 日に実稼動環境で使用できるようになり、初期の機能オプトインには含まれません。</td>
   </tr>
   <tr>
    <td>ダイナミックボードの作成</td>

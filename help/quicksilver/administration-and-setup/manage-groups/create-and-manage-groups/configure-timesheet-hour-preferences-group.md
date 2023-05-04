@@ -5,30 +5,32 @@ keywords: グループ，環境設定，タスク，グループ，問題，ロ�
 navigation-topic: create-and-manage-groups
 title: グループのタイムシートと時間の基本設定を構成する
 description: システムレベルで、Adobe Workfront管理者は、タイムシートと時間の基本設定セクションの [ 一般基本設定 ] と [ タイムシートの事前入力 ] のロックを解除できます。 これにより、グループ管理者は、これらのセクションのオプションを、それぞれのグループに対して個別に設定できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 0%
+source-wordcount: '1368'
+ht-degree: 1%
 
 ---
 
 # グループのタイムシートと時間の基本設定を構成する
 
+{{highlighted-preview}}
+
 Adobe Workfrontの管理者は、タイムシートと時間の基本設定の次のセクションをシステムレベルでロック解除して、グループ管理者が独自のグループに対して個別に構成できるようにします。
 
-* 一般設定
+* 一般的な環境設定
+* <span class="preview">ユーザーが時間をログに記録できる場所</span>
 * タイムシートの事前入力
 
 管理するグループの上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront管理者（すべてのグループ）も同様です。
 
 [ タイムシートと時間の基本設定 ] ページの次のセクションは、システムレベルでのみ構成可能で、グループのロックを解除できません。
 
-* ログ時間
-* プロジェクト、タスクまたは、問題削除設定
+* 削除されたプロジェクト、タスク、問題
 
 Workfront管理者がタイムシートと時間の優先順位のロックを解除する方法の詳細については、「 [グループのタイムシートと時間の基本設定をロック解除](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 記事内 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -133,6 +135,31 @@ Workfront管理者がタイムシートと時間の優先順位のロックを�
      </tr> 
     </tbody> 
    </table>
+
+1. <span class="preview">内 **ユーザーが時間を記録できる場所** セクションで、次のいずれかのオプションを設定します。</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">プロジェクトに直接時間を記録</span></td> 
+      <td><span class="preview">ユーザーがプロジェクトの時間を記録できるようにします（[ 更新 ] タブとタイムシートの両方）。 プロジェクトレベルでユーザーの記録時間を制限する場合は、このオプションをオフにします。</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">完了したプロジェクトに対するログ時間</span></td>
+      <td><span class="preview">完了とマークされたプロジェクトの時間を記録できます。 このオプションを無効にした場合、ユーザーは、完了ステータスのプロジェクトで完了した作業の時間を記録できません。</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">無効なプロジェクトに対する時間を記録する</span></td> 
+      <td><span class="preview">このオプションを有効にすると、ユーザーは「無効」ステータスのプロジェクトに数時間を記録できます。</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >この環境設定は、ユーザーのホームグループの環境設定に基づいて適用されます。 ユーザーのホームグループ環境設定でこれらの設定が有効になっている場合、プロジェクトのグループ環境設定で許可されているかどうかに関係なく、完了したプロジェクトや無効になったプロジェクトを含むプロジェクトに直接時間を記録できます。
 
 1. 内 **タイムシートの事前入力** セクションで、次のいずれかのオプションを設定します。
 

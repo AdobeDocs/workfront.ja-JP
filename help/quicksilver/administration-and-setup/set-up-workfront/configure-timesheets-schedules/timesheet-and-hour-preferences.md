@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
     </tbody> 
    </table>
 
-1. 内 **[!UICONTROL ログ時間]** セクションで、次のいずれかのオプションを設定します。
+1. 内 **[!UICONTROL ユーザーが時間を記録できる場所]** セクションで、次のいずれかのオプションを設定します。
 
    <table style="table-layout:auto">
     <tr>
@@ -110,7 +110,7 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
     </tr>
    </table>
 
-1. 内 **[!UICONTROL タイムシートの事前入力]**「 」セクションで&#x200B;、次のいずれかのオプションを設定します。
+1. 内 **[!UICONTROL タイムシートの事前入力]** セクションで、次のいずれかのオプションを設定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,11 +135,7 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
     </tbody> 
    </table>
 
-1. 内 **[!UICONTROL プロジェクト、タスク、または問題報告の削除環境設定]** 「 」セクションで、以下を指定します。
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. 内 **[!UICONTROL 削除されたプロジェクト、タスクおよび問題]** 「 」セクションで、以下を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
