@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [統合の強化](#integration-enhancements)
 * [その他の機能強化](#other-enhancements)
 
+### 管理者の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">[ ユーザーが時刻を記録できる場所 ] のタイムシートと時間の優先設定で使用できるグループレベルのコントロール</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>システム管理者は、[ ユーザーが時刻を記録できる場所 ] のタイムシートと時間の優先設定をロックおよびロック解除できるようになりました。 この設定をロック解除すると、グループ管理者は、各グループに対して「ユーザーがログに記録できる場所」の設定を個別に設定できます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 5 月 5 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：23.3 リリースの場合</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### アジャイルの強化
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">ダイナミックボードテンプレートに追加されたシンプルなフィルター</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">ダイナミックボードテンプレートに追加されたシンプルなフィルター</a></p>
                         <p>ダイナミックボードテンプレート上のフィルターが簡素化され、ボードをより迅速に作成できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
