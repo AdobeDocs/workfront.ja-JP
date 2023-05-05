@@ -7,7 +7,7 @@ description: プロジェクトマネージャーは、請求率を使用して�
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Workfrontでは、タスクの予定時間に基づいてタスクが作成さ�
 
 また、実際の時間がタスク、問題、およびプロジェクトにログオンしたときに、実際の収益を自動的に追跡することもできます。
 
-次の表に、タスク、タスクおよびプロジェクトに関連する売上高のタイプを示します。
+次の表に、タスク、タスク、タスク、プロジェクトに関連する売上高のタイプを示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,7 +106,7 @@ Workfrontでは、タスクの予定時間に基づいてタスクが作成さ�
  <tbody> 
   <tr> 
    <td role="rowheader">予定収益</td> 
-   <td> <p>タスクの場合は、予定時間に関連付けられた収益です。 すべてのタスクからの計画時間は、プロジェクトの計画時間にロールアップされ、プロジェクトの計画時間の計算に役立ちます。 </p> <p>Workfrontでの予定時間について詳しくは、 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計画時間の概要</a>. </p> <p>Workfrontは、次の式を使用して、タスクおよびプロジェクトの計画収益を計算します。</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>タスクの場合は、予定時間に関連付けられた収益です。 すべてのタスクからの計画時間は、プロジェクトの計画時間にロールアップされ、プロジェクトの計画時間の計算に役立ちます。 </p> <p>Workfrontでの予定時間について詳しくは、 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計画時間の概要</a>. </p> <p>Workfrontは、次の式を使用して、タスクおよびプロジェクトの計画収益を計算します。</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>メモ</b>
 
 <p>「プロジェクト詳細」領域およびプロジェクト・レポートに表示されるプロジェクト計画収益は、「稼働状況」レポートに表示される計画収益とは異なります。 </p> <p>「プロジェクトの詳細」領域の「計画収益」には、タスク「計画時間」に関連付けられたタスク収益と、プロジェクトの固定収益が反映されます。 「稼働率レポート」の「計画収益」には、プロジェクトのタスク割り当てからの計画時間に関連付けられた計画収益のみが表示されます。 </p> 
@@ -120,7 +120,7 @@ Workfrontでは、タスクの予定時間に基づいてタスクが作成さ�
   </tr> 
   <tr> 
    <td role="rowheader">実収益*</td> 
-   <td> <p>実際のタスク時間、タスク数、タスク数、およびプロジェクト数に関連付けられています。 </p> <p>一般に、Workfrontは次の式を使用して実際の売上高を計算します。</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>稼働率レポートの実際の収益計算の詳細は、 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">リソース使用率情報の表示 </a>. </p> <p><b>ヒント</b>
+   <td> <p>実際のタスク時間、タスク数、タスク数、およびプロジェクト数に関連付けられています。 </p> <p>一般に、Workfrontは次の式を使用して実際の売上高を計算します。</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>稼働率レポートの実際の収益計算の詳細は、 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">リソース使用率情報の表示 </a>. </p> <p><b>ヒント</b>
 
 実際の売上高は問題レベルで表示できませんが、問題に関する実際の時間に関連付けられた売上高は、プロジェクトの実際の売上高に貢献します。 </p> </td>
 </tr> 
