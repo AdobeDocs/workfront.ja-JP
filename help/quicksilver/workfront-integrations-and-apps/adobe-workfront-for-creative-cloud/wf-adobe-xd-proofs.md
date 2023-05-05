@@ -6,9 +6,9 @@ description: アートボードを配達確認としてAdobe Workfrontに直接�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,9 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >複数のアートボードを選択するには、目的のアートボード上でマウスをクリックしてドラッグします。
+   >* アートボードは、選択した順序で配達確認に表示されます。 選択した最初のアートボードが配達確認の最初のページになります。
+   >* 複数のアートボードをすばやく選択するには、目的のアートボード上でマウスをクリックしてドラッグします。 これにより、配達確認でのアートボードの順序を制御できなくなります。
+
 
 1. 有効にする **[!UICONTROL 配達確認の作成]**.
 
