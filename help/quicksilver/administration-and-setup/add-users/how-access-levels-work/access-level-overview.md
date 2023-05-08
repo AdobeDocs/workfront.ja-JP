@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 4af7a72a3633f1b669cbc681f230727cc4f54d1e
+source-git-commit: 26da544bb8cd833d37dd6a484687495fde5060b1
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 5%
@@ -26,7 +26,7 @@ Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセ�
 
 ## Adobe Workfrontの新しい組み込みアクセスレベル {#built-in-access}
 
-Workfrontには、次の 6 つの新しい組み込みアクセスレベルがあります。
+Workfrontには、次の 5 つの新しい組み込みアクセスレベルがあります。
 
 * システム管理者
 * 標準
