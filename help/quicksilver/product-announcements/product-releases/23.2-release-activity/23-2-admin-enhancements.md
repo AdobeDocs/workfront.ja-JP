@@ -4,9 +4,10 @@ description: 23.2 管理者の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
+exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
+source-git-commit: b764ac92524b896a4aba9baf337ba14a5bebfa43
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 0%
 このページでは、プレビュー環境の 23.2 リリースでおこなわれた管理者向けの機能強化について説明します。 これらの機能強化は、23.2 リリースで実稼動環境で利用できるようになります。
 
 23.2 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Workfrontフィールド値のExperience Manager Assetsでのタグへのマッピング
+
+これで、Workfrontのデータに基づいて、アセットを分類してすばやく見つけることができるようになりました。  WorkfrontとExperience Manager Assetsの統合で、このデータをメタデータ設定の一部としてマッピングできます。
+
+以前は、WorkfrontデータをExperience Manager Assetsタグにマッピングすることはできませんでした。
+
+Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、 [の設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+Experience Manager Assets Essentials のこの機能について詳しくは、 [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## 新しいフォームデザイナーベータ版でカスタムフォームを作成する
 

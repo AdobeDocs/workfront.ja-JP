@@ -4,13 +4,13 @@ description: 23.2 リリースの概要
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
 
 # 23.2 リリースの概要
 
@@ -52,6 +52,22 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontフィールド値のExperience Manager Assetsでのタグへのマッピング</a>
+                        <p>これで、Workfrontのデータに基づいて、アセットを分類してすばやく見つけることができるようになりました。  WorkfrontとExperience Manager Assetsの統合で、このデータをメタデータ設定の一部としてマッピングできます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：該当なし<br /></p>
+                            </li>
+                            <li>
+                                 <p>実稼動リリース：2023 年 3 月 30 日</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

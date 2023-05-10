@@ -5,9 +5,9 @@ title: Adobe Experience Manager Assets の統合
 description: 作業内容は、次のAdobe Experience Manager Assets 統合と連携できます。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -101,21 +101,76 @@ ht-degree: 0%
 >
 >メタデータは、次の 1 つの方向にのみマッピングできます。から [!DNL Workfront] から [!DNL Experience Manager]. リンク先のドキュメントのメタデータ [!DNL Workfront] から [!DNL Experience Manager] に転送できません [!DNL Workfront].
 
-
-
 ### メタデータフィールドの設定
 
+メタデータフィールドのマッピングを開始する前に、WorkfrontとExperience Manager Assetsの両方でメタデータフィールドを設定する必要があります。
+
+メタデータフィールドを設定するには：
+
 1. でのメタデータスキーマの設定 [!DNL Experience Manager Assets] で説明されているように [Adobe間でのアセットメタデータマッピングの設定 [!DNL Workfront] および [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Workfrontでカスタムフォームフィールドを設定します。 [!DNL Workfront] には、使用できる多くの組み込みカスタムフィールドがあります。 ただし、独自のカスタムフィールドを作成することもできます。 [カスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **サポートされているWorkfrontおよびExperience Manager Assetsフィールドの詳細を見るには、ここを展開してください**
 
-### Assets
+**Experience Manager Assetsタグ**
+
+Workfrontでサポートされている任意のフィールドを、Experience Manager Assetsのタグにマッピングできます。 これをおこなうには、Experience Manager Assetsのタグ値がWorkfrontと一致するようにする必要があります。
+
+* タグとWorkfrontのフィールド値は、スペルと形式が完全に一致する必要があります。
+* Workfrontのタグが大文字である場合でも、experience manager の assets タグにマッピングされるExperience Manager Assetsフィールド値は、すべて小文字にする必要があります。
+* Workfrontフィールドの値にスペースを含めることはできません。
+* Workfrontのフィールド値には、Experience Manager Assetsタグのフォルダー構造も含める必要があります。
+* 複数の 1 行のテキストフィールドをタグにマッピングするには、メタデータマッピングのWorkfront側にタグ値のコンマ区切りリストを入力し、 `xcm:keywords` Experience Manager Assets側の 各フィールド値は、別々のタグにマッピングされます。 計算フィールドを使用すると、複数のWorkfrontフィールドを組み合わせて、コンマで区切られた単一のテキストフィールドにすることができます。
+* ドロップダウンフィールド、ラジオボタンフィールドまたはチェックボックスフィールドの値をマッピングするには、そのフィールドで使用可能な値のコンマ区切りリストを入力します。
+
+
+>[!INFO]
+>
+>**例**:ここで、フォルダー構造に表示されるタグと照合するには、Workfrontのフィールド値を次のようにします。 `landscapes:trees/spruce`. 「 Workfront 」フィールドの値には小文字が含まれています。
+>
+>タグツリー内の一番左の項目をタグにする場合は、その後にコロンを付ける必要があります。 この例では、景観タグにマッピングするために、Workfrontのフィールド値は次のようになります。 `landscapes:`.
+>
+>![AEMのフォルダー構造](assets/aem-folder-structure-with-red-boxes.png)
+
+
+Experience Manager Assetsでタグを作成すると、それらは「メタデータ」セクションの「タグ」ドロップダウンに表示されます。 フィールドをタグにリンクするには、 `xcm:keywords` ( メタデータマッピング領域の「 Experience Manager Assetsフィールド」ドロップダウン )。
+
+タグの作成および管理方法など、Experience Manager Assetsでのタグについて詳しくは、 [タグの管理](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Experience Manager Assetsカスタムメタデータスキーマフィールド**
+
+組み込みフィールドとカスタムWorkfrontフィールドの両方を、Experience Manager Assetsのカスタムメタデータスキーマフィールドにマッピングできます。
+
+Experience Manager Assetsで作成したカスタムメタデータフィールドは、メタデータ設定領域の独自のセクションに整理されます。
+
+![カスタムメタデータセクション](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Workfrontフィールド**
+
+組み込みフィールドとカスタムWorkfrontフィールドの両方をExperience Manager Assetsにマッピングできます。 以下のフィールド値は、大文字と小文字の両方で、WorkfrontとExperience Manager Assetsのスペルが一致する必要があります。
+
+* ドロップダウンフィールド
+* 複数選択フィールド
+
+>[!TIP]
+>
+> フィールドの値が正確に一致するかどうかを確認するには、次に進みます。
+>
+> * Workfrontの場合は設定/カスタムForms、オブジェクトの場合はフィールド
+> * Experience Manager Assetsのアセット/メタデータスキーマ
+
+
++++
+
+### アセットのメタデータのマッピング
 
 アセットがからプッシュされると、メタデータがマッピングされます。 [!DNL Workfront] 初めて 組み込みフィールドまたはカスタムフィールドを持つドキュメントは、アセットの初回送信時に、指定したフィールドに自動的にマッピングされます [!DNL Experience Manager Assets].
-
->[!NOTE]
->
->この統合は、次のカスタムメタデータをサポートしていません： [!DNL Adobe Experience Manager].
 
 アセットのメタデータをマッピングするには：
 
@@ -125,13 +180,15 @@ ht-degree: 0%
    >[!NOTE]
    >
    >1 つの [!DNL Workfront] 複数のフィールド [!UICONTROL Experience Manager Assets] フィールド。 複数の [!DNL Workfront] 単一の [!DNL Experience Manager Assets] フィールドに入力します。
+   ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
+
 
 1. 内 [!DNL Experience Manager Assets] 」フィールドで、事前入力されたカテゴリを検索するか、検索フィールドに 2 文字以上入力して、追加のカテゴリにアクセスします。
 1. 必要に応じて、手順 2 と 3 を繰り返します。
    ![メタデータフィールド](assets/asset-metadata.png)
 1. クリック [!UICONTROL 保存] または、 [フォルダー](#folders) 」の節を参照してください。
 
-### フォルダー
+### フォルダーのメタデータのマッピング
 
 ユーザーがプロジェクト上にリンクフォルダーを作成すると、関連するプロジェクト、ポートフォリオおよびプログラムデータが、 [!DNL Experience Manager Assets].
 

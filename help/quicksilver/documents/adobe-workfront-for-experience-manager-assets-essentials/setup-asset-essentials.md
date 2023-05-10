@@ -6,10 +6,10 @@ description: Experience Manager Assets Essentials - EDIT ME で作業内容を�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -109,6 +109,23 @@ Workfront オブジェクトデータを Experience Manager Assets のアセッ�
 * Experience Manager Assets Essentials でのメタデータスキーマの設定 ( [Adobe WorkfrontとExperience Manager Assetsの間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * （オプション）Workfrontでカスタムフォームフィールドを設定します。 Workfrontには、使用できる多くの組み込みカスタムフィールドがあります。 ただし、独自のカスタムフィールドを作成することもできます。 詳しくは、 [カスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **サポートされるWorkfrontおよびExperience Manager Assetsのフィールド**
+
+**AEMキーワード**
+
+Workfront Essentials のキーワードに、サポートされている任意のフィールドをマッピングできます。
+
+キーワードにフィールドをリンクするには、「 `dc:subject` ( メタデータマッピング領域の「 Experience Manager Assetsフィールド」ドロップダウン )。
+
+複数の 1 行テキストフィールドをキーワードにマッピングするには、メタデータマッピングのWorkfront側にキーワード値のコンマ区切りリストを入力し、 `dc:subject` Experience Manager Assets側の 各フィールド値は、個別のキーワードにマッピングされます。 計算フィールドを使用すると、複数のWorkfrontフィールドを組み合わせて、コンマで区切られた単一のテキストフィールドにすることができます。
+
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
+
++++
+
 
 ### Assets
 
@@ -119,6 +136,8 @@ Workfront オブジェクトデータを Experience Manager Assets のアセッ�
    >
    >1 つのWorkfrontフィールドを複数のExperience Manager Assetsフィールドにマッピングできます。 複数のWorkfrontフィールドを 1 つのExperience Manager Assetsフィールドにマッピングすることはできません。
 1. 内 **Experience Manager** 「 Experience Manager Assets 」フィールドを選択します。
+
+   WorkfrontフィールドをExperience Manager Assetsタグにマッピングするには、 `dc:subject`.
 1. 必要に応じて、手順 1 と 2 を繰り返します。
    ![メタデータを有効にする](assets/metadata-assets-essentials.png)
 1. クリック **保存** または、 [リンクされたフォルダーの設定（オプション）](#set-up-linked-folders-optional) 」の節を参照してください。
