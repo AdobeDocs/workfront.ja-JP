@@ -4,7 +4,8 @@ description: 23.2 プロジェクトの機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
+exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->3 月 23 日以降、このリリースは 2023 年 5 月 11 日に完了する段階的なロールアウトで実稼動環境にリリースされます。
+>3 月 23 日以降、このリリースは段階的に実稼動環境にリリースされ、2023 年 5 月 11 日以降に完了します。
 
 Workfrontエクスペリエンスのルックアンドフィールを更新する際に、複数のプロジェクトを同時に編集する際に、「プロジェクトを編集」ボックスを一括で再設計しました。 プロジェクトのリストで複数のプロジェクトを同時に選択する場合は、新しい「プロジェクトを編集」ボックスにアクセスできます。
 

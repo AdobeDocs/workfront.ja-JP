@@ -5,7 +5,7 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 0%
@@ -347,7 +347,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：2023 年 3 月 10 日<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">実稼動版リリース：3 月 23 日以降、このリリースは段階的なロールアウトで実稼動環境にリリースされ、2023 年 5 月 11 日に完了します。</span></p>
+                                 <p><span class="preview">実稼動版リリース：3 月 23 日以降、このリリースは段階的に実稼動環境にリリースされ、2023 年 5 月 11 日以降に完了します。</span></p>
                             </li>
                         </ul>
                     </td>
