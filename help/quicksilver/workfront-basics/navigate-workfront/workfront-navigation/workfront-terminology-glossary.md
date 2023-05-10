@@ -5,9 +5,9 @@ title: 用語集 [!DNL Adobe Workfront] 用語
 description: この [!DNL Adobe Workfront] 用語集には、Adobe Workfrontでよく使用される用語が記載されています。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '19387'
+source-wordcount: '19399'
 ht-degree: 0%
 
 ---
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 <tr> 
    <td>[!UICONTROL ブランディング ]</td> 
-   <td>カスタマイズのプロセス [!DNL Workfront] を使用すると、会社を映し出すインターフェイスを、色とロゴを使用して実現できます。</td> 
+   <td><p>カスタマイズのプロセス [!DNL Workfront] を使用すると、会社を映し出すインターフェイスを、色とロゴを使用して実現できます。</p><p><strong>注意</strong><br>組織が [!DNL Adobe Experience Cloud]、ブランディングを使用できません。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL パンくずリスト ]</td> 

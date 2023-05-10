@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # レイアウトテンプレートを使用した Brand Adobe Workfront
+
+>[!IMPORTANT]
+>
+>このページで説明する手順は、まだにオンボーディングされていない組織にのみ適用されます。 [!DNL Adobe Experience Cloud].
+>
+> 組織が [!DNL Adobe Experience Cloud]、ブランディングを使用できません。
 
 レイアウトテンプレートを使用して、特定のグループ、チーム、役割およびユーザー向けに、上部のナビゲーション領域およびメインメニューのロゴをカスタマイズできます。 これは、独自のブランディングを持つ大規模な組織のグループに特に便利です。
 
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Workfrontの管理者は、組織全体に対してシステムレベルで同じブランディングカスタマイズをおこなうことができます。詳しくは、 [Adobe Workfrontインスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). ただし、レイアウトテンプレート内のブランディングは、システムレベルのブランディングよりも優先されます。>
+>Workfrontの管理者は、組織全体に対してシステムレベルで同じブランディングカスタマイズをおこなうことができます。詳しくは、 [Adobe Workfrontインスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). ただし、レイアウトテンプレート内のブランディングは、システムレベルのブランディングよりも優先されます。
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->

@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: からログアウト [!DNL Adobe Workfront]
 description: セキュリティ上の理由から、からログアウトすることが重要です。 [!DNL Adobe Workfront] 定期的に デフォルトでは、 [!DNL Workfront] 無操作状態が 8 時間続くと、は自動的にユーザーをログアウトします。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 1%
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>このページで説明する手順は、まだにオンボーディングされていない組織にのみ適用されます。 [!DNL Adobe Experience Cloud].
+>
+> 組織が [!DNL Adobe Experience Cloud]上部のナビゲーションでプロフィールの画像をクリックし、「 」を選択してログアウトします。 [!UICONTROL **ログアウト**] を選択します。 詳しくは、 [[!DNL Adobe Unified Experience] 対象 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## アクセス要件
 

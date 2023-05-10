@@ -3,11 +3,11 @@ content-type: overview
 title: 上部ナビゲーションバーの概要
 description: 上部ナビゲーションバー — 新しい [!DNL Adobe Workfront] エクスペリエンス — プラットフォームの他の領域を簡単に見つけてナビゲートできます。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 0%
 ## [!UICONTROL ホームアイコン]
 
 この **[!UICONTROL ホーム]** アイコン ![](assets/home-icon.png) に移動します。 [!UICONTROL ホーム] ページ（デフォルトのランディングページ） ホームについて詳しくは、 [以下を使用： [!UICONTROL ホーム] 領域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-An [!DNL Adobe Workfront] 管理者は、 [!UICONTROL ホーム] アイコンをクリックして、会社のブランドに合わせます。 詳しくは、 [ブランド化 [!DNL Adobe Workfront] インスタンス](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## 固定されたページ
 
@@ -59,6 +57,12 @@ An [!DNL Adobe Workfront] 管理者は、 [!UICONTROL ホーム] アイコンを
 検索について詳しくは、 [検索 [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL メインメニュー]
+
+>[!IMPORTANT]
+>
+>このページで説明するメインメニューは、まだにオンボーディングされていない組織にのみ適用されます [!DNL Adobe Experience Cloud].
+>
+> 組織が [!DNL Adobe Experience Cloud]を参照してください。 [[!DNL Adobe Unified Experience] 対象 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 この **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) が開きます。 [!UICONTROL メインメニュー]:Workfrontの別の領域に移動できます。
 
