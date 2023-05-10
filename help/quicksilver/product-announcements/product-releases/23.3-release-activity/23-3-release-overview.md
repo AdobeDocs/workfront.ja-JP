@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 52f6c51a8843852b7eb1880661e3d53f8675c470
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">ボードの取り込み口列で使用可能な単純なフィルタ</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>インテーク列の設定にシンプル化されたフィルターが追加され、インテーク列をより迅速に定義できるようになりました。 使用可能なフィルターは、Workfrontプロジェクトと、チームまたはユーザーによる割り当てです。 必要に応じて、詳細フィルターに切り替えることができます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 5 月 11 日<br /></p>
+                            </li>
+                            <li>
+                                 <p>先行オプトインの実稼動リリース：2023 年 5 月 11 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">ダイナミックボードテンプレートに追加されたシンプルなフィルター</a></p>
                         <p>ダイナミックボードテンプレート上のフィルターが簡素化され、ボードをより迅速に作成できるようになりました。</p>
@@ -186,6 +203,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfrontフィールド値のExperience Manager Assetsでのタグへのマッピング</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
+                        <p>これで、Workfrontのデータに基づいて、アセットを分類してすばやく見つけることができるようになりました。 WorkfrontとExperience Manager Assetsの統合で、このデータをメタデータ設定の一部としてマッピングできます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 5 月 11 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 5 月 11 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">WorkfrontフィールドをカスタムExperience Manager Assetsメタデータフィールドにマッピングする</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
+                        <p>ネイティブ統合により、ネイティブと組み込みのWorkfrontフィールドの両方を、Experience Manager Assets as a Cloud Serviceのカスタムメタデータスキーマフィールドにマッピングできるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 5 月 11 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 5 月 11 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Creative CloudにAdobe Workfrontを使用して自動配達確認ワークフローテンプレート設定を調整</a></p>
@@ -285,7 +334,7 @@ Workfront Fusion の新機能は、実稼動環境の 23.3 リリーススケジ
 
 ### Workfront Proof の強化
 
-このリリースでは、現時点でWorkfront Proof の更新はありません。 この領域は、更新が利用可能になると更新されます。
+23.3 リリース期間内にWorkfront Proof リリースに追加される新機能。 プレビューで利用できる新機能について詳しくは、 [Adobe Workfront Proof（23.3 リリースでの使用）](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Workfront目標の強化
 

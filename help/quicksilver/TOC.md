@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '12962'
+source-wordcount: '12984'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 2%
          * [2023 年 4 月 18 日のリリース活動週](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
          * [2023 年 4 月 24 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
          * [2023 年 5 月 1 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+         * [2023 年 5 月 8 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [23.3 リリース期間中のルックアンドフィールの更新](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 リリース {#release-23-2}
          * [23.2 リリースの概要](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -207,6 +208,9 @@ ht-degree: 2%
          * [Workfront 20.4 リリースでの目標](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront 20.3 リリースの目標 — 2020 年 8 月 14 日](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
       * Workfront Proof リリースアクティビティ {#proof-release}
+         * 23.3 リリースでの配達確認 {#proof-23-3-release}
+            * [Adobe Workfront Proof（23.3 リリースでの使用）](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3 リリースアクティビティ：2023 年 5 月 8 日の週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof リリースアクティビティ：2021 年 5 月 17 日の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof リリースアクティビティ：2021 年 11 月 29 日の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * 四半期別リリースアーカイブ {#quarterly-release}
