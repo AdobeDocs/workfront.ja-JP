@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion HTTP モジュールで相互 TLS を使用�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: d54a6072524274cf77ee0ca7b7cfa24987c97782
+source-git-commit: 9c0452e60e98439fdba8e1171ef52a773f3d72b5
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -92,10 +92,10 @@ HTTP リクエストを使用して Web サービスに接続する場合、通�
    >   * 有効期限をメモしておき、自分で証明書を Web サービスにアップロードするようにリマインダーを設定します。
    >   * 新しい証明書を簡単に見つけるには、このページをブックマークします。
 >
-* ワイルドカード以外の mTLS 証明書です。
->
+>* ワイルドカード以外の mTLS 証明書です。
 
-* [ダウンロード [!DNL Workfront Fusion] 証明書 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+
+* [ダウンロード [!DNL Workfront Fusion] 証明書 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [ダウンロード [!DNL Workfront Fusion] EU 証明書 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
    EU で使用
