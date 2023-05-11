@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion HTTP モジュールで相互 TLS を使用�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 595d6e3e0a7d87240644bf20efd425917f4d953d
+source-git-commit: e67e6b6d3baf9f17a0a451fa4e1dbc365340f76e
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -83,40 +83,35 @@ HTTP リクエストを使用して Web サービスに接続する場合、通�
 
 次のリンクを使用して、Workfront Fusion の公開証明書をダウンロードできます。
 
+### 2023 年 5 月 25 日～2024 年 6 月 9 日の証明書
+
+>[!IMPORTANT]
+>
+>* これら [!DNL Workfront Fusion] 公開証明書の有効期限は 2024 年 6 月 9 日です。 有効期限が切れたら、新しい証明書を Web サービスにアップロードする必要があります。 以下をお勧めします。
+   >
+   >   * 有効期限をメモしておき、自分で証明書を Web サービスにアップロードするようにリマインダーを設定します。
+   >   * 新しい証明書を簡単に見つけるには、このページをブックマークします。
+>
+* ワイルドカード以外の mTLS 証明書です。
+>
+
+* [ダウンロード [!DNL Workfront Fusion] 証明書 2023](assets/fusion-prod-us-mtls-certificate.pem)
+* [ダウンロード [!DNL Workfront Fusion] EU 証明書 2023](assets/fusion-prod-eu-mtls-certificate.pem)
+
+   EU で使用
+
 ### 2022 年 11 月 14 日～2023 年 7 月 15 日の証明書
 
 >[!IMPORTANT]
 >
->これら [!DNL Workfront Fusion] 公開証明書の有効期限は 2023 年 7 月 15 日です。 有効期限が切れたら、新しい証明書を Web サービスにアップロードする必要があります。 以下をお勧めします。
->
->* 有効期限をメモしておき、自分で証明書を Web サービスにアップロードするようにリマインダーを設定します。
->* 新しい証明書を簡単に見つけるには、このページをブックマークします。
->
+>* これら [!DNL Workfront Fusion] 公開証明書の有効期限は 2023 年 7 月 15 日です。
+>* ワイルドカード mTLS 証明書です。
 
 
 * [ダウンロード [!DNL Workfront Fusion] 証明書 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
 * [ダウンロード [!DNL Workfront Fusion] EU 証明書 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
    EU で使用
-
-<!--
-
-Previous US cert
-
-* [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app_workfrontfusion_com-jul-15-2023.cer)
-
-### Certificates for November 17, 2021 - November 14, 2022
-
->[!IMPORTANT]
->
->These certificates expire on November 14, 2022. Upload the new certificates to the web service as soon as possible.
-
-* [Download Workfront Fusion Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
-* [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
-
-  For use in the EU
-
-  -->
 
 ## での相互 TLS の有効化 [!DNL Workfront Fusion] HTTP モジュール
 
