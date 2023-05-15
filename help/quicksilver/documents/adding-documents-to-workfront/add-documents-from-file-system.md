@@ -6,9 +6,9 @@ description: Adobe Workfront - EDIT ME の以下の領域で、プロジェク�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ Workfrontサイトは、次の方法でドキュメントを介してウイル�
 
 ### Workfrontが破損したファイルを検出する方法 {#how-workfront-detects-corrupted-files}
 
-Workfrontは、ドキュメントのアップロード時にウイルスをスキャンします。 破損したドキュメントをアップロードしようとすると、Workfrontはアップロードプロセスを中断し、ファイルが破損していることを示すメッセージが表示されます。 また、Workfrontが悪意の可能性のあるコンテンツを検出し、ファイルの削除が予定されている場合にも、電子メール通知が送信されます。\
-破損したファイルは、手動で削除しない限り、検出後 24 時間以内にすべて削除されます。 破損したファイルを削除した場合、Workfrontはこのアクションを更新として追跡します。 Workfrontによる削除を許可した場合、更新は記録されません。
+ドキュメントスキャンは、リクエストに応じてのみ、組織で有効になっています。
+
+ドキュメントスキャンが有効な場合、25 MB 未満のファイルはアップロード時にスキャンされます。 25 MB を超えるファイルはスキャンされません。
+
+Workfrontが破損したドキュメントを検出すると、Workfrontはアップロードプロセスを中断し、ファイルが破損していることを示すメッセージが表示されます。 また、Workfrontが悪意の可能性のあるコンテンツを検出し、ファイルの削除が予定されている場合にも、電子メール通知が送信されます。
+
+破損したファイルは、手動で削除しない限り、検出後 24 時間以内に削除されます。 破損したファイルを削除した場合、Workfrontはこのアクションを更新として追跡します。 Workfrontによる削除を許可した場合、更新は記録されません。
 
 ### ファイル名の制限 {#file-name-restrictions}
 
