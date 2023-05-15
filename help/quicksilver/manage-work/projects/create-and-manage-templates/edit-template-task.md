@@ -7,9 +7,9 @@ description: テンプレートを作成した後、テンプレートタスク�
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 6%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 6%
 
 始める前に、
 
-* テンプレートを作成します。
+* テンプレートの作成.
 
    テンプレートの作成について詳しくは、 [プロジェクトテンプレートの作成](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -214,7 +214,7 @@ ht-degree: 6%
 
    または
 
-   クリック **変更を保存**.
+   「**変更を保存**」をクリックします。
 
 ### 財務 {#finance}
 
@@ -247,7 +247,7 @@ ht-degree: 6%
         <li> <p style="font-weight: normal;">ユーザー (毎時)</p> </li> 
         <li> <p style="font-weight: normal;">役割 (毎時)</p> </li> 
         <li> <p style="font-weight: normal;">固定 (毎時)</p> </li> 
-        <li> <p style="font-weight: normal;">ユーザー (毎時) (上限付き)</p> </li> 
+        <li> <p style="font-weight: normal;">ユーザー (毎時) キャップ付き</p> </li> 
         <li> <p style="font-weight: normal;">役割 (毎時) (上限付き)</p> </li> 
         <li> <p style="font-weight: normal;">ユーザー (毎時) + 固定</p> </li> 
         <li> <p style="font-weight: normal;">役割 (毎時) + 固定</p> </li> 
@@ -261,7 +261,7 @@ ht-degree: 6%
 
    または
 
-   クリック **変更を保存**.
+   「**変更を保存**」をクリックします。
 
 ### 設定 {#settings}
 
@@ -276,6 +276,14 @@ ht-degree: 6%
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>マイルストーン</p></strong> </td> 
+      <td> <p>選択したテンプレートタスクに関連付けるマイルストーンを選択します。</p>
+
+   <p><b>重要</b></p>
+   <p>このフィールドを表示するには、マイルストーンパスをテンプレートに関連付ける必要があります。 詳しくは、 <a href="../create-and-manage-templates/edit-templates.md">プロジェクトテンプレートの編集</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>追跡モード</strong> </td> 
       <td> <p>今後のタスクの進捗状況の追跡方法を指定します。 </p> <p>次のオプションから選択します。</p> 
@@ -313,7 +321,7 @@ ht-degree: 6%
 
    または
 
-   クリック **変更を保存**.
+   「**変更を保存**」をクリックします。
 
 ### 割り当て {#assignments}
 
@@ -337,7 +345,7 @@ ht-degree: 6%
 
    または
 
-   クリック **変更を保存**.
+   「**変更を保存**」をクリックします。
 
 ### カスタムフォーム {#custom-forms}
 
@@ -348,7 +356,7 @@ ht-degree: 6%
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. テンプレートタスクに関連付ける 1 つ以上のカスタムフォームを選択します。 カスタムフォームをこのフィールドで選択できるようにするには、事前にカスタムフォームを作成する必要があります。 リストには、アクティブなカスタムフォームのみが表示されます。 カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)テンプレートタスクには、最大 10 個のカスタムフォームを追加できます。 フォームは、テンプレートから作成されたタスクに自動的に追加されます。
+1. テンプレートタスクに関連付ける 1 つ以上のカスタムフォームを選択します。 カスタムフォームをこのフィールドで選択できるようにするには、事前にカスタムフォームを作成する必要があります。 リストには、アクティブなカスタムフォームのみが表示されます。 カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 1 つのテンプレートタスクに最大 10 個のカスタムフォームを追加できます。 フォームは、テンプレートから作成されたタスクに自動的に追加されます。
 1. （条件付きおよびオプション）カスタムフォームをテンプレートタスクに添付する場合、フォーム上の任意のフィールドを編集します。 テンプレートタスクを保存する前に、すべての必須フィールドを指定する必要があります。
 
    >[!NOTE]
@@ -362,7 +370,7 @@ ht-degree: 6%
 
    または
 
-   クリック **変更を保存**.
+   「**変更を保存**」をクリックします。
 
 ### コメント {#comment}
 
@@ -372,7 +380,7 @@ ht-degree: 6%
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. テンプレートタスクの更新ストリームに表示するコメントを、「使用可能」フィールドで指定します。 このコメントは、テンプレートとテンプレートタスクに対する表示アクセス権を持ち、メモの表示アクセス権を持つすべてのユーザーに対して表示されます。
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
 
    変更は、このテンプレートタスクに対して送信されます。
 
