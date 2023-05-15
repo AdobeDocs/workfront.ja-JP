@@ -6,9 +6,9 @@ description: デスクトップ校正ビューアは、インタラクティブ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: 0e8cc1e307dc82a4c1745d50de062024a5007da6
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -53,8 +53,8 @@ Adobe Workfrontの管理者またはWorkfrontの配達確認管理者が、ア�
 
 1. アプリをダウンロードするには、次のいずれかの操作を行います。
 
-   * 実稼動環境を使用している場合は、  [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
-   * プレビュー環境を使用している場合は、  [Mac Preview Desktop Proofing Viewer 用のダウンロード。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
+   * 実稼動環境を使用している場合は、 [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.24.pkg)
+   * プレビュー環境を使用している場合は、 [Mac Preview Desktop Proofing Viewer 用のダウンロード。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.24.pkg)
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、 **続行**&#x200B;を選択し、「 **インストール**.
@@ -65,27 +65,28 @@ Adobe Workfrontの管理者またはWorkfrontの配達確認管理者が、ア�
 
 >[!NOTE]
 >
->対話式の配達確認を開いたときにデスクトップ校正ビューアが起動しない場合は、の説明に従って、WorkfrontまたはWorkfrontの配達確認管理者が、デスクトップ校正ビューアをインタラクティブ校正のデフォルトビューアとして設定する必要があります。
+>対話式の配達確認を開いたときにデスクトップ校正ビューアが起動しない場合は、WorkfrontまたはWorkfrontの配達確認管理者が、対話式の配達確認用のデフォルトビューアとしてデスクトップ校正ビューアを設定する必要があります ( [デスクトップ校正ビューアで非インタラクティブ校正を開くためのユーザー設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
 
 ## Windows へのデスクトップ校正ビューアのインストール
 
 WorkfrontまたはWorkfrontの配達確認管理者がワークステーションにアプリをダウンロードし、デスクトップ校正ビューアをインタラクティブな配達確認のデフォルトビューアとして設定した場合は、「ドキュメント」領域からインタラクティブな配達確認を開くだけでインストールを完了できます。
 
 >[!TIP]
-コマンドラインを使用して、次のコマンドを実行してデスクトップ校正ビューアをインストールできます： `Workfront Proof Setup 2.1.20.exe" /S`
+>
+>コマンドラインを使用して、次のコマンドを実行してデスクトップ校正ビューアをインストールできます： `Workfront Proof Setup 2.1.20.exe" /S`
 
 1. アプリをダウンロードするには、次のいずれかの操作を行います。
 
-   * 実稼動環境で、  [デスクトップ校正ビューア用の Windows Production ダウンロードです。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
-   * プレビュー環境で、  [デスクトップ校正ビューア用の Windows プレビューのダウンロード](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
+   * 実稼動環境で、 [デスクトップ校正ビューア用の Windows Production ダウンロードです。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.24.exe)
+   * プレビュー環境で、 [デスクトップ校正ビューア用の Windows プレビューのダウンロード](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.24.exe).
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、ダウンロードしたファイルを開いてインストールを開始します。
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. 表示されるセキュリティ警告ボックスで、[**実行 ] をクリックします。**デスクトップ校正ビューアは、自動的にインストールおよび実行します。 
+1. 表示されるセキュリティ警告ボックスで、 **実行**. デスクトップ校正ビューアは、自動的にインストールおよび実行します。
 1. （条件付き）Internet Explorer を使用してアプリケーションをインストールする場合、アプリケーションのインストール後にブラウザーで起動ページを更新します。
 1. 「ドキュメント」領域からインタラクティブな配達確認を開きます。
 
-デスクトップ校正ビューアをインストールすると、すべてのインタラクティブ校正がデスクトップ校正ビューアで開きます。 対話式の配達確認を開いたときにデスクトップ校正ビューアが起動しない場合は、の説明に従って、WorkfrontまたはWorkfrontの配達確認管理者が、デスクトップ校正ビューアをインタラクティブ校正のデフォルトビューアとして設定する必要があります。
+デスクトップ校正ビューアをインストールすると、すべてのインタラクティブ校正がデスクトップ校正ビューアで開きます。 対話式の配達確認を開いたときにデスクトップ校正ビューアが起動しない場合は、WorkfrontまたはWorkfrontの配達確認管理者が、対話式の配達確認用のデフォルトビューアとしてデスクトップ校正ビューアを設定する必要があります ( [デスクトップ校正ビューアで非インタラクティブ校正を開くためのユーザー設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
