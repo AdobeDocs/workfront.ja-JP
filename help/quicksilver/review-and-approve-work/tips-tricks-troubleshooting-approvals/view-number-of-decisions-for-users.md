@@ -6,7 +6,7 @@ description: Workfrontインスタンスでユーザーがおこなった配達�
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Workfrontインスタンスでユーザーがおこなった配達確認およ�
 
 1. を開きます。 **件数** 「 」領域で、 **ライセンス** 表示
 
-1. 列を検索 **今月の承認** ：各ユーザーが月におこなった決定数を表示します。
+1. 列を検索 **今月の決定** ：各ユーザーが月におこなった決定数を表示します。
