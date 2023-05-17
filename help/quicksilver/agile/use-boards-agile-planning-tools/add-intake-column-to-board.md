@@ -7,9 +7,9 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 0%
    取り込みカラムは、ボードの左側に追加されます。 フィルターを適用するまで空白のままです。
 
 1. クリック [!UICONTROL **詳細フィルターの使用**].
-1. クリック **[!UICONTROL ソースをフィルター]** を選択し、 **[!UICONTROL タスク]** または **[!UICONTROL 問題]**.
+1. クリック **[!UICONTROL フィルターソースを追加]** を選択し、 **[!UICONTROL タスク]** または **[!UICONTROL 問題]**.
 
    ![インテーク列の詳細フィルターオプション](assets/intake-column-advanced-filters1.png)
 
