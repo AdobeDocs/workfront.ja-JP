@@ -6,16 +6,16 @@ description: 必要に応じて、Adobe Workfrontでプロジェクトを編集�
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '7344'
+source-wordcount: '7310'
 ht-degree: 2%
 
 ---
 
 # プロジェクトを編集
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 プレビュー環境のすべての顧客と、実稼動環境の特定の顧客グループに対して使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,8 +690,6 @@ ht-degree: 2%
 * ステータス
 * 現在の承認プロセスで承認者として設定されている場合、承認の決定をおこないます
 
-<div class="preview">
-
 ## プロジェクトの一括編集
 
 一括でプロジェクトを編集し、選択したすべてのプロジェクトの情報を同時に更新できます。
@@ -795,7 +793,6 @@ Workfront管理者またはグループ管理者がレイアウトテンプレ�
 1. （オプション）「 **キャンセル** ～の最下部に **プロジェクトを編集** ページを開き、すべてのプロジェクトに対して行われたすべての変更を削除します。
 1. 「**保存**」をクリックします。
 
-</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 

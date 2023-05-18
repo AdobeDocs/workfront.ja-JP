@@ -6,7 +6,7 @@ description: リソースプールは、Adobe Workfrontでのリソースの管�
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -106,10 +106,10 @@ Also - take out all the references to Preview and Prod at prod final
    >
    >* 一括でテンプレートを編集する場合、選択したすべてのテンプレートに共通するリソースプールのみがこのフィールドに表示されます。 選択したテンプレートに共有リソースプールがない場合、このフィールドは空です。 ここで指定したリソースプールは、プロジェクトまたはテンプレートの個々のリソースプールを上書きします。
    >
-   >* プロジェクトを一括で編集する場合、選択したプロジェクトに異なるリソースプールがある場合は、「複数値」インジケータが表示されます。 プロジェクトの資源プールを一括で追加する場合、すべてのプールが選択したプロジェクトに追加され、元の資源プールが上書きされます。</span>
+   >* プロジェクトを一括で編集する場合、選択したプロジェクトに異なるリソースプールがある場合は、「複数値」インジケータが表示されます。 プロジェクトの資源プールを一括で追加する場合、すべてのプールが選択したプロジェクトに追加され、元の資源プールが上書きされます。
 
 
-   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. 「**変更を保存**」をクリックします。\
    資源プールがプロジェクトまたはテンプレートに関連付けられている場合、資源プランナー内のプロジェクトに対するユーザー割り当てを予算できます。\
