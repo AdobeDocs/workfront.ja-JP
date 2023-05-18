@@ -5,7 +5,7 @@ title: アジャイルチームかんばんカードをWorkfrontボードに移�
 description: 作業項目をアジャイルチームかんばんボードから新しいまたは既存のWorkfrontボードに移行できます。
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
+source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # アジャイルチームかんばんカードをWorkfrontボードに移行
-
-{{highlighted-preview-article-level}}
 
 作業項目をアジャイルチームかんばんボードから新しいまたは既存のWorkfrontボードに移行できます。 移行を実行すると、かんばんボード上のすべてのカードがWorkfrontボードにコピーされます。 特定のカードを選択することはできません。
 
