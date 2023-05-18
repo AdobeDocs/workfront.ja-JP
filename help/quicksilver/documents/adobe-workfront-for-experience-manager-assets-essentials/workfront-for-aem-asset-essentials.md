@@ -7,9 +7,9 @@ description: Adobe Workfront for Experience Manager Assets Essentials
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 59aff34da2e2925b1854646c9dafb1dc666486c4
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,4 @@ ht-degree: 0%
 * [リンクされたアセットのExperience Manager AssetsまたはAssets Essentialsでの配達確認](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
 * [Experience Manager AssetsまたはAssets Essentialsからのリンクされたアセットの表示またはダウンロード](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [Experience Manager AssetsまたはAssets Essentialsにリンクしたフォルダーの作成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+   [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)

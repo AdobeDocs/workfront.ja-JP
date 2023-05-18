@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: efce276fa1e0a5d4757bbe03baa3b69243c3f2a8
+source-git-commit: 8e45797aff2ca5ffea6e604c75743bf3e2bfb654
 workflow-type: tm+mt
-source-wordcount: '12991'
+source-wordcount: '13000'
 ht-degree: 2%
 
 ---
@@ -1070,6 +1070,7 @@ ht-degree: 2%
          * [Experience Manager AssetsまたはAssets Essentialsにドキュメントを送信する](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Experience Manager Assetsまたは Asset Essentials のリンクされたアセットの配達確認](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Experience Manager AssetsまたはAssets Essentialsにリンクしたフォルダーの作成](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
    * 従来のコネクタまたは拡張コネクタからの移行 {#migrate-from-legacy-enhanced-connectors}
       * [従来のコネクタまたは拡張コネクタからの移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [従来のコネクタまたは拡張コネクタからWorkfront for Adobe Experience Manageras a Cloud Service統合への移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
