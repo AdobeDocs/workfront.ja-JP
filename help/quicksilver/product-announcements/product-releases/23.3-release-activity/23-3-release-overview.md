@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">[ ユーザーが時刻を記録できる場所 ] のタイムシートと時間の優先設定で使用できるグループレベルのコントロール</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">[ ユーザーが時刻を記録できる場所 ] のタイムシートと時間の優先設定で使用できるグループレベルのコントロール</a></p>
                         <p>システム管理者は、[ ユーザーが時刻を記録できる場所 ] のタイムシートと時間の優先設定をロックおよびロック解除できるようになりました。 この設定をロック解除すると、グループ管理者は、各グループに対して「ユーザーがログに記録できる場所」の設定を個別に設定できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">ボードの取り込み口列で使用可能な単純なフィルタ</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">ボードの取り込み口列で使用可能な単純なフィルタ</a></p>
                         <p>インテーク列の設定にシンプル化されたフィルターが追加され、インテーク列をより迅速に定義できるようになりました。 使用可能なフィルターは、Workfrontプロジェクトと、チームまたはユーザーによる割り当てです。 必要に応じて、詳細フィルターに切り替えることができます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfrontフィールド値のExperience Manager Assetsでのタグへのマッピング</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">プロジェクトの作成時に、Adobe Experience Manager Assets にリンクされたフォルダーを自動的に作成する</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
+                        <p>Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用して、Adobe Experience Manager Assets フォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。 </p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 5 月 12 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 5 月 19 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Workfrontフィールド値のExperience Manager Assetsでのタグへのマッピング</a></p>
                         <p>これで、Workfrontのデータに基づいて、アセットを分類してすばやく見つけることができるようになりました。 WorkfrontとExperience Manager Assetsの統合で、このデータをメタデータ設定の一部としてマッピングできます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">WorkfrontフィールドをカスタムExperience Manager Assetsメタデータフィールドにマッピングする</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">WorkfrontフィールドをカスタムExperience Manager Assetsメタデータフィールドにマッピングする</a></p>
                         <p>ネイティブ統合により、ネイティブと組み込みのWorkfrontフィールドの両方を、Experience Manager Assets as a Cloud Serviceのカスタムメタデータスキーマフィールドにマッピングできるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>

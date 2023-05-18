@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 8e45797aff2ca5ffea6e604c75743bf3e2bfb654
+source-git-commit: f299ecfe72a588331bd8b003e9a42d112c374635
 workflow-type: tm+mt
-source-wordcount: '13000'
+source-wordcount: '13005'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
          * [2023 年 4 月 24 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
          * [2023 年 5 月 1 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
          * [2023 年 5 月 8 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
+         * [2023 年 5 月 15 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
          * [23.3 リリース期間中のルックアンドフィールの更新](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 リリース {#release-23-2}
          * [23.2 リリースの概要](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
