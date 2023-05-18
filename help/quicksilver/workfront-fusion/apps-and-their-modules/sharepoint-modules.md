@@ -9,9 +9,9 @@ description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、SharePoin
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8283022f24913988248005da0c8e583b29f19652
+source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -104,9 +104,9 @@ ht-degree: 0%
 * [ファイルの取得](#get-a-file)
 * [フォルダー項目を監視する](#watch-folder-items)
 
-#### ファイルの作成
+#### 変更を取得
 
-このアクションモジュールは、SharePointに新しいファイルを作成します。
+このモジュールは、SharePointでおこなわれた変更を返します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,15 +118,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL サイト、ドライブ、フォルダー ID を入力 ]</td> 
-   <td> <p>作成するファイルの場所を識別する方法を選択します。</p> 
+   <td> <p>変更を取得するフォルダーの場所を識別する方法を選択します。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL フォルダー ID]</strong> 表示されるフィールド内で、</p> </li> 
-     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>ファイルを作成する場所を選択します。 </p> </li> 
+     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>変更を取得する場所を選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
-   <td>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</td> 
+   <td role="rowheader">[!UICONTROL トークン ]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -209,47 +209,19 @@ ht-degree: 0%
 
 ### アイテム
 
-* [[!UICONTROL ウォッチ項目]](#watch-items)
-* [[!UICONTROL リスト項目]](#list-items)
-* [[!UICONTROL 項目の取得]](#get-an-item)
+* [[!UICONTROL 項目をコピー]](#copy-an-item)
 * [[!UICONTROL 項目の作成]](#create-an-item)
-* [[!UICONTROL 項目の更新]](#update-an-item)
 * [[!UICONTROL 項目の削除]](#delete-an-item)
+* [[!UICONTROL 項目の取得]](#get-an-item)
+* [[!UICONTROL リスト項目]](#list-items)
+* [[!UICONTROL 項目を移動]](#move-an-item)
+* [[!UICONTROL 項目の更新]](#update-an-item)
+* [[!UICONTROL ウォッチ項目] （予定）](#watch-items-scheduled)
 
-#### [!UICONTROL ウォッチ項目]
 
-このトリガーモジュールは、項目が作成または変更されたときにシナリオを開始します。
+#### [!UICONTROL 項目をコピー]
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ウォッチリスト ]</td> 
-   <td>作成時刻（新しい項目）または変更時刻（更新された項目）のどちらでリストを監視するかを選択します。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL サイトとリスト ID を入力 ]</td> 
-   <td> <p>監視するサイトとリストを識別する方法を選択します。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong> および <strong>[!UICONTROL リスト ID]</strong> 表示されるフィールド内で、</p> </li> 
-     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>監視するサイトを選択し、リストを選択します。 これらのドロップダウンは、後続のサイトのみを取得します。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
-   <td> <p>各シナリオの実行サイクル中にモジュールが返す最大項目数を入力またはマッピングします。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL リスト項目]
-
-このアクションモジュールは、指定されたリスト内のすべての項目のリストを取得します。
+このアクションモジュールは、SharePointリスト内の既存の項目をコピーします。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,39 +232,20 @@ ht-degree: 0%
    <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL リスト項目 ]</td> 
-   <td> <p>項目を取得するリストを識別する方法を選択します。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong> および <strong>[!UICONTROL リスト ID]</strong> 表示されるフィールド内で、</p> </li> 
-     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>項目の取得元のリストが含まれるサイトを選択し、リストを選択します。 </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
-   <td> <p>各シナリオの実行サイクル中にモジュールが返す最大項目数を入力またはマッピングします。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 項目の取得]
-
-このアクションモジュールは、指定された項目のデータを返します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 項目の取得 ]</td> 
-   <td> <p>取得する項目を含むサイトとリストを識別する方法を選択します。</p> 
+   <td role="rowheader">サイト、ドライブ、およびフォルダ ID を入力</td> 
+   <td> <p>コピーする項目を含むサイトとリストを識別する方法を選択します。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL Item ID]</strong> 表示されるフィールド内で、</p> </li> 
-     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>項目の取得元のリストが含まれるサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
+     <li> <p><strong>[!UICONTROL フォローするリストから選択 ]</strong> </p> <p>「項目タイプをコピー」フィールドで、フィールドを移動するかフォルダを移動するかを選択します。  コピーする項目を含むサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 宛先 ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 新しい名前 ]</td> 
+   <td>アイテムの新しいコピーの名前を入力またはマップします。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,6 +277,110 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL 項目の削除]
+
+このアクションモジュールは、SharePointリスト内の既存の項目を削除します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 項目の更新 ]</td> 
+   <td> <p>削除する項目を含むサイトとリストを識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL Item ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>削除する項目が含まれるサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 項目の取得]
+
+このアクションモジュールは、指定された項目のデータを返します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 項目の取得 ]</td> 
+   <td> <p>取得する項目を含むサイトとリストを識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL Item ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>項目の取得元のリストが含まれるサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL リスト項目]
+
+このアクションモジュールは、指定されたリスト内のすべての項目のリストを取得します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL リスト項目 ]</td> 
+   <td> <p>項目を取得するリストを識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong> および <strong>[!UICONTROL リスト ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>項目の取得元のリストが含まれるサイトを選択し、リストを選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td> <p>各シナリオの実行サイクル中にモジュールが返す最大項目数を入力またはマッピングします。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 項目の移動]
+
+このアクションモジュールは、SharePointリスト内の既存の項目をコピーします。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">サイト、ドライブ、およびフォルダ ID を入力</td> 
+   <td> <p>移動する項目を含むサイトとリストを識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL Item ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL フォローするリストから選択 ]</strong> </p> <p>「項目タイプをコピー」フィールドで、フィールドを移動するかフォルダを移動するかを選択します。 コピーする項目を含むサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 宛先 ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 新しい名前 ]</td> 
+   <td>移動した項目の名前を入力またはマッピングします。 </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL 項目の更新]
 
 このアクションモジュールは、SharePointリスト内の既存の項目を更新します。
@@ -351,39 +408,9 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL 項目の削除]
+#### [!UICONTROL ウォッチ項目] （予定）
 
-このアクションモジュールは、SharePointリスト内の既存の項目を削除します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 項目の更新 ]</td> 
-   <td> <p>削除する項目を含むサイトとリストを識別する方法を選択します。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL Item ID]</strong> 表示されるフィールド内で、</p> </li> 
-     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>削除する項目が含まれるサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### リスト
-
-* [[!UICONTROL ウォッチリスト]](#watch-lists)
-* [[!UICONTROL リストリスト]](#list-lists)
-* [[!UICONTROL リストを取得]](#get-a-list)
-* [[!UICONTROL リストの作成]](#create-a-list)
-
-#### [!UICONTROL ウォッチリスト]
-
-このトリガーモジュールは、リストの作成または変更時にシナリオを開始します。
+このトリガーモジュールは、項目が作成または変更されたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -401,66 +428,23 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL サイトとリスト ID を入力 ]</td> 
    <td> <p>監視するサイトとリストを識別する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong> 監視するリストがある場所。</p> </li> 
-     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>監視するサイトを選択します。 ドロップダウンは、ユーザーがフォローしているサイトのみを取得します。</p> </li> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong> および <strong>[!UICONTROL リスト ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>監視するサイトを選択し、リストを選択します。 これらのドロップダウンは、後続のサイトのみを取得します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 制限 ]</td> 
-   <td> <p>各シナリオの実行サイクル中にモジュールが返す最大リスト数を入力またはマッピングします。</p> </td> 
+   <td> <p>各シナリオの実行サイクル中にモジュールが返す最大項目数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL リストリスト]
+### リスト
 
-このアクションモジュールは、指定されたリスト内のすべての項目のリストを取得します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL リスト ]</td> 
-   <td> <p>リストを取得するサイトを識別する方法を選択します。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>取得するリストが含まれているサイトを選択します。 ドロップダウンは、従うサイトのみを取得します。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
-   <td> <p>各シナリオの実行サイクル中にモジュールが返す最大リスト数を入力またはマッピングします。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL リストを取得]
-
-このアクションモジュールは、指定されたリストのデータを返します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL リストの取得 ]</td> 
-   <td> <p>取得する項目を含むサイトとリストを識別する方法を選択します。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong> および <strong>リスト ID</strong> 表示されるフィールド内で、</p> </li> 
-     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>取得するリストが含まれるサイトを選択し、リストを選択します。 </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL リストの作成]](#create-a-list)
+* [[!UICONTROL リストを取得]](#get-a-list)
+* [[!UICONTROL リストリスト]](#list-lists)
+* [[!UICONTROL ウォッチリスト]](#watch-lists)
 
 #### [!UICONTROL リストの作成]
 
@@ -497,6 +481,87 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL リストを取得]
+
+このアクションモジュールは、指定されたリストのデータを返します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL リストの取得 ]</td> 
+   <td> <p>取得する項目を含むサイトとリストを識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong> および <strong>リスト ID</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>取得するリストが含まれるサイトを選択し、リストを選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL リストリスト]
+
+このアクションモジュールは、指定されたリスト内のすべての項目のリストを取得します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL リスト ]</td> 
+   <td> <p>リストを取得するサイトを識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>取得するリストが含まれているサイトを選択します。 ドロップダウンは、従うサイトのみを取得します。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td> <p>各シナリオの実行サイクル中にモジュールが返す最大リスト数を入力またはマッピングします。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL ウォッチリスト]
+
+このトリガーモジュールは、リストの作成または変更時にシナリオを開始します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ウォッチリスト ]</td> 
+   <td>作成時刻（新しい項目）または変更時刻（更新された項目）のどちらでリストを監視するかを選択します。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL サイトとリスト ID を入力 ]</td> 
+   <td> <p>監視するサイトとリストを識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong> 監視するリストがある場所。</p> </li> 
+     <li> <p><strong>[!UICONTROL フォローしているリストから選択 ]</strong> </p> <p>監視するサイトを選択します。 ドロップダウンは、ユーザーがフォローしているサイトのみを取得します。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td> <p>各シナリオの実行サイクル中にモジュールが返す最大リスト数を入力またはマッピングします。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### ページ（ベータ版）
 
 >[!NOTE]
@@ -528,31 +593,8 @@ ht-degree: 0%
 
 ### サイト
 
-* [[!UICONTROL サイトを検索]](#search-sites)
 * [[!UICONTROL サイトの取得]](#get-a-site)
-
-#### [!UICONTROL サイトを検索]
-
-このアクションモジュールは、指定したパラメーターでサイトを検索します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 表示名のキーワード ]</td> 
-   <td> <p>サイトを検索する検索語句を入力またはマッピングします。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
-   <td> <p>各シナリオの実行サイクル中に、モジュールが返すサイトの最大数を入力またはマッピングします。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL サイトを検索]](#search-sites)
 
 #### [!UICONTROL サイトの取得]
 
@@ -577,6 +619,29 @@ ht-degree: 0%
  </tbody> 
 </table>
 
+#### [!UICONTROL サイトを検索]
+
+このアクションモジュールは、指定したパラメーターでサイトを検索します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 表示名のキーワード ]</td> 
+   <td> <p>サイトを検索する検索語句を入力またはマッピングします。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td> <p>各シナリオの実行サイクル中に、モジュールが返すサイトの最大数を入力またはマッピングします。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### その他
 
 #### [!UICONTROL API 呼び出しを実行する]
@@ -597,7 +662,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL メソッド ]</p> </td> 
-   td&gt; <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -617,6 +682,28 @@ ht-degree: 0%
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### イベントを見る
+
+このインスタントトリガーモジュールは、SharePointで項目が追加、更新または削除されたときにシナリオを開始します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>既存の Webhook を選択するか、「追加」をクリックして新しい Webhook を作成します。</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
