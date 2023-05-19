@@ -5,8 +5,10 @@ title: Adobe Workfront API 開発者フォーラム
 description: Adobe Workfront API 開発者フォーラム
 author: Becky
 feature: Workfront API
+hide: true
+hidefromtoc: true
 exl-id: fba505a7-7fea-49e6-bee0-39bee9bc7043
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%

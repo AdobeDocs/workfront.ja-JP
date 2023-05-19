@@ -6,9 +6,9 @@ description: API を使用したファイルのアップロード
 author: Becky
 feature: Workfront API
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Postmanなどの API ツールを使用したWorkfront API や、単純な cURL コマンドを使用してファイルをアップロードできます。
 
-ドキュメントをアップロードするには、 **ドキュメントのアップロード** Workfront [投稿の動作](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). また、cURL リクエストに対しても、これらの同じ手順を使用できます。
+ドキュメントをアップロードするには、 **ドキュメントのアップロード** Workfront [投稿の動作](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). また、cURL リクエストに対しても、これらの同じ手順を使用できます。
 
 **API ツールを使用してファイルをアップロードする場合は、次のガイドラインに従います。**
 

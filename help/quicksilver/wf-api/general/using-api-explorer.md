@@ -6,10 +6,10 @@ description: API エクスプローラーの使用
 author: Becky
 feature: Workfront API
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Workfront Core API を使用する場合、API エクスプローラーは
 
 ## API エクスプローラーにアクセスします。
 
-1. Web ブラウザーを使用して [API エクスプローラ](https://one.workfront.com/s/api-explorer)\
+1. Web ブラウザーを使用して [API エクスプローラ](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
 1. API エクスプローラーの右上で、目的の Workfront を選択します。 **API バージョン**&#x200B;デフォルトでは、最新バージョンが自動的に選択されます

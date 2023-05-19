@@ -1,21 +1,21 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: API エクスプローラ
-description: API エクスプローラ
+title: API エクスプローラー
+description: API エクスプローラー
 author: Becky
 feature: Workfront API
 exl-id: c71ac171-cf94-47f4-b1ac-eb53be7cf2d9
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
 
-# API エクスプローラ
+# API エクスプローラー
 
-Adobe Workfront API を通じて利用可能なすべてのオブジェクトを、API エクスプローラーに表示できます。 API エクスプローラーを表示するには、 [ここ](https://one.workfront.com/s/api-explorer).
+Adobe Workfront API を通じて利用可能なすべてのオブジェクトを、API エクスプローラーに表示できます。 API エクスプローラーを表示するには、 [ここ](https://developer.adobe.com/workfront/api-explorer/).
 
 API エクスプローラーの使用について詳しくは、 [API エクスプローラーの使用](../../wf-api/general/using-api-explorer.md).
