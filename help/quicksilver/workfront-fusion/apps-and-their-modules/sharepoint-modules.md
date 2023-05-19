@@ -9,9 +9,9 @@ description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、SharePoin
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 83914e54638ffbef2b3ccee12c71b84ca7cc61d2
+source-git-commit: aee0778b08e00b2fc94f6829e6b2cd957ff0fe23
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
@@ -236,12 +236,12 @@ ht-degree: 0%
    <td> <p>コピーする項目を含むサイトとリストを識別する方法を選択します。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL Item ID]</strong> 表示されるフィールド内で、</p> </li> 
-     <li> <p><strong>[!UICONTROL フォローするリストから選択 ]</strong> </p> <p>「項目タイプをコピー」フィールドで、フィールドを移動するかフォルダを移動するかを選択します。  コピーする項目を含むサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
+     <li> <p><strong>[!UICONTROL フォローするリストから選択 ]</strong> </p> <p>「項目タイプ」フィールドで、フィールドを移動するかフォルダを移動するかを選択します。  コピーする項目を含むサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 宛先 ID]</td> 
-   <td>  </td> 
+   <td> 項目のコピー先のフォルダーの ID を入力またはマッピングします。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 新しい名前 ]</td> 
@@ -367,12 +367,12 @@ ht-degree: 0%
    <td> <p>移動する項目を含むサイトとリストを識別する方法を選択します。</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL リスト ID]</strong>、および <strong>[!UICONTROL Item ID]</strong> 表示されるフィールド内で、</p> </li> 
-     <li> <p><strong>[!UICONTROL フォローするリストから選択 ]</strong> </p> <p>「項目タイプをコピー」フィールドで、フィールドを移動するかフォルダを移動するかを選択します。 コピーする項目を含むサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
+     <li> <p><strong>[!UICONTROL フォローするリストから選択 ]</strong> </p> <p>「項目タイプ」フィールドで、フィールドを移動するかフォルダを移動するかを選択します。 コピーする項目を含むサイトを選択し、リストを選択して、項目を選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 宛先 ID]</td> 
-   <td>  </td> 
+   <td> 項目の移動先フォルダーの ID を入力またはマップします。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 新しい名前 ]</td> 
@@ -643,6 +643,33 @@ ht-degree: 0%
 </table>
 
 ### その他
+
+#### 変更を取得
+
+このモジュールは、SharePointフォルダーでおこなわれた追加、更新および削除を取得します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td> <p>接続方法 [!DNL SharePoint] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">接続 [!DNL SharePoint] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL サイト、ドライブ、フォルダー ID を入力 ]</td> 
+   <td> <p>更新する項目を含むサイトとリストを識別する方法を選択します。</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL サイト ID]</strong>, <strong>[!UICONTROL ドライブ ID]</strong>、および <strong>[!UICONTROL フォルダー ID]</strong> 表示されるフィールド内で、</p> </li> 
+     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>更新する項目が含まれるサイトを選択し、ドライブを選択してから、フォルダを選択します。 </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL トークン ]</td> 
+   <td> トークンは、モジュールが変更の取得を開始する時点を識別します。  </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL API 呼び出しを実行する]
 
