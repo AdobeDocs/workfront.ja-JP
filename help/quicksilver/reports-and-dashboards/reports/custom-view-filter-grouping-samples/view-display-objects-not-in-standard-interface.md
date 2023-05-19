@@ -7,9 +7,9 @@ description: 標準モードのインタフェースに含まれていないビ�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 標準モードのインタフェースに含まれていないビューオブジェクトに、を表示できます。 これをおこなうには、テキストモードで参照する必要があります。\
 ビューに含めることができるフィールドは、次のいずれかの方法で決定できます。
 
-* 以下を使用： [API エクスプローラ](https://one.workfront.com/s/api-explorer) をクリックして、テキストモードで参照できる他のオブジェクトを検出します。\
+* 以下を使用： [API エクスプローラ](../../../wf-api/general/api-explorer.md) をクリックして、テキストモードで参照できる他のオブジェクトを検出します。\
    API エクスプローラーで説明されているすべてのフィールドがテキストモード用の有効なフィールドではありません。 一部のフィールドは、API を通じてのみレポート可能です。
 
 * 列でオブジェクトの ID フィールドを見つけます。 フィールド ID を持つオブジェクトのほとんどには、対応する列またはフィールド名もあります。この名前には、標準モードのインターフェイスからはアクセスできません。

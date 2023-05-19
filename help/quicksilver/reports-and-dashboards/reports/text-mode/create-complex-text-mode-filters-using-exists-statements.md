@@ -6,9 +6,9 @@ description: EXISTS 文を使用した複雑なテキストモードフィルタ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2799'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 
 * ステートメントを接続するには、リンクオブジェクトのオブジェクトコードを使用する必要があります。\
    すべてのオブジェクトのオブジェクトコードは、API エクスプローラーで確認できます。\
-   API エクスプローラーについて詳しくは、 [API エクスプローラ](https://one.workfront.com/s/api-explorer).
+   API エクスプローラーについて詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
 * オリジナルオブジェクトとターゲットオブジェクトが直接接続されているので、リンクオブジェクトが見つからない場合は、リンクオブジェクトの代わりにターゲットオブジェクトのオブジェクトコードを使用できます。
 * 同じオブジェクト（ターゲットオブジェクト）上で複数のフィールド（ターゲットフィールド）を参照できますが、その場合は、フィールドを参照する行を AND で接続する必要があります。\

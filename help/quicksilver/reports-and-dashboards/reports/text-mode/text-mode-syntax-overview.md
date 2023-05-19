@@ -6,9 +6,9 @@ description: テキストモードインタフェースを使用して、より�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 ## テキストモードの構文に関する考慮事項
 
 * テキストモードでレポート要素の作成を開始する前に、Adobe Workfrontの構文を理解する必要があります。 テキストモードのWorkfront構文は、このアプリケーションに固有のもので、使い慣れた独自の特性を持ちます。
-* レポートでテキストモードの使用を開始する前に、高度なレポート機能に関するクラスを受講して、テキストモードの言語をより深く理解することを強くお勧めします。 レポートに関するトレーニング資料については、 [Workfront Reports and Dashboards 学習パス](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* レポートでテキストモードの使用を開始する前に、高度なレポート機能に関するクラスを受講して、テキストモードの言語をより深く理解することを強くお勧めします。 <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * 標準モードのインターフェイスを使用して、ビュー、フィルターおよびグループをカスタマイズできます。 ただし、カスタムプロンプトを作成するには、テキストモードを使用する必要があります。
 
 ## テキストモードでのレポート要素の作成に関する一般的なガイドライン
@@ -54,7 +54,7 @@ ht-degree: 0%
    Workfrontでのオブジェクトの階層について詳しくは、次を参照してください。
 
    * [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API エクスプローラ](../../../wf-api/general/api-explorer.md)
+   * [API エクスプローラー](../../../wf-api/general/api-explorer.md)
 
 
 * 可能な限り、ワイルドカードを使用してレポートやリストをより動的にし、異なるユーザーや同様のタイムラインに重複しないようにします。
@@ -303,7 +303,7 @@ valueexpression
 Valueformat
 ```
 
-概要
+の概要
 
 ビューまたはグループ化で 2 番目に重要なコード行は、
 
@@ -361,11 +361,11 @@ valueformat=HTML
 
 * 複数のフィルターステートメントを接続するステートメントコネクタ：
 
-   * AND
+   * および
 
       これは、フィルターステートメント間のデフォルトのコネクタです。
 
-   * OR
+   * または
 
       >[!TIP]
       >

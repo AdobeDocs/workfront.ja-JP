@@ -5,9 +5,9 @@ title: 用語集 [!DNL Adobe Workfront] 用語
 description: この [!DNL Adobe Workfront] 用語集には、Adobe Workfrontでよく使用される用語が記載されています。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '19399'
+source-wordcount: '19551'
 ht-degree: 0%
 
 ---
@@ -1989,7 +1989,20 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL ソース ]</td> 
-   <td> <p>別のオブジェクトの親オブジェクトを示します。 例えば、タスクに添付されているドキュメントは、[!UICONTROL Document] レポートまたはビューの [!UICONTROL Source] フィールドにタスク名が表示されます。プロジェクトの下にログに記録された問題は、問題レポートまたはビューの「[!UICONTROL Source]」フィールドにプロジェクトの名前が表示されます。 </p> </td> 
+   <td> <p>別のオブジェクトの親オブジェクトを示します。 例えば、タスクに添付されているドキュメントは、[!UICONTROL Document] レポートまたはビューの [!UICONTROL Source] フィールドにタスク名が表示されます。プロジェクトの下にログに記録された問題は、問題レポートまたはビューの「[!UICONTROL Source]」フィールドにプロジェクトの名前が表示されます。 </p> 
+   <p>次のレポートには、親オブジェクトに関する情報を表示できる「ソース」列が表示されます。</p>
+  <ul><li>問題レポート</li>
+    <li>時間レポート</li>
+    <li>ドキュメントレポート </li>
+    </ul>
+   <p>問題、時間、ドキュメントの親オブジェクトに対する権限をユーザーが持っていない場合、レポートが表示するように設定されている場合や、別のユーザーのアクセス権を持って配信される場合でも、レポートの「ソース」列には空白が表示されます。 </p>
+   <p> レポートに親オブジェクトに関する情報を表示するには、親オブジェクトに列を追加して、親の名前を表示することをお勧めします。 </p>
+    <p>例えば、次のいずれかをソース列を含むレポートに追加できます。 </p>
+    <ul><li>プロジェクト名、タスク名、または問題名の列をドキュメントまたは時間レポートに適用します。</li>
+    <li>問題レポートの「プロジェクト名」列または「タスク名」列。 </li> </ul>
+    詳しくは、 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">別のユーザーのアクセス権を持つレポートの実行と配信</a>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 開始日 ]</td> 

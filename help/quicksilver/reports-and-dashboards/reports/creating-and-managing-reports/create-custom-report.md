@@ -6,9 +6,9 @@ description: レポートの作成方法を理解すると、Adobe Workfront内�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1786'
 ht-degree: 1%
 
 ---
@@ -129,8 +129,9 @@ ht-degree: 1%
    >[!NOTE]
    >
    >レポート対象のオブジェクトから遠すぎるオブジェクトを参照するフィールドを追加すると、このフィールドで並べ替えできない場合があります。\
-   >例えば、問題レポートは、次の 3 つの追加オブジェクトを参照するので、「プロジェクト所有者」フィールドで並べ替えることはできません。プロジェクト、所有者、名前。 ただし、このフィールドをイシューレポートに追加して、その情報を表示することはできます。\
-   >レポートでのクロスオブジェクト参照の詳細については、 [レポートとダッシュボードの学習パス](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).
+   >例えば、問題レポートは、次の 3 つの追加オブジェクトを参照するので、「プロジェクト所有者」フィールドで並べ替えることはできません。プロジェクト、所有者、名前。 ただし、このフィールドをイシューレポートに追加して、その情報を表示することはできます。
+
+   <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
 1. （オプション）グループ化を使用している場合に、列の情報を要約（集計）するには、 **この列の要約基準** ドロップダウンリスト **列設定** 「 」領域で、列の情報の集計に使用するオプションを選択します。
 

@@ -6,9 +6,9 @@ description: テキストモードの概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >
 >また、カスタムフィールドのテキストモードのバージョンを使用して、計算済みカスタムフィールドの機能を拡張することもできます。 計算済みのカスタムフィールドを作成するための構文とルールは、レポートやリストで使用するものとは異なります。 計算カスタムフィールドの追加について詳しくは、 [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* レポートでテキストモードの使用を開始する前に、高度なレポート機能に関するクラスを受講して、テキストモードの言語をより深く理解することを強くお勧めします。 レポートに関するトレーニング資料については、 [Workfront Reports and Dashboards 学習パス](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* レポートでテキストモードの使用を開始する前に、高度なレポート機能に関するクラスを受講して、テキストモードの言語をより深く理解することを強くお勧めします。 <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Workfrontソフトウェアが更新されたときに、作成したレポートをそのまま残すには、標準モードを使用することをお勧めします。 テキストモードでは、より複雑なビュー、フィルターおよびグループを作成できますが、管理もより複雑で、Workfrontソフトウェアの更新時に保証されません。
 * 通常は、少しの調整のみ、標準インターフェイスですべてのレポート要素を作成し、テキストモードビルダーに切り替えることをお勧めします。
 

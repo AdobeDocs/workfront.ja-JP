@@ -6,9 +6,9 @@ description: デフォルトでは、ユーザーは、表示権限を持つレ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 269340bc6a0c237edf44f5aa325d4ff95b647df8
+source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 0%
    レポートの作成が許可されているアクセスレベルが低いユーザーは、自分以外のユーザーを **このレポートを実行する権限は次のとおりです。** フィールドに入力します。
 
 1. クリック **完了**.
-1. クリック **保存して閉じる**.\
+1. 「**保存して閉じる**」をクリックします。\
    レポートが、共有されているすべてのユーザーに対して、 **このレポートを実行する際のアクセス権は次のとおりです。** フィールドに入力します。
 
 >[!IMPORTANT]
@@ -101,7 +101,7 @@ ht-degree: 0%
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
-   レポートの作成が許可されているアクセスレベルが低いユーザーは、自分以外のユーザーを選択してレポートを作成することはできません **このレポートを次のアクセス権で配信：** フィールドに入力します。
+   レポートの作成が許可されているアクセスレベルが低いユーザーは、自分以外のユーザーを **このレポートを次のアクセス権で配信：** フィールドに入力します。
 
 1. を選択します。 **形式** レポートを電子メールに表示する場合：
 
@@ -115,3 +115,39 @@ ht-degree: 0%
    または\
    クリック **繰り返し配信を作成** ：レポートの繰り返し配信をスケジュールします。\
    レポート配信について詳しくは、 [レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
+## ソース列を持つレポートの制限
+
+次のレポートには、親オブジェクトに関する情報を表示できる「ソース」列が表示されます。
+
+* 問題レポート
+* 時間レポート
+* ドキュメントレポート
+
+問題、時間、ドキュメントの親オブジェクトに対する権限をユーザーが持っていない場合、レポートが表示するように設定されている場合や、別のユーザーのアクセス権を持って配信される場合でも、レポートの「ソース」列には空白が表示されます。
+
+レポートに親オブジェクトに関する情報を表示するには、親オブジェクトに列を追加して、親の名前を表示することをお勧めします。
+
+例えば、次のいずれかをソース列を含むレポートに追加できます。
+
+* プロジェクト名、タスク名、または問題名の列をドキュメントまたは時間レポートに適用します。
+* 問題レポートの「プロジェクト名」列または「タスク名」列。
+* 3 つのオブジェクトをすべて参照するテキストモード式を使用する列。 次に、時間レポートの例を示します。
+
+   `displayname=Custom Source`
+
+   `linkedname=opTask`
+
+   `namekey=view.relatedcolumn`
+
+   `namekeyargkey.0=opTask`
+
+   `namekeyargkey.1=name`
+
+   `textmode=true`
+
+   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+
+   `valueformat=HTML`
+
+   テキストモードの表示について詳しくは、 [テキストモードを使用したビューの編集](../text-mode/edit-text-mode-in-view.md).

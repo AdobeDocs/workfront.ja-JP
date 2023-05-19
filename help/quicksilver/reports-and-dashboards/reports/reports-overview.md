@@ -7,10 +7,10 @@ description: 以下の領域を確認して、Adobe Workfrontでのレポート�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 3%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 3%
 * [カレンダー](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [レポートのヒント、テクニックおよびトラブルシューティング](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
-レポートに関する詳細なトレーニングについては、  [新しいWorkfrontエクスペリエンスのための基本レポート作成プログラム](https://one.workfront.com/s/basic-report-creation-program).
+<!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

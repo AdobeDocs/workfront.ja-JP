@@ -6,9 +6,9 @@ description: テキストモードの一般的な使用例の概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ ht-degree: 0%
 * [カスタム・ビュー、フィルタ、グループ化のサンプル](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [レポート内の計算済みカスタムデータ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-他のWorkfrontのお客様によって識別された実際のテキストモードのその他の例については、 [テキストモードレポートディスカッション](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) Adobe Workfront One のタブまたは [Workfront Community](https://one.workfront.com/s/community) （ログインが必要です）。  
+<!--this link is outdated: 
+
+For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
+
+-->
 
 ## リストとレポートでテキストモードを使用できる場合
 
@@ -42,7 +46,7 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
    * [フィルターでのテキストモードの使用](#use-text-mode-in-filters)
    * [グループ化でテキストモードを使用](#use-text-mode-in-groupings)
 
-* カスタムプロンプトを作成します。 カスタムプロンプトは、[ テキストモード ] を使用してのみ作成できます。
+* カスタムプロンプトの作成. カスタムプロンプトは、[ テキストモード ] を使用してのみ作成できます。
 
    カスタムプロンプトの作成については、 [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

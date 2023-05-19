@@ -5,9 +5,9 @@ title: でのオブジェクトについて [!DNL Adobe Workfront]
 description: でのオブジェクトについて [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2263'
 ht-degree: 6%
 
 ---
@@ -86,7 +86,7 @@ As a [!DNL Workfront] 管理者は、次のオブジェクトの名前をカス�
 * [!UICONTROL プログラム]
 * [!UICONTROL プロジェクト]
 * [!UICONTROL タスク]
-* [!UICONTROL 問題]
+* [!UICONTROL イシュー]
 * [!UICONTROL 目標]*
 * [!UICONTROL 結果]*
 * [!UICONTROL アクティビティ]*
@@ -161,7 +161,7 @@ Workfrontの他のオブジェクトの名前はカスタマイズできませ�
 | [!UICONTROL ダッシュボード] | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png) |  |
 | [!UICONTROL 目標] | ![](assets/nwe-goal-icon.png) | ✔ |
 | [!UICONTROL グループ] | ![](assets/groups-icon-nwe.png)  , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL 問題] | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL イシュー] | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png) | ✔ |
 | [!UICONTROL 担当業務] | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
 | [!UICONTROL 計画] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
 | [!UICONTROL ポートフォリオ] | ![](assets/portfolio-icon-nwe.png)  , ![](assets/nwe-portfolios-icon.png) | ✔ |
@@ -226,7 +226,7 @@ Report Builder を使用する際、 [!DNL Workfront] web アプリケーショ�
 * [!UICONTROL プロジェクト]
 * [!UICONTROL タスク]
 * [!UICONTROL 時間]
-* [!UICONTROL 問題]
+* [!UICONTROL イシュー]
 * [!UICONTROL ユーザー]
 * [!UICONTROL アクセスレベル]
 * [!UICONTROL 承認]
@@ -260,7 +260,7 @@ Report Builder を使用する際、 [!DNL Workfront] web アプリケーショ�
 * [!UICONTROL フィルター]
 * [!UICONTROL 目標]
 
-   戦略目標のレポートを作成したり、プロジェクトが目標アクティビティとして目標に関連付けられている場合に、目標関連情報をプロジェクトレポートに表示したりできます。 組織が [!DNL Workfront Goals] ライセンス。 詳しくは、 [!DNL Workfront Goals]を参照してください。 [[!DNL Workfront Goals] 概要](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en). プロジェクトを戦略目標に接続する方法については、 [Adobe Workfront目標の目標へのプロジェクトの追加](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en).
+   戦略目標のレポートを作成したり、プロジェクトが目標アクティビティとして目標に関連付けられている場合に、目標関連情報をプロジェクトレポートに表示したりできます。 組織が [!DNL Workfront Goals] ライセンス。 詳しくは、 [!DNL Workfront Goals]を参照してください。 [[!DNL Workfront Goals] 概要](../../../workfront-goals/goal-management/wf-goals-overview.md). プロジェクトを戦略目標に接続する方法については、 [Adobe Workfront目標の目標へのプロジェクトの追加](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
    <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -277,23 +277,13 @@ Report Builder を使用する際、 [!DNL Workfront] web アプリケーショ�
 * [!UICONTROL 時間タイプ]
 * [!UICONTROL イニシアチブ]
 
-   企業が [!DNL Workfront Scenario Planner] ライセンス。 イニシアチブの詳細については、 [以下のイニシアティブの概要 [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience).
+   企業が [!DNL Workfront Scenario Planner] ライセンス。 イニシアチブの詳細については、 [以下のイニシアティブの概要 [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * イニシアティブの担当業務
 
-   企業が [!DNL Workfront Scenario Planner] ライセンス。 イニシアチブの作成とジョブの役割との関連付けについては、 [のイニシアチブを作成および編集します [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience).
+   企業が [!DNL Workfront Scenario Planner] ライセンス。 イニシアチブの作成とジョブの役割との関連付けについては、 [のイニシアチブを作成および編集します [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * [!UICONTROL 反復]
 * [!UICONTROL 担当業務]

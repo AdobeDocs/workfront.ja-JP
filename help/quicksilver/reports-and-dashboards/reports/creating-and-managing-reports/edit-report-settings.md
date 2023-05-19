@@ -6,9 +6,9 @@ description: レポートの設定を編集して、他のユーザーに対す�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '664'
 ht-degree: 9%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 9%
      </tr> 
      <tr> 
       <td role="rowheader">詳細タブに特別ビューを表示する</td> 
-      <td>（プロジェクトレポートのみ）ユーザーが「詳細」タブでこの情報にアクセスしたときに表示される表示のタイプを指定します。 たとえば、マイルストーン表示またはガント表示を選択できます。</td> 
+      <td>（プロジェクトレポートのみ）ユーザーが「詳細」タブでこの情報にアクセスしたときに表示される表示の種類を指定します。 たとえば、マイルストーン表示またはガント表示を選択できます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">既定ではこの報告書をガント ビューで表示する</td> 
@@ -121,7 +121,7 @@ ht-degree: 9%
 
 関連項目：
 
-* [新しいWorkfrontエクスペリエンスのための基本レポート作成プログラム](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Adobe Workfrontでのレポートの概要](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Adobe Workfrontの組み込みレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

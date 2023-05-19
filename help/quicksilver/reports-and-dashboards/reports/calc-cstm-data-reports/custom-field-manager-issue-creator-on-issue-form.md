@@ -7,10 +7,10 @@ description: 計算済みのカスタムフィールドを使用すると、イ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 計算済みのカスタムフィールドを使用すると、イシューに添付されたカスタムフォームに、イシューの作成者の管理者の名前を表示できます。 同じ文を使用して、プロジェクト、イシュー、その他のオブジェクトに類似した計算フィールドを作成できます。
 
+<!--outdated link: 
 >[!TIP]
 >
->他のお客様による追加のカスタムテキストモードの例については、 [テキストモードのレポート](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) トピックを参照してください。
+>For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
+-->
 
 ## アクセス要件
 
@@ -72,6 +74,6 @@ ht-degree: 0%
    >
    >カスタムフィールドの計算では、大文字と小文字が区別されます。
 
-1. クリック **完了**&#x200B;を、 **保存して閉じる**.
+1. 「**完了**」をクリックし、「**保存して閉じる**」を選択します。
 
    イシューを作成したユーザーのマネージャーは、そのフィールドを含むフォームがイシューに添付されると、計算フィールドに表示されます。
