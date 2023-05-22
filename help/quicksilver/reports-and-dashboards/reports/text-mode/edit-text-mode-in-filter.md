@@ -6,10 +6,10 @@ description: '''注意：この記事にセクションを追加します。/Con
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 1%
+source-wordcount: '1031'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 1%
 -->
 
 テキストモードを使用してリストまたはレポートのフィルターを編集し、標準インターフェイスで使用できないフィールドにアクセスして、より複雑なフィルターを作成できます。
+
+フィルターを作成する際のその他のテキストモードの例については、この記事の「カスタムフィルターのサンプル」の節も参照してください [カスタム・ビュー、フィルタ、グループ化のサンプル](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## アクセス要件
 
@@ -62,7 +64,7 @@ ht-degree: 1%
 
 ## フィルターでのテキストの編集モード
 
-テキストモードを使用したフィルターの編集は、レポートとリストで同じです。 レポートからのビューへのアクセス、またはリストからのビューへのアクセスは異なります。
+テキストモードを使用したフィルターの編集は、レポートとリストで同じです。 レポートから、またはリストからのフィルターへのアクセスは異なります。
 
 >[!TIP]
 >
@@ -87,17 +89,19 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td>フィルター行/情報</td> 
-      <td>例</td> 
+      <td><b>フィルター行/情報</b></td> 
+      <td><b>例</b></td> 
      </tr> 
      <tr> 
       <td> <p>フィールド名と、Workfrontデータベースに表示されるときの値です。</p> <p>この行は必須です。</p> <p> データベースでのオブジェクトおよびフィールドの表示の詳細については、 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラ</a>.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>ステータスが「処理中」のタスクをフィルターするには、次の行を使用します。</p> <p><code>status=INP</code> </p> <p>ヒント：ステータスをフィルターする場合、名前ではなく、3 文字のコードを使用する必要があります。</p> </td> 
-     </tr> 
+      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>ステータスが「処理中」のタスクをフィルターするには、次の行を使用します。</p> <p><code>status=INP</code> </p> <p><b>ヒント</b>
+
+   ステータスをフィルターする場合、名前ではなく、3 文字のコードを使用する必要があります。</p> </td>
+   </tr> 
      <tr> 
       <td> <p>フィールド名修飾子および修飾子が等しいもの。 これは、フィルタリングに使用するフィールドが満たす必要がある条件を示します。</p> <p>この行は必須です。</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>フィルターするタスクのステータスが「処理中」に等しい必要があることを示すには、上記以外の行も使用します。</p> <p><code>status_Mod=in</code> </p> <p>モディファイヤが範囲の場合は、モディファイヤを示す線が 2 つあります。</p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>例: </b></span></span> 
+       <div> <span class="autonumber"><span><b>例 </b></span></span> 
         <p>これは、進行中のタスクを検索し、現在の月内に完了予定日が設定され、特定の GUID を持つユーザーに割り当てられるテキストモードフィルターです。</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -116,7 +120,7 @@ ht-degree: 1%
          <li> <p>演算子を AND から OR に変更すると、リスト項目の数が増える場合があります。</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>例: </b></span></span> 
+       <div> <span class="autonumber"><span><b>例 </b></span></span> 
         <p>ステータスが「処理中」、または「予定完了日」が「今日」のタスクをフィルタするには、次の手順に従います。 </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
@@ -127,7 +131,7 @@ ht-degree: 1%
      <tr> 
       <td> <p>ワイルドカードを使用すると、フィルターの情報を一般化し、現在の時刻やログインしているユーザーを参照できます。</p> <p>ワイルドカードはオプションです。</p> <p>ヒント：   <p>可能な限りワイルドカードを使用して、フィルターをより動的にし、各ユーザーや類似の時間枠で同じフィルターを重複させないことをお勧めします。</p> <p>ワイルドカードのフィルタの詳細については、 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>例: </b></span></span> 
+       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>例</b></span></span> 
         <p>現在ログインしているユーザーに割り当てられているタスクをフィルタするには、次の手順に従います。</p> 
         <p><code>assignedToID=$$USER.ID</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -169,3 +173,5 @@ ht-degree: 1%
 
 1. クリック **完了** 変更を保存し、レポートまたはフィルターの編集を続ける場合。
 1. クリック **保存して閉じる** レポートを保存するか、 **フィルターを保存** をクリックして、リストにフィルターを保存します。
+
+
