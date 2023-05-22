@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: 7fb37ca286649a1556cd0098f6570786eea8a4c1
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Boards タグマネージャーの機能強化</a></p>
+                        <p>タグマネージャーのインターフェイスが改善され、新しいタグをすばやく作成して、カードに適用できるようになりました。 また、ワークストリーム用のタグを作成することもできます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 5 月 20 日</p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">実稼動版リリース：2023 年 5 月 20 日</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

@@ -6,16 +6,16 @@ description: カードにタグを追加して、類似していることを視�
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
+source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '526'
+ht-degree: 2%
 
 ---
 
 # タグを追加
 
-カードにタグを追加して、類似していることを視覚的に示すことができます。 次に、これらのタグでフィルタリングして、関連するカードを表示できます。 タグは、ボード間では共有されません。
+カードにタグを追加して、類似していることを視覚的に示すことができます。 次に、これらのタグでフィルタリングして、関連するカードを表示できます。 ボードタグはボード間で共有されませんが、ワークストリーム内のすべてのボードでワークストリームタグを使用できます。
 
 ## アクセス要件
 
@@ -40,24 +40,39 @@ ht-degree: 1%
 
 &#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
 
-## ボードのタグを作成する
+## ボードのタグの作成
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
+{{step1-to-boards}}
+
 1. ボードにアクセスします。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
 1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) ボード名の横にあるを選択し、 **[!UICONTROL タグマネージャー]**.
 
-   ![「タグマネージャー」を選択します。](assets/boards-tagmanager-350x189.png)
+   ![タグマネージャーを選択](assets/boards-tagmanager-350x189.png)
 
-1. 内 **[!UICONTROL タグを編集]** ダイアログボックスで、次を選択します。 **[!UICONTROL タグを作成]**.
-1. 強調表示されたボックスにタグ名を入力し、ドロップダウンメニューからこのタグの色を選択します。
-1. 次をクリック： **[!UICONTROL 保存]** アイコンをクリックしてタグを保存するか、 **[!UICONTROL キャンセル]** アイコンをクリックして、タグの作成をキャンセルします。
-
-   ![](assets/boards-savecancelnewtag-350x38.png)
-
-1. （条件付き）手順 4～6 を繰り返して、追加のタグを作成します。
+1. 内 [!UICONTROL タグマネージャー] ダイアログボックスで、次を選択します。 [!UICONTROL **タグを追加**] 内 [!UICONTROL ボードタグ] 」セクションに入力します。
+1. 強調表示されたボックスにタグ名を入力し、ドロップダウンメニューからこのタグの色を選択します。 タグは自動的に保存されます。
+1. （条件付き）手順 4～5 を繰り返して、追加のタグを作成します。
 1. クリック **[!UICONTROL 完了]** をクリックします。
 
-   ![](assets/boards-edittagsdialog-350x205.png)
+   ![タグマネージャー](assets/tag-manager-2023.png)
+
+## ワークストリームのタグの作成
+
+{{step1-to-boards}}
+
+1. ダッシュボードで、 [!UICONTROL **ワークストリームを表示**] をクリックして、ワークストリームを開きます。
+1. ボードを開きます。 次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) ボード名の横にあるを選択し、 **[!UICONTROL タグマネージャー]**.
+
+   または
+
+   クリック [!UICONTROL **設定**] 開く [!UICONTROL ワークストリームの設定] パネル。 次に、「 **[!UICONTROL タグマネージャー]**.
+
+1. 内 [!UICONTROL タグマネージャー] ダイアログボックスで、次を選択します。 [!UICONTROL **タグを追加**] （「Workstream Tags」セクション）を参照してください。
+1. 強調表示されたボックスにタグ名を入力し、ドロップダウンメニューからこのタグの色を選択します。 タグは自動的に保存されます。
+1. （条件付き）手順 4～5 を繰り返して、追加のタグを作成します。
+1. クリック **[!UICONTROL 完了]** をクリックします。
+
+   ![タグマネージャー](assets/tag-manager-workstreams.png)
 
 ## カードへのタグの追加
 
@@ -70,7 +85,7 @@ ht-degree: 1%
 
 1. 内 **[!UICONTROL タグ]** ボックスに既存のタグの名前を入力し、検索結果から選択します。\
    または\
-   次をクリック： **[!UICONTROL 編集]**&#x200B;アイコン ![タグを編集](assets/boards-edittag-30x29.png) をクリックし、タグマネージャーで新しいタグを作成します。 クリック **完了** カードに戻る 新しいタグが自動的にカードに追加されます。
+   次をクリック： **[!UICONTROL 編集]**&#x200B;アイコン ![タグを編集](assets/boards-edittag-30x29.png) をクリックし、タグマネージャーで新しいタグを作成します。 クリック **完了** カードに戻るには、カードのタグを選択します。
 1. 「**閉じる**」をクリックします。
 
 ## タグの編集
@@ -98,11 +113,10 @@ ht-degree: 1%
 
 ## タグの削除
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. ボードにアクセスします。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
-1. 次をクリック： **[!UICONTROL 詳細]**&#x200B;ボード名の横にあるメニューから、 **[!UICONTROL タグマネージャー]**.
+1. ボードにアクセスします。
+1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) ボード名の横にあるを選択し、 **[!UICONTROL タグマネージャー]**.
 
-   ![「タグマネージャー」を選択します。](assets/boards-tagmanager-350x189.png)
+   ![タグマネージャーを選択](assets/boards-tagmanager-350x189.png)
 
 1. 削除するタグを見つけ、 **[!UICONTROL 削除]** アイコン ![タグを削除](assets/copy-of-boards-delete-30x27.png).
 1. クリック **[!UICONTROL 完了]**.

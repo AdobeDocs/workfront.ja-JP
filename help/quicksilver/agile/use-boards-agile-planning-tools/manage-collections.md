@@ -6,9 +6,10 @@ title: ワークストリームの管理
 description: ワークストリームは、作業時の共同作業用に設定可能なボードとカードのグループです。
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
+source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '853'
 ht-degree: 3%
 
 ---
@@ -100,6 +101,7 @@ ht-degree: 3%
 1. ダッシュボードで、 [!UICONTROL **ワークストリームを表示**] をクリックして、ワークストリームを開きます。
 1. クリック [!UICONTROL **設定**] 開く [!UICONTROL ワークストリームの設定] パネル。
 1. （オプション）ワークストリームの説明を入力します。 この説明は、ダッシュボードに表示されます。
+1. （オプション）ワークストリームにタグを追加します。 詳しくは、 [タグを追加](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
    カードの総数、指定されたカードの数、繰り返し回数が「カードリスト」セクションに表示されます。 クリック [!UICONTROL **リストを表示**] をクリックしてリストを開き、カードを追加します。 詳しくは、 [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
@@ -109,4 +111,3 @@ ht-degree: 3%
 1. タスクとイシューをWorkfrontからカードとして読み込むためのフィルターを追加しました。
 
    ワークストリームソースに対するフィルタの追加は、基本ボードまたはかんばんボードに対する吸気列に対するフィルタの追加と同じです。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
-
