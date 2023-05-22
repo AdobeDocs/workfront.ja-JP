@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 9b83e1c4a89fa94fe26888e682676c84be1d1d85
+source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13012'
 ht-degree: 2%
 
 ---
@@ -2505,7 +2505,6 @@ ht-degree: 2%
       * [API エクスプローラー](wf-api/general/api-explorer.md)
       * [API エクスプローラーの使用](wf-api/general/using-api-explorer.md)
       * [Adobe Workfront API のリッチテキストフィールド](wf-api/general/rich-text-field-api.md)
-      * [Adobe Workfront API 開発者フォーラム](wf-api/general/api-developer-forum.md)
       * [API サンプルスクリプト](wf-api/general/api-example-scripts.md)
       * [API を使用したプログラムおよびサービスのデータの同期](wf-api/general/api-sync-data.md)
       * [API を使用したユーザーの非アクティブ化](wf-api/general/deactivate-user-api.md)

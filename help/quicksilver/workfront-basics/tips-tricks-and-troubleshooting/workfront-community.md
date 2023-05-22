@@ -5,9 +5,9 @@ title: この [!DNL Adobe Workfront] コミュニティ
 description: アドビ [!DNL Workfront] コミュニティは、10,000 を超えるオンライングループです [!DNL Workfront] ユーザー。 コミュニティを通じて、製品リリースを常に最新の状態に保ち、顧客イベントについて学び、他のユーザーと [!DNL Workfront] 製品とサービス。 質問に対する回答を見つけ、他の人とのつながりを確立します [!DNL Workfront] 顧客。
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Ascent Training 内で既にアカウントが設定されている場合は、�
 
 ### の URL は何ですか。 [!DNL Workfront] コミュニティ？
 
-この [!DNL Workfront] コミュニティは [!DNL Workfront One] web サイトを次の URL で開きます。  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+この [!DNL Workfront] コミュニティは [!DNL Adobe Experience League] web サイトを次の URL で開きます。  [[!DNL Workfront] コミュニティ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### サブドメインとは {#what-s-my-subdomain}
 

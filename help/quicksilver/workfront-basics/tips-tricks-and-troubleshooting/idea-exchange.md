@@ -5,9 +5,9 @@ title: イノベーションラボ
 description: この [!UICONTROL イノベーションラボ] を使用すると、認証済みユーザーが他の顧客とアイデアを送信、投票、および話し合うことができます。
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 アイデアに投票するには：
 
-1. にログインします。 [!DNL Adobe Workfront] のコミュニティ [!DNL Workfront One] サイトの次の URL に移動します。  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+1. にログインします。 [!DNL Adobe Workfront] のコミュニティ [!DNL Adobe Experience League] サイトの次の URL に移動します。  [[!DNL Adobe Workfront] コミュニティ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
-1. 次をクリック： **[!UICONTROL 共同作業]** 「 」タブで、「 **[!UICONTROL イノベーションラボ]**.
+1. 次をクリック： **[!UICONTROL アイデア]** タブをクリックします。
 
 1. 投票するアイデアを検索します。
 1. アイデアをクリックします。
