@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
+source-git-commit: 24e30c8e6902082833973bf7db7d638e72ce2c00
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,8 @@ Adobe Workfront管理者は、ユーザーにアクセスレベルを割り当�
 * [新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 * [新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
 * [新しいライセンスを受けるために、によるオブジェクトや領域へのアクセス](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-* [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) <!--need to change name here or in legacy article -->
+* [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+* [新しいライセンスプランの有料ユーザーに対して自動アップグレードオプションを無効にする](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
 
 ## 関連トピック
 

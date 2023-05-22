@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: f299ecfe72a588331bd8b003e9a42d112c374635
+source-git-commit: 9b83e1c4a89fa94fe26888e682676c84be1d1d85
 workflow-type: tm+mt
-source-wordcount: '13005'
+source-wordcount: '13017'
 ht-degree: 2%
 
 ---
@@ -439,6 +439,7 @@ ht-degree: 2%
          * [新しいライセンスの概要](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
          * [新しいライセンスを受けるために、によるオブジェクトや領域へのアクセス](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [新しいアクセスレベルで各オブジェクトタイプで使用可能な機能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+         * [新しいライセンスプランの有料ユーザーに対して自動アップグレードオプションを無効にする](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * アクセスレベルの仕組み {#legacy-access-levels}
          * [アクセスレベルの仕組み](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
          * [アクセスの概要](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
