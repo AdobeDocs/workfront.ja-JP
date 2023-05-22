@@ -6,10 +6,10 @@ description: 以下は、現在および過去のリリースに関するリリ�
 author: Luke
 feature: Product Announcements
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: e9faaf52158030cd48ad11938186054594992c34
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 14%
+source-wordcount: '160'
+ht-degree: 15%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Workfrontのリリーススケジュールについて詳しくは、 [Ado
   <tr> 
    <td> <p>2020 年リリース</p> 
     <ul> 
-     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4 リリースの概要</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3 リリースの概要</a> </li> <li><a href="https://one.workfront.com/s/article/2020-2-release-overview-439776658?language=en_US">2020.2 リリースの概要</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">2020.1 リリースの概要</a> </li> </li> 
+     <li><a href="../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md" class="MCXref xref" xrefformat="{para}">20.4 リリースの概要</a> <li><a href="../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md" class="MCXref xref" xrefformat="{para}">20.3 リリースの概要</a> </li> <li><a href="/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md">2020.2 リリースの概要</a> </li> <li><a href="../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md" class="MCXref xref" xrefformat="{para}">2020.1 リリースの概要</a> </li> </li> 
     </ul> <p>2019 年リリース</p> 
     <ul> 
      <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019.3-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.3 リリースアクティビティの概要</a> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019.2-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.2 リリースアクティビティの概要</a> </li> <li><a href="../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019.1-release-activity.md" class="MCXref xref" xrefformat="{para}">2019.1 リリースアクティビティ</a> </li> </li> 

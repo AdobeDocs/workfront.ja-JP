@@ -1,13 +1,13 @@
 ---
 title: 割り当てられ、グループで使用されているライセンス数を表示
 description: Adobe Workfrontの管理者は、現在グループおよびそのサブグループで使用されている個々の種類のライセンスの数を表示できます。 これは、ライセンスを再配布するかどうかを評価する必要がある場合に役立ちます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Adobe Workfrontの管理者は、現在グループおよびそのサブグル�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfrontプラン</a>*</td> 
-   <td> <p>チーム以上</p> </td> 
+   <td role="rowheader">Workfront plan*</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfrontライセンス</a>*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>計画 </p> <p>グループのグループ管理者またはWorkfront管理者である必要があります。 詳しくは、 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a> および <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> </td> 
   </tr> 
  </tbody> 

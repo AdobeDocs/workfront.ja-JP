@@ -5,13 +5,13 @@ keywords: 表示，グループ，イベント，通知，設定，有効，無�
 navigation-topic: create-and-manage-groups
 title: グループのイベント通知を表示および設定する
 description: グループ管理者は、管理しているグループに対して有効化されているイベント通知を表示できます。 また、Adobe Workfrontの管理者がイベント通知のロックを解除した場合、管理対象の最上位グループに対して設定できます。 イベント通知の設定は、イベント通知のアクティブ化と非アクティブ化で構成されます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 306d6493ff0413d5814f4aed8ab44fb897f3568d
+source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ Workfront管理者がイベント通知のロックを解除する方法につ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfrontプラン</a>*</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td role="rowheader">Workfront plan*</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfrontライセンス</a>*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>計画 </p> <p>グループのグループ管理者またはWorkfront管理者である必要があります。 詳しくは、 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a> および <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> </td> 
   </tr> 
  </tbody> 

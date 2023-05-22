@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
@@ -527,7 +527,7 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 
 ### トレーニングの更新
 
-各Adobe Workfront製品リリースの学習プログラム、学習パス、ビデオ、ガイドに対しておこなわれた最新のアップデートを確認します。 詳しくは、 [トレーニングリリースの更新ページ](https://one.workfront.com/s/training-release-updates).
+各Adobe Workfront製品リリースの学習プログラム、学習パス、ビデオ、ガイドに対しておこなわれた最新のアップデートを確認します。 詳しくは、 [トレーニングリリースの更新ページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### 機能は間もなくWorkfrontから削除されます
 

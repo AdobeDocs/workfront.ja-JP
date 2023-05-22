@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
+source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -370,7 +370,7 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 
 ### トレーニングの更新
 
-各Adobe Workfront製品リリースの学習プログラム、学習パス、ビデオ、ガイドに対しておこなわれた最新のアップデートを確認します。 詳しくは、 [トレーニングリリースの更新ページ](https://one.workfront.com/s/training-release-updates).
+各Adobe Workfront製品リリースの学習プログラム、学習パス、ビデオ、ガイドに対しておこなわれた最新のアップデートを確認します。 詳しくは、 [トレーニングリリースの更新ページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 <!-- Uncomment if there are any deprecations
 
