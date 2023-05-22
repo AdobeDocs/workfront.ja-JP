@@ -6,10 +6,10 @@ description: フィルターを使用して、項目のリストに表示する�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 1%
+source-wordcount: '2405'
+ht-degree: 2%
 
 ---
 
@@ -175,7 +175,7 @@ Workfrontオブジェクトについて詳しくは、 [Adobe Workfrontのオブ
    </tr>
    <tr>
    <td role="rowheader"><strong>保存済み</strong></td>
-   <td>自分で作成し、保存したフィルター。</td>
+   <td>自分で作成し、保存したフィルター。 デフォルトでは、このリストには保存済みフィルターが最近保存された順に表示されますが、フィルター名をドラッグして手動でリストを並べ替えることができます。</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>システムデフォルト</strong></td>

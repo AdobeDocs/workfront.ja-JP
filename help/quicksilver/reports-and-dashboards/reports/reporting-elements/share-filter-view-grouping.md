@@ -6,9 +6,9 @@ description: 表示するためのアクセス権のあるフィルター、ビ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
 workflow-type: tm+mt
-source-wordcount: '1227'
+source-wordcount: '1252'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
    </tr>
    <tr>
    <td role="rowheader"><strong>保存済み</strong></td>
-   <td>自分で作成し、保存したフィルター。</td>
+   <td>自分で作成し、保存したフィルター。 デフォルトでは、このリストには保存済みフィルターが最近保存された順に表示されますが、フィルター名をドラッグして手動でリストを並べ替えることができます。</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>システムデフォルト</strong></td>
