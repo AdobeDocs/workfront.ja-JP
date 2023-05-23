@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: f2fb8dc29011c12645d31b0effdc7cf397fd7ddb
+source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 プレビューサンドボックスには、実際の実稼動データが含まれています。ただし、毎週末に更新されるので、実稼動環境で最大 1 週間遅れるデータを保持できます。 最後の更新時間以降に作成された項目は、次の更新がおこなわれるまで、プレビューサンドボックス環境にあります。
 
-データフローは、実稼動からプレビューに一方向に（逆方向ではなく）流れます。 プレビュー環境の更新は、次の条件で常にスケジュールされます。 [!DNL Workfront] 毎週末。 更新の特定の日時の詳細については、 [status.adobe.com](https://status.adobe.com/ja/).
+データフローは、実稼動からプレビューに一方向に（逆方向ではなく）流れます。 プレビュー環境の更新は、次の条件で常にスケジュールされます。 [!DNL Workfront] 毎週末。
 
 プレビューサンドボックスでは、 [!DNL Workfront] 新しい機能を実稼動環境にデプロイする前に、安全な環境にデプロイする場合。 新機能をテストし、 [!DNL Workfront] プレビューサンドボックスにアクセスして機能に関するフィードバック。 このため、プレビューサンドボックスのコードは、週に 1 回のデータ更新がおこなわれるものの、実稼動コードよりも常に優先されています。
 
