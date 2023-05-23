@@ -8,7 +8,7 @@ author: Courtney, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 456c7b21835c96912e8974063f7797283dcb4e6d
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 1%
@@ -79,6 +79,7 @@ As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定し�
    * [!DNL Dropbox Business]
    * [!DNL WebDAM]
    * [!DNL Microsoft OneDrive]
+   * [!DNL Microsoft SharePoint]
    * [!UICONTROL Google Drive]
 
       <!--Quip-->
