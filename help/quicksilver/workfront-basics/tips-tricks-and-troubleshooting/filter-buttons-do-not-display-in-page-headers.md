@@ -4,9 +4,9 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: ページヘッダーにフィルターボタンが表示されない
 description: ページヘッダーに表示されないフィルターボタンのトラブルシューティングについては、この記事を参照してください。
 feature: Get Started with Workfront
-author: Lisa and Alina
+author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%

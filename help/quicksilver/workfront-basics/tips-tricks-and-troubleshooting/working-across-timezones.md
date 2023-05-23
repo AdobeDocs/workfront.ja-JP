@@ -2,10 +2,10 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: タイムゾーンをまたいでの作業
-description: 次の方法を理解すると役立ちます。 [!DNL Adobe Workfront] は、タイムゾーンを使用して以下の計算を行います — EDIT ME.
+description: 次の方法を理解すると役立ちます。 [!DNL Adobe Workfront] では、タイムゾーンを使用して、e メールなどの他の領域にあるオブジェクトと時間の時間フィールドを計算します。
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -25,10 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><div class="preview">オブジェクトに関連付けられたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定ではなく、協定世界時 (UTC) で計算および保存されます。 カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて生成され、表示されます。</div>
-
-
-
+>オブジェクトに関連付けられたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定ではなく、協定世界時 (UTC) で計算および保存されます。 カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて生成され、表示されます。
 
 * [組織の [!DNL Workfront] インスタンス](#your-organization-s-workfront-instance)
 * [ユーザープロファイル](#your-user-profile)
@@ -48,7 +45,10 @@ ht-degree: 0%
 
 ユーザープロファイルのタイムゾーンは、勤務先の場所に対して設定する必要があります。 これにより、次のことが決まります。
 
-* 送信時刻が表示されます [!DNL Workfront] 電子メールメッセージ
+<!--
+* The time shown in your outgoing [!DNL Workfront] email messages
+[NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
+-->
 * 作業対象のオブジェクトの時間（開始時間や終了時間など）
 
    複数のタイムゾーンのユーザーが 1 つのオブジェクトに割り当てられている場合、 [!DNL Workfront] は、各ユーザープロファイルで設定されたタイムゾーンを使用して、関係するすべてのユーザーのオブジェクト時間を変換します。

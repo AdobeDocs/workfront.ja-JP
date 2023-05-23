@@ -1,10 +1,10 @@
 ---
 title: のヒント、テクニックおよびトラブルシューティング [!DNL Adobe Workfront] 基本事項
 description: のヒント、テクニックおよびトラブルシューティング [!DNL Adobe Workfront] 基本事項
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
