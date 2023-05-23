@@ -7,9 +7,9 @@ description: '''表示：ユーザーの個人的な休暇'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '284'
 ht-degree: 5%
 
 ---
@@ -36,12 +36,15 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td> <p>ビューの変更をリクエスト </p>
+   <p>レポートの変更計画</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
-  </tr> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートを変更します</p> <p>フィルター、ビュー、グループへのアクセスを編集してビューを変更します</p> <p><b>メモ</b>
+
+まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
@@ -56,7 +59,7 @@ ht-degree: 5%
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) 右上隅で、「 **レポート/新しいレポート**.
 
 1. ドロップダウンメニューから、 **オフの時間**.
-1. クリック **保存して閉じる**.
+1. 「**保存して閉じる**」をクリックします。
 
    デフォルトでは、レポートのビューに次のフィールドが表示されます。
 
@@ -65,7 +68,7 @@ ht-degree: 5%
    | 開始日 | ユーザーが示した休日の期間の開始日。 |
    | 終了日 | ユーザーが示した休日の期間の終了日。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. （オプション）次のいずれかのタブを編集して、レポートの作成を完了します。
 
