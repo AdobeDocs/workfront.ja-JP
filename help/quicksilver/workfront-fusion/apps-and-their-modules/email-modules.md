@@ -9,9 +9,9 @@ description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合は、電子
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: ea19c2a58bac322c804fca3f6bb7d7147efa4d9a
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,6 @@ SMAP 接続を使用すると、メールボックスにリモートでアクセ
 * [[!UICONTROL メールのコピー]](#copy-an-email)
 * [[!UICONTROL メールの削除]](#delete-an-email)
 * [[!UICONTROL メールの取得]](#get-emails)
-* [[!UICONTROL メールを送信]](#send-me-an-email)
 
 #### [!UICONTROL メールの送信]
 
@@ -541,25 +540,6 @@ SMAP 接続を使用すると、メールボックスにリモートでアクセ
   <tr> 
    <td role="rowheader">[!UICONTROL モジュールが結果を返さない場合でも、ルートの実行を続行します ]</td> 
    <td> <p> 結果が返されない場合でもモジュールの実行を続行する場合に選択します。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL メールを送信]
-
-新しいメールをメールアドレスに送信します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL 件名 ] </td> 
-   <td> <p>電子メールの件名行を入力またはマッピングします。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL コンテンツ ] </td> 
-   <td> <p>電子メールの本文を入力します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
