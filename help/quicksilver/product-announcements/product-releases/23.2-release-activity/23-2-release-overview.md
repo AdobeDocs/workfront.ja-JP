@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2745'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：該当なし<br /></p>
                             </li>
                             <li>
-                                 <p>実稼動リリース：2023 年 3 月 30 日</p>
+                                 <p>実稼動版リリース：2023 年 3 月 31 日</p>
                             </li>
                         </ul>
                     </td>
@@ -85,10 +85,11 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 3 月 10 日<br /></p>
+                                <p>プレビューリリース：2023 年 3 月 10 日</p>
                             </li>
                             <li>
-                                 <p>実稼動版リリース：23.2 リリースの場合</p>
+                                 <p>実稼動版リリース：23.2 リリースの場合<br />
+                                 <span style="color: #ff0000;">2023 年 5 月 24 日に、プレビューおよび実稼動環境で、フォームデザイナーベータ版が一時的に無効になっていました。</span></p>
                             </li>
                         </ul>
                     </td>

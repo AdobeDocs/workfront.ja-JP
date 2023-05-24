@@ -8,14 +8,18 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '435'
 ht-degree: 1%
 
 ---
 
 # フォームデザイナーの概要
+
+>[!IMPORTANT]
+>
+>2023 年 5 月 24 日に、フォームデザイナーが一時的に無効になりました。 レガシーフォームビルダーを使用して、カスタムフォームを作成および編集できます。 詳しくは、 [レガシーフォームビルダーを使用したカスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 新しいフォームデザイナーを使用すると、ユーザーがWorkfrontオブジェクトに添付できるカスタムフォームをデザインできます。 オブジェクトの操作を行うユーザーは、カスタムフォームに入力して、オブジェクトに関する情報を入力できます。
 
