@@ -7,7 +7,7 @@ description: ワークストリームは、作業時の共同作業用に設定�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
+source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 2%
@@ -103,7 +103,7 @@ ht-degree: 2%
 1. 次をクリック： [!UICONTROL **ソース**] アイコン ![ソースアイコン](assets/sources-icon.png) ：カードをワークストリームにインポートするソースを定義します。 現時点では、次のソースのみが利用可能です。 [!DNL Adobe Workfront].
 1. タスクとイシューをWorkfrontからカードとして読み込むためのフィルターを追加しました。
 
-   ワークストリームソースに対するフィルタの追加は、基本ボードまたはかんばんボードの取り込みカラムに対する詳細フィルタの追加と同じです。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+   ワークストリームソースに対するフィルターの追加は、基本ボードまたはかんばんボードの取り込みカラムに対する詳細フィルターの追加と同じです。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## ワークストリームの設定
 
