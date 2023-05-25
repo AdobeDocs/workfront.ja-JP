@@ -7,10 +7,10 @@ description: ワークストリームは、作業時の共同作業用に設定�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -94,20 +94,28 @@ ht-degree: 3%
 
    これは、ボードにメンバーを追加する場合と同じ手順です。 詳しくは、 [ボードに対するメンバーの追加または削除](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## ワークストリームへのソースの追加
+
+ソースは、ワークストリーム内のカードの送信元を決定します。
+
+{{step1-to-boards}}
+
+1. 次をクリック： [!UICONTROL **ソース**] アイコン ![ソースアイコン](assets/sources-icon.png) ：カードをワークストリームにインポートするソースを定義します。 現時点では、次のソースのみが利用可能です。 [!DNL Adobe Workfront].
+1. タスクとイシューをWorkfrontからカードとして読み込むためのフィルターを追加しました。
+
+   ワークストリームソースに対するフィルタの追加は、基本ボードまたはかんばんボードの取り込みカラムに対する詳細フィルタの追加と同じです。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## ワークストリームの設定
 
 {{step1-to-boards}}
 
 1. ダッシュボードで、 [!UICONTROL **ワークストリームを表示**] をクリックして、ワークストリームを開きます。
 1. クリック [!UICONTROL **設定**] 開く [!UICONTROL ワークストリームの設定] パネル。
-1. （オプション）ワークストリームの説明を入力します。 この説明は、ダッシュボードに表示されます。
-1. （オプション）ワークストリームにタグを追加します。 詳しくは、 [タグを追加](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. （オプション）展開 [!UICONTROL **Workstream**] ワークストリームの説明を入力します。 この説明は、ダッシュボードに表示されます。
+1. （オプション）展開 [!UICONTROL **反復**] を使用して、このワークストリームの反復処理を定義します。
 
    カードの総数、指定されたカードの数、繰り返し回数が「カードリスト」セクションに表示されます。 クリック [!UICONTROL **リストを表示**] をクリックしてリストを開き、カードを追加します。 詳しくは、 [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   繰り返しが定義されている場合は、開始日、カード数、ポイント数が表示されます。 クリック [!UICONTROL **イテレーションボードを表示**] をクリックして、ボードを開きます。 詳しくは、 [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   イテレーションが既に定義されている場合は、開始日、カード数、ポイント数が表示されます。 クリック [!UICONTROL **ボードを表示**] をクリックして、イテレーションボードを開きます。 詳しくは、 [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. クリック [!UICONTROL **ソースを追加**] ：カードをワークストリームにインポートするソースを定義します。 現時点では、次のソースのみが利用可能です。 [!DNL Adobe Workfront].
-1. タスクとイシューをWorkfrontからカードとして読み込むためのフィルターを追加しました。
-
-   ワークストリームソースに対するフィルタの追加は、基本ボードまたはかんばんボードに対する吸気列に対するフィルタの追加と同じです。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. （オプション）展開 [!UICONTROL **タグ**] をクリックして、ワークストリームにタグを追加します。 タグを検索するか、検索ボックスに新しいタグ名を入力し、Enter キーを押して作成します。
