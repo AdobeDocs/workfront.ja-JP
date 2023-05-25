@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1670'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ ht-degree: 0%
 
 **[!UICONTROL ビデオアセットの実稼動] （管理）**
 この [!UICONTROL ビデオアセットの実稼動] パッケージには、標準のビデオ制作プロセスの作業をまとめたテンプレートが含まれています。 このパッケージは、Workfrontでのビデオアセット作成を管理するためのエントリポイントとして使用されます。 このパッケージを使用して、ビデオコンテンツ作成の基盤を作成し、特殊な種類のビデオ素材に対する他のクリエイティブプロセスのニーズに合わせてカスタマイズします。
+
+**[!UICONTROL [!DNL Workfront]通信と起動テンプレート]**
+
+このブループリントには、 [!DNL Workfront] 顧客が [!DNL Workfront] アプリケーション。
 
 **[!DNL Workfront Usage Dashboard]**
 このブループリントには、11 個のレポートが含まれる 1 つのダッシュボードが含まれ、システム管理者やガバナンスチームが自分の設定が期待どおりに使用されているかどうかを把握するのに役立ちます。
