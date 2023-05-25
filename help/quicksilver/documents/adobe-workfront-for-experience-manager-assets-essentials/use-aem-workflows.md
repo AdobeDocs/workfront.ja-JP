@@ -5,16 +5,14 @@ title: Experience Manager Assets Essentials 統合でのワークフローの使
 description: Experience Manager Assets Essentials 統合でのワークフローの使用
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
+source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets統合でのワークフローの使用
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
 
 ワークフローとは、WorkfrontをAdobe Experience Manager as a Cloud Serviceに接続する一連のアクションです。 Workfrontの管理者は、Workfrontでワークフローを設定した後、それらをプロジェクトテンプレートに割り当てることができます。 ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
 

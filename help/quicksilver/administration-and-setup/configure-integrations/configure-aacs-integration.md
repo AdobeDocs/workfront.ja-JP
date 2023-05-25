@@ -5,16 +5,14 @@ title: Adobe Experience Manager Assets の統合
 description: 作業内容は、次のAdobe Experience Manager Assets 統合と連携できます。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
+source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
 
 # の設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合
-
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
 
 作業内容を [!DNL Experience Manager Assets]&#x200B;:
 
@@ -226,8 +224,6 @@ An [!DNL Experience Manager] マッピング先のフィールド [!DNL Workfron
 
 <!--Courtney start here-->
 
-<div class="preview">
-
 ## ワークフローの設定（オプション）
 
 ワークフローとは、WorkfrontをAdobe Experience Manager as a Cloud Serviceに接続する一連のアクションです。 Workfront管理者は、Workfrontでワークフローを設定し、それらをプロジェクトテンプレートに割り当てることができます。 ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
@@ -241,8 +237,6 @@ An [!DNL Experience Manager] マッピング先のフィールド [!DNL Workfron
    ![リンクされたフォルダーナビゲーション](assets/select-folder-aem-integration.png)
 1. を有効にします。 **Portfolio名とプログラム名を追加** リンクされたPortfolioの名前の最後にフォルダ名とプログラム名を自動的に含めるオプション。
 1. クリック **保存** または、 [リンクされたフォルダーの設定（オプション）](#set-up-linked-folders-optional) 」の節を参照してください。
-
-</div>
 
 <!--Courtney end here-->
 
