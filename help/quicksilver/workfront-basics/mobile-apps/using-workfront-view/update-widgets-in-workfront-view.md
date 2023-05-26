@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: プロジェクトの詳細ビューでウィジェットを更新する
 description: 詳しくは、 [!UICONTROL プロジェクト] プロジェクトリストからアクセスした後、 [!UICONTROL プロジェクトの詳細] 画面 各ユーザーは、独自のウィジェットをカスタマイズできます。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 1%
@@ -83,7 +83,7 @@ ht-degree: 1%
 
       * プロジェクト名
       * プロジェクトの作成者の名前
-      * プロジェクト状態
+      * プロジェクトのステータス
       * プロジェクト グループ
       * プロジェクトスケジュール
    * **[!UICONTROL チーム]**:プロジェクトチームに属するユーザーの名前が表示されます。\

@@ -3,10 +3,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: の配達確認を確認し、決定する [!DNL Adobe Workfront] モバイルアプリ
 description: 配達確認が承認用に割り当てられると、モバイルアプリの承認のリストに表示されます。 配達確認をアプリで直接確認し、決定することができます。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%

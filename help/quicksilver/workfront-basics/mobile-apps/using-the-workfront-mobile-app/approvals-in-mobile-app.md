@@ -3,13 +3,13 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: 内の承認 [!DNL Adobe Workfront] モバイルアプリ
 description: 自分に割り当てられた承認または委任された承認は、 [!UICONTROL 承認] 領域 [!DNL Adobe Workfront] モバイルアプリを使用します。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 4%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 5%
    | ![タスクからの変更を含む配達確認を承認](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL 変更を加えて承認] （ドキュメントに対してのみ使用可能） |
    | ![タスクから配達確認を却下](assets/mobile-rejectprooffromtask.png) | [!UICONTROL 拒否] |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. （オプション）「 」を選択します。 **[!UICONTROL コメントを追加]** をクリックして、決定にコメントを追加します。 これらのコメントは、承認の更新内に表示されます。\
    ![コメントを追加](assets/mobile-addcommenttoapproval-350x123.png)\

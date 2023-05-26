@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront mobile app virtual assistant
 description: Adobe Workfront Mobile App 仮想アシスタントを使用して、Workfront内の情報を検索、削除および検索します。 また、仮想アシスタントのコマンドやクエリをピン留めして、いつでも結果にアクセスできます。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 2c3bbf76-6620-4319-a872-09330441c815
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 7%

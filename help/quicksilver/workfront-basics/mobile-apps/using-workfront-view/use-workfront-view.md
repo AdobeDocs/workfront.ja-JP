@@ -4,10 +4,10 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Adobe Workfront View を使用
 description: 使い方を学ぶには、以下の記事をご覧ください。 [!DNL Adobe Workfront] 表示。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: c86aa07d-e260-495b-84b4-d661a2ac6dda
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 0%
