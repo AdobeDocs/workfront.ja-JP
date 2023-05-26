@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion HTTP モジュールで相互 TLS を使用�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 9c0452e60e98439fdba8e1171ef52a773f3d72b5
+source-git-commit: 790f5da3af32ffdfcbb596f467f882a7408e3f28
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -100,18 +100,21 @@ HTTP リクエストを使用して Web サービスに接続する場合、通�
 
    EU で使用
 
-### 2022 年 11 月 14 日～2023 年 7 月 15 日の証明書
+<!--
+
+### Certificates for November 14, 2022 - July 15, 2023
 
 >[!IMPORTANT]
 >
->* これら [!DNL Workfront Fusion] 公開証明書の有効期限は 2023 年 7 月 15 日です。
->* ワイルドカード mTLS 証明書です。
+>* These [!DNL Workfront Fusion] public certificates expire on July 15, 2023.
+>* These are wildcard mTLS certificates.
 
+* [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
+* [Download [!DNL Workfront Fusion] EU Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
-* [ダウンロード [!DNL Workfront Fusion] 証明書 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
-* [ダウンロード [!DNL Workfront Fusion] EU 証明書 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
+   For use in the EU 
 
-   EU で使用
+   -->
 
 ## での相互 TLS の有効化 [!DNL Workfront Fusion] HTTP モジュール
 
