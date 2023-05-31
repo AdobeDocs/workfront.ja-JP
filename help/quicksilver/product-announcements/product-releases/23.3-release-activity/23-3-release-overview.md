@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -222,7 +222,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">プロジェクトの作成時に、Adobe Experience Manager Assets にリンクされたフォルダーを自動的に作成する</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
-                        <p>Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用して、Adobe Experience Manager Assets フォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。 </p>
+                        <p>Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用して、Adobe Experience Manager Assets フォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。 </p><p>この機能は、Workfront内のAdobe Experience Manager as a Cloud Service統合でのみ使用できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
