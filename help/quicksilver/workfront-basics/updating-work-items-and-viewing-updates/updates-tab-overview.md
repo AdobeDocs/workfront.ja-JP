@@ -7,9 +7,9 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '911'
 ht-degree: 4%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 4%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * コメントベータ版を有効にする際の問題。
+> * 問題、 <!--<span class="preview">projects, tasks, and documents</span>,--> コメントベータ版を有効にする場合。
    >
-   >     この機能は、問題の「更新」セクションでのみ使用でき、次の領域では使用できません。
+   >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
    >
    >     * ホーム
    >     * リストの概要パネル
@@ -111,7 +111,7 @@ ht-degree: 4%
      <li><p>目標</p>
      <p>これが目標のデフォルトエクスペリエンスです</p>
      </li> 
-     </ul> </td> 
+      </ul> </td> 
    <td> 
     <ul> 
      <li>問題</li> 
@@ -120,11 +120,50 @@ ht-degree: 4%
  </tbody> 
 </table>
 
+<!--replace table above with this: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
+     <li><span class="preview">Projects</span></li>
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Documents</span></li>
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
 ## 上位のオブジェクトにも表示される更新
 
-次の表に示すように、特定のオブジェクトに対して更新を行った返信も、上位のオブジェクトの [ 更新 ] セクションに表示されます。
+特定のオブジェクトに対して更新を加えたコメントや返信は、上位のオブジェクトの「更新」セクションにも表示されます。
 
 たとえば、タスクに更新を追加すると、更新がタスクの [ 更新 ] セクションと、タスクを含むプロジェクトの [ 更新 ] セクションに表示されます。
+
+<!--
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>
+>* Issues, in the Preview and Production environments
+>* <span class="preview">Projects and tasks, in the Preview environment</span>
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+-->
+
+次の表に、コメントが上位のオブジェクトにも表示されるオブジェクトを示します。
 
 <table style="table-layout:auto"> 
  <col> 

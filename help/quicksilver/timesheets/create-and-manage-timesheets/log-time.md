@@ -6,9 +6,9 @@ description: 作業項目の時間を&nbsp;Adobe Workfrontに記録して、作�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '3016'
+source-wordcount: '3234'
 ht-degree: 0%
 
 ---
@@ -353,6 +353,19 @@ Workfrontの次の領域で時間をログに記録できます。
 
 ##### 「アップデート」タブ{#updates-tab}
 
+<!--
+
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+>
+>* In the Preview and Production environments for issues. 
+>* <span class="preview">In the Preview environment for tasks and projects.</span> 
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+-->
+
 プロジェクト、タスク、またはイシューの [ 更新 ] タブで時間を記録する前に、次の操作が必要です。
 
 * 作業またはプランのライセンスが必要です。
@@ -361,6 +374,34 @@ Workfrontの次の領域で時間をログに記録できます。
 
 * 時間を直接プロジェクトに記録する場合は、Workfront管理者が、のプロジェクトで直接ログ時間設定を有効にする必要があります。 [!UICONTROL **タイムシートと時間** ]> [!UICONTROL **環境設定**].\
    ユーザーが時間を直接プロジェクトに記録できるようにする方法について詳しくは、 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+プロジェクト、タスクまたはイシューの「更新」タブに時間を記録するには、次の手順を実行します。
+
+1. プロジェクト、タスク、またはイシューに移動します。
+1. 左のパネルで、「 」を選択します。 **更新**.
+1. クリック **ログ時間**.
+
+   [ 時間の入力 ] ダイアログボックスが表示されます。
+
+   >[!TIP]
+   >
+   >   プロファイルの環境設定が日単位の時間をログに記録するように設定されている場合は、「 Enter Days 」ボックスが表示されます。
+   >   
+   >   「 Enter Days 」ボックスの右上隅に、1 日に含まれる時間数が示されます。
+
+   ![](assets/log-time-box-in-updates-stream.png)
+
+1. 次の情報を指定します。
+
+   * **時間タイプ**:デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
+
+      お使いのシステムで設定されている時間の種類に応じて、ここで選択できるオプションは異なる場合があります。 時間タイプの設定について詳しくは、 [タイムシートの時間の種類と可用性を定義する](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+
+   * **ジョブの役割**:（条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当て** 設定、 **ジョブの役割** を選択します。 オブジェクトに割り当てられたときに指定したロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+   * **時間**:プロジェクト、タスク、またはタスクの時間数を入力します。
+
+1. クリック **ログ時間**.
 
 ##### 「時間」タブ{#hours-tab}
 
@@ -374,9 +415,9 @@ Workfrontの次の領域で時間をログに記録できます。
 * 少なくとも、ログ時間にアクセスできるプロジェクトに対する Contribute 権限が必要です。 プロジェクトに対する権限の付与の詳細については、 [Adobe Workfrontでプロジェクトを共有する](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * 時間をプロジェクトに直接記録する場合は、Workfront管理者が [ タイムシートと時間/プリファレンス ] の [ プロジェクトに直接記録する ] 設定を有効にする必要があります。 ユーザーが時間を直接プロジェクトに記録できるようにする方法について詳しくは、 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-プロジェクト、タスクまたはイシューに時間を記録するには：
+プロジェクト、タスクまたはイシューの「時間」タブに時間を記録するには、次の手順に従います。
 
-1. プロジェクト、タスクまたはイシューに移動します。
+1. プロジェクト、タスク、またはイシューに移動します。
 1. 左のパネルで、「 」を選択します。 **時間**.
 1. クリック **ログ時間**.
 

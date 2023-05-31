@@ -6,9 +6,9 @@ description: Adobe Workfrontのコメントエクスペリエンスのアップ�
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
@@ -261,13 +261,13 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -382,6 +382,21 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>システム更新に返信 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
 </table>
 
 ## 新しいコメントベータ版エクスペリエンスリリースアクティビティ
@@ -394,7 +409,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
 * 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
-   * 問題
+   * 問題<!--, <span class="preview">projects, tasks, and documents</span>-->
    Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 

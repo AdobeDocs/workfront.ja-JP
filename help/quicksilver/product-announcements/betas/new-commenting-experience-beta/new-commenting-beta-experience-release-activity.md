@@ -1,17 +1,17 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: '新しいコメントエクスペリエンスベータリリースアクティビティ'
+title: 新しいコメントエクスペリエンスベータリリースアクティビティ
 description: Adobe Workfrontの新しいコメントベータ版エクスペリエンスの毎週のリリースアクティビティを確認します。
 author: Alina
 feature: Product Announcements
-source-git-commit: f4283cc81fbde9e7c399bb48d483158175ca1dea
+exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 9%
+source-wordcount: '637'
+ht-degree: 8%
 
 ---
-
 
 # 新しいコメントベータ版エクスペリエンスリリースアクティビティ
 
@@ -26,6 +26,51 @@ ht-degree: 9%
 >Workfrontオブジェクトのベータ版エクスペリエンスにリリースされたコメント機能は、Workfront目標の目標オブジェクトの更新セクションにもリリースされています。
 
 以下の節では、最近リリースされた機能から、元のリリースの後に追加された機能を示します。
+
+## 2023 年 5 月 29 日の週
+
+### コメント編集後の「編集済み」タグの新しい外観と操作性
+
+新しいコメントベータ版エクスペリエンスでコメントを編集する際に、「edited」タグがコメントに追加されます。 このタグは、最初にリリースされたタグよりも新しい外観と操作性を備えています。 コメントの日時スタンプは、元のコメントのものです。 これらは、編集が行われた時点の日時スタンプではありません。  詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+プレビュー：2023 年 5 月 31 日
+
+本番：2023 年 6 月 2 日
+
+<!--
+
+### Comments from children objects now roll up to a parent object  
+
+When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+Preview, for issues, projects, and tasks: June 1, 2023  
+
+Production, for issues: June 1, 2023 
+
+Production, for projects, and tasks: with the 23.3 release 
+-->
+
+<!--
+### Log time in the new commenting Beta experience 
+
+You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
+
+Preview: June 1, 2023 
+
+Production: June 15, 2023
+
+-->
+
+<!--
+
+### New commenting Beta experience for projects, tasks, and issues  
+
+The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
+
+Preview: June 1, 2023 
+
+Production: with the 23.3 release 
+-->
 
 ## 2023 年 5 月 15 日の週
 
