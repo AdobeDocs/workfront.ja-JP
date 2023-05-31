@@ -6,9 +6,9 @@ description: エンゲージメントを加速し、組織内のチームや個�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: aa00992e3d5c8d78dfb3f1b88471fe95a17ec0db
+source-git-commit: 389a4cce56b5b81db521217c9bdd2a9a25850e1c
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 * ワンステップのアクションを使用してワークフローを継続
 * 外出先で生産性を維持
 
-デスクトップアプリケーションは、 [Apple App Store](https://www.apple.com/app-store/) または [Google Playストア](https://play.google.com/store/apps;).
+デスクトップアプリケーションは、 [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) または [Google Playストア](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 モバイルアプリでは、のブラウザーバージョンと同様に、作業項目を完了して情報を表示できます。 [!DNL Workfront]. 次の機能などを使用できます。
 
