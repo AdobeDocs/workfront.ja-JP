@@ -5,9 +5,9 @@ title: タスクおよび問題を委任
 description: 不在時に割り当てられた作業を一時的に委任できます。 この記事では、タスクと問題の割り当てを委任する方法について説明します。
 author: Alina
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    この [!UICONTROL 割り当て] タスクまたは問題ヘッダーのフィールドが [!UICONTROL 割り当てと委任].
 
-* この [!DNL Workload Balancer] タスクまたは問題を手動で割り当てる場合
+* この [!UICONTROL ワークロードバランサー] タスクまたは問題を手動で割り当てる場合
 
    ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
@@ -222,7 +222,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 >[!TIP]
 >
->委任されたタスクとタスクの予定時間または実績時間は、リソース管理ツール ( [!DNL Workload Balancer] または [!DNL Resource Planner] 委任されたユーザーに対して。 時間は、割り当てられたユーザーにのみ関連付けられます。
+>委任されたタスクとタスクの予定時間または実績時間は、リソース管理ツール ( [!UICONTROL ワークロードバランサー] または [!DNL Resource Planner] 委任されたユーザーに対して。 時間は、割り当てられたユーザーにのみ関連付けられます。
 
 ### で委任作業を検索 [!UICONTROL ホーム]
 

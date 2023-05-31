@@ -6,9 +6,9 @@ description: プロジェクトとイニシアチブ間でのリソース割り�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -79,9 +79,9 @@ ht-degree: 0%
 
    * この [!UICONTROL ロールの配分] パネルは、次の領域にあります。
 
-      * [!DNL Workload Balancer] プロジェクトの
+      * [!UICONTROL ワークロードバランサー] プロジェクトの
 
-         イニシアチブと、 [!DNL Workload Balancer]を参照してください。 [内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
+         イニシアチブと、 [!UICONTROL ワークロードバランサー]を参照してください。 [内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!UICONTROL ワークロードバランサー]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
       * [!UICONTROL タスク] セクション
 

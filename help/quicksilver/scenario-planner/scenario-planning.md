@@ -7,9 +7,9 @@ description: Workfrontシナリオプランナーに関する機能を説明す�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,6 @@ ht-degree: 0%
 * [プロジェクトを更新または作成するには、 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [プロジェクトとイニシアチブ間でのリソース割り当て調整の概要](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [タスクリストのプロジェクトおよびイニシアチブのロール割り当てを表示](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!UICONTROL ワークロードバランサー]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
  

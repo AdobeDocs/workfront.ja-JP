@@ -6,14 +6,14 @@ description: プロジェクトとイニシアチブを結び付けた後、リ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
 
-# 内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!DNL Workload Balancer]
+# 内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!UICONTROL ワークロードバランサー]
 
 >[!IMPORTANT]
 >
@@ -58,9 +58,9 @@ ht-degree: 0%
 
 &#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
 
-## 内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!DNL Workload Balancer]
+## 内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!UICONTROL ワークロードバランサー]
 
-会社が [!DNL Workfront Scenario Planner] ライセンスを使用すると、イニシアチブとそのイニシアチブにリンクされているプロジェクトとの間のリソース割り当てをプロジェクトレベルで調整できます [!DNL Workload Balancer].
+会社が [!DNL Workfront Scenario Planner] ライセンスを使用すると、イニシアチブとそのイニシアチブにリンクされているプロジェクトとの間のリソース割り当てをプロジェクトレベルで調整できます [!UICONTROL ワークロードバランサー].
 
 1. （条件付き）次の記事に記載されている方法のいずれかを使用して、プロジェクトをイニシアチブに接続します。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
    >イニシアチブのリソースに変更を加える場合、イニシアチブの最新のリソース情報をプロジェクトで更新するには、イニシアチブが属するシナリオを再公開する必要があります。
 
 1. プロジェクトおよび関連するイニシアチブのジョブの役割の割り当てを確認するプロジェクトに移動します。
-1. クリック [!DNL Workload Balancer] をクリックします。
+1. クリック [!UICONTROL ワークロードバランサー] をクリックします。
 
    クリックする必要がある場合があります **[!UICONTROL スケジュール]**&#x200B;を、 **[!UICONTROL ワークロードバランサーに切り替え]**.
 

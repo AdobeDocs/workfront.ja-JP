@@ -5,9 +5,9 @@ title: 左側のナビゲーション [!DNL Adobe Workfront]
 description: の左側のナビゲーションパネル [!DNL Workfront] を使用すると、システム内を簡単に移動できます。
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1403'
 ht-degree: 1%
 
 ---
@@ -134,7 +134,7 @@ WF のほとんどの領域とオブジェクトは、画面の左側にある�
    <td>リソース・プランナを表示します。 この領域を使用して、複数のプロジェクトにわたってリソースを計画します。 リソース・プランナの使用に関する詳細は、 <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">リソース計画の概要</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Workload Balancer]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL ワークロードバランサー ]</strong></td> 
    <td>ワークロード・バランサを表示します。 この領域を使用して、リソースに実績作業時間を割り当てます。 <br>
    リソースのスケジュール設定について詳しくは、 <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">ワークロードバランサーでの作業割り当ての概要</a>.</td> 
   </tr> 

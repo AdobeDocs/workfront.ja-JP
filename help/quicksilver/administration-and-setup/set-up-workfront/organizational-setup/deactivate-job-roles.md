@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ As a [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者�
 
 >[!TIP]
 >
->非アクティブ化された役割は、常にリスト、レポートおよび他のツール ( [!DNL Workload Balancer].
+>非アクティブ化された役割は、常にリスト、レポートおよび他のツール ( [!UICONTROL ワークロードバランサー].
 
 ## ジョブロールを非アクティブ化する前の考慮事項
 
@@ -109,6 +109,6 @@ As a [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者�
 
    ![](assets/deactivate-job-role-edit-role-box-nwe.png)
 
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
    ジョブの役割は無効になり、作業に割り当てられなくなり、レイアウトテンプレートに関連付けられるようになります。 でのジョブの役割のすべての使用に関する情報 [!DNL Workfront]を参照してください。 [ジョブロールの概要](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).

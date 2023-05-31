@@ -4,9 +4,9 @@ title: 概要の概要
 description: 概要パネルを使用して、タスクの問題、ドキュメント、またはタスクの他の領域のリストから直接作業項目情報を確認および更新できます [!DNL Adobe Workfront] タスクと問題を表示する
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Unassigned] および [!UICONTROL Assigned] 作業領域のタスク [!DNL Workload Balancer]</td> 
+   <td>[!UICONTROL Unassigned] および [!UICONTROL Assigned] [!UICONTROL Workload Balancer] の作業領域のタスク</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>問題</td> 
@@ -45,7 +45,7 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 割り当て済み作業領域の問題 [!DNL Workload Balancer]</td> 
+   <td>[!UICONTROL ワークロードバランサー ] の [!UICONTROL 割り当て済み作業領域の問題</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 要求 ] 領域の [!UICONTROL Submitted] セクションの問題</td> 
@@ -68,7 +68,7 @@ ht-degree: 2%
 
 この記事では、 [!UICONTROL 概要] リストのタスクと問題に関するパネル
 
-にアクセスする方法について詳しくは、 [!UICONTROL 概要] 内 [!DNL Workload Balancer]を参照してください。 [の作業項目を更新 [!DNL Workload Balancer] の使用 [!UICONTROL 概要]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+にアクセスする方法について詳しくは、 [!UICONTROL 概要] 内 [!UICONTROL ワークロードバランサー]を参照してください。 [の作業項目を更新 [!UICONTROL ワークロードバランサー] の使用 [!UICONTROL 概要]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 にアクセスする方法について詳しくは、 [!UICONTROL 概要] ドキュメントについては、 [[!UICONTROL 概要] ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md).
 
@@ -138,7 +138,7 @@ ht-degree: 2%
 
 ![](assets/summary-overview-percent-complete-350x395.png)
 
-## [!UICONTROL 更新]
+## [!UICONTROL アップデート]
 
 以下を使用： [!UICONTROL 更新] セクション [!UICONTROL 概要] 最近の更新を表示し、選択したタスクまたは問題を更新する場合。 クリック **[!UICONTROL すべてを表示]** 直接に [!UICONTROL 更新] 」タブをクリックします。
 
