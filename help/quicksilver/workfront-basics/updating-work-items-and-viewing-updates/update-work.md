@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3176'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 1%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <!--<span class="preview">projects, tasks, and documents</span>,--> コメントベータ版を有効にする場合。
+> * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>（コメント機能ベータ版を有効にする場合）
    >
    >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
    >
@@ -193,7 +193,7 @@ drafted for P&P release:
 この **コメント** 「 」タブがデフォルトで選択されています。
 1. でコメントの入力を開始 **新しいコメント** ボックス
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -314,7 +314,7 @@ drafted for P&P release:
 1. （オプション）追加の情報ソースに URL リンクを追加するには：
 
    1. リンクを挿入する更新内をクリックします。
-   1. の **リッチテキスト** ツールバーで、 **ハイパーリンク** アイコン ![](assets/link-icon.png)
+   1. の **リッチテキスト** ツールバーで、 **ハイパーリンク** アイコン ![](assets/link-icon.png).
 
    1. 内 **リンクを作成** 下に表示されるボックス **URL**、リンク先のソースの URL を入力または貼り付けます。
 

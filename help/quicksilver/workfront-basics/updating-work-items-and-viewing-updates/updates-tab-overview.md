@@ -7,9 +7,9 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '968'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 4%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <!--<span class="preview">projects, tasks, and documents</span>,--> コメントベータ版を有効にする場合。
+> * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span> コメントベータ版を有効にする場合。
    >
    >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
    >
@@ -99,7 +99,7 @@ ht-degree: 4%
 * **コメント**:ユーザーが行ったコメントと、それらのコメントに対する返信を表示します。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
 * **システムアクティビティ**:特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージであるシステム更新を表示します。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-現在、以下のオブジェクトに対するベータ版のコメント機能を使用して、コメントを入力したり、更新に返信したりできます。
+現在、以下のオブジェクトに対するベータ版のコメント機能を使用して、コメントを追加したり、更新に返信したりできます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,39 +111,17 @@ ht-degree: 4%
      <li><p>目標</p>
      <p>これが目標のデフォルトエクスペリエンスです</p>
      </li> 
-      </ul> </td> 
+     <li><span class="preview">プロジェクト</span></li>
+     </ul> </td> 
    <td> 
     <ul> 
      <li>問題</li> 
+     <li><span class="preview">タスク</span></li>
+     <li><span class="preview">ドキュメント</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-
-<!--replace table above with this: 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 ## 上位のオブジェクトにも表示される更新
 
@@ -151,17 +129,15 @@ ht-degree: 4%
 
 たとえば、タスクに更新を追加すると、更新がタスクの [ 更新 ] セクションと、タスクを含むプロジェクトの [ 更新 ] セクションに表示されます。
 
-<!--
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>新しいコメントベータ版エクスペリエンスを有効にすると、コメントは次の上位のオブジェクトと次の環境に表示されます。
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* 問題
+>* <span class="preview">プロジェクト</span>
+>* <span class="preview">タスク</span>
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
--->
+>詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 次の表に、コメントが上位のオブジェクトにも表示されるオブジェクトを示します。
 

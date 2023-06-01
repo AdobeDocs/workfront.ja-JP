@@ -6,16 +6,16 @@ description: Adobe Workfrontのコメントエクスペリエンスのアップ�
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
 
 # 新しいコメントエクスペリエンス
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、および選択したオブジェクトの更新セクションのパフォーマンスの向上が含まれます。
 
@@ -47,7 +47,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 新しいコメント作成機能に含まれる改善点の一つは次のとおりです。
 
 * パフォーマンスとユーザーエクスペリエンスの向上
-* システムアクティビティからのユーザーコメントの分離が更新されました。 システムの更新方法に変更はありません。
+* システムアクティビティからのユーザーコメントの分離が更新されました。
 * オブジェクトに新しいコメントが追加されたときのリアルタイムインジケーター
 * 送信後のコメントの編集。
 
@@ -261,7 +261,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -409,7 +409,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
 * 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
-   * 問題<!--, <span class="preview">projects, tasks, and documents</span>-->
+   * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>
    Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 

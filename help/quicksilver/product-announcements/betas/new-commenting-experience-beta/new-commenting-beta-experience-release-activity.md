@@ -6,10 +6,10 @@ description: Adobe Workfrontの新しいコメントベータ版エクスペリ�
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 8%
+source-wordcount: '807'
+ht-degree: 6%
 
 ---
 
@@ -29,48 +29,41 @@ ht-degree: 8%
 
 ## 2023 年 5 月 29 日の週
 
+### プロジェクト、タスク、問題に関する新しいコメントベータ版エクスペリエンス
+
+新しいコメント作成ベータ版エクスペリエンスを、プロジェクト、タスク、ドキュメントで使用できるようになりました。 この更新以前は、コメント化ベータ版のエクスペリエンスは、問題と目標に対してのみ利用できました。
+
+プレビュー：2023 年 6 月 2 日
+
+本番：23.3 リリースの場合
+
+>[!NOTE]
+>
+>2023 年 6 月 1 日以降に新しいコメントベータ版エクスペリエンスにリリースされた機能は、実稼動環境への 23.3 リリース後に、実稼動環境でプロジェクト、タスク、ドキュメントに使用できるようになります。 詳しくは、 [23.3 リリースの概要](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
 ### コメント編集後の「編集済み」タグの新しい外観と操作性
 
-新しいコメントベータ版エクスペリエンスでコメントを編集する際に、「edited」タグがコメントに追加されます。 このタグは、最初にリリースされたタグよりも新しい外観と操作性を備えています。 コメントの日時スタンプは、元のコメントのものです。 これらは、編集が行われた時点の日時スタンプではありません。  詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+新しいコメントベータ版エクスペリエンスでコメントを編集する際に、「edited」タグがコメントに追加されます。 このタグは、最初にリリースされたタグの新しいルックアンドフィールになりました。 コメントの日時スタンプは、元のコメントのものです。 これらは、編集が行われた時点の日時スタンプではありません。  詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 プレビュー：2023 年 5 月 31 日
 
 本番：2023 年 6 月 2 日
 
-<!--
+### 子オブジェクトからのコメントは、親オブジェクトにロールアップされます
 
-### Comments from children objects now roll up to a parent object  
+コメントベータ版エクスペリエンスを有効にする際に、子オブジェクトに関連付けられたコメントが親オブジェクトにロールアップされるようになりました。 例えば、ドキュメントからのコメントが、ドキュメントが添付された問題に表示されるようになりました。 詳しくは、 [更新セクションの概要](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+プレビュー：2023 年 6 月 2 日
 
-Preview, for issues, projects, and tasks: June 1, 2023  
+本番：2023 年 6 月 2 日
 
-Production, for issues: June 1, 2023 
+### 新しいコメント作成ベータ版エクスペリエンスでのログ時間
 
-Production, for projects, and tasks: with the 23.3 release 
--->
+新しいコメント作成ベータ版のエクスペリエンスを使用する際に、更新領域から問題、タスクおよびプロジェクトの時間を記録できます。 詳しくは、 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-<!--
-### Log time in the new commenting Beta experience 
+プレビュー：2023 年 6 月 2 日
 
-You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
-
-Preview: June 1, 2023 
-
-Production: June 15, 2023
-
--->
-
-<!--
-
-### New commenting Beta experience for projects, tasks, and issues  
-
-The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
-
-Preview: June 1, 2023 
-
-Production: with the 23.3 release 
--->
+本番：発表の予定
 
 ## 2023 年 5 月 15 日の週
 
