@@ -6,7 +6,7 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '3176'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>（コメント機能ベータ版を有効にする場合）
+> * 問題、 <span class="preview">プロジェクト</span>, <span class="preview">タスク</span>、および <span class="preview">文書</span>（コメント機能ベータ版を有効にする場合）
    >
    >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
    >

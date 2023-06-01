@@ -6,7 +6,7 @@ description: Adobe Workfrontの新しいコメントベータ版エクスペリ�
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 6%
@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## 2023 年 5 月 29 日の週
 
-### プロジェクト、タスク、問題に関する新しいコメントベータ版エクスペリエンス
+### プロジェクト、タスク、ドキュメントに関する新しいコメントベータ版のエクスペリエンス
 
 新しいコメント作成ベータ版エクスペリエンスを、プロジェクト、タスク、ドキュメントで使用できるようになりました。 この更新以前は、コメント化ベータ版のエクスペリエンスは、問題と目標に対してのみ利用できました。
 

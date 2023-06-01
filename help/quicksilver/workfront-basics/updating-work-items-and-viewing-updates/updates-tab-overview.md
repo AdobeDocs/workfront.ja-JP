@@ -7,9 +7,9 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '963'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span> コメントベータ版を有効にする場合。
+> * 問題、 <span class="preview">プロジェクト</span>, <span class="preview">タスク</span>、および <span class="preview">文書</span>（コメント機能ベータ版を有効にする場合）
    >
    >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
    >
@@ -131,7 +131,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->新しいコメントベータ版エクスペリエンスを有効にすると、コメントは次の上位のオブジェクトと次の環境に表示されます。
+>新しいコメントベータ版エクスペリエンスを有効にすると、コメントは次の上位のオブジェクトに表示されます。
 >
 >* 問題
 >* <span class="preview">プロジェクト</span>

@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <!--<span class="preview">projects, tasks, and documents</span>,--> コメントベータ版を有効にする場合。
+> * 問題、 <span class="preview">プロジェクト</span>, <span class="preview">タスク</span>、および <span class="preview">文書</span>（コメント機能ベータ版を有効にする場合）
    >
    >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
    >
@@ -77,8 +77,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>問題およびドキュメントの要求者以上他のすべてのオブジェクトのレビュー担当者以上</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
-  </tr> 
+   <td> <p>問題およびドキュメントの要求者以上他のすべてのオブジェクトのレビュー担当者以上</p> 
+   <p><b>メモ</b>
+
+まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
    <td> <p>オブジェクトへのアクセスの表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
