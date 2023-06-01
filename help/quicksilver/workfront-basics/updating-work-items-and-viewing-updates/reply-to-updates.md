@@ -6,7 +6,7 @@ description: 作業オブジェクトの更新に対して、誰かが追加ま�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 >[!NOTE]
 >
@@ -26,22 +26,22 @@ ht-degree: 1%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>.
-   >
-   >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。\
-   >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
-   >
-   >     * ホーム
-   >     * リストの概要パネル
-   >     * タイムシートの概要パネル
 >
-> * 目標
-
-   >
-   >   新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>* 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>.
+>
+>  これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
+>
+>  この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>
+>  * ホーム
+>  * リストの概要パネル
+>  * タイムシートの概要パネル
+>
+>* 目標
+>
+>  新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>  目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 誰かが作業オブジェクトのコメントやシステムの更新に返信すると、その返信がそのオブジェクトの [ 更新 ] セクションの通信スレッドに表示されます。
 
@@ -100,6 +100,7 @@ ht-degree: 1%
    会話に積極的に関わっているユーザーや、各返信にタグ付けされているユーザーが、その更新スレッドの上部に表示されます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。 さらに多くのユーザーにタグを付けて、返信に含めることもできます。  さらに多くのユーザーにタグを付けるには、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+
 1. （オプション）返信に以前の更新のテキストを含めるには、 **詳細** 見積もりを行う更新または返信の横のメニューから、 **見積もりの返信**. 前の更新のテキストが入力領域に表示され、縦の灰色の線が付きます。
 1. （オプション）記事の「Workfrontの更新でのリッチテキストの使用」の節で説明されているように、書式、絵文字、リンク、画像を使用します。 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. クリック **返信** 返信を保存します。
