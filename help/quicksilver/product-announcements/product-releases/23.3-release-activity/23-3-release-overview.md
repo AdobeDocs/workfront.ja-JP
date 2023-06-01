@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
+source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfrontの機能強化
 
+* [管理者の機能強化](#administrator-enhancements)
 * [アジャイルの強化](#agile-enhancements)
 * [統合の強化](#integration-enhancements)
+* [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者の機能強化
@@ -221,8 +223,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">プロジェクトの作成時に、Adobe Experience Manager Assets にリンクされたフォルダーを自動的に作成する</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
-                        <p>Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用して、Adobe Experience Manager Assets フォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。 </p><p>この機能は、Workfront内のAdobe Experience Manager as a Cloud Service統合でのみ使用できます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">プロジェクトの作成時に、Adobe Experience Manager Assets にリンクされたフォルダーを自動的に作成する</a></p>
+                        <p>Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用して、Adobe Experience Manager Assets フォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。 </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -286,6 +288,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### プロジェクトの強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新しいドキュメント承認</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>ドキュメント承認は段階的なロールアウトで再設計され、リリースごとに多くのユーザーが利用できるようになります。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 5 月 31 日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 6 月 15 日</span></p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### その他の機能強化
 
 <table>
@@ -302,6 +341,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">プロジェクト、タスク、ドキュメントに関する新しいコメントベータ版のエクスペリエンス</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>新しいコメント作成ベータ版エクスペリエンスを、プロジェクト、タスク、ドキュメントで使用できるようになりました。 この更新以前は、コメント化ベータ版のエクスペリエンスは、問題と目標に対してのみ利用できました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 6 月 2 日<br /></p>
+                            </li>
+                            <li>
+                                <p>実稼動版リリース：23.3 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">アバターを持たないプロファイルにユーザーのイニシャルが表示されるようになりました</a></p>
