@@ -6,9 +6,9 @@ description: 作業オブジェクトの更新に対して、誰かが追加ま�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1164'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,9 @@ ht-degree: 1%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>（コメント機能ベータ版を有効にする場合）
+> * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>.
    >
+   >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。\
    >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
    >
    >     * ホーム
