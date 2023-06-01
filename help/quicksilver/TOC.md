@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
+source-git-commit: 561ceb9f22e61527fd3303b1e76585ed885039ff
 workflow-type: tm+mt
-source-wordcount: '13012'
+source-wordcount: '13059'
 ht-degree: 2%
 
 ---
@@ -1722,6 +1722,17 @@ ht-degree: 2%
       * [承認リクエストを委任](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [新規または既存の承認プロセスと作業の関連付け](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [送信済み承認の取り消し](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+   * ドキュメントのレビューと承認 {#document-reviews-and-approvals}
+      * [ドキュメントのレビューと承認](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * ドキュメント承認を管理 {#manage-document-approvals}
+         * [ドキュメント承認を管理](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [ドキュメントの承認の作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [ドキュメントにレビュー担当者または承認者を追加する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [ドキュメントから承認者またはレビュー担当者を削除する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+      * ドキュメントのレビューと承認 {#review-and-approve-documents}
+         * [ドキュメントのレビューと承認](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+         * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+         * [ドキュメントを承認](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * プルーフ {#proofing}
       * [プルーフ](review-and-approve-work/proofing/proofing.md)
       * 校正の概要 {#proofing-overview}
