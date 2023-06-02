@@ -7,9 +7,9 @@ description: 現在、Adobe Workfront Fusion では、次のパブリックテ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
+source-git-commit: b87a3777fb3f3c873a197eea1ffb051cec50aa93
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 0%
 ## Workfrontテンプレート
 
 これらのテンプレートは、Workfrontのプロセスとワークフローを自動化します。
+
+### Workfront — 関連する新規プロジェクトにプログラムカスタムFormsおよびフィールドデータをコピー
+
+この自動化は、カスタムフォームを持つプログラムの新しいプロジェクトを監視します。 次に、これらのプログラムのカスタムフォームとフィールドを新しいプロジェクトに追加します。
 
 ### Workfront — 承認済みの問題をプロジェクトに変換する
 
