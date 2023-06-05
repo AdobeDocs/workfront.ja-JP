@@ -2,25 +2,25 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: でのロックされたシナリオの表示と管理 [!DNL Adobe Workfront Fusion]
-description: でのロックされたシナリオの表示と管理 [!DNL Adobe Workfront Fusion]
+title: でのロックされたシナリオの管理 [!DNL Adobe Workfront Fusion]
+description: でのロックされたシナリオの管理 [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-source-git-commit: dcc4d37af99bae36ba5592cb4ca82ff473ec1cb5
+exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
+source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
 # でのロックされたシナリオの管理 [!DNL Adobe Workfront Fusion]
 
-シナリオが [!DNL Workfront Fusion] エンジニアリングチームに問題が発生しています。 ロックされた実行は、2 ～ 4 時間以内に自動的にロック解除されます。 シナリオのロックを手動で解除することもできます。
+場合によっては、シナリオが一時的にロックされることがあります [!DNL Workfront Fusion]. ロックされた実行は、2 ～ 4 時間以内に自動的にロック解除されます。 シナリオのロックを手動で解除することもできます。
 
 >[!IMPORTANT]
 >
 >シナリオを手動でロック解除すると、シナリオの実行でエラーが発生する場合があります。
-
 
 ## アクセス要件
 
@@ -53,9 +53,21 @@ ht-degree: 0%
 
 詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## ロックされたシナリオについて
+
+シナリオは、様々な理由でロックされる場合があります。
+
+Workfront Fusion は、スケジュールされたシナリオの並列処理をサポートしていません。 これらのシナリオは、シナリオの実行の開始時にロックされ、完了時にロックが解除されます。 実行が中断された場合、シナリオはロックを解除できない可能性があります。 これは、ユーザーが手動でシナリオを強制的に停止した場合や、システムの問題が発生した場合に発生する可能性があります。
+
+また、Workfront Fusion のエンジニアリングチームは、パフォーマンスやその他の問題を引き起こしているので、シナリオをロックする場合があります。
+
+ロックされたシナリオの原因に関係なく、ロックされた後、シナリオは自動的に 2～4 時間でロック解除されます。
+
 ## ロックされたシナリオのロック解除
 
 ロックされたシナリオは、ロックされた時点から 2 ～ 4 時間ロック解除されます。 シナリオのロックを手動で解除してから、自動的にロックを解除するようスケジュールを設定できます。
+
+シナリオを手動でロック解除すると、シナリオの実行でエラーが発生する場合があります。 シナリオの設計の一環として実行の実行と停止が原因でシナリオがロックされている場合にのみ、シナリオを手動でロック解除することをお勧めします。 その他の状況では、シナリオのロックが自動的に解除されるのを待つことをお勧めします。
 
 >[!IMPORTANT]
 >
