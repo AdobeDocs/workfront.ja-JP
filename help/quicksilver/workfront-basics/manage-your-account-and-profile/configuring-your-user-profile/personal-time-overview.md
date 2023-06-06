@@ -7,10 +7,10 @@ description: Adobe Workfrontは、個人のタイムオフを管理、計上、�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e87f2a459314b8059a3df634e97560b5c1dffac4
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '412'
+ht-degree: 0%
 
 ---
 
@@ -33,8 +33,6 @@ ht-degree: 1%
 >
 
 
-
-
 ## アクセス要件
 
 この記事の手順を実行するには、次のアクセス権が必要です。
@@ -47,15 +45,16 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降（個人のタイムオフを設定する場合）</p> </td> 
+   <td>[!UICONTROL Work] 以降（個人のタイムオフを設定する場合）</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td>[!UICONTROL ユーザーを編集 ] アクセス権を持つ [!UICONTROL Manager] （他のユーザーのタイムオフカレンダーを変更する場合）</td> 
+   <td>[!UICONTROL ユーザーを編集 ] アクセス権を持つ [!UICONTROL Manager] （他のユーザーのカレンダーの時間を変更する場合）<br>
+   <strong>注意：</strong> 管理者が別のユーザーの個人のタイムオフカレンダーを編集した場合、すべてのエントリは、管理者のタイムゾーンではなく、ユーザーのタイムゾーンに表示されます。</td> 
   </tr> 
  </tbody> 
 </table>

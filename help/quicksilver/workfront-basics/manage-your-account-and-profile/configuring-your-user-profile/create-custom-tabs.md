@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: カスタムセクションの作成
 description: に表示される情報 [!DNL Workfront] Web アプリケーションは、多くの場合、デフォルトでは左側のパネルのセクションに表示されます。 各セクションには、 [!DNL Workfront] 領域またはオブジェクト。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '678'
+ht-degree: 2%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 3%
 | [!UICONTROL プログラム] | ✓ | ✓ |
 | [!UICONTROL プロジェクト] | ✓ | ✓ |
 | [!UICONTROL タスク] | ✓ |  ✓ |
-| [!UICONTROL 問題] |  ✓ |  ✓ |
+| [!UICONTROL イシュー] |  ✓ |  ✓ |
 | [!UICONTROL ユーザー] |  ✓ |  ✓ |
 | [!UICONTROL ドキュメント] |  ✓ |  ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## アクセス要件
 

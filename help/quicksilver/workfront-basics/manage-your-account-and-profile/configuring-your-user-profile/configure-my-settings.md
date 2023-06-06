@@ -3,10 +3,10 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 設定を行う
 description: お使いの [!DNL Adobe Workfront] プロファイルには、自分に関する情報（自分の名前、電子メールアドレス、住所、電話番号、役職など）が含まれます。 また、 [!DNL Workfront] および社内の他のユーザー
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 72a2927d33f40c4fe08888712bdf62e9a5db9c40
+source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
 workflow-type: tm+mt
 source-wordcount: '3228'
 ht-degree: 1%
