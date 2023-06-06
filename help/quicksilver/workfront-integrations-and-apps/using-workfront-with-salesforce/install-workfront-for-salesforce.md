@@ -6,10 +6,10 @@ description: アプリがで使用可能になる前にインストールする�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 254ffae14b21dbef19b8f6b66a1c11e348c85c85
+source-git-commit: 0c49ab99653f390d592bba39bcb92145b8bedd0c
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 0%
 
 ---
 
@@ -71,11 +71,11 @@ As a [!DNL Salesforce] および [!DNL Adobe Workfront] 管理者、インスト
 
 1. 実稼動環境で、に移動します。
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
 
    サンドボックス環境で、に移動します。
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
 
 1. 次を確認します。 **[!UICONTROL はい、これらのサードパーティ Web サイトへのアクセス権を付与します]** ボックス
 
