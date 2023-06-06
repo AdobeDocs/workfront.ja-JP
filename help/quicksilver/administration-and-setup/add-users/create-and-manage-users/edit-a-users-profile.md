@@ -8,9 +8,9 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
+source-git-commit: fb934506205c586852497197115a7731083c0e54
 workflow-type: tm+mt
-source-wordcount: '2802'
+source-wordcount: '2867'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Adobe Workfront管理者は、新しいユーザーを作成し、既存のユ�
       <li><b>アクティブ：</b> このボックスを選択して、ユーザーがアクティブであることを示します。 アクティブなユーザーはWorkfrontのライセンスを使用しています。 このボックスをオフにすると、ユーザーが非アクティブになります。</li> 
        <li> <p><b>アクセスレベル：</b> このユーザーに割り当てるアクセスレベルを選択します。</p> 
        <p>ユーザーにアクセスレベルを割り当てる際に、自分のアクセスレベルと等しいかそれ以下のレベルを割り当てることができます。 （たとえば、アクセス・レベルが「プランナ」の場合は、管理者アクセス・レベルを割り当てることはできません）。 ただし、Workfront管理者がアクセスレベルで有効にしているデフォルト以外の権限を、独自のアクセスレベルでも有効にしている場合は、デフォルトで自分のアクセスレベルより小さいアクセスレベルを割り当てることはできません ( <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>) をクリックします。 </p> 
-       <p>アクセスレベルの詳細については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfrontへのアクセスの設定</a>.</p> </li> 
+       <p>アクセスレベルの詳細については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfrontへのアクセスの設定</a>.</p><p> <b>注意：</b> 組織で新しいアクセスモデル（標準/ライト/コントリビューター）を使用している場合、そのユーザーが月の決定制限に達している場合、標準またはライトユーザーをコントリビューターアクセスレベルに再割り当てすることはできません。 </p><p>新しいアクセスモデルの詳細については、 <a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">新しいアクセスレベルの概要</a>. </p><p>決定制限について詳しくは、 <a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">非有料ユーザーに対する限定的なドキュメントおよび配達確認の決定の概要</a>.</p></li> 
        <li> <p><b>レイアウトテンプレート</b>:ユーザーのレイアウトテンプレートを選択します。 このレイアウトテンプレートは、ユーザのホームグループ、ホームチーム、または主要な職務の役割に割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当て優先度の詳細については、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>.</p> <p><b>メモ</b>:  <p>このフィールドで使用できるテンプレートのリストは、アクセス権によって異なります。</p> 
        <ul> 
        <li>Workfront管理者は、すべてのシステムレベルおよびグループレベルのレイアウトテンプレートを表示できます。</li> 
