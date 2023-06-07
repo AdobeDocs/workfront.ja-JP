@@ -8,9 +8,9 @@ description: テキストパーサーツールを使用して、他のユーザ�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -226,9 +226,6 @@ ht-degree: 0%
 
 ### データスクレーピング
 
-データスクレーピング（Web スクレーピング、データ抽出、Web 収集とも呼ばれます）とは、Web サイトからデータを収集し、ローカルのデータベースまたはスプレッドシートに保存するプロセスです。 Web サイトからデータを削除し、正規表現に慣れていない場合は、次のようなデータ削除ツールを使用できます。
-
-* [指定](https://apify.com/)
-* [2019 年の Best Data Scraping Tools](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews)
+データスクレーピング（Web スクレーピング、データ抽出、Web 収集とも呼ばれます）とは、Web サイトからデータを収集し、ローカルのデータベースまたはスプレッドシートに保存するプロセスです。 Web サイトからデータを削除する場合で、正規表現に慣れていない場合は、データ削除ツールを使用できます。
 
 データスクレーピングツールが REST API を提供している場合は、ユニバーサルアドビのユニバーサルアプリケーションを通じて接続できます [[!UICONTROL HTTP] モジュール](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) および [ウェブフック](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) モジュール。

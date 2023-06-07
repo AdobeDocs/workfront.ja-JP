@@ -9,9 +9,9 @@ description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、Qualtrics
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL API キー ]</td> 
-      <td>API キーを見つけるには、 <a href="https://api.qualtrics.com/instructions/docs/Instructions/api-key-authentication.md">API トークン認証</a> 内 [!DNL Qualtrics] ドキュメント。</td> 
+      <td>API キーを見つけるには、 [!DNL Qualtrics] ドキュメント。</td> 
      </tr> 
     </tbody> 
    </table>

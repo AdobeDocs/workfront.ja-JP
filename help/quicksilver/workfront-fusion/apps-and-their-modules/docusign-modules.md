@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 632952e91ebe2ae5caa370c310cfd5e7180232b7
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1895'
 ht-degree: 0%
 
 ---
@@ -160,11 +160,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL URL]</td> 
-   <td> <p>モジュールとやり取りする Web サーバーのアドレスを入力します。</p> <p>相対 URL を入力できます。つまり、プロトコルを含める必要はありません ( 例えば、 <code>http://</code>) を最初にクリックします。 これは、Web サーバー上でインタラクションが発生していることを示しています。</p> <p>例： <code>[!DNL /api/conversations].create</code></p> <p>ヒント：使用可能なエンドポイントの一覧については、 <a href="https://developers.docusign.com/esign-rest-api/reference">[!DNL DocuSign] API リファレンス</a>.</p> </td> 
+   <td> <p>モジュールとやり取りする Web サーバーのアドレスを入力します。</p> <p>相対 URL を入力できます。つまり、プロトコルを含める必要はありません ( 例えば、 <code>http://</code>) を最初にクリックします。 これは、Web サーバー上でインタラクションが発生していることを示しています。</p> <p>例： <code>[!DNL /api/conversations].create</code></p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL メソッド ]</td> 
-   td&gt; <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers]</td> 
