@@ -7,9 +7,9 @@ description: データ式を使用して、Adobe Workfrontで計算済みのカ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
-source-wordcount: '2302'
+source-wordcount: '2368'
 ht-degree: 7%
 
 ---
@@ -247,7 +247,11 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td><strong>PROD</strong> </td> 
-   <td>この式は、すべての数値を乗算し、次のように書式設定されます。<pre>PROD(number1, number2, ....)</pre></td> 
+   <td>この式は、すべての数値を乗算し、次のように書式設定されます。<pre>PROD(number1, number2, ....)</pre>
+   <b>メモ</b>
+
+時間を含むフィールドに乗算する場合は、選択したフィールドの時間がデータベースに保存される時間（分、時間、秒）を必ず把握してください。 時間が分または秒単位で保存され、Workfrontインターフェイスに時間単位で表示される場合、この計算を使用して式を書き込む際に、分または秒から時間への変換を考慮する必要が生じる場合があります。
+</td> 
   </tr> 
   <tr> 
    <td><strong>ROUND</strong> </td> 
@@ -270,7 +274,7 @@ ht-degree: 7%
    <td>この式は、指定された順序ですべての数値を引き、次の形式で指定します。<pre>SUB(number1, number2, ...)</pre></td> 
   </tr> 
   <tr> 
-   <td><strong>SUM</strong> </td> 
+   <td><strong>合計</strong> </td> 
    <td>この式は、すべての数値を追加し、次の形式で記述します。<pre>SUM(number1, number2, ...)</pre></td> 
   </tr> 
  </tbody> 
