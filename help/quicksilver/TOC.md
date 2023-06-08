@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
 workflow-type: tm+mt
-source-wordcount: '13064'
+source-wordcount: '13069'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 2%
          * [2023 年 5 月 8 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [2023 年 5 月 15 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
          * [2023 年 5 月 29 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
+         * [2023 年 6 月 5 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
          * [23.3 リリース期間中のルックアンドフィールの更新](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 リリース {#release-23-2}
          * [23.2 リリースの概要](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -57,11 +58,11 @@ ht-degree: 2%
          * [22.3 リリースの概要](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
          * [22.3 管理者の機能強化](product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md)
          * [22.3 統合の強化](product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md)
-         * [22.3 モバイル機能の強化 ](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
-         * [22.3 その他の機能強化 ](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
-         * [22.3 プロジェクトの機能強化 ](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
-         * [22.3 リソース管理の強化 ](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
-         * [22.3 レポートの機能強化 ](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
+         * [22.3 モバイル機能の強化](product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md)
+         * [22.3 その他の機能強化](product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md)
+         * [22.3 プロジェクトの機能強化](product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md)
+         * [22.3 リソース管理の強化](product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md)
+         * [22.3 レポートの機能強化](product-announcements/product-releases/22.3-release-activity/22-3-reporting-enhancements.md)
          * [22.3 リリース期間のルックアンドフィールの更新](product-announcements/product-releases/22.3-release-activity/22-3-look-and-feel-updates.md)
       * 22.2 リリース {#release-22-2}
          * [22.2 リリースの概要](product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md)

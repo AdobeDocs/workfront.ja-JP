@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
+source-git-commit: e6ccf6f8f46b61e10ad100a1724e0131207319f3
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -223,6 +223,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">ドラッグ&amp;ドロップでリンクされたフォルダーにドキュメントを移動する際のエクスペリエンスを向上</a><span style="color: #ff0000;"> プレビューの新機能</span></p> 
+                        <p>ドキュメントをリンクされたフォルダーにドラッグ&amp;ドロップするプロセスに、いくつかの透明性が追加されました。 これで、リンクされたフォルダに移動したドキュメントは、完全に移動されるまでドキュメントリストに残ります。 ドキュメントのオプションは無効ですが、ドキュメントの移動中にドキュメントを開いて表示することはできます。 ドキュメントはリンクされたフォルダ内に完全に配置されるので、ドキュメントの転送が完了すると、ドキュメントリストから消えます。 </p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 6 月 8 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 6 月 16 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">プロジェクトの作成時に、Adobe Experience Manager Assets にリンクされたフォルダーを自動的に作成する</a></p>
                         <p>Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用して、Adobe Experience Manager Assets フォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。 </p>
                     </td>
@@ -306,7 +322,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新しいドキュメント承認</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Microsoft Office の配達確認のサポートの変更</a> </p>
+                        <p>堅牢で拡張性の高い配達確認処理ソリューションを維持するために、サポートされるMicrosoft Office ファイルの種類とファイルサイズの制限を変更しています。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 6 月 9 日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 6 月 9 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">新しいドキュメント承認</a> </p>
                         <p>ドキュメント承認は段階的なロールアウトで再設計され、リリースごとに多くのユーザーが利用できるようになります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -343,7 +375,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">プロジェクト、タスク、ドキュメントに関する新しいコメントベータ版のエクスペリエンス</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">プロジェクト、タスク、ドキュメントに関する新しいコメントベータ版のエクスペリエンス</a> </p>
                         <p>新しいコメント作成ベータ版エクスペリエンスを、プロジェクト、タスク、ドキュメントで使用できるようになりました。 この更新以前は、コメント化ベータ版のエクスペリエンスは、問題と目標に対してのみ利用できました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -352,7 +384,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>プレビューリリース： 2023 年 6 月 2 日<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.3 リリースを使用</p>
+                                <p>実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
                     </td>
@@ -406,6 +438,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新しい Canvas Dashboard エクスペリエンスの強化</a></p>
+                        <p>Canvas Dashboard の機能強化は、23.3 リリース期間内に提供されます。 特に指定のない限り、これらの機能強化は、23.3 リリースの実稼動環境で利用可能になります。 
+ </p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 23.3 リリース期間を通じて<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース： 23.3 リリース（特に指定のない限り）を使用</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>
 
