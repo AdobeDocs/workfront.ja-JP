@@ -6,10 +6,10 @@ description: テキストモードでの条件付き書式の使用
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 16d59c6e3d790f2804795f5a6fef05c8dca71b30
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 2%
+source-wordcount: '1743'
+ht-degree: 1%
 
 ---
 
@@ -295,7 +295,6 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* この文は会社名の列に適用できますが、レポート上の他の列にも適用できます。 緑のテキストは、プロジェクトに会社が関連付けられている場合にのみ表示されます。 を記憶する `[field name]`, `[value]`、および `[qualifier]` 条件付けが最終的に列に表示されるかどうかをドライブします。
 >* 修飾子を使用する場合、 `cicontains` ではなく `equal`. デフォルトでは、 `equal` は ID 番号を探します。 の使用 `cicontains` クオリファイア、名前でアイテムにアクセスできます。
 
-
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
 ![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
@@ -322,7 +321,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 | 赤 | `d30519` |
 | 黄 | `e19503` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **整合性** | **行：align=** |
 |---|---|
@@ -330,14 +329,14 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 | 右揃え | `right` |
 | 中央揃え | `center` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | フォント | 行： ***fontstyle=*** |
 |---|---|
 | 太字 | `bold` |
 | 斜体 | `italic` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **背景色** | **行：bgcolor=** |
 |---|---|
@@ -350,7 +349,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 | 黄 | `feecc8` |
 | 白 | `ffffff` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 #### 複数の条件付き書式 {#multiple-conditional-formats}
 
@@ -375,8 +374,6 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 >[!NOTE]
 >
 >複数の条件付き書式式を含める場合は、ステートメント内の各式を数値で識別する必要があります。 式 0 と式 1 が識別されていることに注意してください。
-
-![](assets/screen-shot-2013-08-15-at-3.18.45-pm-350x198.png)
 
 #### テキストを適用 {#apply-text}
 
@@ -553,7 +550,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 | 白い円 ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
 | 黄色い円 ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 条件付きでの書式設定 `valueexpression` {#conditionally-format-a-valueexpression}
 
@@ -580,9 +577,9 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 * 集計を計算を表示する列に追加できます。 集計値は、ビューまたはレポートのグループ化に表示されます。 詳しくは、 [グループ化：グループ化での複数の計算値の集計結果の表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * 列の定義に使用するコード行は、集約を導入し、その前に「集約」が付くコード行と同じである必要があります。 たとえば、プロジェクトに予定時間を表示する列がある場合、列の主な行のテキストモードは次のようになります。
 
-   ```
-   valuefield=workRequired
-   valueformat=compound
-   ```
+  ```
+  valuefield=workRequired
+  valueformat=compound
+  ```
 
-   ビューのグループ化ですべての行の値を集計する場合、次のコードを追加して集計値を追加できます。 `aggregator.valuefield=workRequired` ( `aggregator.valuefield` 行は `valuefield` （列を説明する） `aggregator.valueformat=compound` ( `aggregator.valueformat` 行は、 `valueformat` （列を説明する） `aggregator.function=SUM` （これは、列を集計する方法を示す必須行です。この場合、個々の計画時間をグループ化行の 1 つの数値に追加します） `aggregator.displayformat=minutesAsHoursString` ( 時間はWorkfrontに分単位で格納されるので、 `displayformat` 分単位で格納される時間 )
+  ビューのグループ化ですべての行の値を集計する場合、次のコードを追加して集計値を追加できます。 `aggregator.valuefield=workRequired` ( `aggregator.valuefield` 行は `valuefield` （列を説明する） `aggregator.valueformat=compound` ( `aggregator.valueformat` 行は、 `valueformat` （列を説明する） `aggregator.function=SUM` （これは、列を集計する方法を示す必須行です。この場合、個々の計画時間をグループ化行の 1 つの数値に追加します） `aggregator.displayformat=minutesAsHoursString` ( 時間はWorkfrontに分単位で格納されるので、 `displayformat` 分単位で格納される時間 )

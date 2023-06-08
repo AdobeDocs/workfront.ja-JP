@@ -6,7 +6,7 @@ description: 作業オブジェクトの更新に対して、誰かが追加ま�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 1%
@@ -29,13 +29,13 @@ ht-degree: 1%
 >
 >* 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>.
 >
->  これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
+>     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
 >
->  この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
 >
->  * ホーム
->  * リストの概要パネル
->  * タイムシートの概要パネル
+>     * ホーム
+>     * リストの概要パネル
+>     * タイムシートの概要パネル
 >
 >* 目標
 >

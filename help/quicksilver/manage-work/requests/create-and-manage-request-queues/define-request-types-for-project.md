@@ -6,9 +6,9 @@ description: Adobe Workfrontにログインする問題やリクエストの種�
 author: Alina
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
@@ -32,13 +32,15 @@ Adobe Workfrontにログインする問題やリクエストの種類は、リ�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfrontライセンス</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">ライセンスの概要</a>*</td> 
    <td> <p>計画 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
-  </tr> 
+   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
+
+まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>プロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
@@ -50,15 +52,15 @@ Adobe Workfrontにログインする問題やリクエストの種類は、リ�
 
 ## 前提条件
 
-始める前に、
+開始する前に、次の操作を行う必要があります。
 
 * プロジェクトを作成する
 
-   プロジェクトの作成について詳しくは、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
+  プロジェクトの作成について詳しくは、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
 
 ## リクエストタイプに関する考慮事項
 
-* プロジェクトにログオンできる問題や要求の種類は、 **キューの詳細** プロジェクトの領域。
+* プロジェクトにログオンできる問題や要求の種類は、 **キューの詳細** プロジェクトの領域。
 * プロジェクトの要求タイプを定義するために、プロジェクトを要求キューにする必要はありません。 プロジェクトに関してログに記録される問題には、別のリクエストタイプのラベルを付けることができます。
 * プロジェクトにキュートピックを追加する場合、新しい問題やリクエストを追加する際に表示するリクエストタイプを各キュートピックに定義する必要があります。 詳しくは、 [キュートピックを作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -76,7 +78,7 @@ Adobe Workfrontにログインする問題やリクエストの種類は、リ�
 
    次のタイプから選択します。
 
-   * バグ報告書
+   * バグレポート
    * 変更依頼
    * 問題
    * リクエスト
