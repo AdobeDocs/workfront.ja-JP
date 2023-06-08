@@ -6,16 +6,16 @@ description: 20.4 リリースは、2020 年 11 月 10 日の週に、実稼動�
 author: Luke
 feature: Product Announcements
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
 workflow-type: tm+mt
-source-wordcount: '3682'
+source-wordcount: '3666'
 ht-degree: 0%
 
 ---
 
 # 20.4 リリースの概要
 
-20.4 リリースは、2020 年 11 月 10 日の週に、実稼動環境で使用可能になりました。 各クラスターの特定のリリース日時については、 [Workfront Status Site](https://status.workfront.com/).
+20.4 リリースは、2020 年 11 月 10 日の週に、実稼動環境で使用可能になりました。
 
 このページでは、Adobe Workfront Classic と、20.4 リリースに含まれる新しいAdobe Workfrontエクスペリエンスの両方の機能について説明します。
 
