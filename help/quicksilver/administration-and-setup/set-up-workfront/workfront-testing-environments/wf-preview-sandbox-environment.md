@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,7 @@ As a [!DNL Workfront] 管理者は、 [!DNL Workfront] インターフェイス�
 
 #### クラスター 1、2、3、5 のアカウントのプレビューサンドボックスへのアクセス {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-これまで、プレビューサンドボックスには、 [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
-
-この URL はサポートされなくなり、プレビューサンドボックス環境用の新しい URL にリダイレクトされませんでした。 プレビューサンドボックスの新しい正しい URL は次のとおりです。 [https://companyname.preview.workfront.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.preview.workfront.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFZQYw9VWjr2tuvQLfSJHneqJj_PQ).
+プレビューサンドボックスの URL は次のとおりです。 `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -115,7 +113,7 @@ As a [!DNL Workfront] 管理者は、 [!DNL Workfront] インターフェイス�
 
 URL を使用してプレビューサンドボックスにログインするには：
 
-1. 次の URL に移動します。 [[!DNL https]://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)
+1. 次の URL に移動します。 `https://companyname.preview.workfront.com/`.
 
    EMEA のお客様で、お客様のアカウントがクラスター 4 にある場合は、の節を参照してください。 [クラスター 4 のアカウント（EMEA アカウント）のプレビューサンドボックスへのアクセス](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) 」を参照してください。
 
