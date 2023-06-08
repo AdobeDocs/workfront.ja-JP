@@ -1,8 +1,11 @@
 ---
+content-type: reference
+navigation-topic: betas
 title: 'キャンバスダッシュボードベータ版：リリースアクティビティ'
 description: Adobe Workfront Canvas ダッシュボードベータ版の週別リリースアクティビティ
 author: Nolan
-source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
+feature: Product Announcements
+source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -20,4 +23,4 @@ ht-degree: 0%
 
 * **グラフレポート**
 
-   リストレポートに加えて、グラフレポートをキャンバスに追加できるようになりました。 キャンバスダッシュボードにグラフレポートを追加する方法について詳しくは、 [キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  リストレポートに加えて、グラフレポートをキャンバスに追加できるようになりました。 キャンバスダッシュボードにグラフレポートを追加する方法について詳しくは、 [キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
