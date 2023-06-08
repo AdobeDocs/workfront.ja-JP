@@ -2,7 +2,7 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 0d5f0df35136f3a643b2c7a6cfe1c2377671352f
+source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
 workflow-type: tm+mt
 source-wordcount: '13064'
 ht-degree: 2%
@@ -352,9 +352,9 @@ ht-degree: 2%
          * [送信メールオプションとしてのカスタム SMTP の削除](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * ベータプログラム {#beta}
       * [ベータプログラム](product-announcements/betas/betas.md)
-      * レポートキャンバスベータ版 {#reporting-canvas-beta}
-         * [レポートキャンバスベータ版の概要](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-         * [レポートキャンバスベータ版：リリース活動](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * キャンバスダッシュボードベータ版 {#canvas-dashboards-beta}
+         * [レポートキャンバスベータ版の概要](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [キャンバスダッシュボードベータ版：リリース活動](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 新しいコメントエクスペリエンスベータ版 {#new-commenting-experience-beta}
          * [新しいコメントベータ版のエクスペリエンス情報](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [新しいコメントエクスペリエンス](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)

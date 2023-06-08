@@ -4,10 +4,10 @@ description: レポートキャンバスでの棒グラフビジュアライゼ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 3%
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## 前提条件
 
-開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## 棒グラフのビジュアライゼーションの設定
 
@@ -68,7 +68,7 @@ ht-degree: 3%
       |---|---|
       | データソースを表示 | このオプションを有効にすると、レポートキャンバスにビジュアライゼーションのソーステーブルが表示されます。または、このオプションを無効にすると非表示になります。 |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
       <!--   
       NOLAN-FLAG: convert table to html. 

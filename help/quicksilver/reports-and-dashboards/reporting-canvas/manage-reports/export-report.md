@@ -5,10 +5,10 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ## 前提条件
 
-開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## レポートのエクスポート
 

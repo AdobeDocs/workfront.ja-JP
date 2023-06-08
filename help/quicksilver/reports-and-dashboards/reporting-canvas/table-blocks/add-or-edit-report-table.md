@@ -5,7 +5,7 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 前提条件
 
-開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## テーブルブロックを追加または編集する
 

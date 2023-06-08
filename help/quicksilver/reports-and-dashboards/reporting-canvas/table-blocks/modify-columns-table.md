@@ -4,9 +4,9 @@ description: レポートキャンバスでのテーブル列の設定
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 前提条件
 
-開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## テーブルの列を変更する
 
@@ -45,7 +45,7 @@ ht-degree: 2%
    | 列の移動 | テーブルの列の順序を並べ替えるには、列名をクリックし、新しい場所にドラッグします。 |
    | 列の削除 | テーブルから列を削除するには、削除する列をクリックし、列名の右側にある x をクリックします。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 列を設定するには、テーブルのヘッダー行で、変更する列の名前をクリックし、右側のパネルで次のいずれかのタブをクリックします。
 

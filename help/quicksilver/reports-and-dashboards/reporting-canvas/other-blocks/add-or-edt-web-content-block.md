@@ -6,10 +6,10 @@ description: Web コンテンツブロックを使用すると、外部の Web �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Web コンテンツブロックを使用すると、外部の Web サイトか�
 
 ## 前提条件
 
-開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Web コンテンツブロックの追加または編集
 
@@ -70,7 +70,7 @@ Web コンテンツブロックを使用すると、外部の Web サイトか�
    | 無効な URL | 入力された URL は有効なサイトを返しません。 |
    | プロバイダーサイトの制限 | 埋め込もうとしているサイトは許可されていません。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. （オプション） **パスパラメーター** 切り替えて、使用可能なパスパラメータのリストを開きます。
 
