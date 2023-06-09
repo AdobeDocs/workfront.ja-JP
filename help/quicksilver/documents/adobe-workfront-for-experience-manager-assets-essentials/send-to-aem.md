@@ -6,9 +6,9 @@ description: ドキュメントは、WorkfrontからExperience Manager Assetsま
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 91da06fe23b464e0422d50b0db69f4eae3db642f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -103,3 +103,21 @@ ht-degree: 0%
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 「**保存**」をクリックします。新しいバージョンは、以前のバージョンと同じ場所に保存されます。
+
+## ドキュメントをExperience Manager Assets内のリンクされたフォルダーに移動する
+
+>[!NOTE]
+>
+>この機能は、Experience Manager Assets as a Cloud Serviceでのみ使用できます。 Experience Manager Assets Essentials では使用できません。
+
+ドキュメントとリンク先のフォルダーの両方が同じドキュメントリスト（プロジェクトのドキュメント領域など）にある場合、ドキュメントをExperience Manager Assetsのリンク先のフォルダーに移動できます。
+
+1. 移動するドキュメントを見つけます。
+1. ドキュメントの移動先となる、リンクされたExperience Manager Assetsフォルダーにドキュメントをドラッグ&amp;ドロップします。
+
+ドキュメントの移動中は、ドキュメントオプションは使用できません。 ドキュメントをExperience Manager Assetsに移動すると、はWorkfrontのドキュメントリストに表示されなくなります。
+
+>[!NOTE]
+>
+> ドキュメントの移動中にドキュメントに対しておこなったアクションや編集は、Experience Manager Assetsのドキュメントには表示されないので、失われます。
+

@@ -6,9 +6,9 @@ description: Adobe Workfront - EDIT ME の以下の領域で、プロジェク�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
+source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
 ドキュメントを追加するには：
 
 1. 新しいドキュメントを追加するプロジェクト、タスク、またはタスクに移動します。
-1. 次をクリック： **ドキュメント** 「 」タブで、 **新規追加** ドロップダウンメニュー。
+1. 次をクリック： **ドキュメント** 「 」タブで、 **新規追加** ドロップダウンメニュー。
 
    ![](assets/add-new-350x138.png)
 
@@ -76,16 +76,17 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
       <td role="rowheader">ワークステーションにファイルシステムからドキュメントをアップロード</td> 
       <td> 
        <ol> 
-        <li value="1">次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>文書。</strong></li> 
+        <li value="1">次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>文書。</strong></li> 
         <li value="2"> <p>ワークステーション上のファイルシステムから、追加するドキュメントを参照して選択します。<br></p> <p>Shift キーを押しながら追加のファイルを選択すると、複数のドキュメントを選択できます。</p> </li> 
         <li value="3">クリック <strong>開く</strong>.</li> 
-       </ol> </td> 
+       </ol> 
+       <p><b>注意</b>:また、ファイルマネージャーから直接ドキュメントリストにファイルをドラッグ&amp;ドロップすることもできます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Google Drive やSharePointなどのサードパーティアプリケーションからドキュメントをアップロードする</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>送信者 &lt;name_of_third-party_application&gt;</strong>.</p> <p>例えば、Google Drive からドキュメントをアップロードするには、 <strong>Google Drive から</strong>.</p> </li> 
+        <li value="1"> <p>次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>送信者 &lt;name_of_third-party_application&gt;</strong>.</p> <p>例えば、Google Drive からドキュメントをアップロードするには、 <strong>Google Drive から</strong>.</p> </li> 
         <li value="2"> <p>画面の指示に従って、サードパーティアプリケーションでドキュメントを選択します。<br></p> <p>リンクされたドキュメントの詳細については、 <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">外部アプリケーションからドキュメントをリンク</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -93,7 +94,7 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
       <td role="rowheader">別のWorkfrontユーザーからのドキュメントのリクエスト</td> 
       <td> 
        <ol> 
-        <li value="1">次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>ドキュメントのリクエスト</strong>.</li> 
+        <li value="1">次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>ドキュメントのリクエスト</strong>.</li> 
         <li value="2">内 <strong>誰からリクエストしているか</strong> ボックスに、ドキュメントを要求するユーザーの名前を入力します。</li> 
         <li value="3">内 <strong>リクエスト内容を伝える</strong> ボックスに、ドキュメントの名前を入力します。</li> 
         <li value="4"> <p>クリック <strong>リクエストを送信</strong>.</p> <p>リクエストが「ドキュメント」タブに表示されます。</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>ドキュメントのリクエストについて詳しくは、 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">ドキュメントのリクエスト</a>.</p> </li> 
