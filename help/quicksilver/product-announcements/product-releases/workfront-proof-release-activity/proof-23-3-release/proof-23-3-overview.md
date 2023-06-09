@@ -6,13 +6,13 @@ title: Adobe Workfront Proof（23.3 リリースでの使用）
 description: このページでは、23.3 リリースで実稼動環境にリリースされる新しいAdobe WorkfrontエクスペリエンスにおけるAdobe Workfront Proof の機能について説明します。
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
+source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront Proof（23.3 リリースでの使用）
 
@@ -34,9 +34,25 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
-                <tr>
+                </tr>
+                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">デスクトップ校正ビューアの更新</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Microsoft Office の配達確認のサポートの変更</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span> </p>
+                        <p>堅牢で拡張性の高い配達確認処理ソリューションを維持するために、サポートされるMicrosoft Office ファイルの種類とファイルサイズの制限を変更しています。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 6 月 9 日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 6 月 9 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">デスクトップ校正ビューアの更新</a></p>
                         <p>デスクトップ校正ビューアがバージョン 2.1.24 に更新されました。 この更新には、インタラクティブな配達確認のレビュー用の Chrome v100 のサポートに加えて、多くの問題の修正が含まれています。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>

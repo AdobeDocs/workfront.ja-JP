@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
+source-git-commit: 03290cff97c2505d9719f1a90196017a6d797a3b
 workflow-type: tm+mt
-source-wordcount: '13069'
+source-wordcount: '13077'
 ht-degree: 2%
 
 ---
@@ -214,6 +214,7 @@ ht-degree: 2%
       * Workfront Proof リリースアクティビティ {#proof-release}
          * 23.3 リリースでの配達確認 {#proof-23-3-release}
             * [Adobe Workfront Proof（23.3 リリースでの使用）](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3 リリースアクティビティ：2023 年 6 月 5 日の週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3 リリースアクティビティ：2023 年 5 月 8 日の週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof リリースアクティビティ：2021 年 5 月 17 日の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof リリースアクティビティ：2021 年 11 月 29 日の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
