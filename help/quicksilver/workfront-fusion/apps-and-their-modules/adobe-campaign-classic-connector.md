@@ -9,7 +9,7 @@ description: を使用 [!DNL Adobe Campaign Classic] モジュールを使用す
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 482725764ede6b2700985fa67dc2cb9f92d3bb12
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 1%
@@ -82,7 +82,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL フィルター ]</td> 
@@ -128,7 +128,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リソース ]</td> 
@@ -155,7 +155,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アクション ]</td>
@@ -191,7 +191,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リソース ]</td> 
@@ -217,7 +217,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL アクション ]</td> 
@@ -244,7 +244,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リソース ]</td> 
@@ -276,7 +276,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 購読または購読解除 ]</td> 
@@ -303,7 +303,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リソース ]</td> 
@@ -336,7 +336,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
+   <td>への接続を作成する手順 [!DNL Adobe Campaign Classic]を参照してください。 <a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >への接続の作成 [!DNL Adobe Campaign Classic]</a> 」を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リソース ]</td> 
