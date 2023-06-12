@@ -5,24 +5,25 @@ title: キャンバスダッシュボードの概要
 description: レポートキャンバスビジュアライゼーションを従来のレポートと統合し、新しいレイアウトオプションを備えたキャンバスダッシュボードを作成できます。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
+source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # キャンバスダッシュボードの概要
 
 現在ダッシュボード用の開発中の機能である Canvas Dashboards は、Workfrontで効果的なダッシュボードを構築するための新しいオプションを提供します。 キャンバスダッシュボードを使用すると、レポートキャンバスのビジュアライゼーションを既存のレポートに簡単に含めることができ、柔軟性が向上し、新しいレイアウトオプションが提供されます。
 
 この機能は開発中で、まだ次の機能をサポートしていません。
-* グラフレポート
 * 外部ページ
 * カレンダー統合
 * プロンプトレポート
 * レイアウトテンプレートを使用した配布
+
+キャンバスダッシュボードに追加された機能の完全なリストについては、 [キャンバスダッシュボード：リリース活動](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## キャンバスダッシュボードにアクセス
 

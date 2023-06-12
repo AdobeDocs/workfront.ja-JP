@@ -7,9 +7,9 @@ description: ファイルの作成に使用するソフトウェア (Photoshop�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: fa0247796b2d0fc147a0b6a564a306c7e594c6fb
+source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
 Workfrontには次の制限があります。
 
 * ファイルのサイズは、1 ファイルあたり 4 GB 未満にする必要があります。
+* Microsoft Word(DOC、DOCX) および PowerPoint(PPT、PPTX) ファイルは 512 MB 未満である必要があります。
 * XLS および XLSX ファイルは 100 MB 未満にする必要があります。
 * 配達確認に対するコメントに添付するファイルは 30 MB 未満である必要があります。
 * PNG は、65535px 未満の高さと幅にする必要があります。
@@ -34,6 +35,18 @@ Workfrontには次の制限があります。
 >サイズの大きいファイルのアップロードには時間がかかり、接続が安定していない場合は、アクションが中断または中断される場合があります。
 
 ## 静的ファイル
+
+>[!IMPORTANT]
+> 次の静的ファイルタイプはサポートされなくなりました。
+>
+> * DOT - Microsoft Word ドキュメントテンプレート
+> * DOTX - Microsoft Word 文書テンプレート
+> * POT - Microsoft PowerPoint テンプレート
+> * POTX - Microsoft PowerPoint テンプレート
+> * PPS - Microsoft PowerPoint スライドショー
+> * PPSX - Microsoft PowerPoint Slideshow
+> * XLT - Microsoft Excel テンプレート
+> * XLTX - Microsoft Excel テンプレート
 
 * ABC — リードの高度なモノクロ圧縮
 * ABIC — アダプティブバイレベル画像圧縮
@@ -155,12 +168,22 @@ Workfrontには次の制限があります。
 
 ## 静的ファイル — テキストツール
 
+>[!IMPORTANT]
+> テキストツールでは、次の静的ファイルタイプのサポートを終了しました。
+>
+> * DOT - Microsoft Word ドキュメントテンプレート
+> * DOTX - Microsoft Word 文書テンプレート
+> * POT - Microsoft PowerPoint テンプレート
+> * POTX - Microsoft PowerPoint テンプレート
+> * PPS - Microsoft PowerPoint スライドショー
+> * PPSX - Microsoft PowerPoint Slideshow
+> * XLT - Microsoft Excel テンプレート
+> * XLTX - Microsoft Excel テンプレート
+
 * AI - Adobe Illustrator Artwork
 * AIT - Adobe Illustrator Template
 * DOC - Microsoft Word 文書
 * DOCX - Microsoft Word 文書
-* DOT - Microsoft Word ドキュメントテンプレート
-* DOTX - Microsoft Word 文書テンプレート 
 * EPS - Encapsulated PostScript
 * PDF-Adobeポータブルドキュメントファイル
 * PPT - PowerPoint プレゼンテーション
@@ -169,8 +192,7 @@ Workfrontには次の制限があります。
 * RTF — リッチテキスト
 * XLS - Microsoft Excel スプレッドシート
 * XLSX - Microsoft Excel スプレッドシート 2007
-* XLT - Microsoft Excel テンプレート
-* XLTX - Microsoft Excel テンプレート
+
 
 ## ビデオファイル
 
