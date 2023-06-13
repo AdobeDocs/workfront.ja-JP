@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion は現在、このリストに記載され�
 author: Becky
 feature: Workfront Fusion
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8806688a8e766efd046c49a2980d00d95999d05c
+source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 33%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 33%
 >* [SOAP モジュール](../../workfront-fusion/apps-and-their-modules/soap-module.md)
 >* [JSON モジュール](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 >
-
 
 ## Workfront Fusion アプリとそのモジュール
 
@@ -49,7 +48,7 @@ ht-degree: 33%
 * [[!DNL Azure Active Directory] モジュール](../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md)
 * [[!DNL Azure DevOps] モジュール](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
   -->
 
@@ -57,7 +56,7 @@ ht-degree: 33%
 * [[!DNL Bynder] モジュール](../../workfront-fusion/apps-and-their-modules/bynder-modules.md)
 * [[!DNL CloudConvert] モジュール](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
   -->
 
@@ -68,7 +67,7 @@ ht-degree: 33%
 * [[!DNL DocuSign] モジュール](../../workfront-fusion/apps-and-their-modules/docusign-modules.md)
 * [[!DNL Dropbox] モジュール](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
   -->
 
@@ -91,16 +90,17 @@ ht-degree: 33%
 * [HTTP モジュール](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
 * [[!DNL HubSpot CRM] モジュール](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
 * [画像モジュール](../../workfront-fusion/apps-and-their-modules/image-module.md)
-* [[!DNL Intacct] モジュール](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
-
-   <!--
+<!--
+* [[!DNL Intacct] modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
+-->
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->
 
 * [[!DNL Jira] ソフトウェアモジュール](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)
 * [[!UICONTROL JSON モジュール]](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/mailchimp-modules.md" class="MCXref xref" xrefformat="{para}">MailChimp modules</a> </li>
   -->
 

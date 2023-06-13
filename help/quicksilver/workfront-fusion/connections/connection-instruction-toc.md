@@ -9,9 +9,9 @@ description: 接続は、接続先のアプリまたは Web サービスの API 
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -71,11 +71,11 @@ Workfrontと [!DNL Workfront Fusion] は、連携するように設計されて�
 
 * 使用 [!DNL Microsoft Dynamics 365] モジュール。
 
-   手順については、 [[!DNL Microsoft Dynamics 365] モジュール](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+  手順については、 [[!DNL Microsoft Dynamics 365] モジュール](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
 * への接続 [!DNL Microsoft Graph API] の使用 [!UICONTROL HTTP] モジュール
 
-   手順については、 [を [!DNL MS Graph REST API] 経由 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 リクエストを作成] モジュール](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  手順については、 [を [!DNL MS Graph REST API] 経由 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 リクエストを作成] モジュール](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
 
 ## に接続 [!DNL Google] アプリまたは web サービス
 
@@ -145,10 +145,6 @@ Workfrontと [!DNL Workfront Fusion] は、連携するように設計されて�
 <tr> 
    <td role="rowheader"> <p>[!DNL Gmail]</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md#connect3" class="MCXref xref">接続 [!DNL Gmail] から [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md" class="MCXref xref">[!DNL Gmail] モジュール</a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!DNL Intacct]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md#connecti" class="MCXref xref">接続 [!DNL Intacct] から [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md" class="MCXref xref">[!DNL Intacct] モジュール</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira Cloud]</td> 
