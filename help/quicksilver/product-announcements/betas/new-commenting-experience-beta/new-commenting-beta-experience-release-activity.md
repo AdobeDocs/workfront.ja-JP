@@ -6,10 +6,10 @@ description: Adobe Workfrontの新しいコメントベータ版エクスペリ�
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '871'
+ht-degree: 5%
 
 ---
 
@@ -26,6 +26,24 @@ ht-degree: 6%
 >Workfrontオブジェクトのベータ版エクスペリエンスにリリースされたコメント機能は、Workfront目標の目標オブジェクトの更新セクションにもリリースされています。
 
 以下の節では、最近リリースされた機能から、元のリリースの後に追加された機能を示します。
+
+## 2023 年 6 月 13 日の週
+
+### コメント編集時のエクスペリエンスが向上しました
+
+コメントの編集時に、次のショートカットキーを使用できるようになりました。
+
+* Ctrl + Z(Macの場合は Command + Z)：変更を元に戻します。
+
+* Ctrl + Y(Macの場合は Command + Y)：変更をやり直します。
+
+これらの機能強化がおこなわれる前は、コメントの編集中に変更を取り消しまたはやり直すことができませんでした。 詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+プレビュー：2023 年 6 月 14 日
+
+本番：2023 年 6 月 14 日
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## 2023 年 5 月 29 日の週
 

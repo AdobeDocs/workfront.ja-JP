@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
    >
    >コメントを入力して送信する前に「更新」セクションから移動すると、ログオフしてログオンし直した後でも、ページ上のコメントがドラフトモードのままになります。 コメントに追加された画像も下書きに保存されます。 ドラフトは 7 日間保存され、その後は破棄され、復元できません。 下書きのコメントは、ユーザーが入力した場合にのみ表示されます。
 
+1. （オプション）変更の取り消しまたはやり直しをおこなうには、次のショートカットキーを使用します。
+   * Ctrl + Z( Macの場合は⌘+z)：変更を元に戻します。
+   * Ctrl + Y( Macの場合は⌘+y)：変更をやり直します。
 1. （オプション）更新、ハイパーリンク、画像にリッチテキスト書式を追加するには、リッチテキストツールバーまたはその横にあるアイコンの任意のオプションを使用します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （オプション） **担当者またはチームのタグ付け** 領域に入力し、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
 1. を選択します。 **私の会社に対してプライベート** コメントを社内の担当者にのみ表示するように切り替えます。
@@ -170,13 +173,12 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
    >
    > * 日付スタンプは、最新の更新日ではなく、元のコメントの日付です。
 
-
    1. （オプション） **詳細** メニュー ![](assets/more-icon.png)次に、次のいずれかのオプションをクリックして、コメントからクリップボードに情報をコピーします。
 
       * **リンクをコピー** ：返信なしで更新のリンクをコピーします。
       * **本文をコピー** をクリックして、更新のテキストをコピーします。
 
-         詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （オプション） **詳細** メニュー ![](assets/more-icon.png) コメントの右側に移動し、「 **削除** 追加したコメントを削除します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 5～9 に従います。 <!--insure this stays accurate-->
