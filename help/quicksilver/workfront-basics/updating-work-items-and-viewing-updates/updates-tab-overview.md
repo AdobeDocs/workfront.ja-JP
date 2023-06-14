@@ -7,7 +7,7 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -28,22 +28,20 @@ ht-degree: 4%
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
 > * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>.
-   >
-   >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
-   >
-   >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
-   >
-   >     * ホーム
-   >     * リストの概要パネル
-   >     * タイムシートの概要パネル
 >
-> * 目標
-
-   >
-   >   新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
+>
+>     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>
+>     * ホーム
+>     * リストの概要パネル
+>     * タイムシートの概要パネル
+>
+> * 目標<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   新しいコメントエクスペリエンスが目標のデフォルトです <!--<span class="preview">and cards</span>-->. Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 オブジェクトの「更新」(Updates) セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更を追跡するシステム更新が表示されます。
 
@@ -124,6 +122,13 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## 上位のオブジェクトにも表示される更新
 
