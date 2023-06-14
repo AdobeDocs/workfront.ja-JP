@@ -6,9 +6,9 @@ description: 新しいボードには、デフォルトで 3 つの列が含ま�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
+source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ ht-degree: 0%
    次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) をクリックし、「 **[!UICONTROL 編集]**. 設定領域で、新しい名前を **[!UICONTROL 列名]** 「 」フィールドで「 」をクリックし、 **[!UICONTROL 閉じる]**.
 
 ## ボード列の削除
+
+ボードから列を削除した場合、その列は復元できません。
 
 1. ボードにアクセスします。
 1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) 列で、を選択します。 **[!UICONTROL 削除]**.
