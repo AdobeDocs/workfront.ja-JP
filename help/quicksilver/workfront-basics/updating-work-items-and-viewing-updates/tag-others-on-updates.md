@@ -6,7 +6,7 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
 > * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>.
-   >
-   >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
-   >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
-   >
-   >     * ホーム
-   >     * リストの概要パネル
-   >     * タイムシートの概要パネル
 >
-> * 目標
-
-   >
-   >   新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
+>
+>     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>
+>     * ホーム
+>     * リストの概要パネル
+>     * タイムシートの概要パネル
+>
+> * 目標<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   新しいコメントエクスペリエンスが目標のデフォルトです <!--<span class="preview">and cards</span>-->. Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 ユーザーが従わない可能性のあるオブジェクトに注意を向けたい場合は、オブジェクトの更新時にユーザーにタグを付けることができます。
@@ -51,6 +50,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >ユーザーが電子メール通知を受け取るには、プロファイルで個人通知を有効にする必要があります。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 更新をWorkfrontオブジェクトに追加する方法について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ ht-degree: 0%
    >
    >* このオプションは、ユーザーが会社に関連付けられている場合にのみ表示されます。
    >* 会社外のタグ付きユーザーは、「更新」タブに非公開コメントが表示されなくても、アプリ内通知や電子メールを引き続き受け取ることができます。 情報を共有したくない場合は、更新時に外部ユーザーにタグ付けしないことをお勧めします。
-
 
 1. （オプション）複数のユーザーおよびチームを追加するには、手順 2 を繰り返します。 <!--insure this stays accurate-->
 

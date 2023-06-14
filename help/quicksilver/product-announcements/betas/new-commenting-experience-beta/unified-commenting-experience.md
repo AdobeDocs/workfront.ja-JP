@@ -6,9 +6,9 @@ description: Adobe Workfrontのコメントエクスペリエンスのアップ�
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,22 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
   </tr>
   <tr>
  <tr>
-   <td>リッチテキスト（引用符と絵文字）
+   <td>リッチテキスト（ブロック引用符）
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 2023 年第 2 四半期
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> 見積もりコメント
    </td>
    <td>✓ 
    </td>
@@ -116,8 +131,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
   </tr>
   <tr>
-
-<td>コメントに反応（「いいね！」） 
+   <td>コメントに反応（「いいね！」） 
    </td>
    <td>✓ 
    </td>
@@ -410,17 +424,19 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 * 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
    * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>
-   Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * デフォルトでは、メインのコメントエクスペリエンスとして次のようになります。
 
    * 目標
-   >[!NOTE]
-   >
-   >Workfrontのこの領域にアクセスするには、 Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-   目標の更新の管理について詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../../workfront-goals/goal-management/manage-goal-comments.md).
+  >[!NOTE]
+  >
+  >Workfrontのこの領域にアクセスするには、 Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+  目標の更新の管理について詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 新しい Commenting Experience Beta を有効にするには：

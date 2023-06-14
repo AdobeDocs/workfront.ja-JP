@@ -6,9 +6,9 @@ description: Adobe Workfrontの新しいコメントベータ版エクスペリ�
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '953'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,27 @@ ht-degree: 5%
 
 以下の節では、最近リリースされた機能から、元のリリースの後に追加された機能を示します。
 
-## 2023 年 6 月 13 日の週
+## 2023 年 6 月 12 日の週
+
+### 「ボード」領域のカードに関する新しいコメントベータ版エクスペリエンス
+
+新しいコメントベータ版のエクスペリエンスが、ボード領域のカードで利用できるようになりました。 詳しくは、 [23.3 リリースの概要](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+プレビュー：2023 年 6 月 16 日
+
+先行オプトインの実稼動リリース：2023 年 6 月 23 日
+
+すべての顧客の本番環境：23.3 リリースの場合
+
+### コメントにブロック引用を追加する
+
+新しいコメントベータ版エクスペリエンスのリッチテキストツールバーオプションを使用して、コメントにブロック引用符を追加できるようになりました。
+
+詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+プレビュー：2023 年 6 月 15 日
+
+本番：2023 年 6 月 16 日
 
 ### コメント編集時のエクスペリエンスが向上しました
 

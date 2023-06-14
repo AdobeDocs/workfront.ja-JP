@@ -6,7 +6,7 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '3211'
 ht-degree: 1%
@@ -36,9 +36,9 @@ ht-degree: 1%
 >     * リストの概要パネル
 >     * タイムシートの概要パネル
 >
-> * 目標
+> * 目標<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   新しいコメントエクスペリエンスが目標のデフォルトです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新しいコメントエクスペリエンスが目標のデフォルトです <!--<span class="preview">and cards</span>-->. Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -283,7 +283,7 @@ drafted for P&P release:
    | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、次の手順を実行します。⌘+K</br> <br>コメントベータ版エクスペリエンスで、選択したテキストにリンクを貼り付けます。⌘+V</br> | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、次の手順を実行します。Ctrl+K</br> <br>コメントベータ版エクスペリエンスで、選択したテキストにリンクを貼り付けます。Ctrl+V</br> |
    | 箇条書き | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 番号付きリスト | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | ブロック引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | ブロック引用 | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    テキストの書式設定を停止するには、 **リッチテキスト** ツールバー。
 
