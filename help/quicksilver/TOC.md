@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 57c6a93dffbf171adfb5b3c9d05f0f820cde8567
+source-git-commit: 80d3424e3adcabbe8222e74bd37eeb7304c3e734
 workflow-type: tm+mt
-source-wordcount: '13075'
+source-wordcount: '13078'
 ht-degree: 2%
 
 ---
@@ -1729,6 +1729,7 @@ ht-degree: 2%
       * [ドキュメントのレビューと承認](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * ドキュメント承認を管理 {#manage-document-approvals}
          * [ドキュメント承認を管理](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+         * [ドキュメント承認の概要](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approvals-overview.md)
          * [ドキュメントの承認の作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [ドキュメントにレビュー担当者または承認者を追加する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [ドキュメントから承認者またはレビュー担当者を削除する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
