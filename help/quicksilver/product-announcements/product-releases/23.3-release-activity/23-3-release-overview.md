@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
+source-git-commit: 8e30fbc97ce083802ae705466b3a9ee3abaecbaf
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">ボードのカードにコメントを追加する</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>ボード上のアドホックカードと接続されたカードの両方にコメントを追加し、そのコメントで他のユーザーにタグ付けできるようになりました。 コメントはカードの詳細で確認できます。 ボードのコメント機能は、新しいAdobe Workfrontのコメント機能を使用します。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 6 月 16 日</p>
+                            </li>
+                            <li>
+                                 <p>先行オプトインの実稼動リリース：2023 年 6 月 23 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -223,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">ドラッグ&amp;ドロップでリンクされたフォルダーにドキュメントを移動する際のエクスペリエンスを向上</a><span style="color: #ff0000;"> プレビューの新機能</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">ドラッグ&amp;ドロップでリンクされたフォルダーにドキュメントを移動する際のエクスペリエンスを向上</a></p> 
                         <p>ドキュメントをリンクされたフォルダーにドラッグ&amp;ドロップするプロセスに、いくつかの透明性が追加されました。 これで、リンクされたフォルダに移動したドキュメントは、完全に移動されるまでドキュメントリストに残ります。 ドキュメントのオプションは無効ですが、ドキュメントの移動中にドキュメントを開いて表示することはできます。 ドキュメントはリンクされたフォルダ内に完全に配置されるので、ドキュメントの転送が完了すると、ドキュメントリストから消えます。 </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -390,22 +407,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.3 リリース期間のルックアンドフィールの更新</a></p>
-                        <p>Adobe Workfrontアプリケーションの様々な領域のルックアンドフィールに対するマイナーなアップデートは、23.3 リリース期間内におこなわれています。 これらの機能強化は、プレビューのリリース後最低 2 週間で実稼動環境で利用できるようになります。 </p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース： 23.3 リリース期間を通じて<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">実稼動版リリース：プレビューにリリースしてから最低 2 週間（特に指定のない限り）後</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新しいコメントベータ版エクスペリエンスの強化</a></p>
                         <p>更新に関する節の機能強化は、23.3 リリース期間内に、新しいコメントベータ版体験用に提供される予定です。 特に指定のない限り、これらの機能強化は、23.3 リリースの実稼動環境で利用可能になります。 
  </p>
@@ -430,10 +431,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 23.3 リリース期間を通じて<br /></p>
+                                <p>プレビューリリース：2023 年 6 月 6 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース： 23.3 リリース（特に指定のない限り）を使用</span></p>
+                                <p><span class="preview">実稼動版リリース：2023 年 6 月 6 日</span></p>
                             </li>
                         </ul>
                     </td>
