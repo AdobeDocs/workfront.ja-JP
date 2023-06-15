@@ -6,14 +6,16 @@ description: アドホックカードをボードにすばやく追加し、ボ�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
 
 # ボードへのアドホックカードの追加
+
+{{highlighted-preview}}
 
 カードをボードにすばやく追加し、ボード上のメンバーに割り当てることができます。 カードは、タスク、問題、人物、グループ、またはボードに含める任意の種類の項目を表すことができます。
 
@@ -64,11 +66,7 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 説明 ]</strong> </td> 
       <td>カードの説明。 説明に URL を追加すると、カードを保存する際にクリック可能なリンクになります。</td>
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong> </td> 
-      <td> <p>カードを割り当てるには、検索フィールドに名前を入力し始め、カードがリストに表示されたら選択します。 個人とチームの両方を追加し、1 つのカードに複数の人またはチームを割り当てることができます。</p> <p>割り当て先は、ボード上のメンバーである必要があります。メンバーでない場合、選択リストには表示されません。 チームがボード上のメンバーの場合、個々のチームメンバーをカードに割り当てることができます。</p></td>
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 列 ]</strong> </td> 
       <td>カードの列を選択します。 もし <strong>[!UICONTROL 列 ]</strong> フィールドが空の場合、カードはボードの左側の最初の列に配置されます。</td>
@@ -78,27 +76,45 @@ ht-degree: 0%
       <td>カードのステータスを選択します。 次をクリックした場合： <strong>[!UICONTROL 完了をマーク ]</strong> カードの上部にあるステータスが自動的に [!UICONTROL 完了 ] に変わります。</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 推定 ]</strong></td> 
-      <td>カードが完了する推定時間数を入力します。 これは手動のエントリのみです。</td>
-     </tr>
-     <tr> 
       <td role="rowheader"><strong>[!UICONTROL 期限 ]</strong></td> 
       <td>カードの期限を選択します。 </td>
      </tr>
      <tr> 
+      <td role="rowheader"><strong>[!UICONTROL 推定 ]</strong></td> 
+      <td>カードが完了する推定時間数を入力します。 これは手動のエントリのみです。</td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong> </td> 
+      <td> <p>カードを割り当てるには、検索フィールドに名前を入力し始め、カードがリストに表示されたら選択します。 個人とチームの両方を追加し、1 つのカードに複数の人またはチームを割り当てることができます。</p> <p>割り当て先は、ボード上のメンバーである必要があります。メンバーでない場合、選択リストには表示されません。 チームがボード上のメンバーの場合、個々のチームメンバーをカードに割り当てることができます。</p></td>
+     </tr>     
+     <tr> 
       <td role="rowheader"><strong>[!UICONTROL タグ ]</strong></td> 
       <td>カードのタグを検索して選択します。 新しいタグの作成について詳しくは、 <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">タグを追加</a>.</td> 
-     </tr>  
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL 接続 ]</strong> </td>
+      <td>アドホックカードを [!DNL Workfront] タスクまたは問題。 詳しくは、この記事の「アドホックカードを接続済みカードに変換する」を参照してください。 <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">ボードでの接続済みカードの使用</a>.</td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL チェックリスト項目 ]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL チェックリスト ]</strong> </td> 
       <td> <p>クリック <strong>[!UICONTROL チェックリスト項目を追加 ]</strong>. 次に、項目のタイトルを入力し、Enter キーを押します。 別の項目が自動的に追加されます。 引き続きタイトルを入力して、さらに項目を追加します。</p> <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目の詳細については、 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目を管理</a>.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL コメント ]</strong></span> </td>
+      <td><span class="preview"><p>をクリックします。 <strong>[!UICONTROL 新しいコメント ]</strong> フィールドに入力し、コメントを入力します。 書式設定ツールを使用してテキストの書式を設定し、 <strong>添付ファイルを追加</strong> アイコン <img src="assets/attachment-icon.png" alt="添付ファイルアイコン"> をクリックして、コメントにファイルを添付します。 個人またはチームにタグを付けるには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。</p><p><strong>注意：</strong> 現時点では、アドホックカードでコメントでタグ付けされたユーザーには電子メール通知は送信されません。
+      </p><p>クリック <strong>[!UICONTROL 送信 ]</strong> をクリックして、コメントをカードに追加します。</p>
+      <p><strong>注意：</strong> カードのコメント領域では、新しいAdobe Workfrontのコメント機能が使用されます。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.</p></span></td>
+     </tr>
     </tbody> 
    </table>
 
+   実稼動環境のサンプル画像：
    ![アドホックカードの詳細](assets/boards-edit-ad-hoc-card-041723.png)
 
-   左側のナビゲーションパネルを使用して、カード詳細上のフィールドのグループ間を移動します。
+   <span class="preview">プレビュー環境のサンプル画像：</span>
+   ![アドホックカードの詳細](assets/ad-hoc-card-details-with-comments.png)
+
+   左側のナビゲーションパネルを使用して、カード詳細上のフィールドのセクション間を移動します。
 
 1. クリック **[!UICONTROL 閉じる]** カードをボードに追加します。
 

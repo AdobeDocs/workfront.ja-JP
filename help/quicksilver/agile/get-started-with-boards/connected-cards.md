@@ -6,14 +6,16 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
 
 # ボードでの接続済みカードの使用
+
+{{highlighted-preview}}
 
 ボードに、 [!DNL Workfront].
 
@@ -70,7 +72,6 @@ ht-degree: 0%
    >* サーチ結果には、自分が権限を持っているオブジェクトのみが表示されます。 項目が淡色表示の場合は、その項目は既にボードに追加されています。
    >* 次の条件でフィルターする場合： **[!UICONTROL 自分が所有するプロジェクト]** または **[!UICONTROL 自分がいるプロジェクト]**、「完了」、「無効」または「却下」のステータスに等しいプロジェクトは含まれません。 これらのプロジェクトは、引き続き **[!UICONTROL すべて]** フィルター。
 
-
 1. クリック **[!UICONTROL 追加]**.
 
    ![接続するタスクまたはイシューを検索](assets/boards-tasksissues-350x94.png)
@@ -101,12 +102,6 @@ ht-degree: 0%
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 説明 ]</strong></td> 
       <td>説明を変更すると、接続されているの説明も変更されます [!DNL Workfront] オブジェクト。 説明に URL を追加すると、カードを保存する際にクリック可能なリンクになります。</td> 
-     </tr> 
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong></td>
-      <td><p>カードに他のユーザーやチームを割り当てるには、検索フィールドに名前を入力し、リストに表示されたら選択します。 個人とチームの両方を追加できます。 1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
-      <p>割り当て先は、ボード上のメンバーである必要があります。メンバーでない場合、選択リストには表示されません。 チームがボード上のメンバーの場合、個々のチームメンバーをカードに割り当てることができます。</p>
-      <p>選択した担当者も、 [!DNL Workfront].</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 列 ]</strong></td>
@@ -127,18 +122,42 @@ ht-degree: 0%
       <td><p>カードが完了するまでの時間数。</p><p>見積もりを変更すると、接続されたストーリーポイントの値も変更されます [!DNL Workfront] オブジェクト。</p></td>
      </tr>
      <tr>
+      <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong></td>
+      <td><p>カードに他のユーザーやチームを割り当てるには、検索フィールドに名前を入力し、リストに表示されたら選択します。 個人とチームの両方を追加できます。 1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
+      <p>割り当て先は、ボード上のメンバーである必要があります。メンバーでない場合、選択リストには表示されません。 チームがボード上のメンバーの場合、個々のチームメンバーをカードに割り当てることができます。</p>
+      <p>選択した担当者も、 [!DNL Workfront].</p></td>
+     </tr>
+     <tr>
       <td role="rowheader"><strong>[!UICONTROL タグ ]</strong></td>
       <td><p>カードのタグを検索して選択します。</p>
       <p>新しいタグの作成について詳しくは、 <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">タグを追加</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL カスタムフィールド ]</strong></td>
+      <td><p>追加したカスタムフィールドは、この領域に表示されます。</p>
+      <p>詳しくは、 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">カードに表示するフィールドのカスタマイズ</a>.</p></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL チェックリスト項目 ]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL チェックリスト ]</strong> </td> 
       <td> <p>クリック <strong>[!UICONTROL チェックリスト項目を追加 ]</strong>. 次に、項目のタイトルを入力し、Enter キーを押します。 別の項目が自動的に追加されます。 引き続きタイトルを入力して、さらに項目を追加します。</p> <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目の詳細については、 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目を管理</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL 時間 ]</strong></td>
+      <td>下記の「接続されたカードでのログ時間」を参照してください。</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL コメント ]</strong></span> </td>
+      <td><span class="preview"><p>をクリックします。 <strong>[!UICONTROL 新しいコメント ]</strong> フィールドに入力し、コメントを入力します。 書式設定ツールを使用してテキストの書式を設定し、 <strong>添付ファイルを追加</strong> アイコン <img src="assets/attachment-icon.png" alt="添付ファイルアイコン"> をクリックして、コメントにファイルを添付します。 個人またはチームにタグを付けるには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。 接続されたカードのタグ付きユーザーは、電子メール通知を受信します。</p><p>クリック <strong>[!UICONTROL 送信 ]</strong> をクリックして、コメントをカードに追加します。</p>
+      <p><strong>注意：</strong> カードのコメント領域では、新しいAdobe Workfrontのコメント機能が使用されます。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.</p></span></td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL システムアクティビティ ]</strong></span> </td> 
+      <td><span class="preview"><p>次の場合： <strong>システムアクティビティ</strong> をカードセクションとして有効にすると、この領域にアクティビティが表示されます。</p> <p>詳しくは、 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">カードに表示するフィールドのカスタマイズ</a> および <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">システムで追跡された更新</a>.</p></span></td>
+     </tr>     
     </tbody> 
    </table>
 
-   左側のナビゲーションパネルを使用して、カード詳細上のフィールドのグループ間を移動します。
+   左側のナビゲーションパネルを使用して、カード詳細上のフィールドのセクション間を移動します。
 
 1. クリック **[!UICONTROL 閉じる]** ボードに戻る
 接続されたオブジェクト、割り当て先、タグ、期限、チェックリストカウンター、推定時間、ステータスがカードに表示されます。
@@ -175,7 +194,6 @@ ht-degree: 0%
    >
    >* サーチ結果には、自分が権限を持っているオブジェクトのみが表示されます。
    >* 次の条件でフィルターする場合： **[!UICONTROL 自分が所有するプロジェクト]** または **[!UICONTROL 自分がいるプロジェクト]**、 [!UICONTROL 完了], [!UICONTROL Dead]または [!UICONTROL 却下] ステータスが含まれていません。 これらのプロジェクトは、引き続き **[!UICONTROL すべて]** フィルター。
-
 
 1. クリック **[!UICONTROL 接続]**.
 
