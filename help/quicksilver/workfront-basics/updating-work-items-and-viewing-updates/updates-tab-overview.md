@@ -7,7 +7,7 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 4%
@@ -41,7 +41,7 @@ ht-degree: 4%
 >
 >   新しいコメントエクスペリエンスは、目標のための唯一のエクスペリエンスです <span class="preview">カード</span>. Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     カードの「コメント」および「システムアクティビティ」セクションを有効にすると、ボード領域のカードに対する更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+>     カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
 
 オブジェクトの「更新」(Updates) セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更を追跡するシステム更新が表示されます。
 

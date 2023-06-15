@@ -6,7 +6,7 @@ description: 作業オブジェクトの更新に対して、誰かが追加ま�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 1%
@@ -40,7 +40,7 @@ ht-degree: 1%
 >
 >   新しいコメントエクスペリエンスは、目標のための唯一のエクスペリエンスです <span class="preview">カード</span>. Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     カードの「コメント」および「システムアクティビティ」セクションを有効にすると、ボード領域のカードに対する更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+>     カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
 
 
 誰かが作業オブジェクトのコメントやシステムの更新に返信すると、その返信がそのオブジェクトの [ 更新 ] セクションの通信スレッドに表示されます。
