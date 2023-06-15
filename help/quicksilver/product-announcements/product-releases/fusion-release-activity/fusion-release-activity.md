@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion は、アプリと Web サービスをシー
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 5c3304556031e83345f6aaaf4457987b55c585be
+source-git-commit: 58ba2aa0fe2e4afff1cdc60dd14a01935d238f8d
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Adobe Workfront Fusion は、アプリと Web サービスをシームレスに�
 Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## 2023 年の Fusion リリース
+
+### 2023 年 6 月
+
+* [Workfront Fusion リリースアクティビティ：2023 年 6 月 12 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
 
 ### 2023 年 5 月
 
@@ -143,7 +147,7 @@ Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../.
 
 * [Workfront Fusion リリースアクティビティ：2021 年 4 月 26 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
 * [Workfront Fusion リリースアクティビティ：2021 年 4 月 19 日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
-   <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
+  <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### 2021 年 3 月
 

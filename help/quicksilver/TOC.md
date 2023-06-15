@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: a392ea004c8ab4a2d52bbdb650e21a2f182b8202
+source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
 workflow-type: tm+mt
-source-wordcount: '13078'
+source-wordcount: '13085'
 ht-degree: 2%
 
 ---
@@ -125,6 +125,7 @@ ht-degree: 2%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion リリースアクティビティ：2023 年 6 月 12 日の週](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
          * [Workfront Fusion リリースアクティビティ：2023 年 5 月 15 日の週](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
          * [Workfront Fusion リリースアクティビティ：2023 年 5 月 1 日の週](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
          * [Workfront Fusion リリースアクティビティ：2023 年 4 月 17 日の週](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)

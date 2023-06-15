@@ -7,10 +7,10 @@ description: Adobe Experience Cloudを通じてWorkfront Fusion にアクセス�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: d4ed4ed07f9f4ad7926e57494775613add1bffef
+source-git-commit: 2ce444ac32a0f2de64170f7c901b08063c7e04d3
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 へのアクセス [!DNL Workfront Fusion] 経由 [!DNL Adobe Experience Cloud] は、すべての広告をシームレスに統合された経験で管理できます[!DNL]obe アプリケーション。 単一の ID 管理では、複数の URL やログイン ID を使用せずに、1 つの場所でログインできます。
 
-のナビゲーションを説明するビデオの場合 [!DNL Fusion] 内 [!DNL Adobe Experience Cloud]を参照してください。 [[!DNL Fusion] の [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+のナビゲーションを説明するビデオの場合 [!DNL Fusion] 内 [!DNL Adobe Experience Cloud]を参照してください。
+
+[[!DNL Fusion] の [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## アクセス要件
 
