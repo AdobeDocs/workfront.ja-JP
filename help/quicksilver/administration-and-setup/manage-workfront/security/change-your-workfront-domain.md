@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: b413ffc2416439629e073b32b5e9828df2f5de90
+source-git-commit: b9e088a0cdb32f3e8c565ea17f4613dda104bd7b
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->このページで説明する手順は、まだAdmin Consoleにオンボーディングされていない組織にのみ適用されます。 組織がAdobe Admin Consoleにオンボーディングされている場合、Adobe Admin Consoleを通じてこの操作を実行する必要があります。
->
->組織がAdobe Admin Consoleにオンボーディングされている場合にAdobe Workfrontドメインを変更するには、 [ドメインの設定](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains).
+>このページで説明する手順は、まだAdmin Consoleにオンボーディングされていない組織にのみ適用されます。 組織がAdobe Admin Consoleにオンボーディングされている場合、Workfrontドメインを変更することはできません。
 >
 >組織がAdobe Admin Consoleにオンボーディングされているかどうかに応じて異なる手順のリストについては、 [プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
