@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion の組織とチームの機能により、�
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,7 @@ ht-degree: 0%
 
 * [組織の役割](#organization-roles)
 * [組織へのユーザーの招待](#inviting-users-to-an-organization)
+* [組織間の切り替え](#switch-between-organizations)
 
 ### 組織の役割
 
@@ -101,13 +102,19 @@ ht-degree: 0%
 >
 >ユーザーが [!DNL Fusion], [!DNL Fusion] は自動的にアカウントを作成し、仮パスワードが記載された電子メールを送信し、新しいユーザーにログインしてパスワードを変更するよう指示します。
 
+### 組織間の切り替え
+
+Fusion では、複数の組織に属している場合があります。 リソースは組織間で共有されません。
+
+右上隅の組織名をクリックし、ドロップダウンから新しい組織を選択することで、AdobeUnified Experience 内で組織を切り替えることができます。 Adobe内の他の組織のメンバーである場合でも、ドロップダウンには Fusion アカウントを持つ組織のみが表示されます。
+
 ## チーム
 
 チームとは、特定のリソースへのアクセスを共有するユーザーのグループです。 以下のリソースが含まれます。
 
 * シナリオ
 * 接続
-* ウェブフック
+* Webhook
 * キー
 * データストア
 * データ構造
@@ -179,6 +186,14 @@ ht-degree: 0%
 </table>
 
 通知オプションの変更は自動的に保存されます
+
+#### チーム間の切り替え
+
+Fusion では、複数のチームに属している可能性があります。 チームはリソースを共有しないので、特定のシナリオや他のリソースにアクセスするためにチームを切り替える必要が生じる場合があります。
+
+組織がAdobeUnified Experience に登録されていない場合は、左側のナビゲーションでチーム名をクリックし、ドロップダウンからチームを選択して、チームを切り替えることができます。
+
+チームがAdobeUnified Experience を使用している場合は、ヘッダーのチーム名をクリックし、ドロップダウンからチームを選択して、新しいチームを選択できます。 このオプションは、シナリオページや接続ページなど、特定のチームに固有のすべてのページから使用できます。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

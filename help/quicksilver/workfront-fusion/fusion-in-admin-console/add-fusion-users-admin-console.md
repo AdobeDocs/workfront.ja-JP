@@ -8,8 +8,7 @@ description: ユーザーをAdobe Admin Consoleに追加してAdobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-hidefromtoc: true
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 1%

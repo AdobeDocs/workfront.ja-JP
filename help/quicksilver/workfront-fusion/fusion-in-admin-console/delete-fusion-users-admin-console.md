@@ -8,8 +8,7 @@ description: ユーザーをAdobe Workfront Fusion からのみ削除でき、�
 author: Becky
 feature: Workfront Fusion
 exl-id: 0d989134-46c0-4637-b465-6fbe04258b8a
-hidefromtoc: true
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -37,7 +36,7 @@ ht-degree: 0%
 * ユーザーが製品プロファイルから削除され、別の製品プロファイルに割り当てられません。
 * Workfront Fusion を含む組織でユーザーが削除または非アクティブ化されます。
 
-   手順については、 [ユーザーを個別に管理](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
+  手順については、 [ユーザーを個別に管理](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
 
 In [!DNL Workfront Fusion]を無効にすると、次のいずれかの方法でユーザーに影響します。
 

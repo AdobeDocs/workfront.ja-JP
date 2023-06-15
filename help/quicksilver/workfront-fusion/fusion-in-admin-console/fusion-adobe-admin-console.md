@@ -8,11 +8,10 @@ description: Adobe Workfront Fusion 管理者の場合、管理上の責任と�
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-hidefromtoc: true
-source-git-commit: 7df10d5e48a460579b6b4acbbdc85aa46bd8d438
+source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '352'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +43,7 @@ As a [!DNL Adobe Workfront Fusion] 管理者、管理上の責任および手順
 | ユーザーを非アクティブ化する | セクション [ユーザーの削除](../../workfront-fusion/organizations/manage-fusion-users.md#delete) in [管理 [!DNL Adobe Workfront Fusion] 組織内のユーザー](../../workfront-fusion/organizations/manage-fusion-users.md) | の「ユーザーの削除」の節 [ユーザーを個別に管理](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 | ユーザーの詳細を変更 | [でのプロファイル設定の変更 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) | 記事の「ユーザーの詳細を編集」の節 [ユーザーを個別に管理](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!--
 ## SSO (Single Sign-On)

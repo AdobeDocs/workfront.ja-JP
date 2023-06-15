@@ -7,9 +7,9 @@ description: 情報は、 [!DNL Adobe Workfront Fusion] アカウントプロフ
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,25 @@ ht-degree: 0%
 
 ## プロファイル設定の変更
 
-アカウントプロファイルの情報を変更するには：
+プロファイル設定を変更するプロセスは、組織が統合シェルAdobe上にあるかどうかによって異なります。
+
+* [統合シェルのプロファイル設定の変更](#change-profile-settings-on-the-unified-shell)
+* [統合シェルを使用せずにプロファイル設定を変更する](#change-profile-settings-without-the-unified-shell)
+
+### 統合シェルのプロファイル設定の変更
+
+組織が統合シェルAdobe上にある場合は、上部のナビゲーション領域のプロファイル画像をクリックすると、プロファイルと環境設定のオプションにアクセスできます。
+
+このメニューでは、次の操作を実行できます。
+
+* 選択 **[!UICONTROL ダークテーマ]** フォーマット [!DNL Adobe Experience Cloud].
+* 設定 **[!UICONTROL 環境設定]** 対象 [!DNL Adobe Experience Cloud]（プライマリ言語とセカンダリ言語の環境設定を含む）
+* 次にアクセス： **[!UICONTROL [!DNL Workfront]プロファイル]**. プロファイルに移動したら、「 **[!UICONTROL 詳細]** メニューと選択 **[!UICONTROL 編集]**. プロファイルについて詳しくは、 [設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL ログアウト]** Adobe Experience Cloud
+
+### 統合シェルを使用せずにプロファイル設定を変更する
+
+統合 ShellSAdobeを使用しない組織のアカウントプロファイルの情報を変更するには、次の手順を実行します。
 
 1. 左側のパネルの下部にあるアバターをクリックし、 **[!UICONTROL プロファイル]**.
 1. クリック： **[!UICONTROL 一般オプション]**&#x200B;次のいずれかのオプションを変更します。

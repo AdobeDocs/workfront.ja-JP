@@ -6,9 +6,8 @@ title: Workfront Fusion 向けAdobeUnified Experience
 description: Adobe Experience Cloudを通じてWorkfront Fusion にアクセスすると、すべてのAdobeアプリケーションをシームレスに統合された経験で管理できます。
 author: Becky
 feature: Workfront Fusion
-hidefromtoc: true
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: d4ed4ed07f9f4ad7926e57494775613add1bffef
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Unified Experience] の [!DNL Workfront Fusion]
 
-へのアクセス [!DNL Workfront Fusion] 経由 [!DNL Adobe Experience Cloud] は、すべての広告をシームレスに統合された経験で管理できます[!DNL ]obe アプリケーション。 単一の ID 管理では、複数の URL やログイン ID を使用せずに、1 つの場所でログインできます。
+へのアクセス [!DNL Workfront Fusion] 経由 [!DNL Adobe Experience Cloud] は、すべての広告をシームレスに統合された経験で管理できます[!DNL]obe アプリケーション。 単一の ID 管理では、複数の URL やログイン ID を使用せずに、1 つの場所でログインできます。
 
 のナビゲーションを説明するビデオの場合 [!DNL Fusion] 内 [!DNL Adobe Experience Cloud]を参照してください。 [[!DNL Fusion] の [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
@@ -94,3 +93,4 @@ ht-degree: 0%
 * 設定 **[!UICONTROL 環境設定]** 対象 [!DNL Adobe Experience Cloud]（プライマリ言語とセカンダリ言語の環境設定を含む）
 * 次にアクセス： **[!UICONTROL [!DNL Workfront Fusion]プロファイル]**. プロファイルに移動したら、「 **[!UICONTROL 詳細]** メニュー ![](assets/more-icon.png) を選択し、 **[!UICONTROL 編集]**. プロファイルについて詳しくは、 [設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL ログアウト]** Adobe Experience Cloud
+

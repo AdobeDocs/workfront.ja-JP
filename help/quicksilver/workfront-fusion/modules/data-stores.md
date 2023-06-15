@@ -8,7 +8,7 @@ description: データストアは、データベースやシンプルなテー�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: e71f276eb510497c026a70400afc754d5f57b60b
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -176,9 +176,9 @@ ht-degree: 1%
 ### データストアのコンテンツの編集
 
 1. 次をクリック： **[!UICONTROL データストア]** アイコン ![](assets/data-store-icon.png) 左側のナビゲーションパネルで、 [!UICONTROL データストア] 領域
-1. クリック **[!UICONTROL 参照]** ![](assets/browse-data-store.png) をクリックします。
+1. クリック **[!UICONTROL 参照]**  をクリックします。
 1. （オプション）列を目的の場所にドラッグして並べ替えます。
-1. （オプション） [!UICONTROL 編集] 単一のセルを選択するには、 **[!UICONTROL 編集]** アイコン ![](assets/data-store-edit.png)を選択し、必要な値を入力します。
+1. （オプション） [!UICONTROL 編集] 単一のセルを選択するには、 **[!UICONTROL 編集]** アイコンをクリックし、必要な値を入力します。
 1. （オプション）「 **[!UICONTROL 追加]**&#x200B;をクリックし、新しい項目の情報を入力します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

@@ -7,9 +7,9 @@ description: この記事では、Adobe Workfront Fusion を使用して自動�
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 99a8ad82c5fb2fb3f6adce9ff037086523be9b02
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -68,13 +68,19 @@ ht-degree: 0%
 1. ログイン [!DNL Workfront Fusion] アカウント
 1. クリック **[!UICONTROL シナリオ]** ![](assets/scenarios-icon.png) をクリックします。
 
-   表示される左側のパネルで、シナリオをフォルダーに整理できます。
+   >[!NOTE]
+   >
+   >左側のナビゲーションパネルまたはそのアイコンが表示されない場合は、メニュー ![メニュー](assets/main-menu-icon-left-nav.png) アイコン
+
+   灰色で [!UICONTROL フォルダー] 表示されるパネルを使用して、シナリオをフォルダーに整理できます。
 
    右側のメイン領域の上部に、 **[!UICONTROL すべて]** 作成したシナリオ、 **[!UICONTROL アクティブなシナリオ]**, **[!UICONTROL 非アクティブなシナリオ]**、および **[!UICONTROL 概念]**. 概念は、以前にさらに作業が必要なシナリオです。 [!DNL Workfront Fusion] は、それらをアクティブまたは非アクティブに分類できます。
 
+<!--
    ![](assets/scenarios-left-panel-350x215.png)
+-->
 
-1. 左側のパネルで、 **[!UICONTROL フォルダーを追加]** アイコン ![](assets/add-folder-icon.png)次に、最初のフォルダーに「Practice scenarios」などの名前を入力します。
+1. 内 [!UICONTROL フォルダー] パネル、 **[!UICONTROL フォルダーを追加]** アイコン ![](assets/add-folder-icon.png)次に、最初のフォルダーに「Practice scenarios」などの名前を入力します。
 
 1. フォルダーを開いて、「 **[!UICONTROL 新しいシナリオの作成]** をクリックします。
 
@@ -85,9 +91,11 @@ ht-degree: 0%
 
    シナリオエディターが表示され、中央に空のモジュールが表示されます。 [!DNL Workfront] アプリケーションがプリロードされ、一部のオプションが下部のツールバーに表示されます。
 
+<!--
    ![](assets/scenario-editor-350x235.png)
+-->
 
-   新しいシナリオの作成を開始する場合は、まずシナリオの名前を作成することをお勧めします。
+新しいシナリオの作成を開始する場合は、まずシナリオの名前を作成することをお勧めします。
 
 1. を選択します。 **[!UICONTROL 新しいシナリオ]** プレースホルダー名を左上隅に入力し、「Practice scenario 1」などの名前を入力します。
 1. 続行 [最初のモジュールを追加して設定します](#add-and-configure-the-first-module) 下
@@ -229,18 +237,15 @@ ht-degree: 0%
 >
 >1. 右クリック [!DNL Workfront] モジュール、次に **[!UICONTROL メモを追加]**.
 >1. 表示されるメモに、モジュールの概要を入力します。
-
 >
->   1 つのモジュールに複数のメモを追加できます。
+>    1 つのモジュールに複数のメモを追加できます。
 >
 >1. を閉じる **[!UICONTROL メモ]** 領域
 >
->   シナリオにメモを追加すると、オレンジ色の点が **[!UICONTROL メモ]** アイコン ![](assets/notes-icon-w-dot.png) をクリックします。
+>     シナリオにメモを追加すると、オレンジ色の点が **[!UICONTROL メモ]** アイコン ![](assets/notes-icon-w-dot.png) をクリックします。
 >
 >1. 次をクリック： **[!UICONTROL メモ]** アイコン ![](assets/notes-icon-w-dot.png) をクリックしてメモを表示します。
-
 >
-
 
 
 
