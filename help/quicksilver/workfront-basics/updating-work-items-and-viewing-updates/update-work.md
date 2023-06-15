@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 >     * リストの概要パネル
 >     * タイムシートの概要パネル
 >
-> * 目標<!--, <span class="preview">Cards in the Boards area</span>-->
+> * 目標、 <span class="preview">「ボード」領域のカード</span>
 >
->   新しいコメントエクスペリエンスが目標のデフォルトです <!--<span class="preview">and cards</span>-->. Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   新しいコメントエクスペリエンスは、目標のための唯一のエクスペリエンスです <span class="preview">カード</span>. Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     カードの「コメント」および「システムアクティビティ」セクションを有効にすると、ボード領域のカードに対する更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
 
 「更新」セクションのAdobe Workfrontのほとんどのオブジェクトにコメントを追加できます。 更新セクションを表示するオブジェクトの詳細については、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->次の機能は、目標を除くすべてのオブジェクトで使用できます。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md)
+>次の機能は、目標とカードを除くすべてのオブジェクトで使用できます。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>カードの「コメント」および「システムアクティビティ」セクションを有効にすると、ボード領域のカードに対する更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. 更新を行う作業項目（プロジェクト、タスク、タスクなど）に移動します。
 1. 次をクリック： **更新** 」セクションに入力します。
@@ -283,7 +285,7 @@ drafted for P&P release:
    | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、次の手順を実行します。⌘+K</br> <br>コメントベータ版エクスペリエンスで、選択したテキストにリンクを貼り付けます。⌘+V</br> | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、次の手順を実行します。Ctrl+K</br> <br>コメントベータ版エクスペリエンスで、選択したテキストにリンクを貼り付けます。Ctrl+V</br> |
    | 箇条書き | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 番号付きリスト | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | ブロック引用 | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | ブロック引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
 
    テキストの書式設定を停止するには、 **リッチテキスト** ツールバー。
 
@@ -346,20 +348,17 @@ drafted for P&P release:
 
 ## 更新情報をコピー
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 更新をコピーする方法はいくつかあります。 リンクをコピーした後、他のユーザーとリンクを共有して、更新に導くことができます。
+
+更新のコピーは、使用するコメントエクスペリエンスに応じて異なります。
+
+### 現在のコメントエクスペリエンスの更新をコピー
 
 * [更新をコピー](#copy-the-update)
 * [スレッドリンクをコピー](#copy-the-thread-link)
 * [更新リンクをコピー](#copy-the-update-link)
 
-### 更新をコピー {#copy-the-update}
+#### 更新をコピー {#copy-the-update}
 
 このオプションは、特定の更新からクリップボードにテキストをコピーします。
 
@@ -368,24 +367,47 @@ drafted for P&P release:
 
    ![「本文をコピー」を選択します。](assets/update-stream-copy-body-text-350x152.png)
 
-### スレッドリンクをコピー {#copy-the-thread-link}
+#### スレッドリンクをコピー {#copy-the-thread-link}
 
 このオプションは、スレッドを他のユーザーと共有できるように、完全なスレッドリンクをクリップボードにコピーします。
 
 1. コピーする更新スレッドに移動します。
 
-1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー** または **リンクをコピー**（ベータ版エクスペリエンスを使用する場合）
+1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### 更新リンクをコピー {#copy-the-update-link}
+#### 更新リンクをコピー {#copy-the-update-link}
 
 このオプションは、特定の更新リンクをクリップボードにコピーします。 更新リンクを共有すると、リンクをたどるユーザーには、更新の周囲に境界線が表示されます。
 
 1. コピーする更新または返信に移動します。
-1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー** または **リンクをコピー**（ベータ版エクスペリエンスを使用する場合）
+1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### 新しいコメントエクスペリエンスでの更新のコピー
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [リンクをコピー](#copy-link)
+* [本文をコピー](#copy-body-text)
+
+#### リンクをコピー
+
+このオプションは、コメントまたはスレッドのリンクをクリップボードにコピーして、他のユーザーとコメントまたはスレッド全体を共有できるようにします。
+
+1. リンクをコピーする更新に移動します。
+
+1. 次をクリック： **詳細** メニュー、次に「 **リンクをコピー**.
+
+#### 本文をコピー
+
+このオプションは、特定の更新からクリップボードにテキストをコピーします。
+
+1. コピーする更新または返信に移動します。
+1. 次をクリック： **詳細** メニュー、次に「 **本文をコピー**.
 
 ## 更新または返信の削除
 

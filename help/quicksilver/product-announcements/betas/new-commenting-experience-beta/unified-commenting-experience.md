@@ -6,9 +6,9 @@ description: Adobe Workfrontのコメントエクスペリエンスのアップ�
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -47,13 +47,15 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 新しいコメント作成機能に含まれる改善点の一つは次のとおりです。
 
 * パフォーマンスとユーザーエクスペリエンスの向上
-* システムアクティビティからのユーザーコメントの分離が更新されました。
+* システムアクティビティの更新からのユーザーコメントの分離
 * オブジェクトに新しいコメントが追加されたときのリアルタイムインジケーター
-* 送信後のコメントの編集。
+* 送信後のコメントの編集
 
 次の機能が新しいエクスペリエンスから削除されました。
 
-* システム更新に対するコメント。
+* システム更新に対するコメント
+* コメント中にステータス、条件、コミット日を編集可能
+* カスタムフォームを編集
 
 次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
 
@@ -295,7 +297,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -309,7 +311,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -413,9 +415,9 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
   </tr>
 </table>
 
-## 新しいコメントベータ版エクスペリエンスリリースアクティビティ
+## リリースタイムライン
 
-最近リリースされた機能について詳しくは、 [新しいコメントベータエクスペリエンスリリースアクティビティ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+新しいコメントエクスペリエンスに最近リリースされた機能とリリースタイムラインについて詳しくは、 [新しいコメントベータエクスペリエンスリリースアクティビティ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 新しいコメントエクスペリエンスを見つける
 
@@ -423,21 +425,18 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
 * 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
-   * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>
+   * 問題、 <span class="preview">プロジェクト、タスク、ストーリー、ドキュメント</span>
 
   Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
 * デフォルトでは、メインのコメントエクスペリエンスとして次のようになります。
 
-   * 目標
+   * 目標、 <span class="preview">「ボード」領域のカード</span>
 
   >[!NOTE]
   >
   >Workfrontのこの領域にアクセスするには、 Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-  目標の更新の管理について詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../../workfront-goals/goal-management/manage-goal-comments.md).
-
 
 新しい Commenting Experience Beta を有効にするには：
 

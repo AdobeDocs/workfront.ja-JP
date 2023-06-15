@@ -6,9 +6,10 @@ title: Adobe Workfront Goals 23.3 リリースアクティビティ 2023 年 5 �
 description: このページでは、Adobe Workfront Goals のプレビュー環境向けの 23.3 リリースでおこなわれたすべての機能強化について説明します。 これらの機能強化は、2023 年 5 月 1 日の週に実稼動環境で利用可能になる予定です。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: e9faaf52158030cd48ad11938186054594992c34
+exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -25,4 +26,4 @@ ht-degree: 0%
 
 目標に対して使用可能なコメント機能の強化は、他のWorkfrontオブジェクトに対する新しいコメント機能ベータ版のエクスペリエンスでリリースされたものと同じです。
 
-詳しくは、 [新しいコメントベータ版エクスペリエンスリリースアクティビティ](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+詳しくは、 [新しいコメントエクスペリエンスリリースアクティビティ](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
