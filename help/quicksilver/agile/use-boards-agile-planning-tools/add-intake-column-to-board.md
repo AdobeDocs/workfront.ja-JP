@@ -7,9 +7,9 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
+source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 1 つのボード上で許可される取り込みカラムは 1 つだけで、常に一番左のカラムとして表示されます。
 
 取り込みカラムはダイナミックボード上では使用できません。
+
+ワークストリームの一部であるボードでは、インテークカラムは使用できません。 代わりに、カードリストからカードを引き込むためのバックログ列を設定できます。 ワークストリーム内のボードへのバックログ列の追加について詳しくは、 [ワークストリームボード上のバックログの設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
 取り込みカラムは、300 タスクと 300 問題に制限されます。 項目は、項目に定義された優先度で並べ替えられます。 優先度について詳しくは、 [タスクの優先度を更新](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) および [問題の優先順位を更新](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
