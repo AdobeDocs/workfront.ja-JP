@@ -6,9 +6,9 @@ description: Adobe Workfrontの新しいコメント作成エクスペリエン�
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ ht-degree: 4%
    * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートに関する新しいコメント作成エクスペリエンス（唯一のエクスペリエンス）
 * 23.4 リリース（2023 年 10 月初旬）
    * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートに関する新しいコメント作成エクスペリエンス（唯一のエクスペリエンス）
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * 2023 年末：
-   * 既存のエクスペリエンスを持つオブジェクトから、従来のエクスペリエンスを削除します。
-   * 次のオブジェクトは、新しいコメントエクスペリエンスを唯一のエクスペリエンスとして備えています。プロジェクト、タスク、課題、ストーリー、ドキュメント、テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシート、目標、カード
+   * 次のオブジェクトは、新しいコメントエクスペリエンスをデフォルトエクスペリエンスとして持ちます。プロジェクト、タスク、課題、ストーリー、ドキュメント、テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシート、目標、カード 従来のコメントエクスペリエンスは、オプションとして引き続き使用できます。
 
   >[!NOTE]
   >
