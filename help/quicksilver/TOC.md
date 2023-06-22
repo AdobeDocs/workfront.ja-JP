@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: b7ed3f9f38ab96270709d76fda80466b1b50f1ea
+source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
 workflow-type: tm+mt
-source-wordcount: '13080'
+source-wordcount: '13086'
 ht-degree: 2%
 
 ---
@@ -2166,6 +2166,7 @@ ht-degree: 2%
          * [Adobe Workfrontプラグインを使用して作業を更新する](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
          * [Adobe Workfrontプラグインを使用して作業項目を完了とマーク](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
          * [Adobe Workfrontプラグインを使用したログ時間](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+         * [管理 [!DNL Adobe Workfront] Adobe Creative Cloudからの通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
       * Adobe Workfrontプラグインを使用したドキュメントと配達確認のアップロード (Creative Cloudアプリ用 ) {#upload-docs-proofs-wf-cc}
          * [からドキュメントと配達確認をアップロード [!DNL Adobe Workfront plugin] から [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
          * [Adobe Workfrontプラグインを使用したドキュメントと配達確認のアップロード (Creative Cloudアプリ用 )](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
