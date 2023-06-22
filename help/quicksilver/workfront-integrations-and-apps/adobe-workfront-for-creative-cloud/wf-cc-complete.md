@@ -6,9 +6,9 @@ description: Adobe Workfrontでの作業をシームレスに完了し、Adobe C
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
+source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,14 @@ ht-degree: 0%
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. 次の **[!UICONTROL 作業用リスト]**、完了とマークするタスクまたは問題を選択します。
-1. クリック **[!UICONTROL 完了]**.\
-   これにより、Workfrontで項目が完了したことを示します。
+1. クリック **[!UICONTROL 完了]**.  このタスクまたはタスクに割り当てられた唯一のユーザーである場合は、項目がマークされます [!UICONTROL 完了] または [!UICONTROL 解決済み] in [!DNL Workfront].
+1. （条件付き）複数のユーザーがこのタスクまたはイシューに割り当てられている場合、 [!UICONTROL 完了] ドロップダウンを開きます。 次の操作が可能です。
+
+   クリック **[!UICONTROL 私の部分で完了]** 他のユーザーがタスクまたはイシューを完了するために自分の作業を行う必要がある場合。
+
+   または
+
+   クリック **[!UICONTROL 完了]** （タスクの場合）または **[!UICONTROL 解決済み]** （問題の場合）タスクや問題に対してこれ以上の作業をおこなう必要がない場合に使用します。 これは、項目をマークします [!UICONTROL 完了] または [!UICONTROL 解決済み] in [!DNL Workfront].
 
    >[!NOTE]
    >
