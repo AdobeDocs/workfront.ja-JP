@@ -6,14 +6,17 @@ title: ワークストリームでの反復の作成
 description: 繰り返しとは、作業の完了に必要な一定時間のことです。 アジャイルチームの中には、反復をスプリントと呼ぶものもあります。
 author: Lisa
 feature: Agile
-source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
+exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
+source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 1%
+source-wordcount: '434'
+ht-degree: 0%
 
 ---
 
 # ワークストリームでの反復の作成
+
+{{highlighted-preview}}
 
 繰り返しとは、作業の完了に必要な一定時間のことです。 アジャイルチームの中には、反復をスプリントと呼ぶものもあります。
 
@@ -82,12 +85,33 @@ ht-degree: 1%
    * [ カード一覧 ] タブの反復表示で、 [!UICONTROL **反復の詳細**] アイコン ![反復の詳細](assets/iteration-details-button.png).
    * イテレーションボードで、 [!UICONTROL **反復の詳細**] アイコン ![反復の詳細](assets/iteration-details-button.png) 」と表示されます。
 
-1. 必要に応じてイテレーションを編集し、 [!UICONTROL **保存**].
+1. 内 [!UICONTROL 反復設定] パネルで、必要に応じてイテレーションを編集します。
+1. イテレーション名を変更するには、を展開します。 [!UICONTROL **反復の詳細**].
 
-   反復が開始された後は、反復名のみ変更できます。
+   イテレーションが開始された後は、イテレーション名のみを変更でき、日付やイテレーションの長さは変更できません。
+
+1. <span class="preview">イテレーションに目標を追加するには、を展開します。 [!UICONTROL **目標**].</span>
+1. <span class="preview">クリック [!UICONTROL **目標を追加**]、 、目標名を入力します。</span>
+
+   <span class="preview">イテレーション中に目標が完了したら、チェックボックスをオンにして完了をマークするか、 **削除** アイコン ![削除アイコン](assets/delete.png) 目標を削除します。 反復の右上にある指標領域には、目標の数と完了数が表示されます。</span>
+
+<!--
+<div class="preview">
+
+## Assign cards to the next iteration
+
+Use the [!UICONTROL Next Iteration] column to move cards from the current iteration to the next iteration, without sending them to the backlog first.
+
+1. Move a card to the [!UICONTROL **Next Iteration**] column, or add a new card directly in the column.
+1. Access the next iteration by clicking the [!UICONTROL **Next Iteration**] column title, or by clicking the up-pointing arrow next to the iteration name on the top of the screen.
+
+   The cards that you marked to come over to the next iteration are placed in the columns that correspond with their status.
+
+</div>
+-->
 
 ## 繰り返しの削除
 
 1. 次をクリック： [!UICONTROL **カードリスト**] 」タブをクリックし、イテレーションビューを開きます。
-1. 次をクリック： **削除** 繰り返しの横にあるアイコン
+1. 次をクリック： **削除** アイコン ![削除アイコン](assets/delete.png) をクリックします。
 1. クリック [!UICONTROL **反復を削除**] をクリックします。

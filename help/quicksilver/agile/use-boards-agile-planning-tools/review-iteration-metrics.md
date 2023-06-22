@@ -6,14 +6,17 @@ title: 反復指標の確認
 description: 指標は、ワークストリームの各イテレーションに対して、イテレーションプロセスボードで使用できます。
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
+source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # 反復指標の確認
+
+{{highlighted-preview}}
 
 指標は、ワークストリーム、イテレーションプロセスボード、ダッシュボードで、各イテレーションに対して使用できます。
 
@@ -46,7 +49,7 @@ ht-degree: 0%
 1. を選択します。 [!UICONTROL 反復処理] ボード。
 1. 右上のボードの上にある指標領域を確認します。 上下の矢印をクリックして、反復間を移動します。
 
-   次の指標が表示されます。反復に割り当てられたポイントの合計数、反復でまだ完了していない残りのポイント、反復で完了したポイント数。
+   次の指標が表示されます。反復に割り当てられたポイントの総数、反復でまだ完了していない残りのポイント、反復で完了したポイント数 <span class="preview">と、この反復で作成および完了した目標の数</span>.
 
 1. （オプション） [!UICONTROL **反復の詳細**] アイコン ![反復の詳細](assets/iteration-details-button.png) をクリックして、選択したイテレーションの詳細ダイアログを開きます。
 
