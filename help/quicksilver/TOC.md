@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
+source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
 workflow-type: tm+mt
-source-wordcount: '13086'
+source-wordcount: '13071'
 ht-degree: 2%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 2%
       * [Adobe Workfrontの四半期リリースに備える](product-announcements/product-releases/release-readiness.md)
       * 23.3 リリース {#release-23-3}
          * [23.3 リリースの概要](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [2023 年 4 月 10 日の 23.3 リリースアクティビティ週](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-         * [2023 年 4 月 18 日のリリース活動週](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
-         * [2023 年 4 月 24 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
-         * [2023 年 5 月 1 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
-         * [2023 年 5 月 8 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
-         * [2023 年 5 月 15 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
-         * [2023 年 5 月 29 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
-         * [2023 年 6 月 5 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [2023 年 6 月 12 日の 23.3 リリースアクティビティ週](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
+         * [23.3 管理者の機能強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
+         * [23.3 アジャイルの強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 統合の強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
+         * [23.3 プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3 モバイル機能の強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
+         * [23.3 その他の機能強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
+         * [23.3 リリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * 23.2 リリース {#release-23-2}
          * [23.2 リリースの概要](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 管理者の機能強化](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -215,6 +213,7 @@ ht-degree: 2%
       * Workfront Proof リリースアクティビティ {#proof-release}
          * 23.3 リリースでの配達確認 {#proof-23-3-release}
             * [Adobe Workfront Proof（23.3 リリースでの使用）](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Adobe Workfront Proof 23.3 リリースアクティビティ：2023 年 7 月 17 日の週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Adobe Workfront Proof 23.3 リリースアクティビティ：2023 年 6 月 5 日の週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3 リリースアクティビティ：2023 年 5 月 8 日の週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof リリースアクティビティ：2021 年 5 月 17 日の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)

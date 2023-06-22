@@ -7,9 +7,9 @@ description: このページでは、Adobe Workfront Goals のプレビュー環
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 更新セクションの機能強化
 
-目標の更新に関する節の機能強化は、23.3 リリース期間内に提供されます。 これらの機能強化は、プレビューのリリース後すぐに、実稼動環境で使用可能になります。
+目標の更新に関する節の機能強化は、新しいコメントベータ版エクスペリエンスにリリースされる更新と同時に、23.3 リリース期間内に提供されます。 これらの機能強化は、プレビューのリリース後すぐに、実稼動環境で使用可能になります。
 
 目標に対して使用可能なコメント機能の強化は、他のWorkfrontオブジェクトに対する新しいコメント機能ベータ版のエクスペリエンスでリリースされたものと同じです。
 

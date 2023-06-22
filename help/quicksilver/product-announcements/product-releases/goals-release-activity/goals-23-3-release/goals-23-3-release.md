@@ -6,13 +6,13 @@ title: Adobe Workfront 23.3 リリースでの目標
 description: このページでは、23.3 リリースで実稼動環境にリリースされる新しいAdobe WorkfrontエクスペリエンスのAdobe Workfront目標に関する機能について説明します。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: af605e10362c780ea82c2ea73d2aaf9d78ec4498
+exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
+source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Workfront 23.3 リリースでの目標
 
@@ -37,7 +37,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">更新セクションの機能強化</a></p>
-                        <p>目標の更新に関する節の機能強化は、23.3 リリース期間内に提供されます。 これらの機能強化は、プレビューのリリース後すぐに、実稼動環境で使用可能になります。</p>
+                        <p>目標の更新に関する節の機能強化は、新しいコメントベータ版エクスペリエンスにリリースされる更新と同時に、23.3 リリース期間内に提供されます。 これらの機能強化は、プレビューのリリース後すぐに、実稼動環境で使用可能になります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                      <p>
