@@ -6,10 +6,10 @@ description: Adobe Workfrontの新しいコメント作成エクスペリエン�
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 4%
+source-wordcount: '1411'
+ht-degree: 3%
 
 ---
 
@@ -60,47 +60,44 @@ ht-degree: 4%
 
 次の情報は、新しいコメントベータ版エクスペリエンスに含まれる機能に基づいて、毎週リリースアクティビティを参照します。 このページには、追加された新機能と、新しいコメント作成機能用に解決された問題の一覧が表示されます。
 
-<!--
-### Week of June 19, 2023
 
-#### Quote comment content in a new reply 
+### 2023 年 6 月 20 日以降にリリースされた機能
 
-Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+<!--restructure this section with actual weeks and dates, when we know them-->
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+この節に記載されている機能は、2023 年 6 月 20 日の週の直後にリリースされる予定です。
 
-Preview and Production: June 22, 2023 
+#### 新しい返信でコメントの内容を引用
 
-### Upcoming releases, after June 19, 2023
+これで、新しいコメントエクスペリエンスを使用する際に、コメントの内容をコピーし、新しい引用符として同じスレッド内の返信に追加することができます。
 
-<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-The features described in this section are planned to release shortly after the week of June 19, 2023. 
+プレビューと実稼動：2023 年 6 月 30 日に予定
 
-#### Add emojis to an update
+#### 更新への絵文字の追加
 
-You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+新しいコメントエクスペリエンスのリッチテキストツールバーオプションを使用して、コメントに絵文字を追加できるようになりました。
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Preview: To be announced 
+プレビュー：発表予定（23.3 リリース時）
 
-Production: To be announced. Before the 23.3 release.
+本番：発表する。 23.3 リリースより前。
 
-#### New commenting experience for additional objects 
+#### 追加のオブジェクトに関する新しいコメント作成機能
 
-The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+新しいコメントエクスペリエンスは、23.3 の実稼動環境へのリリース後すぐに、次のオブジェクトで使用できます。テンプレートタスク、テンプレート、タイムシート、チーム、ユーザー、プログラム、ポートフォリオ
 
-This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+これらのオブジェクトにアクセスすると、従来のコメントエクスペリエンスは削除されるので、これが唯一のコメントエクスペリエンスになります。
 
-For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+プレビューリリース：23.3 実稼動版リリース（2023 年 7 月 20 日）後に発表予定
 
-Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+高速リリース版のお客様向けの実稼動リリース：発表は、23.3 実稼動版リリース以降
 
-Production release for all customers: with the 23.4 release 
--->
+すべてのお客様向けの実稼動版リリース：23.4 リリースの場合
 
 ### 2023 年 6 月 12 日の週
 
