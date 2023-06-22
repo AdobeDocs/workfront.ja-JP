@@ -6,14 +6,16 @@ description: ボードをフィルタリングして、特定のカードのみ�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
 # ボードでのフィルターと検索
+
+{{highlighted-preview}}
 
 ボードをフィルタリングして表示できます。
 
@@ -23,6 +25,8 @@ ht-degree: 0%
 * 特定の期間内に期限が切れるカード
 * アーカイブしたカード
 * 特定のプロジェクトに接続されたカード
+
+<span class="preview">ボードの並べ替えは、列のすべてのカードを並べ替えます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。</span>
 
 検索は、ボード上の特定のカードを探すのにも役立ちます。
 
@@ -105,6 +109,29 @@ ht-degree: 0%
    また、プロジェクトに接続されていないカードを表示することもできます。
 
    ![接続でフィルター](assets/boards-filter-by-connection.png)
+
+<div class="preview">
+
+## ボードでの並べ替え
+
+並べ替えの基準となるオプションを選択すると、すべての列が並べ替えられます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。
+
+1. ボードにアクセスします。
+1. クリック [!UICONTROL **並べ替え基準**] を選択し、 [!UICONTROL **名前**], [!UICONTROL **期限**], [!UICONTROL **推定**], [!UICONTROL **ステータス**]&#x200B;または [!UICONTROL **接続**].
+
+   接続（プロジェクト名）は、接続されたカードにのみ適用され、その他のオプションは、接続されたカードとアドホックカードの両方を列で並べ替えます。
+
+   「ユーザーの順序」オプションは、他の並べ替えオプションが適用される前に、手動で設定された順序にカードを返します。 列のデフォルトの並べ替えです。
+
+1. 選択 [!UICONTROL **逆順**] をクリックして、並べ替えオプションの逆の順序で列を並べ替えます。
+
+   並べ替えアイコンの矢印は、列が昇順または降順のどちらで並べ替えられているかを示します。
+
+   デフォルト以外の並べ替えが適用されると、並べ替えアイコンにインジケーターが表示されます ![適用された並べ替え](assets/sort-applied-boards.png).
+
+   ![ボード上の列で並べ替え](assets/sort-by-columns-in-board.png)
+
+</div>
 
 ## ボードでの検索
 

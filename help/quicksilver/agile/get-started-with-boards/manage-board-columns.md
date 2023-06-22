@@ -6,9 +6,9 @@ description: 新しいボードには、デフォルトで 3 つの列が含ま�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: b3322b703380ad649df6313d2341bd2cbe25c860
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 新しいボードには、デフォルトで 3 つの列が含まれています。 列の追加、列の順序の変更、列の名前の変更、不要な列の削除を行うことができます。
 
 列設定にはポリシーが含まれ、カードをその列に移動したときにカードがどうなるかに関するオプションを定義できます。
+
+列でのカードの並べ替えについて詳しくは、 [ボードでのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## アクセス要件
 
