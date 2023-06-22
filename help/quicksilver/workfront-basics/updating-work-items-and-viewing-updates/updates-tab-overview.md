@@ -7,9 +7,9 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 4%
     </ul> </td> 
    <td> 
     <ul> 
-     <li>ストーリー</li> 
+     <li>ストーリー*</li> 
      <li>タスク</li> 
      <li>テンプレート</li> 
      <li>テンプレート タスク</li> 
@@ -89,10 +89,13 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
+*ストーリーはタスクです。 タスクに関する情報はすべて、ストーリーに対しても利用できます。
 
 ### ベータコメントエクスペリエンスの更新の節の概要
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 「更新」セクションには、新しいコメントエクスペリエンスの次のタブに情報が表示されます。
 
@@ -109,7 +112,7 @@ ht-degree: 4%
    <td> 
     <ul> 
      <li><p>目標</p>
-     <li><span class="preview">ボード領域のカード</span></li>
+     <li><span class="preview">ボード領域のカード*</span></li>
       これが目標のための唯一のエクスペリエンスです <span class="preview">カード</span>.
      </li> 
      <li><span class="preview">プロジェクト</span></li>
@@ -124,10 +127,7 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->カードの「コメント」および「システムアクティビティ」セクションを有効にすると、ボード領域のカードに対する更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+*カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、ボードエリアでカードの更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## 上位のオブジェクトにも表示される更新
 

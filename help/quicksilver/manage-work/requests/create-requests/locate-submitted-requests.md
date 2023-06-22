@@ -6,7 +6,7 @@ description: 自分または他のユーザーが送信したリクエストや�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 1%
@@ -15,14 +15,16 @@ ht-degree: 1%
 
 # 送信された要求の場所
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 自分または他のユーザーが送信したリクエスト、または開始したが送信を完了していないリクエストのタイプを確認できます。 これらのリクエストは、Adobe Workfrontの次の領域で検索できます。
 
 * **送信済みセクション**:自分または他のユーザーが送信したすべてのリクエストと、少なくとも表示へのアクセス権を持っている。
 * **ドラフトセクション** :開始したが、完了せず、送信しなかったすべてのリクエスト。 ドラフトリクエストについて詳しくは、 [Adobe Workfront要求の作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   >[!TIP]
-   >
-   >自分の下書きリクエストのみを表示できます。
+  >[!TIP]
+  >
+  >自分の下書きリクエストのみを表示できます。
 
 ## アクセス要件
 
@@ -69,6 +71,8 @@ ht-degree: 1%
    >「送信済みのリクエスト」リストの列はカスタマイズできません。
 
    ![](assets/nwe-submitted-requests-new-list-350x57.png)
+
+   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. デフォルトでは、次の列が表示されます。
 

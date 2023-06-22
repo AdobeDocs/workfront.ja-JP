@@ -6,9 +6,9 @@ description: Adobe Workfrontのコメントエクスペリエンスのアップ�
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -425,7 +425,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
 * 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
-   * 問題、 <span class="preview">プロジェクト、タスク、ストーリー、ドキュメント</span>
+   * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>
 
   Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

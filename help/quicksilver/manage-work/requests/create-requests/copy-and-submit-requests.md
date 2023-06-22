@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 2%
@@ -14,9 +14,7 @@ ht-degree: 2%
 
 # リクエストのコピーと送信
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE only - hard code it in classic articles!)</p>
--->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 同様のリクエストを頻繁に送信する場合は、既存の送信済みリクエストをコピーできます。 この場合、既存のリクエストをコピーし、最小限の変更を加えて、新しいリクエストとして再送信できます。
 
@@ -91,7 +89,7 @@ ht-degree: 2%
 * ユーザーが自分のリクエストに対する権限を削除しない限り、ユーザーは常に自分のリクエストのコピーおよび送信のアクセス権を持ちます。
 * 他のユーザーが最初に送信したコピー要求と送信要求へのアクセスは、同じ会社内のユーザーに対して、要求キューの作成者が **同じ会社の担当者は、すべてのリクエストに対して同じ権限を継承します** 「キューの詳細」または「プロジェクトを編集」領域で、 この設定を無効にすると、元の要求者のみが独自の要求を表示できます。
 
-   詳しくは、次の記事を参照してください。
+  詳しくは、次の記事を参照してください。
 
    * [リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
    * [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md)
@@ -102,9 +100,9 @@ ht-degree: 2%
    * リクエストキューが削除されました。
    * キュートピックが削除されました。
 
-      >[!TIP]
-      >
-      >キュートピックがリクエストキュー内で唯一のトピックであった場合でも、リクエストをコピーして送信でき、リクエストキュー自体に保存されます。
+     >[!TIP]
+     >
+     >キュートピックがリクエストキュー内で唯一のトピックであった場合でも、リクエストをコピーして送信でき、リクエストキュー自体に保存されます。
 
    * リクエストキューがヘルプリクエストキューとして公開されなくなりました。 詳しくは、 [リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * リクエストキューにキュートピックがなく、元のリクエストが 2022 年 1 月より前に送信された場合。
@@ -113,9 +111,9 @@ ht-degree: 2%
 
 * 変換後のリクエストが変換プロセスで保持されている場合は、そのリクエストのコピーをコピーして送信できます。 詳しくは、 [Adobe Workfrontでの変換の問題の概要](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-   >[!TIP]
-   >
-   >コピーされたリクエストは解決オブジェクトにリンクされていません。
+  >[!TIP]
+  >
+  >コピーされたリクエストは解決オブジェクトにリンクされていません。
 
 ## リクエストのコピーと送信
 
@@ -123,27 +121,34 @@ ht-degree: 2%
 1. （条件付き）デフォルトで「送信済み」セクションが表示されない場合、 **送信済み** をクリックします。
 1. 新規としてコピーして送信するリクエストを見つけ、次のいずれかの操作を行います。
 
-   * 選択して、 **新規としてコピーして送信** アイコン ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （「送信済みのリクエスト」リストの左上隅）
-   * 次をクリック： **詳細** メニュー ![](assets/more-icon.png) をクリックし、 **新規としてコピーして送信**
+   * 選択して、 **新規としてコピーして送信** アイコン ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （「送信済みのリクエスト」リストの左上隅） <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
 
-      または
+   <!-- reveal this tip for 23.3 preview release:
+   >[!TIP]
+   >
+   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
+   -->
 
-      選択したリクエストを右クリックし、「 **新規としてコピーして送信**.
+   * 次をクリック： **詳細** メニュー ![](assets/more-icon.png) をクリックし、 **新規としてコピーして送信** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
 
-      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     または
 
-      >[!TIP]
-      >
-      >イシューを作成するアクセス権がない場合は、管理者によってリクエストの作成が制限されたという警告が表示されます。
+     選択したリクエストを右クリックし、「 **新規としてコピーして送信**.
+
+     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+
+     >[!TIP]
+     >
+     >イシューを作成するアクセス権がない場合は、管理者によってリクエストの作成が制限されたという警告が表示されます。
 
 1. （オプション）必要に応じて、次の情報を更新します。
 
    * **リクエストタイプ**:コピーしたリクエストが保存されるリクエストキュー。 デフォルトでは、コピーされたリクエストは元のリクエストのリクエストキューに保存されます。
    * **トピックグループ** および **トピックをキュー**（選択されている場合） 名前またはトピックグループとキューのトピックは、環境に合わせてカスタマイズされます。 デフォルトでは、コピーしたリクエストは、元のリクエストのトピックグループおよびキュートピックに保存されます。
 
-      >[!TIP]
-      >
-      >パスが元のリクエストのパスから変更された場合、リクエストキューの作成者はキューを変更しました。
+     >[!TIP]
+     >
+     >パスが元のリクエストのパスから変更された場合、リクエストキューの作成者はキューを変更しました。
 
 1. （オプション）コピーしたリクエストの情報を更新します。 リクエストキューの作成者が **新しい問題フィールド** セクション **キューの詳細** プロジェクトの「 」サブタブには、次のフィールドが表示される場合があります。
 
@@ -231,7 +236,6 @@ ht-degree: 2%
    >
    >* 元の要求に添付されたすべてのカスタムフォームと、カスタムフィールドに含まれる値は、コピーされた要求に転送されます。 これには、ロジックを含むフィールドが含まれます。
    >* コピーした要求からカスタムフォームを削除することはできません。
-
 
 1. クリック **送信**.
 
