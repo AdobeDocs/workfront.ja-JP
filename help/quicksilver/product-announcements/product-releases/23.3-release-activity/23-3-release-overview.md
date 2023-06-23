@@ -4,7 +4,7 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8de827eb5c187030a1e8d8c8a414c9ddccaa3d80
+source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
 workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 0%
@@ -25,8 +25,10 @@ ht-degree: 0%
 
 * [管理者の機能強化](#administrator-enhancements)
 * [アジャイルの強化](#agile-enhancements)
+* [Financial Management の機能強化](#financial-management-enhancements)
 * [統合の強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+* [モバイル機能の強化](#mobile-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者の機能強化
@@ -111,7 +113,23 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボード列で並べ替え</a><span style="color: #ff0000;"> 近日開始！</span></p>
+                        <p>ボード上の列のカードを並べ替える機能が追加されました。 並べ替えの基準となるオプションを選択すると、すべての列が並べ替えられます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 6 月 23 日</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                             
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでダークモードが利用可能</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
@@ -130,24 +148,8 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでのワークストリーム反復の機能強化</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
-                        <p>カードに目標をリストする必要なく、目標をイテレーションに追加する機能を追加しました。 目標はチェックリスト形式で追加され、完了とマークできます。 反復の右上にある指標領域には、目標の数と完了数が表示されます。 また、「次の反復」(Next Iteration) 列がイテレーションボードで使用できるようになりました。</p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース：2023 年 6 月 23 日</p>
-                            </li>
-                            <li>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボード列で並べ替え</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
-                        <p>ボード上の列のカードを並べ替える機能が追加されました。 並べ替えの基準となるオプションを選択すると、すべての列が並べ替えられます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでのワークストリームの繰り返しに関して使用可能な目標</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>カードに目標をリストする必要なく、目標をイテレーションに追加する機能を追加しました。 目標はチェックリスト形式で追加され、完了とマークできます。 反復の右上にある指標領域には、目標の数と完了数が表示されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -299,6 +301,42 @@ ht-degree: 0%
             </tbody>
         </table>
 
+### Financial Management の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>   
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">有効なコストと請求率の日付</a><span style="color: #ff0000;"> 近日開始！</span> </p>
+                        <p>日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 6 月 30 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリース版のお客様向けの実稼動リリース：発表は、23.3 実稼動版リリース以降</p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.4 リリースの場合</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### 統合の強化
 
 <table>
@@ -445,24 +483,7 @@ ht-degree: 0%
                         <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                 </tr>   
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">有効なコストと請求率の日付</a><span style="color: #ff0000;"> 近日開始！</span> </p>
-                        <p>日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。</p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース：2023 年 6 月 30 日</p>
-                            </li>
-                            <li>
-                                <p>高速リリース版のお客様向けの実稼動リリース：発表は、23.3 実稼動版リリース以降</p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.4 リリースの場合</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>   
+                 </tr>  
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいドキュメント承認</a> </p>

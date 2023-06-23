@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 19ae3a7c21047c4abf476d051e1cbefd09559e84
+source-git-commit: 06dc88ee79736a8a0f4b5667370849827d771ca1
 workflow-type: tm+mt
-source-wordcount: '13088'
+source-wordcount: '13091'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 2%
          * [23.3 リリースの概要](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
          * [23.3 管理者の機能強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
          * [23.3 アジャイルの強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 金融管理の強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md)
          * [23.3 統合の強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
          * [23.3 プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
          * [23.3 モバイル機能の強化](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)

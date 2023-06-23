@@ -3,9 +3,9 @@ title: 23.3 その他の機能強化
 description: 23.3 その他の機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ New Home は、開発と改善を続けていくことを楽しみにしてい�
 
 新しいホームは、リリース時にすべてのユーザーのデフォルトエクスペリエンスになります。 ただし、当社が機能の開発を続ける際に、既存のホームエクスペリエンスに戻すこともできます。
 
-6 月 23 日に、新しいホームのドキュメントがリリースでプレビュー用に公開されます。
+詳しくは、 [Adobe Workfrontの新しいホームを開始する](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3420860/){target=_blank}
 
 ## 追加のオブジェクトに関する新しいコメント作成機能
 

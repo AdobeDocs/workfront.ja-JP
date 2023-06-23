@@ -3,9 +3,9 @@ title: 23.3 アジャイルの強化
 description: 23.3 アジャイルの強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 このページでは、プレビュー環境の 23.3 リリースでおこなわれたすべてのアジャイル機能の強化について説明します。 これらの機能強化は、23.3 リリースで実稼動環境で利用できるようになります。
 
 23.3 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+四半期リリース前の新しいボード機能をオプトインする方法について詳しくは、 [Adobe Workfrontボードの初期機能のオプトイン](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## プロジェクトの「アジャイル・ビュー」には、かんばんボードが表示されます
 
@@ -28,24 +30,6 @@ ht-degree: 0%
 
 更新されたプロジェクトのアジャイルビューに関するドキュメントは、そのリリースでプレビュー可能になります。
 
-## Adobe Workfrontボードでダークモードが利用可能
-
-これで、すべてのボードとワークストリームをダークモードで表示できます。 新しい設定は、ボードダッシュボードの環境設定で利用できます。
-
->[!NOTE]
->
->組織のWorkfrontインスタンスがAdobeUnified Experience にオンボーディングされている場合は、環境設定メニュー（プロフィールの画像）ですべてのAdobe Experience Cloudのダークテーマの書式設定を有効にできます。Workfrontボードにはダークモードオプションは別に表示されません。
-
-詳しくは、 [電子メール通知と環境設定をボード](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Adobe Workfrontボードでのワークストリーム反復の機能強化
-
-カードに目標をリストする必要なく、目標をイテレーションに追加する機能を追加しました。 目標はチェックリスト形式で追加され、完了とマークできます。 反復の右上にある指標領域には、目標の数と完了数が表示されます。
-
-また、「次の反復」(Next Iteration) 列がイテレーションボードで使用できるようになりました。 この列にカードを配置すると、そのカードは次の反復に自動的に持ち込まれ、バックログには戻りません。 次の反復では、カードのステータスに対応する列にカードが表示されます。
-
-これらの機能の両方について詳しくは、 [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## ボード列で並べ替え
 
 ボード上の列のカードを並べ替える機能が追加されました。 並べ替えの基準となるオプションを選択すると、すべての列が並べ替えられます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。
@@ -56,6 +40,24 @@ ht-degree: 0%
 
 詳しくは、 [ボードでのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## Adobe Workfrontボードでダークモードが利用可能
+
+これで、すべてのボードとワークストリームをダークモードで表示できます。 新しい設定は、ボードダッシュボードの環境設定で利用できます。
+
+>[!NOTE]
+>
+>組織のWorkfrontインスタンスがAdobeUnified Experience にオンボーディングされている場合は、環境設定メニュー（プロフィールの画像）ですべてのAdobe Experience Cloudのダークテーマの書式設定を有効にできます。Workfrontボードにはダークモードオプションは別に表示されません。
+
+詳しくは、 [電子メール通知と環境設定をボード](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Adobe Workfrontボードのワークストリーム反復で使用可能な目標
+
+カードに目標をリストする必要なく、目標をイテレーションに追加する機能を追加しました。 目標はチェックリスト形式で追加され、完了とマークできます。 反復の右上にある指標領域には、目標の数と完了数が表示されます。
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+詳しくは、 [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## ボードのカードにコメントを追加する
 
 >[!NOTE]
@@ -65,6 +67,8 @@ ht-degree: 0%
 ボード上のアドホックカードと接続されたカードの両方にコメントを追加し、そのコメントで他のユーザーにタグ付けできるようになりました。 コメントはカードの詳細で確認できます。 ボードのコメント機能は、新しいAdobe Workfrontのコメント機能を使用します。
 
 詳しくは、 [ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) および [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Boards タグマネージャーの機能強化
 
