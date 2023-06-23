@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
+source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
 workflow-type: tm+mt
-source-wordcount: '2525'
+source-wordcount: '2520'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 このページの機能強化は、プレビュー環境で利用できます。 23.3 リリースが予定されている実稼動版リリースに近づいているので、このページは更新され、機能強化が加えられます。
 
-23.3 リリースウェビナーは 2023 年 6 月 29 日に開催されます。 以下が可能です。 [ウェビナーへの登録はこちら](https://wcc.on24.com/webcast/present?e=4212784&amp;k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+23.3 リリースウェビナーは 2023 年 6 月 29 日に開催されます。 以下が可能です。 [ウェビナーへの登録はこちら](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">オフサイクル機能（23.3 のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
 
