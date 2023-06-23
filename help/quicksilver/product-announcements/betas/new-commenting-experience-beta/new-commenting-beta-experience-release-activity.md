@@ -6,9 +6,9 @@ description: Adobe Workfrontの新しいコメント作成エクスペリエン�
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 3%
 
 ---
@@ -71,15 +71,25 @@ ht-degree: 3%
 
 これで、新しいコメントエクスペリエンスを使用する際に、コメントの内容をコピーし、新しい引用符として同じスレッド内の返信に追加することができます。
 
-詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). ドキュメントはリリース時に更新されます。
 
-プレビューと実稼動：2023 年 6 月 30 日に予定
+プレビューおよび実稼動版のリリース予定：2023 年 6 月 30 日
+
+#### ログ時間の新しいインターフェイス
+
+新しいコメント作成機能の「更新」領域から時間を記録するためのインターフェイスのデザインを変更しました。
+
+詳しくは、 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md). ドキュメントはリリース時に更新されます。
+
+プレビューリリースの予定：2023 年 6 月 30 日
+
+実稼動予定リリース：23.3 リリースの場合
 
 #### 更新への絵文字の追加
 
 新しいコメントエクスペリエンスのリッチテキストツールバーオプションを使用して、コメントに絵文字を追加できるようになりました。
 
-詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). ドキュメントはリリース時に更新されます。
 
 プレビュー：発表予定（23.3 リリース時）
 
@@ -91,11 +101,11 @@ ht-degree: 3%
 
 これらのオブジェクトにアクセスすると、従来のコメントエクスペリエンスは削除されるので、これが唯一のコメントエクスペリエンスになります。
 
-詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). ドキュメントはリリース時に更新されます。
 
 プレビューリリース：23.3 実稼動版リリース（2023 年 7 月 20 日）後に発表予定
 
-高速リリース版のお客様向けの実稼動リリース：発表は、23.3 実稼動版リリース以降
+高速リリース版のお客様向けの実稼動リリース：23.3 リリース後に発表予定
 
 すべてのお客様向けの実稼動版リリース：23.4 リリースの場合
 

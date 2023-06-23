@@ -6,9 +6,9 @@ description: 「完了」ボタンを使用して、タスクまたはイシュ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1168'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
 特定の権限を持つユーザーは、 [!UICONTROL 完了] ボタンを使用して、特定のステータスをシステムに反映させることができます。 次の 3 つの方法があります。 [!UICONTROL 完了] ボタンが [!DNL Workfront]:
 
 * ユーザーに [!UICONTROL ホームチーム], a [!DNL Workfront] 管理者または [!UICONTROL プラン] ライセンスは、 [!UICONTROL 完了] ボタンを使用して、チームメンバーに特定のステータスを反映させます。 詳しくは、 [の設定 [!UICONTROL 完了] チームのボタン](#configure-the-uicontrol-done-button-for-a-team) 」を参照してください。
+* ユーザーが [!UICONTROL ホームチーム]が、[!UICONTROL その他のチーム] Workfrontは自分のプロファイルで、 [!UICONTROL 完了] 」ボタンをクリックします。 選択はランダムで、いずれかのチームに関連付けられたステータスが問題に使用されます。
 * ユーザーが [!UICONTROL ホームチーム] 割り当て済み、 [!UICONTROL 完了] 問題のボタンは、システムで生成された [!UICONTROL 解決済み] 3 文字のコードを持つステータス [!UICONTROL RLV]. このシナリオで使用できる設定オプションはありません。 この [!UICONTROL 完了] ボタンは、自動的にこのステータスに設定されます。
 * この [!UICONTROL 解決済み] ([!UICONTROL RLV]) ステータスが削除され、ユーザーが問題を「 」としてマークします。 [!UICONTROL 完了] 次がない [!UICONTROL ホームチーム]の場合、デフォルトの問題ステータスは、 [!UICONTROL クローズ] 問題が属するプロジェクトに割り当てられたグループの場合。 Workfrontの管理者は、グループのシステム全体のデフォルト設定を構成できます。 詳しくは、 [の設定 [!UICONTROL 完了] ボタン [!UICONTROL 解決済み] ステータスは削除されました](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) 」を参照してください。
 
@@ -71,24 +72,22 @@ ht-degree: 1%
    >* 作業項目の種類ごとに 1 つのステータスを選択すると、ユーザーがクリックすると、タスクまたは問題のステータスがそのステータスに設定されます [!UICONTROL 完了] を選択します。 作業項目のタイプごとに複数のステータスを設定した場合、 [!UICONTROL 完了] 」ボタンをクリックし、作業項目のステータスを変更するには、ステータスを選択する必要があります。
    >* システムレベルのステータスのみを [!UICONTROL 完了] 」ボタンをクリックします。 グループ固有のステータスを作業項目のステータスに関連付けることはできません。
    >* アイテムに割り当てられたユーザーが、アイテムを [!UICONTROL 完了] ボタンをクリックすると、項目は [!UICONTROL 完了] 選択したステータスが [!UICONTROL 完了] または [!UICONTROL クローズ] ステータスまたは作業ステータス。
-
    >   
    >   
    >  例えば、 [!UICONTROL 完了] ボタンをクリックすると、作業項目が [!UICONTROL 完了] ステータスを「新規」から「処理中」に変更するユーザーのステータスを表示します。
    >   
    >* 問題のタイプはカスタマイズ可能で、環境によっては、以下に示すように異なる名前が付けられる場合があります。\
-      >  デフォルトのタスクと問題のタイプは次のとおりです。
-      >     
-      >   * [!UICONTROL タスク]
-      >   * [!UICONTROL 問題]
-      >   * [!UICONTROL リクエスト]
-      >   * [!UICONTROL 変更依頼]
-      >   * [!UICONTROL バグ報告書]
-
+   >  デフォルトのタスクと問題のタイプは次のとおりです。
+   >     
+   >   * [!UICONTROL タスク]
+   >   * [!UICONTROL イシュー]
+   >   * [!UICONTROL リクエスト]
+   >   * [!UICONTROL 変更依頼]
+   >   * [!UICONTROL バグレポート]
 
    タスクまたはイシューが複数のユーザーに割り当てられている場合は、「[!UICONTROL 私の部分で完了]」オプションが表示されます。
 
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
 ## ユーザをホームチームに関連付ける
 
@@ -104,7 +103,7 @@ ht-degree: 1%
 
 1. 内 **[!UICONTROL 組織]** セクションで、 **[!UICONTROL ホームチーム]** フィールドに入力します。 設定をユーザーに関連付けるチームの名前を入力します。 リストにチームの名前が表示されたら、そのチームの名前をクリックします。
 
-1. クリック **[!UICONTROL 変更を保存]**.\
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。\
    選択したユーザがホームチームに関連付けられます。
 チーム設定 ( [!UICONTROL 完了] ボタンが表示されるようになりました。
 

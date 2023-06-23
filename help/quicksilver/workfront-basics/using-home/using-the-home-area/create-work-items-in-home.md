@@ -6,9 +6,9 @@ description: ホーム領域から作業項目を作成する
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->個人用タスクを作成すると、そのタスクは、で検索できない「非表示」プロジェクトに保存されます。 [!UICONTROL Workfront]. このプロジェクトにアクセスできるのは、タスクを削除した場合のみです（タスク自体からは削除できません）。 [!UICONTROL ホーム] 領域 ) に書き込まれます。\
->![[!UICONTROL 個人用タスクのプロジェクト]](assets/createworkitems-personal--project-350x105.png)>
+>* 個人用タスクを作成すると、そのタスクは、で検索できない「非表示」プロジェクトに保存されます。 [!UICONTROL Workfront]. プロジェクトの名前は「&lt; ユーザー名 > のタスク」です。 「ユーザー名」は、タスクを作成したユーザーのフルネームです。 このプロジェクトにアクセスできるのは、 [!UICONTROL ホーム] 領域（タスクのパンくずリストなど）
+>
+>* 通常のプロジェクトタスクとは異なり、個人用タスクには、Workfrontインターフェイスに表示される一部のフィールドが制限され、プロジェクトのタイムラインや進行状況には影響しません。 個人用タスクを別のユーザーに再割り当てすると、すべてのタスクフィールドが個人用タスクに追加されますが、タスクはタスクを作成したユーザーの個人用プロジェクトに残ります。
+>
+>* 個人用タスクを通常のワークフローの一部にしたい場合は、プロジェクトを作成し、個人用タスクをそのプロジェクトに移動することをお勧めします。
+>
+> ![[!UICONTROL 個人用タスクのプロジェクト]](assets/createworkitems-personal--project-350x105.png)
 
 ## 別のユーザーからの作業をリクエスト
 
