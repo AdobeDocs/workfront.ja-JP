@@ -7,10 +7,10 @@ description: 指標は、ワークストリームの各イテレーションに�
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 1. を選択します。 [!UICONTROL 反復処理] ボード。
 1. 右上のボードの上にある指標領域を確認します。 上下の矢印をクリックして、反復間を移動します。
 
-   次の指標が表示されます。反復に割り当てられたポイントの合計数、反復でまだ完了していない残りのポイント、反復で完了したポイントの数。
+   次の指標が表示されます。反復に割り当てられたポイントの合計数、反復でまだ完了していない残りのポイント、反復で完了したポイント数。
 
 1. （オプション） [!UICONTROL **反復の詳細**] アイコン ![反復の詳細](assets/iteration-details-button.png) をクリックして、選択したイテレーションの詳細ダイアログを開きます。
 
