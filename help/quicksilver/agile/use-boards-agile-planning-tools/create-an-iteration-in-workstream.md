@@ -7,16 +7,14 @@ description: 繰り返しとは、作業の完了に必要な一定時間のこ�
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 0%
+source-wordcount: '369'
+ht-degree: 1%
 
 ---
 
 # ワークストリームでの反復の作成
-
-{{highlighted-preview}}
 
 繰り返しとは、作業の完了に必要な一定時間のことです。 アジャイルチームの中には、反復をスプリントと呼ぶものもあります。
 
@@ -90,12 +88,13 @@ ht-degree: 0%
 
    イテレーションが開始された後は、イテレーション名のみを変更でき、日付やイテレーションの長さは変更できません。
 
-1. <span class="preview">イテレーションに目標を追加するには、を展開します。 [!UICONTROL **目標**].</span>
-1. <span class="preview">クリック [!UICONTROL **目標を追加**]、 、目標名を入力します。</span>
+<!--   
 
-   <span class="preview">イテレーション中に目標が完了したら、チェックボックスをオンにして完了をマークするか、 **削除** アイコン ![削除アイコン](assets/delete.png) 目標を削除します。 反復の右上にある指標領域には、目標の数と完了数が表示されます。</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration
