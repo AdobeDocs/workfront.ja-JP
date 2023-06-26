@@ -6,9 +6,9 @@ description: タスクをプロジェクトから別のプロジェクトにコ�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 23a08c929b0a227c7a555af70ff731ef2df7a179
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1705'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,37 @@ ht-degree: 1%
 一度に 1 つまたは複数のタスクまたは親タスクをコピーまたは複製できます。
 
 ## アクセス要件
+
+<!-- drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard</p> 
+   Or
+   <p>Legacy license: Work or higher </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a task</p> <p>Contribute or higher permissions to the project</p> 
+   <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -37,8 +68,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
-  </tr> 
+   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p><b>メモ</b>
+
+まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>タスクに対する権限の管理 </p> <p>プロジェクトに対する権限を投稿するか、それ以上に設定します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
@@ -54,12 +87,13 @@ ht-degree: 1%
 
 * タスクにイシューはコピーされません。
 * マイルストーンはコピーされたタスクに転送され、元のタスクから削除されます。
+* あるプロジェクトから別のプロジェクトにタスクをコピーすると、タスクの日付が再計算される場合があります。 再計算では、新しいプロジェクトで使用されるスケジュールと、プロジェクトのスケジュール元情報が考慮されます。
 
 タスクは、Adobe Workfront Web アプリケーションの次の領域でコピーできます。
 
 * タスクレベルで、 **その他のアイコン** ![](assets/qs-more-menu-19x7.png) をタスク名の右にクリックします。
 
-   詳しくは、 [タスクレベルでのタスクのコピー](#copy-a-task-at-the-task-level) 」の節を参照してください。
+  詳しくは、 [タスクレベルでのタスクのコピー](#copy-a-task-at-the-task-level) 」の節を参照してください。
 
 * タスクリストで、次のいずれかの操作を行います。
 
@@ -67,8 +101,9 @@ ht-degree: 1%
    * タスクを選択し、 **詳細** アイコン ![](assets/more-icon-task-list.png) をタスクリストの最上部に表示します。
    * タスクを選択して **詳細** アイコン ![](assets/more-icon-task-list.png) タスク名の横に表示されます。
 
-      複数のタスクを選択する場合は、このオプションを使用できません。
-   詳しくは、 [リスト内のタスクのコピー](#copy-tasks-in-a-list) 」の節を参照してください。
+     複数のタスクを選択する場合は、このオプションを使用できません。
+
+  詳しくは、 [リスト内のタスクのコピー](#copy-tasks-in-a-list) 」の節を参照してください。
 
 ## リスト内のタスクのコピー {#copy-tasks-in-a-list}
 
@@ -90,6 +125,7 @@ ht-degree: 1%
    * 次をクリック： **その他のメニュー** タスクリストの上部で、 **コピー先**.
    * 選択したタスクを右クリックし、「 **コピー先**.
    * 1 つのタスクを選択する場合、 **詳細** メニュー ![](assets/more-icon-task-list.png) リスト内のタスク名の横にあるをクリックし、 **コピー先**.
+
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. 「 」の節で説明されているように、タスクのコピーを続行します。 [タスクレベルでのタスクのコピー](#copy-a-task-at-the-task-level) 手順 4 から始めます。
@@ -128,7 +164,6 @@ ht-degree: 1%
    >* 「参照番号」の入力を開始したり、プロジェクトの ID を入力したりすることもできます。 これは、同じ名前のプロジェクトを区別するのに役立ちます。
    >* リストには 100 個のプロジェクトのみが表示されます。
 
-
    既定では、現在のプロジェクト名が表示されます。 同じプロジェクト内のタスクをコピーする場合は、このフィールドを変更しないでください。
 
 1. （条件付き）クリック **アクセスを要求** 選択したプロジェクトへのアクセス権を持っていない場合に、プロジェクトへのアクセス権を要求します。
@@ -143,6 +178,7 @@ ht-degree: 1%
 1. クリック **オプション** 左側のパネルで、タスクと共にコピーしないタスク属性の選択を解除します。 デフォルトでは、すべてのオプションが選択されています。
 
    >[!TIP]
+   >
    選択してから選択解除 **すべて選択** すべてのオプションの選択を解除します。
 
    次のオプションの選択を解除すると、コピーしたタスクに転送されません。 次の表は、オプションの選択を解除した場合の動作を示しています。
@@ -201,12 +237,14 @@ ht-degree: 1%
 1.  （オプション）「 **親を選択** 左側のパネルで、コピーしたタスクの親にするタスクを、コピー先のプロジェクトで選択します。
 
    >[!TIP]
+   >
    リスト内の複数のタスクをコピーするように選択すると、選択したすべてのタスクが、選択した親の子になります。
 
    次のいずれかの操作を行って、親を選択します。
 
    * タスクリストで、プロジェクトプランの親の 1 つを選択します。
    * 検索アイコンをクリックします。 ![検索アイコン](assets/search-icon.png) 親タスクを名前で検索します。
+
    タスクがリストに表示されます。
 
    ![検索機能を使用してタスクを移動する際の親タスクの選択 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
@@ -242,12 +280,12 @@ ht-degree: 1%
    * 問題
    * コピーされたタスクの同じグループに属する先行タスクのみが、その後続タスクと共にコピーされます。
 
-      **例：** たとえば、Task 2 とその先行タスク 1 を同時にコピーした場合、Task 2 のコピーと Task 1 のコピーが作成されます。 Task 1 のコピーは、Task 2 のコピーの前に使用されます。 ただし、タスク 2 をコピーせずにコピーした場合は、そのコピーには先行タスクは含まれません。
+     **例：** たとえば、Task 2 とその先行タスク 1 を同時にコピーした場合、Task 2 のコピーと Task 1 のコピーが作成されます。 Task 1 のコピーは、Task 2 のコピーの前に使用されます。 ただし、タスク 2 をコピーせずにコピーした場合は、そのコピーには先行タスクは含まれません。
 
 * 親タスクを複製すると、子タスクが選択されていない場合でも、すべての子タスクも複製されます。
 * 同時に複数のタスクを複製できます。
 
-   ただし、同時に順次でない複数のタスクを複製することはできません。
+  ただし、同時に順次でない複数のタスクを複製することはできません。
 
 * マイルストーンは新しいタスクに移動され、元のタスクから削除されます。
 
@@ -259,7 +297,7 @@ ht-degree: 1%
 
    * （条件付き） **プランモードメニュー** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **自動保存**、複製するタスクを選択し、 **その他のメニュー** ![](assets/qs-more-menu-29x11.png) > **複製**.
 
-      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
    * （条件付き） **プランモードメニュー** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動で保存** > **標準** または **タイムライン計画**、次の操作を実行します。
 
@@ -268,4 +306,5 @@ ht-degree: 1%
       1. （オプションおよび条件付き）「 **やり直し** 以前に **取り消し**、変更を保持し、タスクを複製します。
 
       1. クリック **保存** 変更を保存します。
+
    1. リスト内のタスクの編集

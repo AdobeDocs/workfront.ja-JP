@@ -6,7 +6,7 @@ description: 「完了」ボタンを使用して、タスクまたはイシュ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 特定の権限を持つユーザーは、 [!UICONTROL 完了] ボタンを使用して、特定のステータスをシステムに反映させることができます。 次の 3 つの方法があります。 [!UICONTROL 完了] ボタンが [!DNL Workfront]:
 
 * ユーザーに [!UICONTROL ホームチーム], a [!DNL Workfront] 管理者または [!UICONTROL プラン] ライセンスは、 [!UICONTROL 完了] ボタンを使用して、チームメンバーに特定のステータスを反映させます。 詳しくは、 [の設定 [!UICONTROL 完了] チームのボタン](#configure-the-uicontrol-done-button-for-a-team) 」を参照してください。
-* ユーザーが [!UICONTROL ホームチーム]が、[!UICONTROL その他のチーム] Workfrontは自分のプロファイルで、 [!UICONTROL 完了] 」ボタンをクリックします。 選択はランダムで、いずれかのチームに関連付けられたステータスが問題に使用されます。
+* ユーザーが [!UICONTROL ホームチーム]が、 [!UICONTROL その他のチーム] Workfrontは自分のプロファイルで、 [!UICONTROL 完了] 」ボタンをクリックします。 選択はランダムで、いずれかのチームに関連付けられたステータスが問題に使用されます。
 * ユーザーが [!UICONTROL ホームチーム] 割り当て済み、 [!UICONTROL 完了] 問題のボタンは、システムで生成された [!UICONTROL 解決済み] 3 文字のコードを持つステータス [!UICONTROL RLV]. このシナリオで使用できる設定オプションはありません。 この [!UICONTROL 完了] ボタンは、自動的にこのステータスに設定されます。
 * この [!UICONTROL 解決済み] ([!UICONTROL RLV]) ステータスが削除され、ユーザーが問題を「 」としてマークします。 [!UICONTROL 完了] 次がない [!UICONTROL ホームチーム]の場合、デフォルトの問題ステータスは、 [!UICONTROL クローズ] 問題が属するプロジェクトに割り当てられたグループの場合。 Workfrontの管理者は、グループのシステム全体のデフォルト設定を構成できます。 詳しくは、 [の設定 [!UICONTROL 完了] ボタン [!UICONTROL 解決済み] ステータスは削除されました](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) 」を参照してください。
 
