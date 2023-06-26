@@ -3,9 +3,9 @@ title: 23.3 アジャイルの強化
 description: 23.3 アジャイルの強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 0%
 
 詳しくは、 [ボードでのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## Adobe Workfrontボードでダークモードが利用可能
 
 これで、すべてのボードとワークストリームをダークモードで表示できます。 新しい設定は、ボードダッシュボードの環境設定で利用できます。
@@ -54,7 +56,7 @@ ht-degree: 0%
 
 カードに目標をリストする必要なく、目標をイテレーションに追加する機能を追加しました。 目標はチェックリスト形式で追加され、完了とマークできます。 反復の右上にある指標領域には、目標の数と完了数が表示されます。
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+また、「次の反復」(Next Iteration) 列がイテレーションボードで使用できるようになりました。 この列にカードを配置すると、そのカードは次の反復に自動的に持ち込まれ、バックログには戻りません。 次の反復では、カードのステータスに対応する列にカードが表示されます。
 
 詳しくは、 [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 

@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ ht-degree: 0%
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでダークモードが利用可能</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでダークモードが利用可能</a></p>
                         <p>これで、すべてのボードとワークストリームをダークモードで表示できます。 新しい設定は、ボードダッシュボードの環境設定で利用できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 23 日</p>
+                                <p>プレビューリリース：2023 年 6 月 23 日<span style="color: #ff0000;"> この機能はプレビューから削除され、23.3 ではリリースされません。</span></p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動版リリース：該当なし</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでのワークストリームの繰り返しに関して使用可能な目標</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでのワークストリームの繰り返しに関して使用可能な目標</a></p>
                         <p>カードに目標をリストする必要なく、目標をイテレーションに追加する機能を追加しました。 目標はチェックリスト形式で追加され、完了とマークできます。 反復の右上にある指標領域には、目標の数と完了数が表示されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 23 日</p>
+                                <p>プレビューリリース：2023 年 6 月 23 日<span style="color: #ff0000;"> この機能はプレビューから削除され、23.3 ではリリースされません。</span></p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動版リリース：該当なし</p>
                             </li>
                         </ul>
                     </td>
