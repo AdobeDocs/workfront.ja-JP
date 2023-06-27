@@ -9,9 +9,9 @@ description: この [!DNL Adobe Workfront Fusion Google Drive] モジュール�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2956'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -730,17 +738,17 @@ Google Drive 内のファイルの共有リンクを取得します。
 
 * この `contains` 演算子は、 `title`.
 
-   例えば、「HelloWorld」というタイトルは、 `title contains 'Hello'` しかし、 `title contains 'World'`.
+  例えば、「HelloWorld」というタイトルは、 `title contains 'Hello'` しかし、 `title contains 'World'`.
 
 * この `contains` 演算子は、次の文字列トークン全体に対してのみ一致を実行します： `fullText`.
 
-   例えば、ドキュメントの全文に「HelloWorld」という文字列が含まれている場合、クエリは `fullText contains 'HelloWorld'` 結果を返します。 クエリ： `fullText contains 'Hello'` このシナリオでは、の結果は返されません。
+  例えば、ドキュメントの全文に「HelloWorld」という文字列が含まれている場合、クエリは `fullText contains 'HelloWorld'` 結果を返します。 クエリ： `fullText contains 'Hello'` このシナリオでは、の結果は返されません。
 
 * この `contains` 演算子が二重引用符で囲まれている場合、英数字と完全に一致するフレーズが見つかります。
 
-   例えば、 `fullText` ドキュメントの「Hello there world」という文字列を含む場合、 `fullText contains '"Hello there"'` は結果を返しますが、クエリは `fullText contains '"Hello world"'` は実行しません。
+  例えば、 `fullText` ドキュメントの「Hello there world」という文字列を含む場合、 `fullText contains '"Hello there"'` は結果を返しますが、クエリは `fullText contains '"Hello world"'` は実行しません。
 
-   さらに、検索が英数字なので、 `fullText` ドキュメントに「Hello_world」という文字列が含まれている場合、 `fullText contains '"Hello world"'` 結果を返します。
+  さらに、検索が英数字なので、 `fullText` ドキュメントに「Hello_world」という文字列が含まれている場合、 `fullText contains '"Hello world"'` 結果を返します。
 
 * のフィールド `type` 現在、日付は一定の日付にのみ相当し、互いに比較することはできません。
 
@@ -842,55 +850,38 @@ Google Drive 内のファイルの共有リンクを取得します。
 このページのすべての例では、エンコードされていない `<q>q</q>` パラメータ `title = 'hello'` は次のようにエンコードされます： `title+%3d+%27hello%27`. クライアントライブラリは、このエンコーディングを自動的に処理します。
 
 * 「hello」という名前のファイルを検索します。
-
-   <pre>title = 'hello'</pre>
+  <pre>title = 'hello'</pre>
 * フォルダー固有の MIME タイプを使用したフォルダーの検索
-
-   <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
 * フォルダー以外のファイルを検索
-
-   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
+  <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
 * 「hello」と「goodbye」という単語を含む名前のファイルを検索します。
-
-   <pre>タイトルに「hello」が含まれ、[!UICONTROL name] に「goodbye」が含まれています</pre>
+  <pre>タイトルに「hello」が含まれ、[!UICONTROL name] に「goodbye」が含まれています</pre>
 * 「hello」という語を含まない名前のファイルを検索します。
-
-   <pre>タイトルに「hello」が含まれていません</pre>
+  <pre>タイトルに「hello」が含まれていません</pre>
 * コンテンツ内に「hello」という単語を含むファイルを検索します
-
-   <pre>fullText に「hello」が含まれています</pre>
+  <pre>fullText に「hello」が含まれています</pre>
 * コンテンツ内に「hello」という語を含まないファイルを検索します。
-
-   <pre>fullText に「hello」が含まれていません</pre>
+  <pre>fullText に「hello」が含まれていません</pre>
 * コンテンツ内に「hello world」という完全なフレーズを含むファイルを検索します。
-
-   <pre>fullText には「"hello world"」が含まれます。「fullText には「"hello_world"」が含まれます</pre>
+  <pre>fullText には「"hello world"」が含まれます。「fullText には「"hello_world"」が含まれます</pre>
 * クエリに「\」文字を含むファイルを検索します（例：「\authors」）。
-
-   <pre>fullText には「\\authors」が含まれます</pre>
+  <pre>fullText には「\\authors」が含まれます</pre>
 * ユーザー「test@example.org」が書き込み可能なファイルを検索します
-
-   <pre>test@example.org [!DNL writers]</pre>
+  <pre>test@example.org [!DNL writers]</pre>
 * ID を検索します。 `1234567` 内 `parents` コレクション。 これにより、ID がのフォルダー内に直接存在するすべてのファイルとフォルダーを検索します `1234567`.
-
-   <pre>[!UICONTROL 親 ] の「1234567」</pre>
+  <pre>[!UICONTROL 親 ] の「1234567」</pre>
 * エイリアス ID を検索します。 `appDataFolder` 内 `parents` コレクション。 これにより、 [アプリケーションデータフォルダー](https://developers.google.com/drive/api/v2/appdata).
-
-   <pre>親の「appDataFolder」</pre>
+  <pre>親の「appDataFolder」</pre>
 * ユーザー「test@example.org」と「test2@example.org」が書き込み可能なファイルを検索
-
-   <pre>ライターでは「test@example.org」、ライターでは「test2@example.org」</pre>
+  <pre>ライターでは「test@example.org」、ライターでは「test2@example.org」</pre>
 * ごみ箱に入っている「重要」というテキストを含むファイルを検索します
-
-   <pre>fullText は、「important」を含み、trashed = true を含みます</pre>
+  <pre>fullText は、「important」を含み、trashed = true を含みます</pre>
 * 2012 年 6 月 4 日以降に変更されたファイルを検索
-
-   <pre>modifiedDate &gt; '2012-06-04T12:00:00' //デフォルトタイムゾーンは UTC です</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
+  <pre>modifiedDate &gt; '2012-06-04T12:00:00' //デフォルトタイムゾーンは UTC です</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
 * 名前に「hello」を含む、認証済みユーザーと共有されているファイルを検索します
-
-   <pre>sharedWithMe とタイトルに「hello」が含まれている</pre>
+  <pre>sharedWithMe とタイトルに「hello」が含まれている</pre>
 * を含むファイルの検索 [カスタムファイルプロパティ](https://developers.google.com/drive/api/v2/properties) 名前付き `additionalID` 値 `8e8aceg2af2ge72e78`.
-
-   <pre>プロパティには、{ key='additionalID'および value='8e8aceg2af2ge72e78'および visibility='PRIVATE' } が含まれます</pre>
+  <pre>プロパティには、{ key='additionalID'および value='8e8aceg2af2ge72e78'および visibility='PRIVATE' } が含まれます</pre>
 
 このガイドのソースは、 [[!DNL Google Drive] ドキュメント](https://developers.google.com/drive/api/v2/search-shareddrives).

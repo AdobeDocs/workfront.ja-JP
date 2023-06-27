@@ -8,14 +8,14 @@ description: Adobe Workfront Fusion JSON アプリは、Adobe Workfront Fusion �
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 0%
+source-wordcount: '1205'
+ht-degree: 1%
 
 ---
 
-# [!UICONTROL JSON] モジュール
+# [!UICONTROL JSON モジュール]
 
 この [!DNL Adobe Workfront Fusion] [!UICONTROL JSON] アプリは、次のように、JSON 形式でデータを処理するためのモジュールを提供します。 [!DNL Adobe Workfront Fusion] では、データコンテンツをさらに操作したり、新しい JSON コンテンツを作成したりできます。
 
@@ -37,11 +37,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> <p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA) </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,8 +83,7 @@ JSON 文字列フィールドにコレクションが含まれている場合 `{
 >
 >**例:**
 >
->
-```
+>```
 >{
 >       "name" : "Peter",
 >
@@ -93,8 +100,7 @@ JSON 文字列フィールドに配列が含まれる場合 `[ ... ]`の場合�
 >
 >**例:**
 >
->
-```
+>```
 >[
 >   {
 >       "name" : "Peter",
@@ -227,39 +233,49 @@ JSON 文字列フィールドに配列が含まれる場合 `[ ... ]`の場合�
 >**例：** 次の例は、 [!DNL Google Sheets] を JSON 形式に変更します。
 >
 >1. を [!DNL Google Sheets] > [!UICONTROL 行を選択] モジュールを使用してデータを取得します。 から行を取得するモジュールを設定します。 [!DNL Google] スプレッドシート。 を設定しま&#x200B;す。**[!UICONTROL 返される行の最大数]** を小さい数に設定しますが、テスト用に 1 より大きい値（例：3）に設定します。 を実行します。 [!DNL Google Sheets] モジュールを右クリックし、「**[!UICONTROL このモジュールのみを実行]**.&quot; モジュールの出力を確認します。
+>
 1. 接続 [!UICONTROL 配列集約] モジュールの後 [!DNL Google Sheets] モジュール。 モジュールの設定で、 [!DNL Google Sheets] モジュール **[!UICONTROL ソースノード]** フィールドに入力します。 その他のフィールドは、現時点ではそのままにしておきます。
+>
 1. 接続 [!UICONTROL JSON] > [!UICONTROL JSON を作成] モジュールの後 [!UICONTROL 配列集約] モジュール。 モジュールの設定には、JSON 形式を記述したデータ構造が必要です。 クリック **[!UICONTROL 追加]** をクリックして、データ構造の設定を開きます。 このデータ構造を作成する最も簡単な方法は、JSON サンプルから自動的に生成することです。 クリック **[!UICONTROL ジェネレーター]** をクリックし、JSON サンプルを **[!UICONTROL サンプルデータ]** フィールド：
+>
+**例:**
+>   
+```
+{
 
-   **例:**
-   ```
-   {
-   
-   "books": [
-   
-   {
-   
-   "id": "ID",
-   
-   "title": "Title",
-   
-   "author": "Author"
-   
-   }
-   
-   ]
-   
-   }
-   ```
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
+>
 1. 「**[!UICONTROL 保存]**」をクリックします。この [!UICONTROL 仕様] フィールドのデータ構造に、生成された構造が含まれるようになりました。
 1. データ構造の名前をより具体的なものに変更し、「 **[!UICONTROL 保存]**. ルート配列属性に対応するフィールドは、JSON モジュールの設定で、マッピング可能なフィールドとして表示されます。
+>
 1. 次をクリック： **[!UICONTROL マップ]** ボタンをクリックし、 `Array[]` 項目を配列集約出力から取得します。
+>
 1. クリック **[!UICONTROL OK]** 閉じる [!UICONTROL JSON] モジュールの設定。
+>
 1. の設定を開きます。 [!UICONTROL 配列集約] モジュール。 を **[!UICONTROL ターゲット構造]** から [!UICONTROL カスタム] から [!UICONTROL JSON] ルート配列属性に対応するモジュールのフィールド。 項目を [!DNL Google Sheets] を適切なフィールドに追加します。
+>
 1. クリック **[!UICONTROL OK]** 閉じる [!UICONTROL 配列集約] モジュールの設定。
+>
 1. シナリオを実行します。
-   この [!UICONTROL JSON] モジュールは正しい JSON 形式を出力します。
+>
+この [!UICONTROL JSON] モジュールは正しい JSON 形式を出力します。
+>
 1. の設定を開きます。 [!DNL Google Sheets] モジュールを追加し、 [!UICONTROL 返される行の最大数] すべてのデータを処理するには、スプレッドシートの行数より大きい数を指定します。
-
 
 ## トラブルシューティング
 
@@ -272,5 +288,7 @@ JSON コンテンツが [!UICONTROL JSON を解析] モジュールを作成し�
 条件文 ( `if` JSON で、条件文の外側に引用符を置きます。
 
 >[!INFO]
+>
 **例:**
+>
 ![](assets/quotes-in-json-350x120.png)

@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion は、次の 5 種類のモジュールを�
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
+source-wordcount: '973'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,11 @@ A[!UICONTROL Adobe Workfront Fusion] は、次の 5 種類のモジュールを�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
@@ -63,16 +67,15 @@ A[!UICONTROL Adobe Workfront Fusion] は、次の 5 種類のモジュールを�
 >* **[!DNL Workfront]> [!UICONTROL ファイルのアップロード]** は次の場所にファイルを送信します。 [!DNL Workfront] を返します。
 >* **[!UICONTROL 画像] > [!UICONTROL サイズ変更]** 画像を受け取り、指定したサイズにリサイズし、サイズ変更された画像を次のアクションに渡します。
 
-
 アクションタイプには、次の 4 つのサブタイプがあります。作成、読み取り、更新、削除。 「更新」サブタイプでは、次の 3 つの操作が有効になります。
 
 * **フィールドの内容を消去**. この操作は、フィールドのコンテンツが erase キーワードによって評価される（と混同しない）と実行されます *空*) をクリックします。
 
-   ![](assets/erase-content-of-field.png)
+  ![](assets/erase-content-of-field.png)
 
 * **フィールドの内容を変更しない**. この操作は、フィールドが空のままになっているか、フィールドのコンテンツが空と評価される（JSON の null で表される）場合に実行されます。
 
-   ![](assets/leave-content-field-unchanged-350x231.png)
+  ![](assets/leave-content-field-unchanged-350x231.png)
 
 * **フィールドのコンテンツを置き換える**. この操作は、上記の 2 つ以外のすべての場合に実行されます。
 
@@ -129,7 +132,6 @@ A[!UICONTROL Adobe Workfront Fusion] は、次の 5 種類のモジュールを�
 >
 >* **[!DNL Google Sheets]> [!UICONTROL 監視行]** 前回のシナリオ実行以降にユーザーが追加した新しい行を返します
 
-
 ### インスタントトリガー
 
 インスタントトリガーは、サービスが通知を受け取ることを有効にします [!DNL Workfront Fusion] について *変更* すぐに 即座に実行するインスタントトリガーを含むシナリオをスケジュールすることをお勧めします。 手順については、 [Adobe Workfront Fusion でのシナリオのスケジュール](../../workfront-fusion/scenarios/schedule-a-scenario.md). 関連トピック [のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) を参照してください。
@@ -140,7 +142,6 @@ A[!UICONTROL Adobe Workfront Fusion] は、次の 5 種類のモジュールを�
 >
 >* **[!DNL Workfront]> [!UICONTROL イベントを見る]** タスクの作成など、Workfrontで特定のタイプのイベントが発生した場合に情報を返します。
 >* **[!DNL Google Sheets]> [!UICONTROL 変更を監視]** は、セルが更新されるたびに情報を返します。
-
 
 ## 集約
 
@@ -159,7 +160,6 @@ A[!UICONTROL Adobe Workfront Fusion] は、次の 5 種類のモジュールを�
 >* **[!UICONTROL アーカイブ] > [!UICONTROL アーカイブの作成]** 受信したファイルを zip アーカイブに圧縮
 >* **[!UICONTROL CSV] > [!UICONTROL CSV に集計]** CSV ファイルから複数の文字列を 1 行に結合します。
 >* **[!UICONTROL ツール] > [!UICONTROL テキスト集約]** 複数の文字列を 1 つの文字列に組み合わせます。
-
 
 詳しくは、 [の集約モジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 

@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion のシナリオでは、Salesforce を使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: '2768'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Adobe Workfront Fusion シナリオでは、 [!DNL Salesforce]を使用して、
 >* の全エディションではありません [!DNL Salesforce] API にアクセスできます。 詳しくは、 [!DNL Salesforce] の API アクセスを使用するエディション [!DNL Salesforce] コミュニティサイト。
 >* 次の [!DNL Salesforce] API( [!DNL Salesforce] API ドキュメント。 また、 [!DNL Salesforce] サービスの停止が発生する可能性がある API。
 >
-
 
 ## アクセス要件
 
@@ -49,11 +48,19 @@ Adobe Workfront Fusion シナリオでは、 [!DNL Salesforce]を使用して、
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -306,7 +313,7 @@ Adobe Workfront Fusion シナリオでは、 [!DNL Salesforce]を使用して、
 * **[!UICONTROL ステータスコード]** （数値）:HTTP リクエストの成功または失敗を示します。 これらはインターネット上で検索できる標準コードです。
 * **[!UICONTROL ヘッダー]** （オブジェクト）:出力本文に関連しない応答/ステータスコードのより詳細なコンテキスト。 応答ヘッダーに表示されるすべてのヘッダーが応答ヘッダーではないので、役に立たないヘッダーも含まれている可能性があります。
 
-   応答ヘッダーは、モジュールの設定時に選択した HTTP リクエストによって異なります。
+  応答ヘッダーは、モジュールの設定時に選択した HTTP リクエストによって異なります。
 
 * **[!UICONTROL 本文]** （オブジェクト）:モジュールの設定時に選択した HTTP リクエストに応じて、一部のデータを受け取る場合があります。 そのデータ ( [!UICONTROL GET] リクエストは、このオブジェクトに含まれます。
 

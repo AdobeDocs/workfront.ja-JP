@@ -8,9 +8,9 @@ description: ルータモジュールを使用すると、フローを複数の�
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c39c562-1cee-4f8e-89cc-0ed554079a2b
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 0%
 >
 >* ルートは、並列ではなく順番に処理されます。 バンドルは、前のルートで完全に処理されるまで、次のルートに送信されません。
 >
-
 
 
 
@@ -49,11 +48,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,15 +75,15 @@ A [!UICONTROL 発送担当] は、次のいずれかの方法でシナリオに�
 
 * 接続する [!UICONTROL 発送担当] モジュールの後にモジュールの右ハンドルをクリックし、入力を開始します **[!UICONTROL ルータ]** を選択して、 **[!UICONTROL フロー制御]** > **[!UICONTROL 発送担当]** をクリックします。
 
-   ![](assets/connect-the-router-350x108.png)
+  ![](assets/connect-the-router-350x108.png)
 
 * を [!UICONTROL 発送担当] 2 つのモジュール間のモジュールで、2 つのモジュールを接続するルートの下のレンチアイコンをクリックし（またはルートを右クリック）、を選択します。 **[!UICONTROL 発送担当の追加]** を選択します。
 
-   ![](assets/insert-router-350x191.png)
+  ![](assets/insert-router-350x191.png)
 
 * 次の項目を挿入できます： [!UICONTROL 発送担当] モジュールが自動的に追加されます。 例えば、下の画像で、右下隅のモジュールを左上隅のモジュールに接続するには（右上隅のモジュールに既に接続されている）、右下隅のモジュールの左ハンドルをドラッグして、左上モジュールにドロップします。
 
-   ![](assets/insert-router-automatically-350x379.png)
+  ![](assets/insert-router-automatically-350x379.png)
 
 ## フィルター
 

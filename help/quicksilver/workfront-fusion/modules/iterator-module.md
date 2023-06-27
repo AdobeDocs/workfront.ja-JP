@@ -8,9 +8,9 @@ description: Iterator モジュールは、配列を一連のバンドルに変�
 author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
-source-git-commit: a2060e7179f2295bfd42da84bd7bca9862ad0a17
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,11 @@ An [!UICONTROL 反復子] モジュールは、配列を一連のバンドルに
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
@@ -65,15 +69,14 @@ An [!UICONTROL 反復子] モジュールは、配列を一連のバンドルに
 >**例:**
 >
 >* 以下のシナリオでは、添付ファイルを含む E メールを取得し、添付ファイルを選択した 1 つのファイルとして保存する方法を示します [!DNL Dropbox] フォルダー。
-   >
-   >   E メールには、添付ファイルの配列を含めることができます。 この [!UICONTROL 反復子] 最初のモジュールの後に挿入されたモジュールを使用すると、各添付ファイルを個別に処理できます。 この [!UICONTROL 反復子] モジュールは、添付ファイルの配列を 1 つのバンドルに分割します。 各バンドルは、1 つの添付ファイルを持ち、選択した 1 つのバンドルに 1 つずつ保存されます [!DNL Dropbox] フォルダー。 この [!UICONTROL 反復子] モジュールの設定は、上記のとおりです。の [!UICONTROL 配列] フィールドには `Attachments` 配列。
-   >
-   >   ![](assets/attachments-array-350x154.jpg)
+>
+>   E メールには、添付ファイルの配列を含めることができます。 この [!UICONTROL 反復子] 最初のモジュールの後に挿入されたモジュールを使用すると、各添付ファイルを個別に処理できます。 この [!UICONTROL 反復子] モジュールは、添付ファイルの配列を 1 つのバンドルに分割します。 各バンドルは、1 つの添付ファイルを持ち、選択した 1 つのバンドルに 1 つずつ保存されます [!DNL Dropbox] フォルダー。 この [!UICONTROL 反復子] モジュールの設定は、上記のとおりです。の [!UICONTROL 配列] フィールドには `Attachments` 配列。
+>
+>   ![](assets/attachments-array-350x154.jpg)
 >
 >* 多くの方がご都合の良いように [!DNL Workfront Fusion] アプリに特化した [!UICONTROL 反復子] モジュールを簡単に設定できます。 例えば、 [!UICONTROL 電子メール] アプリに特別な [!UICONTROL 反復子] モジュール [!UICONTROL 電子メール] > [!UICONTROL 添付ファイルを繰り返し] それは一般と同じ結果を生む [!UICONTROL 反復子] モジュール。
-   >
-   >   ![](assets/specialized-iterators-350x135.jpg)
-
+>
+>   ![](assets/specialized-iterators-350x135.jpg)
 
 
 ## トラブルシューティング：マッピングパネルで、次の下にマッピング可能な項目が表示されない [!UICONTROL 反復子] モジュール

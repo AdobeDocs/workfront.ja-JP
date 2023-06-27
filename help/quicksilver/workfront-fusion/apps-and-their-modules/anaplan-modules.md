@@ -9,9 +9,9 @@ description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、Anaplan �
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '1796'
+source-wordcount: '1844'
 ht-degree: 1%
 
 ---
@@ -42,11 +42,19 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -273,7 +281,7 @@ ht-degree: 1%
      <li> <p><b>モデルリスト</b> </p> <p>読み取るリストを含むワークスペースおよびモデルの ID を選択またはマッピングして、リストを選択します。 「 [!UICONTROL データタイプ ] 」フィールドで、データとメタデータのどちらを読み取るかを選択します。</p> </li> 
      <li> <p><b>モデルのバージョン</b> </p> <p>読み取るモデルの ID を選択またはマッピングします。</p> </li> 
      <li> <p><b>ユーザー</b> </p> <p>使用中のアカウントの所有者に関するデータを返すか、別のユーザーに関するデータを返すかを選択します。 別のユーザーを選択する場合は、ユーザーの名前を選択します。</p> </li> 
-     <li> <p><b>Workspace</b> </p> <p>読み取るワークスペースの ID を選択またはマッピングします。</p> </li> 
+     <li> <p><b>ワークスペース</b> </p> <p>読み取るワークスペースの ID を選択またはマッピングします。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

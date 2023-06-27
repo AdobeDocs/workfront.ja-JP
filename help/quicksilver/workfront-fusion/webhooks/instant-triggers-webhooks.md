@@ -7,9 +7,9 @@ description: 多くのサービスでは、サービスで特定の変更が発�
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 04191419ab6079cc34576b5a7532cd1596e4b91d
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ Web フックが提供されない場合は、ポーリングトリガーを使�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> <p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA)</p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,15 +87,13 @@ Web フックが提供されない場合は、ポーリングトリガーを使�
 >
 >* サイクルは、シナリオ実行とは異なります。 1 回のシナリオ実行で複数のサイクルを実行できます。
 >* 即時実行がスケジュールされたインスタントトリガーでシナリオを実行する場合、次の例外が適用されます。
-   >
-   >     * 2 回の実行間隔は、価格設定計画に従って「最小間隔」に従いません。
-
-      >
-      >       例えば、シナリオの実行が完了すると、Webhook のキューが再度チェックされます。 保留中の Web フックがある場合は、シナリオが直ちに再実行され、保留中の Web フックがすべて再度処理されます。
-   >   
-   >     * 「サイクルの最大数」のシナリオ設定は無視され、100 に設定されます。つまり、1 回のシナリオの実行中に、保留中の Web フックが 100 個以下になります（1 サイクルあたり 1 イベント）。
 >
-
+>     * 2 回の実行間隔は、価格設定計画に従って「最小間隔」に従いません。
+>
+>       例えば、シナリオの実行が完了すると、Webhook のキューが再度チェックされます。 保留中の Web フックがある場合は、シナリオが直ちに再実行され、保留中の Web フックがすべて再度処理されます。
+>   
+>     * 「サイクルの最大数」のシナリオ設定は無視され、100 に設定されます。つまり、1 回のシナリオの実行中に、保留中の Web フックが 100 個以下になります（1 サイクルあたり 1 イベント）。
+>
 
 
 他のスケジュール設定を使用する場合は、 [!UICONTROL 即時]の場合、シナリオは指定した間隔で実行されます。 間隔中に複数の Web フックをキューで収集できるので、 [[!UICONTROL 最大サイクル数]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) をデフォルトの 1 より大きい値に設定すると、1 つのシナリオで複数の Web フックが処理されます。

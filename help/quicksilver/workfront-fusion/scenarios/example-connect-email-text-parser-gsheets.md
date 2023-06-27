@@ -7,9 +7,9 @@ description: このシナリオでは、すべての電子メールメッセー�
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1214'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -141,11 +149,13 @@ ht-degree: 0%
 
    * 電子メールアドレスのみを検索する場合は、次の正規表現を使用できます。
 
-      ([\w.-]+@[\w.-]+)
+     ([\w.-]+@[\w.-]+)
 
    * また、次の正規表現を使用して、電話番号のみを検索することもできます。
 
-      ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4} 上記のパターンは、電話番号が書き込まれる一般的な形式をカバーしています。
+     ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4}
+上記のパターンは、電話番号が書き込まれる一般的な形式をカバーしています。
+
    パターンをテストするには、 [[!DNL https://regex101.com]](https://regex101.com/) と [!DNL javascript] 味と同じように
 
    残りの設定は、以前の設定と同じです。
@@ -196,21 +206,21 @@ ht-degree: 0%
 
       * 「[!UICONTROL テキストパーサーモジュール]&quot; （電子メールアドレスは含まれません）
 
-         ![](assets/text-parser-module-350x103.png)
+        ![](assets/text-parser-module-350x103.png)
 
       * 上記のフレーズと E メールアドレスを含む
 
-         ![](assets/above-phrase-and-email-350x106.png)
+        ![](assets/above-phrase-and-email-350x106.png)
 
-         設定にエラーがない場合は、最初のワークシートが「[!UICONTROL テキストパーサーモジュール]」を含め、2 番目のワークシートでは「[!UICONTROL テキストパーサーモジュール]&quot;とメールアドレス。 以下のスクリーンショットを参照してください。
+        設定にエラーがない場合は、最初のワークシートが「[!UICONTROL テキストパーサーモジュール]」を含め、2 番目のワークシートでは「[!UICONTROL テキストパーサーモジュール]&quot;とメールアドレス。 以下のスクリーンショットを参照してください。
 
-         ワークシート 1:
+        ワークシート 1:
 
-         ![](assets/worksheet-1-350x57.png)
+        ![](assets/worksheet-1-350x57.png)
 
-         ワークシート 2:
+        ワークシート 2:
 
-         ![](assets/worksheet-2-350x41.png)
+        ![](assets/worksheet-2-350x41.png)
 
 ## リソース
 

@@ -10,9 +10,9 @@ description: を使用 [!DNL Adobe Experience Manager Assets] コネクタ [!DNL
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +65,7 @@ ht-degree: 0%
 * 次が必要です： [!DNL Adobe Experience Manager Assets] アカウントを使用してこれらのモジュールを使用します。
 * を設定する必要があります [!UICONTROL サーバー間] 流れ [!DNL Adobe Developer console].
 
-   の設定手順については、 [!UICONTROL サーバー間] 流れ [!DNL Adobe Developer console]を参照してください。 [サーバー側 API のアクセストークンの生成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+  の設定手順については、 [!UICONTROL サーバー間] 流れ [!DNL Adobe Developer console]を参照してください。 [サーバー側 API のアクセストークンの生成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
 ## 接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
@@ -69,11 +77,11 @@ ht-degree: 0%
 
    * **[!DNL AEM Assets as a Cloud Service]**
 
-      この設定には、 [!DNL Adobe Admin Console].
+     この設定には、 [!DNL Adobe Admin Console].
 
    * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
-      この設定には、ユーザー名とパスワードが必要です。
+     この設定には、ユーザー名とパスワードが必要です。
 
 3. 作成する接続のタイプのフィールドに入力します。
 

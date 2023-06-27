@@ -9,9 +9,9 @@ description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、Box を�
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -152,7 +160,6 @@ ht-degree: 0%
 >
 >* ファイルのサイズが、 [!DNL Box] プランを作成するか、すべての [!DNL Box] アカウントのストレージクォータ。 より多くのストレージ領域を取得するには、次の場所から既存のファイルを削除します： [!DNL Box] または、 [!DNL Box] アカウント
 >* [!DNL Box] では、同じ名前の複数のファイルを 1 つのフォルダーにアップロードしません。 アップロード先のフォルダに、アップロード先のファイルと同じ名前のファイルが含まれている場合、シナリオの実行はエラーで終了します。 この問題を回避するには、ファイルの名前を変更します。 ファイルを更新する場合は、 **[!UICONTROL ファイルの更新]** モジュール。
-
 
 #### [!UICONTROL ファイルの更新]
 

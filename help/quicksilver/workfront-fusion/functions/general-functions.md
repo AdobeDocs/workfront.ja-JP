@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion マッピングパネルでは、次の一�
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 2%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
@@ -35,11 +35,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p><p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA)</p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +69,6 @@ ht-degree: 2%
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
-
 ## [!UICONTROL if ( 式；value1;value2)]
 
 を返します。 `value1` 式が true と評価される場合、それ以外の場合は、 `value2`.
@@ -71,13 +78,12 @@ ht-degree: 2%
 >**例:**
 >
 >* `if( 1 = 1 ; A ; B )`
-   >
-   >    を返します。
+>
+>    を返します。
 >
 >* `if( = 2 ; A ; B )`
-   >
-   >   戻り値 B
-
+>
+>   戻り値 B
 
 ## [!UICONTROL ifempty ( 値 1;value2)]
 
@@ -88,17 +94,16 @@ ht-degree: 2%
 >**例:**
 >
 >* `ifempty(` `A` `;` `B` )
-   >
-   >   を返します。
+>
+>   を返します。
 >
 >* `ifempty(` `unknown` `;` `B` )
-   >
-   >   戻り値 B
+>
+>   戻り値 B
 >
 >* `ifempty(` `""` `;` `B` )
-   >
-   >   戻り値 B
-
+>
+>   戻り値 B
 
 ## [!UICONTROL switch (expression;value1;result1; [value2;result2;...]; [else])]
 
@@ -109,12 +114,12 @@ ht-degree: 2%
 >**例:**
 >
 >* `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
-   >
-   >   戻り値 2
+>
+>   戻り値 2
 >
 >* `switch( C ; A ; 1 ; B ; 2 ; C ; 3 )`
-   >
-   >   戻り値 3
+>
+>   戻り値 3
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >

@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion の組織とチームの機能により、�
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 0%
+source-wordcount: '1119'
+ht-degree: 1%
 
 ---
 
@@ -33,11 +33,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -56,9 +64,7 @@ ht-degree: 0%
 
 ## 組織
 
-[!DNL Workfront Fusion] ユーザーが組織に属している。 お使いの [!DNL Fusion] ライセンスは、組織で使用可能なアクティブなシナリオとコネクタの数を決定します。
-
-[!DNL Fusion] ライセンスは、組織が使用できるアクティブなシナリオとアクティブなアプリの数を決定します。 [!DNL Fusion] 組織のダッシュボードに現在の「アクティブなシナリオ」と「アクティブなアプリ」の数が表示されます。
+[!DNL Workfront Fusion] ユーザーが組織に属している。
 
 * [組織の役割](#organization-roles)
 * [組織へのユーザーの招待](#inviting-users-to-an-organization)

@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: ウェブフック
+title: Webhook
 description: Webhook は、イベントによってトリガーされる HTTP 呼び出しです。 Web フックを使用して、インスタントトリガーモジュールを有効にできます。 インターネットに接続され、HTTP リクエストを許可するアプリケーションは、Adobe Workfront Fusion に Web フックを送信できます。
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
 
-# ウェブフック
+# Webhook
 
 Webhook は、イベントによってトリガーされる HTTP 呼び出しです。 Web フックを使用して、インスタントトリガーモジュールを有効にできます。 インターネットに接続され、HTTP リクエストを許可するアプリケーションは、Adobe Workfront Fusion に Web フックを送信できます。
 
@@ -37,11 +37,19 @@ Webhook は、イベントによってトリガーされる HTTP 呼び出しで
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -211,9 +219,7 @@ Content-Type: application/json
 >1. クリック **[!UICONTROL 追加]** をクリックして、新しいウェブフックを追加します。
 >1. クリック **[!UICONTROL 詳細設定を表示]**.
 >1. クリック **[!UICONTROL JSON パススルー]**.
-
 >
-
 
 ## Webhook ヘッダー
 
@@ -264,9 +270,9 @@ Webhook の応答をカスタマイズする場合は、Webhook の応答モジ�
 
 * この [!UICONTROL 本文] フィールドには、webhook の呼び出しで受け入れられるすべてが含まれます。 単純なテキスト、HTML、XML、JSON などを指定できます。
 
-   >[!TIP]
-   >
-   >この `Content-Type` ヘッダーを対応する MIME タイプに変更します。 `text/plain` テキスト形式の場合 `text/html` HTML `application/json` JSON の場合、 `application/xml` XML などの MIME タイプについて詳しくは、 [MIME モジュール](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >[!TIP]
+  >
+  >この `Content-Type` ヘッダーを対応する MIME タイプに変更します。 `text/plain` テキスト形式の場合 `text/html` HTML `application/json` JSON の場合、 `application/xml` XML などの MIME タイプについて詳しくは、 [MIME モジュール](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 応答の送信のタイムアウトは 40 秒です。 その期間内に応答が利用できない場合、Workfront Fusion は「200 受理」ステータスを返します。
 

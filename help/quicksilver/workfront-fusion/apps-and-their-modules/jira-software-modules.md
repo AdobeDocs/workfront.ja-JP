@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2039'
+source-wordcount: '2085'
 ht-degree: 1%
 
 ---
@@ -40,11 +40,19 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,33 +122,32 @@ ht-degree: 1%
 
    * `openssl genrsa -out jira_privatekey.pem 1024`
 
-      このコマンドは、1024 ビットの秘密鍵を生成します。
+     このコマンドは、1024 ビットの秘密鍵を生成します。
 
    * `openssl req -newkey rsa:1024 -x509 -key jira_privatekey.pem -out jira_publickey.cer -days 365`
 
-      このコマンドは X509 証明書を作成します。
+     このコマンドは X509 証明書を作成します。
 
    * `openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8`
 
-      このコマンドは、秘密鍵（PKCS8 形式）を `jira_privatekey.pcks8`
+     このコマンドは、秘密鍵（PKCS8 形式）を `jira_privatekey.pcks8`
 ファイル。
 
    * `openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem`
 
-      このコマンドは、証明書から `jira_publickey.pem` ファイル。
+     このコマンドは、証明書から `jira_publickey.pem` ファイル。
 
-      >[!NOTE]
-      >
-      >Windows を使用している場合は、公開鍵を `jira_publickey.pem` ファイルを手動で作成：
-      >
-      >1. ターミナルで、次のコマンドを実行します。
-      >   
-      >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
-      >   
-      >1. ターミナル出力 ( `-------BEGIN PUBLIC KEY--------` および `-------END PUBLIC KEY--------`
-      >   
-      >1. ターミナル出力を、 `jira_publickey.pem`.
-
+     >[!NOTE]
+     >
+     >Windows を使用している場合は、公開鍵を `jira_publickey.pem` ファイルを手動で作成：
+     >
+     >1. ターミナルで、次のコマンドを実行します。
+     >   
+     >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
+     >   
+     >1. ターミナル出力 ( `-------BEGIN PUBLIC KEY--------` および `-------END PUBLIC KEY--------`
+     >   
+     >1. ターミナル出力を、 `jira_publickey.pem`.
 
 
 1. 続行 [でクライアントアプリをコンシューマーとして設定する [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)
@@ -156,7 +163,7 @@ ht-degree: 1%
    ```
 
 1. クリック **[!UICONTROL 新しいリンクを作成]**. 「入力した URL から応答が受信されませんでした」というエラーメッセージを無視します。
-1. 内 **[!UICONTROL アプリをリンク]** ウィンドウで、 **[!UICONTROL 消費者キー]** および **[!UICONTROL 共有暗号鍵]** フィールド。
+1. 内 **[!UICONTROL アプリのリンク]** ウィンドウで、 **[!UICONTROL 消費者キー]** および **[!UICONTROL 共有暗号鍵]** フィールド。
 
    これらのフィールドの値を選択できます。
 

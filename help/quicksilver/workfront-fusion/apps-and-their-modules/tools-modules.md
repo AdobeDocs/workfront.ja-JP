@@ -8,9 +8,9 @@ description: この [!DNL Adobe Workfront Fusion Tools] セクションには、
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> <p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA) </p> </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr>
  </tbody> 
 </table>
@@ -112,7 +120,6 @@ ht-degree: 0%
 >* 式をデバッグする場合。 モジュールで使用される数式が正しい結果を提供しないように見える場合は、数式をコピーして、 [!UICONTROL 変数を設定] 関連するモジュールの前に挿入するモジュール。 次の時間が経過した後で、モジュールを切断します。 [!UICONTROL 変数を設定] モジュール化し、シナリオを実行します。 を確認します。 [!UICONTROL 変数を設定] モジュールの出力、数式の調整または簡素化、シナリオの再実行、問題が解決するまで引き続き実行します。
 
 
-
 #### [!UICONTROL 変数を取得]
 
 このモジュールは、以前に [!UICONTROL 変数を設定] または [!UICONTROL 複数の変数を設定] モジュール。
@@ -163,7 +170,6 @@ ht-degree: 0%
 >1. このシナリオを作成するには：
 >1. モジュールの **[!UICONTROL 値をリセット]** フィールドを「なし」に設定します。
 >1. 奇数値のルートを設定します。 次の値に等しい剰余数演算関数を使用して、このルートのフィルタを設定します。 `1`:
-
 >
 >   ![](assets/odd-350x459.png)
 >

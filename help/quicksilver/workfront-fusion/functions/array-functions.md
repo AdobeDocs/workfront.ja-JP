@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion マッピングパネルでは、次の配�
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p><p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA)</p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,11 +100,11 @@ ht-degree: 0%
 >**例:**
 >
 >* `map(Emails[];email)`
-  >
+>
 >  E メールを含むプリミティブ配列を返します
 >
 >* `map(Emails[];email;label;work;home)`
-  >
+>
 >  仕事またはホームと等しいラベルを持つ E メールを含むプリミティブな配列を返します
 
 詳しくは、 [のモジュール間で情報をマッピングする [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
@@ -124,19 +132,19 @@ ht-degree: 0%
 
 * `asc`
 
-   （デフォルト） — 昇順：1、2、3、... （タイプ Number）。 A、B、C、a、b、c、... （「テキスト」タイプ）。
+  （デフォルト） — 昇順：1、2、3、... （タイプ Number）。 A、B、C、a、b、c、... （「テキスト」タイプ）。
 
 * `desc`
 
-   降順：..., 3, 2, 1 （数値タイプ）。..., c, b, a, c, B, A （テキストタイプ）。
+  降順：..., 3, 2, 1 （数値タイプ）。..., c, b, a, c, B, A （テキストタイプ）。
 
 * `asc ci`
 
-   大文字と小文字を区別しない昇順A, a, B, b, C, c, c, ... （テキストタイプ）。
+  大文字と小文字を区別しない昇順A, a, B, b, C, c, c, ... （テキストタイプ）。
 
 * `desc ci`
 
-   大文字と小文字を区別しない降順：..., C, c, B, b, A, a （テキストタイプの場合）
+  大文字と小文字を区別しない降順：..., C, c, B, b, A, a （テキストタイプの場合）
 
 以下を使用： `key` 複雑なオブジェクト内のプロパティにアクセスするためのパラメーター。
 
@@ -151,21 +159,20 @@ ht-degree: 0%
 >**例:**
 >
 >* `sort(Contacts[];name)`
-   >
-   >    連絡先の配列を「name」プロパティでデフォルトの昇順に並べ替えます
+>
+>    連絡先の配列を「name」プロパティでデフォルトの昇順に並べ替えます
 >
 >* `sort(Contacts[];desc;name)`
-   >
-   >   連絡先の配列を「name」プロパティで降順に並べ替えます
+>
+>   連絡先の配列を「name」プロパティで降順に並べ替えます
 >
 >* `sort(Contacts[];asc ci;name)`
-   >
-   >    大文字と小文字を区別しない昇順で、連絡先の配列を「name」プロパティで並べ替えます
+>
+>    大文字と小文字を区別しない昇順で、連絡先の配列を「name」プロパティで並べ替えます
 >
 >* `sort(Emails[];sender.name)`
-   >
-   >    「sender.name」プロパティで電子メールの配列を並べ替えます
-
+>
+>    「sender.name」プロパティで電子メールの配列を並べ替えます
 
 ## [!UICONTROL arrayDifference [array1, array2, mode]]
 
@@ -177,33 +184,30 @@ ht-degree: 0%
 
 * `symmetric`:両方の配列に共通でない要素の配列を返します。
 
-   つまり、この関数は、 `array1` に存在しない `array2`、および `array2` に存在しない `array1`.
+  つまり、この関数は、 `array1` に存在しない `array2`、および `array2` に存在しない `array1`.
 
-   >[!INFO]
-   >
-   >**例:**
-   >
-   >次の配列が考えられます。
-   >
-   >
-   ```
-   >myArray = [1,2,3,4,5]
-   >```
-   >
-   >
-   ```
-   >yourArray = [3,4,5,6,7]
-   >```
-   >
-   >* `arrayDifference [myArray, yourArray, classic]`
-      >
-      >    戻り値 `[1,2]`
-   >
-   >* `arrayDifference [yourArray, myArray, classic]`
-      >
-      >    戻り値 `[6,7]`
-   >
-   >* `arrayDifference [myArray, yourArray, symmetric]`
-      >
-      >    戻り値 `[1,2,6,7]`
-
+  >[!INFO]
+  >
+  >**例:**
+  >
+  >次の配列が考えられます。
+  >
+  >```
+  >myArray = [1,2,3,4,5]
+  >```
+  >
+  >```
+  >yourArray = [3,4,5,6,7]
+  >```
+  >
+  >* `arrayDifference [myArray, yourArray, classic]`
+  >
+  >    戻り値 `[1,2]`
+  >
+  >* `arrayDifference [yourArray, myArray, classic]`
+  >
+  >    戻り値 `[6,7]`
+  >
+  >* `arrayDifference [myArray, yourArray, symmetric]`
+  >
+  >    戻り値 `[1,2,6,7]`

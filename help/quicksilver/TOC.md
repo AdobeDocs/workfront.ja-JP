@@ -2,9 +2,9 @@
 user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 feature-set: Workfront
-source-git-commit: 06dc88ee79736a8a0f4b5667370849827d771ca1
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '13091'
+source-wordcount: '13093'
 ht-degree: 2%
 
 ---
@@ -1965,6 +1965,7 @@ ht-degree: 2%
       * [Adobe Workfront Fusion パフォーマンスガードレール](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [Adobe Workfront Fusion にアクセスするための IP アドレス](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion ライセンス](workfront-fusion/get-started/license-automation-vs-integration.md)
+      * [の操作 [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
    * Adobe Workfront Fusion の基本 {#workfront-fusion-basics}
       * [Adobe Workfront Fusion の基本](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
       * [Adobe Workfront Fusion でのプロファイル設定の変更](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)

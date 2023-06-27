@@ -8,23 +8,25 @@ description: Adobe Workfront Fusion には、アクセス可能な機能を決�
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: fcaa2136310cad8ef478020a9bae34bbe5520c6d
+source-git-commit: 8c781894022661bee229a88556728659ff634310
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] ライセンス
+# レガシー [!DNL Adobe Workfront Fusion] ライセンス
 
-[!DNL Adobe Workfront Fusion] には、アクセス可能な機能を決定する 2 種類のライセンスが用意されています。 購入時に組織がこれらのライセンスの 1 つを選択しました [!DNL Workfront Fusion].
+内 [!DNL Adobe Workfront Fusion] レガシーライセンスモデル [!DNL Fusion] には、アクセス可能な機能を決定する 2 種類のライセンスが用意されています。 購入時に組織がこれらのライセンスの 1 つを選択しました [!DNL Workfront Fusion].
+
+>[!NOTE]
+>
+>新しい Fusion ライセンスモデルは、組織が使用する操作の数に基づいています。 このモデルでは、すべての組織が同じ機能にアクセスできます。
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
->[!NOTE]
->
->次のタイプを調べるには： [!DNL Workfront Fusion] ライセンスを取得し、次に問い合わせてください： [!DNL Workfront Fusion] 管理者。
+次のタイプを調べるには： [!DNL Workfront Fusion] ライセンスを取得し、次に問い合わせてください： [!DNL Workfront Fusion] 管理者。
 
 ## [!DNL Workfront Fusion for Work Automation]
 
@@ -46,7 +48,7 @@ A [!DNL Workfront Fusion for Work Automation] ライセンスを使用すると�
 
 * [!DNL Adobe Workfront]
 * [!DNL Workfront Proof]
-* ウェブフック
+* Webhook
 * 次のようなツールおよび変換サービスモジュール。
 
    * PDFツール

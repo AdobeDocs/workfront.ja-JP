@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: b911af09c6df14f6504f6fc06adcf1f3a6d2626b
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>操作</p> </td> 
-   <td> <p>モジュールによって実行されるタスクです。 </p> </td> 
+   <td> <p>モジュールによって実行されるタスクです。</p><p>詳しくは、 <a href="../../workfront-fusion/get-started/operations-in-workfront-fusion.md" class="MCXref xref">の操作 [!DNL Adobe Workfront Fusion]</a>.</p>
   </tr> 
   <tr> 
    <td role="rowheader">公開鍵/秘密鍵</td> 

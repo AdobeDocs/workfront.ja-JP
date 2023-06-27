@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに�
 author: Becky
 feature: Workfront Fusion
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 28219812fc14b1f72d80d35960b03f66d8a89fb0
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 0%
+source-wordcount: '60'
+ht-degree: 1%
 
 ---
 
@@ -23,10 +23,11 @@ ht-degree: 0%
 
 この節では、次の記事を扱います。
 
-* [[!DNL Adobe Workfront Fusion] 概要](../../workfront-fusion/get-started/workfront-fusion-overview.md)
+* [[!DNL Adobe Workfront Fusion] の概要](../../workfront-fusion/get-started/workfront-fusion-overview.md)
 * [の基本用語 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md)
 * [での自動化のプラクティスシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [でのプラクティス統合シナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
 * [[!DNL Adobe Workfront Fusion] パフォーマンスガードレール](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
 * [アクセス用の IP アドレス [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+* [の操作 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)

@@ -8,10 +8,10 @@ description: この記事では、 [!DNL Adobe Workfront Fusion]（Fusion ワー
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 0%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
@@ -35,11 +35,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> <p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA)</p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +74,7 @@ ht-degree: 0%
 
 ### 回答
 
-はい. 使用 [!DNL Workfront Fusion]、ファイルの受信、保存、変換、変換、暗号化などをおこなうことができます。 さらに [!DNL Workfront Fusion] は、ユーザーがファイルに含まれるデータを効果的かつクリエイティブに操作できるように設計された、様々な組み込み機能を提供します。
+はい。使用 [!DNL Workfront Fusion]、ファイルの受信、保存、変換、変換、暗号化などをおこなうことができます。 さらに [!DNL Workfront Fusion] は、ユーザーがファイルに含まれるデータを効果的かつクリエイティブに操作できるように設計された、様々な組み込み機能を提供します。
 
 詳しくは、 [でのファイルのマッピングについて [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md).
 
@@ -82,7 +90,7 @@ ht-degree: 0%
 
 ### 回答
 
-一般的なシナリオは、指定したスケジュールに従って、間隔をおいて実行されます（例えば、毎時、5 分ごと、月に 1 回など）。 特定のサービスからデータを受け取った直後にシナリオを開始できる、インスタントトリガー（Web フック）と呼ばれる特別なトリガーがあります。 インスタントトリガーは非常に役に立つ場合があります。 可能な限り使用することをお勧めします。 操作数を減らすのに役立ちます。 受信したデータは、次にスケジュールされた実行を待たずに、即座に処理されます。 例えば、 [!DNL Google Sheets] モジュール [!UICONTROL 変更を監視] セルの更新直後にシナリオを開始します。
+一般的なシナリオは、指定したスケジュールに従って、間隔をおいて実行されます（例えば、毎時、5 分ごと、月に 1 回など）。 特定のサービスからデータを受け取った直後にシナリオを開始できる、インスタントトリガー（Web フック）と呼ばれる特別なトリガーがあります。 インスタントトリガーは非常に役に立つ場合があります。 可能な限り使用することをお勧めします。 操作数を減らすのに役立ちます。 受信したデータは、次にスケジュールされた実行を待たずに、即座に処理されます。 例えば、 [!DNL Google Sheets] モジュール [!UICONTROL 変更を監視] は、セルの更新直後にシナリオを開始します。
 
 ## 集約とは
 
@@ -102,7 +110,7 @@ An [!UICONTROL 集約] データを 1 つのコレクションに結合します
 
 ### 回答
 
-データ転送は、シナリオを通じて転送されたデータの量を指します。 例えば、FTP から 100 KB の画像を取得し、そのサイズを 50 KB に減らして、両方の画像を次の場所に保存するシナリオがあるとします。 [!DNL Dropbox]. このシナリオで使用されるデータの量は 150 KB です。
+データ転送は、シナリオを通じて転送されたデータの量を指します。 例えば、FTP から 100 KB の画像を取得し、そのサイズを 50 KB に減らして、両方の画像を次の場所に保存するシナリオがあるとします。 [!DNL Dropbox]. このシナリオで使用されるデータの量は 250 KB です。
 
 ## 接続とは
 

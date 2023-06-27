@@ -9,9 +9,9 @@ description: を使用 [!DNL Adobe Acrobat Sign] モジュールを使用する�
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
-source-git-commit: 8bb97b08bb5991fadbf2627f4ebfdaa25ae337ce
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '6579'
+source-wordcount: '6627'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>  </td>  
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td>  
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +61,7 @@ ht-degree: 0%
 
 ## [!DNL Adobe Acrobat Sign] コネクタ使用の推奨事項
 
-この [!DNL Adobe Sign ]アプリがで eSignature ビジネスプロセスを自動化 [!DNL Fusion] はるかに簡単でより強力な
+この [!DNL Adobe Sign]アプリがで eSignature ビジネスプロセスを自動化 [!DNL Fusion] はるかに簡単でより強力な
 
 新規ユーザー [!DNL Adobe Sign] は、契約の更新に関する制約の一部に十分注意する必要があります。 契約は、通常、開始後は変更されません。 の新規ユーザーにお勧めします。 [!DNL Adobe Sign] 契約作成モジュールを使用して新しい契約を作成することに重点を置きます。 これで間に合う [!DNL Fusion] 自動化が容易になり、とより効率的に連携 [!DNL Adobe Sign].
 
@@ -754,7 +762,6 @@ ht-degree: 0%
 
 
 
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -813,7 +820,6 @@ ht-degree: 0%
 >* ベストプラクティスとして、契約に大幅な変更を予想する場合は、既存の契約を更新するのではなく、新しい契約を作成することをお勧めします。
 >* 一部の更新では、必須フィールドが使用されます。 更新を設定する際は、必ずすべての必須フィールドに入力してください。 必須フィールドは太字で示されています。 [!DNL Workfront Fusion] モジュール。
 >
-
 
 
 

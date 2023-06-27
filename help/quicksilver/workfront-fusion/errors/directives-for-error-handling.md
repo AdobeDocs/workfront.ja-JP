@@ -8,10 +8,10 @@ description: この記事では、 [!DNL Adobe Workfront Fusion] シナリオ。
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 14%
+source-wordcount: '953'
+ht-degree: 13%
 
 ---
 
@@ -35,11 +35,19 @@ ht-degree: 14%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,12 +92,11 @@ ht-degree: 14%
 >[!NOTE]
 >
 >* 現在、エラー処理ディレクティブは、エラー処理ルート以外では使用できません。
-   >
-   >   詳しくは、 [エラーハンドラールート](../../workfront-fusion/errors/error-handling.md#error) 記事内 [Adobe Workfront Fusion でのエラー処理](../../workfront-fusion/errors/error-handling.md).
+>
+>   詳しくは、 [エラーハンドラールート](../../workfront-fusion/errors/error-handling.md#error) 記事内 [Adobe Workfront Fusion でのエラー処理](../../workfront-fusion/errors/error-handling.md).
 >* [!DNL Workfront Fusion] では、現在、条件付きで簡単にエラーを生成（スロー）できる Throw モジュールは提供していませんが、機能を模した回避策を使用できます。
-   >
-   >   詳しくは、 [スローの回避策](../../workfront-fusion/errors/throw.md#workaround-for-throw) 記事内 [Adobe Workfront Fusion でのエラー処理のスロー](../../workfront-fusion/errors/throw.md).
-
+>
+>   詳しくは、 [スローの回避策](../../workfront-fusion/errors/throw.md#workaround-for-throw) 記事内 [Adobe Workfront Fusion でのエラー処理のスロー](../../workfront-fusion/errors/throw.md).
 
 ## 一時停止 {#break}
 

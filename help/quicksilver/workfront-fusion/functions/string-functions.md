@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion マッピングパネルでは、次の文�
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '774'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,19 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p><p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA)</p>  </td> 
+   <td>
+   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>または</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>または</p>
+   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +65,12 @@ ht-degree: 3%
 >**例:**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
-   >
-   >   戻り値： [!DNL Workfront]
+>
+>   戻り値： [!DNL Workfront]
 >
 >* `ascii(` `ěščřž` `;` `true` `)`
-   >
-   >   戻り値： [!UICONTROL escrz]
-
+>
+>   戻り値： [!UICONTROL escrz]
 
 ## [!UICONTROL base64 （テキスト）]
 
@@ -98,13 +105,12 @@ ht-degree: 3%
 >**例:**
 >
 >* `contains( Hello World ; Hello )`
-   >
-   >   戻り値： [!UICONTROL true]
+>
+>   戻り値： [!UICONTROL true]
 >
 >* `contains( Hello World ; Bye )`
-   >
-   >   戻り値： [!UICONTROL false]
-
+>
+>   戻り値： [!UICONTROL false]
 
 ## [!UICONTROL decodeURL （テキスト）]
 
@@ -154,17 +160,16 @@ URL 内の特殊文字をテキストにデコードします。
 >**例:**
 >
 >* `indexOf( Workfront ; o )`
-   >
-   >   戻り値：1
+>
+>   戻り値：1
 >
 >* `indexOf( Workfront ; x )`
-   >
-   >   戻り値：-1
+>
+>   戻り値：-1
 >
 >* `indexOf( Workfront ; o ; 3 )`
-   >
-   >   戻り値：6
-
+>
+>   戻り値：6
 
 ## [!UICONTROL length （テキストまたはバッファ）]
 
@@ -236,11 +241,14 @@ URL 内の特殊文字をテキストにデコードします。
 >![](assets/variable-value-350x63.png)
 >
 >戻り値：電話番号 `+420777111222`
->>![](assets/variable-value---2-350x55.png)
+>>
+>![](assets/variable-value---2-350x55.png)
+>
 >戻り値：電話番号： `+420777111222`
 
 >[!CAUTION]
-次のような名前付きキャプチャグループを使用しない `/ is (?<number>\d+)/` 置き換える文字列引数内。 その場合、エラーが発生します。
+>
+>次のような名前付きキャプチャグループを使用しない `/ is (?<number>\d+)/` 置き換える文字列引数内。 その場合、エラーが発生します。
 
 正規表現について詳しくは、 [テキストパーサー](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
@@ -249,18 +257,24 @@ URL 内の特殊文字をテキストにデコードします。
 文字列の sha1 ハッシュを計算します。 key 引数が指定されている場合は、sha1 HMAC ハッシュが代わりに返されます。 サポートされるエンコード：&quot;hex&quot; （デフォルト）、&quot;base64&quot;または&quot;latin1&quot;
 
 >[!INFO]
-**例:**
-`sha1( workfront )`
-戻り値：b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
+>
+>**例:**
+>
+>`sha1( workfront )`
+>
+>戻り値：b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
 ## [!UICONTROL sha256 (text; [エンコード]; [key])]
 
 文字列の sha256 ハッシュを計算します。 key 引数が指定されている場合は、sha256 HMAC ハッシュが代わりに返されます。 サポートされるエンコード：&quot;hex&quot; （デフォルト）、&quot;base64&quot;または&quot;latin1&quot;。>
 
 >[!INFO]
-**例:**
-`sha256( workfront )`
-戻り値：ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
+>
+>**例:**
+>
+>`sha256( workfront )`
+>
+>戻り値：ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
 ## [!UICONTROL sha512 (text; [出力エンコーディング]; [key]; [キーエンコード])]
 
@@ -281,49 +295,61 @@ URL 内の特殊文字をテキストにデコードします。
 「[!UICONTROL バイナリ]」キーのエンコード。キーは、文字列ではなく、バッファである必要があります。
 
 >[!INFO]
-**例:**
-`sha512(workfront)`
-戻り値：789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
+>
+>**例:**
+>
+>`sha512(workfront)`
+>
+>戻り値：789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
 ## [!UICONTROL split (text;区切り文字 )]
 
 文字列を部分文字列に分割して、文字列を文字列の配列に分割します。
 
 >[!INFO]
-**例:**
-`split( John, George, Paul ; , )`
+>
+>**例:**
+>
+>`split( John, George, Paul ; , )`
 
 ## [!UICONTROL startcase （テキスト）]
 
 すべての単語の最初の文字を大文字にし、その他すべての文字を小文字にします。
 
 >[!INFO]
-**例：**
-`startcase( hello WORLD )`
-戻り値： [!UICONTROL Hello World]
+>
+>**例:**
+>`startcase( hello WORLD )`
+>
+>戻り値： [!UICONTROL Hello World]
 
 ## [!UICONTROL stripHTML（テキスト）]
 
 テキストからすべてのHTMLタグを削除します。
 
 >[!INFO]
-**例:**
-`stripHTML( <b>Hello</b> )`
-戻り値：こんにちは
+>
+>**例:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>戻り値：こんにちは
 
 ## [!UICONTROL substring (text;開始；終了 )]
 
 「開始」位置と「終了」位置の間のテキスト文字列の一部を返します。
 
 >[!INFO]
-**例:**
-* `substring( Hello ; 0 ; 3)`
-
-   戻り値：ヘル
-* `substring( Hello ; 1 ; 3 )`
-
-   戻り値：el
-
+>
+>**例:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   戻り値：ヘル
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   戻り値：el
 
 ## [!UICONTROL toBinary（値）]
 
@@ -332,14 +358,16 @@ URL 内の特殊文字をテキストにデコードします。
 2 番目の引数としてエンコードを指定し、16 進数または base64 からバイナリデータにバイナリ変換を適用することもできます。
 
 >[!INFO]
-**例:**
-* `toBinary( Workfront )`
-
-   戻り値：57 6f 72 6b 66 72 6f 6e 74
-* `toBinary( V29ya2Zyb250 ; base64 )`
-
-   戻り値：57 6f 72 6b 66 72 6f 6e 74
-
+>
+>**例:**
+>
+>* `toBinary( Workfront )`
+>
+>   戻り値：57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   戻り値：57 6f 72 6b 66 72 6f 6e 74
 
 ## [!UICONTROL toString （値）]
 
@@ -354,6 +382,9 @@ URL 内の特殊文字をテキストにデコードします。
 文字列内のすべてのアルファベット文字を大文字に変換します。
 
 >[!INFO]
-**例:**
-`upper( Hello )`
-戻り値： [!UICONTROL こんにちは]
+>
+>**例:**
+>
+>`upper( Hello )`
+>
+>戻り値： [!UICONTROL こんにちは]
