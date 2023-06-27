@@ -6,9 +6,9 @@ description: Adobe Workfrontの新しいコメント作成エクスペリエン�
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 3%
 >
 >23.2 リリースでベータ版が開始された新しいコメント機能です。 元のリリースについて詳しくは、 [23.2 リリースの概要](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Workfrontオブジェクトのベータ版エクスペリエンスにリリースされたコメント機能は、Workfront目標の目標オブジェクトの更新セクションにもリリースされています。
+>Workfrontオブジェクトのベータ版エクスペリエンスにリリースされたコメント機能も、次のオブジェクトの更新セクションにリリースされ、唯一のコメントエクスペリエンスとしてリリースされています。
+>* 目標
+>* 「ボード」領域のカード。
 
 ## リリースタイムライン
 

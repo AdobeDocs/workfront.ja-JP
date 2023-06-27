@@ -4,9 +4,9 @@ description: 23.3 リリース期間中のルックアンドフィールの更�
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 * ページがアップロードされたときに読み込みインジケーターが表示されるようになりました。
 * コピーアイコンは永続的で、テキストが付随します。リクエストが選択されていない場合、このアイコンは無効になります。
 
-詳しくは、 [リクエストのコピーと送信](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+詳しくは、 [リクエストのコピーと送信](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). 機能リリース後にドキュメントが更新されます。
 
-## 新しいリクエストを送信する際にデザインを更新しました
+## プロジェクトに新しいイシューを追加する際にデザインを更新しました
 
 >[!NOTE]
 >
 >プレビューリリースの予定：2023 年 7 月 6 日；実稼動予定リリース：23.3 リリースの場合
 
-新しいリクエストの送信時に表示される「新しいリクエスト」ボックスを更新しました。 現在は、新しいイシューをプロジェクトに追加する際に表示される「新しいイシュー」ボックスとインターフェイスが一致します。
+新しいイシューをプロジェクトに送信する際に表示される「新しいイシュー」ボックスを更新しました。 現在は、インターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される「新しいリクエスト」ボックスに一致します。
 
-詳しくは、 [Adobe Workfront要求の作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+詳しくは、 [イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md). 機能リリース後にドキュメントが更新されます。
 
 ## 請求率リストの更新
 

@@ -6,9 +6,9 @@ description: Adobe Workfrontのコメントエクスペリエンスのアップ�
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 * システム更新に対するコメント
 * コメント中にステータス、条件、コミット日を編集可能
 * カスタムフォームを編集
+
+>[!NOTE]
+>
+>以下に示すオブジェクトには、ベータ版エクスペリエンスを有効にした場合に利用できる過去 1 年（2022 年 6 月以降）のコメントとシステムアップデートのみが含まれています。
+>
+>* 問題
+>* <span class="preview">プロジェクト</span>
+>* <span class="preview">タスク</span>
+>* <span class="preview">ドキュメント</span>
+>
+>2022 年 6 月より前に、現在のエクスペリエンスの「更新」セクションを表示すると、コメントおよびシステム更新を表示できます。
+
 
 次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
 
