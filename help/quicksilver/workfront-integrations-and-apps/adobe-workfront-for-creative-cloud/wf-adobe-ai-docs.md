@@ -5,13 +5,13 @@ title: Illustratorからドキュメントをアップロード
 description: アートボードをドキュメントとしてアップロードして、すばやいレビューや承認を得たり、Adobe Workfrontに保存するだけで済みます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
+source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
-
 
 # ドキュメントのアップロード元 [!DNL Illustrator]
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 次をインストールする必要があります： [!DNL Adobe Workfront for design and video] プラグインを使用して、次の場所からドキュメントをアップロードする [!DNL Illustrator].
 
-   手順については、 [インストール [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  手順については、 [インストール [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## にドキュメントをアップロード [!DNL Illustrator]
 
@@ -73,3 +73,12 @@ ht-degree: 0%
    ![](assets/file-export-settings.png)
 1. クリック **[!UICONTROL アップロード]**.
 ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+
+>[!NOTE]
+>
+>ドキュメントがテキストドキュメントとして書き出される場合は、 [!DNL Adobe Illustrator].
+>
+>1. In [!DNL Illustrator]、 **[!UICONTROL 編集]** 「 」タブで「 」を選択します。 **[!UICONTROL 環境設定]**.
+>1. 選択 **[!UICONTROL 一般]**.
+>1. クリック **[!UICONTROL 環境設定をリセット]**.
+>1. 閉じて再起動 [!DNL Illustrator].
