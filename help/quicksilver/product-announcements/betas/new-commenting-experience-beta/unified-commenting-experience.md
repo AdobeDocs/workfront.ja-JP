@@ -5,11 +5,12 @@ title: 新しいコメントエクスペリエンス
 description: Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、および選択したオブジェクトの更新セクションのパフォーマンスの向上が含まれます。
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,12 +62,12 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 >
 >以下に示すオブジェクトには、ベータ版エクスペリエンスを有効にした場合に利用できる過去 1 年（2022 年 6 月以降）のコメントとシステムアップデートのみが含まれています。
 >
+>2022 年 6 月より前に、現在のエクスペリエンスの「更新」セクションを表示すると、これらのオブジェクトに関するコメントやシステム更新を表示できます。
 >* 問題
 >* <span class="preview">プロジェクト</span>
 >* <span class="preview">タスク</span>
 >* <span class="preview">ドキュメント</span>
->
->2022 年 6 月より前に、現在のエクスペリエンスの「更新」セクションを表示すると、コメントおよびシステム更新を表示できます。
+
 
 
 次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
@@ -135,7 +136,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>

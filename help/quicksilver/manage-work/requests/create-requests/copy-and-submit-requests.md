@@ -1,14 +1,15 @@
 ---
 title: リクエストのコピーと送信
-description: リクエストのコピーと送信
+description: 同様のリクエストを頻繁に送信する場合は、既存の送信済みリクエストをコピーできます。 この場合、既存のリクエストをコピーし、最小限の変更を加えて、新しいリクエストとして再送信できます。
 author: Alina
-draft: Probably
 feature: Work Management
+role: User
+topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -121,7 +122,7 @@ ht-degree: 2%
 1. （条件付き）デフォルトで「送信済み」セクションが表示されない場合、 **送信済み** をクリックします。
 1. 新規としてコピーして送信するリクエストを見つけ、次のいずれかの操作を行います。
 
-   * 選択して、 **新規としてコピーして送信** アイコン ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （「送信済みのリクエスト」リストの左上隅） <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
+   * 選択して、 **新規としてコピーして送信** アイコン ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （「送信済みのリクエスト」リストの左上隅） <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
 
    <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
