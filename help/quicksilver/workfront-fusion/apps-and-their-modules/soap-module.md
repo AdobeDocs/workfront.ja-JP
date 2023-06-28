@@ -80,25 +80,25 @@ ht-degree: 1%
 ><complexType name="ArrayOfFloat">
 >
 >   
-  <complexContent>
+>  <complexContent>
 >
 >      
-     <restriction base="soapenc:Array">
+>     <restriction base="soapenc:Array">
 >
 >         
-        <attribute ref="soapenc:arrayType"
+>        <attribute ref="soapenc:arrayType"
 >
 >            
-           wsdl:arrayType="xsd:integer[]"/>
+>           wsdl:arrayType="xsd:integer[]"/>
 >
 >      
-     </restriction>
+>     </restriction>
 >
 >   
-  </complexContent>
+>  </complexContent>
 >
 >
-</complexType>
+></complexType>
 >```
 
 これには、 `soapenc:Array`, `soapenc:arrayType` および `wsdl:arrayType` 参照 ( まだ [!UICONTROL Workfront Fusion].
