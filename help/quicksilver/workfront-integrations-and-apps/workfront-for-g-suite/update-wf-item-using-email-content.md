@@ -7,9 +7,9 @@ description: Adobe Workfront以外の E メールからの情報に関する既�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
+>Google用Adobe Workfrontプラグインの最新バージョンは、2023 年 6 月 26 日にリリースされました。
 
 既存のプロジェクト、タスクまたはイシューを、以外の[!DNL Adobe Workfront] 電子メール。
 
@@ -99,6 +99,6 @@ ht-degree: 0%
 
    * の更新に返信するには **[!UICONTROL 更新]** タブ、クリック **[!UICONTROL 返信]** 返信を入力します。
 
-      上記のオプションの両方で、 **[!UICONTROL 通知]** をクリックして、手順 5 に従って返信の受信者を指定します。 準備が整ったら、「 **[!UICONTROL 投稿]** をクリックして、更新または返信を追加します。
+     上記のオプションの両方で、 **[!UICONTROL 通知]** をクリックして、手順 5 に従って返信の受信者を指定します。 準備が整ったら、「 **[!UICONTROL 投稿]** をクリックして、更新または返信を追加します。
 
    * 次をクリック： **[!UICONTROL 詳細]** タブをクリックして、新しいプロジェクト、タスク、またはタスクの詳細を表示します。

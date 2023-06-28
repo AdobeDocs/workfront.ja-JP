@@ -7,9 +7,9 @@ description: G Suite を離れることなく、作業項目の詳細を表示�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
+>Google用Adobe Workfrontプラグインの最新バージョンは、2023 年 6 月 26 日にリリースされました。
 
 作業項目の詳細を表示および管理する際に、作業項目の詳細を [!DNL G Suite]. たとえば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることができます。 [!DNL Adobe Workfront for G Suite].
 
@@ -62,18 +62,18 @@ ht-degree: 0%
 
    * オブジェクトの **[!UICONTROL 説明]** その他の詳細 ( オブジェクトに割り当てられたユーザー、 **[!UICONTROL 優先度]**、要求者、 **[!UICONTROL 計画完了日]**、およびオブジェクトに添付されたカスタムフィールドとフォーム。
 
-      カスタムフォームには、情報が追加されたフィールドのみが表示されます。
+     カスタムフォームには、情報が追加されたフィールドのみが表示されます。
 
    * 次をクリック： **[!UICONTROL 親プロジェクト]** 親オブジェクトの詳細を表示する領域。
 
-      >[!TIP]
-      >
-      >これは、同じ名前のタスクや問題があり、それらを区別する必要がある場合に役立ちます。
+     >[!TIP]
+     >
+     >これは、同じ名前のタスクや問題があり、それらを区別する必要がある場合に役立ちます。
 
    * 割り当てられた作業を承認するには、 **[!UICONTROL 作業]**.
    * 次のような様々なオプションを編集します。 **[!UICONTROL 完了]** オプション、 **[!UICONTROL ステータス]**、および **[!UICONTROL 完了率]**.
 
-      の下 **[!UICONTROL 完了率]**、数値を入力し、（オプションで）割合記号%を入力して、項目の進行状況を示します。
+     の下 **[!UICONTROL 完了率]**、数値を入力し、（オプションで）割合記号%を入力して、項目の進行状況を示します。
    * 所有者、サイズ、添付ファイルなど、承認リクエストに関する情報を表示します。
    * **[!UICONTROL 承認]** または **[!UICONTROL 拒否]** 承認リクエストとドキュメント。
 

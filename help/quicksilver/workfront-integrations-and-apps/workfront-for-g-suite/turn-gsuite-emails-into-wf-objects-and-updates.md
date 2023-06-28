@@ -7,9 +7,9 @@ description: 通常の非Workfront E メールを [!DNL Adobe Workfront] G Mail 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 62df8503-fe6e-4b37-b2ce-0fb5678c21d7
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
+>Google用Adobe Workfrontプラグインの最新バージョンは、2023 年 6 月 26 日にリリースされました。
 
 通常の[!DNL Workfront] 電子メールを送信 [!DNL Adobe Workfront] オブジェクトと更新を [!DNL G Mail]. 詳しくは、次の記事を参照してください。
 

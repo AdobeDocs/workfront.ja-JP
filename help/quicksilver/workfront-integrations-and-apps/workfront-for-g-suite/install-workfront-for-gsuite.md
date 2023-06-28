@@ -7,10 +7,10 @@ description: 次をインストールできます： [!DNL Adobe Workfront] G Su
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 2%
+source-wordcount: '158'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
+>の最新バージョン [!DNL Adobe Workfront] プラグイン [!DNL Google] は 2023 年 6 月 26 日にリリースされました。
 
 次をインストールできます： [!DNL Adobe Workfront for G Suite] アドオン [!DNL G Suite] Marketplace。
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ## インストール [!DNL Workfront for G Suite]
 
-1. 次のリンクをクリックします。 [[!DNL Workfront for G Suite]](https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461)
+1. 次のリンクをクリックします。 [[!DNL Workfront for G Suite]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
    または
 

@@ -7,9 +7,9 @@ description: この記事では、 [!DNL Adobe Workfront for] G スイートの�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '250'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->ここに [既知の問題](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) 現在のバージョンの [!DNL Workfront for G Suite] 期待どおりに動作しない。 新しいバージョンで作業中で、このバージョンはにリリースされると予想されています [!DNL Google Marketplace] 近い将来に
+>Google用Adobe Workfrontプラグインの最新バージョンは、2023 年 6 月 26 日にリリースされました。
 
 ## アクセス要件
 
@@ -62,7 +62,6 @@ ht-degree: 1%
    >
    >* [!DNL Workfront] 接続先 [!DNL G Suite] OAuth 2.0 を使用する。これは、ほとんどの web ベースの統合で、ユーザーの認証と承認に使用される安全な標準です。
    >* 次の項目を入力するよう求められた場合、 [ドメインまたはホスト] の [!DNL Workfront] アカウントに次の形式で入力します。 *yourCompany&#39;sDomain.my.workfront.com*. 会社のドメインは通常、会社の名前です。
-
 
 
 ## からログアウト [!DNL Workfront for G Suite]
