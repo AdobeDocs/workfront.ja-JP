@@ -3,9 +3,9 @@ title: 23.3 統合の強化
 description: 23.3 統合の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,16 @@ ht-degree: 0%
 このページでは、プレビュー環境の 23.3 リリースでおこなわれたすべての統合の機能強化について説明します。 これらの機能強化は、23.3 リリースで実稼動環境で利用できるようになります。
 
 23.3 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## 新しい G Suite 統合が利用可能になりました
+
+Google Marketplace で新しい G Suite 統合が利用できるようになりました。 新しい統合は、OAuth2 を使用して認証され、以前の統合に代わるものです。
+
+以前の G Suite 統合は廃止され、自動的にアンインストールされます。
+
+新しい統合のインストール方法については、 [インストール [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+
+Workfront for G Suite について詳しくは、 [Workfront for G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
 ## Adobe Creative Cloud統合で、複数の割り当て済みユーザーをサポートするようになりました
 

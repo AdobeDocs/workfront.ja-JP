@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
+source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
 workflow-type: tm+mt
-source-wordcount: '2538'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,19 @@ ht-degree: 0%
 23.3 リリースウェビナーは 2023 年 6 月 29 日に開催されます。 以下が可能です。 [ウェビナーへの登録はこちら](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">オフサイクル機能（23.3 のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
+
+>[!IMPORTANT]
+>
+>23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれています。 そのため、Workfrontでは、月次および四半期次のリリース追跡の両方に対応するように、リリースの採番方式を変更しています。
+>
+>* 次の場合、 **高速リリース（毎月）** 追跡， 23.3 以降のリリースは **23.8**、2023 年 8 月。
+> * 次の場合、 **四半期ごと** リリース追跡， 23.3 以降のリリースは **23.10**、2023 年 10 月。
+> 
+> 四半期リリースには、3 つの月別リリースの機能が含まれます。 例えば、23.10 の四半期リリースには、23.8、23.9 および 23.10 の月別リリースでリリースされた機能が含まれます。
+>|毎月のリリース|四半期のリリース|
+>|—|—|
+>|<ul><li>23.8（2023 年 8 月）</li><li>23.9（2023 年 9 月）</li><li>23.10（2023 年 10 月）</li></ul>| <ul><li>23.10（2023 年 10 月）</li></ul>|
+>|<ul><li>23.11（2023 年 11 月）</li><li>23.12（2023 年 12 月）</li><li>24.1（2024 年 1 月）</li></ul>| <ul><li>24.1（2024 年 1 月）</li></ul>|
 
 ## Adobe Workfrontの機能強化
 
@@ -353,6 +366,22 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい G Suite 統合が利用可能になりました</a></p> 
+                        <p>Google Marketplace で新しい G Suite 統合が利用できるようになりました。 新しい統合は、OAuth2 を使用して認証され、以前の統合に代わるものです。</p><p>以前の G Suite 統合は廃止され、自動的にアンインストールされます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：該当なし</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：2023 年 6 月 28 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud統合で、複数の割り当て済みユーザーをサポートするようになりました</a></p> 
