@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '747'
 ht-degree: 3%
 
 ---
 
-# システムセキュリティの環境設定の構成
+# システム環境設定の指定
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -23,14 +23,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront管理者は、Workfrontシステムのセキュリティ環境設定を設定できます。
+Adobe Workfront管理者は、Workfrontシステムの環境設定を設定できます。
 
 * モバイルアプリやその他の統合アプリケーションからWorkfrontにアクセス
 * iframe へのWorkfrontの埋め込みルール
 
 システム環境設定で行った変更は、システム内のすべてのユーザーと、Workfrontでのユーザーのエクスペリエンスに影響します。
 
-Workfrontの実装時にシステムセキュリティの環境設定を指定し、その後再度おこなうことをお勧めします。
+Workfrontの実装時にシステム環境設定を指定し、その後は再度設定することをお勧めします。
 
 ## アクセス要件
 
@@ -55,13 +55,13 @@ Workfrontの実装時にシステムセキュリティの環境設定を指定�
  </tbody> 
 </table>
 
-## システムセキュリティ設定の構成
+## システム環境設定を設定する
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
 
 1. 左側のパネルで、 **システム** > **環境設定**.
 
-1. 内 **セキュリティ** 「 」セクションで、次のいずれかのフィールドを選択して、組織のセキュリティ設定を指定します。
+1. 組織の設定を指定するには、次のいずれかのフィールドを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,6 +104,10 @@ Workfrontの実装時にシステムセキュリティの環境設定を指定�
      <tr> 
       <td role="rowheader">次の場合にモバイルユーザーを自動的にログアウトする：  </td> 
       <td>無操作状態が続いた後にユーザーがWorkfrontアプリケーションからログアウトする時間を指定できます。 デフォルトでは、ユーザーは 7 日間操作が実行されなかった場合にログアウトされます。 <p>このオプションは、シングルサインオンソリューションを使用しているWorkfrontのお客様にも影響します。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">システムのユーザーには、新しいホームエクスペリエンスがデフォルトで表示されます </td> 
+      <td>ユーザーがデフォルトで新しいホームエクスペリエンスを表示するかどうかを指定できます。 いずれの場合も、ユーザーは、新しいホームの有効化または無効化を個別に選択できます。 このオプションは、デフォルトで有効になっています。</td> 
      </tr> 
     </tbody> 
    </table>

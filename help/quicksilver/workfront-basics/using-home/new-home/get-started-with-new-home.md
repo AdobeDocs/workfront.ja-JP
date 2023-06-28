@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Adobe Workfrontの新しいホームを開始する
 description: 新しいホームは、作業を管理するための強力な新機能です。
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ New Home は、高度にカスタマイズ可能に設計され、最も重要�
 
 既存のホームエクスペリエンスを希望するユーザーの場合、新しいホームをオフに切り替えることができます。
 
+
 **現在のホームエクスペリエンスに戻るには：**
 
 1. Adobe Workfrontアイコンをクリックして、ホームページに移動します。 ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) をクリックします。 ![メインメニューアイコン](../new-home/assets/main-menu-icon-left-nav.png) 次に、 **ホーム**.
@@ -97,3 +98,7 @@ New Home は、高度にカスタマイズ可能に設計され、最も重要�
    ![現在のホームに戻るボタン](../new-home/assets/go-back-to-current-home-button.png)
 
 1. 表示される確認ウィンドウで、新しいホームでのエクスペリエンスに関する簡単な調査を行うか、 **現在のホームに戻る** 決定を完了し、現在のホームエクスペリエンスに戻す。
+
+>[!NOTE]
+>
+> システム管理者は、ユーザーのデフォルトとして [ 新しいホーム ] を無効にできます。 システム全体でユーザーのデフォルトのホームエクスペリエンスを変更する方法について詳しくは、 [システム環境設定の指定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
