@@ -5,8 +5,10 @@ title: イシューの作成
 description: プロジェクトの作業中に、予期しないイベントが発生することがあります。 これらの予期しないイベントは、特定のプロジェクトやタスクの問題として記録できます。 適切なアクセス権を持つユーザーは、プロジェクトやタスクが完了するにつれて問題のステータスを表示および監視できるので、長時間の E メールチェーンやステータスミーティングを行う必要がありません。 計画イベントであるタスクとは異なり、問題はAdobe Workfrontで計画外の作業項目を表します。
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -14,6 +16,8 @@ ht-degree: 0%
 ---
 
 # イシューの作成
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 プロジェクトの作業中に、予期しないイベントが発生することがあります。 これらの予期しないイベントは、特定のプロジェクトやタスクの問題として記録できます。 適切なアクセス権を持つユーザーは、プロジェクトやタスクが完了するにつれて問題のステータスを表示および監視できるので、長時間の E メールチェーンやステータスミーティングを行う必要がありません。 計画イベントであるタスクとは異なり、問題はAdobe Workfrontで計画外の作業項目を表します。
 
@@ -53,7 +57,7 @@ ht-degree: 0%
 &#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
+(NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
 -->
 
 ## 問題作成の制限
@@ -92,16 +96,18 @@ ht-degree: 0%
 
    ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
+   <!--update the screen shot above for preview and highlight in yellow-->
+
    * プロジェクトにキュートピックが 1 つだけ設定されている場合は、自動的に表示されます。
    * トピックグループの下にキュートピックまたはトピックグループがない場合、[ トピックグループ ] ドロップダウンには何も表示されません。
 
 1. （条件付き）プロジェクト作成者が **問題のタイプ** 「新規発行」フォームに表示するフィールドで、次のオプションから発行のタイプを選択します。
 
-   * バグ報告書
+   * バグレポート
    * 変更依頼
    * 問題
    * リクエスト\
-      Workfrontの管理者がプロジェクトの環境設定をおこなった方法によっては、問題の種類の名前が異なる場合があります。
+     Workfrontの管理者がプロジェクトの環境設定をおこなった方法によっては、問題の種類の名前が異なる場合があります。
 
 1. 次のフィールドで使用可能ないずれかのフィールドを指定します。 **新しい問題** フォーム。 新しい問題を入力する際のフィールドの定義について詳しくは、 [問題の編集](../../../manage-work/issues/manage-issues/edit-issues.md).
 1. （条件付き）キュートピックがカスタムフォームに関連付けられている場合、そのカスタムフォームは **新しい問題** フォーム。\
@@ -119,6 +125,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >プロジェクト所有者が有効にする必要があります **ユーザーがイシューをインラインで追加することを許可** プロジェクトのイシュー設定を定義する際に、イシューをプロジェクトまたはタスクにインラインで追加できます。 プロジェクトでの問題の設定については、 [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).
+>
 
 複数のイシューをすばやく追加する場合は、タスクまたはプロジェクトのイシューをインラインで作成し、イシューのリストに追加します。
 
@@ -150,7 +157,6 @@ ht-degree: 0%
    >* 別のオブジェクトに属するフィールド
    >* 編集するアクセス権のないフィールド
    >* Workfrontが自動的に更新する計算フィールド
-
 
 1. Enter キーを押してインライン編集を終了し、イシューをプロジェクトまたはタスクに追加します。
 

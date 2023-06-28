@@ -4,7 +4,7 @@ description: 23.3 リリース期間中のルックアンドフィールの更�
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プレビューリリースの予定：2023 年 6 月 28 日；実稼動予定リリース：2023 年 7 月 14 日
+>プレビューリリースの予定：2023 年 6 月 29 日；実稼動予定リリース：2023 年 7 月 14 日
 
 送信済みリクエストリストのインターフェイスを改善しました。
 

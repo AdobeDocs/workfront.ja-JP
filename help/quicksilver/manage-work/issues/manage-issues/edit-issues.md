@@ -5,11 +5,13 @@ title: 問題の編集
 description: 自分が作成したイシューに関する情報や、自分と他のユーザーがイシューを共有した場合に他のユーザーが作成したイシューに関する情報を編集できます。
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 3%
+source-wordcount: '2467'
+ht-degree: 2%
 
 ---
 
@@ -92,6 +94,7 @@ ht-degree: 3%
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、 [カスタムフォームとオブジェクトの詳細のエクスポート](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    「問題の詳細」セクションに表示されるフィールドについて詳しくは、次に説明するように、「問題の編集」ボックスで問題を編集し続けます。
 
 1. 問題に関するすべての情報を編集するには、リストから問題を選択し、 **編集** リストの一番上に
@@ -119,6 +122,8 @@ ht-degree: 3%
    >[!NOTE]
    >
    >Workfront管理者がレイアウトテンプレートを設定する方法によっては、環境によって「問題を編集」ボックスのフィールドが異なる場合があります。 詳しくは、 [レイアウトテンプレートを使用して詳細ビューをカスタマイズする](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >
+   >イシューを作成する際に、以下のセクションに一覧表示されるほとんどのフィールドは、「新しいイシュー」ボックスからもアクセスできます。 フィールドが配置されているセクションが、「 New Issue 」ボックスと一致しません。 問題の作成について詳しくは、 [イシューの作成](../../issues/manage-issues/create-issues.md).
 
 ### 問題名 {#issue-name}
 
@@ -184,9 +189,9 @@ ht-degree: 3%
       <td role="rowheader">タイプ</td> 
       <td> <p>プロジェクトの「キューの詳細」領域で、プロジェクトマネージャーが選択したキューのプロパティに従って、問題のタイプを指定できます。 次のオプションから選択します。 <b>タイプ</b> ドロップダウンメニュー： </p> 
        <ul> 
-        <li> <p><strong>バグ報告書</strong> </p> </li> 
+        <li> <p><strong>バグレポート</strong> </p> </li> 
         <li> <p><strong>変更依頼</strong> </p> </li> 
-        <li> <p><strong>問題</strong> </p> </li> 
+        <li> <p><strong>イシュー</strong> </p> </li> 
         <li> <p><strong>リクエスト</strong> </p> </li> 
        </ul> <p>Workfront管理者が選択したプロジェクトの環境設定によっては、問題の種類の名前が異なる場合があります。</p> </td> 
      </tr> 
@@ -282,7 +287,6 @@ ht-degree: 3%
    >
    >* 作業項目をアクティブなリソースに再割り当てする。
    >* 非アクティブなチームのユーザをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
-
 
 1. （オプション）担当者の名前にマウスポインターを置いて「 **プライマリ**. チームをイシューの主な担当者にすることはできません。
 1. 次のフィールドを更新します。

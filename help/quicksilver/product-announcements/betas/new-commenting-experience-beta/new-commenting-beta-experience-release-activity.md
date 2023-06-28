@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1500'
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,9 @@ ht-degree: 0%
 
 詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). ドキュメントはリリース時に更新されます。
 
-プレビューおよび実稼動版のリリース予定：2023 年 6 月 30 日
+プレビュー：2023 年 6 月 29 日
+
+実稼動予定リリース：2023 年 6 月 30 日
 
 #### ログ時間の新しいインターフェイス
 
