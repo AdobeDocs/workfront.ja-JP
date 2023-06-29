@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfrontコネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5428'
 ht-degree: 3%
 
 ---
@@ -993,6 +993,12 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
    <td> </td> 
   </tr> 
   <tr> 
+   <td>プルーフの承認</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>予約時間* </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1722,3 +1728,4 @@ Workfront/イベントを監視フィルターでは、次の演算子を使用�
 ウェブフックの詳細については、 [のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 シナリオでのフィルターの詳細については、 [のシナリオにフィルターを追加する [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+
