@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1499'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 3%
 
 プレビュー：2023 年 6 月 29 日
 
-実稼動予定リリース：2023 年 6 月 30 日
+実稼動版リリース：2023 年 6 月 30 日
 
 #### ログ時間の新しいインターフェイス
 

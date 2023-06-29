@@ -6,16 +6,16 @@ description: 自分または他のユーザーが送信したリクエストや�
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # 送信された要求の場所
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
 
 自分または他のユーザーが送信したリクエスト、または開始したが送信を完了していないリクエストのタイプを確認できます。 これらのリクエストは、Adobe Workfrontの次の領域で検索できます。
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 自分または他のユーザーが送信した要求を見つけるには、次の手順を実行します。
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
-1. クリック **送信済み** が左側のパネルに表示され、送信されたすべてのリクエストが表示されます。
+1. クリック **送信済み** が左側のパネルに表示され、送信されたすべてのリクエストが表示されます。
 
    最大 2,000 個のリクエストを表示でき、複数のページに表示できます。
 
@@ -70,44 +70,43 @@ ht-degree: 1%
    >
    >「送信済みのリクエスト」リストの列はカスタマイズできません。
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. デフォルトでは、次の列が表示されます。
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">名前</td> 
-      <td> <p>リクエストの名前。</p> <p>リクエストの名前をクリックして開きます。 </p> <p><b>ヒント</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">名前</td> 
+         <td> <p>リクエストの名前。</p> <p>リクエストの名前をクリックして開きます。 </p> <p><b>ヒント</b>
 
    タスクまたはプロジェクトに変換したときに問題が保持されなかった場合は、問題の名前が淡色表示になり、クリックできなくなります。 問題の変換について詳しくは、 <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Adobe Workfrontでの変換の問題の概要</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">変換先</td> 
-      <td> <p>リクエストの変換先のタスクまたはプロジェクトである解決オブジェクトの名前です。 </p> <p>タスクまたはプロジェクトの名前をクリックして開きます。 </p> <p>リクエストが変換されなかった場合、このフィールドは空です。 </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">パス</td> 
-      <td>リクエストが最初に送信されたリクエストキュー、トピックグループ、およびキュートピックの名前。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">ステータス</td> 
-      <td>リクエストの現在のステータス、または解決オブジェクト（タスクまたはプロジェクト）の現在のステータス</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">エントリ日</td> 
-      <td>リクエストが送信された日付、または変換時にリクエストが削除された場合に解決オブジェクトが作成された日付。 </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">最終更新日</td> 
-      <td> <p>リクエストが最後に更新された日付。</p> <p>「送信済みのリクエスト」リストは、デフォルトで、このフィールドで並べ替えられます。 </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">変換先</td> 
+         <td> <p>リクエストの変換先のタスクまたはプロジェクトである解決オブジェクトの名前です。 </p> <p>タスクまたはプロジェクトの名前をクリックして開きます。 </p> <p>リクエストが変換されなかった場合、このフィールドは空です。 </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">パス</td> 
+         <td>リクエストが最初に送信されたリクエストキュー、トピックグループ、およびキュートピックの名前。 </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">ステータス</td> 
+         <td>リクエストの現在のステータス、または解決オブジェクト（タスクまたはプロジェクト）の現在のステータス</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">エントリ日</td> 
+         <td>リクエストが送信された日付、または変換時にリクエストが削除された場合に解決オブジェクトが作成された日付。 </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">最終更新日</td> 
+         <td> <p>リクエストが最後に更新された日付。</p> <p>「送信済みのリクエスト」リストは、デフォルトで、このフィールドで並べ替えられます。 </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. （オプション）並べ替える列のヘッダーをクリックします。
 
