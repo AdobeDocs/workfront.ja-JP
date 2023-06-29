@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
 
 # 財務データへのアクセス権の付与
+
+{{highlighted-preview}}
 
 Adobe Workfront管理者は、ユーザーのアクセスレベルを使用して、次に対するユーザーのアクセスを定義できます。詳しくは、 [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
@@ -117,13 +119,14 @@ If you make changes here, make them also in the "Grant access to" articles where
 * Project および Task オブジェクトの下の Finance セクション
 * ビジネス事例
 * 請求率および請求レコード
+* <span class="preview">レートカード</span>
 * ユーザーの環境設定での 1 時間あたりのコストと 1 時間あたりの請求
 
-   歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「表示」ボタンをクリックします。
+  歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「表示」ボタンをクリックします。
 
 * ジョブロールに関する 1 時間あたりのコストと 1 時間あたりの請求
 
-   歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「表示」ボタンをクリックします。
+  歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「表示」ボタンをクリックします。
 
 ### アクセスを表示
 
@@ -134,11 +137,11 @@ If you make changes here, make them also in the "Grant access to" articles where
 * 請求率および請求レコード
 * ユーザーの環境設定での 1 時間あたりのコストと 1 時間あたりの請求
 
-   歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「表示」ボタンをクリックします。
+  歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「表示」ボタンをクリックします。
 
 * ジョブロールに関する 1 時間あたりのコストと 1 時間あたりの請求
 
-   歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「表示」ボタンをクリックします。
+  歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「表示」ボタンをクリックします。
 
 ### アクセスを編集
 
@@ -147,10 +150,11 @@ If you make changes here, make them also in the "Grant access to" articles where
 * Project および Task オブジェクトの下の Finance セクション
 * ビジネス事例
 * 請求率および請求レコード
+* <span class="preview">レートカード</span>
 * ユーザーの環境設定での 1 時間あたりのコストと 1 時間あたりの請求
 
-   歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「編集」ボタンをクリックします。
+  歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「編集」ボタンをクリックします。
 
 * ジョブロールに関する 1 時間あたりのコストと 1 時間あたりの請求
 
-   歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「編集」ボタンをクリックします。
+  歯車アイコンを使用して設定できます ![](assets/gear-icon-settings.png) 上記の手順 4 の「編集」ボタンをクリックします。

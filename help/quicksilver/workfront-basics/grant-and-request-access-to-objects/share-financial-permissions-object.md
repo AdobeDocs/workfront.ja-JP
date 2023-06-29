@@ -6,14 +6,16 @@ description: Adobe Workfront管理者は、アクセスレベルを割り当て�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 3%
 
 ---
 
 # オブジェクトに対する財務権限の共有
+
+{{highlighted-preview}}
 
 Adobe Workfront管理者は、アクセスレベルを割り当てる際に、財務データの表示や編集のためのアクセス権を付与できます。 詳しくは、 [財務データへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -83,7 +85,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
 
 オブジェクトに財務権限を付与する場合は、次の点を考慮してください。
 
-* プロジェクト、タスクおよびタスクに対する財務権限を付与できます。
+* プロジェクト、タスク、タスク、問題に対する財務権限を付与できます。 <span class="preview">およびレートカード</span>.
 * 権限は継承されます。プロジェクトに対する「財務の表示」権限を持っている場合、プロジェクトのタスクおよび問題に対する「財務の表示」権限が自動的に継承されます。
 
 オブジェクトに財務権限を付与するには、次の手順に従います。
@@ -103,7 +105,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
    * **それに参加**
    * **それを管理**
 
-      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. 同じドロップダウンメニューで、 **詳細設定**&#x200B;次のいずれかの操作を行います。
 
@@ -154,6 +156,18 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
+  <tr> 
+   <td><span class="preview">レートカードの管理</span></td> 
+   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">料金カードを表示</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+  </tr>
   <tr> 
    <td>生産資源計画ツールで原価別に情報を表示します。</td> 
    <td>✓</td> 

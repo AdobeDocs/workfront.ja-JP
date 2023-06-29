@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1472'
 ht-degree: 0%
 
 ---
 
 # 会社の作成と編集
+
+{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -66,9 +68,9 @@ ht-degree: 0%
 
    * 同じ会社のユーザーは、他のユーザーのリクエストを確認できます。
 
-      詳しくは、 [!DNL Workfront] 管理者は、ユーザーの会社に基づくリクエストに対して同様のアクセス権を付与できます。詳しくは、 [の全員にタスクとタスクの環境設定を指定 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) 記事内 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     詳しくは、 [!DNL Workfront] 管理者は、ユーザーの会社に基づくリクエストに対して同様のアクセス権を付与できます。詳しくは、 [の全員にタスクとタスクの環境設定を指定 [!DNL Workfront]](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) 記事内 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-      グループ管理者がユーザーの会社に基づいてリクエストに類似したアクセス権を付与する方法について詳しくは、 [グループのタスクと問題の環境設定を設定する](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+     グループ管理者がユーザーの会社に基づいてリクエストに類似したアクセス権を付与する方法について詳しくは、 [グループのタスクと問題の環境設定を設定する](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
    * ユーザーは、会社に関連付けられたリクエストキューのみを表示できます。 リクエストキューの表示を制限する方法について詳しくは、 [リクエストキューへのアクセスを提供](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
    * ユーザーに対して、自分の会社または自分の会社と主な会社のユーザーのみを表示するように制限できます。 ユーザーのプライバシーに関する主な企業機能について詳しくは、 [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -110,7 +112,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 請求率 ] セクション</td> 
-      <td> <p>会社レベルで、ジョブロールに関連付けられた請求率を上書きできます。 ジョブの役割の作成と請求率との関連付けについて詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">ジョブの役割の作成と管理</a>.</p> <p>会社レベルでの請求率の上書きの詳細は、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">会社レベルでのジョブロール請求率の上書き</a>.</p> </td> 
+      <td> <p><span class="preview">この節は、プレビュー環境で削除されました。</span></p><p>会社レベルで、ジョブロールに関連付けられた請求率を上書きできます。 ジョブの役割の作成と請求率との関連付けについて詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">ジョブの役割の作成と管理</a>.</p> <p>会社レベルでの請求率の上書きの詳細は、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">会社レベルでのジョブロール請求率の上書き</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL カスタムForms] セクション</td> 
@@ -128,6 +130,10 @@ ht-degree: 0%
 ## 会社メンバーシップの管理
 
 既存の会社のメンバーシップの管理について詳しくは、 [会社メンバーシップの管理](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+
+## 請求率の管理
+
+会社レベルでの請求レートの上書きの詳細は、 [会社レベルでのジョブロール請求率の上書き](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 ## オブジェクトの会社との共有について
 

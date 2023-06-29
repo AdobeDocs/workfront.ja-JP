@@ -6,14 +6,16 @@ description: プロジェクト・レベルの請求率を会社レベルの請�
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 0%
+source-wordcount: '550'
+ht-degree: 1%
 
 ---
 
 # プロジェクト・レベルの請求率を会社レベルの請求率で上書き
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -64,7 +66,7 @@ ht-degree: 0%
    >
    >このオプションを有効にすると、請求済みとしてマークされていない限り、過去の売上高の計算が上書きされます。 請求レコードを作成することで、売上高の履歴計算を保持できます。 詳しくは、 [請求レコードの作成](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
 
 ## 会社レベルの請求率を更新し、プロジェクトに適用する
 
@@ -78,15 +80,28 @@ ht-degree: 0%
 1. クリック **会社**.
 1. 会社レベルの請求率の上書きを有効にしたプロジェクトに関連付けられている会社名をクリックします。
 1. クリック **請求率** をクリックします。
-1. 既存のジョブロールの新しい請求率を **会社の請求率** 「 」フィールドで、Enter キーを押します。
+1. 実稼動環境で、 **会社の請求率** 「 」フィールドで、Enter キーを押します。
+
+   または
+
+   <div class="preview">
+
+   プレビュー環境で、 **会社の請求率** 既存のジョブロールの開始日と終了日を入力し、Enter キーを押します。
+
+   新しい有効日の会社請求率を追加するには、ジョブロールの請求率を選択し、「編集」をクリックします。 有効な会社の請求率の日付について詳しくは、 [会社レベルでのジョブロール請求率の上書き](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+
+   </div>
+
 1. 1 つ以上のプロジェクトの会社レートを更新するには、次のいずれかを実行します。
 
    * 複数のプロジェクト：
+
    1. プロジェクトのリストに移動します。
    1. 更新するプロジェクトに合わせてチェックボックスを選択します。
    1. クリック **編集**.
    1. 「設定」セクションで、 **コストと売上高を再計算** オプション。
-   1. クリック **変更を保存**.
+   1. 「**変更を保存**」をクリックします。
+
    * 単一のプロジェクト：
 
       1. 会社レベルの請求率の上書きを有効にしたプロジェクトに移動します。

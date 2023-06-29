@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 37a5c0dbc862436e06afea6ca2f0e1994355cbe8
 workflow-type: tm+mt
-source-wordcount: '13094'
+source-wordcount: '13106'
 ht-degree: 2%
 
 ---
@@ -392,6 +392,8 @@ ht-degree: 2%
          * [スコアカードの作成](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [プロジェクトタイムラインの再計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [プロジェクトのカスタム四半期](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [場所の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+         * [レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * スケジュールとタイムシートの環境設定を構成する {#configure-timesheets-schedules}
          * [スケジュールとタイムシートの環境設定を構成する](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [スケジュールの概要](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -1199,6 +1201,7 @@ ht-degree: 2%
          * [プロジェクト・レベルの請求率を会社レベルの請求率で上書き](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
          * [ジョブ・ロール請求率の上書きとプロジェクトの収益の計算の概要](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [プロジェクト・レベルでの役割請求率の上書き](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [プロジェクトへの料金カードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
          * [プロジェクト計画福利厚生の概要](manage-work/projects/project-finances/project-planned-benefit.md)
          * [パフォーマンスインデックスメソッド (PIM) の設定](manage-work/projects/project-finances/set-pim.md)
          * [投資利益率 (ROI) の計算](manage-work/projects/project-finances/calculate-roi.md)

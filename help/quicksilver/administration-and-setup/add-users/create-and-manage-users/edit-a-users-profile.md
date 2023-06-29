@@ -8,14 +8,16 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fb934506205c586852497197115a7731083c0e54
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '2867'
+source-wordcount: '3139'
 ht-degree: 0%
 
 ---
 
 # ユーザーのプロファイルの編集
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -161,7 +163,7 @@ Adobe Workfront管理者は、新しいユーザーを作成し、既存のユ�
        <li> <p><b>プライマリの役割</b>:これは、Workfrontでユーザーが満たすことができる主な役割です。 ユーザーが割り当てられているタスクと問題も、このジョブの役割に割り当てられます。 リソース管理には、ジョブの役割が不可欠です。 このフィールドは、管理者ユーザーアクセス権を持つプランライセンスを持っている場合、またはWorkfront管理者である場合にのみ更新できます。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> <p>リストには、アクティブなジョブの役割のみが表示されます。 </p> </li> 
        <li>選択した <b>プライマリの役割</b>、 <b>FTE の可用性の割合</b> フィールドが表示されます。 このジョブの役割に割り当てるユーザーのスケジュールの時間の割合を指定します。 [プライマリロールの FTE 可用性の割合 ] のデフォルト値は 100%です。 </li> 
        <li> <p><b>その他の役割</b>:ユーザーは、Workfrontで複数のジョブの役割を持つことができます。 リソース管理には、ジョブの役割が不可欠です。 ユーザーが実行できるジョブの役割の数に制限はありません。 ただし、リソース管理が複雑すぎる場合があるので、1 人のユーザーを多数のジョブの役割に割り当てすぎないようにすることをお勧めします。<p>リストには、アクティブなジョブの役割のみが表示されます。 ジョブの役割について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">ジョブの役割の作成と管理</a>.</p> <p>このフィールドは、管理者ユーザーアクセス権を持つプランライセンスを持っている場合、またはWorkfront管理者である場合にのみ更新できます。 <br>管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> </li> 
-       <li> <p>（条件付き）1 つまたは複数の <b>その他の役割</b>、 <b>FTE の可用性の割合</b> 各役割に対して表示されるフィールド 各ジョブの役割に割り当てるユーザーのスケジュールの時間の割合を指定します。 その他のロールの FTE 可用性の割合のデフォルト値は 0%です。</p> <p><b>注意</b>:「その他のロール」に 0%の FTE 可用性がある場合は、ユーザーがこれらのロールのタスクに割り当てられていない限り、リソース・プランナには表示されません。</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>メモ</b>: <p>すべての <b>FTE の可用性の割合</b> は、すべてのロールが 100%に等しい必要があります。 FTE 可用性の各割合は、リソース・プランナの各ユーザーのロールの使用可能時間を計算します。 各役割の使用可能時間は、ユーザーの使用可能時間によって異なります。</p> <p>ユーザーの使用可能な時間は、Workfront管理者がリソース管理環境設定で FTE を計算する際に選択した方法に応じて、Workfrontが計算します。</p> <p>ユーザーの可用性の計算について詳しくは、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.</p> <p>リソース管理環境設定の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>.</p> </p> </li> 
+       <li> <p>（条件付き）1 つまたは複数の <b>その他の役割</b>、 <b>FTE の可用性の割合</b> 各役割に対して表示されるフィールド 各ジョブの役割に割り当てるユーザーのスケジュールの時間の割合を指定します。 その他のロールの FTE 可用性の割合のデフォルト値は 0%です。</p> <p><b>注意</b>:「その他のロール」に 0%の FTE 可用性がある場合は、ユーザーがこれらのロールのタスクに割り当てられていない限り、リソース・プランナには表示されません。</p> <p> <img alt="user_settings_roles_and_dte_boxes_rp_story.png" src="assets/user-settings-roles-and-dte-boxes-rp-story.png"> </p> <p><b>メモ</b>: <p>すべての <b>FTE の可用性の割合</b> は、すべてのロールが 100%に等しい必要があります。 FTE 可用性の各割合は、リソース・プランナの各ユーザーのロールの使用可能時間を計算します。 各役割の使用可能時間は、ユーザーの使用可能時間によって異なります。</p> <p>ユーザーの使用可能な時間は、Workfront管理者がリソース管理環境設定で FTE を計算する際に選択した方法に応じて、Workfrontが計算します。</p> <p>ユーザーの可用性の計算について詳しくは、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.</p> <p>リソース管理環境設定の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>.</p> </p> <p><span class="preview">（オプション）プロジェクト中にユーザーのジョブの役割が変更された場合、財務計算で有効なジョブの役割の割り当てが使用されます。</span></p><p><span class="preview">クリック <b>日付別の役割の定義</b>を選択し、 <b>プライマリの役割</b> および <b>その他の役割</b>をクリックし、各ロールの配分率を入力します。 役割は、既存の役割（割合を変える）と同じか、新しい役割です。 を選択します。 <b>開始日</b> これらの役割がアクティブになったとき。 将来の日付にすることができます。 最新のロールがアクティブになったら、 <b>以前のロールを表示</b> 以前の非アクティブなロールを表示するには、次の手順に従います。</span></p> </li> 
        <li> <p><b>スケジュール</b>:スケジュールをユーザーに関連付けます。 ユーザーのスケジュールは、ユーザーが割り当てられているタスクのタイムラインを計算します。</p> <p>スケジュールをユーザーに関連付ける前に、スケジュールを作成する必要があります。 スケジュールの作成について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>.</p> <p><b>注意</b>:ユーザーに関連付けるスケジュールは、そのユーザーのタイムゾーンと一致することをお勧めします。</p> </li> 
        <li> <p><b>タイムシートプロファイル</b>:タイムシートプロファイルをユーザーに関連付けて、ユーザーに対してタイムシートが自動的に生成されるようにします。</p> <p><b>注意</b>:このフィールドで使用可能なプロファイルのリストは、アクセス権によって異なります。
        <ul>
@@ -192,10 +194,15 @@ Adobe Workfront管理者は、新しいユーザーを作成し、既存のユ�
    Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>.
    </li>
 
-   <li><b>リソースプール</b>:ユーザーをリソースプールに関連付けます。 詳しくは、 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">リソースプールとユーザーの関連付け </a>.</li> 
-        <li><b>時間あたりのコスト</b>:ユーザーの 1 時間あたりのコストの量。 </li> 
-        <li><b>1 時間あたりの請求</b>:ユーザーの 1 時間あたりの請求額。</li> 
-       </ul> </td> 
+   <li><b>リソースプール</b>:ユーザーをリソースプールに関連付けます。 詳しくは、 <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">リソースプールとユーザーの関連付け </a>.</li>
+
+   <li><b>コスト率</b>:ユーザーの 1 時間あたりのコストの量。
+      <p><span class="preview">有効な日付の原価率の場合は、 <strong>追加率</strong>. 期間の原価率の値を入力し、必要に応じて開始日と終了日を割り当てます。 原価レート 1 には開始日が設定されず、最後の原価レートには終了日が設定されません。</span></p><p><span class="preview">一部の日付は自動的に追加されます。 たとえば、原価レート 1 に終了日がなく、開始日が 2023 年 5 月 1 日の原価レート 2 を追加した場合、ギャップが生じないように、2023 年 4 月 30 日の終了日が原価レート 1 に追加されます。</span></p></li>
+
+   <li><b>請求率</b>:ユーザーの 1 時間あたりの請求額。
+      <p><span class="preview">有効な請求率の日付を表示するには、 <strong>追加率</strong>. 期間の請求率の値を入力し、必要に応じて開始日と終了日を割り当てます。 請求レート 1 には開始日が設定されず、最後の請求レートには終了日が設定されません。</span></p> <p><span class="preview">一部の日付は自動的に追加されます。 たとえば、請求レート 1 に終了日がなく、開始日が 2023 年 5 月 1 日の 2 番目の日を追加した場合、ギャップが生じないように、2023 年 4 月 30 日の終了日が請求レート 1 に追加されます。</span></p><p> <img alt="ユーザーコストと請求率" src="assets/edit-user-cost-billing-rate-2.png"> </p></li>
+
+   </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">カスタムフォーム</td> 

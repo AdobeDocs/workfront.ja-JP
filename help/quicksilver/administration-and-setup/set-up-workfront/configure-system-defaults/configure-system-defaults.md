@@ -3,20 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
-title: システムのデフォルトを設定
+title: システムのデフォルトの設定
 description: As a [!DNL Adobe Workfront] 管理者は、ユーザーが作成するすべてのプロジェクトの環境設定など、システムのデフォルトを設定できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 6%
 
 ---
 
-# システムのデフォルトを設定
+# システムのデフォルトの設定
 
 この節では、次の記事を扱います。
 
@@ -32,3 +32,5 @@ ht-degree: 0%
 * [スコアカードの作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
 * [プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
 * [プロジェクトのカスタム四半期を有効にする](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+* [場所の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+* [レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)

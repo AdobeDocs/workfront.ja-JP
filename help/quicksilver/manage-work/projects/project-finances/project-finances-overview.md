@@ -2,19 +2,19 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: プロジェクトの財政
+title: プロジェクトの財務
 description: 次の記事には、プロジェクトの財務情報を検索できる領域と、プロジェクトの財務管理方法に関する情報が含まれています。
 author: Alina
 feature: Work Management
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 0%
+source-wordcount: '207'
+ht-degree: 1%
 
 ---
 
-# プロジェクトの財政
+# プロジェクトの財務
 
 プロジェクトの財務情報を検索できる領域およびプロジェクトの財務管理方法の詳細は、次の記事を参照してください。
 
@@ -85,3 +85,5 @@ ht-degree: 0%
 [ジョブ・ロール請求率の上書きとプロジェクトの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 [プロジェクト・レベルでの役割請求率の上書き](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+
+[プロジェクトへの料金カードの添付](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
