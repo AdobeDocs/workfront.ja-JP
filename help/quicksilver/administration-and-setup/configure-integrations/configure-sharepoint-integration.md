@@ -8,7 +8,7 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 8799c4e3a1e14c286b0a19e80e483370aea64bb8
+source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 0%
@@ -26,13 +26,12 @@ ht-degree: 0%
 >新しい [!DNL SharePoint] 統合は、22.3 リリース（2022 年 7 月）で実稼動環境にリリースされました。 ユーザーは、従来の [!DNL SharePoint] 統合の場合、新しい [!DNL SharePoint] SharePointからドキュメントをリンクするための統合
 >
 >* 新しいSharePoint統合は、管理者が設定する必要はなく、個々のユーザーが設定できます。 ただし、新しいSharePoint統合にスムーズに移行できるように、Workfront管理者は、Workfrontのセットアップ領域で小さな設定を変更する必要があります。
-   >
-   >    詳細および手順については、 [ドキュメントに引き続きアクセスするための従来のSharePoint統合の設定](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 」を参照してください。
+>
+>    詳細および手順については、 [ドキュメントに引き続きアクセスするための従来のSharePoint統合の設定](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 」を参照してください。
 >    
 >* 現在レガシーの [!DNL SharePoint] 新しい統合による統合。
-   >    
-   >    ドキュメントをリンクする手順については、 [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
-
+>    
+>    ドキュメントをリンクする手順については、 [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 統合可能な [!DNL Workfront] と [!DNL SharePoint Online]を使用して、ユーザーが移動、リンク、および追加できるようにする [!DNL SharePoint] Workfront内のドキュメント。 提供される機能は他の機能と似ています [!DNL Workfront] 統合（例： ） [!DNL Google Drive], [!DNL Box]、および [!DNL Dropbox].
 
@@ -82,7 +81,6 @@ ht-degree: 0%
 >* A [!DNL SharePoint] 統合は、 [!DNL SharePoint] インスタンス。 したがって、ユーザーは、 [!DNL SharePoint]を設定する必要がありますが、1 秒に対する統合を設定することはできません [!DNL SharePoint](2 番目の [!DNL SharePoint].
 >
 >* ユーザーは、 [!DNL Workfront] [!DNL SharePoint] の統合と同様に、 [!DNL SharePoint] アカウント
-
 
 ## のセキュリティ、アクセス、および認証情報 [!DNL SharePoint] 統合
 
@@ -135,7 +133,6 @@ ht-degree: 0%
 >
 > * レガシー [!DNL SharePoint] 統合に「[!DNL SharePoint].&quot;
 > * 新しい [!DNL SharePoint] 統合に「[!UICONTROL [!DNL SharePoint] （グラフ API）].&quot;
-
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **[!UICONTROL 設定]** ![設定](../get-started-wf-administration/assets/gear-icon-settings.png).
 1. 選択 **[!UICONTROL ドキュメント]** 左側のナビゲーションで、「 **[!UICONTROL クラウドプロバイダー]**.
@@ -449,7 +446,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 * ユーザーは、のサイトコレクションに対するビューアクセス権を持っている必要があります。 [!DNL SharePoint].
 
-   次の手順でこれを検証します。 [!DNL SharePoint]に移動します。 [!DNL SharePoint]を開き、サイトコレクションを開きます。 [!UICONTROL 設定] > [!UICONTROL サイトの権限].
+  次の手順でこれを検証します。 [!DNL SharePoint]に移動します。 [!DNL SharePoint]を開き、サイトコレクションを開きます。 [!UICONTROL 設定] > [!UICONTROL サイトの権限].
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:

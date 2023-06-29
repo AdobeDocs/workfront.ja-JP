@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -34,7 +34,7 @@ Workfront管理者は、ライセンスをユーザーに割り当てる代わ�
 | 計画 | システム管理者、プランナ |
 | 作業 | 作業者 |
 | 確認 | レビュアー |
-| 外部* | 外部ユーザー |
+| 外部 | 外部ユーザー |
 
 >[!NOTE]
 >
