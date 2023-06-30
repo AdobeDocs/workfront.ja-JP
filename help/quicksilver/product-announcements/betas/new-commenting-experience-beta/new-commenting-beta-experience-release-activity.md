@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,11 @@ ht-degree: 3%
 
 詳しくは、 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md). ドキュメントはリリース時に更新されます。
 
-プレビューリリースの予定：2023 年 6 月 30 日
+プロジェクト、タスクおよび問題のプレビューリリース予定：2023 年 7 月 6 日
 
-実稼動予定リリース：23.3 リリースの場合
+問題に関する実稼動版リリース予定：2023 年 7 月 7 日
+
+プロジェクトおよびタスクの計画的な実稼動リリース：23.3 リリースの場合
 
 #### 更新への絵文字の追加
 
@@ -188,7 +190,7 @@ ht-degree: 3%
 
 プレビュー：2023 年 6 月 2 日
 
-本番：発表の予定
+本番：23.3 リリースの場合
 
 ### 2023 年 5 月 15 日の週
 

@@ -6,10 +6,10 @@ description: 「完了」ボタンを使用して、タスクまたはイシュ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 1%
+source-wordcount: '753'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 1%
 特定の権限を持つユーザーは、 [!UICONTROL 完了] ボタンを使用して、特定のステータスをシステムに反映させることができます。 次の 2 つの方法があります。 [!UICONTROL 完了] ボタンが [!UICONTROL Workfront]:
 
 * ユーザーがホームチームを割り当てている場合、 [!DNL Workfront] 管理者または [!UICONTROL プラン] ライセンスは、 [!UICONTROL 完了] ボタンを使用して、チームメンバーに特定のステータスを反映させます。 詳しくは、 [の設定 [!UICONTROL 完了] チームのボタン](#configure-the-uicontrol-done-button-for-a-team) 」を参照してください。
+* ユーザーが [!UICONTROL ホームチーム]が、 [!UICONTROL その他のチーム] Workfrontは自分のプロファイルで、 [!UICONTROL 完了] 」ボタンをクリックします。 選択はランダムで、任意のチームに関連付けられたステータスがタスクに使用されます。
 * ユーザーがホームチームを割り当てていない場合、 [!UICONTROL 完了] タスクのボタンは、完了ステータスに結び付けられます。 このシナリオで使用できる設定オプションはありません。 この [!UICONTROL 完了] ボタンは、自動的にこのステータスに設定されます。
 
 ## アクセス要件
@@ -35,11 +36,11 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] 計画*</strong></p></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] ライセンス*</strong></p></td> 
    <td> <p>[!UICONTROL プラン ] </p> </td> 
   </tr> 
  </tbody> 
@@ -66,24 +67,22 @@ ht-degree: 1%
    >* 作業項目の種類ごとに 1 つのステータスを選択すると、ユーザーがクリックすると、タスクまたは問題のステータスがそのステータスに設定されます [!UICONTROL 完了] を選択します。 作業項目のタイプごとに複数のステータスを設定した場合、 [!UICONTROL 完了] 」ボタンをクリックし、作業項目のステータスを変更するには、ステータスを選択する必要があります。
    >* システムレベルのステータスのみを [!UICONTROL 完了] 」ボタンをクリックします。 グループ固有のステータスを作業項目のステータスに関連付けることはできません。
    >* アイテムに割り当てられたユーザーが、アイテムを [!UICONTROL 完了] ボタンをクリックすると、項目は [!UICONTROL 完了] 選択したステータスが [!UICONTROL 完了] または [!UICONTROL クローズ] ステータスまたは作業ステータス。
-
    >   
    >   
    >  例えば、 [!UICONTROL 完了] ボタン [!UICONTROL 処理中] を指定すると、作業項目は [!UICONTROL 完了] ステータスを次から変更するユーザー： [!UICONTROL 新規] から [!UICONTROL 処理中].
    >   
    >* 問題のタイプはカスタマイズ可能で、環境によっては、以下に示すように異なる名前が付けられる場合があります。\
-      >  デフォルトのタスクと問題のタイプは次のとおりです。
-      >     
-      >   * [!UICONTROL タスク]
-      >   * [!UICONTROL 問題]
-      >   * [!UICONTROL リクエスト]
-      >   * [!UICONTROL 変更依頼]
-      >   * [!UICONTROL バグ報告書]
-
+   >  デフォルトのタスクと問題のタイプは次のとおりです。
+   >     
+   >   * [!UICONTROL タスク]
+   >   * [!UICONTROL イシュー]
+   >   * [!UICONTROL リクエスト]
+   >   * [!UICONTROL 変更依頼]
+   >   * [!UICONTROL バグレポート]
 
    タスクまたはイシューが複数のユーザーに割り当てられている場合は、「[!UICONTROL 私の部分で完了]」オプションが表示されます。
 
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
 ## ユーザをホームチームに関連付ける
 
@@ -99,6 +98,6 @@ ht-degree: 1%
 
 1. 内 **[!UICONTROL 組織]** セクションで、 **[!UICONTROL ホームチーム]** フィールドに入力します。 設定をユーザーに関連付けるチームの名前を入力します。 リストにチームの名前が表示されたら、そのチームの名前をクリックします。
 
-1. クリック **[!UICONTROL 変更を保存]**.\
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。\
    選択したユーザがホームチームに関連付けられます。
 チーム設定 ( [!UICONTROL 完了] ボタンが表示されるようになりました。
