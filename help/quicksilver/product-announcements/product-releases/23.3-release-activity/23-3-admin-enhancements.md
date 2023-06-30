@@ -3,9 +3,9 @@ title: 23.3 管理者の機能強化
 description: 23.3 管理者の機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 以前は、すべてのお客様に対して、機能が四半期ごとにリリースされていました。
 
-詳細を含むドキュメントは、23.3 リリースで利用できます。
+詳しくは、 [高速リリースプロセスを有効または無効にします](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## [ ユーザーが時刻を記録できる場所 ] のタイムシートと時間の優先設定で使用できるグループレベルのコントロール
 
