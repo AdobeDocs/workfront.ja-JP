@@ -6,7 +6,7 @@ description: OAuth 2 アプリケーションでの PKCE フローの使用
 author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -46,7 +46,7 @@ PKCE フローには、次の手順が含まれます。 この節の手順は�
 
 認証を実装する前に、Workfrontからアプリの統合を作成して、アプリを OAuth2 に登録する必要があります。
 
-OAuth2 アプリケーションの作成手順については、 [PKCE を使用した OAuth2 シングルページ Web アプリケーションの作成 ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Workfront統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+OAuth2 アプリケーションの作成手順については、 [PKCE を使用した OAuth2 シングルページ Web アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Workfront統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 
 ## コード交換用の配達確認キーの作成
@@ -85,11 +85,8 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >```
 >{
->
 >  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
->
 >  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
 >}
 >```
 
@@ -106,7 +103,6 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
->
 >&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
@@ -114,7 +110,7 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 
 * `client_id` は、アプリケーションの設定時にで作成した OAuth2 アプリケーションのクライアント ID を照合します。
 
-   手順については、「 Workfront統合用の OAuth2 アプリケーションの作成」の「 PKCE を使用した OAuth2 シングルページ Web アプリケーションの作成」を参照してください。
+  手順については、「 Workfront統合用の OAuth2 アプリケーションの作成」の「 PKCE を使用した OAuth2 シングルページ Web アプリケーションの作成」を参照してください。
 
 * `response_type` が `code`の場合は、アプリケーションが承認コード付与タイプを使用するので、
 
@@ -135,13 +131,9 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
@@ -170,13 +162,9 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >```
 >{
->
 >    "access\_token": "eyJhd\[...\]Yozv",
->
 >    "expires\_in": 3600,
->
 >    "token\_type": "Bearer"
->
 >}
 >```
 
@@ -192,7 +180,6 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >```
 >/attask/api/<api version>/proj/search \\
->
 >  --header 'sessionID: <access\_token>' \\
 >```
 
@@ -206,12 +193,8 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

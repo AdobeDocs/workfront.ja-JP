@@ -9,9 +9,9 @@ description: を使用するには [!DNL Google Sheets] と [!DNL Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3941'
 ht-degree: 0%
 
 ---
@@ -698,7 +698,7 @@ ht-degree: 0%
 ### から空のセルを取得する方法 [!DNL Google Sheet]
 
 以下を使用： [!UICONTROL 検索行（詳細）] この式を使用して、空の列を取得します。
-<pre>「* [!UICONTROL E が null の場合は​]」を選択します。</pre>ここでは、「E」が列で、「is null」が条件です。 [Google Query Lang] を使用して、より高度なクエリを作成できます。](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>E が null の場合は、「*」を選択します。</pre>ここでは、「E」が列で、「is null」が条件です。 [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage) を使用して、より高度なクエリを作成できます。
 
 ### シナリオを実行するためのボタンをシートに追加する
 

@@ -7,7 +7,7 @@ description: 一部のサービスでは、次のような統合ソリューシ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 0%
@@ -143,14 +143,8 @@ Web サービスを [!DNL Workfront Fusion] シナリオの場合、 [!UICONTROL
 >
 >```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
->
->
 >"token":"123459evz8aepwtxydndydgyumbfx",
->
->
 >"message":"Hello World!",
->
->
 >"title":"The Push Notification"}
 >```
 

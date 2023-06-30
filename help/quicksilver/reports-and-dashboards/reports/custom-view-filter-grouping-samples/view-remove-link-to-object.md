@@ -7,9 +7,9 @@ description: ビューに表示する一部のオブジェクトは、デフォ�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -72,33 +72,22 @@ ht-degree: 0%
 1. クリック **テキストモードに切り替え**.
 1. テキストモード領域の上にマウスポインターを置いて、 **クリックしてテキストを編集**.
 1. 検索したテキストを **テキストモード** 」ボックスに置き換えて、次のコードに置き換えます。
-
    <pre>displayname=タスク名<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
 
    >[!TIP]
    >
    >次のように調整して、他のオブジェクトにも同様のコードを使用できます。
    >
-   >   
-   >   
-   >   * を **valuefield** コードの行 **valueexpression** です。等号の後の中括弧内に同じ名前を付けます。
-   >   
-   >   
+   >* を **valuefield** コードの行 **valueexpression** です。等号の後の中括弧内に同じ名前を付けます。
+   >* 次で始まるすべての行を削除 `link.` を列の元のテキストから削除します。 例えば、次の行をすべて削除します。
    >
-   >   
-   >   
-   >   * > で始まるすべての行を削除します。
-   >   
-   >     ```>   
-   >     link.
-   >     ```   >   
-   >   
-   >    from the original text of the column. For example, eliminate all the following lines:
-   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >   
-   >   
+   >  ```
+   >  link.linkproperty.0.name=ID
+   >  link.linkproperty.0.valuefield=ID
+   >  link.linkproperty.0.valueformat=string
+   >  link.lookup=link.view
+   >  link.value=val(objCode)
+   >  ```
    >
-
-
 
 1. クリック **保存**&#x200B;を、 **ビューを保存**.
