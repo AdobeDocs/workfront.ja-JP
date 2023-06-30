@@ -3,9 +3,9 @@ title: 23.3 金融管理の強化
 description: 23.3 金融管理の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,14 @@ ht-degree: 0%
 
 ## 有効なコストと請求率の日付
 
+>[!IMPORTANT]
+>
+>2023 年 6 月 30 日のプレビューで、割り当て率の上書き機能が一時的に無効になりました。
+
 日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。
 
 また、ユーザープロファイルで有効な日付の役割セットを使用できるようになりました。 これらの日付有効なロール関連付けは、プロジェクト中にユーザーのジョブロールが変更された場合に財務計算で考慮されます。
 
 新機能のレートカードを使用すると、場所に基づいて、ジョブロールごとに複数の請求レートを定義できます。 ジョブの役割と場所に対する請求率には、有効日も含めることができます。 レートカードをプロジェクトに添付して、特定のジョブの役割と場所に対してすべてのレート情報を一度に適用できます。 場所に基づくロールをタスクに割り当てることもできますが、割り当てレベルでのレートを上書きできます。
 
-これらの機能はすべて、2023 年 7 月 29 日に Preview 向けにリリースされ、更新されたユーザードキュメントは、その時点で利用可能になります。
+詳しくは、 [ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [ジョブの役割の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)、および [請求と売上高の概要](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).

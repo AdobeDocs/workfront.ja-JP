@@ -6,9 +6,9 @@ description: タスクをユーザー、役割またはチームに割り当て�
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # タスクを割り当て
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>2023 年 6 月 30 日のプレビューで、割り当て率の上書き機能が一時的に無効になりました。
 
 ユーザー、ジョブの役割またはチームにタスクを割り当てて、タスクの完了担当者を指定できます。 一度に複数のリソースにタスクを割り当てることができます。
 

@@ -6,9 +6,9 @@ description: タスクまたは課題の割り当ては、[ 詳細な割り当�
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 2b48377653a77d3d71c90fac9c64cb48fc7877a3
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # 高度な割り当てを作成
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>2023 年 6 月 30 日のプレビューで、割り当て率の上書き機能が一時的に無効になりました。
 
 タスクまたは課題の割り当ては、[ 詳細な割り当て ] を使用して管理できます。
 

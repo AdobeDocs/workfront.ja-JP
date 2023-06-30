@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの「アジャイル・ビュー」には、かんばんボードが表示されます</a><span style="color: #ff0000;"> 近日開始！</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの「アジャイル・ビュー」には、かんばんボードが表示されます</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
                         <p>プロジェクトの「アジャイルビュー」には、かんばんボード内の作業をフィルタリング、グループ化、並べ替える機能が追加されました。 新しい柔軟なビューデザインには、堅牢な検索機能と、ボードから直接プロジェクトに新しいタスクを追加する機能が含まれています。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -332,7 +332,7 @@ ht-degree: 0%
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">有効なコストと請求率の日付</a><span style="color: #ff0000;"> 近日開始！</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">有効なコストと請求率の日付</a><span style="color: #ff0000;"> プレビューの新機能</span> </p>
                         <p>日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -342,7 +342,8 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>高速リリース版のお客様向けの実稼動リリース：発表は、23.3 実稼動版リリース以降</p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.4 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動版リリース：23.4 リリースの場合<br>
+                                <span style="color: #ff0000;"> 2023 年 6 月 30 日のプレビューで、割り当て率の上書き機能が一時的に無効になりました。</span></p>
                             </li>
                         </ul>
                     </td>

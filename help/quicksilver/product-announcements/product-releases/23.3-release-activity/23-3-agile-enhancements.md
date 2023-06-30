@@ -3,9 +3,9 @@ title: 23.3 アジャイルの強化
 description: 23.3 アジャイルの強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 ボードにいる間、レガシー Agile View に切り替えることができます。
 
 詳しくは、 [アジャイルビューでのプロジェクト管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## ボード列で並べ替え
 
