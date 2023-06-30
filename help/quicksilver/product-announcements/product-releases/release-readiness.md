@@ -1,26 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: の準備 [!DNL Adobe Workfront] 四半期別リリース
+title: の準備 [!DNL Adobe Workfront] リリース
 description: 新しいWorkfrontリリースのたびに組織をスムーズに更新するには、次のヒントに従ってください。
 author: Becky
 feature: Product Announcements
-source-git-commit: 6fa34c77cd23a2abd781365d986d52c9b63a517f
+exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
 
-# の準備 [!DNL Adobe Workfront] 四半期別リリース
+# の準備 [!DNL Adobe Workfront] 予定リリース
 
-[!DNL Adobe Workfront] は、実稼動環境の四半期ごとの主なアップデートをリリースしています。 As a [!DNL Workfront] 管理者に問い合わせて、組織が新しいバージョンの [!DNL Workfront] 製品。
+[!DNL Adobe Workfront] は、実稼動環境の大規模なアップデートを定期的にリリースしています。 As a [!DNL Workfront] 管理者に問い合わせて、組織が新しいバージョンの [!DNL Workfront] 製品。
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-以下のビデオで、 [!DNL Adobe Workfront] 四半期リリースです。
+以下のビデオで、 [!DNL Adobe Workfront] リリース。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
@@ -28,11 +29,11 @@ ht-degree: 0%
 
 詳しくは、 [!DNL Workfront] リリースプロセス： [[!DNL Adobe Workfront] リリースのスケジュールとプロセス](workfront-release-schedule.md).
 
-## の準備 [!DNL Workfront] 四半期別リリース
+## の準備 [!DNL Workfront] リリース
 
 >[!TIP]
 >
->プロジェクトテンプレートを作成して、 [!DNL Workfront] 四半期リリースです。
+>プロジェクトテンプレートを作成して、スケジュールに関連する作業を追跡できます [!DNL Workfront] リリース。
 >
 >詳しくは、 [の使用 [!DNL Workfront] リリース作業を追跡するプロジェクト](#use-a-workfront-project-to-track-release-work) 」を参照してください。
 
@@ -49,11 +50,11 @@ ht-degree: 0%
 
 特定の機能のリリースノートは、その機能が [!UICONTROL サンドボックスをプレビュー] 環境。 これにより、実稼動環境に含まれる前に、この機能について把握し、参照することができます。
 
-各四半期リリースには、各機能の簡単な説明と、追加情報およびデモビデオを含む詳細なメモへのリンクが含まれる、四半期ごとのリリースの概要ページがあります。 これらの詳細なメモは、プレビューするリリースが発生するたびに週別に整理され、実際の実稼動リリース日に近い場所によって再編成されます。
+各リリースには、各機能の簡単な説明と、追加情報およびデモビデオを含む詳細なメモへのリンクが記載された、リリースの概要ページがあります。 これらの詳細なメモは、プレビューするリリースが発生するたびに週別に整理され、実際の実稼動リリース日に近い場所によって再編成されます。
 
 リリースノートにあるデモビデオをご覧いただくことを強くお勧めします。 これらは、特に、動作中の機能を確認する場合や、時間が短い場合に機能のコンテキストをすばやく確認する場合に役立ちます。
 
-四半期別リリースの概要へのリンクについては、 [製品リリース](product-releases.md).
+リリースの概要へのリンクについては、 [製品リリース](product-releases.md).
 
 ### 次を監視： [!DNL Workfront] アナウンスセンター
 
@@ -64,8 +65,8 @@ ht-degree: 0%
 As a [!DNL Workfront] 管理者には、Announcement Center に関するメッセージが [!DNL Workfront] リリースの様々な側面について。 次のいずれかが発生すると、Announcement Center のメッセージが表示されます。
 
 * 実稼動環境で新しい機能を使用できます。
-* プレビュー用にリリースされた機能は、四半期リリースの前に実稼動環境にリリースされます。
-* 四半期リリースが予定される前は、すべての新機能がプレビュー環境で使用できます。
+* プレビュー用にリリースされた機能は、予定されているリリースの前に実稼動環境にリリースされます。
+* 予定されているリリースの前に、すべての新機能がプレビュー環境で使用できます。
 * リリースのウェビナーが開いていて、登録できます。
 
 >[!TIP]
@@ -89,11 +90,11 @@ As a [!DNL Workfront] 管理者には、Announcement Center に関するメッ�
 
 ### リリースウェビナーに参加する
 
-[!DNL Workfront] は、各四半期リリースの直前にリリースウェビナーを開催します。 ここで、 [!DNL Workfront] 製品チームは、新機能を説明し、示し、出席者からの質問に答えることができます。
+[!DNL Workfront] は、一部のリリースの直前にリリースウェビナーをホストしています。 ここで、 [!DNL Workfront] 製品チームは、新機能を説明し、示し、出席者からの質問に答えることができます。
 
 リリースウェビナーは、 [!DNL Workfront] お知らせセンター 登録リンクは、リリースの概要ページにあります。
 
-四半期別リリースの概要へのリンクについては、 [製品リリース](product-releases.md).
+リリースの概要へのリンクについては、 [製品リリース](product-releases.md).
 
 ### Workfrontにフィードバックを提供
 
