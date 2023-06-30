@@ -6,9 +6,9 @@ description: Adobe Workfront管理者は、アクセスレベルを割り当て�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
 >
 >Workfront管理者は、システム内のすべてのユーザーに対して、それらの項目の所有者にならずに、システム内の項目に対する権限を追加または削除できます。
 
-この記事では、共有が同一の次のオブジェクトを共有する方法について説明します。 
+この記事では、次のオブジェクトを共有する方法について説明します。 
 
 * プロジェクト、タスク、問題
 * Portfolio、プログラム
@@ -43,13 +43,13 @@ Workfrontで他のすべてのオブジェクトを共有する方法につい�
    * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [カレンダーレポートの共有](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-   また、 [レポート、ダッシュボード、カレンダーの共有](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) レポート、ダッシュボード、カレンダーの共有に関する一般情報を参照してください。 
+  また、 [レポート、ダッシュボード、カレンダーの共有](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) レポート、ダッシュボード、カレンダーの共有に関する一般情報を参照してください。 
 
 * フィルター、ビューおよびグループ化については、 [フィルター、表示またはグループ化の共有](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * ドキュメントフォルダについては、 [ドキュメントフォルダーの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * プランについては、 [シナリオプランナーでのプランの共有](../../scenario-planner/share-a-plan.md).
 
-   追加のライセンスが必要です。
+  追加のライセンスが必要です。
 
 * 目標については、 [Workfront目標での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md). 追加のライセンスが必要です。
 
@@ -120,7 +120,17 @@ Workfrontで他のすべてのオブジェクトを共有する方法につい�
 1. 共有するオブジェクトに移動します。
 
    共有可能なオブジェクトについては、 [オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. 次をクリック： **詳細** アイコン ![](assets/more-icon.png)オブジェクト名の横にあるをクリックし、 **共有** または&#x200B;**共有。**
+1. プロジェクト、タスクおよび問題に関する情報：
+
+   次をクリック： **共有** ボタンをクリックします。
+
+   ![](assets/new-share-button.png)
+
+   または
+
+   ドキュメント、ポートフォリオ、プログラムの場合：
+
+   次をクリック： **詳細** アイコン ![](assets/more-icon.png)オブジェクト名の横にあるをクリックし、 **共有** または **共有。**
 
    ![](assets/share-a-document-350x160.png)
 
@@ -140,6 +150,7 @@ Workfrontで他のすべてのオブジェクトを共有する方法につい�
    >
    >
    >![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)   >
+   >
 
 1. （オプション）オブジェクトへのアクセスを許可するユーザー、チーム、ロールまたはグループごとに、手順 3 を繰り返します。
 
@@ -156,22 +167,27 @@ Workfrontで他のすべてのオブジェクトを共有する方法につい�
    * **表示：** ユーザーは項目を確認し、共有できます。 
    * **投稿****:**ユーザーは、更新、ログ情報の作成、マイナーな編集、共有のほか、すべての表示権限を実行できます。
 
-      >[!TIP]
-      >
-      >以下のオブジェクトに対してのみ、Contribute の権限を付与できます。 
-      * プロジェクト
-      * タスク
-      * 問題
-
+     >[!TIP]
+     >
+     >以下のオブジェクトに対してのみ、Contribute の権限を付与できます。 
+     >
+     >   
+     >   
+     * プロジェクト
+     * タスク
+     * 問題
+     >   
+     >
 
    * **管理：**ユーザーは、アクセスレベルで付与される管理権限を持たず、すべての表示および投稿権限を持たずに、オブジェクトに対するフルアクセス権を持ちます。
 
-      >[!NOTE]
-       Workfront管理者またはオブジェクト作成者は、これらのエンティティから権限を削除できます。
+     >[!NOTE]
+     >
+      Workfront管理者またはオブジェクト作成者は、これらのエンティティから権限を削除できます。
 
-       
+      
 
-      ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
 1. （オプション）「 **詳細オプション** ：オブジェクトに対する特定の権限を設定します。
 
@@ -188,20 +204,23 @@ Workfrontで他のすべてのオブジェクトを共有する方法につい�
    1 つのプロジェクトに対して権限を定義した後、次回プロジェクトをゼロから作成する際に、同じ権限が自動的に適用されます。
 
    >[!NOTE]
+   >
    プロジェクトアクセステンプレートは、アクセスレベルでWorkfront管理者が付与した共有のデフォルト設定よりも優先されます。\
    アクセスレベルでプロジェクトの共有の既定を指定する方法の詳細については、 [プロジェクトへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md) .>
+   >
    <!--   >
    ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >(NOTE: (this note also appears in Understanding Project Permissions.))   >
    ></MadCap:conditionalText>   >
    >-->   >
-
+   >
 
    テンプレートを共有する際に、テンプレートから作成されるプロジェクトに対する権限を指定できます。 詳しくは、 [プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 1. （オプション）オブジェクトを公開するには、 **これを外部ユーザーに公開する**.
 
    >[!TIP]
+   >
    このオプションは、すべてのオブジェクトに対して使用できるわけではありません。
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
@@ -210,6 +229,7 @@ Workfrontで他のすべてのオブジェクトを共有する方法につい�
    リンクを持つすべてのユーザーがオブジェクトを表示できます。
 
    >[!CAUTION]
+   >
    機密情報を含むオブジェクトを外部のユーザーと共有する場合は、慎重におこなうことをお勧めします。 これにより、Workfrontのユーザーや組織の一員でなくても、ユーザーは情報を表示できます。
 
 1. 「**保存**」をクリックします。
@@ -219,6 +239,7 @@ Workfrontで他のすべてのオブジェクトを共有する方法につい�
 オブジェクトのリストから、複数のオブジェクトを一度に他のユーザー、チーム、グループ、ジョブの役割、会社と共有できます。
 
 >[!IMPORTANT]
+>
 オブジェクトを一括で共有する場合、個々のオブジェクトに対する権限を持つエンティティの名前は表示されません。 オブジェクトを一括で共有する場合、共有リストに追加するエンティティは、選択したオブジェクトに追加されます。 個々のオブジェクトに関連付けられたエンティティは上書きされません。 
 
 オブジェクトを一括で共有するには：
@@ -229,6 +250,7 @@ Workfrontで他のすべてのオブジェクトを共有する方法につい�
    オブジェクトへのアクセス権を持つユーザーは、一括共有時に使用可能として表示されません。
 
    >[!NOTE]
+   >
    選択したオブジェクトを共有する権限がない場合は、 **共有** ボタンが表示されません。
 
 1. 内 **編集 `<Object Name>` ～を入手する** フィールドに、権限を付与するユーザー、チーム、グループ、ジョブの役割、または会社の名前を入力します。

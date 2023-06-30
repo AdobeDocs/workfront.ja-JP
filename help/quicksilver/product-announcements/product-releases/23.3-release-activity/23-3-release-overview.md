@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 186c102a0b1751ab0eba03bd86d2d9db6de9ec5b
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -530,6 +530,22 @@ ht-degree: 0%
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">「新規共有」ボタン</a> </p>
+                        <p>プロジェクト、タスクおよび問題をより直感的に共有できるように、「共有」オプションが「その他」メニューから取り出されました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 6 月 23 日<br /></p>
+                            </li>
+                            <li>
+                                <p>実稼動版リリース：23.3 リリースの場合</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>

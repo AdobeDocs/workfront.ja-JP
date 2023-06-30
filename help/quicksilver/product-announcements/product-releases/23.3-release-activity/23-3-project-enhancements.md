@@ -3,9 +3,9 @@ title: 23.3 プロジェクトの機能強化
 description: 23.3 プロジェクトの機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,10 @@ ht-degree: 0%
 * マイアップデートとホームから直接承認の決定を下す
 * 特定のドキュメントバージョンの承認を作成
 
-新しいドキュメント承認の使用について詳しくは、 [ドキュメントのレビューと承認](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.html?lang=en).
+新しいドキュメント承認の使用について詳しくは、 [新しいドキュメント承認の概要](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+
+## 「新規共有」ボタン
+
+プロジェクト、タスクおよび問題をより直感的に共有できるように、「共有」オプションが「その他」メニューから取り出されました。 新しい「共有」ボタンが、「その他」メニューの直前に、オブジェクト名の横に表示されるようになりました。 ドキュメント、ポートフォリオ、プログラムの共有は変更されません。
+
+オブジェクトの共有の詳細については、 [オブジェクトの共有](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
