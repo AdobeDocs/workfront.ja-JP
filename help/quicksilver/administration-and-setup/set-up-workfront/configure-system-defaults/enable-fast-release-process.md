@@ -7,7 +7,7 @@ description: 新しいWorkfront機能を月単位で受け取るか、四半期�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # 組織の高速リリースを有効または無効にします
+
+{{highlighted-preview-article-level}}
 
 Adobe Workfrontには、新機能と更新をリリースするための 2 つのモデルがあります。 新しい機能を四半期単位で受け取るか、より迅速なリリーススケジュールで受け取るかを選択できます。
 
