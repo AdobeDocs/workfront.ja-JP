@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2752'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ ht-degree: 0%
 >|----|----|
 >| <ul><li>23.8（2023 年 8 月）</li><li>23.9（2023 年 9 月）</li><li>23.10（2023 年 10 月）</li></ul> | <ul><li>23.10（2023 年 10 月）</li></ul> |
 >| <ul><li>23.11（2023 年 11 月）</li><li>23.12（2023 年 12 月）</li><li>24.1（2024 年 1 月）</li></ul> | <ul><li>24.1（2024 年 1 月）</li></ul> |
+>
+>毎月および四半期のリリースは、今月の最後の木曜日に提供される予定です。
 
 ## Adobe Workfrontの機能強化
 
@@ -69,7 +71,7 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：該当なし</p>
+                                <p>プレビューリリース：2023 年 6 月 23 日</p>
                             </li>
                             <li>
                                 <p>実稼動版リリース：23.3 リリースの場合</p>

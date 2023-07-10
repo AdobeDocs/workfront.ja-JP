@@ -7,9 +7,9 @@ description: プレビュー環境は週に 1 回更新され、新機能が追�
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 
 
 Adobe Workfrontには、新機能と更新をリリースするための 2 つのモデルがあります。 組織は、新しい機能を四半期単位で受け取るか、より迅速なリリーススケジュールで受け取るかを選択できます。
+
+毎月および四半期のリリースは、今月の最後の木曜日に提供される予定です。
 
 通常、プレビューの機能は、次回のリリースで実稼動環境で使用できるようになります。 ただし、予定されているリリース以外の場合に、機能が実稼動環境で使用できるようになることがあります。 これらの変更は、変更を十分に把握できるよう、少なくとも 2 週間プレビューに残ります。 これらの変更は、プレビューに追加された時点で、アナウンスセンターからも伝えられます。
 
