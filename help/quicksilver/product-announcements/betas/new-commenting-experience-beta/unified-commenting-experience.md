@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 * システム更新に対するコメント
 * コメント中にステータス、条件、コミット日を編集可能
 * カスタムフォームを編集
+* Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報。
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>リッチテキスト（絵文字）
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>リッチテキスト（ブロック引用符）
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
   </tr>
   <tr>
-   <td>スレッドから担当者を削除 
+   <td>すべてのねじ参加者に自動的にタグを付ける
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>カスタムフォームを編集 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>コメント中にステータス、条件、コミット日を編集可能 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>スレッド リンクをコピー 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2023 年第 2 四半期 
    </td>
@@ -411,9 +399,50 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>カスタムフォームを編集 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>コメント中にステータス、条件、コミット日を編集可能 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>システム更新に返信 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>別のユーザーとしてログインしたコメントを追加する際に「代理」として表示
    </td>
    <td> ✓
    </td>
@@ -430,7 +459,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
 ## リリースタイムライン
 
-新しいコメントエクスペリエンスに最近リリースされた機能とリリースタイムラインについて詳しくは、 [新しいコメントベータエクスペリエンスリリースアクティビティ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+新しいコメントエクスペリエンスに最近リリースされた機能とリリースタイムラインについて詳しくは、 [新しいコメントベータ版エクスペリエンスリリースアクティビティ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## 新しいコメントエクスペリエンスを見つける
 

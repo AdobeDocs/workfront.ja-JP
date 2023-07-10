@@ -4,9 +4,9 @@ description: 23.3 リリース期間中のルックアンドフィールの更�
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プレビューリリースの予定：2023 年 7 月 6 日；実稼動予定リリース：23.3 リリースの場合
+>プレビューリリースの予定：発表する実稼動予定リリース：発表される
+>
+>この機能は、最初は 23.3 リリースでのリリースが予定されていたもので、後で遅れていました。
 
 新しいイシューをプロジェクトに送信する際に表示される「新しいイシュー」ボックスを更新しました。 現在は、インターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される「新しいリクエスト」ボックスに一致します。
 

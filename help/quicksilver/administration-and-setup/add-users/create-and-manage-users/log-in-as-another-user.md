@@ -1,5 +1,5 @@
 ---
-title: 別のユーザーとしてログイン
+title: 別のユーザーとしてのログイン
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,15 +8,17 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: '895'
+ht-degree: 1%
 
 ---
 
-# 別のユーザーとしてログイン
+# 別のユーザーとしてのログイン
 
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビュー環境でのみ、すべてのユーザーが使用できます。</span>
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -87,7 +89,6 @@ Some users, such as executives, need to be able to control which administrators 
    >   
    >* Workfront管理者のパスワードはリセットできません。
 
-
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
 
 1. 左側のパネルで、 **ログイン名**.
@@ -145,6 +146,13 @@ Workfrontは、管理者が別のユーザーとしてログインしている�
 別のユーザーとしてWorkfrontにログインし、アクションを実行すると、Workfrontは、ログインしているユーザーに代わって、実行するアクションがおこなわれたことを明確に示します。
 
 例えば、別のユーザーとしてログインした項目に対してコメントを作成した場合、そのユーザーの代わりに自分がコメントを作成したことを示すステートメントが表示されます。
+
+>[!NOTE]
+>
+><span class="preview">新しいコメントエクスペリエンスを使用する場合、コメントは別のユーザーとしてログインしたユーザーとして追加され、他のユーザーに代わってコメントを追加していることを示すものではありません。
+>
+>例えば、Workfront管理者が別のユーザーとしてログインした場合、コメントに関連付けられているユーザーはWorkfront管理者になります。 詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 ### 監査情報の表示 {#view-audit-information}
 
