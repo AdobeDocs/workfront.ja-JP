@@ -7,9 +7,9 @@ description: 現在、Adobe Workfront Fusion では、次のパブリックテ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ ht-degree: 0%
 ### APILayer / Workfront — 日別為替レート更新 (EUR)
 
 このテンプレートでは、設定された時点での為替レートの更新を自動化するシナリオが作成されます。 このシナリオでは、APIlayers.com API からユーロ (EUR) のレートを米ドル (USD) に取り込み、Workfrontのレートを更新します。
+
+## Workfront-Marketoテンプレート
+
+これらのテンプレートは、WorkfrontとMarketoの統合をサポートします。
+
+>[!NOTE]
+>
+> この節でテンプレートを使用するには、Workfront Fusion for Work Automation and Integration ライセンスが必要です。
+
+### Workfront承認ワークフローを使用したMarketo Engageメールの下書きの承認
+
+これは、WorkfrontとMarketo Engageのレビューと承認の統合に含まれます。 このテンプレートは、Workfrontの E メール配達確認が承認されたかどうかを検出し、承認済みとしてMarketo Engage内の対応する E メールを更新します。
+
+### Workfrontでマーケティングキャンペーンリクエストを受け取り、Marketo Engageでのキャンペーン作成を自動化
+
+このシナリオでは、WorkfrontでおこなわれたリクエストをMarketo Engageに、電子メールキャンペーンとウェビナーキャンペーンを作成するプログラム的な方法を提供します。 自動化を使用してキャンペーンを作成、整理、設定すると、チームは効率を向上できます。
+
+### WorkfrontでMarketo Engageの E メール下書きの E メール配達確認を確認する
+
+このテンプレートは、Workfrontタスクがレビュー準備完了ステータスに設定されているかどうかを検出し、電子メールの下書きをMarketo EngageからエクスポートしてWorkfrontの配達確認として保存します。
 
 ## Workfront — アナプランテンプレート
 
