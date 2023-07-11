@@ -6,7 +6,7 @@ description: 作業項目の時間を&nbsp;Adobe Workfrontに記録して、作�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3336'
 ht-degree: 0%
@@ -385,7 +385,7 @@ Workfrontの次の領域で時間をログに記録できます。
 1. 左のパネルで、「 」を選択します。 **更新**.
 1. クリック **ログ時間**.
 
-   [ 時間の入力 ] ダイアログボックスが表示されます。
+   <span class="preview">[ ログ時刻 ] ダイアログボックスが表示されます。 </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Workfrontの次の領域で時間をログに記録できます。
    >   
    >   「 Enter Days 」ボックスの右上隅に、1 日に含まれる時間数が示されます。
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. 次の情報を指定します。
 

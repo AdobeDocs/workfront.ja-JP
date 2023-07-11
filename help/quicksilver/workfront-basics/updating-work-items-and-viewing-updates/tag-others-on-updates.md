@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ ht-degree: 0%
 
 ### 現在の更新セクションの更新に関する他のユーザーへのタグ付け
 
+現在の更新セクションでは、ユーザーに手動でタグ付けできます。
+
 1. 作業項目の更新を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. 内 **通知** フィールドに、含めるユーザーまたはチームの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
@@ -134,9 +136,19 @@ ht-degree: 0%
 
 ### コメントベータ版エクスペリエンスの更新に関する他のユーザーへのタグ付け
 
-コメントベータ版のエクスペリエンスで、更新時に他のユーザーにタグ付けすることができます。 また、コメントの編集時に誤ってタグ付けされたユーザーを削除することもできます。
+<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
 
-1. 作業項目の更新を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+You can tag others on updates in the new commenting experience in the following ways:
+
+* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
+* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+
+You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+
+
+コメントベータ版エクスペリエンスの更新時に、他のユーザーに手動でタグ付けすることができます。 また、コメントを編集または返信する際に、誤ってタグ付けされたユーザーを削除することもできます。
+
+1. 作業項目の更新を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. 内 **担当者またはチームのタグ付け** フィールドに、含めるユーザーまたはチームの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
    または
