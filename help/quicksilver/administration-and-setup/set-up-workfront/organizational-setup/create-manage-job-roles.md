@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: fda9c07ee43cc4e6ba1a26ea937ca820367800a8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1173'
 ht-degree: 1%
 
 ---
@@ -83,11 +83,11 @@ As a [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者�
      <tr> 
       <td role="rowheader">[!UICONTROL コスト/時間]</td> 
       <td><p>これは、ジョブロールの 1 時間あたりのコスト率です。 この値は、ロールに関連するタスクとタスクの計画原価と実績原価、および最終的にはプロジェクトの計画原価と実績原価を計算します。 [!UICONTROL 基本通貨 ] を使用してレートを入力します。</p> 
-      <p><span class="preview">有効な日付の原価率の場合は、 <strong>[!UICONTROL 追加率 ]</strong>. その期間のコスト/時間の値を入力し、必要に応じて [!UICONTROL 開始日 ] と [!UICONTROL 終了日 ] を割り当てます。 最初のコストレートには開始日が設定されず、最後のコストレートには終了日が設定されません。</span></p> <p><span class="preview">一部の日付は自動的に追加されます。 例えば、最初のコストレートに終了日が設定されていない場合に、開始日が 2023 年 5 月 1 日の 2 番目のコストレートを追加すると、ギャップが生じないように、2023 年 4 月 30 日の終了日が最初のコストレートに追加されます。</span></p></td> 
+      <p><span class="preview">有効な日付の原価率の場合は、 <strong>[!UICONTROL 追加率 ]</strong>. その期間のコスト/時間の値を入力し、必要に応じて [!UICONTROL 開始日 ] と [!UICONTROL 終了日 ] を割り当てます。 最初のコストレートには開始日が設定されず、最後のコストレートには終了日が設定されません。</span></p> <p><span class="preview">一部の日付は自動的に追加されます。 例えば、最初のコストレートに終了日が設定されていない場合に、開始日が 2023 年 5 月 1 日の 2 番目のコストレートを追加すると、ギャップが生じないように、2023 年 4 月 30 日の終了日が最初のコストレートに追加されます。</span></p> <p><span class="preview">ヒント：既存のジョブの役割を編集する際に、「 」を選択できます <strong>開始日で並べ替え</strong> をクリックすると、最新の開始日がレートリストの上部に表示されます。 </span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 請求/人事] </td> 
-      <td><p>これは、ジョブロールの 1 時間あたりの請求率です。 この値は、ロールに関連するタスクとタスクの計画収益と実際の収益、および最終的にはプロジェクトの計画収益と実際の収益を計算します。 [!UICONTROL 基本通貨 ] を使用してレートを入力します。</p> <p><span class="preview">有効な請求率の日付を表示するには、 <strong>[!UICONTROL 追加率 ]</strong>. その期間の請求/時間の値を入力し、必要に応じて [!UICONTROL 開始日 ] と [!UICONTROL 終了日 ] を割り当てます。 最初の請求率には開始日が設定されず、最後の請求率には終了日が設定されません。</span></p> <p><span class="preview">一部の日付は自動的に追加されます。 例えば、最初の請求率に終了日がなく、開始日が 2023 年 5 月 1 日の 2 番目の請求を追加した場合、ギャップが生じないように、2023 年 4 月 30 日の終了日が最初の請求率に追加されます。</span></p> </td> 
+      <td><p>これは、ジョブロールの 1 時間あたりの請求率です。 この値は、ロールに関連するタスクとタスクの計画収益と実際の収益、および最終的にはプロジェクトの計画収益と実際の収益を計算します。 [!UICONTROL 基本通貨 ] を使用してレートを入力します。</p> <p><span class="preview">有効な請求率の日付を表示するには、 <strong>[!UICONTROL 追加率 ]</strong>. その期間の請求/時間の値を入力し、必要に応じて [!UICONTROL 開始日 ] と [!UICONTROL 終了日 ] を割り当てます。 最初の請求率には開始日が設定されず、最後の請求率には終了日が設定されません。</span></p> <p><span class="preview">一部の日付は自動的に追加されます。 例えば、最初の請求率に終了日がなく、開始日が 2023 年 5 月 1 日の 2 番目の請求を追加した場合、ギャップが生じないように、2023 年 4 月 30 日の終了日が最初の請求率に追加されます。</span></p> <p><span class="preview">ヒント：既存のジョブの役割を編集する際に、「 」を選択できます <strong>開始日で並べ替え</strong> をクリックすると、最新の開始日がレートリストの上部に表示されます。 </span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL 通貨の上書き ]</span> </td> 
