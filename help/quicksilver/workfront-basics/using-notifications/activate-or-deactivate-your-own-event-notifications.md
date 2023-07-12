@@ -6,7 +6,7 @@ description: Adobe Workfront管理者は、Workfrontでイベントが発生し�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: ea16b13b6ecb6ecea365c6c4d31ee23b7bb712c6
+source-git-commit: cfa1439ac2c08c5304457041fe246639b7512dde
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 0%
@@ -29,7 +29,6 @@ Adobe [!DNL Workfront] 管理者は、Workfrontでイベントが発生したと
 >* この [!DNL Workfront] 管理者またはグループ管理者は、 [!DNL Workfront Goals]. 通知の詳細については、 [!DNL Workfront] 管理者が設定できます。詳しくは、 [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). 個々の通知を設定する方法については、 [!DNL Workfront Goals] この記事を引き続きお読みください。
 >
 
-
 ## アクセス要件
 
 この記事の手順を実行するには、次のアクセス権が必要です。
@@ -46,7 +45,7 @@ Adobe [!DNL Workfront] 管理者は、Workfrontでイベントが発生したと
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
+   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,4 +88,4 @@ Adobe [!DNL Workfront] 管理者は、Workfrontでイベントが発生したと
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
