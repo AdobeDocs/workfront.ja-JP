@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 新しいコメント作成機能の「更新」領域から時間を記録するためのインターフェイスのデザインを変更しました。
 
-詳しくは、 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md). ドキュメントはリリース時に更新されます。
+詳しくは、 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 プレビューリリース：2023 年 7 月 6 日
 
@@ -89,7 +89,7 @@ ht-degree: 3%
 
 これで、新しいコメントエクスペリエンスを使用する際に、コメントの内容をコピーし、新しい引用符として同じスレッド内の返信に追加することができます。
 
-詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). ドキュメントはリリース時に更新されます。
+詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 プレビュー：2023 年 6 月 29 日
 
