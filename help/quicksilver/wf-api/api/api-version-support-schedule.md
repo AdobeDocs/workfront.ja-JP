@@ -6,7 +6,7 @@ description: API のバージョン管理とサポートのスケジュール
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
+source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 11%
@@ -33,7 +33,7 @@ Adobe Workfrontは新しい API バージョンを定期的にリリースして
   </tr> 
  </thead> 
  <tbody> 
-   <td>14</td> 
+   <td>16</td> 
    <td> <p>2023 年 4 月</p> <p>（23.2 リリースを使用）</p> </td> 
    <td> <p>**2026 年中</p> <p>（26.2 リリースを使用）</p> </td> 
   </tr> 
