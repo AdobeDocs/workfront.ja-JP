@@ -2,14 +2,15 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトからテンプレートを作成
-description: プロジェクトからテンプレートを作成
+description: 既存のプロジェクトをテンプレートとして保存する際に、テンプレートを作成できます。
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 2%
+source-wordcount: '477'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +23,12 @@ ht-degree: 2%
 既存のプロジェクトをテンプレートとして保存する際に、テンプレートを作成できます。
 
 既存のプロジェクトをテンプレートとして保存した後、新しいテンプレートを使用して新しいプロジェクトを作成できます。 これにより、プロジェクト作成プロセスが簡素化され、迅速に実行されます。
+
+>[!NOTE]
+>
+>プロジェクトをテンプレートとして保存する場合、タスクの実際の日付とプロジェクトの実際の日付は、テンプレートに対して保存されません。
+>
+>テンプレートとそのタスクには、実際の日付は含まれず、タスクの開始日と終了日（将来のプロジェクトが開始する日から）を示します。 テンプレートを使用して将来のプロジェクトを作成する場合、プロジェクトは実際の日付を受け取ります。 詳しくは、 [プロジェクトの作成](../create-projects/create-project.md).
 
 ## アクセス要件
 

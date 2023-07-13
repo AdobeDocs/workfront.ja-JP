@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: 送信された要求の場所
 description: 自分または他のユーザーが送信したリクエストや、送信したことがなく、ドラフトとして保存されたリクエストを検索できるAdobe Workfrontの領域について説明します。
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # 送信された要求の場所
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 自分または他のユーザーが送信したリクエスト、または開始したが送信を完了していないリクエストのタイプを確認できます。 これらのリクエストは、Adobe Workfrontの次の領域で検索できます。
 
@@ -70,7 +72,7 @@ ht-degree: 1%
    >
    >「送信済みのリクエスト」リストの列はカスタマイズできません。
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. デフォルトでは、次の列が表示されます。

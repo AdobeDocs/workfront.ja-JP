@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: プロジェクトのコピー
 description: プロジェクトは、ゼロから作成する代わりにコピーできます。 一度にコピーできるプロジェクトは 1 つだけです。 プロジェクトを一括でコピーすることはできません。
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '764'
 ht-degree: 5%
 
 ---
@@ -37,13 +38,13 @@ ht-degree: 5%
 >
 >* タスク
 >* テンプレート
->* 危険
+>* リスク
 >* キューの設定情報
 >* Portfolioとプログラム
 >* スコアカード
 >* タスクのデフォルト情報 ( タスクのデフォルト承認プロセス、タスクのデフォルトカスタムForms)
 >
-
+> プロジェクト上の元のタスクの日付が、新しいプロジェクトにコピーされます。 タスクの日付を更新するには、プロジェクトの開始日または完了日を（スケジュールモードに応じて）変更する必要があります。 タスクの制限により、プロジェクトの日付を変更できない場合があります。
 
 ## アクセス要件
 

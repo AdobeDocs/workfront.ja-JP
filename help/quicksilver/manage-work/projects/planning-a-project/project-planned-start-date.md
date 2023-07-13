@@ -5,11 +5,12 @@ navigation-topic: plan-a-project
 title: プロジェクトの概要計画開始日
 description: プロジェクトの概要計画開始日
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -31,6 +32,10 @@ ht-degree: 0%
 ## プロジェクトの計画開始日を手動で設定する
 
 プロジェクトを「開始日」からスケジュールする場合は、プロジェクトの「計画開始日」を手動で設定する必要があります。
+
+>[!NOTE]
+>
+>プロジェクトの計画開始日を手動で設定すると、Workfrontは、すべてのタスクの期間に基づいて、プロジェクトの計画完了日を自動的に計算します。
 
 プロジェクトの計画開始日の設定については、 [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -55,23 +60,23 @@ ht-degree: 0%
 
 * 最初から作成した場合と、プロジェクトを「完了日」からスケジュールする場合。
 
-   [ 予定開始日 ] は、[ 完了日 ] に選択した日付と、プロジェクト上のすべてのタスクの期間に基づいて、Adobe Workfrontによって自動的に計算されます。
+  [ 予定開始日 ] は、[ 完了日 ] に選択した日付と、プロジェクト上のすべてのタスクの期間に基づいて、Adobe Workfrontによって自動的に計算されます。
 
-   ゼロからプロジェクトを作成する方法については、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
+  ゼロからプロジェクトを作成する方法については、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
 
 * Microsoft Project から読み込みます。
 
-   「計画開始日」は、Microsoft Project のプロジェクトの開始日です。
+  「計画開始日」は、Microsoft Project のプロジェクトの開始日です。
 
-   Microsoft Project からプロジェクトを読み込む方法について詳しくは、 [Microsoft Project からプロジェクトを読み込む](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Microsoft Project からプロジェクトを読み込む方法について詳しくは、 [Microsoft Project からプロジェクトを読み込む](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * Workfront管理者の場合は、Workfront Kick-Starts を使用して読み込みます。
 
-   「計画開始日」は、キック開始ファイルのプロジェクトシートの setPlannedStartDate フィールドに別途指定しない限り、常にコンピュータの日時と日付に一致します。
+  「計画開始日」は、キック開始ファイルのプロジェクトシートの setPlannedStartDate フィールドに別途指定しない限り、常にコンピュータの日時と日付に一致します。
 
-   キックスタートを使用したデータのインポートについては、 [キックスタートテンプレートを使用してAdobe Workfrontにデータを読み込む](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  キックスタートを使用したデータのインポートについては、 [キックスタートテンプレートを使用してAdobe Workfrontにデータを読み込む](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-   キックスタートを使用したプロジェクトの読み込みについては、 [キック開始シナリオ：シンプルなプロジェクトとタスクのインポートの準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  キックスタートを使用したプロジェクトの読み込みについては、 [キック開始シナリオ：シンプルなプロジェクトとタスクのインポートの準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

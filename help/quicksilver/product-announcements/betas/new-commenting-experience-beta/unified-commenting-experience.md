@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,6 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 >* <span class="preview">タスク</span>
 >* <span class="preview">ドキュメント</span>
 
-
-
 次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
 
 <table>
@@ -79,7 +77,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td><strong>以前のコメントエクスペリエンスに存在 </strong>
    </td>
-   <td><strong>ベータ版の新しいコメントエクスペリエンスに存在します </strong>
+   <td><strong>新しいコメントエクスペリエンスに存在 </strong>
    </td>
    <td><strong>新しいコメントエクスペリエンスで導入されます </strong>
    </td>
@@ -224,9 +222,9 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>

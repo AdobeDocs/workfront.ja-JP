@@ -6,10 +6,10 @@ description: 「テンプレート」領域で、テンプレートを作成お�
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 0%
+source-wordcount: '583'
+ht-degree: 2%
 
 ---
 
@@ -17,16 +17,21 @@ ht-degree: 0%
 
 「テンプレート」領域で、テンプレートを作成および削除できます。 新しいテンプレートを作成する際に、すべてのタスクの情報と将来のプロジェクト設定のすべての情報を入力できます。 この情報は、テンプレートから作成する際に、プロジェクトに転送されます。
 
+>[!NOTE]
+>
+>テンプレートとそのタスクには、実際の日付は含まれず、タスクの開始日と終了日（将来のプロジェクトが開始する日から）を示します。 テンプレートを使用して将来のプロジェクトを作成する場合、プロジェクトは実際の日付を受け取ります。 詳しくは、 [プロジェクトの作成](../create-projects/create-project.md).
+
+
 新しいテンプレートは、次の方法で作成できます。
 
 * この記事で説明するように、最初から。
 * 既存のプロジェクトから、プロジェクトをテンプレートとして保存する。
 
-   既存のプロジェクトからテンプレートを作成する方法について詳しくは、 [プロジェクトをテンプレートとして保存する](../../../manage-work/projects/manage-projects/save-project-as-template.md).
+  既存のプロジェクトからテンプレートを作成する方法について詳しくは、 [プロジェクトをテンプレートとして保存する](../../../manage-work/projects/manage-projects/save-project-as-template.md).
 
 * 別のテンプレートからコピーする。
 
-   既存のテンプレートのコピーについて詳しくは、 [プロジェクトテンプレートのコピー](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+  既存のテンプレートのコピーについて詳しくは、 [プロジェクトテンプレートのコピー](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
 
 * Workfrontの管理者は、ブループリントを読み込んでテンプレートを作成できます。 詳しくは、 [ブループリントの設定](../../../administration-and-setup/blueprints/configure-template-package.md).
 
@@ -95,7 +100,7 @@ ht-degree: 0%
 
    テンプレートの編集について詳しくは、 [プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
 1. （オプション）テンプレートに項目を追加する場合は、「 [テンプレートに項目を追加する](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#adding-items-to-template) 記事内 [プロジェクトテンプレートの編集](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## グループの関連付けによって決定されるテンプレート設定

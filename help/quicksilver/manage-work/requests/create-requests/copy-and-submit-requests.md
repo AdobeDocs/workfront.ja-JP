@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
 
 # リクエストのコピーと送信
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 同様のリクエストを頻繁に送信する場合は、既存の送信済みリクエストをコピーできます。 この場合、既存のリクエストをコピーし、最小限の変更を加えて、新しいリクエストとして再送信できます。
 
@@ -122,11 +122,11 @@ ht-degree: 2%
 1. （条件付き）デフォルトで「送信済み」セクションが表示されない場合、 **送信済み** をクリックします。
 1. 新規としてコピーして送信するリクエストを見つけ、次のいずれかの操作を行います。
 
-   * 選択して、「 <span class="preview"> **コピー** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> （「送信済みのリクエスト」リストの左上隅）
+   * 選択して、「 **コピー** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) （「送信済みのリクエスト」リストの左上隅）
 
    >[!TIP]
    >
-   > <span class="preview">最初にリクエストを選択していない場合、コピーアイコンは灰色表示になります。</span>
+   > 最初にリクエストを選択していない場合、コピーアイコンは灰色表示になります。
 
    * 次をクリック： **詳細** メニュー ![](assets/more-icon.png) をクリックし、 **新規としてコピーして送信**
 
