@@ -3,24 +3,20 @@ title: 23.3 金融管理の強化
 description: 23.3 金融管理の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # 23.3 金融管理の強化
 
-このページでは、23.3 リリースでのプレビュー環境に対するすべての金融機能の強化について説明します。 これらの機能強化は、23.3 リリースで実稼動環境で利用できるようになります。
+このページでは、23.3 リリースでプレビュー環境に対して行われた Financial Management のすべての機能強化について説明します。 これらの機能強化は、23.3 リリースで実稼動環境で利用できるようになります。
 
 23.3 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## 有効なコストと請求率の日付
-
->[!IMPORTANT]
->
->2023 年 6 月 30 日のプレビューで、割り当て率の上書き機能が一時的に無効になりました。
 
 日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。
 
