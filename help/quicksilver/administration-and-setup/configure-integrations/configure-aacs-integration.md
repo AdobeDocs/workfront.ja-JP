@@ -5,7 +5,7 @@ title: Adobe Experience Manager Assets の統合
 description: 作業内容は、次のAdobe Experience Manager Assets 統合と連携できます。
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ ht-degree: 0%
 * アセットおよびフォルダーのメタデータの追跡
 * 次の間でプロジェクトメタデータを同期 [!DNL Workfront] および [!DNL Experience Manager Assets]
 
-複数のExperience Manager Assetsリポジトリを 1 つのWorkfront環境に接続することも、複数のWorkfront環境を組織 ID をまたいで 1 つのExperience Manager Assetsリポジトリに接続することもできます。 設定する統合ごとに、この記事の設定手順に従ってください。
+>[!NOTE]
+>
+>複数のExperience Manager Assetsリポジトリを 1 つのWorkfront環境に接続することも、複数のWorkfront環境を組織 ID をまたいで 1 つのExperience Manager Assetsリポジトリに接続することもできます。 設定する統合ごとに、この記事の設定手順に従ってください。
 
 ## アクセス要件
 
@@ -165,7 +167,6 @@ link to documentation about creating schema - waiting on response from Anuj abou
 > * Workfrontの場合は設定/カスタムForms、オブジェクトの場合はフィールド
 > * Experience Manager Assetsのアセット/メタデータスキーマ
 
-
 +++
 
 ### アセットのメタデータのマッピング
@@ -181,7 +182,6 @@ link to documentation about creating schema - waiting on response from Anuj abou
    >
    >1 つの [!DNL Workfront] 複数のフィールド [!UICONTROL Experience Manager Assets] フィールド。 複数の [!DNL Workfront] 単一の [!DNL Experience Manager Assets] フィールドに入力します。
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. 内 [!DNL Experience Manager Assets] 」フィールドで、事前入力されたカテゴリを検索するか、検索フィールドに 2 文字以上入力して、追加のカテゴリにアクセスします。
 1. 必要に応じて、手順 2 と 3 を繰り返します。
