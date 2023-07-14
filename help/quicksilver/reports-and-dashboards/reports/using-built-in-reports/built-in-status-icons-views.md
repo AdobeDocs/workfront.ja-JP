@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: ビューのビルトインステータスアイコン
-description: ビューのビルトインステータスアイコン
+description: 組み込みの [ ステータスアイコン ] フィールドをビューの列として追加し、オブジェクトの主要ポイントをより詳細に表示することができます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 2%
+source-wordcount: '1322'
+ht-degree: 3%
 
 ---
 
@@ -28,13 +28,20 @@ ht-degree: 2%
 * タスクがクリティカルパス上にあります
 * ユーザーが会社、チームに属している、または別のタイムゾーンにいる
 
-[ ステータスアイコン ] フィールドのインジケータのほとんどは、実際のオブジェクトまたはオブジェクトの領域へのクイックリンクです。
+次の点に注意してください。
 
-アイコンで表される項目がオブジェクトにない場合、見つからない項目を表すアイコンが、完全なイメージではなく、[ ステータスアイコン ] 列にアウトラインとして表示されます。\
-![task_status_icons.png](assets/task-status-icons.png)\
-詳しくは、 [ステータスアイコンとフラグの概要](#overview-of-status-icons-and-flags) 」の節を参照してください。\
-一部の見解では、 **ステータスアイコン** フィールド名 **フラグ** または **アイコンを表示**.\
-「ステータスアイコン」フィールドに含まれるアイコンの外観をカスタマイズすることはできません。
+* [ ステータスアイコン ] フィールドのインジケータのほとんどは、実際のオブジェクトまたはオブジェクトの領域へのクイックリンクです。
+
+* アイコンで表される項目がオブジェクトにない場合は、見つからない項目を表すアイコンが色付きの画像ではなく、[ ステータスアイコン ] 列に淡色表示されます。
+
+  ![task_status_icons.png](assets/task-status-icons.png)
+
+  詳しくは、 [ステータスアイコンとフラグの概要](#overview-of-status-icons-and-flags) 」の節を参照してください。
+
+* 一部の見解では、 **ステータスアイコン** フィールド名 **フラグ** または **アイコンを表示**.\
+  「ステータスアイコン」フィールドに含まれるアイコンの外観をカスタマイズすることはできません。
+
+* 「ステータスアイコン」フィールドではアイコン数を編集できません。
 
 ## アクセス要件
 
@@ -87,12 +94,12 @@ ht-degree: 2%
    * 費用
    * ドキュメント
    * ユーザー\
-      これらのオブジェクトのみが **ステータスアイコン** フィールドが使用可能です。\
-      オブジェクトリストの詳細については、 [Adobe Workfrontのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+     これらのオブジェクトのみが **ステータスアイコン** フィールドが使用可能です。\
+     オブジェクトリストの詳細については、 [Adobe Workfrontのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. 次の **表示** ドロップダウンメニューで、「 **新しいビュー**.
 
-1. クリック **列を追加**.
+1. 「**列を追加**」をクリックします。 
 1. 内 **この列に表示** ボックスに、次のいずれかのフィールド名を入力し、リストに表示されたら選択します。
 
    * *状態アイコン*
@@ -241,7 +248,7 @@ ht-degree: 2%
    <td> <img src="assets/user-belongs-to-company-icon-44x44.png" alt="user_belons_to_company_icon.png" style="width: 44;height: 44;"> </td> 
    <td>ユーザーが会社に関連付けられていることを示します。 </td> 
    <td>ユーザー</td> 
-   <td>使用不可</td> 
+   <td>利用不可</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -262,28 +269,28 @@ ht-degree: 2%
    <td> <img src="assets/screen-shot-2018-07-26-at-2.31.40-pm-44x40.png" alt="Screen_Shot_2018-07-26_at_2.31.40_PM.png" style="width: 44;height: 40;"> </td> 
    <td>ユーザーがシステムのタイムゾーンとは異なるタイムゾーンにいることを示します。</td> 
    <td>ユーザー</td> 
-   <td>使用不可</td> 
+   <td>利用不可</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/billable-expense-icon-44x45.png" alt="billable_expense_icon.png" style="width: 44;height: 45;"> </td> 
    <td>費用が請求可能であることを示します。<br>費用について詳しくは、 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">プロジェクト費用の管理 </a>.</td> 
    <td>費用</td> 
-   <td>使用不可</td> 
+   <td>利用不可</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="expense_resurvable_icon.png" style="width: 44;height: 45;"> </td> 
    <td> 費用が償還可能であることを示します。<br>費用について詳しくは、 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">プロジェクト費用の管理 </a>.</td> 
    <td>費用</td> 
-   <td>使用不可</td> 
+   <td>利用不可</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="respurted_expense_icon.png" style="width: 44;height: 43;"></td> 
    <td> 費用が償還済みであることを示します。<br>費用について詳しくは、 <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">プロジェクト費用の管理 </a>.</td> 
    <td>費用</td> 
-   <td>使用不可</td> 
+   <td>利用不可</td> 
    <td> </td> 
   </tr> 
  </tbody> 

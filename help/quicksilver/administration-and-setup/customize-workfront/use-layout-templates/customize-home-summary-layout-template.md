@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: レイアウトテンプレートを使用して、ホームおよびサマリでタスクやイシューをクリックしたときにユーザーに表示する内容を設定できます。 以下の手順を使用して行った各設定は、同じ方法でホーム領域と Summary パネルに影響します。 これらのカスタマイズは、ドキュメントの概要パネルには適用されません。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '993'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,11 @@ ht-degree: 2%
 
 ホーム領域については、 [ホーム領域を使用](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). 概要パネルについて詳しくは、 [概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
+レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+
 グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## アクセス要件
 

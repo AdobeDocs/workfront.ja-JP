@@ -5,11 +5,11 @@ content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更をおこなう前に、メインメニュー、左側のパネル、ビュー、グループ化およびフィルターが配置されたものです。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 14%
@@ -49,7 +49,7 @@ Workfront管理者がユーザーにレイアウトテンプレートを割り�
    <th> <p>計画担当者</p> </th> 
    <th>作業者</th> 
    <th>レビュアー</th> 
-   <th>要求者</th> 
+   <th>依頼者</th> 
    <th>外部ユーザー</th> 
   </tr> 
  </thead> 

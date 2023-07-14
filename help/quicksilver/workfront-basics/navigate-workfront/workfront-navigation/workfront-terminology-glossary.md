@@ -5,9 +5,9 @@ title: 用語集 [!DNL Adobe Workfront] 用語
 description: この [!DNL Adobe Workfront] 用語集には、Adobe Workfrontでよく使用される用語が記載されています。
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '19551'
+source-wordcount: '19720'
 ht-degree: 0%
 
 ---
@@ -2103,8 +2103,17 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL 戦略的連携 ]</td> 
    <td>ポートフォリオやプログラム全体で企業目標を測定し、調整する。</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>これは、「テキストモード」インターフェイスを使用する際に、レポートの列で使用されます。 </p>
+   <p>この <code>[!UICONTROL stretch]</code> は、ビューで不要な領域を占める列を識別するために使用されます。 一般的なユーザーのワークスペースのユーザーインターフェイスの幅は約 850 ピクセルです。 つまり、4 列（それぞれ 150 ピクセル）のビューがあり、そのビューが 850 ピクセルのうち 600 ピクセルを占有している場合です。 UI には、ストレッチの割合が指定された列に追加される、250 個の追加のピクセルがあります。 </p>
+   <p>追加のコード行を使用する場合、列の拡張は適用されます。 <code>[!UICONTROL usewidths=true]</code> ビュー内の列の少なくとも 1 つに対して 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL 購読者 ]</td> 
    <td> <p>プロジェクト、タスクまたはタスクを購読するユーザー。</p> <p>このフィールドをレポートで使用すると、購読者のリストが表示され、各購読者がコンマで区切られます。</p> <p>詳しくは、 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">の項目を購読 [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   <tr> 
    <td>[!UICONTROL 今年表示 ]</td> 
    <td>レポートリストには、そのレポートが今年に閲覧された回数が表示されます。<br>レポートリストの使用状況の詳細については、「 <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">レポートの使用状況の表示</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> レポートで、[!UICONTROL テキストモード ] インターフェイスを使用する際に、各列の幅をピクセル単位で指定できるコード行。 Workfrontでは各フィールドに推奨される幅が提供されますが、フィールドの種類や形式に応じて異なりますが、調整を行うこともできます。
+追加の <code>[!UICONTROL usewidths=true]</code> 列に指定された幅を適用するコードの行。 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>プロジェクト、タスク、またはタスクのレポートで、テキストモードで次のステートメントを使用すると、プロジェクト、タスク、またはタスクの予定時間が表示されます。</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>テキストモードの使用について詳しくは、 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">テキストモード構文の概要</a>. </p> 
    <p><b>ヒント</b> 
    <p>問題レポートで、[!UICONTROL 予定時間 ] フィールドの 1 つを追加すると、 <code>work </code>フィールドをレポートに追加します。 </p> </td> 
@@ -2396,7 +2416,10 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>プロジェクト、タスク、または問題報告で、テキストモードで次のステートメントを使用すると、プロジェクト、タスク、または問題の計画時間数が「時間」という単語の後に表示されます。</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>テキストモードの使用について詳しくは、 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">テキストモード構文の概要</a>. </p> </td> 
   </tr> 
  </tbody> 

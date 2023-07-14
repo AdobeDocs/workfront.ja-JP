@@ -3,14 +3,14 @@ title: レイアウトテンプレートを使用して詳細ビューをカス�
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Workfrontの管理者は、タスク、イシュー、ドキュメント、プログラムまたはポートフォリオの表示中にユーザーが左のパネルの「詳細」セクションを選択したときに表示される情報を、レイアウトテンプレートを使用して決定できます。
-author: Caroline
+description: Workfrontの管理者は、タスク、イシュー、ドキュメント、プログラムまたはポートフォリオの表示中にユーザーが左側のパネルの「詳細」セクションを選択したときに表示される情報を、レイアウトテンプレートを使用して決定できます。
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,39 @@ or billing record
 
 また、この情報が表示される情報の順序を変更することもできます。 例えば、ユーザーに表示されるすべてのタスクについて、ユーザーに表示されるすべてのタスクのカスタムForms情報を詳細ビューの先頭に移動できます。
 
+レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+
+グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
+
 オブジェクトの [ 詳細 ] ビューに加えた変更は、次の領域でユーザーが表示するフィールドの使用可否と順序も決まります。
 
 * 「新しいオブジェクト」ボックス（「新しいタスク」や「新しいイシュー」など）
 
-   ![](assets/new-task-dialog.png)
+  ![](assets/new-task-dialog.png)
 
 * 「オブジェクトの編集」画面（タスクの編集、イシューの編集、プロジェクトの編集など）
 
-   ![](assets/edit-task-screen.png)
+  ![](assets/edit-task-screen.png)
 
 
 * オブジェクトを一括編集する際の「オブジェクトの編集」画面 現在、これはプロジェクトの一括編集でサポートされています。
 
-   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * 概要 ![](assets/summary-panel-icon.png) タスクと問題のリストのパネル
 
-   ![](assets/summary-area.png)
+  ![](assets/summary-area.png)
 
-   >[!NOTE]
-   >
-   >レイアウトテンプレートの変更は、ログインしたユーザーに割り当てられたタスクと問題に対してのみ、概要パネルのフィールドの順序と使用可能性に影響します。
+  >[!NOTE]
+  >
+  >レイアウトテンプレートの変更は、ログインしたユーザーに割り当てられたタスクと問題に対してのみ、概要パネルのフィールドの順序と使用可能性に影響します。
 
 * [ 懸案事項をタスクに変換する ] ボックスや [ 懸案事項をプロジェクトに変換する ] ボックスなどの変換ボックスを使用します。
 
-   ![問題をタスクボックスに変換](assets/convert-issue-to-task-box.png)
+  ![問題をタスクボックスに変換](assets/convert-issue-to-task-box.png)
 
 グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -94,9 +100,9 @@ or billing record
    * 任意のセクションヘッダーをドラッグ ![](assets/move-icon---dots.png) 順序を変更する
    * 以下のオプションを有効または無効にします。 **概要** および **カスタムForms** 表示/非表示を切り替えます。
 
-      これらのセクションの 1 つですべてのフィールドを非表示にした場合、セクション全体が非表示になります。
+     これらのセクションの 1 つですべてのフィールドを非表示にした場合、セクション全体が非表示になります。
 
-      すべてのフィールドは、デフォルトで有効になっています。
+     すべてのフィールドは、デフォルトで有効になっています。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 

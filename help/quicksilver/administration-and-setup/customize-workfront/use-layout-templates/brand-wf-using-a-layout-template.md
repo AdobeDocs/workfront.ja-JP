@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: Adobe Workfrontの管理者またはグループ管理者は、レイアウトテンプレートを使用して、上部のナビゲーション領域およびメインメニューのロゴを、特定のグループ、チーム、役割およびユーザー向けにカスタマイズできます。 これは、独自のブランディングを持つ大規模な組織のグループに特に便利です。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -33,7 +33,6 @@ ht-degree: 0%
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
-
 
 ## アクセス要件
 

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Adobe Workfront管理者は、レイアウトテンプレートを使用して、Workfront全体で表示される一部のオブジェクトのラベルを、組織で使用されている用語に合わせて変更できます。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '655'
 ht-degree: 3%
 
 ---
@@ -37,8 +37,11 @@ Adobe Workfront管理者は、レイアウトテンプレートを使用して�
 >* ラベルをカスタマイズすると、文法やその他の問題が発生する場合があります。 例えば、「Issue」を「Request」に変更すると、UI 内に「An request」というフレーズが表示される場所が存在する場合があります。 詳しくは、 [オブジェクト名のカスタマイズの影響](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) 記事内 [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 >
 
+レイアウトテンプレートについて詳しくは、 [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## アクセス要件
 
@@ -72,15 +75,15 @@ Adobe Workfront管理者は、レイアウトテンプレートを使用して�
 
    * Workfrontが提供する別の用語を使用するには、下向き矢印をクリックします  ![](assets/dropdown-arrow.png) ラベルの横にある、ドロップダウンリストで必要な代替ラベルをクリックします。
 
-      >[!NOTE]
-      >
-      >ドロップダウンリストで提供される代替ラベルは、英語以外の言語用にローカライズされたWorkfrontのバージョンでサポートされています。
+     >[!NOTE]
+     >
+     >ドロップダウンリストで提供される代替ラベルは、英語以外の言語用にローカライズされたWorkfrontのバージョンでサポートされています。
 
    * オブジェクトに対して表示されるラベルに独自の代替オプションを指定するには、 **カスタム名を設定** ラベルの右側にを入力し、 **単数** および **複数** カスタム用語の形式。 次をクリックできます。 **リセット** もし気が変われば
 
-      次のオブジェクト名をカスタマイズできます。
+     次のオブジェクト名をカスタマイズできます。
 
-      <table style="table-layout:auto">
+     <table style="table-layout:auto">
       <col>
       <col>
       <col>

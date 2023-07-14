@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Adobe Workfrontの管理者またはグループ管理者は、レイアウトテンプレートを使用して、Workfrontでメインメニューを開いたときに表示されるオプションを設定できます。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 9c78d8e08e62c86a4e1340644ed76c61ce7f2674
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '570'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,11 @@ Adobe Workfront管理者またはグループ管理者は、レイアウトテ�
 >
 >ユーザーに表示されるメインメニューオプションは、ライセンスの種類と、アクセスレベルで設定されている設定によって異なります。 このレイアウトテンプレートを使用する一部のユーザーは、ここで選択するすべてのオプションが表示されない場合があります。 詳しくは、 [アクセスレベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) および [各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
+レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+
 グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## アクセス要件
 
@@ -60,9 +64,9 @@ Adobe Workfront管理者またはグループ管理者は、レイアウトテ�
 
    * ホーム
 
-      >[!TIP]
-      >
-      >既定では、メインメニューの [ 更新 ] 領域を含むレイアウトテンプレートがプロファイルに関連付けられている場合を除き、[ ホーム ] には [ レビューライセンスユーザの更新 ] と表示されます。
+     >[!TIP]
+     >
+     >既定では、メインメニューの [ 更新 ] 領域を含むレイアウトテンプレートがプロファイルに関連付けられている場合を除き、[ ホーム ] には [ レビューライセンスユーザの更新 ] と表示されます。
 
    * ポートフォリオ
    * プログラム
@@ -73,28 +77,28 @@ Adobe Workfront管理者またはグループ管理者は、レイアウトテ�
    * リソース
    * シナリオ
 
-      >[!NOTE]
-      >
-      >シナリオプランナーは、新しいAdobe Workfrontエクスペリエンスでのみ使用でき、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
+     >[!NOTE]
+     >
+     >シナリオプランナーは、新しいAdobe Workfrontエクスペリエンスでのみ使用でき、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
 
    * チーム
    * ユーザー
 
-      >[!NOTE]
-      >
-      >プランライセンスを持つユーザーのみがユーザーを表示できます ![](assets/users-icon-in-main-menu.png) をクリックします。
+     >[!NOTE]
+     >
+     >プランライセンスを持つユーザーのみがユーザーを表示できます ![](assets/users-icon-in-main-menu.png) をクリックします。
 
    * リクエスト
    * タイムシート
    * ドキュメント
    * テンプレート
    * 分析
-   * 校正
+   * プルーフ
    * 目標
 
-      >[!NOTE]
-      >
-      >追加のライセンスが必要です。 Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >[!NOTE]
+     >
+     >追加のライセンスが必要です。 Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * マイ更新
    * ボード

@@ -7,9 +7,9 @@ description: 余白をドラッグ&ドロップして目的の幅に合わせて
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >この記事の「列の幅と順序を一時的に変更する」の説明に従って、列の幅を手動で変更する場合 [列の幅と順序を変更する](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) 列の幅を恒久的に変更した後は、手動によるサイズ変更に応じて列の幅が保持され、次の手順に従って更新された列の幅が上書きされます。 キャッシュをクリアした後、または別のブラウザーからログインした後、次の手順で定義した幅に従って列を表示できます。
+>
+>テキストモードインターフェイスを使用する際の列の幅のカスタマイズに関する詳細は、 [Adobe Workfrontの用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. オブジェクトのリストに移動します。
 1. 次の **表示** ドロップダウンメニューで、 **新しいビュー**.
@@ -79,3 +81,5 @@ ht-degree: 0%
    の **幅** 行には、列を表示するビューの幅を表す任意の数値（ピクセル単位）を指定します。
 
 1. クリック **保存**&#x200B;を、 **ビューを保存**.
+
+

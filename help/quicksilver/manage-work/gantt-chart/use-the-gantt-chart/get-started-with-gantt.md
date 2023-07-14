@@ -2,13 +2,13 @@
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: の基本を学ぶ [!UICONTROL ガント] グラフ
-description: Adobe Workfrontのプロジェクトとタスクのガントチャートに関する概要情報です。
+description: Adobe Workfrontのガントチャートは、タスクまたはプロジェクトのリストを視覚的に表します。
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '550'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ In [!DNL Adobe Workfront]、2 つの [!UICONTROL ガントチャート] 同様�
 
 ## 次にアクセス： [!UICONTROL ガントチャート]
 
-この [!UICONTROL ガント] グラフ [!DNL Workfrontprovide] タスクまたはプロジェクトのリストを視覚的に表現したもの。 タスクリストを表示できます [!UICONTROL ガントチャート] を、プロジェクトのタスクリストまたはタスクレポートから直接開きます。 プロジェクトリストを表示できます [!UICONTROL ガントチャート] （プロジェクトリストまたはプロジェクトレポート）
+この [!UICONTROL ガント] グラフ [!DNL Workfront]  タスクまたはプロジェクトのリストを視覚的に表現します。 タスクリストを表示できます [!UICONTROL ガントチャート] を、プロジェクトのタスクリストまたはタスクレポートから直接開きます。 プロジェクトリストを表示できます [!UICONTROL ガントチャート] （プロジェクトリストまたはプロジェクトレポート）
 
 * [タスクリスト [!UICONTROL ガントチャート]](#task-list-gantt-chart)
 * [プロジェクトリスト [!UICONTROL ガントチャート]](#project-list-gantt-chart)
@@ -101,7 +101,7 @@ In [!DNL Adobe Workfront]、2 つの [!UICONTROL ガントチャート] 同様�
 * [!UICONTROL マイルストーン線]
 * [!UICONTROL 先行タスク]
 * [!UICONTROL 進捗状態]
-* [!UICONTROL 見込日]
+* [!UICONTROL 見込み日]
 
 上記の表示オプションについて詳しくは、 [情報を [!UICONTROL ガントチャート]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 

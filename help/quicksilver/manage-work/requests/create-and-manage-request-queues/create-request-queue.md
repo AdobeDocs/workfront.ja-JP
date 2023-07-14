@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2597'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ ht-degree: 2%
 ## リクエストキューの作成
 
 プロジェクトをリクエストキューとして設定する場合、Workfrontの「リクエスト」領域に表示するには、プロジェクトのステータスが「現在」になっている必要があります。
+
+>[!TIP]
+>
+>Workfrontまたはグループ管理者が、次の手順で説明する一部の節を含まないカスタムレイアウトテンプレートを割り当てる場合があります。
+
 
 要求キューを作成する手順は、次のとおりです。
 

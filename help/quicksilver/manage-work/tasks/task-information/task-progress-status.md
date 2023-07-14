@@ -7,9 +7,9 @@ description: Adobe Workfrontは、タスクのタイムライン全体でのタ�
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 65f25a3b1198f491f7357efef11e2ae075e9721a
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -59,22 +59,26 @@ Adobe Workfrontは、タスクのタイムライン全体でのタスクの進�
  </tbody> 
 </table>
 
-## タスクの進捗状況ステータスの経時的な更新
+<!--hiding this because some users find the images confusing, as they don't really show the dates mentioned in the descriptions above. Keep the pictures though, in case some users will complain that we hid them. 
 
-プロジェクトの様々な日付タイプにより、時間の経過に伴うタスクの進行状況がわかります。
+## How task Progress Status updates over time
 
-* 予定通り
+The different date types in our projects tell us how tasks are progressing over time:
 
-   ![](assets/on-time-progress-status-350x233.png)
+* On Time
 
-* リスクあり
+  ![](assets/on-time-progress-status-350x233.png)
 
-   ![](assets/at-risk-progress-status-350x233.png)
+* At Risk
 
-* 遅れ
+  ![](assets/at-risk-progress-status-350x233.png)
 
-   ![](assets/behind-progress-status-350x233.png)
+* Behind
 
-* 遅延
+  ![](assets/behind-progress-status-350x233.png)
 
-   ![](assets/late-progress-status-350x233.png)
+* Late
+
+  ![](assets/late-progress-status-350x233.png)
+
+-->

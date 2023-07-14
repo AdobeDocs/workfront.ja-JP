@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: 既存のレイアウトテンプレートをコピーできます。 これは、同じ設定の多くを共有する複数のレイアウトテンプレートが組織で必要な場合に役立ちます。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%

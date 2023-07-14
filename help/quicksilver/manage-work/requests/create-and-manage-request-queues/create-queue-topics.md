@@ -6,9 +6,9 @@ description: キュートピックは、ルーティングルールと連携し�
 author: Alina
 feature: Work Management
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '891'
 ht-degree: 3%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 3%
       <td>キューのトピックに関連付けるカスタムフォームを選択します。 問題をキューのトピックに関連付ける前に、問題のカスタムフォームを作成する必要があります。 カスタムフォームの作成について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">デフォルトの承認</td> 
+      <td role="rowheader"><strong>デフォルトの承認</strong></td> 
       <td> <p>このキュートピックに承認プロセスを関連付けます。 このドロップダウンメニューには、問題の承認プロセスのみが表示されます。 このキューに送信されたすべての問題は、この承認プロセスに関連付けられます。 Adobe Workfront管理者は、キュートピックに関連付ける前に、システムレベルの承認プロセスを定義する必要があります。 <span>承認プロセスへの管理者アクセス権を持つユーザーは、グループ固有の承認プロセスを作成することもできます。</span> 承認プロセスの作成について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業項目の承認プロセスの作成</a>.<br></p> 
        <div> 
         <p>重要：プロジェクトのグループが変更されると、既存の問題に関連付けられたグループ固有の承認プロセスが、単一使用の承認プロセスになります。 プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が、割り当てられた承認プロセスに及ぼす影響</a>.</p> 
@@ -136,13 +136,13 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>既定のルート</strong> </td> 
-      <td>キュートピックに関連付けるルーティングルールを指定します。 ルーティングルールをキュートピックに添付する前に、ルーティングルールを作成する必要があります。</td> 
+      <td>キュートピックに関連付けるルーティングルールを指定します。 ルーティングルールをキュートピックに添付する前に、ルーティングルールを作成する必要があります。 詳しくは、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">ルーティングルールの作成</a> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>リクエストタイプ</strong> </td> 
       <td> <p>このキュートピックに保存するリクエストの種類を選択します。 表示されるオプションは、 <strong>キューの詳細</strong> 」タブをクリックします。 必須フィールドです。 </p> <p>注意：「要求タイプ」は、「キューの詳細」ページと「キューのトピック」ページの両方で「要求タイプ」が選択されている場合にのみ、「要求」領域に選択として表示されます。 プロジェクトの Queue Details 領域の設定については、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>. </p> <p>次のタイプから選択します。</p> 
        <ul> 
-        <li>バグ報告書</li> 
+        <li>バグレポート</li> 
         <li>変更依頼</li> 
         <li>問題</li> 
         <li>リクエスト</li> 

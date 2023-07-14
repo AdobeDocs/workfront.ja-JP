@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Adobe Workfront管理者またはグループ管理者は、レイアウトテンプレートを使用して、ユーザーがオブジェクトのページを開く際にオブジェクトヘッダーに表示されるフィールドを設定できます。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,13 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
 >
 >オブジェクトヘッダーのカスタマイズは、現在、プロジェクト、タスクおよび問題に対して使用できます。
 
-
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
-
 ![](assets/object-header-fields.png)
+
+レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+
+グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## アクセス要件
 
@@ -67,7 +70,7 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
 1. 内 [!UICONTROL ヘッダーフィールド] セクションで、表示されたフィールドにマウスを移動して、次のいずれかの操作を行います。
    * 次をクリック： **x** フィールドを削除するアイコン
 
-      または
+     または
 
    * クリック&amp;ホールド **つかむ** アイコンを使用して、フィールドを新しい場所にドラッグ&amp;ドロップします。
 
@@ -86,7 +89,6 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
    >* 既に既定のヘッダーに含まれている編集可能フィールド（プロジェクト所有者、ステータス、完了率、割り当てなど）を追加できます。
    >
    >* 問題のヘッダーに「解決者」フィールドを追加すると、問題に関連付けられた解決オブジェクトがある場合、そのフィールドは「問題の解決、タスク、またはプロジェクト」に変わります。
-
 
 
    ![](assets/add-field-to-header-in-lt-list.png)

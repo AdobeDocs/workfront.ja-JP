@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Adobe Workfront管理者は、特定のグループのグループ管理者にレイアウトテンプレートの管理者アクセス権を付与して、テンプレートを編集できるようにすることができます。 グループ内のユーザーにはテンプレートが割り当てられません。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -61,6 +61,5 @@ Adobe Workfront管理者は、特定のグループのグループ管理者に�
    >* グループ管理者がレイアウトテンプレートを作成する場合、管理アクセス権の割り当ては必須です。 レイアウトテンプレートは、指定されたグループに対して指定され、指定されたグループにのみ表示されます。 詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). グループ管理者の詳細については、 [グループ管理者](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    >   
    >* 特定のグループ内のグループ管理者に管理者アクセス権を付与しない場合、ユーザーアカウントを編集できるすべてのユーザーは、レイアウトテンプレートに管理者アクセス権を持ちます。 一部のWorkfront管理者は、レイアウトテンプレートをシステムレベルのレイアウトテンプレートにするために、レイアウトテンプレートに対する管理者アクセスを許可しないことを意図的に選択しています。
-
 
 1. 「保存」はいつでもクリックして進行状況を保存でき、後でテンプレートの変更を続行できます。
