@@ -6,10 +6,10 @@ description: へのアクセス [!DNL Workfront] Adobe Experience Cloudを通じ
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 8bf83e73706b5e994d091dc56d43a9f027b01fe8
+source-git-commit: b6008546089a420e5bb487d2035b8d87782905c1
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 1%
+source-wordcount: '508'
+ht-degree: 0%
 
 ---
 
@@ -97,6 +97,8 @@ ht-degree: 1%
 
 組織が別のアプリケーションを使用してパスワードを管理している場合、そのプロバイダを通じてパスワードを変更します。
 
-パスワードが [!DNL Adobe]、 [パスワードアカウントのAdobeを変更](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}.
+パスワードが [!DNL Adobe]の場合は、パスワードアカウントでAdobeを変更できます。
+
+[パスワードの変更については、この記事をAdobeしてください。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。

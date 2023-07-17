@@ -7,10 +7,10 @@ description: Adobe Workfrontは、個人のタイムオフを管理、計上、�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -62,8 +62,7 @@ ht-degree: 1%
 
 ## での個人のオフタイムの設定 [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
-
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、プロフィール画像の横にあるユーザー名をクリックします。 または（使用可能な場合）、上部のナビゲーション領域のプロフィール画像をクリックし、 **[!UICONTROL Workfront Profile]**.
 1. 左側のパネルで、 **[!UICONTROL オフの時間]**.
 1. 個人の休日に希望する日付を選択します。
 1. 選択 **[!UICONTROL 終日]**&#x200B;を返します。\
