@@ -6,9 +6,9 @@ description: お使いの [!DNL Adobe Workfront] プロファイルには、自�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '3228'
+source-wordcount: '3208'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ ht-degree: 1%
 
 ## の設定 [!UICONTROL マイ設定] 領域
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]をクリックし、プロフィール画像の横にあるユーザー名をクリックします。
+1. {#step1-click-profile-pic}
 
 1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![](assets/more-icon.png)を選択し、「 **[!UICONTROL 編集]**.
 

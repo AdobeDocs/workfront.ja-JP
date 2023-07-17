@@ -6,10 +6,10 @@ description: へのアクセス [!DNL Workfront] Adobe Experience Cloudを通じ
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 8bf83e73706b5e994d091dc56d43a9f027b01fe8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 0%
+source-wordcount: '500'
+ht-degree: 1%
 
 ---
 
@@ -86,3 +86,17 @@ ht-degree: 0%
 * 設定 **[!UICONTROL 環境設定]** 対象 [!DNL Adobe Experience Cloud]（プライマリ言語とセカンダリ言語の環境設定を含む）
 * 次にアクセス： **[!UICONTROL [!DNL Workfront]プロファイル]**. プロファイルに移動したら、「 **[!UICONTROL 詳細]** メニュー ![](assets/more-icon.png) を選択し、 **[!UICONTROL 編集]**. プロファイルについて詳しくは、 [設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL ログアウト]** Adobe Experience Cloud
+
+## パスワードを管理
+
+>[!NOTE]
+>
+>パスワードを変更すると、すべてのユーザーのパスワードが変更されます [!DNL Adobe Experience Cloud] アプリケーション。
+
+パスワードはで管理されていません [!DNL Workfront].
+
+組織が別のアプリケーションを使用してパスワードを管理している場合、そのプロバイダを通じてパスワードを変更します。
+
+パスワードが [!DNL Adobe]、 [パスワードアカウントのAdobeを変更](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) {target="_blank"}.
+
+パスワードの変更について詳しくは、管理者にお問い合わせください。

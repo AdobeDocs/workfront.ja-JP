@@ -7,10 +7,10 @@ description: Adobe Workfrontは、個人のタイムオフを管理、計上、�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 0%
+source-wordcount: '398'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 0%
 >* [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## アクセス要件
 
@@ -63,7 +62,7 @@ ht-degree: 0%
 
 ## での個人のオフタイムの設定 [!DNL Workfront]
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]をクリックし、プロフィール画像の横にあるユーザー名をクリックします。
+1. {#step1-click-profile-pic}
 
 1. 左側のパネルで、 **[!UICONTROL オフの時間]**.
 1. 個人の休日に希望する日付を選択します。
@@ -71,4 +70,4 @@ ht-degree: 0%
    1 日未満のオフを取っていて、オフの開始時間と終了時間を示す場合は、このチェックボックスをオフのままにします。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。\
-   オフタイムが [!DNL Workfront] システムを使用して、リソースグリッドなどのスケジューリングツールを実行します。 この時間に作業を割り当てると、予定時間がオフになったことをユーザーに知らせるツールヒントが表示されます。
+   オフタイムが [!DNL Workfront] システムを使用します。 この時間に作業を割り当てると、予定時間がオフになったことをユーザーに知らせるツールヒントが表示されます。
