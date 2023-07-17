@@ -5,10 +5,11 @@ title: テキストモード構文の概要
 description: テキストモードインタフェースを使用して、より複雑なビュー、フィルタ、グループ化、およびリストとレポート内のカスタマイズされたプロンプトを作成できます。 テキストモードを使用すると、標準モードインターフェイスでは使用できないフィールドとその属性にアクセスできます。
 author: Nolan
 feature: Reports and Dashboards
+role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -37,25 +38,22 @@ ht-degree: 0%
    * レポートまたはリストオブジェクトから 3 つ離れたオブジェクトをビューに表示できます。
    * グループ化、フィルタ、またはカスタムプロンプトで、メインオブジェクトから 2 つ以上離れたオブジェクトを参照することはできません。
 
-   **例：** タスクビューにPortfolio所有者の名前または GUID を表示できます。
+  **例：** タスクビューにPortfolio所有者の名前または GUID を表示できます。
 
-   ```
-   valuefield=project:portfolio:ownerID
-   ```
 
-   タスクビューでは、Portfolio所有者のグループ化、フィルタ、プロンプトの表示はできません。
+  `valuefield=project:portfolio:ownerID`
 
-   ```
-   project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa
-   ```
+  タスクビューでは、Portfolio所有者のグループ化、フィルタ、プロンプトの表示はできません。
 
-   次の例では、Portfolio所有者 ID は、リストのオブジェクトから離れた 3 つのオブジェクトです。
+  `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
-   Workfrontでのオブジェクトの階層について詳しくは、次を参照してください。
+
+  次の例では、Portfolio所有者 ID は、リストのオブジェクトから離れた 3 つのオブジェクトです。
+
+  Workfrontでのオブジェクトの階層について詳しくは、次を参照してください。
 
    * [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API エクスプローラー](../../../wf-api/general/api-explorer.md)
-
 
 * 可能な限り、ワイルドカードを使用してレポートやリストをより動的にし、異なるユーザーや同様のタイムラインに重複しないようにします。
 
@@ -63,9 +61,7 @@ ht-degree: 0%
 
 Workfrontフィールドまたはその属性をテキストモードで参照する場合、Workfrontでは、キャメルケースで名前を入力する必要があります。 この場合、単一名フィールドのスペルは小文字になります。 複合フィールドのスペルは、次のパターンに従います。
 
-```
-camelCaseSyntax
-```
+`camelCaseSyntax`
 
 >[!IMPORTANT]
 >
@@ -79,11 +75,7 @@ camelCaseSyntax
 
 **例：** プロジェクトの実際の完了日を参照する場合、テキストモードのレポート要素の作成時に使用するフィールドの名前は次のようになります
 
-```
-actualCompletionDate
-```
-
-。
+`actualCompletionDate`
 
 ## 様々なレポート要素のテキストモード構文
 
@@ -91,14 +83,14 @@ actualCompletionDate
 
 * ビューやグループ化では、コードと構文の行は似ています。
 
-   テキストモードでビューとグループを作成する際のコードのキーラインについては、次を参照してください。
+  テキストモードでビューとグループを作成する際のコードのキーラインについては、次を参照してください。
 
    * [テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [グループ化でのテキストモードの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * コードと構文の行は、フィルターとカスタムプロンプトで似ています。
 
-   詳しくは、以下を参照してください。
+  詳しくは、以下を参照してください。
 
    * [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
@@ -112,22 +104,17 @@ actualCompletionDate
 * [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-ビューまたはグループ化のコードの最も重要な行は、ビューの列またはグループ化で参照されるオブジェクトを識別する行です。 このフィールドがWorkfrontデータベースフィールドへの直接参照か、複数のフィールド間の計算かに応じて、コード行は
+ビューまたはグループ化のコードの最も重要な行は、ビューの列またはグループ化で参照されるオブジェクトを識別する行です。 このフィールドがWorkfrontデータベースフィールドへの直接参照か、複数のフィールド間の計算かに応じて、コード行は `valuefield` または `valueexpression`
 
-```
-valuefield
-```
+次の表に、ビューまたはグループ化で最も一般的なコード行を示します。
 
-または
-
-```
-valueexpression
-```
-
-。
-
-* [ビューおよびグループの値フィールド構文の概要](#valuefield-syntax-overview-for-views-and-groupings)
-* [ビューおよびグループの値式の構文の概要](#valueexpression-syntax-overview-for-views-and-groupings)
+| コードライン | 説明 |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------|
+| `valuefield` | ビューの列またはグループで参照されるオブジェクトを識別します。 これは、参照されるオブジェクトへの直接参照です。 |
+| `valueexpression` | ビューの列またはグループで参照されるオブジェクトを識別します。 これは、複数のフィールド間の計算です。 |
+| `valueformat` | 値フィールドまたは値式行で指定された値をWorkfrontが返す形式を識別します。 |
+| `width` | 列の幅をピクセル単位で指定します。 |
+| `stretch` | ビューで不要な領域を占める列を示します。 |
 
 >[!TIP]
 >
@@ -135,93 +122,48 @@ valueexpression
 >
 >  プロジェクトリストまたはレポートでプロジェクト名でグループ化するには、第 1 層グループに対して次の行を使用します。
 >
+>  `group.0.valuefield=name`
 >  
-```>
->  group.0.valuefield=name
->  ```>
->* If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
+>* ビュー内の複数の列を同じ列で編集する場合（共有列の場合と同様）、各列のコードの各行は列番号で始まることに注意してください。
 >
->  
-Use the following format to identify the first column of a view: 
+>  ビューの最初の列を識別するには、次の形式を使用します。
 >
+>  `column.0.valuefield=name`
 >  
-```>
->  column.0.valuefield=name
->  ```>
->  For information about sharing columns, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md). 
+>  列の共有について詳しくは、 [表示：1 つの共有列の複数の列から情報を結合](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
+#### `Valuefield` ビューとグループの構文の概要
 
-
-```
-Valuefield
-```
-
-ビューとグループの構文の概要 {#valuefield-syntax-overview-for-views-and-groupings}
-
-```
-Valuefield=
-```
-
-は、ビューとグループの中で、直接参照するオブジェクトを識別するコードの重要な行です。
+`Valuefield=` は、ビューとグループの中で、直接参照するオブジェクトを識別するコードの重要な行です。
 
 フィールドを直接参照する構文は、グループ化とビューで同じです。
 
-次のルールは、
-
-```
-valuefield
-```
-
-行：
+次のルールは、 `valuefield` 行：
 
 * フィールドを直接参照するには、キャメルケースを使用します。
 
-   **例：** タスクビューでタスクの実績完了日を参照するには、次の行を使用します。
+  **例：** タスクビューでタスクの実績完了日を参照するには、次の行を使用します。
 
-   ```
-   valuefield=actualCompletionDate
-   ```
+  `valuefield=actualCompletionDate`
 
 * キャメルケースとコロンを使用して、同じオブジェクトに対して互いに関連するフィールドを区切ります。
 
-   **例：** タスク・ビューでプロジェクト計画完了日を参照するには、次の行を使用します。
+  **例：** タスク・ビューでプロジェクト計画完了日を参照するには、次の行を使用します。
 
-   ```
-   valuefield=project:plannedCompletionDate
-   ```
+  `valuefield=project:plannedCompletionDate`
 
-   Workfrontデータベース内でオブジェクトが相互に参照している方法について詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
+  Workfrontデータベース内でオブジェクトが相互に参照している方法について詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
 * カスタムフィールドを参照する場合は、インターフェイスに表示されるとおりに、フィールド名を使用します。
 
-   **例：** タスクビューで Additional Details というラベルの付いたプロジェクトカスタムフィールドを参照するには、次の行を使用します。
+  **例：** タスクビューで Additional Details というラベルの付いたプロジェクトカスタムフィールドを参照するには、次の行を使用します。
 
-   ```
-   valuefield=project:Additional Details
-   ```
+  `valuefield=project:Additional Details`
 
- 
+#### `Valueexpression` ビューとグループの構文の概要
 
-```
-Valueexpression
-```
-
-ビューとグループの構文の概要 {#valueexpression-syntax-overview-for-views-and-groupings}
-
-次を
-
-```
-valuefield=
-```
-
-次のコード行：
-
-```
-valueexpression=
-```
-
-2 つ以上のフィールド間の計算を参照する場合に、テキストモードでビューとグループを作成するとき。
+次を `valuefield=` 次のコード行： `valueexpression=` 2 つ以上のフィールド間の計算を参照する場合に、テキストモードでビューとグループを作成するとき。
 
 >[!TIP]
 >
@@ -231,44 +173,28 @@ valueexpression=
 
 計算されたグループを作成する方法は、ビューで計算された列を作成する方法と似ています。
 
-次のルールは、
-
-```
-valueexpression
-```
-
-行：
+次のルールは、 `valueexpression` 行：
 
 * フィールドを直接参照し、各フィールドを中括弧で囲むには、キャメルケースを使用します。
 
-   **例：** タスク列に [ タスク名 ] フィールドを表示するには、次のコマンドを使用します。
+  **例：** タスク列に [ タスク名 ] フィールドを表示するには、次のコマンドを使用します。 `valueexpression`、次の行を使用します。
 
-   ```
-   valueexpression
-   ```
+  `valueexpression={name}`
 
-   、次の行を使用します。
-
-   ```
-   valueexpression={name}
-   ```
 
 * キャメルケースとピリオドを使用して、関連するフィールドを区切ります。
 
-   **例：** タスクレポートで、タスク名と連結されたプロジェクト名を表示するには、次の行を使用します。
+  **例：** タスクレポートで、タスク名と連結されたプロジェクト名を表示するには、次の行を使用します。
 
    * ビューでは、次のようになります。
 
-      ```
-      valueexpression=CONCAT({project}.{name},' - ',{name})
-      ```
+     `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
    * グループ内：
 
-      ```
-      group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
-      ```
-   Workfrontデータベース内でオブジェクトが相互に参照している方法について詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
+     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+
+  Workfrontデータベース内でオブジェクトが相互に参照している方法について詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
 * カスタムフィールドを参照する場合は、次のルールを使用します。
 
@@ -277,63 +203,51 @@ valueexpression
    * フィールドを中括弧で囲みます。
    * オブジェクトに関連するフィールドはピリオドで区切ります。
 
-   **例：** 値式行のタスクビューに [ 追加の詳細プロジェクトのカスタムフィールド ] を表示するには、次の行を使用します。
+  **例：** 値式行のタスクビューに [ 追加の詳細プロジェクトのカスタムフィールド ] を表示するには、次の行を使用します。
 
-   ```
-   valueexpression={project}.{DE:Additional Details}
-   ```
+  `valueexpression={project}.{DE:Additional Details}`
 
-* ワイルドカードを
+* ワイルドカードを `valueexpression` しかし、 `valuefield` 行
 
-   ```
-   valueexpression
-   ```
+  ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-   しかし、
 
-   ```
-   valuefield
-   ```
+#### `Valueformat` ビューとグループの概要
 
-   行
+ビューまたはグループ化で 2 番目に重要なコード行は、 `valueformat=` 行 これにより、Workfrontは、
+`valuefield` または value 式の行。 ただし、 `valueformat` 行の場合、
+`valueexpression`:
 
-   ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+`valueformat=HTML`
 
-```
-Valueformat
-```
+追加の `valueformats` の値については、次の記事も参照してください。
 
-の概要
+* [テキストモードのレポートで日付を書式設定する](../../reports/text-mode/format-dates-in-text-mode-reports.md)
+* [テキストモードのレポートで数値、通貨、割合の値を書式設定します](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-ビューまたはグループ化で 2 番目に重要なコード行は、
+#### `width` ビューの概要
 
-```
-valueformat=
-```
+`width=` は、各列の幅をピクセル単位で指定できるコード行です。 Workfrontでは各フィールドに推奨される幅が提供されますが、フィールドの種類や形式に応じて異なりますが、調整を行うこともできます。
 
-行 これにより、Workfrontは、
+追加の `usewidths=true` 列に指定された幅を適用するコードの行。
 
-```
-valuefield
-```
+**例：** 幅が 80 ピクセルの列を表示するには、次の行を使用します。
 
-または value 式の行。 ただし、
+`width=80`
 
-```
-valueformat
-```
+`usewidths=true`
 
-行の場合、
+#### `stretch` ビューの概要
 
-```
-valueexpression
-```
+この `stretch` は、ビューで不要な領域を占める列を識別するために使用されます。 一般的なユーザーのワークスペースのユーザーインターフェイスの幅は約 850 ピクセルです。 つまり、4 列（それぞれ 150 ピクセル）のビューがあり、そのビューが 850 ピクセルのうち 600 ピクセルを占有している場合です。 UI には、ストレッチの割合が指定された列に追加される、250 個の追加のピクセルがあります。
 
-:
+追加のコード行を使用する場合、列の拡張は適用されます。 `usewidths=true` ビュー内の列の少なくとも 1 つに対して
 
-```
-valueformat=HTML
-```
+**例：** 列がビュー内の空白スペースの 70%を使用できることを示すには、次の行を使用します。
+
+`stretch=70`
+
+`usewidths=true`
 
 ### フィルターとカスタムプロンプトの構文
 
@@ -355,20 +269,20 @@ valueformat=HTML
 * filter ステートメントのオブジェクトを参照するコードの行。 フィルターオブジェクトにキャメルケースを使用します。
 * フィルターオブジェクトと、フィルターオブジェクトの値の修飾子を参照するコード行。 この行のフィルターオブジェクトにキャメルケースを使用します。
 
-   >[!TIP]
-   >
-   >範囲を参照する場合は、2 つの修飾子行が必要です。
+  >[!TIP]
+  >
+  >範囲を参照する場合は、2 つの修飾子行が必要です。
 
 * 複数のフィルターステートメントを接続するステートメントコネクタ：
 
    * および
 
-      これは、フィルターステートメント間のデフォルトのコネクタです。
+     これは、フィルターステートメント間のデフォルトのコネクタです。
 
    * または
 
-      >[!TIP]
-      >
-      >Statement Connectors では大文字と小文字が区別され、常に大文字が使用されます。 「AND」はテキストモードで省略できます。
+     >[!TIP]
+     >
+     >Statement Connectors では大文字と小文字が区別され、常に大文字が使用されます。 「AND」はテキストモードで省略できます。
 
 * ワイルドカードを使用してフィルターをより動的にし、現在の時刻やログインしているユーザーに合わせてカスタマイズできます。 ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
