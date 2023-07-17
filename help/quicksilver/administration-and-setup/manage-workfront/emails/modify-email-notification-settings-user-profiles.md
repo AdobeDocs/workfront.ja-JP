@@ -9,9 +9,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Adobe Workfront管理者、または Planner のアクセスレベルで他の�
 
 一括通知設定を構成する場合、選択したユーザーに共通する設定のみを変更できます。
 
-また、一度に 1 人のユーザーに対する電子メール通知を設定することもできます。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+また、自分のプロファイルを含め、一度に 1 人のユーザーに対する電子メール通知を設定することもできます。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## アクセス要件
 

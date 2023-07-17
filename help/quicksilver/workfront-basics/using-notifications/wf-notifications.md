@@ -6,9 +6,9 @@ description: Adobe Workfrontは、モバイルデバイスで電子メール通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 2%
 ## メール通知
 
 [!DNL Workfront] は、Workfrontのアクティビティについてユーザーに警告する電子メール通知を多数送信し、役に立つ情報やリンクを提供します。
+
+電子メール通知の環境設定を変更するには、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -68,7 +70,7 @@ ht-degree: 2%
 
 * 日別ダイジェスト電子メールに含まれる通知は、様々な条件でグループ化されます。 例えば、 **[!UICONTROL 所有するプロジェクトに関する情報]**&#x200B;の場合、イベントはプロジェクト名でグループ化されます。
 
-   の **[!UICONTROL 通信]** カテゴリに分類すると、通知は通信が発生したオブジェクト別にグループ化されます。
+  の **[!UICONTROL 通信]** カテゴリに分類すると、通知は通信が発生したオブジェクト別にグループ化されます。
 
 * 日次ダイジェスト電子メールには、特定の領域で発生したイベント ( **所有しているプロジェクトに関する情報**) を、配信に選択された時間の 24 時間以内に設定します。
 * 日別のダイジェスト配信で選択された時間のタイムゾーンは、ブラウザーで設定されているタイムゾーンと一致します。
