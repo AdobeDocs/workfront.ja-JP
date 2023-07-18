@@ -8,9 +8,9 @@ description: データストアは、データベースやシンプルなテー�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL データストレージサイズ（MB 単位）]</p> </td> 
-      <td> <p>データストアのサイズを、総内部データストレージから割り当てます。</p> <p>注意：予約金額はいつでも変更できます。</p>  </td> 
+      <td> <p>データストアのサイズを、総内部データストレージから割り当てます。</p> <p> デフォルト値は 10 MB です。 500 MB の割り当てで、未割り当てのデータストア容量が 10 MB 未満の場合、デフォルトのサイズは未割り当てのストレージの容量です。  <p>注意：予約金額はいつでも変更できます。</p>  </td> 
      </tr> 
     </tbody> 
    </table>
