@@ -7,7 +7,7 @@ description: リソース・プランナのユーザーとロールの時間と�
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
+source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Workfrontの管理者は、「セットアップ」の「リソース管理」�
 
 * 40 時間のシステムデフォルトスケジュール
 * 20 時間のユーザースケジュール
-* 0.75 のユーザー FTE
+* 0.8 のユーザー FTE
 
 | 工数計算方法（システム設定） | **ユーザーのスケジュールからの時間** | **デフォルトのスケジュールからの時間** | **ユーザー FTE フィールド** | **生産資源プランナで使用可能な時間** | **リソース・プランナで使用可能な FTE** |
 |---|---|---|---|---|---|
