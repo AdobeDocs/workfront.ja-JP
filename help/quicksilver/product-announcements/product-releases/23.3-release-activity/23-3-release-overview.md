@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 20aac191f6bca42610575384c398306e61f59780
+source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
 workflow-type: tm+mt
-source-wordcount: '2759'
+source-wordcount: '2657'
 ht-degree: 0%
 
 ---
@@ -418,22 +418,22 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>                
-                <tr>
+ <!--               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドラッグ&amp;ドロップでリンクされたフォルダーにドキュメントを移動する際のエクスペリエンスを向上</a></p> 
-                        <p>ドキュメントをリンクされたフォルダーにドラッグ&amp;ドロップするプロセスに、いくつかの透明性が追加されました。 これで、リンクされたフォルダに移動したドキュメントは、完全に移動されるまでドキュメントリストに残ります。 ドキュメントのオプションは無効ですが、ドキュメントの移動中にドキュメントを開いて表示することはできます。 ドキュメントはリンクされたフォルダ内に完全に配置されるので、ドキュメントの転送が完了すると、ドキュメントリストから消えます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
+                        <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 8 日</p>
+                                <p>Preview release: June 7, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 6 月 16 日</span></p>
+                                <p><span class="preview">Production release: June 15, 2023</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの作成時に、Adobe Experience Manager Assets にリンクされたフォルダーを自動的に作成する</a></p>
