@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >他のユーザーを編集できるプランライセンスを持つグループ管理者およびユーザーは、そのユーザーのプロファイルの編集時に、システムレベルまたはグループレベルのスケジュールを別のユーザーに追加できます。
+
+生産資源計画でのスケジュールの使用方法の詳細は、 [スケジュールの概要](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) および [リソースプランナーの概要](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## アクセス要件
 

@@ -7,9 +7,9 @@ description: リソース・プランナのユーザーとロールの時間と�
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1379'
 ht-degree: 1%
 
 ---
@@ -49,30 +49,44 @@ Workfrontの管理者は、「セットアップ」の「リソース管理」�
 * システムのデフォルトのスケジュールとユーザーの FTE。
 * ユーザーのスケジュール。
 
-詳しくは、 [リソース管理環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+![ユーザースケジュールのシステム設定](assets/setup-resource-mgmt.png)
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><br></p>
-<p> <img src="assets/nwe-resource-management-system-setting-user's-schedule-350x157.png" style="width: 350;height: 157;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p>
-<p>(NOTE: The determines how to calculate resource availability at the system level.For more information about defining the Resource Management preferences for the system, see Configure Resource Management preferences.)</p>
-<p>Based on how this setting is configured, the availability of the users in the Resource Planner (hours as well as FTE availability) is calculated by using the following methods: </p>
-<ul>
-<li><strong>The Default Schedule</strong>: The Default Schedule of the system and the user FTE are used to determine the Available Hours and FTE value for the user in the Resource Planner. The Schedule of the user is ignored. In this case:
-<ul>
-<li> The <strong>Available Hours</strong> in the<strong>Resource Planner</strong> are calculated using the following formula:<br><code>User Available Hours = Default Schedule Hours * User FTE value</code> <span style="color: #dc143c;">( NOTE: this is the correct value. If this shows as a division in other articles, that is wrong. It's a multiplication between these 2 values).</span><br>For example, if the Default Schedule has 40 hours a week available for work, and the user FTE is 0.5, the user is available to work for 20 hours a week in the Resource Planner.<br>For more information about schedules, including the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a></li>
-<li style="font-weight: normal;"> The <strong>Available FTE</strong> for the user in the<strong>Resource Planner</strong> is the same as the user FTE specified in the user settings. <br>For example, if the user FTE is 0.5 in the user settings, the available FTE of the user is 0.5 in the Resource Planner. For more information about the value of the user FTE as it displays in the user settings, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br></li>
-</ul></li>
-<li><strong>The User's Schedule</strong>: The Schedule of the user is used to determine the availability of the user in the Resource Planner. The value of the user FTE is ignored. In this case:
-<ul>
-<li> The <strong>Available Hours</strong> in the<strong>Resource Planner</strong> are the same as the Hours from the Schedule of the user.<br>For example, if the Schedule of the user has 40 hours a week available for work, the user is available to work for 40 hours a week in the Resource Planner. </li>
-<li> The <strong>Available FTE</strong> in the<strong>Resource Planner</strong> is calculated by the following formula:<br><em><code>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code><br></em>For example, if the Schedule of the user has 20 hours available to work, and the Default Schedule in Workfront has 40 hours available to work, the user's FTE is 0.5.<br>For more information about schedules, including the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</li>
-</ul></li>
-</ul> <note type="note">
-If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
-</note>
-</div>
--->
+>[!NOTE]
+>
+>これにより、システムレベルでのリソースの可用性を計算する方法が決まります。 システムのリソース管理プリファレンスの定義の詳細については、 [リソース管理環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+この設定の構成に基づいて、リソースプランナーでのユーザーの可用性（時間数および FTE 可用性）は、次の方法で計算されます。
+
+* **デフォルトのスケジュール**:システムのデフォルト・スケジュールとユーザー FTE を使用して、リソース・プランナのユーザーの使用可能時間と FTE 値を決定します。 ユーザーのスケジュールは無視されます。 この場合、次のようになります。
+
+   * この **利用可能な時間** 「生産資源プランナ」では、次の式を使用して計算されます。
+
+     `User Available Hours = Default Schedule Hours * User FTE value`
+
+     たとえば、デフォルト・スケジュールで作業可能な時間が週に 40 時間、ユーザー FTE が 0.5 の場合、ユーザーはリソース・プランナで週に 20 時間作業可能です。
+
+     デフォルトのスケジュールを含むスケジュールの詳細については、 [スケジュールの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * この **利用可能な FTE** リソース・プランナのユーザーの場合、ユーザー設定で指定されたユーザー FTE と同じです。
+たとえば、ユーザー設定でユーザー FTE が 0.5 の場合、ユーザーの使用可能な FTE はリソースプランナーで 0.5 となります。 ユーザー設定に表示されるユーザー FTE の値について詳しくは、 [ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+* **ユーザーのスケジュール**:ユーザーのスケジュールは、リソース・プランナでのユーザーの可用性を決定するために使用されます。 ユーザーの FTE の値は無視されます。 この場合、次のようになります。
+
+   * この **利用可能な時間** リソース・プランナの時間は、ユーザーのスケジュールからの時間と同じです。
+
+  たとえば、ユーザーのスケジュールが作業に使用可能な週に 40 時間ある場合、ユーザーはリソース・プランナーで週に 40 時間働くことができます。
+
+   * この **利用可能な FTE** 「生産資源プランナ」では、次の式で計算されます。
+
+  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+
+  例えば、ユーザーのスケジュールが 20 時間有効で、Workfrontのデフォルトスケジュールが 40 時間有効な場合、ユーザーの FTE は 0.5 になります。
+
+  デフォルトのスケジュールを含むスケジュールの詳細については、 [スケジュールの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+>[!NOTE]
+>
+>ユーザーがスケジュールに関連付けられていない場合、ユーザーの「使用可能な時間」は「デフォルトのスケジュール」を使用して計算されます。
 
 ### リソース・プランナの役割の使用可能時間と工数を計算します。 {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
 
@@ -104,10 +118,18 @@ If the user is not associated with a schedule, the Available Hours for the user 
 
 | 工数計算方法（システム設定） | **ユーザーのスケジュールからの時間** | **デフォルトのスケジュールからの時間** | **ユーザー FTE フィールド** | **生産資源プランナで使用可能な時間** | **リソース・プランナで使用可能な FTE** |
 |---|---|---|---|---|---|
-| **既定のスケジュール** | 無視 | 40 | 0.75 | **30** （計算済み） | **0.75** |
+| **既定のスケジュール** | 無視 | 40 | 0.8 | **32** （計算済み） | **0.8** |
 | **ユーザーのスケジュール** | 20 | 40 | 無視 | **20** | **0.5** （計算済み） |
 
 スケジュールの例外とタイムオフは、計画時間または工数の量に影響を与える場合があります。 詳しくは、 [リソース管理環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+ユーザー別と時間別のリソースプランナービューの例：
+
+![ユーザー別および時間別のリソースプランナー表示](assets/resource-planner-by-user-by-hours.png)
+
+ユーザー別および FTE 別のリソースプランナービューの例：
+
+![ユーザー別および FTE 別のリソースプランナービュー](assets/resource-planner-by-user-by-fte.png)
 
 ## リソース・プランナのユーザーおよびジョブ・ロールのその他すべての時間および FTE 値を計算します。 {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 
