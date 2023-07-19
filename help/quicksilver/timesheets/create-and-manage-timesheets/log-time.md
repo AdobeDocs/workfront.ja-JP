@@ -6,9 +6,9 @@ description: 作業項目の時間を&nbsp;Adobe Workfrontに記録して、作�
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Adobe Workfrontの作業項目の作業時間をログに記録して、作業に費やした時間を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。 記録した時刻がタイムシートに表示されます。
 
@@ -361,13 +361,13 @@ Workfrontの次の領域で時間をログに記録できます。
 
 #### セクションを更新{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> 問題に関する時間をログに記録できます。 <span class="preview">プロジェクトとタスク</span> 新しいコメントベータ版エクスペリエンスを有効にする場合は、更新セクションを参照してください。
+> 現在のアップデートセクションと新しいアップデートセクションの間では、ユーザーインターフェイスのルックアンドフィールに若干の違いがあります。 この節の情報は、新しいコメントエクスペリエンスで表示される機能を指します。
 >
->詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>新しい更新の節について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 プロジェクト、タスク、またはイシューの [ 更新 ] セクションに時間を記録するには、次の情報が必要です。
 
@@ -383,9 +383,9 @@ Workfrontの次の領域で時間をログに記録できます。
 
 1. プロジェクト、タスク、またはイシューに移動します。
 1. 左のパネルで、「 」を選択します。 **更新**.
-1. クリック **ログ時間**.
+1. クリック **ログ時間**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">[ ログ時刻 ] ダイアログボックスが表示されます。 </span>
+   [ ログ時刻 ] ダイアログボックスが表示されます。
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Workfrontの次の領域で時間をログに記録できます。
    >   
    >   「 Enter Days 」ボックスの右上隅に、1 日に含まれる時間数が示されます。
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. 次の情報を指定します。
 

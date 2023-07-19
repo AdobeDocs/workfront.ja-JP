@@ -6,7 +6,7 @@ description: プロジェクト内でタスクを作成できるのは、プロ�
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 1%
@@ -127,14 +127,14 @@ ht-degree: 1%
       * タスク名
       * 概要
       * 割り当て
-      * カスタムForms
+      * カスタムフォーム
       * 財務
       * 設定
 
-         タスクに関連するすべてのフィールドを定義する方法については、 [タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+        タスクに関連するすべてのフィールドを定義する方法については、 [タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
    1. （条件付きおよびオプション）タスクを繰り返し実行する場合は、 **繰り返し頻度** フィールドに入力します。 繰り返しタスクの作成について詳しくは、 [繰り返しタスクの作成](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
    1. （オプション）「 **ドキュメント** 左側のパネルでドキュメントを新しいタスクに添付し、 **ファイルの追加またはリンク** を使用して、コンピューター、別のサービス、またはコンピューターまたは別のサービスからドキュメントやフォルダーをタスクに追加します。
-
 
 1. （条件付き）クリックした場合 **タスクをさらに追加** 手順 5 で、インライン編集を使用してタスク情報の入力を開始し、Enter キーを押します。
 
@@ -150,13 +150,13 @@ ht-degree: 1%
 
    * クリックした場合 **新規タスク** 手順 5 で、をクリックします。 **タスクを作成** 変更を保存し、プロジェクトに新しいタスクを追加します。
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
    * クリックした場合 **タスクをさらに追加** 手順 5 で、次の操作を実行します。
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 

@@ -7,16 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
 
 # 新しいコメントエクスペリエンス
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビュー環境でのみ、すべてのお客様が利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、および選択したオブジェクトの更新セクションのパフォーマンスの向上が含まれます。
 
@@ -74,9 +74,9 @@ For additional resources for the new commenting experience, also see the followi
 >
 >2022 年 6 月より前に、現在のエクスペリエンスの「更新」セクションを表示すると、これらのオブジェクトに関するコメントやシステム更新を表示できます。
 >* 問題
->* <span class="preview">プロジェクト</span>
->* <span class="preview">タスク</span>
->* <span class="preview">ドキュメント</span>
+>* プロジェクト
+>* タスク
+>* ドキュメント
 
 次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
 
@@ -159,7 +159,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -231,7 +231,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -330,7 +330,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -372,7 +372,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -491,7 +491,7 @@ For additional resources for the new commenting experience, also see the followi
 
 * 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
-   * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>
+   * 問題、プロジェクト、タスク、ドキュメント
 
   Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -7,10 +7,10 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビュー環境でのみ、すべてのお客様が利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <span class="preview">プロジェクト、タスク、ドキュメント</span>.
+> * イシュー、プロジェクト、タスクおよびドキュメント。
 >
 >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
 >
@@ -115,13 +115,13 @@ ht-degree: 3%
      <li>ボード領域のカード*</li>
       これが目標とカードの唯一の経験です。
      </li> 
-     <li><span class="preview">プロジェクト</span></li>
+     <li>プロジェクト</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>問題</li> 
-     <li><span class="preview">タスク</span></li>
-     <li><span class="preview">ドキュメント</span></li>
+     <li>タスク</li>
+     <li>ドキュメント</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->新しいコメントベータ版エクスペリエンスを有効にすると、コメントは次の上位のオブジェクトに表示されます。
+>新しいコメントエクスペリエンスを有効にすると、コメントは次の上位のオブジェクトに表示されます。
 >
 >* 問題
->* <span class="preview">プロジェクト</span>
->* <span class="preview">タスク</span>
+>* プロジェクト
+>* タスク
 >
 >詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Adobe Workfrontの管理者とグループ管理者は、他のユーザーと�
 
 別のユーザーに代わって行われたコメントは、コメントに示されます。
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">新しいコメントエクスペリエンスを使用する場合、コメントは別のユーザーとしてログインしたユーザーとして追加され、他のユーザーに代わってコメントを追加していることを示すものではありません。
+>新しいコメントエクスペリエンスを使用する場合、コメントは別のユーザーとしてログインしたユーザーとして追加され、他のユーザーに代わってコメントを追加していることを示すものではありません。
 >
->例えば、Workfront管理者が別のユーザーとしてログインした場合、コメントに関連付けられているユーザーはWorkfront管理者になります。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>例えば、Workfront管理者が別のユーザーとしてログインした場合、コメントに関連付けられているユーザーはWorkfront管理者になります。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 グループ管理者は、別のユーザーの代わりにコメントを作成できますが、そのコメントは削除できません。 別のユーザーに代わって作成したコメントを削除できるのは、Adobe Workfront管理者のみです。

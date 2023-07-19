@@ -6,9 +6,9 @@ description: 単一のプロジェクトの一部として繰り返す必要の�
 author: Alina
 feature: Work Management
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,18 @@ ht-degree: 0%
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
 1. クリック **その他のオプション** 次に、 **タスク名** フィールドに入力します。
-1. 新しいタスクを追加した場合と同じ方法で、タスクの更新を続行します。 新しいタスクの追加の詳細については、 [プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+1. 新しいタスクを追加した場合と同じ方法で、タスクの更新を続行します。 新しいタスクの追加の詳細については、 [プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+   >[!TIP]
+   >
+   >   新しい定期的なタスクで表示される期間と予定時間は、各繰り返しの期間と予定時間です。 親タスクの期間は、最も早いタスクの計画開始日から最も遅いタスクの計画完了日までの時間です。 親タスクの予定時間は、すべての繰り返しからのすべての予定時間の合計です。
+
 1. クリック **概要** をクリックします。
 1. 下にスクロールして **繰り返しスケジュール** 「 」セクションで、 **これを定期的なタスクにする** オプション。
 
    ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
-1. 内 **頻度** ドロップダウンリストで、タスクを実行する時間単位の数と時間単位の種類を選択します。 次のオプションから選択します。
+1. 内 **頻度** ドロップダウンリストで、タスクを実行する時間単位の数と時間単位の種類を選択します。 次のオプションから選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,4 +131,4 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >子を個別に変更した後に親の繰り返しを変更すると、子間または子と親間で異なる情報が発生する場合があります。 詳しくは、 [繰り返しタスクの概要](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   >子を個別に変更した後に親の繰り返しを変更すると、子間または子と親間で異なる情報が発生する場合があります。 詳しくは、 [繰り返しタスクの概要](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

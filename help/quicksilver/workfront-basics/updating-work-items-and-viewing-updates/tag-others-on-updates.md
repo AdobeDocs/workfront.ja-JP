@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 これは、プレビュー環境でのみ使用できます。
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * 問題、 <span class="preview" style="display-inline">プロジェクト、タスク、ドキュメント</span>.
+> * イシュー、プロジェクト、タスクおよびドキュメント。
 >
 >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
 >
@@ -138,16 +138,16 @@ ht-degree: 0%
 
 新しいコメントエクスペリエンスでの更新に関して、他のユーザーにタグを付けるには、次の方法を使用します。
 
-* <span class="preview"> **自動**:ユーザーがコメントや返信を追加すると、自動的にタグ付けされ、コメントボックスの「ユーザーまたはチームにタグ付け」領域に追加されます。 </span>
+* **自動**:ユーザーがコメントや返信を追加すると、自動的にタグ付けされ、コメントボックスの「ユーザーまたはチームにタグ付け」領域に追加されます。
 * **手動**:ユーザーを手動でコメントボックスの「ユーザーにタグを付ける」領域に追加する場合。
 
 また、コメントを編集または返信する際に、誤ってタグ付けされたユーザーを削除することもできます。
 
-1. 作業項目の更新を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">コメントの所有者は、自動的にタグ付けされ、コメントボックスの「担当者またはチームにタグ付け」領域に追加されます。 </span>
+1. 作業項目の更新を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). コメントの所有者は、自動的にタグ付けされ、コメントボックスの「担当者またはチームにタグ付け」領域に追加されます。
 
    >[!TIP]
    >
-   ><span class="preview">コメントの所有者は、コメントボックスの「ユーザーまたはチームにタグ付け」領域で自分の名前を表示できません。</span>
+   >コメントの所有者は、コメントボックスの「ユーザーまたはチームにタグ付け」領域で自分の名前を表示できません。
 
 1. 内 **担当者またはチームのタグ付け** フィールドに、含めるユーザーまたはチームの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 

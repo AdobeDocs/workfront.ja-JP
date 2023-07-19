@@ -6,9 +6,9 @@ description: 自分で作成したタスクに関する情報、または Contri
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ ht-degree: 4%
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">発生ごとの所要時間</td> 
-      <td> <p>これは、繰り返しタスクの親にのみ表示されます。 各繰り返しタスクの期間が表示されます。 繰り返しタスクの作成について詳しくは、 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクの作成</a>. </p> <p> <b>メモ</b>
+      <td> <p>これは、繰り返しタスクの親にのみ表示されます。 タスクが作成された時点で定義された、各繰り返しタスクの期間が表示されます。 繰り返しタスクの作成について詳しくは、 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクの作成</a>. </p> <p> <b>メモ</b>
 
    個々の定期タスクで変更された期間は、このフィールドに示される値を表示しません。 </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ ht-degree: 4%
    </tr> 
    <tr> 
    <td role="rowheader">予定時間数</td> 
-   <td> <p>タスクの予定時間数を時間単位で指定します。 タスクの担当者がタスクを完了するのにかかる実際の時間です。 [ 期間の種類 ] が [ 割り当ての計算 ] に設定されている場合は、タスクの予定時間数のみ指定できます。 期間のタイプについて詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>.</p> </td> 
+   <td> <p>タスクの予定時間数を時間単位で指定します。 タスクの担当者がタスクを完了するのにかかる実際の時間です。 [ 期間の種類 ] が [ 割り当ての計算 ] に設定されている場合は、タスクの予定時間数のみ指定できます。 期間のタイプについて詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>.</p> 
+   <b>メモ</b>
+   <p>
+   繰り返しタスクを作成する場合、「予定時間」は各タスクの時間です。 親タスクの予定時間は、すべての発生からのすべての予定時間の合計です。 繰り返しタスクの作成について詳しくは、 <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクの作成</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">割り振り</td> 
