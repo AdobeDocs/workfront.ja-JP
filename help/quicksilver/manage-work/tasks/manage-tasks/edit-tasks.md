@@ -4,9 +4,10 @@ navigation-topic: manage-tasks
 title: タスクを編集
 description: 自分で作成したタスクに関する情報、または Contribute または Manage 権限を持っているタスクに関する情報を編集できます。
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 4%

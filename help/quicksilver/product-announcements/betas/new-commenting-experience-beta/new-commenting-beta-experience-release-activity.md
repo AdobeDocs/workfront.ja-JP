@@ -5,9 +5,9 @@ title: 新しいコメントエクスペリエンスリリースアクティビ�
 description: Adobe Workfrontの新しいコメント作成エクスペリエンスの毎週のリリースアクティビティを確認します。
 author: Alina
 feature: Product Announcements
-role: User
+role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 3%
