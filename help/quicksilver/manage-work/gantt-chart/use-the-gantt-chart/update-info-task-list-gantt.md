@@ -6,9 +6,9 @@ description: タスク一覧の [ ガントチャート ] には、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 1%
 
    この **[!UICONTROL 自動保存]** 「 」オプションはデフォルトで選択されています。この場合、すべての変更が自動的に保存されます。
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![ガントチャートアイコンをクリックします。](assets/click-gantt-chart-icon.png)
 
 1. （オプション） **[!UICONTROL プランモード]** アイコンと選択 **[!UICONTROL 手動での標準保存]** または **[!UICONTROL タイムライン計画]** をクリックして、手動で変更を保存します。
 
@@ -131,7 +131,7 @@ ht-degree: 1%
 
    すべての変更は、 **[!UICONTROL 自動保存]** 」オプションが有効になっている。 これはデフォルトで有効になっています。
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![ガントチャートアイコンをクリックします。](assets/click-gantt-chart-icon.png)
 
 1. （オプション） **[!UICONTROL プランモード]** アイコンと選択 **[!UICONTROL 手動での標準保存]** または **[!UICONTROL タイムライン計画]** をクリックして、手動で変更を保存します。
 
@@ -178,7 +178,7 @@ ht-degree: 1%
 1. 変更するプロジェクトに移動します。
 1. 内 **[!UICONTROL タスク]** 」領域で、 **[!UICONTROL ガントチャート]** アイコン
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![ガントチャートアイコンをクリックします。](assets/click-gantt-chart-icon.png)
 
    すべての変更は、 **[!UICONTROL 自動保存]** 」オプションが有効になっている。 これはデフォルトで有効になっています。
 
