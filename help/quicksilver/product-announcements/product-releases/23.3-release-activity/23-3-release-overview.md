@@ -4,20 +4,18 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # 23.3 リリースの概要
 
-このページでは、2023 年 7 月 18 日の週に予定されている 23.3 リリースに含まれる機能について説明します。
+このページでは、23.3 リリースに含まれる機能について説明します。 これらの機能強化は、2023 年 7 月 20 日および 21 日の 23.3 リリースで実稼動環境で使用可能になりました。
 
-このページの機能強化は、プレビュー環境で利用できます。 23.3 リリースが予定されている実稼動版リリースに近づいているので、このページは更新され、機能強化が加えられます。
-
-23.3 リリースウェビナーは 2023 年 6 月 29 日に開催されます。 以下が可能です。 [ウェビナーへの登録はこちら](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+23.3 リリースウェビナーは 2023 年 6 月 30 日に開催されました。 以下が可能です。 [オンデマンド録画をこちらで閲覧するには、オンセミナーに登録してください](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">オフサイクル機能（23.3 のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
 
@@ -116,7 +114,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの「アジャイル・ビュー」には、かんばんボードが表示されます</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの「アジャイル・ビュー」には、かんばんボードが表示されます</a></p>
                         <p>プロジェクトの「アジャイルビュー」には、かんばんボード内の作業をフィルタリング、グループ化、並べ替える機能が追加されました。 新しい柔軟なビューデザインには、堅牢な検索機能と、ボードから直接プロジェクトに新しいタスクを追加する機能が含まれています。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -132,7 +130,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボード列で並べ替え</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボード列で並べ替え</a></p>
                         <p>ボード上の列のカードを並べ替える機能が追加されました。 並べ替えの基準となるオプションを選択すると、すべての列が並べ替えられます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -189,7 +187,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：2023 年 6 月 16 日</p>
                             </li>
                             <li>
-                                 <p>先行オプトインの実稼動リリース：2023 年 6 月 23 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 6 月 23 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：2023 年 5 月 11 日<br /></p>
                             </li>
                             <li>
-                                 <p>先行オプトインの実稼動リリース：2023 年 5 月 11 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 5 月 11 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：2023 年 4 月 28 日<br /></p>
                             </li>
                             <li>
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                 <s><p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</span></p></s>
+                                 <s><p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">すべてのお客様向けの実稼動版リリース：2023 年 5 月 19 日</span></p>
@@ -308,7 +306,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：2023 年 4 月 14 日<br /></p>
                             </li>
                             <li>
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 14 日 <span style="color: #ff0000;"> この機能は、Workfront Boards の初期の機能オプトインからのみ、実稼動環境で使用できます。</p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 14 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ ht-degree: 0%
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">有効なコストと請求率の日付</a><span style="color: #ff0000;"> プレビューの新機能</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">有効なコストと請求率の日付</a></p>
                         <p>日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -346,7 +344,7 @@ ht-degree: 0%
                             <li>
                                 <p>高速リリース版のお客様向けの実稼動リリース：発表は、23.3 実稼動版リリース以降</p>
                                 <p>すべてのお客様向けの実稼動版リリース：23.4 リリースの場合<br>
-                                <span style="color: #ff0000;"> 割り当て率上書き機能が、2023 年 6 月 30 日から 7 月 13 日までのプレビューで一時的に無効になりました。</span></p>
+                                割り当て率上書き機能が、2023 年 6 月 30 日から 7 月 13 日までのプレビューで一時的に無効になりました。</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ ht-degree: 0%
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームエクスペリエンス</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームエクスペリエンス</a></p>
                         <p>すべてのタイプのユーザーがWorkfrontを特定のニーズに合わせて利用できるようにするため、Home は大きなアップデートを受け取りました。 新しいホームエクスペリエンスは、ホームページの視覚的およびコンテンツをカスタマイズし、作業に最も関連する情報のみを柔軟に表示できるようにします。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>

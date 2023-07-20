@@ -3,16 +3,16 @@ title: 23.3 統合の強化
 description: 23.3 統合の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
 
 # 23.3 統合の強化
 
-このページでは、プレビュー環境の 23.3 リリースでおこなわれたすべての統合の機能強化について説明します。 これらの機能強化は、23.3 リリースで実稼動環境で利用できるようになります。
+このページでは、23.3 リリースでおこなわれたすべての統合の機能強化について説明します。 これらの機能強化は、2023 年 7 月 20 日および 21 日の 23.3 リリースで実稼動環境で使用可能になりました。
 
 23.3 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

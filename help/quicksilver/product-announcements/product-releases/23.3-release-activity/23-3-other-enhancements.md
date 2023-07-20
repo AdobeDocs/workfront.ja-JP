@@ -3,16 +3,16 @@ title: 23.3 その他の機能強化
 description: 23.3 その他の機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # 23.3 その他の機能強化
 
-このページでは、23.3 リリースでプレビュー環境に対しておこなわれたその他すべての機能強化について説明します。 これらの機能強化は、23.3 リリースで実稼動環境で利用できるようになります。
+このページでは、23.3 リリースでおこなわれたその他すべての機能強化について説明します。 これらの機能強化は、2023 年 7 月 20 日および 21 日の 23.3 リリースで実稼動環境で使用可能になりました。
 
 23.3 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
