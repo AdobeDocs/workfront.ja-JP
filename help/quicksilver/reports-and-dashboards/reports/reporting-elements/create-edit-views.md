@@ -6,16 +6,14 @@ description: ビューを使用して、画面に表示する情報の種類を�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfrontでビューを作成または編集
-
-{{highlighted-preview}}
 
 ビューを使用して、画面に表示する情報の種類をカスタマイズできます。 Adobe Workfrontでは、複数のタイプのビューを使用できます。
 
@@ -150,16 +148,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-><span class="preview">この手順は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。</span>
+>この手順は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
 アジャイルビューを作成またはカスタマイズするには：
 
 1. プロジェクトのタスクのリストに移動します。
-1. 次をクリック： **アジャイルストーリーボード** アイコン ![アジャイルストーリーボードアイコン](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">または</span>
-
-   <span class="preview">次をクリック： **ボード** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png)をクリックし、 **レガシーアジャイルを使用** をボードビューに追加します。</span>
+1. 次をクリック： **ボード** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png)をクリックし、 **レガシーアジャイルを使用** をボードビューに追加します。
 
 1. （条件付き）既存のアジャイルビューをカスタマイズするには：
 
@@ -255,4 +249,4 @@ ht-degree: 1%
 1. 「**保存**」をクリックします。\
    アクセス権は、ビューの保存方法を示します。 最初にビューを作成した場合は、変更を保存できます。保存しない場合は、バージョンを保存するように求められます。 ビューに加えた変更は、そのビューが共有されているユーザーに影響を与えることに注意してください。
 
-1. （オプション） **リスト表示** アイコン ![](assets/list-view-in-agile-view-for-tasks.png) タスクのリストに戻る
+1. （オプション） **リスト** アイコンをクリックして、タスクのリストに戻ります。

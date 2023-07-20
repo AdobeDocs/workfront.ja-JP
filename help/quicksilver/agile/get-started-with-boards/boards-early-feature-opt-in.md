@@ -6,9 +6,9 @@ title: の初期の機能オプトイン [!DNL Adobe Workfront] ボード
 description: この記事で [!DNL Workfront Boards] 初期機能のオプトイン。
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>ボードの電子メール通知を定義する</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>従来のかんばんカードをボードに移行</td>
@@ -166,19 +166,19 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>ダイナミックボードの作成</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>カードの詳細に左のナビゲーションを使用</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>インテーク列で簡易フィルタを使用</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>アドホックカードと接続されたカードでコメントを使用する</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
  </tbody> 
 </table>

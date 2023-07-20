@@ -7,9 +7,9 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,6 @@ ht-degree: 0%
 &#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
 
 ## 単純なフィルタを使用して吸気柱を作成する
-
->[!NOTE]
->
->Adobe Workfront Boards の初期機能オプトインでは、シンプルなフィルターのみ利用できます。
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **[!UICONTROL ボード]**.
 1. ボードにアクセスします。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).

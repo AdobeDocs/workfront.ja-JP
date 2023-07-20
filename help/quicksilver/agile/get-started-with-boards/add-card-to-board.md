@@ -6,9 +6,9 @@ description: アドホックカードをボードにすばやく追加し、ボ�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ ht-degree: 0%
       <td role="rowheader"><strong>[!UICONTROL コメント ]</strong></td>
       <td><p>をクリックします。 <strong>[!UICONTROL 新しいコメント ]</strong> フィールドに入力し、コメントを入力します。 書式設定ツールを使用してテキストの書式を設定し、 <strong>添付ファイルを追加</strong> アイコン <img src="assets/attachment-icon.png" alt="添付ファイルアイコン"> をクリックして、コメントにファイルを添付します。 個人またはチームにタグを付けるには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。</p><p><strong>注意：</strong> 現時点では、アドホックカードでコメントでタグ付けされたユーザーには電子メール通知は送信されません。
       </p><p>クリック <strong>[!UICONTROL 送信 ]</strong> をクリックして、コメントをカードに追加します。</p>
-      <p><strong>注意：</strong> カードのコメント領域では、新しいAdobe Workfrontのコメント機能が使用されます。 詳しくは、 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業を更新</a>.</p><p><strong>注意：</strong> カードに対するコメントは、Workfrontボードの初期機能オプトインでのみ利用できます。</p></td>
+      <p><strong>注意：</strong> カードのコメント領域では、新しいAdobe Workfrontのコメント機能が使用されます。 詳しくは、 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業を更新</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   実稼動環境での初期機能オプトインを使用しない場合のサンプル画像：
-   ![アドホックカードの詳細](assets/boards-edit-ad-hoc-card-041723.png)
-
-   初期機能のオプトインが有効な実稼動環境のサンプル画像：
    ![アドホックカードの詳細](assets/ad-hoc-card-details-with-comments.png)
 
    左側のナビゲーションパネルを使用して、カード詳細上のフィールドのセクション間を移動します。

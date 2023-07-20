@@ -6,9 +6,9 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -146,11 +146,11 @@ ht-degree: 0%
      <tr>
       <td role="rowheader"><strong>[!UICONTROL コメント ]</strong></td>
       <td><p>をクリックします。 <strong>[!UICONTROL 新しいコメント ]</strong> フィールドに入力し、コメントを入力します。 書式設定ツールを使用してテキストの書式を設定し、 <strong>添付ファイルを追加</strong> アイコン <img src="assets/attachment-icon.png" alt="添付ファイルアイコン"> をクリックして、コメントにファイルを添付します。 個人またはチームにタグを付けるには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。 接続されたカードのタグ付きユーザーは、電子メール通知を受信します。</p><p>クリック <strong>[!UICONTROL 送信 ]</strong> をクリックして、コメントをカードに追加します。</p>
-      <p><strong>注意：</strong> カードのコメント領域では、新しいAdobe Workfrontのコメント機能が使用されます。 詳しくは、 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業を更新</a>.</p><p><strong>注意：</strong> カードに対するコメントは、Workfrontボードの初期機能オプトインでのみ利用できます。</p></td>
+      <p><strong>注意：</strong> カードのコメント領域では、新しいAdobe Workfrontのコメント機能が使用されます。 詳しくは、 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業を更新</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL システムアクティビティ ]</strong></td> 
-      <td><p>次の場合： <strong>システムアクティビティ</strong> をカードセクションとして有効にすると、この領域にアクティビティが表示されます。</p> <p>詳しくは、 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">カードに表示するフィールドのカスタマイズ</a> および <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">システムで追跡された更新</a>.</p><p><strong>注意：</strong> システムアクティビティは、Workfront Boards の初期機能オプトインでのみ利用できます。</p></td>
+      <td><p>次の場合： <strong>システムアクティビティ</strong> をカードセクションとして有効にすると、この領域にアクティビティが表示されます。</p> <p>詳しくは、 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">カードに表示するフィールドのカスタマイズ</a> および <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">システムで追跡された更新</a>.</p></td>
      </tr>     
     </tbody> 
    </table>

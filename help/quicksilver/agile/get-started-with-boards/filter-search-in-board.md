@@ -6,7 +6,7 @@ description: ボードをフィルタリングして、特定のカードのみ�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # ボードでのフィルターと検索
-
-{{highlighted-preview}}
 
 ボードをフィルタリングして表示できます。
 
@@ -26,7 +24,7 @@ ht-degree: 0%
 * アーカイブしたカード
 * 特定のプロジェクトに接続されたカード
 
-<span class="preview">ボードの並べ替えは、列のすべてのカードを並べ替えます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。</span>
+ボードの並べ替えは、列のすべてのカードを並べ替えます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。
 
 検索は、ボード上の特定のカードを探すのにも役立ちます。
 
@@ -110,8 +108,6 @@ ht-degree: 0%
 
    ![接続でフィルター](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## ボードでの並べ替え
 
 並べ替えの基準となるオプションを選択すると、すべての列が並べ替えられます。 1 つの列を並べ替えることはできません。また、backlog 列または intake 列は並べ替えられません。
@@ -130,8 +126,6 @@ ht-degree: 0%
    デフォルト以外の並べ替えが適用されると、並べ替えアイコンにインジケーターが表示されます ![適用された並べ替え](assets/sort-applied-boards.png).
 
    ![ボード上の列で並べ替え](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## ボードでの検索
 

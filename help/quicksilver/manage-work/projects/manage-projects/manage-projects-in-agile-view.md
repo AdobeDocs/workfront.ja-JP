@@ -6,16 +6,14 @@ description: 必要なプラン、ライセンスの種類、およびAdobe Work
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # アジャイルビューでのプロジェクト管理
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Required plans, license types, and access
 
 >[!NOTE]
 >
-><span class="preview">この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。</span>
+>この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
 * [プロジェクトのアジャイル機能](#agile-functionality-in-a-project)
 * [プロジェクトでアジャイルビューを使用する場合と反復で使用する場合の違い](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Required plans, license types, and access
 ## アジャイルビューでのプロジェクトの表示
 
 1. アジャイルビューで表示するプロジェクトに移動します。
-1. 次をクリック： **アジャイル** アイコン ![アジャイルアイコン](assets/agile-icon-nwe.png).
+1. 次をクリック： **ボード** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">または</span>
-
-   <span class="preview">次をクリック： **ボード** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png).</span>
-
-   デフォルトのアジャイルビューにプロジェクトが表示されます。
-
-   <span class="preview">プレビュー環境では、ボードビューがデフォルトで表示されます。</span>
+   プロジェクトのボードビューは、デフォルトで表示されます。
 
    ![プロジェクトのボードビュー](assets/project-agile-board-view.png)
 
-   （レガシーアジャイルビューのみ）以前にカスタムアジャイルビューでプロジェクトを表示した場合、デフォルトのアジャイルビューではなく、そのビューでプロジェクトが表示されます。
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">（オプション）「 **設定** をクリックして、列とカードのオプションを設定します。</span>
+1. （オプション）「 **設定** をクリックして、列とカードのオプションを設定します。
 
-   <span class="preview">詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) および [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). プロジェクトのボードビューでは、列ポリシーを定義できません。</span>
+   詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) および [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). プロジェクトのボードビューでは、列ポリシーを定義できません。
 
-1. <span class="preview">（オプション）「 **レガシーアジャイルを使用** を使用して、ボードビューの代わりにレガシーアジャイルビューを使用します。</span>
+1. （オプション）「 **レガシーアジャイルを使用** を使用して、ボードビューの代わりにレガシーアジャイルビューを使用します。
 
 1. （オプション — レガシーアジャイルビューのみ）カスタムアジャイルビューを作成した場合、または別のユーザーがカスタムアジャイルビューを作成して共有した場合、デフォルトのアジャイルビューの代わりに表示できます。
 
@@ -200,14 +192,13 @@ Required plans, license types, and access
 
    アジャイルビューにステータスを追加するには、記事の「アジャイルビューの作成またはカスタマイズ」の節に従って、新しいアジャイルビューを作成するか、既存のアジャイルビューをカスタマイズします [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. （オプション）リスト表示に戻るには、 **リスト** アイコン\
-   ![リストアイコン](assets/list-icon.png)
+1. （オプション）リスト表示に戻るには、 **リスト** アイコン
 
 ## アジャイルビューの作成とカスタマイズ {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。</span>
+>この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
 Workfrontの標準ビューと同様に、既存のアジャイルビューをカスタマイズしたり、新しいアジャイルビューをゼロから作成したりできます。 標準ビューとは異なり、既存のアジャイルビューに基づいて新しいアジャイルビューを作成することはできません。
 
@@ -217,7 +208,7 @@ Workfrontの標準ビューと同様に、既存のアジャイルビューを�
 
 >[!NOTE]
 >
-><span class="preview">この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。</span>
+>この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
 アジャイルビューの共有方法について詳しくは、 [フィルター、表示またはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Workfrontの標準ビューと同様に、既存のアジャイルビューを�
 
 >[!NOTE]
 >
-><span class="preview">この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。</span>
+>この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
 ビューの削除方法について詳しくは、この記事の「ビューの削除」の節を参照してください [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
