@@ -4,9 +4,9 @@ title: 概要の概要
 description: 概要パネルを使用して、タスクの問題、ドキュメント、またはタスクの他の領域のリストから直接作業項目情報を確認および更新できます [!DNL Adobe Workfront] タスクと問題を表示する
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
@@ -116,21 +116,21 @@ ht-degree: 2%
    >
    >タスクの詳細を表示するには、一度に 1 つのタスクまたは 1 つのタスクのみを選択できます。詳細は、 [!UICONTROL 概要] パネル。
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![概要パネル](assets/summary-panel-for-task.png)
 
 1. （オプション）を閉じるには、 [!UICONTROL 概要] パネルで、次のいずれかの操作を行います。
 
    * タスクまたはタスクの一覧で、 **[!UICONTROL 概要を開く]** アイコン ![](assets/summary-panel-icon.png)
 
-      または
+     または
 
-      次をクリック： **X** アイコン [!UICONTROL 概要] パネル。
+     次をクリック： **X** アイコン [!UICONTROL 概要] パネル。
 
    * 内 [!UICONTROL 送信済み] セクション [!UICONTROL リクエスト] 」領域で、 **[!UICONTROL 概要を閉じる]** アイコン ![](assets/close-summary-with-text-nwe.png)
 
-      または
+     または
 
-      次をクリック： **X** アイコンをクリックします。
+     次をクリック： **X** アイコンをクリックします。
 
 ## [!UICONTROL 完了率]
 

@@ -6,9 +6,9 @@ description: タスク一覧の [ ガントチャート ] には、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 2db4a79cad71b550b7de573c5b27293b6582858f
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1021'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 1. 次をクリック： **[!UICONTROL ガントチャート]** アイコン
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![ガントチャートアイコンをクリックします。](assets/click-gantt-chart-icon.png)
 
    すべての変更は、 **[!UICONTROL 自動保存]** 」オプションが有効になっている。 これはデフォルトで有効になっています。
 
@@ -87,7 +87,8 @@ ht-degree: 1%
    >   
    >   * [!DNL Mac]:用途 [!UICONTROL Command + Z] 取り消しおよび [!UICONTROL Command + Shift + Z] やり直しに使用します。
    >   * [!DNL Windows]:用途 [!UICONTROL Ctrl + Z] 取り消しおよび [!UICONTROL Ctrl + Y] やり直しに使用します。
-
+   >   
+   >
 
 1. クリック **[!UICONTROL 保存]** の右上隅に [!UICONTROL ガントチャート].
 
@@ -118,7 +119,8 @@ ht-degree: 1%
    >   
    >   * [!DNL Mac]:用途 [!UICONTROL Command + Z] 取り消しおよび [!UICONTROL Command + Shift + Z] やり直しに使用します。
    >   * [!DNL Windows]: [!UICONTROL Ctrl + Z キーを使用] 取り消しおよび [!UICONTROL Ctrl + Y] やり直しに使用します。
-
+   >   
+   >
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -152,7 +154,6 @@ ht-degree: 1%
    >   * [!UICONTROL できるだけ遅く]
    >   * [!UICONTROL 最も早い空き時間]
    >   * [!UICONTROL 最も遅い空き時間]
-
    >   
    >   
    >場合によっては、先行タスクの関係がタスクの先行を妨げ、タスクの移動が許可されないことがあります。
@@ -167,7 +168,8 @@ ht-degree: 1%
    >   
    >   * [!DNL Mac]:用途 [!UICONTROL Command + Z] 取り消しおよび [!UICONTROL Command + Shift + Z] やり直しに使用します。
    >   * [!DNL Windows]:用途 [!UICONTROL Ctrl + Z] 取り消しおよび [!UICONTROL Ctrl + Y] やり直しに使用します。
-
+   >   
+   >
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -189,6 +191,7 @@ ht-degree: 1%
    >
    >
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
+   >
 
 1. （オプションおよび条件付き）変更を手動で保存することを選択した場合、 **[!UICONTROL 取り消し]** または&#x200B;**[!UICONTROL やり直し]** アイコンを使用します。
 
@@ -200,7 +203,8 @@ ht-degree: 1%
    >   
    >   * [!DNL Mac]:用途 [!UICONTROL Command + Z] 取り消しおよび [!UICONTROL Command + Shift + Z] やり直しに使用します。
    >   * [!DNL Windows]:用途 [!UICONTROL Ctrl + Z] 取り消しおよび [!UICONTROL Ctrl + Y] やり直しに使用します。
-
+   >   
+   >
 
 1. クリック **[!UICONTROL 保存]** の右上隅に [!UICONTROL ガントチャート].
 

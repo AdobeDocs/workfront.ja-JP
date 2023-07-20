@@ -6,9 +6,9 @@ description: プロジェクトの作業分類構造 (WBS) の定義とは、プ
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1745'
 ht-degree: 1%
 
 ---
@@ -48,23 +48,23 @@ ht-degree: 1%
 Workfrontで WBS の結果と成果物を定義するには、次のアクティビティを実行して、プロジェクトタスクの階層ビューを作成することをお勧めします。
 
 * まだ作成していない場合は、新しいプロジェクトを作成します。\
-   プロジェクトの作成について詳しくは、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
+  プロジェクトの作成について詳しくは、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
 
 * 各結果と成果物の完了に必要なすべてのアクション項目のタスクを作成します。\
-   タスクの作成について詳しくは、 [プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
+  タスクの作成について詳しくは、 [プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * 先ほど作成したタスクから、主な成果であるタスクを特定し、マイルストーンに関連付けます。\
-   マイルストーンタスクの作成について詳しくは、「 [マイルストーンパスを作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) および [タスクへのマイルストーンの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  マイルストーンタスクの作成について詳しくは、「 [マイルストーンパスを作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) および [タスクへのマイルストーンの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * スコープが大きすぎるタスクをサブタスクに分類します。 成果物を定義する親に関連付けます。\
-   サブタスクの作成について詳しくは、 [サブタスクを作成](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+  サブタスクの作成について詳しくは、 [サブタスクを作成](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * サブタスク間およびマイルストーン間の依存関係を特定します。\
-   依存関係では、タスクの開始は、別のタスクまたはタスクのグループの完了に依存します。\
-   タスクの依存関係について詳しくは、記事を参照してください [タスクの先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) および [タスクリストに先行タスク関係を作成する](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  依存関係では、タスクの開始は、別のタスクまたはタスクのグループの完了に依存します。\
+  タスクの依存関係について詳しくは、記事を参照してください [タスクの先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) および [タスクリストに先行タスク関係を作成する](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * プロジェクトの有効期間中の任意の時点で、承認とレビューが必要かどうかを判断します。 このニーズに対処するための承認プロセスを作成します。\
-   承認について詳しくは、 [作業項目の承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  承認について詳しくは、 [作業項目の承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## 作業スケジュールおよびスケジュール制約の推定
 
@@ -74,22 +74,22 @@ Workfrontで WBS の結果と成果物を定義するには、次のアクティ
 
 * タスクの制約は、タスクの作業を開始または終了するタイミングを定義します。
 
-   タスク制約の定義について詳しくは、 [タスク制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  タスク制約の定義について詳しくは、 [タスク制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * タスクの期間とは、タスクを完了するのに使用できる期間です。 期間の見積もり時には、遅延の可能性を考慮した値を入力する必要が生じる場合があります。 同様のプロジェクトが過去に完了している場合は、この値を設定する場所を知っているかもしれません。
 
-   期間は推定値なので、天気、停電、サプライヤーの問題、その他の予期しないイベントなど、タスクに影響を与える可能性のある要因を考慮するために、必ず楽観的な時間値を設定してください。 また、関連する先行タスクと依存タスクが存在するかどうか、および作業に制約を課し、タスクの完了に影響を与える方法を検討してください。
+  期間は推定値なので、天気、停電、サプライヤーの問題、その他の予期しないイベントなど、タスクに影響を与える可能性のある要因を考慮するために、必ず楽観的な時間値を設定してください。 また、関連する先行タスクと依存タスクが存在するかどうか、および作業に制約を課し、タスクの完了に影響を与える方法を検討してください。
 
-   タスクの「期間の種類」に応じて、プロジェクトの有効期間中にタスクの期間を変更できますが、これはプロジェクトのタイムラインにも影響します。 タスクの期間について詳しくは、 [タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  タスクの「期間の種類」に応じて、プロジェクトの有効期間中にタスクの期間を変更できますが、これはプロジェクトのタイムラインにも影響します。 タスクの期間について詳しくは、 [タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## タスクを割り当て
 
 各タスクの期間と制約を定義したら、誰が作業を完了するのに必要な時間とスキルを持っているかを判断できます。 Workfrontでは、次のエンティティにタスクを割り当てることができます。
 
 * ユーザー\
-   タスクに割り当てることができるのは、プランナーまたは作業者のアクセスレベルを持つユーザーのみです。 リクエスターとレビュー担当者にタスクを割り当てることはできますが、タスクを完了することはできません。 このため、タスクを割り当てることはお勧めしません。
+  タスクに割り当てることができるのは、プランナーまたは作業者のアクセスレベルを持つユーザーのみです。 リクエスターとレビュー担当者にタスクを割り当てることはできますが、タスクを完了することはできません。 このため、タスクを割り当てることはお勧めしません。
 
-   アクセスレベルと、Workfrontオブジェクトでユーザーが実行できる操作を定義する方法について詳しくは、 [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+  アクセスレベルと、Workfrontオブジェクトでユーザーが実行できる操作を定義する方法について詳しくは、 [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 * 担当業務
 * チーム
@@ -150,7 +150,7 @@ WBS を完了したら、プロジェクトレベルまたはレポートのタ�
 
    選択したビューの 2 番目の列に、作業分類構造が表示されます。
 
-   ![](assets/wbs-view-on-task-list-nwe-350x87.png)
+   ![タスクリスト内の作業分類構造](assets/work-breakdown-structure.png)
 
 ### WBS をタスクレポートに表示する {#view-the-wbs-in-a-task-report}
 
@@ -183,7 +183,7 @@ WBS を完了したら、プロジェクトレベルまたはレポートのタ�
 * 時間タイプ
 * リクエストキューの構造
 * リマインダー通知
-* 危険
+* リスク
 * 請求件の料率
 * 情報の共有
 * カスタムフォーム

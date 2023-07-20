@@ -6,9 +6,9 @@ description: Adobe Workfrontのガントチャートは、タスクまたはプ�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '555'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ In [!DNL Adobe Workfront]、2 つの [!UICONTROL ガントチャート] 同様�
 
 タスクリストにアクセスするには [!UICONTROL ガントチャート]をクリックし、前述のいずれかの領域に移動して、 [!UICONTROL ガントチャート] アイコン
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![ガントチャートアイコンをクリックします。](assets/click-gantt-chart-icon.png)
 
 ### プロジェクトリスト [!UICONTROL ガントチャート] {#project-list-gantt-chart}
 

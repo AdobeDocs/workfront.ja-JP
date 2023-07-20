@@ -6,9 +6,9 @@ description: 重複している、または誤って作成された可能性の�
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '854'
 ht-degree: 1%
 
 ---
@@ -59,11 +59,11 @@ ht-degree: 1%
 
 * タスクがログに記録された時間がWorkfrontまたはグループ管理者の場合は、Workfrontインスタンスでタスクと問題の環境設定を設定して、これらのタスクの削除を許可する必要があります。 これは、時間が経過したタスクを持つプロジェクトを削除しようとした場合にも当てはまります。
 
-   <!--
+  <!--
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
   -->
 
-   時間が記録されたタスクの削除を有効にする方法について詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  時間が記録されたタスクの削除を有効にする方法について詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### タスクを削除した場合の影響 {#the-impact-of-deleting-tasks}
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 * ドキュメント
 
-   チェックアウトされたドキュメントが添付されたタスクは削除できません。 ドキュメントのチェックアウトの詳細については、 [ドキュメントをチェックアウト](../../../documents/managing-documents/check-out-documents.md).
+  チェックアウトされたドキュメントが添付されたタスクは削除できません。 ドキュメントのチェックアウトの詳細については、 [ドキュメントをチェックアウト](../../../documents/managing-documents/check-out-documents.md).
 
 * 問題
 * サブタスク
@@ -85,21 +85,21 @@ Workfrontインスタンスの [ タイムシートと時間の基本設定 ] �
 * 後でタスクが復元された場合、プロジェクトに移動し、タスクに復元されません。
 * タスクが後で復元される場合は、削除され、タスクで復元されます。
 
-   これは、時間が経過したタスクを持つプロジェクトを削除しようとした場合にも当てはまります。
+  これは、時間が経過したタスクを持つプロジェクトを削除しようとした場合にも当てはまります。
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this stays NWE; not possible in classic;)
   </MadCap:conditionalText>
   -->
 
-   ログオン時間の問題に対する削除の環境設定について詳しくは、 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  ログオン時間の問題に対する削除の環境設定について詳しくは、 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * タスクの費用がプロジェクトに移動します。
 
 * タスクまたはタスクの承認に割り当てられたユーザーは、プロジェクトチームに残ります。
 
-   プロジェクトチームの詳細については、 [プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  プロジェクトチームの詳細については、 [プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## タスクを削除します
 
@@ -121,9 +121,10 @@ Workfrontインスタンスの [ タイムシートと時間の基本設定 ] �
       1. クリック **削除**&#x200B;を、 **はい、削除します** 削除を確定します。
 
          タスクが削除されます。
+
    1. （条件付き） **プランモード** アイコンと選択 **手動で保存** タスクリストに加えた変更を元に戻す場合。
 
-      ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+      ![手動保存を選択](assets/manual-save-option.png)
 
       次の操作を実行します。
 
@@ -134,7 +135,6 @@ Workfrontインスタンスの [ タイムシートと時間の基本設定 ] �
       1. クリック **保存** タスクを削除します。
 
          タスクは、変更を保存した後にのみ削除されます。
-
 
 ### 単一のタスクを削除 {#delete-a-single-task}
 
