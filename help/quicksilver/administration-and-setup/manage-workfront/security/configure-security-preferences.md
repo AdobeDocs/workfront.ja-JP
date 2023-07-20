@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9f6338dc79740e13b71e9266fed17f6dc61039e1
+source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 2%
@@ -20,8 +20,6 @@ ht-degree: 2%
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
-
-{{highlighted-preview}}
 
 {{important-admin-console-onboard}}
 
@@ -70,8 +68,8 @@ Workfrontの実装時にシステム環境設定を指定し、その後は再�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p><span class="preview">高速レビュープロセスを有効にする</span></p> </td> 
-      <td><span class="preview">組織の毎月のWorkfrontリリースを四半期ごとのリリースではなく有効にできます。</p><p>高速リリースプロセスについて詳しくは、 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">組織の高速リリースを有効または無効にします</a>.</span></p></td> 
+      <td role="rowheader"> <p>高速レビュープロセスを有効にする</p> </td> 
+      <td>組織の毎月のWorkfrontリリースを四半期ごとのリリースではなく有効にできます。</p><p>高速リリースプロセスについて詳しくは、 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">組織の高速リリースを有効または無効にします</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>の埋め込みを許可 <strong>Workfront</strong> iframe 内</p> </td> 
