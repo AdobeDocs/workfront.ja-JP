@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1954874e7eb3a2fcb5334ea62decf001c6f1ef3a
+source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
 workflow-type: tm+mt
-source-wordcount: '13128'
+source-wordcount: '13126'
 ht-degree: 2%
 
 ---
@@ -2583,7 +2583,6 @@ ht-degree: 2%
       * [概要](proofhq-api/general/overview.md)
       * [コードサンプル](proofhq-api/general/code-samples.md)
       * [SOAP API に関する FAQ](proofhq-api/general/soap-api-faqs.md)
-* [非表示のファイル](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify
