@@ -4,11 +4,12 @@ navigation-topic: manage-projects
 title: プロジェクトを編集
 description: 必要に応じて、Adobe Workfrontでプロジェクトを編集できます。 プロジェクトが Planning ステータスの場合は、プロジェクトを編集するのが理想的です。
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '7310'
+source-wordcount: '7336'
 ht-degree: 2%
 
 ---
@@ -142,6 +143,7 @@ ht-degree: 2%
 
       * [プロジェクトの概要領域で情報を管理します。](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [プロジェクトの財務エリアで情報を管理します](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+
    1. （オプション）カスタムフォームを添付するには、 **カスタムフォームを追加** フィールドに値を入力し、リストに表示されるタイミングで選択して、 **変更を保存**.
    1. （オプション） **書き出し** アイコン ![](assets/export.png) 概要およびカスタムフォームの情報を書き出すには、PDF・ファイルに **書き出し**. 次の中から選択します。
 
@@ -154,6 +156,7 @@ ht-degree: 2%
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、 [カスタムフォームとオブジェクトの詳細のエクスポート](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+
    「プロジェクトの詳細」セクションに表示されるフィールドの詳細については、次に説明するように、「プロジェクトを編集」ボックスでプロジェクトを編集します。
 1. プロジェクトに関するすべての情報を編集するには、 **詳細** メニュー ![](assets/qs-more-menu.png) プロジェクト名の横にあるをクリックし、 **編集**.
 
@@ -302,7 +305,11 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >「プロジェクト所有者」、「プロジェクトスポンサー」、「リソースマネージャー」の各フィールドを更新する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >「プロジェクト所有者」、「プロジェクトスポンサー」、「リソースマネージャー」の各フィールドを更新する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。
+   >
+   >ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >
+   >ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 1. （オプション）変更する情報に応じて、以降のセクションを引き続き編集します。
 
@@ -388,7 +395,7 @@ ht-degree: 2%
       <td> <p>プロジェクトの予算を指定します。<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>パフォーマンス インデックス メソッド</strong> </td> 
+      <td role="rowheader"><strong>パフォーマンスインデックスメソッド</strong> </td> 
       <td> <p>選択 <b>時間ベース</b>または <b>コストベース</b> プロジェクトの [ 達成額 ] 指標（[ コスト効果指数 ] や [ 推定実績コスト ] など）が、時間またはコストを使用して計算されるかどうかを指定します。 </p> <p>Performance Index メソッドの詳細については、 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">パフォーマンスインデックスメソッド (PIM) の設定</a>. </p> <p>Workfront管理者<span> またはグループ管理者</span> システムまたはグループの既定の [ パフォーマンスインデックス方法 ] 設定を選択します。 プロジェクトの既定値の設定については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -404,7 +411,7 @@ ht-degree: 2%
       <td> <p>プロジェクトの計画的利益とは何かを見積もります。 これは、プロジェクトのビジネスケースとPortfolioの最適化で使用されます。 プロジェクトの計画的利益の詳細は、 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">プロジェクト計画福利厚生の概要</a>. プロジェクトの正味価値が計算される際には、プロジェクトの計画特典が考慮されます。 </p> <p>詳しくは、 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Management Optimizer でのプロジェクトのPortfolio</a> .<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>実際の便益</strong> </td> 
+      <td role="rowheader"><strong>実際のメリット</strong> </td> 
       <td> <p>プロジェクトの実際の利益を見積もります。 これは、このプロジェクトが完了した後に企業または部門が得る利益を表す通貨金額です。 </p> </td> 
      </tr> 
       <tr> 
@@ -677,15 +684,15 @@ ht-degree: 2%
 * プロジェクト所有者
 * 計画完了日時
 
-   >[!NOTE]
-   >
-   >このフィールドは、プロジェクトが「完了日」からスケジュールされている場合にのみ編集できます。 プロジェクトが開始日からスケジュールされる場合、Workfrontは、タスクの期間に基づいて計画完了日時を計算します。
+  >[!NOTE]
+  >
+  >このフィールドは、プロジェクトが「完了日」からスケジュールされている場合にのみ編集できます。 プロジェクトが開始日からスケジュールされる場合、Workfrontは、タスクの期間に基づいて計画完了日時を計算します。
 
 * 状況
 
-   >[!NOTE]
-   >
-   >このフィールドは、プロジェクトの「条件タイプ」が「手動」の場合にのみ編集できます。 「条件の種類」が「進捗状況ステータス」に設定されている場合、Workfrontはタスクの進捗状況に基づいて条件を計算します。 詳しくは、 [プロジェクト条件と条件タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+  >[!NOTE]
+  >
+  >このフィールドは、プロジェクトの「条件タイプ」が「手動」の場合にのみ編集できます。 「条件の種類」が「進捗状況ステータス」に設定されている場合、Workfrontはタスクの進捗状況に基づいて条件を計算します。 詳しくは、 [プロジェクト条件と条件タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 * ステータス
 * 現在の承認プロセスで承認者として設定されている場合、承認の決定をおこないます
@@ -698,32 +705,31 @@ ht-degree: 2%
 
 * 選択したすべてのプロジェクトに対して変更する情報は、[ リソースマネージャ ] フィールドを除き、個々のプロジェクトに関する既存の情報を上書きします。
 
-   プロジェクトを一括編集する際に新しいリソースマネージャーを追加すると、そのマネージャーが選択したすべてのプロジェクトに追加されます。 他のリソースマネージャが選択したプロジェクトに関連付けられている場合、一括編集で追加されたプロジェクトに加えて、プロジェクトに残ります。
+  プロジェクトを一括編集する際に新しいリソースマネージャーを追加すると、そのマネージャーが選択したすべてのプロジェクトに追加されます。 他のリソースマネージャが選択したプロジェクトに関連付けられている場合、一括編集で追加されたプロジェクトに加えて、プロジェクトに残ります。
 
 * 同じフィールドに異なる値を持つプロジェクトを選択すると、そのフィールドには、「プロジェクトを編集」ボックスに「複数の値」のインジケータが表示されます。 チェックボックス、ラジオボタン、トグルの各フィールドの横には、「複数値」インジケータが表示されます。
 
-   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * 「複数値」インジケーターに加えて、選択したプロジェクトの少なくとも 1 つで選択したオプションが異なる場合、複数のオプションを持つフィールドは、次のいずれかの方法で表示されます。
 
    * チェックボックスフィールドには、選択したすべてのプロジェクトではチェックされていない一部のオプションのチェックボックスの代わりに行が表示されます。
 
-      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * トグルタイプのフィールドは淡色表示になり、選択した一部のプロジェクトで有効になっているが、すべてのプロジェクトで有効になっていないオプションが中央に表示されます。
 
-   ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * 一部のオプションが選択されているが、すべてではないラジオボタンタイプのフィールドは、すべてのラジオボタンが空として表示されます。
 
-      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
-
+     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * 複数オプションフィールドで 1 つのオプションを更新する場合（トグルまたはチェックボックスのセットとして表示されるフィールドなど）、他のすべてのオプションは選択したプロジェクト間で一致する必要があります。
 
-   >[!IMPORTANT]
-   >
-   >例えば、3 つのチェックボックス（オプション 1、オプション 2、およびオプション 3）を持つチェックボックスフィールドがあり、すべてのプロジェクトで「オプション 1」がオフになっている場合、選択した他のプロジェクトでは「オプション 2」と「3」がオフになっています。 すべてのプロジェクトで「オプション 1」をオンにする場合は、選択したすべてのプロジェクトで「オプション 2」と「3」を一致させてから変更を保存する必要があります。そのため、選択したすべてのプロジェクトで一致させるには、選択または選択を解除します。 オプションを変更しない場合は、フィールドをそのまま保存でき、すべてのオプションに対して現在の選択が維持されます。
+  >[!IMPORTANT]
+  >
+  >例えば、3 つのチェックボックス（オプション 1、オプション 2、およびオプション 3）を持つチェックボックスフィールドがあり、すべてのプロジェクトで「オプション 1」がオフになっている場合、選択した他のプロジェクトでは「オプション 2」と「3」がオフになっています。 すべてのプロジェクトで「オプション 1」をオンにする場合は、選択したすべてのプロジェクトで「オプション 2」と「3」を一致させてから変更を保存する必要があります。そのため、選択したすべてのプロジェクトで一致させるには、選択または選択を解除します。 オプションを変更しない場合は、フィールドをそのまま保存でき、すべてのオプションに対して現在の選択が維持されます。
 
 * 異なるグループに属する複数のプロジェクトを選択する場合、「ステータス」フィールドに表示されるステータスは、グループレベルのステータスではなく、システムレベルのステータスになります。
 

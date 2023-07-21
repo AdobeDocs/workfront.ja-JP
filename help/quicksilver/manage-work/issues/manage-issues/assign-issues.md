@@ -5,10 +5,11 @@ title: 問題の割り当て
 description: ユーザー、役割およびチームに問題を割り当てて、問題の完了担当者を指定できます。 問題の割り当てに関する一般情報については、「問題の割り当ての変更の概要」を参照してください。
 author: Alina
 feature: Work Management
+role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: c7eb3266081a601d0aeaec1a2bd21272d05d1bc6
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,6 @@ ht-degree: 0%
 >
 >* 作業項目をアクティブなリソースに再割り当てする。
 >* 非アクティブなチームのユーザをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
-
 
 問題の割り当ての詳細については、この記事に加え、次の記事を読むことをお勧めします。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>問題に対する権限の管理</p> <p>問題をコピーする項目に対する権限を付与し、問題を追加する機能を付与します。</p> <p> 問題に対する権限の付与について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a></p> <p>追加の権限のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>問題に対する権限の管理</p> <p>問題をコピーする項目に対する権限を付与し、問題を追加する機能を付与します。</p> <p> 問題に対する権限の付与について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a></p> <p>追加の権限のリクエストについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">ユーザーへのアクセス権の付与</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 * 通常、タスクや問題は 1 つまたは複数のジョブの役割またはチームに最初に割り当てられます。 プロジェクトを開始する準備が整ったら、ユーザーへの割り当ても必要になる場合があります。
 
-   1 つ以上の役割にタスクまたはイシューが割り当てられ、ユーザーも割り当てられた場合、Adobe Workfrontは、次のルールに従って、追加のユーザーに関連付けるジョブの役割を決定します。
+  1 つ以上の役割にタスクまたはイシューが割り当てられ、ユーザーも割り当てられた場合、Adobe Workfrontは、次のルールに従って、追加のユーザーに関連付けるジョブの役割を決定します。
 
    * プライマリロールが 1 つだけ割り当てられ、プライマリロールと一致する場合、タスクまたはイシューは、そのジョブロールを満たすユーザーにのみ割り当てられます。
    * 複数のロールが割り当てられ、少なくとも 1 つのロールがユーザーのセカンダリロールと一致する場合、タスクまたは問題は、他のロールの 1 つ ( 複数の一致がある場合はWorkfrontがランダムに選択 ) を満たすユーザーと、追加のロールに割り当てられます。
@@ -118,17 +118,21 @@ ht-degree: 0%
 
    * 割り当てるユーザー、役割、またはチームの名前を入力し、リストに表示されたらクリックします。
 
-      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * （条件付き） **推奨割り当て** リスト
    * クリック&#x200B;**自分に割り当て** 自分に割り当てる
    * クリック **詳細**
 
-      高度な割り当ての作成は、タスクや問題に似ています。 高度な割り当てを行う方法については、 [高度な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     高度な割り当ての作成は、タスクや問題に似ています。 高度な割り当てを行う方法については、 [高度な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-      >[!TIP]
-      >
-      >ユーザー割り当てを追加する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+     >[!TIP]
+     >
+     >ユーザー割り当てを追加する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。
+     >
+     >ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+     >
+     >ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 
 
 1. クリック **保存** をクリックして、問題の割り当てを完了します。
@@ -153,14 +157,19 @@ ht-degree: 0%
 
    * 内側をクリック **割り当て先** または **割り当て済み** フィールドに入力して、イシューに割り当てるアクティブなユーザーの名前を入力し、リストに表示されたらクリックします。
 
-      ![](assets/assigned-to-field-task-list-nwe.png)
+     ![](assets/assigned-to-field-task-list-nwe.png)
 
    * 内側をクリック **割り当て** フィールドに、イシューに割り当てるアクティブなユーザー、ジョブの役割、またはアクティブなチームの名前を入力し、リストに表示されたらクリックします。
 
-      ![](assets/assignments-field-task-list-nwe.png)
+     ![](assets/assignments-field-task-list-nwe.png)
+
    >[!TIP]
    >
-   >ユーザー割り当てを追加する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >ユーザー割り当てを追加する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。
+   >
+   >ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >
+   ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. （条件付き）「割り当て」フィールドに表示されたら、 **人物アイコン** ![](assets/teams.png) [ 割り当て ] ボックスの右上隅にある [ 詳細割り当て ] ボックスを開き、高度な割り当てを作成します。 詳しくは、 [高度な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

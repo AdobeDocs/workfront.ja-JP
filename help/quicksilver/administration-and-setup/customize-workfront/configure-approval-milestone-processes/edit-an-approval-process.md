@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: 承認プロセスの編集
 description: Adobe Workfront管理者、または承認プロセスへの管理者アクセス権を持っている場合、システム内のすべての承認プロセスを表示および編集できます。
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1953'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,6 @@ Adobe Workfront管理者、または承認プロセスへの管理者アクセ�
 >
 >* 現在のステージの後にステージを追加
 >* 現在のステージの前に承認者を追加
-
 
 ## アクセス要件
 
@@ -135,6 +134,7 @@ Adobe Workfront管理者、または承認プロセスへの管理者アクセ�
    <p><b>ヒント</b>:</p>
 
    <p>ユーザーを承認者として追加する場合は、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注目して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。</p>
+      <p>ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">ユーザーへのアクセス権の付与</a></p>。
 
    <p><b>メモ</b>:
 

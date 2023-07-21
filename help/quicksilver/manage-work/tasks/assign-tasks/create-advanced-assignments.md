@@ -4,11 +4,12 @@ navigation-topic: assign-tasks
 title: 高度な割り当てを作成
 description: タスクまたは課題の割り当ては、[ 詳細な割り当て ] を使用して管理できます。
 author: Alina
-feature: Work Management
+feature: Work Management, Resource Management
+role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -107,7 +108,9 @@ ht-degree: 0%
    >* 複数のユーザー、ジョブの役割またはチームを割り当てることができます。 アクティブなユーザー、ジョブの役割およびチームのみを割り当てることができます。
    >
    >
-   >* ユーザー割り当てを追加する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >* ユーザー割り当てを追加する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。
+   >ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* <span class="preview">ジョブロールの割り当てを追加する際に、ジョブロールまたは場所を検索できます。 割当に対するデフォルトの請求率を使用する場合は「システム・ロール」または「デフォルト・ジョブ・ロール」を選択し、割当レベルでのレートを上書きする場合は「レート・カード・ジョブ・ロール」を選択します。 レートカードについて詳しくは、 [レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>

@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2493'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,8 @@ ht-degree: 2%
 
    <b>ヒント</b>
 
-   プライマリの連絡先ユーザーを追加する際には、アバター、ユーザーのプライマリの役割、電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   <p>プライマリの連絡先ユーザーを追加する際には、アバター、ユーザーのプライマリの役割、電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。</p>
+      <p> ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">ユーザーへのアクセス権の付与</a>.</p>
 
 
    </td> 

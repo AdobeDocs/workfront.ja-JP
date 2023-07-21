@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: ユーザーが作業項目（プロジェクト、タスク、タスク、イシュー、テンプレート、またはテンプレートタスク）、ドキュメント、または配達確認に添付できる承認プロセスを作成できます。 承認プロセスを実行すると、オブジェクトに指定された担当者が、システム内のオブジェクトが進行する前に、特定の変更を確認するようになります。
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4440fc50e988da6e446fd9a3195ae94f978b4b74
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2227'
 ht-degree: 1%
 
 ---
@@ -135,6 +135,7 @@ ht-degree: 1%
    <p><b>ヒント</b>:</p>
 
    <p>ユーザーを承認者として追加する場合は、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注目して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。</p>
+      <p>ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">ユーザーへのアクセス権の付与</a>. </p>
 
    <p><b>メモ</b>:
 

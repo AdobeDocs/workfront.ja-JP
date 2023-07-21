@@ -4,11 +4,12 @@ navigation-topic: assign-tasks
 title: タスクを割り当て
 description: タスクをユーザー、役割またはチームに割り当てて、タスクの完了担当者を指定できます。 一度に複数のリソースにタスクを割り当てることができます。
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1965'
 ht-degree: 1%
 
 ---
@@ -184,6 +185,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >ユーザー割り当てを追加する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
      >
+     >ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >
      ><span class="preview">ジョブロールの割り当てを追加する際に、ジョブロールまたは場所を検索できます。 割当にデフォルトの請求レートを使用する場合は「システム/デフォルト・ジョブ・ロール」を選択し、レート・カードから請求レートを使用する場合は「レート・カード・ジョブ・ロール」を選択します。 レートカードについて詳しくは、 [レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
@@ -229,6 +232,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >[!TIP]
      >
      >ユーザー割り当てを追加する際には、アバター、ユーザーのプライマリの役割、または電子メールアドレスに注意して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+     >
+     >ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
      ><span class="preview">ジョブロールの割り当てを追加する際に、ジョブロールまたは場所を検索できます。 割当にデフォルトの請求レートを使用する場合は「システム/デフォルト・ジョブ・ロール」を選択し、レート・カードから請求レートを使用する場合は「レート・カード・ジョブ・ロール」を選択します。 レートカードについて詳しくは、 [レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 

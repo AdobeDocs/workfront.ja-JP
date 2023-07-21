@@ -5,10 +5,11 @@ title: ワークロードバランサーを使用して作業を手動で割り�
 description: Adobe Workfront Workload Balancer を使用して、作業項目を手動でユーザーに割り当てることができます。
 author: Alina
 feature: Resource Management
+role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '756'
 ht-degree: 2%
 
 ---
@@ -83,13 +84,18 @@ Adobe Workfront Workload Balancer を使用して、作業項目を手動でユ�
    >* Windows の場合：Ctrl キーを押しながらタスクまたはイシューバーをクリックします。
    >* Mac:Cmd キーを押しながらタスクバーまたはイシューバーをクリックします。
 
-
 1. 次のいずれかの操作を行います。
 
    * 項目に割り当てるユーザー、ジョブの役割、またはチームの名前の入力を開始します **担当者、役割またはチームを検索** フィールドに値を入力する場合は、リストに表示される項目を選択し、 **保存**.
+
    >[!TIP]
    >
-   >ユーザーを追加する際には、アバター、ユーザーのプライマリの役割、電子メールアドレスに注目して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >ユーザーを追加する際には、アバター、ユーザーのプライマリの役割、電子メールアドレスに注目して、同じ名前のユーザーを区別します。
+   >
+   >ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
+   >
+   > ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 [ユーザーへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
 
    ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
@@ -113,12 +119,12 @@ Adobe Workfront Workload Balancer を使用して、作業項目を手動でユ�
    >   
    >   * 作業項目をアクティブなリソースに再割り当てする。
    >   * 非アクティブなチームのユーザをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
-
+   >   
+   >
 
    * クリック **詳細** 」をクリックして、「高度な割り当て」にアクセスします。
 
-      高度な割り当ての作成の詳細については、 [高度な割り当てを作成](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
+     高度な割り当ての作成の詳細については、 [高度な割り当てを作成](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. （オプション） **割り当てアイコンを表示** ![](assets/show-allocations-icon-small.png)」、「 **その他のメニュー** ![](assets/qs-more-menu.png) > **割り当てを編集**.
 

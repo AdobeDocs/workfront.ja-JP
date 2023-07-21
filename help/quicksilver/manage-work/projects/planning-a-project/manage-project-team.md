@@ -4,11 +4,12 @@ navigation-topic: plan-a-project
 title: プロジェクトチームを管理
 description: プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。 プロジェクトチームのメンバーは、プロジェクトの「人」セクションに表示されます。
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -136,7 +137,8 @@ ht-degree: 0%
    >
    >* チーム、グループ、会社またはジョブの役割を追加してユーザーを追加することはできません。
    >* ユーザーを追加する際に、アバター、ユーザーのプライマリの役割および電子メールアドレスに注目して、同じ名前のユーザーを区別します。 ユーザーを追加したときに表示するには、少なくとも 1 つのジョブの役割に関連付ける必要があります。
-
+   >
+   >  ユーザーがユーザーの電子メールを表示するには、アクセスレベルで [ 連絡先情報の表示 ] 設定を有効にしておく必要があります。 詳しくは、 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. クリック **追加**.
