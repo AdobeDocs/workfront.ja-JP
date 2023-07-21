@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,9 @@ ht-degree: 0%
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
 >| <ul><li>23.8（2023 年 8 月 32 日）</li><li>23.9（2023 年 9 月 29 日）</li><li>23.10（2023 年 10 月 27 日）</li></ul> | <ul><li>23.10（2023 年 10 月 26 日の週）</li></ul> |
->| <ul><li>23.11（2023 年 11 月）</li><li>23.12（2023 年 12 月）</li><li>24.1（2024 年 1 月）</li></ul> | <ul><li>24.1（2024 年 1 月）</li></ul> |
+>| <ul><li>リリースなし（2023 年 11 月）</li><li>リリースなし（2023 年 12 月）</li><li>24.1（2024 年 1 月）</li></ul> | <ul><li>24.1（2024 年 1 月）</li></ul> |
+>
+>高速リリースプロセスについて詳しくは、 [高速リリースプロセスを有効または無効にします](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfrontの機能強化
 
