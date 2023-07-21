@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,22 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p><span class="preview">実稼動版リリース：2023 年 5 月 19 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">フォームデザイナーベータ版に表示されるロジックとスキップロジックのインジケーターとルールを表示する</a></p>
+                        <p>2023 年 7 月 21 日に、プレビューと実稼動環境で、フォームデザイナーのパブリックベータ版が再度有効になりました。 さらに、フォームデザイナー内の従来のカスタムフォームで作成された既存の論理ルールを表示できるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023 年 7 月 22 日</p>
+                            </li>
+                            <li>
+                                <p>実稼動版リリース：2023 年 7 月 22 日</p>
                             </li>
                         </ul>
                     </td>

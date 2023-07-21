@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,6 @@ Experience Manager Assets as a Cloud Serviceのこの機能について詳しく
 Experience Manager Assets Essentials のこの機能について詳しくは、 [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## 新しいフォームデザイナーベータ版でカスタムフォームを作成する
-
->[!IMPORTANT]
->
->2023 年 5 月 24 日に、フォームデザイナーベータ版が一時的に無効になりました。 レガシーフォームビルダーを使用して、カスタムフォームを作成および編集できます。 詳しくは、 [レガシーフォームビルダーを使用したカスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 パブリックベータ版で利用できるようになりました。新しいフォームデザイナーには、フィールド、キャンバスおよびフィールドの設定を同時に表示できる新しいキャンバススタイルのワークスペースが追加されました。
 

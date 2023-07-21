@@ -3,9 +3,9 @@ title: 23.3 管理者の機能強化
 description: 23.3 管理者の機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,15 @@ ht-degree: 0%
 詳しくは、 [タイムシートと時間の基本設定を構成する](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) および [グループのタイムシートと時間の基本設定を構成する](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [この機能のデモビデオを表示](https://video.tv.adobe.com/v/3419111/){target=_blank}
+
+## フォームデザイナーベータ版に表示されるロジックとスキップロジックのインジケーターとルールを表示する
+
+2023 年 7 月 21 日に、プレビューと実稼動環境で、フォームデザイナーのパブリックベータ版が再度有効になりました。 新しいフォームデザイナーには、フィールド、キャンバス、フィールドの設定をすべて同時に表示できる、新しいキャンバススタイルのワークスペースが追加されました。
+さらに、従来のフォームビルダーで作成された表示ロジックまたはスキップロジックを含むフォームデザイナーベータ版でカスタムフォームを開くと、次のロジックが表示されます。
+
+* フォームデザイナーキャンバスのフィールド上のアイコンは、そのフィールド上でロジックが設定されていること、または他のフィールド上で設定されているロジックルール内でフィールドが使用されていることを示します。
+* 論理が適用されたフィールドを選択すると、フィールド設定に既存の論理ルールが表示されます。
+
+既存のロジックの編集とカスタムフォームへの新しいロジックの追加は、フォームデザイナーベータ版ではまだ利用できませんが、将来の予定です。
+
+詳しくは、 [フォームデザイナーの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).

@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                  <p>実稼動版リリース：23.2 リリースの場合<br />
-                                 <span style="color: #ff0000;">2023 年 5 月 24 日に、プレビューおよび実稼動環境で、フォームデザイナーベータ版が一時的に無効になっていました。</span></p>
+                                 <span style="color: #ff0000;">2023 年 5 月 24 日から 7 月 21 日まで、プレビューおよび実稼動環境では、フォームデザイナーベータ版が一時的に無効になっていました。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートのピン名を変更する</span></a>
-                        </span></a><p>固定されたページの既定の名前を使用する代わりに、レイアウトテンプレートのピン名を変更して、ユーザーにとってより意味のある名前に変更できるようになりました。 管理者が作成したピンは、レイアウトテンプレートに割り当てられたすべてのユーザに対して表示され、ユーザはこれらのピンの名前を変更できません。</p>
+                        <p>固定されたページの既定の名前を使用する代わりに、レイアウトテンプレートのピン名を変更して、ユーザーにとってより意味のある名前に変更できるようになりました。 管理者が作成したピンは、レイアウトテンプレートに割り当てられたすべてのユーザに対して表示され、ユーザはこれらのピンの名前を変更できません。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -480,7 +480,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">モバイルアプリでの生体認証ログインとボードコレクション</span></a>
-                        </span></a><p>生体認証ログインは、モバイルアプリへの迅速なログインのためのオプションになりました。 初回ログイン後に生体認証が設定されると、ユーザーは指紋または顔認識を使用して、時々のパスワード再確認のみでアプリにすばやく再ログインできます。 さらに、後で更新する際に提供される一般的なログイン操作に対して、ルックアンドフィールが多数改善されます。</p>
+                        <p>生体認証ログインは、モバイルアプリへの迅速なログインのためのオプションになりました。 初回ログイン後に生体認証が設定されると、ユーザーは指紋または顔認識を使用して、時々のパスワード再確認のみでアプリにすばやく再ログインできます。 さらに、後で更新する際に提供される一般的なログイン操作に対して、ルックアンドフィールが多数改善されます。</p>
                         <p>モバイルアプリでボードコレクションもサポートされるようになり、モバイルユーザーはモバイルボードリストからデスクトップバージョンでアクセス権のあるコレクションを表示できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -592,7 +592,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for XDで、1 つのPDFまたは複数のPDFファイルとしてアートボードを書き出す</span></a>
-                        </span></a><p>Adobe Workfront for XDプラグインで、アートボードを 1 つのPDFファイルまたは複数のPDFファイルとして書き出すように選択できるようになりました。</p>
+                        <p>Adobe Workfront for XDプラグインで、アートボードを 1 つのPDFファイルまたは複数のPDFファイルとして書き出すように選択できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
