@@ -1,8 +1,8 @@
 ---
-source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
 source-wordcount: '1538'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 # スニペット
@@ -110,12 +110,11 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 >* リンクされたページを別のページに置き換えます。 この場合、 **[!UICONTROL メインメニュー]** ![メインメニュー](assets/main-menu-icon.png) ページの右上隅にある、または（使用可能な場合） **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL ホーム]**.
 >
 
-
 <!-- Integrations -->
 
 ## 前提条件 {#cc-install-prereq}
 
-使用している Adobe Creative Cloud アプリケーションに適したプラグインをインストールする必要があります。
+使用しているAdobe Creative Cloudアプリケーション用の正しいプラグインをインストールする必要があります。
 * Photoshopについては、 [Adobe Workfront for Photoshopのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * XDの場合は、 [Adobe Workfront for XDのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * InDesign、Illustrator、Premiere Pro、After Effectsについては、 [Adobe Workfrontをインストールしてデザインとビデオを作成](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -239,7 +238,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 最新の DPV バージョン {#latest-version}
 
-**最新バージョン**:3/23/2023時点で 2.1.23
+**最新バージョン**:5/15/2023時点で 2.1.24
 
 <!-- Release -->
 
@@ -280,20 +279,18 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
    >* 作業項目の種類ごとに 1 つのステータスを選択すると、ユーザーが項目の [ 完了 ] をクリックしたとき、タスクまたは問題のステータスがそのステータスに設定されます。 作業項目のタイプごとに複数のステータスを設定する場合、「完了」ボタンにドロップダウンメニューが表示され、作業項目のステータスを変更するには、ステータスを選択する必要があります。
    >* 「完了」ボタンには、システムレベルのステータスのみを関連付けることができます。 グループ固有のステータスを作業項目のステータスに関連付けることはできません。
    >* アイテムに割り当てられたユーザーが、そのアイテムを「完了」ボタンに関連付けられたステータスに配置すると、選択したステータスが「完了」、「クローズ」、「作業中」のどちらであるかに関係なく、そのユーザーの「完了」と表示されます。
-
    >   
    >   
    >  例えば、「完了」ボタンを「処理中」に関連付けると、ステータスを「新規」から「処理中」に変更したユーザーに対して、作業項目が「完了」と表示されます。
    >   
    >* 問題のタイプはカスタマイズ可能で、環境によっては、以下に示すように異なる名前が付けられる場合があります。\
-      >  デフォルトのタスクと問題のタイプは次のとおりです。
-      >     
-      >   * タスク
-      >   * 問題
-      >   * リクエスト
-      >   * 変更依頼
-      >   * バグレポート
-
+   >  デフォルトのタスクと問題のタイプは次のとおりです。
+   >     
+   >   * タスク
+   >   * 問題
+   >   * リクエスト
+   >   * 変更依頼
+   >   * バグレポート
 
    タスクまたはイシューが複数のユーザーに割り当てられている場合は、チームに選択した複数のステータスに加えて、ドロップダウンメニューに「Done with my part」オプションが表示されます。
 

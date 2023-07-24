@@ -6,9 +6,9 @@ description: デスクトップ校正ビューアは、インタラクティブ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 0e8cc1e307dc82a4c1745d50de062024a5007da6
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## Macへのデスクトップ校正ビューアのインストール
 
-Adobe Workfrontの管理者またはWorkfrontの配達確認管理者が、アプリをワークステーションにダウンロードして、デスクトップ校正ビューアをインタラクティブな配達確認のデフォルトビューアとして設定した場合は、「ドキュメント」領域からインタラクティブな配達確認を開くだけでインストールを完了できます。
+Adobe Workfrontの管理者またはWorkfrontの配達確認管理者が、アプリをワークステーションにダウンロードし、デスクトップ校正ビューアをインタラクティブ配達確認のデフォルトビューアとして設定した場合は、「ドキュメント」領域からインタラクティブ配達確認を開くだけでインストールを完了できます。
 
 そうでない場合は、次の手順に従います。
 

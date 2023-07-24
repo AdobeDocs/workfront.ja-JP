@@ -7,9 +7,9 @@ description: ファイルの作成に使用するソフトウェア (Photoshop�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Workfrontには次の制限があります。
 
 * ファイルのサイズは、1 ファイルあたり 4 GB 未満にする必要があります。
-* Microsoft Word(DOC、DOCX) および PowerPoint(PPT、PPTX) ファイルは 512 MB 未満である必要があります。
+* Microsoft Word(DOC、DOCX) および PowerPoint(PPT、PPTX) ファイルは 512 MB 未満である必要があります。 （これは、サイズ制限が実装される前に作成された、これらのファイルタイプの配達確認のアーカイブを解除する場合にも当てはまります）。
 * XLS および XLSX ファイルは 100 MB 未満にする必要があります。
 * 配達確認に対するコメントに添付するファイルは 30 MB 未満である必要があります。
 * PNG は、65535px 未満の高さと幅にする必要があります。
@@ -180,11 +180,15 @@ Workfrontには次の制限があります。
 > * XLT - Microsoft Excel テンプレート
 > * XLTX - Microsoft Excel テンプレート
 
+>[!WARNING]
+> セキュリティ上の問題が原因で、次の静的ファイルタイプは一時的にサポートされません。
+>
+> * EPS - Encapsulated PostScript
+
 * AI - Adobe Illustrator Artwork
 * AIT - Adobe Illustrator Template
 * DOC - Microsoft Word 文書
 * DOCX - Microsoft Word 文書
-* EPS - Encapsulated PostScript
 * PDF-Adobeポータブルドキュメントファイル
 * PPT - PowerPoint プレゼンテーション
 * PPTX - PowerPoint Presentation 2007 PS - PostScript ファイル

@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 0%
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">ストーリー</td> 
-       <td> <p>レポート内の情報にコンテキストを与えるテキストを追加します。</p> <p>詳しくは、[ 最終的なリンク ] を参照してください。</p> </td> 
+       <td> <p>レポート内の情報にコンテキストを与えるテキストを追加します。</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Web コンテンツ</td> 
@@ -61,7 +61,7 @@ ht-degree: 0%
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">キャンバスフィルター</td> 
-       <td> <p>ユーザーがレポートの様々な側面を確認できるフィルターを追加します。 このフィルターは、レポート内のすべてのデータに適用されます。</p> <p>詳しくは、[ 最終的なリンク ] を参照してください。</p> </td> 
+       <td> <p>ユーザーがレポートの様々な側面を確認できるフィルターを追加します。 このフィルターは、レポート内のすべてのデータに適用されます。</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">レポートをお気に入りに登録</td> 
-      <td>編集ウィンドウを閉じた後、 <strong>星</strong> お気に入りのレポートのリストに追加するレポート名の横にあるアイコン [icon]。</td> 
+      <td>編集ウィンドウを閉じた後、 <strong>星</strong> レポート名の横にあるアイコンを使用して、お気に入りのレポートのリストに追加できます。</td> 
      </tr> 
     </tbody> 
    </table>

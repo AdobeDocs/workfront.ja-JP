@@ -7,9 +7,9 @@ description: Select または Premium [!DNL Workfront] この機能を使用す�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Select または Premium [!DNL Workfront] この機能を使用するにはプ�
    | **検索可能** | ユーザーがカスタムフィールドデータを検索して項目を検索できるようにします。 |
    | **非表示** | カスタムフィールドを [!UICONTROL 新しい配達確認]、新規ゲスト、 [!UICONTROL 新しいユーザー] ページ |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 1. 内 **カスタムフィールド** 表示されるページで、 **[!UICONTROL カスタムフィールド設定]** タブでページを更新します。
@@ -75,6 +75,10 @@ Select または Premium [!DNL Workfront] この機能を使用するにはプ�
 
    制御値を使用して、制御フィールドの値を決定できます。選択した場合、依存フィールドが表示されます。 例えば、依存フィールドが A で、制御フィールドが X で、X の制御値をオプション 1 と 2 のみに設定したとします。 つまり、フィールド A はフィールド X オプション 1 または 2 が選択された場合にのみ表示されます。 つまり、X のオプション 3 または 4 が選択されている場合、A のフィールドは表示されません。 を開きます。 **[!UICONTROL 表示ルール]** タブをクリックします。
 
+   >[!NOTE]
+   >
+   >表示ルールの制御フィールドには、リストとラジオのカスタムフィールドタイプのみを使用できますが、依存フィールドは任意のフィールドタイプを使用できます。
+
    表示規則を追加するには：
 
    1. クリック **[!UICONTROL 新しい表示ルール]** を設定します。
@@ -87,6 +91,10 @@ Select または Premium [!DNL Workfront] この機能を使用するにはプ�
    フィールド Y のオプション 1 を選択した場合は、フィールド B のオプション 1 と 2 のみが表示されます。
 
    フィールド Y のオプション 2 を選択した場合、フィールド B のオプション 3 と 4 のみが表示されます。
+
+   >[!NOTE]
+   >
+   >依存関係ルールの依存フィールドと制御フィールドに使用できるのは、リストとラジオのカスタムフィールドタイプのみです。
 
    依存関係ルールを追加する手順は、次のとおりです。
 
