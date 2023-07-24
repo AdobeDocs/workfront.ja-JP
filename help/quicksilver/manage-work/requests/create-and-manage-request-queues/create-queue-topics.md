@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: キュートピックを作成
 description: キュートピックは、ルーティングルールと連携して、ユーザー、ジョブロール、チームに着信作業を自動的に割り当てたり、プロジェクトに配置したりします。 キュー・トピックでは、ルーティング・ルールを実装するために必要な条件を定義します。
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>リクエストタイプ</strong> </td> 
-      <td> <p>このキュートピックに保存するリクエストの種類を選択します。 表示されるオプションは、 <strong>キューの詳細</strong> 」タブをクリックします。 必須フィールドです。 </p> <p>注意：「要求タイプ」は、「キューの詳細」ページと「キューのトピック」ページの両方で「要求タイプ」が選択されている場合にのみ、「要求」領域に選択として表示されます。 プロジェクトの Queue Details 領域の設定については、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>. </p> <p>次のタイプから選択します。</p> 
-       <ul> 
-        <li>バグレポート</li> 
-        <li>変更依頼</li> 
-        <li>問題</li> 
-        <li>リクエスト</li> 
-       </ul> <p>Workfront管理者が、これらのオプションの一部の名前を変更している可能性があります。 </p> </td> 
-     </tr> 
+      <td> <p>このキュートピックに保存するリクエストの種類を選択します。 表示されるオプションは、 <strong>キューの詳細</strong> 」タブをクリックします。 必須フィールドです。 </p>
+
+   <p><b>メモ</b>:
+
+   「キューの詳細」ページと「キューのトピック」ページの両方で「リクエストタイプ」が選択されている場合にのみ、タイプが「リクエスト」領域に選択として表示されます。 プロジェクトの Queue Details 領域の設定については、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>. </p> <p>次のタイプから選択します。</p>
+   <ul>
+   <li>バグレポート</li>
+   <li>変更依頼</li>
+   <li>問題</li>
+   <li>リクエスト</li>
+   </ul> <p>Workfront管理者が、これらのオプションの一部の名前を変更している可能性があります。 </p> </td>
+   </tr> 
     </tbody> 
    </table>
 
