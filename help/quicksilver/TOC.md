@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '13126'
+source-wordcount: '13125'
 ht-degree: 2%
 
 ---
@@ -447,7 +447,7 @@ ht-degree: 2%
          * [新しいアクセスレベルの仕組み](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [新しいアクセスレベルの概要](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [新しいライセンスの概要](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [新しいライセンスを受けるために、によるオブジェクトや領域へのアクセス](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [新しいライセンスによるオブジェクトや領域へのアクセス](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [新しいアクセスレベルで各オブジェクトタイプで使用可能な機能](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [新しいライセンスプランの有料ユーザーに対して自動アップグレードオプションを無効にする](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * アクセスレベルの仕組み {#legacy-access-levels}

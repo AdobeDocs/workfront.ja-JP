@@ -3,29 +3,29 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: 新しいライセンスを受けるために、によるオブジェクトや領域へのアクセス
+title: 新しいライセンスによるオブジェクトや領域へのアクセス
 description: 次の表に、各Adobe WorkfrontライセンスでWorkfrontのオブジェクトと領域に対して許可されている最高レベルのアクセス（編集または表示）を示します。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 18%
 
 ---
 
-# 新しいライセンスを受けるために、によるオブジェクトや領域へのアクセス
+# 新しいライセンスによるオブジェクトや領域へのアクセス
 
 次の表に、各Adobe WorkfrontライセンスでWorkfrontのオブジェクトと領域に対して許可されている最高レベルのアクセス（編集または表示）を示します。
 
 * **表示**:ユーザーは、項目を確認および共有できます。
 * **編集**:ユーザーは、項目の作成、編集、削除、共有をおこなうことができます。
 
-   >[!NOTE]
-   >
-   >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトを編集できる権限を制限する権限を指定できます。 詳しくは、 [オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >[!NOTE]
+  >
+  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトを編集できる権限を制限する権限を指定できます。 詳しくは、 [オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
