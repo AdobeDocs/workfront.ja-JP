@@ -4,12 +4,13 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2022 年 5 月 9 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2022 年 5 月 9 日の週」
 description: このページでは、2022 年 5 月 10 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
+feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
 exl-id: 199bdc78-08b0-403b-b762-560b25c6d05a
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -29,9 +30,9 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 シナリオ実行履歴で必要なデータを見つけやすくするため、実行履歴のフルテキスト検索に対して、次の機能が強化されました。
 
-* 検索を 30 日間の実行履歴アーカイブ内の特定の日付に制限
+* 検索を 30 日間の実行履歴アーカイブ内の特定の日付に制限する
 * 検索を、成功やエラーなどの特定の実行ステータスに制限します。
-* シングルクリックで実行 ID をコピー
+* 1 回のクリックで実行 ID をコピー
 * 特定の実行がスケジュールされたか、即時にトリガーされたか、手動でトリガーされたかを一目で確認します
 * キーボードを使用して検索ウィンドウを開き、結果間を移動する
 

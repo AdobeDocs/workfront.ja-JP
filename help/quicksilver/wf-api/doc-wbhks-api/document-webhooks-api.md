@@ -6,8 +6,9 @@ navigation-topic: workfront-api
 title: Document Webhook API の概要
 description: Document Webhook API トピック
 author: Becky
+feature: Workfront API
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
 * [ドキュメントの Web フックを使用した検索](../../wf-api/doc-wbhks-api/docu-webhook-search.md)
 * [Web フックを使用したドキュメントコンテンツの取得](../../wf-api/doc-wbhks-api/get-docu-content-webhook.md)
 * [ドキュメントのサムネールを取得する](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
-* [ドキュメントウェブフックを介したファイルのアップロード](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
+* [ドキュメントの Web フックを介したファイルのアップロード](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
 * [ドキュメントの Web フックを含むフォルダーの作成](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
 * [ドキュメントまたはフォルダーの削除（未実装）](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
 * [サービスに関する情報を取得します（まだ実装されていません）](../../wf-api/doc-wbhks-api/get-service-info-webhook.md)

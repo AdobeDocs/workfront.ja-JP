@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: カスタムフォーム内のカスタムフィールド、セクション区切り、またはウィジェットのプロパティを編集する
 description: Adobe Workfrontインスタンスでカスタムフォームで使用されるカスタムフィールド、セクション区切り、ウィジェットのプロパティを編集できます。 これには、項目のラベル、名前、説明などが含まれます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%

@@ -1,10 +1,11 @@
 ---
 product-area: home
 navigation-topic: new-home
-title: 新しいホームでウィジェットを追加、編集、削除する
+title: 新しいホームでウィジェットを追加、編集、または削除する
 description: 多数のウィジェットから選択して、ホームページに表示されるコンテンツをカスタマイズできます。 これらのウィジェットは、ホームページ上でサイズ変更や配置が可能です。
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -12,11 +13,11 @@ ht-degree: 0%
 ---
 
 
-# 新しいホームでウィジェットを追加、編集、削除する
+# 新しいホームでウィジェットを追加、編集、または削除する
 
 多数のウィジェットから選択して、ホームページに表示されるコンテンツをカスタマイズできます。 これらのウィジェットは、ホームページ上でサイズ変更や配置が可能です。
 
-使用可能なウィジェットとそれらが追跡する情報について詳しくは、 [新しいホームの概要](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)
+使用可能なウィジェットとそれらが追跡する情報について詳しくは、 [新しいホームを使い始める](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)
 
 ## ウィジェットをホームページに追加する
 
@@ -26,7 +27,7 @@ ht-degree: 0%
 
    ![カスタマイズボタン](../new-home/assets/customize-button.png)
 
-1. 内 **ウィジェット** セクション **カスタマイズ** 表示されたウィンドウ枠で、ホームページに追加するウィジェットが見つかるまでスクロールします。
+1. Adobe Analytics の **ウィジェット** のセクション **カスタマイズ** 表示されたウィンドウ枠で、ホームページに追加するウィジェットが見つかるまでスクロールします。
 
 1. 目的のウィジェットの画像の上にマウスポインターを置き、 **+ウィジェットを追加** ボタンが表示されたら、クリックしてウィジェットをホームページに追加します。
 

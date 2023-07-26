@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: ユーザーがWorkfrontオブジェクトに添付できるカスタムフォームを作成できます。 オブジェクトの操作を行うユーザーは、カスタムフォームに入力して、オブジェクトに関する情報を入力できます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 5b6583172b46e980a11fa9dc00895b9add5701ed
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 6%
@@ -61,6 +61,6 @@ Workfrontのカスタムフォームに、次のタイプのカスタムフィ�
 * 費用
 * グループ
 
-手順については、 [オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+手順については、 [オブジェクトにカスタムフォームを追加する](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 カスタムフォームを作成するユーザーは、複数のオブジェクトタイプで動作するように設定できます。

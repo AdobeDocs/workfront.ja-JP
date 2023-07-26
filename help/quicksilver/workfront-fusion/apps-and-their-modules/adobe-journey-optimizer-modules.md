@@ -5,10 +5,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizerモジュール
-description: 内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Adobe Journey Optimizer]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+description: 内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Adobe Journey Optimizer]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
 author: Becky
+feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 Becky: pull from main, add to TOCs, then push to merge.
 -->
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Adobe Journey Optimizer]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。 [!DNL Adobe Journey Optimizer] モジュールを使用すると、レコードの作成、読み取り、更新、削除をおこなうことも、 [!DNL Adobe Journey Optimizer] API
+内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Adobe Journey Optimizer]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。 [!DNL Adobe Journey Optimizer] モジュールを使用すると、レコードの作成、読み取り、更新、削除をおこなうことも、 [!DNL Adobe Journey Optimizer] API.
 
 
 シナリオの作成手順については、 [シナリオの作成](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -53,15 +54,15 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">製品</td>
       <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td>
     </tr>
   </tbody>
@@ -74,15 +75,15 @@ Becky: pull from main, add to TOCs, then push to merge.
 
 ## 前提条件
 
-使用する前に [!DNL Adobe Journey Optimizer] コネクタを使用する場合は、次の前提条件が満たされていることを確認する必要があります。
+使用する前に、 [!DNL Adobe Journey Optimizer] コネクタを使用する場合は、次の前提条件が満たされていることを確認する必要があります。
 
-* アクティブな [!DNL Adobe Journey Optimizer] アカウント
+* アクティブなが必要です [!DNL Adobe Journey Optimizer] アカウント。
 
 ## への接続の作成 [!DNL Adobe Journey Optimizer]
 
 の接続を作成するには、以下を実行します。 [!DNL Adobe Journey Optimizer] モジュール：
 
-1. 任意の [!DNL Adobe Journey Optimizer] モジュール、クリック **[!UICONTROL 追加]** をクリックします。
+1. 任意の [!DNL Adobe Journey Optimizer] モジュール、クリック **[!UICONTROL 追加]** 「接続」ボックスの横に表示されます。
 
 1. 次のフィールドに入力します。
 
@@ -150,9 +151,9 @@ Becky: pull from main, add to TOCs, then push to merge.
 
 ## [!DNL Adobe Journey Optimizer] モジュールとそのフィールド
 
-設定時に [!DNL Adobe Journey Optimizer] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Adobe Journey Optimizer] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Adobe Journey Optimizer] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Adobe Journey Optimizer] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -176,22 +177,22 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-     <td>への接続を作成する手順 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
+     <td>への接続を作成する手順については、 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL レコードタイプ ]
       </td>
       <td>
-        作成するレコードのタイプを選択
+        作成するレコードのタイプを選択します
         <ul>
-        <li><b>[!UICONTROL Placement]</b>:続行 <a href="#placement-fields" >[!UICONTROL 配置 ] フィールド</a>.</li>
-        <li><b>[!UICONTROL 決定ルール ]</b>:続行 <a href="#decision-rule-fields" >[!UICONTROL 決定ルール ] フィールド</a>.</li>
-        <li><b>[!UICONTROL 決定 ]</b>:続行 <a href="#decision-fields" >[!UICONTROL 決定 ] フィールド</a>.</li>
-        <li><b>[!UICONTROL タグ ]</b>:続行 <a href="#tag-fields" >[!UICONTROL タグ ] フィールド</a>.</li>
-        <li><b>[!UICONTROL コレクション ]</b>:続行 <a href="#collection-fields" >[!UICONTROL コレクション ] フィールド</a>.</li>
-        <li><b>[!UICONTROL フォールバックオファー ]</b>:続行 <a href="#fallback-offer-fields" >[!UICONTROL フォールバックオファー ] フィールド</a>.</li>
-        <li><b>[!UICONTROL パーソナライズされたオファー ]</b>:続行 <a href="#personalized-offer-fields" >[!UICONTROL パーソナライズされたオファー ] フィールド</a>.</li>
+        <li><b>[!UICONTROL Placement]</b>：続行 <a href="#placement-fields" >[!UICONTROL 配置 ] フィールド</a>.</li>
+        <li><b>[!UICONTROL 決定ルール ]</b>：続行 <a href="#decision-rule-fields" >[!UICONTROL 決定ルール ] フィールド</a>.</li>
+        <li><b>[!UICONTROL 決定 ]</b>：続行 <a href="#decision-fields" >[!UICONTROL 決定 ] フィールド</a>.</li>
+        <li><b>[!UICONTROL タグ ]</b>：続行 <a href="#tag-fields" >[!UICONTROL タグ ] フィールド</a>.</li>
+        <li><b>[!UICONTROL コレクション ]</b>：続行 <a href="#collection-fields" >[!UICONTROL コレクション ] フィールド</a>.</li>
+        <li><b>[!UICONTROL フォールバックオファー ]</b>：続行 <a href="#fallback-offer-fields" >[!UICONTROL フォールバックオファー ] フィールド</a>.</li>
+        <li><b>[!UICONTROL パーソナライズされたオファー ]</b>：続行 <a href="#personalized-offer-fields" >[!UICONTROL パーソナライズされたオファー ] フィールド</a>.</li>
         </ul>
       </td>
     </tr>
@@ -414,7 +415,7 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-     <td>への接続を作成する手順 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
+     <td>への接続を作成する手順については、 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -454,7 +455,7 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL 接続 ]</td>
-     <td>への接続を作成する手順 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
+     <td>への接続を作成する手順については、 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -469,7 +470,7 @@ Becky: pull from main, add to TOCs, then push to merge.
         <p>[!UICONTROL メソッド ]</p>
       </td>
       <td>
-   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
     <tr>
@@ -488,7 +489,7 @@ Becky: pull from main, add to TOCs, then push to merge.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 本文 ]</td>
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -511,7 +512,7 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL 接続 ]</td>
-     <td>への接続を作成する手順 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
+     <td>への接続を作成する手順については、 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -551,7 +552,7 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL 接続 ]</td>
-     <td>への接続を作成する手順 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
+     <td>への接続を作成する手順については、 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -606,14 +607,14 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL 接続 ]</td>
-     <td>への接続を作成する手順 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
+     <td>への接続を作成する手順については、 [!DNL Adobe Journey Optimizer]を参照してください。 <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >への接続の作成 [!DNL Adobe Journey Optimizer]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL レコードタイプ ]</p>
       </td>
       <td>
-        <p>リストするレコードの種類を選択します。</p>
+        <p>リストに表示するレコードの種類を選択します。</p>
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL 決定ルール ]</li>

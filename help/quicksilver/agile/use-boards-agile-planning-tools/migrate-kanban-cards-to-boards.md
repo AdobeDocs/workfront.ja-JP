@@ -4,8 +4,9 @@ navigation-topic: boards
 title: アジャイルチームかんばんカードをWorkfrontボードに移行
 description: 作業項目をアジャイルチームかんばんボードから新しいまたは既存のWorkfrontボードに移行できます。
 author: Lisa
+feature: Agile
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -49,9 +50,9 @@ Workfrontボードでのカードの配置は、列ポリシーに基づいて�
 
 1. かんばんボードにアクセスします。
 1. クリック [!UICONTROL **ボードに追加**] を選択し、 [!UICONTROL **新しいボード**].
-1. の [!UICONTROL 新しいボードに追加] ダイアログで、新しいボードの名前（現在のボードの名前）を入力します [!UICONTROL かんばん] ボードが自動的に表示されます )、をクリックします。 [!UICONTROL **追加**].
+1. 次の日： [!UICONTROL 新しいボードに追加] ダイアログで、新しいボードの名前（現在のボードの名前）を入力します [!UICONTROL かんばん] ボードが自動的に表示されます )、をクリックします。 [!UICONTROL **追加**].
 
-   ![新規ボードへのかんばんカードの追加](assets/add-kanban-cards-to-new-board-dialog.png)
+   ![新しいボードへのかんばんカードの追加](assets/add-kanban-cards-to-new-board-dialog.png)
 
 1. （オプション）表示される成功メッセージで、リンクをクリックして新しいボードを開きます。
 
@@ -61,7 +62,7 @@ Workfrontボードでのカードの配置は、列ポリシーに基づいて�
 
 1. かんばんボードにアクセスします。
 1. クリック [!UICONTROL **ボードに追加**] を選択し、 [!UICONTROL **既存のボード**].
-1. の [!UICONTROL 既存のボードに追加] ダイアログで、カードを移行するボードを検索して選択します。 次に、「 [!UICONTROL **追加**].
+1. 次の日： [!UICONTROL 既存のボードに追加] ダイアログで、カードを移行するボードを検索して選択します。 次に、「 [!UICONTROL **追加**].
 
    ![既存のボードへのかんばんカードの追加](assets/add-kanban-cards-to-existing-board-dialog.png)
 

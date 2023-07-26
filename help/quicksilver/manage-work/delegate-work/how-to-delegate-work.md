@@ -2,10 +2,11 @@
 filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: タスクおよび問題を委任
-description: 不在時に割り当てられた作業を一時的に委任できます。 この記事では、タスクと問題の割り当てを委任する方法について説明します。
+description: 不在時に割り当てられた作業を一時的に委任することができます。 この記事では、タスクと問題の割り当てを委任する方法について説明します。
 author: Alina
+feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 1%
@@ -20,7 +21,7 @@ ht-degree: 1%
 I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
-不在時に割り当てられた作業を一時的に委任できます。
+不在時に割り当てられた作業を一時的に委任することができます。
 
 タスクと問題の割り当てを委任したり、承認を委任したりできます。 この記事では、タスクと問題の割り当てを委任する方法について説明します。
 
@@ -32,16 +33,14 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 >
 >* 委任者として選択したユーザーは、タスクに対する権限と同じ権限を受け取り、委任した問題を発生します。
 >* 権限は、アクセスレベル内で機能する必要があり、アクセスレベルが自分のアクセスレベルより低い場合もあります。
-
-   >
-   >   
-   >   例えば、ユーザーがアクセスレベルでタスクに対する表示アクセス権のみを持ち、委任したタスクに対する管理権限を持っている場合、ユーザーは、委任したタスクに対する管理権限を受け取ります。 ただし、委任されたタスクに対してユーザーと同じアクションを実行することはできません。 不在時にタスクを更新できるよう、システム管理者にタスクへの編集アクセス権を要求する必要があります。
-   >
-   >   
-   >   がアクセスレベルを変更する方法について詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>
+>   
+>   例えば、ユーザーがアクセスレベルでタスクに対する表示アクセス権のみを持ち、委任したタスクに対する管理権限を持っている場合、ユーザーは、委任したタスクに対する管理権限を受け取ります。 ただし、委任されたタスクに対してユーザーと同じアクションを実行することはできません。 不在時にタスクを更新できるよう、システム管理者にタスクへの編集アクセス権を要求する必要があります。
+>
+>   
+>   がアクセスレベルを変更する方法について詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* デリゲーションが既に開始した後に割り当てられた項目の場合、項目が割り当てられてから最大 1 時間かかる場合があります ( [!DNL Workfront] 新しく割り当てられた項目を委任者と共有する場合。
-
 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
@@ -60,7 +59,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 >[!NOTE]
 >
->リクエストライセンスを持っている場合は、作業に割り当てることができますが、他の人に作業を委任することはできません。 [!DNL Workfront] では、作業をレビューまたはユーザーのリクエストに割り当てることはお勧めしません。
+>リクエストライセンスを持っている場合は、作業に割り当てることができますが、他の人に作業を委任することはできません。 [!DNL Workfront] では、作業を「レビュー」または「ユーザーをリクエスト」に割り当てることはお勧めしません。
 
 </tr> 
   <tr> 
@@ -68,7 +67,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    <td> <p>タスクと問題へのアクセス権を編集まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>割り当てられているタスクまたは問題に対する権限を表示または上限に設定します</p> 
     <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
@@ -85,11 +84,11 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 この記事で説明するアクティビティを実行する前に、次の点を確認する必要があります。
 
-* お使いの [!DNL Workfront] またはグループ管理者が有効 [!UICONTROL ログに記録された時間のタスクと問題の削除をユーザーに許可] 設定 [!UICONTROL 設定] 領域 [!DNL Workfront] インスタンス。
+* お使いの [!DNL Workfront] またはグループ管理者が有効 [!UICONTROL ログに記録された時間のタスクと問題の削除をユーザーに許可] 設定を [!UICONTROL 設定] の領域 [!DNL Workfront] インスタンス。
 
-   詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  詳しくは、 [システム全体のタスクと問題の環境設定を構成する](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-## タスクと問題を別のユーザーに委任
+## タスクと問題を別のユーザーに委任する
 
 作業を他のユーザーに委任する前に、連絡を取り、作業項目の代理者に指定されるように通知することをお勧めします。 仕事を委任する前に、言葉による承認を求め、不在中に仕事を完了するのに必要な時間を確保します。
 
@@ -97,48 +96,48 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 タスクと問題を他のユーザーに委任するには：
 
-1. 次に移動： [!UICONTROL **ホーム**] 「 」領域で、「 [!UICONTROL **委任**] の最上部に [!UICONTROL **作業用リスト**].
+1. 次に移動： [!UICONTROL **ホーム**] 「 」領域で「 」をクリックし、 [!UICONTROL **委任**] の最上部に [!UICONTROL **作業用リスト**].
 
    ![](assets/delegate-button-in-home.png)
 
-1. 内 [!UICONTROL **タスクと問題の委任**] 「 」タブで、以下を更新します。
+1. Adobe Analytics の [!UICONTROL **タスクと問題の委任**] 「 」タブで、以下を更新します。
 
-   * [!UICONTROL **タスクと問題を次に委任**]:タスクとタスクを委任するユーザーの名前を入力し、リストに表示されたら選択します。 選択できるユーザーは 1 つだけです。\
+   * [!UICONTROL **タスクと問題を次に委任**]：タスクおよびタスクを委任するユーザーの名前の入力を開始し、リストに表示されたら選択します。 選択できるユーザーは 1 つだけです。\
 
-      委任者として選択したユーザーは、タスクに対する権限と同じ権限を受け取り、委任した問題を受け取ります。 詳しくは、 [タスクの委任と問題の概要](delegate-work-overview.md).
+     委任者として選択したユーザーは、タスクに対する権限と同じ権限を受け取り、委任した問題を受け取ります。 詳しくは、 [タスクの委任と問題の概要](delegate-work-overview.md).
 
-   * [!UICONTROL **開始日**]:作業項目の委任を開始する日付をカレンダーから選択します。
+   * [!UICONTROL **開始日**]：作業項目のデリゲーションを開始する日付をカレンダーから選択します。
 
-      >[!TIP]
-      >
-      >開始日を過去の日付にすることはできません。
+     >[!TIP]
+     >
+     >開始日を過去の日付にすることはできません。
 
-   * [!UICONTROL **終了日がありません**]:委任の終了日を指定しない場合は、このオプションを選択します。
+   * [!UICONTROL **終了日がありません**]：デリゲーションの終了日を指定しない場合は、このオプションを選択します。
 
-   * [!UICONTROL **終了日**]:委任を停止する日付をカレンダーから選択します。
+   * [!UICONTROL **終了日**]：委任を停止する日付をカレンダーから選択します。
 
-      >[!TIP]
-      >
-      >「終了日」を選択しない場合は、現在の日付に対してのみデリゲーションが有効になります。
+     >[!TIP]
+     >
+     >「終了日」を選択しない場合は、現在の日付に対してのみデリゲーションが有効になります。
 
-      ![](assets/delegate-box-expanded-in-home.png)
+     ![](assets/delegate-box-expanded-in-home.png)
 
 1. 「[!UICONTROL **保存**]」をクリックします。
 
    次のことが起こります。
 
    * 作業は指定したユーザーに委任されます。 選択した期間内に日付が設定された不完全なタスクまたは問題（デリゲーションが有効になった後に新しく割り当てられたタスクを含む）は、デリゲートされます。
+
    >[!TIP]
    >
-   >   委任の期間内に日付が設定された完了した作業項目は委任されません。
+   >   委任の期間内に日付が設定された完了した作業項目は、委任されません。
 
 
    * 画面の右上隅に、別のユーザーへの作業の委任を有効にしたことを確認するメッセージが表示されます。 委任ユーザーの名前が確認メッセージに表示されます。
 
    * タスクと問題が他のユーザーに委任されたことを示す指標は、 [!DNL Workfront]. 代理オブジェクトの名前が含まれていない領域の詳細については、を参照してください。 [タスクの委任と問題の概要](delegate-work-overview.md).
 
-   * この [!UICONTROL **委任**] ボタン [!UICONTROL ホーム] 領域の変更 [!UICONTROL **委任を編集**] をクリックして、デリゲーションが実行されていることを示します。
-
+   * The [!UICONTROL **委任**] ボタン [!UICONTROL ホーム] 領域の変更 [!UICONTROL **委任を編集**] をクリックして、デリゲーションが実行されていることを示します。
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -151,8 +150,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * イベント通知が有効になっている場合、委任者として選択したユーザーは、委任に関する電子メールを受け取ります。
 
-      個人の電子メール通知を有効にする方法について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
+     個人の電子メール通知を有効にする方法について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 
@@ -161,8 +159,8 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 「終了日」を選択した場合は、デリゲーションの有効期限を切せることも、手動で停止することもできます。 また、デリゲーションの日付が変更された場合は、デリゲーションの期間を変更することもできます。
 
-1. 次に移動： [!UICONTROL ホーム] 「 」領域で、「 [!UICONTROL 委任を編集] をクリックします。
-1. 内 [!UICONTROL タスクと問題の委任] 「 」タブで、次のいずれかの操作をおこないます。
+1. 次に移動： [!UICONTROL ホーム] 「 」領域で「 」をクリックし、 [!UICONTROL 委任を編集] をクリックします。
+1. Adobe Analytics の [!UICONTROL タスクと問題の委任] 「 」タブで、次のいずれかの操作をおこないます。
    * を変更します。 [!UICONTROL **開始日**] または [!UICONTROL **終了日**]
    * クリック [!UICONTROL **委任を停止**]
 
@@ -192,28 +190,28 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 * [で委任作業を検索 [!UICONTROL ホーム]](#locate-delegated-work-in-home)
 
 
-### で代理オブジェクトを検索する [!UICONTROL 割り当て] ボックス
+### で代理オブジェクトを検索する [!UICONTROL 割当て] ボックス
 
-システムまたはグループ管理者がシステムで作業の委任を有効にした場合、 [!UICONTROL 割り当て] ボックスには、アクセスできるすべての場所に次のタブが表示されます。
+システムまたはグループ管理者がシステムで作業の委任を有効にした場合、 [!UICONTROL 割当て] ボックスには、アクセスできるすべての場所に次のタブが表示されます。
 
-* [!UICONTROL **割り当て**]:タスクまたはイシューに割り当てられたユーザーがここに表示されます。
-* [!UICONTROL **委任**]:タスクまたはイシューの担当者が委任者として指定したユーザーがここに表示されます。
+* [!UICONTROL **割当て**]：タスクまたはイシューに割り当てられたユーザーがここに表示されます。
+* [!UICONTROL **委任**]：タスクまたはイシューの担当者が委任者として指定したユーザーは、ここに表示されます。
 
-次にアクセス： [!UICONTROL 割り当て] 」ボックスが次の領域に表示されます。
+次にアクセス： [!UICONTROL 割当て] 」ボックスが次の領域に表示されます。
 
-* タスクまたは発行ヘッダー
+* タスクまたはイシューのヘッダー
 
-   ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
-   この [!UICONTROL 割り当て] タスクまたは問題ヘッダーのフィールドが [!UICONTROL 割り当てと委任].
+  The [!UICONTROL 割当て] タスクまたは問題ヘッダーのフィールドが次の値に変更された場合 [!UICONTROL 割り当てと委任].
 
-* この [!UICONTROL ワークロードバランサー] タスクまたは問題を手動で割り当てる場合
+* The [!UICONTROL ワークロードバランサー] タスクまたは問題を手動で割り当てる場合
 
-   ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
-> 代理オブジェクトは [!UICONTROL 割り当て] タスクまたはイシューの [ 編集 ] ボックスのセクション
+> 代理オブジェクトは [!UICONTROL 割当て] タスクまたはイシューの [ 編集 ] ボックスのセクション
 
 タスクまたはイシューが委任され、 [!UICONTROL 委任] サブタブが空の場合は、次のシナリオの 1 つが存在する可能性があります。
 
@@ -222,27 +220,28 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 >[!TIP]
 >
->委任されたタスクとタスクの予定時間または実績時間は、リソース管理ツール ( [!UICONTROL ワークロードバランサー] または [!DNL Resource Planner] 委任されたユーザーに対して。 時間は、割り当てられたユーザーにのみ関連付けられます。
+>委任されたタスクとタスクの計画時間または実績時間は、リソース管理ツール ( [!UICONTROL ワークロードバランサー] または [!DNL Resource Planner] 委任されたユーザーに対して。 時間は、割り当てられたユーザーにのみ関連付けられます。
 
 ### で委任作業を検索 [!UICONTROL ホーム]
 
-1. 次に移動： [!UICONTROL **ホーム**] 「 」領域で、フィルタードロップダウンメニューをクリックし、次の 1 つまたは複数のオプションを選択します。
-   * [!UICONTROL **委任済み**]:自分または自分に委任されたタスクと問題を表示する
-   * [!UICONTROL **委任済み**]:別のユーザーが委任したタスクとタスクを表示する。
-   * [!UICONTROL **委任者**]:自分が他のユーザーに委任したタスクと問題を表示する場合。
+1. 次に移動： [!UICONTROL **ホーム**] 「 」領域を選択し、フィルタードロップダウンメニューをクリックして、次の 1 つまたは複数のオプションを選択します。
+   * [!UICONTROL **委任済み**]：自分または自分に委任されたタスクや問題を表示します。
+   * [!UICONTROL **自分に委任済み**]：別のユーザーが委任したタスクとタスクを表示します。
+   * [!UICONTROL **自分が委任**]：自分が他のユーザーに委任したタスクと問題を表示します。
 
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
-1. 次をクリック： [!UICONTROL 並べ替え] 次の条件でリストを並べ替えるドロップダウンメニュー：
+1. 次をクリック： [!UICONTROL 並べ替え] 次の条件でリストを並べ替えるドロップダウンメニュー。
    * [!UICONTROL 完了予定]. これはデフォルトの並べ替えオプションです。
    * [!UICONTROL 予定開始]
    * [!UICONTROL コミット日]
    * [!UICONTROL プロジェクト]
    * [!UICONTROL マイ優先度]
 1. でグループを展開します。 [!UICONTROL **作業用リスト**] 委任された作業項目を表示します。 次のシナリオが存在します。
-   * 他のユーザーに委任した項目の場合は、代理人の名前が [!UICONTROL **作業用リスト**] また [!UICONTROL **割り当てと委任**] フィールドの右側に表示されます。
+   * 他のユーザーに委任した項目の場合は、代理人の名前が [!UICONTROL **作業用リスト**] 同様に [!UICONTROL **割り当てと委任**] フィールドの右側に表示されます。
 
-   * 委任された項目の場合は、担当者の名前が [!UICONTROL **作業用リスト**] また **[!UICONTROL 割り当てと委任]** フィールドの右側に表示されます。
+   * 委任された項目の場合は、担当者の名前が [!UICONTROL **作業用リスト**] 同様に **[!UICONTROL 割り当てと委任]** フィールドの右側に表示されます。
+
    >[!TIP]
    >
-   >    委任が今日の日付以降の日付に開始するように設定されている場合は、委任の開始日も [!UICONTROL 作業用リスト]. 委任された項目は、選択したグループに表示されます [!UICONTROL 作業用リスト]（グループのタイプに従う） 例えば、 [!UICONTROL 計画完了日]を指定した場合、委任された項目は、計画された完了日と一致するグループに表示されます。
+   >    委任が今日の日付以降の日付に開始するように設定されている場合は、委任の開始日も [!UICONTROL 作業用リスト]. 委任された項目は、選択したグループに表示されます。 [!UICONTROL 作業用リスト]（グループのタイプに従う） 例えば、 [!UICONTROL 計画完了日]を指定した場合、委任された項目は、計画された完了日と一致するグループに表示されます。

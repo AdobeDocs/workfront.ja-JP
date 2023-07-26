@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: FTP モジュール
 description: FTP モジュールを使用すると、選択したフォルダー内のファイルの変更を監視したり、新しいファイルを目的のフォルダーにアップロードしたり、既にフォルダー内にある既存のファイルを変更または削除したりできます。
 author: Becky
+feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 0%
@@ -40,15 +41,15 @@ FTP モジュールを使用すると、選択したフォルダー内のファ�
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -60,7 +61,7 @@ FTP モジュールを使用すると、選択したフォルダー内のファ�
 
 ## 前提条件
 
-を使用するには [Fusion アプリ] と [!DNL Workfront Fusion]に設定するには、FTP アカウントが必要です。
+を使用するには [Fusion アプリ] 次を使用 [!DNL Workfront Fusion]に設定するには、FTP アカウントが必要です。
 
 ## FTP モジュールでの接続の作成 {#create-a-connection}
 
@@ -104,7 +105,7 @@ FTP モジュールを使用すると、選択したフォルダー内のファ�
 </tr> 
   <tr> 
    <td> <p>[!UICONTROL 自己署名証明書 ]</p> </td> 
-   <td> <p>次をクリック： <b>[!UICONTROL 抽出 ]</b> ボタンをクリックして、アップロードダイアログを開きます。</p> <p>自己署名済み証明書で TLS を使用するには、証明書をアップロードします。 [!DNL Workfront Fusion] は、ファイルやパスワードなど、指定したデータを保持または保存しません。 ファイルとパスワードは、証明書を抽出する場合にのみ使用します。</p> </td> 
+   <td> <p>次をクリック： <b>[!UICONTROL 抽出 ]</b> ボタンをクリックして、アップロードダイアログを開きます。</p> <p>自己署名済み証明書で TLS を使用するには、証明書をアップロードします。 [!DNL Workfront Fusion] は、ファイルやパスワードなど、指定したデータを保持または保存しません。 ファイルとパスワードは、証明書を抽出する目的でのみ使用されます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -116,9 +117,9 @@ FTP モジュールを使用すると、選択したフォルダー内のファ�
 
 ### トリガー
 
-#### [!UICONTROL 監視ファイル]
+#### [!UICONTROL ファイルを監視]
 
-[!UICONTROL 監視ファイル] は、FTP 用の唯一のトリガーモジュールです。 選択したフォルダーのファイルコンテンツを監視します。 このトリガーは、新しいファイルが指定のフォルダーに挿入されると実行されます。
+[!UICONTROL ファイルを監視] は、FTP 用の唯一のトリガーモジュールです。 選択したフォルダーのファイルコンテンツを監視します。 このトリガーは、新しいファイルが指定のフォルダーに挿入されると実行されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,7 +131,7 @@ FTP モジュールを使用すると、選択したフォルダー内のファ�
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL フォルダー ]</p> </td> 
-   <td> <p>監視するフォルダーを選択します。</p> <p><b>注意：</b> 1 つのシナリオにつき 1 つのフォルダーのみを使用できます。 サブフォルダーは無視されます。</p> <p><b>ヒント：</b> 複数のフォルダーを追跡するには、それぞれに個別のシナリオを作成します。</p> </td> 
+   <td> <p>監視するフォルダーを選択します。</p> <p><b>注意：</b> 1 つのシナリオにつき 1 つのフォルダーのみを使用できます。 サブフォルダーは無視されます。</p> <p><b>ヒント：</b> 複数のフォルダーを追跡するには、各フォルダーに対して個別のシナリオを作成します。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 返されるファイルの最大数 ] </td> 
@@ -196,7 +197,7 @@ FTP モジュールを使用すると、選択したフォルダー内のファ�
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">[!UICONTROL フォルダーパス ]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">新しいフォルダにファイルパスを入力またはマップします。</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">新しいフォルダにファイルパスを入力またはマッピングします。</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL 新しいフォルダー名 ]</td>

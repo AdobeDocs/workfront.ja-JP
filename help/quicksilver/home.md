@@ -1,11 +1,12 @@
 ---
 title: '''[!DNL Adobe Workfront] ドキュメント'
 description: のドキュメント [!DNL Adobe Workfront].
+feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 757fcb4dae232e90850b77a7d77c23e181519183
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -39,7 +40,7 @@ Workfront Fusion は、アプリと Web サービスをシームレスに接続�
 
 詳しくは、 [Adobe Workfrontの基本](/help/quicksilver/workfront-basics/workfront-basics.md).
 
-### Workfrontのアジャイル
+### Workfrontでのアジャイル
 
 Workfrontの機敏な機能により、チームは少量で管理しやすい作業を一貫したサイクルで完了できます。
 
@@ -71,8 +72,8 @@ Workfront API の基本について説明します。
 
 詳しくは、 [API の基本](/help/quicksilver/wf-api/general/api-basics.md).
 
-### API エクスプローラ
+### API エクスプローラー
 
 Adobe Workfront API を通じて利用可能なすべてのオブジェクトを、API エクスプローラーに表示できます。
 
-詳しくは、 [Workfront API Explorer (developer.adobe.com)](https://developer.adobe.com/workfront/api-explorer/).
+詳しくは、 [Workfront API Explorer( developer.adobe.com )](https://developer.adobe.com/workfront/api-explorer/).

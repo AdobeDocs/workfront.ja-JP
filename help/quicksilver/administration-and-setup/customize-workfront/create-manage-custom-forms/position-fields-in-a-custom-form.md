@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 従来のフォームビルダーを使用したカスタムフォーム内でのカスタムフィールドおよびウィジェットの配置
 description: カスタムフォーム内のカスタムフィールドとウィジェットの位置を変更できます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -64,10 +64,9 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 >[!NOTE]
 >
->* 以下を使用して、 **プレビュー** ボタンを使用して、カスタムフィールドとウィジェットがフォームでどのように表示されるかを確認できます。
+>* 以下を使用すると、 **プレビュー** ボタンを使用して、カスタムフィールドとウィジェットがフォームでどのように表示されるかを確認できます。
 >* 説明テキストフィールドで行を共有することはできません。
 >* ユーザーが表示しているときに使用可能な画面領域の量に応じて、カスタムフィールドとウィジェットがフォームで同じように表示されない場合があります。 例えば、横方向のスペースが制限されている場合、フィールドの行の 3 番目のフィールドは、次のフィールドの行に折り返されます。
-
 
 1. （オプション）カスタムフィールドまたはウィジェットを別のフィールドの上または下に配置するには、項目の間に青い横線が表示されるまで、上または下にドラッグします。
 1. クリック **適用**.
@@ -78,4 +77,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
    * [レガシーフォームビルダーを使用して計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [レガシーフォームビルダーを使用したカスタムフォームへのセクション区切りの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
    * [従来のフォームビルダーを使用して、表示ロジックを追加し、ロジックをカスタムフォームにスキップします](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-   * [レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます。](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

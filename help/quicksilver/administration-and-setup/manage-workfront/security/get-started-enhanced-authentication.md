@@ -3,8 +3,10 @@ title: 拡張認証の概要
 description: 検索および左のナビゲーションで非表示
 hidefromtoc: true
 hide: true
+feature: System Setup and Administration
+role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: ab329085fae35fdda28dc8db70e3b47d9d6c28ea
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 3%
@@ -17,7 +19,7 @@ ht-degree: 3%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfrontはユーザーとパスワードのシステム管理を変更しています。 これらの変更は、次の段階的リリースで公開されます。 **認証の強化** エクスペリエンス。 拡張認証により、すべてのWorkfront製品およびサービスにわたって、より一貫性のある安全なログインエクスペリエンスが提供されます。
+Adobe Workfrontはユーザーとパスワードのシステム管理を変更しています。 これらの変更は、次の段階的リリースで公開されます。 **認証の強化** エクスペリエンス。 拡張認証により、すべてのWorkfront製品およびサービスにわたって、より一貫性のある安全なログインエクスペリエンスをユーザーに提供します。
 
 次の表に、現在および将来の機能の詳細を示します。
 
@@ -102,7 +104,7 @@ Adobe Workfrontはユーザーとパスワードのシステム管理を変更�
   <tr> 
    <td> <p>パスワードの誤った入力試行から保護 </p> </td> 
    <td> <p>✓ </p> <p>パスワードの入力が 5 回正しく行われなかった場合に、アカウントをロックします。 ロックアウト後に必要な待機時間は、Workfront管理者が設定します</p> </td> 
-   <td> <p>✓</p> <p>業界のベストプラクティスに基づいて、パスワードが連続的に正しくない場合は、待機時間が急激に増加します。必要な時間はWorkfront管理者が設定できません</p> </td> 
+   <td> <p>✓</p> <p>業界のベストプラクティスに基づいて、パスワードが連続して正しくない場合は待ち時間が急激に増加します。Workfrontの管理者は、必要な時間を設定できません</p> </td> 
    <td> <p>✓</p> <p>様々な疑わしい動作をプロアクティブにブロックするロックアウトアルゴリズムを使用します。</p> </td> 
   </tr> 
   <tr> 

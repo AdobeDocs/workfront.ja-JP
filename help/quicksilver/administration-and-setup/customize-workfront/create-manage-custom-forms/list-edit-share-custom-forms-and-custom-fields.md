@@ -1,8 +1,10 @@
 ---
-title: カスタムフォームに追加されたカスタムフォームとウィジェットのリストと編集
+title: カスタムフォームに追加されたカスタムフォームとウィジェットの一覧表示と編集
 description: 組織のカスタムフォームと、それらに追加されたカスタムフィールドおよびウィジェットのリストを表示する場合、ツールバーのオプションを使用して、プロパティの編集、プロパティの共有者の制限、コピー、削除をおこなうことができます。 また、各カスタムフォームに関連付けられているオブジェクトタイプなど、表示される列のその他の情報を表示することもできます。
 author: Caroline
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+feature: System Setup and Administration, Custom Forms
+role: Admin
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 ---
 
 
-# カスタムフォームに追加されたカスタムフォームとウィジェットのリストと編集
+# カスタムフォームに追加されたカスタムフォームとウィジェットの一覧表示と編集
 
 組織のカスタムフォームと、それらに追加されたカスタムフィールドおよびウィジェットのリストを表示する場合、ツールバーのオプションを使用して、プロパティの編集、プロパティの共有者の制限、コピー、削除をおこなうことができます。 また、各カスタムフォームに関連付けられているオブジェクトタイプなど、表示される列のその他の情報を表示することもできます。
 
@@ -76,7 +78,6 @@ ht-degree: 0%
    * [カスタムフォーム内のカスタムフィールド、セクション区切り、またはウィジェットのプロパティを編集する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [カスタムフィールドとウィジェットの共有を設定する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [システムからカスタムフィールドまたはウィジェットを削除する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-
 
 1. を選択します。 **セクション** 」タブに移動して、 **パラメータグループ** が **表示** リストの
 

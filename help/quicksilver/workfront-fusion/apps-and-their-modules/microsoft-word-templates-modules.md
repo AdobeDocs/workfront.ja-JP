@@ -8,17 +8,18 @@ navigation-topic: apps-and-their-modules
 title: Microsoft Word テンプレートモジュール
 description: Adobe Workfront Fusion のシナリオでは、Microsoft Word テンプレートを使用するワークフローを自動化し、複数のサードパーティのアプリケーションおよびサービスに接続できます。
 author: Becky
-source-git-commit: 43b64d1371438909063d2ac81cccb90b97179dfc
+feature: Workfront Fusion
+exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1286'
 ht-degree: 0%
 
 ---
 
-
 # [!DNL Microsoft Word Template] モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Microsoft Word Templates]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Microsoft Word Templates]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
 
 シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -65,11 +66,11 @@ ht-degree: 0%
 
 ## 前提条件
 
-を使用するには [!DNL Miscrosoft Word Templates] と [!DNL Adobe Workfront Fusion]の場合、 [!DNL Office 365] アカウント 作成はwww.office.comでおこなえます。
+を使用するには [!DNL Miscrosoft Word Templates] 次を使用 [!DNL Adobe Workfront Fusion]を使用する場合、 [!DNL Office 365] アカウント。 作成はwww.office.comでおこなえます。
 
 ## 使用 [!DNL Microsoft Word Templates] モジュール
 
-以下の [!DNL Microsoft Word Template] 複数の web サービスのデータを 1 つのに結合するモジュール [!DNL Microsoft Word] 文書。
+次の項目を使用できます。 [!DNL Microsoft Word Template] 複数の web サービスのデータを 1 つのに結合するモジュール [!DNL Microsoft Word] 文書。
 
 例えば、次の [!DNL Microsoft Word] テンプレート：
 
@@ -92,14 +93,14 @@ A [!DNL Microsoft Word] template は通常の [!DNL Microsoft Word] ドキュメ
 単純な値タグは、対応する値に置き換えられます。 タグの名前は、 [!UICONTROL キー] フィールドの値。二重中括弧の内側に配置されます。例：
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 。
 
 **例：** 「こんにちは、ピーター！」と書いた文書を作成するには、 [!DNL Microsoft Word Template] モジュールを使用して、次のテンプレートを作成します。
 
-<pre>&gt; &#123;&#123;name&#125;&#125; 様</pre>
+<pre>&gt; こんにちは {{name}}!</pre>
 
 これをおこなうには、次のようにモジュールを設定します。
 
@@ -107,29 +108,28 @@ A [!DNL Microsoft Word] template は通常の [!DNL Microsoft Word] ドキュメ
 
 ### 条件タグ {#condition-tag}
 
-条件タグを使用すると、特定の条件が満たされた場合にのみレンダリングされるテキストを折り返すことができます。 テキストを折り返すには、データに電話番号が含まれているかどうかの条件を示す場合に、「hasPhone」のように開始条件タグと終了条件タグの間にテキストを配置します。 次の例に示すように、開始タグの名前の前にハッシュ記号#が付き、終了タグの名前の前にスラッシュ/が付きます。
+条件タグを使用すると、特定の条件が満たされた場合にのみレンダリングされるテキストを折り返すことができます。 テキストを折り返すには、データに電話番号が含まれているかどうかの条件を示す場合は、「hasPhone」のように、開始条件タグと終了条件タグの間にテキストを配置します。 次の例に示すように、開始タグの名前の前にハッシュ記号#が付き、終了タグの名前の前にスラッシュ/が付きます。
 
 **例：** 入力データに電話番号が含まれているが、電子メールアドレスが含まれていない場合に、顧客の電話番号を含むドキュメントを作成するには、 [!DNL Microsoft Word Template] モジュールを作成し、次のテンプレートを作成します。
-pre>> &#123;&#123;#hasPhone&#125;&#125; 電話：&#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125; メール：&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>これをおこなうには、次のようにモジュールを設定します。
+<pre>&gt; {{#hasPhone}} 電話： {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}E メール： {{email}} {{/hasEmail}}</pre>これをおこなうには、次のようにモジュールを設定します。
 
 ![](assets/word-template-conditional-350x501.png)
 
 このドキュメントでは、電話番号は次のように表示されます。
-<pre>&gt; 電話：4445551234</pre>
+<pre>&gt; 電話： 4445551234</pre>
 
 ### ループタグ {#loop-tag}
 
-ループタグ（セクションタグとも呼ばれます）を使用して、テキストのセクションを繰り返すことができます。 開始ループタグと終了ループタグの間に配置して、テキストを折り返します。 開始タグの名前の前にハッシュ記号#；が付きます。終了タグの名前の前にスラッシュ (/) が付きます。
+ループタグ（セクションタグとも呼ばれます）を使用して、テキストのセクションを繰り返すことができます。 開始ループタグと終了ループタグの間に配置して、テキストを折り返します。 開始タグの名前の前にハッシュ記号#が付き、終了タグの名前の前にスラッシュ/が付きます。
 
 * [ドキュメントモジュールの入力を含むループタグ](#loop-tag-with-fill-out-a-document-module)
-
-<!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
+  <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
 
 #### ドキュメントモジュールの入力を含むループタグ {#loop-tag-with-fill-out-a-document-module}
 
 **例：** 顧客リスト内の各連絡先の名前と電話番号を記載したドキュメントを作成するには、 [!DNL Microsoft Word Template] モジュールを作成し、次のテンプレートを作成します。
 
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 これをおこなうには、次のようにモジュールを設定します。
 
@@ -186,7 +186,7 @@ The module would create the following document:
    <td> <p>置き換えるテキストの先頭をマークする文字を入力します。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span>入力 <code>[[</code> 次のようなテキストを置き換える場合： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 置き換えるテキストの区切り文字を終了 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 置き換えるテキストの区切り文字を終了します ]</p> </td> 
    <td> <p>置き換えるテキストの末尾をマークする文字を入力します。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span>入力 <code>]]</code> 次のようなテキストを置き換える場合： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
@@ -206,11 +206,11 @@ The module would create the following document:
    <td> <p>これはコレクションの配列にする必要があります。次の場合に使用します。</p> 
     <ul> 
      <li>各コレクションは 1 つのデータエントリに対応し、1 つの項目を含みます <code>entry</code></li> 
-     <li>項目 <code>entry </code>には、 <code>key </code>および <code>value</code></li> 
+     <li>項目 <code>entry </code>次のコレクションを含む <code>key </code>および <code>value</code></li> 
      <li>項目 <code>key </code>タグの名前が含まれます。</li> 
-     <li>項目 <code>value </code>には、タグの値が含まれます</li> 
+     <li>項目 <code>value </code>には、タグの値が含まれます。</li> 
     </ul> 
-    <p>エントリを追加するには：</p>
+    <p>エントリを追加するには、次の手順に従います。</p>
     <ol> 
      <li> クリック <b>[!UICONTROL 項目を追加 ]</b>. </li> 
      <li>エントリの値のタイプを選択します。</li> 
@@ -248,7 +248,7 @@ The module would create the following document:
    <td> <p>置き換えるテキストの先頭をマークする文字を入力します。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span>入力 <code>[[</code> 次のようなテキストを置き換える場合： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 置き換えるテキストの区切り文字を終了 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL 置き換えるテキストの区切り文字を終了します ]</p> </td> 
    <td> <p>置き換えるテキストの末尾をマークする文字を入力します。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span>入力 <code>]]</code> 次のようなテキストを置き換える場合： <code>[[replace_me]]</code></p> </td> 
   </tr> 
   <tr> 
@@ -276,11 +276,11 @@ The module would create the following document:
    <td> <p>これはコレクションの配列にする必要があります。次の場合に使用します。</p> 
     <ul> 
      <li>各コレクションは 1 つのデータエントリに対応し、1 つの項目を含みます <code>entry</code></li> 
-     <li>項目 <code>entry </code>には、 <code>key </code>および <code>value</code></li> 
+     <li>項目 <code>entry </code>次のコレクションを含む <code>key </code>および <code>value</code></li> 
      <li>項目 <code>key </code>タグの名前が含まれます。</li> 
-     <li>項目 <code>value </code>には、タグの値が含まれます</li> 
+     <li>項目 <code>value </code>には、タグの値が含まれます。</li> 
     </ul> 
-    <p>エントリを追加するには：</p>
+    <p>エントリを追加するには、次の手順に従います。</p>
     <ol> 
      <li> クリック <b>[!UICONTROL 項目を追加 ]</b>. </li> 
      <li>エントリの値のタイプを選択します。</li> 
@@ -294,4 +294,3 @@ The module would create the following document:
   </tr> 
  </tbody> 
 </table>
-

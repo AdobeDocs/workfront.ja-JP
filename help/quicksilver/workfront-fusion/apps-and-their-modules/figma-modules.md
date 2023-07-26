@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: 図モジュール
 description: を使用 [!DNL Adobe Workfront Fusion] 図モジュールでは、コメント、ファイル、ファイルバージョン、またはプロジェクトの一覧を取得できます。 また、コメントを投稿したり、Figma API を呼び出したりすることもできます。
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2309'
 ht-degree: 1%
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # [!DNL Figma] モジュール
 
-を使用 [!DNL Adobe Workfront Fusion] [!DNL Figma] モジュールを使用して、コメント、ファイル、ファイルバージョン、またはプロジェクトのリストを取得できます。 また、コメントを投稿したり、 [!DNL Figma] API
+を使用 [!DNL Adobe Workfront Fusion] [!DNL Figma] モジュールを使用して、コメント、ファイル、ファイルバージョン、またはプロジェクトのリストを取得できます。 また、コメントを投稿したり、 [!DNL Figma] API.
 
 シナリオの作成手順については、 [シナリオの作成](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -48,15 +49,15 @@ ht-degree: 1%
       <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">製品</td>
       <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td>
     </tr>
   </tbody>
@@ -69,13 +70,13 @@ ht-degree: 1%
 
 ## 前提条件
 
-使用する [!DNL Figma] モジュールの場合、 [!DNL Figma] アカウント
+次を使用するには： [!DNL Figma] モジュールの場合は、 [!DNL Figma] アカウント。
 
 ## [!DNL Figma] モジュールとそのフィールド
 
-設定時に [!DNL Figma] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Figma] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Figma] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Figma] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -107,7 +108,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
       </td>
     </tr>
     <tr>
@@ -131,7 +132,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ファイル ID]</td>
@@ -165,7 +166,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
     </tr>
     <tr>
       <td  role="rowheader">[!UICONTROL ファイル ID]</td>
@@ -210,7 +211,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL オブジェクトタイプ ]</td>
@@ -221,25 +222,25 @@ ht-degree: 1%
             <p><b>[!UICONTROL ファイル ]</b>
             </p>
             <p>このモジュールは、[!UICONTROL キー ] によって参照されるドキュメントを JSON オブジェクトとして返します。 ファイルキーは、任意の Figma ファイル URL から解析できます。</p>
-            <p>フィールドについては、 <a href="#Get2" class="MCXref xref" >[!UICONTROL ファイルまたは画像を取得します。ファイル ]</a>.</p>
+            <p>フィールドについては、 <a href="#Get2" class="MCXref xref" >[!UICONTROL ファイルまたは画像の取得：ファイル ]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL ファイルノード ]</b>
             </p>
-            <p>ID によって参照されるノードを JSON オブジェクトとして返します。 ノードは [!DNL Figma] [!UICONTROL キー ] によって参照されたファイル。</p>
-            <p>フィールドについては、 <a href="#Get3" class="MCXref xref" >[!UICONTROL ファイルまたは画像を取得します。ファイルノード ]</a>.</p>
+            <p>ID によって参照されるノードを JSON オブジェクトとして返します。 ノードは、 [!DNL Figma] [!UICONTROL キー ] によって参照されたファイル。</p>
+            <p>フィールドについては、 <a href="#Get3" class="MCXref xref" >[!UICONTROL ファイルまたは画像の取得：ファイルノード ]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL 画像 ]</b>
             </p>
             <p>このモジュールは、ファイルから画像をレンダリングします。</p>
-            <p>フィールドについては、 <a href="#Get4" class="MCXref xref" >[!UICONTROL ファイルまたは画像を取得します。画像 ]</a>.</p>
+            <p>フィールドについては、 <a href="#Get4" class="MCXref xref" >[!UICONTROL ファイルまたは画像の取得： Image]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL 画像の塗り ]</b>
             </p>
             <p>このモジュールは、ドキュメント内の画像の塗りに存在するすべての画像のダウンロードリンクを返します。 画像の塗りは次のようになります。 [!DNL Figma] は、ユーザが指定したすべてのイメージを表します。 画像を [!DNL Figma], [!DNL Figma] は、画像を表す単一の塗りつぶしを持つ長方形を作成します。ユーザは、長方形（および塗りつぶしのプロパティ）を変換できます。</p>
-            <p>フィールドについては、 <a href="#Get5" class="MCXref xref" >[!UICONTROL ファイルまたは画像を取得します。画像の塗り ]</a>.</p>
+            <p>フィールドについては、 <a href="#Get5" class="MCXref xref" >[!UICONTROL ファイルまたは画像の取得：画像の塗り ]</a>.</p>
           </li>
         </ul>
       </td>
@@ -248,7 +249,7 @@ ht-degree: 1%
 </table>
 
 
-##### [!UICONTROL ファイルまたは画像を取得します。ファイル]
+##### [!UICONTROL ファイルまたは画像の取得：ファイル]
 
 <table style="table-layout:auto"> 
   <col/>
@@ -279,7 +280,7 @@ ht-degree: 1%
               <p>ページのみを返すには、 <code>1</code>.</p>
             </li>
             <li>
-              <p>ページとトップレベルオブジェクトを返すには、 <code>2</code>.</p>
+              <p>ページとトップレベルのオブジェクトを返すには、 <code>2</code>.</p>
             </li>
           </ul>
         </div>
@@ -301,7 +302,7 @@ ht-degree: 1%
   </tbody>
 </table>
 
-##### [!UICONTROL ファイルまたは画像を取得します。ファイルノード]
+##### [!UICONTROL ファイルまたは画像の取得：ファイルノード]
 
 <table style="table-layout:auto"> 
   <col/>
@@ -314,7 +315,7 @@ ht-degree: 1%
     <tr>
       <td role="rowheader">[!UICONTROL ノード ID]</td>
       <td>
-        <p>モジュールが返し、変換するノードを入力します</p>
+        <p>モジュールが返し、変換するノードを入力します。</p>
         <p>返すノードごとに、 <b>[!UICONTROL 追加 ]</b> ノードのテキストを入力します。</p>
       </td>
     </tr>
@@ -332,7 +333,7 @@ ht-degree: 1%
               <p>ページのみを返すには、 <code>1</code>.</p>
             </li>
             <li>
-              <p>ページとトップレベルオブジェクトを返すには、 <code>2</code>.</p>
+              <p>ページとトップレベルのオブジェクトを返すには、 <code>2</code>.</p>
             </li>
           </ul>
         </div>
@@ -351,7 +352,7 @@ ht-degree: 1%
 </table>
 
 
-##### ファイルまたは画像を取得します。画像
+##### ファイルまたは画像の取得：画像
 
 <table style="table-layout:auto"> 
   <col/>
@@ -394,15 +395,15 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROLSVG- Include ID]</td>
-      <td>すべてのオプション要素の ID 属性を含めるには、このSVGを有効にします。 デフォルト：[!UICONTROL false]。</td>
+      <td>すべてのオプション要素の ID 属性を含めるには、このSVGを有効にします。 デフォルト： [!UICONTROL false]。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROLSVG — 線を簡素化 ]</td>
-      <td>このオプションを有効にすると、内側/外側のストロークがシンプルになり、可能な場合は、代わりにストローク属性が使用されます。 &lt;mask&gt;. デフォルト：[!UICONTROL true]</td>
+      <td>このオプションを有効にすると、内側/外側のストロークがシンプルになり、可能な場合は、代わりにストローク属性が使用されます。 &lt;mask&gt;. デフォルト： [!UICONTROL true]。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 絶対範囲を使用 ]</td>
-      <td>切り抜くか、ノードの周囲のスペースが空であるかに関係なく、ノードの全寸法を使用するには、このオプションを有効にします。 切り抜かずにテキストノードを書き出すには、このオプションを使用します。 デフォルト：[!UICONTROL false]。</td>
+      <td>切り抜くか、ノードの周囲のスペースが空であるかに関係なく、ノードの全寸法を使用するには、このオプションを有効にします。 切り抜かずにテキストノードを書き出すには、このオプションを使用します。 デフォルト： [!UICONTROL false]。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL バージョン ID]</td>
@@ -411,7 +412,7 @@ ht-degree: 1%
   </tbody>
 </table>
 
-##### ファイルまたは画像を取得します。画像の塗り
+##### ファイルまたは画像の取得：画像の塗り
 
 <table style="table-layout:auto"> 
   <col/>
@@ -433,7 +434,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
     <tr>
       <td role="rowheader">[!UICONTROL ファイル ID]</td>
       <td>
@@ -465,7 +466,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ファイル ID]</td>
@@ -495,11 +496,11 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL チーム ID]</td>
-      <td>ファイルを取得するプロジェクトのプロジェクト ID を入力またはマッピングします。 チーム ID は、Figma のチームのページの URL にあります</td>
+      <td>ファイルを取得するプロジェクトのプロジェクト ID を入力またはマッピングします。 チーム ID は、Figma のチームのページの URL にあります。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 制限 ]</td>
@@ -511,7 +512,7 @@ ht-degree: 1%
 
 ### コンポーネントとスタイル
 
-#### [!UICONTROL スタイルまたはコンポーネントの取得]
+#### [!UICONTROL スタイルまたはコンポーネントを取得する]
 
 このアクションモジュールは、1 つのスタイルまたはコンポーネント、またはスタイルまたはコンポーネントのセットを取得します。
 
@@ -521,7 +522,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
     </tr>
     <tr>
       <td role="rowheader">&lt;[!UICONTROL Object&gt; キー ]</td>
@@ -533,7 +534,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ページサイズ ]</td>
-      <td>1 ページにつき返す数または結果を入力またはマッピングします。 デフォルト：30.</td>
+      <td>1 ページにつき返す数または結果を入力またはマッピングします。 デフォルトは 30 です。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL After]</td>
@@ -572,7 +573,7 @@ ht-degree: 1%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>接続方法 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
+      <td> <p>接続方法については、 [!DNL Figma] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -583,7 +584,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL メソッド ]</td>
-      <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td>
+      <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -602,7 +603,7 @@ ht-degree: 1%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 本文 ]</td>
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -619,9 +620,9 @@ ht-degree: 1%
 
 * ファイルの削除
 
-* ライブラリ公開
+* ライブラリの公開
 
-* ファイルコメント
+* ファイルのコメント
 
 <table style="table-layout:auto"> 
   <col/>
@@ -637,7 +638,7 @@ ht-degree: 1%
             <p>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL Webhook] フィールドの横にある</p>
           </li>
           <li value="2">
-            <p>この Webhook に使用する接続を選択します。 接続方法 [!DNL Figma] [!UICONTROL Workfront Fusion] アカウントについては、 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Adobe Workfront Fusion] への接続を作成する — 基本手順。</a></p>
+            <p>この Webhook に使用する接続を選択します。 接続方法については、 [!DNL Figma] [!UICONTROL Workfront Fusion] アカウントについては、 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Adobe Workfront Fusion] への接続を作成する — 基本手順。</a></p>
           </li>
           <li value="3">
             <p>モジュールで監視するイベントタイプを選択します。</p>

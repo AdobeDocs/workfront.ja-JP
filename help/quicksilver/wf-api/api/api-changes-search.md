@@ -3,17 +3,18 @@ filename: api-changes-search
 content-type: api
 keywords: オブジェクト，ステータス，検索，ベスト，プラクティス，応答
 navigation-topic: api-navigation-topic
-title: '''コア API の変更：ステータス検索応答`'
-description: Workfrontのステータスオブジェクトの保存方法の変更。
+title: 'コア API の変更：ステータス検索応答'
+description: Workfrontでのステータスオブジェクトの保存方法の変更。
+feature: Workfront API
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
 
 ---
 
-# コア API の変更点は次のとおりです。ステータス検索の応答
+# コア API の変更：ステータス検索応答
 
 Workfrontのステータスオブジェクトの保存方法が変更されました。 これらの変更は、ステータス検索リクエストの実行方法には影響しませんが、グループのステータスの不完全なリストを返すことにより、ステータスオブジェクトの検索を含む API リクエストによって返される応答には影響します。
 
@@ -25,7 +26,7 @@ Workfrontのステータスオブジェクトの保存方法が変更されま�
 >
 >これらのリクエスト構造は、ステータス検索の変更がクラスターに加えられたかどうかに関係なく、すべてのユーザーに推奨されます。
 
-プロジェクトグループのステータス：
+プロジェクトグループのステータスの場合：
 
 >**例:**
 
@@ -33,7 +34,7 @@ Workfrontのステータスオブジェクトの保存方法が変更されま�
 /attask/api/<VERSION>/CSTEM/projectGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-タスクグループのステータス：
+タスクグループのステータスの場合：
 
 >**例:**
 

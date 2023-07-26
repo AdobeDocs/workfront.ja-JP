@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 作業項目で定義した作業が大きすぎる場合は、大きい作業項目に変換できます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 7b378fdf3530d5e1c06f09d03c23c31afac6aa47
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -51,31 +51,31 @@ ht-degree: 0%
 
 &#42;保有しているプラン、ライセンスタイプ、アクセスレベル設定を確認するには、Workfront管理者に問い合わせてください。
 
-## 最初：カスタムフォームに追加のオブジェクトを追加する
+## 1 つ目：カスタムフォームに追加のオブジェクトを追加する
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
 
 1. クリック **カスタムForms**.
-1. 必要なフォームを見つけて、 **編集**.
+1. 必要なフォームを見つけて、「 **編集**.
 1. フォームの上部に、タスクまたはイシューを変換するオブジェクトを追加します。
    >[!INFO]
    >
-   >**例**:カスタムフォームデータをプロジェクトに転送する場合は、「プロジェクト」を選択します。
+   >**例**：カスタムフォームデータをプロジェクトに転送する場合は、「プロジェクト」を選択します。
 
 1. クリック **適用** をクリックします。
 
-1. 続行： [2 番目：問題またはタスクを変換し、カスタムフォームデータを転送する](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. 次に進む [2 つ目：問題またはタスクを変換し、カスタムフォームデータを転送する](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
-## 2 番目：問題またはタスクを変換し、カスタムフォームデータを転送する {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
+## 2 つ目：問題またはタスクを変換し、カスタムフォームデータを転送する {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. 変換する問題やタスクのカスタムフォームに、追加のオブジェクトを追加します。詳しくは、「 [最初：カスタムフォームにオブジェクトを追加する](#first-add-additonal-objects-to-the-custom-form) 」を参照してください。
+1. 変換する問題やタスクのカスタムフォームに、追加のオブジェクトを追加します。詳しくは、「 [1 つ目：カスタムフォームにオブジェクトを追加します。](#first-add-additonal-objects-to-the-custom-form) 」を参照してください。
 1. イシューまたはタスクを変換するには、 **カスタムForms** オプションが表示され、必要なカスタムフォームを選択します。 手順については、次の記事を参照してください。
 
    * [イシューをAdobe Workfrontのプロジェクトに変換する](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [イシューのAdobe Workfrontでのタスクへの変換](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [タスクをプロジェクトに変換する](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. 内 **変換後（オブジェクトタイプ）** 表示されるダイアログボックスで、 **Formsを追加** ドロップダウンメニューから、前の節でコピーしたフォームを選択します。
+1. Adobe Analytics の **をに変換（オブジェクトタイプ）** 表示されるダイアログボックスで、 **Formsを追加** ドロップダウンメニューから、前の節でコピーしたフォームを選択します。
 
    問題のカスタムフィールドで取り込まれた情報が、タスクのカスタムフォームに転送されるようになりました。
 

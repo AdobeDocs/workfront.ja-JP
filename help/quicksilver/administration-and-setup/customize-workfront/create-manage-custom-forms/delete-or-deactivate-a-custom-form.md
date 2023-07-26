@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: カスタムフォームの削除
 description: カスタムフォームはシステムから削除できます。
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: 1871b4e4d884c2660e09c2cd49e03bda243a1926
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%

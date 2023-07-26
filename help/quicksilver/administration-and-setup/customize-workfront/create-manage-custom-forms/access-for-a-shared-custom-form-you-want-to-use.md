@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 使用する共有カスタムフィールドへのアクセス
 description: ユーザーが表示または管理アクセス権を持つカスタムフィールドを共有した場合、他の複数の設定を行って、そのアクセス権をさらに詳細に定義できます。 「 」フィールドの受信者の場合、これらの設定は、フィールドの操作に影響します。 フィールドを表示すると、次のように表示されます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
@@ -44,9 +44,9 @@ ht-degree: 0%
    <td> 
     <ul> 
      <li>ビュー</li> 
-     <li>カスタムFormsに追加：選択済み</li> 
+     <li>カスタムFormsに追加：オン</li> 
     </ul> </td> 
-   <td> <p>カスタムフォームにフィールドを追加する場合：</p> 
+   <td> <p>このフィールドをカスタムフォームに追加する場合：</p> 
     <ul> 
      <li>フィールドの表示ロジック、フォーム上の他のフィールド間での順序、フォーム上の必須フィールドかどうか、フォームから削除する機能など、フォーム関連の設定を編集できます。</li> 
      <li>フィールドのラベル、名前、タイプなど、フィールドに関する設定は編集できません。</li> 

@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: カスタムフォームのオブジェクトタイプの削除
 description: 既存のカスタムフォームでは、フォームに関連付けられているオブジェクトタイプを削除できます。 この操作を行うと、ユーザーはその種類のオブジェクトにフォームを添付できなくなります。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -60,9 +60,9 @@ ht-degree: 0%
 
 1. クリック **カスタムForms** をクリックします。
 1. 編集するカスタムフォームを選択し、 **編集**.
-1. いずれかの **オブジェクトタイプ** 削除する項目をフォームから削除し、 **削除** をクリックします。
+1. 任意の **オブジェクトタイプ** 削除する項目をフォームから削除し、 **削除** をクリックします。
 
    ![](assets/click-x-object-types.jpg)
 
 1. （オプション）フォームから削除する他のオブジェクトタイプに対して、前の手順を繰り返します。
-1. クリック **完了**&#x200B;を選択し、「 **閉じて保存**.
+1. クリック **完了**&#x200B;を選択し、次に **閉じて保存**.

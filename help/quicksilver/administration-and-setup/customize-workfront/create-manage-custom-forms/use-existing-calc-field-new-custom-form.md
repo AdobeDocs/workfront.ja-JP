@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 既存の計算済みカスタムフィールドを、従来のフォームビルダーでカスタムフォーム内で再利用する
 description: 異なるオブジェクトに属するカスタムフォームでも、同じ計算済みカスタムフィールドを使用できます。 例えば、タスクのカスタムフォームのプロジェクトのカスタムフォーム用に作成した [ 利益計算済み ] フィールドを使用できます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -33,8 +33,7 @@ ht-degree: 0%
 >
 >計算されたカスタムフィールドは、時間の経過と共に古くなる場合があります。 これらのフィールドで常に最新の計算を表示するには、次のいずれかの操作を行います。
 >
->* 添付されたカスタムフォームでデータを編集したオブジェクトを保存したら、その他アイコン ![](assets/more-icon.png) オブジェクトのメインページで、「カスタム式の再計算」を選択します。
+>* 添付されたカスタムフォームでデータを編集したオブジェクトを保存したら、「その他」アイコンをクリックします。 ![](assets/more-icon.png) オブジェクトのメインページで、「カスタム式の再計算」を選択します。
 >* オブジェクトを一括編集する際に、「カスタム式を再計算」オプションを選択します。
 >* カスタムフォームで計算カスタムフィールドを編集する際に、「以前の計算を更新」オプションを選択します。
 >
-

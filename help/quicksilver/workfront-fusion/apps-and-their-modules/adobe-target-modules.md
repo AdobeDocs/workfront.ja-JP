@@ -5,10 +5,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Targetモジュール
-description: 内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] モジュールを使用すると、レコードの作成、読み取り、更新、削除、特定のタイプのすべてのレコードのリスト作成、指定した条件に基づくレコードの検索、または [!DNL Adobe Target] API
+description: 内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] モジュールを使用すると、レコードの作成、読み取り、更新、削除、特定のタイプのすべてのレコードのリスト作成、指定した条件に基づくレコードの検索、または [!DNL Adobe Target] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Target] モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Adobe Target]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。 [!DNL Adobe Target] モジュールを使用すると、レコードの作成、読み取り、更新、削除、特定のタイプのすべてのレコードのリスト作成、指定した条件に基づくレコードの検索、または [!DNL Adobe Target] API
+内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Adobe Target]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。 [!DNL Adobe Target] モジュールを使用すると、レコードの作成、読み取り、更新、削除、特定のタイプのすべてのレコードのリスト作成、指定した条件に基づくレコードの検索、または [!DNL Adobe Target] API.
 
 
 シナリオの作成手順については、 [シナリオの作成](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -49,15 +50,15 @@ ht-degree: 0%
       <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">製品</td>
       <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td>
     </tr>
     </tr>
@@ -71,15 +72,15 @@ ht-degree: 0%
 
 ## 前提条件
 
-使用する前に [!DNL Adobe Target] コネクタを使用する場合は、次の前提条件が満たされていることを確認する必要があります。
+使用する前に、 [!DNL Adobe Target] コネクタを使用する場合は、次の前提条件が満たされていることを確認する必要があります。
 
-* アクティブな [!DNL Adobe Target] アカウント
+* アクティブなが必要です [!DNL Adobe Target] アカウント。
 
 ## への接続の作成 [!DNL Adobe Target]
 
 の接続を作成するには、以下を実行します。 [!DNL Adobe Target] モジュール：
 
-1. クリック **[!UICONTROL 追加]** をクリックします。
+1. クリック **[!UICONTROL 追加]** 「接続」ボックスの横に表示されます。
 
 1. 次のフィールドに入力します。
 
@@ -101,7 +102,7 @@ ht-degree: 0%
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL クライアント秘密鍵 ]</td>
-        <td>を入力します。 [!DNL Adobe] クライアント秘密鍵。 これは、 [!DNL Adobe Developer Console].
+        <td>を入力します。 [!DNL Adobe] クライアントの秘密鍵。 これは、 [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL 組織 ID]</td>
@@ -115,7 +116,7 @@ ht-degree: 0%
         <td role="rowheader">[!UICONTROL テナント ]</td>
         <td>
           <p> テナントを見つけるには、 [!DNL Adobe Experience Cloud]，開く [!DNL Target]をクリックし、 [!DNL Target] カード。 URL サブドメインで指定されているように、テナント ID の値を使用します。</p>
-          <p>例： [!DNL Adobe Target] が <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> テナント ID が「mycompany」になります。</p>
+          <p>例えば、 [!DNL Adobe Target] 次に該当 <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> テナント ID が「mycompany」になります。</p>
         </td>
       </tr>
       <tr>
@@ -153,9 +154,9 @@ ht-degree: 0%
 
 ## [!DNL Adobe Target] モジュールとそのフィールド
 
-設定時に [!DNL Adobe Target] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Adobe Target] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Adobe Target] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Adobe Target] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -187,7 +188,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-    <td>への接続を作成する手順 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -242,7 +243,7 @@ ht-degree: 0%
             <p>オプションの名前を入力またはマッピングします。 名前は 250 文字以下にする必要があります。</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Offer ID]</b>
+            <p><b>[!UICONTROL オファー ID]</b>
             </p>
           </li>
           <li>
@@ -416,7 +417,7 @@ ht-degree: 0%
             <p>オプションの名前を入力またはマッピングします。 名前は 250 文字以下にする必要があります。</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Offer ID]</b>
+            <p><b>[!UICONTROL オファー ID]</b>
             </p>
           </li>
           <li>
@@ -656,7 +657,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>への接続を作成する手順 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] ベース URL]</td>
@@ -674,7 +675,7 @@ ht-degree: 0%
       <td role="rowheader">
         <p>[!UICONTROL メソッド ]</p>
       </td>
-   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -692,7 +693,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 本文 ]</td>
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -709,7 +710,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-    <td>への接続を作成する手順 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -732,7 +733,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-    <td>への接続を作成する手順 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -755,7 +756,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>への接続を作成する手順 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -814,7 +815,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>への接続を作成する手順 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -851,7 +852,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-    <td>への接続を作成する手順 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL レコードタイプ ]</td>

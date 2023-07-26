@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます
+title: レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます。
 description: カスタムフォームの作成または編集が完了したら、カスタムフォームをプレビューして、ユーザーに対する表示を確認し、保存して閉じることができます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます
+# レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させます。
 
 カスタムフォームの作成または編集が完了したら、カスタムフォームをプレビューして、ユーザーに対する表示を確認し、保存して閉じることができます。
 
@@ -50,17 +50,17 @@ ht-degree: 0%
 
 1. （オプション）「 **プレビュー** 使用時にフォームがどのように表示されるかを確認するには、 **プレビューを終了** をクリックして、フォームの編集に戻ります。
 
-1. クリック **保存して閉じる** 変更を保存します。
+1. クリック **保存して閉じる** をクリックして変更を保存します。
 
    または
 
-   フォーム上で変更を保持しない場合は、 **キャンセル**&#x200B;を選択し、「 **先に進んで終了**.
+   フォーム上で変更を保持しない場合は、 **キャンセル**&#x200B;を選択し、次に **先に進んで終了**.
 
    >[!NOTE]
    >
    >フォームが既に多数のオブジェクトに添付されている場合は、変更がすべてのオブジェクトに適用されるまで数分かかる場合があります。 この処理はバックグラウンドで実行されるので、待機中にWorkfrontで他のタスクを実行できます。
 
-1. （オプション）フォームを使用するWorkfrontオブジェクトに追加します。詳しくは、 [オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. （オプション）フォームを使用するWorkfrontオブジェクトに追加します。詳しくは、 [オブジェクトにカスタムフォームを追加する](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    通常のユーザーは、オブジェクトに対する管理権限を持っている場合にも、この操作を実行できます。
 

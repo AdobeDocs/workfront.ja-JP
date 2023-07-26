@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: フォームデザイナーを使用して、コピーからカスタムフォームをデザインできます。
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
 
 ---
-
 
 # フォームデザイナーを使用したコピーからのフォームのデザイン
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. クリック **カスタムForms。**
 1. 新しいカスタムフォームの基礎として使用するカスタムフォームを選択し、 **コピー**.
-1. 内 **カスタムフォームコピー** 表示されるボックスに、次の情報を入力します。
+1. Adobe Analytics の **カスタムフォームコピー** 表示されるボックスに、次の情報を入力します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,7 +65,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">フォームタイプ </p> </td> 
-      <td> <p>内 <b>フォームタイプ</b> ボックスで、カスタムフォームを使用するオブジェクトの種類を選択し、削除する種類の横にある X をクリックします。 既にフォームに関連付けられているタイプは、リストで無効になっています。</p> 
+      <td> <p>Adobe Analytics の <b>フォームタイプ</b> ボックスで、カスタムフォームを使用するオブジェクトの種類を選択し、削除する種類の横にある X をクリックします。 既にフォームに関連付けられているタイプは、リストで無効になっています。</p> 
       <p><img src="assets/copy-form-obj-types.png"></p> 
       <p>フォームは、少なくとも 1 つのオブジェクトタイプに関連付ける必要があります。</p> 
       </td> 
@@ -80,14 +80,14 @@ ht-degree: 0%
    同様に、元のフォームのセクション区切りのアクセスオプションが、新しいフォームに追加するオブジェクトタイプと互換性がない場合は、オプションを調整するように求めるメッセージが表示されます。
 
 1. 先ほどコピーしたフォームを選択し、「 **編集**.
-1. フォームに変更を加えます。その際、 [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 記事：
+1. フォームに変更を加えます。変更については、 [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) 記事：
 
 * [別のカスタムフォームで既に使用されている既存のフィールドまたはウィジェットを再利用する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [テキストフィールドを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
    * [計算フィールドを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
    * [ラジオボタン、チェックボックスグループ、ドロップダウンの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-   * [先読みと日付のフィールドを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [先読みと日付のフィールドを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
    * [画像、PDF、ビデオの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
    * [Adobe XDファイルを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
 
-1. （オプション） **保存して閉じる**&#x200B;を使用する場合は、使用するオブジェクトにフォームを添付します。詳しくは、 [オブジェクトへのカスタムフォームの追加](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. （オプション） **保存して閉じる**&#x200B;を使用する場合は、使用するオブジェクトにフォームを添付します。詳しくは、 [オブジェクトにカスタムフォームを追加する](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

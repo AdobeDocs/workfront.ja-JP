@@ -5,8 +5,9 @@ navigation-topic: workfront-api
 title: Adobe Workfront API のヒント、テクニックおよびトラブルシューティング
 description: Adobe Workfront API のヒント、テクニックおよびトラブルシューティング
 author: Becky
+feature: Workfront API
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 この節では、次の記事を扱います。
 
-* [API エラー：「リモートサーバーがエラーを返しました：(400) Bad Request»](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+* [API エラー： 「リモートサーバーがエラーを返しました： (400) 無効なリクエスト」](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [大きなページ分割検索中に返される重複](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [API でのクエリ結果の並べ替え](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
 * [emailAddr に対する更新は、ユーザー名を更新しません](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)

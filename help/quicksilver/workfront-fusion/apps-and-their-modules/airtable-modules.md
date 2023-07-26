@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: エアテーブルモジュール
 description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
 author: Becky
+feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 2%
@@ -19,7 +20,7 @@ ht-degree: 2%
 # エアテーブルモジュール
 
 
-を使用 [!DNL Airtable] コネクタ [!DNL Adobe Workfront Fusion]の場合、 [!DNL Airtable] レコードのアカウント、作成、アップロード、更新、レコードの検索、および Airtable API へのカスタム API 呼び出しの実行を行います。
+を使用 [!DNL Airtable] コネクタ [!DNL Adobe Workfront Fusion]の場合は、 [!DNL Airtable] レコードのアカウント、作成、アップロード、更新、レコードの検索、および Airtable API へのカスタム API 呼び出しの実行を行います。
 
 ## アクセス要件
 
@@ -438,7 +439,7 @@ Webhook の URL は、Workfront Fusion で生成し、Airtable の設定を形�
 1. 航空便のアカウントにログインします。
 1. フォームに使用するベースとテーブルを開き、フォームビューを作成します。
 1. 必要に応じてフォームを設定し、フォームを下にスクロールして、「フォームが送信された後に URL にリダイレクト」オプションを有効にします。
-1. 手順 2 で生成した Webhook URL を表示されるダイアログボックスに入力し、Webhook URL の直後に？record_id={record_id} を追加してレコード ID をモジュールの出力に含め、「保存」をクリックします。 結果の URL は、例えば、次のようになります。
+1. 手順 2 で生成した Webhook の URL を表示されるダイアログボックスに入力し、 ?record_id={record_id} Webhook URL の直後に、モジュールの出力にレコード ID を含めて、「保存」をクリックします。 結果の URL は、例えば、次のようになります。
 1. Workfront Fusion のシナリオに戻り、「応答を監視」モジュールを実行して、Airtable からフィールドを読み込み、それらのフィールドを他のモジュールにマッピングできるようにします。
 1. 「フォームの送信後に URL にリダイレクト」オプションが有効になっていて、Webhook URL が追加されている Airtable でフォームを送信します（上記の手順 6）。
 
@@ -452,7 +453,7 @@ Webhook の URL は、Workfront Fusion で生成し、Airtable の設定を形�
 
 #### カスタム API 呼び出し
 
-このアクションモジュールを使用すると、 [!DNL Airtable] API これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Airtable] モジュール。
+このアクションモジュールを使用すると、 [!DNL Airtable] API. これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Airtable] モジュール。
 
 アクションは、指定したエンティティタイプ（Allocadia オブジェクトタイプ）に基づいて実行されます。
 
@@ -472,7 +473,7 @@ Webhook の URL は、Workfront Fusion で生成し、Airtable の設定を形�
   </tr> 
   <tr> 
    <td role="rowheader">メソッド</td> 
-   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ヘッダー</td> 
@@ -484,7 +485,7 @@ Webhook の URL は、Workfront Fusion で生成し、Airtable の設定を形�
   </tr> 
   <tr> 
    <td role="rowheader">本文</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

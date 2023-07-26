@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: 特定のカスタムフィールドまたはウィジェットを使用するすべてのカスタムフォームを表示する
 description: 変更または削除するカスタムフィールドまたはウィジェットを使用しているカスタムフォームを確認できます。 これらのカスタムフォームが正常に動作し続けるために調整が必要かどうか、またはフィールドやウィジェットを変更または削除した後も有用であり続けるために必要かどうかを評価することが重要です。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%

@@ -5,8 +5,9 @@ navigation-topic: workfront-api
 title: API の一般トピック
 description: API の一般トピック
 author: Becky
+feature: Workfront API
 exl-id: 4025002b-4b11-4105-81d6-5d493a0f2255
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 8%

@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: フォームデザイナーを使用して、カスタムフォームに対してオブジェクトの種類を追加または削除できます。
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
 
 ---
-
 
 # フォームデザイナーを使用して既存のカスタムフォームにオブジェクトの種類を追加または削除する
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
    表示されるビューで、組織用に作成されたすべてのカスタムフォームを確認できます。 また、各フォームの作成者、対象となるオブジェクトタイプ、アクティブかどうかも確認できます。
 
-1. オブジェクトタイプを追加するカスタムフォームを選択し、 **編集**.
+1. オブジェクトタイプを追加するカスタムフォームを選択し、「 **編集**.
 
 1. フォームの上部で、プラス記号+の後をクリックします。 **オブジェクトタイプ**&#x200B;を選択し、表示されるメニューで目的のタイプを選択します。 この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
 
@@ -92,9 +92,9 @@ ht-degree: 0%
 
 1. クリック **カスタムForms** をクリックします。
 1. 編集するカスタムフォームを選択し、 **編集**.
-1. いずれかの **オブジェクトタイプ** 削除する項目をフォームから削除し、 **削除** をクリックします。
+1. 任意の **オブジェクトタイプ** 削除する項目をフォームから削除し、 **削除** をクリックします。
 
    ![](assets/delete-object-types.png)
 
 1. （オプション）フォームから削除する他のオブジェクトタイプに対して、前の手順を繰り返します。
-1. クリック **完了**&#x200B;を選択し、「 **閉じて保存**.
+1. クリック **完了**&#x200B;を選択し、次に **閉じて保存**.

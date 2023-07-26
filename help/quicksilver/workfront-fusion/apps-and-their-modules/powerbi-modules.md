@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Power BIモジュール
 description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
 author: Becky
+feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 0%
@@ -46,15 +47,15 @@ ht-degree: 0%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -66,7 +67,7 @@ ht-degree: 0%
 
 ## [!DNL Power BI] モジュールとそのフィールド
 
-設定時に [!DNL Power BI], [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、アプリやサービスでのアクセスレベルなどの要因に応じて、追加のフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Power BI], [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらに加えて、アプリやサービスでのアクセスレベルなどの要因に応じて、追加のフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
 フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [Adobe Workfront Fusion で、モジュール間の情報のマッピング](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -84,7 +85,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
@@ -111,7 +112,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL ダッシュボード ID を入力 ]</td>
@@ -138,7 +139,7 @@ ht-degree: 0%
 </tbody>
 </table>
 
-#### [!UICONTROL ダッシュボードの取得]
+#### [!UICONTROL ダッシュボードを取得する]
 
 このアクションモジュールは、指定されたダッシュボードのメタデータを取得します。
 
@@ -148,7 +149,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ダッシュボード ID を入力 ]</td>
@@ -179,7 +180,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL ダッシュボード ID を入力 ]</td>
@@ -214,7 +215,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 名前 ]</td>
@@ -239,7 +240,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
@@ -266,7 +267,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レポート ID の入力 ]</td>
@@ -297,7 +298,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レポート ID の入力 ]</td>
@@ -332,7 +333,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レポート ID の入力 ]</td>
@@ -365,7 +366,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
@@ -390,7 +391,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レポート ID の入力 ]</td>
@@ -421,7 +422,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 名前 ]</td>
@@ -437,26 +438,26 @@ ht-degree: 0%
         <p>データセットのデフォルトモードを選択またはマッピングします。</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL As Azure]</b>:へのライブ接続を持つデータセット [!DNL Azure Analysis Service]</p>
+            <p><b>[!UICONTROL As Azure]</b>：とのライブ接続を持つデータセット [!DNL Azure Analysis Service]</p>
           </li>
           <li>
-            <p><b>[!UICONTROL As on Prem]</b>:へのライブ接続を持つデータセット [!DNL On-premise Analysis] サービス</p>
+            <p><b>[!UICONTROL As on Prem]</b>：とのライブ接続を持つデータセット [!DNL On-premise Analysis] サービス</p>
           </li>
           <li>
-            <p><b>[!DNL Push]</b>:データをにプッシュするためのプログラムによるアクセスを可能にするデータセット [!DNL Power BI]</p>
+            <p><b>[!DNL Push]</b>：にデータをプッシュするためのプログラムでアクセスできるデータセット [!DNL Power BI]</p>
           </li>
           <li>
-            <p><b>[!DNL Push Streaming]</b>:データストリーミングをサポートし、データをにプログラムでプッシュするためのアクセスを可能にするデータセット [!DNL Power BI]</p>
+            <p><b>[!DNL Push Streaming]</b>：データストリーミングをサポートし、データをにプログラムでプッシュするためのアクセスを可能にするデータセット [!DNL Power BI]</p>
           </li>
           <li>
-            <p><b>[!DNL Streaming]</b>:データストリーミングをサポートするデータセット</p>
+            <p><b>[!DNL Streaming]</b>：データストリーミングをサポートするデータセット</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL テーブル ]</td>
-      <td>データセットにテーブルを追加します。 フィールドについては、 <a href="#Table" class="MCXref_0">テーブルフィールド</a></td>
+      <td>データセットにテーブルを追加します。 フィールドについては、 <a href="#Table" class="MCXref_0">テーブルのフィールド</a></td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Data sources]</td>
@@ -479,7 +480,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-##### テーブルフィールド
+##### テーブルのフィールド
 
 <table>
   <col/>
@@ -572,7 +573,7 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!UICONTROL Data Source Type]  </td>
       <td>
-        <p>データソースタイプを選択またはマッピングします。 例：SQL。</p>
+        <p>データソースタイプを選択またはマッピングします。 例： SQL。</p>
       </td>
     </tr>
     <tr>
@@ -592,7 +593,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL テーブルを入力 ]</td>
@@ -642,7 +643,7 @@ ht-degree: 0%
             <p>フィールドタイプを選択またはマッピングします。</p>
             <ul>
               <li>
-                <p>ブール値</p>
+                <p>Boolean</p>
               </li>
               <li>
                 <p>日付</p>
@@ -675,7 +676,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL データセットを入力 ]</td>
@@ -725,12 +726,12 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レポート ID の入力 ]</td>
       <td>
-        <p>削除するデータセットを選択するには、「 」オプションを選択するか、マッピングします。</p>
+        <p>削除するデータセットを選択するには、このオプションを選択するか、マッピングします。</p>
       </td>
     </tr>
     <tr>
@@ -758,7 +759,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 制限 ]  </td>
@@ -779,7 +780,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 制限 ]  </td>
@@ -800,7 +801,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アプリ ID]</td>
@@ -825,7 +826,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アプリ ID]</td>
@@ -850,7 +851,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アプリ ID]  </td>
@@ -861,7 +862,7 @@ ht-degree: 0%
   </tbody>
 </table>
 
-#### [!UICONTROL アプリのレポートの取得]
+#### [!UICONTROL アプリのレポートを取得する]
 
 このアクションモジュールは、指定したアプリのレポートのメタデータを取得します。
 
@@ -871,7 +872,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アプリ ID]  </td>
@@ -898,7 +899,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アプリ ID]  </td>
@@ -919,7 +920,7 @@ ht-degree: 0%
 
 #### [!UICONTROL API 呼び出しを実行する]
 
-このアクションモジュールは、 [!DNL Power BI] API
+このアクションモジュールは、 [!DNL Power BI] API.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -927,7 +928,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-   <td> <p>接続方法 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Power BI] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順</a></p> </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -961,7 +962,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 本文 ]</td>
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>

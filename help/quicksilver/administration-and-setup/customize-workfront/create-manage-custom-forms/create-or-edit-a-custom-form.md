@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: 新しいカスタムフォームを作成または編集できます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: bf0d9201d50f16795676928e55b82d854b16211c
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 新しいカスタムフォームを作成または編集できます。 両方のタスクについては、この記事で説明します。
 
-既存のフォームから新しいカスタムフォームを作成する方法について詳しくは、 [カスタムフォームをコピーして、レガシーフォームビルダーで新しく作成する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+既存のフォームから新しいカスタムフォームを作成する方法について詳しくは、 [カスタムフォームをコピーして、レガシーフォームビルダーを使用して新しいフォームを作成する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
 ## アクセス要件
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 &#42;保有しているプラン、ライセンスタイプ、アクセスレベル設定を確認するには、Workfront管理者に問い合わせてください。
 
-## カスタムフォームの作成を開始
+## カスタムフォームの作成を開始する
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
 
@@ -59,13 +59,13 @@ ht-degree: 0%
 
    ![](assets/choose-object-type.jpg)
 
-1. の **フォーム設定** 開いたタブに、 **フォームタイトル** およびオプション **説明** カスタムフォーム用。
+1. 次の日： **フォーム設定** 開いたタブに、 **フォームタイトル** およびオプション **説明** カスタムフォーム用。
 
 1. （オプション）フォームにオブジェクトの種類を追加して他のオブジェクトに関連付ける場合は、[ オブジェクトの種類 ] の後のプラス記号をクリックし、表示されるメニューから目的のオブジェクトの種類を選択します。
 
    この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。また、オブジェクトタイプの X をクリックして、フォームから削除することもできます。
 
-   保存済みのカスタムフォームからオブジェクトタイプを削除する方法については、 [カスタムフォームのオブジェクトタイプの削除](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   保存済みのカスタムフォームからオブジェクトタイプを削除する方法については、「 [カスタムフォームのオブジェクトタイプの削除](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 1. クリック **完了**.
 

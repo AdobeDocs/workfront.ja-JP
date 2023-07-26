@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: カスタムフォームを再アクティブ化または非アクティブ化できます。 履歴データの保持に使用しなくなったフォームは削除せず、カスタムフォームの非アクティブ化をお勧めします。
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # カスタムフォームの非アクティブ化または再アクティブ化
 
@@ -54,8 +54,8 @@ ht-degree: 0%
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
 1. 左側のパネルで、を選択します。 **カスタムForms**.
-1. の **Forms** タブで、非アクティブ化するカスタムフォームを選択します。
-1. 「アクティブ」列で、「 **False** 列の外をクリックします。 フォームがアクティブではなくなりました。
+1. 次の日： **Forms** 」タブで、非アクティブ化するカスタムフォームを選択します。
+1. 「アクティブ」列で、を選択します。 **False** 列の外をクリックします。 フォームがアクティブではなくなりました。
 
 ## カスタムフォームの再アクティブ化
 
@@ -63,5 +63,5 @@ ht-degree: 0%
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
 1. 左側のパネルで、を選択します。 **カスタムForms**.
-1. の **Forms** 」タブで、再開するカスタムフォームを選択します。
-1. 「アクティブ」列で、「 **True** 列の外をクリックします。 これで、フォームがアクティブになります。
+1. 次の日： **Forms** 」タブで、再アクティブ化するカスタムフォームを選択します。
+1. 「アクティブ」列で、を選択します。 **True** 列の外をクリックします。 これで、フォームがアクティブになります。

@@ -5,8 +5,9 @@ navigation-topic: boards
 title: ワークストリームボード上のバックログの設定
 description: ワークストリーム内のボードにバックログ列を表示することを選択し、ワークストリームカードリストからボードバックログに取り込まれるカードの問合せを定義できます。
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -78,7 +79,7 @@ ht-degree: 0%
 
    例えば、「期限」と「存在する」を選択した場合、バックログには期限が割り当てられたカードが表示されます。 期限のないカードは、バックログに取り込まれません。
 
-1. （オプション）「 [!UICONTROL **条件を追加**] をクエリに追加します。
+1. （オプション）「 [!UICONTROL **条件を追加**] をクリックして、クエリに別の条件を追加します。
 
    ![バックログクエリ](assets/backlog-query-wrkstrm-board.png)
 

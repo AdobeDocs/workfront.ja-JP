@@ -5,8 +5,9 @@ navigation-topic: api-navigation-topic
 title: API
 description: Workfront API 記事
 author: Becky
+feature: Workfront API
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 1%
@@ -24,7 +25,7 @@ ht-degree: 1%
 * [イベント購読証明書](../../wf-api/api/event-sub-certs.md)
 * [統合での API バージョンの指定](../../wf-api/api/specify-api-version-integrations.md)
 
-* [コア API の変更点は次のとおりです。ステータス検索の応答](../../wf-api/api/api-changes-search.md)
+* [コア API の変更：ステータス検索応答](../../wf-api/api/api-changes-search.md)
 * [デフォルトの API バージョン管理を使用する統合を更新](../../wf-api/api/update-default-api-versioning.md)
 * [API-Internal の廃止](../../wf-api/api/deprecation-api-internal.md)
 * [API 応答のエスケープ文字](../../wf-api/api/escaped-characters-api.md)

@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: システムからカスタムフィールドまたはウィジェットを削除する
 description: システムのパフォーマンスを向上させ、フォームをユーザーが使いやすくするために、カスタムフィールドとウィジェットが使用されなくなったときに、システムからカスタムフィールドとウィジェットを削除することができます。
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. クリック **カスタムForms。**
 1. 次をクリック： **フィールド** タブをクリックします。
-1. カスタムフィールドまたはウィジェットを選択し、 **削除**.
+1. カスタムフィールドまたはウィジェットを選択し、「 **削除**.
 1. アイテムを完全に削除し、（カスタムフィールドの場合は）そのアイテムが添付されたオブジェクトに関連するすべてのデータを削除する場合は、 **はい、削除します**.
 
 ## ユーザーが入力したデータが失われることなく、カスタムフィールドを削除します {#remove-a-custom-field-without-losing-data-that-users-have-entered}
@@ -74,11 +74,11 @@ ht-degree: 0%
 
       * カスタムフォームビルダーを使用している場合は、 [カスタムフォームでカスタムフィールドまたはウィジェットを再利用する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
       * フォームデザイナーを使用している場合は、 [新規または既存のフィールドをカスタムフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+
    1. 新しいカスタムフォームを保存します。
 
-
 1. カスタムフォームへのアクセスを、管理者アクセス権を持つユーザーのみに制限します。詳しくは、 [カスタムフォームの共有](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
-1. 元のカスタムフォームが既に適用されているオブジェクトに新しいカスタムフォームを適用します。詳しくは、 [オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. 元のカスタムフォームが既に適用されているオブジェクトに新しいカスタムフォームを適用します。詳しくは、 [オブジェクトにカスタムフォームを追加する](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    新しいカスタムフォームをこれらのオブジェクトに適用すると、履歴レポートデータに影響を与えません。
 

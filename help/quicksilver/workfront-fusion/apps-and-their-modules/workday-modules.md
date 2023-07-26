@@ -8,8 +8,9 @@ navigation-topic: apps-and-their-modules
 title: Workdayモジュール
 description: Adobe Workfront Fusion シナリオでは、 [!DNL Workday]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
 author: Becky
+feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 # [!DNL Workday] モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Workday]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Workday]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
 
 シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -45,15 +46,15 @@ ht-degree: 1%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,7 +68,7 @@ ht-degree: 1%
 
 次の手順で [!DNL Workday] モジュールは、次の要件を満たす必要があります。
 
-* 以下をお持ち： [!DNL Workday] アカウント
+* 以下をお持ちです。 [!DNL Workday] アカウント。
 
 * で OAuth アプリケーションを作成します。 [!DNL Workday]. 手順については、 [!DNL Workday] ドキュメント。
 
@@ -85,7 +86,7 @@ ht-degree: 1%
                 <td role="rowheader">
                     <p role="rowheader">[!UICONTROL 接続名 ]</p>
                 </td>
-                <td>接続名を入力</td>
+                <td>接続の名前を入力</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Workday host]</td>
@@ -97,7 +98,7 @@ ht-degree: 1%
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL テナント名 ]</td>
-                <td>このテナントを入力 [!DNL Workday] アカウント テナントは組織の識別子で、Workdayへのログインに使用する URL に表示されます。 例：住所内 <code>https://www.myworkday.com/mycompany</code>、テナントは <code>mycompany</code>.</td>
+                <td>このテナントを入力 [!DNL Workday] アカウント。 テナントは組織の識別子で、Workdayへのログインに使用する URL に表示されます。 例：アドレス内 <code>https://www.myworkday.com/mycompany</code>、テナントは <code>mycompany</code>.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL クライアント ID]</td>
@@ -119,9 +120,9 @@ ht-degree: 1%
 
 ## [!DNL Workday] モジュールとそのフィールド
 
-設定時に [!DNL Workday] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Workday] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Workday] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Workday] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -151,7 +152,7 @@ ht-degree: 1%
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL 接続 ]</td>
-            <td>接続方法 [!DNL Workday] Workfront Fusion へのアカウントについては、 <a href="#Connect" class="MCXref xre[!DNL ]f" >接続 [!DNL Workday] から [!DNL Workfront Fusion]</a>.</td>
+            <td>接続方法については、 [!DNL Workday] Workfront Fusion へのアカウントについては、 <a href="#Connect" class="MCXref xre[!DNL ]f" >接続 [!DNL Workday] から [!DNL Workfront Fusion]</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -180,7 +181,7 @@ ht-degree: 1%
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL 接続 ]</td>
-            <td>接続方法 [!DNL Workday] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#Connect" class="MCXref xre[!DNL ]f" >接続 [!DNL Workday] から [!DNL Workfront Fusion]</a>.</td>
+            <td>接続方法については、 [!DNL Workday] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#Connect" class="MCXref xre[!DNL ]f" >接続 [!DNL Workday] から [!DNL Workfront Fusion]</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -204,7 +205,7 @@ ht-degree: 1%
 
 ### [!UICONTROL カスタム API 呼び出しをおこなう]
 
-このアクションモジュールを使用すると、 [!DNL Workday] API これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Workday] モジュール。
+このアクションモジュールを使用すると、 [!DNL Workday] API. これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Workday] モジュール。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -216,7 +217,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Connection]</p> </td> 
-            <td>接続方法 [!DNL Workday] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#Connect" class="MCXref xre[!DNL ]f" >接続 [!DNL Workday] から [!DNL Workfront Fusion]</a>.</td>
+            <td>接続方法については、 [!DNL Workday] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#Connect" class="MCXref xre[!DNL ]f" >接続 [!DNL Workday] から [!DNL Workfront Fusion]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -224,7 +225,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL メソッド ]</td> 
-   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -236,7 +237,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -254,7 +255,7 @@ ht-degree: 1%
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL 接続 ]</td>
-            <td>接続方法 [!DNL Workday] Workfront Fusion へのアカウントについては、 <a href="#Connect" class="MCXref xref" >[!UICONTROL 接続 [!DNL Workday] Workfront Fusion] に</a></td>
+            <td>接続方法については、 [!DNL Workday] Workfront Fusion へのアカウントについては、 <a href="#Connect" class="MCXref xref" >[!UICONTROL 接続 [!DNL Workday] Workfront Fusion] に</a></td>
         </tr>
         <tr>
             <td  role="rowheader">レコードタイプ</td>
@@ -290,7 +291,7 @@ ht-degree: 1%
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL 接続 ]</td>
-            <td>接続方法 [!DNL Workday] Workfront Fusion へのアカウントについては、 <a href="#Connect" class="MCXref xref" >[!UICONTROL 接続 [!DNL Workday] Workfront Fusion] に</a></td>
+            <td>接続方法については、 [!DNL Workday] Workfront Fusion へのアカウントについては、 <a href="#Connect" class="MCXref xref" >[!UICONTROL 接続 [!DNL Workday] Workfront Fusion] に</a></td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -317,7 +318,7 @@ ht-degree: 1%
       <tbody>
           <tr>
               <td role="rowheader">[!UICONTROL 接続 ]</td>
-              <td>接続方法 [!DNL Workday] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#Connect" class="MCXref xref" >接続 [!DNL Workday] から [!DNL Workfront Fusion]</a></td>
+              <td>接続方法については、 [!DNL Workday] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#Connect" class="MCXref xref" >接続 [!DNL Workday] から [!DNL Workfront Fusion]</a></td>
           </tr>
           <tr>
               <td  role="rowheader">[!UICONTROL レコードタイプ ]</td>
