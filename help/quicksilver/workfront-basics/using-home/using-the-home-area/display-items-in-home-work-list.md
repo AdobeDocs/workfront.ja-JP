@@ -1,21 +1,28 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: 項目を [!UICONTROL 作業用リスト] ホームエリア内
-description: この [!UICONTROL 作業用リスト] 内 [!UICONTROL ホーム] 領域には、自分に割り当てられているすべての作業項目が表示されます。 表示する項目を [!UICONTROL 作業] 以下に説明するリスト。
+title: 次の項目を [!UICONTROL 作業用リスト] ホームエリア内
+description: The [!UICONTROL 作業用リスト] （内） [!UICONTROL ホーム] 領域には、自分に割り当てられているすべての作業項目が表示されます。 表示する項目を [!UICONTROL 作業] 以下に説明するリスト。
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: c111ae72da39fc1637320d993906ae9451e17e99
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
 
-# 項目を [!UICONTROL 作業用リスト] ホームエリア内
+# 次の項目を [!UICONTROL 作業用リスト] ホームエリア内
 
-この [!UICONTROL 作業用リスト] 内 [!UICONTROL ホーム] 領域には、自分に割り当てられているすべての作業項目が表示されます。 表示する項目を [!UICONTROL 作業] 以下に説明するリスト。
+The [!UICONTROL 作業用リスト] （内） [!UICONTROL ホーム] 領域には、自分に割り当てられているすべての作業項目が表示されます。 表示する項目を [!UICONTROL 作業] 以下に説明するリスト。
+
+>[!NOTE]
+>
+>イシューをタスクまたはプロジェクトに変換すると、イシューに割り当てられたユーザーの「ホーム」領域からイシューが削除されます。
+>
+>タスクをプロジェクトに変換すると、タスクは削除され、タスクに割り当てられたユーザーの [ ホーム ] 領域から削除されます。
+
 
 ## アクセス要件
 
@@ -40,7 +47,7 @@ ht-degree: 0%
    <td> <p>[!UICONTROL 表示 ] 以降で、プロジェクト、タスク、問題、ドキュメントにアクセスできる</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
    <td> <p>作業が必要なタスクや問題に、権限以上を貢献する</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -90,7 +97,7 @@ ht-degree: 0%
         <p>まだ開始する準備ができていないタスクのみを表示します。 次のいずれかのステートメントが true である必要があります。</p> 
         <ul> 
          <li> <p>タスクとその親には、作業を妨げる先行タスクやタスクの制約がある場合があります。</p> </li> 
-         <li> <p>タスクには [!UICONTROL 予定開始日 ] があり、これは 2 週間以上後です。</p> </li> 
+         <li> <p>タスクには [!UICONTROL 予定開始日 ] があり、これは 2 週間以上後の予定です。</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -100,7 +107,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL リクエストされた問題 ]</strong></td> 
-      <td>割り当てられているが [!UICONTROL 作業 ] ボタンをクリックしていない問題のみを表示します。</td> 
+      <td>割り当てられているが [!UICONTROL 作業 ] ボタンをクリックしていない問題のみが表示されます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>個人用</strong></td> 
@@ -132,11 +139,10 @@ ht-degree: 0%
    >[!TIP]
    >
    >* フィルターオプションは、オブジェクト（タスク、問題、承認、個人用タスク）に基づきます。
-   >* タスクと問題は、タスクに対する対応準備状況 ([!UICONTROL 作業], [!UICONTROL 開始準備完了], [!UICONTROL 準備ができていません] タスク、および [!UICONTROL 作業] および [!UICONTROL リクエスト] （問題を参照）。 特定の状態のタスクまたはタスクを表示するか、「タスク」または「タスク」をクリックしてすべての状態を選択して表示できます。
-   >* 完了した項目には別個のフィルターがあり、タスクと問題の両方が含まれます。 これには承認は含まれません。 この [!UICONTROL 完了] フィルターには、個人用タスクが含まれます。
-   >* 一度に 1 つの状態のみ選択できます。 例えば、 [!UICONTROL 作業] タスクとのみ [!UICONTROL リクエスト] 問題。
+   >* タスクと問題は、タスクに対する対応準備状況 ([!UICONTROL 作業中], [!UICONTROL 開始準備完了], [!UICONTROL 準備ができていません] タスク、および [!UICONTROL 作業中] および [!UICONTROL リクエスト済み] （問題を参照）。 特定の状態のタスクまたはタスクを表示するか、「タスク」または「タスク」をクリックしてすべての状態を選択して表示できます。
+   >* 完了した項目には別個のフィルターがあり、タスクと問題の両方が含まれます。 これには承認は含まれません。 The [!UICONTROL 完了] フィルターには、個人用タスクが含まれます。
+   >* 一度に 1 つの状態のみ選択できます。 例えば、 [!UICONTROL 作業中] タスクとのみ [!UICONTROL リクエスト済み] 問題。
    >* チームの 1 つに割り当てられた項目に対してフィルターを適用することはできません。また、それらの項目は、直接割り当てられた項目には含まれません。
-
 
 
 1. （オプション） [!UICONTROL 作業用リスト]（を参照） [日付、プロジェクト、優先度でグループ化および並べ替え](#group-and-sort-by-date-project-and-priority) 」を参照してください。
@@ -187,12 +193,12 @@ ht-degree: 0%
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL プロジェクト ]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Project]</strong></td> 
       <td>項目はプロジェクトに従ってグループ化され、プロジェクトは [!UICONTROL ワークリスト ] でアルファベット順に表示されます。 （各グループ内に含まれる項目の数は、見出しのタイトルの横に括弧で囲まれて表示されます）。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL マイ優先度 ]</strong></td> 
-      <td>選択した順序で項目が表示されます。 詳しくは、 <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">[!UICONTROL ホーム ] 領域で作業を優先する</a>.</td> 
+      <td>項目は、選択した順序で表示されます。 詳しくは、 <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">[!UICONTROL ホーム ] 領域で作業を優先する</a>.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -212,36 +218,36 @@ ht-degree: 0%
 * **承認**: [!UICONTROL 送信日]
 * **配達確認の承認**: [!UICONTROL 配達確認期限]
 
-## 検索 [!UICONTROL 作業用リスト]
+## を検索します。 [!UICONTROL 作業用リスト]
 
-検索時に [!UICONTROL 作業用リスト]に設定されている場合、割り当てられた項目は検索で返されます（現在画面に読み込まれていない項目も含む）。 この [!UICONTROL 完了を表示] 「 」オプションが選択されている場合、過去 2 週間以内に完了とマークした項目も返されます。
+検索時に、 [!UICONTROL 作業用リスト]に設定されている場合、割り当てられた項目は検索で返されます（現在画面に読み込まれていない項目も検索で返されます）。 次の場合、 [!UICONTROL 完了を表示] 「 」オプションが選択されている場合、過去 2 週間以内に完了とマークした項目も返されます。
 
 また、作業項目の名前のみが検索されます（作業項目内の情報は検索されず、作業項目が存在するプロジェクトの名前も検索されません）。
 
 を検索するには、以下を実行します。 [!UICONTROL 作業用リスト]:
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) 右上隅で、「 **[!UICONTROL ホーム]**.
-1. （オプション） [!UICONTROL 作業用リスト]( [フィルター [!UICONTROL 作業用リスト]](#filter-the-work-list) および [日付、プロジェクト、優先度でグループ化および並べ替え](#group-and-sort-by-date-project-and-priority).
+1. （オプション） [!UICONTROL 作業用リスト]を参照してください。 [フィルター [!UICONTROL 作業用リスト]](#filter-the-work-list) および [日付、プロジェクト、優先度でグループ化および並べ替え](#group-and-sort-by-date-project-and-priority).
 
 1. （オプション）既に完了している作業項目を検索する場合は、 [!UICONTROL 作業用リスト] ：検索の前に完了した項目を表示します。
 1. ![](assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png)
 
 1. 検索する項目名の入力を開始します。\
-   この [!UICONTROL 作業用リスト] は、名前が一致する項目を含めるように、として自動的にフィルタリングされます。
+   The [!UICONTROL 作業用リスト] は、名前が一致する項目を含めるように、として自動的にフィルタリングされます。
 
 ## 作業リストのサイズを変更する
 
-この [!UICONTROL 作業用リスト] そのため、ホームエリアの約 4 分の 1 から約半分までの間に消費される [!UICONTROL ホーム] 領域
+ここで、 [!UICONTROL 作業用リスト] そのため、ホームエリアの約 4 分の 1 から約半分までの間に消費される [!UICONTROL ホーム] 領域。
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) 右上隅で、「 **[!UICONTROL ホーム]**.
-1. マウスを右端の上に置きます。 [!UICONTROL 作業用リスト]を選択し、「作業用リスト」が目的のサイズになるまで、左右にドラッグします。
+1. マウスを右端の上に置きます。 [!UICONTROL 作業用リスト]を選択し、「作業用リスト」が目的のサイズになるまで、左または右にドラッグします。
 
 ## グループ化を折りたたみ、展開する
 
-次の項目： [!UICONTROL 作業用リスト] はグループ内に表示されます。 グループ化を折りたたんだり展開したりして、特定の時点でページに表示する情報の量を制御できます。
+次に示す項目： [!UICONTROL 作業用リスト] はグループ化内に表示されます。 グループ化を折りたたんだり展開したりして、特定の時点でページに表示する情報の量を制御できます。
 
-グループ化は、 [!UICONTROL 作業用リスト] 表示される情報をより適切に制御する。\
-デフォルトでは、 [!UICONTROL 今週] グループ化が展開され、その他のグループはすべて折りたたまれます。 変更を加えた場合、次回ホーム領域にアクセスしたときにその変更が記憶されます。
+グループを折りたたんだり展開したりするには、 [!UICONTROL 作業用リスト] 表示される情報をより適切に制御する。\
+デフォルトでは、 [!UICONTROL 今週] グループ化が展開され、その他のグループはすべて折りたたまれます。 変更を加えた場合、次回ホーム領域にアクセスしたときに、変更内容が記憶されます。
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) 右上隅で、「 **[!UICONTROL ホーム]**.
 1. 次をクリック： **[!UICONTROL 展開]** または **[!UICONTROL 折りたたむ]** 展開または折りたたむグループの横にある矢印。

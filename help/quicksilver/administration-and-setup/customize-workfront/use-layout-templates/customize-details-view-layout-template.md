@@ -3,14 +3,14 @@ title: レイアウトテンプレートを使用して詳細ビューをカス�
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Workfrontの管理者は、タスク、イシュー、ドキュメント、プログラムまたはポートフォリオの表示中にユーザーが左側のパネルの「詳細」セクションを選択したときに表示される情報を、レイアウトテンプレートを使用して決定できます。
+description: Workfrontの管理者は、タスク、イシュー、ドキュメント、プログラムまたはポートフォリオの表示中にユーザーが左のパネルの「詳細」セクションを選択したときに表示される情報を、レイアウトテンプレートを使用して決定できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,18 @@ or billing record
 
 オブジェクトの [ 詳細 ] ビューに加えた変更は、次の領域でユーザーが表示するフィールドの使用可否と順序も決まります。
 
-<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
-* "New object" boxes, such as New Task and New Issue
+
+* 「オブジェクトを作成」ボックス（「タスクを作成」など）
 
   ![](assets/new-task-dialog.png)
 
--->
 
-* 「オブジェクトの編集」画面（タスクの編集、イシューの編集、プロジェクトの編集など）
+* タスクの編集、問題の編集、プロジェクトの編集など、オブジェクトの編集時の「オブジェクトの編集」画面
 
   ![](assets/edit-task-screen.png)
 
 
-* オブジェクトを一括編集する際の「オブジェクトの編集」画面 現在、これはプロジェクトの一括編集でサポートされています。
+* オブジェクトを一括編集する際の「オブジェクトの編集」画面。 現在、これはプロジェクトの一括編集でサポートされています。
 
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
@@ -85,7 +84,7 @@ or billing record
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,12 +92,12 @@ or billing record
 ## 詳細表示でユーザーに表示する内容をカスタマイズする
 
 1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 下向き矢印をクリックします。 ![](assets/dropdown-arrow-12x12.png) under **ユーザーに表示する内容をカスタマイズ**&#x200B;を選択し、「 **プロジェクト**, **タスク**, **問題**, **プログラム**&#x200B;または **Portfolio。**
+1. 下向き矢印をクリックします。 ![](assets/dropdown-arrow-12x12.png) under **ユーザーに表示する内容をカスタマイズする**&#x200B;を選択し、次に **プロジェクト**, **タスク**, **問題**, **プログラム**&#x200B;または **Portfolio。**
 <!--
 , or billing record
 -->
 
-1. 内 **詳細** 「 」セクションで、次のいずれかの操作を行って、詳細ビューに表示する内容をカスタマイズします。
+1. Adobe Analytics の **詳細** 「 」セクションで、次のいずれかの操作を行って、詳細ビューに表示する内容をカスタマイズします。
 
    * 任意のセクションヘッダーをドラッグ ![](assets/move-icon---dots.png) 順序を変更する
    * 以下のオプションを有効または無効にします。 **概要** および **カスタムForms** 表示/非表示を切り替えます。
