@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 154905c0ed82052c38e87b6d49385deef28b83aa
+source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3590'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 -->
 
-この [!DNL Adobe PDF Services] ファイルの読み取り、変換、変更はできますが、どちらもできません [!DNL Adobe] nor [!DNL Workfront Fusion] ファイルまたはデータを保存します。 つまり、
+The [!DNL Adobe PDF Services] ファイルの読み取り、変換、変更はできますが、どちらもできません [!DNL Adobe] nor [!DNL Workfront Fusion] ファイルまたはデータを保存します。 つまり、
 
 * ファイルのセキュリティを含め、ファイルの制御を維持する
 * 必要ない [!UICONTROL Adobe] ストレージまたはクラウドストレージアカウントを使用して、PDFサービスを使用します。
@@ -65,15 +65,15 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -83,11 +83,17 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## 前提条件
+
+OAuth サーバー間 API を作成するには、Adobe開発者コンソールにAdobe PDF Services API を追加する必要があります。 API を追加する場合は、「 OAuth Server-to-Server 」オプションを選択します。
+
+手順については、 [OAuth を使用してプロジェクトに API を追加](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) Adobe開発者向けドキュメント。
+
 ## への接続の作成 [!DNL Adobe PDF Services]
 
 の接続を作成するには、以下を実行します。 [!DNL Adobe PDF Services] モジュール：
 
-1. 任意の [!DNL Adobe PDF Services] モジュール、クリック **[!UICONTROL 追加]** をクリックします。
+1. 任意の [!DNL Adobe PDF Services] モジュール、クリック **[!UICONTROL 追加]** 「接続」ボックスの横に表示されます。
 
 1. 次のフィールドに入力します。
 
@@ -111,19 +117,19 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL クライアント ID]</td>
-          <td>を入力します。 [!DNL Adobe] [!UICONTROL クライアント ID]。 これは、 [!DNL Adobe Developer Console].</td>
+          <td>を入力します。 [!DNL Adobe] [!UICONTROL クライアント ID]。 これは、 [!DNL Adobe Developer Console].<p>資格情報の検索方法については、 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >資格情報</a> (Adobe開発者向けドキュメント )。</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL クライアント秘密鍵 ]</td>
-          <td>を入力します。 [!DNL Adobe] [!UICONTROL クライアント秘密鍵 ]。 これは、 [!DNL Adobe Developer Console].
+          <td>を入力します。 [!DNL Adobe] [!UICONTROL クライアント秘密鍵 ]。 これは、 [!DNL Adobe Developer Console].<p>資格情報の検索方法については、 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >資格情報</a> (Adobe開発者向けドキュメント )。</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL テクニカルアカウント ID] （JWT のみ）</td>
-          <td>を入力します。 [!DNL Adobe] [!UICONTROL テクニカルアカウント ID]。 これは、 [!DNL Adobe Developer Console].
+          <td>を入力します。 [!DNL Adobe] [!UICONTROL テクニカルアカウント ID]。 これは、 [!DNL Adobe Developer Console].<p>資格情報の検索方法については、 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >資格情報</a> (Adobe開発者向けドキュメント )。</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL 組織 ID] （JWT のみ）</td>
-          <td>を入力します。 [!DNL Adobe] [!UICONTROL 組織 ID]。 これは、 [!DNL Adobe Developer Console].
+          <td>を入力します。 [!DNL Adobe] [!UICONTROL 組織 ID]。 これは、 [!DNL Adobe Developer Console].<p>資格情報の検索方法については、 <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >資格情報</a> (Adobe開発者向けドキュメント )。</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL メタスコープ ] （JWT のみ）</td>
@@ -138,9 +144,9 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 ## [!DNL Adobe PDF Services] モジュールとそのフィールド
 
-設定時に [!DNL PDF Services], [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、アプリやサービスでのアクセスレベルなどの要因に応じて、追加のフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL PDF Services], [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらに加えて、アプリやサービスでのアクセスレベルなどの要因に応じて、追加のフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -164,14 +170,14 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 ### [!UICONTROL ドキュメントを生成]
 
-この [!UICONTROL ドキュメントを生成] モジュールを使用すると、選択したデータを含むPDFを作成するための強力な方法が提供されます。 これを書式設定するには、 [!DNL Microsoft Word] テンプレートを使用するか、JSON 形式でデータを指定します。
+The [!UICONTROL ドキュメントを生成] モジュールを使用すると、選択したデータを含むPDFを作成するための強力な方法が提供されます。 これを書式設定するには、 [!DNL Microsoft Word] テンプレートを使用するか、JSON 形式でデータを指定します。
 
-詳しくは、 [!UICONTROL [!DNL Adobe PDF Services] ドキュメントを生成] 機能については、 [ドキュメント生成の概要](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) 内 [!DNL Adobe Document Services] ドキュメント。
+詳しくは、 [!UICONTROL [!DNL Adobe PDF Services] ドキュメントを生成] 機能については、 [ドキュメント生成の概要](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) （内） [!DNL Adobe Document Services] ドキュメント。
 
-* [以下を使用： [!UICONTROL ドキュメントを生成] モジュール [!DNL Microsoft Word] テンプレート](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [以下を使用： [!UICONTROL ドキュメントを生成] JSON を使用したモジュール](#use-the-generate-document-module-with-json)
+* [以下を使用します。 [!UICONTROL ドキュメントを生成] モジュール [!DNL Microsoft Word] テンプレート](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [以下を使用します。 [!UICONTROL ドキュメントを生成] JSON を使用したモジュール](#use-the-generate-document-module-with-json)
 
-#### 以下を使用： [!UICONTROL ドキュメントを生成] モジュール [!DNL Microsoft Word] テンプレート
+#### 以下を使用します。 [!UICONTROL ドキュメントを生成] モジュール [!DNL Microsoft Word] テンプレート
 
 <!--
 >[!NOTE]
@@ -191,11 +197,11 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
-   <td> <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p> <p>このソースファイルは [!DNL Microsoft Word ]モジュールが新しいテンプレートの生成に使用するPDF。</p> <p>でプロジェクトを作成することをお勧めします。 [!DNL Workfront] の [!DNL Microsoft Word] で使用するテンプレート [!DNL Workfront Fusion]. その後、 [!DNL Workfront] / [!UICONTROL ドキュメントをダウンロード ] モジュールを使用して、適切なテンプレートをシナリオに取り込みます。</p> </td> 
+   <td> <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p> <p>このソースファイルは、 [!DNL Microsoft Word ]モジュールが新しいテンプレートの生成に使用するPDF。</p> <p>でプロジェクトを作成することをお勧めします。 [!DNL Workfront] （の） [!DNL Microsoft Word] で使用するテンプレート [!DNL Workfront Fusion]. その後、 [!DNL Workfront] / [!UICONTROL ドキュメントをダウンロード ] モジュールを使用して、適切なテンプレートをシナリオに取り込みます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 出力形式 ]</td> 
@@ -209,7 +215,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
    <td role="rowheader">[!UICONTROL 結合用のデータ ]</td> 
    <td> <p>テキストに置き換えるテンプレートの値タグごとに、次のように入力します。</p> 
     <ul> 
-     <li> <p>[!UICONTROL キー ]</p> <p>キーを入力します。 テンプレートでは、キーは値タグに表示されるテキストです。 例えば、値タグにテキストを配置する場合は、 <code>&#123;&#123;name&#125;&#125;</code>を入力して、 <code>name </code>キーフィールドに入力します。</p> </li> 
+     <li> <p>[!UICONTROL キー ]</p> <p>キーを入力します。 テンプレートでは、キーは値タグに表示されるテキストです。 例えば、値タグにテキストを配置する場合は、 <code>&#123;&#123;name&#125;&#125;</code>，と入力します。 <code>name </code>キーフィールドに入力します。</p> </li> 
      <li> <p>値のタイプ</p> <p>値フィールド内のデータを、値、オブジェクト、またはオブジェクトの配列のどれにするかを選択します。</p> </li> 
      <li> <p>[!UICONTROL 値 ]</p> <p>生成後のドキュメントで、値タグの代わりに表示するテキストを入力またはマッピングします。</p> </li> 
     </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
@@ -217,7 +223,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  </tbody> 
 </table>
 
-#### 以下を使用： [!UICONTROL ドキュメントを生成] JSON を使用したモジュール
+#### 以下を使用します。 [!UICONTROL ドキュメントを生成] JSON を使用したモジュール
 
 次の手順で [!UICONTROL ドキュメントを生成] JSON を使用したモジュールで、次のようにフィールドに入力します。
 
@@ -227,7 +233,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -258,7 +264,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -285,7 +291,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 ### [!UICONTROL PDFファイルを結合]
 
-このアクションモジュールは、複数のPDFファイルを取得し、それらを 1 つのPDFファイルに結合します。 例えば、このモジュールは、 [!UICONTROL Workfront] プロジェクトの完了時に、単一のPDFにプロジェクトを追加します。
+このアクションモジュールは、複数のPDFファイルを取得し、それらを 1 つのPDFファイルに組み合わせます。 例えば、このモジュールは、 [!UICONTROL Workfront] プロジェクトの完了時に、単一のPDFにプロジェクトを追加します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -293,7 +299,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ドキュメント ]</td> 
@@ -320,7 +326,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -351,7 +357,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -368,41 +374,41 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
    <td role="rowheader">[!UICONTROL 言語 ]</td> 
    <td> <p>ソースドキュメントのデフォルト言語を選択します。 これにより、ソースファイルにフォントが含まれていない場合、モジュールは適切なフォントを選択できます。</p> <p>次の言語から選択します。</p> 
     <ul> 
-     <li> <p>en-US（デフォルト）:英語（米国）</p> </li> 
-     <li> <p>ca-ES:カタロニア語（スペイン）</p> </li> 
-     <li> <p>cs-CZ:チェコ語（チェコ共和国）</p> </li> 
-     <li> <p>da-DK:デンマーク語（デンマーク）</p> </li> 
-     <li> <p>de-DE:ドイツ語（ドイツ）</p> </li> 
-     <li> <p>en-AE:英語（アラブ首長国連邦）</p> </li> 
-     <li> <p>en-GB:英語（英国）</p> </li> 
-     <li> <p>en-IL:英語（イスラエル）</p> </li> 
-     <li> <p>en-US:英語（米国）</p> </li> 
-     <li> <p>es-ES:スペイン語（スペイン）</p> </li> 
-     <li> <p>es-MX:スペイン語（メキシコ）</p> </li> 
-     <li> <p>eu-ES:バスク語（スペイン）</p> </li> 
-     <li> <p>fi-FI:フィンランド語（フィンランド）</p> </li> 
-     <li> <p>fr-CA:フランス語（カナダ）</p> </li> 
-     <li> <p>fr-FR:フランス語（フランス）</p> </li> 
-     <li> <p>fr-MA:フランス語（モロッコ）</p> </li> 
-     <li> <p>hr-HR:クロアチア語（クロアチア）</p> </li> 
-     <li> <p>hu-HU:ハンガリー語（ハンガリー）</p> </li> 
-     <li> <p>it-IT:イタリア語（イタリア）</p> </li> 
-     <li> <p>ja-JP:日本語（日本）</p> </li> 
-     <li> <p>kr-KR:韓国語（韓国）</p> </li> 
-     <li> <p>nb-NO:ノルウェー語 ( ブークモール（ノルウェー）)</p> </li> 
-     <li> <p>nl-NL:オランダ語（オランダ）</p> </li> 
-     <li> <p>pl-PL:ポーランド語（ポーランド）</p> </li> 
-     <li> <p>pt-BR:ポルトガル語（ブラジル）</p> </li> 
-     <li> <p>pt-PT:ポルトガル語（ポルトガル）</p> </li> 
-     <li> <p>ro-RO:ルーマニア語（ルーマニア）</p> </li> 
-     <li> <p>ru-RU:ロシア語（ロシア）</p> </li> 
-     <li> <p>sk-SK:スロバキア語（スロバキア）</p> </li> 
-     <li> <p>sl-SI:スロベニア語（スロベニア）</p> </li> 
-     <li> <p>sv-SE:スウェーデン語（スウェーデン）</p> </li> 
-     <li> <p>tr-TR:トルコ語（トルコ）</p> </li> 
-     <li> <p>uk-UA:ウクライナ語（ウクライナ）</p> </li> 
-     <li> <p>zh-CN:中国語（中国本土）</p> </li> 
-     <li> <p>zh-TW:中国語（台湾）</p> </li> 
+     <li> <p>en-US（デフォルト）：英語（米国）</p> </li> 
+     <li> <p>ca-ES：カタロニア語（スペイン）</p> </li> 
+     <li> <p>cs-CZ：チェコ語（チェコ共和国）</p> </li> 
+     <li> <p>da-DK：デンマーク語（デンマーク）</p> </li> 
+     <li> <p>de-DE：ドイツ語（ドイツ）</p> </li> 
+     <li> <p>en-AE：英語（アラブ首長国連邦）</p> </li> 
+     <li> <p>en-GB：英語（英国）</p> </li> 
+     <li> <p>en-IL：英語（イスラエル）</p> </li> 
+     <li> <p>en-US：英語（米国）</p> </li> 
+     <li> <p>es-ES：スペイン語（スペイン）</p> </li> 
+     <li> <p>es-MX：スペイン語（メキシコ）</p> </li> 
+     <li> <p>eu-ES：バスク語（スペイン）</p> </li> 
+     <li> <p>fi-FI：フィンランド語（フィンランド）</p> </li> 
+     <li> <p>fr-CA：フランス語（カナダ）</p> </li> 
+     <li> <p>fr-FR：フランス語（フランス）</p> </li> 
+     <li> <p>fr-MA：フランス語（モロッコ）</p> </li> 
+     <li> <p>hr-HR：クロアチア語（クロアチア）</p> </li> 
+     <li> <p>hu-HU：ハンガリー語（ハンガリー）</p> </li> 
+     <li> <p>it-IT：イタリア語（イタリア）</p> </li> 
+     <li> <p>ja-JP：日本語（日本）</p> </li> 
+     <li> <p>kr-KR：韓国語（韓国）</p> </li> 
+     <li> <p>nb-NO：ノルウェー語（ブークモール）（ノルウェー）</p> </li> 
+     <li> <p>nl-NL：オランダ語（オランダ）</p> </li> 
+     <li> <p>pl-PL：ポーランド語（ポーランド）</p> </li> 
+     <li> <p>pt-BR：ポルトガル語（ブラジル）</p> </li> 
+     <li> <p>pt-PT：ポルトガル語（ポルトガル）</p> </li> 
+     <li> <p>ro-RO：ルーマニア語（ルーマニア）</p> </li> 
+     <li> <p>ru-RU：ロシア語（ロシア）</p> </li> 
+     <li> <p>sk-SK：スロバキア語（スロバキア）</p> </li> 
+     <li> <p>sl-SI：スロベニア語（スロベニア）</p> </li> 
+     <li> <p>sv-SE：スウェーデン語（スウェーデン）</p> </li> 
+     <li> <p>tr-TR：トルコ語（トルコ）</p> </li> 
+     <li> <p>uk-UA：ウクライナ語（ウクライナ）</p> </li> 
+     <li> <p>zh-CN：中国語（中国本土）</p> </li> 
+     <li> <p>zh-TW：中国語（台湾）</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -420,11 +426,11 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
-   <td> <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p> <p>重要：ソースファイルはHTMLまたは ZIP 形式である必要があります。 </p> </td> 
+   <td> <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p> <p>重要：ソースファイルはHTML形式または ZIP 形式である必要があります。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL JSON]</td> 
@@ -465,7 +471,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -492,7 +498,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -516,7 +522,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 このツールは、PDFを PNG またはJPEG形式の画像に変換し、ZIP として出力します。 PDFは 1 ページにつき 1 つの画像に変換され、各画像の末尾がページ番号になります。 その後、画像ファイルが ZIP ファイルに結合されます。
 
-例えば、8 ページの「TestFile」という名前のファイルでは、「TestFile_1」から「TestFile_8」までの 8 つの画像が生成されます。 モジュールの出力は、8 つの画像を含む ZIP ファイルです。
+例えば、8 ページの「TestFile」という名前のファイルでは、「TestFile_1」から「TestFile_8」までの 8 つの画像が生成されます。 このモジュールの出力は、8 つの画像を含む ZIP ファイルです。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -526,7 +532,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -555,7 +561,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -576,7 +582,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -609,7 +615,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -650,7 +656,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -684,7 +690,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -705,7 +711,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -755,7 +761,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
@@ -780,7 +786,7 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> への接続を作成する手順については、 [!DNL Adobe PDF Services]を参照してください。 <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >への接続の作成 [!DNL Adobe PDF Services]</a> 」を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
