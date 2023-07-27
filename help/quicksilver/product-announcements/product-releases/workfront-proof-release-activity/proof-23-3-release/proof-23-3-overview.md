@@ -7,9 +7,9 @@ description: このページでは、23.3 リリースで実稼動環境にリ�
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,12 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：23.3 リリースの場合</p>
+                                <p><i>手動インストールを使用するユーザーの場合、バージョン 2.1.26</i></p>
+                                <p>プレビューおよび実稼動版リリース： 2023 年 7 月 27 日</p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.3 リリースの場合</p>
+                                <p><i>自動インストールを使用するユーザーの場合、バージョン 2.1.27</i></p>
+                                <p>プレビューおよび実稼動版リリース： 2023 年 8 月 4 日</p>
                             </li>
                         </ul>
                     </td>
@@ -61,7 +63,7 @@ ht-degree: 0%
                                 <p>プレビューリリース： 2023 年 6 月 9 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 6 月 9 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 6 月 9 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -76,10 +78,10 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 5 月 11 日<br /></p>
+                                <p>プレビューリリース： 2023 年 5 月 11 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 5 月 11 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 5 月 10 日</span></p>
                             </li>
                         </ul>
                     </td>

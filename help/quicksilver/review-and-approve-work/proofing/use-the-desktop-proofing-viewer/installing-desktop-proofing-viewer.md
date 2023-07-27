@@ -6,7 +6,7 @@ description: デスクトップ校正ビューアは、インタラクティブ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfrontライセンス</td> 
@@ -53,11 +53,11 @@ Adobe Workfrontの管理者またはWorkfrontの配達確認管理者が、ア�
 
 1. アプリをダウンロードするには、次のいずれかの操作を行います。
 
-   * 実稼動環境を使用している場合は、 [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.24.pkg)
-   * プレビュー環境を使用している場合は、 [Mac Preview Desktop Proofing Viewer 用のダウンロード。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.24.pkg)
+   * 実稼動環境を使用している場合は、 [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.26.pkg)
+   * プレビュー環境を使用している場合は、 [Mac Preview Desktop Proofing Viewer 用のダウンロードです。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.26.pkg)
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
-1. 表示されるインストールボックスで、 **続行**&#x200B;を選択し、「 **インストール**.
+1. 表示されるインストールボックスで、 **続行**&#x200B;を選択し、次に **インストール**.
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -77,8 +77,8 @@ WorkfrontまたはWorkfrontの配達確認管理者がワークステーショ�
 
 1. アプリをダウンロードするには、次のいずれかの操作を行います。
 
-   * 実稼動環境で、 [デスクトップ校正ビューア用の Windows Production ダウンロードです。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.24.exe)
-   * プレビュー環境で、 [デスクトップ校正ビューア用の Windows プレビューのダウンロード](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.24.exe).
+   * 実稼動環境で、 [デスクトップ校正ビューア用の Windows Production ダウンロードです。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.26.exe)
+   * プレビュー環境で、 [デスクトップ校正ビューア用の Windows プレビューのダウンロード](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.26.exe).
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、ダウンロードしたファイルを開いてインストールを開始します。
