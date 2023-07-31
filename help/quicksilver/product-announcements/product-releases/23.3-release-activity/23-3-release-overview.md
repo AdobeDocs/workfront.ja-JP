@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
+source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 >
 >23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれています。 そのため、Workfrontでは、月次および四半期次のリリース追跡の両方に対応するように、リリースの採番方式を変更しています。
 >
->* 次の場合、 **高速リリース（毎月）** 追跡， 23.3 以降のリリースは **23.8**、2023 年 8 月 31 日。
-> * 次の場合、 **四半期ごと** リリース追跡， 23.3 以降のリリースは **23.10**、2023 年 10 月 26 日の週。
+>* 次の場所にいる場合、 **高速リリース（毎月）** 追跡， 23.3 以降のリリースは **23.8**、2023 年 8 月 31 日。
+> * 次の場所にいる場合、 **四半期ごと** リリース追跡， 23.3 以降のリリースは **23.10**、2023 年 10 月 26 日の週。
 > 
 > 四半期リリースには、3 つの月別リリースの機能が含まれます。 例えば、23.10 の四半期リリースには、23.8、23.9 および 23.10 の月別リリースでリリースされた機能が含まれます。
 >
@@ -71,10 +71,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 23 日</p>
+                                <p>プレビューリリース： 2023 年 6 月 23 日</p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.3 リリースの場合</p>
+                                <p>実稼動版リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -87,10 +87,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 5 月 5 日</p>
+                                <p>プレビューリリース： 2023 年 5 月 5 日</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 5 月 19 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 5 月 19 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -103,10 +103,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 7 月 22 日</p>
+                                <p>プレビューリリース： 2023 年 7 月 22 日</p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：2023 年 7 月 22 日</p>
+                                <p>実稼動リリース： 2023 年 7 月 22 日</p>
                             </li>
                         </ul>
                     </td>
@@ -138,10 +138,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 30 日</p>
+                                <p>プレビューリリース： 2023 年 6 月 30 日</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -154,10 +154,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 23 日</p>
+                                <p>プレビューリリース： 2023 年 6 月 23 日</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -165,15 +165,15 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでダークモードが利用可能</a></p>
-                        <p>これで、すべてのボードとワークストリームをダークモードで表示できます。 新しい設定は、ボードダッシュボードの環境設定で利用できます。</p>
+                        <p>これで、すべてのボードとワークストリームをダークモードで表示できるようになりました。 新しい設定は、ボードダッシュボードの環境設定で利用できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 23 日<span style="color: #ff0000;"> この機能はプレビューから削除され、23.3 ではリリースされません。</span></p>
+                                <p>プレビューリリース： 2023 年 6 月 23 日<span style="color: #ff0000;"> この機能はプレビューから削除され、23.3 ではリリースされません。</span></p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動版リリース：該当なし</p>
+                                <p>すべての顧客向けの実稼動リリース：なし</p>
                             </li>
                         </ul>
                     </td>
@@ -186,10 +186,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 23 日<span style="color: #ff0000;"> この機能はプレビューから削除され、23.3 ではリリースされません。</span></p>
+                                <p>プレビューリリース： 2023 年 6 月 23 日<span style="color: #ff0000;"> この機能はプレビューから削除され、23.3 ではリリースされません。</span></p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動版リリース：該当なし</p>
+                                <p>すべての顧客向けの実稼動リリース：なし</p>
                             </li>
                         </ul>
                     </td>
@@ -202,11 +202,11 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 16 日</p>
+                                <p>プレビューリリース： 2023 年 6 月 16 日</p>
                             </li>
                             <li>
                                  <p>先行オプトインの実稼動リリース：2023 年 6 月 23 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -219,27 +219,27 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 5 月 20 日</p>
+                                <p>プレビューリリース： 2023 年 5 月 20 日</p>
                             </li>
                             <li>
-                                 <p><span class="preview">実稼動版リリース：2023 年 5 月 20 日</span></p>
+                                 <p><span class="preview">実稼動リリース： 2023 年 5 月 20 日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードの取り込み口列で使用可能な単純なフィルタ</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードの取り込み口列で使用可能な単純なフィルター</a></p>
                         <p>インテーク列の設定にシンプル化されたフィルターが追加され、インテーク列をより迅速に定義できるようになりました。 使用可能なフィルターは、Workfrontプロジェクトと、チームまたはユーザーによる割り当てです。 必要に応じて、詳細フィルターに切り替えることができます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 5 月 11 日<br /></p>
+                                <p>プレビューリリース： 2023 年 5 月 11 日<br /></p>
                             </li>
                             <li>
-                                 <p>先行オプトインの実稼動リリース：2023 年 5 月 11 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 5 月 10 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -252,11 +252,11 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 4 月 28 日<br /></p>
+                                <p>プレビューリリース： 2023 年 4 月 28 日<br /></p>
                             </li>
                             <li>
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -269,11 +269,11 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
+                                <p>プレビューリリース： 2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                 <p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -286,13 +286,13 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
+                                <p>プレビューリリース： 2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                 <s><p>先行オプトインの実稼動リリース：2023 年 4 月 29 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p></s>
+                                 <s><p>先行オプトインの実稼動リリース：2023 年 4 月 28 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p></s>
                                  </li>
                                  <li>
-                                <p><span class="preview">すべてのお客様向けの実稼動版リリース：2023 年 5 月 19 日</span></p>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース： 2023 年 5 月 18 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -300,15 +300,15 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードのカードの詳細に左側のナビゲーションが追加されました</a></p>
-                        <p>Workfrontボードのカードにフィールドオプションが追加されるにつれ、カードの詳細は長くなっています。 カードの詳細の左側にある新しいナビゲーションパネルを使用すると、セクションを選択して、そのフィールドグループに自動的に移動できます。</p>
+                        <p>Workfrontボードのカードにフィールドオプションが追加されるにつれ、カードの詳細は長くなっています。 カードの詳細の左側にある新しいナビゲーションパネルを使用すると、セクションを選択して、フィールドのそのグループに自動的に移動できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 4 月 21 日<br /></p>
+                                <p>プレビューリリース： 2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">すべてのお客様向けの実稼動版リリース：2023 年 4 月 28 日</span></p>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース： 2023 年 4 月 27 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -316,16 +316,16 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">電子メール通知と環境設定をボード</a></p>
-                        <p>Adobe Workfrontボードで電子メール通知を利用できるようになりました。 通知はデフォルトでオンになっており、環境設定で受信する電子メールを選択できます。 ボードに追加されたときや、カードが割り当てられたときに、電子メールが送信されます。</p>
+                        <p>Adobe Workfrontボードで電子メール通知を利用できるようになりました。 通知はデフォルトでオンになっており、環境設定で受信する電子メールを選択できます。 ボードに追加されたときや、カードが割り当てられたときに、電子メールを受け取ります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 4 月 14 日<br /></p>
+                                <p>プレビューリリース： 2023 年 4 月 14 日<br /></p>
                             </li>
                             <li>
                                  <p>先行オプトインの実稼動リリース：2023 年 4 月 14 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.3 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -357,11 +357,11 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 30 日</p>
+                                <p>プレビューリリース： 2023 年 6 月 30 日</p>
                             </li>
                             <li>
-                                <p>高速リリース版のお客様向けの実稼動リリース：発表は、23.3 実稼動版リリース以降</p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.4 リリースの場合<br>
+                                <p>Fast リリースのお客様向けの実稼動リリース： 23.3 実稼動リリース後に発表予定</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.10 リリース（2023 年 10 月）<br>
                                 割り当て率上書き機能が、2023 年 6 月 30 日から 7 月 13 日までのプレビューで一時的に無効になりました。</p>
                             </li>
                         </ul>
@@ -394,26 +394,26 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：該当なし</p>
+                                <p>プレビューリリース：なし</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 6 月 28 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 6 月 28 日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud統合で、複数の割り当て済みユーザーをサポートするようになりました</a></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud統合で、複数の割り当て済みユーザーをサポートするようになりました。</a></p> 
                         <p>Adobe Creative Cloud統合では、タスクまたはイシューに複数のユーザーが割り当てられている場合に、「自分の部分で完了」と「完了」（または「解決済み」）のどちらかを選択できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：該当なし</p>
+                                <p>プレビューリリース：なし</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 6 月 23 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 6 月 23 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -426,10 +426,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：該当なし</p>
+                                <p>プレビューリリース：なし</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 6 月 23 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 6 月 23 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -458,10 +458,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 5 月 12 日</p>
+                                <p>プレビューリリース： 2023 年 5 月 12 日</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 5 月 24 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 5 月 24 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -474,10 +474,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 5 月 11 日</p>
+                                <p>プレビューリリース： 2023 年 5 月 11 日</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 5 月 11 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 5 月 10 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -490,26 +490,26 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 5 月 11 日</p>
+                                <p>プレビューリリース： 2023 年 5 月 11 日</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 5 月 11 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 5 月 10 日</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Creative CloudにAdobe Workfrontを使用して自動配達確認ワークフローテンプレート設定を調整</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Creative CloudにAdobe Workfrontを使用して自動配達確認ワークフローテンプレート設定を調整する</a></p>
                         <p>既存の自動ワークフローテンプレート設定をCreative Cloudで直接調整できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 4 月 28 日</p>
+                                <p>プレビューリリース： 2023 年 4 月 28 日</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 4 月 28 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 4 月 28 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -544,7 +544,7 @@ ht-degree: 0%
                                 <p>プレビューリリース： 2023 年 5 月 31 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 6 月 15 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 6 月 14 日</span></p>
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
@@ -552,16 +552,16 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">「新規共有」ボタン</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">「新しい共有」ボタン</a> </p>
                         <p>プロジェクト、タスクおよび問題をより直感的に共有できるように、「共有」オプションが「その他」メニューから取り出されました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 23 日<br /></p>
+                                <p>プレビューリリース： 2023 年 6 月 23 日<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.3 リリースの場合</p>
+                                <p>実稼動版リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -588,15 +588,15 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontモバイルアプリの新しい配達確認機能</a> </p>
-                        <p>スタンドアロンのWorkfront Proof アプリの 23.4 での廃止に伴い、プライマリWorkfrontモバイルアプリには、モバイルでの校正を続行できるように、校正機能が追加されました。</p>
+                        <p>23.10 リリース（2023 年 10 月）でのスタンドアロンのWorkfront Proof アプリの廃止に伴い、プライマリWorkfrontモバイルアプリには、モバイルでの校正を続行できるようにするための校正機能が追加されました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：該当なし</p>
+                                <p>プレビューリリース：なし</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 6 月 21 日にApple App StoreおよびGoogle Playストアで入手可能</span></p>
+                                <p><span class="preview">実稼動版リリース： 2023 年 6 月 21 日にApple App StoreおよびGoogle Playストアで入手可能</span></p>
                             </li>
                         </ul>
                     </td>
@@ -628,10 +628,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 24 日</p>
+                                <p>プレビューリリース： 2023 年 6 月 24 日</p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.3 リリースの場合</p>
+                                <p>実稼動版リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -639,16 +639,16 @@ ht-degree: 0%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">追加のオブジェクトに関する新しいコメント作成機能</a> </p>
-                        <p>新しいコメントエクスペリエンスは、23.3 の実稼動環境へのリリース後すぐに、次のオブジェクトで使用できます。テンプレートタスク、テンプレート、タイムシート、チーム、ユーザー、プログラム、ポートフォリオ</p>
+                        <p>23.3 の実稼働環境へのリリース後すぐに、新しいコメントエクスペリエンスが、テンプレートタスク、テンプレート、タイムシート、チーム、ユーザー、プログラム、ポートフォリオのオブジェクトで使用できるようになります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：発表は、23.3 実稼動版リリース以降</p>
+                                <p>プレビューリリース： 23.3 実稼動版リリース後に発表予定</p>
                             </li>
                             <li>
-                                <p>高速リリース版のお客様向けの実稼動リリース：発表は、23.3 実稼動版リリース以降 </p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.4 リリースの場合</p>
+                                <p>Fast リリースのお客様向けの実稼動リリース： 23.3 実稼動リリース後に発表予定 </p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.10 リリース（2023 年 10 月）</p>
                             </li>
                         </ul>
                     </td>
@@ -664,7 +664,7 @@ ht-degree: 0%
                                 <p>プレビューリリース： 2023 年 6 月 2 日<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.3 リリースの場合</p>
+                                <p>実稼動版リリース： 23.3 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -680,7 +680,7 @@ ht-degree: 0%
                                 <p>プレビューリリース： 2023 年 4 月 21 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 5 月 5 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 5 月 5 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -703,17 +703,17 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新しい Canvas Dashboard エクスペリエンスの強化</a></p>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新しいキャンバスダッシュボードエクスペリエンスの強化</a></p>
                         <p>Canvas Dashboard の機能強化は、23.3 リリース期間内に提供されます。 特に指定のない限り、これらの機能強化は、23.3 リリースの実稼動環境で利用可能になります。 
  </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 6 月 6 日<br /></p>
+                                <p>プレビューリリース： 2023 年 6 月 6 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 6 月 6 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 6 月 6 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -726,7 +726,7 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：23.3 リリース期間全体</p>
+                                <p>プレビューリリース： 23.3 リリース期間を通じて</p>
                             </li>
                             <li>
                                 <p><span class="preview">プレビューにリリースしてから最低 2 週間（特に指定のない限り）</span></p>
@@ -749,7 +749,7 @@ Workfront Fusion の新機能は、実稼動環境の 23.3 リリーススケジ
 
 リリースのこの時点では、シナリオプランナーの更新はありません。 この領域は、更新が利用可能になると更新されます。
 
-### Workfront Proof の強化
+### Workfront Proof の機能強化
 
 23.3 リリース期間内にWorkfront Proof リリースに追加される新機能。 プレビューで利用できる新機能について詳しくは、 [Adobe Workfront Proof（23.3 リリースでの使用）](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
@@ -777,11 +777,11 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 
 次の機能は、近日中にWorkfrontから削除されます。
 
-#### 23.4 での配達確認モバイルアプリの廃止
+#### 23.10 リリース（2023 年 10 月）による Proof モバイルアプリの廃止
 
-23.4 リリースでは、配達確認モバイルアプリは正式に廃止されます。 一般的なWorkfrontモバイルアプリが新しい校正機能で強化されました ( 詳しくは、 Workfront Mobile の機能強化のリリースノートを参照 )。また、できるだけ早く校正作業に使用することをお勧めします。
+23.10 リリース（2023 年 10 月）では、配達確認モバイルアプリは正式に廃止されます。 一般的なWorkfrontモバイルアプリが新しい校正機能で強化されました ( 詳しくは、 Workfront Mobile の機能強化のリリースノートを参照 )。また、できるだけ早く校正作業に使用することをお勧めします。
 
-WorkfrontモバイルアプリにはWorkfrontログインが必要です。 外部のユーザーやゲストは、引き続き校正作業に Proof アプリを使用できます。ただし、サポートは終了し、23.4 では使用できなくなります。
+WorkfrontモバイルアプリにはWorkfrontログインが必要です。 外部のユーザーおよびゲストは、引き続き校正作業に Proof アプリを使用できます。ただし、サポートは終了し、23.10 リリース（2023 年 10 月）では使用できなくなります。
 
 
 <!-- HTML you might need
