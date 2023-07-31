@@ -5,8 +5,9 @@ navigation-topic: get-started-with-boards
 title: ボードの削除またはアーカイブ
 description: ボードは、Workfrontで削除またはアーカイブできます。 ボードを削除すると、Workfrontから完全に削除されます。ボードをアーカイブすると、すべてのカードが保持され、後で復元することができます。
 author: Lisa
+feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -15,7 +16,7 @@ ht-degree: 1%
 
 # ボードの削除またはアーカイブ
 
-ボードは、 [!DNL Workfront]. ボードを削除すると、そのボードは完全に削除されます [!DNL Workfront]をアーカイブすると、ボードはすべてのカードを保持し、後で復元できます。 これらのオプションは、ワークストリームの一部であるスタンドアロンボードとボードの両方に適用されます。
+ボードは、 [!DNL Workfront]. ボードを削除すると、そのボードは完全に削除されます。 [!DNL Workfront]をアーカイブすると、ボードはすべてのカードを保持し、後で復元できます。 これらのオプションは、ワークストリームの一部であるスタンドアロンボードとボードの両方に適用されます。
 
 ## アクセス要件
 
@@ -42,34 +43,34 @@ ht-degree: 1%
 
 ## ボードの削除
 
-ボードを削除すると、そのボードは次の場所から永久に削除されます： [!DNL Workfront] 復元することはできません。 ボード上のカードもボードと一緒に削除されます。
+ボードを削除すると、そのボードは次の場所から永久に削除されます： [!DNL Workfront] 復元することはできません。 ボード上のカードも、ボードと共に削除されます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
 1. ダッシュボードで、開くボードを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) ボード名の横にあるを選択し、 **[!UICONTROL 削除]**. 次に、「 **[!UICONTROL ボードを削除]** をクリックします。
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) ボード名の横にある「 」を選択し、 **[!UICONTROL 削除]**. 次に、「 **[!UICONTROL ボードを削除]** をクリックします。
 
    >[!NOTE]
    >
    >削除できるのは自分で作成したボードのみで、自分が追加したボードは削除できません。
 
-   ![ボード詳細メニュー](assets/boards-board-more-menu.png)
+   ![ボードの詳細メニュー](assets/boards-board-more-menu.png)
 
 ## ボードのアーカイブ
 
 アーカイブされたボードは、すべてのカードと割り当てを保持します。 任意のユーザーがいつでもボードをアーカイブまたは復元できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
 1. ダッシュボードで、開くボードを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) ボード名の横にあるを選択し、 **[!UICONTROL アーカイブ]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) ボード名の横にある「 」を選択し、 **[!UICONTROL アーカイブ]**.
 
-   ![ボード詳細メニュー](assets/boards-board-more-menu.png)
+   ![ボードの詳細メニュー](assets/boards-board-more-menu.png)
 
 ## ボードの復元
 
 アーカイブされたボードは、いつでも復元できます。 誰でも、アーカイブされたボードを復元できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
 1. ダッシュボードで、フィルターアイコンをクリックします。 ![フィルター](assets/filter-icon-spectrum-25x25.png) を選択し、 **[!UICONTROL アーカイブ済みボード]**.
-1. 復元するボードを見つけ、 **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) ボード名の横にあるを選択し、 **[!UICONTROL 復元]**.
+1. 復元するボードを見つけ、 **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) ボード名の横にある「 」を選択し、 **[!UICONTROL 復元]**.
 
    ![ボードを復元](assets/boards-dashboard-restore.png)

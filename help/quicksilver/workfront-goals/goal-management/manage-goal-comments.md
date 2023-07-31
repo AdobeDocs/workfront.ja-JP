@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -95,14 +95,14 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>目標へのアクセス権を表示またはそれ以上に設定</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+   <td> <p>目標へのアクセス権を表示またはそれ以上に設定する</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> 
     <div> 
      <p>目標に対する権限の表示以上</p> 
@@ -127,11 +127,11 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
 この領域に追加したコメントに対して、自分または他のユーザーが返信したり、「いいね！」をしたりできます。
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) > **目標** をクリックします。
-目標リストが開きます。
+これにより、目標リストが開きます。
 1. コメントを追加する目標を探し、その名前をクリックして目標ページを開きます。
 1. クリック  **更新** をクリックします。
 1. 次をクリック： **コメント** タブをクリックします。
-1. でコメントの入力を開始 **新しいコメント** ボックス
+1. でコメントの入力を開始 **新しいコメント** ボックス。
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -154,15 +154,13 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
 
    >[!TIP]
    >
-   >別のユーザーが、更新しようとしている同じ項目にコメントを送信すると、赤い線に「新規」インジケータが表示され、新しいコメントが通知されます。
+   >別のユーザーが、更新しようとしている同じ項目にコメントを送信すると、新しいコメントを示す赤い線と、新しいコメントの数を示す青い通知が画面の下部に表示されます。
    >
    >インジケーターは、コメントがアイテムに送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
-   >
-   >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント付けエクスペリエンスを使用している場合にのみ表示されます。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. （オプション）コメントを編集するには、 **詳細** メニュー ![](assets/more-icon.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
-1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。
+1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-icon.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
+1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除を行います。
 コメントは送信後 15 分以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -173,14 +171,14 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
    >
    > * 日付スタンプは、最新の更新日ではなく、元のコメントの日付です。
 
-   1. （オプション） **詳細** メニュー ![](assets/more-icon.png)次に、次のいずれかのオプションをクリックして、コメントからクリップボードに情報をコピーします。
+   1. （オプション） **その他** メニュー ![](assets/more-icon.png)次に、次のいずれかのオプションをクリックして、コメントからクリップボードに情報をコピーします。
 
-      * **リンクをコピー** ：返信なしで更新のリンクをコピーします。
+      * **リンクをコピー** ：返信を含めずに、更新のリンクをコピーします。
       * **本文をコピー** をクリックして、更新のテキストをコピーします。
 
         詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. （オプション） **詳細** メニュー ![](assets/more-icon.png) コメントの右側に移動し、「 **削除** 追加したコメントを削除します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （オプション） **その他** メニュー ![](assets/more-icon.png) コメントの右側に移動し、「 **削除** 追加したコメントを削除します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 5～9 に従います。 更新情報の返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. （条件付きおよびオプション）「更新」セクションの表示領域の外側に表示されるコメントを他のユーザーが追加した場合は、 **表示** 青の中に **新しいコメントバナー** をクリックして、これらのコメントを表示します。
 
