@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 0%
 
 Adobe Workfrontは組織のネットワークと通信するので、組織のファイアウォールがその通信を許可するように設定されている必要があります。 ファイアウォールは、組織のネットワークをインターネットから分離することによって機能する、非常に効果的なセキュリティ対策です。 これにより、選択したデータとネットワークトラフィックのみが組織のネットワークに出入りできるようになります。 ファイアウォールは、データの送受信を行うサイトに基づいて、データを許可またはブロックします。 Adobe Workfrontの管理者は、Workfrontとの間で送信されるデータが組織のファイアウォールを通過できることを確認する必要があります。
 
-これは、ファイアウォールを通じてデータを送受信できる「許可された」サイトの「リスト」である許可リスト「リスト」を通じて実行されます。 サイトは、次の 2 つの方法のいずれかで識別できます。
+これは、ファイアウォールを通じてデータを送受信できる「許可された」サイトの「リスト」である許可リストに加える「リスト」を通じて実行されます。 サイトは、次の 2 つの方法のいずれかで識別できます。
 
-* **IP アドレス**:52.31.132.175のような一連の数
-* **ドメイン**:URL の一部 ( 例： www.thisdomain.comの「thisdomain」)
+* **IP アドレス**:52.31.132.175などの一連の数値
+* **ドメイン**:URL の一部 (www.thisdomain.comの「thisdomain」など )
 
-Workfrontは、Web 通信に特定の IP アドレスおよびドメインを使用します。 組織でWorkfrontを使用するには、事前にこれらを組織の許可リストに追加しておく必要があります。
+Workfrontは、Web 通信に特定の IP アドレスおよびドメインを使用します。 組織でWorkfrontを使用するには、事前にこれらを組織の許可リストに加えるに追加しておく必要があります。
 
-通常、ネット許可リストワーク管理者が設定します。 組織のネットワーク管理者と協力して、ファイアウォールでこれらの IP アドレスが許可されていることを確認します。 ネットワーク管理者が不明な場合は、組織の IT 部門が適切な方向に向かうことができます。
+通常、ネット許可リストに加えるワーク管理者が設定します。 組織のネットワーク管理者と協力して、ファイアウォールでこれらの IP アドレスが許可されていることを確認します。 ネットワーク管理者が不明な場合は、組織の IT 部門が適切な方向に向かうことができます。
 
 >[!IMPORTANT]
 >
->Workfront管理者は、これらの IP アドレスとドメインが組織の管理者に必ず追加されていることを確認する必要があり許可リストます。 これは、自分で追加しない場合でも当てはまります。 Workfrontは組織の設定を構成できま許可リストせん。
+>Workfront管理者は、これらの IP アドレスとドメインが組織の管理者に必ず追加されていることを確認する必要があり許可リストに加えるます。 これは、自分で追加しない場合でも当てはまります。 Workfrontは組織の設定を構成できま許可リストに加えるせん。
 
 ## ファイアウォールを構成するための情報を収集します
 
@@ -49,7 +49,7 @@ Workfront用のファイアウォールを設定するには、追加する IP �
  <tbody> 
   <tr> 
    <td role="rowheader">許可する特定の IP アドレスおよびドメイン</td> 
-   <td> <p>記事 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">ファイアウォールの設定を許可リスト行う</a> には、組織が追加する必要がある IP アドレスとドメインのリストが含まれてい許可リストます。 </p> <p>ネットワーク管理者が「ファイアウォールの設定」の記事にアクセスできない可能性があります。 その場合は、指定する必要があります。 ハード（紙）コピーは印刷しないことをお勧めします。 デジタルコピーを使用すると、ネットワーク管理者はアドレスをコピーして貼り付けることができます。これは、ハードコピーから入力するよりも迅速かつ正確です。</p> </td> 
+   <td> <p>記事 <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">ファイアウォールの設定を許可リストに加える行う</a> には、組織が追加する必要がある IP アドレスとドメインのリストが含まれていま許可リストに加えるす。 </p> <p>ネットワーク管理者が「ファイアウォールの設定」の記事にアクセスできない可能性があります。 その場合は、指定する必要があります。 ハード（紙）コピーは印刷しないことをお勧めします。 デジタルコピーを使用すると、ネットワーク管理者はアドレスをコピーして貼り付けることができます。これは、ハードコピーから入力するよりも迅速かつ正確です。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">クラスター</td> 
@@ -57,17 +57,11 @@ Workfront用のファイアウォールを設定するには、追加する IP �
   </tr> 
   <tr> 
    <td role="rowheader">Workfrontプラン</td> 
-   <td> <p>組織の計画は、次のいずれかです。</p> 
-    <ul> 
-     <li> <p>エンタープライズ </p> </li> 
-     <li> <p>ビジネス </p> </li> 
-     <li> <p>Pro </p> </li> 
-     <li> <p>チーム </p> </li> 
-    </ul> <p>プランを見つけるには、 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">組織のクラスタープランとWorkfrontプランを表示します。</a></p> </td> 
+   <td> <p>組織のプランを見つけるには、 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">組織のクラスタープランとWorkfrontプランを表示します。</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ドメイン</td> 
-   <td> <p>ドメインを見つけるには、Workfrontに接続するために使用する Web アドレスを確認します。</p> <p>例：Web アドレス内 <code>greatcompany.my.workfront.com</code>の場合、ドメインは「大企業」です。</p> </td> 
+   <td> <p>ドメインを見つけるには、Workfrontに接続するために使用する Web アドレスを確認します。</p> <p>例： Web アドレス内 <code>greatcompany.my.workfront.com</code>の場合、ドメインは「大企業」です。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">その他のAdobe Workfront製品</td> 
@@ -89,7 +83,7 @@ Workfront用のファイアウォールを設定するには、追加する IP �
     </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">追加機能</td> 
+   <td role="rowheader">その他の機能</td> 
    <td> <p>次のいずれかを使用する場合は、ネットワーク管理者に通知します。</p> 
     <ul> 
      <li> <p>Workfrontのテストドライブ</p> </li> 
@@ -101,7 +95,7 @@ Workfront用のファイアウォールを設定するには、追加する IP �
 
 >[!IMPORTANT]
 >
->後日、これらの製品、統合、機能のいずれかを追加する場合は、ネットワーク管理者に問い合わせて、それらの管理者がを調整できるようにする必要があり許可リストます。
+>後日、これらの製品、統合、機能のいずれかを追加する場合は、ネットワーク管理者に問い合わせて、それらの管理者がを調整できるようにする必要があり許可リストに加えるます。
 
 ### 組織のクラスターとWorkfrontプランを表示 {#view-your-organization-s-cluster-and-workfront-plan}
 

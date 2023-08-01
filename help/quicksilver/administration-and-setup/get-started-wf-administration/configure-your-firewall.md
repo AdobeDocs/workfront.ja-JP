@@ -2,63 +2,74 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: ファイアウォールの設定を許可リスト行う
-description: ファイアウォールまたはメールサーバーが特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをそのに追加する必要があ許可リストります。 これにより、環境とAdobe Workfrontサーバー間の通信が開き、ユーザーはWorkfrontからメッセージを送信し、Active Directory または LDAP で SSO を使用できます。
+title: ファイアウォールの設定を許可リストに加える行う
+description: ファイアウォールまたはメールサーバーが特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをそのに追加する必要があ許可リストに加えるります。 これにより、環境とAdobe Workfrontサーバー間の通信が開き、ユーザーはWorkfrontからメッセージを送信し、Active Directory または LDAP で SSO を使用できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1543'
 ht-degree: 13%
 
 ---
 
-# ファイアウォールの設定を許可リスト行う
+# ファイアウォールの設定を許可リストに加える行う
 
 >[!IMPORTANT]
 >
 >このページで説明する手順は、まだAdmin Consoleにオンボーディングされていない組織にのみ適用されます。 組織がAdobe Admin Consoleにオンボーディングされている場合、Adobe Admin Consoleを通じてこの操作を実行する必要があります。
 >
->組織がAdobe Admin Consoleにオ許可リストンボーディングされている場合のを設定するには、 [ドメインのアプリおよびAdobeサービスで許可するドメイン](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>組織がAdobe Admin Consoleにオ許可リストに加えるンボーディングされている場合のを設定するには、 [ドメインのアプリおよびAdobeサービスで許可するドメイン](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >組織がAdobe Admin Consoleにオンボーディングされているかどうかに応じて異なる手順のリストについては、 [プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-ファイアウォールまたはメールサーバーが特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをそのに追加する必要があ許可リストります。 これにより、環境とAdobe Workfrontサーバー間の通信が開始され、次のプロセスが可能になります。
+ファイアウォールまたはメールサーバーが特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをそのに追加する必要があ許可リストに加えるります。 これにより、環境とAdobe Workfrontサーバー間の通信が開始され、次のプロセスが可能になります。
 
 * Workfrontアプリケーションからのメッセージの送信
 
-   >[!NOTE]
-   >
-   >組織のWorkfrontインスタンスで「Adobe IMS」が有効になっている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。
+  >[!NOTE]
+  >
+  >組織のWorkfrontインスタンスで「Adobe IMS」が有効になっている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。
 
 * カスタムドキュメント統合を設定する際のドキュメント Web フックの使用
 * Workfront Event Subscriptions の使用
 
-   詳しくは、 [イベント購読 API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  詳しくは、 [イベント購読 API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 また、E メールメッセージが配信されたときに暗号化されるように、特定のポートを開く必要があります。
 
-## Workfront 許可リスト
+## Workfront 許可リストに加える
 
-組織が Enterprise プランを保有している場合は、次の 2 つのWorkfront設定も設定でき許可リストます。
+組織が Enterprise プランを保有している場合は、次の 2 つのWorkfront設定も設定でき許可リストに加えるます。
 
-* **メールの許可リスト**:ユーザーがWorkfrontで保存する電子メールデータをどこに送信できるかを制御できます。 詳しくは、 [電子メールの設定を許可リスト行う](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP の許可リスト**:Workfrontへのアクセスを 45 個の IP アドレスまたは指定した IP アドレス範囲に制限し、Workfrontアプリケーションのセキュリティをさらに強化します。 詳しくは、 [IP アドレスでAdobe Workfrontへのアクセスを制限する](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **電子メールの許可リストに加える**：ユーザーがWorkfrontのどこにデータを電子メールで送信できるかを制御できます。 詳しくは、 [電子メールの設定を行いま許可リストに加えるす。](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **IP の許可リストに加える**:Workfrontへのアクセスを 45 個の IP アドレスまたは IP アドレス範囲に制限し、Workfrontアプリケーションのセキュリティ層をさらに 1 層提供します。 詳しくは、 [IP アドレスでAdobe Workfrontへのアクセスを制限する](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
-## に追加する IP アド許可リストレス
+## Workfrontクラスターの場所
 
-ファイアウォール上のに追加する必要がある IP アド許可リストレスは、実稼動環境が実行されるクラスターによって異なります。 Setup > System > Custom Info を表示すると、このクラスタがどのクラスタであるかを確認できます。 詳しくは、 [基本情報を設定](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md#configuring-basic-info) 記事内 [システムの基本情報を設定する](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+ファイアウォール上のに追加する必要がある IP アド許可リストに加えるレスは、実稼動環境が実行されるクラスターによって異なります。
+
+組織のクラスターを検索するには、次の手順に従います。
+
+1. Workfront管理者が、 **メインメニュー** アイコン ![メインメニュー](assets/main-menu-icon.png)を選択し、次に **設定**.
+1. 左側のナビゲーションで、 **システム**&#x200B;を選択し、「 **顧客情報**.
+1. 次を見つけます。 **クラスターの設定** フィールドを使用して、ページの右上隅に表示されます。 組織のクラスターがここに表示されます。
+
+   CL01 はクラスタ 1 を表し、CL02 はクラスタ 2 を表します。
+
+詳しくは、 [組織のクラスターとWorkfrontプランを表示](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) 記事内 [ファイアウォールの概要](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+
+## に追加する IP アド許可リストに加えるレス
 
 >[!IMPORTANT]
 >
->一部のWorkfront統合は、静的 IP アドレ許可リストスで設定できないので、この統合が有効な場合は機能しません。 次の統合を使用するには、「 」オプションを無効にする必要があり許可リストます。
+>一部のWorkfront統合は、静的 IP アドレ許可リストに加えるスで設定できないので、この統合が有効な場合は機能しません。 次の統合を使用するには、「 」オプションを無効にする必要があり許可リストに加えるます。
 >
 >* Workfront for G Suite
 >* Workfront for Outlook
 >* Workfront for Salesforce
-
 
 * [クラスタ 1、2、3、5、7、8、9 に対して許可する IP アドレス](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [クラスタ 4 に許可する IP アドレス](#ip-addresses-to-allow-for-cluster-4)
@@ -192,7 +203,7 @@ ht-degree: 13%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">テストドライブを使用する際にWorkfrontアプリケーションから電子メールを受信するには</td> 
+   <td role="rowheader">テストドライブを使用する際にWorkfrontアプリケーションから電子メールを受け取るには</td> 
    <td> 
     <ul> 
      <li>69.42.126.188 </li> 
@@ -204,7 +215,7 @@ ht-degree: 13%
    <td role="rowheader">Test Drive を使用する際の SSO およびドキュメント Webhook 統合の場合</td> 
    <td> 
     <ul> 
-     <li> <p>69.42.126.188:</p> <p>ユーザーがWorkfrontから電子メールを受信するに許可リストは、このアドレスをに追加する必要もあります。</p> </li> 
+     <li> <p>69.42.126.188:</p> <p>ユーザーがWorkfrontから電子メールを受信するに許可リストに加えるは、このアドレスをに追加する必要もあります。</p> </li> 
      <li>66.119.37.186</li> 
      <li>66.119.37.167</li> 
      <li>54.244.142.219</li> 
@@ -284,7 +295,7 @@ ht-degree: 13%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">環境がクラスタ 4 上にある場合</td> 
+   <td role="rowheader">環境がクラスター 4 上にある場合</td> 
    <td> 
     <ul> 
      <li>52.28.56.226</li> 
@@ -316,7 +327,7 @@ ht-degree: 13%
 
 ### Workfront Fusion にアクセスするために追加する IP アドレス  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
-次の IP アドレスをに追加し許可リストて、Workfront Fusion がシステムにアクセスできるようにします。
+次の IP アドレスをに追加し許可リストに加えるて、Workfront Fusion がシステムにアクセスできるようにします。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -343,7 +354,7 @@ ht-degree: 13%
  </tbody> 
 </table>
 
-また、組織がアウトバウンドネットワークフィルタリングを使用している場合は、次のドメインをに追加し許可リストて、システムがWorkfront Fusion にアクセスできるようにします。
+また、組織がアウトバウンドネットワークフィルタリングを使用している場合は、次のドメインをに追加し許可リストに加えるて、システムがWorkfront Fusion にアクセスできるようにします。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -362,13 +373,13 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->アウトバウンドネットワークフィルタリングはまれです。 ネットワーク管理者に問い合わせて、それに対応するためにネットワークを更新する必要があ許可リストるかどうかを確認してください。
+>アウトバウンドネットワークフィルタリングはまれです。 ネットワーク管理者に問い合わせて、それに対応するためにネットワークを更新する必要があ許可リストに加えるるかどうかを確認してください。
 
 ### Jira でのWorkfrontの使用に追加する IP アドレス {#ip-addresses-to-add-for-using-workfront-for-jira}
 
-Workfront for Jira 統合を使用するに許可リストは、次の IP アドレスをに追加します。
+Workfront for Jira 統合を使用するに許可リストに加えるは、次の IP アドレスをに追加します。
 
-また、jira.workfront.com ドメインは、会社のサーバーからアクセスできる必要があります。 このドメインは、Workfrontと Jira の間のミドルウェアとして機能するので、必要です。
+また、 jira.workfront.comドメインは、会社のサーバーからアクセスできる必要があります。 このドメインは、Workfrontと Jira の間のミドルウェアとして機能するので、必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -447,11 +458,11 @@ Workfront for Jira 統合を使用するに許可リストは、次の IP アド
 
 ## Workfrontにアクセスするために追加するドメイン
 
-組織でアウトバウンドネットワークフィルタリングを使用している場合、次のドメインをに追加し許可リストて、システムがWorkfrontにアクセスできるようにします。
+組織でアウトバウンドネットワークフィルタリングを使用している場合、次のドメインをに追加し許可リストに加えるて、システムがWorkfrontにアクセスできるようにします。
 
 >[!NOTE]
 >
->アウトバウンドネットワークフィルタリングはまれです。 ネットワーク管理者に問い合わせて、それに対応するためにネットワークを更新する必要があ許可リストるかどうかを確認してください。
+>アウトバウンドネットワークフィルタリングはまれです。 ネットワーク管理者に問い合わせて、それに対応するためにネットワークを更新する必要があ許可リストに加えるるかどうかを確認してください。
 
 * `<your domain>`.my.workfront.com
 * `<your domain>`.preview.workfront.com
@@ -484,16 +495,16 @@ Workfront for Jira 統合を使用するに許可リストは、次の IP アド
    <td> 
     <ul> 
      <li>*.workfront.com - Workfrontで配達確認を表示するために必要</li> 
-     <li>*.proofhq.com - Workfront Proof で配達確認を表示するために必要</li> 
+     <li>*.proofhq.com - Workfront Proof で配達確認を表示する場合に必要です</li> 
      <li>*.proofhq.eu - Workfrontの配達確認で配達確認を表示するために必要</li> 
-    </ul> <p><b>メモ</b>:  <p>Workfront配達確認用にへの IP アドレスの追加はサ許可リストポートされていません。 これらは、WorkfrontがAWSに移行した後、動的になりました。 代わりに、Workfront Proof ドメインのみを許可することをお勧めします。</p> <p>これらのドメインの追加に問題があり、代わりに IP アドレスが必要許可リストな場合は、Workfrontカスタマーサポートにお問い合わせください。</p> </p> </td> 
+    </ul> <p><b>メモ</b>:  <p>Workfront配達確認用にへの IP アドレスの追加はサ許可リストに加えるポートされていません。 これらは、WorkfrontがAWSに移行した後、動的になりました。 代わりに、Workfront Proof ドメインのみを許可することをお勧めします。</p> <p>これらのドメインの追加に問題があり、代わりに IP アドレスが必要許可リストに加えるな場合は、Workfrontカスタマーサポートにお問い合わせください。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Workfront Proof にアクセスするために追加する IP アドレスと URL
 
-様々な機能を使用するには、次の IP アドレ許可リストスをに追加する必要があります。
+様々な機能を使用するには、次の IP アドレ許可リストに加えるスをに追加する必要があります。
 
 * [コールバックおよび Web キャプチャの配達確認の場合](#for-callbacks-and-webcapture-proofs)
 * [送信メールの場合](#for-outgoing-email)
