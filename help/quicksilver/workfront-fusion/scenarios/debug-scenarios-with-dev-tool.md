@@ -7,16 +7,20 @@ description: Adobe Workfront Fusion DevTool を使用すると、シナリオを
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1687'
 ht-degree: 2%
 
 ---
 
 # でのシナリオのデバッグ [!DNL Adobe Workfront Fusion] DevTool
 
-この [!DNL Adobe Workfront Fusion] DevTool を使用すると、シナリオを理解し、トラブルシューティングできます。 DevTool は、 [!DNL Chrome Developer Tools]. このデバッガーパネルを使用すると、シナリオのすべての手動実行を確認し、実行されたすべての操作を確認し、実行されたすべての API 呼び出しの詳細を確認できます。 エラーが発生したモジュール、操作、または単一の応答を確認し、その知識を使用してシナリオを絞り込むことができます。
+The [!DNL Adobe Workfront Fusion] DevTool を使用すると、シナリオを理解し、トラブルシューティングできます。 DevTool は、 [!DNL Chrome Developer Tools]. このデバッガーパネルを使用すると、シナリオのすべての手動実行を確認し、実行されたすべての操作を確認し、実行されたすべての API 呼び出しの詳細を確認できます。 エラーが発生したモジュール、操作、または単一の応答を確認し、その知識を使用してシナリオを絞り込むことができます。
+
+>[!NOTE]
+>
+>Workfront Fusion DevTool は、AdobeUnified Shell を通じて Fusion にアクセスする組織では使用できません。
 
 ## アクセス要件
 
@@ -39,15 +43,15 @@ ht-degree: 2%
   <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -57,7 +61,7 @@ ht-degree: 2%
 
 詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## のインストール [!DNL Chrome] DevTool 拡張機能
+## をインストールします。 [!DNL Chrome] DevTool 拡張機能
 
 <!--
 To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
@@ -75,16 +79,16 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
 次の項目を追加できます。 [!DNL Workfront Fusion] 開発ツール [!DNL Chrome] から [!UICONTROL [!DNL Chrome] Web ストア].
 
-1. クリック [このリンク](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) 行く [!DNL Workfront Fusion] の DevTool [!UICONTROL [!DNL Chrome] Web ストア].
+1. クリック [このリンク](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) に行く [!DNL Workfront Fusion] の DevTool [!UICONTROL [!DNL Chrome] Web ストア].
 1. クリック **[!UICONTROL 追加先[!DNL Chrome]]**.
 1. 表示されるウィンドウで、権限を確認します。 権限に同意する場合は、 **[!UICONTROL 拡張機能を追加]**.
 
-この [!DNL Workfront Fusion] DevTool 拡張機能が [!DNL Chrome] 拡張機能。
+The [!DNL Workfront Fusion] DevTool 拡張機能が [!DNL Chrome] 拡張機能。
 
 
-## を [!DNL Workfront Fusion] DevTool
+## 次を見つけます。 [!DNL Workfront Fusion] DevTool
 
-次の手順で [!DNL Workfront Fusion] 開発ツール、 [!DNL Workfront Fusion] DevTool 拡張機能を [!DNL Chrome] ブラウザ、 [Chrome DevTool 拡張機能のインストール](#install-the-chrome-devtool-extension).
+次の手順で [!DNL Workfront Fusion] DevTool、 [!DNL Workfront Fusion] DevTool 拡張機能を [!DNL Chrome] ブラウザ、 [Chrome DevTool 拡張機能のインストール](#install-the-chrome-devtool-extension).
 
 1. を開きます。 [!DNL Workfront Fusion] シナリオ。
 1. 開く [!DNL Chrome Developer Tools]:
@@ -110,7 +114,7 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
 1. 次をクリック： **[!DNL Workfront Fusion]** タブ [!DNL Chrome Dev Tools].
 
-## 以下を使用： [!DNL Workfront Fusion] DevTool
+## 以下を使用します。 [!DNL Workfront Fusion] DevTool
 
 Workfront Fusion DevTool は、3 つの主なセクションに分かれています。 これらは、DevTool ウィンドウの左パネルにあります。
 
@@ -155,13 +159,13 @@ Live Stream は、シナリオで「1 回実行」をクリックすると、バ
      </tr> 
      <tr> 
       <td role="rowheader"> <p>コンソールログを有効にする</p> </td> 
-      <td> <p>コンピューターのアイコンをクリックします。 <img src="assets/console-computer-icon.png"> をクリックします。</p> <p>コンピュータのアイコンが緑の場合、コンソールでのログインは有効になります。</p> </td> 
+      <td> <p>コンピューターのアイコンをクリックします。 <img src="assets/console-computer-icon.png"> （DevTool の左パネルの右上隅）をクリックします。</p> <p>コンピュータのアイコンが緑の場合、コンソールでのログインは有効になります。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>生の JSON 形式または cURL でのリクエストの取得</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>生の JSON</strong> </p> <p>クリック <strong>[!UICONTROL 生データをコピー ]</strong> をクリックします。</p> </li> 
+        <li> <p><strong>生の JSON</strong> </p> <p>クリック <strong>[!UICONTROL RAW をコピー ]</strong> をクリックします。</p> </li> 
         <li> <p><strong>cURL</strong> </p> <p>クリック <strong>[!UICONTROL cURL をコピー ]</strong> をクリックします。</p> </li> 
        </ul> </td> 
      </tr> 
@@ -179,7 +183,7 @@ Live Stream は、シナリオで「1 回実行」をクリックすると、バ
 
 ### ツール
 
-この [!DNL Workfront Fusion] DevTool には、シナリオの設定を容易にするツールが備わっています。
+The [!DNL Workfront Fusion] DevTool には、シナリオの設定を容易にするツールが備わっています。
 
 1. 次をクリック： **[!UICONTROL ツール]** アイコン ![](assets/console-tools-icon.png) をクリックして、ツールを開きます。
 1. 使用するツールを選択します。
@@ -318,7 +322,7 @@ ID で指定したモジュールの設定を開きます。
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 置換文字列 ]</p> </td> 
-   <td> <p>シナリオ内のモジュールで変数を置き換える変数ピルを探し、この ([!UICONTROL Variable to Find]) フィールドにコピーします。 「 」フィールドにはダブルカーリーで囲まれて表示されます。 例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>変数を置き換える変数ピルをシナリオ内のモジュールから探し、この ([!UICONTROL Variable to Find]) フィールドにコピーします。 「 」フィールドにはダブルカーリーで囲まれて表示されます。 例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL モジュール ]</p> </td> 
