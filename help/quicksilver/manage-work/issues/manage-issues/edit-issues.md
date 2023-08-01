@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 2%
+source-wordcount: '2504'
+ht-degree: 3%
 
 ---
 
@@ -44,13 +44,19 @@ ht-degree: 2%
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 アクセスレベルの問題へのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">問題へのアクセス権の付与</a>. Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>. </p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>問題に対する権限を投稿して、「問題の詳細」領域で問題を編集します。 </p> <p>イシューに対する権限を管理し、イシューの編集ボックスで編集します</p> <p> 問題に対する権限の付与について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a></p> <p>追加の権限のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>問題に対する権限を付与して、詳細領域の次のフィールドを編集します。 </p>
+   <ul>
+   <li>説明</li>
+   <li>ステータス</li>
+   <li>重大度</li>
+   </ul>
+   <p>イシューに対する権限を管理して、イシューの詳細領域またはイシューの編集ボックスのすべてのフィールドを編集します</p> <p> 問題に対する権限の付与について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a></p> <p>追加の権限のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 問題を編集する際の制限事項
 
@@ -61,7 +67,7 @@ ht-degree: 2%
 
 ## 単一のイシューの編集
 
-「問題の編集」領域または「問題の詳細」領域を使用して、問題を編集できます。 次の手順では、「Edit issue」ボックスでイシューを編集する方法を説明します。
+問題を編集するには、「Edit Issue」領域または「Issue Details」領域を使用します。 次の手順では、「Edit issue」ボックスでイシューを編集する方法を説明します。
 
 1. 次に移動： **メインメニュー**.
 1. クリック **プロジェクト**&#x200B;次に、プロジェクトの名前をクリックして、プロジェクトを開きます。
@@ -81,7 +87,7 @@ ht-degree: 2%
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
    1. （オプション） **すべて折りたたむ** アイコンを使用して、すべての領域を折りたたみます。
-   1. （オプションおよび条件付き）領域が折りたたまれている場合、 **右向き矢印** ![](assets/right-pointing-arrow.png) 各領域の横に、編集する領域を展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれている場合、 **右矢印** ![](assets/right-pointing-arrow.png) 各領域の横に、編集する領域を展開します。
    1. （オプション）カスタムフォームを添付するには、 **カスタムフォームを追加** フィールドに値を入力し、リストに表示されるタイミングで選択して、 **変更を保存**.
    1. （オプション） **書き出し** アイコン ![](assets/export.png) 概要およびカスタムフォームの情報を書き出すには、PDF・ファイルに **書き出し**. 次の中から選択します。
 
@@ -97,13 +103,13 @@ ht-degree: 2%
 
    「問題の詳細」セクションに表示されるフィールドについて詳しくは、次に説明するように、「問題の編集」ボックスで問題を編集し続けます。
 
-1. 問題に関するすべての情報を編集するには、リストから問題を選択し、 **編集** リストの一番上に
+1. イシューに関するすべての情報を編集するには、リストからイシューを選択し、 **編集** リストの一番上に
 
    または
 
-   リスト内のイシューの名前をクリックし、 **詳細** 問題名の横にあるメニュー、 **編集。**
+   リスト内のイシューの名前をクリックし、 **その他** 問題名の横にあるメニュー、「 **編集。**
 
-   この **問題を編集** ダイアログボックスが表示されます。
+   The **問題を編集** ダイアログボックスが表示されます。
 
    >[!IMPORTANT]
    >
@@ -121,7 +127,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >Workfront管理者がレイアウトテンプレートを設定する方法によっては、環境によって「問題を編集」ボックスのフィールドが異なる場合があります。 詳しくは、 [レイアウトテンプレートを使用して詳細ビューをカスタマイズする](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Workfront管理者がレイアウトテンプレートを設定する方法によっては、環境によって問題を編集ボックスのフィールドが異なる場合があります。 詳しくは、 [レイアウトテンプレートを使用して詳細ビューをカスタマイズする](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
    >
    >イシューを作成する際に、以下のセクションに一覧表示されるほとんどのフィールドは、「新しいイシュー」ボックスからもアクセスできます。 フィールドが配置されているセクションが、「 New Issue 」ボックスと一致しません。 問題の作成について詳しくは、 [イシューの作成](../../issues/manage-issues/create-issues.md).
 
@@ -168,11 +174,11 @@ ht-degree: 2%
         <li> <p><strong>標準</strong> </p> </li> 
         <li> <p><strong>高</strong> </p> </li> 
         <li> <p><strong>緊急</strong> </p> </li> 
-       </ul> <p>Workfront管理者が選択したプロジェクトの環境設定によっては、優先度の名前が異なる場合があります。 優先度の編集の詳細については、 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成とカスタマイズ</a>.</p> </td> 
+       </ul> <p>Workfront管理者が選択したプロジェクトの環境設定によっては、優先度の名前が異なる場合があります。 優先度の編集の詳細については、「 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成とカスタマイズ</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">重大度</td> 
-      <td> <p>これは、問題に記載されている問題の重大度を示す視覚的なフラグです。 重大度は問題に特有です。 次のオプションから選択します。</p> 
+      <td> <p>これは、問題に記載されている問題の重大度を示す視覚的なフラグです。 重大度は問題に特有のものです。 次のオプションから選択します。</p> 
        <ul> 
         <li> <p style="font-weight: bold;">一時回避</p> </li> 
         <li> <p style="font-weight: bold;">混乱を招く</p> </li> 
@@ -213,19 +219,19 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">計画開始日</td> 
-      <td>デフォルトでは、「計画開始日」は問題が作成された日時です。 次の項目を更新し、 <strong>計画開始日</strong> を設定します。 </td> 
+      <td>デフォルトでは、「計画開始日」は問題が作成された日時です。 次の項目を更新して、 <strong>計画開始日</strong> を設定します。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">計画完了日時</td> 
-      <td> デフォルトでは、計画完了日はデフォルトの計画開始日から 24 時間です。 デフォルトでは、問題の期間は 1 日です。 次の項目を更新し、 <strong>計画完了日</strong> を設定します。</td> 
+      <td> デフォルトでは、計画完了日はデフォルトの計画開始日から 24 時間です。 デフォルトでは、問題の期間は 1 日です。 次の項目を更新して、 <strong>計画完了日</strong> を設定します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">実際の開始日時</td> 
-      <td>問題のステータスを「 <strong>処理中</strong>. 次の項目を更新し、 <strong>実際の開始日</strong> を設定します。 必要に応じて、手動で日付を更新できます。 </td> 
+      <td>問題のステータスを「 <strong>処理中</strong>. 次の項目を更新して、 <strong>実際の開始日</strong> を設定します。 必要に応じて、手動で日付を更新できます。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader">実際の完了日時</td> 
-      <td>問題のステータスを「 <strong>クローズ</strong> または<strong>解決済み</strong>. 次の項目を更新し、 <strong>実際の完了日</strong> を参照してください。 必要に応じて、手動で日付を更新できます。</td> 
+      <td>「実際の完了日」は、問題のステータスを「 <strong>閉じる</strong> または<strong>解決済み</strong>. 次の項目を更新して、 <strong>実際の完了日</strong> を参照してください。 必要に応じて、手動で日付を更新できます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">解決オブジェクト</td> 
@@ -233,7 +239,7 @@ ht-degree: 2%
 
    <b>メモ</b>
 
-   問題を解決するオブジェクトを選択すると、問題のステータスは解決オブジェクトのステータスにリンクされ、問題で変更することはできません。 オブジェクトの解決の詳細については、 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">オブジェクトの解決と解決の概要 </a>.
+   問題を解決するオブジェクトを選択すると、問題のステータスは解決オブジェクトのステータスにリンクされ、問題で変更することはできません。 オブジェクトの解決の詳細については、「 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">オブジェクトの解決と解決の概要 </a>.
 
    <b>ヒント</b>
 
@@ -265,7 +271,7 @@ ht-degree: 2%
 #### 割り当て {#assignments}
 
 1. 上記の説明に従って、問題の編集を開始します。
-1. クリック **割り当て** をクリックします。
+1. クリック **割当て** をクリックします。
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
@@ -287,9 +293,9 @@ ht-degree: 2%
    >非アクティブ化前にユーザー、ジョブの役割、またはチームが割り当てられた場合、そのユーザーは作業項目に割り当てられたままになります。 この場合、次の操作をお勧めします。
    >
    >* 作業項目をアクティブなリソースに再割り当てする。
-   >* 非アクティブなチームのユーザをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
+   >* 非アクティブなチームのユーザーをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
 
-1. （オプション）担当者の名前にマウスポインターを置いて「 **プライマリ**. チームをイシューの主な担当者にすることはできません。
+1. （オプション）担当者の名前にマウスポインターを置き、「 **Makeプライマリ**. チームをイシューの主な担当者にすることはできません。
 1. 次のフィールドを更新します。
 
    <table style="table-layout:auto"> 
@@ -320,7 +326,7 @@ ht-degree: 2%
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. 内 **カスタムフォームを追加** 「 」フィールドで、問題に関連付けるカスタムフォームを選択します。 カスタムフォームをこのフィールドで選択できるようにするには、事前にカスタムフォームを作成する必要があります。 リストには、アクティブなカスタムフォームのみが表示されます。 カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 1 つのイシューに最大 10 個のカスタムフォームを追加できます。
+1. Adobe Analytics の **カスタムフォームを追加** 「 」フィールドで、問題に関連付けるカスタムフォームを選択します。 カスタムフォームをこのフィールドで選択できるようにするには、事前にカスタムフォームを作成する必要があります。 リストには、アクティブなカスタムフォームのみが表示されます。 カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 1 つのイシューに最大 10 個のカスタムフォームを追加できます。
 
 1. （条件付き）問題にカスタムフォームを添付した場合、フォーム上の任意のフィールドを編集します。 イシューを保存する前に、すべての必須フィールドを指定する必要があります。
 
@@ -354,7 +360,7 @@ ht-degree: 2%
        <ul> 
        <li>アクティブな承認プロセスのみがリストに表示されます。 </li> 
        <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。 プロジェクトの承認プロセス以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p>重要：プロジェクトのグループが変更されると、グループ固有の承認プロセスが単一使用の承認プロセスになります。 プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が、割り当てられた承認プロセスに及ぼす影響</a>. </p> </li> 
-       <li> <p>リクエストキューまたはキュートピックを作成する際に問題に自動的に添付されるデフォルトの承認プロセスを定義できます。 キューの詳細の更新については、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>. キュートピックの作成について詳しくは、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">キュートピックを作成</a>. </p> </li> 
+       <li> <p>リクエストキューまたはキュートピックを作成する際に問題に自動的に添付されるデフォルトの承認プロセスを定義できます。 キューの詳細の更新について詳しくは、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>. キュートピックの作成について詳しくは、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">キュートピックを作成</a>. </p> </li> 
        <li>一括編集の問題が発生した場合は、次のシナリオが考えられます。 
        <ul> 
        <li><p>同じグループから複数のイシューを選択する場合、システムレベルの承認プロセスとグループ固有の承認プロセスの両方がこのフィールドに表示されます。</p></li> 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3712'
 ht-degree: 4%
 
 ---
@@ -50,28 +50,33 @@ ht-degree: 4%
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> 
     <ul> 
-     <li> <p>タスクに権限を付与して、タスクの詳細領域でタスクを編集する </p> </li> 
-     <li> <p>タスクに対する権限を管理して、タスクを編集ボックスで編集します</p> </li> 
+     <li> <p>タスクに権限を付与して、タスクの詳細領域で次の情報を編集します。 </p>
+     <ul>
+     <li>説明</li>
+     <li>ステータス</li>
+     </ul>  
+      </li> 
+     <li> <p>タスクに対する権限を管理して、[ 詳細 ] 領域と [ タスクの編集 ] ボックスのすべての情報を編集します</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>プロジェクトに対する権限を投稿するか、それ以上に設定します</p> </li> 
+     <li> <p>プロジェクトに対する権限を投稿するか、それ以上に設定します。</p> </li> 
     </ul> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
-## タスク編集の制限
+## タスクの編集に関する制限
 
 タスクを編集できない場合がある制限がいくつかあります。
 
 タスクを編集する際は、次の点に注意してください。
 
-* タスクトリガーの通知を更新する（現在のステータスのプロジェクトの場合）。 タスクに割り当てられたユーザーが混乱するのを避けるには、プロジェクトのステータスが「現在」の場合に、編集タスクをできるだけ制限します。
+* タスクトリガーの通知を更新する（現在のステータスのプロジェクトの場合）。 タスクに割り当てられたユーザーが混乱するのを避けるには、プロジェクトのステータスが「現在」の場合に、編集タスクをできる限り制限します。
 * 承認プロセス内のタスクは編集できません。 承認プロセスでのタスクのログ時間またはステータスの更新のみ可能です。
 
   ![](assets/edit-task-in-approval-process-nwe-350x148.png)
@@ -82,7 +87,7 @@ ht-degree: 4%
 
    * 時間のログ記録
    * 既存の費用を編集
-   * カスタムフォームを添付
+   * カスタムフォームを添付する
 
 ## リスト内のタスクの編集
 
@@ -100,10 +105,10 @@ ht-degree: 4%
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
 
-1. クリック **プロジェクト**&#x200B;をクリックし、プロジェクト名をクリックして開きます。
+1. クリック **プロジェクト**&#x200B;をクリックし、プロジェクトの名前をクリックして開きます。
 1. クリック **タスク** をクリックします。
 1. 編集するタスクをクリックします。
-1. （条件付き）タスクに関する限定的な情報を編集するには、タスクに Contribute 権限を持つユーザーとして、 **タスクの詳細** をクリックします。
+1. （条件付き）タスクに関する限られた情報を編集するには、 **タスクの詳細** をクリックします。
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -128,11 +133,11 @@ ht-degree: 4%
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
    1. （オプション） **すべて折りたたむ** アイコン ![](assets/collapse-all-icon.png) 右上隅で、すべての領域を折りたたみます。
-   1. （オプションおよび条件付き）領域が折りたたまれている場合、 **右向き矢印** ![](assets/right-pointing-arrow.png) 各領域の横に、編集する領域を展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれている場合、 **右矢印** ![](assets/right-pointing-arrow.png) 各領域の横に、編集する領域を展開します。
    1. 「タスクの詳細」タブでの情報の編集の詳細については、次の記事を参照してください。
 
       * [「タスクの詳細の概要」領域でタスク情報を管理します](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
-      * [[ タスクの詳細 ] セクションでタスクの財務を管理します](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+      * [[ タスクの詳細 ] セクションでタスクの財政状況を管理します](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. （オプション）タスクにカスタムフォームが添付されていない場合は、 **カスタムフォームを追加** フィールドに値を入力し、リストに表示されるタイミングで選択して、 **変更を保存**.
    1. （オプション） **書き出し** アイコン ![](assets/export.png) 概要およびカスタムフォームの情報を書き出すには、PDF・ファイルに **書き出し**. 次の中から選択します。
@@ -147,7 +152,7 @@ ht-degree: 4%
 
       詳しくは、 [カスタムフォームとオブジェクトの詳細のエクスポート](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. （条件付き）タスクに関するすべての情報を編集するには、タスクに対する管理権限を持つユーザーとして、 **詳細** メニュー ![](assets/more-icon.png) タスク名の横にあるをクリックし、 **編集**.
+1. （条件付き）タスクに関するすべての情報を編集するには、タスクに対する管理権限を持つユーザーとして、 **その他** メニュー ![](assets/more-icon.png) タスク名の横にあるをクリックし、 **編集**.
 
    または
 
@@ -246,7 +251,7 @@ ht-degree: 4%
       <li> <p>計画開始日の指定</p> </li> 
       <li> <p><span>指定日以後に開始</span> </p> <p>を指定します。 <strong>計画開始日</strong>. </p> </li> 
       <li> <p> 完了 <span>指定の日まで</span></p> <p>を指定します。 <strong>計画完了日</strong>. </p> </li> 
-      <li> <p> 完了 <span>次の値より前</span></p> <p>を指定します。 <strong>計画完了日</strong></p> </li> 
+      <li> <p> 完了 <span>次の値より前：</span></p> <p>を指定します。 <strong>計画完了日</strong></p> </li> 
        </ul> <p>タスク制約の詳細については、 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスク制約の概要</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -257,9 +262,9 @@ ht-degree: 4%
       <td role="rowheader">計画開始日時</td> 
       <td> <p>タスクを開始する予定の日時。 タスクの計画開始日は、次のような要因によって設定され、影響を受けます。</p> 
        <ul> 
-      <li>タスクの計画開始日に対するシステム全体の優先度に応じて、既定では、プロジェクトの新しいタスクの開始日は今日にすることも、プロジェクトの開始日にすることもできます。 <span>プロジェクトに関連付けられたグループのグループ管理者も、グループに対してこの環境設定を設定できます。</span> システムレベルまたはグループレベルのタスク環境設定の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">システム全体のタスクと問題の環境設定を構成</a>.</li> 
+      <li>タスクの計画開始日に対するシステム全体の優先度に応じて、既定では、プロジェクトの新しいタスクの開始日は今日にすることも、プロジェクトの開始日にすることもできます。 <span>プロジェクトに関連付けられたグループのグループ管理者も、グループに対してこの環境設定を設定できます。</span> システムレベルまたはグループレベルのタスク環境設定の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">システム全体のタスクと問題の環境設定を構成する</a>.</li> 
       <li>タスクの先行タスクに応じて、予定開始日がWorkfrontによって選択され、先行タスクの終了後の次の使用可能な日付、または先行タスクの関係に応じて開始日になります。 先行関係の詳細については、「 <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">タスクの先行タスクの概要</a>.</li> 
-      <li>プロジェクトマネージャまたはタスク所有者は、タスク制約が [ 固定日付 ] または [ 開始日 ] の場合に、計画開始日を手動で設定できます。 タスク制約の詳細については、 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスク制約の概要</a>.</li> 
+      <li>プロジェクトマネージャまたはタスク所有者は、タスク制約が [ 固定日付 ] または [ 開始日 ] の場合に、計画開始日を手動で設定できます。 タスクの制約の詳細については、 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスク制約の概要</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -267,7 +272,7 @@ ht-degree: 4%
       <td> <p>タスクが計画された際に示される、完了予定日。 計画完了日は、次の要因で設定できます。</p> 
        <ul> 
       <li>計画完了日は、タスクの期間を計画開始日に追加することで、計画開始日から計算されます。 プロジェクトマネージャーまたはWorkfrontがタスクの期間を指定すると、計画完了日がトリガーに更新されます。 予定日が変更された場合、多くの場合、の期間が更新されたことが原因です。</li> 
-      <li>プロジェクトマネージャまたはタスク所有者は、タスク制約が [ 固定日付 ] または [ 終了日 ] の場合に、計画完了日を手動で設定できます。 タスク制約の詳細については、 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスク制約の概要</a>.</li> 
+      <li>プロジェクトマネージャまたはタスク所有者は、タスク制約が [ 固定日付 ] または [ 終了日 ] の場合に、計画完了日を手動で設定できます。 タスクの制約の詳細については、 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスク制約の概要</a>.</li> 
       <li>タスクの期間タイプが変更され、タスクのリソース数が同時に変更される場合は、計画完了日も変更されます。 期間のタイプについて詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>.</li> 
        </ul> </td> 
      </tr> 
@@ -314,7 +319,7 @@ ht-degree: 4%
 ### 割り当て {#assignments}
 
 1. 上記の説明に従って、タスクの編集を開始します。
-1. クリック **割り当て** をクリックします。
+1. クリック **割当て** をクリックします。
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
@@ -331,7 +336,7 @@ ht-degree: 4%
    >非アクティブ化前にユーザー、ジョブの役割、またはチームが割り当てられた場合、そのユーザーは作業項目に割り当てられたままになります。 この場合、次の操作をお勧めします。
    >
    >* 作業項目をアクティブなリソースに再割り当てする。
-   >* 非アクティブなチームのユーザをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
+   >* 非アクティブなチームのユーザーをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
 
 1. （オプション）担当者がタスクの主要な担当者かどうかを指定するには、 **所有者** ラジオボタンをクリックします。 チームをタスクの主な担当者にすることはできません。
 1. （条件付きおよびオプション）次のフィールドを更新します。
@@ -479,7 +484,7 @@ ht-degree: 4%
 
    カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)1 つのタスクに最大 10 個のカスタムフォームを追加できます。
 
-1. （条件付き）タスクにカスタムフォームを添付する場合、フォーム上のフィールドを編集します。 タスクを保存する前に、すべての必須フィールドを指定する必要があります。
+1. （条件付き）タスクにカスタムフォームを添付する場合は、フォーム上のフィールドを編集します。 タスクを保存する前に、すべての必須フィールドを指定する必要があります。
 
    >[!NOTE]
    >
@@ -518,12 +523,12 @@ ht-degree: 4%
       <li> <p>ユーザー (毎時) </p> </li> 
       <li> <p>役割 (毎時) </p> </li> 
       <li> <p>固定 (毎時) </p> </li> 
-      <li> <p>ユーザー (毎時) キャップ付き </p> </li> 
+      <li> <p>ユーザー (毎時) W/Cap </p> </li> 
       <li> <p>役割 (毎時) (上限付き) </p> </li> 
       <li> <p>ユーザー (毎時) + 固定 </p> </li> 
       <li> <p>役割 (毎時) + 固定 </p> </li> 
       <li> <p>固定収益 </p> </li> 
-       </ul> <p>売上高の追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と売上高の概要</a> . </p> <p>Workfront管理者またはグループ管理者が、システムまたはグループのタスクのデフォルトの売上高の種類設定を選択します。 プロジェクトの既定値の設定については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p> </td> 
+       </ul> <p>売上高の追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と売上高の概要</a> . </p> <p>Workfront管理者またはグループ管理者が、システムまたはグループのタスクのデフォルトの「売上高の種類」設定を選択します。 プロジェクトの既定値の設定については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -556,11 +561,11 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader">リソースの標準化</td> 
-      <td> <p>を選択します。 <strong>リソースの平準化から除外</strong> フィールドを指定します。</p> </td> 
+      <td> <p>を選択します。 <strong>リソースの平準化から除外</strong> フィールド：タスクに割り当てられたリソースを平準化から除外する場合に使用します。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">標準化の遅延</td> 
-      <td> <p>[ 平準化遅延 ] を時間単位で指定します。 </p> <p> 遅延の平準化の詳細については、 <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">タスクの平準化遅延の更新</a>. </p> </td> 
+      <td> <p>[ 平準化遅延 ] を時間単位で指定します。 </p> <p> 遅延の平準化の詳細については、「 <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">タスクの平準化遅延の更新</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">承認プロセス</td> 
@@ -577,7 +582,7 @@ ht-degree: 4%
 
    </li>
 
-   <li> <p>タスクをプロジェクトに追加する際にタスクに自動的に添付されるデフォルトの承認プロセスを定義できます。 デフォルトのタスク承認プロセスを含むようにプロジェクトを設定する方法については、この記事の「タスク」の節を参照してください <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">プロジェクトを編集</a>. </p> </li>
+   <li> <p>タスクをプロジェクトに追加する際にタスクに自動的に添付されるデフォルトの承認プロセスを定義できます。 デフォルトのタスク承認プロセスを含むようにプロジェクトを設定する方法については、この記事の「タスク」の節を参照してください。 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">プロジェクトを編集</a>. </p> </li>
 
    <li> <p>一括編集タスクでは、次のシナリオが存在します。 </p> 
       <ul> 
