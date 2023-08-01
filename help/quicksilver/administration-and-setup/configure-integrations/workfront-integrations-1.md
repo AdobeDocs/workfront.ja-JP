@@ -9,10 +9,10 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
+source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1061'
+ht-degree: 1%
 
 ---
 
@@ -24,12 +24,12 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
 
 ## 組み込み（ネイティブ）統合
 
-[!DNL Workfront] は、Workfrontアプリケーションから直接、または別のアプリケーションから直接、 [!DNL Workfront] そのアプリのアドインです。
+[!DNL Workfront] は、Workfrontアプリケーションから直接、または別のアプリケーションから直接、または [!DNL Workfront] そのアプリのアドインです。
 
 これらの統合の一部は追加費用なしで利用できますが、他の統合では追加の購入が必要です。
 
 * [組み込み（ネイティブ）統合の概要](#get-started-with-built-in-native-integrations)
-* [追加費用なしで利用できる統合](#integrations-available-at-no-additional-cost)
+* [追加費用なしで利用可能な統合](#integrations-available-at-no-additional-cost)
 * [追加の購入が必要な統合](#integrations-requiring-an-additional-purchase)
 
 ### 組み込み（ネイティブ）統合の概要 {#get-started-with-built-in-native-integrations}
@@ -40,13 +40,13 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
 
    統合を選択する場合、既に定期的に使用しているアプリケーションを選択することが重要です。 統合 [!DNL Workfront] 定期的に、または頻繁に使用されるアプリケーションを使用すると、ユーザー間での採用が増加します。
 
-   使用可能な統合の一覧については、 [追加費用なしで利用できる統合](#integrations-available-at-no-additional-cost) および [追加の購入が必要な統合](#integrations-requiring-an-additional-purchase).
+   使用可能な統合の一覧については、 [追加費用なしで利用可能な統合](#integrations-available-at-no-additional-cost) および [追加の購入が必要な統合](#integrations-requiring-an-additional-purchase).
 
 1. **技術管理者の特定**
 
    統合するアプリケーションの組織の技術管理者を特定します。 [!DNL Workfront]. 例えば、との統合を選択した場合、 [!DNL Jira]を使用している場合は、会社の [!DNL Jira] 管理者で、プラットフォーム内の設定ニーズに関係なくこれらを関与させます。 また、この管理者に連絡して、 [!DNL Workfront] カスタマーサポート。
 
-   管理者が作業を開始するには、その統合に関する具体的な手順をユーザーに提供する必要があります。 これらの手順へのリンクについては、 [追加費用なしで利用できる統合](#integrations-available-at-no-additional-cost).
+   管理者が作業を開始するには、その統合に関する具体的な手順をユーザーに提供する必要があります。 これらの手順へのリンクについては、 [追加費用なしで利用可能な統合](#integrations-available-at-no-additional-cost).
 
 1. **エンゲージ先 [!DNL Workfront] カスタマーサポート**
 
@@ -54,7 +54,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
 
    カスタマーサポートとの連携については、 [カスタマーサポートに連絡](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-   ヘルプ記事へのリンクについては、 [追加費用なしで利用できる統合](#integrations-available-at-no-additional-cost). および [追加の購入が必要な統合](#integrations-requiring-an-additional-purchase).
+   ヘルプ記事へのリンクについては、 [追加費用なしで利用可能な統合](#integrations-available-at-no-additional-cost). および [追加の購入が必要な統合](#integrations-requiring-an-additional-purchase).
 
    サポートケースの作成手順については、 [カスタマーサポートに連絡](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -64,7 +64,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
 
 使用可能な組み込み（ネイティブ）統合は、会社のニーズをすべて満たしていない可能性があることを理解しています。 その場合は、アカウント担当者に連絡して、カスタム統合についてお問い合わせください。
 
-### 追加費用なしで利用できる統合 {#integrations-available-at-no-additional-cost}
+### 追加費用なしで利用可能な統合 {#integrations-available-at-no-additional-cost}
 
 [!DNL Workfront] は、追加費用なしで、次の組み込み統合を提供します。
 
@@ -96,7 +96,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
      <li>After Effects </li>
      </ul>
      <li><p>次の場所からダウンロード/インストール <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe交換</a>.</p></li></ul>
-     <p>詳細および手順については、 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">のインストール  [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ</a></p> 
+     <p>詳しい情報と手順については、 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">をインストールします。  [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -130,7 +130,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
     <ul> 
      <li>[!DNL G Suite] ユーザーが [!DNL Workfront] ライセンス </li> 
      <li>[!DNL Workfront] 表示およびワーク共有の権限は、アクセスレベルごとに設定する必要があります </li> 
-     <li> POP 対応メールアカウント </li> 
+     <li> POP が有効なメールアカウント </li> 
      <li>[!DNL Workfront] 要求設定には POP 設定を含める必要があります </li> 
     </ul> </td> 
    <td> 
@@ -158,12 +158,12 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
     </ul> <p>詳しくは、 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] プラン以上</li> 
+     <li>[!UICONTROL Pro] [!DNL Workfront] plan 以上</li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> 次によるインストールのみ： [!DNL Jira] administrator</li> 
-     <li>非[!DNL Jira] 管理者は、アクセス権を要求し、付与する必要があります [!DNL Jira] administrator</li> 
+     <li>非[!DNL Jira] 管理者は、アクセス権を要求し、付与する必要があります。 [!DNL Jira] administrator</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
     <ul> 
      <li> <p>Web ベースバージョンのとの統合 [!DNL Outlook] クラウドでホストされている [!DNL Office 365] または [!DNL Outlook Live.] </p> </li> 
      <li> <p>のすべてのイベントを表示 [!DNL Outlook] [!UICONTROL ホームカレンダー ] で、カレンダーおよび選択した関連するカレンダー（誕生日と休日のカレンダーなど）。</p> </li> 
-    </ul> <p><b>注意</b>:[!UICONTROL Outlook] の予定表設定は、 [!DNL Outlook] アドイン ([!DNL Outlook] 統合または [!DNL Workfront for Outlook]) をクリックします。 カレンダーの設定に必要なインストールはありません。</p> <p>詳しくは、 <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] ビューの設定</a>.</p> </td> 
+    </ul> <p><b>注意</b>:[!UICONTROL Outlook] のカレンダー設定は、 [!DNL Outlook] アドイン ([!DNL Outlook] 統合または [!DNL Workfront for Outlook]) をクリックします。 カレンダーの設定に必要なインストールはありません。</p> <p>詳しくは、 <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] ビューの設定</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -189,14 +189,14 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>電子メールからの情報で既存のプロジェクト/タスク/イシューを更新 </li> 
+     <li>電子メールからの情報を使用して既存のプロジェクト/タスク/イシューを更新 </li> 
      <li>メールをインボックスからWorkfront項目に変換する </li> 
-     <li>メールから新しいタスクを作成 </li> 
-     <li>コメント [!DNL Workfront] 項目 </li> 
+     <li>E メールから新しいタスクを作成 </li> 
+     <li>コメント対象 [!DNL Workfront] 項目 </li> 
     </ul> <p>詳しくは、 <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Outlook] 2013 年または 2016 年に [!DNL Windows] および [!DNL Outlook] 2016 年に [!DNL Mac] </li> 
+     <li>[!DNL Outlook] 2013 年または 2016 年： [!DNL Windows] および [!DNL Outlook] 2016 年に [!DNL Mac] </li> 
      <li>[!DNL Outlook] ウェブ上では次の条件を満たす必要があります： [!DNL Exchange] 2016 年および [!DNL Office] 365 </li> 
      <li>[!DNL Outlook Web Access] は次の値にする必要があります [!DNL Exchange] 2013 年 </li> 
      <li>への直接接続 [!DNL Exchange] サーバーまたは [!DNL Office 365]</li> 
@@ -234,7 +234,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
     </ul> <p>詳しくは、 <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] プラン以上</li> 
+     <li>[!UICONTROL Pro] [!DNL Workfront] plan 以上</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -247,7 +247,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
    <td> 
     <ul> 
      <li>ドキュメントとフォルダーのリンク先 [!DNL Workfront]</li> 
-    </ul> <p>詳しくは、 <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">の設定 [!DNL SharePoint] 統合</a>.</p> </td> 
+    </ul> <p>詳しくは、 <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">を設定します。 [!DNL SharePoint] 統合</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -287,24 +287,20 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
 
 [!DNL Workfront] を使用すると、他の組み込み統合および統合製品を追加費用で活用できます。 価格の詳細については、アカウント担当者にお問い合わせください。
 
-* [!DNL Workfront DAM]
-
-   詳しくは、 [[!DNL Adobe Workfront DAM] 範囲 [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md).
-
 * [!DNL Workfront Fusion]
 
-   詳しくは、 [[!DNL Adobe Workfront Fusion] 概要](../../workfront-fusion/get-started/workfront-fusion-overview.md).
+  詳しくは、 [[!DNL Adobe Workfront Fusion] 概要](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-   詳しくは、 [設定 [!DNL Workfront] と [!DNL Adobe Experience Manager] レガシーコネクタ](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+  詳しくは、 [Experience Manager AssetsとAssets EssentialsのAdobe Workfront](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 
 ## パートナー統合
 
 [!DNL Workfront] には、 [!DNL Workfront] エクスペリエンス。
 
-既存のパートナー製品の例としては、との統合などがあります。 [!DNL Salesforce.com], [!DNL Oracle Responsys]、および [!DNL Microsoft Visual Studio]. これらの統合や他の魅力的な統合について詳しくは、 [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+既存のパートナー製品の例としては、との統合などがあります。 [!DNL Salesforce.com], [!DNL Oracle Responsys]、および [!DNL Microsoft Visual Studio]. これらの統合や他のエキサイティングな統合について詳しくは、 [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-この [!DNL Workfront] API を使用すると、 [!DNL Workfront] アドビのパブリック API を活用してエクスペリエンスを活用できます。 アドビのオープン API を使用して、独自の統合を作成できます。 詳しくは、 [!DNL Workfront] API( [!DNL Workfront] [API エクスプローラ](../../wf-api/general/api-explorer.md).
+The [!DNL Workfront] API を使用すると、 [!DNL Workfront] アドビのパブリック API を活用してエクスペリエンスを活用できます。 アドビのオープン API を使用して、独自の統合を作成できます。 詳しくは、 [!DNL Workfront] API( [!DNL Workfront] [API エクスプローラ](../../wf-api/general/api-explorer.md).
