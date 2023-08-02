@@ -7,9 +7,9 @@ description: これらのビデオでは、Adobe Workfrontで利用可能な様�
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 1%
 かんばんボードには、タスクと問題をWorkfrontからボードに取り込むためのフィルターを使用して設定された、バックログまたは取り込み列を含めることができます。
 
 [かんばんボードのデモビデオを表示します。](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### 動的なボード
+
+動的ボードを使用すると、Workfrontプロジェクトに基づいて、ボードにカードを自動的に挿入できます。 フィルターを使用すると、カードはステータスに基づいて列に追加されます。
+
+[ダイナミックボードのデモビデオを表示します。](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### モバイルボード
 
