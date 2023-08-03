@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: c6edc9530b2731ecd8ae0cc0feb208049cb16105
+source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,76 @@ ht-degree: 0%
 
 ## Adobe Workfrontの機能強化
 
-* プロジェクトの強化
+* [ボードの機能強化](#boards-enhancements)
+* [プロジェクトの強化](#project-enhancements)
+
+### ボードの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">接続されたカードで表示専用として使用可能なドキュメント</a><span style="color: #ff0000;"> プレビューの新機能</span> </p><p>Adobe Workfrontボードで接続されたカードの場合、画像やPDFなどのドキュメントを表示できるようになりました。 ドキュメントは、ブラウザーでプレビューするか、コンピューターにダウンロードすることができます。 </p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 4 日<br /></p>
+                            </li>
+                            <li>
+                                <p>ボードの先行公開の実稼働：2023 年 8 月 10 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">プロジェクトのボード表示を問題で利用できるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span> </p><p>プロジェクトの問題リストのボードビューにアクセスできるようになりました。 かんばんボードを使用すると、問題の進行状況をリストで表示するよりも視覚的に追跡できます。 </p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 4 日<br /></p>
+                            </li>
+                             <li>
+                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### プロジェクトの強化
 
