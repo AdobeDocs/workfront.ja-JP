@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1603'
 ht-degree: 2%
 
 ---
@@ -19,13 +19,21 @@ ht-degree: 2%
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
 
+## 2023 年第 4 四半期のプレビューと高速リリース {#preview-and-fast-release}
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">現在のリリースについて詳しくは、 [2023 年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
 ## AEC/シェルに適用されないナビゲーション機能に関する重要な注意事項 {#important-not-on-aec}
 
 >[!IMPORTANT]
 >
 >このページで説明する手順は、まだにオンボーディングされていない組織にのみ適用されます。 [!DNL Adobe Experience Cloud].
 >
-> 組織が [!DNL Adobe Experience Cloud]を参照してください。 [[!DNL Adobe Unified Experience] 対象 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> 組織が [!DNL Adobe Experience Cloud]を参照してください。 [[!DNL Adobe Unified Experience] 対象： [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## 手順 1 — メインメニューのみをクリックする {#step1-click-main-menu}
 
@@ -33,7 +41,7 @@ ht-degree: 2%
 
 ## 手順 1 — メインメニューをクリックし、をクリックします。 {#step1-click-mm-then-click}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「
 
 ## 手順 1 — プロフィール画像をクリックする — {#step1-click-profile-pic}
 
@@ -43,12 +51,12 @@ ht-degree: 2%
 
 ## 手順 1 — セットアップの手引き {#step-1-to-setup}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL 設定]** ![設定アイコン](assets/gear-icon-setup.png).
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL 設定]** ![設定アイコン](assets/gear-icon-setup.png).
 
 
 ## 適切なグループをチームに関連付ける {#right-group-team}
 
-適切なグループにカーソルを合わせ、情報アイコンをクリックすると、適切なグループがチームに関連付けられていることを確認できます <img src="assets/info-icon.png"> それがその横に表示されます。 グループの上のグループの階層や管理者の名前など、グループに関する情報が一覧表示されるツールチップが表示されます。
+適切なグループにカーソルを合わせ、情報アイコンをクリックすると、適切なグループがチームに関連付けられていることを確認できます。 <img src="assets/info-icon.png"> それがその横に表示されます。 グループの上のグループの階層や管理者の名前など、グループに関する情報が一覧表示されるツールチップが表示されます。
 
 
 ## Admin Consoleのオンボーディングに関する重要な注意事項 {#important-admin-console-onboard}
@@ -61,14 +69,14 @@ ht-degree: 2%
 
 ## 手順 1 — ユーザーにアクセスする {#step-1-to-users}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL ユーザー]** ![](assets/users-icon-in-main-menu.png).
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ユーザー]** ![](assets/users-icon-in-main-menu.png).
 
 
 <!-- Agile -->
 
 ## 手順 1 — ボードへのアクセス — {#step1-to-boards}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ボード]**.
 
 <!-- Calendars -->
 
@@ -97,7 +105,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 手順 1 — ホームに戻る — {#step1-to-home}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL ホーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ホーム]**.
 
 ## ホームアイコンをクリックします。 {#click-home}
 
@@ -107,7 +115,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 >Workfront管理者が、 [!UICONTROL ホーム] アイコンを次に示します。
 >
 >* 組織を説明するようにカスタマイズされた画像に置き換えます。 この場合、アイコンはこの記事に示すものとは異なります。
->* リンクされたページを別のページに置き換えます。 この場合、 **[!UICONTROL メインメニュー]** ![メインメニュー](assets/main-menu-icon.png) ページの右上隅にある、または（使用可能な場合） **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL ホーム]**.
+>* リンクされたページを別のページに置き換えます。 この場合、 **[!UICONTROL メインメニュー]** ![メインメニュー](assets/main-menu-icon.png) ページの右上隅にある、または（使用可能な場合） **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ホーム]**.
 >
 
 <!-- Integrations -->
@@ -165,7 +173,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
    <li>「新しい受信者を追加」ボックスに、ユーザーの名前を入力します。
 
-   <li>配達確認の役割を指定します。
+   <li>「配達確認の役割」を指定します。
 
    <li>受信者に関する E メールアラートのタイプを選択します。 
       </li>
@@ -224,7 +232,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## モバイル配達確認 — 詳細メニュー {#mobile-proof-more-menu}
 
-1. ドキュメントの配達確認を開き、 **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/mobile-verticalmoremenu-20x33.png) をクリックします。 次に、 **[!UICONTROL 詳細]**.
+1. ドキュメントの配達確認を開き、「 **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/mobile-verticalmoremenu-20x33.png) をクリックします。 次に、 **[!UICONTROL その他]**.
 
 <!-- Notifications -->
 
@@ -234,11 +242,11 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 手順 1 — 校正に進む — {#step1-to-proofing}
 
-1. Workfrontで、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png)または（使用可能な場合）、 **[!UICONTROL メインメニュー]** 左上隅のアイコン ![メインメニュー](assets/main-menu-icon-left-nav.png)を選択し、「 **[!UICONTROL 校正]** Workfront Proof にアクセスする
+1. Workfrontで、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png)または（使用可能な場合）、 **[!UICONTROL メインメニュー]** 左上隅のアイコン ![メインメニュー](assets/main-menu-icon-left-nav.png)を選択し、次に **[!UICONTROL 校正]** Workfront Proof にアクセスする
 
 ## 最新の DPV バージョン {#latest-version}
 
-**最新バージョン**:5/15/2023時点で 2.1.24
+**最新バージョン**:2.1.24(5/15/2023時点 )
 
 <!-- Release -->
 
@@ -258,17 +266,17 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 手順 1 — チームにアクセスする — {#step1-to-team}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL チーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL チーム]**.
 
 ## 1 つ以上のステータスの「完了」ボタン {#configure-done-button}
 
 「完了」ボタンを使用して、作業項目に適用するステータスを変更できます。 また、複数のステータスを設定し、適切なステータスをユーザーが選択できるようにすることもできます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL チーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL チーム]**.
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコンをクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー、次に「 **[!UICONTROL 編集]**.
-1. 次を検索： **[!UICONTROL 完了ボタン]** の一番下のセクション **[!UICONTROL チーム設定]** ページ。
+1. 次をクリック： **[!UICONTROL その他]** メニュー、次に「 **[!UICONTROL 編集]**.
+1. 次を検索： **[!UICONTROL 完了ボタン]** の一番下のセクション **[!UICONTROL チーム設定]** ページに貼り付けます。
 
 1. 各作業項目タイプに対して 1 つ以上のステータスを選択します。
 
@@ -305,10 +313,10 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) をクリックします。
 
 1. クリック **[!UICONTROL ユーザー]**&#x200B;をクリックし、ホームチームに関連付ける 1 人または複数のユーザを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.\
+1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. 内 **[!UICONTROL 組織]** セクションで、 **[!UICONTROL ホームチーム]** フィールドに入力します。 設定をユーザーに関連付けるチームの名前を入力します。 リストにチームの名前が表示されたら、そのチームの名前をクリックします。
+1. Adobe Analytics の **[!UICONTROL 組織]** セクションで、 **[!UICONTROL ホームチーム]** フィールドに入力します。 設定をユーザーに関連付けるチームの名前を入力します。 リストにチームの名前が表示されたら、そのチームの名前をクリックします。
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。選択したユーザがホームチームに関連付けられます。
 これで、「完了」ボタンに関連付けられたステータスを含むチーム設定が、これらのユーザーに対して表示されます。
@@ -319,7 +327,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 手順 1 — 目標の設定 — {#step1-to-goals}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) 画面の右上隅にある、または（使用可能な場合） **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、 **[!UICONTROL 目標]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) 画面の右上隅にある、または（使用可能な場合） **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL 目標]**.
 
    「Workfront目標」領域が開きます。
 

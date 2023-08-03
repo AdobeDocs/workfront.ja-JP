@@ -7,9 +7,9 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,19 @@ ht-degree: 0%
 
 ワークストリームの一部であるボードでは、インテークカラムは使用できません。 代わりに、カードリストからカードを引き込むためのバックログ列を設定できます。 ワークストリーム内のボードへのバックログ列の追加について詳しくは、 [ワークストリームボード上のバックログの設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-取り込みカラムは、300 タスクと 300 問題に制限されます。 項目は、項目に定義された優先度で並べ替えられます。 優先度について詳しくは、 [タスクの優先度を更新](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) および [問題の優先順位を更新](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+取り込みカラムは、300 タスクと 300 問題に制限されます。 取り込み口列の項目のデフォルトの順序は次のとおりです。
 
-列の詳細については、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). 接続されたカードについて詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+タスク:
+
+* プライマリの順序：プロジェクト名
+* セカンダリの順序：作業分類の構造
+
+問題:
+
+* プライマリの順序：プロジェクト名
+* セカンダリの注文：参照番号
+
+列について詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). 接続されたカードについて詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## アクセス要件
 
@@ -64,7 +74,7 @@ ht-degree: 0%
    取り込みカラムは、ボードの左側に追加されます。 フィルターを適用するまで空白のままです。
 
 1. （オプション）を検索して選択します。 [!DNL Workfront] [!UICONTROL **プロジェクト**].
-1. （オプション）ユーザーまたはチームを検索して選択します。 [!UICONTROL **割り当て**].
+1. （オプション）ユーザーまたはチームを検索して選択します。 [!UICONTROL **割当て**].
 1. 選択 [!UICONTROL **完了した作業を含める**] タスクと問題のステータスが「完了」の場合は、インテーク列に表示されます。
 
    >[!NOTE]
@@ -100,7 +110,7 @@ ht-degree: 0%
 
 1. フィルターパネルで、 **[!UICONTROL 新しいフィルター]** をクリックして開始します。
 
-   ![新しいフィルターをクリックします](assets/intake-filter-dialog5.png)
+   ![「新しいフィルター」をクリックします](assets/intake-filter-dialog5.png)
 
 1. フィルターを作成して、 **[!UICONTROL 新規として保存]**.
 
@@ -112,7 +122,7 @@ ht-degree: 0%
 
 1. フィルターに名前を付け、「 **[!UICONTROL 保存]**.
 
-   ![フィルターの名前を入力](assets/intake-filter-dialog7.png)
+   ![フィルターの名前を入力します](assets/intake-filter-dialog7.png)
 
    フィルターに一意の名前を付けると、後で検索できます。
 
@@ -120,7 +130,7 @@ ht-degree: 0%
 
    ![保存済みフィルター](assets/intake-filter-dialog8.png)
 
-1. （オプション）フィルターを他のユーザーと共有するには、保存されているフィルターの上にマウスポインターを置いて、 **[!UICONTROL 詳細]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png)を選択し、 **[!UICONTROL 共有]**. [ フィルタ共有 ] ボックスで、共有するユーザーまたはチームを選択します。 詳しくは、 [フィルター、表示またはグループ化の共有](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. （オプション）フィルターを他のユーザーと共有するには、保存されているフィルターの上にマウスポインターを置いて、 **[!UICONTROL その他]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png)をクリックし、次を選択します。 **[!UICONTROL 共有]**. [ フィルタ共有 ] ボックスで、共有するユーザーまたはチームを選択します。 詳しくは、 [フィルター、表示またはグループ化の共有](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 1. （オプション）取り込み条件の列にタスクと問題の両方を含めるには、 **[!UICONTROL ソースをフィルター]** 別のフィルタを作成するには、他のオブジェクトを選択します。
 1. フィルターの追加が完了したら、取り込みカラムを確認して、正しいタスクと問題が表示されることを確認します。
 
@@ -130,7 +140,7 @@ ht-degree: 0%
    >
    >フィルターは、いつでも更新できます。更新するには、設定パネルを開いて、 **[!UICONTROL ソースをフィルター]**、選択 **[!UICONTROL タスク]** または **[!UICONTROL 問題]**.
 
-## インテーク列を使用
+## インテーク列を使用する
 
 取り込みカラムのカードは、他のボードカラムに移動するまで編集できません。 カードをクリックして読み取り専用ビューで開くか、 ![タスクまたは問題を開く](assets/boards-launch-icon.png) をクリックして、タスクまたはイシューを新しいブラウザータブで開きます。
 
@@ -139,11 +149,11 @@ ht-degree: 0%
 
 インテーク列の右上にあるアイコンは、現在列にあるカードの数と、適用されているフィルターの数を示します。
 
-1. （オプション）取り込み口列で項目を検索するには、 ![検索アイコン](assets/search-icon.png) をクリックします。
+1. （オプション）取り込み口列で項目を検索するには、 ![検索アイコン](assets/search-icon.png) 」と入力します。
 1. （オプション）インテークカラムから別のカラムにカードを移動するには、カードを表示したい位置にドラッグ&amp;ドロップします。
 
    または
 
-   次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 移動]**. 次に、 **[!UICONTROL 項目を移動]** ボックス、別の列を選択し、「 」を選択します。 **[!UICONTROL 移動]**.
+   次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 移動]**. 次に、 **[!UICONTROL 項目を移動]** ボックス、別の列を選択し、「 」を選択します。 **[!UICONTROL 移動]**.
 
-1. （オプション）取り込み口列を削除するには、 **[!UICONTROL 詳細]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 削除]**.
+1. （オプション）取り込み口列を削除するには、 **[!UICONTROL その他]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 削除]**.

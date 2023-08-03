@@ -6,14 +6,16 @@ description: 必要なプラン、ライセンスの種類、およびAdobe Work
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
 
 # アジャイルビューでのプロジェクト管理
+
+{{preview-and-fast-release}}
 
 <!--
 Required plans, license types, and access
@@ -40,7 +42,7 @@ Required plans, license types, and access
 
 一般的にアジャイルプラクティスに伴う管理上の課題（チームバックログの管理や反復の作成など）がなくても、プロジェクトにアジャイル機能を活用できます。
 
-チームバックログを使用し、バックログ上のタスクから反復を作成できるアジャイル環境で作業する場合は、 [機敏な環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+チームバックログを使用し、バックログ上のタスクから反復を作成できるアジャイル環境で作業する場合は、「 [機敏な環境での作業](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## アクセス要件
 
@@ -65,16 +67,16 @@ Required plans, license types, and access
      <li> <p>プロジェクト</p> </li> 
      <li> <p>レポート、ダッシュボード、カレンダー</p> </li> 
      <li> <p>フィルター、表示、グループ化</p> </li> 
-    </ul> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+    </ul> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>プロジェクトに対する権限を表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## アジャイルプロジェクトについて
 
@@ -82,10 +84,10 @@ Required plans, license types, and access
 >
 >この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
-* [プロジェクトのアジャイル機能](#agile-functionality-in-a-project)
+* [プロジェクト内のアジャイル機能](#agile-functionality-in-a-project)
 * [プロジェクトでアジャイルビューを使用する場合と反復で使用する場合の違い](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
 
-### プロジェクトのアジャイル機能 {#agile-functionality-in-a-project}
+### プロジェクト内のアジャイル機能 {#agile-functionality-in-a-project}
 
 アジャイルビューでプロジェクトを管理する場合は、次のアジャイル機能を使用できます。
 
@@ -109,14 +111,14 @@ Required plans, license types, and access
 #### タスクとサブタスクは、ストーリーボード上の様々な表示ルールに従います {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
 * 親タスクもサブタスクも持たないタスクは、常にストーリーボード上に単一ストーリーカードとして表示されます。\
-  たとえば、これらのタスクは、プロジェクトの一覧表示で次のように表示されます。
+  たとえば、これらのタスクは、プロジェクトの一覧表示では次のように表示されます。
 
   ![アジャイルプロジェクトリスト — 親タスクまたはサブタスクのないタスク](assets/agile-project-single-list-nwe.png) これらのタスクは、プロジェクトのアジャイルビューでは次のように表示されます。
 
   ![プロジェクトのアジャイルビュー — 親タスクまたはサブタスクのないタスク](assets/agile-project-singlecard-nwe.png)
 
 * サブタスクを持つ親タスクは、常に **ストーリー** ストーリーボードの列。 サブタスクは、親タスクのスイムレーンに表示されます。\
-  たとえば、これらのタスクは、プロジェクトの一覧表示で次のように表示されます。
+  たとえば、これらのタスクは、プロジェクトの一覧表示では次のように表示されます。
 
   ![俊敏なプロジェクトリスト — 親とサブタスクを含むタスク](assets/agile-project-parent-list-nwe.png)\
   これらのタスクは、プロジェクトのアジャイルビューでは次のように表示されます。
@@ -135,7 +137,7 @@ Required plans, license types, and access
 
 #### タスクの順序はアジャイルビューで維持され、順序を変更できません {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
 
-プロジェクトをアジャイルストーリーボードで表示するとき、プロジェクト内でのタスクの表示順序が維持されます。
+プロジェクトをアジャイルストーリーボードで表示するとき、プロジェクト内でのタスクの表示順序は維持されます。
 
 プロジェクトをアジャイルビューで表示する場合、プロジェクト内のタスクを並べ替えることはできません。 タスクの順序を変更すると、依存関係を持つ他のタスクに影響を与える可能性があるので、タスクの順序を変更するには、標準ビューでプロジェクトを表示する必要があります。
 
@@ -143,7 +145,7 @@ Required plans, license types, and access
 
 プロジェクト上のタスクは、常に計画時間数で測定されます。
 
-反復では、タスク（ストーリー）を時間単位またはポイント単位で測定できます。
+繰り返しでは、タスク（ストーリー）を時間単位またはポイント単位で測定できます。
 
 #### アジャイルチームは使用されていません {#the-agile-team-is-not-used}
 
@@ -161,7 +163,7 @@ Required plans, license types, and access
 
 ## アジャイルビューでのプロジェクトの表示
 
-1. アジャイルビューで表示するプロジェクトに移動します。
+1. アジャイルビューで表示するプロジェクトに移動します（タスクリストのいずれか） <span class="preview">または問題リスト</span>.
 1. 次をクリック： **ボード** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png).
 
    プロジェクトのボードビューは、デフォルトで表示されます。
@@ -180,7 +182,7 @@ Required plans, license types, and access
 
    次をクリック： **表示** ドロップダウンメニューから、表示するカスタムアジャイルビューをクリックします。
 
-   カスタムアジャイルビューは、次に **アジャイル** アイコン
+   カスタムアジャイルビューは、次に **アジャイル** アイコン。
 
    新しいアジャイルビューの作成方法について詳しくは、 [アジャイルビューの作成とカスタマイズ](#create-and-customize-agile-views).
 
@@ -192,7 +194,7 @@ Required plans, license types, and access
 
    アジャイルビューにステータスを追加するには、記事の「アジャイルビューの作成またはカスタマイズ」の節に従って、新しいアジャイルビューを作成するか、既存のアジャイルビューをカスタマイズします [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. （オプション）リスト表示に戻るには、 **リスト** アイコン
+1. （オプション）リスト表示に戻るには、 **リスト** アイコン。
 
 ## アジャイルビューの作成とカスタマイズ {#create-and-customize-agile-views}
 
@@ -202,7 +204,7 @@ Required plans, license types, and access
 
 Workfrontの標準ビューと同様に、既存のアジャイルビューをカスタマイズしたり、新しいアジャイルビューをゼロから作成したりできます。 標準ビューとは異なり、既存のアジャイルビューに基づいて新しいアジャイルビューを作成することはできません。
 
-アジャイルビューの作成とカスタマイズについて詳しくは、この記事の「アジャイルビューの作成またはカスタマイズ」の節を参照してください [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+アジャイルビューの作成とカスタマイズの詳細については、この記事の「アジャイルビューの作成またはカスタマイズ」の節を参照してください。 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## 既存のアジャイルビューの共有
 
@@ -218,4 +220,4 @@ Workfrontの標準ビューと同様に、既存のアジャイルビューを�
 >
 >この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
-ビューの削除方法について詳しくは、この記事の「ビューの削除」の節を参照してください [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+ビューの削除方法について詳しくは、この記事の「ビューの削除」の節を参照してください。 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

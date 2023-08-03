@@ -6,16 +6,18 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: c063bd9505a785ea738d07e082328871245216f2
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
 
 # ボードでの接続済みカードの使用
 
-ボードに、 [!DNL Workfront].
+{{preview-and-fast-release}}
+
+既存のタスクとイシューに関連するカードをボードに追加できます。 [!DNL Workfront].
 
 ある場所のカードについて、次のいずれかの詳細が更新されると、別の場所で自動的に更新されます。
 
@@ -48,7 +50,7 @@ ht-degree: 0%
    <td><p>[!UICONTROL 表示 ] 以降のタスクおよび問題へのアクセス権</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>オブジェクト権限</strong></td>
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td>
    <td><p>Workfrontタスクまたはイシューに対する [!UICONTROL 表示 ] 以上の権限</p></td>
   </tr>
  </tbody> 
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **[!UICONTROL ボード]**.
 1. ボードにアクセスします。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
-1. クリック **[!UICONTROL カードを追加] > [!UICONTROL 接続されたカード]**.
+1. クリック **[!UICONTROL カードを追加] > [!UICONTROL 接続済みカード]**.
 1. プロジェクトを選択し、ボードにカードとして追加するタスクまたはイシューを選択します。
 
    複数のオブジェクトを選択でき、すべてが個別のカードとして追加されます。
@@ -72,13 +74,13 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL 追加]**.
 
-   ![接続するタスクまたはイシューを検索](assets/boards-tasksissues-350x94.png)
+   ![接続するタスクまたはイシューを検索します](assets/boards-tasksissues-350x94.png)
 
    カードが一番左の列の下に追加されます。 接続された [!DNL Workfront] オブジェクトとその割り当て先がカードに表示されます。
 
    >[!NOTE]
    >
-   >担当者が [!DNL Workfront] タスクまたはイシューは、ボード上のメンバーではないので、カードに割り当てられません。
+   >割り当て先が [!DNL Workfront] タスクまたはイシューは、ボード上のメンバーではないので、カードに割り当てられません。
 
    ![接続されているカード](assets/boards-connected-card-first-added.png)
 
@@ -87,15 +89,15 @@ ht-degree: 0%
 
    または
 
-   次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 編集]**.
+   次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 編集]**.
 
-1. 内 **[!UICONTROL カードの詳細]** ボックスで、次の情報を追加または更新します。
+1. Adobe Analytics の **[!UICONTROL カードの詳細]** ボックスで、次の情報を追加または更新します。
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 名前 ]</strong></td> 
-      <td>名前を変更すると、接続された [!DNL Workfront] オブジェクト。</td> 
+      <td>名前を変更すると、接続されたの名前も変更されます [!DNL Workfront] オブジェクト。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL 説明 ]</strong></td> 
@@ -137,7 +139,12 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL チェックリスト ]</strong> </td> 
-      <td> <p>クリック <strong>[!UICONTROL チェックリスト項目を追加 ]</strong>. 次に、項目のタイトルを入力し、Enter キーを押します。 別の項目が自動的に追加されます。 引き続きタイトルを入力して、さらに項目を追加します。</p> <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目の詳細については、 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目を管理</a>.</p></td>
+      <td> <p>クリック <strong>[!UICONTROL チェックリスト項目を追加 ]</strong>. 次に、項目のタイトルを入力し、Enter キーを押します。 別の項目が自動的に追加されます。 引き続きタイトルを入力して、さらに項目を追加します。</p> <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目の詳細については、「 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目を管理</a>.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL ドキュメント ]</strong></span></td>
+      <td><span class="preview"><p>ドキュメントのサムネールの上にマウスポインターを置いて、 <strong>プレビュー</strong> ファイルをブラウザーに表示するには、または <strong>ダウンロード</strong> をクリックして、ファイルをコンピューターにダウンロードします。</p></span>
+      <span class="preview"><p><strong>注意：</strong> この時点で、ドキュメントを接続されたカードで使用できるようにするには、Workfrontタスクにドキュメントをアップロードする必要があります。</p></span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 時間 ]</strong></td>
@@ -145,12 +152,12 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL コメント ]</strong></td>
-      <td><p>をクリックします。 <strong>[!UICONTROL 新しいコメント ]</strong> フィールドに入力し、コメントを入力します。 書式設定ツールを使用してテキストの書式を設定し、 <strong>添付ファイルを追加</strong> アイコン <img src="assets/attachment-icon.png" alt="添付ファイルアイコン"> をクリックして、コメントにファイルを添付します。 個人またはチームにタグを付けるには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。 接続されたカードのタグ付きユーザーは、電子メール通知を受信します。</p><p>クリック <strong>[!UICONTROL 送信 ]</strong> をクリックして、コメントをカードに追加します。</p>
+      <td><p>をクリックします。 <strong>[!UICONTROL 新しいコメント ]</strong> フィールドに入力し、コメントを入力します。 書式設定ツールを使用してテキストの書式を設定し、 <strong>添付ファイルを追加</strong> アイコン <img src="assets/attachment-icon.png" alt="添付ファイルアイコン"> をクリックして、コメントにファイルを添付します。 個人またはチームにタグを付けるには、コメント領域の下部にある検索ボックスを使用します。 ユーザーは、ボード上のメンバーである必要はありません。 接続されたカードのタグ付きユーザーは、電子メール通知を受け取ります。</p><p>クリック <strong>[!UICONTROL 送信 ]</strong> をクリックして、コメントをカードに追加します。</p>
       <p><strong>注意：</strong> カードのコメント領域では、新しいAdobe Workfrontのコメント機能が使用されます。 詳しくは、 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業を更新</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL システムアクティビティ ]</strong></td> 
-      <td><p>次の場合： <strong>システムアクティビティ</strong> をカードセクションとして有効にすると、この領域にアクティビティが表示されます。</p> <p>詳しくは、 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">カードに表示するフィールドのカスタマイズ</a> および <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">システムで追跡された更新</a>.</p></td>
+      <td><p>次の条件を満たしている場合： <strong>システムアクティビティ</strong> をカードセクションとして有効にすると、この領域にアクティビティが表示されます。</p> <p>詳しくは、 <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">カードに表示するフィールドのカスタマイズ</a> および <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">システムで追跡された更新</a>.</p></td>
      </tr>     
     </tbody> 
    </table>
@@ -169,14 +176,14 @@ ht-degree: 0%
 ボードレベルで切断するには：
 
 1. ボードにアクセスします。
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) 接続されたカードで、を選択します。 **[!UICONTROL 切断]**.
-1. クリック **[!UICONTROL 切断]** をクリックします。
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) 接続されたカードで、を選択します。 **[!UICONTROL 連携解除]**.
+1. クリック **[!UICONTROL 連携解除]** をクリックします。
 
 カードレベルで切断するには：
 
 1. ボードにアクセスし、接続されたカードを開きます。
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) カードの詳細の「接続」領域で、「 」を選択します。 **[!UICONTROL 切断]**.
-1. クリック **[!UICONTROL 切断]** をクリックします。
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) カードの詳細の「接続」領域で、「 」を選択します。 **[!UICONTROL 連携解除]**.
+1. クリック **[!UICONTROL 連携解除]** をクリックします。
 
 ## アドホックカードを接続済みカードに変換する
 
@@ -184,14 +191,14 @@ ht-degree: 0%
 
 1. ボードにアクセスし、アドホックカードを開きます。
 1. カードの名前と説明を確認します。 これらは、 [!DNL Workfront].
-1. 内 [!UICONTROL 接続] カードの詳細の領域で、 **[!UICONTROL Workfrontとの接続]**.
-1. の [!UICONTROL カードを接続] ウィンドウで、タスクを作成するかイシューを作成するかを選択します。
+1. Adobe Analytics の [!UICONTROL 接続] カードの詳細の領域で、 **[!UICONTROL Workfrontとの接続]**.
+1. 次の日： [!UICONTROL カードを接続] ウィンドウで、タスクを作成するかイシューを作成するかを選択します。
 1. タスクまたはイシューを追加するプロジェクトを検索して選択します。
 
    >[!NOTE]
    >
    >* サーチ結果には、自分が権限を持っているオブジェクトのみが表示されます。
-   >* 次の条件でフィルターする場合： **[!UICONTROL 自分が所有するプロジェクト]** または **[!UICONTROL 自分がいるプロジェクト]**、 [!UICONTROL 完了], [!UICONTROL Dead]または [!UICONTROL 却下] ステータスが含まれていません。 これらのプロジェクトは、引き続き **[!UICONTROL すべて]** フィルター。
+   >* 次の条件でフィルターする場合： **[!UICONTROL 自分が所有するプロジェクト]** または **[!UICONTROL 自分がいるプロジェクト]**、に等しいプロジェクト [!UICONTROL 完了], [!UICONTROL Dead]または [!UICONTROL 却下] ステータスが含まれていません。 これらのプロジェクトは、引き続き **[!UICONTROL すべて]** フィルター。
 
 1. クリック **[!UICONTROL 接続]**.
 
@@ -205,15 +212,15 @@ ht-degree: 0%
 
 接続されたタスクまたは問題に関する時間を記録するには、適切な権限が必要です。
 
-デフォルトでは、接続されたカードにタイムログフィールドが表示されません。 有効にする必要があります [!UICONTROL **時間**] 内 [!UICONTROL 設定] 下の領域 [!UICONTROL カード]. 詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+デフォルトでは、接続されたカードにタイムログフィールドが表示されません。 有効にする必要があります [!UICONTROL **時間**] （内） [!UICONTROL 設定] 下の領域 [!UICONTROL カード]. 詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. タスクまたはタスクの発行時間数を入力します。
 1. を選択します。 [!UICONTROL 時間タイプ] デフォルトと異なる場合は、ドロップダウンメニューから。
 1. クリック [!UICONTROL **ログ時間**].
 
-   ![カードに記録する時間](assets/log-hours-on-card.png)
+   ![カードに記録する時間数](assets/log-hours-on-card.png)
 
    カードに記録された時間は、接続されたタスクまたはイシューにも保存されます。
 
-カードのログ記録時間は、タスクまたは問題のログ記録時間と同じです。 詳細については、この記事の「プロジェクト、タスク、または問題に対するログの記録」を参照してください [ログ時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+カードのログ記録時間は、タスクまたは問題のログ記録時間と同じです。 詳細については、この記事の「プロジェクト、タスク、または問題に対するログの記録」を参照してください。 [ログ時間](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
