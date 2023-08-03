@@ -6,7 +6,7 @@ description: 必要なプラン、ライセンスの種類、およびAdobe Work
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Required plans, license types, and access
 
 ## アジャイルビューでのプロジェクトの表示
 
-1. アジャイルビューで表示するプロジェクトに移動します（タスクリストのいずれか） <span class="preview">または問題リスト</span>.
+1. <span class="preview">タスクリストまたはイシューリストのアジャイルビューで表示するプロジェクトに移動します。</span>
 1. 次をクリック： **ボード** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png).
 
    プロジェクトのボードビューは、デフォルトで表示されます。
