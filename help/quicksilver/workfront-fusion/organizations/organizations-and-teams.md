@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion の組織とチームの機能により、�
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1133'
 ht-degree: 1%
 
 ---
@@ -36,15 +36,15 @@ ht-degree: 1%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -74,17 +74,17 @@ ht-degree: 1%
 
 組織内のユーザーの役割は次のいずれかです。
 
-* **[!UICONTROL 所有者]**:所有者には、組織で使用できるすべての権限があります。
-* **[!UICONTROL 管理者]**:管理者の役割を使用すると、ユーザーは組織のチームやユーザーを作成および管理できます。
-* **[!UICONTROL メンバー]**:メンバーは [!DNL Workfront Fusion] ただし、組織の変更を行うことはできません。
-* **[!UICONTROL 会計士]**:会計士の役割を持つユーザーは、組織のダッシュボードでライセンス情報を表示することのみ可能です。
-* **[!UICONTROL アプリ開発者]**:この役割の機能は現在ご利用いただけません。近い将来にご利用いただける予定です。 現時点では、この役割にユーザーを割り当てることはお勧めしません。
+* **[!UICONTROL 所有者]**：所有者は、組織で使用可能なすべての権限を持っています。
+* **[!UICONTROL 管理者]**：管理者の役割は、ユーザーが組織のチームやユーザーを作成および管理できるようにします。
+* **[!UICONTROL メンバー]**：メンバーは [!DNL Workfront Fusion] ただし、組織の変更を行うことはできません。
+* **[!UICONTROL 会計士]**：会計士の役割を持つユーザーは、組織のダッシュボードでライセンス情報を表示することのみ可能です。
+* **[!UICONTROL アプリ開発者]**：この役割の機能は現在使用できません。近い将来に使用可能になる予定です。 現時点では、この役割にユーザーを割り当てることはお勧めしません。
 
 ### 組織へのユーザーの招待
 
 デフォルトでは、組織の所有者（または承認済みユーザー）は、別のユーザーを組織に招待できます。
 
-ユーザーを組織に招待するには：
+ユーザーを組織に招待するには、次の手順に従います。
 
 1. クリック **[!UICONTROL 詳細を変更]** をクリックします。
 1. 選択 **[!UICONTROL 新しいユーザーの招待]**.
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 受信者が「 」ボタンをクリックすると、招待ページにリダイレクトされ、招待を受け入れることができます。
 
-招待は 1 日で失効します。
+招待は 1 日で期限が切れます。
 
 >[!NOTE]
 >
@@ -141,11 +141,13 @@ Fusion では、複数の組織に属している場合があります。 リソ
 
 ユーザーは、各チームで次の役割のいずれかを持ちます。
 
-* **[!UICONTROL チーム管理者]**:管理者ロールでは、他のチームロールの機能に加えて、チームメンバーのロールの追加、削除、変更を行うことができます。
-* **[!UICONTROL チームメンバー]**:チームメンバーの役割を使用すると、シナリオを作成および実行できます。
-* **[!UICONTROL チーム監視]**:この [!UICONTROL 監視] 役割を使用すると、シナリオの実行情報にアクセスできますが、シナリオを設計したり、「アクティブ」ステータスを変更したりすることはできません。
-* **[!UICONTROL チームオペレーター]**:この [!UICONTROL 演算子] 役割を使用すると、ユーザーは実行データを表示し、シナリオの「アクティブ」ステータスを変更できます。
-* **[!UICONTROL チーム制限メンバー]**:この役割の機能は現在ご利用いただけません。近い将来にご利用いただける予定です。 現時点では、この役割にユーザーを割り当てることはお勧めしません。
+* **[!UICONTROL チーム管理者]**：管理者の役割は、他のチームロールの機能に加え、チームメンバーの役割の追加、削除、変更をユーザーに許可します。
+* **[!UICONTROL チームメンバー]**：チームメンバーの役割を使用すると、シナリオを作成および実行できます。
+* **[!UICONTROL チーム監視]**: [!UICONTROL 監視] 役割を使用すると、シナリオの実行情報にアクセスできますが、シナリオを設計したり、「アクティブ」ステータスを変更したりすることはできません。
+* **[!UICONTROL チームオペレーター]**: [!UICONTROL 演算子] 役割を使用すると、ユーザーは実行データを表示し、シナリオの「アクティブ」ステータスを変更できます。
+* **[!UICONTROL チーム制限メンバー]**：この役割の機能は現在使用できません。近い将来に使用可能になる予定です。 現時点では、この役割にユーザーを割り当てることはお勧めしません。
+
+チームの役割で使用できる特定のタスクの詳細については、[組織とチームの役割](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### チーム管理
 
@@ -169,7 +171,7 @@ Fusion では、複数の組織に属している場合があります。 リソ
 
 1. 左側のナビゲーションパネルで、 **[!UICONTROL チーム]**
 1. を選択します。 **[!UICONTROL 通知オプション]** タブをクリックします。
-1. チームが受信する通知を有効にします。
+1. チームが受け取る通知を有効にします。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -185,7 +187,7 @@ Fusion では、複数の組織に属している場合があります。 リソ
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL シナリオの非アクティブ化 ]</p> </td> 
-      <td><p>シナリオが非アクティブ化されると、電子メールを受信します。</p><p><b>注意：</b> シナリオの非アクティブ化についての通知は、エラーが原因でシナリオが自動的に非アクティブ化された場合にのみ表示されます。 手動で非アクティブ化されたシナリオに関する通知は受け取りません。</p><p>場合によっては、 [!DNL Workfront Fusion] エンジニアリングチームに問題が発生しています。 この場合、 [!DNL Workfront Fusion]. </p></td>
+      <td><p>シナリオが非アクティブ化されると、電子メールを受信します。</p><p><b>注意：</b> シナリオの非アクティブ化についての通知は、エラーが原因でシナリオが自動的に非アクティブ化された場合にのみ表示されます。 手動で非アクティブ化されたシナリオに関する通知は受け取りません。</p><p>場合によっては、 [!DNL Workfront Fusion] エンジニアリングチームに問題が発生しているのは、このシナリオがパフォーマンスやその他の問題を引き起こしているからです。 この場合、 [!DNL Workfront Fusion]. </p></td>
 
 </tr>
 </tbody>
