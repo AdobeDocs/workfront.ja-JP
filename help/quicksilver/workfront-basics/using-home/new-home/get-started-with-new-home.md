@@ -5,10 +5,10 @@ title: Adobe Workfrontの新しいホームを開始する
 description: 新しいホームは、作業を管理するための強力な新機能です。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ New Home は、高度にカスタマイズ可能に設計され、最も重要�
 * **To Do**\
     この独自のウィジェットを使用すると、自由に編集できる個人用チェックリストにテキスト項目を追加できます。
 
-デフォルトでは、ホームページには、ライセンスの種類に基づいて、いくつかの特定のウィジェットが入力されます。 次の表に、各ライセンスタイプのユーザーが最初に新規ホームに移動したときに表示されるウィジェットの概要を示します。
+  >[!NOTE]
+  >
+  >TODO ウィジェットで TODO を作成するには、タスクを作成する権限が必要です。
 
-| **レガシーライセンスの種類** | **デフォルトのウィジェット** | **現在のライセンスの種類** | **デフォルトのウィジェット** |
-|---|---|---|---|
-| 計画 | マイプロジェクト、メンション、To-Do | 標準 | 自分のプロジェクト、自分の仕事、メンション、To-Do |
-| 作業 | 自分の仕事、メンション、To-Do | ライト | 私の仕事、私の承認待ち、To-Do |
-| 確認 | 自分の仕事、メンション、To-Do | コントリビューター | 自分の仕事、メンション、To-Do |
-| 制限あり | マイプロジェクト、承認待ち、To-Do | 外部 | 承認待ち、To-Do |
-| コントリビューター | 自分の仕事、メンション、To-Do |  |  |
-| 外部 | 承認待ち、To-Do |  |  |
+デフォルトでは、ホームページには、ライセンスの種類に基づいて、いくつかの特定のウィジェットが入力されます。 次の表は、各ライセンスタイプのユーザーが最初に新規ホームに移動したときに表示されるウィジェットの概要を示しています。
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>現在のライセンスの種類</b></td>
+        <td><b>デフォルトのウィジェット</b></td>
+    </tr>
+    <tr>
+        <td>標準</td>
+        <td>自分のプロジェクト、自分の仕事、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>ライト</td>
+        <td>私の仕事、私の承認待ち、To-Do</td>
+    </tr>
+    <tr>
+        <td>コントリビューター</td>
+        <td>自分の仕事、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>外部</td>
+        <td>承認待ち、To-Do</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>レガシーライセンスの種類</b></td>
+        <td><b>デフォルトのウィジェット</b></td>
+    </tr>
+    <tr>
+        <td>計画</td>
+        <td>マイプロジェクト、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>作業</td>
+        <td>自分の仕事、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>確認</td>
+        <td>自分の仕事、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>制限あり</td>
+        <td>マイプロジェクト、承認待ち、To-Do</td>
+    </tr>
+    <tr>
+        <td>コントリビューター</td>
+        <td>自分の仕事、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>外部</td>
+        <td>承認待ち、To-Do</td>
+    </tr>
+</table>
 
 ウィジェットの追加、移動、サイズ変更、削除について詳しくは、 [新しいホームでウィジェットを追加、編集、または削除する](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
