@@ -3,16 +3,16 @@ title: 23.3 金融管理の強化
 description: 23.3 金融管理の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # 23.3 金融管理の強化
 
-このページでは、23.3 リリースで行われた Financial Management のすべての機能強化について説明します。 これらの機能強化は、2023 年 7 月 20 日および 21 日の 23.3 リリースで公開されました。
+このページでは、23.3 リリースで行われた Financial Management のすべての機能強化について説明します。
 
 23.3 リリースサイクルのこの時点で使用可能なすべての変更点のリストについては、 [23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
