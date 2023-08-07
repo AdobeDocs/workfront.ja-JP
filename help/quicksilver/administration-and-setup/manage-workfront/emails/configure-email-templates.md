@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -47,38 +47,43 @@ E メールテンプレートがない場合、リマインダー通知は空の
  </tbody> 
 </table>
 
-## 新しい電子メールテンプレートを作成 {#create-a-new-email-template}
+## 新しい電子メールテンプレートを作成します {#create-a-new-email-template}
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
 
-1. 左側のパネルで、 **電子メール** > **通知**.
+1. 左側のパネルで、 **電子メール** > **通知**> **メールテンプレート**.
 
-1. 次をクリック： **メールテンプレート** 「 」タブで、「 **新規メールテンプレート**.
+<!--hidden for tab redesign - August 2023: 
+  ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+  -->
 
-1. 内 **新規メールテンプレート** 表示されるボックスで、次の情報を指定します。
+1. クリック **新規メールテンプレート**.
+
+1. Adobe Analytics の **新規メールテンプレート** 表示されるボックスで、次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">メールテンプレート</td> 
+      <td role="rowheader">名前</td> 
       <td>E メールテンプレートのタイトル（必須）。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">説明</td> 
-      <td>テンプレートの説明。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">オブジェクトタイプ</td> 
       <td>テンプレートを関連付けるオブジェクトタイプを指定します（必須、デフォルトでは「問題」に設定されます）。</td> 
-     </tr> 
+     </tr>
      <tr> 
+      <td role="rowheader">説明</td> 
+      <td>テンプレートの説明。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">件名 </td> 
       <td>電子メールメッセージの送信時に表示される件名（必須）。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
+      <td role="rowheader">本文 </td> 
       <td> <p>E メールメッセージの送信時に表示されるコンテンツ。</p> <p>E メールコンテンツにHTMLの書式を使用できます。詳しくは、 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">E メールHTMLにテンプレートの書式を追加する</a> 」を参照してください。</p> </td> 
      </tr> 
     </tbody> 
@@ -89,13 +94,13 @@ E メールテンプレートがない場合、リマインダー通知は空の
 ## E メールHTMLにテンプレートの書式を追加する {#add-html-formatting-to-an-email-template}
 
 E メールテンプレートにHTMLタグを追加して、カスタム通知を作成できます。\
-電子メールテンプレートの作成を開始します ( [新しい電子メールテンプレートを作成](#create-a-new-email-template).
+電子メールテンプレートの作成を開始します。詳しくは、 [新しい電子メールテンプレートを作成します](#create-a-new-email-template).
 
 HTMLのフォーマットを使用すると、次の節で示すように、E メールテンプレートをエンリッチメントできます。
 
 * [Workfrontオブジェクトへのリンク](#link-to-workfront-objects)
 * [HTMLを使用したカスタムフィールドへのリンク](#link-to-custom-fields-with-html)
-* [HTMLメールの例](#html-email-examples)
+* [HTMLE メールの例](#html-email-examples)
 
 ### Workfrontオブジェクトへのリンク {#link-to-workfront-objects}
 
@@ -127,13 +132,13 @@ Workfrontフィールドへのリンクは、 `$$` ワイルドカードを使�
 
 <!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-* レポートのテキストモードビュー内にある「valuefield」値を使用します。 テキストモードの値の詳細については、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* レポートのテキストモードビュー内にある「valuefield」値を使用します。 テキストモードの値について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   「heading」値は、E メール本文に表示するオブジェクトの名前にすることができます。
+  「heading」値は、E メール本文に表示するオブジェクトの名前にすることができます。
 
 ### HTMLを使用したカスタムフィールドへのリンク {#link-to-custom-fields-with-html}
 
-ユーザーおよびカスタムフィールドへのリンクは、 **$$** ワイルドカードを使用して、e メールジェネレーターに対し、オブジェクトに関連付けられたデータベースから値を探すように指示します。 データベース属性参照のどちら側にも存在する必要があります。
+ユーザーおよびカスタムフィールドへのリンクを含めるには、 **$$** ワイルドカードを使用して、e メールジェネレーターに対し、オブジェクトに関連付けられたデータベースから値を探すように指示します。 データベース属性参照のどちら側にも存在する必要があります。
 
 例えば、次のテキストをHTMLとして追加すると、割り当てられたユーザーの名がタスクに関連付けられたリマインダー通知に追加されます。
 
@@ -179,7 +184,7 @@ Workfrontフィールドへのリンクは、 `$$` ワイルドカードを使�
 >
 >`DE:Project:Delivery Date`
 
-### HTMLメールの例 {#html-email-examples}
+### HTMLE メールの例 {#html-email-examples}
 
 * [遅延プロジェクトのリマインダー通知（例）](#late-project-reminder-notification-example)
 * [Task または Issue About to Start リマインダー（例）](#task-or-issue-about-to-start-reminder-example)

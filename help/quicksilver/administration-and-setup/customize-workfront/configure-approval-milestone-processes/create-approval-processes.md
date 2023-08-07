@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 ---
 
 # 作業項目の承認プロセスの作成
+
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
 ユーザーが作業項目（プロジェクト、タスク、タスク、イシュー、テンプレート、またはテンプレートタスク）、ドキュメント、または配達確認に添付できる承認プロセスを作成できます。 承認プロセスを実行すると、オブジェクトに指定された担当者が、システム内のオブジェクトが進行する前に、特定の変更を確認するようになります。
 
@@ -34,7 +36,7 @@ ht-degree: 1%
 >
 >グループレベルでは、グローバル承認プロセスは、そのグループに属する作業項目とステータスに制限されます。
 >
->単一使用の承認プロセスについて詳しくは、 [承認プロセスの概要](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) および [新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+>単一使用の承認プロセスについて詳しくは、 [承認プロセスの概要](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) および [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## アクセス要件
 
@@ -55,12 +57,12 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>Workfront管理者である場合や、承認プロセスに対する管理者アクセス権を持っている場合は、システムレベルの承認プロセスを作成することも、特定のグループに対してグループレベルの承認プロセスを作成することもできます。</p> 
-   <p>グループ管理者は、管理するグループに対してグループレベルの承認プロセスを作成できます。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <p>グループ管理者は、管理するグループに対してグループレベルの承認プロセスを作成できます。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 作業項目のシステムレベルまたはグループレベルのグローバル承認プロセスを作成する
 
@@ -72,7 +74,11 @@ ht-degree: 1%
 
    グループレベルの承認プロセスを作成する場合は、 **グループ** ![](assets/groups-icon.png)、グループの名前をクリックし、 **承認**.
 
-1. 次をクリック： **プロジェクト承認**, **タスク承認**&#x200B;または **問題の承認** 「 」タブに表示されます。
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
+
+1. 次をクリック： **プロジェクト承認**, **タスクの承認**&#x200B;または **問題の承認** 「 」タブに表示されます。
 
 1. クリック **新しい承認プロセス**.
 1. 表示されるボックスで、次の情報を指定します。
@@ -83,11 +89,11 @@ ht-degree: 1%
     <tbody> 
      <tr> 
       <td role="rowheader">承認プロセス名</td> 
-      <td>承認プロセスのわかりやすい名前を入力します。 オブジェクトに承認プロセスを適用すると、この名前が表示されます ( <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスと作業の関連付け</a>.</td> 
+      <td>承認プロセスのわかりやすい名前を入力します。 オブジェクトに承認プロセスを適用すると、この名前が表示されます。詳しくは、 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスを作業に関連付ける</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">説明</td> 
-      <td>承認プロセスの説明を入力します。 これは、 <b>承認</b> セクション <b>設定</b> 承認プロセス名の横の領域。</td> 
+      <td>承認プロセスの説明を入力します。 これは、 <b>承認</b> セクション内 <b>設定</b> 承認プロセス名の横の領域。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">アクティブ</td> 
@@ -98,11 +104,11 @@ ht-degree: 1%
       <td> <p>特定のグループにのみ属するプロジェクト、タスク、タスク、タスクおよびテンプレートに対して承認プロセスを使用できるようにするには、グループの名前を入力し、表示されたら名前を選択します。</p> 
        <ul> 
        <li>システム管理者、または承認プロセスへの管理者アクセス権を持っている場合は、名前を入力すると、システム内の任意のグループが表示されます。 <b>すべてのグループ</b> はデフォルトで選択されています。 </li> 
-       <li>承認プロセスへの管理者アクセス権を持たないグループ管理者は、その名前を入力する際に、管理対象のグループに承認プロセスを割り当てることができます。 この <b>すべてのグループ</b> オプションは使用できません。</li> 
+       <li>承認プロセスへの管理者アクセス権を持たないグループ管理者は、その名前を入力する際に、管理対象のグループに承認プロセスを割り当てることができます。 The <b>すべてのグループ</b> オプションは使用できません。</li> 
        </ul> 
        <p>このオプションは、単一使用の承認プロセスには使用できません。</p> 
-       <p><b>警告</b>:グループ固有の承認プロセスを変更すると、既に作業項目に関連付けられている既存の承認プロセスが変更される場合があります。 これらの変更点について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が、割り当てられた承認プロセスに及ぼす影響</a>.</p> 
-       <p>グループのページからグループの承認プロセスを一覧表示および管理する方法については、 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>. </p> 
+       <p><b>警告</b>：グループ固有の承認プロセスを変更すると、既に作業項目に関連付けられている既存の承認プロセスが変更される場合があります。 これらの変更点について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が、割り当てられた承認プロセスに及ぼす影響</a>.</p> 
+       <p>グループのページからグループの承認プロセスを一覧表示および管理する方法について詳しくは、 <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>. </p> 
        <p>承認プロセスへの管理者アクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定の領域に対する管理者アクセス権をユーザーに付与する</a>.</p> </td> 
      </tr> 
     </tbody> 
@@ -120,9 +126,9 @@ ht-degree: 1%
       <td role="rowheader"> <p role="rowheader">ステータスが次のように設定された場合、承認プロセスを開始</p> </td> 
       <td> <p>作業項目の承認プロセスをトリガーにするステータスを選択します。 誰かが作業項目をこのステータスに更新すると、承認プロセスが開始されます。 </p> <p>複数の承認プロセスパスに対して同じステータスを選択することはできません。</p> <p>使用可能なステータスは、「 」オプションで選択した内容に基づきます <b>この承認は、</b> （上記の表で説明）:</p> 
        <ul> 
-       <li> If <b>すべてのグループ</b> を選択した場合は、システム全体のステータスのみを使用できます
+       <li> 次の場合 <b>すべてのグループ</b> を選択した場合は、システム全体のステータスのみを使用できます
        <li> <p>特定のグループを選択した場合、そのグループで使用可能なステータスのみが使用可能になります</p> </li> 
-       </ul> <p>承認プロセスとステータスの連携について詳しくは、 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">承認プロセスがステータスに依存する方法</a> 記事内 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>.</p> </td> 
+       </ul> <p>承認プロセスとステータスの連携について詳しくは、「 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">承認プロセスがステータスに依存する方法</a> 記事内 <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステージ名</td> 
@@ -164,11 +170,11 @@ ht-degree: 1%
       <td role="rowheader">承認が却下された場合の処理を選択</p> </td> 
       <td> <p>パスの任意のステージで作業項目が拒否された場合に実行するアクションを選択します。</p> 
        <ul> 
-       <li><b>イシューの作成</b>:（プロジェクトとタスクの承認プロセスに対してのみ使用可能）承認プロセスが実行されているプロジェクトまたはタスクにイシューが作成されます。 タスクに割り当てられたデフォルトのリソース、またはプロジェクトの所有者がイシューに割り当てられます。 デフォルトでは、作成されるイシューの名前は次のようになります。 <b>承認が却下されました (&lt;project or="" task="" name=""&gt;)</b>. 却下が発生した承認プロセスに応じて、タスクまたはプロジェクトの下に入力される却下の問題です。</li> 
-       <li> <p><b>ステータスをに設定</b>:次のいずれかを選択します。</p> 
+       <li><b>イシューの作成</b>:（プロジェクトおよびタスクの承認プロセスでのみ使用可能）承認プロセスが実行されているプロジェクトまたはタスクにイシューが作成されます。 タスクに割り当てられたデフォルトのリソース、またはプロジェクトの所有者がイシューに割り当てられます。 デフォルトでは、作成されるイシューの名前は次のようになります。 <b>承認が却下されました (&lt;project or="" task="" name=""&gt;)</b>. 却下が発生した承認プロセスに応じて、タスクまたはプロジェクトの下に入力される却下の問題です。</li> 
+       <li> <p><b>ステータスをに設定</b>：次のいずれかを選択します。</p> 
        <ul> 
-       <li><b>前のステータス</b>:却下されたプロジェクト、タスクまたはイシューは、承認プロセスを有効化したステータスの前のステータスに戻ります。</li> 
-       <li><p><b>リスト内のその他のステータス</b>:却下されたオブジェクトは、「保留中」など、選択したステータスに移動します。 Workfrontシステムに追加したデフォルトのステータスまたはカスタムのステータスの 1 つを選択できます。</p>
+       <li><b>前のステータス</b>：却下されたプロジェクト、タスクまたはイシューは、承認プロセスを有効化するステータスの前にステータスに戻ります。</li> 
+       <li><p><b>リスト内のその他のステータス</b>：却下されたオブジェクトは、「保留中」など、選択したステータスに移動します。 Workfrontシステムに追加したデフォルトのステータスまたはカスタムのステータスの 1 つを選択できます。</p>
        <p>承認プロセスに関連付けられたステータスを却下ステータスとして選択すると、却下されたオブジェクトは選択されたステータスに移動し、「承認待ち」とマークされます。</p> 
        <p> 例えば、却下ステータスとして「保留中」を選択し、保留中ステータスが承認プロセスに関連付けられている場合、却下されたオブジェクトは「保留中 — 承認待ち」ステータスに配置され、承認を必要とします。</p>
 
@@ -183,8 +189,8 @@ ht-degree: 1%
 1. 「**保存**」をクリックします。
 1. 承認プロセスが作成されたので、次のいずれかを続行します。
 
-   * 承認プロセスを、システム全体の特定のプロジェクト、タスクまたは問題に関連付けます。詳しくは、 [新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-   * Workfront以外で、承認プロセスがプロジェクト、タスクまたはイシューに関連付けられることをユーザーに通知します。詳しくは、 [新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * 承認プロセスを、システム全体の特定のプロジェクト、タスクまたは問題に関連付けます。詳しくは、 [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Workfront以外で、承認プロセスがプロジェクト、タスクまたはイシューに関連付けられることをユーザーに通知します。詳しくは、 [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * この承認プロセスが却下され、項目が別のステータスを取る場合にトリガーされる別の承認プロセスを作成します。 これにより、承認プロセスを相互にリンクすることができます。
 
 承認プロセスの編集について詳しくは、 [承認プロセスの編集](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
@@ -193,14 +199,14 @@ ht-degree: 1%
 
 作業項目（プロジェクト、タスク、またはイシュー）の承認プロセスを作成する場合は、最初に承認プロセスを作成し、次に作業項目を作成してから、承認プロセスを作業項目に関連付けることができます。
 
-承認プロセスと作業項目の関連付けについては、 [新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+承認プロセスと作業項目の関連付けについては、「 [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 >[!NOTE]
 >
->プロジェクト、タスクまたはイシューの管理権限を持つWorkfrontユーザーは、作成先のオブジェクトでのみ使用する、単一使用の承認プロセスを作成できます。 詳しくは、 [新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+>プロジェクト、タスクまたはイシューの管理権限を持つWorkfrontユーザーは、作成先のオブジェクトでのみ使用する、単一使用の承認プロセスを作成できます。 詳しくは、 [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## 単一の作業項目に対するグローバルな承認プロセスの変更をユーザーに許可する
 
-デフォルトでは、プロジェクト、タスクおよびイシューに対する権限を管理するユーザーは、単一使用の承認プロセスを作成できます。 プロジェクト、タスクおよび問題に単一使用の承認プロセスを追加する方法については、「 [単一使用の承認プロセスをプロジェクト、タスク、タスク、懸案事項、テンプレートまたはテンプレートタスクに関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) 記事内 [新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+デフォルトでは、プロジェクト、タスクおよびイシューに対する権限を管理するユーザーは、単一使用の承認プロセスを作成できます。 プロジェクト、タスクおよび問題に単一使用の承認プロセスを追加する方法については、「 [単一使用の承認プロセスをプロジェクト、タスク、タスク、懸案事項、テンプレートまたはテンプレートタスクに関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) 記事内 [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-また、作業項目に関連付けられたグローバル承認プロセスの設定を変更することもできます。 これらの変更は、システムレベルの承認プロセスに関連するプロジェクト、タスク、または問題にのみ影響します。 詳しくは、 [特定のオブジェクトで使用するグローバル承認プロセスを変更する](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) 記事内 [新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)) をクリックします。
+また、作業項目に関連付けられたグローバル承認プロセスの設定を変更することもできます。 これらの変更は、システムレベルの承認プロセスに関連するプロジェクト、タスク、または問題にのみ影響します。 詳しくは、 [特定のオブジェクトで使用するグローバル承認プロセスを変更する](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#modifying-a-global-approval-process) 記事内 [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)) をクリックします。

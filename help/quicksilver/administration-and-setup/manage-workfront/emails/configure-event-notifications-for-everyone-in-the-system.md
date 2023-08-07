@@ -5,7 +5,7 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -13,6 +13,8 @@ ht-degree: 0%
 ---
 
 # システムの全員に対するイベント通知を設定する
+
+<!--look for the "hidden" addition below for the tab redesign - August 2023-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -53,7 +55,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## すべてのユーザーに対するイベント通知の設定
 
@@ -66,6 +68,10 @@ ht-degree: 0%
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
 
 1. クリック **電子メール** > **通知**.
+
+   <!--hidden shot for the tab redesign - make live in August 2023:
+   ![](assets/notifications-area-under-setup-emails.png)
+   -->
 
 1. 次を確認します。 **イベント通知** 」タブが開きます。
 1. イベント名の左側にあるスイッチをクリックして、オンまたはオフにします。
@@ -80,6 +86,6 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >この機能は、最初は、段階的な展開の一環として、クラスター 4 のお客様のみが使用できます。 その後すぐに、他のクラスターで使用できるようになります。 この記事は、この場合に更新されます。
+   >この機能は、最初は、段階的な展開の一環として、クラスター 4 のお客様のみが使用できます。 その後すぐに、他のクラスターで使用できるようになります。 この記事は、この時点で更新されます。
 
    詳しくは、 [すべてのグループのイベント通知の設定をロック解除またはロックします](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
