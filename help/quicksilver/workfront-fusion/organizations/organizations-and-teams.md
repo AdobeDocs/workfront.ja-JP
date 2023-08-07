@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion の組織とチームの機能により、�
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
+source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 1%
@@ -97,8 +97,6 @@ ht-degree: 1%
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 [!DNL Fusion] 特定の組織に招待メールを送信し、 [!UICONTROL 役割を承認] 」ボタンをクリックします。
-
-![](assets/accept-the-role.png)
 
 受信者が「 」ボタンをクリックすると、招待ページにリダイレクトされ、招待を受け入れることができます。
 

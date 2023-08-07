@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion で組織にユーザーを追加できま�
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2884f709ef9ea89f275ff88db41ddde725dbd781
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -45,15 +45,15 @@ ht-degree: 0%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -72,10 +72,10 @@ ht-degree: 0%
 
 ## 組織へのユーザーの追加
 
-<p>ユーザーを Fusion 組織に追加する手順は、組織がAdobeビジネスプラットフォームにオンボーディングされているかどうかによって異なります。 </p>
+<p>ユーザーを Fusion 組織に追加する手順は、組織がAdobeビジネスプラットフォームにオンボーディングされているかどうかに応じて異なります。 </p>
 <ul>
 <li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Adobeビジネスプラットフォームにオンボーディングされた組織にユーザーを追加する</a> </p> </li>
-<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Adobe・ビジネス・コンソールにオンボーディングされていない組織にユーザーを追加</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Adobe・ビジネス・コンソールにオンボーディングされていない組織にユーザーを追加します。</a> </p> </li>
 </ul>
 <div>
 <p><strong>Adobeビジネスプラットフォームにオンボーディングされた組織にユーザーを追加する</strong></p>
@@ -88,7 +88,7 @@ ht-degree: 0%
 </ul>
 <p>組織がAdobeビジネスプラットフォームにオンボーディングされているかどうかに応じて異なる手順のリストについては、 <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )</a>.</p>
 </div>
-<p><strong>Adobe・ビジネス・コンソールにオンボーディングされていない組織にユーザーを追加</strong></p>
+<p><strong>Adobe・ビジネス・コンソールにオンボーディングされていない組織にユーザーを追加します。</strong></p>
 
 ユーザーを組織に追加するには、ユーザーを追加する組織の管理者である必要があります。 役割について詳しくは、 [の組織の役割 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
@@ -103,6 +103,6 @@ ht-degree: 0%
 >   
 ><p>[!UICONTROL 新しいユーザーを招待 ] ボタンが表示されない場合、組織は [!DNL Adobe Business Platform.] </p>
 >
->   <p>を参照してください。 [!DNL Adobe Business Platform]を参照してください。 <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">に転送されたユーザーを [!DNL Adobe Business Platform]</a></p>
+>   <p>を参照してください。 [!DNL Adobe Business Platform]を参照してください。 <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">に転送されたユーザーを組織に追加します。 [!DNL Adobe Business Platform]</a></p>
 
-ユーザーが招待メールを受け取り、ユーザーが [!UICONTROL 役割の承認] 」ボタンをクリックします。
+ユーザーは招待メールを受け取り、招待を受け入れることができます。
