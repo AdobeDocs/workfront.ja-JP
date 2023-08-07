@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 この表は、次の用途で使用可能な管理アクティビティを示しています。
 
 * Adobe Workfrontシステムの管理（比較のため）
-* 最上位グループを管理するグループ管理者
+* トップレベルグループを管理するグループ管理者
 * サブグループを管理するグループ管理者
 
 <table style="table-layout:auto"> 
@@ -68,13 +68,13 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>プロジェクト、タスクおよび問題の環境設定を指定</p> </td> 
+   <td> <p>プロジェクト、タスクおよび問題の環境設定を構成します</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>タイムシートと時間の基本設定をロック/ロック解除</p> </td> 
+   <td> <p>タイムシートと時間の基本設定をロック/ロック解除する</p> </td> 
    <td>✓ </td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
@@ -158,7 +158,7 @@ ht-degree: 0%
    <td> </td> 
   </tr> 
   <tr> 
-   <td>ジョブの役割の作成と管理</td> 
+   <td>担当業務の作成と管理</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -206,7 +206,7 @@ ht-degree: 0%
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td>最大ライセンス数を割り当て</td> 
+   <td>最大ライセンス数を割り当てる</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
@@ -229,3 +229,11 @@ ht-degree: 0%
 &#42; グループ管理者のアクセスレベルで、 **編集** は、 **ユーザー** 設定、 **ユーザー管理者（グループユーザー）** 次の中で選択： **設定を微調整する** ![](assets/gear-icon-in-access-levels.png). 詳しくは、 [カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集します](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) 記事内 [ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; グループ管理者のアクセスレベルで、このアクションへのアクセスを有効にする必要があります。 詳しくは、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+以下のアクティビティは、組織が Prime または Ultimate プランに属している場合にのみ、グループおよびサブグループ管理者が使用できます。 これらの特定のアクティビティは、「高度なエンタープライズコントロール」とも呼ばれます。 詳しくは、 [Adobe Workfrontの価格とパッケージのページ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。 （レガシープランを使用する組織では、上の表に、グループ管理者とサブグループ管理者のアクティビティを示します）。
+
+* プロジェクト、タスクおよび問題の環境設定を構成します
+* タイムシートと時間の基本設定を構成する
+* イベント通知電子メールの設定
+* 承認プロセスの作成と管理
+* サブグループの作成と管理
