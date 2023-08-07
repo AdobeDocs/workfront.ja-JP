@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
+source-git-commit: 71979b32684a0c52cb5951d74dc1aa9a5b1d83ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '406'
+ht-degree: 1%
 
 ---
 
@@ -36,13 +36,7 @@ ht-degree: 0%
    <th>サブグループ管理者（アクションは管理者が管理するグループに限られます）</th> 
   </tr> 
  </thead> 
- <tbody> 
-  <tr> 
-   <td>新しいAdobe Workfrontエクスペリエンスへのメンバーの登録</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-  </tr> 
+ <tbody>
   <tr> 
    <td>ユーザーのパスワードをリセットする</td> 
    <td>✓ </td> 
