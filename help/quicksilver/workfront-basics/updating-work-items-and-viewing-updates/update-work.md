@@ -6,14 +6,16 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '3471'
+source-wordcount: '3486'
 ht-degree: 1%
 
 ---
 
 # 作業を更新
+
+<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
 <!--take "Beta" references out when we remove the beta-->
 
@@ -26,15 +28,15 @@ ht-degree: 1%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * イシュー、プロジェクト、タスクおよびドキュメント。
+> * イシュー、プロジェクト、タスク、およびドキュメント。
 >
 >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
 >
 >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
 >
 >     * ホーム
->     * リストの概要パネル
->     * タイムシートの概要パネル
+>     * リスト内の概要パネル
+>     * タイムシートの [ 概要 ] パネル
 >
 > * 目標、ボード領域のカード
 >
@@ -47,7 +49,13 @@ ht-degree: 1%
 
 * 「更新」セクションのAdobe Workfrontのほとんどのオブジェクトにコメントを追加できます。 更新セクションを表示するオブジェクトの詳細については、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* Workfrontオブジェクト（プロジェクト、タスクまたはイシュー）に更新を追加して、オブジェクトにコメントを付ける際に、オブジェクトの進行状況を伝えることができます。 オブジェクトを割り当てられた、またはサブスクライブしたユーザーは、更新を表示できます。
+* Workfrontと統合されている他のアプリケーションやWorkfrontモバイルアプリから、Workfrontオブジェクトにコメントを追加できます。
+
+  Workfrontと統合されているすべてのアプリケーションに、Workfrontオブジェクトにコメントを追加する機能があるわけではありません。
+
+  WorkfrontのオブジェクトからWorkfrontオブジェクトにアクセスする場合、アプリケーションの「更新」セクションで使用できる機能の一部が他のアプリケーションで使用できるわけではありません。 例えば、リッチテキスト機能や、コメントを会社の非公開にする場合は、サードパーティのアプリケーションからWorkfrontオブジェクトにコメントを追加する際に、使用できない可能性があります。
+
+* オブジェクトにコメントを付ける際に、Workfrontオブジェクト（プロジェクト、タスクまたはイシュー）の進捗状況を伝えることができます。 オブジェクトを割り当てられた、またはサブスクライブしたユーザーは、更新に関する通知を受け取ることができます。 オブジェクトへの表示アクセス権を持つユーザーは誰でも、更新を表示できます。
 
 * ユーザーにタグを付けて、更新に注意を向けることができます。 タグ付きユーザーには、アプリ内通知と更新に関する電子メールが送信されます。
 
@@ -61,9 +69,8 @@ ht-degree: 1%
 * Workfrontの次の領域で、プロジェクト、タスクおよびイシューに更新を追加できます。
 
    * Workfrontオブジェクトの「更新」セクションで、
-   * 「ホーム」領域から（タスクおよび問題について）
-   * オブジェクトのリスト内の Summary パネルから（タスクと問題に関して）
-   * タイムシートから（タスクとタスクの場合）
+   * 「ホーム」領域から（タスクおよび問題に関する）
+   * オブジェクトの一覧の [ 概要 ] パネル、またはタイムシート（タスクと問題の場合）から
 
 このページの情報では、Workfrontオブジェクトに対するコメントの作成方法と、プロジェクト、タスクおよび問題の更新方法について説明します。
 
@@ -119,7 +126,7 @@ drafted for P&P release:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>問題およびドキュメントの要求以上その他のすべてのオブジェクトを確認するか、それ以上の値を設定します</p> </td> 
+   <td> <p>問題およびドキュメントに対する要求以上、その他のすべてのオブジェクトに対する確認以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
@@ -128,13 +135,13 @@ drafted for P&P release:
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
    <td> <p>オブジェクトへのアクセスの表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 作業項目に更新を追加する
 
@@ -148,12 +155,12 @@ drafted for P&P release:
 >
 >次の機能は、目標とカードを除くすべてのオブジェクトで使用できます。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 >
->カードの「コメント」および「システムアクティビティ」セクションを有効にすると、ボード領域のカードに対する更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+>カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. 更新を行う作業項目（プロジェクト、タスク、タスクなど）に移動します。
 1. 次をクリック： **更新** 」セクションに入力します。
 1. クリック **新しい更新を開始し、** 次に、更新を入力します。
-1. （オプション）リッチテキストを使用するか、更新に絵文字、リンク、画像を追加して、コンテンツを拡張します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) この記事の節
+1. （オプション）リッチテキストを使用するか、更新に絵文字、リンク、画像を追加して、コンテンツを拡張します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
 1. （オプション）作業項目に関する次の情報を更新します。
 
    <table style="table-layout:auto"> 
@@ -208,9 +215,9 @@ drafted for P&P release:
 
 1. 更新するオブジェクトを探し、その名前をクリックしてオブジェクトのページを開きます。
 1. クリック  **更新** をクリックします。
-1. を有効にします。 **Commenting Beta** 「更新」領域の右上隅を切り替えて、 **同意する** （ベータ版使用許諾契約） これにより、「更新」領域が「コメントベータ版」のエクスペリエンスに切り替わります。
-この **コメント** 「 」タブがデフォルトで選択されています。
-1. でコメントの入力を開始 **新しいコメント** ボックス
+1. を有効にします。 **Commenting Beta** 「更新」領域の右上隅を切り替えて、 **同意する** （ベータ版使用許諾契約）。 これにより、「更新」領域が「コメントベータ版」のエクスペリエンスに切り替わります。
+The **コメント** 「 」タブがデフォルトで選択されています。
+1. でコメントの入力を開始 **新しいコメント** ボックス。
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -222,17 +229,7 @@ drafted for P&P release:
    * Ctrl + Z( Macの場合は⌘+z)：変更を元に戻します。
    * Ctrl + Y( Macの場合は⌘+y)：変更をやり直します。
 1. （オプション） **担当者またはチームのタグ付け** 領域に入力し、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
-1. （オプション）リッチテキスト書式を更新に追加するには、 **リッチテキスト** ツールバーを使用してテキストを拡張します。
-
-   * 太字
-   * 斜体
-   * 下線
-   * リンク
-   * 箇条書き
-   * 番号付きリスト
-   * 添付ファイルを追加 <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
-
-   詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。 <!--remove this list, above, when we get to parity for Rich Text-->
+1. （オプション）リッチテキストを使用するか、 <!--hidden for August 10: emojis,--> コンテンツを拡張するためのリンクまたは画像を更新に追加します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
 
    >[!TIP]
    >
@@ -243,9 +240,10 @@ drafted for P&P release:
    >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント付けエクスペリエンスを使用している場合にのみ表示されます。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. 次をクリック： **添付ファイルを追加** アイコン ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> をクリックして、コメントに画像を追加します。 イメージを接続する前に、そのイメージをコンピュータに保存する必要があります。 <!--**************** this might be renamed to "Add image")-->
 
 1. クリック **送信** をクリックして、Workfrontオブジェクトに更新を追加します。
-1. （オプション）コメントを編集するには、 **詳細** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
+1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
 1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。
 コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
@@ -256,7 +254,7 @@ drafted for P&P release:
    >* 元の更新を送信した場合にのみ、ユーザーに更新を通知する電子メールが生成されます。 更新を編集した後は、電子メールは生成されません。
    >* コメントの横の日付スタンプは、最後の編集の日付ではなく、元のコメントの日付です。
 
-1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 4～7 に従います。 <!--(**************insure this stays accurate***********)-->. 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 4～8 に従います。 <!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. （条件付きおよびオプション）「更新」セクションの表示領域の外側に表示されるコメントを他のユーザーが追加した場合は、 **表示** 青の中に **新しいコメントバナー** をクリックして、これらのコメントを表示します。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
@@ -283,7 +281,7 @@ drafted for P&P release:
 
 ## Workfrontの更新でのリッチテキストの使用{#use-rich-text-in-a-workfront-update}
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
@@ -291,18 +289,19 @@ drafted for P&P release:
 
 リッチテキストを使用したり、絵文字、リンク、画像などの様々な項目を追加したりして、更新内容を強化できます。
 
-1. 「更新」領域に移動し、コメントの入力を開始します。
-1. （オプション）リッチテキストの書式設定を更新に追加するには、 **リッチテキスト** ツールバーを使用します。
+1. 次に移動： **更新** Workfrontオブジェクトの領域に入力し、コメントの入力を開始します。
+1. （オプション）リッチテキスト書式を更新に追加するには、 **リッチテキスト** ツールバーを使用します。 <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
 
    | **属性** | **ツールバーボタン** | **Macショートカットキー** | **Windows のショートカットキー** |
    |---|---|---|---|
    | 太字 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl + I |
    | 下線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、次の手順を実行します。⌘+K</br> <br>コメントベータ版エクスペリエンスで、選択したテキストにリンクを貼り付けます。⌘+V</br> | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、次の手順を実行します。Ctrl+K</br> <br>コメントベータ版エクスペリエンスで、選択したテキストにリンクを貼り付けます。Ctrl+V</br> |
+   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、⌘+K を使用します。</br> <br>コメント化ベータ版のエクスペリエンスで、選択したテキストにリンクを貼り付けます (⌘+V)。</br> | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、Ctrl+K を押します。</br> <br>コメントベータ版エクスペリエンスで、選択したテキストにリンクを貼り付けるには、Ctrl+V を使用します。</br> |
    | 箇条書き | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 番号付きリスト | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | ブロック引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | 絵文字 | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    テキストの書式設定を停止するには、 **リッチテキスト** ツールバー。
 
@@ -324,7 +323,7 @@ drafted for P&P release:
    >[!NOTE]
    >
    >* Workfrontでは、 ：などの句読点の顔文字は絵文字に置き換えられません。
-   >* 絵文字は、[ タイムシート ] 領域で行われた更新、またはレポートで表示された [ 注記 ] および [ 最終条件 ] オブジェクトでは使用できません。
+   >* レポートに表示される「メモ」および「最終条件」オブジェクトでは、絵文字は使用できません。
    >* Workfrontの絵文字機能では Unicode 文字を使用するので、は Unicode コードポイントをサポートするブラウザーとオペレーティングシステムでのみ表示されます。 お使いのプラットフォーム、ブラウザー、またはオペレーティングシステムのバージョンが異なるユーザーは、同じ絵文字にアクセスできない場合があります。
    >* サポートされていない絵文字は、黒または白のボックスで表されます。
    >* Windows 7 では、黒と白の絵文字のみがサポートされています。
@@ -333,9 +332,9 @@ drafted for P&P release:
 1. （オプション）追加の情報ソースに URL リンクを追加するには：
 
    1. リンクを挿入する更新内をクリックします。
-   1. の **リッチテキスト** ツールバーで、 **ハイパーリンク** アイコン ![](assets/link-icon.png).
+   1. 次の日： **リッチテキスト** ツールバーで、 **ハイパーリンク** アイコン ![](assets/link-icon.png).
 
-   1. 内 **リンクを作成** 下に表示されるボックス **URL**、リンク先のソースの URL を入力または貼り付けます。
+   1. Adobe Analytics の **リンクを作成** 表示されるボックス（下） **URL**、リンク先のソースの URL を入力または貼り付けます。
 
    1. の下 **表示するテキスト**、リンクテキストを入力または貼り付けます。
    1. 「**保存**」をクリックします。
@@ -350,7 +349,7 @@ drafted for P&P release:
 
    >[!NOTE]
    >
-   >* 画像または添付ファイルを追加アイコンを表示するには、Workfront管理者が、Workfrontインターフェイス領域の「フィードの環境設定を更新」セクションで画像の追加を有効にする必要があります。 詳しくは、 [ユーザーの更新の環境設定を構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+   >* 画像または添付ファイルを追加アイコンを表示するには、Workfront管理者が、Workfrontインターフェイス領域の「フィードの環境設定を更新」セクションで画像の追加を有効にする必要があります。 詳しくは、 [ユーザーの更新の環境設定を構成する](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 画像ファイルの最大サイズは 7 MB です。 サポートされる画像ファイルタイプは、.jpg、.gif および.png です。
    >* 画像は、オブジェクトの「更新」セクションからアクセスでき、「ドキュメント」領域でも使用できます。
    >* 画像とテキストを含まない更新を送信できます。
@@ -358,7 +357,7 @@ drafted for P&P release:
    >
    >     * 現在のコメントエクスペリエンスでは、画像は「ドキュメント」領域に残りますが、「更新」セクションには表示されません。
    >     * 新しいコメントエクスペリエンスでは、画像は「更新」セクションおよび「ドキュメント」領域から削除されます。 コメントを編集して画像を削除すると、その画像もドキュメント領域から削除されます。
-   >* コメントに添付された画像を「ドキュメント」領域から削除すると、その画像もコメントから削除されます。
+   >* コメントに添付された画像を「ドキュメント」領域から削除すると、その画像はコメントからも削除されます。
 
 1. クリック **更新**  または **送信**（コメント機能ベータ版のエクスペリエンスを使用する場合）
 
@@ -380,7 +379,7 @@ drafted for P&P release:
 このオプションは、特定の更新からクリップボードにテキストをコピーします。
 
 1. コピーする更新または返信に移動します。
-1. 次をクリック： **詳細** メニュー、次に「 **本文をコピー**.
+1. 次をクリック： **その他** メニュー、次に「 **本文をコピー**.
 
    ![「本文をコピー」を選択します。](assets/update-stream-copy-body-text-350x152.png)
 
@@ -390,7 +389,7 @@ drafted for P&P release:
 
 1. コピーする更新スレッドに移動します。
 
-1. 次をクリック： **詳細** メニュー、次に「 **スレッドリンクをコピー**.
+1. 次をクリック： **その他** メニュー、次に「 **スレッドリンクをコピー**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -399,7 +398,7 @@ drafted for P&P release:
 このオプションは、特定の更新リンクをクリップボードにコピーします。 更新リンクを共有すると、リンクをたどるユーザーには、更新の周囲に境界線が表示されます。
 
 1. コピーする更新または返信に移動します。
-1. 次をクリック： **詳細** 個々の更新の横にあるメニューで、 **更新リンクをコピー**.
+1. 次をクリック： **その他** 個々の更新の横にあるメニューで、 **更新リンクをコピー**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -419,14 +418,14 @@ drafted for P&P release:
 
 1. リンクをコピーする更新に移動します。
 
-1. 次をクリック： **詳細** メニュー、次に「 **リンクをコピー**.
+1. 次をクリック： **その他** メニュー、次に「 **リンクをコピー**.
 
 #### 本文をコピー
 
 このオプションは、特定の更新からクリップボードにテキストをコピーします。
 
 1. コピーする更新または返信に移動します。
-1. 次をクリック： **詳細** メニュー、次に「 **本文をコピー**.
+1. 次をクリック： **その他** メニュー、次に「 **本文をコピー**.
 
 ## 更新または返信の削除
 
@@ -435,7 +434,7 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 別のユーザーがおこなった更新を削除できるWorkfrontユーザー (Workfront管理者を含む ) はいません。 ただし、ユーザーのアクセスレベルでユーザーが自分の更新を削除できる場合、Workfront管理者はそのユーザーとしてログインし、加えた更新を削除できます。 詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) および [別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 削除する更新または返信に移動します。
-1. 次をクリック： **詳細** 削除する更新または返信の横のメニューから、 **削除**.
+1. 次をクリック： **その他** 削除する更新または返信の横のメニューから、 **削除**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -453,24 +452,28 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
-## タイムシートに更新を追加する
+<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
 
-1. 更新するタイムシートに移動します。
-1. [ タイムシート ] をクリックして開きます。
-1. タイムシートの下部で、次をクリックします。 **コメントを含める**.
-1. タイムシートの下部に表示されるボックスに、更新を入力します。
+## Add an update on a Timesheet
+
+1. Go to a Timesheet on which you want to make an update.
+1. Click the Timesheet to open it.
+1. At the bottom of the Timesheet, click **Include a comment**.
+1. In the box that displays at the bottom of the Timesheet, type an update.
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. （条件付き）タイムシートを承認用に送信せずに更新を保存するには、 **後で使用するために保存**.
+1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
-   または
+   Or
 
-   更新を保存し、タイムシートを承認用に送信するには、次をクリックします： **承認用に送信**.
+   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
 
-   または
+   Or
 
-   タイムシートが承認者と共に設定されていない場合は、[ ] をクリックします。 **タイムシートを保存して閉じる** 更新を保存します。
+   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
+
+-->
 
 ## システム更新を有効または無効にする
 
@@ -493,16 +496,27 @@ Workfrontオブジェクトの「更新」セクションには、次の 2 種�
 
   ![](assets/system-updates-cl-350x277.png)
 
-ご使用のWorkfrontライセンスに応じて、システムのアップデートがデフォルトで有効になっている場合があります。 Workfrontの管理者は、システムの更新で何を追跡するかを決定できます。詳しくは、 [システムで追跡された更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). また、システムの更新やアクティビティを除外して、すべてのオブジェクトのユーザー更新のみを表示することもできます。
+  ご使用のWorkfrontライセンスに応じて、システムのアップデートがデフォルトで有効になっている場合があります。 Workfrontの管理者は、システムの更新で何を追跡するかを決定できます。詳しくは、 [システムで追跡された更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). また、システムの更新やアクティビティを除外して、すべてのオブジェクトのユーザー更新のみを表示することもできます。
 
-ユーザーとシステムの更新の違いについて詳しくは、 [システムで追跡された更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  次のオブジェクトには、システムで生成された更新はありません。
+
+   * チーム
+   * テンプレート
+   * テンプレート タスク
 
 システム更新を有効または無効にするには：
 
 1. 次をクリック： **更新** タブをクリックします。
-1. クリック **システム更新を表示** スイッチを左（無効）または右（有効）にスライドさせます。
+1. クリック **システムの更新を表示** スイッチを左（無効）または右（有効）にスライドさせます。
 
    ![](assets/show-system-updates-qs-350x55.png)
 
    このオプションは、Workfront全体のすべてのオブジェクトにわたって永続的で、Workfrontからログアウトした場合でも、選択した位置にとどまります。
+
+   >[!TIP]
+   >
+   >   システムの更新を記録しないオブジェクトの [ 更新 ] 領域に [ システムの更新を表示 ] オプションはありません。
+
+   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+
 

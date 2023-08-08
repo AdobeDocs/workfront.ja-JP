@@ -7,9 +7,9 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 4%
 
 ---
@@ -27,15 +27,15 @@ ht-degree: 4%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * イシュー、プロジェクト、タスクおよびドキュメント。
+> * イシュー、プロジェクト、タスク、およびドキュメント。
 >
 >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
 >
 >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
 >
 >     * ホーム
->     * リストの概要パネル
->     * タイムシートの概要パネル
+>     * リスト内の概要パネル
+>     * タイムシートの [ 概要 ] パネル
 >
 > * 目標、ボード領域のカード
 >
@@ -51,83 +51,99 @@ ht-degree: 4%
 
 ### 現在の更新の節の概要
 
-オブジェクトの「更新」セクションには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
+* オブジェクトの「更新」セクションには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-現在の更新のセクションには、次の情報が表示されます。
+* 次のオブジェクトの「更新」セクションが表示されます。
 
-* ユーザーが行ったコメントと、そのコメントへの返信。
-* 特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージです。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>ドキュメント</li> 
+      <li>目標</li> 
+      <li>問題</li> 
+      <li>イテレーション</li> 
+      <li>プロジェクト</li> 
+      <li>プログラム</li> 
+      <li>ポートフォリオ</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>ストーリー*</li> 
+      <li>タスク</li> 
+      <li>テンプレート</li> 
+      <li>テンプレート タスク</li> 
+      <li>タイムシート</li> 
+      <li>ユーザー</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-次のオブジェクトの「更新」セクションが表示されます。
+  *ストーリーはタスクです。 タスクに関する情報はすべて、ストーリーに対しても利用できます。
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>ドキュメント</li> 
-     <li>目標</li> 
-     <li>問題</li> 
-     <li>イテレーション</li> 
-     <li>プロジェクト</li> 
-     <li>プログラム</li> 
-     <li>ポートフォリオ</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>ストーリー*</li> 
-     <li>タスク</li> 
-     <li>テンプレート</li> 
-     <li>テンプレート タスク</li> 
-     <li>タイムシート</li> 
-     <li>ユーザー</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*ストーリーはタスクです。 タスクに関する情報はすべて、ストーリーに対しても利用できます。
+* 現在の更新のセクションには、次の情報が表示されます。
+
+   * ユーザーの更新：ユーザーが行ったコメントと、そのコメントに対する返信。
+   * システムの更新：特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージ。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* 次のオブジェクトは、システムの更新を記録しません。
+
+   * チーム
+   * テンプレート
+   * テンプレート タスク
 
 ### ベータコメントエクスペリエンスの更新の節の概要
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-「更新」セクションには、新しいコメントエクスペリエンスの次のタブに情報が表示されます。
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **コメント**:ユーザーが行ったコメントと、それらのコメントに対する返信を表示します。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
-* **システムアクティビティ**:特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージであるシステム更新を表示します。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* 「更新」セクションには、新しいコメントエクスペリエンスの次のタブに情報が表示されます。
 
-現在、次のオブジェクトに対する新しいコメント作成機能を使用して、コメントを追加したり、更新に返信したりできます。
+   * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
+   * **システムアクティビティ**：特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージであるシステムアップデートを表示します。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>目標</p>
-     <li>ボード領域のカード*</li>
-      これが目標とカードの唯一の経験です。
-     </li> 
-     <li>プロジェクト</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>問題</li> 
-     <li>タスク</li>
-     <li>ドキュメント</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* 現在、次のオブジェクトに対する新しいコメント作成機能を使用して、コメントを追加したり、更新に返信したりできます。
 
-*カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、ボードエリアでカードの更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>目標</p>
+        <li>ボード領域のカード*</li>
+          これが目標とカードの唯一の経験です。
+        </li> 
+        <li>プロジェクト</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>問題</li> 
+        <li>タスク</li>
+        <li>ドキュメント</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、ボードエリアでカードの更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## 上位のオブジェクトにも表示される更新
 
@@ -213,7 +229,7 @@ ht-degree: 4%
 >
 > 新しいコメントベータ版エクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-## 更新の節の制限
+## 更新の節の制限事項
 
 チームの「更新」セクションでは、他のユーザーに代わって更新を入力する場合の制限事項がいくつかあります。
 
@@ -249,7 +265,7 @@ Adobe Workfrontの管理者とグループ管理者は、他のユーザーと�
 
 グループ管理者は、別のユーザーの代わりにコメントを作成できますが、そのコメントは削除できません。 別のユーザーに代わって作成したコメントを削除できるのは、Adobe Workfront管理者のみです。
 
-## 仕訳入力レポートを使用して作業項目のシステム更新を表示
+## 仕訳入力レポートを使用して作業項目のシステム更新を表示します
 
 仕訳レポートは、プロジェクト、タスクおよび問題の更新領域からシステムの更新を表示します。
 
