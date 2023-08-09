@@ -7,7 +7,7 @@ description: このページでは、23.3 リリースで実稼動環境にリ�
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 1a4db0b89b9035eb8dd95052b5378e78d1cfbc9f
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -46,8 +46,8 @@ ht-degree: 0%
                                 <p>プレビューおよび実稼動版リリース： 2023 年 7 月 27 日</p>
                             </li>
                             <li>
-                                <p><i>自動インストールを使用するユーザーの場合、バージョン 2.1.27</i></p>
-                                <p>プレビューおよび実稼動版リリース：未定</p>
+                                <p><i>自動インストールを使用するユーザーの場合、バージョン 2.1.28</i></p>
+                                <p>プレビューおよび実稼動版リリース： 2023 年 8 月 11 日</p>
                             </li>
                         </ul>
                     </td>
