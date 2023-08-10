@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1561'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ Production Planned リリース（2023 年 7 月 13 日）
 
 詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). ドキュメントはリリース時に更新されます。
 
-プレビューおよび実稼動：発表（23.3 リリース中またはその直後） <!--August 10, 2023-->
+プレビューおよび実稼動環境：2023 年 8 月 11 日
 
 #### 追加のオブジェクトに関する新しいコメント作成機能
 

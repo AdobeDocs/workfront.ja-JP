@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 1%
 
 ---
@@ -240,8 +240,6 @@ The **コメント** 「 」タブがデフォルトで選択されています�
    >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント付けエクスペリエンスを使用している場合にのみ表示されます。
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. 次をクリック： **添付ファイルを追加** アイコン ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> をクリックして、コメントに画像を追加します。 イメージを接続する前に、そのイメージをコンピュータに保存する必要があります。 <!--**************** this might be renamed to "Add image")-->
-
 1. クリック **送信** をクリックして、Workfrontオブジェクトに更新を追加します。
 1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
 1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。
@@ -301,7 +299,6 @@ The **コメント** 「 」タブがデフォルトで選択されています�
    | 箇条書き | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 番号付きリスト | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    | ブロック引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
-   | 絵文字 | ![](assets/emoji-icon.png) | ⌘+. | ⊞+. |
 
    テキストの書式設定を停止するには、 **リッチテキスト** ツールバー。
 
@@ -345,7 +342,7 @@ The **コメント** 「 」タブがデフォルトで選択されています�
 
    または
 
-   次をクリック： **添付ファイルを追加** アイコン ![](assets/add-image-paperclip-icon.png) コメントベータ版の使用時に、コンピュータ上の画像を参照します。 <!--the name of the icon and the icon for it might change-->
+   次をクリック： **添付ファイルを追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) コメントベータ版の使用時に、コンピュータ上の画像を参照します。 <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >

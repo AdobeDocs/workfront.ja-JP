@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 1%
@@ -84,9 +84,9 @@ For additional resources for the new commenting experience, also see the followi
   <tr>
    <td><strong>機能 </strong>
    </td>
-   <td><strong>以前のコメントエクスペリエンスに存在 </strong>
+   <td><strong>以前のコメントエクスペリエンスに存在します </strong>
    </td>
-   <td><strong>新しいコメントエクスペリエンスに存在 </strong>
+   <td><strong>新しいコメントエクスペリエンスに存在します </strong>
    </td>
    <td><strong>新しいコメントエクスペリエンスで導入されます </strong>
    </td>
@@ -129,9 +129,9 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td>
+   <td>✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td> 
    </td>
@@ -344,7 +344,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td> コピーリンクに置き換え
+   <td> コピーリンクで置き換え
    </td>
    <td> 
    </td>
@@ -358,7 +358,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td>✓ 
    </td>
-   <td> コピーリンクに置き換え
+   <td> コピーリンクで置き換え
    </td>
    <td> 
    </td>
@@ -466,7 +466,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
   </tr>
 <tr>
-   <td>別のユーザーとしてログインしたコメントを追加する際に「代理」として表示
+   <td>別のユーザーとしてログインしたコメントを追加する際に「代理」として表示する
    </td>
    <td> ✓
    </td>
@@ -491,7 +491,7 @@ For additional resources for the new commenting experience, also see the followi
 
 * 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
 
-   * 問題、プロジェクト、タスク、ドキュメント
+   * 問題、プロジェクト、タスク、およびドキュメント
 
   Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -502,11 +502,11 @@ For additional resources for the new commenting experience, also see the followi
 
   >[!NOTE]
   >
-  >Workfrontのこの領域にアクセスするには、 Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  >Workfrontのこの領域にアクセスするには、Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 新しい Commenting Experience Beta を有効にするには：
 
-1. 新しいコメントエクスペリエンスを有効化するオブジェクトに移動し、「 **更新** をクリックします。
+1. 新しいコメントエクスペリエンスを有効にするオブジェクトに移動し、「 **更新** をクリックします。
 1. を有効にします。 **Commenting Beta** 「更新」領域の右上隅にある切り替え。
 1. クリック **同意する** （ベータ版使用許諾契約）をクリックします。 これにより、選択したオブジェクトに対する新しいコメントの操作が可能になります。
 1. 更新の入力を開始するには、 **コメント** タブをクリックします。 新しいエクスペリエンスを開く際、「コメント」タブがデフォルトのタブになるようにしてください
