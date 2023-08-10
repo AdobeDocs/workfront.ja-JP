@@ -4,9 +4,9 @@ description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
+source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,7 @@ ht-degree: 0%
                                 <p>プレビューリリース： 23.3 リリース期間を通じて</p>
                             </li>
                             <li>
-                                <p><span class="preview">プレビューにリリースしてから最低 2 週間（特に指定のない限り）</span></p>
+                                <p><span class="preview">実稼動版リリース：プレビューにリリースしてから最低 2 週間（特に指定のない限り）後</span></p>
                             </li>
                         </ul>
                     </td>

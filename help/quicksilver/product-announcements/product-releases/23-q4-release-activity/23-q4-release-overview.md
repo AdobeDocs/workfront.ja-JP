@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: 3bb44437bb1c994497735132f26a00da34bd7874
+source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
 
 * [ボードの機能強化](#boards-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+* [その他の機能強化](#other-enhancements)
 
 ### ボードの機能強化
 
@@ -61,7 +62,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">接続されたカードで表示専用として使用可能なドキュメント</a><span style="color: #ff0000;"> プレビューの新機能</span> </p><p>Adobe Workfrontボードで接続されたカードの場合、画像やPDFなどのドキュメントを表示できるようになりました。 ドキュメントは、ブラウザーでプレビューするか、コンピューターにダウンロードすることができます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">接続されたカードで表示専用として使用可能なドキュメント</a></p><p>Adobe Workfrontボードで接続されたカードの場合、画像やPDFなどのドキュメントを表示できるようになりました。 ドキュメントは、ブラウザーでプレビューするか、コンピューターにダウンロードすることができます。 </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -92,7 +93,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">プロジェクトのボード表示を問題で利用できるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span> </p><p>プロジェクトの問題リストのボードビューにアクセスできるようになりました。 かんばんボードを使用すると、問題の進行状況をリストで表示するよりも視覚的に追跡できます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">プロジェクトのボード表示を問題で利用できるようになりました</a></p><p>プロジェクトの問題リストのボードビューにアクセスできるようになりました。 かんばんボードを使用すると、問題の進行状況をリストで表示するよりも視覚的に追跡できます。 </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -149,11 +150,65 @@ ht-degree: 0%
            </tbody>
         </table>
 
+### その他の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <!--
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2023 年第 4 四半期の期間におけるルックアンドフィールの更新</a></p><p>2023 年第 4 四半期の期間内に、Adobe Workfrontアプリケーションの様々な領域のルックアンドフィールに対するマイナーなアップデートがおこなわれています。 特定のリリース日については、個々のリリースノートを確認してください。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年第 4 四半期のリリース期間</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：特定の日付のリリースノートを確認します。</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ## お知らせ
 
 ### Workfront Fusion の機能強化
 
-このリリースでは、現時点でWorkfront Fusion のアップデートはありません。 この領域は、更新が利用可能になると更新されます。
+Workfront Fusion の新機能は、2023 年第 4 四半期のリリーススケジュール以外の期間で、実稼動環境で使用できます。 最新の機能について詳しくは、 [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner の機能強化
 
