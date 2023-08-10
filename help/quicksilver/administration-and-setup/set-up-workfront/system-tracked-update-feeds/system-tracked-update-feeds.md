@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -62,14 +62,15 @@ The [!UICONTROL 更新] 領域には、次の更新のタイプが含まれま�
      へのアクセス権を持つには、追加のライセンスが必要です。 [!UICONTROL 目標] 領域。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL カード] 板の上で
 
-     カードの更新について詳しくは、 [ボードへのアドホックカードの追加](../../../agile/get-started-with-boards/add-card-to-board.md).
-
+     カードの更新について詳しくは、 [ボードでの接続済みカードの使用](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] は、次のオブジェクトのシステム更新を追跡しません。
 
    * [!UICONTROL チーム]
    * [!UICONTROL テンプレート]
    * [!UICONTROL テンプレート タスク]
+   * アドホック [!UICONTROL カード]
+
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
@@ -99,4 +100,6 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * [!UICONTROL ドキュメント]
    * [!UICONTROL タイムシート]
    * [!UICONTROL 反復]
+   * [!UICONTROL 目標]
+
 
