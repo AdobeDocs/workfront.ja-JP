@@ -1,8 +1,8 @@
 ---
 source-git-commit: 26af2b2eee78d7d81a8f5005125bc4a10e5d8f0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 # 記事の投稿
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### アドビ従業員からの大きな変更
 
-Adobe Experience Cloudソリューションの製品チーム、プログラムマネージャーまたは開発者で、技術記事の投稿や作成が職務となっている場合は、次のプライベートリポジトリを使用する必要があります。 `https://git.corp.adobe.com/AdobeDocs`.
+Adobe Experience Cloud ソリューションの製品チームのテクニカルライター、プログラム マネージャー、または開発者であり、技術記事の投稿または作成を担当している場合は、`https://git.corp.adobe.com/AdobeDocs` のプライベートリポジトリを使用する必要があります。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
