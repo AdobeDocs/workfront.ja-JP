@@ -7,16 +7,20 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # 新しいコメントエクスペリエンス
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、および選択したオブジェクトの更新セクションのパフォーマンスの向上が含まれます。
 
@@ -34,25 +38,6 @@ For additional resources for the new commenting experience, also see the followi
 ## 機能
 
 新しいコメントエクスペリエンスには、既存の更新ストリームの改善と変更が含まれます。
-
-<!-- Previous content here - replaced with the table below: 
-
->[!IMPORTANT]
->The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
-
-* **Creating comments**
-
-    You can create a new comment, format it with rich text, and tag others to be notified. For more information on creating comments, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-* **Responding to comments**
-
-    You can react to a comment with a like or reply with a new comment in-thread that can notify the original commenter and owner of the object.
-
-* **System Activity**
-    
-    System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
--->
 
 新しいコメント作成機能に含まれる改善点の一つは次のとおりです。
 
@@ -73,6 +58,7 @@ For additional resources for the new commenting experience, also see the followi
 >以下に示すオブジェクトには、ベータ版エクスペリエンスを有効にした場合に利用できる過去 1 年（2022 年 6 月以降）のコメントとシステムアップデートのみが含まれています。
 >
 >2022 年 6 月より前に、現在のエクスペリエンスの「更新」セクションを表示すると、これらのオブジェクトに関するコメントやシステム更新を表示できます。
+>
 >* 問題
 >* プロジェクト
 >* タスク
@@ -487,24 +473,80 @@ For additional resources for the new commenting experience, also see the followi
 
 ## 新しいコメントエクスペリエンスを見つける
 
-次のバージョンのWorkfrontの「更新」セクションを表示する場合、新しいコメントエクスペリエンスは、現在、次のオブジェクトでサポートされています。
+新しいコメントエクスペリエンスは、現在、次のオブジェクトでサポートされています。
 
-* 「更新」セクションでベータ版エクスペリエンスを有効にする場合：
+<!--replace the first bullet with this on August 17: 
+
+<span class="preview">
+
+* By default, when you enable the New commenting experience in the Updates section for the following objects: 
+
+   * Project
+   * Task
+   * Issue
+   * Document
+
+   >[!TIP]
+   >
+   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+
+   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+</span>
+
+-->
+
+* 更新セクションのベータ版エクスペリエンスを有効にする際に、
 
    * 問題、プロジェクト、タスク、およびドキュメント
 
   Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+<!--replace the second bullet with this on August 17: 
 
-* デフォルトでは、メインのコメントエクスペリエンスとして次のようになります。
+<span class="preview">
 
-   * 目標、ボード領域のカード
+* By default, as the only commenting experience for the following objects:  
+
+  * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
+
+>[!TIP]
+>
+>There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
+
+</span>
+
+-->
+
+* デフォルトでは、の唯一のコメントエクスペリエンスとして
+
+   * 目標、ボード上のカード
 
   >[!NOTE]
   >
   >Workfrontのこの領域にアクセスするには、Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-新しい Commenting Experience Beta を有効にするには：
+<!--display on August 17: 
+
+Depending on the environment you access the commenting experience you can do one of the following: 
+
+* Enable the commenting experience Beta in the Production environment
+* <span class="preview">Enable the legacy commenting experience in the Preview or Production environment if your administrator opted in for fast releases. </span>
+-->
+
+Commenting Experience Beta を有効にするには：
 
 1. 新しいコメントエクスペリエンスを有効にするオブジェクトに移動し、「 **更新** をクリックします。
 1. を有効にします。 **Commenting Beta** 「更新」領域の右上隅にある切り替え。
@@ -516,3 +558,19 @@ For additional resources for the new commenting experience, also see the followi
    次をクリック：  **システムアクティビティ** 」タブに移動して、Workfrontが生成したアクティビティの更新を表示します。
 
    新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+<!--make this available for August 17: 
+
+<span class="preview">
+
+To disable the new commenting experience and display the legacy experience: 
+
+1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
+1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
+  
+  This changes the Updates area to the legacy commenting stream. 
+
+1. Start typing an update in the space provided. 
+</span>
+
+-->

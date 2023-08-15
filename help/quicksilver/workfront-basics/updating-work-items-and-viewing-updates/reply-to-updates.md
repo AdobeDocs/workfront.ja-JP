@@ -8,18 +8,36 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
 
 # 更新に返信する
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
 
 >[!NOTE]
 >
@@ -49,7 +67,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->新しいコメントベータ版エクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>新しいコメントエクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## アクセス要件
@@ -85,7 +103,7 @@ ht-degree: 0%
 
 ## Workfrontでの更新または返信に対する返信
 
-表示できるオブジェクトのスレッド内のコメントに返信したり、Workfrontまたはグループ管理者としてログインして、別のユーザーに代わってコメントに返信したりできます。 詳しくは、 [別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+表示できるオブジェクトのスレッド内のコメントに返信したり、Workfrontまたはグループ管理者としてログインし、別のユーザーの代わりにコメントに返信したりできます。 詳しくは、 [別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 コメントまたは返信への返信は、選択したエクスペリエンスとオブジェクトに応じて異なります。
 
@@ -109,13 +127,13 @@ ht-degree: 0%
 1. （オプション）記事の「Workfrontの更新でのリッチテキストの使用」の節で説明されているように、書式、絵文字、リンク、画像を使用します。 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. クリック **返信** をクリックして返信を保存します。
 
-### コメント作成ベータ版エクスペリエンスを使用する際にコメントに返信する
+### 新しいコメントエクスペリエンスを使用する際にコメントに返信
 
-新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+新しいコメント作成エクスペリエンスで使用可能な機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 返信を追加するオブジェクトに移動します。
 1. クリック **更新**」、「 **コメント** タブをクリックし、返信先のコメントまたは返信を探します。
-1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** 見積もりを行う更新または返信の横のメニューから、 **見積もりの返信**. 前の更新のテキストが入力領域に表示され、縦の灰色の線が付きます。
+1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** 見積もりを行う更新または返信の横のメニュー <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>-->を選択し、次に **見積もりの返信**. 前の更新のテキストが入力領域に表示され、縦の灰色の線が付きます。
 1. クリック **返信**.
 
    会話に積極的に関与しているユーザーがの下部に表示されます。 **新しいコメント** 」ボックスに追加して、不要なものを追加したり、削除したりできます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。 さらに多くのユーザーにタグを付けて、返信に含めることもできます。  さらに多くのユーザーにタグを付けるには、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
@@ -124,7 +142,7 @@ ht-degree: 0%
 
 1. クリック **送信** をクリックして返信を保存します。
 
-1. （オプション） **その他** メニュー ![](assets/more-menu.png) をクリックし、返信を管理するその他のオプションを選択します。 詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
+1. （オプション） **その他** メニュー ![](assets/more-menu.png) 更新の横 <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> 返信を管理するその他のオプションを参照してください。 詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## 電子メール通知から更新に返信

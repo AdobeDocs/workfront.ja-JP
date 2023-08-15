@@ -7,24 +7,43 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1618'
 ht-degree: 3%
 
 ---
 
 # 新しいコメントエクスペリエンスリリースアクティビティ
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+
+
 このページには、現在Adobe Workfrontで進行中の新しいコメントエクスペリエンスのリリースタイムラインに関する情報が含まれています。
 
 現在利用可能な機能や調査中の機能のリストなど、新しいコメント作成の経験に関する一般的な情報については、 [新しいコメントエクスペリエンス](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+
+<!--On August 17, replace the Important box below with the following - AND MAKE SURE THAT THE "WEEKLY RELEASE OF AUGUST 14" IS AN ACTUAL PAGE: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
+>
+>Starting with the weekly release of August 14, 2023, the beta commenting experience ended. 
+>
+><span class="preview">New commenting features continued to be released to the Preview and Production environments, as described in the section [Release timeline](#release-timeline) in this article.</span>
+-->
 
 >[!IMPORTANT]
 >
 >23.2 リリースでベータ版が開始された新しいコメント機能です。 元のリリースについて詳しくは、 [23.2 リリースの概要](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Workfrontオブジェクトのベータ版エクスペリエンスにリリースされたコメント機能も、次のオブジェクトの更新セクションにリリースされ、唯一のコメントエクスペリエンスとしてリリースされています。
+>ベータ版のコメント機能をサポートするWorkfrontオブジェクトにリリースされた機能は、次のオブジェクトの更新セクションにも、唯一のコメント機能としてリリースされています。
 >* 目標
 >* 「ボード」領域のカード。
 
@@ -42,24 +61,52 @@ ht-degree: 3%
 * 23.3 リリース（2023 年 7 月 21 日）:
    * プロジェクト、タスク、ドキュメントに対する Experience Beta のコメント化。
    * （唯一のエクスペリエンスとして）ボード領域のカードに対する新しいコメントエクスペリエンス
-* 23.4 リリース（発表日）中（限定リリース）<!--, only available to customers that choose the fast release -->):
+* 23.10 リリース（発表日）中（限定リリース。高速リリースを選択したお客様のみ利用可能）: <!--for August 17 - add the actual date in here-->
    * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートに関する新しいコメント作成エクスペリエンス（唯一のエクスペリエンス）
-* 23.4 リリース（2023 年 10 月初旬）
+   * プロジェクト、タスク、問題、ドキュメントに対する Experience Beta のコメント付けがデフォルトのオプションになります。 これにより、新しいコメント作成エクスペリエンスのベータ段階が終了します。
+* 23.10 リリース（2023 年 10 月）
    * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートに関する新しいコメント作成エクスペリエンス（唯一のエクスペリエンス）
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
-   * プロジェクト、タスク、問題、ドキュメントに対する Experience Beta のコメント付けがデフォルトのオプションになります。
+   * プロジェクト、タスク、タスク、イシュー、ドキュメントに対する新しいコメント作成機能がデフォルトのオプションになります。 これにより、新しいコメント作成エクスペリエンスのベータ段階が終了します。
 * 2023 年末：
-   * 従来のコメント作成機能は、プロジェクト、タスク、問題、ドキュメントの各オブジェクトのオプションとして引き続き使用できます。
+   * 従来のコメント作成機能は、プロジェクト、タスク、問題、ドキュメントの各オブジェクトのセカンダリオプションとして引き続き使用できます。
 
   >[!NOTE]
   >
-  >    繰り返し処理では、従来のコメント操作が引き続きおこなわれます。
+  >    繰り返し処理では、従来のコメント操作が引き続きおこなわれます。 新しいコメントエクスペリエンスは、繰り返しでは使用できません。
 
 ## リリースされた機能
 
-次の節では、最近リリースされた機能から、元のリリースの後に追加された機能のリストを示します。
+次の節では、最近リリースされた機能から始まる、元の 23.2 リリースの後に追加された機能のリストを示します。
+
+<!--For the August 17 release - IF ANNA AGREES NOT TO SEND STUFF TO BETA ANYMORE: 
+
+>[!IMPORTANT]
+>
+><span class="preview">The following section contains as a list of features released during the Beta phase of the commenting experience, between April - August 2023. </span>
+>
+><span class="preview"></span>
+>
+><span class="preview">All features released after August 17, 2023 will be announced in the main release overview page for the current releases, starting with the Fourth Quarter release of 2023. For information, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
+
+-->
+
+<!--for the August 17 release: remove the paragraph below and replace it with this: 
+
+The following information refers to the release activity on a weekly basis of the features included in the commenting beta experience between April - August, 2023. This article lists new features that were added and issues that were resolved for the new commenting experience. For information about features released after August 17, 2023, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+-->
 
 次の情報は、新しいコメントベータ版エクスペリエンスに含まれる機能に基づいて、毎週リリースアクティビティを参照します。 この記事では、新しいコメント作成機能で追加された新機能と、新しいコメント作成機能で解決された問題について説明します。
+
+<!--add the following with the August 17 release: 
+
+### Week of August 14, 2023
+
+#### Avatar improvements when tagging users in an update
+
+To give you better visibility into which users are tagged in an update, we now display the names of the users (up to two users) that are tagged in an update. For more information, see [Tag others in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+-->
 
 ### 2023 年 6 月 20 日以降にリリースされた機能
 

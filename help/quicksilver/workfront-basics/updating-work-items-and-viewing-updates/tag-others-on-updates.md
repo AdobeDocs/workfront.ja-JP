@@ -6,7 +6,7 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -15,10 +15,27 @@ ht-degree: 0%
 
 # 更新時の他のユーザーへのタグ付け
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
 
 >[!NOTE]
 >
@@ -27,15 +44,15 @@ ht-degree: 0%
 >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * イシュー、プロジェクト、タスクおよびドキュメント。
+> * イシュー、プロジェクト、タスク、およびドキュメント。
 >
 >     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
 >
 >     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
 >
 >     * ホーム
->     * リストの概要パネル
->     * タイムシートの概要パネル
+>     * リスト内の概要パネル
+>     * タイムシートの [ 概要 ] パネル
 >
 > * 目標、ボード領域のカード
 >
@@ -74,17 +91,17 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>問題およびドキュメントの要求以上その他のすべてのオブジェクトを確認するか、それ以上の値を設定します</p> </td> 
+   <td> <p>問題およびドキュメントに対する要求以上、その他のすべてのオブジェクトに対する確認以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>問題およびドキュメントの要求者以上他のすべてのオブジェクトのレビュー担当者以上</p> 
+   <td> <p>問題およびドキュメントに対して要求者以上、その他すべてのオブジェクトに対してレビュー担当者以上</p> 
    <p><b>メモ</b>
 
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
    <td> <p>オブジェクトへのアクセスの表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -98,10 +115,12 @@ ht-degree: 0%
 
 ### 現在の更新セクションの更新に関する他のユーザーへのタグ付け
 
+<!--change "current" to "legacy" at the October 26, 2023 release-->
+
 現在の更新セクションでは、ユーザーに手動でタグ付けできます。
 
 1. 作業項目の更新を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. 内 **通知** フィールドに、含めるユーザーまたはチームの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
+1. Adobe Analytics の **通知** フィールドに、含めるユーザーまたはチームの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
    または
 
@@ -117,7 +136,7 @@ ht-degree: 0%
 
    ![](assets/tag-users-in-update.png)
 
-1. （オプション）更新を非公開にするには、 **私の会社に対してプライベート** をクリックします。 これにより、会社のユーザーだけが更新を表示できるようになります。 この **私の会社に対してプライベート** オプションは、会社がWorkfrontプロファイルで指定されている場合にのみ使用できます。
+1. （オプション）更新を非公開にするには、 **私の会社に対してプライベート** をクリックします。 これにより、会社のユーザーだけが更新を表示できるようになります。 The **私の会社に対してプライベート** オプションは、会社がWorkfrontプロファイルで指定されている場合にのみ使用できます。
 
    >[!NOTE]
    >
@@ -138,12 +157,12 @@ ht-degree: 0%
 
    作業項目の更新時に使用できる追加機能について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-### コメントベータ版エクスペリエンスの更新に関する他のユーザーへのタグ付け
+### 新しいコメントエクスペリエンスの更新時に他のユーザーにタグ付けする
 
-新しいコメントエクスペリエンスでの更新に関して、他のユーザーにタグを付けるには、次の方法を使用します。
+新しいコメントエクスペリエンスでの更新に関して、他のユーザーにタグを付けるには、次の方法があります。
 
-* **自動**:ユーザーがコメントや返信を追加すると、自動的にタグ付けされ、コメントボックスの「ユーザーまたはチームにタグ付け」領域に追加されます。
-* **手動**:ユーザーを手動でコメントボックスの「ユーザーにタグを付ける」領域に追加する場合。
+* **自動**：ユーザーがコメントまたは返信を追加すると、自動的にタグ付けされ、コメントボックスの「ユーザーまたはチームにタグ付け」領域に追加されます。
+* **手動**：ユーザーを手動でコメントボックスの「ユーザーにタグを付ける」領域に追加する場合。
 
 また、コメントを編集または返信する際に、誤ってタグ付けされたユーザーを削除することもできます。
 
@@ -153,7 +172,7 @@ ht-degree: 0%
    >
    >コメントの所有者は、コメントボックスの「ユーザーまたはチームにタグ付け」領域で自分の名前を表示できません。
 
-1. 内 **担当者またはチームのタグ付け** フィールドに、含めるユーザーまたはチームの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
+1. Adobe Analytics の **担当者またはチームのタグ付け** フィールドに、含めるユーザーまたはチームの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
    または
 
@@ -169,7 +188,7 @@ ht-degree: 0%
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. （オプション）更新を非公開にするには、 **私の会社に対してプライベート** をクリックします。 これにより、会社のユーザーだけが更新を表示できるようになります。 この **私の会社に対してプライベート** オプションは、会社がWorkfrontプロファイルで指定されている場合にのみ使用できます。
+1. （オプション）更新を非公開にするには、 **私の会社に対してプライベート** をクリックします。 これにより、会社のユーザーだけが更新を表示できるようになります。 The **私の会社に対してプライベート** オプションは、会社がWorkfrontプロファイルで指定されている場合にのみ使用できます。
 
    >[!NOTE]
    >
@@ -186,10 +205,15 @@ ht-degree: 0%
    更新に含まれるユーザーには、オブジェクトに対する表示権限が自動的に付与され、オブジェクトに対する更新の表示と応答が可能になります。
 
    「メンバー」領域で、更新のテキストの下に、各返信でタグ付けされたユーザーを確認できます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。
+
+   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged users display next to their avatars, up to two users. If more than two users are tagged the name of the first tagged user displays, in addition to a number of how many additional users are tagged.</span> -->
+
 1. （オプション） **メンバー** を更新に含めて、入力した更新が共有されているエンティティのリストを表示します。
+
+   <!--update screen shot for August 17-->
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    作業項目の更新時に使用できる追加機能について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. （オプション） **詳細** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**. タグ付きユーザーを削除し、「 **送信**. コメントは、入力後 15 分以内に編集できます。 編集できるのは、自分が追加したコメントだけです。
+1. （オプション） **その他** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側に <!--with the August 17 release - replace placing of the More icon: <span class="preview">in the upper-right corner of the comment</span>-->を選択し、次に **編集**. タグ付きユーザーを削除し、「 **送信**. コメントは、入力後 15 分以内に編集できます。 編集できるのは、自分が追加したコメントだけです。
