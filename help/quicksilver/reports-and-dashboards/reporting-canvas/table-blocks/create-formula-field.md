@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 7%
@@ -39,13 +41,13 @@ ht-degree: 7%
 
    >[!TIP]
    >
-   >数式フィールドを作成する際、 **フィールドのプレビュー** 右側には、結果フィールドの例が表示されます。
+   >数式フィールドを作成する際に、 **フィールドのプレビュー** 右側には、結果フィールドの例が表示されます。
 
    各関数には、結果の計算で引数として使用される、空の点線の長方形が多数含まれています。 これらの値は、静的テキストや数値を入力するか、（計算でフィールドの値を使用して）左パネルからフィールドをドラッグ&amp;ドロップするか、別の関数をドラッグ&amp;ドロップ（ネストされた関数を作成）することで入力できます。 次の関数を使用できます。
 
    | 関数 | 説明 | 出力 |
    |---|---|---|
-   | IF | 選択した修飾子に基づいて 2 つの引数を比較し、結果の True(Is True:) または False(Is False:) の値に基づいて指定したアクションを実行します。 注意：現在、2 番目の引数に静的な True または False の値を指定することはできません。 代わりに、ISBLANK(Project Name) のようにネストされた関数を使用し、常に回避策として False を返すことができます。 | True/False、Date、Number、または String |
+   | IF | 選択した修飾子に基づいて 2 つの引数を比較し、結果の True(Is True:) または False(Is False:) の値に基づいて指定したアクションを実行します。 注意：現在、2 番目の引数に静的な True または False 値を指定することはできません。 代わりに、ISBLANK(Project Name) のようにネストされた関数を使用し、常に回避策として False を返すことができます。 | True/False、Date、Number、または String |
    | CONCAT | 2 つ以上の文字列をエンドツーエンドで結合して、新しい文字列を作成します。 | String |
    | 次を含む | 文字列引数フィールド（検索テキスト）が別の文字列引数フィールド (Within text) 内に含まれているかどうかを評価します。 | True/False |
    | IN | 引数フィールド (Find) の値が、他の 1 つ以上の引数フィールド (Within) の値と一致するかどうかを評価します | True/False |

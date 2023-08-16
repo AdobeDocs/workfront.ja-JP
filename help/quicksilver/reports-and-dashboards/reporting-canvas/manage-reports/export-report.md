@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -14,7 +16,7 @@ ht-degree: 2%
 
 # レポートキャンバスでのレポートのエクスポート
 
-必要に応じて、レポート全体（または特定のブロック）をファイルフォーマットにエクスポートできます。 書き出し先：
+必要に応じて、レポート全体（または特定のブロック）をファイルフォーマットにエクスポートできます。 書き出し先は次のとおりです。
 
 * PDF（現在無効）
 * CSV
@@ -28,7 +30,7 @@ ht-degree: 2%
 ## レポートのエクスポート
 
 1. エクスポートするレポートに移動します。
-1. レポートのヘッダーで、 **詳細** アイコン ![](assets/more-icon-27x15.png)をクリックし、 **書き出し**&#x200B;をクリックし、作成するファイル形式を選択します。
+1. レポートのヘッダーで、 **その他** アイコン ![](assets/more-icon-27x15.png)をクリックし、 **書き出し**&#x200B;をクリックし、作成するファイル形式を選択します。
 
    >[!NOTE]
    >
@@ -37,7 +39,7 @@ ht-degree: 2%
    >   * 複数のテーブルを含むレポートを XLSX 形式で書き出す場合、書き出されたファイルには、テーブルごとに別々のシートが含まれます。
    >   * 複数のテーブルを含むレポートを CSV 形式でエクスポートする場合、エクスポート結果は、各テーブルに対して個別のファイルを含む zip 形式のフォルダになります。
    >   * グループ化された行を含むテーブルを CSV 形式で書き出す場合、CSV ファイルにはすべての行が含まれますが、グループには表示されません。
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

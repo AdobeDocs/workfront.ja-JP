@@ -6,7 +6,9 @@ description: Web コンテンツブロックを使用すると、外部の Web �
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -29,11 +31,11 @@ Web コンテンツブロックを使用すると、外部の Web サイトか�
 
    または
 
-   既存のレポートに移動し、 **詳細** アイコン ![](assets/more-icon-27x15.png) レポートのヘッダーで、 **編集**.
+   既存のレポートに移動し、 **その他** アイコン ![](assets/more-icon-27x15.png) レポートのヘッダーで、 **編集**.
 
 1. 画面の右側の、の下 **ブロックを追加**、次のいずれか：
 
-   次をドラッグ： **Web コンテンツ** アイコンをキャンバス上の目的の場所に直接配置します。
+   次の項目をドラッグ： **Web コンテンツ** アイコンをキャンバス上の目的の場所に直接配置します。
 
    または
 
@@ -48,7 +50,7 @@ Web コンテンツブロックを使用すると、外部の Web サイトか�
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. 内 **設定** 開いたパネルで、表示するページの完全な URL(「https://」を含む ) を **URL** フィールドに入力します。
+1. Adobe Analytics の **設定** 開いたパネルで、表示するページの完全な URL(「https://」を含む ) を **URL** フィールドに入力します。
 
    >[!NOTE]
    >
@@ -61,7 +63,6 @@ Web コンテンツブロックを使用すると、外部の Web サイトか�
    >   * powerbi.com
    >   * domo.com
    >   * looker.com
-
 
    埋め込めない場合は、入力した URL の下に警告が表示されます。 次のような警告があります。
 

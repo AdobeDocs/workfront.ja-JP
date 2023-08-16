@@ -4,7 +4,9 @@ description: レポートキャンバスでの棒グラフビジュアライゼ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%
@@ -28,9 +30,9 @@ ht-degree: 2%
 
 1. 最初に、 **棒グラフ** ビジュアライゼーションタイプをレポートに追加できます。詳しくは、 [レポートキャンバスでのビジュアライゼーションブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. ビジュアライゼーションを編集アイコンをクリックします ![](assets/edit-icon.png) ビジュアライゼーションの右上隅で、次のいずれかの操作をおこないます。
+1. ビジュアライゼーションを編集アイコンをクリックします。 ![](assets/edit-icon.png) ビジュアライゼーションの右上隅で、次のいずれかの操作をおこないます。
 
-   1. の **設定** タブ：
+   1. 次の日： **設定** タブ：
 
       <table style="table-layout:auto">
        <col>
@@ -48,8 +50,8 @@ ht-degree: 2%
          <td role="rowheader">水平軸</td>
          <td><p>左のドロップダウンメニューで、水平または X 軸に沿って表現するデータを選択します。 この軸の項目は、値に基づいて比較バーとして表示されます。</p><p>右側のドロップダウンメニューで、ビジュアライゼーションで計算し、横軸に沿って値を表示する方法を選択します。</p>
           <ul>
-           <li><p><b>カウント</b>:値の数</p></li>
-           <li><p><b>合計</b>:すべての値の合計 </p></li>
+           <li><p><b>カウント</b>：値の数</p></li>
+           <li><p><b>合計</b>：すべての値の合計 </p></li>
            <li><p><b>平均</b>：すべての値の平均</p></li>
            <li><p><b>最小</b>：最も小さい値のみ</p></li>
            <li><p><b>最大</b>：最も大きい値のみ</p></li>
@@ -62,7 +64,7 @@ ht-degree: 2%
        </tbody>
       </table>
 
-   1. の **データ** タブ：
+   1. 次の日： **データ** タブ：
 
       | データソース（ドロップダウンメニュー） | ビジュアライゼーションのデータソースをレポートキャンバス上の別のテーブルに変更します。 |
       |---|---|

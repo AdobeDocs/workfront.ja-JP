@@ -4,7 +4,9 @@ description: レポートキャンバスでの円グラフのビジュアライ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -28,9 +30,9 @@ ht-degree: 1%
 
 1. 最初に、 **円グラフ** ビジュアライゼーションタイプをレポートに追加できます。詳しくは、 [レポートキャンバスでのビジュアライゼーションブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. ビジュアライゼーションを編集アイコンをクリックします ![](assets/edit-icon.png) ビジュアライゼーションの右上隅で、次のいずれかの操作をおこないます。
+1. ビジュアライゼーションを編集アイコンをクリックします。 ![](assets/edit-icon.png) ビジュアライゼーションの右上隅で、次のいずれかの操作をおこないます。
 
-   1. の **設定** タブ：
+   1. 次の日： **設定** タブ：
 
       <table style="table-layout:auto">
        <col>
@@ -48,8 +50,8 @@ ht-degree: 1%
          <td role="rowheader">値</td>
          <td><p>左のドロップダウンメニューで、各ウェッジに表示する値を選択します。</p><p>右側のドロップダウンメニューで、これらの値をディスプレイで計算する方法を選択します。</p>
           <ul>
-           <li><p><b>カウント</b>:値の数</p></li>
-           <li><p><b>合計</b>:すべての値の合計 </p></li>
+           <li><p><b>カウント</b>：値の数</p></li>
+           <li><p><b>合計</b>：すべての値の合計 </p></li>
            <li><p><b>平均</b>：すべての値の平均</p></li>
            <li><p><b>最小</b>：最も小さい値のみ</p></li>
            <li><p><b>最大</b>：最も大きい値のみ</p></li>
@@ -58,7 +60,7 @@ ht-degree: 1%
        </tbody>
       </table>
 
-   1. の **データ** タブ：
+   1. 次の日： **データ** タブ：
 
       | データソース（ドロップダウンメニュー） | ビジュアライゼーションのデータソースをレポートキャンバス上の別のテーブルに変更します。 |
       |---|---|

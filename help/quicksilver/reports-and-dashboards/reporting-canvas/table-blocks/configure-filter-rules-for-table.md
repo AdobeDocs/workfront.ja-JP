@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 2%
@@ -29,7 +31,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">演算子</td> 
-   <td> <p>フィルターによって、テーブルに含める値またはテーブルから除外する値が決まります。 </p> </td> 
+   <td> <p>フィルターによって、テーブルに含める値またはテーブルから除外するフィールド値が決まります。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">値</td> 
@@ -54,7 +56,7 @@ ht-degree: 2%
 
    または
 
-   既存のレポートに移動し、 **その他のメニュー** アイコン ![](assets/more-icon.png) レポートのヘッダーで、 **編集**.
+   既存のレポートに移動し、 **その他のメニュー** アイコン ![](assets/more-icon.png) レポートのヘッダーで、「 **編集**.
 
 1. 新しいテーブルで行をグループ化するには、テーブルブロックをキャンバス上にドラッグまたはダブルクリックします。
 
@@ -62,7 +64,7 @@ ht-degree: 2%
 
    既存のテーブルの行をグループ化するには、 **編集** アイコン ![](assets/edit-icon.png) を参照してください。
 
-1. 右側のパネルで、テーブルをフィルターするフィールドを選択し、「フィルター」セクションにドラッグします。
+1. 右側のパネルで、テーブルのフィルターに使用するフィールドを選択し、「フィルター」セクションにドラッグします。
 
    選択したフィールドの名前が含まれるフィルタルールセットが表示されます。
 
@@ -89,7 +91,7 @@ ht-degree: 2%
       <td> <p>フィルターしようとしているフィールドが存在し、値が指定されています。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>次よりも小さい</strong> </td> 
+      <td role="rowheader"><strong>が次よりも小さい</strong> </td> 
       <td> <p>入力された値を含めずに、入力された値より小さい値を持つすべての結果を検索します。</p> </td> 
      </tr> 
      <tr> 
@@ -97,7 +99,7 @@ ht-degree: 2%
       <td> <p>入力された値以下の値を持つすべての結果を検索します。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>次よりも大きい</strong> </td> 
+      <td role="rowheader"><strong>が次よりも大きい</strong> </td> 
       <td> <p>入力された値より大きい値を持つすべての結果を検索します（入力された値は含まれません）。</p> </td> 
      </tr> 
      <tr> 
@@ -109,11 +111,11 @@ ht-degree: 2%
       <td> <p>2 つの必須フィールド値を提供し、入力された値を含む両方のフィールドの範囲内にあるすべての結果を検索します。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>が次を含む</strong> </td> 
-      <td> <p>これは、テキスト文字列全体で指定したテキストを検索します。</p> <p>例えば、「Infinity」という単語など、「Inf」や「inf」が含まれるものはすべて取り込まれます。</p> <p>注意：Adobe Workfrontは、各フィルタールールに対して入力した単語または語句全体を検索します。 例えば、名前に「new project」という語句を含むフィールドを検索する場合、Workfrontでは、名前に「new」と「project」しか含まれないプロジェクトや、「new main project」など、その間に余分な単語を含む語句は表示されません。 フィルターは、名前に「new project」と完全に一致するフレーズを持つプロジェクトのみを検索します。</p> </td> 
+      <td role="rowheader"><strong>次を含む</strong> </td> 
+      <td> <p>これは、テキスト文字列全体で指定したテキストを検索します。</p> <p>例えば、「Infinity」という単語など、「Inf」や「inf」が含まれるものはすべて取り込まれます。</p> <p>注意： Adobe Workfrontでは、各フィルタールールに対して入力した単語または語句全体を検索します。 例えば、名前に「new project」という語句を含むフィールドを検索する場合、Workfrontでは、名前に「new」と「project」しか含まれないプロジェクトや、「new main project」など、その間に余分な単語を含む語句は表示されません。 フィルターは、名前に「new project」と完全に一致するフレーズを持つプロジェクトのみを検索します。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>含まない (大文字と小文字を区別しない)</strong> </td> 
+      <td role="rowheader"><strong>が次を含まない</strong> </td> 
       <td> <p>これにより、指定したテキストがない項目を除外します。</p> <p>例えば、「次を含まない」と指定すると、名前に「Inf」または「inf」が含まれていないフィールドが返されます。</p> </td> 
      </tr> 
     </tbody> 

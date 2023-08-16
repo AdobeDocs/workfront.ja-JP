@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -31,7 +33,7 @@ ht-degree: 0%
 1. クリック **新しいレポート**.
 1. 編集キャンバスの左上隅に、レポートの名前を入力します。
 
-   レポート名は、 **編集** アイコン ![](assets/edit-icon.png) 名前の横にある
+   レポート名は、 **編集** アイコン ![](assets/edit-icon.png) 名前の横に表示されます。
 
 1. 画面の右側から、キャンバスに追加するブロックをドラッグします。
 
@@ -60,7 +62,7 @@ ht-degree: 0%
       <td> <p>レポートに外部ソース（Web ページなど）を追加します。</p> <p>詳しくは、 <a href="../../../reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md" class="MCXref xref">レポートキャンバスでの Web コンテンツブロックの追加または編集</a>.</p> </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">キャンバスフィルター</td> 
+       <td role="rowheader">カンバスフィルター</td> 
        <td> <p>ユーザーがレポートの様々な側面を確認できるフィルターを追加します。 このフィルターは、レポート内のすべてのデータに適用されます。</p> </td> 
       </tr>
     </tbody> 
@@ -81,12 +83,12 @@ ht-degree: 0%
       <td>次をクリック： <strong>その他のメニュー</strong> アイコン <img src="assets/more-icon.png"> ブロックのヘッダーで、「 <strong>ブロックをコピー</strong>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">ブロックを削除</td> 
+      <td role="rowheader">ブロックを削除する</td> 
       <td>次をクリック： <strong>その他のメニュー</strong> アイコン <img src="assets/more-icon.png"> ブロックのヘッダーで、「 <strong>ブロックを削除</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ブロックの位置を変更する</td> 
-      <td> ブロックを選択し、ハンドルをクリックしてドラッグします <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> をクリックして、別のブロックの上、下、または隣に移動します。</td> 
+      <td> ブロックを選択し、ハンドルをクリックしてドラッグします。 <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> をクリックして、別のブロックの上、下、または隣に移動します。</td> 
      </tr> 
     </tbody> 
    </table>

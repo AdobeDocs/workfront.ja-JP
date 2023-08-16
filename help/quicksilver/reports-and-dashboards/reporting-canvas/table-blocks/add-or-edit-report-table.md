@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # レポートキャンバスでのテーブルブロックの追加または編集
 
-テーブルには、フィールド情報が列に表示され、フィルター、グループ化、並べ替えをおこなうことができます。
+テーブルには、フィールド情報が列に表示され、フィルター、グループ化、並べ替えが可能です。
 
 ## 前提条件
 
@@ -28,11 +30,11 @@ ht-degree: 0%
 
    または
 
-   既存のレポートに移動し、 **詳細** アイコン ![](assets/more-icon-27x15.png) レポートのヘッダーで、 **編集**.
+   既存のレポートに移動し、 **その他** アイコン ![](assets/more-icon-27x15.png) レポートのヘッダーで、 **編集**.
 
 1. 画面の右側の下 **ブロックを追加**、次のいずれか：
 
-   次をドラッグ： **テーブル** アイコン ![](assets/table-icon.png) を目的の場所に直接キャンバス上にドラッグします。
+   次の項目をドラッグ： **テーブル** アイコン ![](assets/table-icon.png) を目的の場所に直接キャンバス上にドラッグします。
 
    または
 
@@ -53,7 +55,7 @@ ht-degree: 0%
    >テーブルが既にキャンバスに含まれていた場合（既存のレポートの編集時など）、 **編集** ボタンがブロックの中央に表示されない。 テーブルを編集するには、 **編集** アイコン ![](assets/edit-icon.png) を使用します。
    >![](assets/edit-icon-table-header-350x71.png)
 
-1. 内 **フィールド** 右側のパネルで、列としてテーブルに追加するフィールドを見つけ、テーブルの目的の位置にドラッグするか、ダブルクリックしてテーブルの最後の列に追加します。
+1. Adobe Analytics の **フィールド** 右側のパネルで、列としてテーブルに追加するフィールドを見つけ、テーブルの目的の位置にドラッグするか、ダブルクリックしてテーブルの最後の列に追加します。
 
    テキストを **検索** ボックスを使用して、特定のフィールドを名前で検索します。 このボックスの下の 2 つのドロップダウンメニューを使用して、表示するフィールドのリストを次のいずれかまたは両方に絞り込むこともできます。
 
@@ -68,6 +70,6 @@ ht-degree: 0%
 
 1. 次のいずれかの操作を行って、テーブルをさらに設定します。
 
-   * **数式フィールドを追加**:クリック **新規+** の最上部に **フィールド** リスト。 数式フィールドの作成方法について詳しくは、 [レポートキャンバスで数式フィールドを作成する](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
-   * **フィルターの追加**:テーブルをフィルターするフィールドを **フィルター** セクションを表の上に置きます。 フィルタールールの設定について詳しくは、 [レポートキャンバスでのテーブルのフィルタリング](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
-   * **特定の属性別に行をグループ化**：テーブルをグループ化するフィールドを **グループ** セクションを表の上に置きます。 行グループの作成について詳しくは、 [レポートキャンバスのテーブル行をグループ化します](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).
+   * **数式フィールドを追加する**：クリック **新規+** の最上部に **フィールド** リスト。 数式フィールドの作成方法について詳しくは、 [レポートキャンバスで数式フィールドを作成する](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
+   * **フィルターの追加**：テーブルをフィルターするフィールドを、 **フィルター** セクションを表の上に置きます。 フィルタールールの設定について詳しくは、 [レポートキャンバスでのテーブルのフィルタリング](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
+   * **特定の属性別に行をグループ化**：テーブルをグループ化するフィールドを **グループ化** セクションを表の上に置きます。 行グループの作成について詳しくは、 [レポートキャンバスのテーブル行をグループ化します](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).

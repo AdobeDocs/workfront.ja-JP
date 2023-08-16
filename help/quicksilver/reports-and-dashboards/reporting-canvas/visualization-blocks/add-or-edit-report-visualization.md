@@ -4,7 +4,9 @@ description: レポートキャンバスでのビジュアライゼーション�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 1%
@@ -38,11 +40,11 @@ ht-degree: 1%
 
    または
 
-   データが含まれるテーブルを含む既存のレポートで、 **その他のメニュー** アイコン ![](assets/more-icon.png) レポートのヘッダーで、 **編集**.
+   データが含まれるテーブルを含む既存のレポートで、 **その他のメニュー** アイコン ![](assets/more-icon.png) レポートのヘッダーで、「 **編集**.
 
 1. 画面の右側の、の下 **ブロックを追加**、次のいずれか：
 
-   次をドラッグ： **ビジュアライゼーション** アイコン****をキャンバス上に直接目的の場所に配置します。
+   次の項目をドラッグ： **ビジュアライゼーション** アイコン****をキャンバス上に直接、目的の場所に配置します。
 
    または
 
