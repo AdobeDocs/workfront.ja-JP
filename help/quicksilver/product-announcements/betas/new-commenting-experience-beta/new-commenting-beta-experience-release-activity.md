@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,9 @@ ht-degree: 2%
 
 次の情報は、新しいコメントベータ版エクスペリエンスに含まれる機能に基づいて、毎週リリースアクティビティを参照します。 この記事では、新しいコメント作成機能で追加された新機能と、新しいコメント作成機能で解決された問題について説明します。
 
-### 2023 年 8 月 14 日の週（2023 年第 4 四半期リリースの開始）
+### 2023 年 8 月 14 日の週
+
+[2023 年 8 月 14 日の週にリリースされたすべての機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### 追加のオブジェクトに関する新しいコメント作成機能
 
