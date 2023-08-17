@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3496'
 ht-degree: 1%
 
 ---
@@ -19,56 +19,55 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
+<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2023 年第 4 四半期リリースの概要](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
+>どの環境から、およびどのオブジェクトからコメントエクスペリエンスにアクセスしたかに応じて、「更新」セクションに異なる機能が表示される場合があります。
+>
+>新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>新しいコメントエクスペリエンスは、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>
+> * ホーム
+> * リスト内の概要パネル
+> * タイムシートの [ 概要 ] パネル
 
-<!-- with October 26 release: add somewhere this:
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
 >[!NOTE]
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old message, before Auhust 17: 
 
 >[!NOTE]
 >
->現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * イシュー、プロジェクト、タスク、およびドキュメント。
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
+>     This is available when you enable the commenting Beta experience.
 >
->     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * ホーム
->     * リスト内の概要パネル
->     * タイムシートの [ 概要 ] パネル
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * 目標、ボード領域のカード
+> * Goals, cards in the Boards area
 >
->   新しいコメントエクスペリエンスは、目標とカードの唯一のエクスペリエンスです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
-
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+-->
 
 ## 作業の更新に関する考慮事項
 
@@ -170,8 +169,6 @@ drafted for P&P release:
 
 ## 作業項目に更新を追加する
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
-
 作業項目に更新を追加する方法は、[ 更新 ] セクションのバージョンと選択したオブジェクトによって異なります。
 
 ### 現在の更新セクションの作業項目に更新を追加する
@@ -245,9 +242,8 @@ drafted for P&P release:
 
    The **コメント** 「 」タブがデフォルトで選択されています。
 1. でコメントの入力を開始 **新しいコメント** ボックス。
-   <!-- August 17 - add new screen shot and make yellow-->
 
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -257,7 +253,7 @@ drafted for P&P release:
    * Ctrl + Z( Macの場合は⌘+z)：変更を元に戻します。
    * Ctrl + Y( Macの場合は⌘+y)：変更をやり直します。
 1. （オプション） **担当者またはチームのタグ付け** 領域に入力し、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
-1. （オプション）リッチテキストを使用するか、 <!--hidden for August 10: emojis,--> コンテンツを拡張するためのリンクまたは画像を更新に追加します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
+1. （オプション）リッチテキストを使用するか、更新に絵文字、リンク、画像を追加して、コンテンツを拡張します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
 
    >[!TIP]
    >
@@ -266,16 +262,14 @@ drafted for P&P release:
    >インジケーターは、コメントがアイテムに送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
    >
    >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント付けエクスペリエンスを使用している場合にのみ表示されます。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
 
 1. クリック **送信** をクリックして、Workfrontオブジェクトに更新を追加します。
-1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側にあるをクリックし、 **編集**.
+1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png)  <span class="preview">コメントの右上隅に</span>を選択し、次に **編集**.
 1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。
 コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
    >[!TIP]
    >
@@ -283,13 +277,19 @@ drafted for P&P release:
    >* コメントの横の日付スタンプは、最後の編集の日付ではなく、元のコメントの日付です。
 
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 4～8 に従います。 <!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+   >[!TIP]
+   >
+   >   <span class="preview">既存の返信に返信を追加する場合は、 **返信を追加…** ボックスを使用するか、 **返信** 元のコメントに対して。 返信はスレッドの最後に追加されます。</span>
+
+
 1. （条件付きおよびオプション）「更新」セクションの表示領域の外側に表示されるコメントを他のユーザーが追加した場合は、 **表示** 青の中に **新しいコメントバナー** をクリックして、これらのコメントを表示します。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
 
    追加のコメントが画面の下部に表示されます。
+
+
 
    >[!NOTE]
    >
@@ -299,9 +299,12 @@ drafted for P&P release:
 1. （オプション） **次に類似** アイコン![](assets/like-icon.png). アイコンは「いいね！」の数に応じて更新されます。
 1. （条件付きおよびオプション）コメントに追加の担当者を含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているエンティティのリストを表示します。
 
-<!--August 17 - new screen shot and make yellow-->
+   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
 
-![](assets/members-icons-expanded-unshimmed.png)
+   >[!TIP]
+   >
+   >   <span class="preview">最初の 2 つのタグ付きエンティティの名前が、アバターの横に表示されます。 3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前と追加エンティティの数のみが表示されます。</span>
+
 1. （オプション） **システムアクティビティ** タブをクリックして、システムによって記録された更新を表示します。 オブジェクトまたはその子オブジェクトが更新されると、Workfrontはその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。
 
    詳しくは、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -310,19 +313,22 @@ drafted for P&P release:
    >
    >システム更新にコメントを追加することはできません。
 
-
 ## Workfrontの更新でのリッチテキストの使用{#use-rich-text-in-a-workfront-update}
 
-<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->リッチテキストツールバーの一部のオプションは、コメントベータ版のエクスペリエンスでは使用できない場合があります。
+>リッチテキストツールバーの一部のオプションは、新しいコメントエクスペリエンスでは使用できない場合があります。
 
 リッチテキストを使用したり、絵文字、リンク、画像などの様々な項目を追加したりして、更新内容を強化できます。
 
 1. 次に移動： **更新** Workfrontオブジェクトの領域に入力し、コメントの入力を開始します。
-1. （オプション）リッチテキスト書式を更新に追加するには、 **リッチテキスト** ツールバーを使用します。 <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
+1. （オプション）リッチテキスト書式を更新に追加するには、 **リッチテキスト** ツールバーを使用します。
+
+   ![](assets/rich-text-toolbar.png)
+
+   <!--October 2023: the individual icons in the toolbar will need replacing-->
 
    | **属性** | **ツールバーボタン** | **Macショートカットキー** | **Windows のショートカットキー** |
    |---|---|---|---|
@@ -336,7 +342,7 @@ drafted for P&P release:
 
    テキストの書式設定を停止するには、 **リッチテキスト** ツールバー。
 
-   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
    >[!NOTE]
    >
@@ -347,9 +353,7 @@ drafted for P&P release:
 
 1. （オプション）以前の更新のテキストや他のソースのテキストを含め、独自の更新と区別する場合は、ブロック引用としてマークできます。 次をクリック： **ブロック見積もり** アイコン ![](assets/block-quote-small.png) 引用するテキストを入力します。 引用されたテキストは、垂直の灰色の線でマークされて表示されます。 次をクリック： **ブロック見積もり** 通常の書式に戻るにはアイコンを再度使用します。
 
-   <!--August 17 - new screen shot and make yellow-->
-
-   ![](assets/block-quote-marked-350x144.png)
+   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
 
 1. （オプション）更新に絵文字を追加します。
 
@@ -416,7 +420,7 @@ drafted for P&P release:
 1. コピーする更新または返信に移動します。
 1. 次をクリック： **その他** メニュー、次に「 **本文をコピー**.
 
-   ![「本文をコピー」を選択します。](assets/update-stream-copy-body-text-350x152.png)
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### スレッドリンクをコピー {#copy-the-thread-link}
 
@@ -435,14 +439,13 @@ drafted for P&P release:
 1. コピーする更新または返信に移動します。
 1. 次をクリック： **その他** 個々の更新の横にあるメニューで、 **更新リンクをコピー**.
 
-   ![](assets/update-stream-reply-menu-marked-350x182.png)
-
+   ![](assets/copy-update-link-old-ui.png)
 
 ### 新しいコメントエクスペリエンスでの更新のコピー
 
 新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the sections below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
 * [リンクをコピー](#copy-link)
 * [本文をコピー](#copy-body-text)
@@ -469,7 +472,7 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 別のユーザーがおこなった更新を削除できるWorkfrontユーザー (Workfront管理者を含む ) はいません。 ただし、ユーザーのアクセスレベルでユーザーが自分の更新を削除できる場合、Workfront管理者はそのユーザーとしてログインし、加えた更新を削除できます。 詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) および [別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. 削除する更新または返信に移動します。
-1. 次をクリック： **その他** 削除する更新または返信の横のメニューから、 **削除**. <!--October 26 - replace screen shot here-->
+1. 次をクリック： **その他** 削除する更新または返信の横のメニューから、 **削除**. <!--October 2023 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -481,9 +484,7 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
    削除したコメントに返信が関連付けられている場合は、コメントが削除されたユーザーの名前で削除されたことを示すメッセージが表示されます。
 
-   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
-
-   ![](assets/removed-comment-indicator-new-experience.png)
+   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
 
    コメントベータ版エクスペリエンスを使用する場合、削除されたコメントはWorkfrontから直ちに削除されます。 「更新」セクションを使用するユーザーは、別のユーザーがコメントをリアルタイムで削除しているのを確認します。
 
@@ -514,9 +515,9 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
 ## システム更新を有効または無効にする
 
-<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
+<!--October 2023: remove the whole section because this is no longer possible -->
 
-<!--when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
+<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
@@ -527,11 +528,11 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
 Workfrontオブジェクトの「更新」セクションには、次の 2 種類の情報が表示されます。
 
-* **ユーザーの更新：** ユーザーの更新とは、自分とシステム内の他のユーザーが入力するコメントです。 <!--August 17 - new screen shot and make yellow-->
+* **ユーザーの更新：** ユーザーの更新とは、自分とシステム内の他のユーザーが入力するコメントです。 <!--October 2023 - new screen shot -->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **システムの更新：** アセットの削除、バージョンの追加または削除、承認リクエストの添付または削除、およびオブジェクト上のドキュメントに対する編集または変更が記録されます。 <!--August 17 - new screen shot and make yellow-->
+* **システムの更新：** アセットの削除、バージョンの追加または削除、承認リクエストの添付または削除、およびオブジェクト上のドキュメントに対する編集または変更が記録されます。 <!--October 2023 - new screen shot -->
 
   ![](assets/system-updates-cl-350x277.png)
 

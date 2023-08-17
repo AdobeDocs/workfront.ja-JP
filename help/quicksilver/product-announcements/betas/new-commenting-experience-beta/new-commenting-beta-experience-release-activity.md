@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 3%
+source-wordcount: '1894'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+* <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
@@ -27,17 +27,6 @@ ht-degree: 3%
 
 現在利用可能な機能や調査中の機能のリストなど、新しいコメント作成の経験に関する一般的な情報については、 [新しいコメントエクスペリエンス](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-
-<!--On August 17, replace the Important box below with the following - AND MAKE SURE THAT THE "WEEKLY RELEASE OF AUGUST 14" IS AN ACTUAL PAGE: 
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Starting with the weekly release of August 14, 2023, the beta commenting experience ended. 
->
-><span class="preview">New commenting features continued to be released to the Preview and Production environments, as described in the section [Release timeline](#release-timeline) in this article.</span>
--->
 
 >[!IMPORTANT]
 >
@@ -61,12 +50,11 @@ ht-degree: 3%
 * 23.3 リリース（2023 年 7 月 21 日）:
    * プロジェクト、タスク、ドキュメントに対する Experience Beta のコメント化。
    * （唯一のエクスペリエンスとして）ボード領域のカードに対する新しいコメントエクスペリエンス
-* 23.10 リリース（発表日）中（限定リリース。高速リリースを選択したお客様のみ利用可能）: <!--for August 17 - add the actual date in here-->
+* 2023 年第 4 四半期リリース（限定リリース。高速リリースを選択したお客様のみが利用できます）:
    * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートに関する新しいコメント作成エクスペリエンス（唯一のエクスペリエンス）
-   * プロジェクト、タスク、問題、ドキュメントに対する Experience Beta のコメント付けがデフォルトのオプションになります。 これにより、新しいコメント作成エクスペリエンスのベータ段階が終了します。
-* 23.10 リリース（2023 年 10 月）
+   * プロジェクト、タスク、問題、ドキュメントに対する Experience Beta のコメント付けがデフォルトのオプションになります。 「Beta」ラベルが削除されました。
+* 2023 年第 4 四半期 (23.10) リリース（2023 年 10 月）
    * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートに関する新しいコメント作成エクスペリエンス（唯一のエクスペリエンス）
-  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
    * プロジェクト、タスク、タスク、イシュー、ドキュメントに対する新しいコメント作成機能がデフォルトのオプションになります。 これにより、新しいコメント作成エクスペリエンスのベータ段階が終了します。
 * 2023 年末：
    * 従来のコメント作成機能は、プロジェクト、タスク、問題、ドキュメントの各オブジェクトのセカンダリオプションとして引き続き使用できます。
@@ -79,48 +67,93 @@ ht-degree: 3%
 
 次の節では、最近リリースされた機能から始まる、元の 23.2 リリースの後に追加された機能のリストを示します。
 
-<!--For the August 17 release - IF ANNA AGREES NOT TO SEND STUFF TO BETA ANYMORE: 
-
->[!IMPORTANT]
->
-><span class="preview">The following section contains as a list of features released during the Beta phase of the commenting experience, between April - August 2023. </span>
->
-><span class="preview"></span>
->
-><span class="preview">All features released after August 17, 2023 will be announced in the main release overview page for the current releases, starting with the Fourth Quarter release of 2023. For information, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
-
--->
-
-<!--for the August 17 release: remove the paragraph below and replace it with this: 
-
-The following information refers to the release activity on a weekly basis of the features included in the commenting beta experience between April - August, 2023. This article lists new features that were added and issues that were resolved for the new commenting experience. For information about features released after August 17, 2023, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
--->
-
 次の情報は、新しいコメントベータ版エクスペリエンスに含まれる機能に基づいて、毎週リリースアクティビティを参照します。 この記事では、新しいコメント作成機能で追加された新機能と、新しいコメント作成機能で解決された問題について説明します。
 
-<!--add the following with the August 17 release: 
+### 2023 年 8 月 14 日の週（2023 年第 4 四半期リリースの開始）
 
-### Week of August 14, 2023
+#### 追加のオブジェクトに関する新しいコメント作成機能
 
-#### Avatar improvements when tagging users in an update
+23.3 の実稼働環境へのリリース後すぐに、新しいコメントエクスペリエンスが、テンプレートタスク、テンプレート、タイムシート、チーム、ユーザー、プログラム、ポートフォリオのオブジェクトで使用できるようになります。
 
-To give you better visibility into which users are tagged in an update, we now display the names of the users (up to two users) that are tagged in an update. For more information, see [Tag others in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+これらのオブジェクトにアクセスすると、従来のコメントエクスペリエンスは削除されるので、これが唯一のコメントエクスペリエンスになります。
 
--->
+詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-### 2023 年 6 月 20 日以降にリリースされた機能
+プレビューリリース： 2023 年 8 月 18 日
 
-<!--restructure this section with actual weeks and dates, when we know them-->
+高速リリース用の実稼動リリース： 23.8 リリース（2023 年 8 月 31 日）
 
-この節に記載されている機能は、2023 年 6 月 20 日の週の直後にリリースされる予定です。
+すべてのお客様向けの実稼動リリース： 23.10 リリース（2023 年 10 月）
+
+#### 新しいコメントストリームの新しいデザインの更新
+
+新しいコメントストリームのデザインを一新し、より新しいルックアンドフィールを提供しました。 改善点の一部を次に示します。
+
+* ページの幅全体を占めるのではなく、ページの中央にコメントストリームのコンテンツが配置されます。
+
+* その他のメニューアイコンは、「いいね！」ボタンの横ではなく、コメントの右上隅に移動します。
+
+* 「いいね！」ボタンと「返信」ボタンが隣に配置されるようになりました。
+
+* コメント領域の右上隅にある「ログ時間」ボタンが再配置されました。
+
+* ユーザーに既存の返信に返信を追加するよう促すための返信の追加プロンプトが追加されました。
+
+* 各コメントスレッドの間に分離線があります
+
+詳しくは、 [「更新」タブの概要](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+プレビューリリース： 2023 年 8 月 18 日
+
+高速リリース用の実稼動： 23.8 リリース（2023 年 8 月 31 日）
+
+四半期リリースの実稼働： 23.10 リリース（2023 年 10 月）
+
+#### 新しいコメントエクスペリエンスは、プロジェクト、タスク、問題、ドキュメントのデフォルトエクスペリエンスです
+
+新しいコメントエクスペリエンスを、プロジェクト、タスク、問題、ドキュメントの各オブジェクトのデフォルトエクスペリエンスにします。  従来のコメントエクスペリエンスは、これらのオブジェクトにアクセスする際の代替オプションとして引き続き使用できます。
+
+この変更をサポートするために、「Commenting Beta」切り替えの名前を「New commenting」に変更しました。
+
+詳しくは、 [新しいコメントエクスペリエンス](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+プレビューリリース： 2023 年 8 月 18 日
+
+高速リリース用の実稼動： 23.8 リリース（2023 年 8 月 31 日）
+
+四半期リリースの実稼働： 23.10 リリース（2023 年 10 月）
+
+#### 更新でユーザーにタグ付けする際のアバターの改善
+
+更新でタグ付けされたユーザーをより明確に把握できるように、更新でタグ付けされたユーザー（最大 2 人のユーザー）の名前が表示されるようになりました。 詳しくは、 [更新の他のユーザーへのタグ付け](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+プレビューリリース： 2023 年 8 月 18 日
+
+高速リリース用の実稼動： 23.8 リリース（2023 年 8 月 31 日）
+
+すべてのお客様向けの実稼動環境：23.10 リリース（2023 年 10 月）
+
+### 2023 年 8 月 7 日の週
+
+#### 更新への絵文字の追加
+
+新しいコメントエクスペリエンスのリッチテキストツールバーオプションを使用して、コメントに絵文字を追加できるようになりました。
+
+詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). ドキュメントはリリース時に更新されます。
+
+プレビューおよび実稼動環境：2023 年 8 月 11 日
+
+### 2023 年 7 月 10 日の週
 
 #### すべてのねじ参加者に自動的にタグを付ける
 
 コメントの所有者がスレッドで自動的にタグ付けされるようになりました。 この更新以前は、「@name」タグを使用するか、タグ付きユーザーのリストに表示される「人またはチームのタグ付け」セクションに追加することで、タグ付けされたユーザーのみが更新されました。 これにより、以前に手動でタグ付けしなかった場合でも、必要に応じてスレッドからコメントの所有者を削除できるようになりました。
 
-プレビューリリース予定日： 2023 年 7 月 13 日
+プレビューリリース： 2023 年 7 月 13 日
 
-Production Planned リリース（2023 年 7 月 13 日）
+実稼動リリース： 2023 年 7 月 13 日
+
+### 2023 年 7 月 3 日の週
 
 #### ログ時間の新しいインターフェイス
 
@@ -130,7 +163,9 @@ Production Planned リリース（2023 年 7 月 13 日）
 
 プレビューリリース： 2023 年 7 月 6 日
 
-実稼動版リリース： 23.3 リリースを使用
+実稼動リリース： 23.3 リリース（2023 年 7 月）から
+
+### 2023 年 6 月 26 日の週
 
 #### 新しい返信でコメントの内容を引用
 
@@ -142,28 +177,6 @@ Production Planned リリース（2023 年 7 月 13 日）
 
 実稼動リリース： 2023 年 6 月 30 日
 
-#### 更新への絵文字の追加
-
-新しいコメントエクスペリエンスのリッチテキストツールバーオプションを使用して、コメントに絵文字を追加できるようになりました。
-
-詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). ドキュメントはリリース時に更新されます。
-
-プレビューおよび実稼動環境：2023 年 8 月 11 日
-
-#### 追加のオブジェクトに関する新しいコメント作成機能
-
-23.3 の実稼働環境へのリリース後すぐに、新しいコメントエクスペリエンスが、テンプレートタスク、テンプレート、タイムシート、チーム、ユーザー、プログラム、ポートフォリオのオブジェクトで使用できるようになります。
-
-これらのオブジェクトにアクセスすると、従来のコメントエクスペリエンスは削除されるので、これが唯一のコメントエクスペリエンスになります。
-
-詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). ドキュメントはリリース時に更新されます。
-
-プレビューリリース：23.3 実稼動版リリース（2023 年 7 月 20 日）後に発表予定
-
-Fast リリースのお客様向けの実稼動リリース： 23.3 リリース後に発表予定
-
-すべてのお客様向けの実稼動リリース：23.4 リリースを使用
-
 ### 2023 年 6 月 12 日の週
 
 #### 「ボード」領域のカードに対する新しいコメントエクスペリエンス
@@ -174,7 +187,7 @@ Fast リリースのお客様向けの実稼動リリース： 23.3 リリース
 
 先行オプトインの実稼動リリース：2023 年 6 月 23 日
 
-すべてのお客様向けの実稼動：23.3 リリースを使用
+すべてのお客様向け：23.3 リリース（2023 年 7 月）を含む
 
 #### コメントにブロック引用符を追加する
 
@@ -210,7 +223,7 @@ Fast リリースのお客様向けの実稼動リリース： 23.3 リリース
 
 プレビュー： 2023 年 6 月 2 日
 
-実稼動： 23.3 リリースを使用
+実稼動： 23.3 リリース（2023 年 7 月）を使用
 
 >[!NOTE]
 >
@@ -238,7 +251,7 @@ Fast リリースのお客様向けの実稼動リリース： 23.3 リリース
 
 プレビュー： 2023 年 6 月 2 日
 
-実稼動： 23.3 リリースを使用
+実稼動： 23.3 リリース（2023 年 7 月）を使用
 
 ### 2023 年 5 月 15 日の週
 

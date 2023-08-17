@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1577'
 ht-degree: 0%
 
 ---
@@ -17,49 +17,51 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
+<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--replace the note below with this at August 17: 
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2023 年第 4 四半期リリースの概要](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+
+>[!IMPORTANT]
+>
+>現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
+>どの環境から、およびどのオブジェクトからコメントエクスペリエンスにアクセスしたかに応じて、「更新」セクションに異なる機能が表示される場合があります。
+>
+>新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>新しいコメントエクスペリエンスは、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>
+> * ホーム
+> * リスト内の概要パネル
+> * タイムシートの [ 概要 ] パネル
+
+
+<!--old note before August 17: 
+
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
+>
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
+>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
+>
+> * Goals, cards in the Boards area
+>
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 -->
-
->[!NOTE]
->
->現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
->
->新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * イシュー、プロジェクト、タスク、およびドキュメント。
->
->     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
->
->     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
->
->     * ホーム
->     * リスト内の概要パネル
->     * タイムシートの [ 概要 ] パネル
->
-> * 目標、ボード領域のカード
->
->   新しいコメントエクスペリエンスは、目標とカードの唯一のエクスペリエンスです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->     カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
-
 
 ユーザーが従わない可能性のあるオブジェクトに注意を向けたい場合は、オブジェクトの更新時にユーザーにタグを付けることができます。
 これらのユーザーを割り当てたり、サブスクライブしたりして、オブジェクトに含めるのではなく、更新時にタグ付けしてユーザーと共有することができます。 タグ付きユーザーは、入力した更新に関する通知を受け取ります。
@@ -204,16 +206,10 @@ ht-degree: 0%
 1. クリック **送信**.\
    更新に含まれるユーザーには、オブジェクトに対する表示権限が自動的に付与され、オブジェクトに対する更新の表示と応答が可能になります。
 
-   「メンバー」領域で、更新のテキストの下に、各返信でタグ付けされたユーザーを確認できます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。
-
-   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged users display next to their avatars, up to two users. If more than two users are tagged the name of the first tagged user displays, in addition to a number of how many additional users are tagged.</span> -->
-
-1. （オプション） **メンバー** を更新に含めて、入力した更新が共有されているエンティティのリストを表示します。
-
-   <!--update screen shot for August 17-->
+   <span class="preview">タグ付きエンティティの名前は、アバターの横に、最大 2 つのエンティティまで表示されます。 3 つ以上のエンティティがタグ付けされている場合、最初のエンティティの名前が表示され、さらにタグ付けされたエンティティの数も表示されます。</span>
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    作業項目の更新時に使用できる追加機能について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. （オプション） **その他** メニュー ![](assets/more-menu.png) 「いいね！」アイコンの右側に <!--with the August 17 release - replace placing of the More icon: <span class="preview">in the upper-right corner of the comment</span>-->を選択し、次に **編集**. タグ付きユーザーを削除し、「 **送信**. コメントは、入力後 15 分以内に編集できます。 編集できるのは、自分が追加したコメントだけです。
+1. （オプション） **その他** メニュー ![](assets/more-menu.png) <span class="preview">コメントの右上隅に</span>を選択し、次に **編集**. タグ付きユーザーを削除し、「 **送信**. コメントは、入力後 15 分以内に編集できます。 編集できるのは、自分が追加したコメントだけです。

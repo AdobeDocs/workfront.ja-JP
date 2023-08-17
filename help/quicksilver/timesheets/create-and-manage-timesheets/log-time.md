@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3409'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
+<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-Adobe Workfrontの作業項目の作業時間をログに記録して、作業に費やした時間を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。 記録した時刻がタイムシートに表示されます。
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2023 年第 4 四半期リリースの概要](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+
+Adobe Workfrontの作業項目に費やした時間を記録して、その作業項目に費やした時間を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。 記録した時刻がタイムシートに表示されます。
 
 Workfrontにログインできる時間の種類について詳しくは、 [時間タイプの管理](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
@@ -68,15 +71,15 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <ul><li>タイムシートの一般時間を記録するには、確認するか、それ以上を指定します</li>
-   <li> 作業時間以上：プロジェクト、タスク、またはタスクに時間を記録します</li></ul>
+   <li> 作業時間以上：プロジェクト、タスク、またはタスクに時間を記録します。</li></ul>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>時間を記録する作業項目のタイプへのアクセスを編集 </p> <p>例えば、問題の発生時間を記録するには、問題に対する編集アクセス権が必要です</p> <p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>時間を記録する作業項目のタイプへのアクセスを編集します </p> <p>例えば、問題の発生時間を記録するには、問題に対する編集アクセス権が必要です</p> <p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>ログ時間に対する権限を含む、時刻を記録する作業項目に対する権限を付与するか、それ以上の権限を付与します。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +131,7 @@ Workfrontの次の領域で時間をログに記録できます。
 
    >[!NOTE]
    >
-   >タイムシートには、自分に割り当てられた項目のみが事前入力されます。 チームやジョブの役割に割り当てられた項目を事前に設定することはありません。
+   >タイムシートには、自分に割り当てられた項目のみが事前入力されます。 チームやジョブの役割に割り当てられた項目を事前に設定することはできません。
    >
    >チームに割り当てられた項目で [ 作業 ] をクリックすると、項目が割り当てられ、項目がタイムシートに表示されます。
 
@@ -184,13 +187,13 @@ Workfrontの次の領域で時間をログに記録できます。
 
    >[!TIP]
    >
-   >   タイムシート内の項目をクリックした後で標準の QWERTY キーボードを使用する場合は、次のキーを押して項目を固定します。
+   >   タイムシートで項目をクリックした後に標準の QWERTY キーボードを使用する場合は、次のキーを押して項目を固定します。
    >   * Windows コンピューターとMacコンピューターの両方で Option + P。
 
 
 1. （オプション）検索アイコン ![](assets/search-icon.png) キーワードを入力して、タイムシートのプロジェクト、タスク、またはイシューを検索します。
 
-1. （条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当て** 設定時に、ドロップダウンメニューからジョブの役割を選択します。 作業項目に割り当てられたときに指定されたロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. （条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当てる** 設定時に、ドロップダウンメニューからジョブの役割を選択します。 作業項目に割り当てられたときに指定されたロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    ![タイムシートの複数の役割のログ時間](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
@@ -219,7 +222,7 @@ Workfrontの次の領域で時間をログに記録できます。
 
    >[!TIP]
    >
-   >   オペレーティングシステムやブラウザーに応じて、標準の QWERTY キーボードを使用する場合は、次のキーを押して行を削除します。
+   >   オペレーティングシステムやブラウザーに応じて、標準の QWERTY キーボードを使用する場合は、次のキーのセットを押して行を削除します。
    >   * Windows コンピューターの場合は Ctrl + Option + -
    >   * Macコンピューターの Cmd + Option + -
 
@@ -228,15 +231,15 @@ Workfrontの次の領域で時間をログに記録できます。
 
    ![タイムシートのログ時間ボックス](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
 
-   時間は、時間または日で記録します。 この設定は、プランライセンスを持つユーザーまたはシステム管理者が構成します。詳しくは、 [時間をログイン時間または日に設定](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+   時間は、時間または日単位で記録します。 この設定は、プランライセンスを持つユーザーまたはシステム管理者が構成します。詳しくは、 [時間をログイン時間または日に設定する](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 
    >[!IMPORTANT]
    >
    >次のいずれかのシナリオが発生した場合は、タイムシートを手動で保存する必要があります。
    >
-   >* 以前にログに記録した時間に関連付けられたジョブの役割が変更され、 **ジョブの役割を時間エントリに手動で割り当て** の設定が無効になっています。 新しい日付のログ時刻は、別のジョブの役割に関連付けられます。
+   >* 以前にログに記録した時間に関連付けられたジョブの役割が変更され、 **ジョブの役割を時間エントリに手動で割り当てる** の設定が無効になっています。 新しい日付のログ時刻は、別のジョブの役割に関連付けられます。
    >   
-   >   役割が変更され、 **ジョブの役割を時間エントリに手動で割り当て** を有効にすると、時刻を記録したり、役割を更新したりでき、変更内容は自動的に保存されます。
+   >   役割が変更され、 **ジョブの役割を時間エントリに手動で割り当てる** を有効にすると、時刻を記録したり、役割を更新したりでき、変更内容は自動的に保存されます。
    >
    >* タスクまたは問題に割り当てられたジョブの役割は、タイムシート所有者が時刻を記録するジョブの役割とは異なります <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
    >
@@ -258,7 +261,7 @@ Workfrontの次の領域で時間をログに記録できます。
    >   時間入力ボックスをクリックした後で標準の QWERTY キーボードを使用する場合は、次のキーのセットを押してコメントボックスを開きます。
    >   * Windows とMacの両方のコンピューターで Shift + F2 を押します。
 
-1. クリック **完了** コメントを保存します。
+1. クリック **完了** をクリックしてコメントを保存します。
 
    >[!TIP]
    >
@@ -291,13 +294,13 @@ Workfrontの次の領域で時間をログに記録できます。
 
    ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
-   * **閉じる**:更新が完了したら、タイムシートを閉じます。 このオプションは、タイムシートが承認者に関連付けられていない場合にのみ使用できます。
+   * **閉じる**：タイムシートの更新が完了したら、タイムシートを閉じます。 このオプションは、タイムシートが承認者に関連付けられていない場合にのみ使用できます。
 
    * **承認用に送信：** このオプションは、タイムシートに承認者がいる場合にのみ使用できます。 変更を保存し、承認用に送信します。 タイムシートを閉じた後に、次をクリックして開くことができます： **再現率**（まだ承認されていない場合） 詳しくは、 [承認用のタイムシートを送信](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
-   * **拒否**:このオプションは、タイムシートの承認者で、タイムシートが承認用に送信された場合に表示されます。 これをクリックすると、タイムシートの状態が [ 却下 ] に変わり、タイムシートは開いたままになります。
+   * **拒否**：このオプションは、タイムシートの承認者で、タイムシートが承認用に送信された場合に表示されます。 これをクリックすると、タイムシートの状態が [ 却下 ] に変わり、タイムシートは開いたままになります。
 
-   * **承認**:このオプションは、タイムシートの承認者で、タイムシートが承認用に送信された場合に表示されます。 これをクリックすると、タイムシートの状態が [ 承認済み ] に変わり、タイムシートが閉じられます。
+   * **承認**：このオプションは、タイムシートの承認者で、タイムシートが承認用に送信された場合に表示されます。 これをクリックすると、タイムシートの状態が [ 承認済み ] に変わり、タイムシートが閉じられます。
 
    >[!TIP]
    >
@@ -305,8 +308,8 @@ Workfrontの次の領域で時間をログに記録できます。
 
 1. （条件付き）タイムシートを閉じたか、承認用に提出した場合は、次のいずれかのオプションをクリックします。
 
-   * **再度開く**:このオプションは、既に終了していて、承認者を持たないタイムシート、または既に承認済みのタイムシートに対して使用できます。 タイムシートを再度開いて、時間エントリを変更します。
-   * **再現率**:このオプションは、承認用に送信されたが、まだ承認または却下されていないタイムシートに対して使用できます。 クリック **再現率** タイムシートを再度開き、時間エントリを変更する。
+   * **再度開く**：このオプションは、既に閉じていて、承認者を持たないタイムシート、または既に承認済みのタイムシートに対して使用できます。 タイムシートを再度開いて、時間エントリを変更します。
+   * **再現率**：このオプションは、承認用に送信されたが、まだ承認または却下されていないタイムシートに対して使用できます。 クリック **再現率** タイムシートを再度開き、時間エントリを変更する。
 
 #### タイムシートから項目を削除する
 
@@ -326,7 +329,7 @@ Workfrontの次の領域で時間をログに記録できます。
 手動で追加したタイムシートから項目を削除するには、次の手順に従います。
 
 1. アイテムに対して時間が記録されていないことを確認します。
-1. 次をクリック： **固定解除** アイコン ![項目の固定](assets/pin-icon.png) 項目の横に表示され、タイムシートから項目の固定を解除します。
+1. 次をクリック： **ピン留め** アイコン ![項目の固定](assets/pin-icon.png) 項目の横に表示され、タイムシートから項目の固定を解除します。
 
    >[!TIP]
    >
@@ -339,19 +342,19 @@ Workfrontの次の領域で時間をログに記録できます。
 
 プロジェクト固有の時間を Home でログに記録できます。
 
-ホーム領域の使用に関する一般情報については、 [ホーム領域を使用](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+ホーム領域の使用に関する一般情報については、 [ホーム領域を使用する](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 [ ホーム ] 領域から作業項目の時間を記録するには、次の手順に従います。
 
-1. 内 **作業用リスト** 「 」領域で、時間を記録する項目を選択します。
+1. Adobe Analytics の **作業用リスト** 「 」領域で、時間を記録する項目を選択します。
 1. 右側のパネルで、 **ログ時間**.
 
    ![](assets/log-time-home-350x181.png)
 
-1. 内 **時間を入力** ドロップダウンメニューから、適切な時間タイプを選択します。\
+1. Adobe Analytics の **時間を入力** ドロップダウンメニューから、適切な時間タイプを選択します。\
    時間タイプは、システム、プロジェクト、ユーザーレベルで定義された内容に応じて使用できます。詳しくは、 [タイムシートの時間の種類と可用性を定義する](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. （条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当て** 設定時に、ドロップダウンメニューからジョブの役割を選択します。 作業項目に割り当てられたときに指定されたロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-1. ログに記録する時刻を指定し、 **ログ時間**.
+1. （条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当てる** 設定時に、ドロップダウンメニューからジョブの役割を選択します。 作業項目に割り当てられたときに指定されたロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. ログに記録する時刻を指定し、「 **ログ時間**.
 
 ### プロジェクト、タスクまたはタスク {#project-task-or-issue}
 
@@ -362,7 +365,7 @@ Workfrontの次の領域で時間をログに記録できます。
 
 #### セクションを更新{#updates-section}
 
-<!--remove the note below when the -->
+<!--remove the note below - October 2023 -->
 
 >[!NOTE]
 >
@@ -374,9 +377,9 @@ Workfrontの次の領域で時間をログに記録できます。
 
 * 作業またはプランのライセンス
 * ログ時間へのアクセス権を持つプロジェクト、タスク、または問題に対する権限を付与する。\
-  プロジェクトに対する権限の付与の詳細については、 [Adobe Workfrontでプロジェクトを共有する](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+  プロジェクトに対する権限の付与の詳細については、「 [Adobe Workfrontでプロジェクトを共有する](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* Workfront管理者が、 [!UICONTROL **タイムシートと時間**]> [!UICONTROL **環境設定**]&#x200B;を使用します。
+* Workfront管理者が、次のプロジェクトで直接ログ時間設定を有効にする必要があります。 [!UICONTROL **タイムシートと時間**]> [!UICONTROL **環境設定**]&#x200B;を使用します。
 
   ユーザーが時間を直接プロジェクトに記録できるようにする方法について詳しくは、 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -394,17 +397,17 @@ Workfrontの次の領域で時間をログに記録できます。
    >   
    >   「 Enter Days 」ボックスの右上隅に、1 日に含まれる時間数が示されます。
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. 次の情報を指定します。
 
-   * **時間タイプ**:デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
+   * **時間タイプ**：デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
 
      お使いのシステムで設定されている時間の種類に応じて、ここで選択できるオプションは異なる場合があります。 時間タイプの設定について詳しくは、 [タイムシートの時間の種類と可用性を定義する](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **ジョブの役割**:（条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当て** 設定、 **ジョブの役割** を選択します。 オブジェクトに割り当てられたときに指定したロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **ジョブの役割**: （条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当てる** 設定、 **ジョブの役割** を選択します。 オブジェクトに割り当てられたときに指定したロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   * **時間**:プロジェクト、タスク、またはタスクの時間数を入力します。
+   * **時間**：プロジェクト、タスクまたはタスクの時間数を入力します。
 
 1. クリック **ログ時間**.
 
@@ -416,8 +419,8 @@ Workfrontの次の領域で時間をログに記録できます。
 
 次のすべてが必要です。
 
-* タイムシートと時間に管理アクセスできるプランライセンス。 タイムシートおよび時間への管理アクセス権の付与の詳細については、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* ログ時間へのアクセス権を持つプロジェクトに、権限を付与するか、それ以上の権限を付与します。 プロジェクトに対する権限の付与の詳細については、 [Adobe Workfrontでプロジェクトを共有する](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* タイムシート&amp;時間への管理アクセス権を持つプランライセンス。 タイムシートおよび時間への管理アクセス権の付与の詳細については、「 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* ログ時間へのアクセス権を持つプロジェクトに、権限を付与するか、それ以上の権限を付与します。 プロジェクトに対する権限の付与の詳細については、「 [Adobe Workfrontでプロジェクトを共有する](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * 時間を直接プロジェクトに記録する場合は、Workfrontの管理者が [ タイムシートと時間 ] > [ プリファレンス ] の [ プロジェクトでの時間の直接記録 ] 設定を有効にする必要があります。 ユーザーが時間を直接プロジェクトに記録できるようにする方法について詳しくは、 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 プロジェクト、タスクまたはイシューの「時間」セクションに時間を記録するには、次の手順に従います。
@@ -433,12 +436,12 @@ Workfrontの次の領域で時間をログに記録できます。
    * **所有者：** お客様の名前は、デフォルトで、このフィールドに表示されます。\
      別のユーザーの時間をログに記録する場合は、そのユーザーの名前を指定します。
 
-   * **時間**:プロジェクト、タスク、またはタスクの時間数を入力します。
-   * **時間タイプ**:デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
+   * **時間**：プロジェクト、タスクまたはタスクの時間数を入力します。
+   * **時間タイプ**：デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
 
      お使いのシステムで設定されている時間の種類に応じて、ここで選択できるオプションは異なる場合があります。 時間タイプの設定について詳しくは、 [タイムシートの時間の種類と可用性を定義する](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **ジョブの役割**:（条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当て** 設定、 **ジョブの役割** を選択します。 オブジェクトに割り当てられたときに指定したロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **ジョブの役割**: （条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当てる** 設定、 **ジョブの役割** を選択します。 オブジェクトに割り当てられたときに指定したロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 

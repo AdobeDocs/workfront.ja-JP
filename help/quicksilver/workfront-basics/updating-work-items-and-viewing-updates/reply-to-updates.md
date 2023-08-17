@@ -8,60 +8,32 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # 更新に返信する
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
+<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2023 年第 4 四半期リリースの概要](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
-
--->
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
+>どの環境から、およびどのオブジェクトからコメントエクスペリエンスにアクセスしたかに応じて、「更新」セクションに異なる機能が表示される場合があります。
 >
->新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * イシュー、プロジェクト、タスク、およびドキュメント。
+>新しいコメントエクスペリエンスは、「更新」セクションでのみ使用でき、次の領域では使用できません。
 >
->     これは、コメント作成ベータ版のエクスペリエンスを有効にした場合に使用できます。
->
->     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
->
->     * ホーム
->     * リスト内の概要パネル
->     * タイムシートの [ 概要 ] パネル
->
-> * 目標、ボード領域のカード
->
->   新しいコメントエクスペリエンスは、目標とカードの唯一のエクスペリエンスです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->     カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
-
+> * ホーム
+> * リスト内の概要パネル
+> * タイムシートの [ 概要 ] パネル
 
 誰かが作業オブジェクトのコメントやシステムの更新に返信すると、その返信がそのオブジェクトの [ 更新 ] セクションの通信スレッドに表示されます。
 
@@ -133,16 +105,22 @@ ht-degree: 0%
 
 1. 返信を追加するオブジェクトに移動します。
 1. クリック **更新**」、「 **コメント** タブをクリックし、返信先のコメントまたは返信を探します。
-1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** 見積もりを行う更新または返信の横のメニュー <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>-->を選択し、次に **見積もりの返信**. 前の更新のテキストが入力領域に表示され、縦の灰色の線が付きます。
+1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** メニュー <span class="preview">返信先のコメントの右上隅</span>を選択し、次に **見積もりの返信**. 前の更新のテキストが入力領域に表示され、縦の灰色の線が付きます。
 1. クリック **返信**.
 
-   会話に積極的に関与しているユーザーがの下部に表示されます。 **新しいコメント** 」ボックスに追加して、不要なものを追加したり、削除したりできます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。 さらに多くのユーザーにタグを付けて、返信に含めることもできます。  さらに多くのユーザーにタグを付けるには、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   ![](assets/reply-to-update-empty-box.png)
+
+   会話に積極的に関与しているユーザーがの下部に表示されます。 **返信を追加…** 」ボックスに追加して、不要なものを追加したり、削除したりできます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。 さらに多くのユーザーにタグを付けて、返信に含めることもできます。  さらに多くのユーザーにタグを付けるには、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   >[!TIP]
+   >
+   >   <span class="preview">既存の返信に返信を追加する場合は、 **返信を追加…** ボックスを使用するか、 **返信** 元のコメントに対して。 返信はスレッドの最後に追加されます。 </span>
 
 1. 返信の入力を開始し、リッチテキストツールバーの追加のオプションを使用します。 リッチテキストなどの更新機能の使用について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. クリック **送信** をクリックして返信を保存します。
 
-1. （オプション） **その他** メニュー ![](assets/more-menu.png) 更新の横 <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> 返信を管理するその他のオプションを参照してください。 詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
+1. （オプション） **その他** メニュー ![](assets/more-menu.png) <span class="preview">返信先のコメントの右上隅</span> 返信を管理するその他のオプションを参照してください。 詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## 電子メール通知から更新に返信

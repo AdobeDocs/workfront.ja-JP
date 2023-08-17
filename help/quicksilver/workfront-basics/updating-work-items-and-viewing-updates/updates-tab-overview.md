@@ -7,9 +7,9 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
+source-git-commit: 5b9ee4d5d792d78f127f88bac3a0e4fea5cdf788
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1174'
 ht-degree: 4%
 
 ---
@@ -18,25 +18,24 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
+<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<!--replace the note below with this at August 17: 
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
->
-> * Home
-> * Summary panel in lists
-> * Summary panel in timesheets
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2023 年第 4 四半期リリースの概要](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
--->
+>[!IMPORTANT]
+>
+>現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
+>
+>どの環境から、およびどのオブジェクトからコメントエクスペリエンスにアクセスしたかに応じて、「更新」セクションに異なる機能が表示される場合があります。
+>
+>新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>新しいコメントエクスペリエンスは、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>
+> * ホーム
+> * リスト内の概要パネル
+> * タイムシートの [ 概要 ] パネル
 
 <!-- with October 26 release: add somewhere this:
 
@@ -44,38 +43,36 @@ ht-degree: 4%
 >
 >Iterations display the legacy commenting experience.-->
 
+<!--old note, removed with August 2023: 
+
 >[!NOTE]
 >
->現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->次のオブジェクトの新しいエクスペリエンスにアクセスできます。
-> * イシュー、プロジェクト、タスク、およびドキュメント。
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
 >
->     これは、新しいコメントエクスペリエンスを有効にする際に使用できます。
+>     This is available when you enable the new commenting experience.
 >
->     この機能は、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->     * ホーム
->     * リスト内の概要パネル
->     * タイムシートの [ 概要 ] パネル
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
-> * 目標、ボード領域のカード
+> * Goals, cards in the Boards area
 >
->   新しいコメントエクスペリエンスは、目標とカードの唯一のエクスペリエンスです。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-オブジェクトの「更新」(Updates) セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更を追跡するシステム更新が表示されます。
+The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
+
+-->
 
 ## アップデートセクションの概要
-
-「更新」セクションの情報は、アクセス元の環境に応じて異なります。
-
-### 現在の更新の節の概要
-
-<!--October 26 - replace current with legacy-->
 
 * オブジェクトの「更新」セクションには、過去 90 日以内におこなわれた最新の更新のうち、最大 200 個が表示されます。
 
@@ -106,12 +103,20 @@ ht-degree: 4%
       <li>テンプレート タスク</li> 
       <li>タイムシート</li> 
       <li>ユーザー</li>
+      <li>ボード上のカード</li>
       </ul> </td> 
     </tr> 
   </tbody> 
   </table>
 
   *ストーリーはタスクです。 タスクに関する情報はすべて、ストーリーに対しても利用できます。
+
+「更新」セクションの情報は、アクセス元の環境に応じて異なります。
+
+
+### 現在の更新の節の概要
+
+<!--October 26 - replace current with legacy-->
 
 * 現在の更新のセクションには、次の情報が表示されます。
 
@@ -128,74 +133,88 @@ ht-degree: 4%
 
 新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
+<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * 「更新」セクションには、新しいコメントエクスペリエンスの次のタブに情報が表示されます。
 
    * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
    * **システムアクティビティ**：特定のイベントをオブジェクトに記録するためにWorkfrontが作成する情報メッセージであるシステムアップデートを表示します。 例えば、システムの更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。 Workfrontまたはグループ管理者が、オブジェクトのシステム更新を有効にすることができます。 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+
+  * The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+    -->
+
 * 現在、次のオブジェクトに対する新しいコメント作成機能を使用して、コメントを追加したり、更新に返信したりできます。
 
-<!--replace the table with this list on August 17: 
 
-    * Projects
-    * Tasks (and stories)
-    * Issues
-    * Documents
+   * プロジェクト
+   * タスク（およびストーリー）
+   * 問題
+   * ドキュメント
+   * 目標
 
-    <span class="preview">
-    
-    * Templates
-    * Template Tasks
-    * Timesheets
-    * Users
-    * Portfolios
-    * Programs
-    
-    >[!NOTE]
-    >
-    >    You cannot display the new commenting experience for iterations. 
+  >[!NOTE]
+  >
+  >Workfront Goals にアクセスするには、追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-    </span>
-  
-  -->
+   * ボード上のカード
 
-<table style="table-layout:auto"> 
+  >[!NOTE]
+  >
+  > カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+
+
+  <span class="preview">
+
+   * テンプレート
+   * テンプレート タスク
+   * タイムシート
+   * ユーザー
+   * ポートフォリオ
+   * プログラム
+
+  >[!NOTE]
+  >
+  >    新しいコメントエクスペリエンスを繰り返し表示することはできません。
+
+  </span>
+
+<!--hidden in August 2023 and replaced by the list above: 
+
+  <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
       <tr> 
       <td> 
         <ul> 
-        <li><p>目標</p>
-        <li>ボード領域のカード*</li>
-          これが目標とカードの唯一の経験です。
+        <li><p>Goals</p>
+        <li>Cards in the Boards area*</li>
+          This is the only experience for goals and cards.
         </li> 
-        <li>プロジェクト</li>
+        <li>Projects</li>
         </ul> </td> 
       <td> 
         <ul> 
-        <li>問題</li> 
-        <li>タスク</li>
-        <li>ドキュメント</li>
+        <li>Issues</li> 
+        <li>Tasks</li>
+        <li>Documents</li>
         </ul> </td> 
       </tr> 
     </tbody> 
     </table>
 
-*カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、ボードエリアでカードの更新を追加および表示できます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+  -->
 
-<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
-* The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
--->
 
 ## 上位のオブジェクトにも表示される更新
 
@@ -287,7 +306,11 @@ ht-degree: 4%
 
 ### ユーザーおよびチームの制限
 
-チームを更新することはできません。 チームの「更新」セクションには、次のオブジェクトに入力された更新が入力されます。
+チームの「更新」セクションで新しいコメントを追加することはできません。
+
+<span class="preview">チームで表示する更新に返信を追加できます。 返信は、チームの更新セクションに表示され、返信が属するオブジェクトの更新セクションにも表示されます。 </span>
+
+チームの「更新」セクションには、次のオブジェクトに入力された更新が入力されます。
 
 * ユーザー
 * タイムシート
