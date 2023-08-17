@@ -6,9 +6,9 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ ht-degree: 0%
 * [!UICONTROL ステータス]
 * [!UICONTROL 完了予定日]
 * [!UICONTROL 推定] / [!UICONTROL ストーリーポイント]
+* <span class="preview">[!UICONTROL ドキュメント]</span>
 
 >[!NOTE]
+>
 >1 つの接続されたタスクまたはイシューは、ボードごとに 1 回だけ追加できます。 同じタスクまたは問題を複数のボードに接続できます。
 
 ## アクセス要件
@@ -143,8 +145,7 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL ドキュメント ]</strong></span></td>
-      <td><span class="preview"><p>ドキュメントのサムネールの上にマウスポインターを置いて、 <strong>プレビュー</strong> ファイルをブラウザーに表示するには、または <strong>ダウンロード</strong> をクリックして、ファイルをコンピューターにダウンロードします。</p></span>
-      <span class="preview"><p><strong>注意：</strong> この時点で、ドキュメントを接続されたカードで使用できるようにするには、Workfrontタスクにドキュメントをアップロードする必要があります。</p></span></td>
+      <td><span class="preview">既存のドキュメントの場合は、ドキュメントのサムネールの上にマウスポインターを置いて、 <strong>プレビュー</strong> ファイルをブラウザーに表示するには、または <strong>ダウンロード</strong> をクリックして、ファイルをコンピューターにダウンロードします。 新しいドキュメントについては、 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">カードへのドキュメントの追加</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 時間 ]</strong></td>

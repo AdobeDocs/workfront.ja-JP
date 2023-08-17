@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 2%
 
 ---
@@ -962,6 +962,7 @@ ht-degree: 2%
       * [ボードへの既存のタスクまたはイシューの追加](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [カードの管理](agile/get-started-with-boards/move-board-items.md)
       * [カードのチェックリスト項目を管理](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [カードへのドキュメントの追加](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [ボードからのカードの削除またはアーカイブ](agile/get-started-with-boards/delete-board-items.md)
       * [ボード内でのフィルターと検索](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1083,20 +1084,20 @@ ht-degree: 2%
          * [拡張コネクタ付きドキュメントの送信](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-send-document.md)
          * [リンクされたアセットの強化されたコネクタによる配達確認](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [拡張コネクタを使用した、リンクされたアセットの表示またはダウンロード](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
-      * Experience Manager AssetsとAssets EssentialsのAdobe Workfront {#wf-aem-essentials}
-         * [Experience Manager AssetsとAssets EssentialsのAdobe Workfront](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+      * Adobe Workfront for Experience Manager AssetsとAssets Essentials {#wf-aem-essentials}
+         * [Adobe Workfront for Experience Manager AssetsとAssets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Adobe Experience Manager Assets 統合の概要](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Experience Manager Assets Essentials からのアセットおよびフォルダーのリンク](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Experience Manager AssetsまたはAssets Essentialsのマッピングされたメタデータの表示](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-         * [Experience Manager AssetsまたはAssets Essentialsからのリンクされたアセットの表示またはダウンロード](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-         * [Experience Manager AssetsまたはAssets Essentialsにドキュメントを送信する](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+         * [Experience Manager Assetsまたは Assets からのリンクされたアセットの表示またはダウンロードAssets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+         * [Experience Manager AssetsまたはAssets Essentialsへのドキュメントの送信](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Experience Manager Assetsまたは Asset Essentials のリンクされたアセットの配達確認](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-         * [Experience Manager AssetsまたはAssets Essentialsにリンクしたフォルダーの作成](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Experience Manager AssetsまたはフォルダーにリンクしたAssets Essentialsーの作成](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Adobe Experience Manager統合のトラブルシューティング](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 従来のコネクタまたは拡張コネクタからの移行 {#migrate-from-legacy-enhanced-connectors}
       * [従来のコネクタまたは拡張コネクタからの移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [従来のコネクタまたは拡張コネクタからWorkfront for Adobe Experience Manageras a Cloud Service統合への移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [従来のコネクタまたは拡張コネクタからWorkfrontへのAdobeExperience Manageras a Cloud Service統合](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [従来のコネクタから拡張コネクタへの移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Adobe Experience ManagerレガシーコネクタでのWorkfrontのアンインストール](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Adobe Experience Manager拡張コネクタ付きWorkfrontのアンインストール](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)

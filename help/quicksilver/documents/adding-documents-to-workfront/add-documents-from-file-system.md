@@ -6,19 +6,22 @@ description: Adobe Workfront - EDIT ME の以下の領域で、プロジェク�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
 
 # ファイルシステムからAdobe Workfrontにドキュメントを追加する
 
+{{preview-and-fast-release}}
+
 Adobe Workfrontの次の領域で、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
 
 * 「グローバルドキュメント」領域
-* Workfrontオブジェクトのドキュメント領域
+* Workfrontオブジェクトの「ドキュメント」領域
+* <span class="preview">Workfrontボード上の接続済みカード</span>
 
 また、新しいバージョンのドキュメントをアップロードし、Google Drive、Dropbox、Microsoft OneDrive など、サードパーティのクラウドベンダーからのドキュメントへのリンクを追加することもできます。 新しいバージョンのドキュメントの追加について詳しくは、 [新しいバージョンのドキュメントをアップロード](../../documents/managing-documents/upload-new-document-version.md). サードパーティのクラウドベンダーからのドキュメントの追加について詳しくは、 [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -44,12 +47,12 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## Workfrontにドキュメントを追加
 
@@ -73,30 +76,30 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">ワークステーションにファイルシステムからドキュメントをアップロード</td> 
+      <td role="rowheader">ワークステーションにファイルシステムからドキュメントをアップロードする</td> 
       <td> 
        <ol> 
-        <li value="1">次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>文書。</strong></li> 
+        <li value="1">次から： <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>文書。</strong></li> 
         <li value="2"> <p>ワークステーション上のファイルシステムから、追加するドキュメントを参照して選択します。<br></p> <p>Shift キーを押しながら追加のファイルを選択すると、複数のドキュメントを選択できます。</p> </li> 
         <li value="3">クリック <strong>開く</strong>.</li> 
        </ol> 
-       <p><b>注意</b>:また、ファイルマネージャーから直接ドキュメントリストにファイルをドラッグ&amp;ドロップすることもできます。</td> 
+       <p><b>注意</b>：ファイルマネージャーから直接ドキュメントリストにファイルをドラッグ&amp;ドロップすることもできます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Google Drive やSharePointなどのサードパーティアプリケーションからドキュメントをアップロードする</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>送信者 &lt;name_of_third-party_application&gt;</strong>.</p> <p>例えば、Google Drive からドキュメントをアップロードするには、 <strong>Google Drive から</strong>.</p> </li> 
-        <li value="2"> <p>画面の指示に従って、サードパーティアプリケーションでドキュメントを選択します。<br></p> <p>リンクされたドキュメントの詳細については、 <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">外部アプリケーションからドキュメントをリンク</a>.</p> </li> 
+        <li value="1"> <p>次から： <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>送信者 &lt;name_of_third-party_application&gt;</strong>.</p> <p>例えば、Google Drive からドキュメントをアップロードするには、 <strong>Google Drive から</strong>.</p> </li> 
+        <li value="2"> <p>画面の指示に従って、サードパーティアプリケーションでドキュメントを選択します。<br></p> <p>リンクされたドキュメントの詳細については、「 <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">外部アプリケーションからドキュメントをリンク</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">別のWorkfrontユーザーからのドキュメントのリクエスト</td> 
       <td> 
        <ol> 
-        <li value="1">次の <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>ドキュメントのリクエスト</strong>.</li> 
-        <li value="2">内 <strong>誰からリクエストしているか</strong> ボックスに、ドキュメントを要求するユーザーの名前を入力します。</li> 
-        <li value="3">内 <strong>リクエスト内容を伝える</strong> ボックスに、ドキュメントの名前を入力します。</li> 
+        <li value="1">次から： <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>ドキュメントのリクエスト</strong>.</li> 
+        <li value="2">Adobe Analytics の <strong>誰からリクエストしているか</strong> ボックスに、ドキュメントを要求するユーザーの名前を入力します。</li> 
+        <li value="3">Adobe Analytics の <strong>リクエスト内容を伝える</strong> ボックスに、ドキュメントの名前を入力します。</li> 
         <li value="4"> <p>クリック <strong>リクエストを送信</strong>.</p> <p>リクエストが「ドキュメント」タブに表示されます。</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>ドキュメントのリクエストについて詳しくは、 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">ドキュメントのリクエスト</a>.</p> </li> 
        </ol> </td> 
      </tr> 

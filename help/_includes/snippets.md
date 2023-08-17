@@ -1,8 +1,8 @@
 ---
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 2%
+source-wordcount: '1669'
+ht-degree: 1%
 
 ---
 # スニペット
@@ -22,6 +22,14 @@ ht-degree: 2%
 ## 2023 年第 4 四半期のプレビューと高速リリース {#preview-and-fast-release}
 
 <span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">現在のリリースについて詳しくは、 [2023 年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
+## 記事レベル — 2023 年第 4 四半期のプレビューと高速リリース {#article-preview-and-fast-release}
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
 <span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
