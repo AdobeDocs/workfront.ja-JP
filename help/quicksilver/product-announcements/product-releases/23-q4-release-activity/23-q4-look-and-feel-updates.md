@@ -4,7 +4,7 @@ description: 2023 年第 4 四半期のリリース期間中のルックアン�
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ ht-degree: 0%
 
 設定/電子メール/通知領域の電子メール通知、リマインダー通知および電子メールテンプレートのタブを、Workfrontの他の領域と一貫した最新のデザインに更新しました。
 
-詳しくは、 [システムの全員に対するイベント通知を設定する](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+詳しくは、 [システムの全員に対するイベント通知を設定する](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
