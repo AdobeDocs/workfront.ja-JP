@@ -5,10 +5,10 @@ title: Adobe Workfrontの新しいホームを開始する
 description: 新しいホームは、作業を管理するための強力な新機能です。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 19%
+source-wordcount: '1088'
+ht-degree: 20%
 
 ---
 
@@ -74,15 +74,15 @@ New Home は、高度にカスタマイズ可能に設計され、最も重要�
     </tr>
     <tr>
         <td>ライト</td>
-        <td>私の仕事、私の承認待ち、To-Do</td>
+        <td>私の仕事、私の承認待ち</td>
     </tr>
     <tr>
         <td>コントリビューター</td>
-        <td>自分の仕事、メンション、To-Do</td>
+        <td>自分の作業、メンション</td>
     </tr>
     <tr>
         <td>外部</td>
-        <td>承認待ち、To-Do</td>
+        <td>承認待ち</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ New Home は、高度にカスタマイズ可能に設計され、最も重要�
     </tr>
     <tr>
         <td>確認</td>
-        <td>自分の仕事、メンション、To-Do</td>
+        <td>自分の作業、メンション</td>
     </tr>
     <tr>
         <td>制限あり</td>
-        <td>マイプロジェクト、承認待ち、To-Do</td>
+        <td>マイプロジェクト（承認待ち）</td>
     </tr>
     <tr>
         <td>コントリビューター</td>
-        <td>自分の仕事、メンション、To-Do</td>
+        <td>自分の作業、メンション</td>
     </tr>
     <tr>
         <td>外部</td>
-        <td>承認待ち、To-Do</td>
+        <td>承認待ち</td>
     </tr>
 </table>
 
