@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                                <p>プレビューリリース： 2023 年 8 月 22 日<br /></p>
                             </li>
                             <li>
-                                <p>ボードの先行公開の実稼働： 2023 年 8 月 24 日</p>
+                                <p>ボードの早期アクセス用の実稼動：未定</p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                                <p>高速リリースの実稼動：未定</p>
                             </li>
                             <li>
                                 <p>四半期リリースの実稼動：23.10 リリースを使用</p>
