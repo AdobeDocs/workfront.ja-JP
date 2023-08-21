@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 538e3a5090dce6f6e441da9911269a1d264833f8
+source-git-commit: 1e062b38f0b8e0be1857a1a1fe9e64f1d6fa6c36
 workflow-type: tm+mt
-source-wordcount: '13169'
+source-wordcount: '13176'
 ht-degree: 2%
 
 ---
@@ -430,6 +430,7 @@ ht-degree: 2%
          * [テスト環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
          * [サンドボックス環境をプレビュー](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [カスタム更新サンドボックス環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+         * [1 つからのオブジェクトの移動 [!DNL Workfront] 別の環境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * ユーザーを追加 {#add-users}
       * [Workfront へのユーザーの追加](administration-and-setup/add-users/add-users.md)
       * ユーザーの作成と管理 {#create-manage-users}
