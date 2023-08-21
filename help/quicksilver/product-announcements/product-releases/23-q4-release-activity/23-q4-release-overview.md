@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>四半期リリースの実稼働： 23.10 リリース（特に指定のない限り）あり</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームの新しいフィルターオプション</a> </p>
+                        <p>新しいホームの My Work ウィジェットで新しいフィルターオプションを使用できるようになりました。 オプションには、オブジェクトのタイプ（タスク、問題、リクエスト）とステータス（準備ができていない、開始準備ができている、作業中の、完了済み）のフィルターが含まれます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームでのカスタム用語のサポート</a> </p>
+                        <p>組織固有のニーズをより適切に満たすために、新しいホームでは、インスタンスのレイアウトテンプレートで定義されたオブジェクトに対して、カスタム用語を使用するようになりました。 例えば、Workfrontインスタンスで「プロジェクト」オブジェクトのラベルが「キャンペーン」に変更されている場合、マイプロジェクトウィジェットは代わりに「新規ホーム」のマイキャンペーンとして表示されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新規ホームを無効にしたアカウントに対して、新規ホームボタンを削除してみます</a> </p>
+                        <p>新しいホームが無効になっているアカウントでは、[ 新しいホームを試す ] ボタンが表示されなくなりました。 個々のユーザーがボタンを使用して新しいホームを試す前に、システム管理者が新しいホームを再度有効にする必要があります。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
