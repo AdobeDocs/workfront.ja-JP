@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,8 @@ ht-degree: 0%
       <td role="rowheader"> <p>アクセスを許可</p> </td> 
       <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。 
        <p>以下の権限をで使用できます。 <b>オブジェクトにこのアクセス権を持つユーザーは、フィールド値を表示できます</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>表示</strong>：オブジェクトに対する権限の表示</li>
           <li><p><b>制限付き編集</b>: （オブジェクトがプロジェクト、タスク、タスク、イシューまたはユーザーの場合にのみ使用できます）。</p> 
           <p>プロジェクト、タスクまたはイシューの場合に、ユーザーがオブジェクトに投稿できるようにします。</p>
           <p>ユーザーがプロファイルを編集したり、オブジェクト（ユーザーの場合）に対するプロファイル権限を所有したりできます。</p></li> 
