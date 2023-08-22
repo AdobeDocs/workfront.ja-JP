@@ -7,9 +7,9 @@ description: で新しいシナリオテンプレートを作成できます。 
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
+source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >テンプレートを保存すると、すべてのチームメンバーに対して表示されるようになります。 テンプレートをチーム外でアクセスできるようにするには、リクエストを送信して承認および公開する必要があります。 リクエストはAdobe Workfrontに対して承認が求められ、承認されると、チーム外の他のユーザーがテンプレートにアクセスできるようになります。
+>
+>テンプレートの公開について詳しくは、 [公開して共有 [!DNL Adobe Workfront Fusion] テンプレート](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### シナリオからのテンプレートの作成
 
