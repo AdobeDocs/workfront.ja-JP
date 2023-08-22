@@ -7,9 +7,9 @@ description: で新しいシナリオテンプレートを作成できます。 
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 0%
   <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ### テンプレートの作成
 
-1. クリック **[!UICONTROL テンプレート]** ![](assets/fusion-template-icon.png) をクリックします。
+1. クリック **[!UICONTROL テンプレート]** ![](assets/fusion-template-icon.png) （左側のナビゲーションパネル）
 1. クリック **[!UICONTROL 新しいテンプレートを作成]** をクリックします。
 1. （オプション）デフォルトの **[!UICONTROL 新しいテンプレート名]** をクリックします。
 1. （オプション）テンプレートの言語を変更するには、 **[!UICONTROL テンプレートの設定]** ![](assets/fusion-scenario-settings-icon.png) 言語ドロップダウンから言語を選択します。
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->テンプレートを保存すると、すべてのチームメンバーに対して表示されます。 チーム外でテンプレートにアクセスできるようにするには、テンプレートを公開してから共有リンクを使用するか、管理者にテンプレートの承認と公開を依頼する必要があります。
+>テンプレートを保存すると、すべてのチームメンバーに対して表示されるようになります。 テンプレートをチーム外でアクセスできるようにするには、リクエストを送信して承認および公開する必要があります。 リクエストはAdobe Workfrontに対して承認が求められ、承認されると、チーム外の他のユーザーがテンプレートにアクセスできるようになります。
 
 ### シナリオからのテンプレートの作成
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 >シナリオからテンプレートを作成するには、Fusion 管理者である必要があります。
 
 1. シナリオを作成するシナリオのシナリオの詳細ページを開きます。
-1. 次をクリック： **管理者** ドロップダウンを使用して、ページの右上隅に表示されます。
+1. 次をクリック： **管理者** ドロップダウンを使用して、ページの右上隅付近に表示されます。
 1. 選択 **テンプレートとして複製**.
 
    シナリオが新しいテンプレートページにコピーされます。
@@ -129,11 +129,11 @@ ht-degree: 0%
 
 ## 設定 [!UICONTROL ウィザード] 機能 {#set-up-wizard-functionality}
 
-この [!DNL Workfront Fusion template] [!UICONTROL ウィザード] では、今後、テンプレートのユーザーに対し、モジュールで使用される特定のフィールドに関する手順や情報を提供できます。
+The [!DNL Workfront Fusion template] [!UICONTROL ウィザード] では、今後、テンプレートのユーザーに対して、モジュールで使用される特定のフィールドに関する手順や情報を提供できます。
 
 1. テンプレートに追加されたモジュールをクリックして、モジュールのフィールドを確認します。
-1. 追加するフィールドを見つけます。 [!UICONTROL ウィザード] 情報、および有効化 **[!UICONTROL ウィザードで使用]** そのフィールドの
-1. ユーザーに表示させる情報を [!UICONTROL ヘルプ] フィールドに入力します。
+1. 追加するフィールドを見つけます。 [!UICONTROL ウィザード] 情報、および有効化 **[!UICONTROL ウィザードで使用]** そのフィールドに対して
+1. ユーザーに表示させる情報を、 [!UICONTROL ヘルプ] フィールドに入力します。
 1. （オプション）テンプレートの使用時にユーザーにこのテキストを表示させるには、 **[!UICONTROL デフォルト値として使用]**.
 1. 情報を入力する各フィールドに対して、手順 2 ～ 4 を繰り返します。
 1. クリック **[!UICONTROL OK]** 変更を保存してモジュールを閉じます。
