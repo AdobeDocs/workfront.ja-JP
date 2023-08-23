@@ -7,9 +7,9 @@ description: フォームをオブジェクトに添付した後に、カスタ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1044'
 ht-degree: 3%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 3%
 
    オブジェクト内の計算カスタムフィールドで参照される別のオブジェクト内のデータを変更した場合、その変更はオブジェクトに自動的には反映されません。 オブジェクト内のすべての計算済みカスタムフィールドを手動で更新する方法については、 [オブジェクトの計算済みカスタムフィールドをすべて再計算する](#recalculate-all-calculated-custom-fields-for-an-object) 」を参照してください。
 
-   <span class="preview">ページ上の依存フィールドが変更されると、カスタムフォーム上の計算フィールドはリアルタイムで動的に再計算されます。 フォームを保存しなくても、更新された結果を確認できます。 これは、デフォルトフォームおよびカスタムフォームの計算フィールドに当てはまります。</span>
+   <span class="preview">ページ上の依存フィールドが変更されると、カスタムフォーム上の計算フィールドはリアルタイムで動的に再計算されます。 新しい計算フィールドの値は、フォームを保存せずに表示できますが、変更を保存するまで、実際にはフォームとオブジェクトに適用されません。 これは、デフォルトフォームおよびカスタムフォームの計算フィールドに当てはまります。</span>
 
    また、オブジェクトをリスト内の他のオブジェクトと共に一括編集する際に、そのオブジェクトの計算済みカスタムフィールドをすべて手動で更新することもできます。 手順については、 [オブジェクトの編集時に、リスト内の複数のオブジェクトの計算済みカスタムフィールドをすべて再計算する](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) 」を参照してください。
 
