@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 4042384f4e3c70bb23d585d5a5e392d624ac6cb4
+source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2325'
 ht-degree: 2%
 
 ---
@@ -72,14 +72,14 @@ Add to tocs
 
 ### 作業オブジェクト
 
-| 昇格可能なオブジェクト | 含まれるサブオブジェクト |
+| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
 | --- | --- |
 | プロジェクト (PROJ) | プロジェクト<br>タスク<br>割り当て<br>前任者<br>会社情報<br>上書き率<br>グループ化<br>役割<br>チーム<br>承認プロセス<br>承認パス<br>承認ステップ<br>ステップ承認者<br>スケジュール<br>非稼働日<br>キューの定義<br>トピックグループをキュー<br>トピックをキュー<br>ルーティングルール<br>マイルストーンのパス<br>マイルストーン<br>時間タイプ<br>リソースプール<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック |
 | テンプレート (TMPL) | テンプレート<br>テンプレートタスク<br>テンプレートタスクの割り当て<br>テンプレートタスクの先行タスク<br>会社情報<br>上書き率<br>グループ化<br>役割<br>チーム<br>承認プロセス<br>承認パス<br>承認ステップ<br>ステップ承認者<br>スケジュール<br>非稼働日<br>キューの定義<br>トピックグループをキュー<br>トピックをキュー<br>ルーティングルール<br>マイルストーンのパス<br>マイルストーン<br>時間タイプ<br>リソースプール<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック |
 
 ### レポートオブジェクト
 
-| 昇格可能なオブジェクト | 含まれるサブオブジェクト |
+| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
 | --- | --- |
 | レイアウトテンプレート (UITMPL) | レイアウトテンプレート<br>ダッシュボード<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>レポート<br>フィルター<br>グループ化<br>表示<br>パラメーター |
 | ダッシュボード (PTLTAB) | ダッシュボード<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>レポート<br>フィルター<br>グループ化<br>表示<br>パラメーター |
@@ -92,7 +92,7 @@ Add to tocs
 
 ### カスタムデータオブジェクト
 
-| 昇格可能なオブジェクト | 含まれるサブオブジェクト |
+| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
 | --- | --- |
 | カテゴリ (CTGY) | カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック<br>グループ化 |
 | パラメータ (PARAM) | パラメーター<br>パラメーターオプション |
@@ -100,7 +100,7 @@ Add to tocs
 
 ### 組織オブジェクト
 
-| 昇格可能なオブジェクト | 含まれるサブオブジェクト |
+| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
 | --- | --- |
 | グループ (GROUP) | グループ化 <br>サブグループ（最大 5 レベル）<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック |
 | 役割（役割） | 役割 |
@@ -111,7 +111,7 @@ Add to tocs
 
 ### その他の設定オブジェクト
 
-| 昇格可能なオブジェクト | 含まれるサブオブジェクト |
+| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
 | --- | --- |
 | 承認プロセス (ARVPRC) | 承認プロセス<br>承認パス<br>承認ステップ<br>ステップ承認者<br>役割<br>チーム<br>グループ化 |
 | スケジュール (SCHED) | スケジュール<br>非稼働日<br>グループ化 |
@@ -126,7 +126,7 @@ Add to tocs
 
 API は、リクエストごとに認証をおこない、リクエストされたオブジェクトを表示または変更するためのアクセス権をクライアントが持つようにします。
 
-認証は、次のいずれかの方法で指定できるセッション ID を渡すことで実行されます。
+認証は、セッション ID または API キーを渡すことで実行されます。このキーは、次のいずれかの方法で指定できます。
 
 ### リクエストヘッダー認証
 
@@ -138,22 +138,6 @@ API は、リクエストごとに認証をおこない、リクエストされ�
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
-
-### リクエストパラメーター認証
-
-次の例に示すように、sessionID という名前のリクエストパラメーターを渡すことで認証できます。 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
-```
-
-### Cookie ベースの認証
-
-API は、Web UI でシステムに使用されるのと同じ cookie ベースの認証を使用します。 ここで、クライアントが Web UI を使用してWorkfrontにログインした場合、同じブラウザー内でおこなわれたAJAX呼び出しは同じ認証を使用します。
-
->[!NOTE]
->
->CSRF(Cross Site Request Forgery) 攻撃の可能性から保護するために、この認証方法は読み取り専用操作でのみ使用できます。
 
 ## API エンドポイント
 
@@ -189,13 +173,13 @@ API は、Web UI でシステムに使用されるのと同じ cookie ベース�
 
 >[!NOTE]
 >
-の構造をメモしておきます。 `objectCollections`  配列。
+>の構造をメモしておきます。 `objectCollections`  配列。
 >
-配列内の各項目には、 `objCode` Workfront API Explorer で記述されたオブジェクトコードに対応するキー。
+>配列内の各項目には、 `objCode` Workfront API Explorer で記述されたオブジェクトコードに対応するキー。
 >
-各項目には、 `entities` コレクション。 これは、 `ID` および `name` 存在するキー。
+>各項目には、 `entities` コレクション。 これは、 `ID` および `name` 存在するキー。
 >
-リクエストできるオブジェクトコードのリスト ( `objectCollections` リスト、「 [環境の昇格でサポートされるオブジェクト](#supported-objects-for-environment-promotion) 」の節を参照してください。
+>リクエストできるオブジェクトコードのリスト ( `objectCollections` リスト、「 [環境の昇格でサポートされるオブジェクト](#supported-objects-for-environment-promotion) 」の節を参照してください。
 
 #### URL
 
@@ -207,7 +191,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -273,7 +259,6 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
 }
 ```
@@ -303,7 +288,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -330,7 +317,6 @@ _空_
             "createdAt": "2023-06-06T17:29:21.600Z",
             "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
             "publishedAt": null,
-            "isPrivate": true,
             "customerId": "61aa9d090005fa42152c1cb66659f38d"
         },
         {...}
@@ -363,7 +349,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -389,21 +377,15 @@ _空_
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
                    "name": "Default Group",
-                   "description"
+                   "description": "null"
+                   - or -
+                   "description": "..."
                }
             ],
             "ROLE": [
@@ -436,7 +418,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -452,13 +436,6 @@ _空_
 
 ```json
 {
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
     "packageEntities": {
         "GROUP": [
            {
@@ -472,7 +449,7 @@ _空_
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -504,12 +481,11 @@ _空_
 編集可能な属性は次のとおりです。
 
 1. name（文字列）
-2. description （文字列）
-3. ソース（URL 検証を含む文字列）
-4. status （値の検証を含む文字列）
-5. バージョン（整数）
-6. metadata （コレクション）
-7. packageEntities （コレクション）
+1. description （文字列）
+1. ソース（URL 検証を含む文字列）
+1. status （値の検証を含む文字列）
+1. バージョン（整数）
+1. packageEntities （コレクション）
 
 ステータスのオプションは次のとおりです。
 
@@ -554,7 +530,9 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -588,7 +566,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -620,15 +598,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -666,7 +636,6 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 1. ソース（URL 検証を含む文字列）
 1. status （値の検証を含む文字列）
 1. バージョン（整数）
-1. metadata （コレクション）
 1. packageEntities （コレクション）
 
    または
@@ -688,7 +657,9 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -719,15 +690,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -760,7 +723,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 >[!NOTE]
 >
-プロモーションパッケージを削除する場合とは異なり、パッケージのステータスを「無効」に変更することをお勧めします。 これにより、パッケージを取得し、パッケージがデプロイされた場所のインストール履歴を保持できます。
+>プロモーションパッケージを削除する場合とは異なり、パッケージのステータスを「無効」に変更することをお勧めします。 これにより、パッケージを取得し、パッケージがデプロイされた場所のインストール履歴を保持できます。
 
 #### URL
 
@@ -772,7 +735,9 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -838,7 +803,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -888,7 +855,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -935,7 +904,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -953,8 +924,8 @@ _空_
 [
     {
         "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-        "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-        "blueprintVersion": 1,
+        "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+        "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
         "status": "COMPLETED",
@@ -1024,7 +995,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -1041,8 +1014,8 @@ _空_
 ```json
 {
     "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-    "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-    "blueprintVersion": 1,
+    "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+    "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
     "status": "COMPLETED",
