@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 0%
 ## Adobe Workfrontの機能強化
 
 * [ボードの機能強化](#boards-enhancements)
+* [統合の強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
 
@@ -60,6 +61,42 @@ ht-degree: 0%
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 22 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動環境：2023 年 8 月 24 日</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">接続されたカードにドキュメントを追加する</a></p><p>Adobe Workfrontボードの接続されたカードにドキュメントを添付できるようになりました。 カードに追加したドキュメントは、接続されたタスクまたはイシューの「ドキュメント」タブで使用でき、両方の領域で同じファイルタイプがサポートされます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 22 日</p>
+                            </li>
+                            <li>
+                                <p>ボードの先行公開の実稼働： 2023 年 8 月 24 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動：未定</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">接続されたカードで表示専用として使用可能なドキュメント</a></p><p>Adobe Workfrontボードで接続されたカードの場合、画像やPDFなどのドキュメントを表示できるようになりました。 ドキュメントは、ブラウザーでプレビューするか、コンピューターにダウンロードすることができます。 </p>
@@ -98,29 +135,65 @@ ht-degree: 0%
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### 統合の強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">接続されたカードにドキュメントを追加する</a></p><p>Adobe Workfrontボードの接続されたカードにドキュメントを添付できるようになりました。 カードに追加したドキュメントは、接続されたタスクまたはイシューの「ドキュメント」タブで使用でき、両方の領域で同じファイルタイプがサポートされます。</p>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a><span style="color: #ff0000;"> プレビューの新機能</span> </p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 22 日</p>
-                            </li>
-                            <li>
-                                <p>ボードの先行公開の実稼働： 2023 年 8 月 24 日</p>
+                                <p>プレビューリリース： 8 月 24 日<br /></p>
                             </li>
                             <li>
                                 <p>高速リリースの実稼動：未定</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリースの本番：未定</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a><span style="color: #ff0000;"> プレビューの新機能</span> </p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 8 月 24 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動：未定</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの本番：未定</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### プロジェクトの強化
 
