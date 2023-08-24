@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3521'
 ht-degree: 1%
 
 ---
@@ -267,7 +267,7 @@ drafted for P&P release:
 1. クリック **送信** をクリックして、Workfrontオブジェクトに更新を追加します。
 1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png)  <span class="preview">コメントの右上隅に</span>を選択し、次に **編集**.
 1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。
-コメントは、送信後 15 件以内に編集できます。 コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
+コメントは、送信後 15 件以内に編集できます。 コメントの入力時に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -275,6 +275,7 @@ drafted for P&P release:
    >
    >* 元の更新を送信した場合にのみ、ユーザーに更新を通知する電子メールが生成されます。 更新を編集した後は、電子メールは生成されません。
    >* コメントの横の日付スタンプは、最後の編集の日付ではなく、元のコメントの日付です。
+   >* 現在の年からのコメントでは、日付スタンプに年は表示されません。 タイムスタンプの上にマウスポインターを置くと、年を含む完全な日付が表示されます。
 
 1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 4～8 に従います。 <!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 

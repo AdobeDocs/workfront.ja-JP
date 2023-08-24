@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 03505cbede4b022e792f39c5730d3edc5231585e
+source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
 workflow-type: tm+mt
-source-wordcount: '13188'
+source-wordcount: '13192'
 ht-degree: 2%
 
 ---
@@ -374,6 +374,7 @@ ht-degree: 2%
          * [新しいコメントベータ版のエクスペリエンス情報](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [新しいコメントエクスペリエンス](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新しいコメントエクスペリエンスリリースアクティビティ](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+         * [新しいコメントエクスペリエンスの FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
 * 管理と設定 {#administration-and-setup}
    * [管理と設定](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
