@@ -7,9 +7,9 @@ description: この記事で、 [!DNL Workfront Boards] 初期機能のオプト
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ ht-degree: 0%
 
 ### 自社が初期の機能をオプトインしたかどうかを確認するには、どうすればよいですか？
 
-次の場合に、 [!DNL Workfront] 管理者がボードの初期機能を有効にしています。 [!UICONTROL 早期機能のオプトイン] ダッシュボード画面上部の「有効」ボタンをクリックします。 「 」ボタンをクリックして、有効になっている機能を確認します。
+お問い合わせ [!DNL Workfront] 管理者に問い合わせて、ボードの初期機能を有効にしているかどうかを確認してください。
 
 ### 初期の機能は、特定のユーザーに対してのみ有効にできますか？
 

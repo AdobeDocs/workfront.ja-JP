@@ -6,9 +6,9 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ ht-degree: 0%
 
    カードが一番左の列の下に追加されます。 接続された [!DNL Workfront] オブジェクトとその割り当て先がカードに表示されます。
 
-   >[!NOTE]
-   >
-   >割り当て先が [!DNL Workfront] タスクまたはイシューは、ボード上のメンバーではないので、カードに割り当てられません。
-
    ![接続されているカード](assets/boards-connected-card-first-added.png)
 
 1. クリック ![タスクまたは問題を開く](assets/boards-launch-icon.png) 開く [!DNL Workfront] 新しいブラウザータブのタスクまたはイシュー。
@@ -124,9 +120,8 @@ ht-degree: 0%
       <td><p>カードが完了するまでの時間数。</p><p>見積もりを変更すると、接続されたストーリーポイントの値も変更されます [!DNL Workfront] オブジェクト。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong></td>
-      <td><p>カードに他のユーザーやチームを割り当てるには、検索フィールドに名前を入力し、リストに表示されたら選択します。 個人とチームの両方を追加できます。 1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
-      <p>割り当て先は、ボード上のメンバーである必要があります。メンバーでない場合、選択リストには表示されません。 チームがボード上のメンバーの場合、個々のチームメンバーをカードに割り当てることができます。</p>
+      <td role="rowheader"><strong>[!UICONTROL 割り当て ]</strong></td>
+      <td><p>カードに他の人やチームを割り当てるには、 <strong>[!UICONTROL 割り当てを追加 ]</strong> 検索フィールドに名前を入力し始めます。 次に、結果のリストに表示される場合に選択します。 個人とチームの両方を追加できます。 1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
       <p>選択した担当者も、 [!DNL Workfront].</p></td>
      </tr>
      <tr>

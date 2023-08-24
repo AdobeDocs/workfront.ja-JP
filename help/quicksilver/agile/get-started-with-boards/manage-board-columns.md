@@ -6,9 +6,9 @@ description: 新しいボードには、デフォルトで 3 つの列が含ま�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 列設定にはポリシーが含まれ、カードをその列に移動したときにカードがどうなるかに関するオプションを定義できます。
 
-列でのカードの並べ替えについて詳しくは、 [ボードでのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+列でのカードの並べ替えについて詳しくは、 [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## アクセス要件
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## ボードに列を追加する
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
 1. ボードにアクセスします。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
 1. クリック **[!UICONTROL 列を追加]** をクリックします。
 1. 新しい列に名前を入力し、 **[!UICONTROL 列を追加]**.
@@ -71,14 +71,14 @@ ht-degree: 0%
 
    または
 
-   次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) をクリックし、「 **[!UICONTROL 編集]**. 設定領域で、新しい名前を **[!UICONTROL 列名]** 「 」フィールドで「 」をクリックし、 **[!UICONTROL 閉じる]**.
+   次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) 列で、「 」を選択し、 **[!UICONTROL 編集]**. 「設定」領域で、新しい名前を **[!UICONTROL 列名]** 「 」フィールドで、「 」をクリックします。 **[!UICONTROL 閉じる]**.
 
 ## ボード列の削除
 
 ボードから列を削除した場合、その列は復元できません。
 
 1. ボードにアクセスします。
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) 列で、を選択します。 **[!UICONTROL 削除]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) 列で、「 」を選択します。 **[!UICONTROL 削除]**.
 
    >[!NOTE]
    >
@@ -88,25 +88,25 @@ ht-degree: 0%
 
 設定を使用して、各列のカード数を表示できます。
 
-ある列に WIP 制限を使用している場合、別のカードカウンターは追加されません。 WIP 制限の詳細は、 [の管理 [!UICONTROL 作業中] (WIP) ボード上限](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+ある列に WIP 制限を使用している場合、別のカードカウンターは追加されません。 WIP 制限の詳細は、「 [の管理 [!UICONTROL 処理中の作業] (WIP) ボード上限](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. ボードにアクセスします。
 1. クリック **[!UICONTROL 設定]** をクリックして、設定パネルを開きます。
 1. 展開 **[!UICONTROL 列]**.
-1. オンにする **[!UICONTROL 列カード数を表示]**.
+1. オンにする **[!UICONTROL 列カードの数を表示]**.
 
    ![カードカウンターをオンにする](assets/display-card-count.png)
 
    各列の上部にカードカウンターが表示されます。
 
-1. クリック **[!UICONTROL 設定を非表示]** 閉じる [!UICONTROL 設定] パネル。
+1. クリック **[!UICONTROL 設定を非表示にする]** 閉じる [!UICONTROL 設定] パネル。
 
 ## 列設定とポリシーの定義
 
 1. ボードにアクセスします。
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) 列で、を選択します。 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) 列で、「 」を選択します。 **[!UICONTROL 編集]**.
 
-   この [!UICONTROL 設定] 領域が表示されます。 この **[!UICONTROL 列名]** を使用すると、設定を定義する列を把握できます。
+   The [!UICONTROL 設定] 領域が表示されます。 The **[!UICONTROL 列名]** を使用すると、設定を定義する列を把握できます。
 
 1. を有効にします。 **[!UICONTROL フィールド値を自動的に更新]** 特定のフィールド値を、カードがこの列に移動されたときに自動的に変更するポリシーです。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 1. （オプション）カードのステータスの値を設定します。
 
-   1. を選択します。 **[!UICONTROL ステータス]** チェックボックスをオンにします。
+   1. を選択します。 **[!UICONTROL ステータス]** 」チェックボックスをオンにします。
 
    1. カードがこの列に移動されたときにカードに適用するステータスを選択します。
 
@@ -130,29 +130,29 @@ ht-degree: 0%
 
 1. （オプション）カードの割り当て先の値を設定します。
 
-   1. を選択します。 **[!UICONTROL 担当者]** チェックボックスをオンにします。
+   1. を選択します。 **[!UICONTROL 割り当て先]** 」チェックボックスをオンにします。
    1. アクションを選択します。
 
-      * **[!UICONTROL 担当者に追加]:** 選択した担当者は、この列に移動されると、カード上の既存の担当者リストに追加されます。
-      * **[!UICONTROL 担当者の上書き]:** 選択した担当者は、他のすべての担当者より優先され、この列に移動すると、カード上の唯一の担当者になります。
-   1. ドロップダウンリストから担当者を選択します。 ボード上のメンバーのみが選択できます。 詳しくは、 [ボードに対するメンバーの追加または削除](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+      * **[!UICONTROL 割り当て先に追加]:** 選択した担当者は、この列に移動されると、カード上の既存の担当者リストに追加されます。
+      * **[!UICONTROL 割り当て先の上書き]:** 選択した担当者は、他のすべての担当者より優先され、この列に移動すると、カード上の唯一の担当者になります。
 
-      ![列の割り当て先](assets/boards-column-assignees.png)
+   1. クリック [!UICONTROL **割り当てを追加**] ユーザーを検索します。 検索結果から担当者を選択します。 すべてのWorkfrontユーザーおよびチームは、から選択できます。
 
+      ![列の担当者](assets/boards-column-assignees.png)
 
 1. （オプション）カードタグの値を設定します。
 
-   1. を選択します。 **[!UICONTROL カード]** チェックボックスをオンにします。
+   1. を選択します。 **[!UICONTROL カード]** 」チェックボックスをオンにします。
    1. アクションを選択します。
 
       * **[!UICONTROL タグに追加]:** 選択したタグは、この列に移動されると、カード上のタグの既存のリストに追加されます。
       * **[!UICONTROL タグの上書き]:** 選択したタグは、他のすべてのタグより優先され、この列に移動されたときに、カード上の唯一のタグになります。
+
    1. ドロップダウンリストからタグを選択します。 で既に作成されているタグのみ [!UICONTROL タグマネージャー] は、から選択できます。 新しいタグの追加について詳しくは、 [タグを追加](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![列のタグ](assets/boards-column-tags.png)
 
-
-1. を有効にします。 **[!UICONTROL 作業中の制限]** ポリシーを使用して、列に追加できるカードの数を制限します。 次に、 **[!UICONTROL 制限を設定]** フィールドに入力します。
+1. を有効にします。 **[!UICONTROL 作業中の制限]** ポリシーを使用して、列に追加できるカードの数を制限します。 次に、制限値を **[!UICONTROL 制限を設定]** フィールドに入力します。
 
    ![列の WIP 制限](assets/boards-wip-limit-in-column.png)
 

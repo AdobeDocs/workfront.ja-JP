@@ -6,9 +6,9 @@ description: アドホックカードをボードにすばやく追加し、ボ�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,10 @@ ht-degree: 0%
 
 アドホックカードは、 [!DNL Adobe Workfront].
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL ボード]**.
 1. ボードにアクセスします。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
 1. クリック **[!UICONTROL カードを追加] > [!UICONTROL 新しいカード]**.
-1. 内 **[!UICONTROL カードの詳細]** ボックスに、次の情報を追加します。
+1. Adobe Analytics の **[!UICONTROL カードの詳細]** ボックスに、次の情報を追加します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -82,8 +82,8 @@ ht-degree: 0%
       <td>カードが完了する推定時間数を入力します。 これは手動のエントリのみです。</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 担当者 ]</strong> </td> 
-      <td> <p>カードを割り当てるには、検索フィールドに名前を入力し始め、カードがリストに表示されたら選択します。 個人とチームの両方を追加し、1 つのカードに複数の人またはチームを割り当てることができます。</p> <p>割り当て先は、ボード上のメンバーである必要があります。メンバーでない場合、選択リストには表示されません。 チームがボード上のメンバーの場合、個々のチームメンバーをカードに割り当てることができます。</p></td>
+      <td role="rowheader"><strong>[!UICONTROL 割り当て ]</strong> </td> 
+      <td>カードを割り当てるには、 <strong>[!UICONTROL 割り当てを追加 ]</strong> 検索フィールドに名前を入力し始めます。 次に、結果のリストに表示される場合に選択します。 個人とチームの両方を追加し、1 つのカードに複数の人またはチームを割り当てることができます。</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL タグ ]</strong></td> 
@@ -95,7 +95,7 @@ ht-degree: 0%
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL チェックリスト ]</strong> </td> 
-      <td> <p>クリック <strong>[!UICONTROL チェックリスト項目を追加 ]</strong>. 次に、項目のタイトルを入力し、Enter キーを押します。 別の項目が自動的に追加されます。 引き続きタイトルを入力して、さらに項目を追加します。</p> <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目の詳細については、 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目を管理</a>.</p> </td> 
+      <td> <p>クリック <strong>[!UICONTROL チェックリスト項目を追加 ]</strong>. 次に、項目のタイトルを入力し、Enter キーを押します。 別の項目が自動的に追加されます。 引き続きタイトルを入力して、さらに項目を追加します。</p> <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目の詳細については、「 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目を管理</a>.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL コメント ]</strong></td>
@@ -110,7 +110,7 @@ ht-degree: 0%
 
    左側のナビゲーションパネルを使用して、カード詳細上のフィールドのセクション間を移動します。
 
-1. クリック **[!UICONTROL 閉じる]** カードをボードに追加します。
+1. クリック **[!UICONTROL 閉じる]** をクリックして、カードをボードに追加します。
 
    割り当て先、タグ、期限、チェックリストカウンター、推定時間、ステータスがカードに表示されます。
 
@@ -136,8 +136,8 @@ ht-degree: 0%
 
    または
 
-   次をクリック： **[!UICONTROL 詳細]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 編集]**.
+   次をクリック： **[!UICONTROL その他]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 編集]**.
 
-1. 内 [!UICONTROL カードの詳細] ボックスで、必要に応じて情報を更新し、 **[!UICONTROL 閉じる]** ボードに戻る
+1. Adobe Analytics の [!UICONTROL カードの詳細] ボックスで、必要に応じて情報を更新し、 **[!UICONTROL 閉じる]** ボードに戻る
 
    フィールド値の更新が有効な列ポリシーがある場合、カードのステータスを変更すると、カードは対応する列に自動的に移動します。 詳しくは、この記事の「列設定とポリシーの定義」を参照してください [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

@@ -6,16 +6,16 @@ description: ユーザーがボードを表示してカードに割り当てら�
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # ボードに対するメンバーの追加または削除
 
-ユーザーとチームは、ボードを表示してカードに割り当てる前に、メンバーとしてボードに追加する必要があります。
+ユーザーとチームは、ボードを表示する前に、メンバーとしてボードに追加する必要があります。
 
 ## アクセス要件
 
@@ -42,12 +42,12 @@ ht-degree: 0%
 
 ## ボードへのメンバーの追加
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL ボード]**.
 1. 新しいボードを作成するか、既存のボードを編集します。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
 1. 次をクリック： **[!UICONTROL メンバーを追加]** アイコン ![メンバーを追加](assets/boards-addmember-spectrum-25x25.png).
-1. 内 **[!UICONTROL メンバーを追加]** ボックスに名前を入力し、リストに表示されたら選択します。
+1. Adobe Analytics の **[!UICONTROL メンバーを追加]** ボックスに名前を入力し、リストに表示されたら選択します。
 
-   個々のメンバーまたはチームを選択できます。 チームを選択すると、チーム自体がボードに追加されます。 その後、完全なチームとその個々のチームメンバーが、カードに割り当てることができます。
+   個々のメンバーまたはチームを選択できます。 チームを選択すると、チーム自体がボードに追加されます。
 
    >[!NOTE]
    >
@@ -58,14 +58,14 @@ ht-degree: 0%
 
 ## ボードからメンバーを削除する
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL ボード]**.
 1. 新しいボードを作成するか、既存のボードを編集します。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
 1. 次をクリック： **[!UICONTROL メンバーを追加]** アイコン ![メンバーを追加](assets/boards-addmember-spectrum-25x25.png).
-1. 内 **[!UICONTROL メンバーを追加]** ボックスで、個人名またはチーム名の横にある「X」をクリックして、ボードから削除します。
+1. Adobe Analytics の **[!UICONTROL メンバーを追加]** ボックスで、個人名またはチーム名の横にある「X」をクリックして、ボードから削除します。
 
    ![ボードからメンバーを削除](assets/boards-remove-member-from-board-350x367.png)
 
-   ボードからメンバーを削除すると、割り当てられていたカードからも削除されます。 接続されたカードの場合、割り当ても [!DNL Workfront] タスクまたは問題。
+   メンバーをボードから削除しても、割り当てられているカードからは削除されません。 接続されたカードの場合は、割り当ても [!DNL Workfront] タスクまたは問題。
 
    メンバーはこのボードからのみ削除されます。 他のボードに属している場合は、削除されません。
 
