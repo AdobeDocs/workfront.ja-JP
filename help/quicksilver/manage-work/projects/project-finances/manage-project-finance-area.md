@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: プロジェクトの財務エリアで情報を管理します
-description: プロジェクトの財務エリアで情報を管理します
+title: プロジェクトの財務エリアで情報を管理します。
+description: プロジェクトの財務エリアで情報を管理します。
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 3%
 
 ---
 
-# プロジェクトの財務エリアで情報を管理します
+# プロジェクトの財務エリアで情報を管理します。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -39,16 +39,17 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよび財務データへのアクセス権を表示または高くします</p> <p>プロジェクトおよび財務データへのアクセスを編集して、プロジェクトの財務情報を編集します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトおよび財務データへのアクセス権を表示または高くします</p> <p>プロジェクトおよび財務データへのアクセスを編集して、プロジェクトの財務情報を編集します</p> <p><b>メモ</b></p>
+   <p> まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>財務の表示権限を含むプロジェクト以上に対する権限を表示します</p> <p>プロジェクトの財務情報を編集するための財務管理を含むプロジェクトに対する権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 金融分野の概要
 
@@ -77,7 +78,7 @@ ht-degree: 3%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">パフォーマンス インデックス メソッド</td> 
+      <td role="rowheader">パフォーマンスインデックスメソッド</td> 
       <td> Workfrontが達成額指標の計算に使用する方法を制御します。 時間ベースとコストベースのどちらでもかまいません。 <br>PIM の詳細については、を参照してください。 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">パフォーマンスインデックスメソッド (PIM) の設定</a></td> 
      </tr> 
      <tr> 
@@ -99,7 +100,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader">固定コスト</td> 
-      <td>これらは、プロジェクトの他のアクティビティとは無関係に、プロジェクトの固定コストです。 プロジェクト所有者が手動で入力します。</td> 
+      <td>これらは、プロジェクト上の他のアクティビティとは無関係に、プロジェクト上の固定コストです。 プロジェクト所有者が手動で入力します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定コスト</td> 
@@ -107,7 +108,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader">実際のコスト</td> 
-      <td>プロジェクトで発生するすべてのコスト。 「実績原価」は、すべての実績原価の合計です。労務費（実績時間と、それらを記録する役割またはユーザーに関連付けられたレートに基づく）、費用、固定費は、プロジェクトまたはタスクに関連付けることができます。</td> 
+      <td>プロジェクトで発生するすべてのコスト。 「実績原価」は、すべての実績原価の合計です。（「実績時間」と、それらをログに記録する役割またはユーザーに関連付けられた率に基づきます）、費用、固定原価は、プロジェクトまたはタスクに関連付けることができます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">固定収益</td> 
@@ -115,7 +116,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader">予定収益</td> 
-      <td>予定時間とタスクの担当者（ジョブの役割またはユーザー）に関連付けられたレートに基づいて予測される収益。</td> 
+      <td>予定時間とタスクの担当者（ジョブの役割またはユーザー）に関連付けられたレートに基づいて予測される収入です。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">実収益</td> 
@@ -169,7 +170,7 @@ ht-degree: 3%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">パフォーマンス インデックス メソッド</td> 
+      <td role="rowheader">パフォーマンスインデックスメソッド</td> 
       <td> <p>Workfrontがプロジェクトのパフォーマンス指標の計算に使用する方法を制御します。 これは管理者がシステムレベルで設定しますが、プロジェクトレベルで編集することもできます。 次のオプションの 1 つを選択することを検討してください。</p> 
        <ul> 
         <li><strong>時間ベース：</strong>Workfrontでは、プロジェクトの CPI と EAC の計算に「計画時間」が使用され、プロジェクトの EAC は時間単位の数値で表示されます。 </li> 
@@ -180,8 +181,8 @@ ht-degree: 3%
       <td role="rowheader">完成時総コスト見積り</td> 
       <td> <p>完了時のプロジェクトまたはタスクの推定総コストを表します。 これは管理者がシステムレベルで設定しますが、プロジェクトレベルで編集することもできます。 次のオプションの 1 つを選択することを検討してください。</p> 
        <ul> 
-        <li><strong>プロジェクトレベルで計算</strong>:親タスクおよびプロジェクトの EAC は、EAC 式に実績時間/実績労務費を入力することで決定されます。 この計算には、実績時間数/コストと費用が親タスクまたはプロジェクトに直接追加されます。</li> 
-        <li><strong>タスク/サブタスクからのロールアップ</strong>:親タスクとプロジェクトの EAC は、各子タスクの EAC を合計することで決定されます。 この計算では、親タスクまたはプロジェクトに直接追加された実績時間/コストと費用が除外されます。</li> 
+        <li><strong>プロジェクトレベルで計算</strong>：親タスクおよびプロジェクトの EAC は、EAC 式に実績時間数/実績労務費を入力することで決定されます。 この計算には、実績時間数/コストと費用が親タスクまたはプロジェクトに直接追加されます。</li> 
+        <li><strong>タスク/サブタスクからのロールアップ</strong>：親タスクおよびプロジェクトの EAC は、各子タスクの EAC を合計することで決定されます。 この計算では、親タスクまたはプロジェクトに直接追加された実績時間/コストと費用が除外されます。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -198,7 +199,7 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td role="rowheader">プロジェクトの通貨</td> 
-      <td> <p>システム内のデフォルトの通貨と異なる場合は、このプロジェクトの通貨を指定します。 システムのデフォルトの通貨は、Workfront管理者が定義します。 Workfrontでの為替レートの設定について詳しくは、 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>.</p> </td> 
+      <td> <p>システム内のデフォルトの通貨と異なる場合は、このプロジェクトの通貨を指定します。 システム内のデフォルトの通貨は、Workfront管理者が定義します。 Workfrontでの為替レートの設定について詳しくは、 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>.</p> </td> 
      </tr>
     </tbody> 
    </table>
