@@ -1,13 +1,9 @@
 ---
 title: レポートキャンバスでのテーブルのフィルタリング
 description: レポートキャンバスでのテーブルのフィルタリング
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
-exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 2%

@@ -1,12 +1,9 @@
 ---
 title: レポートキャンバスでのテーブル列の設定
 description: レポートキャンバスでのテーブル列の設定
-author: Nolan
-feature: Reports and Dashboards
-exl-id: ce33888f-344d-4f69-b527-9679340d134b
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 2%
