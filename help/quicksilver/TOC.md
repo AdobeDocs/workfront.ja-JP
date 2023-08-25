@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 4501594415c21deb2ff00afad05ca257266f656c
+source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
 workflow-type: tm+mt
-source-wordcount: '13192'
+source-wordcount: '13201'
 ht-degree: 2%
 
 ---
@@ -528,6 +528,7 @@ ht-degree: 2%
          * [レイアウトテンプレートへの管理アクセス](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
          * [ユーザーをレイアウトテンプレートに割り当て](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
          * [レイアウトテンプレートのコピー](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+         * [API 呼び出しを使用したクラシックレイアウトテンプレートの削除](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * カスタムフォーム {#custom-forms}
          * [カスタムフォーム](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [カスタムフォームの概要](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
