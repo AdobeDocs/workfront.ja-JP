@@ -3,7 +3,7 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
+source-git-commit: e31391e854c088ba203a17db81fc04b61a840c21
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 0%
@@ -588,6 +588,10 @@ New in preview, prod, and coming soon text
 <span style="color: #ff0000;"> New in Preview!</span>
 <span style="color: #ff0000;"> New in Production!</span>
 <span style="color: #ff0000;"> Coming soon!</span>
+
+Badge for available in Fast Release
+
+[!BADGE In production for Fast Release ]{type=Positive}
 
 
 Test for boards early access stuff
