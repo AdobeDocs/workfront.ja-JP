@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
+source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
 
 >[!IMPORTANT]
 >
@@ -91,12 +93,12 @@ SharePointから新しい [!DNL SharePoint] 統合については、 [外部ド�
 ドキュメントをSharePointに送信するには：
 
 1. 次をクリック： **送信先** アイコン ![送信先](assets/send-to-icon.png) 「 SharePoint (Graph API) 」を選択します。
-1. （オプション）検索バーで、ドキュメントを送信するサイトまたはフォルダーを検索します。
+1. <span class="preview">（オプション）検索バーで、ドキュメントを送信するサイトまたはフォルダーを検索します。</span>
 1. リストからサイトまたはフォルダを選択します。
 
-   * サイトは ![サイトアイコン](assets/site-icon.png).
+   * <span class="preview">サイトは ![サイトアイコン](assets/site-icon.png).</span>
 
-   * フォルダには、 ![フォルダーアイコン](assets/folder-icon.png).
+   * <span class="preview">フォルダには、 ![フォルダーアイコン](assets/folder-icon.png).</span>
 
    * ファイルにはアイコンは表示されません。
 
