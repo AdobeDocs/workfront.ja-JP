@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # 更新時の他のユーザーへのタグ付け
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
 <span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ ht-degree: 0%
 
 新しいコメントエクスペリエンスでの更新に関して、他のユーザーにタグを付けるには、次の方法があります。
 
-* **自動**：ユーザーがコメントまたは返信を追加すると、自動的にタグ付けされ、コメントボックスの「ユーザーまたはチームにタグ付け」領域に追加されます。
+* **自動**：ユーザーがスレッドを開始したり、コメントを追加したり、返信を追加したりすると、自動的にタグ付けされ、コメントボックスの「ユーザーにタグ付け」領域または「チームに追加」領域に追加されます。 <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >従来のコメント作成エクスペリエンスでスレッドが開始した場合、スレッド参加者は自動的にタグ付けされません。
+
 * **手動**：ユーザーを手動でコメントボックスの「ユーザーにタグを付ける」領域に追加する場合。
 
 また、コメントを編集または返信する際に、誤ってタグ付けされたユーザーを削除することもできます。
@@ -213,3 +220,10 @@ ht-degree: 0%
    作業項目の更新時に使用できる追加機能について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （オプション） **その他** メニュー ![](assets/more-menu.png) <span class="preview">コメントの右上隅に</span>を選択し、次に **編集**. タグ付きユーザーを削除し、「 **送信**. コメントは、入力後 15 分以内に編集できます。 編集できるのは、自分が追加したコメントだけです。
+
+   >[!TIP]
+   >
+   >従来のコメント作成機能を使用してコメントや返信を追加する場合、特にタグ付けされていないコメントの所有者は、新しいコメント作成機能を使用するユーザーによって手動で削除することはできません。
+
+
+
