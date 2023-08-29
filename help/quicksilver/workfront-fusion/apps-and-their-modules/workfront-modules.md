@@ -9,18 +9,18 @@ description: Adobe Workfront Fusion Adobe Workfrontコネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
+source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5468'
 ht-degree: 3%
 
 ---
 
 # [!DNL Adobe Workfront] モジュール
 
-以下を使用して、 [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] 内でプロセスを自動化するコネクタ [!DNL Workfront]. 次の場合、 [!UICONTROL [!DNL Workfront Fusion] 作業の自動化と統合] ライセンスを取得する場合は、それを使用してサードパーティのアプリやサービスに接続することもできます。
+以下を使用すると、 [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] 内でプロセスを自動化するコネクタ [!DNL Workfront]. 次の場合、 [!UICONTROL [!DNL Workfront Fusion] 作業の自動化と統合] ライセンスを取得する場合は、それを使用してサードパーティのアプリやサービスに接続することもできます。
 
-この [!DNL Workfront] コネクタは、組織で使用可能なアクティブなアプリの数に対してカウントされません。 すべてのシナリオ ( たとえ [!DNL Workfront] アプリの場合、組織の合計シナリオ数に対してカウントします。
+The [!DNL Workfront] コネクタは、組織で使用可能なアクティブなアプリの数に対してカウントされません。 すべてのシナリオ ( たとえ [!DNL Workfront] アプリの場合、組織の合計シナリオ数に対してカウントします。
 
 組織で使用可能なアプリとシナリオについて詳しくは、 [組織](../../workfront-fusion/organizations/organizations-and-teams.md#organiza2) in [[!DNL Adobe Workfront Fusion] 組織とチーム](../../workfront-fusion/organizations/organizations-and-teams.md).
 
@@ -47,15 +47,15 @@ ht-degree: 3%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -68,11 +68,11 @@ ht-degree: 3%
 
 ## 接続 [!DNL Workfront] から [!DNL Workfront Fusion]
 
-この [!DNL Workfront] コネクタは、OAuth 2.0 を使用して [!DNL Workfront].
+The [!DNL Workfront] コネクタは、OAuth 2.0 を使用して [!DNL Workfront].
 
-次に、 [!DNL Workfront] 内部から直接アカウントを取得する [!DNL Workfront Fusion] モジュール。
+次に対する接続を作成できます： [!DNL Workfront] 内部から直接アカウントを取得する [!DNL Workfront Fusion] モジュール。
 
-1. 任意の [!DNL Workfront] アプリモジュール、 **[!UICONTROL 追加]** の横 [!UICONTROL 接続] ボックス
+1. 任意の [!DNL Workfront] アプリモジュール、クリック **[!UICONTROL 追加]** の横 [!UICONTROL 接続] ボックス。
 1. インスタンスの名前を URL に入力します。 例: `https://<your instance>.my.workfront.com`.
 1. クリック **[!UICONTROL 次へ]**.
 1. クリック **[!UICONTROL SAML ログイン]** 接続を作成し、モジュールに戻ります。
@@ -91,9 +91,9 @@ ht-degree: 3%
 
 ## [!DNL Workfront] モジュールとそのフィールド
 
-設定時に [!DNL Workfront] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Workfront] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Workfront] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Workfront] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -115,7 +115,7 @@ ht-degree: 3%
 
 このモジュールは、レコードに関連付けられた標準フィールドと、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
 
-1. クリック **[!UICONTROL 追加]** 右 **ウェブフック** ボックス
+1. クリック **[!UICONTROL 追加]** 右に **ウェブフック** ボックス。
 
 1. での Webhook の設定 **[!UICONTROL フックを追加]** ボックスが表示されます。
 
@@ -126,16 +126,16 @@ ht-degree: 3%
     <col> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Webhook 名 ]</td> 
-      <td>（オプション）ウェブフックの新しい名前を入力します</td> 
+      <td>[!UICONTROL Webhook name]</td> 
+      <td>（オプション）Webhook の新しい名前を入力します</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 接続 ]</td> 
-      <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+      <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL レコードタイプ ]</td> 
-      <td>タイプを選択 [!DNL Workfront] レコードを作成します。</td> 
+      <td>次のタイプを選択： [!DNL Workfront] レコードを作成します。</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL 状態 ]</td> 
@@ -143,7 +143,7 @@ ht-degree: 3%
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL イベントフィルター ]</p> </td> 
-      <td> <p>選択した条件を満たすレコードのみを監視するフィルターを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子およびフィルターに許可する値を入力します。 AND ルールを追加すると、複数のフィルターを使用できます。</p> <p>注意：既存のフィルターは編集できません [!DNL Workfront] ウェブフック。 別のフィルターを設定するには [!DNL Workfront] イベントの購読、現在の webhook を削除し、新しく作成します。</p> <p>イベントフィルターについて詳しくは、 <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">のイベント購読フィルター [!DNL Workfront] &gt; [!UICONTROL イベントを監視 ] モジュール</a> 」を参照してください。</p> </td> 
+      <td> <p>選択した条件を満たすレコードのみを監視するフィルターを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子およびフィルターに許可する値を入力します。 AND ルールを追加すると、複数のフィルターを使用できます。</p> <p>注意：既存の [!DNL Workfront] ウェブフック。 別のフィルターを設定するには [!DNL Workfront] イベントの購読、現在の webhook を削除し、新しく作成します。</p> <p>イベントフィルターについて詳しくは、 <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">のイベント購読フィルター [!DNL Workfront] &gt; [!UICONTROL イベントを監視 ] モジュール</a> 」を参照してください。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>この接続でおこなわれたイベントを除外</td> 
@@ -151,14 +151,14 @@ ht-degree: 3%
      </tr> 
      <tr> 
       <td>[!UICONTROL レコードの起源 ]</td> 
-      <td> <p>シナリオを監視するかどうかを選択します <strong>[!UICONTROL 新しいレコードのみ ]</strong>, <strong>[!UICONTROL 更新済みレコードのみ ]</strong>, <strong>[!UICONTROL 新規レコードと更新されたレコード ]</strong>または <strong>[!DNL Deleted Records Only]</strong>.</p> <p>注意：次を選択した場合： <strong>[!UICONTROL 新規レコードと更新されたレコード ]</strong>Webhook の作成により、（同じ Webhook アドレスに対して）2 つのイベント購読が作成されます。</p> </td> 
+      <td> <p>シナリオを監視するかどうかを選択します <strong>[!UICONTROL 新しいレコードのみ ]</strong>, <strong>[!UICONTROL 更新済みレコードのみ ]</strong>, <strong>[!UICONTROL 新規レコードと更新されたレコード ]</strong>または <strong>[!DNL Deleted Records Only]</strong>.</p> <p>注意： <strong>[!UICONTROL 新規レコードと更新されたレコード ]</strong>Webhook の作成により、（同じ Webhook アドレスに対して）2 つのイベント購読が作成されます。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 Webhook を作成したら、イベントの送信先のエンドポイントのアドレスを表示できます。
 
-詳しくは、 [イベントペイロードの例](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) 内 [!DNL Workfront] ヘルプ記事 [イベント購読 API](../../wf-api/general/event-subs-api.md).
+詳しくは、 [イベントペイロードの例](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) （内） [!DNL Workfront] ヘルプ記事 [イベント購読 API](../../wf-api/general/event-subs-api.md).
 
 以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
@@ -176,11 +176,11 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL レコードタイプ ]</td> 
-   <td> <p>タイプを選択 [!DNL Workfront] レコードを作成します。</p> <p>例えば、タスク内のレコードフィールドが更新されるたびにシナリオの実行を開始する場合は、「[!UICONTROL タスク ]」を選択します。</p> </td> 
+   <td> <p>次のタイプを選択： [!DNL Workfront] レコードを作成します。</p> <p>例えば、タスク内のレコードフィールドが更新されるたびにシナリオの実行を開始する場合は、「[!UICONTROL タスク ]」を選択します。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL フィールド ]</td> 
@@ -215,7 +215,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL フィルター ]</td> 
@@ -223,7 +223,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
-   <td> <p>( <strong>フィルター</strong>.) タイプを選択 [!DNL Workfront] レコードを作成します。</p> <p>例えば、新しいプロジェクトが作成されるたびにシナリオを開始する場合は、「[!UICONTROL プロジェクト ]」を選択します</p> </td> 
+   <td> <p>( <strong>フィルター</strong>.) 次のタイプを選択： [!DNL Workfront] レコードを作成します。</p> <p>例えば、新しいプロジェクトが作成されるたびにシナリオを開始する場合は、「[!UICONTROL プロジェクト ]」を選択します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 出力 ]</td> 
@@ -274,7 +274,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL オブジェクトタイプ ]</td> 
@@ -286,11 +286,11 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr> 
    <td>[!UICONTROL &lt;object&gt; ID]</td> 
-   <td> <p>オブジェクトの ID を入力します。 </p> <p>注意：オブジェクトの ID を入力する際に、オブジェクトの名前を入力し、リストから選択できます。 次に、モジュールは、フィールドに適切な ID を入力します。</p> </td> 
+   <td> <p>オブジェクトの ID を入力します。 </p> <p>注意：オブジェクトの ID を入力する際に、オブジェクトの名前を入力し始め、リストから選択できます。 次に、モジュールは、フィールドに適切な ID を入力します。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL テンプレート ID]</td> 
-   <td> <p>プロジェクトに変換する場合は、プロジェクトに使用するテンプレート ID を選択します。</p> <p>注意：オブジェクトの ID を入力する際に、オブジェクトの名前を入力し、リストから選択できます。 次に、モジュールは、フィールドに適切な ID を入力します。</p> </td> 
+   <td> <p>プロジェクトに変換する場合は、プロジェクトに使用するテンプレート ID を選択します。</p> <p>注意：オブジェクトの ID を入力する際に、オブジェクトの名前を入力し始め、リストから選択できます。 次に、モジュールは、フィールドに適切な ID を入力します。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL カスタムフォーム ]</td> 
@@ -327,11 +327,11 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL レコードタイプ ]</td> 
-   <td> <p>タイプを選択 [!DNL Workfront] を記録します。</p> <p>例えば、プロジェクトを作成する場合は、ドロップダウンリストから「 [!UICONTROL プロジェクト ] 」を選択し、プロジェクトに入力されるデータ（シナリオの前のモジュールのもの）にアクセスできることを確認します。</p> </td> 
+   <td> <p>次のタイプを選択： [!DNL Workfront] レコードを作成します。</p> <p>例えば、プロジェクトを作成する場合は、ドロップダウンリストから「 [!UICONTROL プロジェクト ] 」を選択し、プロジェクトに入力されるデータ（シナリオの前のモジュールのもの）にアクセスできることを確認します。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL マッピングするフィールドを選択 ]</td> 
@@ -339,7 +339,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL カスタムフォームを添付 ]</td> 
-   <td>新しいオブジェクトに追加するカスタムフォームを選択し、それらのフィールドに値を入力します。</td> 
+   <td>新しいオブジェクトに追加するカスタムフォームを選択し、それらのフィールドの値を入力します。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -378,11 +378,11 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL レコードタイプ ]</td> 
-   <td> <p>タイプを選択 [!DNL Workfront] を記録します。</p> <p>例えば、プロジェクトを作成する場合は、ドロップダウンリストから「 [!UICONTROL プロジェクト ] 」を選択し、プロジェクトに入力されるデータ（シナリオの前のモジュールのもの）にアクセスできることを確認します。</p> </td> 
+   <td> <p>次のタイプを選択： [!DNL Workfront] レコードを作成します。</p> <p>例えば、プロジェクトを作成する場合は、ドロップダウンリストから「 [!UICONTROL プロジェクト ] 」を選択し、プロジェクトに入力されるデータ（シナリオの前のモジュールのもの）にアクセスできることを確認します。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL マッピングするフィールドを選択 ]</td> 
@@ -405,16 +405,16 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
 
 +++ **[!UICONTROL カスタム API 呼び出し]**
 
-このアクションモジュールを使用すると、 [!DNL Workfront] API これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Workfront] モジュール。
+このアクションモジュールを使用すると、 [!DNL Workfront] API. これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Workfront] モジュール。
 
-モジュールは、次の情報を返します。
+このモジュールは、次の情報を返します。
 
 * **[!UICONTROL ステータスコード]** （数値）:HTTP リクエストの成功または失敗を示します。 これらはインターネット上で検索できる標準コードです。
-* **[!UICONTROL ヘッダー]** （オブジェクト）:出力本文に関連しない応答/ステータスコードのより詳細なコンテキスト。 応答ヘッダーに表示されるすべてのヘッダーが応答ヘッダーではないので、役に立たないヘッダーも含まれている可能性があります。
+* **[!UICONTROL ヘッダー]** （オブジェクト）：出力本文に関連しない応答/ステータスコードのより詳細なコンテキスト。 応答ヘッダーに表示されるすべてのヘッダーが応答ヘッダーではないので、役に立たないヘッダーも含まれている可能性があります。
 
   応答ヘッダーは、モジュールの設定時に選択した HTTP リクエストによって異なります。
 
-* **[!UICONTROL 本文]** （オブジェクト）:モジュールの設定時に選択した HTTP リクエストに応じて、一部のデータを受け取る場合があります。 このデータ ( データリクエストからのGETなど ) は、このオブジェクトに含まれます。
+* **[!UICONTROL 本文]** （オブジェクト）：モジュールの設定時に選択した HTTP リクエストに応じて、一部のデータを受け取る場合があります。 このデータ ( データリクエストからのGETなど ) は、このオブジェクトに含まれます。
 
 この情報は、シナリオの後続のモジュールにマッピングできます。
 
@@ -426,7 +426,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -438,7 +438,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL メソッド ]</td> 
-   td&gt; <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -446,11 +446,11 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL クエリ文字列 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しのクエリを追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> <p>ヒント：情報は、クエリパラメーターではなく JSON の本文を使用して送信することをお勧めします。</p> </td> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しのクエリを追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> <p>ヒント：情報は、クエリパラメーターではなく、JSON の本文を使用して送信することをお勧めします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -478,7 +478,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 削除を強制 ]</td> 
@@ -486,16 +486,24 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ID</td> 
-   <td> <p>一意の [!DNL Workfront] モジュールで削除するレコードの ID。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用し、URL の末尾の「ID=」の後のテキストをコピーします。 例：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>一意の [!DNL Workfront] モジュールで削除するレコードの ID。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用して、URL の末尾の「ID=」の後のテキストをコピーします。 例： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL レコードタイプ ]</td> 
-   <td>タイプを選択 [!DNL Workfront] を記録します。</td> 
+   <td>次のタイプを選択： [!DNL Workfront] を記録します。</td> 
   </tr> 
  </tbody> 
 </table>
 
 以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+
+>[!NOTE]
+>
+>非同期操作によってレコードが削除されない可能性を回避するために、次のシナリオ設定をお勧めします。
+>
+>1. レコードを同期的に削除します。
+>1. レコードの削除モジュールにエラー処理を追加し、40 秒のタイムアウトによるエラーを無視します。
+
 
 +++
 
@@ -515,11 +523,11 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ドキュメント ID]</td> 
-   <td> <p>マッピングするか、一意の [!DNL Workfront] モジュールをダウンロードするドキュメントの ID。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用し、URL の末尾の「ID=」の後のテキストをコピーします。 例：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>マッピングするか、一意の [!DNL Workfront] モジュールをダウンロードするドキュメントの ID。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用して、URL の末尾の「ID=」の後のテキストをコピーします。 例： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -540,17 +548,17 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL レコードタイプ ]</td> 
-   <td> <p>タイプを選択 [!DNL Workfront] を記録します。</p> </td> 
+   <td> <p>次のタイプを選択： [!DNL Workfront] モジュールとやり取りするレコード。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL アクション ]</td> 
-   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL レコードタイプ ] および [!UICONTROL アクション ] に応じて、追加のフィールドの入力が必要になる場合があります。 これら 2 つの設定の組み合わせによっては、レコード ID しか必要ない場合もあれば、レコード ID しか必要ない場合もあります ( 例えば、 <strong>[!UICONTROL レコードタイプ ]</strong> および <strong>[!UICONTROL アクション ]</strong>) には、追加の情報（オブジェクト ID やテンプレート ID など）が必要です。</p> <p>個々のフィールドについて詳しくは、 <a href="http://developer.workfront.com/">Workfront開発者ドキュメント</a>. </p> 
+   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL レコードタイプ ] および [!UICONTROL アクション ] に応じて、追加のフィールドの入力が必要になる場合があります。 この 2 つの設定の組み合わせによっては、レコード ID しか必要ない場合もあれば、レコード ID しか必要ない場合もあります ( 例えば、 <strong>[!UICONTROL レコードタイプ ]</strong> および [!UICONTROL テンプレートを添付 ] <strong>[!UICONTROL アクション ]</strong>) には、追加の情報（オブジェクト ID やテンプレート ID など）が必要です。</p> <p>個々のフィールドについて詳しくは、 <a href="http://developer.workfront.com/">Workfront開発者ドキュメント</a>. </p> 
     <ol> 
-     <li value="1"> <p>左側のナビゲーションからレコードタイプを選択します。 [!DNL Workfront] 開発者向けドキュメントページ 次のタイプには、独自のページがあります。</p> 
+     <li value="1"> <p>左側のナビゲーションからレコードタイプを選択します。 [!DNL Workfront] 開発者向けドキュメントページです。 次のタイプには、独自のページがあります。</p> 
       <ul> 
        <li> <p>[!UICONTROL プロジェクト ]</p> </li> 
        <li> <p>[!UICONTROL タスク ]</p> </li> 
@@ -558,13 +566,13 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
        <li> <p>[!UICONTROL ユーザー ]</p> </li> 
        <li> <p>[!UICONTROL ドキュメント ]</p> </li> 
       </ul> <p>その他のすべてのレコードタイプに対して、 <b>[!UICONTROL その他のオブジェクトおよびエンドポイント ]</b>をクリックし、アルファベット順に並べ替えられたページでレコードタイプを探します。</p> </li> 
-     <li value="2"> <p>適切なレコードタイプのページで、アクションを検索（Ctrl + F または Command + F）します。</p> </li> 
+     <li value="2"> <p>適切なレコードタイプのページで、アクションを検索（Ctrl + F または Command + F キー）します。</p> </li> 
      <li value="3"> <p>選択したアクションの下にある使用可能フィールドの説明を表示します。</p> </li> 
     </ol> <p>メモ:  <p>次の手順で配達確認を作成する場合： [!DNL Workfront] [!UICONTROL その他のアクション ] モジュールでは、高度なオプションを使用せずに配達確認を作成し、 [!DNL Workfront Proof] SOAP API</p> <p>を使用した配達確認の作成について詳しくは、 [!DNL Workfront] API（このモジュールで使用）（を参照） <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">で配達確認を作成する際に、高度な校正オプションを追加する [!DNL Adobe Workfront] API</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td>一意の [!DNL Workfront] モジュールとやり取りするレコードの ID。<p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用し、URL の末尾の「ID=」の後のテキストをコピーします。 例：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+   <td>一意の [!DNL Workfront] モジュールとやり取りするレコードの ID。<p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用して、URL の末尾の「ID=」の後のテキストをコピーします。 例： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -592,7 +600,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   <tr> 
     <td>[!UICONTROL 接続 ]</td>
 
-<td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+<td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL レコードタイプ ]</td>
@@ -614,7 +622,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr> 
     <td>[!UICONTROL ID]</td>
-   <td> <p>一意の [!DNL Workfront] モジュールが読み取るレコードの ID。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用し、URL の末尾の「ID=」の後のテキストをコピーします。 例：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>一意の [!DNL Workfront] モジュールが読み取るレコードの ID。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用して、URL の末尾の「ID=」の後のテキストをコピーします。 例： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -641,15 +649,15 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>一意の [!DNL Workfront] モジュールを更新するレコードの ID。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用し、URL の末尾の「ID=」の後のテキストをコピーします。 例：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>一意の [!DNL Workfront] モジュールを更新するレコードの ID。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用して、URL の末尾の「ID=」の後のテキストをコピーします。 例： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Record Type]</td> 
-   <td> <p>タイプを選択 [!DNL Workfront] を記録します。</p> </td> 
+   <td> <p>次のタイプを選択： [!DNL Workfront] を記録します。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!DNL Select fields to map]</td> 
@@ -686,15 +694,15 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 関連レコード ID]</td> 
-   <td>一意の [!DNL Workfront] ドキュメントをアップロードするレコードの ID。</td> 
+   <td>一意の [!DNL Workfront] ドキュメントのアップロード先のレコードの ID。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 関連レコードタイプ ]</td> 
-   <td>タイプを選択 [!DNL Workfront] モジュールでドキュメントをアップロードする場所を記録します。</td> 
+   <td>次のタイプを選択： [!DNL Workfront] モジュールでドキュメントをアップロードする場所を記録します。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ソースファイル ]</td> 
@@ -728,15 +736,15 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL レコードタイプ ]</td> 
-   <td> <p>読み取る関連レコードの親レコード (Workfrontオブジェクト ) のタイプを選択します。</p> <p>以下のリストを参照してください： [!DNL Workfront] このモジュールを <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">[!DNL Workfront] 各 [!DNL Workfront] モジュール</a> 」を参照してください。</p> </td> 
+   <td> <p>読み取る関連レコードの親レコード (Workfrontオブジェクト ) のタイプを選択します。</p> <p>以下のリストを参照してください： [!DNL Workfront] このモジュールを <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 親レコード ID]</td> 
-   <td> <p>読み取る関連レコードの親レコードの ID を入力またはマップします。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用し、URL の末尾の「ID=」の後のテキストをコピーします。 例：https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>読み取る関連レコードの親レコードの ID を入力またはマップします。</p> <p>ID を取得するには、 [!DNL Workfront] オブジェクトを使用して、URL の末尾の「ID=」の後のテキストをコピーします。 例： https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL コレクション ]</td> 
@@ -765,11 +773,11 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <tbody> 
   <tr> 
    <td>[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront] 次のアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">接続 [!DNL Workfront] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL レコードタイプ ]</td> 
-   <td> <p>タイプを選択 [!DNL Workfront] を記録します。</p> </td> 
+   <td> <p>次のタイプを選択： [!DNL Workfront] を記録します。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 結果セット ]</td> 
@@ -781,7 +789,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr> 
    <td>[!UICONTROL 検索条件 ]</td> 
-   <td> <p>検索するフィールド、クエリで使用する演算子、および「 」フィールドで検索する値を入力します。</p> <p>注意：使用しない <code>username </code>」と入力します。 次を含む <code>username </code>を [!DNL Workfront] ユーザーをWorkfrontに記録すると、検索に失敗します。</p> <p>注意： <code>In</code> および <code>NotIn</code>は配列を使用します。 入力は配列形式である必要があります。</p></td> 
+   <td> <p>検索するフィールド、クエリで使用する演算子、および「 」フィールドで検索する値を入力します。</p> <p>注意： <code>username </code>」と入力します。 次を含む <code>username </code>を API クエリで [!DNL Workfront] ユーザーをWorkfrontに記録すると、検索に失敗します。</p> <p>注意： <code>In</code> および <code>NotIn</code>は配列を使用します。 入力は配列形式である必要があります。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 出力 ]</td> 
@@ -802,13 +810,13 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
 
 +++
 
-## [!DNL Workfront] 各 [!DNL Workfront] モジュール
+## [!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール
 
 <!-- [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module) 
 * [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module) 
 * [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)-->
 
-+++**各 [!DNL Workfront] トリガーモジュール**
++++**それぞれに使用可能なオブジェクトタイプ [!DNL Workfront] トリガーモジュール**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -818,7 +826,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL ウォッチレコード ]</th> 
+   <th>[!UICONTROL 監視レコード ]</th> 
    <th>[!UICONTROL 監視フィールド ]</th> 
    <th>[!UICONTROL ウォッチイベント ]</th> 
   </tr> 
@@ -879,7 +887,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
    <td> </td> 
   </tr> 
   <tr> 
-   <td>ドキュメント要求</td> 
+   <td>ドキュメントリクエスト</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -1075,11 +1083,11 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
 
 +++
 
-+++**各 [!DNL Workfront] アクションモジュール**
++++**それぞれに使用可能なオブジェクトタイプ [!DNL Workfront] アクションモジュール**
 
 >[!NOTE]
 >
->この [!UICONTROL ドキュメントをダウンロード] モジュールはこのテーブルに含まれていません。 [!DNL Workfront] オブジェクトタイプは設定に含まれていません。
+>The [!UICONTROL ドキュメントをダウンロード] モジュールはこのテーブルに含まれていません。 [!DNL Workfront] オブジェクトタイプは設定に含まれていません。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1468,7 +1476,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
 
 +++
 
-+++**各 [!DNL Workfront] 検索モジュール**
++++**それぞれに使用可能なオブジェクトタイプ [!DNL Workfront] 検索モジュール**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1675,7 +1683,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
 >
 >イベント購読フィルターを [!UICONTROL イベントを見る] モジュール。
 
-この [!DNL Workfront] [!UICONTROL イベントを見る] モジュールトリガーシナリオ： [!DNL Workfront] API イベント購読は、Webhook に送信するイベントを決定する一連のデータです。 例えば、 [!UICONTROL イベントを見る] モジュールで問題を監視している場合、イベント購読は問題に関連するイベントのみを送信します。
+The [!DNL Workfront] [!UICONTROL イベントを見る] モジュールトリガーでイベント購読を作成する Webhook に基づくシナリオ [!DNL Workfront] API. イベント購読は、Webhook に送信するイベントを決定する一連のデータです。 例えば、 [!UICONTROL イベントを見る] モジュールで問題を監視している場合、イベント購読は問題に関連するイベントのみを送信します。
 
 Fusion ユーザーは、イベントサブスクリプションフィルタを使用して、自分の使用例に適したイベントサブスクリプションを作成できます。 例えば、 [!DNL Workfront] 特定のプロジェクトにある問題のみを Webhook に送信する API。 [!UICONTROL イベントを見る] モジュールは、そのプロジェクトでの問題に対してのみトリガーします。 より狭いトリガーを作成する機能により、無関係なトリガーの数を減らし、シナリオのデザインを改善します。
 
@@ -1686,10 +1694,10 @@ Workfront/イベントを監視フィルターでは、次の演算子を使用�
 * が次と等しい
 * 等しくない
 * より大きい
-* 未満
+* より小さい
 * 次よりも大きいか等しい
 * 次よりも小さいか等しい
-* が次を含む
+* 次を含む
 * 存在
    * この演算子には値は必要ありません。また、値フィールドは存在しません。
 * 存在しない
@@ -1697,7 +1705,7 @@ Workfront/イベントを監視フィルターでは、次の演算子を使用�
 * 変更済み
    * この演算子には値は必要ありません。また、値フィールドは存在しません。
    * この演算子は、「状態」フィールドを無視します。
-   * を使用する場合 `Changed`を選択します。 **更新されたイベントのみ** 内 **レコードの起源** フィールドに入力します。
+   * を使用する場合 `Changed`を選択します。 **更新されたイベントのみ** （内） **レコードの起源** フィールドに入力します。
 
 >[!IMPORTANT]
 >
@@ -1715,9 +1723,9 @@ Workfront/イベントを監視フィルターでは、次の演算子を使用�
 >
 >1 日に 100 個の問題が作成され、そのうち 2 個のみが Ana に割り当てられている場合、シナリオは 2 回実行されます。
 >
->### シナリオ内のイベントをフィルター（非推奨）
+>### シナリオ内のイベントをフィルタリングする（非推奨）
 >
->Ana に割り当てられた問題のみを処理するようにイベントをフィルタリングするには、 [!UICONTROL イベントを見る] モジュール。
+>Ana に割り当てられた問題のみを処理するようにイベントをフィルタリングするには、「 [!UICONTROL イベントを見る] モジュール。
 >
 >![](assets/watch-events-non-event-filter-350x206.png)
 >
@@ -1725,7 +1733,7 @@ Workfront/イベントを監視フィルターでは、次の演算子を使用�
 
 イベントの購読について詳しくは、 [FAQ — イベント購読](../../wf-api/general/event-subs-faq.md).
 
-ウェブフックの詳細については、 [のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+Web フックの詳細については、 [のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 シナリオでのフィルターの詳細については、 [のシナリオにフィルターを追加する [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
 
