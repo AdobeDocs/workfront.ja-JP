@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: fdf53e84054a51ae7bcf2a888740c03171941f32
+source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13214'
 ht-degree: 2%
 
 ---
@@ -1099,6 +1099,7 @@ ht-degree: 2%
          * [Experience Manager AssetsまたはAssets Essentialsへのドキュメントの送信](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Experience Manager Assetsまたは Asset Essentials のリンクされたアセットの配達確認](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Experience Manager AssetsまたはフォルダーにリンクしたAssets Essentialsーの作成](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+         * [Experience Manager AssetsまたはAssets Essentialsーからアセットやフォルダーのリンクを解除または削除する](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Adobe Experience Manager統合のトラブルシューティング](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 従来のコネクタまたは拡張コネクタからの移行 {#migrate-from-legacy-enhanced-connectors}

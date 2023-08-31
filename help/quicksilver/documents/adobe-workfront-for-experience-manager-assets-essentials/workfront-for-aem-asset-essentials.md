@@ -7,21 +7,22 @@ description: Adobe Workfront for Experience Manager Assets Essentials
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
-# Experience Manager AssetsとAssets EssentialsのAdobe Workfront
+# Adobe Workfront for Experience Manager AssetsとAssets Essentials
 
 * [Adobe Experience Manager Assets 統合の概要](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-* [Experience Manager AssetsまたはAssets Essentialsからのアセットおよびフォルダーのリンク](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+* [Experience Manager AssetsまたはAssets Essentialsーからのアセットおよびフォルダーのリンク](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
 * [Experience Manager AssetsまたはAssets Essentialsのマッピングされたメタデータの表示](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-* [Experience Manager AssetsまたはAssets Essentialsにドキュメントを送信する](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
-* [リンクされたアセットのExperience Manager AssetsまたはAssets Essentialsでの配達確認](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-* [Experience Manager AssetsまたはAssets Essentialsからのリンクされたアセットの表示またはダウンロード](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-* [Experience Manager AssetsまたはAssets Essentialsにリンクしたフォルダーの作成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+* [Experience Manager AssetsまたはAssets Essentialsへのドキュメントの送信](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+* [リンクされたアセット (Experience Manager AssetsまたはAssets Essentials) の配達確認](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
+* [Experience Manager Assetsまたは Assets からのリンクされたアセットの表示またはダウンロードAssets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+* [Experience Manager AssetsまたはフォルダーにリンクしたAssets Essentialsーの作成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+* [Experience Manager AssetsまたはAssets Essentialsーからアセットやフォルダーのリンクを解除または削除する](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
 * [Adobe Experience Manager統合のトラブルシューティング](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
