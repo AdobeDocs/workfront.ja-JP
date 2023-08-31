@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
 
 # 新しいコメントエクスペリエンスリリースアクティビティ
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ ht-degree: 2%
 
 この変更は、「システムアクティビティ」タブのシステム更新には影響しません。
 
-プレビューおよび実稼動環境： 2023 年 8 月 24 日
+すべてのお客様向けのプレビューおよび実稼動：2023 年 8 月 24 日
 
 ### 2023 年 8 月 14 日の週
 
 [2023 年 8 月 14 日の週にリリースされたすべての機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### 追加のオブジェクトに関する新しいコメント作成機能
+
+[!BADGE 高速リリースの実稼動中]{type=Positive}
 
 23.3 の実稼働環境へのリリース後すぐに、新しいコメントエクスペリエンスが、テンプレートタスク、テンプレート、タイムシート、チーム、ユーザー、プログラム、ポートフォリオのオブジェクトで使用できるようになります。
 
@@ -98,6 +102,8 @@ ht-degree: 2%
 すべてのお客様向けの実稼動リリース： 23.10 リリース（2023 年 10 月）
 
 #### 新しいコメントストリームの新しいデザインの更新
+
+[!BADGE 高速リリースの実稼動中]{type=Positive}
 
 新しいコメントストリームのデザインを一新し、より新しいルックアンドフィールを提供しました。 改善点の一部を次に示します。
 
@@ -122,6 +128,8 @@ ht-degree: 2%
 四半期リリースの実稼働： 23.10 リリース（2023 年 10 月）
 
 #### 新しいコメントエクスペリエンスは、プロジェクト、タスク、問題、ドキュメントのデフォルトエクスペリエンスです
+
+[!BADGE 高速リリースの実稼動中]{type=Positive}
 
 新しいコメントエクスペリエンスを、プロジェクト、タスク、問題、ドキュメントの各オブジェクトのデフォルトエクスペリエンスにします。  従来のコメントエクスペリエンスは、これらのオブジェクトにアクセスする際の代替オプションとして引き続き使用できます。
 
