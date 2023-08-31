@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: f886c67c80439e2e8158c4616479ffabaa53c3d3
+source-git-commit: b0142b75e507081ebfb6ce700f37d5c287c72cde
 workflow-type: tm+mt
 source-wordcount: '2334'
 ht-degree: 2%
@@ -839,7 +839,7 @@ Deleted
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
 #### ヘッダー
@@ -891,14 +891,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 #### オプション
 
-次の場合、 `translationmap` がPOST本文に指定されていない場合、プロセスは自動的に `/translationmap` を呼び出します。 The `translationmap` 返されるはそのまま使用され、レビューや調整をおこなう機会はありません。
+次の場合、 `translationmap` がPOST本文に指定されていない場合、プロセスは自動的に `/prepare-installation` を呼び出します。 The `translationmap` 返されるはそのまま使用され、レビューや調整をおこなう機会はありません。
 
 次の場合、 `translationmap` がPOST本文に指定されている場合、インストールプロセスは提供されたマッピングを使用します。 これにより、インストールユーザーは、インストールを実行する前に、必要に応じて確認し、調整を行うことができます。
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### ヘッダー
@@ -954,7 +954,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### ヘッダー
