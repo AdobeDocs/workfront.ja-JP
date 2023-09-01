@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: c23586101f1d4d44598a55793fd6cb9247e1b796
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 0%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a></p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -127,6 +127,9 @@ ht-degree: 0%
                             <li>
                                 <p>プレビューリリース： 2023 年 8 月 4 日</p>
                             </li>
+                            <li>
+                                <p>ボードの早期アクセス用の実稼動：なし</p>
+                            </li>
                              <li>
                                 <p>高速リリース向けの本番環境：なし</p>
                             </li>
@@ -157,7 +160,7 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a><span style="color: #ff0000;"> プレビューの新機能</span> </p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a></p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -165,17 +168,14 @@ ht-degree: 0%
                                 <p>プレビューリリース： 8 月 24 日<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動：未定</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの本番：未定</p>
+                                <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a><span style="color: #ff0000;"> プレビューの新機能</span> </p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -183,10 +183,7 @@ ht-degree: 0%
                                 <p>プレビューリリース： 8 月 24 日<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動：未定</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの本番：未定</p>
+                                <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span>
                             </li>
                         </ul>
                     </td>
@@ -213,8 +210,10 @@ ht-degree: 0%
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">プロジェクトに新しいイシューを追加する際にデザインを更新しました</a> </p><p>この更新は 23.3 リリースで発表されました。
-                        <p>新しいイシューをプロジェクトに送信する際に表示される「新しいイシュー」ボックスを更新しました。 現在は、インターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される「新しいリクエスト」ボックスに一致します。  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">プロジェクトに新しいイシューを追加する際にデザインを更新しました</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
+                        <p>この更新は 23.3 リリースで発表されました。</p>
+                        <p>新しいイシューをプロジェクトに送信する際に表示される「新しいイシュー」ボックスを更新しました。 現在は、インターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される「新しいリクエスト」ボックスに一致します。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -232,7 +231,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">フォームの計算フィールドの動的な再計算</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">フォームの計算フィールドの動的な再計算</a></p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>ページ上のフォームの依存値が変更された場合、オブジェクトに添付されたフォームの計算フィールドが、リアルタイムで動的に再計算されるようになりました。 これにより、フォームを保存せずに、更新された結果を表示できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -252,6 +252,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">割り当てを行わない単純期間タイプで、子の定期タスクに予定時間を設定します</a></p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>割り当てがなく、単純期間タイプの定期タスクに計画時間を割り当てる方法を変更しました。 現在は、[ 簡易期間の種類 ] で割り当てを行わない新しい定期タスクに予定時間を設定すると、時間も個々の繰り返しに割り当てられます。 この変更以前は、親タスクが割り当てられていない場合、時間は個々の繰り返しに対して保存されていませんでした。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -349,6 +350,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスベータ版の機能強化</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>更新に関する節の機能強化は、2023 年第 4 四半期のリリース期間内に、コメント作成エクスペリエンスベータ版に対して提供される予定です。 これらの機能強化は、2023 年第 4 四半期リリース（2023 年 10 月）のすべてのお客様が実稼動環境で利用できるようになります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -368,6 +370,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">新しいキャンバスダッシュボードベータ版の機能強化</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>キャンバスダッシュボードの機能強化は、2023 年第 4 四半期のリリース期間内に、継続的なベータ版の一環として提供されます。 これらの機能強化は、2023 年第 4 四半期リリース（2023 年 10 月）のすべてのお客様が実稼動環境で利用できるようになります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -387,6 +390,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームの新しいフィルターオプション</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>新しいホームの My Work ウィジェットで新しいフィルターオプションを使用できるようになりました。 オプションには、オブジェクトのタイプ（タスク、問題、リクエスト）とステータス（準備ができていない、開始準備ができている、作業中の、完了済み）のフィルターが含まれます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -425,6 +429,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新規ホームを無効にしたアカウントに対して、新規ホームボタンを削除してみます</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>新しいホームが無効になっているアカウントでは、[ 新しいホームを試す ] ボタンが表示されなくなりました。 個々のユーザーがボタンを使用して新しいホームを試す前に、システム管理者が新しいホームを再度有効にする必要があります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -444,6 +449,7 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームのデフォルトのウィジェットセットに変更</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>タスクの作成権限を必要とする TODO ウィジェットは、標準、計画、または作業用のライセンスの種類を持つユーザー向けのデフォルトのウィジェットセットにのみ存在します。 さらに、ウィジェットは他のすべてのライセンスタイプを持つユーザーのホームページから自動的に削除されました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
