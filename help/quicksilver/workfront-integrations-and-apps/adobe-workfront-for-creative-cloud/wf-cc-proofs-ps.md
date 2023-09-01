@@ -6,9 +6,9 @@ description: アートボードを配達確認としてAdobe Workfrontに直接�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
+source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
-   <td> <p>現在のプラン：[!UICONTROL Pro] 以降</p> <p>または</p> <p>レガシープラン：[!UICONTROL Premium]</p> <p>様々なプランでのアクセス権の校正について詳しくは、を参照してください。</p> </td> 
+   <td> <p>現在のプラン： [!UICONTROL Pro] 以降</p> <p>または</p> <p>レガシープラン：[!UICONTROL Premium]</p> <p>様々なプランでのアクセス権の校正について詳しくは、を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>現在のプラン：[!UICONTROL Work] または [!UICONTROL Proof]</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td> <p>現在のプラン： [!UICONTROL Work] または [!UICONTROL Proof]</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
@@ -42,8 +42,8 @@ ht-degree: 0%
    <td>[!UICONTROL Manager] 以降</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>[!UICONTROL ドキュメント ] へのアクセスの編集</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>[!UICONTROL ドキュメント ] へのアクセスの編集</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,9 +52,9 @@ ht-degree: 0%
 
 ## 前提条件
 
-* 次をインストールする必要があります： [!DNL Adobe Workfront for Photoshop] プラグインを使用して、次の配達確認をアップロードする必要があります： [!DNL Adobe Photoshop].
+* をインストールする必要があります [!DNL Adobe Workfront for Photoshop] 次の場所から配達確認をアップロードする前に： [!DNL Adobe Photoshop].
 
-   手順については、 [インストール [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  手順については、 [インストール [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
 ## 基本配達確認のアップロード
 
@@ -64,22 +64,22 @@ ht-degree: 0%
 
 1. 配達確認をアップロードする作業項目に移動します。
 1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
-1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にある。
+1. クリック **[!UICONTROL 新規ファイル]** ～の底付近に [!DNL Workfront] パネル。
 1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
-1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス
-1. 内 **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 基本]**.
+1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス。
+1. Adobe Analytics の **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 基本]**.
 1. （オプション）承認者を追加します。
-1. （オプション） **[!UICONTROL 更新]** 領域
+1. （オプション） **[!UICONTROL 更新]** 領域。
 
    ![](assets/add-comment.png)
 
 1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
 
-1. （オプション）「 」を選択します。 **[!UICONTROL 外部ファイルを追加]** をクリックして、コンピュータからファイルを追加します。
+1. （オプション）「 」を選択します。 **[!UICONTROL 外部ファイルを追加]** をクリックして、コンピューターからファイルを追加します。
 1. クリック **[!UICONTROL アップロード]**&#x200B;を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
 
    ![](assets/plugin-files-350x307.png)\
-   ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+   ドキュメントが [!UICONTROL ドキュメント] 領域 [!DNL Workfront] パネル内 [!DNL Photoshop] また、 [!DNL Workfront] デスクトップアプリケーション。
 
 
 ## 自動配達確認のアップロード
@@ -91,10 +91,10 @@ ht-degree: 0%
 1. 配達確認をアップロードする作業項目に移動します。
 1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
 
-1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にある。
+1. クリック **[!UICONTROL 新規ファイル]** ～の底付近に [!DNL Workfront] パネル。
 1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
-1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス
-1. 内 **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 自動]**.
+1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス。
+1. Adobe Analytics の **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 自動]**.
 1. （オプション） **[!UICONTROL ワークフローテンプレート]** 「 」ボックスに、配達確認ワークフローテンプレートの名前を入力します。
 
 {{adjust-proof-settings}}
@@ -104,14 +104,14 @@ ht-degree: 0%
 > ワークフローテンプレートに空白の必須フィールドがある場合は、自動配達確認設定が自動的に開き、配達確認をアップロードするには、これらのフィールドに入力する必要があります。
 
 
-1. （オプション） **[!UICONTROL 更新]** 領域
+1. （オプション） **[!UICONTROL 更新]** 領域。
 
    ![](assets/add-comment-automated-approval.png)
 
 1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
-1. （オプション）「 」を選択します。 **[!UICONTROL 外部ファイルを追加]** をクリックして、コンピュータからファイルを追加します。
+1. （オプション）「 」を選択します。 **[!UICONTROL 外部ファイルを追加]** をクリックして、コンピューターからファイルを追加します。
 1. クリック **[!UICONTROL アップロード]**を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
-ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+ドキュメントが [!UICONTROL ドキュメント] 領域 [!DNL Workfront] パネル内 [!DNL Photoshop] また、 [!DNL Workfront] デスクトップアプリケーション。
 
 ## 新しい配達確認バージョンをアップロード
 
@@ -124,14 +124,14 @@ ht-degree: 0%
 1. ドキュメントのアップロード先の作業項目に移動します。
 1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png)をクリックします。
 
-1. クリック **[!UICONTROL 新しいバージョン]** プラグインの下部付近にある。
+1. クリック **[!UICONTROL 新しいバージョン]** ～の底付近に [!DNL Workfront] パネル。
 1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
 
-1. 内 *[!UICONTROL *配達確認の承認]**セクションで、「 **[!UICONTROL 基本]** または **[!UICONTROL 自動]**.
+1. Adobe Analytics の *[!UICONTROL *配達確認の承認]**セクションで、「 **[!UICONTROL 基本]** または **[!UICONTROL 自動]**.
 
 1. 追加 **[!UICONTROL レビュー担当者]** または **[!UICONTROL ワークフローテンプレート]** 手順 7 で選択した承認タイプに基づいて
 
-1. （オプション） **[!UICONTROL 更新]** 領域
+1. （オプション） **[!UICONTROL 更新]** 領域。
 1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
 1. クリック **[!UICONTROL アップロード]**を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
-ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+ドキュメントが [!UICONTROL ドキュメント] 領域 [!DNL Workfront] パネル内 [!DNL Photoshop] また、 [!DNL Workfront] デスクトップアプリケーション。

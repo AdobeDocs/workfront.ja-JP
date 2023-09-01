@@ -2,24 +2,24 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: インストールして開く [!DNL Adobe Workfront for design and video]
-description: Workfront forCreative Cloudプラグインは、Marketplace からAdobeできます。
+description: 次をインストールできます。 [!DNL Adobe Workfront for design and video] AdobeMarketplace から。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
+source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '524'
 ht-degree: 1%
 
 ---
 
 # インストールして開く [!DNL Adobe Workfront for design and video]
 
-次をインストールできます： [!DNL Adobe Workfront for design and video] プラグイン [!DNL Adobe Marketplace]. このプラグインは、次のCreative Cloudアプリケーションをサポートします。
+次をインストールできます。 [!DNL Adobe Workfront for design and video] から [!DNL Adobe Marketplace]. このプラグインは、次のCreative Cloudアプリケーションをサポートします。
 
 {{cc-plugin-app-list}}
 
-このプラグインは、次の言語をサポートしています。
+[!DNL Adobe Workfront for design and video] は、次の言語をサポートしています。
 
 * 英語
 * フランス語
@@ -64,27 +64,27 @@ ht-degree: 1%
 
 ## 前提条件
 
-* 次をインストールする必要があります： [!DNL Creative Cloud] プラグインをインストールする前に使用するアプリ。
+* 次をインストールする必要があります： [!DNL Creative Cloud] アプリのWorkfrontプラグインをインストールする前に使用するアプリです。
 
-## のインストール [!DNL Adobe Workfront for design and video] 組織内のプラグイン
+## インストール [!DNL Workfront for design and video] （組織の）
 
-次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+次の場合、 [!DNL Adobe Admin Console] 管理者、 [!DNL Adobe Workfront for design and video] in [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージにプラグインを含める](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [こちらでビデオチュートリアルを表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-## のインストール [!DNL Adobe Workfront for design and video] 個別にプラグイン
+## インストール [!DNL Workfront for design and video] 個別に
 
-次をインストールできます： [!DNL Adobe Workfront for design and video] 自分用のプラグイン [!DNL Adobe Exchange].
+次をインストールできます。 [!DNL Adobe Workfront for design and video] 自分は [!DNL Adobe Exchange].
 
 1. 次に移動： [Adobe Workfront for Design and Video のインストールページ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) をAdobeExchange に追加します。
 1. 表示されるダイアログで、 **開く [!DNL Adobe Creative Cloud] デスクトップアプリ**.
 1. 1 回 [!DNL Adobe Creative Cloud] プラグインマネージャーが開き、「 **[!UICONTROL インストール]**.
 1. ダイアログボックスの情報を読み、 **[!UICONTROL OK]**.
-1. プラグインをインストールしたら、 [!DNL Creative Cloud] 必要なアプリを選択し、プラグインパネルでWorkfrontプラグインを探します。
+1. 1 回 [!DNL Workfront for design and video] インストール済みで、 [!DNL Creative Cloud] 必要なアプリを選択し、 [!DNL Workfront] プラグインを使用してプラグインを取得できます。
 
-1. プラグインを開く方法については、次の節を参照してください。
+1. を開く方法については、次の節を参照してください。 [!DNL Workfront for design and video].
 
-## を開きます。 [!DNL Adobe Workfront for design and video] プラグイン
+## 開く [!DNL Adobe Workfront for design and video]
 
 1. 使用するCreative Cloudプラグインを開きます。
 
@@ -101,26 +101,25 @@ ht-degree: 1%
 
    >[!TIP]
    >
-   >拡張機能メニューから開いた後にプラグインが表示されない場合は、プラグインアプリの背後にある可能性があります。Creative Cloud アプリを最小限に抑えてプラグインを見つけてみてください。
+   >表示されない場合 [!DNL Adobe Workfront for design and video] 拡張機能メニューから開いた後は、拡張機能アプリケーションの後ろにCreative Cloudされている可能性があります。 アプリを最小限に抑えてプラグインを見つけてみてください。
 
-1. プラグインへのログイン方法については、次の節を参照してください。
+1. にログインする方法については、次の節を参照してください。 [!DNL Adobe Workfront for design and video].
 
 
 ## にログインします。 [!DNL Adobe Workfront for design and video]
 
-1. 次の **[!UICONTROL プラグイン]** 画面上部のメニューで、「 」を選択します。 **[!UICONTROL プラグインパネル]**.
+1. 次から： **[!UICONTROL プラグイン]** 画面上部のメニューで、「 」を選択します。 **[!UICONTROL プラグインパネル]**.
 1. 選択 **[!DNL Adobe Workfront for design and video]**.
 1. ドメインを入力し、「 **[!UICONTROL ログイン]**. ブラウザーページが開きます。
 
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開き、 [!DNL Workfront] インスタンスを作成し、URL の最初の部分をコピーします。\
-      >![](assets/domain-350x50.png)
+   >![](assets/domain-350x50.png)
    >
    > * WorkfrontインスタンスがExperience Cloudと統合されている場合は、Admin Consoleの製品/WorkfrontにあるWorkfrontドメインを管理者に連絡し、提供してもらってください。
 
-
-1. ブラウザーで、 [!DNL Workfront] 資格情報を選択し、「 **[!UICONTROL ログイン]**. シングルサインオン (SSO) を使用している場合は、SSO プロバイダのページにアクセスしてログインします。
+1. ブラウザーで、 [!DNL Workfront] 認証情報を選択し、「 **[!UICONTROL ログイン]**. シングルサインオン (SSO) を使用している場合は、SSO プロバイダのページにアクセスしてログインします。
 
    >[!NOTE]
    >
@@ -132,7 +131,6 @@ ht-degree: 1%
    >
    >* [!DNL Workfront] 接続先 [!DNL Adobe Creative Cloud] OAuth 2.0 を使用する。これは、ほとんどの web ベースの統合で、ユーザーの認証と承認に使用される安全な標準です。
    >* 次の項目を入力するよう求められた場合、 [ドメインまたはホスト] の [!DNL Workfront] アカウントに次の形式で入力します。 *yourCompany&#39;sDomain.my.workfront.com*. 会社のドメインは通常、会社の名前です。
-
 
 1. クリック **[!UICONTROL アクセスを許可]** をクリックして、ログインを完了します。
 1. に戻る [!DNL Adobe Photoshop] 自分の仕事を見るために
