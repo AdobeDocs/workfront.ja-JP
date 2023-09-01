@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 0%
@@ -61,10 +61,10 @@ The [!UICONTROL 一般内部戦略イニシアティブ] ブループリント�
 **[!UICONTROL 人事組織の設定]**
 このブループリントには、人事部門に拡張する組織構造の設定が含まれています。
 
-[!BADGE 新規!]{type=Informative}**[!UICONTROL IT 組織の設定]**
+**[!UICONTROL IT 組織の設定]**
 このブループリントには、情報技術の使用例に拡張するための組織構造の設定が含まれています。
 
-**[!UICONTROL 継承されたインスタンスの基本 |チェックリスト]**
+[!BADGE 新規!]{type=Informative}**[!UICONTROL 継承されたインスタンスの基本 |チェックリスト]**
 このブループリントには、Workfrontインスタンスの設定方法を明確に理解するために、質問、リソースおよびリンクの短いリストで確認できるプロジェクトテンプレート（またはチェックリスト）が含まれています。 これは、最近Workfrontインスタンスを継承した場合に使用し、どこから始めればよいかに関するガイダンスが必要な場合に使用します。
 
 **[!UICONTROL 統合キャンペーンの実行]**
