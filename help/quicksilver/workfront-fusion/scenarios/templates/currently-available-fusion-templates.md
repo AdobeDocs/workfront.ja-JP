@@ -7,9 +7,9 @@ description: 現在、Adobe Workfront Fusion では、次のパブリックテ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ ht-degree: 0%
 
 これらのテンプレートは、Workfrontのプロセスとワークフローを自動化します。
 
-### Workfront — 関連する新規プロジェクトにプログラムカスタムFormsおよびフィールドデータをコピー
+### [!BADGE 新規!]{type=Informative}
 
 この自動化は、カスタムフォームを持つプログラムの新しいプロジェクトを監視します。 次に、これらのプログラムのカスタムフォームとフィールドを新しいプロジェクトに追加します。
+
+### [!BADGE 新規!]{type=Informative}
+
+この自動化は、カスタムフォームを使用したポートフォリオ内の新しいプロジェクトを監視します。 次に、これらのポートフォリオのカスタムフォームとフィールドを新しいプロジェクトに追加します。
 
 ### Workfront — 承認済みの問題をプロジェクトに変換する
 
@@ -38,7 +42,7 @@ ht-degree: 0%
 
 このテンプレートは、フィールド値の変更などの一意のイベントに基づいて、Workfrontプロジェクトで作業する個人に対してカスタマイズされた更新（および関連する通知）を作成します。 このシナリオは、指定されたフィールドがタスクまたはイシューで変更されたときにWorkfrontを監視します。 発生した場合、シナリオは関連プロジェクトの情報を評価し、プロジェクトの特定の役割に割り当てられた人物に合わせてカスタマイズされた更新を作成します。
 
-### Workfront — プロジェクト名に一括で付加され、規則が適用されます
+### Workfront — プロジェクト名に一括で付加され、規則が適用されます。
 
 この一括更新テンプレートは、検索の条件（ポートフォリオ内に含まれる）を満たすすべてのプロジェクトの名前を変更し、標準形式で名前を変更します。
 
@@ -52,9 +56,9 @@ ht-degree: 0%
 
 ### Workfront — 週単位のベースライン作成
 
-このテンプレートは、ポートフォリオでフィルタリングされたプロジェクトに関し、毎週月曜日の午前 6 時に、プロジェクトのベースラインをキャプチャし、更新ストリームでログに記録する更新を作成します。
+このテンプレートは、ポートフォリオでフィルタリングされたプロジェクトに関し、毎週月曜日の午前 6 時に、プロジェクトのベースラインをキャプチャし、更新ストリームでログの記録用に更新を作成します。
 
-### ポリシー時間で使用されていないプロジェクトテンプレートを検索して通知
+### [!BADGE 新規!]{type=Informative}
 
 月に 1 回、独自のポリシーを使用してプロジェクトテンプレートを確認します。管理が容易なテンプレートで、ポリシーに違反してテンプレートに関する通知が適切なユーザーに送信されます。
 
@@ -80,7 +84,7 @@ ht-degree: 0%
 
 ### APILayer / Workfront — 日別為替レート更新 (EUR)
 
-このテンプレートでは、設定された時点での為替レートの更新を自動化するシナリオが作成されます。 このシナリオでは、APIlayers.com API からユーロ (EUR) のレートを米ドル (USD) に取り込み、Workfrontのレートを更新します。
+このテンプレートでは、設定された時点での為替レートの更新を自動化するシナリオが作成されます。 このシナリオでは、APIlayers.com API からユーロ (EUR) を米ドル (USD) に取り込み、Workfrontでのレートを更新します。
 
 ## Workfront-Marketoテンプレート
 
@@ -94,7 +98,7 @@ ht-degree: 0%
 
 これは、WorkfrontとMarketo Engageのレビューと承認の統合に含まれます。 このテンプレートは、Workfrontの E メール配達確認が承認されたかどうかを検出し、承認済みとしてMarketo Engage内の対応する E メールを更新します。
 
-### Workfrontでマーケティングキャンペーンリクエストを受け取り、Marketo Engageでのキャンペーン作成を自動化
+### Workfrontでマーケティングキャンペーンリクエストを受け取り、Marketo Engageでのキャンペーンの作成を自動化
 
 このシナリオでは、WorkfrontでおこなわれたリクエストをMarketo Engageに、電子メールキャンペーンとウェビナーキャンペーンを作成するプログラム的な方法を提供します。 自動化を使用してキャンペーンを作成、整理、設定すると、チームは効率を向上できます。
 
@@ -121,9 +125,9 @@ Workfrontと Anaplan の統合について詳しくは、 [Adobe Workfrontとア
 ### 予算リクエストをリンクするためのワークフロー
 
 * [の作成 [!DNL Anaplan] リスト項目 [!DNL Adobe Workfront] 予算リクエスト](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [適用： [!DNL Anaplan] 予算配分 [!DNL Adobe Workfront] プロジェクト](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [適用： [!DNL Anaplan] 対する予算配分 [!DNL Adobe Workfront] プロジェクト](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### キャンペーンリクエストをリンクするワークフロー
 
 * [の作成 [!DNL Anaplan] リスト項目 [!DNL Adobe Workfront] キャンペーンリクエスト](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [適用： [!DNL Anaplan] 予算配分 [!DNL Adobe Workfront] キャンペーンリクエストまたはキャンペーンプロジェクト](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [適用： [!DNL Anaplan] 対する予算配分 [!DNL Adobe Workfront] キャンペーンリクエストまたはキャンペーンプロジェクト](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
