@@ -6,9 +6,9 @@ description: Adobe Workfront for Photoshopプラグインは、Marketplace プ�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '528'
 ht-degree: 1%
 
 ---
@@ -55,15 +55,17 @@ ht-degree: 1%
 
 ## 前提条件
 
-* 次をインストールする必要があります： [!DNL Adobe Photoshop] インストール前のアプリ [!DNL Workfront] プラグイン。
+* 次をインストールする必要があります： [!DNL Adobe Photoshop] インストール前のアプリ [!DNL Workfront] プラグインです。
 
-## のインストール [!DNL Adobe Workfront for Photoshop] 組織内のプラグイン
+## をインストールします。 [!DNL Adobe Workfront for Photoshop] 組織内のプラグイン
 
-次の場合、 [!DNL Adobe Admin Console] 管理者の場合は、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージへのプラグインの追加](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+次の場合、 [!DNL Adobe Admin Console] 管理者の場合、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージにプラグインを含める](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [こちらでビデオチュートリアルを表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-## のインストール [!DNL Adobe Workfront for Photoshop] 個別にプラグイン
+[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成することもできます。 詳しくは、 [[!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] ユーザー向けのパッケージを [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+
+## をインストールします。 [!DNL Adobe Workfront for Photoshop] 個別にプラグイン
 
 次をインストールできます： [!DNL Adobe Workfront for Photoshop] 自分用のプラグイン [!DNL Adobe Exchange].
 
@@ -84,7 +86,7 @@ ht-degree: 1%
 
    ![](assets/plugins-panel-ps.png)
 
-1. 内 **[!UICONTROL プラグインパネル]**、 **[!UICONTROL プラグイン]** タブと検索 **[!UICONTROL Workfront for Adobe Photoshop]**.
+1. Adobe Analytics の **[!UICONTROL プラグインパネル]**、選択 **[!UICONTROL プラグイン]** タブと検索 **[!UICONTROL Workfront for Adobe Photoshop]**.
 
    >[!TIP]
    >
@@ -94,19 +96,18 @@ ht-degree: 1%
 
 ## にログインします。 [!DNL Adobe Workfront for Photoshop]
 
-1. 次の **[!UICONTROL プラグイン]** 画面上部のメニューで、「 」を選択します。 **[!UICONTROL プラグインパネル]**.
+1. 次から： **[!UICONTROL プラグイン]** 画面上部のメニューで、「 」を選択します。 **[!UICONTROL プラグインパネル]**.
 1. 選択 **[!DNL Adobe Workfront for Photoshop]**.
 1. ドメインを入力し、「 **[!UICONTROL ログイン]**. ブラウザーページが開きます。 ブラウザーを開くには、Photoshopの権限を付与する必要がある場合があります。
 
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開き、 [!DNL Workfront] インスタンスを作成し、URL の最初の部分をコピーします。\
-      >![](assets/domain-350x50.png)
+   >![](assets/domain-350x50.png)
    >
    > * WorkfrontインスタンスがExperience Cloudと統合されている場合は、Admin Consoleの製品/WorkfrontにあるWorkfrontドメインを管理者に連絡し、提供してもらってください。
 
-
-1. ブラウザーで、 [!DNL Workfront] 資格情報を選択し、「 **[!UICONTROL ログイン]**. シングルサインオン (SSO) を使用している場合は、SSO プロバイダのページにアクセスしてログインします。
+1. ブラウザーで、 [!DNL Workfront] 認証情報を選択し、「 **[!UICONTROL ログイン]**. シングルサインオン (SSO) を使用している場合は、SSO プロバイダのページにアクセスしてログインします。
 
    >[!NOTE]
    >
@@ -118,7 +119,6 @@ ht-degree: 1%
    >
    >* [!DNL Workfront] 接続先 [!DNL Adobe Creative Cloud] OAuth 2.0 を使用する。これは、ほとんどの web ベースの統合で、ユーザーの認証と承認に使用される安全な標準です。
    >* 次の項目を入力するよう求められた場合、 [ドメインまたはホスト] の [!DNL Workfront] アカウントに次の形式で入力します。 *yourCompany&#39;sDomain.my.workfront.com*. 会社のドメインは通常、会社の名前です。
-
 
 1. クリック **[!UICONTROL アクセスを許可]** をクリックして、ログインを完了します。
 1. に戻る [!UICONTROL Adobe Photoshop] 自分の仕事を見るために

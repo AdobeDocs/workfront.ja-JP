@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: db4d0e82f0f12d4e8c210565231a6f6569d7d90c
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '13214'
+source-wordcount: '13223'
 ht-degree: 2%
 
 ---
@@ -740,6 +740,7 @@ ht-degree: 2%
       * [ドキュメント統合を無効にする](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [SharePoint統合の設定](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [メタデータマッピングの設定](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [[!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] ユーザー向けのパッケージを [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Workfront統合用の OAuth2 アプリケーションの作成](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [カスタム OAuth2 アプリケーションの表示と管理](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [JumpSeat 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
