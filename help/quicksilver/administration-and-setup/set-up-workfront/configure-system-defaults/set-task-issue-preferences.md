@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 売上高タイプ ]</td> 
-   <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。 次の場合に <strong>[!UICONTROL 売上高タイプ ]</strong> が<strong>[!UICONTROL 請求不可 ]</strong>計画時間と記録された実際の時間では、タスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの売上高には影響しません。</p> </td> 
+   <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。 次の場合に <strong>[!UICONTROL 売上高タイプ ]</strong> が <strong>[!UICONTROL 請求不可 ]</strong>計画時間と記録された実際の時間では、タスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの売上高には影響しません。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL コストタイプ ]</td> 
@@ -118,7 +118,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">問題へのアクセス権の付与</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROLプライマリ連絡先にタスクへのアクセスを許可 ]</strong>：タスクをレビューし、その進行状況を常に把握し、タスクの「更新」セクションにコメントを加えるために、主要連絡先（イシューの作成者）がタスクにアクセスできるようにします。</li> 
+     <li><strong>[!UICONTROLプライマリ連絡先にタスクへのアクセスを許可 ]</strong>：主要連絡先（イシューの作成者）がタスクに対する表示アクセス権を付与して、タスクをレビューし、その進行状況を常に把握し、タスクの「更新」セクションにコメントを付けます。</li> 
      <li> <p><strong>[!UICONTROL 変換時にこれらの設定を変更できるようにする ]</strong>：イシューを変換するユーザーが、イシューをタスクに変換する際に、これらのオプションを変更できます。</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">問題へのアクセス権の付与</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROLプライマリ連絡先がプロジェクトにアクセスできるようにする ]</strong>：プロジェクトをレビューし、その進行状況を常に知らせ、プロジェクトの「更新」セクションでコメントを行うために、プライマリー連絡先（イシュー作成者）がプロジェクトにアクセスできるようにします。</li> 
+     <li><strong>[!UICONTROLプライマリ連絡先がプロジェクトにアクセスできるようにする ]</strong>：主要連絡先（イシュー作成者）がプロジェクトに対する表示アクセス権を付与し、プロジェクトをレビューし、進行状況を常に把握し、プロジェクトの「更新」セクションにコメントを付けます。</li> 
      <li><strong>[!UICONTROL 変換時にこれらの設定を変更できるようにする ]</strong>：イシューを変換するユーザーが、イシューをプロジェクトに変換する際に、リストに表示されているオプションを変更できます。</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL 任意のユーザーがタスクに割り当てられたとき ]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL タスクへのアクセス権を付与 ]</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。 タスク権限の詳細については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</li> 
+     <li><strong>[!UICONTROL タスクへのアクセス権を付与 ]</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。 タスク権限の詳細については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</li> 
      <li> <p><strong>[!UICONTROL プロジェクトへのアクセス権も付与 ]</strong>：タスクが割り当てられているプロジェクトに対してユーザーが持つデフォルトの権限を定義します。 プロジェクト権限の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL 任意のユーザーがイシューに割り当てられたとき ]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL タスクへのアクセス権を付与 ]</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。 タスク権限の詳細については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</li> 
+     <li><strong>[!UICONTROL タスクへのアクセス権を付与 ]</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。 タスク権限の詳細については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</li> 
      <li> <p><strong>[!UICONTROL プロジェクトへのアクセス権も付与 ]</strong>：タスクが割り当てられているプロジェクトに対してユーザーが持つデフォルトの権限を定義します。 プロジェクト権限の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p> </li> 
     </ul> </td> 
   </tr> 
