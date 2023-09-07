@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
 workflow-type: tm+mt
-source-wordcount: '13223'
+source-wordcount: '13232'
 ht-degree: 2%
 
 ---
@@ -132,6 +132,7 @@ ht-degree: 2%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion リリースアクティビティ： 2023 年 9 月 1 日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
          * [Workfront Fusion リリースアクティビティ： 2023 年 8 月 21 日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
          * [Workfront Fusion リリースアクティビティ： 2023 年 8 月 7 日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
          * [Workfront Fusion リリースアクティビティ： 2023 年 7 月 10 日の週](product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
@@ -2004,6 +2005,7 @@ ht-degree: 2%
       * [Adobe Workfront Fusion での接続](workfront-fusion/connections/connections.md)
       * [Adobe Workfront Fusion のアプリまたはサービスへの接続について](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Adobe Workfront Fusion での接続の作成](workfront-fusion/connections/connection-instruction-toc.md)
+      * [接続メタデータ](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Adobe Workfront Fusion への接続の作成 — 基本手順](workfront-fusion/connections/connect-to-fusion-general.md)
       * [Adobe Workfront Fusion を任意の Web サービスに接続する](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
       * [API トークン認証を使用する Web サービスにAdobe Workfront Fusion を接続する](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)

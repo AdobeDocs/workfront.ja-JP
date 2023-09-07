@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに�
 author: Becky
 feature: Workfront Fusion
 exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 8150491b094616c6715086b84842cfe61c31cc04
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,10 @@ ht-degree: 0%
 * [での接続の作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [接続 [!DNL Adobe Workfront Fusion] 任意の Web サービスに対して](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
+* [での接続メタデータ [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
 * [接続 [!DNL Adobe Workfront Fusion] API トークン認証を使用する Web サービスに追加する](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
-* [接続 [!DNL Adobe Workfront Fusion] から [!DNL Google Services] 最新のセキュリティ対策を採用](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
+* [接続 [!DNL Adobe Workfront Fusion] から [!DNL Google Services] 最新のセキュリティ対策を備えた](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 * [接続 [!DNL Adobe Workfront Fusion] から [!DNL Google Services] カスタム OAuth クライアントの使用](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-* [を [!DNL MS Graph REST API] 経由 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 リクエストを作成] モジュール](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+* [を呼び出します。 [!DNL MS Graph REST API] 経由 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 リクエストを作成] モジュール](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
 * [のキー [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md)
 * [Web サービスから Webhook を受け取る](../../workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
