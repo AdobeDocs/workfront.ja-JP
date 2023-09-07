@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2346'
 ht-degree: 2%
 
 ---
@@ -177,7 +177,7 @@ SessionID: abc1234
 >
 >配列内の各項目には、 `objCode` Workfront API Explorer で記述されたオブジェクトコードに対応するキー。
 >
->各項目には、 `entities` コレクション。 これは、 `ID` および `name` 存在するキー。
+>各項目には、 `entities` コレクション。 これは、 `ID` フィールドに入力します。 オプションの `name` 何を知りやすくするための属性 `ID` は、を表します。
 >
 >リクエストできるオブジェクトコードのリスト ( `objectCollections` リスト、「 [環境の昇格でサポートされるオブジェクト](#supported-objects-for-environment-promotion) 」の節を参照してください。
 
