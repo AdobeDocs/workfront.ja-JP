@@ -1,19 +1,19 @@
 ---
 title: HubSpot CRM モジュール
-description: この [!DNL Adobe Workfront Fusion] HubSpot CRM モジュールを使用すると、イベント、レコード、連絡先、エンゲージメント、ファイル、フォーム送信を監視したり、 [!DNL HubSpot CRM] アカウント
+description: The [!DNL Adobe Workfront Fusion] HubSpot CRM モジュールを使用すると、イベント、レコード、連絡先、エンゲージメント、ファイル、フォーム送信を監視したり、 [!DNL HubSpot CRM] アカウント。
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
 
 # [!DNL HubSpot CRM] モジュール
 
-この [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] モジュールを使用して、イベント、レコード、連絡先、エンゲージメント、ファイル、フォーム送信を監視したり、 [!DNL HubSpot CRM] アカウント
+The [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] モジュールを使用して、イベント、レコード、連絡先、エンゲージメント、ファイル、フォーム送信を監視したり、 [!DNL HubSpot CRM] アカウント。
 
 ## アクセス要件
 
@@ -36,15 +36,15 @@ ht-degree: 0%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -56,17 +56,17 @@ ht-degree: 0%
 
 ## 前提条件
 
-使用する [!DNL HubSpot CRM] モジュールの場合、 [!DNL HubSpot CRM] アカウント
+次を使用するには： [!DNL HubSpot CRM] モジュールの場合は、 [!DNL HubSpot CRM] アカウント。
 
 ## 接続 [!DNL Adobe Workfront Fusion] から [!DNL HubSpot CRM]
 
-接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 [への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)
+接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 [への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## [!DNL HubSpot CRM] モジュールとそのフィールド
 
-設定時に [!DNL Hubspot CRM] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Hubspot CRM] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Hubspot CRM] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Hubspot CRM] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -91,7 +91,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 制限 ]</td> 
@@ -117,7 +117,7 @@ ht-degree: 0%
    <td role="rowheader">[!UICONTROL 並べ替え基準 ]</td> 
    <td> <p>結果を並べ替える場合は、「 」をクリックします。 結果の並べ替えを選択すると、次のフィールドが表示されます。 </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL プロパティ名 ]</strong> </p> <p>結果を並べ替えるプロパティを選択します</p> </li> 
+     <li> <p><strong>[!UICONTROL プロパティ名 ]</strong> </p> <p>結果の並べ替えに使用するプロパティを選択します</p> </li> 
      <li> <p><strong>[!UICONTROL 方向 ]</strong> </p> <p>結果を昇順または降順のどちらで並べ替えるかを選択します。</p> </li> 
     </ul> </td> 
   </tr> <!--
@@ -135,7 +135,7 @@ ht-degree: 0%
 * [[!UICONTROL レコードの取得]](#get-a-record)
 * [[!UICONTROL レコードの更新]](#update-a-record)
 * [[!UICONTROL レコードの削除]](#delete-a-record)
-* [[!UICONTROL レコードプロパティの取得]](#get-a-record-property)
+* [[!UICONTROL レコードプロパティを取得する]](#get-a-record-property)
 * [[!UICONTROL レコードを監視]](#watch-records)
 
 #### [!UICONTROL レコードの作成（レガシー）]
@@ -148,7 +148,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -171,7 +171,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -188,7 +188,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>取得する連絡先、会社または取引の ID を入力します。 </td> 
+   <td>取得する連絡先、会社または契約の ID を入力します。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 電子メール ]</td> 
@@ -207,7 +207,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 #### [!UICONTROL レコードの削除]
 
-このアクションモジュールは、連絡先、会社または契約を削除します。
+このアクションモジュールは、連絡先、会社、または契約を削除します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -246,7 +246,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -259,7 +259,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL レコードプロパティの取得]
+#### [!UICONTROL レコードプロパティを取得する]
 
 このアクションモジュールは、（内部）名で特定のレコードプロパティのメタデータを取得します。
 
@@ -269,7 +269,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -296,7 +296,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -322,7 +322,7 @@ ht-degree: 0%
 * [[!UICONTROL 連絡先の作成/更新（レガシー）]](#createupdate-a-contact-legacy)
 * [[!UICONTROL 連絡先グループの作成/更新]](#createupdate-a-group-of-contacts)
 * [[!UICONTROL リストに連絡先を追加]](#add-contacts-to-a-list)
-* [[!UICONTROL リストから連絡先を削除]](#remove-a-contact-from-a-list)
+* [[!UICONTROL リストから連絡先を削除する]](#remove-a-contact-from-a-list)
 * [[!UICONTROL 連絡先のマージ]](#merge-contacts)
 * [[!UICONTROL 連絡先の検索]](#search-for-contacts)
 * [[!UICONTROL 連絡先のリスト]](#list-contacts)
@@ -330,7 +330,7 @@ ht-degree: 0%
 
 #### [!UICONTROL 連絡先の作成/更新（レガシー）]
 
-ポータルに存在しない場合は連絡先を作成します。存在しない場合は最新のプロパティ値で更新します。
+ポータルに存在しない場合は連絡先を作成します。存在しない場合は最新のプロパティ値で更新します。存在する場合は最新のプロパティ値で更新します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -338,11 +338,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL プロパティ ]</td> 
-   <td>連絡先に設定または更新するプロパティを入力します。 </td> 
+   <td>連絡先の設定または更新を行うプロパティを入力します。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -357,18 +357,18 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 作成/更新する連絡先バッチ ] </td> 
    <td> <p>連絡先のバッチを追加します。</p> <p>クリック <strong>[!UICONTROL 項目を追加 ]</strong> 新しい連絡先を追加する場合。 表示されるウィンドウで、次の情報を入力またはマッピングします。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 検索タイプ ]</strong> </p> <p>連絡先を識別する方法を選択します：</p> 
+     <li> <p><strong>[!UICONTROL 検索タイプ ]</strong> </p> <p>連絡先を識別する方法を選択してください：</p> 
       <ul> 
        <li> <p>[!UICONTROL ID]</p> <p>作成または更新する連絡先の ID を入力します。 </p> </li> 
        <li> <p>[!UICONTROL 電子メール ]</p> <p>作成または更新する連絡先の電子メールアドレスを入力します。 </p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL プロパティ ]</strong> </p> <p>連絡先に設定または更新するプロパティを入力します。</p> </li> 
+     <li> <p><strong>[!UICONTROL プロパティ ]</strong> </p> <p>連絡先の設定または更新を行うプロパティを入力します。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -384,7 +384,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リスト ID] </td> 
@@ -401,7 +401,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL リストから連絡先を削除]
+#### [!UICONTROL リストから連絡先を削除する]
 
 連絡先リストから連絡先を削除します。
 
@@ -415,7 +415,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リスト ID] </td> 
@@ -436,7 +436,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID 1] </td> 
@@ -459,7 +459,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL クエリ ]</td> 
@@ -482,7 +482,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 制限 ]</td> 
@@ -510,7 +510,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -538,7 +538,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リスト ID]</td> 
@@ -570,7 +570,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL オブジェクトタイプ ] </td> 
@@ -589,7 +589,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pipeline ID] </td> 
@@ -614,7 +614,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ドメイン ] </td> 
@@ -647,7 +647,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL フォルダー名 ] </td> 
@@ -670,7 +670,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -689,7 +689,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ファイル ID] </td> 
@@ -718,7 +718,7 @@ ID で既存のチケットを削除します。
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -731,13 +731,26 @@ ID で既存のチケットを削除します。
 
 カスタム API 呼び出しを実行できます。
 
+>[!NOTE]
+>
+>次のエンドポイントは、2023 年 8 月 31 日に HubSpot API で廃止されたので、Fusion モジュールでは使用できなくなりました。
+>
+>* コンテンツイベントのリスト
+>* ソーシャルイベントのリスト
+>* カレンダータスクイベントのリスト
+>* すべてのカレンダーイベントのリスト
+>* カレンダータスクを作成
+>* ID 別のカレンダータスクの取得
+>* カレンダータスクを更新
+>* カレンダータスクの削除
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL HubSpot CRM] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -745,11 +758,11 @@ ID で既存のチケットを削除します。
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL メソッド ]</p> </td> 
-   <td> <p>使用する HTTP メソッドを選択します。</p> <p>[!UICONTROLGET]</p> <p>エントリの情報を取得します。</p> <p>[!UICONTROLPOST]</p> <p>をクリックして新しいエントリを作成します。</p> <p>[!UICONTROLPUT]</p> <p>既存のエントリを更新または置き換える。</p> <p>[!UICONTROLPATCH]</p> <p>部分的にエントリを更新する場合。</p> <p>[!UICONTROLDELETE]</p> <p>エントリを削除します。</p> </td> 
+   <td> <p>使用する HTTP メソッドを選択します。</p> <p>[!UICONTROLGET]</p> <p>エントリの情報を取得します。</p> <p>[!UICONTROLPOST]</p> <p>をクリックして、新しいエントリを作成します。</p> <p>[!UICONTROLPUT]</p> <p>既存のエントリを更新または置き換える。</p> <p>[!UICONTROLPATCH]</p> <p>部分的にエントリを更新する場合。</p> <p>[!UICONTROLDELETE]</p> <p>をクリックして、エントリを削除します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p> 目的のリクエストヘッダーを入力します。 認証ヘッダーを追加する必要はありません。私たちは既にあなたのためにそれをしました。</p> </td> 
+   <td> <p> 目的のリクエストヘッダーを入力します。 認証ヘッダーを追加する必要はありません。既に追加されています。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL クエリ文字列 ]</td> 
@@ -787,7 +800,7 @@ ID で既存のチケットを削除します。
 
    たとえば、新しい連絡先が作成または削除されたときにモジュールをトリガーするための連絡先スコープを追加します。
 
-   この [!UICONTROL 連絡先スコープ] は、連絡先、契約、企業イベントの Web フックを受け取るために必要な情報です。
+   The [!UICONTROL 連絡先スコープ] は、連絡先、契約、企業イベントの Web フックを受け取るために必要な情報です。
 
    >[!IMPORTANT]
    >
