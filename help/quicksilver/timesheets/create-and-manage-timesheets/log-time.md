@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3470'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,7 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
 * タイムシートには、すべてのログに記録された日付の合計時間が含まれます。 週末は、タイムラインの計算で除外するように設定されている場合でも、常に含まれます ( [システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)) をクリックします。
 * タイムシートに表示される項目の最大数は 45 です。 タイムシートの期間に一致する日付を持つ 45 項目を超える場合は、最も新しく更新された項目のみが表示されます。
 * 請求済み請求レコードに含まれる時間エントリは灰色表示になり、タイムシートで編集できません。 詳しくは、 [請求レコードの作成](../../manage-work/projects/project-finances/create-billing-records.md).
+* 既定では、個人のタスクはタイムシートに表示されません。 個人のタスクは、タイムシートに時間が記録された場合にのみ表示されます。 個人のタスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。 詳しくは、 [ホーム領域から作業項目を作成する](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## 時間のログ記録
 
