@@ -6,7 +6,7 @@ description: Adobe Workfrontは、2022 年 4 月 7 日に API バージョン 16
 author: Becky
 feature: Workfront API
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
-source-git-commit: 7abb4f2ec2d42b0f8b12504646ade720e53f567b
+source-git-commit: 8afbb1f45331d79bb849afb3acf3e9ff054cefc3
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # API バージョン 16 の新機能
 
-Adobe Workfrontは、2022 年 4 月 7 日に API バージョン 16 をリリースしました。 API バージョン 16 では、バージョン 15 から次の変更がおこなわれました。
+Adobe Workfrontは、2023 年 4 月 7 日に API バージョン 16 をリリースしました。 API バージョン 16 では、バージョン 15 から次の変更がおこなわれました。
 
 ## 追加されたリソース
 
@@ -23,7 +23,7 @@ API バージョン 16 に関するリソースは追加されませんでした
 
 ## 削除されたリソース
 
-API バージョン 16 で削除されたリソースはありませんでした
+API バージョン 16 で削除されたリソースはありませんでした。
 
 ## 変更されたリソース
 
@@ -94,7 +94,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>このフィールドに追加され、1 日あたりの作業時間（分）を表示します。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
+            <p>このフィールドに追加され、実行する必要がある 1 日あたりの作業時間（分）の数が表示されます。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
           </li>
         </ul>
       </td>
@@ -117,7 +117,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>このフィールドに追加され、1 日あたりの作業時間（分）を表示します。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
+            <p>このフィールドに追加され、実行する必要がある 1 日あたりの作業時間（分）の数が表示されます。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
           </li>
           <li>
             <p><b>isContoured</b>
@@ -214,7 +214,7 @@ ExternalSection オブジェクトは、Workfrontレポートに埋め込まれ�
           <li>
             <p><b>calculateIframeURLS</b>
             </p>
-            <p>これが追加され、レポートに埋め込まれた iFrame の URL が計算されます。</p>
+            <p>これが追加され、レポートに埋め込まれた iFrame の URL が計算されました。</p>
          </li>
         </ul>
       </td>
@@ -313,7 +313,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>このフィールドに追加され、1 日あたりの作業時間（分）を表示します。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
+            <p>このフィールドに追加され、実行する必要がある 1 日あたりの作業時間（分）の数が表示されます。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
           </li>
         </ul>
       </td>
@@ -348,7 +348,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
           <li>
             <p><b>resourcePlannerBudgetedHours</b>
             </p>
-            <p>このフィールドが追加され、プロジェクトのすべての予算時間の合計を表します。</p>
+            <p>このフィールドが追加され、プロジェクト上のすべての予算時間の合計を表します。</p>
           </li>
         </ul>
       </td>
@@ -438,7 +438,7 @@ Task オブジェクトは、最終目標を達成する（プロジェクトの
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>このフィールドに追加され、1 日あたりの作業時間（分）を表示します。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
+            <p>このフィールドに追加され、実行する必要がある 1 日あたりの作業時間（分）の数が表示されます。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
           </li>
         </ul>
       </td>
@@ -587,7 +587,7 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
 
 ### ユーザー (USER)
 
-User オブジェクトは、Workfrontにログインしてシステムとやり取りできるアカウントを持つ人を表します。
+User オブジェクトは、Workfrontにログインしてシステムとやり取りできるアカウントを持つ人物を表します。
 
 <table>
   <col/>
@@ -649,7 +649,7 @@ Work オブジェクトは、Task と OpTask の両方が継承する共通の�
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>このフィールドに追加され、1 日あたりの作業時間（分）を表示します。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
+            <p>このフィールドに追加され、実行する必要がある 1 日あたりの作業時間（分）の数が表示されます。 形式が設定されています <code>YYYY-MM-DD: (number of minutes)</code>、はタイムゾーンを考慮します。</p>
           </li>
         </ul>
       </td>
