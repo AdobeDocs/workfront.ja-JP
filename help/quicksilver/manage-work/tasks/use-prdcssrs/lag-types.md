@@ -7,9 +7,9 @@ description: '[ ラグ ] は、依存タスクが開始できるまで、強制�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 0%
 <p><b>メモ</b></p> パーセントの最大ラグ制限は 2000%です。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>曜日 (w) </p> </td> 
+   <td> <p>曜日（w または we） </p> </td> 
    <td> <p>2 つのタスク間の遅延は、先行タスクの計画完了日を含む週の曜日を示すことで測定されます。</p> <p>このラグタイプでは、各曜日は数値に関連付けられます。</p> 
     <ul> 
      <li>日曜日=1</li> 
@@ -187,7 +187,7 @@ ht-degree: 0%
 <p>過去または将来の週を示すには、ラグタイプの日の数の前に数値を追加します。 </p> <p>例えば、10 週間前の月曜日を指定する場合、次のコードを使用して後続のユーザーを指定できます。</p> <p><code>4fs-102w</code> </p> <p>「10」は 10 週間前を表し、「2」は月曜日に割り当てられた番号を表します。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>曜日非ゼロ (k)</p> </td> 
+   <td> <p>曜日非ゼロ（k または ke）</p> </td> 
    <td> <p>2 つのタスク間の遅延は、先行タスクの時間が指定した曜日に終了する場合を除き、 Day of the Week lag タイプと同じように測定されます。 次に、ラグタイムが隣接する週 (+/-) に計算されます。 </p> <p>この場合、ラグタイムは 0 にはできません。</p> </td> 
   </tr> 
  </tbody> 
