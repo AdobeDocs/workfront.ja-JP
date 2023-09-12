@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
+source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
 workflow-type: tm+mt
-source-wordcount: '13232'
+source-wordcount: '13335'
 ht-degree: 2%
 
 ---
@@ -1978,6 +1978,41 @@ ht-degree: 2%
       * [Adobe Workfront目標の用語のカスタマイズ](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Workfront目標での目標の共有](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront目標の通知を有効にする](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* Adobeマエストロ {#adobe-maestro}
+   * [Adobeマエストロ情報](maestro/maestro-information.md)
+   * [Adobeマエストロの概要](maestro/maestro-overview.md)
+   * [Adobeマエストロリリースアクティビティ](maestro/release-activity.md)
+   * Adobeマエストロのアーキテクチャ {#adobe-maestro-architecture}
+      * [アーキテクチャ情報](maestro/architecture-and-fields/architecture-and-fields-information.md)
+      * [ワークスペースの作成](maestro/architecture-and-fields/create-workspaces.md)
+      * [レコード・タイプと分類の概要](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
+      * [レコードタイプの作成](maestro/architecture-and-fields/create-record-types.md)
+      * [分類レコードタイプの作成](maestro/architecture-and-fields/create-a-taxonomy.md)
+      * [レコードタイプを接続](maestro/architecture-and-fields/connect-record-types.md)
+      * [フィールドの作成](maestro/architecture-and-fields/create-fields.md)
+      * [レコードタイプを編集](maestro/architecture-and-fields/edit-record-types.md)
+      * [フィールドを編集](maestro/architecture-and-fields/edit-fields.md)
+      * [ワークスペースの削除](maestro/architecture-and-fields/delete-workspaces.md)
+      * [レコードタイプを削除](maestro/architecture-and-fields/delete-record-types.md)
+      * [フィールドを削除](maestro/architecture-and-fields/delete-fields.md)
+      * [レコードタイプとレコードの接続例](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
+      * [Workspace テンプレートのリスト](maestro/architecture-and-fields/workspace-templates.md)
+   * Adobeマエストロアクセス {#adobe-maestro-access}
+      * [アクセス情報](maestro/access/access-information.md)
+      * [アクセスの概要](maestro/access/access-overview.md)
+      * [AdobeMaestro へのアクセスを許可](maestro/access/grant-access.md)
+   * Adobeマエストロレコード {#adobe-maestro-records}
+      * [レコード情報](maestro/records/records-information.md)
+      * [レコードを作成](maestro/records/create-records.md)
+      * [レコードを接続](maestro/records/connect-records.md)
+      * [レコードを編集](maestro/records/edit-records.md)
+      * [レコードを削除](maestro/records/delete-records.md)
+      * [レコードの共有](maestro/records/share-records.md)
+   * Adobeマエストロビュー {#adobe-maestro-views}
+      * [情報を表示](maestro/views/views-information.md)
+      * [レコードビューの管理](maestro/views/manage-record-views.md)
+      * [テーブル表示の管理](maestro/views/manage-the-table-view.md)
+      * [タイムライン表示を管理](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * Adobe Workfront Fusion の基本を学ぶ {#get-started-with-workfront-fusion}
