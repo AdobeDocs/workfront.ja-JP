@@ -7,9 +7,9 @@ description: Adobe Workfrontの特定のフィールドでは、フィールド�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
@@ -21,6 +21,8 @@ Adobe Workfrontの特定のフィールドでは、フィールドに含める�
 制限に近づくと、カウンターが表示されます。 制限を超えると、超過した文字がハイライト表示され、テキストを投稿できなくなります。 許可された制限内に収まるまで文字を削除します。
 
 文字数の上限は、使用しているフィールドによって異なります。 以下に示す制限は、ラテン文字（英語など）を使用する言語に適用されます。 拡張文字または 2 バイト文字を含む言語の場合は、この制限値が小さくなる場合があります。
+
+Workfrontまたはグループ管理者は、フィールドの文字制限を変更できません。
 
 <table style="table-layout:auto"> 
  <col> 

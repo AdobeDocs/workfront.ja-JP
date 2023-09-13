@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 2%
+source-wordcount: '1020'
+ht-degree: 3%
 
 ---
 
@@ -49,14 +49,14 @@ For additional resources for the new commenting experience, also see the followi
 
 * システム更新に対するコメント
 * コメント中にステータス、条件、コミット日を編集可能
-* カスタムフォームを編集
+* カスタムフォームの編集
 * Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報。
 
 >[!NOTE]
 >
->以下に示すオブジェクトには、ベータ版エクスペリエンスを有効にした場合に利用できる過去 1 年（2022 年 6 月以降）のコメントとシステムアップデートのみが含まれています。
+>以下に示すオブジェクトには、2019 年 1 月 1 日以降の新しいコメントエクスペリエンスで使用できるコメントとシステムアップデートのみが含まれています。
 >
->2022 年 6 月より前に、現在のエクスペリエンスの「更新」セクションを表示すると、これらのオブジェクトに関するコメントやシステム更新を表示できます。
+>2019 年 1 月 1 日より前に、現在のエクスペリエンスの「更新」セクションを表示した場合は、これらのオブジェクトに関するコメントおよびシステム更新を表示できます。
 >
 >* 問題
 >* プロジェクト
@@ -409,7 +409,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
   </tr>
 <tr>
-   <td>カスタムフォームを編集 
+   <td>カスタムフォームの編集 
    </td>
    <td>✓ 
    </td>

@@ -6,9 +6,9 @@ description: レポートの作成方法を理解すると、Adobe Workfront内�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 レポートの作成方法を理解すると、Adobe Workfront内で組織が必要とする情報にアクセスできます。 Workfrontで利用可能な組み込みレポートを使用することも、独自のレポートを一から作成することもできます。
 
-組み込みレポートについて詳しくは、 [Adobe Workfrontの組み込みレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). レポートをコピーして作成する方法について詳しくは、 [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+組み込みレポートについて詳しくは、 [Adobe Workfrontの組み込みレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+
+レポートをコピーして作成する方法について詳しくは、 [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+クラス、ビデオ、チュートリアルなどのレポートの作成と管理の詳細については、Adobe Experience Leagueサイトの「学習」セクションを参照してください。
 
 ## アクセス要件
 
@@ -38,16 +42,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>作成したレポートに対する管理権限が取得されます</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## レポートの作成 {#create-a-report}
 
@@ -58,7 +62,7 @@ ht-degree: 1%
 
    Report Builder が読み込まれます。
 
-   使用可能なオブジェクトレポートの詳細については、「 [オブジェクトのレポート](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 記事内 [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   使用可能なオブジェクトレポートの詳細については、「 [オブジェクトに関するレポート](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) 記事内 [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
    ![](assets/nwe-select-new-report-350x666.png)
 
@@ -92,17 +96,17 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td>グラフ</td> 
-      <td> <p>レポートにグラフを追加することで、レポートの情報を視覚的に表示する方法が決まります。</p> <p>グラフを追加する方法については、 <a href="#add-a-chart-to-a-report" class="MCXref xref">レポートへのグラフの追加</a>.</p> </td> 
+      <td> <p>レポートにグラフを追加することで、レポートの情報を視覚的に表示する方法が決まります。</p> <p>グラフを追加する方法については、 <a href="#add-a-chart-to-a-report" class="MCXref xref">レポートにグラフを追加する</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. レポート作成プロセスの任意の時点で、 **適用** 変更を保存します。
+1. レポート作成プロセスの任意の時点で、「 **適用** をクリックして変更を保存します。
 1. 完了したら、「 **保存して閉じる**.
 
 ### レポートへの列の追加（表示） {#add-columns-view-to-a-report}
 
-1. レポートの作成を開始します ( [レポートの作成](#create-a-report) 」の節を参照してください。
+1. レポートの作成を開始します (「 [レポートの作成](#create-a-report) 」の節を参照してください。
 1. Report Builder で、 **列（表示）** タブを使用して、レポートに表示する列を指定します。
 1. （オプション）「 **既存のビューの適用** 既存のビューを使用する場合。
 
@@ -129,7 +133,7 @@ ht-degree: 1%
    >[!NOTE]
    >
    >レポート対象のオブジェクトから遠すぎるオブジェクトを参照するフィールドを追加すると、このフィールドで並べ替えできない場合があります。\
-   >例えば、問題レポートは、次の 3 つの追加オブジェクトを参照するので、「プロジェクト所有者」フィールドで並べ替えることはできません。プロジェクト、所有者、名前。 ただし、このフィールドをイシューレポートに追加して、その情報を表示することはできます。
+   >例えば、問題レポートは「プロジェクト所有者」フィールドで並べ替えできません。このレポートは、「プロジェクト」、「所有者」、「名前」の 3 つの追加オブジェクトを参照しています。 ただし、このフィールドをイシューレポートに追加して、その情報を表示することはできます。
 
    <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
@@ -146,9 +150,8 @@ ht-degree: 1%
    >次の例外は、グループ化で次のフィールドの値を集計する場合に親オブジェクト（親タスクなど）に適用されます。
    >
    >* 「実績時間」（「計画/実績労務費」、「計画/実費原価」、「計画/実費」、「計画/実費」、「計画時間」など）を除くすべての数値および通貨フィールドは、子タスクとスタンドアロンタスクの値のみを集計します。 親タスクや親の値は集計されません。
-   >* 実際の時間は、メインの親タスクとスタンドアロンタスクの値を集計します。親タスクの親や子タスクの数を集計しません。
-   >* 数値および通貨値のカスタムデータフィールドは、すべてのタスクを集計します。親、子、親の親、スタンドアロンタスク。
-
+   >* [ 実績時間 ] は、メインの親タスクとスタンドアロンのタスクの値を集計します。親タスクの親や子タスクの数値は集計されません。
+   >* 数値および通貨値のカスタムデータフィールドは、親、子、親の親、スタンドアロンタスクのすべてのタスクを集計します。
 
    レポートでのグループ化の使用について詳しくは、 [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -172,19 +175,19 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">カラムのルール</td> 
-      <td> <p>クリック <strong>この列にルールを追加</strong> をクリックして、列に条件付き書式を追加します。 ルールを追加した後、そのルールに一致するフィールドの表示方法に対して、フィールドおよびテキストスタイルを定義できます。 クリック <strong>ルールを追加</strong> ルールの定義が完了したら、次の手順に従います。 ビューの条件付き書式について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">ビューでの条件付き書式の使用</a>.</p> </td> 
+      <td> <p>クリック <strong>この列にルールを追加する</strong> をクリックして、列に条件付き書式を追加します。 ルールを追加した後、そのルールに一致するフィールドの表示方法に対して、フィールドおよびテキストスタイルを定義できます。 クリック <strong>ルールを追加</strong> ルールの定義が完了したら、次の手順に従います。 ビューの条件付き書式について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">ビューでの条件付き書式の使用</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. クリック **適用** 」をクリックして変更を適用し、次のオプションを使用してレポートの編集を続行します。
+1. クリック **適用** 」をクリックして変更を適用し、以下のオプションを使用してレポートの編集を続行します。
 
    クリック **保存して閉じる** レポートの列の編集が終了し、レポートを保存する場合。
 
 ### レポートへのグループの追加 {#add-groupings-to-a-report}
 
-1. レポートの作成を開始します ( [レポートの作成](#create-a-report) 」の節を参照してください。
-1. Report Builder で、 **グループ化** タブを使用して、レポートの項目をグループ化する方法を指定します。
+1. レポートの作成を開始します (「 [レポートの作成](#create-a-report) 」の節を参照してください。
+1. Report Builder で、 **グループ化** タブを使用して、レポート内の項目をグループ化する方法を指定します。
 1. クリック **グループを追加** をクリックして新しいグループを追加します。
 
    または
@@ -197,7 +200,7 @@ ht-degree: 1%
 
    新しいグループ化の作成について詳しくは、 [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. （オプション）「 」を選択します。 **デフォルトでこのグループ化を折りたたむ** を指定します。
+1. （オプション）「 」を選択します。 **デフォルトでこのグループ化を折りたたむ** 展開されるのではなく折りたたまれた状態でこのグループの結果を表示する場合。
 
    この設定はデフォルトで無効になっており、グループ化の結果は常に展開されたリストに表示されます。
 
@@ -206,26 +209,25 @@ ht-degree: 1%
    >* リスト表示時にグループを手動で調整すると、Workfrontでは、ログアウトするまで手動の設定が記憶されます。 再度ログインすると、この設定に従ってリストが表示されます。
    >* グループ化の結果は、グラフ要素からアクセスした後で常に展開表示されます。
 
-
 1. （オプション）行列のグループ化を作成して、結果をグリッド形式で表示できます。
 
    マトリックスレポートの作成について詳しくは、 [マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. クリック **適用** 」をクリックして変更を適用し、次のオプションを使用してレポートの編集を続行します。
+1. クリック **適用** 」をクリックして変更を適用し、以下のオプションを使用してレポートの編集を続行します。
 
-   クリック **保存して閉じる** レポートのグループの編集が終了し、レポートを保存する場合。
+   クリック **保存して閉じる** レポートのグループ化の編集が終了し、レポートを保存する場合。
 
 ### レポートへのフィルターの追加 {#add-filters-to-a-report}
 
-1. レポートの作成を開始します ( [レポートの作成](#create-a-report) 」の節を参照してください。
+1. レポートの作成を開始します (「 [レポートの作成](#create-a-report) 」の節を参照してください。
 1. Report Builder で、 **フィルター** タブを使用して、レポートに含める情報の量を指定します。
-1. クリック **フィルタールールを追加** をクリックして、カスタムフィルターを追加します。\
+1. クリック **フィルタールールを追加する** をクリックして、カスタムフィルターを追加します。\
    または\
    選択 **既存のフィルターの適用** 既存のフィルターを使用する場合。
 
    ![](assets/nwe-add-a-filter-350x93.png)
 
-1. クリックした場合 **フィルタールールを追加**&#x200B;をクリックし、フィルターとして追加するフィールドの入力を開始します。 フィールドが使用可能な場合は、関連付け可能な各オブジェクトに対してが設定されます。 フィールドの名前をクリックして、そのフィルターに追加します。\
+1. クリックした場合 **フィルタールールを追加する**&#x200B;をクリックし、フィルターとして追加するフィールドの入力を開始します。 フィールドが使用可能な場合は、関連付け可能な各オブジェクトに対してが設定されます。 フィールドの名前をクリックして、そのフィルターに追加します。\
    フィルター修飾子を使用して、フィルターを作成します。 フィルタ修飾子の詳細については、 [フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    新しいフィルターの作成について詳しくは、 [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
@@ -238,15 +240,15 @@ ht-degree: 1%
 
    クリック **保存して閉じる** を選択します。
 
-### レポートへのグラフの追加 {#add-a-chart-to-a-report}
+### レポートにグラフを追加する {#add-a-chart-to-a-report}
 
-1. レポートの作成を開始します ( [レポートの作成](#create-a-report) 」の節を参照してください。
+1. レポートの作成を開始します (「 [レポートの作成](#create-a-report) 」の節を参照してください。
 1. Report Builder で、 **グラフ** 「 」タブで、追加するグラフのタイプを選択します。
 
    ![](assets/nwe-add-a-chart-350x247.png)
 
-   レポートでのグラフの作成について詳しくは、 [レポートへのグラフの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+   レポートでのグラフの作成について詳しくは、 [レポートにグラフを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-1. クリック **適用** 」をクリックして変更を適用し、次のオプションを使用してレポートの編集を続行します。
+1. クリック **適用** 」をクリックして変更を適用し、以下のオプションを使用してレポートの編集を続行します。
 
    クリック **保存して閉じる** レポートの編集が終了し、レポートを保存する場合。

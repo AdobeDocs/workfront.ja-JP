@@ -6,9 +6,9 @@ description: テキストモードの一般的な使用例の概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,12 @@ ht-degree: 0%
 
 レポートおよびレポート要素でテキストモードを使用して、レポート機能を拡張できます。 テキストモードのバージョンを使用して、より複雑な計算カスタムフィールドを作成することもできます。 テキストモードについて詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-この記事では、テキストモードを使用してAdobe Workfrontのレポートや計算カスタムフィールドの機能を拡張する必要があると考えられる、一般的な例をいくつか説明します。 より広範な例については、以下を参照してください。
+この記事では、テキストモードを使用してAdobe Workfrontのレポートや計算カスタムフィールドの機能を拡張する必要があると考えられる、一般的な例をいくつか概要を説明します。 より広範な例については、以下を参照してください。
 
 * [カスタム・ビュー、フィルタ、グループ化のサンプル](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [レポート内の計算済みカスタムデータ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+
+クラス、ビデオ、チュートリアルなど、テキストモードを使用したレポートの作成について詳しくは、Adobe Experience Leagueサイトの「学習」セクションを参照してください。
 
 <!--this link is outdated: 
 
@@ -39,7 +41,7 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
 テキストモードは、Workfrontで次の操作を実行する場合に使用できます。
 
 * カスタムフォームでカスタム計算カスタムフィールドを作成します。\
-   計算カスタムフィールドの詳細については、 [計算済みカスタムフィールドでテキストモードを使用する](#use-text-mode-in-calculated-custom-fields) 」の節を参照してください。
+  計算カスタムフィールドの詳細については、 [計算済みカスタムフィールドでテキストモードを使用する](#use-text-mode-in-calculated-custom-fields) 」の節を参照してください。
 * Report Builder で可能な機能を超えて、フィルター、ビューおよびグループを強化します。 フィルター、ビュー、グループ化でテキストモードを使用する方法については、この記事の次の節を参照してください。
 
    * [ビューでのテキストモードの使用](#use-text-mode-in-views)
@@ -48,7 +50,7 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
 
 * カスタムプロンプトの作成. カスタムプロンプトは、[ テキストモード ] を使用してのみ作成できます。
 
-   カスタムプロンプトの作成については、 [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  カスタムプロンプトの作成については、 [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## 計算済みカスタムフィールドでテキストモードを使用する {#use-text-mode-in-calculated-custom-fields}
 
@@ -60,7 +62,7 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
 
 例えば、項目が進行中とマークされた時点の日時スタンプを表示する計算済みカスタムフィールドを追加できます。 この計算を他のステータスに使用できます。
 
-詳しくは、 [計算済みカスタムフィールドの例：カスタムフォームでのステータスタイムスタンプの表示](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md).
+詳しくは、 [計算済みカスタムフィールドの例：カスタムフォームにステータスタイムスタンプを表示する](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md).
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -99,16 +101,16 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
 
 ビューでテキストモードを使用する最も一般的な理由の例については、次の記事を参照してください。
 
-* [表示：標準インタフェースに含まれていないオブジェクトを表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [表示：1 つの列の 2 つのフィールド間の計算結果を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [[ 表示 ]：標準インタフェースに含まれていないオブジェクトを表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+* [表示：列の 2 つのフィールド間で計算結果を表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [表示：列の幅を永続的に編集する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
 * [表示：1 つの共有列の複数の列から情報を結合](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
 * [表示：列内のオブジェクトへのリンクを削除](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 * [レポート内のコレクションの参照](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-* [表示：列の内容を非表示にする](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
-* [表示：列に文字列ではなく画像を表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [表示：タスクリストにタスクのインデントを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [表示：時間と日付の差を計算する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+* [表示：列のコンテンツを非表示にする](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [表示：列に文字列ではなく画像を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+* [表示：タスクリストでのタスクのインデントの表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [表示：時間と日付の差を計算します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -300,10 +302,10 @@ Avoid using images that are uploaded to Workfront. Because images stored in Work
 
 フィルターでテキストモードを使用する最も一般的な理由の例については、次の記事を参照してください。
 
-* [フィルター：同じフィールド（「AND」ステートメント）を参照する複数のフィルタールールを作成する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [フィルター：同じフィールド（「AND」ステートメント）を参照する複数のフィルタールールを作成します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
 * [フィルター：承認ステータスの項目のみを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
-* [フィルター：ステータスが異なるグループに関連付けられている場合は、同じ名前のステータスで項目を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
-* [フィルター：2 つのフィールドを比較してリスト内の項目を削除する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+* [フィルター：ステータスが異なるグループに関連付けられている場合に、同じ名前のステータスで項目を表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [フィルター：2 つのフィールドを比較して、リスト内の項目を除外します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
 * セクション [オブジェクト階層の複数のレベルにまたがるテキストモードフィルタの例](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples) 記事内 [EXISTS 文を使用した複雑なテキストモードフィルターの作成](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
 * セクション [見つからないオブジェクトに対して複雑なテキストモードフィルタを作成する](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters) 記事内 [EXISTS 文を使用した複雑なテキストモードフィルターの作成](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
 
@@ -375,10 +377,10 @@ Only one status displays here. The status line displays one of the three-letter 
 
 グループ化でテキストモードを使用する最も一般的な理由の例については、次の記事を参照してください。
 
-* [グループ化：グループ化内のすべてのオブジェクトに共通の計算値でリスト結果を整理](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
-* [グループ化：リストに 4 番目のグループを追加](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [グループ化：グループ内の表示名を編集](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
-* [グループ化：グループ化の結果をテキストモードで折りたたむか展開するかを指定します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [グループ化：グループ化内のすべてのオブジェクトに共通の計算値でリスト結果を整理します。](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [グループ化：リストに 4 つ目のグループを追加します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+* [グループ化：グループ内の表示名を編集します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+* [グループ化：テキストモードを使用してグループ化の結果を折りたたむか展開するかを指定します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

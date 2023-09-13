@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードの概要
-description: テキストモードの概要
+description: レポートまたはリストを構成する要素を作成する際は、標準またはテキストモードのインターフェイスを使用して、Adobe Workfrontでレポートまたはリストを作成できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 レポートまたはリストを構成する要素を作成する際は、標準またはテキストモードのインターフェイスを使用して、Adobe Workfrontでレポートまたはリストを作成できます。 標準インターフェイスを使用すると、Workfrontインターフェイスですぐに使用できるフィールドとその属性を参照できます。 テキストモードを使用すると、標準モードでは使用できないが、Workfrontデータベースで使用できるフィールドや属性を参照できます。
 
+クラス、ビデオ、チュートリアルなど、テキストモードを使用したレポートの作成について詳しくは、Adobe Experience Leagueサイトの「学習」セクションを参照してください。
+
 ## テキストモードを使用する前の考慮事項
 
 >[!TIP]
@@ -39,15 +41,15 @@ ht-degree: 0%
 * Workfrontソフトウェアが更新されたときに、作成したレポートをそのまま残すには、標準モードを使用することをお勧めします。 テキストモードでは、より複雑なビュー、フィルターおよびグループを作成できますが、管理もより複雑で、Workfrontソフトウェアの更新時に保証されません。
 * 通常は、少しの調整のみ、標準インターフェイスですべてのレポート要素を作成し、テキストモードビルダーに切り替えることをお勧めします。
 
-   >[!TIP]
-   >
-   >標準ビルダーを使用すると、重要な構築ブロックやコードパターンを利用できます。これらは、テキストモードでコードを変更する際に使用できます。
+  >[!TIP]
+  >
+  >標準ビルダーを使用すると、重要な構築ブロックやコードパターンを利用できます。これらは、テキストモードでコードを変更する際に使用できます。
 
 * レポートとリストをテキストモードで正常に作成するには、一連のルールと一意の構文を使用する必要があります。 開始する前に、テキストモードのWorkfront構文について理解していることを確認してください。
 
-   テキストモードを使用する際の構文とルールについて詳しくは、 [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  テキストモードを使用する際の構文とルールについて詳しくは、 [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-* テキストモードでレポート要素をカスタマイズすると、標準モード（ビュー内）に戻せなくなったり、作成した要素のコードが（フィルターやグループ内で）削除されたりする場合があります。 これは、テキストモードでサポートされるすべてのフィールドが標準モードでサポートされているわけではないからです。
+* テキストモードでレポート要素をカスタマイズすると、標準モード（ビュー内）に戻せなくなったり、作成した要素のコードが（フィルターやグループ内で）削除されたりする場合があります。 これは、テキストモードでサポートされているすべてのフィールドが標準モードでサポートされているわけではないからです。
 
 ## 標準モードインターフェイス
 
@@ -56,7 +58,7 @@ ht-degree: 0%
 標準モードのインターフェイスと、レポートまたはリストの作成方法について詳しくは、次を参照してください。
 
 * [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* [レポート要素：フィルター、ビュー、グループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [レポート要素：フィルター、ビューおよびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
 ## テキストモードインターフェイス
 
@@ -546,11 +548,11 @@ We recommend that you build as much of the grouping as possible in standard mode
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>レポートの 3 番目のグループのグループ番号は 2 です。 3 番目のグループを参照するすべての行は、&lt;code>group.2 で始まります&lt;/code>。&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>レポートの 3 番目のグループのグループ番号は 2 です。 3 番目のグループを参照するすべての行は、&lt;code>group.2 で始まりま&lt;/code>す。&lt;/em>&lt;/li>
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>4 番目のグループに対しては、テキストモードでのみ、3 のグループ番号を追加できます。 4 番目のグループを参照するすべての行は、&lt;code>group.3 で始まります&lt;/code>。&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>4 番目のグループに対しては、テキストモードでのみ、3 のグループ番号を追加できます。 4 番目のグループを参照するすべての行は、&lt;code>group.3 で始まりま&lt;/code>す。&lt;/em>&lt;/li>
     —>
 
 <!--

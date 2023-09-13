@@ -7,10 +7,10 @@ description: 「ハンドオフ日」は、タスクが作業可能になる日�
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
@@ -52,8 +52,8 @@ Workfrontでは、タスクのハンドオフ日の計算に次のルールを�
 
 * **タスクに先行タスクがなく、**:
 
-   * **計画開始日が過去の日付です**：引き渡し日は、プロジェクトの予定開始日と同じです。
-   * **計画開始日が将来の日付です（現在の日付より後の任意の日付）**：ハンドオフ日は、タスクの予定開始日と同じです。
+   * **計画開始日が過去の日付です**：タスクに強制的な制約が設定されていない場合、引き渡し日は、プロジェクトの計画開始日と同じです。 タスクに強制制約がある場合は、以下の「計画日に対して強制制約がタスクに含まれている場合」を参照してください。
+   * **計画開始日が将来の日付です（現在の日付より後の任意の日付）**：タスクに強制的な制約が設定されていない場合、ハンドオフ日は、タスクの計画開始日と同じです。 タスクに強制制約がある場合は、以下の「計画日に対して強制制約がタスクに含まれている場合」を参照してください。
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfrontでは、タスクのハンドオフ日の計算に次のルールを�
 
   次のシナリオが存在します。
 
-   * タスクに「次の日に開始する」または「次の日に開始する」という制約がある場合、タスクに実際の開始日がない限り、「引き渡し日」は制約の日付になります。 タスクに実際の開始日がある場合、引き渡し日は、先行タスクの実際の完了日になります。
-   * タスクに「終了日」と「次の日までに開始する」という制約がある場合、タスクに実績開始日が設定されているかどうかに関係なく、引き渡し日は常に先行タスクの実績完了日になります。
-   * タスクに固定日付の制約がある場合、前任者の有無や、先行者が完了したかどうかに関係なく、引き渡し日はタスクの計画開始日になります。
+   * **タスクに「次の日に開始する」または「次の日に開始する」という制約がある場合**：タスクの制約日が過去で、タスクに実際の開始日がない（タスクがまだ開始されていない）場合、「ハンドオフ日」は、タスクの実行を開始できる最も近い日付です。 タスクが開始した場合、「引き渡し日」はプロジェクトの開始日と同じになります。
+   * **タスクに [ 終了日 ] または [ 次の日までに開始 ] という制約がある場合**：タスク制約の日付が将来の日付で、タスクに実際の開始日がない（タスクがまだ開始されていない）場合、引き渡し日はタスクの計画開始日になります。 タスクに実際の開始日が設定されている場合は、引き渡し日がプロジェクトの開始日になります。
+   * **タスクに固定日付の制約がある場合**:「ハンドオフ日」は、タスクに先行タスクがあるかどうか、および先行タスクが完了したかどうかに関係なく、タスクの計画開始日です。
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## ハンドオフ日を見つける
 
