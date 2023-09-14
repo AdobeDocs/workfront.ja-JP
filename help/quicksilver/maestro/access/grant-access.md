@@ -3,9 +3,9 @@ title: AdobeMaestro へのアクセスを許可
 description: アクセス権を付与し、情報を共有する方法をAdobeMaestro で学びます。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなクローズドベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
+>
+>Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
+>
+>詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->

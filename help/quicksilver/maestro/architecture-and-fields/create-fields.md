@@ -3,9 +3,9 @@ title: フィールドの作成
 description: Adobeマエストロでは、オペレーショナルレコードの種類や分類ごとにカスタムフィールドを作成できます。 次に、このフィールドを Maestro レコードに関連付けることができます。
 hidefromtoc: true
 hide: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2555'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなクローズドベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >

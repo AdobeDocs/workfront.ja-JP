@@ -3,9 +3,9 @@ title: ワークスペースの削除
 description: 関係がなくなったワークスペースは削除できます。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobeMaestro ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>

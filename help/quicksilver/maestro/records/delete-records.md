@@ -3,9 +3,9 @@ title: レコードを削除
 description: 自分または別のユーザーが作成したレコードを削除できます。 削除したレコードは復元できません。
 hidefromtoc: true
 hide: true
-source-git-commit: 14b456f32dd2c8735e0a5252387f25305efc7610
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなクローズドベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >

@@ -3,9 +3,9 @@ title: レコードタイプを編集
 description: 保存後にレコードタイプを編集できます。 レコードタイプは、AdobeMaestro のオブジェクトタイプです。
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなクローズドベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >

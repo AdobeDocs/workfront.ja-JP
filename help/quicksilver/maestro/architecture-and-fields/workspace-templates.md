@@ -3,9 +3,9 @@ title: Workspace テンプレートのリスト
 description: ワークスペースは、チームが使用するオペレーショナルレコードタイプと分類の集まりで、チームの作業ライフサイクルを表します。 Maestro には、ワークスペースの作成時に基本的なレコードタイプ、分類、フィールドを使い始めるための一連のテンプレートが用意されています。
 hide: true
 hidefromtoc: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 >[!IMPORTANT]
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなクローズドベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >

@@ -3,9 +3,9 @@ title: タイムライン表示を管理
 description: AdobeMaestro でレコードタイプのページにアクセスする際に、タイムラインビューにレコードを表示できます。
 hidefromtoc: true
 hide: true
-source-git-commit: bac066b90c7fd69ffd423988c4cf736c16807f2b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ role: User
 
 >[!IMPORTANT]
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなクローズドベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >

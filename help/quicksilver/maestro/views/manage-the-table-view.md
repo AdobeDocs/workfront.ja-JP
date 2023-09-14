@@ -3,9 +3,9 @@ title: テーブル表示の管理
 description: Maestro でレコードタイプページにアクセスする際に、テーブルビューでレコードとそのフィールドをAdobeで表示できます。
 hidefromtoc: true
 hide: true
-source-git-commit: 4a3cf7211eef2b161a29b74e8e9b2b12c21eaf4d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1493'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなクローズドベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >

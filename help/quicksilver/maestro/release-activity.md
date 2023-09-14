@@ -3,9 +3,9 @@ title: Adobeマエストロリリースアクティビティ
 description: カスタムオブジェクト、フィールド、およびワークスペースを作成するには、Maestro を使用します。
 hidefromtoc: true
 hide: true
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなクローズドベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
