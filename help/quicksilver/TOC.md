@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: 701b3c95929259cc01b97866b61a8c4c680ee5a7
 workflow-type: tm+mt
-source-wordcount: '13335'
+source-wordcount: '13340'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 2%
          * [2023 年第 4 四半期リリース週（2023 年 7 月 31 日）](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
          * [2023 年第 4 四半期リリース週（2023 年 8 月 14 日）](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
          * [2023 年第 4 四半期リリース週（2023 年 8 月 21 日）](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
+         * [2023 年第 4 四半期リリース週（2023 年 9 月 11 日）](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
          * [2023 年第 4 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * 23.3 リリース {#release-23-3}
          * [23.3 リリースの概要](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)

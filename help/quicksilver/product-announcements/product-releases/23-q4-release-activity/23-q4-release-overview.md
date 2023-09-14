@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: 0ea724f63729822ec2ab60b14f83264a36727fbf
+source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1822'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,49 @@ ht-degree: 0%
 
 ## Adobe Workfrontの機能強化
 
+* [管理者の機能強化](#administrator-enhancements)
 * [ボードの機能強化](#boards-enhancements)
 * [統合の強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
+
+### 管理者の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">外部 API からカスタムフォームに値オプションを追加する</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>新しいフィールドタイプ <strong>外部参照</strong>をカスタムフォームデザイナーで使用できるようになりました。 データを外部システムに保存している場合、このフィールドタイプを使用すると、外部 API からオプションを読み込み、カスタムフォーム内の他のフィールド値に基づいてフィルタリングできます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 9 月 14 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.9 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### ボードの機能強化
 
@@ -60,7 +99,7 @@ ht-degree: 0%
                         <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                </tr>  
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a></p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
@@ -157,7 +196,7 @@ ht-degree: 0%
                         <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                 </tr>  
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a></p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
@@ -165,7 +204,7 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 8 月 24 日<br /></p>
+                                <p>プレビューリリース： 2023 年 8 月 25 日<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span></p>
@@ -180,7 +219,7 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 8 月 24 日<br /></p>
+                                <p>プレビューリリース： 2023 年 8 月 25 日<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span></p>
@@ -190,7 +229,6 @@ ht-degree: 0%
                 </tr>
            </tbody>
         </table>
-
 
 ### プロジェクトの強化
 
@@ -272,65 +310,6 @@ ht-degree: 0%
            </tbody>
         </table>
 
-<!--
-### Financial management enhancements
-
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
-                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: June 29, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
-                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 17, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-        </table>
--->
-
 ### その他の機能強化
 
 <table>
@@ -387,6 +366,25 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">マイワークウィジェット用の新しいクイックアクセスボタン</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>新しいホームから直接作業を管理する機能をさらに拡張し、新しいクイックアクセスボタンがマイワークウィジェットに追加されました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 9 月 14 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.9 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームの新しいフィルターオプション</a> </p>
