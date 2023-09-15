@@ -3,10 +3,10 @@ title: レコードを編集
 description: レコード情報は、AdobeMaestro で編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ ht-degree: 2%
 * 編集したレコードが他のレコードにリンクされている場合、編集中のレコードの新しい情報は、リンクされたレコードに反映されます。
 * レコードを一括で編集することはできません。 <!--this will probably change-->
 
+
 ## レコードを編集
 
 次の領域でレコードを編集できます。
@@ -140,7 +141,9 @@ ht-degree: 2%
 
    >[!TIP]
    >
-   >リンクされたフィールドは編集できません。 これらのフィールドの情報は、リンクされたレコードから自動的に入力されます。 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
+   >* リンクされたフィールドは編集できません。 これらのフィールドの情報は、リンクされたレコードから自動的に入力されます。 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
+   >
+   >* URL は、http://、https://、ftp://、www のいずれかで始まる場合にのみ、1 行のテキストフィールドタイプのリンクとして認識されます。.
 
 
 

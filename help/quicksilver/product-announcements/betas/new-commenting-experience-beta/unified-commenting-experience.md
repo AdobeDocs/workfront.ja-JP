@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1036'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,7 @@ For additional resources for the new commenting experience, also see the followi
 * コメント中にステータス、条件、コミット日を編集可能
 * カスタムフォームの編集
 * Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報。
+* ドキュメントにコメントを追加する際に担当者にタグを付ける際に「承認を求める」オプション。
 
 >[!NOTE]
 >
