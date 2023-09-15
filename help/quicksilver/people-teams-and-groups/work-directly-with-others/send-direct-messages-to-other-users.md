@@ -7,9 +7,9 @@ description: Adobe Workfrontを使用すると、作業項目とは無関係の�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 * アプリ内通知 ( [アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * 電子メール通知
 
-   これは、ユーザーが受信するように設定されている電子メール通知のタイプによって異なります。 詳しくは、 [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [グループのイベント通知を表示および設定する](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)、および [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  これは、ユーザーが受信するように設定されている電子メール通知のタイプによって異なります。 詳しくは、 [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [グループのイベント通知を表示および設定する](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)、および [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## アクセス要件
 
@@ -55,14 +55,14 @@ ht-degree: 0%
 
    * ユーザーのリンクされた名前をクリックします。 [!DNL Workfront] インターフェイス。 ユーザー名は、 [!DNL Workfront] インターフェイス（ユーザーが作成したコメント内など）。
 
-1. の **[!UICONTROL 更新]** 」タブをクリックし、テキストボックスフィールドをクリックします。
+1. 次の日： **[!UICONTROL 更新]** 「 」タブをクリックし、テキストボックスフィールドをクリックします。
 
    ![メッセージユーザー [!UICONTROL 更新] タブ](assets/message-user-NWE.png)
 
 1. メッセージを入力します。
 1. （オプション） **[!UICONTROL 通知]** フィールドに入力し、このメッセージに含める別のユーザーの名前を入力します。
 
-1. （オプション）「 」を選択します。 **[!UICONTROL 私の会社に対してプライベート]** このメッセージを社内の他のユーザーにのみ表示する
+1. （オプション）「 」を選択します。 **[!UICONTROL 私の会社に対してプライベート]** このメッセージを社内の他のユーザーにのみ表示する場合。
 
 1. クリック **[!UICONTROL 更新].**
 メッセージは、 **[!UICONTROL 更新]** 」タブをクリックします。

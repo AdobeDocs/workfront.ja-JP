@@ -5,14 +5,14 @@ title: 表示と管理 [!DNL Adobe Workfront] Adobe Creative Cloudでの通知
 description: Adobe Creative Cloudで、 [!DNL Adobe Workfront] 承認する必要のある項目、自分が与えられた割り当て、または関連付けられている項目に対するコメントや変更について。
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 8dbe15370287e47416164b5df6542bbb11405099
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
-# 表示と管理 [!DNL Adobe Workfront] 通知 [!DNL Adobe Creative Cloud]
+# 表示と管理 [!DNL Adobe Workfront] 通知： [!DNL Adobe Creative Cloud]
 
 Adobe Creative Cloudで、 [!DNL Adobe Workfront] 承認する必要のある項目、自分が与えられた割り当て、または関連付けられている項目に対するコメントや変更について。
 
@@ -53,7 +53,7 @@ Adobe Creative Cloudで、 [!DNL Adobe Workfront] 承認する必要のある項
 
 {{cc-install-prereq}}
 
-* でインスタント通知を有効にしています [!DNL Workfront]. インスタント通知の有効化について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* でインスタント通知を有効にしています [!DNL Workfront]. インスタント通知の有効化について詳しくは、 [独自の電子メール通知を変更する](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## 表示と管理 [!DNL Workfront] Adobe Creative Cloudでの通知
 

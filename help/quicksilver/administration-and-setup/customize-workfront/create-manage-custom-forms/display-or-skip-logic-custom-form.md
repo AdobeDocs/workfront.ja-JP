@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '933'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 # 従来のフォームビルダーを使用して、表示ロジックを追加し、ロジックをカスタムフォームにスキップします
 
 カスタムフォームのどのセクションを表示またはスキップするかは、ユーザーが入力時に行った選択に基づいて決定できます。
+
+>[!NOTE]
+>
+>ロジックは 1 つのフォーム内でのみ適用され、別のフォームからの選択に基づくことはできません。
 
 ## アクセス要件
 

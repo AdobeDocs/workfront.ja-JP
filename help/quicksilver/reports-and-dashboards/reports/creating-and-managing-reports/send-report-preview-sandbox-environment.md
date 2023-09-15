@@ -6,9 +6,9 @@ description: このページの情報は、プレビューおよびカスタム�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -49,16 +49,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## プレビュー環境でのレポートのスケジュール設定
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 配信されたレポートがカスタム更新サンドボックスで生成されるかどうかは、[ このテスト環境からのメール受信 ] 設定が有効になっているかどうかによって異なります。
 
-プレビュー環境からの E メールの有効化について詳しくは、「 [電子メール通知設定を表示および変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 記事内 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+プレビュー環境からの E メールの有効化について詳しくは、「 [電子メール通知設定を表示および変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 記事内 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 カスタム更新サンドボックス環境でレポートの配信スケジュールを設定する場合、次のシナリオが考えられます。
 
-* レポートを受信するユーザーに対して「このテスト環境から電子メールを受信」が無効になっている場合、レポートの配信スケジュールを設定する際にファイルが生成されません。
+* レポートを受信するユーザーに対して「このテスト環境から電子メールを受信する」が無効になっている場合、レポートの配信スケジュールを設定する際にファイルが生成されません。
 * 「このテスト環境からの電子メールの受信」がレポートの受信者に対して有効になっている場合、レポートはユーザーに関連付けられた電子メールアドレスに添付ファイルとして電子メールで送信されます。
 
 ## 外部ユーザーへの通知方法

@@ -6,9 +6,9 @@ description: このページでは、R1.1 リリースと R1.2 リリースで�
 author: Luke
 feature: Product Announcements
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1131'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ R1 で行われたすべての変更のリストについては、 [R1 リリー
 
 Workfront管理者は、過去 30 日以内に削除されたプロジェクト、タスクおよび問題を復元できるようになりました。 ドキュメントやカスタムデータを含め、プロジェクト、タスク、またはイシューに関連するすべての情報が復元されます。
 
-また、プロジェクト、タスク、または削除された問題に対して記録される時間に対する影響を設定する新しいオプションも使用できます。 詳しくは、 [オブジェクトが削除され、復元される時間に対する影響を設定する](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+また、プロジェクト、タスク、または削除された問題に対して記録される時間に対する影響を設定する新しいオプションも使用できます。 詳しくは、 [オブジェクトが削除され、復元された時間に対する影響を設定する](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
 Workfrontでのオブジェクトの復元について詳しくは、 [削除した項目を復元](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
@@ -44,15 +44,15 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 プロジェクト、タスクまたは問題が承認待ちの場合、ユーザーが以下を実行できるかどうかを設定できるようになりました。
 
 * 承認待ちのプロジェクト、タスクまたはイシューのカスタムフォームを編集します。\
-   承認待ちの場合に編集するプロジェクト、タスクおよび問題を設定する方法について詳しくは、 [グローバル承認設定の指定](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
+  承認待ちの場合に編集するプロジェクト、タスクおよび問題を設定する方法について詳しくは、 [グローバル承認設定の指定](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
 * 承認待ちのプロジェクトにイシューを追加します。\
-   プロジェクトが承認待ちの場合にユーザーがイシューを追加できるようにプロジェクトを設定する方法について詳しくは、 [システム全体のプロジェクト環境設定の指定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  プロジェクトが承認待ちの場合にユーザーがイシューを追加できるようにプロジェクトを設定する方法について詳しくは、 [システム全体のプロジェクト環境設定の指定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * 承認待ちのプロジェクト内のタスクと問題を編集します。\
-   プロジェクトが承認待ちの場合にユーザーがタスクや問題を編集できるようにプロジェクトを設定する方法については、 [システム全体のプロジェクト環境設定の指定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  プロジェクトが承認待ちの場合にユーザーがタスクや問題を編集できるようにプロジェクトを設定する方法については、 [システム全体のプロジェクト環境設定の指定](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-この変更がおこなわれる前は、承認待ちのプロジェクト、タスクおよびタスクを編集できませんでした。また、承認待ちのプロジェクトにイシューを追加できず、承認待ちのプロジェクト内でタスクとイシューを編集できなかった問題も修正されました。
+この変更以前は、承認待ちのプロジェクト、タスクおよびタスクを編集できず、承認待ちのプロジェクトにタスクを追加できず、承認待ちのプロジェクト内でタスクとタスクを編集できませんでした。
 
 ## レイアウトテンプレートをグループに割り当てる
 
@@ -68,7 +68,7 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 
 この変更以前は、選択した電子メール通知設定が保存され、変更を保存すると、その他の変更されていない通知設定はすべて選択解除されていました。 
 
-詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+詳しくは、 [独自の電子メール通知を変更する](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## 複数の電子メール通知のルックアンドフィールを更新しました
 
@@ -78,7 +78,7 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 * 日付変更のコミット
 * 自分が参加するプロジェクトの状況がアクティブになった
 * 関係者に対する承認の決定
-* タスク扶養家族に対する先行タスクの完了
+* タスクの扶養家族に対する先行タスクの完了
 * 承認待ち（プロジェクト、タスク、タスク）
 * プロジェクト、タスク、問題に対するステータスの変更
 
@@ -89,9 +89,9 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 次の通知領域には、「日別ダイジェスト」オプションが追加されています。
 
 * 自分が参加しているプロジェクトに関する情報
-* スポンサーしているプロジェクトに関する情報
+* 私がスポンサーになっているプロジェクトに関する情報
 * 承認情報
-* 担当割り当てされている作業に関する情報
+* 私に割り当てられている作業に関する情報
 * コミュニケーション
 
 詳しくは、 [Adobe Workfront通知](../../../../workfront-basics/using-notifications/wf-notifications.md).  プレビューサンドボックスがすべてのユーザーの電子メールアドレスをクリアするので、この機能をテストできるよう、アカウントに関連付けられた電子メールアドレスを必ず更新してください。 
@@ -100,7 +100,7 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 
 グループを公開する際に、グループの所有者にならずにそのグループをユーザーに追加できるようになりました。 ユーザーを編集するには、ユーザー管理者アクセス権が必要です。
 
-グループを公開する方法について詳しくは、 [グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) セクション [グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+グループを公開する方法について詳しくは、 [グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) のセクション [グループの作成](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ## モバイルアプリでのオブジェクトの URL の共有 
 
@@ -116,11 +116,11 @@ Workfrontモバイルアプリ上の以下のオブジェクトで URL を共有
 
 * テキストメッセージ
 * E メール
-* ストレージドライブ（iCloud ドライブなど）
+* ストレージドライブ（例：iCloud ドライブ）
 * 別のインストール済みアプリケーション ( 例：Notes、Facebook)
 * オブジェクトへのリンクをクリップボードにコピーし、後で他のアプリケーションに貼り付けることができます。 
 
-## 設定の状況依存ヘルプ
+## 設定に関する状況依存ヘルプ
 
 設定メニューのすべての領域が更新され、領域の右上隅にヘルプアイコンが表示されました。 このアイコンは、その領域に関するヘルプサイト記事へのリンクを提供します。 「設定」領域内の一部のセクションも、ヘルプアイコンで更新されました。 
 
@@ -146,4 +146,4 @@ This feature focuses primarily on improving the performance of large lists of ta
 
 ## R1 プレビュー 1 および 2 リリースのウェビナー録画
 
-このウェビナーは、2017 年 1 月 19 日にWorkfront Release Readiness チームによって提示されました。 このウェビナーでは、2017 年のリリースの変更に重点を置いており、プレビューでテストできる新機能について説明しています。
+このウェビナーは、2017 年 1 月 19 日にWorkfront Release Readiness チームによって提示されました。 このウェビナーでは、2017 年のリリースの変更点に焦点を当て、プレビューでテストできる新機能について説明しました。

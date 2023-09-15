@@ -3,24 +3,24 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Adobe Workfront目標の通知を有効にする
-description: Adobe Workfront Goals には、お客様のアカウントで有効にできる事前定義済みのイベント通知が付属しています。 これらのイベント通知は、トリガーで定義された条件が満たされるたびに電子メール通信を送信します。
+description: Adobe Workfront Goals には、お客様のアカウントで有効にできる事前定義済みのイベント通知が付属しています。 これらのイベント通知は、トリガーで定義された条件が満たされるたびに電子メールでの通信をします。
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront目標の通知を有効にする
 
-Adobe Workfront Goals には、お使いのアカウントで有効にできる一連のイベント通知が用意されています。 これらのイベント通知は、トリガーで定義された条件が満たされるたびに電子メール通信を送信します。
+Adobe Workfront Goals には、お使いのアカウントで有効にできる一連のイベント通知が用意されています。 これらのイベント通知は、トリガーで定義された条件が満たされるたびに電子メールでの通信をします。
 
 Workfront目標に対して有効にできる通知について詳しくは、 [通知：目標](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Adobe Workfrontでの通知管理について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Adobe Workfrontでの通知管理について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

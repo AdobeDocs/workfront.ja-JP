@@ -6,9 +6,9 @@ description: ドキュメントをサポートする任意のオブジェクト�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## ドキュメントのリクエスト
 
@@ -58,19 +58,19 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >次の場合、 [レガシーライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 有効にすると、任意の電子メールアドレスにリクエストを送信できます。 設定が [システムセキュリティの環境設定の構成](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) これらの外部電子メールユーザーが、Workfrontとやり取りする前にパスワードを作成する必要があるかどうかを決定します。 
+   >次の条件を満たす [レガシーライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 有効にすると、任意の電子メールアドレスにリクエストを送信できます。 設定が [システムセキュリティの環境設定の構成](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) これらの外部電子メールユーザーが、Workfrontとやり取りする前にパスワードを作成する必要があるかどうかを決定します。 
 
 1. ドキュメントを要求する理由を説明します。
 1. クリック **リクエストを送信**.
 
    ユーザーにリクエストを行うと、ドキュメント領域にプレースホルダーが追加されます。 ユーザーに通知したり、このプレースホルダーからリクエストをキャンセルしたりできます。 ユーザーは、Workfront通知とリクエストに関する電子メールを受け取ります。
 
-   この環境設定が有効な場合、ユーザーは電子メール通知とアプリ内通知を受け取ります。 電子メール通知について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   この環境設定が有効な場合、ユーザーは電子メール通知とアプリ内通知を受け取ります。 電子メール通知について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    電子メール通知に含まれるリンクをクリックして、ドキュメントをアップロードできます。 または、アプリ内通知をクリックできます。 各オプションを選択すると、ユーザープロファイルページに移動し、要求したドキュメントをアップロードできます。
 
    また、電子メールに直接返信し、要求されたドキュメントを添付することもできます（電子メールの返信をサポートするように設定されている場合）。 電子メールの回答を設定するには、を参照してください。
 
-1. ドキュメントをアップロードすると、要求した人が自分用のドキュメントにアクセスできるようになります **ドキュメント** 領域
+1. ドキュメントをアップロードすると、要求した人が自分用のドキュメントにアクセスできるようになります **ドキュメント** 領域。
 
    個人用の **ドキュメント** 「 」領域で、任意のWorkfrontページの右上隅にあるユーザープロファイル画像をクリックし、名前をクリックして、 **ドキュメント** タブをクリックします。

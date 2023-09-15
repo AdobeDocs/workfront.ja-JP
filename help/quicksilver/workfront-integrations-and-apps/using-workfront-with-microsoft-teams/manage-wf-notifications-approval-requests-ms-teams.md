@@ -6,9 +6,9 @@ description: から通知を受け取ることができます。 [!DNL Adobe Wor
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] は、 [!DNL Internet Explorer]. 次の手順で [!DNL Adobe Workfront for Microsoft Teams integration]を使用する場合は、 [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] は、サポートを終了しました [!DNL Internet Explorer]. 次の手順で [!DNL Adobe Workfront for Microsoft Teams integration]を使用する場合は、 [!DNL Internet Explorer].
 
 
 ## アクセス要件
@@ -51,30 +51,30 @@ ht-degree: 0%
 
 * チーム所有者がインストールおよび設定しました [!DNL Workfront for Microsoft Teams] チームのために。
 * ログインしています [!DNL Workfront] から [!DNL Microsoft Teams].
-* でインスタント通知を有効にしています [!DNL Workfront]. インスタント通知の有効化について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* でインスタント通知を有効にしています [!DNL Workfront]. インスタント通知の有効化について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 インストールに関する情報 [!DNL Workfront for Microsoft Teams] にログインし、 [!DNL Workfront from Microsoft Teams]を参照してください。 [インストール [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ## 管理 [!DNL Workfront] の通知 [!DNL Microsoft Teams]
 
-次の場合に [!DNL Workfront for Microsoft Teams] アプリがインストールされている場合、 [!DNL Workfront] チャットチャネルを次の場所に作成 [!DNL Microsoft Teams] そのチームの全員に 特定のアクションが [!DNL Workfront]を設定すると、 [!DNL Workfront for Microsoft Teams] をクリックして、 [!DNL Workfront] ～のチャットチャンネル [!DNL Microsoft Teams].
+次の場合に [!DNL Workfront for Microsoft Teams] アプリがインストールされている場合、 [!DNL Workfront] チャットチャネルを次の場所に作成： [!DNL Microsoft Teams] そのチームの全員に対して 特定のアクションが [!DNL Workfront]を設定すると、 [!DNL Workfront for Microsoft Teams] をクリックして、 [!DNL Workfront] ～のチャットチャンネル [!DNL Microsoft Teams].
 
-を使用する際は、次の点に注意してください。 [!DNL Workfront] 通知 [!DNL Microsoft Teams]:
+を使用する際は、次の点に注意してください。 [!DNL Workfront] 通知： [!DNL Microsoft Teams]:
 
-* すべてを受け取ることはできませんが、選択した数の [!DNL Workfront] 通知 [!DNL Microsoft Teams].
+* すべてを受け取ることはできませんが、受け取るのは選択した数の [!DNL Workfront] 通知 [!DNL Microsoft Teams].
 * 受信したすべての通知 [!DNL Workfront] 次の場所に表示される： [!DNL Workfront] ボットチャットチャネル。
 
-   のインストールに関する情報 [!DNL Workfront] ボットチャネル (「 [へのログイン [!DNL Workfront] から [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) セクション [インストール [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) 記事。
+  インストールに関する情報 [!DNL Workfront] ボットチャネル (「 [へのログイン [!DNL Workfront] から [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md#logging-in-to-workfront) のセクション [インストール中 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) 記事。
 
-* 更新がでおこなわれるまでに、最大 5 分の遅延が生じる場合があります。 [!DNL Workfront] そして、 [!DNL Microsoft Teams].
-* 各 [!DNL Microsoft Teams] 通知を受け取ると、電子メール通知も届きます。
+* 更新がでおこなわれるまでに、最大で 5 分の遅延が生じる場合があります。 [!DNL Workfront] そしてあなたが [!DNL Microsoft Teams].
+* 次ごとに [!DNL Microsoft Teams] 通知を受け取る場合は、電子メール通知も受け取ります。
 
-次の手順で [!DNL Workfront] 通知 [!DNL Microsoft Teams]:
+次の手順で [!DNL Workfront] 次で受け取れる通知： [!DNL Microsoft Teams]:
 
 1. 次をクリック： **[!UICONTROL さらに追加]** （3 ドット）アプリアイコン ( [!DNL Microsoft Teams].
 
 1. クリック [!DNL Workfront] 表示されるリスト内。
-1. を選択します。 **[!UICONTROL 設定]** タブをクリックします。
+1. 「**[!UICONTROL 設定]**」タブを選択します。
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -108,9 +108,9 @@ ht-degree: 0%
 タスク、タイムシート、配達確認などのオブジェクトの承認を求められると、承認通知を受け取ります。 ただし、通知に対してコメントを付けることはできます。承認通知から、次の操作を実行できます。
 
 * **[!UICONTROL 承認]**:「 」をクリックして、項目を承認します。
-* **[!UICONTROL 変更]**:「 」をクリックして、変更を加えた項目を承認します。
-* **[!UICONTROL 拒否]**:「 」をクリックして項目を却下します。
-* **[!UICONTROL コメント]**:「 」をクリックしてコメントを入力します。 コメントも [!DNL Workfront] 通知の対象となるオブジェクトの更新として。
+* **[!UICONTROL 変更]**:「 」をクリックして、項目を変更を承認します。
+* **[!UICONTROL 拒否]**:「 」をクリックして、項目を却下します。
+* **[!UICONTROL コメント]**:「 」をクリックしてコメントを入力します。 コメントは、 [!DNL Workfront] 通知の対象となるオブジェクトの更新として。
 * **[!UICONTROL 配達確認に移動]**:「 」をクリックして、配達確認を開きます。 その後、配達確認で直接決定できます。 詳しくは、 [校正ビューアで配達確認を決定する](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
@@ -248,11 +248,11 @@ ht-degree: 0%
 
 割り当て通知は、自分または自分のチームがWorkfrontのタスクまたはイシューに割り当てられると受け取ります。 割り当て通知から、次の操作を実行できます。
 
-* **[!UICONTROL 作業]**:項目の作業をコミットする場合に選択します。 新しい項目が作業リストに追加されたことを確認する通知が短く表示されます。
-* **[!UICONTROL 表示場所[!DNL Workfront]]**:割り当てられた問題またはタスクをWorkfrontで表示する場合に選択します。新しいタブが開きます。
+* **[!UICONTROL 作業する]**：項目を操作するためにコミットする場合に選択します。 新しい項目が作業リストに追加されたことを確認する通知が短く表示されます。
+* **[!UICONTROL 表示場所[!DNL Workfront]]**：割り当てられた問題またはタスクをWorkfrontで表示する場合に選択します。新しいタブが開きます。
 * **[!UICONTROL 開始]**:「 」をクリックして、項目の操作を開始します。 新しい項目が作業リストに追加されたことを確認する通知が短く表示されます。
-* **[!UICONTROL コメント]**:をクリックして、項目にコメントを追加します。 コメントは、Workfrontの項目の更新ストリームにも表示されます。
-* **[!UICONTROL ステータス]**:をクリックして、ドロップダウンメニューから作業項目の新しいステータスを選択します。
+* **[!UICONTROL コメント]**：をクリックして、項目にコメントを追加します。 コメントは、Workfrontの項目の更新ストリームにも表示されます。
+* **[!UICONTROL ステータス]**：をクリックして、ドロップダウンメニューから作業項目の新しいステータスを選択します。
 
 #### 特定の割り当て通知で使用可能なアクション：
 
@@ -301,8 +301,8 @@ ht-degree: 0%
 
 関連する項目に対して誰かがコメントをしたり、更新に含めたりすると、通信通知が届きます。 通信通知から、次の操作を実行できます。
 
-* **担当者ly**:クリックしてコメントに返信するか、 [!UICONTROL 更新]. 返信は更新ストリームにも表示され、Workfrontにコメントが表示されます。
-* **[!UICONTROL Workfrontで表示]**:「 」を選択すると、コメントと項目がWorkfrontに表示され、新しいタブで開かれます。
+* **担当者ly**：クリックしてコメントに返信するか、 [!UICONTROL 更新]. 返信は更新ストリームにも表示され、Workfrontにコメントが表示されます。
+* **[!UICONTROL Workfrontで表示]**：コメントと項目をWorkfrontで表示する場合に選択します。この項目は、新しいタブで開かれます。
 * **[!UICONTROL ステータス]**:「 」をクリックして、コメントまたは更新の対象となる作業項目の新しいステータスを選択します。
 
 #### 特定の通信通知で使用できるアクション：
@@ -340,7 +340,7 @@ ht-degree: 0%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">承認したタイムシートに対するコメント</td> 
+   <td role="rowheader">承認したタイムシートに対するコメントがある人</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -366,9 +366,9 @@ ht-degree: 0%
 
 関連付けられている項目の更新があるが、その項目に対して何らかのアクションを実行する必要がない場合に、情報通知を受け取ります。 情報通知から、次の操作を実行できます。
 
-* **[!UICONTROL 返信]**:クリックして [!UICONTROL 更新]. 返信は、Workfrontの項目の更新ストリームにも表示されます。
-* **Workfrontで表示**:「 」を選択すると、コメントと項目がWorkfrontに表示され、新しいタブで開かれます。
-* **[!UICONTROL ステータス]**:をクリックして、ドロップダウンメニューから項目の新しいステータスを選択します。
+* **[!UICONTROL 返信]**：クリックして [!UICONTROL 更新]. 返信は、Workfrontの項目の更新ストリームにも表示されます。
+* **Workfrontで表示**：コメントと項目をWorkfrontで表示する場合に選択します。この項目は、新しいタブで開かれます。
+* **[!UICONTROL ステータス]**：をクリックして、ドロップダウンメニューから項目の新しいステータスを選択します。
 
 #### 特定の情報通知で使用可能なアクション：
 
@@ -406,8 +406,8 @@ ht-degree: 0%
 
 割り当て先の作業項目の日付が変更されると、日付変更通知を受け取ります。 日付変更通知から、次の操作を実行できます。
 
-* **[!UICONTROL コメント]**:をクリックして、項目にコメントを追加します。 コメントは、Workfrontの項目の更新ストリームにも表示されます。
-* **[!UICONTROL ステータス]**:をクリックして、ドロップダウンメニューから作業項目の新しいステータスを選択します。
+* **[!UICONTROL コメント]**：をクリックして、項目にコメントを追加します。 コメントは、Workfrontの項目の更新ストリームにも表示されます。
+* **[!UICONTROL ステータス]**：をクリックして、ドロップダウンメニューから作業項目の新しいステータスを選択します。
 
 <table style="table-layout:auto"> 
  <col> 

@@ -6,9 +6,9 @@ description: Adobe Workfrontは、モバイルデバイスで電子メール通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 [!DNL Workfront] は、Workfrontのアクティビティについてユーザーに警告する電子メール通知を多数送信し、役に立つ情報やリンクを提供します。
 
-電子メール通知の環境設定を変更するには、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+電子メール通知の環境設定を変更するには、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 2%
 次の電子メール通知をから受け取ることができます。 [!DNL Workfront]:
 
 * [イベント通知](#event-notifications)
-* [日別ダイジェスト通知](#daily-digest-notifications)
+* [1 日のダイジェスト通知](#daily-digest-notifications)
 * [投稿されたコメントの通知](#notification-of-posted-comments)
 * [自動リマインダー](#automatic-reminders)
 * [リマインダ通知](#reminder-notifications)
@@ -49,13 +49,13 @@ ht-degree: 2%
 
 イベント通知の完全なリスト、およびシステムレベル、グループレベル、ユーザーレベルでのイベント通知の有効化と設定方法について詳しくは、 [イベント通知はで使用可能 [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-受信するイベント通知の選択方法について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+受信するイベント通知の選択方法について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
 >イベント通知は、毎日のダイジェスト更新で配信されるように設定できる唯一の通知です。
 
-### 日別ダイジェスト通知
+### 1 日のダイジェスト通知
 
 日々のダイジェスト電子メール配信で有効にされた電子メール通知の完全なリストと、電子メール通知のすべてのカテゴリに関する情報については、 [イベント通知](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -66,9 +66,9 @@ ht-degree: 2%
 日別のダイジェスト通知を受信する際に注意すべき点がいくつかあります。
 
 * 各 [!UICONTROL 通知] 」セクションに **[!UICONTROL マイ設定]** パネルは、独自の日次ダイジェスト電子メールを生成します。 1 日に 1 件のダイジェスト電子メールに対して有効にする通知設定と同じ数のダイジェスト電子メールを 1 日に 1 通ずつ送信することができます。\
-   例えば、「 **[!UICONTROL プロジェクト ID に関する情報] 所有** 1 通の電子メール通知を受け取り、この領域で満たされたすべてのイベントが一覧表示されます。
+   例えば、「 **[!UICONTROL プロジェクト ID に関する情報] 所有者** 1 通の電子メール通知が届き、この領域で満たされたすべてのイベントが一覧表示されます。
 
-* 日別ダイジェスト電子メールに含まれる通知は、様々な条件でグループ化されます。 例えば、 **[!UICONTROL 所有するプロジェクトに関する情報]**&#x200B;の場合、イベントはプロジェクト名でグループ化されます。
+* 日別ダイジェスト電子メールに含まれる通知は、様々な条件でグループ化されます。 例えば、 **[!UICONTROL 自分が所有するプロジェクトに関する情報]**&#x200B;の場合、イベントはプロジェクト名でグループ化されます。
 
   の **[!UICONTROL 通信]** カテゴリに分類すると、通知は通信が発生したオブジェクト別にグループ化されます。
 
@@ -85,17 +85,17 @@ ht-degree: 2%
 
 通信が発生したオブジェクトに対して情報を要約し、各オブジェクトに対して通信メッセージの総数を表示する。
 
-電子メール通知の設定について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+電子メール通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 に対するコメントの説明 [!UICONTROL 通信] 電子メール、詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-詳しくは、以下を参照してください。 [!UICONTROL 通信] 電子メール、詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+詳しくは、以下を参照してください。 [!UICONTROL 通信] 電子メール、詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-日別のダイジェスト通知を有効にする方法について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+日別のダイジェスト通知を有効にする方法について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### 自動リマインダー
 
-自動リマインダーは [!DNL Workfront] 管理者：予定完了日に期限が切れている、遅れている、または予定完了日に近いタスクや問題を警告します。 遅延通知の場合、電子メールはタスクまたは問題が完了するまで毎晩送信されます。 管理者が設定した後で、無効にすることはできません。 また、自動リマインダーによってトリガーされる E メールの内容や件名を変更することはできません。
+自動リマインダーは、 [!DNL Workfront] 管理者：予定完了日に期限が切れている、遅れている、または予定完了日に近いタスクや問題を警告します。 遅延通知の場合、電子メールはタスクまたは問題が完了するまで毎晩送信されます。 管理者が設定した後で、無効にすることはできません。 また、自動リマインダーによってトリガーされる E メールの内容や件名を変更することはできません。
 
 自動リマインダーは、次のいずれか、または複数の相手に送信できます。
 
@@ -120,7 +120,7 @@ ht-degree: 2%
 
 ### リマインダ通知
 
-A [!DNL Workfront] 管理者 ( または [!UICONTROL プランナー] アクセスレベルと管理アクセス（リマインダー通知へのアクセス）は、近づく期限に関するリマインダー通知を設計し、プロジェクト、タスク、タスク、タイムシートに関連付けることができます。 必要な管理アクセス権を取得する方法について詳しくは、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] 管理者 ( または [!UICONTROL プランナー] アクセスレベルと管理アクセス（リマインダー通知へのアクセス）は、近づく期限に関するリマインダー通知を設計し、プロジェクト、タスク、問題、およびタイムシートに関連付けることができます。 必要な管理アクセス権を取得する方法について詳しくは、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!IMPORTANT]
 >
@@ -140,17 +140,17 @@ A [!DNL Workfront] 管理者 ( または [!UICONTROL プランナー] アクセ�
 
 他にもメールが届いている可能性があります [!DNL Workfront] 設定できない 次の E メールは、によって自動的に送信されます [!DNL Workfront] これらの条件が満たされた場合：
 
-* 項目を復元する：次の場合に [!DNL Workfront] 管理者は、 [!UICONTROL リサイクル] bin：電子メールが [!DNL Workfront] 管理者。
-* 復元できませんでした：次の場合に [!DNL Workfront] 管理者がごみ箱からオブジェクトを復元しようとしましたが、復元に失敗した場合、電子メールが [!DNL Workfront] 管理者。
+* 項目を復元： [!DNL Workfront] 管理者は、 [!UICONTROL リサイクル] bin：電子メールが [!DNL Workfront] 管理者。
+* 復元に失敗しました： [!DNL Workfront] 管理者がごみ箱からオブジェクトを復元しようとしましたが、復元に失敗した場合、電子メールが [!DNL Workfront] 管理者。
 
 次の電子メールは、ユーザープロファイルレベルでのみ設定できます。 システムレベルで有効または無効にすることはできません。
 
-* 個人用タスクの完了：他のユーザーに割り当てた個人タスクが完了すると、電子メールが送信されます。
-* ユーザーに追加されたコメント：ユーザープロファイルに誰かがコメントすると、電子メールが送信されます。
+* 個人タスクの完了：他のユーザーに割り当てた個人タスクが完了すると、電子メールが送信されます。
+* ユーザーに追加されたコメント：ユーザープロファイルに対して誰かがコメントをすると、電子メールが送信されます。
 
 ## アプリ内通知
 
-通知は、 [!DNL Workfront] 特定のイベントが発生した場合の web アプリケーション。
+通知は、 [!DNL Workfront] 特定のイベントが発生した場合の Web アプリケーション。
 
 アプリ内通知について詳しくは、 [アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
@@ -158,14 +158,14 @@ A [!DNL Workfront] 管理者 ( または [!UICONTROL プランナー] アクセ�
 
 以下を受け取ることができます： [!DNL Workfront] モバイル電子メールアプリでの電子メール通知を設定できます。
 
-次の場合、 [!DNL Workfront] 携帯電話にインストールされたモバイルアプリが [!DNL Workfront] モバイルアプリ。 これには、次のいずれかのアクションボタンをタップすることも含まれます。
+次の条件を満たす [!DNL Workfront] 携帯電話にインストールされたモバイルアプリが、電子メールのリンクをタップすると、 [!DNL Workfront] モバイルアプリ。 これには、次のいずれかのアクションボタンをタップすることも含まれます。
 
-* [!UICONTROL 作業する]
+* [!UICONTROL 作業]
 * [!UICONTROL コメント]
 * [!UICONTROL 承認決定する]
 * [!UICONTROL 全ての通知を表示]
 * [!UICONTROL 追加]
-* [!UICONTROL 開始する]
+* [!UICONTROL 開始]
 * [!UICONTROL 詳細を表示]
 
-詳しくは、 [!DNL Workfront] モバイルアプリ ( [以下を使用： [!DNL Adobe Workfront] モバイルアプリ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+詳しくは、 [!DNL Workfront] モバイルアプリ ( [以下を使用します。 [!DNL Adobe Workfront] モバイルアプリ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

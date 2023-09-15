@@ -5,9 +5,9 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 最初に、すべてのユーザーに届く通知を、Workfrontインスタンスの「設定」領域で指定する必要があります。 「設定」領域で通知をアクティブ化すると、プロファイルページの各ユーザーに対してアクティブ化された通知が表示されます。
 
-「設定」領域で通知が有効化され、ユーザーのプロファイルページに表示された後、個々のユーザーまたはプランライセンスを持つ別のユーザーは、特定のユーザーが受け取る通知と頻度を制御するために、ユーザープロファイルで有効化された通知を設定できます。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+「設定」領域で通知が有効化され、ユーザーのプロファイルページに表示された後、個々のユーザーまたはプランライセンスを持つ別のユーザーは、特定のユーザーが受け取る通知と頻度を制御するために、ユーザープロファイルで有効化された通知を設定できます。 詳しくは、 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 アクティブ化および非アクティブ化できるすべてのイベント通知の一覧については、 [Adobe Workfrontで使用可能なイベント通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 

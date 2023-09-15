@@ -7,9 +7,9 @@ description: プロジェクトマネージャは、プロジェクトでの作�
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 11c87d8a97261c24d063fbc824f2e907d07f8217
+source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 0%
 
 この記事では、ワークロードバランサーの一般的な目的と、プロジェクトとリソースを設定して正常に使用する方法に関するベストプラクティスを説明します。
 
+ワークロードバランサーのビデオチュートリアルを確認するには、 [WorkfrontTutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) ページに貼り付けます。 左側のメニューで、 **リソースの管理** > **ワークロードバランサー** チュートリアルを選択します。
+
 ## ワークロード・バランサの検索
 
 <!--
@@ -44,7 +46,7 @@ ht-degree: 0%
 
 ワークロード・バランサの検索の詳細は、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-## ワークロード・バランサのメリット
+## ワークロードバランサーのメリット
 
 ワークロード・バランサを使用する際は、次のメリットを考慮してください。
 
@@ -56,18 +58,18 @@ ht-degree: 0%
 * 人々の管理者として、あなたは燃え尽きからあなたの人々を守り、より良い焦点、品質、エンゲージメントを持って最善の仕事を行う権限を与えることができます。 チーム間での作業の完全な活用、サイロ化の解除、および連携の可能化を実現できます。
 * タスクまたは問題のレベルで作業を割り当てる場合、ユーザーのビジー状態を表示できません。 ワークロード・バランサを使用する場合、どのユーザーがワークロードに使用可能かを表示して、タスクまたは問題を時間通りに完了できます。 これには、休暇およびスケジュールの例外の詳細が含まれます。
 
-   詳しくは、 [ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  詳しくは、 [ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-   また、作業項目を一括で割り当てて、複数のプロジェクトに一度に大量の作業項目を配布しやすくすることもできます。 詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当て](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  また、作業項目を一括で割り当てて、複数のプロジェクトに一度に大量の作業項目を配布しやすくすることもできます。 詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当てる](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * 経営陣は、組織内の人々の活用方法に対する透明性を高め、タイムリーなスタッフの意思決定を行うことができます。
 * チームメンバーは、常に同僚が何に取り組んでいるかを見ることができるので、より良いコラボレーションのメリットを得ることができます。 ワークロード・バランサでリソースを表示または管理するために必要なアクセスの詳細は、 [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 * カスタムタブにリンクを埋め込んで、リソース領域にアクセスできないユーザーとリソースを共有します。 詳しくは、 [リンクとのワークロードバランサーの共有](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 * グローバル、プロジェクト、またはチームレベルで、役割に応じて、1 つのビューで担当者のワークロードと需要を視覚化および管理します。 プロジェクトを管理する場合、これには、プロジェクトのリソース割り当てだけでなく、Adobe Workfront Scenario Planner からのリソース割り当ての視覚化も含まれます。 担当者マネージャは、Workfrontシナリオプランナーを使用して、組織全体のジョブスキルを管理します。 シナリオプランナーは、新しいAdobe Workfrontエクスペリエンスでのみ使用できます。
 
-   >[!NOTE]
-   >
-   >  シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >  シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../scenario-planner/scenario-planner-overview.md).
 
 
 ## ワークロードバランサーの使用に関するベストプラクティス
@@ -88,7 +90,7 @@ ht-degree: 0%
 
 * 他のユーザーの作業をスケジュールするユーザーは、作業のためのリソースをスケジュールするための正しいアクセス権と権限が必要です。
 
-   ワークロードバランサーでリソースのワークロードを管理するために必要なアクセスの詳細は、 [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+  ワークロードバランサーでリソースのワークロードを管理するために必要なアクセスの詳細は、 [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 * 管理するワークロードのユーザーは、可用性とスキルに関する情報が正確になるように、次の基準を満たす必要があります。
 
@@ -96,12 +98,12 @@ ht-degree: 0%
    * スケジュールおよびジョブロールのユーザーへの関連付けの詳細は、 [ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * ユーザーがスケジュールに関連付けられていない場合、リソース管理のために、Workfrontシステムのデフォルトスケジュールがデフォルトでユーザーに関連付けられます。
    * スケジュールの例外をスケジュール内で更新します。\
-      スケジュールの作成について詳しくは、 [スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+     スケジュールの作成について詳しくは、 [スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * プロファイルの「休暇」カレンダーを更新します。\
-      ユーザーのタイムオフカレンダーの更新について詳しくは、 [Adobe Workfrontでの個人の休日の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   * プロファイルの「休暇」カレンダーを更新してもらう。\
+     ユーザーのタイムオフカレンダーの更新について詳しくは、 [Adobe Workfrontでの個人の休日の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-      <!--   
+     <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
      <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
      <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
@@ -124,9 +126,9 @@ ht-degree: 0%
 
 * ワークロードバランサーを使用して、組織内のユーザーに作業を割り当て、日次の割り当てを管理できます。
 
-   この記事では、次の操作を実行するために、ワークロードバランサーをナビゲートする方法について説明します。 [ワークロード・バランサのナビゲート](../workload-balancer/navigate-the-workload-balancer.md).
+  この記事では、次の操作を実行するために、ワークロードバランサーをナビゲートする方法について説明します。 [ワークロード・バランサのナビゲート](../workload-balancer/navigate-the-workload-balancer.md).
 
-   次の記事では、作業の割り当て方法とユーザー割り当ての管理方法について説明します。
+  次の記事では、作業の割り当て方法とユーザー割り当ての管理方法について説明します。
 
    * [ワークロードバランサーでの作業割り当ての概要](../workload-balancer/assign-work-in-workload-balancer.md).
    * [ワークロードバランサーでのユーザー割り当ての管理](../workload-balancer/manage-user-allocations-workload-balancer.md).

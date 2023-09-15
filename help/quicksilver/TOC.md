@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 701b3c95929259cc01b97866b61a8c4c680ee5a7
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '13340'
+source-wordcount: '13338'
 ht-degree: 2%
 
 ---
@@ -863,7 +863,7 @@ ht-degree: 2%
    * 通知を使用 {#use-notifications}
       * [通知を使用](workfront-basics/using-notifications/use-notifications.md)
       * [Adobe Workfront通知](workfront-basics/using-notifications/wf-notifications.md)
-      * [独自のイベント通知をアクティブ化または非アクティブ化する](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+      * [独自の電子メール通知を変更する](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Adobe Workfrontの項目を購読](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [アプリ内通知の概要](workfront-basics/using-notifications/in-app-notifications-overview.md)
       * [アプリ内通知の表示と管理](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)

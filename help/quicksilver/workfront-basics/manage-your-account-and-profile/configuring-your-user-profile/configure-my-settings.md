@@ -6,9 +6,9 @@ description: お使いの [!DNL Adobe Workfront] プロファイルには、自�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '3248'
+source-wordcount: '3246'
 ht-degree: 1%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 1%
 
 この情報のほとんどは、 [!DNL Workfront] 管理者 [!DNL Workfront] アカウントが作成されました。
 
-のアクセスレベルに応じて [!DNL Workfront]を編集する場合、 [!UICONTROL マイ設定] 領域
+のアクセスレベルに応じて [!DNL Workfront]を編集する場合、 [!UICONTROL マイ設定] 領域。
 
 ## アクセスレベルが [!UICONTROL マイ設定] 領域
 
-現在のアクセスレベルに応じて、 [!UICONTROL マイ設定] 領域
+現在のアクセスレベルに応じて、 [!UICONTROL マイ設定] 領域。
 
-編集可能なセクションに含まれる一部のフィールドは、アクセスレベルで設定されている、または設定されていない他の設定によっては、編集できません。 の一部のフィールドの編集に必要な追加のアクセス権の詳細 [!UICONTROL マイ設定]」を参照してください。 [の設定 [!UICONTROL マイ設定] 領域](#configuring-the-my-settings-area).
+編集可能なセクションに含まれる一部のフィールドは、アクセスレベルで設定されている、または設定されていない他の設定によっては、編集できません。 の一部のフィールドの編集に必要な追加のアクセス権の詳細 [!UICONTROL マイ設定]」を参照してください。詳しくは、 [の設定 [!UICONTROL マイ設定] 領域](#configuring-the-my-settings-area).
 
 アクセスレベルを確認するには、 [!DNL Workfront] 管理者。
 
@@ -197,7 +197,7 @@ ht-degree: 1%
 ## の設定 [!UICONTROL マイ設定] 領域
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、プロフィール画像の横にあるユーザー名をクリックします。 または（使用可能な場合）、上部のナビゲーション領域のプロフィール画像をクリックし、 **[!UICONTROL Workfront Profile]**.
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![](assets/more-icon.png)を選択し、「 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-icon.png)を選択し、次に **[!UICONTROL 編集]**.
 
 1. アクセスレベルに応じて、次のセクションを更新できます。
 
@@ -248,11 +248,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（条件付き） &lt;sso configuration=""&gt; [!UICONTROL ユーザー名 ]</strong></td> 
-   <td> 次に、 [!DNL Workfront] 管理者がとの SSO 統合を有効にしました [!DNL Workfront]に設定すると、SSO ユーザー名がこのフィールドに表示されます。 お使いのに対して有効にされた SSO 設定の種類 [!DNL Workfront] インスタンスは、このフィールドに表示されます。</td> 
+   <td> 次の場合、 [!DNL Workfront] 管理者がとの SSO 統合を有効にしました [!DNL Workfront]に設定すると、SSO ユーザー名がこのフィールドに表示されます。 お使いのに対して有効にされた SSO 設定の種類 [!DNL Workfront] インスタンスは、このフィールドに表示されます。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（条件付き） [!UICONTROL のみ許可 &lt;sso configuration=""&gt; 認証</strong></td> 
-   <td> <p> 次に、 [!DNL Workfront] 管理者がとの SSO 統合を有効にしました [!DNL Workfront] とは SSO 用にユーザーを更新しました。このフィールドはデフォルトで選択されています。 お使いのに対して有効にされた SSO 設定の種類 [!DNL Workfront] インスタンスは、このフィールドに表示されます。</p> <p>このフィールドを選択した場合、 [!DNL Workfront] SSO 資格情報を使用します。 チェックを外すと、にログインできるようになります。 [!DNL Workfront] を [!DNL Workfront] 資格情報。</p> <p>設定に関する詳細 [!DNL Workfront] SSO ソリューションの場合、 <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">シングルサインオン [!DNL Adobe Workfront]</a>. SSO のユーザーの更新の詳細は、 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">シングルサインオンのユーザーを更新</a>.</p> </td> 
+   <td role="rowheader"><strong>（条件付き） [!UICONTROL のみ許可 &lt;sso configuration=""&gt; 認証 ]</strong></td> 
+   <td> <p> 次の場合、 [!DNL Workfront] 管理者がとの SSO 統合を有効にしました [!DNL Workfront] とは SSO 用にユーザーを更新しました。このフィールドはデフォルトで選択されています。 お使いのに対して有効にされた SSO 設定の種類 [!DNL Workfront] インスタンスは、このフィールドに表示されます。</p> <p>このフィールドを選択した場合、 [!DNL Workfront] SSO 資格情報を使用します。 チェックを外すと、にログインできるようになります。 [!DNL Workfront] を [!DNL Workfront] 認証情報。</p> <p>設定に関する詳細 [!DNL Workfront] SSO ソリューションの場合は、 <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">シングルサインオン [!DNL Adobe Workfront]</a>. SSO のユーザーの更新の詳細は、 <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">シングルサインオンのユーザーを更新する</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -264,7 +264,7 @@ ht-degree: 1%
 <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL タイトル ]</strong></td>
-        <td>タイトルを指定します。 これはあなたの仕事の役割とは異なります。 役割はですが、役職はリソーススケジュール設定には含まれていません。 タイトルが [!DNL Workfront] インターフェイスを使用して、お客様の名前とアバターが表示されるすべての場所に配置できます。 この画面は、ユーザーにアクセスできるすべてのユーザーに表示されます。</td>
+        <td>タイトルを指定します。 これはあなたの仕事の役割とは異なります。 役割はですが、役職はリソーススケジュール設定には含まれていません。 タイトルは、 [!DNL Workfront] インターフェイスを使用して、お客様の名前とアバターが表示されるすべての場所に配置できます。 この画面は、ユーザーにアクセスできるすべてのユーザーに表示されます。</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL お問い合わせ情報 ]</strong></td>
@@ -294,7 +294,7 @@ ht-degree: 1%
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 市区町村 ]</strong></td>
+        <td><strong>[!UICONTROL City]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -317,11 +317,11 @@ ht-degree: 1%
 
 ### [!UICONTROL 環境設定]
 
-表示する内容を [!DNL Workfront] この節のインターフェイス。
+表示する内容を [!DNL Workfront] この節のインターフェイスを参照してください。
 
 >[!NOTE]
 >
->を持つユーザー [!UICONTROL 要求者] ライセンスには、他にパネルに追加できる項目はありません [!UICONTROL メインメニュー]( [!UICONTROL リクエスト] 領域 As a [!DNL Workfront] 管理者は、要求者のライセンスを持つユーザを、 [!UICONTROL メインメニュー]. その後、表示する領域を選択できます [!UICONTROL メインメニュー] ユーザープロファイルを編集することで、
+>を持つユーザー [!UICONTROL 要求者] ライセンスには、他にパネルに追加できる項目はありません [!UICONTROL メインメニュー]( [!UICONTROL リクエスト] 領域。 As a [!DNL Workfront] 管理者は、要求者のライセンスを持つユーザを、 [!UICONTROL メインメニュー]. その後、表示する領域を選択できます [!UICONTROL メインメニュー] ユーザープロファイルを編集することで、
 
 このサブセクションでは、次のいずれかを変更できます。
 
@@ -356,7 +356,7 @@ ht-degree: 1%
 
 ### [!UICONTROL 通知]
 
-受信する通知を指定します [!DNL Workfront]. 通知の設定について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+受信する通知を指定します [!DNL Workfront]. 通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL アクセス]
 
@@ -380,7 +380,7 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL レイアウトテンプレート ]</strong> </td> 
-   <td>このフィールドは、[!UICONTROL プラン ] または [!UICONTROL] を持つユーザーに表示されます [!DNL Workfront] administrator] アクセスレベルで、[!UICONTROL [!DNL Workfront] [!UICONTROL Plan] ライセンスを持つ管理者 ] またはユーザー（管理者ユーザーアクセス権も持つユーザー） ここでレイアウトテンプレートを選択し、Workfrontインターフェイスの外観とフィールドを更新します。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集します</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.<br>レイアウトテンプレートとインターフェイスに対する影響について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a></td> 
+   <td>このフィールドは、[!UICONTROL プラン ] または [!UICONTROL] を持つユーザーに表示されます [!DNL Workfront] administrator] アクセスレベルで、[!UICONTROL] でのみ編集可能 [!DNL Workfront] [!UICONTROL Plan] ライセンスを持つ管理者 ] またはユーザー（管理者ユーザーアクセス権も持つユーザー） ここでレイアウトテンプレートを選択し、Workfrontインターフェイスの外観とフィールドを更新します。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集します</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.<br>レイアウトテンプレートとインターフェイスに対する影響について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a></td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
@@ -393,7 +393,7 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
   --> 
   <tr> 
    <td role="rowheader"><strong>（条件付き）[!UICONTROL ユーザーは配達確認（... / ...配達確認ライセンスが残っている）を生成できます ]</strong></td> 
-   <td>このフィールドは、レガシー [!DNL Workfront] プランおよび購入済み [!DNL Workfront Proof] コンポーネント。 このオプションを選択すると、校正ユーザーとして有効になります。 また、購入した配達確認ライセンスの合計数の中で、システムで使用されている配達確認ライセンスの数も表示されます。 このフィールドは、同じユーザーに対してのみ表示および編集可能です [!DNL Workfront] 管理者。 での校正のプランオプションの詳細 [!DNL Workfront]を参照してください。 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">での校正機能へのアクセス [!DNL Workfront]</a>.</td>
+   <td>このフィールドは、レガシー [!DNL Workfront] プランおよび購入済み [!DNL Workfront Proof] コンポーネント。 このオプションを選択すると、校正ユーザーとして有効になります。 また、購入した配達確認ライセンスの合計数の中で、システムで使用されている配達確認ライセンスの数も表示されます。 このフィールドは、同じユーザーに対してのみ表示および編集可能です [!DNL Workfront] 管理者。 での校正のためのプランオプションの詳細 [!DNL Workfront]を参照してください。 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">での校正機能へのアクセス [!DNL Workfront]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（条件付き）[!UICONTROL 権限プロファイル ]</strong></td> 
@@ -408,7 +408,7 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
 
 ### [!UICONTROL 組織]
 
-この情報は通常、 [!DNL Workfront] 管理者が [!DNL Workfront] アカウント また、この節では、組織や組織の構造に関する情報を更新することもできます。 次を持つユーザーのみ： [!UICONTROL プラン] または [!UICONTROL システム管理者] アクセスレベルでこのセクションを編集できます。 
+この情報は通常、 [!DNL Workfront] 管理者が [!DNL Workfront] アカウント。 また、この節では、組織や組織の構造に関する情報を更新することもできます。 次を持つユーザーのみ： [!UICONTROL プラン] または [!UICONTROL システム管理者] アクセスレベルでこのセクションを編集できます。 
 
 このサブセクションでは、次のいずれかを変更できます。
 
@@ -422,27 +422,27 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（条件付き） [!UICONTROL レポート先 ]</strong></td> 
-   <td>次を選択した後、 <strong>[!UICONTROL 会社 ]</strong> また、プロファイルの場合は、このフィールドでマネージャーの名前を指定できます。 ここで指定できる名前は 1 つだけです。即時管理者の名前を指定することをお勧めします。 名前を入力し、リストに表示されたらクリックして選択します。</td> 
+   <td>次の項目を選択した後、 <strong>[!UICONTROL 会社 ]</strong> また、プロファイルの場合は、このフィールドでマネージャーの名前を指定できます。 ここで指定できる名前は 1 つだけです。即時管理者の名前を指定することをお勧めします。 名前を入力し、リストに表示されたらクリックして選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>（条件付き）[!UICONTROL 直接レポート ]</strong></td> 
-   <td>次を選択した後、 <strong>[!UICONTROL 会社 ]</strong> また、このフィールドでは、ダイレクトレポートの名前を指定することもできます。 ここでは、必要な数の直属のレポートを指定できます。 名前を入力し、リストに表示されたら、クリックして選択します。</td> 
+   <td role="rowheader"><strong>（条件付き）[!UICONTROL 直属のレポート ]</strong></td> 
+   <td>次の項目を選択した後、 <strong>[!UICONTROL 会社 ]</strong> また、このフィールドでは、ダイレクトレポートの名前を指定することもできます。 ここでは、必要な数の直属のレポートを指定できます。 名前を入力し、リストに表示されたら、クリックして選択します。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL ホームチーム ]</strong> </td> 
-   <td> <p>を選択します。 <strong>[!UICONTROL ホームチーム ]</strong> を選択します。 このフィールドは、[!UICONTROL プラン ] または [!UICONTROL システム管理者 ] のアクセスレベルを持つユーザーに対して表示され、次の場合にのみ編集できます。 [!DNL Workfront] [!UICONTROL Plan] ライセンスを持つ管理者またはユーザーで、管理者ユーザーアクセス権も持っているもの。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集します</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.<br></p> <p>お使いの <strong>ホームチーム</strong> は、 [!DNL Workfront] インターフェイス：レイアウトテンプレートがチームに関連付けられている場合。 </p> <p> <br>チームについて詳しくは、 <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">チームの概要</a>.</p> </td> 
+   <td> <p>を選択します。 <strong>[!UICONTROL ホームチーム ]</strong> を選択します。 このフィールドは、[!UICONTROL プラン ] または [!UICONTROL システム管理者 ] のアクセスレベルを持つユーザーに対して表示され、次の場合にのみ編集できます。 [!DNL Workfront] [!UICONTROL Plan] ライセンスを持つ管理者またはユーザーで、管理者ユーザーアクセス権も持っているもの。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集します</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.<br></p> <p>お使いの <strong>ホームチーム</strong> は、の外観と操作性に影響を与えます [!DNL Workfront] インターフェイス：レイアウトテンプレートがチームに関連付けられている場合。 </p> <p> <br>チームについて詳しくは、 <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">チームの概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL その他のチーム ]</strong> </td> 
-   <td> <p>複数のチームに属することができます。 チーム名の入力を開始し、リストに表示されるときにクリックして選択します。 チームが多すぎると、チームに割り当てられた作業について混乱が生じる可能性があります。 チームについて詳しくは、 <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">チームの概要</a>.</p> <p>このフィールドは、[!UICONTROL プラン ] または [!UICONTROL System Administrator] のライセンスを持つユーザーに対して表示され、次の場合にのみ編集できます。 [!DNL Workfront] [!UICONTROL Plan] ライセンスを持つ管理者またはユーザーで、管理者ユーザーアクセス権も持っているもの。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集します</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> </td> 
+   <td> <p>複数のチームに属することができます。 チーム名の入力を開始し、リストに表示されるときにクリックして選択することで、このフィールドに所属する追加のチームを指定します。 チームが多すぎると、チームに割り当てられた作業について混乱が生じる可能性があります。 チームについて詳しくは、 <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">チームの概要</a>.</p> <p>このフィールドは、[!UICONTROL プラン ] または [!UICONTROL System Administrator] のライセンスを持つユーザーに対して表示され、次の場合にのみ編集できます。 [!DNL Workfront] [!UICONTROL Plan] ライセンスを持つ管理者またはユーザーで、管理者ユーザーアクセス権も持っているもの。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集します</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL ホームグループ ]</strong> </td> 
-   <td> <p>を選択します。 <strong>[!UICONTROL ホームグループ ]</strong> を選択します。</p> <p>注意：これは必須フィールドです。 ユーザーをグループに関連付けていないユーザーにすることはできません。<br></p> <p>このフィールドは、[!UICONTROL プラン ] または [!UICONTROL システム管理者 ] レベルのユーザーに表示されます。 を編集できるユーザーの詳細 <strong>[!UICONTROL ホームグループ ]</strong> フィールド、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md#prerequisites" class="MCXref xref">ユーザーを追加</a> セクション <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーを追加</a>.Your <strong>[!UICONTROL ホームグループ ]</strong> は、すべてのプロジェクトのデフォルトグループで、デフォルトは <strong>[!UICONTROL ホームグループ ]</strong> 作成するすべての新規ユーザー用。 作成したカスタムフォームは、 <strong>[!UICONTROL ホームグループ ]</strong> デフォルトでは。</p> <p>グループについて詳しくは、 <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">グループの概要</a>.</p> </td> 
+   <td> <p>を選択します。 <strong>[!UICONTROL ホームグループ ]</strong> を選択します。</p> <p>注意：これは必須フィールドです。 ユーザーをグループに関連付けていないユーザーにすることはできません。<br></p> <p>このフィールドは、[!UICONTROL プラン ] または [!UICONTROL システム管理者 ] レベルのユーザーに表示されます。 を編集できるユーザーの詳細 <strong>[!UICONTROL ホームグループ ]</strong> フィールド、「 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md#prerequisites" class="MCXref xref">ユーザーを追加</a> のセクション <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーを追加</a>.Your <strong>[!UICONTROL ホームグループ ]</strong> は、すべてのプロジェクトのデフォルトグループで、デフォルトは <strong>[!UICONTROL ホームグループ ]</strong> 作成するすべての新規ユーザー用。 作成したカスタムフォームは、 <strong>[!UICONTROL ホームグループ ]</strong> デフォルトでは。</p> <p>グループについて詳しくは、 <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">グループの概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL その他のグループ ]</strong> </td> 
-   <td> <p>複数のグループに属することができます。 グループ名の入力を開始して、このフィールドに属する追加のグループを指定します。 リストに表示される場合にクリックして選択します。 このフィールドは、[!UICONTROL プラン ] または [!UICONTROL システム管理者 ] のアクセスレベルのユーザーに表示されます。 を編集できるユーザーの詳細 <strong>[!UICONTROL その他のグループ ]</strong> 」フィールドの「その他のグループ」の節を参照してください。 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーを追加</a>.</p> <p>グループについて詳しくは、 <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">グループの概要</a>.</p> </td> 
+   <td> <p>複数のグループに属することができます。 グループ名の入力を開始して、このフィールドに属する追加のグループを指定します。 リストに表示される場合は、クリックして選択します。 このフィールドは、[!UICONTROL プラン ] または [!UICONTROL システム管理者 ] のアクセスレベルのユーザーに表示されます。 を編集できるユーザーの詳細 <strong>[!UICONTROL その他のグループ ]</strong> 」フィールドの「その他のグループ」の節を参照してください。 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーを追加</a>.</p> <p>グループについて詳しくは、 <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">グループの概要</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -459,7 +459,7 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL スケジュールの非アクティブ化 ]</strong></td> 
-   <td>一定期間後にアカウントを非アクティブ化するようにスケジュールする場合は、このチェックボックスをオンにします。 内 <p><strong>[!UICONTROL 予定の非アクティブ化日 ]</strong> が表示されたら、アカウントが非アクティブ化される日付を指定します。 ユーザーの非アクティブ化について詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">ユーザーのアクティベーション解除をスケジュール</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーを非アクティブ化または再アクティブ化する</a>. </p><p>プランライセンスを持っている場合や、 [!DNL Workfront] 管理者。 </p></td> 
+   <td>一定期間後にアカウントを非アクティブ化するようにスケジュールする場合は、このチェックボックスをオンにします。 Adobe Analytics の <p><strong>[!UICONTROL 予定の非アクティブ化日 ]</strong> が表示されたら、アカウントが非アクティブ化される日付を指定します。 ユーザーの非アクティブ化について詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">ユーザーのアクティベーション解除をスケジュール</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーを非アクティブ化または再アクティブ化する</a>. </p><p>プランライセンスを持っている場合や、 [!DNL Workfront] 管理者。 </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROLプライマリロール ]</strong></td> 
@@ -478,7 +478,7 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
    <td> <p>各ジョブの役割に割り当てる予定時間の割合を指定します。 [!UICONTROL その他の役割 ] の [!UICONTROL FTE の可用性の割合 ] のデフォルト値は 0%です。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>メモ:  
      <ul> 
       <li>[!UICONTROL その他のロール ] の FTE 可用性が 0%の場合、ユーザーがこれらのロールのタスクに割り当てられていない限り、[!UICONTROL リソースプランナー ] には表示されません。</li> 
-      <li> <p>すべての <strong>[!UICONTROL FTE の可用性の割合 ]</strong> は、すべてのロールが 100%に等しい必要があります。 [!UICONTROL FTE の可用性の割合 ] ごとに、[!UICONTROL Resource Planner] のユーザーごとの役割ごとに [!UICONTROL Available Hours] が計算されます。 </p> <p>各ユーザーの役割の [!UICONTROL 使用可能な時間 ] は、ユーザーの使用可能な時間によって異なります。 ユーザーの使用可能な時間は、 [!DNL Workfront] を、 [!DNL Workfront] 管理者：[!UICONTROL リソース管理環境設定 ] で FTE を計算します。 ユーザーの可用性の計算の詳細については、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>. リソース管理環境設定の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>.</p> </li> 
+      <li> <p>すべての <strong>[!UICONTROL FTE の可用性の割合 ]</strong> は、すべてのロールが 100%に等しい必要があります。 [!UICONTROL FTE の可用性の割合 ] ごとに、[!UICONTROL Resource Planner] のユーザーごとの役割ごとに [!UICONTROL Available Hours] が計算されます。 </p> <p>各ユーザーの役割の [!UICONTROL 使用可能な時間 ] は、ユーザーの使用可能な時間によって異なります。 ユーザーの使用可能な時間は、 [!DNL Workfront] 次の条件を満たす： [!DNL Workfront] 管理者：[!UICONTROL リソース管理環境設定 ] で FTE を計算します。 ユーザーの可用性の計算の詳細については、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールに対する時間と工数の計算の概要</a>. リソース管理環境設定の詳細については、「 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -499,7 +499,7 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>ここで指定した数値は、[!UICONTROL リソース管理環境設定 ] のシステムレベルが <strong>[!UICONTROL デフォルトのスケジュール ]</strong>.</p> <p>例えば、FTE 値が 0.5 で、[!UICONTROL デフォルトスケジュール ] が 40 時間の場合、週に 20 時間働くことができます。</p> <p>[!UICONTROL Resource Management Preferences] （システムレベル）が <strong>[!UICONTROL ユーザーのスケジュール ]</strong>に設定すると、ここで指定した値は無視され、スケジュールに指定された値に従って作業できるようになります。 この場合、[!UICONTROL Resource Planner] の FTE は次の式で計算されます。 </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>ユーザー FTE の計算について詳しくは、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.</p> <p>でのスケジュール作成の詳細 [!DNL Workfront]を参照してください。 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>.</p> <p>リソース管理プリファレンスの構成の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>.</p> </td> 
+   <td> <p>ここで指定した数値は、[!UICONTROL リソース管理環境設定 ] のシステムレベルが「 <strong>[!UICONTROL デフォルトのスケジュール ]</strong>.</p> <p>例えば、FTE 値が 0.5 で、[!UICONTROL デフォルトスケジュール ] が 40 時間の場合、週に 20 時間働くことができます。</p> <p>[!UICONTROL Resource Management Preferences] （システムレベル）が <strong>[!UICONTROL ユーザーのスケジュール ]</strong>に設定すると、ここで指定した値は無視され、スケジュールに指定された値に従って作業できるようになります。 この場合、[!UICONTROL Resource Planner] の FTE は次の式で計算されます。 </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>ユーザー FTE の計算について詳しくは、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールに対する時間と工数の計算の概要</a>.</p> <p>でのスケジュール作成の詳細 [!DNL Workfront]を参照してください。 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>.</p> <p>リソース管理プリファレンスの構成の詳細については、「 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 1 時間あたりのコスト ]</strong> </td> 
@@ -514,7 +514,7 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
 
 ### [!UICONTROL カスタムフォーム]
 
-カスタムフォームをユーザープロファイルに関連付けることができます。 これにより、ユーザーに関する追加情報を保存できます。追加情報は、 [!DNL Workfront] 上記のネイティブフィールド。\
+カスタムフォームをユーザープロファイルに関連付けることができます。 これにより、ユーザーに関する追加情報を保存できます。追加情報を保存しないと、 [!DNL Workfront] 上記のネイティブフィールド。\
 カスタムフォームをユーザーに添付するには、次のアクセス権または権限が必要です。
 
 * あなたは [!DNL Workfront] 管理者。

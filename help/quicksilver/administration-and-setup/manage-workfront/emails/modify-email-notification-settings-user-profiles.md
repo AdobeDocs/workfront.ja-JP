@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: 変更，電子メール，通知，設定，一括，一括編集，設定，複数，ユーザー
 navigation-topic: emails-administration
 title: ユーザーのプロファイルの電子メール通知設定を変更する
-description: Adobe Workfront管理者、または Planner のアクセスレベルで他のユーザーの設定を編集できる場合、一度に複数のユーザーの通知設定を構成できます。 これには、Adobe Workfront通知で説明するように、ユーザーが通知をイベントとして受信するか、1 日のダイジェスト電子メールで受信するかを指定することが含まれます。 ユーザーの編集に必要なアクセスレベルについて詳しくは、「ユーザーにアクセス権を付与する」を参照してください。
-author: Lisa, Caroline
+description: この記事では、Workfrontまたはグループ管理者が他のユーザーの電子メール通知を更新する方法について説明します。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Workfront管理者、または Planner のアクセスレベルで他の�
 
 >[!NOTE]
 >
->また、自分のプロファイルを含め、一度に 1 人のユーザーに対する電子メール通知を設定することもできます。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>また、自分のプロファイルを含め、一度に 1 人のユーザーに対する電子メール通知を設定することもできます。 詳しくは、 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## アクセス要件

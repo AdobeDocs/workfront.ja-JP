@@ -6,9 +6,9 @@ description: このページでは、R1 Preview 5 リリースでプレビュー
 author: Luke
 feature: Product Announcements
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1281'
 ht-degree: 13%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 R1 で行われたすべての変更のリストについては、 [R1 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
-## 使用率レポートを使用したプロジェクトの進捗の追跡
+## 使用率レポートを使用したプロジェクトの進行状況の追跡
 
 これで、プロジェクトへのアクセスを管理するユーザーは、使用状況レポートを使用して、プロジェクトの進行状況をトラッキングできます。
 
@@ -35,17 +35,17 @@ R1 で行われたすべての変更のリストについては、 [R1 リリー
 
 グローバル承認プロセスをオブジェクトに関連付ける際に、既存のグローバル承認プロセスを変更できます。 変更は、関連付けるオブジェクトの承認プロセスにのみ適用されます。
 
-詳しくは、 [新規または既存の承認プロセスと作業の関連付け](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [新規または既存の承認プロセスと作業の関連付け](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+詳しくは、 [新規または既存の承認プロセスを作業に関連付ける](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [新規または既存の承認プロセスを作業に関連付ける](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## 新しいガントチャートを既定で表示するレポートを構成する
 
 新しいガントチャートを既定で表示するために作成するプロジェクトとタスクのレポートを設定できます。新しいオプションは、[ 既定でこのレポートをガントビューで表示する ] です。
 
-新しいガントチャートを表示するレポートの設定の詳細については、 [レポート設定の編集](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
+新しいガントチャートを表示するレポートの設定の詳細については、「 [レポート設定の編集](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
 
 プロジェクトレポートとタスクレポートでガントチャートを表示する方法の詳細については、「 [ガントチャートで情報を表示](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)」内 [ガントチャートで情報を表示](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-## ごみ箱の改善：タスクとサブタスクが以前の順序に復元される
+## ごみ箱の改善：タスクとサブタスクは以前の順序に復元されます
 
 タスクまたはサブタスクを削除後に復元すると、削除前と同じ順序で、タスクまたはサブタスクが前の場所（タスクリスト内または親タスクの下）に復元されます。
 
@@ -58,12 +58,12 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 マイルストーンビューでプロジェクトリストまたはプロジェクトレポートを表示する際、次の機能が強化されました。
 
 * **進行状況ステータスと完了率をビューに表示するかどうかを設定します。** マイルストーン表示に進捗状況ステータスアイコンを表示するかどうかを設定する新しいオプションが追加されました。 また、プロジェクトとタスクに関連して、完了率情報を表示するかどうかを設定することもできます。\
-   詳しくは、 [マイルストーンビューの使用](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [マイルストーンビューの使用](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+  詳しくは、 [マイルストーンビューの使用](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [マイルストーンビューの使用](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 * **マイルストーンビューから直接「完了率」を編集します。** マイルストーンビューから直接、プロジェクトとタスクの完了率を編集できるようになりました。\
-   詳しくは、 [マイルストーンビューの使用](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [マイルストーンビューの使用](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+  詳しくは、 [マイルストーンビューの使用](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [マイルストーンビューの使用](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
-## 複数のシステム設定ページのルックアンドフィールを更新しました
+## 複数のシステム設定ページのルックアンドフィールを更新しました。
 
 セットアップ領域のシステムメニューで、次のページのルックアンドフィールが更新されました（機能は変わりません）。
 
@@ -81,13 +81,13 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 
 「 E メールの設定」領域のイベント通知の組織ヘッダーが、ユーザープロファイル設定領域で使用されるセクション見出しと一致するようになりました。
 
-イベント通知の詳細については、  [システムの全員に対するイベント通知を設定する](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+イベント通知について詳しくは、  [システムの全員に対するイベント通知を設定する](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-## インスタント通知のオプトアウト：コンテキスト内ダイジェストの設定
+## インスタント通知のオプトアウト：コンテキスト内ダイジェスト設定
 
 インスタント電子メール通知内で、次のオプションを使用できるようになりました。 これらのオプションは、1 日のダイジェストにも対応するインスタント通知でのみ使用できます。
 
-* “これを日刊ダイジェストに追加”
+* &quot;これを日次ダイジェストに追加&quot;
 * &quot;このタイプのメールを停止&quot;
 
 即時電子メール通知を受け取ったら、その通知を毎日のダイジェスト通知に追加するか、その通知を完全に購読解除することができます。
@@ -98,7 +98,7 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 
 次のように、ユーザープロファイルページの「必要なアクション」セクションから他のセクションにいくつかの通知が移動されました。
 
-電子メール通知の設定について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+電子メール通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -113,49 +113,49 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
  </thead> 
  <tbody> 
   <tr> 
-   <td>自分が所有するプロジェクトに問題が追加された</td> 
-   <td> <p> 操作が必要です </p> </td> 
+   <td>自分が所有するプロジェクトにイシューが追加された</td> 
+   <td> <p> アクションが必要 </p> </td> 
    <td>   <p>所有プロジェクトに関する情報</p></td> 
   </tr> 
   <tr> 
-   <td>自分が参加しているプロジェクトに問題が追加された</td> 
-   <td>   <p>操作が必要です</p><p> </p></td> 
+   <td>私が担当しているプロジェクトに問題が追加されました</td> 
+   <td>   <p>アクションが必要</p><p> </p></td> 
    <td> <p> 所有プロジェクトに関する情報 </p>   </td> 
   </tr> 
   <tr> 
-   <td>自分が所有するプロジェクトに未割り当ての問題が追加された</td> 
-   <td>   <p>操作が必要です</p></td> 
+   <td>私が所有しているプロジェクトに未割り当ての問題が追加されました</td> 
+   <td>   <p>アクションが必要</p></td> 
    <td>   <p>所有プロジェクトに関する情報</p></td> 
   </tr> 
   <tr> 
-   <td> <p> 自分が参加しているプロジェクトに未割り当ての問題が追加された </p> </td> 
-   <td> <p> 操作が必要です </p>   </td> 
+   <td> <p> 私が担当しているプロジェクトに未割り当ての問題が追加されました </p> </td> 
+   <td> <p> アクションが必要 </p>   </td> 
    <td> <p> 所有プロジェクトに関する情報 </p>   </td> 
   </tr> 
   <tr> 
-   <td> <p> 担当プロジェクトのどれかでタスクのコミット日が変更された </p> </td> 
-   <td>   <p>操作が必要です</p></td> 
+   <td> <p> いずれかのマイプロジェクトでタスクのコミット日が変更されました </p> </td> 
+   <td>   <p>アクションが必要</p></td> 
    <td>   <p>所有プロジェクトに関する情報</p></td> 
   </tr> 
   <tr> 
-   <td> <p> 担当プロジェクトのいずれかで問題のコミット日が変更された </p>   </td> 
-   <td>   <p>操作が必要です</p></td> 
+   <td> <p> いずれかのマイプロジェクトで問題のコミット日が変更されました </p>   </td> 
+   <td>   <p>アクションが必要</p></td> 
    <td> <p> 所有プロジェクトに関する情報 </p>   </td> 
   </tr> 
   <tr> 
-   <td> <p> 自分に割り当てられているタスクの完了予定日が変更した </p> </td> 
-   <td>   <p>操作が必要です</p></td> 
-   <td>   <p>担当割り当てされている作業に関する情報</p></td> 
+   <td> <p> 自分に割り当てられているタスクの完了予定日が変更になった </p> </td> 
+   <td>   <p>アクションが必要</p></td> 
+   <td>   <p>私に割り当てられている作業に関する情報</p></td> 
   </tr> 
   <tr> 
-   <td> <p> 自分が割り当てられている問題の期日が変更した </p> </td> 
-   <td> <p> 操作が必要です </p>   </td> 
-   <td>   <p>担当割り当てされている作業に関する情報</p></td> 
+   <td> <p> 私に割り当てられている問題の期日が変更されました </p> </td> 
+   <td> <p> アクションが必要 </p>   </td> 
+   <td>   <p>私に割り当てられている作業に関する情報</p></td> 
   </tr> 
   <tr> 
-   <td> <p> 自分に割り当てられたタスクの状態が変更した </p>   </td> 
-   <td> <p> 操作が必要です </p>   </td> 
-   <td> <p> 担当割り当てされている作業に関する情報 </p>   </td> 
+   <td> <p> 私に割り当てられているタスクでステータスが変更されました </p>   </td> 
+   <td> <p> アクションが必要 </p>   </td> 
+   <td> <p> 私に割り当てられている作業に関する情報 </p>   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,16 +172,20 @@ Workfrontでのオブジェクトの復元について詳しくは、 [削除し
 
 * 「担当者」領域で、現在の「リソース計画」タブの名前が「レガシーリソース計画」に変更されました。 
 * 新しい機能が開発される「担当者」領域に、新しい「リソース計画」タブが導入されました。\
-   新しい「リソース計画」タブの詳細については、「 [リソース計画の概要](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+  新しい「リソース計画」タブの詳細は、「 [リソース計画の概要](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
 * 現在の「リソースプール」オブジェクトの名前が「レガシーリソースプール」に変更されました。\
-   新しいユーザーベースのリソースプールの作成の詳細については、 [リソースプールの概要](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  新しいユーザーベースのリソースプールの作成の詳細については、「 [リソースプールの概要](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * 新しい（ユーザーベースの）リソースプールをサポートする新しい「リソースプール」オブジェクトが作成されました。
 
-   >[!NOTE]
-   * 既存のレガシーリソースプールに関するレポートを現在実行している場合、既存のレポートは変更されません。
-   * 既存の（ジョブロールベースの）レガシーリソースプールに対して新しいレポートを作成する場合は、「レガシーリソースプール」をレポートのオブジェクトとして選択する必要があります。
-   * 新しい（ユーザーベースの）リソースプールに対して新しいレポートを作成する場合は、レポートのオブジェクトとして「リソースプール」を選択する必要があります。
-
+  >[!NOTE]
+  >
+  >
   >   
+  >   
+  * 既存のレガシーリソースプールに関するレポートを現在実行している場合、既存のレポートは変更されません。
+  * 既存の（ジョブロールベースの）レガシーリソースプールに対して新しいレポートを作成する場合は、「レガシーリソースプール」をレポートのオブジェクトとして選択する必要があります。
+  * 新しい（ユーザーベースの）リソースプールに対して新しいレポートを作成する場合は、レポートのオブジェクトとして「リソースプール」を選択する必要があります。
+  >   
+  >

@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -42,16 +42,16 @@ Workfrontにアクセスする際は、サポート対象のブラウザーを�
 * 割り当てられた依存タスクを開始する準備が整いました
 * 先行者へのチームメール通知が完了しました
 
-プレビュー環境でテスト用に電子メールを有効にするには、プレビューでの電子メールの管理の節を参照してください。 [独自のイベント通知をアクティブ化または非アクティブ化する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+プレビュー環境でテスト用に電子メールを有効にするには、プレビューでの電子メールの管理の節を参照してください。 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## チームへの新しい電子メール通知
 
 チーム向けに次の電子メール通知を追加しました。
 
-* チームに割り当てられたタスクの先行タスクが完了しました：割り当てられたチームは、タスクの 1 つの先行者が完了とマークされると、電子メール通知を受け取ります。
-* チームに割り当てられたタスクの先行タスクがすべて完了しました：割り当てられたチームは、完了とマークされた各先行チームに対する電子メール通知を受け取ります。
+* チームに割り当てられたタスクの先行タスクが完了しました：タスクの 1 つの先行タスクが完了とマークされると、割り当てられたチームが電子メール通知を受け取ります。
+* チームに割り当てられたタスクの先行タスクがすべて完了しました：チームに割り当てられたチームは、完了とマークされた各先行タスクに関する電子メール通知を受け取ります。
 
-詳しくは、 [通知：自分に割り当てられた仕事に関する情報](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+詳しくは、 [通知：自分に割り当てられた作業に関する情報](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
 ## 管理者向けの新機能：電子メール通知の強化
 

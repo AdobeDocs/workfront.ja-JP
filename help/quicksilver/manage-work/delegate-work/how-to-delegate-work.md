@@ -6,9 +6,9 @@ description: 不在時に割り当てられた作業を一時的に委任する�
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * イベント通知が有効になっている場合、委任者として選択したユーザーは、委任に関する電子メールを受け取ります。
 
-     個人の電子メール通知を有効にする方法について詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     個人の電子メール通知を有効にする方法について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 
@@ -220,7 +220,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 >[!TIP]
 >
->委任されたタスクとタスクの計画時間または実績時間は、リソース管理ツール ( [!UICONTROL ワークロードバランサー] または [!DNL Resource Planner] 委任されたユーザーに対して。 時間は、割り当てられたユーザーにのみ関連付けられます。
+>委任されたタスクとタスクの予定時間または実績時間は、リソース管理ツール ( [!UICONTROL ワークロードバランサー] または [!DNL Resource Planner] 委任されたユーザーに対して。 時間は、割り当てられたユーザーにのみ関連付けられます。
 
 ### で委任作業を検索 [!UICONTROL ホーム]
 

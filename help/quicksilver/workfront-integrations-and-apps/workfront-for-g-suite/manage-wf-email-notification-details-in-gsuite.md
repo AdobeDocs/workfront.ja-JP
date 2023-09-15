@@ -7,9 +7,9 @@ description: G Suite で、通知メールAdobeを開くとき [!DNL Workfront] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 1%
 >
 >Google用Adobe Workfrontプラグインの最新バージョンは、2023 年 6 月 26 日にリリースされました。
 
-In [!DNL G Suite]（通知電子メールを開いたとき） [!DNL Adobe Workfront] が送信された場合、関連する作業項目の詳細を表示し、 [!UICONTROL インボックス]. リクエストの承認などアクションが使用可能な場合は、 [!DNL Workfront for G Suite].
+In [!DNL G Suite]（通知 E メールを開いたとき） [!DNL Adobe Workfront] が送信された場合、関連する作業項目の詳細を表示し、 [!UICONTROL インボックス]. リクエストの承認などアクションが使用可能な場合は、 [!DNL Workfront for G Suite].
 
 >[!NOTE]
 >
-> [!DNL Workfront for G Suite] は、受け取ることのできるほとんどすべてのタイプの電子メール通知をサポートします [!DNL Workfront] （約 120 種類）。 [!UICONTROL 日別ダイジェスト] から送信された電子メール [!DNL Workfront] 次に表示されない [!DNL Workfront for G Suite]. 詳しくは、 [!DNL Workfront] 電子メール通知のタイプについては、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+> [!DNL Workfront for G Suite] は、受け取ることのできるほとんどすべてのタイプの電子メール通知をサポートします [!DNL Workfront] （約 120 種類）。 [!UICONTROL 1 日のダイジェスト] から送信された電子メール [!DNL Workfront] 次に表示されない [!DNL Workfront for G Suite]. 詳しくは、 [!DNL Workfront] 電子メール通知のタイプについては、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## アクセス要件
 
@@ -49,14 +49,14 @@ In [!DNL G Suite]（通知電子メールを開いたとき） [!DNL Adobe Workf
 
 ## 前提条件
 
-通知の詳細を次の場所から管理する前に： [!DNL G Suite]を
+通知の詳細を次の場所から管理する前に： [!DNL G Suite]を選択し、
 
 * インストール [!DNL Workfront for G suite]\
    手順については、 [インストール [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
 ## 管理 [!DNL Adobe Workfront] 通知の詳細 [!DNL G Suite]
 
-1. この [!DNL Workfront for G Suite] パネルが表示されない場合は、 [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) 内 [!DNL G Suite] ページの右端にあるアドオンサイドバー。
+1. 次の場合、 [!DNL Workfront for G Suite] パネルが表示されない場合は、 [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) （内） [!DNL G Suite] ページの右端にあるアドオンサイドバー。
 1. In [!DNL G Suite]、を開きます。 [!DNL Workfront] 通知メール。
 1. クリック **[!UICONTROL すべての更新を表示]** （パネルの上部付近に表示される場合）。
 1. クリック **[!UICONTROL 詳細]**.
@@ -76,7 +76,7 @@ In [!DNL G Suite]（通知電子メールを開いたとき） [!DNL Adobe Workf
     <tbody> 
      <tr> 
       <td>タスクまたは問題</td> 
-      <td><strong>[!UICONTROL 承認 ]</strong> それは <strong>[!UICONTROL 却下 ]</strong> それは <strong>[!UICONTROL 付与 ]</strong> アクセス可能 <strong>[!UICONTROL 無視 ]</strong> アクセスを要求する <strong>[!UICONTROL の操作 ]</strong>または、「 」オプションをクリックして、 <strong>[!UICONTROL 完了 ]</strong> その</td> 
+      <td><strong>[!UICONTROL 承認 ]</strong> それは <strong>[!UICONTROL 却下 ]</strong> それは <strong>[!UICONTROL 付与 ]</strong> それにアクセスする <strong>[!UICONTROL 無視 ]</strong> アクセスを要求する <strong>[!UICONTROL の操作 ]</strong>または、「 」オプションをクリックして、 <strong>[!UICONTROL 完了 ]</strong> それで</td> 
      </tr> 
      <tr> 
       <td>プロジェクト</td> 
@@ -92,7 +92,7 @@ In [!DNL G Suite]（通知電子メールを開いたとき） [!DNL Adobe Workf
      </tr> 
      <tr> 
       <td>承認リクエスト</td> 
-      <td><strong>[!UICONTROL 承認 ]</strong> または <strong>[!UICONTROL 却下 ]</strong> （他のオプションをクリックして、心を変えることができます）、ダウンロード、所有者の表示、または参照番号の表示を行うことができます</td> 
+      <td><strong>[!UICONTROL 承認 ]</strong> または <strong>[!UICONTROL 却下 ]</strong> （他のオプションをクリックして、心を変えることができます）、ダウンロード、所有者の表示、または参照番号の表示を行うことができます。</td> 
      </tr> 
      <tr> 
       <td>プロジェクトのステータスの変更</td> 

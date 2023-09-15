@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクトに更新コメントを付ける�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ユーザーが電子メール通知を受け取るには、プロファイルで個人通知を有効にする必要があります。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>ユーザーが電子メール通知を受け取るには、プロファイルで個人通知を有効にする必要があります。 詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 >
 
 更新をWorkfrontオブジェクトに追加する方法について詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -150,7 +150,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >「通知」フィールドに一覧表示されるすべてのユーザーとチームメンバーは、更新のアプリ内通知を受け取り、電子メール通知の設定に応じて電子メールを受け取る場合があります。 コメントまたは返信でタグ付けしたユーザーは、そのコメントまたは返信に関する通知を受け取り、スレッドの残りの部分の「通知」フィールドに名前を表示できますが、タグ付けし直さない限り、別の通知を受け取りません。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) および [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >「通知」フィールドに一覧表示されるすべてのユーザーとチームメンバーは、更新のアプリ内通知を受け取り、電子メール通知の設定に応じて電子メールを受け取る場合があります。 コメントまたは返信でタグ付けしたユーザーは、そのコメントまたは返信に関する通知を受け取り、スレッドの残りの部分の「通知」フィールドに名前を表示できますが、タグ付けし直さない限り、別の通知を受け取りません。 詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) および [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. クリック **更新**.\
    更新に含まれるユーザーには、オブジェクトに対する表示権限が自動的に付与され、オブジェクトに対する更新の表示と応答が可能になります。
@@ -208,7 +208,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >「ユーザーまたはチームのタグ付け」フィールドに一覧表示されるすべてのユーザーおよびチームメンバーは、更新のアプリ内通知を受け取り、電子メール通知設定に応じて電子メールを受け取る場合があります。 コメントまたは返信で自分にタグを付けたユーザーは、そのコメントまたは返信に関する通知を受け取り、スレッドの残りの部分でスレッドのメンバーとして一覧表示できますが、タグを付け直さない限り、別の通知を受け取りません。 詳しくは、 [独自のイベント通知をアクティブ化または非アクティブ化する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) および [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >「ユーザーまたはチームのタグ付け」フィールドに一覧表示されるすべてのユーザーおよびチームメンバーは、更新のアプリ内通知を受け取り、電子メール通知設定に応じて電子メールを受け取る場合があります。 コメントまたは返信で自分にタグを付けたユーザーは、そのコメントまたは返信に関する通知を受け取り、スレッドの残りの部分でスレッドのメンバーとして一覧表示できますが、タグを付け直さない限り、別の通知を受け取りません。 詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) および [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. クリック **送信**.\
    更新に含まれるユーザーには、オブジェクトに対する表示権限が自動的に付与され、オブジェクトに対する更新の表示と応答が可能になります。
