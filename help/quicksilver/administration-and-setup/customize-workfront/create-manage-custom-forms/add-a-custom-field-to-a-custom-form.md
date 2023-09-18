@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -125,6 +125,10 @@ ht-degree: 3%
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >チェックボックスやドロップダウンなど、複数の選択が可能なフィールドは、レポートでグラフ化やグループ化が困難です。 レポートでのグラフ作成とグループ化を容易にするために、各選択肢に対して個別のフィールド（1 行のテキストフィールドなど）を作成できます。
 
 1. 次の日： **フィールド設定** 「 」タブで、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
