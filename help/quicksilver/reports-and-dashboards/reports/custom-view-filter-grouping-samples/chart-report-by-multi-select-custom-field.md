@@ -7,7 +7,7 @@ description: 複数選択カスタムフィールドで選択した選択肢を�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ ht-degree: 0%
    >[!NOTE]
    >
    >このオプションは、プロジェクトを一括編集する際には使用できなくなりました。  プロジェクトの式は、 **その他** アイコン ![](assets/more-icon-45x33.png) をクリックし、 **式を再計算**.
-
 
 1. 複数選択カスタムフィールドを参照する計算フィールドのグラフを追加するレポートに移動します。
 1. クリック **レポートのアクション**&#x200B;を、 **編集**.
