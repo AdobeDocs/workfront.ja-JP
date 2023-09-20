@@ -9,13 +9,13 @@ description: Workfrontにログインして作業するには、すべてのユ�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # 新しいライセンスプランの有料ユーザーに対して自動アップグレードオプションを無効にする
 
@@ -57,6 +57,6 @@ ht-degree: 1%
 
 {{step-1-to-setup}}
 
-1. 下にスクロールして [!UICONTROL **環境設定**].
-1. 内 [!UICONTROL **一般環境設定**] セクションで、 [!UICONTROL **アクセスレベル内で自動アップグレードを無効にする**] ボックス
+1. 展開 [!UICONTROL **システム**] 左側のナビゲーションで、「 [!UICONTROL **環境設定**].
+1. Adobe Analytics の [!UICONTROL **一般環境設定**] セクションで、 [!UICONTROL **アクセスレベル内で自動アップグレードを無効にする**] ボックス。
 1. 「[!UICONTROL **保存**]」をクリックします。
