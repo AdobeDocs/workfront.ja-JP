@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '793'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Workfrontの実装時にシステム環境設定を指定し、その後は再�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,11 +73,11 @@ Workfrontの実装時にシステム環境設定を指定し、その後は再�
      </tr> 
      <tr> 
       <td role="rowheader"> <p>の埋め込みを許可 <strong>Workfront</strong> iframe 内</p> </td> 
-      <td>iframe にWorkfrontを埋め込むことができます。<p>このオプションはデフォルトでは無効になっています。</p><p><b>重要</b>:Web ベースのアプリケーションを iframe で表示すると、アプリケーションでクリックジャックのセキュリティ脆弱性の影響を受けやすくなります。</p></td> 
+      <td>iframe にWorkfrontを埋め込むことができます。<p>このオプションはデフォルトでは無効になっています。</p><p><b>重要</b>:iframe で Web ベースのアプリケーションを表示すると、アプリケーションでクリックジャックのセキュリティの脆弱性の問題が生じやすくなります。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Office 365 アドインで SAML 2.0 認証を許可する</td> 
-      <td> <p>Workfrontが SAML 2.0 シングルサインオンソリューションと統合されている場合、Workfrontを Office 365 アドイン用にのみ iframe に埋め込むことができます。 </p> <p>このオプションは、デフォルトで有効になっています。</p> <p><b>注意</b>:上記のオプションを有効にした場合、 <strong>iframe へのWorkfrontの埋め込みを許可</strong>、オプション <strong>Office 365 アドインで SAML 2.0 認証を許可する</strong> が有効になっていて、淡色表示になっている。</p> </td> 
+      <td> <p>Workfrontが SAML 2.0 シングルサインオンソリューションと統合されている場合、Workfrontを Office 365 アドイン用にのみ iframe に埋め込むことができます。 </p> <p>このオプションは、デフォルトで有効になっています。</p> <p><b>注意</b>：上記のオプションを有効にした場合、 <strong>iframe へのWorkfrontの埋め込みを許可</strong>、オプション <strong>Office 365 アドインで SAML 2.0 認証を許可する</strong> が有効になっていて、淡色表示になっている。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">外部ページの URL を作成する際にセッション情報を使用できるようにする</td> 
@@ -92,14 +92,14 @@ Workfrontの実装時にシステム環境設定を指定し、その後は再�
       <td>Workfrontのユーザーが、名前の代わりに電子メールアドレスを含めることで、Workfrontアカウントを持たないユーザーと特定の項目を共有できるようにします。 ユーザーは、電子メールアドレスを使用して、次の項目を外部ユーザーと共有できます。
        <ul>
         <li>ドキュメント<br></li>
-        <li>ドキュメントリクエスト<br></li>
+        <li>ドキュメントのリクエスト<br></li>
         <li>ドキュメントの承認</li>
         <li>カレンダー</li>
-       </ul><p>このオプションは、デフォルトで有効になっています。</p> <p><b>重要</b>:このオプションが無効になっている場合、Workfrontインスタンスでは「外部ユーザー」アクセスレベルを使用できません。 詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Workfrontの組み込みアクセスレベル</a>.</p> </td> 
+       </ul><p>このオプションは、デフォルトで有効になっています。</p> <p><b>重要</b>：このオプションが無効になっている場合、「外部ユーザー」アクセスレベルは、Workfrontインスタンスでは使用できません。 詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Workfrontの組み込みアクセスレベル</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">外部ユーザーにパスワードの登録を要求</td> 
-      <td> <p>Workfrontで項目を表示するには、外部ユーザーが登録する必要があります。 デフォルトでは、このオプションは無効になっています。 このオプションを有効にすると、Workfrontアカウントを持たないユーザーが電子メールアドレスで特定の更新を受け取った場合、そのユーザーが含まれる項目を表示する前にアカウントの作成を求められます。 これにより、外部ユーザーアカウントが作成されます。</p> <p>このオプションはデフォルトでは無効になっています。</p> </td> 
+      <td role="rowheader">外部ユーザーにパスワードの登録を要求する</td> 
+      <td> <p>Workfrontで項目を表示するには、外部ユーザーが登録する必要があります。 デフォルトでは、このオプションは無効になっています。 このオプションを有効にすると、Workfrontアカウントを持たないユーザーが電子メールアドレスで特定の更新を受け取った場合、そのユーザーが含まれる項目を表示する前にアカウントの作成を促すメッセージが表示されます。 これにより、ユーザーの外部ユーザーアカウントが作成されます。</p> <p>このオプションはデフォルトでは無効になっています。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">次の場合にユーザーを自動的にログアウトする</td> 
@@ -111,7 +111,7 @@ Workfrontの実装時にシステム環境設定を指定し、その後は再�
      </tr> 
      <tr> 
       <td role="rowheader">システムのユーザーには、新しいホームエクスペリエンスがデフォルトで表示されます </td> 
-      <td>ユーザーがデフォルトで新しいホームエクスペリエンスを表示するかどうかを指定できます。 いずれの場合も、ユーザーは、新しいホームの有効化または無効化を個別に選択できます。 このオプションは、デフォルトで有効になっています。</td> 
+      <td>ユーザーがデフォルトで新しいホームエクスペリエンスを表示するかどうかを指定できます。 有効にした場合でも、ユーザーは個別に新規ホームを有効または無効にすることができます。 無効にした場合、ユーザーは新しいホームを使用するオプションを持ちません。 このオプションは、デフォルトで有効になっています。</td> 
      </tr> 
     </tbody> 
    </table>
