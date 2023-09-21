@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion の組織とチームの機能により、�
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 デフォルトでは、組織の所有者（または承認済みユーザー）は、別のユーザーを組織に招待できます。
 
-ユーザーを組織に招待するには、次の手順に従います。
+ユーザーを組織に招待するには：
 
 1. クリック **[!UICONTROL 詳細を変更]** をクリックします。
 1. 選択 **[!UICONTROL 新しいユーザーの招待]**.
@@ -164,6 +164,12 @@ Fusion では、複数の組織に属している場合があります。 リソ
 1. 新しいチームの名前を入力し、 **追加**.
 
 #### チーム通知オプションの設定
+
+>[!NOTE]
+>
+>次にアクセスする場合： [!DNL Fusion] から [!DNL Adobe Experience Cloud]の場合、通知は [!DNL Experience Cloud] 通知センター
+>
+>詳しくは、 [通知にアクセスする](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] 対象： [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 電子メール通知オプションは、チームレベルで設定されます。
 

@@ -7,9 +7,9 @@ description: Adobe Experience Cloudを通じてWorkfront Fusion にアクセス�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 609772ae587c8bb8b05d48fada478f3419616dda
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -109,4 +109,11 @@ ht-degree: 1%
 通知とお知らせは、統合シェルの [ 通知 ] 領域で確認できます。
 
 通知を表示するには、通知アイコンをクリックします。 ![通知アイコン](assets/notifications-icon.png) 画面の右上隅付近に表示されます。 通知アイコンの赤い点は、未読の通知またはお知らせがあることを示します。
+
+Adobe Experience Cloudで通知を設定する手順については、 [通知設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) (Adobeドキュメント )
+
+を設定する際には、次の点に注意してください。
+
+* **アラート** 動作しないシナリオを参照してください。
+* **コンテンツの更新** シナリオの実行時のエラーと警告を参照してください。
 
