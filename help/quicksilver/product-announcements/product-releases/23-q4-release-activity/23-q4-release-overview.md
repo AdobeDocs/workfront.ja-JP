@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: abb94dcce6d35f97d35a3c9540e88ec60621bb45
+source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
 >| <ul><li>23.8（2023 年 8 月 32 日）</li><li>23.9（2023 年 9 月 29 日）</li><li>23.10（2023 年 10 月 27 日）</li></ul> | <ul><li>23.10（2023 年 10 月 26 日の週）</li></ul> |
+
+23.10 リリースウェビナーは 2023 年 10 月 5 日に開催されます。 以下が可能です。 [ウェビナーへの登録はこちらから](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">オフサイクル機能（2023 年第 4 四半期のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
 
