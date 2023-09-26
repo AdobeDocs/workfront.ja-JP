@@ -3,7 +3,8 @@ title: アーキテクチャ情報
 description: 次の記事では、AdobeMaestro のアーキテクチャを設定する方法について説明します。 この設定の一環として、AdobeMaestro で管理するワークフローをマッピングするためのワークスペース、レコードタイプ、カスタムフィールドの作成方法を学びます。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%

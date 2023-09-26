@@ -3,7 +3,8 @@ title: レコードタイプとレコードの接続例
 description: この記事では、AdobeMaestro レコードタイプとWorkfrontプロジェクトオブジェクトタイプの接続を作成する方法の例を説明します。 また、Maestro レコードを個々のプロジェクトに接続する方法についても説明します。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1742'
 ht-degree: 0%

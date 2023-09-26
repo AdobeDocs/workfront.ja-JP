@@ -3,7 +3,8 @@ title: Workspace テンプレートのリスト
 description: ワークスペースは、チームが使用するオペレーショナルレコードタイプと分類の集まりで、チームの作業ライフサイクルを表します。 Maestro には、ワークスペースの作成時に基本的なレコードタイプ、分類、フィールドを使い始めるための一連のテンプレートが用意されています。
 hide: true
 hidefromtoc: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%

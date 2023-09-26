@@ -3,7 +3,8 @@ title: アクセスの概要
 description: 組織内のすべてのユーザは、AdobeMaestro にアクセスできます。 現在、Maestro には、ユーザや情報に関連するアクセスレベルや権限はありません。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%

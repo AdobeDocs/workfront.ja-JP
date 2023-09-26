@@ -3,7 +3,8 @@ title: 情報を表示
 description: AdobeMaestro レコードをテーブルまたはタイムラインビューに表示できます。 次の記事では、AdobeMaestro レコードビューを作成および管理する方法について説明します。
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
