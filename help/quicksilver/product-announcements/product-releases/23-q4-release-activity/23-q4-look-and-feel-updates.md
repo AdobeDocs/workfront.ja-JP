@@ -4,13 +4,13 @@ description: 2023 年第 4 四半期のリリース期間中のルックアン�
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # 2023 年第 4 四半期のリリース期間中のルックアンドフィールのアップデート
 
@@ -27,3 +27,13 @@ ht-degree: 0%
 設定/電子メール/通知領域の電子メール通知、リマインダー通知および電子メールテンプレートのタブを、Workfrontの他の領域と一貫した最新のデザインに更新しました。
 
 詳しくは、 [システムの全員に対するイベント通知を設定する](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+## ジョブの役割の画面のルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース： 2023 年 9 月 21 日；すべてのお客様向けの本番リリース：レート・カードおよびその他の財務管理の更新がリリースされたとき
+
+新しいジョブの役割画面とジョブの役割の編集画面を、Workfrontの他の領域と一貫した、より最新のデザインに更新しました。
+
+詳しくは、 [ジョブの役割の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

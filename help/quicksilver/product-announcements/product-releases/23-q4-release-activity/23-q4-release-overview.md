@@ -3,9 +3,10 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
+exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -66,7 +67,8 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">外部 API からカスタムフォームに値オプションを追加する</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">外部 API からカスタムフォームに値オプションを追加する</a></p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>新しいフィールドタイプ <strong>外部参照</strong>をカスタムフォームデザイナーで使用できるようになりました。 データを外部システムに保存している場合、このフィールドタイプを使用すると、外部 API からオプションを読み込み、カスタムフォーム内の他のフィールド値に基づいてフィルタリングできます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -104,7 +106,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a></p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -201,7 +203,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a></p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -216,7 +218,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>[!BADGE In production ]{type=Informative}</p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -370,7 +372,8 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">マイワークウィジェット用の新しいクイックアクセスボタン</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">マイワークウィジェット用の新しいクイックアクセスボタン</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>新しいホームから直接作業を管理する機能をさらに拡張し、新しいクイックアクセスボタンがマイワークウィジェットに追加されました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -409,7 +412,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームでのカスタム用語のサポート</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームでのカスタム用語のサポート</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>組織固有のニーズをより適切に満たすために、新しいホームでは、インスタンスのレイアウトテンプレートで定義されたオブジェクトに対して、カスタム用語を使用するようになりました。 例えば、Workfrontインスタンスで「プロジェクト」オブジェクトのラベルが「キャンペーン」に変更されている場合、マイプロジェクトウィジェットは代わりに「新規ホーム」のマイキャンペーンとして表示されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -595,6 +598,8 @@ New in preview, prod, and coming soon text
 Badge for available in Fast Release
 
 [!BADGE In production for Fast Release ]{type=Positive}
+[!BADGE In production ]{type=Informative}
+
 
 
 Test for boards early access stuff
@@ -604,5 +609,3 @@ Production release for early opt-in: March 2, 2023 This feature is available in 
 Production release for all customers: With the 23.2 release
 
 -->
-
-
