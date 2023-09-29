@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,141 @@ ht-degree: 0%
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### ホームの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">プロジェクト、タスク、および問題の追跡ウィジェット用の新しいクイックアクセスボタン</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
+                        <p>新しいホームから直接作業を管理する機能をさらに拡張し、プロジェクト、タスク、および問題の追跡ウィジェットに新しいクイックアクセスボタンが追加されました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 9 月 14 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.9 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームの新しいフィルターオプション</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
+                        <p>新しいホームの My Work ウィジェットで新しいフィルターオプションを使用できるようになりました。 オプションには、オブジェクトのタイプ（タスク、問題、リクエスト）とステータス（準備ができていない、開始準備ができている、作業中の、完了済み）のフィルターが含まれます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームでのカスタム用語のサポート</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>組織固有のニーズをより適切に満たすために、新しいホームでは、インスタンスのレイアウトテンプレートで定義されたオブジェクトに対して、カスタム用語を使用するようになりました。 例えば、Workfrontインスタンスで「プロジェクト」オブジェクトのラベルが「キャンペーン」に変更されている場合、マイプロジェクトウィジェットは代わりに「新規ホーム」のマイキャンペーンとして表示されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新規ホームを無効にしたアカウントに対して、新規ホームボタンを削除してみます</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
+                        <p>新しいホームが無効になっているアカウントでは、[ 新しいホームを試す ] ボタンが表示されなくなりました。 個々のユーザーがボタンを使用して新しいホームを試す前に、システム管理者が新しいホームを再度有効にする必要があります。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームのデフォルトのウィジェットセットに変更</a> </p>
+                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
+                        <p>タスクの作成権限を必要とする TODO ウィジェットは、標準、計画、または作業用のライセンスの種類を持つユーザー向けのデフォルトのウィジェットセットにのみ存在します。 さらに、ウィジェットは他のすべてのライセンスタイプを持つユーザーのホームページから自動的に削除されました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 2023 年 8 月 18 日</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼働： 2023 年 8 月 17 日</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -366,102 +501,6 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>四半期リリースの実稼働： 23.10 リリース（特に指定のない限り）あり</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">マイワークウィジェット用の新しいクイックアクセスボタン</a> </p>
-                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
-                        <p>新しいホームから直接作業を管理する機能をさらに拡張し、新しいクイックアクセスボタンがマイワークウィジェットに追加されました。</p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース： 2023 年 9 月 14 日<br /></p>
-                            </li>
-                            <li>
-                                <p>高速リリースの実稼動： 23.9 リリースを使用</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームの新しいフィルターオプション</a> </p>
-                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
-                        <p>新しいホームの My Work ウィジェットで新しいフィルターオプションを使用できるようになりました。 オプションには、オブジェクトのタイプ（タスク、問題、リクエスト）とステータス（準備ができていない、開始準備ができている、作業中の、完了済み）のフィルターが含まれます。</p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
-                            </li>
-                            <li>
-                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームでのカスタム用語のサポート</a> </p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>組織固有のニーズをより適切に満たすために、新しいホームでは、インスタンスのレイアウトテンプレートで定義されたオブジェクトに対して、カスタム用語を使用するようになりました。 例えば、Workfrontインスタンスで「プロジェクト」オブジェクトのラベルが「キャンペーン」に変更されている場合、マイプロジェクトウィジェットは代わりに「新規ホーム」のマイキャンペーンとして表示されます。</p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新規ホームを無効にしたアカウントに対して、新規ホームボタンを削除してみます</a> </p>
-                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
-                        <p>新しいホームが無効になっているアカウントでは、[ 新しいホームを試す ] ボタンが表示されなくなりました。 個々のユーザーがボタンを使用して新しいホームを試す前に、システム管理者が新しいホームを再度有効にする必要があります。</p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
-                            </li>
-                            <li>
-                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームのデフォルトのウィジェットセットに変更</a> </p>
-                        <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
-                        <p>タスクの作成権限を必要とする TODO ウィジェットは、標準、計画、または作業用のライセンスの種類を持つユーザー向けのデフォルトのウィジェットセットにのみ存在します。 さらに、ウィジェットは他のすべてのライセンスタイプを持つユーザーのホームページから自動的に削除されました。</p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
-                            </li>
-                            <li>
-                                <p>高速リリースの実稼動： 2023 年 8 月 18 日</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの実稼働： 2023 年 8 月 17 日</p>
                             </li>
                         </ul>
                     </td>

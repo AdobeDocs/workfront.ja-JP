@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: cc82da7970d8f9c90b3a0dcebfed3feaa4bb1173
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 この第 5Alphaリリースでは、次の内容が含まれます。
 
 * 承認者とレビュー担当者を表示するリストを改善しました。
-* まだ承認の決定を行っていない承認者に機能を追加しました。
+* まだ承認の決定をおこなっていない承認者に通知する機能を追加しました。
 * 承認リストで個々のチームメンバーを表示する機能を追加しました。
 * 外部の承認者を追加する機能を追加しました。
 * 外部の承認者がドキュメントに対してプレビュー、ダウンロード、コメントを行うための表示を改善しました。
