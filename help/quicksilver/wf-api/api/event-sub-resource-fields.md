@@ -6,9 +6,9 @@ description: イベント購読リソースフィールド
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 14e597fc14ab7c424b1313e9c30d69fe6bcd3741
+source-git-commit: 012d53d4773ea8fa377ea7c65cea6cc411ef5321
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 10%
 
 ---
@@ -60,6 +60,11 @@ ht-degree: 10%
    <td> </td> 
    <td> </td> 
    <td> avgWorkPerDay </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> classifierID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -137,6 +142,11 @@ ht-degree: 10%
    <td> </td> 
    <td> </td> 
    <td>作業</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>workPerDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -241,7 +251,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>注意：LastUpdateDate は、毎日、初めてトリガーされたときにのみイベントを更新します。 </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>注意： LastUpdateDate は、毎日初めて更新されたときにのみイベントをトリガーします。 </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1471,6 +1481,11 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>attachedRateCardID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
@@ -2486,7 +2501,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>tiworkHoursPerDaytle</td> 
+   <td>workHoursPerDay </td> 
   </tr> 
  </tbody> 
 </table>
