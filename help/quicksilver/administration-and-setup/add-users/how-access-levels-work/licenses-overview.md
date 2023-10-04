@@ -3,23 +3,23 @@ title: 新しいライセンスの概要
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: ライセンス、タイプ
+keywords: license,type
 navigation-topic: access-levels
-description: 組織がAdobe Workfrontを購入した際に、一定数のライセンスを購入しました。 Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 3 種類の新しい有料Workfrontライセンスのいずれかを割り当てます。
+description: 組織がAdobe Workfrontを購入した際に、一定数のライセンスを購入しました。 Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 3 種類の新しいWorkfrontライセンスのいずれかを付与します。
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
 
 # 新しいライセンスの概要
 
-組織がAdobe Workfrontを購入した際に、一定数のライセンスを購入しました。 Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 3 種類の有料Workfrontライセンスのいずれかを付与します。
+組織がAdobe Workfrontを購入した際に、一定数のライセンスを購入しました。 Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 3 種類のWorkfrontライセンスのいずれかを付与します。
 
 ## 新しいWorkfrontライセンスと新しいアクセスレベルを連携させる方法
 
@@ -29,7 +29,7 @@ Workfront管理者は、ライセンスをユーザーに割り当てる代わ�
 
 次の表と図は、Workfrontへの主なアクセスレベルを示しています。
 
-| ライセンス | 関連するアクセスレベル |
+| ライセンス | 関連付けられたアクセスレベル |
 |--- |--- |
 | 標準 | システム管理者、標準 |
 | ライト | ライト |
@@ -54,6 +54,6 @@ Workfront管理者は、ライセンスをユーザーに割り当てる代わ�
 
 例えば、Standard アクセスレベルをユーザーに割り当てると、使用可能な Standard ライセンスの数が 1 減ります。
 
-ユーザーに割り当てられているライセンスとアクセスレベルを表示できます。 詳しくは、 [ユーザーのアクセスレベルとライセンスを一覧表示する](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
+ユーザーに割り当てられているライセンスとアクセスレベルを表示できます。 詳しくは、 [ユーザーのアクセスレベルとライセンスの一覧を表示する](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
 ライセンス管理の詳細については、 [システムで使用可能なライセンスを管理](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
