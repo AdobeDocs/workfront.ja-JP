@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
+source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ## 新しいWorkfrontライセンスと新しいアクセスレベルを連携させる方法
 
-3 種類の新しい有料Workfrontライセンスを使用すると、Workfrontに対するアクセスレベルを変更できます。 各アクセスレベルは、これらのライセンスの 1 つに付属しています。
+3 種類の新しいWorkfrontライセンスを使用すると、Workfrontに対するアクセスレベルを変更できます。 各アクセスレベルは、これらのライセンスの 1 つに付属しています。
 
 Workfront管理者は、ライセンスをユーザーに割り当てる代わりに、そのライセンスに関連付けられているアクセスレベルを割り当てます。
 
