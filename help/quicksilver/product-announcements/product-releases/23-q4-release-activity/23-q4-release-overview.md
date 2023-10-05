@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">カスタムフォームの計算フィールドで、$$USER ワイルドカードを使用できるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>新しいフォームデザイナーで、計算カスタムフィールドと外部参照フィールドで$$USER ワイルドカードを使用できるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 10 月 6 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">外部 API からカスタムフォームに値オプションを追加する</a></p>

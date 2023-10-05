@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '13338'
+source-wordcount: '13343'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 2%
          * [2023 年第 4 四半期リリース週（2023 年 8 月 14 日）](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
          * [2023 年第 4 四半期リリース週（2023 年 8 月 21 日）](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
          * [2023 年第 4 四半期リリース週（2023 年 9 月 11 日）](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
+         * [2023 年第 4 四半期リリース週（2023 年 10 月 2 日）](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md)
          * [2023 年第 4 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
       * 23.3 リリース {#release-23-3}
          * [23.3 リリースの概要](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
@@ -445,7 +446,7 @@ ht-degree: 2%
          * [ユーザーのプロファイルの編集](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
          * [ユーザープロファイルの一括編集](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
          * [ダイレクトレポートの作成](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
-         * [別のユーザーとしてのログイン](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
+         * [別のユーザーとしてログイン](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
          * [ユーザーの環境設定のリセット](administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
          * [ユーザー名の変更](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
          * [自動プロビジョニングされたユーザーのパスワードの変更](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
@@ -1266,8 +1267,8 @@ ht-degree: 2%
          * [予測日と推定日の区別](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [タスクの概要元の期間と元の計画時間](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [タスクの計画期間と期間の違い](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-      * タスクの作成 {#create-tasks}
-         * [タスクの作成](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+      * タスクを作成 {#create-tasks}
+         * [タスクを作成](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [タスクの作成の概要](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [プロジェクトでのタスクの作成](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [サブタスクを作成](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -1336,8 +1337,8 @@ ht-degree: 2%
          * [タスクに関するヒント、テクニックおよびトラブルシューティング](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
          * [タスクの FAQ](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
          * [推定期間が計画期間と一致しません](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
-   * 問題 {#issues}
-      * [問題](manage-work/issues/issues-overview.md)
+   * イシュー {#issues}
+      * [イシュー](manage-work/issues/issues-overview.md)
       * 変換の問題 {#convert-issues}
          * [変換の問題](manage-work/issues/convert-issues/convert-issues-overview.md)
          * [Adobe Workfrontでの変換の問題の概要](manage-work/issues/convert-issues/convert-issues.md)
@@ -2255,7 +2256,7 @@ ht-degree: 2%
       * [Jira アクティビティログの表示](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
    * Adobe Workfront for G Suite {#workfront-for-g-suite}
       * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
-      * [Adobe Workfront for G Suite のインストール](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [G Suite 用の Adobe Workfront のインストール](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [Workfront for G Suite のプライバシーと権限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
       * [Adobe Workfront for G Suite へのログインとログアウト](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
       * [G Suite からAdobe Workfrontホームコンテンツにアクセス](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
