@@ -6,9 +6,9 @@ description: ボードをフィルタリングして、特定のカードのみ�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ ht-degree: 0%
 デフォルトでは、アクティブなカードのみがボードに表示されます。 ボードをフィルタリングして、アーカイブしたカードも表示できます。
 
 1. ボードにアクセスします。
+1. クリック [!UICONTROL **設定**] をクリックして、設定パネルを開きます。
+1. 展開 [!UICONTROL **カード**].
+1. オンにする [!UICONTROL **ボードにアーカイブしたカードを表示する**].
 1. クリック [!UICONTROL **フィルター**]、を展開します。 [!UICONTROL アーカイブ済みカード] セクションを選択し、 **[!UICONTROL アーカイブしたカード]** アーカイブされたカードを表示します。
 
    フィルターには、アーカイブされたカードの数が表示されます。
 
-   ![アーカイブしたカードのフィルタリング](assets/boards-filter-by-archived-cards_0822.png)
+   ![アーカイブしたカードのフィルタリング](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >The [!UICONTROL アーカイブ済みカード] アーカイブされたカードを表示する設定をオンにしていない場合、セクションはフィルターで使用できません。
 
 1. 選択 **[!UICONTROL アーカイブしたカード]** を再びクリアし、アクティブなカードのみを表示します。
 
