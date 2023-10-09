@@ -6,10 +6,10 @@ description: API のバージョン管理とサポートのスケジュール
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
+source-git-commit: 6b341310e06e75e47b94b7c27031ce8398e91c68
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 11%
+source-wordcount: '243'
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 11%
 
 
 
-Adobe Workfrontは新しい API バージョンを定期的にリリースしています（通常は年に 2 回）。 API バージョンは、リリース後 3 年間サポートされています。 3 年より前の API バージョンはサポートされなくなりました。
+Adobe Workfrontは、新しい API バージョンを定期的にリリースしています（通常は年に 2 回）。 API バージョンは、リリース後 3 年間サポートされています。 3 年より前の API バージョンはサポートされなくなりました。
+
+API バージョンの識別と使用について詳しくは、 [統合での API バージョンの指定](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 次の表に、Workfront API のリリースおよびサポートスケジュールを示します。
 
@@ -45,7 +47,7 @@ Adobe Workfrontは新しい API バージョンを定期的にリリースして
   <tr> 
    <td>14</td> 
    <td> <p>2021 年 10 月</p> <p>（21.4 リリースを使用）</p> </td> 
-   <td> <p>**2024 年</p> <p>（24.4 リリースを使用）</p> </td> 
+   <td> <p>**2024 年中</p> <p>（24.4 リリースを使用）</p> </td> 
   </tr> 
   <tr> 
    <td>13</td> 
@@ -55,7 +57,7 @@ Adobe Workfrontは新しい API バージョンを定期的にリリースして
   <tr> 
    <td>12</td> 
    <td> <p>2020 年後半</p> <p>（2020.4 リリースを使用）</p> </td> 
-   <td> <p>**2023 年</p> <p>（2023.4 リリースを使用）</p> </td> 
+   <td> <p>**2023 年中</p> <p>（2023.4 リリースを使用）</p> </td> 
   </tr> 
   <tr> 
    <td>11</td> 
