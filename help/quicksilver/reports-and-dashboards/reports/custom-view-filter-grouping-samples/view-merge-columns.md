@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''表示：1 つの共有列の複数の列の情報を結合'
+title: '表示： 1 つの共有列の複数の列から情報を結合'
 description: 複数の異なる列に表示される情報を結合し、1 つの共有列に表示できます。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>ビューの変更をリクエスト </p>
-   <p>レポートの変更計画</p> </td> 
+   <p>レポートを変更する計画</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -42,19 +42,19 @@ ht-degree: 0%
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 列を共有または結合する際の考慮事項
 
 * 隣接する 2 つの列を結合して、改行で区切られた各列の情報を表示するか、隣接する 2 つの列に情報を結合して、各列の情報を区切らずに表示できます。
 * この記事で説明する同じ構文を既に共有されている列と隣接する列に適用すると、2 つ以上の列の情報を結合できます。
-* この `valueformat=HTML` 行は共有列で必須です。 そうしないと、レポートがAdobe Workfrontからエクスポートされる際に、列に情報が含まれません（空白になります）。
+* The `valueformat=HTML` 行は共有列で必須です。 そうしないと、レポートがAdobe Workfrontからエクスポートされる際に、列に情報が含まれません（空白になります）。
 * 条件付き書式は、結合された列ではサポートされない場合があります。
 
   次の例外が存在します。
@@ -83,7 +83,7 @@ ht-degree: 0%
 
    `sharecol=true`
 
-   リストまたはレポートの最初の 2 列を結合すると、最初の列のオブジェクトに関する情報を含むテキストの各行の前に、Workfrontが `column.0.` 2 列目の情報を含むテキスト行 `column.1.` .
+   リストまたはレポートの最初の 2 列を結合すると、最初の列のオブジェクトに関する情報を含むテキストの各行の前に、Workfrontが `column.0.` 2 列目に関する情報を含むテキスト行 `column.1.` .
 
    最初の列の列番号の前に、その列の番号を付ける必要があります。 列のカウントは、常に、というラベルの付いたリストまたはレポートの左端の列から開始します。 `column.0.`.
 
@@ -133,7 +133,7 @@ ht-degree: 0%
    `sharecol=true`
 
 
-1. 最初の列に次のテキストを追加します。
+1. 最初の列をクリックし、 **テキストモードに切り替え**&#x200B;次に、列に次のテキストを追加します。
 
    `sharecol=true`
 

@@ -4,13 +4,13 @@ description: Adobe・マエストロはAdobe Workfrontからの新しいオフ�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 1%
 
 ---
-
 
 # Adobeマエストロの概要
 
@@ -358,6 +358,7 @@ To share the Maestro area using a layout template:
 | タイムライン表示でのグループの並べ替え |                               | ✓ |                  |
 | ワークスペースの接続 |                               | ✓ |                  |
 | Maestro レコードと分類を接続 | ✓ |
+| テーブルビューでのレコードの検索 | ✓ |   |
 | Maestro レコードをWorkfrontプロジェクト、プログラム、ポートフォリオ、会社、グループに接続 | ✓ |                                 |                  |
 | レコードの詳細ページ | ✓ |                                  |                  |
 | レコードの詳細ページのレイアウトを更新します |                               | ✓ |                  |
@@ -527,7 +528,3 @@ Preview and production: May 31, 2023
 
 You must have at least two date fields associated with a record type in order to create a Timeline view. 
 -->
-
-
-
-
