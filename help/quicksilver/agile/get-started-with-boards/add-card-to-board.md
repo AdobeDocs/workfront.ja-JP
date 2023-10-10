@@ -6,9 +6,9 @@ description: アドホックカードをボードにすばやく追加し、ボ�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ ht-degree: 0%
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL ボード]**.
 1. ボードにアクセスします。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
 1. クリック **[!UICONTROL カードを追加] > [!UICONTROL 新しいカード]**.
+
+   The [!UICONTROL カードの詳細] 」ボックスが表示されます。
+
+   >[!NOTE]
+   >
+   >「名前」フィールドの外側をクリックすると、アドホックカードは自動的に左端の列の下部に「名称未設定」として保存されます。 カードを保存せずに終了するには、 [!UICONTROL **キャンセル**] 内の他の場所をクリックせずに [!UICONTROL カードの詳細] ボックス。
+
 1. Adobe Analytics の **[!UICONTROL カードの詳細]** ボックスに、次の情報を追加します。
 
    <table style="table-layout:auto"> 
