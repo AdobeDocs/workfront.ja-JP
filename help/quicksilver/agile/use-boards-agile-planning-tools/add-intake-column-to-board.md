@@ -7,10 +7,10 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 0%
+source-wordcount: '933'
+ht-degree: 2%
 
 ---
 
@@ -22,19 +22,17 @@ ht-degree: 0%
 
 取り込みカラムはダイナミックボード上では使用できません。
 
-ワークストリームの一部であるボードでは、インテークカラムは使用できません。 代わりに、カードリストからカードを引き込むためのバックログ列を設定できます。 ワークストリーム内のボードへのバックログ列の追加について詳しくは、 [ワークストリームボード上のバックログの設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
-
 取り込みカラムは、300 タスクと 300 問題に制限されます。 取り込み口列の項目のデフォルトの順序は次のとおりです。
 
-タスク:
+タスク：
 
 * プライマリの順序：プロジェクト名
-* セカンダリの順序：作業分類の構造
+* セカンダリの順序：作業分割構成
 
 問題:
 
 * プライマリの順序：プロジェクト名
-* セカンダリの注文：参照番号
+* セカンダリの順序：参照番号
 
 列について詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). 接続されたカードについて詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

@@ -2,18 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードダッシュボードの使用
-description: この [!UICONTROL ボード] 「ダッシュボード」には、自分が作成したボードや追加したボードなど、アクセス権のあるボードの一覧が表示されます。
+description: The [!UICONTROL ボード] 「ダッシュボード」には、自分が作成したボードや追加したボードなど、アクセス権のあるボードの一覧が表示されます。
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
 
 # ボードダッシュボードの使用
+
+>[!IMPORTANT]
+>
+>ワークストリームは、特定の顧客グループのみが使用できます。
 
 ボードダッシュボードには、作成したボードや追加したボードを含む、アクセス権のあるボードやワークストリームのリストが表示されます。 アクセス権を持つ個々のボードは、最初にワークストリームに含まれていません。
 
@@ -52,17 +56,17 @@ ht-degree: 0%
 
 ボードダッシュボードにフィルターを適用して、アクティブなボード、アーカイブされたボード、またはすべてのボードやワークストリームを表示できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
 1. クリック [!UICONTROL **フィルター**] 「ボード」領域または「ワークストリーム」領域で、 **[!UICONTROL すべて]**, **[!UICONTROL アクティブ]**&#x200B;または **[!UICONTROL アーカイブ済み]**.
 
    デフォルト以外のフィルターがダッシュボードに適用されると、フィルターアイコンにインジケーターが表示されます ![ダッシュボードに適用するフィルター](assets/boards-filterapplied-30x30.png).
 
 ## ボードを並べ替え
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
 1. ボードのリストを並べ替えるには、 [!UICONTROL **並べ替え**]. ページのデフォルトの並べ替えオプションは次のとおりです。 **[!UICONTROL 変更日]**. また、ページをボードで並べ替えることもできます **[!UICONTROL 名前]**.
 
-   選択 **[!UICONTROL 逆順]** をクリックして、変更日または名前の逆の順序でボードを並べ替えます。 並べ替えアイコンの矢印が上を向くと、逆順が適用されます。 矢印が下を向くと、標準の順序が適用されます。
+   選択 **[!UICONTROL 逆順]** をクリックして、変更日または名前の逆の順序でボードを並べ替えます。 並べ替えアイコンの矢印が上を向くと、逆順が適用されます。 矢印が下を指すと、標準の順序が適用されます。
 
    デフォルト以外の並べ替えがダッシュボードに適用されると、並べ替えアイコンにインジケーターが表示されます ![適用された並べ替え](assets/sort-applied-boards.png).
 
@@ -70,7 +74,7 @@ ht-degree: 0%
 
 「ボード」領域で特定のボードを検索したり、「ワークストリーム」領域で特定のワークストリームを検索したりできます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
 1. クリック [!UICONTROL **検索**] 検索語句を入力します。 次に、Enter キーを押します。
 
    タイトルに検索語を含むすべてのボードまたはワークストリームが表示されます。
@@ -89,8 +93,8 @@ ht-degree: 0%
 >
 >ワークストリームをアーカイブすると、そのすべてのボードがアーカイブされます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL アーカイブ]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL アーカイブ]**.
 
    ワークストリームでは、右側のメニューが「 [!UICONTROL **ワークストリームを表示**] 」ボタンをクリックします。
 
@@ -98,11 +102,11 @@ ht-degree: 0%
 
    アーカイブした項目は、表示するフィルターを適用しない限り、ボードダッシュボードでは非表示になります。 詳しくは、 [[!UICONTROL フィルターボード]](#filter-boards) 」の節を参照してください。
 
-1. アーカイブされたボードまたはワークストリームを復元するには、 **[!UICONTROL 詳細]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL 復元]**.
+1. アーカイブされたボードまたはワークストリームを復元するには、 **[!UICONTROL その他]** メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL 復元]**.
 
 ## ボードまたはワークストリームの削除
 
-ボードを削除すると、そのボードは次の場所から永久に削除されます： [!DNL Workfront] 復元することはできません。 ボード上のカードもボードと一緒に削除されます。
+ボードを削除すると、そのボードは次の場所から永久に削除されます： [!DNL Workfront] 復元することはできません。 ボード上のカードも、ボードと共に削除されます。
 
 ワークストリームを削除すると、ワークストリーム内のすべてのボードも削除されます。
 
@@ -110,8 +114,8 @@ ht-degree: 0%
 >
 >削除できるのは、自分で作成したボードとワークストリームのみで、追加したボードとワークストリームは削除できません。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL ボード]**.
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL 削除]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL 削除]**.
 
    ワークストリームでは、右側のメニューが「 [!UICONTROL **ワークストリームを表示**] 」ボタンをクリックします。
 

@@ -6,14 +6,18 @@ description: リスト表示またはレポート表示からAdobe Workfrontの�
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
 # 既存のタスクまたはタスクを [!DNL Adobe Workfront] ボードまたはワークストリーム
+
+>[!IMPORTANT]
+>
+>ワークストリームは、特定の顧客グループのみが使用できます。
 
 任意のタスクまたはイシューを、 [!DNL Adobe Workfront] リスト表示やレポート表示、またはオブジェクトの詳細から。
 

@@ -7,16 +7,16 @@ description: アドホックカードと接続カードを使用してボード�
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
 # アジャイル計画ツールの概要
 
-アドホックカードと接続カードを使用してボードを作成する場合、追加のアジャイルプランニングツールを利用する必要が生じる場合があります。
+アドホックカードと接続カードを使用してボードを作成する場合、追加のアジャイルプランニングツールを利用した方が良い場合があります。
 
 かんばんに役立つツールは次のとおりです。
 
@@ -30,17 +30,21 @@ ht-degree: 0%
 * カードリストまたはバックログ
 * 反復指標
 
+>[!IMPORTANT]
+>
+>ワークストリームとその関連ツールは、特定の顧客グループでのみ使用できます。
+
 特定のアジャイルな手法を使用することなく、お客様やチームに適した方法で、これらのツールのいずれかまたはすべてを使用できます。
 
 この節では、次の記事を扱います。
 
 * [ボード上の WIP 制限を管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
 * [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
-* [ボードでのグループの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+* [ボード上でのグループの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [カードのフォールオフを設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
 * [アジャイルチームかんばんカードをWorkfrontボードに移行](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
 * [ワークストリームボード上のバックログの設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
-* [反復指標の確認](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+* [反復指標を確認する](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

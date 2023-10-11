@@ -7,14 +7,18 @@ description: 繰り返しとは、作業の完了に必要な一定時間のこ�
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
 
 # ワークストリームでの反復の作成
+
+>[!IMPORTANT]
+>
+>ワークストリームは、特定の顧客グループのみが使用できます。
 
 繰り返しとは、作業の完了に必要な一定時間のことです。 アジャイルチームの中には、反復をスプリントと呼ぶものもあります。
 
@@ -83,7 +87,7 @@ ht-degree: 1%
    * [ カード一覧 ] タブの反復表示で、 [!UICONTROL **反復の詳細**] アイコン ![反復の詳細](assets/iteration-details-button.png).
    * イテレーションボードで、 [!UICONTROL **反復の詳細**] アイコン ![反復の詳細](assets/iteration-details-button.png) 」と表示されます。
 
-1. 内 [!UICONTROL 反復設定] パネルで、必要に応じてイテレーションを編集します。
+1. Adobe Analytics の [!UICONTROL 反復設定] パネルで、必要に応じてイテレーションを編集します。
 1. イテレーション名を変更するには、を展開します。 [!UICONTROL **反復の詳細**].
 
    イテレーションが開始された後は、イテレーション名のみを変更でき、日付やイテレーションの長さは変更できません。
@@ -113,4 +117,4 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 1. 次をクリック： [!UICONTROL **カードリスト**] 」タブをクリックし、イテレーションビューを開きます。
 1. 次をクリック： **削除** アイコン ![削除アイコン](assets/delete.png) をクリックします。
-1. クリック [!UICONTROL **反復を削除**] をクリックします。
+1. クリック [!UICONTROL **繰り返しを削除**] をクリックします。

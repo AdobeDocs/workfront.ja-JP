@@ -7,14 +7,18 @@ description: ワークストリーム内のボードにバックログ列を表�
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # ワークストリームボード上のバックログの設定
+
+>[!IMPORTANT]
+>
+>ワークストリームは、特定の顧客グループのみが使用できます。
 
 ワークストリーム内のボードにバックログ列を表示することを選択し、ワークストリームカードリストからボードバックログに取り込まれるカードの問合せを定義できます。
 

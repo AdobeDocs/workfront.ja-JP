@@ -7,16 +7,16 @@ description: ボードは、Workfrontで削除またはアーカイブできま�
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '328'
 ht-degree: 1%
 
 ---
 
 # ボードの削除またはアーカイブ
 
-ボードは、 [!DNL Workfront]. ボードを削除すると、そのボードは完全に削除されます。 [!DNL Workfront]をアーカイブすると、ボードはすべてのカードを保持し、後で復元できます。 これらのオプションは、ワークストリームの一部であるスタンドアロンボードとボードの両方に適用されます。
+ボードは、 [!DNL Workfront]. ボードを削除すると、そのボードは完全に削除されます。 [!DNL Workfront]をアーカイブすると、ボードはすべてのカードを保持し、後で復元できます。
 
 ## アクセス要件
 

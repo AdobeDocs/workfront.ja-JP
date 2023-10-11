@@ -6,14 +6,19 @@ title: カードリストを使用
 description: ワークストリーム上にカードリストを作成し、カードを繰り返しに追加できます。
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
+source-git-commit: d44eb048103e469bc072cc5287947fea471668b3
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 # カードリストを使用
+
+>[!IMPORTANT]
+>
+>一部のお客様は、ワークストリームを利用できません。
 
 ワークストリーム上にカードリストを作成し、カードを繰り返しに追加できます。
 
@@ -47,7 +52,7 @@ ht-degree: 0%
 1. ワークストリームを開くには、 [!UICONTROL **ワークストリームを表示**].
 1. 次をクリック： [!UICONTROL **カードリスト**] タブをクリックします。
 1. クリック [!UICONTROL **カードを追加**].
-1. 内 [!UICONTROL **カードを作成/編集**] ダイアログで、次の情報を追加します。
+1. Adobe Analytics の [!UICONTROL **カードを作成/編集**] ダイアログで、次の情報を追加します。
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -110,14 +115,14 @@ ht-degree: 0%
 
    ![ボード内のカードの検索](assets/boards-searchbox.png)
 
-## カードを反復に追加
+## カードを反復に追加する
 
 >[!NOTE]
 >
 >カードを追加する前に、イテレーションを作成する必要があります。 詳しくは、 [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. ワークストリームのカードリストにアクセスします。
-1. を選択します。 [!UICONTROL **反復表示**] を使用して、反復に割り当てられているカードと予期しないカードを確認します。
+1. を選択します。 [!UICONTROL **反復表示**] どのカードが反復に割り当てられ、どのカードが予期しないかを確認する。
 1. リストから予期しないカードを選択し、 [!UICONTROL **編集**].
 1. でイテレーションを選択 [!UICONTROL **反復**] フィールドに入力します。
 1. ストーリーポイントを使用する場合は、 [!UICONTROL **推定**] フィールドに入力します。
@@ -130,4 +135,3 @@ ht-degree: 0%
 >[!TIP]
 >
 >イテレーションプロセスボードを作成した場合は、カードリストの予期しないカードがすべてに [!UICONTROL バックログ] 列。 カードが別の列に移動すると、そのカードはアクティブな反復の一部になります。 カードリストで繰り返しに追加するカードは、ステータスに基づいて列に追加されます。
-
