@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
    >
    >* 「名前」フィールドは固定され、水平スクロールの一部ではありません。
 
-1. 1 つの行で 1 つ以上のレコードを選択し、 **取り扱い** アイコン ![](assets/handle-icon.png) をレコード名の左側に追加して、行を並べ替えます。
-
-   >[!NOTE]
-   >
-   >テーブルビューに少なくとも 1 つの並べ替えを適用すると、行の並べ替えを行うことはできません。
-
 1. 列の分離線をクリックしてドラッグし、目的の場所にドロップして、列の幅を広げます。
 
    >[!TIP]
@@ -191,9 +185,16 @@ Maestro テーブルビューの行には、選択したレコードタイプの
 
 Maestro では、1 つのレコードタイプに対して最大 10,000 個のレコード（または行）を指定できます。
 
-Maestro テーブルビューに行を追加する操作は、テーブルでレコードを作成する操作と同じです。
+1. レコードタイプのページに移動し、 **テーブル** ビューを選択します。
+1. 記事の説明に従って、レコード（または行）の追加を開始します。 [レコードを作成](../records/create-records.md).
 
-詳しくは、 [レコードを作成](../records/create-records.md).
+   テーブルビューに追加したレコードは直ちに保存され、Maestro にアクセスするすべてのユーザに表示されます。 <!--this will change with permissions-->
+
+1. （オプション）1 つの行で 1 つ以上のレコードを選択し、 **取り扱い** アイコン ![](assets/handle-icon.png) をレコード名の左側に追加して、行を並べ替えます。
+
+   >[!NOTE]
+   >
+   >テーブルビューに少なくとも 1 つの並べ替えを適用すると、行の並べ替えを行うことはできません。
 
 <!-- this is not possible right now:
 
