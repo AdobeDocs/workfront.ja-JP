@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 372f330849bfcdc265e567931527497ddb19d9bb
+source-git-commit: f3dc40ec75433508ab617bbdbd0f5cb57866f411
 workflow-type: tm+mt
-source-wordcount: '13347'
+source-wordcount: '13352'
 ht-degree: 2%
 
 ---
@@ -2569,6 +2569,7 @@ ht-degree: 2%
       * [JWT フローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](wf-api/api/oauth-app-jwt-flow.md)
       * [PKCE フローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](wf-api/api/oauth-app-pkce-flow.md)
       * [API-Internal の廃止](wf-api/api/deprecation-api-internal.md)
+      * [API バージョン 17 の新機能](wf-api/api/new-api-version-17.md)
       * [API バージョン 16 の新機能](wf-api/api/new-api-version-16.md)
       * [API バージョン 15 の新機能](wf-api/api/new-api-version-15.md)
       * [API バージョン 14 の新機能](wf-api/api/new-api-version-14.md)
