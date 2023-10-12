@@ -4,22 +4,26 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
+source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2528'
 ht-degree: 0%
 
 ---
 
 # 2023 年第 4 四半期リリースの概要
 
-このページでは、2023 年第 4 四半期リリースに含まれる機能について説明します。 これらの機能強化は、次のリリースに含まれます。
+このページでは、2023 年第 4 四半期リリースに含まれる機能について説明します。 これらの機能強化は、2023 年 10 月 27 日 (PT) および 23.10 リリースのすべてのお客様が実稼動環境で利用できるようになる予定です。
 
->| 毎月のリリース | 四半期リリース |
+<!--
+These enhancements will be included in the following releases:
+
+>|Monthly release|Quarterly release|
 >|----|----|
->| <ul><li>23.8（2023 年 8 月 32 日）</li><li>23.9（2023 年 9 月 29 日）</li><li>23.10（2023 年 10 月 27 日）</li></ul> | <ul><li>23.10（2023 年 10 月 26 日の週）</li></ul> |
+>|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September 28, 2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
+-->
 
-23.10 リリースウェビナーは 2023 年 10 月 5 日に開催されます。 以下が可能です。 [ウェビナーへの登録はこちらから](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
+23.10 リリースウェビナーは 2023 年 10 月 6 日でした。 以下が可能です。 [オンデマンド録画をこちらで閲覧するには、オンセミナーに登録してください](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">オフサイクル機能（2023 年第 4 四半期のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
 
@@ -45,6 +49,7 @@ ht-degree: 0%
 
 * [管理者の機能強化](#administrator-enhancements)
 * [ボードの機能強化](#boards-enhancements)
+* [Financial Management の機能強化](#financial-management-enhancements)
 * [ホームの機能強化](#home-enhancements)
 * [統合の強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
@@ -68,7 +73,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">カスタムフォームの計算フィールドで、$$USER ワイルドカードを使用できるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">カスタムフォームの計算フィールドで、$$USER ワイルドカードを使用できるようになりました</a></p>
                         <p>新しいフォームデザイナーで、計算カスタムフィールドと外部参照フィールドで$$USER ワイルドカードを使用できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -87,7 +92,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">外部 API からカスタムフォームに値オプションを追加する</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">外部 API からカスタムフォームに値オプションを追加する</a></p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>新しいフィールドタイプ <strong>外部参照</strong>をカスタムフォームデザイナーで使用できるようになりました。 データを外部システムに保存している場合、このフィールドタイプを使用すると、外部 API からオプションを読み込み、カスタムフォーム内の他のフィールド値に基づいてフィルタリングできます。</p>
                     </td>
@@ -126,7 +131,28 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでサブタスクを利用できるようになりました</a></p><span style="color: #ff0000;"> プレビューの新機能</span><p>接続されたカードをWorkfrontタスクのボードに追加すると、既存のサブタスクがカードに読み込まれます。 また、接続したカードにサブタスクを作成すると、サブタスクがWorkfrontタスクに追加されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                            </li>
+                            <li>
+                                <p>ボードの早期アクセス用の実稼動：なし</p>
+                            </li>
+                            <li>
+                                <p>高速リリース向けの本番環境：なし</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -141,7 +167,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">接続されたカードにドキュメントを追加する</a></p><p>Adobe Workfrontボードの接続されたカードにドキュメントを添付できるようになりました。 カードに追加したドキュメントは、接続されたタスクまたはイシューの「ドキュメント」タブで使用でき、両方の領域で同じファイルタイプがサポートされます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">接続されたカードにドキュメントを追加する</a></p><p>Adobe Workfrontボードの接続されたカードにドキュメントを添付できるようになりました。 カードに追加したドキュメントは、接続されたタスクまたはイシューの「ドキュメント」タブで使用でき、両方の領域で同じファイルタイプがサポートされます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -162,7 +188,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">接続されたカードで表示専用として使用可能なドキュメント</a></p><p>Adobe Workfrontボードで接続されたカードの場合、画像やPDFなどのドキュメントを表示できるようになりました。 ドキュメントは、ブラウザーでプレビューするか、コンピューターにダウンロードすることができます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">接続されたカードで表示専用として使用可能なドキュメント</a></p><p>Adobe Workfrontボードで接続されたカードの場合、画像やPDFなどのドキュメントを表示できるようになりました。 ドキュメントは、ブラウザーでプレビューするか、コンピューターにダウンロードすることができます。 </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -183,7 +209,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">プロジェクトのボード表示を問題で利用できるようになりました</a></p><p>プロジェクトの問題リストのボードビューにアクセスできるようになりました。 かんばんボードを使用すると、問題の進行状況をリストで表示するよりも視覚的に追跡できます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトのボード表示を問題で利用できるようになりました</a></p><p>プロジェクトの問題リストのボードビューにアクセスできるようになりました。 かんばんボードを使用すると、問題の進行状況をリストで表示するよりも視覚的に追跡できます。 </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -205,7 +231,7 @@ ht-degree: 0%
            </tbody>
         </table>
 
-### ホームの機能強化
+### Financial Management の機能強化
 
 <table>
             <col style="width: 50%;" />
@@ -221,9 +247,85 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">有効なコストと請求率の日付</a></p>
+                        <p>日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 6 月 30 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### ホームの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">新しいホームでの作業追跡の変更 </a> </p>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホーム用の新しいボードウィジェット</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>新しいホームで利用可能な作業管理オプションに加えて、ホームページにボードを表示できるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコントリビューターの既定のランディングページ：新しいホーム</a> <span style="color: #ff0000;"> プレビューの新機能</span> </p>
+                        <p>新しいホームが、コントリビューターアカウントの既定のランディングページになりました。 この新しいデフォルトのホームページには、コントリビューターがすぐに作業を管理できるように、特に多数のウィジェットが含まれています。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームでの作業追跡の変更 </a> </p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>ユーザーのフィードバックに基づいて、タスクの期限と完了を集計したページ全体の時間範囲フィルターと概要バーを削除しました。 プロジェクト、タスク、問題の各ウィジェットには、個々の範囲をカスタマイズできる、組み込みのフィルタリング機能が備わっています。</p>
                     </td>
@@ -243,7 +345,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">プロジェクト、タスク、および問題の追跡ウィジェット用の新しいクイックアクセスボタン</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクト、タスク、および問題の追跡ウィジェット用の新しいクイックアクセスボタン</a> </p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>新しいホームから直接作業を管理する機能をさらに拡張し、プロジェクト、タスク、および問題の追跡ウィジェットに新しいクイックアクセスボタンが追加されました。</p>
                     </td>
@@ -263,7 +365,7 @@ ht-degree: 0%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームの新しいフィルターオプション</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームの新しいフィルターオプション</a> </p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>新しいホームの My Work ウィジェットで新しいフィルターオプションを使用できるようになりました。 オプションには、オブジェクトのタイプ（タスク、問題、リクエスト）とステータス（準備ができていない、開始準備ができている、作業中の、完了済み）のフィルターが含まれます。</p>
                     </td>
@@ -283,7 +385,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームでのカスタム用語のサポート</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームでのカスタム用語のサポート</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>組織固有のニーズをより適切に満たすために、新しいホームでは、インスタンスのレイアウトテンプレートで定義されたオブジェクトに対して、カスタム用語を使用するようになりました。 例えば、Workfrontインスタンスで「プロジェクト」オブジェクトのラベルが「キャンペーン」に変更されている場合、マイプロジェクトウィジェットは代わりに「新規ホーム」のマイキャンペーンとして表示されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -299,7 +401,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新規ホームを無効にしたアカウントに対して、新規ホームボタンを削除してみます</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新規ホームを無効にしたアカウントに対して、新規ホームボタンを削除してみます</a> </p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>新しいホームが無効になっているアカウントでは、[ 新しいホームを試す ] ボタンが表示されなくなりました。 個々のユーザーがボタンを使用して新しいホームを試す前に、システム管理者が新しいホームを再度有効にする必要があります。</p>
                     </td>
@@ -319,7 +421,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">新しいホームのデフォルトのウィジェットセットに変更</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームのデフォルトのウィジェットセットに変更</a> </p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>タスクの作成権限を必要とする TODO ウィジェットは、標準、計画、または作業用のライセンスの種類を持つユーザー向けのデフォルトのウィジェットセットにのみ存在します。 さらに、ウィジェットは他のすべてのライセンスタイプを持つユーザーのホームページから自動的に削除されました。</p>
                     </td>
@@ -358,7 +460,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -373,7 +475,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>[!BADGE In production ]{type=Informative}</p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>[!BADGE In production ]{type=Informative}</p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -404,10 +506,30 @@ ht-degree: 0%
                         <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                 </tr>  
-                 <tr>
+                 </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">プロジェクトに新しいイシューを追加する際にデザインを更新しました</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいドキュメント承認</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>このリリースでは、新機能に加え、承認および承認/レビュー用のドキュメントの作成と、承認プロセスが合理化されました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 10 月 13 日<br /></p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトに新しいイシューを追加する際にデザインを更新しました</a> </p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>この更新は 23.3 リリースで発表されました。</p>
                         <p>新しいイシューをプロジェクトに送信する際に表示される「新しいイシュー」ボックスを更新しました。 現在は、インターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される「新しいリクエスト」ボックスに一致します。</p>
@@ -428,7 +550,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">フォームの計算フィールドの動的な再計算</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">フォームの計算フィールドの動的な再計算</a></p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>ページ上のフォームの依存値が変更された場合、オブジェクトに添付されたフォームの計算フィールドが、リアルタイムで動的に再計算されるようになりました。 これにより、フォームを保存せずに、更新された結果を表示できます。</p>
                     </td>
@@ -448,7 +570,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">割り当てを行わない単純期間タイプで、子の定期タスクに予定時間を設定します</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">割り当てを行わない単純期間タイプで、子の定期タスクに予定時間を設定します</a></p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
                         <p>割り当てがなく、単純期間タイプの定期タスクに計画時間を割り当てる方法を変更しました。 現在は、[ 簡易期間の種類 ] で割り当てを行わない新しい定期タスクに予定時間を設定すると、時間も個々の繰り返しに割り当てられます。 この変更以前は、親タスクが割り当てられていない場合、時間は個々の繰り返しに対して保存されていませんでした。</p>
                     </td>
@@ -483,6 +605,44 @@ ht-degree: 0%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">更新された電子メールテンプレート</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>イベント通知 E メールを更新する新しいイニシアチブの開始時に、最も一般的に使用されるドキュメントの承認とオブジェクトの共有の 2 つを更新しました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">寄稿者のメインメニューの変更</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>有料Workfrontライセンスタイプで利用可能な機能をコントリビューターに知らせるために、メインメニューで使用可能なすべてのオプションが表示されるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -561,11 +721,11 @@ Workfront Fusion の新機能は、2023 年第 4 四半期のリリーススケ�
 
 このリリースでは、現時点でWorkfront Goals の更新はありません。 この領域は、更新が利用可能になると更新されます。
 
-### API バージョン 16
+### API バージョン 17
 
-API バージョン 16 では、いくつかのリソースとエンドポイントを変更しました。 一部の変更は新しい機能をサポートし、他の変更では、API を通じて入手可能な情報を使いやすくします。
+API バージョン 17 は 2023 年 10 月 13 日にリリースされました。 API バージョン 17 では、いくつかのリソースとエンドポイントを変更しました。 一部の変更は新しい機能をサポートし、他の変更では、API を通じて入手可能な情報を使いやすくします。
 
-の新機能と更新点について詳しくは、 [API バージョン 16 の新機能](/help/quicksilver/wf-api/api/new-api-version-16.md).
+の新機能と更新点について詳しくは、 [API バージョン 17 の新機能](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 API バージョンについて詳しくは、 [API のバージョン管理とサポートのスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -587,6 +747,9 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 
 WorkfrontモバイルアプリにはWorkfrontログインが必要です。 外部のユーザーおよびゲストは、引き続き校正作業に Proof アプリを使用できます。ただし、サポートは終了し、23.10 では使用できなくなります。
 
+#### 使用していないアカウントで削除されたワークストリーム
+
+2023 年 10 月 11 日現在、Adobe Workfrontボードでワークストリームを作成したことのないアカウントの場合、ワークストリーム領域がボードダッシュボードから削除されています。 ワークストリームを使用するアカウントには、引き続きアクセスできます。 拡張スクラム機能は、今後のリリースで対処される予定です。
 
 <!-- HTML you might need
 

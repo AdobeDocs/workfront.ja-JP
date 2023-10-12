@@ -6,9 +6,9 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e7b4fef2485f08df6655b5e441784ae84fc36de8
+source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1427'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 0%
 * [!UICONTROL ステータス]
 * [!UICONTROL 完了予定日]
 * [!UICONTROL 推定] / [!UICONTROL ストーリーポイント]
+* <span class="preview">[!UICONTROL サブタスク]</span>
 * <span class="preview">[!UICONTROL ドキュメント]</span>
 
 >[!NOTE]

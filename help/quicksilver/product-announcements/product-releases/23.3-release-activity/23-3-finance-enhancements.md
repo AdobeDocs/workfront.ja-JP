@@ -3,9 +3,10 @@ title: 23.3 金融管理の強化
 description: 23.3 金融管理の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 0%
 >
 >* Fast リリースのお客様向けの実稼動リリース： 23.3 実稼動リリース後に発表予定
 >
->* すべてのお客様向けの実稼動リリース：すべてのお客様向けの実稼動リリース： 23.10 リリース（2023 年 10 月）
+>* すべてのお客様向けの本番リリース：すべてのお客様向けの本番リリース：発表予定
 >
 >割り当て率上書き機能が、2023 年 6 月 30 日から 7 月 13 日までのプレビューで一時的に無効になりました。
 
