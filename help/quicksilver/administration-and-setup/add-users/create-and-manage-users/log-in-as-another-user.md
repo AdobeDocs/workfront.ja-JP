@@ -1,5 +1,5 @@
 ---
-title: 別のユーザーとしてのログイン
+title: 別のユーザーとしてログイン
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 1%
 
 ---
 
-# 別のユーザーとしてのログイン
+# 別のユーザーとしてログイン
 
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
@@ -70,7 +70,7 @@ Some users, such as executives, need to be able to control which administrators 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>システム管理者のアクセスレベルでは、誰でもログインできます。 このレベルのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>. </p> <p>Planner のアクセス・レベルでは、ライセンス・レベルが低いユーザーとしてログインできます ( <b>ユーザー</b> の設定は、 <b>編集</b> アクセス、 <b>作成</b> そして少なくとも 2 つのうち 1 つは <b>ユーザー管理者</b> 以下で有効になるオプション <b>設定を微調整する</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>注意</b>:この 2 つのオプションのうち、ユーザー <b>管理者（グループユーザー）</b> が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> 
+   <p><b>注意</b>：これら 2 つのオプションのうち、ユーザーの場合は <b>管理者（グループユーザー）</b> が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> 
    <p>詳しくは、 <b>ユーザー</b> アクセスレベルでの設定については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -94,7 +94,7 @@ Some users, such as executives, need to be able to control which administrators 
 
 1. 左側のパネルで、 **ログイン名**.
 
-1. 内 **ユーザー** ～の箱 **ログイン名** 「 」タブで、ユーザーの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
+1. Adobe Analytics の **ユーザー** ～の箱 **ログイン名** 「 」タブで、ユーザーの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
    ユーザーは、Workfrontで定義されたアクセスレベルを持っている必要があります。 ログインする権限を持たないユーザーとしてWorkfrontシステムにログインすることはできません。
 
@@ -148,7 +148,7 @@ Workfrontは、管理者が別のユーザーとしてログインしている�
 
 例えば、別のユーザーとしてログインした項目に対してコメントを作成した場合、そのユーザーの代わりに自分がコメントを作成したことを示すステートメントが表示されます。
 
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+<!--remove the note below when we bring this back to Prod: -->
 
 >[!NOTE]
 >

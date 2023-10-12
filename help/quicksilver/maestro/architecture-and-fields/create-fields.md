@@ -4,13 +4,13 @@ description: Adobeマエストロでは、オペレーショナルレコード�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
    * [パーセンテージ](#percentage)
    * [通貨](#currency)
    * [チェックボックス](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
 
    ![](assets/single-line-text-field-type.png)
 
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列見出しにマウスポインターを置くと表示されます。
 1. 「**作成**」をクリックします。
@@ -213,12 +214,22 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
 
 段落フィールドでは、「説明」フィールドと同様に、レコードに関する追加の英数字情報が取り込まれます。 段落フィールドの内容は、1,000 文字までです。
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. 「 」セクションの説明に従って、フィールドの作成を開始します。 [最初からフィールドを作成する](#create-fields-from-scratch) この記事で、「 **段落** フィールドタイプ。
 
    ![](assets/paragraph-field-type.png)
 
 
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
 1. 「**作成**」をクリックします。
@@ -235,7 +246,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
    ![](assets/multi-select-field-type.png)
 
 
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
    * **選択肢**：フィールドを保存した後、ドロップダウンメニューから選択できるオプション。 各選択肢の名前には、数字と文字の両方を使用できます。
@@ -257,7 +268,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
    ![](assets/single-select-field-type.png)
 
 
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
    * **選択肢**：フィールドを保存した後、ドロップダウンメニューから選択できるオプション。 各選択肢の名前には、数字と文字の両方を使用できます。
@@ -279,7 +290,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
    ![](assets/date-field-type.png)
 
 
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
    * **日付フォーマット**：このフィールドに表示する日付形式のタイプ。
@@ -308,7 +319,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
 1. 「 」セクションの説明に従って、フィールドの作成を開始します。 [最初からフィールドを作成する](#create-fields-from-scratch) この記事で、「 **数値** フィールドタイプ。
 
    ![](assets/number-field-type.png)
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
 
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
@@ -331,7 +342,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
 
    ![](assets/percentage-field-type.png)
 
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
    * **精度**：フィールドに記録する小数点以下の桁数です。 最大 6 桁まで表示できます。
@@ -353,7 +364,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
 
    ![](assets/currency-field-type.png)
 
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
    * **通貨**：このフィールドに表示する通貨のタイプ。 これは、国際標準化機構 (ISO) に基づく通貨のリストです。
@@ -376,12 +387,30 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
 
    ![](assets/checkbox-field-type.png)
 
-1. 次の情報を追加します。
+1. 次の情報を **新しいフィールド** タブ：
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
 1. 「**作成**」をクリックします。
 
    新しいチェックボックスフィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。 このフィールドは、レコードの詳細ページにも表示されます。
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## レコードタイプをリンクしてフィールドを作成
 
@@ -402,6 +431,3 @@ Maestro レコードタイプの接続について詳しくは、 [レコード�
 テンプレートからワークスペースを作成すると、Maestro はオペレーショナルレコードタイプと分類のフィールドを作成します。
 
 詳しくは、 [ワークスペースの作成](../architecture-and-fields/create-workspaces.md).
-
-
-

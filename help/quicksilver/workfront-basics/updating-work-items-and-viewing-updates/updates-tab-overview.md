@@ -7,7 +7,7 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 096d4a50ae4c392f149d4dd54b19c6f1c86c5b1b
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 4%
@@ -89,7 +89,7 @@ The Updates section of an object displays comments that users make on the object
       <ul> 
       <li>ドキュメント</li> 
       <li>目標</li> 
-      <li>問題</li> 
+      <li>イシュー</li> 
       <li>イテレーション</li> 
       <li>プロジェクト</li> 
       <li>プログラム</li> 
@@ -154,7 +154,7 @@ The Updates section of an object displays comments that users make on the object
 
    * プロジェクト
    * タスク（およびストーリー）
-   * 問題
+   * イシュー
    * ドキュメント
    * 目標
 
@@ -224,7 +224,7 @@ The Updates section of an object displays comments that users make on the object
 >
 >新しいコメントエクスペリエンスを有効にすると、コメントは次の上位のオブジェクトに表示されます。
 >
->* 問題
+>* イシュー
 >* プロジェクト
 >* タスク
 >
@@ -327,7 +327,7 @@ Adobe Workfrontの管理者とグループ管理者は、他のユーザーと�
 
 別のユーザーに代わって行われたコメントは、コメントに示されます。
 
-<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+<!--remove the note below when we release this back to the new commenting-->
 
 >[!NOTE]
 >

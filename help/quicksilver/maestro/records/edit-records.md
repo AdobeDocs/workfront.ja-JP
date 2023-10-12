@@ -4,13 +4,13 @@ description: レコード情報は、AdobeMaestro で編集できます。 レ�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 * 自分または別のユーザーが作成したレコードを編集できます。 <!--will change with access levels-->
 * 編集したレコードが他のレコードにリンクされている場合、編集中のレコードの新しい情報は、リンクされたレコードに反映されます。
 * レコードを一括で編集することはできません。 <!--this will probably change-->
-
+* 他のレコードからリンクされているフィールドは編集できません。
 
 ## レコードを編集
 
@@ -145,6 +145,11 @@ ht-degree: 1%
    >* リンクされたフィールドは編集できません。 これらのフィールドの情報は、リンクされたレコードから自動的に入力されます。 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
    >
    >* URL は、http://、https://、ftp://、www のいずれかで始まる場合にのみ、1 行のテキストフィールドタイプのリンクとして認識されます。.
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

@@ -6,8 +6,8 @@ description: Adobe Workfrontの新しいコメント作成エクスペリエン�
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '2047'
 ht-degree: 2%
@@ -70,6 +70,18 @@ ht-degree: 2%
 次の節では、最近リリースされた機能から始まる、元の 23.2 リリースの後に追加された機能のリストを示します。
 
 次の情報は、新しいコメントベータ版エクスペリエンスに含まれる機能に基づいて、毎週リリースアクティビティを参照します。 この記事では、新しいコメント作成機能で追加された新機能と、新しいコメント作成機能で解決された問題について説明します。
+
+<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+
+### Week of October 9, 2023
+
+#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+
+While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
+
+Preview and production for all customers: October 13, 2023. 
+
+-->
 
 ### 2023 年 9 月 11 日の週
 

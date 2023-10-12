@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 3%
@@ -50,7 +50,7 @@ For additional resources for the new commenting experience, also see the followi
 * システム更新に対するコメント
 * コメント中にステータス、条件、コミット日を編集可能
 * カスタムフォームの編集
-* Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報。
+* Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報。 <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
 * ドキュメントにコメントを追加する際に担当者にタグを付ける際に「承認を求める」オプション。
 
 >[!NOTE]
@@ -59,7 +59,7 @@ For additional resources for the new commenting experience, also see the followi
 >
 >2019 年 1 月 1 日より前に、現在のエクスペリエンスの「更新」セクションを表示した場合は、これらのオブジェクトに関するコメントおよびシステム更新を表示できます。
 >
->* 問題
+>* イシュー
 >* プロジェクト
 >* タスク
 >* ドキュメント
