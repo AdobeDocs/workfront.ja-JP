@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期のホームの機能強化
 description: 2023 年第 4 四半期のホームの機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 このページでは、2023 年第 4 四半期のリリースでプレビュー環境に対しておこなわれたすべてのホームの機能強化について説明します。 これらの機能強化は、23.10 リリースの実稼動環境で利用できるようになります。
 
 2023 年第 4 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2023 年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## プロジェクトウィジェット、タスクウィジェット、およびイシューウィジェットの作業ボタンを委任します
+
+古いホームページで一般的に要求される機能で、「マイワーク」、「マイタスク」、「マイタスク」の各ウィジェットに委任ボタンが追加され、不在時に作業を簡単に委任できるようになりました。 「委任」メニューは、新しいホームの前と同じように機能し、誰に対し、どの程度の期間、ストーリーや問題を委任するかを選択できます。 ボタンを表示するには、Workfront環境で作業の委任を有効にする必要があります。
+
+Workfrontでの委任について詳しくは、 [タスクと問題の委任を管理](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## 新しいホーム用の新しいボードウィジェット
 
