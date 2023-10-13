@@ -4,7 +4,7 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 0%
@@ -131,7 +131,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでサブタスクを利用できるようになりました</a></p><span style="color: #ff0000;"> プレビューの新機能</span><p>接続されたカードをWorkfrontタスクのボードに追加すると、既存のサブタスクがカードに読み込まれます。 また、接続したカードにサブタスクを作成すると、サブタスクがWorkfrontタスクに追加されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでサブタスクを利用できるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>接続されたカードをWorkfrontタスクのボードに追加すると、既存のサブタスクがカードに読み込まれます。 また、接続したカードにサブタスクを作成すると、サブタスクがWorkfrontタスクに追加されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>

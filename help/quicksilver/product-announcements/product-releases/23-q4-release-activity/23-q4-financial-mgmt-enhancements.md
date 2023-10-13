@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期の金融管理の強化
 description: 2023 年第 4 四半期の金融管理の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,5 @@ ht-degree: 0%
 日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。
 
 詳しくは、 [ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [ジョブの役割の作成と管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)、および [請求と売上高の概要](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3424915/){target=_blank}
