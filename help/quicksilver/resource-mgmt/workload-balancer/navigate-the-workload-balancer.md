@@ -6,9 +6,9 @@ description: ワークロードバランサーを使用して、リソースの�
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 675088f913fdd3d1218a1f48fb2086a6cf6b2548
+source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
 workflow-type: tm+mt
-source-wordcount: '4054'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Adobe Workfrontのワークロードバランサーを使用して、使用可�
      <li> <p>リソース管理</p> </li> 
      <li> <p>プロジェクト</p> </li> 
      <li> <p>タスク</p> </li> 
-     <li> <p>問題</p> </li> 
+     <li> <p>イシュー</p> </li> 
     </ul> <p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -109,9 +109,11 @@ Adobe Workfrontのワークロードバランサーを使用して、使用可�
 
   >[!NOTE]
   >
-  >* ジョブの役割またはチームに割り当てられ、また主な担当者であるユーザーに割り当てられた作業項目は、「未割り当て作業」領域には表示されません。
+  >* ジョブの役割またはチームに割り当てられ、主担当者であるユーザーにも割り当てられた作業項目は、「未割り当て作業」領域と「割り当てられた作業」領域の割り当て済ユーザーの名前の両方に表示されます。
   >* ユーザーに割り当てられ、ジョブロールがアイテムの主な担当者として選択されているジョブロールに対して、「未割り当ての作業」領域に表示されます。
   >* 複数のユーザーに割り当てられた作業項目は、「割り当てられた作業」領域の割り当てられたユーザーの名前のすべてに表示されます。
+
+  詳細は、「ワークロード・バランサの割り当て領域」( [ワークロードバランサーでの作業割り当ての概要](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * ある期間、プロジェクトにタスクがない場合は、プロジェクトレベルのバーが淡色表示になります。
 

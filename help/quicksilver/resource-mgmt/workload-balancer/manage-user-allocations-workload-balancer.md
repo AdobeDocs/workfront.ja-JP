@@ -6,7 +6,7 @@ description: リソース・マネージャとして、作業をユーザーに�
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # ワークロードバランサーでのユーザー割り当ての管理
+
+{{highlighted-preview}}
 
 リソース・マネージャとして、作業をユーザーに割り当て、ワークロード・バランサから日単位、週単位、月単位の割り当てを管理し、使用可能なスケジュールに適合する時間数を割り当てることができます。
 
@@ -256,7 +258,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->作業項目名の右側に鉛筆アイコンが表示され、手動で調整されたことを示します。
+><span class="preview">作業項目名の右側に鉛筆アイコンが表示され、手動で調整されたことを示します。</span>
 
 ![手動で調整した時間アイコン](assets/icon-for-manually-adjusted-hours.png)
 
