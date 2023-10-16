@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '621'
+ht-degree: 2%
 
 ---
 
@@ -86,9 +86,18 @@ ht-degree: 1%
 ## レコードの編集に関する考慮事項
 
 * 自分または別のユーザーが作成したレコードを編集できます。 <!--will change with access levels-->
-* 編集したレコードが他のレコードにリンクされている場合、編集中のレコードの新しい情報は、リンクされたレコードに反映されます。
+* 計算を含む他のレコードやフィールドからリンクされたフィールドは編集できません。
+* 表示したレコードが他のレコードにリンクされている場合、編集中のレコードの新しい情報は、リンクされたレコードに反映されます。
 * レコードを一括で編集することはできません。 <!--this will probably change-->
-* 他のレコードからリンクされているフィールドは編集できません。
+* URL は、http://、https://、ftp://、www のいずれかで始まる場合にのみ、1 行のテキストフィールドタイプのリンクとして認識されます。.
+* 段落タイプのフィールドの編集時に、次のリッチテキスト書式設定オプションを使用できます。
+
+   * 太字
+   * 斜体
+   * 下線
+   * リンクを追加
+   * 箇条書きリストを追加
+   * 番号付きリストを追加
 
 ## レコードを編集
 
@@ -99,9 +108,11 @@ ht-degree: 1%
 
 ### レコードの詳細ページからレコードを編集する
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、[ マエストロ ] をクリックします。
+1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
 
    最後にアクセスしたワークスペースが開きます。
+
+1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
 1. 次のいずれかの操作を行います。
 
    * テーブルビューで、レコードの名前をクリックします。
@@ -120,11 +131,6 @@ ht-degree: 1%
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    計算を含む、またはシステムで生成される、リンクされたフィールドやフィールドは編集できません。
-
-
 1. クリック **変更を保存**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### レコードタイプのテーブルビューからレコードを編集する
@@ -132,24 +138,15 @@ ht-degree: 1%
 1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) 右上隅に <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
 
    最後にアクセスしたワークスペースが開きます。
+
+1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
 1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
 
    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
-1. レコードの行内をクリックして、レコードのインライン情報の編集を開始し、 **入力** をクリックして、変更を保存します。 変更内容は自動的に保存されます。
+1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
 
-   >[!TIP]
-   >
-   >* リンクされたフィールドは編集できません。 これらのフィールドの情報は、リンクされたレコードから自動的に入力されます。 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
-   >
-   >* URL は、http://、https://、ftp://、www のいずれかで始まる場合にのみ、1 行のテキストフィールドタイプのリンクとして認識されます。.
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. 押す **入力** キーボードでクリックするか、行の外側をクリックして変更を保存します。 変更内容は自動的に保存されます。

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2828'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
    * [パーセンテージ](#percentage)
    * [通貨](#currency)
    * [チェックボックス](#checkbox)
-     <!--* [People](#people)-->
+   * [ユーザー](#people)
 
    >[!IMPORTANT]
    >
@@ -212,17 +212,13 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
 
 ### 段落 {#paragraph}
 
-段落フィールドでは、「説明」フィールドと同様に、レコードに関する追加の英数字情報が取り込まれます。 段落フィールドの内容は、1,000 文字までです。
-
-<!-- remove the last sentence above and add this tip when we go to rich text: 
+段落フィールドでは、「説明」フィールドと同様に、レコードに関する追加の英数字情報が取り込まれます。
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
-
-* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
-
--->
+>* 段落フィールドの内容は、1,000 文字までです。
+>
+>* リッチテキスト書式を使用すると、段落フィールドがテーブルビューやレコードの詳細ページに表示される際に、その内容を拡張できます。
 
 1. 「 」セクションの説明に従って、フィールドの作成を開始します。 [最初からフィールドを作成する](#create-fields-from-scratch) この記事で、「 **段落** フィールドタイプ。
 
@@ -394,23 +390,25 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
 
    新しいチェックボックスフィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。 このフィールドは、レコードの詳細ページにも表示されます。
 
-<!--
-### People
+### ユーザー
 
-You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
- 
-    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+「ユーザー」フィールドタイプを使用して、ユーザーを追加できます <!--, job role, or team--> をレコードに追加します。 これは先行入力フィールドです。追加できるのはユーザーのみです<!--, roles, or teams--> 既にWorkfrontに存在する
 
-1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**.
+1. 「 」セクションの説明に従って、フィールドの作成を開始します。 [最初からフィールドを作成する](#create-fields-from-scratch) この記事で、「 **People** フィールドタイプ。
 
-    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+   ![](assets/people-field-type.png)
 
--->
+1. 次の情報を **新しいフィールド** タブ：
+   * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。
+   * **説明**：フィールドに関する追加情報。 フィールドの説明は、テーブルのフィールドの列にカーソルを合わせると表示されます。
+   * **複数の値を許可**：ユーザーがこのフィールドに複数のユーザーを追加できるようにする場合は、このオプションを選択します。 デフォルトでは、このオプションは選択されていません。
+
+   >[!NOTE]
+   >
+   >    「複数の値を許可」を選択した場合、フィールドが添付されるレコードに複数のユーザーが格納される場合、このフィールドの編集時に、今後、この設定の選択を解除できなくなります。
+1. 「**作成**」をクリックします。
+
+   新しい「人」タイプフィールドがレコードタイプの列として追加され、その値をレコードに関連付けることができます。 このフィールドは、レコードの詳細ページにも表示されます。
 
 ## レコードタイプをリンクしてフィールドを作成
 

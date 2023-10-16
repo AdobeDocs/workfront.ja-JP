@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,22 @@ ht-degree: 0%
 
 機能は毎週リリースされ、リリースの順番で一覧表示されます。最新の機能が最初に表示されます。 Maestro クローズベータプログラムに参加しているお客様は、プレビュー環境と実稼動環境のすべての機能にアクセスできます。
 
+## 2023 年 10 月 16 日の週
+
+### 新規担当者フィールドタイプ
+
+プレビューおよび実稼動環境：2023 年 10 月 17 日
+
+これで、Maestro レコードタイプに People-type フィールドを追加できます。 ユーザータイプのフィールドを使用して、既存のユーザーをレコードに関連付けることができます。 詳しくは、 [フィールドの作成](../maestro/architecture-and-fields/create-fields.md).
+
+
+### リッチテキスト — 段落フィールドの書式
+
+プレビューおよび実稼動環境：2023 年 10 月 17 日
+
+段落タイプのフィールドにリッチテキスト形式のコントロールを追加しました。 リッチテキストを使用して、レコードタイプのテーブルビューまたはレコードの詳細ページで、段落フィールドの書式を設定できます。 詳しくは、 [レコードを編集](../maestro/records/edit-records.md).
+
+
 ## 2023 年 10 月 9 日の週
 
 ### テーブル表示での検索
@@ -41,24 +57,6 @@ ht-degree: 0%
 プレビューおよび実稼動環境：2023 年 10 月 10 日
 
 キーワードを検索して、テーブルビューでレコードをすばやく検索できるようになりました。 画面に表示される任意のフィールドでキーワードと特殊文字を使用して、レコードを検索できます。 詳しくは、 [テーブル表示の管理](../maestro/views/manage-the-table-view.md).
-
-<!--
-***********WHICH WEEK IS THIS???***********
-
-### New People field type 
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
-
-### Rich Text- format for Paragraph fields
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
-
--->
 
 ## 2023 年 9 月 18 日の週
 
