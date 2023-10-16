@@ -6,9 +6,9 @@ description: リソース・マネージャとして、作業をユーザーに�
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '2808'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ユーザー割り当ては、特定の日、平日、週、月のいずれかで、作業項目を完了するのにユーザーが費やす時間を示す時間数です。 作業項目の計画時間に含まれます。
 
-この記事では、タスクまたはタスクに割り当てられたユーザーの日別、週別、月別の時間別の割り当てを更新する方法について説明します。 ユーザーの割り当て全体の管理およびタスクへのジョブの役割について詳しくは、 [タスクに関するユーザーと役割の割り当て時間を管理](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+この記事では、タスクまたはタスクに割り当てられたユーザーの日別、週別、月別の時間別の割り当てを更新する方法について説明します。 ユーザーの割り当て全体の管理およびタスクへのジョブの役割について詳しくは、 [タスクに関するユーザーと役割の割り当て時間を管理](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 * [ユーザー配分の概要](#user-allocation-overview)
 * [ユーザー割り当てをリセットする条件](#criteria-that-reset-user-allocations)
@@ -95,10 +95,7 @@ ht-degree: 0%
 >
 >Workfrontは、次の数式を使用して、期間の 2 日間における 2 時間間の配分を計算します。
 >
->```
->
->   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
->```
+>`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
 >
 >  この例では、各日の日別配分時間は次のようになります。
 >   
@@ -107,8 +104,6 @@ ht-degree: 0%
 >  (2 / 13) * 8 = 2 日目の配分時間は 1.23
 >
 >  上の計算では、13 がタスクの使用可能時間の合計です。5 + 8 = 13
-
-
 
 * 異なるタイムゾーンまたは異なるタイムゾーンのスケジュールの 2 人のユーザーは、同じ作業項目を表示している 2 人のユーザーに対して、配分額が異なって表示される場合があります。
 
@@ -199,9 +194,9 @@ ht-degree: 0%
 
 1. （オプション） **設定** アイコン ![](assets/gear-icon-settings.png) をクリックし、次のいずれかのオプションを選択します。
 
-   1. **イシューの時間を含める**. タスクの割り当てに加えて、問題の割り当ても管理できます。
-   1. **完了した作業の表示** . これには、割り当てを管理するタイムラインで、完了し、スケジュールされた項目が表示されます。
-   1. **残り時間を表示** オプション。 （ユーザー行で）各ユーザーの合計時間数が変更されます。 この設定を有効にすると、ワークロード・バランサは、各ユーザーが割り当てられた時間数ではなく、各ユーザーが作業に使用できる時間数を表示します。
+   1. **イシューの時間を含める**. タスクの割り当てに加えて、問題の割り当ても管理できます。
+   1. **完了した作業の表示**. これには、割り当てを管理するタイムラインで、完了し、スケジュールされた項目が表示されます。
+   1. **残り時間を表示**. （ユーザー行で）各ユーザーの合計時間数が変更されます。 この設定を有効にすると、ワークロード・バランサは、各ユーザーが割り当てられた時間数ではなく、各ユーザーが作業に使用できる時間数を表示します。
 
       >[!TIP]
       >
@@ -213,7 +208,6 @@ ht-degree: 0%
       >[!NOTE]
       >
       >Workfrontの管理者が、セットアップの「リソース管理」領域で、ユーザーの容量を計算するためにシステム全体で使用するスケジュールを決定します。 詳しくは、 [リソース管理環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
 
 1. 次をクリック： **その他** メニュー ![](assets/qs-more-menu.png) 作業項目の場合は、「 **割り当てを編集**.
 
