@@ -7,9 +7,9 @@ description: 先行タスクとは、別のタスク（後続タスクまたは�
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
 * 先行者の依存関係
 * ラグの値とタイプ\
-   依存関係とラグの両方について詳しくは、 [タスクリスト内の先行タスク値の例](#examples-of-predecessor-values-in-a-task-list).
+  依存関係とラグの両方について詳しくは、 [タスクリスト内の先行タスクの値の例](#examples-of-predecessor-values-in-a-task-list).
 
 たとえば、タスク A がタスク B の先行タスクで、タスク B に [ 可能な限り早く ] というタスク制約がある場合、Workfrontは、先行タスクが適用されているかどうかに関係なく、タスク A の予定完了日の直後に、予定開始日を割り当てます。
 
@@ -46,12 +46,12 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
 * **前任者を強制する：** 先行タスクを適用する場合、後続タスクは先行タスクが完了するまで開始できません。 後続タスクは、先行タスクが終了した直後に開始と表示されます。
 
-   Workfrontでは、先行タスクが完了するまで、「処理中」または「完了」とマークすることは許可されません。 ただし、Workfrontでは、タスクに時間を報告することを許可します。\
-   先行タスクの適用の詳細については、 [先行タスクを適用](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+  Workfrontでは、先行タスクが完了するまで、「処理中」または「完了」とマークすることは許可されません。 ただし、Workfrontでは、タスクに時間を報告することを許可します。\
+  先行タスクの適用の詳細については、「 [先行タスクの実行](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **ラグ：** 依存関係にラグを作成して、先行タスクの完了後、および後続タスクの開始前に遅延を生成できます。 ラグは、プロジェクトのタイムラインに影響を与えます。
 
-   ラグタイプについては、 [ラグタイプの概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  ラグタイプについては、 [ラグタイプの概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## 先行関係を作成
 
@@ -64,23 +64,23 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
 ## タスクの先行タスクを見つける {#locate-the-predecessors-of-a-task}
 
-タスクの先行タスクを検索するには、次のいずれかを実行します。
+タスクの先行タスクを検索するには、次のいずれかの操作を行います。
 
-* 作業中のプロジェクトに移動し、次の操作を実行します。
+* 作業中のプロジェクトに移動し、次の操作をおこないます。
 
    1. 先行タスクを検索するタスクを見つけ、タスクをクリックします。
-   1. クリック **先行タスク** をクリックします。 クリックが必要になる場合があります **さらに表示**&#x200B;を、 **先行タスク**.
-   1. 先行者が属するプロジェクトの名前が **プロジェクト** 列。
+   1. クリック **先行タスク** をクリックします。 クリックが必要になる場合があります。 **表示を増やす**&#x200B;を、 **先行タスク**.
+   1. 先行者が属するプロジェクトの名前が、 **プロジェクト** 列。
 
-      この **#** 列には、先行タスク番号が表示されます。 例えば、「6」はプロジェクトの 6 番目のタスクを意味します。
+      の数 **#** 列には、先行タスク番号が表示されます。 例えば、「6」はプロジェクトの 6 番目のタスクを意味します。
 
       ![タスクの先行タスクセクション](assets/predecessors-area-with-task-header.png)
 
-* 作業中のプロジェクトに移動し、次の操作を実行します。
+* 作業中のプロジェクトに移動し、次の操作をおこないます。
 
    1. 次をクリック： **タスク** タブをクリックします。
    1. を選択します。 **標準ビュー** をタスクリストの最上部に表示します。
-   1. この **先行タスク** 列には、先行タスクの番号が表示されます。
+   1. The **先行タスク** 列には、先行タスクの番号が表示されます。
 
       プロジェクト間の先行タスクの場合、[ 先行タスク ] 列には、先行タスクが属するプロジェクトの参照番号とタスクの番号がコロンで区切って表示されます。
 
@@ -90,7 +90,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 
       ![先行者の詳細](assets/predecessor-details-in-task-list.png)
 
-## タスクリスト内の先行タスク値の例 {#examples-of-predecessor-values-in-a-task-list}
+## タスクリスト内の先行タスクの値の例 {#examples-of-predecessor-values-in-a-task-list}
 
 タスクの一覧で先行タスクを表示すると、次の種類の先行タスクと、それぞれの依存タイプとラグの値が表示されます。
 
@@ -102,36 +102,36 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 * **1fs-3d -** 先行タスク番号は 1 です。 依存関係のタイプは「完了 — 開始」で、ラグタイムは 3 日です。 プロジェクトタイムラインでは、このタスクは先行タスクが終了する 3 営業日前の開始と表示されます。
 * **1fs+3de**  — 先行タスク番号は 1 です。 依存関係のタイプは Finish-Start-Enforced で、ラグタイムは 3 日です。 プロジェクトタイムラインで、このタスクは、タスク 1 が完了してから 3 営業日が経過した後に開始と表示されます。 Workfrontでは、タスク 1 が完了するまで、「処理中」または「完了」とマークすることは許可されません。 ただし、Workfrontでは、タスクに時間を報告することを許可します。
 
-   >[!NOTE]
-   >
-   >適用される値 (**e**) は、前に使用したものではなく、Lag に追加する必要があります。
+  >[!NOTE]
+  >
+  >適用される値 (**e**) は、前に使用したものではなく、Lag に追加する必要があります。
 
-* **4515:2** 先行タスク番号は 2 です。  — これは、開始に対する完了で、参照番号を持つプロジェクト内の先行プロジェクトとの非強制の依存関係です **4515**;先行タスク番号： **2**.
+* **4515:2** 先行タスク番号は 2 です。  — これは、開始に対する完了で、参照番号を持つプロジェクト内の先行プロジェクトとの非強制の依存関係です **4515**.
 
 ## 先行情報の表示
 
 Workfrontの次の領域で、先行者情報を表示できます。 これには、プロジェクト間の先行タスクに関する情報が含まれます。
 
-* タスクレベルの「先行タスク」セクションで、
+* タスクレベルで、[ 先行タスク ] セクションで設定します。
 
-   「先行タスク」セクションでの先行タスク情報の表示の詳細については、「 [タスクの先行タスクを見つける](#locate-the-predecessors-of-a-task) 」を参照してください。
+  「先行タスク」セクションでの先行タスク情報の表示については、「 [タスクの先行タスクを見つける](#locate-the-predecessors-of-a-task) 」を参照してください。
 
 * ガントチャートで使用します。
 
-   ガントチャートでの先行タスクの表示については、 [ガントチャートでの情報の表示方法を設定します](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
+  ガントチャートでの先行タスクの表示については、 [ガントチャートでの情報の表示方法を設定します](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
 * タスクリスト内。
 
-   タスクリストのタスクの先行タスクに関する情報を表示するには、次のいずれかを実行します。
+  タスクリストのタスクの先行タスクに関する情報を表示するには、次のいずれかを実行します。
 
    * タスクのリストに組み込みの標準ビューを適用します。
 
-      標準ビューで先行情報を表示する方法については、「 [タスクの先行タスクを見つける](#locate-the-predecessors-of-a-task) 」を参照してください。
+     標準ビューでの先行情報の表示については、「 [タスクの先行タスクを見つける](#locate-the-predecessors-of-a-task) 」を参照してください。
 
    * タスクビューまたはレポートを作成し、そのビューに Predecessors 列を追加します。
 
-      先行情報を含むタスクのカスタマイズビューの作成の詳細については、「 [表示：先行者の詳細](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     先行タスク情報を含むタスクのカスタマイズビューの作成の詳細については、「 [表示：先行タスクの詳細](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 
 * タスクにアクセスする際のタスクヘッダー。
 
-   ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+  ![](assets/qs-predecessor-info-in-task-header-350x141.png)

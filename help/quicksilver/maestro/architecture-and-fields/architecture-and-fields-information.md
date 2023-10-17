@@ -4,9 +4,10 @@ description: 次の記事では、AdobeMaestro のアーキテクチャを設定
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ Maestro を使用すると、組織が使用するオブジェクトの種類（
 * [レコードタイプを編集](../architecture-and-fields/edit-record-types.md)
 * [レコードタイプを接続](../architecture-and-fields/connect-record-types.md)
 * [レコードタイプとレコードの接続例](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [AdobeMaestro でフィールドを作成](../architecture-and-fields/create-fields.md)
+* [フィールドの作成](../architecture-and-fields/create-fields.md)
 * [フィールドを編集](../architecture-and-fields/edit-fields.md)
 * [ワークスペースの削除](../architecture-and-fields/delete-workspaces.md)
 * [レコードタイプを削除](../architecture-and-fields/delete-record-types.md)
 * [フィールドを削除](../architecture-and-fields/delete-fields.md)
-
-

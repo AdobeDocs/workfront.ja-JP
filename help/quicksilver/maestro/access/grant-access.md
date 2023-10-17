@@ -4,19 +4,21 @@ description: アクセス権を付与し、情報を共有する方法をAdobeMa
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # AdobeMaestro へのアクセスを許可
 
 >[!IMPORTANT]
+>
+>Adobe・マエストロはAdobe Workfrontからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe・マエストロはAdobe Workfrontからの新しいオファーです。 詳しくは、 [マエストロの概要](../maestro-overview.md).
 
 現在、以下の前提条件が満たされている場合、組織内のすべてのユーザーが Maestro にアクセスできます。
 
@@ -50,9 +50,9 @@ Maestro を使用するために必要なアクセスについては、 [Adobe�
 
 レイアウトテンプレートを使用して Maestro 領域を共有するには：
 
-1. システム管理者としてWorkfrontにログインします。
+1. にログインします。 **Workfront** をシステム管理者として設定します。
 
-1. レイアウトテンプレートを使用して、メインメニューに [ マエストロ ] アイコンを追加します。
+1. 次を追加： **マエストロ** アイコン ![](assets/maestro-icon.png) から **メインメニュー** の使用 **レイアウトテンプレート**.
 
    詳しくは、 [レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ Maestro を使用するために必要なアクセスについては、 [Adobe�
    テンプレートに割り当てられたすべてのユーザは、メインメニューで Maestro にアクセスできるようになりました。
 
    ユーザーは、ワークスペース、レコードタイプ、レコード、およびフィールドの作成を開始できます。
-
-
-

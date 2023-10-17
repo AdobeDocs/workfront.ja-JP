@@ -6,9 +6,9 @@ description: タスクをプロジェクトから別のプロジェクトにコ�
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ ht-degree: 1%
    タスクレポートに移動します。
 
 1. （条件付き）クリック **タスク** タスクを含むプロジェクトを開いた場合は、左側のパネルで。
-1. 次をクリック： **プランモードメニュー** ![](assets/qs-list-mode-or-save-mode-icon-small.png) を、 **自動保存**.
+1. 次をクリック： **プランモード** アイコン ![](assets/qs-list-mode-or-save-mode-icon-small.png)をクリックし、 **自動保存** 」オプションが有効になっている。
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,22 +229,22 @@ ht-degree: 1%
 
 1. （オプション）「 **親を選択** 左側のパネルで、コピーしたタスクの親にするタスクを、コピー先のプロジェクトで選択します。
 
->[!TIP]
->
->リスト内の複数のタスクをコピーするように選択すると、選択したすべてのタスクが、選択した親の子になります。
+   >[!TIP]
+   >
+   >リスト内の複数のタスクをコピーするように選択すると、選択したすべてのタスクが、選択した親の子になります。
 
-次のいずれかの操作を行って、親を選択します。
+   次のいずれかの操作を行って、親を選択します。
 
-* タスクリストで、プロジェクトプランの親の 1 つを選択します。
-* 検索アイコンをクリックします。 ![検索アイコン](assets/search-icon.png) 親タスクを名前で検索します。
+   * タスクリストで、プロジェクトプランの親の 1 つを選択します。
+   * 検索アイコンをクリックします。 ![検索アイコン](assets/search-icon.png) 親タスクを名前で検索します。
 
-タスクがリストに表示されます。
+   タスクがリストに表示されます。
 
-![検索機能を使用してタスクを移動する際の親タスクの選択 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![検索機能を使用してタスクを移動する際の親タスクの選択 ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. 親が見つかったら、その親のラジオボタンを選択します。
 
-   親タスクを選択しない場合、タスクはサブタスクではなくメインタスクとしてコピーされ、コピー先のプロジェクトのタスクリストの最後に配置されます。
+   親タスクを選択しない場合、タスクはサブタスクではなくメインタスクとしてコピーされ、コピー先プロジェクトのタスクリストの最後に配置されます。
 
 1. クリック **タスクをコピー**
 
@@ -287,11 +289,11 @@ ht-degree: 1%
 1. クリック **タスク** をクリックします。
 1. 次のいずれかの操作を行います。
 
-   * （条件付き） **プランモードメニュー** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **自動保存**、複製するタスクを選択し、 **その他のメニュー** ![](assets/qs-more-menu-29x11.png) > **複製**.
+   * （条件付き） **プランモード** アイコン ![](assets/qs-list-mode-or-save-mode-icon-small.png) そして **自動保存** 「 」オプションが有効な場合は、複製するタスクを選択し、 **その他のメニュー** ![](assets/qs-more-menu-29x11.png) > **複製**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * （条件付き） **プランモードメニュー** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動で保存** > **標準** または **タイムライン計画**&#x200B;次に、以下の手順を実行します。
+   * （条件付き） **プランモード** アイコン ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **手動で保存** > **標準** または **タイムライン計画**&#x200B;次に、以下の手順を実行します。
 
       1. 複製する 1 つ以上のタスクを選択し、 **複製**.
       1. （オプション）「 **取り消し** 変更を元に戻し、タスクを複製しない場合。

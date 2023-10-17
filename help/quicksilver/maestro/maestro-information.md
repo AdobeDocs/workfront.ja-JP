@@ -4,13 +4,13 @@ description: マーケティングオペレーションリーダーは、Adobe�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Adobeマエストロ情報
 
@@ -53,8 +53,8 @@ hide: yes
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [AdobeMaestro のデモビデオを見る](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [マエストロの概要](maestro-overview.md)：このソリューションに特有の用語や概念を含む、Adobeマエストロの概要です。 ここで Maestro を使用してジャーニーを開始することをお勧めします。
-* [リリースアクティビティ](../maestro/release-activity.md): 2023 年 5 月 23 日に Maestro がクローズベータプログラムの開始以降にリリースされたすべての機能のリスト。正確なリリース日と各機能の概要が示されています。
+* [Adobeマエストロの概要](maestro-overview.md)：このソリューションに特有の用語や概念を含む、Adobeマエストロの概要です。 ここで Maestro を使用してジャーニーを開始することをお勧めします。
+* [Adobeマエストロリリースアクティビティ](../maestro/release-activity.md): 2023 年 5 月 23 日に Maestro がクローズベータプログラムの開始以降にリリースされたすべての機能のリスト。正確なリリース日と各機能の概要が示されています。
 
 ## マエストロのアーキテクチャと機能
 
@@ -64,4 +64,3 @@ hide: yes
 * [アーキテクチャ情報](../maestro/architecture-and-fields/architecture-and-fields-information.md):AdobeMaestro のアーキテクチャに関する詳細な情報と、ワークスペース、レコードタイプ、フィールドの作成および管理方法に関する詳しい手順を説明します。
 * [レコード情報](../maestro/records/records-information.md)：レコードの作成および管理方法に関する詳細情報と詳しい手順です。
 * [情報を表示](../maestro/views/views-information.md):Maestro ビューとその管理方法に関する詳細情報。
-

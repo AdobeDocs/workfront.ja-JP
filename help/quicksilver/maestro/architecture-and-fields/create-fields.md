@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
 source-wordcount: '2828'
 ht-degree: 2%
@@ -406,6 +406,7 @@ Adobe・マエストロでは、オペレーショナル・レコード・タイ
    >[!NOTE]
    >
    >    「複数の値を許可」を選択した場合、フィールドが添付されるレコードに複数のユーザーが格納される場合、このフィールドの編集時に、今後、この設定の選択を解除できなくなります。
+
 1. 「**作成**」をクリックします。
 
    新しい「人」タイプフィールドがレコードタイプの列として追加され、その値をレコードに関連付けることができます。 このフィールドは、レコードの詳細ページにも表示されます。

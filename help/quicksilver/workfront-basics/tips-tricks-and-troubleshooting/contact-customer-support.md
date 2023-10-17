@@ -2,12 +2,12 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: カスタマーサポートに連絡
-description: カスタマーサポートに連絡
+description: Adobe Workfrontをご利用のお客様は、電話で、またはオンラインでチケットを送信することで、Workfrontカスタマーサポートチームに連絡できます。
 feature: Get Started with Workfront
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-As a [!DNL Adobe Workfront] のお客様が、 [!DNL Workfront] 電話またはオンラインでチケットを送信して、カスタマーサポートチームに問い合わせます。
+As a [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話またはオンラインでチケットを送信して、カスタマーサポートチームに問い合わせます。
 
 >[!NOTE]
 >
@@ -28,9 +28,9 @@ As a [!DNL Adobe Workfront] のお客様が、 [!DNL Workfront] 電話または�
 
 次の連絡先に： [!DNL Workfront Customer Support] 週に 7 日、日に 24 時間、次の数字で示します。
 
-* 米国：844-306-HELP(4357)
-* EMEA:+44 1256 274200
-* オーストラリア：+61 1800 849259
+* 米国： 844-306-HELP(4357)
+* EMEA: +44 1256 274200
+* オーストラリア： +61 1800 849259
 
 ## Web
 
@@ -41,19 +41,19 @@ As a [!DNL Adobe Workfront] のお客様が、 [!DNL Workfront] 電話または�
 >オンラインサポートチケットを送信できるのは、許可されたサポート連絡先（または権利を持つ顧客）のみです。
 
 
-1. 次の [[!DNL Experience League]](https://experienceleague.adobe.com) web サイト、クリック **[!UICONTROL サポート]**  をクリックします。
+1. 次から： [[!DNL Experience League]](https://experienceleague.adobe.com) web サイト、クリック **[!UICONTROL サポート]**  をクリックします。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    サポートホームページから、オープンなサポートケースに簡単に移動したり、新しいケースをログに記録したり、トップのサポート記事を表示したり、追加の学習ソースにアクセスしたりできます。
 
-1. ケースを送信するには、「[!UICONTROL サポートケースを開く]」をクリックし、 **[!UICONTROL 署名] In**.
+1. ケースを送信するには、「 」オプションを選択します。 **[!UICONTROL サポートケースを開く]**&#x200B;を選択し、次に **[!UICONTROL 署名] In**.
 
 1. クリック **[!UICONTROL ケースを開く]** 左側のサイドバーに表示されます。
 
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 
-   この [!UICONTROL ケースの作成] 製品名 ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion]など )、ケースタイトル、ケースの説明です。
+   The [!UICONTROL ケースの作成] ページが開き、製品名 ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion]など )、ケースタイトル、ケースの説明です。
 
    >[!TIP]
    >
@@ -67,25 +67,25 @@ As a [!DNL Adobe Workfront] のお客様が、 [!DNL Workfront] 電話または�
    * **[!UICONTROL 環境]** ([!UICONTROL 実稼動], [!UICONTROL プレビュー], [!UICONTROL サンドボックス]など )
    * **[!UICONTROL 顧客地域]** （南北アメリカ、EMEA、APAC）
 
-1. 関連するファイルをアップロードし、「 **[!UICONTROL ケースを送信]**.
+1. 関連するファイルをアップロードし、「 **[!UICONTROL 大文字と小文字を送信]**.
 
-   この [!UICONTROL マイケース] ページが表示されます。
+   The [!UICONTROL マイケース] ページが表示されます。
 
    ![](assets/all-cases-list-exl-support-portal.png)
 
-1. （オプション） **[!UICONTROL マイケース]** ページで、組織が送信した事例を確認します。
+1. （オプション） **[!UICONTROL マイケース]** 」ページで、組織が送信した事例を確認します。
 
    >[!TIP]
    >
-   >また、 [!UICONTROL マイケース] ページをクリック **[!UICONTROL マイケース]** 左側のサイドバーに表示されます。
+   >また、 [!UICONTROL マイケース] ページをクリックして **[!UICONTROL マイケース]** 左側のサイドバーに表示されます。
 
-1. の [!UICONTROL マイケース] 」ページで、ページ上部のオプションを使用して、製品 ([!DNL Experience Cloud] 解決 ) または事例 [!UICONTROL ステータス] （開くまたは閉じる）。 また、 [!UICONTROL 検索] ボックスを使用して、サポートケースに関連するキーワードを検索します。
+1. 次の日： **[!UICONTROL マイケース]** ページの上部にあるオプションを使用して、 **製品 ([!DNL Experience Cloud] ソリューション )** またはケース **[!UICONTROL ステータス]** （「オープン」または「クローズ」）。 また、 [!UICONTROL 検索] ボックスを使用して、サポートケースに関連するキーワードを検索します。
 
-1. ケースの詳細を表示するには、 **ケース番号** にアクセスします。 この [!UICONTROL ケース] ビューが開きます。
+1. ケースの詳細を表示するには、 **ケース番号** にアクセスします。 The [!UICONTROL ケース] ビューが開きます。
 
-1. 内 [!UICONTROL ケース] 割り当てられたケースの所有者と最新のコメントを表示して確認し、追加の添付ファイルや応答を追加します。
+1. Adobe Analytics の [!UICONTROL ケース] 割り当てられたケースの所有者と最新のコメントを表示して確認し、追加の添付ファイルや応答を追加します。
 
-1. クリック **[!UICONTROL 管理にエスカレーション]** ページの右側の **[!UICONTROL ケースの詳細]** 事件をエスカレートさせる
+1. クリック **[!UICONTROL 管理にエスカレーション]** ページの右側の下に **[!UICONTROL ケースの詳細]** 事件をエスカレートさせる
 
 1. 次をクリック： **[!UICONTROL ケースを閉じる]** ボタンをクリックしてケースを閉じます。
 
