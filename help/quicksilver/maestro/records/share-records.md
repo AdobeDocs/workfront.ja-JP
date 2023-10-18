@@ -4,19 +4,21 @@ description: 他のユーザーとレコードを共有して、共同作業を�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # レコードの共有
 
 >[!IMPORTANT]
+>
+>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >

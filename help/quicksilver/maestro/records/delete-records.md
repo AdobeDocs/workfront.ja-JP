@@ -4,19 +4,20 @@ description: 自分または別のユーザーが作成したレコードを削�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # レコードを削除
 
 >[!IMPORTANT]
+>>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >

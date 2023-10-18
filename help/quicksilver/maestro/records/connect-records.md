@@ -4,13 +4,13 @@ description: レコードタイプ間の接続を作成した後、個々のレ�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # レコードを接続
 
 >[!IMPORTANT]
+>
+>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
@@ -276,15 +278,3 @@ Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接
    >  Workfrontオブジェクトレコードタイプのページで追加または削除するフィールドは、Workfrontオブジェクトタイプにリンクする Maestro レコードタイプからは追加または削除されません。 フィールドは読み取り専用のWorkfrontレコードタイプのページにのみ表示されるので、Maestro で確認できます。
 
 1. （オプション） Workfrontオブジェクトレコードタイプページの「表示」ドロップダウンメニューから「タイムライン」ビューを選択して、Workfrontのリンクされたオブジェクトをタイムラインビューに表示します。
-
-
-
-
-
-
-
-
-
-
-
-

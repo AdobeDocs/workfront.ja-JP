@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 8%
+source-wordcount: '2515'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,8 @@ Kick-Starts は、Workfrontに読み込むデータを入力できる、特別�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。</p> <p><b>メモ</b>:</p> 
+   <p> まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,14 +434,20 @@ Excel テンプレートにデータを入力した後、そのデータをWorkf
 
 キックスタートインポートでは、次のファイルタイプをサポートしています。
 
-* XML ベースの Excel (&#42;.xlsx)
-* レガシー Excel (&#42;.xls)
-* 圧縮済み (&#42;ZIP)xlsx または xls ファイル
+* XML ベースの Excel(.xlsx)
+* レガシー Excel(.xls)
+* 圧縮 (.ZIP) ファイル（.xlsx または.xls ファイルのみを含む）
 
   >[!NOTE]
   >
-  >レポート、ドキュメント、アバター、ビュー、フィルターを参照する Excel スプレッドシートをインポートしたり、プロパティファイルをグループ化したりする場合は、ZIP ファイルを使用する必要があります。zip 形式のインポートファイルを使用する場合、 &#42;ZIP ファイルの名前は &#42;.xlsx または &#42;.xls ファイルとすべてのコンテンツは、同じファイル構造レベル（フォルダなし）にする必要があります。
-
+  >次のオブジェクトを参照する Excel スプレッドシートをインポートする場合は、.ZIP ファイルを使用する必要があります。
+  >
+  >* レポート
+  >* ドキュメント
+  >* アバター
+  >* プロパティファイルを表示、フィルタ、またはグループ化します。
+  >
+  >圧縮インポートファイルを使用する場合、.ZIP ファイルは.xlsx または.xls ファイルと同じ名前にする必要があり、すべてのファイルは同じ構造レベル（フォルダーなし）にする必要があります。
 
 テンプレートスプレッドシートデータをWorkfrontにインポートするには：
 

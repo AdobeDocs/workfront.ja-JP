@@ -4,13 +4,13 @@ description: ワークスペースは、チームが使用するオペレーシ�
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ role: User
 # Workspace テンプレートのリスト
 
 >[!IMPORTANT]
+>
+>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
@@ -154,5 +156,3 @@ You must have the following:
       * **製品チーム**: 3 フィールド
       * **機能リクエスト**: 8 個のフィールドと 1 個のリンクフィールド
       * **業界**: 1 フィールド、1 リンクフィールド
-
-

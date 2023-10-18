@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 2%
 # アクセスの概要
 
 >[!IMPORTANT]
+>
+>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >Adobe・マエストロはAdobe Workfrontからの新しいオファーです。
 >

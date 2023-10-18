@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '7315'
+source-wordcount: '7330'
 ht-degree: 2%
 
 ---
@@ -408,7 +408,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>実際のメリット</strong> </td> 
-      <td> <p>プロジェクトの実際の利益を見積もります。 これは、このプロジェクトが完了した後に企業または部門が得る利益を表す通貨金額です。 </p> </td> 
+      <td> <p>プロジェクトの実際の利益を見積もります。 これは、このプロジェクトが完了した後に企業や部門が得る利益を表す通貨金額です。 </p> </td> 
      </tr> 
       <tr> 
       <td role="rowheader"><strong>固定コスト</strong> </td> 
@@ -457,7 +457,7 @@ ht-degree: 2%
        <td> <p>親タスクを [ 完了 ] としてマークする方法を制御します。 次のオプションから選択します。 
        <ul> 
        <li><strong>自動</strong>：親タスクは「完了」とマークされ、子タスクが完了し、子タスクの完了率が更新されると、親タスクの完了率が自動的に更新されます。 </li> 
-       <li><strong>手動</strong>：子タスクに加えられた変更に関係なく、完了率と親タスクのステータスを手動で更新する必要があります。</li> 
+       <li><strong>手動</strong>：子タスクに加えられた変更に関係なく、完了率と親タスクのステータスを手動で更新する必要があります。 これにより、サブタスクが不完全な場合でも親タスクを完了済みとマークできます。 </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -651,7 +651,7 @@ ht-degree: 2%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>誰かがリクエストを送信したとき：アクセス権を付与</strong></td> 
-      <td><p>次から選択： <strong>表示</strong>, <strong>Contribute</strong>または <strong>管理</strong> リクエストにアクセスします。 プロジェクトが要求キューでもあり、ユーザーが要求をプロジェクトに送信すると、送信した要求に対してこのアクセス権が付与されます。 プロジェクトをリクエストキューとして設定する方法については、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>.<br></p></td> 
+      <td><p>次から選択： <strong>表示</strong>, <strong>Contribute</strong>または <strong>管理</strong> リクエストにアクセスします。 プロジェクトが要求キューでもあり、ユーザーが要求をプロジェクトに送信すると、ユーザーは、送信した要求に対してこのアクセス権を付与されます。 プロジェクトをリクエストキューとして設定する方法については、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>同じ会社の担当者は、すべてのリクエストに対して同じ権限を継承します</strong></td> 

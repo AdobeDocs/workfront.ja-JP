@@ -4,19 +4,21 @@ description: Adobeマエストロでは、不要になったカスタムフィ�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # フィールドを削除
 
 >[!IMPORTANT]
+>
+>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
@@ -35,6 +37,9 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
 * 自分が作成したフィールドや他のユーザーが作成したフィールドを削除できます。 <!--this will change with access levels/ permissions-->
 * レコードタイプテーブル内のフィールドのみを削除できます。
 * フィールドに格納されている情報はすべて削除され、復元できません。
+* リンクされたレコードフィールドを削除すると、リンク元のレコードの種類から、リンクされたすべての参照フィールドも削除されます。 リンク先のレコードタイプのリンクされたレコードフィールドは削除されません。
+
+  詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
   <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## アクセス要件

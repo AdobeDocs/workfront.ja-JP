@@ -6,9 +6,9 @@ description: タスクの完了率を更新して、タスクを完了するた�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,13 @@ ht-degree: 0%
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>タスクに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 
 ## タスクの完了率を更新できる領域
@@ -85,25 +85,33 @@ ht-degree: 0%
 タスクの完了率は、次のいずれかの領域で更新できます。
 
 * **タスクリスト内**:「完了の割合」列が表示されている場合に、タスクの完了率を更新できます。\
-   インライン編集について詳しくは、 [Adobe Workfrontのリスト内の項目をインライン編集する](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+  インライン編集について詳しくは、 [Adobe Workfrontのリスト内の項目をインライン編集する](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **マイルストーン表示**:タスクの完了率は、プロジェクト一覧またはプロジェクトレポートの [ マイルストーン ] ビューを使用するときに更新できます。 詳しくは、 [マイルストーンビューの使用](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **マイルストーン表示で**：タスクの完了率は、プロジェクトリストまたはプロジェクトレポートでマイルストーンビューを使用する際に更新できます。 詳しくは、 [マイルストーンビューの使用](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **タスクを更新する際**:タスクに更新を追加する際に、タスクの「完了率」オプションを更新できます。
+* **タスクを更新する際**：タスクに更新を追加する際に、タスクの「完了率」オプションを更新できます。
 
-   >[!IMPORTANT]
-   >
-   >このオプションは、「完了率を表示」オプションを有効にした後にのみ表示されます。\
-   >タスクの完了率更新バーを有効にするには、次の操作を行います。
-   >
-   >1. 次に移動： **メイン** メニュー > お名前 >**詳細** アイコンが表示されます。**編集** > 選択 **更新ステータスの完了率を表示**.\
-      >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >[!IMPORTANT]
+  >
+  >このオプションは、「完了率を表示」オプションを有効にした後にのみ表示されます。\
+  >タスクの完了率更新バーを有効にするには、次の操作を行います。
+  >
+  >1. 次に移動： **メイン** メニュー > お名前 >**その他** アイコンが表示されます。**編集** > 選択 **更新ステータスの完了率を表示**.\
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+
+* **タスクヘッダー内**：タスクヘッダーでタスクの完了率を更新できます。 詳しくは、 [タスクを編集](../../tasks/manage-tasks/edit-tasks.md).
+
+  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 
-* **タスクヘッダー内**:タスクの完了率はタスクヘッダーで更新できます。 詳しくは、 [タスクを編集](../../tasks/manage-tasks/edit-tasks.md).
+## タスクの完了率を更新する際の考慮事項
 
-   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+* タスクを「100%完了」とマークすると、タスクの「ステータス」が「完了」に更新されます。
+* 親タスクには、次のシナリオが存在します。
+   * プロジェクトの [ サマリー完了モード ] が [ 自動 ] に設定され、サブタスクが完了していない場合は、親タスクの完了率を 100%に更新することはできません。
+   * プロジェクトの [ サマリー完了モード ] が [ 手動 ] に設定され、サブタスクが完了または不完全になっている場合は、親タスクの完了率を 100%に更新できます。
 
+  詳しくは、 [プロジェクトを編集](../manage-projects/edit-projects.md).
 
 ## タスクの完了率の更新
 
@@ -112,7 +120,7 @@ ht-degree: 0%
    * タスクリスト
    * プロジェクトのリストとマイルストーンビューの適用
    * タスク（タスクページにアクセスする）
-1. を **完了率** 達成率を更新するタスクのフィールド。
+1. 次を見つけます。 **完了率** 達成率を更新するタスクのフィールド。
 1. 「完了率」フィールド内をクリックし、0 ～ 100 の数値を入力します
 
    または

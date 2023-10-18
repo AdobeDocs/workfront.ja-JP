@@ -6,7 +6,7 @@ description: テンプレートタスクは、同じテンプレートにコピ�
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
 source-wordcount: '2127'
 ht-degree: 3%
@@ -70,9 +70,9 @@ ht-degree: 3%
 
 * デフォルトでは、次の情報が移動されたタスクに転送されます。
 
-   * カスタムフォームおよびカスタムフィールド情報。
-   * サブタスク.
-   * ユーザーのコメント。
+   * カスタムフォームとカスタムフィールド情報
+   * サブタスク
+   * ユーザーコメント
 
 * 次の情報は、移動されたタスクには転送されません。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # オペレーショナルレコードタイプの作成
 
 >[!IMPORTANT]
+>
+>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
@@ -100,7 +102,7 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
         詳しくは、 [ワークスペースの作成](../architecture-and-fields/create-workspaces.md).
       * Excel または CSV ファイルを使用してインポートする場合。 分類レコードタイプでは使用できません。
-      * 別のアプリケーションからオブジェクトタイプへの接続を作成する場合、レコードタイプにフィールドを追加する場合。 これにより、元のアプリケーションのオブジェクトタイプに接続された Maestro で読み取り専用のレコードタイプが作成されます。 分類レコードタイプでは使用できません。
+      * 別のアプリケーションからオブジェクトタイプへの接続を作成する場合、レコードタイプにフィールドを追加する場合。 これにより、元のアプリケーションのオブジェクトタイプに接続された Maestro で読み取り専用のレコードタイプが作成されます。
 
      オブジェクトタイプと Maestro レコードの接続について詳しくは、 [レコードを接続](../records/connect-records.md).
    * 手動:
@@ -258,5 +260,7 @@ Excel ファイルを使用してレコードタイプをインポートする�
    * プロジェクト
    * ポートフォリオ
    * プログラム
+   * 会社
+   * グループ
 
 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).

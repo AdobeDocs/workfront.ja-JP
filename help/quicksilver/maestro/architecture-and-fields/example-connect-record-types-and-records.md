@@ -4,17 +4,19 @@ description: この記事では、AdobeMaestro レコードタイプとWorkfront
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # レコードタイプとレコードの接続例
 
 >[!IMPORTANT]
+>
+>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
@@ -193,6 +195,3 @@ Campaign のレコードタイプにフィールドを作成し、レコード�
    >    Workfront Project Maestro レコードに追加するフィールドは、Workfrontプロジェクトページにのみ追加され、リンクされたフィールドとしてキャンペーンレコードタイプのページには追加されません。 キャンペーン用に表示するには、Campaign レコードタイプの「プロジェクト情報 connected-object」フィールドからプロジェクトフィールドを追加する必要があります。
 
 1. （オプションおよび条件付き）プロジェクトに少なくとも 2 つの日付フィールドを表示するように選択した場合、 **表示** 「 Workfront Project レコードタイプ」テーブルのドロップダウンメニュー **ビューを作成** > **タイムライン** > **作成** タイムラインビューを作成し、プロジェクトをタイムラインに表示するには、次の手順に従います。
-
-
-

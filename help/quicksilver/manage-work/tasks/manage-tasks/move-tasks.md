@@ -6,9 +6,9 @@ description: タスクは、様々なプロジェクトや、Adobe Workfrontの�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 2%
 
 次の項目は、デフォルトではタスクと共に移動しません。
 
-* マイルストーンはコピーされたタスクに転送され、元のタスクから削除されます。
+* マイルストーン
 
 ## リスト内のタスクの移動
 

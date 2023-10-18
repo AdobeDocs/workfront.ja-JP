@@ -4,17 +4,19 @@ description: Workfront管理者は、Maestro を使用するには、ユーザ�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-
 # アクセス情報
 
 >[!IMPORTANT]
+>
+>この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
 >現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
 >
@@ -28,4 +30,3 @@ Workfront管理者は、Maestro を使用するには、ユーザにアクセス
 
 * [アクセスの概要](../access/access-overview.md)
 * [AdobeMaestro へのアクセスを許可](../access/grant-access.md)
-
