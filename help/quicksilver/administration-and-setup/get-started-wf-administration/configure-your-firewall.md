@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1569'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 13%
 >組織がAdobe Admin Consoleにオ許可リストに加えるンボーディングされている場合のを設定するには、 [ドメインのアプリおよびAdobeサービスで許可するドメイン](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >組織がAdobe Admin Consoleにオンボーディングされているかどうかに応じて異なる手順のリストについては、 [プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>組織が組織を設定する方法は、許可リストに加える各組織に固有です。 IT チームと協力して、組織の手順を特定し、これらの追加を実装します。
 
 ファイアウォールまたはメールサーバーが特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをそのに追加する必要があ許可リストに加えるります。 これにより、環境とAdobe Workfrontサーバー間の通信が開始され、次のプロセスが可能になります。
 
