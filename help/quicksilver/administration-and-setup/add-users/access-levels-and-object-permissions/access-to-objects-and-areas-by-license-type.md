@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
+source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '425'
 ht-degree: 20%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 20%
 
 次の表に、各Adobe WorkfrontライセンスでWorkfrontのオブジェクトと領域に対して許可されている最高レベルのアクセス（編集または表示）を示します。
 
-* **表示**:ユーザーは、項目を確認および共有できます。
-* **編集**:ユーザーは、項目の作成、編集、削除、共有をおこなうことができます。
+* **表示**：ユーザーは項目を確認および共有できます。
+* **編集**：ユーザーは、項目の作成、編集、削除および共有ができます。
 
-   >[!NOTE]
-   >
-   >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトを編集できる権限を制限する権限を指定できます。 詳しくは、 [オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >[!NOTE]
+  >
+  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトを編集できる権限を制限する権限を指定できます。 詳しくは、 [オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 |   | 計画 | 作業 | 確認 | リクエスト | 外部 |
 |---|---|---|---|---|---|
 | プロジェクト | 編集 | 編集（作成権限なし） | ビュー | 表示（詳細ページのみ） | アクセスなし |
 | タスク | 編集 | 編集 | ビュー | ビュー | ビュー |
-| 問題 | 編集 | 編集 | 編集 | 編集 | アクセスなし |
+| イシュー | 編集 | 編集 | 編集 | 編集 | アクセスなし |
 | ポートフォリオ | 編集 | ビュー | ビュー | アクセスなし | アクセスなし |
 | プログラム | 編集 | ビュー | ビュー | アクセスなし | アクセスなし |
 | レポート、ダッシュボード、カレンダー | 編集 | ビュー | ビュー | ビュー&#42; | 表示（カレンダーの場合のみ、共有権限なし） |
@@ -49,7 +49,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->レビューライセンスまたはリクエストライセンスを持つユーザーは、共有機能に制限があります。 詳しくは、 [Adobe Workfrontライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) または [Adobe Workfrontライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>レビューライセンスまたはリクエストライセンスを持つユーザーは、共有機能に制限があります。 詳しくは、 [Adobe Workfrontライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >外部ユーザーはWorkfrontで項目を検索できません。 ユーザーは、特別に共有されているドキュメントやカレンダーを表示できます。 また、アイテムを共有しているユーザーを表示することもできます。
 
