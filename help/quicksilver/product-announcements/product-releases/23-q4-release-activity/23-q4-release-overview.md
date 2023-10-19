@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -326,7 +326,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコントリビューターの既定のランディングページ：新しいホーム</a> <span style="color: #ff0000;"> プレビューの新機能</span> </p>
-                        <p>新しいホームが、コントリビューターアカウントの既定のランディングページになりました。 この新しいデフォルトのホームページには、コントリビューターがすぐに作業を管理できるように、特に多数のウィジェットが含まれています。</p>
+                        <p>新しいホームが、貢献者/要求者アカウントの既定のランディングページになりました。 この新しいデフォルトのホームページには、コントリビューターがすぐに作業を管理できるように、特に選択された多数のウィジェットが含まれています。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -628,27 +628,8 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">更新された電子メールテンプレート</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
-                        <p>イベント通知 E メールを更新する新しいイニシアチブの開始時に、最も一般的に使用されるドキュメントの承認とオブジェクトの共有の 2 つを更新しました。</p>
-                    </td>
-                    <td><p><b>次の日に利用可能：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
-                            </li>
-                            <li>
-                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">寄稿者のメインメニューの変更</a> <span style="color: #ff0000;"> プレビューの新機能</span></p>
-                        <p>有料Workfrontライセンスタイプで利用可能な機能をコントリビューターに知らせるために、メインメニューで使用可能なすべてのオプションが表示されるようになりました。</p>
+                        <p>有料Workfrontライセンスタイプで利用可能な機能について、寄稿者/リクエスタによりよく知らせるために、メインメニューで使用可能なすべてのオプションが表示されるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
