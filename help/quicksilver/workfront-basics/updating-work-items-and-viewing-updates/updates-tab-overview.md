@@ -7,10 +7,10 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 4%
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -133,8 +133,6 @@ The Updates section of an object displays comments that users make on the object
 
 新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * 「更新」セクションには、新しいコメントエクスペリエンスの次のタブに情報が表示されます。
@@ -211,8 +209,6 @@ The Updates section of an object displays comments that users make on the object
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## 上位のオブジェクトにも表示される更新
 
@@ -325,18 +321,13 @@ Adobe Workfrontの管理者とグループ管理者は、他のユーザーと�
 
 詳しくは、 [別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-別のユーザーに代わって行われたコメントは、コメントに示されます。
+別のユーザーとしてログインし、コメントを追加する際には、次の点を考慮してください。
 
-<!--remove the note below when we release this back to the new commenting-->
+* 別のユーザーに代わって行われたコメントは、コメントに示されます。
 
->[!NOTE]
->
->新しいコメントエクスペリエンスを使用する場合、コメントは別のユーザーとしてログインしたユーザーとして追加され、他のユーザーに代わってコメントを追加していることを示すものではありません。
->
->例えば、Workfront管理者が別のユーザーとしてログインした場合、コメントに関連付けられているユーザーはWorkfront管理者になります。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* グループ管理者は、別のユーザーの代わりにコメントを作成できますが、そのコメントは削除できません。 別のユーザーに代わって作成したコメントを削除できるのは、Adobe Workfront管理者のみです。
 
-
-グループ管理者は、別のユーザーの代わりにコメントを作成できますが、そのコメントは削除できません。 別のユーザーに代わって作成したコメントを削除できるのは、Adobe Workfront管理者のみです。
+* Workfrontまたはグループ管理者は、別のユーザーとしてログアウトし、自分自身として再度ログインした場合にのみ、自分が追加したコメントを編集できます。
 
 ## 仕訳入力レポートを使用して作業項目のシステム更新を表示します
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ Adobe Workfrontのコメントエクスペリエンスのアップデートは�
 
 Workfrontの「更新」セクションを含むすべてのオブジェクトで、新しいコメントエクスペリエンスの利用が徐々に可能になり、後で他のAdobe Experience Cloudアプリケーションにも拡張されます。
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## 機能
@@ -49,8 +46,8 @@ For additional resources for the new commenting experience, also see the followi
 
 * システム更新に対するコメント
 * コメント中にステータス、条件、コミット日を編集可能
-* カスタムフォームの編集
-* Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報。 <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* カスタムフォームを編集
+* Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報が最初に削除されました。 2023 年 10 月 19 日に復帰しました。
 * ドキュメントにコメントを追加する際に担当者にタグを付ける際に「承認を求める」オプション。
 
 >[!NOTE]
@@ -381,36 +378,38 @@ For additional resources for the new commenting experience, also see the followi
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>コメントを解決 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>2023 年第 3 四半期 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>コメント内の検索 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>2023 年第 3 四半期 
+   <td>2024 年第 1 四半期 
    </td>
    <td>✓ 
    </td>
   </tr>
+
 <tr>
-   <td>カスタムフォームの編集 
+   <td>コメント内の画像をコピーして貼り付ける
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>2024 年第 1 四半期 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
+<tr>
+   <td>カスタムフォームを編集 
    </td>
    <td>✓ 
    </td>
@@ -456,7 +455,7 @@ For additional resources for the new commenting experience, also see the followi
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

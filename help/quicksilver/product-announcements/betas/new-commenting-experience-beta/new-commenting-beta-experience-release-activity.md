@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2143'
 ht-degree: 2%
 
 ---
@@ -65,23 +65,23 @@ ht-degree: 2%
   >
   >    繰り返し処理では、従来のコメント操作が引き続きおこなわれます。 新しいコメントエクスペリエンスは、繰り返しでは使用できません。
 
+* 2024 年第 1 四半期（2024 年 1 月）:
+
+   * 従来のコメントストリームに切り替えるオプションは削除され、新しいコメントストリームは、繰り返しを除き、すべてのオブジェクトで唯一のエクスペリエンスとなります。
+
 ## リリースされた機能
 
 次の節では、最近リリースされた機能から始まる、元の 23.2 リリースの後に追加された機能のリストを示します。
 
 次の情報は、新しいコメントベータ版エクスペリエンスに含まれる機能に基づいて、毎週リリースアクティビティを参照します。 この記事では、新しいコメント作成機能で追加された新機能と、新しいコメント作成機能で解決された問題について説明します。
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### 2023 年 10 月 16 日の週
 
-### Week of October 9, 2023
+#### 別のユーザーとしてログインした状態でコメントを作成する際に、「&lt; ユーザー名 > の代理で」情報を追加します。
 
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+コメント作成エクスペリエンスを再設計する際に、Workfrontまたはグループ管理者が別のユーザーとしてログイン中にコメントを追加した際に、「&lt; ユーザー名 > の代理」インジケーターを削除しました。 この情報は復元されました。
 
-While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
-
-Preview and production for all customers: October 13, 2023. 
-
--->
+すべてのお客様向けのプレビューと実稼動：2023 年 10 月 20 日。
 
 ### 2023 年 9 月 11 日の週
 
