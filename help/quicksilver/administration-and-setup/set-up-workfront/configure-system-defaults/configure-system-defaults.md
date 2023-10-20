@@ -4,12 +4,13 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: システムのデフォルトの設定
-description: As a [!DNL Adobe Workfront] 管理者は、ユーザーが作成するすべてのプロジェクトの環境設定など、システムのデフォルトを設定できます。
+description: As an [!DNL Adobe Workfront] 管理者は、ユーザーが作成するすべてのプロジェクトの環境設定など、システムのデフォルトを設定できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 160c1b11cfca13ae141612a516d6c592d4bac509
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 5%
@@ -21,7 +22,7 @@ ht-degree: 5%
 この節では、次の記事を扱います。
 
 * [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
-* [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
+* [システム全体のタスクと問題の環境設定を構成する](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
 * [システム内のすべてのグループのプロジェクト環境設定をロックまたはロック解除します](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
 * [リクエストタイプの設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md)
 * [デフォルトの問題タイプをカスタマイズ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)

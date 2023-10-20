@@ -6,8 +6,9 @@ title: タスクの割り当て
 description: Adobe Workfrontでは、様々な方法でタスク割り当てを管理できます。 この節の方法では、ユーザー、チーム、ジョブの役割にタスクを割り当てる様々な方法について説明します。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 2b79998d-7436-43ef-a5f5-6302f1f1b7a7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%

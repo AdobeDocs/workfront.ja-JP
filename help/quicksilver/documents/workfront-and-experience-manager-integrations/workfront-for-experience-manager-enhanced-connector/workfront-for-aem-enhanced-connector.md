@@ -5,8 +5,9 @@ title: Workfront forExperience Manager拡張コネクタ
 description: Workfront forExperience Manager拡張コネクタ
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: c4dfcc06-5140-46de-a2bf-0253605a7fbf
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 0%

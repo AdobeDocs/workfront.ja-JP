@@ -7,8 +7,9 @@ title: の個人設定 [!DNL Workfront Proof]
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 6d19a4f9-04f6-4965-9651-4763892955fd
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%

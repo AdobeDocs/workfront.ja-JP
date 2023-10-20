@@ -3,11 +3,12 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: カスタム・ビュー、フィルタ、グループ化のサンプル
-description: カスタムビュー、フィルター、グループ化のサンプル TOC に適した記事"。 私は、これを物で構成する上で大した価値は見なかった )」
+description: カスタムビュー、フィルター、グループ化のサンプル TOC に適した記事」を参照してください。 私は、これを物で構成する上で大した価値は見なかった )」
 author: Lisa and Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 0%
@@ -33,99 +34,99 @@ ht-degree: 0%
 ## カスタムビューのサンプル
 
 * [表示：親タスクの名前をすべて大文字で表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
-* [表示：タスクビューの同じ列の計画時間に対する実績時間](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
+* [表示：タスク・ビューの同じ列の計画時間に対する実績時間](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
 * [表示：割り当てられたユーザーの会社とホームグループ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
-* [表示：タスクビューの期間および予定作業時間の基準差異](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+* [表示：タスクビューの期間および計画作業時間の基準差異](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
 * [表示：タイムシートビューでの超過コストの計算](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
-* [表示：時間と日付の差を計算する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
-* [表示：1 つの列の 2 つのフィールド間の計算結果を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [表示：時間と日付の差を計算します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+* [表示：列の 2 つのフィールド間で計算結果を表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [表示：タスクの後続タスクの一覧を列に追加する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-* [表示とグループ化：グループ化の平均で集計したプロジェクトの実績期間を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
-* [表示：時間リスト内のタスクと問題の詳細の組み合わせ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
-* [表示：列に文字列ではなく画像を表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [表示：標準インタフェースに含まれていないオブジェクトを表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [表示：タスクとプロジェクトリストに元の問題情報を表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
-* [表示：タスクビューにプログラムとPortfolio情報を表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
-* [表示：タスクリストにタスクのインデントを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [表示：配達確認へのリンクを含むレポートをドキュメント化](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
+* [表示とグループ化：グループ化の平均で集計したプロジェクトの実績期間を表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+* [表示：タスクと問題の詳細を組み合わせたものを時間リストに表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+* [表示：列に文字列ではなく画像を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+* [[ 表示 ]：標準インタフェースに含まれていないオブジェクトを表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
+* [表示：タスクとプロジェクトの一覧に元の問題情報を表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [表示：タスクビューにプログラムとPortfolio情報を表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
+* [表示：タスクリストでのタスクのインデントの表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [表示：配達確認へのリンクを含むドキュメントレポート](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
 * [表示：列の幅を永続的に編集する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
-* [表示：ユーザーの詳細の展開](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
-* [表示：列の内容を非表示にする](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
-* [表示：親タスク情報の時間](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
+* [表示：ユーザーの詳細の拡張](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
+* [表示：列のコンテンツを非表示にする](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [表示：親タスク情報を含む時間](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
 * [表示：承認情報に関する問題](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
 * [表示：作成者の会社名に関する問題](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
 * [表示：オブジェクトの詳細の解決に関する問題](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
 * [表示：1 つの共有列の複数の列から情報を結合](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
-* [表示：複数行のプロジェクトビュー](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
-* [表示：元のタスクとプロジェクトの問題の詳細](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
-* [表示：タスクをインデントして、タスク内に親子関係を表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
-* [表示：タスクビューの割り当てあたりの計画時間数と実績時間数](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-* [表示：先行者の詳細](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+* [表示：複数行のプロジェクト表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
+* [表示：タスクとプロジェクトの問題の詳細の発生元](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
+* [表示：タスクをインデントして、タスク内に親子関係を表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
+* [表示：タスク・ビューの割当てごとの計画時間と実績時間](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
+* [表示：先行タスクの詳細](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
 * [表示：すべてのプロジェクトチームユーザーと役割を持つプロジェクト](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
-* [表示：役割を持つプロジェクトユーザーのリスト](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
+* [表示：ジョブの役割を持つプロジェクトユーザーのリスト](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
 * [表示：列内のオブジェクトへのリンクを削除](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-report-delivery-details.md" class="MCXref xref" xrefformat="{para}">View: report delivery details</a> </p> </li>
   -->
 
 * [表示：レポートで使用されるレポート要素](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md)
 * [表示：タスクまたはプロジェクトレポート内の解決可能なオブジェクト](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md" class="MCXref xref" xrefformat="{para}">View: Resource Pool quick links</a> </p> </li>
   -->
 
-* [表示：親タスクを最大 4 レベルまで表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+* [表示：最大 4 レベルの深さの親タスクを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
 * [表示：問題の送信パス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
-* [表示：[ すべての日付 ] 差異のあるタスク](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
+* [表示：すべての日付差異のあるタスク](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
 * [表示：スケジュールの例外の影響を受けるタスク](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
 * [表示：カスタムデータフィールドを使用した外部 URL](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
 * [表示：ユーザージョブの役割の FTE 可用性の割合](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
-* [表示：ユーザーの個人的な休暇](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
+* [表示：ユーザーの個人的な休止時間](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-username.md" class="MCXref xref" xrefformat="{para}">View: username</a> </p> </li>
   -->
 
 ## カスタムフィルターのサンプル
 
-* [フィルター：不完全なプロジェクト間先行タスクを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
-* [フィルター：不完全なプロジェクト間の後継者を表示する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
-* [フィルター：承認待ちの現在のプロジェクトを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
+* [フィルタ：不完全なプロジェクト間の先行タスクを表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+* [フィルタ：不完全なクロスプロジェクトの後続プロセスを表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [フィルター：承認待ちの現在のプロジェクトを表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [フィルター：承認ステータスの項目のみを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
-* [フィルター：2 つのフィールドを比較してリスト内の項目を削除する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+* [フィルター：2 つのフィールドを比較して、リスト内の項目を除外します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
 * [フィルター：親タスクを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
-* [フィルター：配達確認の承認レポートを使用して以前の配達確認のバージョンを省略する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
-* [フィルター：同じフィールド（「AND」ステートメント）を参照する複数のフィルタールールを作成する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [フィルター：配達確認の以前のバージョンを省略する配達確認の承認レポート](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+* [フィルター：同じフィールド（「AND」ステートメント）を参照する複数のフィルタールールを作成します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
 * [フィルター：配信予定レポートの表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
-* [フィルター：ステータスが異なるグループに関連付けられている場合は、同じ名前のステータスで項目を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [フィルター：ステータスが異なるグループに関連付けられている場合に、同じ名前のステータスで項目を表示します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
 ## カスタムグループのサンプル
 
 * [複数選択カスタムフィールドでレポートをグループ化する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
 * [グループ化：時間のリスト内のプロジェクト所有者のホームグループ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [グループ化：Portfolio所有者、プログラム所有者、プロジェクト所有者、プロジェクトステータスの 4 レベルのタスクグループ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
-* [グループ化：リストに 4 番目のグループを追加](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [グループ化：グループ化内のすべてのオブジェクトに共通の計算値でリスト結果を整理](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [グループ化：Portfolio所有者、プログラム所有者、プロジェクト所有者、プロジェクトステータスに関する 4 レベルのタスクグループ化](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
+* [グループ化：リストに 4 つ目のグループを追加します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+* [グループ化：グループ化内のすべてのオブジェクトに共通の計算値でリスト結果を整理します。](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [グループ化：グループ化での複数の計算値の集計結果の表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
-* [グループ化：グループ化の結果をテキストモードで折りたたむか展開するかを指定します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
+* [グループ化：テキストモードを使用してグループ化の結果を折りたたむか展開するかを指定します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
 * [グループ化：プロジェクトの割合の分類 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
 * [グループ化：プロジェクトの割合の分類 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
-* [グループ化：プロジェクト — 入力日別](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
-* [グループ化：数時間のプロジェクトスポンサー](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+* [グループ化：プロジェクトを入力日別に作成](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
+* [グループ化：プロジェクトスポンサー（時間）](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
 * [グループ化：タスクリストのプロジェクトスポンサー](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
-* [グループ化：グループ内の表示名を編集](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
+* [グループ化：グループ内の表示名を編集します](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
 * [グループ化：時間のリスト内のプロジェクト所有者のホームグループ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
-* [グループ化：タスクの割合の内訳 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
+* [グループ化：タスクの割合の分類 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-1.md)
 * [グループ化：タスクの割合の分類 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-task-percent-breakdown-2.md)
-* [グループ化：ポートフォリオ別、プログラム別、プロジェクト別のタスク](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
+* [グループ化：ポートフォリオ、プログラム、プロジェクト別のタスク](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-tasks-portfolio-program-project.md)
 
 ## その他のカスタムレポートの要素とレポート
 
-* [レポートまたはリスト：オブジェクトに関連付けられたユーザーを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+* [レポートまたはリスト：オブジェクトに関連付けられたユーザーを表示します。](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
 * [レポート：予算時間](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
-* [レポート：タスクとイシューの表示とグループ化の組み合わせ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
+* [レポート：タスクとイシューの表示とグループ化を組み合わせたレポート](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
 * [複数選択できるカスタムフィールドによってレポートをグラフ化する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
 
 <!--

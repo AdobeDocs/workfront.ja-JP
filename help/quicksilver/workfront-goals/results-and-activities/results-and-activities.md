@@ -6,8 +6,9 @@ title: Adobe Workfront目標の結果とアクティビティ
 description: 結果とアクティビティは、Adobe Workfront目標の目標の進捗状況インジケーターです。 結果とアクティビティの詳細については、次の記事を参照してください。
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -43,14 +44,14 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >この記事で説明する機能を使用するには、以下が必要です。
 >
->* プロ以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
+>* A Pro 以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
 >* Workfrontライセンスに加えて、Adobe Workfront Goals ライセンスが必要です。
 >
 >  Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。
 >
 >Workfront Goals へのアクセスについて詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Workfront目標の進行状況を記録するには、進行状況インジケーターを目標に関連付ける必要があります。 結果やアクティビティに加えて、進行状況を記録するために、プロジェクトや子の目標を目標に関連付けることもできます。
+Workfront目標の進行状況を記録するには、進行状況インジケーターを目標に関連付ける必要があります。 結果やアクティビティに加えて、プロジェクトや子の目標を目標に関連付けて、進捗状況を記録することもできます。
 
 この節では、次の記事を扱います。
 

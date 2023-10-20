@@ -4,21 +4,22 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: メール
-description: Adobe Workfrontの電子メールは、通知、リマインダーおよびユーザーの招待で構成されます。 システム管理者は、多くの電子メール設定を行う責任を負います。ただし、他のユーザー（アクセスレベルに応じて異なります）は、電子メール機能を使用して、作業に関する独自のコミュニケーションを管理するメリットが得られます。
+description: Adobe Workfrontの電子メールは、通知、リマインダーおよびユーザーの招待で構成されます。 システム管理者は、多くの電子メール設定を行う責任を負いますが、他のユーザー（アクセスレベルに応じて）は、電子メール機能を使用して、作業に関する独自の通信を管理するメリットが得られる場合があります。
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # メール
 
-Adobe Workfrontの電子メールは、通知、リマインダーおよびユーザーの招待で構成されます。 システム管理者は、多くの電子メール設定を行う責任を負います。ただし、他のユーザー（アクセスレベルに応じて異なります）は、電子メール機能を使用して、作業に関する独自のコミュニケーションを管理するメリットが得られます。
+Adobe Workfrontの電子メールは、通知、リマインダーおよびユーザーの招待で構成されます。 システム管理者は、多くの電子メール設定を行う責任を負いますが、他のユーザー（アクセスレベルに応じて）は、電子メール機能を使用して、作業に関する独自の通信を管理するメリットが得られる場合があります。
 
 Workfrontの E メール（内部と外部の両方）は多様で動的です。 タスクが遅れた場合に通知する自動通信をユーザーに送信できます。 特定の作業項目に関する通知を設定して、タスクが期限に近づいたときにユーザーに通知することができます。 招待状は、システム管理者にパスワードを管理してもらう代わりに、ユーザーが自分のパスワードを設定できるように設定することができます。
 
@@ -32,7 +33,7 @@ Workfrontでユーザーがコミュニケーションを受け取り、表示�
 * [すべてのグループのイベント通知の設定をロック解除またはロックします](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [イベント通知の電子メールの件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
 * [ユーザーのプロファイルの電子メール通知設定を変更する](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
-* [リマインダー通知の設定](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
+* [リマインダー通知を設定](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [オブジェクトにリマインダー通知を添付する](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [自動リマインダーの設定](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
 * [電子メールテンプレートの設定](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)

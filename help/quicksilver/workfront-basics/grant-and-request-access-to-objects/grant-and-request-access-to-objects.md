@@ -2,19 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: オブジェクトへの権限の付与とリクエスト
+title: オブジェクトに対する権限の付与とリクエスト
 description: Workfrontでオブジェクトに権限を付与してリクエストする方法については、以下の記事を参照してください。
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
 
 ---
 
-# オブジェクトへの権限の付与とリクエスト
+# オブジェクトに対する権限の付与とリクエスト
 
 このセクションでは、オブジェクトに権限を付与してリクエストする方法に関する次の記事について説明します。
 
@@ -38,10 +39,10 @@ ht-degree: 0%
 * [フィルター、表示またはグループ化の共有](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 * [シナリオプランナーでのプランの共有](../../scenario-planner/share-a-plan.md)
 
-   これには、Workfront Scenario Planner に追加のライセンスが必要です。 詳しくは、 [シナリオ・プランナを使用するために必要なアクセス](../../scenario-planner/access-needed-to-use-sp.md).
+  これには、Workfront Scenario Planner に追加のライセンスが必要です。 詳しくは、 [シナリオ・プランナを使用するために必要なアクセス](../../scenario-planner/access-needed-to-use-sp.md).
 
 * [Workfront目標での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
-   そのためには、Workfront Goals の追加ライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  そのためには、Workfront Goals の追加ライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 * [Adobe Workfrontへのアクセスの設定](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).

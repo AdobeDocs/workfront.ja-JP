@@ -4,11 +4,12 @@ navigation-topic: approvals
 title: アルファプログラム — ドキュメントの承認
 description: ドキュメントの承認用のアルファプログラムが開始されました。 最新のアルファリリースに関する情報と、使い始めるための簡単なビデオチュートリアルが表示されます。
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
+recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%

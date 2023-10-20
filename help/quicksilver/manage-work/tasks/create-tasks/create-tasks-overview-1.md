@@ -2,19 +2,20 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: tasks
-title: タスクの作成
+title: タスクを作成
 description: 特定のプロジェクトでタスクを作成することも、[ ホーム ] 領域でタスクを作成することもできます。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# タスクの作成
+# タスクを作成
 
 特定のプロジェクトでタスクを作成することも、[ ホーム ] 領域でタスクを作成することもできます。
 

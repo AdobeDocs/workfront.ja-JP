@@ -6,8 +6,9 @@ title: プロジェクトの財務
 description: 次の記事には、プロジェクトの財務情報を検索できる領域と、プロジェクトの財務管理方法に関する情報が含まれています。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 1%
@@ -22,9 +23,9 @@ ht-degree: 1%
 
 [プロジェクト財務の概要](../../../manage-work/projects/project-finances/project-finances-overview-1.md)
 
-[プロジェクトの財務エリアで情報を管理します](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+[プロジェクトの財務エリアで情報を管理します。](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
-[プロジェクト通貨を変更](../../../manage-work/projects/project-finances/change-project-currency.md)
+[プロジェクトの通貨を変更](../../../manage-work/projects/project-finances/change-project-currency.md)
 
 [プロジェクトの基準に含まれるプロジェクトの財務](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
 
@@ -46,13 +47,13 @@ ht-degree: 1%
 
 [BCWP (Budgeted Cost of Work Performed) の計算](../../../manage-work/projects/project-finances/calculate-bcwp.md)
 
-[予定作業コストの計算 (BCWS)](../../../manage-work/projects/project-finances/calculate-bcws.md)
+[予定作業時間原価の計算 (BCWS)](../../../manage-work/projects/project-finances/calculate-bcws.md)
 
 [正味値を計算](../../../manage-work/projects/project-finances/calculate-net-value.md)
 
 [潜在的なリスクコストの計算](../../../manage-work/projects/project-finances/potential-risk-cost.md)
 
-[プロジェクト計画福利厚生の概要](../../../manage-work/projects/project-finances/project-planned-benefit.md)
+[プロジェクト計画便益の概要](../../../manage-work/projects/project-finances/project-planned-benefit.md)
 
 ## コスト、売上高、費用
 
@@ -82,7 +83,7 @@ ht-degree: 1%
 
 [プロジェクト・レベルの請求率を会社レベルの請求率で上書き](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 
-[ジョブ・ロール請求率の上書きとプロジェクトの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+[ジョブ・ロール請求率の上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
 [プロジェクト・レベルでの役割請求率の上書き](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 

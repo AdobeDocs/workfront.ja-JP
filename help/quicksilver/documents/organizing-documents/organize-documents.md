@@ -3,11 +3,12 @@ content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: ドキュメントを整理
-description: ドキュメントはフォルダで整理できます。 従来のフォルダーやスマートフォルダーを作成できます。
+description: ドキュメントをフォルダーで整理できます。 従来のフォルダーやスマートフォルダーを作成できます。
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: db1887a0-3644-44a7-bb2b-f48ac61c1e38
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # ドキュメントを整理
 
-ドキュメントはフォルダで整理できます。 従来のフォルダーやスマートフォルダーを作成できます。
+ドキュメントをフォルダーで整理できます。 従来のフォルダーやスマートフォルダーを作成できます。
 
 この節では、次の記事を扱います。
 

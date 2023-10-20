@@ -6,8 +6,9 @@ title: 配達確認レビュー担当者を管理
 description: 配達確認のアクセスおよび購読設定を構成する
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b7775036-d603-48c2-9fc5-1335f2ef54be
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '36'
 ht-degree: 0%

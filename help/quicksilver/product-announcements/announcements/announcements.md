@@ -5,8 +5,9 @@ title: お知らせ
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 4%
@@ -19,8 +20,8 @@ ht-degree: 4%
 
 * [カスタムフォームの強化](../../product-announcements/announcements/custom-form-enhancements.md)
 * [メンテナンスウィンドウに関する FAQ](../../product-announcements/announcements/maintenance-window-faq.md)
-* [アナウンスセンターのメッセージの配信停止](unsubscribe-from-ac-messages.md)
-* [配達確認を追加するために必要な変許可リスト更](proofhq-domain-change-workfront.md)
+* [Announcement Center のメッセージの配信停止](unsubscribe-from-ac-messages.md)
+* [配達確認を追加するために必要な変許可リストに加える更](proofhq-domain-change-workfront.md)
 
 
 

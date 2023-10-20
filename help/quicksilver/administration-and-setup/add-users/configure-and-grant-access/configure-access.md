@@ -8,8 +8,9 @@ description: Adobe Workfront管理者は、アクセスレベルを割り当て�
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -42,4 +43,4 @@ ht-degree: 0%
 ## 関連トピック
 
 * アクセスレベルの一般情報については、 [アクセスレベルの仕組み](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
-* ユーザーがオブジェクトを相互に共有する方法、およびこれらのオブジェクトに対する表示および編集権限を付与する方法については、 [オブジェクトへの権限の付与とリクエスト](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) および [アクセスレベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* ユーザーがオブジェクトを相互に共有する方法、およびこれらのオブジェクトに対する表示および編集権限を付与する方法については、「 [オブジェクトに対する権限の付与とリクエスト](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) および [アクセスレベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

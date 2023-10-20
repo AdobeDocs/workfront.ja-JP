@@ -2,19 +2,20 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Adobe Workfront目標設定
+title: Adobe Workfront目標の設定
 description: 目標に関する通知と、Adobe Workfront目標で目標を共有する方法については、次の記事を参照してください。
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 8d475c4b1eb818f4c693ccd3c731201979438459
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront目標設定
+# Adobe Workfront目標の設定
 
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:
 
@@ -42,7 +43,7 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >この記事で説明する機能を使用するには、以下が必要です。
 >
->* プロ以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
+>* A Pro 以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
 >* Workfrontライセンスに加えて、Adobe Workfront Goals ライセンスが必要です。
 >
 >  Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。

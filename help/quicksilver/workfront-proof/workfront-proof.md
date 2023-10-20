@@ -7,8 +7,9 @@ title: Workfront Proof
 description: この節には、次のサブセクションが含まれます - EDIT ME。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 18%
@@ -23,7 +24,7 @@ ht-degree: 18%
 
 このセクションでは、以下のサブセクションについて説明します。
 
-* [使用の手引き [!DNL Workfront Proof]](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+* [の概要 [!DNL Workfront Proof]](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
 * [での配達確認とファイルの操作 [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
 * [[!DNL Workfront Proof] アカウント管理](../workfront-proof/wp-acct-admin/wp-account-admin.md)
 * [[!DNL Workfront Proof] 請求設定](../workfront-proof/wp-billingsettings/wp-billing-settings.md)
@@ -31,5 +32,5 @@ ht-degree: 18%
 * [E メールアラート](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [でのユーザーと連絡先の管理 [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
 * [[!DNL Workfront Proof] モバイル](../workfront-proof/wp-mobile/wp-mobile.md)
-* [[!DNL Workfront Proof] ハイテク企業](../workfront-proof/wp-tech-corner/tech-corner.md)
+* [[!DNL Workfront Proof] 技術コーナー](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] 統合](../workfront-proof/wp-integrations/wp-integrations.md)

@@ -6,8 +6,9 @@ title: レポート
 description: 以下の領域を確認して、Adobe Workfrontでのレポートの使用方法を理解してください。
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 5%

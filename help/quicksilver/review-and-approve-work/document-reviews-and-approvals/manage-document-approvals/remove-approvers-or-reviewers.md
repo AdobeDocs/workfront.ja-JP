@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: ドキュメントから承認者またはレビュー担当者を削除する
 description: ドキュメントから個々の承認者またはレビュー担当者を削除できます。
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
 
 ---
-
 
 # ドキュメントから承認者またはレビュー担当者を削除する
 
@@ -39,24 +39,24 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクト、タスク、タスク、タスク、テンプレート、Portfolio、プログラム、レポート、ダッシュボード、およびカレンダー、ドキュメントへのアクセス権を表示または高く表示します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクト、タスク、タスク、タスク、テンプレート、Portfolio、プログラム、レポート、ダッシュボード、およびカレンダー、ドキュメントへのアクセス権を表示または高く表示します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>リクエストのアクセスまたは承認に関連付けられたオブジェクトへのアクセスを管理します </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## ドキュメントページから承認者またはレビュー担当者を削除します。
 
 1. ドキュメントページに移動するには、ドキュメントの名前をクリックし、バージョンドロップダウンで承認を削除するドキュメントのバージョンを選択します。 デフォルトでは、最新バージョンが選択されます。
 
-1. 選択 **承認** をクリックします。
+1. 選択 **承認** が左側のウィンドウに表示されます。
 
-1. 削除する承認者またはレビュー担当者の名前の上にマウスポインターを置いて、 **削除** アイコン ![](../assets/delete.png) 名前の後に現れる
+1. 削除する承認者またはレビュー担当者の名前の上にマウスポインターを置いて、「 **削除** アイコン ![](../assets/delete.png) 名前の後に現れる
 
    承認またはレビューリクエストが削除され、承認者は、承認が不要になったという通知を受け取ります。 承認関連の共有アクセスも削除されます。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. バージョンドロップダウンで、承認者またはレビュー担当者を削除するドキュメントのバージョンを選択します。 デフォルトでは、最新バージョンが選択されます。
 
-1. 下にスクロールして **承認** 「ドキュメントの概要」ウィンドウの「 」セクションをクリックします。 削除する承認者またはレビュー担当者の名前の上にマウスポインターを置いて、 **削除** アイコン ![](../assets/delete.png) 名前の後に現れる
+1. 下にスクロールして、 **承認** 「ドキュメントの概要」ペインの「 」セクションを参照してください。 削除する承認者またはレビュー担当者の名前の上にマウスポインターを置いて、「 **削除** アイコン ![](../assets/delete.png) 名前の後に現れる
 
    承認またはレビューリクエストが削除され、承認者は、承認が不要になったという通知を受け取ります。 承認関連の共有アクセスも削除されます。
 

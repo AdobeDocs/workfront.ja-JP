@@ -2,19 +2,20 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: グループとチームの操作
+title: グループとチームとの連携
 description: Workfrontでグループやチームを使用する方法については、以下の記事を参照してください。
 author: Lisa
 feature: People Teams and Groups
+recommendations: noDisplay, noCatalog
 exl-id: f5357f8d-9fa0-46f2-9ae5-7fc224c52fc1
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 0%
 
 ---
 
-# グループとチームの操作
+# グループとチームとの連携
 
 この節では、次の記事を扱います。
 

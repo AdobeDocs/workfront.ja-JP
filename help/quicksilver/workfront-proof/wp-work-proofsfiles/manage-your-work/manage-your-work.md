@@ -7,8 +7,9 @@ title: 作業を管理
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b587653a-caad-4f4c-8abf-4733ad2adfb1
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%
@@ -30,7 +31,7 @@ ht-degree: 0%
 * [でカスタムビューを作成および管理する [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
 * [に保存されているファイルをダウンロード [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
 * [で配達確認の詳細を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
-* [配達確認の進行状況とステータスをで表示 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
+* [配達確認の進行状況とステータスの表示 ( ) [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
 * [での配達確認の削除 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
 * [での配達確認の状態を理解する [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
 * [でごみ箱を復元して空にする [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)

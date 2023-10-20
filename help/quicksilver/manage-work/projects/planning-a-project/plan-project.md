@@ -5,8 +5,9 @@ title: プロジェクトの概要の計画
 description: プロジェクトの概要の計画
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 0%
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 ### プロジェクトの開始日と完了日を定義する {#define-the-start-and-completion-date-of-the-project}
 
-プロジェクトを計画する際に、最初に決定する必要があるのはタイムラインです。プロジェクトをいつ開始し、何時までに完了する必要があるか。 プロジェクトが完了する必要がある時期に設定された期限があるか、または開始点を設定してそこから作業を行う必要があるかを決定します。 
+プロジェクトを計画する際、最初に決定する必要があるのはタイムラインです。いつプロジェクトを開始でき、何時までに完了する必要があるかです。 プロジェクトが完了する必要がある時期に設定された期限があるか、または開始点を設定してそこから作業を行う必要があるかを決定します。 
 
 プロジェクトを開始日からスケジュールしたり、完了日からスケジュールしたりできます。 この属性は、プロジェクトを最初に作成するときに設定でき、プロジェクトを編集することでいつでも変更できます。
 
@@ -62,7 +63,7 @@ ht-degree: 0%
 スケジュールに従って次の項目を定義することを検討します。
 
 * 休日
-* オフタイム
+* 休止時間
 * 1 日または 1 週間の作業時間数
 
 プロジェクトでのタスクの進行状況を理解するには、ユーザーがいつ作業できるかを知ることが重要です。 
@@ -78,14 +79,14 @@ ht-degree: 0%
 次の質問をすることを検討してください。
 
 * イベントやプロセスの記録を保持することを義務付ける規制はありますか？ その場合、追跡する必要があるものは何ですか。\
-   Workfrontでは、編集、範囲の変更、ステータスの変更、アクションを記録して、業界に固有の規制に準拠できます。\
-   Workfrontで追跡する更新の定義について詳しくは、 [システムで追跡された更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  Workfrontでは、編集、範囲の変更、ステータスの変更、アクションを記録して、業界に固有の規制に準拠できます。\
+  Workfrontで追跡する更新の定義について詳しくは、 [システムで追跡された更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Workfrontにフィールドがない場合に、そのフィールドを格納するために追跡する必要がある情報はありますか?!表示される場合は、カスタムFormsを作成して、この情報を保存できるプロジェクトやタスクを作成します。\
-   カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-* プロジェクトの作業を続行する前に、承認チェックポイントを付与する必要がありますか？有効にした場合は、プロジェクトの作成時に使用できるプロジェクトまたはタスクに承認プロセスを作成します。\
-   承認プロセスの詳細については、「 [作業項目の承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* プロジェクトでの作業を続行する前に、承認が必要なチェックポイントはありますか？ 「はい」の場合、プロジェクトの構築中に使用できるプロジェクトまたはタスクに対して承認プロセスを作成します。\
+  承認プロセスの詳細については、「 [作業項目の承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## プロジェクトタイムラインの作成
 
@@ -99,19 +100,19 @@ ht-degree: 0%
 * より大きな目標を子タスクに分類し、開始日と終了日を定義します。
 * 目標が他の目標との依存関係を持っているかどうかを判断します。
 
-   これらの依存関係は、先行タスクとして設定できます。
+  これらの依存関係は、先行タスクとして設定できます。
 
-   例えば、アパートを建てるプロジェクトがあるとします。 目的の 1 つには配管系が含まれ、もう 1 つは基礎の敷設です。 配管工事の 1 つは、主要な都市の水線に接続することです。これは、基礎を敷設する前に行う必要があります。 ただし、他の配管タスクのほとんどは、基礎が配置されるまで実行できません。 この場合、前提条件が終了した後に 1 つの目標がいつ開始できるかを理解するために、先行タスクの使用を検討する必要があります。
+  例えば、アパートを建てるプロジェクトがあるとします。 目的の 1 つには配管系が含まれ、もう 1 つは基礎の敷設です。 配管工事の 1 つは、主要な都市の水線に接続することです。これは、基礎を敷設する前に行う必要があります。 ただし、他の配管タスクのほとんどは、基礎が配置されるまで実行できません。 この場合、前提条件が終了した後に 1 つの目標がいつ開始できるかを理解するために、先行タスクの使用を検討する必要があります。
 
-   親タスクを使用して目標を整理する場合、主な目標ごとに 1 つのタスクを作成し、主な目標を個々のタスクに分割する段階に進むと、副タスクを追加できます。 これにより、目的の一部であるタスクがプロジェクト内で整理されます。 
+  親タスクを使用して目標を整理する場合、主な目標ごとに 1 つのタスクを作成し、主な目標を個々のタスクに分割する段階に進むと、副タスクを追加できます。 これにより、目的の一部であるタスクがプロジェクト内で整理されます。 
 
-   タスクの先行タスクの詳細については、 [タスクの先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  タスクの先行タスクの詳細については、「 [タスクの先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * プロジェクトで最も重要な目標を考慮し、マイルストーンタスクとしてフラグを設定します。
 
-   親タスクをマイルストーンとして使用することをお勧めします。
+  親タスクをマイルストーンとして使用することをお勧めします。
 
-   マイルストーンタスクの使用の詳細については、 [マイルストーンパスを作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  マイルストーンタスクの使用の詳細については、「 [マイルストーンパスを作成する](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * 各目標のタイムラインを定義します。 親タスクを操作する場合、各子タスクには、定義済みの開始日と完了日が必要です。 タスクの最も早い開始日から、同じプロジェクト上のタスクの最も遅い完了日までの時間が、プロジェクトタイムラインに表示されます。 
 
@@ -124,25 +125,25 @@ ht-degree: 0%
 * インライン編集でプロジェクトにタスクを追加します。
 * 定義済みのテンプレートタスクを含むテンプレートを使用し、プロジェクトに追加します。 
 
-   テンプレートタスクがプロジェクトのタスクになります。 
+  テンプレートタスクがプロジェクトのタスクになります。 
 
-   タスクの作成について詳しくは、 [プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+  タスクの作成について詳しくは、 [プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 タスクを定義する際は、次の点に注意してください。
 
 * 各タスクのタイムラインを定義します。 これは、各タスクの「期間」フィールドに取り込まれます。
 
-   タスクの期間について詳しくは、この記事を参照してください。 [タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  タスクの期間について詳しくは、この記事を参照してください。 [タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * タスク間の親子関係を定義します。
 * タスク間の先行タスク関係を定義します。
 * マイルストーンパスをプロジェクトに関連付け、マイルストーンを各タスクに関連付けます。 
 
-   マイルストーンタスクの使用の詳細については、「 [マイルストーンパスを作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  マイルストーンタスクの使用の詳細については、「 [マイルストーンパスを作成する](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * 各タスクの完了に必要な作業量を定義します。 これは、各タスクの「予定時間」フィールドに取り込まれます。
 
-   予定時間の詳細については、「 [計画時間の概要](../../../manage-work/tasks/task-information/planned-hours.md).
+  予定時間の詳細については、「 [計画時間の概要](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * 各タスクの完了を担当するユーザーまたはチームに各タスクを割り当てます。
 * タスクに割り当てるユーザーの可用性を確認します。 割り当てられたタスクを完了できるように、タスクが自由に作業でき、割り当て超過になっていないことを確認します。 ユーザーの割り当てが超過している場合や、スケジュールに時間がない場合は、次のいずれかを考慮します。
@@ -150,5 +151,5 @@ ht-degree: 0%
    * 各タスクの計画時間を短縮します。
    * タスクに割り当てられた時間内にタスクを完了できるように、タスクにユーザーを追加します。
    * 他の制約を持たない使用可能なユーザーにタスクを再割り当てします。\
-      プロジェクトリソースの計画の詳細については、「 [Adobe Workfrontでのリソース計画](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      プロジェクトで作業を遂行するためのリソースのスケジュール設定について詳しくは、 [ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+     プロジェクトリソースの計画の詳細については、「 [Adobe Workfrontでのリソース計画](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     プロジェクトで作業を遂行するためのリソースのスケジュール設定について詳しくは、 [ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

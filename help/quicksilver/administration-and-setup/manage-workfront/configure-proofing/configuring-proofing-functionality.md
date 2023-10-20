@@ -8,8 +8,9 @@ description: 組織の校正設定を構成できます。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 62361d01-1154-4d42-aa8d-f68091c76e18
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%

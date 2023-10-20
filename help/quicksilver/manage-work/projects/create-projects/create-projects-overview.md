@@ -6,8 +6,9 @@ title: プロジェクトの作成
 description: プロジェクトの作成に関する情報については、次の記事を参照してください。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: a49c9157-05d8-41a6-93c3-068d835b52e3
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 7%

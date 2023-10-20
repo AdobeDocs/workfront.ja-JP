@@ -7,11 +7,12 @@ title: Adobe Workfrontを管理
 description: Workfrontの管理者は、Workfrontの機能、レポート、メール、セキュリティ、為替レート、削除された項目、診断を、校正するように構成できます。
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 13%
+ht-degree: 20%
 
 ---
 
@@ -24,6 +25,6 @@ ht-degree: 13%
 * [メール](../../administration-and-setup/manage-workfront/emails/emails.md)
 * [セキュリティ](../../administration-and-setup/manage-workfront/security/security.md)
 * [為替レート](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
-* [削除された項目を管理](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
+* [削除された項目の管理](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
 * [診断](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
 * [キックスタート](../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)

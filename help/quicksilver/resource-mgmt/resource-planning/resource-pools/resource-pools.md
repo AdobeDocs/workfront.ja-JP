@@ -5,8 +5,9 @@ title: リソース プール
 description: リソースプールは、Adobe Workfrontでのリソースの管理に役立つユーザーの集まりです。
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: aaf8e6ab-2958-44ad-96ca-0f3d842dd800
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 5%

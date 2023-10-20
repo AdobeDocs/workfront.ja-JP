@@ -6,8 +6,9 @@ title: 作業のレビューと承認
 description: この節には、次のサブセクションが含まれます - EDIT ME。
 author: Courtney
 feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
-source-git-commit: 171ea2fcad223026c7fb560041867be3ebff8741
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 62%

@@ -5,8 +5,9 @@ title: 通知を使用
 description: Adobe Workfrontで通知を使用する方法については、以下の記事を参照してください。
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 1%

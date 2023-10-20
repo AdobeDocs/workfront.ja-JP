@@ -3,19 +3,20 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: 使用の手引き [!DNL Workfront Proof]
+title: の概要 [!DNL Workfront Proof]
 description: この節には、次のサブセクションが含まれます - EDIT ME。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 17%
 
 ---
 
-# 使用の手引き [!DNL Workfront Proof]
+# の概要 [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >

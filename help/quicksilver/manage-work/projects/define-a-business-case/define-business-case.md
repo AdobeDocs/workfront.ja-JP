@@ -5,8 +5,9 @@ title: ビジネスケースの定義
 description: ビジネスケースを作成することで、プロジェクトを正式かつ効率的にリクエストできます。 次の記事では、プロジェクトのビジネス事例を定義する必要がある情報について説明します。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 * [ビジネスケース目標の作成](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md)
 * [ビジネス事例の予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
 * [リソース・プランナを使用したビジネス・ケースの予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
-* [シナリオ・プランナを使用したビジネス・ケースの予算生産資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)
+* [シナリオ・プランナを使用したビジネス・ケースの予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)
 * [プロジェクトにスコアカードを適用し、線形スコアを生成する](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)
 * [ビジネス事例にカスタムフォームを添付する](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
 * [プロジェクトのリスクの作成と編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)

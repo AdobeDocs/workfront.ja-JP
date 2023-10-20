@@ -7,8 +7,9 @@ title: レビュー担当者にメッセージを送信
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: d2e269a7-de26-40c5-b59c-6fcd64758039
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%

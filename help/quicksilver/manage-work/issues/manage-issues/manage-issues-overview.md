@@ -3,11 +3,12 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: issues
 title: 問題の管理
-description: 次の記事では、問題の管理について説明します。
+description: 問題の管理に関する情報を次の記事に示します。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 10%

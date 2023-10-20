@@ -5,13 +5,14 @@ title: 新規ホーム
 description: Adobe Workfrontでの新しいホームの使用方法については、以下の記事を参照してください。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+recommendations: noDisplay, noCatalog
+exl-id: 255bdf57-f145-43e9-999b-e4d0d9acf0cd
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 0%
 
 ---
-
 
 # 新規ホーム
 

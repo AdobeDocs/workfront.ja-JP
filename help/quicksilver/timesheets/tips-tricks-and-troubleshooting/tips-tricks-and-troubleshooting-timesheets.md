@@ -6,8 +6,9 @@ title: タイムシートのヒント、テクニック、トラブルシュー�
 description: 一般的なタイムシートの動作の詳細、またはタイムシートの潜在的な問題のトラブルシューティング方法については、次の記事を参照してください。
 author: Alina
 feature: Timesheets
+recommendations: noDisplay, noCatalog
 exl-id: cf5f93d1-e517-421e-8740-1b80af2ed127
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%

@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: 非有料ユーザーに対する限定的なドキュメントおよび配達確認の決定の概要 
 description: 配達確認とドキュメントの決定は、有料Workfrontライセンスのすべてに対して制限されます。 制限は、ユーザーごとに 1 ヶ月ごとにリセットされます。
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 6%
@@ -66,9 +66,9 @@ ht-degree: 6%
 
 外部ユーザーが決定制限に達した場合、Workfrontへのアクセス権は失われず、意思決定をおこなうことができます。 Adobe Workfrontは超過分を評価します。
 
-## 投稿者ユーザー
+## 寄稿者ユーザー
 
-寄稿者ライセンスを持つユーザーが決定制限に達すると、配達確認とドキュメントに関する無制限の決定を含む Light ライセンスに自動的にアップグレードされます。 Light ライセンスの詳細については、 [ライトアクセスレベル](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) セクション [アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 記事。
+寄稿者ライセンスを持つユーザーが決定制限に達すると、配達確認とドキュメントに関する無制限の決定を含む Light ライセンスに自動的にアップグレードされます。 Light ライセンスの詳細については、 [ライトアクセスレベル](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) セクション内 [アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) 記事。
 
 >[!NOTE]
 >

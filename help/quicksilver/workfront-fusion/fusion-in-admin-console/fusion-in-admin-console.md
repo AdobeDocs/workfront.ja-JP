@@ -8,8 +8,9 @@ title: Adobe Admin ConsoleでのAdobe Workfront Fusion
 description: このテキストを削除し、独自のコンテンツに置き換えます。
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 92185eff-ca16-4d2a-acc6-a0d271203232
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 8%

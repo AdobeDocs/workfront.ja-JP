@@ -7,8 +7,9 @@ title: Basecamp
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: ba0819cf-debd-47eb-ab9d-a326b84aa1e8
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 この節では、次の記事を扱います。
 
-* [配達確認の追加 [!DNL Basecamp] プロジェクト](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-* [統合 [!DNL Workfront Proof] と [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+* [に配達確認を追加 [!DNL Basecamp] プロジェクト](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [統合 [!DNL Workfront Proof] 次を使用 [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
 * [での配達確認の確認 [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
 * [について [!DNL Basecamp] との統合 [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

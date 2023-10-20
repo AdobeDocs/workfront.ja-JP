@@ -6,8 +6,9 @@ title: プログラムの作成と管理
 description: プログラムとは、プロジェクトの境界を越えた共通の戦略、目標、または目標を共有するプロジェクトの集まりを表します。 プログラムは、ポートフォリオ外には存在できません。
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%

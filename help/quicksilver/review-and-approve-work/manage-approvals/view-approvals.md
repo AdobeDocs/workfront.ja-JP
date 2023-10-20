@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: 承認を表示
 description: 承認プロセスを使用すると、プロジェクト、タスクおよびイシューに対する複数手順の承認を柔軟に作成できます。 Adobe Workfront管理者は、システム全体で一貫性を保つための承認プロセスを定義します。
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 承認プロセスの作成について詳しくは、 [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Workfrontでの作業への承認の関連付けについて詳しくは、 [新規または既存の承認プロセスと作業の関連付け](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Workfrontでの作業への承認の関連付けについて詳しくは、 [新規または既存の承認プロセスを作業に関連付ける](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## アクセス要件
 
@@ -39,16 +39,16 @@ Workfrontでの作業への承認の関連付けについて詳しくは、 [新
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>承認に関連付けられたオブジェクトへの表示またはそれ以上のアクセス権</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>承認に関連付けられたオブジェクトへの表示またはそれ以上のアクセス権</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>承認に関連付けられたオブジェクトに対する権限を表示するか、それ以上に設定します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## Adobe Workfrontで承認を検索
 
@@ -58,23 +58,23 @@ Workfrontの複数の領域で承認を表示または管理できます。 様�
 
 * ホームエリア内
 
-   * [ すべて ] または [ 承認 ] を表示するように選択すると、[ ホーム ] 領域に、承認待ちのすべてのプロジェクト、タスク、タスク、タイムシート、ドキュメント、およびアクセスが表示されます。
+   * [ すべて ] または [ 承認 ] を表示するように選択すると、[ ホーム ] 領域に、承認待ちのすべてのプロジェクト、タスク、タスク、タイムシート、ドキュメント、アクセスが表示されます。
    * 自分が送信した承認は、[ 作業リスト ] の [Approvals I&#39;ve Submitted] セクションの [Home] 領域にも表示されます。 詳しくは、 [ホームエリアでの承認用に提出する作業をレビュー](#review-work-you-submit-for-approval-in-the-home-area) 」の節を参照してください。
    * 関連するプロジェクト、タスクまたは問題が「解決済み」、「保留中」、「クローズ済み」または「キャンセル済み」とマークされると、承認はホーム領域から削除されます。
 
-   ホームの使用については、 [ホームを使い始める](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  ホームの使用については、 [ホームを使い始める](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * プロジェクトのヘッダー、タスク、タスク、イシュー、ドキュメントまたは配達確認
-* （プロジェクト、タスクまたはイシューの承認セクション）
+* （プロジェクト、タスクまたはイシューの「承認」セクション）
 * レポート内
 
-   >[!NOTE]
-   >
-   >レポートから承認を決定することはできません。
+  >[!NOTE]
+  >
+  >レポートから承認を決定することはできません。
 
-   承認情報を含むプロジェクト、タスク、タスク、イシューまたはドキュメントの承認レポートを作成できます。
+  承認情報を含むプロジェクト、タスク、タスク、イシューまたはドキュメントの承認レポートを作成できます。
 
-   レポートの作成について詳しくは、 [カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  レポートの作成について詳しくは、 [カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## ホームエリアでの承認用に提出する作業をレビュー {#review-work-you-submit-for-approval-in-the-home-area}
 
@@ -87,9 +87,8 @@ Workfrontの複数の領域で承認を表示または管理できます。 様�
    >* 組織を説明するようにカスタマイズされた画像に置き換えます。 この場合、この記事に示すアイコンは異なります。
    >* リンクされたページを別のページに置き換えます。 この場合、 **メインメニュー** ![](assets/main-menu-icon.png) ページの右上隅にある「 **ホーム**.
 
-
 1. 選択 **作業用リスト**」、「 **フィルター** ドロップダウンメニューで「 」を選択します。 **承認**.
-1. を展開します。 **送信した承認** 」セクションで、送信した承認を確認します。
+1. を展開します。 **送信済みの承認** 」セクションで、送信した承認を確認します。
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
@@ -102,7 +101,7 @@ Workfrontの複数の領域で承認を表示または管理できます。 様�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">更新 </td> 
+   <td role="rowheader">アップデート </td> 
    <td> <p>承認ステータスが発生した場合に、すべて表示します。 承認ステータスは、他のステータスと共に「 <strong>更新</strong> 」セクションに入力します。</p> </td> 
   </tr> 
   <tr> 
@@ -135,10 +134,10 @@ Workfrontの複数の領域で承認を表示または管理できます。 様�
 * どの承認者が既に承認していますか。
 * どの承認者がまだ承認していませんか。
 
-タスクまたはイシューが承認プロセスの現在の状態を確認するには：
+タスクまたはイシューが承認プロセスの現在の状態を確認するには、次の手順を実行します。
 
 1. 承認が関連付けられているプロジェクト、タスク、またはタスクに移動します。
-1. 左側のパネルで、 **承認**. 最初に **さらに表示**.
+1. 左側のパネルで、 **承認**. 最初に **表示を増やす**.
 
    「承認」タブには、過去のすべての承認パスおよびステージに関する完全な情報が表示されます。 誰が承認を決定したか、承認がチーム、ジョブの役割、ユーザーに対して設定されているかを正確に確認できます。
 

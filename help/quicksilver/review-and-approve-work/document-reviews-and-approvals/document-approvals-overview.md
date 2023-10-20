@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: 新しいドキュメント承認の概要
 description: 既に承認待ちのドキュメントに、追加の承認者またはレビュー担当者を追加できます。
 author: Nolan
-feature: Work Management
-source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
+feature: Work Management, Digital Content and Documents
+exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # 新しいドキュメント承認の概要
 
@@ -23,11 +23,11 @@ ht-degree: 0%
 >
 >この記事の内容は、特定のアカウントでのみ使用できる更新済みのドキュメント承認機能を指します。 標準の承認プロセスについて詳しくは、 [作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-## 新機能とデザイン目標
+## 新機能とデザインの目標
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
-* **包括的な関係者参加**\
+* **包括的な関係者の参加**\
     新しいドキュメント承認では、承認プロセスに個々の寄稿者とチーム全体の両方を含めることができます。 このような広範な参加を促進することで、包括的なステークホルダーの関与を確保し、より情報に基づいた協調的な意思決定環境を促進します。
 
 * **差別化されたレビューと承認の役割**\
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 複数のリリースの間、新しいドキュメントの承認をユーザーが利用できるようにしています。 新機能の追加に加え、各リリースで新しいドキュメント承認を利用できるアカウント数も増やします。 アカウント管理者には、変更を通知する Announcement Center の E メールが送信されます。
 
-実稼動環境で新しいドキュメントの承認を有効にしたい場合は、カスタマーサクセスまたは戦略的アカウントマネージャーにお問い合わせください。
+実稼動環境で新しいドキュメントの承認を有効にしたい場合は、カスタマーサクセスまたは戦略アカウントマネージャーにお問い合わせください。
 
 **リリース 1**\
-    プレビュー：2023 年 5 月 31 日\
-    本番：2023 年 6 月 14 日
+    プレビュー： 2023 年 5 月 31 日\
+    実稼動： 2023 年 6 月 14 日
 
-## 新規ドキュメント承認の使用
+## 新しいドキュメント承認の使用
 
 ドキュメント承認の作成または管理をおこなうユーザー向けに、 [ドキュメント承認を管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
 

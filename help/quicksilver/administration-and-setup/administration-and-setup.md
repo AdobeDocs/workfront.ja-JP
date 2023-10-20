@@ -7,8 +7,9 @@ title: 管理と設定
 description: この節では、Workfront システムの管理に必要な情報を確認します。
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 37%
@@ -20,8 +21,7 @@ ht-degree: 37%
 このセクションでは、以下のサブセクションについて説明します。
 
 * [Adobe Workfront管理の概要](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md" class="MCXref xref" xrefformat="{para}">Workfront administration in the Adobe Admin Console</a> </li>
   -->
 

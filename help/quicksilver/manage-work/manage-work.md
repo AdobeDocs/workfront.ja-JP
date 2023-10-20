@@ -2,19 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: 作業を管理
+title: 作業の管理
 description: 次の節では、Adobe Workfrontでの作業の管理に関する記事を紹介します。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 18%
+ht-degree: 30%
 
 ---
 
-# 作業を管理
+# 作業の管理
 
 このセクションでは、以下のサブセクションについて説明します。
 

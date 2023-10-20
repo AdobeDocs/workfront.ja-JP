@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: 新規または既存の承認プロセスと作業の関連付け
-description: この記事では、承認プロセスを作業項目に関連付ける方法について説明します。 承認を配達確認またはドキュメントと関連付ける方法について詳しくは、次の記事を参照してください。
+title: 新規または既存の承認プロセスを作業に関連付ける
+description: この記事では、承認プロセスを作業項目に関連付ける方法について説明します。 承認を配達確認またはドキュメントと関連付ける方法については、次の記事を参照してください。
 author: Courtney and Alina
-feature: Work Management
-exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 7dbb9ca9b26f17710a7897e98dca109b5c886bd7
+feature: Work Management, Digital Content and Documents
+sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
+source-git-commit: e375408e6ccc25ff8d5c1e4f6c4fc7da2208db46
 workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 0%
 
 ---
 
-# 新規または既存の承認プロセスと作業の関連付け
+# 新規または既存の承認プロセスを作業に関連付ける
 
 この記事では、承認プロセスを作業項目に関連付ける方法について説明します。 承認を配達確認またはドキュメントと関連付ける方法について詳しくは、次の記事を参照してください。
 
@@ -53,16 +53,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>プロジェクト、タスク、問題、またはテンプレートへのアクセス権以上の編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクト、タスク、タスク、問題、またはテンプレートへのアクセス権以上の編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>プロジェクト、タスク、イシューまたはテンプレートに対する権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 承認プロセスと作業項目の関連付けに関する考慮事項
 
@@ -79,15 +79,15 @@ ht-degree: 0%
 * 承認プロセスを関連付ける前に、プロジェクト、タスク、タスク、イシュー、テンプレートまたはテンプレートタスクを作成する必要があります。
 * 通過したステータス、および現在アイテムが存在するステータスに対して承認プロセスをアイテムに添付する場合、承認プロセスはトリガーされず、承認者に通知は送信されません。
 
-   **例：** タスクのステータスが「完了」で、「完了」ステータスに関連付けられた承認プロセスを添付した場合、承認はトリガーされません。
+  **例：** タスクのステータスが「完了」で、「完了」ステータスに関連付けられた承認プロセスを添付した場合、承認はトリガーされません。
 
 * アイテムの最初のステータスに承認プロセスを添付すると（タスクとプロジェクトのテンプレートを使用し、問題のキュー設定を使用し、新規タスクのプロジェクトのタスク設定を定義する）、送信された承認が取り消されると、承認プロセスは回避されます。 この場合、承認者は通知を受け取りません。
 
-   承認の呼び出しについて詳しくは、 [承認を表示](../../review-and-approve-work/manage-approvals/view-approvals.md).
+  承認の呼び出しについて詳しくは、 [承認を表示](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
-   >[!TIP]
-   >
-   >タスクまたはタスクの最初のステータスは [ 新規 ] です。 プロジェクトの最初のステータスは、Workfront管理者がシステムのプロジェクト環境設定で選択したステータスです。 詳しくは、 [システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >[!TIP]
+  >
+  >タスクまたはタスクの最初のステータスは「新規」です。 プロジェクトの最初のステータスは、Workfront管理者がシステムのプロジェクト環境設定で選択したステータスです。 詳しくは、 [システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * 承認プロセスとオブジェクトの関連付けは、オブジェクトの「更新」領域には記録されません。
 * 承認プロセスを親タスクに関連付けることはできません。
@@ -102,11 +102,13 @@ ht-degree: 0%
 グローバル承認プロセスは、作業項目に関連付けられたグループまたはシステム内のすべてのグループに対して使用可能である必要があります。
 
 >[!NOTE]
+>
 テンプレートにプロジェクト承認プロセスを添付し、テンプレートタスクにタスク承認プロセスを添付できます。 この操作を行うと、誰かがテンプレートを使用してプロジェクトを作成すると、承認プロセスがそれぞれプロジェクトまたはタスクの承認プロセスになります。 テンプレートタスクまたはテンプレートタスクに添付された単一使用の承認プロセスは、プロジェクトやタスクに対する単一使用の承認プロセスのままです。
 
 Workfrontの管理者がシステム内のすべてのグループに対してグローバルな承認プロセスを設定する方法、およびグループ管理者がグループの承認を作成する方法について詳しくは、 [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 >[!NOTE]
+>
 また、特定のニーズに合わせてグローバルな承認プロセスを変更することもできます。 詳しくは、 [特定のオブジェクトで使用するグローバル承認プロセスを変更する](#modify-a-global-approval-process-for-use-on-a-specific-object) 」を参照してください。
 
 既存のグローバル承認プロセスをプロジェクト、タスク、タスク、発行、テンプレートまたはテンプレートタスクに関連付けるには、次の手順に従います。
@@ -114,7 +116,7 @@ Workfrontの管理者がシステム内のすべてのグループに対して�
 1. 承認プロセスを関連付ける作業項目に移動します。
 1. クリック **承認** をクリックします。
 
-   クリックが必要になる場合があります **さらに表示**&#x200B;を選択し、「 **承認**.
+   クリックが必要になる場合があります。 **表示を増やす**&#x200B;を選択し、次に **承認**.
 
    ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
@@ -142,25 +144,28 @@ Workfront管理者またはグループ管理者が、使用するグローバ�
 関連付けたプロジェクト、タスクまたは問題に対する特定のニーズに合わせて、グローバルな承認プロセスを変更できます。
 
 >[!IMPORTANT]
+>
 グローバル承認プロセスを変更すると、変更したオブジェクトでのみ使用できる単一使用の承認プロセスになります。 グローバルな承認プロセスは変更されません。
+>
 グローバル承認プロセスを変更する際は、次の制限事項を考慮してください。
+>
 * 承認プロセスは、承認プロセスを関連付けるプロジェクト、タスク、または問題に対してのみ変更されます。
 * 管理者が元のグローバル承認プロセスに対して行った今後の変更は、変更したグローバル承認プロセスには反映されません。
 >
-
 
 項目に既に添付されている承認プロセスを変更するには、次の手順に従います。
 
 1. プロジェクト、タスクまたはイシューにグローバルな承認プロセスを追加します。
 
-   手順については、 [グローバル承認プロセスと作業項目の関連付け](#associate-a-global-approval-process-with-a-work-item) 」を参照してください。
+   手順については、「 [グローバル承認プロセスと作業項目の関連付け](#associate-a-global-approval-process-with-a-work-item) 」を参照してください。
 
    >[!IMPORTANT]
+   >
    次をクリックしていることを確認します。 **保存** 承認を追加する際に使用します。
 
 1. グローバル承認プロセスを追加したら、 **編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。 このアクションにより、グローバルまたはグループレベルの承認プロセスが、単一使用の承認プロセスに変わります。
 1. 既存の承認プロセスに変更を加えます。 詳しくは、 [単一使用の承認プロセスをプロジェクト、タスク、タスク、懸案事項、テンプレートまたはテンプレートタスクに関連付ける](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) 」を参照してください。
-1. クリック **保存**&#x200B;を選択し、「 **保存** グローバル承認プロセスを、このオブジェクトでのみ使用可能な単一使用の承認プロセスに変換することを確認する場合に再度表示します。
+1. クリック **保存**&#x200B;を選択し、次に **保存** グローバル承認プロセスを、このオブジェクトでのみ使用可能な単一使用の承認プロセスに変換することを確認する場合に、この操作を繰り返します。
 
 ## 単一使用の承認プロセスをプロジェクト、タスク、タスク、懸案事項、テンプレートまたはテンプレートタスクに関連付ける {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 
@@ -169,6 +174,7 @@ Workfront管理者またはグループ管理者が、使用するグローバ�
 また、単一使用の承認プロセスをテンプレートタスクまたはテンプレートタスクに関連付けて、テンプレートから作成されたプロジェクトやタスクで使用できるようにすることもできます。
 
 >[!NOTE]
+>
 単一使用の承認プロセスを、プロジェクト、タスク、タスク、イシュー、テンプレートまたはテンプレートタスクのシステムレベルまたはグループレベルのステータスに関連付けることができます。 Workfrontのステータスについて詳しくは、 [ステータスの作成または編集](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 この方法で承認プロセスを作成すると、ニーズに合わせてカスタム承認プロセスを作成できます。 ただし、承認プロセスは、将来の他の作業項目と関連付けることはできません。
@@ -180,25 +186,26 @@ Workfront管理者またはグループ管理者が、使用するグローバ�
 1. 承認プロセスを関連付けるプロジェクト、タスク、タスク、タスク、テンプレート、またはテンプレートタスクに移動します。
 1. クリック **承認** をクリックします。
 
-   クリックが必要になる場合があります **さらに表示** > **承認**.
+   クリックが必要になる場合があります。 **表示を増やす** > **承認**.
 
    ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. クリック **単一使用を作成**.
+1. クリック **単一使用の作成**.
 
    ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
-1. この記事の「作業項目のシステムレベルまたはグループレベルのグローバル承認プロセスの作成」の手順 6 から始まる手順を実行します [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. この記事の「作業項目のシステムレベルまたはグループレベルのグローバル承認プロセスの作成」の手順 6 から始まる手順を実行します。 [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: overtime, ensure step 6 is still accurate here)&nbsp;</p>
    -->
 
    >[!TIP]
+   >
    単一使用の承認プロセスを添付すると、「`<Custom>`」と入力します。 テンプレートまたはテンプレートタスクの編集について詳しくは、次の記事を参照してください。
+   >
    * [プロジェクトテンプレートの編集](../../manage-work/projects/create-and-manage-templates/edit-templates.md)
    * [テンプレートタスクの編集](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
-
 
    <!--
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
@@ -218,13 +225,13 @@ Workfront管理者またはグループ管理者が、使用するグローバ�
 1. 以前に追加した承認プロセスを削除するプロジェクト、タスク、タスク、イシュー、テンプレート、またはテンプレートタスクに移動します。
 1. クリック **承認** をクリックします。
 
-   クリックが必要になる場合があります **さらに表示** > **承認**.
+   クリックが必要になる場合があります。 **表示を増やす** > **承認**.
 
    ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. 項目に関連付けられている承認のタイプに応じて、「承認」セクションの右上隅にある次のアイコンの 1 つをクリックします。
 
-   * **削除**&#x200B;アイコン ![](assets/remove-icon---x-in-circle.png) グローバルまたはグループレベルの承認用。
+   * **削除**&#x200B;アイコン ![](assets/remove-icon---x-in-circle.png) グローバルまたはグループレベルの承認の場合。
    * **削除**&#x200B;アイコン ![](assets/delete.png) 単一使用承認用。
 
 1. クリック **削除** または **削除** をクリックして確定します。

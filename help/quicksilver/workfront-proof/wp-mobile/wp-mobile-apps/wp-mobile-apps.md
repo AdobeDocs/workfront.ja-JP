@@ -6,8 +6,9 @@ title: Workfront Proof モバイルアプリ
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%

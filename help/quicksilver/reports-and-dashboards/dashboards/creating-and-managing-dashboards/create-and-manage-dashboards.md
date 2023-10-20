@@ -6,8 +6,9 @@ title: ダッシュボードの作成および管理
 description: Adobe Workfrontでダッシュボードを作成する方法については、以下の記事をご覧ください。
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: a7f29a8e-1aa8-4c6c-adeb-e6177291999a
-source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 10%

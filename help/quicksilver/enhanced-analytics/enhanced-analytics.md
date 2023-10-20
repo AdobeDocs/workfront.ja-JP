@@ -6,8 +6,9 @@ navigation-topic: reports-and-dashboards
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 5d5be823-77d9-4d0c-bec6-cc172ea7f50b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 3%
@@ -18,7 +19,7 @@ ht-degree: 3%
 
 この節では、次の記事を扱います。
 
-* [分析の強化の概要](../enhanced-analytics/enhanced-analytics-overview.md)
+* [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md)
 * [拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)
 * [拡張分析 KPI の理解](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
 * [Enhanced Analytics でのフライトプランビジュアライゼーションの表示](../enhanced-analytics/flight-plan-overview.md)
@@ -29,10 +30,9 @@ ht-degree: 3%
 * [Enhanced Analytics でのチーム別アクティビティのビジュアライゼーションの表示](../enhanced-analytics/activity-by-team-overview.md)
 * [拡張分析でのリソース容量ビジュアライゼーションの表示](../enhanced-analytics/resource-capacity-overview.md)
 * [拡張分析でのチーム容量ビジュアライゼーションの表示](../enhanced-analytics/team-capacity-overview.md)
+  <!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
 
-<!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
-
-<!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 

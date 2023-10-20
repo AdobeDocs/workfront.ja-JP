@@ -5,8 +5,10 @@ navigation-topic: projects-navigation-topic
 title: ドキュメントのレビューと承認
 description: この節では、Adobe Workfrontでのドキュメント承認に関する記事を紹介します。
 author: Nolan
-feature: Work Management
-source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
+feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%

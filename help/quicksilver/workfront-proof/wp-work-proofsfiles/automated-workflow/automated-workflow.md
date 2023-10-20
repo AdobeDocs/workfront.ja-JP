@@ -7,8 +7,9 @@ title: の自動ワークフロー [!DNL Workfront Proof]
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f046bb02-3348-42c0-8307-65c86d4e4789
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%

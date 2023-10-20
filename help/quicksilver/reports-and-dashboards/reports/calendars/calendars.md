@@ -6,8 +6,9 @@ title: カレンダー
 description: Adobe Workfrontのカレンダーレポートについて理解するには、以下の記事を参照してください。
 author: Lisa
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 2%

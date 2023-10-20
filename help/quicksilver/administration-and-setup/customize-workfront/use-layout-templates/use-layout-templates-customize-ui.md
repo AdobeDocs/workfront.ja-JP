@@ -8,8 +8,9 @@ description: Workfront管理者またはグループ管理者は、レイアウ�
 author: Alina
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 2%

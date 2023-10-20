@@ -6,8 +6,9 @@ title: Adobe Workfront forSlack
 description: Adobe Workfrontは、Slackとの統合を提供します。 この記事では、このシナリオの一般的な使用例に関する手順と、設定手順にリンクしています。
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 64fd0473-b29e-4b6f-a847-20a8d29997ee
-source-git-commit: 102fc3c00f442c3ca16b224a03cdb9ea1ed9598c
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 1%

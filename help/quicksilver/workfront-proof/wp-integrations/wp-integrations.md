@@ -7,8 +7,9 @@ title: Workfront Proof 統合
 description: この節には、次のサブセクションが含まれます - EDIT ME。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 06d87c0d-1ec9-453c-8848-e84b2713c22b
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 25%

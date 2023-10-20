@@ -6,8 +6,9 @@ title: ドキュメントを管理
 description: 「ドキュメント」領域のWorkfrontで、ドキュメントを整理および管理できます。
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
-source-git-commit: 16b2675741de3171c8789b33820b7bb5c506b978
+source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 3%

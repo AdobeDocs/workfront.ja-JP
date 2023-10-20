@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: 承認者に送信済みの承認を通知する
 description: 承認者に、次のオブジェクトの保留中の承認に関する通知を送信できます。EDIT ME.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 3%
@@ -38,16 +38,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクト、タスク、タスク、タスク、テンプレート、Portfolio、プログラム、レポート、ダッシュボード、およびカレンダー、ドキュメントへのアクセス権を表示または高く表示します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクト、タスク、タスク、タスク、テンプレート、Portfolio、プログラム、レポート、ダッシュボード、およびカレンダー、ドキュメントへのアクセス権を表示または高く表示します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>リクエストのアクセスまたは承認に関連付けられたオブジェクトへの表示または高いアクセス権 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## アクセス要求
 
@@ -55,7 +55,7 @@ ht-degree: 3%
 
 * プロジェクト
 * タスク
-* 問題
+* イシュー
 * ポートフォリオ
 * プログラム
 * テンプレート
@@ -75,8 +75,7 @@ ht-degree: 3%
    >* 組織を説明するようにカスタマイズされた画像に置き換えます。 この場合、この記事に示すアイコンは異なります。
    >* リンクされたページを別のページに置き換えます。 この場合、 **メインメニュー** ![](assets/main-menu-icon.png) ページの右上隅にある「 **ホーム**.
 
-
-1. 内 **作業用リスト** 領域、 **送信した承認** グループ化。
+1. Adobe Analytics の **作業用リスト** 領域に移動し、 **送信済みの承認** グループ化。
 
 1. を選択します。 **アクセス要求** 承認が必要です。
 
@@ -97,8 +96,7 @@ ht-degree: 3%
    >* 組織を説明するようにカスタマイズされた画像に置き換えます。 この場合、この記事に示すアイコンは異なります。
    >* リンクされたページを別のページに置き換えます。 この場合、 **メインメニュー** ![](assets/main-menu-icon.png) ページの右上隅にある「 **ホーム**.
 
-
-1. 内 **作業用リスト** 領域、 **送信した承認** グループ化。
+1. Adobe Analytics の **作業用リスト** 領域に移動し、 **送信済みの承認** グループ化。
 
 1. クリック **文書** 承認が必要です。
 

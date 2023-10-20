@@ -7,8 +7,9 @@ title: 課金の管理
 description: このセクションには、次の記事が含まれています — EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8c6a8fb5-842f-4322-9a99-550395207206
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
@@ -23,9 +24,8 @@ ht-degree: 0%
 
 この節では、次の記事を扱います。
 
-* [この [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
-
+* [The [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
 * [支払い方法の選択 [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
 * [のダウンロード [!DNL Workfront Proof] 請求書](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [を閉じる [!DNL Workfront Proof] アカウント](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [を閉じます。 [!DNL Workfront Proof] アカウント](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
