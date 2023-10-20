@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ These enhancements will be included in the following releases:
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">タスクリストのリアルタイム更新</a> </p>
+                        <p>[!BADGE In production]{type=Informative}</p>
+                        <p>タスクリストがリアルタイムで更新されるようになりました。 タスクに加えた変更はタスクリスト内で更新され、ページを更新せずにタスクリストを表示しているユーザーに変更を表示できます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：なし<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの本番環境：段階的な展開、2023 年 10 月 19 日完了</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

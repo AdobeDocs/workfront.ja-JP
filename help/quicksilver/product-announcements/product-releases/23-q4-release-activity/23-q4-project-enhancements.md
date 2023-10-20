@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期のプロジェクトの強化
 description: 2023 年第 4 四半期のプロジェクトの強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ ht-degree: 0%
 割り当てがなく、単純期間タイプの定期タスクに計画時間を割り当てる方法を変更しました。 現在は、[ 簡易期間の種類 ] で割り当てを行わない新しい定期タスクに予定時間を設定すると、時間も個々の繰り返しに割り当てられます。 この変更以前は、親タスクが割り当てられていない場合、時間は個々の繰り返しに対して保存されていませんでした。
 
 繰り返しタスクの作成について詳しくは、 [繰り返しタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## タスクリストのリアルタイム更新
+
+タスクリストがリアルタイムで更新されるようになりました。 タスクに加えた変更はタスクリスト内で更新され、ページを更新せずにタスクリストを表示しているユーザーに変更を表示できます。
