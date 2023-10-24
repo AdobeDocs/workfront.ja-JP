@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Adobeマエストロを使用すると、組織で必要なレコードの種類
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   フィールドを追加または削除するには、上記の手順 7～12 の指示に従います。 <!--ensure these step numbers stay accurate-->
+   参照フィールドを追加または削除するには、上記の手順 7～12 の指示に従います。 <!--ensure these step numbers stay accurate-->
 
 1. （オプション）リンク元のレコードタイプから、リンクされたレコードフィールドのヘッダーにある下向き矢印をクリックし、 **削除**.
 
