@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -364,9 +364,9 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクト、タスク、および問題の追跡ウィジェット用の新しいクイックアクセスボタン</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">マイワークウィジェット用の新しいクイックアクションボタン</a> </p>
                         <p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
-                        <p>新しいホームから直接作業を管理する機能をさらに拡張し、プロジェクト、タスク、および問題の追跡ウィジェットに新しいクイックアクセスボタンが追加されました。</p>
+                        <p>新しいホームから直接作業を管理する機能をさらに拡張し、新しいクイックアクションボタンがマイワークウィジェットに追加されました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>

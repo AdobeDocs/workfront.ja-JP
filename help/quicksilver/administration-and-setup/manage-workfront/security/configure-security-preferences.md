@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '802'
 ht-degree: 2%
 
 ---
@@ -111,7 +111,7 @@ Workfrontの実装時にシステム環境設定を指定し、その後は再�
      </tr> 
      <tr> 
       <td role="rowheader">システムのユーザーには、新しいホームエクスペリエンスがデフォルトで表示されます </td> 
-      <td>ユーザーがデフォルトで新しいホームエクスペリエンスを表示するかどうかを指定できます。 有効にした場合でも、ユーザーは個別に新規ホームを有効または無効にすることができます。 無効にした場合、ユーザーは新しいホームを使用するオプションを持ちません。 このオプションは、デフォルトで有効になっています。</td> 
+      <td>ユーザーがデフォルトで新しいホームエクスペリエンスを表示するかどうかを指定できます。 有効にした場合、ユーザーはデフォルトで新しいホームエクスペリエンスを表示しますが、個々に新しいホームを有効または無効にすることを選択できます。 <b>無効にした場合、ユーザーは新しいホームを使用するオプションを持ちません。</b> この設定は、デフォルトで有効になっています。</td> 
      </tr> 
     </tbody> 
    </table>
