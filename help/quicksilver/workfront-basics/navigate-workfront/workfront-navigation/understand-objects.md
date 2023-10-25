@@ -5,9 +5,9 @@ title: でのオブジェクトについて [!DNL Adobe Workfront]
 description: でのオブジェクトについて [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -334,6 +334,10 @@ Report Builder を使用する際に、 [!DNL Workfront] web アプリケーシ�
 * [!UICONTROL ユーザーの委任]
 
   不在時に他のユーザーのタスクや問題を実行するために委任されたユーザーについてレポートできます。 このレポートには、不在のユーザーと不在の間に職務を遂行するユーザーが表示されます。
+
 * [!UICONTROL ユーザーの決定]
+
+  今月にユーザーが配達確認およびドキュメントに対しておこなった決定の数をレポートできます。
+
 * [!UICONTROL ビュー]
 * [!UICONTROL 作業項目] （これにより、タスクと問題に関するレポートが生成されます）

@@ -3,9 +3,9 @@ title: 2023 年第 4 四半期管理者の機能強化
 description: 2023 年第 4 四半期管理者の機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 このページでは、2023 年第 4 四半期のリリースでプレビュー環境に対しておこなわれた管理者向けの機能強化について説明します。 これらの機能強化は、23.10 リリースの実稼動環境で利用できるようになります。
 
 2023 年第 4 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2023 年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## 従来のライセンスモデルのお客様が使用できる配達確認とドキュメントの決定
+
+まだ新しいAdobe Workfrontライセンスモデルに移行していない従来のお客様は、1 ヶ月あたりのユーザーあたりの配達確認/ドキュメントに関する決定数を含むデータを、単一のレポートで表示できるようになりました。 このデータは、ユーザーの決定レポートを実行する際に使用できます。
+
+詳しくは、 [Adobe Workfrontのオブジェクトについて](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) および [すべてのユーザーに対する配達確認およびドキュメントの決定数を表示します](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
 
 ## カスタムフォームの計算フィールドで、$$USER ワイルドカードを使用できるようになりました
 
