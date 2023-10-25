@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,22 @@ These enhancements will be included in the following releases:
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">従来のライセンスモデルのお客様が使用できる配達確認とドキュメントの決定</a></p>
+                        <p>まだ新しいAdobe Workfrontライセンスモデルに移行していない従来のお客様は、1 ヶ月あたりのユーザーあたりの配達確認/ドキュメントに関する決定数を含むデータを、単一のレポートで表示できるようになりました。 このデータは、ユーザーの決定レポートを実行する際に使用できます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動環境：2023 年 10 月 12 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">カスタムフォームの計算フィールドで、$$USER ワイルドカードを使用できるようになりました</a></p>
@@ -494,7 +510,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>[!BADGE In production ]{type=Informative}</p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -502,7 +518,7 @@ These enhancements will be included in the following releases:
                                 <p>プレビューリリース： 2023 年 8 月 25 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span></p>
+                                <p><span class="preview">すべてのお客様向けの実稼動：23.10 リリース以降</span></p>
                             </li>
                         </ul>
                     </td>
