@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '3470'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
-<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2023 年第 4 四半期リリースの概要](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 Adobe Workfrontの作業項目に費やした時間を記録して、その作業項目に費やした時間を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。 記録した時刻がタイムシートに表示されます。
 
@@ -366,14 +368,6 @@ Workfrontの次の領域で時間をログに記録できます。
 
 #### セクションを更新{#updates-section}
 
-<!--remove the note below - October 2023 -->
-
->[!NOTE]
->
-> 現在のアップデートセクションと新しいアップデートセクションの間では、ユーザーインターフェイスのルックアンドフィールに若干の違いがあります。 この節の情報は、新しいコメントエクスペリエンスで表示される機能を指します。
->
->新しい更新の節について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 プロジェクト、タスク、またはイシューの [ 更新 ] セクションに時間を記録するには、次の情報が必要です。
 
 * 作業またはプランのライセンス
@@ -390,7 +384,7 @@ Workfrontの次の領域で時間をログに記録できます。
 1. 左のパネルで、「 」を選択します。 **更新**.
 1. クリック **ログ時間**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   [ ログ時刻 ] ダイアログボックスが表示されます。
+   [ ログの時刻 ] ダイアログボックスが表示されます。
 
    >[!TIP]
    >
@@ -398,7 +392,7 @@ Workfrontの次の領域で時間をログに記録できます。
    >   
    >   「 Enter Days 」ボックスの右上隅に、1 日に含まれる時間数が示されます。
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. 次の情報を指定します。
 

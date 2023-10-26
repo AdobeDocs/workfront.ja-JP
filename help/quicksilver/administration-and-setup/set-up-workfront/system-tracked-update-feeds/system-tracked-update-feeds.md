@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 7%
+source-wordcount: '405'
+ht-degree: 6%
 
 ---
 
 # システムで追跡された更新
+
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] は、オブジェクトの [!UICONTROL 更新] 領域。
 
@@ -32,6 +34,8 @@ The [!UICONTROL 更新] 領域には、次の更新のタイプが含まれま�
 
   システム更新フィードとそれらを有効にする方法について詳しくは、 [システム更新の構成](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
+  ![](assets/system-updates-example-unified-stream.png)
+
   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -40,7 +44,9 @@ The [!UICONTROL 更新] 領域には、次の更新のタイプが含まれま�
 
 ## システムで追跡される更新に関する考慮事項
 
-* [ 更新 ] 領域を持つすべてのオブジェクトに対して、システムで追跡された更新を利用できるわけではありません。 The [!UICONTROL 更新] 領域は、次のオブジェクトに対して使用できます。
+[ 更新 ] 領域を持つすべてのオブジェクトに対して、システムで追跡された更新を利用できるわけではありません。
+
+* The [!UICONTROL 更新] 領域は、次のオブジェクトに対して使用できます。
 
    * [!UICONTROL プロジェクト]
    * [!UICONTROL タスク]
@@ -70,6 +76,7 @@ The [!UICONTROL 更新] 領域には、次の更新のタイプが含まれま�
    * [!UICONTROL テンプレート]
    * [!UICONTROL テンプレート タスク]
    * アドホック [!UICONTROL カード]
+   * [!UICONTROL イテレーション]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -77,17 +84,17 @@ The [!UICONTROL 更新] 領域には、次の更新のタイプが含まれま�
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* ユーザーは、デフォルトでシステムの更新を表示するか、表示しないように選択できます。
+* 新しいコメントエクスペリエンスと従来のコメントエクスペリエンスの違いを次に示します。
 
-  システム更新の表示を無効にする方法については、「 [システム更新を有効または無効にする](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 記事内 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * 新しいコメントエクスペリエンスを使用する場合、ユーザーの更新が「コメント」タブに表示され、システムの更新が「システムアクティビティ」タブに表示されます。
 
-  >[!NOTE]
-  >
-  >現在、コメント作成のエクスペリエンスと [!UICONTROL 更新] 領域 [!DNL Workfront].
-  >
-  > 新しいコメント作成機能を使用する際に、システムの更新を非表示にすることはできません。
-  > 
-  >新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * 従来のコメントエクスペリエンスを使用する場合、システムとユーザーの更新は 1 つの連続したフィードに表示されます。
+
+   * 従来のコメントエクスペリエンスを使用する場合、ユーザーはデフォルトでシステムの更新を表示したり、表示しないように選択したりできます。 新しいコメントエクスペリエンスを使用する場合、システムの更新を無効にすることはできません。
+
+     システム更新の表示を無効にする方法については、「 [システム更新を有効または無効にする](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 記事内 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfrontは、次のオブジェクトに関するシステム追跡された更新を記録しますが、表示を無効にするオプションはありません。
 

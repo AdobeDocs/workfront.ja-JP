@@ -7,23 +7,32 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
+source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '885'
 ht-degree: 3%
 
 ---
 
 # 新しいコメントエクスペリエンス
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
-<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2023 年第 4 四半期リリースの概要](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
-Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、および選択したオブジェクトの更新セクションのパフォーマンスの向上が含まれます。
+>[!IMPORTANT]
+>
+>この記事の情報は、新しいコメント作成機能のベータ段階でリリースされた機能を指します。
+>
+>新しいコメンティングエクスペリエンスのベータプログラムは 2023 年 4 月に開始され、2023 年 10 月に終了しました。
+>
+>ベータ版期間中にリリースされた機能は、2023 年の第 4 四半期リリース（2023 年 10 月）以降お客様はすべて利用できるようになり、ベータ版プログラムは終了しました。
 
-Workfrontの「更新」セクションを含むすべてのオブジェクトで、新しいコメントエクスペリエンスの利用が徐々に可能になり、後で他のAdobe Experience Cloudアプリケーションにも拡張されます。
+<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
+
+The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
 
 <!--For additional resources for the new commenting experience, also see the following articles:
 
@@ -33,7 +42,7 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
 ## 機能
 
-新しいコメントエクスペリエンスには、既存の更新ストリームの改善と変更が含まれます。
+新しいコメントエクスペリエンスには、Adobe Workfrontオブジェクトの「更新」セクションの改善と変更が含まれています。
 
 新しいコメント作成機能に含まれる改善点の一つは次のとおりです。
 
@@ -60,6 +69,8 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 >* プロジェクト
 >* タスク
 >* ドキュメント
+
+詳しくは、 [新しいコメントエクスペリエンスの FAQ](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
 
 次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
 
@@ -409,6 +420,21 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
   </tr>
 
 <tr>
+   <td>コメント内の画像をドラッグ&amp;ドロップ
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>2024 年第 1 四半期 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
+<tr>
    <td>カスタムフォームを編集 
    </td>
    <td>✓ 
@@ -470,54 +496,34 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
 
 新しいコメントエクスペリエンスに最近リリースされた機能とリリースタイムラインについて詳しくは、 [新しいコメントベータ版エクスペリエンスリリースアクティビティ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
+Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 ## 新しいコメントエクスペリエンスを見つける
 
-新しいコメント環境は、現在、次のオブジェクトおよび次の環境で使用できます。
+&lt;! — 重要：従来のエクスペリエンスを削除したら、このバージョンを「更新」作業記事または「更新」セクションの概要に移動します。繰り返し以外は、エクスペリエンスがすべて異なると言います —>
 
-* 実稼動環境では、次の操作をすべてのお客様に実行します。
+現在、すべてのお客様およびすべての環境で、新しいコメント作成機能を利用できます。
 
-   * 更新セクションのベータ版エクスペリエンスを有効にする際に、
+どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
 
-      * 問題、プロジェクト、タスク、およびドキュメント
+* 次のオブジェクトの新しいコメントエクスペリエンスと従来のコメントエクスペリエンスの両方：
 
-     Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      *プロジェクト
+      *タスク（ストーリーを含む）
+      *問題
+      *文書
+      
+      >[!TIP]
+      >
+      この節で説明するように、新しいコメントエクスペリエンス（有効にした場合）または従来のコメントエクスペリエンス（無効にした場合）を表示するには、「新しいコメント」オプションを使用します。 新しいコメントエクスペリエンスがデフォルトです。
+  
+   * 以下に示すオブジェクトの新しいコメントエクスペリエンスのみ。 これらのオブジェクトに対して従来のコメント作成機能を有効にするオプションはありません。
 
-   * デフォルトでは、の唯一のコメントエクスペリエンスとして
-
-      * 目標、ボード上のカード
+      * 目標
 
      >[!NOTE]
      >
      >Workfrontのこの領域にアクセスするには、Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-* <span class="preview"> すべての顧客のプレビュー環境で </span>
-
-  <span class="preview">
-
-   * デフォルトでは、次のオブジェクトの「更新」セクションで「新しいコメントエクスペリエンス」を有効にした場合：
-
-      * プロジェクト
-      * タスク
-      * 問題
-      * ドキュメント
-
-     >[!TIP]
-     >
-     >「新しいコメントエクスペリエンス」オプションは、これらのオブジェクトに対してデフォルトで有効になっています。 「新しいコメント」の切り替えをオフにして、従来のコメントエクスペリエンスを表示できます。
-
-     Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-  </span>
-
-  <span class="preview">
-
-   * デフォルトでは、次のオブジェクトの唯一のコメントエクスペリエンスとして次のようになります。
-
-      * 目標
-
-        >[!NOTE]
-        >
-        >Workfrontのこの領域にアクセスするには、Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
       * ボード上のカード
       * チーム
       * テンプレート
@@ -527,11 +533,12 @@ Workfrontの「更新」セクションを含むすべてのオブジェクト�
       * ポートフォリオ
       * ユーザー
 
-     >[!TIP]
-     >
-     >繰り返しの新しいコメントエクスペリエンスを有効にするオプションはありません。 繰り返しに使用できるのは、従来のコメントエクスペリエンスのみです。
+* 次のオブジェクトに対する従来のコメントエクスペリエンスのみ：
 
-  </span>
+   * イテレーション
+
+     繰り返しの新しいコメントエクスペリエンスを有効にするオプションはありません。 繰り返しに使用できるのは、従来のコメントエクスペリエンスのみです。
+
 
 <!--before August 17: 
 
@@ -554,35 +561,24 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-コメントエクスペリエンスにアクセスする環境に応じて、次のいずれかを実行できます。
+<!--Depending on the environment you access the commenting experience you can do one of the following: 
 
-* 実稼動環境でのコメント作成エクスペリエンスベータ版の有効化
-* <span class="preview">プレビュー環境での従来のコメントエクスペリエンスの有効化 </span>
+* Enable the commenting experience Beta in the Production environment
+* <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>
+-->
 
-実稼動環境で Commenting Experience Beta を有効にするには：
+プロジェクト、タスク、問題およびドキュメントに対して Commenting Experience オプションを有効にするには：
 
 1. 新しいコメントエクスペリエンスを有効にするオブジェクトに移動し、「 **更新** をクリックします。
-1. をクリックします。 **Commenting Beta** 「更新」領域の右上隅を切り替えて、有効にします。
-1. クリック **同意する** （ベータ版使用許諾契約）をクリックします。 これにより、選択したオブジェクトに対する新しいコメントの操作が可能になります。
-1. 更新の入力を開始するには、 **コメント** タブをクリックします。 新しいエクスペリエンスを開く際、「コメント」タブがデフォルトのタブになるようにしてください
+1. （条件付き）無効になっている場合、 **新しいコメント** 」オプションを使用して、この機能を有効にします。 これは、デフォルトで有効になっている必要があります。
+
+   ![](assets/new-commenting-toggle-off-highlighted.png)
+
+1. 更新の入力を開始するには、 **コメント** タブをクリックします。 「コメント」タブは、新しいエクスペリエンスを開いたときのデフォルトのタブです
 
    または
 
    次をクリック：  **システムアクティビティ** 」タブに移動して、Workfrontが生成したアクティビティの更新を表示します。
 
-<span class="preview">
+1. （オプション）新しいコメントエクスペリエンスを無効にして従来のコメントに戻るには、「 **新しいコメント** オプション。
 
-新しいコメントエクスペリエンスを無効にし、以前のエクスペリエンスをプレビュー環境で表示するには、次の手順を実行します。
-
-1. プロジェクト、タスク、タスク、イシューまたはドキュメントに移動し、「 **更新** をクリックします。
-1. 次をクリック： **新しいコメント** 「更新」領域の右上隅を切り替えて、切り替えの選択を解除し、新しいエクスペリエンスを無効にします。
-
-これにより、[ 更新 ] 領域が従来のコメントストリームに変更されます。
-
-1. 更新の入力を開始するには、 **コメント** タブをクリックします。 新しいエクスペリエンスを開く際、「コメント」タブがデフォルトのタブになるようにしてください
-
-   または
-
-   次をクリック：  **システムアクティビティ** 」タブに移動して、Workfrontが生成したアクティビティの更新を表示します。
-
-</span>

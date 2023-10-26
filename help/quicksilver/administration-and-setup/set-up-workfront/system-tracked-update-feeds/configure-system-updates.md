@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: システム更新の構成
 description: Workfrontは、オブジェクトの [!UICONTROL 更新] オブジェクトに対してユーザーが実行した変更を記録する領域。 As a [!DNL Workfront] 管理者は、どのオブジェクトフィールドとアクションを設定できます [!DNL Workfront] システムの更新を記録するトラッキング。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '888'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,11 @@ ht-degree: 7%
 * オブジェクトフィールドでユーザーがおこなった変更
 * オブジェクトに対してユーザーが実行するアクション
 
-これらのシステム更新には、行われた変更、変更を行ったユーザーの名前、変更の日時が含まれます。
+これらのシステム更新には、次の種類の情報が含まれます。
+
+* 変更が加えられた
+* 変更を加えたユーザーの名前
+* 変更日時
 
 システムの更新の詳細については、 [システムで追跡された更新](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 

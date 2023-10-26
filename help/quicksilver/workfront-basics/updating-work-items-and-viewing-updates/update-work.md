@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3617'
 ht-degree: 1%
 
 ---
@@ -17,21 +17,28 @@ ht-degree: 1%
 
 
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 実稼動環境では、毎月のリリース以降、高速リリースを有効にしたお客様も同じ機能を実稼動環境で使用できます。 </span>\
-<span class="preview">高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2023 年第 4 四半期リリースの概要](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
->どの環境から、およびどのオブジェクトからコメントエクスペリエンスにアクセスしたかに応じて、「更新」セクションに異なる機能が表示される場合があります。
+>
+>どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
+>* 新しいエクスペリエンス
+>* 従来のエクスペリエンス
+>* 新しいエクスペリエンスと従来のエクスペリエンス
 >
 >新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新しいコメントエクスペリエンスは、「更新」セクションでのみ使用でき、次の領域では使用できません。
+>新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域からオブジェクトにアクセスする場合は使用できません。
 >
 > * ホーム
 > * リスト内の概要パネル
@@ -169,20 +176,18 @@ drafted for P&P release:
 
 ## 作業項目に更新を追加する
 
-作業項目に更新を追加する方法は、[ 更新 ] セクションのバージョンと選択したオブジェクトによって異なります。
-
-### 現在の更新セクションの作業項目に更新を追加する
-
-<!--on October 26, replace "current" with "legacy"-->
-
->[!NOTE]
+>[!IMPORTANT]
 >
->次の機能は、目標とカードを除くすべてのオブジェクトで使用できます。 Workfront Goals にアクセスするには、追加のライセンスが必要です。 目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
->
->カードの「コメント」セクションと「システムアクティビティ」セクションを有効にすると、「ボード」領域でカードの更新を追加し、表示することができます。 詳しくは、 [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+>このページの情報では、プロジェクト、タスクおよび問題を更新する方法について説明します。
+
+
+作業項目に更新を追加する方法は、使用する「更新」セクションのバージョンに応じて異なります。
+
+### 「レガシー更新」セクションの作業項目に更新を追加する
 
 1. 更新を行う作業項目（プロジェクト、タスク、タスクなど）に移動します。
 1. 次をクリック： **更新** 」セクションに入力します。
+1. （条件付き）有効な場合、 **新しいコメント** オプションを使用して、従来のコメント作成機能を有効にすることができます。
 1. クリック **新しい更新を開始し、** 次に、更新を入力します。
 1. （オプション）リッチテキストを使用するか、更新に絵文字、リンク、画像を追加して、コンテンツを拡張します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
 1. （オプション）作業項目に関する次の情報を更新します。
@@ -236,15 +241,14 @@ drafted for P&P release:
 
 ### 新しいコメントエクスペリエンスを使用して作業項目に更新を追加する
 
-新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. 更新するオブジェクトを探し、その名前をクリックしてオブジェクトのページを開きます。
+1. 更新するオブジェクト（プロジェクト、タスク、またはイシュー）を探し、名前をクリックしてオブジェクトのページを開きます。
 1. クリック  **更新** をクリックします。
+1. （条件付き） **新しいコメント** オプションは無効です。クリックして有効にします。
 
-   The **コメント** 「 」タブがデフォルトで選択されています。
+   これにより、新しいコメントの操作が可能になります。 The **コメント** 「 」タブがデフォルトで選択されています。
 1. でコメントの入力を開始 **新しいコメント** ボックス。
 
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -263,19 +267,23 @@ drafted for P&P release:
    >インジケーターは、コメントがアイテムに送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
    >
    >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント付けエクスペリエンスを使用している場合にのみ表示されます。
-   ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. クリック **送信** をクリックして、Workfrontオブジェクトに更新を追加します。
-1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png)  <span class="preview">コメントの右上隅に</span>を選択し、次に **編集**.
-1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。
-コメントは、送信後 15 件以内に編集する必要があります。 コメントの入力時に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
+1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png) コメントの右上隅で、 **編集**.
+
+   >[!IMPORTANT]
+   >
+   >コメントは、送信後 15 件以内に編集する必要があります。
+
+1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。 コメントの入力時に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
    >[!TIP]
    >
    >現在の年からのコメントでは、日付スタンプに年は表示されません。 タイムスタンプの上にマウスポインターを置くと、年を含む完全な日付が表示されます。
 
 
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -284,34 +292,27 @@ drafted for P&P release:
    >* 別のユーザーに代わってコメントを投稿する場合 (Workfrontまたはグループ管理者として別のユーザーとしてログインする場合 )、他のユーザーとしてログインしている場合はコメントを編集できません。 コメントは、ユーザーとしてログアウトし、自分で再度ログインした後にのみ編集できます。
 
 
-1. （オプション）「 **返信** 既存のコメントに返信するには、上記の手順 4～8 に従います。 <!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. （オプション）「 **返信** または、 **返信を追加…** 「 」領域に移動し、既存のコメントに返信する場合は、上記の手順 4～8 に従います。 <!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-   >[!TIP]
-   >
-   >   <span class="preview">既存の返信に返信を追加する場合は、 **返信を追加…** ボックスを使用するか、 **返信** 元のコメントに対して。 返信はスレッドの最後に追加されます。</span>
+1. （条件付きおよびオプション）コメントの追加中に、「更新」セクションの表示領域の外側に表示されるコメントを他のユーザーが追加した場合は、「 **表示** 青の中に **新しいコメントバナー** をクリックして、これらのコメントを表示します。
 
-
-1. （条件付きおよびオプション）「更新」セクションの表示領域の外側に表示されるコメントを他のユーザーが追加した場合は、 **表示** 青の中に **新しいコメントバナー** をクリックして、これらのコメントを表示します。
-
-   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
+   ![](assets/blue-new-comments-banner-with-view-button.png)
 
    追加のコメントが画面の下部に表示されます。
-
 
 
    >[!NOTE]
    >
    >   「新しいコメント」インジケーターと「表示」ボタンは、新しい更新を入力したユーザーと、現在「更新」セクションを表示しているユーザーの両方が新しいコメントエクスペリエンスを使用している場合にのみ表示されます。
 
-
 1. （オプション） **次に類似** アイコン![](assets/like-icon.png). アイコンは「いいね！」の数に応じて更新されます。
 1. （条件付きおよびオプション）コメントに追加の担当者を含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているエンティティのリストを表示します。
 
-   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
+   ![](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
-   >   <span class="preview">最初の 2 つのタグ付きエンティティの名前が、アバターの横に表示されます。 3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前と追加エンティティの数のみが表示されます。</span>
+   >最初の 2 つのタグ付きエンティティの名前が、アバターの横に表示されます。 3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前と追加エンティティの数のみが表示されます。
 
 1. （オプション） **システムアクティビティ** タブをクリックして、システムによって記録された更新を表示します。 オブジェクトまたはその子オブジェクトが更新されると、Workfrontはその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。
 
@@ -327,7 +328,7 @@ drafted for P&P release:
 
 >[!NOTE]
 >
->リッチテキストツールバーの一部のオプションは、新しいコメントエクスペリエンスでは使用できない場合があります。
+>以下では、特に指定のない限り、新しいコメントエクスペリエンスでのリッチテキストの使用について説明します。
 
 リッチテキストを使用したり、絵文字、リンク、画像などの様々な項目を追加したりして、更新内容を強化できます。
 
@@ -340,15 +341,18 @@ drafted for P&P release:
 
    | **属性** | **ツールバーボタン** | **Macショートカットキー** | **Windows のショートカットキー** |
    |---|---|---|---|
-   | 太字 | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | 太字 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl + I |
    | 下線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、⌘+K を使用します。</br> <br>コメント化ベータ版のエクスペリエンスで、選択したテキストにリンクを貼り付けます (⌘+V)。</br> | <br>「リンクを作成」または「リンクを追加」ボックスを開くには、Ctrl+K を押します。</br> <br>コメントベータ版エクスペリエンスで、選択したテキストにリンクを貼り付けるには、Ctrl+V を使用します。</br> |
+   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>リンクを追加ボックスを開くには、⌘+K を押します。</br> <br>選択したテキストにリンクを貼り付けるには、⌘+V を使用します。</br> | <br>「リンクを追加」ボックスを開くには、Ctrl+K を押します。</br> <br>選択したテキストにリンクを貼り付けるには、Ctrl+V を押します。</br> |
    | 箇条書き | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 番号付きリスト | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | ブロック引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | Ctrl+Shift+9 |
+   | ブロック引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | <br>Ctrl+Shift+9</br> <br>これは、新しいコメントエクスペリエンスでは使用できません。 </br> |
+
+   <!--remove the last row when we remove legacy from the system-->
 
    テキストの書式設定を停止するには、 **リッチテキスト** ツールバー。
+
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
@@ -359,11 +363,13 @@ drafted for P&P release:
    >* 組織が Internet Explorer でWorkfrontを使用している場合、更新に貼り付けた書式付きテキストはリッチテキストの書式が失われ、プレーンテキストとして表示されます。 リッチテキストツールバーの属性を使用して、テキストの書式を変更できます。
    >* リッチテキストの書式設定は、[ タイムシート ] 領域で行われた更新や、レポート内の [ メモ ] および [ 最終条件 ] オブジェクトで表示された更新には使用できません。
 
-1. （オプション）以前の更新のテキストや他のソースのテキストを含め、独自の更新と区別する場合は、ブロック引用としてマークできます。 次をクリック： **ブロック見積もり** アイコン ![](assets/block-quote-small.png) 引用するテキストを入力します。 引用されたテキストは、垂直の灰色の線でマークされて表示されます。 次をクリック： **ブロック見積もり** 通常の書式に戻るにはアイコンを再度使用します。
+1. （オプションおよび条件付き）以前の更新のテキストや他のソースのテキストを含め、独自の更新と区別する場合は、ブロック引用としてマークできます。 次をクリック： **ブロック見積もり** アイコン ![](assets/block-quote-small.png) 引用するテキストを入力します。 引用されたテキストは、垂直の灰色の線でマークされて表示されます。 次をクリック： **ブロック見積もり** 通常の書式に戻るにはアイコンを再度使用します。 これは、新しいコメントエクスペリエンスでは使用できません。
 
-   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-1. （オプション）更新に絵文字を追加します。
+   ![](assets/block-quote-marked-350x144.png)</span>
+
+1. （オプション） **絵文字** アイコン ![](assets/emoji-icon.png) をクリックして、更新に絵文字を追加します。
 
    >[!NOTE]
    >
@@ -384,13 +390,7 @@ drafted for P&P release:
    1. の下 **表示するテキスト**、リンクテキストを入力または貼り付けます。
    1. 「**保存**」をクリックします。
 
-1. （オプション）更新に画像を添付するには、使用する環境に応じて、次のいずれかの操作を実行します。
-
-   * 次をクリック： **画像** アイコン ![](assets/addimageicon-35x32.png) 現在の更新エクスペリエンスを使用する場合は、コンピューター上の画像を参照するか、画像を更新領域にドラッグします。
-
-   または
-
-   次をクリック： **添付ファイルを追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) 新しいコメントエクスペリエンスを使用する場合は、コンピューター上の画像を参照します。 <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
+1. （オプション）更新に画像を添付するには、 **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) 新しいコメントエクスペリエンスを使用する場合は、コンピューター上の画像を参照します。
 
    >[!NOTE]
    >
@@ -400,11 +400,13 @@ drafted for P&P release:
    >* 画像とテキストを含まない更新を送信できます。
    >* 画像を含むコメントを削除する場合、選択したエクスペリエンスに応じて、次のシナリオが存在します。
    >
-   >     * 現在のコメントエクスペリエンスでは、画像は「ドキュメント」領域に残りますが、「更新」セクションには表示されません。
+   >     * 従来のコメントエクスペリエンスでは、画像は「ドキュメント」領域に残りますが、「更新」セクションには表示されません。
    >     * 新しいコメントエクスペリエンスでは、画像は「更新」セクションおよび「ドキュメント」領域から削除されます。 コメントを編集して画像を削除すると、その画像もドキュメント領域から削除されます。
    >* コメントに添付された画像を「ドキュメント」領域から削除すると、その画像はコメントからも削除されます。
 
-1. クリック **更新**  または **送信**（コメント機能ベータ版のエクスペリエンスを使用する場合）
+   <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. クリック **送信** コメントを追加します。
 
 
 ## 更新情報をコピー
@@ -413,13 +415,14 @@ drafted for P&P release:
 
 更新のコピーは、使用するコメントエクスペリエンスに応じて異なります。
 
-### 現在のコメントエクスペリエンスの更新をコピー
+### 従来のコメントエクスペリエンスでの更新のコピー
 
-<!--October 26 - replace current with legacy-->
+<!--remove legacy when removed from the UI-->
 
 * [更新をコピー](#copy-the-update)
 * [スレッドリンクをコピー](#copy-the-thread-link)
 * [更新リンクをコピー](#copy-the-update-link)
+* [引用返信](#quote-reply)
 
 #### 更新をコピー {#copy-the-update}
 
@@ -449,18 +452,35 @@ drafted for P&P release:
 
    ![](assets/copy-update-link-old-ui.png)
 
+
+#### 引用返信
+
+「Quote Reply」オプションは、元のコメントを新しい返信にブロック引用としてコピーします。
+
+1. コピーする更新または返信に移動します。
+1. 次をクリック： **その他** メニュー、次に「 **見積もりの返信**.
+
+   新しいコメントボックスが開き、引用の返信が新しいコメントに含まれ、ブロック引用符としてマークされます。
+
+1. 更新の追加を続行し、「 **返信** をクリックしてコメントを追加します。
+
 ### 新しいコメントエクスペリエンスでの更新のコピー
 
 新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
+次のいずれかの操作を行って、既存のコメントから情報をコピーできます。
+
 * [リンクをコピー](#copy-link)
 * [本文をコピー](#copy-body-text)
+* [見積もりの返信](#quote-reply-1)
+
+![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
 #### リンクをコピー
 
-このオプションは、コメントまたはスレッドのリンクをクリップボードにコピーして、他のユーザーとコメントまたはスレッド全体を共有できるようにします。
+「リンクをコピー」オプションを選択すると、コメントまたはスレッドのリンクがクリップボードにコピーされ、他のユーザーとコメントまたはスレッド全体を共有できます。
 
 1. リンクをコピーする更新に移動します。
 
@@ -468,10 +488,25 @@ drafted for P&P release:
 
 #### 本文をコピー
 
-このオプションは、特定の更新からクリップボードにテキストをコピーします。
+「本文テキストをコピー」オプションは、特定の更新内容からクリップボードにテキストをコピーします。
 
 1. コピーする更新または返信に移動します。
 1. 次をクリック： **その他** メニュー、次に「 **本文をコピー**.
+
+#### 見積もりの返信
+
+「Quote reply」オプションは、元のコメントを新しい返信にブロック引用としてコピーします。
+
+1. コピーする更新または返信に移動します。
+1. 次をクリック： **その他** メニュー、次に「 **見積もりの返信**.
+
+   新しいコメントボックスが開き、引用の返信が新しいコメントに含まれ、ブロック引用符としてマークされます。
+
+   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
+
+1. 更新の追加を続行し、「 **送信** をクリックしてコメントを追加します。
 
 ## 更新または返信の削除
 
@@ -484,7 +519,7 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 表示されるメッセージで、 **確認** または、 **削除**（コメント機能ベータ版のエクスペリエンスを使用する場合）
+1. 表示されるメッセージで、 **削除**.
 
    >[!NOTE]
    >
@@ -492,9 +527,9 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
    削除したコメントに返信が関連付けられている場合は、コメントが削除されたユーザーの名前で削除されたことを示すメッセージが表示されます。
 
-   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span>
+   ![](assets/removed-comment-indicator-new-experience.png)
 
-   コメントベータ版エクスペリエンスを使用する場合、削除されたコメントはWorkfrontから直ちに削除されます。 「更新」セクションを使用するユーザーは、別のユーザーがコメントをリアルタイムで削除しているのを確認します。
+   削除されたコメントは、Workfrontから直ちに削除されます。 「更新」セクションを使用するユーザーは、別のユーザーがコメントをリアルタイムで削除しているのを確認します。
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
@@ -521,18 +556,19 @@ Workfront管理者がユーザーに提供するアクセス権によっては�
 
 -->
 
+
+
 ## システム更新を有効または無効にする
 
-<!--October 2023: remove the whole section because this is no longer possible -->
+<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
 
 <!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
 >新しいコメントエクスペリエンスを使用する際に、システムの更新を無効にすることはできません。
->この節の情報は、現在の更新セクションで利用できる機能のみを示しています。 <!--October 26: replace current with legacy-->
->ベータ版のシステム更新の詳細については、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
-
+>この節の情報は、「レガシーアップデート」節で利用できる機能のみに関するものです。 &lt;! — システムからレガシーを削除する場合は、このセクションを削除します。->
+>新しいコメント作成機能でのシステム更新について詳しくは、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Workfrontオブジェクトの「更新」セクションには、次の 2 種類の情報が表示されます。
 
