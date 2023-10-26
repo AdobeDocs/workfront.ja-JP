@@ -7,7 +7,7 @@ description: Workfrontでは、Experience Manager Assetsやフォルダーにリ
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
+source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -79,6 +79,7 @@ Workfrontでは、Experience Manager AssetsやフォルダーにリンクしたA
 
 1. フォルダーを追加するプロジェクトに移動します。
 1. 選択 **新規追加**&#x200B;次に、管理者が設定した Adobe Experience Manager 統合に移動します。
+
    >[!NOTE]
    >
    >Workfrontの管理者は、この統合に対して任意の名前を選択できるので、Experience Manager AssetsやAssets Essentialsについては特に言及しない場合があります。
