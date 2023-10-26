@@ -2,21 +2,21 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Experience Manager AssetsまたはAssets Essentialsにリンクしたフォルダーの作成
-description: Workfrontでは、Experience Manager AssetsまたはAssets Essentialsにリンクしたフォルダーを作成できます。
+title: Experience Manager AssetsまたはフォルダーにリンクしたAssets Essentialsーの作成
+description: Workfrontでは、Experience Manager AssetsやフォルダーにリンクしたAssets Essentialsーを作成できます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f12b271f87f9f0dfc5a04c019466b83dbe2b08ca
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# Experience Manager AssetsまたはAssets Essentialsにリンクしたフォルダーの作成
+# Experience Manager AssetsまたはフォルダーにリンクしたAssets Essentialsーの作成
 
-Workfrontでは、Experience Manager AssetsまたはAssets Essentialsにリンクしたフォルダーを作成できます。 フォルダーはリンクされているので、フォルダーに追加されたアセットは自動的にWorkfrontと Experience Manager の両方に表示されます。 リンクされたフォルダー内にある場合、手動でアセットを送信する必要はありません。
+Workfrontでは、Experience Manager AssetsやフォルダーにリンクしたAssets Essentialsーを作成できます。 フォルダーはリンクされているので、フォルダーに追加されたアセットは自動的にWorkfrontと Experience Manager の両方に表示されます。 リンクされたフォルダー内にある場合、手動でアセットを送信する必要はありません。
 
 
 ## アクセス要件
@@ -39,7 +39,7 @@ Workfrontでは、Experience Manager AssetsまたはAssets Essentialsにリン�
   <tr>
    <td><strong>製品</strong>
    </td>
-   <td>Experience Manager AssetsまたはAssets Essentialsがあり、ユーザーとして製品に追加されている必要があります。
+   <td>Experience Manager Assetsがas a Cloud Service的またはAssets Essentialsで、ユーザーとして製品に追加されている必要があります。
    </td>
   </tr>
   <tr>
@@ -51,7 +51,7 @@ Workfrontでは、Experience Manager AssetsまたはAssets Essentialsにリン�
   <tr>
    <td><strong>アクセスレベル設定</strong>
    </td>
-   <td>Workfront管理者である。 Workfront管理者について詳しくは、 <strong>ユーザーに完全な管理アクセス権を付与する</strong>.
+   <td>統合を設定するには、Workfront管理者である必要があります。 設定が完了すると、プランライセンスを持つユーザーは、個々のプロジェクトにリンクされたフォルダを設定できます。
    </td>
   </tr>
 </table>
@@ -64,7 +64,7 @@ Workfrontでは、Experience Manager AssetsまたはAssets Essentialsにリン�
 
 始める前に
 
-* Workfront管理者は、統合を設定する必要があります。 詳しくは、 [Experience Manager Assets統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Workfront管理者は、統合を設定する必要があります。 詳しくは、 [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## リンクされたフォルダーの作成
@@ -81,7 +81,7 @@ Workfrontでは、Experience Manager AssetsまたはAssets Essentialsにリン�
 1. 選択 **新規追加**&#x200B;次に、管理者が設定した Adobe Experience Manager 統合に移動します。
    >[!NOTE]
    >
-   >Workfrontの管理者は、この統合に対して任意の名前を選択できます。したがって、Experience Manager AssetsやAssets Essentialsについては特に言及しない場合があります。
+   >Workfrontの管理者は、この統合に対して任意の名前を選択できるので、Experience Manager AssetsやAssets Essentialsについては特に言及しない場合があります。
 
 1. 選択 **リンクされたフォルダーを作成**. 統合が設定された際に指定された場所に基づいて、Experience Manager内にフォルダーが自動的に作成されます。
    ![リンクされたフォルダーを作成](assets/linked-folder.png)
