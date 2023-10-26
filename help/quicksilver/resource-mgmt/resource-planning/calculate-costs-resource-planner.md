@@ -6,7 +6,7 @@ description: Adobe Workfront Resource Planner でリソースを予算設定す�
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1445'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # リソースプランナーでコストを計算する
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -52,20 +50,20 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>リソース・プランナの編集優先度と予算時間へのアクセスを含むリソース管理へのアクセスを編集します</p> <p>財務データ、プロジェクト、ユーザーへのアクセスを編集</p> <p><b>メモ</b>
+   <td> <p>リソース・プランナの編集優先度と予算時間へのアクセスを含むリソース管理へのアクセスを編集します。</p> <p>財務データ、プロジェクト、ユーザーへのアクセスを編集</p> <p><b>メモ</b>
 
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財政を管理する機能を持つ、予算情報を作成するプロジェクトに対する権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>財政を管理する機能を持つ、予算情報を作成するプロジェクトに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
-## リソースプランナにコスト別の情報を表示
+## リソース・プランナにコスト別の情報を表示
 
 デフォルトでは、稼働状況および配賦情報は、リソース・プランナの「時間」に表示されます。
 
@@ -74,12 +72,12 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
 
 1. クリック **リソース**.
-1. 「生産資源プランナ」に移動します。
+1. 「リソース・プランナ」に移動します。
 1. （条件付き）選択 **プロジェクト別に表示** または **ロール別に表示**.\
    デフォルト **プロジェクト別に表示** が選択されている。\
    配分および稼動状況の情報は、「時間」に表示されます。
 
-1. 次の **時間** ドロップダウンメニューで、「 **コスト**.
+1. 次から： **時間** ドロップダウンメニューで、「 **コスト**.
 
    アクセス・レベルで財務データにアクセスできない場合、このオプションは使用できません。\
    プロジェクトの通貨がシステム通貨と異なる場合、これらのプロジェクトの原価はシステムの通貨で換算されたリソース・プランナに表示されます。 システム管理者がシステム通貨を定義します。\
@@ -122,7 +120,7 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 </tr> 
   <tr> 
    <td>プロジェクトの利用可能なコスト</td> 
-   <td> <p>「使用可能なプロジェクトあたりのコスト」は、次の式で計算されます。</p> <p><code>Available Project Cost = SUM(User Available Hours * User Cost per Hour Rate)</code> </p> </td> 
+   <td> <p>「使用可能なプロジェクトあたりのコスト」は、次の式を使用して計算されます。</p> <p><code>Available Project Cost = SUM(User Available Hours * User Cost per Hour Rate)</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,28 +129,24 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
 リソース・プランナではタスク情報を表示できませんが、ユーザー、ロールおよびプロジェクトの計画原価は、次のタスク情報を考慮して計算されます。
 
-* タスクの割り当ての種類を指定します。\
+* タスクに対する割り当ての種類を指定します。\
   タスクの割り当てを解除するか、タスクに次のエンティティを割り当てることができます。
 
-   * ユーザー（ジョブロールの有無）
+   * ユーザー（ジョブロールの有無に関わらず）
    * 役割
-   * チーム\
+   * A チーム\
      チームに割り当てられたタスクは、リソースプランナーの観点から未割り当てと見なされます。
 
-* この **コストタイプ** プロジェクト上のタスクの\
+* The **コストタイプ** プロジェクト上のタスクの数を示します。\
   タスクのコストタイプの詳細については、 [コストの追跡](../../manage-work/projects/project-finances/track-costs.md).
 
-<div class="preview">
-
-* 役割およびユーザーの原価率の有効日。
+* ジョブの役割およびユーザーの原価率の有効日。
 
   例えば、役割またはユーザーが 2 月に 10 時間計画し、3 月に 10 時間計画したが、3 月にコストレートが$12 から$20 に変更された場合、2 月の計画コストの値は$120、3 月には$200 になります。
 
-</div>
-
 >[!NOTE]
 >
->ユーザー計画原価はプロジェクト計画原価に影響しません。 「役割計画原価」のみが、資源プランナのプロジェクト計画原価に影響を与えます。
+>ユーザー計画原価は、プロジェクト計画原価に影響を与えません。 「役割計画原価」のみが、リソース・プランナのプロジェクト計画原価に影響を与えます。
 
 ユーザー、役割およびプロジェクトの計画原価を計算する場合は、次のシナリオが存在します。
 
@@ -166,17 +160,13 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      プロジェクトの計画コストは$0.00 です。
 
-* 次の場合に **コストタイプ** が **1 時間ごとのユーザー** そしてそこに **ユーザー割り当て** タスクの
+* 次の場合に **コストタイプ** 次に該当 **1 時間ごとのユーザー** そしてそこに **ユーザー割り当て** タスクの
 
    * **役割とユーザーの計画コスト**:
 
      「ユーザー計画原価」は、次の式を使用して計算されます。
 
-
-
-     ```
-     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-     ```
+     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
      ユーザーのプロファイルにコスト・レートが含まれている場合、そのレートを使用して「計画コスト」が計算されます。 それ以外の場合は、システムレベルのプライマリロールの 1 時間あたりのコスト率が使用されます。
 
@@ -186,15 +176,13 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      「ロール計画原価」は、次の式を使用して計算されます。
 
-     ```
-     Role Planned Cost = SUM(User Planned Cost)
-     ```
+     `Role Planned Cost = SUM(User Planned Cost)`
 
    * **プロジェクト計画コスト**:
 
      プロジェクトの計画コストは$0.00 です。
 
-* 次の場合に **コストタイプ** が **1 時間ごとのユーザー** そしてそこに **ジョブロールの割り当て** タスクの
+* 次の場合に **コストタイプ** 次に該当 **1 時間ごとのユーザー** そしてそこに **ジョブの役割の割り当て** タスクの
 
    * **役割とユーザーの計画コスト**:
 
@@ -202,9 +190,7 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      「ロール計画原価」は、次の式を使用して計算されます。
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      タスクに割り当てられたジョブロールのシステム・レベルの 1 時間あたりのコスト率は、計画原価の計算に使用されます。
 
@@ -212,7 +198,7 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      プロジェクトの計画コストは$0.00 です。
 
-* 次の場合に **コストタイプ** が **1 時間ごとの役割** そしてそこに **割り当てなし** タスクの
+* 次の場合に **コストタイプ** 次に該当 **1 時間ごとの役割** そしてそこに **割り当てなし** タスクの
 
    * **役割とユーザーの計画コスト**:
 
@@ -222,7 +208,7 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      プロジェクトの計画コストは$0.00 です。
 
-* 次の場合に **コストタイプ** が **1 時間ごとの役割** そしてそこに **ユーザー割り当て** タスクの
+* 次の場合に **コストタイプ** 次に該当 **1 時間ごとの役割** そしてそこに **ユーザー割り当て** タスクの
 
    * **役割とユーザーの計画コスト**:
 
@@ -230,9 +216,7 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      「ロール計画原価」は、次の式で計算されます。
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfrontは、ユーザーがタスクで実行する役割を調べて、役割の計画原価を計算します。
 
@@ -242,11 +226,9 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      プロジェクト計画原価は、次の式を使用して計算されます。
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
-* 次の場合に **コストタイプ** が **1 時間ごとの役割** そしてそこに **ジョブロールの割り当て** タスクの
+* 次の場合に **コストタイプ** 次に該当 **1 時間ごとの役割** そしてそこに **ジョブの役割の割り当て** タスクの
 
    * **役割とユーザーの計画コスト**:
 
@@ -254,9 +236,7 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      「ロール計画原価」は、次の式で計算されます。
 
-     ```
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfrontは、ユーザーがタスクで実行する役割を調べて、役割の計画原価を計算します。
 
@@ -264,9 +244,7 @@ Adobe Workfront Resource Planner でリソースを予算設定するには、Ho
 
      プロジェクト計画原価は、次の式を使用して計算されます。
 
-     ```
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>
@@ -323,12 +301,12 @@ User Planned Costs do not influence the Project Planned Cost. Only the Role Plan
 </table>
 -->
 
-## リソース・プランナの予算原価の計算
+## リソース・プランナでの予算原価の計算
 
 予算原価の値を生産資源プランナに表示するには、次の条件を満たす必要があります。
 
 * 役割、ユーザーおよびプロジェクトの予算時間。
-* ユーザーおよびロールの時間あたりのコスト率。
+* ユーザーおよびロールの 1 時間あたりのコスト率。
 
 >[!NOTE]
 >
@@ -356,7 +334,7 @@ User Planned Costs do not influence the Project Planned Cost. Only the Role Plan
    <td>ロールの予算コスト</td> 
    <td> <p>役割の予算原価は、次の式を使用して計算されます。</p> <p><code>Role Budgeted Cost = Role Budgeted Hours * Role Cost per Hour Rate</code> </p> <p> <p><b>メモ</b>
 
-役割に時間あたりのコスト率がない場合、予算ロールコストは$0.00 です。</p> </p> </td>
+役割に時間あたりのコスト率がない場合、予算役割コストは$0.00 です。</p> </p> </td>
 </tr> 
   <tr> 
    <td>プロジェクト予算計上コスト</td> 

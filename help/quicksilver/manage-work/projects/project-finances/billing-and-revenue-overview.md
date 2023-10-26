@@ -7,9 +7,9 @@ description: プロジェクトマネージャーは、請求率を使用して�
 author: Alina, Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 プロジェクトマネージャーは、請求率を使用して、プロジェクトの売上高を把握できます。
 
-この記事では、プロジェクトの売上高の追跡について説明します。 売上高の計算は、使用率レポートでは異なります。 使用率レポートの収益計算の詳細は、 [リソース使用率情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+この記事では、プロジェクトの売上高の追跡について説明します。 売上高の計算は、使用率レポートでは異なります。 稼働率レポートの収益計算の詳細は、 [リソース使用率情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## 請求率の概要
 
@@ -39,7 +39,7 @@ ht-degree: 0%
   >
   >請求レコードを請求としてマークした場合、そのレコードは編集できません。 これは、レートが異なり、プロジェクトの売上高と費用の情報をロックする場合に重要です。 請求レコードに追加して請求としてマークすると、システムで料金が更新された場合に、請求が更新されなくなります。
 
-  請求レコードの作成の詳細については、「 [請求レコードの作成](../../../manage-work/projects/project-finances/create-billing-records.md).
+  請求レコードの作成について詳しくは、 [請求レコードの作成](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 * ユーザーや役割に対する請求率を作成したり、プロジェクトやタスクに対して 1 回限りの請求率を設定したりできます。
 
@@ -54,37 +54,21 @@ ht-degree: 0%
 
 ### ユーザーの請求率 {#user-billing-rates}
 
-ユーザー管理者は、ユーザーを作成する際に、プロファイルの「 Billing Per Hour 」フィールドに値を指定することで、ユーザーを請求率に関連付けることができます。
+ユーザー管理者は、ユーザーを作成する際に、「時間当たりの請求」フィールドの値とレートの日付を指定することで、ユーザーを日付有効の請求レートに関連付けることができます。
 
 ユーザーの作成について詳しくは、 [ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-![](assets/qs-user-edit-ui-with-rp-and-billing-per-hour-field-1-350x152.png)
-
-<div class="preview">
-
-プレビュー環境で、「時間当たりの請求」フィールドの値と料金の日付を指定することで、ユーザーを有効日の請求レートに関連付けることができます。
-
 ![ユーザーコストと請求率の編集](assets/edit-user-cost-billing-rate-1.png)
-
-</div>
 
 ### ジョブロール請求率 {#job-role-billing-rates}
 
-Adobe Workfront管理者は、ジョブの役割を作成する際に、「 Billing/Hour 」フィールドに値を指定することで、その役割を請求率に関連付けることができます。
+Adobe Workfront管理者は、ジョブロールを作成する際に、「時間当たりの請求」フィールドの値とレートの日付を指定することで、ジョブロールを日付有効請求レートに関連付けることができます。
 
 Workfrontシステムのベース通貨を使用するか、別のカスタム通貨を使用して、ジョブロールの請求率の値を定義できます。
 
-ジョブの役割の作成とその通貨の上書きの詳細については、この記事を参照してください [ジョブの役割の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+ジョブの役割の作成とその通貨の上書きの詳細については、この記事を参照してください。 [ジョブの役割の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![](assets/billing-rate-for-role-1-350x294.png)
-
-<div class="preview">
-
-プレビュー環境で、「時間当たりの請求」フィールドの値とレートの日付を指定することで、ジョブの役割を日付有効な請求レートに関連付けることができます。
-
-![ジョブロールのコストと請求率を編集](assets/edit-job-role-multiple-billing-rates.png)
-
-</div>
+![ジョブロールのコストと請求率を編集します](assets/edit-job-role-multiple-billing-rates.png)
 
 ### プロジェクトまたはタスクの固定請求率 {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -105,11 +89,11 @@ Workfrontシステムのベース通貨を使用するか、別のカスタム�
 
 * 特定の会社
 
-  会社に固有の役割の請求率の作成の詳細については、 [会社の作成と編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+  会社に固有の役割の請求率の作成について詳しくは、 [会社の作成と編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 * 特定のプロジェクト
 
-  プロジェクト固有のジョブロール請求率の作成の詳細については、この記事を参照してください。 [ジョブ・ロール請求率の上書きとプロジェクトの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  プロジェクト固有のジョブロール請求率の作成の詳細については、この記事を参照してください。 [ジョブ・ロール請求率の上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## 売上高の追跡
 
@@ -125,8 +109,8 @@ Workfrontでは、タスクの予定時間に基づいてタスクが作成さ�
  <tbody> 
   <tr> 
    <td role="rowheader">予定収益</td> 
-   <td> <p>タスクの場合は、予定時間に関連付けられた収益です。 すべてのタスクからの計画時間は、プロジェクトの計画時間にロールアップされ、プロジェクトの計画時間の計算に役立ちます。 </p> <p>Workfrontでの予定時間について詳しくは、 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計画時間の概要</a>. </p> <p>Workfrontは、次の式を使用してタスクの計画収益を計算します。</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><span class="preview"><strong>注意</strong></br> フォーミュラ内の請求時間率では、レートの有効日変更が考慮されます。</span></p> <p>Workfrontは、次の式を使用して、プロジェクトの計画収益を計算します。</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <td> <p>タスクの場合、これは予定時間タスクに関連付けられた収益です。 すべてのタスクからの計画時間は、プロジェクトの計画時間にロールアップされ、プロジェクトの計画時間の計算に役立ちます。 </p> <p>Workfrontでの予定時間について詳しくは、 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計画時間の概要</a>. </p> <p>Workfrontは、次の式を使用してタスクの計画収益を計算します。</p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>注意</strong></br> フォーミュラ内の請求時間率では、レートの有効日変更が考慮されます。</p> <p>Workfrontは、次の式を使用して、プロジェクトの計画収益を計算します。</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>メモ</b>
 
 <p>「プロジェクト詳細」領域およびプロジェクト・レポートに表示されるプロジェクト計画収益は、「稼働状況」レポートに表示される計画収益とは異なります。 </p> <p>「プロジェクトの詳細」領域の「計画収益」には、タスク「計画時間」に関連付けられたタスク収益と、プロジェクトの固定収益が反映されます。 「稼働率レポート」の「計画収益」には、プロジェクトのタスク割り当てからの計画時間に関連付けられた計画収益のみが表示されます。 </p> 
@@ -140,7 +124,7 @@ Workfrontでは、タスクの予定時間に基づいてタスクが作成さ�
   </tr> 
   <tr> 
    <td role="rowheader">実収益*</td> 
-   <td> <p>実際のタスク時間、タスク数、タスク数、およびプロジェクト数に関連付けられています。 </p> <p>一般に、Workfrontは次の式を使用して実際の売上高を計算します。</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><span class="preview"><strong>注意</strong></br> フォーミュラ内の請求時間率では、レートの有効日変更が考慮されます。</span></p> <p>稼働率レポートの実際の収益計算の詳細は、 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">リソース使用率情報の表示 </a>. </p> <p><b>ヒント</b>
+   <td> <p>実際のタスク時間、タスク数、タスク数、およびプロジェクト数に関連付けられています。 </p> <p>一般に、Workfrontは次の式を使用して実際の売上高を計算します。</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>注意</strong></br> フォーミュラ内の請求時間率では、レートの有効日変更が考慮されます。</p> <p>稼働率レポートの実際の収益計算の詳細は、 <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">リソース使用率情報の表示 </a>. </p> <p><b>ヒント</b>
 
 実際の売上高は問題レベルで表示できませんが、問題に関する実際の時間に関連付けられた売上高は、プロジェクトの実際の売上高に貢献します。 </p> </td>
 </tr> 
@@ -170,7 +154,7 @@ Workfrontでは、タスクの予定時間に基づいてタスクが作成さ�
 ## タスクの収益タイプの概要 {#overview-of-task-revenue-types}
 
 デフォルトでは、すべての新しいタスクの売上高タイプは、Workfrontまたはグループ管理者が指定したタスクと問題の環境設定に従って設定されます。\
-Workfrontインスタンスのタスクと問題の環境設定の定義について詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfrontインスタンスのタスクと問題の環境設定の定義について詳しくは、 [システム全体のタスクと問題の環境設定を構成する](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 プロジェクト所有者は、タスクの収益タイプおよびプロジェクトの固定売上高を変更できます。\
 プロジェクトの固定売上高の指定の詳細については、「 [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).\
@@ -195,14 +179,14 @@ Workfrontインスタンスのタスクと問題の環境設定の定義につ�
   <tr> 
    <td> <p>ユーザー (毎時)</p> </td> 
    <td> <p>このタイプは、タスクにのみ使用できます。 </p> <p>特定のユーザーに設定した請求率に、そのタスクの計画時間数を掛けた値が、タスクの計画収益金額になります。 特定のユーザーに設定した請求率に、タスクに対してユーザーがログを記録する時間数を掛けた値が、タスクの実際の売上高になります。 <br>たとえば、ユーザーを作成し、[ 時間当たりの請求 ] フィールドに$20 を設定した場合、ユーザーがタイムシートのタスクに対して 5 時間を送信した場合、タスクの [ 実績請求 ] の値は$100 になります。</p>
-   <p><span class="preview">ユーザープロファイルには、有効日付と共に複数の請求率を含めることができます。 例えば、最初のユーザーの請求率$20 は 2023 年 4 月 30 日に終了し、2 番目のユーザーの請求率$25 は 2023 年 5 月 1 日に開始します。 ユーザーがタスクに対して 4 月 28 日に 2 時間、5 月 2 日に 3 時間を送信した場合、タスクの実際の請求額は$40 + $75 = $115 になります。</span></p>
+   <p>ユーザープロファイルには、有効日付と共に複数の請求率を含めることができます。 例えば、最初のユーザーの請求率$20 は 2023 年 4 月 30 日に終了し、2 番目のユーザーの請求率$25 は 2023 年 5 月 1 日に開始します。 ユーザーがタスクに対して 4 月 28 日に 2 時間、5 月 2 日に 3 時間を送信した場合、タスクの実際の請求額は$40 + $75 = $115 になります。</p>
    <p><b>ヒント</b>
 
 これは、タスクを作成する際のデフォルトの収益タイプです。</p> </td>
 </tr> 
   <tr> 
    <td> <p>役割 (毎時)</p> </td> 
-   <td> <p>このタイプは、タスクにのみ使用できます。</p> <p>このタイプは「1 時間ごとのユーザー」に似ていますが、ユーザー率ではなくジョブの役割率を使用します。</p> <p><span class="preview"><strong>注意</strong><br>また、ジョブロールには、有効日付と共に複数の請求率を設定できます。</span></p></td> 
+   <td> <p>このタイプは、タスクにのみ使用できます。</p> <p>このタイプは「1 時間ごとのユーザー」に似ていますが、ユーザー率ではなくジョブの役割率を使用します。</p> <p><strong>注意</strong><br>また、ジョブロールには、有効日付と共に複数の請求率を設定できます。</p></td> 
   </tr> 
   <tr> 
    <td> <p>キャップ付き 1 時間ごとのユーザー</p> </td> 
@@ -245,7 +229,7 @@ Workfrontインスタンスのタスクと問題の環境設定の定義につ�
 
 コストの追跡の詳細については、「 [コストの追跡](../../../manage-work/projects/project-finances/track-costs.md).
 
-時間のタイプの詳細については、 [時間タイプの管理](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+時間のタイプの詳細については、「 [時間タイプの管理](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## 売上高の計算
 
@@ -256,13 +240,13 @@ Workfrontインスタンスのタスクと問題の環境設定の定義につ�
 タスクの売上高を計算する際は、次の点に注意してください。
 
 * ユーザーまたはジョブの役割に$0.00 のレートが表示される場合、Workfrontはその値を有効な金額として読み取り、この金額にタスクの時間数を掛けて売上高を計算します。 タスクに売上高を表示しない場合は、ユーザーまたはジョブの役割の請求率のフィールドが空であることを確認してください。
-* ジョブロールの請求率が適用される場合、Workfrontは、プロジェクトに上書き率があるたびに、システムレベルで定義されたそのロールの請求率の代わりに、プロジェクトレベルの上書き率を使用します。
-* <span class="preview">実際の収益の場合、ユーザーまたはジョブの役割に有効日付と共に複数の請求率がある場合、タスクの収益は、ユーザーが時間を記録した各期間の収益の合計になります。 計画収益は、その期間の計画時間に基づきます。</span>
+* ジョブロールの請求率が適用される場合、Workfrontは、プロジェクトに上書き率があるたびに、システムレベルで定義されたそのロールの請求率の代わりに、プロジェクトレベルでの上書き率を使用します。
+* 実際の収益の場合、ユーザーまたはジョブの役割に有効日付と共に複数の請求率がある場合、タスクの収益は、ユーザーが時間を記録した各期間の収益の合計になります。 計画収益は、その期間の計画時間に基づきます。
 * タスクに複数の担当者がいる場合、以下に説明するシナリオは各担当者に適用されます。
 
 タスクの割り当てに基づく収益の計算で利率が使用される階層があります。
 
-Workfront管理者が **ジョブの役割を時間エントリに手動で割り当て** [ タイムシートと時間の基本設定 ] 領域の設定を行い、プロジェクトのユーザーログ時刻に関連付ける別の役割が選択され、タスクまたはプロジェクトの実績収益は、常に時間エントリに関連付けられた役割に基づいて計算されます。 特定のジョブの役割のログ時間の有効化について詳しくは、この記事を参照してください。 [タイムシートと時間の基本設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Workfront管理者が **ジョブの役割を時間エントリに手動で割り当てる** [ タイムシートと時間の基本設定 ] 領域の設定を行い、プロジェクトのユーザーログ時刻に関連付ける別の役割が選択され、タスクまたはプロジェクトの実績収益は、常に時間エントリに関連付けられた役割に基づいて計算されます。 特定のジョブの役割のログ時間の有効化について詳しくは、この記事を参照してください。 [タイムシートと時間の基本設定](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 収益タイプとタスク割り当ての特性に基づいてタスクの収益を計算する場合、次のシナリオが存在します。
 
@@ -283,7 +267,7 @@ Workfront管理者が **ジョブの役割を時間エントリに手動で割�
     <tr> 
      <td role="rowheader">計画収益の 1 時間あたりの請求率</td> 
      <td>$0.00</td> 
-     <td> ユーザーのプロファイルに請求率が設定されている場合、その率を使用して計画収益が計算されます。 それ以外の場合は、主なジョブの役割のシステム請求率が使用されます。 <br><p><b>注意</b>  ユーザーは、セカンダリジョブの役割の 1 つを持つタスクに割り当てることができますが、代わりに、プライマリジョブの役割の割合がここで使用されます。</p><p><span class="preview">割り当て中にユーザーの役割が変更された場合は、プロジェクトの財務が再計算されると、正しい率が適用されます。</span></p></td> 
+     <td> ユーザーのプロファイルに請求率が設定されている場合、その率を使用して計画収益が計算されます。 それ以外の場合は、主なジョブの役割のシステム請求率が使用されます。 <br><p><b>注意</b>  ユーザーは、セカンダリジョブの役割の 1 つを持つタスクに割り当てることができますが、代わりに、プライマリジョブの役割の割合がここで使用されます。</p><p>割り当て中にユーザーの役割が変更された場合は、プロジェクトの財務が再計算されると、正しい率が適用されます。</p></td> 
      <td><p><span class="preview">レート・カードがプロジェクトに添付されている場合、レート・カードのジョブの役割に基づいて計画収益が計算されます。</span></p> <p><span class="preview">請求率は、プロジェクトレベルで上書きできます。</span></p></td> 
     </tr> 
     <tr> 
@@ -320,7 +304,7 @@ Workfront管理者が **ジョブの役割を時間エントリに手動で割�
     <tr> 
      <td role="rowheader">計画収益の 1 時間あたりの請求率</td> 
      <td>$0.00</td> 
-     <td><p>Workfrontは、タスクでユーザーが実行するジョブの役割を調べて、計画収益を計算します。 <br>ユーザーがタスク上の役割に関連付けられていない場合、売上高は$0.00 になります。</p> <p><span class="preview"><strong>注意</strong><br>割り当て中にユーザーの役割が変更された場合は、プロジェクトの財務が再計算されると、正しい率が適用されます。</span></p> </td> 
+     <td><p>Workfrontは、タスクでユーザーが実行するジョブの役割を調べて、計画収益を計算します。 <br>ユーザーがタスク上の役割に関連付けられていない場合、売上高は$0.00 になります。</p> <p><strong>注意</strong><br>割り当て中にユーザーの役割が変更された場合は、プロジェクトの財務が再計算されると、正しい率が適用されます。</p> </td> 
      <td><p><span class="preview">レート・カードがプロジェクトに添付されている場合、レート・カードのジョブの役割に基づいて計画収益が計算されます。</span></p> <p><span class="preview">請求率は、プロジェクトレベルで上書きできます。</span></p></td> 
     </tr> 
     <tr> 
@@ -391,17 +375,13 @@ If the user logging time has no billing rate associated with them, and they do n
 
 * プロジェクトの計画収益は、次の式で計算されます。
 
-  ```
-  Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue
-  ```
+  `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
   タスクの計画収益の計算方法について詳しくは、 [ユーザーとロールの割り当てに基づくタスクの収益計算](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) 」の節を参照してください。
 
 * プロジェクトの実際の売上高は、次の数式で計算されます。
 
-  ```
-  Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)
-  ```
+  `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
 タスクの実際の売上高の計算方法について詳しくは、 [ユーザーとロールの割り当てに基づくタスクの収益計算](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) 」の節を参照してください。
 
