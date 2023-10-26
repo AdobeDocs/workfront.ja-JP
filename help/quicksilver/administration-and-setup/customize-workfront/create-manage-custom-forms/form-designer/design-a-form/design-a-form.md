@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # フォームデザイナーを使用したフォームのデザイン
-
-{{preview-and-fast-release}}
 
 フォームデザイナーを使用してカスタムフォームをデザインできます。 異なるWorkfrontオブジェクトにカスタムフォームを添付して、これらのオブジェクトに関するデータを取り込むことができます。
 
@@ -498,8 +496,6 @@ ht-degree: 4%
 
    クリック **保存して閉じる**.
 
-<div class="preview">
-
 ### 外部参照フィールドの追加
 
 外部参照フィールドは、外部 API を呼び出し、値をドロップダウンフィールドのオプションとして返します。 カスタムフォームが添付されているオブジェクトを操作するユーザーは、ドロップダウンからこれらのオプションを 1 つ以上選択できます。
@@ -590,8 +586,6 @@ ht-degree: 4%
 >* 再試行間の待機時間：500 ミリ秒
 >* 期待される応答ステータス：2xx
 >* ユーザーは、Workfrontのリストとレポートで選択した値を表示（および値を編集）できますが、外部 API からのオプションを含むドロップダウンは表示されません。
-
-</div>
 
 ### 画像、PDF、ビデオの追加
 
