@@ -7,9 +7,9 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 58118f98d2d17960e4383c63b564aa2e56ea49f6
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,14 @@ Workfront + Frame.io 統合アルファプログラムへようこそ！ この�
 
 両方の利点を最大限に活かし、Frame.io とWorkfront（新しいドキュメント承認を含む）の間で合理化されたエクスペリエンスが、作業の開始からログオフ、配信まで、コンテンツのライフサイクルを促進する方法を確認します。
 
-<!--
-Learn more about 
 
-This program and feedback participation activities: <link> 
-
-The new experience and features and how you can test them: <link> 
--->
+アルファの計画済み機能とテスト方法について詳しくは、 [Adobe Workfrontと Frame.io のネイティブ統合アルファ：機能](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 
 >[!NOTE]
 >
 >このアルファプログラムに参加していない会社でこれらのページに遭遇した場合は、こちらの情報を慎重に扱い、詳しくはWorkfrontまたは Frame.io 管理者にお問い合わせください。
 
-## 計画されたフィードバックアクティビティと通信チャネル
+## 通信チャネル
 
 このアルファプログラムは、Workfrontと Frame.io の両方の優れた機能を活用して、目標とするシームレスなエクスペリエンスをテストする独自の機会を提供します。 Workfrontは、要求されたアセットのレビューと承認のプロセスを計画、監視、管理するため、およびクリエイティブコラボレーション用の Frame.io と、レビューと承認を実行するために使用します。
 

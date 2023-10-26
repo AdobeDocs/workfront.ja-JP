@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: dc9d331045f5381290983a5b37bf16e72249422c
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '13358'
+source-wordcount: '13366'
 ht-degree: 2%
 
 ---
@@ -381,6 +381,7 @@ ht-degree: 2%
          * [新しいコメントエクスペリエンスの FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
       * Workfrontと Frame.io の統合のアルファ {#frame-io-wf-integration-alpha}
          * [Adobe Workfrontと Frame.io のネイティブ統合アルファ：概要](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+         * [Adobe Workfrontと Frame.io のネイティブ統合アルファ：機能](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * 管理と設定 {#administration-and-setup}
    * [管理と設定](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
