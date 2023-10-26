@@ -6,7 +6,7 @@ description: Adobe Workfrontボードの接続されたカードにドキュメ�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # カードへのドキュメントの追加
-
-{{article-preview-and-fast-release}}
 
 Adobe Workfrontボードの接続されたカードにドキュメントを追加できます。 カードに追加したドキュメントは、接続されたタスクまたはイシューの「ドキュメント」タブで使用でき、タスクまたはイシューに追加したドキュメントは、カードに表示されます。 両方の領域で同じファイルタイプがサポートされています。 Workfrontのドキュメントについて詳しくは、 [ファイルシステムからAdobe Workfrontにドキュメントを追加する](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

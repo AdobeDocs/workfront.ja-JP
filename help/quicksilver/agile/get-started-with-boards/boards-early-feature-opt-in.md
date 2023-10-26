@@ -7,9 +7,9 @@ description: この記事で、 [!DNL Workfront Boards] 初期機能のオプト
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -183,9 +183,9 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>接続されたカードでドキュメントを表示します</td>
-   <td>部分的にリリース済み</td>
+   <td>リリース済み</td>
   </tr>
- </tbody> 
+ </tbody>
 </table>
 
 ## 初期の機能のオプトイン

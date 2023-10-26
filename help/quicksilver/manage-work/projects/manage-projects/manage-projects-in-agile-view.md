@@ -6,7 +6,7 @@ description: 必要なプラン、ライセンスの種類、およびAdobe Work
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
+source-git-commit: 2137d792485324386b33e75af91ab09415b48390
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # アジャイルビューでのプロジェクト管理
 
-{{preview-and-fast-release}}
+{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access

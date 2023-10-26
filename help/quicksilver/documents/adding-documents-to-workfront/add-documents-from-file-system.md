@@ -2,26 +2,24 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: ファイルシステムからAdobe Workfrontにドキュメントを追加する
-description: Adobe Workfront - EDIT ME の以下の領域で、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
+description: Adobe Workfrontの複数の領域で、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
 
 # ファイルシステムからAdobe Workfrontにドキュメントを追加する
 
-{{preview-and-fast-release}}
-
 Adobe Workfrontの次の領域で、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
 
 * 「グローバルドキュメント」領域
 * Workfrontオブジェクトの「ドキュメント」領域
-* <span class="preview">Workfrontボード上の接続済みカード</span>
+* Workfrontボード上の接続済みカード
 
 また、新しいバージョンのドキュメントをアップロードし、Google Drive、Dropbox、Microsoft OneDrive など、サードパーティのクラウドベンダーからのドキュメントへのリンクを追加することもできます。 新しいバージョンのドキュメントの追加について詳しくは、 [新しいバージョンのドキュメントをアップロード](../../documents/managing-documents/upload-new-document-version.md). サードパーティのクラウドベンダーからのドキュメントの追加について詳しくは、 [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

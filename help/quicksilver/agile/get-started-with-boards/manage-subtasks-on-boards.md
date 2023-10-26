@@ -5,7 +5,7 @@ title: ボードでのサブタスクの管理
 description: カードでサブタスクを使用すると、タスク間で親子関係を確立し、作業の階層を作成できます。
 author: Lisa
 feature: Agile
-source-git-commit: 7b4e1bc58fbaf30ff86e8ec95664cb3baaae2ef7
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # ボードでのサブタスクの管理
-
-{{highlighted-preview-article-level}}
 
 カードでサブタスクを使用すると、タスク間で親子関係を確立し、作業の階層を作成できます。 Workfrontボード上のカードに追加するサブタスクも、Workfrontプロジェクトのタスクに追加されます。 プロジェクトレベルでのサブタスクとタスクの詳細については、 [サブタスクを作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 

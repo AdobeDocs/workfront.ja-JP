@@ -6,7 +6,7 @@ description: Workfrontの既存のタスクやイシューに関連するカー�
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # ボードでの接続済みカードの使用
-
-{{preview-and-fast-release}}
 
 既存のタスクとイシューに関連するカードをボードに追加できます。 [!DNL Workfront].
 
@@ -27,8 +25,8 @@ ht-degree: 0%
 * [!UICONTROL ステータス]
 * [!UICONTROL 完了予定日]
 * [!UICONTROL 推定] / [!UICONTROL ストーリーポイント]
-* <span class="preview">[!UICONTROL サブタスク]</span>
-* <span class="preview">[!UICONTROL ドキュメント]</span>
+* [!UICONTROL サブタスク]
+* [!UICONTROL ドキュメント]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ ht-degree: 0%
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL サブタスク ]</strong></span></td>
-      <td><span class="preview"><p>タスクの既存のサブタスクは、このセクションに表示されます。 クリック <strong>[!UICONTROL サブタスクの追加 ]</strong> をクリックして、新しいサブタスクを追加します。</p>
+      <td role="rowheader"><strong>[!UICONTROL サブタスク ]</strong></td>
+      <td><p>タスクの既存のサブタスクは、このセクションに表示されます。 クリック <strong>[!UICONTROL サブタスクの追加 ]</strong> をクリックして、新しいサブタスクを追加します。</p>
       <p>セクションの上部にあるカウンターは、完了したサブタスクの数とサブタスクの合計数を示します。</p>
-      <p>サブタスクの詳細については、 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">ボードでのサブタスクの管理</a>.</p></span></td>
+      <p>サブタスクの詳細については、 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">ボードでのサブタスクの管理</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL チェックリスト ]</strong></td>
@@ -148,8 +146,8 @@ ht-degree: 0%
       <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目の詳細については、「 <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目を管理</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL ドキュメント ]</strong></span></td>
-      <td><span class="preview">既存のドキュメントの場合は、ドキュメントのサムネールの上にマウスポインターを置いて、 <strong>プレビュー</strong> ファイルをブラウザーに表示するには、または <strong>ダウンロード</strong> をクリックして、ファイルをコンピューターにダウンロードします。 新しいドキュメントについては、 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">カードへのドキュメントの追加</a>.</span></td>
+      <td role="rowheader"><strong>[!UICONTROL ドキュメント ]</strong></td>
+      <td>既存のドキュメントの場合は、ドキュメントのサムネールの上にマウスポインターを置いて、 <strong>プレビュー</strong> ファイルをブラウザーに表示するには、または <strong>ダウンロード</strong> をクリックして、ファイルをコンピューターにダウンロードします。 新しいドキュメントについては、 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">カードへのドキュメントの追加</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL 時間 ]</strong></td>
