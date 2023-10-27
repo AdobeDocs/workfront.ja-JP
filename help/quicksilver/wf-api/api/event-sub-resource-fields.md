@@ -6,10 +6,10 @@ description: イベント購読リソースフィールド
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: a000e1fc353bfbe47851062945adb810804d8dee
+source-git-commit: 80b42da8f9cd51571258c7b09fe4498be5244320
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '644'
+ht-degree: 10%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 0%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p><span style="color: #ff0000;"> このフィールドは廃止され、2023 年 10 月 23 日の週に削除されます。</p></span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="このフィールドは 2023 年 10 月 26 日に削除されました。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
