@@ -3,16 +3,16 @@ title: 2023 年第 4 四半期の金融管理の強化
 description: 2023 年第 4 四半期の金融管理の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # 2023 年第 4 四半期の金融管理の強化
 
-このページでは、2023 年第 4 四半期リリースでプレビュー環境に対して行われた Financial Management の機能強化について説明します。 これらの機能強化は、23.10 リリースの実稼動環境で利用できるようになります。
+このページでは、2023 年第 4 四半期リリースでプレビュー環境に対して行われた Financial Management の機能強化について説明します。 これらの機能強化は、23.10 リリースの実稼動環境で使用できるようになりました。
 
 2023 年第 4 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2023 年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 

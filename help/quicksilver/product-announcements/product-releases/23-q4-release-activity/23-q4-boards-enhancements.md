@@ -3,16 +3,16 @@ title: 2023 年第 4 四半期のボードの機能強化
 description: 2023 年第 4 四半期のボードの機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
 
 # 2023 年第 4 四半期のボードの機能強化
 
-このページでは、2023 年第 4 四半期のリリースでプレビュー環境に対しておこなわれたすべてのボードの機能強化について説明します。 これらの機能強化は、23.10 リリースの実稼動環境で利用できるようになります。
+このページでは、2023 年第 4 四半期のリリースでプレビュー環境に対しておこなわれたすべてのボードの機能強化について説明します。 これらの機能強化は、23.10 リリースの実稼動環境で使用できるようになりました。
 
 2023 年第 4 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2023 年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
