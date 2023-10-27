@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -308,13 +308,21 @@ Kick-Start テンプレートをエクスポートすると、空の Excel ス�
 1. セルを **isNew** 列：
 
    * 読み込むオブジェクトが新しい場合は、「 」と入力します。 **TRUE** をクリックして、行のデータをインポートします。
-   * オブジェクトが既にWorkfrontにある場合は、「 **FALSE** をクリックして行を無視します。
+   * オブジェクトが既にWorkfrontにある場合、 **FALSE** 行を無視するには、を列内に指定する必要があります。
+
+      * Workfrontに既に存在するレコードは更新されません。
+      * データを含むテンプレートをダウンロードした場合、既存のオブジェクトには、 **FALSE**.
+      * 空のテンプレートをダウンロードした場合は、既存のオブジェクトに新しい行を追加する必要はありません。
 
 1. セルを **ID** 列に次のいずれかの方法を指定します。
 
-   * 読み込むオブジェクトが新しい ( かつ **TRUE** （内） **isNew** 」列 ) で、ID に任意の数値を指定します。 この数は、スプレッドシート内で一意である必要があります。
+   * 読み込むオブジェクトが新しい ( かつ **TRUE** （内） **isNew** 列 )、ID に任意の数値を入力します。 この数は、スプレッドシート内で一意である必要があります。
 
-   * 読み込むオブジェクトがWorkfrontシステムに既に存在し、 **FALSE** （内） **isNew** 列 ) の場合、ID は、そのオブジェクトのWorkfrontに存在する英数字の GUID である必要があります。
+   * オブジェクトがWorkfrontに既に存在する場合 ( および **FALSE** が **isNew** 列 ) の場合、ID は、そのオブジェクトのWorkfrontに存在する英数字の GUID である必要があります。
+
+      * Workfrontに既に存在するレコードは更新されません。
+      * データを含むテンプレートをダウンロードした場合、既存のオブジェクトには ID が既に GUID として含まれています。
+      * 既存のオブジェクトに基づいて新しいオブジェクトをインポートするには、 **FALSE** から **TRUE** （内） **isNew** 列を編集し、ID を変更し、インポートする前に必要なデータ調整を行います。
 
      ![グループのサンプル ID](assets/kick-start-group-example.png)
 
