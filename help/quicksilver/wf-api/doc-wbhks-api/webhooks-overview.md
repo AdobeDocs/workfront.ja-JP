@@ -7,9 +7,9 @@ description: ウェブフックの概要
 author: Becky
 feature: Workfront API
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: eb738fa8cadaafb0332c5c78a3816d5c346c33b2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,19 @@ Webhook ベースの統合のユーザーエクスペリエンスは、Google Dr
 
 **参照実装**
 
-新しい Web フック実装の開発をすぐに開始できるように、Workfrontでは参照実装を提供しています。 これを行うコードは、で確認できます。 [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app) . この実装は Java ベースで、Workfrontはネットワークファイルシステム上でドキュメントに接続できます。 
+新しい Web フック実装の開発をすぐに開始できるように、Workfrontでは参照実装の例を提供しています。 これらの例は、次の場所にあります。 [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). 例は Java ベースで、Workfrontがネットワークファイルシステム上でドキュメントに接続できるようにします。 
+
+>[!NOTE]
+>
+>GitHub のリソースは例に過ぎず、実装を実行できません。
 
 ## バージョン
 
-* バージョン 1.0（リリース日 — 2015 年 5 月）:初期仕様
+* バージョン 1.0（リリース日 — 2015 年 5 月）：初期仕様
 
-* バージョン 1.1（リリース日 — 2015 年 6 月） /uploadInit の更新 — documentId と documentVersionId の追加
+* バージョン 1.1（リリース日 — 2015 年 6 月）。 /uploadInit の更新 — documentId と documentVersionId の追加
 
-* バージョン 1.2（リリース日 — 2015 年 10 月）:/createFolder を追加しました
+* バージョン 1.2（リリース日 — 2015 年 10 月）: /createFolder を追加しました。
 
 * 今後のバージョン（リリース日 — 未定）:
 
