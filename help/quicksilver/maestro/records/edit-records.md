@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '657'
 ht-degree: 2%
 
 ---
@@ -151,4 +151,4 @@ ht-degree: 2%
 1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. 押す **入力** キーボードでクリックするか、行の外側をクリックして変更を保存します。 変更内容は自動的に保存されます。
+1. 押す **入力** キーボードでクリックするか、行の外側をクリックして変更を保存します。 変更内容は自動的に保存されます。 保存済みのインジケータが、テーブルビューの右上隅に短く表示され、変更が保存されたことが示されます。
