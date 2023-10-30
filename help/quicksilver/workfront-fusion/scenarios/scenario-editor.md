@@ -7,9 +7,9 @@ description: シナリオエディターを使用すると、視覚的なイン�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '867'
 ht-degree: 1%
 
 ---
@@ -41,15 +41,15 @@ ht-degree: 1%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -71,7 +71,7 @@ ht-degree: 1%
 
    表示されるシナリオエディターで、次の表に示す操作をすべて実行できます。 詳しくは、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. シナリオの編集が終了したら（または編集中に任意の時点で）、 [!UICONTROL 保存] アイコン ![](assets/save-icon.gif)
+1. シナリオの編集が終了したら（または編集中に任意の時点で）、 [!UICONTROL 保存] アイコン。 ![](assets/save-icon.gif)
 
    >[!NOTE]
    >
@@ -99,11 +99,11 @@ ht-degree: 1%
      <td role="rowheader">ルートの設定</td>   
      <td> <p>[!UICONTROL レンチ ] アイコンをクリックします。 <img src="assets/wrench-icon.gif"> を 2 つのモジュール間で切り替え、次のいずれかのオプションを使用します。</p>    
        <ul>
-         <li><strong>[!UICONTROL フィルターの設定 ]</strong>:シナリオの特定の時点で使用するバンドルを制御します。 詳しくは、 <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">のシナリオにフィルターを追加する [!DNL Adobe Workfront Fusion]</a>.</li>     
-         <li><strong>[!UICONTROL リンク解除 ]</strong>:ルートを削除します。</li>     
-         <li><strong>[!UICONTROL ルーターの追加 ]</strong>:モジュール間にルータを追加します。 </li>     
-         <li><strong>[!UICONTROL モジュールの追加 ]</strong>:モジュール間に新しいモジュールを追加します。</li>     
-         <li><strong>[!UICONTROL メモを追加 ]</strong>:ルートにメモを追加します。</li>   
+         <li><strong>[!UICONTROL フィルターの設定 ]</strong>：シナリオの特定の時点で使用されるバンドルを制御します。 詳しくは、 <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">のシナリオにフィルターを追加する [!DNL Adobe Workfront Fusion]</a>.</li>     
+         <li><strong>[!UICONTROL リンク解除 ]</strong>：ルートを削除します。</li>     
+         <li><strong>[!UICONTROL ルーターの追加 ]</strong>：モジュール間にルーターを追加します。 </li>     
+         <li><strong>[!UICONTROL モジュールの追加 ]</strong>：モジュール間に新しいモジュールを追加します。</li>     
+         <li><strong>[!UICONTROL メモを追加 ]</strong>：ルートにメモを追加します。</li>   
        </ul> 
      </td>  
   </tr>  
@@ -130,16 +130,16 @@ ht-degree: 1%
      <td>[!UICONTROL 自動整列 ] アイコンをクリックします。 <img src="assets/auto-align-icon.gif"></td>  </tr>  <tr>   <td role="rowheader">データがシナリオをどのように流れるかを示すアニメーションを表示します</td>   <td>「[!UICONTROL フローの説明を実行」アイコンをクリックします。 <img src="assets/explain-flow-airplane-icon.gif"></td>  
    </tr>  
    <tr> 
-     <td role="rowheader">シナリオをコンピューターにブループリントとしてエクスポート</td>   
+     <td role="rowheader">シナリオをコンピューターにブループリントとしてエクスポートします</td>   
      <td>[!UICONTROL その他 ] メニューをクリックします。 <img src="assets/more-icon.png">をクリックし、「[!UICONTROL ブループリントを書き出し ]」をクリックします。</td>  
    </tr>  
    <tr>   
      <td role="rowheader">コンピューターからシナリオのブループリントを読み込む</td>   
-     <td>[!UICONTROL その他 ] メニューをクリックします。 <img src="assets/more-icon.png">をクリックし、「 [!UICONTROL ブループリントを読み込み」をクリックします。</td>  
+     <td>[!UICONTROL その他 ] メニューをクリックします。 <img src="assets/more-icon.png">をクリックし、「[!UICONTROL ブループリントを読み込み」をクリックします。</td>  
    </tr>  
    <tr>   
      <td role="rowheader">シナリオの以前のバージョンを復元します</td>   
-     <td>この記事を参照してください <a href="../../workfront-fusion/scenarios/restore-a-scenario-version.md" class="MCXref xref">でのシナリオバージョンの復元 [!DNL Adobe Workfront Fusion]</a>.</td>  
+     <td>この記事を参照してください。 <a href="../../workfront-fusion/scenarios/restore-a-scenario-version.md" class="MCXref xref">でのシナリオバージョンの復元 [!DNL Adobe Workfront Fusion]</a>.</td>  
    </tr>  
    <tr> 
      <td role="rowheader">[!UICONTROL フロー制御 ] の設定</td>   
@@ -155,11 +155,16 @@ ht-degree: 1%
    </tr>  
    <tr> 
      <td role="rowheader">最もよく使用するアプリやサービスへのアクセス</td>   
-     <td> アイコンをクリックします。 <strong>[!UICONTROL お気に入り ]</strong> 」セクションを使用して、画面の下部に表示されます。 アプリやサービスをシナリオに追加すると、このセクションにアイコンが自動的に表示されます。 「追加」アイコン <img src="assets/add-icon.gif"> アプリやサービスをこの領域に手動で追加するには、次の手順に従います。</td>  
+     <td> アイコンをクリックします。 <strong>[!UICONTROL お気に入り ]</strong> 」セクションを使用して、画面の下部に表示されます。 アプリやサービスをシナリオに追加すると、このセクションにアイコンが自動的に表示されます。 また、「追加」アイコン <img src="assets/add-icon.gif"> アプリやサービスをこの領域に手動で追加するには、次の手順に従います。</td>  
    </tr>  
    <tr> 
      <td role="rowheader">シナリオのテスト実行</td>   
-     <td>クリック <strong>[!UICONTROL 1 回実行 ]</strong> を使用して、シナリオをアクティブ化する前に、期待どおりに実行されることを確認します。 有効化されると、シナリオはスケジュールに従って実行されます。 すべてが期待どおりに実行されない場合は、エラー処理の方法について、エラー処理の節を参照してください。</td> 
+     <td>クリック <strong>[!UICONTROL 1 回実行 ]</strong> を使用して、シナリオをアクティブ化する前に、期待どおりに実行されることを確認します。 有効化すると、シナリオはスケジュールに従って実行されます。 すべてが期待どおりに実行されない場合は、エラー処理の方法について、エラー処理の節を参照してください。</td> 
+   </tr> 
+   <tr> 
+     <td role="rowheader">開発ツールを使用したシナリオのデバッグ</td>   
+     <td>詳しくは、 <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">でのシナリオのデバッグ [!DNL Adobe Workfront Fusion] 開発者ツール</a>.
+</td> 
    </tr> 
 </tbody>
 </table>
