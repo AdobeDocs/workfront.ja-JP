@@ -6,9 +6,9 @@ description: Adobe Workfrontボードの接続されたカードにドキュメ�
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ Adobe Workfrontボードの接続されたカードにドキュメントを追�
 
 1. カードで、 [!UICONTROL ドキュメント] 領域。 クリック ![リストアイコン](assets/docs-list-icon.png) リスト内のすべてのドキュメントを表示するには、以下をクリックします。 ![ギャラリーアイコン](assets/docs-gallery-icon.png) ギャラリーでドキュメントを表示するには
 1. ドキュメントのサムネールの上にマウスポインターを置いて、 [!UICONTROL **プレビュー**] ファイルをブラウザーに表示するには、または [!UICONTROL **ダウンロード**] をクリックして、ファイルをコンピューターにダウンロードします。
+
+   >[!NOTE]
+   >
+   >PDFにはサムネール画像は表示されません。
