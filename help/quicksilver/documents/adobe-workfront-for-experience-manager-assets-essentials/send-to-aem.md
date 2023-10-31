@@ -1,28 +1,29 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Experience Manager AssetsまたはAssets Essentialsにドキュメントを送信する
-description: ドキュメントは、WorkfrontからExperience Manager AssetsまたはAssets Essentialsに送信できます。 WorkfrontからAssets Essentialsにアップロードされて送信されたドキュメントは、引き続きドキュメントストレージ全体に対してカウントされます。 Assets Essentialsからリンクされたアセットは、全体のストレージにはカウントされません。
+title: Experience Manager AssetsまたはAssets Essentialsへのドキュメントの送信
+description: WorkfrontからExperience Manager AssetsまたはAssets Essentialsにドキュメントを送信できます。 WorkfrontからAssets Essentialsにアップロードおよび送信されたドキュメントは、引き続きドキュメントストレージ全体に対してカウントされます。 Assets Essentialsからリンクされたアセットは、全体のストレージにはカウントされません。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 91da06fe23b464e0422d50b0db69f4eae3db642f
+source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
 
-# Experience Manager AssetsまたはAssets Essentialsにドキュメントを送信する
+# Experience Manager AssetsまたはAssets Essentialsへのドキュメントの送信
 
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
 
-ドキュメントは、WorkfrontからExperience Manager AssetsまたはAssets Essentialsに送信できます。 WorkfrontからAssets Essentialsにアップロードされて送信されたドキュメントは、引き続きドキュメントストレージ全体に対してカウントされます。 Assets Essentialsからリンクされたアセットは、全体のストレージにはカウントされません。
+WorkfrontからExperience Manager AssetsまたはAssets Essentialsにドキュメントを送信できます。 WorkfrontからAssets Essentialsにアップロードおよび送信されたドキュメントは、引き続きドキュメントストレージ全体に対してカウントされます。 Assets Essentialsからリンクされたアセットは、全体のストレージにはカウントされません。
 
-アセットをWorkfrontからExperience Manager AssetsまたはAssets Essentialsに送信する際に、メタデータフィールドが最初にマッピングされます。 親オブジェクトに対してマッピングするように設定されたメタデータも送信されます。 メタデータマッピングの設定について詳しくは、 [Experience Manager Assets統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+WorkfrontからExperience Manager AssetsまたはAssets Essentialsにアセットを送信する際、メタデータフィールドが最初にマッピングされます。 親オブジェクトに対してマッピングするように設定されたメタデータも送信されます。 メタデータマッピングの設定について詳しくは、 [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
->**例** タスクにアタッチされたアセットを最初に送信すると、タスクメタデータはExperience Manager AssetsまたはAssets Essentialsにマッピングされ、親オブジェクト（プロジェクト、ポートフォリオ、プログラムなど）からマッピングされたメタデータもにマッピングされます。
+>**例** タスクに添付されたAssets Essentialsを最初に送信すると、タスクメタデータはExperience Manager Assetsまたはアセットにマッピングされ、親オブジェクト（プロジェクト、ポートフォリオ、プログラムなど）からマッピングされたメタデータにもマッピングされます。
 
 ## アクセス要件
 
@@ -42,32 +43,32 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>as a Cloud ServiceのExperience ManagerまたはAssets Essentialsがあり、ユーザーとして製品に追加されている必要があります。Admin Console。
+   <td>as a Cloud ServiceのExperience ManagerまたはAssets Essentialsがいて、製品にユーザーとしてAdmin Consoleに追加されている必要があります。
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>ドキュメントのアクセス権以上の表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 前提条件
 
 始める前に
 
-* Workfront管理者は、統合を設定する必要があります。 詳しくは、 [Experience Manager Assets統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Workfront管理者は、統合を設定する必要があります。 詳しくは、 [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Workfrontからドキュメントを送信
 
-ユーザーがWorkfrontからExperience Manager AssetsまたはAssets Essentialsにドキュメントを送信すると、マッピングされたメタデータはドキュメントに沿って転送されます。 ドキュメントの送信後、Workfrontでドキュメントのメタデータに加えた変更は、Assets やAssets Essentialsには反映されません。 Workfrontでマッピングされたフィールドが変更された場合は、更新されたメタデータを含む新しいバージョンのドキュメントを Assets またはAssets Essentialsに送信する必要があります。 メタデータを設定または編集するには、 [Experience Manager Assets統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+ユーザーがWorkfrontからExperience Manager AssetsまたはAssets Essentialsにドキュメントを送信すると、マッピングされたメタデータはドキュメントに沿って転送されます。 ドキュメントの送信後、Workfrontでドキュメントのメタデータに加えた変更は、Assets やAssets Essentialsには反映されません。 Workfrontでマッピングされたフィールドが変更された場合、更新されたメタデータを含む新しいバージョンのドキュメントをアセットまたはAssets Essentialsに送信する必要があります。 メタデータを設定または編集するには、 [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ドキュメントを送信するには：
 
@@ -85,11 +86,11 @@ ht-degree: 0%
 
 ## 新しいバージョンを送信
 
-以前にWorkfrontにアップロードしたドキュメントに新しいバージョンを追加できます。 詳しくは、 [新しいバージョンのドキュメントをアップロード](../../documents/managing-documents/upload-new-document-version.md). 最新バージョンがアップロードされたら、Assets Essentialsに送信できます。 Workfrontでマッピングされたフィールドが変更された場合、新しいバージョンは、送信時にAssets Essentialsのメタデータを更新します。
+以前にWorkfrontにアップロードしたドキュメントに新しいバージョンを追加できます。 詳しくは、 [新しいバージョンのドキュメントをアップロード](../../documents/managing-documents/upload-new-document-version.md). 最新バージョンがアップロードされたら、そのバージョンをAssets Essentialsに送信できます。 Workfrontでマッピングされたフィールドが変更された場合、新しいバージョンは、送信時にAssets Essentialsのメタデータを更新します。
 
 >[!IMPORTANT]
 >
->新しいバージョンをWorkfrontにアップロードする前に、ファイル名を変更することをお勧めします。 以前のバージョンと同じファイル名を持つ新しいバージョンをアップロードした場合、Workfrontからダウンロードできるのは最新バージョンのみです。 ファイル名に関係なく、すべてのバージョンをExperience Manager AssetsまたはAssets Essentialsからダウンロードできます。
+>新しいバージョンをWorkfrontにアップロードする前に、ファイル名を変更することをお勧めします。 以前のバージョンと同じファイル名を持つ新しいバージョンをアップロードした場合、Workfrontからダウンロードできるのは最新バージョンのみです。 ファイル名に関係なく、すべてのバージョンはExperience Manager AssetsまたはAssets Essentialsからダウンロードできます。
 
 最新バージョンを送信するには：
 
@@ -115,9 +116,9 @@ ht-degree: 0%
 1. 移動するドキュメントを見つけます。
 1. ドキュメントの移動先となる、リンクされたExperience Manager Assetsフォルダーにドキュメントをドラッグ&amp;ドロップします。
 
-ドキュメントの移動中は、ドキュメントオプションは使用できません。 ドキュメントをExperience Manager Assetsに移動すると、はWorkfrontのドキュメントリストに表示されなくなります。
+<div class="preview">ドキュメントの移動中は、ドキュメントオプションは使用できません。 ドキュメントをExperience Manager Assetsに移動すると、はWorkfrontのドキュメントリストに表示されなくなります。
 
 >[!NOTE]
 >
 > ドキュメントの移動中にドキュメントに対しておこなったアクションや編集は、Experience Manager Assetsのドキュメントには表示されないので、失われます。
-
+</div>
