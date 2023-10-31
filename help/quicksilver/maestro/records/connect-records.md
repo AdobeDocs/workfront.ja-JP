@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接
    >
    >  Workfrontオブジェクトレコードタイプのページで追加または削除するフィールドは、Workfrontオブジェクトタイプにリンクする Maestro レコードタイプからは追加または削除されません。 フィールドは読み取り専用のWorkfrontレコードタイプのページにのみ表示されるので、Maestro で確認できます。
 
-1. （オプション） Workfrontオブジェクトレコードタイプページの「表示」ドロップダウンメニューから「タイムライン」ビューを選択して、Workfrontのリンクされたオブジェクトをタイムラインビューに表示します。
+1. （オプションおよび条件付き） Workfrontオブジェクトに少なくとも 2 つの日付フィールドを追加した場合、 **表示** 「 Workfrontオブジェクトレコードタイプ」ページのドロップダウンメニューで、「 **タイムライン** 表示。 Workfrontのリンクされたオブジェクトが、タイムラインビューに表示されます。
