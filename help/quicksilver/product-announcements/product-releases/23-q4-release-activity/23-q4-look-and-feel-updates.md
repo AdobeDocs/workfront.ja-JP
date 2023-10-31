@@ -5,9 +5,9 @@ author: Lisa
 draft: Probably
 feature: Product Announcements
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 このページでは、2023 年第 4 四半期のリリース期間内におこなわれた、Adobe Workfrontアプリケーションの様々な領域のルックアンドフィールに対するマイナーアップデートについて説明します。
 
 2023 年第 4 四半期リリースで利用可能なすべての変更点のリストについては、 [2023 年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## ドキュメント承認電子メールテンプレートのルックアンドフィール更新
+
+>[!NOTE]
+>
+>プレビューリリース：2023 年 11 月 1 日、すべてのお客様向けの実稼動版リリース：11 月 1 日
+
+ドキュメントの承認通知用の電子メールテンプレートが更新され、他のAdobe電子メールテンプレートとの適合性が向上し、明確性と操作性が向上しました。
 
 ## ワークロードバランサーで手動で調整した割り当てのインジケーター
 
