@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,8 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
 
 ## マエストロフィールドの削除に関する考慮事項：
 
-* 自分が作成したフィールドや他のユーザーが作成したフィールドを削除できます。 <!--this will change with access levels/ permissions-->
+* 自分が作成したフィールド、他のユーザーが作成したフィールド、またはシステムが作成したフィールドを削除できます。 <!--this will change with access levels/ permissions-->
+* レコードの「名前」フィールドは削除できません。 <!--change this to say you can't delete the field selected to be the primary-->
 * レコードタイプテーブル内のフィールドのみを削除できます。
 * フィールドに格納されている情報はすべて削除され、復元できません。
 * リンクされたレコードフィールドを削除すると、リンク元のレコードの種類から、リンクされたすべての参照フィールドも削除されます。 リンク先のレコードタイプのリンクされたレコードフィールドは削除されません。

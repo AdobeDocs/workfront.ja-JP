@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ Campaign のレコードタイプにフィールドを作成し、レコード�
    * キャンペーンに接続するために選択したプロジェクトは、「 Workfrontプロジェクトのレコードタイプ」ページに個別のレコードとして表示されます。 また、プロジェクトのレコードは読み取り専用で、Workfrontでプロジェクトが更新されると、情報が自動的に更新されます。 Workfront Project レコードタイプで表示するには、接続された Maestro レコードからさらにプロジェクトを追加する必要があります。
    * 「キャンペーンのリンクされたレコード」フィールドには、「キャンペーンのレコードタイプ」ページで、プロジェクトに接続されているキャンペーンの名前が入力されます。
 
-1. （オプション） **その他** アイコン ![](assets/more-menu.png) 「 Workfront Project レコードタイプ名」の右にあるをクリックし、 **名前を変更** をクリックして、レコードタイプの名前を変更します。
+1. （オプション） Maestro でWorkfrontプロジェクトの詳細ページを開くには、次のいずれかの操作を行います。
 
-   >[!TIP]
-   >
-   >レコードタイプのヘッダーで名前をクリックして、レコードタイプの名前を変更できます。
+   * リンク元のレコードタイプ (**Campaign**)、「 Workfrontプロジェクトのリンクされたレコード」フィールド (**プロジェクト情報**) をクリックし、Workfrontプロジェクトの名前をクリックします。
+   * 次から： **テーブル** のビュー **Workfront Project** レコードページで、Workfrontプロジェクトの名前をクリックします。
 
-1. フィールドを追加アイコンをクリックします。 ![](assets/add-fields-icon.png) [ Workfront Project Maestro] レコードタイプのテーブルの右上隅にある [ Workfront Project Maestro] レコードタイプに、さらにプロジェクトフィールドを追加します。
+     または
+
+     次をクリック： **その他** Workfrontプロジェクトの右側のメニューで、「 **表示**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   リンクされたWorkfrontプロジェクトの Maestro 詳細ページが開きます。 これは読み取り専用ページです。
+
+1. （オプション）リンクされたWorkfrontプロジェクトをWorkfrontで開くには、次のいずれかの操作を行います。
+
+   * 次から： **テーブル** のビュー **Workfront Project** ページで、Workfrontプロジェクトの名前をクリックします。
+
+   または
+
+   次をクリック： **その他** Workfrontプロジェクト名の右にあるメニューで、「 **ソースに移動**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Workfrontプロジェクトページが開きます。 権限がある場合は、Workfrontプロジェクトに関する情報を編集できます。
+
+1. 次をクリック： **フィールドを追加** アイコン ![](assets/add-fields-icon.png) [ Workfront Project Maestro] レコードタイプのテーブルの右上隅にある [ Workfront Project Maestro] レコードタイプに、さらにプロジェクトフィールドを追加します。
 1. 次をクリック： **+** Workfront Project Maestro レコードに追加するプロジェクトフィールドのアイコン **未選択のフィールド** 」セクションに入力します。
 1. 次をクリック： **-** Workfront Project Maestro レコードから削除するプロジェクトフィールドのアイコン ( **選択したフィールド** 」セクションに入力します。
 1. 「**保存**」をクリックします。

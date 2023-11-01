@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
 * 分類レコードに対する運用レコードのマエストロ
 * 他のアプリケーションの操作レコードとオブジェクトをマエストロします。
 
-  現在、次のアプリケーションとオブジェクトタイプがサポートされています。
+  以下のアプリケーションから、以下に示すタイプのオブジェクトに Maestro レコードを接続できます。
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
 * Maestro にアクセスできるすべてのユーザーは、Maestro レコード間、または Maestro レコードとWorkfrontオブジェクト間の接続を確認できます。 また、他のユーザーの接続を表示および編集することもできます。 <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * 1 つの Maestro レコードを別のアプリケーションから 1 つまたは複数のオブジェクトに接続できます。
 * 分類をレコード・タイプに接続したり、別のアプリケーションのオブジェクトに接続したりすることはできません。 <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* 現在、Maestro レコードはWorkfrontオブジェクトにのみリンクできます。 Maestro レコードをWorkfrontオブジェクトとリンクするには、次の情報が必要です。
+* Maestro レコードをWorkfrontオブジェクトとリンクするには、次の情報が必要です。
 
    * Workfrontオブジェクト。 例えば、まずWorkfrontでプロジェクト、ポートフォリオ、プログラム、会社、グループを作成する必要があります。
    * Maestro ワークスペース、レコードタイプ、およびレコード。 詳しくは、次の記事を参照してください。
@@ -151,16 +151,16 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
 
 ### Maestro レコードを接続
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅に <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
    最後にアクセスしたワークスペースは、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードを接続するワークスペースを選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
-1. 以下からテーブルビューを選択します。 **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
+1. を選択します。 **テーブル** から表示 **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
 1. 選択したレコードタイプから別のレコードまたはオブジェクトタイプに接続を追加します。 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
 
-リンクされたレコードタイプを表示する新しい列がテーブルに追加されます。
+   リンクされたレコードタイプを表示する新しい列がテーブルに追加されます。
 
 1. テーブルに新しい行を追加して、選択したレコードタイプにレコードを追加します。 詳しくは、 [レコードを作成](../../maestro/records/create-records.md).
 1. テーブルビューに表示されたレコードから、リンクされたレコード列に移動し、他の Maestro レコードとリンクするレコードに対応するセルの上にマウスポインターを置いて、 **+** アイコン。
@@ -201,7 +201,7 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
 
 Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接続を作成した後、Workfront内のオブジェクトに個々の Maestro レコードを接続できます。 また、Workfrontオブジェクトのフィールドを Maestro レコードタイプに接続することもできます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅に <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
    最後にアクセスしたワークスペースは、デフォルトで開きます。
 
@@ -265,11 +265,30 @@ Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接
    >
    >    * Workfrontオブジェクトのレコードの種類をタイムラインビューに表示するには、読み取り専用のWorkfrontレコードの種類のページの [ テーブル ] ビューに少なくとも 2 つの日付フィールドを表示する必要があります。
 
-1. （オプション） **その他** メニュー ![](assets/more-menu.png) ページのヘッダーで「 Workfrontオブジェクトレコードタイプ名」の横にある「 **名前を変更** をクリックして、レコードの名前を編集します。
+1. （オプション） Maestro でWorkfrontオブジェクトレコードの詳細ページを開くには、次のいずれかの操作を行います。
 
-   >[!NOTE]
-   >
-   >    リンクされたWorkfrontレコードタイプやオブジェクトは、Workfrontレコードタイプのページから削除できません。
+   * リンク元のレコードの種類から、「 Workfrontオブジェクトのリンクされたレコード」フィールドに移動し、Workfrontオブジェクトの名前をクリックします。
+   * 次から： **テーブル** 「 Workfrontレコードタイプ」ページのビューで、Workfrontオブジェクトの名前をクリックします。
+
+     または
+
+     次をクリック： **その他** Workfrontオブジェクト名の右にあるメニューをクリックし、 **表示**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   リンクされたWorkfrontオブジェクトの [Maestro 詳細 ] ページが開きます。 これは読み取り専用ページです。
+
+1. （オプション）リンクされたWorkfrontオブジェクトをWorkfrontで開くには、次のいずれかの操作を行います。
+
+   * 次から： **テーブル** 「 Workfrontレコードタイプ」ページの表示で、Workfrontオブジェクトの名前をクリックします。
+
+   または
+
+   次をクリック： **その他** Workfrontオブジェクト名の右側にあるメニューを開き、 **ソースに移動**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   これにより、 Workfrontオブジェクトページが開きます。 Workfrontオブジェクトに関する情報を編集できます（編集する権限がある場合）。
 
 1. （オプション） **フィールドを追加** アイコン ![](assets/add-fields-icon.png) 「 Workfrontレコードタイプ」ページのテーブルビューの右上隅で、WorkfrontレコードタイプのWorkfrontフィールドを追加または削除します。
 

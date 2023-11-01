@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,7 @@ Adobe・マエストロでは、不要になったレコードを削除できま
 * 削除したレコードが他のレコードにリンクされている場合、リンクされたレコードは削除されませんが、削除したレコードの情報も削除されます。
 * レコードは一括で削除できません。 <!--this will probably change-->
 * タイムラインビューからレコードを削除することはできません。
+* 別のアプリケーションからリンクされたレコードタイプは削除できません。 例えば、Maestro レコードをWorkfrontオブジェクトにリンクする場合、WorkfrontオブジェクトレコードページからWorkfrontオブジェクトを削除することはできません。
 
 ## レコードを削除
 
