@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 
 1. （条件付き）レコードタイプのページがテーブルビューで開かない場合、 **表示** ドロップダウンメニューで、既存の **テーブル表示** ![](assets/table-view-icon.png) または、 **ビューを作成/テーブル** をクリックして、テーブルビューを作成します。
 
-1. クリック **新規 &lt; レコードタイプ名 >** テーブルの最後の行で、テーブルに新しい行を追加します。
+1. 新しいレコードを追加するには、 **新規 &lt; レコードタイプ名 >** テーブルの最後の行
+
+   または
+
+   クリック **Shift + Enter** キーボードで、テーブルの任意の列または行を選択します。 この場合は、空の行が表示されます。
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
-
-   >[!TIP]
-   >
-   >    Ctrl キーを押しながら Enter キーを押して、新しいレコードを新しい行に追加します。
-
-   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. 新しいレコードに関する情報を新しい行に入力します。
 

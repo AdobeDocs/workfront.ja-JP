@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ Maestro の次の領域からWorkfrontオブジェクトページを開くこと
 * 読み取り専用のWorkfrontオブジェクトレコードの詳細ページ
 
 詳しくは、 [レコードを接続](../maestro/records/connect-records.md).
+
+### テーブル表示でのナビゲーションの改善
+
+プレビューおよび実稼動環境： 2023 年 11 月 3 日
+
+レコードタイプのページのテーブル表示でのナビゲーションを改善しました。
+
+次に、改善点を示します。
+
+* キーボードの Tab キーを使用して、テーブルの列と行を移動する
+
+* 任意の列の位置から新しいレコードを追加します。 この改善がおこなわれる前は、最初の列からのみレコードを追加できます。
+
+* Shift + Enter キーを押して、テーブルに新しいレコード（または行）を追加します。
+
+詳しくは、 [レコードを作成](../maestro/records/connect-records.md).
 
 ## 2023 年 10 月 16 日の週
 
