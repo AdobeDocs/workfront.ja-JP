@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: b179a4681ab08773ceaa4a6cd81c764acda1dcf1
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2695'
 ht-degree: 0%
 
 ---
@@ -304,7 +304,7 @@ These enhancements will be included in the following releases:
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトウィジェット、タスクウィジェット、およびイシューウィジェットの作業ボタンを委任します</a> </p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>古いホームページで一般的に要求される機能で、「マイワーク」、「マイタスク」、「マイタスク」の各ウィジェットに委任ボタンが追加され、不在時に作業を簡単に委任できるようになりました。</p>
+                        <p>古いホームページで一般的に要求される機能で、「マイワーク」、「マイタスク」、「マイタスク」の各ウィジェットに委任ボタンが追加され、不在時に作業を簡単に委任できるようになりました。 ボタンを表示するには、Workfront環境で作業の委任を有効にする必要があります。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>

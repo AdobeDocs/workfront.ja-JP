@@ -6,10 +6,10 @@ description: ドキュメントをサポートする任意のオブジェクト�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -68,8 +68,6 @@ ht-degree: 0%
    この環境設定が有効な場合、ユーザーは電子メール通知とアプリ内通知を受け取ります。 電子メール通知について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    電子メール通知に含まれるリンクをクリックして、ドキュメントをアップロードできます。 または、アプリ内通知をクリックできます。 各オプションを選択すると、ユーザープロファイルページに移動し、要求したドキュメントをアップロードできます。
-
-   また、電子メールに直接返信し、要求されたドキュメントを添付することもできます（電子メールの返信をサポートするように設定されている場合）。
 
 1. ドキュメントをアップロードすると、要求した人が自分用のドキュメントにアクセスできるようになります **ドキュメント** 領域。
 

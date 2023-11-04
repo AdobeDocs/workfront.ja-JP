@@ -6,7 +6,7 @@ description: デスクトップ校正ビューアは、インタラクティブ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -53,8 +53,8 @@ Adobe Workfrontの管理者またはWorkfrontの配達確認管理者が、ア�
 
 1. アプリをダウンロードするには、次のいずれかの操作を行います。
 
-   * 実稼動環境を使用している場合は、 [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.31.pkg)
-   * プレビュー環境を使用している場合は、 [Mac Preview Desktop Proofing Viewer 用のダウンロードです。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.31.pkg)
+   * 実稼動環境を使用している場合は、 [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.32.pkg)
+   * プレビュー環境を使用している場合は、 [Mac Preview Desktop Proofing Viewer 用のダウンロードです。](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.32.pkg)
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、 **続行**&#x200B;を選択し、次に **インストール**.
@@ -77,8 +77,8 @@ WorkfrontまたはWorkfrontの配達確認管理者がワークステーショ�
 
 1. アプリをダウンロードするには、次のいずれかの操作を行います。
 
-   * 実稼動環境で、 [デスクトップ校正ビューア用の Windows Production ダウンロードです。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.31.exe)
-   * プレビュー環境で、 [デスクトップ校正ビューア用の Windows プレビューのダウンロード](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.31.exe)
+   * 実稼動環境で、 [デスクトップ校正ビューア用の Windows Production ダウンロードです。](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.32.exe)
+   * プレビュー環境で、 [デスクトップ校正ビューア用の Windows プレビューのダウンロード](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.32.exe)
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、ダウンロードしたファイルを開いてインストールを開始します。
