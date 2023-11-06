@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: タイムシートと時間の基本設定を構成する
-description: As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本設定を次の場所で指定できます： [!DNL Workfront] を使用して、タイムシートに事前入力できる項目と、ユーザーが時間を記録できる項目を定義します。
+description: As an [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本設定を次の場所で指定できます： [!DNL Workfront] を使用して、タイムシートに事前入力できる項目と、ユーザーが時間を記録できる項目を定義します。
 author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,14 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本設定を次の場所で指定できます： [!DNL Workfront] を使用して、タイムシートに事前入力できる項目と、ユーザーが時間を記録できる項目を定義します。
+As an [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本設定を次の場所で指定できます： [!DNL Workfront] を使用して、タイムシートに事前入力できる項目と、ユーザーが時間を記録できる項目を定義します。
+
+>[!NOTE]
+>
+>タイムシートの期間内に時間を記録した項目は、既定でタイムシートに表示されますが、タイムシートの事前入力に関するこの記事で説明する条件を満たしていない場合があります。
+>
+>ログ時間について詳しくは、 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 タイムシートに加えた変更は、今後作成されるすべてのタイムシートに影響を与えます。
 
@@ -50,7 +57,7 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
 
 ## タイムシートと時間の基本設定を設定する
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 
 1. クリック **[!UICONTROL タイムシートと時間]** > **[!UICONTROL 環境設定]**.
 
@@ -66,7 +73,8 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
        <ul> 
         <li>ログ時間にアクセスできるプロジェクト、タスクおよび問題</li> 
         <li>一般時間としてのタイムシート</li> 
-       </ul> <p>これは、ユーザーがオフィスを離れる予定で、事前にその時間をログに記録したい場合に便利です。</p> <p><b>注意</b>:ユーザーが終了またはキャンセルしたタスクや問題に対して時間を記録するのを防ぐことはできません。 ユーザーが完了または無効なプロジェクトで時間をログに記録するのを防ぐことができます。 タスクやタスクのリストでフィルターを使用して、完了またはキャンセルしたタスクをユーザーに表示しないようにすることをお勧めします。</p> </td> 
+       </ul> <p>これは、ユーザーがオフィスを離れる予定で、事前にその時間をログに記録したい場合に便利です。</p> <p><b>メモ</b>:</p> 
+       <p>ユーザーが終了またはキャンセルしたタスクや問題に対して時間を記録するのを防ぐことはできません。 ユーザーが完了または無効なプロジェクトで時間をログに記録するのを防ぐことができます。 タスクやタスクのリストでフィルターを使用して、完了またはキャンセルしたタスクをユーザーに表示しないようにすることをお勧めします。</p> </td> 
      </tr>
 
    <tr> 
@@ -88,16 +96,16 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL 時間編集を所有者および管理者に制限 ]</td> 
-      <td>時間と [!DNL Workfront] 管理者。 この設定は、プロジェクトの [!UICONTROL 時間 ] タブまたは時間レポートに適用されます。</td> 
+      <td>時間を入力したユーザーに対して編集を制限し、 [!DNL Workfront] 管理者。 この設定は、プロジェクトの [!UICONTROL 時間 ] タブまたは時間レポートに適用されます。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 内 **[!UICONTROL ユーザーが時間を記録できる場所]** セクションで、次のいずれかのオプションを設定します。
+1. Adobe Analytics の **[!UICONTROL ユーザーが時間を記録できる場所]** セクションで、次のいずれかのオプションを設定します。
 
    <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL プロジェクトで直接時間を記録 ]</td>
+        <td>[!UICONTROL プロジェクトで直接時間を記録する ]</td>
         <td>ユーザーがプロジェクトの時間を [!UICONTROL 更新 ] タブとタイムシートの両方で記録できるようにします。 ユーザーがプロジェクトレベルで時間を記録しない場合、このオプションはオフのままにする必要があります。</td>
     </tr>
     <tr>
@@ -110,7 +118,7 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
     </tr>
    </table>
 
-1. 内 **[!UICONTROL タイムシートの事前入力]** セクションで、次のいずれかのオプションを設定します。
+1. Adobe Analytics の **[!UICONTROL タイムシートの事前入力]** セクションで、次のいずれかのオプションを設定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -118,7 +126,7 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL 内の作業 ] &lt;number of="" weeks=""&gt; [!UICONTROL タイムシートの作業範囲 ]</td> 
-      <td> <p>ユーザーに割り当てられたタスクとタスクの日付が含まれるタイムシートの日付範囲の前後の週数を定義します。 デフォルト設定は 1 週間で、この範囲を 4 週間に延長できます。 つまり、タイムシートには、タイムシートの日付範囲の 4 週間前からタイムシートの日付範囲の 4 週間後までの間の日付があるタスクと問題が事前に設定されています。 </p> </td> 
+      <td> <p>ユーザーに割り当てられたタスクとタスクの日付が含まれるタイムシートの日付範囲の前後の週数を定義します。 デフォルト設定は 1 週間で、この範囲を 4 週間に延長できます。 つまり、タイムシートには、タイムシートの日付範囲の 4 週間前からタイムシートの日付範囲の 4 週間後までの間の日付があるタスクと問題が事前に設定されています。期間に 4 週間を選択した場合。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL タスクおよび完了した問題 ]</td> 
@@ -135,7 +143,7 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
     </tbody> 
    </table>
 
-1. 内 **[!UICONTROL 削除されたプロジェクト、タスクおよび問題]** 「 」セクションで、以下を指定します。
+1. Adobe Analytics の **[!UICONTROL 削除されたプロジェクト、タスクおよび問題]** 「 」セクションで、次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -145,16 +153,16 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
       <td role="rowheader">[!UICONTROL プロジェクトを削除する場合 ]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL タイムシートに既に追加されているログ記録時間を一般時間として保持 ]</strong>:このプロジェクトが後で復元された場合、時間はタイムシートに残ります。</li> 
-        <li><strong>[!UICONTROL ログに記録された時間を削除する ]</strong>:このプロジェクトが後で復元されると、既にログに記録された時間がプロジェクトに復元されます。</li> 
+        <li><strong>[!UICONTROL タイムシートに既に追加されているログ記録時間を一般時間として保持 ]</strong>：このプロジェクトが後で復元された場合、時間はタイムシートに残ります。</li> 
+        <li><strong>[!UICONTROL ログに記録された時間を削除する ]</strong>：このプロジェクトが後で復元されると、既にログに記録されている時間がプロジェクトに復元されます。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL タスクや問題を削除する場合 ]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL ログに記録された時間を、タスクまたは問題が存在するプロジェクトに移動します ]</strong>:このタスクまたは問題が後で復元された場合、時間はプロジェクトに残ります。<br></li> 
-        <li> <p><strong>[!UICONTROL ログに記録された時間を削除する ]</strong>:このタスクまたは問題が後で復元された場合、ログに記録された時間がタスクまたは問題に復元されます。</p> <p>これらのオプションについて詳しくは、 <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL オブジェクトが削除され、復元された時間に対する [!UICONTROL Affect] の設定</a>.</p> </li> 
+        <li><strong>[!UICONTROL ログに記録された時間を、タスクまたは問題が存在するプロジェクトに移動します ]</strong>：このタスクまたは問題を後で復元した場合は、時間はプロジェクトに残ります。<br></li> 
+        <li> <p><strong>[!UICONTROL ログに記録された時間を削除する ]</strong>：このタスクまたは問題が後で復元された場合、ログに記録された時間がタスクまたは問題に復元されます。</p> <p>これらのオプションについて詳しくは、 <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL オブジェクトが削除され、復元された時間に対する [!UICONTROL Affect] の設定</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -162,7 +170,7 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## グループのタイムシートと時間の基本設定をロック解除
+## グループのタイムシートと時間の基本設定をロック解除する
 
 組織内のグループには、固有のワークフローに対して異なる構成のタイムシートまたは時間の優先設定が必要な場合があります。 組織全体のすべてのグループの環境設定のロックを解除して、グループが自分で設定できるようにすることができます。
 
@@ -176,17 +184,17 @@ As a [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本�
 
 プロジェクトの環境設定をロック解除して、グループが設定できるようにするには、次の手順を実行します。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 
-1. 左側のパネルで、 **[!UICONTROL タイムシートと時間]**&#x200B;を選択し、「 **[!UICONTROL 環境設定]**.
+1. 左側のパネルで、 **[!UICONTROL タイムシートと時間]**&#x200B;を選択し、次に **[!UICONTROL 環境設定]**.
 
 1. 次のいずれかの操作を行います。
 
    * グループ管理者がグループの環境設定を構成できるようにするには、グループのロックを解除します ![](assets/unlock-toggle-button.png).
    * すべてのグループで環境設定を使用する場合は、設定がロックされていることを確認します（デフォルト）。
 
-      >[!IMPORTANT]
-      >
-      >ロックされた環境設定を構成する際にすべてのニーズが考慮されるように、システム全体の管理者やグループ内のユーザーとコミュニケーションを取ることをお勧めします。 ロックすると、その設定がシステム内のすべてのグループに継承されます。 また、環境設定のロックが一定期間解除されている場合は、グループ管理者が行った設定がその設定に置き換えられます。
+     >[!IMPORTANT]
+     >
+     >ロックされた環境設定を構成する際にすべてのニーズが考慮されるように、システム全体の管理者やグループ内のユーザーとコミュニケーションを取ることをお勧めします。 ロックすると、その設定がシステム内のすべてのグループに継承されます。 また、環境設定のロックが一定期間解除されている場合は、グループ管理者が行った設定がその設定に置き換えられます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
