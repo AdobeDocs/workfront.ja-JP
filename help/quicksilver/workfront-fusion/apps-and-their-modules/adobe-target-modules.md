@@ -9,7 +9,7 @@ description: 内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 51db439995430dad86e41190520824743216df69
 workflow-type: tm+mt
 source-wordcount: '2646'
 ht-degree: 0%
@@ -188,7 +188,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -197,19 +197,19 @@ ht-degree: 0%
       <ul>
         <li>
           <p>[!UICONTROL AB Activity]</p>
-          <p>続行 <a href="#AB%C2%A0Activ" class="MCXref xref" >AB アクティビティフィールド</a>.</p>
+          <p>続行 <a href="#ab-activity-fields" class="MCXref xref" >AB アクティビティフィールド</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL XT アクティビティ ]</p>
-          <p>続行 <a href="#XT" class="MCXref xref" >XT アクティビティフィールド</a>.</p>
+          <p>続行 <a href="#xt-activity-fields" class="MCXref xref" >XT アクティビティフィールド</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Offer]</p>
-          <p>続行 <a href="#Offer" class="MCXref xref" >オファーフィールド</a>.</p>
+          <p>続行 <a href="#offer-fields" class="MCXref xref" >オファーフィールド</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Audience]</p>
-          <p>続行 <a href="#Audience" class="MCXref xref" >オーディエンスフィールド</a>.</p>
+          <p>続行 <a href="#audience-fields" class="MCXref xref" >オーディエンスフィールド</a>.</p>
         </li>
       </ul>
     </td>
@@ -657,7 +657,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] ベース URL]</td>
@@ -710,7 +710,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -733,7 +733,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -756,7 +756,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -766,12 +766,12 @@ ht-degree: 0%
           <li>
             <p><b>[!UICONTROL AB Activity]</b>
             </p>
-            <p>詳しくは、 <a href="#AB%C2%A0Activ" class="MCXref xref" >AB アクティビティフィールド</a> under <a href="#Create2" class="MCXref xref" >レコードの作成</a>.</p>
+            <p>詳しくは、 <a href="#ab-activity-fields" class="MCXref xref" >AB アクティビティフィールド</a> under <a href="#create-a-record" class="MCXref xref" >レコードの作成</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL XT アクティビティ ]</b>
             </p>
-            <p>詳しくは、 <a href="#XT" class="MCXref xref" >XT アクティビティフィールド</a> under <a href="#Create2" class="MCXref xref" >レコードの作成</a>.</p>
+            <p>詳しくは、 <a href="#xt-activity-fields" class="MCXref xref" >XT アクティビティフィールド</a> under <a href="#create-a-record" class="MCXref xref" >レコードの作成</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL その他のアクティビティ ]</b>
@@ -781,12 +781,12 @@ ht-degree: 0%
           <li>
             <p><b>[!UICONTROL Offer]</b>
             </p>
-            <p>詳しくは、 <a href="#Offer" class="MCXref xref" >オファーフィールド</a> under <a href="#Create2" class="MCXref xref" >レコードの作成</a>.</p>
+            <p>詳しくは、 <a href="#offer-fields" class="MCXref xref" >オファーフィールド</a> under <a href="#create-a-record" class="MCXref xref" >レコードの作成</a>.</p>
           </li>
           <li>
             <p><b>[!DNL Audience]</b>
             </p>
-            <p>詳しくは、 <a href="#Audience" class="MCXref xref" >オーディエンスフィールド</a> under <a href="#Create2" class="MCXref xref" >レコードの作成</a>.</p>
+            <p>詳しくは、 <a href="#audience-fields" class="MCXref xref" >オーディエンスフィールド</a> under <a href="#create-a-record" class="MCXref xref" >レコードの作成</a>.</p>
           </li>
         </ul>
       </td>
@@ -815,7 +815,7 @@ ht-degree: 0%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+      <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
@@ -852,7 +852,7 @@ ht-degree: 0%
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL 接続 ]</td>
-    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#Create" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
+    <td>への接続を作成する手順については、 [!DNL Adobe Target]を参照してください。 <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >への接続の作成 [!DNL Adobe Target]</a> 」を参照してください。</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL レコードタイプ ]</td>
