@@ -2,21 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]
-description: マッピングとは、項目に構造化されたモジュールの出力を別のモジュールの入力フィールドに割り当てるプロセスです。
+title: であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]
+description: マッピングとは、アイテムに構造化されたモジュールの出力を、別のモジュールの入力フィールドに割り当てるプロセスです。
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
 
 ---
 
-# のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]
+# であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]
 
-マッピングとは、項目に構造化されたモジュールの出力を別のモジュールの入力フィールドに割り当てるプロセスです。
+マッピングとは、アイテムに構造化されたモジュールの出力を、別のモジュールの入力フィールドに割り当てるプロセスです。
 
 マッピングパネルは、シナリオで前のモジュールから出力された値を挿入するフィールドをクリックすると表示されます。 モジュール内では、マッピングに使用できる任意のフィールドで、入力した静的テキストを含むマッピングパネルから、任意の関数とマッピングされた項目の組み合わせを使用して数式を作成できます。 これらの要素は、互いに内部にネストできます。
 
@@ -41,15 +41,15 @@ ht-degree: 0%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## バンドルと項目
 
-モジュールを操作すると、出力として 0、1、または複数のバンドルが生成されます。 バンドルは、1 つ以上の項目で構成されます。
+モジュールの操作により、出力として 0、1、または複数のバンドルが生成されます。 バンドルは、1 つ以上の項目で構成されます。
 
 モジュールの出力を調べるには：
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**例：** この例では、モジュールを示しています [!UICONTROL 電子メール] > [!UICONTROL メールを見る]. 1 回の操作を実行し、次のような様々な項目を含む単一のバンドルを生成したことがわかります。 `Date`, `Email ID (UID)`, `size`など。
+>**例：** この例では、モジュールを示しています。 [!UICONTROL 電子メール] > [!UICONTROL メールを見る]. 1 回の操作を実行し、次のような様々な項目を含む単一のバンドルを生成したことがわかります。 `Date`, `Email ID (UID)`, `size`など。
 >
 >![](assets/watch-emails-350x298.png)
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 複数の項目を 1 つのフィールドにマッピングし、リテラル（固定値）と組み合わせ、演算子と関数を使用して複雑な数式を作成できます。
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 関数と演算子は、そのタブの 1 つの下のマッピングパネルにあります。
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 次に、数式の詳細な分類を示します。
 
 1. の最初のパラメーター `map()` 関数は配列項目全体です。
-1. 2 つ目のパラメータは、値項目の生の名前です。 生の名前を取得するには、 [!UICONTROL マッピング] パネル：
+1. 2 つ目のパラメーターは、値項目の生の名前です。 生の名前を取得するには、 [!UICONTROL マッピング] パネル：
 
    ![](assets/obtain-raw-name-350x124.png)
 
@@ -200,13 +200,13 @@ ht-degree: 0%
 
    ![](assets/3rd-parameter-350x166.png)
 
-1. 4 番目のパラメータは、指定されたキー値です。
+1. 4 番目のパラメーターは、指定されたキー値です。
 
 これは、 `map()` 関数は配列を返します（指定されたキー値を持つ他の要素が存在する可能性があるため）。 `get()` 関数の最初の要素を取得します。
 
 * の最初のパラメーター `get()` 関数は `map()` 関数に置き換えます。
 
-* 2 番目のパラメーターは、要素のインデックスです（1 つ）。
+* 2 番目のパラメーターは、要素のインデックス (1) です。
 
 詳しくは、 `map()` 関数， 「 [の配列関数 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
 
@@ -214,7 +214,7 @@ ht-degree: 0%
 
 ## 要素を一連のバンドルに変換する
 
-アレイは、 [!UICONTROL 反復子] モジュール。 詳しくは、 [[!UICONTROL 反復子] モジュール [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+アレイは、 [!UICONTROL 反復子] モジュール。 詳しくは、 [[!UICONTROL 反復子] モジュール内 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
 
 ![](assets/series-of-bundles-350x169.png)
 
@@ -232,7 +232,7 @@ ht-degree: 0%
 
 1. ウェブフックを生成します。
 
-   例えば、Webhook モジュール **[!DNL Slack]>[!UICONTROL 新しいイベントをリッスンする]** （チャネル内の新しいチャネルメッセージを監視）チャネルにメッセージを送信します。
+   例えば、Webhook モジュール **[!DNL Slack]>[!UICONTROL 新しいイベントをリッスンする]** （はチャネル内の新しいチャネルメッセージを監視します）チャネルにメッセージを送信します。
 
 1. モジュールの実行が終了したら、モジュールの上のバブルをクリックして、完全な出力を確認します。
 
@@ -241,7 +241,7 @@ ht-degree: 0%
 #### ポーリングトリガー
 
 1. モジュールを右クリックし、 **[!UICONTROL このモジュールのみを実行]** をクリックします。
-1. 出力がない場合は、 **[!UICONTROL 開始場所を選択]** 設定を調整します。
+1. 出力がない場合は、 **[!UICONTROL 開始する場所を選択]** 設定を調整します。
 1. 処理されるイベントがない場合は、イベントを作成し、手順 2 に戻ります。
 
    例えば、Webhook モジュール **[!UICONTROL Gmail] >[!UICONTROL メールを見る]** は、モジュールが監視しているフォルダーに電子メールを送信します。
