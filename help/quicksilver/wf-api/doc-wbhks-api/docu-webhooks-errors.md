@@ -6,8 +6,9 @@ title: Document Webhooks エラー処理
 description: Document Webhooks エラー処理
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 6e0f3be7-5321-44bd-a404-d5bef1462d82
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 * 次の形式を使用した、応答本文のエラーの説明。
 
-   ```
-   {status: “error”
-    error: “Sample error message”}
-   ```
+  ```
+  {status: "error"
+   error: "Sample error message"}
+  ```

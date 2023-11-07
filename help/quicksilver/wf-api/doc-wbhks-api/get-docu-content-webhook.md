@@ -6,8 +6,9 @@ title: Web フックを使用したドキュメントコンテンツの取得
 description: ドキュメントの生のバイトを返します
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 0f0b5af7-f276-4856-852c-e976fa491f83
-source-git-commit: 54d1753b9062b6d4910e4478c1f072b7fedc87eb
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 6%

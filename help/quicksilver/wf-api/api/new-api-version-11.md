@@ -5,8 +5,9 @@ title: API バージョン 11 の新機能
 description: Adobe Workfront API に、レポートのリソースとして ReportableBudgedHour が追加されました。 この機能は、BudgetedHour にない参照フィールド、コアフィールド、および既定のフィールドを備えています。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '3600'
 ht-degree: 2%
@@ -207,7 +208,7 @@ Adobe Workfront API に、レポートのリソースとして ReportableBudgedH
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>操作</td> 
+   <td>オペレーション</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">カウント</li> 
@@ -276,7 +277,7 @@ API v11 で削除されたリソースはありません。
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">タイムシート</a> </li> 
-     <li><a href="#update" class="MCXref xref"></a>を更新 </li> <!--
+     <li><a href="#update" class="MCXref xref">更新</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
@@ -364,7 +365,7 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
      <li style="font-weight: bold;">plannedStartDate</li>
     </ul><p style="font-weight: normal;">EAC（完了時の推定）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ]。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ] です。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
      <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS (Budgeted Cost of Work Scheduled) は、計画値とも呼ばれ、この指標の計算時に完了する必要のあるタスクの量の予算コストを表すプロジェクトのパフォーマンス指標です。 タスクの場合、BCWS =計画完了率 x タスク予算。 プロジェクトの場合、BCWS = SUM（すべての親タスクと個々のタスクの BCWS 値）</p></li>
     </ul><p style="font-weight: normal;">次のフィールドに、ET の値が追加されました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。</p>
     <ul>
@@ -572,7 +573,7 @@ Customer オブジェクトは、Workfrontのインスタンスを使用する�
    <td>ダイレクトフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>customEnumTypes</p> <p style="font-weight: normal;">次の値を追加しました。 </p> 
+     <li style="font-weight: bold;"> <p>customEnumTypes</p> <p style="font-weight: normal;">次の可能な値を追加しました。 </p> 
       <ul> 
        <li style="font-weight: normal;">CONDITION_PROJ （プロジェクト条件）</li> 
        <li style="font-weight: normal;">CONDITION_TASK （タスク条件）</li> 
@@ -613,7 +614,7 @@ CustomerPreferences オブジェクトは、Workfrontのインスタンスに対
    <td>ダイレクトフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">次の値を追加しました。</p> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">次の可能な値を追加しました。</p> 
       <ul> 
        <li style="font-weight: normal;">password:password.eauthPolicy （パスワードの複雑さの要件）</li> 
        <li style="font-weight: normal;"> password:password.minimumLength （最小パスワード長）</li> 
@@ -899,7 +900,7 @@ Program オブジェクトは、ポートフォリオ内のサブセットで、
      <li style="font-weight: bold;">plannedStartDate</li>
     </ul><p style="font-weight: normal;">EAC（完了時の推定）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ]。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ] です。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
      <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS (Budgeted Cost of Work Scheduled) は、計画値とも呼ばれ、この指標の計算時に完了する必要のあるタスクの量の予算コストを表すプロジェクトのパフォーマンス指標です。 タスクの場合、BCWS =計画完了率 x タスク予算。 プロジェクトの場合、BCWS = SUM（すべての親タスクと個々のタスクの BCWS 値）</p></li>
     </ul><p style="font-weight: normal;">以下のフィールドには CURRENCY というフラグが追加されています。</p>
     <ul>
@@ -987,7 +988,7 @@ ReservedTime リソースにより、フラグ REPORTABLE が追加されまし�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>操作</td> 
+   <td>オペレーション</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>編集</p> <p style="font-weight: normal;">追加済み</p> </li> 
@@ -1090,7 +1091,7 @@ Task オブジェクトは、最終目標を達成する（プロジェクトの
      <li style="font-weight: bold;">plannedStartDate</li>
     </ul><p style="font-weight: normal;">EAC（完了時の推定）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ]。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ] です。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
      <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS (Budgeted Cost of Work Scheduled) は、計画値とも呼ばれ、この指標の計算時に完了する必要のあるタスクの量の予算コストを表すプロジェクトのパフォーマンス指標です。 タスクの場合、BCWS =計画完了率 x タスク予算。 プロジェクトの場合、BCWS = SUM（すべての親タスクと個々のタスクの BCWS 値）</p></li>
     </ul><p style="font-weight: normal;">次のフィールドに、ET の値が追加されました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。</p>
     <ul>
@@ -1347,7 +1348,7 @@ Work オブジェクトは、Task と OpTask の両方が継承する共通の�
      <li style="font-weight: bold;">plannedStartDate</li>
     </ul><p style="font-weight: normal;">EAC（完了時の推定）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ]。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ] です。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
      <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS (Budgeted Cost of Work Scheduled) は、計画値とも呼ばれ、この指標の計算時に完了する必要のあるタスクの量の予算コストを表すプロジェクトのパフォーマンス指標です。 タスクの場合、BCWS =計画完了率 x タスク予算。 プロジェクトの場合、BCWS = SUM（すべての親タスクと個々のタスクの BCWS 値）</p></li>
     </ul><p style="font-weight: normal;">次のフィールドに、ET の値が追加されました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。</p>
     <ul>

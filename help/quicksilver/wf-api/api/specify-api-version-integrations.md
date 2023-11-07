@@ -5,8 +5,9 @@ title: 統合での API バージョンの指定
 description: 統合での API バージョンの指定
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%

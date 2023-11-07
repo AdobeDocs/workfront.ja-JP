@@ -5,8 +5,9 @@ title: カスタム OAuth 2 アプリケーションでの JWT フローの使�
 description: カスタム OAuth 2 アプリケーションでの JWT フローの使用
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -35,12 +36,12 @@ JWT は、アクセス要求に含めるために署名され、base-64 エン�
 
 公開鍵を生成するには、次の操作を行います。 **1 つ** 以下のうちの 1 つ。
 
-* MacOS/Linux ターミナルを開き、次のコマンドを実行してから、アップロードします。 `certificate_pub.crt` の使用 **公開鍵を追加** ボタン ( Workfrontの OAuth2 アプリケーション設定 )
+* macOS/Linux ターミナルを開き、次のコマンドを実行してから、アップロードします。 `certificate_pub.crt` の使用 **公開鍵を追加** ボタン ( Workfrontの OAuth2 アプリケーション設定 ) をクリックします。
 
-   <!-- [Copy](javascript:void(0);) -->
-   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
+  <!-- [Copy](javascript:void(0);) -->
+  <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* 以下を使用： **公開鍵/秘密鍵のペアを生成** ボタン ( Workfrontでの OAuth2 アプリケーション設定 ) をクリックして、RSA を生成します。
+* 以下を使用します。 **公開鍵/秘密鍵のペアを生成** ボタン ( Workfrontでの OAuth2 アプリケーション設定 ) をクリックして、RSA を生成します。
 
 ## JSON Web トークンの作成
 
@@ -54,7 +55,7 @@ JWT は、アクセス要求に含めるために署名され、base-64 エン�
  <tbody> 
   <tr> 
    <td role="rowheader">exp</td> 
-   <td> <p>必須. expiration パラメーターは、01/01/1970 GMT からの絶対時間を測定する必須のパラメーターです。 有効期限は、問題が発生した時刻よりも後にする必要があります。 この時間が経過すると、JWT は無効になります。 </p> <p>注意：非常に短い有効なトークン（数分）を持つことをお勧めします。その場合、アクセストークンと交換した後すぐに期限が切れます。 新しいアクセストークンが必要になるたびに、1 つの JWT が署名および交換されます。 これは、より安全なアプローチです。 必要に応じて、アクセストークンの取得に再利用する、長期間有効なトークンはお勧めしません。</p> </td> 
+   <td> <p>必須. expiration パラメーターは、01/01/1970 GMT からの絶対時間を測定する必須のパラメーターです。 有効期限は、問題が発生した時刻よりも後にする必要があります。 この時間が経過すると、JWT は無効になります。 </p> <p>注意：非常に短い有効なトークン（数分）を持つことをお勧めします。その場合、トークンはアクセストークンと交換された後すぐに期限切れになります。 新しいアクセストークンが必要になるたびに、1 つの JWT が署名および交換されます。 これは、より安全なアプローチです。 必要に応じて、アクセストークンの取得に再利用する、長期間有効なトークンはお勧めしません。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">is</td> 
@@ -62,14 +63,14 @@ JWT は、アクセス要求に含めるために署名され、base-64 エン�
   </tr> 
   <tr> 
    <td role="rowheader">sub</td> 
-   <td>必須. 件名は、設定で公開鍵を作成したユーザー ID です。</td> 
+   <td>必須. 件名は、設定時に公開鍵を作成したユーザー ID です。</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## JWT を交換してアクセストークンを取得する
 
-1. POSTリクエストの送信先：
+1. 次の宛先にPOSTリクエストを送信：
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>https://yourdomain.my.workfront.com/integrations/oauth2/api/v1/jwt/exchange</code></pre>

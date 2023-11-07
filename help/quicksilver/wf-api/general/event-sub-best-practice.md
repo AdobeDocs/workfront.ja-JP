@@ -5,8 +5,9 @@ title: イベント購読のベストプラクティス
 description: イベント購読のベストプラクティス
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # イベント購読のベストプラクティス
 
-サービスを正しく設定し、イベント購読を作成してこれらのメッセージ配信をトリガーすると、Adobe Workfrontイベント購読メッセージがWorkfrontから自動的に送信されます。 イベント購読の適切な設定について詳しくは、 [イベント購読配信要件](../../wf-api/general/setup-event-sub-endpoint.md).
+サービスを正しく設定し、イベント購読を作成してこれらのメッセージ配信をトリガーすると、Adobe Workfrontイベント購読メッセージがWorkfrontから自動的に送信されます。 イベント購読の適切な設定について詳しくは、 [イベント購読の配信要件](../../wf-api/general/setup-event-sub-endpoint.md).
 
 
 イベント購読を効果的に作成するのに役立つ、いくつかのベストプラクティスを以下に示します。
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 すべての必須リクエスト本文フィールドが API に提供されていることを確認します。 必要なすべての要求属性について詳しくは、 [イベント購読 API](../../wf-api/general/event-subs-api.md).
 
-## 追加の本文フィールドを含めない
+## 追加の本文フィールドを含めないでください
 
 リクエストに余分な本文フィールドを含めないでください。含めると、API で購読を作成できなくなります。
 
@@ -35,11 +36,11 @@ ht-degree: 0%
 
 ## 標準イベント購読メッセージ配信要件の満たし
 
-サブスクリプションエンドポイントが、標準イベントサブスクリプションメッセージ配信要件に準拠していることを確認します。 これらの要件について詳しくは、 [イベント購読配信要件](../../wf-api/general/setup-event-sub-endpoint.md).
+サブスクリプションエンドポイントが、標準イベントサブスクリプションメッセージ配信要件に準拠していることを確認します。 これらの要件について詳しくは、 [イベント購読の配信要件](../../wf-api/general/setup-event-sub-endpoint.md).
 
-## グローバル許可リスト地域別の IP アドレスの
+## グローバル許可リストに加える地域別の IP アドレスの
 
-ファイアウォールを通じてイベント購読ペイロードを受け取るには、IP アドレスをグローバル地域別にに追加する必要がありま許可リストす。 詳しくは、 [イベント購読 API](../../wf-api/general/event-subs-api.md).
+ファイアウォールを通じてイベント購読ペイロードを受け取るには、IP アドレスをグローバル地域別にに追加する必要がありま許可リストに加えるす。 詳しくは、 [イベント購読 API](../../wf-api/general/event-subs-api.md).
 
 ## 適切なアクセスレベルと API キーを持っている
 
@@ -50,6 +51,6 @@ ht-degree: 0%
 
 * API キー
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
   -->

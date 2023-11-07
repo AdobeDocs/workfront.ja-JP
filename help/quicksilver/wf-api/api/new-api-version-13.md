@@ -5,8 +5,9 @@ title: API バージョン 13 の新機能
 description: Adobe Workfrontは、2021 年 4 月 23 日に API バージョン 13 をリリースしました。 API バージョン 13 では、バージョン 12 から次の変更がおこなわれました。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -106,7 +107,7 @@ BreadCrumb オブジェクトは、Workfront作業項目の親/子階層内の�
 
 ### BurndownEvent {#burndownevent}
 
-BurndownEvent オブジェクトは、反復の分解を変更するオブジェクトを表します。
+BurndownEvent オブジェクトは、反復のバンダウンを変更するオブジェクトを表します。
 
 バーンダウンについて詳しくは、 [バーンダウン](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
@@ -116,7 +117,7 @@ BurndownEvent オブジェクトは、反復の分解を変更するオブジェ
  <tbody> 
   <tr> 
    <td> <p>ダイレクトフィールド</p> </td> 
-   <td> <p>以下のフィールドは、NOT_GROUPABLE フラグを削除しました </p> 
+   <td> <p>以下のフィールドは、NOT_GROUPABLE フラグを削除しました。 </p> 
     <ul> 
      <li> <p>applyDate</p> </li> 
      <li> <p>entryDate</p> </li> 
@@ -137,7 +138,7 @@ CustomerPreferences オブジェクトは、Workfrontのインスタンスに対
    <td>ダイレクトフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">次の値を追加しました。</p> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">次の可能な値を追加しました。</p> 
       <ul> 
        <li style="font-weight: normal;">パスワード：aemAPIKey(config.general.aem.apikey)</li> 
        <li style="font-weight: normal;"> password:aemAADomain (config.general.aem.aadomain) </li> 
@@ -175,7 +176,7 @@ DocumentVersion オブジェクトは、ファイルの特定のバージョン�
    <td> <p>ダイレクトフィールド</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>externalIntegrationType</b> </p> <p>次の値が追加されました。</p> 
+     <li> <p><b>externalIntegrationType</b> </p> <p>次の値を追加できます。</p> 
       <ul> 
        <li> <p>AEM (Adobe Experience Manager)</p> </li> 
       </ul> </li> 
@@ -270,7 +271,7 @@ LinkedFolder オブジェクトは、Google Drive やDropboxなど、外部の�
    <td> <p>ダイレクトフィールド</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>externalIntegrationType</b> </p> <p>次の値が追加されました。</p> 
+     <li> <p><b>externalIntegrationType</b> </p> <p>次の値を追加できます。</p> 
       <ul> 
        <li> <p>AEM (Adobe Experience Manager)</p> </li> 
       </ul> </li> 
@@ -484,7 +485,7 @@ Adobe Workfront Classic のレイアウトテンプレートを表すオブジ�
 
 ### UserDelegation {#userdelegation}
 
-UserDelegation オブジェクトは、特定の期間、あるユーザーから別のユーザーに作業を委任する行為を表します。
+UserDelegation オブジェクトは、特定の期間、1 人のユーザーから別のユーザーに作業を委任する行為を表します。
 
 UserDelegation オブジェクトに REPORTABLE というフラグが追加されました。
 
@@ -494,7 +495,7 @@ UserDelegation オブジェクトに REPORTABLE というフラグが追加さ�
  <tbody> 
   <tr> 
    <td role="rowheader">ダイレクトフィールド</td> 
-   <td> <p>以下のフィールドは、NOT_GROUPABLE フラグを削除しました</p> 
+   <td> <p>以下のフィールドは、NOT_GROUPABLE フラグを削除しました。</p> 
     <ul> 
      <li> <p><b>endDate</b> </p> </li> 
      <li> <p><b>startDate</b> </p> </li> 

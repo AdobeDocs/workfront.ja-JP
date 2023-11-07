@@ -5,8 +5,9 @@ title: APIModel INTERNAL がフィールド projectid (OpTask)Category をサポ
 description: APIModel INTERNAL がフィールド projectid (OpTask) をサポートしない場合
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 22%
@@ -16,8 +17,8 @@ ht-degree: 22%
 
 # カテゴリ
 
-フィールドクラス：&quot;java.lang.IllegalArgumentException&quot;,\
-メッセージ：&quot;APIModel INTERNAL はフィールド projectid (OpTask) をサポートしていません&quot;
+Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
+メッセージ：「APIModel INTERNAL はフィールド projectid (OpTask) をサポートしていません」
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -104,7 +105,7 @@ ht-degree: 22%
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;hasCalculatedFields&quot;}"><strong>hasCalculatedFields</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Has Calculated Fields&quot;}">計算済みフィールドあり</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">ブール値</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">Boolean</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Does the form have calculated fields associated with it?&quot;}">フォームに関連付けられた計算フィールドがあるか。</td> 
    <td> </td> 
    <td> <p><span class="dtGrp">グループ化不可</span> </p> </td> 
@@ -141,7 +142,7 @@ ht-degree: 22%
 | 名前 | ラベル | タイプ | タイプオブジェクトコード | URL |
 |---|---|---|---|---|
 | 顧客 | 顧客 | 顧客 | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| エントリ者 | enteredBy | ユーザー | ユーザー | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 入力者 | enteredBy | ユーザー | ユーザー | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | グループ | グループ | グループ | グループ | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | 最終更新者 | lastUpdatedBy | ユーザー | ユーザー | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 
@@ -152,7 +153,7 @@ ht-degree: 22%
 |---|---|---|---|---|
 | アクセス ルール | accessRules | アクセス ルール | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | カテゴリアクセスルール | categoryAccessRules | カテゴリアクセスルール | CATACR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| カテゴリカスケードルール | categoryCascadeRules | カテゴリカスケードルール | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| カテゴリカスケードルール | categoryCascadeRules | カテゴリのカスケードルール | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | カテゴリ パラメーター | categoryParameters | カテゴリ パラメーター | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | その他のグループ | otherGroups | グループ | グループ | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 

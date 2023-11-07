@@ -5,10 +5,11 @@ title: デフォルトの API バージョン管理を使用する統合を更�
 description: デフォルトの API バージョン管理を使用する統合を更新
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ Workfront API リクエストでバージョンが指定されていない場合
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
-Workfront API リクエストを更新する際に、サポートされているアドビの API の任意のバージョンを指定できます。 特定の API の参照について詳しくは、 [統合での API バージョンの指定](../../wf-api/api/specify-api-version-integrations.md).
+Workfront API リクエストを更新する際に、サポートされているアドビの API の任意のバージョンを指定できます。 特定の API を参照する方法について詳しくは、 [統合での API バージョンの指定](../../wf-api/api/specify-api-version-integrations.md).
 
 最大サポート期間を確保するには、最新バージョンにお問い合わせください。 サポートされている API のリストは、 [API のバージョン管理とサポートのスケジュール](../../wf-api/api/api-version-support-schedule.md).
 

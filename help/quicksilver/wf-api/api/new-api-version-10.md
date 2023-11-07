@@ -5,11 +5,12 @@ title: API バージョン 10 の新機能
 description: 更新されたリソース
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 46%
+source-wordcount: '472'
+ht-degree: 35%
 
 ---
 
@@ -23,18 +24,18 @@ ht-degree: 46%
 
 ### ActivityLog
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | 追加 |
 |   |   |   |   |   |   | カウント |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntry
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 追加 |
 |   |   |   |   |   |   | カウント  |
@@ -44,22 +45,22 @@ ht-degree: 46%
 |   |   |   |   |   |   | レポート  |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarEntryExternalReference
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | カウント |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | レポート  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalAuthToken
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 追加 |
 |   |   |   |   |   |   | カウント |
@@ -69,11 +70,11 @@ ht-degree: 46%
 |   |   |   |   |   |   | レポート  |
 |   |   |   |   |   |   | SEARCH  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | customerID | 顧客 |   |   |   |   |   |
 | groupID | グループ |   |   |   |   |   |
@@ -83,11 +84,11 @@ ht-degree: 46%
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserHomeCalendarPreference
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | customerID | 顧客 |   |   |   |   | 追加 |
 | edTime | ユーザー |   |   |   |   | カウント |
@@ -98,7 +99,7 @@ ht-degree: 46%
 | userID |   |   |   |   |   | SEARCH |
 | workDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **更新されたリソース**
 
@@ -106,13 +107,13 @@ ht-degree: 46%
 
 * 追加は単にリストに表示されます
 * 削除は取り消し線テキストで示されます
-* 変更は、注記の表の後にリストされます
+* 変更は、注記の表の後にリストされます。
 
 ### 承認
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `¹`   |   |   |   |
+| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 | projectBudgetedCost  |   |   |   |   |   |   |
@@ -120,252 +121,252 @@ ht-degree: 46%
 | projectRoi  |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### 割り当て
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| assignmentPercent `¹` |   |   |   |   |   |   |
+| assignmentPercent `<sup>1</sup>` |   |   |   |   |   |   |
 | viewedByAssignedToUser |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-`¹`LESS_THAN_EQUAL を追加しました。
+`<sup>1</sup>`LESS_THAN_EQUAL を追加しました。
 
 ### BudgetedHour
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### CustomerPreferences
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| name `¹` |   |   |   |   |   |   |
+| name `<sup>1</sup>` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> possibleValues の変更
 
 ### DocMetadataLinkGroup
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ドキュメント
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocumentRequest
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `masterTaskID` |  |  |  |  |  |  |
+| `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DocumentVersion
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |   |   |   |   |   |   |
+| externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> possibleValues の変更
 
 費用
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### グループ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LinkedFolder
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| externalIntegrationType¹ |  |  |  |  |  |  |
+| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> possibleValues の変更
 
 ### Opタスク
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| priorityColor |  |  | pendingApproval¹ |  |  |  |
+| priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹タイプが null から boolean に変更されました
+<sup>1</sup> 型が null から boolean に変更されました
 
 ### PortalSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-|  |  |  | groupIDs |  |  |  |
+|   |  |   | groupIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ポートフォリオ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| portfolioNetValue |  |  |  |  |  |  |
+| portfolioNetValue |   |   |   |  |  |   |
 | portfolioRoi |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### プロジェクト
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | projectBudgetedCost  |   |   |   | linkExternalObject  |   |   |
 | projectNetValue |   |   |   | unlinkExternalObject |   |   |
 | projectRoi |   |   |   |   |   |   |
 | resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApproval
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| approverDecision |  |  |  |  |  |  |
+| approverDecision |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### レート
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |  |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹バリデーター CURRENCY を追加しました。
+<sup>1</sup>バリデーター CURRENCY を追加しました。
 
 ### タスク
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | kanbanFlag |   |   |   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### チーム
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |   |   |   |   |   |   |
+| hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ LESS_THAN バリデーターを追加しました。
+<sup>1</sup> LESS_THAN バリデーターを追加しました。
 
 ### TeamAssignment
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TeamTask
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### タイムシート
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 更新
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| updateType `¹` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
+| updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> possibleValues の変更
 
 ### ユーザー
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserNote
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| eventType ¹ |   |   |   |   |   |   |
+| eventType <sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> possibleValues の変更
 
 ### 作業
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval ¹  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹タイプが null から boolean に変更されました
+<sup>1</sup> 型が null から boolean に変更されました
 
 ## 削除されたリソース {#removed-resources}
 
 ### ResourceBudgetedHour
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | 追加  |
 | budgetedHours |   |   |   |   |   | カウント  |
@@ -375,7 +376,7 @@ DocumentVersion
 | roleID |   |   |   |   |   | レポート  |
 | userID |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

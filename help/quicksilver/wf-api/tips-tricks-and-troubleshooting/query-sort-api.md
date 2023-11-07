@@ -5,8 +5,9 @@ title: API でのクエリ結果の並べ替え
 description: API でのクエリ結果の並べ替え
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f001adb8-6295-4646-b9f1-78244a8c44a6
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 0%

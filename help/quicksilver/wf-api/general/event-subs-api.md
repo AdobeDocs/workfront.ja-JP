@@ -5,8 +5,9 @@ title: イベント購読 API
 description: イベント購読 API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 3%
@@ -24,7 +25,7 @@ ht-degree: 3%
 
 イベントの購読でサポートされているAdobe Workfrontオブジェクトでアクションが発生した場合、Workfrontが目的のエンドポイントに応答を送信するように設定できます。 つまり、サードパーティアプリケーションは、発生後すぐに、Workfront API を介してWorkfrontとのやり取りから更新を受け取ることができます。 一般に、ログに記録されるデータ変更から 5 秒未満で Webhook 通知を受け取ることが想定されます。 平均的に、お客様は、ログに記録されるデータ変更から 1 秒未満で Webhook 通知を受け取ります。  
 
-ファイアウォールを通じてイベント購読ペイロードを受け取るには、次の IP アドレスをイベントに追加する必要があ許可リストります。
+ファイアウォールを通じてイベント購読ペイロードを受け取るには、次の IP アドレスをイベントに追加する必要があり許可リストに加えるます。
 
 **ヨーロッパのお客様の場合：**
 
@@ -76,7 +77,7 @@ ht-degree: 3%
 * イベントサブスクリプションを使用するには、「システム管理者」のアクセスレベルが必要です。
 * A `sessionID`  イベント購読 API を使用するにはヘッダーが必要です
 
-   詳しくは、 [認証](api-basics.md#authentication) in [API の基本](api-basics.md).
+  詳しくは、 [認証](api-basics.md#authentication) in [API の基本](api-basics.md).
 
 ## 購読リソースの作成
 
@@ -90,7 +91,7 @@ ht-degree: 3%
 
    * **文字列**  — 変更をサブスクライブするオブジェクトの objCode。 objCode に指定できる値を次の表に示します。
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -234,12 +235,12 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | 応答コード | 説明 |
 |---|---|
-| 201 （作成済み） | イベント配信登録が正常に作成されました。 |
+| 201 （作成） | イベント配信登録が正常に作成されました。 |
 | 400（無効なリクエスト） | サブスクリプションリソースの URL フィールドが無効と見なされました。 |
 | 401 （未認証） | 提供された sessionID が空であったか、無効と見なされました。 |
 | 403 （禁止） | 指定された sessionID と一致するユーザーには、管理者アクセス権がありません。 |
 
-サブスクリプションリソースをリクエストの本文として渡すと（content-type は「application/json」）、指定されたオブジェクトに対してイベントサブスクリプションが作成されます。 応答コード 201 （作成済み）は、購読が作成されたことを示します。 201 以外の応答コードは、サブスクリプションが **NOT** 作成済み
+サブスクリプションリソースをリクエストの本文として渡すと（content-type は「application/json」）、指定されたオブジェクトに対してイベントサブスクリプションが作成されます。 応答コード 201 （作成済み）は、購読が作成されたことを示します。 201 以外の応答コードは、サブスクリプションが **NOT** 作成済み。
 
 >[!NOTE]
 >
@@ -256,14 +257,14 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 ## イベント購読のクエリ
 
-HTTP を使用してWorkfrontに問い合わせる場合は、GETメソッドを使用します。 イベント購読をクエリするには、2 つの方法があります。購読 ID（以下を参照）でクエリを実行するか、すべてのイベント購読をクエリします。
+HTTP を使用してWorkfrontに問い合わせる場合は、GETメソッドを使用します。 イベント購読をクエリするには、購読 ID でクエリする（以下を参照）か、すべてのイベント購読をクエリする 2 つの方法があります。
 
 ### すべてのイベント購読をクエリ
 
 ある顧客に関するすべてのイベント購読をクエリしたり、次の機能を使用して応答を管理したりできます。 また、次のオプションを使用して応答を管理することもできます。
 
-* **ページ**:返すページ数を指定するクエリパラメーターオプション。 デフォルトは 1 です。
-* **制限**:クエリーパラメーターオプションを使用して、1 ページあたりに返す結果の数を指定します。 デフォルトは 100 で、最大は 1000 です。
+* **ページ**：返すページ数を指定するクエリパラメーターオプション。 デフォルトは 1 です。
+* **制限**:1 ページあたりに返す結果の数を指定するクエリパラメーターオプション。 デフォルトは 100 で、最大は 1000 です。
 
 特定の顧客に関するすべてのイベント購読を一覧表示するためのリクエスト構文は次のとおりです。
 
@@ -416,16 +417,17 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 イベント購読のフィルタリングを使用して、関連するメッセージのみを確実に受け取るようにできます。 購読のフィルターを作成すると、エンドポイントで使用する必要のあるメッセージの数が大幅に減る場合があります。
 
-例： **更新 — タスク** イベント購読は、 **newState** イベントペイロードので、 **taskStatus** as **現在**.
+例えば、 **更新 — タスク** イベント購読は、次の場合にのみトリガーに設定できます **newState** イベントペイロードので、 **taskStatus** as **現在**.
 
 >[!IMPORTANT]
+>
 イベント購読のフィルタリングには、次の属性が適用されます
 
-* フィルターフィールドに空でない値が含まれる場合、 **newState** フィルターのキーと値が含まれている場合、購読された URL に送信されます
-* フィルターは、 **newState** AND/OR **oldState**&#x200B;オブジェクトの
+* フィルターフィールドに空でない値が含まれる場合、 **newState** フィルターのキーと値が含まれている場合、購読された URL に送信されます。
+* フィルターには、 **newState** AND/OR **oldState**&#x200B;オブジェクトの
 * フィルターは、特定の値と等しいかどうかに基づいてのみ評価されます
-* フィルターの構文が正しくないか、 **newState** ペイロードの場合、エラーが発生したことを示す検証メッセージは返されません
-* 現在存在する配信登録では、フィルターを更新できません。新しいフィルターパラメーターを使用して新しい購読を作成する必要があります。
+* フィルターの構文が正しくないか、 **newState** ペイロードの場合、エラーが発生したことを示す検証メッセージは返されません。
+* 現在存在するサブスクリプションでは、フィルターを更新できません。新しいサブスクリプションは、新しいフィルターパラメーターを使用して作成する必要があります。
 * 1 つの購読に複数のフィルターを適用できます。購読は、すべてのフィルター条件が満たされた場合にのみ配信されます。
 * 1 つの購読に複数のフィルターを適用する方法は、 **および** 論理演算子。
 * 1 つ以上のイベント購読フィールドパラメーターが各イベント購読で異なる限り、複数のイベント購読を 1 つのオブジェクトに適用できます。
@@ -435,9 +437,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 比較フィールドは、フィルターフィールドと共に指定できます。 比較結果をフィルタリングするには、このフィールドで比較演算子を使用します。 例えば、タスクのステータスが現在と異なる場合にのみペイロードを送信する UPDATE - TASK サブスクリプションを作成できます。 次の比較演算子を使用できます。
 
-#### eq:次と等しい
+#### eq：次と等しい
 
-このフィルターを使用すると、発生した変更が一致する場合にメッセージを表示できます `fieldValue` をフィルターに正確に含めます。 この `fieldValue` 値では大文字と小文字が区別されます。
+このフィルターを使用すると、発生した変更が一致する場合にメッセージを表示できます `fieldValue` をフィルターに正確に含めます。 The `fieldValue` 値では大文字と小文字が区別されます。
 
 ```
 {
@@ -455,9 +457,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### ne:等しくない
+#### ne：次の値と等しくない
 
-このフィルターを使用すると、発生した変更が一致しない場合にメッセージを表示できます `fieldValue` をフィルターに正確に含めます。 この `fieldValue` 値では大文字と小文字が区別されます。
+このフィルターを使用すると、発生した変更が一致しない場合にメッセージを表示できます `fieldValue` をフィルターに正確に含めます。 The `fieldValue` 値では大文字と小文字が区別されます。
 
 ```
 {
@@ -475,9 +477,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### gt:より大きい
+#### gt：より大きい
 
-このフィルターを使用すると、指定した `fieldName` が `fieldValue`.
+このフィルターを使用すると、指定した `fieldName` が次の値より大きい `fieldValue`.
 
 ```
 {
@@ -495,9 +497,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### gte:次よりも大きいか等しい
+#### gte：次よりも大きいか等しい
 
-このフィルターを使用すると、指定した `fieldName` 次の値以上 `fieldValue`.
+このフィルターを使用すると、指定した `fieldName` が次の値以上である `fieldValue`.
 
 ```
 {
@@ -515,9 +517,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### lt:より小さい
+#### lt：より小さい
 
-このフィルターを使用すると、指定した `fieldName` が `fieldValue`.
+このフィルターを使用すると、指定した `fieldName` が次の値より小さい `fieldValue`.
 
 ```
 {
@@ -535,7 +537,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### lte:次よりも小さいか等しい
+#### lte：次よりも小さいか等しい
 
 このフィルターを使用すると、指定した `fieldName` 次の値以下 `fieldValue`.
 
@@ -555,9 +557,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 }
 ```
 
-#### 含む
+#### が次を含む
 
-このフィルターを使用すると、発生した変更に `fieldValue` 」と入力します。 この `fieldValue` 値は大文字と小文字を区別します
+このフィルターを使用すると、発生した変更に `fieldValue` 」と入力します。 The `fieldValue` 値は大文字と小文字を区別します
 
 ```
 {
@@ -577,9 +579,10 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 #### 変更
 
-このフィルターを使用すると、指定したフィールド (`fieldName`) の値が oldstate と newstate で異なる。 指定したフィールド (`fieldName`) はその変更を返しません。
+このフィルターを使用すると、指定したフィールド (`fieldName`) の値が oldstate と newstate で異なる。 指定した以外の他のフィールド (`fieldName`) はその変更を返しません。
 
 >[!NOTE]
+>
 `fieldValue` のフィルター配列では、効果はありません。
 
 ```
@@ -604,8 +607,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 `oldState` は、CREATE では使用できません `eventTypes`.
 
 >[!NOTE]
-指定されたフィルターを含む以下のサブスクリプションは、タスクの名前にが含まれるメッセージのみを返します `again` の `oldState`：タスクに対して更新がおこなわれる前の内容。
-この場合、1 つのメッセージから別のメッセージに変更された objCode メッセージを見つけるのが使用例です。 例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のようにします。
+>
+指定されたフィルターを含む以下のサブスクリプションは、タスクの名前にが含まれるメッセージのみを返します `again` の `oldState`：タスクに対して更新がおこなわれる前の状態。
+この場合、1 つのメッセージから別のメッセージに変更された objCode メッセージを見つけるのが使用例です。 例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {
@@ -626,7 +630,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ### コネクタフィールドの使用
 
-この `filterConnector` 購読ペイロードのフィールドを使用すると、フィルターの適用方法を選択できます。 デフォルトは「AND」です。ここで、フィルターはすべて `true` 購読メッセージが表示されるまで 「OR」が指定されている場合、購読メッセージが受け取るには、1 つのフィルターのみが一致する必要があります。
+The `filterConnector` 購読ペイロードのフィールドを使用すると、フィルターの適用方法を選択できます。 デフォルトは「AND」です。ここで、フィルターはすべて `true` 購読メッセージが表示されるまで 「OR」が指定されている場合、購読メッセージが受け取るには、1 つのフィルターのみが一致する必要があります。
 
 ```
 {
@@ -853,7 +857,7 @@ UPDATE イベントと CREATE イベントのペイロードの例を以下に�
 
 ### Base 64 エンコーディングフィールド
 
-base64Encoding フィールドは、イベント購読ペイロードの Base64 エンコーディングを有効にするために使用されるオプションのフィールドです。 デフォルト値は false で、指定可能な値は次のとおりです。true、false および&quot; &quot; （空白）。
+base64Encoding フィールドは、イベント購読ペイロードの Base64 エンコーディングを有効にするために使用されるオプションのフィールドです。 デフォルト値は false で、指定可能な値は true、false および&quot; &quot; （空白）です。
 
 ### base64Encoding フィールドを使用したリクエストの例
 

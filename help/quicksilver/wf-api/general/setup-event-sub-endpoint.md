@@ -1,12 +1,13 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: イベント購読配信要件
-description: イベント購読配信要件
+title: イベント購読の配信要件
+description: イベント購読の配信要件
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# イベント購読配信要件
+# イベント購読の配信要件
 
 イベント購読メッセージとは、特定のイベントが発生した場合にユーザーに通知するように設定できる通知です。 イベント購読の詳細については、以下を参照してください。 [FAQ — イベント購読](../../wf-api/general/event-subs-faq.md).
 
@@ -30,7 +31,7 @@ Adobe Workfrontイベントの購読メッセージを使用するサービス�
 
 * 応答ステータスとして 200 レベルのステータスを返す場合、HTTP 応答は、配信の試行が開始してから 5 秒以内に受け取る必要があります。この制約により、消費者のビジネスプロセスやインフラストラクチャの制限によって、配信待ちの他のメッセージの配信が遅れません。
 
-* イベント購読メッセージから長時間実行されているビジネスプロセストリガーが発生した場合、Workfrontは
+* イベント購読メッセージから長時間実行されているビジネスプロセストリガーが発生した場合、Workfrontは、
 
    1. エンドポイントは受信時にメッセージ情報を保存し、直ちに 200 レベルのステータスで応答します。
    1. エンドポイントがイベント購読配信リクエストに応答したら、保存されたメッセージを処理できます。

@@ -5,10 +5,12 @@ title: イベント購読証明書
 description: イベント購読証明書
 author: Becky
 feature: Workfront API
-source-git-commit: 53ef8f4fda22c912c274841d07ad865aa04141c8
+role: Developer
+exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -92,7 +94,12 @@ Listen 443
 
 ## 証明書と環境のマッピング
 
-| WF 環境 |証明書の共通名 |証明書の件名 (DN) | | — | — | — | |実稼動 | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com| |プレビュー | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com | |サンドボックス 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com | |サンドボックス 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| WF 環境 | 証明書の共通名 | 証明書の件名 (DN) |
+| -- | -- | -- |
+| 実稼動 | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
+| プレビュー | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
+| サンドボックス 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| サンドボックス 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 
 ## 証明書をダウンロード
 
@@ -105,4 +112,3 @@ Listen 443
 >[!NOTE]
 >
 >両方のサンドボックス環境で同じクライアント証明書を使用できます。
-

@@ -5,11 +5,12 @@ title: API バージョン 9 の新機能
 description: これは、API バージョン 9 の新しいリソースのリストです。バージョン 9 のリソースに対しておこなわれた更新のリストを確認するには、API バージョン 9 の更新を参照してください。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 25%
+source-wordcount: '168'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 25%
 
 ### AccessLevel
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `accessRestrictions` | `customer` | `accessLevelPermissions` |  |  |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `accessRulePreferences` |  |  |  | `COPY` |
@@ -40,11 +41,11 @@ ht-degree: 25%
 | `nameKey` |  |  |  |  |  |  |
 | `securityModelType` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessLevelPermissions
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `coreAction` |  |  |  |  |  |   |
 | `forbiddenActions` |  |  |  |  |  |   |
@@ -53,19 +54,19 @@ ht-degree: 25%
 | `objObjCode` |  |  |  |  |  |  |
 | `secondaryActions` |  |  |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### AccessRulePreference
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### BudgetedHour
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `allocationDate` |  |  |  |  |  | `ADD` |
 | `budgetedHours` |  |  |  |  |  | `DELETE` |
@@ -75,11 +76,11 @@ ht-degree: 25%
 | `roleID`  |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarPortalSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `calendarInfoID` | `customer` |  | `displayDescription` |  |  | `ADD` |
 | `customerID` | `enteredBy` |  | `displayName` |  |  | `COPY` |
@@ -90,11 +91,11 @@ ht-degree: 25%
 | `objID`  |   |   |   |   |   |   |
 | `objObjCode`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### CalendarSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `calendarID` | `customer` | `filters` |  | `getConcatenatedExpressionForm` |  | `ADD` |
 | `calEvents` |  |  |  | `getPrettyExpressionForm` |  | `COUNT` |
@@ -107,11 +108,11 @@ ht-degree: 25%
 | `plannedDate` |   |   |   |   |   |   |
 | `startDate` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ExternalSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `appGlobalID` | `customer` |  | `displayDescription` | `calculateURL` |  | `ADD` |
 | `calculatedURL` | `enteredBy` |  | `displayName` | `calculateURLS` |  | `COPY` |
@@ -135,7 +136,7 @@ ht-degree: 25%
 | `url` |   |   |   |   |   |   |
 | `viewID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 

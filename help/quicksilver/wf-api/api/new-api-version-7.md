@@ -5,11 +5,12 @@ title: API バージョン 7 の新機能
 description: コレクション
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 40%
 
 ---
 
@@ -19,13 +20,13 @@ ht-degree: 50%
 
 ### 配達確認 Bean
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 検索 |
 | deadLine |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### DocMetadataLink
 
@@ -45,7 +46,7 @@ ht-degree: 50%
    <th>検索</th> 
    <th>アクション</th> 
    <th>クエリ</th> 
-   <th>操作</th> 
+   <th>オペレーション</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -108,7 +109,7 @@ ht-degree: 50%
 
 ### DocMetadataLinkGroup
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 追加 |
 |   |   |   |   |   |   | カウント |
@@ -117,24 +118,24 @@ ht-degree: 50%
 |   |   |   |   |   |   | レポート |
 |   |   |   |   |   |   | 検索 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ProofApproval
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | カウント |
 |   |   |   |   |   |   | 取得 |
 |   |   |   |   |   |   | レポート |
 |   |   |   |   |   |   | 検索 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### ResourceContour
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 追加 |
 |   |   |   |   |   |   | カウント |
@@ -144,25 +145,25 @@ ht-degree: 50%
 |   |   |   |   |   |   | レポート |
 |   |   |   |   |   |   | 検索 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### UserGroups
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | groupID | グループ |   |   |   |   |   |
 | isOwner  | ユーザー  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### TimesheetProfile
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |  hourTypes |   |   |   | 追加 |
 | name |   |   |   |   |   | コピー |
@@ -174,13 +175,13 @@ ht-degree: 50%
 |   |   |   |   |   |   | 検索 |
 |   |   |   |   |   |   | 置き換え |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### RsrcPool
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID | 顧客 | ユーザー |   |   |   | 追加 |
 | customerID  | enteredBy  |   |   |   |   | カウント |
@@ -192,20 +193,20 @@ ht-degree: 50%
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### DocMetadataLinkGroup
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | カウント |
 | articleName  |   |   |   |   |   | 取得 |
 | pageID  |   |   |   |   |   | レポート |
 | url  |   |   |   |   |   | 検索 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,150 +216,150 @@ ht-degree: 50%
 
 ## 更新されたオブジェクト
 
-既存のオブジェクトに対する変更：追加は単にリストに表示され、削除は取り消し線が付き、既存の変更は表の後に付いたメモが付きます
+既存のオブジェクトに対する変更：追加は単にリストに表示され、削除は取り消し線が付き、既存のオブジェクトに対する変更は表の後に付加されたメモを持ちます。
 
 ### UpdateBean
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更 
+<sup>1</sup> 可能な値の変更 
 
  
 
 ### ApprovalServiceObject
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
-| approvalStartDate¹ |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### AccessRule<sup>1</sup>
 
-¹レポート可能フラグ付き
+<sup>1</sup> レポート可能フラグ付き
 
  
 
 ### 承認プロセス
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### 承認パス¹
+### 承認パス<sup>1</sup>
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | `Add` |
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹レポート可能なフラグが削除されました
+<sup>1</sup> レポート可能なフラグが削除されました
 
  
 
 ### Work Service オブジェクト
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹追加された日付の検証
+<sup>1</sup> 追加された日付の検証
 
-² Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグが追加されました
 
  
 
 ### 割り当て
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹フィールド includeIssues を追加しました
+<sup>1</sup> フィールド includeIssues を追加しました。
 
  
 
 ### 顧客 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更 
+<sup>1</sup> 可能な値の変更 
 
  
 
 ### カスタム列挙 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### ドキュメント 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### DocumentVersion 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### グループ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ PRECISION バリデーターが 8 から 9 に変更されました。
+<sup>1</sup> PRECISION バリデータを 8 から 9 に変更しました。
 
  
 
 ### HourType
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
@@ -366,30 +367,30 @@ ht-degree: 50%
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### ジャーナル エントリ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> 可能な値の変更
 
  
 
 ### 商談（問題）
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -397,12 +398,12 @@ ht-degree: 50%
 
 ### プロジェクト
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -410,55 +411,55 @@ ht-degree: 50%
 
 ### QueueDef
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### QueueTopic
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### 最近使った
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### タスク
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   | assignMultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### TemplateTask
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹型が整数から倍精度浮動小数点に変更されました 
+<sup>1</sup> 型が整数から倍精度浮動小数点に変更されました 
 
  
 
@@ -480,7 +481,7 @@ ht-degree: 50%
    <th>検索</th> 
    <th>アクション</th> 
    <th>クエリ</th> 
-   <th>操作</th> 
+   <th>オペレーション</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -545,13 +546,13 @@ ht-degree: 50%
 
 ### ユーザーメモ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -559,10 +560,10 @@ ht-degree: 50%
 
 ### CustomerPrefObject
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> 可能な値の変更

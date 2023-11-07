@@ -5,8 +5,9 @@ title: イベント購読の再試行
 description: イベント購読の再試行
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
-次の説明は、フローチャートに表示される手順に対応します。
+次の説明は、フローチャートに表示される手順に対応しています。
 
 1. メッセージを配信できませんでした。
 1. メッセージ配信エラー情報がログに記録されます。

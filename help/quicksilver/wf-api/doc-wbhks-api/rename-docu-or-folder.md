@@ -6,8 +6,9 @@ title: ドキュメントまたはフォルダーの名前を変更する（ま�
 description: ドキュメントまたはフォルダの名前を変更する
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 4%
@@ -50,9 +51,9 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 戻り値
 
 ```
-{status: “success”
+{status: "success"
  }returns
  {
- status: “failure”, error: “Folder cannot be renamed because a folder with that name already exists.”
+ status: "failure", error: "Folder cannot be renamed because a folder with that name already exists."
  }
 ```

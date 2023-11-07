@@ -6,8 +6,9 @@ title: ドキュメントの Web フックを使用した検索
 description: ドキュメントの Web フックを使用した検索
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 3%

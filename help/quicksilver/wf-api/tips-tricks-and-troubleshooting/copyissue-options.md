@@ -5,8 +5,9 @@ title: OPTASK copyIssue のオプション設定
 description: copyIssue エンドポイントで想定される整数値の説明です。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
-source-git-commit: 93a67b3dbd59f188dad6b060ec93c3f137c981b2
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 6%
@@ -33,12 +34,12 @@ copyIssue API 呼び出しのプロパティの 1 つは、 `options`. このフ
 
 例:
 
-* 問題をコピーする際に進行状況をクリアするには、 `options` 値 `4`.
+* 問題をコピーする際に進行状況をクリアするには、 `options` の値 `4`.
 
-* 進行状況とドキュメントの両方をクリアするには、 `options` 値 `132`.
+* 進行状況とドキュメントの両方をクリアするには、 `options` の値 `132`.
 
-   進行状況の消去= 4
+  進行状況の消去= 4
 
-   ドキュメントの消去= 128
+  ドキュメントの消去= 128
 
-   4 + 128 = 132
+  4 + 128 = 132

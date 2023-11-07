@@ -5,11 +5,12 @@ title: API バージョン 6 の新機能
 description: API バージョン 6 の新機能
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 41%
+source-wordcount: '495'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 41%
 
 ### リソース管理者
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID | 顧客 |   |   |   |   | 追加 |
 | customerID | プロジェクト |   |   |   |   | カウント |
@@ -31,7 +32,7 @@ ht-degree: 41%
 
 ### Ews
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | fileName |   |   |   |   | アップロード |   |
 | 取り扱い |   |   |   |   |   |   |
@@ -40,7 +41,7 @@ ht-degree: 41%
 
 ### カスタムラベル
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | ID |   |   |   | checkDelete | customLabels | 追加 |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | カウント |
@@ -52,50 +53,50 @@ ht-degree: 41%
 
 ## 更新されたオブジェクト
 
-既存のオブジェクトに対する変更：追加は単にリストに表示され、削除は取り消し線が付き、既存の変更は表の後に付いたメモが付きます
+既存のオブジェクトに対する変更：追加は単にリストに表示され、削除は取り消し線が付き、既存のオブジェクトに対する変更は表の後に付加されたメモを持ちます。
 
 ### 更新
 
  
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> 可能な値の変更
 
-² hasFilters 属性が true に変更されました
+<sup>2</sup> hasFilters 属性が true に変更されました
 
  
 
 ### 承認
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
-| constraintDate¹ |   |   |   |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹追加された日付の検証
+<sup>1</sup> 追加された日付の検証
 
-² NOT_FILTERABLE フラグが追加されました
+<sup>2</sup> NOT_FILTERABLE フラグが追加されました
 
  
 
 ### 承認プロセス
 
-|   | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+|   | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -103,19 +104,19 @@ ht-degree: 41%
 
  
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| approvalType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> 可能な値の変更
 
  
 
-### 承認パス¹
+### 承認パス<sup>1</sup>
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | approvedStatus |   |   |   |   |   | 追加 |
 | approvedStatusLabel |   |   |   |   |   | カウント |
@@ -126,173 +127,173 @@ ht-degree: 41%
 | isPrivate |   |   |   |   |   | 検索 |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| 名前<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹レポート可能に変更済み
+<sup>1</sup> レポート可能に変更済み
 
-²最大長バリデーターの追加
+<sup>2</sup> 最大長バリデーターの追加
 
  
 
 ### Work Service オブジェクト
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹追加された日付の検証
+<sup>1</sup> 追加された日付の検証
 
-² Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグが追加されました
 
  
 
 ### 割り当て
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnProjects |   |   |
 |   |   |   |   | swapUsersOnProjects |   |   |
 |   |   |   |   | unassignUserFromProjects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### ベースライン 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Not_Filterable フラグが追加されました
+<sup>1</sup> Not_Filterable フラグが追加されました
 
  
 
 ### ベースライン タスク
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Not_Filterable フラグが追加されました
+<sup>1</sup> Not_Filterable フラグが追加されました
 
  
 
 ### 請求記録
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ NO_TIME フィールドフラグを追加しました
+<sup>1</sup> NO_TIME フィールドフラグを追加しました。
 
 ### バーンダウンイベント 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### カテゴリ 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 カスタム列挙 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuss |   |
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuses |   |
 |   |   |   |   |   | taskGroupStatuses |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ドキュメント 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 為替レート 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| rate¹ |   |   |   |   |   |   |
+| 評価<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ PRECISION バリデーターが 8 から 9 に変更されました。
+<sup>1</sup> PRECISION バリデータを 8 から 9 に変更しました。
 
  
 
 ### 統合
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
 ### ジャーナル エントリ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> 可能な値の変更
 
  
 
-### 商談（案件）¹ 
+### 商談（問題）<sup>1</sup> 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹復元可能フラグ付き
+<sup>1</sup> 復元可能フラグ付き
 
-² Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグが追加されました
 
  
 
-### プロジェクト¹ 
+### プロジェクト<sup>1</sup> 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
 | isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
@@ -301,95 +302,95 @@ ht-degree: 41%
 | 作業 |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ RESTORABLE および RESOURCE_MANABLE としてフラグ付け
+<sup>1</sup> RESTORABLE および RESOURCE_MANABLE としてフラグ付け
 
-² Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグが追加されました
 
  
 
-### タスク¹
+### タスク<sup>1</sup>
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| constraintDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹復元可能フラグ付き
+<sup>1</sup> 復元可能フラグ付き
 
-² AT_DATE_YEAR_BEFORE バリデーターが追加されました。
+<sup>2</sup> AT_DATE_YEAR_BEFORE バリデーターが追加されました。
 
-³ Not_Filterable フラグが追加されました
+<sup>3</sup> Not_Filterable フラグが追加されました
 
  
 
 ### チーム
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### テンプレート¹ 
+### テンプレート<sup>1</sup> 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ RESTORABLE および RESOURCE_MANABLE としてフラグ付け
+<sup>1</sup> RESTORABLE および RESOURCE_MANABLE としてフラグ付け
 
-### テンプレート タスク¹ 
+### テンプレートタスク<sup>1</sup> 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹復元可能フラグ付き
+<sup>1</sup> 復元可能フラグ付き
 
-² Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグが追加されました
 
  
 
 ### ユーザー
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ MAX_LENGTH 違反者
+<sup>1</sup> MAX_LENGTH 違反者
 
  
 
 ### ユーザーメモ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値が変更されました
+<sup>1</sup> 可能な値が変更されました
 
-²は次のフィルターに変更されました： `[true]`
+<sup>2</sup> には次のフィルターが変更されました： `[true]`
 
  
 
 ### お知らせ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 |   |   |   |   | `fileHandle` |   |   |
 |   |   |   |   | `zipAnnouncementAttachments`  |   |   |

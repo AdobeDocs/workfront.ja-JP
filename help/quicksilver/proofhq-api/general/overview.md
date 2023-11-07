@@ -4,8 +4,9 @@ description: 概要
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 1%
@@ -48,11 +49,11 @@ WSDL は次の場所にあります。
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:proofhqapi">`
    <soapenv:Header/>
    <soapenv:Body>
-	   ... API function and data inserted here ...
-	</soapenv:Body>
-	</soapenv:Envelope>
+       ... API function and data inserted here ...
+    </soapenv:Body>
+    </soapenv:Envelope>
 ```
 
 ## FAQ
 
-よくある質問のコレクションについては、 [この](http://api.proofhq.com/faqs) ページ。
+よくある質問のコレクションについては、 [この](http://api.proofhq.com/faqs) ページに貼り付けます。

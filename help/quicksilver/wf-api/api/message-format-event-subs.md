@@ -1,19 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: イベント購読のアウトバウンドメッセージ形式
-description: イベント購読のアウトバウンドメッセージ形式
+title: イベント購読用のアウトバウンドメッセージ形式
+description: イベント購読用のアウトバウンドメッセージ形式
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# イベント購読のアウトバウンドメッセージ形式
+# イベント購読用のアウトバウンドメッセージ形式
 
 Adobe Workfront 2017.3 のリリースでは、パフォーマンスを向上させ、統合でイベント購読をより適切に使用できるように、イベント購読のアウトバウンドメッセージの形式が変更されます。
 
@@ -23,11 +24,11 @@ Adobe Workfront 2017.3 のリリースでは、パフォーマンスを向上さ
 
 * アウトバウンドメッセージには、Workfrontリソースの oldState と newState が含まれます。
 
-   これらの値は、Workfrontでのイベントの結果としてオブジェクトに加えられた変更を表示します。
+  これらの値は、Workfrontでのイベントの結果としてオブジェクトに加えられた変更を表示します。
 
 * eventTime メタデータフィールドは、すべての送信メッセージに追加されます。
 
-   このフィールドは、ナノ秒およびエポック秒で、イベントが発生した時刻を示します。 統合で処理されるイベントを並べ替える際に、 eventTime を使用します。
+  このフィールドは、ナノ秒およびエポック秒単位で、イベントが発生した時刻を示します。 統合で処理されるイベントを並べ替える際に、 eventTime を使用します。
 
 * メモリソースの owner:companyID の参照フィールドは削除されます。
 * DOCU (Document) リソースの currentVersion が参照している objectOn は削除されます。

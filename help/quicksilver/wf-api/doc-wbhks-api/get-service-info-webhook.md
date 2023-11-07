@@ -6,8 +6,9 @@ title: サービスに関する情報を取得します
 description: サービスに関する情報を取得します
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
@@ -81,12 +82,12 @@ GET/serviceInfo
 
 ```
 {
-webhook version: “1.2”, version: “1.0”, publisher: “Acme, LLC”, availableEndpoints: [“files”, “metadata”, “search”, “download”
-“thumbnail”, “uploadInit”, “upload” ], customActions [
+webhook version: "1.2", version: "1.0", publisher: "Acme, LLC", availableEndpoints: ["files", "metadata", "search", "download"
+"thumbnail", "uploadInit", "upload" ], customActions [
 {
-name: “archive”, displayName: “Archive” 
+name: "archive", displayName: "Archive" 
 }, 
-{name: “doSomethingElse”, displayName: “Do Something” }, 
+{name: "doSomethingElse", displayName: "Do Something" }, 
 ] 
 }
 ```

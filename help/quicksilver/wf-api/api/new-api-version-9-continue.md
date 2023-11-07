@@ -2,14 +2,15 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 9 の新機能（続き）
-description: このリストは、大きいリストの後半部分です。 前半は、API バージョン 9 の新機能です。 バージョン 9 のアップデートのリストについては、 API バージョン 9 のアップデートを参照してください。
+description: このリストは、大きいリストの後半部分です。 前半は、API バージョン 9 の新機能です。 バージョン 9 のアップデートの一覧については、 API バージョン 9 のアップデートを参照してください。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 29%
+source-wordcount: '145'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 29%
 
 ## PortalSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `accessLevelMM` | `exportFusionChartToPDF` |  | `ADD` |
 | `appGlobalID` | `enteredBy` | `lastViewers` | `displayDescription` | `getPK` |  | `COPY` |
@@ -83,11 +84,11 @@ ht-degree: 29%
 | `viewID` |   |   |   |   |   |   |
 | `width` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionLastViewer
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | creationDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -95,11 +96,11 @@ ht-degree: 29%
 | `reportID` |  |  |  |  |  | `SEARCH` |
 | viewerID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionStatisticInfo
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `allViews` | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -113,11 +114,11 @@ ht-degree: 29%
 | `viewsThisQuarter`  |   |   |   |   |   |   |
 | `viewsThisYear`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTab
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `linkedRoleIDs` | `advancedCopy` |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `linkedRoles` | `linkedTeamIDs` | `exportDashboard` |  | `COPY` |
@@ -135,11 +136,11 @@ ht-degree: 29%
 | `tabname` |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTabSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `area` | `calendarPortalSection`  |   |   |   |   |   |
 | `calendarPortalSectionID` | `customer`  |   |   |   |   |   |
@@ -152,21 +153,21 @@ ht-degree: 29%
 | `portalSectionObjID`  |   |   |   |   |   |   |
 | `portalTabID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ReportFolder
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | customerID | `customer` |   |   |   |   |   |
 | `ID`  |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ScheduleReport
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `customerID` | `customer` | `groups` | `accessLevelMM` | `sendReportDeliveryNow` |  | `ADD` |
 | `description` | `enteredBy` | `roles` |  |  |  | `COPY` |

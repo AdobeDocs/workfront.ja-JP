@@ -5,8 +5,9 @@ title: API バージョン 15 の新機能
 description: Adobe Workfrontは、2022 年 6 月 14 日に API バージョン 14 をリリースしました。 API バージョン 15 では、バージョン 14 から次の変更がおこなわれました。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2349'
 ht-degree: 3%
@@ -27,7 +28,7 @@ Adobe Workfrontは、2022 年 6 月 14 日に API バージョン 15 をリリ�
 
 * [RichTextGroupParameterValue (GRCVAL)](#RichText)
 
-* [タスク定義 (TSKDEF)](#TaskDef)
+* [TaskDef (TSKDEF)](#TaskDef)
 
 * [UserApproval (USRAPV)](#UserAppr)
 
@@ -152,7 +153,7 @@ Initiative オブジェクトは、Workfrontシナリオプランナに、ジョ
       </td>
     </tr>
     <tr>
-      <td role="rowheader">操作</td>
+      <td role="rowheader">オペレーション</td>
       <td>
         <ul>
           <li>
@@ -322,7 +323,7 @@ IssueDef オブジェクトは、問題の形式に関する一連のデータ�
   </tbody>
 </table>
 
-### タスク定義 (TSKDEF)
+### TaskDef (TSKDEF)
 
 TaskDef オブジェクトは、タスクの形式に関する一連のデータを表します。 このオブジェクトは、プロジェクトまたはテンプレートにアタッチでき、そのプロジェクトまたはテンプレートに追加されるタスクに影響を与えます。
 
@@ -504,7 +505,7 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
       </td>
     </tr>
     <tr>
-      <td role="rowheader">操作</td>
+      <td role="rowheader">オペレーション</td>
       <td>
         <ul>
           <li>
@@ -1213,13 +1214,13 @@ Parameter オブジェクトは、カスタムフィールドです。
           <li>
             <p><b>dataType</b>
             </p>
-            <p>可能な値を追加しました <code>WIDGET </code>（ウィジェット） </p>
+            <p>可能な値を追加しました。 <code>WIDGET </code>（ウィジェット） </p>
             <p>この値は、カスタムフォームでの画像の使用をサポートします。</p>
           </li>
           <li>
             <p><b>displayType</b>
             </p>
-            <p>可能な値を追加しました <code>WIDGET </code>（ウィジェット）</p>
+            <p>可能な値を追加しました。 <code>WIDGET </code>（ウィジェット）</p>
             <p>この値は、カスタムフォームでの画像の使用をサポートします。</p>
           </li>
         </ul>
@@ -1406,7 +1407,7 @@ QueueDef オブジェクトは、Queue を表します。Queue は、ユーザ�
 
 ScoreCardQuestion オブジェクトは、スコアカードに追加された質問を表します。 これらの質問は通常、Portfolio管理者が決定し、その回答によって、管理者はプロジェクトがポートフォリオの目標にどの程度適合しているかを理解できます。
 
-スコアカードに関する質問の詳細は、 [スコアカードの作成](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+スコアカードに関する質問の詳細は、「 [スコアカードの作成](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 <table>
   <col/>
@@ -1419,7 +1420,7 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
           <li>
             <p><b>displayType</b>
             </p>
-            <p>可能な値を追加しました <code>WIDGET </code>（ウィジェット）</p>
+            <p>可能な値を追加しました。 <code>WIDGET </code>（ウィジェット）</p>
           </li>
         </ul>
       </td>
@@ -1518,10 +1519,10 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
                 <p><code>FOUR_COL</code> (4 カラム レイアウト)</p>
               </li>
               <li>
-                <p><code>UPDATES</code> (更新)</p>
+                <p><code>UPDATES</code> (アップデート)</p>
               </li>
               <li>
-                <p><code>UPDATESTOOLBAR_FEED</code> (更新)</p>
+                <p><code>UPDATESTOOLBAR_FEED</code> (アップデート)</p>
               </li>
               <li>
                 <p><code>WORKINGON</code> (作業中)</p>
@@ -1573,7 +1574,7 @@ Workfrontの作業項目を更新して、ユーザーに現在のステータ�
           <li>
             <p><b>updateType</b>
             </p>
-            <p>可能な値を追加しました <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
+            <p>可能な値を追加しました。 <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
           </li>
         </ul>
       </td>
@@ -1583,7 +1584,7 @@ Workfrontの作業項目を更新して、ユーザーに現在のステータ�
 
 ### ユーザー (USER)
 
-User オブジェクトは、Workfrontにログインしてシステムとやり取りできるアカウントを持つ人を表します。
+User オブジェクトは、Workfrontにログインしてシステムとやり取りできるアカウントを持つ人物を表します。
 
 <table>
   <col/>

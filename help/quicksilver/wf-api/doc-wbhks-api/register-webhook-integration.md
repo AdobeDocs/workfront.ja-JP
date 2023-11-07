@@ -6,8 +6,9 @@ title: Webhook 統合の登録
 description: Webhook 統合の登録
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 11%
@@ -27,7 +28,7 @@ Adobe Workfrontの管理者は、Workfront内でセットアップ/ドキュメ�
 
 ## 使用可能フィールド
 
-統合を追加する際、管理者は次のフィールドに値を入力します。
+統合を追加する際に、管理者は次のフィールドに値を入力します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +46,7 @@ Adobe Workfrontの管理者は、Workfront内でセットアップ/ドキュメ�
   </tr> 
   <tr> 
    <td>ベース API の URL</td> 
-   <td> <p>コールバック API の場所。 外部システムを呼び出す場合、Workfrontはこのアドレスにエンドポイント名を追加するだけです。 例えば、管理者が Base API URL の「 https://www.mycompany.com/api/v1 」を入力した場合、Workfrontは次の URL を使用してドキュメントのメタデータを取得します。https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
+   <td> <p>コールバック API の場所。 外部システムを呼び出す場合、Workfrontはこのアドレスにエンドポイント名を追加するだけです。 例えば、管理者が Base API URL の「 https://www.mycompany.com/api/v1 」を入力した場合、Workfrontは次の URL を使用してドキュメントのメタデータを取得します。 https://www.mycompany.com/api/v1/metadata?id=1234</p> </td> 
   </tr> 
   <tr> 
    <td>リクエストパラメーター</td> 
@@ -57,7 +58,7 @@ Adobe Workfrontの管理者は、Workfront内でセットアップ/ドキュメ�
   </tr> 
   <tr> 
    <td>認証 URL</td> 
-   <td> <p>（OAuth2 のみ）ユーザー認証に使用される完全な URL。 Workfrontは、OAuth プロビジョニングプロセスの一環として、ユーザーをこのアドレスに移動します。 注意：Workfrontは、クエリ文字列に「state」パラメーターを追加します。 プロバイダーは、これをWorkfrontのリダイレクト URI に追加して、Workfrontに渡す必要があります。</p> </td> 
+   <td> <p>（OAuth2 のみ）ユーザー認証に使用される完全な URL。 Workfrontは、OAuth プロビジョニングプロセスの一環として、ユーザーをこのアドレスに移動します。 注意： Workfrontは、クエリ文字列に「state」パラメーターを追加します。 プロバイダーは、これをWorkfrontのリダイレクト URI に追加して、Workfrontに渡す必要があります。</p> </td> 
   </tr> 
   <tr> 
    <td>トークン エンドポイント URL</td> 

@@ -5,8 +5,9 @@ title: API バージョン 14 の新機能
 description: Adobe Workfrontは、2021 年 9 月 10 日に API バージョン 14 をリリースしました。 API バージョン 14 では、バージョン 14 から次の変更がおこなわれました。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%
@@ -99,7 +100,7 @@ Category オブジェクトはカスタムフォームです。
    <td role="rowheader">ダイレクトフィールド</td> 
    <td> 
     <ul> 
-     <li> <p><b>catObjCode</b> </p> <p>次の値が追加されました。</p> 
+     <li> <p><b>catObjCode</b> </p> <p>次の値を追加できます。</p> 
       <ul> 
        <li> <p> 請求（請求レコード）</p> </li> 
       </ul> <p>この値は、カスタムフォームを BillingRecord オブジェクトに追加する機能をサポートするために追加されました。</p> </li> 
@@ -151,7 +152,7 @@ CustomerPreferences オブジェクトは、Workfrontのインスタンスに対
    <td role="rowheader">ダイレクトフィールド</td> 
    <td> 
     <ul> 
-     <li> <p><b>name</b> </p> <p>次の値が追加されました。</p> 
+     <li> <p><b>name</b> </p> <p>次の値を追加できます。</p> 
       <ul> 
        <li> <p>更新時の画像の追加をユーザーに許可（更新：images.toggle）</p> </li> 
       </ul> <p>このパラメータは、作業項目の更新に画像を追加する機能をサポートします。 </p> <p>詳しくは、 <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業を更新</a>.</p> </li> 
@@ -211,7 +212,7 @@ NoteTag オブジェクトは、作業項目の更新時に、ユーザーまた
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">操作</td> 
+   <td role="rowheader">オペレーション</td> 
    <td> <p>次の操作が NoteTag オブジェクトに追加されました。</p> 
     <ul> 
      <li> <p><b>カウント</b> </p> </li> 

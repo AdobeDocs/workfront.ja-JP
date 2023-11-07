@@ -5,11 +5,12 @@ title: API バージョン 9 の更新
 description: 更新されたリソース
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 47%
+source-wordcount: '248'
+ht-degree: 36%
 
 ---
 
@@ -21,168 +22,168 @@ ht-degree: 47%
 
 * 追加は単にリストに表示されます
 * 削除は取り消し線テキストで示されます
-* 表の後の注記に変更が記載されます
+* 表の後の注記に変更が記載されます。
 
 ### AgileWork
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `opTaskID`<sup>2</sup> |  |  |  |  |  |  |
-| `taskID`<sup>2</sup> |  |  |  |  |  |  |
+| `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
+| `taskID`<sup>2</sup> |   |   |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹削除されたフラグ：レポート可能\
-²削除されたフラグ：NOT_GROUPABLE
+<sup>1</sup> 削除されたフラグ： REPORTABLE\
+<sup>2</sup> 削除されたフラグ： NOT_GROUPABLE
 
 ### 承認
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 割り当て
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `assignUserToRoleOnTasks`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnTasks`<sup>1</sup> |  |  |
+| |   |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `assignUserToRoleOnTasks`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnTasks`<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹追加されたフィールド：lockToRole
+<sup>1</sup> 追加されたフィールド： lockToRole
 
 ### CustomerPreferences
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹可能な値の変更
+<sup>1</sup> possibleValues の変更
 
 ### 時間
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `days` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `days` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 反復
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `moveIssues` |  |  |
+|   |   |   |   | `moveIssues` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### LayoutTemplates
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### メモ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `html` |  |  |  |  |  |  |
-| `json` |  |  |  |  |  |  |
-| `richTextNoteID` |  |  |  |  |  |  |
+| `html` |   |   |   |   |   |   |
+| `json` |   |   |   |   |   |   |
+| `richTextNoteID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Opタスク
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `color` | `agileWork` |  |  | `convertToProject` |  |  |
-| `isReady` |  |  |  | `convertToTask` |  |  |
-| `storyBoardOrder` |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+| `color` | `agileWork` |   |   | `convertToProject` |   |   |
+| `isReady` |   |   |   | `convertToTask` |   |   |
+| `storyBoardOrder` |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceBudget
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `ID` |  |  |  |  |  |  |
+| `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹削除されたフラグ：レポート可能
+<sup>1</sup> 削除されたフラグ： REPORTABLE
 
 ### スケジュール
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `homeGroupID` | `homeGroup` |  |  |  |  |  |
+| `homeGroupID` | `homeGroup` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### タスク
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-|  | `agileWork` |  |  | `convertToProject` |  |  |
-|  |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+|   | `agileWork` |   |   | `convertToProject` |   |   |
+|   |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### チーム
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `includeIssues` |  |  |  |  |  |  |
+| `includeIssues` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### TimesheetProfile
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIFilter
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `filtersForObjCode` |  |
+|   |   |   |   |   | `filtersForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIView
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `viewsForObjCode` |  |
+|   |   |   |   |   | `viewsForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ユーザー
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `logTimeInDays` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `logTimeInDays` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 作業
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
 |---|---|---|---|---|---|---|
-| `storyBoardOrder` | `agileWork` |  |  | `getWFHomeObjects` |  |  |
+| `storyBoardOrder` | `agileWork` |   |   | `getWFHomeObjects` |   |   |

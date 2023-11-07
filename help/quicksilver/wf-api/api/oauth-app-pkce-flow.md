@@ -5,8 +5,9 @@ title: OAuth 2 アプリケーションでの PKCE フローの使用
 description: OAuth 2 アプリケーションでの PKCE フローの使用
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -35,7 +36,7 @@ PKCE フローには、次の手順が含まれます。 この節の手順は�
 
 1. OAuth2 認証サーバーが `code_verifier` の使用 `code_challenge_method` を最初の認証リクエストから削除し、結果を `code_challenge`. 両方の文字列の値が一致する場合、サーバーは、要求が同じクライアントから送信されたことを検証し、 `access token`.
 
-1. OAuth2 は `access token`、およびオプションで `refresh token`.
+1. OAuth2 は `access token`、および（オプション） `refresh token`.
 
 1. これで、アプリケーションはこれらのトークンを使用して、ユーザーに代わって API などのリソースサーバーを呼び出すことができます。
 
@@ -68,7 +69,7 @@ OAuth2 アプリケーションの作成手順については、 [PKCE を使用
       <tr>
         <td role="rowheader">コードの課題</td>
         <td>
-          <p>Base64 コード検証者の URL エンコードされた SHA-256 ハッシュ</p>
+          <p>Base64 コード検証者の URL エンコードされた SHA-256 ハッシュ。</p>
         </td>
       </tr>
     </tbody>
@@ -112,7 +113,7 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 
   手順については、「 Workfront統合用の OAuth2 アプリケーションの作成」の「 PKCE を使用した OAuth2 シングルページ Web アプリケーションの作成」を参照してください。
 
-* `response_type` が `code`の場合は、アプリケーションが承認コード付与タイプを使用するので、
+* `response_type` 次に該当 `code`の場合は、アプリケーションが承認コード付与タイプを使用するので、
 
 * `redirect_uri` は、ユーザーエージェントが `code`. OAuth2 アプリケーションの作成時に指定したリダイレクト URL の 1 つと一致する必要があります。
 
@@ -143,7 +144,7 @@ PKCE ジェネレーターコードは、次のような出力を作成します
 
 渡されるパラメーターに注意してください。
 
-* `grant_type` が `authorization_code`付与タイプは認証コードを使用するので、
+* `grant_type` 次に該当 `authorization_code`付与タイプは認証コードを使用するので、
 
 * `redirect_uri` は、認証コードの取得に使用された URI と一致する必要があります。
 

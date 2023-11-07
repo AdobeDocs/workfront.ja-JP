@@ -2,12 +2,13 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: ドキュメントウェブフックを介したファイルのアップロード
-description: ドキュメントウェブフックを介したファイルのアップロード
+title: ドキュメントの Web フックを介したファイルのアップロード
+description: ドキュメントの Web フックを介したファイルのアップロード
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
@@ -15,7 +16,7 @@ ht-degree: 3%
 ---
 
 
-# ドキュメントウェブフックを介したファイルのアップロード
+# ドキュメントの Web フックを介したファイルのアップロード
 
 ファイルをドキュメントストレージプロバイダーにアップロードするプロセスは、2 つの異なる API エンドポイントを必要とする 2 つの手順で構成されます。 Adobe Workfrontは、 /uploadInit を呼び出して、アップロードプロセスを開始します。 このエンドポイントはドキュメント ID を返し、ドキュメントのバイトをアップロードする際に/upload に渡されます。 基になるドキュメントストレージシステムによっては、長さ 0 のドキュメントを作成してから、後でドキュメントの内容を更新する必要が生じる場合があります。
 
@@ -62,7 +63,7 @@ POST/uploadInit
 
 ## 応答
 
-ファイルのメタデータ（/metadata エンドポイントで定義）。 プロバイダーが使用するドキュメント ID が含まれます。
+ファイルのメタデータ（/metadata エンドポイントで定義）。 プロバイダーが使用するドキュメント ID も含まれます。
 
 **例:**
 
@@ -87,13 +88,13 @@ PUT/upload
 
 **リクエスト本文**
 
-ドキュメントの生の内容のバイト。
+ドキュメントの生の内容のバイト数です。
 
 **応答**
 
 ```
 {
-result: “success”
+result: "success"
 }
 ```
 
@@ -101,7 +102,7 @@ result: “success”
 
 ```
 {
-result: “fail”
+result: "fail"
 }
 ```
 

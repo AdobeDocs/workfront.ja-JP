@@ -5,8 +5,9 @@ title: API の基本
 description: API の基本
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 01f5970fc17f9390d48b00541c912d21ba77c0a4
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -54,11 +55,11 @@ API の使用は、実稼動環境で実行する前に、Workfrontベータ環�
 
 ### オペレーション
 
-オブジェクトは、一意の URI に HTTP リクエストを送信することで操作されます。 実行する操作は HTTP メソッドで指定します。
+オブジェクトは、一意の URI に HTTP リクエストを送信することで操作されます。 実行する操作は、HTTP メソッドで指定します。
 
 標準の HTTP メソッドは、次の操作に対応しています。
 
-* **GET** - ID でオブジェクトを取得し、クエリですべてのオブジェクトを検索し、レポートを実行し、名前付きクエリを実行します
+* **GET** - ID でオブジェクトを取得し、クエリですべてのオブジェクトを検索し、レポートを実行し、名前付きクエリを実行します。
 * **POST**  — 新しいオブジェクトを挿入します
 * **PUT**  — 既存のオブジェクトを編集します
 * **DELETE**  — オブジェクトを削除します
@@ -77,7 +78,7 @@ GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
 は、次のような JSON 応答を返します。
 
 
-<pre>{<br>    "data":[<br>        {<br>            "percentComplete":0,<br>            "status":「CUR」<br>            "priority":2,<br>            "name":「新規プロジェクトのブランド化」<br>            "ID":"4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br>}</pre>
+<pre>{<br>    "data": [<br>        {<br>            "percentComplete": 0,<br>            "status": "CUR",<br>            "priority": 2,<br>            "name": "Brand New Project",<br>            "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
 >
@@ -122,16 +123,22 @@ API は、Web UI でシステムに使用されるのと同じ cookie ベース�
 ## ログイン
 
 >[!IMPORTANT]
+>
 Workfrontでは、 `/login` エンドポイントまたは API キー。 代わりに、次のいずれかの認証方法を使用します。
+>
 * JWT を使用したサーバー認証
 * OAuth2 を使用したユーザー認証
 >
 これらの認証方法の設定手順については、 [Workfront統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 Workfrontでのサーバー認証の使用手順については、 [JWT フローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](../../wf-api/api/oauth-app-jwt-flow.md)
+>
 Workfrontでのユーザー認証を使用する手順については、 [認証コードフローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](../../wf-api/api/oauth-app-code-token-flow.md)
 
 >[!NOTE]
+>
 この節で説明する手順は、まだAdobeビジネスプラットフォームに転送されていない組織にのみ適用されます。 組織がWorkfront Business Platform にオンボーディングされている場合、Adobe API を使用してWorkfrontにログインすることはできません。
+>
 組織がAdobeビジネスプラットフォームにオンボーディングされているかどうかに応じて異なる手順のリストについては、 [プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 有効なユーザー名とパスワードを使用して、次のリクエストを使用してセッション ID を取得できます。
@@ -143,6 +150,7 @@ POST /attask/api/v15.0/login?username=admin&password=user
 これにより、今後のリクエストを認証する Cookie が設定され、新しく作成された sessionID、ログインしたユーザーの userID、その他のセッション属性を使用して JSON 応答が返されます。
 
 >[!NOTE]
+>
 管理者でもある指定された API ユーザーがいる場合、Workfrontでは、ログインに API キーを使用することを強くお勧めします。
 
 **API キーの生成**
@@ -165,7 +173,7 @@ PUT /attask/api/v15.0/user?action=getApiKey&username=user@email.com&password=use
 
 その後、この結果を使用して、sessionID またはユーザー名とパスワードの代わりにこの値を使用するリクエストパラメーターとして「apiKey」を追加することで、API 呼び出しを認証できます。 これは、セキュリティの観点からは有益です。
 
-以下に、 apiKey を使用してプロジェクトからデータを取得する例を示します。
+次に、 apiKey を使用してプロジェクトからデータを取得するリクエストの例を示します。
 
 ```
 GET /attask/api/v15.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
@@ -196,7 +204,7 @@ GET /attask/api/v15.0/logout?sessionID=abc1234
 1. ログイン画面に移動しますが、ログインはしません。
 1. URL を/attask/api/v15.0/project/search に変更します。\
    ページが見つからないことに注意してください。
-1. 置換 *検索* login?username=admin&amp;password=user を使用します。 *admin* および*ユーザ\
+1. 次の単語を置き換える *検索* login?username=admin&amp;password=user を使用します。 *admin* および*ユーザ\
    *このセッションはブラウザーに cookie として保存され、後続のGETリクエストのたびに再開する必要はありません。
 
 1. URL をに戻します。 **/attask/api/v15.0/project/search**.
@@ -222,7 +230,7 @@ GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
 
 は、次のような応答を返します。
 
-<pre>{<br>    "percentComplete":0,<br>    "status":「CUR」<br>    "priority":2,<br>    "name":「新規プロジェクトのブランド化」<br>    "ID":"4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
+<pre>{<br>    "percentComplete": 0,<br>    "status": "CUR",<br>    "priority": 2,<br>    "name": "Brand New Project",<br>    "ID": "4c7c08b20000002de5ca1ebc19edf2d5" <br>}</pre>
 
 
 次の例に示すように、同じリクエストで複数のオブジェクトを取得するには、ID リクエストパラメーターを指定し、ID のコンマ区切りリストを指定します。
@@ -263,18 +271,19 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 | **修飾子** | **説明** | **例** |
 |---|---|---|
-| eq | 終了のステータスにある結果を返します | <pre>...status=cls&amp;status_Mod=eq...</pre> |
+| eq | クローズ済みのステータスの結果を返します | <pre>...status=cls&amp;status_Mod=eq...</pre> |
 | ne | クローズ済みのステータスにない結果を返します | <pre>...status=cls&amp;status_Mod=ne...</pre> |
 | gte | 完了の割合が 50 以上の結果を返します | <pre>...percentComplete=50&amp;percentComplete_Mod=gte...</pre> |
 | lte | 完了率が 50 以下の結果を返します | <pre>...percentComplete=50&amp;percentComplete_Mod=lte...</pre> |
 | isnull | 説明が Null の結果を返します | <pre>...description_Mod=isnull...</pre> |
 | notnull | 説明が Null でない結果を返します | <pre>...description_Mod=notnull...</pre> |
-| 含む | 名前に「Workfront」が含まれる結果を返します | <pre>...name=Workfront&amp;name_Mod=contains...</pre> |
-| 間 | 過去 7 日間に入力日があった結果を返します | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
+| が次を含む | 名前に「Workfront」が含まれる結果を返します | <pre>...name=Workfront&amp;name_Mod=contains...</pre> |
+| 間 | 過去 7 日以内のエントリ日を持つ結果を返します | <pre>...entryDate=$$TODAY-7d&amp;entryDate_Range=$$TODAY&amp;entryDate_Mod=between...</pre> |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
+>
 検索リクエストでは、大文字と小文字が区別されます。 エラーが発生した場合は、  **_Mod** および **範囲 (_R)** 大文字と小文字が正しい。
 
 #### OR 文の使用
@@ -285,7 +294,7 @@ OR ステートメントは、OR ステートメントのフィルタリング�
 
 例えば、をフィルタリングする場合は、
 
-* 「Planning」を含む名前のタスク
+* 「Planning」を含む名前を持つタスク
 * 「FixedAssets」という名前のポートフォリオ内のタスクで、「Steve」OR を含む名前の担当者に割り当てられています
 * 「最終タスク」という親タスクを持つタスク
 
@@ -301,11 +310,11 @@ OR ステートメントは、OR ステートメントのフィルタリング�
 <pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>次の例に示すように、URL パラメーターをフィルターに渡します。
 <pre>/attask/api/v15.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
 
-#### マップ要求パラメータの使用
+#### マップ要求パラメーターの使用
 
 デフォルトでは、検索から返されるデータは JSON 配列です。 使用例によっては、ID でインデックス付けされた JSON オブジェクトとして結果を取得するほうが効率的な場合があります。 これは、 map リクエストパラメーターを使用しておこなうことができます。 例えば、リクエスト 
 <pre>/attask/api/v15.0/task/search?map=true</pre>次のような ID でインデックス付けされた応答を返します。
-<pre>{<br>    "data":{<br>        "4c9a97db0000000f13ee446b9aead9b":{<br>            "percentComplete":0,<br>            "status":"NEW",<br>            "name":"最初のタスク"<br>            "ID":"4c9a97db0000000f13ee446b9aead9b",<br>            "taskNumber":1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601":{<br>            "percentComplete":0,<br>            "status":"INP:A",<br>            "name":「2 番目のタスク」<br>            "ID":"4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber":2 <br>        } <br>    } <br>}</pre>
+<pre>{<br>    "data": {<br>        "4c9a97db0000000f13ee446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": "first task",<br>            "ID": "4c9a97db0000000f13ee446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "second task",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
 
 #### Fields リクエストパラメーターの使用
 
@@ -313,9 +322,10 @@ OR ステートメントは、OR ステートメントのフィルタリング�
 
 fields リクエストパラメーターを使用して、返されるフィールドのコンマ区切りリストを指定できます。 例えば、リクエスト
 <pre>/attask/api/v15.0/task/search?fields=plannedStartDate,priority</pre>は、次のような応答を返します。
-<pre>{<br>    "priority":2,<br>    "name":"最初のタスク"<br>    "ID":"4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate":"2010-08-30T09:00:00:000-0600" <br>}</pre>
+<pre>{<br>    "priority": 2,<br>    "name": "first task",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
+>
 これらのフィールド名では、大文字と小文字が区別されます。
 
 使用可能なフィールド参照のリストについては、  [API エクスプローラ](../../wf-api/general/api-explorer.md)
@@ -325,7 +335,7 @@ fields リクエストパラメーターを使用して、返されるフィー�
 ネストされたオブジェクトを検索できます。 デフォルトでは、ネストされたオブジェクトは名前と ID のみを持って返されます。 例えば、すべての問題を所有者と共に取得するには、次のリクエストを使用します。
 <pre>/attask/api/v15.0/issue/search?fields=owner</pre>詳細な情報が必要な場合は、コロン構文を使用してネストされたフィールドを要求できます。 例えば、次のリクエストでは、所有者の名前、ID、タイトル、電話番号と共にすべての問題を検索します
 <pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>を返します。 
-<pre>{<br>    "name":「重要な問題だ」<br>    "ID":"4c78285f00000908ea8cfd66e084939f",<br>    "owner":{<br>        "title":「Operations Specialist」<br>        "phoneNumber":"555-1234",<br>        "name":"管理者ユーザー",<br>        "ID":"4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
+<pre>{<br>    "name": "重要な問題",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### ネストされたコレクションの取得
 
@@ -341,10 +351,10 @@ fields リクエストパラメーターを使用して、返されるフィー�
 #### カスタムデータの取得
 
 プレフィックス「DE:」を使用して、カスタムデータフィールドを取得できます。 例えば、「CustomText」というパラメーターを持つプロジェクトをリクエストするには、次のリクエストを使用します。
-<pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>それが戻る
-<pre>{<br>    "name":"カスタムデータプロジェクト",<br>    "ID":"4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText":"task b" <br>}</pre>また、 parameterValues フィールドを要求することで、オブジェクトのすべてのカスタムデータを取得できます。 例： 
+<pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>それは戻ってくる
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>また、 parameterValues フィールドを要求することで、オブジェクトのすべてのカスタムデータを取得できます。 例： 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>は、次のようなデータを返します。
-<pre>{<br>    "name":"カスタムデータプロジェクト",<br>    "ID":"4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues:{ <br>        "DE:CustomText":"task b", <br>        "DE:CustomNumber":1.4, <br>        "DE:CustomCheckBoxes":["first", "second", "third"] <br>    } <br>}</pre>
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
 #### 名前付きクエリの使用
 
@@ -355,14 +365,14 @@ fields リクエストパラメーターを使用して、返されるフィー�
 
 特定の検索結果から返される結果の数を指定できます。 これにより、サーバーはリクエストをより迅速に処理し、帯域幅を節約できます。 例えば、リクエスト
 <pre>GET/attask/api/v15.0/project/count?status=CUR</pre>結果の数を次の形式で返します。
-<pre>{<br>    "count":3 <br>}</pre>この結果は、完全なオブジェクトが送信される場合よりも、はるかに小さいダウンロードになります。 フィルター構文は search コマンドと同じです。
+<pre>{<br>    "count": 3 <br>}</pre>この結果は、完全なオブジェクトが送信される場合よりも、はるかに小さいダウンロードになります。 フィルター構文は search コマンドと同じです。
 
 ### レポートのリクエスト
 
 1 つ以上のグループ化を使用して、一部のフィールドの集計のみが必要なレポートリクエストを実行できます。 次の例に示すように、レポートの構文は SOAP API の構文と同じです。
 <pre>GET/attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>次の結果を返します。
-<pre>{<br>    "最初のプロジェクト":{ <br>        "sum_hours":15 <br>    }, <br>     "2 つ目のプロジェクト":{ <br>        "sum_hours":30 <br>    } <br>}</pre>$$ROLLUP=true パラメーターを追加すると、各グループ化レベルでの合計が含まれます。
-<pre>{<br>    "最初のプロジェクト":{ <br>        "sum_hours":15 <br>    }, <br>    "2 つ目のプロジェクト":{ <br>        "sum_hours":30 <br>    }, <br>    "$$ROLLUP":{ <br>        "sum_hours":45 <br>    } <br>}</pre>
+<pre>{<br>    "最初のプロジェクト": { <br>        "sum_hours": 15 <br>    }, <br>     "2 つ目のプロジェクト": { <br>        "sum_hours": 30 <br>    } <br>}</pre>$$ROLLUP=true パラメーターを追加すると、各グループ化レベルでの合計が含まれます。
+<pre>{<br>    "最初のプロジェクト": { <br>        "sum_hours": 15 <br>    }, <br>    "2 つ目のプロジェクト": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
 ### API でのクエリ結果の並べ替え
 
@@ -415,7 +425,7 @@ API 呼び出しに以下を追加すると、任意のフィールドで結果�
   <tr> 
    <td>フィールドの最大数</td> 
    <td nowrap>1,000,000</td> 
-   <td>結果セットが50000オブジェクトより少ない場合、結果に含まれるフィールドは最大 1,000,000 個です。</td> 
+   <td>結果セットが50000オブジェクトより少ない場合、結果に含まれるフィールドの数は最大 1,000,000 個です。</td> 
   </tr> 
   <tr> 
    <td>バッチ作成/更新の最大数</td> 
@@ -444,7 +454,7 @@ API 呼び出しに以下を追加すると、任意のフィールドで結果�
 アクセス規則を作成して、オブジェクトにアクセスできるユーザーを決定できます。 次に、設定できるアクセス規則の例を示します。
 
 ID が「abc123」のユーザーとのみ共有されるようにプロジェクトを設定するには、次のリクエストを使用します。
-<pre>GET/attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules:[ {accessorID:'abc123', accessorObjCode:'USER', coreAction:'表示'} ] }</pre>または、新しいユーザーとのみ共有し、既存の権限をそのまま維持するには、次の手順を実行します。
+<pre>GET/attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] } ] }</pre>または、新しいユーザーとのみ共有し、既存の権限をそのまま維持するには、次の手順を実行します。
 <pre>GET/attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>既存のアクセス・ルールを取得する手順は、次のとおりです。
 <pre>GET/attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
@@ -469,35 +479,36 @@ POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
 
 次の API URL を使用してドキュメントをアップロードできます。
 <pre>POST/attask/api/v15.0/upload</pre>API では、コンテンツタイプが multipart/form-data である必要があります。 ファイルのパラメータ名は、uploadedFile にする必要があります。 サーバーが以下の JSON データを返します。
-<pre>{<br>    "handle":"4c7c08fa0000002ff924e298ee148df4"<br>}</pre>Workfrontドキュメントの作成時に、ハンドルを使用して次の URL に投稿できます。
-<pre>POST/attask/api/v15.0/document?updates={<br>    名前：aFileName,<br>    ハンドル：abc...123, （ファイルのアップロードからの処理）<br>    docObjCode:PROJ、（または TASK、OPTASK など）<br>    objID:abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
+<pre>{<br>    "handle": "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>Workfrontドキュメントの作成時に、ハンドルを使用して次の URL に投稿できます。
+<pre>POST/attask/api/v15.0/document?updates={<br>    name: aFileName,<br>    handle: abc...123, （ファイルのアップロードからのハンドル）<br>    docObjCode: PROJ、（または TASK、OPTASK など）<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
 
 ## PUT動作
 
 PUTは、既存のオブジェクトの更新に使用されます。
 
-PUTの応答はGETと同じです。 どちらの場合も、サーバーは更新後にオブジェクトの新しい状態を返します。 GETリクエストへの応答を変更するために使用されるすべてのルールは、PUTと連携しても機能します。例えば、返される追加のフィールドやカスタムデータを指定するなどです。
+1 つのPUTに対する応答は、1 つのGETと同じです。 どちらの場合も、サーバーは更新後にオブジェクトの新しい状態を返します。 GETリクエストへの応答を変更するために使用されるすべてのルールは、PUTと連携しても機能します。例えば、返される追加のフィールドやカスタムデータを指定するなどです。
 
 ### オブジェクトの編集
 
 オブジェクトの更新は、常に、オブジェクトの一意の URI を使用して ID でおこなわれます。 更新するフィールドは、リクエストパラメーターとして指定します。 例えば、プロジェクトの名前を変更するには、次のようなリクエストを送信します。
-<pre>PUT/attask/api/v15.0/project/4c7...?name=新規プロジェクト名 <br>PUT/attask/api/v15.0/project?id=4c7...&amp;name=新規プロジェクト名</pre>更新には ID が必要なので、オブジェクトがサーバー上に存在しない場合、この操作は（挿入なしで）失敗します。
+<pre>PUT/attask/api/v15.0/project/4c7...?name=新規プロジェクト名 <br>PUT/attask/api/v15.0/project?id=4c7...&amp;name=新しいプロジェクト名</pre>更新には ID が必要なので、オブジェクトがサーバー上に存在しない場合、この操作は（挿入なしで）失敗します。
 
 ### JSON 編集の指定
 
 次の例に示すように、updates リクエストパラメーターを使用して、JSON 構文を使用して更新するフィールドを指定できます。
-<pre>PUT/attask/api/v15.0/project/4c7...?更新= <br>{<br>     名前："新規プロジェクト名", <br>     ステータス：「CUR」 <br>     ... <br>}</pre>
+<pre>PUT/attask/api/v15.0/project/4c7...?updates= <br>{<br>     name: "New Project Name", <br>     status: "CUR", <br>     ... <br>}</pre>
 
 ### ネストされた更新の作成
 
 一部のオブジェクトには、非公開で所有するコレクションを更新できます。 例えば、次の例は、特定のタスクの既存の割り当てを上書きする方法を示しています。
-<pre>PUT/attask/api/v15.0/task/4c7...?更新= <br>{<br>    割り当て：[ <br>        { <br>            assignedToID:"2222...54d0, <br>            assignmentPercent:50.0 <br>        },{ <br>            roleID:"1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT/attask/api/v15.0/task/4c7...?updates= <br>{<br>    割り当て： [ <br>        { <br>            assignedToID: "222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
-最上位レベルに対する更新は少ないものの、コレクションまたはネストされたオブジェクトに対する更新は既存のコレクションを完全に置き換えます。 オブジェクトに影響を与えずにタスクに対する 1 つの割り当てを編集するには、タスクに対してではなく、割り当てに対してPUTを使用します。
+>
+最上位レベルに対する更新は少ないものの、コレクションまたはネストされたオブジェクトに対する更新は既存のコレクションを完全に置き換えます。 オブジェクトに影響を与えずにタスクに対する 1 つの割り当てを編集するには、タスクに対するPUTではなく、割り当てに対するタスクを使用します。
 
 次の例では、プロジェクトをパブリックヘルプデスクキューにします。 既存のキューのプロパティは置き換えられます。
-<pre>PUT/attask/api/v15.0/project/4c7...?更新= <br>{ <br>    queueDef :{ <br>        isPublic:1 <br>    } <br>}</pre>
+<pre>PUT/attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef : { <br>        isPublic: 1 <br>    } <br>}</pre>
 
 ### Action Request パラメーターの使用
 
@@ -507,31 +518,32 @@ PUTの応答はGETと同じです。 どちらの場合も、サーバーは更�
 ### オブジェクトの移動
 
 次の例は、あるプロジェクトから別のプロジェクトにタスクを移動する際の構文を示しています。
-<pre>PUT/attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>各アクションタイプの例を次に示します。(??)
+<pre>PUT/attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>各アクションタイプの例は、次の場所に示されています。(??)
 <pre>PUT/attask/api/v15.0/project/1234/approveApproval<br><br>PUT/attask/api/v15.0/project/1234/calculateFinance<br><br>PUT/attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT/attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT/attask/api/v15.0/project/1234/recallApproval<br><br>PUT/attask/api/v15.0/project/1234/rejectApproval<br><br>PUT/attask/api/v15.0/task/1234/move<br><br>PUT/attask/api/v15.0/workitem/1234/markViewed</pre>作業項目を移動するプロジェクトを指定するには、移動アクションのみが追加の属性を指定する必要があります。
 
 各アクションタイプの例を次に示します。 
-<pre>PUT/attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID:'abc123', accessorObjCode:'USER', coreAction:'表示'}}</pre>
+<pre>PUT/attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
 
 ### オブジェクトの共有
 
 次の例は、プロジェクトをチームと共有するための構文を示しています。
 <pre>PUT/attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxshare?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxaccessorObjCode=TEAMOB</pre>オブジェクトの編集時に、次の例のようなPUTを実行して更新を送信することで、オブジェクト上のすべてのアクセス規則を置き換えることができます。
-<pre>PUT/attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxx',acessorObjCode:','TEAMOBcoreaction:'VIEW'}}</pre>次の例は、あるプロジェクトから別のプロジェクトにタスクを移動するための構文を示しています。
+<pre>PUT/attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxx',acessorObjCode:','TEAMOBcore',coreaction:'VIEW'}}</pre>次の例は、あるプロジェクトから別のプロジェクトにタスクを移動するための構文を示しています。
 <pre>PUT/attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>
 
 ## DELETE動作
 
 DELETEはオブジェクトを削除します。 いずれの場合も、URI にパラメータ force=true を含めると、サーバーは指定したデータとその依存関係を削除します。 次の例では、URI に対して HTTP タスクメソッドを実行してDELETEを削除します。
-<pre>DELETE/attask/api/v15.0/task/4c78821c000d6fa8d5e52f07a1d54d0 <br>DELETE/attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE/attask/api/v15.0/task/4c78821c000d6fa8d5e52f07a1d54d0?force=true <br>DELETE/attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
+<pre>DELETE/attask/api/v15.0/task/4c78821c000d6fa8d5e52f07a1d54d0 <br>DELETE/attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE/attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE/attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
 
 ## 一括更新
 
 一括更新ステートメントは、1 回の API 呼び出し内で複数のオブジェクトを同時に更新します。 一括作成 API 呼び出しは、次の例に示すように、通常の更新呼び出しと同様に作成されます。
 <pre>PUT/attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=method&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>その結果、次のような戻り値が返されます。
-<pre>データ：[{<br>    ID:"53ff8d3d003b438b57a8a784df38f6b3",<br>    名前："Test_Project_1",<br>    objCode:「PROJ」<br>    percentComplete:0,<br>    plannedCompletionDate:"2014-08-28T11:00:00:000-0400",<br>    plannedStartDate:"2014-08-28T11:00:00:000-0400",<br>    優先度：0,<br>    projectedCompletionDate:"2014-08-28T16:12:00:000-0400",<br>    ステータス："CUR"<br>},<br>{<br>    ID:"53ff8d49003b43a2562aa34eea3b6b10",<br>    名前："Test_Project_2",<br>    objCode:「PROJ」<br>    percentComplete:0usi<br>    plannedCompletionDate:"2014-08-28T11:00:00:000-0400",<br>    plannedStartDate:"2014-08-28T11:00:00:000-0400",<br>    優先度：0,<br>    projectedCompletionDate:"2014-08-28T16:12:00:000-0400",<br>    ステータス："CUR"<br>}]</pre>一括更新は、次のように実行することもできます。
-<pre>PUT/attask/api/v15.0/proj?Umethod=PUT&amp;アップデート=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>その結果、次のような戻り値が返されます。
-<pre>データ：[ {<br>     ID:"53ff8e15003b461d4560f7f65a440078",<br>     名前："Test_Project_1_Edit",<br>     objCode:「PROJ」<br>     percentComplete:0,<br>     plannedCompletionDate:"2014-08-28T11:00:00:000-0400",<br>     plannedStartDate:"2014-08-28T11:00:00:000-0400",<br>     優先度：0,<br>     projectedCompletionDate:"2014-08-28T16:16:00:000-0400",<br>     ステータス："CUR"<br>},<br>{<br>    ID:"53ff8e19003b46238a58d303608de502",<br>    名前："Test_Project_2_Edit",<br>    objCode:「PROJ」<br>    percentComplete:0,<br>    plannedCompletionDate:"2014-08-28T11:00:00:000-0400",<br>    plannedStartDate:"2014-08-28T11:00:00:000-0400",<br>    優先度：0,<br>    projectedCompletionDate:"2014-08-28T16:16:00:000-0400",<br>    ステータス："CUR"<br>}]</pre>すべての操作を同じトランザクションで発生させる場合は、リクエストパラメーターとしてバッチ API 呼び出しに「atomic=true」を追加します。 この方法で、いずれかの操作が失敗した場合、すべての操作がロールバックされます。
+<pre>データ： [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    name: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    優先度： 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    name: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    優先度： 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>一括更新は、次のように実行することもできます。
+<pre>PUT/attask/api/v15.0/proj?Umethod=PUT&amp;アップデート=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>その結果、次のような戻り値が返されます。
+<pre>データ： [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     優先度： 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    優先度： 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>すべての操作を同じトランザクションで発生させる場合は、リクエストパラメーターとしてバッチ API 呼び出しに「atomic=true」を追加します。 この方法で、いずれかの操作が失敗した場合、すべての操作がロールバックされます。
 
 >[!NOTE]
-アトミックバッチ操作は、「成功：true」またはエラーが返されます。
+>
+アトミックバッチ操作は、「success: true」またはエラーのみを返すことができます。

@@ -5,7 +5,9 @@ title: 通貨が null の場合に、プロジェクトの通貨情報を取得�
 description: 通貨が null の場合に、プロジェクトの通貨情報を取得します
 author: Becky
 feature: Workfront API
-source-git-commit: a9af457793e123a60172fe4baf5ae5def472b026
+role: Developer
+exl-id: 31ed533b-be19-4ccb-aad4-7c78e008b3e9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -54,7 +56,7 @@ GET /attask/api-internal/project/{{projectID}}?fields=currency
 
 `GET /attask/api-internal/CUST/currentCustomer?fields=currency`
 
-応答には、ユーザーがデフォルトとして設定した通貨が含まれます。通貨が設定されていない顧客のプロジェクトで使用されます。
+応答には、ユーザーがデフォルトとして設定した通貨が含まれます。通貨が設定されていないその顧客のプロジェクトで使用されます。
 
 ```
 {

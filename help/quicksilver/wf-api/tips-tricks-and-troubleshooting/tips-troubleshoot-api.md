@@ -6,9 +6,10 @@ title: Adobe Workfront API のヒント、テクニックおよびトラブル�
 description: Adobe Workfront API のヒント、テクニックおよびトラブルシューティング
 author: Becky
 feature: Workfront API
+role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

@@ -5,8 +5,9 @@ title: API エクスプローラー
 description: API エクスプローラー
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c71ac171-cf94-47f4-b1ac-eb53be7cf2d9
-source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 20%

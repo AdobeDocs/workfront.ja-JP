@@ -5,8 +5,9 @@ title: API バージョン 12 の新機能
 description: Workfrontは、2020 年 11 月 13 日に API バージョン 12 をリリースしました。 API バージョン 12 には、バージョン 11 から次の変更が含まれています。
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '2516'
 ht-degree: 2%
@@ -298,7 +299,7 @@ ActivityLog オブジェクトは、特定のWorkfront Proof アカウントで�
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td> <p>操作</p> </td> 
+   <td> <p>オペレーション</p> </td> 
    <td> <p>次の操作が ActivityLog オブジェクトから削除されました：</p> 
     <ul> 
      <li> <p><strong>追加</strong> </p> </li> 
@@ -321,7 +322,7 @@ AnnouncementAttachment オブジェクトは、Workfrontのお知らせに添付
    <td> <p>ダイレクトフィールド</p> </td> 
    <td> 
     <ul> 
-     <li> <p><strong>fileExtension</strong> </p> <p>次の値を追加しました。</p> 
+     <li> <p><strong>fileExtension</strong> </p> <p>次の可能な値を追加しました。</p> 
       <ul> 
        <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
        <li> <p>qslides (enum.fileextension.qslides)</p> </li> 
@@ -346,14 +347,14 @@ AnnouncementAttachment オブジェクトは、Workfrontのお知らせに添付
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>次のフラグを削除しました。</p> 
       <ul> 
-       <li> <p>動的</p> </li> 
+       <li> <p>動的、</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
      <li> <p><strong>groupID</strong> </p> <p>次のフラグを追加しました。</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
-       <li> <p>動的</p> </li> 
+       <li> <p>動的、</p> </li> 
        <li> <p>読み取り専用</p> </li> 
       </ul> </li> 
      <li> <p><strong>workEffort</strong> </p> <p>このフィールドが追加され、タスクの完了に 1 日あたりの作業量が小、中、大のどれになるかを表します。 次の値を指定できます。</p> 
@@ -447,7 +448,7 @@ CustomerPreferences オブジェクトは、Workfrontのインスタンスに対
    <td>ダイレクトフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">次の値を追加しました。</p> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">次の可能な値を追加しました。</p> 
       <ul> 
        <li style="font-weight: normal;">password:zoomIntegrationEnabled （更新ストリームで Zoom 統合を有効にする）</li> 
        <li style="font-weight: normal;"> password:quipIntegrationEnabled (config.general.quip.enabled)  </li> 
@@ -594,7 +595,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>順序は、アジャイルバックログ上のタスクまたはストーリーの位置を示します。</p> <p>このフィールドは、次のフラグを削除しました。
        <ul>
-        <li>動的</li>
+        <li>動的、</li>
         <li>LAZY_READ,</li>
         <li>NOT_GROUPABLE:</li>
        </ul></p> </li> 
@@ -627,11 +628,11 @@ Parameter リソースにより、フラグ SHARABLE が追加されました。
    <td role="rowheader">ダイレクトフィールド</td> 
    <td> 
     <ul> 
-     <li> <p><strong>dataType</strong> </p> <p>次の値が追加されました。</p> 
+     <li> <p><strong>dataType</strong> </p> <p>次の値を追加できます。</p> 
       <ul> 
        <li> <p>リッチ（リッチテキスト）</p> <p>詳しくは、 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API のリッチテキストフィールド</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>displayType</strong> </p> <p>次の値が追加されました。</p> 
+     <li> <p><strong>displayType</strong> </p> <p>次の値を追加できます。</p> 
       <ul> 
        <li> <p>リッチ（書式付きテキストフィールド）</p> <p>詳しくは、 <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Adobe Workfront API のリッチテキストフィールド</a>.</p> </li> 
       </ul> </li> 
@@ -749,7 +750,7 @@ ScheduledReport オブジェクトは、配信のスケジュールを設定し�
    <td role="rowheader">ダイレクトフィールド</td> 
    <td> 
     <ul> 
-     <li> <p><strong>形式</strong> </p> <p>次の値を追加しました。</p> 
+     <li> <p><strong>形式</strong> </p> <p>次の可能な値を追加しました。</p> 
       <ul> 
        <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
        <li> <p>qslides (enum.fileextension.qslides)</p> </li> 
@@ -764,7 +765,7 @@ ScheduledReport オブジェクトは、配信のスケジュールを設定し�
 
 ScoreCardQuestion オブジェクトは、スコアカードに追加された質問を表します。 これらの質問は通常、Portfolio管理者が決定し、その回答によって、管理者はプロジェクトがポートフォリオの目標にどの程度適合しているかを理解できます。
 
-スコアカードに関する質問の詳細は、 [スコアカードの作成](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+スコアカードに関する質問の詳細は、「 [スコアカードの作成](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -914,7 +915,7 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
 
 ### ユーザー {#user}
 
-User オブジェクトは、Workfrontにログインしてシステムとやり取りできるアカウントを持つ人を表します。
+User オブジェクトは、Workfrontにログインしてシステムとやり取りできるアカウントを持つ人物を表します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -961,14 +962,14 @@ Work オブジェクトは、Task と OpTask の両方が継承する共通の�
     <ul> 
      <li> <p><strong>backlogOrder</strong> </p> <p>順序は、アジャイルバックログ上のタスクまたはストーリーの位置を示します。</p> <p>このフィールドは、次のフラグを削除しました。</p> 
       <ul> 
-       <li> <p>動的</p> </li> 
+       <li> <p>動的、</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
      <li> <p><strong>groupID</strong> </p> <p>このフィールドには、次のフラグが追加されました。</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
-       <li> <p>動的</p> </li> 
+       <li> <p>動的、</p> </li> 
        <li> <p>読み取り専用</p> </li> 
       </ul> </li> 
      <li> <p><strong>workEffort</strong> </p> <p>このフィールドが追加され、タスクの完了に 1 日あたりの作業量が小、中、大のどれになるかを表します。 次の値を指定できます。</p> 

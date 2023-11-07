@@ -6,8 +6,9 @@ title: OAuth2 トークンの取得
 description: OAuth2 トークンの取得
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 3%
@@ -44,7 +45,7 @@ POST/any/url
   <tr>
    <td>grant_type</td>
    <td>はい</td>
-   <td><p>値には、「authorization_code」または「refresh_token」が含まれます。 指定された値は、この API 呼び出しに渡される 2 つのパラメーターのうちの 1 つを示します。コードまたは refresh_token。</p></td>
+   <td><p>値には、「authorization_code」または「refresh_token」が含まれます。 指定した値は、この API 呼び出しに渡される 2 つのパラメーターのうち、code または refresh_token のいずれかを示します。</p></td>
   </tr>
   <tr>
    <td>コード</td>

@@ -5,8 +5,9 @@ title: API-Internal の廃止
 description: API-Internal の廃止
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

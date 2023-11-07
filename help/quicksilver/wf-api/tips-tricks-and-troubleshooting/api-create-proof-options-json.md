@@ -5,8 +5,9 @@ title: Adobe Workfront API で高度な校正オプションを追加
 description: Adobe Workfront API で高度な校正オプションを追加
 author: Becky
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Workfront API で配達確認を作成する際に、高度な校正オプショ
 
 API を使用して配達確認に校正オプションを追加するには、次のいずれかのワークフローを使用します。
 
-* （推奨）Workfront API を使用して簡単な配達確認を作成し、ProofHQ API を使用して配達確認に高度な校正オプションを追加します
+* （推奨）Workfront API を使用して簡単な配達確認を作成し、ProofHQ API を使用して配達確認に高度な校正オプションを追加します。
 
 * Workfront API で JSON を使用して高度な校正オプションを使用し、配達確認を作成する
 
@@ -38,12 +39,12 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 >* ProofHQ API で作成された配達確認は、Workfrontに自動的にリンクされません。 したがって、ProofHQ API を使用して配達確認を更新する前に、Workfront API で配達確認を作成することをお勧めします。
 >
 
-
 ### 高度な校正オプションを使用して配達確認を作成する
 
-1. を使用した配達確認の作成 `Document createProof` アクションを使用して、Workfront API で実行できます。
+1. 次を使用した配達確認の作成 `Document createProof` アクションを使用して、Workfront API で実行できます。
 
    >[!NOTE]
+   >
    配達確認を作成する際に、 `{}` を `advancedProofingOptions` パラメーター。
 
 1. 配達確認を作成した後、ProofHQ API を使用して詳細オプションを追加します。
@@ -55,12 +56,12 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 **例:**
 
 * [配達確認は、ダウンロードしたり、メッセージを含めたり、公開共有したりできます](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [非公開（必須ではなく）で、1 つの承認のみが必要になるようにステージを更新します](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [非公開（必須ではなく）で、1 つの承認のみが必要になるようにステージを更新します。](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
 * [主な意思決定者のいない配達確認に 2 人の受信者を追加](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
 **配達確認は、ダウンロードしたり、メッセージを含めたり、公開共有したりできます**
 
-このエンドポイントのドキュメントは、 [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) ページ。
+このエンドポイントのドキュメントは、 [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) ページに貼り付けます。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -82,9 +83,9 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 </soapenv:Envelope>
 ```
 
-**非公開（必須ではなく）で、1 つの承認のみが必要になるようにステージを更新します**
+**非公開（必須ではなく）で、1 つの承認のみが必要になるようにステージを更新します。**
 
-このエンドポイントのドキュメントは、 [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) ページ。
+このエンドポイントのドキュメントは、 [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) ページに貼り付けます。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -109,7 +110,7 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 
 **主な意思決定者のいない配達確認に 2 人の受信者を追加**
 
-このエンドポイントのドキュメントは、 [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) ページ。
+このエンドポイントのドキュメントは、 [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) ページに貼り付けます。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -148,10 +149,12 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 
 ### 高度な校正オプションを使用して配達確認を作成する
 
-Workfront API で配達確認を作成するには、 `Document createProof` アクション。 このアクションは、 `advancedProofingOptions` パラメーターに含まれる値の型 `string`. 高度な校正オプションを `createProof` 「 」アクションの場合は、 `advancedProofingOptions` JSON 形式のパラメーター。
+Workfront API で配達確認を作成するには、 `Document createProof` アクション。 このアクションは、 `advancedProofingOptions` パラメーターに含まれる値の型： `string`. 高度な校正オプションを `createProof` 「 」アクションの場合は、 `advancedProofingOptions` JSON 形式のパラメーター。
 
 >[!NOTE]
+>
 advancedProofingOptions JSON に含めるフィールドの予測は困難な場合があります。 Workfrontでの高度な校正を使用しながら、組織のネットワークデータを調べ、組織で一般的に使用されるフィールドと値に基づいて JSON を設定する必要がある場合があります。
+>
 これらのフィールドの予測は困難な場合があるので、Workfront API を使用して配達確認を作成し、ProofHQ API を使用して更新することをお勧めします。 詳しくは、 [Workfront API と ProofHQ API を使用した配達確認の作成（推奨）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) この記事では、
 
 ### 例
