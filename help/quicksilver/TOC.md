@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 85cab7836aaf4bd6907ed2909de34b4c95655852
+source-git-commit: d666b54f3bb13f2ad923b819774ac4f849db75e8
 workflow-type: tm+mt
-source-wordcount: '13373'
+source-wordcount: '13384'
 ht-degree: 2%
 
 ---
@@ -767,6 +767,7 @@ ht-degree: 2%
    * Adobe Admin Consoleでの管理 {#admin-in-admin-console}
       * [Adobe Admin ConsoleでのWorkfront管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Adobe Admin Consoleの準備](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [Workfront製品およびAdobe Admin Consoleへのユーザーの移行について](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * 管理と設定に関するヒント、テクニックおよびトラブルシューティング {#admin-setup-tips}
       * [ヒント、テクニックおよびトラブルシューティング](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [グループ管理者は、管理しているグループ管理者よりも高いアクセス権を持っている必要があります](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1468,7 +1469,7 @@ ht-degree: 2%
    * [レポート](reports-and-dashboards/reports-and-dashboards-overview.md)
    * レポートキャンバス {#reporting-canvas}
       * [レポートキャンバス](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * レポートの管理 {#manage-reports}
+      * レポートを管理 {#manage-reports}
          * [レポートの管理の概要](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [レポートキャンバスでのレポートの作成](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [レポートキャンバスでのレポートのエクスポート](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
