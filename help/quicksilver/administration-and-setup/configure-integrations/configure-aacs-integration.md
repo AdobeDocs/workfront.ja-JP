@@ -5,7 +5,7 @@ title: を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Ser
 description: 作業内容を [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2669530c2901e77599a80a852a428b558291ef36
+source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 0%
@@ -231,9 +231,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
-
-<!--Courtney start here-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
 
 ## ワークフローの設定（オプション）
 
@@ -248,8 +246,6 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
    ![リンクされたフォルダーナビゲーション](assets/select-folder-aem-integration.png)
 1. を有効にします。 **Portfolio名とプログラム名を追加** リンクされたPortfolioの名前の最後にフォルダ名とプログラム名を自動的に含めるオプション。
 1. クリック **保存** または、 [リンクされたフォルダーの設定（オプション）](#set-up-linked-folders-optional) 」の節を参照してください。
-
-<!--Courtney end here-->
 
 ## リンクされたフォルダーの設定（オプション）
 
