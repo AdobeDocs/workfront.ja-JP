@@ -1,13 +1,13 @@
 ---
 title: Adobeマエストロリリースアクティビティ
-description: カスタムオブジェクト、フィールド、およびワークスペースを作成するには、Maestro を使用します。
+description: AdobeMaestro は現在、Workfrontの一部のお客様にご利用いただけます。 この記事は、Adobe・マエストロ向けに最近リリースされた機能についてよくご覧ください。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2030'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,16 @@ ht-degree: 0%
 このセクションでは、2023 年 5 月 22 日に Maestro がクローズベータプログラムを起動した後にリリースされた機能とパッチを示します。
 
 機能は毎週リリースされ、リリースの順番で一覧表示されます。最新の機能が最初に表示されます。 Maestro クローズベータプログラムに参加しているお客様は、プレビュー環境と実稼動環境のすべての機能にアクセスできます。
+
+## 2023 年 11 月 6 日の週
+
+### テーブル表示のグループ化
+
+プレビューおよび実稼動環境：2023 年 11 月 8 日
+
+レコードタイプのページのテーブルビューでレコードをグループ化できるようになりました。 Maestro インターフェイスでは、3 つの一意のフィールドでグループ化できます <!--checking into this for now: and by four fields when using the API-->.
+
+詳しくは、 [テーブル表示の管理](../maestro/views/manage-the-table-view.md).
 
 ## 2023 年 10 月 30 日の週
 

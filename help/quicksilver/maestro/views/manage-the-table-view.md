@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2069'
 ht-degree: 4%
 
 ---
@@ -319,45 +319,55 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 
 1. （オプション）「 **フィルター**」、「 **x** アイコンをクリックして、フィルターを削除します。 <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
+### グループを追加 {#add-groupings}
 
-### Add groupings {#add-groupings}
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+グループ化をビューに適用する際に、類似の情報でレコードをグループ化できます。
 
-You can group records by similar information when applying  a grouping to a view.
+テーブル表示でのグループ化の追加方法は、タイムライン表示でのグループ化の追加方法と似ています。
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+次の点に注意してください。
 
-Consider the following:
+* テーブルビューとタイムラインビューの両方でグループを適用できます。 テーブルビューのグループは、同じレコードタイプのタイムラインビューのグループとは独立しています。
+* マエストロビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
+&lt;!—* API を使用する場合は、最大 4 レベルのグループ化を適用できます。  — 今すぐ確認中 —>
+* グループは、選択した表示に固有です。 同じレコードタイプの 2 つのテーブルビューに、異なるグループを適用することができます。 同じテーブル表示を見ている 2 人のユーザーには、現在適用されているのと同じグループが表示されます。
+* テーブルビューに対して作成したグループに名前を付けることはできません。
+* グループを削除すると、自分と同じレコードタイプにアクセスし、自分と同じビューを表示する人から、自分が削除されます。
+* グループ化の下にリストされたレコードを編集できます。
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+グループを追加する手順は、次のとおりです。
 
-To add a grouping:
+1. 記事の説明に従って、レコードタイプのタイムラインビューを作成します。 [レコードビューの管理](../views/manage-record-views.md).
+1. クリック **グループ化** をクリックします。
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+   ![](assets/grouping-ui-table-view.png)
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+1. 推奨フィールドの 1 つをクリックするか、 **別のフィールドを選択**」で別のフィールドを検索し、リストに表示されたらクリックします。
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+   >[!TIP]
+   >
+   >リンクされたフィールドは選択できません。
 
--->
+   グループ化は、テーブルに自動的に適用され、グループ化分離ラインの下に表示されるレコードに適用されます
+
+1. （オプション）上記の手順を繰り返して、最大 3 つのグループを追加します。
+
+   グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
+
+   ![](assets/grouping-applied-in-table-view.png)
+
+1. （オプション） **次の項目でレコードをグループ化** ボックスで、 **x** グループ化を削除するために選択したフィールドの右側のアイコン
+
+   または
+
+   クリック **すべてクリア** をクリックして、すべてのフィールドを削除します。
+
+1. の外側をクリック **次の項目でレコードをグループ化** ボックスを使用して閉じます。
+1. （オプション）「 **+新規 &lt; レコードタイプ名 >** をクリックして新しいレコードを追加し、ページを更新して新しいレコードを適切なグループに追加します。 <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### 並べ替えの追加 {#sort-information}
 

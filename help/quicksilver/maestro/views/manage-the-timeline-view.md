@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,6 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
      * Edit record information
 -->
 
-タイムラインビューを作成する場合、デフォルトでは、選択したレコードタイプのすべてのレコードがタイムラインにバーとして表示されます。
-
 タイムラインビューを管理するには：
 
 1. タイムラインを表示するレコードタイプページに移動します。
@@ -129,7 +127,7 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 
    ![](assets/timeline-view-example.png)
 
-   選択したレコードの種類に関連付けられたレコードは、時系列にバーとして表示されます。
+   選択したレコードタイプに関連付けられたレコードは、タイムラインのバーとして表示され、デフォルトでは時系列で並べ替えられます。
 
 1. タイムラインに移動するには、次のいずれかの操作を行います。
 
@@ -176,26 +174,22 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 
 ### グループ化を追加
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 グループ化をビューに適用する際に、類似の情報でレコードをグループ化できます。
 
+タイムライン表示でグループ化を追加する操作は、テーブル表示でグループ化を追加する操作と似ています。
+
 タイムライン表示でグループ化を操作する際は、次の点に注意してください。
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* テーブルビューとタイムラインビューの両方でグループを適用できます。 テーブルビューのグループは、同じレコードタイプのタイムラインビューのグループとは独立しています。
 * マエストロビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
 * API を使用する場合、最大 4 レベルのグループ化を適用できます。
 * グループは、選択した表示に固有です。 同じレコードタイプの 2 つのタイムライン表示で、異なるグループを適用することができます。 同じタイムライン表示を見ている 2 人のユーザーには、現在適用されているのと同じグループが表示されます。
-
 * タイムライン表示用に作成したグループに名前を付けることはできません。
-
 * グループを削除すると、自分と同じレコードタイプにアクセスし、自分と同じビューを表示する人から、自分が削除されます。
 
-グループを追加する手順は、次のとおりです。
+タイムライン表示でグループを追加するには：
 
 1. 記事の説明に従って、レコードタイプのタイムラインビューを作成します。 [レコードビューの管理](../views/manage-record-views.md).
 1. クリック **グループ化** をクリックします。
@@ -218,7 +212,7 @@ For more information, see the "Add groupings" section in the article [Manage the
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. （オプション） **x** グループ化を削除するために選択したフィールドの右側のアイコン
+1. （オプション） **次の項目でレコードをグループ化** ボックスで、 **x** グループ化を削除するために選択したフィールドの右側のアイコン
 
    または
 

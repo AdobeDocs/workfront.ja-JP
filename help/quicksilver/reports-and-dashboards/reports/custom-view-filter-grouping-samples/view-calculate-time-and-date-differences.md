@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''表示：時間と日付の差異を計算する'
-description: 以下の違いを計算できます — 編集
+title: '表示：時間と日付の差異の計算'
+description: オブジェクト上の 2 つの日付フィールド、またはオブジェクト上の日付フィールドと親オブジェクト上の別の日付フィールドの差を表示するビューを作成します。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
 
-# 表示：時間と日付の差を計算する
+# 表示：時間と日付の差を計算します
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>ビューの変更をリクエスト </p>
-   <p>レポートの変更計画</p> </td> 
+   <p>レポートを変更する計画</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -53,13 +53,13 @@ ht-degree: 0%
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr>  
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 同じオブジェクト上の 2 つの日付フィールド間の時間と日付の差を計算します
 
@@ -68,16 +68,16 @@ ht-degree: 0%
 ![](assets/view-planned-actual-completion-dates-datediff-column-350x92.png)
 
 1. タスクのリストに移動します。
-1. 次の **表示** ドロップダウンメニューで、 **新しいビュー**.
+1. 次から： **表示** ドロップダウンメニューで、 **新しいビュー**.
 
-1. クリック **列を追加** をクリックし、 **この列に表示** フィールドを選択し、リストに表示されるタイミングで選択します。
+1. クリック **列を追加** 」と入力し、 **この列に表示** フィールドを選択し、リストに表示されるタイミングで選択します。
 
-1. クリック **列を追加** をクリックし、 **この列に表示** フィールドを選択し、リストに表示されるタイミングで選択します。
+1. クリック **列を追加** 」と入力し、 **この列に表示** フィールドを選択し、リストに表示されるタイミングで選択します。
 
-1. クリック **列を追加**&#x200B;を選択し、「 **テキストモードに切り替え**.
+1. クリック **列を追加**&#x200B;を選択し、次に **テキストモードに切り替え**.
 
 1. テキストモード領域の上にマウスポインターを置いて、 **クリックしてテキストを編集**.
-1. 検索したテキストを **テキストモード** 」ボックスに置き換えて、次のコードに置き換えます。
+1. 検索したテキストを削除します。 **テキストモード** 」ボックスに置き換えて、次のコードに置き換えます。
 
    ```
    displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
@@ -93,27 +93,27 @@ ht-degree: 0%
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-350x184.png)
 
 1. タスクのリストに移動します。
-1. 次の **表示** ドロップダウンメニューで、 **新しいビュー**.
+1. 次から： **表示** ドロップダウンメニューで、 **新しいビュー**.
 
-1. クリック **列を追加** をクリックし、 **この列に表示** フィールドを選択し、リストに表示されるタイミングで選択します。
+1. クリック **列を追加** 」と入力し、 **この列に表示** フィールドを選択し、リストに表示されるタイミングで選択します。
 
-1. クリック **列を追加** をクリックし、 **この列に表示** フィールドを選択し、リストに表示されるタイミングで選択します。
+1. クリック **列を追加** 」と入力し、 **この列に表示** フィールドを選択し、リストに表示されるタイミングで選択します。
 
-1. クリック **列を追加**&#x200B;を選択し、「 **テキストモードに切り替え**.
+1. クリック **列を追加**&#x200B;を選択し、次に **テキストモードに切り替え**.
 
 1. テキストモード領域の上にマウスポインターを置いて、 **クリックしてテキストを編集**.
-1. 検索したテキストを **テキストモード** 」ボックスに置き換え、次のいずれかのコードに置き換えます。
+1. 検索したテキストを削除します。 **テキストモード** 」ボックスに置き換え、次のいずれかのコードに置き換えます。
 
    * プロジェクトの計画完了日とタスクの計画完了日の差を表示する手順は、次のとおりです。
 
-      ```
-      displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
-      ```
+     ```
+     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+     ```
 
    * 親タスクの「計画完了日」とタスクの「計画完了日」の差を表示する手順は、次のとおりです。
 
-      ```
-      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
-      ```
+     ```
+     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+     ```
 
 1. クリック **保存**&#x200B;を、 **ビューを保存**.

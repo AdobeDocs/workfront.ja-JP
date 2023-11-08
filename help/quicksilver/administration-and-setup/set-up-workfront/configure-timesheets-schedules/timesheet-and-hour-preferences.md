@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 0%
 
 As an [!DNL Adobe Workfront] 管理者は、タイムシートと時間の基本設定を次の場所で指定できます： [!DNL Workfront] を使用して、タイムシートに事前入力できる項目と、ユーザーが時間を記録できる項目を定義します。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->タイムシートの期間内に時間を記録した項目は、既定でタイムシートに表示されますが、タイムシートの事前入力に関するこの記事で説明する条件を満たしていない場合があります。
+>この記事で説明した条件に従ってタイムシートに事前入力される項目に加えて、次の項目もタイムシートに既定で表示されます。
+>* タイムシートの期間内に時間を記録した項目
+>* タイムシートに固定された項目
+>* 検索し、タイムシートに手動で追加する項目。 手動で追加した項目は、デフォルトでピン留めされます。
 >
->ログ時間について詳しくは、 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>詳しくは、 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 タイムシートに加えた変更は、今後作成されるすべてのタイムシートに影響を与えます。
