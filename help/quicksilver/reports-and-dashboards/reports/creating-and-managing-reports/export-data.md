@@ -310,14 +310,14 @@ Web アプリケーションでレポートに特別な書式が設定されて�
 
 >[!TIP]
 >
-行が `valueformat=HTML` はカスタムフィールド列のテキストモードで表示され、リンク値は書き出された.pdf ファイルには表示されません。追加のコード行をテキストモードで列に入力する必要があります。
+>行が `valueformat=HTML` はカスタムフィールド列のテキストモードで表示され、リンク値は書き出された.pdf ファイルには表示されません。追加のコード行をテキストモードで列に入力する必要があります。
 >
-例えば、「Open Q1 Projects」という名前のカスタムフィールドにリンクが含まれている場合、次のコードを追加します。
+>例えば、「Open Q1 Projects」という名前のカスタムフィールドにリンクが含まれている場合、次のコードを追加します。
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 Excel 形式にエクスポートする場合、エクスポートされるファイルにはWorkfront内のオブジェクトへのリンクのみが含まれ、レポート配信など、エクスポートされる Excel ドキュメント内のリンクを許可する場所でのみサポートされます。
 
