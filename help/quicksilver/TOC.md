@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 0fca20c1745afdb1d573f12fc8e608d331065e32
+source-git-commit: adce227ab7108409195be56ace27f533a926268b
 workflow-type: tm+mt
 source-wordcount: '13392'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
       * [製品リリースの概要](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfrontのリリーススケジュールとプロセス](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfrontの四半期リリースに備える](product-announcements/product-releases/release-readiness.md)
-      * 2023 年第 4 四半期リリース {#release-24-q1}
+      * 2024 年第 1 四半期リリース {#release-24-q1}
          * [2024 年第 1 四半期リリースの概要](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [2024 年第 1 四半期の統合の強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
       * 2023 年第 4 四半期リリース {#release-23-q4}
