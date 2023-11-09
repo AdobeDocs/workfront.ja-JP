@@ -7,17 +7,15 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
+exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
+source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Workfrontと Frame.io のネイティブ統合アルファ：機能
-
-## 使用例と機能テスト
+# Adobe Workfrontと Frame.io のネイティブ統合アルファ：機能とテスト
 
 この統合を通じて、クリエイティブが任意のツール（CC または Frame.io）でコンテンツの作成とピアレビューを行い、プロジェクトマネージャーが作業を調整し、正式なレビュープロセスをWorkfront内で初期化および監視できるようにすることが目標です。 これは、Workfrontが提供するコンテンツレビュー機能と組み合わせて、コンテンツ承認を管理するための新しいドキュメント承認を Frame.io という両方のソリューションを利用することで実現できます。 新しいドキュメント承認と Frame.io をまとめて、新しいエンドツーエンドのコンテンツレビューと承認エクスペリエンスを形成します。 
 
@@ -28,38 +26,39 @@ ht-degree: 0%
 >
 >このアルファプログラムに参加していない会社でこれらのページに遭遇した場合は、こちらの情報を慎重に扱い、詳しくはWorkfrontまたは Frame.io 管理者にお問い合わせください。
 
-<!--Initial setup and basic test scenario 
+## 基本的なテストシナリオ
 
-As part of the alpha program, we've provisioned a new test Frame.io account for you and connected it to a new group "Frame.io alpha testing" in your existing Workfront Preview or Sandbox environment. To test the delivered functionality please log in to your Workfront Preview or Sandbox instance and  perform the following steps: 
+アルファプログラムの新機能を簡単にテストできるように、新しいテスト Frame.io アカウントを作成し、新しいグループ ( ) に接続しました。 `Frame.io alpha testing` 既存のWorkfrontプレビューまたはサンドボックス環境で使用できます。
 
-Coordinators: Within Workfront, create a project with the "Frame.io alpha testing" group assigned as project group 
+この機能をテストするには、Workfront Preview または Sandbox インスタンスにログインし、次の手順を実行してください。
 
-Coordinators: Within Workfront, assign your creatives to the project or Frame enabled tasks and change the project status to "Current" 
+1. **コーディネーター：** Workfront内で、 `Frame.io alpha testing` プロジェクトグループとして割り当てられたグループ。
 
-Creatives: Check your emails for an invite to the newly created Frame.io project 
+1. **コーディネーター：** Workfront内で、クリエイティブをプロジェクトまたはフレーム対応タスクに割り当て、プロジェクトのステータスを「現在」に変更します。
 
-Creatives: Click on the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your CC tool of choice 
+1. **クリエイティブ：** メールで、新しく作成した Frame.io プロジェクトへの招待を確認してください
 
-Creatives: Upload your created assets to Frame.io and add them to the linked Workfront project (or assigned Frame enabled tasks)  
+1. **クリエイティブ：** 招待メール内の「プロジェクトに参加」ボタンをクリックして Frame.io プロジェクトに参加し、プロジェクト内のクリエイティブの概要を確認し、選択したCreative Cloudツール内でコンテンツの作成を開始します。
 
-Coordinators: Within Workfront, see the linked Frame.io assets in your project and assign reviewers / approvers (new document approvals: More help on this feature) 
+1. **クリエイティブ：** 作成したアセットを Frame.io にアップロードし、リンクされたWorkfrontプロジェクトに追加します（またはフレーム対応タスクを割り当てます）。
 
-Stakeholders: Withing Workfront, view your approval request in Workfront Home or Document Details and review the Frame connected document in the Frame.io Viewer. Leave a comment feedback 
+1. **コーディネーター：** Workfront内で、プロジェクト内でリンクされた Frame.io アセットを見つけ、レビュー担当者/承認者を割り当てます ( レビュー/承認者の割り当てについて詳しくは、 [ドキュメントに追加の承認者またはレビュー担当者を追加する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)) をクリックします。
 
-Coordinators: Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document in Workfront 
+1. **関係者：** Workfront内で、承認リクエストをホームまたはドキュメントの詳細で表示し、Frame.io ビューアで Frame に接続されたドキュメントを確認し、フィードバックを含むコメントを残します。
 
-Stakeholders: Make a decision from within the Frame.io Viewer 
+1. **コーディネーター：** Workfront内で、Frame.io 接続ドキュメントの「更新」セクションに、関係者が作成したコメントを表示します。
 
-Creatives: Within Frame.io, notice the overall approval decision made for your assets 
+1. **関係者：** Frame.io ビューア内で決定を行います。
 
-Creatives: Within Frame.io, Apply the requested changes by adding the updated version to the version stack of the connected asset 
+1. **クリエイティブ：** Frame.io 内では、アセットに対する全体的な承認の決定に注目します。
 
-Coordinators: Within Workfront, assign approvers / reviewers to the new version upload and monitor the progress until it reaches sign-off-->
+1. **クリエイティブ：** Frame.io 内で、接続されたアセットのバージョンスタックに更新されたバージョンを追加して、要求された変更を適用します。
+
+1. **コーディネーター：** Workfront内で、新しくアップロードされたバージョンに承認者/レビュー担当者を割り当て、サインオフになるまで進行状況を監視します。
 
 ## 機能プラン
 
 対処しようとしている主な使用例と、それをおこなう予定の機能に関する情報を以下に示します。 <!--, along with documentation to get you started testing.-->
-
 
 ### Workfrontの管理者は、Workfrontグループと Frame.io アカウント間の接続を設定できます
 
