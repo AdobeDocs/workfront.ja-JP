@@ -2,13 +2,13 @@
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: 配達確認のステージとレビュー担当者を編集
-description: この記事の手順を実行するには、次のアクセス権が必要です — EDIT ME.
+description: 配達確認のステージとレビュー担当者の編集方法を説明します。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '616'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td> <p>現在のプラン：作業またはプラン</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -56,9 +56,9 @@ ht-degree: 1%
 
    または
 
-   スタンドアロンのWorkfront Proof で、 **詳細** （3 ドット）メニューで配達確認の右に移動し、 **配達確認の詳細を表示**.
+   スタンドアロンのWorkfront Proof で、 **その他** （3 ドット）メニューで配達確認の右に移動し、 **配達確認の詳細を表示**.
 
-1. 次の変更を **ワークフロー** セクション：
+1. 次のいずれかの変更を **ワークフロー** セクション：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -70,7 +70,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">個々のレビュー担当者を削除</td> 
-      <td> <p>を選択します。 <strong>詳細</strong> レビュー担当者の名前の右側にあるメニューで、 <strong>削除</strong> 」と入力します。 クリック <strong>確認</strong> をクリックします。</p> </td> 
+      <td> <p>を選択します。 <strong>その他</strong> レビュー担当者の名前の右側にあるメニューで、 <strong>削除</strong> 」と入力します。 クリック <strong>確認</strong> をクリックします。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">複数のレビュー担当者を削除</td> 
@@ -78,15 +78,15 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">すべてのレビュー担当者にメッセージを送信</td> 
-      <td>を選択します。 <strong>詳細</strong> ステージセクションの右上隅にあるメニューで、 <strong>すべてをメッセージ</strong>. メッセージを設定し、「 <strong>送信</strong>.</td> 
+      <td>を選択します。 <strong>その他</strong> ステージセクションの右上隅にあるメニューで、「 <strong>すべてをメッセージ</strong>. メッセージを設定し、「 <strong>送信</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステージにレビュー担当者を追加します</td> 
-      <td>を選択します。 <strong>詳細</strong> ステージセクションの右上隅にあるメニューで、 <strong>共有</strong>. ユーザーを追加し、そのユーザーの役割と E メールのアラートを設定し、必要に応じて繰り返します。 終了したら、 <strong>共有</strong>.</td> 
+      <td>を選択します。 <strong>その他</strong> ステージセクションの右上隅にあるメニューで、「 <strong>共有</strong>. ユーザーを追加し、そのユーザーの役割と E メールのアラートを設定し、必要に応じて繰り返します。 終了したら、 <strong>共有</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステージの削除</td> 
-      <td> <p>を選択します。 <strong>詳細</strong> ステージセクションの右上隅にあるメニューで、 <strong>削除</strong> ステージ。</p> <p>注意：ステージが 1 つだけの場合、ステージは削除できません。</p> </td> 
+      <td> <p>を選択します。 <strong>その他</strong> ステージセクションの右上隅にあるメニューで、 <strong>削除</strong> ステージ。</p> <p>注意：ステージが 1 つだけの場合、ステージは削除できません。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -94,9 +94,9 @@ ht-degree: 1%
 ## レビュー担当者の詳細を編集
 
 1. Workfrontで、配達確認の上にマウスポインターを置いて、「 **配達確認の詳細** をクリックして、校正の詳細ページを開きます。
-1. 内 **ワークフロー** セクションで、 **詳細** メニュー ![](assets/more-button-small.png) レビュー担当者の名前の右側にあるをクリックし、 **編集** をクリックします。
+1. Adobe Analytics の **ワークフロー** セクションで、 **その他** メニュー ![](assets/more-button-small.png) レビュー担当者の名前の右側にあるをクリックし、 **編集** をクリックします。
 
-1. 内 **レビュー担当者を編集** 表示されるボックスで、次の詳細を編集します。
+1. Adobe Analytics の **レビュー担当者を編集** 表示されるボックスで、次の詳細を編集します。
 
    <table style="table-layout:auto"> 
     <col> 

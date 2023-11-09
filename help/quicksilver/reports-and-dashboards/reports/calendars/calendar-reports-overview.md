@@ -3,23 +3,23 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートの概要
-description: カレンダーレポートは、実際には作業内容を視覚的に表現する動的レポートです。 カレンダーレポートには、次のオブジェクトの日付情報を表示できます。編集
+description: カレンダーレポートは、実際には作業内容を視覚的に表現する動的なレポートです。
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
 
 # カレンダーレポートの概要
 
-カレンダーレポートは、実際には作業内容を視覚的に表現する動的レポートです。 次のオブジェクトに関する日付情報をカレンダーレポートに表示できます。
+カレンダーレポートは、実際には作業内容を視覚的に表現する動的なレポートです。 次のオブジェクトに関する日付情報をカレンダーレポートに表示できます。
 
 * タスク
-* 問題
+* イシュー
 * プロジェクト
 
 でカレンダーレポートにアクセスする機能 [!DNL Adobe Workfront] は、 [!DNL Workfront] 管理者に問い合わせます。 カレンダーレポートの表示に必要なアクセスレベルについて詳しくは、 [レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
@@ -29,7 +29,7 @@ ht-degree: 1%
 [!UICONTROL Workfront] 次の場合に、既定の個人用カレンダーを自動的に作成します。
 
 * 他のカレンダーにアクセスできない新しく作成したユーザーが、初めてカレンダーレポートページを訪問します\
-   OR
+   または
 * ユーザーがすべてのカレンダーを手動で削除し、他のカレンダーにアクセスできない
 
 >[!NOTE]
@@ -40,7 +40,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->必ず [!UICONTROL 編集] ～へのアクセス [!UICONTROL レポート], [!UICONTROL ダッシュボード]、および [!UICONTROL カレンダー] をクリックし、カレンダーレポートを作成します。 お問い合わせ [!DNL Workfront] 管理者。
+>必要な機能は次のとおりです。 [!UICONTROL 編集] ～へのアクセス権 [!UICONTROL レポート], [!UICONTROL ダッシュボード]、および [!UICONTROL カレンダー] をクリックし、カレンダーレポートを作成します。 お問い合わせ [!DNL Workfront] 管理者。
 
 ## 日付別に項目をグループ化
 

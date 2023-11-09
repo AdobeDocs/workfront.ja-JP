@@ -3,14 +3,14 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: Web 校正ビューアとデスクトップ校正ビューアの違いの概要
-description: Adobe Workfrontには、2 種類の校正ビューアが用意されています — EDIT ME.
+description: デスクトップ版と Web 版の校正ビューアの違いについて説明します。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '865'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
 * **インタラクティブ Web コンテンツ — URL**:URL を使用して Web コンテンツの配達確認を作成し、コンテンツを対話形式で配達確認する場合は、デスクトップ校正ビューアを使用する必要があります。
 * **インタラクティブ Web コンテンツ — ZIP ファイル**:ZIP ファイルを使用して Web コンテンツの配達確認を作成する場合は、Web 校正ビューア（一部制限あり）またはデスクトップ校正ビューアを使用できます。 インタラクティブコンテンツ用の Web 校正ビューアの使用に関する制限事項について詳しくは、 [Web 校正ビューアでインタラクティブコンテンツの校正を設定する](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **静的コンテンツとビデオコンテンツ**:静的コンテンツを含む配達確認を作成する場合は、Web 校正ビューアまたはデスクトップ校正ビューアを使用できます。
+* **静的コンテンツとビデオコンテンツ**：静的コンテンツを含む配達確認を作成する場合は、Web 校正ビューアまたはデスクトップ校正ビューアを使用できます。
 
 ## 静的配達確認
 
@@ -46,7 +46,7 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
 | 複数のページにコメントを投稿 | ✓ （すべてのビューで使用可能） | ✓&#42; （すべてのビューで使用可能） |
 | 高度な静的配達確認のショートカット | ✓ ( 詳しくは、 [校正ビューアのキーボードショートカット](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;( 詳しくは、 [校正ビューアのキーボードショートカット](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; この機能は、Workfrontの管理者がすべての配達確認のデフォルトビューアとしてデスクトップ校正ビューアを設定している場合にのみ機能します。
 
@@ -58,14 +58,14 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
 | バッファリング | ✓ | ✓&#42; |
 | 時間を使用したレビュー | ✓ | ✓&#42; |
 | フレームまたはタイムコードを使用したレビュー | ✓ | ✓&#42; |
-| 速く、または遅く確認 | ✓ | ✓&#42; |
+| 速く、または遅くレビュー | ✓ | ✓&#42; |
 | 音量の調節 | ✓ | ✓&#42;  |
 | フルスクリーンモード | ✓ | ✓&#42;  |
-| 範囲コメント | ✓ | ✓&#42;  |
+| 範囲のコメント | ✓ | ✓&#42;  |
 | ビデオの配達確認をループする（ビデオが終了し、自動的に開始） | ✓ | ✓&#42;  |
 | 高度なビデオショートカット | ✓ ( 詳しくは、 [校正ビューアのキーボードショートカット](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 &#42; この機能は、すべての配達確認のデフォルトビューアとしてデスクトップ校正ビューアが設定されている場合にのみ機能します。
 
@@ -78,9 +78,9 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
 | 様々な画面サイズで、インタラクティブな配達確認（ZIP ファイルにバンドルされたコンテンツから作成）を表示 | ✓ | ✓ |
 | 様々なデバイス向けのインタラクティブな配達確認（ZIP ファイルにバンドルされたコンテンツから作成）を表示 | サポートなし | ✓ |
 | セキュリティで保護されていない (HTTP) サイトの確認 | サポートなし | ✓ |
-| iFrame で保護されたサイト（iFrame 内での表示を保護されたサイト）の確認 | サポートなし | ✓ |
+| iFrame で保護されたサイト（iFrame 内での表示を保護されたサイト）のレビュー | サポートなし | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## コメント
 
@@ -192,7 +192,7 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>標準ビュー、フルビュー、または単一ビューでコメントリストを表示</p> </td> 
+   <td> <p>標準ビュー、フルビュー、または単一ビューでコメントリストを表示する</p> </td> 
    <td>将来の予定</td> 
    <td>将来の予定</td> 
   </tr> 
@@ -228,10 +228,10 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
 
 | 機能 | Web 校正ビューア | デスクトップ校正ビューア |
 |---|---|---|
-| 決定を下す | ✓ | ✓ |
+| 意思決定 | ✓ | ✓ |
 | 決定のカスタマイズ | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## プルーフの比較
 
@@ -248,7 +248,7 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
  </thead> 
  <tbody> 
   <tr> 
-   <td>異なるバージョンの配達確認の比較</td> 
+   <td>様々なバージョンの配達確認の比較</td> 
    <td>✓</td> 
    <td>✓<br></td> 
   </tr> 
@@ -320,7 +320,7 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>配達確認とステージのロックとロック解除</td> 
+   <td>配達確認およびステージのロックとロック解除</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -373,7 +373,7 @@ Adobe Workfrontには 2 種類の校正ビューアがあります。
 |---|---|---|
 | 埋め込みコード | 静的およびネイティブのビデオ配達確認に向けて将来予定 | サポートなし  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 翻訳
 

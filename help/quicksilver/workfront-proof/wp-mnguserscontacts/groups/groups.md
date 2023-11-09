@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: 配達確認グループ
-description: このセクションには、次の記事が含まれています — EDIT ME.
+description: Workfront Proof のグループについて説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 59962f6b-e2e9-4ac7-b60f-6c8f9ca9958b
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 2%
 
 ---

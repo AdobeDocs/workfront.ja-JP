@@ -2,13 +2,13 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Experience Manager Assets Essentials 統合の設定
-description: Experience Manager Assets Essentials - EDIT ME で作業内容を連携させます。
+description: Experience Manager Assets Essentials のコンテンツと作業内容を接続します。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a6cb6d4780f2b1c3e77547caf7324e882d2dab4f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '641'
 ht-degree: 4%
 
 ---
@@ -69,7 +69,7 @@ Experience Manager Assets Essentials でのコンテンツとの連携：
 ## 統合の設定
 
 1. 次をクリック： **メインメニュー** Adobe Workfrontの右上隅にあるアイコンをクリックし、 **設定**.
-1. 選択  **ドキュメント** ![ドキュメントアイコン](assets/document-icon.png) 左のパネルで、「 **Experience Manager統合**.
+1. 選択  **ドキュメント** ![ドキュメントアイコン](assets/document-icon.png) 左のパネルで、「 **Experience Managerの統合**.
 1. 選択 **Experience Manager統合を追加**.
 1. 以下を指定します。
 
@@ -133,11 +133,11 @@ For more information on keywords in Experience Manager Assets, including how to 
 
 メタデータは、アセットがWorkfrontから初めてプッシュされるとマッピングされます。 組み込みフィールドまたはカスタムフィールドを持つドキュメントは、アセットをExperience Manager Assets Essentials に初めて送信する際に、指定したフィールドに自動的にマッピングされます。
 
-1. 内 **Workfrontフィールド** 列で、組み込みフィールドまたはカスタムWorkfrontフィールドを選択します。
+1. Adobe Analytics の **Workfrontフィールド** 列で、組み込みフィールドまたはカスタムWorkfrontフィールドを選択します。
    >[!NOTE]
    >
    >1 つのWorkfrontフィールドを複数のExperience Manager Assetsフィールドにマッピングできます。 複数のWorkfrontフィールドを 1 つのExperience Manager Assetsフィールドにマッピングすることはできません。
-1. 内 **Experience Manager** 「 Experience Manager Assets 」フィールドを選択します。
+1. Adobe Analytics の **Experience Manager** 「 」フィールドで、「 Experience Manager Assets 」フィールドを選択します。
 
    WorkfrontフィールドをExperience Manager Assetsタグにマッピングするには、 `dc:subject`.
 1. 必要に応じて、手順 1 と 2 を繰り返します。

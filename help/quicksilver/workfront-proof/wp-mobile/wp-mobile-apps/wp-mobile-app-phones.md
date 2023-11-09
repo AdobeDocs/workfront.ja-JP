@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof モバイルアプリ
-description: をダウンロードします。 [!DNL Workfront Proof] Apple App StoreまたはGoogle Store のアプリを使用して、どこにいても生産性を高めることができます。 この [!DNL Workfront Proof] アプリは、iPhoneと iPod Touch - EDIT ME で以下の機能を備えています。
+description: Workfront Proof モバイルアプリについて説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 699c1d73d768e79890464654a14bdd4573de02c8
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
 
-をダウンロードします。 [!DNL Workfront Proof] Apple App StoreまたはGoogle Store のアプリを使用して、どこにいても生産性を高めることができます。 この [!DNL Workfront Proof] iPhoneおよび iPod Touch では、アプリに次の機能が備わっています。
+をダウンロードします。 [!DNL Workfront Proof] Apple App StoreまたはGoogle Store のアプリを使用して、どこにいても生産性を高めることができます。 The [!DNL Workfront Proof] iPhoneおよび iPod Touch では、アプリに次の機能が備わっています。
 
-* 静的な配達確認とオーディオビジュアル配達確認の両方を表示、確認および承認
+* 静的な配達確認とオーディオビジュアル配達確認の両方を表示、確認および承認します
 * コメントの表示、追加、返信を行う
 * ダッシュボードとビューを使用した配達確認の管理
 
@@ -44,7 +44,7 @@ iOS 7.0 以降が必要です。 Android 4.0 以降。 iPhone、iPad、iPod touc
 
 iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバイス用のアプリを使用してください。
 
-この [!DNL Workfront Proof] アプリは、使用しているデバイスの種類を自動的に検出します。 タブレットでアプリを使用する場合は、 [[!DNL Workfront Proof] タブレット用モバイルアプリ](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
+The [!DNL Workfront Proof] アプリは、使用しているデバイスの種類を自動的に検出します。 タブレットでアプリを使用する場合は、 [[!DNL Workfront Proof] タブレット用モバイルアプリ](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバ�
 
 ## アプリの概要
 
-あなたは、 [!DNL Workfront Proof] ユーザーがデスクトップアプリケーションの使用を開始する際に使用します。 デバイスにアプリをインストールし、 **[!UICONTROL 配達確認に移動]** リンクをクリックします。 配達確認が自動的に開始されて読み込まれます。
+あなたは a である必要はありません [!DNL Workfront Proof] ユーザーがデスクトップアプリケーションの使用を開始する際に使用します。 デバイスにアプリをインストールし、 **[!UICONTROL 配達確認に移動]** リンクをクリックします。 配達確認が自動的に開始されて読み込まれます。
 
 次の場合、 [!DNL Workfront Proof] ユーザーは、配達確認を開く前にアプリにログインできます。 共有されているすべての配達確認を参照し、簡単に切り替えることができます。
 
@@ -61,9 +61,9 @@ iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバ�
 
    または
 
-   シングルサインオンが [!DNL Workfront Proof] アカウント
+   シングルサインオンが [!DNL Workfront Proof] アカウント。
 
-   以下を使用して、 **[!UICONTROL パスワードを忘れた場合]** オプションを使用します。
+   以下を使用すると、 **[!UICONTROL パスワードを忘れた場合]** オプションを使用します。
 
 ## ダッシュボード
 
@@ -75,14 +75,14 @@ iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバ�
 
 | **オンタイムビュー** | アカウント内で、閲覧する権限があり、期限がない、または期限まで 24 時間を超えるアクティブな配達確認がすべて表示されます。 |
 |---|---|
-| **リスクビュー** | 期限が 24 時間未満のすべての配達確認を表示します。 |
+| **リスクビューで** | 期限が 24 時間未満のすべての配達確認を表示します。 |
 | **レイトビュー** | 期限が過ぎているすべてのアクションが完了していないすべての配達確認をリストします。 |
 | **最近の表示** | 自分が最近アクセスし、所有している配達確認が含まれ、プロファイル権限に従って表示する権限と、自分が共有している配達確認が含まれます。 このビューには、( [!DNL Workfront Proof] 閲覧者または配達確認の詳細ページを使用 )。 |
-| **電子メールリンク** | E メールから配達確認を開くには、E メールアプリで E メールを開き、 [!UICONTROL 配達確認に移動] ボタンのリンクをクリックすると (1)、 [!DNL Workfront Proof] アプリを使用します。 |
+| **電子メールリンク** | E メールから配達確認を開くには、E メールアプリで E メールを開き、 [!UICONTROL 配達確認に移動] ボタンのリンクをクリックすると (1) [!DNL Workfront Proof] アプリを使用します。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## アプリでの静的配達確認の確認
+## アプリでの静的な配達確認の確認
 
 モバイルアプリで配達確認を開く際に、次の操作を実行できます。
 
@@ -91,12 +91,12 @@ iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバ�
 * 「コメントと決定」ボタンの表示/非表示は、配達確認の役割に応じて異なります。
 * (3) を決定します。
 * メニューに移動します (4)。
-* 画面を挟んで配達確認を拡大・縮小します。
-   ![IMG_0223.png](assets/img-0223-350x541.png)
+* 画面をつまんで配達確認を拡大・縮小します。
+  ![IMG_0223.png](assets/img-0223-350x541.png)
 
 ## コメントと返信を追加
 
-1. 配達確認を開いたら、 **[!UICONTROL コメントを追加]** ボタン (1)
+1. 配達確認を開いたら、 **[!UICONTROL コメントを追加]** ボタン (1) をクリックします。
 
    ![tap_the_comment_button.png](assets/tap-the-comment-button-350x541.png)
 
@@ -115,18 +115,18 @@ iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバ�
 
 1. 次のいずれかの操作を行います。
 
-   * コメントに返信するには、 **[!UICONTROL 返信]** ボタン (3)
-   * 配達確認の画像に戻るには、 [!UICONTROL 吹き出し] アイコン
+   * コメントに返信するには、 **[!UICONTROL 返信]** ボタン (3) をクリックします。
+   * 配達確認の画像に戻るには、 [!UICONTROL 吹き出し] アイコン。
    * 完全なコメントとその返信を表示するには、コメント自体をタップします。
 
-      ![reply_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
+     ![reply_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
 
    * コメントにアクションを適用するには：
 
       1. コメントを開きます。
       1. タップ **[!UICONTROL 返信]**.
       1. を開きます。 [!UICONTROL アクション] メニューを使用して、テキストフィールド (1) の右側に表示されます。
-      1. タップ **[!UICONTROL アクションを追加]** (2)
+      1. タップ **[!UICONTROL アクションを追加]** (2)。
 
          ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
 
@@ -136,11 +136,11 @@ iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバ�
 
 マークアップを追加し（配達確認上の領域をハイライト表示するボックスなど）、マークアップに添付するコメントを入力できます。 マークアップを追加せずにコメントを作成することもできます。 また、1 つのコメントに複数のマークアップを追加できます。
 
-1. 開いた配達確認の場合は、 **コメントを追加** (1)
+1. 開いた配達確認の場合は、 **コメントを追加** (1)。
 
    ![tap_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
 
-1. 次の中から選択： [!UICONTROL パンモード] (2) [!UICONTROL 長方形ツール] (3) [!UICONTROL フリーハンド描画] (4)，又は [!UICONTROL 矢印] ツール (5)
+1. 次の中から選択： [!UICONTROL パンモード] (2), [!UICONTROL 長方形ツール] (3) [!UICONTROL フリーハンド描画] (4)，又は [!UICONTROL 矢印] ツール (5) を使用します。
 
    また、マークアップの線の色を変更することもできます (6)。
 
@@ -158,7 +158,7 @@ iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバ�
 
 ## 配達確認に関する決定
 
-1. 配達確認ビューアで配達確認を開き、 [!UICONTROL 決定] ボタン (1)
+1. 配達確認ビューアで配達確認を開き、 [!UICONTROL 決定] ボタン (1) をクリックします。
 
    ![decision_button.png](assets/decision-button-350x542.png)
 
@@ -170,11 +170,10 @@ iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバ�
    >[!NOTE]
    >
    >* 配達確認が作成されたアカウントで決定時ポップアップメッセージが設定されている場合は、配達確認に対して決定がおこなわれると、iOSアプリにも表示されます。
-   >* 決定理由を設定した場合は、 [!UICONTROL 決定を送信] 画面で選択できます。
+   >* 決定理由を設定した場合は、「 [!UICONTROL 決定を送信] 画面で選択できます。
 
 
-
-   既に決定を送信済みで、その決定を変更または削除する場合は、簡単に変更できます。 決定を送信した後に、新しいオプションが追加され、 **[!UICONTROL 決定を削除]** (6) [!UICONTROL 決定を送信] 画面
+   既に決定を送信済みで、その決定を変更または削除する場合は、簡単に変更できます。 決定を送信した後に、新しいオプションが追加され、 **[!UICONTROL 決定を削除]** (6) [!UICONTROL 決定を送信] 画面。
 
    ![remove_decision.png](assets/remove-decision-350x543.png)
 

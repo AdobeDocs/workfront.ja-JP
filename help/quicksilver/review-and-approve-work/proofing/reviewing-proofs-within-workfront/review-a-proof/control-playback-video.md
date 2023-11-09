@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: ビデオ配達確認での再生の制御
-description: この記事の手順を実行するには、次のアクセス権が必要です — EDIT ME.
+description: ビデオの配達確認で再生を制御する方法を説明します。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '348'
 ht-degree: 1%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td> <p>現在のプラン：作業またはプラン</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -51,7 +51,7 @@ ht-degree: 1%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「 」を選択します。 **ドキュメント**.
 1. 必要な配達確認を見つけて、「 **配達確認を開く**.
 
-1. 校正ビューアの右下隅で、 **設定** アイコン
+1. 校正ビューアの右下隅で、 **設定** アイコン。
 
    ![phq_viewer_video_playbackspeed__2_.png](assets/phq-viewer-video-playbackspeed--2-.png)
 
@@ -69,7 +69,7 @@ ht-degree: 1%
 
    ![](assets/frame-.png)
 
-## 再生ボリュームを変更
+## 再生ボリュームを変更する
 
 ビデオ再生のボリュームを制御できます。
 
@@ -82,4 +82,4 @@ ht-degree: 1%
 
    または
 
-   次をクリック： **音量** アイコン：ボリュームをミュート/ミュート解除します。
+   次をクリック： **音量** アイコンを使用して、ボリュームをミュート/ミュート解除します。

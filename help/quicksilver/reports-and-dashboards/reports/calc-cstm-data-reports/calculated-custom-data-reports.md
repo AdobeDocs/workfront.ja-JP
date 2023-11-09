@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: レポート内の計算済みカスタムデータ
-description: 計算済みのカスタムデータを使用して、レポートを作成できます。
+description: レポートのカスタムデータについて説明します。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

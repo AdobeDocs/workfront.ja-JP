@@ -2,20 +2,20 @@
 title: 拡張分析でのフィルターの適用
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: 拡張分析領域のフィルターは、特定のプロジェクトや特定のタイプのデータに焦点を当てるのに役立ちます。 使用するフィルタの種類は、EDIT ME に関するインサイトを得ることができます。
+description: 「拡張分析」領域のフィルターは、特定のプロジェクトや特定のタイプのデータに焦点を当てるのに役立ちます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 0%
+source-wordcount: '1484'
+ht-degree: 1%
 
 ---
 
 # 拡張分析でのフィルターの適用
 
-拡張分析領域のフィルターは、特定のプロジェクトや特定のタイプのデータに焦点を当てるのに役立ちます。 使用するフィルターのタイプによって、次の情報を得ることができます。
+「拡張分析」領域のフィルターは、特定のプロジェクトや特定のタイプのデータに焦点を当てるのに役立ちます。 使用するフィルターのタイプによって、次の情報を得ることができます。
 
 * 所有しているプロジェクト
 * 特定のポートフォリオまたはプログラムビュー
@@ -44,10 +44,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><b>アクセスレベル*</b> </td> 
-   <td> <p>プロジェクトへのアクセスを表示</p> <p>また、特定のプロジェクトフィールドフィルターオプションを表示するには、タスク、Portfolio、ユーザーへの表示アクセス権も必要です。</p> <p>注意：アクセスレベルを編集ダイアログの「追加の制限を設定」セクションで制限を選択した場合、フィルターの適用後に、フィルターまたは拡張分析ページにすべての情報が表示されないことがあります。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトへのアクセスを表示</p> <p>また、特定のプロジェクトフィールドフィルターオプションを表示するには、タスク、Portfolio、ユーザーへの表示アクセス権も必要です。</p> <p>注意：アクセスレベルを編集ダイアログの「追加の制限を設定」セクションで制限を選択した場合、フィルターを適用した後、フィルターまたは拡張分析ページにすべての情報が表示されないことがあります。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>オブジェクト権限</b> </p> </td> 
+   <td> <p><b>オブジェクトの権限</b> </p> </td> 
    <td> <p>ビュー</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ## 前提条件
 
-拡張分析を使用するための前提条件については、 [前提条件](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [分析の強化の概要](../enhanced-analytics/enhanced-analytics-overview.md).
+拡張分析を使用するための前提条件については、 [前提条件](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## 日付範囲フィルターの変更 {#change-the-date-range-filter}
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 >[!TIP]
 >
 >キーボードのキーを使用して、カレンダーウィジェットから日付範囲に移動して開き、選択することもできます。\
->詳しくは、 [キーボードショートカット](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 記事のセクション [分析の強化の概要](../enhanced-analytics/enhanced-analytics-overview.md).
+>詳しくは、 [キーボードショートカット](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 記事のセクション [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md).
 
 新しい日付範囲を選択するには：
 
@@ -81,14 +81,14 @@ ht-degree: 0%
 
    ![](assets/timeframe-filter-350x220.png)
 
-## フィルターの追加
+## フィルターを追加
 
 デフォルトのプロジェクトフィールド、カスタムフォームフィールド、およびプロジェクトに割り当てられたホームチームに基づいて、フィルターを追加できます。
 
 >[!TIP]
 >
 >キーボードのキーを使用して、に移動し、新しいフィルターを追加することもできます。\
->詳しくは、 [キーボードショートカット](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 記事のセクション [分析の強化の概要](../enhanced-analytics/enhanced-analytics-overview.md).
+>詳しくは、 [キーボードショートカット](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 記事のセクション [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md).
 
 * [プロジェクトフィールドフィルターを追加する](#add-a-project-field-filter)
 * [プロジェクトフィールドフィルターを追加する](#add-a-project-field-filter)
@@ -109,7 +109,7 @@ ht-degree: 0%
 | **スポンサー** | 選択したスポンサーを持つプロジェクトのデータのみを表示します |
 | **プロジェクト所有者** | 選択したプロジェクト所有者を持つプロジェクトのデータのみを表示します |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 カスタムフォームフィルターの動作は異なります。 詳しくは、 [プロジェクトフィールドフィルターを追加する](#add-a-project-field-filter).
 
@@ -122,7 +122,7 @@ ht-degree: 0%
    >
    >フィルターのタイプごとに異なるデータが表示されます。 1 つのフィルターで使用できるフィルターの種類は 1 つだけです。 選択した後は、別のプロジェクトフィールドフィルターではフィルタータイプを使用できません。
 
-1. データを表示する値を見つけるには、 **検索** 」フィールドで、フィルターに含める各値を選択します。
+1. データを表示する値を見つけるには、 **検索** 「 」フィールドで、フィルターに含める各値を選択します。
 
    現在の値をすべて選択するには、 **すべてを選択**.
 
@@ -141,15 +141,17 @@ ht-degree: 0%
    >   
    >   
    >   * 左下隅の矢印を使用して、そのビジュアライゼーション内の次の 50 個のプロジェクトを表示します。\
-      >     ![](assets/pagination-350x118.png)
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * ビジュアライゼーションの「並べ替え順」ドロップダウンメニューを使用して、プロジェクトを異なる順序で表示します。\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    日付範囲を調整するには、 [日付範囲フィルターの変更](#change-the-date-range-filter).
 
-### プロジェクトカスタムフォームフィルターを追加する
+### プロジェクトのカスタムフォームフィルターを追加する
 
 「カスタムフォーム」フィルタータイプを使用すると、プロジェクトの「カスタムフォーム」フィールドに入力された値に基づいて、プロジェクトとタスクのデータをフィルタリングできます。 他の拡張分析フィルタータイプとは異なり、複数のカスタムフォームフィルターを追加できます。 各カスタムフォームフィルターには、特定のカスタムフォームの選択されたフィールド内でのみ入力された値が含まれます。
 
@@ -167,17 +169,17 @@ ht-degree: 0%
    >
    >フィルターに追加できないカスタムフォームフィールドタイプもあります。 現在、Enhanced Analytics は、上記のフィールドタイプのみをサポートしています。
 
-   * **チェックボックス**, **ドロップダウン**&#x200B;または **ラジオボタン**:選択したフィールドでフィルターに含める各値を選択するか、 **すべてを選択** チェックボックス。\
-      ![](assets/custom-form-filter-checkbox-350x255.png)
+   * **チェックボックス**, **ドロップダウン**&#x200B;または **ラジオボタン**：フィルターに含める、選択したフィールドの各値を選択するか、 **すべてを選択** チェックボックス。\
+     ![](assets/custom-form-filter-checkbox-350x255.png)
 
-   * **日付**:矢印を使用して特定の月に移動した後、フィルターに含める日付を選択したフィールドで選択します。\
-      ![](assets/custom-form-filter-date-350x348.png)
+   * **日付**：矢印を使用して特定の月に移動してから、フィルターに含める日付を選択します。\
+     ![](assets/custom-form-filter-date-350x348.png)
 
-   * **テキスト**:選択したフィールド内で、フィルターに含めるテキストを入力します。\
-      ![](assets/custom-form-filter-text-350x90.png)
+   * **テキスト**：選択したフィールド内で、フィルターに含めるテキストを入力します。\
+     ![](assets/custom-form-filter-text-350x90.png)
 
-   * **数値**:フィルターに含める数を、選択したフィールド内に入力します。\
-      ![](assets/custom-form-filter-number-350x93.png)
+   * **数値**：フィルターに含める数を、選択したフィールド内に入力します。\
+     ![](assets/custom-form-filter-number-350x93.png)
 
 1. フィルタする値を入力または選択した後、 **フィルターを適用**.
 
@@ -194,23 +196,25 @@ ht-degree: 0%
    >   
    >   
    >   * 左下隅の矢印を使用して、そのビジュアライゼーション内の次の 50 個のプロジェクトを表示します。\
-      >     ![](assets/pagination-350x118.png)
+   >     ![](assets/pagination-350x118.png)
    >   
    >   * ビジュアライゼーションの「並べ替え順」ドロップダウンメニューを使用して、プロジェクトを異なる順序で表示します。\
-      >     ![](assets/sort-by-menu-350x247.png)
-
+   >     ![](assets/sort-by-menu-350x247.png)
+   >   
+   >   
+   >
 
    日付範囲を調整するには、 [日付範囲フィルターの変更](#change-the-date-range-filter).
 
 ### チームフィルターを追加 {#add-a-team-filter}
 
 1. メインメニューアイコンをクリックします。 ![](assets/main-menu-icon-16x12.png)を選択し、「 **Analytics**.
-1. 左側のパネルで、 **人**.
+1. 左側のパネルで、 **People**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
 1. 画面の左上隅で、 **フィルターを追加**&#x200B;を選択し、 **チーム** フィルター。
-1. データを表示するチームを見つけるには、 **検索** 」フィールドで、フィルターに含める各チームを選択します。 すべてのチームを選択するには、 **すべてを選択**.
+1. データを表示するチームを見つけるには、テキストを 3 文字以上入力します。 **検索** 」フィールドで、フィルターに含める各チームを選択します。 すべてのチームを選択するには、 **すべてを選択**.
 
    ![](assets/select-team-value-350x253.png)
 
@@ -232,18 +236,18 @@ ht-degree: 0%
 >[!TIP]
 >
 >また、キーボードのキーを使用して、既存のフィルターに移動したり、既存のフィルターを削除したりすることもできます。\
->詳しくは、 [キーボードショートカット](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 記事のセクション [分析の強化の概要](../enhanced-analytics/enhanced-analytics-overview.md).
+>詳しくは、 [キーボードショートカット](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) 記事のセクション [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md).
 
 フィルターを削除するには：
 
 1. メインメニューアイコンをクリックします。 ![](assets/main-menu-icon-16x12.png)を選択し、「 **Analytics**.
-1. 作業用フィルターを削除する場合は、「 **作業** 領域
+1. 作業用フィルターを削除する場合は、「 」にとどまります。 **作業** 領域。
 
    または
 
-   人物フィルターを削除する場合は、 **人** をクリックします。
+   人物フィルターを削除する場合は、「 **People** をクリックします。
 
-1. 目的のフィルターを見つけ、 **X** 削除します。
+1. 目的のフィルターを見つけ、 **X** をクリックして削除します。
 
    ![](assets/remove-filter-350x213.png)
 

@@ -2,13 +2,13 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 最終
-description: 次の機能は、現在、プレビューまたはベータ版では使用できませんが、R1 - EDIT ME で実稼動環境にリリース中です。
+description: 2018.3 リリースアクティビティ
 author: Luke
 feature: Product Announcements
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 自分の作業領域 (Workfront) で配達確認の承認を決定する
 
-ユーザーが配達確認に追加し、承認者の役割またはレビュー担当者と承認者の役割 ( スタンドアロンの ProofHQ アプリケーションから、またはWorkfront内の自動ワークフローを使用 ) を許可すると、承認リクエストが「作業」領域の「承認」タブに表示されます。 その後、配達確認を表示し、配達確認に関する承認をWorkfrontから直接決定できます。
+ユーザーが配達確認に追加し、承認者の役割またはレビュー担当者と承認者の役割 ( スタンドアロンの ProofHQ アプリケーションから、またはWorkfront内の自動ワークフローを使用 ) を許可すると、承認リクエストが「My Work」領域の「承認」タブに表示されます。 その後、配達確認を表示し、配達確認に関する承認をWorkfrontから直接決定できます。
 
 自動ワークフローを使用して配達確認にユーザーを追加する方法について詳しくは、 [Adobe Workfront内での配達確認の共有](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Adobe Workfront内での配達確認の共有](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 この承認にアクセスするには、オブジェクトに基づくレポートを作成する際に、 [カスタムレポートの作成](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-配達確認の承認オブジェクトレポートについて詳しくは、 [Adobe Workfrontのオブジェクトについて](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) セクション [Adobe Workfrontのオブジェクトについて](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+配達確認の承認オブジェクトレポートについて詳しくは、 [Adobe Workfrontのオブジェクトについて](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) のセクション [Adobe Workfrontのオブジェクトについて](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## ドラッグ&amp;ドロップを使用してドキュメント配達確認の新しいバージョンを自動生成する (Workfront)
 
@@ -83,7 +83,7 @@ Workfrontは、プレビューサンドボックス環境とカスタム更新�
 
 Outlook 365 用Workfrontアドインが利用できるようになりました。 
 
-アドインの使用方法の詳細については、 [Outlook for Office 365 でのWorkfrontアドインの使用](https://support.workfront.com/hc/en-us/sections/205046167)
+アドインの使用方法の詳細については、「 [Outlook for Office 365 でのWorkfrontアドインの使用。](https://support.workfront.com/hc/en-us/sections/205046167)
 
 ## モバイルアプリ (Workfront) での検索
 
@@ -119,14 +119,14 @@ Workfrontと統合された ProofHQ Premium アカウントで、ProofHQ 内の�
 カスタムビューに次の追加情報を含めることができるようになりました。
 
 * **受信者レベルのデータ**\
-   カスタムビューを設定して、受信者レベルのデータに関連する次の列を含めることができます。役割、位置、E メールアラート、期限、配達確認に追加された日付、および受信者の検索。\
-   詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  カスタムビューを設定して、受信者レベルのデータに関連する列（役割、位置、E メールアラート、締め切り日、配達確認に追加された日付、受信者検索）を含めることができます。\
+  詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **データの校正**\
-   カスタム表示を設定して、校正データに関連する次の列を含めることができます。コメント数（すべてのバージョン）、ディスク上のサイズ、配達確認の種類、バージョンごとのファイル数、コメント添付データ（ディスク上のサイズ、ファイル名）、サブフォルダーでのフィルタリング。\
-   詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  カスタムビューを設定して、校正データに関連する次の列を含めることができます。コメント数（すべてのバージョン）、ディスク上のサイズ、配達確認の種類、バージョンごとのファイル数、コメント添付データ（ディスク上のサイズ、ファイル名）、サブフォルダーでのフィルター。\
+  詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **自動ワークフローに関連するステージレベルのデータ**\
-   カスタムビューを設定して、自動ワークフローの個々のステージに関連する次の列を含めることができます。SOCD ステータス、ステージ期限、アクティブステージ名、次のステージ名、ステージ名、テンプレート。\
-   詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  自動ワークフローの個々のステージに関連する、SOCD ステータス、ステージ期限、アクティブなステージ名、次のステージ名、ステージ名、テンプレートの各ステージに関連する列を含めるように、カスタムビューを設定できます。\
+  詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## レポート（旧称 Analytics）(ProofHQ) の校正機能の改善
 

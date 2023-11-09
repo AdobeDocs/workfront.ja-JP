@@ -3,14 +3,14 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: 配達確認の作成
-description: このセクションには、次の記事が含まれています — EDIT ME.
+description: 配達確認の作成方法を説明します。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---

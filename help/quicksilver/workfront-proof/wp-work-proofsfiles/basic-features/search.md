@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: 検索中 [!DNL Workfront Proof]
-description: Workfront Proof サイト — EDIT ME で、次のタイプのコンテンツを検索できます。
+description: Workfront Proof サイト全体でコンテンツを検索できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
 
-次のタイプのコンテンツを [!DNL Workfront Proof] サイト：
+次のタイプのコンテンツを、 [!DNL Workfront Proof] サイト：
 
 * 配達確認（アーカイブされた配達確認を含む）
 * ファイル

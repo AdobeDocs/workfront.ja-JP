@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: トラブルシューティング — Macの校正ビューアでインターフェイスフォントが破損しています
-description: 校正ビューアにインターフェイスのフォントが正しく表示されない場合は、Macコンピューター上のフォントに問題がある可能性があります。 問題を解決するには、次の解決策を試してみてください — EDIT ME.
+description: Macの校正ビューアで、TrobueShoot が破損したインターフェイスフォントを使用しています
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
 
-校正ビューアにインターフェイスのフォントが正しく表示されない場合は、Macコンピューター上のフォントに問題がある可能性があります。 問題を解決するには、次の解決策を試してみてください。
+校正ビューアにインターフェイスのフォントが正しく表示されない場合は、Macコンピューター上のフォントに問題がある可能性があります。 この問題を解決するには、次の解決策を試してください。
 
 ## フォントの重複を削除
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 使用しているブラウザを閉じます。
 1. アプリケーションフォルダでフォントブックアプリケーションを開きます。
-1. クリック **[!UICONTROL すべてのフォント]** (1)
+1. クリック **[!UICONTROL すべてのフォント]** (1)。
 1. クリック **[!UICONTROL 編集]** > **[!UICONTROL 有効な重複を探す]**.
 
 1. クリック **[!UICONTROL はい]** 重複を解決するには：
@@ -68,7 +68,7 @@ Mac OS X のフォントキャッシュが破損する場合があります。 �
 1. Finder を開き、 **[!UICONTROL 移動]** タブをクリックします。
 1. Option キー ( ⌥ Alt ) を押して、 [!UICONTROL ライブラリ] フォルダーを選択します。
 1. Option キーを押しながら、 [!UICONTROL ライブラリ] フォルダー。
-1. 次の期間の後 [!UICONTROL ライブラリ] フォルダが開き、次に移動 [!UICONTROL フォント] フォルダー内にあります。
+1. 次の期間の後に [!UICONTROL ライブラリ] フォルダが開きました。次に移動します。 [!UICONTROL フォント] フォルダー内にあります。
 1. 次の場所にあるすべてのフォントを移動します。 [!UICONTROL フォント] 別のフォルダー（デスクトップ上など）にフォルダーを追加します（Fonts フォルダー内に別のフォルダーを作成しないでください）。
 1. この操作を実行すると、すべてのカスタムフォントが非表示になります。標準のシステムフォントは、別の場所に保存しておく必要があります。
 1. 終了して再起動 [!DNL Safari].

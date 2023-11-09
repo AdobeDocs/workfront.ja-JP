@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''表示：タスクとプロジェクトリストに関する元の問題情報を表示'
-description: 問題をリスト内のタスクとプロジェクトに変換した後、タスクとプロジェクトリストのビューに元の問題の次の情報を表示できます。 — 編集
+title: '表示：タスクとプロジェクトリストに元の問題情報を表示'
+description: 問題をリスト内のタスクとプロジェクトに変換した後、タスクとプロジェクトリストのビューに元の問題の情報を表示できます。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 4%
 
 ---
 
-# 表示：タスクとプロジェクトリストに元の問題情報を表示する
+# 表示：タスクとプロジェクトの一覧に元の問題情報を表示します
 
 問題をリスト内のタスクとプロジェクトに変換した後、タスクとプロジェクトリストのビューに元の問題の次の情報を表示できます。
 
-* 変換済み問題名
-* 変換済み問題のエントリ日
+* 変換済みイシュー名
+* 変換済みのイシューのエントリ日
 * 変換された問題の発行者名
 
 標準の Report Builder を使用したビューの作成について詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-プロジェクトとタスクリストに関する追加の問題情報を含める方法の詳細については、 [表示：元のタスクとプロジェクトの問題の詳細](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+プロジェクトとタスクリストに関する追加の問題情報を含める方法の詳細については、「 [表示：タスクとプロジェクトの問題の詳細の発生元](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -3,14 +3,14 @@ content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Adobe Workfrontに新しいドキュメントを追加
-description: このセクションには、次の記事が含まれています — EDIT ME.
+description: 新しいドキュメントを追加する方法を説明します。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 543d6819-11c1-4420-8818-803172378d96
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 5%
 
 ---

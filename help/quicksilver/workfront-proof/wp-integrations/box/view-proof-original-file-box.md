@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: 配達確認の元のファイルをボックスに表示
-description: を使用している場合、 [!DNL Workfront Proof] - Box 統合の場合、Box では、配達確認の作成に使用した元のファイルを表示できます。 これは 2 つの方法で行うことができます — EDIT ME.
+description: Box で配達確認の元のファイルを表示する方法を説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## でのファイルの表示 [!DNL Box] 配達確認の電子メール通知を使用
 
-新しい配達確認または新しいバージョンが [!DNL Box] ファイルを作成したユーザーとレビュー担当者に対して、自分のファイルに対するリンクが記載された電子メール通知を送信します [!DNL Box] アカウント (1)\
+新しい配達確認または新しいバージョンが [!DNL Box] ファイルを作成したユーザーとレビュー担当者に対して、自分のファイルに対するリンクが記載された E メール通知を送信します [!DNL Box] アカウント (1)\
 ![Box_-_Email_Notification.png](assets/box---email-notification-350x154.png)
 
 ## でのファイルの表示 [!DNL Box] 経由 [!UICONTROL 配達確認の詳細] ページ
 
-この [!UICONTROL その他の共有オプション] セクション [!UICONTROL 配達確認の詳細] から作成した配達確認のページ [!DNL Box] ファイルには、 [!DNL Box] アカウント (1)
+The [!UICONTROL その他の共有オプション] のセクション [!UICONTROL 配達確認の詳細] から作成した配達確認のページ [!DNL Box] ファイルには、 [!DNL Box] アカウント (1)
 
 ![Box_-_Proof_Details_page.png](assets/box---proof-details-page-350x93.png)

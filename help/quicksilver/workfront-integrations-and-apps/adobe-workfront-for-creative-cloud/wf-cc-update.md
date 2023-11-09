@@ -2,13 +2,13 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Adobe Photoshopでの作業内容の更新
-description: 次の領域で作業内容を更新できます。編集
+description: Adobe Workfrontプラグインを使用して作業内容を更新できます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 2%
    <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>[!UICONTROL 表示 ]：更新するオブジェクトへのアクセス権。 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ ht-degree: 2%
     </ul> </td> 
    <td> 
     <ul> 
-     <li>問題</li> 
+     <li>イシュー</li> 
      <li>ドキュメント</li> 
     </ul> </td> 
   </tr> 
@@ -85,7 +85,7 @@ ht-degree: 2%
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 次の **[!UICONTROL 作業用リスト]**「 」で、更新の投稿先の作業項目を選択します。
+1. 次から： **[!UICONTROL 作業用リスト]**「 」で、更新の投稿先の作業項目を選択します。
 1. クリック **[!UICONTROL 更新]** をクリックします。\
    ![](assets/photoshop-update-350x295.png)
 

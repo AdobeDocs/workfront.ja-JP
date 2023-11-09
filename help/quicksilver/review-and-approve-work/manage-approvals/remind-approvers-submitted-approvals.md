@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: approvals
 title: 承認者に送信済みの承認を通知する
-description: 承認者に、次のオブジェクトの保留中の承認に関する通知を送信できます。EDIT ME.
+description: Workfrontのオブジェクトの承認待ちを承認者に通知できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 3%
 
 ---

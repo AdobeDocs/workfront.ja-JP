@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: billing-settings
 title: 課金の管理
-description: このセクションには、次の記事が含まれています — EDIT ME.
+description: Workfront Proof での請求管理について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 8c6a8fb5-842f-4322-9a99-550395207206
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---

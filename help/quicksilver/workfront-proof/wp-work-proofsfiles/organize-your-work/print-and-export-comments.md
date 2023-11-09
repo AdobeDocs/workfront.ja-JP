@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: でのコメントの印刷と書き出し [!DNL Workfront Proof]
-description: コメントの概要には、次の領域から直接アクセスできます — 編集
+description: コメントの概要には、Workfront Proof でアクセスできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 * [配達確認ビューア](#the-proof-viewer)
 * [配達確認の詳細ページ](#the-proof-details-page)
-* [この [!DNL Proof] アクションメニュー](#the-proof-actions-menu)
+* [The [!DNL Proof] アクションメニュー](#the-proof-actions-menu)
 
 ### 配達確認ビューア {#the-proof-viewer}
 
@@ -36,17 +36,17 @@ ht-degree: 1%
 
 ### 配達確認の詳細ページ {#the-proof-details-page}
 
-配達確認のコメントの概要は、 **[!UICONTROL 印刷]** アイコンをクリックします。 (2)
+配達確認のコメントの概要を印刷するには、 **[!UICONTROL 印刷]** アイコンをクリックします。 (2)
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
-### この [!DNL Proof] アクションメニュー {#the-proof-actions-menu}
+### The [!DNL Proof] アクションメニュー {#the-proof-actions-menu}
 
-配達確認のコメントの概要は、 **[!UICONTROL 印刷]** アイコン [!UICONTROL 配達確認アクション] メニュー
+配達確認のコメントの概要を印刷するには、 **[!UICONTROL 印刷]** アイコン [!UICONTROL 配達確認アクション] メニュー。
 
 次の手順で [!UICONTROL コメントの概要] ページをリスト表示から：
 
-1. をクリックします。 **[!UICONTROL アクション]** メニュー (3)
+1. をクリックします。 **[!UICONTROL アクション]** メニュー。 (3)
 1. 選択 **[!UICONTROL コメントを印刷]**. (4)
 
 ![List_view.png](assets/list-view-350x155.png)\
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 サムネールビューでは、各コメントが順に表示され、各コメントのフルスレッドが表示されます。 また、コメントを並べ替えたり、マークアップを追加した各コメントのサムネイルを表示することもできます。
 
-サムネールビューを印刷するには、 **[!UICONTROL プリンタ]** ページの右上隅にあるアイコンをクリックし、次のいずれかを選択します。
+サムネールビューを印刷するには、 **[!UICONTROL プリンター]** ページの右上隅にあるアイコンをクリックし、次のいずれかを選択します。
 
 * コメント ID またはページ (1) で並べ替え
 * マークアップが追加された各コメントのサムネイル (2)
@@ -73,9 +73,9 @@ ht-degree: 1%
 
 ### フルページ表示
 
-全ページ表示では、各ページがそのページのコメントと共に表示され、コメントのマークアップがページ上のどこに配置されているかを示すピンが表示されます。
+全ページ表示では、各ページがそのページのコメントと共に表示され、コメントのマークアップがページ上のどこにあるかを示すピンが表示されます。
 
-全ページ表示を印刷するには、 **[!UICONTROL プリンタ]** アイコンをクリックします。
+全ページ表示を印刷するには、 **[!UICONTROL プリンター]** アイコンをクリックします。
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
@@ -88,7 +88,7 @@ ht-degree: 1%
 
 次の手順で [!DNL Excel] 概要を「配達確認の詳細」ページで表示します。
 
-1. [ 書き出し先 ] をクリックします。 **[!DNL Excel]** アイコン (2)
+1. [ 書き出し先 ] をクリックします。 **[!DNL Excel]** アイコン。 (2)
 1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## PDFへの書き出し
@@ -96,11 +96,11 @@ ht-degree: 1%
 すべてのマークアップとコメントを含め、PDFに配達確認を書き出すには、次の手順に従います。
 
 1. に移動します。 **[!UICONTROL 件数]** をクリックします。
-1. 次をクリック： **[!UICONTROL 詳細]** アイコンを配達確認とインラインで表示し、「 **[!UICONTROL コメントを印刷]**.
+1. 次をクリック： **[!UICONTROL その他]** アイコンを配達確認とインラインで表示し、「 **[!UICONTROL コメントを印刷]**.
 
 1. ページの右上隅にある「PDFに書き出し」アイコンをクリックします。
 
-   PDFの準備が整ったら、ダウンロードリンクが記載された電子メールを受信します。
+   PDFの準備が整ったら、ダウンロードリンクが記載された電子メールを受け取ります。
 
 すべてのコメントがPDFリーダーに表示されます。 コメントに複数のマークアップが関連付けられている場合、コメントはコメントリストに複数回表示されます（マークアップごとに 1 回）。
 

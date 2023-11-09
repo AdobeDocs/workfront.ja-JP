@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: ブランディング [!DNL Workfront Proof]
-description: このセクションには、次の記事が含まれています — EDIT ME.
+description: Workfront Proof でのブランディングの詳細を説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: fbda05d5-3f06-461c-8ecd-042316ecd277
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '38'
 ht-degree: 5%
 
 ---

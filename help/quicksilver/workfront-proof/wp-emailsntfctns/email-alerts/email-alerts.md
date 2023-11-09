@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: E メールアラート
-description: このセクションには、次の記事が含まれています — EDIT ME.
+description: Workfront Proof での E メールアラートの設定について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: eacd6ff8-49f3-46d5-89e0-1bb44554cce7
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---

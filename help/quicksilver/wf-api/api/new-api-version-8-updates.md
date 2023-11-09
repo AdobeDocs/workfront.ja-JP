@@ -2,15 +2,15 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 8 の更新
-description: このリリースのAdobe Workfront API では、次の既存のリソースが更新されています。 バージョン 8 で初めて使用されるリソースを確認するには、 API バージョン 8 の新機能を参照してください。 リソースに対して行われた変更は、次の方法で示されます — EDIT ME.
+description: API バージョン 8 のアップデートを参照してください。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 26%
+source-wordcount: '491'
+ht-degree: 28%
 
 ---
 

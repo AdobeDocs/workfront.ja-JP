@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: 配達確認のコンテンツを表示
-description: この記事の手順を実行するには、次のアクセス権が必要です — EDIT ME.
+description: 配達確認のコンテンツを表示する方法を説明します。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td> <p>現在のプラン：作業またはプラン</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   配達確認は、 **回転** アイコン
+   配達確認は、 **回転** アイコン。
 
 ## 配達確認のズームとパン
 
@@ -139,15 +139,15 @@ ht-degree: 0%
 
    * 次をクリック： **ズーム** アイコンをクリックし、配達確認をクリックして高いズームレベルで表示するか、配達確認の領域をドラッグしてその領域のみを表示します。
 
-      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
    * 現在のズーム率をクリックするか、新しいズーム率をクリックするか、 **幅に合わせる**, **高さに合わせる**&#x200B;または **ページに合わせる**.
 
-      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
    * 次をクリック： **プラス** または **マイナス** アイコンを使用して、ズーム率を増減します。
 
-      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
 1. ビデオ配達確認の特定の領域にパンする必要がある場合は、 **パン** アイコンをクリックし、必要に応じて配達確認をドラッグします。
 

@@ -3,13 +3,13 @@ product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Adobe WorkfrontからWorkfront Proof にアクセス
-description: 以下の条件を満たした場合、Workfront Proof にログインする必要なく、Adobe Workfrontインターフェイスから直接Workfront Proof アカウントにすばやくアクセスできます。
+description: Workfront Proof にログインすることなく、Adobe Workfrontインターフェイスから直接Workfront Proof アカウントにすばやくアクセスできます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 * Workfront環境は、Workfront Proof Premium アカウントと統合されています。 Workfront Proof Premium アカウントでのみ使用できる機能について詳しくは、を参照してください。
 
-   Workfront Proof ライセンスがある。 ( ユーザーがWorkfront Proof 管理者である必要はありません )。
+  Workfront Proof ライセンスがある。 ( ユーザーがWorkfront Proof 管理者である必要はありません )。
 
 * Workfrontの管理者権限を持っており、Workfrontユーザーアカウントで校正が有効になっています。
 
-   または
+  または
 
-   お客様は、Workfrontカスタマーサポートに連絡し、権限に関係なく、システム内のすべての校正ユーザーに対してこのアクセス権を要求します。
+  お客様は、Workfrontカスタマーサポートに連絡し、権限に関係なく、システム内のすべての校正ユーザーに対してこのアクセス権を要求します。
 
-   詳しくは、 [すべての校正ユーザーがWorkfront内でWorkfront Proof にアクセスできるようにします](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) 」を参照してください。
+  詳しくは、 [すべての校正ユーザーがWorkfront内でWorkfront Proof にアクセスできるようにします](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) 」を参照してください。
 
 この節の説明に従ってWorkfront Proof にアクセスできない場合は、Workfront管理者にお問い合わせください。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    Workfront Proof Premium アカウントに自動的にログインします。
 
-Workfront Proof Premium アカウントにログインした後で使用できる機能について詳しくは、 [Workfrontヘルプサイト](https://support.workfront.com).
+Workfront Proof Premium アカウントにログインした後で使用できる機能について詳しくは、 [Workfront Help Site](https://support.workfront.com).
 
 ## すべての校正ユーザーがWorkfront内でWorkfront Proof にアクセスできるようにします {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
 

@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: 配達確認内のコンテンツを検索
-description: 次の種類のドキュメント用に作成された配達確認内のテキストをすばやく見つけることができます。
+description: 配達確認内のテキストをすばやく見つける方法を説明します。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -57,7 +57,7 @@ ht-degree: 2%
 ## 配達確認内のコンテンツを検索
 
 1. 検索する配達確認を開きます。
-1. 配達確認の上にあるツールバーで、 **ドキュメントを検索** アイコン
+1. 配達確認の上にあるツールバーで、 **ドキュメントを検索** アイコン。
 
    ![](assets/search-document-icon-search-in-proof-350x129.png)
 

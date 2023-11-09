@@ -4,13 +4,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: にログインできません [!DNL Workfront Proof] モバイルアプリ
-description: Workfront Proof Mobile App にログインしようとすると、- EDIT ME が返されます。
+description: Workfront Proof モバイルアプリへのログインのトラブルシューティング。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -36,5 +36,5 @@ ht-degree: 0%
 1. 両方の [!DNL Workfront] モバイルアプリと [!DNL Workfront Proof] モバイルアプリがお使いのデバイスにインストールされています。
 1. にログインします。 [!DNL Workfront] モバイルアプリを選択し、配達確認するドキュメントに移動します。
 1. 画面の右上にある 3 ドットのアイコンをクリックし、 **[!UICONTROL 校正]**.
-この [!DNL Workfront Proof] モバイルアプリが自動的にログインを起動します。
+The [!DNL Workfront Proof] モバイルアプリが自動的にログインを起動します。
 これで、ドキュメント内での校正作業が可能になりました。

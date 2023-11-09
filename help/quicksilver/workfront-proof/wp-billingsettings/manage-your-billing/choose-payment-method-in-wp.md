@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: 支払い方法の選択 [!DNL Workfront] 配達確認
-description: 以下の支払いオプションを利用できます — 編集 ME。
+description: Workfront Proof での支払いについて詳しく説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 | クレジットカード | クレジットカード |
 | 銀行振替 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 確認は受け付けていません
 
@@ -45,7 +45,6 @@ ht-degree: 2%
 
 
 
-
 次の支払い方法を変更し、クレジットカードの詳細を更新する手順は、次のとおりです。
 
 1. クリック **[!UICONTROL 支払詳細の変更]** (1) ページ上部\
@@ -53,8 +52,8 @@ ht-degree: 2%
    クリック **[!UICONTROL 次の支払い方法]**. (2)\
    ![Payment_and_CC_details1.png](assets/payment-and-cc-details1-350x205.png)
 
-1. 内 **[!UICONTROL 支払詳細の変更]** ポップアップが表示されたら、次の支払い方法を選択します。 (3)
-1. （条件付き）クレジットカードの支払いについて、カードの詳細を入力します。\
+1. Adobe Analytics の **[!UICONTROL 支払詳細の変更]** ポップアップが表示されたら、次の支払い方法を選択します。 (3)
+1. （条件付き）クレジットカードの支払いには、カードの詳細を入力します。\
    クレジットカードの詳細のみを変更する場合は、クレジットカードの詳細 (4) フィールドに新しいカードデータのみを入力し、変更を保存します (5)。 クレジットカードの詳細はいつでも変更できます。 新しいカードは、即時に有効になるすべてのサブスクリプションの支払いに使用されます。\
    同意します [!DNL Visa], [!DNL American Express] および [!DNL MasterCard].
 
@@ -66,9 +65,9 @@ ht-degree: 2%
 Satellite アカウントをお持ちの場合は、各アカウントに対して個別にクレジットカードの詳細と支払い方法を更新する必要があります。 Satellite アカウントについて詳しくは、  [Satellite アカウント。](https://support.workfront.com/hc/en-us/sections/115000921108-Satellite-accounts)
 
 1. 次に移動： [!UICONTROL 請求] Hub アカウントのページに貼り付けます。\
-   請求ページについて詳しくは、 [この [!DNL Workfront] 配達確認の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   請求ページについて詳しくは、 [The [!DNL Workfront] 配達確認の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 1. を開きます。 [!UICONTROL アカウントリスト] ドロップダウンメニュー。 (1)
 1. 更新するクレジットカードに関連付けられている Satellite アカウント (2) を選択します。
-1. 続行 [支払い方法とクレジットカードの詳細の変更](#changing-your-payment-method-and-credit-card-details).\
+1. 次で続行 [支払い方法とクレジットカードの詳細の変更](#changing-your-payment-method-and-credit-card-details).\
    ![Satellite_Account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)
