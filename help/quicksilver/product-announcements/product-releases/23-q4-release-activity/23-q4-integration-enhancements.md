@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期の統合の強化
 author: Lisa
 feature: Product Announcements
 exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
-source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,6 @@ SharePoint(GraphAPI) フォルダーへのドキュメントの送信方法に�
 詳しくは、 [新しいSharePoint統合によるドキュメントのリンク](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード
-
->[!NOTE]
->
->この機能は、まだ実稼動環境にリリースされていません。
 
 ファイルをリンクされたフォルダーにドラッグ&amp;ドロップする際のユーザーエクスペリエンスがいくつか強化されました。
 

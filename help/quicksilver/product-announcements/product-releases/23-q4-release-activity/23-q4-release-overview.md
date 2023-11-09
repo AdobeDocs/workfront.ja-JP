@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ These enhancements will be included in the following releases:
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>[!BADGE In production ]{type=Informative}</p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
