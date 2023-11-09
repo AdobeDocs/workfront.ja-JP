@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # カスタムアクセスレベルの作成と変更
 
-<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
+<!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
 Adobe Workfront管理者は、カスタムアクセスレベルを作成し、ユーザーに適用できます。 アクセスレベルを使用する場合は、ユーザーがオブジェクトを共有する際に付与するオブジェクト権限と連携する方法を理解することが重要です。 アクセスレベルの詳細については、
 
@@ -72,7 +72,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
     <tbody> 
      <tr> 
       <td role="rowheader">名前</td> 
-      <td> <p>アクセスレベルの名前を入力します。 </p> <p>アクセスレベルをコピーして新しいアクセスレベルを作成した場合、デフォルトの名前は「アクセスレベル名（コピー）」です。ここで、「アクセスレベル名」はコピーしたアクセスレベルです。</p> <p><strong>ヒント</strong>:コピーの名前には、元のアクセスレベル名を含めることをお勧めします。 例えば、ACME の会社では、標準アクセスレベルのコピーを ACME Standard という名前にできます。</p> </td> 
+      <td> <p>アクセスレベルの名前を入力します。 </p> <p>アクセスレベルをコピーして新しいアクセスレベルを作成した場合、デフォルトの名前は「アクセスレベル名（コピー）」です。ここで、「アクセスレベル名」はコピーしたアクセスレベルです。</p> <p><strong>ヒント</strong>：コピーの名前に、元のアクセスレベル名を含めることをお勧めします。 例えば、ACME の会社では、標準アクセスレベルのコピーを ACME Standard という名前にできます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">説明 </td> 
@@ -114,7 +114,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
         <li>管理するプロジェクト、タスクまたは問題に関する費用</li>
         <li>自費</li>
         <li>部下の費用</li>
-       </ul><p><b>注意</b>:この場合、ユーザーは新しい費用タイプを作成できません。</p></td> 
+       </ul><p><b>注意</b>：ユーザーは新しい費用タイプを作成できません。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">担当業務</td> 
@@ -122,7 +122,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
        <ul> 
         <li>既存のジョブの役割の表示と編集</li> 
         <li>新しいジョブの役割を追加</li> 
-        <li>ロールの請求とコスト率を編集</li> 
+        <li>ロールの請求とコスト率を編集します</li> 
        </ul> 
        <p>ジョブ・ロールへの管理アクセス権を持つ標準またはプランナ・ユーザーが使用できる財務データへのアクセスに関する重要な情報は、次を参照してください： <a href="#planner-users-with-administrative-access-to-job-roles">ジョブ・ロールへの管理アクセス権を持つ標準ユーザーまたはプランナ・ユーザー</a>.</p>
       </td> 
@@ -168,11 +168,11 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーが含まれている会話の更新のみを表示する</td> 
-      <td> <p>ユーザーは、自分の名前やチーム名が含まれているコメントのみを表示できます。</p> <p> <p><b>注意</b>:これにより、ユーザーはWorkfrontの項目を購読できなくなります。 項目の購読について詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーを追加</a>.</p> </p> </td> 
+      <td> <p>ユーザーは、自分の名前やチーム名が含まれているコメントのみを表示できます。</p> <p> <p><b>注意</b>：ユーザーがWorkfrontの項目を購読できなくなります。 項目の購読について詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーを追加</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">絶対にユーザーによるコメントの削除を許可しない </td> 
-      <td> <p>ユーザーが項目に対して行ったコメントを削除できないようにします。 </p> <p><b>注意</b>:他のユーザーのコメントを削除することはできません。</p> </td> 
+      <td> <p>ユーザーが項目に対して行ったコメントを削除できないようにします。 </p> <p><b>注意</b>：他のユーザーのコメントを削除できません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーが所属する会社、グループおよびチームのみを表示する</td> 
@@ -197,7 +197,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
    >
    >2 人のユーザーが異なる 2 つの会社に属しているが、両方のユーザーが主な会社のユーザーを表示できる場合、主な会社に関連付けられた「更新」領域を表示できます。
 
-1. （オプション）作業中のアクセスレベルの他のオブジェクトや領域のアクセス設定を構成するには、 [Adobe Workfrontへのアクセスの設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)例： [タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) および [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. （オプション）作業中のアクセスレベルの他のオブジェクトや領域のアクセス設定を構成するには、 [Adobe Workfrontへのアクセスの設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)、例： [タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) および [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. 「**保存**」をクリックします。
 
    アクセスレベルを作成した後は、そのアクセスレベルをユーザーに割り当てることができます（システム管理者のアクセスレベル以外）。
