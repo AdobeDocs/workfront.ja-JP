@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '454'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ AdobeMaestro フィールドの作成については、 [フィールドの作�
 
 ## フィールドを編集
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅に <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
    最後にアクセスしたワークスペースは、デフォルトで開きます。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '339'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 ## ワークスペースの削除
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅に <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
    最後にアクセスしたワークスペースが開きます。
 

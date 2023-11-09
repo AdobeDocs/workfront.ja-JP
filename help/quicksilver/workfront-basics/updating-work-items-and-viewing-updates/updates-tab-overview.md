@@ -7,9 +7,9 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 4%
 
 ---
@@ -172,8 +172,11 @@ ht-degree: 4%
    <td>チーム</td> 
   </tr> 
   <tr> 
-   <td>タイムシート*</td> 
-   <td>ユーザー、チーム</td> 
+   <td>タイムシート</td> 
+   <td><p>ユーザー、チーム</p>
+   <p><b>メモ</b></p>
+   <p>タイムシートのコメントは、コメントを作成したユーザーの [ 更新 ] セクションと、ホームチームの [ 更新 ] セクションに表示されます。</p>
+   </td> 
   </tr> 
   <tr> 
    <td>テンプレート タスク</td> 
@@ -184,7 +187,7 @@ ht-degree: 4%
    <td>反復、チーム</td> 
   </tr> 
   <tr> 
-   <td>反復*</td> 
+   <td>反復</td> 
    <td>チーム</td> 
   </tr>
 
@@ -198,7 +201,7 @@ ht-degree: 4%
   </tr> 
  </tbody> 
 </table>
-*新しいコメントエクスペリエンスでは使用できません。
+
 
 <br>
 

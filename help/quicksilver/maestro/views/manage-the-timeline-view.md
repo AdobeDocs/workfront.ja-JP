@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -219,6 +219,7 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
    クリック **すべてクリア** をクリックして、すべてのフィールドを削除します。
 
 1. の外側をクリック **次の項目でレコードをグループ化** ボックスを使用して閉じます。
+1. （オプション）「 **設定**&#x200B;を、 **カラー** をカラーコードグループ化に変更します。 詳しくは、 [タイムライン表示設定の編集](#edit-the-timeline-view-settings) 」の節を参照してください。
 
 <!-- 
 

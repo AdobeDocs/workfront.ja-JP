@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Maestro レコードは次の方法で共有できます。
 
 ## レコードタイプのテーブルビューからレコードリンクを共有する
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) 右上隅に <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 次に、「 **マエストロ**.
+1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
 
    最後にアクセスしたワークスペースが開きます。
 1. レコードタイプのカードをクリックします。
@@ -110,7 +110,7 @@ Maestro レコードは次の方法で共有できます。
 
    または
 
-   レコードの名前の上にマウスポインターを置き、その他のメニューをクリックします。 ![](assets/more-menu.png)を選択し、次に **リンクをコピー**.
+   レコードの名前の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **リンクをコピー**.
 
    ![](assets/contextual-menu-for-record-row.png)
 

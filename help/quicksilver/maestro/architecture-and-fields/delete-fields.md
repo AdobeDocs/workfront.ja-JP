@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅に <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
    これにより、Maestro で最後にアクセスしたワークスペースが開きます。
 1. フィールドを削除するレコードタイプのカードをクリックします。

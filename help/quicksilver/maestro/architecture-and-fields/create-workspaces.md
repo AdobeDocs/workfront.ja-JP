@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 ## ワークスペースの作成
 
-1. （条件付き）システムにワークスペースがない場合、 **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅に <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
+1. （条件付き）システムにワークスペースがない場合、 **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
    または、既存のワークスペースから、ワークスペース名の右側を下向きでクリックし、 **ワークスペースを作成**.
 

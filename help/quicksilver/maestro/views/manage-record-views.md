@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 1%
 
 ## ビューの作成または編集 {#create-or-edit-views}
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) 右上隅に <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->を選択し、次に **マエストロ** ![](assets/maestro-icon.png).
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture-and-fields/create-workspaces.md).
 1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture-and-fields/create-record-types.md).
 
