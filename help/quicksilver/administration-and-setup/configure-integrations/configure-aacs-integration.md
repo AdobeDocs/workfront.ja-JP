@@ -5,9 +5,9 @@ title: を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Ser
 description: 作業内容を [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b9cb7dd0663b498937ced48fd1a098cbea5294cd
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -239,13 +239,25 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 統合で設定したデフォルトのワークフロー値は、プロジェクトテンプレートレベルとプロジェクトレベルで上書きできます。
 
-### Adobe Experience Managerにリンクされたフォルダーを作成するためのワークフローの設定
+Adobe Experience Managerの統合では、次のワークフローを使用できます。
+
+* [Adobe Experience Managerにリンクされたフォルダーの作成](#create-adobe-experience-manager-linked-folders)
+* [Adobe Experience Manager Assets に送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Adobe Experience Managerにリンクされたフォルダーの作成
 
 1. 切り替え **[!UICONTROL リンクされたフォルダーを作成]** オン。
 1. フォルダーパスを選択して、この統合に関連付けるリンクされたすべてのフォルダーの場所を指定します。
    ![リンクされたフォルダーナビゲーション](assets/select-folder-aem-integration.png)
-1. を有効にします。 **Portfolio名とプログラム名を追加** リンクされたPortfolioの名前の最後にフォルダ名とプログラム名を自動的に含めるオプション。
-1. クリック **保存** または、 [リンクされたフォルダーの設定（オプション）](#set-up-linked-folders-optional) 」の節を参照してください。
+1. を有効にします。 **[!UICONTROL Portfolio名とプログラム名を追加]** リンクされたPortfolioの名前の最後にフォルダ名とプログラム名を自動的に含めるオプション。
+1. クリック **[!UICONTROL 保存]** または、 [Adobe Experience Manager Assets に送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 」の節を参照してください。
+
+### Adobe Experience Manager Assets に送信されたアセットの公開
+
+1. オンに切り替え **[!UICONTROL アセットを自動的に公開]**.
+1. Adobe Experience Manager Assets に送信するアセットを公開する場所の横にあるチェックボックスをオンにします。 どちらかまたは両方のオプションを有効にできます。
+1. （条件付き） Brand Portalオプションを有効にしている場合、アセットを公開するBrand Portalを選択します。
+1. クリック **[!UICONTROL 保存]** または、 [リンクされたフォルダーの設定（オプション）](#set-up-linked-folders-optional) 」の節を参照してください。
 
 ## リンクされたフォルダーの設定（オプション）
 

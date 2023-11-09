@@ -5,14 +5,17 @@ title: Experience Manager Assets Essentials 統合でのワークフローの使
 description: Experience Manager Assets Essentials 統合でのワークフローの使用
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Experience Manager Assets統合でのワークフローの使用
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
 
 ワークフローとは、WorkfrontをAdobe Experience Manager as a Cloud Serviceに接続する一連のアクションです。 Workfrontの管理者は、Workfrontでワークフローを設定した後、それらをプロジェクトテンプレートに割り当てることができます。 ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
 
@@ -41,7 +44,7 @@ ht-degree: 0%
   <tr>
    <td><strong>製品</strong>
    </td>
-   <td><p>Experience Manager AssetsまたはAssets Essentialsがあり、Admin Consoleでユーザーとして製品に追加される必要があります。</p><p>リンクされたフォルダーを作成するには、Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p>&gt;
+   <td><p>Experience Manager Assetsをas a Cloud ServiceのユーザーまたはAssets Essentialsに設定し、Admin Consoleでユーザーとして製品に追加される必要があります。</p><p>Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p>
    </td>
   </tr>
   <tr>
@@ -53,9 +56,9 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td><strong>オブジェクト権限</strong>
+   <td><strong>オブジェクトの権限</strong>
    </td>
-   <td>プロジェクトでアクセス権を管理する 
+   <td>プロジェクト上でアクセス権を管理する 
 <p>
 追加のアクセス権のリクエストについて詳しくは、 <strong>オブジェクトへのアクセスのリクエスト </strong>.
    </td>
@@ -66,23 +69,23 @@ ht-degree: 0%
 
 始める前に
 
-* Workfront管理者は、Adobe Experience Manager統合でワークフローを設定する必要があります。 詳しくは、 [Experience Manager Assets統合の設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Workfront管理者は、Adobe Experience Manager統合でワークフローを設定する必要があります。 詳しくは、 [Experience Manager Assets as a Cloud Service統合の設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
 ## テンプレートへのワークフローの追加
 
 プロジェクトテンプレートにワークフローを追加できます。 ワークフローは、テンプレートから作成されたすべてのプロジェクトに適用されます。
 
-1. <!-- main menu snippet??--> 「 **テンプレート** メインメニューで、リストからテンプレートを選択します。
-1. クリック **Experience Manager Assets** をクリックします。
+1. 「 」をクリックしてテンプレートを開きます。 **テンプレート** メインメニューで、リストからテンプレートを選択します。
+1. クリック **Experience Manager Assets** （左側のナビゲーションパネル）
 
    >[!NOTE]
    >
    >左側のナビゲーションに「 Experience Manager Assets 」セクションが表示されていない場合、Workfront管理者が組織のワークフローを有効にしていません。 <!--Is this right?-->
 
-1. 内 **自動ワークフローフィールドの統合を選択**&#x200B;で、このテンプレートから作成されるプロジェクトに使用するワークフローとの統合を選択します。
+1. Adobe Analytics の **自動ワークフローフィールドの統合を選択**&#x200B;で、このテンプレートから作成されるプロジェクトに使用するワークフローとの統合を選択します。
 1. （オプション）このテンプレートから作成されるプロジェクトに適用するワークフロー値を編集します。
 
-   例えば、デフォルト値以外の場所にリンクフォルダを作成するには、リンクフォルダの場所を入力します。
+   特定のワークフローの手順については、 [プロジェクト内のワークフロー値の編集](#edit-workflow-values-in-a-project) 」を参照してください。
 
    セットアップのExperience Manager領域でアクティブ化されたワークフローのみが、テンプレートまたはプロジェクトで使用できます。
 
@@ -108,34 +111,52 @@ ht-degree: 0%
 
 1. プロジェクトへのテンプレートの追加を開始します。
 
-   手順については、 [プロジェクトへのテンプレートの添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   手順については、 [プロジェクトにテンプレートを添付する](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 1. プロジェクトのテンプレートを選択する場合は、このプロジェクトで使用するワークフローを含むテンプレートを選択します。
 1. （オプション）プロジェクトのワークフロー値を編集します。詳しくは、 [プロジェクト内のワークフロー値の編集](#edit-workflow-values-in-a-project).
 
+   セットアップのExperience Manager領域でアクティブ化されたワークフローのみが、テンプレートまたはプロジェクトで使用できます。
+
 ### プロジェクト内のワークフロー値の編集
 
-プロジェクトレベルでワークフロー値を編集できます。 プロジェクトレベルのワークフロー値は、プロジェクトテンプレートで設定された値を上書きします。この値は、Adobe Experience Manager Assets 統合で設定されたデフォルト値に優先します。
+プロジェクトレベルでワークフロー値を編集できます。 プロジェクトレベルのワークフロー値は、プロジェクトテンプレートで設定された値を上書きします。これは、Adobe Experience Manager Assets 統合で設定されたデフォルト値に優先します。
 
 すべてのワークフロー値は、次の場所にあります。
 
 * プロジェクトを作成またはプロジェクトを編集ウィンドウの「ワークフロー」セクション。
-* 左ナビゲーションのAdobe Experience Managerセクション。
+* 左ナビゲーションの「Adobe Experience Manager」セクション。
 
 
-   >[!NOTE]
-   >
-   >これらの領域が表示されない場合、Workfront管理者は組織のワークフローを有効にしていません。
+  >[!NOTE]
+  >
+  >これらの領域が表示されない場合、Workfront管理者は組織のワークフローを有効にしていません。
 
 #### リンクされたフォルダー
 
 リンクされたフォルダーのワークフローを編集するには：
 
-1. 切り替え **[!UICONTROL リンクされたフォルダーを作成]** オン。
-1. フォルダーパスを選択して、この統合に関連付けるリンクされたすべてのフォルダーを指定します。
-1. 「プロジェクトを作成」または「プロジェクトを編集」ウィンドウを使用している場合は、「保存」をクリックします。
+1. 切り替え **[!UICONTROL リンクされたフォルダーを作成]** 必要に応じてオンまたはオフにします。
+1. （条件付き）リンクされたフォルダーを有効にする場合、すべてのリンクされたフォルダーをこの統合に関連付ける場所を示すフォルダーパスを選択します。
+1. クリック **[!UICONTROL 保存]** を使用している場合、 [!UICONTROL プロジェクトを作成] または [!UICONTROL プロジェクトを編集] ウィンドウ
 
    または
 
-   「Adobe Experience Manager」領域にいる場合、変更は自動的に保存されます。 <!--Do they though?-->
+   次の場合、 [!DNL Adobe Experience Manager area]を設定すると、変更内容は自動的に保存されます。 <!--Do they though?-->
 
+
+#### アセットの公開
+
+<div class="preview">
+
+アセット公開のワークフローを編集するには：
+
+1. 切り替え **アセットを自動的に公開** 必要に応じてオンまたはオフにします。
+1. （条件付き）公開を有効にする場合、公開サービス、Brand Portal またはその両方に公開するかどうかを選択します。
+1. クリック **[!UICONTROL 保存]** を使用している場合、 [!UICONTROL プロジェクトを作成] または [!UICONTROL プロジェクトを編集] ウィンドウ
+
+   または
+
+   次の場合、 [!DNL Adobe Experience Manager area]を設定すると、変更内容は自動的に保存されます。 <!--Do they though?-->
+
+</div>
