@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 325fb9e58d32d1b6cfa1035cd4a25da4b66f6955
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -21,14 +21,13 @@ Adobe Workfrontの管理者は、管理するトップレベルのグループ�
 
 管理するグループの上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront管理者（すべてのグループ）も同様です。
 
-管理者がグループのイベント通知を設定すると、そのグループのユーザー、またはそのサブグループの 1 つがホームグループになるユーザーに影響が及びます。 ユーザープロファイルには、システム全体でアクティブ化されたイベント通知の代わりに、ホームグループに対してアクティブ化されたイベント通知が表示されます。 詳しくは、 [グループのイベント通知を表示および設定する](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+管理者がグループのイベント通知を設定すると、そのグループのユーザー、またはそのサブグループの 1 つがホームグループになるユーザーに影響が及びます。 ユーザープロファイルには、システム全体でアクティブ化されたイベント通知の代わりに、ホームグループに対して有効化されたイベント通知が表示されます。 詳しくは、 [グループのイベント通知を表示および設定する](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 >[!NOTE]
 >
 >* Workfrontの管理者は、Adobe Workfront Classic と新しいAdobe Workfrontエクスペリエンスの両方で、イベント通知の設定のロックを解除および再ロックできます。 ただし、グループ管理者は、新しいAdobe Workfrontエクスペリエンスでのみ、そのイベント通知をグループに設定できます。 Adobe Workfront Classic を使用するグループ管理者は、新しいAdobe Workfrontエクスペリエンスに切り替えて、グループのロックが解除されたイベント通知を設定した後、Adobe Workfront Classic に戻って変更内容を確認できます。
 >* サブグループは、グループレベルのイベント通知設定を上位のグループから継承します。
 >
-
 
 ## アクセス要件
 
@@ -53,7 +52,7 @@ Adobe Workfrontの管理者は、管理するトップレベルのグループ�
  </tbody> 
 </table>
 
-## イベント通知を設定する機能のロックを解除または再度ロック
+## イベント通知を設定する機能のロックを解除または再度ロックします
 
 >[!IMPORTANT]
 >
@@ -64,14 +63,14 @@ Adobe Workfrontの管理者は、管理するトップレベルのグループ�
 1. クリック **電子メール** > **通知**.
 
 1. 次を確認します。 **イベント通知** 」タブが開きます。
-1. 通知の右側のアイコンをクリックして、ロック解除済みの ![](assets/lock-toggle-button.png) またはロック済み ![](assets/unlock-toggle-button.png) 位置。
+1. 通知の右側のアイコンをクリックすると、ロックされたに切り替わります ![ロックアイコン](assets/lock-toggle-button.png) またはロック解除済み ![ロック解除アイコン](assets/unlock-toggle-button.png) 位置。
 
    または
 
-   複数の通知を一度にロックまたはロック解除する場合は、通知を選択し、「ロック解除」 ![](assets/unlock-icon-toolbar.png) またはロック ![](assets/lock-icon-locked-qs.png) ボタンをクリックします。
+   複数の通知を一度にロックまたはロック解除する場合は、通知を選択し、「ロック解除」 ![ロック解除アイコン](assets/unlock-icon-toolbar.png) またはロック ![ロックアイコン](assets/lock-icon-locked-qs.png) ボタンをクリックします。
 
 1. 「**保存**」をクリックします。
 1. （オプション）このタスクをグループの管理者に任せる代わりに、トップレベルのグループに対するイベント通知を設定する場合は、次のいずれかを実行できます。
 
-   * 削除 **システムイベント通知** 通知のリストの上の検索ボックスで、通知を検索して最上位グループの名前を選択し、表示されるリストでロック解除済みの通知をアクティブ化または非アクティブ化します。
+   * 削除 **システムイベントの通知** 通知のリストの上の検索ボックスで、通知を検索して最上位グループの名前を選択し、表示されるリストでロック解除済みの通知をアクティブ化または非アクティブ化します。
    * クリック **グループ** 左側のメニューで、最上位グループの名前をクリックします。 クリック **イベント通知** 左側のパネルで、ロック解除されたイベント通知を設定します。詳しくは、 [グループのイベント通知を表示および設定する](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

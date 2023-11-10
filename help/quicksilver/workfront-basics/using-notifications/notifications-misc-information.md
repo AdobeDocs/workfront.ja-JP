@@ -6,9 +6,9 @@ description: 次の通知は、スポンサーとしているプロジェクト�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 8%
    <td><strong>今すぐ</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>私の注意が必要なエラーが見つかりました</strong> </p> <p>電子メールでコメントに返信するユーザーは、返信が配信されなかった場合に電子メール通知を受け取ります。</p> <p>即時通知 E メールの件名は次のとおりです。 <em>[!UICONTROL での処理に失敗しました ] &lt;subject of="" original="" message=""&gt;</em></p> <p>電子メールを使用してコメントに返信する方法については、を参照してください。<strong></strong></p> </td> 
+   <td> <p><strong>私の注意が必要なエラーが見つかりました</strong> </p> <p>電子メールでコメントに返信するユーザーは、返信が配信されなかった場合に電子メール通知を受け取ります。</p> <p>即時通知 E メールの件名は次のとおりです。 <em>[!UICONTROL での処理に失敗しました ] &lt;subject of="" original="" message=""&gt;</em></p> <p>電子メールを使用してコメントに返信する方法について詳しくは、 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">電子メール通知に返信</a>.</p> </td>
    <td> </td> 
    <td><strong>今すぐ</strong> </td> 
   </tr> 

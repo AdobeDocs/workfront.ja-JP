@@ -6,10 +6,10 @@ description: プロジェクト、タスク、イシューなどのオブジェ�
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,8 @@ ht-degree: 1%
 
 電子メール通知から更新に返信する方法は次のとおりです。
 
-元のコメントに返信します。
-
 * E メール内の「コメント」ボタンを使用して、Workfrontに戻り、「更新」領域の更新に返信します。
-* 受信した電子メールに返信します。 返信メールがWorkfrontとして追加されました
-
-
+* 受信した電子メールに返信します。 返信メールは、元のコメントに対するWorkfrontの返信として追加されます。
 
 >[!NOTE]
 >
@@ -46,7 +42,7 @@ ht-degree: 1%
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -112,6 +108,6 @@ Workfront E メールに更新を追加するには：
 1. メールの返信に更新内容を入力します。
 
    添付ファイルは許可されておらず、メール内の更新に適用されたリッチテキスト書式は、「更新」タブで表示された場合、更新に表示されません。
-1. クリック **送信**.
+1. 「**送信**」をクリックします。
 
    更新が、オブジェクトの通信スレッドへの応答として追加されます。
