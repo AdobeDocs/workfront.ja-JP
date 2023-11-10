@@ -3,20 +3,21 @@ content-type: overview
 product-area: projects
 navigation-topic: task-duration
 title: タスクの期間と期間のタイプの概要
-description: タスク期間は、タスクの計画完了日と計画開始日の差です。 「期間」は、タスクが完了するまでに使用できる期間を示します。
+description: タスク期間とは、タスクの計画完了日と計画開始日の差です。 「期間」は、タスクが完了するまでに使用できる期間を示します。
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1380'
 ht-degree: 2%
 
 ---
 
 # タスクの期間と期間のタイプの概要
 
-タスク期間は、タスクの計画完了日と計画開始日の差です。 「期間」は、タスクが完了するまでに使用できる期間を示します。
+タスク期間とは、タスクの計画完了日と計画開始日の差です。 「期間」は、タスクが完了するまでに使用できる期間を示します。
 
 タスクの期間タイプは、タスクに割り当てられたリソースの数、総作業量、およびタスクの総期間との関係を識別します。
 
@@ -35,16 +36,16 @@ Adobe Workfrontで期間を計算する際には、次の 2 つのシナリオ�
 * タスクがユーザーに割り当てられている場合、Workfrontは、次のいずれかのスケジュールを使用し、この順序で期間を計算します。
 
    1. Workfrontでは、ユーザーのスケジュールが考慮されます。
-   1. ユーザーがスケジュールに関連付けられていない場合、Workfrontはプロジェクトのスケジュールを考慮します。
+   1. ユーザーがスケジュールに関連付けられていない場合、Workfrontではプロジェクトのスケジュールが考慮されます。
    1. プロジェクトがスケジュールに関連付けられていない場合、Workfrontではシステムのデフォルトスケジュールが考慮されます。 スケジュールについて詳しくは、 [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * タスクが複数のユーザーに割り当てられている場合：
 
-   Workfrontは、プロジェクトのスケジュールまたは主な担当者のスケジュールを考慮します。
+  Workfrontは、プロジェクトのスケジュールまたは主な担当者のスケジュールを考慮します。
 
-   タスクが複数のユーザーに割り当てられる際にWorkfrontが使用するスケジュールは、Workfront管理者が決定します。 詳しくは、 [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  タスクが複数のユーザーに割り当てられる際にWorkfrontが使用するスケジュールは、Workfront管理者が決定します。 詳しくは、 [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-   手順は、Workfrontが期間の計算に使用するスケジュールを理解した後の最初のシナリオと似ています。
+  手順は、Workfrontが期間の計算に使用するスケジュールを理解した後の最初のシナリオと似ています。
 
 ## タスク期間の時間の単位
 
@@ -57,7 +58,7 @@ Adobe Workfrontで期間を計算する際には、次の 2 つのシナリオ�
 | 分 | 月 |
 | 時間 | H |
 | 日. これがデフォルトです。 | 削 |
-| 週 | 水 |
+| 週 | W |
 | 月 | 火 |
 | 経過時間数 (分) | EM |
 | 経過時間数 | EH |
@@ -65,7 +66,7 @@ Adobe Workfrontで期間を計算する際には、次の 2 つのシナリオ�
 | 経過週数 | 新規 |
 | 経過月数 | ET |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **例：** タスクの期間を 3 日の経過日にする場合は、タスクリストの「期間」フィールドに「3 ED」と入力します。  また、タスクの編集時または「タスクの詳細」セクションで、使用可能なドロップダウンメニューから、期間の単位を選択することもできます。 タスクの編集について詳しくは、 [タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -111,7 +112,7 @@ Adobe Workfrontで期間を計算する際には、次の 2 つのシナリオ�
  <tbody> 
   <tr> 
    <th scope="col"> <p><strong>算出した割り当て</strong> </p> </th> 
-   <td scope="col"> <p>タスクの担当者ごとに配分率を計算します。 </p> <p>この期間タイプを選択すると、タスクの個々の期間と計画時間を入力できます。 Workfrontでは、計画時間をタスクの期間内の時間数で割り、その後タスクに割り当てられたリソース数で割って、各担当者の割り当てを計算します。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">期間タイプの概要：計算された割り当て</a>.</p> </td> 
+   <td scope="col"> <p>タスクの各担当者の割り当て率を計算します。 </p> <p>この期間タイプを選択すると、タスクの個々の期間と計画時間を入力できます。 Workfrontは、計画時間をタスクの期間内の時間数で割り、次にタスクに割り当てられたリソース数で割って、各担当者の割り当てを計算します。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">期間タイプの概要：計算割り当て</a>.</p> </td> 
    <td scope="col">タスクに割り当て先を追加または削除する際に、期間と予定時間は変更されません。 </td> 
   </tr> 
   <tr> 
@@ -126,7 +127,7 @@ Adobe Workfrontで期間を計算する際には、次の 2 つのシナリオ�
   </tr> 
   <tr> 
    <th scope="col"> <p><strong>シンプル</strong> </p> </th> 
-   <td scope="col"> <p>各担当者が割り当てられた時間数に基づいて、計画時間と期間（この期間タイプで同じ）を決定します。 </p> <p>Workfrontは、各担当者の計画割り当て時間を合計して、計画時間を計算します。 </p> <p>各担当者が割り当てる時間数を手動で変更し、それに応じて計画時間数と期間数を変更することができます。 すべての担当者に割り当てられた時間の合計を選択した場合、その数は各担当者に均等に配分されます。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">期間タイプの概要：シンプル</a>.</p> </td> 
+   <td scope="col"> <p>各担当者が割り当てられる時間数に基づいて、計画時間と期間（この期間タイプで同じ）を決定します。 </p> <p>Workfrontは、各担当者の計画割り当て時間を合計して、計画時間を計算します。 </p> <p>各担当者が割り当てる時間数を手動で変更し、それに応じて計画時間数と期間数を変更することができます。 すべての担当者に割り当てられた時間の合計を選択した場合、その数は各担当者に均等に割り振られます。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">期間タイプの概要：シンプル</a>.</p> </td> 
    <td scope="col"> <p>割り当てる時間の合計数を選択すると、割り当て先間で時間が均等に配分されます。 ただし、プロジェクトマネージャは、各担当者の時間を手動で調整できます。 </p> <p>タスクの予定時間と期間は、単純期間タイプをインラインで、またはタスクレベルで編集できます。 </p> <p>アジャイルチームがタスクに割り当てられている場合、期間のタイプは自動的に「シンプル」に設定され、変更できません。 アジャイルチームのタスク期間は 0 分を超える必要があります。</p> </td> 
   </tr> 
  </tbody> 
@@ -134,7 +135,7 @@ Adobe Workfrontで期間を計算する際には、次の 2 つのシナリオ�
 
 ## 新しいタスクの期間タイプ
 
-新しいタスクの「期間タイプ」は、システムで設定された「期間タイプ」と一致します。 デフォルトの期間タイプは、「割り当てを計算」です。 Workfront管理者またはグループ管理者は、ご使用のシステムまたはプロジェクトに関連付けられたグループのデフォルトの期間タイプを更新できます。 詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+新しいタスクの「期間タイプ」は、システムで設定された「期間タイプ」と一致します。 デフォルトの期間タイプは、「割り当てを計算」です。 Workfront管理者またはグループ管理者は、ご使用のシステムまたはプロジェクトに関連付けられたグループのデフォルトの期間タイプを更新できます。 詳しくは、 [システム全体のタスクと問題の環境設定を構成する](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## タスクの期間タイプの変更
 

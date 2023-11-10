@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3451'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ Workfrontの次の領域で時間をログに記録できます。
 
 プロジェクト固有の時間を Home でログに記録できます。
 
-ホーム領域の使用に関する一般情報については、 [ホーム領域を使用する](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+ホーム領域の使用に関する一般情報については、次の節を参照してください。
 
-[ ホーム ] 領域から作業項目の時間を記録するには、次の手順に従います。
+* 従来のホーム領域の使用については、 [ホーム領域を使用する](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* 新しいホーム領域の使用方法については、 [Adobe Workfrontの新しいホームを開始する](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### 新しいホーム領域から作業項目に対する時間を記録する
+
+1. にアクセス **ホーム** 領域。
+1. 次のウィジェットのいずれかを追加します。
+
+   * マイタスク
+   * マイ問題
+   * 担当作業
+   * マイリクエスト
+1. タスク、イシュー、またはリスト内のリクエストを選択し、 **概要**
+
+   または
+
+   次をクリック： **概要** アイコン ![](assets/open-summary-icon-in-home.png) 自分の作業ウィジェットのタスクまたは問題から
+
+   右側に Summary パネルが開きます。
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. Summary パネルでログ時間の記録を続行します。詳しくは、 [概要の概要](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### 従来のホーム領域から作業項目に対する時間を記録する
 
 1. Adobe Analytics の **作業用リスト** 「 」領域で、時間を記録する項目を選択します。
 1. 右側のパネルで、 **ログ時間**.
@@ -430,14 +454,14 @@ Workfrontの次の領域で時間をログに記録できます。
    * **所有者：** お客様の名前は、デフォルトで、このフィールドに表示されます。\
      別のユーザーの時間をログに記録する場合は、そのユーザーの名前を指定します。
 
-   * **時間**：プロジェクト、タスクまたはタスクの時間数を入力します。
    * **時間タイプ**：デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
 
      お使いのシステムで設定されている時間の種類に応じて、ここで選択できるオプションは異なる場合があります。 時間タイプの設定について詳しくは、 [タイムシートの時間の種類と可用性を定義する](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **ジョブの役割**: （条件付き）Workfrontまたはグループ管理者が **ジョブの役割を時間エントリに手動で割り当てる** 設定、 **ジョブの役割** を選択します。 オブジェクトに割り当てられたときに指定したロールがデフォルトで表示されます。 オブジェクトにロールが割り当てられていない場合、プライマリロールがデフォルトとして表示されます。 この設定の詳細については、「 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **時間**：プロジェクト、タスクまたはタスクの時間数を入力します。
 
 1. クリック **ログ時間**.
 

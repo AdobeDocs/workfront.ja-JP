@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -112,11 +112,15 @@ AdobeMaestro フィールドの作成については、 [フィールドの作�
 
    レコードタイプのページが開きます。
 1. （条件付き） **テーブル表示** から **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
-1. 編集するフィールドの列見出しの上にマウスポインターを置き、フィールド名の後の下向き矢印をクリックします。
+1. 編集するフィールドの列見出しの上にマウスポインターを置き、フィールド名の後の下向き矢印をクリックして、 **フィールドを編集**
+
+   または
+
+   フィールドの列見出しをダブルクリックします。
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. クリック **フィールドを編集**&#x200B;をクリックし、フィールドに関する情報を更新して、 **保存**.
+1. フィールドに関する情報を更新し、 **保存**.
 
    <!--insert screen shot when finalized-->
 
