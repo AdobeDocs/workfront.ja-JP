@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 たとえば、このプロジェクトでは、[ 計画 ] ステータスは、プロジェクトの管理者が現在、タイムライン、タスクの割り当て、承認など、プロジェクトの側面を計画していることを示します。
 
-![](assets/statuses-overview.png)
+![サンプルプロジェクトのステータス](assets/statuses-overview.png)
 
 通常、プロジェクト、タスク、またはイシューのステータスの変更は手動で行います。 ただし、システムで発生している他の要因に応じて、問題のステータスが自動的に変更される場合があります。
 
