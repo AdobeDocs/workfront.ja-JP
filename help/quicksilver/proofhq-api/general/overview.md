@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Workfront Proof API は、SSL を使用して保護される簡単な HTTP サ�
 
 ## API バージョン管理
 
-既存のクライアント統合との互換性を維持するために、12.1 リリースから API バージョン管理が導入されました。 詳しくは、  [API の更新](http://api.proofhq.com/new-updates) ページを参照してください。 メソッドまたはパラメーターにバージョン情報がない場合、これはアドビの標準 API の一部として見つかることを意味します。以下の「API の概要」の節を参照してください。
+既存のクライアント統合との互換性を維持するために、12.1 リリースから API バージョン管理が導入されました。 詳しくは、  [API の更新](https://api.proofhq.com/new-updates.html) ページを参照してください。 メソッドまたはパラメーターにバージョン情報がない場合、これはアドビの標準 API の一部として見つかることを意味します。以下の「API の概要」の節を参照してください。
 
 ## API の概要
 
@@ -54,6 +54,3 @@ WSDL は次の場所にあります。
     </soapenv:Envelope>
 ```
 
-## FAQ
-
-よくある質問のコレクションについては、 [この](http://api.proofhq.com/faqs) ページに貼り付けます。

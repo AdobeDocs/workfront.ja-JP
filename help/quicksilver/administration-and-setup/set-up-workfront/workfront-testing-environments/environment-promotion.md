@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: a485f213cc735cd6596a89c560b33ee1b896c47d
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2304'
 ht-degree: 2%
@@ -134,7 +134,7 @@ API は、リクエストごとに認証をおこない、リクエストされ�
 
 ### リクエストヘッダー認証
 
-推奨される認証方法は、セッショントークンを含む SessionID という名前のリクエストヘッダーを渡すことです。 これは安全に対して有利である [クロスサイトリクエストフォージェリ (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻撃を受け、キャッシュ目的で URI に干渉しない。
+推奨される認証方法は、セッショントークンを含む SessionID という名前のリクエストヘッダーを渡すことです。 これは安全に対して有利である [クロスサイトリクエストフォージェリ (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻撃を受け、キャッシュ目的で URI に干渉しない。
 
 リクエストヘッダーの例を次に示します。
 

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 1%
@@ -65,7 +65,7 @@ server {
 }
 ```
 
-詳しくは、 [ngx_http_ssl_module に関する NGiNX ドキュメント](http://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+詳しくは、 [ngx_http_ssl_module に関する NGiNX ドキュメント](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 

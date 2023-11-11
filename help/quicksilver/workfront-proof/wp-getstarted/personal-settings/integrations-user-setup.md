@@ -8,7 +8,7 @@ description: この節では、サードパーティアプリケーションと�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 43ecf257-44ea-4d2c-ac55-21192e7c2a45
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 現在の統合ポイントは、次の場合に使用できます。
 
-* パブリック API(1) — 専用の [API ヘルプページ](http://api.proofhq.com/)
+* パブリック API(1) — 専用の [API ヘルプページ](https://api.proofhq.com/)
 * [!DNL Basecamp] (2) — 専用の [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) および [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) ヘルプページ
 
 * [!DNL NetSuite] (3)

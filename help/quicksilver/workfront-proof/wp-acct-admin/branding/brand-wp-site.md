@@ -7,7 +7,7 @@ description: As a [!DNL Workfront Proof] 管理者は、 [!DNL Workfront Proof] 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 2%
@@ -24,7 +24,7 @@ As a [!DNL Workfront Proof] 管理者は、 [!DNL Workfront Proof] アカウン�
 
 基本的なアカウントのブランディングは、追加費用なしですべてのプランで利用できます。
 
-ヘッダー、メニューバー、ダッシュボードなどのブランディングに関する高度なブランディングについて詳しくは、 [ブランド化 [!DNL Workfront Proof] サイト — 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). 高度なブランディングは、Select プランと Premium プランでのみ利用できます
+ヘッダー、メニューバー、ダッシュボードのブランディングなど、高度なブランディングについて詳しくは、 [ブランド化 [!DNL Workfront Proof] サイト — 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). 高度なブランディングは、Select プランと Premium プランでのみ利用できます
 
 以下の節で、 [!DNL Workfront] 配達確認サイト：
 
@@ -32,13 +32,13 @@ As a [!DNL Workfront Proof] 管理者は、 [!DNL Workfront Proof] アカウン�
 
 アカウントでブランディングを有効にするには：
 
-1. にログインします。 [!DNL Workfront Proof] を [!DNL Workfront Proof] 管理者。
+1. にログインします。 [!DNL Workfront Proof] として [!DNL Workfront Proof] 管理者。
 1. クリック **[!UICONTROL アカウント設定]** の右上隅に [!DNL Workfront Proof] インターフェイス。
 
    設定できる様々なアカウント設定について詳しくは、 [アカウント設定。](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. 次をクリック： **[!UICONTROL 設定]** タブをクリックします。
-1. 内 **[!UICONTROL ブランディング]** セクションで、 **[!UICONTROL 有効にする]**. (1)
+1. Adobe Analytics の **[!UICONTROL ブランディング]** セクションで、 **[!UICONTROL 有効にする]**. (1)
 
    ![Enable_branding.png](assets/enable-branding-350x177.png)
 
@@ -54,13 +54,13 @@ As a [!DNL Workfront Proof] 管理者は、 [!DNL Workfront Proof] アカウン�
 
 独自のブランディング画像を [!UICONTROL 配達確認の読み込み] アカウントで作成されたすべての配達確認のページ：
 
-1. にログインします。 [!DNL Workfront Proof] を [!DNL Workfront Proof] 管理者。
+1. にログインします。 [!DNL Workfront Proof] として [!DNL Workfront Proof] 管理者。
 1. クリック **[!UICONTROL アカウント設定]** の右上隅に [!DNL Workfront Proof] インターフェイス。
 
    設定できる様々なアカウント設定について詳しくは、 [アカウント設定。](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. 次をクリック： **[!UICONTROL 設定]** タブをクリックします。
-1. 内 **[!UICONTROL ブランディング]** セクションで、 **[!UICONTROL 設定]** 次の **[!UICONTROL 配達確認のブランディング]**. (1)
+1. Adobe Analytics の **[!UICONTROL ブランディング]** セクションで、 **[!UICONTROL 設定]** 次の **[!UICONTROL 配達確認のブランディング]**. (1)
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
@@ -90,18 +90,18 @@ As a [!DNL Workfront Proof] 管理者は、 [!DNL Workfront Proof] アカウン�
 
 電子メールのブランディングを設定するには：
 
-1. にログインします。 [!DNL Workfront Proof] を [!DNL Workfront Proof] 管理者。
+1. にログインします。 [!DNL Workfront Proof] として [!DNL Workfront Proof] 管理者。
 1. クリック **[!UICONTROL アカウント設定]** の右上隅に [!DNL Workfront Proof] インターフェイス。
 
    設定できる様々なアカウント設定について詳しくは、 [アカウント設定。](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
 1. 次をクリック： **[!UICONTROL 設定]** タブをクリックします。
-1. 内 **[!UICONTROL ブランディング]** セクションで、 **[!UICONTROL 編集]** をクリックします (1)。
+1. Adobe Analytics の **[!UICONTROL ブランディング]** セクションで、 **[!UICONTROL 編集]** をクリックします (1)。
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. 電子メールのブランディングに使用する画像を選択します。 (2)
 
-   既に電子メールのブランディングが設定されていて、無効にする場合は、 **[!UICONTROL クリア]**. (4)
+   既に電子メールのブランディングが設定されていて、無効にする場合は、「 **[!UICONTROL クリア]**. (4)
 
    ![Email_branding_setup_2.png](assets/email-branding-setup-2-350x96.png)
 
@@ -135,4 +135,4 @@ As a [!DNL Workfront Proof] 管理者は、 [!DNL Workfront Proof] アカウン�
 
 配達確認を [!DNL Workfront Proof] API を使用すると、ボタンやリンクを抑制し、独自のカスタムリンクを作成できます。
 
-詳しくは、 [[!DNL Workfront Proof] API](http://api.proofhq.com/) を参照してください。
+詳しくは、 [[!DNL Workfront Proof] API](https://api.proofhq.com/) を参照してください。

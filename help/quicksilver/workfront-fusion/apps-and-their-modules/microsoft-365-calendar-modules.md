@@ -5,11 +5,11 @@ product-area: workfront-integrations;calendars
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 カレンダー
-description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、Microsoft Office 365 カレンダーを使用するワークフローを自動化し、複数のサードパーティのアプリケーションやサービスに接続することができます。
+description: 内、 [!DNL Adobe Workfront Fusion] シナリオの場合、Microsoft Office 365 カレンダーを使用するワークフローを自動化し、複数のサードパーティのアプリケーションやサービスに接続することができます。
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # [!DNL Microsoft Office 365 Calendar]
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Microsoft Office 365 Calendar]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Microsoft Office 365 Calendar]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
 
-を使用するには [!DNL Office 365 Calendar] と [!DNL Adobe Workfront Fusion]の場合、 [!DNL Office 365 Excel] アカウント 1 つは、 [www.office.com](http://www.office.com/).
+を使用するには [!DNL Office 365 Calendar] 次を使用 [!DNL Adobe Workfront Fusion]を使用する場合、 [!DNL Office 365 Excel] アカウント。 1 つは、 [www.office.com](https://www.office.com/).
 
 Office 365 アカウントを次に接続する手順については、 [!DNL Workfront Fusion]を参照してください。 [Adobeへの接続を作成 [!DNL Workfront Fusion]  — 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -47,15 +47,15 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,13 +67,13 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
 
 ## 前提条件
 
-使用する [!DNL Microsoft Office 365 Calendar] モジュールの場合、 [!DNL Microsoft Office 365 Calendar] アカウント
+次を使用するには： [!DNL Microsoft Office 365 Calendar] モジュールの場合は、 [!DNL Microsoft Office 365 Calendar] アカウント。
 
 ## [!DNL Microsoft Office 365 Calendar] モジュールとそのフィールド
 
-設定時に [!DNL Microsoft Office 365 Calendar] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Microsoft Office 365 Calendar] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Microsoft Office 365 Calendar] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Microsoft Office 365 Calendar] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -96,7 +96,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
 
 >[!NOTE]
 >
->イベントシリーズの削除済みのオカレンスを監視するには、 [!UICONTROL 更新時刻別] 内 [!UICONTROL イベントを見る] フィールドに入力します。 このモジュールは、削除された単一のイベントや削除されたイベントシリーズを監視しません。
+>イベントシリーズの削除済みのオカレンスを監視するには、 [!UICONTROL 更新時刻別] （内） [!UICONTROL イベントを見る] フィールドに入力します。 このモジュールは、削除された単一のイベントや削除されたイベントシリーズを監視しません。
 
 
 <table style="table-layout:auto"> 
@@ -106,7 +106,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL イベントを監視 ]</td> 
@@ -146,7 +146,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL カレンダーグループ ID]</td> 
@@ -193,7 +193,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL イベント ID]</td> 
@@ -213,7 +213,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 件名 ]</td> 
@@ -221,11 +221,11 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 開始日 ]</td> 
-   <td> イベントが日付と時刻の組み合わせで開始する単一の時点を入力します。 形式を使用 <code>({date}T{time}</code>;例： <code>2017-08-29T04:00:00.0000000</code>. サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> イベントが日付と時刻の組み合わせで開始する単一の時点を入力します。 形式を使用 <code>({date}T{time}</code>例： <code>2017-08-29T04:00:00.0000000</code>. サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 終了日 ]</td> 
-   <td> イベントが日付と時間の組み合わせで終了する単一の時点を入力します。 形式を使用 <code>{date}T{time}</code>;例： <code>2017-08-29T04:00:00.0000000</code>. サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> イベントが日付と時間の組み合わせで終了する単一の時点を入力します。 形式を使用 <code>{date}T{time}</code>例： <code>2017-08-29T04:00:00.0000000</code>. サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リマインダー日 ]</td> 
@@ -249,7 +249,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
    <td> <p>このイベントの感度を選択します。</p> 
     <ul> 
      <li><strong>[!UICONTROL 標準 ]</strong> </li> 
-     <li> <p><strong>[!UICONTROL 個人 ]</strong> </p> <p>受信者に「[!UICONTROL Please treat this as Personal]」というメッセージが表示されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>受信者に「[!UICONTROL Please treat this as Personal]」というメッセージが表示されます。</p> </li> 
      <li> <p><strong>[!UICONTROL プライベート ]</strong> </p> <p>受信者に「[!UICONTROL Please treat this as Private]」というメッセージが表示されます。 このイベントは、受信者の受信ボックスルールによって転送またはリダイレクトされません。</p> </li> 
      <li> <p><strong>[!UICONTROL 機密 ]</strong> </p> <p>受信者に「[!UICONTROL Please treat this as Confidential]」というメッセージが表示されます。 </p> </li> 
     </ul> </td> 
@@ -308,7 +308,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL イベント ID]</td> 
@@ -320,11 +320,11 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 開始日 ]</td> 
-   <td> イベントが日付と時刻の組み合わせで開始する単一の時点を入力します。 形式を使用 <code>{date}T{time}</code>;例： <code>2017-08-29T04:00:00.0000000</code>. サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> イベントが日付と時刻の組み合わせで開始する単一の時点を入力します。 形式を使用 <code>{date}T{time}</code>例： <code>2017-08-29T04:00:00.0000000</code>. サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 終了日 ]</td> 
-   <td> イベントが日付と時間の組み合わせで終了する単一の時点を入力します。 形式を使用 <code>({date}T{time}</code>;例： <code>2017-08-29T04:00:00.0000000</code>. サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> イベントが日付と時間の組み合わせで終了する単一の時点を入力します。 形式を使用 <code>({date}T{time}</code>例： <code>2017-08-29T04:00:00.0000000</code>. サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL リマインダー日 ]</td> 
@@ -348,7 +348,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
    <td> <p>このイベントの感度を選択します。</p> 
     <ul> 
      <li><strong>[!UICONTROL 標準 ]</strong> </li> 
-     <li> <p><strong>[!UICONTROL 個人 ]</strong> </p> <p>受信者に「[!UICONTROL Please treat this as Personal]」というメッセージが表示されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL Personal]</strong> </p> <p>受信者に「[!UICONTROL Please treat this as Personal]」というメッセージが表示されます。</p> </li> 
      <li> <p><strong>[!UICONTROL プライベート ]</strong> </p> <p>受信者に「[!UICONTROL Please treat this as Private]」というメッセージが表示されます。 このイベントは、受信者の受信ボックスルールによって転送またはリダイレクトされません。</p> </li> 
      <li> <p><strong>[!UICONTROL 機密 ]</strong> </p> <p>受信者に「[!UICONTROL Please treat this as Confidential]」というメッセージが表示されます。 </p> </li> 
     </ul> </td> 
@@ -407,7 +407,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL イベント ID]</td> 
@@ -435,7 +435,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL カレンダーグループ ID]</td> 
@@ -459,7 +459,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL カレンダー ID]</td> 
@@ -479,7 +479,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL カレンダー名 ]</td> 
@@ -499,7 +499,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL カレンダー ID]</td> 
@@ -523,7 +523,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL カレンダー ID]</td> 
@@ -545,7 +545,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -553,7 +553,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL メソッド ]</p> </td> 
-   td&gt; <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -565,7 +565,7 @@ Office 365 アカウントを次に接続する手順については、 [!DNL Wo
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:   <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:   <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

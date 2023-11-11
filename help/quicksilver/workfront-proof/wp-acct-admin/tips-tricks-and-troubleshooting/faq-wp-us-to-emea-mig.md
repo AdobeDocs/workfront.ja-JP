@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: '''FAQ :Workfrontの配達確認 — 米国から EMEA への移行`'
+title: 「FAQ:Workfrontの配達確認 — 米国から EMEA への移行」
 description: Workfrontは、Workfrontの配達確認に関する米国から EMEA への移行の影響を受けるすべての組織に直接連絡しています。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ ht-degree: 0%
 
 ## この変更が自社の組織に影響を与えるかどうかを確認するには、どうすればよいですか？
 
-[!DNL Workfront] が、 [!DNL Workfront Proof] 米国から EMEA への移行
+[!DNL Workfront] が、 [!DNL Workfront Proof] 米国から EMEA への移行。
 
-## 移行の準備に必要な作業はありますか？
+## 移行の準備に必要な事項はありますか？
 
-はい. 移行する前に、組織の組織に次の内容を追加してくださ許可リストい。
+はい。移行する前に、組織の組織に次の内容を追加してくださ許可リストに加えるい。
 
 **[!DNL webcapture.proofhq.eu]**
 
 ## 自分のアカウントを移行するのにどのくらい時間がかかりますか？
 
-アドビが EMEA データセンターの新しい場所に移行する間は、お客様のアカウントにアクセスできなくなります。その期間は最大 2 時間です。 移行のタイミングの詳細は、 [[!DNL Workfront] ステータスサイト](http://status.workfront.com/).
+アドビが EMEA データセンターの新しい場所に移行する間は、お客様のアカウントにアクセスできなくなります。その期間は最大 2 時間です。
 
 アカウントの移行が完了したら、お客様のすべてのファイルを米国のデータセンターから EMEA のデータセンターに移動します。 ファイルを移動する間も、US データセンターからは引き続きアクセスできます。 このプロセスはバックグラウンドで実行され、ユーザーやユーザーには影響しません。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## アクセスに使用する URL はどうなりますか。 [!DNL Workfront Proof]?
 
-この URL は変更されません。 次の項目にアクセスできます： [!DNL Workfront] システムは、過去にあなたがそうした通りに動いていた。
+この URL は変更されません。 次の項目にアクセスできます： [!DNL Workfront] システムは、過去にあなたがそうした通りに動いていました。
 
 ## 古い配達確認のリンクとブックマークを引き続き使用できますか？
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## ユーザー名とパスワードは以前と同じになりますか？
 
-はい、ユーザー名とパスワードは現在とまったく同じです。
+はい、ユーザー名とパスワードは現在とまったく同じ状態に保たれます。
 
 ## 米国内でパートナーとなる配達確認アカウントと引き続きやり取りできますか？
 

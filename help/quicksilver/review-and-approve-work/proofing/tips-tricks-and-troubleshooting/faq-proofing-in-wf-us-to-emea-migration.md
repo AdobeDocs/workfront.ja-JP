@@ -2,14 +2,14 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: '''FAQ :Adobe Workfront内での検証 — 米国から EMEA への移行`'
+title: 'FAQ: Adobe Workfront内での検証 — 米国から EMEA への移行'
 description: Adobe Workfrontは、Workfrontの配達確認に関する米国から EMEA への移行の影響を受けるすべての組織に直接連絡しています。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ Adobe Workfrontは、Workfrontの配達確認に関する米国から EMEA へ�
 
 ## 移行の準備に何かする必要がありますか？
 
-はい. 移行する前に、組織の組織に次の内容を追加してくださ許可リストい。\
+はい。移行する前に、組織の組織に次の内容を追加してくださ許可リストに加えるい。\
 **webcapture.proofhq.eu**
 
 ## 自分のアカウントを移行するのにどのくらい時間がかかりますか？
 
-アドビが EMEA データセンターの新しい場所に移行する間は、お客様のアカウントにアクセスできなくなります。その期間は最大 2 時間です。 移行のタイミングの詳細は、 [Workfront Status サイト](http://status.workfront.com/). 
+アドビが EMEA データセンターの新しい場所に移行する間は、お客様のアカウントにアクセスできなくなります。その期間は最大 2 時間です。
 
 アカウントの移行が完了したら、お客様のすべてのファイルを米国のデータセンターから EMEA のデータセンターに移動します。 ファイルを移動する間も、US データセンターからは引き続きアクセスできます。 このプロセスはバックグラウンドで実行され、ユーザーやユーザーには影響しません。
 
@@ -35,7 +35,7 @@ Adobe Workfrontは、Workfrontの配達確認に関する米国から EMEA へ�
 
 ## Workfront Proof にアクセスするために使用している URL はどうなりますか？
 
-移行を可能にするには、システムにアクセスするために使用する URL を proofhq.com から proofhq.eu に変更する必要があります。 移行後に古い proofhq.com URL を使用しているユーザーには、新しいログインリンクを提供するメッセージが表示されます。
+移行を可能にするには、システムにアクセスするために使用する URL をproofhq.comから proofhq.eu に変更する必要があります。 移行後に古いproofhq.com URL を使用しているユーザーには、新しいログインリンクを提供するメッセージが表示されます。
 
 ## 古い配達確認のリンクとブックマークを引き続き使用できますか？
 

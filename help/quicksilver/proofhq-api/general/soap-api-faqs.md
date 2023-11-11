@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -57,9 +57,9 @@ API の呼び出しのたびに、新しいセッション ID を取得する必
 
 ## 配達確認/個人 URL とは何ですか？
 
-**チーム/公開**：各配達確認バージョンには、一意のチーム（公開）URL があります。 有効にすると、配達確認が読み取り専用モードで開きます。 チーム URL は、 [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) メソッド。
+**チーム/公開**：各配達確認バージョンには、一意のチーム（公開）URL があります。 有効にすると、配達確認が読み取り専用モードで開きます。 チーム URL は、 [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) メソッド。
 
-**個人**：個人用 URL は、すべてのレビュー担当者および配達確認のバージョンで一意です。 配達確認セットに 3 つのバージョンが含まれ、レビュー担当者がすべてのバージョンに含まれている場合、レビュー担当者には個別に 3 つの個人 URL が割り当てられます。 個人用 URL を指定すると、レビュー担当者が既に特定した配達確認のバージョンが開きます。そのため、配達確認の URL は安全に保たれ、共有されないようにする必要があります。 個人 URL は、 [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) メソッドを使用し、  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) パラメータ「proof_url」を取得します。
+**個人**：個人用 URL は、すべてのレビュー担当者および配達確認のバージョンで一意です。 配達確認セットに 3 つのバージョンが含まれ、レビュー担当者がすべてのバージョンに含まれている場合、レビュー担当者には個別に 3 つの個人 URL が割り当てられます。 個人用 URL を指定すると、レビュー担当者が既に特定した配達確認のバージョンが開きます。そのため、配達確認の URL は安全に保たれ、共有されないようにする必要があります。 個人 URL は、 [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) メソッドを使用し、  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) パラメータ「proof_url」を取得します。
 
 ## >Miniproof を開く際にカスタムパラメーターを含めるには？
 
@@ -71,5 +71,5 @@ API の呼び出しのたびに、新しいセッション ID を取得する必
 
 ## Java Web サービスクライアントを作成する方法は？
 
-[このビデオ](http://screencast.com/t/xsSNrqs5b) に、Eclipse とWorkfront Proof WSDL の定義を使用して Java Web サービスクライアントを作成する方法を示します。
+[このビデオ](https://screencast.com/t/xsSNrqs5b) に、Eclipse とWorkfront Proof WSDL の定義を使用して Java Web サービスクライアントを作成する方法を示します。
 

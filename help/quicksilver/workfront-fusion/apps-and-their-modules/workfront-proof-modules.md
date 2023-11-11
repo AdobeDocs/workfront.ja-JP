@@ -5,11 +5,11 @@ product-area: workfront-integrations;documents
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Workfront Proof モジュール
-description: 内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Workfront Proof]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+description: 内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Workfront Proof]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Workfront Proof] モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Workfront Proof]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Workfront Proof]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
 
 これは、現在、内での検証がサポートされていないタスクを実行する必要がある場合に役立ちます。 [!DNL Workfront] または [!DNL Workfront Proof]：特定のイベントに基づいて配達確認を更新したり、配達確認の受信者を検索したりする場合などです。
 
-この [!DNL Workfront Proof] コネクタは、組織で使用可能なアクティブなアプリの数に対してカウントされません。 すべてのシナリオ ( たとえ [!DNL Workfront Proof] アプリの場合、組織の合計シナリオ数に対してカウントします。
+The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクティブなアプリの数に対してカウントされません。 すべてのシナリオ ( たとえ [!DNL Workfront Proof] アプリの場合、組織の合計シナリオ数に対してカウントします。
 
 シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -49,15 +49,15 @@ ht-degree: 0%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
 ## [!DNL Workfront Proof] モジュールとそのフィールド
 
-設定時に [!DNL Workfront Proof] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Workfront Proof] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Workfront Proof] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Workfront Proof] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -81,11 +81,11 @@ ht-degree: 0%
 
 ### トリガー
 
-* [配達確認を監視](#watch-proofs)
+* [配達確認を見る](#watch-proofs)
 * [PDF概要の監視](#watch-for-pdf-summary)
 * [[!UICONTROL 配達確認アクティビティを監視]](#watch-proof-activity)
 
-#### [!UICONTROL 配達確認を監視]
+#### [!UICONTROL 配達確認を見る]
 
 このスケジュール済みトリガーモジュールは、誰かが配達確認を作成または決定する際にシナリオを実行します。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 この処理は、指定した定期的なスケジュール間隔で実行されます。
 
-で配達確認または配達確認にアクセスするのに十分な権限が必要です [!DNL Workfront Proof] この情報を取得するために。
+で配達確認または配達確認にアクセスするのに十分な権限が必要です。 [!DNL Workfront Proof] この情報を取得するために。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -103,11 +103,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">レコードタイプ</td> 
-   <td>タイプを選択 [!DNL Workfront Proof] レコードを作成します。</td> 
+   <td>次のタイプを選択： [!DNL Workfront Proof] レコードを作成します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">出力</td> 
@@ -136,7 +136,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
@@ -163,7 +163,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL アクティビティタイプ ]</td> 
@@ -202,7 +202,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 配達確認の種類 ]</td> 
@@ -221,7 +221,7 @@ ht-degree: 0%
    <td>すべてのファイルを 1 つの複数ページの配達確認に組み合わせるには、このオプションを有効にします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 新しい配達確認バージョンの作成 ]</td> 
+   <td>[!UICONTROL 新しい配達確認のバージョンを作成 ]</td> 
    <td>モジュールで既存の配達確認の新しいバージョンを作成する場合は、このオプションを選択します。 次に、 <strong>[!UICONTROL 既存の配達確認 ID]</strong> 配達確認の一意の ID を表示、マッピングまたは入力するフィールド。</td> 
   </tr> 
   <tr> 
@@ -237,7 +237,7 @@ ht-degree: 0%
    <td>次のいずれかの数値を入力して、配達確認に使用する次のデフォルトの E メール通知設定を指定します。
     <ul>
      <li><strong>1</strong>  — すべての新しいコメントと返信</li>
-     <li><strong>2</strong>  — コメントに返信</li>
+     <li><strong>2</strong>  — コメントへの返信</li>
      <li><strong>3</strong>  — 日別概要</li>
      <li><strong>4</strong>  — 時間別サマリ</li>
      <li><strong>5</strong>  — 決定のみ</li>
@@ -310,7 +310,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 解像度 ID]</td> 
-   <td>配達確認に使用する解像度の ID を入力します。 解決 ID のリストについては、 [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API ドキュメント</a>.</td> 
+   <td>配達確認に使用する解像度の ID を入力します。 解決 ID のリストについては、 [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API ドキュメント</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROLSWF]</td> 
@@ -337,7 +337,7 @@ ht-degree: 0%
 
 #### [!UICONTROL カスタム API 呼び出し]
 
-このアクションモジュールを使用すると、 [!DNL Workfront Proof] API これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Workfront Proof] モジュール。
+このアクションモジュールを使用すると、 [!DNL Workfront Proof] API. これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Workfront Proof] モジュール。
 
 このモジュールは、ステータスコード、ヘッダーおよび本文を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
 
@@ -349,7 +349,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL メソッド ]</td> 
@@ -357,7 +357,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 本文 (XML)]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -389,7 +389,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 配達確認 ID]</td> 
@@ -416,7 +416,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL レコードタイプ ]</td> 
@@ -435,7 +435,7 @@ ht-degree: 0%
 
 #### [!UICONTROL リクエストPDFの概要]
 
-このアクションモジュールは、の特定のPDFの配達確認の概要を要求します [!DNL Workfront Proof].
+このアクションモジュールは、の特定のPDFの配達確認の概要を要求します。 [!DNL Workfront Proof].
 
 配達確認の ID を指定します。
 
@@ -451,7 +451,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 配達確認 ID]</td> 
@@ -466,8 +466,8 @@ ht-degree: 0%
 
 ##### 考えられるエラー
 
-* **エラー**:&quot;[!UICONTROL この要求を実行する権限がありません。 ステージには、少なくとも 1 人の受信者が含まれている必要があります。]&quot;
-* **解決策**:自分が、ワークフローのステージに割り当てられた唯一のユーザーではないことを確認します。 ワークフローのステージに別のユーザーを割り当てる必要があります。
+* **エラー**: &quot;[!UICONTROL この要求を実行する権限がありません。 ステージには、少なくとも 1 人の受信者が含まれている必要があります。]&quot;
+* **解決策**：自分が、ワークフローのステージに割り当てられた唯一のものではないことを確認します。 ワークフローのステージに別のユーザーを割り当てる必要があります。
 
 #### [!UICONTROL 配達確認を更新]
 
@@ -487,7 +487,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 配達確認 ID]</td> 
@@ -562,7 +562,7 @@ ht-degree: 0%
 
 #### [!UICONTROL ファイルをアップロード]
 
-このアクションモジュールは、 [!UICONTROL 配達確認を作成] モジュール [!DNL Workfront Proof].
+このアクションモジュールは、 [!UICONTROL 配達確認を作成] モジュール内 [!DNL Workfront Proof].
 
 このモジュールは、アップロードされたファイルのハッシュ ID を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
 
@@ -574,7 +574,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ソースファイル ]</td> 
@@ -604,7 +604,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>検索対象</td> 
@@ -639,7 +639,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 出力 ]</td> 

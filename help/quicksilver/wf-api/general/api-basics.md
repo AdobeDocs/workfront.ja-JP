@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -95,7 +95,7 @@ API は、リクエストごとに認証をおこない、リクエストされ�
 
 #### リクエストヘッダー認証
 
-推奨される認証方法は、セッショントークンを含む SessionID という名前のリクエストヘッダーを渡すことです。 これは安全に対して有利である [クロスサイトリクエストフォージェリ (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻撃を受け、キャッシュ目的で URI に干渉しない。
+推奨される認証方法は、セッショントークンを含む SessionID という名前のリクエストヘッダーを渡すことです。 これは安全に対して有利である [クロスサイトリクエストフォージェリ (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) 攻撃を受け、キャッシュ目的で URI に干渉しない。
 
 リクエストヘッダーの例を次に示します。
 
