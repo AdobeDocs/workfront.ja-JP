@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
-title: Adobe Workfrontの管理者は、Workfrontで為替レートを設定できます。
-description: 為替レートの設定
+title: 為替レートの設定
+description: Adobe Workfrontの管理者は、Workfrontで為替レートを設定できます。
 feature: System Setup and Administration
 role: Admin
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -30,8 +30,8 @@ Adobe Workfrontの管理者は、Workfrontで為替レートを設定できま�
 
 プロジェクトおよびジョブの役割用のWorkfrontでのベース通貨の上書きについて詳しくは、次の記事を参照してください。
 
-* [プロジェクト通貨を変更](../../../manage-work/projects/project-finances/change-project-currency.md)
-* [ジョブの役割の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+* [プロジェクトの通貨を変更](../../../manage-work/projects/project-finances/change-project-currency.md)
+* [担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 
 為替レートを設定する方法は、特定のプロジェクトの為替レートをユーザーが変更できるかどうかに影響します。
 
@@ -57,7 +57,7 @@ Adobe Workfrontの管理者は、Workfrontで為替レートを設定できま�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ Adobe Workfrontの管理者は、Workfrontで為替レートを設定できま�
 
    これは、システム全体ですべてのプロジェクトとレポートのデフォルトとして使用される通貨です。
 
-1. クリック **保存** 変更を保存します。
+1. クリック **保存** をクリックして変更を保存します。
 
 ## ユーザーがプロジェクトのデフォルトの通貨を変更できるようにする
 
@@ -84,11 +84,11 @@ Adobe Workfrontの管理者は、Workfrontで為替レートを設定できま�
 
 * ユーザーは、為替レートに対する管理者アクセス権を持つプランライセンスを持っています。
 
-   詳しくは、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  詳しくは、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Workfrontシステムで複数の通貨が有効になっています。
 
-ユーザーが特定のプロジェクトでデフォルトの通貨を変更する方法について詳しくは、 [プロジェクト通貨を変更](../../../manage-work/projects/project-finances/change-project-currency.md).
+ユーザーが特定のプロジェクトでデフォルトの通貨を変更する方法について詳しくは、 [プロジェクトの通貨を変更](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## ジョブの役割の既定の通貨をユーザーが変更できるようにします
 
@@ -96,7 +96,7 @@ Adobe Workfrontの管理者は、Workfrontで為替レートを設定できま�
 
 * ユーザーは、ジョブロールに対する管理者アクセス権を持つプランライセンスを持っています。
 
-   詳しくは、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  詳しくは、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Workfrontシステムで複数の通貨が有効になっています。
 
