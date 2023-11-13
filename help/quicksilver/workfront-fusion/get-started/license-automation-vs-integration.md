@@ -8,25 +8,31 @@ description: Adobe Workfront Fusion には、アクセス可能な機能を決�
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 8c781894022661bee229a88556728659ff634310
+source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '527'
+ht-degree: 0%
 
 ---
 
-# レガシー [!DNL Adobe Workfront Fusion] ライセンス
+# [!DNL Adobe Workfront Fusion] ライセンス
 
-内 [!DNL Adobe Workfront Fusion] レガシーライセンスモデル [!DNL Fusion] には、アクセス可能な機能を決定する 2 種類のライセンスが用意されています。 購入時に組織がこれらのライセンスの 1 つを選択しました [!DNL Workfront Fusion].
+[!DNL Workfront Fusion] には、新しい操作ベースのモデルと、従来のコネクタベースのモデルの 2 つのライセンスモデルがあります。
 
->[!NOTE]
->
->新しい Fusion ライセンスモデルは、組織が使用する操作の数に基づいています。 このモデルでは、すべての組織が同じ機能にアクセスできます。
+## 運用ベースのライセンスモデル（新規）
+
+新しい [!DNL Workfront Fusion] ライセンスモデルは、組織が使用する操作の数に基づいています。 このモデルでは、すべての組織が同じ機能にアクセスできます。
+
+新しいライセンスモデルでの操作としてカウントされる項目については、 [での操作 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+
+## コネクタベースのライセンスモデル（レガシー）
+
+Adobe Analytics の [!DNL Adobe Workfront Fusion] レガシーライセンスモデル、 [!DNL Fusion] には、アクセス可能な機能を決定する 2 種類のライセンスが用意されています。 購入時に組織がこれらのライセンスの 1 つを選択しました [!DNL Workfront Fusion].
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
-次のタイプを調べるには： [!DNL Workfront Fusion] ライセンスを取得し、次に問い合わせてください： [!DNL Workfront Fusion] 管理者。
+次のタイプを調べるには、以下を実行します。 [!DNL Workfront Fusion] ライセンスを取得し、次に問い合わせてください： [!DNL Workfront Fusion] 管理者。
 
 ## [!DNL Workfront Fusion for Work Automation]
 
@@ -39,7 +45,7 @@ ht-degree: 1%
 A [!DNL Workfront Fusion for Work Automation] ライセンスを使用すると、 [!DNL Workfront] ワークフロー。 次を使用： [!DNL Workfront Fusion for Work Automation]を使用すると、組織固有の作業プロセスを自動化するシナリオを作成できます。 を自動化するには、多くの利点があります。 [!DNL Workfront] プロセス。
 
 * 自動化は迅速で、エラーが発生しやすくなります。
-* 決定を必要としないワークフローや、決定を下すワークフローが if/then などのシンプルなロジックに基づいているワークフローは、自動化に適しています
+* 決定を必要としないワークフローや、決定を下すワークフローが if/then などのシンプルなロジックに基づいているワークフローは、自動化に適しています。
 * 自動処理は、 [!DNL Workfront] 製品
 
 ### で使用できるコネクタとモジュール [!DNL Workfront Fusion for Work Automation]
@@ -81,7 +87,7 @@ A [!DNL Workfront Fusion for Work Automation] ライセンスを使用すると�
 
 A [!DNL Workfront Fusion for Work Automation and Integration] ライセンスを使用すると、 [!DNL Workfront Fusion for Work Automation] ライセンス。 さらに、このライセンスを使用すると、シナリオで他のアプリやサービスを使用できます。 例えば、 [!DNL Workfront Fusion] を自動化する [!DNL Jira] ジョブを使用して、ジョブをでタスクに変換します。 [!DNL Workfront]. また、 [!UICONTROL HTTP] または [!UICONTROL SFTP] ほぼすべての Web サービスに接続するためのコネクタ ( たとえば、 [!DNL Workfront Fusion] には、専用のコネクタがありません。
 
-[!DNL Workfront Fusion for Work Automation and Integration] は、組織に多くの利点を提供します。
+[!DNL Workfront Fusion for Work Automation and Integration] は、お客様の組織に多くの利点を提供します。
 
 * [!DNL Workfront Fusion for Work Automation and Integration] 次に関連するすべての利点を含む [!DNL Workfront Fusion for Work Automation]
 * 統合により、ワークフローの完了時に様々なアプリにジャンプする必要が減ります。
