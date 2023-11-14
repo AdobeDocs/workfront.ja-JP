@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: b9e088a0cdb32f3e8c565ea17f4613dda104bd7b
+source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Adobe Workfrontの管理者で、認証済みのWorkfrontサポート担当者�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## ドメインの変更をリクエスト
 
-1. 次をクリック： **サポート** 「 Workfront One 」ページの「 」タブで、サポートケースの作成を開始します。
-1. 内 **説明** ボックスに、新しいドメインを追加し、新しいドメインを有効にする期間を追加します。
+1. Experience Leagueでサポートチケットを作成し始めます。
+1. Adobe Analytics の **説明** ボックスに、新しいドメインを追加し、新しいドメインを有効にする期間を追加します。
 1. サポートケースのボックスへの入力を完了し、「 **送信**.
 
 また、Workfrontサポートに連絡して、ドメインの変更に関するヘルプを受け取ることもできます。
