@@ -3,7 +3,7 @@ title: 2024 年第 1 四半期リリースの概要
 description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: 2dfb6cb4034b12c42808644f1a3966fb95948763
+source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 1%
@@ -65,10 +65,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2024 年 11 月 10 日<br /></p>
+                                <p>プレビューリリース： 2023 年 11 月 10 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">すべてのお客様向けの本番環境：11 月 9 日。 2024</span></p>
+                                <p><span class="preview">すべてのお客様向けの本番環境：11 月 9 日。 2023 年</span></p>
                             </li>
                         </ul>
                     </td>
