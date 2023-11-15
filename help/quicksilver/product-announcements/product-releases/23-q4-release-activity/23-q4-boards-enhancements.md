@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期のボードの機能強化
 author: Lisa
 feature: Product Announcements
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 0%
 四半期リリース前の新しいボード機能をオプトインする方法について詳しくは、 [Adobe Workfrontボードの初期機能のオプトイン](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Adobe Workfrontボードでサブタスクを利用できるようになりました
-
->[!NOTE]
->
->この機能は、2023 年 11 月 8 日をもって、一時的にご利用いただけなくなります。 このページは、この機能が使用可能になると更新されます。
 
 接続されたカードをWorkfrontタスクのボードに追加すると、既存のサブタスクがカードに読み込まれます。 また、接続したカードにサブタスクを作成すると、サブタスクがWorkfrontタスクに追加されます。
 

@@ -6,9 +6,9 @@ description: カードに表示するフィールドをカスタマイズする�
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ ht-degree: 0%
 
 カスタムフィールドは、接続されたカードで使用できます。 これらは、フルカード表示でのみ表示され、ボード上の縮小表示では表示されません。
 
->[!NOTE]
->
->カードにカスタムフィールドを追加すると、カード上のデータは読み取り専用になります。
+カスタムフィールドのデータはカード上で編集できますが、特定のカスタム要素は元のフィールドでのみ編集でき、カード上では編集できない場合があります。
 
 1. ボードにアクセスし、 [!UICONTROL **設定**] をクリックして、設定パネルを開きます。
 1. 展開 [!UICONTROL **カード**].

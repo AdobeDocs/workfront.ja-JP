@@ -4,9 +4,9 @@ description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '2705'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでサブタスクを利用できるようになりました</a> <span style="color: #ff0000; font-weight: bold;">（2023 年 11 月 7 日現在一時的にご利用いただけません）</span></p><p>[!BADGE In production ]{type=Informative}</p><p>接続されたカードをWorkfrontタスクのボードに追加すると、既存のサブタスクがカードに読み込まれます。 また、接続したカードにサブタスクを作成すると、サブタスクがWorkfrontタスクに追加されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでサブタスクを利用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p><p>接続されたカードをWorkfrontタスクのボードに追加すると、既存のサブタスクがカードに読み込まれます。 また、接続したカードにサブタスクを作成すると、サブタスクがWorkfrontタスクに追加されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -780,9 +780,9 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 
 WorkfrontモバイルアプリにはWorkfrontログインが必要です。 外部のユーザーおよびゲストは、引き続き校正作業に Proof アプリを使用できます。ただし、サポートは終了し、23.10 では使用できなくなります。
 
-#### 使用していないアカウントで削除されたワークストリーム
+#### ワークストリームを使用していないアカウントのワークストリームが削除される
 
-2023 年 10 月 11 日現在、Adobe Workfrontボードでワークストリームを作成したことのないアカウントの場合、ワークストリーム領域がボードダッシュボードから削除されています。 ワークストリームを使用するアカウントには、引き続きアクセスできます。 拡張スクラム機能は、今後のリリースで対処される予定です。
+2023 年 10 月 11 日現在、Adobe Workfrontボードでワークストリームを作成したことのないアカウントの場合、ワークストリーム領域がボードダッシュボードから削除されています。 ワークストリームを使用するアカウントは、引き続きワークストリームにアクセスできます。拡張スクラム機能は、今後のリリースで対処される予定です。
 
 <!-- HTML you might need
 
