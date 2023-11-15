@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
 
 * メインメニューの目標領域を含むレイアウトテンプレート。
 
-## 更新セクションを見つけます。
+## 目標のコメントを管理
 
 目標に対するコメントは、目標のページの「更新」セクションで追加できます。
 
 この領域に追加したコメントに対して、自分または他のユーザーが返信したり、「いいね！」をしたりできます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) > **目標** をクリックします。
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/lines-main-menu.png) 左上隅にある場合は、「 **目標**.
 これにより、目標リストが開きます。
 1. コメントを追加する目標を探し、その名前をクリックして目標ページを開きます。
 1. クリック  **更新** をクリックします。
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. 次をクリック： **x** アイコンを使用して検索結果を消去し、完了時に戻ることができます。
 1. 次をクリック： **コメント** タブをクリックします。
 1. でコメントの入力を開始 **新しいコメント** ボックス。
 

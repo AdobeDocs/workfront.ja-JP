@@ -6,9 +6,9 @@ description: タイムシート、タイムシートに含まれる作業項目�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,12 @@ ht-degree: 0%
 
 1. クリック **タイムシート**.
 1. コメントを作成するタイムシートに移動します。
-1. クリック **更新** 左側のパネルで、 **コメント** 」タブが選択され、 **新しいコメント** ボックス。
+1. クリック **更新** 左のパネルで、 **コメント** タブをクリックします。
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. 更新を **新しいコメント** ボックス。
 1. （オプション） **担当者またはチームのタグ付け** フィールドを使用して、他の項目を更新に含めます。 詳しくは、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. （オプション）コメントにリッチテキスト書式を追加します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （オプション） **私の会社に対してプライベート** 会社の担当者のみに更新を表示する場合は、オプションを使用します。
