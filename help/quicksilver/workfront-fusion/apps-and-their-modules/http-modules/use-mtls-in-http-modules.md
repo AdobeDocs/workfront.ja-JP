@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion HTTP モジュールで相互 TLS を使用�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 0%
@@ -26,17 +26,17 @@ ht-degree: 0%
 
 インターネットを介してデータを送信する場合は、データを正しい場所に送信するか、正しい場所から送信し、意図した受信者のみが読み取れるようにすることが重要です。 TLS が有効な場合、クライアント（情報を要求するコンピュータ）は証明書を使用して、サーバー（情報を提供するコンピュータ）の ID を検証します。 これにより、安全な HTTP 接続が可能になります。
 
-相互 TLS を使用すると、この ID 確認が両方の方法で実行できます。 サーバーが証明書を送信してクライアントに ID を検証すると、クライアントの証明書も要求します。 これにより、サーバーが誤用の原因となる情報をサイトやユーザーに送信しなくなります。
+相互 TLS を使用すると、この ID 確認が両方の方法で実行できます。 サーバーが証明書を送信してクライアントに ID を確認すると、クライアントの証明書も要求します。 これにより、サーバーが誤用の原因となる情報をサイトやユーザーに送信しなくなります。
 
 >[!INFO]
 >
 >**例:**
 >
->* **TLS**:ユーザーがブラウザに「MyGreatBank.com」と入力すると、銀行情報を誤って使用したり販売したりする可能性のある Web サイトではなく、My Great Bank に移動することを確認したいと考えています。 また、自分の銀行口座情報が暗号化されていることを確認したいと考えています。
+>* **TLS**：ユーザーがブラウザーに「MyGreatBank.com」と入力する際に、銀行情報を誤って使用したり販売したりする Web サイトではなく、My Great Bank に移動することを確認したいと考えています。 また、自分の銀行口座情報が暗号化されていることを確認したいと考えています。
 >
->   ブラウザー（クライアント）が MyGreatBank.com （サーバー）に接続すると、TLS は MyGreatBank.com からの証明書を要求して、その ID を検証します。 証明書は次のような認証局によって提供されます。 [!DNL DigiCert] または [!DNL Thawte]. ブラウザーは認証局を信頼するので、接続を許可します。
+>   ブラウザー（クライアント）がMyGreatBank.com （サーバー）に接続すると、TLS では、MyGreatBank.comの証明書を使用して ID を検証する必要があります。 証明書は次のような認証局によって提供されます。 [!DNL DigiCert] または [!DNL Thawte]. ブラウザーは認証局を信頼するので、接続を許可します。
 >
->* **相互 TLS**:MySoftware.com は、MyGreatBank.com API からの情報を必要とするソフトウェアクライアントです。 MyGreatBank では、信頼できるクライアントだけがサーバに接続できます。 したがって、MyGreatBank.com の ID を確認する通常の TLS に加え、TLS/認証局プロセスも MySoftware.com からの要求を検証します。
+>* **相互 TLS**: MySoftware.comは、 MyGreatBank.com API からの情報を必要とするソフトウェアクライアントです。 MyGreatBank では、信頼できるクライアントだけがサーバに接続できます。 したがって、MyGreatBank.comの ID を確認する通常の TLS に加えて、TLS/認証局プロセスはMySoftware.comからの要求も検証します。
 
 ## アクセス要件
 
@@ -59,15 +59,15 @@ ht-degree: 0%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -80,7 +80,7 @@ ht-degree: 0%
 ## 次の項目を指定： [!DNL Workfront Fusion] 公開証明書
 
 
-HTTP リクエストを使用して Web サービスに接続する場合、通常、Web サービスには [!DNL Workfront Fusion] 検証用の公開証明書。 これにより、Web サービスは、HTTP 要求で提示された証明書をファイル上の証明書と比較し、証明書が Web サービスの上にあることを確認でき許可リストます。
+HTTP リクエストを使用して Web サービスに接続する場合、通常、Web サービスには [!DNL Workfront Fusion] 検証用の公開証明書。 これにより、Web サービスは、HTTP 要求で提示された証明書をファイル上の証明書と比較し、証明書が Web サービスの上にあることを確認でき許可リストに加えるます。
 
 を参照してください。 [!DNL Adobe Workfront Fusion] 公開証明書を web サービスに送信する場合は、web サービスのドキュメントを参照してください。
 
@@ -94,17 +94,17 @@ HTTP リクエストを使用して Web サービスに接続する場合、通�
 
 >[!IMPORTANT]
 >
->* これら [!DNL Workfront Fusion] 公開証明書の有効期限は 2024 年 6 月 9 日です。 有効期限が切れたら、新しい証明書を Web サービスにアップロードする必要があります。 以下をお勧めします。
+>* これら [!DNL Workfront Fusion] 公開証明書の有効期限は 2024 年 6 月 9 日です。 有効期限が切れたら、新しい証明書を Web サービスにアップロードする必要があります。 次の操作をお勧めします。
 >
 >   * 有効期限をメモしておき、自分で証明書を Web サービスにアップロードするようにリマインダーを設定します。
 >   * 新しい証明書を簡単に見つけるには、このページをブックマークします。
 >
 >* ワイルドカード以外の mTLS 証明書です。
 
-* [ダウンロード [!DNL Workfront Fusion] 証明書 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [ダウンロード [!DNL Workfront Fusion] 証明書 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
 * [ダウンロード [!DNL Workfront Fusion] EU 証明書 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
-  EU で使用
+  EU での使用
 
 <!--
 
