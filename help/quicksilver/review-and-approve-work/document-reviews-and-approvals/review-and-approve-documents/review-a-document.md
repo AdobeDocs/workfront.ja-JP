@@ -6,14 +6,16 @@ description: レビュー担当者は、レビュー用に自分に送信され�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 803dccc3ede32cd2f74eb4646fb5b054b5bcc78e
+source-git-commit: 9a5780010e32526282255dd8a54e6ae22c5f0c55
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
 # ドキュメントのレビュー
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
 
 レビュー担当者は、レビュー用に自分に送信されたドキュメントを表示できます。 承認とは異なり、決定はおこないません。 代わりに、アセットをレビューしたことを確認します。
 
@@ -70,7 +72,7 @@ Add once functionality is added
    クリック **ダウンロード** をクリックして、ドキュメントのローカルコピーをデバイスにダウンロードします。
 
 1. （オプション）ドキュメントをレビューした後は、ドキュメントの **更新** 」セクションに入力します。 コメント化について詳しくは、 [作業を更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. レビューの完了を記録するには、 **レビューを完了**.
+1. <span class="preview">レビューの完了を記録するには、 **レビューを完了**.</span>
 
 ## 「ドキュメントの概要」ウィンドウでドキュメントを確認する
 
@@ -91,4 +93,4 @@ Add once functionality is added
 1. （オプション）ドキュメントをレビューした後は、ドキュメントの **更新** 」セクションに入力します。 コメント化について詳しくは、 [作業を更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. （オプション）ドキュメントの特定のバージョンをプレビューまたはダウンロードする場合は、 **バージョン** [ ドキュメントの概要 ] ウィンドウの [ その他 ] アイコンをクリックします。 ![](../assets/more-icon.png) をクリックします。 **ダウンロード** または **プレビュー**.
-1. レビューの完了を記録するには、 **レビューを完了**.
+1. <span class="preview"> レビューの完了を記録するには、 **レビューを完了**.</span>
