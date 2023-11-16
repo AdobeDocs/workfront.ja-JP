@@ -7,9 +7,9 @@ description: 必要に応じて、定義したフィルターに基づいて、W
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -114,9 +114,13 @@ ht-degree: 2%
 
    ![フィルタービルダー](assets/intake-filter-dialog6.png)
 
-   次の例は、特定のプロジェクトのタスクのフィルターを示しています。このフィルターは、「 [!UICONTROL 新規] または [!UICONTROL 処理中]、およびが割り当てられています。
+   次の例は、特定のプロジェクトのタスクのフィルターを示しています。このフィルターは、「 [!UICONTROL 新規] または [!UICONTROL 処理中].
 
-   フィルターの作成について詳しくは、この記事の「標準ビルダーでのフィルターの作成または編集」の節を参照してください [でフィルターを作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   >[!NOTE]
+   >
+   >ボードフィルターでは、「Me」（ログインユーザー）ワイルドカードを使用しないことをお勧めします。これは、常にログインユーザーのタスクや問題を表示する保証がないからです。 適切なタスクと問題を含むボードを設定した後、ボードをフィルタリングして、特定の担当者の項目を表示できます。 詳しくは、 [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+   フィルターの作成の詳細については、この記事の「標準ビルダーでのフィルターの作成または編集」の節を参照してください [でフィルターを作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. フィルターに名前を付け、「 **[!UICONTROL 保存]**.
 
@@ -141,7 +145,6 @@ ht-degree: 2%
 ## インテーク列を使用する
 
 取り込みカラムのカードは、他のボードカラムに移動するまで編集できません。 カードをクリックして読み取り専用ビューで開くか、 ![タスクまたは問題を開く](assets/boards-launch-icon.png) をクリックして、タスクまたはイシューを新しいブラウザータブで開きます。
-
 
 インテーク列の項目は、手動で並べ替えることができます。
 
