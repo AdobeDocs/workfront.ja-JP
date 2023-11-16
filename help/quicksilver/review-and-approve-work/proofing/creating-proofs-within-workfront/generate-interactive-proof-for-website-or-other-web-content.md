@@ -6,9 +6,9 @@ description: 新しいインタラクティブ配達確認を生成するか、W
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：プレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン：Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td> <p>現在のプラン：作業またはプラン</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -45,7 +45,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. 新しい Web サイトの配達確認または既存の Web サイトの新しいバージョンを作成するプロジェクト、タスクまたは問題を開きます。
 1. クリック **ドキュメント** をクリックします。
-1. （条件付き）新しい配達確認を作成する場合は、 **新規追加**&#x200B;を選択し、「 **配達確認** をクリックします。
+1. （条件付き）新しい配達確認を作成する場合は、 **新規追加**&#x200B;を選択し、次に **配達確認** をクリックします。
 
 1. （条件付き） **新しい配達確認** ページが表示されます（既存の配達確認の新しいバージョンを作成する場合）。
 
@@ -64,24 +64,28 @@ ht-degree: 0%
 
       ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-   1. 内 **新規追加** ドロップダウンで、 **バージョン** > **配達確認**.
 
-1. 内 **ファイルを追加** 「 」セクションで、配達確認する Web サイトの URL を入力し、 **入力**.
+   1. Adobe Analytics の **新規追加** ドロップダウンで、 **バージョン** > **配達確認**.
+
+1. Adobe Analytics の **ファイルを追加** 「 」セクションで、配達確認する Web サイトの URL を入力し、 **入力**.  このプロセスを繰り返して、配達確認を受ける複数の Web サイトを追加できます。
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
-   このプロセスを繰り返して、配達確認を受ける複数の Web サイトを追加できます。
+
+   >[!NOTE]
+   >
+   > URL は 1,000 文字未満にする必要があります。
 
 1. 追加した URL をクリックします。
 
    ![](assets/click-url-350x137.png)
 
-1. （オプション）Web サイトの URL から別の URL に配達確認の名前を変更する場合は、 **配達確認名**.
-1. 選択 **インタラクティブ**&#x200B;を選択し、「 **完了**.
+1. （オプション）Web サイトの URL から別の名前に配達確認の名前を変更する場合は、 **配達確認名**.
+1. 選択 **インタラクティブ**&#x200B;を選択し、次に **完了**.
 
    >[!NOTE]
    >
-   >既存の URL 配達確認に新しいバージョンを追加する場合、元の配達確認または以前のバージョンに設定されたオプションは、そのバージョンで維持されます。
+   >既存の URL 配達確認に新しいバージョンを追加する場合、元の配達確認または以前のバージョンに設定されたオプションは、このバージョンでも維持されます。
 
 1. クリック **配達確認を作成** をクリックして、確認プロセスを行わずに簡単な配達確認を作成します。\
    または\
