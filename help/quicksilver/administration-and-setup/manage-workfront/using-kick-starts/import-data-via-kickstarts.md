@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -300,6 +300,7 @@ Kick-Start テンプレートをエクスポートすると、空の Excel ス�
 >
 >  例えば、 **PROJ プロジェクト** タブ、 **setCondition** および **setConditionType** フィールドを空のままにすることはできますが、 **setGroupID** および **setName** 列ではできません。
 >
+>* 特定のフィールド ( **setResourceRevenue** および **setEnteriedByID**&#x200B;は、システムによって自動的に生成されます。 スプレッドシートにこれらのフィールドのデータを入力すると、スプレッドシートをアップロードする際にキック開始プロセスによって上書きされます。
 
 ### レコードをインポート  {#import-a-record}
 
