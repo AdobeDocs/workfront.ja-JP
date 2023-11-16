@@ -6,22 +6,20 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '4005'
 ht-degree: 1%
 
 ---
 
 # 作業を更新
 
-
-
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
 <span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 </span>
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -83,7 +81,7 @@ After the monthly releases to Production, the same features are also available i
 
 * Workfrontと統合されている他のアプリケーションやWorkfrontモバイルアプリから、Workfrontオブジェクトにコメントを追加できます。
 
-  Workfrontと統合されているすべてのアプリケーションに、Workfrontオブジェクトにコメントを追加する機能があるわけではありません。
+  Workfrontと統合されているすべてのアプリケーションがWorkfrontオブジェクトにコメントを追加できるわけではありません。
 
   WorkfrontのオブジェクトからWorkfrontオブジェクトにアクセスする場合、アプリケーションの「更新」セクションで使用できる機能の一部が他のアプリケーションで使用できるわけではありません。 例えば、リッチテキスト機能や、コメントを会社の非公開にする場合は、サードパーティのアプリケーションからWorkfrontオブジェクトにコメントを追加する際に、使用できない可能性があります。
 
@@ -263,7 +261,7 @@ drafted for P&P release:
 
    >[!TIP]
    >
-   >別のユーザーが、更新しようとしている同じ項目にコメントを送信すると、赤い線に「新規」インジケータが表示され、新しいコメントが通知されます。
+   >別のユーザーが、更新しようとしている同じ項目にコメントを送信した場合、赤い線に「新規」インジケータが表示され、新しいコメントが通知されます。
    >
    >インジケーターは、コメントがアイテムに送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
    >
@@ -290,7 +288,7 @@ drafted for P&P release:
    >
    >* 元の更新を送信した場合にのみ、ユーザーに更新を通知する電子メールが生成されます。 更新を編集した後は、電子メールは生成されません。
    >* コメントの横の日付スタンプは、最後の編集の日付ではなく、元のコメントの日付です。
-   >* 別のユーザーに代わってコメントを投稿する場合 (Workfrontまたはグループ管理者として別のユーザーとしてログインする場合 )、他のユーザーとしてログインしている場合はコメントを編集できません。 コメントは、ユーザーとしてログアウトし、自分で再度ログインした後にのみ編集できます。
+   >* 別のユーザーの代わりにコメントを追加する場合 (Workfrontまたはグループ管理者として別のユーザーとしてログインする場合 )、他のユーザーとしてログインしている場合はコメントを編集できません。 コメントは、ユーザーとしてログアウトし、自分で再度ログインした後にのみ編集できます。
 
 
 1. （オプション）「 **返信** または、 **返信を追加…** 「 」領域に移動し、既存のコメントに返信する場合は、上記の手順 4～8 に従います。 <!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、 [更新情報に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
@@ -391,17 +389,18 @@ drafted for P&P release:
    1. の下 **表示するテキスト**、リンクテキストを入力または貼り付けます。
    1. 「**保存**」をクリックします。
 
-1. （オプション） <span class="preview">更新に画像を添付するには、コンピューターからスクリーンショットをコピーし、「 **Ctrl + V** Windows の場合 ( または **CMD + V** (Mac用 ) を使用して、コメントに貼り付けます。</span>
+1. （オプション） <span class="preview">アップデートに画像を添付するには、コンピューターからスクリーンショットをコピーし、コメントに貼り付けます </span>
 
    または
 
-   次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) 新しいコメントエクスペリエンスを使用する場合は、コンピューター上の画像を参照します。
+   次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) お使いのコンピューター上の画像を参照します。
 
    >[!NOTE]
    >
    >* 画像または添付ファイルを追加アイコンを表示するには、Workfront管理者が、Workfrontインターフェイス領域の「フィードの環境設定を更新」セクションで画像の追加を有効にする必要があります。 詳しくは、 [ユーザーの更新の環境設定を構成する](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 画像ファイルの最大サイズは 7 MB です。 サポートされる画像ファイルタイプは、.jpg、.gif および.png です。
    >* 画像は、オブジェクトの「更新」セクションからアクセスでき、メインメニューの「ドキュメント」領域でも使用できます。
+   >* <span class="preview">画像を貼り付けるには、新しいコメントを右クリックするか、Windows の場合は Ctrl + V キー (Macの場合は Command + V キー ) を押します。</span>
    >* 画像とテキストを含まない更新を送信できます。
    >* 画像を含むコメントを削除する場合、選択したエクスペリエンスに応じて、次のシナリオが存在します。
    >
@@ -424,13 +423,17 @@ drafted for P&P release:
 オブジェクトの「更新」セクションで、コメントや返信を検索できます。
 
 1. 次に移動： **更新** セクションに含める必要があります。
-1. キーワードの入力を開始する <!--or a user's name--> （内） **検索** 」ボックスをクリックします。 <!--You can search for comment owner's names or for users who are tagged on comments. -->
+1. キーワードの入力を開始する <!--or a user's name --> （内） **検索** ボックス **コメント** タブをクリックします。
+
+   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    ![](assets/search-field-in-updates-tab.png)
 
    キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
 
-1. 次をクリック： **x** アイコンを使用して検索結果を消去し、完了時に戻ることができます。
+   Workfrontは、画面に表示されるコメントの外側にある、オブジェクトの更新ストリーム全体を検索します。
+
+1. 次をクリック： **x** 検索フィールド内のアイコンを使用して、検索結果を消去し、すべてのコメントに戻ります。
 
 </div>
 

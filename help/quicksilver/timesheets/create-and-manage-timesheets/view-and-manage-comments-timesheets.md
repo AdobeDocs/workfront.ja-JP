@@ -6,9 +6,9 @@ description: タイムシート、タイムシートに含まれる作業項目�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ ht-degree: 0%
 
 ### タイムシート全体に対するコメント {#comment-on-the-overall-timesheet}
 
-タイムシートに関する一般的なコメントを作成できます。
+タイムシートに関する一般的なコメントを作成できます。 タイムシート全体に対するコメントは、他のオブジェクトに対するコメントと似ています。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/lines-main-menu.png) ( 左上隅またはWorkfront（使用可能な場合）)
 
 1. クリック **タイムシート**.
 1. コメントを作成するタイムシートに移動します。
 1. クリック **更新** 左のパネルで、 **コメント** タブをクリックします。
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. 更新を **新しいコメント** ボックス。
+1. 新しいコメントの追加や既存のコメントへの返信を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （オプション） **担当者またはチームのタグ付け** フィールドを使用して、他の項目を更新に含めます。 詳しくは、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. （オプション）コメントにリッチテキスト書式を追加します。 詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （オプション） **私の会社に対してプライベート** 会社の担当者のみに更新を表示する場合は、オプションを使用します。
 1. コメントを入力し、「 **送信**.
 
-   コメントが [!UICONTROL 更新] タイムシートのセクション。
+   コメントが [!UICONTROL 更新] [ コメント ] タブの [ タイムシート ] セクション
 
 1. （オプション） **システムアクティビティ** タブをクリックして、システムで生成された更新を確認します。
 
-   詳しくは、この記事の「システム更新の有効化または無効化」の節を参照してください [作業を更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   詳しくは、 [作業を更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### タイムシートの個々の時間の入力に対するコメント {#comment-on-an-individual-hour-entry-in-a-timesheet}
 

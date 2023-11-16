@@ -6,9 +6,9 @@ description: Adobe Workfront目標で表示できるすべての目標にコメ�
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,16 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 </span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+-->
 
 Adobe Workfront目標で表示できるすべての目標にコメントを追加できます。
 
@@ -130,16 +139,13 @@ Adobe Workfront目標で表示できるすべての目標にコメントを追�
 これにより、目標リストが開きます。
 1. コメントを追加する目標を探し、その名前をクリックして目標ページを開きます。
 1. クリック  **更新** をクリックします。
-<!--
-1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. <span class="preview">（オプション）既存のコメントを検索するには、キーワードの入力を開始します <!--or a user's name--> （内） **検索** ボックス **コメント** タブをクリックします。 </span>
 
-   ![](assets/search-field-in-updates-tab-goals.png)
+   <span class="preview">![](assets/search-field-in-updates-tab-goals.png)</span>
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   <span class="preview">キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。 </span>
 
-      >[!TIP]
-      >
-      >   Searching for a comment is not available for system activity updates. -->
+   詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 
 1. 次をクリック： **x** アイコンを使用して検索結果を消去し、完了時に戻ることができます。
 1. 次をクリック： **コメント** タブをクリックします。
