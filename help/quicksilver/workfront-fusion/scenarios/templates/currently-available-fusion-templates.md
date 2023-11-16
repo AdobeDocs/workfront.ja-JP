@@ -7,9 +7,9 @@ description: 現在、Adobe Workfront Fusion では、次のパブリックテ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 12f6d4f261dec50f76b3ecb35e3159900d34bbff
+source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -26,23 +26,23 @@ ht-degree: 0%
 
 これらのテンプレートは、Workfrontのプロセスとワークフローを自動化します。
 
-### [!BADGE 新規!]{type=Informative}
+### Workfront - CSV からのプロジェクト作成
 
 この自動化により、CSV で指定した名前、Portfolio、ステータス、計画開始日、およびテンプレートの詳細に基づいて、Workfrontに新しいプロジェクトが作成されます。
 
-### [!BADGE 新規!]{type=Informative}
+### Workfront — 過去 30 日間に新しいメモを追加しなかったクリーンアップリクエスト
 
 このテンプレートを使用して、リクエストに対して 30 日間のメモの更新を実施します。 30 日以内に更新されなかったリクエストのステータスは 60 日で変更され、クローズされます。
 
-### [!BADGE 新規!]{type=Informative}
+### Workfront - 100%の完了時に、プロジェクトステータスを「完了」に変更します。
 
 この自動化は、1005 の完了時にすべてのタスクを含む [ 完了 ] ステータスにプロジェクトを更新します。 未完了のタスクまたはオープンタスクまたはプロジェクト承認を持つプロジェクトは更新を受け取り、解決されると、プロジェクトのステータスは完了になります。
 
-### [!BADGE 新規!]{type=Informative}
+### Workfront — 古いプロジェクトを警告して閉じようとします
 
 このシナリオを使用して、組織の古いプロジェクトポリシーを満たすプロジェクトの警告の自動化と終了の自動化に役立ちます。
 
-### [!BADGE 新規!]{type=Informative}
+### Workfront — ソースの問題/リクエストから新しいメモと返信を、変換済みのプロジェクトまたはタスクにコピーします。
 
 既に変換済みのプロジェクトまたはタスクに対して、メモや返信をイシューまたはリクエストからコピーする場合は、このテンプレートを使用します。
 
@@ -57,6 +57,10 @@ ht-degree: 0%
 ### Workfront — 承認済みの問題をプロジェクトに変換する
 
 このテンプレートは、イシューをプロジェクトに変換します。 組織の標準に合わせて変更できます。
+
+### [!BADGE 新規!]{type=Informative}
+
+この柔軟なシナリオでは、問題やリクエストから、以前に変換されたプロジェクトやタスクにドキュメントをコピーします。
 
 ### フィールドの変更に基づくカスタマイズされた通知
 
@@ -102,7 +106,7 @@ ht-degree: 0%
 >
 > この節でテンプレートを使用するには、Workfront Fusion for Work Automation and Integration ライセンスが必要です。
 
-### [!BADGE 新規!]{type=Informative}
+### JWT（JSON Web トークン）を使用した接続の確立
 
 クライアント API の JWT 認証を確立します。
 
@@ -138,7 +142,7 @@ ht-degree: 0%
 >
 > この節でテンプレートを使用するには、Workfront Fusion for Work Automation and Integration ライセンスが必要です。
 
-### [!BADGE 新規!]{type=Informative}
+### SharePointフォルダーの変更を監視
 
 このテンプレートを使用すると、SharePointフォルダーに変更があるかどうかを確認できます。
 
