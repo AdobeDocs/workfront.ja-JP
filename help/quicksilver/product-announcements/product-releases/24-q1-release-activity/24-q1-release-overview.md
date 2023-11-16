@@ -3,10 +3,10 @@ title: 2024 年第 1 四半期リリースの概要
 description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: 0e133e36bd322cd0967246ad2176e90a7591cac7
+source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '778'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,64 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfrontの機能強化
 
+* [ドキュメント管理の機能強化](#document-management-enhancements)
 * [統合の強化](#integration-enhancements)
+* [ストリームと通知の機能強化の更新](#update-stream-and-notification-enhancements)
+
+### ドキュメント管理の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">レビューを完了としてマーク</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>ドキュメントがレビューされ、次の承認ステージに進む準備が整ったときに、より明確にするために、新しい <strong>レビューを完了</strong> 」ボタンをクリックします。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 11 月 17 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのヘッダーにドキュメントのレビューと承認のステータスが表示されます</a></p><p>レビューと承認のプロセスをより透明にするために、ドキュメントの詳細ページのヘッダーにステータスを追加しました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 11 月 10 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+</table>
 
 ### 統合の強化
 
@@ -60,21 +117,91 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合で Typeahead フィールドを使用できるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>WorkfrontとAdobe Experience Managerの間でフィールドを簡単にリンクできるように、メタデータマッピングに typeahead フィールドのサポートが追加されました。 これで、Adobe Experience Managerで typeahead フィールドを対応するフィールドにマッピングできるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 11 月 17 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動：2023 年 12 月 7 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Managerでのアセットの自動公開</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Experience Manager統合に別のワークフローを追加しました。 これで、Adobe Experience Managerに送信する際に、アセットを自動的に公開するように設定できます。 統合は、Adobe Experience ManagerパブリッシュサービスまたはAdobe Experience Manager Brand Portal に公開するように設定できます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 11 月 10 日<br /></p>
+                                <p>プレビューリリース： 2023 年 11 月 10 日</p>
                             </li>
                             <li>
-                                <p><span class="preview">すべてのお客様向けの本番環境：11 月 9 日。 2023 年</span></p>
+                                <p><span class="preview">すべてのお客様の本番環境：2023 年 11 月 9 日</span></p>
                             </li>
                         </ul>
                     </td>
+                    </tr>
            </tbody>
         </table>
 
+### ストリームと通知の機能強化の更新
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントまたはユーザーを検索します。</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>オブジェクトの「更新」セクションの情報をすばやく見つけるために、コメントまたはコメントに関連付けられた任意のユーザーからキーワードを検索できるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 11 月 17 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションのコメントに画像をコピーして貼り付けます</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>メッセージの内容に対するコンテキストを提供するために、コンピューターから画像をコピーして新しい更新または返信に貼り付けることで、コメントに画像をすばやく添付できるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 11 月 17 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+</table>
 
 ## お知らせ
 
