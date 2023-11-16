@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4e06eaf0755f284692db1cf6511fa5b598b88e28
+source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '3985'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,13 @@ ht-degree: 1%
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 </span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span>
+
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
 -->
 
 >[!IMPORTANT]
@@ -38,7 +39,7 @@ ht-degree: 1%
 >
 >新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域からオブジェクトにアクセスする場合は使用できません。
+>新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
 >
 > * ホーム
 > * リスト内の概要パネル
@@ -390,13 +391,17 @@ drafted for P&P release:
    1. の下 **表示するテキスト**、リンクテキストを入力または貼り付けます。
    1. 「**保存**」をクリックします。
 
-1. （オプション） <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> 次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) 新しいコメントエクスペリエンスを使用する場合は、コンピューター上の画像を参照します。
+1. （オプション） <span class="preview">更新に画像を添付するには、コンピューターからスクリーンショットをコピーし、「 **Ctrl + V** Windows の場合 ( または **CMD + V** (Mac用 ) を使用して、コメントに貼り付けます。</span>
+
+   または
+
+   次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) 新しいコメントエクスペリエンスを使用する場合は、コンピューター上の画像を参照します。
 
    >[!NOTE]
    >
    >* 画像または添付ファイルを追加アイコンを表示するには、Workfront管理者が、Workfrontインターフェイス領域の「フィードの環境設定を更新」セクションで画像の追加を有効にする必要があります。 詳しくは、 [ユーザーの更新の環境設定を構成する](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 画像ファイルの最大サイズは 7 MB です。 サポートされる画像ファイルタイプは、.jpg、.gif および.png です。
-   >* 画像は、オブジェクトの「更新」セクションからアクセスでき、「ドキュメント」領域でも使用できます。
+   >* 画像は、オブジェクトの「更新」セクションからアクセスでき、メインメニューの「ドキュメント」領域でも使用できます。
    >* 画像とテキストを含まない更新を送信できます。
    >* 画像を含むコメントを削除する場合、選択したエクスペリエンスに応じて、次のシナリオが存在します。
    >
@@ -408,30 +413,28 @@ drafted for P&P release:
 
 1. クリック **送信** コメントを追加します。
 
-<!-- for the search for comments - November 2023 release to Preview: 
-
 <div class="preview">
 
-## Search for an update
+## 更新を検索
 
 >[!NOTE]
 >
->This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+>この機能は、新しいコメントエクスペリエンスの「コメント」タブでのみ使用できます。 これは、[ 更新 ] セクションの [ システムアクティビティ ] タブでは使用できません。
 
-You can search for a comment or a reply in the Updates section of an object. 
+オブジェクトの「更新」セクションで、コメントや返信を検索できます。
 
-1. Go to the **Updates** section of an object.
-1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. 次に移動： **更新** セクションに含める必要があります。
+1. キーワードの入力を開始する <!--or a user's name--> （内） **検索** 」ボックスをクリックします。 <!--You can search for comment owner's names or for users who are tagged on comments. -->
 
    ![](assets/search-field-in-updates-tab.png)
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
 
-1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+1. 次をクリック： **x** アイコンを使用して検索結果を消去し、完了時に戻ることができます。
 
 </div>
 
--->
+<!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
 ## 更新情報をコピー
 
