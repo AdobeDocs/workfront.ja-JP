@@ -7,28 +7,33 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
 
 # 新しいコメントエクスペリエンス
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。  </span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->この記事の情報は、新しいコメント作成機能のベータ段階でリリースされた機能を指します。
+>この記事の情報は、新しいコメント作成機能にリリースされた機能を指します。
 >
->新しいコメンティングエクスペリエンスのベータプログラムは 2023 年 4 月に開始され、2023 年 10 月に終了しました。
+>新しいコメンティングエクスペリエンスのベータプログラムは 2023 年 4 月に開始され、2023 年 10 月に終了しました。 新しいコメント作成エクスペリエンスのベータ版プログラムは、2023 年 10 月のリリースで終了しました。
 >
->ベータ版期間中にリリースされた機能は、2023 年の第 4 四半期リリース（2023 年 10 月）以降お客様はすべて利用できるようになり、ベータ版プログラムは終了しました。
+>この記事で説明する機能は、特に指定のない限り、2023 年 10 月にすべてのお客様にリリースされました。
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -394,13 +399,13 @@ The new commenting experience will slowly become available for all the objects w
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>2024 年第 1 四半期 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -409,13 +414,13 @@ The new commenting experience will slowly become available for all the objects w
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>2024 年第 1 四半期 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -508,15 +513,15 @@ Workfrontオブジェクトの更新管理について詳しくは、 [作業を
 
 * 次のオブジェクトの新しいコメントエクスペリエンスと従来のコメントエクスペリエンスの両方：
 
-      *プロジェクト
-      *タスク（ストーリーを含む）
-      *問題
-      *文書
-      
-      >[!TIP]
-      >
-      この節で説明するように、新しいコメントエクスペリエンス（有効にした場合）または従来のコメントエクスペリエンス（無効にした場合）を表示するには、「新しいコメント」オプションを使用します。 新しいコメントエクスペリエンスがデフォルトです。
-  
+   * プロジェクト
+   * タスク（ストーリーを含む）
+   * 問題
+   * ドキュメント
+
+  >[!TIP]
+  >
+  >この節で説明するように、新しいコメントエクスペリエンス（有効にした場合）または従来のコメントエクスペリエンス（無効にした場合）を表示するには、「新しいコメント」オプションを使用します。 新しいコメントエクスペリエンスがデフォルトです。
+
    * 以下に示すオブジェクトの新しいコメントエクスペリエンスのみ。 これらのオブジェクトに対して従来のコメント作成機能を有効にするオプションはありません。
 
       * 目標
