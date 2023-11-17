@@ -3,9 +3,9 @@ title: 2024 年第 1 四半期リリースの概要
 description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-このリリースでは、現時点でWorkfront Fusion のアップデートはありません。 この領域は、更新が利用可能になると更新されます。
+Workfront Fusion の新機能は、2023 年第 1 四半期のリリーススケジュール以外の期間に、実稼動環境で使用できます。 最新の機能について詳しくは、 [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner の機能強化
 
