@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ Workfrontの次の領域で時間をログに記録できます。
 
 #### タイムシートの時間を記録する {#log-time-on-a-timesheet}
 
-タイムシートには、一般時間またはプロジェクト固有の時間を記録できます。
+タイムシート内の次の項目に時間を記録できます。
+
+* Workfront管理者がタイムシートの基本設定を設定した方法に基づいて、自動的に表示される事前入力されたタスク、問題、およびプロジェクト。 タイムシートの事前入力方法については、 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  自分に割り当てられたタスクと問題のみがタイムシートに事前入力されます。 チームまたはジョブの役割に割り当てられたタスクと問題は、タイムシートに自動的に入力されません。
+
+  チームに割り当てられた項目で [ 作業 ] をクリックすると、項目が割り当てられ、項目がタイムシートに表示されます。
+* 手動で追加したタスク、イシュー、またはプロジェクト。
+* 既にWorkfrontのどこかでログに記録しているタスク、イシュー、またはプロジェクト。
+* 一般時間（休暇、トレーニング、オーバーヘッド時間）。
 
 >[!NOTE]
 >
 >タイムシートプロファイルに割り当てられたレビューユーザーは、[ タイムシート ] 領域を表示し、一般時間を記録できます。 ただし、タイムシートに表示されるタスクやタスクに割り当てられた問題に関する時間は記録できません。
 
-1. 次をクリック： [!UICONTROL **メインメニュー**] アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
+タイムシートの時間を記録するには、次の手順に従います。
+
+1. 次をクリック： [!UICONTROL **メインメニュー**] アイコン ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/lines-main-menu.png) Workfrontの左上隅（使用可能な場合）
 
 1. クリック [!UICONTROL **タイムシート**]. 現在のタイムシートは既定で表示されます。
    ![タイムシート](assets/timesheet-redesigned-nwe.png)
-
-   タイムシートには、タイムシートの期間に割り当てられた項目が事前に入力されます。 タイムシートの事前入力方法については、 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). タイムシートに項目が表示されない場合は、項目を追加できます。
-
-   >[!NOTE]
-   >
-   >タイムシートには、自分に割り当てられた項目のみが事前入力されます。 チームやジョブの役割に割り当てられた項目を事前に設定することはできません。
-   >
-   >チームに割り当てられた項目で [ 作業 ] をクリックすると、項目が割り当てられ、項目がタイムシートに表示されます。
 
 
 1. （オプション） **フルスクリーン** アイコン ![](assets/full-screen.png) タイムシートをフルスクリーンモードで表示するには、 **exit-full-screen** ![](assets/exit-full-screen.png) アイコンをクリックしてタイムシートに戻ります。
