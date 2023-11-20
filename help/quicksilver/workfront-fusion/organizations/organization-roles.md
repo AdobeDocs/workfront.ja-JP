@@ -8,9 +8,9 @@ description: この記事では、 [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 5b6f8c882b3452725a1db77420865038abb5dab1
+source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 1%
 >組織の役割は、 [!DNL Workfront Fusion]. 組織とチームの役割について詳しくは、 [組織とチーム](../organizations/organizations-and-teams.md).
 
 ## アクセス要件
-
-この記事の機能を使用するには、次のアクセス権が必要です。
-
-&lt;###アクセス要件
 
 この記事の機能を使用するには、次のアクセス権が必要です。
 
@@ -122,7 +118,7 @@ ht-degree: 1%
   <tr> 
    <td> <p>組織のユーザーを管理</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
