@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 608a5beb5e29a786e41d713f1414a0cb79baf093
+source-git-commit: 681d3b74eec1388f3b6cc7edf51422e0019cc318
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1636'
 ht-degree: 5%
 
 ---
@@ -257,6 +257,7 @@ Light アクセスレベルのオブジェクトに対して使用できる最�
 * リクエストを送信
 * リクエストの追跡
 * リクエストの更新とレビュー
+* リクエストの承認
 
 この組み込みのアクセスレベルを持つユーザー：
 
