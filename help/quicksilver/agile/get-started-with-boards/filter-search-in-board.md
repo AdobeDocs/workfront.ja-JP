@@ -6,9 +6,9 @@ description: ボードをフィルタリングして、特定のカードのみ�
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >The [!UICONTROL アーカイブ済みカード] アーカイブされたカードを表示する設定をオンにしていない場合、セクションはフィルターで使用できません。
+   >The [!UICONTROL アーカイブ済みカード] アーカイブされたカードを表示する設定をオンにしていない場合、セクションはフィルターで使用できません。 詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. 選択 **[!UICONTROL アーカイブしたカード]** を再びクリアし、アクティブなカードのみを表示します。
 

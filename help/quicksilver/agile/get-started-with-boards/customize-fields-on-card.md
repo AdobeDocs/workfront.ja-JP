@@ -6,9 +6,9 @@ description: カードに表示するフィールドをカスタマイズする�
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,19 @@ ht-degree: 0%
 >[!NOTE]
 >
 >後でWorkfrontのカスタムフィールドの名前を変更する場合、設定パネルでフィールドラベルを編集して一致させる必要があります。そうしないと、フィールドがカードに表示されません。
+
+## アーカイブしたカードの表示/非表示を切り替える
+
+アーカイブしたカードをボードに表示するには、構成設定をオンにする必要があります。
+
+1. ボードにアクセスし、 [!UICONTROL **設定**] をクリックして、設定パネルを開きます。
+1. 展開 [!UICONTROL **カード**].
+1. オンにする [!UICONTROL **ボードにアーカイブしたカードを表示する**].
+
+   これで、ボードをフィルタリングして、アーカイブされたカードを表示できます。 詳しくは、 [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. クリック [!UICONTROL **設定を非表示にする**] をクリックして、設定パネルを閉じます。
+
+## カードのフォールオフを設定
+
+一定期間後に自動的にボードからカードを削除するには、 [カードのフォールオフを設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
