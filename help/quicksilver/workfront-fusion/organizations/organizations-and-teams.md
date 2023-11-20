@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion の組織とチームの機能により、�
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1175'
 ht-degree: 1%
 
 ---
@@ -80,6 +80,8 @@ ht-degree: 1%
 * **[!UICONTROL 会計士]**：会計士の役割を持つユーザーは、組織のダッシュボードでライセンス情報を表示することのみ可能です。
 * **[!UICONTROL アプリ開発者]**：この役割の機能は現在使用できません。近い将来に使用可能になる予定です。 現時点では、この役割にユーザーを割り当てることはお勧めしません。
 
+各組織の役割を持つユーザーが使用できる特定のアクションについて詳しくは、 [組織とチームの役割](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### 組織へのユーザーの招待
 
 デフォルトでは、組織の所有者（または承認済みユーザー）は、別のユーザーを組織に招待できます。
@@ -145,7 +147,7 @@ Fusion では、複数の組織に属している場合があります。 リソ
 * **[!UICONTROL チームオペレーター]**: [!UICONTROL 演算子] 役割を使用すると、ユーザーは実行データを表示し、シナリオの「アクティブ」ステータスを変更できます。
 * **[!UICONTROL チーム制限メンバー]**：この役割の機能は現在使用できません。近い将来に使用可能になる予定です。 現時点では、この役割にユーザーを割り当てることはお勧めしません。
 
-チームの役割で使用できる特定のタスクの詳細については、[組織とチームの役割](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+各チームロールのユーザーが使用できる特定のアクションについて詳しくは、 [組織とチームの役割](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### チーム管理
 
