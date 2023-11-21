@@ -1,20 +1,20 @@
 ---
-title: レコードの共有
-description: 他のユーザーとレコードを共有して、共同作業を強化できます。
+title: 分類レコードタイプの作成
+description: 分類は、Adobe Workfront Maestro のオペレーショナルレコードタイプに関する属性を取得する、再利用可能なレコードタイプの一種です。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# レコードの共有
+# 分類レコードタイプの作成
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 1%
 >
 >詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
-他のユーザーと共同作業する場合は、他のユーザーとレコードを共有できます。
+分類は、レコード・タイプで、Adobe・マエストロのオペレーショナル・レコード・タイプに関する属性をキャプチャします。
 
-Maestro レコードは次の方法で共有できます。
+例えば、キャンペーンはオペレーショナルレコードタイプにすることができます。 Campaign レコードタイプに関する属性を取得する分類を次に示します：地域、オーディエンス、国。
 
-* ページが開いている場合に、レコードの詳細ページのリンクをブラウザーからコピーします。
-
-* レコードタイプのテーブルビューのレコードを表示する際に、レコードの詳細ページへのリンクをコピーします。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-この記事では、レコードタイプのテーブルビューからレコードの詳細ページへのリンクをコピーする方法について説明します。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Maestro のレコードタイプの詳細については、 [レコード・タイプと分類の概要](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## アクセス要件
 
@@ -52,7 +38,9 @@ Maestro レコードは次の方法で共有できます。
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> Adobe産物</p> </td>
    <td>
@@ -81,6 +69,7 @@ Maestro レコードは次の方法で共有できます。
    <td> <p>任意</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">レイアウトテンプレート</td>
    <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/grant-access.md">AdobeMaestro へのアクセスを許可</a>. </p>  
@@ -90,8 +79,7 @@ Maestro レコードは次の方法で共有できます。
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## レコードタイプのテーブルビューからレコードリンクを共有する
+## 分類の作成に関する考慮事項
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
+* ワークスペースで分類を作成する前に、ワークスペースを作成する必要があります。
 
-   最後にアクセスしたワークスペースが開きます。
-1. レコードタイプのカードをクリックします。
+  ワークスペースについて詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+* 次のいずれかの操作を行って、分類レコードタイプを作成できます。
+   * テンプレートを使用してワークスペースを作成する際に、自動的に作成します。 詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+   * 最初から手動で作成します。
+   * 外部リストから情報を貼り付けて、手動で作成します。
 
-   レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
-1. レコード行を右クリック
+* 新しく作成されたすべての分類には、次のフィールドが含まれます。
 
-   または
+   * 名前 <!--if there won't be any more fields, consider rephrasing this-->
 
-   レコードの名前の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **リンクをコピー**.
+  さらに、分類にカスタムフィールドを追加できます。 詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    ワークスペーステンプレートを使用する際に作成された分類には、追加のフィールドがあります。
 
-   リンクがクリップボードにコピーされます。
+## 分類の作成
 
-1. 他のユーザーと共有するには、メールまたはチャットウィンドウにリンクを貼り付けます。 ユーザーがリンクを受け取ると、レコードの詳細ページが開きます。
+分類の作成は、最初から、またはワークスペーステンプレートから、オペレーショナルレコードタイプを作成する場合と似ています。
 
-   >[!TIP]
-   >
-   >[ 詳細 ] ページのレコードのフィールドは、そのレコードの [ テーブル ] ビューで使用できるフィールドと同じです。
+詳しくは、この記事の「最初からレコードタイプを作成する」を参照してください。 [レコードタイプの作成](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+テンプレートからワークスペースを作成する際の分類の自動作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).

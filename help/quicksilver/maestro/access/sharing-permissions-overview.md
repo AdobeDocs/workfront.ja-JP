@@ -4,9 +4,9 @@ description: 自分が作成したAdobeMaestro ワークスペースに対する
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 2%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # AdobeMaestro での共有権限の概要
 
@@ -35,7 +37,7 @@ Maestro では、以下のオブジェクトを共有できます。
 
 * ワークスペース
 
-  ワークスペースを共有すると、ワークスペースに関連付けられているすべてのレコードタイプ、レコード、フィールドが共有されます。
+  ワークスペースを共有すると、ワークスペースに関連付けられているすべてのレコードタイプ、レコード、フィールドも共有されます。
 
 ## Maestro でのオブジェクトの共有に関する考慮事項
 
@@ -54,9 +56,14 @@ Maestro では、以下のオブジェクトを共有できます。
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>権限レベル</b></p></td> 
+   <td> <p><b>実行できるアクション</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">ビュー</td> 
-   <td> <p>次の操作を実行できます。</p> 
+   <td role="rowheader"><p>ビュー</p></td> 
+   <td> 
     <ul> 
      <li>ワークスペースの表示</li> 
      <li>ワークスペース内のすべてのレコードの種類を表示する</li> 
@@ -65,8 +72,8 @@ Maestro では、以下のオブジェクトを共有できます。
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">参加</td> 
-   <td> <p>次の操作を実行できます。</p> 
+   <td role="rowheader"><p>参加</p></td> 
+   <td>  
     <ul> 
      <li>表示権限に含まれるすべてのアクション</li> 
      <li>レコードを追加</li>
@@ -77,8 +84,8 @@ Maestro では、以下のオブジェクトを共有できます。
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">管理</td> 
-   <td> <p>次の操作を実行できます。</p> 
+   <td role="rowheader"><p>管理</p></td> 
+   <td> 
     <ul> 
      <li>表示および投稿権限に含まれるすべてのアクション</li> 
      <li>レコードタイプを編集</li> 
@@ -90,7 +97,7 @@ Maestro では、以下のオブジェクトを共有できます。
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront管理者</td> 
+   <td role="rowheader"><p>Workfront管理者</p></td> 
    <td> <p>これはマエストロの許可ではありません。</p>
    <p> すべてのWorkfront管理者は、次の操作を実行できます。 </p>
    <ul><li>ワークスペースの作成</li>
@@ -101,13 +108,15 @@ Maestro では、以下のオブジェクトを共有できます。
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## ワークスペースの共有
 
-Maestro ワークスペースの共有については、 [アクセスの許可](../access/grant-access.md).
+Maestro ワークスペースの共有については、 [AdobeMaestro へのアクセスを許可](../access/grant-access.md).
 
 ## ワークスペースに対する権限の削除
 
-Maestro ワークスペースの共有については、 [アクセスの許可](../access/grant-access.md).
+Maestro ワークスペースの共有については、 [AdobeMaestro へのアクセスを許可](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 

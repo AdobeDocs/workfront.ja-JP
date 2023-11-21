@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
+>この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
 >詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
 レコード情報は、AdobeMaestro で編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
-詳しくは、 [レコードタイプの作成](../architecture-and-fields/create-record-types.md).
+詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
 &lt;! — ここで、詳細ビューのフィールドはテーブルビューのフィールドと同じであると言います。この記事は、この情報を参照するために、レコードビューの管理からリンクされています —>
 
@@ -73,6 +73,62 @@ ht-degree: 2%
   </tr>
  </tbody>
 </table>
+
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
+>この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
@@ -83,6 +83,62 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
  </tbody>
 </table>
 
+
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -99,8 +155,8 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 レコードタイプのページのテーブルビューでレコードを作成できます。
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
-最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture-and-fields/create-workspaces.md).
-1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture-and-fields/create-record-types.md).
+最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトでは、レコードタイプのページがテーブルビューで開きます。
 選択したタイプのすべてのレコードがテーブルビューに表示されます。
@@ -129,11 +185,11 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 
 レコードを Maestro のリンクされたレコードにリンクすることで、他のアプリケーションからレコードを読み込むことができます。
 
-1. Maestro レコードタイプを作成します ( [レコードタイプの作成](../architecture-and-fields/create-record-types.md).
+1. Maestro レコードタイプを作成します ( [レコードタイプの作成](../architecture/create-record-types.md).
 
 1. 前の手順で作成したレコードタイプの Maestro レコードを作成します。 詳しくは、 [レコードタイプに手動でレコードを追加してレコードを作成する](#create-records-by-manually-adding-them-to-a-record-type) 」を参照してください。
 
-1. 作成した Maestro レコードタイプ用のサードパーティアプリケーションから、オブジェクトタイプへの接続を作成します。 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
+1. 作成した Maestro レコードタイプ用のサードパーティアプリケーションから、オブジェクトタイプへの接続を作成します。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
 
 1. 前の手順で作成したリンクされたレコードフィールドを使用して、サードパーティアプリケーションのレコードを上で作成した Maestro レコードに追加します。 詳しくは、 [レコードを接続](../records/connect-records.md).
 

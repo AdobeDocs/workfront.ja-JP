@@ -1,20 +1,32 @@
 ---
-title: レコードの共有
-description: 他のユーザーとレコードを共有して、共同作業を強化できます。
+title: レコードタイプを編集
+description: 保存後にレコードタイプを編集できます。 レコードタイプは、AdobeMaestro のオブジェクトタイプです。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+role: User
+feature: Work Management 
+topic: Architecture
+hidefromtoc: yes
+hide: yes
+---
 
-# レコードの共有
+-->
+
+# レコードタイプを編集
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,7 @@ ht-degree: 1%
 >
 >詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
-他のユーザーと共同作業する場合は、他のユーザーとレコードを共有できます。
-
-Maestro レコードは次の方法で共有できます。
-
-* ページが開いている場合に、レコードの詳細ページのリンクをブラウザーからコピーします。
-
-* レコードタイプのテーブルビューのレコードを表示する際に、レコードの詳細ページへのリンクをコピーします。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-この記事では、レコードタイプのテーブルビューからレコードの詳細ページへのリンクをコピーする方法について説明します。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+レコードタイプは、AdobeMaestro のオブジェクトタイプです。 自分または他のユーザーが作成したレコードタイプの外観を編集できます。 Maestro レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
 ## アクセス要件
 
@@ -89,9 +83,9 @@ Maestro レコードは次の方法で共有できます。
  </tbody>
 </table>
 
+
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +130,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +150,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## レコードタイプのテーブルビューからレコードリンクを共有する
+## レコードタイプを編集
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
-   最後にアクセスしたワークスペースが開きます。
-1. レコードタイプのカードをクリックします。
+   最後にアクセスしたワークスペースは、デフォルトで開きます。
 
-   レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを作成するワークスペースを選択します。
+1. レコードタイプのカードの上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png) レコードタイプカードの右上隅にあるをクリックし、 **外観を更新**.
 
-   選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
-1. レコード行を右クリック
+   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+
+1. [ レコードの種類の更新 ] ボックスで、次の情報を更新します。
+
+   * **レコード名**：必要に応じて、レコードタイプ名を編集します。 <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **外観**：レコードタイプに関連付けられたアイコンの色と形状を編集します。 次の操作を実行します。
+      * レコードの種類を識別する色を選択します。 これは、レコードタイプアイコンの色です。 デフォルトでは「グレー」が選択されています。
+      * リストからアイコンを選択するか、アイコンの名前を入力して内容を説明し、表示されたときに選択します。 これは、レコードタイプのアイコンです。 デフォルトでは、ファイルアイコンが選択されています。
+
+     ![](assets/update-record-type-box.png)
+
+1. 「レコードタイプを更新」ボックスの外側をクリックして、変更を保存します。
+1. （オプション）ワークスペース領域でレコードタイプカードをクリックして、レコードタイプのページを開きます。
+1. 次をクリック： **その他** レコードタイプ名の右にあるメニューをクリックし、 **名前を変更** レコードタイプの名前を変更するには
 
    または
 
-   レコードの名前の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **リンクをコピー**.
+   ヘッダーのレコードタイプの名前を変更します。  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
-   リンクがクリップボードにコピーされます。
-
-1. 他のユーザーと共有するには、メールまたはチャットウィンドウにリンクを貼り付けます。 ユーザーがリンクを受け取ると、レコードの詳細ページが開きます。
-
-   >[!TIP]
-   >
-   >[ 詳細 ] ページのレコードのフィールドは、そのレコードの [ テーブル ] ビューで使用できるフィールドと同じです。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   レコードタイプのページのヘッダーでレコードタイプの名前を変更することもできます。

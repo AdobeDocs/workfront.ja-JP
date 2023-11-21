@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '526'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,10 @@ ht-degree: 1%
 # レコードを削除
 
 >[!IMPORTANT]
->この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
+>この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
+>
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
@@ -69,6 +70,62 @@ Adobe・マエストロでは、不要になったレコードを削除できま
   </tr>
  </tbody>
 </table>
+
+
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

@@ -1,20 +1,31 @@
 ---
-title: レコードの共有
-description: 他のユーザーとレコードを共有して、共同作業を強化できます。
+title: レコードタイプを削除
+description: 関連性がなくなった場合は、オペレーショナルレコードタイプまたは分類レコードタイプを削除できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# レコードの共有
+# レコードタイプを削除
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 1%
 >
 >詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
-他のユーザーと共同作業する場合は、他のユーザーとレコードを共有できます。
+関連性がなくなった場合は、オペレーショナルレコードタイプまたは分類レコードタイプを削除できます。
 
-Maestro レコードは次の方法で共有できます。
+レコード・タイプと分類の詳細は、 [レコード・タイプと分類の概要](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* ページが開いている場合に、レコードの詳細ページのリンクをブラウザーからコピーします。
+別のレコードタイプで削除するレコードタイプまたは分類に関連付けられたフィールドとレコードを、削除する前に再度作成することをお勧めします。
 
-* レコードタイプのテーブルビューのレコードを表示する際に、レコードの詳細ページへのリンクをコピーします。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-この記事では、レコードタイプのテーブルビューからレコードの詳細ページへのリンクをコピーする方法について説明します。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## アクセス要件
 
@@ -90,8 +89,7 @@ Maestro レコードは次の方法で共有できます。
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## レコードタイプのテーブルビューからレコードリンクを共有する
+## レコードタイプを削除する際の考慮事項
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   最後にアクセスしたワークスペースが開きます。
-1. レコードタイプのカードをクリックします。
+* 自分または組織内の任意のユーザーが作成した任意のレコードタイプまたは分類を削除できます。 <!--this will change with access levels and permissions-->
+* レコードタイプを削除すると、そのタイプのフィールドやレコードを含め、レコードに関連するすべての情報が削除されます。
+* 削除したレコードの種類やその情報は復元できません。
+
+## レコードタイプを削除
+
+分類レコードタイプの削除は、オペレーショナルレコードタイプの削除と同じです。
+
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+
+   最後にアクセスしたワークスペースは、デフォルトで開きます。
+
+1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを削除するワークスペースを選択します。
+
+   ワークスペースが開き、それに関連付けられたレコードタイプと分類が表示されます。
+1. レコードタイプまたは削除する分類のカードをクリックします。
 
    レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) をクリックし、 **削除**.
+1. クリック **削除** をクリックして確定します。
 
-   選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
-1. レコード行を右クリック
-
-   または
-
-   レコードの名前の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **リンクをコピー**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   リンクがクリップボードにコピーされます。
-
-1. 他のユーザーと共有するには、メールまたはチャットウィンドウにリンクを貼り付けます。 ユーザーがリンクを受け取ると、レコードの詳細ページが開きます。
-
-   >[!TIP]
-   >
-   >[ 詳細 ] ページのレコードのフィールドは、そのレコードの [ テーブル ] ビューで使用できるフィールドと同じです。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   選択したレコードタイプまたは分類が、そのフィールドおよび関連するレコードと共に削除されます。

@@ -1,20 +1,31 @@
 ---
-title: レコードの共有
-description: 他のユーザーとレコードを共有して、共同作業を強化できます。
+title: フィールドを削除
+description: Adobeマエストロでは、不要になったカスタムフィールドを削除できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 1%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# レコードの共有
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# フィールドを削除
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,22 @@ ht-degree: 1%
 >
 >詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
-他のユーザーと共同作業する場合は、他のユーザーとレコードを共有できます。
+Adobeマエストロでは、レコードに関する情報を格納するカスタムフィールドを作成できます。
 
-Maestro レコードは次の方法で共有できます。
+Maestro でのカスタムフィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
-* ページが開いている場合に、レコードの詳細ページのリンクをブラウザーからコピーします。
+関連性がなくなったマエストロフィールドは削除できます。
 
-* レコードタイプのテーブルビューのレコードを表示する際に、レコードの詳細ページへのリンクをコピーします。
+## マエストロフィールドの削除に関する考慮事項：
 
-<!-- Update with this when we release permissions: 
+* 自分が作成したフィールド、他のユーザーが作成したフィールド、またはシステムが作成したフィールドを削除できます。 <!--this will change with access levels/ permissions-->
+* レコードの「名前」フィールドは削除できません。 <!--change this to say you can't delete the field selected to be the primary-->
+* レコードタイプテーブル内のフィールドのみを削除できます。
+* フィールドに格納されている情報はすべて削除され、復元できません。
+* リンクされたレコードフィールドを削除すると、リンク元のレコードの種類から、リンクされたすべての参照フィールドも削除されます。 リンク先のレコードタイプのリンクされたレコードフィールドは削除されません。
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-この記事では、レコードタイプのテーブルビューからレコードの詳細ページへのリンクをコピーする方法について説明します。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+  詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## アクセス要件
 
@@ -90,8 +98,7 @@ Maestro レコードは次の方法で共有できます。
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +143,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +151,7 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +164,23 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## レコードタイプのテーブルビューからレコードリンクを共有する
+## フィールドを削除
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-   最後にアクセスしたワークスペースが開きます。
-1. レコードタイプのカードをクリックします。
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
-   レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+   これにより、Maestro で最後にアクセスしたワークスペースが開きます。
+1. フィールドを削除するレコードタイプのカードをクリックします。
+1. （条件付き） **テーブル表示** から **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
+1. 列ヘッダーで削除するフィールドを見つけ、列ヘッダーの上にマウスポインターを置き、フィールド名の後の下向き矢印をクリックします。
 
-   選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
-1. レコード行を右クリック
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   または
+1. クリック **削除**. <!-- check this: they might replace it with **Delete field**-->
 
-   レコードの名前の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **リンクをコピー**.
+   <!--insert screen shot when finalized-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. クリック **削除** をクリックして確定します。
 
-   リンクがクリップボードにコピーされます。
-
-1. 他のユーザーと共有するには、メールまたはチャットウィンドウにリンクを貼り付けます。 ユーザーがリンクを受け取ると、レコードの詳細ページが開きます。
-
-   >[!TIP]
-   >
-   >[ 詳細 ] ページのレコードのフィールドは、そのレコードの [ テーブル ] ビューで使用できるフィールドと同じです。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   フィールドが削除され、復元できず、レコードと関連付けられなくなります。

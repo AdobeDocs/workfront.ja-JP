@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
 workflow-type: tm+mt
 source-wordcount: '3491'
 ht-degree: 0%
@@ -125,6 +125,7 @@ Workfrontの次の領域で時間をログに記録できます。
   自分に割り当てられたタスクと問題のみがタイムシートに事前入力されます。 チームまたはジョブの役割に割り当てられたタスクと問題は、タイムシートに自動的に入力されません。
 
   チームに割り当てられた項目で [ 作業 ] をクリックすると、項目が割り当てられ、項目がタイムシートに表示されます。
+
 * 手動で追加したタスク、イシュー、またはプロジェクト。
 * 既にWorkfrontのどこかでログに記録しているタスク、イシュー、またはプロジェクト。
 * 一般時間（休暇、トレーニング、オーバーヘッド時間）。

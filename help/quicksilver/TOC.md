@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b7dcb97f5741a5c8b3710494e4cde25d6de9036e
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '13421'
+source-wordcount: '13428'
 ht-degree: 2%
 
 ---
@@ -1999,20 +1999,23 @@ ht-degree: 2%
    * [Adobeマエストロの概要](maestro/maestro-overview.md)
    * [Adobeマエストロリリースアクティビティ](maestro/release-activity.md)
    * Adobeマエストロのアーキテクチャ {#adobe-maestro-architecture}
-      * [アーキテクチャ情報](maestro/architecture-and-fields/architecture-and-fields-information.md)
-      * [ワークスペースの作成](maestro/architecture-and-fields/create-workspaces.md)
-      * [レコード・タイプと分類の概要](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-      * [オペレーショナルレコードタイプの作成](maestro/architecture-and-fields/create-record-types.md)
-      * [分類レコードタイプの作成](maestro/architecture-and-fields/create-a-taxonomy.md)
-      * [レコードタイプを接続](maestro/architecture-and-fields/connect-record-types.md)
-      * [フィールドの作成](maestro/architecture-and-fields/create-fields.md)
-      * [レコードタイプを編集](maestro/architecture-and-fields/edit-record-types.md)
-      * [フィールドを編集](maestro/architecture-and-fields/edit-fields.md)
-      * [ワークスペースの削除](maestro/architecture-and-fields/delete-workspaces.md)
-      * [レコードタイプを削除](maestro/architecture-and-fields/delete-record-types.md)
-      * [フィールドを削除](maestro/architecture-and-fields/delete-fields.md)
-      * [レコードタイプとレコードの接続例](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
-      * [Workspace テンプレートのリスト](maestro/architecture-and-fields/workspace-templates.md)
+      * [アーキテクチャ情報](maestro/architecture/architecture-information.md)
+      * [ワークスペースの作成](maestro/architecture/create-workspaces.md)
+      * [レコード・タイプと分類の概要](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [オペレーショナルレコードタイプの作成](maestro/architecture/create-record-types.md)
+      * [分類レコードタイプの作成](maestro/architecture/create-a-taxonomy.md)
+      * [レコードタイプを接続](maestro/architecture/connect-record-types.md)
+      * [レコードタイプを編集](maestro/architecture/edit-record-types.md)
+      * [ワークスペースの削除](maestro/architecture/delete-workspaces.md)
+      * [レコードタイプを削除](maestro/architecture/delete-record-types.md)
+      * [レコードタイプとレコードの接続例](maestro/architecture/example-connect-record-types-and-records.md)
+      * [Workspace テンプレートのリスト](maestro/architecture/workspace-templates.md)
+   * Adobeマエストロフィールド {#adobe-maestro-fields}
+      * [フィールド情報](maestro/fields/fields-information.md)
+      * [フィールドの概要](maestro/fields/fields-overview.md)
+      * [フィールドの作成](maestro/fields/create-fields.md)
+      * [フィールドを編集](maestro/fields/edit-fields.md)
+      * [フィールドを削除](maestro/fields/delete-fields.md)
    * Adobeマエストロアクセス {#adobe-maestro-access}
       * [アクセス情報](maestro/access/access-information.md)
       * [アクセスの概要](maestro/access/access-overview.md)

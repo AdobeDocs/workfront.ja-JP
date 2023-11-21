@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 4%
+source-wordcount: '2080'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
+>この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
@@ -125,7 +125,7 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
 テーブルビューでは、最大 500 個のフィールド（または列）を追加できます。
 
 1. レコードタイプのページに移動し、 **テーブル** ビューを選択します。
-1. 記事の説明に従って、フィールド（または列）の追加を開始します。 [フィールドの作成](../architecture-and-fields/create-fields.md).
+1. 記事の説明に従って、フィールド（または列）の追加を開始します。 [フィールドの作成](../fields/create-fields.md).
 
    追加した列は、レコードタイプにアクセスするすべてのユーザーに対して表示され、選択したレコードタイプのレコードの [ 詳細 ] ページに新しいフィールドとして追加されます。
 
@@ -238,7 +238,7 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 
      >[!TIP]
      >
-     > リンクされたフィールドは選択できません。 詳しくは、 [フィールドの作成](../architecture-and-fields/create-fields.md).
+     > リンクされたフィールドは選択できません。 詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 
    >[!TIP]
    >
-   > リンクされたフィールドは選択できません。 詳しくは、 [フィールドの作成](../architecture-and-fields/create-fields.md).
+   > リンクされたフィールドは選択できません。 詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
 1. （オプション） **レコードの並べ替え基準** ボックスで、 **x** 並べ替えを削除するための並べ替えフィールドの右側のアイコン
 

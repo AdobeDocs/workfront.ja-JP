@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
+>この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >[AdobeMaestro のデモビデオを見る](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  詳しくは、 [ワークスペースの作成](../maestro/architecture-and-fields/create-workspaces.md).
+  詳しくは、 [ワークスペースの作成](../maestro/architecture/create-workspaces.md).
 
 * **レコードタイプ**：マエストロメインオブジェクトタイプ。
 
@@ -140,7 +140,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
   Maestro では、組織のワークフローに合う任意のレコードタイプを作成できます。 後で、レコードの種類を相互に関連付けたり、フォームの依存関係を定義したりできます。
 
-  詳しくは、 [オペレーショナル・レコード・タイプと分類の概要](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  詳しくは、 [オペレーショナル・レコード・タイプと分類の概要](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro には次のレコードタイプがあります。
 
@@ -150,7 +150,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
      例えば、キャンペーン、アクティビティ、プログラムは、運用レコードのタイプにすることができます。
 
-     詳しくは、 [レコードタイプの作成](../maestro/architecture-and-fields/create-record-types.md).
+     詳しくは、 [レコードタイプの作成](../maestro/architecture/create-record-types.md).
 
    * **分類**：操作レコードタイプに関する属性をキャプチャするレコードタイプ。
 
@@ -160,7 +160,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
      例えば、Audience、Region、Address は、分類タイプのレコードタイプにすることができます。
 
-     詳しくは、 [分類レコードタイプの作成](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     詳しくは、 [分類レコードタイプの作成](../maestro/architecture/create-a-taxonomy.md).
 
 * **レコード**: Maestro レコードタイプのインスタンス。 レコードは、オペレーショナルレコードタイプまたは分類を指す場合があります。
 
@@ -183,7 +183,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
   Maestro には、セールス、マーケティング、製品管理の各ワークスペーステンプレートが付属しています。
 
-  詳しくは、 [ワークスペースの作成](../maestro/architecture-and-fields/create-workspaces.md).
+  詳しくは、 [ワークスペースの作成](../maestro/architecture/create-workspaces.md).
 
 * **フィールド**：フィールドは、レコードタイプに関する情報を含む、オペレーショナルレコードタイプまたは分類レコードタイプに追加できる属性です。 <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
    * Maestro フィールドは完全にカスタマイズ可能で、Maestro でのみアクセス可能です。 Workfrontから Maestro フィールドにアクセスすることはできません。
 
-  詳しくは、 [フィールドの作成](../maestro/architecture-and-fields/create-fields.md)
+  詳しくは、 [フィールドの作成](../maestro/fields/create-fields.md)
 
   新しいオペレーショナルレコードタイプは、デフォルトで次の定義済みフィールドに関連付けられます。
 
@@ -243,7 +243,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
   レコードの種類、レコードのリンク、およびリンクされたフィールドの作成については、次の記事を参照してください。
 
-   * [レコードタイプを接続](../maestro/architecture-and-fields/connect-record-types.md)
+   * [レコードタイプを接続](../maestro/architecture/connect-record-types.md)
    * [レコードを接続](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
+>この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
@@ -153,8 +153,8 @@ ht-degree: 1%
 ## ビューの作成または編集 {#create-or-edit-views}
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
-最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture-and-fields/create-workspaces.md).
-1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture-and-fields/create-record-types.md).
+最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
@@ -189,10 +189,10 @@ ht-degree: 1%
 
 1. 次から： **メインメニュー** ![](assets/main-menu-workfront.png) 画面の右上隅に <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner of the screen, if available,--> click **マエストロ** ![](assets/maestro-icon.png).
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture-and-fields/create-workspaces.md).
+   最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 1. レコードタイプのカードをクリックします。
 
-   レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture-and-fields/create-record-types.md).
+   レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
@@ -208,8 +208,8 @@ ht-degree: 1%
 If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
 
 1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the type selected display in the table view. 
 

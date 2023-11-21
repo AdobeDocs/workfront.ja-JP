@@ -1,20 +1,20 @@
 ---
-title: レコードの共有
-description: 他のユーザーとレコードを共有して、共同作業を強化できます。
+title: ワークスペースの削除
+description: 関係がなくなったワークスペースは削除できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# レコードの共有
+# ワークスペースの削除
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 1%
 >
 >詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
-他のユーザーと共同作業する場合は、他のユーザーとレコードを共有できます。
+AdobeMaestro では、ワークスペースはチームが作業を計画するための一元化された場所です。 詳しくは、 [ワークスペースの作成](../architecture/delete-workspaces.md).
 
-Maestro レコードは次の方法で共有できます。
+不要になったワークスペースは削除できます。
 
-* ページが開いている場合に、レコードの詳細ページのリンクをブラウザーからコピーします。
-
-* レコードタイプのテーブルビューのレコードを表示する際に、レコードの詳細ページへのリンクをコピーします。
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-この記事では、レコードタイプのテーブルビューからレコードの詳細ページへのリンクをコピーする方法について説明します。
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+削除するワークスペースに関連付けられているレコードタイプと分類の一部またはすべてを、別のワークスペースで再作成してから、削除することをお勧めします。
 
 ## アクセス要件
 
@@ -60,7 +46,7 @@ Maestro レコードは次の方法で共有できます。
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobeMaestro ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -90,8 +76,7 @@ Maestro レコードは次の方法で共有できます。
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +121,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +129,8 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +143,20 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## レコードタイプのテーブルビューからレコードリンクを共有する
+## ワークスペースの削除に関する考慮事項
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
+* 自分または組織内の任意のユーザーが作成したワークスペースを削除できます。 <!--this will change with access levels and permissions-->
+* ワークスペースを削除すると、すべてのレコードタイプ、分類、およびそのフィールドも削除されます。 <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
+* 削除したワークスペースとそれらに含まれる情報は復元できません。
+
+## ワークスペースの削除
+
+1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
    最後にアクセスしたワークスペースが開きます。
-1. レコードタイプのカードをクリックします。
 
-   レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、削除するワークスペースを選択します。
+1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) ワークスペース名の横にある「 」をクリックし、 **削除**.
+1. クリック **削除** をクリックして確定します。
 
-   選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
-1. レコード行を右クリック
-
-   または
-
-   レコードの名前の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **リンクをコピー**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   リンクがクリップボードにコピーされます。
-
-1. 他のユーザーと共有するには、メールまたはチャットウィンドウにリンクを貼り付けます。 ユーザーがリンクを受け取ると、レコードの詳細ページが開きます。
-
-   >[!TIP]
-   >
-   >[ 詳細 ] ページのレコードのフィールドは、そのレコードの [ テーブル ] ビューで使用できるフィールドと同じです。
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   ワークスペースは削除され、復元できません。 レコード・タイプ、分類、レコード、およびそれらに関連付けられているフィールドも削除されます。 <!--ensure this is right after closed beta-->

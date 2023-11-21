@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe・マエストロに関して、Adobeからの新しいオファーです。
+>この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
@@ -42,9 +42,9 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
 
 最初に、別のアプリケーションから 2 つのレコードの種類またはレコードの種類をオブジェクトの種類に接続し、次に、レコードの種類の [ テーブル ] ビューを使用して、レコードを別のオブジェクトに接続します。
 
-レコードタイプを相互に接続する方法、または他のアプリケーションからオブジェクトタイプに接続する方法については、「 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
+レコードタイプを相互に接続する方法、または他のアプリケーションからオブジェクトタイプに接続する方法については、「 [レコードタイプを接続](../architecture/connect-record-types.md).
 
-レコードタイプを接続する例については、 [レコードタイプとレコードの接続例](../architecture-and-fields/example-connect-record-types-and-records.md).
+レコードタイプを接続する例については、 [レコードタイプとレコードの接続例](../architecture/example-connect-record-types-and-records.md).
 
 次の項目を接続できます。
 
@@ -113,6 +113,61 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
    * Workfrontオブジェクト。 例えば、まずWorkfrontでプロジェクト、ポートフォリオ、プログラム、会社、グループを作成する必要があります。
    * Maestro ワークスペース、レコードタイプ、およびレコード。 詳しくは、次の記事を参照してください。
 
-      * [ワークスペースの作成](../architecture-and-fields/create-workspaces.md)
-      * [レコードタイプの作成](../architecture-and-fields/create-record-types.md)
+      * [ワークスペースの作成](../architecture/create-workspaces.md)
+      * [レコードタイプの作成](../architecture/create-record-types.md)
       * [レコードを作成](../records/create-records.md)
 
-   * レコードタイプ間の接続、または他のアプリケーションのレコードタイプとオブジェクト間の接続。 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
+   * レコードタイプ間の接続、または他のアプリケーションのレコードタイプとオブジェクト間の接続。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md)
 
 ### Maestro レコードを接続
 
@@ -158,7 +213,7 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードを接続するワークスペースを選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. を選択します。 **テーブル** から表示 **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
-1. 選択したレコードタイプから別のレコードまたはオブジェクトタイプに接続を追加します。 詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
+1. 選択したレコードタイプから別のレコードまたはオブジェクトタイプに接続を追加します。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
 
    リンクされたレコードタイプを表示する新しい列がテーブルに追加されます。
 
@@ -216,7 +271,7 @@ Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接
    * 会社
    * グループ
 
-   詳しくは、 [レコードタイプを接続](../architecture-and-fields/connect-record-types.md).
+   詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
 
    新しい列がテーブルに追加され、リンクされたオブジェクトタイプが表示されます。
 
