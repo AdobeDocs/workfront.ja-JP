@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -64,18 +64,21 @@ The new commenting experience will slowly become available for all the objects w
 * Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報が最初に削除されました。 2023 年 10 月 19 日に復帰しました。
 * ドキュメントにコメントを追加する際に担当者にタグを付ける際に「承認を求める」オプション。
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->以下に示すオブジェクトには、2019 年 1 月 1 日以降の新しいコメントエクスペリエンスで使用できるコメントとシステムアップデートのみが含まれています。
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->2019 年 1 月 1 日より前に、現在のエクスペリエンスの「更新」セクションを表示した場合は、これらのオブジェクトに関するコメントおよびシステム更新を表示できます。
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* イシュー
->* プロジェクト
->* タスク
->* ドキュメント
+>* Issues
+>* Projects
+>* Tasks
+>* Documents
 
-詳しくは、 [新しいコメントエクスペリエンスの FAQ](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
 

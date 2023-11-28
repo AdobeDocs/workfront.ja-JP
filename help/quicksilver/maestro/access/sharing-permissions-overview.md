@@ -4,9 +4,10 @@ description: 自分が作成したAdobeMaestro ワークスペースに対する
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -94,6 +95,7 @@ Maestro では、以下のオブジェクトを共有できます。
      <li>フィールドを追加</li> 
      <li>フィールドを削除</li> 
      <li>レコードタイプ間に新しい接続を追加する</li> 
+     <li>ワークスペースをユーザーおよびグループと共有する</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ Maestro ワークスペースの共有については、 [AdobeMaestro へのア
 Maestro ワークスペースの共有については、 [AdobeMaestro へのアクセスを許可](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-

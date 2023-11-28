@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2223'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ For general information on the new commenting experience, including a list of fe
 ### 2023 年 9 月 11 日の週
 
 #### 新しいコメントエクスペリエンスでは、2019 年 1 月 1 日から情報が取り込まれます
+
+>[!NOTE]
+>
+>この制限は、2023 年 11 月 28 日以降に削除されました。 詳しくは、 [2024 年第 1 四半期リリースの概要](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
 
 2019 年 1 月 1 日以降、プロジェクト、タスク、イシューおよびドキュメントの更新が表示されるようになりました。 この機能強化以前は、新しいコメントエクスペリエンスでは、これらのオブジェクトに関する更新のみが 2022 年 6 月から取り込まれていました。
 

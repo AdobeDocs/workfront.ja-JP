@@ -7,14 +7,14 @@ description: Latest Available Time(LAT) は、Adobe Workfrontのタスク制約�
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# タスク制約の概要：最新の利用可能時間
+# タスク制約の概要：最新の使用可能な時間
 
 Latest Available Time(LAT) は、Adobe Workfrontのタスク制約の一種です。
 
@@ -29,7 +29,7 @@ LAT 制約は、プロジェクト内の先行者と後続者の関係を考慮�
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>To update the Task Constraint to Latest Available Time:</p>
-<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
+<p>(NOTE: replaced with new article linked above) </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p> </li>
@@ -56,19 +56,19 @@ Latest Available Time 制約は、次の条件が存在する場合、 As Late A
 
 * **最新の利用可能時間：** 先行タスクに対して [ 最新の利用可能時間 ] 制約を使用すると、後続タスクの柔軟な制約が優先されます。
 
-   **例：** たとえば、タスク A はタスク B の先行タスクです。タスク A には最新の利用可能時間制約が、タスク B には [ 可能な限り早く ] 制約が設定されます。 この場合、タスク A は、可能な限りプロジェクトの開始に近い状態にスケジュールされます。
+  **例：** たとえば、タスク A はタスク B の先行タスクです。タスク A には最新の利用可能時間制約が、タスク B には [ 可能な限り早く ] 制約が設定されます。 この場合、タスク A は、可能な限りプロジェクトの開始に近い状態にスケジュールされます。
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **できるだけ遅くまで、** このシナリオでは、先行タスクに対して [ 可能な限り遅延 ] 制約を使用すると、先行タスクが優先されます。
+* **できるだけ遅くまで、以下をおこないます。** このシナリオでは、先行タスクに対して [ 可能な限り遅延 ] 制約を使用すると、先行タスクが優先されます。
 
-   **例：** たとえば、タスク A はタスク B の先行タスクです。タスク A には可能な限り遅い制約、タスク B には可能な限り早い制約があります。 この場合、タスク A は可能な限りプロジェクトの終わり近くにスケジュールされます。
+  **例：** たとえば、タスク A はタスク B の先行タスクです。タスク A には可能な限り遅い制約、タスク B には可能な限り早い制約があります。 この場合、タスク A は可能な限りプロジェクトの終わり近くにスケジュールされます。
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE:&nbsp;this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
+<p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
 <p>The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:</p>
 <ul>
 <li> The project is scheduled From Completion </li>
