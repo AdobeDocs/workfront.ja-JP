@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2161'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,30 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023 年 11 月 27 日の週
+
+### Maestro テーブルビューで、あるフィールドから別のフィールドに情報をコピーして貼り付けます
+
+プレビューおよび実稼動環境：2023 年 11 月 29 日
+
+Maestro レコードタイプのテーブルビューで、あるフィールドから同じタイプの別のフィールドに情報をコピーして貼り付けることができるようになりました。
+
+次の点に注意してください。
+
+* 情報を貼り付けるフィールドと同じタイプの Maestro フィールド以外の別のソースから情報をコピーすることはできません。
+
+* レコードの「詳細」領域に表示されるフィールドのフィールド値をコピーして貼り付けることはできません。
+
+* 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。
+
+   * ユーザー
+
+   * システムフィールド
+
+   * レコードを接続した結果作成されたリンク済みフィールド
+
+詳しくは、 [レコードを編集](../maestro/records/edit-records.md).
 
 ## 2023 年 11 月 6 日の週
 

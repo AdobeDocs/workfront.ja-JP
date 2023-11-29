@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 2%
+source-wordcount: '821'
+ht-degree: 1%
 
 ---
 
@@ -193,7 +193,7 @@ After permssions - replace the table with:
 
 ### レコードタイプのテーブルビューからレコードを編集する
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) 右上隅に <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
+1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
 
    最後にアクセスしたワークスペースが開きます。
 
@@ -201,10 +201,38 @@ After permssions - replace the table with:
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューで、 **テーブル** 表示。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
 
    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
 1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. 押す **入力** キーボードでクリックするか、行の外側をクリックして変更を保存します。 変更内容は自動的に保存されます。 保存済みのインジケータが、テーブルビューの右上隅に短く表示され、変更が保存されたことが示されます。
+
+   >[!NOTE]
+   >
+   >  次のフィールドの情報は読み取り専用で、Workfrontによって自動的に更新されるので、編集できません。
+   >  
+   >  * レコードタイプをリンクして作成した、リンクされたフィールド
+   >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日
+
+
+1. （オプション）フィールドの既存の値をコピーして、別のレコードの同じタイプのフィールドに貼り付け、「 **入力** をクリックして、変更を保存します。
+
+   >[!NOTE]
+   >
+   >次の点に注意してください。
+   >
+   >* 情報を貼り付けるフィールドと同じタイプの Maestro フィールド以外の別のソースから情報をコピーすることはできません。
+   >
+   >* レコードの「詳細」領域に表示されるフィールドのフィールド値をコピーして貼り付けることはできません。
+   >* 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。
+   ><ul>
+   >
+   > * ユーザー
+   >
+   > * システムフィールド
+   >
+   > * レコードを接続した結果作成されたリンク済みフィールド
+
+   <!--take People out of the list above when they release this - this might be coming later-->
