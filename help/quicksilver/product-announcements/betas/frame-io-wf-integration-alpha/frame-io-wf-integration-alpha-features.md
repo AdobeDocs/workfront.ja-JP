@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,17 @@ ht-degree: 0%
 
 対処しようとしている主な使用例と、それをおこなう予定の機能に関する情報を以下に示します。 <!--, along with documentation to get you started testing.-->
 
+>[!NOTE]
+>
+><span class="preview">ハイライト表示されたテキスト</span> 以下は、まだ実装されていないが、今後のリリースに含まれる機能を指します。
+>
+>下の箇条書き **「今後のリリースでの潜在的な改善点」** アルファフィードバックや進化する開発計画に応じて、ヘッダーは将来のリリースに含まれる場合と含まれない場合があります。
+>
+
+
 ### Workfrontの管理者は、Workfrontグループと Frame.io アカウント間の接続を設定できます
 
-* _Workfront内で、Workfrontグループを Frame.io アカウントに接続できます_
+* <span class="preview">Workfront内で、Workfrontグループを Frame.io アカウントに接続できます</span>
 
 * 新しい Frame.io チームが Frame.io 内に作成され、接続されているWorkfrontグループを表します。
 
@@ -76,19 +84,19 @@ ht-degree: 0%
 
 * Frame 接続グループを割り当てることで、Workfrontプロジェクトを Frame.io 有効としてマークする機能
 
-* _機能強化： Workfrontプロジェクト内のタスクを Frame タスクとして切り替える機能。Frame.io 内にタスクフォルダーが順番に作成されます。_
+* <span class="preview">機能強化： Workfrontプロジェクト内のタスクを Frame タスクとして切り替える機能。Frame.io 内にタスクフォルダーが順番に作成されます。</span>
 
 * Workfrontプロジェクトのステータスが「現在」に設定されている場合、対応する接続済みプロジェクトが Frame に作成され、Workfrontが割り当てたユーザーが Frame プロジェクトに追加され、Frame.io から電子メール通知が送信されます
 
    * すべてのWorkfrontプロジェクトメンバー（ユーザーおよびチーム）は、Frame.io プロジェクト（プロジェクトの作成時以降）に共同作業者として追加されます
 
-   * _変更： Frame が有効なWorkfrontタスクに割り当てられたユーザーとチームは、Collaborators として Frame.io プロジェクトに追加され、（プロジェクトの作成時以降に）通知されます。_
+   * <span class="preview">変更： Frame が有効なWorkfrontタスクに割り当てられたユーザーとチームは、Collaborators として Frame.io プロジェクトに追加され、（プロジェクトの作成時以降に）通知されます。</span>
 
 * プロジェクトが作成されると (トリガー：プロジェクトのステータスが [ 現在 ] に設定されている )、プロジェクトに追加されたドキュメント（クリエイティブブリーフ）と Frame が有効なタスクは、Frame.io プロジェクト（各作業フォルダ内）にプッシュされます
 
    * Frame.io に複数の不要なドキュメントを送信しないように、クリエイティブブリーフに対してのみアクティブになる前に、プロジェクトに追加するドキュメントの量を制限することをお勧めします。
 
-* _機能強化：フレームが有効なWorkfrontタスクから明示的に割り当てられていないユーザー/チームは、Frame.io プロジェクトから削除されます_
+* <span class="preview">機能強化：フレームが有効なWorkfrontタスクから明示的に割り当てられていないユーザー/チームは、Frame.io プロジェクトから削除されます</span>
 
 **今後のリリースでの潜在的な改善点：**
 
@@ -104,9 +112,9 @@ ht-degree: 0%
 
 * Frame.io 内の新しいバージョンのアップロードでは、Connected Assets 上のWorkfront内に新しいドキュメントバージョンが自動的に作成されます。
 
-* _機能強化： Frame.io 内から参照先のWorkfrontタスクを完了済みとしてマークする機能_
+* <span class="preview">機能強化： Frame.io 内から参照先のWorkfrontタスクを完了済みとしてマークする機能</span>
 
-* _機能強化：接続されたWorkfrontドキュメントが削除された場合、そのドキュメントは Frame.io 内に残り、同じプロジェクトタスクや他のプロジェクトタスクに再接続できます_
+* <span class="preview">機能強化：接続されたWorkfrontドキュメントが削除された場合、そのドキュメントは Frame.io 内に残り、同じプロジェクトタスクや他のプロジェクトタスクに再接続できます</span>
 
 **今後のリリースでの潜在的な改善点：**
 
@@ -118,7 +126,7 @@ ht-degree: 0%
 
 * Workfrontのユーザーとチームを、Frame.io 接続ドキュメントの新しいドキュメント承認に追加できます
 
-* _機能強化：ユーザー/チームが Frame 対応ドキュメントから共有を解除すると、Frame.io Viewer でのアセットへのアクセス権も失われます。_
+* <span class="preview">機能強化：ユーザー/チームが Frame 対応ドキュメントから共有を解除すると、Frame.io Viewer でのアセットへのアクセス権も失われます。</span>
 
 **今後のリリースでの潜在的な改善点：**
 
@@ -134,12 +142,12 @@ ht-degree: 0%
 
 * Workfrontの更新ストリームと同期される Frame.io ビューアが提供する既存のレビューおよびコメント機能を利用する機能
 
-* _Frame.io ビューア内から新しいドキュメントの承認を決定する機能_
+* <span class="preview">Frame.io ビューア内から新しいドキュメントの承認を決定する機能</span>
 
 ### Frame.io 内では、クリエイティブは、接続された Frame.io アセットに対しておこなわれた全体的な決定について通知されます。
 
-* _機能強化：ドキュメントの全体的な承認ステータスは、Frame.io 内のアセットに表示されます。_
+* <span class="preview">機能強化：ドキュメントの全体的な承認ステータスは、Frame.io 内のアセットに表示されます。</span>
 
 ### プロジェクトコーディネーターは、最終アセットをAEMに送信できます
 
-* _機能強化：既存のWorkfront + AEM Asset CS コネクタを使用して、メタデータを含むフレーム接続ドキュメントをAEMに送信できます_
+* <span class="preview">機能強化：既存のWorkfront + AEM Asset CS コネクタを使用して、メタデータを含むフレーム接続ドキュメントをAEMに送信できます</span>

@@ -1,15 +1,9 @@
 ---
-content-type: tips-tricks-troubleshooting;reference
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: mobile-workfront-proof
 title: のヒント、テクニックおよびトラブルシューティング [!DNL Workfront Proof] モバイルアプリ
 description: Workfront Proof Mobile のトラブルシューティングについて説明します。
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
-recommendations: noDisplay, noCatalog
-exl-id: b8384c56-345d-428a-bb86-05fa4001d3ea
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+hide: true
+hidefromtoc: true
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%

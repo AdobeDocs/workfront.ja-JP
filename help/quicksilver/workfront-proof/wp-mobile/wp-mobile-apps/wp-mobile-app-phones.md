@@ -1,14 +1,9 @@
 ---
-content-type: overview;reference
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof モバイルアプリ
 description: Workfront Proof モバイルアプリについて説明します。
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
-exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+hide: true
+hidefromtoc: true
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 0%

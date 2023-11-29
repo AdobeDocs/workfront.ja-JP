@@ -3,13 +3,13 @@ title: 2024 年第 1 四半期リリースの概要
 description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # 2024 年第 1 四半期リリースの概要
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### ホームの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">作業クイックアクションボタンがマウスオーバー時にのみ表示されるように変更されました</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>パフォーマンスを向上させるために、作業ウィジェットで使用できるクイックアクションボタンは、作業項目をマウスで移動したときにのみ表示されるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 11 月 30 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様の本番環境：2023 年 11 月 30 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### 統合の強化
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメント作成エクスペリエンスでは、プロジェクト、タスク、問題、ドキュメントに関するすべての情報が取り込まれます</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>プロジェクト、タスク、問題およびドキュメントは、Workfrontインスタンスが開始されてから、新しいコメント作成エクスペリエンス領域にすべての更新内容を表示します。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 11 月 29 日</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動環境：2023 年 11 月 28 日</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントまたはユーザーを検索します。</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>オブジェクトの「更新」セクションの情報をすばやく見つけるために、コメントまたはコメントに関連付けられた任意のユーザーからキーワードを検索できるようになりました。</p>

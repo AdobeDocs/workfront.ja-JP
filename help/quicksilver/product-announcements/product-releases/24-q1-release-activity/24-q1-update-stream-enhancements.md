@@ -3,9 +3,10 @@ title: 2024 年第 1 四半期の更新ストリームと通知の機能強化
 description: 2024 年第 1 四半期の更新ストリームと通知の機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,11 @@ ht-degree: 0%
 
 このページでは、2024 年第 1 四半期のリリースでプレビュー環境に対しておこなわれたすべての更新ストリームおよび通知の機能強化について説明します。 これらの機能強化は、2024 年第 1 四半期リリースの実稼動環境で利用できるようになります。
 
-2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 新しいコメント作成エクスペリエンスでは、プロジェクト、タスク、問題、ドキュメントに関するすべての情報が取り込まれます
+
+プロジェクト、タスク、問題およびドキュメントは、Workfrontインスタンスが開始されてから、新しいコメント作成エクスペリエンス領域にすべての更新内容を表示します。 この機能強化以前は、新しいコメントエクスペリエンスでは、これらのオブジェクトに関して、2019 年 1 月以降の更新のみが取り込まれていました。
 
 ## 「更新」セクションでコメントまたはユーザーを検索します。
 
