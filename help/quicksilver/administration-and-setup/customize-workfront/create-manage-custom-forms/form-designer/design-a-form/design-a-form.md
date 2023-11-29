@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
+source-git-commit: 85afa798eacb297ad4e5fd3a92277e307eea5a97
 workflow-type: tm+mt
-source-wordcount: '4886'
+source-wordcount: '4908'
 ht-degree: 4%
 
 ---
@@ -538,8 +538,9 @@ ht-degree: 4%
       <td><p>API の URL を入力または貼り付けます。</p><p>API URL は、ドロップダウンに表示するオプションの JSON コンテンツを返す必要があります。 「 JSON パス」フィールドを使用して、返された JSON からドロップダウンオプションに含まれる特定の値を選択できます。</p><p>API URL を入力する際に、オプションで次の値を URL に渡すことができます。</p>
       <ul><li>$$QUERY — エンドユーザーがフィールドに入力する検索テキストを表し、エンドユーザーに対してクエリフィルターを実装できます。 （ユーザーはドロップダウン内の値を検索します）。</li>
       <li>$$HOST — 現在のWorkfrontホストを表し、Workfront API に対する/search API 呼び出しをおこなうために使用できます。 このワイルドカードを使用する場合、認証が処理され、ユーザーは認証ヘッダーを送信する必要はありません。 （例えば、ユーザーはベース URL「$$HOST/attask/api/task/search」を使用してタスクを検索し、返されたタスクのリストから値を選択できます）。</li>
-      <li>{fieldName} - fieldName は、Workfrontの任意のカスタムフィールドまたはネイティブフィールドです。 この方法では、既に選択されているフィールドの値を「外部参照」フィールドに渡してオプションをフィルターダウンする際に、カスケードドロップダウンオプションフィルターを実装できます。 （例えば、「地域」フィールドが既にフォーム上に存在し、API から特定の地域に属する国のリストに国を絞り込むとします）。</li></ul>
-      <p><strong>注意：</strong> 使用している API のドキュメントで、定義できる特定のクエリについて確認します。</p></td> 
+      <li>{fieldName} - fieldName は、Workfrontの任意のカスタムフィールドまたはネイティブフィールドです。 この方法では、既に選択されているフィールドの値を「外部参照」フィールドに渡してオプションをフィルターダウンする際に、カスケードドロップダウンオプションフィルターを実装できます。 （例えば、「地域」フィールドが既にフォーム上に存在し、API から特定の地域に属する国のリストに国を絞り込むとします）。</li>
+      <li>{referenceObject}.{fieldName}  — フィールドがオブジェクトの一部である場所。 この構文は、カスタム式に似ています。 ( 例：portfolioID={project}.{portfolioID})</li></ul>
+      <p><strong>注意：</strong> 使用している API のドキュメントで、定義できる特定のクエリについて確認します。</p></td>
      </tr>
      <tr> 
       <td role="rowheader">HTTP メソッド</td> 
