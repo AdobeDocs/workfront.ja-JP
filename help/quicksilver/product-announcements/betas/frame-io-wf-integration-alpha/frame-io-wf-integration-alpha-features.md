@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ ht-degree: 0%
 
 この機能をテストするには、Workfront Preview または Sandbox インスタンスにログインし、次の手順を実行してください。
 
+>[!NOTE]
+>
+><span class="preview">ハイライト表示されたテキスト</span> 以下は、まだテスト用に実装されていないが、今後のリリースに含まれる機能を指します。
+>
+
 1. **コーディネーター：** Workfront内で、 `Frame.io alpha testing` プロジェクトグループとして割り当てられたグループ。
 
-1. **コーディネーター：** Workfront内で、クリエイティブをプロジェクトまたはフレーム対応タスクに割り当て、プロジェクトのステータスを「現在」に変更します。
+1. **コーディネーター：** Workfront内で、クリエイティブをプロジェクトに割り当てます。 <span class="preview">またはフレーム対応タスク</span> プロジェクトのステータスを「現在」に変更します。
 
 1. **クリエイティブ：** メールで、新しく作成した Frame.io プロジェクトへの招待を確認してください
 
 1. **クリエイティブ：** 招待メール内の「プロジェクトに参加」ボタンをクリックして Frame.io プロジェクトに参加し、プロジェクト内のクリエイティブの概要を確認し、選択したCreative Cloudツール内でコンテンツの作成を開始します。
 
-1. **クリエイティブ：** 作成したアセットを Frame.io にアップロードし、リンクされたWorkfrontプロジェクトに追加します（またはフレーム対応タスクを割り当てます）。
+1. **クリエイティブ：** 作成したアセットを Frame.io にアップロードし、リンクされたWorkfrontプロジェクトに追加します。 <span class="preview">（またはフレームが有効なタスクを割り当てました）。</span>
 
 1. **コーディネーター：** Workfront内で、プロジェクト内でリンクされた Frame.io アセットを見つけ、レビュー担当者/承認者を割り当てます ( レビュー/承認者の割り当てについて詳しくは、 [ドキュメントに追加の承認者またはレビュー担当者を追加する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)) をクリックします。
 
 1. **関係者：** Workfront内で、承認リクエストをホームまたはドキュメントの詳細で表示し、Frame.io ビューアで Frame に接続されたドキュメントを確認し、フィードバックを含むコメントを残します。
 
-1. **コーディネーター：** Workfront内で、Frame.io 接続ドキュメントの「更新」セクションに、関係者が作成したコメントを表示します。
+1. <span class="preview">**コーディネーター：** Workfront内で、Frame.io 接続ドキュメントの「更新」セクションに、関係者が作成したコメントを表示します。</span>
 
-1. **関係者：** Frame.io ビューア内で決定を行います。
+1. <span class="preview">**関係者：** Frame.io ビューア内で決定を行います。</span>
 
-1. **クリエイティブ：** Frame.io 内では、アセットに対する全体的な承認の決定に注目します。
+1. <span class="preview">**クリエイティブ：** Frame.io 内では、アセットに対する全体的な承認の決定に注目します。</span>
 
 1. **クリエイティブ：** Frame.io 内で、接続されたアセットのバージョンスタックに更新されたバージョンを追加して、要求された変更を適用します。
 
