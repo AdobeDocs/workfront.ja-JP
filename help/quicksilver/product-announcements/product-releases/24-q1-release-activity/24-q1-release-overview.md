@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合で Typeahead フィールドを使用できるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>WorkfrontとAdobe Experience Managerの間でフィールドを簡単にリンクできるように、メタデータマッピングに typeahead フィールドのサポートが追加されました。 これで、Adobe Experience Managerで typeahead フィールドを対応するフィールドにマッピングできるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合で Typeahead フィールドを使用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p><p>WorkfrontとAdobe Experience Managerの間でフィールドを簡単にリンクできるように、メタデータマッピングに typeahead フィールドのサポートが追加されました。 これで、Adobe Experience Managerで typeahead フィールドを対応するフィールドにマッピングできるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -159,7 +159,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>プレビューリリース： 2023 年 11 月 17 日</p>
                             </li>
                             <li>
-                                <p><span class="preview">すべてのお客様向けの実稼動：2023 年 12 月 7 日</span></p>
+                                <p><span class="preview">すべてのお客様の本番環境：2023 年 11 月 30 日</span></p>
                             </li>
                         </ul>
                     </td>
