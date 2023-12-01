@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool を使用すると、シナリオを
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
+source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1799'
 ht-degree: 1%
 
 ---
@@ -74,10 +74,6 @@ Devtool へのアクセスは、Fusion を [!DNL Adobe Unified Experience].
 
 1. ページの空の領域（モジュール上ではなく）を右クリックします。
 1. 選択 **開発者ツールを開く**.
-
->[!NOTE]
->
->現在、 **Live Stream** および **シナリオデバッガー** 開発ツールの領域は、Unified Experience のユーザーが利用できます。 The **ツール** 現時点では、統合エクスペリエンスでは領域を利用できません。
 
 ### クラシックの開発ツールにアクセスする [!DNL Fusion] エクスペリエンス
 
@@ -193,10 +189,6 @@ Live Stream は、シナリオで「1 回実行」をクリックすると、バ
 1. 目的の操作をクリックして、リクエストの詳細を表示します。
 
 ### ツール
-
->[!NOTE]
->
->この領域は、現在、Unified Experience のAdobeでは使用できません。
 
 The [!DNL Workfront Fusion] 開発ツールには、シナリオの設定を容易にするツールが備わっています。
 
