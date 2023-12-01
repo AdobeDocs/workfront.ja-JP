@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
      ![](assets/table-view-example.png)
 
-   * **タイムライン表示**：少なくとも 2 つの「日付」フィールドを持つレコードを時系列で表示します。
+   * **タイムライン表示**：少なくとも 2 つの日付タイプフィールドを持つレコードを時系列で表示します。
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -373,12 +373,8 @@ To share the Maestro area using a layout template:
 | リクエストを送信 |                               |                                  | ✓ |
 | クリエイティブの概要 |                               |                                  | ✓ |
 | レコードの色とアイコンのカスタマイズ | ✓ |                                  |                 |
-<!--
-Add another row for Rich text formatting:
-
-
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
--->
+| レコードにコメントを追加 |                               | ✓ |                 |
+| 段落フィールドのリッチテキスト書式設定 | ✓ |                                  |                 |
 
 ## マエストロリリースアクティビティ
 
