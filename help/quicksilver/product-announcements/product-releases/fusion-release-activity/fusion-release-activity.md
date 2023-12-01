@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion は、アプリと Web サービスをシー
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 83249a555a71ea9626d5df53036144f991e81617
+source-git-commit: d2ebed0139b04bb7c42bbae8064b416229472fdf
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../.
 
 ### 2023 年 11 月
 
+* [Workfront Fusion リリースアクティビティ： 2023 年 11 月 27 日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
 * [Workfront Fusion リリースアクティビティ： 2023 年 11 月 13 日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
 
 
