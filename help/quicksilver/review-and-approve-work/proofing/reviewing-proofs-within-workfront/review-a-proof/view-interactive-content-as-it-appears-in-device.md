@@ -6,9 +6,9 @@ description: 様々なデバイスでのインタラクティブな配達確認�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td> <p>現在のプラン：作業またはプラン</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -54,9 +54,9 @@ Adobe Workfrontの管理者が、Desktop Proofing Viewer または ZIP ファイ
 
 * Web 校正ビューアでは、様々なデバイスの解像度で表示されるインタラクティブコンテンツを表示できます。 ただし、Web 校正ビューアでは、ボタンの色など、これらのデバイスのインターフェイス仕様を使用したコンテンツはエミュレートされません。
 
-   >[!NOTE]
-   >
-   >Workfrontの管理者は、この記事の「インタラクティブな配達確認用のカスタムデバイスの設定」の説明に従って、組織内のユーザー向けのカスタムデバイスを設定できます。
+  >[!NOTE]
+  >
+  >Workfrontの管理者は、組織内のユーザーのカスタムデバイスを設定できます。詳しくは、 [配達確認用のカスタムデバイスの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) 記事内 [組織の配達確認設定を構成します](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## プリセットのデバイスまたは解像度設定で配達確認を表示
 
@@ -81,7 +81,7 @@ Adobe Workfrontの管理者が、Desktop Proofing Viewer または ZIP ファイ
 1. 開く配達確認が含まれているドキュメントリストに移動します。
 1. ドキュメントにカーソルを合わせ、 **配達確認を開く**.
 1. クリック **レスポンシブ** をクリックします。
-1. カスタムを入力 **レスポンシブ** 解像度。
+1. カスタムを入力 **レスポンシブ** 解決方法。
 
    ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
 
@@ -93,7 +93,7 @@ Adobe Workfrontの管理者が、Desktop Proofing Viewer または ZIP ファイ
 
    カスタム解像度は、次の場所に表示されます。
 
-   * 内 **解像度** パネルを使用して、ビューアの中央下部に配置できます。\
-      ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
+   * Adobe Analytics の **解像度** パネルを使用して、ビューアの中央下部に配置できます。\
+     ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
    * すべてのコメントレビュー担当者が配達確認に追加します。 各コメントには、レビュー担当者がコメントを作成したときに選択した画面の解像度が含まれます。
