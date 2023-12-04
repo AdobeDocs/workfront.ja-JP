@@ -1,7 +1,7 @@
 ---
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 6ad50604b74310659572d679f483afa0fc44491f
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '2241'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 ## 手順 1 — ユーザーにアクセスする {#step-1-to-users}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ユーザー]** ![](assets/users-icon-in-main-menu.png).
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ユーザー]** ![ユーザーアイコン](assets/users-icon-in-main-menu.png).
 
 
 <!-- Agile -->
@@ -86,9 +86,23 @@ ht-degree: 1%
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ボード]**.
 
+<!-- Blueprints -->
+
+## 手順 1 — ブループリントへのアクセス — {#step1-to-blueprints}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ブループリント]**.
+
 <!-- Calendars -->
 
+## 手順 1 — カレンダーの取得 — {#step1-to-calendars}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL カレンダー]**.
+
 <!-- Documents -->
+
+## 手順 1 — ドキュメントの取得 — {#step1-to-documents}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ドキュメント]**.
 
 ## リンクされたフォルダの設定 {#setup-linked-folder}
 
@@ -104,7 +118,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
    >[!NOTE]
    >
-   >リンクされたフォルダーを作成するには、Adobe Experience Manager Assets で指定したフォルダーへの書き込みアクセス権が必要です。
+   >リンクされたフォルダーを作成するには、指定したフォルダーに対するAdobe Experience Manager Assetsでの書き込みアクセス権が必要です。
 
 1. 「**保存**」をクリックします。
 
@@ -130,7 +144,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 前提条件 {#cc-install-prereq}
 
-使用しているAdobe Creative Cloudアプリケーション用の正しいプラグインをインストールする必要があります。
+使用している Adobe Creative Cloud アプリケーションに適したプラグインをインストールする必要があります。
 * Photoshopについては、 [Adobe Workfront for Photoshopのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * XDの場合は、 [Adobe Workfront for XDのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * InDesign、Illustrator、Premiere Pro、After Effectsについては、 [Adobe Workfrontをインストールしてデザインとビデオを作成](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -200,7 +214,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
          </td>
       </tr>
       <tr>
-         <td colspan="2" ><strong>メール通知</strong>
+         <td colspan="2" ><strong>電子メール通知</strong>
          </td>
       </tr>
       <tr>
@@ -229,18 +243,45 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
       </tr>
       </table>
 
+<!-- Maestro -->
 
+## 手順 1 - Maestro へのアクセス — {#step1-to-maestro}
 
-
-<!-- Log Time -->
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL マエストロ]**.
 
 <!-- Manage Work -->
+
+## 手順 1 -Portfolio- {#step1-to-portfolios}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL Portfolio]**.
+
+## 手順 1 — プログラムへのアクセス — {#step1-to-programs}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL プログラム]**.
+
+## 手順 1 — プロジェクトへのアクセス — {#step1-to-projects}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL プロジェクト]**.
+
+## 手順 1 — リクエストの取得 — {#step1-to-requests}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL リクエスト]**.
+
+## 手順 1 — テンプレートの概要 — {#step1-to-templates}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL テンプレート]**.
 
 <!-- Mobile -->
 
 ## モバイル配達確認 — 詳細メニュー {#mobile-proof-more-menu}
 
 1. ドキュメントの配達確認を開き、「 **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/mobile-verticalmoremenu-20x33.png) をクリックします。 次に、 **[!UICONTROL その他]**.
+
+<!-- My Updates -->
+
+## 手順 1 — 更新情報の入手 — {#step1-to-my-updates}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL マイアップデート]**.
 
 <!-- Notifications -->
 
@@ -260,7 +301,23 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 <!-- Reports -->
 
+## 手順 1 — レポートへのアクセス — {#step1-to-reports}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL レポート]**.
+
+## 手順 1 — ダッシュボードにアクセスする — {#step1-to-dashboards}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ダッシュボード]**.
+
+## 手順 1 - Analytics にアクセスする — {#step1-to-analytics}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL Analytics]**.
+
 <!-- Resource Management -->
+
+## 手順 1 — リソース設定 — {#step1-to-resourcing}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL リソース]**.
 
 <!-- Review and approve work -->
 
@@ -268,7 +325,7 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 ## 手順 1 — シナリオプランナーの概要 — {#step1-to-scenario-planner}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png), ( または ![メインメニュー](assets/main-menu-icon-left-nav.png) （使用可能な場合）、 **[!UICONTROL シナリオ]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL シナリオ]**.
 
 <!-- Teams -->
 
@@ -326,18 +383,21 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 
 1. Adobe Analytics の **[!UICONTROL 組織]** セクションで、 **[!UICONTROL ホームチーム]** フィールドに入力します。 設定をユーザーに関連付けるチームの名前を入力します。 リストにチームの名前が表示されたら、そのチームの名前をクリックします。
 
-1. 「**[!UICONTROL 変更を保存]**」をクリックします。選択したユーザがホームチームに関連付けられます。
+1. クリック **[!UICONTROL 変更を保存]**.
+選択したユーザがホームチームに関連付けられます。
 これで、「完了」ボタンに関連付けられたステータスを含むチーム設定が、これらのユーザーに対して表示されます。
 
 <!-- Timesheets -->
+
+## 手順 1 — タイムシートの概要 — {#step1-to-timesheets}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL タイムシート]**.
 
 <!-- Workfront Goals -->
 
 ## 手順 1 — 目標の設定 — {#step1-to-goals}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) 画面の右上隅にある、または（使用可能な場合） **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL 目標]**.
-
-   「Workfront目標」領域が開きます。
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL 目標]**.
 
 <!-- Workfront Fusion -->
 
