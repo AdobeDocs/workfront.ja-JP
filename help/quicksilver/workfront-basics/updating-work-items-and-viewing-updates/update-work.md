@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * 「ホーム」領域から（タスクおよび問題に関する）
    * オブジェクトの一覧の [ 概要 ] パネル、またはタイムシート（タスクと問題の場合）から
 
-このページの情報では、Workfrontオブジェクトに対するコメントの作成方法と、プロジェクト、タスクおよび問題の更新方法について説明します。
+このページの情報では、Workfrontオブジェクトにコメントする方法と、コメントを追加する際にプロジェクト、タスクおよび問題を更新する方法について説明します。
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 目標のコメントについて詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md). Workfront Goals にアクセスするには、追加のライセンスが必要です。
 
@@ -156,13 +158,14 @@ drafted for P&P release:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>問題およびドキュメントに対する要求以上、その他のすべてのオブジェクトに対する確認以上</p> </td> 
+   <td> <p>問題およびドキュメントのリクエスト以上</p>
+   <p> その他のすべてのオブジェクトを確認するか、それ以上の値を設定します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
    <td> <p>更新先のオブジェクトのアクセスを表示または編集</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+アクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
@@ -175,14 +178,29 @@ drafted for P&P release:
 
 ## 作業項目に更新を追加する
 
+作業項目に更新を追加する方法は、使用する「更新」セクションのバージョンに応じて異なります。
+
+次のオブジェクトに更新を追加できます。
+
+* プロジェクト
+* タスク
+* イシュー
+* プログラム
+* ポートフォリオ
+* テンプレート
+* テンプレートタスク
+* ユーザー
+* タイムシート
+* チーム
+* 目標
+* 「ボード」領域のカード
+* イテレーション
+
+### 「レガシー更新」セクションの作業項目に更新を追加する
+
 >[!IMPORTANT]
 >
 >このページの情報では、プロジェクト、タスクおよび問題を更新する方法について説明します。
-
-
-作業項目に更新を追加する方法は、使用する「更新」セクションのバージョンに応じて異なります。
-
-### 「レガシー更新」セクションの作業項目に更新を追加する
 
 1. 更新を行う作業項目（プロジェクト、タスク、タスクなど）に移動します。
 1. 次をクリック： **更新** 」セクションに入力します。
