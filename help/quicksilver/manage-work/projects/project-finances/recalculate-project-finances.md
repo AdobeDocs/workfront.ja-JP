@@ -6,9 +6,9 @@ description: 財務は、プロジェクトに記録された時間に変更が�
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよび財務データへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトおよび財務データへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>財務を管理する権限を持つプロジェクトに対する権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## Adobe Workfrontの財政計算に関する検討事項
 
@@ -77,17 +77,17 @@ Enhanced Analytics では、次の方法で財務を計算します。
 
 収益率は、次のレベルで変更できます。
 
-* システムレベル（ジョブロール用）\
-   システムレベルで請求率を使用してジョブロールを作成する方法の詳細は、この記事を参照してください。 [ジョブの役割の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* システムレベル（ジョブロールの場合）\
+  システムレベルで請求率を使用してジョブロールを作成する方法の詳細は、この記事を参照してください。 [ジョブの役割の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * ユーザーレベル\
-   ユーザーの請求率情報の変更について詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  ユーザーの請求率情報の変更について詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * 会社レベル（ジョブロールの場合）\
-   詳しくは、 [会社レベルでのジョブロール請求率の上書き](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+  詳しくは、 [会社レベルでのジョブロール請求率の上書き](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-* プロジェクトレベル（ジョブロール用）\
-   プロジェクトレベルでのジョブの役割率の上書きの詳細は、この記事を参照してください [ジョブ・ロール請求率の上書きとプロジェクトの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+* プロジェクトレベル（ジョブロールの場合）\
+  プロジェクトレベルでのジョブの役割率の上書きの詳細は、この記事を参照してください [ジョブ・ロール請求率の上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 例えば、プロジェクトの進行中にユーザーの請求率が 1 時間あたり$50 から$75 に変わり、既存のすべてのデータを古い料金（$50 と時間）で計算したままにしたいとします。 ただし、プロジェクトの財務が再計算されると、既に既存の財務データを持つタスクの収益は、新しい請求率（1 時間当たり 75 ドル）を反映して更新されます。
 
@@ -100,13 +100,13 @@ Enhanced Analytics では、次の方法で財務を計算します。
 
 プロジェクト上の財務を再計算しない場合や、請求済請求レコードに記録された時間をロックした場合、レート変更後に記録された時間は新しいレートで計算され、原価レート変更前に記録された時間は古いレートで計算されます。
 
-請求レコードの作成の詳細については、「 [請求レコードの作成](../../../manage-work/projects/project-finances/create-billing-records.md).
+請求レコードの作成について詳しくは、 [請求レコードの作成](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### 複数の請求レート上書きを使用してプロジェクト収益を保持 {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 プロジェクト・レベルでジョブ・ロールの請求レートが変更された場合、指定期間内にロックされた複数の請求レート上書きを使用して、プロジェクトで既に計算済の既存の収益を保持できます。
 
-複数の請求率の上書きの使用について詳しくは、 [ジョブ・ロール請求率の上書きとプロジェクトの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+複数の請求率の上書きの使用について詳しくは、 [ジョブ・ロール請求率の上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -117,12 +117,12 @@ Enhanced Analytics では、次の方法で財務を計算します。
 コストレートは、次のレベルで変更できます。
 
 * システムレベル（ジョブロール用）\
-   システムレベルでのコストレートでジョブロールを作成する方法の詳細については、「 [ジョブの役割の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  システムレベルでコストレートを使用してジョブロールを作成する方法の詳細については、「 [ジョブの役割の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * ユーザーレベル\
-   ユーザーのコストレート情報の変更の詳細については、「 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  ユーザーのコストレート情報の変更の詳細については、「 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-請求率が上記のレベルで変更された場合は、プロジェクトに記録された時間をロックし、古いレートを使用して計算した既存のコストを「請求」ステータスの請求レコードに保持できます。 請求レコードの作成の詳細については、「 [請求レコードの作成](../../../manage-work/projects/project-finances/create-billing-records.md).
+請求率が上記のレベルで変更された場合は、プロジェクトに記録された時間をロックし、古いレートを使用して計算した既存のコストを「請求」ステータスの請求レコードに保持できます。 請求レコードの作成について詳しくは、 [請求レコードの作成](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 請求レコードを作成しない場合は、「財務の再計算」オプションを使用しないでください。詳しくは、「 [プロジェクトの財務を手動で再計算する](#manually-recalculate-finances-for-a-project) 」を参照してください。
 
@@ -138,15 +138,15 @@ Enhanced Analytics では、次の方法で財務を計算します。
 
 プロジェクトの財務は、プロジェクトページ、またはプロジェクトリストまたはレポートから、Workfrontで再計算できます。
 
-一括編集中に財務を再計算できます。 詳しくは、 [「プロジェクトの編集」ボックスで財務を一括して手動で再計算する](#manually-recalculate-finances-in-bulk-in-the-edit-projects-box) 」の節を参照してください。
+一括編集中に財務を再計算できます。 詳しくは、 [財務を一括で手動で再計算する](#manually-recalculate-finances-in-bulk) 」の節を参照してください。
 
-1. 財務を再計算するプロジェクトに移動し、 **詳細** アイコン ![](assets/qs-more-icon-on-an-object.png) プロジェクト名の右側に
+1. 財務を再計算するプロジェクトに移動し、 **その他** アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、 **詳細** アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
+   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、 **その他** アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -154,14 +154,14 @@ Enhanced Analytics では、次の方法で財務を計算します。
    >
    >プロジェクトの複雑さに応じて、最適なパフォーマンスを確保するために財務を一括再計算する場合は、多数のプロジェクトを選択しないことをお勧めします。 プロジェクトが複雑すぎる可能性があるものには、複数の依存関係や割り当て、または多数のカスタムフィールドがあるものがあります。
 
-1. クリック **財務の再計算**.
+1. クリック **財務の再計算**.
 
    プロジェクトのすべての計画済みコストと収益は、新しい情報で再計算されます。
 
-   プロジェクトの財務が正常に再計算されたことをブラウザーの上部に確認するメッセージが表示されます。\
-   既存のコスト値と、新しいレートを反映するように更新がロックされていない一部の売上高値。
+   プロジェクトの財務が正常に再計算されたことをブラウザーの上部に確認するメッセージが表示されます。
+既存のコスト値と、新しいレートを反映するように更新がロックされていない一部の売上高値。
 
-## 「プロジェクトの編集」ボックスで財務を一括して手動で再計算する {#manually-recalculate-finances-in-bulk-in-the-edit-projects-box}
+## 財務を一括で手動で再計算する{#manually-recalculate-finances-in-bulk}
 
 複数のプロジェクトの財務を一括編集することで、手動で再計算できます。 これにより、プロジェクトの売上高が遡って再計算されます。
 
@@ -172,15 +172,19 @@ Enhanced Analytics では、次の方法で財務を計算します。
 複数のプロジェクトの財務を手動で再計算する手順は、次のとおりです。
 
 1. プロジェクトのリストに移動します。
-1. リスト内の複数のプロジェクトを選択し、「 **編集**.
+1. リスト内の複数のプロジェクトを選択し、 **その他** アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
+
+   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
    >プロジェクトの複雑さに応じて、最適なパフォーマンスを確保するために、大量のプロジェクトを一括編集する際には選択しないことをお勧めします。 プロジェクトが複雑すぎる可能性があるものには、複数の依存関係や割り当て、または多数のカスタムフィールドがあるものがあります。
 
-1. クリック **設定**&#x200B;を選択し、「 **コストと売上高を再計算**.
+1. クリック **財務の再計算**.
 
-1. クリック **変更を保存**.
+   選択したプロジェクトのすべての計画原価と収益は、新しい情報で再計算されます。
+
+   プロジェクトの財務が正常に再計算されたことをブラウザーの上部に確認する必要があります。
 
 ## 財政の自動再計算をトリガーする行為
 
@@ -188,10 +192,10 @@ Enhanced Analytics では、次の方法で財務を計算します。
 
 * タスクステータスの変更
 * 時間を含むタスクを別のプロジェクトに移動する
-* プロジェクトステータスを完了からアクティブステータスに変更
+* プロジェクトステータスを完了からアクティブステータスに変更する
 
 >[!NOTE]
 >
 >プロジェクトのステータスを変更すると、計画された値のみが再計算されます。
 
-また、 **詳細** メニュー ![](assets/qs-more-menu.png) プロジェクトレベルで、 **財政を再計算**.
+また、 **その他** メニュー ![](assets/qs-more-menu.png) プロジェクトレベルで、 **財政を再計算**.
