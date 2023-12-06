@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## 2023 年 12 月 4 日の週
+
+### 人物タイプとリンクされたレコードフィールドの Maestro テーブルビューで、あるフィールドから別のフィールドに情報をコピーして貼り付けます
+
+プレビューおよび実稼動： 2023 年 12 月 6 日
+
+Maestro レコードタイプのテーブルビューで、あるフィールドから同じタイプの別のフィールドに情報をコピーして貼り付けることができるようになりました。 この機能は、次のタイプのフィールドでサポートされるようになりました。
+
+* ユーザー
+* リンクされたレコードフィールド
+
+次の点に注意してください。
+
+* 複数の値を表示するフィールドでは、あるフィールドから別のフィールドへのフィールド値のコピーと貼り付けがサポートされています。
+
+* 情報を貼り付けるフィールドと同じタイプの Maestro フィールド以外の別のソースから情報をコピーすることはできません。
+
+* レコードの「詳細」領域に表示されるフィールドのフィールド値をコピーして貼り付けることはできません。
+
+詳しくは、 [レコードを編集](../maestro/records/edit-records.md).
+
+リンクされたフィールドについて詳しくは、 [レコードタイプを接続](../maestro/architecture/connect-record-types.md).
 
 ## 2023 年 11 月 27 日の週
 

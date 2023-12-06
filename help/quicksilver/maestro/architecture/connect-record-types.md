@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
+
 ## レコードタイプの接続に関する考慮事項
+
+次の点に注意してください。
 
 * Maestro では、次のエンティティを接続できます。
 
@@ -219,7 +222,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/dots-main-menu.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/lines-main-menu.png) 左上隅で、「 **[!UICONTROL マエストロ]**.
 
    最後にアクセスしたワークスペースは、デフォルトで開きます。
 

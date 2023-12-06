@@ -2,27 +2,27 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: の基本を学ぶ [!UICONTROL ホーム]
-description: 内で作業内容を表示する方法は 2 つあります。 [!UICONTROL ホーム] 領域 ( [!UICONTROL 作業用リスト] または [!UICONTROL カレンダー].
+description: The [!UICONTROL ホーム] area は、割り当てられたタスク、問題、および承認を検索するためのワンストップショップです。 内で作業内容を表示する方法は 2 つあります。 [!UICONTROL ホーム] 領域 ( [!UICONTROL 作業用リスト] または [!UICONTROL カレンダー].
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # の基本を学ぶ [!UICONTROL ホーム]
 
-この記事では、現在の [!UICONTROL ホーム] 領域 [!DNL Adobe Workfront]. 新しい [!UICONTROL ホーム]を参照してください。 [Adobe Workfrontの新しいホームを開始する](../new-home/get-started-with-new-home.md).
+この記事では、現在の [!UICONTROL ホーム] 領域 [!DNL Adobe Workfront]. 新しい [!UICONTROL ホーム]を参照してください。 [新しいホームを使い始める](../new-home/get-started-with-new-home.md).
 
 現在の [!UICONTROL ホーム] 領域：
 
 * 次から： [!UICONTROL 作業用リスト]
 * 次から： [!UICONTROL カレンダー].
 
-## 作業リスト
+## [!UICONTROL 作業用リスト]
 
 割り当てられたすべての作業を、 [!UICONTROL 作業用リスト]:
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 * [次の項目を [!UICONTROL 作業用リスト] （内） [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [から作業項目を作成する [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
-## カレンダー
+## [!UICONTROL カレンダー]
 
 作業項目が期限切れになったときに表示することで、作業内容を視覚化できます。また、作業内容を [!UICONTROL カレンダー] （内） [!UICONTROL ホーム] 領域：
 
@@ -59,15 +59,15 @@ ht-degree: 0%
 
 ## 作業の検索
 
-The [!UICONTROL ホーム] area は、割り当てられたタスク、問題、および承認を検索するためのワンストップショップです。 フィルターと並べ替えのオプションが [!UICONTROL ホーム] 地域は、お客様の希望に沿った作業をサポートするために協力します。 以下を使用すると、 [!UICONTROL 並べ替え基準] 」オプションを使用して項目をグループ化し、「フィルター」を使用して、完了する必要のある作業に焦点を当てます。
+The [!UICONTROL ホーム] area は、割り当てられたタスク、問題、および承認を検索するためのワンストップショップです。 フィルター、グループ化、並べ替えの各オプションは、作業項目を目的の方法で整理する際に役立ちます。 グループ化を使用して、項目をグループ化したり、完了する必要がある作業にフィルターを適用したり、最後に並べ替えて、項目をグループ化の昇順または降順にリスト化したりできます。
 
 >[!NOTE]
 >
 >フィルターおよび並べ替えのオプションは、ブラウザーに保存されます。 同じコンピューターで一貫して同じブラウザーを使用している（サイトのデータをクリアしない）場合、フィルターと並べ替えは変更されませんが、ブラウザーまたはコンピューターを切り替えた場合、フィルターと並べ替えは異なります。
 
-### 類似した作業項目を「[!UICONTROL グループ化の基準]「 」オプション
+### 類似した作業項目をグループ化と共にグループ化します
 
-The [!UICONTROL 並べ替え基準] 「 」オプションを使用すると、「 」項目を作業リスト内でグループ化できます。 並べ替え基準は次のとおりです。
+グループ化を使用すると、ワークリストの共通ヘッダーの下に、同様の項目を表示できます。 項目を次の項目でグループ化できます。
 
 * [!UICONTROL 計画完了]
 * [!UICONTROL 計画開始]
@@ -93,21 +93,17 @@ The [!UICONTROL 作業用リスト] フィルターを使用すると、特定�
 
   例えば、 [!UICONTROL 問題] すべての州のすべての問題を見るには ([!UICONTROL 作業中] または [!UICONTROL リクエスト済み]) または [!UICONTROL 承認] すべての作業項目、アクセス要求、タイムシート、ドキュメント、および配達確認の承認を表示するには、次の手順に従います。
 
-* ステータスのみでフィルターします。
-
-  例えば、 [!UICONTROL 完了] フィルターを使用して、完了したタスクと問題を表示します。 これには個人のタスクも含まれますが、承認は含まれません。
-
 フィルターの使用方法について詳しくは、 [次の項目を [!UICONTROL 作業用リスト] （内） [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
 ### チームに割り当てられた作業にアクセス
 
-The [!UICONTROL ホーム] 領域には、チームのリクエストページへの直接リンクを持つチームリクエスト専用の永続的なグループがあります。 このグループを使用して、現在いる任意のチームに対するリクエストを表示し、アクセスします。
+The [!UICONTROL ホーム] 領域に永続的なグループ化 ([!UICONTROL チームリクエスト]) をクリックして、チームに割り当てられたタスクと問題を表示します。 チームはこのセクションに表示されます。 チームの名前をクリックすると、そのチームのチームリクエストページが開きます。
 
 >[!NOTE]
 >
->The [!UICONTROL フィルター] および [!UICONTROL 並べ替え基準] オプションは [!UICONTROL チームリクエスト] グループ化。 このグループは、チームに作業が割り当てられている限り表示されます。
+>フィルターおよび並べ替えオプションは、 [!UICONTROL チームリクエスト] グループ化。 このグループは、チームに作業が割り当てられている限り表示されます。
 
 チームリクエストへのアクセスについて詳しくは、この記事を参照してください。 [[!UICONTROL 管理] での作業とチームのリクエスト [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
@@ -115,19 +111,19 @@ The [!UICONTROL ホーム] 領域には、チームのリクエストページ�
 
 ### 送信した作業を監視します
 
-直接承認用に送信した作業を次の場所から追跡する [!UICONTROL 作業用リスト]. 承認が必要な作業を承認者に通知することができます。 必要に応じて、承認を取り消すこともできます。
+直接承認用に送信した作業を次の場所から追跡する [!UICONTROL 作業用リスト]. 次の項目が永続的にグループ化されています： [!UICONTROL 送信済みの承認] 表示を選択したとき [!UICONTROL 承認] （内） [!UICONTROL 作業用リスト]. 承認が必要な作業を承認者に通知することができます。 必要に応じて、承認を取り消すこともできます。
 
 >[!NOTE]
 >
->The [!UICONTROL フィルター] および [!UICONTROL 並べ替え基準] オプションは [!UICONTROL 送信済みの承認] グループ化。 承認待ちの作業がある限り、このグループは表示されます。
-
-
+>フィルターと並べ替えは、 [!UICONTROL 送信済みの承認] グループ化。 承認待ちの作業がある限り、このグループは表示されます。
+>
+>内の承認数 [!UICONTROL 承認] フィルターには、承認用に送信した項目数が表示されません。 The [!UICONTROL 承認] フィルターには、承認を待っている項目のみが表示されます。
 
 ![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
 
 ## 重要な項目を優先する
 
-The [!UICONTROL 作業用リスト] を使用すると、 [!UICONTROL 優先度の並べ替え基準] オプション。 最大 20 個の項目を [!UICONTROL 優先度] リスト。 以下を使用します。 [!UICONTROL その他] メニューを使用して、優先度リストに作業項目を追加します。
+The [!UICONTROL 作業用リスト] を使用すると、 [!UICONTROL 優先度] グループ化。 最大 20 個の項目を [!UICONTROL 優先度] リスト。
 
 >[!NOTE]
 >
@@ -139,34 +135,31 @@ The [!UICONTROL 作業用リスト] を使用すると、 [!UICONTROL 優先度�
 
 ## 完了
 
-の右側のパネルを使用します。 [!UICONTROL ホーム] をクリックして、作業を更新し、完了します。
+項目名をクリックした後 [!UICONTROL 作業用リスト]を使用する場合は、 [!UICONTROL ホーム] をクリックして、作業を更新し、完了します。
 
 ### カスタマイズされたスペースで作業する
 
-お使いの [!DNL Adobe Workfront] 管理者は、最大 16 個のカスタムフィールドを追加して、必要な情報を簡単に見つけて更新できます。 ほとんどのフィールドは編集可能なので、作業項目に移動する必要はありません。
+お使いの [!DNL Workfront] 管理者は、最大 16 個のカスタムフィールドを [!UICONTROL 作業用リスト]必要な情報を簡単に見つけて更新できるようにします。 ほとんどのフィールドは編集可能なので、作業項目に移動する必要はありません。
 
-この領域のフィールドを更新するには、単にそのフィールドをクリックします。
+この領域のフィールドを更新するには、単にフィールドをクリックします。 フィールドが編集可能な場合は、右パネルで変更できます。
 
 >[!NOTE]
 >
->次を更新できません： [!UICONTROL コミット日] この領域では
+>次を更新できません： [!UICONTROL コミット日] このフィールドをレイアウトテンプレートから作業項目に追加する場合。
 
 ![](assets/16-fields-home-350x137.png)
 
-### 同僚を重要な情報で更新する
+### 他のユーザーを重要な情報で更新する
 
-同僚との迅速かつ効率的なコミュニケーション [!UICONTROL ホーム] 領域。 同僚に質問したり、最近の更新を通知したり、ダイレクトコメントに返信したりできます。 さらに、進行中の他のユーザーを更新するには、次の手順を実行します。
+他のユーザーと迅速かつ効率的にコミュニケーションを取る [!UICONTROL ホーム] 領域。 作業項目のコメント領域を使用すると、質問をしたり、最近の更新を他のユーザーに通知したり、 [!UICONTROL ホーム] 領域。 さらに、進行中の他のユーザーを更新するには、次の手順を実行します。
 
-* の更新 [!UICONTROL コミット日]
+* の更新 [!UICONTROL コミット日] コメント領域で
 
-  <!--
-  <note type="note">
-  This is the only place you can update the Commit Date in Home.
-  <br>
-  </note>
-  -->
+  >[!NOTE]
+  >
+  >   ここでは、ホームでコミット日を更新できる唯一の場所です。
 
-* 状況のレポート
+* コメントを追加または [!UICONTROL 条件] 項目の
 * 割合完了バーの更新
 
 詳しくは、 [!UICONTROL ホーム] 領域、詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

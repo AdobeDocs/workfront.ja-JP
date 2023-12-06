@@ -6,9 +6,9 @@ description: タスクは、様々なプロジェクトや、Adobe Workfrontの�
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfrontライセンス*</td> 
-   <td> <p>仕事以上</p> </td> 
+   <td> <p>新規プラン：標準 </p> 
+ <p>または</p>  
+<p>現在のプラン：作業以上 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -202,7 +204,7 @@ ht-degree: 2%
      <tr> 
       <td role="rowheader">ドキュメント</td> 
       <td> <p>タスクに添付されたドキュメントは、移動されたタスクには転送されません。 これには、バージョン、配達確認およびリンクされたドキュメントが含まれます。</p> <p>ドキュメントの承認は含まれません。 タスクを移動したときにドキュメント承認を移動することはできません。</p> 
-      <b>メモ</b>
+      <b>注意</b>
 
    タスクでドキュメントを移動しないように選択した場合、ドキュメントは削除され、30 日間ごみ箱に入れられます。 管理者は復元でき、移動したタスクで復元されます。
 
