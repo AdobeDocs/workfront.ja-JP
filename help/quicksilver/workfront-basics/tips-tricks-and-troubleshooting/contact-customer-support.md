@@ -2,12 +2,13 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: カスタマーサポートに連絡
-description: Adobe Workfrontをご利用のお客様は、電話で、またはオンラインでチケットを送信することで、Workfrontカスタマーサポートチームに連絡できます。
+description: Adobe Workfrontをご利用のお客様は、電話で、またはオンラインでチケットを送信することで、Workfrontカスタマーサポートチームに連絡できます。 この記事では、カスタマーサポートへの問い合わせ、サポートケースの表示と管理に関する手順について説明します。
 feature: Get Started with Workfront
+author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 489c5b0fd1f4b50a2b479070064dda2ee09185f8
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-As a [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話またはオンラインでチケットを送信して、カスタマーサポートチームに問い合わせます。
+As an [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話またはオンラインでチケットを送信して、カスタマーサポートチームに問い合わせます。
 
 >[!NOTE]
 >
@@ -36,28 +37,32 @@ As a [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話ま�
 
 セルフサービスからサポートチケットを送信できます。 [!DNL Experience League] ポータル。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->オンラインサポートチケットを送信できるのは、許可されたサポート連絡先（または権利を持つ顧客）のみです。
+>オンラインサポートチケットを送信できるのは、許可されたサポート連絡先（または権利を持つユーザーをサポート）だけです。
 
 
 1. 次から： [[!DNL Experience League]](https://experienceleague.adobe.com) web サイト、クリック **[!UICONTROL サポート]**  をクリックします。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   サポートホームページから、オープンなサポートケースに簡単に移動したり、新しいケースをログに記録したり、トップのサポート記事を表示したり、追加の学習ソースにアクセスしたりできます。
+   The [!UICONTROL サポート] ページが開きます。
+
+   次から： [!UICONTROL サポート] ホームページから、オープンなサポートケースに移動し、新しいケースをログに記録して、上部を表示できます。 [!UICONTROL サポート] 記事を参照するか、追加の学習ソースにアクセスします。
 
 1. ケースを送信するには、「 」オプションを選択します。 **[!UICONTROL サポートケースを開く]**&#x200B;を選択し、次に **[!UICONTROL 署名] In**.
 
 1. クリック **[!UICONTROL ケースを開く]** 左側のサイドバーに表示されます。
 
+<!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
+-->
 
-   The [!UICONTROL ケースの作成] ページが開き、製品名 ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion]など )、ケースタイトル、ケースの説明です。
+The [!UICONTROL ケースの作成] ページが開き、製品名 ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion]など )、ケースタイトル、ケースの説明です。
 
-   >[!TIP]
-   >
-   >問題を説明する際は、トラブルシューティングプロセスを迅速に進めるために、できる限り説明的にしてください。
+>[!TIP]
+>
+>問題を説明する際は、トラブルシューティングプロセスを迅速に進めるために、できる限り説明的にしてください。
 
 
 1. 次のフィールドに情報を入力して、より具体的な情報を提供します。
@@ -69,29 +74,30 @@ As a [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話ま�
 
 1. 関連するファイルをアップロードし、「 **[!UICONTROL 大文字と小文字を送信]**.
 
-   The [!UICONTROL マイケース] ページが表示されます。
+   事件が提出され、 [!UICONTROL マイケース] ページが表示されます。
 
-   ![](assets/all-cases-list-exl-support-portal.png)
-
-1. （オプション） **[!UICONTROL マイケース]** 」ページで、組織が送信した事例を確認します。
-
-   >[!TIP]
-   >
-   >また、 [!UICONTROL マイケース] ページをクリックして **[!UICONTROL マイケース]** 左側のサイドバーに表示されます。
-
-1. 次の日： **[!UICONTROL マイケース]** ページの上部にあるオプションを使用して、 **製品 ([!DNL Experience Cloud] ソリューション )** またはケース **[!UICONTROL ステータス]** （「オープン」または「クローズ」）。 また、 [!UICONTROL 検索] ボックスを使用して、サポートケースに関連するキーワードを検索します。
-
-1. ケースの詳細を表示するには、 **ケース番号** にアクセスします。 The [!UICONTROL ケース] ビューが開きます。
-
-1. Adobe Analytics の [!UICONTROL ケース] 割り当てられたケースの所有者と最新のコメントを表示して確認し、追加の添付ファイルや応答を追加します。
-
-1. クリック **[!UICONTROL 管理にエスカレーション]** ページの右側の下に **[!UICONTROL ケースの詳細]** 事件をエスカレートさせる
-
-1. 次をクリック： **[!UICONTROL ケースを閉じる]** ボタンをクリックしてケースを閉じます。
-
+   <!--
+   [](assets/all-cases-list-exl-support-portal.png)
+   -->
 
 リクエストの送信に関して質問や問題がある場合は、カスタマーサポートチームにお電話ください。
 
+
+## サポートケースの表示と管理
+
+1. 次に移動： **[!UICONTROL マイケース]** ページに貼り付けます。 このページは、ケースを送信すると開きます。または、 **[!UICONTROL マイケース]** をクリックします。
+
+1. （オプション）ページ上部のオプションを使用して、 **製品 ([!DNL Experience Cloud] ソリューション )** またはケース **[!UICONTROL ステータス]** ([!UICONTROL 開く] または Cl（注）。 また、 [!UICONTROL 検索] ボックスを使用して、サポートケースに関連するキーワードを検索します。
+
+1. （オプション）ケースの詳細を表示するには、 **ケース番号** にアクセスします。
+
+   ケースビューが開きます。
+
+1. （オプション）ケースビューで、最新のコメントを割り当てられたケース所有者と確認し、追加の添付ファイルや応答を追加します。
+
+1. （オプション）ケースをエスカレーションするには、「 **[!UICONTROL 管理にエスカレーション]** **の下のページの右側に[!UICONTROL ケースの詳細].
+
+1. 次をクリック： **[!UICONTROL ケースを閉じる]** ボタンをクリックしてケースを閉じます。
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

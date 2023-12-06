@@ -4,21 +4,21 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Adobe Workfrontをサードパーティのアプリケーションと統合できます。 統合は、Workfrontのユーティリティを拡張し、組織のニーズに合わせてカスタマイズできます。
-author: Becky, Caroline
+description: Adobe Workfrontを他のサードパーティアプリケーションと同様に統合できます [!DNL Adobe] 製品。 統合は、Workfrontのユーティリティを拡張し、組織のニーズに合わせてカスタマイズできます。 様々なタイプの統合について詳しくは、この記事を参照してください。
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 68bfc55b68863682c3a0e3fcf303c4501420dd98
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 1%
+source-wordcount: '1136'
+ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] 統合
 
-Adobe Workfrontを他のサードパーティアプリケーションと同様に統合できます [!DNL Adobe] 製品。 統合は、Workfrontのユーティリティを拡張し、組織のニーズに合わせてカスタマイズできます。
+統合可能な [!DNL Adobe Workfront] サードパーティのアプリケーション、およびその他の [!DNL Adobe] 製品。 統合は、Workfrontのユーティリティを拡張し、組織のニーズに合わせてカスタマイズできます。
 
 の統合 [!DNL Workfront] 次のカテゴリに分類されます。
 
@@ -42,15 +42,15 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
 
    使用可能な統合の一覧については、 [追加費用なしで利用可能な統合](#integrations-available-at-no-additional-cost) および [追加の購入が必要な統合](#integrations-requiring-an-additional-purchase).
 
-1. **技術管理者の特定**
+1. **技術管理者を特定する**
 
-   統合するアプリケーションの組織の技術管理者を特定します。 [!DNL Workfront]. 例えば、との統合を選択した場合、 [!DNL Jira]を使用している場合は、会社の [!DNL Jira] 管理者で、プラットフォーム内の設定ニーズに関係なくこれらを関与させます。 また、この管理者に連絡して、 [!DNL Workfront] カスタマーサポート。
+   統合先のアプリケーションの組織の技術管理者を特定します。 [!DNL Workfront]. 例えば、との統合を選択した場合、 [!DNL Jira]を使用している場合は、会社の [!DNL Jira] 管理者で、プラットフォーム内の設定ニーズに関係なく関与させます。 また、との会話にこの管理者に関与する必要があります。 [!DNL Workfront] カスタマーサポート。
 
-   管理者が作業を開始するには、その統合に関する具体的な手順をユーザーに提供する必要があります。 これらの手順へのリンクについては、 [追加費用なしで利用可能な統合](#integrations-available-at-no-additional-cost).
+   管理者が作業を開始するには、その統合に関する具体的な手順を管理者に提供する必要があります。 これらの手順へのリンクについては、 [追加費用なしで利用可能な統合](#integrations-available-at-no-additional-cost).
 
 1. **エンゲージ先 [!DNL Workfront] カスタマーサポート**
 
-   管理者がネイティブ統合の設定に関して問題が発生した場合は、 [!DNL Workfront] カスタマーサポートを参照して、ガイドやトラブルシューティングを行ってください。 While [!DNL Workfront] は、お客様に対して統合を設定しません。アドビでは、お客様がお客様自身でおこなうために必要なすべてのツールおよびリソースを提供することに取り組んでいます。 カスタマーサポートに直接お問い合わせいただくことも、統合を簡単に設定できるよう、広範なリソース記事を参照することもできます。
+   管理者がネイティブ統合設定に関して問題が発生した場合は、 [!DNL Workfront] カスタマーサポートを参照して、ガイドやトラブルシューティングを行ってください。 While [!DNL Workfront] は、お客様に対して統合を設定しません。アドビでは、お客様がお客様自身でおこなうために必要なすべてのツールおよびリソースを提供することに取り組んでいます。 カスタマーサポートに直接お問い合わせいただくことも、統合を簡単に設定できるよう、広範なリソース記事を参照することもできます。
 
    カスタマーサポートとの連携については、 [カスタマーサポートに連絡](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -60,7 +60,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
 
    >[!NOTE]
    >
-   >サポートケースを提出するには、組織の割り当て済みサポート担当者である必要があります。 ケースが送信されたら、他のシステムの技術管理者を会話に追加できます。 彼ら自身で直接サポートに連絡することはできません。
+   >サポートケースを提出するには、組織の割り当て済みサポート担当者である必要があります。 ケースを送信した後、他のシステムの技術管理者を会話に追加できます。 直接サポートに連絡することはできません。
 
 使用可能な組み込み（ネイティブ）統合は、会社のニーズをすべて満たしていない可能性があることを理解しています。 その場合は、アカウント担当者に連絡して、カスタム統合についてお問い合わせください。
 
@@ -130,7 +130,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
     <ul> 
      <li>[!DNL G Suite] ユーザーが [!DNL Workfront] ライセンス </li> 
      <li>[!DNL Workfront] 表示およびワーク共有の権限は、アクセスレベルごとに設定する必要があります </li> 
-     <li> POP が有効なメールアカウント </li> 
+     <li> ユーザーは、POP が有効な電子メールアカウントを持っている必要があります </li> 
      <li>[!DNL Workfront] 要求設定には POP 設定を含める必要があります </li> 
     </ul> </td> 
    <td> 
@@ -158,7 +158,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
     </ul> <p>詳しくは、 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] plan 以上</li> 
+     <li><p>新しいWorkfrontプラン：[!UICONTROL Select] [!DNL Workfront] plan 以上</p><p>現在のWorkfrontプラン： [!UICONTROL Pro] [!DNL Workfront] plan 以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -234,7 +234,7 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
     </ul> <p>詳しくは、 <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Pro] [!DNL Workfront] plan 以上</li> 
+     <li><p>新しいWorkfrontプラン：[!UICONTROL Select] [!DNL Workfront] plan 以上</p><p>現在のWorkfrontプラン： [!UICONTROL Pro] [!DNL Workfront] plan 以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -289,18 +289,26 @@ Adobe Workfrontを他のサードパーティアプリケーションと同様�
 
 * [!DNL Workfront Fusion]
 
+  [!DNL Adobe Workfront Fusion] は、アプリとサービスの間でアクションをリンクし、データを自動的に転送および変換するシナリオを作成します。 多くのアプリに専用のコネクタを備えていますが、公開 API を使用して任意のアプリケーションに接続できます。
+
   詳しくは、 [[!DNL Adobe Workfront Fusion] 概要](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-  詳しくは、 [Experience Manager AssetsとAssets EssentialsのAdobe Workfront](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
+WorkfrontとExperience Manager Assets、またはAssets Essentialsの統合により、組織は作業とデジタルアセット管理を本質的に結び付けることで、コンテンツの速度と市場投入までの時間を改善できます。
+
+詳しくは、 [Adobe Workfront for Experience Manager Assets統合の概要](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## パートナー統合
 
 [!DNL Workfront] には、 [!DNL Workfront] エクスペリエンス。
 
-既存のパートナー製品の例としては、との統合などがあります。 [!DNL Salesforce.com], [!DNL Oracle Responsys]、および [!DNL Microsoft Visual Studio]. これらの統合や他のエキサイティングな統合について詳しくは、 [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+既存のパートナー製品の例としては、との統合などがあります。 [!DNL Salesforce.com], [!DNL Oracle Responsys]、および [!DNL Microsoft Visual Studio].
+
+これらの統合や他のパートナー統合について詳しくは、 [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
 ## [!DNL Workfront] API
 
-The [!DNL Workfront] API を使用すると、 [!DNL Workfront] アドビのパブリック API を活用してエクスペリエンスを活用できます。 アドビのオープン API を使用して、独自の統合を作成できます。 詳しくは、 [!DNL Workfront] API( [!DNL Workfront] [API エクスプローラ](../../wf-api/general/api-explorer.md).
+The [!DNL Workfront] API を使用すると、 [!DNL Workfront] アドビのパブリック API を活用してエクスペリエンスを活用できます。 アドビのオープン API を使用して、独自の統合を作成できます。
+
+詳しくは、 [!DNL Workfront] API( [!DNL Workfront] [API エクスプローラ](../../wf-api/general/api-explorer.md).

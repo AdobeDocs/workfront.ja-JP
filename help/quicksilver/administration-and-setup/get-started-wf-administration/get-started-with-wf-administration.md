@@ -3,21 +3,23 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Adobe Workfront管理の概要
-description: Workfrontシステムの既定、タイムシートとスケジュール、組織の設定、システム追跡の更新情報、および組織のテスト環境を構成できます
-author: Caroline
+title: "Adobe Workfront管理の概要：記事インデックス"
+description: この節では、Adobe Workfrontの初回セットアップに関する情報と手順、およびWorkfront管理者として必要な情報を確認できます。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront管理の概要
+# Adobe Workfront管理の概要：記事インデックス
+
+この節では、Adobe Workfrontの初回セットアップに関する情報と手順、およびWorkfront管理者として必要な情報を確認できます。
 
 この節では、次の記事を扱います。
 
