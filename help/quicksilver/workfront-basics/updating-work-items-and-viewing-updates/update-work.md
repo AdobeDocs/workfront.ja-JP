@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ drafted for P&P release:
 1. 次をクリック： **更新** 」セクションに入力します。
 1. （条件付き）有効な場合、 **新しいコメント** オプションを使用して、従来のコメント作成機能を有効にすることができます。
 1. クリック **新しい更新を開始し、** 次に、更新を入力します。
-1. （オプション）リッチテキストを使用するか、更新に絵文字、リンク、画像を追加して、コンテンツを拡張します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
+1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字、リンク、画像を更新に追加し、コンテンツを拡張できます。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
 1. （オプション）作業項目に関する次の情報を更新します。
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ drafted for P&P release:
    * Ctrl + Z( Macの場合は⌘+z)：変更を元に戻します。
    * Ctrl + Y( Macの場合は⌘+y)：変更をやり直します。
 1. （オプション） **担当者またはチームのタグ付け** 領域に入力し、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
-1. （オプション）リッチテキストを使用するか、更新に絵文字、リンク、画像を追加して、コンテンツを拡張します。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
+1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字、リンク、画像を更新に追加し、コンテンツを拡張できます。 詳しくは、 [Workfrontの更新でのリッチテキストの使用](#use-rich-text-in-a-workfront-update) 」の節を参照してください。
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ drafted for P&P release:
 
    >[!IMPORTANT]
    >
-   >コメントは、送信後 15 件以内に編集する必要があります。
+   >コメントは送信後 15 分以内にのみ編集できます。
 
 1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。 コメントの入力時に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
@@ -407,11 +407,15 @@ drafted for P&P release:
    1. の下 **表示するテキスト**、リンクテキストを入力または貼り付けます。
    1. 「**保存**」をクリックします。
 
-1. （オプション） <span class="preview">アップデートに画像を添付するには、コンピューターからスクリーンショットをコピーし、コメントに貼り付けます </span>
+1. （オプション）更新に画像を添付するには、次のいずれかの操作を行います。
 
-   または
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) お使いのコンピューター上の画像を参照します。
+   * <span class="preview">お使いのコンピューターからスクリーンショットをコピーし、コメントに貼り付けます。 </span>
+   * 次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) お使いのコンピューター上の画像を参照します。
+
 
    >[!NOTE]
    >

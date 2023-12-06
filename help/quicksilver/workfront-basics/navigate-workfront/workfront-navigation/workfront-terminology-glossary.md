@@ -2,15 +2,17 @@
 content-type: reference
 navigation-topic: workfront-navigation
 title: 用語集 [!DNL Adobe Workfront] 用語
-description: The [!DNL Adobe Workfront] 用語集には、Adobe Workfrontでよく使用される用語が記載されています。
+description: The [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] インターフェイス、レポート、または [!DNL Workfront] 定義された概念 [!DNL Workfront] ドキュメント。
+author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '19729'
+source-wordcount: '19897'
 ht-degree: 0%
 
 ---
+
 
 # 用語集 [!DNL Adobe Workfront] 用語
 
@@ -92,11 +94,11 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
-   <td>従来のチームとは異なります。見込みの作業をバックログから取り出し、[!UICONTROL 反復 ] と呼ばれる一定の期間内に作業を行うからです。</td> 
+   <td>従来のチームとは異なります。これは、見込み作業をバックログから取り出し、[!UICONTROL 反復 ] と呼ばれる一定の期間内に作業を行うからです。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL すべてのマイチーム ]</td> 
-   <td> <p>この情報が [!UICONTROL フィルター ] で参照される場合、このフィールドには、ログインユーザーが属するチームのいずれかに属するユーザー、またはログインユーザーが属するチームに割り当てられた作業項目が表示されます。 </p> <p>他のユーザーとレポートを共有する際に、より一般的なレポートにするには、このフィールドをフィルターで使用することをお勧めします。 この方法では、1 つのレポートのみを作成できます。このレポートには、ログインしたユーザーに応じて常にカスタマイズされるので、ログインしたユーザーに応じて異なる情報が表示されます。 </p> </td> 
+   <td> <p>この情報が [!UICONTROL フィルター ] で参照される場合、このフィールドには、ログインユーザーが属する任意のチームに属するユーザー、またはログインユーザーが属するチームに割り当てられた作業項目が表示されます。 </p> <p>他のユーザーとレポートを共有する際に、より一般的なレポートにするには、このフィールドをフィルターで使用することをお勧めします。 この方法では、1 つのレポートのみを作成できます。このレポートには、ログインしたユーザーに応じて常にカスタマイズされるので、ログインしたユーザーに応じて異なる情報が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 配分日 ]</td> 
@@ -127,7 +129,7 @@ ht-degree: 0%
      <p>[!UICONTROL Budgeted Hour] レポートの場合：</p> 
      <ul> 
       <li>リソースに割り当てられる [!UICONTROL 予算時間 ] の量を把握する場合や、リソースプランナーのプロジェクトに割り当てられる場合は、このレポートを作成します。</li> 
-      <li> <p>[!UICONTROL 割り当て日 ] は、[!UICONTROL Resource Planner] で時間を予算化した週の最初の日（日曜日）です。 </p> <p>ヒント：   <p>ある週が 2 か月にわたる場合、レポートに 2 つの行 (1 つは週の最初の日（最初の月の最初の週の日曜日）に対応し、2 つ目の行には 2 か月の最初の日が表示されます。 </p> <p>例えば、ユーザーに対して 6 月 30 日（日曜日）～7 月 6 日（土曜日）の週に 8 時間を予算を割り当てた場合、2 つの行には 6 月 30 日と 7 月 1 日の [!UICONTROL Allocation Date] が表示されます。 </p> </p> <p>でのリソース予算の作成に関する情報 [!DNL Resource Planner]（記事を参照）。 <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">予算リソース ( [!DNL Resource Planner] [!UICONTROL Project] ビューと [!UICONTROL Role] ビューの使用</a>.</p> <p>[!UICONTROL Budgeted Hour] レポートの作成について詳しくは、 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">レポート：予算時間</a>. </p> </li> 
+      <li> <p>[!UICONTROL 割り当て日 ] は、[!UICONTROL Resource Planner] で時間を予算化した週の最初の日（日曜日）です。 </p> <p><b>ヒント</b></p> <p>ある週が 2 か月にわたる場合、レポートに 2 つの行 (1 つは週の最初の日（最初の月の最初の週の日曜日）に対応し、2 つ目の行には 2 か月の最初の日が表示されます。 </p> <p>例えば、ユーザーに対して 6 月 30 日（日曜日）～7 月 6 日（土曜日）の週に 8 時間を予算を割り当てた場合、2 つの行には 6 月 30 日と 7 月 1 日の [!UICONTROL Allocation Date] が表示されます。 </p> </p> <p>でのリソース予算の作成に関する情報 [!DNL Resource Planner]（記事を参照）。 <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">予算リソース ( [!DNL Resource Planner] [!UICONTROL Project] ビューと [!UICONTROL Role] ビューの使用</a>.</p> <p>[!UICONTROL Budgeted Hour] レポートの作成について詳しくは、 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">レポート：予算時間</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -220,11 +222,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 自動変更と変更時 ]</td> 
-   <td> <p>[!UICONTROL Project Update] タイプの 1 つ。 これにより、夜間の再計算処理が実行されたときや、プロジェクト内のプロジェクトまたはタスクに対して更新が行われたときに、プロジェクトの予測および計画タイムラインが再計算されます。 </p> <p>詳しくは、 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクトの更新タイプを選択 </a>.</p> </td> 
+   <td> <p>[!UICONTROL Project Update] タイプの 1 つ。 これにより、夜間の再計算処理が実行されたときや、プロジェクト内のプロジェクトまたはタスクが更新されたときに、プロジェクトの予測および計画タイムラインが再計算されます。 </p> <p>詳しくは、 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクトの更新タイプを選択 </a>.</p> </td> 
   </tr>
 
 <tr> 
-   <td><p>使用可否</p></td> 
+   <td><p>対象</p></td> 
    <td> <p>この用語は、「ユーザーの可用性」または「リソースの可用性」に関連して使用され、リソース（ユーザーまたはジョブの役割）が機能できる時間を示します。 </p> 
    <p>Workfrontは、複数のフィールドを使用し、システム内のリソース管理環境設定の設定に応じて、ユーザーの可用性を計算します。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a>. </p>
    <p>リソースの可用性の詳細については、 <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">リソース管理の概要</a></p>
@@ -332,7 +334,7 @@ ht-degree: 0%
         <td> <p>[!UICONTROL 時間 ] ビューの使用率レポート</p> <p>[!UICONTROL 使用率 ] レポートについて詳しくは、 <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">[!UICONTROL リソース使用率 ] レポートの概要</a>.</p> </td> 
        </tr> 
        <tr> 
-        <td>[!UICONTROL Bud. 時間]</td> 
+        <td>[!UICONTROL Bud. 時間 ]</td> 
         <td> <p>[!UICONTROL 予算時間 ] レポート</p><p>予算時間レポートの [!UICONTROL 予算時間 ] オブジェクトは、廃止されたリソース管理ツールに関連する情報を参照します。 「[!UICONTROL Bud」のみ。 このレポートの「時間」フィールドは、プロジェクトの [!UICONTROL ビジネスケース ] の [!UICONTROL Resource Planner] または [!UICONTROL Resource Budgeting] 領域で予算設定された時間を参照します。 </p> <p>レポートの作成について詳しくは、 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">カスタムレポートの作成</a>.</p> </td> 
        </tr> 
        <tr> 
@@ -446,7 +448,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 計算割り当て ]</td> 
-   <td> <p>タスクの [!UICONTROL 期間 ] タイプの 1 つ。 これにより、タスクの [!UICONTROL 期間 ] と [!UICONTROL 作業に必要な日数 ] に基づいて、タスクに割り当てられたユーザーのタスクに割り当てられる 8 時間の作業日の割合が計算されます。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク [!UICONTROL 期間 ] と [!UICONTROL 期間タイプ ] の概要</a>.</p> </td> 
+   <td> <p>タスク [!UICONTROL 期間タイプ ] の 1 つ。 これにより、タスクの [!UICONTROL 期間 ] と [!UICONTROL 作業に必要な日数 ] に基づいて、タスクに割り当てられたユーザーのタスクに割り当てられる 8 時間の作業日の割合が計算されます。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク [!UICONTROL 期間 ] と [!UICONTROL 期間タイプ ] の概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 計算作業 ]</td> 
@@ -528,7 +530,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 変更のみ ]</td> 
-   <td>プロジェクト [!UICONTROL 更新タイプ ] の 1 つ。 タスクに対する更新や、プロジェクトまたはタスクでの編集が行われた場合にのみ、[!UICONTROL Project Project Project Projected] および [!UICONTROL Planned] のタイムラインが更新されます。</td> 
+   <td>[!UICONTROL Update Types] プロジェクトの 1 つ。 プロジェクトまたはタスクでタスクまたは編集が実行された場合にのみ、[!UICONTROL Project Project Project Projected] および [!UICONTROL Planned] タイムラインが更新されます。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Change Order]</td> 
@@ -621,11 +623,11 @@ ht-degree: 0%
      <li>[!UICONTROL 終了日 ]</li> 
      <li>[!UICONTROL 次の日までに開始 ]</li> 
      <li>[!UICONTROL 次の日までに開始 ]</li> 
-    </ul> <p>ヒント：   
+    </ul> <p><b>ヒント</b></p>   
      <ul> 
       <li> <p>[!UICONTROL 制約 ] が [!UICONTROL 固定日付 ] のタスクには [!UICONTROL 制約日 ] がありません。 </p> </li> 
       <li> <p> [!UICONTROL 制約日 ] は、レポートまたはカスタマイズされたビューでのみ表示できます。</p> </li> 
-     </ul> </p> </td> 
+     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 制約日 ]</td> 
@@ -635,15 +637,15 @@ ht-degree: 0%
      <li>[!UICONTROL 終了日 ]</li> 
      <li>[!UICONTROL 次の日までに開始 ]</li> 
      <li>[!UICONTROL 次の日までに開始 ]</li> 
-    </ul> <p>ヒント： [!UICONTROL 制約日 ] は、レポートまたはカスタマイズされたビューでのみ表示できます。 </p> </td> 
+    </ul> <p><b>ヒント</b></p> <p>  [!UICONTROL 制約日 ] は、レポートまたはカスタマイズされたビューでのみ表示できます。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 制約タイプ ]</td> 
-   <td> <p>Task のスケジューリング傾向。 例えば、[!UICONTROL 可能な限り早く ] はタスクの開始をスケジュールし、[!UICONTROL 次の日まで ] はタスクの終了を [!UICONTROL 制約日 ] までにスケジュールします。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">[!UICONTROL タスク制約 ] の概要</a>.</p> </td> 
+   <td> <p>タスクのスケジュール傾向。 例えば、[!UICONTROL 可能な限り早く ] はタスクの開始をスケジュールし、[!UICONTROL 次の日まで ] はタスクの終了を [!UICONTROL 制約日 ] 以降にスケジュールします。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">[!UICONTROL タスク制約 ] の概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL コンテキストメニュー ]</td> 
-   <td>画面の左側にあるメニューで、アクティブなコンテンツと関連付けてアイテムが変更されます。 例えば、ユーザーがプロジェクトを表示している場合、[!UICONTROL コンテキストメニュー ] にはプロジェクト関連の情報およびツールへのリンクが表示されます。</td> 
+   <td>画面の左側にあるメニューで、アクティブなコンテンツと関連付けてアイテムが変更されます。 例えば、ユーザーがプロジェクトを表示している場合、[!UICONTROL コンテキストメニュー ] には、プロジェクトに関連する情報およびツールへのリンクが表示されます。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 変換された問題作成者 ]</td> 
@@ -692,15 +694,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL カスタムフォームラベル ]</td> 
-   <td>[ カスタムオプション ] で [ カスタム表示タイプ ] を使用する場合、これは、[ カスタムオプション ] の [ ドロップダウン ] メニュー、[ チェックボックス ]、または [ ラジオボタン ] に表示される [ ユーザインタフェース ] テキストです。</td> 
+   <td>Custom Options で Custom Display Type を使用する場合、これは、その Custom Option のドロップダウンメニュー、チェックボックス、またはラジオボタンに表示されるユーザーインターフェイステキストです。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL カスタム値 ]</td> 
-   <td>カスタムオプションでカスタムフィールドを使用する場合、この値は特定のオプションに対してデータベースに格納されます。</td> 
+   <td>カスタムオプションでカスタムフィールドを使用する場合、この値は、特定のオプションに対してデータベースに格納されます。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL カスタムビュー ]</td> 
-   <td>リスト内の各オブジェクトに対して表示されるデータフィールド（列）の定義。</td> 
+   <td>リスト内の各オブジェクトに対して表示されるデータフィールドまたは列の定義。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Customer]</td> 
@@ -723,7 +725,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL ダッシュボード ]</td> 
-   <td> <p> このフィールドをレポートまたはレポートオブジェクトのリストに追加して、リストにレポートが表示されるダッシュボードを表示できます。 </p> <p> このフィールドを使用して、特定のダッシュボードにリストされているレポートをフィルタリングすることもできます。 </p> <p> レポートオブジェクトレポートにダッシュボード情報を含める方法の詳細については、この記事の「ダッシュボードに表示されるレポートについて」の節を参照してください。 <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">レポートへのアクセスと整理</a></p> </td> 
+   <td> <p> このフィールドをレポートまたはレポートオブジェクトのビューに追加して、レポートがリストに表示されているダッシュボードを表示できます。 </p> <p> このフィールドを使用して、特定のダッシュボードにリストされているレポートをフィルタリングすることもできます。 </p> <p> レポートオブジェクトレポートにダッシュボード情報を含める方法の詳細については、この記事の「ダッシュボードに表示されるレポートについて」の節を参照してください。 <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">レポートへのアクセスと整理</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL データ型 ]</td> 
@@ -784,7 +786,7 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL 期間の種類 ]</td> 
-   <td> <p>タスクの完了に必要な作業を、タスク期間を通じて担当者に割り当てる方法を示すタスクフィールドです。 これは、タスクの [!UICONTROL 期間 ]、[!UICONTROL 作業に必要な時間 ]、および割り当てられたリソースがタスクを完了するために費やす時間（[!UICONTROL 割り当て ]）との関係を表します。 </p> <p>このフィールドは、タスクの「[!UICONTROL 詳細 ]」タブに表示されます。 </p> <p>オプションは次のとおりです。</p> 
+   <td> <p>タスクの完了に必要な作業を、タスク期間を通じて担当者に割り当てる方法を示すタスクフィールドです。 これは、タスクの [!UICONTROL 期間 ]、[!UICONTROL 作業に必要な時間 ]、および割り当てられたリソースがタスクを完了するために費やす時間（[!UICONTROL 割り当て ]）との関係を表します。 </p> <p>このフィールドは、タスクの「[!UICONTROL 詳細 ]」タブに表示されます。 </p> <p>タスクの「期間の種類」には、次のオプションがあります。</p> 
     <ul> 
      <li>[!UICONTROL 計算割り当て ]</li> 
      <li>[!UICONTROL 計算作業 ]</li> 
@@ -842,7 +844,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL 外部 ]</td> 
-   <td> <p>通常は、ライセンスの種類、またはそのようなライセンスを持つユーザーで、システム内の情報を確認する機能のみを持っています。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] ライセンスの概要</a>.</p> </td> 
+   <td> <p>通常、これはライセンスの種類、またはそのようなライセンスを持つユーザーです。 このようなライセンスタイプを持つユーザーは、システム内の情報を確認するだけで済みます。 彼らは積極的に仕事に参加できない。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] ライセンスの概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 外部システム ]</td> 
@@ -854,14 +856,14 @@ ht-degree: 0%
    <td><p>任意のWorkfrontオブジェクト、またはそれに関連付けられている情報（データベースに表示されるもの）。 </p>
    <p>例えば、「project」、「user」、「hour」は、Workfrontオブジェクトとフィールドの両方です。 「名前」、「ステータス」、「所有者」、「開始日」は、上記のオブジェクトに関連付けられたWorkfrontフィールドです。 </p>
 
-<p>オブジェクトを参照する場合、「objects」と「fields」は同じ意味で使用できます。</p>
+<p>オブジェクトを参照する場合、「オブジェクト」と「フィールド」という用語は同じ意味で使用できます。</p>
    <p>レポートの範囲では、「フィールド」は、レポートに取り込むオブジェクトまたはオブジェクトに関する情報を指します。</p>
 
 <p><b>メモ</b></p>
 
 <p>テキストの詳細レポートでは、フィールドは、データベースに表示されるオブジェクトまたはその情報を参照します。</p>
    <p>ユーザーインターフェイスに表示される名前が、データベースのフィールドの名前と異なる場合があります。 例えば、「issue」はWorkfrontインターフェイスのオブジェクトの名前ですが、「opTask」はWorkfrontデータベースのオブジェクト（またはフィールド）の名前です。 </p> 
-   <p> テキストモードのレポート、表示、フィルター、グループ化の記述時、または計算フィールドの作成時に、データベースに表示されるフィールドを使用することが重要です。</p>
+   <p> テキストモードのレポートの書き込み、表示、フィルターまたはグループ化の際、または計算フィールドの作成時に、データベースに表示されるフィールドを使用することが重要です。</p>
 
 <p>詳しくは、 <a href="../../../wf-api/general/api-explorer.md">API エクスプローラ</a> および <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">テキストモードの概要</a>.</p>
 
@@ -995,7 +997,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL ヘルプデスク ]</td> 
-   <td>の部分 [!DNL Workfront] すべての問題キューを保持する [!UICONTROL ヘルプデスク ] を使用して、カスタマーサポートチケット、プロジェクトリクエスト、ヘルプデスクチケットなどを処理できます。 これは、[!UICONTROL 要求 ] 領域と同じです。</td> 
+   <td>の [!UICONTROL リクエスト ] 領域を表す別の名前 [!DNL Workfront]. [!UICONTROL リクエスト ] 領域を使用して、カスタマーサポートチケット、プロジェクトリクエスト、ヘルプデスクチケットなどを処理できます。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 所有者 ]</td> 
@@ -1035,7 +1037,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>ID は、 [!DNL Workfront]. これは、 [!DNL Workfront] データベース。 レポート内の任意のオブジェクトの ID や、各オブジェクトのリストを表示できます。 </p> <p>ヒント：   <p>また、オブジェクトのページの URL に含まれる ID も確認できます。 例えば、プロジェクトの ID は、[!UICONTROL プロジェクトの詳細 ] ページにアクセスすると、次の URL に示す数字のようになります。</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+   <td> <p>ID は、 [!DNL Workfront]. これは、 [!DNL Workfront] データベース。 レポート内の任意のオブジェクトの ID や、各オブジェクトのリストを表示できます。 </p> <p><b>ヒント</b></p>   <p>また、オブジェクトのページの URL に含まれる ID も確認できます。 例えば、プロジェクトの ID は、[!UICONTROL プロジェクトの詳細 ] ページにアクセスすると、次の URL に示す数字のようになります。</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL 個々の目標 ]</td> 
@@ -1059,11 +1061,11 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL イニシアチブジョブの役割数 ]</td> 
-   <td> <p>[!UICONTROL イニシアチブのジョブの役割 ] レポートには、イニシアチブに関連付けられている特定のジョブの役割の数が表示されます。</p> <p>The [!DNL Scenario Planner] には、追加のライセンスが必要です。 詳しくは、 [!DNL Workfront Scenario Planner]を参照してください。 <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] 概要</a>. </p> <p>このフィールドと [!UICONTROL Initiative Job Role] レポートタイプは、 [!DNL Workfront] インスタンス（会社がを購入していない場合） [!DNL Workfront Scenario Planner] ライセンス。</p> </td> 
+   <td> <p>[!UICONTROL イニシアチブジョブの役割 ] レポートには、イニシアチブに関連付けられている特定のジョブの役割の数が表示されます。</p> <p>The [!DNL Scenario Planner] には、追加のライセンスが必要です。 詳しくは、 [!DNL Workfront Scenario Planner]を参照してください。 <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] 概要</a>. </p> <p>このフィールドと [!UICONTROL Initiative Job Role] レポートタイプは、 [!DNL Workfront] インスタンス（会社がを購入していない場合） [!DNL Workfront Scenario Planner] ライセンス。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative 最終公開日 ]</td> 
-   <td> <p>[!UICONTROL Initiative]、[!UICONTROL Initiative Job Role]、および [!UICONTROL Project] の各レポートのフィールドで、プランイニシアチブがプロジェクトに最後に公開された日付を表示します。 イニシアチブをパブリッシュして、プロジェクトを作成したり、イニシアチブにリンクされたプロジェクトを更新したりできます。</p> <p>The [!DNL Scenario Planner] には、追加のライセンスが必要です。 詳しくは、 [!DNL Workfront Scenario Planner]を参照してください。 <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] 概要</a>. </p> <p><span>イニシアチブの公開について詳しくは、</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">シナリオを公開して、でプロジェクトを作成および更新します。 [!DNL Workfront Scenario Planner]</a>. このフィールドは、 [!DNL Workfront] インスタンス（会社がを購入していない場合） [!DNL Workfront Scenario Planner] ライセンス。</p> </td> 
+   <td> <p>[!UICONTROL Initiative]、[!UICONTROL Initiative Job Role]、および [!UICONTROL Project] の各レポート内のフィールドで、プランイニシアチブがプロジェクトに最後に公開された日付を表示します。 イニシアチブをパブリッシュして、プロジェクトを作成したり、イニシアチブにリンクされたプロジェクトを更新したりできます。</p> <p>The [!DNL Scenario Planner] には、追加のライセンスが必要です。 詳しくは、 [!DNL Workfront Scenario Planner]を参照してください。 <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] 概要</a>. </p> <p><span>イニシアチブの公開について詳しくは、</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">シナリオを公開して、でプロジェクトを作成および更新します。 [!DNL Workfront Scenario Planner]</a>. このフィールドは、 [!DNL Workfront] インスタンス（会社がを購入していない場合） [!DNL Workfront Scenario Planner] ライセンス。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL インライン検索 ]</td> 
@@ -1249,7 +1251,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL 手動のみ ]</td> 
-   <td> <p>[!UICONTROL プロジェクト ] の [!UICONTROL 更新タイプ ] の 1 つ。 この設定を使用すると、「[!UICONTROL Reculed Timelines]」がクリックされた場合にのみ、[!UICONTROL Project Project Projected] および [!UICONTROL Planned] のタイムラインを更新できます。 この方法で設定されたプロジェクトは、再計算が少ないプロセス中や、プロジェクト内のプロジェクトまたはタスクが更新されたときに無視されます。</p> <p>詳しくは、 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクト [!UICONTROL 更新タイプ ] を選択 </a>.</p> </td> 
+   <td> <p>[!UICONTROL プロジェクト ] の [!UICONTROL 更新タイプ ] の 1 つ。 この設定を使用すると、「[!UICONTROL Reculed Timelines]」がクリックされた場合にのみ、[!UICONTROL Project Project Projected] および [!UICONTROL Planned] のタイムラインを更新できます。 この方法で設定されたプロジェクトは、夜間の再計算プロセス中や、プロジェクト内の 1 つまたは複数のタスクが更新されたときに無視されます。</p> <p>詳しくは、 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクト [!UICONTROL 更新タイプ ] を選択 </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Me]</td> 
@@ -1285,7 +1287,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL 命名規則 ]</td> 
-   <td>データを使用してプロジェクト、タスク、成果物の名前を作成する、組織全体のルールのセット。</td> 
+   <td>データを使用してプロジェクト、タスク、成果物の名前を作成する、組織全体のルールのセットです。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL ネイティブ統合 ]</td> 
@@ -1303,7 +1305,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr>
   <tr> 
    <td>[!UICONTROL 非稼働日 ]</td> 
-   <td>割り当ての完了に割り当てられていない日。 通常は休日、休日、週末です。</td> 
+   <td>割り当ての完了に割り当てられていない日。 通常は休日、休日、週末です。 「 」という用語が API エクスプローラーに表示されます。 </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL メモ ]</td> 
@@ -1357,7 +1359,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr>
   <tr> 
    <td>[!UICONTROL 変更のみ ]</td> 
-   <td> <p>[!UICONTROL Project Update] タイプの 1 つ。 このオプションを選択すると、[!UICONTROL Project Project Projected] および [!UICONTROL Planned] タイムラインは、プロジェクトまたはプロジェクト内のタスクに対して更新または変更が行われた場合にのみ更新されます。 プロジェクトは毎晩更新されません。</p> <p>詳しくは、 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクトの更新タイプを選択 </a>.</p> </td> 
+   <td> <p>[!UICONTROL Project Update] タイプの 1 つ。 このオプションを選択すると、[!UICONTROL Project Project Projected] および [!UICONTROL Planned] のタイムラインは、プロジェクトまたはプロジェクト内のタスクに対して更新または変更が行われた場合にのみ更新されます。 プロジェクトは毎晩更新されません。</p> <p>詳しくは、 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクトの更新タイプを選択 </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 
@@ -1365,7 +1367,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL 開く ]</td> 
-   <td>未完了で作業中のイシューまたはタスク。</td> 
+   <td>未完了で作業中の問題またはタスク。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 組織図 ]</td> 
@@ -1496,7 +1498,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL 計画予算時間数 ]</td> 
-   <td> <p>[!UICONTROL 予算時間 ] レポートでは、[!UICONTROL リソースプランナー ] のプロジェクトまたは [!UICONTROL ジョブロール ] に対して予算された時間数が表示されます。 </p> <p>[!UICONTROL Resource Planner] のプロジェクトまたはロールの予算作成の詳細は、この記事を参照してください <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">[!UICONTROL プロジェクト ] ビューと [!UICONTROL ロール ] ビューを使用した [!UICONTROL リソースプランナー ] の予算リソース</a>. [!UICONTROL Budgeted Hours] レポートの詳細については、この記事を参照してください <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">レポート：予算時間</a>.</p> </td> 
+   <td> <p>[!UICONTROL 予算時間 ] レポートでは、[!UICONTROL リソースプランナー ] のプロジェクトまたは [!UICONTROL ジョブロール ] に予算された時間数が表示されます。 </p> <p>[!UICONTROL リソースプランナー ] でのプロジェクトまたはロールの予算作成について詳しくは、この記事を参照してください <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">[!UICONTROL プロジェクト ] ビューと [!UICONTROL ロール ] ビューを使用した [!UICONTROL リソースプランナー ] の予算リソース</a>. [!UICONTROL Budgeted Hours] レポートの詳細については、この記事を参照してください <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">レポート：予算時間</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 計画完了日 ]</td> 
@@ -1512,7 +1514,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL 予定期間 ]</td> 
-   <td> <p>タスクの [!UICONTROL 予定期間 ] は、通常、タスクの [!UICONTROL 期間 ] と同じです。 これは、タスクの [!UICONTROL 計画開始 ] と [!UICONTROL 計画完了日 ] の間の日数を表します。 </p> <p>タスクの [!UICONTROL 期間 ] タイプが [!UICONTROL 労力主導 ] の場合、[!UICONTROL 予定期間 ] は、タスクに割り当てたリソース数に基づいてタスクの [!UICONTROL 期間 ] と異なる場合があります。 </p> <p>例えば、[!UICONTROL 期間 ] タイプが [!UICONTROL 労力による ] のタスクの期間が 3 日間で、1 つのリソースをフルタイムスケジュールでタスクに割り当てた場合、[!UICONTROL 予定期間 ] も 3 日間になります。 3 つのリソースをフルタイムスケジュールで同じタスクに割り当てた場合、[!UICONTROL 期間 ] は 3 日間ですが、[!UICONTROL 予定期間 ] は 1 日になります。 [!UICONTROL 予定期間 ] では、新しい [!UICONTROL 予定期間 ] を反映するために、タスクの [!UICONTROL 予定開始 ] 日と [!UICONTROL 予定完了 ] 日も変更されます。 その結果、プロジェクトのタイムラインにも影響が及びます。 </p> <p>タスクの [!UICONTROL 期間 ] と [!UICONTROL 予定期間 ] の違いについて詳しくは、この記事を参照してください <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">タスクの [!UICONTROL 予定期間 ] と [!UICONTROL 予定期間 ] の違い</a>.</p> <p>プロジェクトとイシューには [!UICONTROL 予定期間 ] がありません。 </p> </td> 
+   <td> <p>タスクの [!UICONTROL 予定期間 ] は、通常、タスクの [!UICONTROL 期間 ] と同じです。 これは、タスクの [!UICONTROL 計画開始 ] と [!UICONTROL 計画完了日 ] の間の日数を表します。 </p> <p>タスクの [!UICONTROL 期間 ] タイプが [!UICONTROL 労力主導 ] の場合、[!UICONTROL 予定期間 ] は、タスクに割り当てたリソース数に基づいてタスクの [!UICONTROL 期間 ] と異なる場合があります。 </p> <p>例えば、[!UICONTROL 期間 ] タイプが [!UICONTROL 労力による ] のタスクの期間が 3 日で、フルタイムスケジュールを持つ 1 つのリソースをタスクに割り当てた場合、[!UICONTROL 予定期間 ] も 3 日になります。 3 つのリソースをフルタイムスケジュールで同じタスクに割り当てた場合、[!UICONTROL 期間 ] は 3 日間ですが、[!UICONTROL 予定期間 ] は 1 日になります。 [!UICONTROL 予定期間 ] では、新しい [!UICONTROL 予定期間 ] を反映するために、タスクの [!UICONTROL 予定開始 ] 日と [!UICONTROL 予定完了 ] 日も変更されます。 その結果、プロジェクトのタイムラインにも影響が及びます。 </p> <p>タスクの [!UICONTROL 期間 ] と [!UICONTROL 予定期間 ] の違いについて詳しくは、この記事を参照してください <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">タスクの [!UICONTROL 予定期間 ] と [!UICONTROL 予定期間 ] の違い</a>.</p> <p>プロジェクトとイシューには [!UICONTROL 予定期間 ] がありません。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 予定期間（分）]</td> 
@@ -1529,9 +1531,9 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL 予定時間数 ]</td> 
-   <td> <p>このフィールドは [!UICONTROL Projects]、[!UICONTROL Tasks]、[!UICONTROL Tasks]、および [!UICONTROL Resource Planner]、[!UICONTROL Workload Balancer]、[!UICONTROL Utilization] レポートなどの問題領域、プロジェクト、タスク、タスク、問題管理ツールに表示されます。 </p> <p>プロジェクト所有者が、各タスクまたは問題が完了するまでに必要な時間数を示します。 プロジェクトの場合は、通常、これはプロジェクトのタスクからの [!UICONTROL 予定時間 ] の積み上げです。 </p> <p>[!UICONTROL 予定時間 ] フィールドには、表示元に応じて異なる情報が表示される場合があります。 予定時間については、 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計画時間の概要</a>.</p> <p>予定時間は、 [!DNL Workfront] データベース。 このフィールドを使用して計算を記述する場合は、時間が分単位で表示されることを考慮してください。<br></p> <p>デフォルトでは、計画時間は、作業項目の期間内のすべての日に均等に配分され、タスクに割り当てられたすべてのリソースにも均等に配分されます。 ユーザーは、作業項目の 1 日の計画時間数を更新したり、各担当者の個々の計画時間数を更新したりできます。</p> <p>このフィールドの更新は、プロジェクト、タスクおよび問題に対して異なります。 </p> 
+   <td> <p>このフィールドは [!UICONTROL Projects]、[!UICONTROL Tasks]、[!UICONTROL Tasks]、および [!UICONTROL Resource Planner]、[!UICONTROL Workload Balancer]、[!UICONTROL Utilization] レポートなどの問題領域、プロジェクト、タスク、タスク、問題管理ツールに表示されます。 </p> <p>プロジェクト所有者が、各タスクまたは問題が完了するまでに必要な時間数を示します。 プロジェクトの場合は、通常、これはプロジェクトのタスクからの [!UICONTROL 予定時間 ] の積み上げです。 </p> <p>[!UICONTROL 予定時間 ] フィールドには、表示元に応じて異なる情報が表示される場合があります。 予定時間については、 <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">計画時間の概要</a>.</p> <p>予定時間は、 [!DNL Workfront] データベース。 このフィールドを使用して計算を記述する場合は、時間が分単位で表示されることを考慮してください。<br></p> <p>デフォルトでは、計画時間は、作業項目の期間内のすべての日に均等に配分され、タスクに割り当てられたすべてのリソースにも均等に配分されます。 ユーザーは、作業項目の 1 日の計画時間数を更新したり、担当者ごとに個々の計画時間数を更新したりできます。</p> <p>このフィールドの更新は、プロジェクト、タスクおよび問題に対して異なります。 </p> 
     <ul> 
-     <li> <p>問題が発生した場合は、このフィールドを手動で更新できます。 発行予定時間は、プロジェクト予定時間には追加されません。 </p> <p>ヒント：問題レポートでは、「[!UICONTROL 予定時間 ]」フィールドの 1 つが「[!UICONTROL 作業 ]」フィールドに置き換えられます。 「 」フィールドには、問題に関する計画時間数が表示されます。 詳しくは、この表の「作業」フィールドまたは「[!UICONTROL 作業 ]」フィールドを参照してください。 </p> </li> 
+     <li> <p>問題が発生した場合は、このフィールドを手動で更新できます。 発行予定時間は、プロジェクト予定時間には追加されません。 </p> <p><b>ヒント</b></p> <p>問題レポートでは、「[!UICONTROL 予定時間 ]」フィールドの 1 つが「[!UICONTROL 作業 ]」フィールドに置き換えられます。 「 」フィールドには、問題に関する計画時間数が表示されます。 詳しくは、この表の「作業」フィールドまたは「[!UICONTROL 作業 ]」フィールドを参照してください。 </p> </li> 
     </ul> 
     <ul> 
      <li> <p>タスクの場合、タスクの [!UICONTROL 期間タイプ ] が [!UICONTROL 計算割り当て ] または [!UICONTROL シンプル ] の場合は、このフィールドを手動で更新できます。 このフィールドは [!DNL Workfront] タスクの [!UICONTROL 期間タイプ ] が [!UICONTROL 計算作業時間 ] または [!UICONTROL 労力に基づく ] の場合。<br>[!UICONTROL タスク期間 ] について詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク [!UICONTROL 期間 ] と [!UICONTROL 期間タイプ ] の概要</a>.</p> </li> 
@@ -1599,17 +1601,17 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL 前任者 ]</td> 
-   <td> <p>依存タスクの完了前に完了する必要があるタスク。 別のタスクの [!UICONTROL 依存関係 ] としてマークされたタスク。 先行タスクを使用すると、プランナーは、別のタスクが終了した後にタスクを開始するなど、順序依存ロジックを設定できます。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">タスクの先行タスクの概要</a>.</p> </td> 
+   <td> <p>依存タスクの完了前に完了する必要があるタスク。 別のタスクの [!UICONTROL 依存関係 ] としてマークされたタスクでもあります。 先行タスクを使用すると、プランナーは、別のタスクが終了した後にタスクを開始するなど、順序依存ロジックを設定できます。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">タスクの先行タスクの概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROLプライマリ会社 ]</td> 
-   <td>ユーザー設定で指定された、ユーザーが属する会社。 会社をプロジェクトに関連付けることもできます。</td> 
+   <td>ユーザー設定で指定された、ユーザーが属する会社。 会社は、プロジェクトに関連付けることもできます。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROLプライマリ連絡先 ]</td> 
    <td><p>[!UICONTROLプライマリ連絡先 ] はイシューの作成者で、自動的に [!DNL Workfront] 誰かが問題を作成したとき。 次の場合は、手動でこのフィールドを更新できます： [!DNL Manage] 権限を問題に割り当てます。 1 つの問題に設定できるプライマリ連絡先は 1 つだけです。</p> 
    <p>プライマリの連絡先を変更した場合、元々プライマリー連絡先として指定されていたユーザーは、引き続き問題に対する [!UICONTROL 管理 ] アクセス権を持ちます。</p>
-   <p>イシューをタスクまたはプロジェクトに変換する場合、の [!UICONTROLプライマリ連絡先 ] として指定されたユーザーが、プロジェクトまたはタスクの [!UICONTROL 変換後のイシュー作成者 ] になります。 問題の [!UICONTROLプライマリ連絡先 ] が問題の変換後に更新された場合、[!UICONTROL 変換された問題作成者 ] は、変換が発生した時点で問題の [!UICONTROLプライマリ連絡先 ] として保持されます。 この記事の「[!UICONTROL 変換された問題の作成者 ]」も参照してください。</p> 
+   <p>イシューをプライマリまたはプロジェクトに変換する場合、そのイシューの [!UICONTROL タスク連絡先 ] として指定されたユーザーが、プロジェクトまたはタスクの [!UICONTROL 変換後のイシュー作成者 ] になります。 問題の [!UICONTROLプライマリ連絡先 ] が問題の変換後に更新された場合、[!UICONTROL 変換された問題作成者 ] は、変換が発生した時点で問題の [!UICONTROLプライマリ連絡先 ] として保持されます。 この記事の「[!UICONTROL 変換された問題の作成者 ]」も参照してください。</p> 
    </td> 
   </tr>
   <tr> 
@@ -1618,7 +1620,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL プライベート ]</td> 
-   <td>[!UICONTROL メモ ] または [!UICONTROL ドキュメント ] では、このオプションを使用すると、ほとんどのビューアでそのオブジェクトが非表示になります。 プライベートヘルプデスクキューの場合、[!UICONTROL ヘルプデスク ] エリアを通じて、キューチームのユーザーのみがそのキューに問題を送信できます。</td> 
+   <td>[!UICONTROL メモ ] または [!UICONTROL ドキュメント ] では、このオプションを使用すると、ほとんどのビューアでそのオブジェクトが非表示になります。 非公開ヘルプリクエストキューの場合、[!UICONTROL リクエスト ] 領域を通じて、プロジェクトチームのユーザーのみがそのキュー（またはプロジェクト）にイシューを送信できます。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL プロファイル ]</td> 
@@ -1724,7 +1726,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL パブリック ]</td> 
-   <td>[!UICONTROL メモ ] または [!UICONTROL ドキュメント ] で、このオプションを使用すると、他のユーザーや外部のユーザーがそのオブジェクトにアクセスできるようになります [!DNL Workfront]. [!UICONTROL ヘルプデスクキュー ] の場合、[!UICONTROL 公開 ] は、問題を送信できるすべてのユーザーが [!UICONTROL ヘルプデスク ] 領域を通じて問題を送信できることを意味します。</td> 
+   <td>[!UICONTROL メモ ] または [!UICONTROL ドキュメント ] で、このオプションを使用すると、他のユーザーや外部のユーザーがそのオブジェクトにアクセスできるようになります [!DNL Workfront]. [!UICONTROL ヘルプリクエストキュー ] の場合、[!UICONTROL 公開 ] は、プロジェクトにイシューを送信できるすべてのユーザーが [!UICONTROL リクエスト ] 領域を通じてイシューを送信できることを意味します。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL 品質 ]</td> 
@@ -1732,19 +1734,19 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL キュー ]</td> 
-   <td>「[!UICONTROL Help Desk Queue]」とも呼ばれる。 これは、ユーザーが問題を送信できるように、[!UICONTROL ヘルプデスク ] 領域に公開されたプロジェクトです。 通常、キューは、バグ、プロジェクトリクエストなどの特定のトピックに対して作成されます。</td> 
+   <td>「Help Desk Queue」または「[!UICONTROL Help Request Queue]」とも呼ばれる。 これは、ユーザーが問題を送信できるように、[!UICONTROL 要求 ] 領域に公開されたプロジェクトです。 通常、キューは特定のトピックに対して作成されます（[!UICONTROL バグ ]、[!UICONTROL プロジェクトリクエスト ] など）。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL キューのプロパティ ]</td> 
-   <td>これらの設定は、[!UICONTROL ヘルプデスク ] に公開されるプロジェクトの問題送信ルールを定義します。</td> 
+   <td>これらの設定は、[!UICONTROL 要求 ] 領域に公開されるプロジェクトの問題送信ルールを定義します。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL キュートピック ]</td> 
-   <td> <p>ユーザーが問題を送信してトピックを選択できる、[!UICONTROL Help Desk Queue] 上のプロパティ。 トピックでは、次のことが可能です。</p> 
+   <td> <p>ユーザーが問題を送信してトピックを選択できる、[!UICONTROL Help Request Queue] 上のプロパティ。 トピックでは、次のことが可能です。</p> 
     <ul> 
      <li>カスタムデータフォームに関連付ける。</li> 
-     <li>選択したトピックに設定されたルーティング規則を使用して、問題をユーザー、役割、またはチームに自動的に割り当てます。</li> 
-     <li>選択したトピックに設定されたルーティングルールを使用して、問題を別のプロジェクトまたはキューに移動します。</li> 
+     <li>選択したトピックに設定されたルーティングルールを通じて、問題をユーザー、役割、またはチームに自動的に割り当てます。</li> 
+     <li>選択したトピックに設定されたルーティングルールを通じて、問題を別のプロジェクトまたはキューに移動します。</li> 
     </ul> <p>詳しくは、 <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">キュートピックを作成</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -1773,7 +1775,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL 再計画 ]</td> 
-   <td>問題を修復または克服するためにプロジェクトの日付を変更する。 例えば、正確な日付を反映させるために、数ヶ月間保留状態のプロジェクトを再計画する必要があります。</td> 
+   <td>問題を修復または克服するためにプロジェクトの日付を変更する。 例えば、正確な日付を反映させるために、数ヶ月間保留状態のプロジェクトを再計画する必要があります。 これは、プロジェクトの日付またはタスクの日付を手動で調整する操作です。 </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL レポート ]</td> 
@@ -1797,7 +1799,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL 予約時間 ]</td> 
-   <td>ユーザーの個人時間に指定された日数。ユーザーが作業に使用できなくなることを示します。 「[!UICONTROL 非稼働日数 ]」を参照してください。</td> 
+   <td>ユーザーの個人時間に指定された日数。ユーザーが作業できなくなることを示します。 「[!UICONTROL 非稼働日数 ]」を参照してください。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 問題の解決 ]</td> 
@@ -1813,7 +1815,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL リソース ]</td> 
-   <td>システム内に存在し、プロジェクトチームやタスクに割り当てられたユーザーやロール。</td> 
+   <td>に存在するユーザーまたはロール [!DNL Workfront] およびは、プロジェクトチーム、タスクおよびタスクに割り当てられます。 プロジェクト、タスクまたは問題に関連する作業を完了する責任を負います。 </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Resource Estimates</td> 
@@ -1824,7 +1826,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> -->
   <tr> 
    <td>[!UICONTROL リソース管理 ]</td> 
-   <td> <p>[!UICONTROL Resource Management] は、使用可能な状況に基づいてリソースの使用状況を正確に予測し、作業を予定どおりに予算通りに完了させるための一連のツールです。 </p> <p>リソース管理ツールを使用すると、リソースの長期的な容量と短期的なスケジューリングのニーズを計画できます。 </p> <p>でのリソース管理の詳細 [!DNL Workfront]を参照してください。 <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">リソース管理の概要</a>.</p> </td> 
+   <td> <p>[!UICONTROL Resource Management] は、使用可能な状況に基づいてリソースの使用状況を正確に予測し、作業を予定どおりに予算通りに完了させるための一連のツールです。 </p> <p>リソース管理ツールを使用すると、リソースの長期的な容量と短期的なスケジュール設定のニーズを計画できます。 </p> <p>でのリソース管理の詳細 [!DNL Workfront]を参照してください。 <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">リソース管理の概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource Manager ID]</td> 
@@ -1844,12 +1846,12 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL リソースプランナーの予算労務費 ]</td> 
-   <td> <p>これらは、リソース・プランナを使用して、プロジェクト・ジョブ・ロールに予算された時間に関連する原価です。 </p> <p>この記事の「予算労務費」も参照してください。 </p> </td>
+   <td> <p>これは、リソース・プランナを使用して、プロジェクト・ジョブ・ロールに予算された時間に関連する原価です。 </p> <p>この記事の「予算労務費」も参照してください。 </p> </td>
 
 </tr> 
   <tr> 
    <td>[!UICONTROL リソースプール ]</td> 
-   <td> <p>資源プールは、プロジェクトに関連付けることができるユーザーの集まりです。同じ資源プール内のユーザーは、通常同じ部門に属し、同じスキルや補完的なスキルを持っているか、同じ予算で資金が提供されます。 複数のリソースプールをプロジェクトまたはユーザーに関連付けることができます。 リソースプールは、プロジェクトにのみ割り当てることも、複数のプロジェクトで共有することもできます。</p> 
+   <td> <p>リソースプールは、プロジェクトに関連付けることができるユーザーの集まりです。 同じリソースプール内のユーザーは、通常、同じ部門に属しているか、同じスキルを持っているか、補完的なスキルを持っているか、同じ予算で資金を提供されています。 複数のリソースプールをプロジェクトまたはユーザーに関連付けることができます。 リソースプールは、プロジェクトにのみ割り当てることも、複数のプロジェクトで共有することもできます。</p> 
    <p>リソースプールの詳細については、「 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> リソースプールの概要 </a>.</p> 
    <p>プロジェクトレポートでは、リソースプールには、プロジェクトに関連付けられているすべてのプールが表示されます。 このオブジェクトはグループ化で使用できません。</p> 
   </td> 
@@ -1902,11 +1904,11 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL Routing]</td> 
-   <td>問題の自動割り当てまたは移動 ( 通常は、キューのトピックまたはキューのデフォルトルート（ルーティングルール）となる方法による )。</td> 
+   <td>問題の自動割り当てまたは移動 ( 通常は、キューのトピックまたはキューのデフォルトルート（ルーティングルール）となるため )。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ルーティングルール ]</td> 
-   <td>ユーザー、ロール、またはチームに問題を自動的に割り当てたり、別のプロジェクトまたはキューに問題を移動したりする、プロジェクトとキューに関する設定。 ルーティングルールは、通常、受信する問題を自動的に割り当てるためにヘルプデスクキューで使用されます。</td> 
+   <td>ユーザー、役割、チームに問題を自動的に割り当てたり、別のプロジェクトまたはキュートピックに問題を移動したりする、プロジェクトおよびキュートピックに関する設定。 ルーティングルールは、通常、受信イシューを自動的に割り当てるためにヘルプリクエストキューで使用されます。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1937,7 +1939,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL スケジュール ]</td> 
-   <td>週別の作業スケジュール（勤務時間を含む）と、休日（休日など）および例外日（土曜日の作業日など）を組み合わせたもの。 スケジュールは、プロジェクトとユーザーに適用できます。</td> 
+   <td>週別の作業スケジュール（勤務時間を含む）と、休日（休日など）および例外日（土曜日の作業日など）を組み合わせたもの。 スケジュールをプロジェクトおよびユーザーに関連付けることができます。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL スケジュールの除外 ]</td> 
@@ -1949,7 +1951,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL スコープの変更 ]</td> 
-   <td>[!UICONTROL 監査証跡 ]。アクティブな場合、[!UICONTROL タスク期間 ] や [!UICONTROL 先行タスク ] が変更された場合など、プロジェクトまたはタスクの範囲に変更が加えられるたびにメモを生成します。</td> 
+   <td>[!UICONTROL 監査証跡 ]。アクティブの場合、[!UICONTROL タスク期間 ] や [!UICONTROL 先行タスク ] が変更された場合など、プロジェクトまたはタスクの範囲が変更されるたびにメモを生成します。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL セクション ]</td> 
@@ -1969,7 +1971,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL 重大度 ]</td> 
-   <td> <p>[!UICONTROL 重大度 ] は、作業の完了に対する項目の影響の可能性を示します。 例えば、重大度が高い問題は、タスクの完了を完全にブロックする可能性がありますが、重大度が低い問題は、単に表面的なものに過ぎません。</p> <p>詳しくは、 <a href="../../../manage-work/issues/issue-information/update-issue-severity.md" class="MCXref xref"> 問題の重大度を更新</a>.</p> </td> 
+   <td> <p>[!UICONTROL 重大度 ] は、作業の完了に対する項目の影響の可能性を示します。 例えば、重大度が高い問題は、タスクの完了を完全にブロックする可能性がありますが、重大度が低い問題は、表面的なものに過ぎません。</p> <p>詳しくは、 <a href="../../../manage-work/issues/issue-information/update-issue-severity.md" class="MCXref xref"> 問題の重大度を更新</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 重大度 ]</td> 
@@ -1985,7 +1987,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL スマート割り当て ]</td> 
-   <td> <p>ユーザーにタスクまたは問題を割り当てる場合、 [!DNL Workfront] は、作業の完了に最適なユーザーとプロジェクトとの関係に基づいて、誰が作業を完了するかに関するレコメンデーション（[!UICONTROL スマート割り当て ]）をおこないます。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">スマート割り当ての概要</a>.</p> </td> 
+   <td> <p>ユーザーにタスクまたは問題を割り当てる場合 [!DNL Workfront] は、作業の完了に最適なユーザーとプロジェクトとの関係に基づいて、誰が作業を完了するかに関するレコメンデーション（[!UICONTROL スマート割り当て ]）をおこないます。</p> <p>詳しくは、 <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">スマート割り当ての概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ソース ]</td> 
@@ -2022,12 +2024,12 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
      <li>[!UICONTROL 完了 ] </li> 
      <li>[!UICONTROL 無効 ]</li> 
     </ul> <p>プロジェクトのステータスの詳細については、 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md">システムプロジェクトステータスのリストへのアクセス</a>.</p>
-    <p>タスクの場合、[!UICONTROL ステータス ] はタスクの設定で、タスクが次のどちらであるかを示します。</p> 
+    <p>タスクの場合、[!UICONTROL ステータス ] はタスクが次のどちらであるかを示すタスクの設定です。</p> 
     <ul> 
      <li>[!UICONTROL 新規 ]</li> 
      <li>[!UICONTROL 処理中 ]</li> 
      <li>[!UICONTROL 完了 ]</li> 
-    </ul> <p>タスクステータスの詳細については、 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">システムタスクステータスのリストへのアクセス</a></p> <p>問題の場合、[!UICONTROL ステータス ] は問題に関する設定で、この問題が次のどちらであるかを示します。</p> 
+    </ul> <p>タスクのステータスについて詳しくは、 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">システムタスクステータスのリストへのアクセス</a></p> <p>問題の場合、[!UICONTROL ステータス ] は問題に関する設定で、この問題が次のどちらであるかを示します。</p> 
     <ul> 
      <li>[!UICONTROL 新規 ]</li> 
      <li>[!UICONTROL 処理中 ]</li> 
@@ -2052,7 +2054,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL ステータスの変更 ]</td> 
-   <td>[!UICONTROL 監査証跡 ]。 ユーザーがプロジェクト、タスク、またはイシューのステータスを変更すると、メモが生成されます。</td> 
+   <td>[!UICONTROL 監査証跡 ]。 ユーザーがプロジェクト、タスクまたはイシューのステータスを変更すると、メモが生成されます。</td> 
   </tr> 
   <tr> 
    <td>状態アイコン</td> 
@@ -2078,8 +2080,8 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL ステータスの更新 ]</td> 
-   <td> <p>このフィールドには、「[!UICONTROL ステータスの更新 ]」フィールドでオブジェクトの所有者が指定した最新のステータス更新が表示されます。 プロジェクトの場合は、プロジェクト所有者が行ったコメント、タスクやタスクに関するコメント、つまり担当者が行ったコメントを意味します。</p> 
-   <p> ステータスの更新に関しておこなわれたコメントは、「[!UICONTROL ステータスの更新 ]」列に表示されません。</p> <p>「[!UICONTROL 新規 ]」、「[!UICONTROL In Process]」および「[!UICONTROL Complete]」のステータスを表示するには、[!UICONTROL Status] 列を使用します。</p> <p>ステータスについて詳しくは、「 <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">タスクステータスを更新</a>.</p> </td> 
+   <td> <p>このフィールドには、プロジェクト、タスク、または問題報告で、「[!UICONTROL 更新 ]」領域でオブジェクトの所有者が提供した最新のステータス更新が表示されます。 プロジェクトの場合は、プロジェクト所有者が行ったコメント、タスクやタスクに対するコメント、つまり担当者が行ったコメントを意味します。</p> 
+   <p> オブジェクトのステータスを更新する際におこなわれたコメントは、「[!UICONTROL ステータスの更新 ]」列に表示されません。</p> <p>「[!UICONTROL 新規 ]」、「[!UICONTROL In Process]」および「[!UICONTROL Complete]」のステータスを表示するには、[!UICONTROL Status] 列を使用します。</p> <p>ステータスについて詳しくは、「 <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">タスクステータスを更新</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ステータス ]</td> 
@@ -2140,7 +2142,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL タスク属性 ]</td> 
-   <td>Task に関連付けられ、Task に関する特定の詳細を示すその他のフィールドまたはオブジェクト。 例として、[!UICONTROL 計画完了日 ] や [!UICONTROL ステータス ] があります。</td> 
+   <td>タスクに関連付けられ、タスクに関する特定の詳細を示すその他のフィールドまたはオブジェクト。 例として、[!UICONTROL 計画完了日 ] や [!UICONTROL ステータス ] があります。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL タスク制約 ]</td> 
@@ -2169,7 +2171,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL テンプレートタスク ]</td> 
-   <td>テンプレートの一部であるタスク。 テンプレートタスクは、テンプレートを使用して作成されるプロジェクト内のタスクになります。</td> 
+   <td>テンプレートの一部であるタスクです。 テンプレートタスクは、テンプレートを使用して作成されるプロジェクト内のタスクになります。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL スレッド ]</td> 
@@ -2205,9 +2207,9 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL トラッキングモード ]</td> 
-   <td> <p>タスクの属性です。 これにより、タスクの予定タイムラインを更新する方法が決まりました。 例：</p> 
+   <td> <p>タスクの属性。 これにより、タスクの予定タイムラインを更新する方法とタイミングが決まります。 例：</p> 
     <ul> 
-     <li>[!UICONTROL ユーザーは更新が必要 ] タスクを手動で更新する必要があります。 それ以外の場合は、[!UICONTROL Behind Schedule]、[!UICONTROL Late] の順に変更されます。</li> 
+     <li>[!UICONTROL ユーザーは更新が必要 ] では、タスクを手動で更新する必要があります。 それ以外の場合は、[!UICONTROL Behind Schedule]、[!UICONTROL Late] の順に変更されます。</li> 
      <li>[!UICONTROL 自動完了 ] は、期限（[!UICONTROL 予定完了日 ]）が過ぎると、タスクを自動的に完了します。</li> 
     </ul> <p>詳しくは、 <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">タスクトラッキングモードの概要</a>.</p> </td> 
   </tr> 
@@ -2221,11 +2223,11 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL 未割り当てタスク ]</td> 
-   <td>ユーザー、役割、またはチームに割り当てられていないタスクです。</td> 
+   <td>どのユーザー、役割、またはチームにも割り当てられていないタスクです。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 更新タイプ ]</td> 
-   <td> <p>プロジェクトの推定タイムラインを再計算するタイミングを決定する、プロジェクトの設定です。 オプションは次のとおりです。</p> 
+   <td> <p>プロジェクトの推定タイムラインを再計算するタイミングを決定する、プロジェクトの設定です。 [!UICONTROL 更新タイプ ] には、次の値を指定できます。</p> 
     <ul> 
      <li>[!UICONTROL 自動変更と変更時 ]</li> 
      <li>[!UICONTROL 自動のみ ]</li> 
@@ -2282,7 +2284,8 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
    </tr> 
   <tr> 
    <td>[!UICONTROL 表示 ]</td> 
-   <td> <p>表示は、レポートの列を変更する場合や、プロジェクト、タスク、問題の一覧で使用する場合、またはアクセスレベルまたは権限共有レベルでの情報のみを表示するユーザーの権限を示す場合に使用できます。</p> </td> 
+   <td> <p>ビューとは、レポート内の列またはオブジェクトのリスト内の列を変更できるレポート要素を指します。</p> 
+   <p> 「表示」は、オブジェクトのアクセスレベルに応じて、またはそのオブジェクトの権限共有レベルで、そのオブジェクトの情報のみを表示するユーザーの権利を指します。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL アイコンを表示 ]</td> 
@@ -2320,7 +2323,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   <td> <code>[!UICONTROL width]</code>
   </td>
 <td> レポートで、[!UICONTROL テキストモード ] インターフェイスを使用する際に、各列の幅をピクセル単位で指定できるコード行。 Workfrontでは各フィールドに推奨される幅が提供されますが、フィールドの種類や形式に応じて異なりますが、調整を行うこともできます。
-追加の <code>[!UICONTROL usewidths=true]</code> 列に指定された幅を適用するコードの行。 
+追加の <code>[!UICONTROL usewidths=true]</code> 列に指定された幅を適用するコード行。 
   </td>
 
 </tr>
@@ -2336,7 +2339,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
   </tr> 
   <tr> 
    <td>[!UICONTROL Work]</td> 
-   <td> <p>2 つの主なライセンスの種類の 1 つ。 これにより、[!UICONTROL プラン ] よりもアクセス権が小さくなりますが、システムで作成および更新をおこなうことができます。 これは、[!UICONTROL 外部 ]、[!UICONTROL レビュー担当者 ]、[!UICONTROL リクエスター ] の各ライセンスタイプよりも多くの機能を備えています。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] ライセンスの概要</a>.</p> <p>Work は、プロジェクト、タスクまたは問題の [!UICONTROL 予定時間 ] 数を指す場合があります。 詳しくは、この表の「[!UICONTROL work]」フィールドを参照してください。 </p> <p>ヒント：問題レポートで、[!UICONTROL 予定時間 ] フィールドの 1 つを追加すると、 <code>work </code>フィールドをレポートに追加します。 </p> </td> 
+   <td> <p>2 つの主なライセンスの種類の 1 つ。 これにより、[!UICONTROL プラン ] よりもアクセス権が小さくなりますが、システムで作成および更新をおこなうことができます。 Work ライセンスを持つユーザーは、[!UICONTROL External]、[!UICONTROL Reviewer]、[!UICONTROL Requester] の各ライセンス所有者よりも多くの機能を持ちます。</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] ライセンスの概要</a>.</p> <p>Work は、プロジェクト、タスクまたは問題の [!UICONTROL 予定時間 ] 数を指す場合があります。 詳しくは、この表の「[!UICONTROL work]」フィールドを参照してください。 </p> <p><b>ヒント</b></p> <p> 問題レポートで、[!UICONTROL 予定時間 ] フィールドの 1 つを追加すると、 <code>work </code>フィールドをレポートに追加します。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 作業分類構造 ]</td> 
@@ -2347,7 +2350,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
    <td> 
     <p>プロジェクトマネージャーは、タスクの完了に必要な作業量を見積もる際に、[!UICONTROL 予定時間 ] の代わりにこのフィールドを使用することにします。 このフィールドは、次の条件を満たした場合にのみ表示されます。</p> 
      <ul> 
-      <li> <p>タスクには [!UICONTROL シンプル期間タイプ ] が含まれています。 </p> <p>ヒント：タスク [!UICONTROL 期間タイプ ] を他のタイプに更新すると、このフィールドは非表示になります。 </p> </li> 
+      <li> <p>タスクには [!UICONTROL シンプル期間タイプ ] が含まれています。 </p> <p><b>ヒント</b></p> <p> タスク [!UICONTROL 期間タイプ ] を他のタイプに更新すると、このフィールドは非表示になります。 </p> </li> 
       <li>プロジェクトマネージャーが、[!UICONTROL 作業量を使用 ] で、プロジェクトのタスク [!UICONTROL 予定時間 ] フィールドを自動的に計算できるようにしました。 </li> 
      </ul> 
      <p>[!UICONTROL 予定時間 ] の代わりに [!UICONTROL 作業量 ] を使用してタスクの作業量を見積もる方法について詳しくは、 <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">作業量の概要</a>. </p> 
@@ -2404,7 +2407,7 @@ Workfrontでは、時間エントリに次のいずれかのステータスを�
    <p>この数値を使用して、プロジェクト関連の実際の作業に対するユーザーの可用性が計算されます。 </p>
    <p> スケジュールの例外とタイムオフも、ユーザーの容量に影響を与える可能性があります。 </p>
    <p>Workfrontでスケジュールを作成する方法について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>. </p>
-    <p>Workfrontは、[!UICONTROL セットアップ ] 領域のリソース管理環境設定に応じて、ユーザーの可用性を計算します。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">リソース管理環境設定の指定</a>. </p> 
+    <p>Workfrontは、[!UICONTROL 設定 ] 領域のリソース管理環境設定に応じて、ユーザーの可用性を計算します。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">リソース管理環境設定の指定</a>. </p> 
    <p>ユーザーの [!UICONTROL 作業時間 ] は、ユーザーの編集時または作成時に更新できます。 詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">ユーザーのプロファイルの編集</a></p> 
    <b>ヒント</b> 
    <p>[!UICONTROL Work Time] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できることを示します。</p> 
