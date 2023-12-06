@@ -7,9 +7,9 @@ description: ファイルの作成に使用するソフトウェア (Photoshop�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,10 @@ Workfrontには次の制限があります。
 * ANI - Windows アニメーションカーソル
 * ANZ - Mayo Clinic 分析形式
 * ARW - Sony Raw 形式
-* AWD - Microsoft Fax
+* AWD - Microsoft FAX
 * BMP - Windows および OS/2 ビットマップ形式
 * CAL - CALS ラスター
-* CGM — コンピュータグラフィックメタファイル
+* CGM — コンピュータグラフィックスメタファイル
 * CIN — コダックシネオン
 * CLP - Windows クリップボード
 * CMP — リード圧縮済み
@@ -67,7 +67,7 @@ Workfrontには次の制限があります。
 * CR2 - Canon Raw
 * CRW - Canon Raw
 * CUR - Windows カーソル
-* カット — ハロ博士
+* CUT - Dr. Halo
 * DGN - Intergraph Design
 * DOC - Microsoft Word 文書
 * DOCX - Microsoft Word 文書
@@ -105,7 +105,7 @@ Workfrontには次の制限があります。
 * JPM -JPEG2000 Part 6
 * JPX -JPEG2000 Part 2
 * KDC - Kodak Digital Camera
-* Mac - MacPaint
+* MAC - MacPaint
 * MIF - MapInfo 交換
 * MNG — 複数のネットワークグラフィック
 * MO:DCA — 混合オブジェクト：ドキュメントコンテンツアーキテクチャ
@@ -147,7 +147,7 @@ Workfrontには次の制限があります。
 * SNP - Microsoft Access レポートのスナップショット
 * SR2 - Sony Raw 形式
 * SRF - Sony Raw 形式
-* SVG — スケーラブルベクタグラフィック
+* SVG — スケーラブルベクトルグラフィックス
 * TDB - Microsoft Windows サムネールのキャッシュ
 * TFX — インターネットファックス
 * TGA - Truevision TARGA

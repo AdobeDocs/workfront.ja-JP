@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 9d273023179c3f650b043be2de8f6bd15febf130
+source-git-commit: 27a4305826a6e9516d110c5bf7a82d2e465c58c8
 workflow-type: tm+mt
-source-wordcount: '13779'
+source-wordcount: '13776'
 ht-degree: 1%
 
 ---
@@ -833,7 +833,7 @@ ht-degree: 1%
       * [ページを固定してワークスペースをカスタマイズする](workfront-basics/the-new-workfront-experience/pin-pages.md)
       * [カスタムセクションの作成](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Adobe Workfrontヘルプにアクセス](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-      * [Adobe Workfrontのオブジェクトについて](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+      * [[!DNL Adobe Workfront] オブジェクトの概要](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [作業用ライセンスユーザのナビゲーションについて](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [レビューライセンスユーザーのナビゲーションについて](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Adobe Workfrontのプロジェクト、タスクおよび発行日の概要](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
