@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Workfront管理者は、組織で購入されたライセンスの数や�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。 詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。 詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,11 +56,11 @@ Adobe Workfront管理者は、組織で購入されたライセンスの数や�
 
    >[!NOTE]
    >
-   >配達確認ライセンスは、Workfrontライセンスに加えて有料Workfront Proof アドオンを購入したお客様のみが利用できます。 このアドオンについて詳しくは、 [Workfront Proof](../../workfront-proof/workfront-proof.md).
+   >配達確認ライセンスは、Workfrontライセンスに加えて有料Workfront Proof アドオンを購入したお客様のみが利用できます。 このアドオンについて詳しくは、 [Workfront Proof：記事インデックス](../../workfront-proof/workfront-proof.md).
 
 1. （条件付き）メッセージが表示された場合 **最大値を設定するには、ホームグループを追加する必要があります**&#x200B;を使用して、の節で説明されている方法で、システムにホームグループを追加します。 [[ ライセンス ] ページにホームグループを追加または削除する](#add-or-remove-a-home-group-to-the-licenses-page) 」を参照してください。
 
-## Workfrontアドオンのライセンスに関する情報を表示
+## Workfrontアドオンのライセンスに関する情報を表示します
 
 下のスクリーンショットで **5/10 個の配達確認ライセンス** この組織が有料Workfront Proof アドオンを持ち、現在購入した 10 個のWorkfront Proof ライセンスのうち 5 個を使用していることを示します。
 
@@ -76,6 +76,7 @@ Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../.
 >[!NOTE]
 >
 >Workfrontでは、購入したWorkfront Goals ライセンスをさらに割り当てることができます。 ただし、Workfront Goals 契約で許可されている数を超えるライセンスを割り当てると、Workfrontのアカウントマネージャーから連絡があり、契約上の数を超えたことが通知されます。
+>
 
 <!--
 If an organization has other paid add-on products, their license information also displays here. If the organization doesn't have any paid add-on products, nothing displays here. (Drafted this because not sure this is accurate: Scenario Planner is an add-on product and its licenses are not displayed there.)
@@ -84,10 +85,11 @@ If an organization has other paid add-on products, their license information als
 >[!TIP]
 >
 >管理アクセス権を持たないユーザーは、グループレポートを使用してライセンス数を表示できます。 「レポート」タブで、新しいグループレポートを作成し、次の列を追加します。>
->* ライセンスの種類制限：作業者制限
->* ライセンスの種類制限：プランナーの制限
+>* ライセンスの種類制限：ワーカー制限
+>* ライセンス・タイプ制限：プランナ制限
 >
 >レポートの作成について詳しくは、 [カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>
 
 ## 月次配達確認とドキュメントの決定割り当てに関する情報を表示します
 
@@ -117,7 +119,6 @@ If an organization has other paid add-on products, their license information als
 >* 最上位のグループのみをホームグループとして追加でき、サブグループは追加できません。 ユーザがホームグループとして割り当てられたサブグループを持つ場合、そのライセンスはそのサブグループの上の最上位グループのライセンス数に追加されます。
 >
 
-
 [ ライセンス ] ページにホームグループを追加または削除するには、次の手順に従います。
 
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
@@ -125,7 +126,7 @@ If an organization has other paid add-on products, their license information als
 1. 左側のパネルの下部で、 **システム** > **ライセンス**.
 
 1. クリック **グループリストを管理**.
-1. 最上位グループの名前を **ホームグループ** ボックス
+1. 最上位グループの名前を **ホームグループ** ボックス。
 1. グループを追加するには、表示されたらその名前をクリックします。
 
    または
@@ -151,7 +152,7 @@ Workfront管理者は、システムの最上位のホームグループに対�
 1. 左側のパネルの下部で、 **システム** > **ライセンス**.
 
 1. リスト内でホームグループを探します。
-1. 内 **最大** グループの列で、最大値を設定する値をクリックします。
+1. Adobe Analytics の **最大** グループの列で、最大値を設定する値をクリックします。
 1. 最大数を入力し、Enter キーを押します。
 
    ![](assets/updated-max.png)

@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -42,9 +42,9 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>現在のプラン：標準
+   <td>新規プラン：標準
    <p>または</p>
-   <p>レガシープラン：プラン</p></td> 
+   <p>現在のプラン：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

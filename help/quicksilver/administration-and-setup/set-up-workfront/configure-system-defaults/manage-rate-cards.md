@@ -7,9 +7,10 @@ description: 料金カードを使用すると、場所に基づいて、役割�
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -34,8 +35,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>従来のプラン： [!UICONTROL プラン ]</p>
-       <p>現在のプラン： [!UICONTROL Standard]</p></td> 
+   <td><p>新しいプラン： [!UICONTROL Standard] </p>
+       <p>または</p> 
+       <p>現在のプラン： [!UICONTROL プラン ] </p>
+   </td>    
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

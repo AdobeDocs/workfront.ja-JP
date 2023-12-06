@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -34,9 +34,9 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td>
-   <p>現在のプラン：標準</p>
+   <p>新規プラン：標準</p>
    <p>または</p>
-   <p>レガシープラン：プラン</p></td> 
+   <p>現在のプラン：プラン</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 

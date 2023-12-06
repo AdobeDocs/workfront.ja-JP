@@ -9,10 +9,10 @@ description: Workfrontにログインして作業するには、すべてのユ�
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >無効にした場合、決定の数を超えた有料以外のユーザーは、自動的にアップグレードされません。
-
 
 ## アクセス要件
 
@@ -42,9 +41,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>現在のプラン：標準
+   <td>新規プラン：標準
    <p>または</p>
-   <p>レガシープラン：プラン</p></td> 
+   <p>現在のプラン：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

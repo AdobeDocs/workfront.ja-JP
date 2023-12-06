@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -34,9 +34,9 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td>
-   <p>現在のプラン：標準</p>
+   <p>新規プラン：標準</p>
    <p>または</p>
-   <p>レガシープラン：プラン</p></td> 
+   <p>現在のプラン：プラン</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -105,7 +105,7 @@ ht-degree: 0%
          </ul> </li> 
        </ul> 
        <p>オブジェクトに対する権限については、 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">オブジェクトに対する共有権限の概要</a>.</p> 
-       <p><b>メモ</b>:  
+       <p><b>注意</b>:  
        <ul> 
        <li> <p>ここで指定した権限を持たないユーザーは、セクションのカスタムフィールドとウィジェットを表示できません。 </p> <p>これは、フィールドの値をレポートに表示する場合や、テキストモードのレポートで計算フィールドで使用する場合にも当てはまります。</p> </li> 
        <li> <p>複数のオブジェクトタイプをフォームに関連付けると、これらの手順で使用できる表示および編集権限が変更される場合があります。 詳しくは、 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">複数のオブジェクトタイプが、カスタムフォームのセクション区切り権限に与える影響</a> 」を参照してください。</p> </li> 
