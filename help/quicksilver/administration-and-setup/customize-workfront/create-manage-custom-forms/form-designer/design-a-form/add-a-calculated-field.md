@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 0%
 
         >[!INFO]
         >
-        >**例:**
+        >**例：**
         >
         >プロジェクト、タスクおよびイシューを操作するように設定されたカスタムフォームでは、次の数式を使用してオブジェクトタイプを表示できます。
         >
@@ -281,7 +281,7 @@ ht-degree: 0%
       >
       >次の操作を実行して、計算に関するヘルプを得ることができます。
       > 
-      >* 計算式の上にマウスポインターを置くと、説明、使用方法を示す例、記事の詳細情報への「詳細」リンクが表示されます [計算データ式](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* 計算式の上にマウスポインターを置くと、説明、使用方法を示す例、記事の詳細情報への「詳細」リンクが表示されます [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* 追加したコンポーネントを識別するには、色分けを使用します。 式は青で表示され、フィールドは緑で表示されます。
       >  ![](assets/colors-fields-expressions.jpg)

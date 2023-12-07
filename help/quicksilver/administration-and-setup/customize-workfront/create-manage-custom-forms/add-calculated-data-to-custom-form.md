@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 0%
    >
    >この例では、 `SUB` が式で、参照されるフィールドが `actualRevenue` および `actualCost`.
 
-   演算は、通常、式で始まり、カスタムフォームがオブジェクトに添付される際に参照するフィールドを含む括弧が続きます。 使用可能な式について詳しくは、 [計算データ式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   演算は、通常、式で始まり、カスタムフォームがオブジェクトに添付される際に参照するフィールドを含む括弧が続きます。 使用可能な式について詳しくは、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    各フィールドは中括弧で囲む必要があります。詳しくは、 [計算カスタムフィールドに必要な構文](#syntax-required-in-calculated-custom-fields) 」を参照してください。 フィールドの名前を入力し始めると、候補が表示され、選択して計算に挿入できます。
 
@@ -138,7 +138,7 @@ ht-degree: 0%
    >
    >次の操作を実行して、計算に関するヘルプを得ることができます。
    > 
-   >* 計算式の上にマウスポインターを置くと、説明、使用方法を示す例、記事の詳細情報への「詳細」リンクが表示されます [計算データ式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* 計算式の上にマウスポインターを置くと、説明、使用方法を示す例、記事の詳細情報への「詳細」リンクが表示されます [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* 追加したコンポーネントを識別するには、色分けを使用します。 式は青で表示され、フィールドは緑で表示されます。
    >  ![](assets/colors-fields-expressions.jpg)
@@ -261,7 +261,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
 >Task オブジェクトタイプと連携するように設定されたカスタムフォームでは、In Charge という名前の計算カスタムフィールドを作成します。 このフィールドで組み込みフィールドを参照するように設定し、フォームがタスクに添付されるたびに、担当の主な担当者の名前を表示できるようにします。
 >

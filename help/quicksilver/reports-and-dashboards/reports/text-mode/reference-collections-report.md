@@ -6,9 +6,9 @@ description: レポート内のコレクションの参照
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 8b6324302a70319f387d1e09d1eb92fbdabf7e32
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2609'
+source-wordcount: '2587'
 ht-degree: 0%
 
 ---
@@ -37,16 +37,16 @@ Workfrontでのレポートの作成について詳しくは、 [カスタムレ
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限の管理</p> <p>ビュー、フィルターまたはグループ化に対する権限を管理 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>レポートに対する権限の管理</p> <p>ビュー、フィルター、またはグループ化に対する権限を管理 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## コレクションについて
 
@@ -54,11 +54,11 @@ Workfrontでのレポートの作成について詳しくは、 [カスタムレ
 
 Workfrontでは、オブジェクト間に次の 2 つの関係があります。
 
-* **1 対 1 の関係**:1 つのオブジェクトは、一度に 1 つの他のオブジェクトにのみリンクできます。\
-   例えば、1 つのプロジェクトを一度に 1 つのポートフォリオにのみリンクできるとします。
+* **1 対 1 の関係**：一度に 1 つのオブジェクトのみ、他のオブジェクトにリンクできます。\
+  例えば、1 つのプロジェクトを一度に 1 つのポートフォリオにのみリンクできるとします。
 
-* **一対多の関係**:1 つのオブジェクトは、一度に複数の他のオブジェクトにリンクできます。\
-   例えば、1 つのプロジェクトに複数のタスクを含めることができます。 この場合、タスクのリストはプロジェクトのコレクションとなります。
+* **一対多の関係**:1 つのオブジェクトを、一度に複数の他のオブジェクトにリンクできます。\
+  例えば、1 つのプロジェクトに複数のタスクを含めることができます。 この場合、タスクのリストはプロジェクトのコレクションとなります。
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Workfrontでは、オブジェクト間に次の 2 つの関係があります�
 
 * [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
-* [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 
 ## API エクスプローラーでのコレクションオブジェクトとそのフィールドの検索 {#find-collection-objects-and-their-fields-in-the-api-explorer}
 
@@ -128,14 +128,14 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 ![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
 
 * [レポート表示にコレクション列を追加する](#add-a-collection-column-in-a-report-view)
-* [コレクションの行を理解するテキストモードで表示](#understand-the-lines-of-a-collection-view-in-text-mode)
+* [コレクションの行を理解するテキストモードで表示する](#understand-the-lines-of-a-collection-view-in-text-mode)
 * [コレクション表示の制限](#limitations-of-a-collection-view)
 
 ### レポート表示にコレクション列を追加する {#add-a-collection-column-in-a-report-view}
 
 レポートビューにコレクション列を追加するには：
 
-1. 次をクリック： **メイン** メニュー ![](assets/main-menu-icon.png)を選択し、「 **レポート**.
+1. 次をクリック： **メイン** メニュー ![](assets/main-menu-icon.png)を選択し、次に **レポート**.
 1. クリック **新しいレポート**.
 1. レポートのオブジェクトを選択します。
 1. レポートから移動し、 [API エクスプローラ](../../../wf-api/general/api-explorer.md)を選択し、レポートに選択したオブジェクトに対して使用できるコレクションを指定します。
@@ -164,58 +164,58 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
    valuefield=collection object field
    ```
 
-1. 置換 **列名** を `displayname` 行
-1. 置換 **コレクションオブジェクト名**&#x200B;を `listmethod` 行で、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
+1. 置換 **列名** を、 `displayname` 行。
+1. 置換 **コレクションオブジェクト名**&#x200B;を、 `listmethod` 行で指定します。 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
-1. 置換 **コレクションオブジェクトフィールド** を `valuefield` 行で、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
+1. 置換 **コレクションオブジェクトフィールド** を、 `valuefield` 行で指定します。 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
-   次を置換： **valuefield** と **valueexpression**&#x200B;を指定します。
+   次を置き換えることができます。 **valuefield** 次を使用 **valueexpression**&#x200B;の場合は、カスタム式をビューに作成します。
 
-   計算されたカスタム式について詳しくは、 [計算データ式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   計算されたカスタム式について詳しくは、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   例えば、タスクのリストをプロジェクトレポートに表示する場合です。 このコレクションでは、 `valuefield` タスク名を参照する行。
+   例えば、タスクのリストをプロジェクトレポートに表示する場合です。 このコレクションでは、 `valuefield` タスクの名前を参照する行。
 
    次のいずれかの操作を行います。
 
    * 次のコードを使用して、列を作成します。
 
-      ```
-      valueformat=HTML
-      textmode=true
-      type=iterate
-      listdelimiter=<p>
-      displayname=Project Tasks Names
-      listmethod=nested(tasks).lists
-      valuefield=name
-      ```
+     ```
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Project Tasks Names
+     listmethod=nested(tasks).lists
+     valuefield=name
+     ```
 
    * 次のコードを使用して、レポートに問題のリストを表示します。
 
-      ```
-      displayname=Project Issues Names
-      listdelimiter=<p>
-      listmethod=nested(issues).lists
-      textmode=true
-      type=iterate
-      valuefield=name
-      valueformat=HTML
-      ```
+     ```
+     displayname=Project Issues Names
+     listdelimiter=<p>
+     listmethod=nested(issues).lists
+     textmode=true
+     type=iterate
+     valuefield=name
+     valueformat=HTML
+     ```
 
-      コレクションでは、を使用する必要があります。 **問題** の **listmethod** の代わりに行 **opTasks** 問題のデータベース名です。 を使用するタイミングについて **問題** 使用するタイミング **opTask** 問題を参照する場合は、 [問題を参照する際には、「opTask」と「issue」を使用します](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     コレクションでは、を使用する必要があります。 **問題** （の） **listmethod** の代わりに行 **opTasks** Issues のデータベース名です。 を使用するタイミングについて **問題** 使用するタイミング **opTask** 問題を参照する場合は、 [問題を参照する際には、「opTask」と「issue」を使用します](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
-   * 主な担当者と共に、プロジェクトレポートにタスクのリストを表示する場合は、 **valueexpression** 主な担当者の名前の代わりに、主な担当者の名前に隣接するタスク名を参照する行 **valuefield**.
+   * 主な担当者と共に、プロジェクトレポートにタスクのリストを表示する場合は、 **valueexpression** 主な担当者の名前の代わりに、主な担当者の名前に隣接するタスクの名前を参照する行 **valuefield**.
 
-      次のコードを使用して、列を作成します。
+     次のコードを使用して、列を作成します。
 
-      ```
-      valueformat=HTML
-      textmode=true
-      type=iterate
-      listdelimiter=<p>
-      displayname=Tasks Names - Primary Assignee
-      listmethod=nested(tasks).lists
-      valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
-      ```
+     ```
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Tasks Names - Primary Assignee
+     listmethod=nested(tasks).lists
+     valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
+     ```
 
 1. 次の列は、プロジェクトレポートに表示され、各プロジェクトのすべてのタスクが主な担当者と共に表示されます。
 
@@ -228,7 +228,7 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 
    クリック **保存して閉じる** をクリックしてレポートを保存します。
 
-#### コレクションの行を理解するテキストモードで表示
+#### コレクションの行を理解するテキストモードで表示する
 
 コレクションのテキストモード表示の行の概要を次の表に示します。
 
@@ -244,7 +244,7 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>この行には様々な値を使用できますが、 <code style="font-weight: normal;">valueformat</code> コレクションリストの <strong>HTML。</strong></p>
+   <td> <p>この行には様々な値を使用できますが、 <code style="font-weight: normal;">valueformat</code> コレクションリストを <strong>HTML。</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -253,11 +253,11 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
   </tr> 
   <tr> 
    <td><code>type=iterate</code> </td> 
-   <td> <p>この <code>type</code> のリストは常に <code>iterate</code>（ビューの作成時）</p> </td> 
+   <td> <p>The <code>type</code> のリストは常に <code>iterate</code>（ビューの作成時）</p> </td> 
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>これは、リスト内の値を区切るために使用される区切り文字です。<br>使用をお勧めします。 <code>&lt;p&gt;</code> 値の間に改行を追加します。</p> <p>また、次も使用できます。</p> <p><code>&amp;zwj;</code> （ゼロ幅の結合子）。 コレクションの値は、それらの間に分離されません。<br><strong>,</strong> =コンマ区切り記号。 コレクションの値は、コンマで区切られ、その後にスペースは含まれません。<br><strong>/</strong> =スラッシュ区切り文字 コレクションの値はスラッシュで区切られます。<br><strong>-</strong> =ダッシュ区切り記号 コレクションの値はダッシュで区切られます。<br>この行を空のままにすると、デフォルトでは、コレクションの値の間にコンマとスペースが追加されます。</p> </td> 
+   <td> <p>これは、リスト内の値を区切るために使用される区切り文字です。<br>使用をお勧めします。 <code>&lt;p&gt;</code> 値の間に改行を追加します。</p> <p>また、次の機能も使用できます。</p> <p><code>&amp;zwj;</code> （ゼロ幅の結合子）。 コレクションの値は、それらの間に分離されません。<br><strong>,</strong> =コンマ区切り記号。 コレクションの値は、コンマで区切られ、その後にスペースは含まれません。<br><strong>/</strong> =スラッシュ区切り文字 コレクションの値はスラッシュで区切られます。<br><strong>-</strong> =ダッシュ区切り記号 コレクションの値はダッシュで区切られます。<br>この行を空のままにすると、デフォルトでは、コレクションの値の間にコンマとスペースが追加されます。</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>列名</em> </td> 
@@ -269,7 +269,7 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>この行は、コレクションオブジェクトから参照するフィールドを定義します。</p> <p>置換 <strong>コレクションオブジェクトフィールド</strong> コレクション内で参照するオブジェクトのフィールドの名前 ( <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラ</a>.</p> <p>この行を次に置き換えることができます。</p> <p><strong>valueexpression</strong>=計算済みコレクションオブジェクトフィールド/フィールド</p> <p>使用 <strong>valueexpression</strong>を使用すると、計算されたカスタム式を列に表示できます。</p> <p>のフォーマット方法の詳細 <strong>valueexpression</strong> 行、「 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">テキストモード構文の概要</a>.</p> </td> 
+   <td> <p>この行は、コレクションオブジェクトから参照するフィールドを定義します。</p> <p>置換 <strong>コレクションオブジェクトフィールド</strong> コレクション内で参照するオブジェクトのフィールドの名前 ( <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラ</a>.</p> <p>この行を次に置き換えることができます。</p> <p><strong>valueexpression</strong>=計算済みコレクションオブジェクトフィールド/フィールド</p> <p>使用 <strong>valueexpression</strong>を使用すると、計算されたカスタム式を列に表示できます。</p> <p>のフォーマット方法の詳細については、 <strong>valueexpression</strong> 行、詳しくは、 <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">テキストモードの構文の概要</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -282,7 +282,7 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 * コレクションビューには条件付き書式を適用できません。
 * コレクション内のオブジェクトをクリック可能なリンクにすることはできません。
 * 別のコレクションのコレクション表示は作成できません。\
-   例えば、各タスクのすべての担当者をプロジェクトレポートに表示することはできません。 主な担当者は、プロジェクトビューの各タスクに対してのみ表示できます。
+  例えば、各タスクのすべての担当者をプロジェクトレポートに表示することはできません。 主な担当者は、プロジェクトビューの各タスクに対してのみ表示できます。
 
 ### レポートのフィルターでコレクションを参照する {#reference-a-collection-in-the-filter-of-a-report}
 
@@ -292,7 +292,7 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 
 レポートフィルターでコレクションへの参照を追加するには：
 
-1. 次をクリック： **メイン** メニュー ![](assets/main-menu-icon.png)を選択し、「 **レポート**.
+1. 次をクリック： **メイン** メニュー ![](assets/main-menu-icon.png)を選択し、次に **レポート**.
 1. クリック **新しいレポート**.
 1. レポートのオブジェクトを選択します。
 1. レポートから移動し、 [API エクスプローラ](../../../wf-api/general/api-explorer.md)を選択し、レポートに選択したオブジェクトに対して使用できるコレクションを指定します。
@@ -309,18 +309,18 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 
 1. レポートに戻り、 **フィルター** タブ、クリック **テキストモードに切り替え**.
 
-1. 内 **レポートのフィルタールールの設定** 「 」領域に、次のコードを貼り付けます。
+1. Adobe Analytics の **レポートのフィルタールールを設定する** 「 」領域に、次のコードを貼り付けます。
 
    ```
    collection object name:collection object field=collection object value
    collection object name:collection object field_Mod=value of the modifier
    ```
 
-1. 置換 **コレクションオブジェクト名** を、 [API エクスプローラ](../../../wf-api/general/api-explorer.md). この値は、通常、コレクションオブジェクト名の複数形式です。
+1. 置換 **コレクションオブジェクト名** に、コレクションオブジェクトの名前が [API エクスプローラ](../../../wf-api/general/api-explorer.md). この値は、通常、コレクションオブジェクト名の複数形式です。
 
-1. 置換 **コレクションオブジェクトフィールド** にコレクションオブジェクトのフィールド名を入力します。 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
+1. 置換 **コレクションオブジェクトフィールド** にコレクションオブジェクトのフィールド名を入力します。この名前は、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
-1. 置換 **コレクションオブジェクト値** コレクションオブジェクトの値がWorkfrontに表示される状態で、
+1. 置換 **コレクションオブジェクト値** コレクションオブジェクトの値をWorkfrontに表示される状態で使用します。
 1. 置換 **修飾子の値** を有効な修飾子で置き換えます。
 
    修飾子のリストについては、 [フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).\
@@ -344,7 +344,7 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 
    >[!TIP]
    >
-   >を使用する必要があります。 `issues` コレクションオブジェクト名（ではなく） `optask` API エクスプローラーでの問題の発生方法を説明します。
+   >を使用する必要があることに注意してください。 `issues` コレクションオブジェクト名（ではなく） `optask` API エクスプローラーでの問題の発生方法を説明します。
 
 1. クリック **完了**.
 1. （オプション）レポートの編集を続けます。
@@ -367,9 +367,9 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 
 コレクション参照を含むフィルターステートメントの作成について詳しくは、 [レポートのフィルターでコレクションを参照する](#reference-a-collection-in-the-filter-of-a-report) 」を参照してください。
 
-レポートのカスタムプロンプトでコレクションへの参照を追加するには：
+レポートのカスタムプロンプトでコレクションへの参照を追加するには、次の手順に従います。
 
-1. 次をクリック： **メイン** メニュー ![](assets/main-menu-icon.png)を選択し、「 **レポート**.
+1. 次をクリック： **メイン** メニュー ![](assets/main-menu-icon.png)を選択し、次に **レポート**.
 1. クリック **新しいレポート**.
 1. レポートのオブジェクトを選択します。
 1. コレクション参照を含むフィルターを作成します（「 」節を参照）。 [レポートのフィルターでコレクションを参照する](#reference-a-collection-in-the-filter-of-a-report) 」を参照してください。
@@ -380,24 +380,24 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 1. でプロンプトの名前を指定します。 **Field****name** フィールドに入力します。
 
 1. を指定します。 **ドロップダウン項目のラベル**.
-1. 次の項目を **条件** フィールド：
+1. で以下を指定します。 **条件** フィールド：
 
    ```
    collection object name:collection object field_Mod=value of the modifier
    ```
 
 1. （オプション）この選択が既定でプロンプトに表示されるかどうかを指定します。
-1. 置換 **コレクションオブジェクト名** を、 [API エクスプローラ](../../../wf-api/general/api-explorer.md). この値は、通常、コレクションオブジェクト名の複数形式です。
+1. 置換 **コレクションオブジェクト名** に、コレクションオブジェクトの名前が [API エクスプローラ](../../../wf-api/general/api-explorer.md). この値は、通常、コレクションオブジェクト名の複数形式です。
 1. 置換 **コレクションオブジェクトフィールド** コレクションオブジェクトのフィールド名を指定します。 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
-1. 置換 **コレクションオブジェクト値** コレクションオブジェクトの値がWorkfrontに表示される状態で、
+1. 置換 **コレクションオブジェクト値** コレクションオブジェクトの値をWorkfrontに表示される状態で使用します。
 
-   例えば、タスク名に「マーケティング」が含まれるプロジェクトをフィルタリングする場合は、 **コレクションオブジェクト値** と **マーケティング**.
+   例えば、タスク名に「マーケティング」が含まれるプロジェクトをフィルタリングする場合は、 **コレクションオブジェクト値** 次を使用 **マーケティング**.
 
 1. 置換 **修飾子の値** を有効な修飾子で置き換えます。
 
    修飾子のリストについては、  [フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   **例：** たとえば、特定のユーザーに 1 つ以上のタスクが割り当てられているプロジェクトのみを表示するカスタムプロンプトでプロジェクトレポートを作成するには、次のコードを使用します。
+   **例：** たとえば、特定のユーザーに 1 つ以上のタスクが割り当てられているプロジェクトのみを表示するカスタムプロンプトを使用してプロジェクトレポートを作成するには、次のコードを使用します。
 
    ```
    tasks:assignedToID=57cf1b7a000077c9f02f66cb09c8f86c&tasks:assignedToID_Mod=in
@@ -407,7 +407,7 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
 
    >[!NOTE]
    >
-   >タスクの主要担当者（「割り当て先」フィールド）の名前は、 [API エクスプローラ](../../../wf-api/general/api-explorer.md). 参照できるのは、プライマリ担当者の ID のみです。
+   >タスクの主な担当者（「割り当て先」フィールド）の名前は、 [API エクスプローラ](../../../wf-api/general/api-explorer.md). 参照できるのは、プライマリ担当者の ID のみです。
 
    例えば、プロジェクトの問題が特定のユーザーに割り当てられたプロジェクトをフィルタするには、次のコードをカスタムプロンプトに使用します。
 
@@ -418,7 +418,8 @@ API エクスプローラーテーブルについて詳しくは、 [API エク�
    これにより、リストされているすべてのプロジェクトに、GUID が 57cf1b7a000077c9f02f66cb09c8f86c のユーザーに少なくとも 1 つの問題が割り当てられているレポートが生成されます。
 
    >[!NOTE]
-   を使用する必要があります。 **問題** コレクションオブジェクト名。 現時点では、API エクスプローラーには問題のコレクションオブジェクト名は用意されていません。
+   >
+   を使用する必要があることに注意してください。 **問題** コレクションオブジェクト名。 現時点では、API エクスプローラーには問題のコレクションオブジェクト名は用意されていません。
 
 1. クリック **完了**.
 1. （オプション）レポートの編集を続けます。

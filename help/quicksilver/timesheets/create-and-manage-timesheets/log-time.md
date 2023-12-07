@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -351,7 +351,7 @@ Workfrontの次の領域で時間をログに記録できます。
 ホーム領域の使用に関する一般情報については、次の節を参照してください。
 
 * 従来のホーム領域の使用については、 [ホーム領域を使用する](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* 新しいホーム領域の使用方法については、 [Adobe Workfrontの新しいホームを開始する](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* 新しいホーム領域の使用方法については、 [新しいホームを使い始める](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### 新しいホーム領域から作業項目に対する時間を記録する
 
@@ -390,7 +390,7 @@ Workfrontの次の領域で時間をログに記録できます。
 
 次のセクションで、プロジェクト、タスクまたはイシューに関するプロジェクト固有の時間を記録できます。
 
-* [セクションを更新](#updates-section)
+* [更新セクション](#updates-section)
 * [時間セクション](#hours-section)
 
 #### セクションを更新{#updates-section}

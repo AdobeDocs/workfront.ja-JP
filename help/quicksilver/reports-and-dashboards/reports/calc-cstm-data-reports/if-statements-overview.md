@@ -7,9 +7,9 @@ description: 「IF」文は、一般的なプログラミング言語で使用�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 0%
 「IF」文を作成する前に、次の点を考慮してください。
 
 * 一般的なプログラミング言語に関する基礎知識を身に付けることをお勧めしますが、このガイドでは必要としません。
-* Workfrontテキストモードの構文について、詳細に理解しておく必要があります。 これは、Workfront API の用語を把握し、これらの特定の形式のカスタムデータの構文を理解するのに役立ちます。
+* Workfrontテキストモードの構文について、詳しく理解しておく必要があります。 これは、Workfront API の用語を把握し、これらの特定の形式のカスタムデータの構文を理解するのに役立ちます。
 
-   Workfront API について詳しくは、 [API の基本](../../../wf-api/general/api-basics.md).
+  Workfront API について詳しくは、 [API の基本](../../../wf-api/general/api-basics.md).
 
-   テキストモードの使用について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  テキストモードの使用について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 * 次のWorkfront要素に対して「IF」文を作成できます。
 
@@ -41,11 +41,11 @@ ht-degree: 0%
 
 ## 「IF」文の構成要素
 
-Workfrontで次の形式の「IF」文を作成できます。
+次の形式を使用して、Workfrontで「IF」文を作成できます。
 <pre>IF(Condition,True Expression,False Expression)</pre>「IF」文の構成要素は次のとおりです。
 
 * **IF**=これは、Workfrontの「関数」の計算データ式です。 SUM 式や PROD 式と同様に、この式は最初に、関数を「IF」文として理解するようにシステムに指示します。 この文の「IF」には必ず大文字を使用してください。\
-   すべての計算データ式のリストについては、 [計算データ式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+  すべての計算データ式のリストについては、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 * **条件**=これはWorkfront変数が満たす必要がある条件で、この式の基礎です。 式で後から指定できるものはすべて、条件によって異なります。 数の参照、比較、数式を使用して、数式を開始できます。 条件の例を次に示します。
 
@@ -65,7 +65,7 @@ Workfrontで次の形式の「IF」文を作成できます。
 IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track","On Track")
 ```
 
-毎日の話し方では、この文は次のような意味を持ちます。オブジェクトの「予定完了日」が同じオブジェクトの「計画完了日」より「大きい」の場合は、このフィールドに「未計画」と表示します。 そうでない場合は、「追跡中」という単語を表示します。
+毎日の音声で、このステートメントは、「オブジェクトの完了予定日が同じオブジェクトの完了予定日が計画日より大きい」の場合、このフィールドに「トラック外」と表示します。 そうでない場合は、「追跡中」という単語を表示します。
 
 ## 「IF」ステートメントを使用してカスタムフォームまたはカスタム列の計算フィールドを作成する
 
@@ -106,9 +106,9 @@ valueexpression=IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track"
 
 * 計算済みカスタムフィールド：
 
-   ```
-   IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track",IF({plannedCompletionDate}>{projectedCompletionDate},"Off Track","On Track"))
-   ```
+  ```
+  IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track",IF({plannedCompletionDate}>{projectedCompletionDate},"Off Track","On Track"))
+  ```
 
 * 計算されたカスタム列：
 
@@ -121,4 +121,4 @@ valueexpression=IF({"projectedCompletionDate"}>{"plannedCompletionDate"},"Off Tr
 
 これを学ぶ最善の方法は、様々なフィールドとシナリオを試すことです。 また、API エクスプローラーにも慣れて、使用可能なフィールド名を確認します。 API エクスプローラーについて詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
-計算データ式のWorkfront構文について詳しくは、 [計算データ式](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+計算データ式のWorkfront構文について詳しくは、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
