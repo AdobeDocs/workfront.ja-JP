@@ -6,7 +6,7 @@ description: Adobe Workfrontの「拡張分析」領域のフィルターは、�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -28,9 +28,6 @@ Adobe Workfrontの「拡張分析」領域のフィルターは、特定のプ�
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
- </caption> 
  <col> 
  <col> 
  <tbody> 
@@ -50,15 +47,17 @@ Adobe Workfrontの「拡張分析」領域のフィルターは、特定のプ�
    </td> 
   </tr>
   <tr> 
-   <td><b>アクセスレベル*</b> </td> 
+   <td>アクセスレベル* </td> 
    <td> <p>プロジェクトへのアクセスを表示</p> <p>また、特定のプロジェクトフィールドフィルターオプションを表示するには、タスク、Portfolio、ユーザーへの表示アクセス権も必要です。</p> <p>注意：アクセスレベルを編集ダイアログの「追加の制限を設定」セクションで制限を選択した場合、フィルターを適用した後、フィルターまたは拡張分析ページにすべての情報が表示されないことがあります。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>オブジェクトの権限</b> </p> </td> 
+   <td> <p>オブジェクトの権限 </p> </td> 
    <td> <p>表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 前提条件
 
