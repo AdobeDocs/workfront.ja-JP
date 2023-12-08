@@ -5,9 +5,9 @@ description: 上部ナビゲーションバー — 新しい [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー]
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL 設定 ]</p> </td> 
-   <td> <p>クリック <b>[!UICONTROL 設定 ]</b> [!UICONTROL 設定 ] 領域に移動します。この領域で、 [!DNL Workfront] アカウント。 アクセス設定によっては、設定できる内容が制限される場合があります。</p> <p>[!UICONTROL 設定 ] 領域について詳しくは、 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理と設定</a>.</p> </td> 
+   <td> <p>クリック <b>[!UICONTROL 設定 ]</b> [!UICONTROL 設定 ] 領域に移動します。この領域で、 [!DNL Workfront] アカウント。 アクセス設定によっては、設定できる内容が制限される場合があります。</p> <p>[!UICONTROL 設定 ] 領域について詳しくは、 <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">管理と設定：記事のインデックス</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL ヘルプ ]</p> </td> 

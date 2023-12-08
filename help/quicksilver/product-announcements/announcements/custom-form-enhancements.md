@@ -4,9 +4,9 @@ description: 22.2 リリースのカスタムフォーム管理に関する次�
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
 >誰かが内部 IT リクエスト（問題）を送信し、添付のカスタムフォームで必要な情報の詳細を提供します。
 >
@@ -127,7 +127,7 @@ Issue、Task、Project、および User の各オブジェクトタイプで使�
 
 計算カスタムフィールドをカスタムフォームに追加する手順については、 [計算データをカスタムフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-次のような変数について詳しくは、 `$$OBJCODE`を参照してください。 [ワイルドカードフィルター変数](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+次のような変数について詳しくは、 `$$OBJCODE`を参照してください。 [ワイルドカードフィルター変数の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### カスタムフォームからオブジェクトタイプを削除する場合は注意が必要です
 

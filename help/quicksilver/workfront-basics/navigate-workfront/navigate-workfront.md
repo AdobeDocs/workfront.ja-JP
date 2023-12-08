@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 移動 [!DNL Adobe Workfront]
+title: '「移動する [!DNL Adobe Workfront]: article index"'
 description: Adobe Workfrontに移動する方法とWorkfrontの用語について理解するには、これらの記事を確認してください。
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 396d273f6a2a61786f9f2afb9541065ae407bb45
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
-# 移動 [!DNL Adobe Workfront]
+# 移動 [!DNL Adobe Workfront]：記事インデックス
 
 Adobe Workfrontに移動する方法とWorkfrontの用語について理解するには、これらの記事を確認してください。
 
@@ -22,7 +22,7 @@ Adobe Workfrontに移動する方法とWorkfrontの用語について理解す�
 
 * [でのオブジェクトについて [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [用語集 [!DNL Adobe Workfront] 用語](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [[!DNL Adobe Unified Experience] の [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+* [[!DNL Adobe Unified Experience] 対象： [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
 * [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
 * [[!DNL Adobe Workfront] 検索](../../workfront-basics/navigate-workfront/search/search.md)
 * [の最近お気に入り [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)

@@ -7,14 +7,14 @@ description: フィルターでワイルドカードを使用すると、特定�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: eb85a68801b3542efc94766a017dd7b59b99b914
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1449'
 ht-degree: 1%
 
 ---
 
-# ワイルドカードフィルター変数
+# ワイルドカードフィルター変数の概要
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -27,46 +27,48 @@ ht-degree: 1%
 </div>
 -->
 
-Adobe Workfrontでは、次の要素を作成する際にフィルター変数またはワイルドカードをサポートしています。
-
-* リスト、レポートおよびリソースプランナーのフィルタ
-
-   Workfrontフィルターについて詳しくは、 [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-
-* 詳細検索
-
-   詳細検索について詳しくは、 [詳細検索を使用](../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search) 記事内 [検索Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
-
-* ビュー内の計算列
-* ビューの条件付き書式
-
-   条件付き書式について詳しくは、 [ビューでの条件付き書式の使用](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-
-* 計算済みカスタムフィールド
-
-   >[!NOTE]
-   >
-   >計算列でネストされたコレクションを参照する場合、ワイルドカードフィルター変数はサポートされません。
-
-   計算されたカスタムフィールドと列の詳細については、 [計算カスタムフィールドと計算列](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
-
-ワイルドカードを使用すると、特定のユーザーや日付の代わりに、汎用のユーザーや日付を参照できます。 このようにして、作成する要素は動的で、使用するコンテキストに応じて結果が変わります。
+ワイルドカードを使用すると、特定のユーザーや日付の代わりに、汎用のユーザーや日付を参照できます。 このようにして、作成する要素は動的で、結果は使用されるコンテキストに応じて変化します。
 
 例えば、プロジェクトレポートで$$USER.homeGroupID に対してフィルタを適用すると、ログインしているユーザーのホームグループに関連付けられたプロジェクトのみが取得されます。
 
-Workfrontでは、日付ベースまたはユーザーベースのフィルター変数を使用できます。
+次の要素を作成する際に、フィルター変数（ワイルドカードとも呼ばれます）を使用できます。
+
+<table>
+    <tr>
+        <td>リスト、レポートおよびリソースプランナー内のフィルタ</td>
+        <td>Workfrontフィルターについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Adobe Workfrontのフィルターの概要</a>.
+</td>
+    </tr>
+    <tr>
+        <td>詳細検索</td>
+        <td>詳細検索について詳しくは、 <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">詳細検索を使用</a> 記事内 <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Adobe Workfrontを検索</a>.
+    </tr>
+    <tr>
+        <td>ビュー内の計算列</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ビューの条件付き書式</td>
+        <td>条件付き書式について詳しくは、「 <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">ビューでの条件付き書式の使用</a>.
+    </tr>
+    <tr>
+        <td>計算済みカスタムフィールド</td>
+        <td>計算列でネストされたコレクションを参照する場合、ワイルドカードフィルター変数はサポートされません。
+
+計算済みのカスタムフィールドと列の詳細については、 <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">計算カスタムフィールドと計算列の比較</a>.
+</td>
+    </tr>
+</table>
 
 ## 日付ベースのワイルドカードフィルター変数
 
-Workfrontの日付ベースのワイルドカードオプションは、任意の日付フィルター属性と組み合わせて使用できます。
-
-レポートに日付ベースのワイルドカードを追加する方法については、 [日付ベースのワイルドカードを使用してレポートを一般化する](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+日付ベースのワイルドカードオプションは、任意の日付フィルター属性と組み合わせて使用できます。 レポートに日付ベースのワイルドカードを追加する方法については、「 [日付ベースのワイルドカードを使用してレポートを一般化する](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
 >時間部分を含まない日付と時間の計算を作成した場合、または$$TODAY や$$NOW の日付ワイルドカードを使用する場合、ローカルタイムゾーンではなく協定世界時 (UTC) ゾーンに従って日付が使用されます。 これは予期しない日付の結果を引き起こす可能性があります。
 
-次の日付ベースのワイルドカードから選択します。
+次の日付ベースのワイルドカードから選択できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,12 +85,12 @@ Workfrontの日付ベースのワイルドカードオプションは、任意�
  </tbody> 
 </table>
 
-様々な期間と様々な時点（将来または過去）を指定するには、ワイルドカードを次のように組み合わせます。
+様々な期間と様々な時点（将来または過去）を指定するには、上記のワイルドカードを次と組み合わせます。
 
 | 属性 |   |
 |---|---|
 | **q** | 暦四半期 |
-| **時間** | 時間 |
+| **h** | 時間 |
 | **d** | 日 |
 | **w** | 週 |
 | **m** | 月 |
@@ -96,17 +98,17 @@ Workfrontの日付ベースのワイルドカードオプションは、任意�
 
 {style="table-layout:auto"}
 
-| **修飾子** |  |
+| **修飾子** | |
 |---|---|
-| **b** | 週の最初（日曜日） |
+| **b** | 週の初め（日曜日） |
 | **e** | 週の終わり（土曜日） |
 
 {style="table-layout:auto"}
 
-| **演算子** |  |
+| **演算子** | |
 |---|---|
 | **+** | ワイルドカード値に値を追加 |
-| **-** | ワイルドカード値から値を減算 |
+| **-** | ワイルドカード値から値を減算する |
 
 {style="table-layout:auto"}
 
@@ -117,10 +119,10 @@ Workfrontの日付ベースのワイルドカードオプションは、任意�
 >[!IMPORTANT]
 >
 >フィルターまたはレポートにユーザーベースのワイルドカードフィルター変数が含まれる場合、結果には、現在ログインしているユーザーがフィルターした情報が常に表示されます。 このようなフィルターやレポートを別のユーザーと共有する場合、ワイルドカードを使用すると、そのレポートを閲覧するユーザーの情報が取得されます。 2 人のユーザーは、異なる結果を見ます。
+>
+>レポートにユーザーベースのワイルドカードを追加する方法については、「 [ユーザーベースのワイルドカードを使用してレポートを一般化する](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-レポートにユーザーベースのワイルドカードを追加する方法については、 [ユーザーベースのワイルドカードを使用してレポートを一般化する](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
-
-Workfrontは、次のユーザーベースの変数を提供します。
+次のユーザーベースの変数から選択できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -130,7 +132,7 @@ Workfrontは、次のユーザーベースの変数を提供します。
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>最も一般的なユーザーベースの変数は、$$USER.ID です。 これにより、常にログインしたユーザーの ID が返されます。 これは、各オブジェクトを作成したユーザーとその作業割り当てを識別するために使用される ID です。</p> <p>レポートでこのワイルドカードを使用すると、システムで作成する必要のあるレポートの数が少なくなります。 1 つのレポートを作成して複数のユーザーと共有でき、その結果は、ログインしたユーザーとレポートの閲覧者に応じて変化します。</p> <p>例えば、ログインしたユーザーに割り当てられたすべての問題に関するレポートを作成するには、問題フィルターで次のルールを使用できます。 <em>ID に$$USER.ID と等しい割り当て</em>.</p> <p>Workfrontは、この変数を次の組み込みフィルターで使用します。</p> 
+    --> <p>最も一般的なユーザーベースの変数は、$$USER.ID です。 これにより、常にログインしたユーザーの ID が返されます。 これは、各オブジェクトを作成したユーザーとその作業割り当てを識別するために使用される ID です。</p> <p>レポートでこのワイルドカードを使用すると、システムで作成する必要のあるレポートの数が少なくなります。 1 つのレポートを作成して複数のユーザーと共有でき、その結果は、ログインしたユーザーとレポートの閲覧者に応じて変化します。</p> <p>例えば、ログインしたユーザーに割り当てられたすべての問題に関するレポートを作成するには、問題フィルターで次のルールを使用できます。 <em>ID に$$USER.ID と等しい割り当て済み</em>.</p> <p>Workfrontは、この変数を次の組み込みフィルターで使用します。</p> 
     <ul> 
      <li>マイ報告書</li> 
      <li>マイプロジェクト</li> 
@@ -169,7 +171,7 @@ Workfrontは、次のユーザーベースの変数を提供します。
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.name</strong> </p> </td> 
-   <td> <p>$$USER.name 変数は、ログインしているユーザーのフルネームを参照します。</p> <p>メモ:   <p>このワイルドカード変数は、テキストモードでフィルターを変更する場合にのみ機能します。 このワイルドカードは、テキストモードをサポートしていないフィルターでは使用できません。 例えば、次の領域のフィルターでは、このワイルドカードを使用できません。</p> 
+   <td> <p>$$USER.name 変数は、ログインしているユーザーのフルネームを参照します。</p> <p>注意：   <p>このワイルドカード変数は、テキストモードでフィルターを変更する場合にのみ機能します。 このワイルドカードは、テキストモードをサポートしていないフィルターでは使用できません。 例えば、次の領域のフィルターでは、このワイルドカードを使用できません。</p> 
      <ul> 
       <li> <p>リソースプランナー</p> </li> 
       <li> <p>ワークロードバランサー</p> </li> 
@@ -197,13 +199,15 @@ Workfrontは、次のユーザーベースの変数を提供します。
    <td> <p>$$USER.roleID 変数は、ログインしたプライマリのユーザーロールを参照します。 この変数を使用して、特定のジョブの役割に割り当てられたタスクや問題に関するレポートを作成できます。</p> <p>例えば、ログインしたプライマリのユーザーの役割に割り当てられているすべてのタスクを表示するには、タスクフィルタで次のフィルタルールを使用します。</p> <p><em>タスク：ロール ID が$$USER.roleID と等しい。</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td role="rowheader">$$USER.roleIDs</td> 
-   <td> <p>$$USER.roleIDs 変数は、ログインしたユーザーに関連付けられているすべてのジョブロールを参照します。 この変数を使用して、ログインユーザーに関連する任意のジョブの役割に割り当てられたタスクや問題に関するレポートを作成できます。 </p> <p>例えば、ログインユーザーに関連付けられた任意の役割に割り当てられているすべてのタスクを表示するには、タスクフィルタで次のフィルタルールを使用します。</p> <p><i>タスク：ロール ID が$$USERID.roleIDs と等しい<br></i> </p> <p>ヒント：この <i>タスク：ロール ID が$$USERID.roleIDs と等しい</i> フィルタールールは、「自分の役割」の「未割り当てタスク」と「自分の役割」の「未割り当てタスク」の組み込みフィルターに存在します。 </p> </td> 
+   <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
+   <td> <p>$$USER.roleIDs 変数は、ログインしたユーザーに関連付けられているすべてのジョブロールを参照します。 この変数を使用して、ログインユーザーに関連する任意のジョブの役割に割り当てられたタスクや問題に関するレポートを作成できます。 </p> <p>例えば、ログインユーザーに関連付けられた任意の役割に割り当てられているすべてのタスクを表示するには、タスクフィルタで次のフィルタルールを使用します。</p> <p><i>タスク：ロール ID が$$USERID.roleIDs と等しい<br></i> </p> <p>ヒント： <i>タスク：ロール ID が$$USERID.roleIDs と等しい</i> フィルタールールは、「自分の役割」の「未割り当てタスク」と「自分の役割」の「未割り当てタスク」の組み込みフィルターに存在します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## オブジェクトベースのワイルドカードフィルタ変数
+## オブジェクトベースのワイルドカードフィルター変数
+
+次のオブジェクトベースのワイルドカードから選択できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -214,8 +218,8 @@ Workfrontは、次のユーザーベースの変数を提供します。
    <td> 
     <div> 
      <p>$$OBJCODE 変数は、オブジェクトの型を参照します。 </p> 
-     <p>カスタムフォームでは、選択したフォームのオブジェクトタイプが計算済みカスタムフィールドで参照されているフィールドと互換性がない場合は、このワイルドカードを使用して、これらのオブジェクトタイプで重複フォームを作成する回避策を回避できます。</p> 
-     <p>計算されたカスタムフィールドでは、IF 式にワイルドカードを含めて、フォームのオブジェクトタイプごとに異なる値を計算で出力できるようにします。 </p> 
+     <p>カスタムフォームでは、選択したフォームのオブジェクトタイプが、計算済みカスタムフィールドで参照されているフィールドと互換性がない場合、このワイルドカードを使用して、これらのオブジェクトタイプで重複フォームを作成する回避策を回避できます。</p> 
+     <p>計算されたカスタムフィールドでは、IF 式にワイルドカードを含めて、フォームのオブジェクトタイプごとに異なる値を出力できるようにします。 </p> 
      <p>詳細および例については、「 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">複数オブジェクトカスタムフォームの計算済みカスタムフィールド</a> 記事内 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">計算データをカスタムフォームに追加する</a>.</p> 
     </div> </td> 
   </tr> 

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '13777'
+source-wordcount: '13783'
 ht-degree: 1%
 
 ---
@@ -392,7 +392,7 @@ ht-degree: 1%
          * [Adobe Workfrontと Frame.io のネイティブ統合アルファ：概要](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Adobe Workfrontと Frame.io のネイティブ統合アルファ：機能](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * 管理と設定 {#administration-and-setup}
-   * [管理と設定](administration-and-setup/administration-and-setup.md)
+   * [管理と設定：記事のインデックス](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
       * [管理の基礎知識：記事のインデックス](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [実装の目標を定義する](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -807,7 +807,7 @@ ht-degree: 1%
    * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfrontでサポートされている言語](workfront-basics/supported-languages-in-workfront.md)
    * Adobe Workfrontに移動 {#navigate}
-      * [Adobe Workfrontに移動](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * [Adobe Workfrontに移動：記事インデックス](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront Search {#search}
          * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
          * [Adobe Workfrontを検索](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -973,7 +973,7 @@ ht-degree: 1%
    * [アジャイル](agile/agile.md)
    * [ボードの概要](agile/boards-overview.md)
    * Adobe Workfrontでのボードの概要 {#boards-in-workfront}
-      * [Adobe Workfrontでのボードの概要](agile/get-started-with-boards/get-started-with-boards.md)
+      * [ボードの概要：記事インデックス](agile/get-started-with-boards/get-started-with-boards.md)
       * [Adobe Workfront Boards のビデオデモ](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [ボードの先行機能のオプトイン](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [ボードダッシュボードの使用](agile/get-started-with-boards/use-boards-page.md)
@@ -1516,7 +1516,7 @@ ht-degree: 1%
          * [Adobe Workfrontでのグループ化の概要](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
          * [Adobe Workfrontでのグループ化の作成](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
          * [既存のグループを編集](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-         * [ワイルドカードフィルター変数](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+         * [ワイルドカードフィルター変数の概要](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
          * [日付ベースのワイルドカードを使用してレポートを一般化する](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [ユーザーベースのワイルドカードを使用してレポートを一般化する](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [フィルター、表示またはグループ化の共有](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
@@ -1785,7 +1785,7 @@ ht-degree: 1%
          * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [ドキュメントを承認](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * 校正 {#proofing}
-      * [校正](review-and-approve-work/proofing/proofing.md)
+      * [校正：記事インデックス](review-and-approve-work/proofing/proofing.md)
       * 校正の概要 {#proofing-overview}
          * [校正の概要](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [配達確認権限プロファイルの概要](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

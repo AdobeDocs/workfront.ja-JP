@@ -6,9 +6,9 @@ description: 特定のレポート要素を作成する際に、特定の情報�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -41,16 +41,16 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのレポート要素を編集します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのレポート要素を編集します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>レポートのレポート要素を編集するためのレポートに対する権限の管理</p> <p>ビューまたはフィルターに対する権限を管理して編集</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
+   <td> <p>レポートのレポート要素を編集するためのレポートに対する権限の管理</p> <p>ビューまたはフィルターに対する権限を管理して編集する</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 前提条件
 
@@ -66,18 +66,18 @@ ht-degree: 1%
 1. クリック **レポートのアクション**&#x200B;を、 **編集**.
 
 1. 次をクリック： **フィルター** タブをクリックします。
-1. クリック **フィルタールールを追加**.
+1. クリック **フィルタールールを追加する**.
 1. フィルターに使用するフィールドの名前を入力します。\
    ユーザーオブジェクトまたはユーザーに関する情報を参照するフィールドを入力する必要があります。
 1. 選択 **次と等しい** （フィルター変数のドロップダウンメニュー）を使用します。
 
    >[!TIP]
    >
-   >常に **次と等しい** Adobe Workfrontでワイルドカードを使用する場合のフィルター変数
+   >常に **次と等しい** Adobe Workfrontでワイルドカードを使用する場合は、フィルター変数を使用します。
 
-1. 内 **名前の入力を開始…** ボックス、タイプ： `$$USER.ID` または `$$USER.name` レポートに、ログインしたユーザーの名前に基づく情報を表示する場合。 ログインしたユーザーのグループ、チーム、会社、その他の情報を参照する他のワイルドカードを挿入できます。
+1. Adobe Analytics の **名前の入力を開始…** ボックス、タイプ： `$$USER.ID` または `$$USER.name` レポートに、ログインしたユーザーの名前に基づく情報を表示する場合。 ログインしたユーザーのグループ、チーム、会社、その他の情報を参照する他のワイルドカードを挿入できます。
 
-   ユーザーベースのワイルドカードの完全なリストについては、 [ワイルドカードフィルター変数](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   ユーザーベースのワイルドカードの完全なリストについては、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
@@ -85,10 +85,10 @@ ht-degree: 1%
 
 ## 追加情報
 
-関連項目：
+関連トピック：
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
-* [ワイルドカードフィルター変数](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+* [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Adobe Workfrontでフィルターを作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)

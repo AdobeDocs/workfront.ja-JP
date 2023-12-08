@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -32,8 +32,8 @@ Workfrontでユーザーがコミュニケーションを受け取り、表示�
 * [Adobe Workfrontで使用可能なイベント通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [すべてのグループのイベント通知の設定をロック解除またはロックします](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [イベント通知の電子メールの件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [ユーザーのプロファイルの電子メール通知設定を変更する](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
-* [リマインダー通知を設定](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
+* [複数のユーザーの電子メール通知設定を変更する](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [リマインダー通知の設定](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [オブジェクトにリマインダー通知を添付する](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [自動リマインダーの設定](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
 * [電子メールテンプレートの設定](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)

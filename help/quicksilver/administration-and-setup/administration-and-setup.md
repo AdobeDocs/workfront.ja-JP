@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: 管理と設定
-description: この節では、Workfront システムの管理に必要な情報を確認します。
+title: "管理と設定：記事のインデックス"
+description: Workfrontシステムの管理に必要な情報を見つけます。
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 37%
+source-wordcount: '73'
+ht-degree: 1%
 
 ---
 
-# 管理と設定
+# 管理と設定：記事のインデックス
 
-このセクションでは、以下のサブセクションについて説明します。
+管理者は、Workfrontでユーザーエクスペリエンスを制御およびカスタマイズできます。 以下のリンクを使用して開始します。
 
 * [Adobe Workfront管理の概要](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--

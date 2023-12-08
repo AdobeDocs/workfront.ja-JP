@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '2319'
+source-wordcount: '2320'
 ht-degree: 0%
 
 ---
@@ -254,7 +254,7 @@ ht-degree: 0%
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        次のような変数について詳しくは、 `$$OBJCODE,` 参照 [ワイルドカードフィルター変数](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        次のような変数について詳しくは、 `$$OBJCODE,` 参照 [ワイルドカードフィルター変数の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **計算済みカスタムフィールドの自動更新**
 

@@ -1,20 +1,20 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: でのボードの概要 [!DNL Adobe Workfront]
+title: "ボードの基本を学ぶ：記事インデックス"
 description: Workfrontでボードを使用する方法については、以下の記事を参照してください。
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 2%
 
 ---
 
-# でのボードの概要 [!DNL Adobe Workfront]
+# ボードの概要：記事インデックス
 
 この節では、次の記事を扱います。
 

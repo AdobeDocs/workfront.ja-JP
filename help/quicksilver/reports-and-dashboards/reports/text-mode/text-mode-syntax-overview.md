@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1865'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ Workfrontフィールドまたはその属性をテキストモードで参照�
 
 * ワイルドカードを `valueexpression` しかし、 `valuefield` 行。
 
-  ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` ビューとグループの概要
@@ -285,4 +285,4 @@ The `stretch` は、ビューで不要な領域を占める列を識別するた
      >
      >Statement Connectors では大文字と小文字が区別され、常に大文字が使用されます。 「AND」はテキストモードで省略できます。
 
-* ワイルドカードを使用してフィルターをより動的にし、現在の時刻やログインしているユーザーに合わせてカスタマイズできます。 ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* ワイルドカードを使用してフィルターをより動的にし、現在の時刻やログインしているユーザーに合わせてカスタマイズできます。 ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

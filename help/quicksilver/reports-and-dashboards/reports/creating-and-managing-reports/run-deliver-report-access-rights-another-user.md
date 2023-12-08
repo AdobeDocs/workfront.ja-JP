@@ -6,9 +6,9 @@ description: デフォルトでは、ユーザーは、表示権限を持つレ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -44,16 +44,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>レポートに対する権限の表示（配信されたレポートを表示）</p> <p>レポートに対する権限の管理（レポートを実行するため）</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 別のユーザーのアクセス権を持つレポートを表示する
 
@@ -66,23 +66,26 @@ ht-degree: 0%
 1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Workfrontの右上隅で、 **レポート**.
 
 1. 別のユーザーのアクセス権を持つレポートを選択します。
-1. クリック **レポートのアクション**&#x200B;を選択し、「 **編集**.
+1. クリック **レポートのアクション**&#x200B;を選択し、次に **編集**.
 
 1. クリック **レポート設定**.
 
-1. 内 **このレポートを実行する際のアクセス権は次のとおりです。** 「 」フィールドに、レポートを表示するユーザーの名前を入力し、リストに表示されたら選択します。\
+1. Adobe Analytics の **このレポートを実行する際のアクセス権は次のとおりです。** 「 」フィールドに、レポートを表示するユーザーの名前を入力し、リストに表示されたら選択します。\
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
+   >
    レポートの作成が許可されているアクセスレベルが低いユーザーは、自分以外のユーザーを **このレポートを実行する権限は次のとおりです。** フィールドに入力します。
 
 1. クリック **完了**.
 1. 「**保存して閉じる**」をクリックします。\
-   レポートが、共有されているすべてのユーザーに対して、 **このレポートを実行する際のアクセス権は次のとおりです。** フィールドに入力します。
+   レポートが、共有されているすべてのユーザーに対して、「 **このレポートを実行する際のアクセス権は次のとおりです。** フィールドに入力します。
 
 >[!IMPORTANT]
-ログインユーザー以外のユーザーの **このレポートを実行する際のアクセス権は次のとおりです。** フィールドは、ログインしているユーザーをワイルドカードで参照するフィルターがレポートに含まれている場合に、レポートに表示される情報に影響します。 レポートは、 **このレポートを実行する際のアクセス権は次のとおりです。** フィールドの値を指定します。
-ユーザーフィールドのワイルドカードについて詳しくは、 [ワイルドカードフィルター変数](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>
+ログインユーザー以外のユーザーを **このレポートを実行する際のアクセス権は次のとおりです。** フィールドは、ログインしているユーザーをワイルドカードで参照するフィルターがレポートに含まれている場合に、レポートに表示される情報に影響します。 レポートは、 **このレポートを実行する際のアクセス権は次のとおりです。** フィールドの値を指定します。
+>
+ユーザーフィールドのワイルドカードについて詳しくは、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## 別のユーザーのアクセス権を持つレポートの配信
 
@@ -97,10 +100,11 @@ ht-degree: 0%
 1. クリック **レポートのアクション**.
 1. クリック **レポートの送信**.
 
-1. 内 **このレポートを次のアクセス権で配信します。** 「 」フィールドで、レポートを電子メールで配信する際に表示するユーザーの名前を入力し、リストに表示される際に選択します。 デフォルトでは、レポートを作成するユーザーの名前です。\
+1. Adobe Analytics の **このレポートを次のアクセス権で配信します。** 「 」フィールドで、レポートを電子メールで配信する際に表示するユーザーの名前を入力し、リストに表示される際に選択します。 デフォルトでは、レポートを作成するユーザーの名前です。\
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
+   >
    レポートの作成が許可されているアクセスレベルが低いユーザーは、自分以外のユーザーを **このレポートを次のアクセス権で配信：** フィールドに入力します。
 
 1. を選択します。 **形式** レポートを電子メールに表示する場合：
@@ -131,23 +135,23 @@ ht-degree: 0%
 例えば、次のいずれかをソース列を含むレポートに追加できます。
 
 * プロジェクト名、タスク名、または問題名の列をドキュメントまたは時間レポートに適用します。
-* 問題レポートの「プロジェクト名」列または「タスク名」列。
+* [ プロジェクト名 ] 列または [ タスク名 ] 列を発行レポートに追加します。
 * 3 つのオブジェクトをすべて参照するテキストモード式を使用する列。 次に、時間レポートの例を示します。
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   テキストモードの表示について詳しくは、 [テキストモードを使用したビューの編集](../text-mode/edit-text-mode-in-view.md).
+  テキストモードの表示について詳しくは、 [テキストモードを使用したビューの編集](../text-mode/edit-text-mode-in-view.md).
