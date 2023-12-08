@@ -7,9 +7,9 @@ description: ファイルの作成に使用するソフトウェア (Photoshop�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
+source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfrontには次の制限があります。
 
 >[!NOTE]
 >
->サイズの大きいファイルのアップロードには時間がかかり、接続が安定していない場合は、アクションが中断または中断される場合があります。
+>サイズの大きいファイルのアップロードには時間がかかり、接続が安定していない場合は、アクションが終了したり壊れたりする場合があります。
 
 ## 静的ファイル
 

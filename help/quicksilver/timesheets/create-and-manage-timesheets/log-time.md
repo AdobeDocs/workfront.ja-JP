@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <ul><li>タイムシートの一般時間を記録するには、確認するか、それ以上を指定します</li>
-   <li> 作業時間以上：プロジェクト、タスク、またはタスクに時間を記録します。</li></ul>
+   <td> <p>新規プラン：<ul><li>タイムシートの一般時間を記録するには、明るいかそれ以上の値を指定します</li></p>
+   <li> 標準以降：プロジェクト、タスクまたはイシューに時間を記録します。</li></ul></p>
+   <p>または</p>
+   <p>現在のプラン：<ul><li>タイムシートの一般時間を記録するには、確認するか、それ以上を指定します</li></p>
+   <li> 作業時間以上：プロジェクト、タスク、またはタスクに時間を記録します。</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
 * 請求済み請求レコードに含まれる時間エントリは灰色表示になり、タイムシートで編集できません。 詳しくは、 [請求レコードの作成](../../manage-work/projects/project-finances/create-billing-records.md).
 * 既定では、個人のタスクはタイムシートに表示されません。 個人のタスクは、タイムシートに時間が記録された場合にのみ表示されます。 個人のタスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。 詳しくは、 [ホーム領域から作業項目を作成する](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## 時間のログ記録
+## 時間のログ記録 {#log-time-section}
 
 Workfrontの次の領域で時間をログに記録できます。
 
@@ -136,7 +139,7 @@ Workfrontの次の領域で時間をログに記録できます。
 
 タイムシートの時間を記録するには、次の手順に従います。
 
-1. 次をクリック： [!UICONTROL **メインメニュー**] アイコン ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/lines-main-menu.png) Workfrontの左上隅（使用可能な場合）
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックします。
 
 1. クリック [!UICONTROL **タイムシート**]. 現在のタイムシートは既定で表示されます。
    ![タイムシート](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ Workfrontの次の領域で時間をログに記録できます。
 1. （オプション）フィルター、表示またはグループ化のドロップダウンメニューを展開して、適用またはカスタマイズしたり、必要な項目情報を表示したりします。
 
 1. リスト内の 1 つまたは複数の項目を選択し、「 **追加**.
+
+   一度に 50 個未満の項目を追加した場合、その項目はタイムシートに追加されます。 タスクとタスクは、プロジェクトの名前の下に表示されます。
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ Workfrontの次の領域で時間をログに記録できます。
 
    ![時間タイプのドロップダウンメニュー](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   オペレーティングシステムやブラウザーに応じて、標準の QWERTY キーボードを使用する場合は、次のキーのセットを押して別の行を追加します。
@@ -231,7 +237,6 @@ Workfrontの次の領域で時間をログに記録できます。
    >   オペレーティングシステムやブラウザーに応じて、標準の QWERTY キーボードを使用する場合は、次のキーのセットを押して行を削除します。
    >   * Windows コンピューターの場合は Ctrl + Option + -
    >   * Macコンピューターの Cmd + Option + -
-
 
 1. タイムシートの [ タイムライン ] セクションで指定した日にログオンする時間を指定し、[ 時間 ] ボックスの外側をクリックして時間エントリを保存します。 時間は自動的に保存されます。 時刻を記録する行が明るい青でハイライト表示され、時間入力ボックスは暗い青でアウトライン表示されます。
 
@@ -299,6 +304,8 @@ Workfrontの次の領域で時間をログに記録できます。
 1. （オプション）「 [!UICONTROL **更新**] 左側のパネルで、タイムシートに更新を追加します。 Workfrontのアップデートについて詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+
+1. （オプション） **タイムシート** タイムシートを閉じるか送信する領域。
 
    * **閉じる**：タイムシートの更新が完了したら、タイムシートを閉じます。 このオプションは、タイムシートが承認者に関連付けられていない場合にのみ使用できます。
 

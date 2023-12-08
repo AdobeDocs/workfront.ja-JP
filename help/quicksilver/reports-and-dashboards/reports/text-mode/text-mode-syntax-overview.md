@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -99,14 +99,14 @@ Workfrontフィールドまたはその属性をテキストモードで参照�
 
 ### ビューおよびグループの構文
 
-ビューやグループを作成する際のコードの行は似ていることに気付くかもしれません。
+ビューやグループを作成する際のコードの行は似ています。
 
 ビューおよびグループの作成について詳しくは、次の記事を参照してください。
 
 * [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-ビューまたはグループ化のコードの最も重要な行は、ビューの列またはグループ化で参照されるオブジェクトを識別する行です。 このフィールドがWorkfrontデータベースフィールドへの直接参照か、複数のフィールド間の計算かに応じて、コード行は `valuefield` または `valueexpression`
+ビューまたはグループ化のコードの最も重要な行は、ビューの列またはグループ内で参照されているオブジェクトを識別する行です。 このコード行は、 `valuefield` または `valueexpression` このフィールドがWorkfrontデータベースフィールドへの直接参照か、複数のフィールド間の計算かに基づきます。
 
 次の表に、ビューまたはグループ化で最も一般的なコード行を示します。
 
@@ -216,13 +216,11 @@ Workfrontフィールドまたはその属性をテキストモードで参照�
 
 #### `Valueformat` ビューとグループの概要
 
-ビューまたはグループ化で 2 番目に重要なコード行は、 `valueformat=` 行。 これにより、Workfrontは、
-`valuefield` または value 式の行を指定します。 ただし、 `valueformat` 行の数を指定する場合、
-`valueexpression`:
+ビューまたはグループ化で 2 番目に重要なコード行は、 `valueformat=` 行。 これにより、Workfrontは、 `valuefield` または `valueexpression` 行。 ただし、 `valueformat` 行の数を指定する場合、 `valueexpression`:
 
 `valueformat=HTML`
 
-追加の `valueformats` の値については、次の記事も参照してください。
+追加の `valueformat` の値については、次の記事も参照してください。
 
 * [テキストモードのレポートで日付を書式設定する](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [テキストモードのレポートで数値、通貨、割合の値を書式設定します](../../reports/text-mode/format-numbers-in-text-mode-reports.md)

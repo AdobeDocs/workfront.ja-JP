@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront管理者は、カスタムアクセスレベルを作成し、ユーザーに適用できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: bf4236d4a7ac5dc9bf5b91c5c70126f6e4de78a1
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 6%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-Adobe Workfront管理者は、カスタムアクセスレベルを作成し、ユーザーに適用できます。 アクセスレベルを使用する場合は、ユーザーがオブジェクトを共有する際に付与するオブジェクト権限と連携する方法を理解することが重要です。 アクセスレベルの詳細については、
+Adobe Workfront管理者は、カスタムアクセスレベルを作成し、ユーザーに適用できます。 アクセスレベルを使用する場合は、ユーザーがオブジェクトを共有する際に付与するオブジェクト権限と連携する方法を理解することが重要です。 アクセス・レベルの詳細は、次を参照してください。
 
 * [新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">為替レート</td> 
-      <td> <p>Workfrontに新しい通貨を追加します。</p> <p>このアクセス権がない場合、ユーザーは作成したプロジェクトにのみ既存の通貨を追加できます。</p> </td> 
+      <td> Workfrontに新しい通貨を追加します。 <p>このアクセス権がない場合、ユーザーは作成したプロジェクトにのみ既存の通貨を追加できます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">費用</td> 
@@ -118,13 +118,13 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">担当業務</td> 
-      <td> <p>このアクセス権を持つユーザーは、次の操作を実行できます。</p> 
+      <td> このアクセス権を持つユーザーは、次の操作を実行できます。 
        <ul> 
         <li>既存のジョブの役割の表示と編集</li> 
         <li>新しいジョブの役割を追加</li> 
         <li>ロールの請求とコスト率を編集します</li> 
        </ul> 
-       <p>ジョブ・ロールへの管理アクセス権を持つ標準またはプランナ・ユーザーが使用できる財務データへのアクセスに関する重要な情報は、次を参照してください： <a href="#planner-users-with-administrative-access-to-job-roles">ジョブ・ロールへの管理アクセス権を持つ標準ユーザーまたはプランナ・ユーザー</a>.</p>
+       <p>ジョブ・ロールへの管理アクセス権を持つ標準またはプランナ・ユーザーが使用できる財務データへのアクセスに関する重要な情報は、次を参照してください： <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">ジョブ・ロールへの管理アクセス権を持つ標準ユーザーまたはプランナ・ユーザー</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -137,7 +137,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">タイムシートと時間</td> 
-      <td> <p>グループ管理者は、管理するグループとサブグループ内のユーザーにタイムシートプロファイルを割り当てることができます。</p> <p>このオプションを有効にしないと、グループ管理者は管理するグループとサブグループ内の他のユーザーにタイムシートプロファイルを割り当てることができませんが、作成はできます。</p> <p>Standard または Plan のライセンスを持つ他のすべてのユーザーは、Workfrontですべての時間とタイムシートを表示できます。</p> <p>このオプションを有効にしないと、ユーザーは次の日にのみ時間を表示できます。</p> 
+      <td> グループ管理者は、管理するグループとサブグループ内のユーザーにタイムシートプロファイルを割り当てることができます。 <p>このオプションを有効にしないと、グループ管理者は管理するグループとサブグループ内の他のユーザーにタイムシートプロファイルを割り当てることができませんが、作成はできます。</p> <p>Standard または Plan のライセンスを持つ他のすべてのユーザーは、Workfrontですべての時間とタイムシートを表示できます。</p> <p>このオプションを有効にしないと、ユーザーは次の日にのみ時間を表示できます。</p> 
        <ul> 
         <li>管理するプロジェクト、タスクまたは問題</li> 
         <li>自分のタイムシート</li> 
@@ -168,11 +168,11 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーが含まれている会話の更新のみを表示する</td> 
-      <td> <p>ユーザーは、自分の名前やチーム名が含まれているコメントのみを表示できます。</p> <p> <p><b>注意</b>：ユーザーがWorkfrontの項目を購読できなくなります。 項目の購読について詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーを追加</a>.</p> </p> </td> 
+      <td> ユーザーは、自分の名前やチーム名が含まれているコメントのみを表示できます。 <p> <p><b>注意</b>：ユーザーがWorkfrontの項目を購読できなくなります。 項目の購読について詳しくは、 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Adobe Workfrontの項目を購読</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">絶対にユーザーによるコメントの削除を許可しない </td> 
-      <td> <p>ユーザーが項目に対して行ったコメントを削除できないようにします。 </p> <p><b>注意</b>：他のユーザーのコメントを削除できません。</p> </td> 
+      <td> ユーザーが項目に対して行ったコメントを削除できないようにします。  <p><b>注意</b>：他のユーザーのコメントを削除できません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーが所属する会社、グループおよびチームのみを表示する</td> 
@@ -191,7 +191,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
 
 1. （条件付きおよびオプション）Workfrontシステムが複数の会社に属するユーザーに対して設定されている場合、「 」セクションで属する会社に基づいて他のユーザーに対する表示を制限します **他の会社の担当者は、次のユーザーのみを表示する必要があります：**.
 
-   ユーザーに対して、自分の会社のユーザーや、主要な会社として指定した会社のユーザーのみを表示するように制限できます。 主な会社について詳しくは、 [会社の作成と編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   ユーザーに対して、自分の会社のユーザーや、主要な会社として指定した会社のユーザーのみを表示するように制限できます。 通常、プライマリ会社は、ほとんどのユーザーが作業するWorkfrontアカウントを表します。 主な会社について詳しくは、 [会社の作成と編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >
