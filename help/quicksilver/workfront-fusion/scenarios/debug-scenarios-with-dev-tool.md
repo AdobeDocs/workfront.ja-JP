@@ -7,7 +7,7 @@ description: Adobe Workfront Fusion Devtool を使用すると、シナリオを
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
+source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
 workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 1%
@@ -88,7 +88,7 @@ Devtool へのアクセスは、Fusion を [!DNL Adobe Unified Experience].
 
 次の項目を追加できます。 [!DNL Workfront Fusion] 開発ツール [!DNL Chrome] から [!UICONTROL [!DNL Chrome] Web ストア].
 
-1. クリック [このリンク](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) に行く [!DNL Workfront Fusion] の開発ツール [!UICONTROL [!DNL Chrome] Web ストア].
+1. クリック [このリンク](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) に行く [!DNL Workfront Fusion] の開発ツール [!UICONTROL [!DNL Chrome] Web ストア].
 1. クリック **[!UICONTROL 追加先[!DNL Chrome]]**.
 1. 表示されるウィンドウで、権限を確認します。 権限に同意する場合は、 **[!UICONTROL 拡張機能を追加]**.
 
