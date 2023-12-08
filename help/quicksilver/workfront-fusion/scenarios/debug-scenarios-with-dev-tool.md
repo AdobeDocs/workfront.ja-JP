@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool を使用すると、シナリオを
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
+source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # でのシナリオのデバッグ [!DNL Adobe Workfront Fusion] 開発者ツール
 
 The [!DNL Adobe Workfront Fusion] 開発者ツールを使用すると、シナリオを理解し、トラブルシューティングできます。 開発ツールは、 [!DNL Chrome Developer Tools]. このデバッガーパネルを使用すると、シナリオのすべての手動実行を確認し、実行されたすべての操作を確認し、実行されたすべての API 呼び出しの詳細を確認できます。 エラーが発生したモジュール、操作、または単一の応答を確認し、その知識を使用してシナリオを絞り込むことができます。
+
+Fusion Devtool の詳細なビデオチュートリアルについては、 [開発ツールのチュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
 
 ## アクセス要件
 
@@ -27,7 +29,7 @@ The [!DNL Adobe Workfront Fusion] 開発者ツールを使用すると、シナ�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -203,7 +205,7 @@ The [!DNL Workfront Fusion] 開発ツールには、シナリオの設定を容�
 * [マッピングによるモジュールの検索](#find-modules-by-mapping)
 * [アプリのメタデータの取得](#get-app-metadata)
 * [マッピングをコピー](#copy-mapping)
-* [フィルターのコピー](#copy-filter)
+* [フィルターをコピー](#copy-filter)
 * [接続をスワップ](#swap-connection)
 * [スワップ変数](#swap-variable)
 * [アプリをスワップ](#swap-app)
@@ -277,7 +279,7 @@ ID で指定したモジュールの設定を開きます。
  </tbody> 
 </table>
 
-#### [!UICONTROL フィルターのコピー]
+#### [!UICONTROL フィルターをコピー]
 
 フィルター設定をソースモジュールからターゲットモジュールにコピーします。
 
@@ -325,11 +327,11 @@ ID で指定したモジュールの設定を開きます。
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 検索する変数 ]</td> 
-   <td> <p> 置き換える変数ピルをシナリオのモジュールから探し、この（[!UICONTROL 変数を検索 ]）フィールドにコピーします。 「 」フィールドにはダブルカーリーで囲まれて表示されます。 例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p> 置き換える変数ピルをシナリオのモジュールから探し、この（[!UICONTROL 変数を検索 ]）フィールドにコピーします。 「 」フィールドにはダブルカーリーで囲まれて表示されます。 例： <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 置換文字列 ]</p> </td> 
-   <td> <p>シナリオ内のモジュールで変数を置き換える変数ピルを探し、この ([!UICONTROL Variable to Find]) フィールドにコピーします。 「 」フィールドにはダブルカーリーで囲まれて表示されます。 例: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>シナリオ内のモジュールで変数を置き換える変数ピルを探し、この ([!UICONTROL Variable to Find]) フィールドにコピーします。 「 」フィールドにはダブルカーリーで囲まれて表示されます。 例： <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL モジュール ]</p> </td> 
