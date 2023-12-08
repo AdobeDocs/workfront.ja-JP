@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Workfrontの実装時にシステム環境設定を指定し、その後は再�
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>高速レビュープロセスを有効にする</p> </td> 
-      <td>組織の毎月のWorkfrontリリースを四半期ごとのリリースではなく有効にできます。</p><p>高速リリースプロセスについて詳しくは、 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">組織の高速リリースを有効または無効にします</a>.</p></td> 
+      <td>組織の毎月のWorkfrontリリースを四半期ごとのリリースではなく有効にできます。</p><p>高速リリースプロセスについて詳しくは、 <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">組織の高速リリースを有効または無効にします</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>の埋め込みを許可 <strong>Workfront</strong> iframe 内</p> </td> 
