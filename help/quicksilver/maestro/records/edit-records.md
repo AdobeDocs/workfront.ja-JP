@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -213,7 +213,7 @@ After permssions - replace the table with:
    >
    >  次のフィールドの情報は読み取り専用で、Workfrontによって自動的に更新されるので、編集できません。
    >  
-   >  * レコードタイプをリンクして作成した、リンクされたフィールド
+   >  * レコードタイプを接続して作成した、リンクされたフィールド。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日
 
 
@@ -225,11 +225,12 @@ After permssions - replace the table with:
    >
    >* 情報を貼り付けるフィールドと同じタイプの Maestro フィールド以外の別のソースから情報をコピーすることはできません。
    >
-   >* レコードの「詳細」領域に表示されるフィールドのフィールド値をコピーして貼り付けることはできません。
+   >* レコードの「詳細」領域にフィールド値をコピーして貼り付けることはできません。 この機能は、レコードタイプのテーブルビューでのみサポートされます。
    >* 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。
-   ><ul>
    >
-   > * システムフィールド
+   >
+   >    * レコードタイプを接続して作成した、リンクされたフィールド。 リンクされたレコードフィールドをコピーして貼り付けることができます。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
+   >    * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日
 
 
    <!--take People out of the list above when they release this - this might be coming later-->

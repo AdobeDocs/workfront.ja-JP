@@ -7,9 +7,9 @@ description: テキストモードの使用時に、Adobe Workfrontで計算済�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '718'
 ht-degree: 1%
 
 ---
@@ -55,27 +55,27 @@ Workfrontでは、次の条件修飾子を使用できます。
   <tr> 
    <td>が次に等しい</td> 
    <td>= </td> 
-   <td> <p>ステートメントの最初のフィールドが 2 番目のフィールドと等しい場合に条件が満たされることを示すには、この演算子を使用します。</p> <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><pre>IF({projectedCompletionDate}={plannedCompletionDate},"トラック上","トラック外")</pre> </td> 
+   <td> <p>ステートメントの最初のフィールドが 2 番目のフィールドと等しい場合に条件が満たされることを示すには、この演算子を使用します。</p> <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
   <tr> 
    <td>より大きい </td> 
    <td>&gt; </td> 
-   <td>ステートメントの最初のフィールドが 2 番目のフィールドより大きい場合に条件が満たされることを示すには、この演算子を使用します。 <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</pre></td> 
+   <td>ステートメントの最初のフィールドが 2 番目のフィールドより大きい場合に条件が満たされることを示すには、この演算子を使用します。 <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
    <td>次よりも大きいか等しい </td> 
    <td>&gt;= </td> 
-   <td>ステートメントの最初のフィールドが 2 番目のフィールド以上の場合に条件が満たされることを示すには、この演算子を使用します。 <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><pre>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"遅れた","早い")</pre></td> 
+   <td>ステートメントの最初のフィールドが 2 番目のフィールド以上の場合に条件が満たされることを示すには、この演算子を使用します。 <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 
   <tr> 
    <td>より小さい </td> 
    <td>&lt; </td> 
-   <td>ステートメントの最初のフィールドが 2 番目のフィールドより小さい場合に条件が満たされることを示すには、この演算子を使用します。 <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><pre>IF({projectedCompletionDate}&lt;{plannedCompletionDate}, "Early","")</pre></td> 
+   <td>ステートメントの最初のフィールドが 2 番目のフィールドより小さい場合に条件が満たされることを示すには、この演算子を使用します。 <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>次よりも小さいか等しい </td> 
    <td>&lt;= </td> 
-   <td>ステートメントの最初のフィールドが 2 番目のフィールド以下の場合に条件が満たされることを示すには、この演算子を使用します。 <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><pre>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</pre></td> 
+   <td>ステートメントの最初のフィールドが 2 番目のフィールド以下の場合に条件が満たされることを示すには、この演算子を使用します。 <p>例えば、次の文を計算カスタムフィールドで使用して、計画完了日とタスクの予定完了日を比較する「IF」文を作成します。 </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>次の値と等しくない </td> 
@@ -95,12 +95,12 @@ Workfrontでは、次の条件修飾子を使用できます。
   <tr> 
    <td>または </td> 
    <td>|| </td> 
-   <td> <p>この演算子は、式がステートメントの最初または 2 番目の値を見つけたときに条件が満たされることを示す場合に使用します。 </p> <p>たとえば、次の文を計算カスタム・フィールドで使用して、現在または計画ステータスのプロジェクトを「アクティブ」としてマークする「IF」文を作成します。 </p><pre>IF({status}="PLN"||{status}="CUR","Active","Not Active")</pre> </td> 
+   <td> <p>この演算子は、式がステートメントの最初または 2 番目の値を見つけたときに条件が満たされることを示す場合に使用します。 </p> <p>たとえば、次の文を計算カスタム・フィールドで使用して、現在または計画ステータスのプロジェクトを「アクティブ」としてマークする「IF」文を作成します。 </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> および </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>式が、同時に 2 つの条件を満たす項目を見つけた場合に、条件が満たされることを示すには、この演算子を使用します。 </p> <p>たとえば、計算されたカスタムフィールドで次の文を使用して、現在のステータスのプロジェクトを検索し、リスク条件を持ち、それらを「調停が必要」とマークする「IF」文を作成します。 </p><pre>IF({status}="CUR"&amp;&amp;{condition}="AR","調停が必要","")</pre> </td> 
+   <td> <p>式が、同時に 2 つの条件を満たす項目を見つけた場合に、条件が満たされることを示すには、この演算子を使用します。 </p> <p>たとえば、計算されたカスタムフィールドで次の文を使用して、現在のステータスのプロジェクトを検索し、リスク条件を持ち、それらを「調停が必要」とマークする「IF」文を作成します。 </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

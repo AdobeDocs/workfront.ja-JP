@@ -7,7 +7,7 @@ description: データ式を使用して、Adobe Workfrontで計算済みのカ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 26aa5a1f9b0fd88c83d9967245d2a8149d39b607
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -56,21 +56,20 @@ ht-degree: 0%
 
 * カスタムフィールドのタスクのカスタムフォームでは、次の情報を使用して、カスタムフォームが添付されているタスクの親プロジェクトの名前を生成します。
 
-  ```
-  {project}.{name}
-  ```
+
+  ` {project}.{name}`
+
 
 * レポートのカスタム列では、次の手順を使用して、タスクレポートにプロジェクト名のカスタム列を追加します。
 
-  ```
-  valuefield=project:name
-  ```
+
+  `valuefield=project:name`
+
 
   または
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
+
 
   >[!TIP]
   >
