@@ -2,20 +2,20 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: 設定 [!DNL Adobe Workfront] 対象： [!DNL Outlook]
-description: Adobe Workfront Fusion は、Outlook との統合を提供します。 この記事では、独自のワークフローでこの統合を使用し始める方法について説明します。
+description: The [!DNL Adobe Workfront] [!DNL Outlook] アドインでは、キーを実行できます。 [!DNL Workfront] タスクを Outlook から直接実行します。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
 # 設定 [!DNL Adobe Workfront for Outlook]
 
-The [!DNL Adobe Workfront] [!DNL Outlook] アドインを使用すると、次のキーを実行できます。 [!DNL Workfront] Outlook から直接のタスク：
+The [!DNL Adobe Workfront] [!DNL Outlook] アドインでは、次のキーを実行できます。 [!DNL Workfront] Outlook から直接のタスク：
 
 * 電子メールからの情報を使用して、既存のプロジェクト、タスクまたはイシューを更新します。 詳しくは、 [からの既存のオブジェクトの更新 [!DNL Outlook] 電子メール](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
 * の作成 [!DNL Workfront] 内の E メールに基づくリクエスト [!DNL Outlook]. 詳しくは、 [からのAdobe Workfrontリクエストの作成 [!DNL Outlook] 電子メール](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
@@ -41,12 +41,11 @@ The [!DNL Adobe Workfront] [!DNL Outlook] アドインを使用すると、次�
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>新規プラン：標準 </p>
- <p>または</p> 
-<p>現在のプラン： [!UICONTROL Work]、[!UICONTROL Plan] </p> 
-  </td> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td> 
+   <p>新しいプラン： [!UICONTROL Standard]</p> 
+   <p>現在のプラン：[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +70,7 @@ The [!DNL Workfront] アドイン [!DNL Outlook] は、次の要件を満たす�
 
 ### クライアント要件 {#client-requirements}
 
-次のバージョンの [!DNL Outlook]:
+Workfrontは、次のバージョンの [!DNL Outlook]:
 
 * [!DNL Outlook 2013] 以降 [!DNL Windows]
 *[!DNL  Outlook 2016] 以降 [!DNL Windows]
@@ -91,7 +90,7 @@ The [!DNL Workfront] アドイン [!DNL Outlook] は、次の要件を満たす�
 
 メールサーバーの要件は、 [!DNL Office 365] または [!DNL Outlook.com]. ただし、オンプレミスインストールの [!DNL Exchange Server]の場合、次の要件が適用されます。
 
-* 当社は全てをサポートしています [!DNL Exchange On-Premise] サーバー
+* Workfrontはすべてをサポート [!DNL Exchange On-Premise] サーバー
 * [!DNL Exchange Web Services] (EWS) を有効にし、インターネットに公開する必要があります。
 * サーバーが有効な ID トークンを発行するには、サーバーに有効な認証証明書が必要です。 の新規インストール [!DNL Exchange Server] デフォルトの認証証明書を含めます。
 
@@ -103,11 +102,7 @@ The [!DNL Workfront] アドイン [!DNL Outlook] は、次の要件を満たす�
 
 ## アドインのインストール
 
-の設定について詳しくは、 [!DNL Workfront] アドイン [!DNL Outlook]を参照してください。 [[!DNL Workfront]  — 協調作業管理。](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)
-
-* [[!DNL Workfront] 対象： [!DNL Outlook 365]](#workfront-for-outlook-365-workfront-for-outlook-365)
-* [[!DNL Workfront] 対象： [!DNL Outlook] Web 上](#workfront-for-outlook-on-the-web-workfront-for-outlook-on-the-web)
-* [[!DNL Workfront] 対象： [!DNL Outlook] オン [!DNL Windows] または [!DNL Mac]](#workfront-for-outlook-on-windows-or-mac-workfront-for-outlook-on-windows-or-mac)
+Outlook 用Workfrontアドインは、 [Microsoftストア](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview).
 
 ### [!DNL Workfront] 対象： [!DNL Outlook 365] {#workfront-for-outlook-365}
 
