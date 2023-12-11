@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: カスタムレポートの作成
-description: レポートの作成方法を理解すると、Adobe Workfront内で組織が必要とする情報にアクセスできます。 Workfrontで利用可能な組み込みレポートを使用することも、独自のレポートを一から作成することもできます。
+description: レポートを作成することで、Adobe Workfront内で組織が必要とする情報にアクセスできるようにすることができます。 Workfrontで利用可能な組み込みレポートを使用することも、カスタムレポートを一から作成することもできます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # カスタムレポートの作成
 
-レポートを作成することで、Adobe Workfront内で組織が必要とする情報にアクセスできるようにすることができます。 Workfrontで利用可能な組み込みレポートを使用することも、カスタムレポートを一から作成することもできます。
+レポートを作成して、組織がAdobe Workfrontで必要とする情報へのアクセス権を付与できます。 Workfrontで利用可能な組み込みレポートを使用することも、カスタムレポートを一から作成することもできます。
 
 組み込みレポートの詳細については、 [Adobe Workfrontの組み込みレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
@@ -38,7 +38,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td> <p>新規：標準 </p>
+   または
+   <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -47,7 +49,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>作成したレポートに対する管理権限が取得されます</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>作成したレポートに対する管理権限を取得します。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ ht-degree: 1%
 
 ## レポートの作成 {#create-a-report}
 
-レポートの作成方法に関するビデオを見るには、 [カスタムレポートの作成](#Walk-thr) 下
+{{step1-to-reports}}
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) 右上隅で、「 **レポート**.
 1. クリック **新しいレポート**&#x200B;をクリックし、レポートに表示するオブジェクトの種類を選択します。
 
    Report Builder が読み込まれます。
@@ -109,17 +110,17 @@ ht-degree: 1%
 
 1. レポートの作成を開始します (「 [レポートの作成](#create-a-report) 」の節を参照してください。
 1. Report Builder で、 **列（表示）** タブを使用して、レポートに表示する列を指定します。
-1. （オプション）「 **既存のビューの適用** 既存のビューを使用する場合。
+1. （オプション）「 **既存のビューの適用** をクリックし、ドロップダウンメニューでビューの名前をクリックして、既存のビューを使用します。
 
-   新しいビューの作成について詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   ビューの作成について詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. （オプション）既存の列を削除するには、削除する列をクリックし、 **x** 列ヘッダーの現在の名前の横に表示されます。
 
 1. 新しい列を追加するには、 **列を追加**.
 
    または
 
-   既存の列を変更するには、変更する列を選択し、現在の名前の横にある (x) をクリックします。
-
-1. 追加するフィールドの入力を開始します。 フィールドが使用可能な場合は、関連付け可能な各オブジェクトに対してが設定されます。 フィールドの名前をクリックして、列に追加します。
+   既存の列を変更するには、列をクリックし、 **削除** アイコン ![](assets/x-icon-circled.png) を **この列フィールドに表示** 」ボックスをクリックし、新しいフィールドを入力して、リストに表示されたらクリックします。
 
    列に表示されるフィールドの詳細については、 [Adobe Workfrontの用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ ht-degree: 1%
    >
    >次の例外は、グループ化で次のフィールドの値を集計する場合に親オブジェクト（親タスクなど）に適用されます。
    >
-   >* 「実績時間」（「計画/実績労務費」、「計画/実費原価」、「計画/実費」、「計画/実費」、「計画時間」など）を除くすべての数値および通貨フィールドは、子タスクとスタンドアロンタスクの値のみを集計します。 親タスクや親の値は集計されません。
+   >* 「実績時間」以外のすべての数値および通貨フィールド（「計画または実績労務費」、「計画費」または「実績費用」、「計画原価」または「実績原価」、「計画時間」など）は、子タスクとスタンドアロンタスクの値のみを集計します。 親タスクや親の値は集計されません。
    >* [ 実績時間 ] は、メインの親タスクとスタンドアロンのタスクの値を集計します。親タスクの親や子タスクの数値は集計されません。
    >* 数値および通貨値のカスタムデータフィールドは、親、子、親の親、スタンドアロンタスクのすべてのタスクを集計します。
 
@@ -193,7 +194,8 @@ ht-degree: 1%
 
    または
 
-   選択 **既存のグループの適用** 既存のグループを選択するには
+   選択 **既存のグループの適用** をクリックして、既存のグループを選択します（リストに表示される場合）。
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. グループ化として追加するフィールドの入力を開始します。 フィールドが使用可能な場合は、関連付け可能な各オブジェクトに対してが設定されます。 フィールドの名前をクリックして、そのグループに追加します。
@@ -210,7 +212,7 @@ ht-degree: 1%
    >* リスト表示時にグループを手動で調整すると、Workfrontでは、ログアウトするまで手動の設定が記憶されます。 再度ログインすると、この設定に従ってリストが表示されます。
    >* グループ化の結果は、グラフ要素からアクセスした後で常に展開表示されます。
 
-1. （オプション）行列のグループ化を作成して、結果をグリッド形式で表示できます。
+1. （オプション）「 **マトリックスグループ化に切り替え**&#x200B;をクリックし、マトリックスのグループ化を作成して、結果をグリッド形式で表示します。
 
    マトリックスレポートの作成について詳しくは、 [マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
