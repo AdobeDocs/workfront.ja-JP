@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
+source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,25 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">レビューを完了としてマーク</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>ドキュメントがレビューされ、次の承認ステージに進む準備が整ったときに、より明確にするために、新しい <strong>レビューを完了</strong> 」ボタンをクリックします。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント承認用に更新されたステータス</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 12 月 8 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">レビューを完了としてマーク</a></p><p>ドキュメントがレビューされ、次の承認ステージに進む準備が整ったときに、より明確にするために、新しい <strong>レビューを完了</strong> 」ボタンをクリックします。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
