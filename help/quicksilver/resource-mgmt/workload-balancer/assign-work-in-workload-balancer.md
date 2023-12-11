@@ -6,10 +6,10 @@ description: リソースマネージャーは、Adobe Workfrontワークロー�
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 0%
+source-wordcount: '1035'
+ht-degree: 1%
 
 ---
 
@@ -34,19 +34,20 @@ Workfrontがユーザーの使用可能時間を計算する方法を理解す�
 
 Workfrontは、次の情報を使用して、ワークロードバランサーでのユーザーの容量を計算します。
 
-* リソース管理の環境設定 Workfrontの管理者が、「セットアップ」の「リソース管理」領域で次のいずれかを使用するように選択することで、システムの使用可能な時間の計算方法を決定します。
+* リソース管理の環境設定。 Workfrontの管理者が、「セットアップ」の「リソース管理」領域で次のいずれかを使用するように選択することで、システムの使用可能な時間の計算方法を決定します。
 
    * Workfrontシステムとユーザーの FTE のデフォルトスケジュール。
-   * 「ユーザープロファイル」領域に表示される、ユーザーのスケジュール。
+   * 「ユーザープロファイル」領域に表示される、ユーザーのスケジュールです。
 
-      これにより、ユーザーの日別および週別の使用可否が計算されます。 選択したスケジュールに対するスケジュールの例外は、ワークロード・バランサのユーザーの容量に反映されます。
-   詳しくは、 [リソース管理環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+     これにより、ユーザーの日別および週別の使用可否が計算されます。 選択したスケジュールに対するスケジュールの例外は、ワークロード・バランサのユーザーの容量に反映されます。
 
-   スケジュールについて詳しくは、 [スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  詳しくは、 [リソース管理環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* ユーザーの休日。 これは、ユーザーがオフにする予定の日を示します。
+  スケジュールについて詳しくは、 [スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   詳しくは、 [Adobe Workfrontでの個人の休日の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+* ユーザーの休み。 これは、ユーザーがオフにする予定の日を示します。
+
+  詳しくは、 [個人の休日を設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * ユーザーの作業時間。 これは、オーバーヘッドを含まずに、実際のプロジェクト関連作業を実行するためにユーザーが使用できる FTE 時間の割合を示します。 [ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。
 
@@ -57,30 +58,30 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 
 ワークロードバランサーで作業を割り当てるには、次の方法を使用します。
 
-* 各項目を手動で割り当てることにより、一度に 1 つの項目に制限します。
+* 各項目を手動で割り当てることにより、一度に 1 つの項目に設定できます。
 
-   項目を手動で一度に 1 つずつ割り当てる際に、[ 高度な割り当て ] を実行できます。
+  項目を手動で一度に 1 つずつ割り当てる際に、[ 高度な割り当て ] を実行できます。
 
-   詳しくは、 [ワークロードバランサーを使用して作業を手動で割り当て](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  詳しくは、 [ワークロードバランサーを使用して作業を手動で割り当てる](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 * 割り当てる必要のあるユーザーに作業項目をドラッグ&amp;ドロップして、一度に 1 つの項目を追加します。
 
-   詳しくは、 [ドラッグ&amp;ドロップによりワークロードバランサーで作業を割り当てる](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  詳しくは、 [ドラッグ&amp;ドロップによりワークロードバランサーで作業を割り当てる](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 * 「一括割り当て」オプションを使用して、一度に複数の項目を割り当てます。 項目を一度に複数のユーザーに割り当てるルールを定義できます。
 
-   詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当て](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当てる](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 作業の割り当て解除について詳しくは、 [ワークロードバランサーでの作業の割り当て解除](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## ワークロードバランサーの割り当て領域
 
-リソースエリア、プロジェクト、またはチームレベルで、ワークロードバランサーを使用して、作業をユーザーに割り当てることができます。 ワークロードバランサーのWorkfront内の場所について詳しくは、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+リソースエリア、プロジェクト、またはチームレベルのワークロードバランサーを使用して、作業をユーザーに割り当てることができます。 ワークロードバランサーのWorkfront内の場所について詳しくは、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ワークロードバランサーには、次の 2 つの領域があり、作業項目を表示できます。
 
-* **未割り当ての作業**:ユーザーに割り当てられていない項目を表示します。
-* **割り当てられた作業**:ユーザーに割り当てられている項目を表示します。
+* **未割り当ての作業**：ユーザーに割り当てられていない項目を表示します。
+* **割り当てられた作業**：ユーザーに割り当てられている項目を表示します。
 
 次の表に、各領域に表示される項目を割り当てに基づいて示します。
 
@@ -143,7 +144,7 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 
 &#42;作業項目がプライマリとロールに割り当てられると、そのロールがユーザー担当者の場合にのみ、「未割り当て作業」領域に表示されます。
 
-&#42;&#42;作業項目がプライマリと別のエンティティに割り当てられると、その作業項目は、ユーザーがユーザー担当者の場合にのみ「割り当て済み作業」領域に表示されます。
+&#42;&#42;作業項目がプライマリと別のエンティティに割り当てられると、その作業項目は、ユーザーがユーザー担当者の場合にのみ、「割り当て済み作業」領域に表示されます。
 
 ワークロード・バランサの未割り当て領域と割り当て領域の詳細は、 [ワークロード・バランサのナビゲート](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -154,7 +155,7 @@ Workfrontは、次の情報を使用して、ワークロードバランサー�
 * ユーザーのプロファイルには、複数のジョブの役割を関連付けることができます。 ユーザーとジョブの役割の関連付けについて詳しくは、 [ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * 通常、タスクや問題は、1 つまたは複数のジョブの役割またはチームに最初に割り当てられます。 プロジェクトを開始する準備が整ったら、ユーザーへの割り当ても必要になる場合があります。\
-   1 つ以上の役割にタスクまたはイシューが割り当てられ、ユーザーも割り当てられた場合、Adobe Workfrontは、次のルールに従って、追加のユーザーに関連付けるジョブの役割を決定します。
+  1 つ以上の役割にタスクまたはイシューが割り当てられ、ユーザーも割り当てられた場合、Adobe Workfrontは、次のルールに従って、追加のユーザーに関連付けるジョブの役割を決定します。
 
    * プライマリロールが 1 つだけ割り当てられ、プライマリロールと一致する場合、タスクまたはイシューは、そのジョブロールを満たすユーザーにのみ割り当てられます。
    * 複数のロールが割り当てられ、少なくとも 1 つのロールがユーザーのセカンダリロールと一致する場合、タスクまたは問題は、他のロールの 1 つ ( 複数の一致がある場合はWorkfrontがランダムに選択 ) を満たすユーザーと、追加のロールに割り当てられます。

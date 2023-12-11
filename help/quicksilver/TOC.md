@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '13783'
+source-wordcount: '13780'
 ht-degree: 1%
 
 ---
@@ -919,7 +919,7 @@ ht-degree: 1%
       * ユーザープロファイルの設定 {#configure-user-profile}
          * [ユーザープロファイルの設定](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [設定を行う](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-         * [Adobe Workfrontでの個人の休日の設定](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+         * [個人の休日を設定](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
       * Adobe Workfrontアカウントを管理 {#manage-workfront-account}
          * [Adobe Workfrontアカウントを管理](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Adobe Workfrontにログイン](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)

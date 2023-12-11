@@ -2,23 +2,23 @@
 content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: での個人のオフタイムの設定 [!DNL Adobe Workfront]
-description: Adobe Workfrontは、個人のタイムオフを管理、計上、および追跡するために、既存のシステムを複製または置き換えるように設計されていません。 ただし、承認のオフが発生するタイミングを指定することが重要です。承認のオフは、スケジュールに影響し、割り当てられているタスクの計画完了日に影響を与えるからです。
+title: 個人の休日を設定
+description: 承認されたオフの発生時期をAdobe Workfrontで指定することが重要です。これは、スケジュールに影響し、割り当てられているタスクの予定完了日に影響を与えるからです。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# での個人のオフタイムの設定 [!DNL Adobe Workfront]
+# 個人の休日を設定
 
 [!DNL Adobe Workfront] は、個人のタイムオフを管理、計上、および追跡するために、既存のシステムを複製または置き換えるように設計されていません。
 
-ただし、承認のオフが発生するタイミングを指定することが重要です。これは、スケジュールに影響し、 [!UICONTROL 計画完了日] 割り当てられているタスクの数を指定します。
+ただし、承認されたオフのタイミングを指定することが重要です。これは、スケジュールと [!UICONTROL 計画完了日] 割り当てられているタスクの数を指定します。
 
 例えば、2 週間かかる予定のタスクに割り当てられていて、その間に 3 日間の休暇を取る予定がある場合、 [!DNL Workfront] タスクタイムラインに 3 日を追加して、休止時間を考慮します。
 
@@ -43,15 +43,17 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td>[!UICONTROL Work] 以降（個人のタイムオフを設定する場合）</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td> <p>新しいプラン：標準（個人の休日を設定）</p>
+        <p>または</p>
+        <p>現在のプラン：勤務先以上（個人の休日を設定する場合）</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
+   <td role="rowheader">アクセスレベル設定*</td> 
    <td>[!UICONTROL ユーザーを編集 ] アクセス権を持つ [!UICONTROL Manager] （他のユーザーのカレンダーの時間を変更する場合）<br>
    <strong>注意：</strong> 管理者が別のユーザーの個人のタイムオフカレンダーを編集した場合、すべてのエントリは、管理者のタイムゾーンではなく、ユーザーのタイムゾーンに表示されます。</td> 
   </tr> 
@@ -62,7 +64,8 @@ ht-degree: 0%
 
 ## での個人のオフタイムの設定 [!DNL Workfront]
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、プロフィール画像の横にあるユーザー名をクリックします。 または（使用可能な場合）、上部のナビゲーション領域のプロフィール画像をクリックし、 **[!UICONTROL Workfront Profile]**.
+{{step1-click-profile-pic}}
+
 1. 左側のパネルで、 **[!UICONTROL オフの時間]**.
 1. 個人の休日に希望する日付を選択します。
 
@@ -70,8 +73,8 @@ ht-degree: 0%
 
 1. 選択 **[!UICONTROL 終日]**（1 日を休む場合）
 
-   1 日未満のオフを取っていて、オフの開始時間と終了時間を示す場合は、このチェックボックスをオフのままにします。
+   1 日未満の休日を取る場合は、このチェックボックスをオフのままにし、休日の開始時間と終了時間を指定します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   これで、休暇が [!DNL Workfront] システムを使用して、リソース・プランナーやワークロード・バランサなどのリソース管理ツールを使用できます。 この時間に作業を割り当てると、予定時間がオフになったことをユーザーに知らせるツールヒントが表示されます。
+   これで、休暇が [!DNL Workfront] システムを使用して、リソース・プランナーやワークロード・バランサなどのリソース管理ツールを使用できます。 この間に作業を割り当てられると、ツールヒントが表示され、予定時間がずれたことがユーザーに通知されます。
