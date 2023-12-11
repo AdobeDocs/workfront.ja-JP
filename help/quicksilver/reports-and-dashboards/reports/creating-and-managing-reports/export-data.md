@@ -6,9 +6,9 @@ description: レポートデータの書き出しについて説明します
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Workfrontでのレポートの表示方法や、手動での書き出し、配信されたレポート、API での書き出し方法には、いくつかの制限があります。
 
+* **50,000 セル：** Excel ファイルのレポートエクスポートで許可されるセルの最大数。
 * **50,000 行：** .pdf ファイルおよびタブ区切りファイルのレポート書き出しで許可されるデータの行数。
 
    * Excelの.xls ファイルの場合、この制限は次のとおりです。 **65,000 行**.
@@ -310,14 +311,14 @@ Web アプリケーションでレポートに特別な書式が設定されて�
 
 >[!TIP]
 >
->行が `valueformat=HTML` はカスタムフィールド列のテキストモードで表示され、リンク値は書き出された.pdf ファイルには表示されません。追加のコード行をテキストモードで列に入力する必要があります。
+行が `valueformat=HTML` はカスタムフィールド列のテキストモードで表示され、リンク値は書き出された.pdf ファイルには表示されません。追加のコード行をテキストモードで列に入力する必要があります。
 >
->例えば、「Open Q1 Projects」という名前のカスタムフィールドにリンクが含まれている場合、次のコードを追加します。
+例えば、「Open Q1 Projects」という名前のカスタムフィールドにリンクが含まれている場合、次のコードを追加します。
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 Excel 形式にエクスポートする場合、エクスポートされるファイルにはWorkfront内のオブジェクトへのリンクのみが含まれ、レポート配信など、エクスポートされる Excel ドキュメント内のリンクを許可する場所でのみサポートされます。
 
