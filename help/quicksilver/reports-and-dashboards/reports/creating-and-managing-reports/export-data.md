@@ -315,10 +315,10 @@ Web アプリケーションでレポートに特別な書式が設定されて�
 >
 例えば、「Open Q1 Projects」という名前のカスタムフィールドにリンクが含まれている場合、次のコードを追加します。
 >
-```
-link.url=customDataLabelsAsString(Open Q1 Projects)
-linkedname=direct
-```
+>```
+>link.url=customDataLabelsAsString(Open Q1 Projects)
+>linkedname=direct
+>```
 
 Excel 形式にエクスポートする場合、エクスポートされるファイルにはWorkfront内のオブジェクトへのリンクのみが含まれ、レポート配信など、エクスポートされる Excel ドキュメント内のリンクを許可する場所でのみサポートされます。
 
