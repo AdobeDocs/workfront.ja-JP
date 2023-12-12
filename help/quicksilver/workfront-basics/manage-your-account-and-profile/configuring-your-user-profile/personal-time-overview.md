@@ -7,9 +7,9 @@ description: 承認されたオフの発生時期をAdobe Workfrontで指定す�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>新しいプラン：標準（個人の休日を設定）</p>
+   <td> <p>新規：標準（個人のオフ時間を設定）</p>
         <p>または</p>
-        <p>現在のプラン：勤務先以上（個人の休日を設定する場合）</p> </td>
+        <p>現在：勤務先以上（個人の休日を設定する場合）</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 

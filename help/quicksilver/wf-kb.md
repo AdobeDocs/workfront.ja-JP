@@ -3,10 +3,10 @@ filename: wf-kb
 title: Workfrontナレッジベース
 recommendations: noDisplay, noCatalog
 description: 。
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 48%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 48%
 * [人、チーム、グループ](people-teams-and-groups/people-teams-and-groups.md)
 * [リソースの管理](resource-mgmt/manage-resources.md)
 * [アジャイル](agile/agile.md)
-* [作業の管理](manage-work/manage-work.md)
+* [作業を管理](manage-work/manage-work.md)
 * [作業のレビューと承認](review-and-approve-work/review-and-approve-work.md)
 * [ドキュメント](documents/documents-overview.md)
 * [レポート](reports-and-dashboards/reports-and-dashboards-overview.md)
@@ -27,7 +27,7 @@ ht-degree: 48%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
-* [タイムシート](timesheets/timesheets-all.md)
+* [タイムシート：記事インデックス](timesheets/timesheets-all.md)
 * [Adobe Workfront統合](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Workfront プルーフ](workfront-proof/workfront-proof.md)

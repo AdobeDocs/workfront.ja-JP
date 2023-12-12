@@ -5,9 +5,9 @@ description: 上部ナビゲーションバー — 新しい [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 98d3240bb57ff10c7031eb324f3ce67c1bf6ac9e
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー]
    <td> 
     <ul> 
      <li>[!UICONTROL リクエスト ]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">リクエストの作成</a></li> 
-     <li>[!UICONTROL タイムシート ]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">タイムシート</a></li> 
+     <li>[!UICONTROL タイムシート ]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">タイムシート：記事インデックス</a></li> 
      <li>[!UICONTROL ドキュメント ]: <a href="../../documents/documents-overview.md" class="MCXref xref">ドキュメント</a></li> 
      <li>[!UICONTROL テンプレート ]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">プロジェクトテンプレートの作成と管理</a></li> 
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">分析の概要の強化</a></li> 

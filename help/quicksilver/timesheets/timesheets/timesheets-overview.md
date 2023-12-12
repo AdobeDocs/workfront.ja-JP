@@ -7,9 +7,9 @@ description: タイムシートを使用して、Adobe Workfrontの内外の仕�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfrontでの時間のログ記録方法について詳しくは、 [ログ時
 
 >[!TIP]
 >
->Workfrontまたはグループ管理者は、タイムシートを作成してユーザーに関連付けることができます。 タイムシートの作成の詳細については、 [タイムシートの作成と管理](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Workfrontまたはグループ管理者は、タイムシートを作成してユーザーに関連付けることができます。 タイムシートの作成の詳細については、 [タイムシートの作成と管理：記事インデックス](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## プロジェクト時間と非プロジェクト時間を把握する

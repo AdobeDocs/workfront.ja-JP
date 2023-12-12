@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 1%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 1%
       * [承認に関するヒント、テクニックおよびトラブルシューティング](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [すべてのユーザーに対する配達確認およびドキュメントの決定数を表示します](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * タイムシート {#timesheets}
-   * [タイムシート](timesheets/timesheets-all.md)
+   * [タイムシート：記事インデックス](timesheets/timesheets-all.md)
    * タイムシートの詳細 {#details}
-      * [Adobe Workfrontのタイムシートの詳細](timesheets/timesheets/timesheets.md)
+      * [タイムシートの詳細：記事インデックス](timesheets/timesheets/timesheets.md)
       * [タイムシートの概要](timesheets/timesheets/timesheets-overview.md)
       * [タイムシートのレイアウトを理解する](timesheets/timesheets/timesheet-layout.md)
-   * Adobe Workfrontでのタイムシートの作成と管理 {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Adobe Workfrontでのタイムシートの作成と管理](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * タイムシートの作成と管理 {#create-and-manage-timesheets-in-adobe-workfront}
+      * [タイムシートの作成と管理：記事インデックス](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [タイムシートプロファイルの作成、編集、割り当て](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [タイムシートの時間の種類と可用性を定義する](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [単一使用のタイムシートを作成する](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 1%
       * [タイムシートを手動で生成する](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [タイムシートのリストをエクスポートする](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * 時間の記録方法の設定 {#configure-timesheet-preferences}
-      * [時間の記録方法の設定](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [時間の記録方法の設定：記事のインデックス](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [時間をログイン時間または日に設定する](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * タイムシートのヒント、テクニック、トラブルシューティング {#tips-tricks-troubleshooting-for-timesheets}
-      * [ヒント、テクニックおよびトラブルシューティング](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [ヒント、テクニックおよびトラブルシューティング：記事のインデックス](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [タイムシートの作業週の開始日を修正する](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [「財務の再計算」アクションがレートが変更された際に履歴時間に影響を与えないようにします](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Adobe Workfront API を使用した時間レコードの追跡](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

@@ -6,9 +6,9 @@ description: 以下を使用できます。 [!DNL Adobe Workfront for Jira] を�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2420'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,16 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]*</td> 
-   <td><p>新規プラン：任意</p>
+   <td><p>新規：任意</p>
        <p>または</p>
-       <p>現在のプラン： [!UICONTROL Pro] 以降</p>
+       <p>現在： [!UICONTROL Pro] 以降</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td><p>新しいプラン： [!UICONTROL Standard] </p>
+   <td><p>新規： [!UICONTROL Standard] </p>
        <p>または</p> 
-       <p>現在のプラン： [!UICONTROL プラン ] </p>
+       <p>現在： [!UICONTROL プラン ] </p>
    </td>
   </tr> 
   <tr> 
