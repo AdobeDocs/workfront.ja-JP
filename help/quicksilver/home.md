@@ -3,10 +3,10 @@ title: '''[!DNL Adobe Workfront] ドキュメント'
 description: のドキュメント [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 5%
+source-wordcount: '379'
+ht-degree: 2%
 
 ---
 
@@ -75,9 +75,9 @@ Workfrontで必要なレポートの作成方法がわからない場合は、�
 
 Workfrontでリソースをスケジュールする代わりに、ワークロードバランサーを使用します。
 
-詳しくは、 [ワークロードバランサー](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+詳しくは、 [ワークロードバランサー：記事インデックス](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Adobe Workfront Goals
+### Adobe Workfront目標
 
 戦略を作業に合わせて調整し、AdobeWorkfront 目標を使用して連携を図り、成功を収めます。
 
@@ -97,7 +97,7 @@ Adobe Workfront API を通じて利用可能なすべてのオブジェクトを
 
 詳しくは、 [Workfront API Explorer( developer.adobe.com )](https://developer.adobe.com/workfront/api-explorer/).
 
-### Workfront 統合
+### Workfront統合
 
 Workfrontを他のシステムと統合することで、すべてのアプリケーションに 1 か所でアクセスできます。
 

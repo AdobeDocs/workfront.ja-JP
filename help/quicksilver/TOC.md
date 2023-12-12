@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
 workflow-type: tm+mt
-source-wordcount: '13781'
+source-wordcount: '13783'
 ht-degree: 1%
 
 ---
@@ -1741,7 +1741,7 @@ ht-degree: 1%
       * [リソース使用率](resource-mgmt/resource-utilization/resource-utilization.md)
       * [リソース使用率情報の表示](resource-mgmt/resource-utilization/view-utilization-information.md)
    * ワークロードバランサー {#the-workload-balancer}
-      * [ワークロードバランサー](resource-mgmt/workload-balancer/workload-balancer.md)
+      * [ワークロードバランサー：記事インデックス](resource-mgmt/workload-balancer/workload-balancer.md)
       * [ワークロードバランサーの概要](resource-mgmt/workload-balancer/overview-workload-balancer.md)
       * [ワークロードバランサーでリソースを管理するために必要なアクセス](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
       * [ワークロード・バランサの検索](resource-mgmt/workload-balancer/locate-workload-balancer.md)

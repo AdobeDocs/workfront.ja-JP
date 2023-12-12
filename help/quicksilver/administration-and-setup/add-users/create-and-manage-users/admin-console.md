@@ -1,13 +1,13 @@
 ---
 title: Adobe Admin Consoleでのユーザー管理
 description: Adobe管理者は、Adobe Admin Consoleを使用してAdobe Workfrontユーザーおよびシステム管理者を作成できます。
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,42 @@ Adobe管理者は、Adobe Admin Consoleを使用してAdobe Workfrontユーザ�
 
 ## 前提条件
 
-WorkfrontのAdmin Consoleを使用する前に、コンソールに招待する E メールが届きます。
+Workfront用のAdmin Consoleを使用する前に、コンソールに招待する電子メールが届きます。
 
 1. Adobeを初めておこない、組織のAdobeソフトウェアとサービスを管理する権限が与えられたことを知らせる電子メールが届いた場合は、電子メールの「 」ボタンをクリックしてAdobeアカウントを作成し、Admin Consoleを開きます。
 
    または
 
    既にAdobeアカウントがある場合は、 [Adobe Admin Consoleページ](https://adminconsole.adobe.com/).
+
+## Adobe Admin Consoleのその他の詳細
+
+* Workfront System Administrators は、Workfront内からWorkfrontユーザーを非アクティブ化できますが、Admin Console内のユーザーは非アクティブ化されません。
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
+  -->
+
+* ユーザー **ホームグループ** は、作成したユーザーに基づいて決定されます。 これは、Admin Console内からはカスタマイズできません。
+* Workfrontシステム管理者のアクセスレベルは、Adobe Admin Console内からのみ編集できます。
+
+  <!--
+  DRAFTED IN FLARE:
+  How is this done?
+  
+  -->
+
+* ユーザーのアクセスをシステム管理者から他のアクセスレベルに変更する場合は、まずAdmin Consoleを通じて行う必要があります。
+
+  <!--
+   This is not clear
+  -->
+
+* Workfrontのユーザーからシステム管理者のアクセス権を削除するには、Adobe Admin Consoleを使用して、製品プロファイル管理者としてユーザーを削除する必要があります。 これにより、ユーザーのWorkfrontアクセスレベルがシステム管理者から要求者に変更されます。
+
+  >[!IMPORTANT]
+  >
+  >製品プロファイル自体は変更しないでください。
 
 ## Workfrontの実稼動インスタンスのユーザーと管理領域にアクセスする {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
@@ -67,7 +96,7 @@ WorkfrontのAdmin Consoleを使用する前に、コンソールに招待する 
 
    >[!TIP]
    >
-   >プレビューインスタンス（リスト内の 2 番目のリンク）は、実稼動環境を複製するテスト環境です。 詳しくは、 [Adobe Workfrontプレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >リスト内の 2 つ目のリンクであるプレビューインスタンスは、実稼動環境を複製するテスト環境です。 詳しくは、 [Adobe Workfrontプレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
    >
    >
    >また、リストにサンドボックス環境へのリンクが表示される場合もあります。 詳しくは、 [Adobe Workfrontプレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
@@ -96,7 +125,7 @@ WorkfrontユーザーをAdobe Admin Consoleに追加する必要があります�
 
 ### Adobe Admin Consoleで直接Workfrontにユーザーを作成
 
-1. Admin Consoleの「ユーザー」領域と「管理者」領域に移動します ( [Workfrontの実稼動インスタンスのユーザーと管理領域にアクセスする](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 」を参照してください。
+1. の節で説明されているように、Admin Consoleの「ユーザー」および「管理者」領域に移動します。 [Workfrontの実稼動インスタンスのユーザーと管理領域にアクセスする](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 」を参照してください。
 1. を使用 **ユーザー** リストの上で選択したタブで、「 」を選択します。 **ユーザーを追加**.
 1. Adobe Analytics の **この製品プロファイルにユーザーを追加** ボックスに、追加するユーザーの電子メールアドレスまたは名前を入力し、 **保存**.
 
@@ -114,7 +143,7 @@ WorkfrontユーザーをAdobe Admin Consoleに追加する必要があります�
 
    >[!NOTE]
    >
-   >新規Adobeユーザーの場合、Admin Consoleは登録プロセスを完了するよう招待する電子メールを配信します。 すべてのユーザーが登録プロセスを完了して、任意のAdobe・システムにアクセスします。
+   >新規Adobeユーザーの場合、Admin Consoleは登録プロセスを完了するよう招待する電子メールを配信します。 すべてのユーザーが登録プロセスを完了して、任意の登録アプリケーションにアクセスするAdobeが必要です。
    >
    >既存のAdobeユーザーの場合、Workfrontが使用可能になっていることを知らせる電子メールをユーザーが受け取る場合と受け取らない場合があります。 これは、製品のAdobe管理者が制御するプリファレンスです。
 
@@ -134,9 +163,9 @@ Workfrontでユーザーを作成する手順については、 [ユーザーを
 
 ユーザーを承認するには、次の手順に従います。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **ユーザー** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-users}}
 
-1. ユーザーを選択し、「その他」アイコンをクリックします。 ![](assets/more-icon.png).
+1. ユーザーを選択し、「M」**o**&#x200B;再アイコン ![](assets/more-icon.png).
 
 1. ユーザーを承認するには、以下をクリックします。 **承認**&#x200B;を選択し、次に **送信**.
 
@@ -144,9 +173,9 @@ Workfrontでユーザーを作成する手順については、 [ユーザーを
 
    ユーザーを拒否し、Workfrontから削除するには、 **拒否**&#x200B;を選択し、次に **送信**.
 
-承認されたユーザーは、Adobe Admin Consoleに自動的に追加されます。
+   承認されたユーザーは、Adobe Admin Consoleに自動的に追加されます。
 
-拒否されたユーザーはWorkfrontから自動的に削除されます。
+   拒否されたユーザーはWorkfrontから自動的に削除されます。
 
 
 
@@ -154,9 +183,9 @@ Workfrontでユーザーを作成する手順については、 [ユーザーを
 
 システム管理者のアクセスレベルは、Adobe Admin Consoleでのみ付与されます。 Workfront内で管理者アクセスを許可または削除することはできません。
 
-ユーザーをWorkfrontシステム管理者にする前に、Workfrontの実稼動インスタンスにユーザーを追加する必要があります。 手順については、 [Adobe Admin Consoleを使用したWorkfrontでのユーザー作成](#create-users-in-workfront-with-the-adobe-admin-console) 」を参照してください。
+ユーザーをWorkfrontシステム管理者にする前に、Workfrontの実稼動インスタンスにユーザーを追加する必要があります。 手順については、「 [Adobe Admin Consoleを使用したWorkfrontでのユーザー作成](#create-users-in-workfront-with-the-adobe-admin-console) 」を参照してください。
 
-1. Admin Consoleの「ユーザー」領域と「管理者」領域に移動します ( [Workfrontの実稼動インスタンスのユーザーと管理領域にアクセスする](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 」を参照してください。
+1. の節で説明されているように、Admin Consoleの「ユーザー」および「管理者」領域に移動します。 [Workfrontの実稼動インスタンスのユーザーと管理領域にアクセスする](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) 」を参照してください。
 1. を選択します。 **管理者** タブを使用して、ユーザーのリストの上に表示されます。
 1. 選択 **管理者を追加**.
 1. Adobe Analytics の **製品プロファイル管理者の追加** ボックスに、追加する管理者の電子メールアドレスまたは名前を入力し、「 」を選択します。 **保存**.
@@ -169,34 +198,7 @@ Workfrontでユーザーを作成する手順については、 [ユーザーを
    >
    >製品プロファイル自体は変更しないでください。
 
-## Adobe Admin Consoleのその他の詳細：
 
-* Workfront System Administrators は、Workfront内からWorkfrontユーザーを非アクティブ化できますが、Admin Console内のユーザーは非アクティブ化されません。
-
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
-  -->
-
-* ユーザー **ホームグループ** は、作成したユーザーに基づいて決定されます。 現在、これはAdmin Console内からカスタマイズできません。
-* Workfrontシステム管理者のアクセスレベルは、Adobe Admin Console内からのみ編集できます。
-
-  <!--
-  DRAFTED IN FLARE:
-  How is this done?
-  
-  -->
-
-* システム管理者であるユーザーを他のアクセスレベルに編集するには、まずAdmin Consoleを通じておこなう必要があります。
-
-  <!--
-   This is not clear
-  -->
-
-* Workfrontのユーザーからシステム管理者のアクセス権を削除するには、Adobe Admin Consoleを使用して、製品プロファイル管理者としてユーザーを削除する必要があります。 これにより、ユーザーのWorkfrontアクセスレベルがシステム管理者から要求者に変更されます。
-
-  >[!IMPORTANT]
-  >
-  >製品プロファイル自体は変更しないでください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

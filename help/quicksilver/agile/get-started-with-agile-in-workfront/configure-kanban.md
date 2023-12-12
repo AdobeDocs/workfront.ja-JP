@@ -2,20 +2,34 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: かんばんの構成
-description: チームの作成中または作成後に、かんばんアジャイルチームに対して次のオプションを設定できます。
+description: かんばんまたはスクラムアジャイルチームは、 [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 0%
+source-wordcount: '1548'
+ht-degree: 1%
 
 ---
 
 # 設定 [!UICONTROL かんばん]
 
-チームの作成中または作成後に、アジャイルチームに対して次のオプションを設定できます。 でアジャイルチーム（かんばんまたはスクラム）を作成します。 [!DNL Adobe Workfront] の説明に従って、 [アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+でアジャイルチームを作成できます。 [!DNL Adobe Workfront] の説明に従って、 [アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). 機敏なチームを作成する際に、チームが作業を完了するために使用する方法を選択できます。 次のオプションから選択できます。
+
+* スクラム
+* カンバン
+
+この記事では、かんばんチームの設定を構成する方法について説明します。 アジャイルチームを作成し、かんばん手法を選択した後、この記事を参照して次の設定を更新できます。
+
+* ストーリーをポイント単位で推定するか、時間単位で推定するか
+* アジャイルストーリーボードのステータス列
+* アジャイルストーリーボード上のストーリーカードに表示する追加のフィールド
+* 進行中 (WIP) の制限
+* バックログからストーリーを自動的に追加する方法
+* かんばんボードにカードが残る期間
+
+Scrum チームの設定について詳しくは、 [スクラムの設定](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## アクセス要件
 
@@ -28,17 +42,19 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
+   <td> <p>新規： [!UICONTROL Standard]</p> 
+   または
+   <p>現在： [!UICONTROL Work] 以降</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+*お持ちのプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
 
 ## ストーリーをポイント単位または時間単位で見積もるかどうかを設定します
 
@@ -46,20 +62,20 @@ ht-degree: 0%
 
 ストーリーをアジャイルチームに対して評価する方法を設定するには：
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Workfront]を選択し、「 **[!UICONTROL チーム]**.
+{{step1-to-team}}
 
-1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコンをクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
+1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索ボックスでチームを検索します。
 1. 管理するアジャイルチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-menu.png) を選択し、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。\
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。\
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 **[!UICONTROL アジャイル]** セクション内の **[!UICONTROL でストーリーを推定]** 領域で、ストーリーのサイズ（作業負荷）の見積もりにポイントまたは時間を使用するかどうかを選択します。 [ ポイント ] を選択した場合は、1 ポイントに等しい時間数を指定します。 （デフォルトは 1 ポイント= 8 時間です）。 これは、ストーリーに追加される予定時間数です。
+1. Adobe Analytics の **[!UICONTROL アジャイル]** セクション内の **[!UICONTROL でストーリーを推定]** 領域で、ストーリーのサイズ（作業負荷）の見積もりにポイントまたは時間を使用するかどうかを選択します。 [ ポイント ] を選択した場合は、1 ポイントに等しい時間数を指定します。 （デフォルトは 1 ポイント= 8 時間です）。 これは、ストーリーに追加される予定時間数です。
 
    **例：** ストーリーをポイント単位で推定し、1 ポイントが 8 時間に等しく、ストーリーが 3 ポイントで推定される場合は、24 時間の予定時間がストーリーに追加されます。
 
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
 ## アジャイルストーリーボードのステータス列の設定
 
@@ -67,18 +83,18 @@ ht-degree: 0%
 
 アジャイルチームに関連付けられたストーリーボードで使用できるステータスを定義するには、次の手順を実行します。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!UICONTROL Workfront]を選択し、「 **[!UICONTROL チーム]**.
+{{step1-to-team}}
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 **[!UICONTROL アジャイル]** セクションで、 **[!UICONTROL ストーリーボード]** 領域
+1. Adobe Analytics の **[!UICONTROL アジャイル]** セクションで、 **[!UICONTROL ストーリーボード]** 領域。
 
 1. （オプション）「 **[!UICONTROL 列を追加]** をクリックして、ストーリーボードにステータス列を追加します。
 1. （オプション）ドラッグ&amp;ドロップのインジケーターを使用してステータス列をドラッグし、ストーリーボード上のステータス列を並べ替えます。 最初の列は移動できません。また、最初の列の前に別の列をドラッグすることはできません。
@@ -89,17 +105,17 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >選択できるのは、ロックされたシステム全体のステータスのみです。グループ固有のステータスは選択できません。 また、最初の列のステータスは、常に **[!UICONTROL 新規]**.
+   >選択できるのは、ロックされたシステム全体のステータスのみです。 グループ固有のステータスは選択できません。 最初の列のステータスは、常に **[!UICONTROL 新規]**.
 
-   カスタムステータスは、 [!DNL Workfront] 管理者が設定しました。カスタムステータスは、 [ステータスの作成または編集](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   カスタムステータスは、 [!DNL Workfront] 管理者が設定しました。 詳しくは、 [ステータスの作成または編集](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
-## アジャイルストーリーボードのストーリーカードに表示する追加のフィールドを設定します
+## アジャイルストーリーボード上のストーリーカードに表示する追加のフィールドを設定します
 
-フィールドをストーリーカードに追加すると、フィールドに値が入力されている場合、フィールドは表示のみと表示のみが切り替わります。
+ストーリーカードにフィールドを追加すると、フィールドは表示のみで、フィールドに値が入力された場合にのみ表示されます。
 
-デフォルトでは、タスクとイシューのストーリーカードには、次のタイプのデータが表示されます。
+デフォルトでは、次のタイプのデータがタスクおよびタスクのストーリーカードに表示されます。
 
 * タスクまたはイシューへの直接リンクを含むストーリー名
 * プロジェクトに直接リンクされたプロジェクト名
@@ -113,91 +129,98 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->ストーリーカードでカスタムフィールドを使用する場合、名前にピリオド/ドットを含めることはできません。
+>ストーリーカードでカスタムフィールドを使用する場合、名前にピリオド（ドット）を含めることはできません。
 
 アジャイルチームに割り当てられたストーリーカードを設定して、追加のフィールドを表示するには、次の手順を実行します。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Workfront]を選択し、「 **[!UICONTROL チーム]**.
+{{step1-to-team}}
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.\
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.\
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 **[!UICONTROL アジャイル]** 「 」セクションで、検索するフィールド名を入力します。
+1. Adobe Analytics の **[!UICONTROL アジャイル]** 「 」セクションで、検索するフィールド名を入力します。
 
    ![追加のフィールド](assets/agile-additional-fields-kanban.png)
 
 1. 追加するフィールドの名前を選択します。
-1. 次を入力します。 **[!UICONTROL 表示名]** をクリックします。
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 次を入力します。 **[!UICONTROL 表示名]** ストーリーまたはイシューカードに表示するフィールドの代わりに使用します。
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
 ## 進行中 (WIP) の制限を設定
 
-でのかんばん [!DNL Workfront] では、 [!UICONTROL 処理中] 列 [!UICONTROL かんばん] ボード。
+かんばんチームの WIP 限度を定義する場合、チームが現在作業中の品目の数を制御するには、カンバンチームに表示できるタスクの数を制限します [!UICONTROL 新規] または [!UICONTROL 処理中] 列 [!UICONTROL かんばん] ボード。
 
-WIP 制限が設定されている場合は、WIP 制限を表示したり、 [!UICONTROL かんばん] アジャイルストーリーボード ( [WIP の上限を管理 [!UICONTROL かんばん] ボード](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+かんばんチームに対して WIP 制限を設定した後、WIP 制限を表示し、次の場所から更新できます。 [!UICONTROL かんばん] アジャイルストーリーボード ( [WIP の上限に対する進行中の作業 (WIP) を管理 [!UICONTROL かんばん] ボード](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 カンバン・チームの WIP を制限する手順は、次のとおりです。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL チーム]**.
+{{step1-to-team}}
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するかんばんチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-menu.png)を選択し、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 **[!UICONTROL アジャイル]** セクション内の **[!UICONTROL 方法]** 「 」セクションで、かんばんが選択されていることを確認します。
+1. Adobe Analytics の **[!UICONTROL アジャイル]** セクション内の **[!UICONTROL 方法]** 「 」セクションで、かんばんが選択されていることを確認します。
 
-1. 内 **[!UICONTROL ストーリーボード]** セクション内の **[!UICONTROL 仕掛品の限度]** フィールドで、 [!UICONTROL かんばん] アジャイルストーリーボード。 各列に異なる制限を設定できます。 各列に設定できる最大値は 100 です。\
+1. Adobe Analytics の **[!UICONTROL ストーリーボード]** セクション内の **[!UICONTROL WIP 制限]** フィールドで、 [!UICONTROL かんばん] アジャイルストーリーボード。 各列に異なる制限を設定できます。 各列に設定できる最大値は 100 です。\
    設定すると、WIP 制限により、 [!UICONTROL かんばん] ストーリーボード上の任意の列の制限を超えたときは常に、アジャイルストーリーボードを使用できます。 この警告メッセージは、WIP の上限を初めて超えたときにのみ表示されます。 この警告メッセージは、ステータスがと等しい列には表示されません。 [!UICONTROL 完了].\
    WIP 制限は単に視覚的な警告であり、設定した制限よりも 1 つの列に複数の品目が含まれることをチームに制限するものではありません。
 
    ![WIP 制限](assets/wip-limit-350x193.png)
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
 
-## バックログから自動的に追加されるストーリーの設定
+## バックログからストーリーを自動的に追加する設定
+
+<!-- this functionality needs to be verified-->
 
 バックログのストーリーが [!UICONTROL かんばん] 項目がその列から移動された直後のボード。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL チーム]**.
+{{step1-to-team}}
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するかんばんチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-menu.png)を選択し、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 選択 **[!UICONTROL バックログから次のストーリーを自動的に追加]** ストーリーをバックログから [!UICONTROL かんばん] ストーリーボード。
+1. 選択 **[!UICONTROL バックログから次のストーリーを自動的に追加]** バックログから次の品目を自動的に **[!UICONTROL 新規]** 列 ( 項目が **[!UICONTROL 処理中]** 列。
 
-   これは、ストーリーがストーリーボード上の、完了ステータス（完了ステータス）を表す列に移動されたときに常に発生します。 バックログから追加された場合、最も優先度の高いストーリーがストーリーボードに追加されます。このオプションを選択すると、バックログから次のアイテムが自動的にストーリーに追加されます **[!UICONTROL 処理中]** 列 ( 項目が **[!UICONTROL 処理中]** 列。
+   ユーザーは、 **バックログを表示** の設定 [!UICONTROL かんばん] この機能が有効になるためのボード。 ユーザーが [!UICONTROL バックログを表示] の設定 [!UICONTROL かんばんボード]に設定されている場合、次の機能が実行されます。
 
-1. クリック **[!UICONTROL 変更を保存]**.
+   ストーリーが [!UICONTROL 処理中] ストーリーボードの柱に柱を作り、その柱は [!UICONTROL 完了] ステータス ( または [!UICONTROL 完了]) の場合、「バックログ」列のストーリーは、 [!UICONTROL 新規] 列 [!UICONTROL かんばんボード].
+バックログから追加すると、優先度が最も高いストーリーがストーリーボードに追加されます。
+
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
 ## カードが常に表示される時間の設定 [!UICONTROL かんばん] ボード
 
 完了したカードがに残る期間を選択できます [!UICONTROL かんばん] ボード。 次に該当するタスク [!UICONTROL かんばん] ボードは、元のプロジェクトで引き続きアクセスできます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL チーム]**.
+{{step1-to-team}}
 
 1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)」をクリックし、ドロップダウンメニューから新しいかんばんチームを選択するか、検索バーでチームを検索します。
 1. かんばんチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **Edit**.
+1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-menu.png) を選択し、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 **[!UICONTROL 完了したカードがかんばんボードに残る日数]** ドロップダウンメニューから、値を選択します。
-1. クリック **[!UICONTROL 変更を保存]**.
+1. Adobe Analytics の **[!UICONTROL 完了したカードがかんばんボードに残る日数]** ドロップダウンメニューから、値を選択します。
+
+   1 ～ 30 日の数値を選択できます。
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
