@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. **コーディネーター：** Workfront内で、 `Frame.io alpha testing` プロジェクトグループとして割り当てられたグループ。
 
-1. **コーディネーター：** Workfront内で、クリエイティブをプロジェクトに割り当てます。 <span class="preview">またはフレーム対応タスク</span> プロジェクトのステータスを「現在」に変更します。
+1. **コーディネーター：** Workfront内で、クリエイティブをプロジェクトに割り当てます。 <span class="preview">またはフレームが有効なタスク（サブタスクをフレームが有効になっているとマークすることはできません）</span> プロジェクトのステータスを「現在」に変更します。
 
 1. **クリエイティブ：** メールで、新しく作成した Frame.io プロジェクトへの招待を確認してください
 
@@ -60,6 +60,10 @@ ht-degree: 0%
 1. **クリエイティブ：** Frame.io 内で、接続されたアセットのバージョンスタックに更新されたバージョンを追加して、要求された変更を適用します。
 
 1. **コーディネーター：** Workfront内で、新しくアップロードされたバージョンに承認者/レビュー担当者を割り当て、サインオフになるまで進行状況を監視します。
+
+## 詳細なテストシナリオ
+
+追加機能のテストを検討している参加者向けに、より複雑なテストシナリオを作成しました。 この詳細なテストシナリオのガイドは、次の場所からダウンロードできます。 [WF + Frame.io 詳細なテストシナリオのチュートリアル](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## 機能プラン
 
