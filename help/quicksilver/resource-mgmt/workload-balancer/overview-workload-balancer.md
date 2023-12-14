@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: ワークロードバランサーの概要
-description: プロジェクトマネージャは、プロジェクトでの作業を計画し、タスクを作成した後、ワークロードバランサーを使用して、この作業をチーム内のユーザーに割り当てることができます。
-author: Alina
+description: プロジェクトマネージャは、タスクを作成してプロジェクトの作業を計画し、リソースマネージャがリソースプランナのプロジェクトにジョブロールリソースを割り当てた後、プロジェクト所有者とチームマネージャは、ワークロードバランサを使用して作業項目をユーザーに割り当てます。
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-プロジェクトマネージャは、プロジェクトでの作業を計画し、タスクを作成した後、ワークロードバランサーを使用してこの作業をユーザーに割り当てることができます。
+プロジェクトマネージャは、タスクを作成してプロジェクトの作業を計画し、リソースマネージャがリソースプランナのプロジェクトにジョブロールリソースを割り当てた後、プロジェクト所有者とチームマネージャは、ワークロードバランサを使用して作業項目をユーザーに割り当てます。
 
 >[!IMPORTANT]
 >
@@ -60,7 +60,7 @@ ht-degree: 0%
 
   詳しくは、 [ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  また、作業項目を一括で割り当てて、複数のプロジェクトに一度に大量の作業項目を配布しやすくすることもできます。 詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当てる](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  また、複数のプロジェクトにわたって、複数の作業項目を一度に多く配布しやすくする、作業項目を一括で割り当てることもできます。 詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当てる](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * 経営陣は、組織内の人々の活用方法に対する透明性を高め、タイムリーなスタッフの意思決定を行うことができます。
 * チームメンバーは、常に同僚が何に取り組んでいるかを見ることができるので、より良いコラボレーションのメリットを得ることができます。 ワークロード・バランサでリソースを表示または管理するために必要なアクセスの詳細は、 [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -92,15 +92,18 @@ ht-degree: 0%
 
   ワークロードバランサーでリソースのワークロードを管理するために必要なアクセスの詳細は、 [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-* 管理するワークロードのユーザーは、可用性とスキルに関する情報が正確になるように、次の基準を満たす必要があります。
+* ワークロードを管理するユーザーが、可用性とスキルに関する情報が正確になるように、次の基準を満たしている必要があります。
 
    * スケジュールとジョブの役割がプロファイルに関連付けられている。
-   * スケジュールおよびジョブロールのユーザーへの関連付けの詳細は、 [ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     スケジュールおよびジョブロールのユーザーへの関連付けの詳細は、 [ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * ユーザーがスケジュールに関連付けられていない場合、リソース管理のために、Workfrontシステムのデフォルトスケジュールがデフォルトでユーザーに関連付けられます。
-   * スケジュールの例外をスケジュール内で更新します。\
+   * スケジュールの例外をスケジュール内で更新します。
+
      スケジュールの作成について詳しくは、 [スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * プロファイルの「休暇」カレンダーを更新してもらう。\
+   * プロファイルの「休暇」カレンダーを更新してもらう。
+
      ユーザーのタイムオフカレンダーの更新について詳しくは、 [個人の休日を設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ ht-degree: 0%
      </div>   
      -->
 
-* Workfront管理者は、Workfrontによるユーザーの可用性の計算方法を決定する必要があります。 ユーザーは、Workfrontでシステムのデフォルトスケジュールを使用するか、ユーザーのスケジュールを使用して、ユーザーが作業できる時間を計算するかを決定できます。 詳しくは、 [リソース管理環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* Workfront管理者は、Workfrontによるユーザーの可用性の計算方法を決定する必要があります。 Workfrontが「システムのデフォルト」スケジュールを使用するか、ユーザーのスケジュールを使用して、Workfrontの「設定」領域で「リソース管理」環境設定を調整して、ユーザーが作業できる時間を計算するかを決定できます。
+
+  詳しくは、 [リソース管理環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### タスクと問題の設定に関するベストプラクティス {#best-practices-for-setting-up-tasks-and-issues}
 
 ワークロードバランサーでユーザーに作業を割り当てる前に、次のタスクと問題の設定が存在することを確認します。
 
-* 親タスクは、ユーザーや役割には割り当てられません。 ワークロードバランサーには表示されません。
+* 親タスクは、ユーザーや役割には割り当てられません。 ワークロードバランサーに親タスクが表示されません。
 * タスクとタスクには、計画時間の値が 0 より大きい値が設定されます。
 
 * タスクとタスクの期間には 0 より大きい値が設定されます。
@@ -124,16 +129,16 @@ ht-degree: 0%
 
 ## ワークロードバランサーの使用を開始する前に
 
-* ワークロードバランサーを使用して、組織内のユーザーに作業を割り当て、日次の割り当てを管理できます。
+* ワークロードバランサーの使用を開始する前に、次の記事を確認してください。
 
-  この記事では、次の操作を実行するために、ワークロードバランサーをナビゲートする方法について説明します。 [ワークロード・バランサのナビゲート](../workload-balancer/navigate-the-workload-balancer.md).
+   * この記事では、次の操作を実行するために、ワークロードバランサーをナビゲートする方法について説明します。 [ワークロード・バランサのナビゲート](../workload-balancer/navigate-the-workload-balancer.md).
 
-  次の記事では、作業の割り当て方法とユーザー割り当ての管理方法について説明します。
+   * 次の記事では、作業の割り当て方法とユーザー割り当ての管理方法について説明します。
 
-   * [ワークロードバランサーでの作業割り当ての概要](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [ワークロードバランサーでのユーザー割り当ての管理](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [ワークロードバランサーでの作業割り当ての概要](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [ワークロードバランサーでのユーザー割り当ての管理](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* ワークロードバランサーは、Workfrontの複数の異なる領域に配置できます。 ワークロード・バランサの場所の詳細は、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* ワークロードバランサーは、Workfrontの複数の異なる領域を見つけることができます。 ワークロード・バランサの場所の詳細は、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## ワークロードバランサーの使用に必要なアクセス
 

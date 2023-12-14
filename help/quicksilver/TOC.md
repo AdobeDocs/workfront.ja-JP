@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2e38fcf19d19b9ceabf2d7fe2c42cf9343b60067
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '13783'
+source-wordcount: '13788'
 ht-degree: 1%
 
 ---
@@ -395,7 +395,7 @@ ht-degree: 1%
    * [管理と設定：記事のインデックス](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
       * [管理の基礎知識：記事のインデックス](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-      * [実装の目標を定義する](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+      * [Adobe Workfront実装の目標定義の概要](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [ライセンスを管理](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [基本の設定](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [ファイアウォールの概要](administration-and-setup/get-started-wf-administration/firewall-overview.md)

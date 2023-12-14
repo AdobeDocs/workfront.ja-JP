@@ -7,10 +7,10 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 4%
+source-wordcount: '1210'
+ht-degree: 3%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 4%
 # アップデートセクションの概要
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 </span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
 
 >[!IMPORTANT]
 >
@@ -49,7 +56,7 @@ ht-degree: 4%
 
 オブジェクトの「更新」セクションには、システムの更新と、過去 90 日以内にユーザーが行った最新の更新のうち、最大 200 個が表示されます。
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
 
 どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次のような操作が表示されます。
 
@@ -89,7 +96,7 @@ ht-degree: 4%
 
 ### 新しいコメントエクスペリエンスの更新の節の概要
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 >[!NOTE]
 >
@@ -202,9 +209,6 @@ ht-degree: 4%
  </tbody> 
 </table>
 
-
-<br>
-
 >[!NOTE]
 >
 >システム更新に追加された返信は、親オブジェクトにロールアップされません。 子オブジェクトに対する直接応答と、既存の更新に追加された返信のみが、親オブジェクトにロールアップされます。
@@ -213,7 +217,6 @@ ht-degree: 4%
 >
 > 新しいコメントエクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## 更新の節の制限事項
 
@@ -232,7 +235,7 @@ ht-degree: 4%
    * ユーザー
    * タイムシート*
    * ストーリー
-   * イテレーション*
+   * 反復*
 
   *新しいコメントエクスペリエンスでは使用できません。
 

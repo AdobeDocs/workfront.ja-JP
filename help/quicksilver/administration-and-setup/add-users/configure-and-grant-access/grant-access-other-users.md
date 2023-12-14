@@ -5,12 +5,13 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d1fe7165932fb6f2aff3c8488bdb8e1dfae3b6d3
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 1%
+source-wordcount: '768'
+ht-degree: 0%
 
 ---
+
 
 # ユーザーへのアクセス権の付与
 
@@ -34,26 +35,26 @@ Adobe Workfront管理者は、Workfrontでユーザーの他のユーザーへ�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## ユーザーへのアクセスの設定
 
-ユーザーが表示および編集できる情報は、作成したデフォルトのアクセスレベルまたはカスタムアクセスレベルを使用して、他のユーザーに対して管理できます。 デフォルトのプランおよび作業用ライセンスを持つユーザーは、他のユーザーの連絡先情報を表示できます。 次のユーザーは、他のユーザーを作成および編集できます。
+ユーザーが表示および編集できる情報は、作成したデフォルトのアクセスレベルまたはカスタムアクセスレベルを使用して、他のユーザーに対して管理できます。 デフォルトのプランおよび作業用ライセンスを持つユーザーは、他のユーザーの連絡先情報を表示できます。 次のユーザーは誰でも、他のユーザーを作成および編集できます。
 
 * Workfront管理者。
 
-   詳しくは、 [ユーザーに完全な管理アクセス権を付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  詳しくは、 [ユーザーに完全な管理アクセス権を付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 * デフォルトのプランライセンスを持つユーザーで、この記事で説明するユーザーにもアクセスできます。
 
-   会社または主な会社のユーザーのみを表示するように制限されているユーザーは、表示できるユーザーのみを編集する権限を持っています。 詳しくは、 [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  会社または主な会社のユーザーのみを表示するように制限されているユーザーは、表示できるユーザーのみを編集する権限を持っています。 詳しくは、 [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * 別のユーザーの管理者として指定された、既定のプランライセンスを持つユーザー。
 
-   アクセスレベルでユーザーに対して「編集」アクセス権を付与されたユーザーは、自分に対してレポートを作成するユーザーを管理できます。 ユーザーの管理について詳しくは、 [組織図を表示](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  アクセスレベルでユーザーに対して「編集」アクセス権を付与されたユーザーは、自分に対してレポートを作成するユーザーを管理できます。 ユーザーの管理について詳しくは、 [組織図を表示](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 * ユーザを作成した既定のプランライセンスを持つユーザは、作成したユーザを非アクティブ化、削除、または編集できます。 新しいユーザーの作成について詳しくは、 [ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -64,7 +65,7 @@ Adobe Workfront管理者は、Workfrontでユーザーの他のユーザーへ�
 
    1. 歯車アイコンをクリックします。 ![](assets/gear-icon-settings.png) の **表示** 右のボタン **ユーザー**.
 
-   1. 無効にする **連絡先情報の表示**」、「 X 」の順にクリックして、 **設定を微調整する** ボックス
+   1. 無効にする **連絡先情報の表示**」、「 X 」の順にクリックして、 **設定を微調整する** ボックス。
 
 1. プランライセンスのアクセス権を持つユーザーの能力を変更して他のユーザーを編集するには、歯車アイコンをクリックします ![](assets/gear-icon-settings.png) の **編集** 右のボタン **ユーザー**&#x200B;を選択し、許可するアビリティを次の中から選択します。
 
@@ -75,18 +76,18 @@ Adobe Workfront管理者は、Workfrontでユーザーの他のユーザーへ�
      <tr> 
       <td role="rowheader"><strong>作成</strong> </td> 
       <td> <p>ユーザーがユーザーを作成できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> 
-      &lt;!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">この変更が行われていることを確認してから、これらの 2 つの注記の下書きを解除してください。 3/29では、req doc は、これが調査結果に依存すると述べています。</p>
+      &lt;!—
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">この変更が行われていることを確認してから、これら 2 つの注記の下書きを解除してください。 3/29では、req doc は、これが調査結果に依存すると述べています。</p>
 
-       &lt;p>&lt;b>注意&lt;/b>:組織がAdobe Admin Consoleにオンボーディングされている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。&lt;/p>
+       &lt;p>&lt;b>注意：&lt;/b>組織がAdobe Admin Consoleにオンボーディングされている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。&lt;/p>
        —>  &lt;/td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>削除</strong> </td> 
-      <td> <p> ユーザーが自分で作成したユーザーを削除できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> <p><b>注意</b>:組織がAdobe Admin Consoleにオンボーディングされている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。</p> </td> 
+      <td> <p> ユーザーが自分で作成したユーザーを削除できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> <p><b>注意</b>：組織がAdobe Admin Consoleにオンボーディングされている場合は、使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>ユーザー管理者 (すべてのユーザー)</strong> </td> 
+      <td role="rowheader"><strong>ユーザー管理者（すべてのユーザー）</strong> </td> 
       <td> <p>Workfrontの任意のユーザーに対して、次の操作を実行できます。</p> 
        <ul> 
         <li>ユーザーを編集、削除、または非アクティブ化する</li> 
@@ -95,12 +96,12 @@ Adobe Workfront管理者は、Workfrontでユーザーの他のユーザーへ�
        </ul> <p>このオプションはデフォルトでは無効になっています。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>ユーザー管理者 (グループ ユーザー)</strong> </td> 
+      <td role="rowheader"><strong>ユーザー管理者（グループユーザー）</strong> </td> 
       <td> <p>管理するグループ内のすべてのユーザーに対して、次の操作を実行できます。 
         <ul>
          <li><p>ユーザーを編集、削除、または非アクティブ化する</p></li>
          <li>ユーザーとしてログイン</li>
-         <li><p>ユーザーのパスワードをリセット</p><p><b>注意</b>:グループ管理者は、Workfront管理者のパスワードとしてログインしたり、リセットしたりすることはできません。</p></li>
+         <li><p>ユーザーのパスワードをリセット</p><p><b>注意</b>：グループ管理者は、Workfront管理者としてログインしたり、パスワードをリセットしたりすることはできません。</p></li>
         </ul><p>このオプションはデフォルトでは無効になっています。</p></p> </td> 
      </tr> 
     </tbody> 
@@ -110,7 +111,7 @@ Adobe Workfront管理者は、Workfrontでユーザーの他のユーザーへ�
    >
    >グループ管理者に、管理するグループのすべてのメンバーへのアクセス権を付与しない場合は、上記の「ユーザー管理者」オプションを両方とも無効にします。 グループ管理者は、引き続き、Workfrontに追加したグループメンバーや、Workfrontでレポートするグループメンバーにアクセスできます。
 
-1. （オプション）作業中のアクセスレベルの他のオブジェクトや領域のアクセス設定を構成するには、 [Adobe Workfrontへのアクセスの設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)例： [タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) および [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. （オプション）作業中のアクセスレベルの他のオブジェクトや領域のアクセス設定を構成するには、 [Adobe Workfrontへのアクセスの設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)、例： [タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) および [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. 完了したら、「 **保存**.
 
 ## ライセンスタイプ別のユーザーへのアクセス

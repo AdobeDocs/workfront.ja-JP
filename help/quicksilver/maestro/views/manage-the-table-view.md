@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -137,36 +137,44 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* 「名前」フィールドは、常にテーブル表示の最初のフィールドです。
-   >
-   >* [ 名前 ] フィールドを別の位置に移動することはできません。
-   >
-   >* 「名前」フィールドを非表示にすることはできません。
-   >
-   >* 「名前」フィールドは固定され、水平スクロールの一部ではありません。
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* 「名前」フィールドは、常にテーブル表示の最初のフィールドです。
+     >
+     >* [ 名前 ] フィールドを別の位置に移動することはできません。
+     >
+     >* 「名前」フィールドを非表示にすることはできません。
+     >
+     >* 「名前」フィールドは固定され、水平スクロールの一部ではありません。
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * 最初の列のフィールドを別のフィールドに置き換えるには、主フィールドを変更します。 詳細については、手順 4 に進んでください。 <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. （オプション）テーブルの最初の列に表示されないフィールドの列見出しのフィールド名の上にマウスポインターを置き、フィールド名の右側にある下向き矢印をクリックして、 **プライマリフィールドとして設定**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. クリック **フィールドを設定** をクリックして確定します。
+
+   フィールドは、テーブル表示の最初の列として表示されるプライマリフィールドになります。 前の主フィールドは、2 番目の列に移動します。
+
+   >[!NOTE]
+   >
+   >   * 主フィールドとして指定できるのは、次のタイプのフィールドのみです。
+   >
+   >       * 1 行テキスト
+   >       * 数値
+   >       * 数式
+   >
+   >         数式フィールドは、後日リリースされます。
+   >
+   >   * 主フィールドは常にフリーズし、移動できません。 別の位置に移動する必要がある場合は、別のフィールドを選択してプライマリフィールドを置き換えることができます。
+   >
+   >   * テーブルビューの主フィールドを変更すると、その主フィールドを選択する他のすべてのユーザーのビューに影響します。
+   >
+   >   * テーブルビューの主フィールドを変更すると、すべてのテーブルビューに影響します。
+   >
+   >   * プライマリフィールドを削除したり、非表示にすることはできません。
 
 1. 列の分離線をクリックしてドラッグし、目的の場所にドロップして、列の幅を広げます。
 
@@ -312,7 +320,7 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
             <p>が次に等しくない</p>
             <p>が次の後にある</p>
             <p>が次の前にある</p>
-            <p>が次の範囲である</p><p>が次の範囲ではない :</p>
+            <p>が次の範囲である</p><p>が次の範囲ではない</p>
             <p>が空である</p><p>が空ではない</p></td>
         </tr>
 

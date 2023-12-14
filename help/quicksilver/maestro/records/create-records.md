@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 
 * Maestro レコードタイプ用に手動で作成する
 * これらを、サードパーティのアプリケーションから Maestro レコードに接続します。
+* 外部リストから情報をコピー&amp;ペーストして、レコードを作成します。
+
+この記事では、Maestro レコードを作成する方法について説明します。 テーブルまたはタイムラインビューのレコードの管理について詳しくは、次の記事を参照してください。
+
+* [テーブル表示の管理](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [タイムライン表示を管理](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## アクセス要件
 
@@ -183,7 +189,7 @@ After permssions - replace the table with:
 
 ## 別のアプリケーションからレコードを接続してレコードを作成する
 
-レコードを Maestro のリンクされたレコードにリンクすることで、他のアプリケーションからレコードを読み込むことができます。
+レコードを Maestro のリンクされたレコードにリンクすることで、他のアプリケーションからレコードを読み込むことができます。 これにより、サードパーティアプリケーション接続オブジェクトの Maestro レコードタイプが作成されます。 元の Maestro レコードに接続するレコードは、サードパーティアプリケーション接続オブジェクトの Maestro レコードタイプのテーブルビューに表示されます。
 
 1. Maestro レコードタイプを作成します ( [レコードタイプの作成](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ After permssions - replace the table with:
 
      たとえば、Maestro レコードタイプをWorkfrontプロジェクトに接続する場合、同じワークスペースに「Workfrontプロジェクト」という読み取り専用のレコードタイプが作成されます。
    * サードパーティのレコードタイプページの読み取り専用レコード。 サードパーティアプリケーションから読み込まれたレコードは読み取り専用のままで、元のアプリケーションでのみ更新できます。
-
 
 ## 外部リストから情報をコピー&amp;ペーストしてレコードを作成する
 

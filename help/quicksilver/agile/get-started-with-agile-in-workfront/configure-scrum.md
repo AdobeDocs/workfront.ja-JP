@@ -6,16 +6,29 @@ description: チームの作成中または作成後に、Scrum agile チーム�
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 7fc6230643d0a24c3b483df8165294ceca6dcce7
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
 
 # 設定 [!UICONTROL スクラム]
 
-チームの作成中または作成後に、アジャイルチームに対して次のオプションを設定できます。 でアジャイルチーム（かんばんまたはスクラム）を作成します。 [!DNL Adobe Workfront] の説明に従って、 [アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+でアジャイルチームを作成できます。 [!DNL Adobe Workfront] の説明に従って、 [アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). 機敏なチームを作成する際に、チームが作業を完了するために使用する方法を選択できます。 次のオプションから選択できます。
+
+* スクラム
+* カンバン
+
+この記事では、スクラムチームの設定を行う方法について説明します。 アジャイルチームを作成し、スクラム手法を選択した後、この記事を参照して、次の設定を更新できます。
+
+* ストーリーをポイント単位で推定するか、時間単位で推定するか
+* 繰り返しとプロジェクトのアジャイルストーリーボードのステータス列
+* アジャイルストーリーボード上のストーリーカードに表示する追加のフィールド
+* アジャイルストーリーボード上のストーリーにカラーインジケーターを使用する方法
+* 作業項目を反復に追加する際の日付の適用方法
+
+かんばんチームの構成の詳細は、「 [かんばんの構成](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ## アクセス要件
 
@@ -28,17 +41,26 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td> <p>新規： [!UICONTROL Standard]</p> 
+   または
+   <p>現在： [!UICONTROL Work] 以降</p> </td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>チームへのアクセスを編集</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+*お持ちのプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
 
 ## ストーリーをポイント単位または時間単位で見積もるかどうかを設定します
 
@@ -50,16 +72,16 @@ ht-degree: 0%
 
 ストーリーをアジャイルチームに対して評価する方法を設定するには：
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!UICONTROL Workfront]を選択し、「 **[!UICONTROL チーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!UICONTROL Workfront]を選択し、次に **[!UICONTROL チーム]**.
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコンをクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 1. 管理するアジャイルチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。\
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。\
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 **[!UICONTROL アジャイル]** セクション内の **[!UICONTROL でストーリーを推定]** 領域で、ストーリーのサイズ（作業負荷）の見積もりにポイントまたは時間を使用するかどうかを選択します。 [ ポイント ] を選択した場合は、1 ポイントに等しい時間数を指定します。 （デフォルトは 1 ポイント= 8 時間です）。 これは、ストーリーに追加される予定時間数です。
+1. Adobe Analytics の **[!UICONTROL アジャイル]** セクション内の **[!UICONTROL でストーリーを推定]** 領域で、ストーリーのサイズ（作業負荷）の見積もりにポイントまたは時間を使用するかどうかを選択します。 [ ポイント ] を選択した場合は、1 ポイントに等しい時間数を指定します。 （デフォルトは 1 ポイント= 8 時間です）。 これは、ストーリーに追加される予定時間数です。
 
    **例：** ストーリーをポイント単位で推定し、1 ポイントが 8 時間に等しく、ストーリーが 3 ポイントで推定される場合は、24 時間の予定時間がストーリーに追加されます。
 
@@ -78,18 +100,18 @@ ht-degree: 0%
 
 アジャイルチームに関連付けられたストーリーボードで使用できるステータスを定義するには、次の手順を実行します。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Workfront]を選択し、「 **[!UICONTROL チーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Workfront]を選択し、次に **[!UICONTROL チーム]**.
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 **[!UICONTROL アジャイル]** セクションで、 **[!UICONTROL ストーリーボード]** 領域
+1. Adobe Analytics の **[!UICONTROL アジャイル]** セクションで、 **[!UICONTROL ストーリーボード]** 領域。
 
 1. （オプション）「 **[!UICONTROL 列を追加]** をクリックして、ストーリーボードにステータス列を追加します。
 1. （オプション）ドラッグ&amp;ドロップのインジケーターを使用してステータス列をドラッグし、ストーリーボード上のステータス列を並べ替えます。 最初の列は移動できません。また、最初の列の前に別の列をドラッグすることはできません。
@@ -100,13 +122,13 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >選択できるのは、ロックされたシステム全体のステータスのみです。グループ固有のステータスは選択できません。 また、最初の列のステータスは、常に **[!UICONTROL 新規]**.
+   >ロックされたシステム全体のステータスのみを選択できます。グループ固有のステータスは選択できません。 また、最初の列のステータスは、常に **[!UICONTROL 新規]**.
 
    カスタムステータスは、 [!DNL Workfront] 管理者が設定しました。カスタムステータスは、 [ステータスの作成または編集](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
    >[!NOTE]
    >
-   >問題のステータスを選択する場合、3 番目の列は常にデフォルトでになります。 [!UICONTROL クローズ]. 列が 3 つ以上ある場合は、適切なステータスを反映するように、手動で列を更新してください。
+   >問題のステータスを選択する場合、3 番目の列は常にデフォルトでになります。 [!UICONTROL 閉じる]. 列が 3 つ以上ある場合は、適切なステータスを反映するように、手動で列を更新してください。
 
 1. クリック **[!UICONTROL 変更を保存]**.
 
@@ -114,7 +136,7 @@ ht-degree: 0%
 
 プロジェクトのステータス列を設定する方法については、「 [の作成またはカスタマイズ [!UICONTROL アジャイル] 表示](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) 記事内 [でビューを作成または編集 [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## アジャイルストーリーボードのストーリーカードに表示する追加のフィールドを設定します
+## アジャイルストーリーボード上のストーリーカードに表示する追加のフィールドを設定します
 
 フィールドをストーリーカードに追加すると、フィールドに値が入力されている場合、フィールドは表示のみと表示のみが切り替わります。
 
@@ -136,22 +158,22 @@ ht-degree: 0%
 
 アジャイルチームに割り当てられたストーリーカードを設定して、追加のフィールドを表示するには、次の手順を実行します。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!UICONTROL Workfront]を選択し、「 **[!UICONTROL チーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!UICONTROL Workfront]を選択し、次に **[!UICONTROL チーム]**.
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.\
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.\
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 **[!UICONTROL アジャイル]** 「 」セクションで、検索するフィールド名を入力します。
+1. Adobe Analytics の **[!UICONTROL アジャイル]** 「 」セクションで、検索するフィールド名を入力します。
 
    ![追加のフィールド](assets/agile-additional-fields-scrum.png)
 
 1. 追加するフィールドの名前を選択します。
-1. 次を入力します。 **[!UICONTROL 表示名]** をクリックします。
+1. 次を入力します。 **[!UICONTROL 表示名]** ストーリーまたはイシューカードに表示するフィールドの代わりに使用します。
 1. クリック **[!UICONTROL 変更を保存]**.
 
 ## アジャイルストーリーボード上のストーリーに対してカラーインジケーターを使用する方法を設定する
@@ -160,29 +182,29 @@ ht-degree: 0%
 
 アジャイルチームのストーリーに色を割り当てる方法の動作を変更するには、次の手順を実行します。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Workfront]を選択し、「 **[!UICONTROL チーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Workfront]を選択し、次に **[!UICONTROL チーム]**.
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.
+1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
-1. 内 [!UICONTROL アジャイル] セクション内の [!UICONTROL カードの色の関連付け先] 「 」領域で、次のオプションから選択します。
+1. Adobe Analytics の [!UICONTROL アジャイル] セクション内の [!UICONTROL カードの色の関連付け先] 「 」領域で、次のオプションから選択します。
 
-   * **[!UICONTROL プロジェクト]**:色は、ストーリーが結び付けられているプロジェクトに関連付けられます。 ( ストーリーを作成する場合は、 [俊敏なストーリーを作成](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). 同じプロジェクトのすべてのタスクが同じ色で表示されます。
-   * **[!UICONTROL フリーフォーム]**:ユーザーが手動で色を変更するまで、すべてのカードはデフォルトで青色で表示されます。詳しくは、 [[!UICONTROL ストーリーを色別に分類する] スクラムボード上](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
-   * **[!UICONTROL 優先度]**:色は、次のようにストーリーの優先度に関連付けられます。
+   * **[!UICONTROL プロジェクト]**：ストーリーが結び付けられるプロジェクトに色が関連付けられます。 ( ストーリーを作成する場合は、プロジェクトに関連付ける必要があります。詳しくは、 [俊敏なストーリーを作成](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). 同じプロジェクトのすべてのタスクが同じ色で表示されます。
+   * **[!UICONTROL フリーフォーム]**：ユーザーが手動で色を変更するまで、すべてのカードはデフォルトで青色で表示されます。詳しくは、 [[!UICONTROL ストーリーを色別に分類する] スクラムボード上](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **[!UICONTROL 優先度]**：色は、次のように、ストーリーの優先度に関連付けられます。
 
       * 高=赤
       * 中=黄
       * 低=緑\
 
-         システム管理者が、 [!DNL Workfront] システムの優先順位が最も高いのは赤、2 番目に高いのは黄、3 番目に高いのは緑です。
-   * **[!UICONTROL タスク所有者]**:同じ主な担当者を持つすべてのストーリーは同じ色です。 主な担当者は、最初にタスクに割り当てられたユーザーです。
+        システム管理者がお客様の [!DNL Workfront] システムの優先順位が最も高いのは赤、2 番目に高いのは黄、3 番目に高いのは緑です。
+   * **[!UICONTROL タスク所有者]**：主な担当者が同じストーリーはすべて同じ色です。 主な担当者は、最初にタスクに割り当てられたユーザーです。
 
 
 1. クリック **[!UICONTROL 変更を保存]**.
@@ -191,16 +213,16 @@ ht-degree: 0%
 
 デフォルトでは、スクラムイテレーションに作業項目を追加すると、作業項目の「計画開始日」と「計画完了日」が、イテレーションの開始日と終了日に合わせて変更されます。 チームのすべての作業項目に元の日付を保持するように選択できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL チーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL チーム]**.
 1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.\
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
-1. 内 [!UICONTROL アジャイル] セクション内の [!UICONTROL 作業項目がイテレーションに追加された場合] 「 」領域で、次のオプションから選択します。
+1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.\
+   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+1. Adobe Analytics の [!UICONTROL アジャイル] セクション内の [!UICONTROL 作業項目がイテレーションに追加された場合] 「 」領域で、次のオプションから選択します。
 
-   * **[!UICONTROL 「計画開始日」と「計画完了日」を、イテレーションの開始日と終了日に合わせて変更します。]**:作業項目がイテレーションに追加されると、作業項目の日付がイテレーションの日付に変更されます。\
+   * **[!UICONTROL 「計画開始日」と「計画完了日」を、イテレーションの開始日と終了日に合わせて変更します。]**：作業項目が 1 回の繰り返しに追加されると、作業項目の日付が繰り返しの日付に変更されます。\
 
-      日付の変更方法について詳しくは、 [ストーリーを追加するとタスクの日付に与える影響を理解する](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) 記事内 [既存の反復にストーリーを追加する](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
-   * **[!UICONTROL 「計画開始日」と「計画完了日」を、イテレーションの開始日と終了日に合わせて変更しないでください]**:作業項目を 1 つのイテレーションに追加すると、作業項目は元の日付を保持します。
+     日付の変更方法について詳しくは、「 [ストーリーを追加するとタスクの日付に与える影響を理解する](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) 記事内 [既存の反復にストーリーを追加する](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   * **[!UICONTROL 「計画開始日」と「計画完了日」を、イテレーションの開始日と終了日に合わせて変更しないでください]**：作業項目を 1 つの繰り返しに追加すると、作業項目は元の日付を保持します。
 
    日付オプションを変更した場合、既に反復処理に含まれている作業項目の日付は調整されません。
 

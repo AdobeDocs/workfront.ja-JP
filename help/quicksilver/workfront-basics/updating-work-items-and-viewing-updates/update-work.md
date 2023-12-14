@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4163'
 ht-degree: 1%
 
 ---
@@ -409,9 +409,8 @@ drafted for P&P release:
 
 1. （オプション）更新に画像を添付するには、次のいずれかの操作を行います。
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
+   * <span class="preview">コンピューター上に画像を保存し、新しいコメント領域にドラッグ&amp;ドロップします。</span>
+     <span class="preview">実稼動環境では、新しいコメント作成機能には使用できません。 実稼動環境では、画像をコメントにドラッグ&amp;ドロップする操作が従来のコメント操作で使用できます。 </span>
 
    * <span class="preview">お使いのコンピューターからスクリーンショットをコピーし、コメントに貼り付けます。 </span>
    * 次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) お使いのコンピューター上の画像を参照します。
@@ -431,6 +430,11 @@ drafted for P&P release:
    >* コメントに添付された画像を「ドキュメント」領域から削除すると、その画像はコメントからも削除されます。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. （オプション）既存の更新で画像を表示するには、次のいずれかの操作をおこないます。
+
+   * 次をクリック： **プレビュー** アイコン <span class="preview">![](assets/previewimageicon-31x31.png)</span> 画像のサムネールで、フルサイズの画像を新しいブラウザータブで開きます。
+   * 次をクリック： **ダウンロード** アイコン ![](assets/downloadimageicon.png) を画像のサムネールにドラッグして、画像をダウンロードします。
 
 1. クリック **送信** コメントを追加します。
 

@@ -6,9 +6,9 @@ description: かんばんまたはスクラムアジャイルチームは、 [!D
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1476'
 ht-degree: 1%
 
 ---
@@ -42,16 +42,23 @@ Scrum チームの設定について詳しくは、 [スクラムの設定](../g
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
    <td> <p>新規： [!UICONTROL Standard]</p> 
    または
    <p>現在： [!UICONTROL Work] 以降</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>チームへのアクセスを編集</p>  </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *お持ちのプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
@@ -68,7 +75,6 @@ Scrum チームの設定について詳しくは、 [スクラムの設定](../g
 1. 管理するアジャイルチームを選択します。
 1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-menu.png) を選択し、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。\
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
 1. Adobe Analytics の **[!UICONTROL アジャイル]** セクション内の **[!UICONTROL でストーリーを推定]** 領域で、ストーリーのサイズ（作業負荷）の見積もりにポイントまたは時間を使用するかどうかを選択します。 [ ポイント ] を選択した場合は、1 ポイントに等しい時間数を指定します。 （デフォルトは 1 ポイント= 8 時間です）。 これは、ストーリーに追加される予定時間数です。
@@ -89,8 +95,6 @@ Scrum チームの設定について詳しくは、 [スクラムの設定](../g
 
 1. 管理するアジャイルチームを選択します。
 1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.
-
-   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
@@ -139,7 +143,6 @@ Scrum チームの設定について詳しくは、 [スクラムの設定](../g
 
 1. 管理するアジャイルチームを選択します。
 1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.\
-   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
@@ -166,8 +169,6 @@ Scrum チームの設定について詳しくは、 [スクラムの設定](../g
 1. 管理するかんばんチームを選択します。
 1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-menu.png)を選択し、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
-
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
 1. Adobe Analytics の **[!UICONTROL アジャイル]** セクション内の **[!UICONTROL 方法]** 「 」セクションで、かんばんが選択されていることを確認します。
@@ -193,8 +194,6 @@ Scrum チームの設定について詳しくは、 [スクラムの設定](../g
 1. 管理するかんばんチームを選択します。
 1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-menu.png)を選択し、「 **[!UICONTROL 編集]**.
 
-   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
-
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
 1. 選択 **[!UICONTROL バックログから次のストーリーを自動的に追加]** バックログから次の品目を自動的に **[!UICONTROL 新規]** 列 ( 項目が **[!UICONTROL 処理中]** 列。
@@ -215,8 +214,6 @@ Scrum チームの設定について詳しくは、 [スクラムの設定](../g
 1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)」をクリックし、ドロップダウンメニューから新しいかんばんチームを選択するか、検索バーでチームを検索します。
 1. かんばんチームを選択します。
 1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-menu.png) を選択し、「 **[!UICONTROL 編集]**.
-
-   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 

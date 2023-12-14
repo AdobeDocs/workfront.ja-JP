@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,40 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
+## 2023 年 12 月 18 日の週
+
+### レコードタイプのテーブルビューの主フィールドを更新する
+
+プレビューおよび実稼動： 2023 年 12 月 14 日
+
+これで、Maestro テーブルビューの最初の列に表示するフィールドを選択できます。 このフィールドは、現在は、プライマリフィールドと呼ばれています。
+
+この機能強化の前は、レコードの [ 名前 ] フィールドは常にテーブルビューの最初の列に表示され、別の位置に配置できませんでした。
+
+この改善点から、次の点に注意してください。
+
+* 「名前」(Name) 列またはフィールドは、デフォルトでは、テーブルの最初の列です。
+
+* 次のタイプの任意のフィールドを主フィールドとして選択し、最初の列の「名前」フィールドを置き換えることができます。
+
+   * 1 行テキスト
+
+   * 数値
+
+   * 数式
+
+     >[!NOTE]
+     >
+     >数式タイプのフィールドは、後日リリースされます。
+
+* テーブルビューの主フィールドは常に固定され、別のフィールドを主フィールドとして設定しない限り、移動できません。
+
+* 主フィールドは、主列以外のヘッダーから変更できます。
+
+* レコードタイプのすべてのテーブルビューに、選択した主フィールドが同じです。
+
+詳しくは、 [テーブルビューを管理](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
 ## 2023 年 12 月 4 日の週
 
 ### 人物タイプとリンクされたレコードフィールドの Maestro テーブルビューで、あるフィールドから別のフィールドに情報をコピーして貼り付けます
@@ -71,7 +105,7 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 
 Maestro レコードタイプのテーブルビューで、あるフィールドから同じタイプの別のフィールドに情報をコピーして貼り付けることができるようになりました。 この機能は、次のタイプのフィールドでサポートされるようになりました。
 
-* ユーザー
+* 人物
 * リンクされたレコードフィールド
 
 次の点に注意してください。
@@ -102,7 +136,7 @@ Maestro レコードタイプのテーブルビューで、あるフィールド
 
 * 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。
 
-   * ユーザー
+   * 人物
 
    * システムフィールド
 
