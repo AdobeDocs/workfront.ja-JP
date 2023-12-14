@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,47 @@ ht-degree: 0%
 
 ## Adobe Workfrontの機能強化
 
+* [管理者の機能強化](#administrator-enhancements)
 * [ドキュメント管理の機能強化](#document-management-enhancements)
 * [統合の強化](#integration-enhancements)
 * [ストリームと通知の機能強化の更新](#update-stream-and-notification-enhancements)
+
+### 管理者の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">配達確認/ドキュメントの決定を過去 12 か月間使用可能に</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 ヶ月の決定数が表示されるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 12 月 14 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### ドキュメント管理の機能強化
 
@@ -59,7 +97,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント承認用に更新されたステータス</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント承認用に更新されたステータス</a></p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -132,7 +170,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">作業クイックアクションボタンがマウスオーバー時にのみ表示されるように変更されました</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>パフォーマンスを向上させるために、作業ウィジェットで使用できるクイックアクションボタンは、作業項目をマウスで移動したときにのみ表示されるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">作業クイックアクションボタンがマウスオーバー時にのみ表示されるように変更されました</a></p><p>[!BADGE In production ]{type=Informative}</p><p>パフォーマンスを向上させるために、作業ウィジェットで使用できるクイックアクションボタンは、作業項目をマウスで移動したときにのみ表示されるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -215,7 +253,25 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメント作成エクスペリエンスでは、プロジェクト、タスク、問題、ドキュメントに関するすべての情報が取り込まれます</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>プロジェクト、タスク、問題およびドキュメントは、Workfrontインスタンスが開始されてから、新しいコメント作成エクスペリエンス領域にすべての更新内容を表示します。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションで、コメントに画像をドラッグ&amp;ドロップします</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>コメントの内容を拡張するために、オブジェクトの「更新」セクションで、コメントや返信内の画像をすばやくドラッグ&amp;ドロップできるようになりました。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 12 月 14 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメント作成エクスペリエンスでは、プロジェクト、タスク、問題、ドキュメントに関するすべての情報が取り込まれます</a></p><p>[!BADGE In production ]{type=Informative}</p><p>プロジェクト、タスク、問題およびドキュメントは、Workfrontインスタンスが開始されてから、新しいコメント作成エクスペリエンス領域にすべての更新内容を表示します。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -223,14 +279,14 @@ ht-degree: 0%
                                 <p>プレビューリリース： 2023 年 11 月 29 日</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動環境：2023 年 11 月 28 日</p>
+                                <p><span class="preview">すべてのお客様向けの実稼動環境：2023 年 11 月 28 日</span></p>
                             </li>
                         </ul>
                     </td>
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントまたはユーザーを検索します。</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>オブジェクトの「更新」セクションの情報をすばやく見つけるために、コメントまたはコメントに関連付けられた任意のユーザーからキーワードを検索できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントまたはユーザーを検索します。</a></p><p>オブジェクトの「更新」セクションの情報をすばやく見つけるために、コメントまたはコメントに関連付けられた任意のユーザーからキーワードを検索できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -248,7 +304,7 @@ ht-degree: 0%
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションのコメントに画像をコピーして貼り付けます</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>メッセージの内容に対するコンテキストを提供するために、コンピューターから画像をコピーして新しい更新または返信に貼り付けることで、コメントに画像をすばやく添付できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションのコメントに画像をコピーして貼り付けます</a></p><p>メッセージの内容に対するコンテキストを提供するために、コンピューターから画像をコピーして新しい更新または返信に貼り付けることで、コメントに画像をすばやく添付できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
