@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
+source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 アルファが機能する方法と参加する方法について詳しくは、 [Adobe Workfrontと Frame.io の統合アルファ：概要](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
-
 >[!NOTE]
 >
 >このアルファプログラムに参加していない会社でこれらのページに遭遇した場合は、こちらの情報を慎重に扱い、詳しくはWorkfrontまたは Frame.io 管理者にお問い合わせください。
+>
 
 ## 基本的なテストシナリオ
 
@@ -32,30 +32,32 @@ ht-degree: 0%
 
 この機能をテストするには、Workfront Preview または Sandbox インスタンスにログインし、次の手順を実行してください。
 
->[!NOTE]
->
-><span class="preview">ハイライト表示されたテキスト</span> 以下は、まだテスト用に実装されていないが、今後のリリースに含まれる機能を指します。
->
-
 1. **コーディネーター：** Workfront内で、 `Frame.io alpha testing` プロジェクトグループとして割り当てられたグループ。
 
-1. **コーディネーター：** Workfront内で、クリエイティブをプロジェクトに割り当てます。 <span class="preview">またはフレームが有効なタスク（サブタスクをフレームが有効になっているとマークすることはできません）</span> プロジェクトのステータスを「現在」に変更します。
+1. **コーディネーター：** Workfront内で、クリエイティブ作業が必要なタスクをフレーム対応として（タスクの詳細で）マークし、クリエイティブをそのタスクに割り当てます（ワークフロー全体をテストする場合は自分も割り当てます）。
+
+>[!NOTE]
+>
+>サブタスクは、フレーム有効としてマークできません。
+>
+
+1. **コーディネーター：** クリエイティブの概要をアップロードし、プロジェクトのステータスを「現在」に変更します。
 
 1. **クリエイティブ：** メールで、新しく作成した Frame.io プロジェクトへの招待を確認してください
 
 1. **クリエイティブ：** 招待メール内の「プロジェクトに参加」ボタンをクリックして Frame.io プロジェクトに参加し、プロジェクト内のクリエイティブの概要を確認し、選択したCreative Cloudツール内でコンテンツの作成を開始します。
 
-1. **クリエイティブ：** 作成したアセットを Frame.io にアップロードし、リンクされたWorkfrontプロジェクトに追加します。 <span class="preview">（またはフレームが有効なタスクを割り当てました）。</span>
+1. **クリエイティブ：** 作成したアセットを Frame.io にアップロードし、割り当てられたフレーム対応タスクの 1 つを選択して、リンクされたWorkfrontプロジェクトに追加します。 タスクを完了としてマークするには、このオプションを選択します。
 
-1. **コーディネーター：** Workfront内で、プロジェクト内でリンクされた Frame.io アセットを見つけ、レビュー担当者/承認者を割り当てます ( レビュー/承認者の割り当てについて詳しくは、 [ドキュメントに追加の承認者またはレビュー担当者を追加する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)) をクリックします。
+1. **コーディネーター：** Workfront内で、フレーム対応タスク内で、リンクされた Frame.io アセットを見つけ、タスクのステータスが「完了」に変更されたことを確認します。
 
-1. **関係者：** Workfront内で、承認リクエストをホームまたはドキュメントの詳細で表示し、Frame.io ビューアで Frame に接続されたドキュメントを確認し、フィードバックを含むコメントを残します。
+1. **コーディネーター：** リンクされた Frame.io アセットにレビュー担当者または承認者を割り当てます。 ワークフロー全体をテストする場合は、自分に承認者を割り当てます。 ( レビュー/承認者の割り当てについて詳しくは、 [ドキュメントに追加の承認者またはレビュー担当者を追加する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)) をクリックします。
 
-1. <span class="preview">**コーディネーター：** Workfront内で、Frame.io 接続ドキュメントの「更新」セクションに、関係者が作成したコメントを表示します。</span>
+1. **関係者：** Workfront内で、承認リクエストをホーム、ドキュメントの詳細、または受け取った電子メール通知で表示します。 Frame.io Viewer でアセットを開き、フィードバックを含むコメントを残して、決定を下します。
 
-1. <span class="preview">**関係者：** Frame.io ビューア内で決定を行います。</span>
+1. **コーディネーター：** Workfront内で、Frame.io 接続ドキュメントの「更新」セクション内に関係者が作成したコメントと、「承認」セクションまたはドキュメント概要ウィンドウ内の決定を表示します。
 
-1. <span class="preview">**クリエイティブ：** Frame.io 内では、アセットに対する全体的な承認の決定に注目します。</span>
+1. **クリエイティブ：** Frame.io 内では、アセットに対する全体的な承認の決定に注目します。
 
 1. **クリエイティブ：** Frame.io 内で、接続されたアセットのバージョンスタックに更新されたバージョンを追加して、要求された変更を適用します。
 
@@ -71,17 +73,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-><span class="preview">ハイライト表示されたテキスト</span> 以下は、まだ実装されていないが、今後のリリースに含まれる機能を指します。
->
 >下の箇条書き **「今後のリリースでの潜在的な改善点」** アルファフィードバックや進化する開発計画に応じて、ヘッダーは将来のリリースに含まれる場合と含まれない場合があります。
 >
 
-
 ### Workfrontの管理者は、Workfrontグループと Frame.io アカウント間の接続を設定できます
 
-* <span class="preview">Workfront内で、Workfrontグループを Frame.io アカウントに接続できます</span>
+* Workfront内で、Workfrontグループを Frame.io アカウントに接続できます
 
-* 新しい Frame.io チームが Frame.io 内に作成され、接続されているWorkfrontグループを表します。
+* 新しい Frame.io チームが Frame.io 内に接続されたWorkfrontグループを表すように作成されます（この機能は、実稼動環境で統合を使用するお客様に対してのみ有効になっていることに注意してください）。 サンドボックスまたはプレビューでまだテストをおこなっているお客様は、接続チームがAdobeを設定します )。
 
 **今後のリリースでの潜在的な改善点：**
 
@@ -93,19 +92,17 @@ ht-degree: 0%
 
 * Frame 接続グループを割り当てることで、Workfrontプロジェクトを Frame.io 有効としてマークする機能
 
-* <span class="preview">機能強化： Workfrontプロジェクト内のタスクを Frame タスクとして切り替える機能。Frame.io 内にタスクフォルダーが順番に作成されます。</span>
+* Workfrontプロジェクト内のタスクを Frame タスクとして切り替える機能が追加され、Frame.io 内にタスクフォルダーが作成されます。
 
-* Workfrontプロジェクトのステータスが「現在」に設定されている場合、対応する接続済みプロジェクトが Frame に作成され、Workfrontが割り当てたユーザーが Frame プロジェクトに追加され、Frame.io から電子メール通知が送信されます
+* Workfrontプロジェクトに Frame 接続のグループが割り当てられ、少なくとも 1 つの Frame 対応タスクが割り当てられている場合、Workfrontプロジェクトのステータスが「現在」に設定されると、対応する接続済みプロジェクトが Frame に作成され、Workfrontの割り当て済みユーザーが Frame.io から電子メール通知が送信されます
 
-   * すべてのWorkfrontプロジェクトメンバー（ユーザーおよびチーム）は、Frame.io プロジェクト（プロジェクトの作成時以降）に共同作業者として追加されます
-
-   * <span class="preview">変更： Frame が有効なWorkfrontタスクに割り当てられたユーザーとチームは、Collaborators として Frame.io プロジェクトに追加され、（プロジェクトの作成時以降に）通知されます。</span>
+   * Frame が有効なWorkfrontタスクに割り当てられたユーザーとチームは、Frame.io プロジェクトに共同作業者として追加され、（プロジェクトの作成時以降に）通知されます
 
 * プロジェクトが作成されると (トリガー：プロジェクトのステータスが [ 現在 ] に設定されている )、プロジェクトに追加されたドキュメント（クリエイティブブリーフ）と Frame が有効なタスクは、Frame.io プロジェクト（各作業フォルダ内）にプッシュされます
 
    * Frame.io に複数の不要なドキュメントを送信しないように、クリエイティブブリーフに対してのみアクティブになる前に、プロジェクトに追加するドキュメントの量を制限することをお勧めします。
 
-* <span class="preview">機能強化：フレームが有効なWorkfrontタスクから明示的に割り当てられていないユーザー/チームは、Frame.io プロジェクトから削除されます</span>
+   * 最初のプロジェクトの同期後に追加されたドキュメント/タスクは Frame.io にプッシュされず、ユーザー/チームにのみプッシュされます
 
 **今後のリリースでの潜在的な改善点：**
 
@@ -121,9 +118,9 @@ ht-degree: 0%
 
 * Frame.io 内の新しいバージョンのアップロードでは、Connected Assets 上のWorkfront内に新しいドキュメントバージョンが自動的に作成されます。
 
-* <span class="preview">機能強化： Frame.io 内から参照先のWorkfrontタスクを完了済みとしてマークする機能</span>
+* Frame.io 内から参照先のWorkfrontタスクを完了済みとしてマークする機能
 
-* <span class="preview">機能強化：接続されたWorkfrontドキュメントが削除された場合、そのドキュメントは Frame.io 内に残り、同じプロジェクトタスクや他のプロジェクトタスクに再接続できます</span>
+* 接続されたWorkfrontドキュメントが削除された場合、そのドキュメントは Frame.io 内に残り、同じプロジェクトタスクや他のプロジェクトタスクに再接続できます
 
 **今後のリリースでの潜在的な改善点：**
 
@@ -135,7 +132,7 @@ ht-degree: 0%
 
 * Workfrontのユーザーとチームを、Frame.io 接続ドキュメントの新しいドキュメント承認に追加できます
 
-* <span class="preview">機能強化：ユーザー/チームが Frame 対応ドキュメントから共有を解除すると、Frame.io Viewer でのアセットへのアクセス権も失われます。</span>
+* Frame が有効なドキュメントからユーザやチームの共有が解除されると、Frame.io Viewer でのアセットへのアクセスも失われます。
 
 **今後のリリースでの潜在的な改善点：**
 
@@ -151,12 +148,4 @@ ht-degree: 0%
 
 * Workfrontの更新ストリームと同期される Frame.io ビューアが提供する既存のレビューおよびコメント機能を利用する機能
 
-* <span class="preview">Frame.io ビューア内から新しいドキュメントの承認を決定する機能</span>
-
-### Frame.io 内では、クリエイティブは、接続された Frame.io アセットに対しておこなわれた全体的な決定について通知されます。
-
-* <span class="preview">機能強化：ドキュメントの全体的な承認ステータスは、Frame.io 内のアセットに表示されます。</span>
-
-### プロジェクトコーディネーターは、最終アセットをAEMに送信できます
-
-* <span class="preview">機能強化：既存のWorkfront + AEM Asset CS コネクタを使用して、メタデータを含むフレーム接続ドキュメントをAEMに送信できます</span>
+* Frame.io ビューア内から新しいドキュメントの承認を決定する機能
