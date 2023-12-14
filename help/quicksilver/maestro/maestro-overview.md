@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -222,7 +222,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
    * パーセンテージ
    * 通貨
    * チェックボックス
-   * ユーザー
+   * 人物
    * 作成者
    * 作成日
    * 最終変更者
@@ -232,8 +232,12 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
    * 2 つのマエストロレコードタイプ
    * Maestro レコードタイプとWorkfrontプロジェクト、プログラム、ポートフォリオ、会社、またはグループオブジェクトタイプ。
+   * Maestro レコードタイプとAdobe Experience Managerアセット、フォルダ、またはコレクション。
 
-  ![](assets/new-connection-tab-with-workfront-option.png)
+     レコードの種類をExperience Managerオブジェクトとリンクするには、Adobe Experience Managerライセンスが必要です。
+
+     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
   レコードタイプ間の接続を確立した後で、それらのタイプの個々のレコードを相互に接続できます。 レコード間の接続は、リンクされたレコードフィールドとして表示されます。
 
@@ -278,8 +282,8 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 | 1 つのレコードタイプのレコード数 | 10,000 |
 | 1 つのレコードタイプまたは分類のフィールド数 | 500 |
 | テキストフィールドの文字数 | 1,000 文字 |
-| レコードタイプのテーブルに貼り付けることができるファイルのサイズ | 1MB |
-| API を使用してインポートできる、レコードタイプテーブルのファイルサイズ | 1.5MB |
+| レコードタイプのテーブルに貼り付けることができるファイルのサイズ | 1 MB |
+| API を使用してインポートできる、レコードタイプテーブルのファイルサイズ | 1.5 MB |
 | API リクエストを実行できる割合 | 1 分あたり 200 リクエスト |
 | テーブルにインポートできる Excel ファイルの CSV サイズ | 5MB |
 
@@ -367,6 +371,7 @@ To share the Maestro area using a layout template:
 | Maestro レコードと分類を接続 | ✓ |
 | テーブルビューでのレコードの検索 | ✓ |   |
 | Maestro レコードをWorkfrontプロジェクト、プログラム、ポートフォリオ、会社、グループに接続 | ✓ |                                 |                  |
+| Maestro レコードをAdobe Experience Managerのアセット、フォルダー、コレクションに接続 | ✓ |                                  |                 |
 | レコードの詳細ページ | ✓ |                                  |                  |
 | レコードの詳細ページのレイアウトを更新します |                               | ✓ |                  |
 | Workspace 権限 | | ✓ |  |
@@ -375,6 +380,8 @@ To share the Maestro area using a layout template:
 | レコードの色とアイコンのカスタマイズ | ✓ |                                  |                 |
 | レコードにコメントを追加 |                               | ✓ |                 |
 | 段落フィールドのリッチテキスト書式設定 | ✓ |                                  |                 |
+
+
 
 ## マエストロリリースアクティビティ
 

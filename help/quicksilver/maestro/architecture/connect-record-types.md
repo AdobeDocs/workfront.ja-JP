@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Adobeマエストロを使用すると、組織で必要なレコードの種類
 <td>
    <p> Adobe産物</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Maestro のレコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsが必要です</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ After permssions - replace the table with:
       * 会社
       * グループ
 
+   * ADOBE EXPERIENCE MANAGER ASSETS:
+
+      * Assets
+      * フォルダー
+      * コレクション
+
 * レコードタイプを別のレコードタイプに接続するか、別のアプリケーションのオブジェクトタイプに接続すると、次のシナリオが存在します。
 
    * 2 つのレコードタイプを接続すると、[ リンクされたレコード ] フィールドは、接続元のレコードタイプに対して作成されます。 接続先のレコードタイプに、同様の「リンクされたレコード」フィールドが作成されます。
@@ -230,12 +238,14 @@ After permssions - replace the table with:
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. 次をクリック： **+** アイコンをクリックし、 **新しい接続** タブをクリックします。
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. Adobe Analytics の **レコードタイプ** 「 」フィールドで、次のいずれかを選択します。 <!--is the field name spelled right? lowercase "t"?-->
 
-   * 別のオペレーショナルレコードタイプ
-   * 分類
-   * Workfrontプロジェクト、Portfolio、プログラム、会社、またはグループ。
+   * 選択したワークスペースの別のオペレーショナルレコードタイプ
+   * 選択したワークスペースの分類
+   * 「 Workfrontオブジェクトタイプ」セクションのプロジェクト、Portfolio、プログラム、会社またはグループ。
+   * Experience Manager Assetsを選択します。
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ After permssions - replace the table with:
    * **複数のレコードを許可**：リンクされたレコードタイプのフィールドが元のレコードに表示される場合に、ユーザーが複数のレコードを追加できるようにするには、このオプションを選択します。 これはデフォルトで選択されています。
    * **参照フィールドを選択**：選択したレコードタイプからフィールドを追加するには、このオプションを選択します。 これはデフォルトで選択されています。
 
+1. （条件付きおよびオプション）Workfrontオブジェクトの接続を選択した場合、 **カスタムフォーム** から **これらの条件に一致するプロジェクトのみをリンク** 」セクションに入力します。 <!--this needs to be updated for each object when they fix this UI.--> 選択したカスタムフォームがアタッチされているオブジェクトのみが、選択した Maestro レコードタイプにリンクできます。 複数のフォームを選択できます。
+
+   ![](assets/workfront-project-connection-selection.png)
+
+1. （条件付き）Experience Manager Assetsへの接続を選択した場合、 **Experience Managerリポジトリ** ドロップダウンメニュー ( **次のリポジトリーからのアセットのリンク** 」セクションに入力します。 これは必須フィールドです。 このフィールドには、Experience Manager Assetsでアクセス権のあるリポジトリのみが表示されます。
+
+   ![](assets/aem-assets-connection-selection.png)
+
 1. 「**作成**」をクリックします。
 
-1. （条件付き）前の手順でルックアップフィールドを選択設定を選択した場合、 **参照フィールドを追加** ボックスが開きます。
+1. （条件付き） **参照フィールドを選択** 前の手順で、 **参照フィールドを追加** ボックスが開きます。
 
    次をクリック： **+** アイコンをクリックして、 **未選択のフィールド** 領域。
 
@@ -274,6 +292,10 @@ After permssions - replace the table with:
 1. （オプションおよび条件付き）数値、通貨、割合または日付タイプのフィールドをリンクする場合は、集計値も選択します。 ユーザーがリンクされたレコードフィールドで複数のリンクされたレコードを選択する場合、リンクされたフィールドの値は、コンマで区切るか、選択した集計に従って集計値として表示されます。
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > レコードタイプをExperience Manager Assetsに接続する場合、集約は使用できません。
 
    次の中から選択します。
 

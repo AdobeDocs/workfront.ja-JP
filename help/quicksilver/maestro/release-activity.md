@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 * レコードタイプのすべてのテーブルビューに、選択した主フィールドが同じです。
 
 詳しくは、 [テーブルビューを管理](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Maestro レコードとAdobe Experience Manager (AEM) アセットの接続
+
+プレビューリリース： 2023 年 12 月 14 日
+
+実稼動リリース： 2023 年 12 月 15 日
+
+これで、Maestro レコードタイプとAdobe Experience Managerアセット間の接続を確立できます。
+
+接続を確立すると、この更新で次の機能が利用できるようになります。
+
+* Maestro ユーザーは、AEMのアセット、フォルダー、またはコレクションを、アクセス権を持つAEM内の特定のリポジトリから Maestro レコードにリンクできます
+
+* Maestro ユーザーは、レコードに接続された後、Maestro 内のすべての接続されたアセットを表示できます。
+
+* Experience Manager Assetsのレコードタイプは、接続を確立した後、Maestro で自動的に作成されます。 この新しいレコードタイプの Maestro テーブルとタイムラインビューに、接続されたアセットが表示されます。
+
+* 接続元の Maestro レコードテーブルでAEMアセット情報を表示できます。
+
+詳しくは、 [レコードタイプを接続](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## 2023 年 12 月 4 日の週
 

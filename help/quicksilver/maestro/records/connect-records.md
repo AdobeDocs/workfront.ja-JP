@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -206,9 +206,9 @@ After permssions - replace the table with:
 
 ### Maestro レコードを接続
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。
+最後にアクセスしたワークスペースは、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードを接続するワークスペースを選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
@@ -254,33 +254,24 @@ After permssions - replace the table with:
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
 
-Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接続を作成した後、Workfront内のオブジェクトに個々の Maestro レコードを接続できます。 また、Workfrontオブジェクトのフィールドを Maestro レコードタイプに接続することもできます。
+Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接続を作成した後、Workfront内のオブジェクトに個々の Maestro レコードを接続できます。 接続したWorkfrontフィールドは、オブジェクトをリンクする Maestro レコードに自動的に設定されます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。
+最後にアクセスしたワークスペースは、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードを接続するワークスペースを選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
-1. 以下からテーブルビューを選択します。 **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
-1. 選択したレコードタイプに対して、Workfrontからオブジェクトタイプに新しい接続を追加します。 「 Workfront 」セクションの下で、次のオブジェクトから選択します。
+1. を選択します。 **テーブル** から表示 **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
 
-   * プロジェクト
-   * ポートフォリオ
-   * プログラム
-   * 会社
-   * グループ
-
-   詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
-
-   新しい列がテーブルに追加され、リンクされたオブジェクトタイプが表示されます。
-
-1. テーブルに新しい行を追加して、選択したレコードタイプに個々のレコードを追加します。 詳しくは、 [レコードを作成](../../maestro/records/create-records.md).
-1. テーブルビューに表示されるレコードから、リンクされたオブジェクト列に移動し、Workfrontの他のオブジェクトとリンクするレコードに対応するセルの上にマウスポインターを置いて、 **+** アイコン。 <!--change Workfront to other applications, when this will be possible-->
+1. （オプション）テーブルに新しい行を追加して、選択したレコードタイプに個々のレコードを追加します。 詳しくは、 [レコードを作成](../../maestro/records/create-records.md).
+1. （条件付き）選択したレコードの種類をWorkfrontオブジェクトで接続した場合、リンクされたオブジェクト列に移動し、Workfrontからのオブジェクトにリンクするレコードに対応するセルの上にマウスポインターを置いて、 **+** アイコン。
 
    The **オブジェクトの接続** ボックスが表示されます。
 
    ![](assets/connect-objects-box-to-select-projects.png)
+
+   サードパーティのアプリケーションのオブジェクトとレコードタイプを接続する方法の詳細については、「 [レコードタイプを接続](../architecture/connect-record-types.md).
 
 1. 検索ボックスにWorkfrontオブジェクトの名前を入力し始め、リストに表示されたら選択します
 
@@ -288,11 +279,11 @@ Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接
 
    ボックスで 1 つまたは複数のオブジェクトの名前を選択し、 **オブジェクトの接続** をクリックします。
 
-   次の情報が Maestro に追加されます。
+   次の情報が追加されます。
 
    * 選択したWorkfrontオブジェクトが、リンクされたレコードフィールドに追加されます。
    * リンクされたレコードにフィールドを追加する際に選択したリンクされたフィールドごとに、新しいリンクされたフィールド（または参照フィールド）が作成されます。
-   * 「Workfrontオブジェクト」という新しいレコードタイプが、リンク元の Maestro レコードと同じワークスペースに作成されます。 オブジェクトの名前は、このレコードタイプの名前に含まれます。 例えば、Workfrontプロジェクトにリンクすると、Maestro にWorkfrontプロジェクトのレコードタイプが作成されます。
+   * 「&lt; Name of the Workfront object type >」という新しいレコードタイプが、リンク元の Maestro レコードと同じワークスペースに作成されます。 オブジェクトの名前は、このレコードタイプの名前に含まれます。 例えば、Workfrontプロジェクトにリンクすると、 **プロジェクト** マエストロのレコードタイプ。
 
      これは読み取り専用のレコードタイプで、Maestro レコードから作成した新しいリンクオブジェクトフィールドで選択されたWorkfrontオブジェクトが表示されます。 リンクされたオブジェクトのリンクされたフィールドは、読み取り専用のリンクされたWorkfrontレコードにも表示されます。
 
@@ -307,7 +298,7 @@ Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接
      >
      >* 「複数レコードを許可」設定を有効にした場合、複数のオブジェクトの値は、コンマで区切って表示されるか、選択した集約に従って集計されます。
      >
-     >* Maestro リンクされたレコードに対するリンクされたレコードフィールドは、リンクされたWorkfrontオブジェクトに対しては作成されません。
+     >* Maestro リンクされたレコードに対するリンクされたレコードフィールドは、WorkfrontのリンクされたWorkfrontオブジェクトに対して作成されません。
 
 
 1. （オプション） Maestro レコードタイプのページを閉じて、選択したワークスペースに移動します。
@@ -318,7 +309,6 @@ Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接
    >    * Workfrontレコードタイプのページに表示されるレコードは、読み取り専用のWorkfrontオブジェクトです。 Workfrontのレコードタイプからリンクされたフィールドは、読み取り専用の列としても表示され、Workfrontで入力されると自動的に入力されます。
    >    * Maestro でWorkfrontフィールドを手動で更新することはできません。 WorkfrontオブジェクトのフィールドはWorkfrontで入力する必要があり、フィールドの値は Maestro のWorkfrontレコードに自動的に表示されます。
    >
-   >    * Workfrontオブジェクトのレコードの種類をタイムラインビューに表示するには、読み取り専用のWorkfrontレコードの種類のページの [ テーブル ] ビューに少なくとも 2 つの日付フィールドを表示する必要があります。
 
 1. （オプション） Maestro でWorkfrontオブジェクトレコードの詳細ページを開くには、次のいずれかの操作を行います。
 
@@ -351,4 +341,122 @@ Maestro レコードタイプとWorkfrontオブジェクトタイプの間に接
    >
    >  Workfrontオブジェクトレコードタイプのページで追加または削除するフィールドは、Workfrontオブジェクトタイプにリンクする Maestro レコードタイプからは追加または削除されません。 フィールドは読み取り専用のWorkfrontレコードタイプのページにのみ表示されるので、Maestro で確認できます。
 
-1. （オプションおよび条件付き） Workfrontオブジェクトに少なくとも 2 つの日付フィールドを追加した場合、 **表示** 「 Workfrontオブジェクトレコードタイプ」ページのドロップダウンメニューで、「 **タイムライン** 表示。 Workfrontのリンクされたオブジェクトが、タイムラインビューに表示されます。
+1. （オプションおよび条件付き） Workfrontオブジェクトに少なくとも 2 つの日付フィールドを追加した場合、 **表示** 「 Workfrontオブジェクトレコードタイプ」ページのドロップダウンメニューで、「 **タイムライン** 表示または **ビューを作成** をクリックして、タイムラインビューを作成します。  詳しくは、 [タイムライン表示を管理](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+   Workfrontのリンクされたオブジェクトが、タイムラインビューに表示されます。
+
+
+### Maestro レコードをAdobe Experience Managerオブジェクトに接続
+
+<!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+Maestro レコードタイプとAdobe Experience Manager Assetsの間に接続を作成した後、個々の Maestro レコードをExperience Managerアセットに接続できます。 接続の作成時にExperience Manager Assetsから接続したアセットフィールドは、リンク元の Maestro レコードタイプに自動的に入力されます。
+
+{{step1-to-maestro}}
+
+最後にアクセスしたワークスペースは、デフォルトで開きます。
+
+1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードを接続するワークスペースを選択します。
+1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
+1. を選択します。 **テーブル** から表示 **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
+
+1. （オプション）テーブルに新しい行を追加して、選択したレコードタイプに個々のレコードを追加します。 詳しくは、 [レコードを作成](../../maestro/records/create-records.md).
+1. （条件付き）選択したレコードの種類をExperience Manager Assetsで接続した場合、リンクされたオブジェクト列に移動し、Experience Managerから他のオブジェクトにリンクするレコードに対応するセルの上にマウスポインターを置いて、 **+** アイコン。
+
+   The **アセットを選択** ボックスが表示されます。 <!--update screen shot with actual assets-->
+
+   ![](assets/select-assets-box-for-aem-record-connections.png)
+
+   サードパーティのアプリケーションのオブジェクトとレコードタイプを接続する方法の詳細については、「 [レコードタイプを接続](../architecture/connect-record-types.md).
+
+1. 次のアセットタイプのいくつかをクリックして選択します。
+
+   * 画像
+   * コレクション
+   * フォルダー
+
+   複数のアセットを選択できます。
+
+   >[!IMPORTANT]
+   >
+   > 接続できるのは、アクセス権のあるアセットのみで、Experience Managerで表示できます。
+
+1. クリック **選択**.
+
+   次の情報が追加されます。
+
+   * 選択したExperience Managerアセットが、リンクされたレコードフィールドに追加されます。
+   * リンクされたレコードにフィールドを追加する際に選択したリンクされたフィールドごとに、新しいリンクされたフィールド（または参照フィールド）が作成されます。
+   * 「Experience Manager Assets」という新しいレコードタイプが、リンク元の Maestro レコードと同じワークスペースに作成されます。
+
+     これは読み取り専用のレコードタイプで、Maestro レコードから作成した新しいリンクオブジェクトフィールドで選択したExperience Managerオブジェクトが表示されます。 リンクされたオブジェクトのリンクされたフィールドは、読み取り専用のリンクされたExperience Managerレコードにも表示されます。
+
+     >[!IMPORTANT]
+     >
+     > 読み取り専用のExperience Manager Assetsレコードタイプは、個々のアセットが Maestro レコードに追加された場合にのみ作成されます。 Maestro レコードタイプとExperience Manager Assetsの間の接続を作成するだけでは、Experience Manager Assetsレコードタイプは作成されません。
+
+     Experience Managerアセットのフィールドの既存の情報は、リンクされたフィールドまたは参照フィールドに表示されます。
+
+     >[!TIP]
+     >
+     >
+     >* [ 複数レコードを許可 ] 設定を有効にした場合、複数のオブジェクトの値がコンマで区切って表示されます。
+     >
+     >* Maestro リンクされたレコードへのリンクされたレコードフィールドは、Experience Manager Assetsアプリケーション内のリンクされたExperience Managerアセットに対して作成されません。
+
+
+1. （オプション） Maestro レコードタイプのページを閉じて、選択したワークスペースに移動します。
+1. Experience Manager Assetsレコードタイプのカードをクリックします。 読み取り専用のExperience Manager Assetsレコードタイプカードがテーブルビューで開きます。
+
+   >[!NOTE]
+   >
+   >    * Experience Manager Assetsレコードタイプのページに表示されるレコードは読み取り専用のアセットです。 Experience Manager Assetsのレコードタイプからリンクされたフィールドは、読み取り専用の列としても表示され、Experience Managerで入力されると自動的に入力されます。
+   >    * Maestro では、Experience Managerフィールドを手動で更新できません。 Experience ManagerのアセットフィールドにExperience Managerを入力する必要があり、フィールドの値が Maestro のExperience Manager Assetsレコードに自動的に表示されます。
+   >
+
+1. （オプション）Experience Manager Assetsにリンクしたレコードタイプに移動し、「リンクされたレコード」フィールドでアセットの名前をクリックします。 Experience Managerのアセットの詳細がポップアップウィンドウに表示されます。 <!--update screen shot with hi-rez picture-->
+
+   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+
+   画像ファイルの次のフィールドが表示されます。
+
+   * 画像のサムネール
+   * 画像ファイル名
+   * Dimension
+   * サイズ
+   * 説明
+   * Experience Manager内のファイルパス
+   * アセットタイプ
+   * 作成日
+   * 変更日時
+
+1. （オプション） Maestro でExperience Manager Assetsレコードの詳細ページを開くには、以下の手順を実行します。
+
+   1. 次に移動： **Experience Manager Assets** 最初に選択したのと同じワークスペース内の Maestro レコードタイプカードをクリックして、レコードタイプのページを開きます。
+Experience Manager Assets Maestro レコードタイプのページは読み取り専用です。
+   1. テーブル表示で、アセットの名前をクリックします。
+
+      または
+
+      アセット名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png) をクリックし、アセット名の右側にある「 **表示**.\
+      これにより、アセットの Maestro が開きます。 **詳細** ページに貼り付けます。 これは読み取り専用ページです。
+1. （オプション）Experience Managerアセットのレコードの詳細ページをExperience Managerで開くには、次のいずれかの操作を行います。
+
+   * リンク元のレコードの Maestro レコードタイプページに移動し、リンクされたレコードフィールドでアセットの名前をクリックしてポップアップウィンドウを開き、 **開く** アイコン ![](assets/open-asset-icon.png) をクリックしてアセットを開きます。
+   * 次に移動： **Experience Manager Assets** 最初に選択したのと同じワークスペース内の Maestro レコードタイプカードをクリックしてレコードタイプページを開き、アセットの名前をクリックして Maestro を開きます。 **詳細** ページ、「 **ソースに移動** をクリックします。
+
+     ![](assets/go-to-source-asset-maestro-details-page.png)
+   * 次に移動： **Experience Manager Assets** 最初に選択したのと同じワークスペース内で Maestro レコードタイプカードをクリックし、Experience Manager Assetsレコードタイプページを開き、アセットの名前の上にマウスポインターを置いて、「 **その他** メニュー、次に「 **ソースに移動**.
+
+     ![](assets/go-to-source-option-on-table-view.png)
+
+   アセットがExperience Manager Assetsで開きます。
+
+1. （オプション） **フィールドを追加** アイコン ![](assets/add-fields-icon.png) 「Experience Manager Assetsレコードタイプ」ページのテーブルビューの右上隅で、Experience Managerフィールドを追加または削除します。
+
+   >[!NOTE]
+   >
+   >  Experience Manager Assetsのレコードタイプページで追加または削除したフィールドは、Experience Managerアセットにリンクする Maestro レコードタイプからは追加も削除もされません。 フィールドは読み取り専用のExperience Manager Assetsレコードタイプのページにのみ表示されるので、Maestro で確認できます。
+
+1. （オプションおよび条件付き）Experience Managerにリンクされたアセットに少なくとも 2 つの日付フィールドを追加した場合、 **表示** 「 Experience Manager Assetsレコードタイプ」ページのドロップダウンメニューで、「 **タイムライン** 表示または **ビューを作成** をクリックして、タイムラインビューを作成します。  詳しくは、 [タイムライン表示を管理](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Experience Manager Assetsのリンクされたアセットがタイムライン表示に表示されます。
