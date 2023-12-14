@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
+source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。 そのため、Workfrontでは、月次および四半期次のリリース追跡の両方に対応するように、リリースの採番方式を変更しました。
 >
->月別および四半期別のリリースは、特に指定のない限り、月の最後の木曜日に提供される予定です。
+>月別および四半期別のリリースは、特に指定のない限り、月の第 2 週の木曜日に提供される予定です。
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
