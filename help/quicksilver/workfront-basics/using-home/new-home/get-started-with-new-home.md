@@ -6,7 +6,7 @@ description: 新しいホームは、作業を管理するための強力な新�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # 新しいホームの基本を学ぶ
+
+<!--Audited: 12/2023-->
 
 Adobe Workfrontの新しいホームエクスペリエンスは、現在のホームエクスペリエンスを向上させ、適切な作業に集中できる柔軟な方法を提供することを目的としています。
 
@@ -112,7 +114,7 @@ Adobe Workfrontの新しいホームエクスペリエンスは、現在のホ�
         <td>マイプロジェクト（承認待ち）</td>
     </tr>
     <tr>
-        <td>参加</td>
+        <td>貢献</td>
         <td>自分の作業、メンション</td>
     </tr>
     <tr>

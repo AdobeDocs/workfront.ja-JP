@@ -8,14 +8,17 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2679'
 ht-degree: 2%
 
 ---
 
+
 # リクエストキューの作成
+
+<!--Audited: 12/2023-->
 
 <!--
 <THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL>

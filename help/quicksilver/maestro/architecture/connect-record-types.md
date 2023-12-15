@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,10 @@ Adobeマエストロを使用すると、組織で必要なレコードの種類
 
 次の項目を接続できます。
 
-* マエストロのオペレーショナルレコードのタイプ
-* 分類レコードタイプに対するマエストロオペレーショナルレコードタイプ
-* マエストロ分類タイプからオペレーショナルレコードタイプへ
-* 他のアプリケーションの操作レコードのタイプとオブジェクトのタイプをマエストロします。
+* マエストロオペレーショナルレコードタイプを相互に
+* マエストロ分類を相互に
+* マエストロオペレーショナルレコードタイプと分類を相互に分類する
+* 他のアプリケーションのオブジェクト・タイプを持つオペレーショナル・レコード・タイプと分類をマエストロします。
 
 これにより、別の Maestro レコード上に、リンクされたレコードまたはオブジェクトタイプのフィールドを表示できます。
 
@@ -75,7 +75,8 @@ Adobeマエストロを使用すると、組織で必要なレコードの種類
    <p> Adobe産物</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Maestro のレコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsが必要です</p>
+   <p><b>メモ</b></p>
+   <p>Maestro のレコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsライセンスが必要です。組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。 </p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
@@ -123,7 +124,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -185,11 +186,7 @@ After permssions - replace the table with:
    * 2 種類のオペレーショナルレコード
    * 2 つの分類
    * オペレーショナルレコードのタイプと分類
-   * 別のアプリケーションのオペレーショナル・レコード・タイプとオブジェクト・タイプ。
-
-     >[!TIP]
-     >
-     >    分類レコードタイプをオペレーショナルレコードタイプに接続したり、別のアプリケーションからオブジェクトタイプに接続することはできません。
+   * 別のアプリケーションのオペレーショナルレコードタイプまたは分類およびオブジェクトタイプ。
 
 * 次のオブジェクトは、Maestro レコードタイプを使用して、次のアプリケーションから接続できます。
 
@@ -203,36 +200,44 @@ After permssions - replace the table with:
 
    * ADOBE EXPERIENCE MANAGER ASSETS:
 
-      * Assets
+      * 画像
       * フォルダー
-      * コレクション
+
+     >[!IMPORTANT]
+     >
+     >Adobe Experience Manager Assetsライセンスが必要です。Maestro レコードをAdobe Experience Manager Assetsに接続するには、組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。
+     >
+     >Adobe Admin Consoleのオンボーディングについて質問がある場合は、 [AdobeUnified Experience に関する FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * レコードタイプを別のレコードタイプに接続するか、別のアプリケーションのオブジェクトタイプに接続すると、次のシナリオが存在します。
 
-   * 2 つのレコードタイプを接続すると、[ リンクされたレコード ] フィールドは、接続元のレコードタイプに対して作成されます。 接続先のレコードタイプに、同様の「リンクされたレコード」フィールドが作成されます。
+   * **2 つのレコードタイプを接続する場合**：接続元のレコードタイプに「リンクされたレコード」フィールドが作成されます。 接続先のレコードタイプに、同様の「リンクされたレコード」フィールドが作成されます。
 
      例えば、「Campaign」レコードタイプを「Product」レコードタイプに接続すると、「Linked Product」という名前のリンクされたレコードフィールドが「Campaign」レコードタイプに作成され、「Campaign」という名前のリンクされたレコードタイプが「Product」レコードタイプに自動的に作成されます。
 
-   * レコードタイプフィールドを分類に接続する場合：リンクされたレコードフィールドは、接続元のレコードタイプに対して作成されます。 接続先の分類にリンクされたレコードフィールドは作成されません。
+   * **別のアプリケーションのオブジェクトタイプにレコードタイプを接続する場合**：接続元のレコードタイプにリンクされたレコードフィールドが作成されます。 リンクされたレコードフィールドは、サードパーティのアプリケーションオブジェクト上に自動的に作成されません。
 
-     例えば、「キャンペーン」レコードタイプを「オーディエンス」分類のレコードタイプと接続すると、「リンクされたオーディエンス」という名前のリンクされたレコードフィールドがキャンペーンのレコードタイプで作成されます。 オーディエンス分類のレコードタイプで、「キャンペーン」という名前のリンクされたレコードフィールドが自動的に作成されることはありません。 <!--this might be temporary-->
-
-   * レコードタイプフィールドを別のアプリケーションのオブジェクトタイプと接続する場合：リンクされたレコードフィールドは、接続元のレコードタイプに対して作成されます。 WorkfrontのWorkfrontプロジェクトに、リンクされたレコードフィールドが自動的に作成されません。 リンクされたレコードフィールドは、実際のオブジェクトが Maestro レコードに接続されている場合にのみ、Workfrontオブジェクトレコードタイプで作成されます。
+     サードパーティのアプリケーションオブジェクトに対して新しい Maestro レコードタイプが作成されるのは、実際のオブジェクトが Maestro レコードに接続されている場合のみです。
 
      詳しくは、 [レコードを接続](../records/connect-records.md).
 
-* レコードの種類を接続した後で、1 つのレコードの種類から別のレコードの種類に複数のフィールドを接続できます。 これらのフィールドは、「リンクされたフィールド」または「ルックアップフィールド」と呼ばれます。
+   * **接続先のレコードまたはオブジェクトからルックアップフィールドを追加する場合**：リンクされたフィールドは、リンク元のレコードに取り込むために選択した参照フィールドが表示される、接続元のレコードに追加されます。 レコードのフィールドは常に読み取り専用で、サードパーティのオブジェクトの値が自動的に設定されます。
+
+     例えば、「Campaign」の Maestro レコードタイプをWorkfrontプロジェクトに接続し、プロジェクトの「計画完了日」フィールドを Maestro レコードに取り込むと、リンク元のレコードに対して「計画完了日」(Project) と呼ばれるリンクフィールドが自動的に作成されます。
+
 * リンクされたレコードフィールドの前には関係アイコンが付きます ![](assets/relationship-field-icon.png).
+
+  リンクされたフィールドの前には、フィールドタイプを識別するアイコンが付いています。 例えば、フィールドが数値、段落、日付であることを示すアイコンなどです。
+
 * レコードタイプの個々のレコードを作成した後、リンクされたレコードタイプのフィールドから接続先のレコードを選択できます。 詳しくは、 [レコードを接続](../records/connect-records.md).
-* リンク先のレコードタイプからは、リンク先のレコードを選択するとすぐに、そのレコードタイプに属する元のレコードタイプから自動的に入力されるので、リンク先のフィールドの情報を編集することはできません。
 
 ## レコードタイプを接続
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/dots-main-menu.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/lines-main-menu.png) 左上隅で、「 **[!UICONTROL マエストロ]**.
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。
+最後にアクセスしたワークスペースは、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを接続するワークスペースを選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
@@ -242,16 +247,19 @@ After permssions - replace the table with:
 
 1. Adobe Analytics の **レコードタイプ** 「 」フィールドで、次のいずれかを選択します。 <!--is the field name spelled right? lowercase "t"?-->
 
-   * 選択したワークスペースの別のオペレーショナルレコードタイプ
-   * 選択したワークスペースの分類
-   * 「 Workfrontオブジェクトタイプ」セクションのプロジェクト、Portfolio、プログラム、会社またはグループ。
-   * Experience Manager Assetsを選択します。
+   * 選択したワークスペースの別のオペレーショナルレコードタイプまたは分類
+
+     >[!TIP]
+     >
+     >選択したワークスペースのレコードタイプと分類のみが接続できます。
+     > 
+     >選択したワークスペースに他のレコードタイプがない場合は、ワークスペース名は表示されません。
+
+   * A **プロジェクト、Portfolio、プログラム、会社**&#x200B;または **グループ化** から **Workfront Object Types** 」セクションに入力します。
+   * **Experience Manager Assets** から **Adobeアプリ** 」セクションに入力します。
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
-   >[!TIP]
-   >
-   > 選択したワークスペースのレコードタイプと分類のみを選択できます。
 
 1. 次の情報を更新します。
 
@@ -275,7 +283,7 @@ After permssions - replace the table with:
 
 1. 「**作成**」をクリックします。
 
-1. （条件付き） **参照フィールドを選択** 前の手順で、 **参照フィールドを追加** ボックスが開きます。
+1. （条件付き） **参照フィールドを選択** 設定、 **参照フィールドを追加** ボックスが開きます。
 
    次をクリック： **+** アイコンをクリックして、 **未選択のフィールド** 領域。
 
@@ -285,9 +293,8 @@ After permssions - replace the table with:
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
-   >[!NOTE]
-   >
-   >どのフィールドも選択しない場合、 **名前** リンクされたレコードのフィールドは、元のレコードのテーブルビューに表示される唯一のフィールドです。 The **名前** フィールドは削除できません。
+
+1. （オプション）「 **スキップ** リンクされたレコードやオブジェクトからフィールドを追加しないでください。 The **名前** リンクされたレコードのフィールドは、元のレコードのテーブルビューに表示される唯一のフィールドです。
 
 1. （オプションおよび条件付き）数値、通貨、割合または日付タイプのフィールドをリンクする場合は、集計値も選択します。 ユーザーがリンクされたレコードフィールドで複数のリンクされたレコードを選択する場合、リンクされたフィールドの値は、コンマで区切るか、選択した集計に従って集計値として表示されます。
 
@@ -318,19 +325,17 @@ After permssions - replace the table with:
 
 1. （オプション） **検索** アイコン ![](assets/search-icon.png) をクリックしてフィールドを検索します。
 
-1. （オプション）「 **スキップ** 接続されたレコードタイプのフィールドを追加しない場合。
-
 1. クリック **フィールドを追加** をクリックして変更を保存します。
 
    次の項目が追加されます。
 
-   * 手動で追加した後に、リンクされたレコードタイプのレコードを表示する、リンクされたレコードフィールド。 リンクされたレコードフィールドの名前は、手順 6 で選択した名前です。 <!-- ensure this is still accurate-->
+   * 手動で追加した後に、リンクされたレコードタイプのレコードを表示する、リンクされたレコードフィールド。 リンクされたレコードフィールドの名前は、手順 5 で選択した名前です。 <!--accurate-->
 
    * リンクされたレコードフィールドに手動でレコードを追加した後に、リンクされたレコードタイプのフィールドの情報を表示する、リンクされたフィールド（複数可）。 リンクされたフィールドは、 **参照フィールドを選択** 接続を作成する際に設定が選択されます。 リンクされたフィールドの名前は、次のパターンに従って付けられます。
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-   * リンク先のレコードタイプ上のリンクされたレコードフィールド。 リンクされたレコードタイプのリンクされたレコードフィールドの名前は、リンク元のレコードタイプの名前です。
+   * Maestro レコードタイプを相互にリンクすると、リンク先のレコードタイプにも、リンクされたレコードフィールドが追加されます。 リンクされたレコードタイプのリンクされたレコードフィールドの名前は、リンク元のレコードタイプの名前です。
 
      例えば、「Campaign」レコードタイプから「Product」レコードタイプをリンクし、「Linked Product」キャンペーンの接続済みフィールドに名前を付けた場合、「Campaign」リンク済みレコードタイプに対して「Campaign」リンク済みレコードフィールドが作成されます。
 
@@ -341,7 +346,14 @@ After permssions - replace the table with:
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   参照フィールドを追加または削除するには、上記の手順 7～12 の指示に従います。 <!--ensure these step numbers stay accurate-->
+   参照フィールドを追加または削除するには、上記の手順 9～13 の指示に従います。 <!--ensure these step numbers stay accurate-->
+
+   >[!NOTE]
+   >
+   > リンク元のレコードの参照フィールドを、サードパーティのアプリケーション内のオブジェクトを示す、リンクされたレコードタイプに追加することはできません。
+   >
+   > 例えば、Workfrontプロジェクトにリンクする際に Maestro Project レコードタイプに表示される「Campaign」リンクされたレコードフィールドから、「Campaign」Maestro オブジェクトのルックアップフィールドを追加することはできません。
+
 
 1. （オプション）リンク元のレコードタイプから、リンクされたレコードフィールドのヘッダーにある下向き矢印をクリックし、 **削除**.
 

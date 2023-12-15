@@ -8,7 +8,7 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # ワークロードバランサー：記事インデックス
+
+<!--Audited: 12/2023-->
 
 ワークロードバランサーは、Adobe Workfrontのリソーススケジュールツールで、タスクと問題を担当者リソースに割り当てることができます。
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -166,9 +166,9 @@ After permssions - replace the table with:
 
 ### レコードの詳細ページからレコードを編集する
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースが開きます。
+最後にアクセスしたワークスペースが開きます。
 
 1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
 1. 次のいずれかの操作を行います。

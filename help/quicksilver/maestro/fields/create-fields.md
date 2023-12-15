@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -170,9 +170,9 @@ After permssions - replace the table with:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。
+最後にアクセスしたワークスペースは、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、フィールドを作成するレコードタイプを持つワークスペースを選択して、レコードタイプをクリックします。
 
@@ -197,7 +197,7 @@ After permssions - replace the table with:
    * [パーセンテージ](#percentage)
    * [通貨](#currency)
    * [チェックボックス](#checkbox)
-   * [ユーザー](#people)
+   * [人物](#people)
    * [作成者](#created-by)
    * [作成日](#created-date)
    * [最終変更者](#last-modified-by)
@@ -405,7 +405,7 @@ After permssions - replace the table with:
 
    新しいチェックボックスフィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。
 
-### ユーザー
+### 人物
 
 「ユーザー」フィールドタイプを使用して、ユーザーを追加できます <!--, job role, or team--> をレコードに追加します。 これは先行入力フィールドです。追加できるのはユーザーのみです<!--, roles, or teams--> 既にWorkfrontに存在する
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ After permssions - replace the table with:
 
    >[!NOTE]
    >
-   >  * 「名前」フィールドは必須フィールドではありません。 ただし、レコードを相互にリンクする際にレコードを識別するのに役立つので、レコードには名前を付けることをお勧めします。
+   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別するのに役立つので、レコードには名前を追加することをお勧めします。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 

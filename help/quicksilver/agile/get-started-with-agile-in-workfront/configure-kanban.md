@@ -6,7 +6,7 @@ description: かんばんまたはスクラムアジャイルチームは、 [!D
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -32,6 +32,8 @@ ht-degree: 1%
 Scrum チームの設定について詳しくは、 [スクラムの設定](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## アクセス要件
+
+<!--Audited: 12/2023-->
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 

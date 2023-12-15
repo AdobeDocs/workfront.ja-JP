@@ -6,7 +6,7 @@ description: The [!UICONTROL ホーム] area は、割り当てられたタス�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # の基本を学ぶ [!UICONTROL ホーム]
+
+<!--Audited: 12/2023-->
 
 この記事では、現在の [!UICONTROL ホーム] 領域 [!DNL Adobe Workfront]. 新しい [!UICONTROL ホーム]を参照してください。 [新しいホームを使い始める](../new-home/get-started-with-new-home.md).
 

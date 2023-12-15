@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 詳しくは、 [テーブルビューを管理](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### Maestro レコードとAdobe Experience Manager (AEM) アセットの接続
+### Maestro レコードをAdobe Experience Manager Assetsと接続
 
 プレビューリリース： 2023 年 12 月 14 日
 
 実稼動リリース： 2023 年 12 月 15 日
 
-これで、Maestro レコードタイプとAdobe Experience Managerアセット間の接続を確立できます。
+>[!IMPORTANT]
+>
+>Maestro レコードをAdobe Experience Manager Assetsに接続するには、組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。
+>
+>Adobe Admin Consoleのオンボーディングについて質問がある場合は、 [AdobeUnified Experience に関する FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+これで、Maestro レコードタイプとAdobe Experience Manager Assetsの間の接続を確立できます。
 
 接続を確立すると、この更新で次の機能が利用できるようになります。
 
-* Maestro ユーザーは、AEMのアセット、フォルダー、またはコレクションを、アクセス権を持つAEM内の特定のリポジトリから Maestro レコードにリンクできます
+* Experience Managerのアセットやフォルダを、アクセス権を持つExperience Manager Assets内の特定のリポジトリの Maestro レコードにリンクできます。 このプロセスで、アセットフィールドを Maestro フィールドに接続できます。
 
-* Maestro ユーザーは、レコードに接続された後、Maestro 内のすべての接続されたアセットを表示できます。
+* Maestro ユーザーは、接続されたアセットの名前と、Maestro 内の接続されたフィールドの値を表示できます
 
-* Experience Manager Assetsのレコードタイプは、接続を確立した後、Maestro で自動的に作成されます。 この新しいレコードタイプの Maestro テーブルとタイムラインビューに、接続されたアセットが表示されます。
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* 接続元の Maestro レコードテーブルでAEMアセット情報を表示できます。
+* コネクテッドレコードフィールドから Maestro レコードのテーブルビューでアセット名をクリックし、アセットのサムネールと複数のキーフィールドを含むポップアップウィンドウを表示できます。 ポップアップウィンドウから、Experience Managerビューアに移動して、その詳細をすべて表示できます。
 
-詳しくは、 [レコードタイプを接続](/help/quicksilver/maestro/architecture/connect-record-types.md)
+詳しくは、 [レコードタイプを接続](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## 2023 年 12 月 4 日の週
 
