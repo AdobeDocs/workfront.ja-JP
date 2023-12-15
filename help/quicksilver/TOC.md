@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 3361cf540b5a32cb4621b550b17253675ef43222
+source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
 workflow-type: tm+mt
-source-wordcount: '13793'
+source-wordcount: '13796'
 ht-degree: 1%
 
 ---
@@ -451,8 +451,8 @@ ht-degree: 1%
          * [サンドボックス環境をプレビュー](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
          * [カスタム更新サンドボックス環境](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
          * [1 つからのオブジェクトの移動 [!DNL Workfront] 別の環境](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-   * ユーザーを追加 {#add-users}
-      * [Workfront へのユーザーの追加](administration-and-setup/add-users/add-users.md)
+   * ユーザー管理 {#add-users}
+      * [ユーザー管理：記事インデックス](administration-and-setup/add-users/add-users.md)
       * ユーザーの作成と管理 {#create-manage-users}
          * [ユーザーを管理](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [ユーザーを追加](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -1111,8 +1111,8 @@ ht-degree: 1%
          * [リンクされたアセットの強化されたコネクタによる配達確認](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
          * [拡張コネクタを使用した、リンクされたアセットの表示またはダウンロード](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Adobe Workfront for Experience Manager AssetsとAssets Essentials {#wf-aem-essentials}
-         * [Adobe Workfront for Experience Manager AssetsとAssets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-         * [Adobe Experience Manager Assets 統合の概要](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+         * [Adobe Workfront for Experience Manager AssetsとAssets Essentials：記事インデックス](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+         * [Adobe Experience Manager Assets統合の概要](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Experience Manager Assets Essentials からのアセットおよびフォルダーのリンク](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Experience Manager AssetsまたはAssets Essentialsのマッピングされたメタデータの表示](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [Experience Manager Assetsまたは Assets からのリンクされたアセットの表示またはダウンロードAssets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)

@@ -6,22 +6,25 @@ description: 自分が作成したオブジェクトや自分が共有してい�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
 
 # オブジェクトに対する共有権限の概要
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redundancy here with the article Permissions for shared objects?</p>
 -->
+システム内のユーザーとオブジェクトを共有する場合、受信者に表示、投稿、管理の権限を付与できます。
 
-アクセス権のあるオブジェクトに対する権限を共有するのはAdobe Workfront管理者である必要はありませんが、オブジェクトに対する権限はWorkfront管理者が設定したアクセスレベルで機能します。
+アクセス権のあるオブジェクトに対する権限を共有するのはAdobe Workfront管理者である必要はありませんが、オブジェクトに対する権限はWorkfront管理者が設定したアクセスレベル内で機能します。
 
-自分が作成したオブジェクトや自分が共有していたオブジェクトに対する権限を共有または削除できます。 オブジェクトの作成者でない場合は、オブジェクトに対する共有権限に加えて、アクセスレベルで共有するオブジェクトに対する共有アクセス権が必要です。 アクセス・レベルの詳細は、 [新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) または [アクセスレベルの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+自分が作成したオブジェクトや自分が共有していたオブジェクトに対する権限を共有または削除できます。 オブジェクトの作成者でない場合は、オブジェクトに対する共有権限に加えて、アクセスレベルで共有するオブジェクトに対する共有アクセス権が必要です。 アクセスレベルについて詳しくは、 [新しいアクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) または [アクセスレベルの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -31,60 +34,61 @@ ht-degree: 0%
 
 Workfrontで以下のオブジェクトを他のユーザーと共有できます。
 
-* **プロジェクト**:詳しくは、 [Adobe Workfrontでプロジェクトを共有する](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* **プロジェクト**：詳しくは、 [Adobe Workfrontでプロジェクトを共有する](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* **テンプレート**:詳しくは、 [プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **テンプレート**：詳しくは、 [プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolio**:詳しくは、 [ポートフォリオの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolio**：詳しくは、 [ポートフォリオの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 
-* **プログラム**:詳しくは、 [プログラムの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
+* **プログラム**：詳しくは、 [プログラムの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 
-* **タスク**:詳しくは、 [タスクの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+* **タスク**：詳しくは、 [タスクの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-* **問題**:詳しくは、 [イシューの共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **問題**：詳しくは、 [イシューの共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
-* **ドキュメント**:詳しくは、 [ドキュメントの共有](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+* **ドキュメント**：詳しくは、 [ドキュメントの共有](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
-* **ドキュメントフォルダ**:詳しくは、 [ドキュメントフォルダーの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* **ドキュメントフォルダ**：詳しくは、 [ドキュメントフォルダーの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-* **配達確認**:詳しくは、 [Workfrontの配達確認での配達確認の共有](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+* **配達確認**：詳しくは、 [Workfront内での配達確認の共有](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-* **レポート、ダッシュボード、カレンダー**:詳しくは、 [レポート、ダッシュボード、カレンダーの共有](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). さらに、次の記事も参照してください。
+* **レポート、ダッシュボード、カレンダー**：詳しくは、 [レポート、ダッシュボード、カレンダーの共有](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). さらに、次の記事も参照してください。
 
    * [Adobe Workfrontでのレポートの共有](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [ダッシュボードの共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [カレンダーレポートの共有](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **フィルター、ビュー、グループ化**:詳しくは、 [フィルター、表示またはグループ化の共有](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **フィルター、ビュー、グループ化**：詳しくは、 [フィルター、表示またはグループ化の共有](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-* **プラン**:詳しくは、 [シナリオプランナーでのプランの共有](../../scenario-planner/share-a-plan.md).
+* **プラン**：詳しくは、 [シナリオプランナーでのプランの共有](../../scenario-planner/share-a-plan.md).
 
-   追加のライセンスが必要です。
+  追加のライセンスが必要です。
 
-* **目標**:詳しくは、 [Workfront目標での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+* **目標**：詳しくは、 [Workfront目標での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
-   追加のライセンスが必要です。
+  追加のライセンスが必要です。
 
 ## オブジェクトの共有に関する考慮事項
 
 * オブジェクトに対して持っているのと同じレベルまたは低レベルの権限のみを共有できます。
 
-   例えば、オブジェクトに対する Contribute の権限を持っている場合、そのオブジェクトに対する別のユーザに管理権限を付与することはできません。
+  例えば、オブジェクトに対する Contribute の権限を持っている場合、そのオブジェクトに対する別のユーザに管理権限を付与することはできません。
 
-* ユーザーのアクセスレベルより高いアクセスレベルのオブジェクトを共有することはできません。 例えば、ユーザーのアクセスレベルでプロジェクトへの表示アクセス権を持っている場合、プロジェクトに対する管理権限を付与することはできません。
+* ユーザーのアクセスレベルより高いアクセスレベルのオブジェクトを共有することはできません。
+
+  例えば、ユーザーのアクセスレベルでプロジェクトへの表示アクセス権を持っている場合、プロジェクトに対する管理権限を付与することはできません。
 * 少なくとも 1 つのオブジェクトを表示する権限を持つユーザーは、そのオブジェクトを他のユーザーと共有できます。
 * オブジェクトは、アクティブなユーザー、ジョブの役割、チーム、グループ、会社と共有できます。
 
-   >[!NOTE]
-   >
-   >プランや目標は、他のアクティブなユーザーとのみ共有できます。 追加のライセンスが必要です。
-   >
-   >
-   >詳しくは、以下を参照してください。
-   >
-   >* [シナリオプランナーでのプランの共有](../../scenario-planner/share-a-plan.md)
-   >* [Workfront目標での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
-
+  >[!NOTE]
+  >
+  >プランや目標は、他のアクティブなユーザーとのみ共有できます。 追加のライセンスが必要です。
+  >
+  >
+  >詳しくは、以下を参照してください。
+  >
+  >* [シナリオプランナーでのプランの共有](../../scenario-planner/share-a-plan.md)
+  >* [Workfront目標での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 
 ## 制限の共有
 
@@ -99,20 +103,19 @@ Workfrontで以下のオブジェクトを他のユーザーと共有できま�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">ビュー</td> 
+   <td role="rowheader"><strong>表示</strong></td> 
    <td> <p>オブジェクトに対して、次の操作を実行できます。</p> 
     <ul> 
-     <li>オブジェクトの表示</li> 
-     <li>オブジェクトにドキュメントを追加する</li> 
-     <li>オブジェクトに関する財務情報の表示</li> 
+     <li><p>オブジェクトの表示</p></li> 
+     <li><p>オブジェクトにドキュメントを追加する</p></li> 
+     <li><p>オブジェクトに関する財務情報の表示</p></li> 
      <li> <p>オブジェクトの共有<br></p> <p>オブジェクトを共有する場合、他のユーザーには、上位レベルではなく、オブジェクトに対してのみ持っているのと同じ権限レベルを付与できます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">参加</td> 
+   <td role="rowheader"><strong>貢献</strong></td> 
    <td> <p>オブジェクトに対して、次の操作を実行できます。</p> 
     <ul> 
-     <li>それを表示</li> 
      <li>表示権限に含まれるすべてのアクション。</li> 
      <li>費用を追加します</li> 
      <li>タスクまたはプロジェクトのタスクを追加する</li> 
@@ -123,30 +126,26 @@ Workfrontで以下のオブジェクトを他のユーザーと共有できま�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">管理</td> 
+   <td role="rowheader"><strong>管理</strong></td> 
    <td> <p>オブジェクトに対して、次の操作を実行できます。</p> 
     <ul> 
-     <li>それを表示</li> 
      <li>表示および投稿権限に含まれるすべてのアクション</li> 
-     <li>削除</li> 
+     <li>削除する</li> 
      <li>財務情報の管理</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">これを外部ユーザーに公開する</td> 
+   <td role="rowheader"><strong>これを外部ユーザーに公開する</strong></td> 
    <td> <p>Workfrontアカウントを持っていないユーザーは、リンクをクリックしてオブジェクトを表示できます。 これは、すべてのオブジェクトに対して使用できるわけではありません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">システム全体で表示できるようにします。</td> 
+   <td role="rowheader"><strong>システム全体で表示できるようにします。</strong></td> 
    <td> <p>このオブジェクトは、Workfrontアカウントを持つすべてのユーザーが検索で見つけ、表示することができます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 継承された権限とオブジェクトの階層について
-
-* [親オブジェクトから継承された権限](#permissions-inherited-from-parent-objects)
-* [組織のメンバーシップによって取得された権限](#permissions-acquired-through-organizational-memberships) 
 
 ### 親オブジェクトから継承された権限 {#permissions-inherited-from-parent-objects}
 
@@ -156,11 +155,11 @@ Workfrontの権限は、階層的に継承されます。 つまり、親オブ�
 
 上記の例では、権限を子オブジェクトに制限することはできません。 プロジェクトに関連付けられた子オブジェクトに対して Contribute 権限を持たせたくない場合は、継承された権限をオブジェクトから手動で削除し、その後、詳細設定を含め、個々のユーザの権限を調整する必要があります。 
 
-Workfrontのオブジェクトの階層と相互依存関係について詳しくは、 [オブジェクトの相互依存性と階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 記事内 [Adobe Workfrontのオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Workfrontのオブジェクトの階層と相互依存関係について詳しくは、 [オブジェクトの相互依存性と階層](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) 記事内 [Adobe Workfrontオブジェクトの概要](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
->Workfront管理者は、アクセスレベルでドキュメントの継承された権限を無効にできます。 アクセスレベルでドキュメントの継承された権限を無効にする方法については、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Workfront管理者は、アクセスレベルでドキュメントの継承された権限を無効にできます。 アクセスレベルでドキュメントの継承された権限を無効にする方法について詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ### 組織のメンバーシップによって取得された権限  {#permissions-acquired-through-organizational-memberships}
 

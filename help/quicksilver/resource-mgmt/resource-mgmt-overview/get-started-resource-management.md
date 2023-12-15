@@ -7,14 +7,16 @@ description: リソース管理を使用すると、システムの可用性に�
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # リソース管理の概要
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -165,9 +167,9 @@ Workfrontのリソース管理ツールを効率的に使用するには、一�
 
 Workfrontの各リソース管理ツールの要件について詳しくは、次を参照してください。
 
-* この記事の「リソースプランナーでの作業の前提条件」の節 [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* セクション [リソース・プランナでの作業の前提条件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) 記事内 [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* この記事の「ワークロードバランサーの使用に関するベストプラクティス」の節 [ワークロードバランサーの概要](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* セクション [ワークロードバランサーの使用に関するベストプラクティス](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 記事内 [ワークロードバランサーの概要](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Adobe Workfrontの予算リソースに必要なアクセス](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

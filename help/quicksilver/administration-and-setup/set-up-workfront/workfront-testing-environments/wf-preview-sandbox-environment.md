@@ -3,32 +3,34 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: この [!DNL Adobe Workfront] サンドボックス環境をプレビュー
+title: The [!DNL Adobe Workfront] サンドボックス環境をプレビュー
 description: プレビューサンドボックスは、ライブ環境のレプリカとして機能するテスト環境です。 Workfrontは毎週末にリフレッシュします。 ライブ環境に追加されたデータは、金曜日に次の月曜日までにプレビューサンドボックスに表示されます。 すべてのサポートパッケージがこのサンドボックスにアクセスできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
-# この [!DNL Adobe Workfront] サンドボックス環境をプレビュー
+# The [!DNL Adobe Workfront] サンドボックス環境をプレビュー
+
+<!-- Audited: 12/2023 -->
 
 次の 2 つのテスト環境があります。 [!DNL Workfront] のレプリカ [!DNL Workfront] 実稼動環境：
 
 * プレビューサンドボックス
 
-   プレビューサンドボックスは、ライブ環境のレプリカとして機能するテスト環境で、毎週末に [!DNL Workfront]. ライブ環境に追加されたデータは、金曜日に次の月曜日までにプレビューサンドボックスに表示されます。
+  プレビューサンドボックスは、ライブ環境のレプリカとして機能するテスト環境で、次の日程で毎週末更新されます。 [!DNL Workfront]. ライブ環境に追加されたデータは、金曜日に次の月曜日までにプレビューサンドボックスに表示されます。
 
-   すべてのサポートパッケージは、プレビューサンドボックスにアクセスできます。
+  すべてのサポートパッケージは、プレビューサンドボックスにアクセスできます。
 
 * カスタム更新サンドボックス
 
-   カスタム更新サンドボックスは、個別のテスト環境で、手動で更新されます。 カスタム更新サンドボックスを取得するには、追加のコストが必要です。 この環境について詳しくは、 [この [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  カスタム更新サンドボックスは、個別のテスト環境で、手動で更新されます。 カスタム更新サンドボックスを取得するには、追加のコストが必要です。 この環境について詳しくは、 [The [!DNL Adobe Workfront] カスタム更新サンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,11 +61,11 @@ ht-degree: 0%
 
 プレビューサンドボックスは、組織のユーザーが実稼動環境に影響を与えることなく、実稼動環境のデータを安全にテストし、操作できる環境の役割を果たします。
 
-プレビューサンドボックスには、実際の実稼動データが含まれています。ただし、毎週末に更新されるので、実稼動環境で最大 1 週間遅れるデータを保持できます。 最後の更新時間以降に作成された項目は、次の更新がおこなわれるまで、プレビューサンドボックス環境にあります。
+プレビューサンドボックスには、実際の実稼動データが含まれますが、毎週末に更新されるので、データは実稼動環境から最大 1 週間遅れる場合があります。 最後の更新時間以降に作成された項目は、次の更新がおこなわれるまで、プレビューサンドボックス環境にあります。
 
 データフローは、実稼動からプレビューに一方向に（逆方向ではなく）流れます。 プレビュー環境の更新は、次の条件で常にスケジュールされます。 [!DNL Workfront] 毎週末。
 
-プレビューサンドボックスでは、 [!DNL Workfront] 新しい機能を実稼動環境にデプロイする前に、安全な環境にデプロイする場合。 新機能をテストし、 [!DNL Workfront] プレビューサンドボックスにアクセスして機能に関するフィードバック。 このため、プレビューサンドボックスのコードは、週に 1 回のデータ更新がおこなわれるものの、実稼動コードよりも常に優先されています。
+プレビューサンドボックスでも次のことが可能です。 [!DNL Workfront] 新しい機能を実稼動環境にデプロイする前に、安全な環境にデプロイする場合。 新機能をテストし、 [!DNL Workfront] プレビューサンドボックスにアクセスして機能に関するフィードバック。 このため、プレビューサンドボックスのコードは、週に 1 回のデータ更新がおこなわれるものの、実稼動コードよりも常に優先されています。
 
 プレビュー環境は、トレーニングの実行、新機能のテスト、セットアップ機能の決定に最適です。
 
@@ -79,20 +81,18 @@ ht-degree: 0%
 
 デフォルトでは、 [!DNL Workfront] 管理者、 [!UICONTROL プレビュー] サンドボックス環境。 次にアクセスできない場合： [!UICONTROL プレビュー] この節で説明するサンドボックス環境は、 [!DNL Workfront] 管理者またはカスタマーサポートチームに問い合わせます。
 
-* [からプレビューサンドボックスにアクセスする [!DNL Workfront] インターフェイス](#accessing-the-preview-sandbox-from-the-workfront-interface)
-* [URL を使用したプレビューサンドボックスへのアクセス](#accessing-the-preview-sandbox-using-a-url)
 
-### からプレビューサンドボックスにアクセスする [!DNL Workfront] インターフェイス {#accessing-the-preview-sandbox-from-the-workfront-interface}
+### からプレビューサンドボックスにアクセスする方法 [!DNL Workfront] インターフェイス {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
 As a [!DNL Workfront] 管理者は、 [!DNL Workfront] インターフェイス。
 
 プレビューサンドボックスにアクセスするには：
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
 
 1. クリック **[!UICONTROL システム]** > **[!UICONTROL 環境設定]**.
 
-1. 内 **[!UICONTROL テスト環境]** セクションで、 **[!UICONTROL サンドボックスプレビュー]**.
+1. Adobe Analytics の **[!UICONTROL テスト環境]** セクションで、 **[!UICONTROL サンドボックスプレビュー]**.
 
 1. プレビュー資格情報を使用してログインします。
 
@@ -100,8 +100,7 @@ As a [!DNL Workfront] 管理者は、 [!DNL Workfront] インターフェイス�
 
 ### URL を使用したプレビューサンドボックスへのアクセス {#accessing-the-preview-sandbox-using-a-url}
 
-* [クラスター 1、2、3、5 のアカウントのプレビューサンドボックスへのアクセス](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5)
-* [クラスター 4 のアカウント（EMEA アカウント）のプレビューサンドボックスへのアクセス](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
+URL を使用してプレビューサンドボックスにアクセスできます。
 
 #### クラスター 1、2、3、5 のアカウントのプレビューサンドボックスへのアクセス {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
@@ -115,13 +114,16 @@ URL を使用してプレビューサンドボックスにログインするに�
 
 1. 次の URL に移動します。 `https://companyname.preview.workfront.com/`.
 
-   EMEA のお客様で、お客様のアカウントがクラスター 4 にある場合は、の節を参照してください。 [クラスター 4 のアカウント（EMEA アカウント）のプレビューサンドボックスへのアクセス](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) 」を参照してください。
+   EMEA のお客様で、お客様のアカウントがクラスター 4 にある場合は、以下の「クラスター 4（EMEA アカウント）のアカウントのプレビューサンドボックスへのアクセス」の節を参照してください。
 
 1. プレビュー資格情報を使用してログインします。
 
-   プレビューの更新後に実稼動環境で変更した場合を除き、プレビューの資格情報は実稼動環境の資格情報と同じにする必要があります。 ログインは、更新が発生した場合にのみ同期されます。 自動的には同期されません。
+   >[!TIP]
+   >
+   >プレビューの更新後に実稼動環境で変更した場合を除き、プレビューの資格情報は実稼動環境の資格情報と同じにする必要があります。 ログインは、更新が発生した場合にのみ同期されます。 自動的には同期されません。
 
-#### クラスター 4 のアカウント（EMEA アカウント）のプレビューサンドボックスへのアクセス {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
+
+#### クラスター 4 のアカウントのプレビューサンドボックスへのアクセス（EMEA アカウント） {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
 URL を使用してプレビューサンドボックスにログインするには：
 
@@ -139,7 +141,7 @@ Workfrontは、プレビューサンドボックス環境からのすべての�
 
 >[!NOTE]
 >
->モバイルアプリのレポート配信とプッシュ通知は、プレビューサンドボックス環境では常に無効になります。 あなたも [!DNL Workfront] 管理者は、プレビューサンドボックス環境にアクセスする際に、モバイルアプリのレポート配信またはプッシュ通知を有効にすることができます。
+>モバイルアプリのレポート配信とプッシュ通知は、プレビューサンドボックス環境では常に無効になります。 お前も [!DNL Workfront] 管理者は、プレビューサンドボックス環境にアクセスする際に、モバイルアプリのレポート配信またはプッシュ通知を有効にすることができます。
 >
 >実稼動環境向けのレポート配信について詳しくは、 [レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
