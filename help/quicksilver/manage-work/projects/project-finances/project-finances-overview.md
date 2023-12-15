@@ -2,20 +2,20 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: プロジェクトの財務
+title: 「プロジェクトの財政状況：記事指数」
 description: 次の記事には、プロジェクトの財務情報を検索できる領域と、プロジェクトの財務管理方法に関する情報が含まれています。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
-# プロジェクトの財務
+# プロジェクトの財政状況：記事インデックス
 
 プロジェクトの財務情報を検索できる領域およびプロジェクトの財務管理方法の詳細は、次の記事を参照してください。
 

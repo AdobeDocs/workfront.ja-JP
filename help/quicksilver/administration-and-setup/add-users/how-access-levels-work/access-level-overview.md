@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 681d3b74eec1388f3b6cc7edf51422e0019cc318
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1696'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Workfrontには、次の 5 つの新しい組み込みアクセスレベルが�
         <td>ユーザーは、Workfrontオブジェクトの作成、編集、削除および共有ができます</td>
     </tr>
     <tr>
-        <td>ビュー</td>
+        <td>表示</td>
         <td>ユーザーは、 Workfrontオブジェクトを確認および共有できます</td>
     </tr>
     <tr>
@@ -277,8 +277,8 @@ Light アクセスレベルのオブジェクトに対して使用できる最�
 
 | Workfrontオブジェクトの種類 | アクセスなし | アクセスを表示 | アクセスを編集 |
 |---|---|---|---|
-| プロジェクト |   | ✓ （プロジェクトの詳細ページのみ） |   |
-| タスク |   | ✓（詳細ページのみ） |   |
+| プロジェクト |   | ✓ |   |
+| タスク |   | ✓ |   |
 | 問題 |   |   | ✓ |
 | ポートフォリオ | ✓ |   |   |
 | プログラム | ✓ |   |   |

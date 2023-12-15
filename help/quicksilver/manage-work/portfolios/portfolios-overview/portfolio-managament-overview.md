@@ -6,9 +6,9 @@ description: PortfolioまたはプロジェクトPortfolio管理 (PPM) は、特
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf6356151e7f39f71c0524c1aa33f36dfac3792c
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ PortfolioまたはプロジェクトPortfolio管理 (PPM) は、特定のビジ�
 
 プロジェクトに優先順位を付け、 [!DNL Workfront].
 
-次の図は、 [!DNL Workfront]:
+次の図は、の PPM プロセスの概要を示しています。 [!DNL Workfront]:
 
 ![](assets/pm1-350x88.png)
 
@@ -57,13 +57,13 @@ PortfolioまたはプロジェクトPortfolio管理 (PPM) は、特定のビジ�
 
 プロジェクトリクエストを送信すると、Portfolioマネージャーまたはエグゼクティブチームがそのリクエストをレビューし、承認するかどうかを決定します。 承認されている場合は、会社のプロジェクトPortfolioに選択されます。
 
-ポートフォリオについて詳しくは、 [Portfolioの概要 [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)ビジネス事例の承認の詳細については、 [ビジネスケースの承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+ポートフォリオについて詳しくは、 [Portfolioの概要： [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)ビジネス事例の承認の詳細については、 [ビジネスケースの承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### ポートフォリオの最適化 {#portfolio-optimization}
 
 すべてのプロジェクトをポートフォリオに追加した後、Portfolioマネージャは、組織にとっての価値、整合、メリットに応じて最適化し、優先順位付けします。
 
-ポートフォリオの最適化の詳細については、 [Optimizer でのプロジェクトのPortfolio](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+ポートフォリオの最適化について詳しくは、 [Optimizer でのプロジェクトのPortfolio](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
 ### リソース計画 {#resource-planning}
 
@@ -75,9 +75,9 @@ PortfolioまたはプロジェクトPortfolio管理 (PPM) は、特定のビジ�
 
 ### プロジェクトの実行 {#project-execution}
 
-Portfolioマネージャからプロジェクトの承認を受け、リソースマネージャからリソースの検証を受け取った後、プロジェクト所有者は、プロジェクトを「 [!UICONTROL 現在] ユーザーは作業を開始して、プロジェクトを完了できます。 このフェーズでは、プロジェクトの基準点を元の状態に保つために、プロジェクトの基準線をキャプチャすることをお勧めします。
+Portfolioマネージャからプロジェクトの承認を受け、リソースマネージャからリソースの検証を受け取った後、プロジェクト所有者は、プロジェクトを「 [!UICONTROL 現在] ユーザーが作業を開始して、プロジェクトを完了できます。 このフェーズでは、プロジェクトの基準点を元の状態に保つために、プロジェクトの基準線をキャプチャすることをお勧めします。
 
-でのプロジェクト管理の詳細 [!DNL Workfront]を参照してください。 [プロジェクト管理](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+でのプロジェクト管理の詳細 [!DNL Workfront]を参照してください。 [プロジェクト管理：記事インデックス](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 プロジェクトでのベースラインの作成の詳細については、「 [プロジェクトの基準を作成](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### 事後プロジェクト {#project-postmortem}

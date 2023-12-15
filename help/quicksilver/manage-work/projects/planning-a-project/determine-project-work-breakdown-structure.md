@@ -6,9 +6,9 @@ description: プロジェクトの作業分類構造 (WBS) の定義とは、プ
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Workfrontでのリソース管理を使用すると、プロジェクトを完�
 
 Workfrontは、各タスクの予定コストとプロジェクトの総コストを計算します。 タスクの予定コストには、タスクのすべての費用に加えて、タスクに割り当てられた従業員または役割のコストが含まれます。 タスク、役割、従業員の時間別レートは、タスク、役割、ユーザーの作成時に割り当てられます。
 
-プロジェクトの財政状況の詳細については、「 [プロジェクトの財政](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+プロジェクトの財政状況の詳細については、「 [プロジェクトの財政状況：記事インデックス](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## プロジェクトの承認ポイントの決定
 

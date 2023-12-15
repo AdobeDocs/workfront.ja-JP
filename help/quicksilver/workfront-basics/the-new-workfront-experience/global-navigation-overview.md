@@ -5,9 +5,9 @@ description: 上部ナビゲーションバー — 新しい [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー]
      <li>[!UICONTROL ホーム ]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">[!UICONTROL Home] 領域の使用</a></li> 
      <li>[!UICONTROLPortfolio]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio管理</a></li> 
      <li>[!UICONTROL プログラム ]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">プログラムの作成と管理 </a></li> 
-     <li>[!UICONTROL プロジェクト ]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">プロジェクト</a></li> 
+     <li>[!UICONTROL プロジェクト ]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">プロジェクト：記事インデックス</a></li> 
      <li>[!UICONTROL レポート ]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">レポート</a></li> 
      <li>[!UICONTROL ダッシュボード ]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">ダッシュボード</a></li> 
      <li>[!UICONTROL カレンダー ]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">カレンダー</a></li> 
@@ -103,7 +103,7 @@ The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー]
      <li>[!UICONTROL リクエスト ]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">リクエストの作成</a></li> 
      <li>[!UICONTROL タイムシート ]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">タイムシート：記事インデックス</a></li> 
      <li>[!UICONTROL ドキュメント ]: <a href="../../documents/documents-overview.md" class="MCXref xref">ドキュメント</a></li> 
-     <li>[!UICONTROL テンプレート ]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">プロジェクトテンプレートの作成と管理</a></li> 
+     <li>[!UICONTROL テンプレート ]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">プロジェクトテンプレートの作成と管理：記事インデックス</a></li> 
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">分析の概要の強化</a></li> 
      <li>[!UICONTROL 目標 ]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 概要</a></li> 
      <li>[!UICONTROL シナリオ ]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">シナリオプランナーの概要</a></li> 

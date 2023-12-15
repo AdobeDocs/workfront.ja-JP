@@ -7,9 +7,9 @@ description: メインメニューは、 [!DNL Adobe Workfront] 管理者。 デ
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ As a [!UICONTROL 作業者]の主な責任は、作業を完了することで�
 
 * **[!UICONTROL ホーム]**：割り当てられたタスクとタスクがここに表示されます。 これは、Worker のデフォルトのランディングページですが、 [!UICONTROL メインメニュー] ( Workfront管理者がレイアウトテンプレートに追加しない限り )。  詳しくは、 [の基本を学ぶ [!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL プロジェクト]**：自分と共有されているプロジェクトがここに表示されます。 詳しくは、 [プロジェクト](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL プロジェクト]**：自分と共有されているプロジェクトがここに表示されます。 詳しくは、 [プロジェクト：記事インデックス](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL レポート]**：自分と共有されているレポートがここに表示されます。 詳しくは、 [レポート](../../../reports-and-dashboards/reports/reports-overview.md).
 

@@ -7,7 +7,7 @@ description: 統合可能な [!DNL Adobe Workfront] サードパーティのア�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 3%
@@ -15,6 +15,8 @@ ht-degree: 3%
 ---
 
 # Adobe Workfrontの組み込み統合の概要
+
+<!-- Audited: 12/2023 -->
 
 統合可能な [!DNL Adobe Workfront] サードパーティのアプリケーション、およびその他の [!DNL Adobe] 製品。 これらの統合は、のユーティリティを拡張できます [!DNL Workfront] 組織のニーズに合わせて調整します。 例えば、マーケティング業界のクリエイティブワーカーの場合、 [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] PhotoshopからWorkfrontに直接アセットを書き出すアプリケーション。
 

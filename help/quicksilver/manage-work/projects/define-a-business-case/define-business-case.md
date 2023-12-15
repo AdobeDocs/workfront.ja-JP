@@ -1,20 +1,20 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: ビジネスケースの定義
+title: "ビジネスケースの定義：記事インデックス"
 description: ビジネスケースを作成することで、プロジェクトを正式かつ効率的にリクエストできます。 次の記事では、プロジェクトのビジネス事例を定義する必要がある情報について説明します。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# ビジネスケースの定義
+# ビジネスケースの定義：記事インデックス
 
 この節では、次の記事を扱います。
 

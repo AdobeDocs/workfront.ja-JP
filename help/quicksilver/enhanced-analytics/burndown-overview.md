@@ -7,7 +7,7 @@ description: バーンダウンビジュアライゼーションは、特定の�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # 拡張分析でのバーンダウンビジュアライゼーションの表示
+
+<!-- Audited: 12/2023 -->
 
 バーンダウンビジュアライゼーションは、特定のプロジェクトの時間の経過に伴うバーンダウンを示し、プロジェクトの状態、速度、残り時間（日数）間の関係を理解するのに役立ちます。
 

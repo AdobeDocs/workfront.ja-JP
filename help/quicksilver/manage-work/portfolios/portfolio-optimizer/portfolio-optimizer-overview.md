@@ -7,9 +7,9 @@ description: The [!UICONTROL Portfolioの最適化] は、プロジェクトの�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ The [!UICONTROL Portfolioの最適化] は、プロジェクトの評価と比�
 
 The [!UICONTROL Portfolioの最適化] は、次の前提条件を満たしている場合にのみ、サポートを提供します。
 
-
-* The [!UICONTROL ビジネス事例] プロジェクトが完了しました。 詳しくは、「 」セクションの記事を参照してください。 [ビジネスケースの定義](../../projects/define-a-business-case/define-business-case.md).
-* ポートフォリオは、レビューするプロジェクトの「プロジェクトの詳細」セクションの「プロジェクトの概要」領域で定義します
+* The [!UICONTROL ビジネス事例] プロジェクトが完了しました。 詳しくは、 [ビジネスケースの定義：記事インデックス](../../projects/define-a-business-case/define-business-case.md).
+* ポートフォリオは、レビューするプロジェクトの「プロジェクトの詳細」セクションの「プロジェクトの概要」領域で定義します。
 * レビューするプロジェクトに対して、「プロジェクト予算」と「計画特典」が指定されています。 「固定コスト」と「固定売上高」はオプションですが、値を追加します。 詳しくは、 [プロジェクトの財務分野](../../projects/project-finances/project-finances-overview-1.md).
-
 
 の場所の詳細については、 [!UICONTROL Portfolioの最適化]を参照してください。 [次を見つけます。 [!UICONTROL Portfolioの最適化]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 

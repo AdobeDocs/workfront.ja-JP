@@ -2,19 +2,19 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: プロジェクトの計画
+title: "プロジェクトの計画：記事インデックス"
 description: 次の記事には、プロジェクト、プロジェクトチーム、およびプロジェクトの計画方法に関する情報が含まれています。
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# プロジェクトの計画
+# プロジェクトの計画：記事インデックス
 
 プロジェクト情報、プロジェクトチーム、およびプロジェクトの計画方法については、次の記事を参照してください。
 

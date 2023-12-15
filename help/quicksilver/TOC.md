@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 62b18c06c05a2a36386bd7fb3c0e33c32b507d63
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '13796'
+source-wordcount: '13812'
 ht-degree: 1%
 
 ---
@@ -1132,9 +1132,9 @@ ht-degree: 1%
 * 作業を管理 {#manage-work}
    * [作業を管理](manage-work/manage-work.md)
    * プロジェクト {#projects}
-      * [プロジェクト](manage-work/projects/projects-overview.md)
+      * [プロジェクト：記事インデックス](manage-work/projects/projects-overview.md)
       * プロジェクトの計画 {#plan-a-project}
-         * [プロジェクトの計画](manage-work/projects/planning-a-project/plan-project-overview.md)
+         * [プロジェクトの計画：記事インデックス](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [プロジェクトの概要の計画](manage-work/projects/planning-a-project/plan-project.md)
          * [プロジェクト内の作業分類構造の決定](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
          * [プロジェクトチームの概要](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -1155,14 +1155,14 @@ ht-degree: 1%
          * [プロジェクトの進行状況ステータスの概要](manage-work/projects/planning-a-project/project-progress-status.md)
          * [プロジェクトの概要予定開始日](manage-work/projects/planning-a-project/project-projected-start-date.md)
       * プロジェクトの作成 {#create-projects}
-         * [プロジェクトの作成](manage-work/projects/create-projects/create-projects-overview.md)
+         * [プロジェクトの作成：記事インデックス](manage-work/projects/create-projects/create-projects-overview.md)
          * [プロジェクトの作成](manage-work/projects/create-projects/create-project.md)
          * [プロジェクトのリクエスト](manage-work/projects/create-projects/request-project.md)
          * [テンプレートを使用したプロジェクトの作成](manage-work/projects/create-projects/create-project-from-template.md)
          * [Microsoft Project からプロジェクトを読み込む](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [プロジェクトの基準を作成](manage-work/projects/create-projects/create-baselines.md)
       * プロジェクトの作業を更新する {#update-work-on-a-project}
-         * [プロジェクトの作業を更新する](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+         * [プロジェクトの作業を更新する：記事のインデックス](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [グループに関連付けられた作業にステータスを適用する](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
          * [タスクステータスを更新](manage-work/projects/updating-work-in-a-project/update-task-status.md)
          * [問題ステータスを更新](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1173,7 +1173,7 @@ ht-degree: 1%
          * [タスクおよび問題の条件を更新](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [プロジェクトの条件を更新](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
       * プロジェクト管理 {#manage-projects}
-         * [プロジェクト管理](manage-work/projects/manage-projects/manage-projects-overview.md)
+         * [プロジェクト管理：記事インデックス](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [プロジェクトを編集](manage-work/projects/manage-projects/edit-projects.md)
          * [プロジェクトのコピー](manage-work/projects/manage-projects/copy-project.md)
          * [プロジェクトをテンプレートとして保存する](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1195,7 +1195,7 @@ ht-degree: 1%
          * [プロジェクト指標の概要](manage-work/projects/manage-projects/project-metrics.md)
          * [プロジェクト制限の概要](manage-work/projects/manage-projects/project-maximums.md)
       * プロジェクトテンプレートの作成と管理 {#create-and-manage-project-templates}
-         * [プロジェクトテンプレートの作成と管理](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+         * [プロジェクトテンプレートの作成と管理：記事インデックス](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [プロジェクトテンプレートの概要](manage-work/projects/create-and-manage-templates/project-template-overview.md)
          * [プロジェクトテンプレートの作成](manage-work/projects/create-and-manage-templates/create-template.md)
          * [例からプロジェクトテンプレートを作成する](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -1212,7 +1212,7 @@ ht-degree: 1%
          * [テンプレートの開始日と完了日の概要](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [プロジェクトへのテンプレートのアタッチの概要](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * ビジネスケースの定義 {#define-business-case}
-         * [ビジネスケースの定義](manage-work/projects/define-a-business-case/define-business-case.md)
+         * [ビジネスケースの定義：記事インデックス](manage-work/projects/define-a-business-case/define-business-case.md)
          * [ビジネス事例の領域の概要](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [プロジェクトのビジネスケースの作成](manage-work/projects/define-a-business-case/create-business-case.md)
          * [ビジネスケースの承認](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1226,7 +1226,7 @@ ht-degree: 1%
          * [プロジェクトのリスクの作成と編集](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
          * [プロジェクトのビジネス事例のエクスポート](manage-work/projects/define-a-business-case/export-business-case.md)
       * プロジェクトの財務 {#project-finances}
-         * [プロジェクトの財政](manage-work/projects/project-finances/project-finances-overview.md)
+         * [プロジェクトの財政状況：記事インデックス](manage-work/projects/project-finances/project-finances-overview.md)
          * [プロジェクトの財務分野](manage-work/projects/project-finances/project-finances-overview-1.md)
          * [プロジェクトの財務を再計算](manage-work/projects/project-finances/recalculate-project-finances.md)
          * [プロジェクトの基準に含まれるプロジェクトの財務](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
@@ -1255,7 +1255,7 @@ ht-degree: 1%
          * [プロジェクトの予算労務費と予算時間の把握](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [計画労務費の計算](manage-work/projects/project-finances/planned-labor-cost.md)
       * プロジェクトに関するヒント、テクニック、トラブルシューティング {#tips-tricks-troubleshooting-for-projects}
-         * [プロジェクトに関するヒント、テクニック、トラブルシューティング](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+         * [ヒント、テクニックおよびトラブルシューティング：記事のインデックス](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [プロジェクトに関する FAQ](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [プロジェクトのステータスは、完了から現在には変更されません](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
          * [計算の例 — EAC をタスクからのロールアップとして計算](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)

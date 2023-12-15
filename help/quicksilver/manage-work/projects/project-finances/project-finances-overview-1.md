@@ -7,9 +7,9 @@ description: プロジェクトを管理するには、プロジェクトの財�
 author: Alina
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -25,13 +25,13 @@ Workfrontでは、予算、コスト、売上高をキャプチャする多数�
 詳しくは、次の記事も参照してください。
 
 * [Adobe Workfrontの用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [プロジェクトの財政](../../../manage-work/projects/project-finances/project-finances-overview.md)
-* [プロジェクトの財務エリアで情報を管理します](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
-* [[ タスクの詳細 ] セクションでタスクの財務を管理します](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [プロジェクトの財政状況：記事インデックス](../../../manage-work/projects/project-finances/project-finances-overview.md)
+* [プロジェクトの財務エリアで情報を管理します。](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+* [[ タスクの詳細 ] セクションでタスクの財政状況を管理します](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
 ## Workfrontが財政を計算する方法
 
-Workfrontのプロジェクトレベルおよびタスクレベルで、財務フィールドを追跡できます。 問題に関して、限られた財務分野を追跡できます。
+Workfrontのプロジェクトレベルおよびタスクレベルで、財務フィールドを追跡できます。 問題に関して、限られた財務分野を常に追跡できます。
 
 次の表に、Workfrontで追跡可能な財政と、どのオブジェクトに関する財政の一部を示します。
 
@@ -67,7 +67,7 @@ Workfrontのプロジェクトレベルおよびタスクレベルで、財務�
   </tr> 
   <tr> 
    <td>予算</td> 
-   <td> <p>プロジェクトの予算設定の詳細については、 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">プロジェクトの財務エリアで情報を管理します</a>.</p> <p>プロジェクトのリソースの予算設定の詳細については、 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">ビジネス事例の予算リソース</a>.</p> </td> 
+   <td> <p>プロジェクトの予算設定の詳細については、 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">プロジェクトの財務エリアで情報を管理します。</a>.</p> <p>プロジェクトのリソース予算の作成については、 <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">ビジネス事例の予算リソース</a>.</p> </td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
@@ -95,7 +95,7 @@ Workfrontのプロジェクトレベルおよびタスクレベルで、財務�
   </tr> 
   <tr> 
    <td>請求件の料率</td> 
-   <td> <p>ユーザーまたはジョブロールの請求率を設定できます。</p> <p>ユーザーと請求率の関連付けについて詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>.</p> <p>ジョブの役割と請求率の関連付けについて詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">ジョブの役割の作成と管理</a>.</p> <p>請求率は、プロジェクトとタスクの売上高を計算します。 プロジェクトまたは会社のロール請求率を上書きできます。 </p> <p>プロジェクトの請求率の上書きについては、 <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">ジョブ・ロール請求率の上書きとプロジェクトの収益の計算の概要</a>.</p> <p>会社の請求レートの上書きについて詳しくは、 <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">プロジェクト・レベルの請求率を会社レベルの請求率で上書き</a>.</p> </td> 
+   <td> <p>ユーザーまたはジョブロールの請求率を設定できます。</p> <p>ユーザーと請求率の関連付けについて詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>.</p> <p>ジョブの役割と請求率の関連付けについて詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">ジョブの役割の作成と管理</a>.</p> <p>請求率は、プロジェクトとタスクの売上高を計算します。 プロジェクトまたは会社のロール請求率を上書きできます。 </p> <p>プロジェクトの請求率の上書きについては、 <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">ジョブ・ロール請求率の上書きとプロジェクトでの収益の計算の概要</a>.</p> <p>会社の請求レートの上書きについて詳しくは、 <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">プロジェクト・レベルの請求率を会社レベルの請求率で上書き</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -109,7 +109,7 @@ Workfrontのプロジェクトレベルおよびタスクレベルで、財務�
   </tr> 
   <tr> 
    <td>純価値に対するリスク</td> 
-   <td>純価値へのリスクの計算の詳細は、 <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">ポートフォリオ内の純価値に対するリスクを計算</a>.</td> 
+   <td>純価値へのリスクの計算の詳細は、 <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">ポートフォリオ内の純価値に対するリスクを計算する</a>.</td> 
    <td> </td> 
    <td>✔</td> 
    <td> </td> 
@@ -137,7 +137,7 @@ Workfrontのプロジェクトレベルおよびタスクレベルで、財務�
   </tr> 
   <tr> 
    <td>CPI（コスト効果指数）</td> 
-   <td>CPI の計算の詳細については、 <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">コスト効果指数 (CPI) の計算</a>.</td> 
+   <td>CPI の計算については、 <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">コスト効果指数 (CPI) の計算</a>.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
@@ -151,7 +151,7 @@ Workfrontのプロジェクトレベルおよびタスクレベルで、財務�
   </tr> 
   <tr> 
    <td>予定作業コスト (BCWS)</td> 
-   <td>パフォーマンス指標。 BCWS の計算の詳細については、 <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">予定作業コストの計算 (BCWS)</a>. </td> 
+   <td>パフォーマンス指標。 BCWS の計算の詳細については、 <a href="../../../manage-work/projects/project-finances/calculate-bcws.md" class="MCXref xref">予定作業時間原価の計算 (BCWS)</a>. </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 
