@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
 workflow-type: tm+mt
-source-wordcount: '4918'
-ht-degree: 4%
+source-wordcount: '4927'
+ht-degree: 3%
 
 ---
 
@@ -499,6 +499,10 @@ ht-degree: 4%
 ### 外部参照フィールドの追加
 
 外部参照フィールドは、外部 API を呼び出し、値をドロップダウンフィールドのオプションとして返します。 カスタムフォームが添付されているオブジェクトを操作するユーザーは、ドロップダウンからこれらのオプションを 1 つ以上選択できます。
+
+>[!NOTE]
+>
+>外部参照機能は、Document オブジェクトでは使用できません。
 
 外部参照を追加する手順は、次のとおりです。
 
