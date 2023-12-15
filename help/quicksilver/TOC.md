@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
 workflow-type: tm+mt
-source-wordcount: '13810'
+source-wordcount: '13812'
 ht-degree: 1%
 
 ---
@@ -1634,7 +1634,7 @@ ht-degree: 1%
          * [表示：ユーザーの個人的な休止時間](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
          * [複数選択できるカスタムフィールドによってレポートをグラフ化する](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
       * テキストモードのリソース {#text-mode}
-         * [テキストモードのリソース](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+         * [テキストモードのリソース：記事のインデックス](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
          * [テキストモードの概要](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
          * [テキストモードの一般的な使用例の概要](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
          * [テキストモードの構文の概要](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
