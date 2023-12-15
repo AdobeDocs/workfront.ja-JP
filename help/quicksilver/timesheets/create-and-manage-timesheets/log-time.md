@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3568'
 ht-degree: 0%
 
 ---
 
 # 時間のログ記録
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ Workfrontにログインできる時間の種類について詳しくは、 [時
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>新規プラン：<ul><li>タイムシートの一般時間を記録するには、明るいかそれ以上の値を指定します</li></p>
+   <td> <p>新規：<ul><li>タイムシートの一般時間を記録するには、明るいかそれ以上の値を指定します</li></p>
    <li> 標準以降：プロジェクト、タスクまたはイシューに時間を記録します。</li></ul></p>
    <p>または</p>
-   <p>現在のプラン：<ul><li>タイムシートの一般時間を記録するには、確認するか、それ以上を指定します</li></p>
+   <p>現在：<ul><li>タイムシートの一般時間を記録するには、確認するか、それ以上を指定します</li></p>
    <li> 作業時間以上：プロジェクト、タスク、またはタスクに時間を記録します。</li></ul></p>
    </td> 
   </tr> 

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '13812'
+source-wordcount: '13810'
 ht-degree: 1%
 
 ---
@@ -1436,7 +1436,7 @@ ht-degree: 1%
          * [プロジェクトの要求タイプの定義](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
       * リクエストの作成 {#create-requests}
          * [リクエストの作成](manage-work/requests/create-requests/create-requests.md)
-         * [Adobe Workfront要求の作成と送信](manage-work/requests/create-requests/create-submit-requests.md)
+         * [リクエストの作成と送信](manage-work/requests/create-requests/create-submit-requests.md)
          * [下書きからのリクエストの作成](manage-work/requests/create-requests/create-requests-from-drafts.md)
          * [ユーザーが問題をリクエストキュープロジェクトに電子メールで送信できるようにします](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
          * [送信された要求を見つける](manage-work/requests/create-requests/locate-submitted-requests.md)

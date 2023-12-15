@@ -5,9 +5,9 @@ title: を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Ser
 description: 作業内容を [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] 計画*</strong>
+   <td><strong>[!DNL Adobe Workfront] plan*</strong>
    </td>
    <td>任意
    </td>
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 始める前に
 
-* 必要な機能は次のとおりです。 [!DNL Workfront] および [!DNL Adobe Experience Manager Assets] を [!DNL Adobe Admin Consol]e.詳しくは、 [プラットフォームベースの管理上の違い ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* 必要な機能は次のとおりです。 [!DNL Workfront] および [!DNL Adobe Experience Manager Assets] を [!DNL Adobe Admin Console]. 詳しくは、 [プラットフォームベースの管理上の違い ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## 統合情報の設定
@@ -242,7 +242,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 Adobe Experience Managerの統合では、次のワークフローを使用できます。
 
 * [Adobe Experience Managerにリンクされたフォルダーの作成](#create-adobe-experience-manager-linked-folders)
-* [Adobe Experience Manager Assets に送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Adobe Experience Manager Assetsに送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Adobe Experience Managerにリンクされたフォルダーの作成
 
@@ -250,9 +250,9 @@ Adobe Experience Managerの統合では、次のワークフローを使用で�
 1. フォルダーパスを選択して、この統合に関連付けるリンクされたすべてのフォルダーの場所を指定します。
    ![リンクされたフォルダーナビゲーション](assets/select-folder-aem-integration.png)
 1. を有効にします。 **[!UICONTROL Portfolio名とプログラム名を追加]** リンクされたPortfolioの名前の最後にフォルダ名とプログラム名を自動的に含めるオプション。
-1. クリック **[!UICONTROL 保存]** または、 [Adobe Experience Manager Assets に送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 」の節を参照してください。
+1. クリック **[!UICONTROL 保存]** または、 [Adobe Experience Manager Assetsに送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 」の節を参照してください。
 
-### Adobe Experience Manager Assets に送信されたアセットの公開
+### Adobe Experience Manager Assetsに送信されたアセットの公開
 
 1. オンに切り替え **[!UICONTROL アセットを自動的に公開]**.
 1. Adobe Experience Manager Assets に送信するアセットを公開する場所の横にあるチェックボックスをオンにします。 どちらかまたは両方のオプションを有効にできます。

@@ -7,7 +7,7 @@ description: ファイルの作成に使用するソフトウェア (Photoshop�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 8d9fc0f391f24a513f118e904da35af4467f0c95
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # サポートされている検証ファイルの種類とサイズ制限の概要
+
+<!--Audited: 12/2023-->
 
 ファイルの作成に使用するソフトウェア (PhotoshopやIllustratorなど ) がコンピューターにインストールされていない場合でも、様々な種類のファイルをレビュー担当者と共有してレビューできます。 アドビでは、最大 4 GB までの静的、ビデオ、オーディオ、Web キャプチャ、インタラクティブなファイルタイプをサポートしています。
 

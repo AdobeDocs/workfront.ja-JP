@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセスレベルを割り当てます。
 
-* Workfrontにログインして作業するには、すべてのユーザーにアクセスレベルが必要です。
-* アクセスレベルを使用して、特定のWorkfrontオブジェクトや領域でユーザーが表示したり実行したりする操作を制御できます。
+* Workfrontにログインして作業するには、各ユーザーにアクセスレベルが必要です。
+* アクセスレベルは、特定のWorkfrontオブジェクトおよび領域に対するユーザーの表示内容と操作内容を制御します。
 
 6 つの組み込みのアクセスレベルは、5 つのWorkfrontライセンス（プラン、作業、レビュー、リクエスト、外部）の 1 つに関連付けられています。
 
@@ -32,7 +32,7 @@ Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセ�
 
 ![](assets/access-levels-and-licenses-old.png)
 
-関連トピックについて詳しくは、次の記事を参照してください。
+アクセスレベルに関するトピックについては、次の記事を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセ�
   <tr> 
    <td><strong>アクセスレベルの割り当て</strong></td> 
    <td> <p>ユーザーにアクセスレベルを割り当てる方法については、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>アクセスレベル標準、ライト、コントリビューター</td> 
+   <td> <p>プラン、作業、レビュー、またはリクエストの代わりに、環境にこれらのアクセスレベルが表示される場合、組織は新しいアクセスレベルモデルを使用します。 新しいモデルの詳細については、 <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新しいアクセスレベルの概要</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 

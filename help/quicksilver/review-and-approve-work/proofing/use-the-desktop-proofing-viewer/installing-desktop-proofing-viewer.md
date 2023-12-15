@@ -6,14 +6,16 @@ description: デスクトップ校正ビューアは、インタラクティブ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # デスクトップ校正ビューアのインストール
+
+<!--Audited: 12/2023-->
 
 デスクトップ校正ビューアは、インタラクティブコンテンツの校正を主目的として設計されています。これは、ローカルマシンにインストールする必要があるアプリケーションです。
 
@@ -34,11 +36,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td> <p>新規：任意</p> <p>または</p> <p>現在： Pro 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td> <p>任意</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td> <p>任意</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ Adobe Workfrontの管理者またはWorkfrontの配達確認管理者が、ア�
 
 >[!NOTE]
 >
->対話式の配達確認を開いたときにデスクトップ校正ビューアが起動しない場合は、WorkfrontまたはWorkfrontの配達確認管理者が、対話式の配達確認用のデフォルトビューアとしてデスクトップ校正ビューアを設定する必要があります ( [デスクトップ校正ビューアで非インタラクティブ校正を開くためのユーザー設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>対話式の配達確認を開いたときにデスクトップ校正ビューアが起動しない場合は、WorkfrontまたはWorkfrontの配達確認管理者が、対話式の配達確認用のデフォルトビューアとしてデスクトップ校正ビューアを設定する必要があります ( [デスクトップ校正ビューアで非インタラクティブ校正を開くためのユーザー設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Windows へのデスクトップ校正ビューアのインストール
 
