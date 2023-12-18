@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -296,6 +296,7 @@ ht-degree: 0%
   詳しくは、 [[!DNL Adobe Workfront Fusion] 概要](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
+* [!DNL Anaplan] （が必要です） [!DNL Workfront Fusion])
 
 WorkfrontとExperience Manager Assets、またはAssets Essentialsの統合により、組織は作業とデジタルアセット管理を本質的に結び付けることで、コンテンツの速度と市場投入までの時間を改善できます。
 

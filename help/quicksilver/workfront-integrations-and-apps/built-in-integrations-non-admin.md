@@ -7,9 +7,9 @@ description: 統合可能な [!DNL Adobe Workfront] サードパーティのア�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,6 @@ ht-degree: 3%
     <ul> 
      <li>で新しいチケットを作成する [!DNL Jira] ～の仕事と課題に基づく [!DNL Workfront]</li> 
      <li>次の間でリンクされたタスクの更新とステータスを同期 [!DNL Workfront] および [!DNL Jira] </li> 
-     <li>両方で機能 [!DNL Jira] サーバーと Jira Cloud </li> 
     </ul> </td> 
   </tr> 
   <tr> 
