@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 02bff4280909c8a7a26a51356503268a87704c06
+source-git-commit: 029bb2267c9fc101ab4f2383b61368c3a5b379ca
 workflow-type: tm+mt
-source-wordcount: '13821'
+source-wordcount: '13825'
 ht-degree: 1%
 
 ---
@@ -470,7 +470,7 @@ ht-degree: 1%
          * [監査ログ](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [監査ログの表示と書き出し](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [ユーザーログイン情報の表示](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-         * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+         * [Adobe Admin Consoleでのユーザー管理](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * 新しいアクセスレベルの仕組み {#access-levels}
          * [新しいアクセスレベルの仕組み](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [新しいアクセスレベルの概要](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
