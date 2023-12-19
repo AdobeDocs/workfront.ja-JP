@@ -2,20 +2,24 @@
 content-type: overview
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Adobe Workfront for Microsoft Teams の概要
+title: Adobe Workfront forMicrosoft Teamsの概要
 description: チームの所有者は、 [!DNL Adobe Workfront for Microsoft Teams] チームのアプリ。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 2%
+source-wordcount: '318'
+ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront for Microsoft Teams] 概要
+
+>[!NOTE]
+>
+>Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
 
 チームオーナーとして [!DNL Microsoft Teams]を使用している場合、 [!DNL Adobe Workfront for Microsoft Teams] チームのアプリ。
 

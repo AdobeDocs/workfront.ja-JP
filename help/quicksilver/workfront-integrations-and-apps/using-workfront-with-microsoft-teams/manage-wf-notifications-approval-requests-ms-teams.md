@@ -6,14 +6,18 @@ description: から通知を受け取ることができます。 [!DNL Adobe Wor
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
 
 # 管理 [!DNL Adobe Workfront] 通知 [!DNL Microsoft Teams]
+
+>[!NOTE]
+>
+>Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
 
 から通知を受け取ることができます。 [!DNL Adobe Workfront] 承認する必要のある項目、自分が与えられた割り当て、または関連付けられている項目に対するコメントや変更について。
 
@@ -33,7 +37,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 

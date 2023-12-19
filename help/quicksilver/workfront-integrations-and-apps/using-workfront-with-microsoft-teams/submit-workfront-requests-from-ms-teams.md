@@ -2,24 +2,28 @@
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
 title: 送信 [!DNL Adobe Workfront] からのリクエスト [!DNL Microsoft] チーム
-description: チームの所有者がMicrosoft Teams用にAdobe Workfrontをインストールしたら、お使いの Team アカウントからWorkfrontのリクエストを送信できます。 リクエストを送信するには、リクエストにアクセスできるWorkfrontアカウントが必要です。 Microsoft Teams用Workfrontのインストールについて詳しくは、Microsoft Teams用Workfrontのインストールを参照してください。
+description: チームの所有者がMicrosoft Teams用にAdobe Workfrontをインストールしたら、お使いの Team アカウントからWorkfrontのリクエストを送信できます。 リクエストを送信するには、リクエストを送信するためのアクセス権を持つWorkfrontアカウントが必要です。 Microsoft Teams用Workfrontのインストールについて詳しくは、Microsoft Teams用Workfrontのインストールを参照してください。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
+source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 1%
+source-wordcount: '517'
+ht-degree: 0%
 
 ---
 
 # 送信 [!DNL Adobe Workfront] からのリクエスト [!DNL Microsoft] チーム
 
-チームの所有者がをインストールした後 [!DNL Adobe Workfront for Microsoft Teams]を送信し、 [!DNL Workfront] から [!DNL Microsoft Teams] アカウント リクエストを送信するには、リクエストにアクセスできるWorkfrontアカウントが必要です。 インストールに関する情報 [!DNL Workfront for Microsoft Teams]を参照してください。 [インストール [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>[!NOTE]
+>
+>Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+
+チームの所有者がをインストールした後 [!DNL Adobe Workfront for Microsoft Teams]を送信する場合、 [!DNL Workfront] から [!DNL Microsoft Teams] アカウント。 リクエストを送信するには、リクエストを送信するためのアクセス権を持つWorkfrontアカウントが必要です。 インストールに関する情報 [!DNL Workfront for Microsoft Teams]を参照してください。 [インストール中 [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] は、 [!DNL Internet Explorer]. 次の手順で [!DNL Adobe Workfront for Microsoft Teams integration]を使用する場合は、 [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] は、サポートを終了しました [!DNL Internet Explorer]. 次の手順で [!DNL Adobe Workfront for Microsoft Teams integration]を使用する場合は、 [!DNL Internet Explorer].
 
 
 ## アクセス要件
@@ -31,7 +35,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -45,16 +49,16 @@ ht-degree: 1%
 
 ## 前提条件
 
-お使いの [!DNL Microsoft Teams] チーム所有者がインストールする必要がある [!DNL Workfront] 対象 [!DNL Microsoft Teams] を使用する前に
+お使いの [!DNL Microsoft Teams] チーム所有者がインストールする必要がある [!DNL Workfront] 対象： [!DNL Microsoft Teams] を使用する前に
 
 ## 送信 [!DNL Workfront] からのリクエスト [!DNL Microsoft Teams]
 
-1. 次をクリック： **[!UICONTROL その他の追加済みアプリ]** （3 ドット）アイコン [!DNL Microsoft Teams].
+1. 次をクリック： **[!UICONTROL その他の追加済みアプリ]** （3 ドット）アイコン ( [!DNL Microsoft Teams].
 
 1. クリック **[!DNL Workfront]** 表示されるリスト内。
 1. 次をクリック： **[!UICONTROL リクエスト]** タブをクリックします。
 1. クリック **[!UICONTROL 新しいリクエスト]**.
-1. 内 **[!UICONTROL リクエストタイプを選択]** ボックスで、リクエストを送信するリクエストキューを選択します。
+1. Adobe Analytics の **[!UICONTROL リクエストタイプを選択]** ボックスで、リクエストを送信するリクエストキューを選択します。
 1. （オプション）リクエストキューで使用可能な場合は、トピックグループまたはキュートピックを選択します。
 1. 次の情報を指定します。
 
@@ -87,7 +91,7 @@ ht-degree: 1%
 
 ## 表示 [!DNL Workfront] 次で送信したリクエスト： [!DNL Microsoft Teams]
 
-1. 次をクリック： **[!UICONTROL その他の追加済みアプリ]** （3 ドット）アイコン [!DNL Microsoft Teams].
+1. 次をクリック： **[!UICONTROL その他の追加済みアプリ]** （3 ドット）アイコン ( [!DNL Microsoft Teams].
 
 1. クリック **[!DNL Workfront]** 表示されるリスト内。
 1. 次をクリック： **[!UICONTROL リクエスト]** タブをクリックします。
@@ -96,11 +100,11 @@ ht-degree: 1%
 
    送信されたリクエストに関する以下の情報を、 [!UICONTROL 送信した要求] 領域 [!UICONTROL リクエスト] タブ：
 
-   * **[!UICONTROL 件名]**:リクエストの名前
+   * **[!UICONTROL 件名]**：リクエストの名前
    * **[!UICONTROL 参照番号]**
-   * **[!UICONTROL リクエストタイプ]**:リクエストを送信したリクエストキューの名前
+   * **[!UICONTROL リクエストタイプ]**：リクエストを送信したリクエストキューの名前。
    * **[!UICONTROL ステータス]**
-   * **[!UICONTROL 送信日]**:リクエストを送信した日付
+   * **[!UICONTROL 送信日]**：リクエストを送信した日付
    * **[!UICONTROL 割り当て先]**
 
 1. （オプション）リスト内の任意の列のヘッダーをクリックして、その列でリストを並べ替えます。 デフォルトでは、 [!DNL Workfront] リストを [!UICONTROL 送信日] 日付。最も新しく送信されたリクエストから始まります。
