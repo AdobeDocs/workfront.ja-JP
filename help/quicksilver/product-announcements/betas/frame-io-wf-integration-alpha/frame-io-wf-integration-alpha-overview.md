@@ -8,7 +8,7 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Workfront + Frame.io 統合アルファプログラムへようこそ！ この�
 両方の利点を最大限に活かし、Frame.io とWorkfront（新しいドキュメント承認を含む）の間で合理化されたエクスペリエンスが、作業の開始からログオフ、配信まで、コンテンツのライフサイクルを促進する方法を確認します。
 
 
-アルファの計画済み機能とテスト方法について詳しくは、 [Adobe Workfrontと Frame.io のネイティブ統合アルファ：機能](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+アルファの計画済み機能とテスト方法について詳しくは、 [Adobe Workfrontと Frame.io のネイティブ統合アルファ：機能](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
 
 >[!NOTE]
 >

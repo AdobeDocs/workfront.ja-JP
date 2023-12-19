@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 4ab78cff65141636e9e2c95526d68face1f278ba
+source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,16 @@ ht-degree: 0%
 
 この統合を通じて、クリエイティブが任意のツール（CC または Frame.io）でコンテンツの作成とピアレビューを行い、プロジェクトマネージャーが作業を調整し、正式なレビュープロセスをWorkfront内で初期化および監視できるようにすることが目標です。 これは、Workfrontが提供するコンテンツレビュー機能と組み合わせて、コンテンツ承認を管理するための新しいドキュメント承認を Frame.io という両方のソリューションを利用することで実現できます。 新しいドキュメント承認と Frame.io をまとめて、新しいエンドツーエンドのコンテンツレビューと承認エクスペリエンスを形成します。 
 
-アルファが機能する方法と参加する方法について詳しくは、 [Adobe Workfrontと Frame.io の統合アルファ：概要](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+アルファが機能する方法と参加する方法について詳しくは、 [Adobe Workfrontと Frame.io の統合アルファ：概要](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
 >このアルファプログラムに参加していない会社でこれらのページに遭遇した場合は、こちらの情報を慎重に扱い、詳しくはWorkfrontまたは Frame.io 管理者にお問い合わせください。
 >
+
+## デモビデオ
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426406/)
 
 ## 基本的なテストシナリオ
 
