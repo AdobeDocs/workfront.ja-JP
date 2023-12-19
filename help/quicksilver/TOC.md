@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 029bb2267c9fc101ab4f2383b61368c3a5b379ca
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '13825'
+source-wordcount: '13828'
 ht-degree: 1%
 
 ---
@@ -2155,9 +2155,10 @@ ht-degree: 1%
       * [Adobe Experience Manager Assets モジュール](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Formsモジュール](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizerモジュール](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+      * [AdobeMaestro モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Adobe PDF Services モジュール](workfront-fusion/apps-and-their-modules/pdf-modules.md)
-      * [エアテーブルモジュール](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Adobe Targetモジュール](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+      * [エアテーブルモジュール](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Allocadia モジュール](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Analyplan モジュール](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
       * [モジュールをアーカイブ](workfront-fusion/apps-and-their-modules/archive-modules.md)

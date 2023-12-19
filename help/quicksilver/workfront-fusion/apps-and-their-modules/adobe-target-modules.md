@@ -9,9 +9,9 @@ description: 内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
         <p>[!UICONTROL Pro] 以降</p>
       </td>
@@ -611,8 +611,8 @@ ht-degree: 0%
       <td>
         <p>切り替えを有効にしてルールを AND にする（つまり、すべてのルールを適用する）。</p>
         <p>オーディエンスに適用する各ルールで、 <b>[!UICONTROL 項目を追加 ]</b> をクリックし、適用するルールの JSON を入力します。 </p>
-        <div class="example"><span class="autonumber"><span><b>例: </b></span></span>
-          <p>例:</p>
+        <div class="example"><span class="autonumber"><span><b>例： </b></span></span>
+          <p>例：</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -649,7 +649,7 @@ ht-degree: 0%
 
 #### [!UICONTROL カスタム API 呼び出しをおこなう]
 
-このモジュールは、 [!DNL Adobe Target] API
+このモジュールは、 [!DNL Adobe Target] API.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -693,7 +693,7 @@ ht-degree: 0%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 本文 ]</td>
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>注意：  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
