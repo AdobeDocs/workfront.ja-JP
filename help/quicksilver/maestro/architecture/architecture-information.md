@@ -1,13 +1,13 @@
 ---
-title: アーキテクチャ情報
+title: "アーキテクチャ：記事インデックス"
 description: 次の記事では、AdobeMaestro のアーキテクチャを設定する方法について説明します。 この設定の一環として、AdobeMaestro で管理するワークフローをマッピングするためのワークスペース、レコードタイプ、カスタムフィールドの作成方法を学びます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# アーキテクチャ情報
+# アーキテクチャ：記事インデックス
 
 >[!IMPORTANT]
 >

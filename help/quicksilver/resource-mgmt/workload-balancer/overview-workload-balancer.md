@@ -7,9 +7,9 @@ description: プロジェクトマネージャは、タスクを作成してプ�
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---

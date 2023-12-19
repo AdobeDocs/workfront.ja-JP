@@ -7,9 +7,9 @@ description: リソース計画ツールを使用して、ジョブの役割、�
 author: Alina
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -35,37 +35,37 @@ Adobe Workfrontのリソース管理ツールを使用してリソースの配�
 
 割り当て先のプロジェクトに対してリソースの時間を予算するには、次のツールを使用します。
 
-* 複数のプロジェクトの予算割り当ておよび優先順位をシステム・レベルで設定する場合：システム・レベルの「生産資源プランナ」を使用します。
+* 複数のプロジェクトに対する予算割当を行い、システム・レベルで優先順位を付ける場合は、システム・レベルのリソース・プランナを使用します。
 
-   リソース・プランナにアクセスするには、「リソース」領域の「プランナ」セクションに移動します。
+  リソース・プランナにアクセスするには、「リソース」領域の「プランナ」セクションに移動します。
 
-   リソース・プランナの詳細は、 [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  リソース・プランナの詳細は、 [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* 単一プロジェクトに対する予算割当の場合：プロジェクトのビジネス事例の「資源予算編成」領域で、プロジェクト・レベルの資源プランナを使用します。 1 つのプロジェクトの予算リソースの詳細については、「 [ビジネス事例の予算リソース](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* 単一プロジェクトに対する予算割当の場合：プロジェクトのビジネス事例の「生産資源予算」領域で、プロジェクト・レベルの生産資源プランナを使用します。 1 つのプロジェクトの予算リソースの詳細については、「 [ビジネス事例の予算リソース](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   共通のスキルや部門構造に基づいてユーザーを管理し、それらをプールに整理し、割り当て先のプロジェクトに対する割り当てを管理するには、リソースプールを作成する必要があります。 リソースプールの作成の詳細については、 [資源プールの作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  共通のスキルや部門構造に基づいてユーザーを管理し、それらをプールに整理し、割り当て先のプロジェクトに対する割り当てを管理するには、リソースプールを作成する必要があります。 リソースプールの作成の詳細については、「 [資源プールの作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
-   >[!TIP]
-   >
-   >プロジェクトの「生産資源予算作成」領域は、プロジェクト・レベルの生産資源計画担当です。 プロジェクトのビジネス事例でリソースを予算する場合、情報はシステムレベルのリソースプランナーにも反映されます。
+  >[!TIP]
+  >
+  >プロジェクトの「生産資源予算作成」領域は、プロジェクト・レベルの生産資源計画担当です。 プロジェクトのビジネス事例でリソースを予算する場合、情報はシステムレベルのリソースプランナーにも反映されます。
 
 * 複数のイニシアチブにわたる高レベルでリソースを管理し、作業を組織の戦略に合わせるには、Adobe Workfrontシナリオプランナーを使用します。 シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../scenario-planner/scenario-planner-overview.md).
 
-   リソース・プランナは、システム・レベルで、複数のプロジェクトにわたって、また、ビジネス・ケースの「リソース予算設定」領域で、1 つのプロジェクトに対して 1 つのリソースを予算する両方で使用できます。 ビジネス事例でのプロジェクトのリソース予算の作成の詳細は、 [ビジネス事例の予算リソース](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  リソース・プランナは、システム・レベルで、複数のプロジェクトにわたって、また、ビジネス・ケースの「リソース予算設定」領域で、1 つのプロジェクトに対して 1 つのリソースを予算する両方で使用できます。 ビジネス事例でのプロジェクトのリソース予算の作成の詳細については、 [ビジネス事例の予算リソース](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## 資源計画ツールの目的
 
 * 「生産資源プランナ」を使用して、次の操作を実行できます。
 
-   * 最初にリソースを受け取るプロジェクトを決定するには、プロジェクトを優先します。 （リソースプランナー内のみ）
+   * 最初にリソースを受け取るプロジェクトを決定するには、プロジェクトに優先順位を付けます。 （リソースプランナー内のみ）
    * ユーザーのスケジュールに基づいて、リソースの可用性を把握します。
    * 割り当て先のプロジェクトのリソース（ユーザーおよびジョブの役割）に対する予算時間、工数またはコストの割り当て。
 
-   リソースプランナーでの作業の詳細は、「 [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  リソースプランナーでの作業の詳細は、次の記事を参照してください。 [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * シナリオ・プランナを使用すると、企業の戦略的な全体的な成果を示す複数のイニシアチブにわたって、エンタープライズ・レベルのプランを構築できます。 詳しくは、 [シナリオプランナーの概要](../../scenario-planner/get-started-with-scenario-planning.md).
 
-   シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../scenario-planner/scenario-planner-overview.md).
+  シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

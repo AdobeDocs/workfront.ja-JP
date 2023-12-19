@@ -7,9 +7,9 @@ description: タスク、タスク、またはプロジェクトに関連付け�
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: c535f5dff5ccc1e77b097a871c4e0460958a482f
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '2803'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 * デフォルトでは、Workfrontはタスクまたはタスクの期間内のすべての日にタスクとタスクの計画時間を均等に配分します。
 * ユーザーとロールがタスクとタスクに割り当てられると、タスクとタスクからの予定時間が、ユーザーまたはロールの割り当てに関連付けられます。
 * Workfrontのリソース管理ツールを使用する場合は、タスクと問題に対して予定時間の値を定義する必要があります。
-* 一部の期間タイプに対してのみ、タスクの予定時間の値を変更できます。
+* 一部の期間タイプに対してのみ、タスクに対する計画時間の値を変更できます。
 
   タスクの期間タイプに関するタスクの予定時間の変更の詳細については、「 [期間タイプに基づくタスク予定時間の更新](#update-task-planned-hours-based-on-duration-type) 」を参照してください。
 
@@ -38,10 +38,10 @@ ht-degree: 0%
 
 この項では、タスクとプロジェクトの計画時間の違いについて説明します。 また、プロジェクトにまとまる問題の計画時間を表示できる場所も説明します。
 
-* [タスクの予定時間](#planned-hours-on-tasks)
-* [プロジェクトの予定時間](#planned-hours-on-projects)
+* [タスクに関する予定時間](#planned-hours-on-tasks)
+* [プロジェクトに関する計画時間](#planned-hours-on-projects)
 
-### タスクの予定時間 {#planned-hours-on-tasks}
+### タスクに関する予定時間 {#planned-hours-on-tasks}
 
 タスクの予定時間は、タスクの実績作業時間にかかる推定時間を示します。 デフォルトでは、Workfrontは各タスクの期間内に、各日に予定時間の合計を均等に配分します。 1 日の計画時間数は、タスクの 1 日の割り当てになります。 タスクが複数のリソースに割り当てられている場合、デフォルトでは、各リソースに 1 日の時間数が同じ割り当てられます。
 
@@ -54,17 +54,17 @@ ht-degree: 0%
 >「計画時間」とは異なり、親タスクの実績時間は、親タスクに直接記録される時間です。 子タスクの実績時間の合計を表すものではありません。\
 >実際の時間について詳しくは、 [実際の時間の表示](../../../manage-work/tasks/task-information/actual-hours.md).
 
-### プロジェクトの予定時間 {#planned-hours-on-projects}
+### プロジェクトに関する計画時間 {#planned-hours-on-projects}
 
 プロジェクトの予定時間数は編集できません。 プロジェクトの計画時間は、プロジェクトのすべてのタスクから計算されたすべての計画時間の合計です。
 
 計画時間の計算に問題が含まれるかどうかは、計画時間を表示するプロジェクト内の場所によって異なります。 プロジェクト内の次の場所で、プロジェクトの計画時間を表示できます。
 
-* **「プロジェクトの詳細」セクションと「プロジェクトを編集」ボックス**:プロジェクト上のタスクの予定時間のみが考慮されます。 [ プロジェクトの詳細 ] セクションまたは [ プロジェクトの編集 ] ボックスでプロジェクトの予定時間の合計数を表示する場合、プロジェクトの問題に対する予定時間は考慮されません。
+* **「プロジェクトの詳細」セクションと「プロジェクトを編集」ボックス**：プロジェクト上のタスクに関する予定時間のみが考慮されます。 [ プロジェクトの詳細 ] セクションまたは [ プロジェクトの編集 ] ボックスでプロジェクトの予定時間の合計数を表示する場合、プロジェクトの問題に対する予定時間は考慮されません。
 
-* **ワークロードバランサー**:プロジェクトのワークロード・バランサに、ワークロード・バランサに表示されるタスクに関連付けられた計画時間のみが表示されます。 ユーザーの 1 日の割り当ては、ワークロードバランサーの 1 日の計画時間を変更できます。
-* **使用率セクション**:タスクに割り当てられたユーザーとプロジェクトの問題に関連する計画時間は、「稼働状況」セクションでプロジェクトの計画時間の合計を表示する際に考慮されます。
-* **ロール割り当てパネル** タスクリスト内：ジョブロールに割り当てられているタスクとプロジェクトのタスクの予定時間、またはジョブロールに関連付けられているユーザーがこの領域に表示されます。 未割り当てまたはチームに割り当てられているタスクやタスクに関連する計画時間は、この領域には表示されません。 詳しくは、 [役割割り当てパネルでのプロジェクト予定時間の表示](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
+* **ワークロードバランサー**：プロジェクトのワークロードバランサーに、ワークロードバランサーに表示されるタスクに関連付けられた計画時間のみが表示されます。 ユーザーの 1 日の割り当ては、ワークロードバランサーの 1 日の計画時間を変更できます。
+* **使用率セクション**：タスクに割り当てられたユーザーとプロジェクトの問題に関連する計画時間は、「使用率」セクションでプロジェクトの計画時間の合計数を表示する際に考慮されます。
+* **ロール割り当てパネル** タスク・リスト：ジョブ・ロールに割り当てられているタスクとプロジェクトのタスクの予定時間、またはジョブ・ロールに関連付けられているユーザーがこの領域に表示されます。 未割り当てまたはチームに割り当てられているタスクやタスクに関連する計画時間は、この領域には表示されません。 詳しくは、 [役割割り当てパネルでのプロジェクト予定時間の表示](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
 ## タスクの期間全体での計画時間の配分
 
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 予定時間は、Workfrontの次の領域にあります。
 
-* [プロジェクト、タスクまたはイシューの詳細セクション](#the-details-section-of-a-project-task-or-issue)
+* [プロジェクト、タスクまたはイシューの「詳細」セクション](#the-details-section-of-a-project-task-or-issue)
 * [「タスクを編集」または「問題を編集」ボックス](#the-edit-task-or-edit-issue-box)
 * [レポート](#reports)
 * [ワークロードバランサー](#the-workload-balancer)
@@ -92,7 +92,7 @@ ht-degree: 0%
 * [使用率レポート](#the-utilization-report)
 * [役割割り当てパネル](#The%C2%A0Role)
 
-### プロジェクト、タスクまたはイシューの詳細セクション {#the-details-section-of-a-project-task-or-issue}
+### プロジェクト、タスクまたはイシューの「詳細」セクション {#the-details-section-of-a-project-task-or-issue}
 
 ![](assets/planned-hours-on-details-for-project-nwe-350x138.png)
 
@@ -158,12 +158,12 @@ The daily hour amount represents one of the following:
   >
   >ワークロード・バランサは、プロジェクトの計画時間のすべてを、プロジェクトの「詳細」領域に表示されるように表示するわけではありません。
 
-タスクまたはワークロードバランサーでタスクに割り当てられた各ユーザーの計画時間の日割りを表示できます。
+タスクまたはワークロードバランサーでタスクに割り当てられた各ユーザーの計画時間の日次割り当てを表示できます。
 
-計画時間の 1 日の時間数は、次のいずれかを表します。 
+「計画時間」の 1 日の時間数は、次のいずれかを表します。 
 
 * タスク、問題またはプロジェクトの期間の各日にWorkfrontが均等に配分するデフォルトの金額
-* リソースマネージャが管理する調整済の日次配分。
+* リソースマネージャが管理する調整済の日割り配分。
 
   ワークロード・バランサでの日次割当ての調整の詳細は、 [ワークロードバランサーでのユーザー割り当ての管理](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -188,11 +188,11 @@ The daily hour amount represents one of the following:
 
   ワークロードバランサーでの日別割り当ての調整について詳しくは、 [ワークロードバランサーでのユーザー割り当ての管理](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-プロジェクト、ユーザー、ロールの週別の金額は、タスクおよび関連する問題の週別の計画時間数の影響を受けます。
+プロジェクト、ユーザー、ロールの週別の金額は、タスクおよび関連する問題に関する週別の計画時間数の影響を受けます。
 
 ### 使用率レポート {#the-utilization-report}
 
-「計画時間」は、各タスクおよび発行の割り当てに関連付けられた時間です。
+プロジェクトの計画時間は、各タスクおよび発行の割り当てに関連付けられた時間です。
 
 >[!IMPORTANT]
 >
@@ -209,13 +209,13 @@ The daily hour amount represents one of the following:
 
 ### 役割割り当てパネル
 
-[ 役割の割り当て ] パネルの [ 計画時間 ] は、プロジェクトの全期間にわたって、タスクまたは問題に割り当てられた各ジョブの役割に関連する計画時間数を表します。 この数値は、リソース・プランナの「計画時間」ロールと一致します。
+[ 役割の割り当て ] パネルの [ 計画時間 ] は、プロジェクトの全期間にわたって、タスクまたは問題に割り当てられた各ジョブの役割に関連する計画時間数を表します。 この数値は、リソース・プランナからのロール「計画時間」に一致します。
 
 >[!TIP]
 >
 ユーザーに関連付けられた計画時間は、役割割り当てパネルに表示されません。
 
-詳しくは、 [ワークロードバランサーのプロジェクトおよびイニシアチブの役割割り当てを表示](../../../scenario-planner/show-role-allocation-workload-balancer.md).
+詳しくは、 [ワークロードバランサーのプロジェクトおよびイニシアチブの役割割り当てを表示します](../../../scenario-planner/show-role-allocation-workload-balancer.md).
 
 ## 期間タイプに基づくタスク予定時間の更新 {#update-task-planned-hours-based-on-duration-type}
 
@@ -225,12 +225,12 @@ The daily hour amount represents one of the following:
 
 * タスクの予定時間は、タスクの編集時に [ 計算された割り当て ] または [ 標準の期間の種類 ] を使用した場合にのみ変更できます。
 
-  計算された割り当て期間の種類の詳細については、 [期間タイプの概要：計算された割り当て](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
+  計算された割り当て期間の種類の詳細については、 [期間タイプの概要：計算割り当て](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).
 
   シンプルな期間のタイプについて詳しくは、 [期間タイプの概要：シンプル](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 
 * タスクへのユーザーの割り当てを管理する際には、単純期間タイプのタスクに対してのみ、ワークロード・バランサのタスク計画時間を更新できます。 ワークロード・バランサでのユーザー割り当ての管理の詳細は、 [ワークロードバランサーでのユーザー割り当ての管理](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
-* 期間タイプが「作業主導」または「計算作業時間」のタスクに対しては、計画時間を変更できません。 この場合、Workfrontはタスクの期間に基づいて計画時間を決定します。ただし、この場合、計画時間は常に期間（時間単位）と等しくなり、割り当てられたリソースの割合配分の影響を受けません。
+* 期間タイプが「作業主導」または「計算作業時間」のタスクに対しては、計画時間を変更できません。 この場合、Workfrontはタスクの期間に基づいて計画時間を決定します。ただし、この場合、計画時間は常に期間（時間単位）と等しく、割り当てられたリソースの割合配分の影響を受けません。
 
   労力に基づく期間タイプの詳細は、 [期間タイプの概要：労力に基づく](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
@@ -248,10 +248,10 @@ The daily hour amount represents one of the following:
 
 タスクの日次割り当ての管理について詳しくは、 [ワークロードバランサーでのユーザー割り当ての管理](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-タスクのユーザーまたはジョブの役割割り当てを手動で更新する場合、次のシナリオが存在します。
+タスクのユーザーロールまたはジョブロールの割り当てを手動で更新する場合、次のシナリオが存在します。
 
 * 個々のユーザーまたはロールの割り当てを手動で更新して、タスク「計画時間」に対する変更をトリガーしない場合、タスクの割り当てを追加、削除、または置換する際に、計画時間は変更されません。 タスクに新しい割り当てを追加すると、個々の割り当てがすべての担当者間で再配分されます。
-* 割付を手動で更新して、タスク「計画時間」に対する変更をトリガーすると、タスクから割り当てを削除すると、計画時間は減少します。 割り当てを置き換えても、変更されない状態が保たれます。
+* 割付を手動で更新してタスク「計画時間」に対する変更をトリガーすると、タスクから割り当てを削除すると、計画時間が減少します。 割り当てを置き換えても、変更されない状態が保たれます。
 * 割当てを手動で更新して、タスクに対する変更をトリガーし、タスクに割り当てを追加した場合、新しい割り当ては、既定で 0 時間割り当てられます。 予定時間に影響を与える可能性のあるタスクに対して、手動で配分を更新する必要があります。
 * 割当を手動で更新して、タスク「計画時間」に対する変更をトリガーし、タスクに対するすべての割当を削除した場合、「計画時間」は変更されません。
 * 割付を手動で更新して、タスクに対する変更をトリガーし、タスクに対するすべての割り当てを削除すると、「予定時間」も削除され、タスクの「予定時間」は 0 になります。
@@ -403,7 +403,7 @@ When viewing Planned Hours in the Resource Management tools by a specific time f
 <li>Scheduling or Workload Balancer section at the project level</li>
 <li>Schedule or Workload Balancer section at the team level</li>
 </ul>
-</div> <p>For information about scheduling resources, see <a href="../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</p> <p>For information about the Workload Balancer, see <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a>. </p> </li>
+</div> <p>For information about scheduling resources, see <a href="../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</p> <p>For information about the Workload Balancer, see <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Workload Balancer overview</a>. </p> </li>
 <li> <p><b>Role Allocation panel</b> in the project  task list or  Workload Balancer: The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role are taken into account in this area. For more information, see <a href="../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md" class="MCXref xref">View project Planned Hours in the Role Allocation panel</a>. </p> </li>
 </ul>
 </div>

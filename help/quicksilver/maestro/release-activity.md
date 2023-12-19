@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## 2023 年 12 月 18 日の週
+## 2024 年 12 月 18 日の週
+
+### 詳細ページからレコードにコメントを追加する
+
+すべてのお客様向けのプレビューと実稼動：2023 年 12 月 18 日
+
+>[!NOTE]
+>
+>2024 年 1 月のリリースで、実稼動環境では次の機能を使用できるようになります。
+>
+>* コメントを検索
+>
+>* 画像のコピーと貼り付け
+>
+>* 画像をドラッグ&amp;ドロップ
+>
+>詳しくは、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+詳細ページでレコードを表示しながらコメントを追加したり、他のユーザーに返信したりすることで、個々のレコードで他のユーザーと共同作業できるようになりました。
+
+Maestro レコードのコメントエクスペリエンスは、Workfrontオブジェクトの新しいコメントエクスペリエンスに一致します。
+
+詳しくは、 [レコードコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## 2023 年 12 月 11 日の週
 
 ### レコードタイプのテーブルビューの主フィールドを更新する
 
@@ -102,7 +126,7 @@ For more information, see [Grant access to Adobe Maestro](../maestro/access/gran
 
 プレビューリリース： 2023 年 12 月 14 日
 
-実稼動リリース： 2023 年 12 月 15 日
+実稼動版リリース： 2023 年 12 月 15 日予定
 
 >[!IMPORTANT]
 >

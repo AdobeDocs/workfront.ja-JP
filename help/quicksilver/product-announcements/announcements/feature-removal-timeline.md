@@ -7,9 +7,9 @@ description: 様々な機能がAdobe Workfront製品から廃止されていま�
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td><b>機能領域または製品領域</b></td> 
-   <td><strong>最新のリリース（新機能）</strong> </td> 
+   <td><strong>新機能を含む最新のリリース</strong> </td> 
    <td> <p rowspan="2"><strong>キー日</strong> </p> <p rowspan="2"> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Adobe Workfront Classic <p style="font-weight: normal;">詳細情報が提供されます。</p> </td> 
    <td>21.2 リリースの場合</td> 
-   <td> <p>21.2 リリースでの Classic の新機能強化に伴う最終リリース</p> <p>2022 年 3 月 31 日 (PT) のサポート終了</p> </td> 
+   <td> <p>21.2 リリースでの Classic の新機能強化に伴う前回のリリース</p> <p>2022 年 3 月 31 日 (PT) のサポート終了</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Internet Explorer のサポート</p> <p>Internet Explorer のサポートが削除され、WorkfrontはMicrosoft Edge を正式にサポートするようになりました。 </p> <p>サポートされているブラウザーについて詳しくは、 <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront browser requirements</a>.</p> </td> 
@@ -41,12 +41,12 @@ ht-degree: 1%
   <tr> 
    <td> <p>リソース スケジュール</p> <p>ワークロードバランサーは、リソースをスケジュールする際のエクスペリエンスを向上させます。</p> <p>ワークロード・バランサの詳細は、 <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">ワークロードバランサーの概要</a>.</p> </td> 
    <td> </td> 
-   <td> <p>2020 年 11 月 9 日（20.4 リリースを含む）のサポート終了</p> <p>--</p> <p>2022 年上半期以降にWorkfrontプラットフォームから削除されました</p> </td> 
+   <td> <p>2020 年 11 月 9 日（20.4 リリースを含む）のサポート終了</p> <p>—</p> <p>2022 年上半期以降にWorkfrontプラットフォームから削除されました</p> </td> 
   </tr> 
   <tr> 
    <td> <p>レガシーWorkfront Fusion</p> <p>Workfront Fusion は、レガシーWorkfront Fusion のエクスペリエンスを向上させます。</p> <p>Workfront Fusion の詳細については、 <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
-   <td>2021 年 3 月 31 日にWorkfrontプラットフォームから削除されました</td> 
+   <td>2021 年 3 月 31 日にWorkfrontプラットフォームから削除されました。</td> 
   </tr> 
   <tr> 
    <td> <p>フラッシュ</p> <p>Workfrontでは、各ツールベースのツールの代わりに、様々なツールをFlashで使用できるようになりました。 詳しくは、 <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Adobe WorkfrontのFlashベースのツールの代わり</a>.</p> </td> 

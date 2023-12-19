@@ -1,40 +1,42 @@
 ---
 title: レコードコメントの管理
-description: レコードの [ コメント ] 領域で、更新内容を追加し、質問や返信をすることで、Adobeの Maestro レコードに関する共同作業を行うことができます。
+description: レコードの [ コメント ] 領域にコメントや返信を追加することで、AdobeMaestro レコードに関する共同作業を行うことができます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # レコードコメントの管理
 
-レコードの [ コメント ] 領域で、更新内容を追加し、質問や返信をすることで、Adobeの Maestro レコードを共同で作業することができます。
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 </span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+レコードの [ コメント ] 領域にコメントや返信を追加することで、AdobeMaestro レコードに関する共同作業を行うことができます。
 
 ## レコードにコメントする際の考慮事項
 
 * レコードの [ コメント ] セクションで、Maestro のオペレーショナルレコードとタクソノミにコメントと返信を追加できます。
 
-* リンクされたレコードに追加されたコメントは、リンク元のレコードには表示されません。 例えば、Campaign レコードにリンクされているプロジェクトにコメントする場合、コメントは Maestro のプロジェクトレコードにのみ表示され、リンク元のキャンペーンレコードには表示されません。
+* リンクされたレコードに追加されたコメントは、リンク元のレコードには表示されません。 例えば、Campaign レコードにリンクされている Maestro Product レコードにコメントを付けると、コメントは Maestro の Product レコードにのみ表示され、リンク元の Campaign レコードには表示されません。
 
-* 他のアプリケーションでリンクされたオブジェクトに追加されたコメントは、Maestro には表示されません。
-Maestro でリンクされたオブジェクトに追加されたコメントは、他のアプリケーションには表示されません。\
-  例えば、Workfrontのプロジェクトに追加されたコメントは、Maestro のキャンペーンにリンクされているのと同じプロジェクトには表示されません。
+* Maestro レコードと別のアプリケーションのオブジェクトとの接続の結果として作成された Maestro レコードにコメントを追加できます。
 
-* ユーザーにタグを付けて、更新に注意を向けることができます。 タグ付きユーザーは、アプリ内通知や更新に関する電子メールを受け取りません。 Maestro コメント内のチームにタグを付けることはできません。
+  例えば、Workfrontプロジェクトを Maestro レコードと接続した後で、Project Maestro レコードにコメントを付けることができます。 詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
 
-  >[!TIP]
-  >
-  >* コメントの所有者は、更新で自動的にタグ付けされません。
-  >
-  >* 返信時に、更新からタグ付きユーザーを削除することはできません。
+* 他のアプリケーションでリンクされたオブジェクトに追加されたコメントは Maestro には表示されず、Maestro でリンクされたオブジェクトに追加されたコメントは他のアプリケーションには表示されません。
+
+  例えば、Workfrontのプロジェクトに追加されたコメントは、Maestro のキャンペーンにリンクされている同じプロジェクトには表示されず、Maestro レコードに追加されたコメントはWorkfrontには表示されません。
+
+* ユーザーにタグを付けて、更新に注意を向けることができます。 タグ付きユーザーは、アプリ内通知や更新に関する電子メールを受け取りません。 <!--this might change??-->
 
 * Maestro の次の領域からレコードに更新を追加できます。
 
@@ -140,27 +142,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ### レコードに対するコメントの管理
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/dots-main-menu.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/lines-main-menu.png) 左上隅で、「 **[!UICONTROL マエストロ]**.
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。
+最後にアクセスしたワークスペースは、デフォルトで開きます。
 1. 次の場所からテーブルビューを選択します。 **表示** ドロップダウンメニュー。
 1. テーブルビューでレコードの名前をクリックします。
 
-   レコードの **詳細** ページが開きます。
+   レコードの **詳細** ページが開きます。 「コメント」領域は、デフォルトでは右側のパネルに開きます。
 
 1. でコメントの入力を開始 **新しいコメント** ボックス。
 
@@ -197,9 +187,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
    >
    >現在の年からのコメントでは、日付スタンプに年は表示されません。 タイムスタンプの上にマウスポインターを置くと、年を含む完全な日付が表示されます。
 
-1. （オプションおよび条件付き）既存のコメントを検索するには、まず、 **コメント** 領域。
+1. <span class="preview">（オプションおよび条件付き）既存のコメントを検索するには、まず、 **コメント** 領域。</span>
 
-   ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
 
 1. （オプション）「 **返信** または、 **返信を追加…** 領域に移動し、既存のコメントに返信するには、上記の手順 4～8 に従います。 <!--(**************accurate??***********)-->
 

@@ -6,10 +6,10 @@ description: プロジェクトのリソースマネージャを指定して、�
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 0%
+source-wordcount: '826'
+ht-degree: 1%
 
 ---
 
@@ -95,12 +95,12 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>プロジェクトまたはテンプレートに対する権限の管理</p>
 
 <p><b>メモ</b>
 
-リソースマネージャーとしてプロジェクトまたはテンプレートに追加されたユーザーは、すぐに、プロジェクトまたはテンプレートに対する管理権限を取得します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td>
+リソースマネージャーとしてプロジェクトまたはテンプレートに追加されたユーザーは、すぐに、プロジェクトまたはテンプレートに対する管理権限を取得します。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -111,7 +111,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 >[!NOTE]
 >
->リソースマネージャはジョブの役割ではありません。手動で更新できる、プロジェクトまたはテンプレートで使用可能なフィールドです。
+>リソースマネージャはジョブの役割ではありません。手動で更新できるプロジェクトまたはテンプレートで使用可能なフィールドです。
 
 * 個々のプロジェクトまたはテンプレートに対して、最大 30 人のユーザーをリソースマネージャーとして指定できます。
 
@@ -124,15 +124,15 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
 * Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the Workload Balancer.
 
-  For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+  For information about the Workload Balancer, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
  -->
 
-* チームまたはグループをリソースマネージャとして指定することはできません。 ユーザーをリソースマネージャとして指定できるのは、ユーザーだけです。
+* チームまたはグループをリソースマネージャとして指定することはできません。 ユーザーをリソースマネージャとして指定できるのは、ユーザーのみです。
 
 * プロジェクトまたはテンプレートでリソースマネージャとして指定したユーザーは、自動的にはプロジェクトチームに含まれません。
 
-   プロジェクトチームについて詳しくは、 [プロジェクトチームを管理](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  プロジェクトチームについて詳しくは、 [プロジェクトチームを管理](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * プロジェクトまたはプロジェクトテンプレートに対して、リソースマネージャを指定できます。 プロジェクトテンプレートでリソースマネージャを指定すると、そのテンプレートでリソースマネージャとして指定したユーザは、そのテンプレートを使用して作成された任意のプロジェクトのリソースマネージャに自動的になります。
 * 次の領域で、「リソースマネージャー」フィールドを表示できます。
@@ -152,18 +152,18 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
    * 複数のプロジェクトに同時にリソースマネージャを追加するには、プロジェクトの一覧に移動し、1 つ以上のリソースマネージャを指定するプロジェクトを選択して、 **編集**.
 
-      既存のリソースマネージャは、編集中のプロジェクトから削除されません。この方法で追加したユーザーは、既存のリソースマネージャに加えて、プロジェクトのリソースマネージャとして追加されます。
+     既存のリソースマネージャは、編集中のプロジェクトから削除されません。この方法で追加したユーザは、既存のリソースマネージャに加えて、プロジェクトのリソースマネージャとして追加されます。
 
    * 新しいプロジェクトにリソースマネージャを追加するには、新しいプロジェクトの作成を開始します。
 
-      プロジェクトの作成について詳しくは、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
+     プロジェクトの作成について詳しくは、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
 
-1. 内 **概要** をクリックします。 **リソースマネージャ** フィールドに入力します。
-1. プロジェクトのリソースマネージャーとして追加するユーザーの名前を入力し、一覧に表示されたら名前をクリックします。
+1. Adobe Analytics の **概要** [ プロジェクトを編集 ] ダイアログボックスの [ **リソースマネージャー** フィールドに入力します。
+1. プロジェクトのリソースマネージャーとして追加するユーザーの名前を入力し、一覧に表示されたら、名前をクリックします。
 
    この手順を繰り返して、プロジェクトに複数のリソースマネージャを追加します。
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
 
 ## テンプレートに対するリソースマネージャの指定
 
@@ -175,15 +175,15 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 
    * 1 つのテンプレートにリソースマネージャを追加するには、1 つ以上のリソースマネージャを指定するテンプレートに移動し、 **その他のメニュー** テンプレート名の横に表示され、 **を編集します。**
 
-   * 複数のテンプレートにリソースマネージャを同時に追加するには、テンプレートの一覧に移動し、1 つ以上のリソースマネージャを指定するテンプレートを選択し、 **編集**.
+   * 複数のテンプレートにリソースマネージャを同時に追加するには、テンプレートの一覧に移動し、1 つ以上のリソースマネージャを指定するテンプレートを選択して、 **編集**.
 
-      既存のリソースマネージャは、編集中のテンプレートから削除されません。この方法で追加したユーザーは、既存のリソースマネージャに加えて、テンプレートのリソースマネージャとして追加されます。
+     既存のリソースマネージャは、編集中のテンプレートから削除されません。この方法で追加したユーザは、既存のリソースマネージャに加えて、テンプレート上のリソースマネージャとして追加されます。
 
    * 新しいテンプレートにリソースマネージャを追加するには、 **新規テンプレート**&#x200B;次に、 **その他のメニュー** テンプレート名の横に表示され、 **を編集します。**
 
-1. 内 **概要** セクションで、 **リソースマネージャ** フィールドに入力します。
+1. Adobe Analytics の **概要** 」セクションで、 **リソースマネージャー** フィールドに入力します。
 1. テンプレートのリソースマネージャーとして追加するユーザーの名前を入力し、リストに表示されたら、名前をクリックします。
 
    この手順を繰り返して、複数のリソースマネージャをテンプレートに追加します。
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。

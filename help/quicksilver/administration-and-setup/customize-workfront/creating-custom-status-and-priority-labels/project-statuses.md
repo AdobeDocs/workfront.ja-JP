@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Workfront管理者は、システム内のすべての新規プロジェクト�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,10 +65,10 @@ Workfront管理者は、システムレベルのプロジェクトステータ�
 
    ![](assets/project-status.png)
 
-   組み込みの各システムプロジェクトのステータスについて詳しくは、 [システムプロジェクトのステータス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+   組み込みの各システムプロジェクトのステータスについて詳しくは、 [システムプロジェクトのステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 
 ## カスタムプロジェクトステータスの作成とシステムステータスのカスタマイズ
 
 Workfront管理者は、システムプロジェクトのステータスをWorkfrontに追加できます。 グループの所有者は、1 つのグループに固有のカスタムステータスを追加できます。 カスタムステータスの作成やシステムステータスの編集について詳しくは、 [ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-カスタムプロジェクトステータスを作成する場合は、新しいステータスを既存のシステムステータスと同じにする必要があります。 カスタムのステータスとを同等にするのに適したステータスを知るには、システムのステータスの動作を理解する必要があります。 「等しい」ステータスを選択した後は、この選択を変更できません。 システムプロジェクトのステータスの詳細については、 [システムプロジェクトのステータス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+カスタムプロジェクトステータスを作成する場合は、新しいステータスを既存のシステムステータスと同じにする必要があります。 カスタムのステータスとを同等にするのに適したステータスを知るには、システムのステータスの動作を理解する必要があります。 「等しい」ステータスを選択した後は、この選択を変更できません。 システムプロジェクトのステータスの詳細については、 [システムプロジェクトのステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).

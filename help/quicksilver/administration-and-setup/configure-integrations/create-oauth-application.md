@@ -3,26 +3,27 @@ title: 用の OAuth2 アプリケーションの作成 [!DNL Workfront] 統合
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: As a [!DNL Adobe Workfront] 管理者は、のインスタンス用に OAuth2 アプリケーションを作成できます [!DNL Workfront]：他のアプリケーションがWorkfrontにアクセスできるようにします。 その後、ユーザーは、他のアプリケーションに対し、Workfrontデータへのアクセス権を付与できます。 この方法で、Workfrontを、独自の社内アプリケーションを含む、任意のアプリケーションと統合できます。
+description: As an [!DNL Adobe Workfront] 管理者は、のインスタンス用に OAuth2 アプリケーションを作成できます。 [!DNL Workfront]：他のアプリケーションがWorkfrontにアクセスできるようにします。 その後、ユーザーは、他のアプリケーションに対し、Workfrontデータへのアクセス権を付与できます。 この方法で、Workfrontを、独自の社内アプリケーションを含む、任意のアプリケーションと統合できます。
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1945'
 ht-degree: 6%
 
 ---
 
 # 用の OAuth2 アプリケーションの作成 [!DNL Workfront] 統合
 
-As a [!DNL Adobe Workfront] 管理者は、のインスタンス用に OAuth2 アプリケーションを作成できます [!DNL Workfront]（他のアプリケーションがにアクセスできるようにする） [!DNL Workfront]. その後、ユーザーは他のアプリケーションに対し、そのアプリケーションへのアクセス権を付与できます [!DNL Workfront] データ。 この方法で、自社のアプリケーションを含む、任意のアプリケーションと統合できます。
+As an [!DNL Adobe Workfront] 管理者は、のインスタンス用に OAuth2 アプリケーションを作成できます。 [!DNL Workfront]（他のアプリケーションがにアクセスできるようにする） [!DNL Workfront]. その後、ユーザーは他のアプリケーションに対し、そのアプリケーションへのアクセス権を付与できます [!DNL Workfront] データ。 この方法で、自社のアプリケーションを含む、任意のアプリケーションと統合できます。
 
 以下を作成する場合、 [!UICONTROL OAuth2] アプリケーションで、クライアント ID とクライアント秘密鍵を生成します。 その後、ユーザーは API 呼び出しでクライアント ID を使用して、作成したアプリケーションと統合できます。
 
 >[!NOTE]
 >
->OAuth2 のコンテキストでは、「アプリの作成」とは、アプリとサーバー ( 例えば、 [!DNL Workfront].
+>OAuth2 のコンテキストでは、「アプリの作成」とは、アプリとサーバーの間に、次のようなアクセスリンクを作成するプロセスを指します。 [!DNL Workfront].
 
 * ユーザー資格情報を使用して OAuth2 アプリケーションを設定および使用する手順（認証コードフロー）については、 [認証コードフローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](../../wf-api/api/oauth-app-code-token-flow.md).
 * サーバー認証（JWT フロー）を使用した OAuth2 アプリケーションの設定と使用の手順については、 [JWT フローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](../../wf-api/api/oauth-app-jwt-flow.md).
@@ -37,12 +38,14 @@ As a [!DNL Adobe Workfront] 管理者は、のインスタンス用に OAuth2 �
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td><p>新規： [!UICONTROL Standard]</p>
+   または
+   <p>現在：[!UICONTROL プラン ]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -55,9 +58,9 @@ As a [!DNL Adobe Workfront] 管理者は、のインスタンス用に OAuth2 �
 
 ## OAuth2 の概要
 
-アプリケーションが、次の特定の情報を取り込む必要があると仮定します。 [!DNL Workfront]. 情報を要求するアプリケーションは、クライアントと呼ばれます。 この例では、クライアント名は ClientApp です。 ClientApp は特定のユーザーの情報にアクセスできるため、 [!DNL Workfront] を設定します。 ユーザーが ClientApp にユーザー名とパスワードを指定した場合、ClientApp はユーザーがアクセスできるすべてのデータにアクセスできます。 ClientApp は特定の情報の小さなセットのみを必要とするので、これはセキュリティ上のリスクとなります。
+アプリケーションが、次から特定の情報を取り込む必要があると仮定します。 [!DNL Workfront]. 情報を要求するアプリケーションは、クライアントと呼ばれます。 この例では、クライアント名は ClientApp です。 ClientApp は特定のユーザーの情報にアクセスできる必要があるので、アクセスする必要があります [!DNL Workfront] を設定します。 ユーザーが ClientApp にユーザー名とパスワードを指定した場合、ClientApp はユーザーがアクセスできるすべてのデータにアクセスできます。 ClientApp は特定の情報の小さなセットのみを必要とするので、これはセキュリティ上のリスクとなります。
 
-ClientApp 用の OAuth2 アプリを作成すると、基本的に [!DNL Workfront] ClientApp がアクセスを許可されている [!DNL Workfront]が設定されますが、これは、アカウント ClientApp がにアクセスしているユーザーがアクセス権を付与している場合に限られます。
+ClientApp 用の OAuth2 アプリを作成すると、基本的に次のように言います。 [!DNL Workfront] ClientApp がアクセスを許可されている [!DNL Workfront]が設定されますが、これは、アカウント ClientApp がにアクセスしているユーザーがアクセス権を付与している場合に限られます。
 
 ## OAuth2 アプリケーションの作成
 
@@ -77,7 +80,7 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>マシンツーマシンアプリケーション</p> </td> 
-   <td> <p>お使いのサーバ上で実行する CLI、デーモン、またはスクリプトに最適</p> <p>例:</p> 
+   <td> <p>お使いのサーバ上で実行する CLI、デーモン、またはスクリプトに最適</p> <p>例：</p> 
     <ul> 
      <li> <p>[!DNL Shell] </p> </li> 
      <li> <p>[!DNL Python]</p> </li> 
@@ -86,7 +89,7 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
   </tr> 
   <tr> 
    <td role="rowheader"> <p>シングルページ Web アプリケーション</p> </td> 
-   <td> <p>モバイルまたはシングルページ Web アプリケーションに最適</p> <p>例:</p> 
+   <td> <p>モバイルまたはシングルページ Web アプリケーションに最適</p> <p>例：</p> 
     <ul> 
      <li> <p>[!DNL Javascript]</p> </li> 
      <li> <p>[!DNL Angular]</p> </li> 
@@ -97,7 +100,7 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Web アプリケーション</p> </td> 
-   <td> <p>サーバー上の資格情報とトークンを処理するサーバー側アプリケーションに最適です</p> <p>例:</p> 
+   <td> <p>サーバー上の資格情報とトークンを処理するサーバー側アプリケーションに最適です。</p> <p>例：</p> 
     <ul> 
      <li> <p>[!DNL Go]</p> </li> 
      <li> <p>[!DNL Java]</p> </li> 
@@ -112,7 +115,7 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 
 >[!NOTE]
 >
->一度に 10 個までの OAuth2 アプリケーションの合計を持つことができます。
+>一度に最大 10 個の OAuth2 アプリケーションを持つことができます。
 
 * [サーバー認証を使用した OAuth2 アプリケーションの作成（JWT フロー）](#create-an-oauth2-application-using-server-authentication-jwt-flow)
 * [ユーザー資格情報を使用した OAuth2 アプリケーションの作成（認証コードフロー）](#create-an-oauth2-application-using-user-credentials-authorization-code-flow)
@@ -120,11 +123,12 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 
 ### サーバー認証を使用した OAuth2 アプリケーションの作成（JWT フロー） {#create-an-oauth2-application-using-server-authentication-jwt-flow}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth アプリケーション]**.
+1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth2 アプリケーション]**.
 1. クリック **[!UICONTROL アプリ統合の作成]**.
-1. 表示されるウィンドウで、「 」を選択します。 **[!UICONTROL サーバー認証]**.
+The **新しい OAuth2 アプリケーション** ボックスが表示されます。
+1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL サーバー認証]**.
 1. 新しいアプリケーションの名前を入力します（例： ）。[!DNL Workfront] ClientApp の場合は。」
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. 新しいアプリのフィールドに入力します。
@@ -139,7 +143,7 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL クライアント秘密鍵 ]</td> 
-      <td> <p>このフィールドは自動的に生成されます</p> <p><b>重要</b>:  <p>このページを閉じる前に、このフィールドの内容を別のセキュリティで保護されたファイルにコピーしてください。 この秘密鍵は再び表示されなくなります。</p> <p>このキーが失われた場合は、そのキーを削除し、新しいクライアントシークレットを作成します。</p> 
+      <td> <p>このフィールドは自動的に生成されます</p> <p><b>重要</b>:  <p>このページを閉じる前に、このフィールドの内容を別のセキュリティで保護されたファイルにコピーしてください。 この秘密鍵は再び表示されなくなります。</p> <p>このキーが失われた場合は、そのキーを削除し、クライアントシークレットを作成します。</p> 
         <ol> 
          <li value="1"> <p>次をクリック： <b>[!UICONTROL 削除 ]</b> アイコン <img src="assets/delete.png"> をクリックして、現在のクライアントシークレットを削除します。</p> </li> 
          <li value="2"> <p>クリック <b>[!UICONTROL クライアント秘密鍵を追加 ]</b> をクリックして、新しいクライアントシークレットを生成します。</p> </li> 
@@ -170,10 +174,13 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 
 ### ユーザー資格情報を使用した OAuth2 アプリケーションの作成（認証コードフロー） {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
-1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth アプリケーション]**.
+{{step-1-to-setup}}
+
+1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth2 アプリケーション]**.
 1. クリック **[!UICONTROL アプリ統合の作成]**.
-1. 表示されるウィンドウで、「 」を選択します。 **[!UICONTROL ユーザー認証]**.
+
+   The **新しい OAuth2 アプリケーション** が表示されます。
+1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL ユーザー認証]**.
 1. 新しい OAuth2 アプリケーションの名前を入力します（例： ）。[!DNL Workfront] ClientApp の場合は。」
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. 新しいアプリのフィールドに入力します。
@@ -188,7 +195,7 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL クライアント秘密鍵 ]</td> 
-      <td> <p>このフィールドは自動的に生成されます</p> <p><b>重要</b>:  <p>このページを閉じる前に、このフィールドの内容を別のセキュリティで保護されたファイルにコピーしてください。 この秘密鍵は再び表示されなくなります。</p> <p>このキーが失われた場合は、そのキーを削除し、新しいクライアントシークレットを作成します。</p> 
+      <td> <p>このフィールドは自動的に生成されます</p> <p><b>重要</b>:  <p>このページを閉じる前に、このフィールドの内容を別のセキュリティで保護されたファイルにコピーしてください。 この秘密鍵は再び表示されなくなります。</p> <p>このキーが失われた場合は、そのキーを削除し、クライアントシークレットを作成します。</p> 
         <ol> 
          <li value="1"> <p>次をクリック： <b>[!UICONTROL 削除 ]</b> アイコン <img src="assets/delete.png"> をクリックして、現在のクライアントシークレットを削除します。</p> </li> 
          <li value="2"> <p>クリック <b>[!UICONTROL クライアント秘密鍵を追加 ]</b> をクリックして、新しいクライアントシークレットを生成します。</p> </li> 
@@ -235,10 +242,13 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 
 ### PKCE を使用した OAuth2 シングルページ Web アプリケーションの作成 {#create-an-oauth2-single-page-web-application-using-pkce}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
-1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth アプリケーション]**.
+{{step-1-to-setup}}
+
+1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth2 アプリケーション]**.
 1. クリック **[!UICONTROL アプリ統合の作成]**.
-1. 表示されるウィンドウで、「 」を選択します。 **[!UICONTROL 単一ページ Web アプリケーション]**.
+
+   The **新しい OAuth2 アプリケーション** ボックスが表示されます。
+1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL 単一ページ Web アプリケーション]**.
 1. 新しい [!UICONTROL OAuth2] アプリケーション（例： ）[!DNL Workfront] ClientApp の場合は。」
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. 新しいアプリのフィールドに入力します。
@@ -256,15 +266,15 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
       <td>ユーザーは、Workfrontで認証された後、このパスにリダイレクトされます。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL トークンのローテーションを更新 ]</td> 
+      <td role="rowheader">[!UICONTROL 更新トークンを使用するたびに回転 ]</td> 
       <td>このオプションを有効にすると、更新トークンが使用されるたびに新しい更新トークンが発行されます。アプリケーションは、更新のたびに新しい更新トークンを格納する必要があります。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 更新トークンの絶対的な有効期限 ]</td> 
+      <td role="rowheader">[!UICONTROL 絶対的な有効期限 ]</td> 
       <td> <p>更新トークンの有効期限が切れるまでの期間を選択します。 有効期限が切れたら、ユーザーは統合に再度ログインする必要があります。 更新トークンの有効期限を設定しない場合は、「[!UICONTROL 有効期限なし ]」を選択します。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 無操作状態の更新トークンの有効期限 ]</td> 
+      <td role="rowheader">[!UICONTROL 無操作状態の有効期限 ]</td> 
       <td> <p>ユーザーがシステム内でアクティブでない場合に、その更新トークンの有効期限を設定します。 </p> <p>例えば、無操作状態の更新トークンの有効期限が 6 か月で、ユーザーが 6 か月間ログインしない場合、更新トークンの絶対更新トークンの有効期限が 6 か月に設定されていても、更新トークンは有効期限が切れます。</p> </td> 
      </tr> 
      <tr> 
@@ -280,11 +290,25 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
       <td>統合の説明を入力します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL アプリの説明 URL]</td> 
-      <td>これには、「会社概要」ページへのリンクや、統合の詳細情報を含むページを指定できます。</td> 
+      <td role="rowheader">[!UICONTROL 開発者名 ]</td> 
+      <td>これは、OAuth2 アプリケーションを設定する開発者の名前です。</td> 
      </tr> 
-    </tbody> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL 開発者用電子メールアドレス ]</td> 
+      <td>OAuth2 アプリケーションを設定している開発者の電子メールアドレスです。</td> 
+     </tr> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL プライバシーポリシー UTL]</td> 
+      <td>これは、組織がプライバシーポリシーを保存する場所へのリンクです。</td> 
+     </tr>
+
+
+   </tbody> 
    </table>
+
+   <!-- removed this from the table, and added "Developer name" and following rows:
+   [!UICONTROL App Description URL]</td> 
+      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -306,17 +330,17 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 
 ### 認証コードとアクセストークンを使用した認証 {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp には次の情報が必要です： [!DNL Workfront]を呼び出し、 [!DNL Workfront] API `/authorize` endpoint. リクエストには、 [!UICONTROL response_type] `code`：リクエストが認証コードを返す必要があることを示します。
+1. ClientApp には次の情報が必要です： [!DNL Workfront]を呼び出し、リクエストを [!DNL Workfront] API `/authorize` endpoint. リクエストには、 [!UICONTROL response_type] `code`：リクエストが認証コードを返す必要があることを示します。
 1. このトリガー [!DNL Workfront] 認証プロンプトをユーザーに送信します。 ユーザーは、プロンプトに資格情報を入力し、 [!DNL Workfront] ClientApp と通信する権限。 ユーザーが既に [!DNL Workfront]の場合、この手順はスキップできます。
-1. この [!DNL Workfront] API が認証コードを ClientApp に送信します。
+1. The [!DNL Workfront] API が認証コードを ClientApp に送信します。
 1. ClientApp は、次の情報をリクエストでに送信します。 [!DNL Workfront] API `/token`   endpoint:
 
    * 手順 3 で ClientApp に送信した認証コード。 ユーザー権限の特定のインスタンスを識別します。
-   * ClientApp OAuth2 アプリをで設定したときに生成されたクライアント秘密鍵 [!DNL Workfront]. これにより、 [!DNL Workfront] リクエストが ClientApp から送信されたことを知るために。
+   * ClientApp OAuth2 アプリをで設定したときに生成されたクライアント秘密鍵 [!DNL Workfront]. これにより、 [!DNL Workfront] リクエストが ClientApp から送信されたことを知るために使用されます。
 
 1. 認証コードとクライアントの秘密鍵が正しい場合、 [!DNL Workfront] はアクセストークンを ClientApp に送信します。 このアクセストークンは、 [!DNL Workfront] を ClientApp にコピーし、他のユーザーまたはクライアントアプリケーションで表示、コピー、使用することはできません。
-1. ClientApp がアクセストークンをに送信 [!DNL Workfront] 特定の情報を求めるリクエストと共に
-1. アクセストークンは正しいので、 [!DNL Workfront] は情報を ClientApp に送信します。
+1. ClientApp がアクセストークンをに送信する [!DNL Workfront] 特定の情報を求めるリクエストと共に
+1. アクセストークンが正しいので、 [!DNL Workfront] は情報を ClientApp に送信します。
 
 #### アクセストークンを更新しています
 

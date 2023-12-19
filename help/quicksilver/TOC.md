@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '13828'
+source-wordcount: '13836'
 ht-degree: 1%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 1%
          * [カスタムステータスと優先度ラベルの作成](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [ステータスの概要](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [すべてのプロジェクトステータスのリスト](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-         * [プロジェクト状態](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+         * [システムプロジェクトのステータスの概要](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
          * [すべてのタスクステータスのリスト](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [タスクのステータス](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [問題のステータスのリスト](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -2003,7 +2003,7 @@ ht-degree: 1%
    * [Adobeマエストロの概要](maestro/maestro-overview.md)
    * [Adobeマエストロリリースアクティビティ](maestro/release-activity.md)
    * Adobeマエストロのアーキテクチャ {#adobe-maestro-architecture}
-      * [アーキテクチャ情報](maestro/architecture/architecture-information.md)
+      * [アーキテクチャ：記事インデックス](maestro/architecture/architecture-information.md)
       * [ワークスペースの作成](maestro/architecture/create-workspaces.md)
       * [レコード・タイプと分類の概要](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [オペレーショナルレコードタイプの作成](maestro/architecture/create-record-types.md)
@@ -2015,7 +2015,7 @@ ht-degree: 1%
       * [レコードタイプとレコードの接続例](maestro/architecture/example-connect-record-types-and-records.md)
       * [Workspace テンプレートのリスト](maestro/architecture/workspace-templates.md)
    * Adobeマエストロフィールド {#adobe-maestro-fields}
-      * [フィールド情報](maestro/fields/fields-information.md)
+      * [フィールド：記事インデックス](maestro/fields/fields-information.md)
       * [フィールドの概要](maestro/fields/fields-overview.md)
       * [フィールドの作成](maestro/fields/create-fields.md)
       * [フィールドを編集](maestro/fields/edit-fields.md)
@@ -2025,14 +2025,15 @@ ht-degree: 1%
       * [アクセスの概要](maestro/access/access-overview.md)
       * [AdobeMaestro へのアクセスを許可](maestro/access/grant-access.md)
    * Adobeマエストロレコード {#adobe-maestro-records}
-      * [レコード情報](maestro/records/records-information.md)
+      * [レコード：記事インデックス](maestro/records/records-information.md)
       * [レコードを作成](maestro/records/create-records.md)
       * [レコードを接続](maestro/records/connect-records.md)
       * [レコードを編集](maestro/records/edit-records.md)
       * [レコードを削除](maestro/records/delete-records.md)
       * [レコードの共有](maestro/records/share-records.md)
+      * [レコードコメントの管理](maestro/records/manage-record-comments.md)
    * Adobeマエストロビュー {#adobe-maestro-views}
-      * [情報を表示](maestro/views/views-information.md)
+      * [ビュー：記事インデックス](maestro/views/views-information.md)
       * [レコードビューの管理](maestro/views/manage-record-views.md)
       * [テーブル表示の管理](maestro/views/manage-the-table-view.md)
       * [タイムライン表示を管理](maestro/views/manage-the-timeline-view.md)

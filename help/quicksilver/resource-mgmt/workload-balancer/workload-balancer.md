@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

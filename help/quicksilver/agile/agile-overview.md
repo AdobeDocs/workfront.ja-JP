@@ -7,10 +7,10 @@ description: アジャイルは、チームが少量で管理しやすい作業�
 author: Lisa
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-source-git-commit: 867da7dd9d8b13f13e816c20ccd9a8a96ab04eb8
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '325'
+ht-degree: 0%
 
 ---
 
@@ -20,23 +20,23 @@ ht-degree: 1%
 
 [!DNL Workfront] ボードは、チームコラボレーションのためのシンプルで柔軟なツールです。 ボードについて詳しくは、 [ボードの概要](../agile/boards-overview.md).
 
-追加の高度なアジャイルチームツールは、かんばんまたはスクラムを使用します。 かんばんおよびスクラム方法の詳細は、「 [機敏な方法論の決定](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) 記事内 [アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+追加の高度なアジャイルチームツールは、かんばんまたはスクラムを使用します。 カンバンおよびスクラムの方法について詳しくは、「 [機敏な方法論の決定](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) 記事内 [アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 Workfrontで高度なアジャイルを使用し始めるには：
 
-1. アジャイルチームの作成.
+1. 機敏なチームを作成します。
 
-   詳しくは、 [新しいアジャイルチームを作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#creating-an-agile-team-from-scratch) または [既存のチームをアジャイルチームに変換する](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 記事内 [アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   詳しくは、 [アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) または [既存のチームをアジャイルチームに変換する](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 記事内 [アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 1. かんばんまたはスクラムを使用するようにアジャイルチームを設定します。
 
    詳しくは、 [かんばんの構成](../agile/get-started-with-agile-in-workfront/configure-kanban.md) または [スクラムの設定](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. かんばんチーム：バックログを管理し、 [!UICONTROL かんばん] ボード。
+1. カンバン・チーム：バックログの管理と構築 [!UICONTROL かんばん] ボード。
 
    詳しくは、 [アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) および [かんばんの概要](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
-1. スクラムチーム：バックログを管理し、反復を作成して、 [!UICONTROL スクラム] ボード。
+1. スクラムチーム：バックログの管理、反復の作成、 [!UICONTROL スクラム] ボード。
 
    詳しくは、 [アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [反復の概要](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)、および [スクラムボードの概要](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
@@ -44,6 +44,6 @@ Workfrontで高度なアジャイルを使用し始めるには：
 
    詳しくは、 [アジャイルバックログの管理](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [既存のタスクまたはタスクを [!UICONTROL かんばん] ボード](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)、および [既存の反復にストーリーを追加する](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
-## プロジェクトでの機敏な使用
+## プロジェクトでのアジャイルの使用
 
 一般的にアジャイルプラクティスに伴う管理上の課題（チームバックログの管理、反復の作成など）がなくても、プロジェクトにアジャイル機能を活用できます。 詳しくは、 [アジャイルビューでのプロジェクト管理](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

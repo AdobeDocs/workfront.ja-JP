@@ -7,9 +7,9 @@ description: リソース管理を使用すると、システムの可用性に�
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Workfrontでのリソース管理プロセスには、次の段階がありま�
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **分析**：リソースマネージャ、プロジェクト所有者または担当者マネージャとして、使用率レポートをレビューして、リソースの予算割当ておよび計画割当てを実際の割当てと比較する方法を理解します。 時間、コスト、売上高別に情報を確認します。 使用率レポートについて詳しくは、 [リソース使用率情報の表示](../../resource-mgmt/resource-utilization/view-utilization-information.md).

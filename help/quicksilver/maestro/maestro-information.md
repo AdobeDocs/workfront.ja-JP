@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ hide: yes
 
 以下のセクションには、現在利用可能な Maestro 機能の詳細を説明する記事が含まれています。
 
-* [アクセス情報](../maestro/access/access-information.md):AdobeMaestro の使用に必要なアクセスおよび権限に関する情報。
-* [アーキテクチャ情報](../maestro/architecture/architecture-information.md):AdobeMaestro のアーキテクチャに関する詳細な情報と、ワークスペースおよびレコードタイプの作成および管理方法に関する詳しい手順。
-* [フィールド情報](../maestro/fields/fields-information.md):Maestro レコードタイプ用のカスタムフィールドの作成手順に関する詳細情報。
-* [レコード情報](../maestro/records/records-information.md)：レコードの作成および管理方法に関する詳細情報と詳しい手順です。
-* [情報を表示](../maestro/views/views-information.md):Maestro ビューに関する詳細情報と、レコードタイプのページでレコードを表示する際のそれらの管理方法。
+* [アクセス：記事インデックス](../maestro/access/access-information.md):AdobeMaestro の使用に必要なアクセスおよび権限に関する情報。
+* [アーキテクチャ：記事インデックス](../maestro/architecture/architecture-information.md):AdobeMaestro のアーキテクチャに関する詳細な情報と、ワークスペースおよびレコードタイプの作成および管理方法に関する詳しい手順。
+* [フィールド：記事インデックス](../maestro/fields/fields-information.md):Maestro レコードタイプ用のカスタムフィールドの作成手順に関する詳細情報。
+* [レコード：記事インデックス](../maestro/records/records-information.md)：レコードの作成および管理方法に関する詳細情報と詳しい手順です。
+* [ビュー：記事インデックス](../maestro/views/views-information.md):Maestro ビューに関する詳細情報と、レコードタイプのページでレコードを表示する際のそれらの管理方法。

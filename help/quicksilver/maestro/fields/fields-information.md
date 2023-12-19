@@ -1,17 +1,18 @@
 ---
-title: Adobeマエストロフィールド
+title: "フィールド：記事インデックス"
 description: 組織のライフサイクルを反映する新しいフィールドをAdobeマエストロに追加できます。 フィールドは、レコードタイプの属性です。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# フィールド情報
+# フィールド：記事インデックス
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ hide: yes
 * [フィールドを編集](../fields/edit-fields.md)
 * [フィールドを削除](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-
