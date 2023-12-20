@@ -3,28 +3,28 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算カスタムフィールドと計算列の比較
-description: レポートとダッシュボードのカスタムデータについて説明します
+description: Adobe Workfrontで複数のフィールドを集計し、その集計値を新しいフィールドに表示するには、カスタムフォームで計算カスタムフィールドを作成するか、ビューで計算列を作成します。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # 計算カスタムフィールドと計算列の比較
 
-Adobe Workfrontで複数のフィールドを集計し、その集計値を新しいフィールドに表示するには、次の操作を実行します。
+Adobe Workfrontで複数のフィールドを集計し、その集計値を新しいフィールドに表示するには、次の操作を作成します。
 
 * カスタムフォームの計算済みカスタムフィールド\
-  計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、 [カスタムフォームに計算フィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) 記事内 [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、 [カスタムフォームに計算フィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) 記事内 [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 * ビューの計算列\
-  ビューでの計算の使用の詳細については、「 [ビューでのテキストモードの使用](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) 記事内 [テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+  ビューでの計算の使用について詳しくは、「 [ビューでのテキストモードの使用](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) 記事内 [テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-テキストモードを使用して計算フィールドと計算列の両方を作成できますが、それらを作成する構文は異なります。 計算フィールドと計算列を作成する方法については、上記の記事を参照してください。 計算カスタムフィールドや計算列など、計算データの式で使用される様々な構文について詳しくは、「 [計算カスタムフィールドと計算カスタム列の構文](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) 」を参照してください。
+テキストモードを使用して計算フィールドと計算列の両方を作成できますが、それらを作成する構文は異なります。 計算フィールドと計算列を作成する方法については、上記の記事を参照してください。 計算カスタムフィールドや計算列など、計算データの式で使用される様々な構文について詳しくは、「 [計算カスタムフィールドと計算カスタム列の構文](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 」を参照してください。
 
 計算列と計算フィールドの両方で同じ計算を使用できます。 ただし、これらの計算の目的に応じて、どちらか一方を作成することを検討する必要があります。
 
@@ -36,21 +36,15 @@ Adobe Workfrontで複数のフィールドを集計し、その集計値を新�
 
 * カスタムフィールドのタスクのカスタムフォームでは、次の情報を使用して、カスタムフォームが添付されているタスクの親プロジェクトの名前を生成します。
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * レポートのカスタム列では、次の手順を使用して、タスクレポートにプロジェクト名のカスタム列を追加します。
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   または
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
@@ -63,8 +57,8 @@ Adobe Workfrontで複数のフィールドを集計し、その集計値を新�
  <col> 
  <tbody> 
   <tr> 
-   <td>計算済みカスタムフィールド</td> 
-   <td>計算済みカスタムレポート要素</td> 
+   <td><strong>計算済みカスタムフィールド</strong></td>
+   <td><strong>計算済みカスタムレポート要素</strong></td> 
   </tr> 
   <tr> 
    <td> <p>フィールドの名前は、Workfrontインターフェイスに表示されるとおりに使用します。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span>計算カスタムフィールドで使用されるフィールド名の例： <code>Planned Completion Date</code>.</p> </td> 
@@ -76,7 +70,7 @@ Adobe Workfrontで複数のフィールドを集計し、その集計値を新�
   </tr> 
   <tr> 
    <td>フィールドをピリオドで区切ります</td> 
-   <td> <p>フィールドを <code>valuefield </code>行</p> <p>フィールドをピリオドで区切ります ( <code>valueexpression </code>行。 </p> </td> 
+   <td> <p>フィールドを <code>valuefield</code>行。</p> <p>フィールドをピリオドで区切ります ( <code>valueexpression</code>行。</p> </td> 
   </tr> 
  </tbody> 
 </table>

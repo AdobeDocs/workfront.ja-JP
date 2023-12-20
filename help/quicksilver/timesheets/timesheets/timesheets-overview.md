@@ -7,9 +7,9 @@ description: タイムシートを使用して、Adobe Workfrontの内外の仕�
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Workfrontでの時間のログ記録方法について詳しくは、 [ログ時
 
 {{step1-to-timesheets}}
 
-既定で表示できるすべてのタイムシートとタイムシート。 Adobe Workfrontのタイムシートレイアウトの詳細については、「 [タイムシートのレイアウトを理解する](../../timesheets/timesheets/timesheet-layout.md).
+既定で表示できるすべてのタイムシートとタイムシート。 Adobe Workfrontのタイムシートレイアウトの詳細については、「 [タイムシートレイアウトの概要](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 

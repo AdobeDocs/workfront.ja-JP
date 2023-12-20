@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 1%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 1%
    * タイムシートの詳細 {#details}
       * [タイムシートの詳細：記事インデックス](timesheets/timesheets/timesheets.md)
       * [タイムシートの概要](timesheets/timesheets/timesheets-overview.md)
-      * [タイムシートのレイアウトを理解する](timesheets/timesheets/timesheet-layout.md)
+      * [タイムシートレイアウトの概要](timesheets/timesheets/timesheet-layout.md)
    * タイムシートの作成と管理 {#create-and-manage-timesheets-in-adobe-workfront}
       * [タイムシートの作成と管理：記事インデックス](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [タイムシートプロファイルの作成、編集、割り当て](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
