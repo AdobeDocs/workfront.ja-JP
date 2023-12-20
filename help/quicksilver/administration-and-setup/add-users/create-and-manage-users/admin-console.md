@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
+source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ WorkfrontユーザーをAdobe Admin Consoleに追加する必要があります�
    >
    >新規Adobeユーザーの場合、Admin Consoleは登録プロセスを完了するよう招待する電子メールを配信します。 すべてのユーザーが登録プロセスを完了して、任意の登録アプリケーションにアクセスするAdobeが必要です。
    >
-   >既存のAdobeユーザーの場合、Workfrontが使用可能になっていることを知らせる電子メールをユーザーが受け取る場合と受け取らない場合があります。 これは、製品のAdobe管理者が制御するプリファレンスです。
+   >既存のAdobeユーザーの場合、Workfrontが使用可能になっていることを知らせる電子メールをユーザーが受け取る場合と受け取らない場合があります。 これは、製品のAdobe管理者が制御するプリファレンスです。 Adobe管理者が、Workfront管理者とは異なるユーザーである場合があります。
 
 ### Workfrontでユーザーを作成し、Adobe Admin Consoleで承認する
 
