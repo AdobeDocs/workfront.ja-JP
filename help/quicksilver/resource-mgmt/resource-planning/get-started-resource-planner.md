@@ -7,7 +7,7 @@ description: 割り当て先のプロジェクトに対する生産資源の割�
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # リソースプランナーの概要
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -41,8 +43,8 @@ Adobe Workfrontのリソース計画の概要については、この記事を�
 * ユーザービューを使用して次の情報を表示するには：
 
    * スケジュールに従ったユーザーの可用性
-   * プロジェクト計画に従って作業を完了するのに必要な予定時間。
-   * ユーザーが実際の作業項目に既にログオンした時間。
+   * プロジェクト計画に従って作業を完了するのに必要な予定時間
+   * ユーザーが実際の作業項目に既にログオンしている時間
 
   リソース・プランナでのユーザーの「使用可能時間」、「計画時間」、「実績時間」または「実績時間」の表示の詳細は、この記事を参照してください。 [ユーザー・ビューを使用する場合は、リソース・プランナで「使用可能」、「計画済」、「実績時間」または「FTE」を表示します](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 

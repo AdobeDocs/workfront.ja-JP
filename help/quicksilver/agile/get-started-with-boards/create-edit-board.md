@@ -6,14 +6,16 @@ description: 次から： [!UICONTROL ボード] ダッシュボードを使用�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 3%
+source-wordcount: '683'
+ht-degree: 1%
 
 ---
 
 # ボードの作成または編集
+
+<!-- Audited: 12/2023 -->
 
 次から： [!UICONTROL ボード] ダッシュボードを使用すると、新しいボードを作成したり、既存のボードを編集したりできます。
 
@@ -26,8 +28,15 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>任意</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>新規：寄稿者以上 </p>
+ <p>または</p> 
+<p>現在： [!UICONTROL リクエスト ] 以降 </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
@@ -40,7 +49,7 @@ ht-degree: 3%
 
 ## 新しいボードを作成
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+{{step1-to-boards}}
 1. クリック **[!UICONTROL ボードを追加]**.
 
 1. ボードのテンプレートを選択します。
@@ -49,7 +58,7 @@ ht-degree: 3%
    |---------|----------|
    | 基本ボード | 3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 |
    | かんばんボード | 「バックログ」、「新規」、「処理中」、「完了」および「保留中」の各列がボードに表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。<p>バックログを使用するには、取り込みカラムのフィルタを設定する必要があります。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>各列のデフォルトのポリシーを確認するには、 [!UICONTROL **その他** メニュー] 列で、 [!UICONTROL **編集**]. これらの事前設定済みポリシーは任意に変更できます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | レトロボード | ボードには次の列が用意されています：何がうまくいったのですか？ 改善すべき点? お祝いすべき対象? 迅速化のためにできること? 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>列ポリシーは適用されません。 |
+   | レトロボード | ボードには次の列が用意されています：何がうまくいったのですか？ 何が改善できるのか？ 誰をお祝いしましょうか？ もっと速く動くには何ができるでしょうか？ 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>列ポリシーは適用されません。 |
    | 動的なボード | ボードには、「未選択」、「新規」、「処理中」、「保留中」および「完了」の列が表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 (「未選択」列は、名前を変更できますが、削除はできません。 この列には、ステータスが他の列のステータスのどれとも一致しないすべてのカードが含まれます。) <p>デフォルトの列ポリシーでは、ステータスに基づいてカードが列に割り当てられます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. ダイナミックボードの場合のみ、セットアップウィザードの手順に従います。
@@ -86,7 +95,7 @@ ht-degree: 3%
 
 ## 既存のボードの編集
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+{{step1-to-boards}}
 1. ダッシュボードで、開くボードを選択します。
 1. 必要に応じて、ボードを編集します。 ボード名をクリックして名前を変更できます。
 

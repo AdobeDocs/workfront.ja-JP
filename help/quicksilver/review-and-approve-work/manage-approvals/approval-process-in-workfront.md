@@ -7,14 +7,16 @@ description: 承認プロセスを作成してオブジェクトに添付する�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # 承認プロセスの概要
+
+<!-- Audited: 12/2023 -->
 
 承認プロセスを作成してオブジェクトに添付すると、指定したユーザーがオブジェクトの進行前に特定の変更を確実に確認できます。
 
@@ -22,27 +24,26 @@ ht-degree: 0%
 
 * 作業項目（プロジェクト、タスクまたはタスク、テンプレート、テンプレートタスク）
 * ドキュメント
-*  Proof
-
-承認プロセスの作成手順については、 [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* 校正
 
 この記事では、作業項目に関連する承認プロセスに関する一般的な情報を説明します。
+承認プロセスの作成手順については、 [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## 承認プロセスのタイプ
+## 作業項目の承認プロセスのタイプ
 
 Adobe Workfront管理者、または承認プロセスへの管理者アクセス権を持つユーザーは、プロジェクト、タスクおよび問題に対して次の承認プロセスを作成できます。
 
 * **システムレベルのグローバル承認プロセス**：ユーザーは、これらを次のいずれかに関連付けることができます。
 
    * 「承認」セクションのプロジェクト、タスクまたはイシュー
-   * 「プロジェクトを編集」ボックスの「タスクのデフォルトの承認プロセス」領域
-   * プロジェクトの「Queue Details」または「Queue Topic」セクションの「Default Approval Process」領域で、 プロジェクトは、リクエストキューとして有効にする必要があります。
+   * 「タスクのデフォルトの承認プロセス」領域の「プロジェクトを編集」ボックス
+   * 「デフォルト承認プロセス」領域のプロジェクトの「キューの詳細」または「キューのトピック」セクション。 プロジェクトは、リクエストキューとして有効にする必要があります。
 
 * **グループレベルのグローバル承認プロセス**：ユーザーは、これらを次に関連付けることができます。
 
    * 「承認」セクションの承認プロセスに関連付けられた、グループに属するプロジェクト、タスクまたは問題
-   * 「プロジェクトを編集」ボックスの「タスクのデフォルトの承認プロセス」領域で、承認プロセスに関連付けられたグループに属するプロジェクトを編集します
-   * プロジェクトの「Queue Details」または「Queue Topic」セクションの「Default Approval Process」領域で、 プロジェクトは、リクエストキューとして有効にし、承認プロセスに関連付けられたグループに属している必要があります。
+   * 承認プロセスに関連付けられたグループに属するプロジェクトの「タスクのデフォルトの承認プロセス」領域の「プロジェクトを編集」ボックス
+   * 「デフォルト承認プロセス」領域のプロジェクトの「キューの詳細」または「キューのトピック」セクション。 プロジェクトは、リクエストキューとして有効にし、承認プロセスに関連付けられたグループに属している必要があります。
 
   システムレベルまたはグループレベルの承認プロセスの作成について詳しくは、 [作業項目の承認プロセスの作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

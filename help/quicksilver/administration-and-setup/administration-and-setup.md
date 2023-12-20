@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 1%
@@ -17,6 +17,8 @@ ht-degree: 1%
 ---
 
 # 管理と設定：記事のインデックス
+
+<!-- Audited: 12/2023 -->
 
 管理者は、Workfrontでユーザーエクスペリエンスを制御およびカスタマイズできます。 以下のリンクを使用して開始します。
 

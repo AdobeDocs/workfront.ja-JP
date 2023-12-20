@@ -6,10 +6,10 @@ description: ユーザーからの追加の介入なしに、ユーザーに対�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 
 ---
 
@@ -35,16 +35,17 @@ ht-degree: 1%
    <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td> <p>計画 </p> </td> 
+   <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>新規：標準 </p>
+ <p>または</p> 
+<p>現在：プラン </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タイムシートに対する管理者アクセス権が必要です。 </p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">特定の領域に対する管理者アクセス権をユーザーに付与する</a>.</p>  <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td> <p>タイムシートに対する管理者アクセス権が必要です。 </p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">特定の領域に対する管理者アクセス権をユーザーに付与する</a>.</p> <p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -61,9 +62,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->現在のタイムシートのタイムシートプロファイルの変更を有効にするには、既存のタイムシートを削除してから、新しいタイムシートを生成する必要があります。 手順については、 [Adobe Workfrontのタイムシートを削除](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) および [タイムシートを手動で生成](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+>現在のタイムシートのタイムシートプロファイルの変更を有効にするには、既存のタイムシートを削除してから、新しいタイムシートを生成する必要があります。 手順については、 [Adobe Workfrontのタイムシートを削除](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) および [タイムシートを手動で生成する](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. システム全体で使用するタイムシートプロファイルを作成または編集する場合は、[ ] をクリックします。 **タイムシートと時間**.
 
@@ -81,51 +82,51 @@ ht-degree: 1%
    新規または既存のタイムシートプロファイルが表示されます。
 
 
-1. の **詳細を設定** タブ、 **名前** および **説明** タイムシートプロファイルに次の情報を入力します。
+1. 次の日： **詳細を設定** タブ、入力 **名前** および **説明** タイムシートプロファイルに次の情報を入力します。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>管理アクセス権限を持ったグループ</strong> </td> 
+      <td role="rowheader"><strong>管理アクセス権を持つグループ</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>システムレベルのタイムシートプロファイルを作成する場合は、このフィールドを空白のままにします。</p> <p>ユーザーアカウントを編集できるユーザーは、システムレベルのタイムシートを他のユーザーに添付できます。</p> <p>システムレベルのタイムシートプロファイルを編集できるのは、Workfront管理者だけです。</p> </li> 
       </ul> 
      <ul> 
-      <li> <p>管理しているグループのタイムシートプロファイルを作成する場合は、ここでグループを指定します。</p> <p>これは、タイムシートプロファイルをグループ内のユーザーに割り当てません。グループの管理者がタイムシートプロファイルを変更できるのは、このグループの管理者だけです。 手順 6 で、プロファイルをユーザーに割り当てます。</p> <p><b>メモ</b>
+      <li> <p>管理しているグループのタイムシートプロファイルを作成する場合は、ここでグループを指定します。</p> <p>この操作を実行しても、グループ内のユーザーにタイムシートプロファイルが割り当てられるわけではありません。グループの管理者がタイムシートプロファイルを変更できるのは、グループの管理者だけです。 手順 6 で、プロファイルをユーザーに割り当てます。</p>
 
-   グループ外のユーザーが他のユーザーにタイムシートプロファイルを添付すると、このタイムシートプロファイルを表示または添付できなくなります。</p> </li>
-   </ul> </p> </td> 
+   <p><b>注意</b>：グループ外のユーザーがタイムシートプロファイルを他のユーザーに添付すると、このタイムシートプロファイルを表示または添付できなくなります。</p> </li> 
+      </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>タイムシートの作成</strong> </td> 
+      <td role="rowheader"><strong>タイムシートを作成</strong> </td> 
       <td> <p> <p>タイムシートプロファイルがタイムシートを生成するタイミングを指定します。 タイムシートは、週単位、週単位、月単位、月単位で自動的に生成するように設定できます。 タイムシートを作成する曜日を選択します。</p>
       <p>週別タイムシートは、生成された日に開始されます。 たとえば、毎週木曜日に週別タイムシートを作成する場合、タイムシートの週の最初の曜日は木曜日になります。</p>
-      <p><b>メモ</b></p>
 
-   <p>Workfrontは、常に 2 つのタイムシートを一度に作成します。最初のタイムシートには常に現在の日付が含まれ、2 番目のタイムシートは最初のタイムシートの期間が終了した時点から開始されます。</p> </p> </td> 
+
+   <p><b>注意</b>:Workfrontは常に 2 つのタイムシートを一度に作成します。最初のタイムシートには常に現在の日付が含まれ、2 番目のタイムシートは最初のタイムシートの期間が終わるときに開始します。</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>承認者</strong></p> </td> 
       <td> <p> <p>承認者は、タイムシートに関連付けられたユーザーのタイムシートを承認するユーザーです。 タイムシートでは、最大 7 人のユーザーを承認者として識別できます。 複数のユーザーを識別すると、不在時に承認者を確実に使用できます。 ユーザーがタイムシートを承認用に送信すると、すべての承認者に通知が送信されます。 タイムシートを承認するには、1 人のユーザーのみがタイムシートを承認する必要があります。</p> <p>タイムシート管理権限を持つユーザーのみが承認者として設定できます。 タイムシート管理権限の詳細については、「 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定の領域に対する管理者アクセス権をユーザーに付与する</a>.</p> <p>ドロップダウンメニューを使用して、タイムシートの承認者を選択します（承認者が必要な場合）。 次のオプションから選択できます。</p> 
       <ul> 
-      <li><strong>なし</strong>:タイムシートを承認する必要はありません。</li> 
-      <li><strong>彼らの支配人</strong>:これは、システムによって設定されるデフォルトの承認者です。 この場合、管理者として指定されたユーザーが、承認用にタイムシートを送信する際にタイムシートを承認します。</li> 
-      <li><strong>特定の担当者：</strong> 特定のユーザーを名前でタイムシートの承認者として指定できます。 1 つのタイムシートに複数の承認者を設定できます。 この場合、承認者の 1 人がタイムシートを承認すると、タイムシートは次のようにマークされます。 <strong>クローズ</strong> 残りのすべての承認者のタイムシート承認リストに表示されなくなります。</li> 
+      <li><strong>なし</strong>：タイムシートを承認する必要はありません。</li> 
+      <li><strong>彼らの支配人</strong>：これは、システムによって設定されるデフォルトの承認者です。 この場合、管理者として指定されたユーザーが、承認用にタイムシートを送信する際にタイムシートを承認します。</li> 
+      <li><strong>特定の担当者：</strong> 特定のユーザーを名前でタイムシートの承認者として指定できます。 1 つのタイムシートに複数の承認者を設定できます。 この場合、承認者の 1 人がタイムシートを承認すると、タイムシートは次のようにマークされます。 <strong>閉じる</strong> 残りのすべての承認者のタイムシート承認リストに表示されなくなります。</li> 
        </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>時間を編集可能 </strong> </td> 
       <td> <p> <p>承認者がタイムシートの時間を編集できるようにするには、このオプションを選択します。
 
-   このオプションは、 **タイムシートの編集を所有者と管理者に制限する** [ 設定 ] > [ タイムシートと時間 ] > [ 基本設定 ] 領域の設定 詳しくは、 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の基本設定を構成する</a>.
+   このオプションは、 **タイムシートの編集を所有者と管理者に制限する** [ 設定 ] > [ タイムシートと時間 ] > [ 基本設定 ] 領域で設定します。 詳しくは、 <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の基本設定を構成する</a>.
 
    次のシナリオが存在します。
 
    <ul>
-      <li>次の場合に <b>タイムシートの編集を所有者と管理者に制限する</b> オプションが有効：</li>
+      <li>次の場合に <b>タイムシートの編集を所有者と管理者に制限する</b> オプションは有効です。</li>
       <ul><li>承認者は、タイムシートの承認と拒否を実行できます。タイムシートの承認と拒否は、 <b>時間を編集可能</b> が有効かどうか。 </li>
       <li>タイムシート所有者のマネージャは、自分の直属のレポートのタイムシートのみを表示できます。</li></ul>
       <li>次の場合に <b>タイムシートの編集を所有者と管理者に制限する</b> オプションは無効です。</li>
@@ -134,17 +135,17 @@ ht-degree: 1%
       <li>タイムシート所有者のマネージャは、自分の直属の部下のタイムシートを提出、取り消し、再度開き、編集することができます。</li></ul>
       </ul>
 
-   <p><b>メモ</b>
+   <p>
 
-   タイムシートを承認用に送信すると、時間を編集できなくなります。 提出されたタイムシートを編集可能な状態に戻すには、タイムシートを取り消すか、承認者にタイムシートを拒否させます。 詳しくは、 <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">承認用のタイムシートを送信</a> および<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">タイムシートを承認</a>.</p> </p> </td>
+   <b>注意</b>：タイムシートを承認用に送信すると、時間を編集できなくなります。 提出されたタイムシートを編集可能な状態に戻すには、タイムシートを取り消すか、承認者にタイムシートを拒否させます。 詳しくは、 <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">承認用のタイムシートを送信</a> および<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">タイムシートを承認</a>.</p> </p> </td>
    </tr> 
      <tr> 
-      <td role="rowheader"><strong>使用できる時間タイプ</strong> </td> 
-      <td><p>この設定は、一般的な時間タイプのみを参照し、プロジェクト固有の時間タイプは参照しません。 </p>
+      <td role="rowheader"><strong>利用可能な時間タイプ</strong> </td> 
+      <td><p>この設定は、一般的な時間の種類のみを参照し、プロジェクト固有の時間の種類は参照しません。 </p>
       <p>既定では、ユーザーはタイムシートの全一般時間を表示します。 ただし、特定のユーザーセットに対して特定の一般時間のみを表示する場合は、このフィールドのタイムシートプロファイルで、タイムシートに表示する必要のある一般時間を選択できます。 すべての一般時間を無効にする場合は、すべての時間タイプの選択を解除して、一般時間のセクションを含まないタイムシートを生成します。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">超過作業時間</span> </td> 
+      <td role="rowheader"><span style="font-weight: bold;">残業</span> </td> 
       <td>タイムシートの [ 超過時間 ] ボックスを非表示にすることもできます。 このオプションはデフォルトでは無効になっています。</td> 
      </tr> 
     </tbody> 
@@ -158,7 +159,7 @@ ht-degree: 1%
    >
    >* また、ユーザープロファイルを編集することで、ユーザーをタイムシートプロファイルに関連付けることもできます。 詳しくは、 [ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
    >* グループを追加すると、グループ名のみが「担当者を割り当て」タブに表示され、グループメンバーのリストには表示されません。 ここに表示されるグループメンバを確認するには、[ 変更の保存 ] をクリックし、作成したタイムシートプロファイルの名前をクリックします。
-   >* これらの手順を完了すると、タイムシートプロファイルは、現在の期間の既存のタイムシートを持たない割り当て済みのユーザーまたはグループメンバーのタイムシートのみを生成します。
+   >* これらの手順を完了すると、タイムシートプロファイルは、現在の期間の既存のタイムシートを持たない割り当て済みのユーザーまたはグループメンバーに対してのみタイムシートを生成します。
 
 1. 「**変更を保存**」をクリックします。
 

@@ -6,7 +6,7 @@ description: The [!DNL Adobe Workfront] [!DNL Outlook] アドインでは、キ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: fe370eee9e1fa53edc615f82ece8bc46a9cdb0ce
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # 設定 [!DNL Adobe Workfront for Outlook]
+
+<!-- Audited: 12/2023 -->
 
 The [!DNL Adobe Workfront] [!DNL Outlook] アドインでは、次のキーを実行できます。 [!DNL Workfront] Outlook から直接のタスク：
 

@@ -7,7 +7,7 @@ author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -15,6 +15,8 @@ ht-degree: 2%
 ---
 
 # ボードの概要：記事インデックス
+
+<!-- Audited: 12/2023 -->
 
 この節では、次の記事を扱います。
 

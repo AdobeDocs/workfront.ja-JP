@@ -8,7 +8,7 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
+source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # 校正：記事インデックス
+
+<!-- Audited: 12/2023 -->
 
 クリエイティブチームが作業する同じドキュメントでレビューし、コメントを付けます。 Workfront Proofing を使用すると、コメントとバージョンの監査記録を維持しながら、フィードバックのリクエスト、コメントの表示、保留中および完了済みの承認の通知の取得を行うことができます。
 
