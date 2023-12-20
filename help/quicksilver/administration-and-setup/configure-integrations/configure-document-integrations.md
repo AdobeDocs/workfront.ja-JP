@@ -3,29 +3,31 @@ title: ドキュメント統合の設定
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: ドキュメント統合の設定
-author: Courtney, Caroline
+description: Adobe Workfrontの管理者は、Workfrontでドキュメントを管理するためのドキュメント統合を設定できます。
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 456c7b21835c96912e8974063f7797283dcb4e6d
+source-git-commit: ae063189eebb17a3341aabb978ee0f0e03d1e299
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
 
 # ドキュメント統合の設定
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定して、 [!UICONTROL Workfront]. また、 [!UICONTROL Workfront] そのため、ドキュメントは、ドキュメントサービスアプリケーションにのみ保存され、には保存されません。 [!UICONTROL Workfront] それ自体。 詳しくは、 [ドキュメントの更新とリンク元 [!UICONTROL Workfront] 外部クラウドプロバイダーに](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) in [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+As an [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定して、 [!UICONTROL Workfront]. また、 [!UICONTROL Workfront] そのため、ドキュメントは、ドキュメントサービスアプリケーションにのみ保存され、には保存されません。 [!UICONTROL Workfront] それ自体。 詳しくは、 [ドキュメントの更新とリンク元 [!UICONTROL Workfront] 外部クラウドプロバイダーに](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#update-and-link-a-document-from-workfront-to-an-external-cloud-provider) in [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 >[!NOTE]
 >
->次の間のオープン通信を許可する [!DNL Workfront Proof] そして [!DNL Workfront] サーバーの場合は、特定の IP アドレスをサーバーに追加する必要がある場合があ許可リストります。 詳しくは、 [ファイアウォールの設定を許可リスト行う](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>次の間のオープン通信を許可する： [!DNL Workfront Proof] そして [!DNL Workfront] サーバーの場合は、特定の IP アドレスをサーバーに追加する必要がある場合があ許可リストに加えるります。 詳しくは、 [ファイアウォールの設定を許可リストに加える行う](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## アクセス要件
 
@@ -41,7 +43,9 @@ As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定し�
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td><p>新規： [!UICONTROL Standard]</p>
+       <p>または</p>
+       <p>現在： [!UICONTROL プラン ]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -66,11 +70,11 @@ As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定し�
 
 * [!DNL Workfront Proof]
 
-   配達確認のリンク元 [!DNL Workfront Proof] では、最初に [!DNL Workfront Proof] 以内で使用可能 [!DNL Workfront]. A [!UICONTROL Pro] [!DNL Workfront] この機能を使用するには、プラン以降が必要です。 利用可能な様々なプランについて詳しくは、 [Workfrontプラン](https://www.workfront.com/plans)
+  配達確認のリンク元 [!DNL Workfront Proof] では、最初に [!DNL Workfront Proof] 以内で使用可能 [!DNL Workfront]. 現在のプランの場合、 [!UICONTROL Pro] [!DNL Workfront] この機能を使用するには、プラン以降が必要です。 新しいプランでは、この機能はすべてのプランで使用できます。 利用可能な様々なプランについて詳しくは、 [Workfront Plans](https://www.workfront.com/plans).
 
 * [!DNL Microsoft SharePoint]
 
-   との統合について詳しくは、 [!DNL SharePoint]を参照してください。 [の設定 [!DNL SharePoint] 統合](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+  との統合について詳しくは、 [!DNL SharePoint]を参照してください。 [を設定します。 [!DNL SharePoint] 統合](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * サードパーティのクラウドドキュメントプロバイダー：
 
@@ -82,21 +86,20 @@ As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定し�
    * [!DNL Microsoft SharePoint]
    * [!UICONTROL Google Drive]
 
-      <!--Quip-->
-   >[!TIP]
-   >
-   >外部クラウドプロバイダーからリンクされたドキュメントの配達確認や承認を、に直接アップロードされたドキュメントの配達確認や承認と同じ方法でおこなうことができます [!DNL Workfront].
+     <!--Quip-->
+  >[!TIP]
+  >
+  >外部クラウドプロバイダーからリンクされたドキュメントの配達確認や承認を、に直接アップロードされたドキュメントの配達確認や承認と同じ方法でおこなうことができます。 [!DNL Workfront].
 
 * 他のドキュメントプロバイダー（カスタムドキュメント統合を通じて）。
 
-   A [!UICONTROL Pro] [!DNL Workfront] この機能を使用するには、プラン以降が必要です。 利用可能な様々なプランについて詳しくは、 [[!DNL Workfront] プラン。](https://www.workfront.com/plans)
+  現在のプランの場合、 [!UICONTROL Pro] [!DNL Workfront] この機能を使用するには、プラン以降が必要です。 新しいプランでは、この機能はすべてのプランで使用できます。 利用可能な様々なプランについて詳しくは、 [Workfront Plans](https://www.workfront.com/plans).
 
-さらに、 [!DNL Workfront] ネイティブの Digital Asset Management(DAM) システムやサードパーティの DAM 統合を使用したドキュメントエクスペリエンス。 ユーザーがサービスを自分のユーザーにリンクするには、管理者がこれらの機能を有効にする必要があります [!DNL Workfront] アカウント Workfront DAM について詳しくは、 [を使用したドキュメントの管理 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+さらに、 [!DNL Workfront] ネイティブの Digital Asset Management(DAM) システムやサードパーティの DAM 統合を使用したドキュメントエクスペリエンス。 ユーザーがサービスを自分のユーザーにリンクするには、管理者がこれらの機能を有効にする必要があります [!DNL Workfront] アカウント。 Workfront DAM について詳しくは、 [を使用したドキュメントの管理 [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 ## ドキュメントを管理するための統合の設定
 
-1. にログインします。 [!DNL Workfront] 管理者として。
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 左側のパネルで、 **[!UICONTROL ドキュメント]** > **[!UICONTROL クラウドプロバイダー].**
 
@@ -113,19 +116,18 @@ As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定し�
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **)</p>
 -->
 
-カスタムドキュメントの統合により、 [!DNL Workfront] ファイルをリンクするユーザー [!DNL Workfront] システムがと連携するようになっている場合、ほぼすべてのシステムから [!DNL Workfront].
+カスタムドキュメントの統合により、 [!DNL Workfront] ファイルをリンクするユーザー [!DNL Workfront] システムがと連携するように設定されている場合、ほぼすべてのシステムから [!DNL Workfront].
 
 カスタム統合をユーザーが使用できるようにするには、まず統合を構築する必要があります。 と共に使用する統合の作成方法に関する情報 [!DNL Workfront]を参照してください。 [Document Webhook API](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
 
 カスタムドキュメントの統合を構築した後、サイト上のユーザーが使用できるようにします。
 
-1. にログインします。 [!DNL Workfront] 管理者として。
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. 左側のパネルで、 **[!UICONTROL ドキュメント]** > **[!UICONTROL カスタム統合].**
+1. 左側のパネルで、 **[!UICONTROL ドキュメント]** > **[!UICONTROL カスタム統合]**.
 
 1. クリック **[!UICONTROL カスタム統合の追加]**.
-1. 統合を設定するには、次の情報を指定します。
+1. 統合を設定するには、次の情報を入力します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -137,20 +139,20 @@ As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定し�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Base API URL] </td> 
-      <td>API 呼び出しのベース HTTP またはセキュア HTTP URL。 例： <a class="link-https" title="https://documentprovider.com/api/v2" href="https://documentprovider.com/api/v2">https://documentprovider.com/api/v2</a></td> 
+      <td>API 呼び出しのベース HTTP またはセキュア HTTP URL。 以下に例を挙げます。 <code>https://documentprovider.com/api/v2</code></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 認証タイプ ]</td> 
       <td> <p>カスタム統合に対して認証済みの API 呼び出しをおこなう際に使用する認証方法。</p> 
        <ul> 
-        <li>次を選択した場合： <strong>[!UICONTROL OAuth]</strong>で、手順 6 に進みます。</li> 
-        <li>次を選択した場合： <strong>[!UICONTROL Api キー ]</strong>、手順 7 に進みます。</li> 
+        <li>次を選択した場合： <strong>[!UICONTROL OAuth]</strong>、手順 5 に進みます。</li> 
+        <li>次を選択した場合： <strong>[!UICONTROL Api キー ]</strong>で、手順 6 に進みます。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （条件付き） **[!UICONTROL OAuth]** 認証 **[!UICONTROL 認証タイプ]**、次の情報を指定します。
+1. （条件付き）選択した場合、 **[!UICONTROL OAuth]** 認証 **[!UICONTROL 認証タイプ]**、次の情報を入力します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -174,16 +176,16 @@ As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定し�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL リクエストパラメーター ]</td> 
-      <td> <p>すべての API 呼び出しのクエリ文字列に追加するオプションの値を指定します。 例えば、 access_type=offline とします。</p> <p>複数のリクエストパラメーターを追加するには、 <strong>+リクエストパラメータの追加</strong>.</p> </td> 
+      <td> <p>すべての API 呼び出しのクエリ文字列に追加するオプションの値を入力します。 例えば、 access_type=offline とします。</p> <p>複数のリクエストパラメーターを追加するには、 <strong>+リクエストパラメーターの追加</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >この [!DNL Workfront] の下部に表示されるリダイレクト URI [!UICONTROL カスタム統合] page は、この統合を外部のドキュメントプロバイダーに登録するために使用される URI をリストします。
+   >The [!DNL Workfront] の下部に表示されるリダイレクト URI [!UICONTROL カスタム統合] page は、この統合を外部のドキュメントプロバイダーに登録するために使用される URI をリストします。
 
-1. （条件付き） **[!UICONTROL ApiKey]** 認証 **[!UICONTROL 認証タイプ]**、カスタムドキュメントプロバイダーによって発行された API キーを指定します。
+1. （条件付き）選択した場合、 **[!UICONTROL ApiKey]** 認証 **[!UICONTROL 認証タイプ]**、カスタムドキュメントプロバイダーによって発行された API キーを入力します。
 
    [!DNL Workfront] はこの API キーを使用して、ドキュメントプロバイダーに対する認証済みの API 呼び出しをおこないます。
 
@@ -206,27 +208,27 @@ As a [!DNL Adobe Workfront] 管理者は、ドキュメント統合を設定し�
 からドキュメントを送信する際 [!DNL Workfront] から [!DNL Workfront DAM]を使用すると、そのドキュメントに関連する情報を送信することもできます。 ドキュメントに関する情報のマッピング先 [!DNL Workfront DAM] メタデータとして。
 
 情報は、次から一方向にのみマッピングされます： [!DNL Workfront] から [!DNL Workfront DAM] そして、ドキュメントが [!DNL Workfront DAM]. 今後Workfrontフィールドに変更を加えても、 [!DNL Workfront DAM] ドキュメントが既にアップロードされた後。\
-同じ [!DNL Workfront] さまざまな分野に属する [!DNL Workfront DAM] フィールドに値を入力する必要がありますが、同じ値を使用することはできません [!DNL Workfront DAM] 複数のフィールド [!DNL Workfront] フィールド。
+同じ [!DNL Workfront] ～の種々の分野に属する [!DNL Workfront DAM] フィールドに値を入力する必要がありますが、同じ値を使用することはできません [!DNL Workfront DAM] 複数のフィールド [!DNL Workfront] フィールド。
 
 複数の [!DNL Workfront] 1 つに書き出すフィールド [!DNL Workfront DAM] フィールドに値を入力する場合は、まず [!DNL Workfront] をクリックして、オブジェクトの個々のカスタムフィールドをすべて表示します。 次に、計算指標 [!DNL Workfront] 1 つのフィールド [!DNL Workfront DAM] フィールドに入力します。\
 計算カスタムフィールドの詳細については、 [計算データをカスタムフォームに追加する](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 マッピングは、任意のユーザーがからアップロードしたすべてのドキュメントに影響します。 [!DNL Workfront] から [!UICONTROL Workfront] DAM.
 
-As a [!DNL Workfront] 管理者、 [!DNL Workfront DAM] Workfrontで、メタデータマッピングプロセスのフィールドをマッピングする前に、 を有効にする方法の詳細 [!DNL Workfront DAM]を参照してください。 [メタデータの送信先となるWorkfrontの設定 [!DNL Workfront DAM]](#configure-workfront-to-send-metadata-to-workfront-dam).
+As a [!DNL Workfront] 管理者、有効にする必要があります [!DNL Workfront DAM] Workfrontで、メタデータマッピングプロセスのフィールドをマッピングする前に行ってください。
 
 を設定するには、以下を実行します。 [!DNL Workfront] メタデータの送信先 [!DNL Workfront DAM]:
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. クリック **[!UICONTROL ドキュメント]** > **[!UICONTROL メタデータマッピング]**.
 
-1. 内 **[!UICONTROL マッピングのソースフィールドを選択]** フィールドに、マッピング先のWorkfrontフィールドの名前を入力します [!DNL Workfront DAM]をクリックし、リストに表示されたら選択します。
-1. 内 **[!UICONTROL マッピングのターゲットフィールドを選択]**&#x200B;を選択し、 [!DNL Workfront DAM] 選択した [!DNL Workfront] フィールドに入力します。
+1. Adobe Analytics の **[!UICONTROL マッピングのソースフィールドを選択]** フィールドに、マッピング先のWorkfrontフィールドの名前を入力します [!DNL Workfront DAM]をクリックし、リストに表示されたら選択します。
+1. Adobe Analytics の **[!UICONTROL マッピングのターゲットフィールドを選択]**&#x200B;を選択し、 [!DNL Workfront DAM] 選択した [!DNL Workfront] フィールドに入力します。
 
    >[!NOTE]
    >
-   > に送信されたすべてのドキュメント [!DNL Workfront DAM] 権限を持つユーザーのメタデータを [!DNL Workfront] ここにマッピングされたフィールド ( [!DNL Workfront DAM].
+   > に送信されたすべてのドキュメント [!DNL Workfront DAM] 権限を持つユーザーのメタデータを [!DNL Workfront] ここにマッピングされたフィールド（アップロード時） [!DNL Workfront DAM].
 
 1. クリック **[!UICONTROL マッピングを追加]**.
 
@@ -234,9 +236,9 @@ As a [!DNL Workfront] 管理者、 [!DNL Workfront DAM] Workfrontで、メタデ
 
 ### マッピングされたフィールドを削除
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. 展開 **[!UICONTROL ドキュメント]**&#x200B;を選択し、「 **[!UICONTROL メタデータマッピング]**.
+1. 展開 **[!UICONTROL ドキュメント]**&#x200B;を選択し、次に **[!UICONTROL メタデータマッピング]**.
 
 1. フィールドのリストで、メタデータマッピングから削除するフィールドを選択します。
 1. クリック **[!UICONTROL 削除]**.
