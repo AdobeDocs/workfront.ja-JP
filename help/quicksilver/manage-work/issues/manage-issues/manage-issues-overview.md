@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '61'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 10%
 * [問題の表示](../../../manage-work/issues/manage-issues/view-issues.md)
 * [問題の編集](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [リスト内の問題の編集](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)
-* [イシューをコピー](../../../manage-work/issues/manage-issues/copy-issues.md)
-* [イシューの移動](../../../manage-work/issues/manage-issues/move-issues.md)
-* [問題を削除します](../../../manage-work/issues/manage-issues/delete-issues.md)
+* [問題のコピー](../../../manage-work/issues/manage-issues/copy-issues.md)
+* [問題を移動](../../../manage-work/issues/manage-issues/move-issues.md)
+* [問題の削除](../../../manage-work/issues/manage-issues/delete-issues.md)
 * [リスト内の複数の問題に対するユーザー割り当てを変更する](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [フィードバック待ちから進行中へ問題ステータスを自動的に更新](../../../manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)

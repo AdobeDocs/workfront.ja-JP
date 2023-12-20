@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 6%
@@ -298,7 +298,7 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
       <td>OAuth2 アプリケーションを設定している開発者の電子メールアドレスです。</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL プライバシーポリシー UTL]</td> 
+      <td role="rowheader">[!UICONTROL プライバシーポリシー URL]</td> 
       <td>これは、組織がプライバシーポリシーを保存する場所へのリンクです。</td> 
      </tr>
 

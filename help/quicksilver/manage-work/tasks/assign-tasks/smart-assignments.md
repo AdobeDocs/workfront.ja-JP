@@ -7,20 +7,26 @@ description: タスクとタスクの割り当てを管理する場合、スマ�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7e220e496aff2675910416bd86e3ddf7b9231afa
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
 # スマート割り当ての概要
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
+
 タスクとタスクの割り当てを管理する場合、スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。 スマート割り当てとは、ジョブに最も適したリソースを決定するアルゴリズムに基づいて作業項目をリソースに割り当てる際にAdobe Workfrontが表示する提案です。
 
 >[!NOTE]
 >
->スマート割り当てでは、ユーザーの可用性は考慮されません。 ただし、スケジュールに従って使用できる場合は、タスクの計画日と予定日に影響し、タスクが割り当てられた際に問題が発生します。 スケジュールについて詳しくは、 [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>スマート割り当てでは、ユーザーの可用性は考慮されません。 ただし、スケジュールに従って使用できる場合は、タスクの計画日と予定日に影響し、タスクが割り当てられた際に問題が発生します。 スケジュールについて詳しくは、この記事を参照してください。 [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 この記事には、スマート割り当てに関する一般的な情報が含まれています。 スマート割り当てを使用してタスクとタスクをユーザーに割り当てる方法については、 [スマート割り当てを行う](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
@@ -37,21 +43,25 @@ ht-degree: 0%
 
 スマート割り当ては、次のタスクまたはタスクを割り当てることができる領域で表示できます。
 
-* タスク、タスクリスト、またはレポート
+* タスク、タスクリスト、またはレポート <!--edit this to say just issue list or report and update screen shot - add new one-->
 
-   ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+
+<!--
+* <span class="preview">A task list or report (******insert shot here*****)</span>
+-->
 
 * タスクまたはイシューのヘッダー
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * タスクまたは問題の概要パネル
 
-   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
 * 「ホーム」領域にリストされた項目の「割り当て」フィールド
 
-   ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
 
 <!--removed for scheduling deprecation: 
@@ -67,27 +77,71 @@ ht-degree: 0%
 -->
 * ワークロードバランサー
 
-   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## スマート割り当て条件
 
-スマート割り当てでは、独自のアルゴリズムに基づいて上位 50 件のレコメンデーションが表示されます。
+<!--
+<div class="preview">
+
+Smart assignments work differently for tasks than for issues.  
+
+### Smart assignments criteria for tasks
+
+Task smart assignments work in two phases:  
+
+#### First phase of smart assignment calculation criteria for tasks 
+
+Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+
+* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
+For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+
+* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+
+#### Second phase of smart assignment calculation criteria for tasks
+
+If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+
+### Smart assignments criteria for tasks and issues 
+
+</div> 
+
+>[!NOTE]
+>
+><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
+
+-->
 
 次の条件の組み合わせに基づいて、「スマート割り当て」ドロップダウンリストでユーザーが推奨されます（最も重要な条件から最も重要でない条件の順に表示されます）。
 
-* 過去 30 日間に、割り当てを行ったユーザーによって他の作業項目に割り当てられたユーザー。 この条件に一致する最初の 50 人のユーザーが表示されます。 最も頻繁に割り当てられたユーザーが最初に表示されます。
+1. 過去 30 日間に、割り当てを行ったユーザーによって他の作業項目に割り当てられたユーザー。 この条件に一致する最初の 50 人のユーザーが表示されます。 最も頻繁に割り当てられたユーザーが最初に表示されます。
 
-   作業項目がチームまたはロールに割り当てられている場合は、以下の既存の割り当てを考慮して、提案されたユーザーのリストがさらにフィルタリングされます。 この場合、候補のリストには次のユーザーのみが表示されます。
+2. 作業項目がチームまたはロールに割り当てられている場合は、以下の既存の割り当てを考慮して、提案されたユーザーのリストがさらにフィルタリングされます。 この場合、候補のリストには次のユーザーのみが表示されます。
 
    * ホームチームが作業項目に割り当てられたユーザー。
    * 作業項目に割り当てられた役割がプライマリロールのユーザーです。
 
-      >[!TIP]
-      >
-      >* If <!--you're not part of any team and --> タスクまたはタスクに割り当てられた役割やチームがありません。Workfrontには、過去 30 日間（最大 50 人）に割り当てられたすべてのユーザーが表示されます。
-      >* 過去 30 日間に割り当てを行っていない場合は、割り当てられたチームに属しているユーザー、または作業項目に割り当てられたロールを持つユーザーのみが、スマート割り当てリストに表示されます。
-
+>[!TIP]
+>
+>* タスクまたはタスクに割り当てられたロールまたはチームがない場合、Workfrontには過去 30 日間（最大 50 人のユーザー）に割り当てられたすべてのユーザーが表示されます。
+>
+>* 過去 30 日間に割り当てを行っていない場合は、割り当てられたチームに属しているユーザー、または作業項目に割り当てられたロールを持つユーザーのみが、スマート割り当てリストに表示されます。
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--

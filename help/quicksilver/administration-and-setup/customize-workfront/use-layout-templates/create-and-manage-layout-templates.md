@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,14 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Workfrontの管理者またはグループ管理者は、レイアウトテンプレートを作成および変更して、Workfrontで次のレイアウト要素をユーザーに合わせてカスタマイズできます。
+Adobe Workfrontの管理者またはグループ管理者は、レイアウトテンプレートを作成および変更して、Workfrontで次のレイアウト要素をユーザーに合わせてカスタマイズできます。
 
 * メインメニュー
 * 左側のナビゲーションパネル
 * ホームエリア
 * 担当者がリストやレポートで使用するビュー、フィルター、グループ化を示します。
 * 画面上の用語
+* プロジェクト、タスク、および発行ヘッダー
 
 レイアウトテンプレートを作成または変更した後、個々のユーザー、チーム、グループまたはジョブの役割に割り当てることができます。
 
@@ -48,13 +49,17 @@ Workfrontの管理者またはグループ管理者は、レイアウトテン�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td><p>新規：標準</p>
+   または
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
-  </tr> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
+<p>グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>:</p> <p>アクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。
+
+Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+</tr> 
  </tbody> 
 </table>
 
@@ -69,7 +74,7 @@ Workfrontの管理者またはグループ管理者は、レイアウトテン�
 
 ## レイアウトテンプレートの作成または変更
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 左側のパネルで、 **インターフェイス** > **レイアウトテンプレート**.
 
@@ -79,7 +84,7 @@ Workfrontの管理者またはグループ管理者は、レイアウトテン�
 
    変更するレイアウトテンプレートの名前をクリックします。
 
-1. 新しいレイアウトテンプレートを作成する場合は、 **レイアウトテンプレート名** および（オプション） a **説明** それに対して
+1. 新しいレイアウトテンプレートを作成する場合は、 **レイアウトテンプレート名** および（オプション） a **説明** それに対して。
 
 1. 次の記事の説明に従って、ユーザーインターフェイスの領域をカスタマイズします。
 
@@ -92,10 +97,13 @@ Workfrontの管理者またはグループ管理者は、レイアウトテン�
    * [レイアウトテンプレートを使用したフィルター、ビューおよびグループのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [レイアウトテンプレートを使用したユーザインターフェイスの用語のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
-1. 次の記事で説明するように、引き続きレイアウトテンプレートをテストし、ユーザーが使用できるようにします。
+1. 引き続きレイアウトテンプレートをテストし、以下の記事で説明するように、ユーザーが使用できるようにします。
 
    * [新しいレイアウトテンプレートのテスト](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [レイアウトテンプレートの管理アクセス権の付与](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [レイアウトテンプレートにユーザーを割り当てる](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-新しいレイアウトテンプレートをコピーして、コピーを変更することで、新しいレイアウトテンプレートを作成することもできます。 詳しくは、 [レイアウトテンプレートのコピー](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>[!TIP]
+>
+>レイアウトテンプレートをコピーして変更することで、レイアウトテンプレートを作成することもできます。 詳しくは、 [レイアウトテンプレートのコピー](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+

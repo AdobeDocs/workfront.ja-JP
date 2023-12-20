@@ -7,9 +7,9 @@ description: ユーザー、チームまたはジョブの役割に対する問�
 author: Alina
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,7 @@ ht-degree: 0%
 >非アクティブ化前にユーザー、ジョブの役割、またはチームが割り当てられた場合、そのユーザーは作業項目に割り当てられたままになります。 この場合、次の操作をお勧めします。
 >
 >* 作業項目をアクティブなリソースに再割り当てする。
->* 非アクティブなチームのユーザをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
-
+>* 非アクティブなチームのユーザーをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
 
 この記事では、問題の割り当てを変更した場合の影響に関する一般的な情報を説明します。 問題の割り当て方法について詳しくは、次の記事を参照してください。
 
@@ -34,7 +33,7 @@ ht-degree: 0%
 
 * ワークロード・バランサを使用した問題の割り当ての詳細は、 [ワークロードバランサーでの作業割り当ての概要](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-この記事の一部の情報は、タスクへの割り当てにも適用されます。 タスクの割り当ておよびその他の考慮事項について詳しくは、 [タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+この記事の一部の情報は、タスクへの割り当てにも当てはまります。 タスクの割り当ておよびその他の考慮事項について詳しくは、 [タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## 問題に対するユーザー割り当てを変更するタイミング
 

@@ -6,9 +6,9 @@ description: レポートまたはリストを構成する要素を作成する�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-レポートまたはリストを構成する要素を作成する際は、標準またはテキストモードのインターフェイスを使用して、Adobe Workfrontでレポートまたはリストを作成できます。 標準インターフェイスを使用すると、Workfrontインターフェイスですぐに使用できるフィールドとその属性を参照できます。 テキストモードを使用すると、標準モードでは使用できないが、Workfrontデータベースで使用できるフィールドや属性を参照できます。
+レポートまたはリストを構成する要素を作成する際は、標準またはテキストモードのインターフェイスを使用して、Adobe Workfrontでレポートまたはリストを作成できます。
+
+標準インターフェイスを使用すると、Workfrontインターフェイスですぐに使用できるフィールドとその属性を参照できます。
+
+テキストモードを使用すると、標準モードでは使用できないが、Workfrontデータベースで使用できるフィールドや属性を参照できます。
 
 クラス、ビデオ、チュートリアルなど、テキストモードを使用したレポートの作成について詳しくは、Adobe Experience Leagueサイトの「学習」セクションを参照してください。
 
@@ -74,9 +78,6 @@ ht-degree: 0%
 >
 >API で使用できるすべてのフィールドがテキストモードインターフェイスで使用できるわけではありません。 テキストモードコードで正しいフィールドを使用していて、期待した結果が表示されない場合、そのフィールドは API を介してのみレポート可能です。
 
-* [レポート要素へのアクセスとテキストモードの編集](#access-reporting-elements-and-edit-text-mode)
-* [テキストモードを使用する一般的な理由](#common-reasons-to-use-text-mode)
-
 ## レポート要素へのアクセスとテキストモードの編集 {#access-reporting-elements-and-edit-text-mode}
 
 テキストモードインターフェイスへのアクセスは、表示、グループ化、フィルターをレポートやリストからアクセスする場合と似ています。
@@ -95,13 +96,20 @@ ht-degree: 0%
 
 カスタムプロンプトのテキストモードインターフェイスへのアクセスについては、 [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
--->
+## テキストモードを使用する一般的な理由 {#common-reasons-to-use-text-mode}
+
+テキストモードを使用してのみ設定できるカスタムプロンプトを作成する以外の場合は、Report Builder を使用して、ビュー、フィルターおよびグループを作成することをお勧めします。 ただし、テキストモードを使用してレポートやリストの内容を強化することができる場合もあります。
+
+テキストモードの一般的な使用方法について詳しくは、 [テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
+  -->
+
+<!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
+  -->
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> </li>
@@ -120,18 +128,18 @@ ht-degree: 0%
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
--->
+  <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
+  -->
 
 <!--
-<note type="tip">
-We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
-</note>
--->
+  <note type="tip">
+  We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
+  </note>
+  -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
+  -->
 
 <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
@@ -539,21 +547,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-    &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>レポートの最初のグループ化のグループ番号は 0 です。 最初のグループ化を参照するすべての行は、group.0 から始まります。&lt;/code>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>レポートの 2 番目のグループのグループ番号は 1 です。 2 番目のグループを参照するすべての行は、&lt;code>group.1 で始まります&lt;/code>。&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>レポートの 3 番目のグループのグループ番号は 2 です。 3 番目のグループを参照するすべての行は、&lt;code>group.2 で始まりま&lt;/code>す。&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>4 番目のグループに対しては、テキストモードでのみ、3 のグループ番号を追加できます。 4 番目のグループを参照するすべての行は、&lt;code>group.3 で始まりま&lt;/code>す。&lt;/em>&lt;/li>
-    —>
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+  -->
 
 <!--
    <note type="note">
@@ -585,11 +593,13 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report)</p>   
    -->
 
->[!TIP]
->
->リスト表示時にグループを手動で調整すると、Workfrontでは、ログアウトするまで手動の設定が記憶されます。 再度ログインすると、この設定に従ってリストが表示されます。
->
->グループ化の結果は、グラフ要素からアクセスした後で常に展開表示されます。
+<!--
+   >[!TIP]
+   >
+   >When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >
+   >The results of a grouping always display expanded after accessing them from a chart element.
+   -->
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -611,8 +621,4 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## テキストモードを使用する一般的な理由 {#common-reasons-to-use-text-mode}
 
-テキストモードを使用してのみ設定できるカスタムプロンプトを作成する以外の場合は、Report Builder を使用して、ビュー、フィルターおよびグループを作成することをお勧めします。 ただし、テキストモードを使用してレポートやリストの内容を強化することができる場合もあります。
-
-テキストモードの一般的な使用方法について詳しくは、 [テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

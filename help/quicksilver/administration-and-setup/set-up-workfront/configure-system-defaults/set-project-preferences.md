@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: システム全体のプロジェクト環境設定の指定
 description: As an [!DNL Adobe Workfront] 管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を構成できます。 これらの環境設定は、プロジェクト、タスクおよび問題の動作に影響を与えます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
@@ -32,28 +32,31 @@ As an [!DNL Adobe Workfront] 管理者は、システム全体で作成される
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] 計画</p></td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td><p>新規： [!UICONTROL Standard]</p>
+   または
+   <p>現在： [!UICONTROL プラン ]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> <p><b>注意</b>：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL システム管理者 ]</p> <p><b>注意</b>:</p><p>まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 組織全体のプロジェクト環境設定を構成する
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. 左側のパネルで、 **[!UICONTROL プロジェクト環境設定]** > **[!UICONTROL プロジェクト]**.
 
-1. 表示されたページで、以下の 4 つのセクションのいずれかに進み、の環境設定を指定します。 [!UICONTROL プロジェクトのステータス], [!UICONTROL タイムライン], [!UICONTROL ビジネス事例]、および [!UICONTROL 死後の生活].
-1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロックされていることを確認します ![](assets/lock-toggle-button.png) （これはデフォルト）。
+1. 次の日： **プロジェクト環境設定** ページで、以下の 4 つのセクションのいずれかに進み、の環境設定を指定します。 [!UICONTROL プロジェクトのステータス], [!UICONTROL タイムライン], [!UICONTROL ビジネス事例]、および [!UICONTROL 死後の生活].
+1. 組織全体のすべてのグループで同じプロジェクトプリファレンスを使用する場合は、各プリファレンスがロックされていることを確認します ![](assets/lock-toggle-button.png) （これはデフォルト）。
 
    >[!IMPORTANT]
    >
@@ -89,7 +92,7 @@ As an [!DNL Adobe Workfront] 管理者は、システム全体で作成される
          </ul>
         <p>この環境設定はデフォルトで有効になっています。 </p> 
         <p><b>メモ</b></p>
-        <p> グループ管理者は、グループのこの環境設定を変更できます。 ユーザーが異なる環境設定を持つ複数のグループに属する場合、ホームグループでこの環境設定が有効になっていると、ユーザーはテンプレートを持たないプロジェクトを作成できます。</p> 
+        <p> グループ管理者は、グループのこの環境設定を変更できます。 ユーザーが異なる環境設定を持つ複数のグループに属している場合、ホームグループでこの環境設定が有効になっていると、ユーザーはテンプレートを使用せずにプロジェクトを作成できます。</p> 
         </td> 
   </tr>
   <tr> 
@@ -112,7 +115,7 @@ As an [!DNL Adobe Workfront] 管理者は、システム全体で作成される
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 進行状況のステータスに基づいて、プロジェクトの条件を自動的に設定する ]</td> 
-   <td> <p>この環境設定を使用すると、ユーザーは、プロジェクトの [!UICONTROL 条件 ] を手動で設定 ([!UICONTROL On Target]、[!UICONTROL At Risk]、[!UICONTROL In Trable]) したり、 [!DNL Workfront] タイムライン上のプロジェクトの進行状況に基づいて、[!UICONTROL 条件 ]（進行状況ステータス）を自動的に設定します。 プロジェクトの条件の詳細については、 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">プロジェクト条件と条件タイプの概要</a>.</p> </td> 
+   <td> <p>この環境設定を使用すると、ユーザーは、プロジェクトの [!UICONTROL 条件 ] を手動で ([!UICONTROL On Target]、[!UICONTROL At Risk]、[!UICONTROL In Troble]) に設定したり、 [!DNL Workfront] タイムライン上のプロジェクトの進行状況に基づいて、[!UICONTROL 条件 ]（進行状況ステータス）を自動的に設定します。 プロジェクトの条件の詳細については、 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">プロジェクト条件と条件タイプの概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL ベースラインを自動的に作成 ]</p> </td> 
@@ -130,7 +133,7 @@ As an [!DNL Adobe Workfront] 管理者は、システム全体で作成される
    <td role="rowheader"> <p>[!UICONTROL 完了時の推定 ]</p> </td> 
    <td> <p>どのデータを特定するか [!DNL Workfront] は、を使用して [!UICONTROL 完了時の予測 ](EAC) を計算します。これは、プロジェクトの推定総コストを表します。</p> 
     <ul> 
-     <li><strong>[!UICONTROL プロジェクトレベルで計算 ]</strong>：親タスクおよびプロジェクトの EAC は、EAC 式に [!UICONTROL 実績時間 ] または [!UICONTROL 実績労務費 ] を入力することで決定されます。 この計算には、[!UICONTROL 実際の時間 ] または [!UICONTROL コストと費用 ] が親タスクまたはプロジェクトに直接追加されます。</li> 
+     <li><strong>[!UICONTROL プロジェクトレベルで計算 ]</strong>：親タスクおよびプロジェクトの EAC は、EAC 式に [!UICONTROL 実際の時間 ] または [!UICONTROL 実際の労務費 ] を入力することで決定されます。 この計算には、[!UICONTROL 実際の時間 ] または [!UICONTROL コストと費用 ] が親タスクまたはプロジェクトに直接追加されます。</li> 
      <li> <p><strong>[!UICONTROL タスク/サブタスクからのロールアップ ]</strong>：親タスクおよびプロジェクトの EAC は、各子タスクの EAC を合計することで決定されます。 この計算では、親タスクまたはプロジェクトに直接追加された [!UICONTROL 実績時間 ] または [!UICONTROL 実績コストと費用 ] は除外されます。</p> <p>プロジェクトマネージャーは、[!UICONTROL プロジェクトの詳細 ] の [!UICONTROL Finance] 領域を使用して、プロジェクトレベルでこの設定を変更できます。詳しくは、 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">プロジェクト [!UICONTROL Finance] 領域で情報を管理</a>.</p> </li> 
     </ul> <p>EAC の計算方法について詳しくは、 <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL 完了時の推定 ] (EAC) を計算</a>.</p> </td> 
   </tr> 
@@ -157,7 +160,7 @@ As an [!DNL Adobe Workfront] 管理者は、システム全体で作成される
    <td role="rowheader">[!UICONTROL ユーザータイムオフ ]</td> 
    <td> <p>タスクのプライマリ担当者が、そのタスクの予定日をプロジェクト上で調整するかどうかを指定します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL タスク期間でのユーザーのタイムオフを考慮する ]</strong>：タスクのプライマリにスケジュールされているオフの時間。タスクの期間中にオフが発生した場合、担当者はタスクの計画日を調整します。 これはデフォルト設定です。 </p> <p>例えば、[!UICONTROL 可能な限り早く ] という制約を持つタスクが 6 月 1 日に開始し、6 月 3 日に完了するようにスケジュールされていて、プライマリ担当者が 6 月 2 日にタイムオフとしてマークされている場合、タスクの計画日は 6 月 1 日から 6 月 4 日に調整されます。</p> <p><b>重要</b>：この設定を選択した場合、タスクの期間は変更されません。 タスク制約に応じて、計画日のみが変更されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL タスク期間でのユーザーのタイムオフを考慮する ]</strong>：タスクのプライマリにスケジュールされているオフの時間。タスクの期間中にオフが発生した場合、担当者はタスクの計画日を調整します。 これはデフォルト設定です。 </p> <p>例えば、[!UICONTROL 可能な限り早く ] という制約を持つタスクが 6 月 1 日に開始し、6 月 3 日に完了するようにスケジュールされていて、プライマリ担当者が 6 月 2 日にタイムオフとしてマークされている場合、タスクの計画日は 6 月 1 日から 6 月 4 日に調整されます。</p> <p><b>重要</b>:</p> <p>この設定を選択した場合、タスクの期間は変更されません。 タスク制約に応じて、計画日のみが変更されます。</p> </li> 
      <li><strong>[!UICONTROL タスク期間のユーザータイムオフを無視する ]</strong>：プロジェクト上の各タスクの計画日は、タスクのプライマリ担当者がその期間中に休暇を取った場合でも、最初に計画された日付のままです。</li> 
     </ul> <p>この設定のオプションを選択する際は、次の点に注意してください。</p> 
     <ul> 
@@ -185,14 +188,14 @@ As an [!DNL Adobe Workfront] 管理者は、システム全体で作成される
         <li>変更時のみ</li>
         <li>自動のみ</li> 
       </ul>       
-    <b>ヒント</b>
+    <b>ヒント：</b>
     <p>[ 更新の種類 ] が [ 手動のみ ] のプロジェクトは、この設定の影響を受けません。</p>
     <li> <p><strong>プロジェクトの範囲が変更されたとき</strong>：プロジェクトの範囲の変更が発生したら直ちにプロジェクトのタイムラインを再計算する場合に選択します。 プロジェクト範囲の変更を構成する情報については、 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">プロジェクトタイムラインを再計算</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 複数のユーザーがタスクに割り当てられている場合は、[]</p> </td> 
-   <td> <p>プロジェクトにスケジュールが割り当てられていない場合、またはタスクに割り当てられたユーザーにスケジュールが割り当てられていない場合は、 [!DNL Workfront] は、システムの既定のスケジュールを使用して、タスクのタイムラインを計算します。</p> <p>プロジェクト内の同じタスクに複数のユーザーを割り当てる際に、スケジュールが割り当てられ、タスクに割り当てられたユーザーにスケジュールも割り当てられる場合：[!UICONTROL Workfront] では、次のスケジュールが使用されます。</p> 
+   <td> <p>プロジェクトにスケジュールが割り当てられていない場合、またはタスクに割り当てられたユーザーにスケジュールが割り当てられていない場合は、 [!DNL Workfront] は、システムの既定のスケジュールを使用して、タスクのタイムラインを計算します。</p> <p>プロジェクト内の同じタスクに複数のユーザーを割り当て、プロジェクトにスケジュールが割り当てられ、タスクに割り当てられたユーザーにスケジュールも割り当てられている場合、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
     <ul> 
      <li><strong>[!UICONTROLプライマリ割り当て ]</strong>: [!DNL Workfront] タスク上のプライマリ割り当てのスケジュールを使用して、タイムラインを計算します。</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] は、プロジェクトのスケジュールを使用して、各タスクのタイムラインを計算します。</li> 
@@ -206,11 +209,11 @@ As an [!DNL Adobe Workfront] 管理者は、システム全体で作成される
     </ul> 
     <ul> 
      <li><strong>[!UICONTROL 週別の典型的な稼動日数 ]</strong>：プロジェクトで作業するユーザーの標準作業週を設定します。 デフォルトは 5 日です。</li> 
-    </ul> <p>これらの 2 つのオプションは、日を時間に、または週を日に変換します。</p> <p>例えば、予定時間が 8 時間のタスクがあり、期間が予定時間に基づいて計算される場合、 [!DNL Workfront] は、時間を日数に変換し、期間を日数で表示します。</p> <p>「典型的な [!UICONTROL 稼働日/週 ] 」フィールドで、次の操作をおこないます。 [!DNL Workfront] は、システムのフルタイム相当 (FTE) 値を計算します。 これがその通り [!DNL Workfront] は、ユーザーの割り当てを計算する際に使用します。</p> <p>これらの値は、プロジェクトのタイムラインを計画したり、リソースの予算を作成したり、プロジェクトに対する時間を記録する際に使用されます。 </p> <p>これらは、システム内のユーザーのタイムシートを設定する際には使用されません。詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL 構成 ] タイムシートと時間の基本設定</a>.</p> <p><b>注意</b>: [!DNL Workfront] 管理者は、 [!UICONTROL タイムライン計算 ] 環境設定のロックを解除できません。</p> </td> 
+    </ul> <p>これらの 2 つのオプションは、日を時間に、または週を日に変換します。</p> <p>例えば、予定時間が 8 時間のタスクがあり、期間が予定時間に基づいて計算される場合、 [!DNL Workfront] は、時間を日数に変換し、期間を日数で表示します。</p> <p>「典型的な [!UICONTROL 稼働日/週 ] 」フィールドで、次の操作をおこないます。 [!DNL Workfront] は、システムのフルタイム相当 (FTE) 値を計算します。 これがその通り [!DNL Workfront] は、ユーザーの割り当てを計算する際に使用します。</p> <p>これらの値は、プロジェクトのタイムラインを計画したり、リソースの予算を作成したり、プロジェクトに対する時間を記録する際に使用されます。 </p> <p>これらは、システム内のユーザーのタイムシートを設定する際には使用されません。詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL 構成 ] タイムシートと時間の基本設定</a>.</p> <p><b>注意</b>:</p> <p>[!DNL Workfront] 管理者は、 [!UICONTROL タイムライン計算 ] 環境設定のロックを解除できません。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL カスタム四半期 ]</p> </td> 
-   <td> <p>プロジェクトで作業するユーザー向けに、年別のカスタム四半期を設定します。 カスタム四半期は、通常、暦年の四半期の従来の分類と一致しない四半期です。 複数のカスタム四半期を追加できます。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">プロジェクトのカスタム四半期を有効にする</a>.</p>  <p><b>注意</b>: [!DNL Workfront] 管理者は [!UICONTROL Custom Quarters] 環境設定のロックを解除できません。</p> </td> 
+   <td> <p>プロジェクトで作業するユーザー向けに、年別のカスタム四半期を設定します。 カスタム四半期は、通常、暦年の四半期の従来の分類と一致しない四半期です。 複数のカスタム四半期を追加できます。 詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">プロジェクトのカスタム四半期を有効にする</a>.</p>  <p><b>注意</b>: </p><p>[!DNL Workfront] 管理者は [!UICONTROL Custom Quarters] 環境設定のロックを解除できません。</p> </td> 
   </tr> 
  </tbody> 
 </table>

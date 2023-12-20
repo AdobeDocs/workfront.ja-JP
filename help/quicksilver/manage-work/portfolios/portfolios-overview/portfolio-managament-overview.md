@@ -6,9 +6,9 @@ description: PortfolioまたはプロジェクトPortfolio管理 (PPM) は、特
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ PortfolioまたはプロジェクトPortfolio管理 (PPM) は、特定のビジ�
 
 ### プロジェクトレビュー {#project-review}
 
-プロジェクトリクエストを送信すると、Portfolioマネージャーまたはエグゼクティブチームがそのリクエストをレビューし、承認するかどうかを決定します。 承認されている場合は、会社のプロジェクトPortfolioに選択されます。
+プロジェクトリクエストを送信すると、Portfolioマネージャーまたはエグゼクティブチームがそのリクエストをレビューし、プロジェクトを承認するかどうかを決定します。 ユーザーがプロジェクトを承認すると、そのプロジェクトは会社のプロジェクトPortfolio用に選択されます。
 
 ポートフォリオについて詳しくは、 [Portfolioの概要： [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)ビジネス事例の承認の詳細については、 [ビジネスケースの承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -69,7 +69,7 @@ PortfolioまたはプロジェクトPortfolio管理 (PPM) は、特定のビジ�
 
 ポートフォリオのパフォーマンスの最適化とプロジェクトの優先順位付けに加えて、リソースマネージャは、適切なリソースがプロジェクトに割り当てられるようにします。 リソースの可用性と割り当てを評価するには、 [!DNL Workfront].
 
-リソースの可用性に応じて、Portfolioマネージャーはプロジェクトを再優先順位付けする必要がある場合があります。
+リソースの可用性に応じて、Portfolioマネージャーでプロジェクトの優先順位を再設定する必要が生じる場合があります。
 
 リソース管理の詳細については、 [リソースの管理](../../../resource-mgmt/manage-resources.md) 」セクションに入力します。
 

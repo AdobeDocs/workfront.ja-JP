@@ -6,14 +6,20 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # スマート割り当てを行う
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
 
 スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。 スマート割り当ては、ジョブに最も適したリソースを決定するアルゴリズムに基づいて作業項目をリソースに割り当てる際にAdobe Workfrontが表示するユーザーに対する提案です。 スマート割り当ての詳細については、 [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -31,7 +37,9 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>仕事以上</p> </td> 
+   <td> <p>新規：標準</p>
+      または
+      <p>現在：作業以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -40,19 +48,19 @@ ht-degree: 0%
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>タスクや問題に対する割り当てを行う権限を付与する</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## スマート割り当てを行う
 
 スマート割り当ては、Workfrontで割り当てをおこなうほとんどの場所で使用できます。
 
-1. 次の領域に移動し、 **割り当て** または **これをに割り当てる** フィールド：   
+1. 次の領域に移動し、 **割当て** または **これをに割り当てる** フィールド：   
 
    * タスク、タスクリスト、またはレポート
    * タスクまたはイシューのヘッダー
@@ -61,7 +69,15 @@ ht-degree: 0%
    * 「スケジュール設定」領域または「スケジュール設定」領域のタスクまたはイシュー
    * ワークロードバランサーのタスクまたは問題
 
-1. 割り当てフィールドにカーソルを置き、2 秒間待ちます。 ******推奨割り当て** リストが表示されます。
+1. 割り当てフィールドにカーソルを置き、2 秒間待ちます。 The **推奨割り当て** または **以下に、いくつかの推奨事項を示します。** リストが表示されます。
+
+   <!--check the casing for "assignments" should be lower case in task lists??-->
+
+   <!--replace the last sentence above with this when we release smarter assignments:
+   The **Suggested assignments** list displays. 
+   NOTE (********and add preview tags for the note*****)
+   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
+   -->
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -76,6 +92,6 @@ ht-degree: 0%
    >候補がない場合、候補リストは開きません。
 
 1. （オプション）スマート割り当てリストから推奨ユーザーの 1 つを使用しない場合は、目的のユーザーの名前を入力し、リストに表示されたら名前を選択します。
-1. クリック **入力** 割り当てを行う。
+1. クリック **入力** をクリックして割り当てを行います。
 
    選択したユーザーがタスクまたはイシューに割り当てられます。
