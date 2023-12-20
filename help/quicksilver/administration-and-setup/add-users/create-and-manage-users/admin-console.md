@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -84,15 +84,15 @@ Workfront用のAdmin Consoleを使用する前に、コンソールに招待す�
 
 ## Workfrontの実稼動インスタンスのユーザーと管理領域にアクセスする {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. 次から： [Adobe Admin Consoleページ](https://adminconsole.adobe.com/)を選択し、 **製品** 」タブをクリックし、 **Workfront** 製品タイル。
+1. 次から： [Adobe Admin Consoleページ](https://adminconsole.adobe.com/)を選択し、 **製品** タブをクリックし、 **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. 表示されるリストで、上部にあるリンクを選択します。
 
    これは、ユーザーが作業する実稼動インスタンスです。
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -165,7 +165,7 @@ Workfrontでユーザーを作成する手順については、 [ユーザーを
 
 {{step-1-to-users}}
 
-1. ユーザーを選択し、「M」**o**&#x200B;再アイコン ![](assets/more-icon.png).
+1. ユーザーを選択し、 **その他** アイコン ![](assets/more-icon.png).
 
 1. ユーザーを承認するには、以下をクリックします。 **承認**&#x200B;を選択し、次に **送信**.
 
