@@ -7,9 +7,9 @@ description: レポートとダッシュボードのカスタムデータにつ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Adobe Workfrontで複数のフィールドを集計し、その集計値を新�
 ビューの計算済みカスタム列の例については、次の記事を参照してください。
 
 * [テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [カスタム・ビュー、フィルタ、グループ化のサンプル](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

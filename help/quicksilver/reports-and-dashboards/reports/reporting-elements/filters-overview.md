@@ -7,9 +7,9 @@ description: Adobe Workfrontでフィルターを使用すると、リスト、�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
@@ -38,11 +38,11 @@ Workfrontには、複数のタイプのフィルターがあります。 すべ�
   </tr> 
   <tr> 
    <td><strong>リストおよびレポートの永続フィルター</strong></td> 
-   <td>Workfrontによって作成されたか、ユーザーまたは他のユーザーによってカスタマイズされたもの。 複数回使用できます。 適切なアクセス権と権限を持っている場合は、複数の領域で名前を付け、保存し、再利用できます。 これらのフィルターを他のユーザーと共有することもできます。 オブジェクトのリストやレポートで使用できます。 </td> 
+   <td>Workfrontによって作成されたか、ユーザーまたは他のユーザーによってカスタマイズされたもの。 複数回使用できます。 適切なアクセス権と権限を持っている場合は、複数の領域で名前を付け、保存し、再利用できます。 これらのフィルターを他のユーザーと共有することもできます。 これらは、オブジェクトのリストまたはレポートで使用できます。 </td> 
   </tr> 
   <tr> 
    <td><strong>特殊領域用の一時フィルターまたは永久フィルター</strong></td> 
-   <td>Workfrontによって作成されたか、ユーザーまたは他のユーザーによってカスタマイズされたもの。 永久的なフィルターを保存して複数回使用することも、保存せずに、即時のニーズに応じて一時的に適用することもできます。 未保存のフィルターは、共有または削除できません。 これらは、の節で説明されているように、特別な領域で使用できます。 <a href="#workfront-filters-for-special-areas" class="MCXref xref">Workfrontの特殊領域用フィルター</a> 」を参照してください。 </td> 
+   <td>Workfrontによって作成されたか、ユーザーまたは他のユーザーによってカスタマイズされたもの。 永久的なフィルターを保存して複数回使用することも、保存せずに、即時のニーズに応じて一時的に適用することもできます。 未保存のフィルターは、共有または削除できません。 これらは、の節で説明されているように、特別な領域で使用できます。 <a href="#workfront-filters-for-special-areas" class="MCXref xref">Workfrontフィルター（特殊領域）</a> 」を参照してください。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,53 +62,53 @@ Workfrontのオブジェクトと、レポートの作成対象について詳�
 リストおよびレポートのフィルターの詳細については、次の記事を参照してください。
 
 * [Adobe Workfrontでフィルターを作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [フィルター、ビュー、グループの削除](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+* [フィルター、ビュー、およびグループを削除する](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 * [フィルター、表示またはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
-## Workfrontの特殊領域用フィルター {#workfront-filters-for-special-areas}
+## Workfrontフィルター（特殊領域） {#workfront-filters-for-special-areas}
 
 Workfrontの次の領域で、組み込みフィルターを使用するか、カスタムフィルターを作成できます。
 
 * ホーム\
-   詳しくは、 [作業リストのフィルタリング](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) 記事のセクション [[ ホーム ] 領域の [ 作業リスト ] に項目を表示する](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  詳しくは、 [作業リストのフィルタリング](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) 記事のセクション [[ ホーム ] 領域の [ 作業リスト ] に項目を表示する](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * リクエスト領域。 「要求」領域では、フィルターをカスタマイズできません。
 
-   詳しくは、 [送信された要求の場所](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+  詳しくは、 [送信された要求を見つける](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 * リソースプランナー\
-   詳しくは、 [リソースプランナーの情報のフィルタリング](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  詳しくは、 [リソースプランナーの情報のフィルタリング](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * 使用率レポート
 
-   詳しくは、 [使用状況情報のフィルタリング](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) 記事内 [リソース使用率情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  詳しくは、 [使用状況情報のフィルタリング](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) 記事内 [リソース使用率情報の表示](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * ワークロードバランサー
 
-   詳しくは、 [ワークロードバランサーの情報のフィルタリング](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+  詳しくは、 [ワークロードバランサーの情報のフィルタリング](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-* 分析領域
+* Analytics 領域
 
-   詳しくは、 [拡張分析でのフィルターの適用](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
+  詳しくは、 [拡張分析でのフィルターの適用](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * ブループリント領域
 
-   詳しくは、 [ブループリントのインストール](../../../administration-and-setup/blueprints/blueprints-install.md).
+  詳しくは、 [ブループリントのインストール](../../../administration-and-setup/blueprints/blueprints-install.md).
 
 * シナリオプランナー
 
-   シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
+  シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
 
-   >[!TIP]
-   >
-   >シナリオ・プランナでは、フィルタをカスタマイズできません。
+  >[!TIP]
+  >
+  >シナリオ・プランナでは、フィルタをカスタマイズできません。
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
   -->
 
-   組み込みフィルタをプラン、イニシアチブまたはプロジェクトに使用し、シナリオプランナでプロジェクトフィルタをカスタマイズできます。
+  組み込みフィルタをプラン、イニシアチブまたはプロジェクトに使用し、シナリオプランナでプロジェクトフィルタをカスタマイズできます。
 
-   詳しくは、次の記事を参照してください。
+  詳しくは、次の記事を参照してください。
 
    * [シナリオプランナーでのプランの作成と編集](../../../scenario-planner/create-and-edit-plans.md)
    * [シナリオプランナーでイニシアチブを公開して、プロジェクトを更新または作成します](../../../scenario-planner/publish-scenarios-update-projects.md)
@@ -116,17 +116,17 @@ Workfrontの次の領域で、組み込みフィルターを使用するか、�
 
 * 目標
 
-   目標には追加のライセンスが必要です。 Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  目標には追加のライセンスが必要です。 Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-   組み込みのフィルター条件を使用できますが、カスタムフィルターを作成して「目標」領域で再利用することはできません。
+  組み込みのフィルター条件を使用できますが、カスタムフィルターを作成して「目標」領域で再利用することはできません。
 
-   詳しくは、 [Adobe Workfront目標での情報のフィルター](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
+  詳しくは、 [Adobe Workfront目標での情報のフィルター](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 * ボード
 
-   組み込みのフィルターを適用できますが、「ボード」領域で再利用するカスタムフィルターを作成することはできません。
+  組み込みのフィルターを適用できますが、「ボード」領域で再利用するカスタムフィルターを作成することはできません。
 
-   詳しくは、 [ボードでのフィルターと検索](../../../agile/get-started-with-boards/filter-search-in-board.md).
+  詳しくは、 [ボード内でのフィルターと検索](../../../agile/get-started-with-boards/filter-search-in-board.md).
 
 ## リストとレポートのフィルターの概要
 
@@ -142,8 +142,8 @@ Workfrontの次の領域で、組み込みフィルターを使用するか、�
 >レポートでフィルターを作成または編集する場合、新しいフィルターをレポートのデフォルトのフィルターにするには、レポートを編集する必要があります。 フィルターのみを編集しても、Report Builder 以外では、レポートのデフォルトのフィルターは更新されません。\
 >レポートの編集について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Workfrontリストについて詳しくは、 [Adobe Workfrontのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).\
-Workfrontレポートについて詳しくは、 [Adobe Workfrontでのレポートの概要](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Workfrontリストについて詳しくは、 [Adobe Workfrontでのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).\
+Workfrontレポートについて詳しくは、 [レポートの概要](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 リストまたはレポートでフィルターを使用する際は、次の点に注意してください。
 
@@ -151,19 +151,19 @@ Workfrontレポートについて詳しくは、 [Adobe Workfrontでのレポー
 
 * Workfrontの管理者は、永続的なフィルターを作成するために、フィルター、ビューおよびグループに対する編集アクセス権を付与する必要があります。
 
-   フィルタ、ビュー、およびグループへのアクセス権の付与について詳しくは、 [フィルター、ビューおよびグループに対するアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  フィルタ、ビュー、およびグループへのアクセス権の付与について詳しくは、 [フィルター、ビューおよびグループに対するアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * フィルターに対する権限のレベルによって、フィルターの保存方法が決まります。 最初にフィルターを作成した場合は、変更を保存できます。それ以外の場合は、変更するフィルターのバージョンを保存するよう求められます。
 
-   >[!TIP]
-   >
-   >他のユーザーと共有しているフィルターに変更を加えた場合、変更は他のユーザーにも影響を与えます。
+  >[!TIP]
+  >
+  >他のユーザーと共有しているフィルターに変更を加えた場合、変更は他のユーザーにも影響を与えます。
 
 * 自分と共有されていたフィルタは、そのフィルタを共有したユーザが管理アクセス権を付与した場合にのみカスタマイズできます。 フィルターの共有について詳しくは、 [フィルター、表示またはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## フィルターの要素
 
-フィルターを作成する場合、複数の要素を接続して、フィルター文を構成します。 フィルターの条件を定義する複数のフィルターステートメントを作成できます。
+フィルターを作成する場合、複数の要素を接続して、フィルターステートメントを構成します。 フィルターの条件を定義する複数のフィルターステートメントを作成できます。
 
 次に、標準フィルタービルダーの例を示します。
 
@@ -206,15 +206,15 @@ Workfrontレポートについて詳しくは、 [Adobe Workfrontでのレポー
 
 Workfrontには、各フィルター文を結び付ける 2 つのフィルター演算子があります。
 
-* **および**:AND 演算子で 2 つのフィルター文を結合する場合、両方のフィルター文を同時に満たすように指定します。
+* **および**: AND 演算子で 2 つのフィルター文を結合する場合、両方のフィルター文を同時に満たすように指定します。
 
-   デフォルトでは、フィルター内のステートメントは AND 演算子で結合されます。
+  デフォルトでは、フィルター内のステートメントは AND 演算子で結合されます。
 
 * **または**:OR 演算子で 2 つのフィルター文を結合する場合は、いずれかの文を満たすように指定します。
 
-   >[!TIP]
-   >
-   >AND 文を OR 文に変更すると、レポートの項目数が増えます。
+  >[!TIP]
+  >
+  >AND 文を OR 文に変更すると、レポートの項目数が増えます。
 
 ## フィルター修飾子 {#filter-modifiers}
 
@@ -222,7 +222,7 @@ Workfrontには、各フィルター文を結び付ける 2 つのフィルタ�
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >「完了率」が 100%のプロジェクトをフィルタリングできます。 この場合、次のフィルター文で「次と等しい」修飾子を使用できます。
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
@@ -233,7 +233,7 @@ Workfrontには、各フィルター文を結び付ける 2 つのフィルタ�
 
 標準またはレガシーのビルダーインターフェイスを使用して、フィルターを作成するには、次の方法があります。
 
-* ゼロから
+* 最初から
 * 既存のフィルターの変更
 * 既存のフィルターのコピー
 
@@ -247,10 +247,10 @@ Workfrontには、各フィルター文を結び付ける 2 つのフィルタ�
 
 ## 複雑なフィールドのフィルターの作成
 
-* [値にコンマが含まれるフィールドのフィルターを作成する](#create-filters-for-fields-whose-values-contain-commas)
+* [値にコンマが含まれるフィールドに対するフィルターを作成する](#create-filters-for-fields-whose-values-contain-commas)
 * [複数選択カスタムフィールドの値を持つフィルターを作成する](#create-filters-for-whose-values-are-a-multi-select-custom-field)
 
-### 値にコンマが含まれるフィールドのフィルターを作成する {#create-filters-for-fields-whose-values-contain-commas}
+### 値にコンマが含まれるフィールドに対するフィルターを作成する {#create-filters-for-fields-whose-values-contain-commas}
 
 テキストモードでフィルターを作成し、コンマを含むフィールド値のフィルタリングを行う場合、値を 1 つのフィルターオプションとして読み取るには、値を区切るコンマの前にスラッシュ (「/」) を追加する必要があります。 これは、次のフィールドタイプにのみ当てはまります。
 
@@ -280,7 +280,7 @@ Workfrontには、各フィルター文を結び付ける 2 つのフィルタ�
 
 ただし、選択したオプションの 1 つのみを含む結果を除外する場合、そのオプションを含むオブジェクトと、その他のオプションが選択されているオブジェクトがレポートに表示されます。
 
-たとえば、3 つのオプション (A、B、C) を持つフィールドがあり、3 つのオプション（A、B、C ではなく A、B）のうち 2 つをオブジェクトに選択した場合、A と B の両方を持つフィルタを使用してレポートを作成できます。 オプション A に対して「等しくない」の修飾子を使用してフィルタを作成した場合、A のみが選択されたオブジェクトのみが除外され、A と B が選択された場合、それらのオブジェクトはレポートに表示されます。
+たとえば、3 つのオプション (A、B、C) を持つフィールドがあり、3 つのオプション（A、B、C ではなく A、B）のうち 2 つをオブジェクトに選択した場合、A と B の両方を持つフィルタを使用してレポートを作成できます。 オプション A に対して「等しくない」の修飾子を使用してフィルタを作成した場合、A のみが選択されたオブジェクトのみが除外されますが、A と B が選択されている場合、そのオブジェクトはレポートに表示されます。
 
 ## 複数のフィルタールールの結合に関する制限
 

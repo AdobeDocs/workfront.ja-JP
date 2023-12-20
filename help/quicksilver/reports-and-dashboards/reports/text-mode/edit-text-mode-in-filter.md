@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードを使用したフィルターの編集
-description: '''注意：この記事にセクションを追加します。/Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html;***また、「テキストモードの概要」の記事で、この領域に下書きを設定します )`'
+description: '注意：この記事にセクションを追加します： /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; ***また、この領域にテキストモードの概要記事の下書きを作成します )'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 テキストモードを使用してリストまたはレポートのフィルターを編集し、標準インターフェイスで使用できないフィールドにアクセスして、より複雑なフィルターを作成できます。
 
-フィルターを作成する際のその他のテキストモードの例については、この記事の「カスタムフィルターのサンプル」の節も参照してください [カスタム・ビュー、フィルタ、グループ化のサンプル](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+フィルターを作成する際のその他のテキストモードの例については、この記事の「カスタムフィルターのサンプル」の節も参照してください。 [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## アクセス要件
 
@@ -41,16 +41,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのレポート要素を編集します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのレポート要素を編集します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理して、レポートのフィルターを編集します</p> <p>フィルターを編集するための権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>レポートに対する権限を管理して、レポートのフィルターを編集します</p> <p>フィルターを編集するための権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 前提条件
 
@@ -59,8 +59,8 @@ ht-degree: 0%
 詳しくは、以下を参照してください。
 
 * [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [カスタム・ビュー、フィルタ、グループ化のサンプル](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## フィルターでのテキストの編集モード
 
@@ -77,11 +77,11 @@ ht-degree: 0%
 1. 次のいずれかの操作を行います。
 
    1. レポートからフィルターにアクセスするには、レポートに移動して、 **レポートのアクション** > **編集** > **フィルター** タブをクリックします。
-   1. リストからフィルターにアクセスするには、リストに移動し、 **フィルター** ドロップダウンメニューで、変更するフィルターの上にマウスを移動し、 **編集** アイコン ![](assets/edit-icon.png).
+   1. リストからフィルターにアクセスするには、リストに移動し、 **フィルター** ドロップダウンメニューから、変更するフィルターの上にマウスを移動し、 **編集** アイコン ![](assets/edit-icon.png).
 
       フィルタービルダーが開きます。
 
-1. クリック **フィルタールールを追加** フィルターの条件の追加を開始するには、「 **テキストモードに切り替え** をクリックします。
+1. クリック **フィルタールールを追加する** フィルターの条件の追加を開始するには、「 **テキストモードに切り替え** をクリックします。
 1. テキストモードを使用してフィルターステートメントを追加します。 各 filter 文には、次の行と追加情報を含めることができます。
 
    <table style="table-layout:auto"> 
@@ -89,11 +89,11 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td><b>フィルター行/情報</b></td> 
+      <td><b>行/情報をフィルター</b></td> 
       <td><b>例</b></td> 
      </tr> 
      <tr> 
-      <td> <p>フィールド名と、Workfrontデータベースに表示されるときの値です。</p> <p>この行は必須です。</p> <p> データベースでのオブジェクトおよびフィールドの表示の詳細については、 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラ</a>.</p> </td> 
+      <td> <p>フィールド名と、Workfrontデータベースに表示される値と等しい値。</p> <p>この行は必須です。</p> <p> データベースでのオブジェクトおよびフィールドの表示の詳細については、 <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラ</a>.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>ステータスが「処理中」のタスクをフィルターするには、次の行を使用します。</p> <p><code>status=INP</code> </p> <p><b>ヒント</b>
 
    ステータスをフィルターする場合、名前ではなく、3 文字のコードを使用する必要があります。</p> </td>
@@ -129,7 +129,7 @@ ht-degree: 0%
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>ワイルドカードを使用すると、フィルターの情報を一般化し、現在の時刻やログインしているユーザーを参照できます。</p> <p>ワイルドカードはオプションです。</p> <p>ヒント：   <p>可能な限りワイルドカードを使用して、フィルターをより動的にし、各ユーザーや類似の時間枠で同じフィルターを重複させないことをお勧めします。</p> <p>ワイルドカードのフィルタの詳細については、 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数</a>.</p> </p> </td> 
+      <td> <p>ワイルドカードを使用すると、フィルターの情報を一般化し、現在の時刻やログインしているユーザーを参照できます。</p> <p>ワイルドカードはオプションです。</p> <p>ヒント：   <p>可能な限りワイルドカードを使用して、フィルターをより動的にし、各ユーザーや類似の時間枠で同じフィルターを重複させないことをお勧めします。</p> <p>ワイルドカードのフィルタの詳細については、「 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>例</b></span></span> 
         <p>現在ログインしているユーザーに割り当てられているタスクをフィルタするには、次の手順に従います。</p> 
@@ -148,7 +148,7 @@ ht-degree: 0%
       OR:1:status=NEW
       ```
 
-   1. 2 行目を追加し、OR と入力します。:1: オブジェクト、モディファイヤ、モディファイヤコードが続きます。 「新規」を除くすべてのタスクステータスを参照するコード行の修飾子を定義するには、次の修飾子行を使用します。
+   1. 2 行目を追加し、 OR と入力します。:1: オブジェクト、モディファイヤ、およびモディファイヤコードが続きます。 「新規」を除くすべてのタスクステータスを参照するコード行の修飾子を定義するには、次の修飾子行を使用します。
 
       ```
       OR:1:status_Mod=notin
@@ -163,12 +163,19 @@ ht-degree: 0%
 >[!NOTE]
 >
 >同じフィルター内に複数の「OR」ステートメントを含めることができます。 新しい「OR」ステートメントを作成するたびに、「OR:」の後の数値が増加します。
-ステータスが「処理中」、ログインユーザーに割り当てられているタスク、または今日の完了予定日を持っているタスクをフィルタするには、次の手順に従います。
+>
+ステータスが「処理中」、ログインユーザーに割り当てられているタスク、または今日予定完了日を持っているタスクをフィルタするには、次の手順に従います。
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
 1. クリック **完了** 変更を保存し、レポートまたはフィルターの編集を続ける場合。

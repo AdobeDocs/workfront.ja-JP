@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
 workflow-type: tm+mt
-source-wordcount: '13836'
+source-wordcount: '13835'
 ht-degree: 1%
 
 ---
@@ -1504,7 +1504,7 @@ ht-degree: 1%
       * [レポート](reports-and-dashboards/reports/reports-overview.md)
       * レポートの基本 {#report-basics}
          * [レポートの基本](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [Adobe Workfrontでのレポートの概要](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [レポートの概要](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [デフォルトのレポートを新しいレポートとして保存](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * レポート要素 {#report-elements}
          * [レポート要素の概要](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1562,7 +1562,7 @@ ht-degree: 1%
          * [計算済みカスタムフィールドの例：カスタムフォームにステータスタイムスタンプを表示する](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [計算済みカスタムフィールドの例：フィールドの編集履歴を表示します](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * カスタム・ビュー、フィルタ、グループ化のサンプル {#custom-view-samples}
-         * [カスタム・ビュー、フィルタ、グループ化のサンプル](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [レポートまたはリスト：オブジェクトに関連付けられたユーザーを表示します。](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [フィルタ：不完全なプロジェクト間の先行タスクを表示します](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [フィルタ：不完全なクロスプロジェクトの後続プロセスを表示します](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
