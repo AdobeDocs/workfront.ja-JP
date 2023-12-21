@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,7 @@ hide: yes
 * [AdobeMaestro のデモビデオを見る](https://video.tv.adobe.com/v/3424253/){target=_blank}
 * [Adobeマエストロの概要](maestro-overview.md)：このソリューションに特有の用語や概念を含む、Adobeマエストロの概要です。 ここで Maestro を使用してジャーニーを開始することをお勧めします。
 * [Adobeマエストロリリースアクティビティ](../maestro/release-activity.md): 2023 年 5 月 23 日に Maestro がクローズベータプログラムの開始以降にリリースされたすべての機能のリスト。正確なリリース日と各機能の概要が示されています。
+* [Workfront Fusion 用AdobeMaestro モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 
 ## マエストロのアーキテクチャと機能
 

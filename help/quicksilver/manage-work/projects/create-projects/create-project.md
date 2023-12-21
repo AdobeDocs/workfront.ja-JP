@@ -6,9 +6,9 @@ description: プロジェクトは、Adobe Workfrontでの作業の大きな単�
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,11 @@ ht-degree: 1%
      問題を変換してプロジェクトを作成する際にテンプレートを使用している場合は、上記の 2 つ目のシナリオを参照して、新しいプロジェクトに適用されるグループとステータスWorkfrontを把握してください。
 
 ## ゼロからのプロジェクトの作成
+
+>[!NOTE]
+>
+>テンプレートを使用してプロジェクトを作成する場合は、「 [テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
 
 1. 次のいずれかの操作を行います。
 

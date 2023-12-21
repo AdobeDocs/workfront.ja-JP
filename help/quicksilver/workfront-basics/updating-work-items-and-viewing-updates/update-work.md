@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4172'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ After the monthly releases to Production, the same features are also available i
 > * ホーム
 > * リスト内の概要パネル
 > * タイムシートの [ 概要 ] パネル
+> * ワークロードバランサーの概要パネル
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -100,7 +101,7 @@ After the monthly releases to Production, the same features are also available i
 
    * Workfrontオブジェクトの「更新」セクションで、
    * 「ホーム」領域から（タスクおよび問題に関する）
-   * オブジェクトの一覧の [ 概要 ] パネル、またはタイムシート（タスクと問題の場合）から
+   * オブジェクトの一覧、タイムシート、またはワークロードバランサー（タスクと問題）の [ 概要 ] パネルから
 
 このページの情報では、Workfrontオブジェクトにコメントする方法と、コメントを追加する際にプロジェクト、タスクおよび問題を更新する方法について説明します。
 

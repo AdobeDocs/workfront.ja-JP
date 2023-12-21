@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ After permssions - replace the table with:
 
 
 1. 次をクリック： **+** 新しいフィールドを追加するには、テーブルビューの右上隅にあるアイコンを使用します。
-1. Adobe Analytics の **新しいフィールド** 「 」タブで、次のフィールドタイプから選択します。
+1. Adobe Analytics の **新しいフィールド** 」タブで、 **フィールドタイプ** 」ボックスを選択するか、次のフィールドタイプから選択します。
 
    * [1 行テキスト](#single-line-text)
    * [段落](#paragraph)
