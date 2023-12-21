@@ -6,9 +6,9 @@ description: 次から： [!UICONTROL ボード] ダッシュボードを使用�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ ht-degree: 1%
 
       The [!UICONTROL **追加中のカード**] カウンターは、ボードに表示されるカードの数を示します。 例えば、100 個のタスクと問題を含むプロジェクトを選択した場合、カウンターには 100 と表示されます。 ユーザー割り当てを追加し、そのユーザーがプロジェクト上の 5 つのタスクに割り当てられている場合、カウンターには 5 と表示されます。
 
-   1. （オプション）「 」を選択します。 [!UICONTROL **完了した作業を含める**] 完了したカードをボードに含めます。
+   1. （オプション）「 」を選択します。 [!UICONTROL **完了した作業をアーカイブ済みカードとして含める**] 完了したタスクと問題をアーカイブされたカードとしてボードに取り込む。
 
       >[!NOTE]
       >
-      >このオプションを選択しない場合、他のステータスのカードが完了とマークされると、そのカードはボードから「フォールオフ」され、表示されなくなります。
+      >デフォルトでは、アーカイブされたカードはボードに表示されません。 アーカイブされたカードを表示するには、構成設定をオンにしてから、ボードをフィルターしてアーカイブされたカードを表示する必要があります。 詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) および [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >このオプションを選択しない場合、ボード作成時に完了したカードはボードに表示されません。 完了とマークされた後のカードは、[ 完了 ] 列のボードに残り、カードのフォールオフを設定しない限りアーカイブされません。 詳しくは、 [カードのフォールオフを設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. （オプション）「 [!UICONTROL **詳細フィルターの使用**] をクリックして、追加のフィルターオプションを表示します。
 
