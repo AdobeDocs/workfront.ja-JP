@@ -6,20 +6,18 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # スマート割り当てを行う
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
+<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。</span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。 スマート割り当ては、ジョブに最も適したリソースを決定するアルゴリズムに基づいて作業項目をリソースに割り当てる際にAdobe Workfrontが表示するユーザーに対する提案です。 スマート割り当ての詳細については、 [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -60,24 +58,21 @@ ht-degree: 0%
 
 スマート割り当ては、Workfrontで割り当てをおこなうほとんどの場所で使用できます。
 
-1. 次の領域に移動し、 **割当て** または **これをに割り当てる** フィールド：   
+1. 次の領域に移動し、 **割当て** または **これをに割り当てる** フィールド：
 
    * タスク、タスクリスト、またはレポート
    * タスクまたはイシューのヘッダー
    * タスクまたは問題の概要パネル
    * 「ホーム」領域にリストされた項目の「割り当て」フィールド
-   * 「スケジュール設定」領域または「スケジュール設定」領域のタスクまたはイシュー
    * ワークロードバランサーのタスクまたは問題
 
-1. 割り当てフィールドにカーソルを置き、2 秒間待ちます。 The **推奨割り当て** または **以下に、いくつかの推奨事項を示します。** リストが表示されます。
+1. 割り当てフィールドにカーソルを置き、2 秒間待ちます。
 
-   <!--check the casing for "assignments" should be lower case in task lists??-->
+   <span class="preview">The **推奨割り当て** リストが表示されます。</span> <!--check the casing for "assignments" should be lower case in task lists??-->
 
-   <!--replace the last sentence above with this when we release smarter assignments:
-   The **Suggested assignments** list displays. 
-   NOTE (********and add preview tags for the note*****)
-   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
-   -->
+   >[!TIP]
+   >
+   >   リストヘッダーが表示されます **以下に、いくつかの推奨事項を示します。** の代わりに **推奨割り当て** をクリックします。
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -85,7 +80,9 @@ ht-degree: 0%
 
    スマート割り当てが表示される場所の詳細については、この記事の「スマート割り当ての候補の検索」の節を参照してください [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. レコメンデーションリストでユーザー名をクリックして選択します。 クリック **自分に割り当て** 作業項目を自分に割り当てます。
+1. レコメンデーションリストでユーザー名をクリックして選択します。
+
+1. （オプション）「 **自分に割り当て** 作業項目を自分に割り当てる。
 
    >[!TIP]
    >
