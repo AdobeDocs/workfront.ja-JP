@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ユーザーが割り当てられているプロジェクトの承認、ドキュメントの承認、ドキュメントのバージョンの承認をクリックしたときに、ホーム領域に表示されるフィールドをカスタマイズすることもできます。
 
-ホーム領域については、 [ホーム領域を使用](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). 概要パネルについて詳しくは、 [概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+ホーム領域については、 [ホーム領域を使用する](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). 概要パネルについて詳しくは、 [概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -53,7 +53,7 @@ ht-degree: 2%
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,9 +62,9 @@ ht-degree: 2%
 
 1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. 下向き矢印をクリックします。 ![](assets/dropdown-arrow.png) under **ユーザーに表示する内容をカスタマイズ**&#x200B;を選択し、「 **ホームと概要**.
+1. 下向き矢印をクリックします。 ![](assets/dropdown-arrow.png) under **ユーザーに表示する内容をカスタマイズする**&#x200B;を選択し、次に **ホームと概要**.
 
-1. 左側に表示されるリストで、オブジェクトタイプ (**タスク**, **問題**, **プロジェクト**, **ドキュメント**&#x200B;または **ドキュメントのバージョン**) をクリックします。
+1. 左側に表示されるリストで、オブジェクトタイプ (**タスク**, **問題**, **プロジェクト**, **ドキュメント**&#x200B;または **ドキュメントのバージョン**) をクリックし、[ ホーム ] および [ 概要 ] でカスタマイズします。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,12 +75,12 @@ ht-degree: 2%
       <td> <p>ホームでは、この設定を行うと、ユーザーがタスクをクリックしたときにタスクの右側の領域が変わります。 また、タスクのリストでは、ユーザーがタスクを選択して [ 概要を開く ] アイコンをクリックすると、ページの右側に表示される概要パネルに影響します <img src="assets/summary-panel-icon.png">.</p> <p>例えば、ユーザーがホームでタスクを選択する際に「詳細」領域に表示されるフィールドを指定できます。</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>また、サマリーでタスクを選択した場合は、次のようになります。</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">問題</td> 
+      <td role="rowheader">イシュー</td> 
       <td> <p>ホームでは、この設定は、ユーザーが問題をクリックしたときに問題の右側の領域に影響します。</p> <p>問題の一覧では、この設定は、ユーザーが問題を選択して [ 概要を開く ] アイコンをクリックしたときにページの右側に表示される [ 概要 ] パネルに影響します <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">プロジェクト</td> 
-      <td>ホームでは、ユーザーが割り当てられたプロジェクト承認をクリックすると、この設定の影響を受けるのは承認の右側の領域です。</td> 
+      <td>ホームでは、ユーザーが割り当てられたプロジェクトの承認をクリックすると、この設定の影響を受けるのは承認の右側の領域です。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ドキュメント</td> 
@@ -88,7 +88,7 @@ ht-degree: 2%
      </tr> 
      <tr> 
       <td role="rowheader">ドキュメント バージョン</td> 
-      <td>ホームでは、ユーザーが特定のバージョンのドキュメントに割り当てられている承認をクリックすると、この設定の影響を受けるのは承認の右側の領域です。</td> 
+      <td>ホームでは、ユーザーが特定のバージョンのドキュメントに割り当てられている承認をクリックすると、この設定の影響を受けるのは、承認の右側の領域です。</td> 
      </tr> 
     </tbody> 
    </table>
@@ -101,7 +101,7 @@ ht-degree: 2%
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. （条件付き） **「プライマリアクションを設定」ボタン** ドロップダウンメニューが表示されます ( **タスク** または **問題** 左側のリストで )、プライマリアクション (**完了** または **ステータス**) を選択します。
+1. （条件付き） **「プライマリアクションを設定」ボタン** ドロップダウンメニューが表示されます (「 **タスク** または **問題** 左側のリストで )、プライマリアクション (**完了** または **ステータス**) を使用して、タスクまたはイシューを表示する際に、ユーザーがホーム領域およびサマリパネルで利用できるようにします。
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -134,8 +134,8 @@ ht-degree: 2%
        <ul>
         <li>予定完了日</li>
         <li>コミット日</li>
-        <li><p>送信日</p></li>
-       </ul><p><b>注意</b>:このオプションを有効にすると、期限を過ぎた作業項目は、時間ではなく、日付に基づいてホームワークリストの遅延グループに移動されます。</p></td> 
+        <li>送信日</li>
+       </ul><p><b>注意</b>：このオプションを有効にすると、期限が過ぎた作業項目は、時間ではなく、日付に基づいてホームワークリストの遅延グループに移動されます。</p></td> 
      </tr> 
     </tbody> 
    </table>

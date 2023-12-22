@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### ボードの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">ダイナミックボードは、ボードの作成時に完了したカードをアーカイブします</a></p><p>[!BADGE In production ]{type=Informative}</p><p>動的ボードを作成する場合、完了したタスクや問題をボードに含めることができます。 完了したタスクや問題が多数あるプロジェクトの場合、動的ボードにパフォーマンスの問題が発生する可能性があります。 これで、ダイナミックボードを作成し、完了した作業を含める場合、タスクと問題はアーカイブされたカードとしてボードに取り込まれます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 12 月 22 日</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動環境：2023 年 12 月 21 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用した新しいホームの管理者コントロール</a></p><p>管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。 カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択、使用可能なフィルターとグループの選択（およびデフォルトの設定）のためのウィジェット固有のオプションが含まれます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 12 月 22 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">作業クイックアクションボタンがマウスオーバー時にのみ表示されるように変更されました</a></p><p>[!BADGE In production ]{type=Informative}</p><p>パフォーマンスを向上させるために、作業ウィジェットで使用できるクイックアクションボタンは、作業項目をマウスで移動したときにのみ表示されるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
@@ -228,6 +280,44 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様の本番環境：2023 年 11 月 9 日</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### プロジェクトの強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI 駆動型スマート割り当て</a></p><p>Workfrontがタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、Workfrontのどこでタスクを割り当てるか（タスクリスト、タスクヘッダーの「割り当て」領域、ホームおよび概要パネル）に適用されます。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 12 月 22 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>

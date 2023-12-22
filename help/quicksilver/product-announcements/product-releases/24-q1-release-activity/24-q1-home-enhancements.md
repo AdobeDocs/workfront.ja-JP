@@ -3,9 +3,10 @@ title: 2024 年第 1 四半期のホームの機能強化
 description: 2024 年第 1 四半期のホームの機能強化
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c2b804741300fcf4cf3f85a73ed1dac0a9d9a40
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -15,6 +16,14 @@ ht-degree: 0%
 このページでは、2024 年第 1 四半期リリースでプレビュー環境に対しておこなわれたすべてのホームの機能強化について説明します。 これらの機能強化は、2024 年第 1 四半期リリースの実稼動環境で利用できるようになります。
 
 2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## レイアウトテンプレートを使用した新しいホームの管理者コントロール
+
+管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。 カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択、使用可能なフィルターとグループの選択（およびデフォルトの設定）のためのウィジェット固有のオプションが含まれます。
+
+管理者のレイアウトテンプレートの選択は、個々のユーザのカスタマイズを上書きすることに注意してください。つまり、レイアウトテンプレートの変更が保存されると、そのレイアウトテンプレートのユーザは新しいホームページを変更し、既存のウィジェットをページの下部に移動します。 管理者が選択したウィジェットは、ユーザーによって再配置される場合がありますが、削除することはできません。
+
+詳しくは、 [レイアウトテンプレートを使用して新しいホームをカスタマイズする](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## 作業クイックアクションボタンがマウスオーバー時にのみ表示されるように変更されました
 

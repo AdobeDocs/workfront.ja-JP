@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13842'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 1%
       * [Adobe Workfrontの四半期リリースに備える](product-announcements/product-releases/release-readiness.md)
       * 2024 年第 1 四半期リリース {#release-24-q1}
          * [2024 年第 1 四半期リリースの概要](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-         * [2024 年第 1 四半期管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
+         * [2024 年第 1 四半期管理者向けの機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
          * [2024 年第 1 四半期のドキュメント管理の強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
-         * [2024 年第 1 四半期の統合の強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-         * [2024 年第 1 四半期の更新ストリームと通知の機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
+         * [2024 年第 1 四半期のボードの機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
          * [2024 年第 1 四半期のホームの機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+         * [2024 年第 1 四半期の統合の強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
+         * [2024 年第 1 四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+         * [2024 年第 1 四半期の更新ストリームと通知の機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * 2023 年第 4 四半期リリース {#release-23-q4}
          * [2023 年第 4 四半期リリースの概要](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023 年第 4 四半期管理者向けの機能強化](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -537,6 +539,7 @@ ht-degree: 1%
          * [左側のパネルをカスタマイズする](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [詳細表示のカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [ホームと概要のカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [新規ホームのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [ピン留めされたページをカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [フィルター、表示、グループ化のカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [ユーザーインターフェイスの用語のカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
