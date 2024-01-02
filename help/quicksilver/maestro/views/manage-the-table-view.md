@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -199,13 +199,13 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
 
    1. 次をクリック： **検索** アイコン ![](assets/search-icon.png) をクリックして、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致を持つフィールドがハイライト表示されます。
 
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
       画面に表示される任意の単語や特殊文字を使用できます。
 
       テーブル表示で非表示になっているフィールドに関連付けられたキーワードは使用できません。
 
-      キーボードの Enter キーを押すと、次に見つかったフィールドに移動します。
-
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+   1. キーボードの Enter キーを押して、次に見つかったフィールドに移動します。
 
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックして、テーブル内のすべての一致を検索します。
 

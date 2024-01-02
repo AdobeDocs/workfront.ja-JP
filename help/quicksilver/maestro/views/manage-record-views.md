@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -146,6 +146,7 @@ ht-degree: 1%
 | レコードの並べ替え | ✓ |              |
 | カラーコードのレコード |           | ✓ |
 | カラーコードのグループ化 |           | ✓ |
+| レコードを検索 | ✓ | ✓ |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
 <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->

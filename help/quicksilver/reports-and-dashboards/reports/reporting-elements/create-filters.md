@@ -6,7 +6,7 @@ description: フィルターを使用して、項目のリストに表示する�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Adobe Workfrontでフィルターを作成または編集
+
+<!--Audited: 12/2023-->
 
 フィルターを使用して、項目のリストに表示する情報の量を制限できます。 特定の基準を、オブジェクトに関する特定の情報に基づいて定義し、その基準を満たすオブジェクトのみを表示できます。
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 1%
+source-wordcount: '1648'
+ht-degree: 0%
 
 ---
 
@@ -145,6 +145,20 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
    クリック **コンパクト表示に切り替え** 日付が同じ行で交差しないレコードを表示します。 <!--check to see if they updated the name of the setting here-->
 
    デフォルトでは、レコードはコンパクトビューに表示されます。
+
+1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
+
+   1. 次をクリック： **検索** アイコン ![](assets/search-icon.png) をクリックして、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致を持つレコードがハイライト表示されます。
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      画面に表示される任意の単語や特殊文字を使用できます。
+
+      テーブル表示で非表示になっているフィールドに関連付けられたキーワードは使用できません。
+
+   1. キーボードの Enter キーを押して、次に見つかったフィールドに移動します。
+   1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックして、テーブル内のすべての一致を検索します。
+   1. 検索ボックスの X アイコンをクリックして、検索キーワードをクリアします。
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)

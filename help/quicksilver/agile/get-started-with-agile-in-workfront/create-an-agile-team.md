@@ -6,14 +6,16 @@ description: Adobe Workfrontは、アジャイルチームが段階的かつ整�
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # アジャイルチームの作成
+
+<!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront] アジャイルチームは、段階的で整理された方法で作業を完了できます。
 
@@ -41,7 +43,10 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL プラン ]：新しいアジャイルチームを作成し、[!UICONTROL Work] 以上でチームをアジャイルチームに変換します。</p> </td> 
+   <td> <p>新規：標準</p>
+   現在： 
+   <ul><li><p>[!UICONTROL プラン ] を使用して新しいアジャイルチームを作成</p></li> 
+   <li><p>[!UICONTROL Work] 以降：チームをアジャイルチームに変換する場合</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,12 +90,15 @@ The [!DNL Kanban] ～の機敏な方法論 [!DNL Workfront] を使用すると�
 
 ## アジャイルチームの作成
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL チーム]**.
-1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)を選択し、次に **[!UICONTROL 新規チームの作成]**.
+{{step1-to-team}}
+
+1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)を選択し、次に **[!UICONTROL 新しいチームを作成]**.
 
    ![「新しいチームを作成」を選択します。](assets/create-new-team-350x198.png)
 
-1. 次の情報を [!UICONTROL 新規チーム] ダイアログ：
+   [ 新しいチーム ] ボックスが表示されます。
+
+1. 次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,10 +111,17 @@ The [!DNL Kanban] ～の機敏な方法論 [!DNL Workfront] を使用すると�
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL アジャイルチーム ]</strong> </td> 
       <td>この新しいチームをアジャイルチームに設定するには、このオプションを選択します。</td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>[!UICONTROL がアクティブです ]</strong> </td> 
+      <td>このチームを有効化するには、このオプションを選択します。 非アクティブなチームは、他のユーザーが作業に割り当てる際には表示されません。 </td> 
+     </tr>
+
+
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL グループ ]</strong> </td> 
-      <td> <p>チームに追加するグループの名前を入力し、ドロップダウンリストに表示されたら名前を選択します。</p> <p>注意：チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならずにチームを管理できます。 グループ管理者は、[!UICONTROL メインメニュー ] から [!UICONTROL チーム ] 領域に移動し、[!UICONTROL チームを切り替え ] 矢印をクリックできます。 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> ：管理するグループに割り当てられているすべてのチームのリストを表示します。</p> </td> 
+      <td> <p>チームに追加するグループの名前を入力し、ドロップダウンリストに表示されたら名前を選択します。</p> <p><b>メモ</b></p> <p> チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならずにチームを管理できます。 グループ管理者は、[!UICONTROL メインメニュー ] から [!UICONTROL チーム ] 領域に移動し、[!UICONTROL チームを切り替え ] 矢印をクリックできます。 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> ：管理するグループに割り当てられているすべてのチームのリストを表示します。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL チームメンバー ]</strong> </td> 
@@ -145,7 +160,9 @@ The [!DNL Kanban] ～の機敏な方法論 [!DNL Workfront] を使用すると�
 
 1. クリック **変更を保存します。**
 
-   アジャイルチームの設定について詳しくは、次の記事を参照してください。
+   チームはアジャイルチームとして保存されます。 チームの編集時に、新しいチームをスクラムまたはかんばんチームとして設定できます。
+
+   詳しくは、次の記事を参照してください。
 
    * [設定 [!UICONTROL かんばん]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [設定 [!UICONTROL スクラム]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

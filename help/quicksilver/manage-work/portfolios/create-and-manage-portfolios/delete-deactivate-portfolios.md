@@ -6,14 +6,16 @@ description: Portfolioは、Adobe Workfrontのプロジェクトまたはプロ�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 # ポートフォリオの削除と非アクティブ化
+
+<!--Audited: 01/2024-->
 
 Portfolioは、内のプロジェクトまたはプログラムの集まりです。 [!DNL Adobe Workfront]. ポートフォリオがシステムに無関係な場合は、ポートフォリオを削除または非アクティブ化できます。
 
@@ -28,16 +30,17 @@ Portfolioは、内のプロジェクトまたはプログラムの集まりで�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ] </p> </td> 
+   <td> <p>新規： [!UICONTROL Standard] </p>
+   <p>現在： [!UICONTROL プラン ] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROL 編集 ] によるプロジェクトおよびPortfolioへのアクセス</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者がアクセスレベルを変更できる場合は、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL 編集 ] によるプロジェクトおよびPortfolioへのアクセス</p> <p><b>メモ</b></p> <p> アクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者がアクセスレベルを変更できる場合は、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
@@ -74,7 +77,7 @@ Portfolioは、内のプロジェクトまたはプログラムの集まりで�
 
 1. クリック **[!UICONTROL Portfolio]** .
 1. ポートフォリオの名前をクリックします。
-1. その他メニューをクリックします。 ![](assets/more-icon.png) ポートフォリオ名の右にあるをクリックし、 **[!UICONTROL 非アクティブ化Portfolio]**.
+1. 次をクリック： **その他** メニュー ![](assets/more-icon.png) ポートフォリオ名の右にあるをクリックし、 **[!UICONTROL 非アクティブ化Portfolio]**.
 
 ## ポートフォリオの削除
 

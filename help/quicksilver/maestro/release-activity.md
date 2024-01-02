@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## 2024 年 12 月 18 日の週
+## 2023 年 12 月 25 日の週
+
+### タイムライン表示での検索
+
+プレビューおよび実稼動環境： 2023 年 12 月 27 日
+
+タイムラインビューでキーワードを検索して、レコードをすばやく見つけることができるようになりました。 画面に表示される任意のフィールドのキーワードと特殊文字を使用して、レコードを検索できます。 詳しくは、 [タイムライン表示を管理](../maestro/views/manage-the-timeline-view.md).
+
+## 2023 年 12 月 18 日の週
 
 ### 詳細ページからレコードにコメントを追加する
 
@@ -331,7 +339,7 @@ Maestro の次の領域からWorkfrontオブジェクトページを開くこと
 
 プレビューおよび実稼動環境：2023 年 10 月 10 日
 
-キーワードを検索して、テーブルビューでレコードをすばやく検索できるようになりました。 画面に表示される任意のフィールドでキーワードと特殊文字を使用して、レコードを検索できます。 詳しくは、 [テーブル表示の管理](../maestro/views/manage-the-table-view.md).
+キーワードを検索して、テーブルビューでレコードをすばやく検索できるようになりました。 画面に表示される任意のフィールドのキーワードと特殊文字を使用して、レコードを検索できます。 詳しくは、 [テーブル表示の管理](../maestro/views/manage-the-table-view.md).
 
 ## 2023 年 9 月 18 日の週
 
