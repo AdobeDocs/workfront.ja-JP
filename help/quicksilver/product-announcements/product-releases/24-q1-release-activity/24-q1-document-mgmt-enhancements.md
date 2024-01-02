@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期のドキュメント管理の強化
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,29 @@ ht-degree: 0%
 
 ## ドキュメント承認用に更新されたステータス
 
+>[!NOTE]
+>
+>この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。
+
 ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。
 
 使用可能な特定のステータスについて詳しくは、 [ドキュメントの承認ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## ドキュメントのヘッダーにドキュメントのレビューと承認のステータスが表示されます
 
+>[!NOTE]
+>
+>この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。
+
 レビューと承認のプロセスをより透明にするために、ドキュメントの詳細ページのヘッダーにステータスを追加しました。 これで、ドキュメントに対して行われた承認の決定や、ドキュメントがまだレビュー中かどうかを一目で確認できます。
 
 特定のステータスについて詳しくは、 [ドキュメントの承認ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## レビューを完了としてマーク
+
+>[!NOTE]
+>
+>この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。
 
 ドキュメントがレビューされ、次の承認ステージに進む準備が整ったときに、より明確にするために、新しい **レビューを完了** 」ボタンをクリックします。 レビュー担当者として設定されたユーザーがドキュメントをレビューした場合に、 **レビューを完了** ボタンを使用して、レビューの完了をWorkfrontに記録します。
 

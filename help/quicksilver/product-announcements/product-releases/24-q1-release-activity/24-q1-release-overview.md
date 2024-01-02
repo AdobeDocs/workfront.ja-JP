@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ ht-degree: 0%
                                 <p>四半期リリースの実稼動：24.1 リリースを使用</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -163,6 +164,7 @@ ht-degree: 0%
                                 <p>四半期リリースの実稼動：24.1 リリースを使用</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -181,6 +183,7 @@ ht-degree: 0%
                                 <p>四半期リリースの実稼動：24.1 リリースを使用</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
                     </td>
                 </tr>                
            </tbody>
