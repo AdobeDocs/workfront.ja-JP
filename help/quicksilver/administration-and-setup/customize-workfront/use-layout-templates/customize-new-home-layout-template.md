@@ -7,9 +7,7 @@ description: レイアウトテンプレートを使用して、新しいホー�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
+source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 1%

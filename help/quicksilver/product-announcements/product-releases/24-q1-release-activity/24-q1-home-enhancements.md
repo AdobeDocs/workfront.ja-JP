@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期のホームの機能強化
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
+source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,13 @@ ht-degree: 0%
 
 2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-<!--
+## レイアウトテンプレートを使用した新しいホームの管理者コントロール
 
-## Administrator controls for new Home using layout templates
+管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。 カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択、使用可能なフィルターとグループの選択（およびデフォルトの設定）のためのウィジェット固有のオプションが含まれます。
 
-Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).
+管理者のレイアウトテンプレートの選択は、個々のユーザのカスタマイズを上書きすることに注意してください。つまり、レイアウトテンプレートの変更が保存されると、そのレイアウトテンプレートのユーザは新しいホームページを変更し、既存のウィジェットをページの下部に移動します。 管理者が選択したウィジェットは、ユーザーによって再配置される場合がありますが、削除することはできません。
 
-Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
-
-For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
-
--->
+詳しくは、 [レイアウトテンプレートを使用して新しいホームをカスタマイズする](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## 作業クイックアクションボタンがマウスオーバー時にのみ表示されるように変更されました
 
