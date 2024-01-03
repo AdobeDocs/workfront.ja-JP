@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 762053edbf490532b96285a6d1edff2af49500a4
+source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 6%
@@ -39,7 +39,7 @@ As an [!DNL Adobe Workfront] 管理者は、のインスタンス用に OAuth2 �
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] 以降</p> </td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
@@ -128,7 +128,7 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth2 アプリケーション]**.
 1. クリック **[!UICONTROL アプリ統合の作成]**.
 The **新しい OAuth2 アプリケーション** ボックスが表示されます。
-1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL サーバー認証]**.
+1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL 機械 — 機械アプリケーション]**.
 1. 新しいアプリケーションの名前を入力します（例： ）。[!DNL Workfront] ClientApp の場合は。」
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. 新しいアプリのフィールドに入力します。
@@ -180,7 +180,7 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
 1. クリック **[!UICONTROL アプリ統合の作成]**.
 
    The **新しい OAuth2 アプリケーション** が表示されます。
-1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL ユーザー認証]**.
+1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL Web アプリケーション]**.
 1. 新しい OAuth2 アプリケーションの名前を入力します（例： ）。[!DNL Workfront] ClientApp の場合は。」
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. 新しいアプリのフィールドに入力します。
