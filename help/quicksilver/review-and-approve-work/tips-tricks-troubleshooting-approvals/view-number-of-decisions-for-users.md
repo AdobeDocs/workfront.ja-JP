@@ -3,12 +3,12 @@ product-area: documents
 navigation-topic: approvals
 title: すべてのユーザーに対する配達確認およびドキュメントの決定数を表示します
 description: Workfrontインスタンスでユーザーがおこなった配達確認およびドキュメントの決定の数を表示できます。
-author: Courtney
+author: Courtney and Lisa
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
+source-git-commit: 21df7fd2340214034a2a2d6b4199861a2d8f71cd
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Workfrontインスタンスでユーザーがおこなった配達確認およ�
 1. を開きます。 **件数** 「 」領域で、 **ライセンス** 表示。
 1. 列を検索 **今月の決定** ：各ユーザーが月内におこなった決定の数を表示します。
 1. <span class="preview">履歴データを表示するには、 **件数** 「 」領域で「 」を選択します。 **履歴ユーザー表示**.</span>
-1. <span class="preview">列を検索 **ユーザーの履歴決定** ：各ユーザーが 1 ヶ月間におこなった決定数を表示します。 データは今月から 12 ヶ月遡ります。</span>
+1. <span class="preview">列を検索 **ユーザーの履歴決定** ：各ユーザーが 1 ヶ月間でおこなった決定の数を表示します。 このレポートが組織で利用可能になったタイミングに応じて、データには今月の最大 12 ヶ月前までが含まれる場合があります。</span>
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Workfrontインスタンスでユーザーがおこなった配達確認およ�
 1. クリック **新しいレポート**&#x200B;を選択し、「 **ユーザーの決定**.
 1. 列を検索 **今月の決定** ：各ユーザーが月内におこなった決定の数を表示します。
 
-   <span class="preview">データは今月から 12 ヶ月遡ります。 The **月** および **年** 列には、どの月に決定がおこなわれたかが表示されます。 1 ヶ月目は 1 月、2 ヶ月目は 2 月といった具合です。</span>
+   <span class="preview">このレポートが組織で利用可能になったタイミングに応じて、データには今月の最大 12 ヶ月前までが含まれる場合があります。 The **月** および **年** 列には、どの月に決定がおこなわれたかが表示されます。 1 ヶ月目は 1 月、2 ヶ月目は 2 月といった具合です。</span>
 
 1. レポートを確認し、必要に応じて編集します。 詳しくは、 [カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
