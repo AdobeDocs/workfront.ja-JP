@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -209,7 +209,7 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
 
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックして、テーブル内のすべての一致を検索します。
 
-   1. 次をクリック： **X** アイコンをクリックして、検索キーワードをクリアします。
+   1. 次をクリック： **x** アイコンをクリックして、検索キーワードをクリアします。
 
 
 ### 行（またはレコード）を追加 {#add-rows}

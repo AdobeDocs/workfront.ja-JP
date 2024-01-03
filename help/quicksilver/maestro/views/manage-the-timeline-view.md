@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,11 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 
       画面に表示される任意の単語や特殊文字を使用できます。
 
-      テーブル表示で非表示になっているフィールドに関連付けられたキーワードは使用できません。
+      タイムライン表示に表示されないフィールドに関連付けられたキーワードは使用できません。
 
    1. キーボードの Enter キーを押して、次に見つかったフィールドに移動します。
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックして、テーブル内のすべての一致を検索します。
-   1. 検索ボックスの X アイコンをクリックして、検索キーワードをクリアします。
+   1. 次をクリック： **x** アイコンをクリックして、検索キーワードをクリアします。
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)
