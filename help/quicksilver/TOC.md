@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '13842'
+source-wordcount: '13841'
 ht-degree: 1%
 
 ---
@@ -1762,7 +1762,7 @@ ht-degree: 1%
       * [サマリーを使用してワークロードバランサーの作業項目を更新する](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * 作業のレビューと承認 {#review-and-approve-work}
    * [作業のレビューと承認](review-and-approve-work/review-and-approve-work.md)
-   * [アルファプログラム — ドキュメントの承認](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Alphaプログラム — ドキュメントの承認](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [非有料ユーザーに対する限定的なドキュメントおよび配達確認の決定の概要](review-and-approve-work/proof-doc-decision-limits.md)
    * 作業承認 {#work-approvals}
       * [作業承認](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2156,7 +2156,7 @@ ht-degree: 1%
       * [Adobe Acrobat Signモジュール](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Adobe Creative Cloud Libraries モジュール](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classicモジュール](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
-      * [Adobe Experience Manager Assets モジュール](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Adobe Experience Manager Assetsモジュール](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Formsモジュール](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Journey Optimizerモジュール](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [AdobeMaestro モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
