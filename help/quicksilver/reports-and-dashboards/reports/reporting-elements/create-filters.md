@@ -6,9 +6,9 @@ description: フィルターを使用して、項目のリストに表示する�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
 workflow-type: tm+mt
-source-wordcount: '2456'
+source-wordcount: '2450'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Adobe Workfrontでは、次のタイプのフィルターを適用できます�
 
 * Workfrontの他の領域（リストやレポートの外部）でのフィルター。
 
-  Workfrontのすべてのフィルターと、それらを適用できる領域の一覧については、 [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Workfrontのすべてのフィルターと、それらを適用できる領域の一覧については、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## アクセス要件
 
@@ -241,7 +241,7 @@ Workfrontオブジェクトについて詳しくは、 [Adobe Workfrontのオブ
 
    ![「すべて」または「いずれか」または「真」のドロップダウンメニューの場合に含める](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   フィルター演算子について詳しくは、 [Adobe Workfrontのフィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   フィルター演算子について詳しくは、 [フィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. フィールドドロップダウンメニューをクリックして、最近使用したフィールドと、フィルターに使用する推奨フィールドのリストを表示します。 推奨フィールドは、現在、フィルタリング対象のリストに表示されます。
 

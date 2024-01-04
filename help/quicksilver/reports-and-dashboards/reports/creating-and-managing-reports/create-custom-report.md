@@ -6,9 +6,9 @@ description: レポートを作成することで、Adobe Workfront内で組織�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -235,7 +235,7 @@ ht-degree: 1%
 1. クリックした場合 **フィルタールールを追加する**&#x200B;をクリックし、フィルターとして追加するフィールドの入力を開始します。 フィールドが使用可能な場合は、関連付け可能な各オブジェクトに対してが設定されます。 フィールドの名前をクリックして、そのフィルターに追加します。\
    フィルター修飾子を使用して、フィルターを作成します。 フィルタ修飾子の詳細については、 [フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   新しいフィルターの作成について詳しくは、 [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   新しいフィルターの作成について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. （オプション）テキストモードでフィルターを作成するには、 **テキストモードに切り替え**.
 

@@ -2,18 +2,20 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: 外部アプリケーションからドキュメントをリンク
-description: ドキュメントとフォルダーをAdobe Workfrontにリンクできます。
+description: 外部ソースからAdobe Workfrontにドキュメントやフォルダーをリンクできます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2588'
 ht-degree: 0%
 
 ---
 
 # 外部アプリケーションからドキュメントをリンク
+
+<!-- Audited: 01/2024 -->
 
 次のソースから、ドキュメントとフォルダーをAdobe Workfrontにリンクできます。
 
@@ -36,7 +38,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Workfrontの配達確認で最初に作成した配達確認をWorkfront内で利用できるようにします。 この機能を使用するには、Pro Workfront Plan 以降が必要です。 利用可能な様々なプランについて詳しくは、 <a href="https://www.workfront.com/plans">Workfront Plans</a>.</td> 
+   <td>Workfrontの配達確認で最初に作成した配達確認をWorkfront内で利用できるようにします。 現在のライセンスでこの機能を使用するには、Pro Workfront Plan 以降が必要です。 新しいライセンスの場合、すべてのプランにこの機能が含まれます。 利用可能な様々なプランについて詳しくは、 <a href="https://www.workfront.com/plans">Workfront Plans</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -48,7 +50,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">その他のドキュメントプロバイダー（カスタムドキュメントの統合を通じて）</td> 
-   <td> <p class="workfront_plans">この機能を使用するには、Pro Workfront Plan 以降が必要です。 利用可能な様々なプランについて詳しくは、 <a href="https://www.workfront.com/plans">Workfront Plans</a>.</p> </td> 
+   <td> <p class="workfront_plans">現在のライセンスでこの機能を使用するには、Pro Workfront Plan 以降が必要です。 新しいライセンスの場合、すべてのプランにこの機能が含まれます。 利用可能な様々なプランについて詳しくは、 <a href="https://www.workfront.com/plans">Workfront Plans</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -94,12 +96,6 @@ Workfrontに直接アップロードされたドキュメントを使用する�
 ## 外部アプリケーションからWorkfrontにドキュメントをリンク
 
 既存のドキュメントを外部のクラウドプロバイダーにリンクすることができます。 これには共有ドキュメントも含まれます。
-
-* [前提条件](#prerequisites)
-* [外部ドキュメントをWorkfrontにリンク](#link-an-external-document-to-workfront)
-* [リンクされたドキュメントの新しいバージョンを追加する](#add-a-new-version-of-a-linked-document)
-* [Workfront Proof ドキュメントのリンク](#link-workfront-proof-documents)
-* [Workfront内でGoogleドキュメントを作成する](#create-a-google-document-from-within-workfront)
 
 ### 前提条件 {#prerequisites}
 
@@ -168,7 +164,7 @@ GoogleやMicrosoft OneDrive などの外部アプリケーションからWorkfro
 
    これは 1 回だけ実行する必要があります。
 
-1. ( **外部ファイルとフォルダのリンク** 表示されるボックスに、検索する項目の名前を入力し、 **入力** を使用すると、どのフォルダーに格納されているかに関係なく、外部アプリケーションからのすべての結果を表示できます。
+1. ( **外部ファイルとフォルダのリンク** 表示されるボックスに、検索する項目の名前を入力し、 **入力** を使用すると、外部アプリケーションの保存先フォルダーに関係なく、外部アプリケーションからのすべての結果を表示できます。
 
    または
 
@@ -190,7 +186,7 @@ GoogleやMicrosoft OneDrive などの外部アプリケーションからWorkfro
    >
    >Box にリンクされているドキュメントの場合、Box 内のドキュメントへのリンクは、ページを更新するまで表示されません。
 
-ファイルシステムからWorkfrontにアップロードしたドキュメントの新しいバージョンを追加する方法については、 [ファイルシステムからAdobe Workfrontにドキュメントを追加する](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [ファイルシステムからAdobe Workfrontにドキュメントを追加する](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+ファイルシステムからWorkfrontにアップロードしたドキュメントの新しいバージョンを追加する方法については、 [Adobe Workfrontにドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [ファイルシステムからAdobe Workfrontにドキュメントを追加する](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Workfront Proof ドキュメントのリンク {#link-workfront-proof-documents}
 
@@ -205,7 +201,7 @@ Workfrontの配達確認で表示アクセス権を持つ配達確認のみを�
    >
    >このメニューのオプションは、環境で設定されているサードパーティプロバイダーによって異なる場合があります。
 
-1. Adobe Analytics の **リンク** 配達確認 **から** Workfrontの配達確認ボックスが表示されたら、Workfrontで使用可能にする配達確認の名前を入力します。
+1. Adobe Analytics の **Workfrontの配達確認から配達確認をリンク** ボックスが表示されたら、Workfrontで使用可能にする配達確認の名前を入力します。
 
    入力すると、リストがフィルターされます。
 
@@ -223,9 +219,7 @@ Workfront内から新しいGoogleドキュメントを作成できます。 他�
 
 1. 次に移動： **ドキュメント** ドキュメントを挿入するWorkfrontの領域。
 1. クリック **新規追加** > **Google File**&#x200B;次に、作成するGoogleドキュメントの種類を選択します。
-
-1. 作成するGoogle Doc のタイプを選択します。
-1. 次の場合、 **Google Drive アカウントを追加** ボックスが表示され、 **Google ドライブを認証**.
+1. 次の場合、 **Google Drive アカウントを追加** ボックスが表示され、 **Google Drive を認証**.
 
    Googleドキュメントが **ドキュメント** タブをクリックします。
 
@@ -233,7 +227,7 @@ Workfront内から新しいGoogleドキュメントを作成できます。 他�
    >
    > 「My Drive」と「Shared with Me」に、2 つの異なる結果が表示されます。 [ マイドライブ ] にファイルが見つからない場合は、[ 自分と共有 ] フォルダを確認してください。
 
-## Workfrontのドキュメントを更新し、外部クラウドプロバイダーにリンクする
+## ドキュメントをWorkfrontから外部クラウドプロバイダーにアップロードしてリンクする
 
 ドキュメントをWorkfrontから外部のクラウドプロバイダーにアップロードしてリンクできます。 これにより、ドキュメントのストレージがWorkfrontから外部クラウドプロバイダーに移動します。 外部アプリケーションでドキュメントを変更すると、Workfrontでドキュメントが自動的に更新されます。
 
@@ -256,11 +250,7 @@ Workfrontにアクセスできないユーザーは、外部アプリケーシ�
 
 ## フォルダーのリンク
 
-Workfrontと外部のクラウドプロバイダーの間でフォルダーをリンクすると、フォルダーとそのすべてのコンテンツがリンクされます。 Workfrontアクセス権を持たないユーザーが外部ドキュメントアプリケーションからファイルを追加、削除、変更すると、変更内容がWorkfrontに同期されます。 次の節では、フォルダーとサブフォルダーをリンクする方法について説明します。
-
-* [フォルダーのアクセス権](#folder-access-rights)
-* [1 つ以上の外部フォルダーのリンク](#link-one-or-more-external-folders)
-* [リンクされたフォルダーにサブフォルダーを追加する](#add-subfolders-to-a-linked-folder)
+Workfrontと外部のクラウドプロバイダーの間でフォルダーをリンクすると、フォルダーとそのすべてのコンテンツがリンクされます。 Workfrontアクセス権を持たないユーザーが外部ドキュメントアプリケーションからファイルを追加、削除、変更すると、変更内容がWorkfrontに同期されます。
 
 ### フォルダーのアクセス権 {#folder-access-rights}
 
@@ -330,8 +320,6 @@ Workfrontを使用してリンクされたフォルダーにドキュメント�
 
 1. ドキュメントを保存するリンク先のフォルダを選択し、 **新規追加/ドキュメント**」をクリックし、ドキュメントを参照してフォルダーに追加します。
 
-
-
    または
 
    Adobe Analytics の **ドキュメント** ドキュメントを作成する領域で、ドキュメントをリンクされたフォルダーにドラッグします。
@@ -340,10 +328,11 @@ Workfrontを使用してリンクされたフォルダーにドキュメント�
 
 >[!NOTE]
 >
-> * ドキュメントの移動中は、ドキュメントオプションは使用できません。 ドキュメントをExperience Manager Assetsに移動すると、はWorkfrontのドキュメントリストに表示されなくなります。
+> * ドキュメントの移動中は、ドキュメントオプションは使用できません。
+>
+> * ドキュメントをExperience Manager Assetsに移動すると、はWorkfrontのドキュメントリストに表示されなくなります。
 >
 > * ドキュメントの移動中にドキュメントに対しておこなったアクションや編集は、Experience Manager Assetsのドキュメントには表示されないので、失われます。
-
 
 ## リンクされたドキュメントまたはフォルダーの削除
 
@@ -362,4 +351,4 @@ Workfrontと外部アプリケーションで名前を一致させる場合は�
 
 >[!IMPORTANT]
 >
->DropboxにリンクされているWorkfront内のドキュメントの名前を変更しないでください。変更すると、Workfront内のファイルにアクセスできなくなります。 代わりに、Dropboxのファイル名を変更し、ファイルを再同期します。 [外部アプリケーションからドキュメントをリンク](#synchronizing-changes-made-on-a-linked-document).
+>DropboxにリンクされているWorkfront内のドキュメントの名前を変更しないでください。変更すると、Workfront内のファイルにアクセスできなくなります。 代わりに、ファイルの名前をDropboxで変更し、ファイルを再同期します。

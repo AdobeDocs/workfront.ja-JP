@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 75c4abfa9aebf1d07a851486391291cddc94f1a9
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> <p><b>注意</b>:まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> <p><b>注意</b>：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ ht-degree: 0%
 
    * クリック **[!UICONTROL インターフェイス]** > **[!UICONTROL グループ化]**.
 
-1. フィルター、表示またはグループ化を作成する場合は、 **[!UICONTROL フィルターを追加]**, **[!UICONTROL ビューを追加]**&#x200B;または **[!UICONTROL グループを追加]**&#x200B;をクリックし、新しいフィルター、ビューまたはグループ化を関連付けるオブジェクトタイプを選択します。
+1. フィルター、表示またはグループ化を作成する場合は、 **[!UICONTROL フィルターを追加]**, **[!UICONTROL ビューを追加]**&#x200B;または **[!UICONTROL グループを追加]**」をクリックし、新しいフィルター、ビューまたはグループ化を関連付けるオブジェクトタイプを選択します。
 
    または
 
@@ -70,11 +70,11 @@ ht-degree: 0%
 
    使用可能なオプションについて詳しくは、次の記事の 1 つを参照してください。
 
-   * [フィルターの概要 ( [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [表示の概要 ( [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [でのグループ化の概要 [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-1. クリック **[!UICONTROL 保存]** 左下隅付近に
+1. クリック **[!UICONTROL 保存]** 左下隅付近にあります。
 
 システム内のユーザーがフィルター、表示またはグループ化を使用できるようにします。 他のユーザーとのフィルター、表示、またはグループの共有について詳しくは、「 [フィルター、ビュー、またはグループをユーザーが使用できるようにする](#make-filters-views-or-groupings-available-to-users) 」を参照してください。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 1. クリック **[!UICONTROL インターフェイス]**&#x200B;をクリックし、次のいずれかをクリックします。 **[!UICONTROL フィルター]**, **[!UICONTROL 件数]**&#x200B;または **[!UICONTROL グループ化]**.
 
-1. （条件付き）ユーザーが使用できるようにするフィルター、表示またはグループを選択し、 **[!UICONTROL システム全体を有効にする]**.
+1. （条件付き）ユーザーが使用できるようにするフィルター、表示またはグループを選択し、「 **[!UICONTROL システム全体を有効にする]**.
 
    ![](assets/enable-system-wide-fvg.png)
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 1. クリック **[!UICONTROL インターフェイス]**&#x200B;をクリックし、次のいずれかをクリックします。 **[!UICONTROL フィルター]**, **[!UICONTROL 件数]**&#x200B;または **[!UICONTROL グループ化]**.
 
 1. ユーザーが使用できるようにするフィルター、表示またはグループを選択し、 **[!UICONTROL 共有]** アイコン ![共有アイコン](assets/share-icon.png) 開く [!UICONTROL アクセスをフィルター], [!UICONTROL アクセスを表示]または [!UICONTROL グループ化アクセス] フォーム。
-1. （条件付き）フィルター、表示またはグループ化をシステム内のすべてのユーザーが使用できるようにするには、 **[!UICONTROL ギア]** ドロップダウンメニュー ![](assets/gear-menu-for-sharing-items.png)を選択し、「 **[!UICONTROL この機能をシステム全体で表示]**. システム内のすべてのユーザーが、フィルター、表示またはグループ化を表示できるようになりました。
+1. （条件付き）フィルター、表示またはグループ化をシステム内のすべてのユーザーが使用できるようにするには、 **[!UICONTROL ギア]** ドロップダウンメニュー ![](assets/gear-menu-for-sharing-items.png)を選択し、次に **[!UICONTROL この機能をシステム全体で表示する]**. システム内のすべてのユーザーが、フィルター、表示またはグループ化を表示できるようになりました。
 
    または
 
@@ -138,6 +138,6 @@ ht-degree: 0%
 1. リスト内の 1 つ以上の項目を選択し、 **[!UICONTROL 削除]** アイコン ![削除アイコン](assets/delete.png).
 1. フィルター、表示またはグループ化の設定について詳しくは、次の記事のいずれかを参照してください。
 
-   * [フィルターの概要 ( [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [表示の概要 ( [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [でのグループ化の概要 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

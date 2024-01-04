@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1862'
 ht-degree: 0%
 
 ---
@@ -261,7 +261,7 @@ The `stretch` は、ビューで不要な領域を占める列を識別するた
 
 フィルタとカスタムプロンプトの作成については、次を参照してください。
 
-* [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 テキストモードでのフィルターの作成について詳しくは、 [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).

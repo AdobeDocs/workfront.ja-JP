@@ -7,9 +7,9 @@ description: レポートでは、ユーザーや作業の状況を視覚的に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Workfrontのレポートは、次の 3 つの要素の組み合わせです。
   </tr> 
   <tr> 
    <td role="rowheader">フィルター</td> 
-   <td> <li>レポートに表示される情報の量を制御します。</li> <li>フィルターについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Adobe Workfrontのフィルターの概要</a>.</li> <li>フィルター修飾子について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">フィルターおよび条件修飾子</a>.</li> <li>ワイルドカードを使用してフィルタリングし、フィルターの一般性を高め、使用の柔軟性を高めることができます。</li> <li>フィルターでのワイルドカードの使用について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数</a>.</li> </td> 
+   <td> <li>レポートに表示される情報の量を制御します。</li> <li>フィルターについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>.</li> <li>フィルター修飾子について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">フィルターおよび条件修飾子</a>.</li> <li>ワイルドカードを使用してフィルタリングし、フィルターの一般性を高め、使用の柔軟性を高めることができます。</li> <li>フィルターでのワイルドカードの使用について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

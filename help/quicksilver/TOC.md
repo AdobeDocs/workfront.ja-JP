@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '13841'
+source-wordcount: '13838'
 ht-degree: 1%
 
 ---
@@ -1512,7 +1512,7 @@ ht-degree: 1%
       * レポート要素 {#report-elements}
          * [レポート要素の概要](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
          * [レポート要素：フィルター、ビューおよびグループ化](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-         * [Adobe Workfrontのフィルターの概要](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+         * [フィルターの概要](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
          * [Adobe Workfrontでフィルターを作成または編集](reports-and-dashboards/reports/reporting-elements/create-filters.md)
          * [フィルターおよび条件修飾子](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
          * [Adobe Workfrontの概要を表示](reports-and-dashboards/reports/reporting-elements/views-overview.md)

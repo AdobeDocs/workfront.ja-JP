@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Adobe Workfrontの管理者は、レイアウトテンプレートを使用し�
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Adobe Workfrontの管理者は、レイアウトテンプレートを使用し�
 ## フィルター、表示およびグループ化リストのコントロールのカスタマイズ：
 
 1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 下向き矢印をクリックします。 ![](assets/down-arrow-blue.png) under **ユーザーに表示する内容をカスタマイズ**&#x200B;を選択し、「 **リスト** をクリックします。
+1. 下向き矢印をクリックします。 ![](assets/down-arrow-blue.png) under **ユーザーに表示する内容をカスタマイズする**&#x200B;を選択し、次に **リスト** をクリックします。
 
    ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
@@ -70,17 +70,17 @@ Adobe Workfrontの管理者は、レイアウトテンプレートを使用し�
    >   
    >  ![](assets/disable-filters-projects-im-on-or-own.png)
    >   
-   >* 「プロジェクト」領域ヘッダーのヘッダー：
+   >* 「プロジェクト」領域ヘッダーのヘッダーで、次の操作をおこないます。
    >   
    >  ![](assets/disable-filter-pills.png)
 
-1. （オプション）レイアウトテンプレートのデフォルトのフィルター、表示またはグループ化を変更する場合は、フィルター、表示またはグループ化にカーソルを置いて、 **デフォルトとして設定**.
+1. （オプション）レイアウトテンプレートのデフォルトのフィルター、表示またはグループ化を変更する場合は、フィルター、表示またはグループ化にカーソルを合わせて、 **デフォルトとして設定**.
 
    選択したデフォルトによって、レイアウトテンプレートが割り当てられているときにWorkfront全体のリストに表示されるフィルター、表示、グループ化の各ユーザーが決まります。 これらのデフォルト値を変更しない場合、ユーザーは次のようにすべてのリストを表示します。
 
-   * **フィルター**:すべて
-   * **表示**:標準（該当する場合）一部のリストには、このビューがありません )
-   * **グループ化**:なし
+   * **フィルター**：すべて
+   * **表示**：標準（該当する場合。一部のリストにはこのビューがありません）
+   * **グループ化**：なし
 
    別のデフォルトを選択した後で、「すべて」、「標準」、「なし」の各オプションを非表示にすることができます（手順 5 を参照）が、削除できません。
 
@@ -104,7 +104,7 @@ Adobe Workfrontの管理者は、レイアウトテンプレートを使用し�
         <ol> 
          <li value="1"> クリック <strong>フィルターを追加</strong>, <strong>ビューを追加</strong>または <strong>グループを追加</strong> をクリックします。 表示されるボックスに、組織用に以前に作成した既存のカスタムリストコントロールの名前を入力し、表示されたら名前をクリックします。</li> 
          <li value="2"> 新しいカスタムリストコントロールをレイアウトテンプレートの既定のフィルタ、表示、またはグループ化として設定する場合は、 <strong>デフォルトとして設定</strong>. </li> 
-         <li value="3"> <p>クリック <strong>追加</strong> 完了したら、</p> <p><b>メモ</b>: <p>ユーザーは、独自のリストにカスタムリストコントロールを追加できます。 レイアウトテンプレートにカスタムリストコントロールを追加すると、リストコントロールが追加され、パネルの下部に移動します。あなたのは彼らの代わりにならない。</p> <p>これは、ユーザーがカスタムリストコントロールを持つ新しいレイアウトテンプレートに割り当てられる場合にも当てはまります。 </p> <p>リストコントロールのカスタマイズについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Adobe Workfrontのフィルターの概要</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfrontの概要を表示</a>、および <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfrontでのグループ化の概要</a>.</p> </p> </li> 
+         <li value="3"> <p>クリック <strong>追加</strong> 完了したら、</p> <p><b>注意</b>: <p>ユーザーは、独自のリストにカスタムリストコントロールを追加できます。 レイアウトテンプレートにカスタムリストコントロールを追加すると、リストコントロールが追加され、パネルの下部に移動します。置き換えは行われません。</p> <p>これは、ユーザーがカスタムリストコントロールを持つ新しいレイアウトテンプレートに割り当てられる場合にも当てはまります。 </p> <p>リストコントロールのカスタマイズについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfrontの概要を表示</a>、および <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfrontでのグループ化の概要</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 

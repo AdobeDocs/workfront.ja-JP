@@ -6,9 +6,9 @@ description: 様々なリスト、レポート、ダッシュボード、検索�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Workfrontでのレポートの表示方法や、手動での書き出し、配�
 
   レポートの行数が 50,000/65,000/100,000 を超える場合、すべてのデータをエクスポートするには、フィルターまたはプロンプトを使用してデータの負荷を減らし、複数のエクスポートを実行します。
 
-  フィルターの使用について詳しくは、 [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  フィルターの使用について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   プロンプトの使用に関する詳細は、「 [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

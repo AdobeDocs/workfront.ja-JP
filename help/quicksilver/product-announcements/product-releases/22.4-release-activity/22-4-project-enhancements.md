@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '965'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 詳しくは、 [プロジェクトを編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-注意：プロジェクト、タスクおよび問題の追加のユーザーフィールドは、今後のリリースでこの機能で更新されます。
+注意：プロジェクト、タスクおよび問題の追加のユーザーフィールドは、今後のリリースでこの機能で更新される予定です。
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
@@ -66,17 +66,17 @@ ht-degree: 2%
 
 詳しくは、 [タイムゾーンをまたいでの作業](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
-## カスタムフォームの機能強化：Adobe XDとクイックフィルター
+## カスタムフォームの強化：Adobe XDおよびクイックフィルター
 
 お客様のご意見に基づき、カスタムフォームを管理する際のエクスペリエンスを向上させるために、以下の機能強化が導入されました。
 
-* Adobe XDファイルを追加して、カスタムフォームをより視覚的かつ有益なものにします。 フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーは、フォーム内からXDファイルの表示と操作を行うことができます。
+* Adobe XDファイルを追加して、カスタムフォームをより視覚的で有益なものにします。 フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーは、フォーム内からXDファイルの表示と操作を行うことができます。
 
-   詳しくは、 [カスタムフォームでの画像や他のアセットウィジェットの追加や編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  詳しくは、 [カスタムフォームでの画像や他のアセットウィジェットの追加や編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * クイックフィルターを使用すると、最新化されたカスタムフォームとフィールドの一覧で項目を簡単に見つけることができます。 また、フォームやフィールドを管理しながら、ルックアンドフィールを改善します。
 
-   クイックフィルタの詳細については、 [クイックフィルターをリストに適用する](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  クイックフィルタの詳細については、 [クイックフィルターをリストに適用する](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
@@ -105,28 +105,28 @@ ht-degree: 2%
 
 * プロジェクト/タスク/タスクリスト
 
-* シナリオ プランナ
+* シナリオプランナー
 
 * タイムシート
 
 
 ### フィードバックをお願いします。
 
-このパブリックベータ版ユーザーは、フィードバックボタンをクリックして、フィルターエクスペリエンスに関するチームに直接フィードバックを送信できます。 公開ベータ版の新しいフィルターエクスペリエンスについて、お客様およびお客様のユーザーからのご連絡をお待ちしています。 チームが直接製品と会い、追加のフィードバックを提供したい場合は、こちらでミーティングのスケジュールを設定してください。https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+このパブリックベータ版ユーザーは、フィードバックボタンをクリックして、フィルターエクスペリエンスに関するチームに直接フィードバックを送信できます。 公開ベータ版の新しいフィルターエクスペリエンスについて、お客様およびお客様のユーザーからのご連絡をお待ちしています。 追加のフィードバックを提供するために、チームが直接製品に会いたい場合は、こちら ( https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25 ) でお気軽にミーティングのスケジュールを設定できます。
 
 ### 次の手順
 
 * 新しいグループ化と表示（列とも呼ばれます）エクスペリエンス
 
-   新しいフィルターエクスペリエンスと一致し、新しいフィルターエクスペリエンスと同じ優れた機能の一部を持つよう、グループ化と表示（列とも呼ばれます）の新しいエクスペリエンスの操作を開始します。
+  新しいフィルターエクスペリエンスと一致し、新しいフィルターエクスペリエンスと同じ優れた機能の一部を持つよう、グループ化と表示（列とも呼ばれます）の新しいエクスペリエンスの操作を開始します。
 
 * Adobe Workfrontの他の領域に新しいフィルターを実装する
 
-   アドビでは、製品全体のチームと連携し、Workfrontの他の領域に新しいフィルターエクスペリエンスを実装します。
+  アドビでは、製品全体のチームと連携し、Workfrontの他の領域に新しいフィルターエクスペリエンスを実装します。
 
 
 アドビでは、新しいエクスペリエンスや他の領域の準備が整ったので、引き続きお客様に価値を提供していきたいと考えています。 より魅力的な更新をご覧ください。
 
-詳しくは、 [Adobe Workfrontのフィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) および [Adobe Workfrontでフィルターを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+詳しくは、 [フィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) および [Adobe Workfrontでフィルターを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3412391/)

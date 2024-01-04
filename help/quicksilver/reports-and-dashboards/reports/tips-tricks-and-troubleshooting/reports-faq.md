@@ -7,9 +7,9 @@ description: レポートに関する FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Workfrontで時間を使用するフィールドは、分単位で保存され�
 
 このエラーは、グラフに最大 618 個の個別の結果が含まれることを意味します。例えば、棒グラフに 618 個を超える棒が含まれる場合などです。 表示の問題を解決するには、現在のフィルターとグループ化の選択を変更して、結果を絞り込む必要があります。
 
-フィルターとグループの変更について詳しくは、記事を参照してください [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) および [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+フィルターとグループの変更について詳しくは、記事を参照してください [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) および [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## 同僚と同じレポート（またはカレンダー）にアクセスし、代わりにタスクが表示される場合、自分のタスク（または問題）が表示されるのはなぜですか？
 

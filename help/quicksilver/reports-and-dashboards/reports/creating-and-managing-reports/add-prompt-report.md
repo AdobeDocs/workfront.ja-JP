@@ -6,9 +6,9 @@ description: フィルターとプロンプトは、両方ともレポートに�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 フィルターとプロンプトは、両方ともレポートに表示する情報の量を制限するという意味で似ています。
 
-レポートを実行するたびに、レポートに表示される情報を同じ条件でフィルタリングする場合に、フィルターを作成します。 フィルターは 1 回だけ作成され、レポートにハードコードされます。 フィルターの作成について詳しくは、「 [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+レポートを実行するたびに、レポートに表示される情報を同じ条件でフィルタリングする場合に、フィルターを作成します。 フィルターは 1 回だけ作成され、レポートにハードコードされます。 フィルターの作成について詳しくは、「 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 プロンプトは開いたフィルタで、レポートを実行するたびに異なる方法でカスタマイズおよび適用できます。
 
@@ -53,16 +53,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 前提条件
 
@@ -70,13 +70,13 @@ ht-degree: 0%
 
 レポートの作成手順については、 [レポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
 
-## プロンプトの作成
+## プロンプトを作成する
 
 1. プロンプトを追加するレポートに移動します。
 1. 展開 **レポートのアクション**&#x200B;をクリックし、 **編集**.
 
 1. クリック **レポート設定**.
-1. 内 **レポートのプロンプト** 領域、クリック **プロンプトを追加**.\
+1. Adobe Analytics の **レポートのプロンプト** 領域、クリック **プロンプトを追加**.\
    ![](assets/qs-add-a-prompt-350x216.png)
 
 1. （オプション）プロンプトの基にするフィールドを選択します。 フィールドの名前を入力し、リストに表示されたら、クリックして選択します。\
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    ただし、プロンプトは通常のプロンプトと同じくらい柔軟なものです。これは、レポートに 1 つのハードコードされたフィルターを含めるのではなく、事前定義済みの文から選択できるからです。
 
-   カスタムプロンプトに次の情報を指定します。カスタムプロンプトの条件は、テキストモードを使用してのみ編集できます。 これにより、1 つのフィールドに複数の条件を適用できます。
+   カスタムプロンプトの次の情報を指定します。カスタムプロンプトの条件は、テキストモードを使用してのみ編集できます。 これにより、1 つのフィールドに複数の条件を適用できます。
 
    * **フィールド名：** これは、レポートを実行する前に表示されるプロンプトの名前です。
    * **ラベル：** これは、レポートを実行する前に表示されるプロンプト内のオプションの名前です。
@@ -99,17 +99,18 @@ ht-degree: 0%
 
    例えば、 **条件** 次のシナリオのカスタムプロンプトのフィールドは、次のようになります。
 
-   * プロジェクトのステータスが「アイデア」、「リクエスト済み」、「計画済み」、「現在」の将来のプロジェクトに関するすべてのタスク
+   * プロジェクトのステータスが「アイデア」、「リクエスト済み」、「計画済み」、「現在」の将来のプロジェクトに関するすべてのタスク：
 
-      ```
-      project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
-      ```
+     ```
+     project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
+     ```
 
    * プロジェクトのステータスが「完了済み」または「無効」の、完了済み（過去）プロジェクトのすべてのタスク：
 
-      ```
-      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
-      ```
+     ```
+     project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
+     ```
+
    テキストモード修飾子の詳細については、 [フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
@@ -117,7 +118,7 @@ ht-degree: 0%
    >標準プロンプトと同様に、レポートの実行時にカスタムプロンプトの条件を変更することはできません。 カスタムプロンプトに対して、必要な数だけ定義済みの条件を設定できます。
 
 1. （オプション）必要な数のプロンプトを作成するには、手順 4 または手順 5 を繰り返します。
-1. クリック **完了**&#x200B;を選択し、「 **保存して閉じる** をクリックしてレポートを保存します。
+1. クリック **完了**&#x200B;を選択し、次に **保存して閉じる** をクリックしてレポートを保存します。
 
 ## レポートにプロンプトを適用する
 
@@ -129,7 +130,7 @@ ht-degree: 0%
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. 次に示す 1 つまたはすべてのプロンプトの条件を選択 **プロンプト** タブをクリックします。\
+1. 次に示す 1 つまたはすべてのプロンプトの条件を選択します。 **プロンプト** タブをクリックします。\
    （オプション）プロンプトを空白のままにし、プロンプトの条件でレポートをフィルタリングしないことができます。
 
 1. 「**レポートを実行**」をクリックします。\
@@ -150,7 +151,7 @@ Workfrontからのプロンプトレポートの共有に関する制限を次�
 
 * レポートを共有している場合、Workfrontの資格情報を持ち、最初にログインしてWorkfrontでレポートを表示しない限り、プロンプトを適用してレポートを実行することはできません。
 
-   レポートの共有の詳細については、「 [Adobe Workfrontでのレポートの共有](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+  レポートの共有の詳細については、「 [Adobe Workfrontでのレポートの共有](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * 配信を促すレポートをスケジュールすると、電子メールの添付ファイルにレポートが含まれ、要求されたレポートのデータが含まれます。 ユーザーが電子メール内のリンクをクリックしてレポートにアクセスすると、最初にログインしてレポートを表示し、プロンプトを自ら実行する必要があります。
 
-   配信されるレポートのスケジュール設定については、 [自動レポート配信のスケジュール設定](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  配信されるレポートのスケジュール設定について詳しくは、 [レポートの自動配信のスケジュール設定](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

@@ -7,9 +7,9 @@ description: アクセス権のある任意のレポートのコピーを作成�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -36,16 +36,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>レポートに対する権限の表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## レポートの正確なコピーの作成
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
    ![レポートのコピー](assets/nwe-fulllistofreportactions-2022.png)
 
-   元のレポートのコピーが作成され、デフォルトの名前が *のコピー [元のレポートの名前]*. 例えば、「Q4 Completed Tasks」というレポートの名前には、「Copy of Q4 Completed Tasks」と表示されます。
+   元のレポートのコピーが作成され、デフォルトの名前が *のコピー [元のレポートの名前]*. 例えば、「Q4 Completed Tasks」というレポートの名前には、「Copy of Q4 Completed Tasks」という名前が付きます。
 
 1. （オプション）レポートの名前を変更するには、新しい名前を入力します。
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 1. レポートの次のタブで、必要に応じて変更を加えます。
 
-   * **列（表示）**:ビューのカスタマイズの詳細については、「 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-   * **グループ化**:グループ化のカスタマイズについて詳しくは、「 [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **フィルター**:フィルターのカスタマイズについて詳しくは、 [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-   * **グラフ**:レポートグラフのカスタマイズの詳細については、「 [レポートへのグラフの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+   * **列（表示）**：ビューのカスタマイズについて詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * **グループ化**：グループ化のカスタマイズについて詳しくは、 [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   * **フィルター**：フィルターのカスタマイズについて詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **グラフ**：レポートグラフのカスタマイズについて詳しくは、 [レポートにグラフを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. 右上隅で、 **レポート設定**.
-1. 内 **レポートタイトル** フィールドに新しい名前を付けます。
+1. Adobe Analytics の **レポートタイトル** フィールドに、レポートに新しい名前を付けます。
 1. クリック **完了**.
 1. クリック **新しいレポートとして保存**.
 

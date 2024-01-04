@@ -6,9 +6,9 @@ description: 作業項目を効率的に検索し、管理するユーザーや�
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 0%
 >
 >新しいフィルタを保存して適用し、ワークロード・バランサから移動すると、ログオフして再度ログオンした後も、フィルタは保持されます。
 
-
-この記事では、ワークロードバランサーのフィルタに関する情報を説明します。 Workfrontのフィルターについて詳しくは、 [Adobe Workfrontのフィルターの概要](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+この記事では、ワークロードバランサーのフィルタに関する情報を説明します。 Workfrontのフィルターについて詳しくは、 [フィルターの概要](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## アクセス要件
 

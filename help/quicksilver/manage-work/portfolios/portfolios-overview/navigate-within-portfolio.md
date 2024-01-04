@@ -6,9 +6,9 @@ description: ポートフォリオ内での移動
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In [!DNL Adobe Workfront]ポートフォリオは、同じリソース、予算�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
@@ -93,7 +93,7 @@ In [!DNL Adobe Workfront]ポートフォリオは、同じリソース、予算�
      >
      >特定のプロジェクトのみを表示するには、 **[!UICONTROL フィルター]** 表示されるプロジェクトの数を減らすには、プロジェクトのリストの上部にあるドロップダウンメニューを使用します。
 
-     フィルターの作成について詳しくは、 [フィルターの概要 ( [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     フィルターの作成について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. クリック **[!UICONTROL プログラム]** 左側のパネルで、ポートフォリオ内にプログラムを作成したり、既存のプログラムを管理したりします。\

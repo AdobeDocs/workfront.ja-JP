@@ -6,9 +6,9 @@ description: 表示するためのアクセス権のあるフィルター、ビ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 </div>
 -->
 
-Adobe Workfront管理者は、アクセスレベルを割り当てる際に、ユーザーにオブジェクトの表示や編集のアクセス権を付与します。 オブジェクトへのアクセス権の付与の詳細については、 [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Adobe Workfront管理者は、アクセスレベルを割り当てる際に、ユーザーにオブジェクトの表示や編集のアクセス権を付与します。 オブジェクトへのアクセス権の付与の詳細については、「 [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ユーザーに付与されるアクセスレベルに加えて、自分が作成した特定のオブジェクトや、共有するアクセス権を持つオブジェクトを表示または編集する権限をユーザーに付与することもできます。 アクセスレベルと権限の詳細については、 [アクセスレベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -32,7 +32,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
 
 フィルター、表示またはグループ化の作成方法については、次の記事を参照してください。
 
-* [Adobe Workfrontのフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -54,16 +54,16 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループに対する表示またはそれ以上のアクセス権</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>フィルター、ビュー、グループに対する表示またはそれ以上のアクセス権</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
    <td> <p>ビュー、フィルター、またはグループ化に対する共有アクセス権を持つ表示または高い権限</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## フィルター、表示またはグループ化の共有
 
@@ -71,7 +71,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-選択リストでのフィルターの共有方法は、フィルターの共有に使用するインターフェイスによって異なります。標準またはレガシー。 フィルタ構築インターフェイスのタイプについては、 [Adobe Workfrontでフィルターを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+選択リストでのフィルターの共有方法は、フィルターを共有する際に使用するインターフェイス（標準またはレガシー）によって異なります。 フィルタ構築インターフェイスのタイプについては、 [Adobe Workfrontでフィルターを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ビューとグループは、レガシーインターフェイスでのみ共有できます。
 
@@ -111,7 +111,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
    </tbody>
    </table>
 
-1. 少なくとも表示および共有にアクセスできるフィルターの上にマウスポインターを置いて、 **詳細** メニュー ![その他のメニュー](assets/more-icon-spectrum.png)を選択し、「 **共有**.
+1. 少なくとも表示および共有に対するアクセス権を持つフィルターの上にマウスポインターを置いて、 **その他** メニュー ![その他のメニュー](assets/more-icon-spectrum.png)を選択し、次に **共有**.
 
    ![その他のメニューオプション](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -127,7 +127,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
 
    ![フィルター共有ボックス](assets/new-filters-share-filter.png)
 
-1. （オプション）フィルターに対する権限を編集するエンティティの名前の横にある右矢印をクリックし、 **表示** または **管理** オプション。 **表示** がデフォルトです。
+1. （オプション）フィルターに対する権限を編集するエンティティの名前の横にある右向き矢印をクリックし、 **表示** または **管理** オプション。 **表示** がデフォルトです。
 
    ![権限の共有](assets/new-filters-sharing-permissions.png)
 
@@ -139,9 +139,10 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
       >[!NOTE]
       >
       >「削除」オプションを使用して「アクセスを管理」を有効にした場合、ユーザーは、フィルターを所有していなくても、すべてのユーザーからフィルターを削除できます。
+
    >[!TIP]
    >
-   >ユーザーは、自分のアクセスレベルより高い権限を受け取ることはできません。 アクセスレベルでフィルターを編集するアクセス権がない場合、フィルターを管理する権限を受け取ることはできません。 Workfrontでは、これらのユーザーの「管理」オプションが無効になっており、このオプションは淡色表示になっています。
+   >ユーザーは、自分のアクセスレベルより高い権限を受け取ることはできません。 アクセスレベルでフィルターを編集するアクセス権がない場合、フィルターを管理する権限を受け取ることはできません。 Workfrontはこれらのユーザーの「管理」オプションを無効にし、このオプションは淡色表示になります。
 
 1. 「**共有**」をクリックします。フィルターは、指定したエンティティと共有されます。
 
@@ -158,16 +159,16 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
 レガシーインターフェイスでのフィルター、表示、グループの共有は同じです。
 
 1. オブジェクトまたはレポートのリストに移動します。
-1. （条件付き）リストから、 **フィルター**, **表示**&#x200B;または **グループ化** アイコンをクリックし、共有するフィルター、表示またはグループにマウスポインターを置いて、 **詳細** アイコン ![その他のアイコン](assets/more-icon.png)を、 **共有**.
+1. （条件付き）リストから、 **フィルター**, **表示**&#x200B;または **グループ化** アイコンをクリックし、共有するフィルター、表示またはグループにマウスポインターを置いて、 **その他** アイコン ![その他のアイコン](assets/more-icon.png)を、 **共有**.
 
    レポートから、 **フィルター**, **表示**&#x200B;または **グループ化** ドロップダウンメニューから、共有するフィルター、表示またはグループを選択します。
 
 1. （条件付き）レポートから共有する場合、 **フィルター**, **表示**&#x200B;または **グループ化** ドロップダウンメニューを再度表示し、「 **フィルターを共有**, **ビューを共有**&#x200B;または **グループを共有**.\
-   この **アクセスをフィルター**, **アクセスを表示**&#x200B;または **グループ化アクセス** ダイアログボックスが表示されます。
+   The **アクセスをフィルター**, **アクセスを表示**&#x200B;または **グループ化アクセス** ダイアログボックスが表示されます。
 
    ![フィルターを共有](assets/share-filter-people-box-nwe-350x458.png)
 
-1. 共有相手に応じて、次のいずれかを実行します。
+1. 誰と共有するかに応じて、次のいずれかの操作を実行します。
 
    **個々のユーザー、チーム、役割、グループまたは会社と共有するには：** 提供されたフィールドに、共有するユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。\
    複数のユーザー、チーム、役割、グループまたは会社とアクセスを共有するには、この手順を繰り返します。
@@ -176,7 +177,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
    >
    >グループと共有すると、グループのメンバーとすべてのサブグループのメンバーに対して、フィルタ、表示、またはグループ化の権限が与えられます。
 
-   **システム内のすべてのユーザーと共有するには：** 次をクリック： **設定** アイコンをクリックし、 **この機能をシステム全体で表示**.\
+   **システム内のすべてのユーザーと共有するには、次の手順を実行します。** 次をクリック： **設定** アイコンをクリックし、 **この機能をシステム全体で表示する**.\
    このオプションを使用するには、管理者が [ システム全体の共有 ] オプションを選択する必要があります。 詳しくは、 [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) および [レポート、ダッシュボード、カレンダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. （条件付き）個々のユーザー、チーム、役割、グループまたは会社と共有している場合は、ドロップダウンメニューをクリックして、付与するアクセスレベルを定義します。
@@ -197,7 +198,7 @@ Adobe Workfront管理者は、アクセスレベルを割り当てる際に、�
      </tr> 
      <tr> 
       <td role="rowheader"><strong>共有する</strong></td> 
-      <td> <p>クリック <strong>詳細設定</strong>を選択し、 <strong>共有</strong> 」オプションを選択します。</p> </td> 
+      <td> <p>クリック <strong>詳細設定</strong>、を選択またはクリアします。 <strong>共有</strong> 」オプションを選択します。</p> </td> 
      </tr> 
     </tbody> 
    </table>
