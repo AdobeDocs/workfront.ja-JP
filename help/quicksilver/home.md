@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Workfront] ドキュメント'
 description: のドキュメント [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Workfrontの機敏な機能により、チームは少量で管理しやすい�
 
 既存の情報を読みやすい形式で表示し、すべての関係者と共有するには、レポートとダッシュボードを使用します。
 
-詳しくは、 [レポートとダッシュボード](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+詳しくは、 [レポートとダッシュボード：記事インデックス](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
 
 #### テキストモードのレポート
 

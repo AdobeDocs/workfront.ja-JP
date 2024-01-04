@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 8012b56fda0b4f260f667ac8e5d87cc5d537631c
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -112,8 +112,7 @@ AdobeMaestro を使用するには、次の条件を満たす必要がありま�
   <tr>
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
-   <p>Any license to view, manage, or contribute to Maestro objects</p> 
-   <p>System Administrator to create Maestro objects</p>
+   <p>Any license to create, view, manage, or contribute to Maestro objects</p> 
   </td>
   </tr>
   
@@ -146,14 +145,22 @@ Maestro オブジェクトに関連付けられた権限はありません。
 Maestro が環境で有効になっているすべてのユーザは、他のユーザが Maestro に追加したすべての情報を表示、編集、および削除できます。
 
 <!--
-Replace the Sharing permissions information with this, when we release permissions: 
+Replace the Sharing permissions information above with this, when we release permissions: 
 
-All users can have access to the Maestro area in the Main Menu. However, only Workfront administrators can create Maestro objects. Users with any other license type can access Maestro workspaces and their information only when workspaces are shared with them. 
+You can share the following objects in Adobe Workfront Maestro:
 
-Consider the following when sharing permissions to Maestro: 
+* Workspaces
+* Views
 
-* You can share only workspaces in Maestro. After a Workfront administrator shares a workspace with you, you can view record types, records, and fields in the workspace. 
-* All Workfront administrators have access to edit or delete existing workspaces, even when they are created by other users. 
+You can create Maestro workspaces, record types, records, fields, and views when the Workfront administrator makes the Maestro area available in your Main Menu through your layout template. 
+
+Consider the following when sharing permissions to Maestro objects: 
+
+* You can share only workspaces and views in Maestro. After someone shares a workspace with you, you can view record types, records, and fields in the workspace. 
+(***********CHECK THIS: * Sharing a workspace does not share record views. You must share the views separately from the record type page.*************** )
+* All users can create workspaces in Maestro. 
+* All Workfront administrators have access to edit or delete existing workspaces and views, even when they are created by other users. 
+* All other users that are not System Administrators can only view and manage workspaces and views that they create or workspaces and views that they have Manage permissions to. 
 
 For information about sharing the Maestro area with users or sharing permissions to Maestro workspaces, see the following articles:
 

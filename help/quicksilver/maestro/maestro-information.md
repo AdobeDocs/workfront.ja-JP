@@ -1,18 +1,18 @@
 ---
-title: Adobeマエストロ情報
+title: "Adobe・マエストロ情報：記事インデックス"
 description: マーケティングオペレーションリーダーは、Adobeマエストロを使用して、すべてのチームのマーケティングライフサイクル全体にわたる作業を整理できます。 この節の記事では、Maestro の設定方法と、キャンペーン管理操作の一環として Maestro の機能を使用する方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Adobeマエストロ情報
+# Adobeマエストロ情報：記事インデックス
 
 <!--
 title: Adobe Maestro 

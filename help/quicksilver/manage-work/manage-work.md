@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Workfrontを使用して作業を管理できます。
 このセクションでは、以下のサブセクションについて説明します。
 
 * [プロジェクト：記事インデックス](../manage-work/projects/projects-overview.md)
-* [タスク](../manage-work/tasks/tasks-overview.md)
+* [タスク：記事インデックス](../manage-work/tasks/tasks-overview.md)
 * [問題](../manage-work/issues/issues-overview.md)
 * [ガントチャート](../manage-work/gantt-chart/the-gantt-chart.md)
 * [Portfolio管理](../manage-work/portfolios/portfolio-management-overview.md)

@@ -6,7 +6,7 @@ description: レポート配信の概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
 source-wordcount: '1532'
 ht-degree: 0%
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 Workfrontでのレポートの表示方法や、手動でのエクスポート、配信されたレポート、API を使用したレポートの書き出し方法に影響するいくつかのサイズ制限があります。
 
-* **5 MB のファイルサイズ：** 配信が予定されている書き出しレポートのファイルサイズ制限。 E メールに添付されたエクスポート済みファイルが 5 MB を超える場合、添付されたエクスポート済みレポートの代わりに、ファイルをダウンロードできるリンクが電子メールで送信されます。 
+* **5 MB のファイルサイズ：** 配信が予定されている書き出しレポートのファイルサイズ制限。 E メールに添付されたエクスポート済みファイルが 5 MB を超える場合、添付されたエクスポート済みレポートの代わりに、ファイルをダウンロードできるリンクが電子メールで送信されます。
 
   >[!NOTE]
   >
-  >Excelの.xlsx ファイルが 5MB を超える場合、電子メールは生成されません。 レポートは、手動でこの形式にエクスポートできます。 レポートのエクスポートについて詳しくは、 [データを書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Excelの.xlsx ファイルが 5MB を超える場合、電子メールは生成されません。 レポートは、手動でこの形式にエクスポートできます。 レポートのエクスポートについて詳しくは、 [データを書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-* **50,000 行：** .pdf ファイルおよびタブ区切りファイルのレポート書き出しで許可されるデータの行数。
+* **50,000 行：** .pdf ファイルおよびタブ区切りファイルのレポート書き出しで許可されるデータの行数。
 
   Excelの.xls ファイルの場合、この制限は次のとおりです。 **65,000 行**.
 
@@ -68,16 +68,16 @@ Workfrontでのレポートの表示方法や、手動でのエクスポート�
 
      >[!NOTE]
      >
-     50,000 行を Excel 形式のファイルにのみエクスポートできます。 
+     >50,000 行を Excel 形式のファイルにのみエクスポートできます。
 
    * プロジェクトの使用状況情報をエクスポートします。
 
      プロジェクトの使用率情報を書き出す方法の詳細については、 [リソース使用率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* **65,530 ハイパーリンク：** これは、65,530 個を超えるハイパーリンクを含むドキュメントに対して Excel が課す制限です。 これらのドキュメントは、手動でエクスポートしたり、配信されたレポートに送信したりする際には開けません。 Excel ドキュメントのデータは 200 行に過ぎませんが、ドキュメント内に 65,530 個を超えるリンクがある場合、ドキュメントは開きません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には存在しません。 
-* **256 列**:256 列を超えるドキュメントに対して Excel が課す制限です。 これらのドキュメントは、手動でエクスポートしたり、配信されたレポートに送信したりすることはできません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には存在しません。 
+* **65,530 ハイパーリンク：** これは、65,530 個を超えるハイパーリンクを含むドキュメントに対して Excel が課す制限です。 これらのドキュメントは、手動でエクスポートしたり、配信されたレポートに送信したりする際には開けません。 Excel ドキュメントのデータは 200 行に過ぎませんが、ドキュメント内に 65,530 個を超えるリンクがある場合、ドキュメントは開きません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には存在しません。
+* **256 列**:256 列を超えるドキュメントに対して Excel が課す制限です。 これらのドキュメントは、手動でエクスポートしたり、配信されたレポートに送信したりすることはできません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には存在しません。
 
-制限を超えてデータをエクスポートしようとすると、エクスポートで予期されたデータの一部が受け取らない場合があります。 代わりに、制限内に変更されたレポートが作成されます。 
+制限を超えてデータをエクスポートしようとすると、エクスポートで予期されたデータの一部が受け取らない場合があります。 代わりに、制限内に変更されたレポートが作成されます。
 
 さらに、の実行に 60 分以上かかるレポートは停止します。
 
@@ -89,9 +89,9 @@ Workfrontでのレポートの表示方法や、手動でのエクスポート�
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Note about if this is delivered at a time based on the user's time zone settings?)</p>
 -->
 
-電子メールでレポートを受け取った場合、配信と同時にWorkfrontでレポートを表示すると、レポートのタイムスタンプと時刻の形式がWorkfrontの形式と一致しないことがあります。 
+電子メールでレポートを受け取った場合、配信と同時にWorkfrontでレポートを表示すると、レポートのタイムスタンプと時刻の形式がWorkfrontの形式と一致しないことがあります。
 
-次の点に注意してください。 
+次の点に注意してください。
 
 * ブラウザーでレポートを表示する場合、レポートのタイムスタンプと形式は、ブラウザーの設定で定義された、ブラウザーのロケールとタイムゾーンに一致します。
 * レポートが電子メールで配信されると、Workfrontプロファイルで指定されたユーザーのロケールとタイムゾーンに合ったタイムスタンプと形式でレポートが配信されます。\
@@ -111,13 +111,13 @@ Workfrontでのレポートの表示方法や、手動でのエクスポート�
 
 >[!NOTE]
 >
-レポートに、特別なビューを持つデフォルトのタブに加えて、「マトリックス」タブも表示されている場合、レポートは「マトリックス」タブに表示されたとおりに配信されます。
+>レポートに、特別なビューを持つデフォルトのタブに加えて、「マトリックス」タブも表示されている場合、レポートは「マトリックス」タブに表示されたとおりに配信されます。
 
 レポートに特別なビューを適用する方法の詳細については、「 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## 配信されたファイルを使用
 
- Workfrontからレポートを送信すると、そのレポートが別の添付ファイルで送信された電子メールがユーザーに送信されます。 
+Workfrontからレポートを送信すると、そのレポートが別の添付ファイルで送信された電子メールがユーザーに送信されます。
 
 * [件名、添付ファイル名、レポートタイトル](#subject-line-attachment-name-and-report-title)
 * [タイムスタンプ](#timestamps)
@@ -129,7 +129,7 @@ Workfrontでのレポートの表示方法や、手動でのエクスポート�
 
 配信されたレポートの電子メールの件名行について詳しくは、 [レポートの自動配信のスケジュール設定](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-添付されたレポートの名前は次のとおりです。 *The_Name_Of_The_Report*&#x200B;書き出されたファイル形式が続きます。 
+添付されたレポートの名前は次のとおりです。 *The_Name_Of_The_Report*&#x200B;書き出されたファイル形式が続きます。
 
 配信したレポートをPDFまたはHTMLファイル形式で書き込むようにスケジュールした場合、レポートのタイトルは次のようになります。
 
@@ -139,7 +139,7 @@ Excel、Excel(.xlsx) または TSV 形式で配信される予定のレポート
 
 >[!NOTE]
 >
-レポートに説明が含まれている場合、ファイルがPDFまたはHTMLファイルとしてフォーマットされている場合は、書き出されたファイルに含まれます。
+>レポートに説明が含まれている場合、ファイルがPDFまたはHTMLファイルとしてフォーマットされている場合は、書き出されたファイルに含まれます。
 
 ### タイムスタンプ {#timestamps}
 
@@ -148,7 +148,7 @@ Excel、Excel(.xlsx) または TSV 形式で配信される予定のレポート
 タイムスタンプには以下が含まれます。
 
 * 日付
-* 時間
+* 時刻
 * レポートが送信されたタイムゾーン
 
 ### ブランディング {#branding}
@@ -161,7 +161,7 @@ Workfrontインスタンスのブランディングについて詳しくは、 [
 
 ### 書式設定 {#formatting}
 
-レポートに特別な表示がない限り、レポートの送信または配信スケジュールを行うときは、レポートのデフォルトタブを常に受け取ります。
+レポートに特別な表示がない限り、レポートの送信や配信スケジュールをおこなう際には、レポートの「詳細」タブを常に受け取ります。
 
 Web アプリケーションでレポートに特別な書式が設定されている場合、「詳細」タブと「マトリックス」タブが.pdf および Excel ファイル用にのみ配信される場合は、レポートに特別な書式を設定して配信する必要があります。
 
@@ -191,7 +191,7 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
   レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). レポートの作成について詳しくは、 [レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating&nbsp;Report Delivery</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>
 -->
 
 <!--
@@ -203,36 +203,36 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To schedule&nbsp;a report for automatic delivery or to edit an existing report delivery:&nbsp;​</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To schedule a report for automatic delivery or to edit an existing report delivery: ​</p>
 -->
 
 <!--
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Navigate to and click the name of the report for which you want to schedule delivery.&nbsp;</li>
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Navigate to and click the name of the report for which you want to schedule delivery. </li>
    -->
 
 <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Report Actions</strong>, then&nbsp;<strong>Send Report</strong>.<br> The <strong>Send Report</strong> dialog box is displayed.</li>
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Report Actions</strong>, then <strong>Send Report</strong>.<br> The <strong>Send Report</strong> dialog box is displayed.</li>
    -->
 
 <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the <strong>Repeating Deliveries</strong>&nbsp;tab.<br><img src="assets/report-delivery-schedule-350x169.png" alt="" style="width: 350;height: 169;"></li>
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the <strong>Repeating Deliveries</strong> tab.<br><img src="assets/report-delivery-schedule-350x169.png" alt="" style="width: 350;height: 169;"></li>
    -->
 
 <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional)&nbsp;To modify an existing repeating report delivery, select the report delivery in the <strong>Repeating Deliveries</strong>&nbsp;section.</li>
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional) To modify an existing repeating report delivery, select the report delivery in the <strong>Repeating Deliveries</strong> section.</li>
    -->
 
 <!--
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Specify the following information:
    <ul>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Send to:</strong> Begin typing the name of the user, group, team, or role who you want to send&nbsp;the report to, then click the name when it appears in the drop-down list.<br>Or<br>Specify the email address of a person external to the Workfront system who you want to have access to the report.<br> Repeat this process to send the report to multiple users, groups, teams, or roles.</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Send to:</strong> Begin typing the name of the user, group, team, or role who you want to send the report to, then click the name when it appears in the drop-down list.<br>Or<br>Specify the email address of a person external to the Workfront system who you want to have access to the report.<br> Repeat this process to send the report to multiple users, groups, teams, or roles.</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Email Subject:</strong> Specify a subject for the email notification.<br> By default, the email subject is: <em>Workfront Report: <Name of the report> Date of the Export</em>.<strong></strong></li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Email Message:</strong> Specify a message to include in the email.<br>By default, the email message is:&nbsp;<em>Attached is the <report frequency> report <Name of the report> generated by Workfront on <Date>.</em><br>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Email Message:</strong> Specify a message to include in the email.<br>By default, the email message is: <em>Attached is the <report frequency> report <Name of the report> generated by Workfront on <Date>.</em><br>
    <note type="note">
-   For reports delivered as an Excel file only, the following message is also added to the email: "Please be aware that with MS Excel (XLS) file types, there is a limit (65,530) on the number of hyperlinks these file types support. If you exceed those limits, your file will not open and it is recommended to resend without the hyperlinks.&nbsp;Please go back to the report scheduler&nbsp;to remove hyperlinks and resend the report." The "please go back to the report scheduler" phrase is a link back to the report.&nbsp;
+   For reports delivered as an Excel file only, the following message is also added to the email: "Please be aware that with MS Excel (XLS) file types, there is a limit (65,530) on the number of hyperlinks these file types support. If you exceed those limits, your file will not open and it is recommended to resend without the hyperlinks. Please go back to the report scheduler to remove hyperlinks and resend the report." The "please go back to the report scheduler" phrase is a link back to the report. 
    </note>
    </li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Deliver this report with the Access Rights of:</strong>&nbsp;Begin typing the name of a user who has access to the report, then click the name when it appears&nbsp;in the drop-down list. Users who receive the report will be granted the same level of access to the report as the user that you specify&nbsp;here.<br> For more information, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Deliver this report with the Access Rights of:</strong> Begin typing the name of a user who has access to the report, then click the name when it appears in the drop-down list. Users who receive the report will be granted the same level of access to the report as the user that you specify here.<br> For more information, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>
    <note type="note">
    This field does not support wildcards. For example, using the wildcard $$User.ID does not run the report with the access rights of the user who is receiving the report.
    </note>
@@ -241,25 +241,25 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
    <ul>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> HTML</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">PDF</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">MS&nbsp;Excel</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">MS Excel</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">MS Excel (.xlsx)</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">TSV &nbsp;</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">TSV  </li>
    </ul></li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Include Links:</strong>&nbsp;This option is available&nbsp;only when <strong>MS Excel</strong> is selected in the <strong>Format</strong> drop-down menu. When this option is enabled, any hyperlinks are included in the exported Excel document. <br>Documents that contain more than 65,530 links cannot be opened. If the exported document will contain more than 65,530 links, deselect this option.<br>This option is enabled by default.&nbsp;</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Include Links:</strong> This option is available only when <strong>MS Excel</strong> is selected in the <strong>Format</strong> drop-down menu. When this option is enabled, any hyperlinks are included in the exported Excel document. <br>Documents that contain more than 65,530 links cannot be opened. If the exported document will contain more than 65,530 links, deselect this option.<br>This option is enabled by default. </li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Summary:</strong> Displays a summary of when the delivery repeats.</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Repeats:</strong> Select whether the report should be delivered daily, weekly, monthly, or yearly.</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Repeats Every:</strong> Select the frequency with which you want&nbsp;the delivery to repeat. The value you select for this option is&nbsp;based on the option that is selected in the <strong>Repeats</strong>&nbsp;drop-down list.</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Repeats Every:</strong> Select the frequency with which you want the delivery to repeat. The value you select for this option is based on the option that is selected in the <strong>Repeats</strong> drop-down list.</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Time:</strong> Select the time of day for the delivery to be sent.</li>
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Repeats On:</strong>&nbsp;This option is available when the <strong>Repeats</strong>&nbsp;option is set to either <strong>Weekly</strong>&nbsp;or <strong>Monthly</strong>.</p>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">When the <strong>Repeats</strong>&nbsp;option is set to <strong>Weekly</strong>: Select the days of the week that the delivery is sent.</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">When the <strong>Repeats</strong>&nbsp;option is set to <strong>Monthly</strong>: Select whether the delivery is sent on the day of the month, day of the week, or last day of the month (these options leverage the date that you select in the <strong>Starts On</strong>&nbsp;field).</li>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Repeats On:</strong> This option is available when the <strong>Repeats</strong> option is set to either <strong>Weekly</strong> or <strong>Monthly</strong>.</p>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">When the <strong>Repeats</strong> option is set to <strong>Weekly</strong>: Select the days of the week that the delivery is sent.</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">When the <strong>Repeats</strong> option is set to <strong>Monthly</strong>: Select whether the delivery is sent on the day of the month, day of the week, or last day of the month (these options leverage the date that you select in the <strong>Starts On</strong> field).</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Starts On:</strong> Select the date for the scheduled delivery to begin.</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Ends On:</strong> Select a date for the scheduled delivery to end. <br>Or</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Select <strong>Never</strong>&nbsp;if you want the scheduled delivery to last indefinitely.</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Select <strong>Never</strong> if you want the scheduled delivery to last indefinitely.</li>
    -->
 
 <!--
-   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save</strong>&nbsp;to save the report delivery.<br> The report is saved in the <strong>Repeating Deliveries</strong>&nbsp;section&nbsp;(in the <strong>Send Report</strong> dialog box).<br> The report will be sent at the schedule time<br>Or<br>To manually send the report, click <strong>Send Now</strong>.<br>For more information about sending the report instantly or manually, see&nbsp;.</li>
+   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save</strong> to save the report delivery.<br> The report is saved in the <strong>Repeating Deliveries</strong> section (in the <strong>Send Report</strong> dialog box).<br> The report will be sent at the schedule time<br>Or<br>To manually send the report, click <strong>Send Now</strong>.<br>For more information about sending the report instantly or manually, see .</li>
    -->
 
 <!--
@@ -271,15 +271,15 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
    -->
 
 <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Report Actions</strong>, then <strong>Send Report</strong>.&nbsp;</li>
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Report Actions</strong>, then <strong>Send Report</strong>. </li>
    -->
 
 <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Repeating Deliveries</strong>.&nbsp;</li>
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Repeating Deliveries</strong>. </li>
    -->
 
 <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the name of the scheduled delivery you want to delete, then click <strong>Delete</strong>. The report is no longer set up for the scheduled delivery.&nbsp;</li>
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the name of the scheduled delivery you want to delete, then click <strong>Delete</strong>. The report is no longer set up for the scheduled delivery. </li>
    -->
 
 <!--
@@ -287,7 +287,7 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can manually send a report&nbsp;that has been previously scheduled, or you can create a single-use report delivery.​</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can manually send a report that has been previously scheduled, or you can create a single-use report delivery.​</p>
 -->
 
 <!--
@@ -303,7 +303,7 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">After a scheduled report has been set up, you can manually send the report rather than&nbsp;waiting until the scheduled time.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">After a scheduled report has been set up, you can manually send the report rather than waiting until the scheduled time.</p>
 -->
 
 <!--
@@ -311,7 +311,7 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
    -->
 
 <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Report Actions</strong>, then&nbsp;<strong>Send Report</strong>.<br> The Send Report dialog box is displayed.</li>
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Report Actions</strong>, then <strong>Send Report</strong>.<br> The Send Report dialog box is displayed.</li>
    -->
 
 <!--
@@ -319,7 +319,7 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
    -->
 
 <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Repeating Deliveries</strong>&nbsp;section, select the report delivery that was previously created.<br><img src="assets/report-delivery-schedule-send-350x160.png" alt="" style="width: 350;height: 160;"></li>
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Repeating Deliveries</strong> section, select the report delivery that was previously created.<br><img src="assets/report-delivery-schedule-send-350x160.png" alt="" style="width: 350;height: 160;"></li>
    -->
 
 <!--
@@ -331,7 +331,7 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can manually send a report at any time. When you send a report in this way, delivery information (such as&nbsp;the users you are sending to and&nbsp;the email subject) are not saved. If you want to create a report delivery that you can save for later use, create a repeating scheduled report.&nbsp;</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can manually send a report at any time. When you send a report in this way, delivery information (such as the users you are sending to and the email subject) are not saved. If you want to create a report delivery that you can save for later use, create a repeating scheduled report. </p>
 -->
 
 <!--
@@ -343,20 +343,20 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
    -->
 
 <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Report Actions</strong>, then&nbsp;<strong>Send Report</strong>.<br> The <strong>Send Report</strong> dialog box is displayed.<br><img src="assets/report-delivery-sendnow-350x351.png" alt="" style="width: 350;height: 351;"></li>
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Report Actions</strong>, then <strong>Send Report</strong>.<br> The <strong>Send Report</strong> dialog box is displayed.<br><img src="assets/report-delivery-sendnow-350x351.png" alt="" style="width: 350;height: 351;"></li>
    -->
 
 <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">On the <strong>Send Now</strong>&nbsp;tab, specify the following information:
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">On the <strong>Send Now</strong> tab, specify the following information:
    <ul>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Send to:</strong> Begin typing the name of the user, group, team, or role who you want to send&nbsp;the report to, then click the name when it appears in the drop-down list.&nbsp;Or, specify the email address of a person external to the Workfront system who you want to have access to the report.<br> Repeat this process to send the report to multiple users, groups, teams, or roles.</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Send to:</strong> Begin typing the name of the user, group, team, or role who you want to send the report to, then click the name when it appears in the drop-down list. Or, specify the email address of a person external to the Workfront system who you want to have access to the report.<br> Repeat this process to send the report to multiple users, groups, teams, or roles.</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Email Subject:</strong> Specify a subject for the email notification.<br> By default, the email subject is: <em>Workfront Report: <Name of the report> Date of the Export</em>.</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Email Message:</strong> Specify a message to include in the email.<br>By default, the email message is:&nbsp;<em>Attached is the <report frequency> report <Name of the report> generated by Workfront on <Date>.</em><br>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Email Message:</strong> Specify a message to include in the email.<br>By default, the email message is: <em>Attached is the <report frequency> report <Name of the report> generated by Workfront on <Date>.</em><br>
    <note type="note">
-   For reports delivered as an Excel file only, the following message is also added to the email: "Please be aware that with MS Excel (XLS) file types, there is a limit (65,530) on the number of hyperlinks these file types support. If you exceed those limits, your file will not open and it is recommended to resend without the hyperlinks.&nbsp;Please go back to the report scheduler&nbsp;to remove hyperlinks and resend the report." The "please go back to the report scheduler" phrase is a link back to the report.&nbsp;
+   For reports delivered as an Excel file only, the following message is also added to the email: "Please be aware that with MS Excel (XLS) file types, there is a limit (65,530) on the number of hyperlinks these file types support. If you exceed those limits, your file will not open and it is recommended to resend without the hyperlinks. Please go back to the report scheduler to remove hyperlinks and resend the report." The "please go back to the report scheduler" phrase is a link back to the report. 
    </note>
    </li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Deliver this report with the Access Rights of:</strong>&nbsp;Begin typing the name of a user who has access to the report, then click the name when it appears&nbsp;in the drop-down list. Users who receive the report will be granted the same level of access to the report as the user that you specify&nbsp;here.<br> For more information, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>.
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Deliver this report with the Access Rights of:</strong> Begin typing the name of a user who has access to the report, then click the name when it appears in the drop-down list. Users who receive the report will be granted the same level of access to the report as the user that you specify here.<br> For more information, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>.
    <note type="note">
    This field does not support wildcards. For example, using the wildcard $$User.ID does not run the report with the access rights of the user who is receiving the report.
    </note>
@@ -366,13 +366,13 @@ WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、�
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> HTML</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">PDF</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">MS Excel</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">MS&nbsp;Excel (.xlsx)</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">MS Excel (.xlsx)</li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">TSV</li>
    </ul></li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Include Links:</strong>&nbsp;This option is available&nbsp;only when <strong>MS Excel</strong> is selected in the <strong>Format</strong> drop-down menu. When this option is enabled, any hyperlinks are included in the exported Excel document. <br>Documents that contain more than 65,000 links cannot be opened. If the exported document will contain more than 65,000 links, deselect this option.<br>This option is enabled by default.</li>
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Include Links:</strong> This option is available only when <strong>MS Excel</strong> is selected in the <strong>Format</strong> drop-down menu. When this option is enabled, any hyperlinks are included in the exported Excel document. <br>Documents that contain more than 65,000 links cannot be opened. If the exported document will contain more than 65,000 links, deselect this option.<br>This option is enabled by default.</li>
    </ul></li>
    -->
 
 <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Send Now</strong>.<br> The report is sent to all users that you identified.<br> Or<br> Click <strong>Make Repeating Delivery</strong>&nbsp;if you want to set up&nbsp;a scheduled delivery with this same information, then complete the additional information regarding the frequency of when the report is sent.</li>
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Send Now</strong>.<br> The report is sent to all users that you identified.<br> Or<br> Click <strong>Make Repeating Delivery</strong> if you want to set up a scheduled delivery with this same information, then complete the additional information regarding the frequency of when the report is sent.</li>
    -->

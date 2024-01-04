@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '13838'
+source-wordcount: '13844'
 ht-degree: 1%
 
 ---
@@ -1265,7 +1265,7 @@ ht-degree: 1%
          * [計算の例 — EAC をタスクからのロールアップとして計算](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
          * [計算の例 — プロジェクトレベルでの EAC の計算](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
    * タスク {#tasks}
-      * [タスク](manage-work/tasks/tasks-overview.md)
+      * [タスク：記事インデックス](manage-work/tasks/tasks-overview.md)
       * タスク情報 {#task-information}
          * [タスク情報](manage-work/tasks/task-information/task-information.md)
          * [タスクの概要](manage-work/tasks/task-information/tasks-overview.md)
@@ -1479,7 +1479,7 @@ ht-degree: 1%
       * [チームやグループのヒント、テクニック、トラブルシューティング](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [ユーザー名は既に使用されています](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * レポート {#reporting}
-   * [レポート](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [レポートとダッシュボード：記事インデックス](reports-and-dashboards/reports-and-dashboards-overview.md)
    * レポートキャンバス {#reporting-canvas}
       * [レポートキャンバス](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
       * レポートの管理 {#manage-reports}

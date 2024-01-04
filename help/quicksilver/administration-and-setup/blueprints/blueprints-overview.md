@@ -4,25 +4,29 @@ content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: ブループリントの概要
-description: ブループリントは、成長する作業管理システムを作成するのに役立つ基本的な構成要素を提供します。
-author: Lisa
+description: ブループリントは、Workfrontの一般的な使用例に対処するWorkfrontオブジェクトのセットです。 ブループリントをダウンロードしてインストールし、特定のユースケース用にオブジェクトを設定できます。
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
 # ブループリントの概要
 
+<!--Audited: 01/2024-->
+
 ブループリントは、Workfrontの一般的な使用例に対処するWorkfrontオブジェクトのセットです。 ブループリントをダウンロードしてインストールし、特定のユースケース用にオブジェクトを設定できます。
+
+![](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
->例:
+>例：
 >
 >* **人事組織の設定**
 >
@@ -32,7 +36,7 @@ ht-degree: 0%
 >
 >   このブループリントには、新しい従業員のオンボーディングアクティビティを整理するためのテンプレートが含まれています。 このテンプレートを使用すると、IT チームは効率的に業務を行え、新たな従業員の経験を積み、生産性を迅速に追跡できます。
 >
->* **継承されたインスタンスの基本チェックリスト**
+>* **継承されたインスタンスの基本 | チェックリスト**
 >
 >    このブループリントには、Workfrontインスタンスの設定方法を明確に理解するために、質問、リソースおよびリンクの短いリストで確認できるプロジェクトテンプレート（またはチェックリスト）が含まれています。 これは、最近Workfrontインスタンスを継承した場合に使用し、どこから始めればよいかに関するガイダンスが必要な場合に使用します。
 >
@@ -43,9 +47,9 @@ ht-degree: 0%
 
 各ブループリントは、部門と特定の成熟度レベルをターゲットとし、実績のあるベストプラクティスをシステムに迅速に実装するのに役立ちます。 以下に詳しく説明する成熟度レベルは、ブループリントカタログカードと詳細に示されます。
 
-**[!UICONTROL 管理]:** 管理されたプロジェクトテンプレートは、アクティビティと成果物が標準手順として完全に受け入れられる前に、新しいビジネスプロセスの採用をサポートします。 新しいプロセスの各ステップに必ず従うタスクが含まれます。
+* **[!UICONTROL 管理]:** 管理されたプロジェクトテンプレートは、アクティビティと成果物が標準手順として完全に受け入れられる前に、新しいビジネスプロセスの採用をサポートします。 新しいプロセスの各ステップに必ず従うタスクが含まれます。
 
-**[!UICONTROL 統合済み]:** 統合プロジェクトテンプレートは、ビジネス機能が標準の操作手順を通じてサポートされることを前提としています。 プロセスのコントリビューターは、プロセスに従うために完了する必要がある手順とタスクを把握しています。 このプロセスをサポートするプロジェクトテンプレートに含まれるタスクの数は、レポート作成の目的で必要なマイルストーンやその他の主な成果物のみを追跡するためのタスク数を少なくします。
+* **[!UICONTROL 統合済み]:** 統合プロジェクトテンプレートは、ビジネス機能が標準の操作手順を通じてサポートされることを前提としています。 プロセスのコントリビューターは、プロセスに従うために完了する必要がある手順とタスクを把握しています。 このプロセスをサポートするプロジェクトテンプレートに含まれるタスクの数は、レポート作成の目的で必要なマイルストーンやその他の主な成果物のみを追跡するためのタスク数を少なくします。
 
 ## 適切なブループリントを検索
 
@@ -57,9 +61,9 @@ ht-degree: 0%
 
 次のタイプのブループリントを使用できます。
 
-* プロジェクトテンプレート：プロジェクトテンプレートに関連付けられた標準オブジェクト（タスク、問題、役割、チーム）と、これらのオブジェクトに関連する一部の環境設定が含まれます。 詳しくは、 [ブループリントの設定](../../administration-and-setup/blueprints/configure-template-package.md).
-* 組織構造：組織の構造（会社、グループ、役割、チーム）に関連付けられたオブジェクトが含まれます。 詳しくは、 [ブループリントの設定](../../administration-and-setup/blueprints/configure-template-package.md).
-* ダッシュボード：実装サービスなど、特定のユースケース向けの 1 つ以上のダッシュボードが含まれます。
+* **プロジェクトテンプレート**：プロジェクトテンプレートに関連付けられた標準オブジェクト（タスク、タスク、問題、役割、チーム）と、これらのオブジェクトに関連する一部の環境設定が含まれます。 詳しくは、 [ブループリントの設定](../../administration-and-setup/blueprints/configure-template-package.md).
+* **組織構造**：組織の構造（会社、グループ、ロール、チーム）に関連付けられたオブジェクトが含まれます。 詳しくは、 [ブループリントの設定](../../administration-and-setup/blueprints/configure-template-package.md).
+* **ダッシュボード**：実装サービスなど、特定のユースケース向けの 1 つ以上のダッシュボードが含まれます。
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
@@ -68,7 +72,7 @@ ht-degree: 0%
 
 現在のブループリントを確認するには、 [使用可能なブループリントのリスト](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
-###  の詳細を表示
+### 詳細を表示
 
 各ブループリントには詳細ページが含まれています。 このページから、次の操作を実行できます。
 
@@ -82,7 +86,7 @@ ht-degree: 0%
 
 ## ブループリントのインストール
 
-システム管理者は、実稼動環境またはサンドボックス環境に直接インストールできます。 詳しくは、 [ブループリントのインストール](../../administration-and-setup/blueprints/blueprints-install.md) または [ブループリントの設定](../../administration-and-setup/blueprints/configure-template-package.md).
+Workfrontの管理者は、任意の環境（実稼動、プレビューまたはサンドボックス環境）にブループリントを直接インストールできます。 詳しくは、 [ブループリントのインストール](../../administration-and-setup/blueprints/blueprints-install.md) または [ブループリントの設定](../../administration-and-setup/blueprints/configure-template-package.md).
 
 インストール後に、次に実行する最適なアクションについて不明な場合があります。 詳しくは、 [ブループリントのインストール後に実行するアクション](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
