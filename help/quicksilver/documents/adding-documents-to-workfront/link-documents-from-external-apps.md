@@ -6,9 +6,9 @@ description: 外部ソースからAdobe Workfrontにドキュメントやフォ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
 workflow-type: tm+mt
-source-wordcount: '2588'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -61,19 +61,21 @@ Workfrontに直接アップロードされたドキュメントを使用する�
 
 ## アクセス要件
 
-以下が必要です。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p> 任意</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td>
+   <td> <p> 任意</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td>
+   <td><p>新規：寄稿者以上</p>
+    <p>または</p>
+    <p>現在：リクエスト以降</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 

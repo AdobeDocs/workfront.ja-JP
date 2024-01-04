@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: アジャイルビューでのプロジェクト管理
-description: 必要なプラン、ライセンスの種類、およびAdobe Workfront Plan Team、Pro、Business、または Enterprise Workfront License Type Review、Work、または Plan Permissions （アクセスモデルでの確認、作業、またはプラン権限）レポート、ダッシュボード、カレンダーの編集
-author: Alina
+description: 一般的にアジャイルプラクティスに伴う管理上の課題（チームバックログの管理や反復の作成など）がなくても、プロジェクトにアジャイル機能を活用できます。
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -202,7 +202,7 @@ Required plans, license types, and access
 
 Workfrontの標準ビューと同様に、既存のアジャイルビューをカスタマイズしたり、新しいアジャイルビューをゼロから作成したりできます。 標準ビューとは異なり、既存のアジャイルビューに基づいて新しいアジャイルビューを作成することはできません。
 
-アジャイルビューの作成とカスタマイズの詳細については、この記事の「アジャイルビューの作成またはカスタマイズ」の節を参照してください。 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+アジャイルビューの作成とカスタマイズについて詳しくは、 [アジャイルビューの作成またはカスタマイズ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 記事のセクション [Adobe Workfrontでビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## 既存のアジャイルビューの共有
 
