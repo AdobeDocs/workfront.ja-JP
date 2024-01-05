@@ -6,9 +6,9 @@ description: 承認リクエストを委任すると、休暇中に不在にな�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # 承認リクエストを委任
 
 不在時に割り当てられた作業を一時的に委任することができます。 タスクや問題の割り当てを委任したり、承認リクエストを委任したりできます。 この記事では、承認リクエストを委任する方法について説明します。 タスクの委任と問題の割り当てについて詳しくは、 [タスクと問題の委任を管理](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+承認の割り当て方法 ( 直接自分に割り当てられたか、自分が所属するチームに割り当てられたか、自分の職務の役割に割り当てられたかに関係なく、次の種類の承認を委任できます。
+
+* プロジェクト承認
+* タスク承認
+* 問題の承認
+
+タイムシート、ドキュメント、または配達確認の承認を委任することはできません。
 
 >[!NOTE]
 >
@@ -83,7 +91,7 @@ ht-degree: 0%
 * タスク承認
 * 問題の承認
 
-タイムシートとドキュメントの承認を委任することはできません。 
+タイムシート、ドキュメント、または配達確認の承認を委任することはできません。
 
 承認を委任する際は、次の点を考慮してください。
 

@@ -6,9 +6,9 @@ description: Adobe Workfrontの複数の領域で、プロジェクト、タス�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
 1. 新しいドキュメントを追加するプロジェクト、タスク、またはタスクに移動します。
 1. 次をクリック： **ドキュメント** 「 」タブで、 **新規追加** ドロップダウンメニュー。
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. 追加するドキュメントの種類に応じて、次のいずれかの操作を行います。
 
@@ -98,7 +98,7 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
         <li value="1">次から： <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>ドキュメントのリクエスト</strong>.</li> 
         <li value="2">Adobe Analytics の <strong>誰からリクエストしているか</strong> ボックスに、ドキュメントを要求するユーザーの名前を入力します。</li> 
         <li value="3">Adobe Analytics の <strong>リクエスト内容を伝える</strong> ボックスに、ドキュメントの名前を入力します。</li> 
-        <li value="4"> <p>クリック <strong>リクエストを送信</strong>.</p> <p>リクエストが「ドキュメント」タブに表示されます。</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>ドキュメントのリクエストについて詳しくは、 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">ドキュメントのリクエスト</a>.</p> </li> 
+        <li value="4"> <p>クリック <strong>リクエストを送信</strong>.</p> <p>リクエストが「ドキュメント」タブに表示されます。</p> <p>ドキュメントのリクエストについて詳しくは、 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">ドキュメントのリクエスト</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
