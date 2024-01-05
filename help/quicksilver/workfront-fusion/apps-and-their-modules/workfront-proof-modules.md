@@ -9,7 +9,7 @@ description: 内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -37,7 +37,7 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -178,7 +178,7 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
 
 ### アクション
 
-* [[!UICONTROL プルーフの作成]](#create-proof)
+* [[!UICONTROL 配達確認を作成]](#create-proof)
 * [[!UICONTROL カスタム API 呼び出し]](#custom-api-call)
 * [[!UICONTROL 配達確認をダウンロード]](#download-proof)
 * [[!UICONTROL レコードを読み取る]](#read-a-record)
@@ -186,7 +186,7 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
 * [[!UICONTROL 配達確認を更新]](#update-proof)
 * [[!UICONTROL ファイルをアップロード]](#upload-file)
 
-#### [!UICONTROL プルーフの作成]
+#### [!UICONTROL 配達確認を作成]
 
 このアクションモジュールは、で新しい配達確認または新しいバージョンの配達確認を作成します。 [!DNL Workfront Proof].
 
@@ -353,11 +353,11 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL メソッド ]</td> 
-   <td>API 呼び出しのアクションを設定します。 使用可能なアクションについては、 <a href="http://api.proofhq.com/">配達確認 API ドキュメント</a>.</td> 
+   <td>API 呼び出しのアクションを設定します。 使用可能なアクションについては、 <a href="https://api.proofhq.com/">配達確認 API ドキュメント</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL 本文 (XML)]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>注意：  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -367,7 +367,7 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
 >![](assets/wfp-api-module-example-350x586.png)
 

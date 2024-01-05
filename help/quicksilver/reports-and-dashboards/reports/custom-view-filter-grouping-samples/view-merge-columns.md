@@ -7,14 +7,16 @@ description: 複数の異なる列に表示される情報を結合し、1 つ�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # 表示：1 つの共有列の複数の列から情報を結合
+
+<!-- Audited: 1/2024 -->
 
 複数の異なる列に表示される情報を結合し、1 つの共有列に表示できます。
 
@@ -32,8 +34,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>ビューの変更をリクエスト </p>
-   <p>レポートを変更する計画</p> </td> 
+   <td> <p> 現在： 
+   <ul>
+   <li>ビューの変更をリクエスト</li> 
+   <li>レポートを変更する計画</li>
+   </ul>
+     </p>
+     <p> 新規： 
+   <ul>
+   <li>ビューを変更する寄稿者</li> 
+   <li>レポートを変更するための標準</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -77,7 +90,7 @@ ht-degree: 0%
 >
 >同じレコードの値を同時に表示できない 2 つの列を結合する場合は、この方法をお勧めします。 たとえば、作業項目レポートでは、[ タスク名 ] 列と [ タスク名 ] 列を結合できます。これは、作業項目には [ タスク名 ] と [ タスク名 ] を同時に含めることができないためです。 作業項目は、Workfrontの [ タスク ] または [ タスク ] にすることができます。
 
-手順は次のとおりです。
+改行のない 2 つの列のデータを結合するには、次の手順を実行します。
 
 1. ビューのテキストモードを使用して、結合する最初の列に次のテキストを追加します。
 

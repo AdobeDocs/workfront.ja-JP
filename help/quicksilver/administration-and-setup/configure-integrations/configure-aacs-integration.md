@@ -3,16 +3,19 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合
 description: 作業内容を [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
 
 # を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -45,7 +48,8 @@ ht-degree: 0%
   <tr>
    <td><strong>[!DNL Adobe Workfront] ライセンス*</strong>
    </td>
-   <td>[!UICONTROL プラン ]
+   <td>現在： [!UICONTROL プラン ] <br>
+   新規： [!UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -81,7 +85,8 @@ ht-degree: 0%
 
 ## 統合情報の設定
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** Adobe Workfrontの右上隅にあるアイコンをクリックし、 **[!UICONTROL 設定]** .
+{{step-1-to-setup}}
+
 1. 選択 **[!UICONTROL ドキュメント]** 左のパネルで、「 **[!UICONTROL [!DNL Experience Manager]統合]**.
 
    >[!NOTE]

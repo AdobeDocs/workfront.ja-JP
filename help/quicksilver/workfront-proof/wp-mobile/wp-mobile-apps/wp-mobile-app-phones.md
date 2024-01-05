@@ -3,9 +3,10 @@ title: Workfront Proof モバイルアプリ
 description: Workfront Proof モバイルアプリについて説明します。
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
+source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -33,9 +34,6 @@ iOS 7.0 以降が必要です。 Android 4.0 以降。 iPhone、iPad、iPod touc
 >[!IMPORTANT]
 >
 >Workfront Proof モバイルアプリはサポートされなくなり、そのまま使用できます。  アプリで発生した問題は修正されません。
-
-
-ダウンロード： [!DNL Workfront Proof] モバイルアプリを [Apple App Store](https://itunes.apple.com/us/app/workfront-proof/id1030372728?mt=8) または [Google Play Store](https://play.google.com/store/apps/details?id=com.proofhq.tabletapp).
 
 iOSデバイスの場合は、必ず以前の [!DNL Workfront Proof] iOSデバイス用のアプリを使用してください。
 

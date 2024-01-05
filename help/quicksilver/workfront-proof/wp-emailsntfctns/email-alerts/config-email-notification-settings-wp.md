@@ -7,9 +7,9 @@ description: Workfrontの配達確認から生成される電子メール通知�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ ht-degree: 0%
 
 以下の領域で、レビュー担当者向けの電子メール通知を設定できます。
 
+## アクセス要件
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">製品</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+</table>
+
+レビュー担当者向けの E メール通知を新しい配達確認ページで設定できます。 [!UICONTROL 新しいバージョン] ページに追加され、 [!UICONTROL ワークフロー] のセクション [!UICONTROL 配達確認の詳細] ページに貼り付けます。 詳しくは、 [で配達確認を生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * 新しい配達確認ページ
 * The [!UICONTROL 新しいバージョン] ページ
 * The [!UICONTROL ワークフロー] のセクション [!UICONTROL 配達確認の詳細] ページに貼り付けます。
 
 詳しくは、 [で配達確認を生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [で配達確認を生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [で配達確認を生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [で配達確認の詳細を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+また、各ユーザーは、共同作業者が自分の環境設定を持っている場合、またはアカウント管理者がアラートの頻度に関するレコメンデーションを持っている場合に、配達確認を共有したときに自動的に適用される独自の E メールアラート設定を設定できます。 これは、ユーザーの詳細ページで、配達確認のデフォルトとして設定できます。
 
 また、各ユーザーは、配達確認が共有されたときに自動的に適用される、独自の E メールアラート設定を設定することもできます。 <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

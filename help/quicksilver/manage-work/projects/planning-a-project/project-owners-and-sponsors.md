@@ -7,7 +7,7 @@ description: プロジェクト所有者とプロジェクトスポンサーを�
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # プロジェクト所有者とスポンサーの概要
+
+<!-- Audited: 1/2024 -->
 
 プロジェクト所有者とプロジェクトスポンサーを指定できます。
 
@@ -36,24 +38,25 @@ ht-degree: 0%
 * プロジェクトの承認者として、プロジェクトの所有者を指定できます。
 * プロジェクト、タスク、または問題の承認プロセスを定義する際に、プロジェクト所有者を汎用承認者として指定できます。 承認について詳しくは、 [承認プロセスの編集](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >プロジェクト所有者に承認を割り当てて、誰もプロジェクトの所有者に指定されていない場合、「セットアップ」領域の「顧客情報」セクションで示されたように、承認はメインのWorkfront管理者に再割り当てされます。 詳しくは、 [システムの基本情報を設定する](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >[!IMPORTANT]
+  >
+  >プロジェクト所有者に承認を割り当てて、誰もプロジェクトの所有者に指定されていない場合、「セットアップ」領域の「顧客情報」セクションで示されたように、承認はメインのWorkfront管理者に再割り当てされます。 詳しくは、 [システムの基本情報を設定する](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >
 
 
 * プロジェクト所有者にのみ配信される特定の通知を有効にすることができます。
 
-   電子メール通知について詳しくは、 [システムの全員に対するイベント通知を設定する](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) 記事内 [システムの全員に対するイベント通知を設定する](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  電子メール通知について詳しくは、 [システムの全員に対するイベント通知を設定する](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) 記事内 [システムの全員に対するイベント通知を設定する](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * レポートまたはリストに「プロジェクト所有者」フィールドを表示できます。
 
-   また、ビュー、グループ化、プロンプトに [ プロジェクト所有者 ] フィールドを表示することもできます。
+  また、ビュー、グループ化、プロンプトに [ プロジェクト所有者 ] フィールドを表示することもできます。
 
-   例えば、次のテキストモード式をフィルターにコピーして、ログインしたユーザーが所有するプロジェクトを表示できます。 
+  例えば、次のテキストモード式をフィルターにコピーして、ログインしたユーザーが所有するプロジェクトを表示できます。 
 
-   ```
-   ownerID=$$USER.ID
-   ```
+  ```
+  ownerID=$$USER.ID
+  ```
 
 レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -77,28 +80,28 @@ ht-degree: 0%
 
 プロジェクトスポンサーを割り当てる際は、次の点を考慮してください。
 
-* プロジェクトスポンサーは、プロジェクトへの追加のアクセス権を取得しませんが、プロジェクトの電子メール通知に追加されます。 通知について詳しくは、 [システムの全員に対するイベント通知を設定する](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* プロジェクトスポンサーは、プロジェクトへの追加のアクセス権を取得しませんが、プロジェクトの電子メール通知に追加されます。 通知について詳しくは、この記事を参照してください。 [システムの全員に対するイベント通知を設定する](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * 指定できるプロジェクトスポンサーは 1 つだけです。
 * プロジェクト、タスク、または問題の承認プロセスを定義する際に、プロジェクトスポンサーを一般的な承認者として指定できます。 承認について詳しくは、 [承認プロセスの編集](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >プロジェクトスポンサーに承認を割り当て、誰もプロジェクトのスポンサーとして指定されていない場合、承認はプロジェクト所有者に再割り当てされます。 プロジェクトの所有者が指定されていない場合、承認はWorkfront管理者に割り当てられます。
+  >[!IMPORTANT]
+  >
+  >プロジェクトスポンサーに承認を割り当て、誰もプロジェクトのスポンサーとして指定されていない場合、承認はプロジェクト所有者に再割り当てされます。 プロジェクトの所有者が指定されていない場合、承認はWorkfront管理者に割り当てられます。
 
 * 「プロジェクトスポンサー」フィールドをレポートまたはリストに表示できます。
 
-   「プロジェクトスポンサー」フィールドを表示、グループ化またはプロンプトで表示することもできます。
+  「プロジェクトスポンサー」フィールドを表示、グループ化またはプロンプトで表示することもできます。
 
-   例えば、次のテキストモードの式をフィルターにコピーして、ログインしたユーザーがスポンサーとするプロジェクトを表示できます。
+  例えば、次のテキストモードの式をフィルターにコピーして、ログインしたユーザーがスポンサーとするプロジェクトを表示できます。
 
-   ```
-   sponsorID=$$USER.ID
-   ```
+  ```
+  sponsorID=$$USER.ID
+  ```
 
-    
+   
 
-   レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
