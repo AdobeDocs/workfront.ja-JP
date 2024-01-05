@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion は、アプリと Web サービスをシー
 author: Luke
 feature: Product Announcements, Workfront Fusion
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: d2ebed0139b04bb7c42bbae8064b416229472fdf
+source-git-commit: 1d0c03e7818f6ecf4cd5ea8b6cc1c7324fbadd23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 0%
 Adobe Workfront Fusion は、アプリと Web サービスをシームレスに接続しているので、同じタスクを何度も繰り返す代わりに、新しいタスクに集中できます。
 
 Workfront Fusion の使用方法については、 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+
+## 2024 年の Fusion リリース
+
+### 2024 年 1 月
+
+* [Workfront Fusion リリースアクティビティ： 2024 年 1 月 1 日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
 
 ## 2023 年の Fusion リリース
 
