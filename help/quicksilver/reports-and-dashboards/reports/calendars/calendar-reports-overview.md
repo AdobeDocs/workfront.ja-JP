@@ -3,44 +3,48 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートの概要
-description: カレンダーレポートは、実際には作業内容を視覚的に表現する動的なレポートです。
+description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 タスク、タスクおよびプロジェクトに関する日付情報をカレンダーレポートに表示できます。
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '388'
+ht-degree: 4%
 
 ---
 
 # カレンダーレポートの概要
 
-カレンダーレポートは、実際には作業内容を視覚的に表現する動的なレポートです。 次のオブジェクトに関する日付情報をカレンダーレポートに表示できます。
+<!-- Audited: 01/2024 -->
+
+カレンダーレポートは、実際には作業内容を視覚的に表現する動的なレポートです。 次のオブジェクトの日付情報をカレンダーレポートに表示できます。
 
 * タスク
 * イシュー
 * プロジェクト
 
-でカレンダーレポートにアクセスする機能 [!DNL Adobe Workfront] は、 [!DNL Workfront] 管理者に問い合わせます。 カレンダーレポートの表示に必要なアクセスレベルについて詳しくは、 [レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+でカレンダーレポートにアクセスする機能 [!DNL Adobe Workfront] は、アクセスレベルを通じて決定されます。 カレンダーレポートの表示に必要なアクセスの詳細については、 [レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## 独自のカレンダーを作成する
 
-[!UICONTROL Workfront] 次の場合に、既定の個人用カレンダーを自動的に作成します。
+[!DNL Workfront] 次の場合に、既定の個人用カレンダーを自動的に作成します。
 
-* 他のカレンダーにアクセスできない新しく作成したユーザーが、初めてカレンダーレポートページを訪問します\
-   または
-* ユーザーがすべてのカレンダーを手動で削除し、他のカレンダーにアクセスできない
+* 他のカレンダーにアクセスできず、初めてカレンダーレポートページにアクセスする新しく作成されたユーザーです
 
->[!NOTE]
->
->ユーザーが他のカレンダー（システム全体の共有カレンダーや、ユーザーが特別に共有したカレンダーなど）にアクセスできる場合、個人用カレンダーは作成されません。
+  または
 
-また、ユーザーはカレンダーを作成し、他のユーザーが共有したカレンダーにアクセスすることができます。 Workfrontでユーザーがアクセスできるカレンダーの数に制限はありません。
+* すべてのカレンダーを手動で削除し、他のカレンダーにアクセスできない
 
 >[!NOTE]
 >
->必要な機能は次のとおりです。 [!UICONTROL 編集] ～へのアクセス権 [!UICONTROL レポート], [!UICONTROL ダッシュボード]、および [!UICONTROL カレンダー] をクリックし、カレンダーレポートを作成します。 お問い合わせ [!DNL Workfront] 管理者。
+>他のカレンダー（システム全体の共有カレンダーや、自分が特別に共有しているカレンダーなど）にアクセスできる場合、個人用カレンダーは作成されません。
+
+さらに、カレンダーを作成し、他のユーザーが自分と共有しているカレンダーにアクセスすることもできます。 でアクセスできるカレンダーの数に制限はありません [!DNL Workfront].
+
+>[!NOTE]
+>
+>必要な機能は次のとおりです。 [!UICONTROL 編集] ～へのアクセス権 [!UICONTROL レポート], [!UICONTROL ダッシュボード]、および [!UICONTROL カレンダー] をクリックし、カレンダーレポートを作成します。 お問い合わせ [!DNL Workfront] 管理者を参照してください。
 
 ## 日付別に項目をグループ化
 

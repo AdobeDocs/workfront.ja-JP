@@ -6,14 +6,16 @@ description: Adobe Workfrontのガントチャートは、タスクまたはプ�
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 1%
 
 ---
 
 # の基本を学ぶ [!UICONTROL ガントチャート]
+
+<!-- Audited: 01/2024 -->
 
 Adobe Workfrontのガントチャートは、タスクまたはプロジェクトのリストのタイムラインを視覚的に表します。
 
@@ -35,7 +37,7 @@ In [!DNL Adobe Workfront]、2 つあります [!UICONTROL ガントチャート]
 * 両方のタスクリストに表示する情報を設定できます [!UICONTROL ガントチャート] およびプロジェクトリスト [!UICONTROL ガントチャート].
 * 色やフォントを設定することはできません。 [!UICONTROL ガントチャート] 情報が表示されます。
 * タスクから情報を更新すると、両方のタスクリストに自動的に反映されます [!UICONTROL ガントチャート] およびプロジェクトリスト [!UICONTROL ガントチャート].
-* テンプレートタスクから情報を更新すると、テンプレートタスクリストに自動的に反映されます [!UICONTROL ガントチャート].
+* テンプレートタスクで情報を更新すると、テンプレートタスクリストに自動的に反映されます [!UICONTROL ガントチャート].
 
 ## 次にアクセス： [!UICONTROL ガントチャート]
 
@@ -44,9 +46,6 @@ The [!UICONTROL ガント] のグラフ [!DNL Workfront]  タスクまたはプ�
 タスクリストを表示できます [!UICONTROL ガントチャート] を、プロジェクトのタスクリストまたはタスクレポートから直接開きます。
 
 プロジェクトリストを表示できます [!UICONTROL ガントチャート] （プロジェクトリストまたはプロジェクトレポート）。
-
-* [タスクリスト [!UICONTROL ガントチャート]](#task-list-gantt-chart)
-* [プロジェクトリスト [!UICONTROL ガントチャート]](#project-list-gantt-chart)
 
 ### タスクリスト [!UICONTROL ガントチャート] {#task-list-gantt-chart}
 
@@ -82,13 +81,13 @@ The [!UICONTROL ガント] のグラフ [!DNL Workfront]  タスクまたはプ�
    * [!UICONTROL 割り当て]
    * [!UICONTROL ベースライン]
    * [!UICONTROL コミット日]
-   * [!UICONTROL % 完了]
-   * [!UICONTROL クリティカル パス]
-   * [!UICONTROL マイルストーンひし形]
-   * [!UICONTROL マイルストーン線]
+   * [!UICONTROL %完了]
+   * [!UICONTROL クリティカルパス]
+   * [!UICONTROL マイルストーンダイヤモンド]
+   * [!UICONTROL マイルストーン行]
    * [!UICONTROL 先行タスク]
    * [!UICONTROL 進捗状態]
-   * [!UICONTROL 見込み日]
+   * [!UICONTROL 推定日]
 
 1. 次の記事の説明に従って、タスクの編集を開始します。
 
@@ -122,9 +121,9 @@ The [!UICONTROL ガント] のグラフ [!DNL Workfront]  タスクまたはプ�
 1. プロジェクトに表示する情報を設定するには [!UICONTROL ガント] グラフで、 [!UICONTROL **設定**] アイコンをクリックし、次のいずれかのオプションを有効にします。
 
    * [!UICONTROL 実際の日付]
-   * [!UICONTROL % 完了]
-   * [!UICONTROL マイルストーンひし形]
-   * [!UICONTROL マイルストーン線]
+   * [!UICONTROL %完了]
+   * [!UICONTROL マイルストーンダイヤモンド]
+   * [!UICONTROL マイルストーン行]
    * [!UICONTROL 先行タスク]
    * [!UICONTROL 進捗状態]
-   * [!UICONTROL 見込み日]
+   * [!UICONTROL 推定日]
