@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ ht-degree: 0%
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能です</a></p><p><span style="color: #ff0000;"> プレビューの新機能</span></p><p>自分が所有するプロジェクトでの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。 </p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 1 月 4 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動： 24.1 リリースを使用</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用した新しいホームの管理者コントロール</a></p><p>管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。 カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択、使用可能なフィルターとグループの選択（およびデフォルトの設定）のためのウィジェット固有のオプションが含まれます。</p>
                     </td>

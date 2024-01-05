@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期のホームの機能強化
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 このページでは、2024 年第 1 四半期リリースでプレビュー環境に対しておこなわれたすべてのホームの機能強化について説明します。 これらの機能強化は、2024 年第 1 四半期リリースの実稼動環境で利用できるようになります。
 
 2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## 新しい保留中の承認ウィジェットが使用可能です
+
+自分が所有するプロジェクトでの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。 ここでは、自分が所有するプロジェクトでドキュメントの承認またはレビューに割り当てられたユーザーのリスト、レビューまたは承認のステータス、レビュー担当者と承認者にレビューまたは承認の完了を促すリストを表示できます。
+
+ホームウィジェットについて詳しくは、 [新しいホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## レイアウトテンプレートを使用した新しいホームの管理者コントロール
 
