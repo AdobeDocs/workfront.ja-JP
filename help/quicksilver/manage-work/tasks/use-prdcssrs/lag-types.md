@@ -7,9 +7,9 @@ description: '[ ラグ ] は、依存タスクが開始できるまで、強制�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -61,27 +61,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
    <td><p>新規：標準</p>
        <p>または</p>
        <p>現在：プラン </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>タスクおよびプロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト</a>.</p> </td> 
+   <td> <p>タスクおよびプロジェクトに対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## タスクのラグとラグのタイプを示す
 

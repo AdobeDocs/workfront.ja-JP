@@ -6,9 +6,9 @@ description: ベースラインとは、プロジェクトの最初の計画に�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -62,28 +62,27 @@ drafted for P&P:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
     <td><p>新規：標準</p>
         <p>または</p>
         <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>注意</b>
-   まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 プロジェクトへのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>. Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>. </p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>プロジェクトに対する権限を表示するか、それ以上の権限を表示してベースラインを表示します</p> <p>プロジェクトに対する権限を管理してベースラインを作成する</p> <p> プロジェクト権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfrontでプロジェクトを共有する</a>.</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト</a>.</p> </td> 
+   <td> <p>プロジェクトに対する権限を表示するか、それ以上の権限を表示してベースラインを表示します</p> <p>プロジェクトに対する権限を管理してベースラインを作成する</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## ベースラインを使用する際の考慮事項
 

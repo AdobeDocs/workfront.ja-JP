@@ -6,9 +6,9 @@ description: 外部ソースからAdobe Workfrontにドキュメントやフォ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 1069b34ad516f2f419fb3b547bb8fc45b542c483
+source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,23 @@ Workfrontに直接アップロードされたドキュメントを使用する�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td>
+   <td role="rowheader">Adobe Workfrontプラン</td>
    <td> <p> 任意</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td>
+   <td role="rowheader">Adobe Workfrontライセンス</td>
    <td><p>新規：寄稿者以上</p>
     <p>または</p>
     <p>現在：リクエスト以降</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## ドキュメントストレージ
 
