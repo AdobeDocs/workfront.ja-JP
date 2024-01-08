@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '831'
 ht-degree: 2%
 
 ---
@@ -95,7 +95,7 @@ Workfrontの実装時にシステム環境設定を指定し、その後は再�
         <li>ドキュメントのリクエスト<br></li>
         <li>ドキュメントの承認</li>
         <li>カレンダー</li>
-       </ul><p>このオプションは、デフォルトで有効になっています。</p> <p><b>重要</b>：このオプションが無効になっている場合、「外部ユーザー」アクセスレベルは、Workfrontインスタンスでは使用できません。 詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Workfrontの組み込みアクセスレベル</a>.</p> </td> 
+       </ul><p>このオプションは、デフォルトで有効になっています。</p> <p><b>重要</b>：このオプションが無効になっている場合、「外部ユーザー」アクセスレベルは、Workfrontインスタンスでは使用できません。 詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">組み込みのアクセスレベル</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">外部ユーザーにパスワードの登録を要求する</td> 

@@ -6,9 +6,9 @@ description: 様々なリスト、レポート、ダッシュボード、検索�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2153'
 ht-degree: 0%
 
 ---
@@ -53,28 +53,28 @@ Workfrontインターフェイスから手動でレポートをエクスポー�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
    <td>
     <p>新規：明るいかそれ以上</p>
     <p>または</p>
     <p>現在：レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、およびレポートを書き出すためのカレンダーへのアクセス権を表示または高くします</p> <p>リスト内の表示するオブジェクトに対する表示またはアクセス権を高くして、リストを書き出す</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、およびレポートを書き出すためのカレンダーへのアクセス権を表示または高くします</p> <p>リスト内の表示するオブジェクトに対する表示またはアクセス権を高くして、リストを書き出す</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>レポートまたはダッシュボードに対する、レポートまたはダッシュボードをエクスポートするための権限を表示または高くする。</p> <p>リストで表示するオブジェクトに対する表示権限またはそれ以上の権限で、リストをエクスポートします</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト</a>.</p> </td> 
+   <td> <p>レポートまたはダッシュボードに対する、レポートまたはダッシュボードをエクスポートするための権限を表示または高くする。</p> <p>リストで表示するオブジェクトに対する表示権限またはそれ以上の権限で、リストをエクスポートします</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
@@ -282,7 +282,7 @@ PDFファイルにエクスポートされるレポートには、タイトル�
 タイムスタンプには以下が含まれます。
 
 * 日付
-* 時間
+* 時刻
 * 項目が書き出されたタイムゾーン
 
 書き出すドキュメントの種類に応じて、タイムスタンプは様々な場所に表示されます。

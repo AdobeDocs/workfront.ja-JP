@@ -6,9 +6,9 @@ description: Adobe Workfrontの「拡張分析」領域のフィルターは、�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Adobe Workfrontの「拡張分析」領域のフィルターは、特定のプ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td>
       <p>新規：任意</p>
       <p>または</p>
       <p>現在：ビジネス以上</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
    <td>
       <p>新規：明るいかそれ以上</p>
       <p>または</p>
@@ -49,17 +49,17 @@ Adobe Workfrontの「拡張分析」領域のフィルターは、特定のプ�
    </td> 
   </tr>
   <tr> 
-   <td>アクセスレベル* </td> 
-   <td> <p>プロジェクトへのアクセスを表示</p> <p>また、特定のプロジェクトフィールドフィルターオプションを表示するには、タスク、Portfolio、ユーザーへの表示アクセス権も必要です。</p> <p>注意：アクセスレベルを編集ダイアログの「追加の制限を設定」セクションで制限を選択した場合、フィルターを適用した後、フィルターまたは拡張分析ページにすべての情報が表示されないことがあります。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを表示</p> <p>また、特定のプロジェクトフィールドフィルターオプションを表示するには、タスク、Portfolio、ユーザーへの表示アクセス権も必要です。</p> <p>注意： <strong>追加の制限の設定</strong> 「アクセスレベルを編集」ダイアログのセクションには、フィルターを適用した後に、フィルターや拡張分析ページにすべての情報が表示されない場合があります。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>オブジェクトの権限 </p> </td> 
-   <td> <p>表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>表示</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 

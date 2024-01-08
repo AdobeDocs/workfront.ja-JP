@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス，モデル，ファネル，ダイアグラム，レベル，権限
 navigation-topic: access-levels
-title: Adobe Workfrontの組み込みアクセスレベル
+title: 組み込みのアクセスレベル
 description: 6 つの現在の組み込みアクセスレベルは、システム管理者、プランナー、ワーカー、レビュー担当者、要求者、外部ユーザーなど、特定の種類のユーザーに対して設計されています。 これらのアクセスレベルを使用すると、ユーザーがシステムで編集および表示できる内容を制御できます。 カスタムのアクセスレベルが必要な場合は、組み込みのアクセスレベルをコピーし、様々なWorkfrontオブジェクトタイプに対して許可するアクセスの量に応じて変更できます。
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 6%
+source-wordcount: '1685'
+ht-degree: 5%
 
 ---
 
-# Adobe Workfrontの組み込みアクセスレベル
+# 組み込みのアクセスレベル
 
 <!--Audited: 01/2024-->
 
@@ -60,8 +60,7 @@ ht-degree: 6%
 >
 >システム管理者または外部ユーザーのアクセスレベルは変更できません。
 
-
-カスタムアクセスレベルの作成または組み込みアクセスレベルの 1 つの変更の詳細については、 [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+カスタムアクセスレベルの作成または組み込みアクセスレベルの 1 つの変更の詳細については、 [カスタムアクセスレベルの作成と変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -87,7 +86,7 @@ ht-degree: 6%
 * タスク、プロジェクト、ポートフォリオ、プログラムの計画、作成、管理を担当するすべてのユーザー
 * 他のユーザーに作業（タスクと問題）を割り当てる責任を負うすべてのユーザー
 * レポートを作成し、タイムシート、作業項目、およびドキュメントを承認するユーザー
-* メインメニューのすべての領域にアクセスする必要があるユーザー ![](assets/main-menu-icon.png)
+* メインメニューのすべての領域にアクセスする必要があるユーザー ![](assets/main-menu-icon.png) またはメインメニュー ![](assets/lines-main-menu.png)（使用可能な場合）
 
 Planner の組み込みアクセスレベルのカスタムバージョンを作成し、様々なWorkfrontオブジェクトタイプに対して許可するアクセスの量を決定できます。 詳しくは、 [カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -321,8 +320,8 @@ Workfrontユーザーは、外部ユーザーがシステムにログインで�
 外部ユーザーのアクセスレベルを持つユーザー：
 
 * 共有されているドキュメントとカレンダーレポートのみを表示できます
-* ドキュメントおよびカレンダーレポートを共有しているユーザーを表示する
-* 共有されているドキュメントを承認します
+* ドキュメントおよびカレンダーレポートを共有しているユーザーを表示できます
+* 共有されているドキュメントを承認できます
 
 このアクセスレベルは変更できません。
 

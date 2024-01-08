@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe Workfront管理者は、次の 2 つの目的でユーザーにアクセ�
   </tr> 
   <tr> 
    <td><strong>組み込みのアクセスレベル</strong></td> 
-   <td> <p>上の図に示す 6 つの組み込みアクセスレベルの詳細については、「 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Adobe Workfrontの組み込みアクセスレベル</a>.</p> </td> 
+   <td> <p>上の図に示す 6 つの組み込みアクセスレベルの詳細については、「 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">組み込みのアクセスレベル</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>アクセスレベルの割り当て</strong></td> 
