@@ -7,9 +7,9 @@ description: レイアウトテンプレートを使用して、新しいホー�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 1%
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>レイアウトテンプレートを使用して特定のウィジェットにデフォルトのフィルターまたはグループを設定した場合、既存のユーザー設定が原因で、すぐに有効にならない場合があります。 新しいフィルターまたはグループ化を直ちに適用するには、ユーザーまたはユーザーが、URL の末尾に「/resetUser」を付けて、ユーザーの環境設定をリセットする必要がある場合があります。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 
