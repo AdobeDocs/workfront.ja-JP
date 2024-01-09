@@ -8,7 +8,7 @@ description: 配達確認のコンテンツが読み込まれず、空の校正�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
+source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 0%
