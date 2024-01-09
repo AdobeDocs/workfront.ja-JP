@@ -9,9 +9,9 @@ description: 内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '3099'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,58 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
 ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
 
 詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## 接続 [!DNL Workfront Proof] から [!DNL Workfront Fusion]
+
+次に対する接続を作成できます： [!DNL Workfront Proof] 内部から直接アカウントを取得する [!DNL Workfront Fusion] モジュール。
+
+1. 任意の [!DNL Workfront Fusion] モジュール、クリック [!UICONTROL **追加**] の横 [!UICONTROL 接続] フィールド
+
+2. 次のフィールドに入力します。
+
+   <table style="table-layout:auto"> 
+        <col/>
+        <col/>
+        <tbody>
+            <tr>
+                <td role="rowheader">
+                    <p role="rowheader">[!UICONTROL 接続名 ]</p>
+                </td>
+                <td>接続の名前を入力</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL connections.environmentType]</td>
+                <td>この環境を実稼動環境にするか、プレビューやサンドボックスなどの実稼動以外の環境にするかを選択します。</td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL connections.authenticationType]</td>
+                <td>これがサービスアカウントか個人アカウントかを選択します。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL 電子メール/ユーザー名 ]</td>
+                <td>ユーザー名を入力 [!DNL Workfront Proof] アカウント。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL パスワード ]</td>
+                <td>のパスワードを入力します。 [!DNL Workfront Proof] アカウント。</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL テナント名 ]</td>
+                <td><strong>注意</strong>:BYOK を使用しないお客様は、このフィールドを空白のままにする必要があります。 <p>このアカウントのテナント ID を入力します。 テナント ID の検索について不明な点がある場合は、Workfrontカスタマーサポートにお問い合わせください。</p></td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL Domain Extension]</td>
+                <td>アカウントへのアクセスに使用する URL の拡張を入力します。 <p>例： <code>com</code> または <code>eu</code></p></td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL 実稼動、プレビューまたはカスタム環境 ]</td>
+                <td>実稼動、プレビュー、またはカスタム環境への接続を選択します。</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+3. クリック [!UICONTROL **続行**] 接続を保存してモジュールに戻るには
 
 ## [!DNL Workfront Proof] モジュールとそのフィールド
 
