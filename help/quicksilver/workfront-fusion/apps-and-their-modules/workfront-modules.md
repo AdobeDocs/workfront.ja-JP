@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion Adobe Workfrontコネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5468'
-ht-degree: 3%
+source-wordcount: '5799'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ The [!DNL Workfront] コネクタは、組織で使用可能なアクティブ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -73,7 +73,7 @@ The [!DNL Workfront] コネクタは、OAuth 2.0 を使用して [!DNL Workfront
 次に対する接続を作成できます： [!DNL Workfront] 内部から直接アカウントを取得する [!DNL Workfront Fusion] モジュール。
 
 1. 任意の [!DNL Workfront] アプリモジュール、クリック **[!UICONTROL 追加]** の横 [!UICONTROL 接続] ボックス。
-1. インスタンスの名前を URL に入力します。 例: `https://<your instance>.my.workfront.com`.
+1. インスタンスの名前を URL に入力します。 例： `https://<your instance>.my.workfront.com`.
 1. クリック **[!UICONTROL 次へ]**.
 1. クリック **[!UICONTROL SAML ログイン]** 接続を作成し、モジュールに戻ります。
 
@@ -160,7 +160,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
 
 詳しくは、 [イベントペイロードの例](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) （内） [!DNL Workfront] ヘルプ記事 [イベント購読 API](../../wf-api/general/event-subs-api.md).
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -450,7 +450,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>注意：  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -458,7 +458,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -507,7 +507,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
 
 +++
 
-+++ **[!UICONTROL ドキュメントのダウンロード]**
++++ **[!UICONTROL ドキュメントをダウンロード]**
 
 このアクションモジュールは、Workfrontからドキュメントをダウンロードします。
 
@@ -532,7 +532,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL アクション ]</td> 
-   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL レコードタイプ ] および [!UICONTROL アクション ] に応じて、追加のフィールドの入力が必要になる場合があります。 この 2 つの設定の組み合わせによっては、レコード ID しか必要ない場合もあれば、レコード ID しか必要ない場合もあります ( 例えば、 <strong>[!UICONTROL レコードタイプ ]</strong> および [!UICONTROL テンプレートを添付 ] <strong>[!UICONTROL アクション ]</strong>) には、追加の情報（オブジェクト ID やテンプレート ID など）が必要です。</p> <p>個々のフィールドについて詳しくは、 <a href="http://developer.workfront.com/">Workfront開発者ドキュメント</a>. </p> 
+   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL レコードタイプ ] および [!UICONTROL アクション ] に応じて、追加のフィールドの入力が必要になる場合があります。 この 2 つの設定の組み合わせによっては、レコード ID しか必要ない場合もあれば、レコード ID しか必要ない場合もあります ( 例えば、 <strong>[!UICONTROL レコードタイプ ]</strong> および [!UICONTROL テンプレートを添付 ] <strong>[!UICONTROL アクション ]</strong>) には、追加の情報（オブジェクト ID やテンプレート ID など）が必要です。</p> <p>個々のフィールドについて詳しくは、 <a href="http://developer.workfront.com/">Workfront開発者ドキュメント</a>. <p><strong>注意</strong>：開発者ドキュメントサイトには、API バージョン 14 を通じた情報のみが含まれていますが、API 呼び出しに関する有用な情報がまだ含まれています。 </p> 
     <ol> 
      <li value="1"> <p>左側のナビゲーションからレコードタイプを選択します。 [!DNL Workfront] 開発者向けドキュメントページです。 次のタイプには、独自のページがあります。</p> 
       <ul> 
@@ -568,7 +568,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
       </ul> <p>その他のすべてのレコードタイプに対して、 <b>[!UICONTROL その他のオブジェクトおよびエンドポイント ]</b>をクリックし、アルファベット順に並べ替えられたページでレコードタイプを探します。</p> </li> 
      <li value="2"> <p>適切なレコードタイプのページで、アクションを検索（Ctrl + F または Command + F キー）します。</p> </li> 
      <li value="3"> <p>選択したアクションの下にある使用可能フィールドの説明を表示します。</p> </li> 
-    </ol> <p>メモ:  <p>次の手順で配達確認を作成する場合： [!DNL Workfront] [!UICONTROL その他のアクション ] モジュールでは、高度なオプションを使用せずに配達確認を作成し、 [!DNL Workfront Proof] SOAP API</p> <p>を使用した配達確認の作成について詳しくは、 [!DNL Workfront] API（このモジュールで使用）（を参照） <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">で配達確認を作成する際に、高度な校正オプションを追加する [!DNL Adobe Workfront] API</a></p> </p> </td> 
+    </ol> <p>注意：  <p>次の手順で配達確認を作成する場合： [!DNL Workfront] [!UICONTROL その他のアクション ] モジュールでは、高度なオプションを使用せずに配達確認を作成し、 [!DNL Workfront Proof] SOAP API</p> <p>を使用した配達確認の作成について詳しくは、 [!DNL Workfront] API（このモジュールで使用）（を参照） <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">で配達確認を作成する際に、高度な校正オプションを追加する [!DNL Adobe Workfront] API</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
@@ -577,7 +577,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] object types available for each [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -857,7 +857,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
    <td> </td> 
   </tr> 
   <tr> 
-   <td>請求率</td> 
+   <td>請求レート</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -1142,7 +1142,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
    <td> </td> 
   </tr> 
   <tr> 
-   <td>請求率</td> 
+   <td>請求レート</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1506,7 +1506,7 @@ Webhook を作成したら、イベントの送信先のエンドポイントの
    <td> </td> 
   </tr> 
   <tr> 
-   <td>請求率</td> 
+   <td>請求レート</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -1697,7 +1697,7 @@ Workfront/イベントを監視フィルターでは、次の演算子を使用�
 * より小さい
 * 次よりも大きいか等しい
 * 次よりも小さいか等しい
-* 次を含む
+* が次を含む
 * 存在
    * この演算子には値は必要ありません。また、値フィールドは存在しません。
 * 存在しない
