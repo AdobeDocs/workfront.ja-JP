@@ -7,18 +7,20 @@ description: タスクを作成または編集する際に、タスクの追跡�
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
 # タスクトラッキングモードの概要
 
+<!-- Audited: 01/2024 -->
+
 タスクを作成または編集する際に、タスクの追跡モード設定を調整して、タスクの進捗状況ステータスインジケーターの表示方法と表示タイミングを制御できます。 Adobe Workfrontでは、タスクの進捗状況を追跡するための特定の設定を行うと、進捗状況ステータスフラグが表示されます。
 
-タスクの進捗状況ステータスの詳細については、 [タスクの進捗状況ステータスの概要](../../../manage-work/tasks/task-information/task-progress-status.md).
+タスクの進捗状況ステータスについて詳しくは、 [タスクの進捗状況ステータスの概要](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -34,16 +36,16 @@ ht-degree: 3%
 </div>
 -->
 
-## トラッキングモードオプション {#tracking-mode-options}
+## トラッキングモードのオプション {#tracking-mode-options}
 
 タスクの所有者またはプロジェクトマネージャーは、各タスクの進捗状況の状態をWorkfrontが示す方法を選択できます。 タスクにトラッキングモードを設定する方法について詳しくは、 [タスクのトラッキングモードの設定](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
 次のオプションから選択できます。
 
-* [ユーザーが更新する必要あり](#user-must-update)
-* [予定通りを想定](#assume-on-time)
+* [ユーザーは更新する必要があります](#user-must-update)
+* [予定通り](#assume-on-time)
 * [遅延警告を無視](#ignore-late-warnings)
-* [自動完了](#auto-complete)
+* [オートコンプリート](#auto-complete)
 * [先行タスク](#predecessor)
 
 ### ユーザーが更新する必要あり {#user-must-update}
@@ -52,7 +54,7 @@ ht-degree: 3%
 
 ### 予定通りを想定 {#assume-on-time}
 
-Workfrontは、現在の完了ステータスに関係なく、タスクが時間通りに完了すると想定します。 完了しない場合、Workfrontは自動的に次の稼働日の計画完了日を想定します。 タスクが完了するタイミングを指定する必要があります。 ユーザーが定期的にタスクを更新しない場合に、このオプションを使用します。
+Workfrontは、現在の完了ステータスに関係なく、タスクが時間通りに完了すると想定します。 タスクが（計画完了日に）予定どおりに完了しない場合、Workfrontは次の稼働日の計画完了日を自動的に仮定します。 タスクが完了するタイミングを指定する必要があります。 ユーザーが定期的にタスクを更新しない場合に、このオプションを使用します。
 
 ### 遅延警告を無視 {#ignore-late-warnings}
 
@@ -71,8 +73,8 @@ Workfrontは、タスクが予定どおりに完了し、期限または計画�
 >
 >タスクを自動完了するように選択すると、プロジェクト時間が再計算されたときにタスクが [ 完了 ] と表示されます。 プロジェクトの [ 更新の種類 ] が [ 自動 ] または [ 自動 ] に設定され、[ 変更時 ] に設定されている場合、プロジェクトのタイムラインは毎日計算されます。 プロジェクトでのタイムライン再計算の詳細については、 [プロジェクトタイムラインを再計算](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->実際の完了日の時刻は、タイムラインが自動的に計算される日の午前 0 時です。 このタイムスタンプの生成に使用される時間は、Workfront管理者がセットアップの「顧客情報」セクションで定義した、システムのタイムゾーンです。 システムのタイムゾーンの設定については、 [システムの基本情報を設定する](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>実際の完了日の時刻は、タイムラインが自動的に計算される日の午前 0 時です。 このタイムスタンプの生成に使用される時間は、Workfront管理者がセットアップの「顧客情報」セクションで定義したシステムのタイムゾーンです。 システムのタイムゾーンの設定については、 [システムの基本情報を設定する](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### 先行タスク {#predecessor}
 
-Workfrontは、先行タスクの関係に基づいて、タスクの完了予定日を予測します。 タスクの進捗状況ステータスは、この見積もりに基づいて決定されます。 たとえば、タスク B の期間は 1 日で、先行タスク A の 2 日後に完了するようにスケジュールされています。この処理には 5 日かかります。 次に、ユーザーがタスク B を 50%完了に更新しますが、先行タスク A はまだ開始されていません。 Workfrontは、先行タスクの開始日から 6 日後にタスク B を完了に設定し、タスク A に 5 日、タスク B に 1 日を設定します。
+Workfrontは、先行タスクの関係に基づいて、タスクの完了予定日を見積もります。 タスクの進捗状況ステータスは、この見積もりに基づいて決定されます。 たとえば、タスク B の期間は 1 日で、先行タスク A の 2 日後に完了するようにスケジュールされています。この処理には 5 日かかります。 次に、ユーザーがタスク B を 50%完了に更新しますが、先行タスク A はまだ開始されていません。 Workfrontは、先行タスクの開始日から 6 日後にタスク B を完了にスケジュールし、タスク A に 5 日、タスク B に 1 日を割り当てます。

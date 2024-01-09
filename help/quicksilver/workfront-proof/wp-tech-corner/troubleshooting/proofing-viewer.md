@@ -4,18 +4,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: トラブルシューティング — [!DNL Workfront Proof] 校閲者
-description: 配達確認のコンテンツが読み込まれず、空の校正ビューアのみが表示される場合は、何かがこのアクションをローカルでブロックしている可能性が高くなります。 以下の考えられる解決策を試してみてください。
+description: 配達確認のコンテンツが読み込まれず、空の校正ビューアのみが表示される場合は、何かがこのアクションをローカルでブロックしている可能性が高くなります。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
 
 # トラブルシューティング — [!DNL Workfront Proof] 校閲者
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 
 配達確認のコンテンツが読み込まれず、空の校正ビューアのみが表示される場合は、何かがこのアクションをローカルでブロックしている可能性が高くなります。 以下の考えられる解決策を試してみてください。
 
-## ブラウザーと [!DNL Flash Player] バージョンは最新です
+## ブラウザーを確認します。 <!--and [!DNL Flash Player]--> バージョンは最新です
 
 すべての開発者は、常にアプリケーションに取り組み、製品の新機能や修正を定期的にリリースしています。 これは、ユーザーエクスペリエンスを向上させ、セキュリティレベルを維持するために、最新バージョンのみを使用することをお勧めします。 これは、アプリケーション間の競合を回避するのにも役立ちます。
 
@@ -41,32 +43,34 @@ Please note: we do recommend using the original [!DNL Adobe] plugin, so if your 
 
 ### ブラウザーのバージョン
 
-最近では、ほとんどのブラウザは自動的に更新されますが、問題が発生した場合は、必要に応じて、どのバージョンを使用し、更新を実行するかを確認する価値があります。
+通常、ほとんどのブラウザーは自動的に更新されますが、問題が発生した場合は、どのバージョンを使用しているかを確認し、必要に応じて更新を実行してください。
 
-ブラウザーで、に移動します。 [!UICONTROL メニュー] をクリックし、 [!UICONTROL について] オプション ( 場合によっては、 [!UICONTROL ヘルプ] メニュー ) を参照してください。 Adobe Analytics の [!UICONTROL について] ポップアップには、現在のブラウザのバージョンに関する情報と、更新を更新/確認するオプションが表示されます。
+ブラウザーで、に移動します。 [!UICONTROL メニュー] をクリックし、 [!UICONTROL について] オプション ( 場合によっては、 [!UICONTROL ヘルプ] メニュー ) を参照してください。 Adobe Analytics の [!UICONTROL について] ポップアップには、現在のブラウザのバージョンに関する情報と、更新を更新または確認するオプションが表示されます。
 
-Chrome のを参照してください。
+例えば、Chrome の場合は次のようになります。
 
-![ProofView_3.png](assets/proofview-3-350x206.png)
+![Chrome ブラウザーのバージョン](assets/proofview-3.png)
 
-最新の [!DNL Flash Player] プラグインとブラウザーのバージョンがインストールされている場合は、配達確認を再度開いて問題が解決したかどうかを確認します。
+最新のブラウザーバージョンをインストールしたら、配達確認を再度開いて問題が解決したかどうかを確認します。
 
-## ローカル環境を確保 [!DNL Flash] ストレージを利用可能
+<!--
+## Ensure Your Local [!DNL Flash] Storage is Available
 
-アドビの [!DNL Workfront Proof] 閲覧者はFlashに基づいており、配達確認に関するデータ（コメント、配達確認タイルなど）が格納されます。 [!DNL Workfront Proof] ビューアの設定 ) を使用して、コンピューター上で [!DNL Flash Player]. 次の場合、 [!DNL Workfront Proof] ビューアが開きますが、内部にコンテンツがありません。Flashストレージがコンピューター上で使用可能であり、 [!DNL Workfront Proof] を使用することが許可されています。
+Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data about the proofs (i.e., comments, proof tiles, [!DNL Workfront Proof] Viewer settings) on your computer using [!DNL Flash Player]. If the [!DNL Workfront Proof] Viewer opens, but there is no content inside you will want to make sure that the Flash Storage is available on your machine and that [!DNL Workfront Proof] is allowed to use it.
 
-ストレージが割り当てられているが、複数のページとコメントでより大きな配達確認を使用している場合は、 [!DNL Flash] 配達確認を保存して再読み込みします。
+If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
 
-以下をご覧ください。 [配達確認の表示に関する問題 — [!DNL Flash] 共有オブジェクトの説明](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) 」を参照してください。
+Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
+-->
 
 ## 問題の発生場所の特定
 
 * 配達確認を別のブラウザーで開くか。
-* 1 台のブラウザーを毎日使用していて、配達確認の表示に問題がある場合は、コンピューター上の別のブラウザーで同じ配達確認を開こうとします。 これをおこなうには、メインブラウザーの URL バーから配達確認リンクをコピーし、別のブラウザーに貼り付けます。 配達確認が正常に開いた場合は、メインのブラウザー設定、プラグインおよび拡張機能を確認します。これらは干渉している可能性があります。
-* 適切なブラウザーはありませんが、現在のブラウザーでパフォーマンスの問題が発生している場合は、別のブラウザーに切り替えることをお勧めします。
+* 1 台のブラウザーを毎日使用していて、そこで配達確認を表示できない場合は、コンピューター上の別のブラウザーで同じ配達確認を開いてみてください。 これをおこなうには、メインブラウザーの URL バーから配達確認リンクをコピーし、別のブラウザーに貼り付けます。 配達確認が開いた場合は、メインのブラウザー設定、プラグインおよび拡張機能を確認します。これらは干渉している可能性があります。
+* 優先ブラウザーはありませんが、現在のブラウザーでパフォーマンスの問題が発生している場合は、別のブラウザーに切り替えることをお勧めします。
 * 配達確認が別のマシンで場所に表示されているか
-お使いのコンピューター上のどのブラウザーでも配達確認が開かれない場合は、自分の場所の別のコンピューターや、自分の場所の外部で配達確認を開いてみてください。 これにより、問題が特定のコンピューターに起因しているか、またはローカルネットワーク内に存在するかを判断できます。
-セキュリティレベルがより高い場合は、 [!DNL Workfront Proof] 次のユーザーによってブロックされている可能性があります：
+お使いのコンピューター上のブラウザーで配達確認が開かれない場合は、別のコンピューターで、自分の場所の場所や場所の外で開いてみてください。 これにより、特定のコンピューターで問題が発生したか、問題がローカルネットワーク内にあるかを判断できます。
+セキュリティレベルが高い場合は、 [!DNL Workfront Proof] 次のユーザーによってブロックされている可能性があります：
 
    * ローカルの AV ソフトウェア
    * ネットワークセキュリティソリューション
@@ -74,9 +78,9 @@ Chrome のを参照してください。
    * これらの設定は制御できません。 様々なセキュリティソリューションを利用できます。どのセキュリティソリューションがネットワークに実装されているのか、どのセキュリティソリューションが接続をブロックしているのかは判別できません。 [!DNL Workfront Proof]. また、次の項目にも依存しません。 [!DNL Workfront Proof] 内部セキュリティ設定を決定する場合。 場所やネットワークの複数のマシンで配達確認を開く際に問題が発生した場合は、IT チームに連絡して、ネットワーク設定を確認し、承認または [!DNL Workfront Proof] 必要に応じ許可リストに加えるて、に追加します。
 
 * 接続先： [!DNL Workfront Proof] ネットワークで許可されているか？
-配達確認ビューア内に、ページのタイル（ページのフラグメント）が読み込まれます。 このコンテンツがお客様のエンドで正常に読み込まれない場合は、 [!DNL Workfront Proof] はネットワーク内でブロックされています。 *.proofhq.comのすべての接続とすべてのコンテンツが確実にに追加されるようにする必要があり許可リストに加えるます。 IT チームがこの検証に役立てる必要があります。
+配達確認ビューア内に、ページのタイル（ページのフラグメント）が読み込まれます。 このコンテンツがお客様の側で適切に読み込まれない場合は、 [!DNL Workfront Proof] はネットワーク内でブロックされています。 *.proofhq.comのすべての接続とすべてのコンテンツが確実にに追加されるようにする必要があり許可リストに加えるます。 IT チームがこの検証に役立てる必要があります。
 
-## プラグインを確認
+## プラグインの確認
 
 ブラウザーが [!DNL Flash Player] プラグインが最新です。ネットワークがへの接続をブロックしていません。 [!DNL Workfront Proof] ブラウザーに、配達確認の表示に影響を与えている可能性があります。 最近では、ブラウザーに複数のプラグインや拡張機能が用意されており、一部のプラグインや拡張機能が他のプラグインに干渉したり、他のプラグインと競合したりしています。
 
@@ -84,7 +88,7 @@ Chrome のを参照してください。
 
 配達確認の読み込みに干渉する特定のアドオンがある場合は、ブラウザーのコンソールで詳細を確認してみてください。
 
-![ProofView_4.png](assets/proofview-4-350x57.png)
+![ブラウザーコンソール](assets/proofview-4.png)
 
 ほとんどの新しいブラウザーには、追加の開発者ツールがいくつか用意されており、より高度なトラブルシューティングに使用できます。
 
@@ -95,8 +99,7 @@ Chrome のを参照してください。
 * IT チームに結果を分析してもらう。 ローカルの問題の解決に関するアドバイスと支援を提供できるはずです。
 * 結果をサポートチームに共有します。 喜んでお手伝いします。
 
-
-## 混在コンテンツ設定の確認
+## 混合コンテンツ設定を確認する
 
 へのすべての接続 [!DNL Workfront Proof] は HTTPS 経由です。 ただし、 [!DNL Workfront Proof] ビューアは HTTP 経由でタイルを読み込み、データはトークンで保護されます。 これにより、一部のブラウザーやセキュリティソリューションが（デフォルトで、または手動設定により）ブロックしている可能性のある混合コンテンツが作成されます。
 
