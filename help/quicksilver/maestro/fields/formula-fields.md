@@ -4,9 +4,9 @@ description: Adobeマエストロでは、関数と既存のフィールドを�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * 数式フィールドは、同じレコードタイプに属するフィールドを参照します。 数式フィールドを作成する際に、他のレコードタイプのフィールドを参照することはできません。 <!--is this still accurate??-->
 * 数式フィールドを保存した後で、そのフィールドの種類を変更することはできません。
 * 数式フィールドを保存した後で、その計算を更新し、同じタイプのすべてのレコードに対して、計算結果を自動的に更新できます。
-* リンクされたレコードタイプのルックアップフィールドは使用できません。
 * Maestro インタフェースに表示される数式で参照するフィールドを追加する必要があります。
+* 式内で、リンクされたレコードタイプから参照フィールドを使用することは、後日利用できます。
 
 ## サポートされる数式
 

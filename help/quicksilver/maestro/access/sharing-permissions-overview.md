@@ -1,14 +1,14 @@
 ---
 title: AdobeMaestro での共有権限の概要
-description: 自分が作成したAdobeMaestro ワークスペースに対する権限を共有または削除できます。
+description: AdobeMaestro のワークスペースまたはビューに対する権限を共有または削除できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 4%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 4%
 >
 >詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
-自分が作成したAdobeMaestro ワークスペースに対する権限を共有または削除できます。
+AdobeMaestro のワークスペースまたはビューに対する権限を共有または削除できます。
+
+この記事では、Maestro オブジェクトの権限レベルについて説明します。
+
+ワークスペースまたはビューの共有方法については、次の記事を参照してください。
+
+* [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [ビューの共有](/help/quicksilver/maestro/access/share-views.md)
 
 ## AdobeMaestro で共有できるオブジェクト
 
@@ -48,6 +56,8 @@ Maestro では、以下のオブジェクトを共有できます。
 
    * 新しい価格モデル：標準ライセンス
    * 現在の価格モデル：勤務先またはそれ以上のライセンス
+
+  詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * システム管理者は、他のユーザーが作成したワークスペースを管理および共有できます。
 * システム管理者でない場合は、他のユーザーが作成したワークスペース（共有している場合）に投稿できます。
 * ワークスペースを一括で共有することはできません。
@@ -58,30 +68,89 @@ Maestro では、以下のオブジェクトを共有できます。
 
 ## Maestro オブジェクトに対する権限の共有
 
-次の表に、Maestro ワークスペースまたはビューを共有する際に選択できる権限のレベルを示します。
+次のセクションの表に、Maestro ワークスペースまたは表示を共有する際に選択できる権限のレベルと、各レベルで許可される機能を示します。
 
+### Workspace 権限
+
+|        | 管理 | 貢献 | 表示 |
+|--------|--------|------------|-------|
+| 編集 | ✓ |            |       |
+| 共有 | ✓ |            |       |
+| 削除 | ✓ |            |       |
+| 表示 | ✓ | ✓ | ✓ |
+
+### レコードタイプの権限
+
+レコードタイプの権限は、ワークスペースに権限を付与すると継承されます。
+
+|        | 管理 | 貢献 | 表示 |
+|--------|--------|------------|-------|
+| 以下を作成  | ✓ |            |       |
+| 削除 | ✓ |            |       |
+| 編集 | ✓ |            |       |
+| 表示 | ✓ | ✓ | ✓ |
+
+### レコード権限
+
+レコード権限は、ワークスペースに権限を付与すると継承されます。
+
+|        | 管理 | 貢献 | 表示 |
+|--------|--------|------------|-------|
+| 以下を作成  | ✓ |            |       |
+| 削除 | ✓ | ✓ |       |
+| 編集 | ✓ | ✓ |       |
+| 表示 | ✓ | ✓ | ✓ |
+
+### フィールド権限
+
+ワークスペースに権限を付与すると、フィールド権限が継承されます。
+次の権限は、各フィールドに関連付けられた値ではなく、フィールド自体を参照します。 フィールド値を編集するには、レコードを編集する権限が必要です。
+
+|        | 管理 | 貢献 | 表示 |
+|--------|--------|------------|-------|
+| 以下を作成  | ✓ |            |       |
+| 削除 | ✓ |            |       |
+| 編集 | ✓ |            |       |
+| 表示 | ✓ | ✓ | ✓ |
+
+
+### 権限を表示
+
+ビューを記録するには、別の権限を付与する必要があります。 ワークスペースに権限を付与しても、ワークスペースのレコードビューに対する権限は付与されません。
+
+|        | 管理 | 表示 |
+|--------|--------|-------|
+| 編集 | ✓ |       |
+| 削除 | ✓ |       |
+| 表示 | ✓ | ✓ |
+| 適用 | ✓ | ✓ |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
+   </td>
   </tr>
   <tr>
    <td>
    </td>
    <td>
    </td>
-   <td><p><b>新規：標準ライセンス</b></p> <p><b>現在：作業者以上のライセンス</b></p></strong>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
    </td>
-   <td><strong>権限の管理</strong>
+   <td><strong>Manage permissions</strong>
    </td>
-   <td><strong>Contribute の権限</strong>
+   <td><strong>Contribute permissions</strong>
    </td>
-   <td><strong>権限を表示</strong>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>作成</strong>
+   <td><strong>Create</strong>
    </td>
    <td rowspan="5" ><strong>Workspace</strong>
    </td>
@@ -95,7 +164,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>削除</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -107,7 +176,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>共有</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -119,7 +188,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>編集</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -131,7 +200,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>ビュー</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -143,21 +212,9 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>作成/削除</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>レコードタイプ*</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>編集</strong>
+   <td rowspan="3" ><strong>Record Type*</strong>
    </td>
    <td>✓
    </td>
@@ -169,7 +226,19 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>ビュー</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -181,9 +250,9 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>作成/削除</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>レコード*</strong>
+   <td rowspan="3" ><strong>Record*</strong>
    </td>
    <td>✓
    </td>
@@ -195,7 +264,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>編集</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -207,7 +276,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>ビュー</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -220,21 +289,9 @@ Maestro では、以下のオブジェクトを共有できます。
   </tr>
   <tr>
    <tr>
-   <td><strong>作成</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>ビュー</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>削除</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -246,7 +303,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>共有</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -258,7 +315,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>編集</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -270,7 +327,19 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>ビュー</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -283,9 +352,9 @@ Maestro では、以下のオブジェクトを共有できます。
   </tr>
 
 <tr>
-   <td><strong>作成/削除</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>フィールド*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
    <td>✓
    </td>
@@ -297,7 +366,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>編集</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -309,7 +378,7 @@ Maestro では、以下のオブジェクトを共有できます。
    </td>
   </tr>
   <tr>
-   <td><strong>ビュー</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -325,11 +394,7 @@ Maestro では、以下のオブジェクトを共有できます。
 
 </table>
 
-*レコードのタイプ、レコード、フィールドは、ワークスペースから権限を継承します。
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Maestro でのアクセスに関する一般的な情報については、 [AdobeMaestro での共有権限の概要](../access/sharing-permissions-overview.md).
 
-ワークスペースの共有について詳しくは、 [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md).
-
-ビューの共有について詳しくは、 [ビューの共有](/help/quicksilver/maestro/access/share-views.md)
 
