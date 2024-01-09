@@ -3,9 +3,9 @@ title: 2024 年第 1 四半期のプロジェクトの機能強化
 description: 2024 年第 1 四半期プロジェクトの機能強化
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AI 駆動型スマート割り当て
 
-Workfrontがタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、Workfrontのどこでタスクを割り当てるか（タスクリスト、タスクヘッダーの「割り当て」領域、ホームおよび概要パネル）に適用されます。
+Workfrontがタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てるWorkfrontの次の領域に適用されます。タスクリスト、タスクヘッダーの割り当て領域、ホームおよび概要パネル。
 
 スマート割り当てが提案されると、アルゴリズムは次の情報を調べます。
 

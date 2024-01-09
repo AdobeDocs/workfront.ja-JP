@@ -4,9 +4,9 @@ description: Adobeマエストロでは、関数と既存のフィールドを�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## サポートされる数式
 
-Workfrontの計算フィールドからのすべての数式を使用できます。 詳しくは、 [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+マエストロ式フィールドは、Workfrontの計算フィールドのすべての式をサポートします。 詳しくは、 [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 また、Maestro 数式フィールドでは、次の式を使用できます。
 
@@ -179,7 +179,7 @@ Workfrontの計算フィールドからのすべての数式を使用できま�
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>区切り文字で連結された文字列を返します。</p> <p>式の形式は次のとおりです。
 
-    ARRAYJOIN(delimiter,array)
+<code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ Workfrontの計算フィールドからのすべての数式を使用できま�
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>一意の値を持つ配列を返します。</p> <p>式の形式は次のとおりです。
 
-    ARRAYUNIQUE（配列）
+<code>ARRAYUNIQUE（配列）</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>レコードの ID を返します。</p> <p>式の形式は次のとおりです。
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ Workfrontの計算フィールドからのすべての数式を使用できま�
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>日付と時刻のタイムゾーンを特定のタイムゾーンに設定します。</p> <p>式の形式は次のとおりです。
 
-    SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)
+<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ Workfrontの計算フィールドからのすべての数式を使用できま�
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>1 年の週の数を返します。必要に応じて、週の開始日を指定できます（日曜日は 1、月曜日は 2）。 省略した場合、週はデフォルトで日曜日に開始します。</p> <p>式の形式は次のとおりです。
 
-    WEEKOFYEAR(date,2)
-    または
-    WEEKOFYEAR(date)
+<code>WEEKOFYEAR(date,2)</code>
+または
+<code>WEEKOFYEAR(date)</code>
 </p>
    </td></tr>
 

@@ -6,14 +6,16 @@ description: 次にアクセスできます： [!DNL Adobe Workfront] から [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
 # アクセス [!DNL Adobe Workfront] から [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
+   <td> <p>新規： [!UICONTROL Standard]</p>
+   <p>現在： [!UICONTROL 作業 ]、[!UICONTROL プラン ]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+*お持ちのプラン、ライセンスの種類、アクセス権を調べるには、 [!DNL Workfront] 管理者。
+
+*Workfrontのアクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件の概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
@@ -63,6 +68,8 @@ ht-degree: 1%
 * ログインしています [!DNL Workfront] から [!DNL Microsoft Teams].
 
 ## アクセス [!DNL Workfront] から [!DNL Workfront] ボットチャットチャネル
+
+Workfrontにログインする必要があります。
 
 1. を開きます。 **[!DNL Workfront]** ボットチャットチャネル。
 1. 次をクリック： **[!DNL Workfront]** アイコンをクリックして、検索ボックスを表示します。
@@ -89,6 +96,8 @@ ht-degree: 1%
 
 ## アクセス [!DNL Workfront] チームチャネルから
 
+Workfrontにログインする必要があります。
+
 1. チームチャネルを開き、次のように入力します。 **@[!DNL Workfront]**&#x200B;を選択し、「 **[!DNL Workfront].**
 
 1. クリック **[!UICONTROL 検索]** をクリックして、プロジェクト、タスク、またはイシューを検索します。
@@ -102,7 +111,7 @@ ht-degree: 1%
    * **[!DNL Log out]** Workfrontからログアウトする
    * **[!DNL New task]** 新しい個人の仕事を作る
 
-     新しいタスクの作成元の情報 [!DNL Microsoft Teams]を参照してください。 [作成 [!DNL Adobe Workfront] タスクから [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     タスクの作成元の情報 [!DNL Microsoft Teams]を参照してください。 [作成 [!DNL Adobe Workfront] タスクから [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL ヘルプ]** をクリックして、使用可能なすべてのコマンドのリストを表示します。
 

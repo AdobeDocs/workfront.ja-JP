@@ -6,14 +6,16 @@ description: テキストモードでの条件付き書式の使用
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
 
 # テキストモードでの条件付き書式の使用
+
+<!--Audited: 01/2024-->
 
 <!--
 (NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
@@ -38,28 +40,32 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td> <p>新規：標準 </p> 
+   <p>現在：プラン</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのビューを編集します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのビューを編集します</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートの表示を編集するためのレポートに対する権限を管理します</p> <p>ビューに対する権限を管理して編集</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>レポートの表示を編集するためのレポートに対する権限を管理します</p> <p>ビューに対する権限を管理して編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
-## テキストモードの条件付き書式
+*アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## テキストモードでの条件付き書式
 
 テキストモードでは、標準インタフェースでは使用できないフィールドを使用できるようにすることで、より複雑なビュー、フィルタ、グループ化、プロンプトを作成できます。
 
 すべてのレポート可能なフィールドの完全なリストについては、  [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
-テキストモードの構文の使用について詳しくは、 [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+テキストモードの構文の使用について詳しくは、 [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 また、テキストモードを使用して、レポートやリストのビューの形式を設定することもできます。 条件付き書式を使用して、レポートの結果のフォントタイプと背景、アイコンおよびフラグを変更することで、レポートのビューを変更できます。 最初に標準インターフェイスを使用してビューを構築し、必要な場合にのみテキストモードインターフェイスに切り替えることをお勧めします。
 
@@ -78,9 +84,9 @@ ht-degree: 1%
 1. クリック **表示をカスタマイズ**.
 1. 条件付き書式を適用するビューの列をクリックします。
 1. クリック **テキストモードに切り替え**.
-1. 内 **この列に表示：** 領域、クリック **クリックしてテキストを編集**.
+1. Adobe Analytics の **この列に表示：** 領域、クリック **クリックしてテキストを編集**.
 1. で提供されるコードサンプルを追加します。 [テキストモードを使用してビューを書式設定](#format-views-using-text-mode) をクリックします。
-1. クリック **保存**&#x200B;を選択し、「 **ビューを保存**.
+1. クリック **保存**&#x200B;を選択し、次に **ビューを保存**.
 
 ## テキストモードを使用してビューを書式設定 {#format-views-using-text-mode}
 
@@ -97,20 +103,18 @@ ht-degree: 1%
 ビューで条件付き書式を使用する場合、列の次の要素をカスタマイズできます。
 
 * [列ヘッダー](#column-headers)
-* [日付のフォーマット](#format-dates)
+* [日付の書式設定](#format-dates)
 * [数値の書式設定](#format-numbers)
 
 #### 列ヘッダー {#column-headers}
 
 表示される列ヘッダーを変更するには、列に次のコードを追加します。 `displayname= [Name of column]`. 例えば、列に「プロジェクト所有者」という名前を付ける場合、テキストコードは次のようになります。
 
-```
-displayname=Project Owner
-```
+`displayname=Project Owner`
 
-#### 日付のフォーマット {#format-dates}
+#### 日付の書式設定 {#format-dates}
 
-日付は、様々な形式で表示されるように設定できます。
+日付は様々な形式で表示するように設定できます。
 
 詳しくは、 [テキストモードのレポートで日付を書式設定する](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
@@ -239,7 +243,7 @@ displayname=Project Owner
 
 列ルールを使用すると、ビュー内に画像、色、書式、テキストの上書きを追加できます。 列ルールは、個別に設定することも、1 つの列に複数の条件を含めることもできます。
 
-* [条件付き形式](#conditional-formatting)
+* [条件付き書式](#conditional-formatting)
 * [複数の条件付き書式](#multiple-conditional-formats)
 * [テキストを適用](#apply-text)
 * [行書式の適用](#apply-row-formats)
@@ -270,11 +274,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->この *styledef.case.0.comparison.icon* 行は、アイコンを操作しない限り常に false です。
+>The `styledef.case.0.comparison.icon` 行は、アイコンを操作しない限り常に false です。
 >
->この *styledef.case.0.comparison.truetext* 行は、上書きするテキストを処理するまで常に空白のままです。
+>The `styledef.case.0.comparison.truetext` 行は、上書きするテキストを処理するまで常に空白のままです。
 >
->この *styledef.case.0.comparison.righttext* 行は、修飾子が空白でない場合は空白です。
+>The `styledef.case.0.comparison.righttext` 行は、修飾子が空白でない場合は空白です。
 
 例えば、プロジェクトレポートに会社名を緑色のテキストで表示する場合、次のコードを使用できます。
 
@@ -292,7 +296,7 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* この文は会社名の列に適用できますが、レポート上の他の列にも適用できます。 緑のテキストは、プロジェクトに会社が関連付けられている場合にのみ表示されます。 を記憶する `[field name]`, `[value]`、および `[qualifier]` 条件付けが最終的に列に表示されるかどうかをドライブします。
+>* この文は会社名の列に適用できますが、レポート上の他の列にも適用できます。 緑のテキストは、プロジェクトに会社が関連付けられている場合にのみ表示されます。 次を記憶する： `[field name]`, `[value]`、および `[qualifier]` 条件付けが最終的に列に表示されるかどうかをドライブします。
 >* 修飾子を使用する場合、 `cicontains` ではなく `equal`. デフォルトでは、 `equal` は ID 番号を探します。 の使用 `cicontains` クオリファイア、名前でアイテムにアクセスできます。
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
@@ -308,9 +312,9 @@ styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
 ```
 
-次の表を使用して、変更する必要のある行と、列の形式スタイルを定義するために指定する値を特定します。
+次の表を使用して、修正する必要のある行と、列の形式スタイルを定義するために指定する必要のある値を特定します。
 
-| **テキストの色** | **行：textcolor=** |
+| **テキストの色** | **行： textcolor=** |
 |---|---|
 | 黒 | `000000` |
 | 濃い青 | `0c6aca` |
@@ -323,7 +327,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 {style="table-layout:auto"}
 
-| **整合性** | **行：align=** |
+| **整列** | **行： align=** |
 |---|---|
 | 左揃え | `left` |
 | 右揃え | `right` |
@@ -338,7 +342,7 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 {style="table-layout:auto"}
 
-| **背景色** | **行：bgcolor=** |
+| **背景色** | **行： bgcolor=** |
 |---|---|
 | ティール | `dcf6f7` |
 | 緑 | `def6e2` |
@@ -400,7 +404,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->次で始まる行： `case.0.` テキストの使用方法を識別する場合は、使用例を比較します。 次で始まる行： **styledef.case.0.** は、 `truetext` 式。 必ず `truetext` を値に設定します。値は空白のままにするのではありません。
+>次で始まる行： `case.0.` テキストの使用方法を識別する場合は、使用例を比較します。 次で始まる行： `styledef.case.0.` は、 `truetext` 式。 必ず `truetext` を値に設定します。値は空白のままにするのではありません。
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -410,87 +414,28 @@ styledef.case.0.comparison.truetext=not today
 
 行全体に条件を適用する場合は、次のコードを列コードと共に使用します。
 
+
 ```
 styledef.case.0.comparison.icon=false
-```
-
-```
 styledef.case.0.comparison.isrowcase=true
-```
-
-```
 styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 styledef.case.0.comparison.truetext=
-```
-
-```
 row.0.styledef.applyallcases=true
-```
-
-```
 row.0.styledef.case.0.comparison.icon=false
-```
-
-```
 row.0.styledef.case.0.comparison.isrowcase=true
-```
-
-```
 row.0.styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 row.0.styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 row.0.styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 row.0.styledef.case.0.comparison.truetext=
 ```
 
@@ -511,6 +456,7 @@ image.case.0.comparison.truetext=
 
 たとえば、プロジェクトレポートでは、今日の日付と等しくない計画完了日ごとに顔を表示する列を作成します。 次のテキストモードコードを使用して、列にアイコンを追加します。
 
+
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
 image.case.0.comparison.lefttext=plannedCompletionDate
@@ -523,7 +469,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->文は `icon=true` 式。 また、この文は、他の条件付き書式設定文とは異なり、 `style.def` 形式とは異なり、一意の画像形式を使用する必要があります。
+>文は、 `icon=true` 式。 また、この文は、他の条件付き書式設定文とは異なり、 `style.def` 形式とは異なり、一意の画像形式を使用する必要があります。
 
 ![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
 
@@ -531,13 +477,13 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 使用可能な画像を使用するには、次のコードと値を適用します。
 
-| **アイコン** | **行：image.case.0.comparison.truetext=** |
+| **アイコン** | **行： image.case.0.comparison.truetext=** |
 |---|---|
 | しかめ面 ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
 | 幸せそうな顔 ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
 | 青いフラグ  ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
 | 緑の旗  ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| 赤旗  ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| 赤いフラグ  ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
 | 黄旗  ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
 | 黒丸  ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
 | 青い円 ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
@@ -552,17 +498,17 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 {style="table-layout:auto"}
 
-### 条件付きでの書式設定 `valueexpression` {#conditionally-format-a-valueexpression}
+### 条件付きでの書式の設定 `valueexpression` {#conditionally-format-a-valueexpression}
 
 列に計算値を表示するには、 `valuefield` 列内のコード行を `valueexpression`. 計算値を使用すると、同じオブジェクト上の 2 つの既存のフィールド間の計算に基づいて、オブジェクトの新しい値を表示できます。
 
-をフォーマットする方法の詳細 `valueexpression line`を参照してください。 [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+をフォーマットする方法の詳細 `valueexpression line`を参照してください。 [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-列に `valueexpression` コードの行。 代わりに、計算カスタムフィールドをカスタムフォームに追加し、そのフィールドをレポートに表示するオブジェクトに関連付けることができます。 次に、このフィールドを表示する列を条件付きで書式設定できます。
+を含む列を条件付きで書式設定することはできません。 `valueexpression` コードの行。 代わりに、計算カスタムフィールドをカスタムフォームに追加し、そのフィールドをレポートに表示するオブジェクトに関連付けることができます。 次に、このフィールドを表示する列を条件付きで書式設定できます。
 
 計算カスタムフィールドの詳細については、 [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-## 集約値をテキストモード列に追加する
+## 「テキストモード」列に集計値を追加する
 
 最初にビルダーインターフェイスで列を作成し、そこに集計値を追加してから、テキストモードで列を編集することをお勧めします。
 
@@ -577,9 +523,17 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 * 集計を計算を表示する列に追加できます。 集計値は、ビューまたはレポートのグループ化に表示されます。 詳しくは、 [グループ化：グループ化での複数の計算値の集計結果の表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * 列の定義に使用するコード行は、集約を導入し、その前に「集約」が付くコード行と同じである必要があります。 たとえば、プロジェクトに予定時間を表示する列がある場合、列の主な行のテキストモードは次のようになります。
 
-  ```
+```
   valuefield=workRequired
   valueformat=compound
-  ```
+```
 
-  ビューのグループ化ですべての行の値を集計する場合、次のコードを追加して集計値を追加できます。 `aggregator.valuefield=workRequired` ( `aggregator.valuefield` 行は `valuefield` （列を説明する） `aggregator.valueformat=compound` ( `aggregator.valueformat` 行は、 `valueformat` （列を説明する） `aggregator.function=SUM` （これは、列を集計する方法を示す必須行です。この場合、個々の計画時間をグループ化行の 1 つの数値に追加します） `aggregator.displayformat=minutesAsHoursString` ( 時間はWorkfrontに分単位で格納されるので、 `displayformat` 分単位で格納される時間 )
+ビューのグループ化ですべての行の値を集計する場合、次のコードを追加して集計値を追加できます。
+
+`aggregator.valuefield=workRequired` ( `aggregator.valuefield` 行は、 `valuefield` （列を説明する）
+
+`aggregator.valueformat=compound` ( `aggregator.valueformat` 行は、 `valueformat` （列を説明する）
+
+`aggregator.function=SUM` （これは、列を集計する方法を示す必須行です。この場合、個々の計画時間をグループ化行の 1 つの数値に追加します）
+
+`aggregator.displayformat=minutesAsHoursString` ( 時間はWorkfrontに分単位で格納されるので、 `displayformat` 分単位で格納される時間 )
