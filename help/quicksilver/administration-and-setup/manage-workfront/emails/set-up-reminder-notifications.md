@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1094'
 ht-degree: 2%
 
 ---
 
 # リマインダー通知を設定
 
-リマインダー通知では、指定した条件に基づいて受信者に E メールを送信します。 リマインダー通知へのリマインダー通知のアクセスレベルと管理アクセス権を持つAdobe Workfront管理者またはユーザーは、プロジェクト、タスク、タスク、タイムシートなどの作業項目にリマインダー通知を手動で関連付けることができます。
+<!-- Audited: 1/2024 -->
+
+リマインダー通知では、指定した条件に基づいて受信者に E メールを送信します。 リマインダー通知を、プロジェクト、タスク、タスク、タイムシートなどの作業項目に手動で関連付けることができます。
 
 <!--
 DRAFTED IN FLARE:
@@ -39,7 +41,10 @@ An example of how this can be used would be helpful here and/or in the section <
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td>計画</td> 
+   <td> <p>新規：標準 </p>
+ <p>または</p> 
+<p>現在：プラン</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -52,7 +57,7 @@ An example of how this can be used would be helpful here and/or in the section <
 
 ## リマインダーの電子メールをカスタマイズ
 
-カスタムの電子メールの件名と本文を含むカスタム電子メールで、リマインダー通知をカスタマイズできます。 E メール本文には、カスタムHTMLを含めることができます。
+リマインダー通知電子メールの件名、本文およびHTMLをカスタマイズできます。
 
 または、リマインダー通知に含まれるデフォルトの電子メールを使用できます。 デフォルトの E メールでは、リマインダーの通知名を E メールの件名として使用し、通知をトリガーしたイベントを含む E メール本文のオブジェクト名を使用します。
 
@@ -60,9 +65,9 @@ An example of how this can be used would be helpful here and/or in the section <
 
 E メールテンプレートの作成方法について詳しくは、 [電子メールテンプレートの設定](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
-## リマインダー通知を作成
+## リマインダー通知の作成
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. クリック **電子メール** > **通知** > **リマインダー通知**.
 
@@ -86,7 +91,7 @@ E メールテンプレートの作成方法について詳しくは、 [電子�
      </tr> 
      <tr> 
       <td role="rowheader">対象期間</td> 
-      <td> <p>日付の前後の時間数、稼働日、日数（カレンダー日数）、週数または月数を指定します <strong>タイミング</strong> フィールドに入力します。</p> <p><b>メモ</b>:  
+      <td> <p>日付の前後の時間数、稼働日、日数（カレンダー日数）、週数または月数を指定します <strong>タイミング</strong> フィールドに入力します。</p> <p><b>注意</b>:  
         <ul> 
          <li> <p>リマインダー通知は、指定した日付の 24 時間後に開始され、すべての条件が満たされたら開始されます。</p> </li> 
          <li> <p>毎晩午前 0 時（米国山岳部標準時）に、プロジェクト、タスクおよび問題のトリガーに関するリマインダー通知が届きます。 その日以降にリマインダー通知を受け取るすべてのオブジェクト。指定したトリガーに対する通知は、その時間の直後に通知されます。</p> </li> 
@@ -144,10 +149,12 @@ E メールテンプレートの作成方法について詳しくは、 [電子�
 
 リマインダー通知を手動でトリガーするには：
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. クリック **システム** > **診断** Workfrontの左下隅に
 
 1. クリック **リマインダー通知の送信** 画面上部に、送信されたことを確認するメッセージが表示されるのを待ちます。
 
    リマインダーの通知で指定されたユーザーに電子メールが送信されます。
+
+![](assets/reminder-test.png)

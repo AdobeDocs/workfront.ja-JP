@@ -4,14 +4,16 @@ description: のヘルスを確認できます。 [!DNL Workfront] インシデ�
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
 # The [!DNL Adobe Workfront] ステータスサイト
+
+<!-- Audited: 1/2024 -->
 
 ## ステータスサイトの概要
 
@@ -28,11 +30,7 @@ ht-degree: 1%
 
 ステータスの更新は、 [!DNL Adobe] ステータスサイト。
 
-1. に移動します。 [[!DNL https://one.workfront.com]](https://one.workfront.com/)を選択し、次に **[!UICONTROL ステータス]** （内） **[!UICONTROL サポート]** 」セクション内に配置されます。
-
-   または
-
-   タイプ [status.adobe.com](https://status.adobe.com/ja/) 」をクリックして、ステータスサイトにアクセスします。
+1. タイプ [status.adobe.com](https://status.adobe.com/) 」をクリックして、ステータスサイトにアクセスします。
 
 1. 選択 **[!UICONTROL Experience Cloud]**.
 1. 下にスクロールして、「 」を選択します。 **[!UICONTROL Adobe Workfront]** を選択します。
@@ -41,8 +39,9 @@ ht-degree: 1%
 
 ステータスサイトを購読する、または既に購読した後で購読を管理するには、次の手順を実行します。
 
-1. に移動します。 [status.adobe.com](https://status.adobe.com/ja/).
+1. に移動します。 [status.adobe.com](https://status.adobe.com/).
 1. ステータスバーで、 **[!UICONTROL 購読を管理]**.
+   ![](assets/manage-subs.png)
 1. 既存のアカウントがある場合は、そのアカウントにログインし、それ以外の場合は新しいアカウントを作成します。
 1. 次をクリック： **[!UICONTROL 購読を作成]** 」ボタンをクリックします。
 1. 選択 **[!UICONTROL Adobe Workfront]** の下に **[!UICONTROL Experience Cloud]** ヘッダー、次に「 **[!UICONTROL 続行]**.
@@ -50,10 +49,6 @@ ht-degree: 1%
 1. クリック **[!UICONTROL 完了]** 購読を確認するには、をクリックします。
 
 ## 特定の脆弱性の理解
-
-* [「脆弱性」とは何ですか？](#what-is-a-named-vulnerability)
-* [特定された名前付きの脆弱性を表示する方法を教えてください。 [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [なぜこれが重要なのか？](#why-is-this-important)
 
 ### 「脆弱性」とは何ですか？ {#what-is-a-named-vulnerability}
 
@@ -63,7 +58,7 @@ ht-degree: 1%
 
 ### 特定された名前付きの脆弱性を表示する方法を教えてください。 [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. に移動します。  [status.adobe.com](https://status.adobe.com/ja/)を選択し、次に **[!UICONTROL セキュリティ]**.
+1. に移動します。  [status.adobe.com](https://status.adobe.com/)を選択し、次に **[!UICONTROL セキュリティ]**.
 
 ## なぜこれが重要なのか？ {#why-is-this-important}
 

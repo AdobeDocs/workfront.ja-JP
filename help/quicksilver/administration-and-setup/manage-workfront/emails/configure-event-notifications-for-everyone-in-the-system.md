@@ -1,18 +1,20 @@
 ---
 title: システムの全員に対するイベント通知を設定する
 description: イベント通知トリガーは、特定のイベントが発生した際にユーザーに電子メールを送信します。 Adobe Workfront管理者または Planner のアクセスレベルを持つユーザーは、システム内のすべてのユーザーに対してイベント通知を設定できます。 イベント通知の設定は、イベント通知のアクティブ化と非アクティブ化で構成されます。
-author: Caroline, Lisa
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a5cad262eff029be443457cbd8dddf4c65789b35
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
 
 # システムの全員に対するイベント通知を設定する
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -44,7 +46,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td>計画</td> 
+   <td> <p>新規：標準</p>
+ <p>または</p> 
+<p>現在：プラン</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -57,13 +62,13 @@ ht-degree: 0%
 
 ## すべてのユーザーに対するイベント通知の設定
 
-ユーザーがプロファイルで通知を有効または無効にする前に、Workfrontの「セットアップ」領域で通知を有効にする必要があります。
+ユーザーが個々のプロファイルで通知を有効または無効にする前に、Workfrontの「セットアップ」領域で通知を有効にする必要があります。
 
 >[!TIP]
 >
 >「設定」領域からWorkfront目標の通知を有効化することはできません。 ユーザーは、自分のプロファイルでのみ、これらの通知をアクティブ化できます。 プランライセンスを持つユーザーは、他のユーザーに対してライセンス認証を行うことができます。 ユーザーに対するWorkfront Goals の通知の有効化について詳しくは、 [通知：目標](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. クリック **電子メール** > **通知**.
 
@@ -71,7 +76,7 @@ ht-degree: 0%
 
 
 1. 次を確認します。 **イベント通知** 」タブが開きます。
-1. イベント名の左側にあるスイッチをクリックして、オンまたはオフにします。
+1. イベント名の左側にあるスイッチをオンまたはオフに切り替えます。
 
    イベントのデフォルトの通知ステータスを確認するには、 [イベント通知](../../../workfront-basics/using-notifications/event-notifications.md).
 

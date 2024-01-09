@@ -6,18 +6,21 @@ description: The [!DNL Adobe Workfront for Microsoft Teams] アプリを使用�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # インストール [!DNL Adobe Workfront] Microsoft Teams
 
->[!NOTE]
+<!-- Audited: 1/2024 -->
+
+>[!IMPORTANT]
 >
 >Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+
 
 The [!DNL Adobe Workfront for Microsoft Teams] アプリを使用すると、 [!DNL Workfront] 君を置き去りにしないで [!DNL Microsoft Teams] チャットチャネル。
 
@@ -40,7 +43,8 @@ The [!DNL Adobe Workfront for Microsoft Teams] アプリを使用すると、 [!
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
+   <td><p>新規：標準</p>
+    <p>現在： [!UICONTROL 作業 ]、[!UICONTROL プラン ]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,9 +58,6 @@ The [!DNL Adobe Workfront for Microsoft Teams] アプリを使用すると、 [!
 ## インストール [!DNL Workfront for Microsoft Teams]
 
 のチーム所有者として [!DNL Microsoft Teams]を使用している場合、 [!DNL Workfront for Microsoft Teams] 各チームのアプリは、 [!DNL Microsoft] 次の方法で提供されたファイルを保存またはファイルから [!DNL Workfront].
-
-* [インストール [!DNL Workfront for Microsoft Teams] Microsoft Store から](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
-* [インストール [!DNL Workfront for Microsoft Teams] プライベートファイルから](#install-workfront-for-microsoft-teams-from-a-private-file)
 
 ### インストール [!DNL Workfront for Microsoft Teams] から [!DNL Microsoft] ストア
 

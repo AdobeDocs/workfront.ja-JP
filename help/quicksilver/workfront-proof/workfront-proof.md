@@ -9,9 +9,9 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 このセクションでは、以下のサブセクションについて説明します。
 
-* [の概要 [!DNL Workfront Proof]](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+* [の概要 [!DNL Workfront Proof]：記事インデックス](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
 * [での配達確認とファイルの操作 [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
 * [[!DNL Workfront Proof] アカウント管理](../workfront-proof/wp-acct-admin/wp-account-admin.md)
 * [[!DNL Workfront Proof] 請求設定](../workfront-proof/wp-billingsettings/wp-billing-settings.md)

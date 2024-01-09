@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 93dfcd639f1b821e68e388ac4206aeb7447caee1
 workflow-type: tm+mt
-source-wordcount: '13864'
+source-wordcount: '13856'
 ht-degree: 1%
 
 ---
@@ -2557,7 +2557,6 @@ ht-degree: 1%
          * [トラブルシューティング — Macの校正ビューアでインターフェイスフォントが破損しています](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [キャッシュと Cookie がWorkfront Proof に与える影響について](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Workfront Proof の速度の問題](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [配達確認の表示に関する問題 — 共有オブジェクトのFlashの説明](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
          * [トラブルシューティング — Workfront校正ビューア](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
    * Workfront Proof 統合 {#wf-proof-integrations}
       * [Workfront Proof 統合](workfront-proof/wp-integrations/wp-integrations.md)
