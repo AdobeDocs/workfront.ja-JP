@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '3169'
+source-wordcount: '3166'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,8 @@ recommendations: noDisplay, noCatalog
 <!--Should the structure of this article be like this one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
+
+<!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # フィールドの作成
 
@@ -92,7 +94,7 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
   </tr>
 <tr>
    <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/grant-access.md">AdobeMaestro へのアクセスを許可</a>. </p>  
+   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -139,7 +141,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -197,6 +199,7 @@ After permssions - replace the table with:
    * [パーセンテージ](#percentage)
    * [通貨](#currency)
    * [チェックボックス](#checkbox)
+     <!--* [Formula](#formula)-->
    * [人物](#people)
    * [作成者](#created-by)
    * [作成日](#created-date)
@@ -404,6 +407,36 @@ After permssions - replace the table with:
 1. 「**作成**」をクリックします。
 
    新しいチェックボックスフィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。
+
+<!--
+
+### Formula
+
+Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
+
+For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
+ 
+    ![](assets/new-formula-field-with-list-of-expressions.png)
+
+1. Add the following information in the **New field** tab:
+
+   * **Name**: Enter a name for the new field.
+   * **Description**: Add information about the new field.
+   * **Formula**: Start typing at least one character to access an expression, then select it when it displays in the list. 
+  
+1. Click the selected expression to reveal the definition and view its formatting. 
+
+   ![](assets/description-of-formula-expression.png)
+
+1. Add field names as they display in Maestro interface to reference them in a formula. 
+
+1. Click **Create**.
+
+     The new formula field is added as a column to the record type and its values can be associated with records.
+
+-->
 
 ### 人物
 

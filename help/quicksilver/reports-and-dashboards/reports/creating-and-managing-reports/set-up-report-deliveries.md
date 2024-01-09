@@ -6,9 +6,9 @@ description: レポート配信の概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Workfrontでのレポートの表示方法や、手動でのエクスポート�
 
 レポートに特別なビューを適用すると、Workfrontのレポートの「詳細」タブに特別なビューが表示されます。
 
-特別な表示を持つレポートの配信スケジュールを設定すると、特別な表示ではなく、送信済み E メールの添付ファイルにデフォルトの「詳細」タブが配信されます。
+特別なビューを持つレポートの配信スケジュールを設定すると、特別なビューではなく、送信済み E メールの添付ファイルに「詳細」タブが配信されます。
 
 以下は特別なビューと見なされます。
 

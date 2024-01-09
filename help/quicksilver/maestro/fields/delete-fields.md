@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
 ## マエストロフィールドの削除に関する考慮事項：
 
 * フィールドを削除できるのは、レコードタイプのテーブルビューだけです。
-* 自分が作成したフィールド、他のユーザーが作成したフィールド、またはシステムが作成したフィールドを削除できます。 <!--this will change with access levels/ permissions-->
+* 自分が作成したフィールド、他のユーザーが作成したフィールド、またはシステムが作成したフィールドを削除できます。 <!--this will change to: take this out with permissions - it's in the table! -->
 * レコードの主フィールドは削除できません。
 * フィールドに格納されている情報はすべて削除され、復元できません。
 * リンクされたレコードフィールドを削除すると、リンク元のレコードの種類から、リンクされたすべての参照フィールドも削除されます。 リンク先のレコードタイプのリンクされたレコードフィールドは削除されません。
@@ -91,7 +91,7 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
   </tr>
 <tr>
    <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/grant-access.md">AdobeMaestro へのアクセスを許可</a>. </p>  
+   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -138,7 +138,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

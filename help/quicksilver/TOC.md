@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a4581dfe503c6afa43b203a3c3fe461107619e67
+source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
 workflow-type: tm+mt
-source-wordcount: '13853'
+source-wordcount: '13864'
 ht-degree: 1%
 
 ---
@@ -2024,10 +2024,13 @@ ht-degree: 1%
       * [フィールドの作成](maestro/fields/create-fields.md)
       * [フィールドを編集](maestro/fields/edit-fields.md)
       * [フィールドを削除](maestro/fields/delete-fields.md)
+      * [数式フィールドの概要](maestro/fields/formula-fields.md)
    * Adobeマエストロアクセス {#adobe-maestro-access}
       * [アクセス情報](maestro/access/access-information.md)
       * [アクセスの概要](maestro/access/access-overview.md)
-      * [AdobeMaestro へのアクセスを許可](maestro/access/grant-access.md)
+      * [AdobeMaestro での共有権限の概要](maestro/access/sharing-permissions-overview.md)
+      * [ワークスペースの共有](maestro/access/share-workspaces.md)
+      * [ビューの共有](maestro/access/share-views.md)
    * Adobeマエストロレコード {#adobe-maestro-records}
       * [レコード：記事インデックス](maestro/records/records-information.md)
       * [レコードを作成](maestro/records/create-records.md)

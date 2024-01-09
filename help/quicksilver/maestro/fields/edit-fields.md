@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ AdobeMaestro フィールドの作成については、 [フィールドの作�
 
 ## フィールド情報の編集に関する考慮事項
 
-* 自分が作成したフィールドや、他のユーザーが作成したフィールドを編集できます。 <!--this will change with access levels/ permissions-->
+* 自分が作成したフィールドや、他のユーザーが作成したフィールドを編集できます。 <!--this will change with access levels/ permissions - take out, it's in the table!-->
 * レコードタイプテーブルのフィールドを編集できます。
 * フィールドを保存した後は、フィールドタイプを編集できません。
 * 添付先のレコードに既に負の値が格納されている場合は、[ 数値 ]、[ 割合 ]、または [ 通貨 ] フィールドに対して、以前に選択した [ 負の値を許可する ] 設定の選択を解除することはできません。
@@ -94,7 +94,7 @@ AdobeMaestro フィールドの作成については、 [フィールドの作�
   </tr>
 <tr>
    <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/grant-access.md">AdobeMaestro へのアクセスを許可</a>. </p>  
+   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -141,7 +141,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>

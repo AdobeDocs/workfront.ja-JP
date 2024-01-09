@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
   </tr>
 <tr>
    <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/grant-access.md">AdobeMaestro へのアクセスを許可</a>. </p>  
+   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -123,7 +123,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -152,7 +152,7 @@ After permssions - replace the table with:
 
 * 次のいずれかの操作を行うと、ワークスペースでレコードタイプを作成できます。
 
-   * 自動:
+   * 自動：
       * テンプレートを使用してワークスペースを作成する場合。
 
         詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
@@ -160,9 +160,9 @@ After permssions - replace the table with:
       * 別のアプリケーションからオブジェクトタイプへの接続を作成する場合、レコードタイプにフィールドを追加する場合。 これにより、元のアプリケーションのオブジェクトタイプに接続された Maestro で読み取り専用のレコードタイプが作成されます。
 
      オブジェクトタイプと Maestro レコードの接続について詳しくは、 [レコードを接続](../records/connect-records.md).
-   * 手動:
+   * 手動：
 
-      * 最初から.
+      * ゼロから。
 
 ## ワークスペーステンプレートを使用してレコードタイプを作成する
 
