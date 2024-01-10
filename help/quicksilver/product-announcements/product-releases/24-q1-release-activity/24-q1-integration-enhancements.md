@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期の統合の強化
 author: Becky
 feature: Product Announcements
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 このページでは、2024 年第 1 四半期リリースのプレビュー環境に対する統合の機能強化について説明します。 これらの機能強化は、2024 年第 1 四半期リリースの実稼動環境で利用できるようになります。
 
 2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Experience Manager Assets Essentials でのメタデータのマッピングで、が使用されるようになりました `xcm:keywords` の代わりに `dc:subject`
+
+Experience Manager Assets Essentials の統合を更新し、Experience Manager Assets as a Cloud Service統合のエクスペリエンスに合わせました。 現在は、複数の 1 行テキストフィールドをExperience Manager Assetsの 1 つのフィールドにマッピングする際に、両方のサービスで `xcm:keywords` フィールドに入力します。
+
+以前は、これらのフィールドは `dc:subject` フィールドを使用して、Experience Manager Assets Essentials にアクセスできます。 Experience Manager Assetsのas a Cloud Service機能は変更されていません。
+
+現在マッピングされているExperience Manager Assets Essentials のメタデータ `dc:subject` は、に再マッピングする必要があります `xcm:keywords`.
+
+メタデータのExperience Manager Assets Essentials へのマッピングについて詳しくは、 [AEMキーワード](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
 ## Adobe Experience Manager統合で Typeahead フィールドを使用できるようになりました
 

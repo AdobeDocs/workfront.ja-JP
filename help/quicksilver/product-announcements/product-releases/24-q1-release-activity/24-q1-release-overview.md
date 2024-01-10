@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1572'
 ht-degree: 0%
 
 ---
@@ -129,6 +129,7 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント承認用に更新されたステータス</a></p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
@@ -276,6 +277,23 @@ ht-degree: 0%
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials でのメタデータのマッピングで、が使用されるようになりました <code>xcm:keywords</code> の代わりに <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Experience Manager Assets Essentials の統合を更新し、Experience Manager Assets as a Cloud Service統合のエクスペリエンスに合わせました。 現在は、複数の 1 行テキストフィールドをExperience Manager Assetsの 1 つのフィールドにマッピングする際に、両方のサービスで <code>xcm:keywords</code> フィールドに入力します。</p>
+                    </td>
+                    <td><p><b>次の日に利用可能：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2023 年 1 月 10 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリースの実稼動：2023 年 1 月 10 日</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼働：2023 年 1 月 10 日</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合で Typeahead フィールドを使用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p><p>WorkfrontとAdobe Experience Managerの間でフィールドを簡単にリンクできるように、メタデータマッピングに typeahead フィールドのサポートが追加されました。 これで、Adobe Experience Managerで typeahead フィールドを対応するフィールドにマッピングできるようになりました。</p>
