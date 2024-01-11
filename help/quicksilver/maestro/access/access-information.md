@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,8 @@ Workfront管理者は、Maestro を使用するには、ユーザにアクセス
 次の記事には、ユーザが Maestro を使用する際に必要とするアクセスに関する情報が含まれています。
 
 * [アクセスの概要](../access/access-overview.md)
+* [AdobeMaestro での共有権限の概要](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
+* [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md)
+* [ビューの共有](/help/quicksilver/maestro/access/share-views.md)
 
-<!--make the following live with permissions release: 
 
-* [Overview of sharing permissions in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
-* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
-* [Share a view](/help/quicksilver/maestro/access/share-views.md)
-
--->

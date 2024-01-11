@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Adobeマエストロの概要
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ Adobe・マエストロはAdobe Workfrontからの新しいオファーです。
 | Maestro レコードをAdobe Experience Managerアセットに接続 | ✓ |                                  |                 |
 | レコードの詳細ページ | ✓ |                                  |                  |
 | レコードの詳細ページのレイアウトを更新します |                               | ✓ |                  |
-| ワークスペースの共有 | | ✓ |  |
-| ビューの共有 | | ✓ |  |
+| ワークスペースの共有 | ✓ | |  |
+| ビューの共有 | ✓ | |  |
 | リクエストを送信 |                               |                                  | ✓ |
 | クリエイティブの概要 |                               |                                  | ✓ |
 | レコードの色とアイコンのカスタマイズ | ✓ |                                  |                 |
@@ -92,15 +88,11 @@ Adobe・マエストロはAdobe Workfrontからの新しいオファーです。
 | Adobe Workfront Fusion 用 Maestro モジュール | ✓ |                                  |                 |
 | あるフィールドから別のフィールドに情報をコピーして貼り付けます。 | ✓ |                                  |                 |
 
-## 閉じられたベータプログラム中に Maestro を使用するために必要なアクセス
+## Workfrontインスタンスのユーザーに対して Maestro を有効にします
 
->[!IMPORTANT]
->
->現在、Maestro には、ユーザや情報に関連するアクセスレベルや権限はありません。 すべてのユーザは、他のユーザが Maestro に追加したすべての情報を表示、編集、および削除できます。
+Maestro にアクセスする前に、AdobeMaestro クローズ済みベータプログラムに登録する必要があります。 ベータ版プログラムへの登録について詳しくは、アカウント担当者にお問い合わせください。
 
-Maestro の使用に必要なアクセスについて詳しくは、 [Adobeマエストロアクセスの概要](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+Maestro へのアクセス権の付与と他のユーザーが Maestro を使用できるようにする方法について詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Maestro の用語
 
@@ -185,7 +177,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 
    * Maestro フィールドは完全にカスタマイズ可能で、Maestro でのみアクセス可能です。 Workfrontから Maestro フィールドにアクセスすることはできません。
 
-  詳しくは、 [フィールドの作成](../maestro/fields/create-fields.md)
+  詳しくは、 [フィールドの作成](../maestro/fields/create-fields.md).
 
   新しいオペレーショナルレコードタイプは、デフォルトで次の定義済みフィールドに関連付けられます。
 
@@ -208,6 +200,7 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
    * パーセンテージ
    * 通貨
    * チェックボックス
+   * 数式
    * 人物
    * 作成者
    * 作成日
@@ -272,12 +265,6 @@ Maestro のフレームワークは完全にカスタマイズ可能です。 �
 | API を使用してインポートできる、レコードタイプテーブルのファイルサイズ | 1.5 MB |
 | API リクエストを実行できる割合 | 1 分あたり 200 リクエスト |
 | テーブルにインポートできる Excel ファイルの CSV サイズ | 5MB |
-
-## Workfrontインスタンスのユーザーに対して Maestro を有効にします
-
-Maestro にアクセスする前に、AdobeMaestro クローズ済みベータプログラムに登録する必要があります。 ベータ版プログラムへの登録について詳しくは、アカウント担当者にお問い合わせください。
-
-Maestro へのアクセス権の付与と他のユーザーが Maestro を使用できるようにする方法について詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md).
 
 ## マエストロを探す
 

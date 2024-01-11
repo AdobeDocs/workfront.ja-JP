@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # プロジェクトの概要の計画
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 プロジェクトは、Adobe Workfrontの大きな作業項目です。 プロジェクトをタスクなど、作業項目が小さいタスクに分類できます。 タスクは、完了を担当できるユーザーまたはチームに割り当てることができます。 すべてのユーザーがタスクを完了すると、プロジェクトも完了します。
@@ -58,7 +60,7 @@ ht-degree: 0%
 
 ### プロジェクトスケジュールを定義 {#define-the-project-schedule}
 
-スケジュールを決定し、プロジェクトに関連付ける必要があります。また、プロジェクトのタスクを完了する責任を持つユーザーにも関連付ける必要があります。
+スケジュールを決定し、そのスケジュールをプロジェクトと関連付ける必要があります。また、プロジェクト上のタスクを完了する責任を持つユーザーにも関連付ける必要があります。
 
 スケジュールに従って次の項目を定義することを検討します。
 
@@ -118,7 +120,7 @@ ht-degree: 0%
 
 ## タスクの定義 {#define-tasks}
 
-プロジェクトの目標とそれに関連付けられたタスクを定義する際に、プロジェクトタイムラインを作成します。
+プロジェクトの目標とそれに関連付けられたタスクを定義すると、プロジェクトタイムラインを作成します。
 
 次の方法で、プロジェクトにタスクを作成できます。
 

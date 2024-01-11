@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,9 @@ ht-degree: 0%
 
 リリースされた機能は、リリースの順序で一覧表示され、最新の機能が最初に表示されます。 Maestro クローズベータプログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
 
-<!--
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
--->
+>2023 年 5 月から 2023 年 12 月の間に、この記事のすべての機能がプレビュー環境と実稼動環境の両方にリリースされました。 2024 年 1 月以降、Maestro 機能は、プレビューおよびサンドボックス環境から一時的に削除されました。 この日以降にリリースされたすべての機能は、現在、実稼動環境で使用できます。
 
 この記事では、2023 年 5 月 22 日に Maestro がクローズベータプログラムを起動した後にリリースされた機能とパッチを示します。
 
@@ -42,83 +40,80 @@ ht-degree: 0%
 >
 >以下の節で参照されるドキュメントは、機能が実稼動環境にリリースされてからしばらく後に利用できるようになります。
 
-<!--## Week of January 15, 2024
+## 2024 年 1 月 15 日の週
 
-### Maestro capabilities are removed from the Preview and Sandbox environments 
+### Maestro 機能は、プレビューおよびサンドボックス環境から削除されます。
 
-Preview and sandbox: <***Date here****> 
+プレビューとサンドボックス： 2024 年 1 月 12 日
 
-The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+Maestro 領域とすべての Maestro 機能は、プレビューとサンドボックス環境から一時的に削除されました。 Maestro は、後日、リリースアクティビティノートでお伝えする予定で、これらの環境に追加されます。
 
-(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
+### ワークスペースとビューに対するマエストロ権限
 
-### Maestro permissions for workspaces and views
+実稼動： 2024 年 1 月 11 日
 
-Production: <****date here****>
+プレビュー：決定する必要があります
 
-Preview: To be determined
+ワークスペースまたはビューをユーザーおよびグループと共有できるようになりました。 権限は、表示または編集に必要な情報に応じて、様々なレベルに設定できます。
 
-You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+ワークスペースを共有すると、ユーザーはそのスペース内のレコードの種類、レコード、およびフィールドに対する権限を持ちます。
 
-When you share a workspace, users have permissions to the record types, records, and fields in that space.
+ワークスペースを共有すると、ユーザーはワークスペースのレコードの種類に関連付けられた表示に対する共有権限を受け取りません。 ビューに対して個別の権限を付与する必要があります。
 
-When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
+Maestro ワークスペースの権限レベルは次のとおりです。
 
-The following are the permissions levels for Maestro workspaces:  
+* 表示：ユーザーは、自分と共有されているワークスペースを表示できます。 また、共有ワークスペースのレコードの種類やレコードを表示することもできます。
 
-* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* 投稿：ユーザーは、自分と共有されているワークスペース内のレコードを作成、編集、削除できます。  レコードの種類やワークスペースを作成または編集して共有することはできません。
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
+* 管理：ユーザーは、ワークスペース、レコードタイプ、レコード、およびワークスペース内の、共有されているフィールドを作成、編集、削除できます。
 
-* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
+レコードビューのアクセス許可レベルは次のとおりです。
 
-The following are the permissions levels for record type views:
+* 表示：ユーザーは、レコードタイプのページの表示ドロップダウンメニューから表示を選択できます。
+* 管理：ユーザーは、ビューを編集、共有、削除できます。
 
-* View: Users can select the view from the View drop-down menu of a record type.
-* Manage: Users can edit, share, and delete the view. 
+詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md) および [AdobeMaestro での共有権限の概要](../maestro/access/sharing-permissions-overview.md).
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+### 新しい数式フィールドのタイプ
 
-### New Formula field type (title) 
+実稼動： 2024 年 1 月 11 日
 
-Production: <*******date**********> 
+プレビュー：決定する必要があります
 
-Preview: To be determined 
+レコードタイプに数式タイプのフィールドを追加できるようになりました。
 
-You can now add a Formula type field to a record type.  
+数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+数式の計算で、リンクされたレコードタイプの参照フィールドを使用することはできません。 この機能は、後日使用できるようになります。
 
-You cannot use lookup fields from linked record types in a formula calculation.  
+詳しくは、 [数式フィールドの概要](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+### テーブル表示でレコードを管理する際の取り消し/やり直し操作
 
-### Undo/ Redo actions when managing records in the table view
+実稼動： 2024 年 1 月 11 日
 
-Production: <****Date******>
-Preview: To be determined
+プレビュー：決定する必要があります
 
-You can now undo or redo your changes when performing the following actions in the table view:  
+テーブル表示で以下の操作を実行する際に、変更の取り消しまたはやり直しができるようになりました。
 
-* Copy/ paste data 
-* Edit record 
-* Add record 
-* Delete record 
+* データのコピー/貼り付け
+* レコードを編集
+* レコードを追加
+* レコードを削除
 
-You can use the following keystrokes to undo or redo actions: 
+次のキー操作を使用して、アクションの取り消しまたはやり直しを行うことができます。
 
-* Undo: CTRL + Z 
-* Redo: CTRL + Shift+Z 
+* 元に戻す： Ctrl/Cmd + Z
+* やり直し： CTRL/CMD + Shift + Z
 
-For more information, see the following articles:  
+詳しくは、次の記事を参照してください。
 
-* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+* [レコードを編集](/help/quicksilver/maestro/records/edit-records.md)
 
-* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+* [レコードを削除](/help/quicksilver/maestro/records/delete-records.md)
 
-* Create records (/help/quicksilver/maestro/records/create-records.md) 
-
--->
+* [レコードを作成](/help/quicksilver/maestro/records/create-records.md)
 
 ## 2023 年 12 月 25 日の週
 

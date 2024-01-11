@@ -1,18 +1,19 @@
 ---
 title: アクセスの概要
-description: 組織内のすべてのユーザは、AdobeMaestro にアクセスできます。 現在、Maestro には、ユーザや情報に関連するアクセスレベルや権限はありません。
+description: AdobeMaestro 機能を使用するためのライセンスと共有の許可制限があります。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 0%
 
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
+<!--update the title and the metadata title if Maestro is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # アクセスの概要
 
@@ -26,16 +27,11 @@ ht-degree: 1%
 >
 >詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
 
-AdobeMaestro に対するアクセスレベルの制限はありません。
-
-組織内のすべてのユーザは、アクセスレベルに関係なく、Maestro にアクセスできます。
-
-<!-- the table will change after we implement access levels/ permissions for Maestro-->
-<!-- fix the formatting on the table - some lines are way too spaced out-->
+AdobeMaestro 機能を使用するためのライセンスと共有の許可制限があります。
 
 ## アクセス要件
 
-AdobeMaestro を使用するには、次の条件を満たす必要があります。
+AdobeMaestro を使用するには、次の設定が必要です。
 
 <table style="table-layout:auto">
  <col>
@@ -52,7 +48,7 @@ AdobeMaestro を使用するには、次の条件を満たす必要がありま�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。  </p>
+<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 </p>
    </td>
   </tr>
   <tr>
@@ -62,92 +58,39 @@ AdobeMaestro を使用するには、次の条件を満たす必要がありま�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>任意</p> 
+   <p>任意</p>
+   ワークスペースを作成するには、ユーザーは次のライセンスを持っている必要があります。 
+   <ul><li><p>新規：標準</p> </li>
+   <li><p>現在：作業者以上</p> </li></ul>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>アクセスレベル</p></td>
-   <td> <p>任意</p>  
+  <tr>
+   <td role="rowheader"><p>アクセスレベルの設定</p></td>
+   <td> <p>Maestro オブジェクトに対するアクセスレベルコントロールはありません</p>  
 </td>
   </tr>
-
+<tr>
+   <td role="rowheader"><p>オブジェクトの権限</p></td>
+   <td>
+   <p>編集、削除、共有するために作成しなかったワークスペースやビューに、権限を付与するか、それ以上の権限を付与する</p>
+    <p>システム管理者は、自分が作成しなかったワークスペースと表示を管理できます </p>
+   <p>Maestro オブジェクトに対する権限の共有については、  
+   <a href="../access/sharing-permissions-overview.md">AdobeMaestro での共有権限の概要</a> 
+  </td>
+  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者は、メインメニューの Maestro 領域をレイアウトテンプレートに追加する必要があります。</p> 
+   <td> <p>システム管理者は、メインメニューの Maestro 領域をレイアウトテンプレートに追加する必要があります。</p> 
    <p>詳しくは、 <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">レイアウトテンプレートを使用したメインメニューのカスタマイズ</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-<!--After we enable permissions, replace the section content above with this:
+*新しい価格モデルと現在の価格モデルの詳細は、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-There are license and sharing permission restrictions to use Adobe Maestro capabilities. (*********** this should be the intro right under the title; also update the metadata with this when live*******)
-
-You must have the following settings to use Adobe Maestro: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Any</p>
-   To create workspaces, users must have the following license: 
-   <ul><li><p>New: Standard</p> </li>
-   <li><p>Current: Worker or higher</p> </li></ul>
-  </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Maestro objects</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td>
-   <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them</p>
-    <p>System Administrators can manage workspaces and views they did not create </p>
-   <p>For information about sharing permissions for Maestro objects, see  
-   <a href="../access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Maestro</a> 
-  </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your system administrator must add the Maestro area in the Main Menu to your layout template.</p> 
-   <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For more information about the new and current pricing models, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
-
--->
 
 ## メインメニューの Maestro 領域を他のユーザと共有します。
 
@@ -177,13 +120,8 @@ Maestro のアクセス制御はありません。
 
 ## 権限の付与
 
-Maestro オブジェクトに関連付けられた権限はありません。
+システム管理者以外のユーザーがアクセスできるようにするには、作成したワークスペースと表示に対して、システム管理者権限を付与する必要があります。
 
-Maestro が環境で有効になっているすべてのユーザは、他のユーザが Maestro に追加したすべての情報を表示、編集、および削除できます。
-
-<!--
-Take out the text above and replace with this: 
-
-For more information, see [Sharing permissions overview in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).-->
+詳しくは、 [共有権限の概要 (AdobeMaestro)](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
 

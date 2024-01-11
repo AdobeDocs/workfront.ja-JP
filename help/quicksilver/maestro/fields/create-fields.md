@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: '3360'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Create fields
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
@@ -63,9 +63,14 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe産物</p> </td>
+   <p> 製品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -88,73 +93,25 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
   </tr>
 
 <tr>
-   <td role="rowheader">アクセスレベル</td>
-   <td> <p>任意</p>  
+   <td role="rowheader"><p>アクセスレベル設定</p></td>
+   <td> <p>Maestro のアクセスレベル制御はありません</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>権限</p></td>
+   <td> <p>ワークスペースに対する権限の管理</a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -199,7 +156,7 @@ After permssions - replace the table with:
    * [パーセンテージ](#percentage)
    * [通貨](#currency)
    * [チェックボックス](#checkbox)
-     <!--* [Formula](#formula)-->
+   * [数式](#formula)
    * [人物](#people)
    * [作成者](#created-by)
    * [作成日](#created-date)
@@ -408,35 +365,34 @@ After permssions - replace the table with:
 
    新しいチェックボックスフィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。
 
-<!--
+### 数式
 
-### Formula
+数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
+詳しくは、 [数式フィールドの概要](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
- 
-    ![](assets/new-formula-field-with-list-of-expressions.png)
+1. 「 」セクションの説明に従って、フィールドの作成を開始します。 [最初からフィールドを作成する](#create-fields-from-scratch) この記事で、「 **数式** フィールドタイプ。
 
-1. Add the following information in the **New field** tab:
+   ![](assets/new-formula-field-with-list-of-expressions.png)
 
-   * **Name**: Enter a name for the new field.
-   * **Description**: Add information about the new field.
-   * **Formula**: Start typing at least one character to access an expression, then select it when it displays in the list. 
-  
-1. Click the selected expression to reveal the definition and view its formatting. 
+1. 次の情報を **新しいフィールド** タブ：
+
+   * **名前**：新しいフィールドの名前を入力します。
+   * **説明**：新しいフィールドに関する情報を追加します。
+   * **数式**：式にアクセスするには、少なくとも 1 文字入力を開始し、式がリストに表示されたら選択します。
+
+1. 選択した式をクリックすると、定義が表示され、その形式が表示されます。
 
    ![](assets/description-of-formula-expression.png)
 
-1. Add field names as they display in Maestro interface to reference them in a formula. 
+   サポートされる式について詳しくは、 [数式フィールドの概要](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Click **Create**.
+1. 数式で参照するフィールド名を Maestro インターフェイスに表示されたとおりに追加します。
 
-     The new formula field is added as a column to the record type and its values can be associated with records.
+1. 「**作成**」をクリックします。
 
--->
+   新しい数式フィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。
+
 
 ### 人物
 

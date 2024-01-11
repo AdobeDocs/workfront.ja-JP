@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '531'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,12 @@ Adobe・マエストロでは、不要になったレコードを削除できま
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
    <p> Adobe産物</p> </td>
    <td>
@@ -52,80 +57,34 @@ Adobe・マエストロでは、不要になったレコードを削除できま
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfrontライセンス</p>
+   </td>
    <td>
    <p>任意</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">アクセスレベル</td>
-   <td> <p>任意</p>  
+   <td role="rowheader"><p>アクセスレベル設定</p></td>
+   <td> <p>Maestro のアクセスレベルコントロールはありません </p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>権限</p></td>
+   <td> <p>ワークスペースに権限を付与する（またはそれ以上の場合）</a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
 
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,9 +115,10 @@ After permssions - replace the table with:
 
 ### レコードの詳細ページからレコードを削除する
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、[ マエストロ ] をクリックします。
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースが開きます。
+最後にアクセスしたワークスペースが開きます。
+
 1. レコードタイプをクリックします。
 
    レコードタイプのページが開きます。
@@ -179,9 +139,10 @@ After permssions - replace the table with:
 
 ### レコードタイプのテーブルビューからレコードを削除する
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ**.
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースが開きます。
+最後にアクセスしたワークスペースが開きます。
+
 1. レコードタイプをクリックします。
 
    レコードタイプのページが開きます。
@@ -194,7 +155,7 @@ After permssions - replace the table with:
 
    レコードは削除されているため、復元できません。
 
-<!--1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
+1. （オプション）次のキーボードショートカットを使用して、レコードの削除の取り消しとやり直しを行います。
 
-   * **Undo**: CTRL/CMD + Z
-   * **Redo**: CTRL/CMD + Shift + Z-->
+   * **取り消し**: CTRL/CMD + Z
+   * **やり直し**: CTRL/CMD + Shift + Z
