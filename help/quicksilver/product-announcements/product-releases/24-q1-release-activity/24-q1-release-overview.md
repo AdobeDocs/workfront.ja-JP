@@ -4,16 +4,16 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: cfe574eb8eaf238ef07ff45afa976bc1bc0484ed
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1567'
 ht-degree: 0%
 
 ---
 
 # 2024 年第 1 四半期リリースの概要
 
-このページでは、2024 年 1 月に予定されている 2024 年第 1 四半期リリースに含まれる機能について説明します。
+このページでは、2024 年 1 月 15 日の週に予定されている 2024 年第 1 四半期リリースに含まれる機能について説明します。
 
 このページの機能強化は、プレビュー環境で利用できます。 2024 年第 1 四半期のリリースが実稼動版の予定リリースに近づくにつれ、このページは追加の機能強化で更新されます。
 
@@ -60,7 +60,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">配達確認/ドキュメントの決定を過去 12 か月間使用可能に</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 ヶ月の決定数が表示されるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">配達確認/ドキュメントの決定を過去 12 か月間使用可能に</a></p><p>新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 ヶ月の決定数が表示されるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -208,7 +208,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能です</a></p><p><span style="color: #ff0000;"> プレビューの新機能</span></p><p>自分が所有するプロジェクトでの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能です</a></p><p>自分が所有するプロジェクトでの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。 </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -357,7 +357,7 @@ ht-degree: 0%
                                 <p>高速リリースの実稼動： 24.1 リリースを使用</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：24.1 リリースを使用</p>
+                                <p>すべてのお客様向けの実稼動環境： 24.4 リリース（2024 年 4 月）</p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションで、コメントに画像をドラッグ&amp;ドロップします</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>コメントの内容を拡張するために、オブジェクトの「更新」セクションで、コメントや返信内の画像をすばやくドラッグ&amp;ドロップできるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションで、コメントに画像をドラッグ&amp;ドロップします</a></p><p>コメントの内容を拡張するために、オブジェクトの「更新」セクションで、コメントや返信内の画像をすばやくドラッグ&amp;ドロップできるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>

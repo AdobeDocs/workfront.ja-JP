@@ -3,9 +3,9 @@ title: 2024 年第 1 四半期のプロジェクトの機能強化
 description: 2024 年第 1 四半期プロジェクトの機能強化
 author: Nolan
 feature: Product Announcements
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## AI 駆動型スマート割り当て
+
+>[!NOTE]
+>
+>高速リリース用の実稼働：24.1 リリース、すべてのお客様向けの実稼働：24.4 リリース（2024 年 4 月）
 
 Workfrontがタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てるWorkfrontの次の領域に適用されます。タスクリスト、タスクヘッダーの割り当て領域、ホームおよび概要パネル。
 
