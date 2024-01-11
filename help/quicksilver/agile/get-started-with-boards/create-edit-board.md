@@ -6,9 +6,9 @@ description: 次から： [!UICONTROL ボード] ダッシュボードを使用�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
    <td> <p>任意</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> <p>新規：寄稿者以上 </p>
  <p>または</p> 
 <p>現在： [!UICONTROL リクエスト ] 以降 </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 新しいボードを作成
 
@@ -64,6 +60,7 @@ ht-degree: 1%
 
 1. ダイナミックボードの場合のみ、セットアップウィザードの手順に従います。
 
+   1. ボードの名前を入力し、 [!UICONTROL **次へ**].
    1. 検索と選択 [!DNL Workfront] [!UICONTROL **プロジェクト**] 仕事や問題をボードに持ち込む。
    1. 検索と選択 [!UICONTROL **割当て**] 仕事や問題をボードに持ち込む。
 
@@ -71,13 +68,11 @@ ht-degree: 1%
 
       The [!UICONTROL **追加中のカード**] カウンターは、ボードに表示されるカードの数を示します。 例えば、100 個のタスクと問題を含むプロジェクトを選択した場合、カウンターには 100 と表示されます。 ユーザー割り当てを追加し、そのユーザーがプロジェクト上の 5 つのタスクに割り当てられている場合、カウンターには 5 と表示されます。
 
-   1. （オプション）「 」を選択します。 [!UICONTROL **完了した作業をアーカイブ済みカードとして含める**] 完了したタスクと問題をアーカイブされたカードとしてボードに取り込む。
+   1. （オプション）「 」を選択します。 [!UICONTROL **完了したカードをアーカイブしない**] 完了したタスクと問題を、完了したカードとして「完了」列に表示されるカードとしてボードに取り込む場合。 このオプションを選択しない場合、ボード作成時に完了したカードは、アーカイブされたカードとしてボードに取り込まれます。
 
       >[!NOTE]
       >
       >デフォルトでは、アーカイブされたカードはボードに表示されません。 アーカイブされたカードを表示するには、構成設定をオンにしてから、ボードをフィルターしてアーカイブされたカードを表示する必要があります。 詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) および [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >このオプションを選択しない場合、ボード作成時に完了したカードはボードに表示されません。 完了とマークされた後のカードは、[ 完了 ] 列のボードに残り、カードのフォールオフを設定しない限りアーカイブされません。 詳しくは、 [カードのフォールオフを設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. （オプション）「 [!UICONTROL **詳細フィルターの使用**] をクリックして、追加のフィルターオプションを表示します。
 
