@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -77,12 +77,17 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
 
 <table style="table-layout:auto">
  <col>
-<tbody>
-<td>
-   <p> Adobe産物</p> 
-   </td>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Maestro レコードをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsライセンスが必要です。組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。</p></td>
+   <p> Adobe Workfront</p> 
+   <p>Maestro レコードをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsライセンスが必要です。組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
@@ -97,95 +102,36 @@ AdobeMaestro レコードを相互に接続したり、他のアプリケーシ�
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
-   <td><p>任意（Maestro レコードを作成する場合）</p> 
-<p>Workfrontでプロジェクトを表示するには、以上を操作します。</p>
-  <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Adobe Workfrontライセンスの概要</a>.</p> 
+   <td>
+   <p>任意</p> 
   </td>
   </tr>
-  <tr>
-   <td role="rowheader">アクセスレベル</td>
-   <td> <p>任意（Maestro レコードを作成する場合）</p>
-<p>プロジェクト、Portfolio、プログラムへのアクセス権を表示または高くする</p> 
-<p>グループや会社への追加のアクセス（グループや会社のユーザーが属していない場合）</p>   
+
+<tr>
+   <td role="rowheader"><p>アクセスレベルの設定</p></td>
+   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>オブジェクトの権限</p></td>
-   <td> <p>Maestro レコードとリンクするオブジェクトに対する権限を表示するか、それ以上に設定します  
+   <td role="rowheader"><p>権限</p></td>
+   <td> <p>ワークスペースに対する権限の管理</a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
 </td>
   </tr>
+
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p></td>
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+</td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## レコードを接続
 
@@ -198,8 +144,8 @@ After permssions - replace the table with:
 
   リンクされたレコードのリンクされたフィールドの値は、設定した Maestro ワークスペースまたはサードパーティアプリケーションから自動的にリンクされる Maestro レコードに入力されます。
 
-* Maestro にアクセスできるすべてのユーザーは、Maestro レコード間または Maestro レコードと他のアプリケーションのオブジェクト間の接続を確認できます。 接続先のサードパーティアプリケーションに対する権限に関係なく、接続されたレコードやオブジェクトを表示できます。
-* 他のユーザーの接続を表示および編集できます。 <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Maestro へのアクセス権とワークスペースに対する管理権限を持つすべてのユーザーは、Maestro レコード間または Maestro レコードと他のアプリケーションのオブジェクト間で行う接続を表示できます。 接続先のサードパーティアプリケーションに対する権限に関係なく、接続されたレコードやオブジェクトを表示できます。 <!--check with PM-->
+* 接続されたレコードが存在するワークスペースに対する管理権限を持っている場合は、他のユーザーの接続を表示および編集できます。
 * 1 つの Maestro レコードを別のアプリケーションから 1 つまたは複数のオブジェクトに接続できます。
 * Maestro レコードを他のレコードやオブジェクトとリンクするには、次の条件を満たす必要があります。
 

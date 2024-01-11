@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 44f57d9169a7a2177b639ae3adbd83bfe1551ac8
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3404'
 ht-degree: 0%
 
 ---
@@ -194,10 +194,6 @@ Maestro レコードのコメントエクスペリエンスは、Workfrontオブ
    * 数値
 
    * 数式
-
-     >[!NOTE]
-     >
-     >数式タイプのフィールドは、後日リリースされます。
 
 * テーブルビューの主フィールドは常に固定され、別のフィールドを主フィールドとして設定しない限り、移動できません。
 

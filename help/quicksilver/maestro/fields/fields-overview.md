@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
@@ -101,7 +101,7 @@ hide: yes
 
 * Workfrontのフィールドは、Maestro のレコードタイプをWorkfrontのオブジェクトタイプに接続し、Workfrontのオブジェクトからリンクされたフィールドまたはルックアップフィールドを追加した場合にのみ、Maestro からアクセスできます。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
 
-* 自分または他のユーザーが作成したフィールドの設定を表示および更新できます。 <!--this will change with access/ permissions-->
+* フィールドが属するワークスペースに対する管理権限を持っている場合は、自分または他のユーザーが作成したフィールドの設定を表示および更新できます。
 
 * 1 つのレコードタイプに対して最大 500 個のフィールドを指定できます。
 

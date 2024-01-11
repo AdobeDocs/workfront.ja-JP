@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -38,15 +38,20 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe産物</p> </td>
+   <p> 製品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織がAdobeMaestro ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -63,74 +68,27 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
   </tr>
 
 <tr>
-   <td role="rowheader">アクセスレベル</td>
-   <td> <p>任意</p>  
+   <td role="rowheader"><p>アクセスレベルの設定</p></td>
+   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>権限</p></td>
+   <td> <p>ワークスペースに対する権限の管理</a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
+   <p><b>メモ</b></p>
+   ワーカーとリクエストのライセンスユーザーは、ワークスペースを作成できませんが、管理権限を持っている場合は削除できます。 
 </td>
   </tr>
 <tr>
-   <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -145,8 +103,7 @@ After permssions - replace the table with:
 
 ## ワークスペースの削除に関する考慮事項
 
-* 自分または組織内の任意のユーザーが作成したワークスペースを削除できます。 <!--this will change with access levels and permissions-->
-* ワークスペースを削除すると、すべてのレコードタイプ、分類、およびそのフィールドも削除されます。 <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
+* ワークスペースを削除すると、すべてのレコードタイプ、分類、レコード、およびそのフィールドも削除されます。
 * 削除したワークスペースとそれらに含まれる情報は復元できません。
 
 ## ワークスペースの削除

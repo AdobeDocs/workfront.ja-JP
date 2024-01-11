@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '784'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 1%
     <tr>
 <tr>
 <td>
-   <p> Adobe産物</p> </td>
+   <p> 製品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,8 +71,14 @@ ht-degree: 1%
   </tr>
 
 <tr>
-   <td role="rowheader">アクセスレベル</td>
-   <td> <p>任意</p>  
+   <td role="rowheader">アクセスレベルの設定</td>
+   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>権限</p></td>
+   <td> <p>ビューに対する権限の管理</p>  
 </td>
   </tr>
 
@@ -84,71 +90,12 @@ ht-degree: 1%
  </tbody>
 </table>
 
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 ## Maestro ビューを使用する際の考慮事項
 
 * マエストロのビューは、レコードのタイプに固有です。 同じビューを 2 つの異なるレコードタイプに適用することはできません。
-* 作成したビューは、Maestro 領域にアクセスするすべてのユーザに表示されます。 <!-- edit this when we have permissions and the views will be shared only to be visible by others-->
-  <!-- this is not yet possible: * You can share views with others if you want them to also apply them to the same record types.-->
+* 作成したビューは、自分とそのビューを共有しているユーザーにのみ表示されます。
 * オペレーショナルレコードタイプのビューの作成は、分類レコードタイプのビューの作成と同じです。
-* ビューを修正または削除すると、Maestro 領域にアクセスできるすべてのユーザに対して、ビューが変更および削除されます。
+* ビューを変更または削除すると、そのビューに対する権限を持つすべてのユーザーに対して、ビューが変更および削除されます。
 * 次の要素は、Maestro の各ビューに固有です。
 
    * フィルター
@@ -163,14 +110,13 @@ When we release permissions to views:
   >
   > Maestro は現在ベータ状態なので、一部のビュー要素は両方のビューで使用できない場合があります。
 
-
 この記事では、Maestro ビューに関する次の情報について説明します。
 
 * [ビューの作成と編集](#create-or-edit-record-views)
 * [ビューの削除](#delete-views)
   <!--* [Duplicate a view](#duplicate-views)-->
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-  <!--* [Share a view](#share-views) - not possible yet-->
+* [ビューの共有](#share-a-view)
 
 ## テーブルビューとタイムラインビューの類似点と相違点
 
@@ -200,7 +146,9 @@ When we release permissions to views:
 
 ## ビューの作成または編集 {#create-or-edit-views}
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/main-menu-shell.png) 左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+
 最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
@@ -249,6 +197,11 @@ When we release permissions to views:
 1. クリック **削除** をクリックして確定します。 <!--ensure there is not another saving step here?!-->
 
    ビューは、Maestro 領域にアクセスできるすべてのユーザに対して削除され、復元できません。
+
+## ビューの共有
+
+ビューの共有について詳しくは、 [ビューの共有](/help/quicksilver/maestro/access/share-views.md).
+
 
 <!--not possible yet - August 30, 2023: 
 

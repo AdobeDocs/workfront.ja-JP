@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -106,12 +106,6 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## レコードタイプに手動でレコードを追加してレコードを作成する <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 レコードタイプのページのテーブルビューでレコードを作成できます。
@@ -146,8 +140,8 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 
 1. （オプション）次のキーボードショートカットを使用して、新しいレコードの追加の取り消しまたはやり直しをおこないます。
 
-   * **取り消し**: CTRL/CMD + Z
-   * **やり直し**: CTRL/CMD + Shift + Z
+   * Ctrl + Z( Macの場合は⌘ + Z)：変更を元に戻します。
+   * Ctrl + Shift + Z(Macの場合は⌘ + Shift + Z)：変更をやり直します。
 
 ## 別のアプリケーションからレコードを接続してレコードを作成する
 

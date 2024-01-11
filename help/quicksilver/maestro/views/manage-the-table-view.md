@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2314'
 ht-degree: 3%
 
 ---
@@ -46,9 +46,14 @@ Maestro ビューとその管理方法については、 [レコードビュー�
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe産物</p> </td>
+   <p> 製品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ Maestro ビューとその管理方法については、 [レコードビュー�
   </tr>
 
 <tr>
-   <td role="rowheader">アクセスレベル</td>
-   <td> <p>任意</p>  
+   <td role="rowheader">アクセスレベルの設定</td>
+   <td> <p>Maestro のアクセスレベルコントロールはありません </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>権限</p></td>
+   <td> <p>ビューに対する権限の管理</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">レイアウトテンプレート</td>
    <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
@@ -82,63 +94,6 @@ Maestro ビューとその管理方法については、 [レコードビュー�
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 ## テーブルビューの管理 {#manage-a-table-view}
 
@@ -212,8 +167,6 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
    >       * 数値
    >       * 数式
    >
-   >         数式フィールドは、後日リリースされます。
-   >
    >   * 主フィールドは常にフリーズし、移動できません。 別の位置に移動する必要がある場合は、別のフィールドを選択してプライマリフィールドを置き換えることができます。
    >
    >   * テーブルビューの主フィールドを変更すると、その主フィールドを選択する他のすべてのユーザーのビューに影響します。
@@ -267,7 +220,7 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 1. レコードタイプのページに移動し、 **テーブル** ビューを選択します。
 1. 記事の説明に従って、レコード（または行）の追加を開始します。 [レコードを作成](../records/create-records.md).
 
-   テーブルビューに追加したレコードは直ちに保存され、Maestro にアクセスするすべてのユーザに表示されます。 <!--this will change with permissions-->
+   テーブル表示で追加したレコードは直ちに保存され、ワークスペースに対する表示権限以上を持つすべてのユーザーに表示されます。
 
 1. （オプション）1 つの行で 1 つ以上のレコードを選択し、 **取り扱い** アイコン ![](assets/handle-icon.png) をレコード名の左側に追加して、行を並べ替えます。
 

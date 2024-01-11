@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -91,12 +91,6 @@ Adobe・マエストロでは、不要になったレコードを削除できま
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## レコードの削除に関する考慮事項
 
 * 自分または別のユーザーが作成したレコードを削除できます。
@@ -157,5 +151,5 @@ Adobe・マエストロでは、不要になったレコードを削除できま
 
 1. （オプション）次のキーボードショートカットを使用して、レコードの削除の取り消しとやり直しを行います。
 
-   * **取り消し**: CTRL/CMD + Z
-   * **やり直し**: CTRL/CMD + Shift + Z
+   * Ctrl + Z( Macの場合は⌘ + Z)：変更を元に戻します。
+   * Ctrl + Shift + Z(Macの場合は⌘ + Shift + Z)：変更をやり直します。
