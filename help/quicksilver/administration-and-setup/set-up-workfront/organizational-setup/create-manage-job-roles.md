@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 担当業務の作成と管理
 description: As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者アクセス権を持つユーザーは、ユーザーに割り当て可能なジョブロールを作成し、組織に関係のないデフォルトのジョブロールを削除できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者
       <td>
         <p>このジョブの役割に関連付けられている通貨を選択します。 これが通貨です。 [!DNL Workfront] は、このジョブロールに関連付けられたコストと売上高の計算に使用します。 </p> 
         <p><span>これは、 [!DNL Workfront] 管理者（[!UICONTROL 設定 ] 領域）で設定できます。プロジェクトに関連付けられている通貨とは異なる通貨を使用することもできます。</span> </p> 
-        <p>ヒント：このフィールドは、システムの [!UICONTROL 為替レート ] 領域で使用できる通貨のみが表示されます。</p> 
+        <p>ヒント：このフィールドは、システムの [!UICONTROL 為替レート ] 領域で使用できる通貨のみが表示されます。 設定されている通貨が 1 つだけの場合、このフィールドは表示されません。</p> 
        <p><span>[!UICONTROL 基本通貨 ] の設定について詳しくは、 [!DNL Workfront]を参照してください。</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>.</p> <p><span>プロジェクトの通貨の変更について詳しくは、</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">プロジェクトの通貨を変更</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

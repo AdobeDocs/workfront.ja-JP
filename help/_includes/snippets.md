@@ -1,7 +1,7 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2285'
 ht-degree: 1%
 
 ---
@@ -318,6 +318,10 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 ## 手順 1 — リソース設定 — {#step1-to-resourcing}
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL リソース]**.
+
+## 手順 1 — 使用率レポートの表示 — {#step1-to-utilization-report}
+
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL リソース]**&#x200B;を、 [!UICONTROL **使用率**] をクリックします。
 
 <!-- Review and approve work -->
 
