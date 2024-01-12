@@ -6,9 +6,9 @@ description: 作業内容を [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan*</strong>
+   <td><strong>[!DNL Adobe Workfront] プラン</strong>
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] ライセンス*</strong>
+   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
    </td>
    <td>現在： [!UICONTROL プラン ] <br>
    新規： [!UICONTROL Standard]
@@ -67,13 +67,12 @@ ht-degree: 0%
   <tr>
    <td>アクセスレベル設定*
    </td>
-   <td>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。 詳しくは、 [!DNL Workfront] 管理者向け： <strong>ユーザーに完全な管理アクセス権を付与する</strong>.
+   <td>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。
    </td>
   </tr>
 </table>
 
-
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## 前提条件

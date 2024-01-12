@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: a5cad262eff029be443457cbd8dddf4c65789b35
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,24 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
    <td> <p>新規：標準</p>
  <p>または</p> 
 <p>現在：プラン</p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プランナー以上（リマインダー通知への管理アクセス権を持つ）</p> <p>プランのユーザー管理アクセス権の付与については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定の領域に対する管理者アクセス権をユーザーに付与する</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プランナー以上（リマインダー通知への管理アクセス権を持つ）</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## すべてのユーザーに対するイベント通知の設定
 

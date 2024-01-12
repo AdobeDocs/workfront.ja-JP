@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
+source-git-commit: 32441df90b915077f57ead791116dcbd32c9557a
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,18 @@ As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td>
    <p>新規：標準</p>
    <p>現在： [!UICONTROL プラン ]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ジョブロールへの管理者アクセス</p> <p><b>注意</b>：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ジョブロールへの管理者アクセス</p> </td> 
   </tr> 
  </tbody> 
 </table>

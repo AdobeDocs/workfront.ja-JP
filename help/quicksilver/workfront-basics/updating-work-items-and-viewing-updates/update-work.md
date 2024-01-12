@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ba0dc486dfb104eb9fb8c964875f77cf24f520fd
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '4189'
+source-wordcount: '4139'
 ht-degree: 1%
 
 ---
@@ -124,31 +124,28 @@ After the monthly releases to Production, the same features are also available i
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfrontプラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfrontライセンス</strong></td> 
    <td> 
    <p>現在：問題およびドキュメントに対する要求以上、その他のすべてのオブジェクトに対する確認以上</p>
    <p>新規： Contributor 以降（問題およびドキュメントの場合）：他のすべてのオブジェクトの場合は Light 以上</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>更新先のオブジェクトのアクセスを表示または編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>更新先のオブジェクトのアクセスを表示または編集</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
-   <td> <p>オブジェクトへのアクセスの表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>オブジェクトへのアクセスの表示</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 作業項目に更新を追加する
 

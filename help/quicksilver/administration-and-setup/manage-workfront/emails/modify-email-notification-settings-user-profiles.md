@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Adobe Workfront管理者、または Planner のアクセスレベルで他の�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
    <td> <p>新規プラン：標準 </p>
  <p>または</p> 
 <p>現在のプラン：プラン </p> 
@@ -47,7 +47,7 @@ Adobe Workfront管理者、または Planner のアクセスレベルで他の�
  </tbody> 
 </table>
 
-&#42;保有しているプランまたはライセンスの種類を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 複数のユーザーの電子メール通知設定を変更する
 

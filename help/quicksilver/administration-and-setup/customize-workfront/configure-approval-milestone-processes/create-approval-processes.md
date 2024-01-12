@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2163'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
    <td> <p>新規プラン：標準 </p>
  <p>または</p> 
 <p>現在のプラン：プラン </p> 
@@ -62,12 +62,12 @@ ht-degree: 1%
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>Workfront管理者である場合や、承認プロセスに対する管理者アクセス権を持っている場合は、システムレベルの承認プロセスを作成することも、特定のグループに対してグループレベルの承認プロセスを作成することもできます。</p> 
-   <p>グループ管理者は、管理するグループに対してグループレベルの承認プロセスを作成できます。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <p>グループ管理者は、管理するグループに対してグループレベルの承認プロセスを作成できます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 作業項目のシステムレベルまたはグループレベルのグローバル承認プロセスを作成する
 

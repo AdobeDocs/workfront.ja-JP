@@ -6,9 +6,9 @@ description: ユーザーからの追加の介入なしに、ユーザーに対�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
    <td> <p>任意</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
    <td> <p>新規：標準 </p>
  <p>または</p> 
 <p>現在：プラン </p> 
@@ -44,12 +44,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タイムシートに対する管理者アクセス権が必要です。 </p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">特定の領域に対する管理者アクセス権をユーザーに付与する</a>.</p> <p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>タイムシートに対する管理者アクセス権が必要です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## タイムシートプロファイルを作成または編集する
 

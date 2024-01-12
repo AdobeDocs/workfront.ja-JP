@@ -6,9 +6,9 @@ description: The [!DNL Adobe Workfront] [!DNL Outlook] アドインでは、キ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ The [!DNL Adobe Workfront] [!DNL Outlook] アドインでは、次のキーを�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> 
    <p>新しいプラン： [!UICONTROL Standard]</p> 
    <p>現在のプラン：[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
@@ -52,7 +52,7 @@ The [!DNL Adobe Workfront] [!DNL Outlook] アドインでは、次のキーを�
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
