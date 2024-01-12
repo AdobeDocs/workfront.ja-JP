@@ -4,12 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: レガシーフォームビルダーを使用したカスタムフォームへのセクション区切りの追加
 description: カスタムフォームのカスタムフィールドとウィジェットを、見出し付きのセクションにグループ化できます。 これは、フォームに入力するユーザーに、組織化されたエクスペリエンスを提示する場合に役立ちます。 また、特定のカスタムフィールドとウィジェットへのアクセスを特定のユーザーに制限する必要がある場合は、それらをセクションに配置し、そのセクションへのアクセス権をそれらのユーザーにのみ付与することができます。
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -83,12 +84,12 @@ ht-degree: 0%
       <td>ユーザーにセクションの目的を説明する場合は、テキストを入力します。 これは、カスタムフォームのセクションのラベルの下に表示されます。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">ロジックの追加</td> 
-      <td>表示ロジックを使用して、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定します。 詳しくは、 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">表示ロジックの追加とカスタムフォームへのロジックのスキップ</a>.</td> 
+      <td role="rowheader"><p>ロジックの追加</p></td> 
+      <td><p>表示ロジックを使用して、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定します。</p><p><strong>注意：</strong> セクション区切りの下の個々のフィールドに適用された表示ロジックがすべて適用され、ロジックの結果としてすべて非表示になった場合、セクション全体がカスタムフォームで非表示になります。 これは、表示ロジックが断面分割に適用されていない場合でも発生します。</p><p>詳しくは、 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">表示ロジックの追加とカスタムフォームへのロジックのスキップ</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>アクセスを許可</p> </td> 
-      <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。 
+      <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。
        <p>以下の権限をで使用できます。 <b>オブジェクトにこのアクセス権を持つユーザーは、フィールド値を表示できます</b>:</p> 
          <ul>
           <li><strong>表示</strong>：オブジェクトに対する権限の表示</li>
@@ -108,7 +109,7 @@ ht-degree: 0%
          </ul> </li> 
        </ul> 
        <p>オブジェクトに対する権限については、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">オブジェクトに対する共有権限の概要</a>.</p> 
-       <p><b>メモ</b>:  
+       <p><b>注意</b>:  
        <ul> 
        <li> <p>ここで指定した権限を持たないユーザーは、セクションのカスタムフィールドとウィジェットを表示できません。 </p> <p>これは、フィールドの値をレポートに表示する場合や、テキストモードのレポートで計算フィールドで使用する場合にも当てはまります。</p> </li> 
        <li> <p>複数のオブジェクトタイプをフォームに関連付けると、これらの手順で使用できる表示および編集権限が変更される場合があります。 詳しくは、 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">複数のオブジェクトタイプが、カスタムフォームのセクション区切り権限に与える影響</a> 」を参照してください。</p> </li> 
