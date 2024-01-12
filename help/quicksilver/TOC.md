@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 1%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 1%
          * [ダッシュボードでレポートを整理する方法を説明します。](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [レポートの使用状況の表示](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * カレンダー {#calendars}
-         * [カレンダー](reports-and-dashboards/reports/calendars/calendars.md)
+         * [カレンダー：記事のインデックス](reports-and-dashboards/reports/calendars/calendars.md)
          * [カレンダーレポートの概要](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [カレンダーレポートでのカスタム日付フィールドの使用](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [カレンダーレポートでの計画日の使用](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 1%
       * [レコードタイプを接続](maestro/architecture/connect-record-types.md)
       * [レコードタイプを編集](maestro/architecture/edit-record-types.md)
       * [ワークスペースの削除](maestro/architecture/delete-workspaces.md)
+      * [ワークスペースを編集](maestro/architecture/edit-workspaces.md)
       * [レコードタイプを削除](maestro/architecture/delete-record-types.md)
       * [レコードタイプとレコードの接続例](maestro/architecture/example-connect-record-types-and-records.md)
       * [Workspace テンプレートのリスト](maestro/architecture/workspace-templates.md)

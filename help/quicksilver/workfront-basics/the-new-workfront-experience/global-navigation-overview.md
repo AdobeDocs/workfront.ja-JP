@@ -5,9 +5,9 @@ description: 上部ナビゲーションバー — 新しい [!DNL Adobe Workfro
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー]
      <li>[!UICONTROL プロジェクト ]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">プロジェクト：記事インデックス</a></li> 
      <li>[!UICONTROL レポート ]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">レポート</a></li> 
      <li>[!UICONTROL ダッシュボード ]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">ダッシュボード</a></li> 
-     <li>[!UICONTROL カレンダー ]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">カレンダー</a></li> 
+     <li>[!UICONTROL カレンダー ]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">カレンダー：記事のインデックス</a></li> 
      <li>[!UICONTROL リソース ]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">リソース管理 </a></li> 
      <li>[!UICONTROL チーム ]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">チームの作成と管理</a></li> 
      <li>[!UICONTROL ユーザー ]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">ユーザーの作成と管理</a></li> 

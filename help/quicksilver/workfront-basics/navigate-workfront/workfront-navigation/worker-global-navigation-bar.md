@@ -7,9 +7,9 @@ description: メインメニューは、 [!DNL Adobe Workfront] 管理者。 デ
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ As a [!UICONTROL 作業者]の主な責任は、作業を完了することで�
 
 * **[!UICONTROL ダッシュボード]**：自分と共有されているダッシュボードがここに表示されます。 詳しくは、 [ダッシュボード](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL カレンダー]**：共有されているカレンダーがここに表示されます。 詳しくは、 [カレンダー](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL カレンダー]**：共有されているカレンダーがここに表示されます。 詳しくは、 [カレンダー：記事のインデックス](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL チーム]**：チームに割り当てられたタスクとタスクがこの領域に表示されます。 労働者として、あなたは唯一の存在です [!DNL Workfront] 表示されるユーザー [!UICONTROL チーム] 領域にデフォルトで設定されています。
 

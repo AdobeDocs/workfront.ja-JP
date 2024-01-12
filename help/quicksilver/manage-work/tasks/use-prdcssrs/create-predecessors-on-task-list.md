@@ -6,9 +6,9 @@ description: 先行タスク（または先行タスクのみ）を使用して�
 author: Alina
 feature: Work Management
 exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -36,27 +36,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td> <p>新規：標準 </p><p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 </p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクおよびプロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>タスクおよびプロジェクトに対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 先行タスクの作成
 
@@ -70,6 +70,22 @@ ht-degree: 0%
 1. 内側をクリック **先行タスク** 列。
 1. 選択したタスクの先行タスクとして指定するタスク番号を入力し、 **入力**.
 
+   >[!TIP]
+   >
+   >プロジェクト間の先行タスクを追加するには、次の手順を実行します。
+   >
+   >1. 次をクリック： **プランモード** アイコンと選択 **自動保存**.
+   >
+   >1. 先行タスクのプロジェクトの参照番号をコロンとタスクの番号の後に入力します。 例えば、「765021:12」と入力します。 これは、先行プロジェクトの [ 参照番号 ] が765021で、先行プロジェクトの [ タスク番号 12] であることを示します。
+   >
+   >1. この先行タスクの依存タイプを追加します。 詳しくは、 [プロジェクト間の先行タスクの作成](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   >
+   >押す **入力**.
+   >
+   >**重要**
+   >
+   >タスクリストが手動保存モードで表示されている場合は、プロジェクト間の先行タスクを追加できません。
+
    先行タスクが完了とマークされると、先行タスクのアイコンが緑色に変わります。 これは、依存タスクの作業準備ができたことを示します。
 
    [ 先行タスク ] 列で使用できる関係の種類の詳細については、「 [タスクの先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [タスクの先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
@@ -78,7 +94,7 @@ ht-degree: 0%
 
 先行タスクの詳細は、タスクリストからすばやく表示できます。
 
-1. タスク一覧で、 **先行タスク** 列。
+1. タスクの一覧で、 **先行タスク** 列。
 
    先行タスクの詳細を示すボックスが表示されます。
 
@@ -88,15 +104,15 @@ ht-degree: 0%
 
    **旧名称：** 参照される先行者の名前。 先行タスクのタスク番号が含まれます。 タスク名をクリックして開きます。 上記の例では、前者は「実稼動/実行/配信」です。
 
-   **プロジェクト名：** 先行プロジェクトが存在するプロジェクトの名前。 先行プロジェクトがタスクと同じプロジェクトに属する場合は現在のプロジェクト、先行プロジェクトが別のプロジェクトに属する場合はクロスプロジェクトとして識別されます。 上記の例では、プロジェクト名は Digital Asset Production (Integrated) - Project です。 プロジェクト間の先行タスクの詳細については、 [プロジェクト間の先行タスクの作成](../../tasks/use-prdcssrs/cross-project-predecessors.md).
+   **プロジェクト名：** 先行プロジェクトが存在するプロジェクトの名前。 先行プロジェクトがタスクと同じプロジェクトに属する場合は現在のプロジェクト、先行プロジェクトが別のプロジェクトに属する場合はクロスプロジェクトとして識別されます。 上記の例では、プロジェクト名は Digital Asset Production (Integrated) - Project です。 プロジェクト間の先行タスクの詳細については、「 [プロジェクト間の先行タスクの作成](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
    プロジェクトの詳細を展開して、プロジェクトの計画開始日と終了日、条件、ステータス、完了率、所有者を確認できます。 クロスプロジェクトの場合は、「 **プロジェクトを見る** をクリックして、プロジェクトを開きます。
 
    **ID:** 先行プロジェクトが存在するプロジェクトの参照番号。
 
-   **予定開始：** 先行タスクの計画開始日。
+   **予定開始：** 先行タスクの計画開始日です。
 
-   **計画終了：** 先行タスクの計画完了日。
+   **計画終了日：** 先行タスクの計画完了日。
 
    **先行タスクの数：** 参照先の先行タスクの数。 上記の例では、参照される先行リソースに 1 つの先行リソースが含まれています。
 

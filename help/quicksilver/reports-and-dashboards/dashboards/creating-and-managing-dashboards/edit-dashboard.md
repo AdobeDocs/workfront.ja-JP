@@ -6,10 +6,10 @@ description: ダッシュボードの目的は、情報にすばやくアクセ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 0%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 * レポート
 
-   レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * カレンダー
 
-   カレンダーの作成について詳しくは、 [カレンダー](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  カレンダーの作成について詳しくは、 [カレンダー：記事のインデックス](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * 外部ページ
 
-   外部ページの作成について詳しくは、 [外部 Web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  外部ページの作成について詳しくは、 [外部 Web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 これらの項目を作成してダッシュボードに追加した後は、ダッシュボードを編集して、そのダッシュボードに項目を追加したり、既存の項目を削除したり、ダッシュボード情報を編集したりできます。
 
@@ -53,16 +53,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
    <td> <p>ダッシュボードに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 前提条件
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 ## ダッシュボードの編集
 
 1. 編集するダッシュボードに移動します。
-1. クリック **ダッシュボードのアクション**&#x200B;を選択し、「 **編集**.
+1. クリック **ダッシュボードのアクション**&#x200B;を選択し、次に **編集**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
@@ -83,10 +83,10 @@ ht-degree: 0%
 
 1. 次のフィールドの編集を検討してください。
 
-   * **名前**:ダッシュボードの名前を編集します。
-   * **説明**:ダッシュボードの説明を指定します。
+   * **名前**：ダッシュボードの名前を編集します。
+   * **説明**：ダッシュボードの説明を指定します。
 
-1. 内 **使用可能なレポートおよびカレンダー** セクションに、レポート、カレンダーまたは外部ページの名前を **名前またはタイプで検索…** フィールドを開き、レポートまたはカレンダーをレイアウトパネルから右にドラッグ&amp;ドロップします。
+1. Adobe Analytics の **使用可能なレポートおよびカレンダー** セクションに、レポート、カレンダーまたは外部ページの名前を **名前またはタイプで検索…** フィールドを開き、レポートまたはカレンダーをレイアウトパネルから右にドラッグ&amp;ドロップします。
 
    >[!NOTE]
    >
@@ -100,4 +100,4 @@ ht-degree: 0%
    ダッシュボードで既存の外部ページを見つけ、その上にマウスを移動して、 **編集** 外部ページを編集するアイコン。\
    ダッシュボードでの外部ページの追加や編集について詳しくは、 [外部 Web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. クリック **保存して閉じる**.
+1. 「**保存して閉じる**」をクリックします。

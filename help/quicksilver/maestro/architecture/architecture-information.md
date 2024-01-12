@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -55,5 +55,6 @@ Maestro を使用すると、組織が使用するオブジェクトの種類（
 * [レコードタイプを接続](../architecture/connect-record-types.md)
 * [レコードタイプとレコードの接続例](../architecture/example-connect-record-types-and-records.md)
 * [ワークスペースの削除](../architecture/delete-workspaces.md)
+* [ワークスペースを編集](/help/quicksilver/maestro/architecture/edit-workspaces.md)
 * [レコードタイプを削除](../architecture/delete-record-types.md)
 

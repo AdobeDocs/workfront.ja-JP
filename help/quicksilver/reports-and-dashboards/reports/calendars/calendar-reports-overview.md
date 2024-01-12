@@ -7,9 +7,9 @@ description: カレンダーレポートは、作業内容を視覚的に表現�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 <!-- Audited: 01/2024 -->
 
-カレンダーレポートは、実際には作業内容を視覚的に表現する動的なレポートです。 次のオブジェクトの日付情報をカレンダーレポートに表示できます。
+カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 次のオブジェクトの日付情報をカレンダーレポートに表示できます。
 
 * タスク
 * イシュー

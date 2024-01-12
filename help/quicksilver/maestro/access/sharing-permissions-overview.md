@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '470'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ Maestro では、以下のオブジェクトを共有できます。
 * Maestro でワークスペースを作成するには、次のライセンスが必要です。
 
    * 新しい価格モデル：標準ライセンス
-   * 現在の価格モデル：勤務先またはそれ以上のライセンス
+   * 現行価格モデル：プラン・ライセンス。
 
   詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * システム管理者は、他のユーザーが作成したワークスペースを管理および共有できます。
