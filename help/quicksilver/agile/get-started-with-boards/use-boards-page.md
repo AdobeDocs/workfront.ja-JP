@@ -6,14 +6,16 @@ description: The [!UICONTROL ボード] 「ダッシュボード」には、自�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # ボードダッシュボードの使用
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -40,30 +42,35 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> 
+   <p>新規： [!UICONTROL Contributor] 以降</p> 
+   <p>または</p>
+   <p>現在： [!UICONTROL リクエスト ] 以降</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## ボードとワークストリームのフィルタリング {#filter-boards}
 
 ボードダッシュボードにフィルターを適用して、アクティブなボード、アーカイブされたボード、またはすべてのボードやワークストリームを表示できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ボード]**.
 1. クリック [!UICONTROL **フィルター**] 「ボード」領域または「ワークストリーム」領域で、 **[!UICONTROL すべて]**, **[!UICONTROL アクティブ]**&#x200B;または **[!UICONTROL アーカイブ済み]**.
 
    デフォルト以外のフィルターがダッシュボードに適用されると、フィルターアイコンにインジケーターが表示されます ![ダッシュボードに適用するフィルター](assets/boards-filterapplied-30x30.png).
 
 ## ボードを並べ替え
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ボード]**.
 1. ボードのリストを並べ替えるには、 [!UICONTROL **並べ替え**]. ページのデフォルトの並べ替えオプションは次のとおりです。 **[!UICONTROL 変更日]**. また、ページをボードで並べ替えることもできます **[!UICONTROL 名前]**.
 
    選択 **[!UICONTROL 逆順]** をクリックして、変更日または名前の逆の順序でボードを並べ替えます。 並べ替えアイコンの矢印が上を向くと、逆順が適用されます。 矢印が下を指すと、標準の順序が適用されます。
@@ -74,7 +81,7 @@ ht-degree: 0%
 
 「ボード」領域で特定のボードを検索したり、「ワークストリーム」領域で特定のワークストリームを検索したりできます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ボード]**.
 1. クリック [!UICONTROL **検索**] 検索語句を入力します。 次に、Enter キーを押します。
 
    タイトルに検索語を含むすべてのボードまたはワークストリームが表示されます。
@@ -93,7 +100,7 @@ ht-degree: 0%
 >
 >ワークストリームをアーカイブすると、そのすべてのボードがアーカイブされます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ボード]**.
 1. 次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL アーカイブ]**.
 
    ワークストリームでは、右側のメニューが「 [!UICONTROL **ワークストリームを表示**] 」ボタンをクリックします。
@@ -114,7 +121,7 @@ ht-degree: 0%
 >
 >削除できるのは、自分で作成したボードとワークストリームのみで、追加したボードとワークストリームは削除できません。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL ボード]**.
 1. 次をクリック： **[!UICONTROL その他]** メニュー ![[!UICONTROL その他のメニュー]](assets/more-icon-spectrum.png) を選択します。 **[!UICONTROL 削除]**.
 
    ワークストリームでは、右側のメニューが「 [!UICONTROL **ワークストリームを表示**] 」ボタンをクリックします。

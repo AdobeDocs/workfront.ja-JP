@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 description: Adobe Workfrontの管理者は、プロジェクト、タスクおよびイシューのカスタムステータスを作成できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: f3785c66b979cc95bf1d2d2ccacbdeefe0ef0967
+source-git-commit: 69c1b92526d3607b8ed21ce29c118de08c33a0ee
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
 
 # ステータスの作成または編集
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -39,28 +41,34 @@ Adobe Workfrontの管理者は、プロジェクト、タスクおよびイシ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td>
+     <p>新規：標準</p>
+     <p>または</p>
+     <p>現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront管理者である。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
+
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## カスタムステータスの作成または編集
 
 組織全体または単一のグループで使用するカスタムステータスを追加できます。
 
-組織全体のカスタムステータスを作成する場合、システム内のすべてのグループが編集せずにそのステータスを使用できるように設定できます。 また、グループ管理者が自分のグループに対して変更を加えられるように設定することもできます。詳しくは、 [グループのステータスの作成または編集](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+組織全体のカスタムステータスを作成する場合、システム内のすべてのグループが編集せずにそのステータスを使用できるように、カスタムステータスを設定できます。 また、グループ管理者が自分のグループに対して変更を加えられるように設定することもできます。詳しくは、 [グループのステータスの作成または編集](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL 設定]** ![設定アイコン](/help/_includes/assets/gear-icon-setup.png).
 
 1. 左側のパネルで、 **プロジェクト環境設定** > **ステータス**.
 
 1. （条件付き）システム全体で使用するステータスを作成または編集する場合は、 **システムステータス** が右上隅のボックスで選択されている。
 
-   ![](assets/system-statuses-in-upper-rt-corner.jpg)
+   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    または
 
@@ -68,9 +76,9 @@ Adobe Workfrontの管理者は、プロジェクト、タスクおよびイシ�
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. オブジェクトタイプのタブを選択します (**プロジェクト**, **タスク**&#x200B;または **問題**) をクリックします。
+1. オブジェクトタイプの「 」タブを選択します (**プロジェクト**, **タスク**&#x200B;または **問題**) をクリックします。
 
-1. 新しいステータスを作成する場合は、 **新しいステータスの追加**.
+1. 新しいステータスを作成する場合は、「 **新しいステータスの追加**.
 
    または
 
@@ -94,7 +102,7 @@ Adobe Workfrontの管理者は、プロジェクト、タスクおよびイシ�
      </tr> 
      <tr> 
       <td role="rowheader">色</td> 
-      <td> <p>カラーフィールドをクリックし、スウォッチパネルから色を選択して、ステータスの色をカスタマイズします。 また、「 」フィールドに 16 進数を入力することもできます。</p> <p>ステータスの色は、ユーザーがオブジェクトを表示したときにWorkfrontの右上隅に表示されます。</p> <img src="assets/status-color.png" style="width: 350;height: 211;"> </p> </td> 
+      <td> <p>カラーフィールドをクリックし、スウォッチパネルから色を選択して、ステータスの色をカスタマイズします。 また、「 」フィールドに 16 進数を入力することもできます。</p> <p>ステータスの色は、ユーザーがオブジェクトを表示したときに、Workfrontの右上隅に表示されます。</p> <img src="assets/status-color.png" style="width: 350;height: 211;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">同等</td> 
@@ -106,16 +114,16 @@ Adobe Workfrontの管理者は、プロジェクト、タスクおよびイシ�
      </tr> 
      <tr> 
       <td role="rowheader">ステータスを非表示</td> 
-      <td> <p>（プロジェクトおよびタスクのステータスのみ）</p> <p>ユーザーにステータスを表示しない場合は、このオプションを有効にします。 無効にした場合（デフォルト設定）、システム内のすべてのユーザーがステータスを使用できます。</p> <p>4 つの問題タイプ（バグレポート、変更管理、問題、リクエスト）をすべて無効にすると、問題ステータスを非表示にできます。</p> </td> 
+      <td> <p>（プロジェクトおよびタスクのステータスのみ）</p> <p>ユーザーにステータスを表示しない場合は、このオプションを有効にします。 このオプションを無効にした場合（デフォルト設定）、システム内のすべてのユーザーがステータスを使用できます。</p> <p>4 つの問題タイプ（バグレポート、変更管理、問題、リクエスト）すべてでこのオプションを無効にすると、問題ステータスを非表示にできます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">すべてのグループについてロック</td> 
       <td>
-       <p>ステータスがロックされている場合、システム全体のユーザーはそのステータスを表示して使用でき、グループ管理者はそのステータスを自分のグループ用にカスタマイズすることはできません。</p> 
+       <p>ステータスがロックされると、システム全体のユーザーがそのステータスを表示して使用でき、グループ管理者はそのステータスを自分のグループ用にカスタマイズすることはできません。</p> 
        <p>ステータスがロック解除されると、グループ管理者は個々のグループに合わせてカスタマイズできます。</p>
 
    <div>
-       <p>システム承認プロセスでは、ロック済みステータスとロック解除済みステータスの両方を使用できます。 ロックが解除されたシステムステータスのシステム承認プロセスを作成すると、システム全体のユーザーは、システム内の任意のプロジェクト、タスクまたは問題に承認プロセスを添付できます。</p>
+       <p>システム承認プロセスでは、ロック済みステータスとロック解除済みステータスの両方を使用できます。 ロックが解除されたシステムステータスのシステム承認プロセスを作成すると、システム全体のユーザーは、承認プロセスをシステム内の任意のプロジェクト、タスクまたは問題に関連付けることができます。</p>
        <p> 次のシナリオでは、警告メッセージが表示され、ステータスをロック解除した結果をユーザーとユーザーが理解しやすくなります。</p>
        <ul>
        <li>管理者は、承認プロセスで使用されるシステムレベルのステータスのロックを解除します。 自分のグループのロック解除ステータスが削除される可能性があるというメッセージが表示され、グループメンバーが自分のグループに割り当てられたオブジェクトに対して、その承認プロセスを適切に使用できなくなります。</li>

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 1%
 
 ---
@@ -645,9 +645,9 @@ ht-degree: 1%
          * [レポートを非表示にする](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * E メール {#emails}
          * [メール](administration-and-setup/manage-workfront/emails/emails.md)
-         * [メール通知](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [電子メール通知：記事インデックス](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [イベント通知の設定](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [使用可能なイベント通知](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [使用可能なイベント通知 a](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [すべてのグループのイベント通知のロックを解除](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [イベント通知の件名行](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [ユーザーの電子メール通知設定を変更する](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -694,8 +694,8 @@ ht-degree: 1%
    * グループの管理 {#manage-groups}
       * [グループの管理](administration-and-setup/manage-groups/manage-groups.md)
       * グループ {#groups}
-         * [グループの概要](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [グループ](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [グループ：記事インデックス](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [グループの概要](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [サブグループの概要](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [ホームグループの概要](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * グループの作成と管理 {#create-manage-groups}

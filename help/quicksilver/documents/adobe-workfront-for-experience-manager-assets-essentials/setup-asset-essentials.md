@@ -6,7 +6,7 @@ description: Experience Manager Assets Essentials のコンテンツと作業内
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
+source-git-commit: a729c134ce3d9c565fac18fea80ea7c49471182b
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
@@ -113,7 +113,7 @@ WorkfrontオブジェクトデータをExperience Manager Assetsの Asset Media 
 
 ## サポートされるWorkfrontおよびExperience Manager Assetsのフィールド
 
-**AEMキーワード**
+### AEMキーワード
 
 Workfront Essentials のキーワードに、サポートされている任意のフィールドをマッピングできます。
 
