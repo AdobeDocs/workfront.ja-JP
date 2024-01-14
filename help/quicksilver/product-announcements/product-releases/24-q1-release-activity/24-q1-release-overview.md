@@ -4,7 +4,7 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials でのメタデータのマッピングで、が使用されるようになりました <code>xcm:keywords</code> の代わりに <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Experience Manager Assets Essentials の統合を更新し、Experience Manager Assets as a Cloud Service統合のエクスペリエンスに合わせました。 現在は、複数の 1 行テキストフィールドをExperience Manager Assetsの 1 つのフィールドにマッピングする際に、両方のサービスで <code>xcm:keywords</code> フィールドに入力します。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials でのメタデータのマッピングで、が使用されるようになりました <code>xcm:keywords</code> の代わりに <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Experience Manager Assets Essentials の統合を更新し、Experience Manager Assets as a Cloud Service統合のエクスペリエンスに合わせました。 現在は、複数の 1 行テキストフィールドをExperience Manager Assetsの 1 つのフィールドにマッピングする際に、両方のサービスで <code>xcm:keywords</code> フィールドに入力します。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
