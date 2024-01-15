@@ -7,9 +7,9 @@ description: 以下に示す任意のオブジェクトに既存のカスタム�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '811'
 ht-degree: 2%
 
 ---
@@ -45,11 +45,11 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
 <tr> 
-  <td role="rowheader">Adobe Workfront license*</td> 
+  <td role="rowheader">Adobe Workfrontライセンス</td> 
   <td> <p>新規：寄稿者以上 </p>
  <p>または</p> 
 <p>現在：リクエスト以降 </p> 
@@ -57,10 +57,9 @@ ht-degree: 2%
  </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームを管理するオブジェクトへのアクセスを編集します</p> <p><b>メモ</b></p>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td> <p>カスタムフォームを管理するオブジェクトへのアクセスを編集します</p>
+    </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>カスタムフォームを添付するオブジェクトに対する権限を管理します。</p> <p>カスタムフォームに対する表示権限以上の権限 ( <b>カスタムデータに添付</b> オブジェクト（プロジェクト、タスク、問題）。 詳しくは、 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">カスタムフォームの共有</a>.</p> <p>重要：カスタムFormsへの管理アクセス権を持つプランライセンスをお持ちでない場合は、カスタムフォームを表示するための特定の権限が必要です。詳しくは、 <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">カスタムフォームの共有</a>. フォームがシステム全体で表示されている場合でも、これらの権限をユーザーに付与する必要があります。 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト</a>.</p> </td> 
@@ -68,7 +67,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
