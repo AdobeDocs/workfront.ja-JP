@@ -6,7 +6,7 @@ description: フィルターを使用して、項目のリストに表示する�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 429bec1b8884c721af4c6fe1707bea9d9fdf98f8
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
 source-wordcount: '2450'
 ht-degree: 1%
@@ -55,11 +55,11 @@ Adobe Workfrontでは、次のタイプのフィルターを適用できます�
 
 レポートのフィルターを編集するには、次のライセンスが必要です。
 
-<p>新規：プラン</p>
+<p>新規：標準</p>
 
 または
 
-<p>現在：標準</p>
+<p>現在：プラン</p>
 
 </td> 
   </tr> 

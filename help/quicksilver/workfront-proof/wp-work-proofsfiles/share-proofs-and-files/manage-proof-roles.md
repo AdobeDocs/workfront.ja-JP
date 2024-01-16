@@ -3,18 +3,20 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: での配達確認の役割の管理 [!DNL Workfront Proof]
-description: 配達確認の役割を使用すると、ユーザープロファイルに設定された権限プロファイルで制限されるユーザーに権限を付与できます。 ( 権限プロファイルについて詳しくは、 [!DNL Workfront Proof].)
+description: 配達確認の役割を使用すると、ユーザープロファイルに設定された権限プロファイルで制限されるユーザーに権限を付与できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 1%
+source-wordcount: '1306'
+ht-degree: 0%
 
 ---
 
 # での配達確認の役割の管理 [!DNL Workfront Proof]
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,7 @@ ht-degree: 1%
 * [承認者](#approver)
 * [レビュアーと承認者](#reviewer-approver)
 * [作者](#author)
-* [調整者](#moderator)
+* [モデレーター](#moderator)
 
 配達確認の役割は、特定の配達確認に関してレビュー担当者が実行できるアクションを定義します。
 
@@ -46,7 +48,7 @@ ht-degree: 1%
 詳しくは、次の記事を参照してください。
 
 * [配達確認コメントに対するアクションの使用](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
-* [で配達確認を共有 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
+* [での配達確認の共有 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
 
 ### 読み取り専用
 
@@ -140,9 +142,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->この役割は、 [!DNL Workfront Proof]
+>この役割は、 [!DNL Workfront Proof].
 
-### 調整者 {#moderator}
+### モデレーター {#moderator}
 
 ![cleaner.png](assets/cleaner.png) マークアップを追加できます
 
@@ -177,10 +179,6 @@ ht-degree: 1%
 
 配達確認の役割は、新しい配達確認の作成時、既存の配達確認の新しいバージョンの作成時または既存の配達確認の既存の配達確認の作成時に割り当てることができます。
 
-* [新しい配達確認](#new-proofs)
-* [新しいバージョン](#new-versions)
-* [既存の配達確認](#existing-proofs)
-
 ### 新しい配達確認 {#new-proofs}
 
 配達確認の役割は、 [!UICONTROL 新しい配達確認] 配達確認の作成プロセス中のページ (1)
@@ -197,7 +195,7 @@ ht-degree: 1%
 
 ### 既存の配達確認 {#existing-proofs}
 
-既存の配達確認に関する個人の役割を変更する場合は、 [!UICONTROL 配達確認の詳細] ワークフローセクション (1) での役割をインライン編集してページを編集します。
+既存の配達確認に関する個人の役割を変更する場合は、 [!UICONTROL 配達確認の詳細] ページを作成するには、ワークフローの節 (1) での役割をインライン編集します。
 
 ![Proof_Roles_-_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
 
@@ -221,14 +219,11 @@ ht-degree: 1%
 
 作成者と所有者には、配達確認に対する完全な編集権限があります。
 
-* [作成者](#creators)
-* [所有者](#owners)
-
 ### 作成者 {#creators}
 
 配達確認の作成者は、最初のインスタンスで配達確認をアップロードする人です。 配達確認の作成者は、配達確認のユーザーリスト（デフォルトの役割）に自動的に表示されます。
 
-の [!UICONTROL 新しい配達確認] ページを使用して、配達確認作成者に別の配達確認の役割を割り当てることができます（デフォルトの役割を除く）。
+次の日： [!UICONTROL 新しい配達確認] ページを使用して、配達確認作成者に別の配達確認の役割を割り当てることができます（デフォルトの役割を除く）。
 
 配達確認の作成者は、配達確認から変更または削除できません。
 
@@ -245,13 +240,13 @@ ht-degree: 1%
 
 配達確認を作成した後でも、所有者を変更できます。 配達確認の編集権限を持つユーザーは誰でも、 [!UICONTROL 配達確認の詳細] ページを参照してください。
 
-配達確認の所有者を変更する機能は、ワークフロー管理の観点から特に役立ちます。 これにより、プロジェクトの担当者が配達確認の所有権を引き継ぎ、配達確認の編集権限と、配達確認を [!UICONTROL 配達確認] 表示
+配達確認の所有者を変更する機能は、ワークフロー管理の観点から特に役立ちます。 これにより、プロジェクトの担当者が配達確認の所有権を引き継ぎ、配達確認の編集権限と、配達確認を [!UICONTROL 配達確認] 表示。
 
 次を使用して配達確認の所有者を変更するには [!UICONTROL 配達確認の詳細] ページ：
 
-* 所有者にする人の名前の横にある「アクション」メニューをクリックします
-* 選択 [!UICONTROL 所有者を作成] を選択します。
-* または、 [!UICONTROL 所有者] 配達確認画像の横にある「 」フィールドを選択し、表示されるドロップダウンから新しい所有者を選択します。
+* 所有者にする人の名前の横にある「アクション」メニューをクリックします。
+* 選択 [!UICONTROL **所有者を作成**] を選択します。
+* または、 [!UICONTROL **所有者**] 配達確認画像の横にある「 」フィールドを選択し、表示されるドロップダウンから新しい所有者を選択します。
 
 これが完了すると、その人の名前の横に「所有者」という単語が表示されます。
 
@@ -260,12 +255,8 @@ ht-degree: 1%
 >配達確認の所有者にできるのは、同じアカウントまたはパートナーアカウントのユーザーのみです。 次の場合にのみ、パートナーアカウントのユーザーに配達確認の所有者を設定できます。
 >
 >* アカウント間に既存のパートナー関係が設定されています。 詳しくは、 [のパートナーアカウント [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md).
->* にカスタムフィールドがありません [!UICONTROL 新しい配達確認] ページ。
+>* にカスタムフィールドがありません [!UICONTROL 新しい配達確認] ページに貼り付けます。
 >* 配達確認はフォルダーに割り当てられていません。
 >* 配達確認にタグが適用されていません。
->
-
-
-
 
 内で配達確認の所有権を一時的に委任するには [!DNL Workfront Proof]を参照してください。 [での一時配達確認所有者の指定 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).

@@ -2,18 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: EXISTS 文を使用した複雑なテキストモードフィルターの作成
-description: EXISTS 文を使用した複雑なテキストモードフィルターの作成
+description: EXISTS ステートメントを使用して、複雑なテキストモードのフィルターを作成できます。 この記事では、Adobe Workfront API とテキストモードレポートインターフェイスに関する十分な知識が必要です。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
 workflow-type: tm+mt
-source-wordcount: '2766'
+source-wordcount: '2649'
 ht-degree: 0%
 
 ---
 
 # EXISTS 文を使用した複雑なテキストモードフィルターの作成
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -34,15 +36,15 @@ ht-degree: 0%
 
 オブジェクトの階層と相互依存関係を理解すると、レポートで参照できるオブジェクトを見つけるのに役立ちます。
 
-Workfront内のオブジェクトと、その階層および相互依存関係について詳しくは、 [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Workfront内のオブジェクトと、その階層および相互依存関係について詳しくは、 [Adobe Workfrontオブジェクトの概要](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 フィルタを作成する場合、標準のレポートインターフェイスを使用して、最大 2 レベルの関係内でフィルタのオブジェクトに接続されている他のオブジェクトを参照できます。
 
 例えば、問題フィルターでPortfolioID を参照すると、標準インターフェイスを使用して、特定のポートフォリオに関連付けられたプロジェクトに関する問題のみを表示できます。 この場合、ポートフォリオは問題から 2 レベル離れています。
 
-ただし、標準インターフェイスを使用して問題フィルターでPortfolio所有者を参照し、所有者が特定のユーザーであるポートフォリオに関連付けられたプロジェクトの問題のみを表示することはできません。 テキストモードを使用して、問題から 3 レベル離れた「Portfolio所有者名」フィールドにアクセスする必要があります。
+ただし、標準インターフェイスを使用して問題フィルターでPortfolio所有者を参照し、所有者が特定のユーザーであるポートフォリオに関連付けられたプロジェクトの問題のみを表示することはできません。 「Portfolio所有者名」フィールド（問題から 3 レベル離れた場所）にアクセスするには、テキストモードを使用する必要があります。
 
-![issue_to_portfolio_owner_sraight_line_icons.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![ポートフォリオ所有者アイコンに対する問題](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
 Workfrontのオブジェクトの完全なリストについては、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
@@ -50,7 +52,7 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 
 フィルタを作成する場合は、テキストモードインターフェイスで複雑なステートメントを作成して、これらのタイプのオブジェクトを参照する必要があります。
 
-複雑なフィルターの作成について詳しくは、 [EXISTS ステートメントを使用する複雑なテキストモードフィルターの概要](#overview-of-complex-text-mode-filters-that-use-exists-statements) 」セクションに入力します。
+複雑なフィルターの作成について詳しくは、 [EXISTS 文を使用する複雑なテキストモードフィルターの概要](#overview-of-complex-text-mode-filters-that-use-exists-statements) 」の節を参照してください。
 
 ## EXISTS 文を使用する複雑なテキストモードフィルターの概要 {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -81,7 +83,7 @@ API エクスプローラーを操作してオブジェクトを検索する方�
   API エクスプローラーについて詳しくは、 [API エクスプローラ](../../../wf-api/general/api-explorer.md).
 
 * オリジナルオブジェクトとターゲットオブジェクトが直接接続されているので、リンクオブジェクトが見つからない場合は、リンクオブジェクトの代わりにターゲットオブジェクトのオブジェクトコードを使用できます。
-* 同じオブジェクト（ターゲットオブジェクト）上で複数のフィールド（ターゲットフィールド）を参照できますが、その場合は、フィールドを参照する行を AND で接続する必要があります。\
+* 同じオブジェクト（ターゲットオブジェクト）上で複数のフィールド（ターゲットフィールド）を参照できます。その場合、フィールドを参照する行を AND で接続する必要があります。\
   Target オブジェクトに属する複数のフィールドのフィルタリングの例については、 [例 4：複数のフィールドでフィルタ：Portfolio所有者名とPortfolio線形スコアカード ID でタスク](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) 」の節を参照してください。
 
 * EXISTS 文でサポートされる唯一の修飾子は NOTEXISTS です。
@@ -95,25 +97,27 @@ API エクスプローラーを操作してオブジェクトを検索する方�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのフィルターを編集します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのフィルターを編集します</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>レポートに対する権限を管理して、レポートのフィルターを編集します</p> <p>フィルターを編集するための権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>レポートに対する権限を管理して、レポートのフィルターを編集します</p> <p>フィルターを編集するための権限を管理します</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## オブジェクト階層の複数のレベルにまたがる複雑なテキストモードフィルタを作成する
 
@@ -131,9 +135,12 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 
 1. フィルターのオブジェクトを特定します。 このオブジェクトを、「元のオブジェクト」と呼びます。\
    例えば、Issue などです。
+
 1. フィルターに使用するフィールドを特定します。 このオブジェクトを、ターゲットオブジェクトに属するターゲットフィールドと呼びます。\
-   例えば、所有者（Target オブジェクト）に属する ownerID フィールド（Target フィールド）がPortfolio（Target オブジェクト）になります。
-1. （条件付き）元のオブジェクト（問題）とターゲットフィールド (ownerID) が直接接続されていない場合、3 つ目のオブジェクト、つながりを持つリンクオブジェクト（プロジェクト）を見つける必要があります。 リンクオブジェクトには、元のオブジェクトの [ フィールド ] タブまたは [ 参照 ] タブから参照されるフィールド（元のオブジェクトに表示されるフィールド）が少なくとも 1 つ含まれ、リンクオブジェクトの [ フィールド ] タブまたは [ 参照 ] タブに表示される必要があります。 Linking Field to the Target Object (Linking Object) （または Linking Object に表示される Linking Field）は、Target Field と一致している必要があります。\
+   例えば、ownerID フィールド（ターゲットフィールド）は、Portfolio（ターゲットオブジェクト）に属します。
+
+1. （条件付き）元のオブジェクト（問題）とターゲットフィールド (ownerID) が直接接続されていない場合、3 つ目のオブジェクト、つながりを持つリンクオブジェクト（プロジェクト）を見つける必要があります。 リンクオブジェクトには、元のオブジェクトの [ フィールド ] タブまたは [ 参照 ] タブから参照されるフィールドが少なくとも 1 つ必要です（元のオブジェクトに表示されるリンクフィールド）。また、リンクオブジェクトの [ フィールド ] タブまたは [ 参照 ] タブに表示される。 Linking Field は、Linking Object （または Linking Object に表示される Linking Field）に表示される Target Object に対して、Target Field と一致する必要があります。
+
    例えば、（プロジェクト）ID（元のオブジェクトに表示されるリンクフィールド）は、問題（元のオブジェクト）から参照されます。 (Portfolio)ownerID (Linking Field to the Target Object) は、プロジェクト (Linking Object) の「フィールド」タブに表示されます。 PortfolioownerID は Target オブジェクト (Portfolio) のフィールドでもあります。 Linking オブジェクトの Linking フィールドは、Target フィールドと一致します。\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
@@ -146,13 +153,13 @@ API エクスプローラーを操作してオブジェクトを検索する方�
    フィルターの作成について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. クリック **テキストモードに切り替え**.
-1. 次の数式の例を新しいフィルタのテキストモードインターフェイスに貼り付け、推奨テキストを正しいオブジェクトとフィールドに置き換えます。
+1. 次の数式の例を新しいフィルターのテキストモードインターフェイスに貼り付け、例のテキストを正しいオブジェクトとフィールドに置き換えます。
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
-   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
+
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
    上記で識別したフィールドの使用例については、 [例 1：問題をPortfolio所有者名でフィルター](#example-1-filter-for-issues-by-portfolio-owner-name) 」の節を参照してください。
 
@@ -177,10 +184,14 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 
 1. フィルターのオブジェクトを特定します。 このオブジェクトを、「元のオブジェクト」と呼びます。\
    例えば、「パラメーター」や「カスタムフィールド」などです。
+
 1. フィルターに使用するフィールドを特定します。 このオブジェクトを、ターゲットオブジェクトに属するターゲットフィールドと呼びます。\
-   例えば、カテゴリ（Target オブジェクト）に属する categoryID フィールド（Target フィールド）。
-1. 元のオブジェクト（パラメーター）とターゲットフィールド (categoryID) は直接接続されていないので、3 つ目のオブジェクト、つながりのオブジェクト（カテゴリーパラメーター）を検索する必要があります。 リンクオブジェクトには、元のオブジェクトの [ フィールド ] タブまたは [ 参照 ] タブから参照されるフィールド（元のオブジェクトに表示されるフィールド）が少なくとも 1 つ含まれ、リンクオブジェクトの [ フィールド ] タブまたは [ 参照 ] タブに表示される必要があります。 Linking Field to the Target Object (Linking Object) （または Linking Object に表示される Linking Field）は、Target Field と一致している必要があります。\
+   例えば、カテゴリ（Target オブジェクト）に属する categoryID フィールド（ターゲットフィールド）。
+
+1. 元のオブジェクト（パラメーター）とターゲットフィールド (categoryID) は直接接続されていないので、3 つ目のオブジェクト、つながりのオブジェクト（カテゴリーパラメーター）を検索する必要があります。 リンクオブジェクトには、元のオブジェクトの [ フィールド ] タブまたは [ 参照 ] タブから参照されるフィールドが少なくとも 1 つ必要です（元のオブジェクトに表示されるリンクフィールド）。また、リンクオブジェクトの [ フィールド ] タブまたは [ 参照 ] タブに表示される。 Linking Field は、Linking Object （または Linking Object に表示される Linking Field）に表示される Target Object に対して、Target Field と一致する必要があります。
+
    例えば、カテゴリパラメータ（元のオブジェクトに表示されるリンクフィールド）の ID は、パラメータ（元のオブジェクト）から参照されます。 parameterID (Linking Field to the Target Object) は、カテゴリパラメータ (Linking Object) の「フィールド」タブに表示されます。 リンクオブジェクトに表示されるターゲットオブジェクトへのリンクフィールドは、ターゲットフィールドと一致します。
+
 1. API エクスプローラーを使用して、 **オブジェクトコード** の値を指定します（カテゴリパラメータ）。\
    たとえば、カテゴリパラメータのオブジェクトコードは CTGYPA です。\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
@@ -190,15 +201,11 @@ API エクスプローラーを操作してオブジェクトを検索する方�
    フィルターの作成について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. クリック **テキストモードに切り替え**.
-1. （条件付き）欠落しているオブジェクトをフィルタリングする場合は、次の数式の例を新しいフィルタのテキストモードインターフェイスに貼り付け、候補のテキストを正しいオブジェクトとフィールドに置き換えます。
+1. （条件付き）欠落しているオブジェクトをフィルタリングする場合は、次の式の例を新しいフィルタのテキスト・モード・インタフェースに貼り付け、サンプル・テキストを正しいオブジェクトおよびフィールドに置き換えます。
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    カスタムFormsに関連付けられていないカスタムフィールドのレポートの例については、 [例 2：見つからないオブジェクトのフィルタ：カスタムフォームに表示されないカスタムフィールド](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 」の節を参照してください。
 
@@ -206,10 +213,7 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 
 ## オブジェクト階層の複数のレベルにまたがるテキストモードフィルタの例
 
-* [例 1：問題をPortfolio所有者名でフィルター](#example-1-filter-for-issues-by-portfolio-owner-name)
-* [例 2：見つからないオブジェクトのフィルタ：カスタムフォームに表示されないカスタムフィールド](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
-* [例 3：見つからないオブジェクトのフィルタ：特定の期間、時間をログに記録しなかったユーザー](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
-* [例 4：複数のフィールドでフィルタ：Portfolio所有者名とPortfolio線形スコアカード ID でタスク](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
+以下の例を使用して、EXISTS 文でテキストモードフィルターを作成します。
 
 ### 例 1：問題をPortfolio所有者名でフィルター {#example-1-filter-for-issues-by-portfolio-owner-name}
 
@@ -223,16 +227,17 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 1. クリック **テキストモードに切り替え**.
 1. 次の汎用コードを参照してください。
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. 次のコードを **レポートのフィルタールールを設定する** 上の汎用コードを置き換える領域：
-   <pre>EXISTS:A:$$OBJCODE=PROJ<br>EXISTS:A:ID=FIELD:projectID<br>EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221</pre>
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+
+   `EXISTS:A:ID=FIELD:projectID`
+
+   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
 
    >[!NOTE]
    >
@@ -248,11 +253,11 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 
 ### 例 2：見つからないオブジェクトのフィルタ：カスタムフォームに表示されないカスタムフィールド {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
-テキストモードインターフェイスを使用して、カスタムForms（カテゴリ）に関連付けられていないカスタムフィールド（パラメーター）を表示するフィルターを作成できます。 このフィルタは、[ パラメータ ] を [ カテゴリ ] にリンクします。このフィルタは、別のオブジェクト [ カテゴリパラメータ ] を通じて接続されます。 2 つのフィールドは互いに直接接続されていないので、欠落している情報をフィルタリングするので、EXISTS 文を使用する必要があります。
+テキストモードインターフェイスを使用して、カスタムForms（カテゴリ）に関連付けられていないカスタムフィールド（パラメーター）を表示するフィルターを作成できます。 このフィルタは、[ パラメータ ] を [ カテゴリ ] にリンクします。このフィルタは、別のオブジェクト [ カテゴリパラメータ ] を通じて接続されます。 2 つのフィールドは互いに直接接続されておらず、欠落した情報をフィルタリングするので、EXISTS 文を使用する必要があります。
 
 >[!IMPORTANT]
 >
->パラメーターは、カスタムフォームで参照されるフィールドライブラリ内に存在するフィールドです。 カテゴリパラメータとは、特定のフォームに表示されるフィールドのバージョンのことです。 例えば、5 つのフォームで同じフィールドが表示される場合、Workfrontデータベースには「 Parameter 」と「 Category Parameters 」が 1 つ、「5 Category Parameters 」という 2 つのパラメーターがあります。
+>パラメーターは、カスタムフォームで参照されるフィールドライブラリ内に存在するフィールドです。 カテゴリパラメータとは、特定のフォームに表示されるフィールドのバージョンのことです。 例えば、5 つのフォームで同じフィールドが表示される場合、Workfrontデータベースには「 Parameter 」と「 Category Parameters 」が 1 つ、「 Parameter 」と「 5 Category Parameters 」があります。
 
 カスタムフォームに関連付けられていないカスタムフィールドをフィルタするには：
 
@@ -262,16 +267,17 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 1. クリック **テキストモードに切り替え**.
 1. 次の汎用コードを参照してください。
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. 次のコードを **レポートのフィルタールールを設定する** 上の汎用コードを置き換える領域：
-   <pre>EXISTS:A:$$OBJCODE=CTGYPA<br>EXISTS:A:parameterID=FIELD:ID<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS</pre>
+
+   `EXISTS:A:$$OBJCODE=CTGYPA`
+
+   `EXISTS:A:parameterID=FIELD:ID`
+
+   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -286,7 +292,7 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 
 ### 例 3：見つからないオブジェクトのフィルタ：特定の期間、時間をログに記録しなかったユーザー {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
-テキストモードインターフェイスを使用して、特定の期間に時間を記録しなかったユーザーを表示するフィルターを作成できます。 このフィルターは、ユーザーを時間にリンクします。時間は、互いに直接接続されています。 ただし、見つからない information.information をフィルタリングするには、EXISTS 文とテキストモードインターフェイスを使用する必要があります。
+テキストモードインターフェイスを使用して、特定の期間に時間を記録しなかったユーザーを表示するフィルターを作成できます。 このフィルターは、ユーザーを時間にリンクします。時間は、互いに直接接続されています。 ただし、見つからない情報をフィルタリングするには、EXISTS 文とテキストモードインターフェイスを使用する必要があります。
 
 先週のログに時刻を記録しなかったユーザーをフィルタリングするには：
 
@@ -296,19 +302,13 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 1. クリック **テキストモードに切り替え**.
 1. 次の汎用コードを参照してください。
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. 次のコードを **レポートのフィルタールールを設定する** 上の汎用コードを置き換える領域：
 
-   ```
-   EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -317,7 +317,7 @@ API エクスプローラーを操作してオブジェクトを検索する方�
    >* ユーザーと時間はWorkfrontデータベースで直接接続されるので、この例ではリンクオブジェクトは必要ありません。
    >* リンクオブジェクトがないので、ターゲットオブジェクトのオブジェクトコード (HOUR) を使用する必要があります。
    >* ターゲットオブジェクトへのリンクフィールドは ownerID （元のオブジェクトに表示されます。リンクオブジェクトはありません）です。
-   >* 元のオブジェクトに表示されるリンクフィールドは、ID（時間）です（Target オブジェクトに表示されます。リンクオブジェクトはありません）。
+   >* 元のオブジェクトに表示されるリンクフィールドは、（時間の）ID です（Target オブジェクトに表示されます。リンクオブジェクトはありません）。
    >* EXISTS:A:entryDate ステートメントは、ターゲットオブジェクト (Hour) を定義するフィールドを参照し、通常のフィルターステートメントと同じ構文を使用します。 これにより、特定の期間（この場合は前週）の時間をログに記録しなかったユーザーのみが表示されます。
    >* NOTEXISTS 修飾子は、レポート (Users) のオブジェクトに存在しない項目 (Hours) を検索していることを示します。
 
@@ -339,7 +339,14 @@ API エクスプローラーを操作してオブジェクトを検索する方�
 
 1. クリック **テキストモードに切り替え**.
 1. 次のコードを **レポートのフィルタールールを設定する** 領域：
-   <pre>EXISTS:A:$$OBJCODE=PROJ<br>EXISTS:A:ID=FIELD:projectID<br>EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f<br>および:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS<br>および:A:EXISTS:A:$$OBJCODE=PROJ<br>および:A:EXISTS:A:ID=FIELD:projectID<br>および:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad</pre>
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+   `EXISTS:A:ID=FIELD:projectID`
+   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
+   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
+   `AND:A:EXISTS:A:ID=FIELD:projectID`
+   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
 
    >[!NOTE]
    >
