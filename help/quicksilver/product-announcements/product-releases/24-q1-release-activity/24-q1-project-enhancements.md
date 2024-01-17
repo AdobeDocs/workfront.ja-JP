@@ -3,9 +3,9 @@ title: 2024 年第 1 四半期のプロジェクトの機能強化
 description: 2024 年第 1 四半期プロジェクトの機能強化
 author: Nolan
 feature: Product Announcements
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->高速リリース用の実稼働：24.1 リリース、すべてのお客様向けの実稼働：24.4 リリース（2024 年 4 月）
+>高速リリース用の実稼動： 24.2 リリース（2024 年 2 月）、すべてのお客様用の実稼動： 24.4 リリース（2024 年 4 月）
 
 Workfrontがタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てるWorkfrontの次の領域に適用されます。タスクリスト、タスクヘッダーの割り当て領域、ホームおよび概要パネル。
 
