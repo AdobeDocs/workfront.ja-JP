@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1452'
 ht-degree: 6%
 
 ---
@@ -180,7 +180,7 @@ Adobe Workfront管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーが所属する会社、グループおよびチームのみを表示する</td> 
-      <td>ユーザーが所属する会社、グループ、チームに対してのみ、項目の表示と共有を許可します。</td> 
+      <td>ユーザーが所属する会社、グループ、チームに対してのみ、項目の表示と共有を許可します。<p><strong>注意</strong>：要求者ライセンスを持つユーザーは、このオプションが選択されている場合でも、その要求者が属さない会社を表示できません。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定時間数または実際の時間数の表示を許可しない</td> 
