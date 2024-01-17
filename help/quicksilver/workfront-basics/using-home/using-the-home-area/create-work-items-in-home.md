@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: ホーム領域から作業項目を作成する
-description: ホーム領域から作業項目を作成する
-author: Lisa
+description: 作業項目は、 [!UICONTROL ホーム] 領域。 自分で個人用タスクを作成したり、他のユーザーに仕事を依頼したり、特定のプロジェクトにタスクを追加したりできます。
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---

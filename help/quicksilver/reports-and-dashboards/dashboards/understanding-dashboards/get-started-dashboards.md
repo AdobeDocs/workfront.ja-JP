@@ -7,14 +7,16 @@ description: ダッシュボードの目的は、情報にすばやくアクセ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # ダッシュボードの概要
+
+<!-- Audited: 1/2024 -->
 
 ダッシュボードの目的は、複数のレポートから取得した情報にすばやくアクセスできるようにすることです。 まず、レポートの情報を収集し、複数のレポートをダッシュボードに配置して、情報にアクセスしやすくします。
 
@@ -29,25 +31,25 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront plan*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfrontプラン</strong></p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront license*</strong></p> </td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td> <p><strong>Adobe Workfrontライセンス</strong></p> </td> 
+   <td> <p>新規：寄稿者以上</p><p>または</p><p>現在：レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>アクセスレベル*</strong> </td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を表示またはそれ以上に設定する</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td><strong>アクセスレベル</strong> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を表示またはそれ以上に設定する</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
-   <td> <p>ダッシュボードに対する権限の表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.<br>ダッシュボードの権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">レポート、ダッシュボード、カレンダーの共有 </a>.</p> </td> 
+   <td> <p>ダッシュボードに対する権限の表示</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## ダッシュボードに追加できるオブジェクト
 
@@ -80,12 +82,12 @@ Adobe Workfrontでは、次の項目をダッシュボードに入力できま�
 * ユーザーと共有するためにハードコピーを印刷します。\
   ダッシュボードの印刷について詳しくは、 [ダッシュボードの印刷](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* ユーザーに電子メールで送信できるように、.pdf ファイルとして書き出します。\
-  ダッシュボードを.pdf ファイルに書き出す方法について詳しくは、 [ダッシュボードのエクスポート](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+* ユーザーに電子メールでPDFを送信できるように、ファイルとして書き出します。\
+  ダッシュボードファイルへのPDFの書き出しについて詳しくは、 [ダッシュボードのエクスポート](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 ダッシュボードをユーザーと共有すると、デフォルトで、ダッシュボード上にあるすべてのレポート、カレンダーおよび外部ページも同じユーザーと共有されます。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >ユーザーを削除すると、作成したすべてのダッシュボードにアクセスできなくなります。 詳しくは、 [ユーザーの削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -93,14 +95,14 @@ Adobe Workfrontでは、次の項目をダッシュボードに入力できま�
 
 ダッシュボードは次の方法で表示できます。
 
-* 配置先のセクションにアクセスすると、そのセクションに配置されたダッシュボードが表示されます。\
+* ダッシュボードが配置されているカスタムセクションにアクセスします。\
   ダッシュボードをカスタムセクションに配置する方法について詳しくは、 [Adobe Workfrontでの左ナビゲーション](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* 見つかったら、を検索して手動でアクセスします。
+* ダッシュボードを検索して手動でアクセスします。
 
 ## ダッシュボードへのアクセス
 
-1. 次をクリック： **メインメニュー** ![](assets/main-menu-icon.png)を選択し、次に **ダッシュボード**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **ダッシュボード**.
 1. 左側のサイドバーの上にマウスポインターを置いて、次のいずれかを選択します。
 
    * **マイダッシュボード**：作成したダッシュボードがここに表示されます。
@@ -110,7 +112,7 @@ Adobe Workfrontでは、次の項目をダッシュボードに入力できま�
      >アクセスレベルでレポート、ダッシュボード、カレンダーの編集アクセス権がない場合、ダッシュボードを作成できません。 この場合、マイダッシュボードリストは空です。
 
    * **共有ダッシュボード**：他のユーザーが作成し、自分と共有しているダッシュボードがここに表示されます。
-   * **すべてのダッシュボード**：自分と他のユーザーのダッシュボードのうち、自分と共有されているものがここに表示されます。
+   * **すべてのダッシュボード**：他のユーザーが共有しているダッシュボードとダッシュボードの両方がここに表示されます。
 
    ![ダッシュボード領域](assets/dashboards-area.png)
 
