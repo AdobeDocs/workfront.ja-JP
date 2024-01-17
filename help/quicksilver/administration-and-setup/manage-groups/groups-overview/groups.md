@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: b5e0a590d258df4510a0bb6a44b57099f32ae6b9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # グループの概要
+
+<!-- Audited: 01/2024 -->
 
 Workfront管理者は、部門の構造と一致するユーザーのグループを作成できます。 グループは、チームや会社に似ていますが、異なります。
 
@@ -28,7 +30,7 @@ Workfrontの管理者は、作業および通信が必要なWorkfront領域へ�
 
 ## グループを使用したユーザーの整理
 
-Workfrontの管理者またはグループ管理者は、ユーザーをグループおよびサブグループに関連付けることができます。 グループを公開する場合、Planner ライセンスを持つユーザーは、そのグループにユーザーを関連付けることができます。 グループ管理者とパブリックグループについて詳しくは、 [グループの作成](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Workfrontの管理者またはグループ管理者は、ユーザーをグループおよびサブグループに関連付けることができます。 グループを公開する場合、標準（新規）またはプラン（現在）のライセンスを持つユーザーは、そのグループにユーザーを関連付けることができます。 グループ管理者とパブリックグループについて詳しくは、 [グループの作成](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ユーザーを作成する場合は、そのユーザーを適切なホームグループと、そのユーザーが作業する必要のあるその他のグループに追加することをお勧めします。 1 人のユーザーが持つことのできるホームグループは 1 つだけですが、他の複数のグループに属することもできます。
 

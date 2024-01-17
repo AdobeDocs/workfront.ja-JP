@@ -1,20 +1,20 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: ワークロードバランサーを使用して作業を手動で割り当て
+title: ワークロードバランサーを使用して作業を手動で割り当てる
 description: Adobe Workfront Workload Balancer を使用して、作業項目を手動でユーザーに割り当てることができます。
-author: Alina
+author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '756'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# ワークロードバランサーを使用して作業を手動で割り当て
+# ワークロードバランサーを使用して作業を手動で割り当てる
 
 Adobe Workfront Workload Balancer を使用して、作業項目を手動でユーザーに割り当てることができます。
 
@@ -45,19 +45,19 @@ Adobe Workfront Workload Balancer を使用して、作業項目を手動でユ�
      <li> <p>リソース管理</p> </li> 
      <li> <p>プロジェクト</p> </li> 
      <li> <p>タスク</p> </li> 
-     <li> <p>問題</p> </li> 
+     <li> <p>イシュー</p> </li> 
     </ul> <p><b>メモ</b>
 
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>割り当ての作成を含むプロジェクト、タスク、および問題に権限以上を貢献する</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## ワークロードバランサーでの作業の手動割り当て
 
@@ -65,7 +65,7 @@ Adobe Workfront Workload Balancer を使用して、作業項目を手動でユ�
 
 1. 作業を割り当てるワークロードバランサーに移動します。
 
-   リソースエリア、プロジェクト、またはチームレベルで、ワークロードバランサーを使用して、作業をユーザーに割り当てることができます。 ワークロードバランサーのWorkfront内の場所について詳しくは、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   リソースエリア、プロジェクト、またはチームレベルのワークロードバランサーを使用して、作業をユーザーに割り当てることができます。 ワークロードバランサーのWorkfront内の場所について詳しくは、 [ワークロード・バランサの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 1. （オプション） **未割り当ての作業** 領域を開き、フィルターを適用してタスクまたは問題を表示します
 
@@ -81,12 +81,12 @@ Adobe Workfront Workload Balancer を使用して、作業項目を手動でユ�
    >
    >次のショートカットを使用して、タスクやタスクを割り当てることもできます。
    >
-   >* Windows の場合：Ctrl キーを押しながらタスクまたはイシューバーをクリックします。
+   >* Windows の場合：Ctrl キーを押しながらタスクバーまたはイシューバーをクリックします。
    >* Mac:Cmd キーを押しながらタスクバーまたはイシューバーをクリックします。
 
 1. 次のいずれかの操作を行います。
 
-   * 項目に割り当てるユーザー、ジョブの役割、またはチームの名前の入力を開始します **担当者、役割またはチームを検索** フィールドに値を入力する場合は、リストに表示される項目を選択し、 **保存**.
+   * 項目に割り当てるユーザー、ジョブの役割、またはチームの名前の入力を開始します **担当者、役割またはチームを検索** フィールドに値を入力する場合は、リストに表示される項目を選択し、「 **保存**.
 
    >[!TIP]
    >
@@ -118,7 +118,7 @@ Adobe Workfront Workload Balancer を使用して、作業項目を手動でユ�
    >   
    >   
    >   * 作業項目をアクティブなリソースに再割り当てする。
-   >   * 非アクティブなチームのユーザをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
+   >   * 非アクティブなチームのユーザーをアクティブなチームに関連付け、作業項目をアクティブなチームに再割り当てします。
    >   
    >
 

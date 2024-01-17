@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: ワークロード・バランサのナビゲート
 description: ワークロードバランサーを使用して、リソースの可用性を把握し、作業をユーザーに割り当てます。 この記事では、表示を更新し、ワークロードバランサーをナビゲートするためのアイコンと設定の使用方法について説明します。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4146'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Adobe Workfrontのワークロードバランサーを使用して、使用可�
 
 * 特定の項目を表示する権限がない場合は、「 **アクセスできない作業項目** または **アクセスできないプロジェクト**.
 
-  ![アクセス不能な作業アイテム](assets/wb-inaccessible-work-items.png)
+  ![アクセスできない作業項目](assets/wb-inaccessible-work-items.png)
 
 * 作業項目の名前が左側に、タイムラインが右側に表示されます。
 * 各作業項目の計画時間の合計は、作業項目名の右側と、作業項目のタイムラインを表すバーの左側に表示されます。
@@ -222,7 +222,7 @@ Adobe Workfrontのワークロードバランサーを使用して、使用可�
 1. 次のオプションから、ワークロードバランサーに一度に表示する週数を選択します。
    * 1 週間
    * 2 週間
-   * 4 週間. これはデフォルト設定です。
+   * 4 週間。 これはデフォルト設定です。
    * 6 週間
    * 3 か月
 

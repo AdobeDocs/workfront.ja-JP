@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: ワークロードバランサーでリソースを管理するために必要なアクセス
 description: 正しいアクセス権または権限がないと、ワークロードバランサーで作業割り当てを表示または管理できない場合があります。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -61,18 +61,18 @@ Workfrontのワークロードバランサーの場所について詳しくは�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>リソース管理へのアクセス権を表示または高くします</p> <p>リソース管理のアクセスレベルについては、「 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>.</p> <p><b>メモ</b>
+   <td> <p>リソース管理へのアクセス権を表示または高くします。</p> <p>リソース管理のアクセスレベルについては、「 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>.</p> <p><b>メモ</b>
 
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>割り当てを表示するプロジェクトに対する表示権限があります。 </p> <p>プロジェクト権限の詳細については、「 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfrontでプロジェクトを共有する</a>.</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## ワークロードバランサーで割り当てを管理するために必要なアクセス
 
@@ -97,13 +97,13 @@ Workfrontのワークロードバランサーの場所について詳しくは�
 まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p> 割り当てを行う権限を含む、割り当てを管理するプロジェクトに対する権限を付与するか、それ以上に設定します。 </p> <p>プロジェクト権限の詳細については、「 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfrontでプロジェクトを共有する</a>.</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p> 割り当てを行う権限を含む、割り当てを管理するプロジェクトに対する権限を付与するか、それ以上の権限を付与します。 </p> <p>プロジェクト権限の詳細については、「 <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfrontでプロジェクトを共有する</a>.</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    
