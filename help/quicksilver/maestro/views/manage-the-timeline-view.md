@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ role: User
 >
 >Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
->詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
+>詳しくは、 [Adobeマエストロの概要](/help/quicksilver/maestro/maestro-overview.md).
 
 AdobeMaestro でレコードタイプのページにアクセスする際に、タイムラインビューにレコードを表示できます。
 
@@ -129,7 +129,12 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 
    ![](assets/timeline-view-example.png)
 
-   選択したレコードタイプに関連付けられたレコードは、タイムラインのバーとして表示され、デフォルトでは時系列で並べ替えられます。
+   選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは、開始日の時系列で並べ替えられます。
+
+   >[!TIP]
+   >
+   >    タイムラインのレコードの並べ替えは、コンパクト表示には表示されません。
+
 
 1. タイムラインに移動するには、次のいずれかの操作を行います。
 
@@ -165,8 +170,8 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)
    * [グループ化](#add-grouping)
-     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
    * [設定](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### フィルターを追加
 

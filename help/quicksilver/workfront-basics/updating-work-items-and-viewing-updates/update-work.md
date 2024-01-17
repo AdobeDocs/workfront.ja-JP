@@ -6,9 +6,9 @@ description: Adobe Workfrontオブジェクト（プロジェクト、タスク�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: '4110'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -380,10 +380,8 @@ After the monthly releases to Production, the same features are also available i
 
 1. （オプション）更新に画像を添付するには、次のいずれかの操作を行います。
 
-   * <span class="preview">コンピューター上に画像を保存し、新しいコメント領域にドラッグ&amp;ドロップします。</span>
-     <span class="preview">実稼動環境では、新しいコメント作成機能には使用できません。 実稼動環境では、画像をコメントにドラッグ&amp;ドロップする操作が従来のコメント操作で使用できます。 </span>
-
-   * <span class="preview">お使いのコンピューターからスクリーンショットをコピーし、コメントに貼り付けます。 </span>
+   * コンピューター上に画像を保存し、新しいコメント領域にドラッグ&amp;ドロップします。
+   * コンピューターからスクリーンショットをコピーし、コメントに貼り付けます。 これは、従来のコメントエクスペリエンスでは使用できません。
    * 次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) お使いのコンピューター上の画像を参照します。
 
 
@@ -392,7 +390,7 @@ After the monthly releases to Production, the same features are also available i
    >* 画像または添付ファイルを追加アイコンを表示するには、Workfront管理者が、Workfrontインターフェイス領域の「フィードの環境設定を更新」セクションで画像の追加を有効にする必要があります。 詳しくは、 [ユーザーの更新の環境設定を構成する](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* 画像ファイルの最大サイズは 7 MB です。 サポートされる画像ファイルタイプは、.jpg、.gif および.png です。
    >* 画像は、オブジェクトの「更新」セクションからアクセスでき、メインメニューの「ドキュメント」領域でも使用できます。
-   >* <span class="preview">画像を貼り付けるには、新しいコメントを右クリックするか、Windows の場合は Ctrl + V キー (Macの場合は Command + V キー ) を押します。</span>
+   >* 画像を貼り付けるには、新しいコメントを右クリックするか、Windows の場合は Ctrl + V(Macの場合は⌘ + V) を押します。
    >* 画像とテキストを含まない更新を送信できます。
    >* 画像を含むコメントを削除する場合、選択したエクスペリエンスに応じて、次のシナリオが存在します。
    >
@@ -404,12 +402,10 @@ After the monthly releases to Production, the same features are also available i
 
 1. （オプション）既存の更新で画像を表示するには、次のいずれかの操作をおこないます。
 
-   * 次をクリック： **プレビュー** アイコン <span class="preview">![](assets/previewimageicon-31x31.png)</span> 画像のサムネールで、フルサイズの画像を新しいブラウザータブで開きます。
+   * 次をクリック： **プレビュー** アイコン ![](assets/previewimageicon-31x31.png) 画像のサムネールで、フルサイズの画像を新しいブラウザータブで開きます。
    * 次をクリック： **ダウンロード** アイコン ![](assets/downloadimageicon.png) を画像のサムネールにドラッグして、画像をダウンロードします。
 
 1. クリック **送信** コメントを追加します。
-
-<div class="preview">
 
 ## 更新を検索
 
@@ -422,7 +418,11 @@ After the monthly releases to Production, the same features are also available i
 1. 次に移動： **更新** セクションに含める必要があります。
 1. キーワードの入力を開始する <!--or a user's name --> （内） **検索** ボックス **コメント** タブをクリックします。
 
-   <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+   <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+   >[!NOTE]
+   >
+   >   検索できるのは、コメントまたは返信のテキストに属する単語のみです。 更新でタグ付けされたユーザーまたはチームの名前は検索できません。
 
    ![](assets/search-field-in-updates-tab.png)
 
@@ -431,8 +431,6 @@ After the monthly releases to Production, the same features are also available i
    Workfrontは、画面に表示されるコメントの外側にある、オブジェクトの更新ストリーム全体を検索します。
 
 1. 次をクリック： **x** 検索フィールド内のアイコンを使用して、検索結果を消去し、すべてのコメントに戻ります。
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

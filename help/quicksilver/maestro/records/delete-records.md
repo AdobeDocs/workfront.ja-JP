@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # レコードを削除
 
@@ -41,7 +41,7 @@ Adobe・マエストロでは、不要になったレコードを削除できま
     <tr>
 <tr>
 <td>
-   <p> Adobe産物</p> </td>
+   <p> 製品</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  

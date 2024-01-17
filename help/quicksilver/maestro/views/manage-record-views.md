@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ ht-degree: 0%
 | 外部リストから行をコピーしてテーブルに貼り付ける | ✓ |               |
 | タイムラインでのレコードの表示 |            | ✓ |
 | レコードのフィルタリング | ✓ | ✓ |
-| レコードをグループ化 |           | ✓ |
+| レコードをグループ化 | ✓ | ✓ |
 | レコードの並べ替え | ✓ |              |
 | カラーコードのレコード |           | ✓ |
 | カラーコードのグループ化 |           | ✓ |
-| レコードを検索 | ✓ | ✓ |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| 特定のレコードの検索 | ✓ | ✓ |
+| 表示を共有 | ✓ | ✓ |
+| レコードの詳細ページをビューから開きます。 | ✓ | ✓ |
 
 ## ビューの作成または編集 {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ ht-degree: 0%
    既定では、Maestro はビューに&quot;Table &lt; number >&quot;または&quot;Timeline &lt; number >&quot;と名前を付けます。 数値は、自動的に生成される増分です。
 
 1. （オプション）ビューの作成後に名前を変更するには、ビューのドロップダウンメニューをクリックし、 **その他** メニュー ![](assets/more-menu.png) > **名前を変更** をクリックして、ビュー名を更新します。 <!--ensure there is not another saving step here?!-->
-1. （オプション）ビューを管理するには、詳しくは次の記事を参照してください。
+1. （オプション）特定のタイプの表示を管理するには、次の記事を参照してください。
 
    * [テーブル表示の管理](../views/manage-the-table-view.md)
    * [タイムライン表示を管理](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## ビューを削除
 
@@ -202,6 +197,7 @@ ht-degree: 0%
 
 ビューの共有について詳しくは、 [ビューの共有](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 

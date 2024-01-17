@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
 
       テーブル表示で非表示になっているフィールドに関連付けられたキーワードは使用できません。
 
-   1. キーボードの Enter キーを押して、次に見つかったフィールドに移動します。
+   1. 押す **入力** キーボードで、次に見つかったフィールドに移動します。
 
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックして、テーブル内のすべての一致を検索します。
 
@@ -279,7 +279,7 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
         </thead>
         <tbody>
         <tr>
-            <td>1 行、段落 </td>
+            <td>1 行、段落、数式 </td>
             <td><p>が次を含む</p>
             <p>が次を含まない</p>
             <p>が次に等しい</p>
@@ -296,7 +296,7 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
             <p>が空ではない</p></td>
         </tr>
         <tr>
-            <td>複数選択</td>
+            <td>複数選択、担当者</td>
             <td><p>が次のいずれかを含む</p>
             <p>が次のすべてを含む</p>
             <p>が次に完全に等しい</p>
