@@ -3,22 +3,23 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2022 年 11 月 14 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2022 年 11 月 14 日の週」
 description: このページでは、2022 年 11 月 14 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 06b5d602-e656-40e8-a397-c39eaadc924a
-source-git-commit: 0fa404000e5e9fd909acbdeb2e7b33eaed1eb198
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2022 年 11 月 14 日の週
+# Workfront Fusion リリースアクティビティ： 2022 年 11 月 14 日の週
 
-**MicrosoftPower BIコネクタとモジュールが利用可能になりました**
+**MicrosoftPower BIコネクタとモジュールが使用可能になりました**
 
 これで、Adobe Workfront Fusion をMicrosoftPower BIアカウントに接続できます。
 

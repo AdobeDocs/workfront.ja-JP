@@ -3,9 +3,11 @@ title: 23.3 管理者の機能強化
 description: 23.3 管理者の機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+recommendations: noDisplay, noCatalog
+exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---

@@ -6,8 +6,9 @@ title: Adobe Workfrontのリリーススケジュールとプロセス
 description: プレビュー環境は週に 1 回更新され、新機能が追加されます。 これらの機能は、今後の四半期のリリースのリリースノートに記載されています。
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%

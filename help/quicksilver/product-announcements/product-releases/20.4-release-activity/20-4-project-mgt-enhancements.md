@@ -4,10 +4,11 @@ description: 20.4 プロジェクト管理の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 20.4 リリースで使用可能なすべての変更点の一覧については、 [20.4 リリースの概要](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## 管理者向けの新機能：カスタムフィールドの共有方法を制御する
+## 管理者向けの新機能：カスタムフィールドの共有方法を制御します。
 
 作成したカスタムフィールドの編集、削除、使用をできるユーザーをより詳細に制御できるように、カスタムフィールドの共有方法を正確に設定する機能が追加されました。
 
@@ -42,7 +43,7 @@ ht-degree: 0%
 
 オブジェクトからカスタムフォームを書き出す方法について詳しくは、 [カスタムフォームとオブジェクトの詳細のエクスポート](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-## 反復をすばやく追加
+## 反復をすばやく追加する
 
 >[!NOTE]
 >
@@ -66,7 +67,7 @@ ht-degree: 0%
 
 この機能は、 [プランナーの基本、第 3 部学習パス](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) Workfront・ワンで
 
-## 管理者向けの新機能：ビジネスリーダーをグループに割り当て
+## 管理者向けの新規：ビジネスリーダーをグループに割り当てます。
 
 グループの整理と定義を改善するために、ユーザーをグループ（またはサブグループ）のビジネスリーダーとして割り当てる機能が追加されました。 ビジネスリーダーとは、グループのビジネス上の意思決定をおこなうWorkfrontユーザーです。
 
@@ -86,7 +87,7 @@ Workfront管理者がポートフォリオ、プログラムまたは会社を�
 
 この機能は、 [管理者の基本、第 1 部の学習パス](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) Workfront・ワンで
 
-## 管理者向けの新機能：会社に割り当てられたグループの管理者は、会社を管理できます
+## 管理者向けの新規：会社に割り当てられたグループの管理者は、会社を管理できます
 
 グループ管理者がWorkfrontでグループに関連付けられている会社を簡単に管理できるようになりました。 会社を管理するためのアクセスは、関連付けがおこなわれると自動的に使用可能になります。 これは、グループ管理者が会社に対する管理者アクセス権を持っていない場合に特に重要です。
 
@@ -100,13 +101,13 @@ Workfront管理者がポートフォリオ、プログラムまたは会社を�
 
 作業項目で実際に開始する日時の作業を取り込むために、ユーザーは作業項目の状態と実際の開始日を自動的に更新する開始ボタンに置き換えることができます。
 
-更新日：9 月 24 日[ タスクの開始 ] または [ タスクの開始 ] をクリックした後に、選択を元に戻すオプションが表示され、[ 元に戻す ] をクリックして作業項目の作業を開始する準備ができていない可能性が示されます。 作業項目は「新規」ステータスに戻り、「コミット日」と「実際の開始日」が削除されます。 「元に戻す」オプションは非常に短時間表示され、ページから移動したりページを更新した後はクリアされます。
+9 月 24 日更新： 「開始」タスクまたは「開始」問題をクリックした後、選択を元に戻すオプションが追加され、「元に戻す」をクリックして作業項目の作業を開始する準備ができていないことを示すオプションが追加されました。 作業項目は「新規」ステータスに戻り、「コミット日」と「実際の開始日」は削除されます。 「元に戻す」オプションは非常に短時間表示され、ページから移動したりページを更新した後はクリアされます。
 
 このオプションの設定について詳しくは、 [「作業対象」ボタンを「開始」ボタンに置き換えます](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 この機能は、 [作業者の基本学習パス](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) そして [管理者の基本、第 1 部の学習パス](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) Workfront・ワンで
 
-## キュートピックに複数のドラフトを許可
+## キュートピックに複数のドラフトを許可する
 
 リクエストを操作する際の自由度を高めるために、1 つのキュートピックに対して保存できるドラフトの数に制限がなくなりました。 新しいリクエストを作成する場合、同じキュートピックのドラフトのリストから既存のドラフトを選択し、上書きして新しいリクエストとして送信するか、新しいリクエストをゼロから作成できます。
 
@@ -131,7 +132,7 @@ Workfront管理者がポートフォリオ、プログラムまたは会社を�
 このフィールドは、複数のサブグループを含むグループを管理するグループ管理者に特に役立ちます。
 
 例えば、Field Marketing と Digital Marketing のサブグループを持つ Marketing というグループを管理しているとします。 次のフィルター規則を持つ「プロジェクト」領域フィルターを作成すると、3 つすべてのグループに属するプロジェクトを一覧表示できます。
-<pre>グループ：上位親名/次と等しい/マーケティング</pre>また、新しい「上位の親名」フィールドが追加され、（フィルターやグループではなく）ビューの最上位グループに関連付けられたデータを識別できるようになりました。
+<pre>グループ：上位の親名 &gt; 次と等しい &gt; マーケティング</pre>また、新しい「上位の親名」フィールドが追加され、（フィルターやグループではなく）ビューの最上位グループに関連付けられたデータを識別できるようになりました。
 
 リストとレポートでのフィールドの使用について詳しくは、 [Adobe Workfrontの用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

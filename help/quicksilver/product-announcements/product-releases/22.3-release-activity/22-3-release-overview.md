@@ -4,17 +4,18 @@ description: 22.3 リリースの概要
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3193'
+source-wordcount: '3220'
 ht-degree: 0%
 
 ---
 
 # 22.3 リリースの概要
 
-このページでは、22.3 リリースに含まれる機能について説明します。 一覧に表示されるすべての機能は、新しいAdobe Workfrontエクスペリエンスで使用できます。 一部の機能は、Adobe Workfront Classic でも使用できます。しかしながら [Workfront Classic は 2022 年 3 月に廃止されます](https://one.workfront.com/s/new-workfront-experience)。その後、まもなく 2022 年 7 月にWorkfront Classic のサポート終了日になります。
+このページでは、22.3 リリースに含まれる機能について説明します。 一覧に表示されるすべての機能は、新しいAdobe Workfrontエクスペリエンスで使用できます。 一部の機能はAdobe Workfront Classic でも使用できますが、 [Workfront Classic は 2022 年 3 月に廃止されます](https://one.workfront.com/s/new-workfront-experience)。その後、まもなく 2022 年 7 月にWorkfront Classic のサポート終了日になります。
 
 これらの機能強化は、2022 年 7 月 11 日の週に実稼動環境で公開されました。
 
@@ -44,8 +45,8 @@ ht-degree: 0%
     </td>
     <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 3 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 3 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -58,8 +59,8 @@ ht-degree: 0%
    </td> 
     <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 3 日<br></p> </li> 
-     <li> <p>実稼動版リリース：2022 年 9 月 16 日</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 3 日<br></p> </li> 
+     <li> <p>実稼動リリース： 2022 年 9 月 16 日</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -75,8 +76,8 @@ ht-degree: 0%
    </td> 
     <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 2 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 2 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -88,8 +89,8 @@ ht-degree: 0%
    </td> 
     <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 3 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 3 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -97,12 +98,12 @@ ht-degree: 0%
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">カスタムフォームフィールドの計算エディターにエラー情報が表示されます
-</a><span style="color: #ff0000; font-weight: bold;"> （一時的に利用不可）</span></p></p> <p>カスタムフィールドの計算を簡単に編集できるようになりました。計算に直接示される便利なエラー情報が追加されました。 カスタムフォームで計算フィールドを作成する場合、エラーはピンク色でハイライト表示されます。 ハイライト表示された部分にマウスポインターを置くと、問題の内容を示すツールチップが表示されます。</p>
+</a><span style="color: #ff0000; font-weight: bold;"> （一時的に利用不可）</span></p></p> <p>カスタムフィールドの計算を簡単に編集できるようになりました。計算に直接示される便利なエラー情報が追加されました。 カスタムフォームで計算フィールドを作成する場合、エラーはピンク色で強調表示されます。 ハイライト表示された部分にマウスポインターを置くと、問題の内容を示すツールチップが表示されます。</p>
     </td> 
     <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 10 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 10 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -115,8 +116,8 @@ ht-degree: 0%
     </ul> </td> 
     <td>
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 3 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 3 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
    </td>
@@ -130,7 +131,7 @@ ht-degree: 0%
    <p>新しい設定は、「ユーザーがテンプレートを使用せずにプロジェクトを作成できるようにする」で、デフォルトで有効になっています。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 5 月 20 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 5 月 20 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.3 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -138,10 +139,10 @@ ht-degree: 0%
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">グループページからグループを非アクティブ化する</a> </p> <p>最近では、グループの非アクティブ化と再アクティブ化の機能が追加されました。 この操作を迅速かつ容易にするために、グループのページに追加しました。 グループ名をクリックしてそのページに移動した後、その他のメニューを選択できます <img src="assets/more-icon.png"> グループ名の横にある「非アクティブ化」または「再アクティブ化」を選択します。</p> <p>以前は、グループの詳細ページの「アクティブ」チェックボックスを使用してのみ、グループのアクティベートを解除または再アクティブ化できました。 </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">グループページからグループを非アクティブ化します。</a> </p> <p>最近では、グループの非アクティブ化と再アクティブ化の機能が追加されました。 この操作を迅速かつ容易にするために、グループのページに追加しました。 グループ名をクリックしてそのページに移動した後、その他のメニューを選択できます。 <img src="assets/more-icon.png"> グループ名の横にある「非アクティブ化」または「再アクティブ化」を選択します。</p> <p>以前は、グループの詳細ページの「アクティブ」チェックボックスを使用してのみ、グループのアクティベートを解除または再アクティブ化できました。 </p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 4 月 15 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 4 月 15 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.3 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -149,10 +150,10 @@ ht-degree: 0%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">カスタムフォームへのビデオの追加</a> </p> <p>ビデオを追加することで、新しい情報、視覚的な興味、創造性をカスタムフォームに提供できます。 フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーはいつでもビデオを再生できます。</p> <p>以前は、カスタムフォームに追加できるのはテキストベースのフィールドと画像だけです。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">カスタムフォームにビデオを追加する</a> </p> <p>ビデオを追加することで、新しい情報、視覚的な興味、創造性をカスタムフォームに提供できます。 フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーはいつでもビデオを再生できます。</p> <p>以前は、カスタムフォームに追加できるのはテキストベースのフィールドと画像だけです。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 4 月 15 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 4 月 15 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.3 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -177,8 +178,8 @@ ht-degree: 0%
    <p>この機能強化以前は、承認の委任のみ可能でした。</p></td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 10 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 10 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -189,8 +190,8 @@ ht-degree: 0%
    </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 10 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 10 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -201,8 +202,8 @@ ht-degree: 0%
    <p>新しいWorkfrontエクスペリエンスの残りに適した更新されたユーザーインターフェイスに加えて、問題をリストまたはレポートから空のプロジェクトに変換する機能も追加しました。</p></td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 3 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 3 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -212,8 +213,8 @@ ht-degree: 0%
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">更新ストリームのスマートタグ</a></p> <p>新しい更新を作成したり、既存の更新に返信したりする際の、更新ストリーム内のユーザーのタグ付けを改善しました。 これで、ユーザーにタグを付けて更新に含める際に、ユーザーの名前やアバターに加えて、プライマリの役割と電子メールも表示されるようになりました。 これは、似た名前や同一の名前の複数のユーザーを区別するのに役立ちます。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 5 月 20 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 5 月 20 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -223,8 +224,8 @@ ht-degree: 0%
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">カスタムフィールドの計算に関する新しい構文</a> </p> <p>カスタムフォームに計算を追加する際に役立つ今後の機能強化に備えて、計算に追加する参照フィールドの構文を標準化しました。 この新しい構文は、フィールド名の入力を開始して選択するときに入力されるので、簡単に使用できます。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 5 月 6 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 5 月 6 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -234,8 +235,8 @@ ht-degree: 0%
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">共通の役割を持つ 2 人のユーザーが承認プロセスに関与する場合は、正確な情報を保持します</a> </p> <p>作業を承認するためのデータの正確性を確保するため、複数の役割を持つ承認プロセスがアイテムに関連付けられている場合に、アイテムに対する承認情報の記録方法を変更しました。</p> <p>一部の承認プロセスでは 2 つの異なる役割からの承認が必要で、2 つの異なる承認者には、それらの役割の 1 つが共通している場合があります。 これが発生した場合、承認の決定がおこなわれた後、Workfrontでは、各承認者と、承認プロセスに関連付けられているそれぞれの役割が記録されます。</p> <p>この変更がおこなわれる前は、2 人目のユーザーは 1 人目の承認者と 1 人目の承認者の役割の 1 つを共有しているので、両方の承認が記録されていました。 この場合、2 番目の承認者は、最初の承認者の情報を上書きしていました。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 4 月 22 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 4 月 22 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -329,7 +330,7 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">ワークロードバランサーでの並べ替え環境設定とユーザビリティの強化</a> </p> <p>ワークロードバランサーを使用する際のエクスペリエンスを向上させるために、「Unnasigned」セクションと「Assigned」セクションの並べ替えの改善、プロジェクトバーの新しい外観と操作性、予測日付の読みやすいデザインなど、次の機能強化が導入されました。</p> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 3 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 3 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -354,7 +355,7 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
 </a> </p> <p>リソース・プランナからのリソース予算設定情報を反映するために、リストとレポートに新しい「リソース・プランナの予算時間」フィールドを追加しました。 様々なフィールドは、以前のリリースでWorkfrontから削除された廃止されたツールを参照していたので、リストやレポートから削除されました。</p> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 24 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 24 日<br></p> </li> 
      <li> <p>実稼動リリース： 2022 年 6 月 24 日</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -379,7 +380,7 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <p>また、Cloud ServiceとAssets Essentialsの両方に新しい機能が導入されました。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：該当なし<br></p> </li> 
+     <li> <p>プレビューリリース：なし<br></p> </li> 
      <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -390,7 +391,7 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">複数のファイルを 1 つの配達確認でCreative Cloudプラグインで結合</a> </p> <p>Workfrontで複数ファイルの配達確認を作成するために、Adobe Workfrontで作成したコンテンツを使用して、外部のファイルをアップロードできるようになりました。 外部のファイルは、Workfront内に追加の配達確認ページとして表示されます。 この機能強化により、配達確認作成エクスペリエンスのルックアンドフィールも更新しました。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：該当なし<br></p> </li> 
+     <li> <p>プレビューリリース：なし<br></p> </li> 
      <li> <p>実稼動版リリース：未定</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -403,7 +404,7 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <p>Workfront管理者は、組織のニーズに応じて、SharePointと従来のSharePointの統合を別々に有効化および無効化できます。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 3 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 3 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -428,8 +429,8 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <td> <p><b>次の日に利用可能：</b> </p> 
    <p>コメントおよび返信で、他の配達確認ユーザーにタグ付けすることもできます。 タグを付けた人に電子メール通知が届きます。</p>
     <ul> 
-     <li> <p>プレビューリリース：該当なし<br></p> </li> 
-     <li> <p>実稼動版リリース：2022 年 7 月中旬～7 月下旬にAppleApp Store・Google Playストアで入手可能。</p> </li> 
+     <li> <p>プレビューリリース：なし<br></p> </li> 
+     <li> <p>実稼動版リリース：2022 年 7 月中旬～7 月下旬にApple App StoreおよびGoogle Playストアで利用可能。</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -452,8 +453,8 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">更新されたタイムシート</a> </p> <p>タイムシートの操作時に、エクスペリエンスの改善と更新を継続して行っています。 </p> </td>
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 6 月 3 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 6 月 3 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -463,8 +464,8 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 リリース期間のルックアンドフィールの更新</a> </p> <p>22.3 のリリース期間内に、アプリケーションの様々な領域のルックアンドフィールに対するマイナーアップデートがおこなわれています。 これらの機能強化は、プレビューのリリース後最低 2 週間で実稼動環境で利用できるようになります。</p> </td>
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：22.3 リリース期間全体<br></p> </li> 
-     <li> <p>実稼動版リリース：プレビューにリリースしてから最低 2 週間（特に指定のない限り）</p> </li> 
+     <li> <p>プレビューリリース： 22.3 リリース期間を通じて<br></p> </li> 
+     <li> <p>実稼動版リリース：プレビューにリリースしてから最低 2 週間（特に指定のない限り）後</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -474,8 +475,8 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">カスタム OAuth2 アプリケーションで自動更新トークンローテーションを有効にする</a></p> <p>カスタム OAuth2 アプリケーションのセキュリティをより詳細に制御できるように、更新トークンのローテーションを有効にするオプションが追加されました。 このオプションを有効にすると、更新トークンが使用されるたびに、アプリケーションは新しい更新トークンを自動的に作成して送信し、古い更新トークンを無効にします。</p> <p>更新のたびに新しい更新トークンをアプリケーションに保存する必要があります。 Workfrontは、この更新トークンを保存しません。</p> <p>以前は、更新トークンは、カスタム OAuth2 アプリケーション設定で設定された設定時間が経過すると有効期限が切れていました。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 5 月 6 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 5 月 6 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -485,8 +486,8 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">シングルページ Web アプリケーションのカスタム OAuth2 統合で PKCE を使用する</a></p> <p>PKCE を使用して、カスタム統合で単一ページ Web アプリケーションを作成できるようになりました。 PKCE は、モバイルアプリケーションなどの動的に更新するアプリケーションで適切に機能する、安全な認証フローですが、すべての OAuth2 クライアントで役立ちます。 PKCE では、静的なクライアントシークレットの代わりに動的に生成された文字列を使用するので、クライアントシークレットの漏洩を防ぐことができます。</p> <p>以前は、カスタム OAuth2 アプリケーションで使用可能なオプションは、ユーザーの名前とパスワード、またはクライアントの秘密鍵のいずれかを使用していました。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 5 月 6 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.3 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 5 月 6 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.3 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -499,7 +500,7 @@ Campaigns は、2022 年 7 月に 22.3 リリースでプレビューベータ�
 
 Workfront Fusion の新機能は、実稼動環境の 22.3 リリーススケジュール以外のサイクルで使用できます。 最新の機能について詳しくは、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-## WorkfrontScenario プランナーの強化
+## WorkfrontScenario プランナーの機能強化
 
 リリースのこの時点では、シナリオプランナーの更新はありません。 この領域は、更新が利用可能になると更新されます。
 
@@ -507,7 +508,7 @@ Workfront Fusion の新機能は、実稼動環境の 22.3 リリーススケジ
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features are coming to Workfront Scenario Planner release with the 21.4 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a>.</p>
 -->
 
-## Workfront Proof の強化
+## Workfront Proof の機能強化
 
 このリリースでは、現時点でWorkfront Proof の更新はありません。 この領域は、更新が利用可能になると更新されます。
 

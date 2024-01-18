@@ -5,10 +5,11 @@ title: R1 リリースアクティビティの概要
 description: このページでは、R1 リリースに含まれる機能について説明します。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 このページでは、R1 リリースに含まれる機能について説明します。 
 
-R1 リリースは現在、プレビューでテストできます。R1 は、2017 年 4 月 26 日と 27 日 (MDT) の夜に段階的にロールアウトして、実稼動環境にリリースします。
+R1 リリースは現在、プレビューでテストできます。R1 リリースは、2017 年 4 月 26 日と 27 日 (MDT) の夜に段階的にロールアウトして、実稼動環境にリリースされます。
 
-R1 リリースでは、ユーザー、ナレッジワーカー、管理者が作業をより効率的に管理できます。 R1 を使用すると、管理者はWorkfrontをカスタマイズして、組織の用語に合わせることができます。ナレッジ・ワーカーは、使用率レポートを活用して、プロジェクトが計画時間および予算時間に対してどのようにトラッキングされているかをより深く理解できます。ユーザーは、Outlook 365 から直接Workfrontに関与し、Workfrontモバイルアプリを使用する際に生産性を高めることができます。その他多く。
+R1 リリースでは、ユーザー、ナレッジワーカー、管理者が作業をより効率的に管理できるようになります。 管理者は R1 を使用して、組織の用語に合わせてWorkfrontをカスタマイズできます。ナレッジワーカーは、使用率レポートを活用して、プロジェクトの計画時間や予算に対する追跡方法をより深く理解できます。Workfrontモバイルアプリを使用すると、Outlook 365 から直接Workfrontに参加できます。
 
 R1 で使用できる改善点の完全なリストについては、以下のセクションを参照してください。
 
@@ -35,21 +36,21 @@ R1 で使用できる改善点の完全なリストについては、以下の�
 * [校正機能の強化](#proofing-enhancements)
 * [R1 で実稼動環境にリリースされない機能](#functionality-not-releasing-to-production-in-r1)
 * [2017 R1 プレビューリリースウェビナー](#2017-r1-preview-release-webinars)
-* [年の  のメンテナンス更新](#maintenance-updates)
+* [メンテナンスの更新](#maintenance-updates)
 
 リリースプロセスに加えられている変更点の詳細については、を参照してください。
 
 ## ごみ箱 {#recycle-bin}
 
 * [ごみ箱からプロジェクト、タスク、および問題を復元する](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#restore-projects-tasks-and-issues-with-recycle-bin)
-* [ごみ箱の改善：タスクとサブタスクが以前の順序に復元される](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#recycle-bin-improvement-tasks-and-subtasks-are-restored-to-their-previous-order)
-* [ごみ箱の改善：ストリームの更新と電子メール通知の受信に記録済み](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#enhancements-when-restoring-objects)
+* [ごみ箱の改善：タスクとサブタスクは以前の順序に復元されます](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#recycle-bin-improvement-tasks-and-subtasks-are-restored-to-their-previous-order)
+* [ごみ箱の改善：更新ストリームに記録され、メール通知を受信](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#enhancements-when-restoring-objects)
 
 ## システム構成の強化 {#system-configuration-enhancements}
 
 * [オブジェクト名の変更によるWorkfrontの用語のカスタマイズ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#customizing-workfront-terminology-by-changing-object-names)
 * [カスタムFormsへのアクセスの制御](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#control-access-to-custom-forms)
-* [複数のシステム設定ページのルックアンドフィールを更新しました](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-look-and-feel-of-several-system-setup-pages)
+* [複数のシステム設定ページのルックアンドフィールを更新しました。](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-look-and-feel-of-several-system-setup-pages)
 
 ## リソーススケジュールの強化 {#resource-scheduling-enhancements}
 
@@ -67,7 +68,7 @@ R1 で使用できる改善点の完全なリストについては、以下の�
 
 ## プロジェクトとドキュメントの強化 {#project-and-document-enhancements}
 
-* [使用率レポートを使用したプロジェクトの進捗の追跡](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#track-project-progress-with-a-utilization-report)
+* [使用率レポートを使用したプロジェクトの進行状況の追跡](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#track-project-progress-with-a-utilization-report)
 * [プロジェクトページから直接プロジェクトのステータスを変更する](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#change-the-status-of-a-project-directly-from-the-project-page)
 * [マイルストーン表示の改善点](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#milestone-view-improvements)
 * [マイルストーン表示の機能強化](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#enhancements-in-the-milestone-view)
@@ -79,7 +80,7 @@ R1 で使用できる改善点の完全なリストについては、以下の�
 * [グループメンバーシップを管理するための更新済みダイアログボックス](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#updated-dialog-box-for-managing-group-membership)
 * [グループを公開する](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#ability-to-make-a-group-public)
 * [レイアウトテンプレートをグループに割り当てる](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#assing-layout-templates-to-groups)
-* [カレンダーの作業チームの更新](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#updated-team-working-on-calendar)
+* [カレンダーの作業チームを更新しました](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#updated-team-working-on-calendar)
 
 ## 電子メール通知の強化 {#email-notification-enhancements}
 
@@ -89,7 +90,7 @@ R1 で使用できる改善点の完全なリストについては、以下の�
 * [「おこなったリクエスト」の新しい電子メールダイジェストオプション](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#new-email-digest-options-for-requests-i-have-made)
 * [「必要なアクション」の新しい電子メールダイジェストオプション](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#new-email-digest-options)
 * [メール設定領域のイベント通知グループの更新](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-event-notifications-in-the-setup-area)
-* [インスタント通知のオプトアウト：コンテキスト内ダイジェストの設定](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
+* [インスタント通知のオプトアウト：コンテキスト内ダイジェスト設定](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
 * [「必要なアクション」セクションから他のプロジェクト関連セクションに移動された様々な電子メール通知](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#various-email-notifications-moved-from-the-action-needed-section-to-other-project-related-sections)
 * [ユーザー通知の一括編集に関する変更](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#changes-to-bulk-editing-user-notifications)
 
@@ -105,9 +106,9 @@ R1 で使用できる改善点の完全なリストについては、以下の�
 
 ## 校正機能の強化 {#proofing-enhancements}
 
-プレビュー環境では、校正機能は使用できません。これらの機能強化は、R1 を使用した実稼動環境で利用できるようになります。
+プレビュー環境では、校正機能の強化は使用できません。これらの強化は、R1 を使用した実稼動環境で使用できます。
 
-### Workfront内での校正の強化
+### Workfront内での校正機能の強化
 
 R1 を使用したWorkfrontアプリケーションに対して、次の機能強化がリリースされています。
 
@@ -134,17 +135,17 @@ R1 を使用した ProofHQ アプリケーションに対して、次の機能�
 ## その他の機能強化 {#other-enhancements}
 
 * [新しいガントチャートを既定で表示するレポートを構成する](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#configure-reports-to-show-the-new-gantt-chart-by-default)
-* [設定の状況依存ヘルプ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#context-sensitive-help)
+* [設定に関する状況依存ヘルプ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#context-sensitive-help)
 
 ## R1 で実稼動環境にリリースされない機能 {#functionality-not-releasing-to-production-in-r1}
 
-この節で説明する機能は、R1 リリースサイクル中にプレビュー環境で使用できました。ただし、この機能は R1 で実稼動環境にリリースされません。 この機能は、R1 リリースが実稼動環境に移行するまで、6 週間プレビュー環境から削除されます。 R1 が実稼動環境にリリースされた後、プレビュー環境に再導入されます。
+この節で説明した機能は、R1 リリースサイクル中にプレビュー環境で使用できましたが、この機能は R1 の実稼動環境にはリリースされません。 この機能は、R1 リリースが実稼動環境に移行するまでの 6 週間、プレビュー環境から削除されます。 R1 が実稼動環境にリリースされた後、プレビュー環境に再導入されます。
 
-* [新しいリソース計画機能（R1 の実稼働では使用不可）](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (R1 の実稼動環境では使用できません。残り **プレビュー**)
+* [新しいリソース計画機能（R1 の実稼働では使用不可）](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (R1 の実稼動環境では使用できません。残りは **プレビュー**)
 
-* [任意のリスト内の列をドラッグ&amp;ドロップで並べ替える](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (R1 の実稼動環境では使用できません。残り **早期アクセス**)
+* [任意のリスト内の列をドラッグ&amp;ドロップで並べ替える](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (R1 の実稼動環境では使用できません。残りは **早期アクセス**)
 
-* [ダッシュボードリストのルックアンドフィールを更新しました。](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (R1 の実稼動環境では使用できません。残り **早期アクセス**)
+* [ダッシュボードリストのルックアンドフィールを更新しました。](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (R1 の実稼動環境では使用できません。残りは **早期アクセス**)
 
 * [2016 年のプレビューで使用可能になった機能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area) (R1 の実稼動環境では使用できません。 **早期アクセスから削除される** （2017 年 4 月 20 日）
 
@@ -155,6 +156,6 @@ R1 を使用した ProofHQ アプリケーションに対して、次の機能�
 
 R1 リリースのウェビナー録画を表示するには、 [R1 リリースウェビナー](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md).   
 
-## 年の  のメンテナンス更新 {#maintenance-updates}
+## メンテナンスの更新 {#maintenance-updates}
 
 Workfrontシステムに対しておこなわれた最新のメンテナンスアップデートの包括的なリストについては、を参照してください。

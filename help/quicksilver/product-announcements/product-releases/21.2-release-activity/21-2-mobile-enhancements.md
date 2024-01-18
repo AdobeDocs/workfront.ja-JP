@@ -6,10 +6,11 @@ title: 21.2 モバイル機能の強化
 description: このページでは、プレビュー環境の 21.2 リリースでおこなわれた Mobile のすべての機能強化について説明します。 これらの機能強化は、2021 年 5 月 10 日の週に実稼動環境で利用可能になる予定です。 21.2 リリースで使用できるすべての変更点の一覧については、 21.2 リリースの概要を参照してください。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5ec5f0bd-6234-488b-bd3a-f14400b08cab
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '282'
 ht-degree: 3%
 
 ---

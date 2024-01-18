@@ -3,16 +3,17 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2022 年 6 月 20 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2022 年 6 月 20 日の週」
 description: このページでは、2022 年 6 月 20 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: b18a4a36-6347-4ece-a2c1-4d71917181ce
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
@@ -36,9 +37,9 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 * フォルダーリストの取得
 
-* あるフォルダーから別のフォルダーにレコードを移動
+* あるフォルダーから別のフォルダーにレコードを移動する
 
 * カスタム API 呼び出しをおこなう
 
 
-詳しくは、 [Adobe Experience Manager Assets モジュール](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md).
+詳しくは、 [Adobe Experience Manager Assetsモジュール](../../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md).

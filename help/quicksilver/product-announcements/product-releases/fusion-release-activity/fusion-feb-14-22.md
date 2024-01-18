@@ -4,11 +4,12 @@ description: Workfront Fusion リリース活動：&nbsp;2022 年 2 月 14 日�
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: f6b9cc4b-45d6-42dd-9c6e-29d905c08124
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -28,4 +29,4 @@ Analyplan コネクタの機能を拡張するために、次の更新をおこ�
 * 専用モジュールを使用して、Anaplan にファイルをアップロードします。 これで、Anaplan でファイルを取得し、追加のワークスペースとモデルにアップロードできます。
 * 「レコードの取得」モジュールを使用して Anaplan ビューを取得します。 これで、Anaplan モジュールまたはモデルのすべてのビューをリストできます。
 
-詳しくは、 [Anaplan モジュール](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+詳しくは、 [Analyplan モジュール](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).

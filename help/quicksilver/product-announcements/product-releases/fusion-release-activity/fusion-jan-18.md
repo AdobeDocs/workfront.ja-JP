@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2021 年 1 月 18 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2021 年 1 月 18 日の週」
 description: このページでは、2021 年 1 月 18 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: c7d92bb7-bdf5-4f8b-89d6-d2cd4c5fc3b7
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -56,7 +57,7 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 詳しくは、 [Azure DevOps モジュール](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
 
-## Qualtrics コネクタとモジュールを利用できるようになりました
+## Qualtrics コネクタとモジュールを利用できるようになりました。
 
 これで、Workfront Fusion 2.0 を使用して Qualtrics アカウントに接続できます。 Qualtrics モジュールを使用すると、次の操作を実行できます。
 

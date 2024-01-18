@@ -4,10 +4,11 @@ description: 23.2 管理者の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 以前は、WorkfrontデータをExperience Manager Assetsタグにマッピングすることはできませんでした。
 
-Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、 [の設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、 [を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 Experience Manager Assets Essentials のこの機能について詳しくは、 [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -34,11 +35,11 @@ Experience Manager Assets Essentials のこの機能について詳しくは、 
 
 新しいフォームデザイナーでは、
 
-* **フィールドのコピー**:フィールド上のコピーアイコンをキャンバスから直接クリックして、既存のフィールドをコピーできるようになりました。
+* **フィールドをコピーする**：フィールド上のコピーアイコンをキャンバスから直接クリックして、既存のフィールドをコピーできるようになりました。
 
-* **デフォルトセクションを使用**:フォーム作成者がフォームの上部にセクションを追加していない場合は、キャンバスに「デフォルト」セクションが表示されるので、カスタムセクションが割り当てられていないフィールドの権限をユーザーが調整できます。
+* **デフォルトセクションを使用**：フォーム作成者がフォームの上部にセクションを追加していない場合は、キャンバスに「デフォルト」セクションが表示されるので、カスタムセクションが割り当てられていないフィールドの権限を調整できます。
 
-* **説明テキストのサイズの変更**:「説明テキスト」フィールドに、小、中、大のサイズを割り当てることができるようになりました。 また、他のフィールドと同じ行で使用することもできます。 <span style="color: #ff0000;"> 説明テキストのサイズ変更は、一時的に遅延しましたが、近日中におこなわれます。</span></li>
+* **説明テキストのサイズの変更**：記述テキストフィールドに小、中、大のいずれかのサイズを割り当てることができるようになりました。 また、他のフィールドと同じ行で使用することもできます。 <span style="color: #ff0000;"> 説明テキストのサイズ変更は、一時的に遅延しましたが、近日中におこなわれます。</span></li>
 
 詳しくは、 [フォームデザイナーの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
 
@@ -46,8 +47,8 @@ Experience Manager Assets Essentials のこの機能について詳しくは、 
 
 ## レイアウトテンプレートのピン名を変更する
 
-固定されたページの既定の名前を使用する代わりに、レイアウトテンプレートのピン名を変更して、ユーザーにとってより意味のある名前に変更できるようになりました。 管理者が作成したピンは、レイアウトテンプレートに割り当てられたすべてのユーザに対して表示され、ユーザはこれらのピンの名前を変更できません。
+固定されたページの既定の名前を使用する代わりに、レイアウトテンプレートのピンの名前を変更して、ユーザーにとってより意味のある名前に変更できるようになりました。 管理者が作成したピンは、レイアウトテンプレートに割り当てられたすべてのユーザに対して表示され、ユーザはこれらのピンの名前を変更できません。
 
-詳しくは、 [レイアウトテンプレートを使用して固定されたページをカスタマイズする](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). ユーザーが自分で固定したページの名前を変更する方法について詳しくは、 [ページを固定してワークスペースをカスタマイズ](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+詳しくは、 [レイアウトテンプレートを使用して固定されたページをカスタマイズする](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). ユーザーが自分で固定したページの名前を変更する方法について詳しくは、 [ページを固定してワークスペースをカスタマイズする](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 [この機能のデモビデオを表示](https://video.tv.adobe.com/v/3414364/){target=_blank}

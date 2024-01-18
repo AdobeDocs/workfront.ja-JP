@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2020 年 11 月 2 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2020 年 11 月 2 日の週」
 description: このページでは、2020 年 11 月 2 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 60e04bd9-3de2-4053-9358-6922e6316aa4
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
 
-## 割り当てコネクタとモジュールが利用可能に
+## 割り当てコネクタとモジュールを利用できるようになりました
 
 これで、Workfront Fusion 2.0 を使用して Allocadia アカウントに接続できます。
 
@@ -40,11 +41,11 @@ Allocadia モジュールを使用すると、次のことが可能になりま�
 
 これで、Workfront Fusion 2.0 を使用して DocuSign アカウントに接続できます。 DocuSign モジュールを使用すると、次の操作を実行できます。
 
-* トリガーエンベロープがステータスを変更した場合のシナリオのステータス
+* トリガーエンベロープがステータスを変更したときのシナリオのステータス
 * エンベロープの作成
 * 既存の封筒に受信者を読み取り、送信、または追加する
-* ドキュメント内のカスタムフィールドを追加または変更
-* ドキュメントをフィールド形式でダウンロード
+* ドキュメント内のカスタムフィールドを追加または変更する
+* ドキュメントをフィールド形式でダウンロードする
 * エンベロープにファイルをアップロード
 * カスタム API 呼び出しの実行
 

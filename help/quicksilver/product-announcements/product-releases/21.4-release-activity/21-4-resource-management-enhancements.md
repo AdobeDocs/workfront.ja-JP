@@ -4,10 +4,11 @@ description: 21.4 リソース管理の強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 21.4 リリースで利用可能なすべての変更点の一覧については、 [21.4 リリースの概要](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## ワークロードバランサーでの高速割り当て
+## ワークロードバランサーで高速割り当てを行う
 
 未割り当て領域から項目をドラッグし、割り当て済み領域のユーザーの行にドロップすることで、最小クリック数でワークロードバランサー内のリソースのバランスを効率的に取ることができるようになりました。 ドラッグ&amp;ドロップを使用して、ユーザーから項目の割り当てを解除し、未割り当て領域に戻したり、他のユーザーに移動したりすることもできます。
 

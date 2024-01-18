@@ -4,10 +4,11 @@ description: 22.3 リリース期間中のその他の更新
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 88d4c34e-9a3a-489d-ac97-2d81903104d8
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 * 自動保存機能を使用して、ログに記録された時間と時間のコメントを、追加後に自動的に保存します。
 
-* 他のオブジェクトページと一致する、より直感的なページレイアウト。 たとえば、タイムシートに左側のパネルを追加したとします。 タイムシートの更新が、左側のパネルの [ 更新 ] セクションに表示されます。 また、タイムシートページからタイムシートを削除したり、お気に入りリストにタイムシートを追加することもできます。
+* 他のオブジェクトページと一致する、より直感的なページレイアウト。 たとえば、タイムシートに左側のパネルを追加したとします。 タイムシートの更新が、左側のパネルの [ 更新 ] セクションに表示されます。 また、タイムシートページからタイムシートを削除したり、お気に入りの一覧にタイムシートを追加することもできます。
 
 * タイムシートでプロジェクト、タスク、またはタスクを検索して追加する際の、より優れたエクスペリエンス。 これは、Workfrontの他のすべてのリストのエクスペリエンスに一致します。
 
@@ -35,12 +36,12 @@ ht-degree: 0%
 
 * 更新からのタスクの作成は削除されました。 この機能は、2018.2 リリース以降、他のすべてのオブジェクトの更新領域から削除されましたが、タイムシートの更新ストリームでは引き続き使用できます。
 
-* [ タイムシートから費用を追加する ] [ セットアップ ] の [ タイムシートと時間の基本設定 ] 領域から優先設定が削除され、タイムシートから費用を記録できなくなりました。 タスクページとプロジェクトページから費用をログに記録することもできます。
+* [ タイムシートから費用を追加する ]。 [ セットアップ ] の [ タイムシートと時間の基本設定 ] 領域から優先設定が削除され、タイムシートから費用を記録できなくなりました。 タスクページとプロジェクトページから費用をログに記録することもできます。
 
 
 詳しくは、次の記事を参照してください。
 
-* [タイムシートレイアウトを理解する](/help/quicksilver/timesheets/timesheets/timesheet-layout.md)
+* [タイムシートのレイアウトを理解する](/help/quicksilver/timesheets/timesheets/timesheet-layout.md)
 
 * [タイムシートと時間の基本設定を構成する](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
 

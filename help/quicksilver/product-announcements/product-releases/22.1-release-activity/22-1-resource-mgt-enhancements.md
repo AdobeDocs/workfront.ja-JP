@@ -4,10 +4,11 @@ description: 22.1 リソース管理の強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ in January 2022
 
 詳しくは、 [ワークロード・バランサのナビゲート](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## ワークロードバランサーを使用して作業を一括で割り当て
+## ワークロードバランサーを使用して作業を一括で割り当てる
 
 スケジューリングツールを廃止し、ワークロードバランサーに置き換える取り組みを続ける中で、割り当てを一括で管理する機能を追加しました。 複数の作業項目を一度に複数のユーザーに割り当てたり、複数の作業項目のユーザーを他のユーザーに置き換えたり、複数の項目のユーザーを一度に割り当て解除したりできるようになりました。 ワークロードバランサーの新しい一括割り当て機能を使用すると、これらすべてを 1 回のアクションで実行できます。
 

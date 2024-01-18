@@ -3,16 +3,17 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2020 年 8 月 17 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2020 年 8 月 17 日の週」
 description: このページでは、2020 年 8 月 18 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d3fc3169-b23e-49ea-aafd-136761278ef6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 1%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -36,4 +37,4 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 **実稼動版リリース**
 
-2020 年 8 月 21 日
+2020年8月20日（PT）

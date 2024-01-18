@@ -4,10 +4,11 @@ description: 22.1 プロジェクトの機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ in January 2022
 
 ## 1 つまたは複数のタスクをコピーする際の新しいエクスペリエンス
 
-Workfrontの使用を新しいAdobe Workfrontエクスペリエンスと一貫させるために、タスクをコピーする際にインターフェイスのデザインを変更しました。 現在、タスクレベルでタスクをコピーする場合や、リスト内の 1 つ以上のタスクをコピーする場合に使用できます。
+Workfrontの使用を新しいAdobe Workfrontエクスペリエンスと一貫させるために、タスクをコピーする際にインターフェイスのデザインを一新しました。 現在、タスクレベルでタスクをコピーする場合や、リスト内の 1 つ以上のタスクをコピーする場合に使用できます。
 
 改善点の一部を次に示します。
 
@@ -137,7 +138,7 @@ Workfrontを新しいWorkfrontエクスペリエンスと一貫して使用で�
 
 テンプレートを共有する手順については、 [プロジェクトテンプレートの共有](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-新しい詳細設定の詳細については、この記事の「 」セクションを参照してください。 [テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+新しい詳細設定の詳細については、この記事の「 」の節を参照してください。 [テンプレートの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 ## ドキュメントフォルダーの共有
 

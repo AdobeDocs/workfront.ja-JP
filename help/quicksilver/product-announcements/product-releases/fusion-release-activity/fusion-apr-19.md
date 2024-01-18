@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2021 年 4 月 19 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2021 年 4 月 19 日の週」
 description: このページでは、2021 年 4 月 20 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2d0027c4-3e17-40fd-8551-a11c7fed1960
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -26,12 +27,12 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 ## Workfront FusionSlackコネクタの更新
 
-Workfront Fusion でモジュールコネクタにSlackを追加しました。 専用モジュールを使用して、以下を実行できます。
+Workfront Fusion でモジュールコネクタにSlackを追加しました。 専用モジュールを使用して、以下を実行できるようになりました。
 
-* トリガー：マルチパーティのダイレクトメッセージを受け取る場合、チャネルにファイルが追加された場合、またはユーザーがワークスペースに追加された場合。
+* トリガーシナリオ（マルチパーティダイレクトメッセージを受け取る場合、チャネルにファイルが追加された場合、またはユーザーがワークスペースに追加された場合）。
 * メッセージの検索
 * メッセージに添付されたファイルを作成、読み取り、アップロード、ダウンロード、削除します。
-* チャンネルに星を追加するか、チャンネルから星を削除します
+* チャンネルに星を追加するか、チャンネルから星を削除します。
 * ユーザーに関する情報の取得またはチャネルからのユーザーの削除
 * リマインダーの作成、読み取り、完了、削除
 * ユーザーのステータスの設定

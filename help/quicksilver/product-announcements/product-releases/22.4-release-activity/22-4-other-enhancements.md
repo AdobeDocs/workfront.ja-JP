@@ -4,8 +4,9 @@ description: 22.4 その他の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,13 +23,13 @@ ht-degree: 0%
 
 このプラグインは、現在、InDesignでインストールできます。 作業項目の詳細にアクセスし、「更新」領域で同僚と共同作業し、XDを離れることなくすべてのレビュー用の配達確認を送信できます。 Adobe Creative Cloud Marketplace にアクセスし、今すぐプラグインをダウンロードしてください。
 
-プラグインについて詳しくは、 [[!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+プラグインについて詳しくは、 [[!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
 [今すぐ Marketplace でInDesign用にAdobe Workfrontをダウンロード](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
 管理者が [プラグインを使用してパッケージを作成する](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) Admin Consoleから、管理された方法または自己管理された方法でユーザーにデプロイします。
 
-## オブジェクトメタデータとネイティブのExperience Manager Assets統合を同期
+## オブジェクトのメタデータをネイティブのExperience Manager Assets統合と同期
 
 Workfrontでフィールドを変更すると、Workfrontのポートフォリオ、プログラム、プロジェクト、タスク、タスク、イシュー、ドキュメントの各フィールドが自動的に更新されるようになりました。
 
@@ -36,15 +37,15 @@ Workfrontでフィールドを変更すると、Workfrontのポートフォリ�
 
 以前は、プロジェクトフィールドのみが自動的に更新されていました。
 
-詳しくは、 [Experience Manager Assets統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+詳しくは、 [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 ## プログラムおよびポートフォリオの親オブジェクトに対するメタデータのプッシュ
 
-これで、アセットが最初にExperience Manager AssetsまたはAssets Essentialsに送信されたときに、プログラムおよびポートフォリオの親オブジェクト用にマッピングするように設定されたメタデータも送信されます。
+これで、アセットが最初にExperience Manager AssetsまたはAssets Essentialsに送信されたときに、プログラムおよびポートフォリオの親オブジェクトに対してマッピングするように設定されたメタデータも送信されます。
 
 以前は、親プロジェクトデータのみが送信されていました。
 
-詳しくは、 [Experience Manager AssetsまたはAssets Essentialsにドキュメントを送信する](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
+詳しくは、 [Experience Manager AssetsまたはAssets Essentialsへのドキュメントの送信](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md).
 
 ## 拡張されたチームの説明
 
@@ -86,6 +87,6 @@ Workfront Campaigns を使用すると、様々なポートフォリオやプロ
 
 * レイアウトテンプレートから Campaign オブジェクトの名前を変更する機能
 
-   Workfrontのシステム管理者およびグループ管理者は、レイアウトテンプレートのメインメニューに「キャンペーン（ベータ版） 」領域を追加できます。 これにより、テンプレートに割り当てられているすべてのユーザーで使用できるようになります。 キャンペーンが使用可能になると、Workfront内の誰でもキャンペーンを作成できます。
+  Workfrontのシステム管理者およびグループ管理者は、レイアウトテンプレートのメインメニューに「キャンペーン（ベータ版） 」領域を追加できます。 これにより、テンプレートに割り当てられているすべてのユーザーで使用できるようになります。 キャンペーンが使用可能になると、Workfront内の誰でもキャンペーンを作成できます。
 
 

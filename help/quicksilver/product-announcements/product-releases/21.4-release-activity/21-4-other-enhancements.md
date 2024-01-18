@@ -4,10 +4,11 @@ description: 21.4 その他の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7afff4ec-a296-483c-819f-84932b6da4d8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 21.4 リリースで利用可能なすべての変更点の一覧については、 [21.4 リリースの概要](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## リストのインデントとアウトデントを行うための新しいキーボードショートカット
+## リストのインデントとアウトデントを行うための新しいキーボードショートカットが追加されました。
 
 すべてのシステムユーザーがアクセシブルな操作を提供し、標準のキーボードナビゲーション原則に従うため、インデント/アウトデントキーボードコマンドが変更されました。
 
@@ -26,7 +27,7 @@ Macの場合、Option + > を押してリスト項目をインデントし、Opt
 
 Windows の場合、Alt + > を押してリスト項目をインデントし、Alt + &lt; を押してアウトデントします。
 
-以前は、リスト内のインデントを行うキーボードショートカットは Tab キーで、アウトデントは Shift + Tab キーでした。 ただし、Tab キーを使用してインデントとアウトデントを行うと、インターフェイス内のすべてのアクティブなフィールドをタブで移動できなくなりました。
+以前は、リスト内のインデントを行うキーボードショートカットは Tab キーで、アウトデントは Shift + Tab キーでした。 ただし、Tab キーを使用してインデントとアウトデントを行うと、インターフェイス内のすべてのアクティブなフィールドで Tab キーを押すことはできませんでした。
 
 この変更は、更新されたリストにのみ適用され、従来のリストには適用されません。
 

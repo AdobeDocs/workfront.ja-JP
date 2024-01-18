@@ -4,10 +4,11 @@ description: 21.3 その他の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 82f51b74-4743-497c-87c6-6258aa7b02bf
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Adobe Workfrontモバイルアプリのホーム領域に次の機能が追加�
 
 * 作業項目ウィジェットと大きな検索ボックスが再設計され、必要な項目をすばやく見つけることができます。
 * ホーム、仮想アシスタント、クイックタスク、通知、ユーザープロファイルのナビゲーションバーが、ホーム領域の上に「フローティング」され、アクセスしやすくなりました。
-* My Work メニューは水平にスクロールし、次の項目が表示されます。プロジェクト、タスクと問題、要求、承認、およびタイムシート。 選択した項目に対して最大 3 枚のカードがメニューの下に表示されます。
+* [ 作業 ] メニューは水平方向にスクロールし、[ プロジェクト ]、[ タスクと懸案事項 ]、[ 要求 ]、[ 承認 ]、および [ タイムシート ] の項目が表示されます。 選択した項目に対して最大 3 枚のカードがメニューの下に表示されます。
 
 アプリがアプリストアにリリースされると、次の記事が更新されます。
 

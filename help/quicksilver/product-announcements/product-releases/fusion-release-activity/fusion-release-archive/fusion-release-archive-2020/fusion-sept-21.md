@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2020 年 9 月 21 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2020 年 9 月 21 日の週」
 description: このページでは、2020 年 9 月 21 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 94094c0f-1f40-46ea-a58f-5a6aa7f131a8
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
 
-## Workfront /レコードを更新またはWorkfront /レコードを作成モジュールを使用する際に、入力フィールドを選択します
+## Workfront /レコードを更新またはWorkfront /レコードを作成モジュールを使用する際に、入力フィールドを選択します。
 
 Workfrontのシナリオをより簡単に使用できるように、新しいタイプのフィールドが導入されました。 「マップするフィールドを選択」フィールドを使用すると、特定のオブジェクトに対して変更可能にするフィールドを選択できます。 これにより、情報の入力やトラブルシューティングが容易になります。これは、多くのフィールドをスクロールする必要がないためです。 また、使用可能なフィールドを制限すると、多数のカスタムフィールドを持つオブジェクトが大きすぎて効率的に実行できない場合に発生する問題を防ぐことができます。
 

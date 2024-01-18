@@ -4,10 +4,11 @@ description: 22.3 リリース期間中のプロジェクトの更新
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -121,7 +122,7 @@ Adobe Workfrontボードに以下の機能強化が追加されました。
 
 * すべてのカードの「ステータス」フィールド — 「ステータス」フィールドと「完了をマーク」ボタンがアドホックカードと接続されたカードの両方に追加されました。 [ 完了をマーク ] をクリックすると、ステータスが自動的に [ 完了 ] に変わります。
 
-* アドホックカードを接続カードに変換する — カードの詳細からアドホックカードを接続カードに変換するオプションが追加されました。
+* アドホックカードを接続カードに変換 — カードの詳細からアドホックカードを接続カードに変換するオプションが追加されました。
 
 * 接続カードの切断 — 接続カードを切断すると、Workfrontオブジェクトとの接続が切断されます。 カードはボード上のアドホックカードとして残り、 Workfrontオブジェクトは影響を受けません。
 
@@ -130,7 +131,7 @@ Adobe Workfrontボードに以下の機能強化が追加されました。
 * フィールド更新インジケーター — カードを保存すると、更新が保存されたことを確認するインジケーターが表示されるようになりました。
 
 
-詳しくは、 [Adobe Workfrontのボードの概要](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
+詳しくは、 [Adobe Workfrontでのボードの概要](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
 
 ## フォルダー階層の上位 5 レベルのみのフォルダーを共有する
 
@@ -138,7 +139,7 @@ Adobe Workfrontボードに以下の機能強化が追加されました。
 
 6 番目以下のフォルダーは、そのすぐ上のフォルダーから共有設定を継承します。
 
-フォルダーの共有の詳細については、 [トップレベルのドキュメントフォルダーを共有する](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+フォルダーの共有の詳細については、「 [トップレベルのドキュメントフォルダーを共有する](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
 ## Workfront Campaigns（ベータ版） — 作業を管理する新しい方法
 
@@ -175,7 +176,7 @@ Workfront Campaigns を使用すると、様々なポートフォリオやプロ
 
 * レイアウトテンプレートから Campaign オブジェクトの名前を変更する機能
 
-   Workfrontのシステム管理者およびグループ管理者は、レイアウトテンプレートのメインメニューに「キャンペーン（ベータ版） 」領域を追加できます。 これにより、テンプレートに割り当てられているすべてのユーザーで使用できるようになります。 キャンペーンが使用可能になると、Workfront内の誰でもキャンペーンを作成できます。
+  Workfrontのシステム管理者およびグループ管理者は、レイアウトテンプレートのメインメニューに「キャンペーン（ベータ版） 」領域を追加できます。 これにより、テンプレートに割り当てられているすべてのユーザーで使用できるようになります。 キャンペーンが使用可能になると、Workfront内の誰でもキャンペーンを作成できます。
 
 
 

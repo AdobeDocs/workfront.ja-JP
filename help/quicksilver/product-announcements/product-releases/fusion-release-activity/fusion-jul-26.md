@@ -4,16 +4,17 @@ description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 07bbdf99-986e-408d-9ee7-3c43dbb5b2ff
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2021 年 7 月 26 日の週
+# Workfront Fusion リリースアクティビティ： 2021 年 7 月 26 日の週
 
 このページでは、2021 年 7 月 26 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 
@@ -35,5 +36,5 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 Adobe Workfront Fusion への接続に関する同意画面が更新されました。 これで、接続がアクセスできる特定のアクションと領域を確認できるので、アプリケーションがアクセスできる内容をより深く理解できます。
 
-詳しくは、 [モジュールのアプリまたは Web サービスをWorkfront Fusion に接続する](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) セクション [Adobe Workfront Fusion でシナリオを作成する](../../../workfront-fusion/scenarios/create-a-scenario.md).
+詳しくは、 [モジュールのアプリまたは Web サービスをWorkfront Fusion に接続する](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) のセクション [Adobe Workfront Fusion でシナリオを作成する](../../../workfront-fusion/scenarios/create-a-scenario.md).
 

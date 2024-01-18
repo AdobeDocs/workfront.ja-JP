@@ -4,9 +4,11 @@ description: 23.2 レポートおよびダッシュボードの機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+recommendations: noDisplay, noCatalog
+exl-id: 2b5785e4-2fc3-4b93-9fdf-9638282c732d
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---

@@ -6,10 +6,11 @@ title: 21.3 リリースの概要
 description: このページでは、Adobe Workfront Classic と、21.3 リリースに含まれる新しいAdobe Workfrontエクスペリエンスの両方の機能に関する情報を提供し、生産性とコラボレーションの実現に役立ちます。 【リリースに向けたマーケティング・ワン・ライナー】
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -81,16 +82,16 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">21.3 リリースで実稼動環境で使用可能なブループリント</a> </p> <p>ブループリント機能は、2021 年 6 月 21 日の週に 21.3 Production リリースで一般に利用できるようになります。</p> <p>ブループリントは、成長する作業管理システムの作成に役立つ基本的な構成要素を提供します。 システム管理者は、ブループリントカタログを参照して、すぐに使用できるプロジェクトテンプレートをインストールできます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">21.3 リリースで実稼動環境で使用可能なブループリント</a> </p> <p>ブループリント機能は、2021 年 6 月 21 日の週に 21.3 Production リリースで一般に利用できるようになります。</p> <p>ブループリントは、成長する作業管理システムを作成するのに役立つ基本的な構成要素を提供します。 システム管理者は、ブループリントカタログを参照して、すぐに使用できるプロジェクトテンプレートをインストールできます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>プレビューリリース：2021 年 4 月 22 日（21.2 リリースを含む）<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">グループ管理者向けの新機能：任意のレベルでのグループのステータスの作成と管理</a> </p> <p>組織のすべてのレベルでワークフローを個別に管理および制御しやすくするため、サブグループのステータスを作成および管理する機能を導入しました。 </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">グループ管理者向けの新機能：任意のレベルでグループのステータスを作成および管理できます。</a> </p> <p>組織のすべてのレベルでワークフローを個別に管理および制御しやすくするために、サブグループのステータスを作成および管理する機能が導入されました。 </p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 6 月 4 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：請求レコードのカスタムフォームを作成します</a> </p> <p>請求レコードのカスタムフォームを作成することで、ユーザーが請求情報を取得する方法を改善できます。 ユーザーは、請求レコードにカスタムフォームを添付し、記入して、フォームに含まれる情報をレポートを実行することができます。</p> </td> 
-   <td><strong>次の日に利用可能：</strong> <p>プレビューリリース：2021 年 5 月 21 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">管理者向けの新規：請求レコードのカスタムフォームを作成します</a> </p> <p>請求レコードのカスタムフォームを作成することで、ユーザーが請求情報を取得する方法を改善できます。 ユーザーは、請求レコードにカスタムフォームを添付し、記入して、フォームに含まれる情報をレポートを実行することができます。</p> </td> 
+   <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 5 月 21 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +115,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 6 月 4 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#consider" class="MCXref xref" xrefformat="{para}">引き渡し日を計算する際に、プロジェクト間の先行タスクを考慮する</a> </p> <p>Adobe Workfrontでのタスクへの引き渡し日の計算方法が新たに改善され、プロジェクト間の依存関係が考慮されるようになりました。 </p> <p>以前は、同じプロジェクトのタスクの先行タスクに基づいてハンドオフ日が計算されていました。 </p> <p>現在は、プロジェクト間の先行タスクの正確な引き渡し日を常に設定するには、後続タスクのプロジェクトのタイムラインを再計算する必要があります。 タイムラインを再計算した後、タスクの引き渡し日は、タスクのプロジェクト間の依存関係を考慮して計算されます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#consider" class="MCXref xref" xrefformat="{para}">引き渡し日を計算する際には、プロジェクト間の先行タスクを考慮する</a> </p> <p>Adobe Workfrontでのタスクへの引き渡し日の計算方法が新たに改善され、プロジェクト間の依存関係が考慮されるようになりました。 </p> <p>以前は、同じプロジェクトのタスクの先行タスクに基づいてハンドオフ日が計算されていました。 </p> <p>現在は、プロジェクト間の先行タスクの正確な引き渡し日を常に設定するには、後続タスクのプロジェクトのタイムラインを再計算する必要があります。 タイムラインを再計算した後、タスクの引き渡し日は、タスクのプロジェクト間の依存関係を考慮して計算されます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 6 月 4 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -134,24 +135,24 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 6 月 4 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#group" class="MCXref xref" xrefformat="{para}">プロジェクト、タスクおよび問題の環境設定をグループ化します</a> </p> <p>先ほどお伝えしたように、プロジェクト、タスクおよび問題の環境設定に対するグループレベルのカスタマイズを段階的に実施しました。 2021 年 6 月 24 日までは、すべての EMEA のお客様および他のすべてのお客様のサブセットに対して、実稼動環境で利用できました。 現在は、すべての顧客が利用できます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#group" class="MCXref xref" xrefformat="{para}">プロジェクト、タスクおよび問題報告の環境設定をグループ化します</a> </p> <p>先ほどお伝えしたように、プロジェクト、タスクおよび問題の環境設定に対するグループレベルのカスタマイズを段階的に実施しました。 2021 年 6 月 24 日までは、すべての EMEA のお客様および他のすべてのお客様のサブセットに対して、実稼動環境で利用できました。 現在は、すべての顧客が利用できます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： </p> <p>2020 年 7 月 10 日（グループのプロジェクト環境設定）</p> <p>2020 年 12 月 3 日（グループのタスクおよび問題の環境設定）<br></p> <p>実稼動リリース： 21.3 リリース（限られた数のお客様のみが利用可能、2021 年 6 月 24 日にすべてのお客様が利用可能）</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#allow" class="MCXref xref" xrefformat="{para}">外部ユーザーがドキュメントを承認することを許可</a> </p> <p>外部の電子メールアドレスを使用して、新しいWorkfrontエクスペリエンスのドキュメントに承認者を割り当てることができるようになりました。</p> <p>以前は、Workfront Classic でのみ、E メールアドレスで外部ユーザーを追加できました。</p> </td> 
-   <td><strong>次の日に利用可能：</strong> <p>プレビューリリース：2021 年 5 月 21 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
+   <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 5 月 21 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#export" class="MCXref xref" xrefformat="{para}">ポートフォリオまたはプログラムの「詳細」セクションから情報をエクスポート</a> </p> <p>ポートフォリオおよびプログラムの「詳細」セクションから.pdf ファイル情報に書き出せるようになりました。 この機能強化がおこなわれるまでは、「詳細」セクションから情報を書き出せるのは、プロジェクト、タスクおよびイシューのみです。</p> </td> 
-   <td> <p><strong>次の日に利用可能：</strong> </p> <p>プレビューリリース：2021 年 5 月 21 日<br></p> <p>実稼動リリース： 2021 年 6 月 4 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
+   <td> <p><strong>次の日に利用可能：</strong> </p> <p>プレビューリリース： 2021 年 5 月 21 日<br></p> <p>実稼動リリース： 2021 年 6 月 4 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#added" class="MCXref xref" xrefformat="{para}">オブジェクトのヘッダーに計画完了日のタイムスタンプを追加しました</a> </p> <p>簡単にアクセスし、利便性と正確性を高めるために、プロジェクト、タスクまたは問題のヘッダーの「完了予定日」にタイムスタンプを選択するオプションが追加されました。 </p> <p>この機能強化の前は、オブジェクトの計画完了日を更新した場合、Workfrontはデフォルトの時刻として午前 0 時を選択していました。 これで、時間と完了日をカスタマイズできます。</p> </td> 
-   <td><strong>次の日に利用可能：</strong> <p>プレビューリリース：2021 年 5 月 21 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#added" class="MCXref xref" xrefformat="{para}">オブジェクトのヘッダーに計画完了日のタイムスタンプを追加しました。</a> </p> <p>簡単にアクセスし、利便性と正確性を高めるために、プロジェクト、タスクまたは問題のヘッダーの「完了予定日」にタイムスタンプを選択するオプションが追加されました。 </p> <p>この機能強化の前は、オブジェクトの計画完了日を更新した場合、Workfrontはデフォルトの時刻として午前 0 時を選択していました。 これで、時間と完了日をカスタマイズできます。</p> </td> 
+   <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 5 月 21 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add3" class="MCXref xref" xrefformat="{para}">カスタムフォームを編集せずにオブジェクトに追加する</a> </p> <p>他のユーザーが入力するカスタムフォーム（後で入力するカスタムフォーム）をオブジェクトに簡単に追加できるようにしました。 フォームを追加する際に、フォームが自動的に編集モードに入らなくなりました。 単に空のフォームをオブジェクトに保存するだけです。</p> <p>以前は、カスタムフォームをオブジェクトに追加した場合、ページは編集モードになり、フォーム上の必須フィールドを完了してから、オブジェクトに保存する必要がありました。 これは、別のユーザーが入力するためのフォームの場合や、フォーム上の必須フィールドに何を入力するかまだわからない場合に不便でした。</p> </td> 
-   <td><strong>次の日に利用可能：</strong> <p>プレビューリリース：2021 年 5 月 21 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#add3" class="MCXref xref" xrefformat="{para}">カスタムフォームを編集せずにオブジェクトに追加する</a> </p> <p>他のユーザーが入力するカスタムフォーム（後で入力するカスタムフォーム）をオブジェクトに簡単に追加できるようにしました。 フォームを追加する際に、フォームが自動的に編集モードに入らなくなりました。 単に空のフォームをオブジェクトに保存するだけで済みます。</p> <p>以前は、カスタムフォームをオブジェクトに追加した場合、ページは編集モードになり、フォーム上の必須フィールドを完了してから、オブジェクトに保存する必要がありました。 これは、別のユーザーが入力するためのフォームの場合や、フォーム上の必須フィールドに何を入力するかまだわからない場合に不便でした。</p> </td> 
+   <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 5 月 21 日<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +169,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-resource-management-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">使用されなくなった役割の非アクティブ化</a> </p> <p>ユーザー、チーム、会社と同じエクスペリエンスを提供するために、使用しなくなった役割を非アクティブ化できる新しい機能が導入されました。 ロールを非アクティブ化すると、オブジェクトの割り当てと共有を行う typeahead フィールドで選択できなくなります。 非アクティブ化された役割は、検索フィールドおよびフィルターオプションに引き続き表示されます。</p> <p>非アクティブな役割に割り当てられたタスクと問題、および承認プロセスやルーティングルールは、引き続きこれらの役割に割り当てられます。 未完了の場合は、これらのオブジェクトを更新して、非アクティブなロールをアクティブなロールに置き換える必要があります。</p> </td> 
-   <td> <p><strong>次の日に利用可能：</strong> </p> <p>プレビューリリース： 2021 年 5 月 28 日<br></p> <p>実稼動リリース：2021 年 6 月 11 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><strong>次の日に利用可能：</strong> </p> <p>プレビューリリース： 2021 年 5 月 28 日<br></p> <p>実稼動リリース： 2021 年 6 月 11 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,8 +210,8 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>プレビューリリース： 2021 年 6 月 4 日<br></p> <p>実稼動リリース： 2021 年 6 月 4 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#users" class="MCXref xref" xrefformat="{para}">配達確認に追加されたユーザーに、ドキュメントに対する表示アクセス権が自動的に付与されます</a> </p> <p>校閲者または読み取り専用が配達確認の役割として選択されているユーザーには、ドキュメントに表示アクセス権が自動的に付与されます（ユーザーが以前に表示しなかった場合）。</p> <p>以前は、上記の配達確認の役割を持つユーザーは、配達確認に追加されたときにドキュメントへのアクセス権を要求する必要がありました。</p> </td> 
-   <td><strong>次の日に利用可能：プレビューリリース：2021 年 5 月 20 日の実稼動リリース：2021 年 6 月 17 日：次の環境で利用可能：新しいAdobe Workfrontエクスペリエンス</strong>Adobe Workfront Classic </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-proofing-enhancements.md#users" class="MCXref xref" xrefformat="{para}">配達確認に追加されたユーザーに、ドキュメントに対する表示アクセス権が自動的に付与されます</a> </p> <p>校閲者または読み取り専用が配達確認の役割として選択されているユーザーには、ドキュメントに表示アクセス権が自動的に付与されます（ユーザーが以前にアクセスしなかった場合）。</p> <p>以前は、上記の配達確認の役割を持つユーザーは、配達確認に追加されたときにドキュメントへのアクセス権を要求する必要がありました。</p> </td> 
+   <td><strong>利用可能な日付：プレビューリリース：2021 年 5 月 20 日本版リリース：2021 年 6 月 17 日本の環境で利用可能：新しいAdobe Workfrontエクスペリエンス</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,12 +227,12 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">モバイルアプリ用のホームエリアの再設計</a> </p> <p>Adobe Workfrontモバイルアプリのホーム領域に以下を含む様々な機能強化が追加されました。再設計された作業項目ウィジェットと大きな検索ボックスは、必要な項目をすばやく見つけるのに役立ちます。ホーム、仮想アシスタント、クイックタスク、通知、ユーザープロファイルのナビゲーションバーが、ホーム領域上で「フローティング」され、アクセスが容易になるようになりました。「My Work」メニューが水平にスクロールし、次の項目が表示されます。プロジェクト、タスクと問題、要求、承認、およびタイムシート。 選択した項目に対して最大 3 枚のカードがメニューの下に表示されます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#home" class="MCXref xref" xrefformat="{para}">モバイルアプリ用のホームエリアの再設計</a> </p> <p>Adobe Workfrontモバイルアプリのホーム領域に、必要な作業項目ウィジェットや大きな検索ボックスなど、様々な機能強化が加えられました。ホーム、仮想アシスタント、クイックタスク、通知、ユーザープロファイルのナビゲーションバーは、ホーム領域上を移動します。 選択した項目に対して最大 3 枚のカードがメニューの下に表示されます。</p> </td> 
    <td> <p><strong>次の日に利用可能：</strong> </p> <p>プレビューリリース：なし<br></p> <p>実稼動版リリース： 21.3 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>iOS</p> <p>Android</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">イベント購読フィルター</a> </p> <p>イベント購読フィルターがプレビュー環境で有効になりました。 イベント購読のフィルタリングを使用して、関連するメッセージのみを確実に受け取るようにできます。 購読のフィルターを作成すると、エンドポイントで使用する必要のあるメッセージの数が大幅に減る場合があります。 </p> </td> 
-   <td><strong>次の日に利用可能：プレビューリリース：2021 年 5 月 20 日の実稼動リリース：2021 年 6 月 3 日：次の環境で使用できます。新しいAdobe Workfrontエクスペリエンス</strong>Adobe Workfront Classic </td> 
+   <td><strong>利用可能な日付：プレビューリリース：2021 年 5 月 20 日本版リリース：2021 年 6 月 3 日本の環境で利用可能：新しいAdobe Workfrontエクスペリエンス</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
 </table>
@@ -250,9 +251,9 @@ For specific release dates and times for each cluster, see the
 
 Workfront Fusion の新機能は、実稼動環境では 21.3 リリーススケジュール以外のサイクルで使用できます。 最新の機能について詳しくは、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-## Workfront Proof の強化
+## Workfront Proof の機能強化
 
-Workfront Proof の新機能が使用できるようになりました。 詳しくは、 [Workfront Proof リリースアクティビティ：2021 年 5 月 17 日の週](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
+Workfront Proof の新機能が使用できるようになりました。 詳しくは、 [Workfront Proof リリースアクティビティ： 2021 年 5 月 17 日の週](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
 
 ## Workfront目標の強化
 
@@ -264,9 +265,9 @@ Workfront Proof の新機能が使用できるようになりました。 詳し
 
 ## お知らせ
 
-### Workfrontを Jira 統合に使用するために必要な IP許可リストの更新
+### Workfrontを Jira 統合に使用するために必要な IP許可リストに加えるの更新
 
-Jira 統合のために、Workfrontのバックエンドを更新しました。 次の IP アドレスが [ファイアウォールの設定を許可リスト行う](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) インバウンド接続とアウトバウンド接続の許可リストに、次の記事が追加されました。
+Jira 統合のためのWorkfrontのバックエンドの更新をいくつかおこないました。 次の IP アドレスが [ファイアウォールの設定を許可リストに加える行う](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) インバウンド接続とアウトバウンド接続の許可リストに加えるに、次の記事が追加されました。
 
 * 34.213.36.118
 * 35.160.0.242

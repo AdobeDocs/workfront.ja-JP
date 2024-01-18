@@ -5,10 +5,11 @@ title: R1 プレビュー 4
 description: このページでは、R1.4 リリースでプレビュー環境で使用できるすべての変更について説明します。 このページの機能は、2017 年 2 月 15 日にプレビュー環境で使用できるようになりました。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---

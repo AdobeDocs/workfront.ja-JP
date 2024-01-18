@@ -4,10 +4,11 @@ description: 22.2&nbsp；プロジェクトの強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
@@ -47,26 +48,26 @@ Workfrontボードで、次の機能強化がおこなわれました。
 
 * ボードでのカードのタグ付け
 
-   これで、ボード上のカードを色分けしたタグで分類できるようになりました。 タグを使用すると、カードをすばやく識別できます。 適用したタグに基づいてボードを並べ替えることもできます。
+  これで、ボード上のカードを色分けしたタグで分類できるようになりました。 タグを使用すると、カードをすばやく識別できます。 適用したタグに基づいてボードを並べ替えることもできます。
 
 * ボードでのカードの管理
 
-   ボード上のカードの管理に役立つ次の機能が追加されました。
+  ボード上のカードの管理に役立つ次の機能が追加されました。
 
    * カードのコピー：ボード上に既存のカードのコピーを作成します。
-   * カードの移動：新しい「列の上」と「列の下」メニューオプションを使用して、カードをボードの上部または下部にすばやく移動できます。
+   * カードの移動：新しい「列の上」と「列の下」メニューオプションを使用して、ボードの上部または下部にカードをすばやく移動できます。
 
-* ボードで検索
+* ボードでの検索
 
-   ボード上のすべてのカードを検索するのに役立つ検索バーが追加されました。
+  ボード上のすべてのカードを検索するのに役立つ検索バーが追加されました。
 
 * ボードでカードの期限を設定する
 
-   ボード上の個々のカードに期限を設定できるようになりました。
+  ボード上の個々のカードに期限を設定できるようになりました。
 
-詳しくは、 [Adobe Workfrontのボードの概要](../../../agile/get-started-with-boards/get-started-with-boards.md).
+詳しくは、 [Adobe Workfrontでのボードの概要](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-## 投稿を更新の「元に戻す」オプション
+## 「投稿を更新」の「元に戻す」オプション
 
 更新を投稿する際のミスを簡単にキャッチできるようになりました。 オブジェクトの「更新」タブでコメントを最終処理すると、7 秒間ポップアップウィンドウが作成され、投稿をキャンセルして編集に戻ることができます。このウィンドウは、システムがタイムスタンプを付けたり、E メールやアプリ内通知を送信する前に表示されます。 ポップアップウィンドウを閉じるか、ページを離れるか、ウィンドウがタイムアウトするまで 7 秒待つと、投稿は通常どおりおこなわれます。
 
@@ -80,13 +81,13 @@ Workfrontの使用を新しいAdobe Workfrontエクスペリエンスと一貫�
 
 * 移動前に更新する必要があるすべての情報が、1 つの連続したページに表示されます。
 * Workfrontは、プロジェクトを選択した直後に、宛先プロジェクトにアクセスできるかどうかを確認します。 この機能強化の前、Workfrontは、移動を確認した後に正しいアクセス権がなく、移動が許可されていないことを警告しました。
-* [ タスクの移動 ] ボックスを開いたまま、タスクを移動するプロジェクトへのアクセス権を要求できます。
+* [ タスクの移動 ] ボックスを開いたまま、タスクを移動するプロジェクトへのアクセスを要求できます。
 * 問題を別の場所に移動したときに、問題から項目（割り当て、進捗、ドキュメント、権限、更新）を削除する機能。 この機能は、以前は、問題のコピーにのみ使用できました。
 * イシューをコピーする際に、コピー先プロジェクトの選択に加えて、コピー先タスクを選択できます。
 
 問題の移動またはコピーについて詳しくは、次の記事を参照してください。
 
-* [イシューをコピー](../../../manage-work/issues/manage-issues/copy-issues.md)
+* [問題のコピー](../../../manage-work/issues/manage-issues/copy-issues.md)
 * [イシューの移動](../../../manage-work/issues/manage-issues/move-issues.md)
 
 ## プロジェクトをコピーする際の新しいエクスペリエンス
@@ -112,8 +113,8 @@ Workfrontの使用を新しいAdobe Workfrontエクスペリエンスと一貫�
 
 * [プロジェクトタイムラインを再計算](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [プロジェクトの財務を再計算](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
-* [カスタムフォームフィールドの情報を編集](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-* [プロジェクトへのテンプレートの添付](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+* [カスタムフォームフィールドの情報を編集する](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
+* [プロジェクトにテンプレートを添付する](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [プロジェクトのMicrosoft Project への書き出し](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Adobe Workfrontの項目を購読](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
@@ -151,5 +152,5 @@ Workfrontの使用を新しいAdobe Workfrontエクスペリエンスと一貫�
 
 6 番目以下のフォルダーは、そのすぐ上のフォルダーから共有設定を継承します。
 
-フォルダーの共有の詳細については、 [ドキュメントフォルダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+フォルダーの共有の詳細については、「 [ドキュメントフォルダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 

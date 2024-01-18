@@ -5,8 +5,9 @@ title: の準備 [!DNL Adobe Workfront] リリース
 description: 新しいWorkfrontリリースのたびに組織をスムーズに更新するには、次のヒントに従ってください。
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 0%
@@ -27,7 +28,7 @@ ht-degree: 0%
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-以下のビデオで、 [!DNL Adobe Workfront] リリース。
+以下のビデオをご覧になり、 [!DNL Adobe Workfront] リリース。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
@@ -47,7 +48,7 @@ ht-degree: 0%
 今後のリリースに備えて組織を準備するのに役立つ、以下の操作の一部またはすべてを検討することをお勧めします。
 
 * [最新のリリースノートを表示](#stay-up-to-date-with-release-notes)
-* [次を監視： [!DNL Workfront] アナウンスセンター](#watch-the-workfront-announcement-center)
+* [次の項目を見る [!DNL Workfront] お知らせセンター](#watch-the-workfront-announcement-center)
 * [関連トピック [!UICONTROL サンドボックスをプレビュー] 環境](#explore-the-preview-sandbox-environment)
 * [リリースウェビナーに参加する](#attend-the-release-webinar)
 * [Workfrontにフィードバックを提供](#offer-feedback-to-workfront)
@@ -62,13 +63,13 @@ ht-degree: 0%
 
 リリースの概要へのリンクについては、 [製品リリース](product-releases.md).
 
-### 次を監視： [!DNL Workfront] アナウンスセンター
+### 次の項目を見る [!DNL Workfront] お知らせセンター
 
 >[!IMPORTANT]
 >
 >お知らせセンターのメッセージを [!DNL Workfront] は、次の場合にのみ使用できます： [!DNL Workfront] 管理者。
 
-As a [!DNL Workfront] 管理者には、Announcement Center に関するメッセージが [!DNL Workfront] リリースの様々な側面について。 次のいずれかが発生すると、Announcement Center のメッセージが表示されます。
+As a [!DNL Workfront] 管理者には、Announcement Center に関するメッセージが [!DNL Workfront] リリースの様々な側面について。 次のいずれかが発生すると、Announcement Center に関するメッセージが表示されます。
 
 * 実稼動環境で新しい機能を使用できます。
 * プレビュー用にリリースされた機能は、予定されているリリースの前に実稼動環境にリリースされます。
@@ -77,14 +78,14 @@ As a [!DNL Workfront] 管理者には、Announcement Center に関するメッ�
 
 >[!TIP]
 >
->新しいリリースに関する情報は、「[!UICONTROL 新しいリリース]」 [!UICONTROL アナウンスセンター] 設定。
+>新しいリリースに関する情報を受け取る場合は、「[!UICONTROL 新しいリリース]」 [!UICONTROL お知らせセンター] 設定。
 >
->詳しくは、 [アナウンスセンターのメッセージの配信停止](../announcements/unsubscribe-from-ac-messages.md).
+>詳しくは、 [Announcement Center のメッセージの配信停止](../announcements/unsubscribe-from-ac-messages.md).
 
 
 ### 関連トピック [!UICONTROL サンドボックスをプレビュー] 環境
 
-この [!UICONTROL サンドボックスをプレビュー] 環境 ( 別名 [!UICONTROL プレビュー] 環境とは、組織内のユーザーが、実稼動環境から別のデータコピーを安全にテストし、操作できる環境の役割を果たします。 [!UICONTROL Workfront] は、通常、プレビュー環境が実稼動環境にリリースされる 2 週間前に、新しい機能と機能をリリースします。 これらの機能を把握してから、ユーザーの毎日のワークフローにリリースすることができます。 その後、ユーザーが新機能を利用するのに苦労した場合は、新機能の利用をより簡単に支援できます。
+The [!UICONTROL サンドボックスをプレビュー] 環境 ( 別名 [!UICONTROL プレビュー] 環境とは、組織内のユーザーが、実稼動環境から別のデータコピーを安全にテストし、操作できる環境の役割を果たします。 [!UICONTROL Workfront] は、通常、プレビュー環境が実稼動環境にリリースされる 2 週間前に、新しい機能と機能をリリースします。 これらの機能を把握してから、ユーザーの毎日のワークフローにリリースすることができます。 その後、ユーザーが新機能を利用するのに苦労した場合は、新機能の利用をより簡単に支援できます。
 
 >[!TIP]
 >
@@ -92,13 +93,13 @@ As a [!DNL Workfront] 管理者には、Announcement Center に関するメッ�
 
 プレビューサンドボックス環境に機能がリリースされたとき、 [!DNL Workfront] ドキュメントが更新され、新しい機能が含まれるようになりました。 該当する記事を検索したり、リリースノートからドキュメントへのリンクに従ったりできます。
 
-詳しくは、 [!UICONTROL サンドボックスをプレビュー] 環境： [この [!DNL Adobe Workfront] [!UICONTROL サンドボックスをプレビュー] 環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+詳しくは、 [!UICONTROL サンドボックスをプレビュー] 環境：詳しくは、 [The [!DNL Adobe Workfront] [!UICONTROL サンドボックスをプレビュー] 環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ### リリースウェビナーに参加する
 
 [!DNL Workfront] は、一部のリリースの直前にリリースウェビナーをホストしています。 ここで、 [!DNL Workfront] 製品チームは、新機能を説明し、示し、出席者からの質問に答えることができます。
 
-リリースウェビナーは、 [!DNL Workfront] お知らせセンター 登録リンクは、リリースの概要ページにあります。
+リリースウェビナーは、 [!DNL Workfront] お知らせセンター。 登録リンクは、リリースの概要ページにあります。
 
 リリースの概要へのリンクについては、 [製品リリース](product-releases.md).
 
@@ -110,7 +111,7 @@ As a [!DNL Workfront] 管理者には、Announcement Center に関するメッ�
 
 
 
-## 新しいリリースに向けたユーザーの準備
+## 新しいリリースに備えてユーザーを準備する
 
 ユーザーにとって最も役に立つ情報や機能を判断するのに最適な立場にいる。 また、情報のリリースのタイミングを制御し、ユーザーに表示される新機能を制御することもできます。
 
@@ -122,12 +123,12 @@ As a [!DNL Workfront] 管理者には、Announcement Center に関するメッ�
 ユーザーにリリース情報を伝える準備をする際は、組織内でその情報を伝える最も効果的な方法を検討します。 すべてのユーザーに確実にリーチするために、様々な通信方法を使用することをお勧めします。 次のような通信チャネルを考慮できます。
 
 * 内部ニュースレター
-* E メール
-* アナウンスセンターのメッセージ ( 転送元 [!DNL Workfront] または自分が作成したもの
+* メール
+* アナウンスセンターのメッセージ ( 転送元： [!DNL Workfront] または自分が作成したもの
 * コラボレーションツールに関するお知らせ（例： ） [!DNL Slack] または [!DNL Microsoft Teams]
 * 内部のウェビナーまたはトレーニング
 
-バランスを選択できます [!DNL Workfront] リソース（ドキュメント、リリースノート、トレーニングなど）と組織のニーズやワークフローに合わせてカスタマイズされた情報。 ユーザーに新しい機能を表示することで、作業を改善したり、時間とエネルギーを節約したりできるので、ユーザーは変更を受け入れるのに役立ちますが、で既に利用可能なデモやドキュメントを使用すると時間を節約できます [!DNL Workfront].
+バランスを選択できます [!DNL Workfront] リソース（ドキュメント、リリースノート、トレーニングなど）と組織のニーズやワークフローに合わせてカスタマイズされた情報。 ユーザーに新しい機能を表示することで、作業を改善したり、時間とエネルギーを節約したりできるので、ユーザーは変更を受け入れるのに役立ちますが、で既に利用可能なデモやドキュメントを使用すると時間を節約できます。 [!DNL Workfront].
 
 時間の経過と共に、組織にとって最も効果的なコミュニケーションが認識されます。 次のリリースでは、プロセスの文書化、成功の評価、コミュニケーションの調整をお勧めします。
 
@@ -139,7 +140,7 @@ As a [!DNL Workfront] 管理者には、Announcement Center に関するメッ�
 
 ## の使用 [!DNL Workfront] リリース作業を追跡するプロジェクト
 
-組織が新しいリリースに対応できるように、プロジェクトを作成してアカウントを設定することをお勧めします。 ここでは、各ワークフローまたは各要素のタスクを作成できます [!DNL Workfront] プレビュー環境でテストする ワークフローに重点を置くことで、既存のワークフローを変更できる新機能を考慮し、影響を受けないワークフローを把握することができます。 次のようなタスクがあります。
+組織が新しいリリースに対応できるように、プロジェクトを作成してアカウントを設定することをお勧めします。 ここでは、各ワークフローまたは各要素のタスクを作成できます [!DNL Workfront] をプレビュー環境でテストする必要があります。 ワークフローに重点を置くことで、既存のワークフローを変更できる新機能を考慮し、影響を受けないワークフローを把握することができます。 次のようなタスクがあります。
 
 * プロジェクトの作成のテスト
 * 配達確認の承認のテスト

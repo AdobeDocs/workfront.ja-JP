@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2022 年 5 月 16 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2022 年 5 月 16 日の週」
 description: このページでは、2022 年 5 月 16 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: ed844acd-3f1c-466c-89ca-a644fa01c825
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2022 年 5 月 16 日の週
+# Workfront Fusion リリースアクティビティ： 2022 年 5 月 16 日の週
 
 このページでは、2022 年 5 月 16 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 
@@ -30,4 +31,4 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 Workfront Analyplan コネクタを簡単にするために、アクションを実行モジュールを作成しました。 このモジュールには、データのインポートモジュールとデータのエクスポートモジュールの機能が含まれています。 また、このモジュールを使用して、Anaplan アクションを削除したり、Anaplan プロセスを実行したりすることもできます。
 以前は、データのインポートとエクスポートは別々のモジュールで制御されており、削除アクションと実行中のプロセスは使用できませんでした。
 
-詳しくは、 [Anaplan モジュール](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+詳しくは、 [Analyplan モジュール](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).

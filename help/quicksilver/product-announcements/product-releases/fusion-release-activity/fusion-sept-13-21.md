@@ -4,11 +4,12 @@ description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d9056d6f-a62d-4516-930e-4c3f4fbaec3e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---

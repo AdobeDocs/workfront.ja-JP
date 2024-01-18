@@ -3,10 +3,11 @@ title: 2023 年第 4 四半期のボードの機能強化
 description: 2023 年第 4 四半期のボードの機能強化
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---

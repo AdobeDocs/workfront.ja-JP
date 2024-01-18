@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2020 年 12 月 7 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2020 年 12 月 7 日の週」
 description: このページでは、2020 年 12 月 7 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 ## Jira Server コネクタとモジュールが利用できるようになりました
 
-新しい Jira Server コネクタがWorkfront Fusion 2.0 で使用できるようになりました。Jira Server コネクタは、現在の Jira Cloud コネクタと同じ機能を備えています。 Jira Server モジュールを使用すると、次のことが可能になります。
+新しい Jira Server コネクタがWorkfront Fusion 2.0 で使用できるようになりました。Jira サーバーコネクタは、現在の Jira Cloud コネクタと同じ機能を提供します。 Jira Server モジュールを使用すると、次のことが可能になります。
 
 * レコードが追加、変更または削除された場合のシナリオのトリガー
 * レコードの作成、読み取り、更新、削除

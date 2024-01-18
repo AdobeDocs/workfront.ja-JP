@@ -4,10 +4,11 @@ description: 20.4 その他の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---

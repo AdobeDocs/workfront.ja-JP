@@ -4,10 +4,11 @@ description: 22.3 リリース期間中のモバイルの更新
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: eb62baf2-109c-4b50-8cd1-415d3c40c7ed
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---

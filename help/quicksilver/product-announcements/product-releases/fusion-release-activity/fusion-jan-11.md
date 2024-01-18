@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2021 年 1 月 11 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2021 年 1 月 11 日の週」
 description: このページでは、2021 年 1 月 11 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2439e2a7-9404-433a-bd71-a7776042d8a0
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -46,9 +47,9 @@ DataDog モジュールを使用すると、次の操作を実行できます。
 * 時系列ポイントの投稿
 * カスタム API 呼び出しの実行
 
-データドグモジュールについて詳しくは、 [データドグモジュール](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+DataDog モジュールについて詳しくは、 [データドグモジュール](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
-## Cvent コネクタとモジュールを利用可能
+## Cvent コネクタとモジュールが利用可能に
 
 これで、Workfront Fusion 2.0 を使用して Cvent アカウントに接続できます。
 
@@ -57,7 +58,7 @@ Cvent モジュールを使用すると、次の操作を実行できます。
 * 会議出席依頼を作成する
 * 連絡先、イベント、招待者などのレコードを読み取る
 * 指定した条件に基づいてレコードをリスト
-* 特定のイベントに招待者を登録または追加
+* 特定のイベントに招待者を登録または追加する
 * 連絡先の更新または削除
 * カスタム API 呼び出しをおこなう
 
@@ -77,11 +78,11 @@ Cvent モジュールを使用すると、次の操作を実行できます。
 
 これで、Workfront Fusion 2.0 を使用して Document アカウントに接続できます。 ドキュメントモジュールを使用すると、次の操作を実行できます。
 
-* トリガーエンベロープがステータスを変更した場合のシナリオのステータス
+* トリガーエンベロープがステータスを変更したときのシナリオのステータス
 * エンベロープの作成
 * 既存の封筒に受信者を読み取り、送信、または追加する
-* ドキュメント内のカスタムフィールドを追加または変更
-* ドキュメントをフィールド形式でダウンロード
+* ドキュメント内のカスタムフィールドを追加または変更する
+* ドキュメントをフィールド形式でダウンロードする
 * エンベロープにファイルをアップロード
 * カスタム API 呼び出しの実行
 
@@ -117,25 +118,25 @@ API にアクセスする柔軟性を高めるために、HTTP コネクタに�
 
 * この
 
-   ```
-   omit
-   ```
+  ```
+  omit
+  ```
 
-   関数は、オブジェクトの指定されたキーを省略し、残りのキーを返す一般的な関数です。
+  関数は、オブジェクトの指定されたキーを省略し、残りのキーを返す一般的な関数です。
 * この
 
-   ```
-   pick
-   ```
+  ```
+  pick
+  ```
 
-   関数は、オブジェクトから指定されたキーのみを選択する一般的な関数です。
+  関数は、オブジェクトから指定されたキーのみを選択する一般的な関数です。
 * この
 
-   ```
-   escapeMarkdown
-   ```
+  ```
+  escapeMarkdown
+  ```
 
-   関数は、テキスト内のすべての Markdown タグをエスケープする文字列関数です。
+  関数は、テキスト内のすべての Markdown タグをエスケープする文字列関数です。
 
 omit 関数と pick 関数の詳細については、を参照してください。 [Adobe Workfront Fusion の一般的な機能](../../../workfront-fusion/functions/general-functions.md).
 

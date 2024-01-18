@@ -4,10 +4,11 @@ description: 22.1 リクエストの機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: be6da26d-1d80-4946-8222-cd164b2b633f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -46,7 +47,7 @@ in January 2022
 
 詳しくは、 [リクエストのコピーと送信](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-## リクエスト領域の「Submitted」セクションの Summary パネルエクスペリエンスを更新しました
+## リクエスト領域の「Submitted」セクションの Summary パネルエクスペリエンスを更新しました。
 
 >[!NOTE]
 >
@@ -54,6 +55,6 @@ in January 2022
 
 Summary パネルとの表示やインタラクションを改善するために、「Requests」領域の「Submitted」セクションにある「Open Summary」アイコンにラベルを追加しました。 ラベルは動的になり、パネルが開いているか閉じているかに応じて更新されます。
 
-要求を選択せずに Summary パネルを開くと、より使いやすい画像が表示され、パネルを開く前に項目を選択するようにユーザーに明確に指示できるようになりました。 詳しくは、 [送信された要求の場所](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+要求を選択せずに概要パネルを開くと、より使いやすい画像が表示され、パネルを開く前に項目を選択するようにユーザーに明確に指示できるようになりました。 詳しくは、 [送信された要求を見つける](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 この変更により、タスク、問題およびドキュメントの概要パネルも更新されました。 概要パネルについて詳しくは、 [概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).

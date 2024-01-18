@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2020 年 8 月 24 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2020 年 8 月 24 日の週」
 description: このページでは、2020 年 8 月 18 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 195fc28b-435c-4c5e-be47-c73dea0499a6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 convertToProject アクションまたは convertToTask アクションを選択する場合、この共通プロセスの設定と管理に関する次の新機能が追加されました。
 
 * 新しいオブジェクトに対して入力またはマッピングできる、プロジェクト（またはタスク）標準フィールドの新しいリストはありません。 以前は、このモジュールには高度な設定が必要でした。 このモジュールを以前に使用したことがある場合でも、詳細設定は「詳細設定」で引き続き使用できます。
-* 新しいパラメーター：カスタムデータをコピーします。 有効にすると、元のオブジェクトに値が設定され、新しいオブジェクトに存在するカスタムフィールドは、新しいオブジェクトに自動的にコピーされます。
+* 新しいパラメーター「カスタムデータをコピー」を追加しました。 有効にすると、元のオブジェクトに値が設定され、新しいオブジェクトに存在するカスタムフィールドは、新しいオブジェクトに自動的にコピーされます。
 
 詳しくは、 [Adobe Workfrontモジュール](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

@@ -6,10 +6,11 @@ title: 21. 2 レポートの機能強化
 description: このページでは、プレビュー環境の 21.2 リリースでおこなわれたレポート機能のすべての強化について説明します。 これらの機能強化は、2021 年 5 月 10 日の週に実稼動環境で利用可能になる予定です。 21.2 リリースで使用できるすべての変更点の一覧については、 21.2 リリースの概要を参照してください。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 0%
 
 新しいWorkfrontエクスペリエンスの他の領域の最新の外観に合わせて、更新されたリストとレポートの「割り当て」フィールドのスタイル設定が変更されました。 この再設計には、以下が含まれます。
 
-* ユーザープロファイル画像、職務ロール、チームの丸められたアバター
+* ユーザープロファイルの画像、職務の役割、チームの丸められたアバター
 * プロフィール画像を持たないユーザーに対してイニシャルが表示されます
 * 新しいジョブの役割アイコン
 * 高度な割り当て用の新しい担当者アイコン
@@ -61,11 +62,11 @@ ht-degree: 0%
 * 先読みタイプフィールドをクリックすると、テキストを入力する前に候補メニューが表示されるようになりました。
 * 候補メニューは値の長さに応答しやすくなり、値の途中ではなく文字制限を満たした場合に、値の末尾が切り捨てられるようになりました。
 
-更新されたリストについて詳しくは、 [更新済みリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 記事のセクション [Adobe Workfrontのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+更新されたリストについて詳しくは、 [更新済みリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 記事のセクション [Adobe Workfrontでのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
 
-## システム更新のレポート
+## システムの更新に関するレポート
 
 新しいジャーナルエントリレポートでは、次のようなシステム更新を詳細に調べることで、監査性を高めることができます。
 

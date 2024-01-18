@@ -4,10 +4,11 @@ description: 22.4 リソース管理の強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 この機能強化の前は、スマート割り当てロジックに従って割り当てに使用できるユーザーのリストのみを表示できました。
 
-ワークロードバランサーを使用した一括割り当ての詳細は、 [ワークロードバランサーを使用して作業を一括で割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+ワークロードバランサーを使用した一括割り当ての詳細は、 [ワークロードバランサーを使用して作業を一括で割り当てる](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 [この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412874/){target=_blank}
 

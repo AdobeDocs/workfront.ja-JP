@@ -3,10 +3,11 @@ title: 2023 年第 4 四半期リリースの概要
 description: 2023 年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2772'
 ht-degree: 0%
 
 ---
@@ -780,9 +781,9 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 
 WorkfrontモバイルアプリにはWorkfrontログインが必要です。 外部のユーザーおよびゲストは、引き続き校正作業に Proof アプリを使用できます。ただし、サポートは終了し、23.10 では使用できなくなります。
 
-#### ワークストリームを使用していないアカウントのワークストリームが削除される
+#### 使用していないアカウントで削除されたワークストリーム
 
-2023 年 10 月 11 日現在、Adobe Workfrontボードでワークストリームを作成したことのないアカウントの場合、ワークストリーム領域がボードダッシュボードから削除されています。 ワークストリームを使用するアカウントは、引き続きワークストリームにアクセスできます。拡張スクラム機能は、今後のリリースで対処される予定です。
+2023 年 10 月 11 日現在、Adobe Workfrontボードでワークストリームを作成したことのないアカウントの場合、ワークストリーム領域がボードダッシュボードから削除されています。 ワークストリームを使用するアカウントには、引き続きアクセスできます。 拡張スクラム機能は、今後のリリースで対処される予定です。
 
 <!-- HTML you might need
 

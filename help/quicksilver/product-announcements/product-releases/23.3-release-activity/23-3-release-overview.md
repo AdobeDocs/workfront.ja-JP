@@ -3,10 +3,11 @@ title: 23.3 リリースの概要
 description: 23.3 リリースの概要
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -452,8 +453,8 @@ ht-degree: 0%
                 </tr>-->
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの作成時に、Adobe Experience Manager Assets にリンクされたフォルダーを自動的に作成する</a></p>
-                        <p>Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用して、Adobe Experience Manager Assets フォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの作成時に、Adobe Experience Manager Assetsにリンクされたフォルダーを自動的に作成する</a></p>
+                        <p>Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用すると、Adobe Experience Manager Assetsフォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。 </p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>

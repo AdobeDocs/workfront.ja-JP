@@ -5,11 +5,12 @@ title: 2019.4 リリースより前に実稼動環境にリリースされたそ
 description: 2019.4 の実稼動環境へのリリースより前のWorkfront Classic 実稼動環境では、次の機能が使用可能になりました。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 497214d1-fc31-498c-93f6-ac56d8742c1f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 3%
+source-wordcount: '373'
+ht-degree: 4%
 
 ---
 
@@ -32,14 +33,14 @@ ht-degree: 3%
      </ul> 
      <p><strong>実稼動版リリース：</strong> </p> 
      <ul> 
-      <li> 2019 年 10 月 19 日</li> 
+      <li> 2019年10月18日（PT）</li> 
      </ul> 
     </div>  </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>カスタムフォームのフィールドの表示タイプの変更</strong> 
+     <strong>カスタムフォームのフィールドの表示タイプを変更する</strong> 
      <p>これで、カスタムフォーム内のフィールドの表示タイプを変更できます。</p> 
      <p>例えば、チェックボックスフィールドを作成した場合は、そのフィールドをドロップダウンフィールドまたはラジオボタンフィールドに変更できます。 これらの 3 つのフィールド表示タイプは交換可能です。</p> 
      <p>また、1 行のテキストフィールドを作成した場合は、そのフィールドを段落テキストフィールドに変更できます。 これら 2 つのフィールド表示タイプは交換可能です。</p> 
@@ -53,7 +54,7 @@ ht-degree: 3%
       </ul> 
       <p><strong>最初にプレビューで使用可能：</strong> </p> 
       <ul> 
-       <li>2019 年 8 月 10 日</li> 
+       <li>2019年8月9日（PT）</li> 
       </ul> 
      </div> 
      </div> </td> 
@@ -62,7 +63,7 @@ ht-degree: 3%
    <td> 
     <div> 
      <strong>カレンダーとレポートの作成時間</strong> 
-     <p>これで、ユーザーのタイムオフを確認して、より適切な計画と実行を実現できます。 また、ユーザーの可用性をリアルタイムで表示するために、新しいレポートやカレンダーの時間をダッシュボードに追加することもできます。</p> 
+     <p>これで、ユーザーのタイムオフを確認して、より適切な計画と実行を実行できるようになりました。 また、ユーザーの可用性をリアルタイムで表示するために、新しいレポートやカレンダーの時間をダッシュボードに追加することもできます。</p> 
      <div class="workfront_plans"> 
       <p><strong>次の環境で使用できます。</strong> </p> 
       <ul> 
@@ -71,7 +72,7 @@ ht-degree: 3%
       </ul> 
       <p><strong>最初にプレビューで使用可能：</strong> </p> 
       <ul> 
-       <li>2019 年 8 月 10 日</li> 
+       <li>2019年8月9日（PT）</li> 
       </ul> 
      </div> 
      </div> </td> 

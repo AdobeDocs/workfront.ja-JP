@@ -4,16 +4,17 @@ description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 69721699-c642-4f6f-a13b-f6fe48bea0b7
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2021 年 4 月 26 日の週
+# Workfront Fusion リリースアクティビティ： 2021 年 4 月 26 日の週
 
 このページでは、2021 年 4 月 26 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 
@@ -36,7 +37,7 @@ Microsoft OneDrive コネクタを使用すると、次の操作を実行でき�
 
 詳しくは、 [Microsoft OneDrive モジュール](../../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md).
 
-## Split.io コネクタとモジュールが利用可能に
+## Split.io コネクタとモジュールを利用できるようになりました
 
 これで、Workfront Fusion 2.0 を使用して Split.io アカウントに接続できます。 Split.io コネクタを使用すると、次のことが可能になります。
 

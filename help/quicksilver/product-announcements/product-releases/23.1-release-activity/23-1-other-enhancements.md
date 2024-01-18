@@ -4,17 +4,18 @@ description: 23.1 その他の機能強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 6cd6b1433fb56b92872f0ad80bb1a700fc0854cc
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
 
 # 23.1 その他の機能強化
 
-このページでは、23.1 リリースでプレビュー環境に対しておこなわれたその他すべての機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用できるようになります。
+このページでは、23.1 リリースでプレビュー環境に対しておこなわれたその他すべての機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用可能になる予定です。
 
 23.1 リリースで使用可能なすべての変更点の一覧については、 [23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
@@ -87,12 +88,12 @@ Adobe Experience LeagueのWorkfrontヘルプにアクセスするには、次の
 
 ピンに対して次の更新を利用できるようになりました。
 
-* 既存のピン名を変更する
+* 既存のピンの名前を変更する
 
 * ピンを削除する際のエクスペリエンスが向上しました
 
 ピンの名前を変更したり、ピンを削除するオプションは、ピンの上にマウスポインターを置くとドロップダウンメニューに表示されます。
 
-詳しくは、 [ページを固定してワークスペースをカスタマイズ](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+詳しくは、 [ページを固定してワークスペースをカスタマイズする](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 [この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412389/){target=_blank}

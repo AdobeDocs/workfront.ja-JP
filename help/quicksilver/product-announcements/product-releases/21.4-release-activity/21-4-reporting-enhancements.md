@@ -4,10 +4,11 @@ description: 21.4 レポートの機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 新しいWorkfrontエクスペリエンスの他の領域の最新の外観に合わせて、更新されたリストとレポートの「割り当て」フィールドのスタイル設定が変更されました。 この再設計には、以下が含まれます。
 
-* ユーザープロファイル画像、職務ロール、チームの丸められたアバター
+* ユーザープロファイルの画像、職務の役割、チームの丸められたアバター
 * プロフィール画像を持たないユーザーに対してイニシャルが表示されます
 * 新しいジョブの役割アイコン
 * 高度な割り当て用の新しい担当者アイコン
@@ -57,6 +58,6 @@ ht-degree: 0%
 * 先読みタイプフィールドをクリックすると、テキストを入力する前に候補メニューが表示されるようになりました。
 * 候補メニューは値の長さに応答しやすくなり、値の途中ではなく文字制限を満たした場合に、値の末尾が切り捨てられるようになりました。
 
-更新されたリストについて詳しくは、 [更新済みリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 記事のセクション [Adobe Workfrontのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+更新されたリストについて詳しくは、 [更新済みリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 記事のセクション [Adobe Workfrontでのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)

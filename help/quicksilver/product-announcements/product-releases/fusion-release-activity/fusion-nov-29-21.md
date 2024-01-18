@@ -4,11 +4,12 @@ description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2ad970eb-daa3-4a18-8324-a07a3d75816b
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ Adobe PDFツールモジュールを使用すると、次の操作を実行で�
 * 画像、ドキュメント、またはPDFファイルからのHTMLの作成
 * PDFを画像またはドキュメントに変換する
 * PDFファイルを 1 つの大きなPDFファイルに結合
-* パスワードを使用してPDF・ファイルを保護するか、PDFからパスワード保護を解除します
+* パスワードを使用してPDF・ファイルを保護するか、PDFからパスワード保護を解除します。
 * PDF・ファイルを圧縮してメモリや帯域幅を削減
 * PDFファイル全体がダウンロードされる前にページごとに読み取れるように、ファイルを線形化する
 * ファイルでの光学式文字認識 (OCR) の使用

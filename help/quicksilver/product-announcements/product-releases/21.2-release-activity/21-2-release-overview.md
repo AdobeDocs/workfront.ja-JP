@@ -6,10 +6,11 @@ title: 21.2 リリースの概要
 description: 21.2 リリースは、2021 年 5 月 10 日の週に実稼動環境で公開されました。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '5474'
+source-wordcount: '5544'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 21.2 リリースは、2021 年 5 月 10 日の週に実稼動環境で公開されました。
 
-このページでは、Adobe Workfront Classic と、21.2 リリースに含まれる新しいAdobe Workfrontエクスペリエンスの両方の機能に関する情報を提供し、生産性とコラボレーションの解消に役立ちます。
+このページでは、Adobe Workfront Classic と、21.2 リリースに含まれる新しいAdobe Workfrontエクスペリエンスの両方の機能に関する情報を提供し、生産性とコラボレーションの実現に役立ちます。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -85,11 +86,11 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for3" class="MCXref xref" xrefformat="{para}">管理者向け：Workfrontのその他の多くの領域に関する監査ログ情報の表示</a> </p> <p>「監査ログ」領域で、Workfront全体の様々な領域で変更を追跡し、トラブルシューティングできるようになりました。 </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for3" class="MCXref xref" xrefformat="{para}">管理者向け： Workfrontのその他の多くの領域に関する監査ログ情報の表示</a> </p> <p>「監査ログ」領域で、Workfront全体の様々な領域で変更を追跡し、トラブルシューティングできるようになりました。 </p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 23 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for4" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：サブグループと更新されたツールバーを移動するためのコントロールを改善</a> </p> <p>セットアップのサブグループ領域で次の改善を行いました。</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for4" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：サブグループと更新されたツールバーを移動するためのコントロールが改善されました。</a> </p> <p>セットアップのサブグループ領域で、次の改善を行いました。</p> 
     <ul> 
      <li> <p>管理するグループを簡単に整理するために、「サブグループを追加」ツールバーボタンを追加し、新しいサブグループを作成して既存のサブグループを移動できます。</p> </li> 
      <li> <p>サブグループ領域のツールバーで、新しいWorkfrontエクスペリエンスで、リストが他の最新化されたリストと一致するようになりました。 グループを選択すると、ツールバーで使用可能な機能がアイコンで表されます。</p> </li> 
@@ -97,11 +98,11 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 23 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：タイムシートと時間の環境設定ページのルックアンドフィールを更新しました</a> </p> <p>タイムシートと時間の環境設定ページの操作性を向上させるために、ユーザーインターフェイスを更新し、Workfrontの他の場所で見つかる最新の外観と操作性に合わせました。</p> <p>セクションと個々のオプションは、より縦のスペースで区切られているので、読みやすくなります。</p> <p>2 つのラジオボタンオプションのラベルは、それほど長くはないように分割されます。各ラベルの 2 番目の部分は、別々の行の情報メッセージになります。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：タイムシートと時間の環境設定ページのルックアンドフィールを更新しました。</a> </p> <p>タイムシートと時間の環境設定ページの操作性を向上させるために、ユーザーインターフェイスを更新し、Workfrontの他の場所で見つかる最新の外観と操作性に合わせました。</p> <p>セクションと個々のオプションは、より縦のスペースで区切られているので、読みやすくなります。</p> <p>2 つのラジオボタンオプションのラベルは、それほど長くはないように分割されます。各ラベルの 2 番目の部分は、別々の行の情報メッセージになります。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 23 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：グループ領域のリストの改善</a> </p> <p>セットアップのグループ領域で次の 2 つの機能が強化され、新しいWorkfrontエクスペリエンスの他の最新化されたリストと一致するリストが作成されました。</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：グループ領域での改善リストの表示</a> </p> <p>セットアップのグループ領域で次の 2 つの機能が強化され、新しいWorkfrontエクスペリエンスの他の最新化されたリストと一致するリストが作成されました。</p> 
     <ul> 
      <li> <p>グループを選択すると、ツールバーで使用可能な機能がアイコンで表されます。</p> </li> 
      <li> <p>グループ、列、並べ替え、階層のリストでは、他のリストに慣れている方が新しい外観と操作性を持ちます。 また、デフォルトでは、1 つのページに最大 2,000 個の項目が表示され、100 個の項目は表示されません。</p> </li> 
@@ -109,7 +110,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 9 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for2" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：セットアップのグループ領域からプログラムを作成および編集する</a> </p> <p>アドビでは、グループとその関連オブジェクトを 1 か所で容易に管理できるようにし続けています。 これで、セットアップの [ グループ ] 領域で、グループのプログラムを表示して操作できるようになりました。 これにより、グループのプログラムを管理するために [ プログラム ] 領域に移動する必要がなくなります。 また、使用しているグループプログラムのリストを、システム内の他のプログラムとは別に保持します。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for2" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：セットアップの [ グループ ] 領域でプログラムを作成および編集します。</a> </p> <p>アドビでは、グループとその関連オブジェクトを 1 か所で容易に管理できるようにし続けています。 これで、セットアップの [ グループ ] 領域で、グループのプログラムを表示して操作できるようになりました。 これにより、グループのプログラムを管理するために [ プログラム ] 領域に移動する必要がなくなります。 また、使用しているグループプログラムのリストを、システム内の他のプログラムとは別に保持します。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 9 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -117,27 +118,27 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 2 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for6" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：グループページで追加のグループオブジェクトを表示および管理します</a> </p> <p>アドビでは、グループとその関連オブジェクトを 1 か所で容易に管理できるようにし続けています。 これで、セットアップのグループ領域で、グループの会社、チームおよびポートフォリオを表示および操作できます。 これにより、これらのオブジェクトの様々なセットアップページに移動して、グループの管理を行う必要がなくなります。 見ているグループオブジェクトのリストをシステム内の他のグループのリストとは別に保持します</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for6" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：グループページで追加のグループオブジェクトを表示および管理します。</a> </p> <p>アドビでは、グループとその関連オブジェクトを 1 か所で容易に管理できるようにし続けています。 これで、セットアップのグループ領域から、グループの会社、チームおよびポートフォリオを表示および操作できます。 これにより、これらのオブジェクトの様々なセットアップページに移動して、グループの管理を行う必要がなくなります。 見ているグループオブジェクトのリストをシステム内の他のグループのリストとは別に保持します</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 26 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">グループ管理者向けの新機能：グループタイムシートプロファイルを割り当て</a> </p> <p>管理するグループのタイムシートプロファイルを管理しやすくなりました。 タイムシートプロファイルを作成できるだけでなく、自分のグループに割り当てたり、自分のグループの個々のメンバに割り当てたりすることもできます。 これは、アクセスレベルで [ タイムシートと時間 ] オプションが有効になっていない場合でも当てはまります。</p> <p>これまで、タイムシートプロファイルを割り当てるには、[ タイムシートと時間 ] オプションを有効にする必要がありました。 ただし、システム内のすべてのタイムシートと時間情報に対する表示と編集のアクセス権を付与するので、グループ管理者全員にとっては理想的ではない場合があります。 このレベルのアクセス権が必要ない場合は、グループのタイムシートプロファイルを管理できます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">グループ管理者向けの新機能：グループタイムシートプロファイルを割り当てます</a> </p> <p>管理するグループのタイムシートプロファイルを管理しやすくなりました。 タイムシートプロファイルを作成できるだけでなく、自分のグループに割り当てたり、自分のグループの個々のメンバに割り当てたりすることもできます。 これは、アクセスレベルで [ タイムシートと時間 ] オプションが有効になっていない場合でも当てはまります。</p> <p>これまで、タイムシートプロファイルを割り当てるには、[ タイムシートと時間 ] オプションを有効にする必要がありました。 ただし、システム内のすべてのタイムシートと時間情報に対する表示と編集のアクセス権を付与するので、グループ管理者全員にとっては理想的ではない場合があります。 このレベルのアクセス権が必要ない場合は、グループのタイムシートプロファイルを管理できます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 12 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for7" class="MCXref xref" xrefformat="{para}">管理者向け：ユーザーがオブジェクトリストに表示するフィルター、表示、グループ化を設定します</a><span class="uitext" style="color: #dc143c;"></span> </p> <p>新しいWorkfrontエクスペリエンスのレイアウトテンプレートを使用すると、Workfront全体のオブジェクトリストにユーザーが表示するデフォルトのフィルター、表示、グループ化を設定できるようになりました。</p> <p>たとえば、[ フィルタ一覧 ] のコントロールを [ すべて ] に設定したままにする代わりに、[ ホームチーム ] に変更することができます。 この方法では、ユーザーがオブジェクトのリストを表示すると、ユーザーのチームに関連付けられたオブジェクトのみが含まれます。</p> <p>以前は、これらのデフォルトはカスタマイズできなかったので、フィルターの場合は常に「すべて」、ビューの場合は「標準」、グループの場合は「なし」に設定されていました。 新しい機能に加えて、これら 3 つの設定が不要な場合に、ユーザーに対して非表示にできる点が特に重要です。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for7" class="MCXref xref" xrefformat="{para}">管理者の場合：ユーザーがオブジェクト・リストに表示するフィルタ、表示、グループ化を設定します。</a><span class="uitext" style="color: #dc143c;"></span> </p> <p>新しいWorkfrontエクスペリエンスのレイアウトテンプレートを使用すると、Workfront全体のオブジェクトリストにユーザーが表示するデフォルトのフィルター、表示、グループ化を設定できるようになりました。</p> <p>たとえば、[ フィルタ一覧 ] のコントロールを [ すべて ] に設定したままにする代わりに、[ ホームチーム ] に変更することができます。 この方法では、ユーザーがオブジェクトのリストを表示すると、ユーザーのチームに関連付けられたオブジェクトのみが含まれます。</p> <p>以前は、これらのデフォルトはカスタマイズできなかったので、フィルターの場合は常に「すべて」、ビューの場合は「標準」、グループの場合は「なし」に設定されていました。 新しい機能に加えて、これら 3 つの設定が不要な場合に、ユーザーに対して非表示にできる点が特に重要です。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 12 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：現在カスタムフィールドを使用しているレポートを簡単にリスト</a> </p> <p>一部のWorkfrontレポートに既に実装されているカスタムフィールドを編集または削除する必要がある場合は、変更後も正しく動作するために、それらのレポートに調整が必要かどうかを評価することが重要です。 現在は、セットアップのカスタムForms領域に新しいカスタムフィールドの影響ビューが追加され、このフィールドを使用するレポートを簡単に見つけることができます。</p> <p>このビューがない場合、レポートを実行して、レポートでどのカスタムフィールドが使用されているかを調べる必要がありました。 組織で多くのカスタムフィールドを使用する場合は、これは困難で面倒です。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：現在カスタムフィールドを使用しているレポートを簡単にリストできます。</a> </p> <p>一部のWorkfrontレポートに既に実装されているカスタムフィールドを編集または削除する必要がある場合は、変更後も正しく動作するために、それらのレポートに調整が必要かどうかを評価することが重要です。 現在は、セットアップのカスタムForms領域に新しいカスタムフィールドの影響ビューが追加され、このフィールドを使用するレポートを簡単に見つけることができます。</p> <p>このビューがない場合、レポートを実行して、レポートでどのカスタムフィールドが使用されているかを調べる必要がありました。 組織で多くのカスタムフィールドを使用する場合は、これは困難で面倒です。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 2 月 19 日<br></p> <p>実稼動版リリース： 2021 年 3 月 5 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for8" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：1 か所でグループとそのオブジェクトを表示、管理する</a> </p> <p>セットアップの [ グループ ] 領域でグループを表示すると、グループを管理しやすくなりました。 新しい「その他」メニューを使用すると、グループページに戻ることなく、グループの編集、コピー、削除をすばやくおこなうことができます。</p> <p>また、グループのページから、グループのレイアウトテンプレート、集計表、タイムシートプロファイル、サブグループメンバを表示し、操作することもできます。 これにより、これらのオブジェクトの様々なセットアップページに移動して、グループの管理を行う必要がなくなります。 また、グループのオブジェクトのリストは、システム内の他のグループのリストとは別に保持されます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for8" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：グループとそのオブジェクトを 1 か所で表示および管理します。</a> </p> <p>セットアップの [ グループ ] 領域でグループを表示すると、グループを管理しやすくなりました。 新しい「その他」メニューを使用すると、グループページに戻ることなく、グループの編集、コピー、削除をすばやくおこなうことができます。</p> <p>また、グループのページから、グループのレイアウトテンプレート、集計表、タイムシートプロファイル、サブグループメンバを表示し、操作することもできます。 これにより、これらのオブジェクトの様々なセットアップページに移動して、グループの管理を行う必要がなくなります。 また、グループのオブジェクトのリストは、システム内の他のグループのリストとは別に保持されます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 2 月 19 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：カスタムフォームフィールドで使用可能なその他のテキスト書式設定オプション</a> </p> <p>書式設定が可能なカスタムフォームフィールドに入力すると、太字、斜体、下線に加えて、箇条書き、段落番号、ハイパーリンク、ブロック引用符を使用してテキストを整理できるようになりました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：カスタムフォームフィールドで使用できるその他のテキスト書式設定オプション</a> </p> <p>書式設定が可能なカスタムフォームフィールドに入力すると、太字、斜体、下線に加えて、箇条書き、段落番号、ハイパーリンク、ブロック引用符を使用してテキストを整理できるようになりました。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 2 月 19 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -174,11 +175,11 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 9 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#custom" class="MCXref xref" xrefformat="{para}">カスタムフォームの機能強化</a> </p> <p>カスタムフォームの入力時の操作性を向上させるため、長いカスタムフィールドラベルの表示方法を改善しました。 全体を表示するのに十分な水平方向のスペースがある場合、これらのラベルは切り捨てられなくなります。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#custom" class="MCXref xref" xrefformat="{para}">カスタムフォームの機能強化</a> </p> <p>カスタムフォームの入力時の操作性を向上させるために、長いカスタムフィールドラベルの表示方法を改善しました。 全体を表示するのに十分な水平方向のスペースがある場合、これらのラベルは切り捨てられなくなります。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 19 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#the" class="MCXref xref" xrefformat="{para}">問題のプライマリ連絡先が「プロジェクトの詳細」領域に表示されるようになりました</a> </p> <p>イシューをプロジェクトに変換すると、そのイシューのリクエスターがプロジェクトに転送され、「変換されたイシュー作成者」フィールドに表示されます。 このフィールドは、プロジェクトの詳細領域、およびプロジェクトのレポートとリストで表示できます。 この情報は、レポートおよびリストでのみ、タスクに対しても表示されます。</p> <p>プロジェクトの新しいWorkfrontエクスペリエンスでこのフィールドを表示するには、レイアウトテンプレートでこのフィールドを有効にする必要があります。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#the" class="MCXref xref" xrefformat="{para}">問題のプライマリ連絡先が「プロジェクトの詳細」領域に表示されるようになりました。</a> </p> <p>イシューをプロジェクトに変換すると、そのイシューのリクエスターがプロジェクトに転送され、「変換されたイシュー作成者」フィールドに表示されます。 このフィールドは、プロジェクトの詳細領域、およびプロジェクトのレポートとリストで表示できます。 この情報は、レポートおよびリストでのみ、タスクに対しても表示されます。</p> <p>プロジェクトの新しいWorkfrontエクスペリエンスでこのフィールドを表示するには、レイアウトテンプレートでこのフィールドを有効にする必要があります。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 2 月 26 日<br></p> <p>実稼動版リリース： 2021 年 3 月 10 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -264,11 +265,11 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 23 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md#connecti" class="MCXref xref" xrefformat="{para}">シナリオ・プランナ、ワークロード・バランサ、タスク・リスト間の接続</a> </p> <p>プロジェクトの戦略的計画に役立ち、シナリオプランナーの大きな構想に合わせるために、プロジェクトに新しい領域を作成しました。プロジェクトには、取り組みからの求人ロール要件と、プロジェクトの作業項目に対する予定時間が表示されます。 この領域は、プロジェクトレベルのワークロードバランサーとタスクリストに使用できます。 この新しい機能をサポートするには、既存の日別および週別オプションに加えて、月別のワークロードバランサーも表示できます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md#connecti" class="MCXref xref" xrefformat="{para}">シナリオ・プランナ、ワークロード・バランサ、タスク・リスト間の接続</a> </p> <p>プロジェクトの戦略的計画に役立ち、シナリオプランナーの大きな構想に合わせるために、プロジェクトに新しい領域を作成しました。プロジェクトには、取り組みからの求人ロール要件と、プロジェクトの作業項目で予測される予定時間が表示されます。 この領域は、プロジェクトレベルのワークロードバランサーとタスクリストに使用できます。 この新しい機能をサポートするには、既存の日別および週別オプションに加えて、月別のワークロードバランサーも表示できます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 23 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md#use" class="MCXref xref" xrefformat="{para}">生産資源プランナの正味値を計算する際に計画時間を使用 </a> </p> <p>リソース・プランナの新しい設定では、正味値の計算に計画時間を使用できます。 </p> <p>この機能強化の前は、Workfrontは予算時間のみを使用して正味値を計算しました。 正味値には、「使用可能」と「予算」、「計画時間」、「工数」、「原価」の差が表示されます。 [ 予算時間 ] は、[ 正味値 ] の計算時の既定の設定です。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md#use" class="MCXref xref" xrefformat="{para}">リソース・プランナの正味値を計算する際に計画時間を使用 </a> </p> <p>リソース・プランナの新しい設定では、正味値の計算に計画時間を使用できます。 </p> <p>この機能強化の前は、Workfrontは予算時間のみを使用して正味値を計算しました。 正味値には、「使用可能」と「予算」、「計画時間」、「工数」、「原価」の差が表示されます。 Budgeted Hours は、Net 値を計算する際のデフォルト設定です。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 12 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -305,7 +306,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 9 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用 <span class="uitext" style="color: #dc143c;">（2021 年 5 月 20 日に本番から一時的に削除）</span></p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md#report" class="MCXref xref" xrefformat="{para}">システム更新のレポート</a> </p> <p>新しいジャーナルエントリレポートでは、次のようなシステム更新を詳細に調べることで、監査性を高めることができます。プロジェクト、タスク、またはタスクのステータス変更削除されたタスクと問題カスタムフィールドの値；その他</p> <p>以前は、Workfront API を使用してのみ、システムの更新をレポートできました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md#report" class="MCXref xref" xrefformat="{para}">システムの更新に関するレポート</a> </p> <p>新しい仕訳レポートでは、プロジェクト、タスクまたは問題のステータス変更、削除されたタスクおよび問題、カスタムフィールドの値など、システムの更新にドリルインして、監査性を高めることができます。</p> <p>以前は、Workfront API を使用してのみ、システムの更新をレポートできました。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 2 月 19 日<br></p> <p>実稼動版リリース： 2021 年 3 月 5 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -331,7 +332,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md#carry" class="MCXref xref" xrefformat="{para}">新しいバージョンを生成する際に既存の配達確認ワークフローを引き継ぐ</a> </p> <p>これで、既存の配達確認ワークフローは、生成方法に関係なく、作成した新しいバージョンに引き継がれます。</p> <p>以前は、Workfrontでの生成場所に応じて、配達確認のワークフローの実行方法に若干の違いがありました。</p> </td> 
-   <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 12 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用<span class="uitext" style="color: #dc143c;"> （プレビューおよび実稼動環境から削除）。この機能は、21.2 リリースではリリースされません )</span></p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 12 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用<span class="uitext" style="color: #dc143c;"> （プレビューおよび実稼動環境から削除されました。この機能は 21.2 リリースではリリースされません）</span></p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -347,15 +348,15 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Adobe Workfront for XDの概要</a> </p> <p>新しいプラグインのローンチがお知らせします。Adobe Workfront for XD このプラグインを使用すると、作業項目の詳細にアクセスしたり、更新領域で同僚と共同作業したり、レビュー用に配達確認を送信したりできます。すべてXDを終了する必要はありません。 Adobe XD Marketplace にアクセスし、今すぐプラグインをダウンロードしてください。</p> </td> 
+   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Adobe Workfront for XDの概要</a> </p> <p>新しいプラグイン「Adobe Workfront for XD」がリリースされました。 このプラグインを使用すると、作業項目の詳細にアクセスしたり、更新領域で同僚と共同作業したり、レビュー用に配達確認を送信したりできます。すべてXDを終了する必要はありません。 Adobe XD Marketplace にアクセスし、今すぐプラグインをダウンロードしてください。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 28 日<br></p> <p>実稼動リリース： 2021 年 4 月 28 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#search" class="MCXref xref" xrefformat="{para}">ドキュメントの統合でフォルダを検索する</a> </p> <p>ドキュメントの統合内容を簡単にナビゲートできるように、フォルダーを検索できるようになりました。 検索バーにキーワードを入力すると、Workfrontは検索語句を名前に含むドキュメント、フォルダ、およびサブフォルダを返すようになりました。</p> <p>以前は、サブフォルダーは親フォルダーを開くことによってのみ配置できました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#search" class="MCXref xref" xrefformat="{para}">ドキュメントの統合でフォルダーを検索する</a> </p> <p>ドキュメントの統合内容を簡単にナビゲートできるように、フォルダーを検索できるようになりました。 検索バーにキーワードを入力すると、Workfrontは検索語句を名前に含むドキュメント、フォルダ、およびサブフォルダを返すようになりました。</p> <p>以前は、サブフォルダーは親フォルダーを開くことによってのみ配置できました。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 26 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#enhanced" class="MCXref xref" xrefformat="{para}">ファイルをGoogle Drive にアップロードする際のセキュリティの強化</a> </p> <p>Google Drive の統合で、新しいGoogleセキュリティプロトコルがサポートされるようになりました。 </p> <p>Workfrontオブジェクトの「ドキュメント」セクションからGoogle Drive にリンク、アップロード、またはファイルを作成する際に、Googleのファイルピッカーを使用してGoogleファイルにアクセスできるようになりました。 これにより、Workfrontのアクセスと表示は、WorkfrontにリンクしたGoogleファイルに限定されます。</p> <p>以前は、Workfrontをベースとするファイルダイアログを通じてファイルにアクセスしていました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#enhanced" class="MCXref xref" xrefformat="{para}">ファイルをGoogle Drive にアップロードする際のセキュリティの強化</a> </p> <p>Google Drive の統合で、新しいGoogleセキュリティプロトコルがサポートされるようになりました。 </p> <p>Workfrontオブジェクトの「ドキュメント」セクションからGoogle Drive にリンク、アップロード、またはファイルを作成する際に、Googleのファイルピッカーを使用してGoogleファイルにアクセスできるようになりました。 これにより、Workfrontのアクセスと表示は、WorkfrontにリンクしたGoogleファイルに対してのみ制限されます。</p> <p>以前は、Workfrontをベースとするファイルダイアログを通じてファイルにアクセスしていました。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 3 月 12 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -372,18 +373,18 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#email" class="MCXref xref" xrefformat="{para}">E メール許可リストの検証</a> </p> <p>E メールアドレスを使用する場合許可リスト、新規および更新されたユーザー E メールアドレスは、に対して検証さ許可リストれます。 新しいユーザーを追加したり、既存のユーザーを編集したりする際に、上にない E メールドメインを入力する許可リストと、E メールメッセージがユーザーに送信されないことを示すメッセージが表示されます。 ユーザープロファイルは保存できますが、ユーザーが E メールを受信するにはドメ許可リストインをドメインに追加する必要があります。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#email" class="MCXref xref" xrefformat="{para}">E メール許可リストに加えるの検証</a> </p> <p>E メールアドレスを使用する場合許可リストに加える、新規および更新されたユーザー E メールアドレスは、に対して検証されるようにな許可リストに加えるりました。 新しいユーザーを追加したり、既存のユーザーを編集したりする際に、上にない E メールドメインを入力する許可リストに加えると、E メールメッセージがユーザーに送信されないことを示すメッセージが表示されます。 ユーザープロファイルは保存できますが、ユーザーが E メールを受信するにはドメ許可リストに加えるインをドメインに追加する必要があります。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 23 日<br></p> <p>実稼動版リリース： 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">ブループリントベータ版をプレビューで利用できるようになりました</a> </p> <p>ブループリントは、成長する作業管理システムの作成に役立つ基本的な構成要素を提供します。 システム管理者は、ブループリントカタログを参照して、すぐに使用できるプロジェクトテンプレートをインストールできます。</p> </td> 
-   <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 23 日<br></p> <p>実稼動版リリース： 21.3 リリースで一般に入手可能です</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">ブループリントベータ版をプレビューで利用できるようになりました</a> </p> <p>ブループリントは、成長する作業管理システムを作成するのに役立つ基本的な構成要素を提供します。 システム管理者は、ブループリントカタログを参照して、すぐに使用できるプロジェクトテンプレートをインストールできます。</p> </td> 
+   <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 4 月 23 日<br></p> <p>実稼動版リリース： 21.3 リリースで一般に利用可能です</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#new" class="MCXref xref" xrefformat="{para}">オブジェクトヘッダーの新しいルックアンドフィール</a> </p> <p>情報の階層をさらに強化し、ユーザーがどのページにあるかをより明確に理解できるように、各オブジェクトヘッダーには次の機能が追加されました。</p> 
     <ul> 
      <li> <p>各オブジェクトタイプのカラフルで最新のアイコン</p> </li> 
-     <li> <p>オブジェクトの名前の上にリストされるオブジェクトタイプ</p> </li> 
+     <li> <p>オブジェクトの名前の上にリストされるオブジェクトタイプ。</p> </li> 
      <li> <p>更新されたフォントスタイルとテキストサイズ</p> </li> 
      <li> <p>その他の小規模なスタイルの変更</p> </li> 
     </ul> </td> 
@@ -420,7 +421,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-mobile-enhancements.md#save" class="MCXref xref" xrefformat="{para}">Workfrontモバイルアプリで要求をドラフトとして保存する</a> </p> <p>一部入力済みの要求をモバイルアプリでドラフトとして保存できるようになりました。 リクエスト領域に新しい「ドラフト」セクションが追加され、任意のドラフトを簡単に検索できるようになりました。</p> </td> 
-   <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 2 月 26 日<br></p> <p>実稼動リリース：iOS:2021 年 4 月 27 日；Android: 21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>iOSモバイルアプリ</p> <p>Android モバイルアプリ</p> </td> 
+   <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2021 年 2 月 26 日<br></p> <p>実稼動リリース：iOS:2021 年 4 月 27 日、Android:21.2 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>iOSモバイルアプリ</p> <p>Android モバイルアプリ</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -451,7 +452,7 @@ API バージョン 13 では、様々なリソースとエンドポイントを
 
 ## 実稼動から削除される機能
 
-### 機能のロールバック：新しいバージョンを生成する際に既存の配達確認ワークフローを引き継ぐ
+### 機能のロールバック：新しいバージョンを生成する際に、既存の配達確認ワークフローを引き継ぎます
 
 お客様のご意見により、 **Workfrontは、2021 年 3 月 30 日のプレビュー環境から、2021 年 3 月 31 日の実稼動環境から、この変更を削除します。**.
 

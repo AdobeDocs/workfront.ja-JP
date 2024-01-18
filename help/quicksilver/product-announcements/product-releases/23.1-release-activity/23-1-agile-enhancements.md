@@ -4,17 +4,18 @@ description: 23.1 アジャイルの強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f0e21f9b2846c5665474903a2910ce9f41cdf810
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
 
 # 23.1 アジャイルの強化
 
-このページでは、プレビュー環境の 23.1 リリースでおこなわれたすべてのアジャイルの機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用できるようになります。
+このページでは、プレビュー環境の 23.1 リリースでおこなわれたすべてのアジャイルの機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用可能になる予定です。
 
 23.1 リリースで使用可能なすべての変更点の一覧については、 [23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
@@ -118,7 +119,7 @@ https://<Workfront-URL>/boards/<board-id>/card/<card-id>.
 
 ボード上のフィルターのリストに、接続でフィルターするオプションが追加され、特定のプロジェクトに接続されているカードがすべて表示されます。 また、接続されていないカードでフィルタリングすることもできます。
 
-詳しくは、 [ボードでのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+詳しくは、 [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 [この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412381/){target=_blank}
 

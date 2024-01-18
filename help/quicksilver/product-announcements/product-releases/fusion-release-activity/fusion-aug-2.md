@@ -4,11 +4,12 @@ description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -48,18 +49,19 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 マッピングパネルで 2 つの新しい関数を使用できるようになりました。
 
-* 新しい日付と時間関数：dateDifference
+* 新しい日付と時間関数： dateDifference
 
-   シナリオで時間の範囲を簡単に計算できるように、新しい「dateDifference」日時関数を追加しました。 この関数は、2 つの日付または時間と時間の単位を取り、選択した時間の単位で表される、日付または時間の間の時間を返します。
+  シナリオで時間の範囲を簡単に計算できるように、新しい「dateDifference」日時関数を追加しました。 この関数は、2 つの日付または時間と時間の単位を取り、選択した時間の単位で表される、日付または時間の間の時間を返します。
 
-   以前は、日付と時間の差異は、ユーザーが入力した数式でのみ計算できました。
+  以前は、日付と時間の差異は、ユーザーが入力した数式でのみ計算できました。
 
-   詳しくは、 [Adobe Workfront Fusion の日付および時間関数](../../../workfront-fusion/functions/date-and-time-functions.md).
+  詳しくは、 [Adobe Workfront Fusion の日付および時間関数](../../../workfront-fusion/functions/date-and-time-functions.md).
 
 * 新しい配列関数：arrayDifference
 
-   この関数は、2 つの配列を取り、新しい配列を返します。 モジュールが返す新しい配列のタイプを選択できます。
+  この関数は、2 つの配列を取り、新しい配列を返します。 モジュールが返す新しい配列のタイプを選択できます。
 
    * 他の配列に含まれていない、1 つの配列の要素の配列
    * 1 つの配列または他の配列に含まれるが、両方には含まれない要素の配列。
-   詳しくは、 [Adobe Workfront Fusion の配列関数](../../../workfront-fusion/functions/array-functions.md).
+
+  詳しくは、 [Adobe Workfront Fusion の配列関数](../../../workfront-fusion/functions/array-functions.md).

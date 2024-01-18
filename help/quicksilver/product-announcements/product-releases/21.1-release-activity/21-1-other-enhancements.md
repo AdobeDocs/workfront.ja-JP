@@ -6,10 +6,11 @@ title: 21.1 その他の機能強化
 description: このページでは、21.1 リリースでプレビュー環境に対しておこなわれたその他すべての機能強化について説明します。 これらの機能強化は、2021 年 2 月 15 日の週に実稼動環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 チームの承認フィールドと割り当てフィールドを、「日々のダイジェストで必要なアクション」電子メールに追加しました。
 
-詳しくは、 [通知：必要なアクション](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+詳しくは、 [通知：アクションが必要です](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
 ## リクエストキューの POP 電子メールオプションの置き換え
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 これらの変更は、プレビューでテストできます。
 
-すべてのプレビュー環境で、電子メールは自動的に無効になります。 テスト用に電子メールを有効にするには、 [プレビューサンドボックス環境からの E メールの配信を有効にする](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+電子メールは、すべてのプレビュー環境で自動的に無効になります。 テスト用に電子メールを有効にするには、 [プレビューサンドボックス環境からの E メールの配信を有効にする](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 詳しくは、 [ユーザーが問題をリクエストキュープロジェクトに電子メールで送信できるようにします](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
@@ -56,7 +57,7 @@ ht-degree: 0%
 
 詳しくは、 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-## [ タイムシート ] 領域のフィルタとビューを改善しました
+## [ タイムシート ] 領域のフィルタとビューを改善しました。
 
 タイムシートにプロジェクト、タスク、またはタスクを追加する際に、次の改善点が追加されました。
 
@@ -69,8 +70,8 @@ ht-degree: 0%
 
 Workfrontで時間外を追跡しない場合に、時間外ボックスを非表示にして、ユーザーの混乱を和らげることができるようになりました。 単一使用のタイムシートまたはタイムシートプロファイルで、超過作業時間ボックスを非表示にすることができます。
 
-* 単一使用のタイムシート：個々のタイムシートで超過作業時間ボックスを非表示にする場合は、そのタイムシートでのみ非表示になります。 詳しくは、 [単一使用のタイムシートを作成する](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* タイムシートプロファイル：タイムシートプロファイルで超過作業時間ボックスを非表示にすると、そのプロファイルに割り当てられたユーザーに対して作成された以降のタイムシートには、超過作業時間ボックスは表示されません。 詳しくは、 [タイムシートプロファイルの作成、編集、割り当て](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* [ 単一使用タイムシート ]：個々のタイムシートで超過作業時間ボックスを非表示にする場合は、そのタイムシートに対してのみ非表示になります。 詳しくは、 [単一使用のタイムシートを作成する](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* タイムシートプロファイル：タイムシートプロファイルでオーバータイムボックスを非表示にすると、そのプロファイルに割り当てられたユーザーに対して作成された今後のタイムシートには、オーバータイムボックスは表示されません。 詳しくは、 [タイムシートプロファイルの作成、編集、割り当て](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 以前は、タイムシートの時系列ボックスを非表示にすることはできませんでした。
 

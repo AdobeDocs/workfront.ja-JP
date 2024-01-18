@@ -4,10 +4,11 @@ description: 21.3 リクエストの機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e3cdb642-83f5-4dc0-a4da-1f9378ab3914
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---

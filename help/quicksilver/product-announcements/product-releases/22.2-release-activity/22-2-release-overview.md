@@ -4,17 +4,18 @@ description: 22.2 リリースの概要
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3973'
 ht-degree: 0%
 
 ---
 
 # 22.2 リリースの概要
 
-このページでは、22.2 リリースに含まれる機能について説明します。 一覧に表示されるすべての機能は、新しいAdobe Workfrontエクスペリエンスで使用できます。 一部の機能は、Adobe Workfront Classic でも使用できます。しかしながら [Workfront Classic は 2022 年 3 月に廃止されます](https://one.workfront.com/s/new-workfront-experience)。その後、まもなく 2022 年 7 月にWorkfront Classic のサポート終了日になります。
+このページでは、22.2 リリースに含まれる機能について説明します。 一覧に表示されるすべての機能は、新しいAdobe Workfrontエクスペリエンスで使用できます。 一部の機能はAdobe Workfront Classic でも使用できますが、 [Workfront Classic は 2022 年 3 月に廃止されます](https://one.workfront.com/s/new-workfront-experience)。その後、まもなく 2022 年 7 月にWorkfront Classic のサポート終了日になります。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -73,7 +74,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#configur" class="MCXref xref" xrefformat="{para}">複数のオブジェクトタイプで動作するカスタムフォームの設定</a> </p> <p>新規または既存のカスタムフォームを複数のオブジェクトタイプと連携するように設定し、フォームをより広く使用できるようにしました。 ユーザーは、設定したすべての種類のオブジェクトに対して、フォームを添付し、入力することができます。</p> <p>以前は、1 つのオブジェクトタイプでのみ機能するカスタムフォームを設定していました。</p> <p>この機能は、Workfrontシステムで以前に作成されたすべてのカスタムフォームで機能します。 例えば、Task オブジェクトタイプ用に既に作成されたカスタムフォームがある場合、Project や Issue などの他のオブジェクトタイプとも連携するように設定できます。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -84,7 +85,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#blueprin" class="MCXref xref" xrefformat="{para}">ブループリントカタログはすべてのユーザーが使用でき、管理者はリクエストを許可できます</a> </p> <p>すべてのAdobe Workfrontユーザーが、使用可能なブループリントのカタログを参照できるようになりました。 </p> <p>また、システム管理者は、ユーザーがブループリントのインストールを要求するアクセスを有効にできます。 リクエストキューを割り当ててリクエストを保存すると、ユーザーはブループリントカタログからリクエストを実行できます。 </p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -95,7 +96,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#add" class="MCXref xref" xrefformat="{para}">カスタムフォームに画像を追加する</a> </p> <p>作成または編集したカスタムフォームで、画像を追加し、ユーザーが画像の上にマウスポインターを置いたときに読み取れる情報または説明的なツールチップを含めることができるようになりました。</p> <p>これは、例えば、新しい製品のブランディングを表示したり、フォームの入力時に必要な視覚的情報を提供したりする場合に役立ちます。</p> <p>以前は、カスタムフォームは完全にテキストベースでした。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -106,7 +107,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#deactiva" class="MCXref xref" xrefformat="{para}">グループの非アクティブ化</a> </p> <p>内部組織が変更されると、場合によっては、Workfrontでの特定のグループの使用を停止し、新しいグループを作成する必要があります。 これに役立つように、グループの履歴データを失うことなく、グループを非アクティブ化する機能を追加しました。 表示する必要がない通常のユーザーの場合、非アクティブなグループはグループタイプ先行フィールドから消去されます。</p> <p>管理する非アクティブなグループのオプション、環境設定、オブジェクトの関連付けを検索して設定することもできます。 グループを非アクティブ化しても、グループがアタッチされているオブジェクトに関する変更は一切おこなわれません。</p> <p>以前は、グループを非アクティブ化することはできませんでした。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -117,7 +118,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">新しいデフォルトのアクセスレベル設定</a> </p> <p>アクセスレベルを作成するほとんどの管理者のニーズに合わせて、「編集」ボタンのギアアイコンをクリックしたときに表示される「設定を微調整」オプションのデフォルト設定を変更しました。</p> <p>以前はデフォルトで有効になっていたオプションは、現在は無効です。 組織のニーズに合わない場合は、新しいアクセスレベルの設定時に有効にしたり、後でいつでも有効にしたりできます。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 1 月 28 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 1 月 28 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -164,7 +165,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">Adobe Workfrontのボードが利用可能になりました。 </a> </p> <p>ボードは、コラムとカードを含む共有ボードにアクセスできるようにし、チームでのコラボレーションを可能にする柔軟なツールです。 </p> <p>ボードを使用すると、複数の列を持つタスクボードを簡単に設定したり、列を設定してステータスやカテゴリを表示したり、他のユーザーをボードに追加してカードに割り当てたりできます。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -177,12 +178,12 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
      <li> <p>ボードでのカードのタグ付け</p> </li> 
      <li> <p>カードの移動</p> </li> 
      <li> <p>カードのコピー</p> </li> 
-     <li> <p>ボードで検索</p> </li> 
+     <li> <p>ボードでの検索</p> </li> 
      <li> <p>ボードでカードの期限を設定する</p> </li> 
     </ul> </td> 
    <td><b>次の日に利用可能：</b> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 25 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 25 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -190,10 +191,10 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#undo" class="MCXref xref" xrefformat="{para}">投稿を更新の「元に戻す」オプション</a> </p> <p>更新を投稿する際のミスを簡単にキャッチできるようになりました。 オブジェクトの「更新」タブでコメントを最終処理すると、7 秒間ポップアップウィンドウが作成され、投稿をキャンセルして編集に戻ることができます。このウィンドウは、システムがタイムスタンプを付けたり、E メールやアプリ内通知を送信する前に表示されます。 ポップアップウィンドウを閉じるか、ページを離れるか、ウィンドウがタイムアウトするまで 7 秒待つと、投稿は通常どおりおこなわれます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#undo" class="MCXref xref" xrefformat="{para}">「投稿を更新」の「元に戻す」オプション</a> </p> <p>更新を投稿する際のミスを簡単にキャッチできるようになりました。 オブジェクトの「更新」タブでコメントを最終処理すると、7 秒間ポップアップウィンドウが作成され、投稿をキャンセルして編集に戻ることができます。このウィンドウは、システムがタイムスタンプを付けたり、E メールやアプリ内通知を送信する前に表示されます。 ポップアップウィンドウを閉じるか、ページを離れるか、ウィンドウがタイムアウトするまで 7 秒待つと、投稿は通常どおりおこなわれます。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -204,7 +205,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#new" class="MCXref xref" xrefformat="{para}">プロジェクトをコピーする際の新しいエクスペリエンス</a> </p> <p>Workfrontの使用を新しいAdobe Workfrontエクスペリエンスと一貫性を保つため、プロジェクトをコピーするためのインターフェイスのデザインを変更しました。 これは、現在、プロジェクトページからプロジェクトをコピーする場合、またはリストやレポートからプロジェクトをコピーする場合に使用できます。 この更新以前は、プロジェクトページからのみプロジェクトをコピーできました。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -225,7 +226,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -258,8 +259,8 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">問題をコピーおよび移動する際のエクスペリエンスの更新</a> </p> <p>Workfrontの使用を新しいAdobe Workfrontエクスペリエンスと一貫性を保つため、問題のコピーと移動に使用するインターフェイスのデザインを一新しました。 これは、現在、単一の問題をコピーまたは移動する場合、またはリストまたはレポートから問題を一括でコピーまたは移動する場合に使用できます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 2 月 19 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.2 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 2 月 19 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.2 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -329,7 +330,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -340,7 +341,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#access" class="MCXref xref" xrefformat="{para}">ワークロード・バランサでの高度な割り当てへのアクセス</a> </p> <p>作業項目の割り当てをより簡単かつ正確に行うために、ワークロードバランサーで作業項目を手動で割り当てる際に、高度な割り当てを行うことができるようになりました。 この機能強化がおこなわれる前は、項目の編集時、項目のヘッダーから、またはリストで、[ 高度な割り当て ] にアクセスできました。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -351,7 +352,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-resource-management-enhancements.md#new" class="MCXref xref" xrefformat="{para}">「デフォルトのスケジュール」環境設定が選択されている場合にユーザーの可用性を計算する新しい数式</a> </p> <p>リソース管理ツールに関するより正確な情報を提供するために、Workfront管理者が「リソース管理環境設定」で「デフォルトのスケジュール」を選択した場合に、Workfrontがユーザーの可用性を計算するために使用する式を変更しました。 新しい更新に伴い、Workfrontは次の数式を使用してユーザーの可用性を計算します。</p> <p>ユーザー使用可能時間= （デフォルト予定時間 — 例外） * FTE — 時間外</p> <p>この更新以前は、Workfrontでは次の数式を使用して「デフォルトのスケジュール」が選択されている場合のユーザーの可用性を計算していました。</p> <p>ユーザー使用可能時間= ( デフォルトのスケジュール時間 — （スケジュール例外+オフ時間）) *ユーザー FTE 値</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -373,10 +374,10 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-home-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">ホームワークリストのフィルターの改善</a> </p> <p>作業リストをより詳細に制御し、集中させるために、ホーム領域のフィルターに対していくつかの改善を実装しました。 新しい改善点では、オブジェクトタイプ別にフィルターを選択し、作業項目の状態（開始準備完了、作業中、リクエスト済みなど）別に結果を絞り込むことができます。 新しいホームフィルタでは、オブジェクトの種類と作業項目の状態のフィルタの組み合わせを適用すると、タスク、問題、個人の作業項目、承認の正しい数が提供されるようになりました。</p> <p>このエクスペリエンス以前は、1 つ以上のフィルターを選択した場合、ホーム領域のフィルターではリスト内の作業項目の数が正確にカウントされず、作業項目の状態に関する混乱が発生していました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-home-enhancements.md#improvem" class="MCXref xref" xrefformat="{para}">ホームワークリストのフィルターの改善</a> </p> <p>作業リストをより詳細に制御し、集中させるために、ホーム領域のフィルターに対していくつかの改善を実装しました。 新しい改善点では、オブジェクトタイプ別にフィルターを選択し、作業項目の状態（開始準備完了、作業中、リクエスト済みなど）別に結果を絞り込むことができます。 新しいホームフィルタでは、オブジェクトの種類と作業項目の状態のフィルタの組み合わせを適用すると、タスク、問題、個人の作業項目、承認の正しい数が提供されるようになりました。</p> <p>このエクスペリエンス以前は、1 つ以上のフィルターを選択した場合、ホーム領域のフィルターではリスト内の作業項目の数が正確にカウントされず、作業項目の状態に関する混乱が生じていました。</p> </td> 
    <td> <p><b>次の日に利用可能：</b> </p> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
      <li> <p>実稼動版リリース： 22.2 リリースを使用 </p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
@@ -442,8 +443,8 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe" class="MCXref xref" xrefformat="{para}">Adobe Workfrontと Anaplan の統合が利用可能に</a> </p> <p>Workfrontプロジェクトの財務面に関するより柔軟性とインサイトを得るために、Workfrontを Anaplan アカウントと統合できるようになりました。 Workfrontオブジェクトを Anaplan オブジェクトにリンクすると、2 つのアカウント間の情報を自動的に更新し、両方の情報が最新で同一であることを確認できます。 </p> <p>また、Workfrontのアクションに基づいて、Analypan で自動化されたプロセスをトリガー化することもできます（またはその逆も可能です）。</p> <p>例えば、Analypan でキャンペーンを作成し、そのキャンペーンにリンクされたWorkfrontプロジェクトまたはプログラムを作成できます。 その後、Workfrontで追跡されたコストを Anaplan にアップロードして、キャンペーンのパフォーマンスを確認できます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.2 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.2 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -453,15 +454,15 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#workfron" class="MCXref xref" xrefformat="{para}">Workfront forExperience Manager強化コネクタの更新</a> </p> <p>Workfront forExperience Manager強化コネクタに、次の更新が含まれるようになりました。</p> 
     <ul> 
      <li> <p>複数のプロジェクトリンクフォルダー設定がある場合でも、Adobe WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceの間にリンクされたフォルダーを作成できるようになりました。</p> </li> 
-     <li> <p>イベント購読のページネーションのサポートを追加しました</p> </li> 
+     <li> <p>イベント購読のページネーションのサポートを追加しました。</p> </li> 
      <li> <p>AEM 6.4.x のサポートを追加しました。</p> </li> 
      <li> <p>プロキシ環境のサポートを追加しました。</p> </li> 
      <li> <p>パートナーやお客様のご意見に基づいた、いくつかのバグ修正がおこなわれました。</p> </li> 
     </ul> </td> 
    <td><strong>次の日に利用可能：</strong> 
     <ul> 
-     <li> <p>プレビューリリース：該当なし<br></p> </li> 
-     <li> <p>実稼動版リリース：2022 年 3 月 29 日</p> </li> 
+     <li> <p>プレビューリリース：なし<br></p> </li> 
+     <li> <p>実稼動版リリース： 2022 年 3 月 28 日</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -472,19 +473,19 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#see" class="MCXref xref" xrefformat="{para}">カスタム OAuth2 または JWT 統合のクライアント秘密鍵の詳細を表示する</a> </p> <p>カスタム OAuth2 および JWT 統合の使用に対する透明性を高めるため、統合で使用するクライアントシークレットの詳細を確認できるようにしました。 これで、クライアントシークレットが作成され、最後に使用された日付を確認できます。 また、クライアントシークレットに関する独自のメモを追加して表示することもできます。</p> <p>以前は、これらの詳細は不明でした。</p> </td> 
    <td><strong>次の日に利用可能：</strong> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 4 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.2 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 4 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.2 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe2" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud統合で OAuth2 が使用されるようになりました</a> </p> <p>セキュリティを強化し、統合全体でより一貫したエクスペリエンスを得るために、Adobe Creative Cloud統合を更新して、ユーザーを認証する業界標準の方法である OAuth2 認証を使用するようにしました。 これで、ユーザーがログインすると、統合がアクセスできる特定のアクションや領域を確認し、アクセスを許可できます。 その後は、頻繁にログインする必要はありません。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#adobe2" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud統合で OAuth2 が使用されるようになりました</a> </p> <p>セキュリティを強化し、統合全体でより一貫したエクスペリエンスを得るために、Adobe Creative Cloud統合を更新して、ユーザーを認証する業界標準の方法である OAuth2 認証を使用するようにしました。 これで、ユーザーがログインすると、統合がアクセスできる特定のアクションや領域を確認し、アクセスを許可できるようになります。 その後は、頻繁にログインする必要はありません。</p> </td> 
    <td><strong>次の日に利用可能：</strong> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 2 月 25 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.2 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 2 月 25 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.2 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -494,8 +495,8 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-integration-enhancements.md#see2" class="MCXref xref" xrefformat="{para}">カスタム OAuth2 アプリケーションのリストで認証のタイプを参照する</a> </p> <p>これで、組織内のカスタム OAuth2 アプリケーションのリストを表示すると、各アプリケーションがユーザー認証とサーバー認証のどちらを使用しているかを確認できます。</p> <p>以前は、この情報は、各アプリケーションの編集オプションからのみ表示できました。</p> </td> 
    <td><strong>次の日に利用可能：</strong> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 2 月 18 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.2 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 2 月 18 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.2 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -552,12 +553,12 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     <ul> 
      <li> <p>お気に入りと最近使用者に、上部のナビゲーションバーに個別のアイコンが表示されるようになりました。 各ページには、同じ内容（お気に入りとしてマークしたページ、最近アクセスしたページ）が表示され、お気に入りのページの追加や削除を同じ方法で続行できます。</p> </li> 
      <li> <p>ピンとメインメニューの外観と操作性を、色やフォントを含むAdobe設計規格に更新しました。 メインメニューでピンやアクセスできる領域を追加および削除する方法は変更されていません。</p> </li> 
-     <li> <p>上部ナビゲーションバーの右側のアイコンの順序が変更され、より直感的になりました。 アイコンの順序は次のとおりです。ヘルプリンク、通知、お気に入り、最近使用者、検索、メインメニュー</p> </li> 
+     <li> <p>上部ナビゲーションバーの右側のアイコンの順序が変更され、より直感的になりました。 アイコンの順序は、ヘルプリンク、通知、お気に入り、最近使用したユーザー、検索、メインメニューです。</p> </li> 
     </ul> </td> 
    <td><strong>次の日に利用可能：</strong> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.2 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.2 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -567,12 +568,12 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
    <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-other-enhancements.md#redesign" class="MCXref xref" xrefformat="{para}">再設計されたタイムシートリスト</a> </p> <p>Workfrontの使用を新しいAdobe Workfrontエクスペリエンスと一致させるため、タイムシート領域のタイムシートリストを再設計しました。 より簡潔で効率的なユーザーエクスペリエンスでのみ、タイムシートリストに同じ機能を期待できます。</p> <p>この再設計の主な特徴は次のとおりです。</p> 
     <ul> 
      <li> <p>タイムシートリストは、Workfrontの他のすべてのリストのエクスペリエンスと一致するようになりました。</p> </li> 
-     <li> <p>現在は、フィルターエクスペリエンスが、他のすべてのリストのフィルターと一致します。 ユーザーにとって最も意味のあるフィールドと属性を使用して、独自のフィルターを柔軟に作成し、他のユーザーと共有できます。</p> </li> 
+     <li> <p>現在は、フィルターエクスペリエンスが、他のすべてのリストのフィルターと一致します。 ユーザーにとって最も意味のあるフィールドや属性を使用して、独自のフィルターを柔軟に作成し、他のユーザーと共有できます。</p> </li> 
     </ul> </td> 
    <td><strong>次の日に利用可能：</strong> 
     <ul> 
-     <li> <p>プレビューリリース：2022 年 3 月 11 日<br></p> </li> 
-     <li> <p>実稼動版リリース：22.2 リリースの場合</p> </li> 
+     <li> <p>プレビューリリース： 2022 年 3 月 11 日<br></p> </li> 
+     <li> <p>実稼動版リリース： 22.2 リリースを使用</p> </li> 
     </ul> <p><strong>次の環境で使用できます。</strong> </p> 
     <ul> 
      <li> <p>新しいAdobe Workfrontエクスペリエンス </p> </li> 
@@ -593,7 +594,7 @@ Workfront Fusion の新機能は、実稼動環境では、22.2 リリースス�
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features are coming to Workfront Scenario Planner release with the 21.4 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a>.</p>
 -->
 
-## Workfront Proof の強化
+## Workfront Proof の機能強化
 
 このリリースでは、現時点でWorkfront Proof の更新はありません。 この領域は、更新が利用可能になると更新されます。
 

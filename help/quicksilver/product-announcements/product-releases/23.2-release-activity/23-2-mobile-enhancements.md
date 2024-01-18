@@ -4,9 +4,11 @@ description: 23.2 モバイル機能の強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+recommendations: noDisplay, noCatalog
+exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,4 @@ ht-degree: 0%
 
 モバイルアプリでボードコレクションもサポートされるようになり、モバイルユーザーはモバイルボードリストからデスクトップバージョンでアクセス権のあるコレクションを表示できます。
 
-詳しくは、 [[!DNL Adobe Workfront] [!UICONTROL Boards] モバイル用](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+詳しくは、 [[!DNL Adobe Workfront] [!UICONTROL ボード] モバイル用](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

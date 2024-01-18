@@ -4,10 +4,11 @@ description: 23.1 リリースの概要
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -58,10 +59,10 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 1 月 6 日<br /></p>
+                                <p>プレビューリリース： 2023 年 1 月 6 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：23.1 リリースの場合</span></p>
+                                <p><span class="preview">実稼動版リリース： 23.1 リリースを使用</span></p>
                             </li>
                         </ul>
                     </td>
@@ -77,10 +78,10 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 10 月 21 日<br /></p>
+                                <p>プレビューリリース： 2022 年 10 月 21 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2022 年 10 月 27 日（オフサイクル）</span></p>
+                                <p><span class="preview">実稼動版リリース： 2022 年 10 月 27 日（オフサイクル）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -95,10 +96,10 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 10 月 14 日<br /></p>
+                                <p>プレビューリリース： 2022 年 10 月 14 日<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.1 リリースの場合</p>
+                                <p>実稼動版リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -142,7 +143,7 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリース以降の Fast Follow</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリース以降のすばやいフォロー</p>
                             </li>
                         </ul>
                     </td>
@@ -157,11 +158,11 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 12 月 1 日<br /></p>
+                                <p>プレビューリリース： 2022 年 12 月 2 日<br /></p>
                             </li>
                             <li>
-                                <p>先行オプトインの実稼動リリース：使用不可</p> 
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリースの場合</p>
+                                <p>先行オプトイン用の実稼動版リリース：使用不可</p> 
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -176,11 +177,11 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 12 月 1 日<br /><span style="color: #ff0000;"> この機能はプレビューから削除され、23.1 ではリリースされません。</span></p>
+                                <p>プレビューリリース： 2022 年 12 月 2 日<br /><span style="color: #ff0000;"> この機能はプレビューから削除され、23.1 ではリリースされません。</span></p>
                             </li>
                             <li>
-                                <p>先行オプトインの実稼動リリース：使用不可</p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリースの場合</p>
+                                <p>先行オプトイン用の実稼動版リリース：使用不可</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -195,11 +196,11 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 11 月 18 日<br /></p>
+                                <p>プレビューリリース： 2022 年 11 月 18 日<br /></p>
                             </li>
                             <li>
                                 <p>先行オプトインの実稼動リリース：2022 年 12 月 1 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -214,11 +215,11 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 11 月 11 日<br /></p>
+                                <p>プレビューリリース： 2022 年 11 月 11 日<br /></p>
                             </li>
                             <li>
                                 <p>先行オプトインの実稼動リリース：2022 年 11 月 18 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -233,11 +234,11 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 11 月 11 日<br /></p>
+                                <p>プレビューリリース： 2022 年 11 月 11 日<br /></p>
                             </li>
                             <li>
                                 <p>先行オプトインの実稼動リリース：2022 年 11 月 18 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -255,11 +256,11 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 11 月 11 日<br /></p>
+                                <p>プレビューリリース： 2022 年 11 月 11 日<br /></p>
                             </li>
                             <li>
                                 <p>先行オプトインの実稼動リリース：2022 年 11 月 18 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -274,11 +275,11 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 10 月 27 日<br /></p>
+                                <p>プレビューリリース： 2022 年 10 月 28 日<br /></p>
                             </li>
                             <li>
                                 <p>先行オプトインの実稼動リリース：2022 年 11 月 4 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -294,11 +295,11 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 10 月 27 日<br /></p>
+                                <p>プレビューリリース： 2022 年 10 月 28 日<br /></p>
                             </li>
                             <li>
                                 <p>先行オプトインの実稼動リリース：2022 年 11 月 4 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動版リリース：23.1 リリースの場合</p>
+                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -333,7 +334,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：なし<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2023 年 1 月中旬～後半にApple App StoreおよびGoogle Playストアで利用可能</span></p>
+                                <p><span class="preview">実稼動リリース： 2023 年 1 月中旬から後半にApple App StoreおよびGoogle Playストアで利用可能</span></p>
                             </li>
                         </ul>
                     </td>
@@ -370,7 +371,7 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：該当なし<br /></p>
+                                <p>プレビューリリース：なし<br /></p>
                             </li>
                             <li>
                                 <p>実稼動版リリース： <span class="preview">2022 年 12 月 12 日</span></p>
@@ -389,17 +390,17 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 2 月/3 月<br /></p>
+                                <p>プレビューリリース： 2023 年 2 月/3 月<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：2023 年 2 月/3 月</p>
+                                <p>実稼動版リリース： 2023 年 2 月/3 月</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">「設定」領域のフィルター、ビュー、グループ化ページの新しいリスト制御機能。</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">「設定」領域のフィルター、ビュー、グループ化ページに新しいリスト制御機能が追加されました。</a></p>
                         <p>「設定」領域のフィルター、ビュー、グループ化ページにリスト制御機能を追加しました。 ここで、レイアウトテンプレートのフィルター、ビューおよびグループを有効または無効にできます。
 </p>
                     </td>
@@ -408,10 +409,10 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 12 月 1 日<br /></p>
+                                <p>プレビューリリース： 2022 年 12 月 2 日<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.1 リリースの場合</p>
+                                <p>実稼動版リリース： 23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -430,7 +431,7 @@ ht-degree: 0%
                                 <p>プレビューリリース：なし<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2022 年 11 月 18 日</span></p>
+                                <p><span class="preview">実稼動リリース： 2022 年 11 月 18 日</span></p>
                             </li>
                         </ul>
                     </td>
@@ -462,10 +463,10 @@ ht-degree: 0%
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 10 月 27 日<br /></p>
+                                <p>プレビューリリース： 2022 年 10 月 28 日<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：2022 年 11 月 4 日 <span style="color: #ff0000;"> この機能は、WorkfrontのAdobe統合エクスペリエンスにオンボーディングされているお客様にのみ適用されます。</span></p>
+                                <p>実稼動リリース： 2022 年 11 月 4 日 <span style="color: #ff0000;"> この機能は、WorkfrontのAdobe統合エクスペリエンスにオンボーディングされているお客様にのみ適用されます。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -476,7 +477,7 @@ ht-degree: 0%
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">ピンの削除時にピンと新しいエクスペリエンスの名前を変更する</a></p>
                         <p>ピンに対して次の更新を利用できるようになりました。</p>
                         <ul>
-                        <li>既存のピン名を変更する</li>
+                        <li>既存のピンの名前を変更する</li>
                         <li>ピンを削除する際のエクスペリエンスが向上しました</li>
                         </ul>
                         <p>ピンの名前を変更したり、ピンを削除するオプションは、ピンの上にマウスポインターを置くとドロップダウンメニューに表示されます。</p>
@@ -484,10 +485,10 @@ ht-degree: 0%
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2022 年 10 月 14 日<br /></p>
+                                <p>プレビューリリース： 2022 年 10 月 14 日<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：2022 年 10 月 27 日（オフサイクル）</span></p>
+                                <p><span class="preview">実稼動版リリース： 2022 年 10 月 27 日（オフサイクル）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -501,11 +502,11 @@ ht-degree: 0%
 
 Workfront Fusion の新機能は、実稼動環境の 23.1 リリーススケジュール以外のサイクルで使用できます。 最新の機能について詳しくは、 [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-### WorkfrontScenario プランナーの強化
+### WorkfrontScenario プランナーの機能強化
 
 リリースのこの時点では、シナリオプランナーの更新はありません。 この領域は、更新が利用可能になると更新されます。
 
-### Workfront Proof の強化
+### Workfront Proof の機能強化
 
 このリリースでは、現時点でWorkfront Proof の更新はありません。 この領域は、更新が利用可能になると更新されます。
 
@@ -552,7 +553,7 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 
 #### **IllustratorおよびInDesign用Workfront Extension for**
 
-代わりに [IllustratorおよびInDesign用Workfront Extension for ](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) 更新されたCreative Cloudプラグイン 2022 年後半以降、この拡張機能は Exchange でインストールできなくなります。
+次の項目を置き換えます： [IllustratorおよびInDesign用Workfront Extension for ](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) 更新されたCreative Cloudプラグイン 2022 年後半以降、この拡張機能は Exchange でインストールできなくなります。
 
 この拡張機能の機能は、更新されたAdobe WorkfrontでCreative Cloudプラグインに対して使用できます。
 * [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)

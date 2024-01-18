@@ -3,9 +3,11 @@ title: 23.3 モバイル機能の強化
 description: 23.3 モバイル機能の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: bc38191c-3cde-4be4-b6b4-43d3fbd58828
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---

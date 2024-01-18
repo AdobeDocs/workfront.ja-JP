@@ -4,11 +4,12 @@ description: Workfront Fusion リリース活動：&nbsp;2022 年 2 月 7 日の
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 4cc64bf6-98a4-4a92-b8d5-0c1e5e293171
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 * Analyplan レコードの作成、読み取り、更新、削除、検索
 * Anaplan へのレコードのバッチインポート
 
-詳しくは、 [Anaplan モジュール](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+詳しくは、 [Analyplan モジュール](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,7 +44,7 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 </div>
 -->
 
-## シナリオを作成する際に、シナリオエディタに直接移動します
+## シナリオを作成する際に、シナリオエディタに直接移動します。
 
 シナリオの作成処理をよりスムーズにするために、アプリ選択ページを削除しました。 これで、シナリオエディターに直接移動し、モジュールを追加する際に表示されるリストから、接続先のアプリを選択できます。
 

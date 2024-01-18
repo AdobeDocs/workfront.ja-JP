@@ -4,10 +4,11 @@ description: 21.4 要求の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: a8fe233f-3947-4afa-9f21-6bd8ed170646
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---

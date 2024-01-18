@@ -5,10 +5,11 @@ title: 四半期別リリースアーカイブ
 description: 四半期別リリースアーカイブ
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 159a5bd0-e0f4-4670-8143-dfc24a7caf81
-source-git-commit: 112d9b86d57c636ceed62b0787d914afcad94832
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---

@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2022 年 10 月 17 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2022 年 10 月 17 日の週」
 description: このページでは、2022 年 10 月 18 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 063a7e3d-b4d4-4d8d-bdcb-8bc29fe6cff3
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2022 年 10 月 17 日の週
+# Workfront Fusion リリースアクティビティ： 2022 年 10 月 17 日の週
 
 ## Adobe Creative Cloudライブラリ/アセットをアップロードモジュールで大きなファイルを使用できるようになりました。
 

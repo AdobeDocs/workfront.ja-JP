@@ -4,9 +4,11 @@ description: 23.2 アジャイルの強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+recommendations: noDisplay, noCatalog
+exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -75,7 +77,7 @@ Adobe Workfrontボードにカスタムフィールドを含めることがで�
 詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 
-## カードでのフィールド表示のカスタマイズ
+## カードでのフィールドの表示をカスタマイズする
 
 >[!NOTE]
 >

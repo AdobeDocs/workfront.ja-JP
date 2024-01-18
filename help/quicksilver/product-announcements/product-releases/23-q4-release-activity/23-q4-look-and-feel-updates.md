@@ -4,10 +4,11 @@ description: 2023 年第 4 四半期のリリース期間中のルックアン�
 author: Lisa
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---

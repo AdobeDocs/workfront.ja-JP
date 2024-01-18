@@ -4,10 +4,11 @@ description: 22.3 管理者の機能強化
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -61,7 +62,7 @@ JumpSeat とWorkfrontを統合して、ユーザー向けのカスタムの製�
 >
 >この機能は一時的に利用できません。 このページは、この機能が使用可能になると更新されます。
 
-カスタムフィールドの計算を簡単に編集できるようになりました。計算に直接示される便利なエラー情報が追加されました。 カスタムフォームで計算フィールドを作成する場合、エラーはピンク色でハイライト表示されます。 ハイライト表示された部分にマウスポインターを置くと、問題の内容を示すツールチップが表示されます。
+カスタムフィールドの計算を簡単に編集できるようになりました。計算に直接示される便利なエラー情報が追加されました。 カスタムフォームで計算フィールドを作成する場合、エラーはピンク色で強調表示されます。 ハイライト表示された部分にマウスポインターを置くと、問題の内容を示すツールチップが表示されます。
 
 詳しくは、 [計算データをカスタムフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
@@ -78,7 +79,7 @@ Workfrontまたはグループ管理者は、レイアウトテンプレート�
 * オブジェクトヘッダーには、最大 5 つのフィールドを含めることができます。
 
 
-このリリース以前は、オブジェクトヘッダーのフィールドをカスタマイズできませんでした。
+このリリースより前は、オブジェクトヘッダーのフィールドをカスタマイズできませんでした。
 
 詳しくは、 [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
@@ -97,15 +98,15 @@ Workfrontまたはグループ管理者は、レイアウトテンプレート�
 
 詳しくは、 [システム全体のプロジェクト環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-## グループページからグループを非アクティブ化する
+## グループページからグループを非アクティブ化します。
 
-最近では、グループの非アクティブ化と再アクティブ化の機能が追加されました。 この操作を迅速かつ容易にするために、グループのページに追加しました。 グループ名をクリックしてそのページに移動した後、その他のメニューを選択できます ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) グループ名の横にある「非アクティブ化」または「再アクティブ化」を選択します。
+最近では、グループの非アクティブ化と再アクティブ化の機能が追加されました。 この操作を迅速かつ容易にするために、グループのページに追加しました。 グループ名をクリックしてそのページに移動した後、その他のメニューを選択できます。 ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) グループ名の横にある「非アクティブ化」または「再アクティブ化」を選択します。
 
 以前は、グループの詳細ページの「アクティブ」チェックボックスを使用してのみ、グループのアクティベートを解除または再アクティブ化できました。
 
 詳しくは、 [グループの非アクティブ化または再アクティブ化](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
-## カスタムフォームへのビデオの追加
+## カスタムフォームにビデオを追加する
 
 ビデオを追加することで、新しい情報、視覚的な興味、創造性をカスタムフォームに提供できます。 フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーはいつでもビデオを再生できます。
 

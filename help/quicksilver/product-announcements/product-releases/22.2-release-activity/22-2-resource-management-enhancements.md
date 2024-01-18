@@ -4,10 +4,11 @@ description: 22.2 リソース管理の強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5f11c43c-3aa8-4135-b6bf-07b9993e63d9
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ in January 2022
 
 作業項目の割り当てをより簡単かつ正確に行うために、ワークロードバランサーで作業項目を手動で割り当てる際に、高度な割り当てを行うことができるようになりました。 この機能強化がおこなわれる前は、項目の編集時、項目のヘッダーから、またはリストで、[ 高度な割り当て ] にアクセスできました。
 
-詳しくは、 [ワークロードバランサーを使用して作業を手動で割り当て](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+詳しくは、 [ワークロードバランサーを使用して作業を手動で割り当てる](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## 「デフォルトのスケジュール」環境設定が選択されている場合にユーザーの可用性を計算する新しい数式
 

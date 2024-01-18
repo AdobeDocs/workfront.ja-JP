@@ -4,20 +4,21 @@ content-type: release-notes
 product-area: workfront-integrations
 keywords: 更新
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2021 年 6 月 28 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2021 年 6 月 28 日の週」
 description: このページでは、2021 年 6 月 28 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: abd14599-2c5e-4c8a-b8ba-5434483434a8
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2021 年 6 月 28 日の週
+# Workfront Fusion リリースアクティビティ： 2021 年 6 月 28 日の週
 
 このページでは、2021 年 6 月 28 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 

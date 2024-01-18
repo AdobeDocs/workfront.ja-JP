@@ -5,11 +5,12 @@ title: 2020.1 リリースより前に実稼動環境にリリースされたそ
 description: 2020.1 の実稼動環境へのリリースより前のWorkfront Classic 実稼動環境では、次の機能が使用可能になりました。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 267757fb-a8ef-43cf-a93c-3ac59d8bb432
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
@@ -36,11 +37,11 @@ ht-degree: 5%
      </ul> 
      <p><strong>リリースをプレビュー</strong> </p> 
      <ul> 
-      <li>2020 年 1 月 30 日</li> 
+      <li>2020年1月29日（PT）</li> 
      </ul> 
      <p><strong>実稼動版リリース：</strong> </p> 
      <ul> 
-      <li> 2020 年 1 月 31 日</li> 
+      <li> 2020年1月30日（PT）</li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -59,7 +60,7 @@ ht-degree: 5%
      </ul> 
      <p><strong>実稼動版リリース：</strong> </p> 
      <ul> 
-      <li> 2020 年 1 月 9 日</li> 
+      <li> 2020年1月8日（PT）</li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -73,12 +74,12 @@ ht-degree: 5%
      </ul> 
      <p><strong>実稼動版リリース：</strong> </p> 
      <ul> 
-      <li> 2020 年 1 月 9 日</li> 
+      <li> 2020年1月8日（PT）</li> 
      </ul> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td> Workfrontのコメントが Jira に同期 <p>Workfront for Jira 統合は、Workfrontのコメントを Jira のネイティブなコメントストリームに同期するようになりました。</p> <p>以前は、Jira からWorkfrontにコメントを同期できましたが、Workfrontから Jira にはコメントを同期できませんでした。 </p> <p>詳しくは、 <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Jira 用Adobe Workfrontの設定</a>.</p> 
+   <td> Workfrontのコメントが Jira に同期 <p>Workfront for Jira 統合は、Workfrontのコメントを Jira のネイティブなコメントストリームに同期するようになりました。</p> <p>以前は、Jira からWorkfrontにコメントを同期できましたが、Workfrontから Jira にはコメントを同期できませんでした。 </p> <p>詳しくは、 <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Jira 用のAdobe Workfrontの設定</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>次の環境で使用できます。</strong> </p> 
      <ul> 
@@ -87,7 +88,7 @@ ht-degree: 5%
      </ul> 
      <p><strong>実稼動版リリース：</strong> </p> 
      <ul> 
-      <li> 2019年12月20日</li> 
+      <li> 2019年12月20日（PT）</li> 
      </ul> 
     </div> </td> 
   </tr> 

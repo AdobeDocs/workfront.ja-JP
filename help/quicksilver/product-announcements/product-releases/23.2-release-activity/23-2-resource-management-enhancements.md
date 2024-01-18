@@ -4,9 +4,11 @@ description: 23.2 リソース管理の強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+recommendations: noDisplay, noCatalog
+exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プレビューリリース：2023 年 2 月 16 日；実稼動予定リリース：2023 年 3 月 3 日
+>プレビューリリース：2023 年 2 月 16 日、実稼動予定日：2023 年 3 月 2 日
 
 リソースマネージャが、実際のプロジェクト関連の作業に専念するユーザーとアカウントの可用性を正確に計算できるように、Adobe Workfrontに「作業時間」の概念を導入しました。
 
@@ -33,10 +35,10 @@ ht-degree: 0%
 
 この更新の結果、Workfrontは、「リソース管理」環境設定領域での選択に応じて、以下の数式を使用してユーザーの可用性を計算します。
 
-* 既定のスケジュール:
-* ユーザー容量= [（スケジュール時間 — スケジュール例外） * FTE — タイムオフ] *作業時間
+* デフォルトのスケジュール：
+* ユーザー容量= [（スケジュール時間 — スケジュール例外） * FTE — タイムオフ] *勤務時間
 * ユーザーのスケジュール：
-* ユーザー能力= （スケジュール時間 — スケジュール例外 — タイムオフ） *作業時間。
+* ユーザー能力= （スケジュール時間 — スケジュール例外 — タイムオフ） *勤務時間。
 
 詳しくは、 [設定 [!UICONTROL リソース管理] 環境設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

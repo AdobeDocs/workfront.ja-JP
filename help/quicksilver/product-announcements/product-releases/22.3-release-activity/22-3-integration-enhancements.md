@@ -4,10 +4,11 @@ description: 22.3 統合の強化
 author: Luke
 draft: false
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -29,11 +30,11 @@ Adobe Workfront Experience Manager Assetsの統合がCloud Service可能にな�
 * Workfront内の最新のAEMメタデータをリアルタイムで表示
 
 
-この統合を使用するには、 WorkfrontとAdobe Experience Manager Assets またはAssets EssentialsをAdobe Admin Consoleの組織 ID に関連付ける必要があります。 詳細については、Adobeの営業担当者にお問い合わせください。
+この統合を使用するには、WorkfrontとAdobe Experience Manager Assets、またはAssets EssentialsがAdobe Admin Consoleの組織 ID に関連付けられている必要があります。 詳細については、Adobeの営業担当者にお問い合わせください。
 
 統合の設定について詳しくは、
 
-* [Experience Manager Assets統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
 * [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 

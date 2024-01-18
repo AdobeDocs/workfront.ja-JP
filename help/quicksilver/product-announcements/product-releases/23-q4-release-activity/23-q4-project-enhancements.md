@@ -3,9 +3,11 @@ title: 2023 年第 4 四半期のプロジェクトの強化
 description: 2023 年第 4 四半期のプロジェクトの強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---

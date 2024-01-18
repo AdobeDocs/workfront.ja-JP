@@ -8,11 +8,12 @@ title: 「Workfront Fusion リリースアクティビティ： 2022 年 5 月 9
 description: このページでは、2022 年 5 月 10 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 199bdc78-08b0-403b-b762-560b25c6d05a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---

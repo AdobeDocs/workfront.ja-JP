@@ -3,9 +3,11 @@ title: 2023 年第 4 四半期のその他の機能強化
 description: 2023 年第 4 四半期のその他の機能強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+recommendations: noDisplay, noCatalog
+exl-id: ebea1a04-8a08-40d3-a096-c0dc8f917c36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -21,4 +23,3 @@ ht-degree: 0%
 有料Workfrontライセンスタイプで利用可能な機能について、寄稿者/リクエスタによりよく知らせるために、メインメニューで使用可能なすべてのオプションが表示されるようになりました。 寄稿者には使用できないオプションがグレー表示される。
 
 メインメニューについて詳しくは、 [上部ナビゲーションバーの概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
-

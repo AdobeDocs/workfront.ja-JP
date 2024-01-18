@@ -4,17 +4,18 @@ description: 23.1 プロジェクトおよびリソース管理に関する機�
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
-source-git-commit: 682320deee696bf02b11e6119300e285c34bf4a6
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
 # 23.1 プロジェクトおよびリソース管理に関する機能強化
 
-このページでは、プレビュー環境の 23.1 リリースでおこなわれたプロジェクトおよびリソース管理に関するすべての機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用できるようになります。
+このページでは、プレビュー環境の 23.1 リリースでおこなわれたプロジェクトおよびリソース管理に関するすべての機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用可能になる予定です。
 
 23.1 リリースで使用可能なすべての変更点の一覧については、 [23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 「役割の割り当て」フィールドでジョブの役割を選択した後、ワークロード・バランサでユーザーを一括割り当てると、「割り当てるユーザー」フィールドの「その他の割り当て」リストに入力されたユーザーのリストに、各ユーザーに関連付けられたすべての役割が表示されます。 この機能強化以前は、ユーザーの主な役割のみが表示されていました。
 
-詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当てる](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## プロジェクトの「ユーザーを追加」オプションの再配置
 

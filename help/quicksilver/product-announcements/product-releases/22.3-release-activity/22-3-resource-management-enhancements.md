@@ -4,10 +4,11 @@ description: 22.3 リリース期間中のリソース管理の更新
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 * 「未割り当て」セクションと「割り当て済み」セクションの並べ替えを改善しました。
 
-   「未割り当て」作業領域と「割り当て済み」作業領域の両方で、ユーザーの名前や役割（未割り当て作業領域内）、およびプロジェクトフィールドで並べ替えることができるようになりました。
+  「未割り当て」作業領域と「割り当て済み」作業領域の両方で、ユーザーの名前や役割（未割り当て作業領域内）、およびプロジェクトフィールドで並べ替えることができるようになりました。
 
 * タスクまたはタスクにマウスを移動すると、追加情報（プロジェクト名、計画開始日と終了日、依存関係、計画時間、親タスクの名前）が表示されます。
 

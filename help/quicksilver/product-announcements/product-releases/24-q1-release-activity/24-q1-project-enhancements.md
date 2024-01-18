@@ -3,7 +3,8 @@ title: 2024 年第 1 四半期のプロジェクトの機能強化
 description: 2024 年第 1 四半期プロジェクトの機能強化
 author: Nolan
 feature: Product Announcements
-source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
+recommendations: noDisplay, noCatalog
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%

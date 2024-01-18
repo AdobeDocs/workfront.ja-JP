@@ -6,10 +6,11 @@ title: 21.2 要求の機能強化
 description: このページでは、プレビュー環境の 21.2 リリースでおこなわれたすべての要求の機能強化について説明します。 これらの機能強化は、2021 年 5 月 10 日の週に実稼動環境で利用可能になる予定です。 21.2 リリースで使用できるすべての変更点の一覧については、 21.2 リリースの概要を参照してください。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ ht-degree: 0%
 アドビでは、お客様のフィードバックを引き続き聞き、取り込む際に、新しいリクエストワークフローにいくつかの改善を加え、Adobe Workfrontとのインタラクションをより簡単かつ直感的にできるようにしました。 次の機能強化がおこなわれました。
 
 * キュー設定の定義時に、要求キューを作成する際に、ファイルのアップロード用の「ドキュメント」セクションを配置する場所を選択できます。 このセクションは、リクエストフォームのカスタムフィールドの前または後に配置できます。 詳しくは、 [リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-* 「送信済みのリクエスト」リストをいずれかの列で並べ替えても、ページから移動しても保持されるようになりました。 詳しくは、 [送信された要求の場所](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+* 「送信済みのリクエスト」リストをいずれかの列で並べ替えても、ページから移動しても保持されるようになりました。 詳しくは、 [送信された要求を見つける](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * 新しいリクエストを作成する際に、「送信」ボタンと「キャンセル」ボタンが新しいリクエストフォームの下部に表示されるようになりました。 詳しくは、 [Workfront要求の作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 この機能は、 [新しいWorkfront Experience の共同作業者の基本](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront One の学習パス
@@ -73,7 +74,7 @@ ht-degree: 0%
 
 Adobe Workfrontのすべての領域でエクスペリエンスの一貫性を保つために、リクエスト領域の「送信済み」セクションに概要を開くアイコンを追加しました。 送信された問題の概要パネルを開き、問題に関する詳細を表示したり、問題を割り当てたり、ドキュメントやコメントを追加したりできます。
 
-送信されたリクエストについて詳しくは、 [送信された要求の場所](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+送信されたリクエストについて詳しくは、 [送信された要求を見つける](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 この機能は、 [新しいWorkfront Experience の共同作業者の基本](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) Workfront One の学習パス
 
@@ -93,7 +94,7 @@ Adobe Workfrontのすべての領域でエクスペリエンスの一貫性を�
 >
 >21.1 リリースで Preview に追加されましたが、21.2 の実稼動環境へのリリースに含まれる予定です。
 
-新しいWorkfrontエクスペリエンスとの一貫性を保ち、リクエストの送信時の効率を高めるために、リクエスト領域の新しいリクエストボックスのデザインを変更しました。 改善点を以下に示します。
+新しいWorkfrontエクスペリエンスとの一貫性を保ち、リクエストの送信時の効率を高めるために、リクエスト領域の新しいリクエストボックスのデザインを変更しました。 次に、改善点を示します。
 
 * は、他の新しいWorkfrontエクスペリエンスと構成されたユーザーインターフェイスです
 * 新しいリクエスト領域を排除し、より簡単で直感的なエクスペリエンスを実現

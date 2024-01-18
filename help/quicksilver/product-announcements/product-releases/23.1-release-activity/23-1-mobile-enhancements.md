@@ -4,17 +4,18 @@ description: 23.1 モバイル機能の強化
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5fb7236c-c1fa-4a9a-9b4e-67a28dbaf6d2
-source-git-commit: 97db4e7bb5c1428c9a2d20b1ec80734b73ba8b4a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 # 23.1 モバイル機能の強化
 
-このページでは、プレビュー環境の 23.1 リリースでおこなわれた Mobile のすべての機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用できるようになります。
+このページでは、プレビュー環境の 23.1 リリースでおこなわれた Mobile のすべての機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用可能になる予定です。
 
 23.1 リリースで使用可能なすべての変更点の一覧については、 [23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 

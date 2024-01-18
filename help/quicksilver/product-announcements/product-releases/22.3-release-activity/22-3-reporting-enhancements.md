@@ -4,10 +4,11 @@ description: 22.3 リリース期間中の更新のレポート
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d6dba849-6915-4c2c-b378-a8d3daa8a0d5
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 3%
 
 * リソースプランナー予算計上時間数
 
-   以前のリリースでWorkfrontから削除された廃止されたツールを参照していたので、次のリソース予算フィールドをリストおよびレポートから削除しました。
+  以前のリリースでWorkfrontから削除された廃止されたツールを参照していたので、次のリソース予算フィールドをリストおよびレポートから削除しました。
 
 
 以前のリリースでWorkfrontから削除された廃止済みのツールを参照していたので、次のリソース予算フィールドはリストやレポートから削除されました。

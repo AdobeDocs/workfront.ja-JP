@@ -4,10 +4,11 @@ description: 21.3 リソース管理の強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d665f71d-3d17-4c5b-93a3-93b11a81af19
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---

@@ -4,10 +4,11 @@ description: 21.1 モバイル機能の強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Workfrontモバイルアプリのカスタムフォームテキストフィー�
 
 テキストフィールドを含むカスタムフォームの作成方法について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## SSO ユーザーは、 Face ID またはフィンガープリントテクノロジーを使用して、Workfrontアプリに再ログインできるようになりました
+## SSO ユーザーは、 Face ID またはフィンガープリントテクノロジーを使用して、Workfrontアプリに再ログインできるようになりました。
 
 組織が SSO を使用している場合、 Face ID またはフィンガープリントを使用して、セッションの後、タイムアウトしたときにWorkfrontモバイルアプリにログインできるようになりました。 最初に SSO 資格情報を使用してログインする必要があります。
 

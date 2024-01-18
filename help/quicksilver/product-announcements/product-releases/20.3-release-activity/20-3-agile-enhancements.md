@@ -5,10 +5,11 @@ title: 20.3 アジャイルの強化
 description: このページでは、実稼動環境の 20.3 リリースでおこなわれたすべてのアジャイル機能の強化について説明します。 これらの機能強化は、2020 年 8 月 10 日の週に実稼動環境で公開されました。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---

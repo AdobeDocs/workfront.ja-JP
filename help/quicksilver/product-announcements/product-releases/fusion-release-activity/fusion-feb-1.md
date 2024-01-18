@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2021 年 2 月 1 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2021 年 2 月 1 日の週」
 description: このページでは、2021 年 2 月 1 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
-source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---

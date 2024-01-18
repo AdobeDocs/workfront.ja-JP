@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2022 年 9 月 19 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2022 年 9 月 19 日の週」
 description: このページでは、2022 年 9 月 19 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 3c6d000d-dfeb-4b4a-91bf-7ea346c1ce70
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2022 年 9 月 19 日の週
+# Workfront Fusion リリースアクティビティ： 2022 年 9 月 19 日の週
 
 ## Adobe Journey Optimizerコネクタとモジュールが利用可能になりました
 
@@ -24,10 +25,10 @@ ht-degree: 0%
 
 Adobe Journey Optimizerモジュールを使用すると、次のことができます。
 * Adobe Journey Optimizerでのレコードの作成、読み取り、更新、削除
-* 指定した条件を使用してAdobe Journey Optimizerレコードを検索
+* 指定した条件を使用してAdobe Journey Optimizerレコードを検索します
 * Adobe Journey Optimizer API へのカスタム API 呼び出しの実行
 
-詳しくは、 [Adobe Journey Optimizerモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
+詳しくは、 [Adobe Journey Optimizer Modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
 
 ## Adobe Campaign Classicコネクタとモジュールが利用可能になりました
 
@@ -35,7 +36,7 @@ Adobe Journey Optimizerモジュールを使用すると、次のことができ
 
 Adobe Campaign Classicモジュールを使用すると、次のことができます。
 * Adobe Campaign Classicでのレコードの作成、読み取り、更新、削除
-* 情報サービスの購読または購読解除
+* 情報サービスを購読または購読解除する
 * Adobe Campaign API からのアクションの実行
 * Adobe Campaign Classic API へのカスタム API 呼び出しの実行
 

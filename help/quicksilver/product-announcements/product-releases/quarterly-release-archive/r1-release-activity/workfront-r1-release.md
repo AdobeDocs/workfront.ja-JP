@@ -5,27 +5,28 @@ title: Workfront R1 リリース
 description: 全員が関与し、効率的なWorkfrontは、すべての製品ラインに対して、年 3 回（リリース 1、リリース 2、リリース 3）の新しい製品機能をリリースします。 2017 年の最初のリリース (R1、) では、Workfront、ProofHQ、Workfront DAM のコア機能がいくつか強化され、ナレッジワーカーの生産性が向上し、作業管理に費やす時間が短縮され、作業の実行に時間がかかるようになりました。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
 
 # Workfront R1 リリース
 
-## 誰もが関与し効率的に
+## 誰もが関与し、効率的な状態を維持
 
 Workfrontは、すべての製品行に対して、1 年に 3 回（リリース 1、リリース 2、リリース 3）新しい製品機能をリリースしています。 2017 年の最初のリリース (R1、) では、Workfront、ProofHQ、Workfront DAM のコア機能がいくつか強化され、ナレッジワーカーの生産性が向上し、作業管理に費やす時間が短縮され、作業の実行に時間がかかるようになりました。
 
 ## 最新リリースの新機能
 
-* [Workfront ENHANCEMENTS](#workfront-enhancements)
+* [WORKFRONT ENHANCEMENTS](#workfront-enhancements)
 * [配達確認の強化](#proofhq-enhancements)
-* [Workfront DAM の強化](#workfront-dam-enhancements)
+* [WORKFRONT DAM の強化](#workfront-dam-enhancements)
 
-## Workfront ENHANCEMENTS {#workfront-enhancements}
+## WORKFRONT ENHANCEMENTS {#workfront-enhancements}
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)\
 **メールから直接作業を管理**
@@ -34,7 +35,7 @@ Outlook 365 に直接統合すると、Outlook 365 から直接Workfrontを更�
 詳しくは、以下を参照してください。  [2016 年のプレビューで使用可能になった機能](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)\
-**プロジェクトの追跡と予算を維持**
+**プロジェクトの追跡と予算の維持**
 新しい「稼働状況レポート」を使用して、リソースとその使用率を管理し、プロジェクトの進捗状況と予算を管理します。 プロジェクトおよび役割ごとの計画時間と実際時間を表示し、リソースと部門を定期的に比較します。
 
 詳しくは、以下を参照してください。  [R1 プレビュー 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
@@ -60,7 +61,7 @@ Outlook 365 に直接統合すると、Outlook 365 から直接Workfrontを更�
 ### 配達確認の強化 {#proofhq-enhancements}
 
 ![](assets/mceclip4-350x201.png)\
-**配達確認検索と検索**
+**配達確認の検索と検索**
 ProofHQ の新しい検索機能を使用すると、すばやく簡単に検索でき、レビュー時に配達確認内で直接単語やフレーズのすべてのインスタンスを検索できます。 これは、PDFやMicrosoft Word ファイルを含む、すべてのテキストベースのドキュメントに適用されます。
 
 詳しくは、以下を参照してください。  [R1 最終](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
@@ -74,7 +75,7 @@ ProofHQ の新しいレポート指標により、ターンラウンド時間、
 **ProofHQ プレビュー**
 ProofHQ では、すべてのユーザーにリリースする前に、プレビュー環境で新しい機能をテストできるようになりました。
 
-## Workfront DAM の強化 {#workfront-dam-enhancements}
+## WORKFRONT DAM の強化 {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)\
 **DAM 埋め込みリンク**
@@ -87,7 +88,7 @@ ProofHQ では、すべてのユーザーにリリースする前に、プレビ
 Workfrontは、最新のナレッジワーカーやエグゼクティブが以下を実現するエンタープライズワークマネジメントソリューションです。
 
 * 個々のおよび組織の好みに合わせて作業を調整し、採用を促進
-* どこからでもより効率的に作業
+* どこからでもより効率的に働く
 * 予算と担当者の両方で、リソースをより適切かつ有意義に可視化
 * 適切な作業を以前よりも迅速に提供
 
@@ -97,4 +98,4 @@ Workfrontは、最新のナレッジワーカーやエグゼクティブが以�
 * R1 リリースに関する FAQ をこちらからダウンロードします。 [https://resources.workfront.com/data-sheets/r1-faq-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
 * R1 で使用できる改善点の完全なリストについては、以下を参照してください。 [R1 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
-Workfront. 仕事が重要だからです
+Workfront。 仕事が重要だからです

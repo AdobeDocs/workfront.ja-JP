@@ -6,10 +6,11 @@ title: 21.2 プロジェクトの機能強化
 description: このページでは、プレビュー環境の 21.2 リリースでおこなわれたすべてのプロジェクトの機能強化について説明します。 これらの機能強化は、2021 年 5 月 10 日の週に実稼動環境で利用可能になる予定です。 21.2 リリースで使用できるすべての変更点の一覧については、 21.2 リリースの概要を参照してください。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1650'
 ht-degree: 1%
 
 ---
@@ -90,11 +91,11 @@ ht-degree: 1%
 >
 >この機能は、新しいAdobe Workfrontエクスペリエンスでのみ使用できます。
 
-カスタムフォームの入力時の操作性を向上させるため、長いカスタムフィールドラベルの表示方法を改善しました。 全体を表示するのに十分な水平方向のスペースがある場合、これらのラベルは切り捨てられなくなります。
+カスタムフォームの入力時の操作性を向上させるために、長いカスタムフィールドラベルの表示方法を改善しました。 全体を表示するのに十分な水平方向のスペースがある場合、これらのラベルは切り捨てられなくなります。
 
-カスタムフォームの入力について詳しくは、 [カスタムフォームフィールドの情報を編集](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+カスタムフォームの入力について詳しくは、 [カスタムフォームフィールドの情報を編集する](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-## 問題のプライマリ連絡先が「プロジェクトの詳細」領域に表示されるようになりました
+## 問題のプライマリ連絡先が「プロジェクトの詳細」領域に表示されるようになりました。
 
 >[!NOTE]
 >
@@ -132,7 +133,7 @@ ht-degree: 1%
 
 以前は、Workfront Classic では、テキストの書式設定はプロジェクト、タスク、時間の各リストにのみ表示されていました。
 
-カスタムフィールドのテキストの形式設定については、 [カスタムフォームの作成](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+カスタムフィールドでのテキストの書式設定については、 [カスタムフォームの作成](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
 リストでの情報の表示について詳しくは、 [リストの基本を学ぶ](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
 
@@ -185,7 +186,7 @@ ht-degree: 1%
 
 使用しなくなったチームを非アクティブ化できるようになりました。 チームを非アクティブ化すると、Workfront内のほとんどの typeahead、検索フィールドまたは共通メニューにそのチームが表示されなくなります。 ただし、チームに関連付けられた履歴データは保持されます。
 
-詳しくは、 [チームを非アクティブ化](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
+詳しくは、 [チームを非アクティブにする](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
 
 ## ユーザーがログに記録された時間のタスクと問題を削除できる設定に更新します
 
@@ -197,5 +198,5 @@ ht-degree: 1%
 
 この変更がおこなわれる前に、設定を無効にすると、ユーザーはプロジェクトではなくタスクやイシューを削除するだけでなくなりました。
 
-詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+詳しくは、 [システム全体のタスクと問題の環境設定を構成する](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

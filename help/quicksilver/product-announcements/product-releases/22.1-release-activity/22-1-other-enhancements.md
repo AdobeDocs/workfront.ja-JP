@@ -4,10 +4,11 @@ description: 22.1 その他の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 761ad16f-0c6e-48c7-a3d3-49ebfa1694e5
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -42,12 +43,12 @@ Workfront Classic と新しいWorkfrontエクスペリエンスとの同等性�
 
 Workfrontまたはグループ管理者は、レイアウトテンプレートを使用して、この領域をすべてのユーザーのメインメニューおよびトップナビゲーションに追加できます。
 
-[ マイアップデート ] 領域を開くと、次の情報がすぐに見つかります。
+[ マイアップデート ] 領域を開くと、次の情報がすばやく見つかります。
 
 * 決定を待機している承認は、マイアップデートページの前半に表示されます。 承認、拒否、変更の提案、アクセス権の付与または他のユーザーへの承認の委任をおこなうことができます。
 * 追加したコメントは、[ マイ更新 ] ページの下半分の [ メンション ] セクションに表示されます。
 
-詳しくは、 [マイアップデート領域を使用](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+詳しくは、 [マイアップデート領域を使用する](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 ## タイムシートの改善
 
@@ -58,12 +59,12 @@ Workfrontで時間を管理するすべてのユーザーのエクスペリエ�
 * ユーザーが現在のタイムシートを持っている場合、[ タイムシート ] 領域が現在のタイムシートに開き、現在のタイムシートで検索およびクリックする時間を節約できます。 現在のタイムシートがない場合、[ タイムシート ] 領域には、現在の [ マイタイムシート ] セクションが表示されます。
 * カーソルを合わせるか、時間を入力するためにクリックした行がハイライト表示され、可視性が向上します。
 * タイムシートボタンを含むフッターが固定され、ページの下部にスクロールせずに常に保存およびキャンセルできるようになりました。 また、この領域に新しい「トップに戻る」ボタンを追加し、ページのトップにすばやく戻ることができます。
-* 新しい警告通知で、未保存の変更に関する警告が表示され、タイムシートから移動する際に情報が失われないようになりました。
+* 新しい警告通知で、未保存の変更に関する警告が表示され、タイムシートから移動する際に情報が失われるのを防ぐことができます。
 
 詳しくは、次の記事を参照してください。
 
-* [タイムシートレイアウトを理解する](../../../timesheets/timesheets/timesheet-layout.md)
-* [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md)
+* [タイムシートのレイアウトを理解する](../../../timesheets/timesheets/timesheet-layout.md)
+* [時間のログ記録](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
 ## ユーザーリスト用の新しいツールバー
 

@@ -4,11 +4,12 @@ description: Workfront Fusion リリース活動：&nbsp;2021 年 2 月 15 日�
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d4bac9f7-500a-40c1-bb44-7726830ae154
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 ## Workfront/カスタム API 呼び出しモジュールで API バージョンを選択します。
 
-API 呼び出しをよりカスタマイズしやすくするために、Workfront/カスタム API 呼び出しモジュールからアクセスするWorkfront API のバージョンを選択できるようになりました。 バージョン 11、バージョン 12、Workfront内部 API から選択できます。
+API 呼び出しをよりカスタマイズしやすくするために、Workfront/カスタム API 呼び出しモジュールからアクセスするWorkfront API のバージョンを選択できるようになりました。 バージョン 11、バージョン 12、またはWorkfront内部 API から選択できます。
 
 以前は、このモジュールでWorkfront API バージョンを選択できませんでした。
 

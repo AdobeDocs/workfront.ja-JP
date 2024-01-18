@@ -4,11 +4,12 @@ description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 36befe2a-6655-4213-a74f-635542c2cec2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 Workfront Fusion のルックアンドフィールを更新し、他のAdobe製品のルックアンドフィールをより深く反映しました。 このクリーンな外観の変更により、様々なAdobe製品で作業する際に、より一貫したエクスペリエンスを提供します。
 
-また、このアップグレードにより、より迅速なナビゲーションを実現するためのパフォーマンスが向上します。
+また、このアップグレードにより、より迅速なナビゲーションを実現するためのパフォーマンスが向上しました。
 
 新しいルックアンドフィールは、Adobe Workfront Fusion の機能には影響しません。 すべてのボタン、タブ、その他のツールは同じ場所にあるので、既存の動作やワークフローを変更する必要はありません。
 

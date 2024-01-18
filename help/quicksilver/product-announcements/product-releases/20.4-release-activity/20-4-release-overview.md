@@ -5,10 +5,11 @@ title: 20.4 リリースの概要
 description: 20.4 リリースは、2020 年 11 月 10 日の週に、実稼動環境で使用可能になりました。 各クラスターの特定のリリース日時については、 Workfront Status Site を参照してください。
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3694'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ ht-degree: 0%
 * [管理者の機能強化](#administrator-enhancements)
 * [リソース管理の強化](#resource-management-enhancements)
 * [プロジェクト管理の強化](#project-management-enhancements)
-* [拡張分析](#enhanced-analytics)
+* [分析の強化](#enhanced-analytics)
 * [校正機能の強化](#proofing-enhancements)
 * [モバイルと統合の機能強化](#mobile-and-integration-enhancements)
 * [その他の機能強化](#other-enhancements)
@@ -54,7 +55,7 @@ ht-degree: 0%
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：カスタムフィールドの共有方法を制御する</a> </p> <p>作成したカスタムフィールドの編集、削除、使用をできるユーザーをより詳細に制御できるように、カスタムフィールドの共有方法を正確に設定する機能が追加されました。</p> <p>これまで、カスタムフィールドを作成した場合、システムの全員が編集できました。 これは、カスタムフィールドのデフォルトの状態ですが、カスタムフィールドの共有を特定のユーザー、役割、チーム、グループおよび会社に制限できるようになりました。 また、受信者がカスタムフィールドの管理のみを行うか、カスタムフィールドのみを表示するかを指定できます。</p> <p>また、この機能を身近に感じてもらうために、この機能のユーザーインターフェイスを、Workfront全体で共有される他のオブジェクト領域と同様のものにするように設計しました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new5" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：カスタムフィールドの共有方法を制御します。</a> </p> <p>作成したカスタムフィールドの編集、削除、使用をできるユーザーをより詳細に制御できるように、カスタムフィールドの共有方法を正確に設定する機能が追加されました。</p> <p>これまで、カスタムフィールドを作成した場合、システムの全員が編集できました。 これは、カスタムフィールドのデフォルトの状態ですが、カスタムフィールドの共有を特定のユーザー、役割、チーム、グループおよび会社に制限できるようになりました。 また、受信者がカスタムフィールドの管理のみを行うか、カスタムフィールドのみを表示するかを指定できます。</p> <p>また、この機能を身近に感じてもらうために、この機能のユーザーインターフェイスを、Workfront全体で共有される他のオブジェクト領域と同様のものにするように設計しました。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 10 月 16 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -66,7 +67,7 @@ ht-degree: 0%
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 10 月 9 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new8" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：会社に割り当てられたグループの管理者は、会社を管理できます</a> </p> <p>グループ管理者がWorkfrontでグループに関連付けられている会社を簡単に管理できるようになりました。 会社を管理するためのアクセスは、関連付けがおこなわれると自動的に使用可能になります。 これは、グループ管理者が会社に対する管理者アクセス権を持っていない場合に特に重要です。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new8" class="MCXref xref" xrefformat="{para}">管理者向けの新規：会社に割り当てられたグループの管理者は、会社を管理できます</a> </p> <p>グループ管理者がWorkfrontでグループに関連付けられている会社を簡単に管理できるようになりました。 会社を管理するためのアクセスは、関連付けがおこなわれると自動的に使用可能になります。 これは、グループ管理者が会社に対する管理者アクセス権を持っていない場合に特に重要です。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 10 月 9 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -82,11 +83,11 @@ ht-degree: 0%
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 8 月 30 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">管理者向けの新機能：ビジネスリーダーをグループに割り当て</a> </p> <p>グループの整理と定義を改善するために、ユーザーをグループ（またはサブグループ）のビジネスリーダーとして割り当てる機能が追加されました。 ビジネスリーダーとは、グループのビジネス上の意思決定をおこなうWorkfrontユーザーです。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#new2" class="MCXref xref" xrefformat="{para}">管理者向けの新規：ビジネスリーダーをグループに割り当てます。</a> </p> <p>グループの整理と定義を改善するために、ユーザーをグループ（またはサブグループ）のビジネスリーダーとして割り当てる機能が追加されました。 ビジネスリーダーとは、グループのビジネス上の意思決定をおこなうWorkfrontユーザーです。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 8 月 22 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">MobileIron 用Workfrontの概要</a> </p> <p>Workfrontは、モバイルデバイス管理 (MDM) プラットフォームの MobileIron と提携し、組織がより安全で制御可能なモバイルエクスペリエンスを提供しています。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">MobileIron 向けWorkfrontの概要</a> </p> <p>Workfrontは、モバイルデバイス管理 (MDM) プラットフォームの MobileIron と提携し、組織がより安全で制御可能なモバイルエクスペリエンスを提供しています。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：なし</p> <p>実稼動リリース： 2020 年 8 月 22 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -119,7 +120,7 @@ ht-degree: 0%
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 9 月 26 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#a" class="MCXref xref" xrefformat="{para}">ワークロードバランサーの新しい組み込みフィルター：プロジェクトのユーザー</a> </p> <p>ワークロードバランサーでのフィルタリングエクスペリエンスをより効率的にするために、割り当てられた作業領域に新しい組み込みフィルターを追加しました。 指定したプロジェクトのタスクとタスクに割り当てられたユーザーとタスクに割り当てられたユーザーを表示する「プロジェクトのユーザー」フィルターを適用できるようになりました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#a" class="MCXref xref" xrefformat="{para}">ワークロードバランサー：プロジェクトのユーザー用の新しい組み込みフィルター</a> </p> <p>ワークロードバランサーでのフィルタリングエクスペリエンスをより効率的にするために、割り当てられた作業領域に新しい組み込みフィルターを追加しました。 指定したプロジェクトのタスクとタスクに割り当てられたユーザーとタスクに割り当てられたユーザーを表示する「プロジェクトのユーザー」フィルターを適用できるようになりました。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 9 月 26 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -135,7 +136,7 @@ ht-degree: 0%
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 8 月 30 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#show" class="MCXref xref" xrefformat="{para}">ワークロードバランサーで完了した作業を表示または非表示にします</a> </p> <p>新しい設定で、ワークロードバランサーで完了した作業項目を表示または非表示にできるようになりました。 この設定は、デフォルトで有効になり、フィルタリング条件と選択した時間枠がワークロードバランサーに表示される、完了した作業項目に一致します。 </p> <p>この機能強化の前は、完了した作業項目は常にワークロードバランサーに表示されます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md#show" class="MCXref xref" xrefformat="{para}">ワークロードバランサーで完了した作業を表示または非表示にします</a> </p> <p>新しい設定で、ワークロードバランサーで完了した作業項目を表示または非表示にできるようになりました。 この設定は、デフォルトで有効になり、フィルタリング条件と選択した時間枠に一致する完了した作業項目がワークロードバランサーに表示されます。 </p> <p>この機能強化の前は、完了した作業項目は常にワークロードバランサーに表示されます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 8 月 22 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -160,7 +161,7 @@ ht-degree: 0%
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 10 月 15 日（「概要」領域の書き出しは 2020 年 11 月 3 日に追加されました）</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#quickly" class="MCXref xref" xrefformat="{para}">反復をすばやく追加</a> </p> <p>繰り返しの作成を簡単にするために、「繰り返し」タブから繰り返しを追加できる新しいボタンが追加されました。 ここでは、反復を作成し、後でタスクとイシューを追加できます。</p> <p>バックログタグでは、以前と同様にイテレーションを作成できます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#quickly" class="MCXref xref" xrefformat="{para}">反復をすばやく追加する</a> </p> <p>繰り返しの作成を簡単にするために、「繰り返し」タブから繰り返しを追加できる新しいボタンが追加されました。 ここでは、反復を作成し、後でタスクとイシューを追加できます。</p> <p>バックログタグでは、以前と同様にイテレーションを作成できます。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 10 月 16 日</p> <p>実稼動版リリース： 20.4 リリースを使用 <span style="color: #dc143c; font-weight: bold;">一時的に利用不可</span></p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -185,7 +186,7 @@ ht-degree: 0%
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 8 月 30 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#allow" class="MCXref xref" xrefformat="{para}">キュートピックに複数のドラフトを許可</a> </p> <p>リクエストを操作する際の自由度を高めるために、1 つのキュートピックに対して保存できるドラフトの数に制限がなくなりました。 新しいリクエストを作成する場合、同じキュートピックのドラフトのリストから既存のドラフトを選択し、上書きして新しいリクエストとして送信するか、新しいリクエストをゼロから作成できます。 </p> <p>この機能強化がおこなわれるまで、Workfrontはリクエストキュー内の各キュートピックに対して 1 つのドラフトのみを保存していました。 </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md#allow" class="MCXref xref" xrefformat="{para}">キュートピックに複数のドラフトを許可する</a> </p> <p>リクエストを操作する際の自由度を高めるために、1 つのキュートピックに対して保存できるドラフトの数に制限がなくなりました。 新しいリクエストを作成する場合、同じキュートピックのドラフトのリストから既存のドラフトを選択し、上書きして新しいリクエストとして送信するか、新しいリクエストをゼロから作成できます。 </p> <p>この機能強化がおこなわれるまで、Workfrontはリクエストキュー内の各キュートピックに対して 1 つのドラフトのみを保存していました。 </p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 8 月 22 日</p> <p>実稼動リリース： 2020 年 9 月 18 日</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -248,7 +249,7 @@ ht-degree: 0%
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：未定</p> <p>実稼動版リリース： 20.4 リリースを使用 <strong>（2020 年 12 月または 2021 年初めに延期）</strong></p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#get" class="MCXref xref" xrefformat="{para}">Workfront Mobile の仮想アシスタントのコマンドに関するヘルプを表示</a> </p> <p>モバイルアプリでは、仮想アシスタントにコマンドの操作を求める際に、「何ができますか？」と問い合わせることができます。 ある男は、「命令を助けてくれ」と言った。</p> <p>これらのコマンドは、アシスタントに尋ねることのできる様々な項目のリストを表示します。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#get" class="MCXref xref" xrefformat="{para}">Workfront Mobile の仮想アシスタントのコマンドに関するヘルプを表示する</a> </p> <p>モバイルアプリでは、仮想アシスタントにコマンドの操作を求める際に、「何ができますか？」と問い合わせることができます。 ある男は、「命令を助けてくれ」と言った。</p> <p>これらのコマンドは、アシスタントに尋ねることのできる様々な項目のリストを表示します。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：なし</p> <p>実稼動版リリース： 20.4 リリースを使用 </p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -277,7 +278,7 @@ ht-degree: 0%
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 10 月 16 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">チームへの新しい電子メール通知</a> </p> <p>チーム向けに 2 通の新しい電子メール通知を追加しました。チームに割り当てられたタスクの 1 つの先行タスクが完了し、チームに割り当てられたタスクのすべての先行タスクが完了したとき。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-other-enhancements.md#new3" class="MCXref xref" xrefformat="{para}">チームへの新しい電子メール通知</a> </p> <p>チームに新しいメール通知が 2 つ追加されました。チームに割り当てられたタスクの 1 人の先行タスクが完了したときと、チームに割り当てられたタスクのすべての先行タスクが完了したときです。</p> </td> 
    <td><strong>次の日に利用可能：</strong> <p>ベータプレビューリリース：2020 年 10 月 16 日</p> <p>実稼動版リリース： 20.4 リリースを使用</p> <p><strong>次の環境で使用できます。</strong> </p> <p>新しいAdobe Workfrontエクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -328,7 +329,7 @@ API バージョンについて詳しくは、 [API のバージョン管理と�
 * [Flashの廃止](#flash-deprecation)
 * [20.4 リリースウェビナー](#20-4-release-webinar)
 * [プレビューのリリースケイデンスの変更](#change-in-preview-release-cadence)
-* [Workfrontにア許可リストクセスするために必要な追加ドメインの](#allowlist-of-additional-domains-required-for-accessing-workfront)
+* [Workfrontにア許可リストに加えるクセスするために必要な追加ドメインの](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 
 ### Flashの廃止 {#flash-deprecation}
@@ -349,14 +350,14 @@ Workfront 20.4 リリースウェビナーは、2020 年 10 月 28 日（水）�
 
 詳しくは、 [Workfrontプレビューリリースケイデンスの変更に関する FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
 
-### Workfrontにア許可リストクセスするために必要な追加ドメインの {#allowlist-of-additional-domains-required-for-accessing-workfront}
+### Workfrontにア許可リストに加えるクセスするために必要な追加ドメインの {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
-組織でファイアウォールを使用している場合、Workfrontへの妨げられることのないアクセスを確保するため許可リストに、次のドメインを追加する必要があります。
+組織でファイアウォールを使用している場合、Workfrontへの妨げられることのないアクセスを確保するため許可リストに加えるに、次のドメインを追加する必要があります。
 
 * event.split.io
 * sdk.split.io
 
-詳しくは、 [ファイアウォールの設定を許可リスト行う](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+詳しくは、 [ファイアウォールの設定を許可リストに加える行う](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 

@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2020 年 11 月 16 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2020 年 11 月 16 日の週」
 description: このページでは、2020 年 11 月 17 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9221a69e-2482-478b-95a9-f62dd28538d6
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -46,8 +47,8 @@ Jira Cloud コネクタの使用方法を拡張するために、3 つの新し�
 
 シナリオの作成をより便利にするために、キーボードショートカットを追加しました。
 
-* Ctrl/Cmd+Shift+Enter キー：シナリオを 1 回実行
-* Ctrl/Cmd + Shift + S:シナリオの保存
+* Ctrl/Cmd+Shift+Enter：シナリオを 1 回実行します。
+* Ctrl/Cmd + Shift + S：シナリオの保存
 
 Workfront Fusion 2.0 シナリオの構築について詳しくは、 [Adobe Workfront Fusion でシナリオを作成する](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -55,7 +56,7 @@ Workfront Fusion 2.0 シナリオの構築について詳しくは、 [Adobe Wor
 
 Office 365 Excel コネクタの使用方法を拡張するために、新しいモジュールが追加されました。 次の操作が可能になりました。
 
-* トリガーからワークブックへの変更からモジュールへの変更
+* トリガーからワークブックへの変更からのモジュールの変更
 * ワークブックの検索またはダウンロード
 * ワークシート、ワークシート行、表、または表行のリスト
 * テーブルまたはワークシート行を更新する
@@ -69,7 +70,7 @@ Office 365 Excel コネクタの使用方法を拡張するために、新しい
 
 ## Workfrontアプリ接続で OAuth 2.0 を使用する
 
-Workfrontコネクタを更新して OAuth 2.0 を使用するようにしました。この更新により、Workfrontアプリの接続を変更しやすくなりました。 例えば、接続に関する何か（パスワードなど）が変更された場合、シナリオで個々の接続を更新する必要がなくなりました。 また、OAuth2 には、セキュリティの向上やシングルサインオン (SSO) の使用など、その他の利点があります。
+OAuth 2.0 を使用するようにWorkfrontコネクタを更新しました。この更新により、Workfrontアプリの接続を変更する作業が容易になりました。 例えば、接続に関する何か（パスワードなど）が変更された場合、シナリオで個々の接続を更新する必要がなくなりました。 また、OAuth2 には、セキュリティの向上やシングルサインオン (SSO) の使用など、その他の利点があります。
 
 現時点では、既存の接続に変更を加える必要はありません。 ただし、OAuth 2.0 のメリットを活用する場合は、既存の接続を再認証できます。
 

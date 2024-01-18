@@ -4,10 +4,11 @@ description: 21.4 プロジェクトの機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Workfrontのユーザーが更新に画像を含めるには、まずAdobe Workfront管理者がこの機能を有効にする必要があります。詳しくは、 [ユーザーの更新の環境設定を構成](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Workfrontのユーザーが更新に画像を含めるには、まずAdobe Workfront管理者がこの機能を有効にする必要があります。詳しくは、 [ユーザーの更新の環境設定を構成する](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
 ## スマート割り当てのアルゴリズムを更新しました
 
@@ -58,12 +59,12 @@ Workfrontを新しいWorkfrontエクスペリエンスと一貫して使用で�
 Workfrontの使用を新しいWorkfrontエクスペリエンスと一致させるために、テンプレートをプロジェクトに添付するためのインターフェイスのデザインを変更しました。 テンプレートを添付する機能は変更されていません。 ただし、この新しく再設計されたインターフェイスには、次のような改善点がいくつかあります。
 
 * 添付する前にテンプレート情報をプレビュー
-* 添付プロセス中にテンプレートをお気に入りのリストに追加
+* 添付プロセス中にテンプレートをお気に入りのリストに追加する
 * 1 つの連続したページでテンプレートとプロジェクトの設定を管理するためのすべてのオプションを表示
 
-詳しくは、 [プロジェクトへのテンプレートの添付](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+詳しくは、 [プロジェクトにテンプレートを添付する](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-## タスクの期間と期間の単位値を統合
+## タスクの期間と期間の単位値を統合しました
 
 より簡潔で効率的なユーザーエクスペリエンスを実現するために、「期間」フィールドの値と期間の単位を結合しました。 この強化がおこなわれる前は、「期間」フィールドの後に別のドロップダウンフィールドに表示される時間の単位でした。
 
@@ -78,7 +79,7 @@ Workfrontの使用を新しいWorkfrontエクスペリエンスと一致させ�
 
 ![](assets/duration-combined-field-350x139.png)
 
-## プロジェクトのインラインでの問題の追加を無効化
+## プロジェクトのインラインでの問題の追加を無効にする
 
 イシューフォームに入力してプロジェクトにイシューを追加する際に、正確な情報を提供できるように、新しい設定を導入しました。この設定では、イシューをプロジェクトにイシューを追加するか、タスクをインラインで追加するかを管理できます。 この設定は、「プロジェクトを編集」ボックスの新しい「問題の設定」領域で、デフォルトで有効になっています。 この機能を無効にすると、プロジェクトの「問題」セクションの「他の問題を追加」オプションが薄くなり、ユーザーはリストにこれ以上問題を追加できなくなります。 ユーザーは、引き続き「問題」セクションの「新しい問題」オプションを使用するか、プロジェクトに対して設定されている場合はリクエストキューを使用して、プロジェクトに問題を追加できます。
 
@@ -88,13 +89,13 @@ Workfrontの使用を新しいWorkfrontエクスペリエンスと一致させ�
 
 詳しくは、 [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-## チェックボックスとラジオボタンのカスタムフィールド表示の改善
+## チェックボックスとラジオボタンのカスタムフィールドの表示の改善
 
 カスタムフォームでのチェックボックスおよびラジオボタンの表示と選択が簡単になりました。多数のチェックボックスまたはラジオボタンオプションを含むカスタムフィールドが、ページ全体の複数の列に表示されるようになりました。 以前は、1 つの列に表示されていたので、ユーザーがフォームに入力する際に余分なスクロールが必要でした。
 
 これは、カスタムフォームでのフィールドの配置方法によって異なります。チェックボックスやラジオボタンのフィールドを使用して同じ行に別のフィールドを配置した場合、1 つの列に表示するのに十分な水平スペースのみが表示されます。
 
-カスタムフォームへの入力について詳しくは、 [カスタムフォームフィールドの情報を編集](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+カスタムフォームへの入力について詳しくは、 [カスタムフォームフィールドの情報を編集する](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 カスタムフォームでのチェックボックスまたはラジオボタンフィールドの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) および [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) 記事内 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

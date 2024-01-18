@@ -3,15 +3,16 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2021 年 5 月 3 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2021 年 5 月 3 日の週」
 description: このページでは、2021 年 5 月 3 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: af3312c5-3416-4c03-8528-6a2c0240110e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -36,11 +37,11 @@ Salesforce /レコードの検索モジュールに、SOQL(Salesforce Object Que
 
 * Azure DevOps
 
-   この新しい接続タイプでは、スコープはWorkfront Fusion で特に必要なスコープに制限されます。
+  この新しい接続タイプでは、スコープはWorkfront Fusion で特に必要なスコープに制限されます。
 
 * Azure DevOps （すべてのスコープをリクエスト）
 
-   これはレガシーの接続タイプで、Azure DevOps への接続で使用可能なすべてのスコープをリクエストします。
+  これはレガシーの接続タイプで、Azure DevOps への接続で使用可能なすべてのスコープをリクエストします。
 
 Azure DevOps を使用するすべての新しいシナリオで、Azure DevOps 接続タイプを使用することをお勧めします。 また、既存のシナリオで Azure DevOps モジュールを変更して、新しい接続タイプを使用することをお勧めします。 レガシー Azure DevOps （すべてのスコープをリクエスト）接続タイプは、近い将来非推奨となります。
 

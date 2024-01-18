@@ -5,10 +5,11 @@ title: R1 最終
 description: 2018.3 リリースアクティビティ
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---

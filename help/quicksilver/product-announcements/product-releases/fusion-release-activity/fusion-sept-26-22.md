@@ -3,20 +3,21 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Workfront Fusion リリースアクティビティ：2022 年 9 月 26 日の週'
+title: 「Workfront Fusion リリースアクティビティ： 2022 年 9 月 26 日の週」
 description: このページでは、2022 年 9 月 19 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 4f1fd5cc-24c0-43a3-8453-78c929cf401a
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2022 年 9 月 26 日の週
+# Workfront Fusion リリースアクティビティ： 2022 年 9 月 26 日の週
 
 ## GitLab コネクタとモジュールを利用できるようになりました
 

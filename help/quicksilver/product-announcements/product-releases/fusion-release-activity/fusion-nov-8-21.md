@@ -4,16 +4,17 @@ description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 3f3405f9-ea57-4bb8-9dab-c51ccbec9416
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2021 年 11 月 8 日の週
+# Workfront Fusion リリースアクティビティ： 2021 年 11 月 8 日の週
 
 このページでは、2021 年 11 月 8 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
 
@@ -27,7 +28,7 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 * タスクに対する問題
 * プロジェクトに対する問題
-* プロジェクトにタスク
+* プロジェクトへのタスク
 
 以前は、これらの変換は、「その他のアクション」モジュールでのみ使用できました。
 

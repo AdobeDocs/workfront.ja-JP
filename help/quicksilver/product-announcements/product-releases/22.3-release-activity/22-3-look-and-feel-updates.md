@@ -4,11 +4,12 @@ description: 22.3 リリース期間のルックアンドフィールの更新
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 16%
+source-wordcount: '229'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +23,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->プレビューリリース：2022 年 4 月 22 日；実稼動版リリース：2022 年 5 月 6 日
+>プレビューリリース：2022 年 4 月 21 日、実稼動リリース：2022 年 5 月 6 日
 
 WorkfrontAdobe全体での一貫性を高め、製品の位置合わせを改善するために、Workfrontユーザーインターフェイス全体でのコスメティックスタイルの小さな変更をリリースしています。
 
@@ -32,9 +33,9 @@ WorkfrontAdobe全体での一貫性を高め、製品の位置合わせを改善
 
 ## 更新されたリストとレポート
 
-次のリストとレポートのツールバーは、最新の外観と操作性を備え、Adobe Workfrontでのオブジェクトの管理をすばやくおこなえるようになりました。
+次のリストとレポートのツールバーは、最新の外観と操作性を備え、Adobe Workfrontでのオブジェクトの管理をすばやくおこなうことができます。
 
-### プレビューリリース：2022 年 3 月 26 日；実稼動版リリース：22.3 リリースの場合
+### プレビューリリース：2022 年 3 月 26 日、実稼動リリース：22.3 リリース
 
 * タイムシートレポート
 

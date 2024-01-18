@@ -3,9 +3,11 @@ title: 23.3 統合の強化
 description: 23.3 統合の強化
 author: Lisa
 feature: Product Announcements
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+recommendations: noDisplay, noCatalog
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -26,7 +28,7 @@ Google Marketplace で新しい G Suite 統合が利用できるようになり�
 
 Workfront for G Suite について詳しくは、 [Workfront for G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
 
-## Adobe Creative Cloud統合で、複数の割り当て済みユーザーをサポートするようになりました
+## Adobe Creative Cloud統合で、複数の割り当て済みユーザーをサポートするようになりました。
 
 Adobe Creative Cloud統合では、タスクまたはイシューに複数のユーザーが割り当てられている場合に、「自分の部分で完了」と「完了」（または「解決済み」）のどちらかを選択できるようになりました。
 
@@ -36,7 +38,7 @@ Adobe Creative Cloud統合では、タスクまたはイシューに複数のユ
 
 この機能について詳しくは、 [Adobe Workfrontプラグインを使用して作業項目を完了とマーク](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md).
 
-Creative Cloudプラグイン用のWorkfrontのインストールについて詳しくは、 [Adobe WorkfrontプラグインのCreative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+Creative Cloudプラグイン用のWorkfrontのインストールについて詳しくは、 [Adobe Workfront Plugin for InstallCreative CloudApplications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
 ## WorkfrontからのWorkfront通知のCreative Cloudプラグインの表示と管理
 
@@ -48,7 +50,7 @@ Creative Cloudプラグイン用のWorkfrontのインストールについて詳
 
 詳しくは、 [表示と管理 [!DNL Adobe Workfront] Adobe Creative Cloudからの通知](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
 
-Creative Cloudプラグイン用のWorkfrontのインストールについて詳しくは、 [Adobe WorkfrontプラグインのCreative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+Creative Cloudプラグイン用のWorkfrontのインストールについて詳しくは、 [Adobe Workfront Plugin for InstallCreative CloudApplications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
 <!--
 
@@ -62,9 +64,9 @@ For more information, see [Link documents from external applications](/help/quic
 
 -->
 
-## プロジェクトの作成時に、Adobe Experience Manager Assets にリンクされたフォルダーを自動的に作成する
+## プロジェクトの作成時に、Adobe Experience Manager Assetsにリンクされたフォルダーを自動的に作成する
 
-Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用して、Adobe Experience Manager Assets フォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。
+Adobe Experience Manager統合用の新しいリンクされたフォルダーを作成ワークフローを使用すると、Adobe Experience Manager Assetsフォルダーのパスで統合を設定できます。 統合がプロジェクトテンプレートに追加されると、そのテンプレートから作成されたプロジェクトによって、指定したフォルダー内にExperience Manager Assets内にリンクされたサブフォルダーが自動的に作成されます。
 
 以前は、リンクされたフォルダーを作成するには、ユーザー側でアクションが必要でした。
 
@@ -78,17 +80,17 @@ Adobe Experience Manager統合用の新しいリンクされたフォルダー�
 
 以前は、WorkfrontデータをExperience Manager Assetsタグにマッピングすることはできませんでした。
 
-Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、 [の設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、 [を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 Experience Manager Assets Essentials のこの機能について詳しくは、 [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## WorkfrontフィールドをカスタムExperience Manager Assetsメタデータフィールドにマッピングする
 
 ネイティブ統合により、ネイティブと組み込みのWorkfrontフィールドの両方を、Experience Manager Assets as a Cloud Serviceのカスタムメタデータスキーマフィールドにマッピングできるようになりました。
 
-Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、 [の設定 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Experience Manager Assets as a Cloud Serviceのこの機能について詳しくは、 [を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 Experience Manager Assets Essentials のこの機能について詳しくは、 [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Creative CloudにAdobe Workfrontを使用して自動配達確認ワークフローテンプレート設定を調整
+## Creative CloudにAdobe Workfrontを使用して自動配達確認ワークフローテンプレート設定を調整する
 
 既存の自動ワークフローテンプレート設定をCreative Cloudで直接調整できるようになりました。 既存の自動ワークフローテンプレートを選択すると、次の操作を実行できます。
 

@@ -4,10 +4,11 @@ description: 22.4 アジャイルの強化
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: 87d0b668185c4185646bfa1622eb37337844bcbc
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 ## 取り込みカラムはボードで利用可能
 
-注意：この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
+注意：この機能は、Workfrontボードの初期の機能オプトインからのみ利用できます。
 
 これで、ボードに取り込みカラムを追加できます。 この列は、定義したフィルターに基づいて、Workfrontに追加されたタスクとイシューを自動的にボードに取り込みます。
 
@@ -32,13 +33,13 @@ ht-degree: 0%
 
 [この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
-## ボードのフィルターパネルを更新しました
+## ボードのフィルターパネルを更新しました。
 
-注意：この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
+注意：この機能は、Workfrontボードの初期の機能オプトインからのみ利用できます。
 
 ボード上のフィルターアイコンと検索アイコンが、画面の左側に移動しました。 フィルターアイコンをクリックすると、左側のパネルが開き、すべてのフィルターオプションが表示されます。 以前は、フィルターは、ボードの右側のドロップダウンに表示されていました。
 
-詳しくは、 [ボードでのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+詳しくは、 [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 [この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
@@ -50,11 +51,11 @@ ht-degree: 0%
 
 取り込みカラム内のカードはグループに含まれません。
 
-詳しくは、 [ボードでのグループの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
+詳しくは、 [ボード上でのグループの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
-## ボードのチェックリスト項目の強化
+## ボード上のチェックリスト項目の強化
 
 >[!NOTE]
 >
@@ -84,7 +85,7 @@ ht-degree: 0%
 >
 >この機能は、Workfront Boards の初期の機能オプトインでのみ利用できます。
 
-ボード上の任意の列に対して WIP(Work In Progress) 制限を設定できるようになりました。 WIP 制限を有効にすると、カード数と制限を含むカウンターが列に表示されます。 列に制限を超えるカードが含まれている場合、カウンターが赤に変わります。 これは単に視覚的な警告であり、制限を超えるカードの追加を停止することはありません。
+ボード上の任意の列に対して WIP(Work In Progress) 制限を設定できるようになりました。 WIP 制限を有効にすると、カードの現在の数と制限を含むカウンターが列に表示されます。 列に制限を超えるカードが含まれている場合、カウンターが赤に変わります。 これは単に視覚的な警告であり、制限を超えるカードの追加を停止することはありません。
 
 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
