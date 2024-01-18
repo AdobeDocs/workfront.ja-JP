@@ -2,12 +2,13 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: 「Workfront Proof リリースアクティビティ：2021 年 5 月 17 日の週
+title: 「Workfront Proof リリースアクティビティ： 2021 年 5 月 17 日の週」
 description: このページでは、Workfrontの配達確認（スタンドアロン校正アプリケーション）に対しておこなわれた変更について説明します。 ここで説明する変更は、Adobe Workfrontアプリケーション内の校正機能には適用されません。
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%

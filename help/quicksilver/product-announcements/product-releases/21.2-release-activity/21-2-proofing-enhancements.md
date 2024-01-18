@@ -5,11 +5,12 @@ navigation-topic: 2021-2-release-activity
 title: 21.2 校正機能の強化
 description: ここでは、プレビュー環境の 21.2 リリースでおこなわれたすべての校正機能の強化について説明します。 これらの機能強化は、2021 年 5 月 10 日の週に実稼動環境で利用可能になる予定です。 21.2 リリースで使用できるすべての変更点の一覧については、 21.2 リリースの概要を参照してください。
 author: Luke
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -44,7 +45,7 @@ ht-degree: 0%
 
 これらのフィールドは、デフォルトのレポートには含まれていません。 表示する場合は、追加する必要があります。
 
-この機能は、 [配達確認のシステム設定、パート 2:ワークフロー管理](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Workfront One の学習パス
+この機能は、 [配達確認のシステム設定、パート 2：ワークフロー管理](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Workfront One の学習パス
 
 ## 新しいバージョンを生成する際に既存の配達確認ワークフローを引き継ぐ
 

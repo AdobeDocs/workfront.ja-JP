@@ -4,10 +4,11 @@ description: 22.1 管理者の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1505'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 詳しくは、 [ブループリントの設定](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-## カスタムForms領域でのスタイル設定の更新
+## 「カスタムForms」領域でのスタイル設定の更新
 
 カスタムForms領域は、新しいWorkfrontエクスペリエンスの他の多くの領域と最新の状態にするための新しいルックアンドフィールを備えています。
 
@@ -119,7 +120,7 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 この機能は、最近、プロジェクトの環境設定や、タスクおよび問題の環境設定に追加されました。
 
-Workfront管理者がタイムシートと時間の優先順位のロックを解除する方法の詳細については、「 [グループのタイムシートと時間の基本設定をロック解除](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 記事内 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Workfront管理者がタイムシートと時間の優先順位のロックを解除する方法の詳細については、「 [グループのタイムシートと時間の基本設定をロック解除する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) 記事内 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 グループ管理者がグループのロック解除されたタスクと問題の環境設定を構成する方法について詳しくは、 [グループのタイムシートと時間の基本設定を構成する](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
@@ -131,12 +132,12 @@ Workfront管理者がタイムシートと時間の優先順位のロックを�
 
 詳しくは、 [すべてのグループのイベント通知の設定をロック解除またはロックします](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-## グループ管理者の場合：グループの削除時に置き換えグループを簡単に選択できる
+## グループ管理者の場合：グループを削除する際に置き換えグループを簡単に選択できます。
 
 グループを削除する場合は、[ グループの削除 ] ボックスに 2 つの改善点があり、削除したグループのユーザー、作業項目、サブグループを保持する置換グループを簡単に選択できます。
 
 * グループの名前を入力すると、すばやく見つけることができます。 以前は、入力できないドロップダウンリストしかありませんでした。 多数のグループを持つ組織では、必要なグループを見つけるためにリストをスクロールする必要があるので、この問題が発生していました。 また、ドロップダウンリストに項目数の制限があるので、必要なグループが表示されない可能性がありました。
-* 新しい情報アイコンを使用して、必要な置換グループを選択していることを確認できます。 アイコンの上にマウスポインターを置くと、グループの上位のグループの階層や管理者の名前など、グループに関する情報が一覧表示されるツールチップが表示されます。
+* 新しい情報アイコンを使用して、必要な置換グループを選択していることを確認できます。 このアイコンの上にマウスポインターを置くと、グループの上位のグループの階層や管理者の名前など、グループに関する情報が一覧表示されるツールチップが表示されます。
 
 詳しくは、 [グループの削除](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
 
@@ -151,8 +152,8 @@ Workfront管理者がタイムシートと時間の優先順位のロックを�
 Group オブジェクトでカスタムフォームがサポートされるようになりました。 これにより、組織内のグループが、特定のニーズやワークフローを満たす情報を容易に取得および共有できます。 他のWorkfrontオブジェクトと同様に、ユーザーはグループに対して次の操作を実行できます。
 
 * カスタムフォームの作成
-* カスタムフォームを添付
-* カスタムフォームデータを保存
+* カスタムフォームを添付する
+* カスタムフォームデータを保存する
 * カスタムフォームの削除
 * リストのカスタムデータを編集し、新しいWorkfrontエクスペリエンスで、グループページからカスタムデータを編集します。
 

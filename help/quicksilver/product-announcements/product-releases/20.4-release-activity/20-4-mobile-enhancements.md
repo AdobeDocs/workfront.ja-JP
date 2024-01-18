@@ -4,10 +4,11 @@ description: 20.4 モバイルおよび統合の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Microsoft Teamsを通じてWorkfrontを簡単に使用できるように、Workf
 
 詳しくは、 [Microsoft TeamsでのAdobe Workfront通知の管理](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
-## MobileIron 用Workfrontの概要
+## MobileIron 向けWorkfrontの概要
 
 Workfrontは、モバイルデバイス管理 (MDM) プラットフォームの MobileIron と提携し、組織がより安全で制御可能なモバイルエクスペリエンスを提供しています。
 
@@ -52,7 +53,7 @@ Workfrontモバイルアプリの新しいクイックタスクオプション�
 * [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
-## Workfront Mobile の仮想アシスタントのコマンドに関するヘルプを表示
+## Workfront Mobile の仮想アシスタントのコマンドに関するヘルプを表示する
 
 モバイルアプリでは、次のように言ってコマンドを操作するのに役立つように仮想アシスタントに問い合わせることができます。
 

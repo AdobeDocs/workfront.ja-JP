@@ -6,10 +6,11 @@ title: Adobe Workfront Proof（23.3 リリースでの使用）
 description: このページでは、23.3 リリースで実稼動環境にリリースされる新しいAdobe WorkfrontエクスペリエンスにおけるAdobe Workfront Proof の機能について説明します。
 author: Nolan
 feature: Product Announcements, Workfront Proof
-exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 1a4db0b89b9035eb8dd95052b5378e78d1cfbc9f
+recommendations: noDisplay, noCatalog
+exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---

@@ -6,9 +6,11 @@ title: Adobe Workfront配達確認 23.3 リリースアクティビティ 2023 �
 description: このページでは、Adobe Workfront Proof の 23.3 リリースでプレビュー環境に対しておこなわれたすべての機能強化について説明します。 これらの機能強化は、2023 年 5 月 8 日の週に実稼動環境で利用可能になる予定です。
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+recommendations: noDisplay, noCatalog
+exl-id: 22fb9fd0-eb03-4390-9285-43b95b7925ed
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -29,4 +31,4 @@ ht-degree: 0%
 * コメントに接続されたマークアップが、選択時に正しく表示されるようになりました。
 * 配達確認の役割および電子メールアラートのドロップダウンが期待どおりに機能するようになりました。
 
-アップデートのダウンロードについて詳しくは、 [デスクトップ校正ビューアを更新](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+アップデートのダウンロードについて詳しくは、 [デスクトップ校正ビューアを更新する](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

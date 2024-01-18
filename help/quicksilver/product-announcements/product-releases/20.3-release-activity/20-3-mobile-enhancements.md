@@ -5,10 +5,11 @@ title: 20.3 統合およびモバイルに関する機能強化
 description: このページでは、実稼動環境の 20.3 リリースでおこなわれた、統合およびモバイルに関するすべての機能強化について説明します。 これらの機能強化は、2020 年 8 月 10 日の週に実稼動環境で公開されました。
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f9f7dad59a107daea5eae1da4b3f59230da8df88
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -23,11 +24,11 @@ ht-degree: 0%
 
 Workfrontは最近、Workfront Fusion のまったく新しい世代のテクノロジーを買収しました。これは、ほぼすべての Web ベースのアプリケーションで、作業を自由に行うことができる強力な統合プラットフォームです。
 
-以前のWorkfront Fusion をご利用のお客様は、Workfront Fusion 2.0 でより優れた機能、速度、操作性、予測可能性を期待できます。現在、Workfront Fusion のお客様をWorkfront Fusion 2.0 に移行中です。詳しくは、担当のアカウント担当者にお問い合わせください。
+以前のWorkfront Fusion のお客様は、Workfront Fusion 2.0 のより優れた機能、速度、操作性、予測可能性を期待できます。現在のWorkfront Fusion のお客様をWorkfront Fusion 2.0 に移行中です。詳しくは、アカウント担当者にお問い合わせください。
 
 詳しくは、 [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## MobileIron 用Workfrontの概要
+## MobileIron 向けWorkfrontの概要
 
 Workfrontは、モバイルデバイス管理 (MDM) プラットフォームの MobileIron と提携し、組織がより安全で制御可能なモバイルエクスペリエンスを提供しています。
 

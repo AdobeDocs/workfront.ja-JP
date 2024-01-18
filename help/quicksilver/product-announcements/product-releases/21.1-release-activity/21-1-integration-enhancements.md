@@ -6,10 +6,11 @@ title: 21.1 統合の強化
 description: このページでは、プレビュー環境の 21.1 リリースでおこなわれた統合の機能強化について説明します。 これらの機能強化は、2021 年 2 月 15 日の週に実稼動環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 0cd407f6-2593-4de8-9456-c26ba231e482
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---

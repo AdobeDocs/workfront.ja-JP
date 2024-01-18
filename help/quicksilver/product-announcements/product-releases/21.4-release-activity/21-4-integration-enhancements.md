@@ -4,10 +4,11 @@ description: 21.4 統合の強化
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -34,10 +35,10 @@ Workfront管理者がこのオプションを有効にする方法について�
 
 WorkfrontでのSlack統合に関して、次の更新が表示されるようになりました。
 
-* Workfront forSlackは、新しい外観と操作性を備えています。
+* Workfront forSlackは新しい外観と操作性を備えています。
 * これで、WorkfrontにリアルタイムでSlack通知が届きます。
 
-   例えば、タスクに割り当てられている場合は、割り当てられるとすぐに通知を受け取ります。 以前は、通知がSlackに表示されるまでに遅延が生じる可能性がありました。
+  例えば、タスクに割り当てられている場合は、割り当てられるとすぐに通知を受け取ります。 以前は、通知がSlackに表示されるまでに遅延が生じる可能性がありました。
 
 この更新では、Workfrontを認証統合のために再認証する必要があります。 統合の認証について詳しくは、 [Adobe WorkfrontをSlack用に設定](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 

@@ -5,10 +5,11 @@ title: 20.3 配達確認の機能強化
 description: このページでは、実稼動環境の 20.3 リリースでおこなわれたすべての配達確認の機能強化について説明します。 これらの機能強化は、2020 年 8 月 10 日の週に実稼動環境で公開されました。
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -48,7 +49,7 @@ ht-degree: 0%
 
 ドキュメント領域のツールバーは、新しいWorkfrontエクスペリエンスのプロジェクト、タスクおよび問題のツールバーと同じ外観になりました。
 
-さらに、新しいWorkfrontエクスペリエンスと Classic の両方で、新しいバージョンオプションが新しい追加ドロップダウンメニューの下に表示されるようになりました。
+さらに、新しいWorkfrontエクスペリエンスと Classic の両方で、「新しいバージョン」オプションが新しいバージョンを追加ドロップダウンメニューに追加されました。
 
 ## ドキュメントリストからの詳細な配達確認の作成
 

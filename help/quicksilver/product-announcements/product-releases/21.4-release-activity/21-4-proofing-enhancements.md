@@ -3,11 +3,12 @@ title: 21.4 校正機能の強化
 description: 21.4 校正機能の強化
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---

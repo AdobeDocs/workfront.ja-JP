@@ -3,11 +3,12 @@ title: 22.1 校正機能の強化
 description: 22.1 校正機能の強化
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 750c0a3863989e758ec35b11e48603300fa31fc7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -30,12 +31,11 @@ in January 2022
 
 >[!NOTE]
 >
->2021 年 7 月 6 日より前に作成された統合校正機能を持つ EMEA のお客様向けにリリースされました。 この機能は、次のお客様向けに、1 月 13 日から 1 月 17 日までの段階的なロールアウトでプレビューされます。>
+>2021 年 7 月 6 日より前に作成された統合校正機能を持つ EMEA のお客様向けにリリースされました。 この機能は、次のお客様向けに、1 月 13 日から 1 月 17 日までの段階的なロールアウトでプレビューされます。
 >* 統合およびスタンドアロンの両方の校正をおこなう EMEA のお客様
 >* 2021 年 7 月 7 日以降に作成された統合校正を使用する EMEA のお客様
 >* 米国のすべてのお客様
 >
-
 
 Workfrontと配達確認を統合し、レビュー担当者とリクエスターの校正機能に関していくつかの改善を行いました。
 
@@ -68,6 +68,6 @@ Chrome バージョン 91 までをサポートするよう、デスクトップ
 
 >[!IMPORTANT]
 >
->Windows ユーザーは、最新バージョンにアップグレードするには、デスクトップビューアを手動で再インストールする必要があります。 その後、今後のデスクトップ校正ビューアの更新は自動的に行われます。 の再インストールについては、 [デスクトップ校正ビューアのインストール](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Windows ユーザーは、最新バージョンにアップグレードするには、デスクトップビューアを手動で再インストールする必要があります。 その後、今後のデスクトップ校正ビューアの更新は自動的に行われます。 の再インストールについては、を参照してください。 [デスクトップ校正ビューアのインストール](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 Macユーザーは、自動的に最新バージョンにアップグレードされます。

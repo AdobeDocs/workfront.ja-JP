@@ -4,10 +4,11 @@ description: 22.2 統合の強化
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ Workfrontから Analypan への統合を使用する際に考慮すべきその�
 Workfront forExperience Manager強化コネクタに、次の更新が含まれるようになりました。
 
 * 複数のプロジェクトリンクフォルダー設定がある場合でも、Adobe WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceの間にリンクされたフォルダーを作成できるようになりました。
-* イベント購読のページネーションのサポートを追加しました
+* イベント購読のページネーションのサポートを追加しました。
 * AEM 6.4.x のサポートを追加しました。
 * プロキシ環境のサポートを追加しました。
 * パートナーやお客様のご意見に基づいた、いくつかのバグ修正がおこなわれました。
@@ -58,7 +59,7 @@ Workfront forExperience Manager強化コネクタに、次の更新が含まれ�
 
 ## Adobe Creative Cloud統合で OAuth2 が使用されるようになりました
 
-セキュリティを強化し、統合全体でより一貫したエクスペリエンスを得るために、Adobe Creative Cloud統合を更新して、ユーザーを認証する業界標準の方法である OAuth2 認証を使用するようにしました。 これで、ユーザーがログインすると、統合がアクセスできる特定のアクションや領域を確認し、アクセスを許可できます。 その後は、頻繁にログインする必要はありません。
+セキュリティを強化し、統合全体でより一貫したエクスペリエンスを得るために、Adobe Creative Cloud統合を更新して、ユーザーを認証する業界標準の方法である OAuth2 認証を使用するようにしました。 これで、ユーザーがログインすると、統合がアクセスできる特定のアクションや領域を確認し、アクセスを許可できるようになります。 その後は、頻繁にログインする必要はありません。
 
 詳しくは、 [Workfront Extension for IllustratorとInDesignの使用](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
 
@@ -94,6 +95,6 @@ OAuth2 または JWT カスタム統合でのクライアントシークレッ�
 
 ## Google G Suite の統合で OAuth2 が使用されるようになりました。
 
-セキュリティを強化し、統合全体でより一貫したエクスペリエンスを得るために、Google G Suite 統合を更新し、ユーザーを認証する業界標準の方法である OAuth2 認証を使用するようにしました。 これで、ユーザーがログインすると、統合がアクセスできる特定のアクションや領域を確認し、アクセスを許可できます。 その後は、頻繁にログインする必要はありません。
+セキュリティを強化し、統合全体でより一貫したエクスペリエンスを得るために、Google G Suite 統合を更新し、ユーザーを認証する業界標準の方法である OAuth2 認証を使用するようにしました。 これで、ユーザーがログインすると、統合がアクセスできる特定のアクションや領域を確認し、アクセスを許可できるようになります。 その後は、頻繁にログインする必要はありません。
 
 詳しくは、 [Adobe Workfront for G Suite へのログインとログアウト](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

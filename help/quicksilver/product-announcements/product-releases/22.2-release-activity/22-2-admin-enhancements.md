@@ -4,10 +4,11 @@ description: 22.2 管理者の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ in January 2022
 
 この機能は、Workfrontシステムで以前に作成されたすべてのカスタムフォームで機能します。 例えば、Task オブジェクトタイプ用に既にカスタムフォームを作成している場合、プロジェクトやイシューなど他のオブジェクトタイプとも連携するようにフォームを設定できます。
 
-詳しくは、 [カスタムフォームの作成を開始](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) 記事内 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+詳しくは、 [カスタムフォームの作成を開始する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) 記事内 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >
@@ -40,7 +41,6 @@ in January 2022
 >* 計算カスタムフィールドでは、参照する一部のフィールドは、フォーム用に設定されたオブジェクトタイプと互換性がない場合があります。 解決策はワイルドカードで、フォームが添付されているオブジェクトに応じて異なる値を計算で出力できるようにします。 3 月 24 日にワイルドカードを追加しました。 使用方法について詳しくは、「 [複数オブジェクトカスタムフォームの計算済みカスタムフィールド](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) 記事内 [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 >* カスタムフォームのセクション区切りの場合、フォームに設定できるすべてのオブジェクトタイプに対して機能する、共通の表示および編集権限のセットを作成しました。 あるシナリオでは、これらの権限の 1 つである制限付き編集が、フォームでエラーを引き起こす可能性があることがわかりました。 これは 3 月 24 日に修正されました。 断面の区切りの詳細については、 [カスタムフォームにセクション区切りを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
-
 
 ## ブループリントカタログはすべてのユーザーが使用でき、管理者はリクエストを許可できます
 
@@ -76,12 +76,12 @@ in January 2022
 
    * プロジェクト、タスク、問題、ポートフォリオ、プログラム、レポート、フィルター、ドキュメント、テンプレートに対して、システム全体の共有が無効になりました。
    * 組み込みレポートの表示とレポートの共有も、レポートでは無効になっています。
-   * ドキュメントの共有ドキュメントの公開も無効です。
+   * ドキュメントの共有ドキュメントの公開も無効になっています。
 
 * ワークライセンスタイプの新しいアクセスレベルで、次の操作を行います。
 
    * フィルターとドキュメントのシステム全体の共有が無効になりました。
-   * ドキュメントの共有ドキュメントの公開も無効です。
+   * ドキュメントの共有ドキュメントの公開も無効になっています。
 
 * 新しいアクセスレベルで、「リクエスト」または「レビュー」ライセンスタイプを使用して、次の操作を実行します。
 
