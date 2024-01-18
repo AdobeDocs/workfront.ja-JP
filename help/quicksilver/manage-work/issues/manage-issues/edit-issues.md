@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>タスクまたはプロジェクトの「問題」セクションで問題を編集する場合は、ライセンスを確認するか、それ以上に設定します</p> </td> 
+   <td> <p>リクエスト以上</p> <p>タスクまたはプロジェクトの「問題」セクションで問題を編集する場合は、ライセンスを確認するかそれ以上にしてください</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル*</td> 
@@ -77,8 +77,6 @@ ht-degree: 3%
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. （オプション）問題に関する限定的な情報を編集するには、 **問題の詳細** をクリックします。
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -127,7 +125,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >Workfront管理者がレイアウトテンプレートを設定する方法によっては、環境によって問題を編集ボックスのフィールドが異なる場合があります。 詳しくは、 [レイアウトテンプレートを使用して詳細ビューをカスタマイズする](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Workfront管理者がレイアウトテンプレートを設定する方法によっては、環境によって「問題を編集」ボックスのフィールドが異なる場合があります。 詳しくは、 [レイアウトテンプレートを使用して詳細ビューをカスタマイズする](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
    >
    >イシューを作成する際に、以下のセクションに一覧表示されるほとんどのフィールドは、「新しいイシュー」ボックスからもアクセスできます。 フィールドが配置されているセクションが、「 New Issue 」ボックスと一致しません。 問題の作成について詳しくは、 [イシューの作成](../../issues/manage-issues/create-issues.md).
 
@@ -173,7 +171,7 @@ ht-degree: 3%
         <li> <p><strong>低</strong> </p> </li> 
         <li> <p><strong>標準</strong> </p> </li> 
         <li> <p><strong>高</strong> </p> </li> 
-        <li> <p><strong>緊急</strong> </p> </li> 
+        <li> <p><strong>至急</strong> </p> </li> 
        </ul> <p>Workfront管理者が選択したプロジェクトの環境設定によっては、優先度の名前が異なる場合があります。 優先度の編集の詳細については、「 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成とカスタマイズ</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -237,7 +235,7 @@ ht-degree: 3%
       <td role="rowheader">解決オブジェクト</td> 
       <td> <p>これは、問題が別のオブジェクトによって解決されたかどうかを示します。 この問題をタスク、プロジェクト、または別の問題で解決するかをドロップダウンメニューから選択し、タスク、プロジェクト、または問題を解決する問題の名前を入力します。 リストに表示される場合に選択します。</p>
 
-   <b>メモ</b>
+   <b>注意</b>
 
    問題を解決するオブジェクトを選択すると、問題のステータスは解決オブジェクトのステータスにリンクされ、問題で変更することはできません。 オブジェクトの解決の詳細については、「 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">オブジェクトの解決と解決の概要 </a>.
 

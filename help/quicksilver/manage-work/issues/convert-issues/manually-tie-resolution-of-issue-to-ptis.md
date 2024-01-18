@@ -6,10 +6,10 @@ description: イシューを変換せずに、イシューの解決を手動で�
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 2%
+source-wordcount: '556'
+ht-degree: 0%
 
 ---
 
@@ -41,16 +41,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>問題、タスク、プロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>問題、タスク、プロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>別のイシュー、タスクまたはプロジェクトにリンクするイシューに対する権限を管理します</p> <p>既存のイシューに追加するイシュー、タスク、またはプロジェクトに対する権限を表示または上限に設定します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 前提条件
 
@@ -62,12 +62,11 @@ ht-degree: 2%
 
 ## イシューの解決と、別のイシュー、タスクまたはプロジェクトの解決を結び付ける
 
-1. 解決を別のイシュー、タスク、プロジェクトの解決に関連付けるイシューに移動します。
-1. 次をクリック： **問題の詳細** > **概要** 領域
+1. 解決を別の問題の解決に関連付けるか、タスクまたはプロジェクトの解決に関連付ける問題に移動します。
+1. 次をクリック： **問題の詳細** 左のパネルで、を展開します。 **概要** 領域。
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. 次に移動： **概要** 領域 **問題の詳細** 」セクションに入力します。
 1. 次をクリック： **解決者** フィールドを開き、次のタイプの解決オブジェクトから選択します。
 
    * **プロジェクト**
@@ -76,12 +75,11 @@ ht-degree: 2%
 
    選択したオブジェクトに応じて、次のフィールドが表示されます。
 
-   * **解決するプロジェクト**
-   * **解決するタスク**
-   * **解決する問題**
+   * **プロジェクトの解決**
+   * **タスクの解決**
+   * **問題の解決**
 
-
-1. 特定のプロジェクト、タスクまたはイシューの名前を **プロジェクトの解決**, **タスク**&#x200B;または **問題** フィールドに値を入力し、リストに表示されたらクリックします。
+1. 特定のプロジェクト、タスク、またはイシューの名前を **プロジェクトの解決**, **タスク**&#x200B;または **問題** フィールドに値を入力し、リストに表示されたらクリックします。
 
    >[!NOTE]
    >

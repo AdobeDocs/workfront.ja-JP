@@ -6,49 +6,20 @@ description: 問題のステータスを更新して、問題の発生場所と�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 3%
+source-wordcount: '651'
+ht-degree: 2%
 
 ---
 
 # 問題ステータスを更新
 
+<!--Audited: 01/2024-->
+
 問題のステータスを更新して、問題の発生場所と進行状況を他の人に知らせることができます。
 
 ## アクセス要件
-
-<!--drafted for P&P;
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -57,27 +28,28 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td> <p>新しいライセンス：寄稿者以上</p>
+   または
+   <p>現在のライセンス：リクエスト以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>問題へのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>問題へのアクセスを編集</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>問題に対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>問題に対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 問題のステータス
 
@@ -103,14 +75,19 @@ Adobe Workfront管理者は、組織の問題に対してカスタムステー�
 
 ## 問題ステータスを手動で更新
 
-問題ステータスを更新する際に、新しいステータスに関する説明を追加したり、コミット日などの他の問題情報を変更したりすることもできます。
+Workfrontの次の領域で、問題のステータスを更新できます。
 
-1. ステータスを更新するために割り当てられている問題に移動します。
+* タスクページの発行ヘッダーです。
+* イシューの編集時の「イシューの編集」ボックス。
+* 問題ページの「詳細」セクション。
+* イシューリストまたはレポートで、ステータスフィールドがビューに表示されている場合。
+* （問題の Summary パネル）。
+
+問題ヘッダーで問題ステータスを手動で更新するには：
+
+1. ステータスを更新するイシューに移動します。
 1. 次をクリック： **ステータス** 「 」フィールドに値を入力し、新しいステータスを選択します。
-
-   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
-
-1. 問題の完了を視覚的に示すには、下のバブルをドラッグまたはダブルクリックします **完了率** を設定します。
+1. 問題の完了を視覚的に示すには、下のバブルをドラッグまたはダブルクリックします **完了率** （問題のヘッダー内）
 
    または
 
@@ -118,20 +95,40 @@ Adobe Workfront管理者は、組織の問題に対してカスタムステー�
 
    ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-1. （オプション）次のいずれかの操作を行って、更新に関する追加情報を入力し、 **更新** または、問題のステータスが「完了」と等しい場合は、「 **完了：**
+1. （オプション）更新に関する追加情報を提供するには、次のいずれかの操作を行います。
 
-   * 更新に関するメモを追加するには、 **更新** 「 」セクションで、「 」をクリックします。 **新しい更新を開始**&#x200B;メモを入力します。
+   * 更新に関するメモを追加するには、 **更新** 「 」セクションで、「 」をクリックします。 **新しいコメント**&#x200B;メモを入力します。
 
-      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * 更新を特定のユーザーに通知するには、 **通知** ボックスが表示されます。 詳しくは、 [更新時の他のユーザーへのタグ付け](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * 問題の条件を更新するには、 **条件**「 」を選択し、問題の現在の状況を最も反映した条件を選択します。 次のオプションから選択します。
+   * 更新を特定のユーザーに通知するには、ユーザー名を **担当者またはチームのタグ付け** コメントを入力すると表示されるフィールド。 詳しくは、 [更新時の他のユーザーへのタグ付け](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * 問題のコミット日を更新するには、 **問題の詳細**」、「 **コミット日** フィールドに入力します。 詳しくは、 [問題の編集](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
-      * 順調
-      * やや心配
-      * 深刻な障害
-   * 問題のコミット日を更新するには、 **コミット日** ドロップダウンカレンダーを開き、新しい日付を選択します。
 
+   >[!IMPORTANT]
+   >
+   >  割り当て先がコミット日を更新できるのは、問題の担当者のみです。
+
+
+
+<!--Old instructions, in old commenting: 
+
+When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
+
+1. Go to an issue that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the issue header and select a new status.
+
+   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
+
+1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
+
+   Or
+
+   Click inside the bubble in the header of the issue to enter a percentage.
+
+   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+-->
 
 ## 問題ステータスを自動的に更新
 
@@ -147,9 +144,9 @@ Workfrontは、以下の表に示すアクションが発生すると、問題�
  <col> 
  <tbody> 
   <tr> 
-   <td>アクション</td> 
-   <td>元のステータス</td> 
-   <td>新しいステータス</td> 
+   <td><b>アクション</b></td> 
+   <td><b>元のステータス</b></td> 
+   <td><b>新しいステータス</b></td> 
   </tr> 
   <tr> 
    <td>問題の割合を 100%に更新</td> 
@@ -159,7 +156,7 @@ Workfrontは、以下の表に示すアクションが発生すると、問題�
   <tr> 
    <td>問題の完了率を 100%から低い数に更新します</td> 
    <td>クローズ </td> 
-   <td>処理中</td> 
+   <td>進行状況</td> 
   </tr> 
   <tr> 
    <td>問題に関連付けられた解決オブジェクトのステータスを更新します</td> 

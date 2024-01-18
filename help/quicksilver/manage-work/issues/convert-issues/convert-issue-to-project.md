@@ -6,9 +6,9 @@ description: イシューをAdobe Workfrontのプロジェクトに変換する
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1476'
 ht-degree: 1%
 
 ---
@@ -89,8 +89,6 @@ ht-degree: 1%
    * テンプレートを使用してイシューをプロジェクトに変換するには、次のいずれかの操作を行います。
 
       * イシューの名前をクリックし、 [!UICONTROL **その他**] メニュー ![](assets/more-icon.png) を問題名の右側に追加します。
-
-        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
 
         または
 

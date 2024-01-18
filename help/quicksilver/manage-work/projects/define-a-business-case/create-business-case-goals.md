@@ -5,9 +5,9 @@ description: ビジネスケースの作成の一環として、一連の目標�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 1%
 
 * 目標は、プロジェクトのビジネス事例の必須の節ではありません。
 
-   ビジネス・ケースの「目標」セクションが定義されていない場合でも、Portfolio・オプティマイザで優先順位付けされるスコアをプロジェクトに割り当てることができます。
+  ビジネス・ケースの「目標」セクションが定義されていない場合でも、Portfolio・オプティマイザで優先順位付けされるスコアをプロジェクトに割り当てることができます。
 
-   Optimizer のスコアの詳細については、「Portfolio・オプティマイザのスコア」を参照してください。 [プロジェクトにスコアカードを適用し、線形スコアを生成する](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Optimizer のスコアの詳細については、「Portfolio・オプティマイザのスコア」を参照してください。 [プロジェクトにスコアカードを適用し、線形スコアを生成する](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * ビジネス事例の目標はレポートできません。
 
@@ -57,18 +57,18 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>プロジェクトに対する権限以上の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
-## プロジェクトのビジネス事例に目標を追加
+## プロジェクトのビジネス事例に目標を追加する
 
 1. ビジネス事例の目標を定義するプロジェクトに移動します。
 1. クリック **ビジネスケースを左パネルに表示します。**
@@ -77,10 +77,10 @@ ht-degree: 1%
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. 内 **目標** セクションで、 **目標を編集**.
+1. Adobe Analytics の **目標** セクションで、 **目標を編集**.
 
 1. 目標を指定します。
- 内 **重要度** ドロップダウンメニューから、重要度のレベルを選択します。
+Adobe Analytics の **重要度** ドロップダウンメニューから、重要度のレベルを選択します。
 
    * 最高
    * 高
@@ -88,9 +88,9 @@ ht-degree: 1%
    * 低
    * 最低
 
-      ![](assets/g1-350x76.png)
+     ![](assets/g1-350x76.png)
 
-      目標の重要度レベルはカスタマイズできません。
+     目標の重要度レベルはカスタマイズできません。
 
 1. （オプション）別の目標を追加するには、 **別の目標を追加**&#x200B;手順 5 と手順 6 を繰り返します。
 1. クリック **保存**.

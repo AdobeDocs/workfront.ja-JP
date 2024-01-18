@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 1. （オプション）タスクの問題をログに記録する場合は、 **タスク** 領域を開き、タスクの名前をクリックします。
 1. 次をクリック： **問題** 」セクションに入力します。
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   プロジェクトの問題のリストが表示されます
 
-1. クリック **新しい問題**.
+1. クリック **新しい問題** をクリックします。
 「新しい問題」ボックスが表示されます。
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,8 +218,8 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 
 1. イシューを作成するプロジェクトに移動します。
 1. （オプション）タスクの問題をログに記録する場合は、 **タスク** 」セクションで、タスクの名前をクリックします。
-1. 次をクリック： **問題** 」セクションに入力します。
-1. クリック **問題をさらに追加**.
+1. 左側のパネルで、「**イシュー**」セクションをクリックします。
+1. クリック **問題をさらに追加** をクリックします。
 
    「問題」セクションの問題のリストに新しい行が作成されます。
 

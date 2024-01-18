@@ -6,14 +6,16 @@ description: 適切なアクセス権と権限を持っている場合は、Adob
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '728'
 ht-degree: 1%
 
 ---
 
 # 問題を削除します
+
+<!--Audited: 01/2024-->
 
 適切なアクセス権と権限を持っている場合は、Adobe Workfrontで問題やリクエストを削除できます。
 
@@ -30,25 +32,27 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>プロジェクトの「問題」セクションで問題を削除するには、ライセンスを確認するか、それ以上のライセンスを使用します。</p> </td> 
+   <td> <p>新規：寄稿者以上</p>
+   <p>現在：リクエスト以降</p>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>問題へのアクセスを編集</p> <p>プロジェクトとタスクへのアクセス権を表示または高くする</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 アクセスレベルの問題へのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">問題へのアクセス権の付与</a>. Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>. </p> </td> 
+   <td role="rowheader">アクセスレベルの設定</td> 
+   <td> <p>問題へのアクセスを編集</p> <p>プロジェクトとタスクへのアクセス権を表示または高くする</p>  <p>アクセスレベルの問題へのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">問題へのアクセス権の付与</a>.  </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>問題に関する権限の管理</p> <p>プロジェクトまたはタスクに対する Contribute 以上の権限</p> <p> 問題に対する権限の付与について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a></p> <p>追加の権限のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>問題に関する権限の管理</p> <p>プロジェクトまたはタスクに対する Contribute 以上の権限</p> <p> 問題に対する権限の付与について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 問題の削除に関する考慮事項
 
@@ -56,13 +60,13 @@ ht-degree: 1%
 
 * 問題がログに記録された時間がWorkfrontの管理者またはグループ管理者の方が、Workfrontインスタンスでタスクと問題の環境設定を設定して、これらの問題の削除を許可する必要があります。 これは、何時間もログオンしている問題のあるプロジェクトを削除しようとした場合にも当てはまります。
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
   </MadCap:conditionalText>
   -->
 
-   時間が記録される問題の削除を有効にする方法について詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  時間が記録される問題の削除を有効にする方法について詳しくは、 [システム全体のタスクと問題の環境設定を構成する](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## 問題の削除による影響
 
@@ -72,7 +76,7 @@ ht-degree: 1%
 
 * ドキュメント
 
-   チェックアウトされたドキュメントが添付されたイシューは削除できません。 ドキュメントのチェックアウトの詳細については、 [ドキュメントをチェックアウト](../../../documents/managing-documents/check-out-documents.md).
+  チェックアウトされたドキュメントが添付されたイシューは削除できません。 ドキュメントのチェックアウトの詳細については、 [ドキュメントをチェックアウト](../../../documents/managing-documents/check-out-documents.md).
 
 * メモ
 * 承認
@@ -82,18 +86,18 @@ Workfrontまたはグループの管理者が、 **タイムシートと時間�
 * 問題が後で復元された場合、プロジェクトに移動しても、問題で復元されることはありません。
 * 問題が後で復元された場合は、削除して問題で復元します。
 
-   これは、時間が経過したタスクを持つプロジェクトを削除しようとした場合にも当てはまります。
+  これは、時間が経過したタスクを持つプロジェクトを削除しようとした場合にも当てはまります。
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
   </MadCap:conditionalText>
   -->
 
-   ログオン時間の問題に対する削除の環境設定について詳しくは、 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  ログオン時間の問題に対する削除の環境設定について詳しくは、 [タイムシートと時間の基本設定を構成する](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * イシューまたはイシューの承認に割り当てられたユーザーは、プロジェクトチームに残ります。\
-   プロジェクトチームの詳細については、 [プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+  プロジェクトチームの詳細については、 [プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## 問題を削除します
 
@@ -108,26 +112,26 @@ Workfrontまたはグループの管理者が、 **タイムシートと時間�
 1. クリック **問題** をクリックします。
 1. イシューを選択し、 **削除** アイコン ![](assets/delete.png) をクリックします。
 
-1. 削除が許可されている場合は、 **はい、削除します**.\
+1. 削除が許可されている場合は、「 **はい、削除します**.\
    時間が記録される問題の削除をWorkfront管理者が許可していない場合があります。\
    問題の削除に必要なアクセスおよび権限について詳しくは、 [問題の削除](#access-and-permissions-needed).
 
 ### 単一のイシューの削除 {#delete-a-single-issue}
 
-1. 次をクリック： **メイン** メニュー
-1. クリック **プロジェクト**.
+{{step1-to-projects}}
+
 1. 削除する問題を含むプロジェクト名をクリックします。
 1. クリック **問題** をクリックします。
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 削除するイシューの名前をクリックします。
-1. 次をクリック： **詳細** メニュー
+1. 次をクリック： **その他** 問題名の右側にあるメニュー。
 
    ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
-1. クリック **削除**.
-1. 削除が許可されている場合は、 **はい、削除します**.
+1. クリック **問題を削除**.
+1. 削除が許可されている場合は、「 **はい、削除します**.
 
    時間が記録される問題の削除をWorkfront管理者が許可していない場合があります。\
    問題の削除に必要なアクセスおよび権限について詳しくは、 [問題の削除](#access-and-permissions-needed).

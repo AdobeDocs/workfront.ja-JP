@@ -6,10 +6,10 @@ description: プロジェクトの「条件」は、プロジェクトに関連�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 1%
+source-wordcount: '550'
+ht-degree: 0%
 
 ---
 
@@ -23,43 +23,6 @@ Adobe Workfront管理者は、 [カスタム条件の作成または編集](../.
 
 ## アクセス要件
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td><p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   
-   For the current licenses:
-  <p>Standard</p>
-   
-   For legacy licenses:
-   <ul><li><p>Plan</p>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
-   <p>Manage permissions on tasks and issues to update the Condition</p>
-    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -67,27 +30,34 @@ Adobe Workfront管理者は、 [カスタム条件の作成または編集](../.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td><p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td>
+
+新しいライセンスの場合：
+<p>標準</p>
+
+現在のライセンスの場合：
+<ul><li><p>計画</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへの表示またはアクセス権の高さ</p> <p>タスクおよび問題へのアクセスを編集 </p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>タスクおよびタスクの条件を表示するタスクに対する権限を表示または上限に設定します</p>
+   <p>条件を更新するためのタスクおよび問題に関する権限を管理します</p>
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 条件を自動的に設定
 
@@ -104,17 +74,17 @@ Adobe Workfront管理者は、 [カスタム条件の作成または編集](../.
 プロジェクトの条件の種類を進捗状況ステータスではなく手動に設定した場合は、手動でプロジェクトの条件を更新できます。
 
 1. 条件を更新するプロジェクトに移動します。
-1. 次をクリック： **プロジェクトの詳細** 」セクションに入力します。
+1. 次をクリック： **プロジェクトの詳細** 」セクションを使用して、
+
+1. 次の点を確認します。 **条件タイプ** フィールドが **手動**.
 
    ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
 
-1. 次を確認します。 **条件タイプ** フィールドが **手動**.
+1. Adobe Analytics の **条件** 「 」フィールドで、以下のオプションから、関連する作業がスムーズに進むかどうか、または遅延が発生するかどうかを理解できるオプションを選択します。
 
-1. 内 **条件** 「 」フィールドで、以下のオプションから、関連する作業がスムーズに進むかどうか、または遅延が発生するかどうかを理解できるオプションを選択します。
-
-   * **目標どおり**
-   * **リスクあり**
-   * **トラブル発生中**
+   * **ターゲット時**
+   * **危険にさらされて**
+   * **問題が発生している**
 
    プロジェクト条件の詳細については、 [プロジェクト条件と条件タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -122,4 +92,4 @@ Adobe Workfront管理者は、 [カスタム条件の作成または編集](../.
    >
    >条件は、お使いの環境に合わせてカスタマイズできるので、お使いの環境で条件に対して 3 つ以上のオプションを検索できます。 条件の名前は、上記の名前とは異なる場合があります。 Workfrontの条件のカスタマイズについて詳しくは、 [カスタム条件の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-1. クリック **保存**&#x200B;クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。

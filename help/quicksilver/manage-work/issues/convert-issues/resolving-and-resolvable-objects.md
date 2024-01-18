@@ -7,9 +7,9 @@ description: 解決可能なオブジェクトとは、解決が解決オブジ�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1743'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Workfrontの管理者またはグループ管理者は、システム内また�
 >
 >解決可能なオブジェクトとは、常に、解決とステータスが、関連付けられている解決オブジェクトの解決とステータスに依存する可能性のある問題です。 オブジェクトの解決は、問題、タスク、またはプロジェクトになる場合があります。
 
-解決可能なオブジェクトを処理するためのプリファレンスの設定については、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+解決可能なオブジェクトを処理するためのプリファレンスの設定については、 [システム全体のタスクと問題の環境設定を構成する](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -78,11 +78,11 @@ Workfrontまたはグループ管理者がシステムレベルまたはグル�
 
 次のシナリオが存在します。
 
-* Workfrontまたはグループの管理者が **元の問題を保持し、その解決をタスクに結び付けます** そして **元の問題を保持し、その解決をプロジェクトに結び付けます** 選択済みと **変換時にこれらの設定を変更できるようにする** 未選択の場合は、問題をタスクやプロジェクトに変換する際に、これらの設定を変更することはできません。\
-   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+* Workfrontまたはグループの管理者が **元の問題を保持し、その解決をタスクに結び付けます** そして **元の問題を保持し、その解決をプロジェクトに結び付けます。** 「 」と「 」を選択し、 **変換時にこれらの設定を変更できるようにする** 未選択の場合は、問題をタスクやプロジェクトに変換する際に、これらの設定を変更することはできません。\
+  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Workfrontまたはグループの管理者が **元の問題を保持し、その解決をタスクに結び付けます** そして **元の問題を保持し、その解決をプロジェクトに結び付けます** 「選択」または「選択解除」のどちらかで、 **変換時にこれらの設定を変更できるようにする** オンにすると、問題をタスクやプロジェクトに変換する際に、これらの設定を変更できます。\
-   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+* Workfrontまたはグループの管理者が **元の問題を保持し、その解決をタスクに結び付けます** そして **元の問題を保持し、その解決をプロジェクトに結び付けます。** 「選択」または「選択解除」のどちらかで、 **変換時にこれらの設定を変更できるようにする** オンにすると、タスクやプロジェクトに問題を変換する際に、これらの設定を変更できます。\
+  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 問題をタスクやプロジェクトに変換する方法について詳しくは、 [Adobe Workfrontでの変換の問題の概要](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -96,7 +96,7 @@ Workfrontまたはグループ管理者がシステムレベルまたはグル�
 <p>To tie the resolution of an issue to the resolution of a project, task, or issue:</p>
 <ol>
 <li value="1">Navigate to an issue whose resolution you want to tie to a task or a project.</li>
-<li value="2"> <p>  Click the <strong>Issue Details</strong> > <strong>Overview</strong> area. </p> <p> <img src="assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png" style="width: 350;height: 462;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="2"> <p>  Click the <strong>Issue Details</strong> > <strong>Overview</strong> area. </p>  </li>
 <li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Issue Details section. </p> </li>
 <li value="4">At the bottom of the form,  click in the <strong>Resolved By</strong> field,  and select from the following types of resolving objects:
 <ul>
@@ -115,14 +115,14 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## 解決可能なオブジェクトのステータスと解決可能なオブジェクトのステータスの同期 {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [解決オブジェクトが問題の場合にステータスを同期](#synchronize-statuses-when-the-resolving-object-is-an-issue)
-* [Resolving Object がタスクまたはプロジェクトの場合にステータスを同期](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
+* [解決オブジェクトが問題の場合にステータスを同期します](#synchronize-statuses-when-the-resolving-object-is-an-issue)
+* [Resolving Object がタスクまたはプロジェクトの場合にステータスを同期します](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
-### 解決オブジェクトが問題の場合にステータスを同期 {#synchronize-statuses-when-the-resolving-object-is-an-issue}
+### 解決オブジェクトが問題の場合にステータスを同期します {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
 問題が別の問題に手動で結び付けられている場合、2 番目の問題のステータス（オブジェクトの解決）は、最初の問題のステータス（解決可能なオブジェクト）の変更をトリガーします。 1 つ目の問題のステータスは、2 つ目の問題のステータスと一致します。 これは、デフォルトの問題ステータスとカスタムの問題ステータスの両方に当てはまります。
 
-### Resolving Object がタスクまたはプロジェクトの場合にステータスを同期 {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
+### Resolving Object がタスクまたはプロジェクトの場合にステータスを同期します {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 タスクまたはプロジェクトの [ 解決可能なオブジェクト ] に問題がある場合、タスクのステータスが変わり、[ プロジェクト ]トリガーが問題のステータスに変わります。 デフォルトのステータスのトリガー方法は、カスタムステータスとは異なります（この場合は）。
 
@@ -138,7 +138,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 | **タスクステータス** | **問題ステータス** |
 |---|---|
 | 新規 | 新規 |
-| 処理中 | 処理中 |
+| 処理中 | 進行状況 |
 | 完了 | クローズ |
 
 問題がプロジェクトの解決可能なオブジェクトとして設定されている場合、プロジェクトの次のデフォルトステータストリガーは、問題のデフォルトステータスに次の変更を加えます。 一部のプロジェクトステータスでは、トリガーの問題のステータスは変わりません。 問題は、プロジェクトが次のステータスの 1 つに変わる前の状態のままです。
@@ -146,9 +146,9 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 | **プロジェクトステータス** | **問題ステータス** |
 |---|---|
 | 計画 | 新規 |
-| 現在 | 処理中 |
+| 現在 | 進行状況 |
 | 保留中 | 保留中 |
-| 要求済み | 問題ステータスの変更をトリガーしません。 |
+| リクエスト日 | 問題ステータスの変更をトリガーしません。 |
 | 承認済み | 問題ステータスの変更をトリガーしません。 |
 | 拒否 | 問題ステータスの変更をトリガーしません。 |
 | アイデア | 問題ステータスの変更をトリガーしません。 |
@@ -165,7 +165,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 * 「Resolving Object changes のステータスが変更された場合に、解決可能な問題ステータスを自動的に更新する」オプションが選択されている。 この設定を有効にする方法の詳細については、 [解決可能なオブジェクトを処理するためのAdobe Workfrontの設定](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
-* プロジェクトまたはタスクのカスタムステータスは、イシューのカスタムステータスと同じ 3 文字のコードを持ちます。
+* プロジェクトまたはタスクのカスタムステータスには、イシューのカスタムステータスと同じ 3 文字のコードが付きます。
 
 イシューとプロジェクト、タスクの両方で、同じキーを使用してカスタムステータスを作成できます。 プロジェクトまたはタスク（解決オブジェクトとして）がカスタムステータスに変更されると、変更は問題のステータスにも反映されます。 イシュー、プロジェクトまたはタスクのステータスについて、ステータスキーは同じにする必要があります。
 
@@ -189,7 +189,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 1. イシューをプロジェクトまたはタスクに変換して作成したプロジェクトまたはタスクに移動します。
 1. 次をクリック： **プロジェクトの詳細** または **タスクの詳細** アイコンをクリックして展開します。
 1. クリック **概要**.
-1. タブの下部で、を見つけます。 **この解決** フィールド：このフィールドには、プロジェクトまたはタスクの解決可能なオブジェクトである問題が表示されます。
+1. タブの下部で、を見つけます。 **この解決** 「 」フィールド：プロジェクトまたはタスクの「解決可能なオブジェクト」である問題がこのフィールドに表示されます。
 
    >[!NOTE]
    >
@@ -197,7 +197,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## リスト内の解決オブジェクトに関する問題を特定します
 
-問題の一覧で、ステータスアイコンを使用してオブジェクトの解決としてラベル付けされた問題を特定するには、 **ステータスアイコン** または **フラグ** 列：
+問題の一覧で、ステータスアイコンを使用してオブジェクトの解決としてラベル付けされた問題を特定するには、このアイコンを **ステータスアイコン** または **フラグ** 列：
 
 ![](assets/ro1.png)
 
@@ -215,19 +215,19 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
   <tr> 
    <th><strong>ビュー内のフィールド</strong> </th> 
    <th><strong>問題ビュー</strong> </th> 
-   <th><strong>タスク ビュー</strong> </th> 
-   <th><strong>プロジェクト ビュー</strong> </th> 
+   <th><strong>タスクビュー</strong> </th> 
+   <th><strong>プロジェクトビュー</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>解決可能なものがあります</strong>:次の項目を表示します。 <strong>True</strong> の値は、プロジェクトまたはタスクに関連付けられた解決可能な問題がある場合に値と <strong>False</strong> 値を指定します（指定しない場合）。</td> 
+   <td><strong>解決可能なものがあります</strong>：を表示します。 <strong>True</strong> の値は、プロジェクトまたはタスクに関連付けられた解決可能な問題がある場合に値と <strong>False</strong> 値を指定します（指定しない場合）。</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>元の発行名、元の発行日、発行者名</strong>:元のイシューの名前とエントリ日、およびイシューを作成したユーザーの名前をテキストモードのカスタマイズビューで表示します。<br>元の問題に関する情報を表示するプロジェクト、タスクレポート、またはリストのテキストモードカスタムビューの作成について詳しくは、 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">表示：タスクとプロジェクトリストに元の問題情報を表示する</a>.<br></td> 
+   <td><strong>元の発行名、元の発行日、発行者名</strong>：元のイシューの名前とエントリ日、およびイシューを作成したユーザーの名前をテキストモードのカスタマイズビューで表示します。<br>元の問題に関する情報を表示するプロジェクト、タスクレポート、またはリストのテキストモードカスタムビューの作成について詳しくは、 <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">表示：タスクとプロジェクトの一覧に元の問題情報を表示します</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
@@ -239,25 +239,25 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>変換された問題の作成者</strong>:タスクに変換された問題を最初に記録したユーザーに関する情報を表示します。 </td> 
+   <td><strong>変換された問題の作成者</strong>：後でタスクに変換された問題を最初にログに記録したユーザーに関する情報を表示します。 </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>プロジェクトを解決</strong>:元の問題から変換された、または手動で問題の解決オブジェクトとして指定された、プロジェクトの解決に関する情報を表示します。</td> 
+   <td><strong>プロジェクトを解決</strong>：元の問題から変換された、または手動で問題の解決オブジェクトとして指定された、プロジェクトの解決に関する情報を表示します。</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>タスクを解決</strong>:元の問題から変換された、または手動で問題の解決オブジェクトとして指定された解決タスクに関する情報を表示します。</td> 
+   <td><strong>タスクを解決</strong>：元の問題から変換された、または手動で問題の解決オブジェクトとして指定された解決タスクに関する情報を表示します。</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>問題の解決</strong>:問題の解決オブジェクトとして手動で指定された問題の解決に関する情報を表示します。</td> 
+   <td><strong>問題の解決</strong>：問題の解決オブジェクトとして手動で指定された問題の解決に関する情報を表示します。</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 

@@ -6,9 +6,9 @@ description: タスクのステータスを更新して、タスクの場所（�
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,6 @@ ht-degree: 1%
 
 ## アクセス要件
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 タスクを手動で更新するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>仕事以上</p> </td> 
+   <td> <p>新規：標準</p> 
+   または
+   <p>現在：作業以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タスクへのアクセスを編集</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>タスクに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>タスクに対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## タスクのステータスの更新に関する考慮事項
 
@@ -94,20 +64,54 @@ ht-degree: 1%
 
 ## 手動でタスクステータスを更新
 
-タスクのステータスを更新する際に、新しいステータスに関する説明を入力し、期限などの他のタスク情報を変更することもできます。
+Workfrontの次の領域でタスクのステータスを更新できます。
+
+* タスクページのタスクヘッダーです。
+* タスクの編集時の [ タスクの編集 ] ボックス。
+* タスクページの「タスクの詳細」セクション。
+* タスクリストまたはレポートで、[ 状態 ] フィールドがビューに表示されている場合。
+* タスクの Summary パネル。
+
+タスク・ヘッダーのタスク・ステータスを手動で更新する手順は、次のとおりです。
 
 1. ステータスを更新するタスクに移動します。
 1. 次をクリック： **ステータス** タスクヘッダーの「 」フィールドで、新しいステータスを選択します。
-1. （オプション）次のいずれかの操作を行って、更新に関する追加情報を入力し、 **更新** または、タスクに **完了** ステータス、クリック **完了：**
+1. タスクの完了を視覚的に示すには、下のバブルをドラッグまたはダブルクリックします **完了率** タスクのヘッダー内
 
-   * 更新に関するメモを追加するには、 **更新** 領域を開き、 **新しい更新を開始**&#x200B;メモを入力します。
+   または
 
-   * 更新を特定のユーザーに通知するには、ユーザー名を **通知** ボックスが表示されます。 詳しくは、 [更新時の他のユーザーへのタグ付け](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * タスクの条件を更新するには、 **条件を選択** 右に **通知** ボックス（更新に関するメモを入力すると表示されます）に表示され、タスクの現在の条件を最も反映した条件を選択します。
+   タスクのヘッダーのバブル内をクリックして、割合を入力します。
 
-   * タスクのコミット日を更新するには、 **コミット日** ドロップダウン・カレンダを選択し、新しい「コミット日」を選択します。
-   * タスクの完了を視覚的に示すには、「完了の割合」の下にバブルをドラッグするか、ダブルクリックして割合の値を入力します。\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. （オプション）更新に関する追加情報を提供するには、次のいずれかの操作を行います。
+
+   * 更新に関するメモを追加するには、 **更新** 「 」セクションで、「 」をクリックします。 **新しいコメント**&#x200B;メモを入力します。
+
+     ![](assets/add-update-to-task.png)
+
+   * 更新を特定のユーザーに通知するには、ユーザー名を **担当者またはチームのタグ付け** コメントを入力すると表示されるフィールド。 詳しくは、 [更新時の他のユーザーへのタグ付け](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * タスクのコミット日を更新するには、 **タスクの詳細**」、「 **コミット日** フィールドに入力します。 詳しくは、 [タスクを編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  コミット日を更新できるのは、タスクの担当者のみです。
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## タスクのステータスを自動的に更新
 
@@ -123,9 +127,9 @@ Workfrontは、次の表に示すアクションが発生すると、タスク�
  <col> 
  <tbody> 
   <tr> 
-   <td>アクション</td> 
-   <td>元のステータス</td> 
-   <td>新しいステータス</td> 
+   <td><b>アクション</b></td> 
+   <td><b>元のステータス</b></td> 
+   <td><b>新しいステータス</b></td> 
   </tr> 
   <tr> 
    <td>タスクの完了率を 100%に更新</td> 

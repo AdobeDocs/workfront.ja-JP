@@ -6,49 +6,20 @@ description: タスクの完了率を更新して、タスクを完了するた�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # タスクの完了率の表示と更新
 
+<!--Audited:01/2024-->
+
 タスクの完了率を更新して、タスクを完了するためのタスクの進捗状況を示すことができます。
 
 ## アクセス要件
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 タスクを手動で更新するには、次のアクセス権が必要です。
 
@@ -57,27 +28,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>仕事以上</p> </td> 
+   <td> <p>新しいライセンス：標準</p> 
+   または
+   <p>現在のライセンス：作業中以上</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タスクへのアクセスを編集</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>タスクに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>タスクに対する権限の管理</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## タスクの完了率を更新できる領域
@@ -89,15 +61,16 @@ ht-degree: 0%
 
 * **マイルストーン表示で**：タスクの完了率は、プロジェクトリストまたはプロジェクトレポートでマイルストーンビューを使用する際に更新できます。 詳しくは、 [マイルストーンビューの使用](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **タスクを更新する際**：タスクに更新を追加する際に、タスクの「完了率」オプションを更新できます。
+<!--only in legacy commenting: 
+* **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
 
   >[!IMPORTANT]
   >
-  >このオプションは、「完了率を表示」オプションを有効にした後にのみ表示されます。\
-  >タスクの完了率更新バーを有効にするには、次の操作を行います。
+  >This option displays only after you enable the Show Percent Complete option.  
+  >To enable the percent complete update bar for tasks, do the following:   
   >
-  >1. 次に移動： **メイン** メニュー > お名前 >**その他** アイコンが表示されます。**編集** > 選択 **更新ステータスの完了率を表示**.\
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
 * **タスクヘッダー内**：タスクヘッダーでタスクの完了率を更新できます。 詳しくは、 [タスクを編集](../../tasks/manage-tasks/edit-tasks.md).
 
@@ -125,7 +98,7 @@ ht-degree: 0%
 
    または
 
-   をクリックし、 **完了率** 必要な数のバーに、完了したタスクの量を示します。
+   をクリックし、 **完了率** 必要な数のバーをクリックして、完了したタスクの時間（使用可能な場合）を示します。
 
    >[!NOTE]
    >
@@ -133,4 +106,6 @@ ht-degree: 0%
 
 
 1. 完了率を保存するには、キーボードの Enter キーを押します。
+
+プロジェクトの「完了率」も自動的に更新されます。
 

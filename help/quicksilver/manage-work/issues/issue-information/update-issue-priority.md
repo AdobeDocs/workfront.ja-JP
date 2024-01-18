@@ -6,10 +6,10 @@ description: 問題の優先度を定義して、問題の重要度を示すこ�
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 2%
+source-wordcount: '369'
+ht-degree: 3%
 
 ---
 
@@ -37,16 +37,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>問題へのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>問題へのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>問題に対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
 
 ## 問題の優先度の概要
 
@@ -97,13 +97,11 @@ Adobe Workfrontの管理者は、Workfront内で優先度ラベルを変更し�
 ## 問題の優先度の更新 {#update-the-priority-of-an-issue}
 
 1. 優先度を変更する問題に移動します。
-1. クリック **問題の詳細** をクリックします。
+1. クリック **問題の詳細** をクリックします。
 
-   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
+   The **概要** デフォルトでは、「 」セクションが表示されます。
 
-   この **概要** デフォルトでは、「 」セクションが表示されます。
-
-1. 次をクリック： **優先度** フィールド **基本情報** 領域
+1. 次をクリック： **優先度** フィールド **基本情報** 領域。
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
@@ -111,4 +109,4 @@ Adobe Workfrontの管理者は、Workfront内で優先度ラベルを変更し�
 
    システムでのWorkfront管理者の優先度の設定方法に応じて、オプションは異なる場合があります。
 
-1. クリック **変更を保存**.
+1. 「**変更を保存**」をクリックします。
