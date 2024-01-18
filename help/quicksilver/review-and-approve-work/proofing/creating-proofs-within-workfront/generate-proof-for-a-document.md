@@ -6,9 +6,9 @@ description: ドキュメントをWorkfrontにアップロードする際に、�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ If a proof fails to generate after following the steps described in the followin
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン： Pro 以上</p> <p>または</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td> 
+   <p>新規：任意 </p>
+   <p>現在： Pro 以上</p> <p>レガシープラン： Select または Premium</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業またはプラン</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td> 
+   <p>新規：標準</p>
+   <p>現在：作業またはプラン</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -45,19 +49,19 @@ If a proof fails to generate after following the steps described in the followin
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、配達確認権限プロファイルを確認するには、WorkfrontまたはWorkfrontの配達確認管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## ドキュメントのアップロードと配達確認の作成
 
 1. 新しい配達確認を作成するプロジェクト、タスクまたは問題報告に移動します。
-1. 次をクリック： **ドキュメント** タブをクリックします。
+1. 次をクリック： **ドキュメント** タブをクリックします。
 1. ドキュメントをクリック ![](assets/document-icon.png) をクリックします。
-1. クリック **新規追加**&#x200B;を選択し、次に **配達確認** をクリックします。
+1. クリック **新規追加**&#x200B;を選択し、次に **配達確認** をクリックします。
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ If a proof fails to generate after following the steps described in the followin
 ## ドキュメントをアップロードし、配達確認の新しいバージョンを作成する
 
 1. 既存の配達確認の新しいバージョンを作成するプロジェクト、タスクまたは問題を開きます。
-1. 次をクリック： **ドキュメント** タブをクリックします。
+1. 次をクリック： **ドキュメント** タブをクリックします。
 1. 新しいバージョンを追加するドキュメントを選択します。
-1. クリック **新規追加** > **バージョン** > **配達確認**.
+1. クリック **新規追加** > **バージョン** > **配達確認**.
 1. Adobe Analytics の **新しい配達確認のバージョン** 表示されるページで、以下の操作を実行できます。
 
    * [基本ワークフローを使用した詳細な配達確認の作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)

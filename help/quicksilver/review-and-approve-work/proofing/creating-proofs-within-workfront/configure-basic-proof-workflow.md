@@ -6,9 +6,9 @@ description: 基本的なワークフローでは、配達確認に対して複�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1842'
 ht-degree: 1%
 
 ---
@@ -27,19 +27,24 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはそれ以上</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td>
+   <p>新規：任意</p>
+    <p>現在のプラン： Pro 以上</p>
+   <p>レガシープラン：選択またはそれ以上</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td>
+   <p>新規：標準</p>
+    <p>現行：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
    <td>マネージャ以降</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,7 +152,7 @@ ht-degree: 1%
       <td> </td> 
      </tr> 
      <tr> 
-      <td> <p><strong>レビュアーと承認者</strong> </p> </td> 
+      <td> <p><strong>レビュー担当者と承認者</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
@@ -163,7 +168,7 @@ ht-degree: 1%
       <td> </td> 
      </tr> 
      <tr> 
-      <td> <p><strong>作者</strong> </p> </td> 
+      <td> <p><strong>作成者</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
@@ -198,7 +203,7 @@ ht-degree: 1%
    </table>
 
 1. 新しいWorkfrontプランのユーザーは、システム内の任意のユーザーに作成者またはモデレーターの役割を付与できます。 レガシープランのユーザーは、システム内の配達確認ライセンスを持つすべてのユーザーに、作成者またはモデレーターの役割を付与できます。
-1. （オプション）ドロップダウンメニューが開いたまま、メニューの下部で使用可能な追加の権限を選択します。
+1. （オプション）ドロップダウンメニューが開いたままの状態で、メニューの下部で使用可能な追加の権限を選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -208,13 +213,13 @@ ht-degree: 1%
       <td role="rowheader">コメントを解決してアクションを適用する </td> 
       <td> <p>Workfrontユーザーに対し、次の操作を許可します。</p> 
        <ul> 
-        <li>コメントに対する修正後に、 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">配達確認コメントを解決</a>.</li> 
+        <li>コメントに対する修正後、コメントを解決します ( <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">配達確認コメントを解決</a>.</li> 
         <li>コメントにアクションを適用します ( <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">配達確認コメントに対するアクションの使用</a>. </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">タグでプルーフを共有する</td> 
-      <td> <p>レビュー担当者が、任意のWorkfrontユーザーを配達確認に追加できます ( <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">配達確認を共有するようユーザーにタグを付けます</a>.</p> <p>メモ:  <p>これら 2 つのオプションを使用できない（淡色表示）場合、ユーザーは既に権限プロファイルを持ち、コメントの解決、コメントへのアクションの適用、任意のユーザーへのタグ付けを実行できます。 </p> <p>オプションが表示されない場合、追加したユーザーはWorkfrontライセンス所有者ではありません。</p> </p> </td> 
+      <td> <p>レビュー担当者が、任意のWorkfrontユーザーを配達確認に追加できます ( <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">配達確認を共有するようユーザーにタグを付けます</a>.</p> <p>注意：  <p>これら 2 つのオプションを使用できない（淡色表示）場合、ユーザーは既に権限プロファイルを持ち、コメントの解決、コメントへのアクションの適用、任意のユーザーへのタグ付けを実行できます。 </p> <p>オプションが表示されない場合、追加したユーザーはWorkfrontライセンス所有者ではありません。</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -231,7 +236,7 @@ ht-degree: 1%
       <td>Workfrontは、新しいコメント、返信、決定など、配達確認に関するアクティビティが発生するたびにレビュー担当者に電子メールを送信します。 <p>これは、アクティビティの発生を確認できるので、校正プロセスを管理するユーザーにとって最適なオプションです。 </p><p>ユーザーは、自分のアクティビティに関する電子メールアラートを受け取りません。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">コメントに返信</td> 
+      <td role="rowheader">自分のコメントへの返信</td> 
       <td>メールは、誰かが自分のコメントに明示的に返信した場合（自分のコメントに対する自分の返信を除く）にのみ、レビュー担当者に送信されます。 つまり、配達確認の担当者が新しいコメントを作成した場合、レビュー担当者には通知されません。<p>この設定は、配達確認に関する他のコメントが通知されないように、また、自分のコメントに対する返信のみが通知されるように、配達確認のクライアントに対して推奨されます。</p><p>この電子メールアラート設定を持つレビュー担当者は、他の新しいコメントについては通知されませんが、校正ビューアでは、配達確認に関するすべてのコメントを表示できます。</p><p>コメントについて詳しくは、 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">配達確認コメントを表示して返信します</a>.</p></td> 
      </tr> 
      <tr> 
@@ -248,7 +253,7 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">日別サマリ</td> 
-      <td>Workfrontは、自分の以外にアクティビティがある日にのみ、すべてのコメント、返信および決定を記載した 1 つの電子メールを送信します。<p>このアラートは、1 日を通じて複数の更新で圧倒されることなく、プロジェクトの概要を確認するのに適しています。</p><p>このサマリの使用例の 1 つに、部門のリーダーがプロジェクトの全体的な進行状況を監視する場合があります。</p><p>詳しくは、 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">配達確認コメントおよび決定に関する通知を管理</a>.</p></td> 
+      <td>Workfrontは、自分の以外にアクティビティがある日にのみ、すべてのコメント、返信および決定を記載した 1 つの電子メールを送信します。<p>このアラートは、1 日を通じて複数の更新で圧倒されることなく、プロジェクトの概要を確認するのに適しています。</p><p>このサマリの使用例の 1 つに、部門のリーダーがプロジェクトの全体的な進行状況を監視する場合があります。</p><p>詳しくは、 <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">配達確認のコメントおよび決定に関する通知を管理</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">メールなし</td> 
@@ -257,11 +262,11 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. 続行 [配達確認の電子メール設定を指定](#configure-email-settings-for-the-proof) 下
+1. 次で続行 [配達確認の電子メール設定を指定](#configure-email-settings-for-the-proof) 下
 
 ## 配達確認の電子メール設定を指定 {#configure-email-settings-for-the-proof}
 
-1. 内 **電子メール通知** セクションで、電子メール通知とカスタムメッセージを [基本ワークフローを使用した詳細な配達確認の作成](#workflow) この記事の前の部分：
+1. Adobe Analytics の **電子メール通知** セクションで、電子メール通知とカスタムメッセージを、 [基本ワークフローを使用した詳細な配達確認の作成](#workflow) この記事の前の部分：
 
    <table>
    <tbody>
@@ -277,11 +282,11 @@ ht-degree: 1%
    </table>
 
 
-1. 続行 [配達確認の設定](#configure-proof-settings) 下
+1. 次で続行 [配達確認の設定](#configure-proof-settings) 下
 
 ## 配達確認の設定 {#configure-proof-settings}
 
-1. 内 **配達確認の設定** 「 」セクションで、次のいずれかのオプションを選択します。
+1. Adobe Analytics の **配達確認の設定** 「 」セクションで、次のいずれかのオプションを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -324,8 +329,8 @@ ht-degree: 1%
         <li><strong>購読者向けの E メールアラート設定：</strong> 配達確認を購読するすべてのレビュー担当者に割り当てられるデフォルトの E メールアラートです。</li>
        </ul><p>
         <ul>
-         <li><strong>次の項目に必要な電子メールリンクを介した配達確認へのアクセス</strong> 配達確認へのリンクを含む E メールを購読者が受信するかどうかを設定します。 次を選択できます。 <strong>メールなし</strong> （配達確認にアクセスするには、E メールリンクは必要ありません）。 <strong>配達確認通知 E メールのみ</strong> （購読者が、確認なしで E メールで配達確認へのリンクを受け取る）、または <strong>検証および配達確認の通知 E メール</strong> （購読者は、E メールで配達確認へのリンクを受け取り、リンクをクリックして配達確認にアクセスする必要があります。このオプションの目的は、ユーザーがアクセスできる正しい E メールアドレスを入力したことを確認することです）。</li>
-        </ul><p>注意： 配達確認に自動ワークフローが添付されている場合、すべての購読が配達確認の所有者に確認 E メールを生成するので、配達確認の対象となる人物を追加するステージを決定できます。<br></p></p></td> 
+         <li><strong>次の項目に必要な電子メールリンクを使用した配達確認へのアクセス</strong> 配達確認へのリンクを含む E メールを購読者が受信するかどうかを設定します。 次の項目を選択できます。 <strong>メールなし</strong> （配達確認にアクセスするには、E メールリンクは必要ありません）。 <strong>配達確認通知 E メールのみ</strong> （購読者が、確認なしで E メールで配達確認へのリンクを受け取る）、または <strong>検証および配達確認の通知 E メール</strong> （購読者は、E メールで配達確認へのリンクを受け取り、リンクをクリックして配達確認にアクセスする必要があります。このオプションの目的は、ユーザーがアクセスできる正しい E メールアドレスを入力したことを確認することです）。</li>
+        </ul><p>注意：配達確認に自動ワークフローがすべて添付されている場合、すべての購読が配達確認の所有者に確認 E メールを生成するので、配達確認の所有者は、人物を追加するステージを決定できます。<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -334,7 +339,7 @@ ht-degree: 1%
 
    Workfrontは、選択したドキュメントまたは Web サイトの配達確認の生成を開始します。 ドキュメントのアップロードに関する遅延時間は、ファイルサイズとタイプに応じて異なる場合があります。 大きなファイルの生成に時間がかかるので、しばらくお待ちください。 ページから移動すると、Workfrontは引き続きファイルを生成します。 最大ファイルアップロードサイズは 4GB です。
 
-1. 配達確認が生成されたら、「 **配達確認を開く** 校正ビューアを起動します。
+1. 配達確認が生成されたら、「 **配達確認を開く** をクリックして、校正ビューアを起動します。
 
    ![](assets/open-proof-350x132.png)
 

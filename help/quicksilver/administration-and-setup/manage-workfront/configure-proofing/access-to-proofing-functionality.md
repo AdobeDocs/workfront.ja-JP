@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,13 @@ ht-degree: 0%
 
 ## Workfrontでの校正
 
-現在、Workfrontでの校正に関する 2 つのプランオプションがあります。
+現在、Workfrontでの校正に関する 3 つのプランオプションがあります。
 
-* **Workfront Pro+ Plans**:このオプションは、現在のWorkfrontプラン (Pro、Business、Enterprise) のすべてに適用されます。 Pro、Business、または Enterprise Workfrontの各プランをご利用の場合、Work and Plan ライセンスの校正が自動的に含まれます。
-* **Workfront Premium レガシープラン**:このオプションは、従来のWorkfrontプラン (Select、Enterprise、Premium) 用です。 このプランのライセンスには、校正機能が自動的に含まれていません。 ユーザープロファイル内の特定のユーザーに対して、校正アクセス権を付与する必要があります。
+* **ニューWorkfrontプラン**：新しいWorkfrontプランのすべてのライセンスに対して、校正が自動的に含まれます。
+* **現在のWorkfront Pro+プラン**:Pro、Business、Enterprise Workfrontの各プランをご利用の場合は、Work and Plan ライセンスに対する校正が自動的に含まれます。
+* **Workfront Premium レガシープラン**：このオプションは、従来のWorkfrontプラン (Select、Enterprise、Premium) を対象としています。 このプランのライセンスには、校正機能が自動的に含まれていません。 ユーザープロファイル内の特定のユーザーに対して、校正アクセス権を付与する必要があります。
 
-   Workfrontの管理者は、セットアップ/システム/ライセンスに移動して、インスタンスがどのプランにあるかを確認できます。
+  Workfrontの管理者は、セットアップ/システム/ライセンスに移動して、インスタンスがどのプランにあるかを確認できます。
 
 ### Workfrontの校正機能
 
@@ -40,9 +41,9 @@ Workfrontでユーザーの配達確認を作成および表示するための�
 * 配達確認の進行状況およびステータスを追跡します。 詳しくは、 [配達確認の進行状況とステータスの概要](../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
 * Workfront内で校正ユーザーを作成する際に、この節で説明するように、「 Workfront Proof 」権限プロファイルを設定します。
 
-   これらのプロファイルは、Workfrontの配達確認権限でのみ権限に影響し、Workfrontでは影響しません。
+  これらのプロファイルは、Workfrontの配達確認権限でのみ権限に影響し、Workfrontでは影響しません。
 
-* 同じ配達確認の 2 つの配達確認または 2 つのバージョンを比較する。 詳しくは、 [配達確認の比較](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
+* 同じ配達確認の 2 つの配達確認または 2 つのバージョンを比較する。 詳しくは、 [配達確認を比較](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
 * 配達確認の承認レポートを作成します。 詳しくは、  [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * ドキュメントのバージョンレポートで、各ドキュメントのバージョンで現在アクティブな配達確認ステージを表示します。 ステージの名前は、「Active Proof Stages」列に表示されます。 ドキュメントバージョンで現在アクティブなステージがない場合、列は空白になります。 ビューとレポートで使用可能なフィールドについて詳しくは、 [Adobe Workfrontの用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 * 特定のステージに関連付けられているユーザーに対して、自動ワークフローを含む配達確認を表示するタイミングを設定します。 詳しくは、 [ワークフローステージアクティビティに基づく配達確認の表示を設定](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity) in  [ユーザーの共有設定を構成します](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).

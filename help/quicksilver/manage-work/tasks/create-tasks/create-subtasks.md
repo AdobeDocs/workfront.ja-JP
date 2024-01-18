@@ -6,9 +6,9 @@ description: Workfrontでは、タスクに親子関係を設定できます。 
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: fb1f4e609e0cc2b0e9e4d0b36b7ace3fd8937d26
+source-git-commit: 58f2895b1c3964b4481752ddf0df05d41d61f32f
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -26,30 +26,31 @@ Workfrontでは、タスクに親子関係を設定できます。 子タスク�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>仕事以上</p> </td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td> 
+   <p>新規：標準</p>
+   <p>現在：作業以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 タスクへのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">タスクへのアクセス権の付与</a>. Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>. </p> </td> 
+   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクを追加する機能以上を持つ、プロジェクトおよび親タスクに権限を付与する</p> <p>タスクの作成後、タスクに対する「管理」権限が自動的に付与されます</p> <p> タスク権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">タスクの共有 </a>. </p> <p>追加の権限のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>プロジェクトおよび親タスクに権限を付与し、タスクを追加する機能以上を持たせる</p> <p>タスクの作成後、タスクに対する「管理」権限が自動的に付与されます。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## サブタスクを作成
 
-* [タスクリストからサブタスクを作成](#create-subtasks-from-the-task-list)
-* [タスクの「サブタスク」セクションからサブタスクを作成します](#create-subtasks-from-the-task-subtasks-section)
+サブタスクは、タスクリストまたはタスクのサブタスクセクションから作成できます。
 
 ### タスクリストからサブタスクを作成 {#create-subtasks-from-the-task-list}
 
@@ -61,14 +62,15 @@ Workfrontでは、タスクに親子関係を設定できます。 子タスク�
    * 次をクリック： **インデント** アイコン ![](assets/indent-icon-nwe-33x29.png) 選択したタスクをその直上のタスクにサブタスクにする場合。
    * 標準の英語の QWERTY キーボードを使用する場合は、 Option + > (Mac) または Alt + > (Windows) を押します。 他の言語では、 Option + 、 (Mac) または Alt + 、 (Windows) コマンドを使用してインデントすることができます。
 
-      >[!TIP]
-      >
-      >インライン編集でタスクを編集する際に、キーボードショートカットが機能しない。 その場合は、インデントアイコンを使用します ![](assets/cs1.png) サブタスクを作成します。
+     >[!TIP]
+     >
+     >インライン編集でタスクを編集する際に、キーボードショートカットが機能しない。 その場合は、「インデント」アイコンを使用します ![](assets/cs1.png) サブタスクを作成します。
 
-   * 親タスクとして指定するタスクにタスクをドラッグ&amp;ドロップします。
-   >[!NOTE]
-   >
-   >タスクの一覧が [ タスク番号 ] で並べ替えられている場合、およびタスク一覧にグループが適用されていない場合にのみ、タスクのインデントを設定できます。
+   * タスクを親タスクとして指定するタスクの上にドラッグ&amp;ドロップします。
+
+     >[!NOTE]
+     >
+     >タスクの一覧が [ タスク番号 ] で並べ替えられている場合、およびタスク一覧にグループが適用されていない場合にのみ、タスクのインデントを設定できます。
 
 ### タスクの「サブタスク」セクションからサブタスクを作成します {#create-subtasks-from-the-task-subtasks-section}
 

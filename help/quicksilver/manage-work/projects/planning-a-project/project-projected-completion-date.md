@@ -7,9 +7,9 @@ description: 「完了予定日」は、プロジェクト、タスクまたは�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -22,73 +22,44 @@ ht-degree: 0%
 
 ## アクセス要件
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>For current licenses: 
-   <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>For legacy licenses: 
-   <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
-   <li><p>A Plan license to create a report</p> </li></ul>
-      </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 この記事の手順を実行するには、次のアクセス権が必要です。
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>レポートに完了予定日を表示する場合は、「確認」または「完了予定日」を設定します。</p> <p>レポートを作成するためのプランライセンス</p> </td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td> 
+   <p>新規： 
+   <ul><li><p>貢献者以上：レポートに予定完了日を表示する場合</p></li> <li><p>レポートを作成するための標準ライセンス</p></li> </ul>
+
+<p>現在： 
+   <ul><li><p>レポートに完了予定日を表示する場合は、「確認」または「完了予定日」を設定します。</p></li> 
+   <li><p>レポートを作成するためのプランライセンス</p> </li></ul>
+      </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセス権を表示または高くする</p> <p>レポートを作成するには、レポート、ダッシュボード、カレンダーへの編集アクセス権が必要です</p> <p>レポートを作成またはリスト表示を変更するには、フィルター、表示、グループに対する編集アクセス権が必要です</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td> <p>プロジェクトへのアクセス権を表示または高くする</p> <p>レポートを作成するには、レポート、ダッシュボード、カレンダーへの編集アクセス権が必要です</p> <p>レポートを作成またはリスト表示を変更するには、フィルター、表示、グループに対する編集アクセス権が必要です</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>プロジェクトに対する表示権限またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトに対する表示権限またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Adobe Workfrontが完了予定日を決定する方法
 
-「予測完了日」は計算フィールドです。手動で変更することはできません。
+「予測完了日」は計算フィールドで、手動で変更することはできません。
 
 「予測完了日」の決定に使用される基準は、表示するオブジェクトに応じて異なります。
 
@@ -122,27 +93,23 @@ ht-degree: 0%
 
 ## 予定完了日の表示
 
-プロジェクト、タスクおよびイシューの予定完了日をレポートで表示できます。 Workfrontの他の領域で、プロジェクトおよびタスクの完了予定日を表示できます。 
-
-* [プロジェクトの予定完了日の表示](#view-the-projected-completion-date-of-a-project)
-* [タスクの予定完了日の表示](#view-the-projected-completion-date-of-a-task)
-* [問題の予定完了日の表示](#view-the-projected-completion-date-of-an-issue)
+プロジェクト、タスクおよびイシューの予定完了日をレポートで表示できます。 Workfrontの他の領域で、プロジェクトおよびタスクの完了予定日を表示できます。
 
 ### プロジェクトの予定完了日の表示 {#view-the-projected-completion-date-of-a-project}
 
 1. 予定完了日を表示するプロジェクトに移動します。
 1. クリック **プロジェクトの詳細** をクリックします。
-1. 次を見つけます。 **予定完了日** フィールド **概要** 」セクションに入力します。
+1. 次を見つけます。 **予定完了日** フィールド **概要** > **プロジェクトの日付** 」セクションに入力します。
 
 ### タスクの予定完了日の表示 {#view-the-projected-completion-date-of-a-task}
 
 1. 予定完了日を表示するタスクに移動します。
 1. クリック **タスクの詳細** をクリックします。
-1. 次を見つけます。 **予定完了日** フィールド **概要** 」セクションに入力します。
+1. 次を見つけます。 **予定完了日** フィールド **概要** > **タスクの日付と制約** 」セクションに入力します。
 
 ### 問題の予定完了日の表示 {#view-the-projected-completion-date-of-an-issue}
 
-問題に関する「完了予定日」は、問題レポートまたはリスト表示でのみ表示できます。 リストビューの作成は、レポートでのビューの作成と似ています。
+問題に関する「完了予定日」は、問題レポートまたはリスト表示でのみ表示できます。 リストビューの作成は、レポートでのビューの作成と似ています。
 
 「完了予定日」を含む発行レポートを作成する手順は、次のとおりです。
 
