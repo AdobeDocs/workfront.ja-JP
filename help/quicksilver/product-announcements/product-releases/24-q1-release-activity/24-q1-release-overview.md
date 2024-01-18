@@ -4,9 +4,9 @@ description: 2024 年第 1 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: f233b57fc654866be2b82f86fa964470769c381f
+source-git-commit: 2a825387d0a17b459d3c1204ef57c09bae754452
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,11 @@ ht-degree: 0%
 ## Adobe Workfrontの機能強化
 
 * [管理者の機能強化](#administrator-enhancements)
+* [ボードの機能強化](#boards-enhancements)
 * [ドキュメント管理の機能強化](#document-management-enhancements)
+* [ホームの機能強化](#home-enhancements)
 * [統合の強化](#integration-enhancements)
+* [プロジェクトの強化](#project-enhancements)
 * [ストリームと通知の機能強化の更新](#update-stream-and-notification-enhancements)
 
 ### 管理者の機能強化
@@ -58,7 +61,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">配達確認/ドキュメントの決定を過去 12 か月間使用可能に</a></p><p>新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 ヶ月の決定数が表示されるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">配達確認/ドキュメントの決定を過去 12 か月間使用可能に</a></p><p>[!BADGE In production ]{type=Informative}</p><p>新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 ヶ月の決定数が表示されるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -206,7 +209,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能です</a></p><p>自分が所有するプロジェクトでの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能です</a></p><p>自分が所有するプロジェクトでの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -225,7 +228,7 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用した新しいホームの管理者コントロール</a></p><p>管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。 カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択、使用可能なフィルターとグループの選択（およびデフォルトの設定）のためのウィジェット固有のオプションが含まれます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用した新しいホームの管理者コントロール</a></p><p>[!BADGE In production ]{type=Informative}</p><p>管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。 カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択、使用可能なフィルターとグループの選択（およびデフォルトの設定）のためのウィジェット固有のオプションが含まれます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -382,7 +385,7 @@ ht-degree: 0%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションで、コメントに画像をドラッグ&amp;ドロップします</a></p><p>コメントの内容を拡張するために、オブジェクトの「更新」セクションで、コメントや返信内の画像をすばやくドラッグ&amp;ドロップできるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションで、コメントに画像をドラッグ&amp;ドロップします</a></p><p>[!BADGE In production ]{type=Informative}</p><p>コメントの内容を拡張するために、オブジェクトの「更新」セクションで、コメントや返信内の画像をすばやくドラッグ&amp;ドロップできるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -415,7 +418,7 @@ ht-degree: 0%
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントまたはユーザーを検索します。</a></p><p>オブジェクトの「更新」セクションの情報をすばやく見つけるために、コメントまたはコメントに関連付けられた任意のユーザーからキーワードを検索できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントまたはユーザーを検索します。</a></p><p>[!BADGE In production ]{type=Informative}</p><p>オブジェクトの「更新」セクションの情報をすばやく見つけるために、コメントまたはコメントに関連付けられた任意のユーザーからキーワードを検索できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -433,7 +436,7 @@ ht-degree: 0%
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションのコメントに画像をコピーして貼り付けます</a></p><p>メッセージの内容に対するコンテキストを提供するために、コンピューターから画像をコピーして新しい更新または返信に貼り付けることで、コメントに画像をすばやく添付できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションのコメントに画像をコピーして貼り付けます</a></p><p>[!BADGE In production ]{type=Informative}</p><p>メッセージの内容に対するコンテキストを提供するために、コンピューターから画像をコピーして新しい更新または返信に貼り付けることで、コメントに画像をすばやく添付できるようになりました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
