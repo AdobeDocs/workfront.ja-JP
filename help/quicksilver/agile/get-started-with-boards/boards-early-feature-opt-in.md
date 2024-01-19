@@ -7,25 +7,20 @@ description: この記事で、 [!DNL Workfront Boards] 初期機能のオプト
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # の初期の機能オプトイン [!DNL Adobe Workfront] [!UICONTROL ボード]
 
-アドホックカードおよびコネクテッドカードを搭載したボードは、すべてのユーザーが利用できます。2022 年 7 月から、初期の機能オプトイン用に、追加のボード機能を開くことができます。
+の初期の機能オプトイン [!DNL Adobe Workfront] [!UICONTROL ボード] は 2022 年 7 月に発売されました。
 
 [!DNL Adobe Workfront] [!UICONTROL ボード] は、列とカードを含む共有ボードにアクセスできるようにし、チームでのコラボレーションを可能にする柔軟なツールです。
 
 ボードに関する一般的な情報については、 [[!UICONTROL ボード] 概要](/help/quicksilver/agile/boards-overview.md).
-
-## リリーススケジュール
-
-* プレビューでの初期の機能オプトインの開始：2022 年 7 月 23 日
-* 正式リリース： 2022 年 7 月 28 日
 
 ## 機能
 
@@ -138,8 +133,8 @@ ht-degree: 0%
    <td>リリース済み</td>
   </tr>
   <tr>
-   <td>サブタスクをチェックリスト項目としてカードに読み込む</td>
-   <td>予定</td>
+   <td>カードへのサブタスクの読み込み</td>
+   <td>リリース済み</td>
   </tr>
   <tr>
    <td>カードでのフィールドの表示をカスタマイズする</td>
@@ -163,7 +158,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>従来のかんばんカードをボードに移行する</td>
-   <td>この機能は、2023 年 5 月 18 日に実稼動環境で使用できるようになり、初期の機能オプトインには含まれません。</td>
+   <td>この機能は、2023 年 5 月 18 日に実稼動環境で使用でき、初期の機能オプトインには含まれていません。</td>
   </tr>
   <tr>
    <td>ダイナミックボードを作成する</td>
@@ -190,7 +185,7 @@ ht-degree: 0%
 
 ## 初期の機能のオプトイン
 
-### 使用可否
+### 対象
 
 ボードの初期の機能は、すべての組織で利用できます。 関与は完全にオプションです。
 
@@ -198,7 +193,8 @@ ht-degree: 0%
 
 のみ [!DNL Workfront] 管理者は、ボードの初期の機能をオプトインできます。 When a [!DNL Workfront] 管理者は早期の機能を有効にし、組織内のすべてのユーザーがオプトインします。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+{{step1-to-boards}}
+
 1. クリック ![早期機能オプトイン](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL 早期機能オプトイン]) をクリックします。
 1. クリック **[!UICONTROL 有効にする]**.
 1. ボードの初期の機能を使用し始めます。
@@ -228,6 +224,7 @@ ht-degree: 0%
 
 のみ [!DNL Workfront] 管理者は、初期の機能の受信をオプトアウトできます。 次の場合、 [!DNL Workfront] 管理者が初期機能を無効にすると、組織内のすべてのユーザーがオプトアウトされます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL ボード]**.
+{{step1-to-boards}}
+
 1. クリック ![早期機能オプトインが有効](assets/early-feature-opt-in-enabled.png) ([!UICONTROL 早期機能オプトインが有効]) をクリックします。
 1. クリック **[!UICONTROL 無効にする]**.
