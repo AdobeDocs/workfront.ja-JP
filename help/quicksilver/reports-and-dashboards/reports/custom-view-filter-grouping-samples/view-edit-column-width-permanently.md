@@ -2,23 +2,25 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''表示：列の幅を永続的に編集する'
+title: '表示：列の幅を永久的に編集'
 description: 余白をドラッグ&ドロップして目的の幅に合わせて一時的に列の幅を変更できます。 詳細については、「列の幅と順序を変更する」を参照してください。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 261c1b73d785094de4ee8549c856a091920ba04a
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
 # 表示：列の幅を永続的に編集する
 
+<!-- Audited: 1/2024 -->
+
 余白をドラッグ&amp;ドロップして目的の幅に合わせて一時的に列の幅を変更できます。 詳しくは、 [列の幅と順序を変更する](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-ビューの任意の列の幅は、ビューの編集時に列のテキストモードを使用して永久的に変更できます。
+ビューの任意の列の幅を永久的に変更するには、ビューの編集時に、列のテキストモードを使用する必要があります。
 
 ## アクセス要件
 
@@ -29,39 +31,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>ビューの変更をリクエスト </p>
-   <p>レポートの変更計画</p> </td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td> <p>新規：<ul><li>ビューを変更する寄稿者</li><li>レポートを変更するための標準</li></ul></p><p>または</p>現在：<ul><li>ビューの変更をリクエスト</li><li>レポートを変更する計画</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートを変更します</p> <p>フィルター、ビュー、グループへのアクセスを編集してビューを変更します</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr>  
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートを変更します</p> <p>フィルター、ビュー、グループへのアクセスを編集してビューを変更します</p> </td> 
+  </tr>  
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>レポートに対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 列の幅を永続的に編集する
 
 >[!IMPORTANT]
 >
->この記事の「列の幅と順序を一時的に変更する」の説明に従って、列の幅を手動で変更する場合 [列の幅と順序を変更する](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) 列の幅を恒久的に変更した後は、手動によるサイズ変更に応じて列の幅が保持され、次の手順に従って更新された列の幅が上書きされます。 キャッシュをクリアした後、または別のブラウザーからログインした後、次の手順で定義した幅に従って列を表示できます。
+>列の幅を手動で変更する場合は、「 」の項を参照してください。 [列の幅と順序を一時的に変更する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) 記事内 [列の幅と順序を変更する](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) 列の幅を永久的に変更した後は、手動でのサイズ変更に従って列の幅が保持されます。 この場合、以下の手順に従って更新された列の幅が上書きされます。 キャッシュをクリアした後、または別のブラウザーからログインした後、次の手順で定義した幅に従って列を表示できます。
 >
 >テキストモードインターフェイスを使用する際の列の幅のカスタマイズに関する詳細は、 [Adobe Workfrontの用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. オブジェクトのリストに移動します。
-1. 次の **表示** ドロップダウンメニューで、 **新しいビュー**.
+1. 次から： **表示** ドロップダウンメニューで、 **新しいビュー**.
 
 1. クリック **列を追加** をクリックして新しい列を追加します。
 
