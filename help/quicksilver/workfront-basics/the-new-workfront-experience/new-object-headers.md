@@ -5,9 +5,9 @@ title: オブジェクトヘッダーの概要
 description: のオブジェクトに関する情報を一目で確認できます。 [!DNL Adobe Workfront] ヘッダーを確認する際に使用します。 ヘッダーの情報には、オブジェクトの所有者、ステータス、完了率が含まれます。
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '3646'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL Workfront] は、オブジェクトの名前を優先し、可能な限りヘッダー内に領域を割り当てます。 オブジェクト名が長すぎる場合は切り捨てられます。 オブジェクトのフルネームを表示するには、その上にマウスポインターを置きます。
 
-## オブジェクトのヘッダーへのアクセス
+## オブジェクトのヘッダーにアクセスする
 
 内のオブジェクトのヘッダーへのアクセス [!DNL Workfront] は、そのオブジェクトを持つすべてのオブジェクトで同一です。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 この記事では、プロジェクトとタスクおよび問題を含む、すべてのオブジェクトの既定のヘッダーについて説明します。
 
-オブジェクトのヘッダーに関する情報のカスタマイズについては、 [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+オブジェクトのヘッダーに関する情報のカスタマイズについて詳しくは、 [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ## プロジェクトヘッダーの概要
@@ -105,7 +105,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 承認 ] 領域</td> 
-   <td> <p>承認者の 1 人である場合は、次のアイコンを使用して、プロジェクトの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL 承認 ]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL 却下 ]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL 再現率 ]</p> <p>承認者でない場合は、[!UICONTROL 詳細 ] アイコンをクリックします <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>.</p> </td> 
+   <td> <p>承認者の 1 人である場合は、次のアイコンを使用して、プロジェクトの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL 承認 ]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL 却下 ]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL 再現率 ]</p> <p>承認者でない場合は、[!UICONTROL 詳細 ] アイコンをクリックします。 <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,11 +156,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 作業 ] ボタン、[!UICONTROL 完了 ] ボタン、または [!UICONTROL タスクを開始 ] ボタン</p> </td> 
-   <td> <p>タスクが割り当てられている場合は、[!UICONTROL 作業項目 ] <span>または [!UICONTROL タスクを開始 ]</span> ボタンをクリックして現在タスクの操作中であることを示します。または、[!UICONTROL 完了 ] ボタンをクリックして、タスクの完了を示します。</p> <p><span>[!UICONTROL WORK ON IT] ボタンを [!UICONTROL Start Task] ボタンに置き換える方法について詳しくは、 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[!UICONTROL Work On It] ボタンを [!UICONTROL Start] ボタンに置き換えます</a></span>.</p> </td> 
+   <td> <p>タスクが割り当てられている場合は、[!UICONTROL 作業項目 ] <span>または [!UICONTROL タスクを開始 ]</span> ボタンをクリックして現在タスクの操作中であることを示します。または、[!UICONTROL 完了 ] ボタンをクリックして、タスクの完了を示します。</p> <p><span>[!UICONTROL WORK ON IT] ボタンを [!UICONTROL Start Task] ボタンに置き換える方法については、 <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[!UICONTROL Work On It] ボタンを [!UICONTROL Start] ボタンに置き換えます</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 計画完了日 ]</td> 
-   <td> <p>タスク「[!UICONTROL 計画完了日 ]」を編集できます <span>および時間</span> 」と入力します。</p> <p>ヒント：[!UICONTROL Commit Date] はヘッダーに表示されないことに注意してください。 このレポートは、 [!UICONTROL 詳細 ] ページで表示できます。</p> </td> 
+   <td> <p>タスク「[!UICONTROL 計画完了日 ]」を編集できます <span>および時刻</span> 」と入力します。</p> <p>ヒント： [!UICONTROL コミット日 ] はヘッダーに表示されません。 このレポートは、 [!UICONTROL 詳細 ] ページで表示できます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ステータス ]</td> 
@@ -168,7 +168,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 承認 ] 領域</td> 
-   <td> <p>承認者の 1 人である場合は、次のアイコンを使用してタスクの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL 承認 ]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL 却下 ]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL 再現率 ]</p> <p>承認者でない場合は、[!UICONTROL 詳細 ] アイコンをクリックします <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>.</p> </td> 
+   <td> <p>承認者の 1 人である場合は、次のアイコンを使用してタスクの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL 承認 ]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL 却下 ]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL 再現率 ]</p> <p>承認者でない場合は、[!UICONTROL 詳細 ] アイコンをクリックします。 <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,11 +219,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 作業 ]、[!UICONTROL 完了 ]、 <span>または [!UICONTROL 問題の開始 ] ボタン</span></td> 
-   <td>問題が割り当てられている場合は、[!UICONTROL 作業 ] <span>または [!UICONTROL Start Issue]</span> ボタンをクリックして現在問題の処理中であることを示します。または、[!UICONTROL 完了 ] ボタンをクリックして問題の完了を示します。<span>[!UICONTROL WORK ON IT] ボタンを [!UICONTROL Start Task] ボタンに置き換える方法について詳しくは、</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[!UICONTROL Work On It] ボタンを [!UICONTROL Start] ボタンに置き換えます</a></span><span>.</span></td> 
+   <td>問題が割り当てられている場合は、[!UICONTROL 作業 ] <span>または [!UICONTROL Start Issue]</span> ボタンをクリックして現在問題の処理中であることを示します。または、[!UICONTROL 完了 ] ボタンをクリックして問題の完了を示します。<span>[!UICONTROL WORK ON IT] ボタンを [!UICONTROL Start Task] ボタンに置き換える方法については、</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">[!UICONTROL Work On It] ボタンを [!UICONTROL Start] ボタンに置き換えます</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 計画完了日 ]</td> 
-   <td> <p>問題「[!UICONTROL 計画完了日 ]」を編集できます <span>および時間</span> 」と入力します。</p> <p>ヒント：[!UICONTROL Commit Date] はヘッダーに表示されないことに注意してください。 このレポートは、 [!UICONTROL 詳細 ] ページで表示できます。</p> </td> 
+   <td> <p>問題「[!UICONTROL 計画完了日 ]」を編集できます <span>および時刻</span> 」と入力します。</p> <p>ヒント： [!UICONTROL コミット日 ] はヘッダーに表示されません。 このレポートは、 [!UICONTROL 詳細 ] ページで表示できます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ステータス ]</td> 
@@ -231,7 +231,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 承認 ] 領域</td> 
-   <td> <p>承認者の 1 人である場合は、次のアイコンを使用して、問題の承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL 承認 ]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 却下 ]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 再現率 ]</p> <p>承認者でない場合は、[!UICONTROL 詳細 ] アイコンをクリックします <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>.</p> </td> 
+   <td> <p>承認者の 1 人である場合は、次のアイコンを使用して、問題の承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL 承認 ]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 却下 ]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 再現率 ]</p> <p>承認者でない場合は、[!UICONTROL 詳細 ] アイコンをクリックします。 <img src="assets/more-icon-for-approvals-area.png"> をクリックして、現在の承認ステップに関する情報を表示します。</p> <p>承認について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -253,7 +253,7 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Portfolio</td> 
+   <td role="rowheader">Portfolio名を含むパンくず</td> 
    <td> <p>[!UICONTROLPortfolio] には、[!UICONTROL プログラム ] のヘッダーからアクセスできます。 親の名前をクリックすると、その親オブジェクトが開きます。</p> <p>詳しくは、 <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">パンくずリストの概要</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -261,7 +261,7 @@ ht-degree: 0%
    <td> <p>オレンジ色の [!UICONTROL Program] アイコン <img src="assets/nwe-programs-icon.png"> は、プログラム名の左側に表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">プログラム名</td> 
+   <td role="rowheader">プログラムの名前</td> 
    <td>ヘッダーでプログラム名を編集できます。</td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ ht-degree: 0%
    <td> <p>プログラムが非アクティブ化されている場合、ヘッダー内のプログラム名の上に「[!UICONTROL PROGRAM DEACTIVATED]」というテキストが表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">プログラムのアクション領域</td> 
+   <td role="rowheader">プログラムの「アクション」領域</td> 
    <td> <p>プログラム名の横に、[!UICONTROL actions] 領域が表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
   </tr> 
   <tr> 
@@ -447,7 +447,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 完了日 ]</td> 
-   <td>テンプレートタスクが完了する必要がある日です。</td> 
+   <td>テンプレートタスクが完了する必要があるテンプレート期間の日です。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -563,7 +563,7 @@ ht-degree: 0%
 
 ![](assets/team-header-350x23.png)
 
-チームヘッダーには、次の情報が表示されます。
+チームのヘッダーには、次の情報が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -734,12 +734,12 @@ ht-degree: 0%
    <td> <p>「[!UICONTROL DOCUMENT]」というテキストは、ヘッダー内のドキュメント名の上に表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ドキュメントのアクション領域</td> 
-   <td> <p>ドキュメント名の横に、アクション領域が表示されます。</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td role="rowheader">ドキュメントの「アクション」領域</td> 
+   <td> <p>ドキュメント名の横に、「アクション」領域が表示されます。</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 決定 ] の承認領域</td> 
-   <td> <p>ドキュメントが承認ステップの間、[!UICONTROL 決定 ] 領域がドキュメントヘッダーの右上隅に表示されます。</p> <p>次のアイコンを使用して、ドキュメントの承認を管理します。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL 承認 ]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 再現率 ]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 却下 ]</p> <p>承認の決定について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">作業の承認 </a>.</p> </td> 
+   <td> [!UICONTROL 決定 ] 領域は、ドキュメントヘッダーの右上隅に表示されます。この領域は、承認フェーズと、承認者、レビュー担当者、またはその両方によって異なります。 <ul><li> <p>承認者の場合は、次のアイコンを使用してドキュメントの承認を管理できます。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL 承認 ]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL 再現率 ]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL 却下 ]</p> <p>承認の決定について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">作業の承認</a>.</li><li><p>レビュー担当者の場合は、「レビューを完了」ボタンをクリックして、ドキュメントをレビューしたことを示すことができます。</p><p>ドキュメントのレビューについて詳しくは、 <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">ドキュメントのレビュー</a>.</p></li><li>それ以外の場合は、この領域にはドキュメントの現在のレビューおよび承認ステータスが表示されます。</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -770,7 +770,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトタイプの名前</td> 
-   <td> <p>「[!UICONTROL COMPANY]」というテキストがヘッダー内の会社名の上に表示されます。</p> </td> 
+   <td> <p>「[!UICONTROL COMPANY]」というテキストが、ヘッダー内の会社名の上に表示されます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">会社のアクション領域</td> 
@@ -787,7 +787,7 @@ ht-degree: 0%
 
 ![](assets/nwe-plan-header-350x34.png)
 
-プランは、 [!DNL Workfront Scenario Planner]. 詳しくは、 [!DNL Scenario Planner]を参照してください。 [この [!DNL Scenario Planner] 概要](../../scenario-planner/scenario-planner-overview.md).
+プランは、 [!DNL Workfront Scenario Planner]. 詳しくは、 [!DNL Scenario Planner]を参照してください。 [The [!DNL Scenario Planner] 概要](../../scenario-planner/scenario-planner-overview.md).
 
 プラン・ヘッダーには、次の情報が表示されます。
 
@@ -825,13 +825,13 @@ ht-degree: 0%
    <td role="rowheader">追加のプランアクション</td> 
    <td> <p>プラン名とアクション領域の下で、次の操作を実行できます。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 競合を表示 ]</strong>:この切り替えをクリックすると、イニシアチブ内の競合が表示または非表示になります。</p> </li> 
-     <li> <p><strong>[!UICONTROL シナリオの比較 ]</strong>:このリンクをクリックすると、作成したシナリオの比較が並んで表示されます。</p> </li> 
-     <li> <p><strong>[!UICONTROL シナリオの選択 ]</strong>:このドロップダウンメニューでは、シナリオをコピーするか、「 」を選択して別のシナリオを表示できます。</p> </li> 
+     <li> <p><strong>[!UICONTROL 競合を表示 ]</strong>：この切り替えをクリックすると、イニシアチブ内の競合の表示と非表示が切り替わります。</p> </li> 
+     <li> <p><strong>[!UICONTROL シナリオの比較 ]</strong>：このリンクをクリックすると、作成したシナリオの比較が並んで表示されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL シナリオの選択 ]</strong>：このドロップダウンメニューでは、シナリオをコピーするか、「 」を選択して別のシナリオを表示できます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ジョブの役割情報</td> 
+   <td role="rowheader">ジョブの役割の情報</td> 
    <td>「[!UICONTROL ジョブの役割 ]」ボックスで、必要なジョブの数と比較して、プランで使用可能なジョブの役割の数を確認できます。 ボックスをクリックすると、使用可能なジョブの役割を調整できます。</td> 
   </tr> 
   <tr> 
@@ -898,7 +898,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Progress]</td> 
-   <td>目標の達成率を示し、目標の達成率を示します。 目標の進行状況は更新できません。 Workfrontは、目標に関する各進捗状況インジケーターの進捗状況に基づいて計算します。</td> 
+   <td>目標の達成率を示し、目標の達成率を示します。 目標の進行状況を更新することはできません。 Workfrontは、目標に関する各進捗状況インジケーターの進捗状況に基づいて計算します。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 所有者 ]</td> 
@@ -906,7 +906,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 期間 ]</td> 
-   <td>目標を達成する必要がある期間。 </td> 
+   <td>目標を完了する必要がある期間。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 条件 ]</td> 

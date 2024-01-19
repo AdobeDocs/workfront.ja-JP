@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 6ea6a81ad99178b24d4f6d7034394d8b4e137918
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント承認用に更新されたステータス</a></p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント承認用に更新されたステータス</a></p><p>[!BADGE In production ]{type=Informative}</p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">レビューを完了としてマーク</a></p><p>ドキュメントがレビューされ、次の承認ステージに進む準備が整ったときに、より明確にするために、新しい <strong>レビューを完了</strong> 」ボタンをクリックします。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">レビューを完了としてマーク</a></p><p>[!BADGE In production ]{type=Informative}</p><p>ドキュメントがレビューされ、次の承認ステージに進む準備が整ったときに、より明確にするために、新しい <strong>レビューを完了</strong> 」ボタンをクリックします。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -172,7 +172,7 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのヘッダーにドキュメントのレビューと承認のステータスが表示されます</a></p><p>レビューと承認のプロセスをより透明にするために、ドキュメントの詳細ページのヘッダーにステータスを追加しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのヘッダーにドキュメントのレビューと承認のステータスが表示されます</a></p><p>[!BADGE In production ]{type=Informative}</p><p>レビューと承認のプロセスをより透明にするために、ドキュメントの詳細ページのヘッダーにステータスを追加しました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>
@@ -210,7 +210,7 @@ ht-degree: 0%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能です</a></p><p>自分が所有するプロジェクトでの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能です</a></p><p>[!BADGE In production ]{type=Informative}</p><p>自分が所有するプロジェクトでの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。</p>
                     </td>
                     <td><p><b>次の日に利用可能：</b></p>
                         <ul>

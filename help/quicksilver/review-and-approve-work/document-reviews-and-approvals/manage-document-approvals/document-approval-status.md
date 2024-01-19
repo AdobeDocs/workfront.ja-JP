@@ -6,17 +6,14 @@ description: ドキュメントの承認ステータスの一覧と説明
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 4%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
 # ドキュメントの承認ステータス
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。 この機能は、プレビューサンドボックス環境でのみ使用できます。</span>
-
 
 ドキュメントの承認ステータスは、ドキュメントのヘッダーで確認できます。
 
@@ -58,7 +55,7 @@ ht-degree: 4%
                 </tr>
                  <tr>
                     <td>
-                        確認済み</p>
+                        レビュー済み</p>
                     </td>
                     <td>
                         <ul>
