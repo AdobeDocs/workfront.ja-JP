@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # 新しいコメントエクスペリエンス
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ The new commenting experience will slowly become available for all the objects w
 * オブジェクトに新しいコメントが追加されたときのリアルタイムインジケーター
 * 送信後のコメントの編集
 
-次の機能が新しいエクスペリエンスから削除されました。
+次の機能は、削除されたか、新しいエクスペリエンスで非推奨（廃止予定）になります：
 
 * システム更新に対するコメント
-* コメント中にステータス、条件、コミット日を編集可能
+* タスクと問題に関するコメントを作成中に、ステータス、条件、コミット日、完了率を編集できる
 * カスタムフォームを編集
 * Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報が最初に削除されました。 2023 年 10 月 19 日に復帰しました。
 * ドキュメントにコメントを追加する際に担当者にタグを付ける際に「承認を求める」オプション。
+* ユーザーのプロファイルボックスの編集時の「更新ステータスでパーセント完了を表示」設定は削除されます。 タスクまたはイシューの完了率を更新する機能が削除されました。
+* タスクまたはイシューの担当者がコミット日を編集した「更新」領域のプロジェクト所有者に対する通知 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

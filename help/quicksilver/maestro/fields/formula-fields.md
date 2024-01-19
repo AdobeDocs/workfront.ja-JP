@@ -4,9 +4,9 @@ description: Adobeマエストロでは、関数と既存のフィールドを�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ recommendations: noDisplay, noCatalog
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>レコードの ID を返します。</p> <p>式の形式は次のとおりです。
+   <td> <p>レコードの ID を返します。 各レコードには一意の ID が割り当てられます。</p> <p>式の形式は次のとおりです。
 
 <code>{ID}</code>
 </p>

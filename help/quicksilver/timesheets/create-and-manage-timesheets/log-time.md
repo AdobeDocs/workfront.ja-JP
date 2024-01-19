@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3526'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ Workfrontの次の領域で時間をログに記録できます。
 
 #### 新しいホーム領域から作業項目に対する時間を記録する
 
+Summary パネルを使用すると、任意のウィジェット内の任意のオブジェクトに時間を記録できます。 詳しくは、 [概要パネル](#summary-panel) 」の節を参照してください。
+
+さらに、マイワークウィジェットの項目の時刻を記録するには、次の手順を実行します。
+
 1. にアクセス **ホーム** 領域。
-1. 次のウィジェットのいずれかを追加します。
+1. 次を追加： **自分の仕事** ウィジェットをホームに送信します。
+1. タスク、イシュー、またはリスト内のリクエストを選択し、 **作業する**
+1. ログに記録するタスクまたは問題の上にマウスポインターを置き、 **ログ時間** アイコン ![](assets/log-time-icon-in-new-home.png) をタスク情報の右側に追加します。
 
-   * マイタスク
-   * マイ問題
-   * 担当作業
-   * マイリクエスト
-1. タスク、イシュー、またはリスト内のリクエストを選択し、 **概要**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   または
-
-   次をクリック： **概要** アイコン ![](assets/open-summary-icon-in-home.png) 自分の作業ウィジェットのタスクまたは問題から
-
-   右側に Summary パネルが開きます。
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. Summary パネルでログ時間の記録を続行します。詳しくは、 [概要の概要](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. クリック **ログ時間**.
 
 #### 従来のホーム領域から作業項目に対する時間を記録する
 

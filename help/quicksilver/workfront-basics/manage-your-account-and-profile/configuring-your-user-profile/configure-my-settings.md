@@ -6,10 +6,10 @@ description: お使いの [!DNL Adobe Workfront] プロファイルには、自�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -240,7 +240,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 電子メールアドレス ]</strong></td> 
-   <td> 電子メールアドレスを更新します。 これは必須フィールドです. 電子メールアドレスは、 [!DNL Workfront].</td> 
+   <td> 電子メールアドレスを更新します。 これは必須フィールドです。 電子メールアドレスは、 [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL パスワードをリセット ]</strong></td> 
@@ -340,7 +340,9 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 更新ステータスの完了率を表示 ]</strong> </td> 
-   <td>タスクの [!UICONTROL ステータスの更新 ] フィールドにパーセント記号を表示するには、このチェックボックスを選択します。これにより、タスクの更新の入力時にタスクの完了率を更新できます。</td> 
+   <td>従来のコメントエクスペリエンスを使用する場合に、タスクの更新領域内に完了率のバーを表示するには、このオプションを選択します。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL 自分に割り当てられた作業を自分の「作業」タブに送信する ]</strong> </td> 
@@ -475,7 +477,7 @@ a のみ [!DNL Workfront] 管理者は、この節のすべてのフィールド
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（条件付き）1 つ以上の他のロールを選択した場合、各ロールに対して「[!UICONTROL 可用性の割合 ]」フィールドが表示されます。</strong></td> 
-   <td> <p>各ジョブの役割に割り当てる予定時間の割合を指定します。 [!UICONTROL その他の役割 ] の [!UICONTROL FTE の可用性の割合 ] のデフォルト値は 0%です。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>メモ:  
+   <td> <p>各ジョブの役割に割り当てる予定時間の割合を指定します。 [!UICONTROL その他の役割 ] の [!UICONTROL FTE の可用性の割合 ] のデフォルト値は 0%です。</p> <p> <img src="assets/user-settings-roles-and-dte-boxes-rp-story--1--350x224.png" alt="user_settings_roles_and_dte_boxes_rp_story__1_.png" style="width: 350;height: 224;"> </p> <p>注意：  
      <ul> 
       <li>[!UICONTROL その他のロール ] の FTE 可用性が 0%の場合、ユーザーがこれらのロールのタスクに割り当てられていない限り、[!UICONTROL リソースプランナー ] には表示されません。</li> 
       <li> <p>すべての <strong>[!UICONTROL FTE の可用性の割合 ]</strong> は、すべてのロールが 100%に等しい必要があります。 [!UICONTROL FTE の可用性の割合 ] ごとに、[!UICONTROL Resource Planner] のユーザーごとの役割ごとに [!UICONTROL Available Hours] が計算されます。 </p> <p>各ユーザーの役割の [!UICONTROL 使用可能な時間 ] は、ユーザーの使用可能な時間によって異なります。 ユーザーの使用可能な時間は、 [!DNL Workfront] 次の条件を満たす： [!DNL Workfront] 管理者：[!UICONTROL リソース管理環境設定 ] で FTE を計算します。 ユーザーの可用性の計算の詳細については、 <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールに対する時間と工数の計算の概要</a>. リソース管理環境設定の詳細については、「 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">リソース管理環境設定の指定</a>.</p> </li> 
