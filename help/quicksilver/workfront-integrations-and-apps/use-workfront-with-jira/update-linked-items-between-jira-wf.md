@@ -6,9 +6,9 @@ description: リンク時 [!DNL Jira] 問題 [!DNL Adobe Workfront] タスクま
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1570'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 項目間のリンクの詳細 [!DNL Workfront] および [!DNL Jira]を参照してください。 [Adobe Workfrontと Jira 間の項目のリンク](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
-設定時に [!DNL Workfront] 対象 [!DNL Jira]、 [!DNL Jira] システム管理者は、1 つのアプリケーションの特定のフィールドを、他のアプリケーションのリンクされたアイテムのフィールドと同期するように設定できます。
+設定時に [!DNL Workfront] 対象： [!DNL Jira], as a [!DNL Jira] システム管理者は、1 つのアプリケーションの特定のフィールドを、他のアプリケーションのリンクされたアイテムのフィールドと同期するように設定できます。
 
-リンクされたフィールド間の同期の詳細 [!DNL Jira] および [!DNL Workfront] 項目： [設定 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+リンクされたフィールド間でのフィールドの同期の詳細 [!DNL Jira] および [!DNL Workfront] 項目： [設定 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 ## アクセス要件
 
@@ -34,45 +34,49 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] 計画</a>*</td> 
-   <td> <p>[!UICONTROL Pro] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td><p>新規：任意</p>
+       <p>または</p>
+       <p>現在： [!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] ライセンスの概要</a>*</td> 
-   <td> <p>[!UICONTROL プラン ]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td><p>新規： [!UICONTROL Standard]</p>
+       <p>または</p>
+       <p>現在： [!UICONTROL プラン ]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] アクセス</td> 
-   <td> <p>システム管理者のアクセス権</p> <p>重要：で別々のシステム管理者アカウントを作成することをお勧めします。 [!DNL Jira] および [!DNL Workfront] ユーザーに付随する可能性のある既存の統合を使用するのではなく、この統合専用にする場合。</p> </td> 
+   <td> <p>システム管理者のアクセス権</p> <p>重要：では、個別のシステム管理者アカウントを作成することをお勧めします。 [!DNL Jira] および [!DNL Workfront] ユーザーに付随する可能性のある既存の統合を使用するのではなく、この統合専用にする場合。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。 詳しくは、 [!DNL Workfront] 管理者向け： <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
-次の間で項目をリンクする前に [!DNL Workfront] および [!DNL Jira]を
+次の間で項目をリンクする前に： [!DNL Workfront] および [!DNL Jira]を使用する場合は、次の操作を行う必要があります。
 
 * インストール [!DNL Workfront for Jira].
 
-   インストールの手順 [!DNL Workfront for Jira]を参照してください。 [インストール [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+  インストールの手順 [!DNL Workfront for Jira]を参照してください。 [インストール [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
 * 設定 [!DNL Workfront for Jira].
 
-   設定手順 [!DNL Workfront for Jira]を参照してください。 [設定 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+  設定の手順については、 [!DNL Workfront for Jira]を参照してください。 [設定 [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-* 項目をリンク [!DNL Workfront] および [!DNL Jira].
+* 次の間に項目をリンク [!DNL Workfront] および [!DNL Jira].
 
-   手順については、 [項目をリンク [!DNL Adobe Workfront] および [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
+  手順については、 [次の間に項目をリンク [!DNL Adobe Workfront] および [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
-## のリンクされた項目を更新 [!DNL Workfront]
+## でのリンクされた項目の更新 [!DNL Workfront]
 
-主に [!DNL Workfront]の場合、 [!DNL Workfront] そして彼らの仲間は [!DNL Jira] また、を更新します。 この更新は、 [!DNL Workfront] 対象 [!DNL Jira] これは、 [!DNL Jira] ライセンス。
+主に [!DNL Workfront]を更新すると、 [!DNL Workfront] そして彼らの仲間は [!DNL Jira] また、を更新します。 この更新は、 [!DNL Workfront] 対象： [!DNL Jira] これは、 [!DNL Jira] ライセンス。
 
 あなたの [!DNL Workfront] 管理者が設定しました [!DNL Workfront for Jira] リンクされた項目間のフィールドを同期するには、 [!DNL Workfront] リンクされた [!DNL Jira] 問題。 項目の更新について詳しくは、 [!DNL Workfront]を参照してください。 [問題の編集](../../manage-work/issues/manage-issues/edit-issues.md) および [タスクを編集](../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -97,16 +101,16 @@ ht-degree: 0%
    <td> <p> [!UICONTROL 問題の説明 ]</p> <p>更新された説明に関するコメントが <strong>[!DNL Workfront]</strong> タブ [!DNL Jira] 問題。<br></p> </td> 
   </tr> 
   <tr> 
-   <td> <p> [!UICONTROL アップロード済みドキュメント ]</p> <p>注意：リンク先のドキュメント [!DNL Workfront] 外部サーバーの項目は、 [!DNL Jira] 問題。 に直接アップロードされたドキュメントのみ [!DNL Workfront] 項目もリンクされた [!DNL Jira] 問題。 </p> </td> 
+   <td> <p> [!UICONTROL アップロード済みドキュメント ]</p> <p>注意：リンク先のドキュメント [!DNL Workfront] 外部サーバーの項目は、 [!DNL Jira] 問題。 に直接アップロードされたドキュメントのみ [!DNL Workfront] 項目も、リンクされた [!DNL Jira] 問題。 </p> </td> 
    <td> <p>[!UICONTROL 添付ファイル ]</p> <p>アップロードされた添付ファイルに関するコメントが <strong>[!DNL Workfront]</strong> タブ [!DNL Jira] 問題。<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 計画完了日 ]</td> 
-   <td> <p>[!UICONTROL 期限 ]</p> <p>[!UICONTROL Due Date] の変更に関するコメントが [!DNL Workfront] タブ [!DNL Jira] 問題。 </p> <p>注意：有効にする必要があります <strong>[!UICONTROL 期限 ]</strong> の [!DNL Jira] このフィールドを表示するための問題を [!UICONTROL Jira] で更新しました。 </p> </td> 
+   <td> <p>[!UICONTROL 期限 ]</p> <p>[!UICONTROL Due Date] の変更に関するコメントが [!DNL Workfront] タブ [!DNL Jira] 問題。 </p> <p>注意： <strong>[!UICONTROL 期限 ]</strong> の [!DNL Jira] このフィールドを表示するための問題を [!UICONTROL Jira] で更新しました。 </p> </td> 
   </tr> 
   <tr> 
    <td>カスタムFormsとカスタムフィールド</td> 
-   <td> <p> 次に表示： [!DNL Workfront] 右パネル [!DNL Jira] 問題。 <br>実際の値を持つカスタムフィールドのみがパネルに表示されます。<br></p> <p>注意：カスタムフォームセクションが、 [!DNL Workfront] 管理者。 </p> </td> 
+   <td> <p> 次に表示： [!DNL Workfront] 右パネル [!DNL Jira] 問題。 <br>実際の値を持つカスタムフィールドのみがパネルに表示されます。<br></p> <p>注意：カスタムフォームセクションは、 [!DNL Workfront] 管理者。 </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 問題またはタスクの優先度 ]</td> 
@@ -118,16 +122,16 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td>[!UICONTROL コメント ]</td> 
-   <td> <p>コメントが <strong>[!DNL Workfront]</strong> タブ [!DNL Jira] 問題。 この変数は、 <strong>[!UICONTROL コメント ]</strong> タブ [!DNL Jira] 問題</p> <p>注意：2 つの既存の項目を手動でリンクすると、 [!DNL Workfront] 項目をリンクする前に [!DNL Jira] 同期しない [!DNL Jira] 問題。 </p> </td> 
+   <td> <p>コメントが <strong>[!DNL Workfront]</strong> タブ [!DNL Jira] 問題。 この変数は、 <strong>[!UICONTROL コメント ]</strong> タブ [!DNL Jira] 問題</p> <p>注意： 2 つの既存の項目を手動でリンクすると、 [!DNL Workfront] 項目をリンクする前に [!DNL Jira] 同期しない [!DNL Jira] 問題。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## のリンクされた項目を更新 [!DNL Jira]
+## でのリンクされた項目の更新 [!DNL Jira]
 
-主に [!DNL Jira]の場合、 [!DNL Jira] そして彼らの仲間は [!DNL Workfront] また、を更新します。 必ずしも [!DNL Workfront] のライセンス [!DNL Workfront] リンクされた項目 [!DNL Jira] お客様が行っている更新を受け取るための問題 [!DNL Jira].
+主に [!DNL Jira]を更新すると、 [!DNL Jira] そして彼らの仲間は [!DNL Workfront] また、を更新します。 必ずしも [!DNL Workfront] ～のライセンス [!DNL Workfront] リンクされた項目 [!DNL Jira] お客様が行っている更新を受け取るための問題 [!DNL Jira].
 
-次の条件を満たし、 [!DNL Workfront] 管理者が設定しました [!DNL Workfront] 対象 [!DNL Jira] リンクされた項目間のフィールドを同期するには、 [!DNL Jira] リンクされた [!DNL Workfront] 項目。
+次の条件を満たしている場合、 [!DNL Workfront] 管理者が設定しました [!DNL Workfront] 対象： [!DNL Jira] リンクされた項目間のフィールドを同期するには、 [!DNL Jira] リンクされた [!DNL Workfront] 項目。
 
 次のリストは、 [!DNL Jira] 次と同期するフィールド [!DNL Workfront] リンクされた項目のフィールド：
 
@@ -143,27 +147,23 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td>[!UICONTROL 問題ステータス ]</td> 
-   <td> <p> [!UICONTROL 問題またはタスクのステータス ]</p> <p>の問題ステータス [!DNL Jira] Workfrontで、次のステータスまたはステータスに等しいステータスを同期します。</p> 
+   <td> <p> [!UICONTROL 問題またはタスクのステータス ]</p> <p>問題のステータス： [!DNL Jira] Workfrontで、次のステータスまたはステータスに等しいステータスを同期します。</p> 
     <ul> 
      <li> <p>[!UICONTROL 新規 ] （[!UICONTROL 新規 ]）</p> </li> 
      <li> <p>[!UICONTROL 処理中 ] ([!UICONTROL INP])</p> </li> 
      <li> <p>[!UICONTROL クローズ済み ]/[!UICONTROL 完了 ] ([!UICONTROL CLS]/[!UICONTROL CPL])</p> </li> 
-    </ul> <p>注意：この [!DNL Jira] 最初の [!DNL Workfront] 適切なステータスに等しいステータス。</p> <p>項目のステータスについて詳しくは、 [!DNL Workfront]を参照してください。 <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">ステータスの作成または編集</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL 担当者の問題 ]</td> 
-   <td> <p> [!UICONTROL 問題またはタスクの担当者 ]</p> <p>重要：項目を [!DNL Jira] を [!DNL Workfront] アカウントを使用する場合、統合により、新しいアクティブユーザーが [!DNL Workfront] 「[!UICONTROL ユーザーを自動作成」オプションが [!DNL Workfront] ( [!DNL Jira] ユーザーが [!DNL Workfront] account]」が [!UICONTROL Always] に設定されている場合にのみ有効です。 このユーザーは [!DNL Workfront] ライセンス。 アクティブなユーザーは、 [!DNL Workfront]更新に含めることはできません。 自動作成の設定の詳細 [!DNL Workfront] ユーザーから [!DNL Jira]を参照してください。 <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">設定 [!DNL Workfront for Jira]</a>.</p> </td> 
-  </tr> 
+    </ul> <p>注意： [!DNL Jira] 最初の [!DNL Workfront] 適切なステータスに等しいステータス。</p> <p>項目のステータスについて詳しくは、 [!DNL Workfront]を参照してください。 <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">ステータスの作成または編集</a>.</p> </td> 
+  </tr>
   <tr> 
    <td>[!UICONTROL 添付ファイルの問題 ]</td> 
    <td> [!UICONTROL 問題またはタスクドキュメント ]<br>での新しいドキュメントのアップロードに関するコメント [!DNL Jira] が [!DNL Workfront] 問題またはタスク。  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 期限 ]</td> 
-   <td> <p> [!UICONTROL Due Date] の変更に関するコメント ( [!DNL Jira] が [!DNL Workfront] 問題またはタスク。 </p> <p>注意：日付が変更されていない [!DNL Workfront] 問題またはタスク。 </p> </td> 
+   <td> <p> [!UICONTROL Due Date] の変更に関するコメント ( [!DNL Jira] が [!DNL Workfront] 問題またはタスク。 </p> <p>注意： [!DNL Workfront] 問題またはタスク。 </p> </td> 
   </tr> 
   <tr> 
-   <td> ログに時刻 [!DNL Workfront] 右側のパネル、または [!DNL Jira] 問題<br></td> 
+   <td> ログに時刻を [!DNL Workfront] 右側のパネル、または [!DNL Jira] 問題<br></td> 
    <td> <p>時間<br>Jira にログインした時間をリンクされた [!DNL Workfront] 項目に含まれる場合、ログ時間に関するコメントが、 [!DNL Workfront] 項目。</p> <p>リンクされたの時間のログ記録の詳細 [!DNL Jira] 更新を含む問題 [!DNL Jira] ログインしているユーザー [!DNL Workfront]を参照してください。 <a href="#log-time-for-linked-jira-and-workfront-items" class="MCXref xref">リンク済みのログ時間 [!DNL Jira] および [!DNL Workfront] 項目</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -175,15 +175,15 @@ ht-degree: 0%
 
 ## リンクからのログ時間 [!DNL Jira] 問題
 
-に対して記録する時間 [!DNL Jira] 項目 [!DNL Jira] は、リンクされた [!DNL Workfront] 項目（の場所に関係なく） [!DNL Jira] 時刻を記録します。\
-Jira にログインしたとき ( [!DNL Workfront] パネルの [!DNL Workfront].\
+に対して記録する時間 [!DNL Jira] 項目 [!DNL Jira] は、リンクされた [!DNL Workfront] 項目（内の場所に関係なく） [!DNL Jira] 時刻を記録します。\
+Jira にログインしたとき ( [!DNL Workfront] パネルの場合、時間は [!DNL Workfront].\
 記録する時間 [!DNL Workfront] は、 [!DNL Jira].
 
 >[!NOTE]
 >
->時刻が [!DNL Jira] リンクされた項目 [!DNL Workfront] タスク、 [!UICONTROL 時間タイプ] 当面は [!DNL Workfront] が [!UICONTROL タスク時間]. 時刻が [!DNL Jira] リンクされた項目 [!DNL Workfront] 問題 [!UICONTROL 時間タイプ] 当面は [!DNL Workfront] が [!UICONTROL 発行時間].
+>時刻が [!DNL Jira] リンクされた項目 [!DNL Workfront] タスク、 [!UICONTROL 時間タイプ] 当面の間 [!DNL Workfront] 次に該当 [!UICONTROL タスク時間]. 時刻が [!DNL Jira] リンクされた項目 [!DNL Workfront] 問題、 [!UICONTROL 時間タイプ] 当面の間 [!DNL Workfront] 次に該当 [!UICONTROL 発行時間].
 
-コメントが **[!DNL Workfront]** タブ [!DNL Jira] と **[!UICONTROL 更新]** タブ [!DNL Workfront] ログに記録する。\
+コメントが **[!DNL Workfront]** タブ [!DNL Jira] と **[!UICONTROL 更新]** の項目のタブ [!DNL Workfront] をクリックして、ログに記録します。\
 時刻は、 **[!UICONTROL 時間]** タブ [!DNL Workfront] 項目。
 
 * [リンク済みのログ時間 [!DNL Jira] および [!DNL Workfront] 項目](#log-time-for-linked-jira-and-workfront-items)
@@ -191,38 +191,38 @@ Jira にログインしたとき ( [!DNL Workfront] パネルの [!DNL Workfront
 
 ### リンク済みのログ時間 [!DNL Jira] および [!DNL Workfront] 項目
 
-次の場所から時間をログに記録できます： [!DNL Jira] 関連する問題 [!DNL Workfront] 項目と時刻が [!DNL Jira] 問題 [!DNL Workfront] 項目。
+次の場所から時間をログに記録できます： [!DNL Jira] 関連する問題 [!DNL Workfront] 項目と時刻は、 [!DNL Jira] 問題は [!DNL Workfront] 項目。
 
 >[!IMPORTANT]
 >
->ユーザーがログイン時に [!DNL Jira] 次に存在しない： [!DNL Workfront]の場合、Workfrontに新しいアクティブなユーザーが作成されます ( **[!UICONTROL でユーザーを自動的に作成 [!DNL Workfront]&#x200B; [!DNL Jira] ユーザーが&#x200B;*[!DNL Workfront]&#x200B;account]**が**[!UICONTROL &#x200B;常に&#x200B;]**. このユーザーは [!DNL Workfront] ライセンス。 アクティブなユーザーを、 [!DNL Workfront]更新に含めることはできません。 自動作成の設定に関する情報 [!DNL Workfront] ユーザーから [!DNL Jira]を参照してください。 [設定 [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>ユーザーがログイン時に [!DNL Jira] 次に存在しない： [!DNL Workfront]の場合、Workfrontに新しいアクティブなユーザーが作成されます ( **[!UICONTROL でユーザーを自動的に作成する [!DNL Workfront]&#x200B; [!DNL Jira] ユーザーが&#x200B;*[!DNL Workfront]&#x200B;account]**が**[!UICONTROL &#x200B;常に&#x200B;]**. このユーザーは [!DNL Workfront] ライセンス。 アクティブなユーザーを、 [!DNL Workfront]更新に含めることはできません。 自動作成の設定に関する情報 [!DNL Workfront] からのユーザー [!DNL Jira]を参照してください。 [設定 [!DNL Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-項目の時刻を [!DNL Jira] そして両方を記録して [!DNL Jira] および [!DNL Workfront]:
+の項目の時間をログに記録するには [!DNL Jira] そして両方を記録して [!DNL Jira] および [!DNL Workfront]:
 
 1. ログイン [!DNL Jira].
 1. 次に移動： [!DNL Jira] 関連する問題 [!DNL Workfront] 項目。
-1. を展開します。 **[!UICONTROL 詳細]** メニューとクリック **[!UICONTROL 作業をログに記録]**.
+1. を展開します。 **[!UICONTROL その他]** メニューとクリック **[!UICONTROL 作業をログに記録]**.
 
-1. 内 **[!UICONTROL 滞在時間]** 「 」フィールドで、この問題の作業に費やした時間を指定します。 次の期間を使用して時間を指定する必要があります。
+1. Adobe Analytics の **[!UICONTROL 滞在時間]** 「 」フィールドで、この問題の作業に費やした時間を指定します。 次の期間を使用して時間を指定する必要があります。
 
-   * [!UICONTROL 週] (w)
-   * [!UICONTROL 日] ニ
+   * [!UICONTROL 週] ウ
+   * [!UICONTROL 日] (d)
    * [!UICONTROL 時間] チ
 
-1. 引き続き時間エントリに情報 ( **[!UICONTROL 作業の説明]**&#x200B;を選択し、「 **[!UICONTROL ログ]**.\
+1. 引き続き時間エントリに情報 ( **[!UICONTROL 作業の説明]**&#x200B;を選択し、次に **[!UICONTROL ログ]**.\
    時刻が **[!UICONTROL 作業ログ]** タブ [!DNL Jira] 項目、および [!DNL Workfront] リンクされている項目。\
    時間エントリの作業説明は、 [!DNL Workfront].
 
 ### 次の時刻からログ： [!DNL Jira] から [!DNL Workfront] 項目
 
-リンクされた [!DNL Workfront] 項目 [!DNL Jira] 今回の録画をしない問題 [!DNL Jira] 問題。
+リンクされた [!DNL Workfront] 項目を [!DNL Jira] 今回の録画をしない問題 [!DNL Jira] 問題。
 
 1. ログイン [!DNL Jira].
 1. 次に移動： [!DNL Jira] 関連する問題 [!DNL Workfront] 項目。
 
-   詳細 [!DNL Workfront] 項目が [!DNL Workfront] 問題の右パネル。
+   以下に示す [!DNL Workfront] 項目が [!DNL Workfront] 問題の右側のパネル。
 
-1. 次をクリック： **[!UICONTROL ログ時間]** アイコン
+1. 次をクリック： **[!UICONTROL ログ時間]** アイコン。
 
 1. 金額を指定 **[!UICONTROL 時間]** および **[!UICONTROL 分]** 問題をログに記録します。
 
@@ -234,14 +234,14 @@ Jira にログインしたとき ( [!DNL Workfront] パネルの [!DNL Workfront
 
 ## リンクされたからのコメント [!DNL Jira] 問題 {#comment-from-a-linked-jira-issue}
 
-次に対してコメントを入力する場合： [!DNL Jira] 項目 [!DNL Workfront] 右パネル [!DNL Jira]をクリックした場合、コメントも [!UICONTROL 更新] Workfrontのリンクされた項目のタブ。
+次に対してコメントを入力する場合： [!DNL Jira] 項目を [!DNL Workfront] 右パネル [!DNL Jira]をクリックした場合、コメントも [!UICONTROL 更新] Workfrontのリンクされた項目のタブ。
 
-コメント元 [!DNL Jira] から [!DNL Workfront] 項目：
+コメント元： [!DNL Jira] から [!DNL Workfront] 項目：
 
 1. ログイン [!DNL Jira].
 1. 次に移動： [!DNL Jira] 関連する問題 [!DNL Workfront] 項目。
 
-   詳細 [!DNL Workfront] 項目が [!DNL Workfront] 問題の右パネル。
+   以下に示す [!DNL Workfront] 項目が [!DNL Workfront] 問題の右側のパネル。
 
 1. 次をクリック： **[!UICONTROL コメント]** アイコン [!DNL Workfront] パネルまたは **[!UICONTROL コメント]** タブをクリックします。
 
@@ -249,6 +249,6 @@ Jira にログインしたとき ( [!DNL Workfront] パネルの [!DNL Workfront
 
    コメントが以下に追加されます。
 
-   * この **[!DNL Workfront]** タブ [!DNL Jira] 問題。
-   * この **[!UICONTROL コメント]** タブ [!DNL Jira] 問題。
-   * この **[!UICONTROL 更新]** Workfrontのリンクされた項目のタブ。
+   * The **[!DNL Workfront]** タブ [!DNL Jira] 問題。
+   * The **[!UICONTROL コメント]** タブ [!DNL Jira] 問題。
+   * The **[!UICONTROL 更新]** Workfrontのリンクされた項目のタブ。

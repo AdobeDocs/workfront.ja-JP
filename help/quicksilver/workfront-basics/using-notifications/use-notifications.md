@@ -1,20 +1,24 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 通知を使用
+title: "通知を使用：記事インデックス"
 description: Adobe Workfrontで通知を使用する方法については、以下の記事を参照してください。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 0%
 
 ---
 
-# 通知を使用
+# 通知の使用：記事インデックス
+
+[!DNL Adobe Workfront] でのアクティビティに関するアラートを送信する電子メール通知、アプリ内通知およびモバイル通知を送信します。 [!DNL Workfront].
+
+<!-- Audited: 01/2024 -->
 
 この節では、次の記事を扱います。
 
@@ -33,7 +37,7 @@ ht-degree: 1%
 * [通知：アクションが必要です](../../workfront-basics/using-notifications/notifications-action-needed.md)
 * [通知：承認情報](../../workfront-basics/using-notifications/notifications-approval-information.md)
 * [通知：通信](../../workfront-basics/using-notifications/notifications-communication.md)
-* [通知: [!DNL Goals]](../../workfront-basics/using-notifications/notifications-goals.md)
+* [通知： [!DNL Goals]](../../workfront-basics/using-notifications/notifications-goals.md)
 * [通知：自分が所有するプロジェクトに関する情報](../../workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
 * [通知：私がスポンサーしたプロジェクトに関する情報](../../workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
 * [通知：自分が取り組んでいるプロジェクトに関する情報](../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md)

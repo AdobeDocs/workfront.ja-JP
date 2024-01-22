@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
+source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
-source-wordcount: '13860'
+source-wordcount: '13862'
 ht-degree: 1%
 
 ---
@@ -882,7 +882,7 @@ ht-degree: 1%
       * [カスタムフォームとオブジェクトの詳細のエクスポート](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
       * [オブジェクトに添付されたカスタムフォームの管理](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * 通知を使用 {#use-notifications}
-      * [通知を使用](workfront-basics/using-notifications/use-notifications.md)
+      * [通知の使用：記事インデックス](workfront-basics/using-notifications/use-notifications.md)
       * [通知の概要](workfront-basics/using-notifications/wf-notifications.md)
       * [独自の電子メール通知を変更する](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Adobe Workfrontの項目を購読](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
