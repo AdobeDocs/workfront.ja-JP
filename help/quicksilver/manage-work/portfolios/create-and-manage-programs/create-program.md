@@ -6,14 +6,16 @@ description: プログラムとは、プロジェクトの境界を越えた共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 0%
+source-wordcount: '998'
+ht-degree: 1%
 
 ---
 
 # プログラムの作成
+
+<!-- Audited: 1/2024 -->
 
 プログラムとは、プロジェクトの境界を越えた共通の戦略、目標、または目標を共有するプロジェクトの集まりを表します。 プログラムは、ポートフォリオ外には存在できません。
 
@@ -26,47 +28,48 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
-   <td> <p>[!UICONTROL Business] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>新規：任意</p><p>または</p><p>現在： [!UICONTROL Business] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ] </p> </td> 
+   <td> <p>新規： [!UICONTROL Standard] </p><p>または </p><p>現在： [!UICONTROL プラン ] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROL 編集 ] によるPortfolioとプログラムへのアクセス </p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者は、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL 編集 ] によるPortfolioとプログラムへのアクセス </p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオに対する [!UICONTROL 管理 ] 権限</p> <p>プログラムを作成したら、そのプログラムに対する [!UICONTROL 管理 ] 権限がデフォルトで与えられます</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>ポートフォリオに対する [!UICONTROL 管理 ] 権限</p> <p>プログラムを作成した後は、デフォルトで [!UICONTROL 管理 ] 権限が付与されます。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## プログラムの作成
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックします。
 
 1. 次のいずれかの操作を行います。
 
    * からプログラムを作成する [!UICONTROL プログラム] 領域：
 
-      1. クリック **[!UICONTROL プログラム]** をクリックします。
+      1. クリック **[!UICONTROL プログラム]** 」をクリックします。
       1. クリック **[!UICONTROL 新規プログラム]**.
       1. 表示されるボックスに、既存のPortfolioの名前を **[!UICONTROL 選択Portfolio]** フィールドに入力します。
       1. 新しいプログラムの名前を **[!UICONTROL 名前]** フィールドに入力します。
       1. 「**[!UICONTROL 保存]**」をクリックします。
    * からプログラムを作成する [!UICONTROL Portfolio] 領域：
 
-      1. クリック **[!UICONTROL Portfolio]** 内 [!UICONTROL メインメニュー]」、「ポートフォリオ」の順にクリックします。
+      1. クリック **[!UICONTROL Portfolio]** （内） [!UICONTROL メインメニュー]をクリックし、ポートフォリオを開きます。
       1. 左側のパネルで、 **[!UICONTROL プログラム]**.
       1. 次をクリック： **[!UICONTROL 新規プログラム]** ドロップダウンメニューから、 **[!UICONTROL 新規プログラム]**.
 
 
-1. プログラムの名前を **[!UICONTROL 名称未設定プログラム]** フィールドに入力します。
+1. （条件付き）ポートフォリオからプログラムを作成した場合は、 **[!UICONTROL 名称未設定プログラム]** フィールドに入力します。
 
    名前は 255 文字までです。
 
@@ -77,10 +80,11 @@ ht-degree: 0%
    >プログラムの作成者は、デフォルトでプログラムマネージャとして設定されます。
 
 1. クリック **[!UICONTROL プログラムの詳細]** をクリックします。
-1. 任意のフィールドをダブルクリックして、 **[!UICONTROL 概要]** 領域
-1. 次の情報を指定します。
+1. 任意のフィールドをダブルクリックして、 **[!UICONTROL 概要]** 領域。
 
-   <table style="table-layout:auto"> 
+次の情報を指定できます。
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <thead> 
@@ -96,7 +100,7 @@ ht-degree: 0%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL プログラムマネージャー ]</td> 
-      <td> <p>プログラムマネージャーとして機能させるユーザーの名前を入力し、ドロップダウンリストに表示されたら、そのユーザーの名前をクリックします。 これは、[!UICONTROL プログラム所有者 ] と同じです。 </p> <p>ヒント：また、プログラムヘッダーでプログラムマネージャーを更新することもできます。 </p> </td> 
+      <td> <p>プログラムマネージャーとして機能させるユーザーの名前を入力し、ドロップダウンリストに表示されたら、そのユーザーの名前をクリックします。 これは、[!UICONTROL プログラム所有者 ] と同じです。 </p> <p>ヒント：プログラムヘッダーでプログラムマネージャーを更新することもできます。 </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL グループ ] </td> 
@@ -114,19 +118,20 @@ ht-degree: 0%
    >
    >プログラムをプログラムに添付するには、プログラムのカスタムフォームが既に作成されている必要があります。
 
-1. （オプション）任意のフィールドをダブルクリックして、カスタムフォームの情報を更新します。
+1. （オプションおよび条件付き）カスタムフォームを追加する場合、カスタムフォーム上の任意のフィールドをクリックして、そのフィールドの情報を更新します。
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 1. クリック **[!UICONTROL プロジェクト]** 左のパネルで、 **[!UICONTROL プロジェクトを追加]** をクリックして、プログラムにプロジェクトを追加します。
 
    プログラムへのプロジェクトの追加については、 [プログラムにプロジェクトを追加する](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-1. クリック **[!UICONTROL 変更を保存]**.
-1. （オプション） **[!UICONTROL その他のメニュー]** ![](assets/more-icon.png) プログラム名の横にあるをクリックし、 **[!UICONTROL プログラムの無効化]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
+1. （オプション） **[!UICONTROL その他のメニュー]** ![](assets/more-icon.png) プログラム名の横にあるをクリックし、 **[!UICONTROL プログラムを非アクティブ化]**.
 
-   プログラムを非アクティブ化すると、ユーザーがプロジェクトに追加しようとすると、そのプログラムはプログラムのリストに表示されなくなります。 引き続き、 [!UICONTROL プログラム] 領域
+   プログラムを非アクティブ化すると、ユーザーがプロジェクトに追加しようとすると、そのプログラムはプログラムのリストに表示されなくなります。 引き続き、 [!UICONTROL プログラム] 領域。
 
 ## プログラムヘッダーの概要
 
-ヘッダーには、プログラムに関する限定的な情報が表示されます。
+プログラムのヘッダーには、プログラムに関する情報が表示されます。
 
 プログラムのヘッダーには、次の情報が表示されます。
 
@@ -136,26 +141,26 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">ヘッダー情報</td> 
-   <td> <p><strong>メモ</strong> </p> </td> 
+   <td> <strong>メモ</strong> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ポートフォリオ名を示すパンくず</td> 
    <td>プログラムのヘッダーから、プログラムが属するポートフォリオにアクセスできます。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">プログラム名</td> 
+   <td role="rowheader">プログラムの名前</td> 
    <td>ヘッダーでプログラム名を編集できます。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトタイプの名前とアクティベーションステータス</td> 
-   <td>プログラムを表示すると、「プログラム」という単語は緑色の輪郭で表示されます。 プログラムが [!UICONTROL アクティブ ] とマークされていない場合、「[!UICONTROL 非アクティブ ]」という単語が横に表示され、アウトラインは灰色で表示されます。 </td> 
+   <td>「プログラム」という単語は、プログラムを表示する際にオレンジ色のアイコン付きで表示されます。 プログラムが [!UICONTROL アクティブ ] とマークされていない場合、「[!UICONTROL 非アクティブ ]」という単語が横に表示され、アウトラインは灰色で表示されます。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">プログラムのアクション領域 </td> 
+   <td role="rowheader">プログラムの「アクション」領域 </td> 
    <td> <p>プログラムの詳細情報や編集オプションにアクセスするには、次のいずれかをクリックします。</p> 
     <ul> 
      <li>お気に入りのリストにプログラムを追加する星形のアイコン</li> 
-     <li> <p>[!UICONTROL 詳細 ] メニュー <img src="assets/qs-more-menu.png"> 次のいずれかを実行するには： </p> 
+     <li> <p>[!UICONTROL その他 ] メニュー <img src="assets/qs-more-menu.png"> 次のいずれかの操作を行うには： </p> 
       <ul> 
        <li>プログラムを編集</li> 
        <li>無効にします。 プログラムを非アクティブ化すると、プロジェクトレベルでプロジェクトに関連付けられなくなります。 </li> 
@@ -166,7 +171,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 完了率 ]</td> 
-   <td> <p>ヘッダーのプログラムの [!UICONTROL 完了率 ] を編集することはできません。 この情報は、プログラムのプロジェクトから更新されます。 デフォルトでは、プログラムの完了率は、[!UICONTROL 現在 ] ステータスと [!UICONTROL 承認済み ] ステータスのプロジェクトの完了率の値の平均です。</p> </td> 
+   <td> <p>ヘッダーのプログラムの [!UICONTROL 完了率 ] を編集することはできません。 この情報は、プログラムのプロジェクトから更新されます。 デフォルトでは、プログラムの完了率は、[!UICONTROL 現在 ] または [!UICONTROL 承認済み ] ステータスのプロジェクトの完了率の値の平均です。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL プログラムマネージャー ]</td> 
@@ -174,7 +179,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 計画完了日 ]</td> 
-   <td>ヘッダーでプログラムの完了率を編集することはできません。 プログラムの完了率は、ヘッダー内のプロジェクトの完了率の平均です。 ここで表されるプロジェクトは、ステータスが [!UICONTROL Current] および [!UICONTROL Approved] のプロジェクトです。 </td> 
+   <td>ヘッダーのプログラムの計画完了日は編集できません。  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL アクティブプロジェクト条件 ]</td> 
