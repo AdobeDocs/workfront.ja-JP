@@ -6,58 +6,22 @@ description: 共有にアクセスできるオブジェクトに対する他の�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
 
 # オブジェクトから権限を削除
 
-共有にアクセスできるオブジェクトに対する他のユーザーの権限を削除できます。 オブジェクトからの権限の削除は、共有可能なすべてのオブジェクトで同じです。 
+<!--Audited: 01/2024-->
 
-オブジェクトを共有する場合と同様の考慮事項は、オブジェクトから権限を削除する場合に適用されます。 詳しくは、 [オブジェクトの共有に関する考慮事項](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) 記事内 [オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+共有にアクセスできるオブジェクトに対する他のユーザーの権限を削除できます。 オブジェクトからの権限の削除は、共有可能なすべてのオブジェクトで同じです。
+
+オブジェクトを共有する場合と同様の考慮事項は、オブジェクトから権限を削除する場合に適用されます。 詳しくは、 [オブジェクトの共有に関する考慮事項](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) 記事内 [オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## アクセス要件
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or  
-   <p>Legacy license: Request or higher</p>
-   <p><b>NOTE</b></p>
-
-   <p>Some objects require a higher access than Request. </p>
-   
-   <p>For example, for the current license, a Contributor can share issues, but only Standard-license users can share a project.</p>
-   
-   <p>For the legacy license, a Requestor can share issues, but only Workers or Planners can share a project.</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you want to share</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 オブジェクトを共有するには、次の条件を満たす必要があります。
 
@@ -66,60 +30,77 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront license*</td> 
-   <td> <p>リクエスト以上</p>
+   <td> <p>新しいライセンス：寄稿者以上</p>
+   または  
+   <p>現在のライセンス：リクエスト以上</p>
    <p><b>メモ</b></p>
 
-一部のオブジェクトは、Request よりも高いアクセス権が必要です。 たとえば、要求者は問題を共有できますが、プロジェクトを共有できるのは、作業者またはプランナのみです。
+<p>一部のオブジェクトは、Request よりも高いアクセス権が必要です。 </p>
 
-</td> 
+<p>例えば、新しいライセンスの場合、コントリビューターは問題を共有できますが、プロジェクトを共有できるのは標準ライセンスユーザーのみです。</p>
+
+<p>現在のライセンスでは、要求者が問題を共有できますが、プロジェクトを共有できるのは、ワーカーまたはプランナーのみです。</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>共有するオブジェクトへのアクセス権以上の表示</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>共有するオブジェクトへのアクセス権以上の表示</p> </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>共有するオブジェクトに対する権限以上の表示</p> <p>オブジェクトの継承された権限を削除する権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>共有するオブジェクトに対する権限以上の表示</p> <p>オブジェクトの継承された権限を削除する権限を管理します</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## オブジェクトの共有リストからエンティティを削除します {#remove-entities-from-the-sharing-list-of-an-object}
 
-オブジェクトの共有リストからエンティティ（ユーザー、ジョブの役割、チーム、グループ、会社）を削除できます。 これにより、オブジェクトに対する権限が削除されます。
+オブジェクトの共有リストからエンティティ（ユーザー、ジョブの役割、チーム、グループ、会社）を削除できます。 これにより、オブジェクトに対する権限が削除されます。
 
-1. 共有するオブジェクトに移動します。
+1. 権限を削除するオブジェクトに移動します。
 
    共有可能なオブジェクトについては、 [オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. 次をクリック： **詳細** アイコン ![](assets/more-icon.png)オブジェクト名の横にあるをクリックし、 **共有** または&#x200B;**共有。**
+1. （条件付き）プログラム、ポートフォリオ、ドキュメントの場合は、次の操作を行います。
 
-   ![](assets/share-a-document-350x160.png)
+   1. 次をクリック： **その他** アイコン ![](assets/more-icon.png)オブジェクト名の横にあるをクリックし、 **共有** または **共有。**
 
-1. 次をクリック： **x** ユーザー、チーム、グループ、会社、ジョブの役割の横にある [ オブジェクトアクセス ] ボックスで、削除します。
+      ![](assets/share-a-document-350x160.png)
 
-   ![](assets/remove-permissions-on-project-nwe-350x479.png)
+   1. 次をクリック： **x** ユーザー、チーム、グループ、会社、ジョブの役割の横にある [ オブジェクトアクセス ] ボックスで、削除します。
 
-1. 内 `<User Name>`のWorkfrontアクセスがこのドロップダウンメニューから削除され、選択したオブジェクトからのみアクセスを削除するか、それに関連付けられているすべての子オブジェクトからアクセスを削除するかを選択します。\
+      ![](assets/remove-permissions-on-portfolio.png)
+
+   1. Adobe Analytics の **&lt; ユーザー名 > 様のWorkfrontへのアクセスは、このページから削除されます** ドロップダウンメニューから、選択したオブジェクトからのみアクセスを削除するか、それに関連するすべての子オブジェクトからアクセスを削除するかを選択します。
+
+1. （条件付き）プロジェクト、タスクおよびタスクの場合は、次の手順を実行します。
+
+   1. クリック **共有** オブジェクト名の右側に配置します。
+
+      ![](assets/new-share-button.png)
+   1. オブジェクトから削除するユーザー、役割、チーム、グループ、または会社を検索します。
+   1. クリック **削除**.
+Adobe Analytics の **次の場所から &lt; ユーザ名 > を削除：** ドロップダウンメニューから、選択したオブジェクトからのみアクセスを削除するか、それに関連するすべての子オブジェクトからアクセスを削除するかを選択します。
+
+      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+
    次のシナリオが存在します。
 
-   * オブジェクトからのみエンティティを削除する場合、そのエンティティはオブジェクトに対する権限を失い、子オブジェクトに対する継承された権限を失います。 以前に子項目に対して個別に権限を付与されていた場合、このオプションを選択すると、関連付けられているすべての子オブジェクトに対して同じ権限が保持されます。 
-   * オブジェクトとすべての子オブジェクトからエンティティを削除すると、各子オブジェクトに対して個別の権限が与えられていた場合でも、そのエンティティはオブジェクトおよびすべての子オブジェクトに対する権限を失います。 
+   * オブジェクトからのみエンティティを削除する場合、そのエンティティはオブジェクトに対する権限を失い、子オブジェクトに対する継承された権限を失います。 以前に子項目に対して個別に権限を付与されていた場合、このオプションを選択すると、関連付けられているすべての子オブジェクトに対して同じ権限が保持されます。
+   * オブジェクトとすべての子オブジェクトからエンティティを削除すると、各子オブジェクトに対して個別の権限が与えられていた場合でも、そのエンティティはオブジェクトおよびすべての子オブジェクトに対する権限を失います。
 
 1. 「**保存**」をクリックします。
 
 ## 複数のオブジェクトから権限を一括で削除します。
 
-リストでエンティティ（ユーザー、ジョブロール、チーム、グループ、会社）を一度に複数のオブジェクトから削除できます。 
+リストでエンティティ（ユーザー、ジョブロール、チーム、グループ、会社）を一度に複数のオブジェクトから削除できます。
 
 >[!NOTE]
 >
@@ -130,12 +111,12 @@ ht-degree: 0%
    共有可能なオブジェクトについては、 [オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. リスト内の複数のオブジェクトを選択し、 **共有** アイコン ![](assets/share-icon.png)をクリックします。
-1. アクセスを削除するユーザー、役割、チーム、グループまたは会社の名前を **編集 `<Object Name>` ～へのアクセス** フィールドに入力します。
+1. アクセスを削除するユーザー、役割、チーム、グループ、または会社の名前を **編集 `<Object Name>` ～へのアクセス権** フィールドに入力します。
 1. アクセスドロップダウンメニューから、 **アクセスなし**.
 
    ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. 内 `<User Name>`のWorkfrontアクセスがこのドロップダウンメニューから削除され、選択したオブジェクトからのみアクセスを削除するか、そのオブジェクトに関連付けられている他のすべての子オブジェクトかを選択します。\
+1. Adobe Analytics の `<User Name>`のWorkfrontアクセスがこのドロップダウンメニューから削除され、選択したオブジェクトからのみアクセスを削除するか、そのオブジェクトに関連付けられている他のすべての子オブジェクトからアクセスを削除するかを選択します。\
    次のシナリオが存在します。
 
    * オブジェクトからのみエンティティを削除する場合、そのエンティティはオブジェクトに対する権限を失い、子オブジェクトに対する継承された権限を失います。 以前に子項目に対して個別に権限を付与されていた場合、このオプションを選択すると、関連付けられているすべての子オブジェクトに対して同じ権限が保持されます。 
@@ -167,7 +148,7 @@ ht-degree: 0%
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-   これにより、親オブジェクト（プロジェクトなど）に対する権限を付与されたユーザーが、デフォルトでこのタスクに対する権限を持つことを防ぐことができます。 タスクに対する権限を付与するには、タスクの共有リストに個々のエンティティをリストする必要があります。
+   これにより、親オブジェクト（プロジェクトなど）に対する権限を付与されたユーザーが、デフォルトでこのタスクに対する権限を持つことを防ぐことができます。 タスクに対する権限を付与するには、タスクの共有リストで個々のエンティティをリストする必要があります。
 
    >[!TIP]
    >
@@ -181,7 +162,7 @@ ht-degree: 0%
 
 オブジェクトをシステム全体または公開で使用できるようにする方法については、 [オブジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-オブジェクトを非公開にするには：
+オブジェクトを非公開にするには、次の手順を実行します。
 
 1. 非公開にするオブジェクトに移動します。\
    例えば、レポートに移動します。
@@ -190,5 +171,5 @@ ht-degree: 0%
    ![](assets/report-permissions-make-private-nwe-350x477.png)
 
 1. クリック **公開アクセスを削除** 」をクリックすると、レポートを表示する外部ユーザーのアクセス権が削除されます。
-1. クリック **システム全体のアクセスを削除** をクリックして、すべてのWorkfrontユーザーとの共有を停止します。 
+1. クリック **システム全体のアクセスを削除する** をクリックして、すべてのWorkfrontユーザーとの共有を停止します。 
 1. 「**保存**」をクリックします。
