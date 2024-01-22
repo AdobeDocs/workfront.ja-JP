@@ -7,16 +7,16 @@ description: デフォルトでは、1 つのシナリオは 15 分ごとに実�
 author: Becky
 feature: Workfront Fusion
 exl-id: bce89abe-ec37-4705-a88f-de62c8b27f49
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f5549be5951a2648d6a77d25bebbd4141f18d36c
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
 # でのシナリオのスケジュール設定 [!DNL Adobe Workfront Fusion]
 
-デフォルトでは、1 つのシナリオは 15 分ごとに実行されます。 有効化されたシナリオを実行するタイミングと頻度を定義することで、これを変更できます。
+デフォルトでは、1 つのシナリオは 15 分ごとに実行されます。 有効化されたシナリオを実行するタイミングと頻度を定義することで、これを変更できます。 統合シナリオは、5 分ごとに実行するようにスケジュールできます。
 
 ## アクセス要件
 
@@ -27,7 +27,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,14 +39,14 @@ ht-degree: 1%
   <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td>    </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -75,12 +75,12 @@ ht-degree: 1%
       <td> <p>シナリオを実行する頻度を選択し、間隔を選択します。</p> 
        <ul> 
         <li> <p><strong>[!UICONTROL 一定の間隔で ]</strong> </p> <p>実行間隔（分）を入力します。 デフォルト値は 15 分です。</p> </li> 
-        <li> <p><strong>[!UICONTROL 1 回 ]</strong> </p> <p>シナリオを実行する日時を入力します。 形式を使用 <code>MM/DD/YYYY h:mm A</code>. 例: <code>06/25/2019 11:00 PM</code>.</p> </li> 
-        <li> <p><strong>[!UICONTROL 毎日 ]</strong> </p> <p>シナリオを実行する時間を入力します。 形式を使用 <code>h:mm A</code>. 例: <code>11:00 PM</code>.</p> </li> 
-        <li> <p><strong>[!UICONTROL 曜日 ]</strong> </p> <p>日：シナリオを実行する曜日を選択します。 1 つ以上の日を選択できます。</p> <p>時間：選択した日にシナリオを実行する時間を入力します。 形式を使用 <code>h:mm A</code>. 例: <code>11:00 PM</code></p> </li> 
-        <li> <p><strong>[!UICONTROL 月の日数 ]</strong> </p> <p>日：シナリオを実行する日を選択します。 1 つ以上の日を選択できます。</p> <p>時間：選択した日にシナリオを実行する時間を入力します。 形式を使用 <code>h:mm A</code>. 例: <code>11:00 PM</code></p> </li> 
-        <li> <p><strong>[!UICONTROL 指定日 ]</strong> </p> <p>月：シナリオを実行する月を選択します。 1 つ以上の月を選択できます。</p> <p>日：シナリオを実行する日を選択します。 1 つ以上の日を選択できます。</p> <p>時間：選択した日にシナリオを実行する時間を入力します。 形式を使用 <code>h:mm A</code>. 例: <code>11:00 PM</code></p> </li> 
-       </ul> <p>注意：シナリオがその日に実行されるには、日付が存在する必要があります。 例えば、月の 31 日のみにスケジュールされているシナリオは、2 月、4 月、6 月、9 月、11 月には実行されません。これらの月には 31 日が含まれていないからです。</p> </td> 
+        <li> <p><strong>[!UICONTROL 1 回 ]</strong> </p> <p>シナリオを実行する日時を入力します。 形式を使用 <code>MM/DD/YYYY h:mm A</code>. 例： <code>06/25/2019 11:00 PM</code>.</p> </li> 
+        <li> <p><strong>[!UICONTROL 毎日 ]</strong> </p> <p>シナリオを実行する時間を入力します。 形式を使用 <code>h:mm A</code>. 例： <code>11:00 PM</code>.</p> </li> 
+        <li> <p><strong>[!UICONTROL 曜日 ]</strong> </p> <p>日：シナリオを実行する曜日を選択します。 1 つ以上の日を選択できます。</p> <p>時間：選択した日にシナリオを実行する時間を入力します。 形式を使用 <code>h:mm A</code>. 例： <code>11:00 PM</code></p> </li> 
+        <li> <p><strong>[!UICONTROL 月の日数 ]</strong> </p> <p>日数：シナリオを実行する日数を選択します。 1 つ以上の日を選択できます。</p> <p>時間：選択した日にシナリオを実行する時間を入力します。 形式を使用 <code>h:mm A</code>. 例： <code>11:00 PM</code></p> </li> 
+        <li> <p><strong>[!UICONTROL 指定日 ]</strong> </p> <p>月：シナリオを実行する月を選択します。 1 つ以上の月を選択できます。</p> <p>日数：シナリオを実行する日数を選択します。 1 つ以上の日を選択できます。</p> <p>時間：選択した日にシナリオを実行する時間を入力します。 形式を使用 <code>h:mm A</code>. 例： <code>11:00 PM</code></p> </li> 
+       </ul> <p>注意：シナリオをその日に実行するには、日付が存在する必要があります。 例えば、月の 31 日のみにスケジュールされているシナリオは、2 月、4 月、6 月、9 月、11 月には実行されません。これらの月には 31 日が含まれていないからです。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 詳細スケジュール設定 ]</td> 
@@ -88,11 +88,11 @@ ht-degree: 1%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 開始 ]</td> 
-      <td>シナリオを実行する日時を入力します。 形式を使用 <code>MM/DD/YYYY h:mm A</code>. 例: <code>06/25/2019 11:00 PM</code>.</td> 
+      <td>シナリオを実行する日時を入力します。 形式を使用 <code>MM/DD/YYYY h:mm A</code>. 例： <code>06/25/2019 11:00 PM</code>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 終了 ]</td> 
-      <td>シナリオを実行する前の日時を入力します。 形式を使用 <code>MM/DD/YYYY h:mm A</code>. 例: <code>06/25/2019 11:00 PM</code>.</td> 
+      <td>シナリオを実行する前の日時を入力します。 形式を使用 <code>MM/DD/YYYY h:mm A</code>. 例： <code>06/25/2019 11:00 PM</code>.</td> 
      </tr> 
     </tbody> 
    </table>
