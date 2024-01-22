@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに�
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: adb324323330f53108532cc7a7e68466fdb84273
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 ファイアウォールまたはメールサーバーが特定のベンダーへのアクセスのみを許可するように設定されている場合、環境と [!DNL Adobe Workfront Fusion].
 
-次の IP アドレスをに追加し許可リストて有効にします [!DNL Workfront Fusion] をクリックして、システムにアクセスします。
+次の IP アドレスをに追加して有許可リストに加える効にします [!DNL Workfront Fusion] をクリックして、システムにアクセスします。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,10 +47,19 @@ ht-degree: 3%
      <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Microsoft Azure クラスター上</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-また、組織がアウトバウンドネットワークフィルタリングを使用している場合は、次のドメインをに追加し許可リストて、システムがWorkfront Fusion にアクセスできるようにします。
+また、組織がアウトバウンドネットワークフィルタリングを使用している場合は、次のドメインをに追加し許可リストに加えるて、システムがWorkfront Fusion にアクセスできるようにします。
 
 <table style="table-layout:auto">
  <col> 
@@ -64,11 +73,15 @@ ht-degree: 3%
    <td role="rowheader"> <p>[!DNL Adobe Workfront] US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] Microsoft Azure クラスター上</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->アウトバウンドネットワークフィルタリングはまれです。 ネットワーク管理者に問い合わせて、それに対応するためにネットワークを更新する必要があ許可リストるかどうかを確認してください。
+>アウトバウンドネットワークフィルタリングはまれです。 ネットワーク管理者に問い合わせて、それに対応するためにネットワークを更新する必要があ許可リストに加えるるかどうかを確認してください。
 
-組織の設定について詳しくは、次を参照してく許可リストださい。 [ファイアウォールの設定を許可リスト行う](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+組織の設定について詳しくは、次を参照してく許可リストに加えるださい。 [ファイアウォールの設定を許可リストに加える行う](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
