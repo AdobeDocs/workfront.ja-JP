@@ -6,9 +6,9 @@ description: プログラムとは、プロジェクトの境界を越えた共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,15 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>新規：任意</p><p>または</p><p>現在： [!UICONTROL Business] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td> <p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
    <td> <p>新規： [!UICONTROL Standard] </p><p>または </p><p>現在： [!UICONTROL プラン ] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>[!UICONTROL 編集 ] によるPortfolioとプログラムへのアクセス </p>  </td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 計画完了日 ]</td> 
-   <td>ヘッダーのプログラムの計画完了日は編集できません。  </td> 
+   <td>ヘッダーのプログラムの計画完了日は編集できません。 この情報は、プログラムのプロジェクトから更新されます。 プログラムの最新プロジェクトの計画完了日が、プログラムの計画完了日になります。  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL アクティブプロジェクト条件 ]</td> 

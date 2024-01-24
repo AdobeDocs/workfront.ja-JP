@@ -7,9 +7,9 @@ description: タスクとタスクの割り当てを管理する場合、スマ�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,13 @@ ht-degree: 0%
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* 「割り当て」フィールドのタスクまたはイシューのヘッダー
+* <span class="preview">「割り当て」フィールドのタスクヘッダー</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* 「割り当て」フィールドのイシューヘッダー
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * 「割り当て」領域のタスクまたは問題の概要パネル
 
@@ -70,14 +74,17 @@ ht-degree: 0%
 
 ## スマート割り当て条件
 
-
 <div class="preview">
 
 スマート割り当てのタスクに対する作業は、タスクに対する作業と問題に対する作業とでは異なります。
 
 ### タスクのスマート割り当て条件
 
-タスクのスマート割り当ての計算は、2 つの段階で機能します。
+タスクのスマート割り当ての計算は、2 つの異なるアルゴリズムを使用する 2 つのフェーズで機能します。
+
+スマート割り当てが見つかったアルゴリズムに応じて、「割り当て」フィールドの 2 つの異なるセクションに割り当てがリストされます。 詳しくは、 [スマート割り当てを行う](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+
+![](assets/smart-assignments-task-list.png)
 
 #### タスクのスマート割り当て計算の第 1 段階
 
@@ -111,6 +118,8 @@ ht-degree: 0%
 
   例えば、Rick が今日以前に類似のタスクに割り当てられ、Jennifer が 2 日前に類似のタスクに割り当てられた場合、Rick が最初に表示されます。
 
+* このフェーズで特定された割り当ては、 **推奨割り当て** 「割り当て」フィールドの「 」セクションに入力します。
+
 * この計算を使用して一致がない場合、スマート割り当ての第 2 段階が開始し、別のアルゴリズムを使用して計算されます。
 
 #### タスクのスマート割り当て計算の第 2 段階
@@ -119,6 +128,8 @@ ht-degree: 0%
 
 詳しくは、 [タスクとタスクのスマート割り当て条件](#smart-assignments-criteria-for-tasks-and-issues) 」を参照してください。
 
+このフェーズで特定された割り当ては、 **結果** 「割り当て」フィールドの「 」セクションに入力します。 <!--update this to "Other assignments"-->
+
 ### タスクとタスクのスマート割り当て条件
 
 </div>
@@ -126,6 +137,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 ><span class="preview">次の条件は、タスクのスマート割り当ての計算の最初の段階で一致が見つからなかった場合にのみ適用されます。 詳しくは、 [タスクのスマート割り当て計算の第 1 段階](#first-phase-of-smart-assignment-calculation-for-tasks) 」を参照してください。 デフォルトでは、次の条件が問題に常に適用されます。 </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 次の条件の組み合わせに基づいて、「スマート割り当て」ドロップダウンリストでユーザーが推奨されます（最も重要な条件から最も重要でない条件の順に表示されます）。
 

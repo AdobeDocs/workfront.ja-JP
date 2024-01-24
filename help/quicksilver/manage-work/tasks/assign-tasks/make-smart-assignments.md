@@ -6,20 +6,27 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # スマート割り当てを行う
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">このページで強調表示されている情報は、まだ一般に利用できない機能を示しています。 この機能は、すべての顧客のプレビュー環境でのみ使用できます。</span>
 
 <span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。 スマート割り当ては、ジョブに最も適したリソースを決定するアルゴリズムに基づいて作業項目をリソースに割り当てる際にAdobe Workfrontが表示するユーザーに対する提案です。 スマート割り当ての詳細については、 [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。
+
+スマート割り当ては、ジョブに最も適したリソースを決定するアルゴリズムに基づいて作業項目をリソースに割り当てる際にAdobe Workfrontが表示するユーザーに対する提案です。
+
+<span class="preview">Workfrontには、タスクと問題に関する 2 つの異なるアルゴリズムがあります。 </span>
+スマート割り当ての詳細については、 [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## アクセス要件
 
@@ -76,9 +83,16 @@ ht-degree: 0%
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   このリストに表示されるユーザーは、タスクまたはタスクに対するスマート割り当ての候補です。
+   問題の場合、スマート割り当ての候補が「 **推奨割り当て** 領域。
 
-   スマート割り当てが表示される場所の詳細については、この記事の「スマート割り当ての候補の検索」の節を参照してください [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   タスクの場合、スマート割り当ては、アルゴリズムの計算のどの段階で割り当てが特定されたかに応じて、次のセクションに表示されます。
+
+   * **推奨割り当て**：タスクのスマート割り当てのアルゴリズム計算の第 1 段階で特定された割り当て。
+   * <span class="preview">**結果**：タスクのスマート割り当てのアルゴリズム計算の第 2 段階で識別された割り当て。 この節は、問題に対しては使用できません。 </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   詳しくは、 [スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. レコメンデーションリストでユーザー名をクリックして選択します。
 
