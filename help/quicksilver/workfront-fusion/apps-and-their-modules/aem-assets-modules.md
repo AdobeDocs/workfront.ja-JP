@@ -5,21 +5,25 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: Adobe Experience Manager Assets モジュール
+title: Adobe Experience Manager Assetsモジュール
 description: を使用 [!DNL Adobe Experience Manager Assets] コネクタ [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] アセットのアカウント、作成、アップロードおよび更新、およびフォルダーとアセットのコピーまたは移動をおこなう。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] モジュール
 
-を使用 [!DNL Adobe Experience Manager Assets] コネクタ [!DNL Adobe Workfront Fusion]の場合、 [!DNL Adobe Experience Manager Assets] アセットのアカウント、作成、アップロードおよび更新、およびフォルダーとアセットのコピーまたは移動をおこなう。
+を使用 [!DNL Adobe Experience Manager Assets] コネクタ [!DNL Adobe Workfront Fusion]の場合は、 [!DNL Adobe Experience Manager Assets] アセットのアカウント、作成、アップロードおよび更新、およびフォルダーとアセットのコピーまたは移動をおこなう。
+
+Adobe Experience Manager Assetsコネクタの概要については、以下を参照してください。
+
+* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
 ## アクセス要件
 
@@ -30,7 +34,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -42,15 +46,15 @@ ht-degree: 0%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -71,7 +75,7 @@ ht-degree: 0%
 
 の接続を作成するには、以下を実行します。 [!DNL Adobe Experience Manager Assets] モジュール：
 
-1. クリック [!UICONTROL 追加] の横 [!UICONTROL 接続] ボックス
+1. クリック [!UICONTROL 追加] の横 [!UICONTROL 接続] ボックス。
 
 2. 作成する接続のタイプを選択します。
 
@@ -113,7 +117,7 @@ ht-degree: 0%
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL インスタンス URL （末尾にスラッシュを含まない）]</td>
-                  <td>の URL を入力します。 [!DNL Adobe Experience Manager] インスタンス。 スラッシュを含めない <code>/</code> を返します。</td>
+                  <td>の URL を入力します。 [!DNL Adobe Experience Manager] インスタンス。 スラッシュを含めない <code>/</code> :URL の末尾に配置されます。</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL クライアント ID]</td>
@@ -157,7 +161,7 @@ ht-degree: 0%
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL インスタンス URL （末尾にスラッシュを含まない）]</td>
-                <td>の URL を入力します。 [!DNL Adobe Experience Manager] インスタンス。 スラッシュを含めない <code>/</code> を返します。</td>
+                <td>の URL を入力します。 [!DNL Adobe Experience Manager] インスタンス。 スラッシュを含めない <code>/</code> :URL の末尾に配置されます。</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL ユーザー名 ]</td>
@@ -173,9 +177,9 @@ ht-degree: 0%
 
 ## [!DNL Adobe Experience Manager Assets] モジュールとそのフィールド
 
-設定時に [!DNL Adobe Experience Manager Essentials] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Adobe Experience Manager Essentials] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+設定時に [!DNL Adobe Experience Manager Essentials] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Adobe Experience Manager Essentials] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -189,7 +193,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -228,7 +232,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL オブジェクトタイプ ]</td> 
@@ -259,14 +263,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
    <td> <p>フォルダー、アセット、レンディションのどれを削除するかを選択します。</p> 
     <ul> 
      <li> <p>[!UICONTROL フォルダー ]</p> <p>パス内のフォルダーを選択して、削除するフォルダーを選択します。</p> </li> 
-     <li> <p>[!UICONTROL Asset] </p> <p>パス内のフォルダーを選択してアセットを選択した後、削除するアセットを選択します。</p> </li> 
+     <li> <p>[!UICONTROL アセット ] </p> <p>パス内のフォルダーを選択してアセットを選択した後、削除するアセットを選択します。</p> </li> 
      <li> <p>[!UICONTROL レンディション ]</p> <p>パス内のフォルダーを選択して、レンディションを選択します。</p> <p>レンディションの名前を入力またはマッピングします。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -283,7 +287,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL フォルダー ]</td> 
@@ -294,7 +298,7 @@ ht-degree: 0%
 
 ### [!UICONTROL カスタム API 呼び出しをおこなう]
 
-このアクションモジュールは、 [!DNL Adobe Experience Manager Assets] API
+このアクションモジュールは、 [!DNL Adobe Experience Manager Assets] API.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -302,7 +306,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -310,7 +314,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL メソッド ]</p> </td> 
-   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -322,7 +326,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>注意：  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -340,7 +344,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -375,7 +379,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL レコードタイプ ]</td> 
@@ -398,7 +402,7 @@ ht-degree: 0%
 
 ### [!UICONTROL アセットのアップロード]
 
-このアクションモジュールは、 [!DNL Adobe Experience Manager Assets] アカウント
+このアクションモジュールは、 [!DNL Adobe Experience Manager Assets] アカウント。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -406,7 +410,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td> <p>接続方法については、 [!DNL Adobe Experience Manager Assets] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">接続 [!DNL Adobe Experience Manager Assets] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 宛先 ]</td> 

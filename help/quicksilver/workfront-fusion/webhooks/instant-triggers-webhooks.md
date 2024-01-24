@@ -7,20 +7,25 @@ description: 多くのサービスでは、サービスで特定の変更が発�
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
 
 # のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]
 
-多くのサービスでは、サービスで特定の変更が発生した場合に即座に通知を受け取る Web フックが用意されています。 これらの通知を処理するには、インスタントトリガーを使用することをお勧めします。 これらは、 [!DNL Adobe Workfront Fusion] タグの理由：
+多くのサービスでは、サービスで特定の変更が発生した場合に即座に通知を受け取る Web フックが用意されています。 これらの通知を処理するには、インスタントトリガーを使用することをお勧めします。 これらは、 [!DNL Adobe Workfront Fusion] タグの理由は次のとおりです。
 
 ![](assets/instant-350x256.png)
 
 Web フックが提供されない場合は、ポーリングトリガーを使用して定期的にサービスをポーリングする必要があります。
+
+Workfront Fusion の Web フックの紹介ビデオについては、以下を参照してください。
+
+* [Web フックの概要](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [中間ウェブフック](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
 ## アクセス要件
 
@@ -31,7 +36,7 @@ Web フックが提供されない場合は、ポーリングトリガーを使�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -43,15 +48,15 @@ Web フックが提供されない場合は、ポーリングトリガーを使�
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -96,10 +101,10 @@ Web フックが提供されない場合は、ポーリングトリガーを使�
 >
 
 
-他のスケジュール設定を使用する場合は、 [!UICONTROL 即時]の場合、シナリオは指定した間隔で実行されます。 間隔中に複数の Web フックをキューで収集できるので、 [[!UICONTROL 最大サイクル数]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) をデフォルトの 1 より大きい値に設定すると、1 つのシナリオで複数の Web フックが処理されます。
+他のスケジュール設定を使用する場合は、 [!UICONTROL 即時]の場合、シナリオは指定した間隔で実行されます。 間隔中に複数の Web フックをキューで収集できるので、 [[!UICONTROL サイクルの最大数]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) をデフォルトの 1 より大きい値に設定すると、1 つのシナリオで複数の Web フックが処理されます。
 
 1. 次をクリック： [!UICONTROL シナリオ設定] アイコン ![](assets/gear-icon-settings.png) をクリックします。
-1. 内 **[!UICONTROL シナリオ設定]** 表示されるボックスに、 **[!UICONTROL 最大サイクル数]** ボックスに、シナリオを実行するたびに実行するキュー内の Web フック数を示します。
+1. Adobe Analytics の **[!UICONTROL シナリオ設定]** 表示されるボックスに、 **[!UICONTROL 最大サイクル数]** ボックスに、シナリオを実行するたびに実行するキュー内の Web フック数を示します。
 
 ## レート制限
 

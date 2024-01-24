@@ -8,9 +8,9 @@ description: データストアは、データベースやシンプルなテー�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 1%
 
 データストアモジュールの使用について詳しくは、 [[!UICONTROL データストア] モジュール](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
+Workfront Fusion のデータストアに関するビデオの紹介については、以下を参照してください。
+
+* [データストア](https://video.tv.adobe.com/v/3427029/){target=_blank}
+
 ## アクセス要件
 
 この記事の機能を使用するには、次のアクセス権が必要です。
@@ -40,7 +44,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -52,15 +56,15 @@ ht-degree: 1%
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -81,16 +85,16 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->組織に使用可能なデータストアの数が制限されています。 使用可能な数を超えるデータストアを作成しようとする場合、 [!DNL Workfront] は [!UICONTROL 最大店舗数に達しました] エラー。
+>組織に使用可能なデータストアの数が制限されています。 使用可能な数を超えるデータストアを作成しようとする場合、 [!DNL Workfront] は、 [!UICONTROL 最大店舗数に達しました] エラー。
 >
 >詳しくは、 [最大ストア数到達エラー](#maximum-stores-reached-error) 」を参照してください。
 
-1. にログインします。 [!DNL Workfront Fusion] アカウント
-1. クリック **[!UICONTROL データストア]** をクリックします。
+1. にログインします。 [!DNL Workfront Fusion] アカウント。
+1. クリック **[!UICONTROL データストア]** （左側のナビゲーションパネル）
 1. クリック **[!UICONTROL データストアを追加]** をクリックします。
 1. 新しいデータストアの設定を入力します。
 
-   フィールドの太字のタイトル [!DNL Workfront Fusion] モジュールは、必要な設定を示します。
+   フィールドの太字のタイトル ( [!DNL Workfront Fusion] モジュールは、必要な設定を示します。
 
    <table style="table-layout:auto">
     <col> 
@@ -105,13 +109,13 @@ ht-degree: 1%
       <td> <p>データ構造は、テーブルの列のリストです。 このリストは、列名とデータタイプを示します。</p> <p>次のいずれかの操作を行います。</p> 
        <ul> 
         <li style="font-weight: bold;">作成済みのデータ構造を選択</li> 
-        <li> <p style="font-weight: bold;">新しいデータ構造を追加</p> <p>クリック <strong>[!UICONTROL 追加 ]</strong> をクリックして、新しいデータ構造を作成します。</p> <p>詳しくは、 <a href="#set-up-the-data-structure" class="MCXref xref">データ構造の設定</a> 」の節を参照してください。</p> </li> 
+        <li> <p style="font-weight: bold;">新しいデータ構造を追加する</p> <p>クリック <strong>[!UICONTROL 追加 ]</strong> をクリックして、新しいデータ構造を作成します。</p> <p>詳しくは、 <a href="#set-up-the-data-structure" class="MCXref xref">データ構造の設定</a> 」の節を参照してください。</p> </li> 
         <li style="font-weight: bold;"> <p>このフィールドは空のままにします</p> <p style="font-weight: normal;">データ構造を選択または追加しない場合、データベースにはプライマリキーのみが含まれます。 このようなデータベースタイプは、キーのみを保存する場合に便利で、特定のキーがデータベースに存在するかどうかのみを知る必要があります。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL データストレージサイズ（MB 単位）]</p> </td> 
-      <td> <p>データストアのサイズを、総内部データストレージから割り当てます。</p> <p> デフォルト値は 10 MB です。 500 MB の割り当てで、未割り当てのデータストア容量が 10 MB 未満の場合、デフォルトのサイズは未割り当てのストレージの容量です。  <p>注意：予約金額はいつでも変更できます。</p>  </td> 
+      <td> <p>データストアのサイズを、総内部データストレージから割り当てます。</p> <p> デフォルト値は 10 MB です。 500 MB の割り当てで、未割り当てのデータストア容量が 10 MB 未満の場合、デフォルトのサイズは未割り当てのストレージの容量です。  <p>注意：予約された金額はいつでも変更できます。</p>  </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,7 +123,7 @@ ht-degree: 1%
 ### データ構造の設定
 
 1. データストアを作成または編集する際に、 **[!UICONTROL 追加]**.
-1. 内 **[!UICONTROL データ構造を追加]** 表示されるボックスで、次のフィールドを設定します。
+1. Adobe Analytics の **[!UICONTROL データ構造を追加]** 表示されるボックスで、次のフィールドを設定します。
 
    <table style="table-layout:auto">
     <col> 
@@ -136,8 +140,8 @@ ht-degree: 1%
         <li> <p>クリック <strong>[!UICONTROL 項目を追加 ]</strong> をクリックして、1 つの列のプロパティを手動で指定します。</p> <p>次を入力します。 <strong>[!UICONTROL 名前 ]</strong> および <strong>[!UICONTROL の種類 ]</strong> データストア列のを参照し、対応するプロパティを定義します。</p> </li> 
         <li> <p>クリック <strong>[!UICONTROL Generator]</strong> を使用して、指定したサンプルデータから列を特定します。</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
-          <span class="autonumber"><span><b>例: </b></span></span> 
-          <p>例えば、次の JSON サンプルデータは 3 つの列を作成します。名前、年齢および電話番号。 電話番号は、携帯電話および固定電話の電話番号を集めたものです。</p> 
+          <span class="autonumber"><span><b>例： </b></span></span> 
+          <p>例えば、次の JSON サンプルデータは、名前、年齢、電話番号の 3 つの列を作成します。 電話番号は、携帯電話および固定電話の電話番号を集めたものです。</p> 
           <p><code>&lbrace;</code> </p> 
           <p><code>"name":"John",</code> </p> 
           <p><code>"age":30,</code> </p> 
@@ -164,13 +168,13 @@ ht-degree: 1%
 既存のデータストアのプロパティとコンテンツは、 [!UICONTROL データストア] ～の面積 [!DNL Workfront Fusion].
 
 * [データストアのプロパティを編集する](#edit-the-properties-of-a-data-store)
-* [データストアのコンテンツの編集](#edit-the-contents-of-a-data-store)
+* [データストアのコンテンツを編集する](#edit-the-contents-of-a-data-store)
 
 ### データストアのプロパティを編集する
 
 データストアのプロパティには、データストアが使用するデータ構造と、データストアのサイズが含まれます。
 
-1. クリック **[!UICONTROL データストア]** ![](assets/data-store-icon.png) 左側のナビゲーションパネルで、 [!UICONTROL データストア] 領域
+1. クリック **[!UICONTROL データストア]** ![](assets/data-store-icon.png) 左側のナビゲーションパネルで、 [!UICONTROL データストア] 領域。
 1. クリック **[!UICONTROL 編集]** ![](assets/data-store-edit.png) をクリックします。
 1. （オプション）このデータストアで使用するデータ構造を別の既存のデータ構造に変更する場合は、 **[!UICONTROL データ構造]** 」ドロップダウンリストから選択できます。
 
@@ -181,9 +185,9 @@ ht-degree: 1%
 1. （オプション）新しいサイズを **[!UICONTROL データストレージサイズ (MB)]** フィールドに入力します。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-### データストアのコンテンツの編集
+### データストアのコンテンツを編集する
 
-1. 次をクリック： **[!UICONTROL データストア]** アイコン ![](assets/data-store-icon.png) 左側のナビゲーションパネルで、 [!UICONTROL データストア] 領域
+1. 次をクリック： **[!UICONTROL データストア]** アイコン ![](assets/data-store-icon.png) 左側のナビゲーションパネルで、 [!UICONTROL データストア] 領域。
 1. クリック **[!UICONTROL 参照]**  をクリックします。
 1. （オプション）列を目的の場所にドラッグして並べ替えます。
 1. （オプション） [!UICONTROL 編集] 単一のセルを選択するには、 **[!UICONTROL 編集]** アイコンをクリックし、必要な値を入力します。
@@ -209,15 +213,15 @@ ht-degree: 1%
 1. データをコピーします。
 1. データをデータストアに再度挿入します。
 
-   データストアへのデータの挿入について詳しくは、 [データストアのコンテンツの編集](#edit-the-contents-of-a-data-store) 」を参照してください。
+   データストアへのデータの挿入について詳しくは、 [データストアのコンテンツを編集する](#edit-the-contents-of-a-data-store) 」を参照してください。
 
 ### [!UICONTROL スペースが不足しています] エラー
 
-An [!UICONTROL スペース不足] 以前に作成したデータストアが割り当て済みのデータストアストレージに既に割り当てられているので、エラーが発生します。
+An [!UICONTROL スペースが不足しています] 以前に作成したデータストアが割り当て済みのデータストアストレージに既に割り当てられているので、エラーが発生します。
 
 #### 回避策
 
-1. 既存のデータストアを編集して、使用スペースを減らします。 これにより、新しいデータストアの容量が解放されます。
+1. 既存のデータストアを編集して、使用するスペースを減らします。 これにより、新しいデータストアの容量が解放されます。
 
    詳しくは、 [データストアのプロパティを編集する](#edit-the-properties-of-a-data-store) 」を参照してください。
 

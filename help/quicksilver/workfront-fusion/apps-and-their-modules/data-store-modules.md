@@ -8,9 +8,9 @@ description: An [!DNL Adobe Workfront Fusion] データストアは、データ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ An [!DNL Adobe Workfront Fusion] データストアは、データベースや�
 
 データストアの作成、編集、トラブルシューティングについて詳しくは、 [のデータストア [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
+Workfront Fusion のデータストアに関するビデオの紹介については、以下を参照してください。
+
+* [データストア](https://video.tv.adobe.com/v/3427029/){target=_blank}
+
 ## アクセス要件
 
 この記事の機能を使用するには、次のアクセス権が必要です。
@@ -32,7 +36,7 @@ An [!DNL Adobe Workfront Fusion] データストアは、データベースや�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -44,15 +48,15 @@ An [!DNL Adobe Workfront Fusion] データストアは、データベースや�
    <td>
    <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -64,19 +68,19 @@ An [!DNL Adobe Workfront Fusion] データストアは、データベースや�
 
 ## 前提条件
 
-使用する [!UICONTROL データストア] モジュールの場合、最初にデータストアを作成する必要があります。
+次を使用するには： [!UICONTROL データストア] モジュールの場合、最初にデータストアを作成する必要があります。
 
 データストアの作成について詳しくは、 [のデータストア [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
 ## [!UICONTROL データストア] モジュールとそのフィールド
 
-データストアモジュールを設定する際、 [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、アプリやサービスでのアクセスレベルなどの要因に応じて、追加のデータストアフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+データストアモジュールを設定する際、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらに加えて、アプリやサービスでのアクセスレベルなどの要因に応じて、追加のデータストアフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-すべて [!UICONTROL データストア] モジュールはアクションタイプのモジュールです。
+すべて [!UICONTROL データストア] モジュールは、アクションタイプのモジュールです。
 
 * [レコードの追加/置換](#addreplace-a-record)
 * [レコードの更新](#update-a-record)

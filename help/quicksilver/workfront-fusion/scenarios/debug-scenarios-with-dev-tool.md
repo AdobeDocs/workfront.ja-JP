@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool を使用すると、シナリオを
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: fb0ead5a39d95b3228fccd417947fa77b49305dd
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1813'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,10 @@ ht-degree: 1%
 
 The [!DNL Adobe Workfront Fusion] 開発者ツールを使用すると、シナリオを理解し、トラブルシューティングできます。 開発ツールは、 [!DNL Chrome Developer Tools]. このデバッガーパネルを使用すると、シナリオのすべての手動実行を確認し、実行されたすべての操作を確認し、実行されたすべての API 呼び出しの詳細を確認できます。 エラーが発生したモジュール、操作、または単一の応答を確認し、その知識を使用してシナリオを絞り込むことができます。
 
-Fusion Devtool の詳細なビデオチュートリアルについては、 [開発ツールのチュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
+Fusion Devtool のビデオの紹介と説明については、
+
+* [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
+* [開発ツールのチュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## アクセス要件
 
