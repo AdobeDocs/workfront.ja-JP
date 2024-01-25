@@ -1,21 +1,21 @@
 ---
-title: 2024 年第 1 四半期のプロジェクトの機能強化
-description: 2024 年第 1 四半期プロジェクトの機能強化
-author: Nolan
+title: 2024 年第 2 四半期のプロジェクトの機能強化
+description: 2024 年第 2 四半期のプロジェクトの機能強化
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 4612d1915340c6053bf658f729b8b10e09f646f7
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
-# 2024 年第 1 四半期のプロジェクトの機能強化
+# 2024 年第 2 四半期のプロジェクトの機能強化
 
-このページでは、2024 年第 1 四半期リリースでプレビュー環境に対しておこなわれたすべてのプロジェクトの機能強化について説明します。 これらの機能強化は、2024 年第 1 四半期リリースの実稼動環境で利用できるようになります。
+このページでは、2024 年第 2 四半期リリースでプレビュー環境に対しておこなわれたすべてのプロジェクトの機能強化について説明します。 これらの機能強化は、前述のとおり、実稼動環境で利用できるようになります。
 
-2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+2024 年第 2 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## 関連性の高いスマート割り当て
 
