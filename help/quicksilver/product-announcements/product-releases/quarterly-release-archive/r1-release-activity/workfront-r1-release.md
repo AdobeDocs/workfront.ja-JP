@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -94,8 +94,6 @@ Workfrontは、最新のナレッジワーカーやエグゼクティブが以�
 
 **詳細を見る**
 
-* R1 データシートを次の場所からダウンロードします。  [https://resources.workfront.com/data-sheets/r1-release-datasheet](https://resources.workfront.com/data-sheets/r1-release-datasheet)
-* R1 リリースに関する FAQ をこちらからダウンロードします。 [https://resources.workfront.com/data-sheets/r1-faq-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
 * R1 で使用できる改善点の完全なリストについては、以下を参照してください。 [R1 リリースアクティビティの概要](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront。 仕事が重要だからです

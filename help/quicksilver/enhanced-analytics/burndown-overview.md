@@ -7,7 +7,7 @@ description: バーンダウンビジュアライゼーションは、特定の�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>表示</p> </td> 
+   <td> <p>表示</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ## 前提条件
 
-拡張 Analytics を使用するための前提条件については、「前提条件」の節を参照してください。 [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+拡張 Analytics を使用するための前提条件については、「前提条件」の節を参照してください。 [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## バーンダウンビジュアライゼーションの理解
 
@@ -152,7 +152,7 @@ ht-degree: 0%
    >実際の速度がビジュアライゼーションの X 軸（0 時間または 0 日間のインライン）に沿った平らな線である場合は、計画された時間（または日）はプロジェクトに追加されていませんでした。\
    >実際の速度が x 軸の上のフラットな線（時間数または日数を含むインライン）で下降しない場合、フィルタリングされた期間内にタスクが完了しなかったことを意味します。
 
-1. （オプション）ビジュアライゼーションデータを書き出すには、 **書き出し** アイコン ![書き出しアイコン](assets/export.png)ビジュアライゼーションの右上隅で、エクスポート形式を選択します。
+1. （オプション）ビジュアライゼーションデータを書き出すには、 **書き出し** アイコン ![書き出しアイコン](assets/export.png) ビジュアライゼーションの右上隅で、エクスポート形式を選択します。
 
    * グラフ (PNG)
    * データテーブル (XSLX)
