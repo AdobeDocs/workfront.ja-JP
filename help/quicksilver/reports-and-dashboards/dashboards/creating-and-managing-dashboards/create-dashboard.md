@@ -2,20 +2,22 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードの作成
-description: ダッシュボードを作成して、レポート、カレンダー、外部ページの情報にすばやくアクセスできます。
+description: ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。 レポート、カレンダー、外部ページをダッシュボードに追加して、他のユーザーと共有し、最適なコラボレーションを実現できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 0%
+source-wordcount: '475'
+ht-degree: 1%
 
 ---
 
 # ダッシュボードの作成
 
-ダッシュボードを作成して、レポート、カレンダー、外部ページの情報にすばやくアクセスできます。
+<!--Audited: 01/2024-->
+
+ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。 レポート、カレンダー、外部ページをダッシュボードに追加して、他のユーザーと共有し、最適なコラボレーションを実現できます。
 
 ダッシュボードについて詳しくは、 [ダッシュボードの概要](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
@@ -30,39 +32,42 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront plan*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfrontプラン</strong></p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront license*</strong></p> </td> 
-   <td> <p>計画 </p> </td> 
+   <td> <p>現在：プラン </p>
+   または
+   <p>新規：標準 </p> </td> 
   </tr> 
   <tr> 
-   <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td><strong>アクセスレベル設定</strong> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>オブジェクト権限</strong> </p> </td> 
-   <td> <p>新しいダッシュボードに対する管理権限が取得されます</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.<br>ダッシュボードの権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">レポート、ダッシュボード、カレンダーの共有 </a>.</p> </td> 
+   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
+   <td> <p>作成したダッシュボードに対する管理権限が取得されます</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
 ダッシュボードに追加する前に、次のオブジェクトのいずれかを作成する必要があります。
 
-* **レポート**:レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* **レポート**：レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* **カレンダー**:カレンダーの作成について詳しくは、 [カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+* **カレンダー**：カレンダーの作成について詳しくは、 [カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-* **外部ページ**:外部ページの作成について詳しくは、 [外部 Web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+既存の外部ページをダッシュボードに追加することも、新しいダッシュボードから外部ページを作成することもできます。 外部ページの作成について詳しくは、 [外部 Web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 ## ダッシュボードの作成
 
-1. メインメニューアイコンをクリックします。 ![](assets/main-menu-icon.png)を選択し、「 **ダッシュボード。**
+{{step1-to-dashboards}}
+
 1. クリック **新しいダッシュボード**.\
    [ 新しいダッシュボード ] ダイアログボックスが表示されます。
 
@@ -83,19 +88,17 @@ ht-degree: 0%
     </tbody>
    </table>
 
-1. レイアウトを選択するには、レイアウトの横にあるラジオボタンをクリックします。
+1. レイアウトを選択するには、レイアウトの上部にある、レイアウトの横にあるラジオボタンをクリックします。 **レイアウト/レポートを追加/カレンダーを追加を選択します。** 」セクションに入力します。 これは、レポート、カレンダーまたは外部ページがダッシュボードに表示されるレイアウトです。
 
    1 列のレイアウトがデフォルトです。
 
    ダッシュボードのレポートレイアウトについて詳しくは、 [ダッシュボードでのレポートの表示について](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: Consider adding the information from this article here, at some point, instead of linking to it.)
-   </MadCap:conditionalText>
+   Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. 既存のレポート、カレンダーまたは外部ページを検索して追加する **名前またはタイプで検索…** フィールドをドラッグし、リストに表示されたら、レイアウトペインにドラッグします。
+1. でのレポート、カレンダーまたは外部ページの検索 **名前またはタイプで検索…** フィールドをドラッグし、リストに表示されたら、レイアウトウィンドウにドラッグします。
 
    >[!NOTE]
    >
@@ -103,8 +106,10 @@ ht-degree: 0%
 
    ![レポートの検索](assets/qs-new-dashboard-ui-0722.png)
 
-1. （オプション）「 **外部ページを追加** をクリックして、ダッシュボードに外部ページを追加します。\
+1. （オプション）「 **外部ページを追加** をクリックして、新しい外部ページをダッシュボードに追加します。
+
    外部ページの作成とダッシュボードへの埋め込みについて詳しくは、 [外部 Web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. クリック **保存して閉じる**.\
+1. 「**保存して閉じる**」をクリックします。
+
    ダッシュボードの右上隅にタイムスタンプが表示されます。 タイムスタンプには、ダッシュボードが最後に更新された日付、時間、タイムゾーンが含まれます。

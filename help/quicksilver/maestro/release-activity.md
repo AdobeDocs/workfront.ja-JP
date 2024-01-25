@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
 source-wordcount: '3564'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Maestro は、新しい「履歴」セクションに次の情報を記録しま
 
 * 変更が発生した日時の日時スタンプ。
 
-詳しくは、 [レコードコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md).
+詳しくは、 [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md).
 
 ### 新しいレコードリンクの新しいラベル
 

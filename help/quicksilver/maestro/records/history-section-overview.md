@@ -4,10 +4,10 @@ description: AdobeMaestro のレコードの右側のパネルで、レコード
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ ht-degree: 2%
 
    * 複数選択
    * リンクされたレコードフィールド
-   * リンクされた（参照）フィールド
    * 人物
 
   変更によってフィールドに値が追加されただけの場合、古い値は表示されず、新しいフィールド値のみが表示されます。
@@ -80,5 +79,14 @@ ht-degree: 2%
 * チェックボックスタイプのフィールドでは、以前の値が取り消し線形式で表示されることはありません。 フィールドが編集された場合は、変更が行われた時点の現在の状態のみが表示されます。
 
   Maestro フィールドについて詳しくは、 [フィールドの作成](/help/quicksilver/maestro/fields/create-fields.md).
+
+* 次のタイプのフィールドに対する変更は、「履歴」セクションには表示されません。
+
+   * リンクされた（参照）フィールド
+   * 数式
+   * 作成者
+   * 作成日
+   * 最終変更者
+   * 最終変更日
 
 * フィールドがシステムから削除されても、そのフィールドに対しておこなわれた更新は「履歴」セクションに残ります。 レコードの「履歴」セクションでフィールドが削除されたことを示すものはありません。
