@@ -1,13 +1,13 @@
 ---
 title: "レコード：記事インデックス"
-description: Adobe・マエストロでレコード・タイプを作成した後、それらのタイプの個々のレコードを作成できます。 次の記事では、AdobeMaestro でレコードを作成および管理する方法について説明します。
+description: Adobe・マエストロでレコード・タイプを作成した後、それらのタイプの個々のレコードを作成できます。 次の記事では、AdobeMaestro でレコードとその情報を作成および管理する方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ hide: yes
 
 Maestro でレコードタイプを作成した後、Adobe・マエストロで個々のレコードを作成できます。
 
-次の記事では、Maestro でレコードを作成および管理する方法についてAdobeします。
+次の記事では、AdobeMaestro でレコードとその情報を作成および管理する方法について説明します。
 
 * [レコードを作成](../records/create-records.md)
 * [レコードを編集](../records/edit-records.md)
@@ -46,3 +46,4 @@ Maestro でレコードタイプを作成した後、Adobe・マエストロで�
 * [レコードの共有](../records/share-records.md)
 * [レコードを接続](../records/connect-records.md)
 * [レコードコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md)

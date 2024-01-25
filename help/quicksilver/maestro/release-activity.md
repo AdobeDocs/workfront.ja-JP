@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ ht-degree: 0%
 >
 >以下の節で参照されるドキュメントは、機能が実稼動環境にリリースされてからしばらく後に利用できるようになります。
 
-<!--
-## Week of January 22, 2024
+## 2024 年 1 月 22 日の週
 
-### New History section displays system activity for Maestro records (title) 
+### 新しい履歴セクションには、Maestro レコードのシステムアクティビティが表示されます
 
-Production: < date > 
+実稼動： 2024 年 1 月 26 日
 
-Preview: To be determined 
+プレビュー：決定する必要があります
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+監査機能を向上させるために、レコードの右側のパネルに新しいセクションを導入し、システムで記録されたレコードに対する変更を確認できるようにしました。
 
-Maestro records the following information in the new History section:  
+Maestro は、新しい「履歴」セクションに次の情報を記録します。
 
-* Any field changes 
+* フィールドの変更
 
-* The full name of the user who made the change 
+* 値が変更された場合の、フィールドの古い値と新しい値
 
-* A date and time stamp of when the change occurred. 
+* 変更を加えたユーザーの氏名
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* 変更が発生した日時の日時スタンプ。
 
--->
+詳しくは、 [レコードコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### 新しいレコードリンクの新しいラベル
+
+実稼動： 2024 年 1 月 26 日
+
+プレビュー：決定する必要があります
+
+レコードの作成時に一貫性を保つために、「+新規レコード」に対するレコード作成用の+新規リンクのラベルを変更しました。  この更新以前は、リンクにはレコードタイプの名前が含まれていました。 これで、運用レコードと分類レコードを作成する際に、新しいリンクを使用できるようになりました。 詳しくは、 [レコードを作成](/help/quicksilver/maestro/records/create-records.md).
 
 ## 2024 年 1 月 8 日の週
 

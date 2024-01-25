@@ -1,12 +1,12 @@
 ---
 title: レコードコメントの管理
-description: レコードの [ コメント ] 領域にコメントや返信を追加することで、AdobeMaestro レコードに関する共同作業を行うことができます。
+description: レコードの右側のパネルにコメントや返信を追加することで、AdobeMaestro レコードで共同作業を行うことができます。 また、この領域で、記録に加えられた他の変更や記録を表示することもできます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # レコードコメントの管理
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-レコードの [ コメント ] 領域にコメントや返信を追加することで、AdobeMaestro レコードに関する共同作業を行うことができます。
+レコードの右側のパネルにコメントや返信を追加することで、AdobeMaestro レコードで共同作業を行うことができます。 また、この領域で、記録に加えられた他の変更や記録を表示することもできます。
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+レコードの右側のパネルには、次のセクションが表示されます。
 
-The right panel of a record displays the following sections:
+* **コメント**：ユーザーがレコードに追加したコメントおよび返信を表示します。
+* **履歴**：ユーザーがレコードフィールドに対しておこなった、システムで記録された変更を表示します。 詳しくは、 [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>右側のパネルには、運用レコードと分類レコードの両方が表示されます。
+
 
 ## レコードにコメントする際の考慮事項
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * ユーザーにタグを付けて、更新に注意を向けることができます。 タグ付きユーザーは、アプリ内通知や更新に関する電子メールを受け取りません。 <!--this might change??-->
 
-* Maestro の次の領域からレコードに更新を追加できます。
+* Maestro の次の領域で、レコードに更新を追加し、変更履歴をレビューできます。
 
-   * 「詳細」ページから。
+   * レコードまたは分類の詳細ページから。
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ The right panel of a record displays the following sections:
 
    レコードの **詳細** ページが開きます。 「コメント」領域は、デフォルトでは右側のパネルに開きます。
 
+1. （条件付き）デフォルトで右側のパネルが開かない場合は、 **コメントを表示** ![](assets/show-comments-icon.png) アイコンを使用して、「コメント」セクションを開きます。
+
 1. でコメントの入力を開始 **新しいコメント** ボックス。
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ The right panel of a record displays the following sections:
 1. （オプション） **その他** アイコン ![](assets/more-menu.png) コメントの右上隅で、次のいずれかのオプションをクリックして、コメントから情報をコピーします。
 
    * **リンクをコピー**：コメントへのリンクをクリップボードにコピーします。
-   * **本文テキストをコピー** t：コメントのテキストをクリップボードにコピーします。
+   * **本文をコピー**：コメントのテキストをクリップボードにコピーします。
    * **見積もりの返信**：コメントの内容を新しい返信にコピーします。 コピーされた返信に画像は含まれません。
 
    詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. （オプション） **その他** アイコン ![](assets/more-menu.png) コメントの右上隅で、 **削除** をクリックしてコメントを削除します。
+1. （オプション） **注釈を非表示** アイコン ![](assets/hide-comments-icon.png) をクリックして、右側のパネルを閉じます。
 
-<!--
-## History section overview
+## 履歴セクションの概要
 
-*********also update the screen shot above for the Comments section ******
+レコードに加えた変更は、オペレーショナルレコードまたは分類の右側のパネルの「履歴」セクションで確認できます。
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+詳しくは、 [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->
