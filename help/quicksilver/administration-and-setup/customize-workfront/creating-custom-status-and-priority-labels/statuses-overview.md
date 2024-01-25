@@ -5,18 +5,20 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: ステータスの概要
 description: プロジェクト、タスク、またはイシューの現在の開発状態を調べるには、ユーザーがそのステータスを表示します。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # ステータスの概要
+
+<!-- Audited: 01/2024 -->
 
 プロジェクト、タスク、またはイシューの現在の開発状態を調べるには、ユーザーがそのステータスを表示します。
 
@@ -26,15 +28,15 @@ ht-degree: 0%
 
 通常、プロジェクト、タスク、またはイシューのステータスの変更は手動で行います。 ただし、システムで発生している他の要因に応じて、問題のステータスが自動的に変更される場合があります。
 
-Workfrontには、9 つのプロジェクトステータス、3 つのタスクステータス、10 件のタスクステータスがあります。 これらの詳細については、次の記事を参照してください。
+Adobe Workfrontには、9 つのプロジェクトステータス、3 つのタスクステータス、10 件のタスクステータスがあります。 これらの詳細については、次の記事を参照してください。
 
 * [システムプロジェクトステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [システムタスクステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
-* [システムの問題ステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+* [システムの問題ステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## カスタムステータス
 
-Workfront管理者は、Workfrontに付属するデフォルトのステータスに加えて、カスタムプロジェクト、タスクおよび問題のステータスを組織のニーズに合わせて追加できます。 Workfrontインスタンスの全員が使用するシステムレベルのステータスや、特定のグループのみが使用するグループレベルのステータスを作成できます。 詳しくは、 [ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Workfront管理者は、Workfrontに付属するデフォルトのステータスに加えて、カスタムプロジェクト、タスクおよび問題のステータスを組織のニーズに合わせて追加できます。 Workfrontインスタンスの全員が使用するシステムレベルのステータスや、特定のグループのみで使用するグループレベルのステータスを作成できます。 詳しくは、 [ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## グループのステータス
 

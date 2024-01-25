@@ -7,9 +7,9 @@ description: チーム容量ビジュアライゼーションは、ホームチ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 4%
       <p>現在：ビジネス以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンスの概要</td>
+   <td role="rowheader">Adobe Workfrontライセンス</td>
    <td>
       <p>新規：明るいかそれ以上</p>
       <p>または</p>
