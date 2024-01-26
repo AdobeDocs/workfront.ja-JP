@@ -6,24 +6,27 @@ description: 不在時に割り当てられた作業を一時的に委任する�
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 1%
+source-wordcount: '1449'
+ht-degree: 0%
 
 ---
 
 # タスクと問題の委任を管理
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 不在時に割り当てられた作業を一時的に委任することができます。
 
-タスクと問題の割り当てを委任したり、承認を委任したりできます。 この記事では、タスクと問題の割り当てを委任する方法について説明します。
+タスクや問題の割り当てを委任したり、承認を委任したりできます。 この記事では、タスクと問題の割り当てを委任する方法について説明します。
 
 作業の委任に関する一般情報については、 [作業の委任の概要](../../manage-work/delegate-work/delegate-work-overview.md).
 
@@ -35,10 +38,10 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 >* 権限は、アクセスレベル内で機能する必要があり、アクセスレベルが自分のアクセスレベルより低い場合もあります。
 >
 >   
->   例えば、ユーザーがアクセスレベルでタスクに対する表示アクセス権のみを持ち、委任したタスクに対する管理権限を持っている場合、ユーザーは、委任したタスクに対する管理権限を受け取ります。 ただし、委任されたタスクに対してユーザーと同じアクションを実行することはできません。 不在時にタスクを更新できるよう、システム管理者にタスクへの編集アクセス権を要求する必要があります。
+>   例えば、ユーザーがアクセスレベルでタスクに対する表示アクセス権のみを持ち、委任したタスクに対する管理権限を持っている場合、ユーザーは、委任したタスクに対する管理権限を受け取ります。 ただし、委任されたタスクに対してユーザーと同じアクションを実行することはできません。 不在中にタスクを更新できるようにするには、システム管理者に Edit access to Tasks を要求する必要があります。
 >
 >   
->   がアクセスレベルを変更する方法について詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   システム管理者がアクセスレベルを変更する方法について詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* デリゲーションが既に開始した後に割り当てられた項目の場合、項目が割り当てられてから最大 1 時間かかる場合があります ( [!DNL Workfront] 新しく割り当てられた項目を委任者と共有する場合。
 
@@ -50,31 +53,32 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>レビュー以上</p>
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：寄稿者以上</p><p>または</p><p>現在：レビュー以上</p>
 
 >[!NOTE]
 >
->リクエストライセンスを持っている場合は、作業に割り当てることができますが、他の人に作業を委任することはできません。 [!DNL Workfront] では、作業を「レビュー」または「ユーザーをリクエスト」に割り当てることはお勧めしません。
+>リクエストライセンスを持っている場合は、作業に割り当てることができますが、他の人に作業を委任することはできません。 [!DNL Workfront] では、レビュー、リクエスト、または投稿者のユーザに作業を割り当てることは推奨していません。
 
 </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクと問題へのアクセス権を編集まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タスクおよび問題へのアクセスを編集 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
    <td> <p>割り当てられているタスクまたは問題に対する権限を表示または上限に設定します</p> 
-    <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*お持ちのプラン、ライセンスの種類、アクセス権を調べるには、 [!DNL Workfront] 管理者。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -92,7 +96,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 作業を他のユーザーに委任する前に、連絡を取り、作業項目の代理者に指定されるように通知することをお勧めします。 仕事を委任する前に、言葉による承認を求め、不在中に仕事を完了するのに必要な時間を確保します。
 
-タスクと問題の委任に関する一般的な情報については、 [タスクと問題の委任の概要](delegate-work.md).
+タスクと問題の委任に関する一般的な情報については、 [タスクと問題の委任の概要](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 タスクと問題を他のユーザーに委任するには：
 
@@ -102,9 +106,9 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 1. Adobe Analytics の [!UICONTROL **タスクと問題の委任**] 「 」タブで、以下を更新します。
 
-   * [!UICONTROL **タスクと問題を次に委任**]：タスクおよびタスクを委任するユーザーの名前の入力を開始し、リストに表示されたら選択します。 選択できるユーザーは 1 つだけです。\
+   * [!UICONTROL **タスクと問題を次に委任**]：タスクおよびタスクを委任するユーザーの名前の入力を開始し、リストに表示されたら選択します。 1 人のユーザーのみを選択できます。
 
-     委任者として選択したユーザーは、タスクに対する権限と同じ権限を受け取り、委任した問題を受け取ります。 詳しくは、 [タスクの委任と問題の概要](delegate-work-overview.md).
+     委任者として選択したユーザーは、タスクに対する権限と同じ権限を受け取り、委任した問題を受け取ります。
 
    * [!UICONTROL **開始日**]：作業項目のデリゲーションを開始する日付をカレンダーから選択します。
 
@@ -118,7 +122,7 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
      >[!TIP]
      >
-     >「終了日」を選択しない場合は、現在の日付に対してのみデリゲーションが有効になります。
+     >「終了日」フィールドを空のままにし、「終了日なし」オプションが選択されていない場合、デリゲーションは現在の日に対してのみ設定されます。
 
      ![](assets/delegate-box-expanded-in-home.png)
 
@@ -128,14 +132,14 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
    * 作業は指定したユーザーに委任されます。 選択した期間内に日付が設定された不完全なタスクまたは問題（デリゲーションが有効になった後に新しく割り当てられたタスクを含む）は、デリゲートされます。
 
-   >[!TIP]
-   >
-   >   委任の期間内に日付が設定された完了した作業項目は、委任されません。
+     >[!TIP]
+     >
+     >   委任の期間内に日付が設定された完了した作業項目は、委任されません。
 
 
    * 画面の右上隅に、別のユーザーへの作業の委任を有効にしたことを確認するメッセージが表示されます。 委任ユーザーの名前が確認メッセージに表示されます。
 
-   * タスクと問題が他のユーザーに委任されたことを示す指標は、 [!DNL Workfront]. 代理オブジェクトの名前が含まれていない領域の詳細については、を参照してください。 [タスクの委任と問題の概要](delegate-work-overview.md).
+   * タスクと問題が他のユーザーに委任されたことを示す指標は、 [!DNL Workfront]. 代理オブジェクトの名前が含まれていない領域の詳細については、を参照してください。 [作業の委任の概要](delegate-work-overview.md).
 
    * The [!UICONTROL **委任**] ボタン [!UICONTROL ホーム] 領域の変更 [!UICONTROL **委任を編集**] をクリックして、デリゲーションが実行されていることを示します。
    <!--
@@ -151,9 +155,6 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    * イベント通知が有効になっている場合、委任者として選択したユーザーは、委任に関する電子メールを受け取ります。
 
      個人の電子メール通知を有効にする方法について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## 委任を編集または停止
 
@@ -201,9 +202,9 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
 
 * タスクまたはイシューのヘッダー
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
   The [!UICONTROL 割当て] タスクまたは問題ヘッダーのフィールドが次の値に変更された場合 [!UICONTROL 割り当てと委任].
+
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * The [!UICONTROL ワークロードバランサー] タスクまたは問題を手動で割り当てる場合
 
@@ -232,11 +233,11 @@ I wrote thhis as a "Manage..." article and I did not add three separate articles
    ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
 
 1. 次をクリック： [!UICONTROL 並べ替え] 次の条件でリストを並べ替えるドロップダウンメニュー。
-   * [!UICONTROL 完了予定]. これはデフォルトの並べ替えオプションです。
-   * [!UICONTROL 予定開始]
+   * [!UICONTROL 計画完了]. これはデフォルトの並べ替えオプションです。
+   * [!UICONTROL 計画開始]
    * [!UICONTROL コミット日]
    * [!UICONTROL プロジェクト]
-   * [!UICONTROL マイ優先度]
+   * [!UICONTROL 優先度]
 1. でグループを展開します。 [!UICONTROL **作業用リスト**] 委任された作業項目を表示します。 次のシナリオが存在します。
    * 他のユーザーに委任した項目の場合は、代理人の名前が [!UICONTROL **作業用リスト**] 同様に [!UICONTROL **割り当てと委任**] フィールドの右側に表示されます。
 

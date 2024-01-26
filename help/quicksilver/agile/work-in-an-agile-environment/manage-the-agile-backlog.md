@@ -6,9 +6,9 @@ description: タスクと問題は、チームが使用しているアジャイ�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: b855f032b24079ff27435fb833cd3ed8a382a77c
+source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 以下の作業項目は、チームが使用するアジャイルな方法に応じて、アジャイルチームに割り当て、ストーリーとしてチームのバックログに追加できます。
 
 * **[!UICONTROL スクラムアジャイルチーム]:** タスクと問題は、アジャイルチームに割り当て、バックログに追加できます。
-* **[!UICONTROL かんばんアジャイルチーム]:** タスクをアジャイルチームに割り当て、バックログに追加できます。 ユーザーは、「 [[!UICONTROL バックログを追加] かんばん委員会に](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). チームは、このバックログを使用して作業キューに優先順位を付け、管理します。
+* **[!UICONTROL かんばんアジャイルチーム]:** タスクをアジャイルチームに割り当て、バックログに追加できます。 ユーザーは、「アジャイルストーリーボード」から直接バックログを表示できます。詳しくは、 [[!UICONTROL バックログを追加] かんばん委員会に](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). チームは、このバックログを使用して作業キューに優先順位を付け、管理します。
 
-タスクまたは問題は、任意の場所からチームに割り当てることができます（その後、チームバックログに追加されます） [!DNL Adobe Workfront]. 例えば、1 つのチームに複数のプロジェクトから作業割り当てを割り当てることができます。
+タスクまたは問題は、の任意の場所からチームに割り当てることができます（その後、チームバックログに追加されます）。 [!DNL Adobe Workfront]. 例えば、1 つのチームに複数のプロジェクトから作業割り当てを割り当てることができます。
 
 >[!NOTE]
 >
@@ -37,40 +37,38 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td> <p>新規： [!UICONTROL Standard]</p><p>または</p><p>現在： [!UICONTROL Work] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以降</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>新規： [!UICONTROL Standard]</p><p>または</p><p>現在： [!UICONTROL Worker] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>[!UICONTROL ストーリーが存在するプロジェクトへの [!UICONTROL 管理 ] アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
+   <td> <p>[!UICONTROL ストーリーが存在するプロジェクトへの [!UICONTROL 管理 ] アクセス権</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## バックログに関するストーリーの作成と管理
 
 * [ストーリーの並べ替え](#reorder-stories)
-* [[!UICONTROL 改行] 下の話](#break-down-stories)
+* [[!UICONTROL 分類] ストーリー](#break-down-stories)
 * [ストーリーを編集](#edit-stories)
-* [バックログに新しいストーリーを作成](#create-new-stories-on-the-backlog)
-* [バックログからイテレーションまたはかんばんボードにストーリーを移動](#move-stories-from-the-backlog-to-an-iteration-or-kanban-board)
 
 ### ストーリーの並べ替え {#reorder-stories}
 
 ドラッグ&amp;ドロップを使用して、バックログリスト内のストーリーを並べ替えることができます。
 
 1. ストーリーの並べ替えを行うアジャイルバックログに移動します。
-1. 内 **[!UICONTROL 表示]** ドロップダウンメニューで、 **[!UICONTROL バックログ]** を含むビューまたはカスタムビュー **[!UICONTROL 注文]** 列。
+1. Adobe Analytics の **[!UICONTROL 表示]** ドロップダウンメニューから、 **[!UICONTROL バックログ]** を含むビューまたはカスタムビュー **[!UICONTROL 注文]** 列。
 
    >[!NOTE]
    >
@@ -91,12 +89,11 @@ ht-degree: 0%
 >* ストーリーは、プロジェクトに関連付けられている場合にのみ分類できます。
 
 
-
 ストーリーを分類するには：
 
 1. 分類するストーリーが含まれているバックログに移動します。
 1. 分類するストーリーを選択し、「 **[!UICONTROL ストーリーを分類]**.\
-   この [!UICONTROL ストーリーを分類] ダイアログボックスが表示されます。\
+   The [!UICONTROL ストーリーを分類] ダイアログボックスが表示されます。\
    ![ストーリーを分類ダイアログ](assets/backlog-breakdown-dialog.png)
 
 1. ストーリーの名前と推定値を指定し、ストーリーの準備ができているかどうかを選択します。
@@ -105,7 +102,7 @@ ht-degree: 0%
 
 ### ストーリーを編集 {#edit-stories}
 
-ストーリーは、 [!UICONTROL ストーリー] または [!UICONTROL 問題] プロジェクト内のタスクや問題を一括編集する場合と同様に、「バックログ」タブが表示されます。詳しくは、 [タスクを一括編集](../../manage-work/tasks/manage-tasks/edit-tasks.md#editing-tasks-in-bulk) in [タスクを編集](../../manage-work/tasks/manage-tasks/edit-tasks.md) および [問題の編集](../../manage-work/issues/manage-issues/edit-issues.md#bulk-editing-issues) in [問題の編集](../../manage-work/issues/manage-issues/edit-issues.md).
+ストーリーは、 [!UICONTROL ストーリー] または [!UICONTROL 問題] プロジェクト内のタスクや問題を一括編集する場合と同様に、「バックログ」タブが表示されます。詳しくは、 [タスクを一括編集](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [タスクを編集](../../manage-work/tasks/manage-tasks/edit-tasks.md)、および [問題の編集](../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## バックログに新しいストーリーを作成 {#create-new-stories-on-the-backlog}
 
@@ -120,9 +117,9 @@ ht-degree: 0%
 
 バックログからストーリーを作成する手順は、次のとおりです。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL チーム]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL チーム]**.
 
-1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索して、表示されたら選択します。
 
 1. 選択 **[!UICONTROL バックログ]** を左側のパネルからクリックします。
 1. タスクを作成するかイシューを作成するかに応じて、次のいずれかの操作を実行します。
@@ -178,32 +175,37 @@ ht-degree: 0%
 
 アジャイルチームにタスクまたはイシューを割り当てるには、次の手順に従います。
 
-1. 再割り当てするタスクを含むプロジェクトに移動します。
+1. 割り当てるタスクが含まれているプロジェクトに移動します。
 1. リストからタスクまたはイシューを選択します。
 1. クリック **[!UICONTROL 編集]**.
-1. クリック **[!UICONTROL 割り当て]**.
+1. クリック **[!UICONTROL 割当て]**.
 1. （オプション）既存の担当者を削除します。
 1. クリック **[!UICONTROL 担当者を追加]**.
 1. タスクまたはイシューに割り当てるアジャイルチームの名前を入力し、ドロップダウンリストに表示されたらチーム名をクリックします。
-1. クリック **[!UICONTROL 変更を保存]**.\
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。\
    タスクまたは問題がチームのバックログで利用できるようになりました。
 
-## バックログからイテレーションまたは+ボードにストーリーを移動 {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+## バックログへのストーリーの移動またはバックログからのストーリーの移動
 
+{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+
+* [バックログからイテレーションまたは+ボードにストーリーを移動](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [既存のストーリーをバックログに移動](#move-existing-stories-to-the-backlog)
 * [バックログからストーリーをエクスポート](#export-stories-from-the-backlog)
 
+### バックログからイテレーションまたは+ボードにストーリーを移動
+
 1. アジャイルチームのバックログに移動します。
-1. 反復またはかんばんボードに移動するストーリーを選択し、 **[!UICONTROL 詳細]** > **[!UICONTROL 移動先]**.\
+1. 反復またはかんばんボードに移動するストーリーを選択し、「 **[!UICONTROL その他]** > **[!UICONTROL 移動先]**.\
    ストーリーを [!UICONTROL かんばん] ボード、 [!UICONTROL ストーリーをかんばんに移動] ボードが表示されます。\
-   ストーリーを反復する場合、 [!UICONTROL ストーリーを反復に移動] ダイアログボックスが表示されます。\
+   ストーリーをある反復に移すと、 [!UICONTROL ストーリーを反復に移動] ダイアログボックスが表示されます。\
    ![ストーリーを移動ダイアログ](assets/agile-backlog-addtoiteration.png)
 
 1. 次のいずれかの操作を行います。
 
-   * **スクラムチームの場合：** 内 **[!UICONTROL 反復を選択]** 「 」フィールドで、ストーリーを移動する反復を選択します。
+   * **スクラムチームの場合：** Adobe Analytics の **[!UICONTROL 反復を選択]** 「 」フィールドで、ストーリーを移動する反復を選択します。
 
-   * **かんばんチームの場合：** 内 **[!UICONTROL かんばんボードの選択]** フィールドでチームを選択 [!UICONTROL かんばん] ボード。 ( かんばんチームは 1 つのみを持つことができます [!UICONTROL かんばん] ボード )
+   * **かんばんチームの場合：** Adobe Analytics の **[!UICONTROL かんばんボードの選択]** フィールドでチームを選択 [!UICONTROL かんばん] ボード。 ( かんばんチームは 1 つのみを持つことができます [!UICONTROL かんばん] ボード )
 
 1. クリック **[!UICONTROL ストーリーを移動]**.
 
@@ -211,10 +213,10 @@ ht-degree: 0%
 
 チームがまだストーリーに取り組む準備ができていないと判断した場合は、ストーリーをバックログに移動できます。
 
-詳しくは、 [俊敏なストーリーを移動](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+詳しくは、 [俊敏なストーリーを動かす](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
 ### バックログからストーリーをエクスポート {#export-stories-from-the-backlog}
 
 バックログから直接 1 つ以上のストーリー（タスクやイシューを含む）を書き出すことができます。
 
-別のデータを書き出すのと同じ方法で、バックログからストーリーを書き出します。 [!DNL Workfront]( [データを書き出し](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+別のデータを書き出すのと同じ方法で、バックログからストーリーを書き出します。 [!DNL Workfront]を参照してください。 [データを書き出し](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).

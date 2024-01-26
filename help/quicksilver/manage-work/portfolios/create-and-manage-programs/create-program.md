@@ -6,9 +6,9 @@ description: プログラムとは、プロジェクトの境界を越えた共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -28,11 +28,12 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
-   <td> <p>任意</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] 計画</td>
+
+<td> <p>新規：任意</p><p>または</p><p>現在： [!UICONTROL Business] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> <p>新規： [!UICONTROL Standard] </p><p>または </p><p>現在： [!UICONTROL プラン ] </p> </td> 
   </tr> 
   <tr> 

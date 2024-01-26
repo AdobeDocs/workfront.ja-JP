@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 1%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 1%
       * [アジャイルに関するヒント、テクニックおよびトラブルシューティング](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [アジャイルストーリーボードにカスタムステータスが表示されない](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * ドキュメント {#documents}
-   * [ドキュメント](documents/documents-overview.md)
+   * [ドキュメント：記事インデックス](documents/documents-overview.md)
    * Adobe Workfrontに新しいドキュメントを追加 {#add-new-documents-to-workfront}
       * [Adobe Workfrontに新しいドキュメントを追加](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [ファイルシステムからAdobe Workfrontにドキュメントを追加する](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 1%
          * [タスクへのマイルストーンの関連付け](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [タスクをプロジェクトに変換する](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * タスクの制約 {#task-constraints}
-         * [タスクの制約](manage-work/tasks/task-constraints/task-constraints.md)
+         * [タスクの制約：記事インデックス](manage-work/tasks/task-constraints/task-constraints.md)
          * [タスク制約の概要](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [タスク制約の概要：次の日まで開始](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [タスク制約の概要：次の日まで開始](manage-work/tasks/task-constraints/start-no-earlier-than.md)
