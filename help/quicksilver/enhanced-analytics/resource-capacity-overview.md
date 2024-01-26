@@ -3,20 +3,20 @@ title: 拡張分析でのリソース容量ビジュアライゼーションの�
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: 「生産資源生産能力」ビジュアライゼーションでは、チームの生産能力が超過したか、不足していたか、または生産能力であるかが表示されます。
+description: Adobe Workfrontの拡張分析リソース容量ビジュアライゼーショングラフを表示して、チームが終了したか、中にいたか、または容量にいたかを評価できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 2%
+source-wordcount: '815'
+ht-degree: 1%
 
 ---
 
 # 拡張分析でのリソース容量ビジュアライゼーションの表示
 
-「生産資源生産能力」ビジュアライゼーションでは、チームの生産能力が超過したか、不足していたか、または生産能力であるかが表示されます。
+Adobe Workfrontの拡張分析リソース容量ビジュアライゼーショングラフを表示して、チームが終了したか、中にいたか、または容量にいたかを評価できます。
 
 ## アクセス要件
 
@@ -27,33 +27,38 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfrontプラン</a>*</td> 
-   <td> <p>ビジネス以上</p> </td> 
+   <td>Adobe Workfrontプラン</a>*</td> 
+   <td> <p>現在：ビジネス以上</p>
+   または
+   <p>新規：任意</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td>Adobe Workfront license*</td> 
+   <td> <p>現在：レビュー以上</p>
+   または
+   <p>新規：標準</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを表示</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。<br>Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベルの設定</td> 
+   <td> <p>プロジェクトへのアクセスを表示</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>ビュー</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトに対する表示権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
 拡張 Analytics を使用するための前提条件については、「前提条件」の節を参照してください。 [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## リソース容量のビジュアライゼーションについて
+## [ リソース容量 ] グラフについて
 
-「生産資源生産能力」ビジュアライゼーションでは、チームの生産能力が超過したか、不足していたか、または生産能力であるかが表示されます。 この計算は次の項目に基づいておこなわれます。
+[ リソース容量 ] グラフには、チームが終了したか、チームが超過したか、未満だったか、または能力に達したかが表示されます。 この計算は次の項目に基づいておこなわれます。
 
 * **使用可能な容量**：フィルタリングされた期間にホームチームが作業できる時間の合計
 
