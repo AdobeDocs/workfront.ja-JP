@@ -7,14 +7,16 @@ description: 時間と日付の違いの計算について説明します。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
+source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # 表示：時間と日付の差を計算します
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 次の間の差を計算できます。
 
 * 同じオブジェクト上の 2 つの日付フィールド間の時間と日付の差
-* オブジェクト上のフィールドと親オブジェクト上の別のフィールドとの時間と日付の差
+* オブジェクト上のフィールドと親オブジェクト上の別のフィールドの間の時間と日付の差
 
 >[!TIP]
 >
@@ -38,34 +40,33 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>ビューの変更をリクエスト </p>
-   <p>レポートを変更する計画</p> </td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td> <p>新規： </p><ul><li><p>ビューを変更する寄稿者 </p></li><li>
+   <p>レポートを変更するための標準</p></li></ul><p>または</p><p>現在：</p><ul><li><p>ビューの変更をリクエスト </p></li><li>
+   <p>レポートを変更する計画</p> </li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートを変更します</p> <p>フィルター、ビュー、グループへのアクセスを編集してビューを変更します</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
-</tr>  
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートを変更します</p> <p>フィルター、ビュー、グループへのアクセスを編集してビューを変更します</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>レポートに対する権限の管理</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 同じオブジェクト上の 2 つの日付フィールド間の時間と日付の差を計算します
 
 たとえば、タスクの計画完了日と実際の完了日の差を計算できます。
 
-![](assets/view-planned-actual-completion-dates-datediff-column-350x92.png)
+![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. 次から： **表示** ドロップダウンメニューで、 **新しいビュー**.
@@ -80,7 +81,12 @@ ht-degree: 0%
 1. 検索したテキストを削除します。 **テキストモード** 」ボックスに置き換えて、次のコードに置き換えます。
 
    ```
-   displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
+    displayname=Planned-Actual Completion Date
+    linkedname=direct
+    querysort=plannedCompletionDate
+    textmode=true
+    valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)
+    valueformat=HTML
    ```
 
 1. クリック **保存**&#x200B;を、 **ビューを保存**.
@@ -90,7 +96,7 @@ ht-degree: 0%
 オブジェクトとその親の一覧については、「相互依存関係とオブジェクトの階層について」の項を参照してください。 [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 たとえば、タスクの計画完了日と、その親タスクの計画完了日の差、またはタスクが存在するプロジェクトの差を計算できます。
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-350x184.png)
+![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. 次から： **表示** ドロップダウンメニューで、 **新しいビュー**.
@@ -107,13 +113,18 @@ ht-degree: 0%
    * プロジェクトの計画完了日とタスクの計画完了日の差を表示する手順は、次のとおりです。
 
      ```
-     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+      displayname=Project Planned Completion - Task Planned Completion (Days)
+      textmode=true
+      valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      valueformat=HTML
      ```
 
    * 親タスクの「計画完了日」とタスクの「計画完了日」の差を表示する手順は、次のとおりです。
 
      ```
-     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      textmode=true<br>valueformat=HTML
+      displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
 1. クリック **保存**&#x200B;を、 **ビューを保存**.
