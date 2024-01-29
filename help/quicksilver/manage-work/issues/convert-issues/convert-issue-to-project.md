@@ -6,9 +6,9 @@ description: イシューをAdobe Workfrontのプロジェクトに変換する
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1969'
 ht-degree: 1%
 
 ---
@@ -40,9 +40,10 @@ ht-degree: 1%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>新規：標準 </p>
-   <p>現在：プラン </p> </td> 
+   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td>
+   <p>新規：標準 </p> 
+    <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -55,7 +56,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## イシューのプロジェクトへの変換
 

@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 1%
+source-wordcount: '2108'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
 1. 表示されたページで、次の 5 つのセクションのいずれかに進み、の設定を行います。 [!UICONTROL 新規タスクのデフォルト], [!UICONTROL 問題], [!UICONTROL 削除], [!UICONTROL 実際の日付]、および [!UICONTROL アクセス].
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-* [[!UICONTROL 新規タスクの初期設定]](#new-task-defaults)
+* [[!UICONTROL 新規タスクのデフォルト]](#new-task-defaults)
 * [[!UICONTROL 問題]](#issues)
 * [[!UICONTROL 削除]](#deletion)
 * [[!UICONTROL 実際の日付]](#actual-dates)
@@ -70,7 +70,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
 
 * [[!UICONTROL アクセス]](#access)
 
-### [!UICONTROL 新規タスクの初期設定] {#new-task-defaults}
+### [!UICONTROL 新規タスクのデフォルト] {#new-task-defaults}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL 期間の種類 ] </p> </td> 
-   <td> <p>リソースの数（およびその割り当て率）とタスクの期間または総労力との関係を決定します。 詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプ</a></p> </td> 
+   <td> <p>リソースの数（およびその割り当て率）とタスクの期間または総労力との関係を決定します。 詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">タスクの期間と期間の種類：記事のインデックス</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 売上高タイプ ]</td> 
@@ -95,7 +95,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
  </tbody> 
 </table>
 
-### 問題 {#issues}
+### イシュー {#issues}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -113,7 +113,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
    <td role="rowheader" [!UICONTROL>イシューをタスクに変換する場合 ]</td> 
    <td> <p>このセクションの設定は、問題からタスクへの変換プロセス中に何が起こるかを決定します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 元の問題を保持し、解決をタスクに結び付けます ]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。 タスクが完了すると、問題のステータスが自動的に [!UICONTROL クローズ済み ] に変わります。 選択を解除すると、問題は削除されます。</p> <p><b>メモ</b>:  <p>この設定の状態に関係なく、アクセス権やイシューを削除する権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。 アクセスおよび問題に対する権限について詳しくは、次を参照してください。</p> 
+     <li> <p><strong>[!UICONTROL 元の問題を保持し、解決をタスクに結び付けます ]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。 タスクが完了すると、問題のステータスが自動的に [!UICONTROL クローズ済み ] に変わります。 選択を解除すると、問題は削除されます。</p> <p><b>注意</b>:  <p>この設定の状態に関係なく、アクセス権やイシューを削除する権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。 アクセスおよび問題に対する権限について詳しくは、次を参照してください。</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">問題へのアクセス権の付与</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a> </p> </li> 
@@ -128,7 +128,7 @@ As an [!DNL Adobe Workfront] 管理者は、タスクと問題に関するシス
    <td role="rowheader">[!UICONTROL 問題をプロジェクトに変換する場合 ]</td> 
    <td> <p>この節の設定は、問題からプロジェクトへの変換プロセス中に何が起こるかを決定します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 元の問題を維持し、その解決をプロジェクトに結び付ける ]</strong>：イシューを変換する場合、プロジェクトが完了するまで、イシューはイシューとして表示され続けます。 問題のステータスは、プロジェクトが完了すると、自動的に [!UICONTROL クローズ済み ] に変わります。 選択を解除すると、問題は削除されます。 </p> <p><b>メモ</b>:  <p>この設定の状態に関係なく、アクセス権やイシューを削除する権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。 アクセスおよび問題に対する権限について詳しくは、次を参照してください。</p> 
+     <li> <p><strong>[!UICONTROL 元の問題を維持し、その解決をプロジェクトに結び付ける ]</strong>：イシューを変換する場合、プロジェクトが完了するまで、イシューはイシューとして表示され続けます。 問題のステータスは、プロジェクトが完了すると、自動的に [!UICONTROL クローズ済み ] に変わります。 選択を解除すると、問題は削除されます。 </p> <p><b>注意</b>:  <p>この設定の状態に関係なく、アクセス権やイシューを削除する権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。 アクセスおよび問題に対する権限について詳しくは、次を参照してください。</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">問題へのアクセス権の付与</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a> </p> </li> 

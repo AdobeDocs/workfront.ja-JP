@@ -7,7 +7,7 @@ description: オブジェクトの「更新」(Updates) セクションには、
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 3%
@@ -16,6 +16,8 @@ ht-degree: 3%
 
 
 # アップデートセクションの概要
+
+<!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 

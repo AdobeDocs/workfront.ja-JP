@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 * **ニューWorkfrontプラン**：新しいWorkfrontプランのすべてのライセンスに対して、校正が自動的に含まれます。
 * **現在のWorkfront Pro+プラン**:Pro、Business、Enterprise Workfrontの各プランをご利用の場合は、Work and Plan ライセンスに対する校正が自動的に含まれます。
-* **Workfront Premium レガシープラン**：このオプションは、従来のWorkfrontプラン (Select、Enterprise、Premium) を対象としています。 このプランのライセンスには、校正機能が自動的に含まれていません。 ユーザープロファイル内の特定のユーザーに対して、校正アクセス権を付与する必要があります。
+* **従来のWorkfront Premium プラン**：このオプションは、従来のWorkfrontプラン (Select、Enterprise、Premium) を対象としています。 このプランのライセンスには、校正機能が自動的に含まれていません。 ユーザープロファイル内の特定のユーザーに対して、校正アクセス権を付与する必要があります。
 
   Workfrontの管理者は、セットアップ/システム/ライセンスに移動して、インスタンスがどのプランにあるかを確認できます。
 

@@ -6,7 +6,7 @@ description: ドキュメントをWorkfrontにアップロードする際に、�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # ドキュメントの配達確認の作成
+
+<!-- Audited: 1/2024 -->
 
 ドキュメントをWorkfrontにアップロードする際に、そのドキュメントの配達確認を生成できます。
 

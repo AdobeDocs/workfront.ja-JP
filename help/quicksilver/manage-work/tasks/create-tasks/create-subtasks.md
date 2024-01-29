@@ -6,7 +6,7 @@ description: Workfrontでは、タスクに親子関係を設定できます。 
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 58f2895b1c3964b4481752ddf0df05d41d61f32f
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # サブタスクを作成
+
+<!-- Audited: 1/2024 -->
 
 Workfrontでは、タスクに親子関係を設定できます。 子タスクはサブタスクと呼ばれます。 メインタスクをサブタスクにすることで、タスクリストにサブタスクを作成できます。 サブタスクをメインタスクにすることもできます。
 

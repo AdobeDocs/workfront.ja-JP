@@ -6,11 +6,11 @@ keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
 title: スケジュールの概要
 description: スケジュールを使用して、週の作業を定義できます。 スケジュールは、ユーザーまたはプロジェクトに関連付けることができます。 これにより、 [!DNL Adobe Workfront] をクリックして、タイムラインとユーザーの可用性を計算します。 手順については、「スケジュールを作成する」を参照してください。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # スケジュールの概要
 
+<!-- Audited: 1/2024 -->
+
 スケジュールを使用して作業週を定義し、スケジュールをユーザーまたはプロジェクトに関連付けることができます。 これにより、 [!DNL Adobe Workfront] をクリックして、タイムラインとユーザーの可用性を計算します。 手順については、 [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Workfrontでスケジュールを使用する際は、次の点に注意してください。
 
 * The [!DNL Workfront] 管理者は、組織の営業時間をスケジュールで識別します。
 
-  同様に、グループ管理者は、管理するグループが管理するスケジュールの操作時間を特定できます。
-
-  グループ管理者の詳細については、 [グループ管理者](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  同様に、グループ管理者は、管理するグループが管理するスケジュールの操作時間を特定できます。 グループ管理者の詳細については、 [グループ管理者](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   例えば、スケジュールを月～金、午前 8 時～午後 5 時（昼食は休み）と定義できます。
 

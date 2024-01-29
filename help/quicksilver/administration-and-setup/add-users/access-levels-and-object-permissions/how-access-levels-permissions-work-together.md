@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: アクセス，モデル，ファネル，ダイアグラム，レベル，権限
 navigation-topic: access-levels
 description: Adobe Workfront管理者は、各ユーザーが持つ必要のあるアクセスレベルを決定します。 このアクセスレベルは、ユーザーがシステム内のオブジェクトの種類や領域で表示および操作できる内容を定義します。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,6 @@ Adobe Workfront管理者は、各ユーザーが持つ必要のあるアクセ�
 
 また、他のユーザーが個々のオブジェクトに対して特定の権限を共有し、付与すると、ユーザーは個々のオブジェクトにアクセスできます。
 
-したがって、ユーザーがオブジェクトを使用して実行できるアクティビティは、そのアクセスレベルと、そのプロジェクトに対してユーザーに付与される権限の組み合わせで定義されます。
 
 ![](assets/security-model-hierachy.png)
 

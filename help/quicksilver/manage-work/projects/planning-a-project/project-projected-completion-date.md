@@ -7,7 +7,7 @@ description: 「完了予定日」は、プロジェクト、タスクまたは�
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
+source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # プロジェクト、タスクおよび問題に関する予定完了日の概要
+
+<!-- Audited: 1/2024 -->
 
 「完了予定日」は、プロジェクト、タスクまたはイシューが完了する日時を示すリアルタイムの計算指標です。 プロジェクト、タスク、またはタスクが「完了」とマークされると、「完了予定日」が実際の完了日に変更されます。
 
