@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '13885'
+source-wordcount: '13886'
 ht-degree: 1%
 
 ---
@@ -2044,6 +2044,7 @@ ht-degree: 1%
       * [レコードの共有](maestro/records/share-records.md)
       * [レコードコメントの管理](maestro/records/manage-record-comments.md)
       * [履歴セクションの概要](maestro/records/history-section-overview.md)
+      * [レコードにサムネールを追加](maestro/records/add-thumbnails-to-records.md)
    * Adobeマエストロビュー {#adobe-maestro-views}
       * [ビュー：記事インデックス](maestro/views/views-information.md)
       * [レコードビューの管理](maestro/views/manage-record-views.md)
@@ -2320,7 +2321,7 @@ ht-degree: 1%
       * [Adobe Workfront for Outlook とログアウトに関する追加情報を表示します](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Outlook for Office をAdobe Workfrontおよび SAML 2.0 で使用できるようにします](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
    * Adobe Workfront forMicrosoft Teams {#workfront-for-microsoft-teams}
-      * [Adobe Workfront forMicrosoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
+      * [[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [AdobeのMicrosoft Teamsの概要](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Adobe Workfront forMicrosoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
       * [Microsoft TeamsからAdobe Workfrontにアクセス](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)

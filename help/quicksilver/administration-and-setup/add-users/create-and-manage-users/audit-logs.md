@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Adobe Workfront管理者は、監査ログを使用して、過去 90 日間にシステムでトリガーされたユーザーの変更を追跡できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 4%
+source-wordcount: '1464'
+ht-degree: 3%
 
 ---
 
 # 監査ログ
+
+<!--Audited: 01/2024-->
 
 Adobe Workfront管理者は、以下に説明する監査ログを使用して、過去 90 日間にシステムでトリガーされたユーザーの変更を追跡できます。
 
@@ -30,7 +32,7 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">日時</td> 
+   <td role="rowheader">日付および時刻</td> 
    <td>アクションが発生した日時。</td> 
   </tr> 
   <tr> 
@@ -43,7 +45,7 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
   </tr> 
   <tr> 
    <td role="rowheader">アクション</td> 
-   <td> 変更、作成、削除など、ユーザーが実行したアクション。 </td> 
+   <td> ユーザーが実行するアクション（変更、作成、削除など）。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト</td> 
@@ -63,20 +65,20 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
 ## 監査ログのタイプと、それらをトリガーするアクション
 
 * [アクセスレベル](#access-level)
-* [会社](#company)
-* [状況](#condition)
+* [会社情報](#company)
+* [条件](#condition)
 * [カスタムフィールド](#custom-field)
 * [カスタムフォーム](#custom-forms)
 * [カスタムセクション](#custom-section)
 * [為替レート](#exchange-rate)
 * [グループ](#group)
-* [担当業務](#job-roles)
+* [ジョブの役割](#job-roles)
 * [ログイン試行](#login-attempt)
 * [優先度](#priority)
-* [プロジェクト環境設定](#project-preferences)
+* [プロジェクトの環境設定](#project-preference)
 * [重大度](#severity)
 * [ステータス](#status)
-* [タスクと問題の設定](#tasks-issues-preferences)
+* [タスクと問題の環境設定](#tasks-issues-preferences)
 * [ユーザー](#user)
 
 ### アクセスレベル {#access-level}
@@ -90,11 +92,11 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
    * ライセンスの種類を変更します
    * プロジェクト、タスク、タスク、タスク、Portfolio、プログラム、レポート、ドキュメント、ユーザー、またはテンプレートに対する権限を変更します
 
-      >[!NOTE]
-      >
-      >財務データに対する権限の変更や、次のアクセス・タイプ内の権限の変更は記録されません。表示と編集。
-      >
-      >例えば、ユーザーがプランナーのアクセス・タイプを「表示」から「編集」に変更した場合、「設定の微調整」ドロップダウン・メニューに含まれる情報は表示されません。
+     >[!NOTE]
+     >
+     >財務データに対する権限の変更、または表示と編集のアクセス・タイプ内には、何も記録されません。
+     >
+     >例えば、ユーザーがプランナーのアクセス・タイプを「表示」から「編集」に変更した場合、「設定の微調整」ドロップダウン・メニューに含まれる情報は表示されません。
 
 ### 会社 {#company}
 
@@ -105,8 +107,8 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
 
    * 名前を変更
    * メンバーを追加または削除します
-   * [ グループ ] フィールドの値を追加、編集、削除します
-   * ジョブロールの会社請求率を追加または編集します
+   * [ グループ ] フィールドの値を追加、編集、または削除します
+   * ジョブロールの会社の請求率を追加または編集します
    * ジョブロールの会社請求率を削除します
    * 組織の主な会社として設定します
    * カスタムフォームを添付または削除します
@@ -119,7 +121,7 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
 
 ユーザーが次のいずれかの操作を実行すると、条件監査ログエントリが生成されます。
 
-* 条件を作成
+* 条件を作成します
 * 条件を変更します。
 
    * 名前を変更
@@ -142,14 +144,14 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
    * 名前、ラベル、手順、または形式を変更します
    * 表示タイプを変更します
 
-      これは、フィールドのタイプが次のいずれかである場合にのみ使用できます。1 行、段落、ドロップダウン、チェックボックス、ラジオボタン
+     これは、1 行、段落、ドロップダウン、チェックボックス、ラジオボタンのいずれかのタイプのフィールドの場合にのみ使用できます。
 
    * フィールドサイズを変更します
 
-      これは、フィールドのタイプが次のいずれかである場合にのみ使用できます。1 行、段落、書式設定を含むテキスト
+     これは、1 行、段落、書式設定されたテキストのいずれかのタイプのフィールドである場合にのみ使用できます
 
-   * フィールド選択の追加、削除、非表示を行います
-   * フィールド選択ラベルまたは値を編集します
+   * フィールド選択の追加、削除、非表示を切り替えます。
+   * フィールド選択のラベルまたは値を編集します
    * フィールドの選択を選択するか、既定で選択しないかを設定します
    * 複数選択または 1 つの選択を許可するドロップダウンフィールドを設定します
    * 時刻を表示する、または表示しない日付フィールドを設定します
@@ -168,14 +170,14 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
    * 名前または説明を変更します
    * 「アクティブ」を有効または無効にします
    * フィールドまたはセクションを追加または削除します
-   * カスタムセクションの場合、[ 追加設定 ] の設定を変更します
+   * カスタムセクションの場合、[ 追加設定 ] の設定を変更します。
    * フィールドを必須または不要に変更
    * カスタムフィールドの計算を変更します
    * 「説明のカーソルを合わせたテキスト」の計算フィールドに関連付けられた数式を表示または非表示にします
    * 以前の計算の更新を有効または無効にします
    * スキップロジックまたは表示ロジックを追加または変更します
 
-      <!--   
+     <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -205,13 +207,13 @@ Adobe Workfront管理者は、以下に説明する監査ログを使用して�
 
 * 為替レートを削除します
 
-為替レートの設定の詳細については、 [為替レートの設定](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+為替レートの設定の詳細は、 [為替レートの設定](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### グループ {#group}
 
 ユーザーが次のいずれかの操作を実行すると、システムはグループ監査ログエントリを生成します。
 
-* グループを作成
+* グループを作成します
 * グループを削除します
 * グループの変更：
 
@@ -265,7 +267,7 @@ Workfront管理者が「Log In As」機能を使用した場合、ログイン�
 
 優先度の設定について詳しくは、 [優先度の作成とカスタマイズ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-### プロジェクト環境設定 {#project-preferences}
+### プロジェクト環境設定 {#project-preference}
 
 ユーザーが次のいずれかの操作を行うと、プロジェクト環境設定監査ログエントリが生成されます。
 
@@ -302,16 +304,16 @@ Workfront管理者が「Log In As」機能を使用した場合、ログイン�
 
 ユーザーが次のいずれかの操作を行うと、ステータス監査ログエントリが生成されます。
 
-* システムまたはグループレベルでステータスを作成します
+* システムレベルまたはグループレベルでステータスを作成します
 * システムレベルまたはグループレベルのステータスを変更します。
 
    * 名前を変更
    * デフォルトのステータスにします
    * ロックまたはロック解除
    * 非表示/非表示を切り替えます
-   * 色または説明を変更
+   * 色または説明を変更します
 
-* システムまたはグループレベルのステータスを削除します
+* システムレベルまたはグループレベルのステータスを削除します
 
 ステータスについて詳しくは、 [ステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
@@ -320,10 +322,10 @@ Workfront管理者が「Log In As」機能を使用した場合、ログイン�
 ユーザーが次のいずれかの方法で Tasks &amp; Issues 環境設定を変更すると、Tasks &amp; Issues Preferences 監査ログエントリが生成されます。
 
 * プリファレンスをロックまたはロック解除する
-* 環境設定の設定を変更します
+* 環境設定の設定を変更します。
 * タスク、問題、または要求のアクセス設定を変更します
 
-タスクと問題の環境設定について詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+タスクと問題の環境設定について詳しくは、 [システム全体のタスクと問題の環境設定を構成する](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### ユーザー {#user}
 
@@ -331,17 +333,17 @@ Workfront管理者が「Log In As」機能を使用した場合、ログイン�
 
 * ユーザーを作成
 
-   <!--
+  <!--
   DRAFTED IN FLARE:
   Gevorg checking with Jonah on whether this note should be here:
   
   -->
 
-   >[!NOTE]
-   >
-   >組織がAdobe Admin Consoleにオンボーディングされている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。
+  >[!NOTE]
+  >
+  >組織がAdobe Admin Consoleにオンボーディングされている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。
 
 * ユーザーを削除します
 * ユーザーのアクセスレベル、会社、チーム、またはグループを変更します
 * ユーザーをアクティベート
-* ユーザーを非アクティブ化
+* ユーザーを非アクティブ化します

@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: スコアカードの作成
 description: スコアカードは、プロジェクトがポートフォリオの以前に確立された条件にどの程度適合するかを測定します。 スコアカード管理者は、多くの場合、組織の使命、価値、および戦略目標を反映します。Portfolio管理者は、通常、スコアカードの質問と回答を定義し、プロジェクトの優先順位付けと選択の際に役立ち、価値があることを確認します。 An [!DNL Adobe Workfront] 管理者は、ポートフォリオマネージャーからの推奨に基づいてスコアカードを構築します。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # スコアカードの作成
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -34,21 +36,27 @@ Portfolio管理者は、通常、スコアカードの質問と回答を定義�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
-   <td> <p>[!UICONTROL Business] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>現在： [!UICONTROL Business] 以降</p> 
+   または
+   <p>新規： [!UICONTROL Prime] 以降</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td><p>現在：[!UICONTROL プラン ]</p>
+   または
+   <p>新規： [!UICONTROL Standard]</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## スコアカードの作成
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. クリック **[!UICONTROL スコアカード]**&#x200B;を選択し、「 **[!UICONTROL 新しいスコアカード]** 新しいスコアカードを作成し、スコアカードビルダーを起動します。
+1. クリック **[!UICONTROL スコアカード]**&#x200B;を選択し、次に **[!UICONTROL 新しいスコアカード]** スコアカードビルダーを起動してスコアカードを作成するには
 
 1. を指定します。 **[!UICONTROL スコアカード名]** および **[!UICONTROL 説明]**.
 
@@ -86,14 +94,14 @@ Portfolio管理者は、通常、スコアカードの質問と回答を定義�
    >
    >スコアカード内の質問を正しい順序でドラッグ&amp;ドロップすることで並べ替えることができます。
 
-1. クリック **[!UICONTROL 保存]** データの入力が終了したら、
+1. クリック **[!UICONTROL 保存]** すべての情報の入力が完了したら、
+
+   これにより、スコアカードが作成され、プロジェクトマネージャが自分のプロジェクトビジネスケースにスコアカードを添付できるようになります。
 
 ## プロジェクトへのスコアカードの適用
 
 を持つユーザー [!UICONTROL 管理] プロジェクトに対する権限は、スコアカードが [!DNL Workfront] 管理者。
 
 プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。 プロジェクトへのスコアカードの追加の詳細については、「 [プロジェクトにスコアカードを適用し、線形スコアを生成する](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
-
-スコアカードの作成の詳細については、 [スコアカードの作成](#create-a-scorecard).
 
 プロジェクト権限の詳細については、 [でプロジェクトを共有 [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

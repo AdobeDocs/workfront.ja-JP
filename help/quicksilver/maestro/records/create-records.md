@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,8 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 ## レコードタイプに手動でレコードを追加してレコードを作成する <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 レコードタイプのページのテーブルビューでレコードを作成できます。
+
+レコード情報の編集について詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
 {#step1-to-maestro}
 

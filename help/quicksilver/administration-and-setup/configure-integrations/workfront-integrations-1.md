@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ ht-degree: 0%
      <li>を検索 [!DNL Workfront] プロジェクト、タスク、問題 </li> 
      <li>作成 [!DNL Workfront] 個人タスク </li> 
      <li>送信 [!DNL Workfront] リクエスト </li> 
-    </ul> <p>詳しくは、 <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]</a>.</p> </td> 
+    </ul> <p>詳しくは、 <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス</a>.</p> </td> 
    <td> 
     <ul> 
      <li>複数のチームが統合を使用したい場合は、組織の各チームが統合をインストールする必要があります</li> 

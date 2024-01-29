@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 3%
@@ -222,6 +222,9 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 
    テーブル表示で追加したレコードは直ちに保存され、ワークスペースに対する表示権限以上を持つすべてのユーザーに表示されます。
 
+   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
+        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+
 1. （オプション）1 つの行で 1 つ以上のレコードを選択し、 **取り扱い** アイコン ![](assets/handle-icon.png) をレコード名の左側に追加して、行を並べ替えます。
 
    >[!NOTE]
@@ -235,9 +238,9 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
         The changes you make to the row order are permanent and visible to all users who access the record type
     -->
 
-### フィルターを追加 {#add-filters}
+<!-- this section below links from the timeline view; consider splitting them if they become different-->
 
-<!-- this section links from the timeline view; consider splitting them if they become different-->
+### フィルターを追加 {#add-filters}
 
 フィルターを使用すると、画面に表示される情報の量を減らすことができます。
 

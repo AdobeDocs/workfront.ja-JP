@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -107,7 +107,7 @@ ht-degree: 1%
 次の領域でレコードを編集できます。
 
 * [レコードの詳細ページから](#edit-a-record-from-the-records-details-page)
-* [レコードタイプのテーブルビューから](#edit-a-record-from-the-record-type-table-view)
+* [レコードタイプのテーブルビューから](#edit-a-record-from-the-table-view-of-a-record-type)
 
 ### レコードの詳細ページからレコードを編集する
 
@@ -181,3 +181,5 @@ ht-degree: 1%
 
    * Ctrl + Z( Macの場合は⌘ + Z)：変更を元に戻します。
    * Ctrl + Shift + Z(Macの場合は⌘ + Shift + Z)：変更をやり直します。
+<!--
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
