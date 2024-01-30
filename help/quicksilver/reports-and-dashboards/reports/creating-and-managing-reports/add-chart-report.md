@@ -6,22 +6,29 @@ description: グラフを追加すると、レポートの内容をより充実�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # レポートにグラフを追加する
 
+<!--Audited: 01/2024-->
+
 グラフを追加すると、レポートの内容をより充実させることができます。 既存のレポートまたは作成するレポートにグラフを追加できます。
 
-レポートにグラフを追加する前に、レポートのビューとグループを作成する必要があります。 ほとんどのグラフは、情報がレポート内でグループ化されていない限り追加できません。 グループ化なしで追加できるグラフはゲージグラフのみです。\
-ビューの作成方法について詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+レポートにグラフを追加する前に、レポートのビューとグループを作成する必要があります。
+
+最初にレポート内の情報をグループ化しない限り、ほとんどのレポートにグラフを追加できません。 グループ化なしで追加できるグラフはゲージグラフのみです。
+
+ビューについて詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 グループ化について詳しくは、 [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-レポートに表示される項目が多すぎる場合、グラフは作成されません。 この場合、レポートにフィルターを追加して、レポートの結果数を減らす必要があります。\
+レポートに表示される項目が多すぎる場合、グラフは作成されません。 この場合、レポートにフィルターを追加して、レポートの結果数を減らす必要があります。
+
 フィルターについて詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## アクセス要件
@@ -33,33 +40,36 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td> <p>現在：プラン </p>
+   または
+   <p>新規：標準</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベルの設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>レポートに対する権限の管理</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## レポートにグラフを追加する
 
 1. 既存のレポートに移動するか、新しいレポートを作成します。 新しいレポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. （条件付き）既存のレポートに移動した場合、 **レポートのアクション** > **編集**.
 
-1. 次の点を確認します。 **列（表示）** 」タブが更新され、レポートのニーズに合わせて変更されました。\
-   レポートのビューを作成または変更する方法について詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. 次の点を確認します。 **列（表示）** 」タブが更新され、レポートに表示する情報が変更されました。
+
+   レポートのビューを作成または変更する方法について詳しくは、 [Adobe Workfrontでビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. 次をクリック： **グループ化** 」タブをクリックし、グループを追加します。
 
@@ -69,13 +79,13 @@ ht-degree: 0%
    >* グラフでは、テキストモードのグループ化はサポートされていません。 テキストモードのグループ化について詳しくは、 [グループ化でのテキストモードの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* 1 つの指標を表す 1 つのグループ化を追加した場合、円グラフを除くすべてのグラフで、グループ化の結果が同じ色で表示されます。
 
-   グループ化について詳しくは、 [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   グループ化の作成について詳しくは、 [Adobe Workfrontでのグループ化の作成](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. を選択します。 **グラフ** タブをクリックします。
 1. グラフのタイプをクリックして選択します。\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. Adobe Workfrontレポートには、次のタイプのグラフを追加できます。
+1. 次のタイプのグラフから選択します。
 
    * [縦棒グラフ](#column-chart)
    * [棒グラフ](#bar-chart)
@@ -100,12 +110,13 @@ ht-degree: 0%
 1. （オプション） **グループ列**：このオプションを選択し、列のグループ化方法を定義します。\
    次のオプションから選択します。
 
-   * 次のいずれかのオプションをクリックして、グループ化された列の表示方法を選択します。\
-     **— 並べて表示**
-     **— 積み重ね**
-     **- 100%に積み重ね**
+   * 次のいずれかのオプションをクリックして、グループ化された列の表示方法を選択します。
 
-   * グラフに含めるグループを選択します。
+      * **並べて表示**
+      * **積み重ね**
+      * **100%に積み重ね**
+
+   * グラフに含めるグループを **データのグループ化基準** ドロップダウンメニュー。
    * （オプション）「 」を選択します。 **カスタムカラー** 列の色をカスタマイズする場合。\
      グラフの色のカスタマイズの詳細については、「 [グラフの色のカスタマイズ](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ ht-degree: 0%
    グラフの色のカスタマイズの詳細については、「 [グラフの色のカスタマイズ](#customize-chart-colors).
 
 1. （オプション）「 」を選択します。 **3D で表示** をクリックして、グラフを 3 次元ビューで表示します。
-1. （オプション）棒グループ化**：このオプションを選択して、棒グループ化する方法を定義します。\
+1. （オプション）「 」を選択します。 **グループバー** を使用して、バーのグループ化方法を定義します。\
    次のオプションから選択します。
 
-   * 次のオプションの 1 つをクリックして、グループ化されたバーの表示方法を選択します。\
-     **— 並べて表示**
-     **— 積み重ね**
-     **- 100%に積み重ね**
+   * 次のオプションの 1 つをクリックして、グループ化されたバーの表示方法を選択します。
 
-   * グラフに含めるグループを選択します。
+      * **並べて表示**
+      * **積み重ね**
+      * **100%に積み重ね**
+
+   * グラフ内の情報をグループ化する方法を、 **データのグループ化基準** ドロップダウンメニュー。
    * （オプション）「 」を選択します。 **カスタムカラー** 列の色をカスタマイズする場合。\
      グラフの色のカスタマイズの詳細については、「 [グラフの色のカスタマイズ](#customize-chart-colors).
 

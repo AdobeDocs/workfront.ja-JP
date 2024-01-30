@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 1%
 
 ---
@@ -248,6 +248,18 @@ Workfrontプロジェクト内でフォルダーにリンクされたExperience 
 ## 手順 1 - Maestro へのアクセス — {#step1-to-maestro}
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL マエストロ]**.
+
+## マエストロ重要なイントロ — {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
+>
+>現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
+>
+>Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
+>
+>マエストロについて詳しくは、 [Adobeマエストロの概要](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

@@ -1,26 +1,32 @@
 ---
 content-type: overview
 title: 上部ナビゲーションバーの概要
-description: 上部ナビゲーションバー — 新しい [!DNL Adobe Workfront] エクスペリエンス — プラットフォームの他の領域を簡単に見つけてナビゲートできます。
+description: 上部ナビゲーションバー — [!DNL Adobe Workfront] ：プラットフォームの他の領域を簡単に見つけて移動できます。
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
 
 # 上部ナビゲーションバーの概要
 
-上部ナビゲーションバー — [!DNL Adobe Workfront] を使用すると、プラットフォームの他の領域を簡単に見つけてナビゲートできます。
+<!--Audited: 01/2024-->
+
+上部ナビゲーションバー — [!DNL Adobe Workfront] ：プラットフォームの他の領域を簡単に見つけて移動できます。
 
 ![上部ナビゲーションバー](assets/global-navigation-bar.png)
 
 ## [!UICONTROL ホーム] アイコン
 
-The **[!UICONTROL ホーム]** アイコン ![](assets/home-icon.png) に移動します。 [!UICONTROL ホーム] ページ（デフォルトのランディングページ）。 ホームについて詳しくは、 [以下を使用します。 [!UICONTROL ホーム] 領域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+The **[!UICONTROL ホーム]** アイコン ![](assets/home-icon.png) に移動します。 [!UICONTROL ホーム] ページ（デフォルトのランディングページ）。
+
+デフォルトでは、ホームアイコンはホーム領域を開きます。 ホームについて詳しくは、 [以下を使用します。 [!UICONTROL ホーム] 領域](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+
+Workfront管理者は、レイアウトテンプレートを作成し、割り当てることで、ホームアイコンをカスタマイズして別のページを開くことができます。 詳しくは、 [レイアウトテンプレートを使用したランディングページのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## ピン留めされたページ
 
@@ -36,11 +42,17 @@ The **[!UICONTROL ヘルプ]** メニューを使用すると、特定のタス�
 
 青色の番号付きボックス ![](assets/notifications-icon.png) 画面の右上隅に、通知のリストが開きます。
 
-通知について詳しくは、 [アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+通知メニューから、次の項目にアクセスできます。
+
+* **通知**：特定の条件が満たされた場合にWorkfrontによって生成されるアラートで、注意が必要な情報を通知します。
+
+* **お知らせ**：重要なトピックに関してWorkfront管理者から送信されたお知らせ。
+
+通知とお知らせについて詳しくは、 [アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## [!UICONTROL お気に入力] メニュー
 
-The **[!UICONTROL お気に入力]** アイコン ![お気に入力](assets/favorites-icon-62x55.png) お気に入りに登録したシステム内のページのリストを開きます。 このメニューから、現在表示中のページを追加できます。
+The **[!UICONTROL お気に入力]** アイコン ![お気に入力](assets/favorites-icon-62x55.png) お気に入りとしてマークしたシステム内のページの一覧が開きます。 このメニューから、現在表示中のページを追加できます。
 
 お気に入りの詳細については、 [お気に入りの表示と管理](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
@@ -64,7 +76,7 @@ The **[!UICONTROL 検索]** アイコン ![](assets/search-icon.png) ～の右�
 >
 > 組織が [!DNL Adobe Experience Cloud]を参照してください。 [[!DNL Adobe Unified Experience] 対象： [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) が開きます。 [!UICONTROL メインメニュー]:Workfrontの別の領域に移動できます。
+The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) が開きます。 [!UICONTROL メインメニュー]Workfrontの別の領域に移動できる場所。
 
 次のアイテムで使用できるオプション： [!UICONTROL メインメニュー] は次のものに依存します。
 
@@ -74,7 +86,9 @@ The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー]
 
 ![メインメニューオプション](assets/main-menu-options-350x481.png)
 
-各アイコンを使用すると、新しい [!DNL Adobe Workfront] エクスペリエンス。 各領域について詳しくは、以下を参照してください。
+各アイコンを使用すると、Workfrontの異なる領域に移動します。
+
+各領域について詳しくは、以下を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
@@ -113,7 +127,7 @@ The **[!UICONTROL メインメニュー]** アイコン ![メインメニュー]
  </tbody> 
 </table>
 
-以下のオプション ( [!UICONTROL メインメニュー]を使用すると、次の項目にアクセスできます。
+メインメニューの下部では、次の項目にアクセスできます。
 
 <table style="table-layout:auto"> 
  <col> 

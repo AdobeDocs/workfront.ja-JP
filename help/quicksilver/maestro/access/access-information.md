@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
 # アクセス情報：記事インデックス
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Workfront管理者は、Maestro を使用するには、ユーザにアクセス権を付与する必要があります。
 

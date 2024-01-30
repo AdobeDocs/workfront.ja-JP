@@ -4,7 +4,7 @@ description: AdobeMaestro でレコード情報を編集し、各レコードを
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する表示権限以上の権限 </p>  
-   <p>テーブル表示に対する表示権限またはそれ以上の権限 </p> 
+   <td> <p>ワークスペースに権限を付与する（またはそれ以上の場合） </p>  
+   <p>テーブル表示に対する権限を提供するか、それ以上の権限を付与する </p> 
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
 </td>
   </tr>

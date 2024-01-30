@@ -4,9 +4,9 @@ description: 他のユーザーとビューを共有して、Adobe Workfront Mae
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # ビューの共有
+
+{{maestro-important-intro}}
 
 他のユーザーとビューを共有して、Adobe Workfront Maestro で作業する際のコラボレーションを確保できます。
 
@@ -107,6 +109,8 @@ ht-degree: 1%
    * 管理
 
      権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [AdobeMaestro での共有権限の概要](../access/sharing-permissions-overview.md).
+1. クリック **リンクをコピー** をクリックして、ビューへのリンクをクリップボードにコピーします。
+1. コピーしたリンクを他のユーザーと共有します。 レコードタイプのページにアクセスして選択したビューに表示するには、リンクを受け取ったユーザーがアクティブユーザーであり、Workfrontにログインしている必要があります。
 1. 「**保存**」をクリックします。
 
 

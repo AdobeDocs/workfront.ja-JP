@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '396'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 2%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # ワークスペースの共有
+
+{{maestro-important-intro}}
 
 ワークスペースを他のユーザーと共有して、Adobe Workfront Maestro で作業する際のコラボレーションを確保できます。
 
@@ -104,6 +106,8 @@ ht-degree: 2%
    * 管理
 
      権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [AdobeMaestro での共有権限の概要](../access/sharing-permissions-overview.md).
+1. クリック **リンクをコピー** をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
+1. コピーしたリンクを他のユーザーと共有します。 このワークスペースにアクセスするには、リンクを受け取ったユーザーがアクティブユーザーであり、Workfrontにログインする必要があります。
 1. 「**保存**」をクリックします。
 
 

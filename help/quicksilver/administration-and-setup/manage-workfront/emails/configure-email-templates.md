@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -37,27 +37,31 @@ E メールテンプレートがない場合、リマインダー通知は空の
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>現在：プラン</p>
+   または
+   <p>新規：標準</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td role="rowheader">アクセスレベルの設定</td> 
    <td> <p>システム管理者</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 新しい電子メールテンプレートを作成します {#create-a-new-email-template}
+*アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+## E メールテンプレートの作成 {#create-an-email-template}
+
+{{step-1-to-setup}}
 
 1. 左側のパネルで、 **電子メール** > **通知**> **メールテンプレート**.
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. クリック **新規メールテンプレート**.
 
-1. Adobe Analytics の **新規メールテンプレート** 表示されるボックスで、次の情報を指定します。
+1. Adobe Analytics の **新規メールテンプレート** ボックスで、次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,24 +69,31 @@ E メールテンプレートがない場合、リマインダー通知は空の
     <tbody> 
      <tr> 
       <td role="rowheader">名前</td> 
-      <td>E メールテンプレートのタイトル（必須）。</td> 
+      <td>電子メールテンプレートのタイトルを追加します。 必須フィールドです。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">オブジェクトタイプ</td> 
-      <td>テンプレートを関連付けるオブジェクトタイプを指定します（必須、デフォルトでは「問題」に設定されます）。</td> 
-     </tr>
+      <td>テンプレートを関連付けるオブジェクトタイプを指定します。 次のオブジェクトから選択します。
+      <ul>
+      <li>プロジェクト</li>
+      <li>タスク</li>
+      <li>問題</li>
+      <li>タイムシート</li> </ul>
+
+   これは必須フィールドで、デフォルトでは「プロジェクト」に設定されています。</td>
+   </tr>
      <tr> 
       <td role="rowheader">説明</td> 
-      <td>テンプレートの説明。</td> 
+      <td>電子メールテンプレート、目的および対象オーディエンスに関する詳細情報を追加します。</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">件名 </td> 
-      <td>電子メールメッセージの送信時に表示される件名（必須）。</td> 
+      <td>テンプレートで生成された電子メールメッセージが送信される際に、電子メールの件名行に表示するテキストを追加します。 必須フィールドです。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">本文 </td> 
-      <td> <p>E メールメッセージの送信時に表示されるコンテンツ。</p> <p>E メールコンテンツにHTMLの書式を使用できます。詳しくは、 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">E メールHTMLにテンプレートの書式を追加する</a> 」を参照してください。</p> </td> 
+      <td> <p>E メールメッセージのコンテンツ用のテキストを追加します。</p> <p>E メールコンテンツにHTMLの書式を使用できます。詳しくは、 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">E メールHTMLにテンプレートの書式を追加する</a> 」を参照してください。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ Workfrontフィールドへのリンクは、 `$$` ワイルドカードを使�
 
 オブジェクトの「ワイルドカード」値を取得するには、次のいずれかの操作を行います。
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* API エクスプローラーを参照し、任意のオブジェクトの「フィールド」タブからオブジェクトの名前を選択します。 API エクスプローラーについて詳しくは、 [API エクスプローラ](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* レポートのテキストモードビュー内にある「valuefield」値を使用します。 テキストモードの値について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* 以下を使用します。 `valuefield` 値は、レポートのテキストモード表示内にあります。 テキストモードの値について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  「heading」値は、E メール本文に表示するオブジェクトの名前にすることができます。
+The `heading` の値には、電子メール本文に表示するオブジェクトの名前を指定できます。
 
 ### HTMLを使用したカスタムフィールドへのリンク {#link-to-custom-fields-with-html}
 
-ユーザーおよびカスタムフィールドへのリンクを含めるには、 **$$** ワイルドカードを使用して、e メールジェネレーターに対し、オブジェクトに関連付けられたデータベースから値を探すように指示します。 データベース属性参照のどちら側にも存在する必要があります。
+ユーザーおよびカスタムフィールドへのリンクを含めるには、 `$$` ワイルドカードを使用して、e メールジェネレーターに対し、オブジェクトに関連付けられたデータベースから値を探すように指示します。 データベース属性参照のどちら側にも存在する必要があります。
 
 例えば、次のテキストをHTMLとして追加すると、割り当てられたユーザーの名がタスクに関連付けられたリマインダー通知に追加されます。
 
@@ -193,11 +204,11 @@ Workfrontフィールドへのリンクは、 `$$` ワイルドカードを使�
 
 置換 `<your domain>` 会社のWorkfrontドメイン（括弧なし）で置き換えます。
 
-**件名:**
+**件名：**
 
 管理するプロジェクトが遅れています
 
-**内容:**
+**コンテンツ：**
 
 ```html
 <html>
@@ -231,11 +242,11 @@ Workfrontフィールドへのリンクは、 `$$` ワイルドカードを使�
 
 これを問題の電子メールに使用するには、 `/task/view.` 作業項目のリンク先の値 `/issue/view`.
 
-**件名:**
+**件名：**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
-**内容:**
+**コンテンツ：**
 
 ```html
 <html>

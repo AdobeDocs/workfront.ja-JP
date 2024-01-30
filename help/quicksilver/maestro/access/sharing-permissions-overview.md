@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 8%
 
 ---
@@ -18,15 +18,7 @@ ht-degree: 8%
 
 # AdobeMaestro での共有権限の概要
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro にアクセスするには、Ypu がWorkfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
+{{maestro-important-intro}}
 
 AdobeMaestro のワークスペースまたはビューに対する権限を共有または削除できます。
 
@@ -63,6 +55,7 @@ Maestro では、以下のオブジェクトを共有できます。
    * ユーザー
    * グループ
 * システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。
+* レコードタイプのページからワークスペースやビューへのリンクを他のユーザーと共有できます。 リンクを受け取ったユーザーが、選択したビューに表示されるワークスペースまたはレコードタイプのページにアクセスできるようにするには、アクティブユーザーであり、Workfrontにログインする必要があります。
 
 ## Maestro オブジェクトに対する権限の共有
 

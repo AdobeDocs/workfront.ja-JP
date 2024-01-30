@@ -8,16 +8,18 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 4%
 
 ---
 
 # レイアウトテンプレートを使用したメインメニューのカスタマイズ
 
-Adobe Workfront管理者またはグループ管理者は、レイアウトテンプレートを使用して、Workfrontでメインメニューを開く際にユーザーに表示されるオプションを設定できます。
+<!--Audited: 01/2024-->
+
+Adobe Workfrontの管理者またはグループ管理者は、レイアウトテンプレートを使用して、Workfrontでメインメニューを開いたときに表示されるオプションを設定できます。
 
 ![メインメニューオプション](assets/main-menu-with-blueprints-no-branding.png)
 
@@ -44,29 +46,33 @@ Adobe Workfront管理者またはグループ管理者は、レイアウトテ�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfrontライセンス</strong></td> 
-   <td>計画</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td><p>現在：プラン</p>
+   または
+   <p>新規：標準</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
+    <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
+*アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## メインメニューのカスタマイズ
 
 1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. クリック **メインメニューの設定** 右上隅付近にある
+1. クリック **メインメニューの設定** をクリックします。
 
-   表示される「メインメニュー」(Main Menu) ボックスで、テンプレートのメインメニューで現在アクティブな項目と、追加可能な項目を確認できます。 次に、追加できるすべての項目を示します。
-
+   「メインメニュー」(Main Menu) ボックスが開き、テンプレートの「メインメニュー」(Main Menu) に現在表示されている領域と、追加可能な項目が表示されます。 次に、追加できるすべての項目を示します。
    * ホーム
 
      >[!TIP]
      >
-     >既定では、メインメニューの [ 更新 ] 領域を含むレイアウトテンプレートがプロファイルに関連付けられている場合を除き、[ ホーム ] には [ レビューライセンスユーザの更新 ] と表示されます。
+     >既定では、メインメニューの [ 更新 ] 領域と [ ホーム ] 領域を含むレイアウトテンプレートがプロファイルに関連付けられている場合を除き、[ メインメニュー ] の [ ホーム ] アイコンには、[ レビューライセンスユーザ ] の [ 更新 ] 領域が表示されます。
 
    * ポートフォリオ
    * プログラム
@@ -79,26 +85,26 @@ Adobe Workfront管理者またはグループ管理者は、レイアウトテ�
 
      >[!NOTE]
      >
-     >シナリオプランナーは、新しいAdobe Workfrontエクスペリエンスでのみ使用でき、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
+     >シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
 
    * チーム
    * ユーザー
 
      >[!NOTE]
      >
-     >プランライセンスを持つユーザーのみがユーザーを表示できます ![](assets/users-icon-in-main-menu.png) をクリックします。
+     >（現在のライセンスモデルの）Plan ライセンスを持つユーザ、または（新しいライセンスモデルの）Standard ライセンスを持つユーザのみが、[ ユーザ ] 領域を表示できます ![](assets/users-icon-in-main-menu.png) 」をクリックします。
 
    * リクエスト
    * タイムシート
    * ドキュメント
    * テンプレート
    * 分析
-   * プルーフ
+   * 校正
    * 目標
 
      >[!NOTE]
      >
-     >追加のライセンスが必要です。 Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >目標には追加のライセンスが必要です。 Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * マイ更新
    * ボード
@@ -106,7 +112,7 @@ Adobe Workfront管理者またはグループ管理者は、レイアウトテ�
 
 1. 次のいずれかの操作を行います。
 
-   * を隠す ![](assets/remove-icon---x-in-circle.png) **アクティブな項目** 表示したくない
+   * 非表示 ![](assets/remove-icon---x-in-circle.png) **アクティブな項目** 表示したくない
    * 表示 ![](assets/add-icon-plus-in-circle.png) **利用可能な項目** を選択します。
    * ドラッグ ![](assets/move-icon---dots.png) **アクティブな項目** をクリックして、メインメニューの表示順を変更します。
 

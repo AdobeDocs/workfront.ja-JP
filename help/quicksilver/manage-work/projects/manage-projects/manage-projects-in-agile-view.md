@@ -6,37 +6,14 @@ description: 一般的にアジャイルプラクティスに伴う管理上の�
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # アジャイルビューでのプロジェクト管理
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 一般的にアジャイルプラクティスに伴う管理上の課題（チームバックログの管理や反復の作成など）がなくても、プロジェクトにアジャイル機能を活用できます。
 
@@ -51,30 +28,31 @@ Required plans, license types, and access
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfrontプラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td> <p>現在：レビュー以上</p> 
+   <p>新規：寄稿者以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベルの設定</td> 
    <td> <p>次の領域へのアクセスを編集します。</p> 
     <ul> 
      <li> <p>プロジェクト</p> </li> 
      <li> <p>レポート、ダッシュボード、カレンダー</p> </li> 
      <li> <p>フィルター、表示、グループ化</p> </li> 
-    </ul> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>プロジェクトに対する権限を表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトに対する権限を表示</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## アジャイルプロジェクトについて
 
@@ -111,7 +89,9 @@ Required plans, license types, and access
 * 親タスクもサブタスクも持たないタスクは、常にストーリーボード上に単一ストーリーカードとして表示されます。\
   たとえば、これらのタスクは、プロジェクトの一覧表示では次のように表示されます。
 
-  ![アジャイルプロジェクトリスト — 親タスクまたはサブタスクのないタスク](assets/agile-project-single-list-nwe.png) これらのタスクは、プロジェクトのアジャイルビューでは次のように表示されます。
+  ![アジャイルプロジェクトリスト — 親タスクまたはサブタスクのないタスク](assets/agile-project-single-list-nwe.png)
+
+  これらのタスクは、プロジェクトのアジャイルビューでは次のように表示されます。
 
   ![プロジェクトのアジャイルビュー — 親タスクまたはサブタスクのないタスク](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Required plans, license types, and access
 ## アジャイルビューでのプロジェクトの表示
 
 1. タスクリストまたはイシューリストのアジャイルビューで表示するプロジェクトに移動します。
-1. 次をクリック： **ボード** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png).
+1. 次をクリック： **ボード表示** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png).
 
    プロジェクトのボードビューは、デフォルトで表示されます。
 
@@ -210,7 +190,9 @@ Workfrontの標準ビューと同様に、既存のアジャイルビューを�
 >
 >この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
-アジャイルビューの共有方法について詳しくは、 [フィルター、表示またはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+自分で作成したアジャイルビューを共有したり、他のビューを共有するのと同じ方法で権限を持つことができます。また、フィルターやグループ化も可能です。
+
+詳しくは、 [フィルター、表示またはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## 既存のアジャイルビューの削除
 
@@ -218,4 +200,6 @@ Workfrontの標準ビューと同様に、既存のアジャイルビューを�
 >
 >この節は、レガシーのアジャイルビューにのみ適用され、プロジェクトのボードビューには適用されません。
 
-ビューの削除方法について詳しくは、この記事の「ビューの削除」の節を参照してください。 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+他のビューを削除するのと同じ方法で、アジャイルビューを削除したり、フィルターまたはグループ化を実行したりできます。
+
+詳しくは、 [フィルター、ビュー、およびグループを削除する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
