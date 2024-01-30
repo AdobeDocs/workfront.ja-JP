@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ed5f941690754f631c16c5206faeeeb30d126841
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 13%
+source-wordcount: '1608'
+ht-degree: 0%
 
 ---
 
 # ファイアウォールの設定を許可リストに加える行う
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
@@ -501,7 +503,7 @@ Workfront for Jira 統合を使用するに許可リストに加えるは、次�
      <li>*.workfront.com - Workfrontで配達確認を表示するために必要</li> 
      <li>*.proofhq.com - Workfront Proof で配達確認を表示する場合に必要です</li> 
      <li>*.proofhq.eu - Workfrontの配達確認で配達確認を表示するために必要</li> 
-    </ul> <p><b>メモ</b>:  <p>Workfront配達確認用にへの IP アドレスの追加はサ許可リストに加えるポートされていません。 これらは、WorkfrontがAWSに移行した後、動的になりました。 代わりに、Workfront Proof ドメインのみを許可することをお勧めします。</p> <p>これらのドメインの追加に問題があり、代わりに IP アドレスが必要許可リストに加えるな場合は、Workfrontカスタマーサポートにお問い合わせください。</p> </p> </td> 
+    </ul> <p><b>注意</b>:  <p>Workfront配達確認用にへの IP アドレスの追加はサ許可リストに加えるポートされていません。 これらは、WorkfrontがAWSに移行した後、動的になりました。 代わりに、Workfront Proof ドメインのみを許可することをお勧めします。</p> <p>これらのドメインの追加に問題があり、代わりに IP アドレスが必要許可リストに加えるな場合は、Workfrontカスタマーサポートにお問い合わせください。</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

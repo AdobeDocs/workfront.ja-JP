@@ -3,19 +3,21 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: レポート
-description: 以下の領域を確認して、Adobe Workfrontでのレポートの使用方法を理解してください。
+description: Adobe Workfrontでのレポートについて詳しくは、以下の点を参照してください。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
-# レポート
+# レポート：記事インデックス
+
+<!-- Audited: 1/2024 -->
 
 このセクションでは、以下のサブセクションについて説明します。
 
@@ -29,5 +31,3 @@ ht-degree: 3%
 * [使用状況の概要をレポート](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [カレンダー：記事のインデックス](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [レポートのヒント、テクニックおよびトラブルシューティング](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
-
-<!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

@@ -7,14 +7,16 @@ description: この記事では、ユーザープロファイルで電子メー�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # 独自の電子メール通知を変更する
+
+<!-- Audited: 1/2024 -->
 
 Adobe [!DNL Workfront] 管理者は、Workfrontでイベントが発生したときにユーザーが受け取る電子メール通知を設定します ( [[!UICONTROL イベントの設定] システム内の全員に対する通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)) をクリックします。
 
@@ -41,17 +43,21 @@ Adobe [!DNL Workfront] 管理者は、Workfrontでイベントが発生したと
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td>  <p>新規：</p> 
+   <ul><li>寄稿者以上</li></ul>
+   <p>現在：</p>
+   <ul><li>Request 以上</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 電子メール通知設定を表示および変更する
 

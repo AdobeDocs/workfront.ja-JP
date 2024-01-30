@@ -7,14 +7,16 @@ description: プロジェクトアクティビティビジュアライゼーシ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 8%
 
 ---
 
 # 拡張分析でのプロジェクトアクティビティのビジュアライゼーションの表示
+
+<!-- Audited: 12/2023 -->
 
 プロジェクトアクティビティビジュアライゼーションは、特定の期間に発生した、プロジェクトレベルのアクティビティ（プロジェクトに割り当てられた各人のアクティビティ）の集計ビューを表示します。 フォーカスを絞り込んでプロジェクト内のアクティビティを理解したり、プロジェクトアクティビティをAdobe Workfrontの他のプロジェクトと比較したりできます。
 
@@ -22,10 +24,6 @@ ht-degree: 1%
 >
 >チーム別のアクティビティビジュアライゼーションは、このビジュアライゼーションと同じように動作しますが、チーム別のアクティビティビジュアライゼーションには、すべてのプロジェクトのホームチームアクティビティが表示されます。\
 >チーム別アクティビティのビジュアライゼーションについて詳しくは、 [Enhanced Analytics でのチーム別アクティビティのビジュアライゼーションの表示](../enhanced-analytics/activity-by-team-overview.md).
-
-<!--WRITER bad link; there is no Activity by Team.png
-[![](assets/project-activity-350x114.png)](../Resources/Images/Analytics/Activity by Team.png)
--->
 
 ## アクセス要件
 
@@ -36,55 +34,59 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfrontプラン</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfrontプラン</a></td> 
    <td> <p>ビジネス以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a></td> 
+   <td>   <p>新規：</p> 
+   <ul><li>明るいか高い</li></ul>
+   <p>現在：</p>
+   <ul><li>レビュー以上</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを表示</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。<br>Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを表示</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ビュー</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクトの権限</td> 
+   <td> <p>表示</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
-拡張 Analytics を使用するための前提条件については、 [分析の強化の概要](../enhanced-analytics/enhanced-analytics-overview.md).
+拡張 Analytics を使用するための前提条件については、「前提条件」の節を参照してください。 [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## プロジェクトアクティビティのビジュアライゼーションについて
 
 プロジェクトアクティビティは様々な色で表示され、一定期間にプロジェクト内の特定のイベントを要約します。
 
-* **ログインしたユーザー**:紫色のボックスは、その日にログインしたプロジェクトに割り当てられたユーザーを示します。 濃い色は、ログインする人の数が多いことを示します。
+* **ログインしたユーザー**：紫色のボックスは、その日にログインしたプロジェクトに割り当てられたユーザーを示します。 濃い色は、ログインしているユーザーの数が多いことを示します。
 
-   ![](assets/project-activity-users-logged-in.png)
+  ![](assets/project-activity-users-logged-in.png)
 
-* **タスクステータスの変更**:ピンク色のボックスは、その日のプロジェクトのタスクのステータスを変更したことを示します。 濃い色は、タスクステータスの数が多く変化することを示します。
+* **タスクステータスの変更**：ピンク色のボックスは、その日にユーザーがプロジェクトのタスクのステータスを変更したことを示しています。 濃い色は、変更されたタスクステータスの数が多いことを示します。
 
-   ![](assets/project-activity-task-status-changes.png)
+  ![](assets/project-activity-task-status-changes.png)
 
-* **完了したタスク**:青いボックスは、担当者がプロジェクトのタスクを完了したことを示します。 濃い色は、完了するタスクの数が多いことを示します。
+* **完了したタスク**：青いボックスは、ユーザーがプロジェクトのタスクを完了したことを示します。 濃い色は、完了したタスクの数が多いことを示します。
 
-   ![](assets/project-activity-tasks-completed.png)
+  ![](assets/project-activity-tasks-completed.png)
 
 ボックスの上にマウスポインターを置くと、特定の日にアクションが完了した正確な回数が表示されます。 プロジェクトを選択して、プロジェクトの個々の投稿者によるこれらのアクティビティの分類を表示できます。
 
-この情報を表示すると、次の項目を特定するのに役立ちます。
+この情報を確認することで、次の項目を特定するのに役立ちます。
 
-* 特定のプロジェクトに対する「 」アクティビティ。
-* 他のプロジェクトと比較した、1 つのプロジェクトのアクティビティ。
-* プロジェクトで作業しているユーザーと頻度。
+* 特定のプロジェクトのアクティビティ。
+* 他のプロジェクトと比較した、あるプロジェクトのアクティビティ。
+* プロジェクトで作業しているユーザーと作業頻度。
 
-このビジュアライゼーションに最適なデータを取得する方法については、 [分析の強化の概要](../enhanced-analytics/enhanced-analytics-overview.md).
+このビジュアライゼーションに最適なデータを取得する方法については、 [分析の概要の強化](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## プロジェクトアクティビティのビジュアライゼーションを表示
 
@@ -113,10 +115,10 @@ ht-degree: 1%
 
 1. （オプション）プロジェクトの並べ替え方法を変更するには、 **並べ替え基準** メニューで、新しい並べ替えオプションを選択します。
 
-   * **A - Z**
+   * **A ～ Z**
    * **Z - A**
-   * **完了予定日**
-   * **予定開始日**
+   * **計画完了日**
+   * **計画開始日**
 
    ページ上のその他すべてのビジュアライゼーションは、並べ替えの選択に合わせて更新されます。
 
