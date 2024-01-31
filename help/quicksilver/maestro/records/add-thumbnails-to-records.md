@@ -4,9 +4,9 @@ description: AdobeMaestro でレコード情報を編集し、各レコードを
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ ht-degree: 0%
 <tr>
    <td role="rowheader"><p>権限</p></td>
    <td> <p>ワークスペースに権限を付与する（またはそれ以上の場合） </p>  
-   <p>テーブル表示に対する権限を提供するか、それ以上の権限を付与する </p> 
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td>  <p>Workfrontの管理者を含むすべてのユーザーには、メインメニューの Maestro 領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## サムネールの記録に関する考慮事項
 
@@ -96,14 +94,14 @@ ht-degree: 0%
 次の点に注意してください。
 
 * サムネールとして追加できるのは、画像ファイルのみです。
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * テーブルビューで個々のレコードにサムネール画像を追加できます。
+* サムネールはレコード情報に属し、レコードが表示されるビューに表示されます。 例えば、次の領域では、レコード情報と共にサムネールが表示されます。
+
+   * テーブルビューのレコードの主フィールド
+   * タイムライン表示のレコードバー。
 * レコードの詳細ページやタイムラインビューからは、レコードのサムネールを追加できません。
-* サムネール画像は、フィールドのタイプに関係なく、各レコードのプライマリフィールドの左側に常に表示されます。
-
-  1 行のテキスト、数値、または数式であるフィールドは、主フィールドとして指定できます。
-詳しくは、 [テーブル表示の管理](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* レコードの詳細ページにサムネールは表示されません。
 
 ## レコードにサムネールを追加する
 
@@ -131,10 +129,11 @@ ht-degree: 0%
 1. （オプション）サイズ調整ツールを使用して、画像の切り抜きとサイズ変更をおこないます。
 1. クリック **画像を使用** をクリックして、画像をサムネールとして追加します。
 これにより、 **サムネールを記録** ボックス。
-1. テーブル表示の右上隅にある「フィールド」をクリックします。
+1. （条件付き）少なくともテーブルビューに対する Contribute 権限を持っている場合は、 **フィールド** をクリックします。
 1. を選択します。 **サムネール** サムネールの表示/非表示を切り替えます。 デフォルトでは、このオプションは選択されていません。
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    サムネールは、プライマリフィールド値の左側に表示されます。
+1. （オプションおよび条件付き）Contribute またはそれ以上の権限を持っていない場合は、 **表示** ドロップダウンメニューを使用するか、ビューを作成します。
 1. （オプション）サムネールを削除するには、プライマリフィールドの上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)> **サムネール** > **削除** アイコン ![](assets/remove-image-icon.png)を選択し、次に **変更を保存**.

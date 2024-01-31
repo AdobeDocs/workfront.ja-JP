@@ -6,7 +6,7 @@ description: この記事では、Adobe Workfrontで目標を見つけて管理�
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -102,24 +109,27 @@ You must have the following to perform the activities described in this article:
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">オブジェクトの権限</td> 
    <td> 
     <div> 
-     <p>目標に対する表示またはそれ以上の権限を表示</p> 
+     <p>目標に対する表示またはそれ以上の権限を表示します</p> 
      <p>目標に対する権限を管理して編集</p> 
      <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
+   <td> 
+    <div> 
+     <p>Workfront管理者を含むすべてのユーザーに、メインメニューの目標領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
 *保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
-
-## 前提条件
-
-を起動する前に、次の条件を満たす必要があります。
-
-* メインメニューの目標領域を含むレイアウトテンプレート。
 
 ## Workfront目標へのアクセス
 
@@ -153,14 +163,13 @@ You must have the following to perform the activities described in this article:
 
 * 編集
 * 結果またはアクティビティを追加します
-* 結果および関連付けられたアクティビティを編集
+* 結果および関連付けられたアクティビティを編集します
 * 有効化
 * 無効にする
-* 削除
+* 削除する
 * 別の目標に合わせる
-* 結果またはアクティビティを他の目標に変換
+* 結果またはアクティビティを他の目標に変換する
 * 更新する
-
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -198,7 +207,7 @@ To access an individual goal in the Production environment:
 1. リストで目標の名前をクリックします。
 目標のページが表示されます。
    ![](assets/goal-page-unshimmed.png)
-1. 次をクリック： **詳細** メニュー ![](assets/more-icon.png) 目標名の右側に移動して、目標をさらに編集または共有します。
-1. クリック **目標の詳細** をクリックして、目標に関する情報を編集します。 詳しくは、 [Adobe Workfront目標の「目標の詳細」節の目標を更新します](../goal-management/update-goals-in-goal-details-panel.md).
+1. 次をクリック： **その他** メニュー ![](assets/more-icon.png) 目標名の右側に移動して、目標をさらに編集または共有します。
+1. クリック **目標の詳細** をクリックして、目標に関する情報を編集します。 詳しくは、 [Adobe Workfront目標の「目標の詳細」節の目標を更新する](../goal-management/update-goals-in-goal-details-panel.md).
 
 

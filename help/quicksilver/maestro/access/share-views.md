@@ -4,15 +4,13 @@ description: 他のユーザーとビューを共有して、Adobe Workfront Mae
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
 
-
-<!--*****************ADD TO TOC AND MINITOC WHEN RELEASING*********************-->
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
@@ -73,7 +71,7 @@ ht-degree: 1%
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 </p>  
+   <td> <p>Workfrontの管理者を含むすべてのユーザーには、メインメニューの Maestro 領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -113,9 +111,7 @@ ht-degree: 1%
 1. コピーしたリンクを他のユーザーと共有します。 レコードタイプのページにアクセスして選択したビューに表示するには、リンクを受け取ったユーザーがアクティブユーザーであり、Workfrontにログインしている必要があります。
 1. 「**保存**」をクリックします。
 
-
 ## ビューに対する権限の削除
-
 
 {{step1-to-maestro}}
 
