@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,7 @@ hide: yes
 
 マーケティングオペレーションリーダーは、Adobeマエストロを使用して、すべてのチームのマーケティングライフサイクル全体にわたる作業を整理できます。
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 このページは、すべてのAdobeMaestro ドキュメントの出発点として使用できます。
 

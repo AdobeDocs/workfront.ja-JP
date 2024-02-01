@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 AdobeMaestro でレコードタイプのページにアクセスする際に、タイムラインビューにレコードを表示できます。
 
@@ -265,6 +257,12 @@ this is not possible right now; if this is the same functionality as the table v
 1. クリック **バーのスタイル** 左のパネルで、レコードバーに表示するフィールドを指定します。
 
    「名前」フィールドはデフォルトで選択されています。 <!--adjust this when the primary field is released??-->
+
+1. （オプションおよび条件付き）レコードにサムネールを追加した場合、「サムネール」オプションを選択すると、レコードバーにレコードに関連付けられた画像が表示されます。
+
+   >[!NOTE]
+   >
+   >    タイムラインビューにサムネールを表示する前に、まずテーブルビューにサムネールを追加する必要があります。 詳しくは、 [レコードにサムネールを追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. クリック **フィールドを追加** を使用して、レコードバーに最大 4 つのフィールドを追加できます。
 1. 内側をクリック **検索フィールド** 」ボックスをクリックし、追加するフィールドをクリックします。

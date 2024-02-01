@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
 workflow-type: tm+mt
-source-wordcount: '2316'
+source-wordcount: '2298'
 ht-degree: 3%
 
 ---
@@ -26,15 +26,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Maestro でレコードタイプページにアクセスする際に、テーブルビューでレコードとそのフィールドをAdobeで表示できます。
 
@@ -222,8 +214,9 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 
    テーブル表示で追加したレコードは直ちに保存され、ワークスペースに対する表示権限以上を持つすべてのユーザーに表示されます。
 
-   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
-        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. （オプション）各レコードにサムネールを追加し、 **フィールド** テーブルの右上隅で、「サムネール」フィールドを切り替えて、プライマリフィールドの左側に表示します。 デフォルトでは選択されていません。
+
+   詳しくは、 [レコードにサムネールを追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. （オプション）1 つの行で 1 つ以上のレコードを選択し、 **取り扱い** アイコン ![](assets/handle-icon.png) をレコード名の左側に追加して、行を並べ替えます。
 

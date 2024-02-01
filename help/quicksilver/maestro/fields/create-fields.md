@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3325'
 ht-degree: 2%
 
 ---
@@ -33,15 +33,7 @@ recommendations: noDisplay, noCatalog
 
 # フィールドの作成
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Adobe・マエストロでは、オペレーショナル・レコード・タイプまたは分類のカスタム・フィールドを作成できます。 次に、フィールドを Maestro レコードに関連付けて、レコード情報を強化できます。
 

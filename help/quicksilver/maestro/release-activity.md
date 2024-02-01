@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '3673'
+source-wordcount: '3730'
 ht-degree: 0%
 
 ---
 
 # Adobeマエストロリリースアクティビティ
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 この記事では、2023 年 5 月 22 日に Maestro がベータ版プログラムを終了した後にリリースされた機能について説明します。
 
@@ -60,17 +52,26 @@ ht-degree: 0%
 * [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md)
 * [ビューの共有](/help/quicksilver/maestro/access/share-views.md)
 
-<!--
-### Add thumbnails to records 
+### レコードにサムネールを追加
 
-Production: < date > 
+実稼動： 2024 年 2 月 2 日
 
-Preview: To be determined  
+プレビュー：決定する必要があります
 
-You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+各レコードに個々のサムネールを追加して、ビュー内で区別できるようになりました。 テーブル表示では、以前にコンピューターに保存した画像ファイルをサムネールとして追加できます。 サムネールは各レコードに固有で、レコードタイプのページのテーブルビューとタイムラインビューの両方に表示されます。
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+詳しくは、 [レコードにサムネールを追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+### 接続されたレコードタイプカードを削除する
+
+実稼動： 2024 年 2 月 2 日
+
+プレビュー：決定する必要があります
+
+混乱を避け、ワークフローを簡単にするために、Maestro レコードをワークスペースからサードパーティアプリケーションのオブジェクトに接続した結果作成されたレコードタイプカードを削除しました。 <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+
+詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
 
 ## 2024 年 1 月 22 日の週
 

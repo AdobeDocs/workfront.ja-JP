@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,17 @@ hide: yes
 
 # レコード：記事インデックス
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Maestro でレコードタイプを作成した後、Adobe・マエストロで個々のレコードを作成できます。
 
 次の記事では、AdobeMaestro でレコードとその情報を作成および管理する方法について説明します。
 
-* [レコードを作成](../records/create-records.md)
-* [レコードを編集](../records/edit-records.md)
-* [レコードを削除](../records/delete-records.md)
-* [レコードの共有](../records/share-records.md)
-* [レコードを接続](../records/connect-records.md)
+* [レコードを作成](/help/quicksilver/maestro/records/create-records.md)
+* [レコードを編集](/help/quicksilver/maestro/records/edit-records.md)
+* [レコードを削除](/help/quicksilver/maestro/records/delete-records.md)
+* [レコードの共有](/help/quicksilver/maestro/records/share-records.md)
+* [レコードを接続](/help/quicksilver/maestro/records/connect-records.md)
 * [レコードコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md)
-
-<!--* [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)-->
+* [レコードにサムネールを追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)

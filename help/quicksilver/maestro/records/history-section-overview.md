@@ -4,7 +4,7 @@ description: AdobeMaestro のレコードの右側のパネルで、レコード
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 4%
@@ -13,6 +13,8 @@ ht-degree: 4%
 
 
 # 履歴セクションの概要
+
+{{maestro-important-intro}}
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 

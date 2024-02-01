@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 1%
 
 # レコードを編集
 
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
->
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
->
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->
->詳しくは、 [Adobeマエストロの概要](../maestro-overview.md).
+{{maestro-important-intro}}
 
 レコード情報は、AdobeMaestro で編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
@@ -181,5 +173,4 @@ ht-degree: 1%
 
    * Ctrl + Z( Macの場合は⌘ + Z)：変更を元に戻します。
    * Ctrl + Shift + Z(Macの場合は⌘ + Shift + Z)：変更をやり直します。
-<!--
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. （オプション）レコードにサムネールを追加します。 詳しくは、 [レコードにサムネールを追加する](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
