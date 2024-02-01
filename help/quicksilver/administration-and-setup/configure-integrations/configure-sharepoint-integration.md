@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 42e20743b98d9a7cf1f6b37f007823c035e1b636
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 >
 >新しい [!DNL SharePoint] 統合は、22.3 リリース（2022 年 7 月）で実稼動環境にリリースされました。 ユーザーは、従来の [!DNL SharePoint] 統合の場合は、新しい [!DNL SharePoint] SharePointからドキュメントをリンクするための統合。
 >
->* 新しいSharePoint統合は、管理者が設定する必要はなく、個々のユーザーが設定できます。 ただし、新しいSharePoint統合にスムーズに移行できるように、Workfront管理者は、Workfrontのセットアップ領域で小さな設定を変更する必要があります。
+>* 新しいSharePoint統合は、管理者が設定する必要がない場合があり、個々のユーザーが設定することもできます。 ただし、新しいSharePoint統合にスムーズに移行できるように、Workfront管理者は、Workfrontのセットアップ領域で小さな設定を変更する必要があります。
 >
 >    詳しい情報と手順については、 [ドキュメントに引き続きアクセスするための従来のSharePoint統合の設定](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) 」を参照してください。
 >    
@@ -72,13 +72,15 @@ ht-degree: 0%
 
 個々のユーザーは、新しい [!DNL SharePoint] 統合とも呼ばれます。 統合には管理者設定は必要ありません。 代わりに、ユーザーが [!DNL Microsoft] ドキュメントをリンクする際にアカウントを作成します。これにより、統合でユーザーの [!DNL SharePoint].
 
-ユーザーが最初に [!DNL Workfront] [!DNL SharePoint] 統合と [!DNL SharePoint] アカウントを使用する場合、 [!DNL Workfront] は、 [!UICONTROL SharePoint] アカウント。 読み取り権限許可 [!DNL Workfront] 次のファイルを表示してアクセスする： [!DNL SharePoint]、および書き込み権限を持つユーザーは、にファイルをアップロードできます。 [!DNL SharePoint].
+ユーザーが最初に [!DNL Workfront] [!DNL SharePoint] 統合と [!DNL SharePoint] アカウントを使用する場合は、 [!DNL Workfront] は、 [!UICONTROL SharePoint] アカウントを作成するか、Microsoft管理者に権限をリクエストできます。 読み取り権限許可 [!DNL Workfront] 次のファイルを表示してアクセスする： [!DNL SharePoint]、および書き込み権限を持つユーザーは、にファイルをアップロードできます。 [!DNL SharePoint].
 
 ![SharePoint の権限](assets/sharepoint-permissions.png)
 
 新しい [!DNL SharePoint] 統合については、 [外部ドキュメントを次にリンク： [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
+>
+>* 組織のMicrosoft設定に応じて、ユーザーには、「権限がリクエストされました」ページではなく、「承認が必要」ページが表示される場合があります。 この場合、ユーザーはこのページを使用して、組織のMicrosoft管理者に SharePoint 統合に対する権限の付与を要求できます。
 >
 >* A [!DNL SharePoint] 統合は、単一の [!DNL SharePoint] インスタンス。 したがって、ユーザーは統合を 1 つの [!DNL SharePoint]を設定する必要がありますが、1 秒に対する統合を設定することはできません。 [!DNL SharePoint]（2 番目のに対する権限とドキュメントを持っている場合でも） [!DNL SharePoint].
 >
@@ -113,7 +115,13 @@ SharePointから新しい [!DNL SharePoint] 統合については、 [外部ド�
 
 ### アクセスと権限
 
-ユーザーが初めてドキュメントを [!DNL Workfront] から [!DNL SharePoint]に設定されている場合は、次の権限を要求する画面が表示されます。
+ユーザーが初めてドキュメントを [!DNL Workfront] から [!DNL SharePoint]の場合は、要求された権限のページに移動し、SharePoint統合に対する権限を付与できます。
+
+>[!NOTE]
+>
+>組織のMicrosoft設定に応じて、ユーザーには、「権限がリクエストされました」ページではなく、「承認が必要」ページが表示される場合があります。 この場合、ユーザーはこのページを使用して、組織のMicrosoft管理者に SharePoint 統合に対する権限の付与を要求できます。
+
+次の権限がリクエストされます。
 
 | アクセス | 理由 |
 |---|---|
