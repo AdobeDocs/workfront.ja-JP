@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 4888113d57fa083eb4b5e639ed8edb1072b00df3
+source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Workfront製品プロファイル管理者 (Workfront System Administrator) は�
 
 ### 移行日に期待される事項
 
-* **ユーザーの移行は、お客様がホストするWorkfront Datacenter の午前 0 時に開始されます。 **
+* **ユーザーの移行は、お客様がホストするWorkfront Datacenter の午前 0 時に開始されます。**
 
 * **Adobeは、最初にWorkfront管理者を自動的に移行します。** Workfront管理者がAdobeID に移行されると、Adobe製品プロファイル管理者 (Workfrontシステム管理者 ) の役割が割り当てられます。 移行前にユーザーが持っていた既存の役割には影響しません。
 
