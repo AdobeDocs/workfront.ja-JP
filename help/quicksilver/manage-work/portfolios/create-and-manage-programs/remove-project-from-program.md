@@ -1,27 +1,27 @@
 ---
 product-area: programs;projects
 navigation-topic: create and manage programs
-title: プログラムからプロジェクトを削除する
-description: 不要になった場合は、プログラムからプロジェクトを削除できます。
+title: プログラムからプロジェクトを削除
+description: 必要がなくなった場合は、プログラムからプロジェクトを削除できます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
 source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# プログラムからプロジェクトを削除する
+# プログラムからプロジェクトを削除
 
-次のいずれかの操作を行って、プログラムからプロジェクトを削除できます。
+次のいずれかを実行して、プログラムからプロジェクトを削除できます。
 
 * 別のプログラムに移動します。
 * 現在のプログラムから完全に削除し、別のプログラムに関連付けないでください。
 * プロジェクトを完全に削除します。
 
-   プロジェクトの削除については、 [プロジェクトを削除](../../../manage-work/projects/manage-projects/delete-projects.md).
+  プロジェクトの削除について詳しくは、[プロジェクトの削除](../../../manage-work/projects/manage-projects/delete-projects.md)を参照してください。
 
 ## アクセス要件
 
@@ -32,38 +32,38 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Business] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ] </p> </td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROLPortfolio、プログラム、プロジェクトへのアクセスを編集</p> <p>プロジェクトを削除するには、プロジェクトへの [!UICONTROL 削除 ] アクセス権が必要です。</p> <p><b> メモ</b>
+   <td> <p>ポートフォリオ、プログラム、プロジェクトに対する[!UICONTROL Edit]アクセス権</p> <p>プロジェクトを削除するには、プロジェクトに対する[!UICONTROL Delete]アクセス権が必要です。</p> <p><b> メモ</b>
 
-まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者は、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオ、プログラムおよびプロジェクトに対する [!UICONTROL 管理 ] 権限</p> <p>プロジェクトを削除するには、プロジェクトに対する [!UICONTROL 削除 ] 権限が必要です。 </p> <p>プログラムを作成した後は、デフォルトで [!UICONTROL 管理 ] 権限が付与されます。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ポートフォリオ、プログラム、プロジェクトに対する[!UICONTROL Manage]権限</p> <p>プロジェクトを削除するには、プロジェクトに対する[!UICONTROL Delete]権限が必要です。 </p> <p>プログラムを作成すると、既定で、そのプログラムに対する[!UICONTROL Manage]アクセス許可が付与されます。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## プログラムからプロジェクトを削除する
+## プログラムからプロジェクトを削除
 
-1. プログラムに移動して、 **[!UICONTROL プロジェクト]** をクリックします。
+1. プログラムに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
 1. 削除するプロジェクトを選択
-1. 次をクリック： **[!UICONTROL プロジェクトを削除]** ドロップダウンメニュー。
-1. クリック **[!UICONTROL 削除]** > **[!UICONTROL はい、削除します]** をクリックして、Workfrontからプロジェクトを削除します。
+1. **[!UICONTROL プロジェクトの削除]**&#x200B;ドロップダウンメニューをクリックします。
+1. **[!UICONTROL 削除]**／**[!UICONTROL はい、削除します]**&#x200B;をクリックして、Workfront からプロジェクトを削除します。
 
    または
 
-   クリック **[!UICONTROL 削除]** **[!UICONTROL プログラムから]** をクリックして、選択したプログラムから削除します。
+   「**[!UICONTROL プログラムから]****[!UICONTROL 削除]**」をクリックして、選択したプログラムから削除します。
 
-   クリックした場合 [!UICONTROL プログラムから削除]の場合、プロジェクトは選択したプログラムに関連付けられなくなります。
+   「[!UICONTROL プログラムから削除]」をクリックした場合、プロジェクトは選択したプログラムと関連付けられなくなります。
