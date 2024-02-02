@@ -3,72 +3,72 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: でのエラー処理 [!DNL Adobe Workfront Fusion]
-description: シナリオの実行中にエラーが発生した場合、通常は、エラーが発生したためにサービスが利用できなくなったり、サービスが予期しないデータで応答したり、入力データの検証が失敗したりするからです。
+title: ' [!DNL Adobe Workfront Fusion] でのエラー処理'
+description: シナリオの実行中にエラーが発生する場合、通常、その原因は、サービスが障害により利用できないか、サービスが予期しないデータで応答するか、入力データの検証が失敗するすることなどです。
 author: Becky
 feature: Workfront Fusion
 exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
 source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# でのエラー処理 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] でのエラー処理
 
-シナリオの実行中にエラーが発生した場合、通常は、エラーが発生したためにサービスが利用できなくなったり、サービスが予期しないデータで応答したり、入力データの検証が失敗したりするからです。
+シナリオの実行中にエラーが発生する場合、通常、その原因は、サービスが障害により利用できないか、サービスが予期しないデータで応答するか、入力データの検証が失敗するすることなどです。
 
-モジュールがシナリオの実行中にエラーをスローし、モジュールにエラー処理ルートが添付されていない場合は、デフォルトのエラー処理ロジックが実行されます。詳しくは、 [でのエラー処理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
+モジュールがシナリオの実行中にエラーをスローし、モジュールにエラー処理ルートがアタッチされていない場合は、デフォルトのエラー処理ロジックが実行されます。詳しくは、「[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md) でのエラー処理」を参照してください。
 
-エラーハンドラールートをモジュールに追加することで、デフォルトのエラー処理ロジックを独自のエラー処理ロジックに置き換えることができます。 [!DNL Adobe Workfront Fusion] は、エラーハンドラールートの最後に挿入できる 5 つの異なるディレクティブを提供します。
+エラーハンドラールートをモジュールに追加することで、デフォルトのエラー処理ロジックを独自のエラー処理ロジックに置き換えることができます。[!DNL Adobe Workfront Fusion] では、エラーハンドラールートの最後に挿入できる 5 つの異なるディレクティブを提供しています。
 
-詳しくは、 [でのエラー処理用のディレクティブ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+詳しくは、「[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md) でのエラー処理のディレクティブ」を参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプやアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス ](../../workfront-fusion/get-started/license-automation-vs-integration.md) を参照してください。
 
 ## エラーハンドラールート
 
-モジュールにエラーハンドラールートを追加するには：
+モジュールにエラーハンドラールートを追加するには、次の手順に従います。
 
-1. モジュールを右クリックし、「 」を選択します。 **[!UICONTROL エラーハンドラーを追加]**:
+1. モジュールを右クリックし、「**[!UICONTROL エラーハンドラーを追加]**」を選択します。
 
    ![](assets/error-handler-route.png)
 
@@ -80,37 +80,37 @@ ht-degree: 0%
 
    1 つ以上のモジュールをエラーハンドラールートに追加します。
 
-   ルートにモジュールを追加する場合、 [!UICONTROL 無視] デフォルトではディレクティブが適用され、エラーが発生した場合は、そのルートの後続のモジュールが処理されます。
+   ルートにモジュールをさらに追加した場合、デフォルトでは[!UICONTROL 無視]のディレクティブが適用され、エラーの発生時は、そのルートの後続のモジュールが処理されます。
 
 
 >[!INFO]
 >
->この例では、 [!UICONTROL フォルダーの作成] モジュール、 [!UICONTROL 無視] ディレクティブが自動的に適用され、シナリオはエラーハンドラルート上の次のモジュールに移動します。
+>この例では、[!UICONTROL フォルダーを作成]モジュールの実行中にエラーが発生すると、[!UICONTROL 無視]ディレクティブが自動的に適用され、シナリオはエラーハンドラルート上の次のモジュールに移動します。
 >
->ただし、エラーがない場合、シナリオは [!UICONTROL フォルダーモジュール内のすべてのファイルのリスト] 通常のルートで
+>ただし、エラーが発生していない場合、シナリオは通常のルート上の「[!UICONTROL フォルダーモジュール内のすべてのファイルの一覧表示]」に移動します。
 >
 >![](assets/if-there-is-no-error-350x234.png)
 
-エラーハンドラルートは透明な円で構成され、通常のルートは実線の円で構成されます。
+エラーハンドラルートは透明な円で示され、通常のルートは不透明の円で示されます。
 
 ## エラー処理ディレクティブ
 
-次に、指令について簡単に説明します。 詳しくは、 [でのエラー処理用のディレクティブ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+ディレクティブについて、以下で簡単に説明します。詳しくは、「[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md) でのエラー処理のディレクティブ」を参照してください。
 
 合計 5 つのディレクティブがあり、シナリオの実行を続行するかどうかに応じて、次のカテゴリにグループ化できます。
 
 次のディレクティブを使用して、シナリオの実行が継続されるようにします。
 
-* **[!UICONTROL 再開]**:エラーを含むモジュールの代替出力を指定できます。 シナリオの実行ステータスが成功とマークされます
-* **[!UICONTROL 無視]**:はエラーを無視します。 シナリオの実行ステータスが成功とマークされます
-* **[!UICONTROL 改行]**:不完全な実行のキューへの入力を格納します。 シナリオの実行ステータスは警告としてマークされます。 詳しくは、 [での不完全な実行の表示と解決 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+* **[!UICONTROL 再開]**：エラーを含むモジュールの代替出力を指定できます。シナリオの実行ステータスは、成功と表示されます。
+* **[!UICONTROL 無視]**：エラーを無視します。シナリオの実行ステータスは、成功と表示されます。
+* **[!UICONTROL 一時停止]**：入力を不完全な実行のキューに保存します。シナリオの実行ステータスは、警告と表示されます。詳しくは、「[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) での不完全な実行の表示と解決」を参照してください。
 
 エラーが発生したときにシナリオの実行が停止する場合は、次のいずれかのディレクティブを使用します。
 
-* **[!UICONTROL ロールバック]**:シナリオの実行を直ちに停止し、そのステータスをエラーとしてマークします
-* **[!UICONTROL コミット]**:シナリオの実行を直ちに停止し、ステータスを成功としてマークします
+* **[!UICONTROL ロールバック]**：シナリオの実行を直ちに停止し、そのステータスをエラーと表示します。
+* **[!UICONTROL コミット]**：シナリオの実行を直ちに停止し、そのステータスを成功と表示します
 
-エラー処理の詳細については、以下を参照してください。
+エラー処理について詳しくは、以下を参照してください。
 
-* [でのエラー処理用のディレクティブ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [での高度なエラー処理 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)
+* [ [!DNL Adobe Workfront Fusion] でのエラー処理のディレクティブ](../../workfront-fusion/errors/directives-for-error-handling.md)
+* [ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md) での高度なエラー処理
