@@ -1,39 +1,39 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Android ベータ版テスト担当者である
-description: この記事をレビューして、 [!DNL Adobe Workfront] モバイルアプリを使用します。
+title: Android ベータ版テスターになる
+description: この記事をレビューして、 [!DNL Adobe Workfront]  モバイルアプリの Android ベータテスターになります。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Be an [!DNL Android] ベータテスタ
+# [!DNL Android] ベータテスターになる
 
-## ベータ版アプリをダウンロード
+## ベータ版アプリをダウンロードする
 
-ベータ版テスターになるには、いくつかの方法があります [!DNL Adobe Workfront] アプリ：
+[!DNL Adobe Workfront] アプリのベータ版テスターになるには、いくつかの方法があります。
 
 ### [!DNL Google Play] ストア
 
-以下を使用して、 [!DNL Google Play Store] アプリを検索してダウンロードするには：
+[!DNL Google Play Store] を使用してアプリを見つけてダウンロードできます。
 
-1. 次にアクセス： [!DNL Play Store] デバイス上のアプリを参照してください。
-1. を検索 [!DNL Workfront]をタップし、リストに表示されたらタップします。
-次をインストールする必要があります： [!DNL Workfront] アプリを使用してください。
-1. をインストールして開きます。 [!DNL Workfront] アプリに表示されます。
-1. ページの中央までスクロールし、をタップします。 **[!UICONTROL 参加する]** 内 **[!UICONTROL ベータテスターになる]** 」セクションに入力します。
+1. デバイスで [!DNL Play Store] アプリにアクセスします。
+1. [!DNL Workfront] を検索し、リストに表示されたらタップします。
+ベータ版に参加する前に、[!DNL Workfront] アプリをインストールする必要があります。
+1. [!DNL Workfront] アプリをまだインストールしていない場合は、インストールして開きます。
+1. ページの中央に向かってスクロールし、「**[!UICONTROL ベータテスターになる]**」セクションで「**[!UICONTROL 参加する]**」をタップします。
 
-1. タップ **[!UICONTROL 結合]** をクリックして、ベータ版テスターになることを確認します。\
-   ベータ版ユーザーとして認識されるまでに数分かかります。 を再度開く必要がある場合があります。 [!DNL Play Store] をクリックして変更を確認します。
+1. 「**[!UICONTROL 参加]**」をタップして、ベータテスターになることを確認します。\
+   ベータ版ユーザーとして認識されるまでに数分かかります。変更を確認するには、[!DNL Play Store] を再度開く必要がある場合があります。
 
 1. 進行状況が完了したら、ベータ版ユーザーになったことを示す確認メッセージが表示されます。\
-   「[!UICONTROL ベータ版]」が [!DNL Play Store] アプリケーションのベータ版を使用していることを示しています。\
+   [!DNL Play Store] 内のアプリ名の後に「[!UICONTROL Beta]」という単語が表示され、アプリのベータ版を使用していることを示します。\
    ![](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR コード
@@ -46,17 +46,17 @@ ht-degree: 0%
 
 ベータ版アプリに関するフィードバックを提供したり、問題を報告したりするには、次の手順を実行します。
 
-1. タップ **[!UICONTROL 詳細]** をクリックします。
-1. 名前をタップし、 **[!UICONTROL フィードバックを送信]**.
-1. 選択 **[!UICONTROL 調査を開始]** アプリに関する一般的なフィードバックを提供する。\
+1. 下部のナビゲーション バーで「**[!UICONTROL その他]**」をタップします。
+1. 自分の名前をタップし、**[!UICONTROL フィードバックを送信]**&#x200B;します。
+1. アプリに関する一般的なフィードバックを提供するには、「**[!UICONTROL 調査を開始]**」を選択します。\
    または\
-   選択 **[!UICONTROL 問題の報告]** 切符を差し出す [!DNL Workfront] カスタマーケアチーム。
+   「**[!UICONTROL 問題を報告]**」を選択して、[!DNL Workfront] カスタマーケアチームにチケットを送信します。
 
 ## ベータテストのオプトアウト
 
-ベータ版テストを停止するには [!DNL Workfront] アプリ：
+[!DNL Workfront] アプリのベータテストを停止するには、以下の手順を実行します。
 
-1. 次にアクセス： [!DNL Play Store] デバイス上のアプリを参照してください。
-1. を検索 [!DNL Workfront]をタップし、リストに表示されたらタップします。
-1. 下にスクロールして **[!UICONTROL ベータ版テスト担当者]** 「 」セクションに移動し、「 」をタップします。 **[!UICONTROL 終了]**.\
-   ベータ版テスターとして削除されるまでに数分かかります。 を再度開く必要がある場合があります。 [!DNL Play Store] をクリックして変更を確認します。
+1. デバイスで [!DNL Play Store] アプリにアクセスします。
+1. [!DNL Workfront] を検索し、リストに表示されたらタップします。
+1. 「**[!UICONTROL あなたはベータテスターです]**」セクションまで下にスクロールし、「**[!UICONTROL 移動]**」をタップします。\
+   ベータ版テスターとして削除されるまでに数分かかります。変更を確認するには、[!DNL Play Store] を再度開く必要がある場合があります。
