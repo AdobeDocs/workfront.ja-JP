@@ -1,25 +1,25 @@
 ---
 product-area: projects;templates
 navigation-topic: manage-projects
-title: プロジェクトをテンプレートとして保存する
-description: プロジェクトをテンプレートとして保存プロジェクトレベルで「テンプレートとして保存」すると、ユーザーは UI でその内容を確認できます。このリンク先の別の記事がありますが、この記事の詳細はステップバイステップで説明します。 この機能は、プロジェクトとテンプレートの両方の領域にとどまる必要があります )」
+title: プロジェクトをテンプレートとして保存
+description: プロジェクトを「プロジェクトレベルでテンプレート templateSave として保存すると、ユーザーはそれを UI で確認できます。これにはリンクされている別の記事があり、より詳しく（段階的に）説明されています。この機能はプロジェクトとテンプレートの両方のエリアに存在する必要があります。）」
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# プロジェクトをテンプレートとして保存する
+# プロジェクトをテンプレートとして保存
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
 
-将来、プロジェクトが再び発生すると判断した場合は、その既存のプロジェクトからテンプレートを作成できます。 次に、テンプレートを再び使用して、類似の情報を含む将来のプロジェクトを作成したり、同じタイムラインや割り当てを既存のプロジェクトと共有したりできます。
+プロジェクトが将来再び発生することが決定した場合は、その既存のプロジェクトからテンプレートを作成できます。次に、テンプレートを再度使用して、同様の情報を含む可能性がある、または既存のプロジェクトと同じタイムラインや割り当てを共有する可能性のある今後のプロジェクトを作成できます。
 
 ## アクセス要件
 
@@ -60,33 +60,33 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>テンプレートへのアクセスを編集</p> <p><b>メモ</b>
+   <td> <p>テンプレートへの編集アクセス</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する表示権限以上 </p> <p>プロジェクトをテンプレートとして保存した後、テンプレートに対する管理権限を取得します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトに対する表示権限またはそれ以上の権限 </p> <p>プロジェクトをテンプレートとして保存した後、テンプレートに対する管理権限を取得します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## プロジェクトをテンプレートとして保存する
+## プロジェクトをテンプレートとして保存
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. 次をクリック： **詳細** メニュー ![](assets/qs-more-icon-on-an-object.png)を、 **テンプレートとして保存**.
-1. テンプレートの次の情報を指定します。
+1. **その他**&#x200B;メニュー ![](assets/qs-more-icon-on-an-object.png)、「**テンプレートとして保存**」の順にクリックします。
+1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,31 +104,31 @@ ht-degree: 2%
       <td role="rowheader">アクティブ</td> 
       <td> <p>次のオプションから選択します。</p> 
        <ul> 
-        <li> <p><strong>はい</strong>:他のユーザーは、テンプレートを見つけてプロジェクトに添付できます。</p> </li> 
-        <li><strong>いいえ</strong>:他のユーザーはテンプレートを見つけられず、プロジェクトに添付できません。</li> 
+        <li> <p><strong>はい</strong>：他のユーザーがテンプレートを見つけてプロジェクトに添付することができます。</p> </li> 
+        <li><strong>いいえ</strong>：他のユーザーはテンプレートを見つけることができず、プロジェクトに添付できません。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">カスタムフォーム</td> 
-      <td>ドロップダウンリストを使用して、テンプレートに添付するカスタムフォームを選択します。 カスタムフォームが既にプロジェクトに関連付けられている場合は、それらのカスタムフォームのすべてのデータフィールドが表示されます。<br>1 つのテンプレートに最大 10 個のカスタムフォームを組み込むことができます。</td> 
+      <td>ドロップダウンリストを使用して、テンプレートに添付するカスタムフォームを選択します。カスタムフォームがすでにプロジェクトに関連付けられている場合は、それらのカスタムフォームのデータフィールドがすべて表示されます。<br>1 つのテンプレートに最大 10 個のカスタムフォームを含めることができます。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. クリック **Formsを管理** フォームを削除または並べ替えるには テンプレート上のカスタムフォームの削除と並べ替えの方法について詳しくは、 [カスタムフォーム](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. 「**フォームの管理**」をクリックして、フォームを削除または並べ替えます。テンプレートのカスタムフォームを削除して並べ替える方法については、[カスタムフォーム](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)を参照してください。
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. クリック **次のステップ。**
-1. 内&#x200B;**オプション** 「 」セクションで、テンプレートから消去する情報の横にあるチェックボックスを選択します。
+1. 「**次の手順**」をクリックします。
+1. **オプション**&#x200B;セクションで、テンプレートから削除する情報の横にあるチェックボックスを選択します。
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. クリック **次のステップ。**
-1. 内 **除外** 「 」セクションで、プロジェクトから除外するタスクを選択します。
+1. 「**次の手順**」をクリックします。
+1. **除外**&#x200B;セクションで、プロジェクトから除外するタスクを選択します。
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. クリック **テンプレートを終了して保存します。**
+1. 「**完了してテンプレートを保存**」をクリックします。
 
-   テンプレートが使用可能なテンプレートのリストに表示され、既存のプロジェクトに添付したり、新しいテンプレートの作成に使用したりできます。
+   テンプレートが使用可能なテンプレートのリストに表示され、既存のプロジェクトに添付することも、新しいプロジェクトの作成に使用することもできます。
