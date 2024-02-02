@@ -1,47 +1,47 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: 問題を参照する際には、「opTask」と「issue」を使用します
-description: イシューの名前は、Adobe Workfrontデータベースに opTask と表示されます。 問題を参照する際に、問題フィールド名を使用する必要がある場合がありますが、ほとんどの場合、問題を参照する際には、問題ではなく opTask フィールド名を使用する必要があります。
+title: イシューを参照する際の「opTask」と「issue」の使用
+description: イシューの名前は、Adobe Workfront データベースに opTask として現れます。場合によっては、issue フィールド名を使用してイシューを参照する必要がありますが、ほとんどの場合、イシューの参照時には issue ではなく opTask フィールド名を使用する必要があります。
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
 source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# 問題を参照する際には、「opTask」と「issue」を使用します
+# イシューを参照する際の「opTask」と「issue」の使用
 
-問題の名前は、 `opTask` をAdobe Workfrontデータベースに追加します。 ただし、 `issue` ほとんどの場合、 `opTask` フィールド名の代わりに `issue` 問題を参照する場合。
+イシューの名前は、Adobe Workfront データベースに `opTask` として現れます。場合によっては、`issue` フィールド名を使用してイシューを参照する必要がありますが、ほとんどの場合、イシューの参照時には `issue` ではなく `opTask` フィールド名を使用する必要があります。
 
-Workfrontデータベースでのオブジェクトの表示について詳しくは、 [API エクスプローラ](https://developer.adobe.com/workfront/api-explorer/).
+Workfront データベースでオブジェクトがどのように現れるかについて詳しくは、[API エクスプローラー](https://developer.adobe.com/workfront/api-explorer/)を参照してください。
 
-## `opTask` filename
+## `opTask` フィールド名
 
-以下を使用： `opTask` 次のコンテキストで問題を参照する際のフィールド名：
+次のコンテキストでイシューを参照する場合は、`opTask` フィールド名を使用します。
 
-* テキストモードのカスタムレポートを作成して問題を表示、フィルタ、グループ化、プロンプトで参照する場合。
+* イシューのテキストモードのカスタムレポートを作成し、イシューをビュー、フィルター、グループ化またはプロンプトで参照する場合。
 
-   レポートでのテキストモードの使用について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  レポートでのテキストモードの使用について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
 <!--* When you pull information about issues using our API.  
   For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
 
-* 「キックスタート」データインポーターシートの問題フィールドを更新する場合。
+* キックスタートデータインポーターシートのイシューフィールドを更新する場合。
 
-   キックスタートを使用してWorkfrontにデータを読み込む方法について詳しくは、 [キックスタートテンプレートを使用してAdobe Workfrontにデータを読み込む](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  キックスタートを使用して Workfront にデータを読み込む方法について詳しくは、[キックスタートテンプレートを使用した Adobe Workfront へのデータの読み込み](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)を参照してください。
 
 ## `issue` フィールド名
 
-以下を使用： `issue` 以下のコンテキストでの問題を参照するフィールド名：
+次のコンテキストでイシューを参照する場合は、`issue` フィールド名を使用します。
 
-* レポートのテキストモードを使用してコレクションで問題を参照する場合。
-* Workfront API を使用して問題コレクションを参照する場合。
+* レポートでテキストモードを使用してコレクション内のイシューを参照する場合。
+* Workfront API を使用してイシューコレクションを参照する場合。
 
-コレクションのレポートについて詳しくは、 [レポート内のコレクションの参照](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+コレクションに関するレポートについては、[レポートでのコレクションの参照](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)を参照してください。
 
 <!--
 <note type="tip">
