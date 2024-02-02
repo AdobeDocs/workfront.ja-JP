@@ -1,21 +1,21 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボード上のユーザーによるフィルター
-description: かんばんボードのフィルターを使用して、他のユーザーに関連付けられ、未割り当ての作業項目を確認できます。
+title: かんばんボードからユーザーでフィルター
+description: かんばんボードでフィルターを使用して、どの作業アイテムが他のユーザーに関連付けられ、どの作業アイテムが未割り当てであるかを確認できます。
 author: Lisa
 feature: Agile
 exl-id: e6f6beda-aaf9-4053-97ed-3a48e617d8e9
 source-git-commit: a478e5355db33e076b321a6219442198901f3252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 次の項目でユーザーをフィルター [!UICONTROL かんばん] ボード
+# [!UICONTROL かんばん]ボード上でユーザーでフィルタリング
 
-このフィルターは、 [!UICONTROL かんばん] ボードを使用して、他のユーザーに関連付けられ、未割り当ての作業項目を確認します。
+[!UICONTROL かんばん]ボードでフィルターを使用して、どの作業アイテムが他のユーザーに関連付けられ、どの作業アイテムが未割り当てであるかを確認できます。
 
 ## アクセス要件
 
@@ -26,39 +26,38 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
+   <td> <p>[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以降</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者は、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront]管理者によってアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## かんばんボード上のユーザーによるフィルター
+## かんばんボードからユーザーでフィルター
 
-フィルターを設定するには [!UICONTROL かんばん] ボード：
+[!UICONTROL かんばん]ボードをフィルタリングするには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL チーム]**.
+1. [!DNL Adobe] Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL チーム]**」をクリックします。
 
-1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)」をクリックし、ドロップダウンメニューから新しいかんばんチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックしたあと、ドロップダウンメニューから新しいかんばんチームを選択するか、検索バーでチームを検索します。
 
-1. 次に移動： [!UICONTROL かんばん] ボード。
-1. 次をクリック： [!UICONTROL フィルター] の右側にあるドロップダウンメニュー [!UICONTROL かんばん] ボード。
-1. 1 人以上のユーザーを選択するか、 **[!UICONTROL 未割り当て]**.
+1. [!UICONTROL かんばん]ボードに移動します。
+1. [!UICONTROL かんばん]ボードの右側にある[!UICONTROL フィルター]ドロップダウンメニューをクリックします。
+1. 1 人以上のユーザーか、「**[!UICONTROL 未割り当て]**」を選択します。
 
    >[!NOTE]
    >
-   >* 列の合計は、フィルターされた結果に基づいては変更されません。 列の合計は、ボード上のすべての作業項目の合計を表示します。 デフォルトでは最大 50 枚のカードが表示されますが、 **[!UICONTROL さらに表示]** 追加のカードを表示するには、をクリックします。
-   >* フィルターは [!UICONTROL バックログ] 列。
+   >* 列の合計は、フィルタリングの結果に基づいて変更されることはありません。列の合計は、ボード上のすべての作業アイテムの合計を表示します。デフォルトでは最大 50 枚のカードが表示されますが、「**[!UICONTROL さらに表示]**」をクリックして、追加のカードを表示することができます。
+   >* フィルターは[!UICONTROL バックログ]列には適用されません。
 
 
-
-   ![ユーザーでフィルター](assets/filter-by-user-agile-nwe.png)
+   ![ユーザーでフィルタリング](assets/filter-by-user-agile-nwe.png)
