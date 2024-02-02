@@ -2,75 +2,75 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: サブグループメンバーの表示と管理
+title: サブグループのメンバーの表示と管理
 description: 管理対象のグループを表示している場合、グループのサブグループ内のすべてのユーザーを表示および管理できます。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# サブグループメンバーの表示と管理
+# サブグループのメンバーの表示と管理
 
 管理対象のグループを表示している場合、グループのサブグループ内のすべてのユーザーを表示および管理できます。
 
-管理するグループの上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront管理者（すべてのグループ）も同様です。
+管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
 
 ## アクセス要件
 
-この記事の手順を実行するには、次の手順を実行する必要があります。
+この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront plan*</td> 
+   <td role="rowheader">Workfront プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> <p>グループのグループ管理者またはWorkfront管理者である必要があります。 詳しくは、 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a> および <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>「ユーザー管理者（すべてのユーザー） 」オプションを選択して、ユーザーへのアクセスを編集</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>「ユーザー管理者（すべてのユーザー）」オプションを選択して、ユーザーへのアクセスを編集</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスタイプ、アクセスレベル設定を確認するには、Workfront管理者に問い合わせてください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセスレベル設定を確認するには、Workfront 管理者にお問い合わせください。
 
 ## グループの下のサブグループのメンバーを表示および管理
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
 
-1. クリック **グループ**.
+1. 「**グループ**」をクリックします。
 
-   表示されるリストで、管理しているグループと、そのグループに含まれているサブグループを確認できます。 Adobe Workfront管理者は、すべてのグループを表示できます。
+   表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. サブグループメンバーを表示または管理するグループの名前をクリックします。
-1. 左側のパネルで、 **サブグループメンバー**.
+1. 左側のパネルで、「**サブグループメンバー**」をクリックします。
 
    この左のパネル項目は、グループにサブグループが含まれている場合にのみ使用できます。
 
 1. 次のいずれかの操作を行います。
 
-   * リスト内のメンバーを選択し、「編集」をクリックします。 ![](assets/edit-icon.png) をクリックして、そのユーザーのユーザープロファイルを変更します。
+   * リスト内のメンバーを選択し、「編集」![](assets/edit-icon.png) をクリックして、そのユーザーのユーザープロファイルを変更します。
 
-      詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) または [ユーザープロファイルの一括編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
+     詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)または[ユーザープロファイルの一括編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)を参照してください。
 
-   * リスト内の任意の数のメンバーを選択し、「更新」をクリックします ![](assets/comment-icon.png) をクリックして、ユーザープロファイルにコメントを追加します。
+   * リスト内の任意の数のメンバーを選択し、「更新」![](assets/comment-icon.png) をクリックして、ユーザープロファイルにコメントを追加します。
 
-      ユーザーには、アプリ内通知と、コメントが記載された電子メール通知が送信されます。 コメントは、ユーザーのプロファイルの「更新」領域に表示されます。
+     ユーザーには、アプリ内通知と、コメントが記載されたメール通知が送信されます。コメントは、ユーザーのプロファイルの「更新」エリアに表示されます。
 
-   * リスト内の任意の数のメンバーを選択し、「非アクティブ化」をクリックします ![](assets/deactivate-user.png) またはアクティブ化 ![](assets/activate-user.png).
+   * リスト内の任意の数のメンバーを選択し、「非アクティブ化」![](assets/deactivate-user.png) または「アクティブ化」![](assets/activate-user.png) をクリックします。
 
-      詳しくは、 [ユーザーを非アクティブ化または再アクティブ化する](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+     詳しくは、[ユーザーを非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
-   * 書き出し ![](assets/export.png) メンバーのリスト。
+   * メンバーのリスト ![](assets/export.png) を書き出します。
