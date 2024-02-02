@@ -4,82 +4,82 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: Google Drive モジュール
-description: この [!DNL Adobe Workfront Fusion Google Drive] モジュールを使用すると、内のファイル、フォルダ、または共有ドライブを監視、検索、作成、更新、削除、管理できます [!DNL Google Drive].
+title: Google Drive のモジュール
+description: ' [!DNL Adobe Workfront Fusion Google Drive]  モジュールを使用すると、 [!DNL Google Drive] 内のファイル、フォルダー、または共有ドライブを監視、検索、作成、更新、削除、管理できます。'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2956'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # [!DNL Google Drive] モジュール
 
-この [!DNL Adobe Workfront Fusion] [!DNL Google Drive] モジュールを使用すると、内のファイル、フォルダ、または共有ドライブを監視、検索、作成、更新、削除、管理できます [!DNL Google Drive].
+[!DNL Adobe Workfront Fusion] [!DNL Google Drive] モジュールを使用すると、[!DNL Google Drive] 内のファイル、フォルダー、または共有ドライブを監視、検索、作成、更新、削除、管理できます。
 
-内 [!DNL Adobe Workfront Fusion] シナリオに従って、 [!DNL Google Drive] を複数のサードパーティのアプリケーションおよびサービスにアカウントする。
+[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Google Drive] アカウントを複数のサードパーティのアプリケーションとサービスに接続できます。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順について詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) のシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] の管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 
 
-## 接続中 [!DNL Google Drive] から [!DNL Workfront Fusion]
+## [!DNL Google Drive] を [!DNL Workfront Fusion] に接続
 
-次の場合、 [!DNL @gmail.com] または [!DNL @googlemail.com] OAuth クライアントを [の [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) 得るために [!UICONTROL クライアント ID] および [!UICONTROL クライアント秘密鍵].
+[!DNL @gmail.com] または [!DNL @googlemail.com] ユーザーの場合は、[!UICONTROL クライアント ID] と[!UICONTROL クライアントシークレット]を取得するために、[ [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) に OAuth クライアントを作成する必要があります。
 
-OAuth クライアントの作成 ( および [!UICONTROL クライアント ID] および [!UICONTROL クライアント秘密鍵]) を参照してください。 [接続 [!DNL Adobe Workfront Fusion] から [!DNL Google Services] カスタム OAuth クライアントの使用](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+OAuth クライアントを作成（および[!UICONTROL クライアント ID] と[!UICONTROL クライアントシークレット]を取得）する手順について詳しくは、[カスタム OAuth クライアントを使用した  [!DNL Adobe Workfront Fusion]  と  [!DNL Google Services]  の接続](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)を参照してください。
 
-接続方法 [!DNL Google Drive] アカウント [!UICONTROL Workfront Fusion]を参照してください。 [への接続の作成 [!UICONTROL Adobe Workfront Fusion]  — 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)
+[!DNL Google Drive] アカウントを [!UICONTROL Workfront Fusion] に接続する方法について詳しくは、[[!UICONTROL Adobe Workfront Fusion] への接続の作成 - 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)を参照してください。
 
 ## [!DNL Google Drive] モジュールとそのフィールド
 
-設定時に [!DNL Google Drive] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Google Drive] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL Google Drive] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらとともに、アプリやサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Google Drive] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間での情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -90,32 +90,32 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
 
 ### トリガー
 
-* [[!UICONTROL フォルダ内のファイルを監視する]](#watch-files-in-folder)
+* [[!UICONTROL フォルダー内のファイルを監視]](#watch-files-in-folder)
 * [[!UICONTROL すべてのファイルを監視]](#watch-all-files)
-* [[!UICONTROL 共有ファイルを監視する]](#watch-shared-files)
-* [[!UICONTROL コメントを見る]](#watch-comments)
+* [[!UICONTROL 共有ファイルを監視]](#watch-shared-files)
+* [[!UICONTROL コメントを監視]](#watch-comments)
 
-#### [!UICONTROL フォルダ内のファイルを監視する]
+#### [!UICONTROL フォルダー内のファイルを監視]
 
-指定されたフォルダー内でファイルが追加または変更された場合に、ファイルの詳細を取得します。
+指定されたフォルダーにファイルが追加または変更されると、ファイルの詳細を取得します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL 接続 ] </td>
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+    <td>[!UICONTROL Connection] </td>
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr>
-    <td>[!UICONTROL 監視するフォルダーを選択 ]</td>
-    <td >ファイルを監視するドライブ上のフォルダを選択します。</td>
+    <td>[!UICONTROL Select the folder to be watched]</td>
+    <td >ファイルを監視したいドライブ上のフォルダーを選択します。</td>
   </tr> 
   <tr> 
-    <td>[!UICONTROL 監視するファイル</td>
+    <td>[!UICONTROL What files to watch]</td>
    <td> <p>監視するファイルの種類を選択します。</p> 
     <ul> 
-     <li>[!UICONTROL すべて ]</li> 
+     <li>[!UICONTROL All]</li> 
      <li>[!DNL Google Documents]</li> 
      <li>[!DNL Google Spreadsheets]</li> 
      <li>[!DNL Google Slides]</li> 
@@ -123,49 +123,49 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[!UICONTROL 変換 [!DNL Google Documents] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Documents] からへ</td>
+    <td >[!UICONTROL Convert [!DNL Google Documents] files to format]</td>
+    <td>[!DNL Google Documents] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Spreadsheets] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Spreadsheets] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Spreadsheets] files to format]</td>
+    <td>[!DNL Google Spreadsheets] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Slides] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Slides] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Slides] files to format]</td>
+    <td>[!DNL Google Slides] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Drawings] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Drawings] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Drawings] files to format]</td>
+    <td>[!DNL Google Drawings] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL ウォッチ ]</td>
-    <td>新しいファイルとすべての変更を監視するか、新しいファイルのみを監視するかを選択します。</td>
+    <td>[!UICONTROL Watch]</td>
+    <td>新規ファイルとすべての変更を監視するか、新規ファイルのみを監視するかを選択します。</td>
   </tr> 
   <tr> 
-    <td>[!UICONTROL ダウンロードされたファイルの最大数 ]</td>
-    <td>結果の最大数を設定 [!DNL Workfront Fusion] は、1 サイクル（シナリオ実行あたりの繰り返し数）中にダウンロードされます。</td>
+    <td>[!UICONTROL Maximum number of downloaded files]</td>
+    <td>1 回のサイクル中に [!DNL Workfront Fusion] がダウンロードする結果の最大数（シナリオ実行あたりの繰り返し数）を設定します。</td>
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL すべてのファイルを監視]
+#### [!UICONTROL すべてのファイルの監視]
 
-ファイルが [!DNL Google Drive] が追加または変更された。
+[!DNL Google Drive] 内のファイルが追加または変更されたときに、ファイルの詳細を取得します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] への [!DNL Google Drive] の接続</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 監視するファイル</td> 
+   <td>[!UICONTROL What files to watch]</td> 
    <td> <p>監視するファイルの種類を選択します。</p> 
     <ul> 
-     <li>[!UICONTROL すべて ]</li> 
+     <li>[!UICONTROL All]</li> 
      <li>[!DNL Google Documents]</li> 
      <li>[!DNL Google Spreadsheets]</li> 
      <li>[!DNL Google Slides]</li> 
@@ -173,53 +173,53 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[!UICONTROL 変換 [!DNL Google Documents] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Documents] からへ</td>
+    <td >[!UICONTROL Convert [!DNL Google Documents] files to format]</td>
+    <td>[!DNL Google Documents] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Spreadsheets] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Spreadsheets] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Spreadsheets] files to format]</td>
+    <td>[!DNL Google Spreadsheets] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Slides] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Slides] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Slides] files to format]</td>
+    <td>[!DNL Google Slides] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Drawings] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Drawings] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Drawings] files to format]</td>
+    <td>[!DNL Google Drawings] の変換先のファイル形式を選択します。</td>
   </tr>  
   <tr> 
-   <td>[!UICONTROL ウォッチ ]</td> 
-   <td>新しいファイルとすべての変更を監視するか、新しいファイルのみを監視するかを選択します。</td> 
+   <td>[!UICONTROL Watch]</td> 
+   <td>新規ファイルとすべての変更を監視するか、新規ファイルのみを監視するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ダウンロードされたファイルの最大数 ]</td> 
-   <td>結果の最大数を設定 [!DNL Workfront Fusion] は、1 サイクル（シナリオ実行あたりの繰り返し数）中にダウンロードされます。</td> 
+   <td>[!UICONTROL Maximum number of downloaded files]</td> 
+   <td>1 回のサイクル中に [!DNL Workfront Fusion] がダウンロードする結果の最大数（シナリオ実行あたりの繰り返し回数）を設定します。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 共有ファイルを監視する]
+#### [!UICONTROL 共有ファイルの監視]
 
-トリガー：新しいファイルが自分に共有されたとき、または既存の共有ファイルが更新されたとき。
+新規ファイルが共有されたときや、既存の共有ファイルが更新されたときにトリガーされます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] への [!DNL Google Drive] の接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 監視するフォルダーを選択 ]</td> 
-   <td>ファイルを監視する共有フォルダを選択します。</td> 
+   <td>[!UICONTROL Select the folder to be watched]</td> 
+   <td>監視するファイルが含まれている共有フォルダーを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 監視するファイル</td> 
+   <td>[!UICONTROL What files to watch]</td> 
    <td> <p>監視するファイルの種類を選択します。</p> 
     <ul> 
-     <li>[!UICONTROL すべて ]</li> 
+     <li>[!UICONTROL All]</li> 
      <li>[!DNL Google Documents]</li> 
      <li>[!DNL Google Spreadsheets]</li> 
      <li>[!DNL Google Slides]</li> 
@@ -227,82 +227,82 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
     </ul> </td> 
   </tr> 
   <tr> 
-    <td >[!UICONTROL 変換 [!DNL Google Documents] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Documents] からへ</td>
+    <td >[!UICONTROL Convert [!DNL Google Documents] files to format]</td>
+    <td>[!DNL Google Documents] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Spreadsheets] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Spreadsheets] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Spreadsheets] files to format]</td>
+    <td>[!DNL Google Spreadsheets] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Slides] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Slides] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Slides] files to format]</td>
+    <td>[!DNL Google Slides] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr>
-    <td>[!UICONTROL 変換 [!DNL Google Drawings] 形式設定するファイル</td>
-    <td>変換するファイル形式を選択します [!DNL Google Drawings] からへ</td>
+    <td>[!UICONTROL Convert [!DNL Google Drawings] files to format]</td>
+    <td>[!DNL Google Drawings] の変換先のファイル形式を選択します。</td>
   </tr> 
   <tr> 
-   <td>[!UICONTROL ウォッチ ]</td> 
-   <td>新しいファイルとすべての変更を監視するか、新しいファイルのみを監視するかを選択します。</td> 
+   <td>[!UICONTROL Watch]</td> 
+   <td>新規ファイルとすべての変更を監視するか、新規ファイルのみを監視するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ダウンロードされたファイルの最大数 ]</td> 
-   <td>結果の最大数を設定 [!DNL Workfront Fusion] は、1 サイクル（シナリオ実行あたりの繰り返し数）中にダウンロードされます。</td> 
+   <td>[!UICONTROL Maximum number of downloaded files]</td> 
+   <td>1 回のサイクル中で [!DNL Workfront Fusion] がダウンロードする結果の最大数（シナリオ実行あたりの繰り返し数）を設定します。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL コメントを見る]
+#### [!UICONTROL コメントを監視]
 
-トリガー（選択したファイルにコメントが追加または変更された場合）
+選択したファイルにコメントが追加または変更されたときにトリガーされます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル ]</td> 
+   <td>[!UICONTROL File]</td> 
    <td>コメントを監視するファイルを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ウォッチ ]</td> 
-   <td>すべての変更を監視するか、新しいコメントのみを監視するかを選択します</td> 
+   <td>[!UICONTROL Watch]</td> 
+   <td>すべての変更を監視するか、新しいコメントのみを監視するかを選択</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 返されたコメントの最大数 ]</td> 
-   <td>コメントの最大数を設定 [!DNL Workfront Fusion] は、1 サイクル（シナリオ実行あたりの繰り返し数）中に返されます。</td> 
+   <td>[!UICONTROL Maximum number of returned comments]</td> 
+   <td>1 回のサイクル中で [!DNL Workfront Fusion] が返すコメントの最大数（シナリオ実行ごとの繰り返し数）を設定します。</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### アクション
 
-* [[!UICONTROL ファイルのアップロード]](#upload-a-file)
-* [[!UICONTROL ファイルの更新]](#update-a-file)
-* [[!UICONTROL ファイルのコピー]](#copy-a-file)
-* [[!UICONTROL ファイルの削除]](#delete-a-file)
-* [[!UICONTROL ファイル/フォルダーをごみ箱に移動]](#move-a-filefolder-to-trash)
-* [[!UICONTROL ファイルの取得]](#get-a-file)
-* [[!UICONTROL ファイル/フォルダを検索]](#search-for-filesfolders)
-* [[!UICONTROL フォルダーの作成]](#create-a-folder)
+* [[!UICONTROL ファイルをアップロード]](#upload-a-file)
+* [[!UICONTROL ファイルを更新]](#update-a-file)
+* [[!UICONTROL ファイルをコピー]](#copy-a-file)
+* [[!UICONTROL ファイルを削除]](#delete-a-file)
+* [[!UICONTROL ファイル／フォルダーをごみ箱に移動]](#move-a-filefolder-to-trash)
+* [[!UICONTROL ファイルを取得]](#get-a-file)
+* [[!UICONTROL ファイル／フォルダを検索]](#search-for-filesfolders)
+* [[!UICONTROL フォルダーを作成]](#create-a-folder)
 * [[!UICONTROL 共有リンクを取得]](#get-a-share-link)
 
-#### [!UICONTROL ファイルのアップロード]
+#### [!UICONTROL ファイルをアップロード]
 
-ファイルを [!DNL Google Drive].
+ファイルを [!DNL Google Drive] にアップロードします。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Destination]</td> 
@@ -313,33 +313,33 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ターゲットフォルダー ]</td> 
-   <td>ファイルのアップロード先のフォルダーを選択します。 </td> 
+   <td>[!UICONTROL Target folder]</td> 
+   <td>ファイルをアップロードするフォルダーを選択します。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ソースファイル ]</td> 
-   <td>以前のモジュールから渡されたファイルを使用するか、手動でファイルをマッピングするかを選択します。</td> 
+   <td>[!UICONTROL Source file]</td> 
+   <td>以前のモジュールから渡されたファイルを使用するか、ファイルを手動でマッピングするかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル名 ]</td> 
-   <td>ファイル名を選択します。 このオプションは、[!UICONTROL ソースファイル ] フィールドで「[!UICONTROL Map]」を選択した場合に使用できます。</td> 
+   <td>[!UICONTROL File name]</td> 
+   <td>ファイル名を選択します。このオプションは、「[!UICONTROL source file]」フィールドで「[!UICONTROL Map]」を選択した場合に使用できます。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL データ ]</td> 
-   <td>アップロードするデータファイルを選択します。 このオプションは、[!UICONTROL ソースファイル ] フィールドで「[!UICONTROL Map]」を選択した場合に使用できます。</td> 
+   <td>[!UICONTROL Data]</td> 
+   <td>アップロードするデータファイルを選択します。このオプションは、「[!UICONTROL source file]」フィールドで「[!UICONTROL Map]」を選択した場合に使用できます。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL タイトル ]</td> 
-   <td>新しいファイルのタイトルを入力します。</td> 
+   <td>[!UICONTROL Title]</td> 
+   <td>新規ファイルのタイトルを入力します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイルの変換 ]</td> 
-   <td>このオプションを有効にすると、モジュールは、 [!DNL Google] 形式</td> 
+   <td>[!UICONTROL Convert a file]</td> 
+   <td>このオプションを有効にすると、モジュールはファイルを対応する [!DNL Google] 形式に変換できます。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイルの更新]
+#### [!UICONTROL ファイルを更新]
 
 ファイルのメタデータまたはコンテンツを更新します。
 
@@ -348,49 +348,49 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 宛先 ]</td> 
+   <td>[!UICONTROL Destination]</td> 
    <td> <p>ファイルのアップロード先を選択します。</p> 
     <ul> 
-     <li>[!UICONTROL マイドライブ ]</li> 
-     <li>[!UICONTROL 自分と共有 ]</li> 
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared with Me]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL フォルダーに移動 ]</td> 
+   <td>[!UICONTROL Move to a folder]</td> 
    <td>ファイルを別のフォルダーに移動する場合は、ファイルの移動先のフォルダーを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル ID]</td> 
+   <td>[!UICONTROL File ID]</td> 
    <td>更新するファイルの ID をマッピングします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL タイトル ]</td> 
-   <td>更新したファイルのタイトルを入力します。</td> 
+   <td>[!UICONTROL Title]</td> 
+   <td>更新されたファイルのタイトルを入力します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイルコンテンツの変更 ]</td> 
+   <td>[!UICONTROL Change a file content]</td> 
    <td>ファイルのコンテンツを置き換えるかどうかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ソースファイル ]</td> 
-   <td>以前のモジュールから渡されたファイルを使用するか、手動でファイルをマッピングするかを選択します。 このフィールドは、前のフィールドでファイルの内容を変更することを選択した場合に使用できます。</td> 
+   <td>[!UICONTROL Source file]</td> 
+   <td>以前のモジュールから渡されたファイルを使用するか、ファイルを手動でマッピングするかを選択します。このフィールドは、前のフィールドでファイルの内容を変更することを選択した場合に使用できます。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル名 ]</td> 
-   <td>ファイル名を選択します。 このオプションは、[!UICONTROL ソースファイル ] フィールドで「[!UICONTROL Map]」を選択した場合に使用できます。</td> 
+   <td>[!UICONTROL File name]</td> 
+   <td>ファイル名を選択します。このオプションは、「[!UICONTROL source file]」フィールドで「[!UICONTROL Map]」を選択した場合に使用できます。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL データ ]</td> 
-   <td>アップロードするデータファイルを選択します。 このオプションは、[!UICONTROL ソースファイル ] フィールドで「[!UICONTROL Map]」を選択した場合に使用できます。</td> 
+   <td>[!UICONTROL Data]</td> 
+   <td>アップロードするデータファイルを選択します。このオプションは、「[!UICONTROL source file]」フィールドで「[!UICONTROL Map]」を選択した場合に使用できます。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイルのコピー]
+#### [!UICONTROL ファイルをコピー]
 
 ファイルを新しい場所にコピーします。
 
@@ -399,33 +399,33 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 宛先 ]</td> 
+   <td>[!UICONTROL Destination]</td> 
    <td> <p>ファイルのアップロード先を選択します。</p> 
     <ul> 
-     <li>[!UICONTROL マイドライブ ]</li> 
-     <li>[!UICONTROL 自分と共有 ]</li> 
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared with Me]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ターゲットフォルダー ]</td> 
-   <td>コピーするファイルが存在するフォルダを選択します。</td> 
+   <td>[!UICONTROL Target folder]</td> 
+   <td>コピーするファイルが存在するフォルダーを選択します</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル ID]</td> 
+   <td>[!UICONTROL File ID]</td> 
    <td>更新するファイルの ID をマッピングします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL コピーの名前 ]</td> 
-   <td>新しいファイルのタイトルを入力します。 元のファイル名を変更しない場合は、このフィールドを空白のままにします。</td> 
+   <td>[!UICONTROL The name of the copy]</td> 
+   <td>新規ファイルのタイトルを入力します。元のファイル名を変更しない場合は、このフィールドを空白のままにしておきます。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイルの削除]
+#### [!UICONTROL ファイルを削除]
 
 ファイルまたはフォルダを完全に削除します。
 
@@ -434,36 +434,36 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル ID]</td> 
+   <td>[!UICONTROL File ID]</td> 
    <td>削除するファイルの ID をマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイル/フォルダーをごみ箱に移動]
+#### [!UICONTROL ファイル／フォルダーをごみ箱に移動]
 
-ファイルまたはフォルダをごみ箱に移動します。
+ファイルまたはフォルダーをごみ箱に移動します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル ID]</td> 
-   <td>ごみ箱に移動するファイルの ID をマッピングします。</td> 
+   <td>[!UICONTROL File ID]</td> 
+   <td>ゴミ箱に移動するファイルの ID をマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイルの取得]
+#### [!UICONTROL ファイルを取得]
 
 指定された ID を持つファイルを取得します。
 
@@ -472,127 +472,127 @@ OAuth クライアントの作成 ( および [!UICONTROL クライアント ID]
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 変換 [!DNL Google Documents] 形式設定するファイル</td> 
-   <td>変換するファイル形式を選択します [!DNL Google Documents] からへ</td> 
+   <td>[!UICONTROL Convert [!DNL Google Documents] files to format]</td> 
+   <td>[!DNL Google Documents] の変換先のファイル形式を選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 変換 [!DNL Google Spreadsheets] 形式設定するファイル</td> 
-   <td>変換するファイル形式を選択します [!DNL Google Spreadsheets] からへ</td> 
+   <td>[!UICONTROL Convert [!DNL Google Spreadsheets] files to format]</td> 
+   <td>[!DNL Google Spreadsheets] の変換先のファイル形式を選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 変換 [!DNL Google Slides] 形式設定するファイル</td> 
-   <td>変換するファイル形式を選択します [!DNL Google Slides] からへ</td> 
+   <td>[!UICONTROL Convert [!DNL Google Slides] files to format]</td> 
+   <td>[!DNL Google Slides] の変換先のファイル形式を選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 変換 [!DNL Google Drawings] 形式設定するファイル</td> 
-   <td>変換するファイル形式を選択します [!DNL Google Drawings] からへ</td> 
+   <td>[!UICONTROL Convert [!DNL Google Drawings] files to format]</td> 
+   <td>[!DNL Google Drawings] の変換先のファイル形式を選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル ID]</td> 
+   <td>[!UICONTROL File ID]</td> 
    <td>取得するファイルの ID をマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイル/フォルダを検索]
+#### [!UICONTROL ファイル／フォルダを検索]
 
-検索条件に基づいてファイルまたはフォルダを検索します。
+検索条件に基づいてファイルまたはフォルダーを検索します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 宛先 ]</td> 
-   <td> <p>検索する宛先を選択します。</p> 
+   <td>[!UICONTROL Destination]</td> 
+   <td> <p>検索先を選択します。</p> 
     <ul> 
-     <li>[!UICONTROL マイドライブ ]</li> 
-     <li>[!UICONTROL 自分と共有 ]</li> 
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared with Me]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL フォルダーのリストを表示 ]</td> 
+   <td>[!UICONTROL List a folder]</td> 
    <td>ファイルまたはフォルダーを検索するフォルダーに移動します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 取得 ]</td> 
-   <td> <p> ファイル、フォルダ、またはその両方を検索するかどうかを選択します。</p> </td> 
+   <td>[!UICONTROL Retrieve]</td> 
+   <td> <p> 検索対象を、ファイル、フォルダまたはその両方から選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 検索 ]</p> </td> 
+   <td> <p>[!UICONTROL Search]</p> </td> 
    <td> <p>実行する検索のタイプを選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL ファイル名/フォルダー名内を検索 ]</strong> </p> 
+     <li> <p><strong>[!UICONTROL Search within file/folder names]</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL クエリ ]</strong> </p> <p>検索するファイル名の一部または完全なファイル名（サフィックスを含む）を入力します。</p> </li> 
-       <li> <p><strong>[!UICONTROL 検索オプション ]</strong> </p> <p>正確な語句を検索するか、検索語句を含む名前を検索するかを選択します。</p> </li> 
+       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>検索するファイル名の一部または完全なファイル名（拡張子を含む）を入力します。</p> </li> 
+       <li> <p><strong>[!UICONTROL Search Options]</strong> </p> <p>完全に一致する用語を検索するか、検索語を含む名前を検索するかを選択します。</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL フルテキスト ] 検索</strong> </p> 
+     <li> <p><strong>[!UICONTROL Fulltext]検索</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL クエリ ]</strong> </p> <p>検索したい検索語句を [!DNL Google Drive].</p> </li> 
+       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>[!DNL Google Drive] で検索する検索語を入力します。</p> </li> 
       </ul> </li> 
      <li> <p><strong>カスタム検索クエリを入力</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL クエリ ]</strong> </p> <p>カスタム検索クエリを入力します。 詳しくは、この記事の [!UICONTROL ファイルの検索 ] の節を参照してください。</p> </li> 
-       <li> <p><strong>上で選択したフォルダーをクエリに追加します。</strong> </p> <p>親コレクション内のフォルダーを検索します。 これにより、上で選択したフォルダー内にあるすべてのファイルとフォルダーが検索されます。</p> </li> 
+       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>カスタム検索クエリを入力します。詳しくは、この記事の[!UICONTROL Search for Files]の節を参照してください。</p> </li> 
+       <li> <p><strong>上記で選択したフォルダをクエリに追加</strong> </p> <p>親コレクション内のフォルダーを検索します。これにより、上記で選択したフォルダー内にあるすべてのファイルとフォルダーが検索されます。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 返される結果の最大数 ]</td> 
-   <td>ファイルまたはフォルダーの最大数を設定 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</td> 
+   <td>[!UICONTROL Maximum number of returned results]</td> 
+   <td>[!DNL Workfront Fusion] の 1 回の実行サイクルで返されるファイルまたはフォルダーの最大数を設定します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL モジュールが結果を返さない場合でも、ルートの実行を続行します ]</td> 
+   <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
    <td>モジュールが結果を返さない場合にシナリオが停止しないようにするには、このオプションを有効にします。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL フォルダーの作成]
+#### [!UICONTROL フォルダーを作成]
 
-指定された場所にフォルダを作成します。
+指定された場所にフォルダーを作成します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 宛先 ]</td> 
+   <td>[!UICONTROL Destination]</td> 
    <td> <p>ファイルのアップロード先を選択します。</p> 
     <ul> 
-     <li>[!UICONTROL マイドライブ ]</li> 
-     <li>[!UICONTROL 自分と共有 ]</li> 
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared with Me]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 新しいフォルダーの場所 ]</td> 
-   <td>新しいフォルダーを作成する場所に移動します。</td> 
+   <td>[!UICONTROL New folder location]</td> 
+   <td>新規フォルダーを作成する場所に移動します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 新しいフォルダーの名前 ]</td> 
-   <td>作成するフォルダの名前を入力します。</td> 
+   <td>[!UICONTROL The name of the new folder]</td> 
+   <td>作成するフォルダーの名前を入力します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL フォルダーを共有 ]</td> 
-   <td>[!UICONTROL 共有 ] リンクを使用しているすべてのユーザーとフォルダーを共有する場合は、このオプションを選択します。 そうしないと、共有リンクは所有者専用になります。</td> 
+   <td>[!UICONTROL Share folder]</td> 
+   <td>[!UICONTROL Share]リンクを使用してこのフォルダーを他のユーザーと共有する場合は、このオプションを選択します。選択しない場合、共有リンクを使用できるのは所有者のみになります。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 共有リンクを取得]
+#### [!UICONTROL 共有リンクの取得]
 
 Google Drive 内のファイルの共有リンクを取得します。
 
@@ -601,36 +601,36 @@ Google Drive 内のファイルの共有リンクを取得します。
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL 接続 ] </td> 
-   <td> <p>接続方法 [!DNL Google Drive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">接続中 [!DNL Google Drive] から [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] への [!DNL Google Drive] の接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ファイル ID]</td> 
-   <td>共有リンクを取得するファイルの ID をマッピングします。</td> 
+   <td>[!UICONTROL File ID]</td> 
+   <td>取得する共有リンクの対象ファイルの ID をマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## トラブルシューティング
 
-### ファイルをアップロードまたは更新できません
+### ファイルをアップロードまたは更新できない
 
 ファイルのアップロードまたは更新に失敗する状況はいくつかあります。
 
-* アップロードされたファイルが大きすぎて、ファイルサイズの上限を超えています [!DNL Google Drive] プランを作成するか、 [!DNL Google Drive] ストレージの制限。 ストレージプランをアップグレードするか、 [!DNL Google Drive] サービス。
-* ファイルのアップロード先として選択したフォルダは存在しません。 シナリオが停止し、ターゲットフォルダーを再度選択する必要があります。
+* アップロードされたファイルが大きすぎて、[!DNL Google Drive] プランで許可されている最大ファイルサイズ制限を超えているか、[!DNL Google Drive] のストレージ制限を超えています。ストレージプランをアップグレードするか、[!DNL Google Drive] サービスから既存のファイルを削除することができます。
+* ファイルのアップロード先として選択したフォルダーが存在しません。シナリオが停止するので、ターゲットフォルダーを再度選択する必要があります。
 
-## ファイルを検索
+## ファイルの検索
 
-フォルダー内のモジュールリストファイルでは、次の部分で構成される独自のクエリを使用できます。
+フォルダーの「ファイルのリスト」モジュールでは、次の要素で構成される独自のクエリを使用できます。
 
-* **[!UICONTROL フィールド]**  — 検索するファイルの属性（例：属性） `name` ファイルの。
+* **[!UICONTROL フィールド]** - 検索するファイルの属性（例：ファイルの `name` 属性）。
 
-* **[!UICONTROL 演算子]**  — 一致を提供するためにデータに対して実行されるテスト（例： ） `contains`.
+* **[!UICONTROL 演算子]** - 照合するためにデータに対して実行されるテスト（例：`contains`）。
 
-* **[!UICONTROL 値]**  — テストする属性の内容（ファイル名など） `My cool document`.
+* **[!UICONTROL 値]** - テストされる属性の内容（例：ファイル名 `My cool document`）
 
-句と接続詞の結合 `and` または `or`をクリックし、 `not`.
+接続詞「`and`」または「`or`」で句を結合したり、「`not`」でクエリを否定したりできます。
 
 * [フィールド](#fields)
 * [値のタイプ](#value-types)
@@ -656,50 +656,50 @@ Google Drive 内のファイルの共有リンクを取得します。
   <tr> 
    <td><code>[!UICONTROL title]</code></td> 
    <td>文字列</td> 
-   <td><code>contains</code><sup>1</sup>, <code>=</code>, <code>!=</code></td> 
-   <td> <p> ファイルの名前。</p> </td> 
+   <td><code>contains</code><sup>1</sup>、<code>=</code>、 <code>!=</code></td> 
+   <td> <p> ファイルの名前</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL fullText]</code> </td> 
    <td>文字列 </td> 
-   <td><code>contains</code><sup>2, 3</sup> </td> 
-   <td> <p> 名前、説明、コンテンツ、インデックス付け可能なテキストを含む、ファイルの全文。</p> </td> 
+   <td><code>contains</code><sup>2、3</sup> </td> 
+   <td> <p> ファイルのテキスト全体（名前、説明、内容、インデックス付け可能なテキストなどを含む）。</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL mimeType]</code> </td> 
    <td> 文字列</td> 
-   <td><code>contains</code>, <code>=</code>, <code>!=</code></td> 
-   <td> <p> ファイルの MIME タイプ。</p> </td> 
+   <td><code>contains</code>、<code>=</code>、 <code>!=</code></td> 
+   <td> <p> ファイルの MIME タイプ</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL modifiedDate]</code> </td> 
    <td> 日付<sup>4</sup></td> 
-   <td><code> &lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
+   <td><code> &lt;=</code>、<code>&lt;</code>、<code>=</code>、<code>!=</code>、<code>></code>、 <code>>=</code></td> 
    <td> <p> ファイルが最後に変更された日付。</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL lastViewedByMeDate]</code> </td> 
-   <td> 日付<sup>4</sup></td> 
+   <td> date<sup>4</sup></td> 
    <td><code>&lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
    <td> <p> ユーザーが最後にファイルを表示した日付。</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL trashed]</code></td> 
-   <td>ブール型 </td> 
+   <td>ブール値 </td> 
    <td><code>=</code>, <code>!=</code></td> 
    <td> <p> ファイルがごみ箱に入っているかどうか。</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL starred]</code></td> 
-   <td>ブール型 </td> 
+   <td>ブール値 </td> 
    <td><code>=</code>, <code>!=</code></td> 
-   <td> <p>ファイルがスターリングされているかどうか。</p> </td> 
+   <td> <p>ファイルがスター付きかどうか。</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL parents]</code></td> 
    <td>コレクション </td> 
    <td><code>in </code> </td> 
-   <td> <p>[!UICONTROL parents] コレクションに指定した ID が含まれているかどうかを示します。</p> </td> 
+   <td> <p>[!UICONTROL parents]コレクションに指定した ID が含まれているかどうか。</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL owners]</code></td> 
@@ -721,7 +721,7 @@ Google Drive 内のファイルの共有リンクを取得します。
   </tr> 
   <tr> 
    <td><code>[!UICONTROL sharedWithMe]</code> </td> 
-   <td>ブール型 </td> 
+   <td>ブール値 </td> 
    <td><code>=</code>, <code>!=</code></td> 
    <td> <p> ユーザーの「自分と共有」コレクションにあるファイル。</p> </td> 
   </tr> 
@@ -736,21 +736,21 @@ Google Drive 内のファイルの共有リンクを取得します。
 
 これらのフィールドの演算子について、次の点を考慮してください。
 
-* この `contains` 演算子は、 `title`.
+* `contains` 演算子は、`title` に対する接頭辞一致検索のみを実行します。
 
-  例えば、「HelloWorld」というタイトルは、 `title contains 'Hello'` しかし、 `title contains 'World'`.
+  例えば、「HelloWorld」というタイトルは、`title contains 'Hello'` に一致しますが、`title contains 'World'` には一致しません。
 
-* この `contains` 演算子は、次の文字列トークン全体に対してのみ一致を実行します： `fullText`.
+* `contains` 演算子は、`fullText` 文字列トークン全体に対してのみ一致検索を実行します。
 
-  例えば、ドキュメントの全文に「HelloWorld」という文字列が含まれている場合、クエリは `fullText contains 'HelloWorld'` 結果を返します。 クエリ： `fullText contains 'Hello'` このシナリオでは、の結果は返されません。
+  例えば、ドキュメントの全文に「HelloWorld」という文字列が含まれている場合、クエリ `fullText contains 'HelloWorld'` のみが結果を返します。このシナリオでは、クエリ `fullText contains 'Hello'` は結果を返しません。
 
-* この `contains` 演算子が二重引用符で囲まれている場合、英数字と完全に一致するフレーズが見つかります。
+* `contains` 演算子は、二重引用符で囲まれた英数字句と完全一致します。
 
-  例えば、 `fullText` ドキュメントの「Hello there world」という文字列を含む場合、 `fullText contains '"Hello there"'` は結果を返しますが、クエリは `fullText contains '"Hello world"'` は実行しません。
+  例えば、ドキュメントの `fullText` が「Hello there world」という文字列を含む場合、クエリ `fullText contains '"Hello there"'` は結果を返しますが、クエリは `fullText contains '"Hello world"'` は結果を返しません。
 
-  さらに、検索が英数字なので、 `fullText` ドキュメントに「Hello_world」という文字列が含まれている場合、 `fullText contains '"Hello world"'` 結果を返します。
+  さらに、検索は英数字なので、ドキュメントの `fullText` に「Hello_world」という文字列が含まれている場合、クエリ `fullText contains '"Hello world"'` は結果を返します。
 
-* のフィールド `type` 現在、日付は一定の日付にのみ相当し、互いに比較することはできません。
+* `type`が日付のフィールドは現在、互いに比較することはできず、定数の日付とのみ比較できます。
 
 ### 値のタイプ
 
@@ -765,16 +765,16 @@ Google Drive 内のファイルの共有リンクを取得します。
  </thead> 
  <tbody> 
   <tr> 
-   <td>String </td> 
-   <td> <p>一重引用符で囲みます。 次を使用したクエリで一重引用符をエスケープ <code>\'</code>例：<code> 'Valentine\'s Day'</code>.</p> </td> 
+   <td>文字列 </td> 
+   <td> <p>一重引用符 ’ で囲みます。クエリ内の一重引用符は <code>\'</code> でエスケープします、例：<code> 'Valentine\'s Day'</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>ブール値 </td> 
-   <td> <p><code>true </code>または <code>false</code>.</p> </td> 
+   <td> <p><code>true </code>または <code>false</code></p> </td> 
   </tr> 
   <tr> 
    <td>日付 </td> 
-   <td> <p>RFC 3339 形式。デフォルトタイムゾーンは UTC です ( 例： <code>2012-06-04T12:00:00-08:00</code>.</p> </td> 
+   <td> <p>RFC 3339 形式。デフォルトタイムゾーンは UTC です。例：<code>2012-06-04T12:00:00-08:00</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -797,7 +797,7 @@ Google Drive 内のファイルの共有リンクを取得します。
   </tr> 
   <tr> 
    <td><code>=</code> </td> 
-   <td> <p> 文字列またはブール値の内容が他の内容と等しい。</p> </td> 
+   <td> <p> 文字列またはブール値の内容が他の内容と同じです。</p> </td> 
   </tr> 
   <tr> 
    <td><code>!=</code> </td> 
@@ -817,11 +817,11 @@ Google Drive 内のファイルの共有リンクを取得します。
   </tr> 
   <tr> 
    <td><code>>=</code> </td> 
-   <td> <p> 日付が別の日付以降です。</p> </td> 
+   <td> <p> 日付が他の日付より後か等しいです。</p> </td> 
   </tr> 
   <tr> 
    <td><code>in </code> </td> 
-   <td> <p>要素は、コレクション内に含まれます。</p> </td> 
+   <td> <p>要素がコレクション内に含まれます。</p> </td> 
   </tr> 
   <tr> 
    <td><code>and </code> </td> 
@@ -829,7 +829,7 @@ Google Drive 内のファイルの共有リンクを取得します。
   </tr> 
   <tr> 
    <td><code>or </code> </td> 
-   <td> <p>どちらの句にも一致するファイルを返します。</p> </td> 
+   <td> <p>どちらかの句に一致するファイルを返します。</p> </td> 
   </tr> 
   <tr> 
    <td><code>not </code> </td> 
@@ -842,46 +842,46 @@ Google Drive 内のファイルの共有リンクを取得します。
  </tbody> 
 </table>
 
-複合句の場合は、括弧を使用して句をグループ化できます。 例：
-`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` この検索では、2012 年 6 月 4 日以降に最終変更された画像またはビデオの MIME タイプを持つすべてのファイルが返されます。 理由： `and` および `or` 演算子は、括弧なしで左から右に評価されます。上記の例では、2012 年 6 月 4 日より後に変更された画像のみが返されますが、2012 年 6 月 4 日より前の画像も含め、すべてのビデオが返されます。
+複合句の場合は、括弧を使用して句をグループ化できます。例：
+`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` この検索では、2012年6月4日（PT）以降に最終変更された画像またはビデオのうち、MIME タイプを持つすべてのファイルが返されます。`and` 演算子と `or` 演算子は括弧なしで左から右に評価されるため、上記の例では、画像に関しては、2012年6月4日（PT）以降に変更された画像のみが返されますが、ビデオに関しては、2012年6月4日（PT）より前のビデオも含めすべてのビデオが返されます。
 
 ### 例
 
-このページのすべての例では、エンコードされていない `<q>q</q>` パラメータ `title = 'hello'` は次のようにエンコードされます： `title+%3d+%27hello%27`. クライアントライブラリは、このエンコーディングを自動的に処理します。
+このページのすべての例は、エンコードされていない `<q>q</q>` パラメーターを示しています。`title = 'hello'` は `title+%3d+%27hello%27` としてエンコードされています。クライアントライブラリは、このエンコーディングを自動的に処理します。
 
-* 「hello」という名前のファイルを検索します。
+* 「hello」という名前のファイルを検索する
   <pre>title = 'hello'</pre>
-* フォルダー固有の MIME タイプを使用したフォルダーの検索
+* フォルダー固有の MIME タイプを使用したフォルダーを検索する
   <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
-* フォルダー以外のファイルを検索
+* フォルダー以外のファイルを検索する
   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
-* 「hello」と「goodbye」という単語を含む名前のファイルを検索します。
-  <pre>タイトルに「hello」が含まれ、[!UICONTROL name] に「goodbye」が含まれています</pre>
-* 「hello」という語を含まない名前のファイルを検索します。
-  <pre>タイトルに「hello」が含まれていません</pre>
-* コンテンツ内に「hello」という単語を含むファイルを検索します
-  <pre>fullText に「hello」が含まれています</pre>
-* コンテンツ内に「hello」という語を含まないファイルを検索します。
-  <pre>fullText に「hello」が含まれていません</pre>
-* コンテンツ内に「hello world」という完全なフレーズを含むファイルを検索します。
-  <pre>fullText には「"hello world"」が含まれます。「fullText には「"hello_world"」が含まれます</pre>
-* クエリに「\」文字を含むファイルを検索します（例：「\authors」）。
-  <pre>fullText には「\\authors」が含まれます</pre>
-* ユーザー「test@example.org」が書き込み可能なファイルを検索します
-  <pre>test@example.org [!DNL writers]</pre>
-* ID を検索します。 `1234567` 内 `parents` コレクション。 これにより、ID がのフォルダー内に直接存在するすべてのファイルとフォルダーを検索します `1234567`.
-  <pre>[!UICONTROL 親 ] の「1234567」</pre>
-* エイリアス ID を検索します。 `appDataFolder` 内 `parents` コレクション。 これにより、 [アプリケーションデータフォルダー](https://developers.google.com/drive/api/v2/appdata).
-  <pre>親の「appDataFolder」</pre>
-* ユーザー「test@example.org」と「test2@example.org」が書き込み可能なファイルを検索
-  <pre>ライターでは「test@example.org」、ライターでは「test2@example.org」</pre>
-* ごみ箱に入っている「重要」というテキストを含むファイルを検索します
-  <pre>fullText は、「important」を含み、trashed = true を含みます</pre>
-* 2012 年 6 月 4 日以降に変更されたファイルを検索
-  <pre>modifiedDate &gt; '2012-06-04T12:00:00' //デフォルトタイムゾーンは UTC です</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
-* 名前に「hello」を含む、認証済みユーザーと共有されているファイルを検索します
-  <pre>sharedWithMe とタイトルに「hello」が含まれている</pre>
-* を含むファイルの検索 [カスタムファイルプロパティ](https://developers.google.com/drive/api/v2/properties) 名前付き `additionalID` 値 `8e8aceg2af2ge72e78`.
-  <pre>プロパティには、{ key='additionalID'および value='8e8aceg2af2ge72e78'および visibility='PRIVATE' } が含まれます</pre>
+* 「hello」と「goodbye」という単語を含む名前のファイルを検索する
+  <pre>title contains 'hello' and [!UICONTROL name] contains 'goodbye'</pre>
+* 「hello」という語を含まない名前のファイルを検索する
+  <pre>not title contains 'hello'</pre>
+* コンテンツ内に「hello」という単語を含むファイルを検索する
+  <pre>fullText contains 'hello'</pre>
+* コンテンツ内に「hello」という単語を含まないファイルを検索する
+  <pre>not fullText contains 'hello'</pre>
+* コンテンツ内に「hello world」という完全なフレーズを含むファイルを検索する
+  <pre>fullText contains '"hello world"'fullText contains '"hello_world"'</pre>
+* クエリに「\」文字を含むファイルを検索する（例：「\authors」）
+  <pre>fullText contains '\\authors'</pre>
+* ユーザー「test@example.org」が書き込み可能なファイルを検索する
+  <pre>'test@example.org' in [!DNL writers]</pre>
+* `parents` コレクションで ID `1234567` を検索する。これにより、ID が `1234567` のフォルダーの直下にあるすべてのファイルとフォルダーを検索されます。
+  <pre>'1234567' in [!UICONTROL parents]</pre>
+* `parents` コレクションでエイリアス ID `appDataFolder` を検索する。これにより、[Application Data フォルダー](https://developers.google.com/drive/api/v2/appdata)の直下にあるすべてのファイルとフォルダーが検索されます。
+  <pre>'appDataFolder' in parents</pre>
+* ユーザー「test@example.org」と「test2@example.org」が書き込み可能なファイルを検索する
+  <pre>'test@example.org' in writers and 'test2@example.org' in writers</pre>
+* ごみ箱に入っている、「important」というテキストを含むファイルを検索する
+  <pre>fullText contains 'important' and trashed = true</pre>
+* 2012年6月4日（PT）以降に変更されたファイルを検索する
+  <pre>modifiedDate &gt; '2012-06-04T12:00:00' //デフォルトタイムゾーンは UTC©</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
+* 名前に「hello」を含む、認証済みユーザーと共有されているファイルを検索する
+  <pre>sharedWithMe and title contains 'hello'</pre>
+* 値 `8e8aceg2af2ge72e78` を含む `additionalID` という名前の[カスタムファイルプロパティ](https://developers.google.com/drive/api/v2/properties)を持つファイルを検索する
+  <pre>properties has { key='additionalID' and value='8e8aceg2af2ge72e78' and visibility='PRIVATE' }</pre>
 
-このガイドのソースは、 [[!DNL Google Drive] ドキュメント](https://developers.google.com/drive/api/v2/search-shareddrives).
+このガイドの出典は、[[!DNL Google Drive]  ドキュメント](https://developers.google.com/drive/api/v2/search-shareddrives)です。
