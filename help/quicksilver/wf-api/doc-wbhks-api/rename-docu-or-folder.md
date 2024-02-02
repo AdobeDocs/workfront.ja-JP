@@ -2,41 +2,41 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: ドキュメントまたはフォルダーの名前を変更する（まだ実装されていません）
-description: ドキュメントまたはフォルダの名前を変更する
+title: ドキュメントまたはフォルダーの名前の変更（まだ実装されていません）
+description: ドキュメントまたはフォルダーの名前変更
 author: Becky
 feature: Workfront API, Digital Content and Documents
 role: Developer
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 4%
+workflow-type: ht
+source-wordcount: '78'
+ht-degree: 100%
 
 ---
 
 
-# ドキュメントまたはフォルダーの名前を変更する（まだ実装されていません）
+# ドキュメントまたはフォルダーの名前の変更（まだ実装されていません）
 
-外部システムで指定した ID を持つドキュメントまたはフォルダの名前を変更します。
+外部システム内の指定された ID を持つドキュメントやフォルダーの名前を変更します。
 
 **URL**
 
-PUT/rename
+PUT /rename
 
 ## クエリパラメーター
 
 | 名前  | 説明 |
 |---|---|
-| id | 名前を変更するドキュメントまたはフォルダー ID |
-| name  | ドキュメントまたはフォルダの新しい名前 |
+| id | 名前を変更するドキュメントまたはフォルダーの ID |
+| 名前  | ドキュメントまたはフォルダーの新しい名前 |
 
 
 ## 応答
 
-以下のエラー処理の節で指定された、成功または失敗を示す JSON 文字列。
+成功または失敗を示す JSON 文字列（この後の「エラー処理」の節を参照）。
 
-**例：** PUThttps://www.acme.com/api/rename
+**例：** PUT https://www.acme.com/api/rename
 
 ```
 -------------------------------
