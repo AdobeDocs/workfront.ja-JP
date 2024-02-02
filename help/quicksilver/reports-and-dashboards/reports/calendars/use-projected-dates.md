@@ -1,24 +1,24 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: カレンダーレポートでの推定日の使用
-description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 タスク、タスクおよびプロジェクトに関するカレンダーレポートで、[ 予定日 ] フィールドを使用できます。
+title: カレンダーレポートでの見込日の使用
+description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。「見込日」フィールドは、タスク、イシューおよびプロジェクトに関するカレンダーレポートで使用できます。
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
 source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# 用途 [!UICONTROL 推定日] カレンダーレポート内
+# カレンダーレポートでの[!UICONTROL 見込日]の使用
 
-カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。 次のオブジェクトに対して、カレンダ・レポートで「予定日」フィールドを使用できます。
+カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。次のオブジェクトに対して、カレンダーレポートで「見込日」フィールドを使用できます。
 
 * タスク
-* 問題
+* イシュー
 * プロジェクト
 
 ## アクセス要件
@@ -37,36 +37,36 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL プラン ] </p> </td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL ][!UICONTROL レポート ]、[!UICONTROL ダッシュボード ] および [!UICONTROL カレンダー ] へのアクセス権の編集</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL ][!UICONTROL Reports]、[!UICONTROL Dashboards]、[!UICONTROL Calendars]に対するアクセス権を編集</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>カレンダーレポートへの [!UICONTROL 管理 ] アクセス</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>カレンダーレポートに対する [!UICONTROL Manage] 権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 項目のグループを設定
 
 カレンダーに表示する項目のグループの表示方法を選択できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **[!UICONTROL カレンダー]**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**[!UICONTROL カレンダー]**」をクリックします。
 
 1. 新しい項目のグループを追加するカレンダーを選択します。\
    または\
-   クリック **[!UICONTROL +新しいカレンダー]** カレンダー名を入力します。
+   「**[!UICONTROL + 新規カレンダー]**」をクリックし、カレンダー名を入力します。
 
    >[!NOTE]
    >
-   >必ず [!UICONTROL 編集] ～へのアクセス [!UICONTROL レポート], [!UICONTROL ダッシュボード]、および [!UICONTROL カレンダー] をクリックし、カレンダーレポートを作成します。
+   >カレンダーレポートを作成するには、アクセスレベルで[!UICONTROL レポート]、[!UICONTROL ダッシュボード]、[!UICONTROL カレンダー]への[!UICONTROL 編集]アクセスが必要です。
 
-1. 左側で、 **[!UICONTROL カレンダーに追加]**&#x200B;を選択し、「 **[!UICONTROL 詳細項目の追加]**.
+1. 左側で、「**[!UICONTROL カレンダーに追加]**」をクリックし、「**[!UICONTROL 詳細項目を追加]**」をクリックします。
 
 1. 以下を指定します。
 
@@ -75,68 +75,68 @@ ht-degree: 1%
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL この項目グループに名前を付ける ]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Name this group of items]</strong></td>
       <td>項目のグループの名前を入力します。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL カラー ]</strong></td>
-      <td>項目のグループの色を選択します。 すべての項目が、選択した色でカレンダーレポートに表示されます。</td>
+      <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
+      <td>項目のグループの色を選択します。カレンダーレポートには、すべての項目が選択した色で表示されます。</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL 日付フィールド ]</strong></td>
-      <td><p>選択 <strong>[!UICONTROL 推定日 ]</strong>. 予定日について詳しくは、 </p>
+      <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
+      <td><p><strong>[!UICONTROL Projected dates]</strong> を選択します。見込日について詳しくは、次を参照してください： </p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">プロジェクトの概要予定開始日</a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">プロジェクト、タスクおよび問題に関する予定完了日の概要</a><br></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-start-date.md" class="MCXref xref">プロジェクトの見込み開始日の概要</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">プロジェクト、タスクおよびイシューに関する見込み完了日の概要</a><br></li>
        </ul></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL カレンダーで表示 ]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL On the calendar, show]</strong></td>
       <td><p>日付の表示方法を選択します。</p>
        <ul>
-        <li><strong>[!UICONTROL 開始日のみ ]</strong>:カレンダーには、1 つの日付にオブジェクトが表示されます。</li>
-        <li><strong>[!UICONTROL 終了日のみ ]</strong>:カレンダーには、1 つの日付にオブジェクトが表示されます。</li>
-        <li><strong>[!UICONTROL 期間 ] （開始から終了）</strong>:カレンダーには、一定期間のオブジェクトが表示されます。</li>
+        <li><strong>[!UICONTROL Start Date Only]</strong>：カレンダーには単一の日付のオブジェクトが表示されます。</li>
+        <li><strong>[!UICONTROL End Date Only]</strong>：カレンダーには単一の日付のオブジェクトが表示されます。</li>
+        <li><strong>[!UICONTROL Duration] (Start to End)</strong>：カレンダーには、数日間にわたるオブジェクトが表示されます。</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
-      <td role="rowheader"><strong>[!UICONTROL 実際の日付に切り替え（可能な場合）]</strong></td>
-      <td><p>カレンダーは、利用可能な場合は自動的に実際の日付に切り替わります。 <br>選択 <strong>[!UICONTROL はい ]</strong> または <strong>[!UICONTROL いいえ ]</strong> をクリックして、実際の日付に切り替えます。 実際の日付について詳しくは、</p>
+      <td role="rowheader"><strong>[!UICONTROL Switch to Actual Dates when available]</strong></td>
+      <td><p>カレンダーは、利用可能になると自動的に実際の日付に切り替わります。<br><strong>[!UICONTROL Yes]</strong> または <strong>[!UICONTROL No]</strong> を選択して、実際の日付に切り替えます（利用可能な場合）。実際の日付について詳しくは、次を参照してください：</p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">プロジェクトの概要実績開始日 </a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">プロジェクトの概要実績完了日 </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">プロジェクトの実際の開始日の概要 </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">プロジェクトの実際の完了日の概要 </a></li>
        </ul></td>
      </tr>
     </tbody>
    </table>
 
-1. 次の節に進みます。
+1. 次のセクションに進みます。
 
-## オブジェクトを項目のグループに追加
+## 項目のグループにオブジェクトを追加
 
-アイテムの表示方法を設定した後、カレンダーに表示するオブジェクトをグループ化に追加する必要があります。
+項目の表示方法を設定した後、カレンダーに表示するオブジェクトをグループに追加する必要があります。
 
-1. 内 **[!UICONTROL カレンダーに追加する項目を選択してください。]** セクション、選択
+1. **[!UICONTROL カレンダーに何を追加しますか？]** セクション、選択
 
    * **[!UICONTROL タスク]**
    * **[!UICONTROL プロジェクト]**
-   * **[!UICONTROL 問題]**
+   * **[!UICONTROL イシュー]**
 
-1. クリック **[!UICONTROL タスクを追加]**, **[!UICONTROL プロジェクトを追加]**&#x200B;または **[!UICONTROL 問題の追加]**（カレンダーに追加するオブジェクトタイプに応じて）\
+1. カレンダーに追加するオブジェクトタイプに応じて、「**[!UICONTROL タスクを追加]**」、「**[!UICONTROL プロジェクトを追加]**」または「**[!UICONTROL イシューを追加]**」をクリックします。\
    ![カレンダーのオブジェクトを選択](assets/field-name.png)
 
-1. ドロップダウンメニューで、フィールド名を入力し、カレンダーに表示するオブジェクトのフィールドソースを選択します ( 例： **[!UICONTROL 遅延タスク]**) をクリックします。
+1. ドロップダウンメニューで、フィールド名を入力し、カレンダーに表示するオブジェクトのフィールドソース（例えば、**[!UICONTROL 遅延タスク]**）を選択します。
 1. カレンダーのグループ化の条件文を設定します。
 
    ![条件文](assets/condition-statement-calendar.png)
 
-   条件の設定について詳しくは、 [フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   条件の設定については、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
 
-1. （オプション）手順 1 ～ 4 を繰り返して、カレンダーのグループ化用の追加オブジェクトを指定します。
-1. 内 **[!UICONTROL タスク/プロジェクト/問題のラベルを次の値に設定…]** [ ] フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
+1. （オプション）手順 1 ～ 4 を繰り返して、カレンダーのグループ化に使用する追加のオブジェクトを指定します。
+1. Adobe Analytics の「**[!UICONTROL タスク/プロジェクト／イシューのラベルを次の値に設定…]**」フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
 
    >[!NOTE]
    >
-   >特定のオブジェクトに対してデフォルトのラベルオプションが使用できない場合は、代わりにオブジェクト名が表示されます。 例えば、親タスクラベルが選択され、親タスクがオブジェクトに関連付けられていない場合、 [!DNL Adobe Workfront] カレンダーに表示されているオブジェクト名が表示されます。
+   >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、親タスクラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
