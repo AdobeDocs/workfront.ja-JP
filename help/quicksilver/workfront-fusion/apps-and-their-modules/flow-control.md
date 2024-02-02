@@ -4,110 +4,110 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront Fusion でのフロー制御
-description: シナリオを作成または編集する際に、設定を構成して、シナリオ内でのデータの流れを制御できます。
+description: シナリオを作成または編集する際、シナリオ内でのデータの流れを制御する設定を行うことができます。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0f315192-c15e-48e8-a5b6-827c300f0e5c
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Adobe Workfront Fusion でのフロー制御
 
-シナリオを作成または編集する際に、設定を構成して、シナリオ内でのデータの流れを制御できます。
+シナリオを作成または編集する際、シナリオ内でのデータの流れを制御する設定を行うことができます。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランの場合、この記事で説明する機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明する機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## リピーター
 
-以下の [!UICONTROL リピーター] モジュールを使用して、指定された回数のタスクを繰り返します。 A [!UICONTROL リピーター] モジュールは、次々にバンドルを生成します。
+[!UICONTROL リピーター]モジュールを使用すると、タスクを指定した回数繰り返すことができます。[!UICONTROL リピーター]モジュールは、次々にバンドルを生成します。
 
-例えば、 [!UICONTROL リピーター] モジュールを使用して、「Hello 1」、「Hello 2」などの件名を含む 5 つの E メールを送信する場合、 **[!UICONTROL 電子メール] >[!UICONTROL メールを送信]** モジュールを [!UICONTROL リピーター] モジュール。
+例えば、[!UICONTROL リピーター]モジュールを使用して「こんにちは 1」、「こんにちは 2」などの件名のメールを 5 通送信するには、**[!UICONTROL メール]／[!UICONTROL 自分にメール]**&#x200B;モジュールを[!UICONTROL リピーター]モジュールに接続します。
 
-次の手順で [!UICONTROL リピーター] モジュール：
+[!UICONTROL リピーター]モジュールを使用するには：
 
-1. 次をクリック： [!UICONTROL フロー制御] アイコン ![](assets/flow-control-icon.gif) 画面の下部で、「 **[!UICONTROL リピーター]** をクリックします。
-1. 次をクリック： [!UICONTROL リピーター] バンドルを選択し、「 **[!UICONTROL 自動接続]** をクリックします。
-1. 内 [!UICONTROL フロー制御] 表示されるボックスに、 **[!UICONTROL 繰り返し]** ボックス
+1. 画面の下部の[!UICONTROL フロー制御]アイコン ![](assets/flow-control-icon.gif) をクリックし、表示されるメニューで「**[!UICONTROL リピーター]**」をクリックします。
+1. [!UICONTROL リピーター]バンドルをクリックし、表示されるボックスで「**[!UICONTROL 自動的に接続]**」をクリックします。
+1. 表示される[!UICONTROL フロー制御]ボックスで、**[!UICONTROL 繰り返し]**&#x200B;ボックスに必要な繰り返し（出力バンドル）の回数を入力します。
 
-   この電子メールの例では、「 5 」と入力します。
+   ここでのメールの例では、「5」と入力します。
 
    ![](assets/repeater-2-350x207.png)
 
-   項目の値は、 **[!UICONTROL 手順]** 「 」フィールドを選択します。このフィールドは、「 **[!UICONTROL 詳細設定を表示]**. この数値はデフォルトで 1 です。
+   アイテムの値は、繰り返されるごとに、**[!UICONTROL ステップ]**&#x200B;フィールドで指定したこの数ずつ増加します。この値は、**[!UICONTROL 詳細設定を表示]**&#x200B;を選択すると表示できます。この数値は、デフォルトでは 1 です。
 
-1. クリック **[!UICONTROL OK]** 閉じる **[!UICONTROL フロー制御]** ボックス
+1. 「**[!UICONTROL OK]**」をクリックして、**[!UICONTROL フロー制御]**&#x200B;ボックスを閉じます。
 
-1. 次に接続されているアプリまたはサービスモジュールをクリックします： [!UICONTROL リピーター] モジュール。
+1. [!UICONTROL リピーター]モジュールに接続されているアプリまたはサービスモジュールをクリックします。
 1. 表示されるボックスに、繰り返す情報を入力します。
 
-   この電子メールの例では、「Hello」と入力して、 [!UICONTROL 件名] ボックス、次にマップ `i` をリピータモジュールから。
+   ここでのメールの例では、[!UICONTROL 件名]ボックスに「こんにちは」と入力し、リピーターモジュールから `i` をマッピングします。
 
    ![](assets/repeater-3-350x207.png)
 
-| アイテム | 説明 |
+| 項目 | 説明 |
 |---|---|
-| [!UICONTROL 初期値] | モジュールを設定する番号を入力またはマッピングします `i` 最初の反復で デフォルト値は 1 です。 |
-| [!UICONTROL 繰り返し] | モジュールの繰り返し回数を入力またはマッピングします。 この数は、0 以上 10,000 以下である必要があります。 |
-| [!UICONTROL ステップ] | これは、モジュールが `i`. デフォルト値は 1 です。 |
+| [!UICONTROL 初期値] | 最初の繰り返しでモジュールが `i` として設定する数値を入力またはマッピングします。デフォルト値は 1 です。 |
+| [!UICONTROL 繰り返し] | モジュールが繰り返す回数を入力またはマッピングします。この数は、0 以上 10,000 以下である必要があります。 |
+| [!UICONTROL ステップ] | モジュールは、`i` の値を、この数だけ増分します。デフォルト値は 1 です。 |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->繰り返しの数は `i`プログラミングではループになるように このモジュールは、 [!UICONTROL 繰り返し] フィールドに入力します。 値 `i` の各反復で変更 [!DNL repeater] モジュールに追加し、後のモジュールにマッピングできます。 上記の例では、 `i` 「Hello」メッセージに入力すると、「Hello 1」、「Hello 2」などのメッセージが表示されます。
+>繰り返し回数は、プログラミングのループとは異なり、`i` の値によって決まるわけではありません。モジュールは、[!UICONTROL 繰り返し]フィールドに指定された回数だけ繰り返します。値 `i` は [!DNL repeater] モジュールのイテレーションごとに変化し、後のモジュールにマッピングできます。ここでの例では、`i` の値を「こんにちは」メッセージにマッピングすると、「こんにちは 1」、「こんにちは 2」などのメッセージが表示されます。
 
-## [!UICONTROL 反復子]
+## [!UICONTROL イテレーター]
 
-An [!UICONTROL 反復子] は、配列を一連のバンドルに変換する特殊なタイプのモジュールです。 各配列項目は、 [!UICONTROL 反復子] モジュール出力。 詳しくは、 [[!UICONTROL 反復子] モジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+[!UICONTROL イテレーター]は、配列を一連のバンドルに変換する特別なタイプのモジュールです。配列の各項目は、[!UICONTROL イテレーター]モジュールの出力では個別のバンドルになります。詳しくは、[[!UICONTROL  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) のイテレーター]モジュールを参照してください。
 
-## 配列の集約
+## 配列アグリゲーター
 
-配列集約は、複数のバンドルを 1 つのバンドルに結合できる特殊なタイプのモジュールです。 詳しくは、 [[!UICONTROL 集約] Adobe Workfront Fusion のモジュール](../../workfront-fusion/modules/aggregator-module.md).
+配列アグリゲーターは、複数のバンドルを 1 つのバンドルに結合できる特別なタイプのモジュールです。詳しくは、[[!UICONTROL Adobe Workfront Fusion のアグリゲーター]モジュール](../../workfront-fusion/modules/aggregator-module.md)を参照してください。
 
-## [!UICONTROL 発送担当]
+## [!UICONTROL ルーター]
 
-この [!UICONTROL 発送担当] モジュールを使用すると、フローを複数のルートに分岐し、各ルート内のデータを別々に処理できます。 1 回： [!UICONTROL 発送担当] モジュールはバンドルを受け取り、ルートが [!UICONTROL 発送担当] モジュール。 詳しくは、 [のルーターモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+[!UICONTROL ルーター]モジュールを使用すると、フローを複数のルートに分岐し、データを各ルートで別々に処理できます。[!UICONTROL ルーター]モジュールはバンドルを受け取ると、ルートが[!UICONTROL ルーター]モジュールに接続された順序で、接続されている各ルートにバンドルを転送します。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md) のルーターモジュールを参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
