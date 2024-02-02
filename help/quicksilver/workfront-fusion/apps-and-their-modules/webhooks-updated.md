@@ -3,89 +3,89 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Webhook
-description: Webhook は、イベントによってトリガーされる HTTP 呼び出しです。 Web フックを使用して、インスタントトリガーモジュールを有効にできます。 インターネットに接続され、HTTP リクエストを許可するアプリケーションは、Adobe Workfront Fusion に Web フックを送信できます。
+title: Web フック
+description: Web フックは、イベントによってトリガーされる HTTP 呼び出しです。Web フックを使用して、インスタントトリガーモジュールをアクティベートできます。インターネットに接続しており、HTTP リクエストを許可するアプリケーションは、Adobe Workfront Fusion に web フックを送信できます。
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1437'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Webhook
+# Web フック
 
-Webhook は、イベントによってトリガーされる HTTP 呼び出しです。 Web フックを使用して、インスタントトリガーモジュールを有効にできます。 インターネットに接続され、HTTP リクエストを許可するアプリケーションは、Adobe Workfront Fusion に Web フックを送信できます。
+Web フックは、イベントによってトリガーされる HTTP 呼び出しです。Web フックを使用して、インスタントトリガーモジュールをアクティベートできます。インターネットに接続しており、HTTP リクエストを許可するアプリケーションは、Adobe Workfront Fusion に web フックを送信できます。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront]プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を、組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront]プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-&#42;&#42;詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## でのウェブフックの使用 [!DNL Workfront Fusion]
-
->[!NOTE]
->
->サードパーティの Webhook（送信 Webhook）を呼び出すには、いずれかの HTTP モジュールを使用します。 詳しくは、 [HTTP モジュール](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
-
-Webhook を使用してアプリを接続するには [!DNL Workfront Fusion]:
-
-1. を **[!UICONTROL ウェブフック]** >**[!UICONTROL カスタムウェブフック]** インスタントトリガーモジュールをシナリオに追加します。
-
-1. クリック **[!UICONTROL 追加]** 「Webhook」フィールドの横に、新しい Webhook の名前を入力します。
-1. （オプション）「 **[!UICONTROL 詳細設定]**.
-1. 内 **[!UICONTROL IP 制限]** 「 」フィールドに、モジュールがデータを受け入れる IP アドレスのコンマ区切りリストを入力します。
-1. クリック **[!UICONTROL 保存]**
-
-Webhook を作成すると、一意の URL が表示されます。 これは、Webhook がデータを送信するアドレスです。 Workfront Fusion は、このアドレスに送信されたデータを検証し、そのデータをシナリオでの処理に渡します。
+## [!DNL Workfront Fusion] で web フックを使用
 
 >[!NOTE]
 >
->Webhook を作成したら、一度に複数のシナリオで使用できます。
+>サードパーティの web フック（送信 web フック）を呼び出すには、いずれかの HTTP モジュールを使用します。詳しくは、[HTTP モジュール](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)を参照してください。
 
-### Webhook のデータ構造の設定 {#configure-the-webhook-s-data-structure}
+Web フックを使用してアプリを [!DNL Workfront Fusion] に接続するには、次の手順に従います。
 
-受信ペイロードのデータ構造を認識するには、 [!DNL Workfront Fusion] は、表示されているアドレスに送信したサンプルデータを解析します。 サンプルデータを指定するには、そのサービスまたはアプリが Webhook を呼び出すようにサービスまたはアプリを変更します。 例えば、ファイルを削除できます。
+1. **[!UICONTROL Web フック]**／**[!UICONTROL カスタム web フック]**&#x200B;インスタントトリガーモジュールを、シナリオに追加します。
 
-または、次の手順に従って、 [!UICONTROL HTTP] > [!UICONTROL リクエストを実行] モジュール。
+1. Web フックフィールドの横にある「**[!UICONTROL 追加]**」をクリックして、新規 web フックの名前を入力します。
+1. （オプション）「**[!UICONTROL 詳細設定]**」をクリックします。
+1. **[!UICONTROL IP 制限]**&#x200B;フィールドに、モジュールがデータを受け入れることができる IP アドレスのカンマ区切りのリストを入力します。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. 新しいシナリオを作成し、 **[!UICONTROL HTTP]** > **[!UICONTROL リクエストを実行]** モジュール
+Web フックを作成すると、一意の URL が表示されます。これは、web フックがデータを送信するアドレスです。Workfront Fusion は、このアドレスに送信されたデータを検証し、そのデータをシナリオでの処理に渡します。
+
+>[!NOTE]
+>
+>Web フックを作成したら、一度に複数のシナリオで使用できます。
+
+### Web フックのデータ構造を設定 {#configure-the-webhook-s-data-structure}
+
+受信ペイロードのデータ構造を認識するために、[!DNL Workfront Fusion] は、表示されているアドレスに送信するサンプルデータを解析します。サンプルデータを指定するには、そのサービスまたはアプリを変更して、サービスまたはアプリが web フックを呼び出すようにします。例えば、ファイルを削除できます。
+
+または、次の手順に従って、[!UICONTROL HTTP]／[!UICONTROL リクエストを実行]モジュールを使用してサンプルデータを送信できます。
+
+1. **[!UICONTROL HTTP]**／**[!UICONTROL リクエストを実行]**&#x200B;モジュールを使用して、新しいシナリオを作成します。
 
 1. 次の値を使用してモジュールを設定します。
 
@@ -95,60 +95,60 @@ Webhook を作成すると、一意の URL が表示されます。 これは、
     <tbody> 
      <tr> 
       <td role="rowheader"><p>[!UICONTROL URL] </p></td> 
-      <td>Webhook の URL を入力します。 この URL は、Webhook の設定に使用した [!UICONTROL Webhooks] モジュールに含まれています。</td> 
+      <td>Web フックの URL を入力します。この URL は、web フックの設定に使用した [!UICONTROL Webhooks] モジュールに含まれています。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL メソッド ] </td> 
-      <td><p>[!UICONTROLPOST]</p></td> 
+      <td role="rowheader">[!UICONTROL Method] </td> 
+      <td><p>[!UICONTROL POST]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 本文の種類 ]</td> 
+      <td role="rowheader">[!UICONTROL Body type]</td> 
       <td><p> [!UICONTROL Raw]</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL コンテンツタイプ ]</td> 
-      <td><p> JSON (application/json)</p></td> 
+      <td role="rowheader">[!UICONTROL Content type]</td> 
+      <td><p> JSON（application/json）</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL コンテンツをリクエスト ]</td> 
-      <td><p>Webhook で想定される生の JSON</p></td> 
+      <td role="rowheader">[!UICONTROL Request content]</td> 
+      <td><p>Web フックには生の JSON が必要です。</p></td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/new-scenario-set-up-like-this-350x446.png)
 
-1. でシナリオを開きます。 [!UICONTROL ウェブフック] モジュールを別のブラウザータブまたはウィンドウに追加します。
-1. Webhooks モジュールで、 **[!UICONTROL データ構造を再決定]**.
+1. 別のブラウザーのタブまたはウィンドウで、[!UICONTROL Webhooks] モジュールを使用してシナリオを開きます。
+1. Webhooks モジュールで、「**[!UICONTROL データ構造を再決定]**」をクリックします。
 
    Webhooks モジュールから他のモジュールのリンクを解除する必要はありません。
 
-1. を使用してシナリオに切り替えます。 [!UICONTROL HTTP] モジュールを開き、実行します。
+1. [!UICONTROL HTTP] モジュールを使用してシナリオに切り替え、実行します。
 1. Webhooks モジュールを使用してシナリオに戻ります。
 
-   A &quot;[!UICONTROL 正常に決定されました]「 」というメッセージは、モジュールがデータ構造を正常に決定したことを意味します。
+   「[!UICONTROL 正常に決定されました]」というメッセージは、モジュールがデータ構造を正常に決定したことを意味します。
 
    ![](assets/successfully-determined-350x175.png)
 
-1. クリック **[!UICONTROL OK]** をクリックして、データ構造を保存します。
+1. 「**[!UICONTROL OK]**」をクリックして、データ構造を保存します。
 
-   これで、Webhook の項目がマッピングパネルで使用でき、シナリオの後続モジュールで使用できます。
+   これで、web フックの項目がマッピングパネルに表示され、シナリオの後続モジュールで使用できるようになりました。
 
 ## キュー
 
-Webhook がデータを受け取り、そのデータを期待しているアクティブなシナリオがない場合、データはキューに格納されます。 シナリオをアクティブ化すると、キューで待機しているすべてのバンドルが順番に処理されます。
+Web フックがデータを受け取り、そのデータを期待するアクティブなシナリオがない場合、データはキューに格納されます。シナリオをアクティベートすると、キューで待機しているすべてのバンドルが順番に処理されます。
 
 >[!IMPORTANT]
 >
->Webhook キューは、同じ Webhook を使用するシナリオ間で共有されます。 いずれかのシナリオが無効な場合、すべての受信データはキューに保持されます。
+>Web フックのキューは、同じ web フックを使用するシナリオ間で共有されます。いずれかのシナリオが無効な場合、すべての受信データはキューに保持されます。
 
 ## サポートされる受信データ形式
 
-[!DNL Workfront Fusion] は、次の 3 つの受信データ形式をサポートします。 [!UICONTROL クエリ文字列], [!UICONTROL フォームデータ] および [!UICONTROL JSON].
+[!DNL Workfront Fusion] は、[!UICONTROL クエリ文字列]、[!UICONTROL フォームデータ]、[!UICONTROL JSON] の 3 つの受信データ形式をサポートします。
 
-[!DNL Workfront Fusion] は、選択したデータ構造に対するすべての受信データを検証します。 次に、シナリオの設定に応じて、データは処理用のキューに格納されるか、すぐに処理されます。
+[!DNL Workfront Fusion] は、選択したデータ構造に対するすべての受信データを検証します。次に、シナリオの設定に応じて、データは処理用のキューに格納されるか、すぐに処理されます。
 
-データのいずれかの部分が検証に合格しない場合、 [!DNL Workfront Fusion] 400 HTTP ステータスコードを返し、受信データが検証チェックに失敗した理由を HTTP 応答の本文に指定します。 受信データの検証が成功した場合、Workfront Fusion は「[!UICONTROL 200 受理済み]&quot;ステータス。
+データのいずれかの部分が検証に合格しない場合、[!DNL Workfront Fusion] は 400 HTTP ステータスコードを返し、HTTP 応答の本文で、受信データが検証チェックに失敗した理由を指定します。受信データの検証が成功した場合、Workfront Fusion は「[!UICONTROL 200 受理]」ステータスを返します。
 
 * [[!UICONTROL クエリ文字列]](#query-string)
 * [[!UICONTROL フォームデータ]](#form-data)
@@ -198,9 +198,9 @@ Workfront Fusion
 ---generatedboundary
 ```
 
-を使用してエンコードされたファイルを受け取るため `multipart/form-data`を使用する場合は、 `collection` 入れ子にされたフィールドを含むタイプフィールド `name`, `mime`、および `data`. フィールド `name` は `text` 「 」と入力し、アップロードしたファイルの名前を格納します。 この `mime` は `text` 「 」と入力し、MIME 形式のファイルを含めます。 フィールド `data` は `buffer` タイプで、転送するファイルのバイナリデータが含まれます。
+`multipart/form-data` でエンコードされたファイルを受信するには、ネストされたフィールド `name`、`mime`、`data` を含む `collection` タイプのフィールドを使用してデータ構造を設定する必要があります。フィールド `name` は `text` タイプで、アップロードされたファイルの名前が含まれます。`mime` は `text` タイプで、MIME 形式のファイルが含まれます。フィールド `data` は `buffer` タイプで、転送中のファイルのバイナリデータが含まれます。
 
-MIME 形式について詳しくは、 [MIME モジュール](../../workfront-fusion/apps-and-their-modules/mime.md).
+MIME 形式について詳しくは、[MIME モジュール](../../workfront-fusion/apps-and-their-modules/mime.md)を参照してください。
 
 ### [!UICONTROL JSON]
 
@@ -214,94 +214,94 @@ Content-Type: application/json
 
 >[!TIP]
 >
->元の JSON にアクセスする場合は、Webhook の設定時に JSON パススルーを有効にします。
+>元の JSON にアクセスする場合は、web フックの設定時に JSON パススルーを有効にします。
 >
->1. クリック **[!UICONTROL 追加]** をクリックして、新しいウェブフックを追加します。
->1. クリック **[!UICONTROL 詳細設定を表示]**.
->1. クリック **[!UICONTROL JSON パススルー]**.
+>1. 「**[!UICONTROL 追加]**」をクリックして、新しい web フックを追加します。
+>1. 「**[!UICONTROL 詳細設定を表示]**」をクリックします。
+>1. 「**[!UICONTROL JSON パススルー]**」をクリックします。
 >
 
-## Webhook ヘッダー
+## Web フックヘッダー
 
-Webhook のヘッダーにアクセスするには、Webhook の設定時に「 Get request headers 」を有効にします。
+Web フックのヘッダーにアクセスするには、web フックの設定時に GET リクエストヘッダーを有効にします。
 
-1. クリック **[!UICONTROL 追加]** をクリックして、新しいウェブフックを追加します。
-1. クリック **[!UICONTROL 詳細設定を表示]**.
-1. クリック **[!UICONTROL リクエストヘッダーの取得]**.
+1. 「**[!UICONTROL 追加]**」をクリックして、新しい web フックを追加します。
+1. 「**[!UICONTROL 詳細設定を表示]**」をクリックします。
+1. 「**[!UICONTROL リクエストヘッダーを取得]**」をクリックします。
 
-特定のヘッダー値を `map()` および `get()` 関数
+`map()` 関数と `get()` 関数を組み合わせて、特定のヘッダー値を抽出することができます。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->次の例は、 `authorization` ヘッダー `Headers[]` 配列。 この数式は、抽出された値と指定されたテキストを比較し、一致する場合に Web フックのみを渡すフィルターで使用されます。
+>以下の例は、`Headers[]` 配列から `authorization` ヘッダーの値を抽出する式を示しています。この式は、抽出された値と指定されたテキストを比較し、一致する場合に web フックのみを渡すフィルターで使用されます。
 >
 >![](assets/set-up-a-filter-350x169.png)
 >
->特定のキーを使用して配列の要素を取得する方法について詳しくは、 [指定されたキーで配列の要素をマッピングする](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) 記事内 [Adobe Workfront Fusion で、モジュール間の情報のマッピング](../../workfront-fusion/mapping/map-information-between-modules.md).
+>特定のキーを使用して配列の要素を取得する方法について詳しくは、[Adobe Workfront Fusion でのモジュール間の情報のマッピング](../../workfront-fusion/mapping/map-information-between-modules.md)の記事にある、[指定されたキーを使用した配列の要素のマッピング](../../workfront-fusion/mapping/map-information-between-modules.md#mapping)を参照してください。
 
 ## Web フックへの応答
 
-Webhook 呼び出しに対するデフォルトの応答は、「許可済み」というテキストです。 応答は、カスタム Webhook モジュールの実行中に Webhook を呼び出したアプリに返されます。
+Web フック呼び出しに対するデフォルトの応答は、「受理」というテキストです。応答は、カスタム web フックモジュールの実行中に web フックを呼び出したアプリに返されます。
 
-* [Webhook への応答のテスト](#test-the-response-to-a-webhook)
-* [HTML応答の例](#html-response-example)
+* [Web フックへの応答のテスト](#test-the-response-to-a-webhook)
+* [HTML 応答の例](#html-response-example)
 * [リダイレクトの例](#redirect-example)
 
-### Webhook への応答のテスト
+### Web フックへの応答をテスト
 
-1. 次を含める： **[!UICONTROL カスタムウェブフック]** モジュールを設定します。
-1. モジュールに新しい Webhook を追加します。
-1. Webhook の URL をクリップボードにコピーします。
+1. **[!UICONTROL カスタム web フック]**&#x200B;モジュールを含めます。
+1. モジュールに新しい web フックを追加します。
+1. Web フックの URL をクリップボードにコピーします。
 1. シナリオを実行します。
 
-   電光雷のアイコン [!UICONTROL カスタムウェブフック] モジュールが回転ドットに変わります。 これは、モジュールが Webhook 呼び出しを待機していることを示しています。
+   [!UICONTROL カスタム web フック]モジュールの稲妻アイコンが回転する点に変わります。これは、モジュールが web フック呼び出しを待機していることを示しています。
 
-1. 新しいブラウザーウィンドウを開き、コピーした URL をアドレスバーに貼り付けて、を押します。 **[!UICONTROL 入力]**.
+1. 新しいブラウザーウィンドウを開き、コピーした URL をアドレスバーにペーストして、**[!UICONTROL Enter]** キーを押します。
 
-   この [!UICONTROL カスタムウェブフック] モジュールがトリガーされ、ブラウザーに新しいページが表示されます。
+   [!UICONTROL カスタム web フック]モジュールがトリガーされ、ブラウザーに新しいページが表示されます。
 
-Webhook の応答をカスタマイズする場合は、Webhook の応答モジュールを使用します。
+Web フックの応答をカスタマイズする場合は、web フックの応答モジュールを使用します。
 
-モジュールの設定には、次の 2 つのフィールドが含まれます。 [!UICONTROL ステータス] および [!UICONTROL 本文].
+モジュールの設定には、[!UICONTROL ステータス]および[!UICONTROL 本文]の 2 つのフィールドが含まれます。
 
-* この [!UICONTROL ステータス] フィールドには、成功の場合は 2xx などの HTTP 応答ステータスコードが含まれます ( 例： `200` （OK の場合）、リダイレクトの場合は 3xx （例： ） `307` 一時的なリダイレクトの場合 )、4xx（クライアントエラーの場合）( 例： `400` （不正なリクエスト）など。
+* [!UICONTROL ステータス]フィールドには、成功の 2xx（OK の `200` など）、リダイレクトの 3xx（一時リダイレクトの `307` など）、4xx のクライアントエラー（例えば、無効なリクエストの `400`）などの HTTP 応答ステータスコードが含まれます。
 
-* この [!UICONTROL 本文] フィールドには、webhook の呼び出しで受け入れられるすべてが含まれます。 単純なテキスト、HTML、XML、JSON などを指定できます。
+* [!UICONTROL 本文]フィールドには、web フックの呼び出しで受け入れられるすべてが含まれます。シンプルなテキスト、HTML、XML、JSON などが含まれます。
 
   >[!TIP]
   >
-  >この `Content-Type` ヘッダーを対応する MIME タイプに変更します。 `text/plain` テキスト形式の場合 `text/html` HTML `application/json` JSON の場合、 `application/xml` XML などの MIME タイプについて詳しくは、 [MIME モジュール](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >`Content-Type` ヘッダーを対応する MIME タイプに設定することをお勧めします。プレーンテキストの場合は `text/plain`、HTMLの場合は `text/html`、JSON の場合は `application/json`、XML の場合は `application/xml` などです。MIME タイプについて詳しくは、[MIME モジュール](../../workfront-fusion/apps-and-their-modules/mime.md)を参照してください。
 
-応答の送信のタイムアウトは 40 秒です。 その期間内に応答が利用できない場合、Workfront Fusion は「200 受理」ステータスを返します。
+応答の送信のタイムアウトは 40 秒です。その期間内に応答が利用できない場合、Workfront Fusion は「200 受理」ステータスを返します。
 
-### HTML応答の例
+### HTML 応答の例
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->の設定 [!UICONTROL ウェブフックの応答] モジュールの説明：
+>[!UICONTROL Web フック応答]モジュールを次のように設定します。
 >
 ><table style="table-layout:auto"> 
 &gt; <col> 
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader">[!UICONTROL ステータス ] </td> 
-&gt;   <td> <p>2xx 成功 HTTP ステータスコード（例： 200）</p> </td> 
+&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
+&gt;   <td> <p>2xx 成功 HTTP ステータスコード（例：200）</p> </td> 
 &gt;  </tr> 
 &gt;  <tr> 
-&gt;   <td role="rowheader">[!UICONTROL 本文 ] </td> 
-&gt;   <td> <p>HTMLコード</p> </td> 
+&gt;   <td role="rowheader">[!UICONTROL Body] </td> 
+&gt;   <td> <p>HTML コード</p> </td> 
 &gt;  </tr> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p>[!UICONTROL カスタムヘッダー ]</p> </td> 
+&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
 &gt;   <td> 
 &gt;    <ul> 
-&gt;     <li><strong>キー</strong>:Content-type</li> 
-&gt;     <li><strong>値</strong>:text/html</li> 
+&gt;     <li><strong>キー</strong>：Content-type</li> 
+&gt;     <li><strong>値</strong>：text/html</li> 
 &gt;    </ul> </td> 
 &gt;  </tr> 
 &gt; </tbody> 
@@ -309,7 +309,7 @@ Webhook の応答をカスタマイズする場合は、Webhook の応答モジ�
 >
 >![](assets/custom-headers-350x235.png)
 >
->これにより、WebHTMLーに表示されるブラウザー応答が生成されます。
+>これにより、web ブラウザーに表示される HTML 応答が生成されます。
 >
 >![](assets/html-response-350x70.png)
 
@@ -317,22 +317,22 @@ Webhook の応答をカスタマイズする場合は、Webhook の応答モジ�
 
 >[!INFO]
 >
->**例：** の設定 [!UICONTROL ウェブフックの応答] モジュールの説明：
+>**例：**[!UICONTROL web フック応答]モジュールを次のように設定します。
 >
 ><table style="table-layout:auto"> 
 &gt; <col> 
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader">[!UICONTROL ステータス ] </td> 
-&gt;   <td> <p>3xx リダイレクト HTTP ステータスコード（例： 303）</p> </td> 
+&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
+&gt;   <td> <p>3xx リダイレクト HTTP ステータスコード（例：303）</p> </td> 
 &gt;  </tr> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p>[!UICONTROL カスタムヘッダー ]</p> </td> 
+&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
 &gt;   <td> 
 &gt;    <ul> 
-&gt;     <li><strong>[!UICONTROL キー ]</strong>:場所</li> 
-&gt;     <li><strong>[!UICONTROL 値 ]</strong>:リダイレクト先の URL。</li> 
+&gt;     <li><strong>[!UICONTROL Key]</strong>：場所</li> 
+&gt;     <li><strong>[!UICONTROL Value]</strong>：リダイレクト先の URL。</li> 
 &gt;    </ul> </td> 
 &gt;  </tr> 
 &gt; </tbody> 
@@ -342,20 +342,20 @@ Webhook の応答をカスタマイズする場合は、Webhook の応答モジ�
 
 ## Webhook の無効化
 
-次のいずれかに該当する場合、Webhook は自動的に非アクティブ化されます。
+次のいずれかに該当する場合、Web フックは自動的に非アクティブ化されます。
 
-* Webhook は 5 日以上どのシナリオにも接続されていません
-* Webhook は、非アクティブなシナリオ（30 日以上非アクティブであったシナリオ）でのみ使用されます。
+* Web フックが 6 日以上どのシナリオにも接続されていない
+* Web フックが、非アクティブなシナリオ（非アクティブになってから 30 日を超えたシナリオ）でのみ使用される。
 
-非アクティブ化された Web フックは、シナリオに接続されておらず、30 日以上非アクティブ状態にある場合、自動的に削除され、登録解除されます。
+非アクティブ化された web フックは、いかなるシナリオにも接続されておらず、非アクティブ状態となって 30 日が経過した場合、自動的に削除され、登録解除されます。
 
 
 ## トラブルシューティング
 
 ### マッピングパネルに項目がありません
 
-次のモジュールの設定で、マッピングパネルに一部の項目が表示されない場合 [!UICONTROL ウェブフック] > [!UICONTROL カスタムウェブフック] モジュール、 **[!UICONTROL ウェブフック] > [!UICONTROL カスタムウェブフック]** モジュールの設定を開き、をクリックします。 **[!UICONTROL データ構造を再決定]**:
+[!UICONTROL Web フック]／[!UICONTROL カスタム web フック]モジュールに続くモジュールの設定でマッピングパネルに一部の項目が欠落している場合は、**[!UICONTROL Web フック]／[!UICONTROL カスタム web フック]**&#x200B;モジュールを選択して設定を開き、「**[!UICONTROL データ構造を再決定]**」をクリックします。
 
 ![](assets/redetermine-data-structure-btn-350x195.png)
 
-次に、「 」セクションで説明されている手順に従います。 [Webhook のデータ構造の設定](#configure-the-webhook-s-data-structure) 」を参照してください。
+次に、この記事の [web フックのデータ構造の設定](#configure-the-webhook-s-data-structure)の節で説明されている手順に従います。
