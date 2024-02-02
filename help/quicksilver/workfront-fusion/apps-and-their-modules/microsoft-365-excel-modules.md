@@ -5,73 +5,73 @@ product-area: workfront-integrations;documents
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Excel モジュール
-description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、Microsoft 365 Excel を使用するワークフローを自動化し、それを複数のサードパーティのアプリケーションおよびサービスに接続することができます。
+description: ' [!DNL Adobe Workfront Fusion]  シナリオの場合、Microsoft 365 Excel を使用するワークフローを自動化し、それを複数のサードパーティのアプリケーションおよびサービスに接続することができます。'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2625'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # [!DNL Microsoft Office 365 Excel] モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Microsoft 365 Excel]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Microsoft 365 Excel] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion]ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
-使用する [!DNL Microsoft office 365 Excel]を使用するには、Microsoftアカウントが必要です。
+[!DNL Microsoft office 365 Excel] を使用するには、Microsoft アカウントが必要です。
 
 ## [!DNL Microsoft Office 365 Excel] モジュールとそのフィールド
 
-設定時に [!DNL Microsoft 365 Excel] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL Microsoft 365 Excel] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL Microsoft 365 Excel] モジュールを設定する際に、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらとともに、アプリやサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Microsoft 365 Excel] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -82,11 +82,11 @@ ht-degree: 0%
 
 ### ワークブック
 
-* [ワークブックを見る](#watch-workbooks)
-* [ワークブックの検索](#search-workbooks)
-* [ワークブックのダウンロード](#download-a-workbook)
+* [ワークブックを監視](#watch-workbooks)
+* [ワークブックを検索](#search-workbooks)
+* [ワークブックをダウンロード](#download-a-workbook)
 
-#### [!UICONTROL ワークブックを見る]
+#### [!UICONTROL ワークブックを監視]
 
 このトリガーモジュールは、ワークブックの作成時にシナリオを開始します。
 
@@ -95,52 +95,52 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ]</td> 
-   <td> <p>新しいワークブックを監視するフォルダを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td> <p>新規ワークブックを監視するフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL フィルター ]</p> </td> 
-   <td> <p>選択した条件を満たすワークブックのみを監視するフィルターを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子およびフィルターに許可する値を入力します。 AND または OR ルールを追加すると、複数のフィルターを使用できます。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Filter]</p> </td> 
+   <td> <p>選択した条件を満たすワークブックのみを監視するフィルターを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子、およびフィルターに許可する値を入力します。AND または OR ルールを追加すると、複数のフィルターを使用できます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>各シナリオの実行サイクル中に、モジュールが返すワークブックの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ワークブックの検索]
+#### [!UICONTROL ワークブックを検索]
 
-このアクションモジュールは、 [!DNL Excel] ワークブック。
+このアクションモジュールは、[!DNL Excel] ワークブックを検索します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ]</td> 
-   <td> <p>ワークブックを検索するフォルダーを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td> <p>ワークブックを監視するフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL フィルター ]</p> </td> 
-   <td> <p>選択した条件を満たすワークブックのみを検索するフィルタを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子およびフィルターに許可する値を入力します。 AND または OR ルールを追加すると、複数のフィルターを使用できます。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Filter]</p> </td> 
+   <td> <p>選択した条件を満たすワークブックのみを検索するフィルターを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子、およびフィルターに許可する値を入力します。AND または OR ルールを追加すると、複数のフィルターを使用できます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>各シナリオの実行サイクル中にモジュールが返すワークシートの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ワークブックのダウンロード]
+#### [!UICONTROL ワークブックをダウンロード]
 
 このアクションモジュールは、指定した Excel ブックの内容をダウンロードします。
 
@@ -149,15 +149,15 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ワークブックのダウンロード ]</td> 
-   <td> <p>モジュールをダウンロードするワークブックを識別する方法を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Download a workbook]</td> 
+   <td> <p>モジュールでダウンロードするワークブックを識別する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL ID を手動で入力する ]</strong> </p> <p>「[!UICONTROL ワークブック ID]」フィールドに、モジュールでダウンロードする特定のワークブックの ID を入力またはマッピングします。</p> </li> 
-     <li> <p><strong>[!UICONTROL パスから選択 ]</strong> </p> <p>「[!UICONTROL ワークブック ]」フィールドで、モジュールをダウンロードするワークブックを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL By entering an ID manually]</strong> </p> <p>「[!UICONTROL Workbook ID]」フィールドに、モジュールでダウンロードする特定のワークブックの ID を入力またはマッピングします。</p> </li> 
+     <li> <p><strong>[!UICONTROL By selecting from the path]</strong> </p> <p>「[!UICONTROL Workbook]」フィールドで、モジュールでダウンロードするワークブックを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -166,11 +166,11 @@ ht-degree: 0%
 ### ワークシート
 
 * [[!UICONTROL ワークシート行を監視]](#watch-worksheet-rows)
-* [[!UICONTROL ワークシートの一覧]](#list-worksheets)
-* [[!UICONTROL リストワークシートの行]](#list-worksheet-rows)
+* [[!UICONTROL ワークシートをリスト]](#list-worksheets)
+* [[!UICONTROL リストワークシート行をリスト]](#list-worksheet-rows)
 * [[!UICONTROL ワークシートを追加]](#add-a-worksheet)
 * [[!UICONTROL ワークシート行を追加]](#add-a-worksheet-row)
-* [[!UICONTROL ワークシート行の更新]](#update-a-worksheet-row)
+* [[!UICONTROL ワークシート行を更新]](#update-a-worksheet-row)
 * [[!UICONTROL ワークシート行の削除]](#delete-a-worksheet-row)
 
 #### [!UICONTROL ワークシート行を監視]
@@ -182,25 +182,25 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
-   <td> <p>新しい行を監視するワークシートが含まれているブックを選択します。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
+   <td> <p>新しい行を見るワークシートを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr>
     <td role="rowheader" >[!UICONTROL Worksheet] </td>
-   <td> <p>新しい行を監視する Excel シートを選択します。</p> </td> 
+   <td> <p>新しい行を見る Excel シートを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 制限 ]</td>
+    <td role="rowheader" >[!UICONTROL Limit]</td>
    <td> <p>各シナリオの実行サイクル中にモジュールが返すワークシート行の最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ワークシートの一覧]
+#### [!UICONTROL ワークシートをリスト]
 
 このアクションモジュールは、指定されたワークブック内のワークシートのリストを取得します。
 
@@ -209,21 +209,21 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
-   <td> <p>モジュールの一覧を表示するワークシートが含まれているワークブックを選択します。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
+   <td> <p>モジュールのリストを表示するワークシートを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 制限 ]</td>
+    <td role="rowheader" >[!UICONTROL Limit]</td>
    <td> <p>各シナリオの実行サイクル中にモジュールが返すワークシートの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL リストワークシートの行]
+#### [!UICONTROL ワークシート行をリスト]
 
 このアクションモジュールは、指定されたワークシートの行のリストを取得します。
 
@@ -232,19 +232,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
-   <td> <p>リストに表示する行が含まれているワークシートを含むブックを選択します。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
+   <td> <p>リストに表示する行が含まれているワークシートを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Worksheet] </td>
    <td> <p>リストする行を含むワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 制限 ]</td>
+    <td role="rowheader" >[!UICONTROL Limit]</td>
    <td> <p>各シナリオの実行サイクル中にモジュールが返すワークシート行の最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
@@ -252,23 +252,23 @@ ht-degree: 0%
 
 #### [!UICONTROL ワークシートを追加]
 
-このアクションモジュールは、選択したブック内に新しいワークシートを作成します。
+このアクションモジュールは、選択したワークブック内に新しいワークシートを作成します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
    <td> <p>ワークシートを追加するワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 名前 ] </td>
-   <td> <p>新しいワークシートの名前を入力またはマップします。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Name] </td>
+   <td> <p>新しいワークシートの名前を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -282,75 +282,75 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
-   <td> <p>行を追加するワークシートを含むブックを選択します。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
+   <td> <p>行を追加するワークシートを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Worksheet] </td>
    <td> <p>行を追加するワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 入力する値のタイプ ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Type of values being entered]</p> </td> 
    <td> <p>ワークシートに入力する値のタイプを選択します。 </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 数式 ]</strong> </p> <p> Excel は、指定された式を評価しようとします。 数式の関数名は英語です。 例: <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
-     <li> <p><strong>[!UICONTROL 式（ローカル）]</strong> </p> <p>Excel は、指定された式を評価しようとします。 関数名は、Excel アプリケーションの言語で指定します。 例： <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
-     <li> <p><strong>[!UICONTROL 値 ]</strong> </p> <p>Excel では値は評価されません。 </p> </li> 
+     <li> <p><strong>[!UICONTROL Formulas]</strong> </p> <p> Excel は、指定された式の評価を試みます。数式内の関数名は英語です。例： <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Formulas local]</strong> </p> <p>Excel は、指定された式の評価を試みます。関数名は、Excel アプリケーションの言語で表示されます。例：<code>=SUM(A1, 1.5)</code> と <code>=SUMME(A1; 1,5)</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Excel では値は評価されません。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 行 ]</td>
-    <td>各列に、新しい行に列に表示する値を入力します。</td>
+    <td role="rowheader" >[!UICONTROL Row]</td>
+    <td>各列に、新しい行で列に表示する値を入力します。</td>
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL ワークシート行の更新]
 
-このアクションモジュールは、既存のワークシート行を更新します。
+このアクションモジュールは、既存のワークシートの行を更新します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
    <td> <p>更新する行が含まれているワークシートを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Worksheet] </td>
-   <td> <p>更新する行が含まれているワークシートを選択します。</p> </td> 
+   <td> <p>更新する行を含むワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 入力する値のタイプ ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Type of values being entered]</p> </td> 
    <td> <p>ワークシートに入力する値のタイプを選択します。 </p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 数式 ]</strong> </p> <p> Excel は、指定された式を評価しようとします。 数式の関数名は英語です。 例: <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
-     <li> <p><strong>[!UICONTROL 式（ローカル）]</strong> </p> <p>Excel は、指定された式を評価しようとします。 関数名は、Excel アプリケーションの言語で指定します。 例： <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
-     <li> <p><strong>[!UICONTROL 値 ]</strong> </p> <p>Excel では値は評価されません。 </p> </li> 
+     <li> <p><strong>[!UICONTROL Formulas]</strong> </p> <p> Excel は、指定された式の評価を試みます。数式内の関数名は英語です。例： <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Formulas local]</strong> </p> <p>Excel は、指定された式の評価を試みます。関数名は、Excel アプリケーションの言語で表示されます。例：<code>=SUM(A1, 1.5)</code> と <code>=SUMME(A1; 1,5)</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Excel では値は評価されません。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 行 ID]</td> 
-   <td>更新する行の数を選択します。</td> 
+   <td role="rowheader">[!UICONTROL Row ID]</td> 
+   <td>更新する行数を選択します。</td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 行 ]</td>
-    <td>各列に、新しい行に列に表示する値を入力します。</td>
-   —&gt; 
+    <td role="rowheader" >[!UICONTROL Row]</td>
+    <td>各列に、新しい行で列に表示する値を入力します。</td>
+   --&gt; 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ワークシート行の削除]
+#### [!UICONTROL ワークシート行を削除]
 
 このアクションモジュールは、ワークシートから行を削除します。
 
@@ -359,19 +359,19 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
-   <td> <p>削除する行を含むワークシートを含むワークブックを選択します。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
+   <td> <p>削除する行が含まれているワークシートを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Worksheet]</td>
-   <td> <p> 削除する行が含まれているワークシートを選択します。</p> </td> 
+   <td> <p> 削除する行を含むワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 行 ID]</td>
+    <td role="rowheader" >[!UICONTROL Row ID]</td>
    <td>削除する行の ID を入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
@@ -380,21 +380,21 @@ ht-degree: 0%
 ### テーブル
 
 * [[!UICONTROL テーブル行を監視]](#watch-table-rows)
-* [[!UICONTROL リストテーブル]](#list-tables)
-* [[!UICONTROL テーブル行のリスト]](#list-table-rows)
-* [[!UICONTROL テーブルの取得]](#get-a-table)
+* [[!UICONTROL テーブルをリスト]](#list-tables)
+* [[!UICONTROL テーブル行をリスト]](#list-table-rows)
+* [[!UICONTROL テーブルを取得]](#get-a-table)
 * [[!UICONTROL テーブルを追加]](#add-a-table)
 * [[!UICONTROL テーブル行を追加]](#add-a-table-row)
-* [[!UICONTROL テーブルの更新]](#update-a-table)
-* [[!UICONTROL テーブルの削除]](#delete-a-table)
+* [[!UICONTROL テーブルを更新]](#update-a-table)
+* [[!UICONTROL テーブルを削除]](#delete-a-table)
 
 #### [!UICONTROL テーブル行を監視]
 
-このトリガーは、新しい行がテーブルに追加されると、シナリオを開始します。
+これは、テーブルに新しい行が追加されるとシナリオを開始するトリガーです。
 
 >[!NOTE]
 >
->この表は、ワークブックに埋め込まれた表要素を示しています。 テーブル全体（ワークブック/シート）ではありません。
+>このテーブルは、ワークブックに埋め込まれたテーブル要素を参照します。テーブル全体（ワークブックやシート）ではありません。
 
 ![](assets/embedded-table-350x420.png)
 
@@ -403,29 +403,29 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ワークブック ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Workbook]</p> </td> 
    <td> <p>監視するテーブルを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Worksheet] </td>
-   <td> <p> 監視するテーブルが含まれているワークシートを選択します。</p> </td> 
+   <td> <p> 監視するテーブルを含むワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 表 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Table]</p> </td> 
    <td> <p>監視するテーブルを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 制限 ]</td>
+    <td role="rowheader" >[!UICONTROL Limit]</td>
    <td> <p>各シナリオの実行サイクル中にモジュールが返す最大行数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL リストテーブル]
+#### [!UICONTROL テーブルをリスト]
 
 この検索モジュールは、すべてのテーブルオブジェクトのリストを取得します。
 
@@ -434,25 +434,25 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365]アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
-   <td> <p>リストするテーブルを含むワークブックを選択します。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
+   <td> <p>リストアップするテーブルを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Worksheet] </td>
-   <td> <p>リストするテーブルを含むワークシートを選択します</p> </td> 
+   <td> <p>リストアップするテーブルを含むワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 制限 ]</td>
-   <td> <p>各シナリオの実行サイクル中にモジュールが返すテーブルの最大数を入力またはマッピングします。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Limit]</td>
+   <td> <p>各シナリオの実行サイクル中に、モジュールが返すテーブルの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL テーブル行のリスト]
+#### [!UICONTROL テーブル行をリスト]
 
 この検索モジュールは、ワークブック内のすべてのテーブル行のリストを取得します。
 
@@ -461,29 +461,29 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
-   <td> <p>一覧表示する行を含むテーブルを含むブックを選択します。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
+   <td> <p>リストする行が含まれているテーブルを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Worksheet] </td>
-   <td> <p>リストする行を含むテーブルを含むワークシートを選択します</p> </td> 
+   <td> <p>リストする行が含まれているテーブルを含むワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 表 ] </td>
+    <td role="rowheader" >[!UICONTROL Table] </td>
    <td> <p>リストする行を含むテーブルを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 制限 ]</td>
+    <td role="rowheader" >[!UICONTROL Limit]</td>
    <td> <p>各シナリオの実行サイクル中にモジュールが返すテーブル行の最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL テーブルの取得]
+#### [!UICONTROL テーブルを取得]
 
 このアクションモジュールは、指定されたテーブルのメタデータを取得します。
 
@@ -493,18 +493,18 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td role="rowheader"> 
-     <p >[!UICONTROL 接続 ]</p>
+     <p >[!UICONTROL Connection]</p>
    </td> 
    <td> 
-     <p>Office 365 アカウントを次に接続する手順については、 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p>
+     <p>Office 365 アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p>
     --&gt; </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL テーブルの取得 ]</td> 
+   <td role="rowheader">[!UICONTROL Get a table]</td> 
    <td> <p>取得するテーブルを識別する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>「[!UICONTROL ワークブック ID]」フィールドに、取得するテーブルが含まれるワークブックの ID を入力またはマッピングします。</p> <p>「[!UICONTROL テーブル名 ]」フィールドに、取得するテーブルの名前を入力またはマッピングします。</p> </li> 
-     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>取得するテーブルが含まれるワークブックおよびワークシートを選択し、テーブルを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>[!UICONTROL Workbook ID] フィールドに、取得するテーブルを含むワークブックの ID を入力またはマッピングします。</p> <p>[!UICONTROL Table Name] フィールドに、取得するテーブルの名前を入力またはマッピングします。</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>取得するテーブルを含むワークブックとワークシートを選択し、テーブルを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -519,24 +519,24 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ワークブック ] </td> 
-   <td> <p>テーブルを追加するワークシートを含むブックを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Workbook] </td> 
+   <td> <p>テーブルを追加するワークシートを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Worksheet] </td> 
    <td> <p>テーブルを追加するワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL にヘッダーがある ]</td> 
+   <td role="rowheader">[!UICONTROL Has headers]</td> 
    <td> <p>最初の行をテーブルヘッダーとして定義するには、このオプションを有効にします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL アドレス ]</p> </td> 
-   <td> <p>左上と右下のセルを指定して、テーブルのサイズを設定します。 例： <code>A1:C10</code> 3 列 10 行のテーブルを作成します。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Address]</p> </td> 
+   <td> <p>左上と右下のセルを指定して、テーブルのサイズを設定します。例：<code>A1:C10</code> は、3 列 10 行のテーブルを作成します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -550,33 +550,33 @@ ht-degree: 0%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL ワークブック ] </td>
-   <td> <p>行を追加するテーブルを含むブックを選択します。</p> </td> 
+    <td role="rowheader" >[!UICONTROL Workbook] </td>
+   <td> <p>行を追加するテーブルを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader" >[!UICONTROL Worksheet] </td>
    <td> <p>行を追加するテーブルを含むワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader" >[!UICONTROL 表 ]</td>
+    <td role="rowheader" >[!UICONTROL Table]</td>
    <td>行を追加するテーブルを選択します。</td> 
   </tr> 
   <tr>
-    <td role="rowheader" >[!UICONTROL 行 ]</td>
-    <td>各列に、新しい行に列に表示する値を入力します。</td>
+    <td role="rowheader" >[!UICONTROL Row]</td>
+    <td>各列に、新しい行で列に表示する値を入力します。</td>
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 行 ID]</p> </td> 
-   <td> <p>テーブル上の特定の場所に行を追加するには、行番号を入力またはマッピングします。 モジュールは、この行の後に新しい行を挿入します。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Row ID]</p> </td> 
+   <td> <p>テーブル上の特定の場所に行を追加するには、行番号を入力またはマッピングします。その行の後に新しい行が挿入されます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL テーブルの更新]
+#### [!UICONTROL テーブルを更新]
 
 このアクションモジュールは、既存のテーブルを更新します。
 
@@ -585,58 +585,58 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL テーブルの更新 ]</td> 
+   <td role="rowheader">[!UICONTROL Update a table]</td> 
    <td> <p>更新するテーブルを識別する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>手動で入力</strong> </p> <p>「[!UICONTROL ワークブック ID]」フィールドに、更新するテーブルが含まれるワークブックの ID を入力またはマッピングします。</p> <p>「[!UICONTROL テーブル名 ]」フィールドに、更新するテーブルの名前を入力またはマッピングします。</p> </li> 
-     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>更新するテーブルが含まれるワークブックおよびワークシートを選択し、テーブルを選択します。</p> </li> 
+     <li> <p><strong>手動で入力</strong> </p> <p>[!UICONTROL Workbook ID] フィールドに、更新するテーブルを含むワークブックの ID を入力またはマッピングします。</p> <p>[!UICONTROL Table Name] フィールドに、更新するテーブルの名前を入力またはマッピングします。</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>更新するテーブルを含むワークブックおよびワークシートを選択し、テーブルを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 表 ] </td> 
+   <td role="rowheader">[!UICONTROL Table] </td> 
    <td> <p>更新するテーブルを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 名前 ]</td> 
-   <td> <p>テーブルの名前を変更する場合は、テーブルの新しい名前を入力またはマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td> <p>テーブルの名前を変更する場合は、テーブルの新しい名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ヘッダーを表示 ]</td> 
+   <td role="rowheader">[!UICONTROL Show Headers]</td> 
    <td> <p>更新されたテーブルのヘッダーを表示するには、このオプションを有効にします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 合計を表示 ]</td> 
+   <td role="rowheader">[!UICONTROL Show totals]</td> 
    <td>テーブルの合計値を表示するには、このオプションを有効にします。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL スタイル ]</td> 
-   <td>新しい表のスタイルを選択します。</td> 
+   <td role="rowheader">[!UICONTROL Style]</td> 
+   <td>新しいテーブルのスタイルを選択します。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL テーブルの削除]
+#### [!UICONTROL テーブルを削除]
 
-このアクションモジュールは、指定されたテーブルを [!DNL Excel] ワークシート。
+このアクションモジュールは、指定されたテーブルを [!DNL Excel] ワークシートから削除します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL テーブルの取得 ]</td> 
+   <td role="rowheader">[!UICONTROL Get a table]</td> 
    <td> <p>削除するテーブルを識別する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>「[!UICONTROL ワークブック ID]」フィールドに、削除するテーブルが含まれるワークブックの ID を入力またはマッピングします。</p> <p>「[!UICONTROL テーブル名 ]」フィールドに、削除するテーブルの名前を入力またはマッピングします。</p> </li> 
-     <li> <p><strong>[!UICONTROL リストから選択 ]</strong> </p> <p>削除するテーブルを含むワークブックおよびワークシートを選択し、テーブルを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>[!UICONTROL Workbook ID] フィールドに、削除するテーブルを含むワークブックの ID を入力またはマッピングします。</p> <p>[!UICONTROL Table Name] フィールドに、削除するテーブルの名前を入力またはマッピングします。</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>削除するテーブルを含むワークブックおよびワークシートを選択し、テーブルを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -645,7 +645,7 @@ ht-degree: 0%
 ### その他
 
 * [[!UICONTROL データを取得]](#retrieve-data)
-* [[!UICONTROL API 呼び出しを実行する]](#make-an-api-call)
+* [[!UICONTROL API 呼び出しを実行]](#make-an-api-call)
 
 #### [!UICONTROL データを取得]
 
@@ -656,55 +656,55 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ワークブック ] </td> 
-   <td> <p>取得するデータが含まれているワークブックを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Workbook] </td> 
+   <td> <p>取得するデータを含むワークブックを選択します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Worksheet] </td> 
-   <td> <p>取得するデータが含まれているワークシートを選択します。</p> </td> 
+   <td> <p>取得するデータを含むワークシートを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 範囲 ] </td> 
-   <td> <p>左上と右下のセルを指定して、データを取得するシートの領域を指定します。 例: <code>A1:D10</code></p> </td> 
+   <td role="rowheader">[!UICONTROL Range] </td> 
+   <td> <p>左上と右下のセルを指定して、データを取得するシートのエリアを指定します。例： <code>A1:D10</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL API 呼び出しを実行する]
+#### [!UICONTROL API 呼び出しを実行]
 
-このアクションモジュールを使用すると、カスタム API 呼び出しをおこなうことができます。
+このアクションモジュールを使用すると、カスタム API 呼び出しを実行できます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 接続 ]</p> </td> 
-   <td> <p>接続方法 [!DNL Office 365] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは Web サービスの接続先 [!DNL Workfront Fusion]</a> 記事内 <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">でのシナリオの作成 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>[!DNL Office 365] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事で、<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>相対パスを入力 <code>https://graph.microsoft.com</code>. 例:<code> /v1.0/me/drive/root/children</code></td> 
+   <td><code>https://graph.microsoft.com</code> への相対パスを入力します。例：<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL メソッド ]</td> 
-   td&gt; <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   td&gt; <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します。</p> <p>以下に例を挙げます。 <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は、認証ヘッダーを追加します。</p> </td> 
+   <td> <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は認証ヘッダーを追加します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL クエリ文字列 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しのクエリを追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> </td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>API 呼び出しのクエリを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:   <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：   <p><code>if</code> などの条件ステートメントを JSON で使用する場合は、条件ステートメントの外側に引用符を挿入します。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
