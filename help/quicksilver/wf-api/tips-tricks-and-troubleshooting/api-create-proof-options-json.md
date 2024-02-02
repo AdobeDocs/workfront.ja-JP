@@ -1,67 +1,67 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Adobe Workfront API で高度な校正オプションを追加
-description: Adobe Workfront API で高度な校正オプションを追加
+title: Adobe Workfront API を使用した詳細プルーフオプションの追加
+description: Adobe Workfront API を使用した詳細プルーフオプションの追加
 author: Becky
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
 
 
-# Adobe Workfront API を使用して配達確認を作成する際の詳細な校正オプションの追加
+# Adobe Workfront API を使用してプルーフを作成する際の詳細校正オプションの追加
 
-Workfront API で配達確認を作成する際に、高度な校正オプションを追加できます。
+Workfront API でプルーフを作成する際に、詳細プルーフオプションを追加できます。
 
-API を使用して配達確認に校正オプションを追加するには、次のいずれかのワークフローを使用します。
+API を使用してプルーフにプルーフオプションを追加するには、次のいずれかのワークフローを使用します。
 
-* （推奨）Workfront API を使用して簡単な配達確認を作成し、ProofHQ API を使用して配達確認に高度な校正オプションを追加します。
+* （推奨）Workfront API を使用してシンプルなプルーフを作成したあと、ProofHQ API を使用してプルーフに詳細プルーフオプションを追加する
 
-* Workfront API で JSON を使用して高度な校正オプションを使用し、配達確認を作成する
+* Workfront API で JSON を使用して、詳細プルーフオプションを設定したプルーフを作成する
 
-## Workfront API と ProofHQ API を使用した配達確認の作成（推奨） {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
+## Workfront API と ProofHQ API を使用したプルーフの作成（推奨） {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
 
-ここでは、Workfront API と ProofHQ API を組み合わせて、Workfront API を使用して高度な校正オプションで配達確認を作成する方法について説明します。
+この節では、Workfront API と ProofHQ API を組み合わせて、詳細プルーフオプションを設定したプルーフを作成する方法について説明します。
 
-ProofHQ API には、Workfront API では配達確認に使用できない様々なアクションが含まれています。 これらのアクションを使用すると、Workfront API で使用可能な値よりも正確に配達確認を変更または設定できます。
+ProofHQ API には、Workfront API ではプルーフで使用できない様々なアクションが含まれています。これらのアクションを使用すると、Workfront API を使用する場合よりも精度の高いプルーフにすることができます。
 
-ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/general/overview.md). また、 [ProofHQ ドキュメント](https://api.proofhq.com/home.html).
+ProofHQ API の概要については、[PoofHQ の概要](../../proofhq-api/general/overview.md)を参照してください。また、[ProofHQ ドキュメント](https://api.proofhq.com/home.html)も参照してください。
 
 >[!NOTE]
 >
->* Workfront API は REST-ful API です。 ProofHQ API は SOAP API です。
->* ProofHQ API で作成された配達確認は、Workfrontに自動的にリンクされません。 したがって、ProofHQ API を使用して配達確認を更新する前に、Workfront API で配達確認を作成することをお勧めします。
+>* Workfront API は REST-ful API です。ProofHQ API は SOAP API です。
+>* ProofHQ API で作成されたプルーフは、自動的には Workfront にリンクされません。したがって、ProofHQ API を使用してプルーフを更新する前に、Workfront API でプルーフを作成することをお勧めします。
 >
 
-### 高度な校正オプションを使用して配達確認を作成する
+### 詳細プルーフオプションを設定したプルーフを作成
 
-1. 次を使用した配達確認の作成 `Document createProof` アクションを使用して、Workfront API で実行できます。
+1. Workfront API の `Document createProof` アクションを使用してプルーを作成します。
 
    >[!NOTE]
    >
-   配達確認を作成する際に、 `{}` を `advancedProofingOptions` パラメーター。
+   プルーフを作成する際に、`{}` を `advancedProofingOptions` パラメーターの値として設定します。
 
-1. 配達確認を作成した後、ProofHQ API を使用して詳細オプションを追加します。
+1. プルーフを作成した後、ProofHQ API を使用して任意の詳細オプションを追加します。
 
 ### 例
 
-この節では、ProofHQ API を使用して実行できる更新例を示します。
+この節では、ProofHQ API を使用して行える更新の例をいくつか示します。
 
-**例:**
+**例：**
 
-* [配達確認は、ダウンロードしたり、メッセージを含めたり、公開共有したりできます](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [非公開（必須ではなく）で、1 つの承認のみが必要になるようにステージを更新します。](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
-* [主な意思決定者のいない配達確認に 2 人の受信者を追加](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
+* [プルーフがダウンロード可能で、メッセージを含み、公開される](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [プライベートでも必須でもなく、必要な承認が 1 回のみになるようにステージを更新する](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [主要な校正判断者のいないプルーフに担当者を 2 人追加する](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**配達確認は、ダウンロードしたり、メッセージを含めたり、公開共有したりできます**
+**プルーフがダウンロード可能で、メッセージを含み、公開される**
 
-このエンドポイントのドキュメントは、 [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) ページに貼り付けます。
+このエンドポイントのドキュメントについては、[ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) ページを参照してください。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -83,9 +83,9 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 </soapenv:Envelope>
 ```
 
-**非公開（必須ではなく）で、1 つの承認のみが必要になるようにステージを更新します。**
+**プライベートでも必須でもなく、必要な承認が 1 回のみになるようにステージを更新する**
 
-このエンドポイントのドキュメントは、 [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) ページに貼り付けます。
+このエンドポイントのドキュメントについては、[ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) ページを参照してください。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -108,9 +108,9 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 </soapenv:Envelope>
 ```
 
-**主な意思決定者のいない配達確認に 2 人の受信者を追加**
+**主要な校正判断者のいないプルーフに担当者を 2 人追加する**
 
-このエンドポイントのドキュメントは、 [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) ページに貼り付けます。
+このエンドポイントのドキュメントについては、[ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) ページを参照してください。
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -143,25 +143,25 @@ ProofHQ API の概要については、 [PoofHQ の概要](../../proofhq-api/gen
 </soapenv:Envelope>
 ```
 
-## Workfront API で JSON を使用した配達確認の作成
+## Workfront API で JSON を使用したプルーフの作成
 
-ここでは、Workfront API で JSON をパラメーター値として使用し、Workfront API で高度な校正オプションを使用して配達確認を作成する方法について説明します
+この節では、Workfront API で JSON をパラメーター値に使用して、詳細プルーフオプションを設定したプルーフを Workfront API で作成する方法について説明します。
 
-### 高度な校正オプションを使用して配達確認を作成する
+### 詳細プルーフオプションを設定したプルーフを作成
 
-Workfront API で配達確認を作成するには、 `Document createProof` アクション。 このアクションは、 `advancedProofingOptions` パラメーターに含まれる値の型： `string`. 高度な校正オプションを `createProof` 「 」アクションの場合は、 `advancedProofingOptions` JSON 形式のパラメーター。
+`Document createProof` アクションを使用して、Workfront API でプルーフを作成できます。このアクションは、値のタイプが `string` の `advancedProofingOptions` パラメーターを受け取ります。`createProof` アクションに詳細プルーフオプションを組み込むには、`advancedProofingOptions` パラメーターに JSON 形式でオプションを入力する必要があります。
 
 >[!NOTE]
 >
-advancedProofingOptions JSON に含めるフィールドの予測は困難な場合があります。 Workfrontでの高度な校正を使用しながら、組織のネットワークデータを調べ、組織で一般的に使用されるフィールドと値に基づいて JSON を設定する必要がある場合があります。
+advancedProofingOptions JSON に含めるフィールドの予測は難しい場合があります。Workfront で詳細プルーフを使用しながら組織のネットワークデータを調べ、組織でよく使用されるフィールドと値に基づいて JSON を設定することもできます。
 >
-これらのフィールドの予測は困難な場合があるので、Workfront API を使用して配達確認を作成し、ProofHQ API を使用して更新することをお勧めします。 詳しくは、 [Workfront API と ProofHQ API を使用した配達確認の作成（推奨）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) この記事では、
+これらのフィールドの予測は難しい場合があるので、Workfront API を使用してプルーフを作成したあと、ProofHQ API を使用してプルーフを更新することをお勧めします。詳しくは、この記事の [Workfront API と ProofHQ API を使用したプルーフの作成（推奨）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended)を参照してください。
 
 ### 例
 
-この例では、 `advancedProofingOptions` パラメーター。 お使いの `advancedProofingOptions` JSON ファイルに含めるフィールドの数は、ここに示す数よりも多いか少なくなります。
+この例では、`advancedProofingOptions` パラメーターの JSON を作成する際に使用できるフィールドと形式を示しています。`advancedProofingOptions` JSON ファイルに含めるフィールドを、ここで示されているよりも増やしたり、減らしたりできます。
 
-**例:**
+**例：**
 
 <!-- [Copy](javascript:void(0);) -->
 
