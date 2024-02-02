@@ -6,74 +6,74 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: GitLab モジュール
-description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
+description: Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
 author: Becky
 feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4485'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # [!UICONTROL GitLab] モジュール
 
-Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
+Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
 
-内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!UICONTROL GitLab]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+[!DNL Adobe Workfront Fusion] シナリオでは、[!UICONTROL GitLab] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりすることができます。
 
 >[!NOTE]
 >
->この記事では、API ドキュメントおよび [!DNL GitLab] 機能全般に関する情報です。
+>この記事では、API ドキュメントや [!DNL GitLab] の機能全般についてある程度の知識があることを想定しています。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>レガシー製品要件：この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## 接続 [!DNL GitLab] から [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
+## [!DNL GitLab] を [!DNL Workfront Fusion] に接続 {#connect-gitlab-to-workfront-fusion}
 
-1. 任意の [!DNL Workfront Fusion] [!DNL Gitlab] モジュール、クリック **[!UICONTROL 追加]** 「接続」フィールドの横にある
+1. 任意の [!DNL Workfront Fusion] [!DNL Gitlab] モジュールで、「接続」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 次のフィールドを設定します。
 
    <table style="table-layout:auto"> 
@@ -81,35 +81,35 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 接続名 ]</td> 
-      <td> <p>接続の名前を入力します。</p> </td> 
+      <td role="rowheader">[!UICONTROL Connection name]</td> 
+      <td> <p>接続に名前を入力します。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL GitLab] URL]</td> 
-      <td>の URL を入力します。 [!DNL GitLab] インスタンス。</td> 
+      <td>[!DNL GitLab] インスタンスの URL を入力します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL アクセストークン ]</td> 
-      <td><p>[!UICONTROL プライベートトークン ] または [!UICONTROL 個人用アクセストークン ] を入力します。</p><p>での個人用アクセストークンの特定または作成に関する情報 [!DNL GitLab]詳しくは、「個人用アクセストークンの作成」( <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">個人用アクセストークン</a> （内） [!DNL GitLab] ドキュメント。</p></td> 
+      <td role="rowheader">[!UICONTROL Access Token]</td> 
+      <td><p>[!UICONTROL Private Token] または [!UICONTROL Personal Access Token] を入力します。</p><p>[!DNL GitLab] での個人用アクセストークンの検索または作成について詳しくは、[!DNL GitLab] ドキュメントの<a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">個人用アクセストークン</a>にある「個人用アクセストークンの作成」を参照してください。</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 
-1. クリック **[!UICONTROL 続行]**.
-1. クリック **[!UICONTROL 許可]** 接続を作成し、モジュールに戻ります。
+1. 「**[!UICONTROL 続行]**」をクリックします。
+1. 「**[!UICONTROL 承認する]**」をクリックして接続を作成し、モジュールに戻ります。
 
 ## [!DNL GitLab] モジュールとそのフィールド
 
-設定時に [!DNL GitLab] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL GitLab] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL GitLab]モジュールを設定すると、[!DNL Workfront Fusion]には以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL GitLab] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間の情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
 ### トリガー
 
-+++**[!UICONTROL ビルドステータスを見る]**
++++**[!UICONTROL ビルドステータスを監視]**
 
 このインスタントトリガーモジュールは、ビルドのステータスが変更されたときにシナリオを開始します。
 
@@ -119,16 +119,16 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>ビルドステータスの変更を Webhook で監視するプロジェクト</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでビルドステータスの変更を監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL コミット/MR/issue/snippet コメントを見る]**
++++**[!UICONTROL コミット／MR／イシュー／スニペットのコメントを監視]**
 
-このインスタントトリガーモジュールは、コミット、結合リクエスト、問題、またはコードスニペットでコメントが行われたときにシナリオを開始します。
+このインスタントトリガーモジュールは、コミット、結合リクエスト、イシュー、またはコードスニペットに対してコメントが追加されたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -136,16 +136,16 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>Webhook でコメントを監視するプロジェクト</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 監視コミット（プッシュ）]**
++++**[!UICONTROL コミット（プッシュ）を監視]**
 
-このインスタントトリガーモジュールは、コミットがリポジトリにプッシュされると、シナリオを開始します。 タグがプッシュされた場合、このモジュールはシナリオを開始しません。
+このインスタントトリガーモジュールは、コミットがリポジトリにプッシュされたときにシナリオを開始します。タグがプッシュされた場合は、このモジュールはシナリオを開始しません。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -153,16 +153,16 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>Webhook でコミットを監視するプロジェクト</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある <b>[!UICONTROL Add]</b> をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでコミットを監視するプロジェクト</li></ul></li><li><b>[!UICONTROL Save]</b> をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 問題のコメントを見る]**
++++**[!UICONTROL イシューのコメントを監視]**
 
-このインスタントトリガーモジュールは、問題に対するコメントが行われると、シナリオを開始します。
+このインスタントトリガーモジュールは、イシューに対してコメントが作成されたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -170,16 +170,16 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>Webhook でイシューコメントを監視するプロジェクト</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでイシューコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 問題を見る]**
++++**[!UICONTROL イシューを監視]**
 
-この [!UICONTROL 即時トリガー] モジュールは、問題が作成されたとき、または既存の問題が更新、閉じたとき、または再び開かれたときに、シナリオを開始します。
+この[!UICONTROL インスタントトリガー]モジュールは、イシューが作成されたとき、または既存のイシューが更新、クローズ、または再度開かれたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -187,20 +187,20 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>Webhook で問題を監視するプロジェクト</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでイシューを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フック を保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 結合リクエストの監視]**
++++**[!UICONTROL 結合リクエストを監視]**
 
 このインスタントトリガーモジュールは、次のいずれかが発生した場合にシナリオを開始します。
 
-* 新しい結合リクエストが作成されます
-* 既存の結合リクエストが更新、結合または閉じられました
-* ソースブランチにコミットが追加されます
+* 新しい結合リクエストが作成される
+* 既存の結合リクエストが更新、結合、または閉じられる
+* ソースブランチにコミットが追加される
 
 
 <table style="table-layout:auto"> 
@@ -209,16 +209,16 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>結合リクエストを Webhook で監視するプロジェクトです。</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで結合リクエストを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 結合要求のコメントを監視する]**
++++**[!UICONTROL 結合リクエストのコメントを監視]**
 
-このインスタントトリガーモジュールは、結合リクエストでコメントが行われると、シナリオを開始します。
+このインスタントトリガーモジュールは、結合リクエストに対してコメントが作成されたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -226,14 +226,14 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>結合要求のコメントを Webhook で監視するプロジェクトです。</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで結合リクエストのコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL パイプラインステータスを見る]**
++++**[!UICONTROL パイプラインステータスを監視]**
 
 このインスタントトリガーモジュールは、パイプラインのステータスが変更されたときにシナリオを開始します。
 
@@ -243,24 +243,24 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>パイプラインステータスの変更を Webhook で監視するプロジェクト</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでパイプラインステータスの変更を監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL プロジェクトを見る]**
++++**[!UICONTROL プロジェクトを監視]**
 
-このスケジュール済みトリガーモジュールは、新しいプロジェクトが追加されると、シナリオを開始します。このシナリオのうち、認証済みユーザーがメンバーです。
+このスケジュール済みトリガーモジュールは、認証済みユーザーがメンバーとなっている新しいプロジェクトが追加されたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法については、 [!DNL GitLab] アカウント [!DNL Workfront] Fusion（を参照） <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">接続 [!DNL GitLab] から [!DNL Workfront] 統合</a> 」を参照してください。</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL GitLab] アカウントを [!DNL Workfront] Fusion に接続する手順については、この記事の <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">[!DNL GitLab] を [!DNL Workfront] Fusion に接続</a>を参照してください。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">最大結果数</td> 
@@ -273,15 +273,15 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 +++**[!UICONTROL リポジトリブランチを監視]**
 
-このスケジュールトリガーモジュールは、新しいブランチがリポジトリに追加されると、シナリオを開始します。
+このスケジュール済みトリガーモジュールは、新しいブランチがリポジトリに追加されたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法については、 [!DNL GitLab] アカウント [!DNL Workfront] Fusion（を参照） <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">接続 [!DNL GitLab] から [!DNL Workfront] 統合</a> 」を参照してください。</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL GitLab] アカウントを [!DNL Workfront] Fusion に接続する手順については、この記事の <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">[!DNL GitLab] を [!DNL Workfront] Fusion に接続</a>を参照してください。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">最大結果数</td> 
@@ -292,7 +292,7 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 +++
 
-+++**[!UICONTROL リポジトリタグを監視する]**
++++**[!UICONTROL リポジトリタグを監視]**
 
 このインスタントトリガーモジュールは、リポジトリでタグが作成または削除されたときにシナリオを開始します。
 
@@ -302,16 +302,16 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>Webhook でタグを監視するプロジェクト</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでタグを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL スニペットコメントを見る]**
++++**[!UICONTROL スニペットコメントを監視]**
 
-このインスタントトリガーモジュールは、スニペットに対して新しいコメントが作成されると、シナリオを開始します。
+このインスタントトリガーモジュールは、スニペットに対して新しいコメントが作成されたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
    <col> 
@@ -319,22 +319,22 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>Webhook でコメントを監視するプロジェクト</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL トードを見る]**
++++**[!UICONTROL To Do を監視]**
 
-このスケジュールトリガーモジュールは、新しい TODO が追加されるとシナリオを開始します。 フィルターが適用されない場合、トリガーは、新しい保留中の TODO が追加されたときに実行されます。
+このスケジュール済みスケジュールトリガーモジュールは、新しい TODO が追加されるとシナリオを開始します。フィルターが適用されない場合、トリガーは、新たな保留 TODO が追加されたときに実行されます。
 
-フィールドについて詳しくは、 [DOS のリストを取得](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントにある [DOS のリストを取得](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos)を参照してください。
 
 +++
 
-+++**[!UICONTROL Wiki ページを見る]**
++++**[!UICONTROL Wiki ページを監視]**
 
 このインスタントトリガーモジュールは、Wiki ページが作成または編集されたときにシナリオを開始します。
 
@@ -344,7 +344,7 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する Webhook を選択するか、新しい Webhook を追加します。 </p><p>新しい Webhook を追加するには、次の手順に従います。 <ol><li>クリック <b>[!UICONTROL 追加 ]</b> [!UICONTROL webhook] フィールドの横にある</li><li>次の情報を入力します。 <ul><li>ウェブフックの名前</li><li>このウェブフックに使用する接続</li><li>Wiki ページで Webhook が監視するプロジェクトです。</li></ul></li><li>クリック <b>[!UICONTROL 保存 ]</b> をクリックして Webhook を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある <b>[!UICONTROL Add]</b> をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで Wiki ページを監視するプロジェクト</li></ul></li><li><b>[!UICONTROL Save]</b>をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -353,15 +353,15 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 ### アクション
 
-+++**[!UICONTROL 結合リクエストを受け入れる]**
++++**[!UICONTROL 結合リクエストを承認]**
 
 このアクションモジュールは、送信された変更を指定された結合リクエストと結合します。
 
-フィールドについて詳しくは、 [結合リクエストを受け入れる](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[結合リクエストの承認](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr)を参照してください。
 
 +++
 
-+++**[!UICONTROL ビルドのキャンセル]**
++++**[!UICONTROL ビルドをキャンセル]**
 
 このアクションモジュールは、プロジェクトの単一のビルドをキャンセルします。
 
@@ -370,116 +370,116 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法については、 [!DNL GitLab] アカウント [!DNL Workfront] Fusion（を参照） <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">接続 [!DNL GitLab] から [!DNL Workfront] 統合</a> 」を参照してください。</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL GitLab] アカウントを [!DNL Workfront] Fusion に接続する手順については、この記事の <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">[!DNL GitLab] を [!DNL Workfront] Fusion に接続</a>を参照してください。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
    <td> <p>キャンセルするビルドを含むプロジェクトを選択またはマッピングします。</p> </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL ビルド ID]</td> 
+   <td role="rowheader">[!UICONTROL Build ID]</td> 
    <td>キャンセルするビルドを選択またはマッピングします。</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL コミットメッセージを結合 ]</td> 
-   <td> マージのコミットメッセージを入力またはマップします。
+   <td role="rowheader">[!UICONTROL Merge commit message]</td> 
+   <td> 結合のコミットメッセージを入力またはマッピングします。
     </td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL ソースブランチを削除する ]</td> 
+   <td role="rowheader">[!UICONTROL Should remove source branch]</td> 
    <td>結合が完了したときにソースブランチを削除するかどうかを選択します。</td> 
    </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL ビルドが成功した場合の結合 ]</td> 
+   <td role="rowheader">[!UICONTROL Merge when build succeeds]</td> 
    <td>ビルドが完了したら、すぐに結合リクエストを結合するかどうかを選択します。</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL SHA]</td> 
-   <td>存在する場合、この SHA はソースブランチのHEADと一致する必要があります。 一致しない場合、結合は失敗します。</td> 
+   <td>SHA が存在する場合、この SHA はソースブランチの HEAD と一致する必要があります。一致しない場合、結合は失敗します。</td> 
    </tr> 
    </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL パイプラインのビルドをキャンセルする]**
++++**[!UICONTROL パイプラインのビルドをキャンセル]**
 
 このアクションモジュールは、単一のパイプラインのビルドをキャンセルします。
 
-フィールドについて詳しくは、 [パイプラインのジョブのキャンセル](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[パイプラインのジョブのキャンセル](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs)を参照してください。
 
 +++
 
-+++**[!UICONTROL パイプラインが成功した場合に結合をキャンセルする]**
++++**[!UICONTROL パイプラインが成功した場合に結合をキャンセル]**
 
 パイプラインの成功時に結合リクエストが結合に設定されている場合、このアクションモジュールはそのアクションをキャンセルします。
 
-フィールドについて詳しくは、 [パイプラインが成功した場合に結合をキャンセルする](https://docs.gitlab.com/ee/api/merge_requests.html) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[パイプラインの成功時に結合をキャンセル](https://docs.gitlab.com/ee/api/merge_requests.html)を参照してください。
 
 +++
 
 +++**[!UICONTROL チェリーがコミットを選択]**
 
-このアクションモジュールは、特定のブランチへのコミットを選択します。
+このチェリーアクションモジュールは、特定のブランチへのコミットを選択します。
 
-フィールドについて詳しくは、 [チェリーがコミットを選択](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL 新しいラベルを作成]**
-
-このアクションモジュールは、指定されたリポジトリの新しいラベルを作成します。
-
-フィールドについて詳しくは、 [新しいラベルを作成](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[チェリーがコミットを選択](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit)を参照してください。
 
 +++
 
-+++**[!UICONTROL 新しいパイプラインの作成]**
++++**[!UICONTROL ラベルを新規作成]**
 
-このアクションモジュールは、指定されたプロジェクトの新しいパイプラインを作成します。
+このアクションモジュールは、指定されたリポジトリのラベルを新規作成します。
 
-フィールドについて詳しくは、 [新しいパイプラインの作成](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[ラベルの新規作成](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label)を参照してください。
 
 +++
 
-+++**[!UICONTROL 新しいリリースの作成]**
++++**[!UICONTROL パイプラインを新規作成]**
+
+このアクションモジュールは、指定されたプロジェクトにパイプラインを新規作成します。
+
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[パイプラインの新規作成](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline)を参照してください。
+
++++
+
++++**[!UICONTROL 新しいリリースを作成]**
 
 このアクションモジュールは、既存の Git タグにリリースノートを追加します。
 
-フィールドについて詳しくは、 [リリースの作成](https://docs.gitlab.com/ee/api/releases/#create-a-release) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リリースを作成](https://docs.gitlab.com/ee/api/releases/#create-a-release)を参照してください。
 
 +++
 
 +++**[!UICONTROL 新しいタグを作成]**
 
-このアクションモジュールは、指定された参照を指す新しいタグをリポジトリに作成します。
+このアクションモジュールは、指定された参照を指すリポジトリに新しいタグを作成します。
 
-フィールドについて詳しくは、 [新しいタグを作成](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[新しいタグを作成](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag)を参照してください。
 
 +++
 
 +++**[!UICONTROL TODO を作成]**
 
-このアクションモジュールは、選択した問題に対して現在のユーザーの TODO を作成します。 現在のユーザーは、このモジュールで使用される接続の資格情報で識別されるユーザーです。
+このアクションモジュールは、選択したイシューで、現在のユーザーの TODO を作成します。現在のユーザーは、このモジュールで使用される接続の資格情報で識別されるユーザーです。
 
-フィールドについて詳しくは、 [タスクの作成](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL 結合リクエストに対する TODO の作成]**
-
-このアクションモジュールは、選択された結合リクエストに対して現在のユーザーの TODO を作成します。 現在のユーザーは、このモジュールで使用される接続の資格情報で識別されるユーザーです。
-
-フィールドについて詳しくは、 [TODO の作成](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの [TODO を作成](https://docs.gitlab.com/ee/api/issues.html#create-a-todo)を参照してください。
 
 +++
 
-+++**[!UICONTROL 結合リクエストの作成]**
++++**[!UICONTROL 結合リクエストで TODO を作成]**
 
-このアクションモジュールは、プロジェクトに新しい結合リクエストを作成します。
+このアクションモジュールは、選択した結合リクエストで、現在のユーザーの TODO を作成します。現在のユーザーは、このモジュールで使用される接続の資格情報で識別されるユーザーです。
 
-フィールドについて詳しくは、 [結合リクエストの作成](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの [TODO を作成](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo)を参照してください。
+
++++
+
++++**[!UICONTROL 結合リクエストを作成]**
+
+このアクションモジュールは、プロジェクトで新しい結合リクエストを作成します。
+
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[結合リクエストを作成](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr)を参照してください。
 
 +++
 
@@ -487,23 +487,23 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 このアクションモジュールは、選択したリポジトリに新しいファイルを作成します。
 
-フィールドについて詳しくは、 [リポジトリに新しいファイルを作成](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リポジトリに新しいファイルを作成](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository)を参照してください。
 
 +++
 
-+++**[!UICONTROL 新しい問題のメモを作成]**
++++**[!UICONTROL 新しいイシューメモを作成]**
 
-このアクションモジュールは、単一のプロジェクトの問題に関する問題メモを作成します。
+このアクションモジュールは、単一のプロジェクトイシューに関するイシューメモを作成します。
 
-フィールドについて詳しくは、 [新しい問題のメモを作成](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[新しいイシューメモを作成](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note)を参照してください。
 
 +++
 
 +++**[!UICONTROL 新しい結合リクエストメモを作成]**
 
-このアクションモジュールは、単一の結合リクエストに対するメモを作成します。
+このアクションモジュールは、単一の結合リクエストに関するメモを作成します。
 
-フィールドについて詳しくは、 [新しい結合リクエストメモを作成](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[新しい結合リクエストメモを作成](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note)を参照してください。
 
 +++
 
@@ -511,23 +511,23 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 このアクションモジュールは、プロジェクトの新しいマイルストーンを作成します。
 
-フィールドについて詳しくは、 [新しいマイルストーンを作成](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[新しいマイルストーンを作成](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone)を参照してください。
 
 +++
 
-+++**[!UICONTROL 新しいスニペットノートを作成]**
++++**[!UICONTROL 新しいスニペットメモを作成]**
 
-このアクションモジュールは、単一のスニペットに対して新しいメモを作成します。 スニペットノートは、ユーザーがスニペットに投稿できるコメントです。
+このアクションモジュールは、単一のスニペットに関する新しいメモを作成します。スニペットメモとは、ユーザーがスニペットに対して投稿できるコメントのことです。
 
-フィールドについて詳しくは、 [新しいスニペットノートを作成](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[新しいスニペットメモを作成](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note)を参照してください。
 
 +++
 
 +++**[!UICONTROL リポジトリブランチを作成]**
 
-このアクションモジュールは、1 つのリポジトリブランチを作成します。
+このアクションモジュールは、単一のリポジトリブランチを作成します。
 
-フィールドについて詳しくは、 [リポジトリブランチを作成](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リポジトリブランチを作成](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch)を参照してください。
 
 +++
 
@@ -535,23 +535,23 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 このアクションモジュールは、新しいビルド変数を作成します。
 
-フィールドについて詳しくは、 [変数を作成](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[変数を作成](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable)を参照してください。
 
 +++
 
-+++**[!UICONTROL 結合リクエストの削除]**
++++**[!UICONTROL 結合リクエストを削除]**
 
-このアクションモジュールは、管理者とプロジェクトの所有者専用です。 該当する結合リクエストを削除します
+このアクションモジュールは、管理者とプロジェクトの所有者専用です。該当する結合リクエストを削除します。
 
-フィールドについて詳しくは、 [結合リクエストの削除](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[結合リクエストを削除](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request)を参照してください。
 
 +++
 
 +++**[!UICONTROL リポジトリ内の既存のファイルを削除]**
 
-このアクションモジュールは、リポジトリーから既存のファイルを削除します。
+このアクションモジュールは、リポジトリから既存のファイルを削除します。
 
-フィールドについて詳しくは、 [リポジトリ内の既存のファイルを削除](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リポジトリ内の既存のファイルを削除](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository)を参照してください。
 
 +++
 
@@ -559,70 +559,70 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 このアクションモジュールは、リポジトリからブランチを削除します。
 
-フィールドについて詳しくは、 [リポジトリブランチを削除](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リポジトリブランチを削除](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch)を参照してください。
 
 +++
 
-+++**[!UICONTROL 問題を編集]**
++++**[!UICONTROL イシューを編集]**
 
-このアクションモジュールは、既存のプロジェクトの問題を更新します。 この呼び出しは、問題をクローズ済みとマークするためにも使用されます。
+このアクションモジュールは、既存のプロジェクトイシューを更新します。この呼び出しは、イシューをクローズ済みとマークするためにも使用されます。
 
-フィールドについて詳しくは、 [問題を編集](https://docs.gitlab.com/ee/api/issues.html#edit-issue) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[イシューを編集](https://docs.gitlab.com/ee/api/issues.html#edit-issue)を参照してください。
 
 +++
 
 +++**[!UICONTROL マイルストーンの編集]**
 このアクションモジュールは、既存のプロジェクトマイルストーンを更新します。
 
-フィールドについて詳しくは、 [マイルストーンを編集](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[マイルストーンを編集](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone)を参照してください。
 
 +++
 
-+++**[!UICONTROL ビルドを削除する]**
++++**[!UICONTROL ビルドを消去]**
 
-このアクションモジュールは、プロジェクトのビルドを消去します（ジョブアーティファクトとジョブログを削除します）。
+このアクションモジュールは、プロジェクトのビルドを消去します（ジョブのアーティファクトとジョブのログを削除します）。
 
-フィールドについて詳しくは、 [ジョブの削除](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[ジョブを消去](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job)を参照してください。
 
 +++
 
-+++**[!UICONTROL TODO のリストを取得する]**
++++**[!UICONTROL TODO リストを取得]**
 
 この検索モジュールは、TODO 項目のリストを取得します。
 
-フィールドについて詳しくは、 [DOS のリストを取得](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの [TODO のリストを取得](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos)を参照してください。
 
 +++
 
-+++**[!UICONTROL 単一のビルドの取得]**
++++**[!UICONTROL 単一のビルドを取得]**
 
 このアクションモジュールは、プロジェクトの単一のジョブを取得します。
 
-フィールドについて詳しくは、 [単一のジョブを取得](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一のジョブを取得](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job)を参照してください。
 
 +++
 
 +++**[!UICONTROL 単一のリポジトリタグを取得]**
 
-このアクションモジュールは、名前で決定された特定のリポジトリタグを取得します。
+このアクションモジュールは、名前によって決定された特定のリポジトリタグを取得します。
 
-フィールドについて詳しくは、 [単一のリポジトリタグを取得](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一のリポジトリタグを取得](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag)を参照してください。
 
 +++
 
-+++**[!UICONTROL 特定のデプロイメントの取得]**
++++**[!UICONTROL 特定のデプロイメントを取得]**
 
 このアクションモジュールは、特定のデプロイメントを取得します。
 
-フィールドについて詳しくは、 [特定のデプロイメントの取得](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[特定のデプロイメントを取得](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment)を参照してください。
 
 +++
 
-+++**[!UICONTROL 単一のマイルストーンに割り当てられたすべての問題を取得する]**
++++**[!UICONTROL 単一のマイルストーンに割り当てられたすべてのイシューを取得]**
 
-この検索モジュールは、1 つのプロジェクトマイルストーンに割り当てられているすべての問題を取得します。
+この検索モジュールは、単一のプロジェクトマイルストーンに割り当てられたすべてのイシューを取得します。
 
-フィールドについて詳しくは、 [単一のマイルストーンに割り当てられたすべての問題を取得する](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一のマイルストーンに割り当てられたすべてのイシューを取得](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone)を参照してください。
 
 +++
 
@@ -630,88 +630,88 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 このアクションモジュールは、名前、サイズ、コンテンツなど、リポジトリ内のファイルに関する情報を取得します。
 
-フィールドについて詳しくは、 [リポジトリからファイルを取得](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リポジトリからファイルを取得](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクトユーザーの取得]**
++++**[!UICONTROL プロジェクトユーザーを取得]**
 
 この検索モジュールは、プロジェクトのユーザーを取得します。
 
-フィールドについて詳しくは、 [プロジェクトユーザーの取得](https://docs.gitlab.com/ee/api/projects.html#get-project-users) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトユーザーを取得](https://docs.gitlab.com/ee/api/projects.html#get-project-users)を参照してください。
 
 +++
 
 +++**[!UICONTROL 単一のイシューを取得]**
 
-このアクションモジュールは、問題の詳細を取得します。
+このアクションモジュールは、イシューの詳細を取得します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>新しい接続を作成するには、 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL 接続 [!DNL GitLab] Workfront Fusion] に</a> 」を参照してください。</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>新しい接続を作成するには、この記事の<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] to Workfront Fusion]</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project]</td> 
-   <td> <p>詳細を取得する問題を含むプロジェクトを選択します。</p> </td> 
+   <td> <p>詳細を取得するイシューを含むプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Issue ID]</td> 
-   <td> <p>詳細を取得する問題の名前を入力またはマッピングします。</p> </td> 
+   <td> <p>詳細を取得するイシューの名前を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 単一の問題のメモを取得する]**
++++**[!UICONTROL 単一のイシューのメモを取得]**
 
-このアクションモジュールは、特定のプロジェクトの問題に関する 1 つのメモを取得します。
+このアクションモジュールは、特定のプロジェクトイシューに関する単一のメモを取得します。
 
-フィールドについて詳しくは、 [単一の問題のメモを取得する](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一のイシューのメモを取得](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note)を参照してください。
 
 +++
 
-+++**[!UICONTROL 単一の結合リクエストの取得]**
++++**[!UICONTROL 単一の結合リクエストを取得]**
 
 このアクションモジュールは、単一の結合リクエストに関する情報を取得します。
 
-フィールドについて詳しくは、 [単一の結合リクエストの取得](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一の結合リクエストを取得](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr)を参照してください。
 
 +++
 
-+++**[!UICONTROL 単一の結合リクエストの変更の取得]**
++++**[!UICONTROL 単一の結合リクエストの変更を取得]**
 
-この検索モジュールは、ファイルと変更を含む結合リクエストに関する情報を取得します。
+この検索モジュールは、ファイルや変更を含む、結合リクエストに関する情報を取得します。
 
-フィールドについて詳しくは、 [単一の結合リクエストの変更の取得](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL 単一の結合リクエストコミットの取得]**
-
-このアクションモジュールは、結合リクエストコミットのリストを取得します。
-
-フィールドについて詳しくは、 [単一の結合リクエストコミットの取得](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一の結合リクエストの変更を取得](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes)を参照してください。
 
 +++
 
-+++**[!UICONTROL 単一の結合リクエストのメモを取得する]**
++++**[!UICONTROL 単一の結合リクエストのコミットを取得]**
 
-このアクションモジュールは、指定された結合リクエストに対して 1 つのメモを返します。
+このアクションモジュールは、結合リクエストのコミットのリストを取得します。
 
-フィールドについて詳しくは、 [単一の結合リクエストのメモを取得する](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一の結合リクエストのコミットを取得](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits)を参照してください。
 
 +++
 
-+++**[!UICONTROL マイルストーンの取得]**
++++**[!UICONTROL 単一の結合リクエストのメモを取得]**
+
+このアクションモジュールは、指定した結合リクエストの単一のメモを返します。
+
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一の結合リクエストのメモを取得](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note)を参照してください。
+
++++
+
++++**[!UICONTROL マイルストーンを取得]**
 
 このアクションモジュールは、マイルストーンの詳細を取得します。
 
-フィールドについて詳しくは、 [単一のマイルストーンを取得する](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一のマイルストーンを取得](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone)を参照してください。
 
 +++
 
@@ -719,39 +719,39 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 このアクションモジュールは、プロジェクトの詳細を取得します。
 
-フィールドについて詳しくは、 [単一のプロジェクトを取得](https://docs.gitlab.com/ee/api/projects.html#get-single-project) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一のプロジェクトを取得](https://docs.gitlab.com/ee/api/projects.html#get-single-project)を参照してください。
 
 +++
 
-+++**[!UICONTROL 単一のリポジトリブランチを取得する]**
++++**[!UICONTROL 単一のリポジトリブランチを取得]**
 
 このアクションモジュールは、リポジトリブランチの詳細を取得します。
 
-フィールドについて詳しくは、 [単一のリポジトリブランチを取得する](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一のリポジトリブランチを取得](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch)を参照してください。
 
 +++
 
 +++**[!UICONTROL スニペットのメモを取得]**
 
-このモジュールは、指定されたスニペットに対して 1 つのメモを取得します。
+このモジュールは、指定したスニペットの単一のメモを取得します。
 
-フィールドについて詳しくは、 [1 つのスニペットノートを取得](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[単一のスニペットのメモを取得](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note)を参照してください。
 
 +++
 
-+++**[!UICONTROL コミットのコメントを取得する]**
++++**[!UICONTROL コミットのコメントを取得]**
 
-この検索モジュールは、プロジェクト内のコミットのコメントを取得します。
+この検索モジュールは、プロジェクトのコミットのコメントを取得します。
 
-フィールドについて詳しくは、 [コミットのコメントを取得する](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[コミットのコメントを取得](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit)を参照してください。
 
 +++
 
 +++**[!UICONTROL コミットの差分を取得]**
 
-このアクションモジュールは、プロジェクト内のコミットの差分を取得します。
+このアクションモジュールは、プロジェクトのコミットの差分を取得します。
 
-フィールドについて詳しくは、 [コミットの差分を取得](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[コミットの差分を取得](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit)を参照してください。
 
 +++
 
@@ -759,248 +759,248 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 有効期限が設定されている場合にアーティファクトが削除されるのを防ぎます。
 
-フィールドについて詳しくは、 [アーティファクトを保持](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[アーティファクトを保持](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts)を参照してください。
 
 +++
 
-+++**[!UICONTROL すべての結合リクエストメモのリスト]**
++++**[!UICONTROL 結合リクエストのすべてのメモを一覧表示]**
 
-この検索モジュールは、1 回の結合リクエストのすべてのメモのリストを取得します。
+この検索モジュールは、単一の結合リクエストのすべてのメモのリストを取得します。
 
-フィールドについて詳しくは、 [すべての結合リクエストメモのリスト](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL すべてのスニペットノートを一覧表示する]**
-
-このモジュールは、1 つのスニペットのすべてのメモのリストを取得します。 スニペットノートは、ユーザーがスニペットに投稿できるコメントです。
-
-フィールドについて詳しくは、 [??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[結合リクエストのすべてのメモを一覧表示](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes)を参照してください。
 
 +++
 
-+++**[!UICONTROL コミットビルドのリスト]**
++++**[!UICONTROL スニペットのすべてのメモを一覧表示]**
 
-この検索モジュールは、プロジェクト内の特定のコミットに対するビルドのリストを返します。
+このモジュールは、単一のスニペットのすべてのメモのリストを取得します。スニペットメモとは、ユーザーがスニペットに対して投稿できるコメントのことです。
+
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[??](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes)を参照してください。
+
++++
+
++++**[!UICONTROL コミットのビルドを一覧表示]**
+
+この検索モジュールは、プロジェクトの特定のコミットに対するビルドのリストを返します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>新しい接続を作成するには、 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL 接続 [!DNL GitLab] Workfront Fusion] に</a> 」を参照してください。</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>新しい接続を作成するには、この記事の<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] to Workfront Fusion]</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
    <td> <p>ビルドの一覧を表示するコミットを含むプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL スコープ ]</td> 
-   <td> 特定のステータスでビルドするように検索を制限するには、ステータスを選択します。 このフィールドを空白のままにすると、コミットのすべてのビルドが返されます。  </td> 
+   <td role="rowheader">[!UICONTROL Scope]</td> 
+   <td> 検索対象を特定のステータスのビルドに制限するには、ステータスを選択します。このフィールドを空白のままにすると、コミットのすべてのビルドが返されます。  </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++**[!UICONTROL 問題のリスト]**
++++**[!UICONTROL イシューを一覧表示]**
 
-この検索モジュールは、指定されたフィルター設定に基づいてすべての問題を返します。
+この検索モジュールは、指定したフィルタリング設定に基づいてすべてのイシューを返します。
 
-フィールドについて詳しくは、 [問題のリスト](https://docs.gitlab.com/ee/api/issues.html#list-issues) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL 結合時に閉じる問題のリスト]**
-
-この検索モジュールは、指定された結合リクエストを結合することで解決されるすべての問題を取得します。
-
-フィールドについて詳しくは、 [結合時に閉じる問題のリスト](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[イシューを一覧表示](https://docs.gitlab.com/ee/api/issues.html#list-issues)を参照してください。
 
 +++
 
-+++**[!UICONTROL リストラベル]**
++++**[!UICONTROL 結合時にクローズするイシューを一覧表示]**
 
-この検索モジュールは、プロジェクト内のすべてのラベルを取得します。
+この検索モジュールは、指定した結合リクエストを結合することでクローズされるすべてのイシューを取得します。
 
-フィールドについて詳しくは、 [リストラベル](https://docs.gitlab.com/ee/api/labels.html#list-labels) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL 結合リクエストのリスト]**
-
-この検索モジュールは、すべての結合リクエストをフィルター設定で取得します。
-
-フィールドについて詳しくは、 [結合リクエストのリスト](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[結合時にクローズするイシューを一覧表示](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge)を参照してください。
 
 +++
 
-+++**[!UICONTROL 所有するプロジェクトのリスト]**
++++**[!UICONTROL ラベルを一覧表示]**
+
+この検索モジュールは、プロジェクトのすべてのラベルを取得します。
+
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[ラベルを一覧表示](https://docs.gitlab.com/ee/api/labels.html#list-labels)を参照してください。
+
++++
+
++++**[!UICONTROL 結合リクエストを一覧表示]**
+
+この検索モジュールは、フィルタリング設定に基づいてすべての結合リクエストを取得します。
+
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[結合リクエストを一覧表示](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests)を参照してください。
+
++++
+
++++**[!UICONTROL 所有するプロジェクトを一覧表示]**
 
 この検索モジュールは、認証済みユーザーが所有者として設定されているプロジェクトを取得します。
 
-フィールドについて詳しくは、 [ユーザープロジェクトのリスト](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[ユーザーのプロジェクトを一覧表示](https://docs.gitlab.com/ee/api/projects.html#list-all-projects)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクトビルドのリスト]**
++++**[!UICONTROL プロジェクトのビルドを一覧表示]**
 
 この検索モジュールは、プロジェクト内のビルドのリストを取得します。
 
-フィールドについて詳しくは、 [プロジェクトジョブのリスト](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトのジョブを一覧表示](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクトデプロイメントのリスト]**
++++**[!UICONTROL プロジェクトのデプロイメントを一覧表示]**
 
 この検索モジュールは、プロジェクト内のデプロイメントのリストを取得します。
 
-フィールドについて詳しくは、 [プロジェクトデプロイメントのリスト](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトのデプロイメントを一覧表示](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクトの問題に関するメモの一覧]**
++++**[!UICONTROL プロジェクトのイシューメモを一覧表示]**
 
-この検索モジュールは、1 件のイシューに関するすべてのメモのリストを取得します。
+この検索モジュールは、単一のイシューに関するすべてのメモのリストを取得します。
 
-フィールドについて詳しくは、 [プロジェクトの問題に関するメモの一覧](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL プロジェクトの問題のリスト]**
-
-この検索モジュールは、指定したプロジェクトのすべての問題を返します。
-
-フィールドについて詳しくは、 [プロジェクトの問題のリスト](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトのイシューメモを一覧表示](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクトのマイルストーンのリスト]**
++++**[!UICONTROL プロジェクトのイシューを一覧表示]**
+
+この検索モジュールは、指定したプロジェクト内のすべてのイシューを返します。
+
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトのイシューを一覧表示](https://docs.gitlab.com/ee/api/issues.html#list-project-issues)を参照してください。
+
++++
+
++++**[!UICONTROL プロジェクトのマイルストーンを一覧表示]**
 
 この検索モジュールは、プロジェクト内のすべてのマイルストーンを取得します。
 
-フィールドについて詳しくは、 [プロジェクトのマイルストーンのリスト](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトのマイルストーンを一覧表示](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクトパイプラインのリスト]**
++++**[!UICONTROL プロジェクトのパイプラインを一覧表示]**
 
 この検索モジュールは、プロジェクトのすべてのパイプラインを取得します。
 
-フィールドについて詳しくは、 [プロジェクトパイプラインのリスト](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトのパイプラインを一覧表示](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクトリポジトリタグのリスト]**
++++**[!UICONTROL プロジェクトリポジトリタグを一覧表示]**
 
 この検索モジュールは、プロジェクトからリポジトリタグのリストを取得し、名前で逆アルファベット順に並べ替えます。
 
-フィールドについて詳しくは、 [プロジェクトリポジトリタグのリスト](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトのリポジトリタグを一覧表示](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクト変数のリスト]**
++++**[!UICONTROL プロジェクトの変数を一覧表示]**
 
 この検索モジュールは、プロジェクトの変数のリストを取得します。
 
-フィールドについて詳しくは、 [プロジェクト変数のリスト](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトの変数を一覧表示](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables)を参照してください。
 
 +++
 
-+++**[!UICONTROL プロジェクトのリスト]**
++++**[!UICONTROL プロジェクトを一覧表示]**
 
 この検索モジュールは、認証済みユーザーがメンバーであるすべてのプロジェクトを取得します。
 
-フィールドについて詳しくは、 [すべてのプロジェクトのリスト](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[プロジェクトを一覧表示](https://docs.gitlab.com/ee/api/projects.html#list-all-projects)を参照してください。
 
 +++
 
-+++**[!UICONTROL リポジトリブランチのリスト]**
++++**[!UICONTROL リポジトリブランチを一覧表示]**
 
-このモジュールは、検索語句でリポジトリブランチを検索します。
+このモジュールは、検索語でリポジトリブランチを検索します。
 
-フィールドについて詳しくは、 [リポジトリブランチのリスト](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL リストリポジトリのコミット]**
-
-この検索モジュールは、プロジェクト内のリポジトリコミットのリストを取得します。
-
-フィールドについて詳しくは、 [リストリポジトリのコミット](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リポジトリブランチを一覧表示](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches)を参照してください。
 
 +++
 
-+++**[!UICONTROL リポジトリ寄稿者のリスト]**
++++**[!UICONTROL リポジトリのコミットを一覧表示]**
 
-この検索モジュールは、リポジトリ寄稿者リストを取得します。
+この検索モジュールは、プロジェクト内のリポジトリのコミットのリストを取得します。
 
-フィールドについて詳しくは、 [寄稿者](https://docs.gitlab.com/ee/api/repositories.html#contributors) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リポジトリのコミットを一覧表示](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits)を参照してください。
 
 +++
 
-+++**[!UICONTROL リポジトリツリーのリスト]**
++++**[!UICONTROL リポジトリのコントリビューターを一覧表示]**
+
+この検索モジュールは、リポジトリのコントリビューターのリストを取得します。
+
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[コントリビューター](https://docs.gitlab.com/ee/api/repositories.html#contributors)を参照してください。
+
++++
+
++++**[!UICONTROL リポジトリツリーを一覧表示]**
 
 この検索モジュールは、プロジェクト内のリポジトリファイルとディレクトリのリストを取得します。
 
-フィールドについて詳しくは、 [リポジトリツリーのリスト](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの[リポジトリツリーを一覧表示](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree)を参照してください。
 
 +++
 
-+++**[!UICONTROL TODO を完了済みとしてマーク]**
++++**[!UICONTROL TODO を完了としてマーク]**
 
-このアクションモジュールは、現在のユーザーの ID で指定された 1 つの保留中の todo 項目を「完了」とマークします。
+このアクションモジュールは、現在のユーザーの ID で指定された単一の保留中の TODO 項目を完了としてマークします。
 
-フィールドについて詳しくは、 [To Do 項目を完了済みとしてマーク](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL 既存の問題報告書を変更]**
-
-問題の既存のメモを変更します。
-
-フィールドについて詳しくは、 [既存の問題報告書を変更](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについて詳しくは、[!DNL GitLab] ドキュメントの [TODO 項目を完了としてマーク](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done)を参照してください。
 
 +++
 
-+++**[!UICONTROL 既存の結合リクエストのメモを変更]**
++++**[!UICONTROL 既存のイシューメモを変更]**
+
+イシューの既存のメモを変更します。
+
+フィールドについては、[!DNL GitLab] ドキュメントの[既存のイシューメモを変更](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note)を参照してください。
+
++++
+
++++**[!UICONTROL 既存の結合リクエストメモを変更]**
 
 結合リクエストの既存のメモを変更します。
 
-フィールドについて詳しくは、 [既存の結合リクエストのメモを変更](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[既存の結合リクエストのメモを変更](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note)を参照してください。
 
 +++
 
-+++**[!UICONTROL 既存のスニペットノートを変更する]**
++++**[!UICONTROL 既存のスニペットメモを変更]**
 
 このアクションモジュールは、スニペットの既存のメモを変更します。
 
-フィールドについて詳しくは、 [既存のスニペットノートを変更する](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[既存のスニペットメモを変更](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note)を参照してください。
 
 +++
 
 +++**[!UICONTROL 新しい問題]**
 
-このアクションモジュールは、新しいプロジェクトの問題を作成します。
+このアクションモジュールは、新しいプロジェクトイシューを作成します。
 
-フィールドについて詳しくは、 [新しい問題](https://www.integromat.com/en/help/app/gitlab) （内） [!DNL GitLab] ドキュメント。
-
-+++
-
-+++**[!UICONTROL ビルドを再生する]**
-
-このアクションモジュールは、トリガーを開始するための手動のアクションを設定します。
-
-フィールドについて詳しくは、 [ジョブを再生](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[新しいイシュー](https://www.integromat.com/en/help/app/gitlab)を参照してください。
 
 +++
 
-+++**[!UICONTROL コミットするコメントを投稿]**
++++**[!UICONTROL ビルドを再生]**
+
+このアクションモジュールは、ジョブを開始する手動アクションをトリガーします。
+
+フィールドについては、[!DNL GitLab] ドキュメントの[ジョブを再生](https://docs.gitlab.com/ee/api/jobs.html#play-a-job)を参照してください。
+
++++
+
++++**[!UICONTROL コミットにコメントを投稿]**
 
 このアクションモジュールは、コミットにコメントを追加します。
 
-フィールドについて詳しくは、 [コミットするコメントを投稿](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[コミットにコメントを投稿](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit)を参照してください。
 
 +++
 
@@ -1008,7 +1008,7 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 このアクションモジュールは、プロジェクトの変数を削除します。
 
-フィールドについて詳しくは、 [変数を削除](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[変数を削除](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable)を参照してください。
 
 +++
 
@@ -1021,15 +1021,15 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>新しい接続を作成するには、 <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL 接続 [!DNL GitLab] Workfront Fusion] に</a> 」を参照してください。</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>新しい接続を作成するには、この記事の <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] to Workfront Fusion]</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
    <td> <p>再試行するビルドを含むプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ビルド ID]</td> 
+   <td role="rowheader">[!UICONTROL Build ID]</td> 
    <td> 再試行するビルドを選択します。 </td> 
   </tr> 
  </tbody> 
@@ -1037,42 +1037,42 @@ Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Ado
 
 +++
 
-+++**[!UICONTROL パイプラインでの失敗したジョブの再試行]**
++++**[!UICONTROL パイプラインの失敗したジョブを再試行]**
 
-このアクションモジュールは、パイプライン内の失敗したビルドを再試行します。
+このアクションモジュールは、パイプラインの失敗したビルドを再試行します。
 
-フィールドについて詳しくは、 [パイプラインでのジョブの再試行](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[パイプラインのジョブを再試行](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline)を参照してください。
 
 +++
 
-+++**[!UICONTROL 変数の取得]**
++++**[!UICONTROL 変数を取得]**
 
 このモジュールは、プロジェクトの特定の変数の詳細を取得します。
 
-フィールドについて詳しくは、 [変数の詳細を表示](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[変数の詳細を表示](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details)を参照してください。
 
 +++
 
-+++**[!UICONTROL リリースの更新]**
++++**[!UICONTROL リリースを更新]**
 
 このアクションモジュールは、リリースを更新します。
 
-フィールドについて詳しくは、 [リリースの更新](https://docs.gitlab.com/ee/api/releases/#update-a-release) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[リリースを更新](https://docs.gitlab.com/ee/api/releases/#update-a-release)を参照してください。
 
 +++
 
 +++**[!UICONTROL 結合リクエストを更新]**
 
-このアクションモジュールは、既存の結合リクエストを更新します。 ターゲットのブランチやタイトルを変更したり、MR を閉じたりすることもできます。
+このアクションモジュールは、既存の結合リクエストを更新します。ターゲットのブランチやタイトルを変更したり、MR を閉じたりすることもできます。
 
-フィールドについて詳しくは、 [結合リクエストを更新](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[結合リクエストを更新](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr)を参照してください。
 
 +++
 
-+++**[!UICONTROL 変数の更新]**
++++**[!UICONTROL 変数を更新]**
 
 このアクションモジュールは、プロジェクトの変数を更新します。
 
-フィールドについて詳しくは、 [変数を更新](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) （内） [!DNL GitLab] ドキュメント。
+フィールドについては、[!DNL GitLab] ドキュメントの[変数を更新](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable)を参照してください。
 
 +++
