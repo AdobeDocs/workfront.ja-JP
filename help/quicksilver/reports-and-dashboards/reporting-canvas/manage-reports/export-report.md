@@ -1,18 +1,19 @@
 ---
-title: レポートキャンバスでのレポートのエクスポート
-description: レポートキャンバスでのレポートのエクスポート
+title: レポートキャンバスでのレポートの書き出し
+description: レポートキャンバスでのレポートの書き出し
 hidefromtoc: true
 hide: true
-source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
-workflow-type: tm+mt
+exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
+source-git-commit: f994a3f79df0594ea190a3dd77853c4b4ea89afb
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# レポートキャンバスでのレポートのエクスポート
+# レポートキャンバスでのレポートの書き出し
 
-必要に応じて、レポート全体（または特定のブロック）をファイルフォーマットにエクスポートできます。 書き出し先は次のとおりです。
+必要に応じて、レポート全体（または特定のブロック）をファイルフォーマットに書き出すことができます。書き出し先は次のとおりです。
 
 * PDF（現在無効）
 * CSV
@@ -21,20 +22,20 @@ ht-degree: 2%
 
 ## 前提条件
 
-開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+開始する前に、レポートキャンバス Beta に登録する必要があります。詳しくは、[レポートキャンバス Beta：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)を参照してください。
 
-## レポートのエクスポート
+## レポートを書き出す
 
-1. エクスポートするレポートに移動します。
-1. レポートのヘッダーで、 **その他** アイコン ![](assets/more-icon-27x15.png)をクリックし、 **書き出し**&#x200B;をクリックし、作成するファイル形式を選択します。
+1. 書き出すレポートに移動します。
+1. レポートのヘッダーで、**その他**&#x200B;アイコン ![](assets/more-icon-27x15.png) をクリックして「**書き出し**」をクリックし、作成するファイル形式を選択します。
 
    >[!NOTE]
    >
    >書き出したファイルに関しては、次の点を考慮してください。
    >
    >   * 複数のテーブルを含むレポートを XLSX 形式で書き出す場合、書き出されたファイルには、テーブルごとに別々のシートが含まれます。
-   >   * 複数のテーブルを含むレポートを CSV 形式でエクスポートする場合、エクスポート結果は、各テーブルに対して個別のファイルを含む zip 形式のフォルダになります。
-   >   * グループ化された行を含むテーブルを CSV 形式で書き出す場合、CSV ファイルにはすべての行が含まれますが、グループには表示されません。
+   >   * 複数のテーブルを含むレポートを CSV 形式で書き出す場合、書き出しの結果として、各テーブルごとの個別のファイルを含む zip 形式のフォルダーが出力されます。
+   >   * グループ化された行を含むテーブルを CSV 形式で書き出す場合、CSV ファイルにはすべての行が含まれますが、グループ化されずに表示されます。
    >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
