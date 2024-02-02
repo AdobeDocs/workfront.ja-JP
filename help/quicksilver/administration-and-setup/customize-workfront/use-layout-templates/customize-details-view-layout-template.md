@@ -3,15 +3,15 @@ title: レイアウトテンプレートを使用して詳細ビューをカス�
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Workfrontの管理者は、タスク、イシュー、ドキュメント、プログラムまたはポートフォリオの表示中にユーザーが左のパネルの「詳細」セクションを選択したときに表示される情報を、レイアウトテンプレートを使用して決定できます。
+description: Workfront 管理者は、タスク、イシュー、ドキュメント、プログラム、またはポートフォリオの表示中にユーザーが左側のパネルの「詳細」セクションを選択したときに表示される情報を、レイアウトテンプレートを使用して決定できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Adobe Workfront管理者は、レイアウトテンプレートを使用して、ユーザーが「詳細」アイコンをクリックしたときに表示される情報を決定できます ![](assets/project-details-icon.png) タスク、イシュー、ドキュメント、プログラム、またはポートフォリオを表示しているときに左のパネルに表示されます。
+Workfront 管理者は、タスク、イシュー、ドキュメント、プログラム、またはポートフォリオの表示中にユーザーが左側のパネルの詳細アイコン ![](assets/project-details-icon.png) をクリックしたときに表示される情報を、レイアウトテンプレートを使用して決定できます。
 
 <!--
 or billing record
 -->
 
-また、この情報が表示される情報の順序を変更することもできます。 例えば、ユーザーに表示されるすべてのタスクについて、ユーザーに表示されるすべてのタスクのカスタムForms情報を詳細ビューの先頭に移動できます。
+また、この情報が表示される情報の順序を変更することもできます。例えば、ユーザーに表示されるすべてのタスクについて、カスタムフォーム情報をユーザーに表示されるすべてのタスクの詳細ビューの上部に移動できます。
 
-レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーをレイアウトテンプレートに割り当てる](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
-オブジェクトの [ 詳細 ] ビューに加えた変更は、次の領域でユーザーが表示するフィールドの使用可否と順序も決まります。
+オブジェクトの詳細ビューに加えた変更により、次のエリアでユーザーに表示されるフィールドの可用性と順序も決まります。
 
 
 * 「オブジェクトを作成」ボックス（「タスクを作成」など）
@@ -41,29 +41,29 @@ or billing record
   ![](assets/new-task-dialog.png)
 
 
-* タスクの編集、問題の編集、プロジェクトの編集など、オブジェクトの編集時の「オブジェクトの編集」画面
+* タスクを編集、イシューを編集、プロジェクトを編集など、オブジェクトの編集時の「オブジェクトを編集」画面
 
   ![](assets/edit-task-screen.png)
 
 
-* オブジェクトを一括編集する際の「オブジェクトの編集」画面。 現在、これはプロジェクトの一括編集でサポートされています。
+* オブジェクトを一括編集する際の「オブジェクトを編集」画面。現在、これはプロジェクトの一括編集でサポートされています。
 
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* 概要 ![](assets/summary-panel-icon.png) タスクと問題のリストのパネル
+* タスクとイシューのリストの概要 ![](assets/summary-panel-icon.png) パネル
 
   ![](assets/summary-area.png)
 
   >[!NOTE]
   >
-  >レイアウトテンプレートの変更は、ログインしたユーザーに割り当てられたタスクと問題に対してのみ、概要パネルのフィールドの順序と使用可能性に影響します。
+  >レイアウトテンプレートの変更は、ログインしたユーザーに割り当てられたタスクとイシューに対してのみ、概要パネルのフィールドの順序と可用性に影響します。
 
-* [ 懸案事項をタスクに変換する ] ボックスや [ 懸案事項をプロジェクトに変換する ] ボックスなどの変換ボックスを使用します。
+* 「イシューをタスクに変換」ボックスや「イシューをプロジェクトに変換」ボックスなどの変換ボックス。
 
-  ![問題をタスクボックスに変換](assets/convert-issue-to-task-box.png)
+  ![「イシューをタスクに変換」ボックス](assets/convert-issue-to-task-box.png)
 
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
 ## アクセス要件
 
@@ -74,33 +74,33 @@ or billing record
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 詳細表示でユーザーに表示する内容をカスタマイズする
+## 詳細ビューでユーザーに表示する項目をカスタマイズする
 
-1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 下向き矢印をクリックします。 ![](assets/dropdown-arrow-12x12.png) under **ユーザーに表示する内容をカスタマイズする**&#x200B;を選択し、次に **プロジェクト**, **タスク**, **問題**, **プログラム**&#x200B;または **Portfolio。**
+1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
+1. 「**ユーザーの表示項目をカスタマイズする**」で下矢印![](assets/dropdown-arrow-12x12.png)をクリックして、「**プロジェクト**」、「**タスク**」、「**イシュー**」、「**プログラム**」、または「**ポートフォリオ**」をクリックします。
 <!--
 , or billing record
 -->
 
-1. Adobe Analytics の **詳細** 「 」セクションで、次のいずれかの操作を行って、詳細ビューに表示する内容をカスタマイズします。
+1. 「**詳細**」セクションで、次のいずれかの操作を行って、詳細ビューに表示する項目をカスタマイズします。
 
-   * 任意のセクションヘッダーをドラッグ ![](assets/move-icon---dots.png) 順序を変更する
-   * 以下のオプションを有効または無効にします。 **概要** および **カスタムForms** 表示/非表示を切り替えます。
+   * 任意のセクションヘッダー ![](assets/move-icon---dots.png) をドラッグして、順序を変更します。
+   * **概要**&#x200B;および&#x200B;**カスタムフォーム**&#x200B;でオプションを有効または無効にして、それらを表示または非表示にします。
 
      これらのセクションの 1 つですべてのフィールドを非表示にした場合、セクション全体が非表示になります。
 
@@ -110,8 +110,8 @@ or billing record
 
    または
 
-   カスタマイズが終了したら、 **保存**.
+   カスタマイズが完了したら、「**保存**」をクリックします。
 
    >[!TIP]
    >
-   >「保存」はいつでもクリックして進行状況を保存でき、後でテンプレートの変更を続行できます。
+   >いつでも「保存」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
