@@ -1,25 +1,25 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: リソース・プランナの検索
-description: 「( この記事は以下のものから出てきました。この記事が公開されたときに記事の内容を下書きします。/Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)'
+title: リソースプランナーを配置
+description: 「（次の記事を元としています。これが公開されたら、記事内のコンテンツのドラフトを作成してください：/Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html）」
 author: Alina
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
 source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# リソース・プランナの検索
+# リソースプランナーを配置
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This came off this article: draft that content in the article when this comes live: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)</p>
 -->
 
-リソース・プランナを使用して、プロジェクトへのリソースの割り当てを管理できます。 複数のプロジェクトのリソース・プランナに同時にアクセスするか、1 つのプロジェクトの場合は、プロジェクトの「ビジネス・ケース」領域からアクセスできます。
+リソースプランナーを使用して、プロジェクトへのリソースの配分を管理できます。リソースプランナーへは、プロジェクトの「ビジネスケース」エリアから、同時に複数のプロジェクトに対して、または 1 つのプロジェクトに対してアクセスすることができます。
 
 ## アクセス要件
 
@@ -30,77 +30,77 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> <p>レビュー以上<!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
       </MadCap:conditionalText>
-     --></p> <p>グローバル・エリアにリソース・プランナを配置するには、計画を立てるか、それ以上を設定します。</p> </td> 
+     --></p> <p>グローバルエリアにリソースプランナーを配置するには、プラン以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>リソース管理へのアクセス権以上の表示</p> <p><b>メモ</b>
+   <td> <p>リソース管理に対する表示以上のアクセス権</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトおよびユーザーに対する権限を表示 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトおよびユーザーに対する表示権限 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
 ## 前提条件
 
-リソースプランナーにアクセスし、使用するためのすべての前提条件が満たされていることを確認してから、使用を開始してください。 これにより、リソースの予算を作成する前に、リソース・プランナに正しい情報が表示されることを確認できます。
+リソースプランナーにアクセスし、使用するためのすべての前提条件が満たされていることを確認してから、使用を開始してください。これにより、リソースの予算計上を開始する前に、リソースプランナーに正しい情報が表示されることを確認できます。
 
-リソース・プランナの前提条件については、 [リソース計画の概要](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+リソースプランナーの前提条件について詳しくは、[リソース計画の概要](../../resource-mgmt/resource-planning/get-started-resource-planning.md)を参照してください。
 
-## リソース・プランナの検索
+## リソースプランナーを配置
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
 -->
 
-リソースプランナーは、複数のプロジェクトに対してリソースを予算するか、1 つのプロジェクトに対してのみ予算を割り当てるかに応じて、Workfrontの 2 つの領域に配置できます。
+複数のプロジェクトに対してリソースを予算計上するか、1 つのプロジェクトに対してのみ予算を計上するかに応じて、リソースプランナーを Workfront の 2 つのエリアに配置することができます。
 
 * [複数のプロジェクトに対してリソースプランナーを使用](#use-the-resource-planner-for-multiple-projects)
 * [1 つのプロジェクトに対してリソースプランナーを使用](#use-the-resource-planner-for-one-project)
 
 ### 複数のプロジェクトに対してリソースプランナーを使用 {#use-the-resource-planner-for-multiple-projects}
 
-複数のプロジェクトに対してリソース・プランナを使用する場合、リソースの割付数は、複数のプロジェクトにわたる数値を表します。
+複数のプロジェクトに対してリソースプランナーを使用する場合、リソースの配分数は、複数のプロジェクトにわたる数値を表します。
 
-「生産資源」領域の「プランナ」セクションにアクセスする手順は、次のとおりです。
+「リソース」エリアの「計画担当者」セクションにアクセスするには：
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
 
-1. クリック **リソース**. プランナはデフォルトで表示されます。  リソース・プランナでの予算リソースの詳細は、この記事を参照してください。 [「プロジェクト」ビューと「ロール」ビューを使用する、リソースプランナーの予算リソース](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+1. 「**リソース**」をクリックします。「計画担当者」が、デフォルトで表示されます。リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
 
    ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. 左のパネルにマウスポインターを置いて、 **リソースプール**.\
-   リソースプールの作成の詳細については、 [資源プールの作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+1. 左パネルにポインタを合わせて、「**リソースプール**」をクリックします。\
+   リソースプールの作成について詳しくは、[リソースプールを作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
 
 ### 1 つのプロジェクトに対してリソースプランナーを使用 {#use-the-resource-planner-for-one-project}
 
-1 つのプロジェクトに対してリソースプランナーを使用する場合、リソースの割り当て数は、選択したプロジェクトの数を表します。
+1 つのプロジェクトに対してリソースプランナーを使用する場合、リソースの配分数は、選択したプロジェクトの数値を表します。
 
-1. リソースを予算するプロジェクトに移動します。
-1. クリック **ビジネス事例** をクリックします。
-1. スクロールして **リソース予算設定** 」の項を参照してください。
-1. クリック **リソース予算の編集** リソースプールをプロジェクトに追加し、リソースの予算を作成し始めます。
+1. リソースを予算計上するプロジェクトに移動します。
+1. 左パネルの「**ビジネスケース**」をクリックします。
+1. ビジネスケースの「**リソース予算計上**」セクションまでスクロールします。
+1. 「**リソース予算計上の編集**」をクリックしてリソースプールをプロジェクトに追加し、リソースの予算計上を開始します。
 
    >[!TIP]
    >
-   >プロジェクトにリソースプールが関連付けられていない場合は、ビジネスケースの「リソース予算設定」領域にリソースプールのみ追加できます。 プロジェクトに既にリソースプールが存在する場合、プール内のユーザーとそのジョブの役割は、デフォルトで「リソース予算」領域に表示されます。
+   >ビジネスケースの「リソース予算計上」エリアにリソースプールを追加できるのは、プロジェクトにリソースプールが関連付けられていない場合のみです。プロジェクトに既にリソースプールが存在する場合、プール内のユーザーとその担当業務が、「リソース予算計上」エリアにデフォルトで表示されます。
 
    ![](assets/resource-budgeting-area-on-project-350x70.png)
 
-   1 つのプロジェクトの予算リソースの詳細については、「 [ビジネス事例の予算リソース](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   1 つのプロジェクトのリソースの予算計上について詳しくは、[ビジネスケースのリソース予算計上](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
