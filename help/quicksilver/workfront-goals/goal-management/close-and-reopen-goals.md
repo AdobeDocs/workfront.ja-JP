@@ -1,26 +1,26 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront目標の目標を閉じて再度開く
-description: 目標が完了したこと、または目標が古くなったために作業を終了したことを示す場合は、目標を閉じることができます。
+title: Adobe Workfront Goals での目標のクローズと再オープン
+description: 目標が完了したこと、または目標が古くなったので作業を終了したことを示す場合は、目標をクローズすることができます。
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
 source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '908'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標の目標を閉じて再度開く
+# Adobe Workfront Goals での目標のクローズと再オープン
 
-以下を示す必要がある場合は、目標を閉じることができます。
+以下を示す必要がある場合は、目標をクローズすることができます。
 
-* 目標は、達成したか、期間が経過したために実行されます。
-* 現在、作業を行っておらず、近い将来に作業を行う予定もありません。
+* 目標が、達成されたか期間が経過したので完了している。
+* もう作業を行っておらず、近い将来に作業を行う予定もない。
 
-関連性が再び高まったときに閉じた目標を再度開くことができます。
+関わりを持つようになったときに、クローズした目標を再度開くことができます。
 
 ## アクセス要件
 
@@ -84,23 +84,23 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront目標の使用要件</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>目標以降へのアクセスを編集</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+   <td> <p>Goals 以上への編集アクセス権</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -108,39 +108,39 @@ ht-degree: 0%
    <td> 
     <div> 
      <p>目標に対する権限の管理</p> 
-     <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
+     <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## 前提条件
 
-を起動する前に、次の条件を満たす必要があります。
+開始するには、まず以下が必要です。
 
-* メインメニューの目標領域を含むレイアウトテンプレート。
+* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 
-## 目標を閉じる、または再度開く際の考慮事項
+## 目標をクローズまたは再度開く際の考慮事項
 
-* 目標を閉じて再度開くには、アクセスレベルで目標の編集権限が必要です。 目標へのアクセス権の付与について詳しくは、 [Adobe Workfront目標へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
-* アクティブな目標のみを閉じることができます。 ドラフトステータスの目標を閉じることはできません。
+* 目標をクローズして再度開くには、目標の編集アクセス権がアクセスレベルで必要です。目標へのアクセス権の付与については、[Adobe Workfront Goals へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)を参照してください。
+* アクティブな目標のみをクローズすることができます。ドラフトステータスの目標をクローズすることはできません。
 
-   目標ステータスについて詳しくは、 [Adobe Workfront目標の目標ステータスの概要](../../workfront-goals/goal-management/goal-status-overview.md).
+  目標ステータスについては、[Adobe Workfront Goals の目標ステータスの概要](../../workfront-goals/goal-management/goal-status-overview.md)を参照してください。
 
-* 目標を閉じると、進行中のロックがロックされ、目標を達成した実績を評価できます。
+* 目標をクローズすると、その進捗がロックされ、目標の達成度を評価できます。
 
-   >[!CAUTION]
-   >
-   >アクティブな貢献目標を持つ目標をクローズすると、クローズ後に進捗状況が変化し、貢献するアクティブな目標の進捗状況が示されます。 目標の調整について詳しくは、 [目標をAdobe Workfront目標に結び付けて整列させる](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  >[!CAUTION]
+  >
+  >貢献するアクティブな目標を持つ目標をクローズすると、クローズした後に進捗状況が変化して、貢献するアクティブな目標の進捗状況が示されます。目標の整合については、[Adobe Workfront Goals での目標の接続による目標の整合](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)を参照してください。
 
-* 目標を閉じる前に目標の進行状況インジケーターを更新し、正確な進行状況の値で目標が確実に終了するようにします。 すべての進行状況指標を達成した場合、目標達成率は 100%になり、目標は達成されています。 目標の更新について詳しくは、 [Adobe Workfront目標での目標の進捗状況の更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-* 最後のコメントは、閉じた目標の更新として残します。 目標へのコメントの追加について詳しくは、 [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
-* 終了した目標に関する結果やアクティビティの進行状況を更新できなくなりました。
-* 終了した目標に対して作業を続行する場合は、その目標を再度開くことができます。
-* 目標を達成していない場合は、情報のほとんどを次の期間（四半期または年）にコピーすることを検討します。 これは、ある期間から次の期間に同じ目標や、次の期間で達成するためにまだ作業が必要な目標に対する優れたオプションです。 目標のコピーについて詳しくは、 [Adobe Workfront目標のコピー](../../workfront-goals/goal-management/copy-goals.md). 別の期間にコピーする代わりに、目標の期間を更新することもできます。
-* Workfrontは、閉じた目標を再度開くと、その目標のコメントを削除します。 コメントを保持する必要がある場合は、閉じた目標を再度開くのではなく、その目標に関連付けられた結果も含めてコピーすることをお勧めします。
+* 目標をクローズする前に目標の進捗状況インジケーターを更新して、必ず正確な進捗状況で目標をクローズするようにします。すべての進捗状況インジケーターを達成した場合、目標の完了率は 100％になり、目標は達成されました。目標の更新については、[Adobe Workfront Goals での目標の進捗状況の更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
+* 最後のコメントがあれば、クローズする目標の更新として残します。目標へのコメントの追加については、[Adobe Workfront Goals での目標コメントの管理](../../workfront-goals/goal-management/manage-goal-comments.md)を参照してください。
+* クローズした目標に関する結果やアクティビティの進捗状況は更新できなくなります。
+* クローズした目標に引き続き取り組む場合は、その目標を再度開くことができます。
+* 目標を達成していない場合は、情報のほとんどを次の期間（四半期または年）にコピーすることを検討してください。これは、ある期間から次の期間にかけて目標が同じ場合や、目標を達成するための作業が次の期間でもまだ必要な場合に有効な選択肢です。目標のコピーについては、[Adobe Workfront Goals での目標のコピー](../../workfront-goals/goal-management/copy-goals.md)を参照してください。別の期間にコピーする代わりに、目標の期間を更新することもできます。
+* 閉じた目標を再度開くと、その目標のコメントは削除されます。コメントを保持する必要がある場合は、閉じた目標を再び開くのではなく、その目標に関連付けられた結果も含めてコピーすることをお勧めします。
 
 
 ## 目標を閉じる
@@ -182,42 +182,42 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) > **目標** をクリックします。
+1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)／**目標**&#x200B;をクリックします。
 
    目標リストが開きます。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-1. （オプション）アクティブな目標のみを表示するようにフィルターを変更します。
+1. （オプション）フィルターを変更して、アクティブな目標のみを表示します。
 
-   Workfront目標での情報のフィルターについて詳しくは、 [Adobe Workfront目標での情報のフィルター](../goal-management/filter-information-wf-goals.md).
+   Workfront Goals での情報のフィルタリングについて詳しくは、[Adobe Workfront Goals での情報のフィルタリング](../goal-management/filter-information-wf-goals.md)を参照してください。
 1. アクティブな目標をクリックします。
 
    目標ページが開きます。
 
    ![](assets/goal-page-unshimmed.png)
-1. 次をクリック： **詳細** メニュー ![](assets/more-icon.png) 目標名の右に移動し、 **閉じる**.
+1. 目標名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックして、「**閉じる**」を選択します。
 
    目標が閉じ、画面の右上隅に確認メッセージが表示されます。
 
    ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
-1. （オプション）確認ボックスで、 **終了メモを追加** この目標に関するコメントを追加し、その目標を閉じる必要がある理由を示します。
-1. クロージングノートを追加し、「 **メモを追加**.
+1. （オプション）確認ボックスで、「**クローズメモを追加**」をクリックして、この目標についてと、なぜ閉じる必要があるかについてのコメントを追加します。
+1. クローズメモを追加し、「**メモを追加**」をクリックします。
 
    ![](assets/add-closing-notes-box-unshimmed.png)
 
-   コメントは、目標のページの「目標の詳細」セクションの「クローズノート」領域に表示されます。
+   コメントは、目標のページの「目標の詳細」セクションにあるクローズメモエリアに表示されます。
 
    >[!NOTE]
    >
-   >終了した目標を後で再度開くと、Workfrontは終了日を削除します。
+   >クローズした目標を後で再度開くと、クローズメモが削除されます。
 
 
 ## 目標を再度開く
 
-クローズした目標が再び関連性を持ち、進行状況を更新し続ける必要があると判断した場合は、再度クローズした目標を開くことができます。
+クローズした目標に再び関連性が生じ、進捗を更新し続ける必要があると判断した場合は、クローズした目標を再度開くことができます。
 
 <!--
 Reopening goals differs depending on what environment you use.
@@ -248,25 +248,25 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png)> **目標** をクリックします。
+1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) ／**目標**&#x200B;をクリックします。
 
    目標リストが開きます。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-1. （オプション）閉じられた目標のみを表示するようにフィルターを変更します。
+1. （オプション）クローズした目標のみを表示するようにフィルターを変更します。
 
-   Workfront目標での情報のフィルターについて詳しくは、 [Adobe Workfront目標での情報のフィルター](../goal-management/filter-information-wf-goals.md).
+   Workfront Goals での情報のフィルタリングについて詳しくは、[Adobe Workfront Goals での情報のフィルタリング](../goal-management/filter-information-wf-goals.md)を参照してください。
 1. クローズした目標の名前をクリックします。
 
    目標ページが開きます。
-1. 次をクリック： **詳細** メニュー ![](assets/more-icon.png) を設定し、 **再度開く** > **再度開く**.
+1. 目標名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックして、**再開**／**再開**&#x200B;をクリックします。
 
    次のことが発生します。
-   * 目標は現在開いており、ステータスは「アクティブ」です。
-   * 目標の進捗は現在の日付から再計算されます。
-   * すべての終了メモは、目標の詳細ページから削除されます。 削除したクロージングノートは復元できません。
+   * 目標が開き、ステータスが「アクティブ」になります。
+   * 目標の進捗が現在の日付から再計算されます。
+   * すべてのクローズメモが目標の詳細ページから削除されます。削除されたクローズメモは復元できません。
 
 1. （オプション）アクティブな目標のみを表示するようにフィルターを再度変更します。
 
