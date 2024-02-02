@@ -7,9 +7,9 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
 source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -17,84 +17,83 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->組織は、 [!DNL Adobe Workfront Scenario Planner] プロジェクトのイニシアチブ情報を表示できます。 詳しくは、 [!DNL Workfront Scenario Planner]を参照してください。 [シナリオ・プランナを使用するために必要なアクセス](../scenario-planner/access-needed-to-use-sp.md) .
+>プロジェクトのイニシアチブ情報を表示するには、組織は [!DNL Adobe Workfront Scenario Planner] の追加ライセンスを購入する必要があります。[!DNL Workfront Scenario Planner] の取得について詳しくは、[シナリオプランナーを使用する際に必要なアクセス権](../scenario-planner/access-needed-to-use-sp.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>
 -->
 
-プロジェクトとイニシアチブを結び付けて、戦略計画と実際の作業を確実に同期させることができます。 戦略計画とイニシアチブの概要を [!DNL Scenario Planner] プロジェクトで実際の作業を計画すると、プロジェクトとイニシアチブの両方でリソースが一致するようになり、割り当て超過や過剰な利用を回避できます。
+プロジェクトとイニシアチブを接続して、戦略計画と実際の作業を同期させることができます。戦略計画とイニシアチブを [!DNL Scenario Planner] で概説し、プロジェクトで実際の作業を計画すると、プロジェクトとイニシアチブの両方でリソースが一致するようになるので、割り当ての超過と不足を避けられます。
 
 ## 前提条件
 
-開始する前に、次の情報が必要です。
+開始する前に以下が必要です。
 
-* 内のプラン [!DNL Scenario Planner] イニシアチブがプロジェクトに関連付けられている
-* イニシアチブに必要なジョブの役割の割り当て。
-* 計画時間を持ち、次のいずれかに割り当てられたプロジェクトのタスクまたはタスク。
+* プロジェクトに接続されたイニシアチブがある [!DNL Scenario Planner] のプラン
+* イニシアチブに必要な担当業務の割り当て。
+* 予定時間数があり、次のいずれかに割り当てられたプロジェクトのタスクまたはイシュー
 
    * 担当業務
-   * ジョブの役割に関連付けられたユーザー
+   * 担当業務に関連付けられたユーザー
 
-## プロジェクトとイニシアチブの連携
+## プロジェクトとイニシアチブの接続
 
 >[!NOTE]
 >
->組織がプロジェクトの追加ライセンスを購入している場合にのみ、イニシアチブを作成してプロジェクトに接続できます [!DNL Workfront Scenario Planner].
+>組織が [!DNL Workfront Scenario Planner] の追加のライセンスを購入している場合にのみ、イニシアチブを作成してプロジェクトに接続できます。
 
-次のいずれかの操作を行うことで、プロジェクトとイニシアチブを結び付けることができます。
+次のいずれかの操作を行うことで、プロジェクトとイニシアチブを接続することができます。
 
-* 新規イニシアチブとしてプロジェクトをプランにインポート
+* 新しいイニシアチブとしてのプランへのプロジェクトのインポート
 
-   詳しくは、 [内のプランにプロジェクトをインポート [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でのプランへのプロジェクトのインポートを参照してください。
 
 * プロジェクトへのイニシアチブの公開
 
-   詳しくは、 [プロジェクトを更新または作成するには、 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) .
+  詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトの更新または作成を参照してください。
 
-両方のプロセスによって、プロジェクトと対応するイニシアチブとの間に接続が作成されます。 接続後、リソースの割り当てを比較し、それらが一致していることを確認することで、リソースの割り当てを管理できます。
+両方のプロセスによって、プロジェクトと対応するイニシアチブとの間に接続が作成されます。接続後、リソースの割り当てを比較し、それらが一致していることを確認することで、リソースの割り当てを管理できます。
 
 ## リンクされたプロジェクトとイニシアチブでのリソースの調整に関する考慮事項
 
 >[!NOTE]
 >
->組織がプロジェクトの追加ライセンスを購入した場合にのみ、イニシアチブを表示し、プロジェクトに接続し、プロジェクトに対するリソース割り当てを表示できます [!DNL Workfront Scenario Planner].
+>組織が [!DNL Workfront Scenario Planner] の追加のライセンスを購入した場合にのみ、イニシアチブを表示し、プロジェクトに接続し、プロジェクトに対するリソースの割り当てを表示できます。
 
-* プロジェクト上の作業項目にユーザー、チーム、ジョブの役割を割り当てたり、ジョブの役割をイニシアチブに割り当てたりできます。 その結果、プロジェクトとイニシアチブ間でのジョブの役割の紐付けのみが可能になります。
+* プロジェクト上の作業項目にユーザー、チーム、担当業務を割り当てたり、担当業務をイニシアチブに割り当てたりできます。つまり、プロジェクトとイニシアチブ間で調整できるのは担当業務のみとなります。
 
-   >[!TIP]
-   >
-   >プロジェクトでのユーザーの時間を、イニシアチブに対するロール割り当てと紐付けするには、ユーザーをジョブロールに関連付ける必要があります。
+  >[!TIP]
+  >
+  >プロジェクトでのユーザーの時間とイニシアチブでの役割の割り当てを一致させるには、ユーザーを担当業務に関連付ける必要があります。
 
-* プロジェクトの次の領域で、リンクされたプロジェクトに対するイニシアチブのジョブの役割の割り当てを表示できます。
+* プロジェクトの次のエリアで、リンクされたプロジェクトに対するイニシアチブの担当業務の割り当てを表示できます。
 
-   * [!DNL Scenario Planner] セクション [!UICONTROL プロジェクトの詳細] 領域を選択します。 詳しくは、次の記事を参照してください。
+   * プロジェクトの「[!UICONTROL プロジェクト詳細]」エリアの [!DNL Scenario Planner] のセクション詳しくは、次の記事を参照してください。
 
-      * [プロジェクトを更新または作成するには、 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
-      * [プロジェクト内の情報の管理 [!UICONTROL 概要] 領域](../manage-work/projects/manage-projects/understand-project-overview-area.md)
+      * [ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトの更新または作成
+      * [プロジェクトの[!UICONTROL 概要]エリアでの情報の管理](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
-      >[!TIP]
-      >
-      >プロジェクトとイニシアチブの役割情報を [!DNL Scenario Planner] セクション [!UICONTROL プロジェクトの詳細].
+     >[!TIP]
+     >
+     >プロジェクトとイニシアチブの担当業務の情報は、[!UICONTROL プロジェクト詳細]の [!DNL Scenario Planner] のセクションに表示されません。
 
-   * この [!UICONTROL ロールの配分] パネルは、次の領域にあります。
+   * 次のエリアにある「[!UICONTROL 役割割り当て]」パネル
 
-      * [!UICONTROL ワークロードバランサー] プロジェクトの
+      * プロジェクトの[!UICONTROL ワークロードバランサー]
 
-         イニシアチブと、 [!UICONTROL ワークロードバランサー]を参照してください。 [内のプロジェクトおよびイニシアチブに対する役割割り当てを表示 [!UICONTROL ワークロードバランサー]](../scenario-planner/show-role-allocation-workload-balancer.md).
+        [!UICONTROL ワークロードバランサー]内のイニシアチブとリンク済みプロジェクト間の役割割り当てを表示および調整する方法について詳しくは、[[!UICONTROL ワークロードバランサー]](../scenario-planner/show-role-allocation-workload-balancer.md)内のプロジェクトおよびイニシアチブに対する役割割り当ての表示を参照してください。
 
-      * [!UICONTROL タスク] セクション
+      * [!UICONTROL タスク]セクション
 
-         イニシアチブと、 [!UICONTROL タスク] セクション： [タスクリストのプロジェクトおよびイニシアチブのロール割り当てを表示](../scenario-planner/show-role-allocation-task-list-nwe.md).
-      >[!TIP]
-      >
-      >プロジェクトとイニシアチブの役割情報を、 [!UICONTROL ロールの配分] パネル。
+        「[!UICONTROL タスク]」セクション内のイニシアチブとリンク済みプロジェクト間の役割割り当てを調整する方法について詳しくは、[タスクリスト内のプロジェクトとイニシアチブの役割割り当ての表示](../scenario-planner/show-role-allocation-task-list-nwe.md)を参照してください。
 
+     >[!TIP]
+     >
+     >プロジェクトとイニシアチブの担当業務に関する情報は、「[!UICONTROL 役割割り当て]」パネルに表示されます。
 
+* リンクされたイニシアチブのプロジェクトに対する担当業務の割り当ては表示できません。詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランへのプロジェクトのインポートを参照してください。
 
-* リンクされたイニシアチブのプロジェクトに対するジョブの役割の割り当てを表示できません。 詳しくは、 [内のプランにプロジェクトをインポート [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
-
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this might change - project job role visibility into initiative)
   </MadCap:conditionalText>
