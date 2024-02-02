@@ -1,26 +1,26 @@
 ---
 product-area: enterprise-scenario-planner-product-area
-keywords: プラン，権限，共有，イニシアチブ，シナリオ，シナリオ
+keywords: プラン,権限,共有,イニシアチブ,シナリオ
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: シナリオプランナーでのプランの共有
-description: Adobe Workfront Scenario Planner で作成したプランを他のユーザーと共有できます。
+description: Adobe Workfront シナリオプランナーで作成したプランを他のユーザーと共有できます。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
 source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '916'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# プランを [!DNL Scenario Planner]
+# [!DNL Scenario Planner]でのプランの共有
 
-プランは [!DNL Adobe Workfront Scenario Planner] 他のユーザーと共同で作業を行うことができます。
+[!DNL Adobe Workfront Scenario Planner]でプランを他のユーザーと共有して、自分と同じ作業を他のユーザーと共同で行うことができます。
 
 >[!TIP]
 >
->プランへのリンクを他のユーザーに送信する場合は、プランを他のユーザーと共有して、プランを表示できるようにする必要があります。
+>プランへのリンクを他のユーザーに送信する場合は、そのプランも共有して、他のユーザーがプランを表示できるようにする必要があります。
 
 ## アクセス要件
 
@@ -31,79 +31,78 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 計画*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> プラン*</b> </p> </td> 
    <td>[!UICONTROL Business] 以降</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> ライセンス*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>ライセンス*</b> </p> </td> 
    <td> <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
   <tr> 
    <td><b>製品</b> </td> 
-   <td> <p>の追加ライセンスを購入する必要があります。 [!DNL Adobe Workfront Scenario Planner] をクリックして、この記事で説明する機能にアクセスします。</p> <p>詳しくは、 [!DNL Workfront Scenario Planner]を参照してください。 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">を使用するために必要なアクセス [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の入手については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>[!UICONTROL 編集 ] で [!DNL Scenario Planner]</p> <p>まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者は、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> <p>それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>オブジェクト権限</strong> </p> </td> 
-   <td> <p> プランに対する [!UICONTROL 管理 ] 権限
-     <p>プランへの追加アクセス権のリクエストについて詳しくは、 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!UICONTROL リクエスト ] で [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
+   <td> <p> 計画の[!UICONTROL Manage]権限
+     <p>計画への追加アクセス権の申請については、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a>での計画へのアクセス権の[!UICONTROL Request]を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## 前提条件
 
-* プランに対して権限を付与されたユーザーは、 [!DNL Scenario Planner] の領域（ユーザーが付与するアクセスレベル） [!DNL Workfront] 管理者（プランに対する権限を受け取るため）
+* 計画への権限を付与されたユーザーが計画への権限を受け取るには、[!DNL Workfront] 管理者から[!DNL Scenario Planner]エリアへのアクセス権がアクセスレベルに付与されている必要があります。
 
-   例： [!UICONTROL リクエスタ] プランの表示、作成、編集はできません。 要求者のライセンスを持つユーザーとプランを共有する場合は、この点に留意してください。
+  例えば、[!UICONTROL 要求者]は計画の表示、作成または編集を行えません。要求者ライセンスを持つユーザーと計画を共有する場合は、この点に留意してください。
 
 <!--
   NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
   -->
 
-の [!DNL Scenario Planner] 各種ライセンスの種類については、 [へのアクセス権の付与 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+様々なライセンスタイプの[!DNL Scenario Planner]へのアクセス権については、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)へのアクセス権の付与を参照してください。
 
-## プラン共有に関する考慮事項
+## 計画の共有に関する考慮事項
 
-* 1 つのプランを共有することも、複数のプランを一括で共有することもできます。
-* 自分が作成していないプランや、自分と共有されていないプランは表示できません。
-* プランは他のユーザーとのみ共有できます。 プランをグループ、チーム、会社と共有することはできません。
-* プランを共有する前に、まずプランを保存する必要があります。
-* プランに対する URL を別のユーザーと共有できます。 少なくともプランを表示する権限を持っていないユーザーは、URL を受け取ったときに別のユーザーにプランへのアクセスを要求できます。 プランへのアクセス権のリクエストについて詳しくは、 [内のプランへのアクセスをリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
-* 既に他のユーザーと共有されている複数のプランを共有する場合、共有したユーザーは置き換えられず、選択した各プランの既存のユーザーに追加されます。
+* 1 つの計画を共有することも、複数の計画を一括で共有することもできます。
+* 自分が作成していない計画または自分と共有されていない計画は表示できません。
+* 計画は他のユーザーとのみ共有できます。計画をグループ、チームまたは会社と共有することはできません。
+* 計画を共有するには、まず計画を保存する必要があります。
+* 計画の URL を別のユーザーと共有できます。少なくとも計画を表示する権限を持っていないユーザーは、URL を受け取ったときに、別のユーザーに計画へのアクセス権を申請できます。計画へのアクセス権の申請については、[ [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)での計画へのアクセス権の申請を参照してください。
+* 既に他のユーザーと共有している複数の計画を共有する場合、共有するユーザーは置き換えられず、選択した各計画の既存のユーザーに追加されます。
 
-## プランを共有
+## 計画の共有
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Workfrontの右上隅で、 **[!UICONTROL シナリオ]**.
-1. プランの名前をクリックして開きます
-
-   または
-
-   一括で共有するプランを複数選択します。
-
-   >[!TIP]
-   >
-   >プランのヘッダーの右上隅にある、プランの共有相手となるユーザーのアバターをクリックして、プランを共有できます。
-
-1. （条件付き）プランを開いた場合、 **[!UICONTROL 詳細]** アイコン ![](assets/more-icon.png) 右 [!UICONTROL プラン] 名前を入力し、「 **[!UICONTROL 共有]**
+1. Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL シナリオ]**」をクリックします。
+1. 計画の名前をクリックして、計画を開きます。
 
    または
 
-   複数のプランを選択して一括で共有する場合は、 **[!UICONTROL 共有]** アイコン ![](assets/share-icon-26x26.png) を開く予定のリストの一番上に [!UICONTROL プラン] アクセスボックス
+   複数の計画を選択して、それらを一括で共有します。
 
    >[!TIP]
    >
-   >* 選択したすべてのプランに対する権限を持つユーザーが、 [!UICONTROL プラン] アクセスボックス
-   >* 選択したすべてのプランで、追加のユーザーがに追加され、既存のユーザーは置き換えられません。
+   >計画のヘッダーの右上隅に表示されている、計画の共有相手となるユーザーのアバターをクリックすると、計画を共有できます。
 
+1. （条件付き）計画が開かれている場合は、[!UICONTROL 計画]の名前の右側にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、次に「**[!UICONTROL 共有]**」をクリックします。
 
-1. 内 **[!UICONTROL へのプランアクセス権の付与]** 「 」フィールドに、プランを共有するユーザーの名前を入力し、リストに表示されたら選択します。
-1. ユーザー名の右側にある権限ドロップダウンメニューから、プランに付与する権限のレベルを選択します。
+   または
+
+   複数の計画を選択して一括で共有する場合は、計画のリストの上部にある&#x200B;**[!UICONTROL 共有]**&#x200B;アイコン ![](assets/share-icon-26x26.png) をクリックして、[!UICONTROL 計画アクセス]ボックスを開きます。
+
+   >[!TIP]
+   >
+   >* 選択したすべての計画に対する権限を持つユーザーが、[!UICONTROL 計画アクセス]ボックスに表示されます。
+   >* 追加ユーザーは、選択したすべての計画の既存ユーザーに追加され、既存ユーザーを置き換えることはありません。
+
+1. 「**[!UICONTROL 計画へのアクセス権の付与先]**」フィールドに、計画を共有するユーザーの名前を入力していき、該当する名前がリストに表示されたら選択します。
+1. ユーザー名の右側にある権限ドロップダウンメニューから、ユーザーに付与する、計画に対する権限のレベルを選択します。
 1. 次の中から選択します。
 
    <table style="table-layout:auto"> 
@@ -111,33 +110,33 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 表示 ]</td> 
-      <td>プランを共有するユーザーには、プランを表示する権限が与えられます。 プランに関する情報の編集、イニシアチブ、シナリオの追加、シナリオの公開はできません。 </td> 
+      <td role="rowheader">[!UICONTROL View]</td> 
+      <td>計画を共有するユーザーには、計画を表示する権限が付与されます。計画に関する情報の編集、イニシアチブやシナリオの追加またはシナリオの公開はできません。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 管理 ]</td> 
-      <td> <p>プランを共有するユーザーには、プランを管理する権限があります。これには、情報の編集、イニシアチブの追加、シナリオの追加、プランの公開が含まれます。 </p> </td> 
+      <td role="rowheader">[!UICONTROL Manage]</td> 
+      <td> <p>計画を共有するユーザーには計画を管理する権限があります。この権限には、情報の編集、イニシアチブやシナリオの追加、計画の公開などが含まれます。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >プランは、作成時にのみ削除できます。 自分と共有されているプランは削除できません。
+   >計画を削除できるのは、それを自分が作成した場合のみです。自分と共有されている計画は削除できません。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   これで、プランが指定したユーザーと共有されます。
+   これで、指定したユーザーと計画が共有されます。
 
-   プランに対する権限を持つユーザーは、プランのリストの「自分と共有」列またはプランヘッダーの右上隅に表示できます。
+   計画に対する権限を持つユーザーは、計画のリストの「自分と共有」列または計画ヘッダーの右上隅に表示されます。
 
    >[!TIP]
    >
-   >自分と共有されているプランを表示するには、 [!UICONTROL 自分と共有済み] プランのリストでフィルターします。
+   >自分と共有されている計画を表示するには、計画のリストで[!UICONTROL 自分と共有]フィルターを適用します。
 
-## プラン権限オプション
+## 計画の権限オプション
 
-次の表に、プランを共有する際に付与できる権限を示します。 ユーザーがライセンスに基づいて取得するアクセスについて詳しくは、 [へのアクセス権の付与 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
+計画を共有する際に付与できる権限を次の表に示します。ライセンスに基づいてユーザーが取得するアクセス権について詳しくは、[へのアクセス権の付与 [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)を参照してください。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -146,13 +145,13 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th> <p><strong>アクション</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 管理 ]</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL 表示 ]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Manage]</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL View]</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>プランを表示 </p> </td> 
+   <td> <p>計画の表示 </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
@@ -162,22 +161,22 @@ ht-degree: 0%
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td>シナリオを表示</td> 
+   <td>シナリオの表示</td> 
    <td>✓</td> 
    <td><span style="font-weight: normal;">✓</span> </td> 
   </tr> 
   <tr> 
-   <td>ジョブの役割の表示</td> 
+   <td>担当業務の表示</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>コストと予算情報の表示*</td> 
+   <td>コストと予算の情報の表示*</td> 
    <td>✓</td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td>コストと予算情報の管理*</td> 
+   <td>コストと予算の情報の管理*</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -192,7 +191,7 @@ ht-degree: 0%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>イニシアチブまたはシナリオを削除</p> </td> 
+   <td> <p>イニシアチブまたはシナリオの削除</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -209,10 +208,10 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-*プランに対する権限を管理している場合でも、プランの財務情報を表示または管理するには、財務データへのアクセス権が必要です。 財務データへのアクセスについて詳しくは、 [財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+*計画に対する管理権限がある場合でも、計画の財務情報を表示または管理するには、財務データへのアクセス権が必要です。財務データへのアクセス権については、[財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
-**シナリオを公開するには、プロジェクトを管理するための作成権限と権限が必要です。
+**シナリオを公開するには、プロジェクトを作成するためのアクセス権とプロジェクトの管理権限が必要です。
 
-プロジェクトのアクセスレベルについては、 [プロジェクトへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+プロジェクトのアクセスレベルについては、[プロジェクトへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)を参照してください。
 
-プロジェクト権限について詳しくは、 [でプロジェクトを共有 [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でプロジェクトを共有を参照してください。
