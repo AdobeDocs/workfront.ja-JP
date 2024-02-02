@@ -10,9 +10,9 @@ role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '103'
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 この節では、次の記事を扱います。
 
-* [API エラー： 「リモートサーバーがエラーを返しました： (400) 無効なリクエスト」](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
-* [大きなページ分割検索中に返される重複](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
+* [API エラー：「リモートサーバーがエラーを返しました：(400) 無効なリクエスト」](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
+* [ページ分割された大規模な検索で重複する結果が返される](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [API でのクエリ結果の並べ替え](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
-* [emailAddr に対する更新は、ユーザー名を更新しません](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
-* [Adobe Workfront API を使用して配達確認を作成する際の詳細な校正オプションの追加](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+* [emailAddr を更新しても username が更新されない](../../wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
+* [Adobe Workfront API を使用してプルーフを作成する際の詳細校正オプションの追加](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
 * [OPTASK copyIssue のオプション設定](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
-* [通貨が null（割り当てられていない）の場合に、プロジェクトの通貨情報を取得します](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
-* [API を使用したリンクされたフォルダーの追加はサポートされていません](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+* [通貨が null（割り当てられていない）の場合に、プロジェクトの通貨情報を取得する](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
+* [API を使用したリンクされたフォルダーの追加がサポートされていない](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
 
