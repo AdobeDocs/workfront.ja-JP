@@ -7,93 +7,93 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 23.1 その他の機能強化
 
-このページでは、23.1 リリースでプレビュー環境に対しておこなわれたその他すべての機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用可能になる予定です。
+このページでは、23.1 リリースでプレビュー環境に対して行われたその他すべての機能強化について説明します。これらの機能強化は、2023年1月16日の週に実稼動環境で利用可能になる予定です。
 
-23.1 リリースで使用可能なすべての変更点の一覧については、 [23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+23.1 リリースで使用可能なすべての変更点の一覧について詳しく、[23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)を参照してください。
 
-## Adobe WorkfrontへのIllustratorのデザインおよびビデオプラグインの追加の紹介
+## Adobe Workfront for design and video プラグインに Illustrator を追加
 
-Adobe Illustratorを含むInDesignプラグインのためのAdobe Workfrontの拡張がお知らせします。
+Adobe Illustrator を含む InDesign プラグインのための Adobe Workfront の拡張がお知らせします。
 
-更新されたプラグイン（デザインおよびビデオ用）は、InDesign、Illustrator、Premiere Pro、After Effectsをサポートするようになりました。
+アップデートされた Adobe Workfront for design and video は、InDesign、Illustrator、Premiere Pro および After Effects をサポートするようになりました。
 
-このプラグインを使用すると、作業項目の詳細にアクセスしたり、更新領域の同僚と共同作業したり、お気に入りのCreative Cloudアプリケーションを離れることなく、すべての時間をログに記録したりできます。
+このプラグインを使用すると、作業アイテムの詳細にアクセスしたり、更新エリアの同僚社員と共同作業したり、お気に入りの Creative Cloud アプリケーションを離れることなく、すべての時間をログに記録したりできます。
 
-ダウンロード [Adobe Workfront（デザインとビデオ）](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) Marketplace today.
+Marketplace で [Adobe Workfront for design and video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) を本日ダウンロードしてください。
 
-管理者が [プラグインを使用してパッケージを作成する](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) Admin Consoleから、管理された方法または自己管理された方法でユーザーにデプロイします。
+管理者は Admin Console から[プラグインを使用してパッケージを作成する](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)ことができ、管理された方法または自己管理された方法でユーザーにデプロイします。
 
-## Adobe Workfrontで一般に利用可能な拡張フィルターエクスペリエンス
+## Adobe Workfront で一般に利用可能な拡張フィルターエクスペリエンス
 
-2022 年 8 月に、プロジェクト、タスクおよび問題リストに関するフィルターエクスペリエンスへのアップグレードがパブリックベータ版にリリースされました。 ほとんどのリストで、フィルター機能が強化されました。 ( これらのリストをすべて確認するには、 [23.1 ルックアンドフィールの更新に関するリリースノート](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+2022年8月に、プロジェクト、タスクおよびイシューリストに関するフィルターエクスペリエンスへのアップグレードがパブリックベータ版にリリースされました。ほとんどのリストで、フィルター機能が強化されました。（これらのリストをすべて確認するには、[23.1 ルックアンドフィールのアップデートに関するリリースノート](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)）をご確認ください。
 
-23.1 リリースの「高速フォロー」として、拡張フィルターエクスペリエンスは一般に利用可能になり、2023 年 2 月/3 月の期間に標準フィルタービルダーになります。
+23.1 リリースの「高速フォロー」として、強化されたフィルターエクスペリエンスは一般に利用可能になり、2023年2月／3月の期間に標準フィルタービルダーになります。
 
-次の機能は、Workfrontで拡張フィルターが一般に利用できるようになる前に利用できます。
+次の機能は、Workfront で拡張フィルターが一般利用が可能になる前に利用できます。
 
 * グローバルフィルター設定機能がフィルター設定ページに追加されます
-* システムのデフォルトのフィルターを追加および削除する機能が、レイアウトテンプレートに追加されます
+* システムのデフォルトフィルターを追加および削除する機能が、レイアウトテンプレートに追加されます
 * リストコントロールは非推奨になります
 
 これらの機能により、キュレーションされたフィルターリストがパブリックベータ版フィルターに正しく表示されない問題を修正しました。
 
-フィルターパネルでリストを有効にすることで、リストの従来のフィルターにアクセスできます。 レガシーフィルターは、今後リストで非推奨となりますが、レポートでは使用できないので、レポートでは引き続き使用できます。
+フィルターパネルでリストを有効にすることで、リストの従来のフィルターにアクセスできます。従来のフィルターは、今後リストで非推奨となりますが、拡張フィルターはレポートでは使用できないので、レポートでは引き続き使用できます。
 
-拡張フィルターとビデオデモについて詳しくは、 [フィルターパブリックベータリリースノート](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+拡張フィルターとビデオデモについて詳しくは、[フィルターパブリックベータリリースノート](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md)を参照してください。
 
-## インターフェイス/フィルター、ビューおよびグループ化の新しいリスト制御機能
+## インターフェイス／フィルター、ビューおよびグループ化の新しいリスト制御機能
 
-「設定」領域のフィルター、ビュー、グループ化ページにリスト制御機能を追加しました。 ここで、レイアウトテンプレートのフィルター、ビューおよびグループを有効または無効にできます。
+「設定」エリアのフィルター、ビュー、グループ化ページにリストコントロール機能を追加しました。ここで、レイアウトテンプレートのフィルター、ビューおよびグループ化を有効または無効にできます。
 
-詳しくは、 [デフォルトのフィルター、ビュー、グループを作成、編集および共有します](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+詳しくは、[デフォルトのフィルター、ビューおよびグループ化の作成、編集および共有](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)を参照してください。
 
-[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
-## デザインおよびビデオのためのAdobe Workfrontの概要
+## デザインおよびビデオ用 Adobe Workfront の導入
 
-Adobe Workfront、Adobe Premiere Pro、After Effectsを含むInDesignプラグインのためのの拡張をお知らせします。 プラグインの名前は、デザインとビデオでAdobe Workfrontに変更されます。
+Adobe Premiere Pro および After Effectsを含めた InDesign プラグインの Adobe Workfront 拡張をお知らせします。プラグインの名前は、デザインおよびビデオ用 Adobe Workfront に変更されます。
 
-更新されたAdobe Workfront（デザインおよびビデオ用）は、InDesign、Premiere Pro、After Effectsをサポートするようになりました。Illustratorは近日中に対応します。
+アップデートされたデザインおよびビデオ用 Adobe Workfront プラグインは、InDesign、Premiere Pro および After Effects をサポートするようになりました。Illustrator への対応は近日中に開始となります。
 
-このプラグインを使用すると、作業項目の詳細にアクセスしたり、更新領域の同僚と共同作業したり、お気に入りのCreative Cloudアプリケーションを離れることなく、すべての時間をログに記録したりできます。
+このプラグインを使用すると、作業アイテムの詳細にアクセスしたり、更新エリアの同僚社員と共同作業したり、お気に入りの Creative Cloud アプリケーションを離れることなく、すべての時間をログに記録したりできます。
 
-ダウンロード [Adobe Workfront（デザインとビデオ）](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) 今日の市場で
+[デザインおよびビデオ用 Adobe Workfront](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) を Marketplace でダウンロードします。
 
-管理者が [プラグインを使用してパッケージを作成する](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) Admin Consoleから、管理された方法または自己管理された方法でユーザーにデプロイします。
+管理者は Admin Console から [プラグインを使用してパッケージを作成](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)でき、管理された方法または自己管理された方法でユーザーにデプロイできます。
 
-## Workfrontヘルプにアクセスする方法 (AdobeUnified Experience のお客様向け )
+## Workfront ヘルプにアクセスする方法（AdobeUnified Experience のお客様向け）
 
 >[!NOTE]
 >
->この機能は、WorkfrontのAdobe統合エクスペリエンスにオンボーディングされているお客様にのみ適用されます。
+>この機能は、Workfront 向け Adobe Unified Experience にオンボーディングされているお客様にのみ適用されます。
 
-組織がAdobe Admin Consoleおよび Unified Experience for WorkfrontのAdobeにオンボーディングされている場合、Workfrontナビゲーションバーには「ヘルプ」のリンクが表示されなくなりました。
+組織が Workfront 向け Adobe Admin Console および Adobe Unified Experience にオンボーディングされている場合、Workfront ナビゲーションバーには「ヘルプ」のリンクが表示されなくなりました。
 
-Adobe Experience LeagueのWorkfrontヘルプにアクセスするには、次の 2 つの方法があります。
+Adobe Experience League で Workfront ヘルプにアクセスするには、次の 2 つの方法があります。
 
-* Workfrontナビゲーションバーの左側のメインメニューには、下部にヘルプリンクが表示されます
-* 上部ナビゲーション領域の疑問符アイコンには、ヘルプ、サポートおよびフィードバックへのリンクが表示されます
+* Workfront ナビゲーションバーの左側のメインメニューには、下部にヘルプリンクが表示されます
+* ナビゲーション領域上部の疑問符アイコンには、ヘルプ、サポートおよびフィードバックへのリンクが表示されます
 
-詳しくは、 [Workfront向けAdobe統合エクスペリエンス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) または [Adobe Workfrontヘルプにアクセス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) または [Adobe Workfron tヘルプにアクセス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)を参照してください。
 
 ## ピンの削除時にピンと新しいエクスペリエンスの名前を変更する
 
-ピンに対して次の更新を利用できるようになりました。
+ピンに対して次のアップデートを利用できるようになりました。
 
-* 既存のピンの名前を変更する
+* 既存のピンの名前を変更
 
-* ピンを削除する際のエクスペリエンスが向上しました
+* ピンを削除する際のエクスペリエンスを向上
 
-ピンの名前を変更したり、ピンを削除するオプションは、ピンの上にマウスポインターを置くとドロップダウンメニューに表示されます。
+ピンの名前を変更したり、ピンを削除するオプションは、ピンの上にポインタを合わせるとドロップダウンメニューに表示されます。
 
-詳しくは、 [ページを固定してワークスペースをカスタマイズする](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
+詳しくは、[ページを固定してワークスペースをカスタマイズ](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md)を参照してください。
 
-[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[この機能のデモンストレーションをビデオで見る](https://video.tv.adobe.com/v/3412389/){target=_blank}
