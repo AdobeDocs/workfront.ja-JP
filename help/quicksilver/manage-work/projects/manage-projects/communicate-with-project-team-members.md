@@ -2,22 +2,22 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: プロジェクトチームメンバーとのコミュニケーション
-description: Adobe Workfrontを通じて、プロジェクトチームのメンバーと簡単にコミュニケーションを取ることができます。
+description: Adobe Workfront を通じて、プロジェクトチームのメンバーと簡単にコミュニケーションを取ることができます。
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # プロジェクトチームメンバーとのコミュニケーション
 
-Adobe Workfrontを通じて、プロジェクトチームのメンバーと簡単にコミュニケーションを取ることができます。
+Adobe Workfront を通じて、プロジェクトチームのメンバーと簡単にコミュニケーションを取ることができます。
 
-プロジェクトに関連付けられているすべてのユーザーは、プロジェクトチームから作成されます。 プロジェクトチームの詳細については、 [プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+プロジェクトチームは、プロジェクトに関連するすべてのユーザーで構成されます。プロジェクトチームについて詳しくは、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -30,62 +30,62 @@ Adobe Workfrontを通じて、プロジェクトチームのメンバーと簡�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセス権を表示または高くする</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトの表示またはそれ以上のアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する表示権限以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトの表示またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## プロジェクトチームメンバーにメールを送信する {#send-an-email-to-a-project-team-member}
+## プロジェクトチームメンバーへのメールの送信 {#send-an-email-to-a-project-team-member}
 
-1. 電子メールを送信するプロジェクトチームのメンバーがいるプロジェクトに移動します。
-1. クリック **人** をクリックします。 クリックが必要になる場合があります **さらに表示** 1 つ目は
+1. メールの送信先となるプロジェクトチームメンバーの属するプロジェクトに移動します。
+1. 左パネルの「**ユーザー**」をクリックします。場合によっては、まず「**さらに表示**」をクリックする必要があります。
 
-   プロジェクトチームのすべてのメンバーを更新するには、 **すべて更新** （プロジェクトチームメンバーのリストの左上隅）。
+   プロジェクトチームのすべてのメンバーを更新するには、プロジェクトチームメンバーのリストの左上隅にある「**すべて更新**」をクリックします。
 
    または
 
-   プロジェクトチームの特定のメンバーを更新するには、リストから 1 人または複数のユーザーを選択し、 **ユーザに更新を送信******.\
+   プロジェクトチームの特定のメンバーを更新するには、リストから 1 人または複数のユーザーを選択したあと、「**ユーザに更新を送信**」をクリックします。\
    ![Commenting_1.png](assets/commenting-1-350x352.png)
 
-1. 更新を **このプロジェクトの更新を投稿** フィールドに入力します。
-1. （オプション）更新を非公開にするには、 **ロック** アイコン
+1. 「**プロジェクトの更新を投稿**」フィールドに更新内容を入力します。
+1. （オプション）更新をプライベートにするには、**ロック**&#x200B;アイコンをクリックします。
 
-   会社外のユーザーは、非公開の更新を表示できません。
+   社外のユーザーは、プライベートの更新を表示できません。
 
-1. （オプション） **人** アイコンをクリックして、選択されていない受信者をさらに追加します。
-1. クリック **送信**.
+1. （オプション）**ユーザー**&#x200B;アイコンをクリックして、選択されていない受信者をさらに追加します。
+1. 「**送信**」をクリックします。
 
-   それに含まれるユーザーの更新と名前が、プロジェクトの「更新」タブに表示されます。
+   更新とそれに含まれるユーザーの名前が、プロジェクトの「更新」タブに表示されます。
 
-## 更新をプロジェクトチームメンバーなどに送信する
+## プロジェクトチームメンバーおよびその他のユーザーへの更新の送信
 
-プロジェクトの更新をチームメンバーや、プロジェクトチームに属さない可能性のある他のユーザーに送信できます。 すべてのユーザーがアクティブなWorkfrontアカウントを持っている。 Workfrontで、更新が通知として送信されます。
+プロジェクトの更新をチームメンバーや、プロジェクトチームに属さない他のユーザーに送信できます。すべてのユーザーがアクティブな Workfront アカウントを持っている必要があります。更新は Workfront で通知として送信されます。
 
-1. 更新内容を他のユーザーに送信する元のプロジェクトに移動します。
-1. （オプションおよび条件付き）更新の送信先のユーザーがプロジェクトチームに属していない場合は、プロジェクトチームに追加します。
+1. 他のユーザーに更新を送信するプロジェクトに移動します。
+1. （オプションおよび条件付き）更新の送信先のユーザーがプロジェクトチームに属していない場合は、それらのユーザーをプロジェクトチームに追加します。
 
-   プロジェクトチームにユーザーを追加する方法については、 [プロジェクトチームを管理](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+   プロジェクトチームへのユーザーの追加については、[プロジェクトチームの管理](../../../manage-work/projects/planning-a-project/manage-project-team.md)を参照してください。
 
 1. プロジェクトチームのメンバーに更新を送信します。詳しくは、
 
-   [プロジェクトチームメンバーにメールを送信する](#send-an-email-to-a-project-team-member) 」の節を参照してください。
+   この記事で[プロジェクトチームメンバーへのメールの送信](#send-an-email-to-a-project-team-member)の節を参照してください。
 
-   それに含まれるユーザーの更新と名前が、プロジェクトの「更新」タブに表示されます。
+   更新とそれに含まれるユーザーの名前が、プロジェクトの「更新」タブに表示されます。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
