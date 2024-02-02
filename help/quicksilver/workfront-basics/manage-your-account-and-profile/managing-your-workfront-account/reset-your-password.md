@@ -2,14 +2,14 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: パスワードをリセット
-description: リセットできる [!DNL Adobe Workfront] パスワード。 重要なセキュリティ対策として、これを定期的におこなうことをお勧めします。
+description: ' [!DNL Adobe Workfront]  パスワードをリセットできます。重要なセキュリティ対策として、これを定期的に行うことをお勧めします。'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
 source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 {{important-not-on-aec}}
 
-リセットできる [!DNL Adobe Workfront] パスワード。 重要なセキュリティ対策として、これを定期的におこなうことをお勧めします。
+[!DNL Adobe Workfront] パスワードをリセットできます。重要なセキュリティ対策として、これを定期的に行うことをお勧めします。
 
 >[!NOTE]
 >
->A [!DNL Workfront] 管理者は、カスタムパスワード制限を設定できます。詳しくは、 [システムセキュリティの環境設定の構成](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) および [認証用のパスワードポリシーの設定](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>[システムセキュリティの環境設定の設定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)および[認証用のパスワードポリシーの設定](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)で説明されるように、[!DNL Workfront] 管理者は、カスタムパスワード制限を設定できます。
 >
->A [!DNL Workfront] 管理者は、拡張認証が有効な環境でパスワードをリセットすることもできます。 詳しくは、 [拡張認証を使用したユーザーのパスワードのリセット](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).
+>[!DNL Workfront] 管理者は、拡張認証が有効な環境でパスワードをリセットすることもできます。詳しくは、[拡張認証を使用したユーザーのパスワードのリセット](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)を参照してください。
 
 ## アクセス要件
 
@@ -36,40 +36,40 @@ ht-degree: 2%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> <p>[!UICONTROL Request] 以降</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## でパスワードをリセット [!DNL Adobe Workfront]
+## [!DNL Adobe Workfront] でパスワードをリセットする
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]をクリックし、プロフィール画像の横にあるユーザー名をクリックします。
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、プロフィール画像の横にあるユーザー名をクリックします。
 
    ![メインメニューを開き、ユーザー名を選択します。](assets/main-menu-options-350x481.png)
 
-1. 次をクリック： **[!UICONTROL その他のメニュー]** ![](assets/more-icon.png)を選択し、「 **[!UICONTROL 編集]**.
+1. **[!UICONTROL その他メニュー]** ![](assets/more-icon.png) をクリックして、「**[!UICONTROL 編集]**」をクリックします。
 
-1. 内 **[!UICONTROL 担当者の編集]** 表示されるボックス ( **[!UICONTROL 個人情報]**&#x200B;をクリックし、 **[!UICONTROL パスワードをリセット]**.
+1. 表示される「**[!UICONTROL 担当者を編集]**」ボックスで、**[!UICONTROL 個人情報]**&#x200B;の下にある「**[!UICONTROL パスワードをリセット]**」をクリックします。
 
    ![](assets/edit-person-box-350x196.jpg)
 
-   組織が [!DNL Workfront] SSO ソリューションでは、SSO システムを介してパスワードをリセットするために、クリック時にルーティングされる場合があります **[!UICONTROL パスワードをリセット]**. これにより、SSO パスワードがリセットされ、組織内の他のすべてのアプリケーションへのログインに影響します。
+   組織が [!DNL Workfront] と SSO ソリューションを統合している場合は、「**[!UICONTROL パスワードをリセット]**」をクリックする際に、SSO システムを介してパスワードのリセットを促される場合があります。これにより、SSO パスワードがリセットされ、組織内での他のすべてのアプリケーションへのログインに影響します。
 
 1. 古いパスワードを入力し、新しいパスワードを 2 回入力します。
 
    パスワードは 8 文字以上で、次の 2 種類の文字を含む必要があります。
 
-   * レター
+   * 英文字
    * 数字
-   * 特殊文字 (!@ # $ %など )
+   * 特殊文字（! @ # $ % など）
 
-   パスワードの規則は、 [!DNL Workfront] 管理者。
+   パスワードの規則は、[!DNL Workfront] 管理者が指定する設定によって、これより厳しくなる場合があります。
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
