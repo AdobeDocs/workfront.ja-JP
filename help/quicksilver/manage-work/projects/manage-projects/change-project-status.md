@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -55,40 +55,40 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>注意</b> まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>：アクセス権がない場合は、Workfront 管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトに対する権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
 ## 特定のステータスに更新する際の考慮事項
 
-* **プロジェクトを完了に更新する場合：** プロジェクトですべてのタスクと問題が完了していることを確認します。 プロジェクトにまだ完了していないタスクや問題がある場合は、プロジェクトの完了ステータス、または完了を示すその他のステータスを選択できません。 これには、「完了保留中の承認」ステータスのタスクまたは問題を承認する場合も含まれます。
-* **プロジェクトを「完了」から「現在」に更新する場合：** プロジェクトのすべてのタスクと問題が完了した場合は、プロジェクトの完了モードが [ 手動 ] に設定されていることを確認します。 プロジェクトの「完了モード」が「自動」の場合、プロジェクトのステータスは「完了」のままです。
+* **プロジェクトを完了に更新する場合：**&#x200B;プロジェクトですべてのタスクとイシューが完了していることを確認します。プロジェクトに完了していないタスクやイシューがある場合は、プロジェクトの「完了」のステータス、または「完了」と同等のステータスは選択できません。これには、「完了 - 保留中の承認」ステータスのタスクまたはイシューを承認する場合も含まれます。
+* **プロジェクトを「完了」から「現在」に更新する場合：**&#x200B;プロジェクトのすべてのタスクとイシューが完了した場合は、プロジェクトの完了モードが「手動」に設定されていることを確認します。プロジェクトの完了モードが「自動」の場合、プロジェクトのステータスは「完了」のままです。
 
-## プロジェクトステータスの変更
+## プロジェクトステータスを変更する
 
 1. ステータスを更新するプロジェクトに移動します。
-1. プロジェクトのヘッダーで、 **ステータス** 「 」フィールドで、新しいステータスを選択します。
+1. プロジェクトヘッダーの「**ステータス**」フィールドでステータスの名前をクリックし、新しいステータスを選択します。
 
    ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    または
 
-   次をクリック： **詳細** メニュー ![](assets/qs-more-menu.png) プロジェクト名の横にあるをクリックし、 **編集** をクリックし、 **ステータス** 「 」フィールドで、「 **保存**.
+   プロジェクト名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/qs-more-menu.png) をクリックし、「**編集**」をクリックして、「**ステータス**」フィールドで新しいステータスを選択してから、「**保存**」をクリックします。
 
    プロジェクトのステータスは、選択したステータスに更新されます。
