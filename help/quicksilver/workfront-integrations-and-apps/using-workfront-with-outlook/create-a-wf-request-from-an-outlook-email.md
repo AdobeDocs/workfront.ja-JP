@@ -1,27 +1,27 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: の作成 [!DNL Adobe Workfront] Outlook メールからのリクエスト
-description: 次の項目を作成できます。 [!DNL Adobe Workfront] Outlook で電子メールからリクエストします。
+title: Outlook メールから  [!DNL Adobe Workfront]  リクエストを作成
+description: Outlook メールから  [!DNL Adobe Workfront]  リクエストを作成できます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# の作成 [!DNL Adobe Workfront] からのリクエスト [!UICONTROL Outlook] 電子メール
+# [!UICONTROL Outlook] メールから [!DNL Adobe Workfront] リクエストを作成
 
-次の項目を作成できます。 [!DNL Adobe Workfront] Outlook で電子メールからリクエストします。
+Outlook メールから [!DNL Adobe Workfront] リクエストを作成できます。
 
-を作成する際に、 [!DNL Workfront] 電子メールに基づくリクエストでは、電子メールのコンテンツ（件名と本文を含む）がデフォルトでリクエストに含まれます。
+メールに基づいて [!DNL Workfront] リクエストを作成する際は、メールのコンテンツ（件名と本文を含む）がデフォルトでリクエストに含まれます。
 
 >[!NOTE]
 >
->次の項目は作成できません： [!DNL Workfront] 共有からのリクエスト [!UICONTROL Outlook] メールボックス。
+>[!DNL Workfront]共有 [!UICONTROL Outlook] メールボックスからリクエストを作成することはできません。
 
 ## アクセス要件
 
@@ -32,7 +32,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -42,36 +42,36 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-お使いの [!DNL Workfront] 管理者は有効にする必要があります [!DNL Outlook for Office] と [!DNL Workfront] この統合を使用する前に、
+担当の [!DNL Workfront] 管理者はこの統合を使用する前に [!DNL Workfront] で [!DNL Outlook for Office] を有効にする必要があります。
 
-## からのリクエストの作成 [!DNL Outlook] 電子メール
+## [!DNL Outlook] メールからリクエストを作成
 
-を作成するには、以下を実行します。 [!DNL Workfront] からのリクエスト [!DNL Outlook]:
+[!DNL Outlook] から [!DNL Workfront] リクエストを作成するには：
 
-1. に含める情報を含む E メールを選択します。 [!DNL Workfront] リクエスト。
-1. 次をクリック： **[!DNL Workfront]** アイコン（電子メールメッセージの右上隅）を使用して、Workfrontアドインを表示します。\
-   電子メールの右上にある下向き矢印をクリックして、 [!DNL Workfront] アイコン
+1. [!DNL Workfront] リクエストに含める情報を含むメールを選択します。
+1. メールメッセージの右上隅にある **[!DNL Workfront]** アイコンをクリックして、Workfront アドインを表示します。\
+   メールの右上にある下向き矢印をクリックして [!DNL Workfront] アイコンにアクセスする場合もあります。
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコン ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) 使用可能な [!DNL Workfront] オプション。
+1. **[!UICONTROL メニュー]**&#x200B;アイコン ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) をクリックして使用可能な [!DNL Workfront] オプションのリストを表示します。
 
-1. クリック **[!UICONTROL リクエストを送信]**.
-1. 内 **[!UICONTROL リクエストタイプを選択]** 「 」フィールドで、リクエストを送信するリクエストキューを選択します。
+1. 「**[!UICONTROL リクエストを送信]**」をクリックします
+1. 「**[!UICONTROL リクエストタイプを選択]**」フィールドで、リクエストを送信するリクエストキューを選択します。
 
 1. 次の情報を指定します。\
-   リクエストキューの設定方法に応じて、使用可能なフィールドは異なる場合があります。 使用可能なフィールドの完全なリストと説明については、 [作成して送信 [!DNL Adobe Workfront] リクエスト](../../manage-work/requests/create-requests/create-submit-requests.md) 記事。
+   リクエストキューの設定方法に応じて、使用可能なフィールドは異なる場合があります。使用可能なフィールドの完全なリストと説明については、[ [!DNL Adobe Workfront] リクエストの作成と送信](../../manage-work/requests/create-requests/create-submit-requests.md)の記事を参照してください。
 
-   * **[!UICONTROL 件名]:** リクエストの件名を指定します。 デフォルトでは、電子メールの件名が使用されます。
-   * **[!UICONTROL 説明]:** リクエストの説明を指定します。 デフォルトでは、E メールの本文が使用されます。
-   * **[!UICONTROL ドキュメント]:** リクエストに含めるドキュメントを添付します。 ドラッグ&amp;ドロップまたは **[!UICONTROL ファイルを選択]** をクリックし、ドキュメントを参照して選択します。\
+   * **[!UICONTROL 件名]：**&#x200B;リクエストの件名を指定します。デフォルトでは、メールの件名が使用されます。
+   * **[!UICONTROL 説明]：**&#x200B;リクエストの説明を指定します。デフォルトでは、メールの本文が使用されます。
+   * **[!UICONTROL ドキュメント]：**&#x200B;リクエストに含めるドキュメントを添付します。ドラッグ&amp;ドロップするか、「**[!UICONTROL ファイルを選択]**」をクリックし、ドキュメントを参照して選択します。
 
-      デフォルトでは、電子メールに添付されたドキュメントが要求に含まれます。
+     デフォルトでは、メールに添付されたドキュメントがリクエストに含まれます。
 
-1. クリック **[!UICONTROL リクエストを送信]**.\
-   リクエストが次に送信されました： [!DNL Workfront]、指定したリクエストキュー内。
+1. 「**[!UICONTROL リクエストを送信]**」をクリックします。\
+   リクエストは、指定されたリクエストキューの [!DNL Workfront] に送信されました。
 
-1. （オプション）に戻る [!DNL Outlook]をクリックし、元の E メールを選択します。\
-   の上部 [!DNL Workfront] アドインパネルに、電子メールが要求としてWorkfrontに追加されたことを示すリンクが表示され、確認がおこなわれます。 リンクには、変換された日付が含まれています。\
+1. （オプション）[!DNL Outlook] に戻り、元のメールを選択します。\
+   [!DNL Workfront] アドインパネルの上部に、メールがリクエストとして Workfront に追加されたことを示すリンクが表示され、確認が行われます。リンクには、変換された日付が含まれます。
