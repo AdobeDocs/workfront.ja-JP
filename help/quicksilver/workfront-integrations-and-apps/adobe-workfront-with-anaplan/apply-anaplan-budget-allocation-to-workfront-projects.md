@@ -1,41 +1,41 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 適用： [!DNL Anaplan] 予算配分 [!DNL Adobe Workfront] プロジェクト
-description: この統合シナリオは、 [!DNL Anaplan] 戻る [!DNL Workfront]. シナリオでは、リンクされたキャンペーン予算項目をすべて取り込み、予算値が変更されている場合は、その予算値をリンクされたWorkfrontプロジェクトに渡します。
+title: ' [!DNL Anaplan]  予算配分を  [!DNL Adobe Workfront]  プロジェクトに適用する'
+description: この統合シナリオは、 [!DNL Anaplan]  で行われた予算割り当てを  [!DNL Workfront] に同期します。シナリオでは、リンクされたキャンペーン予算項目をすべて取り込み、予算値が変更されている場合は、その予算値をリンクされた Workfront プロジェクトに渡します。
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 適用： [!DNL Anaplan] 予算配分 [!DNL Adobe Workfront] プロジェクト
+# [!DNL Anaplan] 予算配分を [!DNL Adobe Workfront] プロジェクトに適用する
 
-この統合シナリオは、 [!DNL Anaplan] 戻る [!DNL Workfront]. シナリオでは、リンクされたキャンペーン予算項目がすべて取り込まれ、バッジされた値がリンクされたキャンペーンに渡されます [!DNL Workfront] 予算の値が変更された場合はプロジェクト。
+この統合シナリオは、[!DNL Anaplan] で行われた予算割り当てを [!DNL Workfront] に同期します。シナリオでは、リンクされたキャンペーン予算項目をすべて取り込み、予算値が変更されている場合は、その予算値をリンクされた [!DNL Workfront] プロジェクトに渡します。
 
 >[!IMPORTANT]
 >
->この記事の「キャンペーン」は、このシナリオが表すマーケティングキャンペーンの使用例を指し、 [!DNL Workfront Fusion] Adobe Campaignコネクタ、または最近廃止された [!UICONTROL Campaign] オブジェクト [!DNL Workfront].
+>この記事の「キャンペーン」は、このシナリオが表すマーケティングキャンペーンのユースケースを指しており、[!DNL Workfront Fusion] Adobe Campaign コネクタや、[!DNL Workfront] にある、最近非推奨になった [!UICONTROL Campaign] オブジェクトにはまったく関係ありません。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
@@ -43,48 +43,48 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>この記事で説明されている機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42;詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## トリガーイベント
+## イベントのトリガー
 
 このシナリオは、15 分ごとに実行されるようにスケジュールされています。
 
-## 予測 [!DNL Workfront] 設定
+## 期待される [!DNL Workfront] 設定
 
-で以下をおこなう必要があります。 [!DNL Workfront] このシナリオを使用するには、次の手順に従います。
+このシナリオを使用するには、[!DNL Workfront] に以下のものが必要です。
 
-* のユーザープロファイル [!DNL Workfront] 名前付き **Analyplan 統合**：システム管理者権限を持ちます。
+* **Anaplan Integration** という名前の [!DNL Workfront] のユーザープロファイル。システム管理者権限が付与されています。
 
-   でのユーザーの作成に関する情報 [!DNL Workfront]を参照してください。 [ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  [!DNL Workfront] でのユーザーの作成について詳しくは、[ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-## 予測 [!DNL Anaplan] 設定
+## 期待される [!DNL Anaplan] 設定
 
-で以下をおこなう必要があります。 [!DNL Anaplan] このシナリオを使用するには、次の手順に従います。
+このシナリオを使用するには、[!DNL Anaplan] に以下のものが必要です。
 
-* のユーザープロファイル [!DNL Anaplan] 名前付き **[!DNL Workfront]統合**：システム管理者権限を持ちます。
-* この [!DNL Anaplan] このシナリオに使用するモデル。
-* リスト [!DNL Anaplan] キャンペーン予算をキャプチャするモデル。
+* **[!DNL Workfront]統合**&#x200B;という名前の [!DNL Anaplan] のユーザープロファイル。システム管理者権限が付与されています。
+* このシナリオに使用する [!DNL Anaplan] モデル。
+* キャンペーン予算を取得する [!DNL Anaplan] モデル内のリスト。
 
-   リストのモジュールは、次の属性の受け取りをサポートしている必要があります。
+  リストのモジュールは、次の属性の受信をサポートする必要があります。
 
    * [!UICONTROL Workfront Project GUID]
    * [!UICONTROL キャンペーン名]
-   * [!UICONTROL 希望労働基金]
+   * [!UICONTROL 要求労働資金]
    * [!UICONTROL 推定売上高]
    * [!UICONTROL ブランド]
 
-   このリストとモジュールには、の通常の機能に必要な追加の詳細を格納する必要があります。 [!DNL Anaplan]（予算を設定し、予算リスト項目を再度に同期する準備ができたことを伝える機能を含む） [!DNL Workfront].
+  このリストとモジュールには、予算を設定し、予算リスト項目を [!DNL Workfront] に同期する準備ができていることを伝える機能など、[!DNL Anaplan] の通常の機能に必要な追加の詳細を保存する必要があります。
 
-* のビュー [!DNL Anaplan] 名前付き **[!UICONTROL Adobe Workfrontの Campaigns.Update Campaigns]**.
+* [!DNL Anaplan] の&#x200B;**[!UICONTROL キャンペーンという名前のビュー。Adobe Workfront でキャンペーンを更新します]**。
 
-   このビューには、次の列がこの順序で含まれている必要があります。
+  このビューには、以下の列がこの順序で含まれている必要があります。
 
    1. [!UICONTROL 項目名]
 
@@ -97,16 +97,17 @@ ht-degree: 0%
    5. [!UICONTROL 推定売上高]
 
    6. [!UICONTROL ブランド]
-   ビューをフィルタリングして、 [!UICONTROL [!DNL Workfront] プロジェクト GUID] そして、予算配分を送信する必要がある指標 [!DNL Workfront].
 
-これらの操作の手順については、 [!DNL Anaplan] ドキュメント。
+  [!UICONTROL [!DNL Workfront] プロジェクト GUID] を持つ項目と、予算割り当てを [!DNL Workfront] に送信する必要があることを示すインジケーターを表示するには、ビューをフィルタリングする必要があります。
 
-## へのデプロイ [!DNL Workfront Fusion]
+これらのアクションの手順については、[!DNL Anaplan] ドキュメントを参照してください。
 
-次の手順を実行して、この統合シナリオを [!DNL Fusion] アカウント これは、必要な [!DNL Workfront] および [!DNL Anaplan] 設定。
+## [!DNL Workfront Fusion] へのデプロイ
 
-1. 次に移動： [!UICONTROL テンプレート] メニュー [!DNL Workfront Fusion] をクリックし、 **[!UICONTROL 適用 [!DNL Anaplan] Workfrontプロジェクトへの予算割り当て]** シナリオテンプレート。
-1. 次の変数値を置き換えます [!DNL Anaplan] 変数：
+この統合シナリオを [!DNL Fusion] アカウントにデプロイするには、次の手順を実行します。これは、必要な [!DNL Workfront] および [!DNL Anaplan] の設定を完了した後にのみ実行してください。
+
+1. [!DNL Workfront Fusion] の[!UICONTROL テンプレート]メニューに移動し、**[!UICONTROL Workfront プロジェクトに [!DNL Anaplan] の予算割り当てを適用]**&#x200B;シナリオテンプレートをクリックします。
+1. 次の [!DNL Anaplan] 変数の変数値を置換します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -116,56 +117,56 @@ ht-degree: 0%
     <thead> 
      <tr> 
       <th>変数名</th> 
-      <th>値を次で置換</th> 
+      <th>値を次のように置換します。</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] ワークスペース ID]</td> 
-      <td>のワークスペースの ID [!DNL Anaplan] アカウント</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
+      <td>[!DNL Anaplan] アカウントのワークスペースの ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] モデル ID] </td> 
-      <td>のモデルの ID [!DNL Anaplan] アカウントと選択したワークスペース。</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Model ID] </td> 
+      <td>[!DNL Anaplan] アカウントと選択したワークスペースのモデルの ID。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] モジュール名 ]</td> 
-      <td>選択した内のキャンペーン属性を説明するモジュールの名前 [!DNL Anaplan] リスト。</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Module Name]</td> 
+      <td>選択した [!DNL Anaplan] リスト内のキャンペーン属性を説明するモジュールの名前。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL キャンペーンリスト名 ]</td> 
-      <td>リストの名前 [!DNL Anaplan] アカウントと選択したワークスペースおよびモデル。</td> 
+      <td role="rowheader">[!UICONTROL Campaign List Name]</td> 
+      <td>[!DNL Anaplan] アカウントのリスト名、および選択したワークスペースとモデル。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] ビュー名 ]</td> 
-      <td> <p>送信準備完了のキャンペーン予算を含むビューの名前 [!DNL Workfront].</p> <p>( 例：[!UICONTROL Campaigns.Load Campaigns to [!DNL Adobe Workfront]]) </p> </td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan] View Name]</td> 
+      <td> <p>[!DNL Workfront] にすぐに送信できるキャンペーン予算を含むビューの名前。</p> <p>（例：[!UICONTROL Campaigns.Load Campaigns to [!DNL Adobe Workfront]]） </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   ファイルとプロセスの設定方法の詳細については、 [!DNL Anaplan] 設定ドキュメント。
+   ファイルとプロセスの設定方法について詳しくは、[!DNL Anaplan] の設定ドキュメントを参照してください。
 
-1. を選択または追加します。 [!DNL Anaplan] 接続プロファイル。
-1. 残りのすべてを更新 [!DNL Anaplan] モジュール [!DNL Anaplan] 接続を求められた場合。
-1. の **[!UICONTROL CSV を JSON オブジェクトモジュールに変換]**&#x200B;で、CSV 列を使用可能な JSON オブジェクトにマッピングする新しいデータ構造を追加します。
+1. [!DNL Anaplan] 接続プロファイルを選択または追加します。
+1. プロンプトが表示されたら、残りのすべての [!DNL Anaplan] モジュールを [!DNL Anaplan] 接続で更新します。
+1. **[!UICONTROL CSV を JSON オブジェクトに変換モジュール]**&#x200B;で、CSV 列を使用可能な JSON オブジェクトにマッピングする新しいデータ構造を追加します。
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre></pre>
+   <pre><code>[<br>    {<br>        "Anaplan Name":"text",<br>        "Workfront Project GUID":"text",<br>        "Campaign Name":"text",<br>        "Budget": 100.01,<br>        "Estimated Revenue": 100.01,<br>        "Brand":"text"<br>    }<br>]<br></code></pre>
 
 1. プロンプトが表示されたら、このシナリオのデプロイメントで他のモジュールに対してこのデータ構造を選択します。
-1. の **[!UICONTROL リンクされたプロジェクトを確認]** モジュール、選択または追加 [!DNL Workfront] 接続プロファイル。
-1. 残りのすべてを更新 [!DNL Workfront] モジュール [!DNL Workfront] 接続を求められた場合。
+1. **[!UICONTROL リンクされたプロジェクトを確認]**&#x200B;モジュールで、[!DNL Workfront] 接続プロファイルを選択または追加します。
+1. プロンプトが表示されたら、残りのすべての [!DNL Workfront] モジュールを [!DNL Workfront] 接続で更新します。
 
 ## その他の推奨シナリオテンプレート
 
-このテンプレートで表されるワークフローを完了するには、次の追加テンプレートもデプロイする必要があります。
+このテンプレートで表されるワークフローを完了するには、次の追加のテンプレートもデプロイする必要があります。
 
-* [[!UICONTROL の作成 [!DNL Anaplan] リスト項目 [!DNL Adobe Workfront] 予算リクエスト]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  の予算リクエストから  [!DNL Anaplan]  リスト項目を作成]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
 
-支出の最適化に関するその他のシナリオは次のとおりです。
+支出を最適化するための追加のシナリオには次のものがあります。
 
-* [[!UICONTROL 送信 [!DNL Adobe Workfront] プロジェクトの更新 [!DNL Anaplan] リスト項目]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  プロジェクトの更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL 送信 [!DNL Adobe Workfront] の実際の更新時間 [!DNL Anaplan] リスト項目]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  の実際の時間数の更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
-* [[!UICONTROL 送信 [!DNL Adobe Workfront] ～への費用 [!DNL Anaplan] リスト項目]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  の費用を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
