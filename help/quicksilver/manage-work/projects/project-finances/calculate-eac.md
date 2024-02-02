@@ -2,25 +2,25 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: 完了時の推定 (EAC) を計算
-description: パフォーマンス指標の「完了時の予測」(EAC) は、完了時のプロジェクトまたはタスクの推定総コストを表します。
+title: 完了時の見積もり（EAC）の計算
+description: パフォーマンス指標として、完了時の見積もり（EAC）は、完了時のプロジェクトまたはタスクの見込み合計コストを表します。
 author: Alina
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 完了時の推定 (EAC) を計算
+# 完了時の見積もり（EAC）の計算
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link!) </p>
 -->
 
-パフォーマンス指標の「完了時の予測」(EAC) は、完了時のプロジェクトまたはタスクの推定総コストを表します。
+パフォーマンス指標として、完了時の見積もり（EAC）は、完了時のプロジェクトまたはタスクの見込み合計コストを表します。
 
 設定として、EAC 値の計算方法を定義できます。 
 
@@ -33,65 +33,65 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよび財務データへのアクセスの表示</p> <p><b>メモ</b>
+   <td> <p>プロジェクトおよび財務データへのアクセス権を表示</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財務を表示する権限を持つプロジェクトに対する表示権限以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>財務情報を表示する権限を持つプロジェクトに対する表示以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## EAC の計算方法を定義する
+## EAC の計算方法の定義
 
-プロジェクトシステム環境設定の一環として、Adobe Workfront管理者は EAC の計算方法を定義できます。 EAC は、次の 2 つの方法のいずれかで計算できます。
+プロジェクトシステム環境設定の一環として、Adobe Workfront 管理者は EAC の計算方法を定義できます。EAC は、次の 2 つの方法のいずれかで計算できます。
 
 * [プロジェクトレベルで計算](#calculate-at-the-project-level)
-* [タスクおよびサブタスクからのロールアップ](#roll-up-from-tasks-and-subtasks)
+* [タスク／サブタスクからロールアップ](#roll-up-from-tasks-and-subtasks)
 
-完了時の推定を計算する方法など、Workfrontでプロジェクトの環境設定を行う方法について詳しくは、 [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+EAC を計算する方法など、Workfront でプロジェクトの環境設定を行う方法について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-プロジェクトマネージャは、プロジェクトの「財務」サブタブで、プロジェクトレベルでこの環境設定を変更することもできます。 プロジェクトの「財務」サブタブの編集の詳細については、 [プロジェクトの財務エリアで情報を管理します](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+プロジェクトマネージャーは、プロジェクトの「財務」サブタブで、プロジェクトレベルでこの環境設定を変更することもできます。プロジェクトの「財務」サブタブの編集について詳しくは、[プロジェクトの財務エリアでの情報管理](../../../manage-work/projects/project-finances/manage-project-finance-area.md)を参照してください。
 
 ### プロジェクトレベルで計算 {#calculate-at-the-project-level}
 
-親タスクおよびプロジェクトの EAC は、EAC 式に実績時間/実績労務費を入力することで決定されます。 この計算には、実績時間数/コストと費用が親タスクまたはプロジェクトに直接追加されます。
+親タスクとプロジェクトの EAC は、EAC 式の実際の時間数／実際の労力コストを使用して決定されます。この計算には、親タスクまたはプロジェクトに直接追加された実際の時間数／コストと費用が含まれます。
 
-### タスクおよびサブタスクからのロールアップ {#roll-up-from-tasks-and-subtasks}
+### タスク／サブタスクからロールアップ {#roll-up-from-tasks-and-subtasks}
 
-親タスクとプロジェクトの EAC は、各子タスクの EAC を合計することで決定されます。 この計算では、親タスクまたはプロジェクトに直接追加された実績時間/コストと費用が除外されます。
+親タスクとプロジェクトの EAC は、各子タスクの EAC を合計することによって決定されます。この計算には、親タスクまたはプロジェクトに直接追加された実際の時間数／コストと費用は含まれません。
 
-## パフォーマンスインデックスメソッド (PIM) に基づく EAC の計算方法
+## パフォーマンスインデックスメソッド（PIM）に基づく EAC の計算方法
 
-Workfrontでの EAC の計算は、プロジェクトで選択したパフォーマンスインデックスメソッド (PIM) に依存します。 お使いのシステムまたはプロジェクトでの PIM の設定について詳しくは、 [パフォーマンスインデックスメソッド (PIM) の設定](../../../manage-work/projects/project-finances/set-pim.md).
+Workfront では、EAC の計算は、プロジェクトで選択したパフォーマンスインデックスメソッド（PIM）に依存します。お使いのシステムまたはプロジェクトでの PIM の設定について詳しくは、[パフォーマンスインデックスメソッド（PIM）の設定](../../../manage-work/projects/project-finances/set-pim.md)を参照してください。
 
-* [時間ベースの PIM を使用して EAC を計算](#calculate-eac-using-hour-based-pim)
-* [コストベースの PIM を使用して EAC を計算](#calculate-eac-using-cost-based-pim)
+* [時間ベースの PIM を使用する場合の EAC の計算](#calculate-eac-using-hour-based-pim)
+* [コストベースの PIM を使用する場合の EAC の計算](#calculate-eac-using-cost-based-pim)
 
-### 時間ベースの PIM を使用して EAC を計算 {#calculate-eac-using-hour-based-pim}
+### 時間ベースの PIM を使用する場合の EAC の計算 {#calculate-eac-using-hour-based-pim}
 
 ```
 EAC = Total Planned Hours / CPI*
 ```
 
-&#42;コスト効果指数の場合 [コスト効果指数 (CPI) の計算](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0、EAC =計画時間合計+実際の時間 これは、時間がキャプチャされたが、プロジェクト/タスクが 0%完了した場合に発生します。
+&#42;コスト効率指数の場合 [コスト効率指数（CPI）の計算](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0、EAC = 合計予定時間数 + 実際の時間。これは、時間が取り込まれたが、プロジェクト／タスクが 0%完了の場合に発生します。
 
-CPI の計算の詳細については、 [コスト効果指数 (CPI) の計算](../../../manage-work/projects/project-finances/calculate-cpi.md).
+CPI 計算について詳しくは、[コスト効率指数（CPI）の計算](../../../manage-work/projects/project-finances/calculate-cpi.md)を参照してください。
 
-### コストベースの PIM を使用して EAC を計算 {#calculate-eac-using-cost-based-pim}
+### コストベースの PIM を使用する場合の EAC の計算 {#calculate-eac-using-cost-based-pim}
 
 プロジェクトの EAC は、次の式を使用して計算されます。
 
@@ -99,40 +99,40 @@ CPI の計算の詳細については、 [コスト効果指数 (CPI) の計算]
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>EAC の労務=  <em>IF</em> CPI 労務 &lt;&gt; 0 THEN EAC 労務=計画労務費/CPI 労務</pre><pre><em>ELSE</em> EAC 労務=計画労務費+実績労務費</pre><pre>CPI 労務=実績労務費の場合 &lt;&gt; 0 THEN CPI Labor = TotalBudgetedCostWorkPerformed /実績労務費</pre><pre>ELSE CPI Labor = 1 </pre>EAC の計算時には、次のフィールドが考慮されます。
+<pre>EAC 労力 = <em>IF</em> CPI Labor &lt;&gt; 0 THEN EAC Labor = 予定労力コスト/CPI 労力</pre><pre><em>ELSE</em> EAC Labor = 予定労力コスト + 実際の労力コスト</pre><pre>CPI 労力 = IF 実際の労力コスト &lt;&gt; 0 THEN CPI Labor = TotalBudgetedCostWorkPerformed / 実際の労力コスト</pre><pre>ELSE CPI Labor = 1 </pre>EAC の計算時には、次のフィールドが考慮されます。
 
-* BCWP (Total Budgeted Cost Work Performed) =予定作業の予算コスト（予算コスト）と、それまでに完了したタスクの割合を乗算した結果。
+* 作業実行の予算（BCWP）合計 = 予定作業の予算計上コスト（予算計上コスト）と、それまでに完了したタスクの割合を乗算した結果。
 
-   BCWP (Total Budgeted Cost Work Performed) の詳細については、 [予算原価実績の計算 (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
+  作業実行の予算（BCWP）合計について詳しくは、[作業実行の予算（BCWP）合計の計算](../../../manage-work/projects/project-finances/calculate-bcwp.md)を参照してください。
 
    * **親以外のタスクの場合：**
 
-      ```
-      Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
-      ```
+     ```
+     Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
+     ```
 
    * **親タスクの場合：**
-Total Budgeted Cost Work Performed =すべての直接の子タスクの「Total Budgeted Cost Work Performed」フィールドの合計です。
+作業実行の予算（BCWP）合計 = すべての直接の子タスクの「作業実行の予算（BCWP）合計」フィールドの合計。
 
    * **プロジェクトの場合：**
-Total Budgeted Cost Work Performed =すべての最上位タスク（親タスクおよびスタンドアロンタスク）の「Total Budgeted Cost Work Performed」フィールドの合計。 
+作業実行の予算（BCWP）合計 = すべての最上位レベルのタスク（親タスクおよびスタンドアロンタスク）の「作業実行の予算（BCWP）合計」フィールドの合計。
 
-* EAC 費用=発生した実際の費用を未発生の計画費用に追加した結果。 次の式で計算されます。
+* EAC 費用 = 発生した実際の費用コストを未発生の予定費用コストに追加した結果。次の式で計算されます。
 
-   ```
-   EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
-   ```
+  ```
+  EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
+  ```
 
-   * 発生費実費原価= 「実績金額」フィールドが 0 より大きいすべての費用の「計画金額」フィールドの合計。 たとえば、タスク 1 に費用を作成し、「計画金額」フィールドに$500.00 と入力し、「実績金額」フィールドに 0 より大きい金額を入力した場合 ( 例：$600.00) の場合、このタスクの発生予定費用は$500.00 です。
-   * 未発生計画費用= 「実績金額」フィールド= 0 の全費用の「計画金額」フィールドの合計。 たとえば、タスク 1 で、最初の費用に対して、[ 計画金額 ] フィールドの値が$500.00 で、[ 実績金額 ] フィールドの値が$600.00 で、[ 計画金額 ] フィールドの値が$300.00 で、[ 実績金額 ] フィールドの値が$0.00 の場合、0 の場合、このタスクの未発生予定費の値は$300.00 です。 
+   * 発生した実際の費用コスト = 「実際の金額」フィールド > 0 のすべての費用の「予定金額」フィールドの合計。例えば、タスク 1 の経費を作成し、「予定金額」フィールドに 500.00 ドルと入力し、「実際の金額」フィールドに金額 > 0（つまり 600.00 ドル）と入力した場合、このタスクで発生した予定費用コストは 500.00 ドルになります。
+   * 未発生の予定費用 = 「実際の金額」フィールド = 0 のすべての費用の「予定金額」フィールドの合計。例えば、タスク 1 に 2 つの費用を作成して、最初の費用の「予定金額」フィールドの値が 500.00 ドルで「実際の金額」の値が 600.00 ドル、2 番目の費用の「予定金額」フィールドの値が 300.00 ドルで「実際の金額」フィールドの値が 0.00 ドルの場合、このタスクの未発生の予定費用の値は 300.00 ドルです。 
 
-## プロジェクトまたはタスク内で EAC を見つける
+## プロジェクトまたはタスク内での EAC の検索
 
 1. EAC を表示するプロジェクトまたはタスクに移動します。
-1. 展開 **プロジェクトの詳細** または **タスクの詳細** （EAC を表示する場所に応じて）プロジェクトまたはタスクの左パネル
+1. EAC を表示する場所に応じて、プロジェクトまたはタスクの左側のパネルにある&#x200B;**プロジェクトの詳細**&#x200B;または&#x200B;**タスクの詳細**&#x200B;を展開します。
 
-1. クリック **金融**. 
+1. 「**財務**」をクリックします。
 
-   EAC の値は、 **完了時の推定** フィールドに入力します。
+   EAC の値が「**完了時の見積もり**」フィールドに表示されます。
 
    ![](assets/eac-highlighted-on-project-350x112.png)
