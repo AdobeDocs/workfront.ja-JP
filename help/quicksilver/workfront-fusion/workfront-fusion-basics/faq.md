@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion FAQ
-description: この記事では、 [!DNL Adobe Workfront Fusion]（Fusion ワークフローで一般的に使用されるオブジェクトに関する情報を含む）
+description: この記事では、Fusion ワークフローで一般的に使用されるオブジェクトについての情報など、 [!DNL Adobe Workfront Fusion] に関するよくある質問を紹介します。
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
 source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
@@ -19,103 +19,103 @@ ht-degree: 1%
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## シナリオとは
-
-### 回答
-
-シナリオは、が実行する一連の手順を定義します [!DNL Adobe Workfront Fusion]. 各シナリオでは、データソース、データの処理方法、使用するデータと無視するデータを指定します。 [!DNL Workfront Fusion] では、必要なだけ複雑なシナリオを作成できます。最も高度なシナリオが可能です。
-
-詳しくは、 [でのプラクティス統合シナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
-
-## 1 つのシナリオで複数のモジュールを使用できますか？ それとも単なるトリガーと行動？
+## シナリオとは何ですか？
 
 ### 回答
 
-1 つのシナリオで必要な数のモジュールを使用できます。 独立したルートを作成し、それらを通るデータを指定できます。 また、個々のアクションから返された結果を使用して、次のアクションに渡すこともできます。
+シナリオは、[!DNL Adobe Workfront Fusion] によって実行される一連の手順を定義するものです。各シナリオでは、データソース、データの処理方法、使用するデータと無視するデータを指定します。[!DNL Workfront Fusion] では必要に応じて、複雑なシナリオや非常に高度なシナリオを作成できます。
 
-## 可能 [!DNL Workfront Fusion] ファイルを操作しますか？
+詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md) での練習用統合シナリオの作成を参照してください。
 
-### 回答
-
-はい。使用 [!DNL Workfront Fusion]、ファイルの受信、保存、変換、変換、暗号化などをおこなうことができます。 さらに [!DNL Workfront Fusion] は、ユーザーがファイルに含まれるデータを効果的かつクリエイティブに操作できるように設計された、様々な組み込み機能を提供します。
-
-詳しくは、 [でのファイルのマッピングについて [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md).
-
-## 放したらどうなる？ [!DNL Workfront Fusion] 複数の添付ファイルを含む電子メールを処理しますか？
+## 1 つのシナリオで複数のモジュールを使用できますか？使用できるのはトリガーとアクションのみですか？
 
 ### 回答
 
-次の [!UICONTROL 電子メール] モジュール [!UICONTROL 添付ファイルの取得]の場合、各添付ファイルは、シナリオ内の残りのモジュールを通じて個別に送信されます。 同様のモジュールは、複数のファイルを一度に受け取る他のアプリでも使用できます。
+必要な数のモジュールを 1 つのシナリオで使用できます。独立したルートを作成し、そのルートを移動するデータを指定できます。また、個々のアクションから返された結果を使用して、次のアクションに渡すこともできます。
 
-詳しくは、 [[!UICONTROL 電子メール] モジュール](../../workfront-fusion/apps-and-their-modules/email-modules.md).
-
-## 一部のトリガーでは、シナリオを即座に実行できます。 「即時」とは何を意味しますか。
+## [!DNL Workfront Fusion] ではファイルを操作できますか？
 
 ### 回答
 
-一般的なシナリオは、指定したスケジュールに従って、間隔をおいて実行されます（例えば、毎時、5 分ごと、月に 1 回など）。 特定のサービスからデータを受け取った直後にシナリオを開始できる、インスタントトリガー（Web フック）と呼ばれる特別なトリガーがあります。 インスタントトリガーは非常に役に立つ場合があります。 可能な限り使用することをお勧めします。 操作数を減らすのに役立ちます。 受信したデータは、次にスケジュールされた実行を待たずに、即座に処理されます。 例えば、 [!DNL Google Sheets] モジュール [!UICONTROL 変更を監視] は、セルの更新直後にシナリオを開始します。
+はい。[!DNL Workfront Fusion] を使用して、ファイルの受信、保存、変換、暗号化などを行うことができます。さらに [!DNL Workfront Fusion] は、ユーザーがファイルに含まれるデータを効果的かつクリエイティブに操作できるように設計された、様々なビルトイン機能を備えています。
 
-## 集約とは
+詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md) でのファイルのマッピングについてを参照してください。
 
-### 回答
-
-An [!UICONTROL 集約] データを 1 つのコレクションに結合します。 例えば、ファイルを圧縮して zip アーカイブにし、電子メールの添付ファイルとして送信する場合です。
-
-詳しくは、 [[!UICONTROL 集約] モジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
-
-## 操作とは
+## [!DNL Workfront Fusion] で複数の添付ファイルを含むメールを処理するとどうなりますか？
 
 ### 回答
 
-操作とは、モジュールが実行する任意のタスクです。 操作は、例えば、トリガーが実行されるたびに、アクションがタスクを実行するたびに発生します。
+[!UICONTROL メール]モジュールの[!UICONTROL 添付ファイルの取得]を使用すると、各添付ファイルは、シナリオ内の残りのモジュールを通じて個別に送信されます。複数のファイルを一度に受け取る他のアプリでも、同様のモジュールを使用できます。
 
-## データ転送とは
+詳しくは、[[!UICONTROL メール]モジュール](../../workfront-fusion/apps-and-their-modules/email-modules.md)を参照してください。
 
-### 回答
-
-データ転送は、シナリオを通じて転送されたデータの量を指します。 例えば、FTP から 100 KB の画像を取得し、そのサイズを 50 KB に減らして、両方の画像を次の場所に保存するシナリオがあるとします。 [!DNL Dropbox]. このシナリオで使用されるデータの量は 250 KB です。
-
-## 接続とは
+## 一部のトリガーではシナリオを即座に実行できます。「即座」とは何を意味しますか？
 
 ### 回答
 
-接続は、 [!DNL Workfront Fusion] アカウントと、使用するサードパーティのサービス。 シナリオの編集時に、接続を簡単に作成できます。 接続を追加するには、 **[!UICONTROL 追加]** ボタンをクリックし、手順に従って手順を進めます。
+一般的なシナリオは、指定したスケジュールに従って定期的に実行されます（例えば、1 時間ごと、5 分ごと、1 ヶ月に 1 回など）。インスタントトリガー（Web フック）と呼ばれる特別なトリガーがあり、特定のサービスからデータを受け取った直後にシナリオを開始できます。インスタントトリガーは非常に便利なので、。可能な限り使用することをお勧めします。そうすることで、操作の数を減らすことができます。受信したデータは、次にスケジュールされた実行を待たずに、すぐに処理されます。例えば、[!DNL Google Sheets] モジュールの[!UICONTROL 変更の監視]では、セルの更新後すぐにシナリオが開始されます。
 
-詳しくは、 [接続について [!DNL Adobe Workfront Fusion] アプリまたはサービスに](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+## アグリゲータとはどのようなものですか？
+
+### 回答
+
+[!UICONTROL アグリゲータ]は、データを 1 つのコレクションに結合するものです。例えば、ファイルを zip アーカイブに圧縮して、メールの添付ファイルとして送信するなどです。
+
+詳しくは、[[!UICONTROL  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md) のアグリゲータ]モジュールを参照してください。
+
+## 操作とは何ですか？
+
+### 回答
+
+操作とは、モジュールが実行する任意のタスクです。例えば、トリガーが実行されたり、アクションがタスクを実行したりするたびに、操作が発生します。
+
+## データ転送量とは何ですか？
+
+### 回答
+
+データ転送量とは、シナリオを通じて転送されたデータの量を指します。例えば、FTP から 100 KB の画像を取得し、そのサイズを 50 KB に減らして両方の画像を [!DNL Dropbox] に保存するシナリオがあるとします。このシナリオで使用されるデータの量は 250 KB です。
+
+## 接続とは何ですか？
+
+### 回答
+
+接続とは、[!DNL Workfront Fusion] アカウントと、使用するサードパーティのサービスとの間のリンクです。接続は、シナリオの編集時に簡単に作成できます。接続を追加するには、モジュール設定の「**[!UICONTROL 追加]**」ボタンをクリックし、段階的な手順に従います。
+
+詳しくは、[アプリまたはサービスへの  [!DNL Adobe Workfront Fusion]  の接続について](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)を参照してください。
