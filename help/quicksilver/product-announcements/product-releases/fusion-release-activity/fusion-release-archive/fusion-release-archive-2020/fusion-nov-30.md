@@ -2,45 +2,45 @@
 product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
-keywords: 融合
+keywords: Fusion
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion リリースアクティビティ： 2020 年 11 月 30 日の週」
-description: このページでは、2020 年 11 月 30 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+title: 'Workfront Fusion リリースアクティビティ：2020年11月30日（PT）の週'
+description: このページでは、2020年11月30日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2020 年 11 月 30 日の週
+# Workfront Fusion リリースアクティビティ：2020年11月30日（PT）の週
 
-このページでは、2020 年 11 月 30 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2020年11月30日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## Workfront Fusion 2.0 Web フックのレート制限。
+## Workfront Fusion 2.0 web フックのレート制限。
 
-Workfront Fusion 2.0 に新しいパフォーマンスガードレールが導入されました。現在は、Web フックのレート制限は 1 秒あたり 100 個です。 この制限に達すると、Workfront Fusion 2.0 は 429(Too Many Requests) ステータスを送信します。
+Workfront Fusion 2.0 に新しいパフォーマンスガードレールが導入されました。現在、web フックには、1 秒あたりリクエスト 100 個のレート制限があります。この制限に達すると、Workfront Fusion 2.0 は 429（リクエストが多すぎます）ステータスを送信します。
 
-以前は、Webhook のリクエストに制限はありませんでした。
+以前は、web フックのリクエストに制限はありませんでした。
 
-詳しくは、 [Adobe Workfront Fusion パフォーマンスガードレール](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+詳しくは、[Adobe Workfront Fusion のパフォーマンスガードレール](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md)を参照してください。
 
-## Workfront Fusion 2.0 のWorkfrontオブジェクトにカスタムフォームを追加する
+## Workfront Fusion 2.0 で Workfront オブジェクトにカスタムフォームを追加
 
-カスタムフォームをWorkfront Fusion 2.0 でオブジェクトに追加できるように、 Workfront /その他に AssignCategories アクションを追加しました。 アクションモジュール。
+Workfront Fusion 2.0 でオブジェクトにカスタムフォームを追加できるよう、Workfront／その他のアクションモジュールに AssignCategories アクションを追加しました。
 
-以前は、Workfront Fusion 2.0 モジュールを使用してWorkfrontのオブジェクトにカスタムフォームを追加することはできませんでした。
+以前は、Workfront Fusion 2.0 モジュールを使用して Workfront でオブジェクトにカスタムフォームを追加することはできませんでした。
 
-詳しくは、 Workfront /その他を参照してください。 アクションモジュール： [Adobe Workfrontモジュール](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Workfront／その他のアクションモジュールについて詳しくは、[Adobe Workfront モジュール](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
