@@ -2,27 +2,27 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: のプロジェクトリストをフィルター [!DNL Adobe Workfront] 表示
+title: ' [!DNL Adobe Workfront]  ビューでのプロジェクトリストのフィルター'
 feature: Get Started with Workfront
-description: デフォルトでは、 [!DNL Adobe Workfront] 「表示」には、 [!UICONTROL すべてのプロジェクト] リスト [!DNL Workfront]そのため、表示するためにアクセスできるすべてのプロジェクトが、ステータスに関係なく一覧表示されます。
+description: デフォルトで、 [!DNL Adobe Workfront]  ビューでは  [!DNL Workfront] の[!UICONTROL すべてのプロジェクト]リストが表示されるので、表示できるすべてのプロジェクトがステータスに関係なく一覧表示されます。
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# のプロジェクトリストをフィルター [!DNL Adobe Workfront View]
+# [!DNL Adobe Workfront View] でプロジェクトリストをフィルターする
 
-デフォルトでは、 [!DNL Adobe Workfront View] には、 [!UICONTROL すべてのプロジェクト] リスト [!DNL Workfront]そのため、表示するためにアクセスできるすべてのプロジェクトが、ステータスに関係なく一覧表示されます。
+デフォルトで、[!DNL Adobe Workfront View] では [!DNL Workfront] の[!UICONTROL すべてのプロジェクト]リストが表示されるので、表示できるすべてのプロジェクトがステータスに関係なく一覧表示されます。
 
-プロジェクトのリストは、 [!DNL Workfront View] をクリックして、自分に関連するプロジェクトのみを表示します。 フィルターを適用した後、プロジェクトリストは次回ログインするまで、または変更されるまで、フィルターされたままになります。
+[!DNL Workfront View] でプロジェクトのリストをフィルターして、関連性のあるプロジェクトのみを表示できます。フィルターを適用した後、プロジェクトリストは次にログインするまで、または変更されるまで、フィルター状態が維持されます。
 
 ## アクセス要件
 
-次のアクセス権を [!DNL Workfront] この記事の手順を実行するには、次の手順に従います。
+この記事の手順を実行するには、[!DNL Workfront] で次のアクセス権が必要になります。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong>/td&gt; 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong>/td&gt; 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -41,41 +41,41 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## フィルター [!UICONTROL プロジェクト] リスト [!UICONTROL Workfront View]
+## [!UICONTROL Workfront ビュー]で[!UICONTROL プロジェクト]リストをフィルターする
 
-1. のプロジェクトのリストに移動します。 [!DNL Workfront] モバイルアプリを表示します。
+1. [!DNL Workfront] ビューモバイルアプリでプロジェクトのリストに移動します。
 1. リストの左上にあるリストアイコンをタップします。\
    使用可能なフィルターのリストが表示されます。\
    ![WF_View_filters_050621.jpg](assets/wf-view-filters-050621-350x427.jpg)
 
 1. 次のフィルターから選択します。
 
-   * [!UICONTROL Portfolio]:プロジェクトを表示する特定のポートフォリオを選択します。
-   * [!UICONTROL 条件]:特定の [!UICONTROL 条件].
-   * [!UICONTROL 進行状況]:特定の [!UICONTROL 進捗状況ステータス].
-   * ステータス：特定の [!UICONTROL ステータス].
-   * [!UICONTROL 計画開始]:選択すると、 [!UICONTROL 計画開始日] 次の時間枠内：
+   * [!UICONTROL ポートフォリオ]：表示するプロジェクトの特定のポートフォリオを選択します。
+   * [!UICONTROL 条件]：特定の[!UICONTROL 条件]を持つプロジェクトのみを表示する場合に選択します。
+   * [!UICONTROL 進行状況]：特定の[!UICONTROL 進捗ステータス]のプロジェクトのみを表示する場合に選択します。
+   * ステータス：特定の[!UICONTROL ステータス]のプロジェクトのみを表示する場合に選択します。
+   * [!UICONTROL 予定開始]：次の時間枠の[!UICONTROL 予定開始日]を持つプロジェクトのみを表示する場合に選択します。
 
       * 過去 3 か月
       * 過去 2 か月
       * 過去 1 か月
       * 過去 2 週間
-   * [!UICONTROL 計画完了]:選択すると、 [!UICONTROL 計画完了日] 次の時間枠：
+   * [!UICONTROL 予定完了]：次の今後の時間枠の[!UICONTROL 予定完了日]を持つプロジェクトのみを表示する場合に選択します。
 
       * 2 週間
       * 1 か月
       * 2 か月
       * 3 か月
-   * [!UICONTROL 推定完了]:選択すると、 [!UICONTROL 予定完了日] 次の時間枠：
+   * [!UICONTROL 見込み完了]：次の今後の時間枠の[!UICONTROL 見込み完了日]を持つプロジェクトのみを表示する場合に選択します。
 
       * 2 週間
       * 1 か月
       * 2 か月
       * 3 か月
-   * [!UICONTROL 所有者]:特定の所有者に割り当てられたプロジェクトを表示する場合に選択します。
-   * [!UICONTROL スポンサー]:特定のプロジェクトに割り当てられたプロジェクトを表示する場合に選択します [!UICONTROL スポンサー].
+   * [!UICONTROL 所有者]：特定の所有者に割り当てられているプロジェクトを表示する場合に選択します。
+   * [!UICONTROL スポンサー]：特定の[!UICONTROL スポンサー]に割り当てられたプロジェクトを表示する場合に選択します。
 
 
 
