@@ -2,86 +2,86 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: での配達確認のコピー [!DNL Workfront Proof]
-description: 配達確認の編集権限を持つレビュー担当者は、配達確認のコピーを、既存の配達確認の新しいバージョンとして、または新しい配達確認として作成できます。 ( 詳しくは、を参照してください。 編集権限について詳しくは、Workfront Proof の配達確認権限プロファイルを参照してください。)
+title: ' [!DNL Workfront Proof] でのプルーフのコピー'
+description: プルーフの編集権限を持つレビュアーは、既存のプルーフの新しいバージョンまたは新しいプルーフとして、プルーフのコピーを作成できます。（詳しくは、次を参照してください。編集権限について詳しくは、Workfront Proof のプルーフ権限プロファイルを参照してください。)
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# での配達確認のコピー [!DNL Workfront Proof]
+# [!DNL Workfront Proof] でのプルーフのコピー
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-配達確認の編集権限を持つレビュー担当者は、配達確認のコピーを、既存の配達確認の新しいバージョンとして、または新しい配達確認として作成できます。 ( 詳しくは、を参照してください。 編集権限について詳しくは、 [の配達確認権限プロファイル [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).)
+プルーフの編集権限を持つレビュアーは、既存のプルーフの新しいバージョンまたは新しいプルーフとして、プルーフのコピーを作成できます。（詳しくは、次を参照してください。編集権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。）
 
-元の配達確認に含まれていたレビュー担当者が、 [!UICONTROL 共有] セクション [!UICONTROL 配達確認をコピー] ページに表示されますが、削除できます。 レビュー担当者が削除されても、そのコメントは保持されます。
+元のプルーフに含まれていたレビュアーは、[!UICONTROL プルーフをコピー]ページの「[!UICONTROL 共有]」セクションに自動的に表示されますが、削除することもできます。レビュアーが削除されても、そのコメントは保持されます。
 
 >[!NOTE]
 >
->配達確認のコピーは、月別の配達確認の上限にカウントされます。 ただし、コピーが新しいバージョンとして作成された場合は、そのコピーがバージョンセット数に含まれます。 詳しくは、 [での配達確認のバージョンの管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
+>プルーフのコピーは、月別のプルーフの上限にカウントされます。ただし、コピーが新しいバージョンとして作成された場合は、そのコピーがバージョンセット数に含まれます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) でのプルーフバージョンの管理を参照してください。
 
-## 配達確認のコピー
+## プルーフのコピー
 
-1. 任意の **[!UICONTROL 件数]** ページ、 [のビューページで項目を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理の説明に従って、**[!UICONTROL ビュー]**&#x200B;ページのいずれかに移動します。
 
-1. を開きます。 **[!UICONTROL 詳細]** メニューを使用します。\
+1. プルーフの&#x200B;**[!UICONTROL その他]**&#x200B;メニューを開きます。\
    ![](assets/more-button-small.png)
 
-1. 選択 **[!UICONTROL コピー]** をドロップダウンメニューから選択します。
-1. 内 **[!UICONTROL 配達確認をコピー]** 表示されるページで、コピーを既存の配達確認の新しいバージョンとして作成するか、新しい配達確認として作成するかを指定します。\
-   デフォルトでは、コピーの名前は「 [元の配達確認名].&quot;
+1. ドロップダウンメニューから「**[!UICONTROL コピー]**」を選択します。
+1. 表示される&#x200B;**[!UICONTROL プルーフをコピー]**&#x200B;ページで、コピーを既存のプルーフの新しいバージョンとして作成するか、新しいプルーフとして作成するかを指定します。\
+   デフォルトでは、コピーの名前は「[元のプルーフ名]のコピー」です。
 
-1. （オプション）コピー配達確認の名前を変更するには、新しい **[!UICONTROL 配達確認名]**.
-1. （オプション） **[!DNL Share]** セクションで、次のいずれかの操作を行います。
+1. （オプション）コピープルーフの名前を変更するには、新しい&#x200B;**[!UICONTROL プルーフ名]**&#x200B;を入力します。
+1. （オプション）「**[!DNL Share]**」セクションで、次のいずれかの操作を行います。
 
-   * 配達確認にレビュー担当者を追加します。 詳しくは、 [で配達確認を共有 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) を参照してください。 配達確認へのグループの追加について詳しくは、 [配達確認へのグループの追加](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).
+   * プルーフにレビュアーを追加します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でのプルーフの共有を参照してください。プルーフへのグループの追加について詳しくは、[プルーフへのグループの追加](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md)を参照してください。
 
-   * レビュー担当者に配達確認の役割を割り当てます。 詳しくは、 [での配達確認の役割の管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
-   * レビュー担当者向けの E メールアラートを設定します。 詳しくは、 [での電子メール通知の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   * レビュアーにプルーフの役割を割り当てます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
+   * レビュアー向けのメールアラートを設定します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知の設定を参照してください。
    * 期限を設定します。
-   * 通知電子メールを送信するかどうかを指定します。 詳しくは、 [配達確認の通知とリマインダー。](https://support.workfront.com/hc/en-us/sections/115000920788-Proof-notifications-and-reminders)
-   * 通知 E メールにカスタム件名とメッセージを含めます。
+   * 通知メールを送信するかどうかを指定します。詳しくは、[プルーフの通知とリマインダー](https://support.workfront.com/hc/ja-jp/sections/115000920788-Proof-notifications-and-reminders)を参照してください。
+   * 通知メールにカスタム件名とメッセージを含めます。
 
-1. 内 **[!UICONTROL 整理]** セクションで、次のいずれかの操作を行います。
+1. 「**[!UICONTROL 整理]**」セクションで、次のいずれかの操作を行います。
 
-   * フォルダーに配達確認を追加します。 詳しくは、 [でのフォルダーの作成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
-   * フォルダーが共有されている場合は、そのフォルダーの共有先のユーザーのリストを確認します。 詳しくは、 [でフォルダーを共有 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
-   * 配達確認に 1 つ以上のタグを適用します。 詳しくは、 [でのタグの作成と管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
+   * フォルダーにプルーフを追加します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) でのフォルダーの作成を参照してください。
+   * フォルダーが共有されている場合は、そのフォルダーの共有先のユーザーのリストを確認します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) でのフォルダーの共有を参照してください。
+   * プルーフに 1 つ以上のタグを適用します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) でのタグの作成と管理を参照してください。
 
-1. 内 **[!UICONTROL 詳細]** 設定セクションで、 [での配達確認の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) あなたが望む。 詳しくは、 [での配達確認の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)このセクションでの選択は、配達確認の詳細ページに表示されます（一部のフィールドは編集できます）。 詳しくは、 [で配達確認の詳細を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. 「**[!UICONTROL その他]**&#x200B;設定」セクションで、目的の[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でのプルーフ設定を選択します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でのプルーフ設定の指定を参照してください。このセクションで選択した内容は、プルーフの詳細ページに表示されます（一部のフィールドは編集可能）。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理を参照してください。
 
-次の場所（必要なアカウント権限プロファイルがある場合）で、配達確認のコピーを作成することもできます。
+また、次の場所（必要なアカウント権限プロファイルがある場合）で、プルーフのコピーを作成できます。
 
-* **校正ビューア**. 校正ビューアについて詳しくは、 [Web 校正ビューアでの配達確認の確認](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer) （静的配達確認の場合）および [デスクトップ校正ビューアでの配達確認の確認](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer) （インタラクティブな配達確認の場合）
+* **プルーフビューア**。プルーフビューアについて詳しくは、[Web プルーフビューアでのプルーフの確認](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)（静的プルーフの場合）および[デスクトッププルーフビューアでのプルーフの確認](https://support.workfront.com/hc/ja-jp/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)（インタラクティブプルーフの場合）を参照してください。
 
-* **配達確認の詳細ページ**. 詳しくは、 [で配達確認の詳細を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+* **プルーフの詳細ページ**。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を参照してください。
 
-* **フォルダーの詳細ページ**. 詳しくは、 [でフォルダとそのコンテンツを管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+* **フォルダーの詳細ページ**。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md) でフォルダーとそのコンテンツを管理を参照してください。
 
-* **任意のリスト表示ページ**. 詳しくは、 [のビューページで項目を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+* **リストビューページ**。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
 
-## 新しい配達確認用の既存の配達確認設定のコピー
+## 既存のプルーフ設定をコピーし新規プルーフに使用
 
-新しい配達確認を作成する際に、レビュー担当者、ワークフロー、タグ、フォルダーを何度も繰り返し選択する代わりに、既存の配達確認の設定を使用して配達確認を作成できます。 必要に応じて、設定を調整できます。
+新規プルーフを作成する際、レビュアーやワークフロー、タグ、フォルダーを何度も繰り返し選択する代わりに、既存のプルーフの設定を使用してプルーフを作成できます。必要に応じて、設定を調整できます。
 
-新しい配達確認の既存の配達確認設定をコピーするには：
+既存のプルーフ設定をコピーし新規プルーフに使用するには：
 
-1. 任意の **[!UICONTROL 件数]** ページ、 [のビューページで項目を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理の説明に従って、**[!UICONTROL ビュー]**&#x200B;ページのいずれかに移動します。
 
-1. を開きます。 **[!UICONTROL 詳細]** メニューを使用します。\
+1. プルーフの&#x200B;**[!UICONTROL その他]**&#x200B;メニューを開きます。\
    ![](assets/more-button-small.png)
 
-1. 選択 **[!UICONTROL 配達確認の詳細を表示]** をドロップダウンメニューから選択します。
-1. クリック **[!UICONTROL 詳細]**.\
+1. ドロップダウンメニューから「**[!UICONTROL プルーフの詳細を表示]**」を選択します。
+1. 「**[!UICONTROL その他]**」をクリックします。\
    ![More_button_text_version.png](assets/more-button-text-version.png)
 
-1. クリック **[!UICONTROL 新しいファイルでコピー]** 」と入力します。
-1. 内 **[!UICONTROL 新しい配達確認]** 表示されるページで、新しいファイルをアップロードして、「 **[!UICONTROL 作成]**.
+1. ドロップダウンメニューで「**[!UICONTROL 新しいファイルでコピー]**」をクリックします。
+1. 表示される&#x200B;**[!UICONTROL 新規プルーフ]**&#x200B;ページで、新規ファイルをアップロードして「**[!UICONTROL 作成]**」をクリックします。
