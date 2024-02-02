@@ -9,10 +9,10 @@ title: Airtable モジュール
 description: Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
 author: Becky
 feature: Workfront Fusion
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
-source-wordcount: '1863'
+source-wordcount: '1862'
 ht-degree: 100%
 
 ---
@@ -485,7 +485,7 @@ web フック URL は、Workfront Fusion で生成してから、Airtable のフ
   </tr> 
   <tr> 
    <td role="rowheader">本文</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件ステートメントを JSON で使用する場合は、条件ステートメントの外側に引用符を挿入します。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件文を JSON で使用する場合は、条件文を引用符で囲みます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
