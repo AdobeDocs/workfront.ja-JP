@@ -4,7 +4,8 @@ description: レートカードをプロジェクトに添付すると、場所�
 author: Lisa
 feature: Work Management
 role: User
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
 source-wordcount: '449'
 ht-degree: 100%
@@ -75,4 +76,3 @@ ht-degree: 100%
    >[!NOTE]
    >
    >請求レートリストでは、レートカードからの 1 つ以上の担当業務を削除できます。プロジェクトから担当業務の請求レートを削除しても、デフォルトのレートカードからは削除されません。
-
