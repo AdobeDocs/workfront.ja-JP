@@ -3,42 +3,42 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion リリースアクティビティ： 2020 年 12 月 7 日の週」
-description: このページでは、2020 年 12 月 7 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+title: 「Workfront Fusion リリースアクティビティ：2020年12月7日の週」
+description: このページでは、2020年12月7日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2020 年 12 月 7 日の週
+# Workfront Fusion リリースアクティビティ：2020年12月7日の週
 
-このページでは、2020 年 12 月 7 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2020年12月7日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## Jira Server コネクタとモジュールが利用できるようになりました
+## Jira サーバーコネクタとモジュールが利用できるようになりました
 
-新しい Jira Server コネクタがWorkfront Fusion 2.0 で使用できるようになりました。Jira サーバーコネクタは、現在の Jira Cloud コネクタと同じ機能を提供します。 Jira Server モジュールを使用すると、次のことが可能になります。
+新しい Jira サーバーコネクタが Workfront Fusion 2.0 で使用できるようになりました。Jira サーバーコネクタは、現行の Jira Cloud コネクタと同じ機能を提供します。Jira サーバーモジュールを使用すると、以下のことが可能になります。
 
 * レコードが追加、変更または削除された場合のシナリオのトリガー
-* レコードの作成、読み取り、更新、削除
-* レコードのリストまたは検索
+* レコードを作成、読み取り、更新、削除
+* レコードのリスト作成または検索
 * 添付ファイルのダウンロード
-* スプリントにイシューを追加する
-* カスタム API 呼び出しをおこなう
+* スプリントへのイシューを追加
+* カスタム API 呼び出しを実行
 
 以前は、Jira モジュールは Jira Cloud でのみ使用できました。
 
-利用可能な Jira モジュールについて詳しくは、 [Jira Software モジュール](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+利用可能な Jira モジュールに関して詳しくは、[Jira ソフトウェアモジュール](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
