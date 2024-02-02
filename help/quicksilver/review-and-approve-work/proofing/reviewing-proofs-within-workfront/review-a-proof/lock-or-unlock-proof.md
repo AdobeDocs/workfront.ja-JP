@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: 配達確認のロックまたはロック解除
-description: レビュープロセスでは、いつでも手動で配達確認をロックおよびロック解除できます。
+title: プルーフをロック／ロック解除
+description: レビュープロセスでは、いつでも手動でプルーフをロックおよびロック解除できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
 source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# 配達確認のロックまたはロック解除
+# プルーフをロック／ロック解除
 
-レビュープロセスでは、いつでも手動で配達確認をロックおよびロック解除できます。
+レビュープロセスでは、いつでも手動でプルーフをロックおよびロック解除できます。
 
 ## アクセス要件
 
@@ -26,16 +26,16 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：プレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">配達確認の役割</td> 
-   <td>所有者またはモデレーター</td> 
+   <td role="rowheader">プルーフの役割</td> 
+   <td>所有者または進行管理者</td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -44,41 +44,41 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、配達確認権限プロファイルを確認するには、WorkfrontまたはWorkfrontの配達確認管理者に問い合わせてください。
+&#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront 管理者または Workfront Proof 管理者にお問い合わせください。
 
-## 配達確認をロック
+## プルーフのロック
 
-配達確認を手動でロックして、レビュー担当者によるコメントを防いだり、許可したりできます。 これは、配達確認ステージをロックするのとは異なります。
+プルーフを手動でロックして、レビュー担当者によるコメントを禁止したり、許可したりできます。これは、プルーフステージのロックとは異なります。
 
-配達確認をロックするには：
+プルーフをロックするには、次の手順に従います。
 
-1. 開く配達確認が含まれているドキュメントリストに移動します。
-1. ドキュメントの上にマウスポインターを置いて、 **配達確認を開く** 表示されるリンク。
+1. 開くプルーフが含まれているドキュメントリストに移動します。
+1. ドキュメントにポインタを合わせて、表示される「**プルーフを開く**」リンクをクリックします。
 
    または
 
-   ドキュメントの以前のバージョンの配達確認を開く場合は、「その他」アイコンをクリックします。 ![](assets/more-icon.png) 「概要」でそのバージョンのを選択し、「 **配達確認を開く**.
+   ドキュメントの以前のバージョンのプルーフを開く場合は、概要でそのバージョンのその他アイコン ![](assets/more-icon.png) をクリックし、「**プルーフを開く**」をクリックします。
 
-   概要については、 [ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md).
+   概要については、[ドキュメントの概要の概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左側のパネルで、 **ロック** アイコン ![](assets/unlock-proof-icon.png).
+1. 左パネルの&#x200B;**ロック**&#x200B;アイコン ![](assets/unlock-proof-icon.png) をクリックします。
 
    ![](assets/lock-proof-350x277.png)
 
-## 配達確認のロック解除
+## プルーフのロック解除
 
-配達確認のロック解除は、以前のバージョンの配達確認にコメントを追加するレビュー担当者が必要な場合に役立ちます。 （以前のバージョンは、配達確認の所有者が手動でロックを解除するまで、常にロックされます）。 レビュー担当者が以前のバージョンへのコメントの追加を完了したら、再度ロックできます。 配達確認の以前のバージョンの表示について詳しくは、 [Web 校正ビューアで以前の配達確認バージョンを表示します](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
+プルーフのロック解除は、以前のバージョンのプルーフに対するレビュアーからのコメントの追加が必要な場合に役立ちます。（以前のバージョンは、プルーフの所有者が手動でロックを解除するまで、常にロックされています）。レビュアーが以前のバージョンへのコメントの追加を完了したら、ユーザーは再度ロックできます。プルーフの以前のバージョンの表示については、[Web プルーフビューアでの以前のプルーフバージョンの表示](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)を参照してください。
 
-配達確認をロック解除するには：
+プルーフをロック解除するには、次の手順に従います。
 
-1. ドキュメントの上にマウスポインターを置いて、 **配達確認を開く** 表示されるリンク。
+1. ドキュメントにポインタを合わせて、表示される「**プルーフを開く**」リンクをクリックします。
 
    または
 
-   ドキュメントの以前のバージョンの配達確認を開く場合は、「その他」アイコンをクリックします。 ![](assets/more-icon.png) 「概要」でそのバージョンのを選択し、「 **配達確認を開く**.
+   ドキュメントの以前のバージョンのプルーフを開く場合は、概要でそのバージョンのその他アイコン ![](assets/more-icon.png) をクリックし、「**プルーフを開く**」をクリックします。
 
-   概要については、 [ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md).
+   概要については、[ドキュメントの概要の概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左側のパネルで、 **ロック解除** アイコン ![](assets/unlock-proof-icon.png)を選択し、「 **はい、ロックを解除します**.
+1. 左パネルで&#x200B;**ロック解除**&#x200B;アイコン ![](assets/unlock-proof-icon.png) をクリックしたあと、「**はい、ロックを解除します**」をクリックします。
 
    ![](assets/copy-of-unlock-proof-350x279.png)
