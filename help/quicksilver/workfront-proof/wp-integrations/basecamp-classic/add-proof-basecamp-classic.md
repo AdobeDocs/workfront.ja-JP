@@ -2,86 +2,86 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: Basecamp Classic プロジェクトへの配達確認の追加
-description: 設定後、 [!DNL Basecamp Classic] 統合では、 [!DNL Basecamp Classic] アカウント
+title: Basecamp Classic プロジェクトへのプルーフの追加
+description: ' [!DNL Basecamp Classic]  統合を設定すると、 [!DNL Basecamp Classic]  アカウント内のプロジェクトにプルーフの追加を開始できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 配達確認の追加 [!DNL Basecamp Classic] プロジェクト
+# [!DNL Basecamp Classic] プロジェクトへのプルーフの追加
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-設定後、 [!DNL Basecamp Classic] 統合では、 [!DNL Basecamp Classic] アカウント
+[!DNL Basecamp Classic] 統合を設定すると、[!DNL Basecamp Classic] アカウント内のプロジェクトにプルーフの追加を開始できます。
 
-配達確認を [!DNL Basecamp Classic] プロジェクトの場合、レビュー担当者に電子メール通知が送信されます。この通知には、配達確認を表示するためのリンクが含まれます。 [!DNL Workfront Proof] メッセージを開くためのリンクを [!DNL Basecamp Classic] アカウント
+[!DNL Basecamp Classic] プロジェクトにプルーフを追加すると、レビュアーは [!DNL Workfront Proof] でプルーフを表示するためのリンクと、[!DNL Basecamp Classic] アカウントでメッセージを開くためのリンクを含む通知メールを受け取ります。
 
-メッセージを開いたら、内からコメントし、配達確認に関する決定を下すことができます [!DNL Basecamp] アカウント
+レビュアーがメッセージを開くと、[!DNL Basecamp] アカウント内からコメントを付けたり、プルーフについて決定を下したりできるようになります。
 
-詳しくは、 [での配達確認の確認 [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+詳しくは、[ [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md) でのプルーフの確認を参照してください。
 
-## 新しい配達確認の [!DNL Basecamp Classic] プロジェクト
+## [!DNL Basecamp Classic] プロジェクトへの新規プルーフの追加
 
 >[!NOTE]
 >
->配達確認を追加する前に [!DNL Basecamp Classic]を [!DNL Basecamp] 統合が有効になっていて、関連する [!DNL Basecamp] 個人設定で選択されたアカウント ( 複数の [!DNL [!DNL Basecamp]] アカウントに追加しますが、配達確認を 1 つにのみ追加します。 [!DNL Basecamp] アカウントを一度に追加 )。 設定について詳しくは、 [個人設定。](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
+>[!DNL Basecamp Classic] にプルーフを追加する前に、[!DNL Basecamp] 統合が有効になっていること、および関連する [!DNL Basecamp] アカウントが個人設定で選択されていることを確認する必要があります（複数の [!DNL [!DNL Basecamp]] アカウントと統合できますが、一度にプルーフを追加できるのは 1 つの [!DNL Basecamp] アカウントのみです）。設定について詳しくは、[個人設定](https://support.workfront.com/hc/ja-jp/sections/115000921168-Personal-settings)を参照してください。
 
-1. 配達確認の作成 ( [で配達確認を生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
-1. レビュー担当者に E メールで通知する場合は、 **[!UICONTROL メールで担当者に通知]** が選択されている。\
-   なお、 [!DNL Basecamp] レビュー担当者が追加の [!DNL Basecamp] メッセージ。
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成の説明に従って、プルーフを作成します。
+1. レビュアーにメールで通知する場合は、「**[!UICONTROL メールでユーザーに通知]**」が選択されていることを確認します。\
+   [!DNL Basecamp] レビュアーが追加の [!DNL Basecamp] メッセージを受け取ることに注意してください。
 
-1. 内 **[!UICONTROL 整理]** セクションで、 **[!UICONTROL 配達確認を [!DNL Basecamp] プロジェクト]**.
+1. 「**[!UICONTROL 整理]**」セクションで、「**[!UICONTROL プルーフを [!DNL Basecamp] プロジェクトに追加]**」をクリックします。
 
-1. 内 **[!UICONTROL 追加先[!DNL Basecamp]]** 表示されるボックスで、 **[!UICONTROL データを更新]** 同期する [!DNL Basecamp Classic].
+1. 表示される「**[!UICONTROL [!DNL Basecamp]]** に追加」ボックスで、「**[!UICONTROL データを更新]**」をクリックして [!DNL Basecamp Classic] と同期します。
 
-1. この配達確認を非公開にするかどうかを指定します [!DNL Basecamp] （新規ではオプションを使用できません） [!DNL Basecamp]) をクリックします。
-1. を選択します。 [!DNL Basecamp Classic] プロジェクト。
-1. を選択します。 [!UICONTROL [!DNL Basecamp Classic] メッセージカテゴリ].
-1. の下 **[!UICONTROL プロジェクトの担当者]**、レビュー担当者用のチェックボックスを [!DNL Basecamp Classic] 配達確認に追加するアカウント。\
-   レビュー担当者がデフォルトの役割/電子メールアラートに表示されます。 選択したレビュー担当者に、 [!DNL Basecamp] この配達確認とからの電子メール通知の [!DNL Workfront Proof].
+1. [!DNL Basecamp] で、このプルーフを非公開にするかどうかを指定します（新規 [!DNL Basecamp] ではオプションを使用できません）。
+1. [!DNL Basecamp Classic] プロジェクトを選択します。
+1. [!UICONTROL [!DNL Basecamp Classic] メッセージカテゴリ]を選択します。
+1. **[!UICONTROL プロジェクトの担当者]**&#x200B;の下で、プルーフに追加する [!DNL Basecamp Classic] アカウント内のレビュアーのチェックボックスを選択します。\
+   レビュアーがデフォルトの役割やメールアラートに表示されます。選択されたレビュアーは、このプルーフに関するメッセージを [!DNL Basecamp] で受け取り、また [!DNL Workfront Proof] からのメール通知も受け取ります。
 
-1. レビュー担当者のデフォルト値を変更した場合は、 [!DNL Basecamp] 新しいデフォルト値の前のデータが使用されます。 を更新するには、以下を実行します。 [!DNL Basecamp] データをクリックすると、[!UICONTROL 更新]」リンクを [!DNL Basecamp] ポップアップイン [!DNL Workfront Proof]. メッセージを受け取る場合は、独自の名前を [!DNL Basecamp].
-1. クリック **[!UICONTROL OK]**.
-1. 配達確認に必要なその他の設定を（通常どおり）適用し、 **[!UICONTROL 保存]** 配達確認を送信するには
+1. レビュアーのデフォルトを変更した場合は、新しいデフォルトを使用する前に、[!DNL Basecamp] データを更新する必要があります。[!DNL Basecamp] データを更新するには、[!DNL Workfront Proof] の [!DNL Basecamp] ポップアップで「[!UICONTROL 更新]」リンクをクリックします。[!DNL Basecamp] でメッセージを受信する場合も、自分の名前を含めます。
+1. 「**[!UICONTROL OK]**」をクリックします。
+1. プルーフに必要なその他の設定を（通常どおり）適用し、「**[!UICONTROL 保存]**」をクリックしてプルーフを送信します。
 
-## 既存の配達確認の追加 [!DNL Basecamp Classic] プロジェクト
+## [!DNL Basecamp Classic] プロジェクトへの既存プルーフの追加
 
-1. In [!DNL Workfront Proof]、 [!UICONTROL 配達確認の詳細] ページ、  [で配達確認の詳細を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. 内 **[!UICONTROL ワークフロー]** セクションで、 **[!UICONTROL その他の共有オプション]** 」セクションに入力します。
+1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフ詳細の管理の説明に従って、[!DNL Workfront Proof] で[!UICONTROL プルーフ詳細]ページに移動します。
+1. 「**[!UICONTROL ワークフロー]**」セクションで、「**[!UICONTROL その他の共有オプション]**」セクションを開きます。
 
-1. 確認 **[!UICONTROL 配達確認 URL]** および **[!UICONTROL 埋め込みコード]** が **[!UICONTROL 有効にする]**.
+1. **[!UICONTROL プルーフの URL]** と&#x200B;**[!UICONTROL 埋め込みコード]**&#x200B;が「**[!UICONTROL 有効にする]**」に設定されていることを確認します。
 
-1. クリック **[!UICONTROL 配達確認を [!DNL Basecamp] プロジェクト]**.
-1. 内 [!UICONTROL 追加先 [!DNL Basecamp]] 表示されるボックスで、次の操作を行います。
+1. 「**[!UICONTROL プルーフを [!DNL Basecamp] プロジェクトに追加]**」をクリックします。
+1. 表示される「[!UICONTROL 追加先[!DNL Basecamp]]」ボックスで、次の操作を行います。
 
-   1. クリック **[!UICONTROL データを更新]** 同期する [!DNL Basecamp Classic] 先に進む前に
-   1. この配達確認を有効にするかどうかを指定します [!UICONTROL プライベート] in [!DNL Basecamp] （新規ではオプションを使用できません） [!DNL Basecamp]) をクリックします。
-   1. を選択します。 [!DNL Basecamp Classic] プロジェクト。
-   1. を選択します。 [!UICONTROL [!DNL Basecamp Classic] メッセージカテゴリ].
-   1. の下 **[!UICONTROL プロジェクトの担当者]**、レビュー担当者用のチェックボックスを [!DNL Basecamp Classic] 配達確認に追加するアカウント。
-   1. レビュー担当者がデフォルトの役割/電子メールアラートに表示されます。 選択したレビュー担当者に、 [!DNL Basecamp] この配達確認とからの電子メール通知の [!DNL Workfront Proof].
+   1. 続行する前に、「**[!UICONTROL データを更新]**」をクリックして [!DNL Basecamp Classic] と同期します。
+   1. このプルーフを [!DNL Basecamp] で[!UICONTROL 非公開]にするかどうかを指定します（オプションは新規 [!DNL Basecamp] では使用できません）。
+   1. [!DNL Basecamp Classic] プロジェクトを選択します。
+   1. [!UICONTROL [!DNL Basecamp Classic] メッセージカテゴリ]を選択します。
+   1. **[!UICONTROL プロジェクトの担当者]**&#x200B;の下で、プルーフに追加する [!DNL Basecamp Classic] アカウント内のレビュアーチェックボックスを選択します。
+   1. レビュアーがデフォルトの役割やメールアラートに表示されます。選択されたレビュアーは、このプルーフに関するメッセージを [!DNL Basecamp] で受け取り、また [!DNL Workfront Proof] からのメール通知も受け取ります。
 
       >[!NOTE]
       >
-      > レビュー担当者のデフォルト値を変更した場合は、 [!DNL Basecamp] 新しいデフォルト値の前のデータが使用されます。 を更新するには、以下を実行します。 [!DNL Basecamp] データをクリックすると、[!UICONTROL 更新]」リンクを [!DNL Basecamp] ポップアップイン [!DNL Workfront Proof]. メッセージを受け取る場合は、独自の名前を [!DNL Basecamp].
+      > レビュアーのデフォルトを変更した場合は、新しいデフォルトを使用する前に、[!DNL Basecamp] データを更新する必要があります。[!DNL Basecamp] データを更新するには、[!DNL Workfront Proof] の [!DNL Basecamp] ポップアップで「[!UICONTROL 更新]」リンクをクリックします。[!DNL Basecamp] でメッセージを受信する場合も、自分の名前を含めます。
 
-1. クリック **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックします。
 
-配達確認を [!DNL Basecamp Classic] プロジェクトの場合は、 [!UICONTROL その他の共有オプション] セクション [!UICONTROL 配達確認の詳細] ページ ( このページについて詳しくは、 [で配達確認の詳細を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). 次のことが可能です。
+[!DNL Basecamp Classic] プロジェクトにプルーフを追加すると、[!UICONTROL プルーフの詳細]ページの「[!UICONTROL その他の共有オプション]」セクションに、追加のオプションが表示されます（このページについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理を参照してください）。次の操作を実行できます。
 
-* を編集します。 [!DNL Basecamp Classic] プロジェクトの詳細。
-* メッセージ ( [!DNL Basecamp Classic] ボックスの下部にあるプロジェクト URL をクリックする（URL には、この配達確認の識別子が含まれます）。
+* [!DNL Basecamp Classic] プロジェクトの詳細を編集します。
+* ボックスの下部にあるプロジェクト URL をクリックして、[!DNL Basecamp Classic] のメッセージに移動します（URL にはこのプルーフの識別子が含まれています）。
 
 >[!NOTE]
 >
-> 次の条件を満たさない場合、 [!DNL Basecamp Classic] セッションを別のブラウザーウィンドウで開くには、 [!DNL Basecamp Classic] アカウントを使用して、 [!DNL Basecamp].
+> 別のブラウザーウィンドウで [!DNL Basecamp Classic] セッションを開いていない場合は、[!DNL Basecamp] でメッセージを表示する前に、[!DNL Basecamp Classic] アカウントにログインする必要があります。
 
-関連トピック [での配達確認の確認 [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+詳しくは、[ [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md) でのプルーフの確認も参照してください。
