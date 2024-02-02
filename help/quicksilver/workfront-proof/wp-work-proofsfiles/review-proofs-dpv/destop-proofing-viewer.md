@@ -3,72 +3,71 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-desktop-proofing-viewer
-title: デスクトップ校正ビューアについて
-description: デスクトップ校正ビューアは、インタラクティブコンテンツを校正する目的で設計されていますが、静的コンテンツやビデオコンテンツの校正にも使用できます。
+title: デスクトッププルーフビューアーについて
+description: デスクトッププルーフビューアは、インタラクティブコンテンツをプルーフする目的で設計されていますが、静的コンテンツやビデオコンテンツのプルーフにも使用できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4610f24f-345a-4ebc-8a0c-382e34cac7b0
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# デスクトップ校正ビューアについて
+# デスクトッププルーフビューアーについて
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-デスクトップ校正ビューアは、インタラクティブコンテンツを校正する目的で設計されていますが、静的コンテンツやビデオコンテンツの校正にも使用できます。
+デスクトッププルーフビューアは、インタラクティブコンテンツをプルーフする目的で設計されていますが、静的コンテンツやビデオコンテンツのプルーフにも使用できます。
 
-Web 校正ビューアとは異なり、デスクトップ校正ビューアは、お使いのワークステーションで実行されるアプリケーションです。 ただし、次の場所からアクセスします。 [!DNL Workfront] またはから [!DNL Workfront Proof] スタンドアロンアプリケーションとして実行するのではなく、配達確認を起動するとき ( デスクトップ校正ビューアのインストールの詳細については、 [デスクトップ校正ビューアのインストール](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)) をクリックします。
+Web プルーフビューアとは異なり、デスクトッププルーフビューアは、ワークステーションで実行されるアプリケーションです。ただし、プルーフを起動するときは、スタンドアロンアプリケーションとして実行するのではなく、[!DNL Workfront] または [!DNL Workfront Proof] からアクセスします（デスクトッププルーフビューアについて詳しくは、[デスクトッププルーフビューアのインストール](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)を参照してください）。
 
-## デスクトップ校正ビューアと他の校正ビューアとの比較
+## デスクトッププルーフビューアと他のプルーフビューアの比較
 
-* [デスクトップ校正ビューアと Web 校正ビューア](#desktop-proofing-viewer-vs-web-proofing-viewer)
-* [デスクトップ校正ビューアとレガシー校正ビューアの比較](#desktop-proofing-viewer-vs-legacy-proofing-viewer)
+* [デスクトッププルーフビューアと web プルーフビューアの比較](#desktop-proofing-viewer-vs-web-proofing-viewer)
+* [デスクトッププルーフビューアとレガシープルーフビューアの比較](#desktop-proofing-viewer-vs-legacy-proofing-viewer)
 
-### デスクトップ校正ビューアと Web 校正ビューア {#desktop-proofing-viewer-vs-web-proofing-viewer}
+### デスクトッププルーフビューアと web プルーフビューアの比較 {#desktop-proofing-viewer-vs-web-proofing-viewer}
 
-デスクトップ校正ビューアと Web 校正ビューアを区別する主な 2 つの特徴は次のとおりです。
+デスクトッププルーフビューアと web プルーフビューアを区別する主な 2 つの特徴は次のとおりです。
 
-* デスクトップ校正ビューアを使用すると、Web サイト、ストリーミングビデオ、インタラクティブバナーなどのインタラクティブコンテンツをレビューできます。Web 校正ビューアでは、静的およびビデオの配達確認のみをレビューできます。
-* デスクトップ校正ビューアは、ローカルコンピュータ上でアプリケーションとして実行されます。ブラウザで Web 校正ビューアが実行されます。
+* デスクトッププルーフビューアでは、web サイト、ストリーミングビデオ、インタラクティブバナーなどのインタラクティブコンテンツをレビューできます。web プルーフビューアでは、静的なプルーフとビデオのプルーフのみをレビューできます。
+* デスクトッププルーフビューアは、ローカルコンピューター上でアプリケーションとして実行され、web プルーフビューアはブラウザーで実行されます。
 
-   >[!NOTE]
-   >
-   >   * セキュリティ上の理由からデスクトップ校正ビューアアプリを使用できない場合は、 [!DNL Workfront] 管理者は、ZIP アーカイブファイルにバンドルされているインタラクティブコンテンツを Web 校正ビューアで確認できるように、システムを設定できます。
-   >   * 配達確認の作成や参照などの配達確認管理タスクは、 [!DNL Workfront] または [!DNL Workfront Proof]. デスクトップ校正ビューアは、配達確認のレビュー用にのみ使用されます。
+  >[!NOTE]
+  >
+  >   * セキュリティ上の理由でデスクトッププルーフビューアアプリを使用できない場合、[!DNL Workfront] 管理者は、ZIP アーカイブファイルにバンドルされたインタラクティブコンテンツを web プルーフビューアで確認できるようにシステムを設定できます。
+  >   * プルーフの作成やブラウジングなどのプルーフ管理タスクは、[!DNL Workfront] または [!DNL Workfront Proof] で発生します。デスクトッププルーフビューアは、プルーフのレビュー用にのみ使用されます。
 
 
+様々なプルーフビューアの機能について詳しくは、[Web プルーフビューアとデスクトッププルーフビューアの違いの概要](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)を参照してください。
 
-様々な校正ビューアの機能について詳しくは、 [Web 校正ビューアとデスクトップ校正ビューアの違いの概要](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
+### デスクトッププルーフビューアとレガシープルーフビューアの比較 {#desktop-proofing-viewer-vs-legacy-proofing-viewer}
 
-### デスクトップ校正ビューアとレガシー校正ビューアの比較 {#desktop-proofing-viewer-vs-legacy-proofing-viewer}
+レガシープルーフビューアは、ほとんどの環境で非推奨となっている Flash でサポートされているので、このビューアにはアクセスできない可能性があります。
 
-レガシー校正ビューアは、ほとんどの環境で非推奨となっているFlashでサポートされているので、このビューアにアクセスできない可能性があります。
+デスクトッププルーフビューアには、レガシープルーフビューアに対して次の機能強化が含まれています。
 
-デスクトップ校正ビューアには、従来の校正ビューアに対して次の機能強化が含まれています。
-
-* セキュリティで保護されていない (HTTPS) サイトだけでなく、セキュリティで保護されていない (HTTP) サイトを確認します。
-* iFrame で保護されたサイト（iFrame 内で表示できないサイト）を確認します。
+* セキュリティで保護されている（HTTPS）サイトだけでなく、セキュリティで保護されていない（HTTP）サイトもレビューできます。
+* iFrame で保護されたサイト（iFrame 内で表示できないサイト）をレビューできます。
 * 様々なデバイス向けに事前に設定された解像度でコンテンツを表示します。\
    例えば、様々な標準のデスクトップ解像度や、iPhone 8 などの個々のデバイスでコンテンツがどのように表示されるかを確認できます。
 
-以前のバージョンの校正ビューアは [!DNL Workfront] 2018 年末の 2018.3 リリースと共に。
+レガシープルーフビューアは 2018 年末の 2018.3 リリースで [!DNL Workfront] から削除されます。
 
-旧来の校正ビューアは、 [!DNL Workfront] 2018 年 7 月の 2018.2 リリース以降。
+レガシープルーフビューアは、2018年7月の 2018.2 リリース後に [!DNL Workfront] を入手した顧客には提供されません。
 
-## デスクトップ校正ビューアで非インタラクティブ校正を開くためのユーザー設定
+## デスクトッププルーフビューアで非インタラクティブプルーフを開くためのユーザー設定
 
-デスクトップ校正ビューアの主な目的はインタラクティブコンテンツを校正することですが、これを使用して静的配達確認やビデオ配達確認を行うこともできます。
+デスクトッププルーフビューアの主な目的はインタラクティブコンテンツをプルーフすることですが、この設定を使用して静的なプルーフやビデオのプルーフを行うこともできます。
 
-ユーザーは、静的配達確認やビデオ配達確認など、あらゆる種類の配達確認を開いたときに、デスクトップ校正ビューアを自動的に起動するように設定できます。 詳しくは、 [校正ビューアの設定を行う](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+ユーザーは、静的なプルーフやビデオのプルーフなど、あらゆる種類のプルーフを開いたときに、デスクトッププルーフビューアを自動的に起動するように設定できます。詳しくは、[プルーフビューア設定の指定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)を参照してください。
 
-## 配達確認 URL の入力
+## プルーフ URL の入力
 
-ワークステーションから直接デスクトップ校正ビューアを起動した場合は、配達確認 URL を指定して配達確認を開くことができます。 これをおこなうには、表示する配達確認の配達確認 URL が必要です。
+ワークステーションから直接デスクトッププルーフビューアを起動した場合は、プルーフ URL を指定してプルーフを開くことができます。これを行うには、表示するプルーフのプルーフ URL が必要です。
 
-次の場所から直接配達確認を開くことをお勧めします。 [!DNL Workfront]. 詳しくは、 [配達確認の確認](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
+[!DNL Workfront] から直接プルーフを開くことをお勧めします。詳しくは、[プルーフのレビュー](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)を参照してください。
