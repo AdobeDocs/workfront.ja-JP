@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Adobe Workfront目標での目標の進捗状況の更新
+title: Adobe Workfront Goals での目標の進捗の更新
 description: 目標を定期的に確認し、進捗を更新して、目標が遅れていないか、達成されない危険が生じていないかを確認する必要があります。
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標での目標の進捗状況の更新
+# Adobe Workfront Goals での目標の進捗の更新
 
 目標を定期的に確認し、進捗を更新して、目標が遅れていないか、達成されない危険が生じていないかを確認する必要があります。
 
@@ -83,23 +83,23 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront目標の使用要件</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>目標以降へのアクセスを編集</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+   <td> <p>Goals 以上への編集アクセス権</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -107,49 +107,49 @@ You must have the following:
    <td> 
     <div> 
      <p>目標に対する権限の管理</p> 
-     <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
+     <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## 前提条件
 
-を起動する前に、次の条件を満たす必要があります。
+開始するには、まず以下が必要です。
 
-* メインメニューの目標領域を含むレイアウトテンプレート。
-* アクティブな目標。 ドラフト、非アクティブまたはクローズ済みの目標に関する進捗を更新することはできません。
+* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
+* アクティブな目標。ドラフト、非アクティブ、またはクローズ済みの目標に関する進捗を更新することはできません。
 
 ## 目標を更新する際の考慮事項
 
 目標の進捗状況を更新する際は、以下の点を考慮してください。
 
-* Workfront目標の進行状況インジケーターの進行状況を更新すると、目標の進行状況が自動的に計算されます。
+* Workfront Goals の進行状況インジケーターの進行状況を更新すると、目標の進行状況が自動的に計算されます。
 
-   >[!TIP]
-   >
-   >目標に関する進捗を直接更新することはできません。 目標の進捗状況インジケーター（アクティビティ、結果、接続されたプロジェクト）の進捗状況を更新し、目標の進捗状況を更新する必要があります。 プロジェクトの進捗状況を更新するには、プロジェクトのタスクを更新する必要があります。
+  >[!TIP]
+  >
+  >目標に関する進捗を直接更新することはできません。目標の進捗状況インジケーター（アクティビティ、結果、接続されたプロジェクト）の進捗状況を更新し、目標の進捗状況を更新する必要があります。プロジェクトの進捗状況を更新するには、プロジェクトのタスクを更新する必要があります。
 
-   次の記事も参照してください。
+  次の記事も参照してください。
 
-   * アクティビティを目標に追加する方法について詳しくは、 [Adobe Workfront目標での目標へのアクティビティの追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * 目標に結果を追加する方法について詳しくは、 [Adobe Workfront目標の目標に結果を追加](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Workfront目標での目標の進捗状況の計算方法について詳しくは、 [Adobe Workfront目標の目標の達成状況と条件の概要](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * 目標へのアクティビティの追加について詳しくは、[Adobe Workfront Goals の目標にアクティビティを追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md)を参照してください。
+   * 目標への結果の追加について詳しくは、[Adobe Workfront Goals の目標に結果を追加](../../workfront-goals/results-and-activities/add-results-to-goals.md)を参照してください。
+   * Workfront Goals での進捗ステータスの決定方法について詳しくは、[Adobe Workfront Goals の目標進捗と状況の概要](../../workfront-goals/goal-management/calculate-goal-progress.md)を参照してください。
 
-* 進行状況を更新する前に、目標を作成してアクティブ化する必要があります。
+* 進行状況を更新する前に、目標を作成してアクティベートする必要があります。
 
-   次の記事も参照してください。
+  次の記事も参照してください。
 
-   * 目標の作成について詳しくは、 [Adobe Workfront目標での目標の作成](../../workfront-goals/goal-management/create-goals.md).
-   * 目標のアクティブ化について詳しくは、 [Adobe Workfront目標で目標を有効化](../../workfront-goals/goal-management/activate-goals.md).
+   * 目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
+   * 目標のアクティブ化については、[Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)を参照してください。
 
-   >[!IMPORTANT]
-   >
-   >下書き、クローズまたは非アクティブになっている目標の進捗状況は更新できません。
+  >[!IMPORTANT]
+  >
+  >ドラフト、クローズ、非アクティブになっている目標の進捗状況を更新することはできません。
 
-* 目標に関する結果やアクティビティの進行状況を初めて更新する場合、「新規目標からの進行状況の変更」と「Workfront目標」の目標が進行状況の記録と目標に関する進捗状況の更新を開始します。
+* 目標に関する結果やアクティビティの進行状況を初めて更新する場合、目標の「進歩状況」が「新規」から変わり、Workfront Goals が進行状況と目標の進行状況の更新を記録し始めます。
 
 <!--
 
@@ -278,34 +278,32 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 -->
 
-目標に関する進捗を更新する手順は、次のとおりです。
+目標の進行状況を更新する手順は、次のとおりです。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) > **目標** をクリックします。
+1. 右上隅の&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)／**目標**&#x200B;をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   目標リストが開きます。 デフォルトでは、表示するためのアクセス権を持つすべての目標が表示されます。
+   これにより、目標リストが開きます。デフォルトでは、表示するアクセス権を持つすべての目標が表示されます。
 
-   または、左側のパネルで「目標の整列」をクリックします。
+   または、左パネルの「目標の整合性」をクリックすることもできます。
 
-1. 「目標リスト」で目標の名前をクリックし、目標ページを開きます。
-1. クリック **進行状況指標** をクリックします。
+1. 目標リストで目標の名前をクリックし、目標ページを開きます。
+1. 左パネルの「**進行状況インジケーター**」をクリックします。
 
-   「進捗状況指標」リストには、選択した目標に関するすべての進捗状況指標が表示されます。
+   「進行状況インジケーター」リストには、選択した目標に関するすべての進行状況インジケーターが表示されます。
 
    >[!NOTE]
    >
    >  * 更新できるのは、結果とアクティビティのみです。
-   >  * 子の目標の進捗状況を表示するには、子の目標の進捗状況インジケーターを更新する必要があります。
+   >  * 子の目標の進行状況を表示するには、子の目標の進行状況インジケーターを更新する必要があります。
    >  * プロジェクトの進行状況を表示するには、接続されたプロジェクトのタスクを更新する必要があります。
-
-      >   
-      >    次に、子の目標の進行状況とプロジェクトの進行状況が、選択した目標の進行状況を左右します。
-
+   >   
+   >    次に、子の目標の進行状況とプロジェクトの進行状況が、選択した目標の進行状況を左右します。
 
 
-1. 結果またはアクティビティの進行状況を更新するには、 **実際の進捗状況** 結果またはアクティビティの列に数値を入力して値を更新し、Enter キーを押します。
+1. 結果またはアクティビティの進行状況を更新するには、結果またはアクティビティの&#x200B;**実際の進行状況**&#x200B;列の数値をクリックして、値を入力して更新し、Enter キーを押します。
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
