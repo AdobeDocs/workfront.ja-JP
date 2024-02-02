@@ -2,42 +2,42 @@
 product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
-keywords: 更新
+keywords: アップデート
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion リリースアクティビティ： 2021 年 6 月 28 日の週」
-description: このページでは、2021 年 6 月 28 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+title: 「Workfront Fusion リリースアクティビティ：2021年6月28日の週」
+description: このページでは、2021年6月28日の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: abd14599-2c5e-4c8a-b8ba-5434483434a8
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 6 月 28 日の週
+# Workfront Fusion リリースアクティビティ：2021年6月28日の週
 
-このページでは、2021 年 6 月 28 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年6月28日の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
 ## Salesforce コネクタの新しい検索モジュール
 
-Salesforce オブジェクトの検索を簡単にするために、Salesforce コネクタに検索モジュールを追加しました。 SOSL または SOQL クエリを入力する代わりに、検索モジュールを使用して、ドロップダウンメニューを使用してクエリを作成できます。 この新しい検索フィルターは、Workfront Fusion の他の領域のフィルター機能と似ています。
+Salesforce オブジェクトの検索を簡単にするために、Salesforce コネクタに別の検索モジュールを追加しました。SOSL または SOQL クエリを入力する代わりに、検索モジュールを使用すると、ドロップダウンメニューからクエリを作成できます。この新しい検索フィルターは、Workfront Fusion の他のエリアのフィルター機能と似ています。
 
-クエリを自分で入力する場合は、クエリで検索モジュールの既存の機能を使用できます。
+クエリを自分で入力する場合は、クエリで検索モジュールの既存の機能を引き続き使用できます。
 
-詳しくは、 [Salesforce モジュール](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+詳しくは、[Salesforce モジュール](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)を参照してください。
 
-## Workfront/レコード監視モジュールで使用可能なイベント購読フィルタリング
+## Workfront／記録を監視モジュールで利用可能なイベント登録のフィルタリング
 
-Workfrontの新しいイベント購読フィルタリング機能に加えて、Workfront/レコードを監視モジュールを更新し、イベントフィルタリングを有効にしました。 これで、Webhook を作成する際にフィルターを設定できます。 これにより、イベントが特定の条件を満たす場合にのみシナリオをトリガーでき、実行する必要のあるシナリオの実行数を減らすことができます。
+Workfront の新しいイベント登録のフィルタリング機能に加えて、Workfront／記録を監視モジュールをアップデートし、イベントフィルタリングを有効にしました。Webhook を作成する際にフィルターを設定できるようになりました。これにより、イベントが特定の条件を満たす場合にのみシナリオをトリガーでき、シナリオの実行に必要な実行数を減らすことができます。
 
-以前は、監視レコードモジュールはすべてのレコードを取得していました。 ユーザーは、後のシナリオモジュールでフィルターを設定することによってのみフィルタリングできました。
+以前は、記録を監視モジュールではすべての記録を取得していました。ユーザーは、後のシナリオモジュールでフィルターを設定することでのみフィルタリングできました。
 
-詳しくは、 [Adobe Workfrontモジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+詳しくは、[Adobe Workfront モジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)を参照してください。
