@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 基本ワークフローを配達確認の自動ワークフローに変換する
-description: 配達確認の所有者は、既存の配達確認の基本ワークフローを自動ワークフローに変換できます。
+title: プルーフの基本ワークフローから自動化ワークフローへの変換
+description: プルーフの所有者である場合、既存のプルーフの基本ワークフローを自動化ワークフローに変換できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c676c696-ab7d-415b-bf5e-5d0335a3920f
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# 基本ワークフローを配達確認の自動ワークフローに変換する
+# プルーフの基本ワークフローから自動化ワークフローへの変換
 
-配達確認の所有者は、既存の配達確認の基本ワークフローを自動ワークフローに変換できます。
+プルーフの所有者である場合、既存のプルーフの基本ワークフローを自動化ワークフローに変換できます。
 
 ## アクセス要件
 
@@ -26,31 +26,31 @@ ht-degree: 4%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：プレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
-   <td>マネージャ以降</td> 
+   <td>マネージャー以上</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、配達確認権限プロファイルを確認するには、WorkfrontまたはWorkfrontの配達確認管理者に問い合わせてください。
+&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
 
-## 基本ワークフローを自動ワークフローに変換する
+## 基本ワークフローを自動化ワークフローに変換
 
-1. ドキュメントの一覧で、ドキュメントの上にマウスポインターを置いて、 **校正ワークフロー** 表示されたとき。
-1. Adobe Workfrontの右上隅にある **自動ワークフローに変換**.
-1. クリック **新規ステージ** をクリックします。
+1. ドキュメントリストで、ドキュメントにポインタを合わせ、表示されたら「**プルーフ ワークフロー**」をクリックします。
+1. Adobe Workfront の右上隅付近にある「**自動化ワークフローに変換**」をクリックします。
+1. 画面の右上隅にある「**新規ステージ**」をクリックします。
 1. 以下を指定します。
 
    <table style="table-layout:auto"> 
@@ -59,31 +59,31 @@ ht-degree: 4%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>名前</strong> </td> 
-      <td>ステージ名を追加します。</td> 
+      <td>ステージの名前を追加します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>期限</strong> </td> 
       <td>期限の日付を選択します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p><strong>ステージを有効化</strong> </p> </td> 
-      <td>ステージをアクティブにするタイミングを選択します。</td> 
+      <td role="rowheader"> <p><strong>ステージをアクティブ化</strong> </p> </td> 
+      <td>ステージをアクティブ化するタイミングを選択します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>期限オプション</strong> </td> 
-      <td>デッドラインのトリガー方法を選択</td> 
+      <td>期限のトリガー方法を選択します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ステージをロック</strong> </td> 
       <td>ステージをロックするかどうかを選択します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>プライマリ決定者</strong> </td> 
-      <td>主な意思決定者を指定します。</td> 
+      <td role="rowheader"><strong>主要な校正判断者</strong> </td> 
+      <td>主要な校正判断者を指定します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>決定</strong> </td> 
-      <td>1 つの決定のみが必要な場合に選択します。 </td> 
+      <td>必要な決定が 1 つのみかどうかを選択します。 </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>プライバシー</strong> </td> 
@@ -91,10 +91,10 @@ ht-degree: 4%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ユーザーを追加</strong> </td> 
-      <td>連絡先名または E メールアドレスを入力し、配達確認の役割を選択して、E メールアラートを設定します。</td> 
+      <td>連絡先の名前またはメールアドレスを入力し、プルーフの役割を選択して、メールアラートを設定します。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. クリック **ステージを追加**.
-1. （オプション）ワークフローに満足するまで、手順 3 と 4 を繰り返します。
+1. 「**ステージを追加**」をクリックします。
+1. （オプション）目的とするワークフローになるまで、手順 3 および 4 を繰り返します。
