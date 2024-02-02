@@ -7,9 +7,9 @@ feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
-workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 8%
+workflow-type: ht
+source-wordcount: '109'
+ht-degree: 100%
 
 ---
 
@@ -37,25 +37,25 @@ Contact your Workfront account manager to learn about a Workfront Goals license.
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 -->
 
-この記事で説明する機能を使用するには、以下が必要です。
+この記事で説明している機能を使用するには、組織に以下が必要です。
 
-* A Pro 以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
-* Workfrontライセンスに加えて、Adobe Workfront Goals ライセンスが必要です。
+* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
+* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 
-  Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。
+  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 
-Workfront Goals へのアクセスについて詳しくは、 [Workfront目標の使用要件](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-このセクションでは、以下のサブセクションについて説明します。
+このセクションには、次のサブセクションが含まれます。
 
-* [Adobe Workfront目標の概要](../workfront-goals/goal-management/wf-goals-overview.md)
-* [Adobe Workfront目標の目標管理](../workfront-goals/goal-management/goal-management.md)
-* [Adobe Workfront目標の目標の調整](../workfront-goals/goal-alignment/goal-alignment.md)
-* [目標のレビューとAdobe Workfront目標の節](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
-* [Adobe Workfront目標の結果とアクティビティ](../workfront-goals/results-and-activities/results-and-activities.md)
+* [Adobe Workfront Goals の概要](../workfront-goals/goal-management/wf-goals-overview.md)
+* [Adobe Workfront Goals で目標を調整](../workfront-goals/goal-management/goal-management.md)
+* [Adobe Workfront Goals で目標を調整](../workfront-goals/goal-alignment/goal-alignment.md)
+* [目標のレビューと Adobe Workfront Goals セクション](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+* [Adobe Workfront Goals の結果とアクティビティ](../workfront-goals/results-and-activities/results-and-activities.md)
 
   <!--
   <li>Tips, tricks, and troubleshooting for Workfront Goals (might come after GA)</li>
   -->
 
-* [Adobe Workfront目標の設定](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)
+* [Adobe Workfront Goals の設定](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)
