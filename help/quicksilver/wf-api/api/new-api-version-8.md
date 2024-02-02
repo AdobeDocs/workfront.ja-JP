@@ -2,15 +2,15 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 8 の新機能
-description: これは、API バージョン 9 で初めて使用されるリソースのリストです。 バージョン 8 のリソースに対しておこなわれた更新のリストについては、 API バージョン 8 の更新を参照してください。
+description: これは、API バージョン 9 で初めて使用されるリソースのリストです。バージョン 8 のリソースに対して行われた更新のリストについては、API バージョン 8 の更新を参照してください。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
-workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 26%
+workflow-type: ht
+source-wordcount: '269'
+ht-degree: 100%
 
 ---
 
@@ -18,28 +18,28 @@ ht-degree: 26%
 
 ## 新しいリソース
 
-これは、API バージョン 9 で初めて使用されるリソースのリストです。 バージョン 8 のリソースに対しておこなわれた更新のリストについては、 [API バージョン 8 の更新](../../wf-api/api/new-api-version-8-updates.md)
+これは、API バージョン 9 で初めて使用されるリソースのリストです。バージョン 8 のリソースに対して行われた更新のリストについては、[API バージョン 8 の更新](../../wf-api/api/new-api-version-8-updates.md)を参照してください。
 
 **AgileWork**
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| backlogOrder | 顧客 |   |   | bulkCopy  |   | コピー |
-| カラー | 反復  |   |   |   |   | カウント |
+| backlogOrder | 顧客 |   |   | bulkCopy |   | コピー |
+| 色 | イテレーション |   |   |   |   | COUNT |
 | customerID | lastUpdatedBy |   |   |   |   | 削除 |
-| 見積 | opTask |   |   |   |   | 編集 |
-| ID | プロジェクト |   |   |   |   | GET  |
-| isReady | storyboardParent |   |   |   |   | レポート |
+| 見積り | opTask |   |   |   |   | EDIT |
+| ID | プロジェクト |   |   |   |   | GET |
+| isReady | storyboardParent |   |   |   |   | REPORT |
 | iterationID | タスク |   |   |   |   | SEARCH |
 | lastUpdateDate | チーム |   |   |   |   |   |
 | lastUpdatedByID |   |   |   |   |   |   |
-| name |   |   |   |   |   |   |
+| 名前 |   |   |   |   |   |   |
 | opTaskID |   |   |   |   |   |   |
 | parentStoryBoardOrder |   |   |   |   |   |   |
 | projectID |   |   |   |   |   |   |
 | storyBoardOrder |   |   |   |   |   |   |
 | storyBoardParentID |   |   |   |   |   |   |
-| taskID  |   |   |   |   |   |   |
+| taskID |   |   |   |   |   |   |
 | teamID |   |   |   |   |   |   |
 | タイプ |   |   |   |   |   |   |
 | uiObjCode |   |   |   |   |   |   |
@@ -49,32 +49,32 @@ ht-degree: 26%
 
 ### APIVersionMetadata
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| deprecationRelease |   |   |   |   |   | カウント  |
+| deprecationRelease |   |   |   |   |   | COUNT |
 | removalRelease |   |   |   |   |   | GET |
-| versionName |   |   |   |   |   | レポート |
+| versionName |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
 **かんばんボード**
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | 追加 |
-| name |   |   |   |   |   | カウント |
-|   |   |   |   |   |   | 削除 |
-|   |   |   |   |   |   | 編集 |
+| ID |   |   |   |   |   | ADD |
+| name |   |   |   |   |   | COUNT |
+|   |   |   |   |   |   | DELETE |
+|   |   |   |   |   |   | EDIT |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | レポート |
-|   |   |   |   |   |   | SEARCH |
+|   |   |   |   |   |   | REPORT |
+|   |   |   |   |   |   | 検索 |
 
 {style="table-layout:auto"}
 
 ### ProofApprovalStatus
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 | proofApprovalStatusID |   |   |   |   |   |   |
@@ -84,7 +84,7 @@ ht-degree: 26%
 
 **ProofFileMetadata**
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | documentVersionID | documentVersion |   |   |   |   |   |
 | fileIndex |   |   |   |   |   |   |
@@ -96,59 +96,59 @@ ht-degree: 26%
 
 **ResourceBudgetedHour**
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| allocationDate |   |   |   |   |   | 追加 |
-| budgetedHours |   |   |   |   |   | カウント |
-| plannedBudgetedHours |   |   |   |   |   | 削除 |
-| projectID |   |   |   |   |   | 編集 |
+| allocationDate |   |   |   |   |   | ADD |
+| budgetedHours |   |   |   |   |   | COUNT |
+| plannedBudgetedHours |   |   |   |   |   | DELETE |
+| projectID |   |   |   |   |   | EDIT |
 | roleID |   |   |   |   |   | GET |
-| userID |   |   |   |   |   | レポート |
-|   |   |   |   |   |   | SEARCH |
+| userID |   |   |   |   |   | REPORT |
+|   |   |   |   |   |   | 検索 |
 
 {style="table-layout:auto"}
 
 ### ResourcePlannerFilter
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | 追加 |
-| name |   |   |   |   |   | カウント |
-|   |   |   |   |   |   | 削除 |
-|   |   |   |   |   |   | 編集 |
+| ID |   |   |   |   |   | ADD |
+| name |   |   |   |   |   | COUNT |
+|   |   |   |   |   |   | DELETE |
+|   |   |   |   |   |   | EDIT |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | レポート |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
 **RichTextNote**
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | カウント |
+| ID |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET |
-|   |   |   |   |   |   | レポート |
+|   |   |   |   |   |   | REPORT |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
 ### 登録
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|  ID |   |   |   | addSubscribers | 購読者 | 追加 |
-|   |   |   |   | removeSubscribers |   | カウント  |
-|   |   |   |   | subscribes |   | 削除 |
-|   |   |   |   | 配信停止 |   | GET |
-|   |   |   |   |   |   | レポート |
-|   |   |   |   |   |   | SEARCH |
+| ID |   |   |   | addSubscribers | サブスクライバー | ADD |
+|   |   |   |   | removeSubscribers |   | COUNT  |
+|   |   |   |   | subscribes |   | DELETE |
+|   |   |   |   | unsubscribes |   | GET |
+|   |   |   |   |   |   | REPORT |
+|   |   |   |   |   |   | 検索 |
 
 {style="table-layout:auto"}
 
 ### UserRole
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | roleID | 役割 |   |   |   |   |   |
 | timePercentage | ユーザー |   |   |   |   |   |
