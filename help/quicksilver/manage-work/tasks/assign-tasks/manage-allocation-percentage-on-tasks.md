@@ -1,25 +1,25 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: タスクに対するユーザーまたはロールの割り当て率の管理
-description: 割り当て率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。 タスクの期間中にリソースが割り当てられる（ユーザーまたはプロジェクトのスケジュールに従った）稼働日の割合です。
+title: タスクに対するユーザーまたは役割の配分率の管理
+description: 配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# タスクに対するユーザーまたはロールの割り当て率の管理
+# タスクに対するユーザーまたは役割の配分率の管理
 
-割り当て率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。 タスクの期間中にリソースが割り当てられる（ユーザーまたはプロジェクトのスケジュールに従った）稼働日の割合です。
+配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
 
 >[!NOTE]
 >
->ユーザーを作業に割り当てる場合、スケジュールに従って使用できるかどうかは、タスクや問題の計画日と予定日に影響します。 スケジュールについて詳しくは、 [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>ユーザーを作業に割り当てる場合、ユーザーのスケジュールに応じた空き時間は、タスクやイシューの予定日と見込日に影響します。スケジュールについて詳しくは、[スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
 ## アクセス要件
 
@@ -30,61 +30,60 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>仕事以上</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>タスクへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクに権限を付与するか、それ以上の権限を付与する</p> <p>権限を編集して、「タスクの編集」ボックスで割り当て率を更新します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>タスクに対する参加以上の権限</p> <p>タスクの編集ボックスで配分率を更新するための編集権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## タスクの割り当て率の変更に関する考慮事項
+## タスクの配分率の変更に関する考慮事項
 
-* デフォルトでは、ユーザーは、割り当てられているタスクに対して、同じ割合の時間が割り当てられます。
-* タスクの「期間タイプ」が「計算作業」または「労力主導」の場合のみ、タスクに割り当てられたユーザーおよびジョブロールの割り当て率を手動で変更できます。
+* デフォルトでは、ユーザーは、割り当てられているタスクに対して同じ割合の時間が配分されます。
+* タスクの「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合のみ、タスクに割り当てられたユーザーおよび担当業務の配分率を手動で変更できます。
 
-   詳しくは、 [タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  詳しくは、[タスク期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
-* タスクに割り当てられたチームの割合は変更できません。
-* 問題に割り当てられたユーザーとジョブのロールの割合は変更できません。
+* タスクに割り当てられたチームの配分率は変更できません。
+* イシューに割り当てられたユーザーと担当業務の配分率は変更できません。
 
-## タスクのユーザーまたは役割の割り当て率を変更する
+## タスクに対するユーザーまたは役割の配分率を変更
 
-1. 割合配分を変更するリソースを持つタスクに移動します。
-1. 次をクリック： **詳細** メニュー ![](assets/qs-more-icon-on-an-object.png) タスク名の横にあるをクリックし、 **編集**.
+1. 配分率を変更するリソースを持つタスクに移動します。
+1. タスク名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/qs-more-icon-on-an-object.png) をクリックし、「**編集**」をクリックします。
 
    または
 
-   次をクリック： **割り当て** 領域を選択し、 **詳細**.
+   タスクヘッダーにある&#x200B;**割り当て**&#x200B;エリアを選択し、「**詳細**」をクリックします。
 
-1. 次を確認します。 **期間のタイプ** タスクのは次のいずれかです。
+1. タスクの&#x200B;**期間タイプ**&#x200B;が次のいずれかであることを確認します。
 
-   * 算出した作業
-   * 作業優先
+   * 予定作業
+   * 残存作業時間の優先
 
    >[!TIP]
    >
-   >* 「計算された割り当て期間の種類」で、Workfrontは次の数式を使用して各担当者の割り当て率を計算します。 `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
-   >* 「シンプル期間」タイプでは、各リソースに割り当てられた時間を見積もることができ、割り当て率ではありません。
+   >* 期間タイプが予定割り当て時間の場合、Workfront は次の数式を使用して各担当者の配分率を計算します。`Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`
+   >* 期間タイプがシンプルの場合、配分率ではなく、各リソースに割り当てられた時間を見積もることができます。
 
+1. 「**割り当て**」をクリックし、タスクの担当者ごとに&#x200B;**割り当て**&#x200B;を変更します。
 
-1. クリック **割り当て**&#x200B;を編集し、 **配分** タスクの担当者ごとに
+   変更できるのは、ユーザーと担当業務の割り当てに関する配分率のみです。
 
-   変更できるのは、ユーザーとジョブのロールの割り当てに対する割り当て率のみです。
-
-   タスクに割り当てられたチームの割り当て率は変更できません。
+   タスクに割り当てられたチームの配分率は変更できません。
 
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
