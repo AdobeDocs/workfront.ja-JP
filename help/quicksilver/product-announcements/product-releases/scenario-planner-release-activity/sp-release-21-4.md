@@ -1,27 +1,27 @@
 ---
-title: 21.4 リリースのAdobe Workfrontシナリオプランナー
-description: 21.4 リリースのAdobe Workfrontシナリオプランナー
+title: Adobe Workfront シナリオプランナー 21.4 リリース
+description: Adobe Workfront シナリオプランナー 21.4 リリース
 author: Luke
 draft: Probably
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 21.4 リリースのAdobe Workfrontシナリオプランナー
+# Adobe Workfront シナリオプランナー 21.4 リリース
 
-Adobe Workfront Scenario Planner は、新しいAdobe Workfrontエクスペリエンスでのみ使用できます。
+Adobe Workfront シナリオプランナーは、新しい Adobe Workfront エクスペリエンスでのみ使用できます。
 
 21.4 リリースには次の機能が含まれています。
 
-## シナリオプランナーでプランやイニシアチブをフィルタリングする際のエクスペリエンスの向上
+## シナリオプランナーで計画やイニシアチブのフィルタリングを行う際のエクスペリエンスの向上
 
-プランを表示したり、イニシアチブを公開する際に、フィルタリングエクスペリエンスを更新しました。 大きなフィルターパネルを小さなドロップダウンメニューに置き換えました。
+計画を表示したり、イニシアチブを公開する際に、フィルタリングエクスペリエンスをアップデートしました。大きなフィルターパネルを小さなドロップダウンメニューに置き換えました。
 
 詳しくは、次の記事を参照してください。
 
-* [シナリオプランナーでのプランの作成と編集](../../../scenario-planner/create-and-edit-plans.md)
-* [シナリオプランナーでイニシアチブを公開して、プロジェクトを更新または作成します](../../../scenario-planner/publish-scenarios-update-projects.md)
+* [シナリオプランナーでの計画の作成と編集](../../../scenario-planner/create-and-edit-plans.md)
+* [シナリオプランナーでイニシアチブを公開して、プロジェクトをアップデートまたは作成](../../../scenario-planner/publish-scenarios-update-projects.md)
 
