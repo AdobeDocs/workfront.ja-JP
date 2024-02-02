@@ -3,45 +3,45 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion リリースアクティビティ： 2020 年 8 月 24 日の週」
-description: このページでは、2020 年 8 月 18 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+title: 「Workfront Fusion リリースアクティビティ：2020年8月24日（PT）の週」
+description: このページでは、2020年8月17日（PT）の週に Adobe Workfront Fusion で実施されたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 195fc28b-435c-4c5e-be47-c73dea0499a6
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2020 年 8 月 24 日の週
+# Workfront Fusion リリースアクティビティ：2020年8月24日（PT）の週
 
-このページでは、2020 年 8 月 18 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2020年8月17日（PT）の週に Adobe Workfront Fusion で実施されたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## Workfrontの「その他のアクション」モジュールで、カスタムデータを使用したオブジェクトの変換がより簡単になりました。
+## Workfront の「その他のアクション」モジュールで、カスタムデータを使用したオブジェクトの変換がより簡単になりました。
 
-convertToProject アクションまたは convertToTask アクションを選択する場合、この共通プロセスの設定と管理に関する次の新機能が追加されました。
+convertToProject アクションまたは convertToTask アクションを選択する場合、次の新機能は、この共通プロセスの設定と管理を支援します。
 
-* 新しいオブジェクトに対して入力またはマッピングできる、プロジェクト（またはタスク）標準フィールドの新しいリストはありません。 以前は、このモジュールには高度な設定が必要でした。 このモジュールを以前に使用したことがある場合でも、詳細設定は「詳細設定」で引き続き使用できます。
-* 新しいパラメーター「カスタムデータをコピー」を追加しました。 有効にすると、元のオブジェクトに値が設定され、新しいオブジェクトに存在するカスタムフィールドは、新しいオブジェクトに自動的にコピーされます。
+* 新しいオブジェクトに入力またはマッピングできる、プロジェクト（またはタスク）の標準フィールドの新しいリストが追加されました。以前は、このモジュールには高度な設定が必要でした。このモジュールを以前に使用したことがある場合でも、詳細設定は「詳細設定」で引き続き使用できます。
+* 新しいパラメーター：カスタムデータをコピーします。有効にすると、元のオブジェクトに値が設定され、新しいオブジェクトに存在するカスタムフィールドは、新しいオブジェクトに自動的にコピーされます。
 
-詳しくは、 [Adobe Workfrontモジュール](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+詳しくは、[Adobe Workfront モジュール](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)を参照してください。
 
-## Workfront Upload Document Module の特定のフォルダーにドキュメントをアップロードします。
+## Workfront アップロードドキュメントモジュールの特定のフォルダーにドキュメントをアップロードします。
 
-プロジェクト、タスクまたはイシューにドキュメントをアップロードする際に、ファイルのアップロード先のフォルダーを任意で指定できるようになりました。
+プロジェクト、タスク、またはイシューにドキュメントをアップロードする際に、オプションでファイルのアップロード先のフォルダーを指定できるようになりました。
 
 以前は、フォルダーに直接アップロードすることはできませんでした。
 
-詳しくは、 [Adobe Workfrontモジュール](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+詳しくは、[Adobe Workfront モジュール](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)を参照してください。
 
 ## Hubspot CRM とモジュールが利用可能になりました
 
-これで、Workfront Fusion を使用して Hubspot CRM アカウントに接続できます。 HubSpot CRM モジュールを使用すると、Hubspot CRM アカウント内の項目を監視し、それらの項目の検索、作成、削除などのアクションを実行できます。
+Workfront Fusion を使用して Hubspot CRM アカウントに接続できるようになりました。HubSpot CRM モジュールを使用すると、Hubspot CRM アカウント内の項目を監視し、それらの項目の検索、作成、削除などのアクションを実行できます。
