@@ -2,22 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: burndown
 title: バーンダウンチャートのサイズ変更と折りたたみ
-description: バーンダウンチャートのサイズを変更したり、折りたたんでストーリーボード上で占める部分を調整することができます。
+description: バーンダウンチャートのサイズを変更したり折りたたんだりして、ストーリーボード上で占める部分を調整できます。
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
 source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # バーンダウンチャートのサイズ変更と折りたたみ
 
-バーンダウンチャートのサイズを変更したり、折りたたんでストーリーボード上で占める部分を調整することができます。
+バーンダウンチャートのサイズを変更したり折りたたんだりして、ストーリーボード上で占める部分を調整できます。
 
-バーンダウングラフのサイズや表示に対して行った変更は、自分に対してのみ表示され、ブラウザのキャッシュをクリアするとリセットされます。
+バーンダウンチャートのサイズや表示に対して行った変更内容は、自分に対してのみ表示され、ブラウザーキャッシュをクリアするとリセットされます。
 
 ## アクセス要件
 
@@ -30,7 +30,7 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -40,23 +40,23 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+&#42;保有するプランやライセンスの種類を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## バーンダウンチャートのサイズを変更する
+## バーンダウンチャートのサイズ変更
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL チーム]**.
+1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)を選択し[!DNL Adobe Workfront]、次に「**[!UICONTROL チーム]**」をクリックします。
 
-1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)を選択し、新しい [!UICONTROL スクラム] チームをドロップダウンメニューから選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しい[!UICONTROL スクラム]チームを選択するか、検索バーでチームを検索します。
 
 1. サイズを変更するバーンダウンチャートを含むイテレーションに移動します。
-1. バーンダウングラフの下線の上にマウスポインターを置き、グラフを目的のサイズにドラッグします。\
+1. バーンダウンチャートの下線にポインタを合わせ、チャートを希望のサイズにドラッグします。\
    ![](assets/burndown-resize.png)
 
-## バーンダウンチャートを折りたたむ
+## バーンダウンチャートの折りたたみ
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL チーム]**.
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)をクリックし、次に「**[!UICONTROL チーム]**」をクリックします。
 
-1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)を選択し、新しい [!UICONTROL スクラム] チームをドロップダウンメニューから選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しい[!UICONTROL スクラム]チームを選択するか、検索バーでチームを検索します。
 
-1. 折りたたむバーンダウングラフを含むイテレーションに移動します。
-1. 左側の矢印アイコンをクリックします。 [!UICONTROL 完了率] ステータスバー
+1. 折りたたむバーンダウンチャートを含むイテレーションに移動します。
+1. [!UICONTROL 完了率]ステータスバーの左側の矢印アイコンをクリックします。
