@@ -1,22 +1,22 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: XDアートボードをドキュメントとしてWorkfrontにアップロード
-description: アートボードをドキュメントとしてアップロードして、すばやいレビューや承認を得たり、Adobe Workfrontに保存するだけで済みます。
+title: XD アートボードをドキュメントとして Workfront にアップロード
+description: アートボードをドキュメントとしてアップロードすると、素早くレビューや承認を行ったり、単に Adobe Workfront に保存することができます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 source-git-commit: bf47ae15d2972e8ee11f76741f8e5c676d79e626
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# アップロード [!DNL XD] ～への書類としてのアートボード [!DNL Workfront]
+# [!DNL XD] アートボードをドキュメントとして [!DNL Workfront] にアップロード
 
-アートボードをドキュメントとしてアップロードして、すばやいレビューや承認を得ることも、単ににに保存することもできます。 [!DNL Adobe Workfront].
+アートボードをドキュメントとしてアップロードすると、素早くレビューや承認を行ったり、単に [!DNL Adobe Workfront] に保存したりすることができます。
 
 ## アクセス要件
 
@@ -36,95 +36,95 @@ ht-degree: 0%
   </tr> 
   <tr> -->
    <td role="rowheader">製品</td> 
-   <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
+   <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROL ドキュメント ] へのアクセスの編集</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL Documents]の編集権限</p> <p>まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>[!UICONTROL 表示 ] ドキュメントをアップロードするオブジェクトに対する [!UICONTROL 表示 ] アクセス権以上。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ドキュメントをアップロードするオブジェクトに対する [!UICONTROL View] アクセス権以上。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-* 次をインストールする必要があります： [!DNL Adobe Workfront for XD] プラグインを使用して、XD art boards をドキュメントとしてWorkfrontにアップロードする必要があります。
+* XD アートボードをドキュメントとして Workfront にアップロードする前に、[!DNL Adobe Workfront for XD] プラグインをインストールする必要があります。
 
-手順については、 [インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+手順については、[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
 
 ## 新しいドキュメントを追加
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL ワークリスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/menu-350x440.png)
 
-1. ドキュメントをアップロードする作業項目に移動します。
-1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
+1. ドキュメントをアップロードする作業アイテムに移動します。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
-1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にある。
+1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. アップロードするアートボードを選択します。
 
    >[!TIP]
    >
    >複数のアートボードを選択するには、目的のアートボード上でマウスをクリックしてドラッグします。
-1. （オプション） **[!UICONTROL 更新]** 領域
-1. を選択します。 **[!UICONTROL アセットタイプ]** ドロップダウンメニューから、次の操作を実行します。
+1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
+1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td colspan="2" role="rowheader">[!UICONTROL 書き出し形式 ]</td>
+      <td colspan="2" role="rowheader">[!UICONTROL Export Format]</td>
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>アートボードは、PNG として作業項目の「[!UICONTROL ドキュメント ]」タブにアップロードされます。 [!DNL Workfront]. </td>
+      <td>アートボードは、PNG として [!DNL Workfront] にある作業アイテムの「[!UICONTROL Documents]」タブにアップロードされます。 </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>アートボードは、JPGとして [!DNL Workfront]. <br></td>
+      <td>アートボードは、PNG として [!DNL Workfront] にある作業アイテムの「[!UICONTROL Documents]」タブにアップロードされます。 <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>アートボードは、SVGとして [!DNL Workfront]. </td>
+      <td>アートボードは、SVG として [!DNL Workfront] にある作業アイテムの「[!UICONTROL Documents]」タブにアップロードされます。 </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>選択したアートボードを <strong>単一PDFファイル</strong> または <strong>複数のPDFファイル</strong>. アートボードは、作業項目の [!UICONTROL ドキュメント ] タブにPDFとしてアップロードします ( [!DNL Workfront].</td>
+      <td>選択したアートボードを<strong>単一 PDF ファイル</strong>または<strong>複数の PDF ファイル</strong>としてアップロードするかどうかを選択します。アートボードは、PDF として [!DNL Workfront] にある作業項目の「[!UICONTROL Documents]」タブにアップロードされます。</td>
      </tr>
     </tbody>
    </table>
 
 
-1. クリック **[!UICONTROL アップロード]**.\
-   ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+1. 「**[!UICONTROL アップロード]**」をクリックします。\
+   ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
 
 ## 新しいバージョンを追加
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL ワークリスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/menu-350x440.png)
 
-1. ドキュメントをアップロードする作業項目に移動します。
-1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png)をクリックします。
+1. ドキュメントをアップロードする作業アイテムに移動します。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
 1. 新しいバージョンを追加するドキュメントをクリックします。
-1. クリック **[!UICONTROL 新しいバージョン]** プラグインの下部付近にある。
+1. プラグインの下部近くにある「**[!UICONTROL 新しいバージョン]**」をクリックします。
 1. アップロードするアートボードを選択します。
 
    >[!NOTE]
    >
-   >新しいバージョンのSVG、PNG、JPGをアップロードする場合は、1 つのアートボードのみをアップロードできます。
+   >新しいバージョンの SVG、PNG、JPG をアップロードする場合は、1 つのアートボードのみをアップロードできます。
 
-1. （オプション） **[!UICONTROL 更新]** 領域
+1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-1. を選択します。 **[!UICONTROL アセットタイプ]** ドロップダウンメニューから、次の操作を実行します。
+1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 
    <table style="table-layout:auto">
     <col>
@@ -135,24 +135,24 @@ ht-degree: 0%
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>アートボードは、PNG 形式で作業項目の「[!UICONTROL ドキュメント ]」タブにアップロードします。 [!DNL Workfront]. </td>
+      <td>アートボードは、[!DNL Workfront] の作業アイテムの「[!UICONTROL Documents]」タブに PNG としてアップロードします。 </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>アートボードは、作業項目の [!UICONTROL ドキュメント ] タブにJPGとしてアップロードします ( [!DNL Workfront]. <br></td>
+      <td>アートボードは、[!DNL Workfront] の作業アイテムの 「[!UICONTROL Documents]」タブに JPG としてアップロードします。 <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>アートボードは、作業項目の「[!UICONTROL ドキュメント ]」タブにSVGとしてアップロードします ( [!DNL Workfront]. </td>
+      <td>アートボードは、[!DNL Workfront] の作業アイテムの「[!UICONTROL Documents]」タブに SVG としてアップロードします。 </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>アートボードは、PDFとして [!DNL Workfront].</p>
-      <p><strong>注意</strong>:新しいドキュメントバージョン用にアップロードできるアートボードは 1 つだけです。</p>
+      <td><p>アートボードは、[!DNL Workfront] の作業アイテムの「[!UICONTROL Documents]」タブに PDF としてアップロードします。</p>
+      <p><strong>メモ</strong>：新しいドキュメントバージョン用にアップロードできるアートボードは 1 つだけです。</p>
       </td>
      </tr>
     </tbody>
    </table>
 
-1. クリック **[!UICONTROL アップロード]**.\
-   ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+1. 「**[!UICONTROL アップロード]**」をクリックします。\
+   ドキュメントが、プラグインおよびデスクトップアプリケーションの[!UICONTROL ドキュメント]エリアに表示されます。
