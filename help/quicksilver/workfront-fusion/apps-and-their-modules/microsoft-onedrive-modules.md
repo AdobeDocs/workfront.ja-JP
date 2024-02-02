@@ -5,97 +5,97 @@ product-area: workfront-integrations;documents
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive モジュール
-description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、OneDrive を使用するワークフローを自動化し、複数のサードパーティのアプリケーションやサービスに接続できます。
+description: ' [!DNL Adobe Workfront Fusion]  シナリオでは、OneDrive を使用するワークフローを自動化し、複数のサードパーティのアプリケーションやサービスに接続できます。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3982'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # [!DNL Microsoft OneDrive] モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL OneDrive]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL OneDrive] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion]ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
-使用する [!DNL OneDrive] モジュールの場合、 [!DNL Microsoft OneDrive] アカウント
+[!DNL OneDrive] モジュールを使用するには、[!DNL Microsoft OneDrive] アカウントが必要です。
 
-## 接続 [!DNL OneDrive] ～へのサービス [!DNL Workfront Fusion]
+## [!DNL OneDrive] サービスを [!DNL Workfront Fusion] に接続
 
-接続方法 [!DNL OneDrive] アカウント [!UICONTROL Workfront Fusion]を参照してください。 [への接続の作成 [!UICONTROL Adobe Workfront Fusion]  — 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)
+[!DNL OneDrive] アカウントを [!UICONTROL Workfront Fusion] に接続する方法については、[[!UICONTROL Adobe Workfront Fusion] への接続の作成 - 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)を参照してください。
 
 ## [!DNL Microsoft OneDrive] モジュールとそのフィールド
 
-設定時に [!DNL OneDrive] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!DNL OneDrive] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL OneDrive] モジュールの設定時、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらと共に、アプリやサービスのアクセスレベルなどの要因に応じて、追加の [!DNL OneDrive] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) のモジュール間での情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
-* [ファイル/フォルダー](#filefolder)
+* [ファイルまたはフォルダー](#filefolder)
 * [その他](#other)
 
-### ファイル/フォルダー
+### ファイルまたはフォルダー
 
-* [[!UICONTROL 監視ファイル/フォルダ]](#watch-filesfolders)
-* [[!UICONTROL ファイル/フォルダを検索]](#search-filesfolders)
-* [[!UICONTROL ファイルの取得]](#get-a-file)
-* [[!UICONTROL ファイルのダウンロード]](#download-a-file)
-* [[!UICONTROL ファイルのアップロード]](#upload-a-file)
-* [[!UICONTROL フォルダーの作成]](#create-a-folder)
+* [[!UICONTROL ファイル／フォルダーを監視]](#watch-filesfolders)
+* [[!UICONTROL ファイル／フォルダーを検索]](#search-filesfolders)
+* [[!UICONTROL ファイルを取得]](#get-a-file)
+* [[!UICONTROL ファイルをダウンロード]](#download-a-file)
+* [[!UICONTROL ファイルをアップロード]](#upload-a-file)
+* [[!UICONTROL フォルダーを作成]](#create-a-folder)
 * [[!UICONTROL 共有リンクを取得]](#get-a-share-link)
-* [[!UICONTROL ファイル/フォルダの移動]](#move-a-filefolder)
-* [[!UICONTROL ファイルのコピー]](#copy-a-file)
-* [[!UICONTROL ファイル/フォルダの削除]](#delete-a-filefolder)
+* [[!UICONTROL ファイル／フォルダを移動]](#move-a-filefolder)
+* [[!UICONTROL ファイルをコピー]](#copy-a-file)
+* [[!UICONTROL ファイル／フォルダーを削除]](#delete-a-filefolder)
 
-#### [!UICONTROL 監視ファイル/フォルダ]
+#### [!UICONTROL ファイル／フォルダーを監視]
 
 このトリガーモジュールは、ファイルまたはフォルダーが作成または更新されたときにシナリオを開始します。
 
@@ -104,37 +104,37 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 監視ファイル/フォルダー ]</td> 
-   <td> <p>ファイルまたはフォルダの監視方法を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Watch Files/Folders]</td> 
+   <td> <p>ファイルやフォルダーの監視方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 作成日時別 ]</b> </p> <p>新しいファイルまたはフォルダーを監視します。</p> </li> 
-     <li> <p><b>[!UICONTROL 更新時刻別 ]</b> </p> <p>更新された既存のファイルまたはフォルダーを監視します。</p> </li> 
+     <li> <p><b>[!UICONTROL By Created Time]</b> </p> <p>新しいファイルまたはフォルダーを監視します。</p> </li> 
+     <li> <p><b>[!UICONTROL By Updated Time]</b> </p> <p>更新された既存のファイルまたはフォルダーを監視します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>監視する場所を選択してください：</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>監視する場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>モジュールが監視するドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> <p>モジュールを監視するフォルダーに移動します。 クエリを入力して、返された結果をフィルターすることもできます。</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>モジュールが監視するドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> <p>モジュールが監視するフォルダーに移動します。クエリを入力して、返された結果をフィルターすることもできます。</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 自分と共有</b> </p> <p>モジュールは、ドライブの所有者と共有されたファイルを監視します。</p> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>モジュールで監視するSharePoint Site を選択します。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>モジュールを監視するドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>モジュールは、ドライブの所有者と共有されたファイルを監視します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>モジュールが監視する SharePoint Site を選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>モジュールが監視するドライブのグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 項目タイプの選択 ]</td> 
-   <td> <p>ファイル、フォルダ、またはその両方を監視するかどうかを選択します。</p> <p>注意：[!UICONTROL Shared With Me] ドライブ内のフォルダーを監視することはできません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
+   <td> <p>監視対象を、ファイル、フォルダまたはその両方から選択します。</p> <p>メモ：[!UICONTROL Shared With Me] ドライブ内のフォルダーは監視できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
@@ -142,44 +142,44 @@ ht-degree: 0%
 
 
 
-#### [!UICONTROL ファイル/フォルダを検索]
+#### [!UICONTROL ファイル／フォルダーを検索]
 
-この検索モジュールは、設定した条件に基づいてファイルおよびフォルダを返します。
+この検索モジュールは、設定した条件に基づいてファイルおよびフォルダーを返します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>検索する場所を選択してください：</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>検索する場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>モジュールで検索するドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> <p>モジュールで検索するフォルダーに移動します。 クエリを入力して、返された結果をフィルターすることもできます。</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>モジュールで検索するドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> <p>モジュールで検索するフォルダーに移動します。クエリを入力して、返された結果をフィルターすることもできます。</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL 自分と共有</b> </p> <p>このモジュールは、ドライブの所有者と共有されているファイルを検索します。</p> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>を選択します。 [!DNL SharePoint] モジュールで検索するサイトです。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>モジュールで検索するドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>モジュールは、ドライブの所有者と共有されているファイルを検索します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>モジュールで検索する [!DNL SharePoint] サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>モジュールで検索するドライブのグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 項目タイプの選択 ]</td> 
-   <td> <p>ファイル、フォルダ、またはその両方を検索するかどうかを選択します。</p> <p>注意：[!UICONTROL Shared With Me] ドライブ内のフォルダーは検索できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
+   <td> <p>検索対象を、ファイル、フォルダまたはその両方から選択します。</p> <p>メモ： [!UICONTROL Shared With Me] ドライブ内のフォルダーは検索できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイルの取得]
+#### [!UICONTROL ファイルを取得]
 
 このアクションモジュールは、指定されたファイルのメタデータを取得します。
 
@@ -188,93 +188,93 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Enter （ファイル ID およびファイルパス）]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>ファイルをファイル ID で識別するか、ファイルパスで識別するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ID を入力 ] / [!UICONTROL ファイルパス ]</td> 
-   <td> <p>[ ファイル ID] または [ ファイルパス ] を入力する方法を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Enter a File ID]／[!UICONTROL File Path]</td> 
+   <td> <p>ファイル ID またはファイルパスの入力方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動で入力 ]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
-     <li> <p><b>[!UICONTROL リストから選択 ]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>検索する場所を選択してください：</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>検索する場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>取得するファイルが含まれているドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>取得するファイルが含まれているドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>取得するファイルが含まれているSharePoint Site を選択します。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>取得するファイルが含まれているドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>取得するファイルが含まれている SharePoint サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>取得するファイルが含まれているドライブグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>取得するファイルが含まれているドライブを選択またはマッピングします。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>取得するファイルが含まれているドライブを選択またはマッピングします。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ] / [!UICONTROL ファイル ID] / [!UICONTROL ファイルパス ]</td> 
-   <td> <p>[!UICONTROL Enter Manually] を選択した場合は、取得するファイルのファイル ID またはパスを入力またはマッピングします。</p> <p>[!UICONTROL リストから選択 ] を選択した場合、取得するファイルを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL File]／[!UICONTROL File ID]／[!UICONTROL File Path]</td> 
+   <td> <p>[!UICONTROL Enter Manually]を選択した場合は、取得するファイルのファイル ID またはパスを入力またはマッピングします。</p> <p>[!UICONTROL Select from the list]を選択した場合、取得するファイルを選択します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイルのダウンロード]
+#### [!UICONTROL ファイルをダウンロード]
 
-このアクションモジュールは、指定したファイルをダウンロードします。
+このアクションモジュールは、指定されたファイルをダウンロードします。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive]アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Enter （ファイル ID およびファイルパス）]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>ファイルをファイル ID で識別するか、ファイルパスで識別するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ファイル ID /ファイルパスを入力</td> 
-   <td> <p>[ ファイル ID] または [ ファイルパス ] を入力する方法を選択します。</p> 
+   <td role="rowheader">ファイル ID／ファイルパスを入力</td> 
+   <td> <p>ファイル ID またはファイルパスの入力方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動で入力 ]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
-     <li> <p><b>[!UICONTROL リストから選択 ]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>ダウンロードするファイルを含む場所を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>ダウンロードするファイルがある場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>ダウンロードするファイルが含まれるドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>ダウンロードするファイルがあるドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>ダウンロードするファイルが含まれているSharePoint Site を選択します。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>ダウンロードするファイルが含まれているドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>ダウンロードするファイルがある SharePoint のサイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>ダウンロードするファイルがあるドライブが属するグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>ダウンロードするファイルが含まれているドライブを選択またはマッピングします。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>ダウンロードするファイルがあるドライブを選択またはマッピングします。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ] / [!UICONTROL ファイル ID] / [!UICONTROL ファイルパス ]</td>
-   <td> <p>[!UICONTROL Enter Manually] を選択した場合は、ダウンロードするファイルのファイル ID またはパスを入力またはマッピングします。</p> <p>[!UICONTROL リストから選択 ] を選択した場合、ダウンロードするファイルを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL File]／[!UICONTROL File ID]／[!UICONTROL File Path]</td>
+   <td> <p>[!UICONTROL Enter Manually]を選択した場合は、ダウンロードするファイルのファイル ID またはパスを入力またはマッピングします。</p> <p>[!UICONTROL Select from the list]を選択した場合、ダウンロードするファイルを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROLPDFに変換 ]</td> 
-   <td> <p>このオプションを有効にすると、ファイルがPDFファイルに変換されます。 次のファイルタイプから変換できます。</p> 
+   <td role="rowheader">[!UICONTROL Convert to PDF]</td> 
+   <td> <p>ファイルを PDF ファイルに変換するには、このオプションを有効にします。以下のファイル形式から変換できます。</p> 
     <table style="table-layout:auto"> 
      <col> 
      <col> 
@@ -292,7 +292,7 @@ ht-degree: 0%
         </ul> </td> 
        <td> 
         <ul> 
-         <li> <p> <p>鍋</p> </p> </li> 
+         <li> <p> <p>POT</p> </p> </li> 
          <li> <p> <p>POTM</p> </p> </li> 
          <li> <p> <p>POTX</p> </p> </li> 
          <li> <p> <p>PPS</p> </p> </li> 
@@ -315,7 +315,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイルのアップロード]
+#### [!UICONTROL ファイルをアップロード]
 
 このアクションモジュールは、指定されたフォルダーにファイルをアップロードします。
 
@@ -324,90 +324,90 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">（フォルダーの場所 ID とパス）を入力</td> 
    <td>ターゲットフォルダーを ID で識別するか、パスで識別するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>ファイルをアップロードする場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>取得するファイルが含まれているドライブを選択します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>取得するファイルがあるドライブを選択します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>を選択します。 [!DNL SharePoint] ファイルをアップロードするフォルダーを含むサイト。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>ファイルをアップロードするフォルダを含むドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>ファイルをアップロードするフォルダーがある [!DNL SharePoint] サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>ファイルをアップロードするフォルダーを含んだドライブを所有するグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>ファイルをアップロードするフォルダーを含むドライブを選択します。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>ファイルをアップロードするフォルダーを含んだドライブを選択します。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ソースファイル ]</td> 
-   <td> <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 同じ名前のファイルが存在する場合 ]</td> 
+   <td role="rowheader">[!UICONTROL If the File with the Same Name Exists]</td> 
    <td>同じ名前のファイルが既に存在する場合の続行方法を選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 説明 ]</td> 
-   <td>アップロードしたファイルに説明を追加します。</td> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>アップロードするファイルの説明を追加します。</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL フォルダーの作成]
 
-このアクションモジュールは、指定されたドライブに新しいフォルダを作成します。
+このアクションモジュールは、指定されたドライブに新規フォルダーを作成します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
    <td> <p>フォルダーを作成する場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>フォルダを作成するドライブを選択します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>フォルダーを作成するドライブを選択します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>を選択します。 [!DNL SharePoint] フォルダーを作成するサイトです。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>フォルダを作成するドライブを所有するグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>フォルダーを作成する [!DNL SharePoint] サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>フォルダーを作成するドライブを所有するグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>フォルダを作成するドライブを選択します。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>フォルダーを作成するドライブを選択します。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ]</td> 
-   <td>新しいフォルダをサブフォルダにする場合は、サブフォルダにするフォルダに移動します。</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>新規フォルダーをサブフォルダーにする場合は、サブフォルダーの親になるフォルダーに移動します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新規フォルダー名 ]</td> 
-   <td> <p>新しいフォルダの名前を入力またはマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL New Folder Name]</td> 
+   <td> <p>新しいフォルダーの名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 同じ名前のフォルダが存在する場合 ]</td> 
+   <td role="rowheader">[!UICONTROL If the Folder with the Same Name Exists]</td> 
    <td>同じ名前のファイルが既に存在する場合の続行方法を選択します。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 共有リンクを取得]
+#### [!UICONTROL 共有リンクの取得]
 
 このアクションモジュールは、指定されたファイルの共有リンクを返します。
 
@@ -416,270 +416,270 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Enter （ファイル ID およびファイルパス）]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>ファイルをファイル ID で識別するか、ファイルパスで識別するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ID を入力 ] / [!UICONTROL ファイルパス ]</td> 
-   <td> <p>[ ファイル ID] または [ ファイルパス ] を入力する方法を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Enter a File ID]／[!UICONTROL File Path]</td> 
+   <td> <p>ファイル ID またはファイルパスの入力方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動で入力 ]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
-     <li> <p><b>[!UICONTROL リストから選択 ]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>共有リンクを取得する場所を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>取得する共有リンクの対象となる場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>共有リンクを取得するファイルが含まれるドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>取得する共有リンクの対象ファイルが含まれているドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>共有リンクを取得するファイルが含まれているSharePointサイトを選択します。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>共有リンクを取得するファイルが含まれるドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>取得する共有リンクの対象ファイルが含まれている SharePoint サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>取得する共有リンクの対象ファイルが含まれているドライブが属するグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>共有リンクを取得するファイルが含まれるドライブを選択またはマッピングします。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>取得する共有リンクの対象ファイルが含まれているドライブを選択またはマッピングします。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ] / [!UICONTROL ファイル ID] / [!UICONTROL ファイルパス ]</td> 
-   <td> <p>[!UICONTROL Enter Manually] を選択した場合は、共有リンクを取得するファイルのファイル ID またはパスを入力またはマッピングします。</p> <p>リストから「[!UICONTROL 選択 ]」を選択した場合、共有リンクを取得するファイルを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL File]／[!UICONTROL File ID]／[!UICONTROL File Path]</td> 
+   <td> <p>[!UICONTROL Enter Manually] を選択した場合は、取得する共有リンクの対象ファイルのファイル ID またはパスを入力またはマッピングします。</p> <p>リストから [!UICONTROL Select] を選択した場合は、取得する共有リンクの対象ファイルを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 権限のタイプ ]</td> 
+   <td role="rowheader">[!UICONTROL Permission Type]</td> 
    <td> <p>リンクを持つユーザーがファイルの読み取りと書き込みを行えるようにするか、読み取り専用にするかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL スコープ ]</td> 
-   <td>リンクを持つすべてのユーザーがファイルを使用できるようにするか、リンクを持つ組織のメンバーのみがファイルを使用できるようにするかを選択します。</td> 
+   <td role="rowheader">[!UICONTROL Scope]</td> 
+   <td>リンクを持つユーザーなら誰でもファイルを使用できるようにするか、リンクを持つ組織のメンバーのみがファイルを使用できるようにするかを選択します。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイル/フォルダの移動]
+#### [!UICONTROL ファイル／フォルダーの移動]
 
-このアクションモジュールは、ファイルまたはフォルダを新しいフォルダの場所に移動します
+このアクションモジュールは、ファイルまたはフォルダーを新しいフォルダーの場所に移動します
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Enter （ファイル ID およびファイルパス）]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>ファイルをファイル ID で識別するか、ファイルパスで識別するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ID /ファイルパスを入力 ]</td> 
-   <td> <p>[ ファイル ID] または [ ファイルパス ] を入力する方法を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Enter a File ID / File Path]</td> 
+   <td> <p>ファイル ID またはファイルパスの入力方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動で入力 ]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
-     <li> <p><b>[!UICONTROL リストから選択 ]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>移動するファイルまたはフォルダを含む場所を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>移動するファイルまたはフォルダーが含まれる場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>移動するファイルまたはフォルダが含まれるドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>移動するファイルまたはフォルダーが含まれるドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>を選択します。 [!DNL SharePoint] 移動するファイルまたはフォルダを含むサイト。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>移動するファイルまたはフォルダが含まれるドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>移動するファイルまたはフォルダーが含まれる [!DNL SharePoint] サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>移動するファイルまたはフォルダーが含まれるドライブが属するグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>移動するファイルまたはフォルダを含むドライブを選択またはマッピングします。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>移動するファイルまたはフォルダーが含まれるドライブを選択またはマッピングします。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル/フォルダー ] を選択</td> 
-   <td>ファイルを移動するか、フォルダを移動するかを選択します。</td> 
+   <td role="rowheader">[!UICONTROL File/Folder]を選択</td> 
+   <td>ファイルを移動するか、フォルダーを移動するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL ファイル ] / [!UICONTROL ファイル ID] / [!UICONTROL ファイルパス ]</p> <p role="rowheader">[!UICONTROL フォルダー ] / [!UICONTROL フォルダー ID] / [!UICONTROL フォルダーパス ]</p> </td> 
-   <td> <p>[!UICONTROL Enter Manually] を選択した場合は、移動するファイルまたはフォルダーの ID またはパスを入力またはマッピングします。</p> <p>リストから [!UICONTROL 選択 ] を選択した場合、移動するファイルまたはフォルダーを選択します。</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL File]／[!UICONTROL File ID]／[!UICONTROL File Path]</p> <p role="rowheader">[!UICONTROL Folder]／[!UICONTROL Folder ID]／[!UICONTROL Folder Path]</p> </td> 
+   <td> <p>「[!UICONTROL Enter Manually]」を選択した場合は、移動するファイルまたはフォルダーの ID またはパスを入力またはマッピングします。</p> <p>リストから「[!UICONTROL Select]」を選択した場合、移動するファイルまたはフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新しいフォルダーの場所を入力 ]</td> 
-   <td> <p>ファイルまたはフォルダの移動先を入力する方法を選択してください：</p> 
+   <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
+   <td> <p>ファイルまたはフォルダーの移動先を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動で入力 ]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
-     <li> <p><b>[!UICONTROL リストから選択 ]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>ファイルまたはフォルダーを移動する場所を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>ファイルまたはフォルダーの移動先を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>ファイルまたはフォルダを移動するドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>ファイルまたはフォルダーの移動先となるドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>を選択します。 [!DNL SharePoint] ファイルまたはフォルダーを移動するサイト。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>ファイルまたはフォルダを移動するドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>ファイルまたはフォルダーの移動先となる [!DNL SharePoint] サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>ファイルまたはフォルダーの移動先となるドライブのグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>ファイルまたはフォルダの移動先のフォルダが含まれるドライブを選択またはマップします。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> <p>このオプションを空白のままにした場合、同じ [!DNL OneDrive].</p> <p>[!UICONTROL マイドライブ ] から [!UICONTROL サイトのドライブ ] または [!UICONTROL グループのドライブ ] にファイルやフォルダを移動できます。 </p> <p>ファイルを [!UICONTROL Site's Drive] から同じ Site 内の同じドライブにのみ移動できます。</p> <p>ファイルを [!UICONTROL グループのドライブ ] から移動できるのは、同じグループ内の同じドライブだけです。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>ファイルまたはフォルダーの移動先のフォルダーが含まれるドライブを選択またはマッピングします。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> <p>これを空白のままにすると、ファイルまたはフォルダーを同じ [!DNL OneDrive] 内でのみ移動できます。</p> <p>ファイルやフォルダーを[!UICONTROL My Drive]から[!UICONTROL Site's Drive]または[!UICONTROL Group's Drive]に移動できます。 </p> <p>ファイルを[!UICONTROL Site's Drive]から同じサイト内の同じドライブにのみ移動できます。</p> <p>ファイルを[!UICONTROL Group's Drive]から同じグループの同じドライブにのみ移動できます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ]</td> 
-   <td>ファイルまたはフォルダを移動するフォルダを入力またはマップします。</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>ファイルまたはフォルダーの移動先となるフォルダーを入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL ファイルのコピー]
 
-このアクションモジュールは、新しいフォルダーの場所にファイルをコピーします
+このアクションモジュールは、ファイルを新しいフォルダー場所にコピーします
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Enter （ファイル ID およびファイルパス）]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File ID &amp; File Path)]</td> 
    <td>ファイルをファイル ID で識別するか、ファイルパスで識別するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ID を入力 ] / [!UICONTROL ファイルパス ]</td> 
-   <td> <p>[ ファイル ID] または [ ファイルパス ] を入力する方法を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Enter a File ID]／[!UICONTROL File Path]</td> 
+   <td> <p>ファイル ID またはファイルパスの入力方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動で入力 ]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
-     <li> <p><b>[!UICONTROL リストから選択 ]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>コピーするファイルを含む場所を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>コピーするファイルが含まれている場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>コピーするファイルまたはフォルダを含むドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>コピーするファイルまたはフォルダーが含まれているドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>移動するファイルが含まれているSharePointサイトを選択します。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>コピーするファイルが含まれるドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>移動するファイルが含まれている SharePoint サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>コピーするファイルが含まれているドライブのグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>コピーするファイルを含むドライブを選択またはマッピングします。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>コピーするファイルが含まれているドライブを選択またはマッピングします。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL ファイル ] / [!UICONTROL ファイル ID] / [!UICONTROL ファイルパス ]</p> </td> 
-   <td> <p>[!UICONTROL Enter Manually] を選択した場合は、コピーするファイルの ID またはパスを入力またはマッピングします。</p> <p>リストから [!UICONTROL 選択 ] を選択した場合、コピーするファイルを選択します。</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL File]／[!UICONTROL File ID]／[!UICONTROL File Path]</p> </td> 
+   <td> <p>「[!UICONTROL Enter Manually]を選択した場合は、コピーするファイルの ID またはパスを入力またはマッピングします。</p> <p>リストから「[!UICONTROL Select]」を選択した場合は、コピーするファイルを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新しいフォルダーの場所を入力 ]</td> 
-   <td> <p>ファイルをコピーする場所を入力する方法を選択するか、次の操作を行います。</p> 
+   <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
+   <td> <p>ファイルのコピー先を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動で入力 ]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
-     <li> <p><b>[!UICONTROL リストから選択 ]</b> </p> <p>使用可能なフォルダーのリストから選択する場合は、このオプションを選択します。 </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>使用可能なフォルダーのリストから選択する場合は、このオプションを選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新しい OneDrive の場所 ]</td> 
-   <td> <p>フィルタをコピーする場所を選択します。 このオプションは、リストから新しいフォルダーの場所を選択した場合に使用できます。</p> 
+   <td role="rowheader">[!UICONTROL New OneDrive location]</td> 
+   <td> <p>ファイルのコピー先を選択します。このオプションは、リストから新しいフォルダー場所を選択することを選んだ場合に使用できます。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>ファイルをコピーするドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>ファイルをコピーするドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>を選択します。 [!DNL SharePoint] ファイルをコピーするサイト。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>ファイルをコピーするドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>ファイルをコピーする [!DNL SharePoint] サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>ファイルをコピーするドライブのグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>ファイルのコピー先のフォルダを含むドライブを選択またはマッピングします。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> <p>このオプションを指定しない場合、ファイルまたはフォルダーは同じ [!UICONTROL OneDrive] 内でのみコピーできます。</p> <p>[!UICONTROL マイドライブ ] から [!UICONTROL サイトのドライブ ] または [!UICONTROL グループのドライブ ] にファイルおよびフォルダーをコピーできます。 </p> <p>ファイルを [!UICONTROL サイトのドライブ ] からコピーできるのは、同じサイトの同じドライブだけです。</p> <p>ファイルを [!UICONTROL グループのドライブ ] からコピーできるのは、同じグループ内の同じドライブだけです。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>ファイルのコピー先のフォルダーが含まれているドライブを選択またはマッピングします。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> <p>このフィールドを空にすると、ファイルまたはフォルダーは同じ [!UICONTROL OneDrive] 内でのみコピーできます。</p> <p>ファイルやフォルダーを[!UICONTROL My Drive]から[!UICONTROL Site's Drive]または[!UICONTROL Group's Drive]にコピーできます。 </p> <p>ファイルを[!UICONTROL Site's Drive]から同じサイトの同じドライブにのみコピーできます。</p> <p>ファイルを[!UICONTROL Group's Drive]から同じグループの同じドライブにのみコピーできます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ]</td> 
-   <td>コピーまたはフォルダーを移動するフォルダーを入力またはマッピングします。</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>コピーまたはフォルダーの移動先のフォルダーを入力またはマッピングします。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新しくコピーされたファイル名 ]</td> 
-   <td> <p>ファイルの新しいコピーの名前を入力またはマッピングします。 元のファイル名を変更しない場合は、この値を空白のままにすることができます。</p> <p>名前にはファイル拡張子を含める必要があります。 例:<code> file.txt</code></p> </td> 
+   <td role="rowheader">[!UICONTROL New Copied File Name]</td> 
+   <td> <p>ファイルの新しいコピーの名前を入力またはマッピングします。元のファイル名を変更しない場合は、このフィールドを空白のままにすることができます。</p> <p>名前にはファイル拡張子を含める必要があります。例：<code> file.txt</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ファイル/フォルダの削除]
+#### [!UICONTROL ファイル／フォルダーの削除]
 
-このアクションモジュールは、選択したファイルを削除します。
+このアクションモジュールは、選択されたファイルまたはフォルダーを削除します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Enter （ファイル/フォルダー ID およびパス）]</td> 
+   <td role="rowheader">[!UICONTROL Enter (File/Folder ID &amp; Path)]</td> 
    <td>ファイルをファイル ID で識別するか、ファイルパスで識別するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル/フォルダー ID を入力/ファイル/フォルダーパスを入力 ]</td> 
-   <td> <p>[ ファイル ID] または [ ファイルパス ] を入力する方法を選択します。</p> 
+   <td role="rowheader">[!UICONTROL Enter a File/Folder ID /Enter a File/Folder Path]</td> 
+   <td> <p>ファイル ID またはファイルパスの入力方法を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL 手動で入力 ]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
-     <li> <p><b>[!UICONTROL リストから選択 ]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>ID またはパスを直接入力する場合、または以前のモジュールからマッピングする場合は、このオプションを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>使用可能なファイルまたはパスのリストから選択する場合は、このオプションを選択します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL [!DNL OneDrive] location]</td> 
-   <td> <p>検索する場所を選択してください：</p> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] location]</td> 
+   <td> <p>検索する場所を選択します。</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL マイドライブ ]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>モジュールがドライブ ID を入力できるようにするかどうかを選択します。</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL はい ]</b> </p> <p>削除するファイルまたはフォルダが含まれるドライブの ID を入力します。</p> </li> 
-       <li> <p><b>[!UICONTROL いいえ ]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>削除するファイルまたはフォルダーが含まれているドライブの ID を入力します。</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL サイトのドライブ ]</b> </p> <p>を選択します。 [!DNL SharePoint] 削除するファイルまたはフォルダを含むサイト。 利用可能なサイトは、サイトに続くサインインしたユーザーです。</p> </li> 
-     <li> <p><b>[!UICONTROL グループのドライブ ]</b> </p> <p>削除するファイルまたはフォルダが含まれるドライブのグループを選択します。</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>削除するファイルまたはフォルダーが含まれている [!DNL SharePoint] サイトを選択します。利用可能なサイトとは、ログイン中のユーザーがフォローしているサイトです。</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>削除するファイルまたはフォルダーが含まれているドライブのグループを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ドライブ ID]</td> 
-   <td> <p>削除するファイルまたはフォルダを含むドライブを選択またはマッピングします。 [!UICONTROL Enable to Enter a Drive ID] フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>削除するファイルまたはフォルダーが含まれているドライブを選択またはマッピングします。「[!UICONTROL Enable to Enter a Drive ID]」フィールドで [!UICONTROL No] を選択した場合、このフィールドは使用できません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル/フォルダー ] を選択</td> 
-   <td>ファイルを削除するか、フォルダを削除するかを選択します。</td> 
+   <td role="rowheader">[!UICONTROL File/Folder]を選択</td> 
+   <td>ファイルを削除するか、フォルダーを削除するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ] / [!UICONTROL ファイル ID] / [!UICONTROL ファイルパス ]</td>
-   <td> <p>[!UICONTROL Enter Manually] を選択した場合は、削除するファイルのファイル ID またはパスを入力またはマッピングします。</p> <p>リストから [!UICONTROL 選択 ] を選択した場合、削除するファイルを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL File]／[!UICONTROL File ID]／[!UICONTROL File Path]</td>
+   <td> <p>「[!UICONTROL Enter Manually]」を選択した場合は、削除するファイルのファイル ID またはパスを入力またはマッピングします。</p> <p>リストから「[!UICONTROL Select]」を選択した場合は、削除するファイルを選択します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### その他
 
-#### [!UICONTROL API 呼び出しを実行する]
+#### [!UICONTROL API 呼び出しの実行]
 
 このモジュールは、カスタム API 呼び出しを実行します。
 
@@ -688,28 +688,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td>接続方法 [!DNL OneDrive] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>[!DNL OneDrive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>相対パスを入力 <code>https://graph.microsoft.com</code>. 例:<code> /v1.0/me/drive/root/children</code></td> 
+   <td><code>https://graph.microsoft.com</code> からの相対パスを入力します。例：<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL メソッド ]</td> 
-   td&gt; <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">の HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   td&gt; <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します。</p> <p>以下に例を挙げます。 <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は、認証ヘッダーを追加します。</p> </td> 
+   <td> <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は認証ヘッダーを追加します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL クエリ文字列 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しのクエリを追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> </td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>API 呼び出しのクエリを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件文 ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件文を JSON で使用する場合は、条件文を引用符で囲みます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -721,8 +721,8 @@ ht-degree: 0%
 
 ## ファイルをアップロードまたは更新できない場合
 
-ファイルのアップロードまたは更新が失敗した場合は、次のような問題が発生する可能性があります。
+ファイルのアップロードまたは更新に失敗する場合は、次のような問題が考えられます。
 
-* アップロードされたファイルが大きすぎて、ファイルサイズの上限を超えています [!DNL OneDrive] プランまたはすべての [!DNL OneDrive] アカウントのストレージクォータ。 より多くのストレージ領域を取得するには、次の場所から既存のファイルを削除します： [!DNL OneDrive] または、 [!DNL OneDrive] アカウント
-* OneDrive では、同じ名前の 2 つのファイルを 1 つのフォルダにアップロードできません。 アップロード先のフォルダに、アップロード先のファイルと同じ名前のファイルが含まれている場合、シナリオの実行はエラーで終了します。 解決策は、アップロードするファイルの名前を変更するだけです。 ファイルを更新する場合は、 [!UICONTROL ファイルの更新] アクション。
-* 以前に選択したフォルダー（ファイルのアップロード先）は存在しません。 シナリオが停止し、ターゲットフォルダーを再度選択する必要があります。
+* アップロードされたファイルが大きすぎて、利用中の [!DNL OneDrive] プランの最大ファイルサイズの上限を超えているか、[!DNL OneDrive] アカウントのストレージ割当をすべて使い切っている。ストレージスペースを増やすには、[!DNL OneDrive] から既存のファイルを削除するか、[!DNL OneDrive] アカウントをアップグレードします。
+* OneDrive では、同じ名前の 2 つのファイルを 1 つのフォルダーにアップロードできない。ターゲットフォルダーにアップロードするファイルと同じ名前のファイルがある場合、シナリオの実行はエラーで終了します。解決策は、アップロードするファイルの名前を変更することです。ファイルを更新することが目的の場合は、[!UICONTROL ファイルを更新]アクションを使用します。
+* ファイルのアップロード先として選択済みのフォルダーが存在しない。シナリオが停止するので、ターゲットフォルダーをもう一度選択する必要があります。
