@@ -3,27 +3,27 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion リリースアクティビティ： 2021 年 2 月 1 日の週」
-description: このページでは、2021 年 2 月 1 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+title: 「Workfront Fusion リリースアクティビティ：2021年2月1日の週」
+description: このページでは、2021年2月1日の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b9e74780-93e1-4cf4-a429-678e5f871594
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ：2021 年 2 月 1 日の週
+# Workfront Fusion リリースアクティビティ：2021年2月1日の週
 
-このページでは、2021 年 2 月 1 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年2月1日の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -33,30 +33,30 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 </div>
 -->
 
-## MariaDB コネクタとモジュールが利用可能になりました。
+## MariaDB コネクタとモジュールが利用可能に
 
-これで、Workfront Fusion を使用して MariaDB アカウントに接続できます。
+Workfront Fusion を使用して、お使いの MariaDB アカウントに接続できるようになりました。
 
-MariaDB モジュールを使用すると、次の操作を実行できます。
+MariaDB モジュールを使用すると、次のことが可能になります。
 
 * クエリを実行
 * テーブルから行を選択
 
-詳しくは、 [MariaDB モジュール](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
+詳しくは、[MariaDB モジュール](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md)を参照してください。
 
-## Marketoコネクタとモジュールが利用可能になりました
+## Marketo コネクタとモジュールが利用可能に
 
-* これで、Workfront Fusion を使用してMarketoアカウントに接続できます。 Marketoコネクタを使用すると、次のことができます。
-* トリガー：レコードの作成または更新時のシナリオ。
-* レコードの作成、読み取り、更新
-* ファイルのアップロードまたはダウンロード
-* 特定のタイプのレコードのリストまたは検索
-* リストにリードを追加またはリストからリードを削除
-* キャンペーンのスケジュール設定
-* プログラムのコピー
-* カスタム API 呼び出しをおこなう
+* Workfront Fusion を使用して、お使いの Marketo アカウントに接続できるようになりました。Marketo コネクタを使用すると、次のことが可能になります。
+* レコードの作成時または更新時にシナリオをトリガーします。
+* レコードを作成、読み取りおよび更新
+* ファイルをアップロードまたはダウンロード
+* 特定のタイプのレコードをリストまたは検索
+* リストにリードを追加、またはリストからリードを削除
+* キャンペーンのスケジュールを設定
+* プログラムをコピー
+* カスタム API 呼び出しを実行
 
-詳しくは、 [Marketoモジュール](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
+詳しくは、[Marketo モジュール](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md)を参照してください。
 
 <!--
 
