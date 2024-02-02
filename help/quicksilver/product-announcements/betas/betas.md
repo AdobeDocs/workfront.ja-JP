@@ -1,26 +1,26 @@
 ---
 navigation-topic: betas
-title: ベータプログラム
-description: Adobe Workfrontの現在のベータ版リリースについて説明します。
+title: Beta のプログラム
+description: Adobe Workfront の現在のベータ版リリースについて説明します。
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '61'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# ベータプログラム
+# Beta のプログラム
 
-このページからリンクされる記事は、Adobe Workfrontで利用可能な現在のベータ版プログラムについて説明します。 ベータ版で利用可能な機能は、一部のお客様にはご利用いただけない場合があります。
+このページからリンクされる記事は、Adobe Workfront で利用可能な現在のベータ版プログラムについて説明しています。ベータ版で利用可能な機能は、一部のお客様にはご利用いただけない場合があります。
 
 次の記事には、現在ベータ版の機能に関する情報が含まれています。
 
 * [キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [新しいコメントベータ版のエクスペリエンス](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+* [新しいコメント機能のベータ版エクスペリエンス](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [フォームデザイナーの概要](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
 
 
