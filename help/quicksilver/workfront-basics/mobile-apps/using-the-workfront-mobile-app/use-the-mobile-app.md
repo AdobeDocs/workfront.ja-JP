@@ -1,60 +1,60 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: 以下を使用します。 [!DNL Adobe Workfront] モバイルアプリ
-description: エンゲージメントを加速し、組織内のチームや個人に対する作業を合理化： [!DNL Adobe Workfront's] モバイルアプリ：任意のiOSまたは Android デバイスで使用できます。
+title: ' [!DNL Adobe Workfront] モバイルアプリの使用'
+description: iOS または Android デバイスで使用可能な [!DNL Adobe Workfront's] モバイルアプリで、組織内のチームや個人のエンゲージメントを加速し業務を効率化できます。
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
 source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
-workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
-# 以下を使用します。 [!DNL Adobe Workfront] モバイルアプリ
+# [!DNL Adobe Workfront] モバイルアプリの使用
 
-エンゲージメントを加速し、組織内のチームや個人に対する作業を合理化： [!DNL Adobe Workfront's] モバイルアプリ：任意のiOSまたは Android デバイスで使用できます。 デスクトップアプリケーションを使用すると、次のことができます。
+iOS または Android デバイスで使用可能な [!DNL Adobe Workfront's] モバイルアプリで、組織内のチームや個人のエンゲージメントを加速し業務を効率化できます。このアプリでは以下が可能です。
 
-* 重要な情報にすばやくアクセス
-* ワンステップのアクションでワークフローを継続して実行
-* 外出先でも生産性を維持
+* 重要な情報にすばやくアクセスする
+* ワークフローをワンステップアクションで進行させる
+* 外出先でも生産性を維持する
 
-デスクトップアプリケーションは、 [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) または [Google Playストア](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
+このアプリは [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) または [Google Play ストア](https://play.google.com/store/apps/details?id=com.workfront.android.aware)からダウンロードしてインストールできます。
 
-モバイルアプリでは、のブラウザーバージョンと同様に、作業項目を完了して情報を表示できます。 [!DNL Workfront]. 次の機能などを使用できます。
+このモバイルアプリでは、ブラウザ版の [!DNL Workfront] の場合と同様に作業項目を完了し情報を閲覧することができます。さらに、次の機能なども利用できます。
 
-* タスクと問題に対する作業と割り当て
-* 更新後
-* Workfrontボードへのアクセス
+* タスクやイシューの割り当てと取り組み
+* 更新の投稿
+* Workfront の各種ボードへのアクセス
 * プロジェクトの表示と管理
-* 配達確認の表示、コメント、決定
-* タスクと問題、ドキュメント、配達確認、タイムシート、およびアクセス要求を承認します
+* プルーフの表示、プルーフへのコメントおよびプルーフの承認に関する判断
+* タスクやイシュー、ドキュメント、プルーフ、タイムシートおよびアクセス要求の承認
 * アプリ内通知の表示と返信
-* Workfrontリクエストの作成と処理
-* タイムシートの時間を記録する
+* Workfront リクエストの作成と処理
+* タイムシートへの時間の記録
 
 >[!NOTE]
 >
->The [!DNL Adobe Workfront] モバイルアプリが [!DNL Workfront Proof] アプリ（現在はサポートされておらず、10 月の 23.10 リリースで完全に削除されます） [!DNL Workfront] のお客様は、 [!DNL Adobe Workfront] 配達確認のレビューと承認を実行するモバイルアプリです。
+>[!DNL Adobe Workfront] モバイルアプリは [!DNL Workfront Proof] アプリに代わるものです。後者は既にサポートが終了しており、10月の 23.10 リリースで完全に削除される予定です。[!DNL Workfront] ユーザーは、プルーフのレビューと承認を実施する際には、[!DNL Adobe Workfront] モバイルアプリを使用してください。
 
-詳しくは、 [!DNL Adobe Workfront] モバイルアプリで、次の記事を確認します。
+[!DNL Adobe Workfront] モバイルアプリについて詳しくは、以下の記事を参照ください。
 
-* [[!DNL Adobe Workfront] の [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-* [Be an [!DNL Android] ベータテスター](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
-* [[!DNL Adobe Workfront] の [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
-* [Be an [!DNL iOS] ベータテスター](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
-* [[!UICONTROL ホーム] 領域ウィジェット](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
-* [[!UICONTROL 自分の仕事] モバイルアプリのセクション](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
-* [[!DNL Adobe Workfront] [!UICONTROL ボード] モバイル用](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
-* [の配達確認を確認し、決定する [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
-* [での配達確認に対するコメント [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
-* [での配達確認に対するコメント [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
-* [で配達確認を共有およびダウンロードする [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
-* [内の承認 [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-* [[!DNL Adobe Workfront] 対象： [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
-* [設定 [!DNL Adobe Workfront] 対象： [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-* [[!DNL Adobe Workfront] モバイルアプリ仮想アシスタント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+* [ [!DNL Android] 版 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
+* [ [!DNL Android] ベータ版テスターになるには](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+* [ [!DNL iOS] 版 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [ [!DNL iOS] ベータ版テスターになるには](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [[!UICONTROL ホーム]領域ウィジェット](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
+* [モバイルアプリの「[!UICONTROL 担当作業]」セクション](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
+* [モバイル版 [!DNL Adobe Workfront] [!UICONTROL ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
+* [ [!DNL Adobe Workfront] モバイルアプリでのプルーフのレビューと承認に関する判断](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+* [ [!DNL iOS] でのプルーフへのコメント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
+* [ [!DNL Android] でのプルーフへのコメント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
+* [ [!DNL Adobe Workfront] モバイルアプリでのプルーフの共有とダウンロード](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
+* [ [!DNL Adobe Workfront] モバイルアプリでの承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
+* [ [!DNL Mobile Device Management] （MDM）用 [!DNL Adobe Workfront]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
+* [ [!DNL MobileIron] 用 [!DNL Adobe Workfront] の設定](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
+* [[!DNL Adobe Workfront] モバイルアプリバーチャルアシスタント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
 
