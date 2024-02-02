@@ -4,179 +4,179 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: モジュールのタイプ
-description: Adobe Workfront Fusion は、次の 5 種類のモジュールを区別します。アクションモジュール、検索モジュール、トリガーモジュール、集約モジュール、イテレータ。 集積と反復子は高度なシナリオ用です。'
+description: Adobe Workfront Fusion は、アクションモジュール、検索モジュール、トリガーモジュール、アグリゲーター、イテレーターの 5 種類のモジュールを区別します。アグリゲーターとイテレーターは詳細なシナリオ用です。
 author: Becky
 feature: Workfront Fusion
 exl-id: 58b4aa76-6c4c-47fc-a42c-c5286da5633a
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '973'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # モジュールのタイプ
 
-A[!UICONTROL Adobe Workfront Fusion] は、次の 5 種類のモジュールを区別します。アクションモジュール、検索モジュール、トリガーモジュール、集約モジュール、イテレータ。 集積とイテレータは、高度なシナリオで使用します。
+[!UICONTROL Adobe Workfront Fusion] は、アクションモジュール、検索モジュール、トリガーモジュール、アグリゲーター、イテレーターの 5 種類のモジュールを区別します。アグリゲーターとイテレーターは、詳細なシナリオ用です。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件はありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>この記事で説明する機能を使用するには、Adobe Workfront Fusion とAdobe Workfrontを購入する必要があります。</td> 
+   <td>この記事で説明する機能を使用するには、Adobe Workfront Fusion と Adobe Workfront を購入する必要があります。</td> 
   </tr> 
  </tbody> 
 </table>
 
-保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## アクションモジュール
 
-アクションモジュールは、最も一般的なタイプのモジュールです。 一般的なアクションモジュールは、1 つのバンドルを返し、次のモジュールに渡して処理します。
+アクションモジュールは、最も一般的なタイプのモジュールです。一般的なアクションモジュールは、1 つのバンドルを返し、次のモジュールに渡して処理を行います。
 
-トリガーモジュールとは異なり、アクションモジュールは、シナリオの最初、中間または最後に配置できます。 シナリオには、アクションモジュールの数に制限はありません。
+トリガーモジュールとは異なり、アクションモジュールは、シナリオの最初、中間または最後に配置できます。シナリオのアクションモジュールの数には制限はありません。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->* **[!DNL Workfront]> [!UICONTROL ファイルのアップロード]** は次の場所にファイルを送信します。 [!DNL Workfront] を返します。
->* **[!UICONTROL 画像] > [!UICONTROL サイズ変更]** 画像を受け取り、指定したサイズにリサイズし、サイズ変更された画像を次のアクションに渡します。
+>* **[!DNL Workfront]／[!UICONTROL ファイルをアップロード]**&#x200B;で、[!DNL Workfront] にファイルを送信し、識別子を返します。
+>* **[!UICONTROL 画像]／[!UICONTROL サイズ変更]**&#x200B;で、画像を受け取り、指定した寸法にサイズ変更し、サイズ変更した画像を次のアクションに渡します。
 
-アクションタイプには、次の 4 つのサブタイプがあります。作成、読み取り、更新、削除。 「更新」サブタイプでは、次の 3 つの操作が有効になります。
+アクションタイプには、作成、読み取り、更新、削除の 4 つのサブタイプがあります。更新サブタイプでは、次の 3 つの操作が有効になります。
 
-* **フィールドの内容を消去**. この操作は、フィールドのコンテンツが erase キーワードによって評価される（と混同しない）と実行されます *空*) をクリックします。
+* **フィールドの内容を消去する**。この操作は、フィールドの内容がキーワードを消去するために評価されるときに行われます（*空白*&#x200B;と混同しないでください）。
 
   ![](assets/erase-content-of-field.png)
 
-* **フィールドの内容を変更しない**. この操作は、フィールドが空のままになっているか、フィールドのコンテンツが空と評価される（JSON の null で表される）場合に実行されます。
+* **フィールドの内容を変更しない**。この操作は、フィールドが空白のままになっているか、フィールドの内容が空白と評価される（JSON の null で表される）場合に実行されます。
 
   ![](assets/leave-content-field-unchanged-350x231.png)
 
-* **フィールドのコンテンツを置き換える**. この操作は、上記の 2 つ以外のすべての場合に実行されます。
+* **フィールドの内容を置き換える**。この操作は、上記の 2 つ以外のすべての場合に実行されます。
 
 >[!NOTE]
 >
->* 次の項目が表示されない場合、 `erase` キーワードがマッピングパネルに表示され、モジュールが更新モジュールでないか、アプリの最新の仕様に更新されていません。
->* &quot;[!UICONTROL 空]「 」はフィールドの内容を変更しません。 フィールドを消去する必要がある場合は、次の数式を使用できます。
+>* `erase` キーワードがマッピングパネルに表示されない場合、モジュールが更新モジュールでないか、アプリの最新の仕様に更新されていません。
+>* 「[!UICONTROL 空白]」はフィールドの内容を変更しません。フィールドを消去する必要がある場合は、次の数式を使用できます。
 >
 >![](assets/formula-ifempty-name-erase.png)
 >
->現在、コンテンツが空として評価される場合に、フィールドを変更せずに残すことはできません。
+>フィールドの内容が空白として評価される場合にフィールドを変更しないままにすることは、現時点では不可能です。
 
-## モジュールを検索
+## モジュールの検索
 
-一般的な検索では、0 個、1 個または複数のバンドルが返され、次のモジュールに渡されて処理されます。
+一般的な検索では、0 個、1 個、または複数のバンドルを返し、次のモジュールに渡して処理を行います。
 
 シナリオの最初、中間または最後に検索を配置できます。
 
-シナリオには、検索の数に制限はありません。
+シナリオの検索の数には制限はありません。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->**[!DNL Workfront]> [!UICONTROL 関連レコードの読み取り]**  は、指定した検索クエリに一致するレコードを、特定の親オブジェクト内で読み取ります。
+>**[!DNL Workfront]／[!UICONTROL 関連レコードの読み取り]**&#x200B;では、特定の親オブジェクト内で、指定した検索クエリに一致するレコードを読み取ります。
 
 ## トリガーモジュール
 
-トリガーは、特定のサービスに変更があった場合にバンドルを生成します。 変更には、新しいレコードの作成、レコードの削除、レコードの更新などが含まれます。
+トリガーは、特定のサービスに変更があった場合にバンドルを生成します。変更には、新しいレコードの作成、レコードの削除、レコードの更新などが含まれます。
 
-各トリガーは、0 個、1 個または複数のバンドルを返し、次のモジュールに渡して処理を行うことができます。
+各トリガーは、0 個、1 個または複数のバンドルを返し、次のモジュールに渡して処理を行います。
 
 トリガーは、シナリオの先頭にのみ配置できます。
 
-各シナリオには、1 つのトリガーのみを含めます。
+各シナリオにはトリガーを 1 つだけ含めることができます。
 
-[!DNL Workfront Fusion] は、次の 2 種類のトリガーを区別します。ポーリングトリガーとインスタントトリガー。
+[!DNL Workfront Fusion] は、ポーリングトリガーとインスタントトリガーの 2 種類のトリガーを区別します。
 
 ### ポーリングトリガー
 
-ポーリングトリガーは、前回の実行以降に変更がなかった場合でも、特定のサービスを定期的にポーリングします。 ポーリングトリガーを含むシナリオを、一定の間隔で実行するようにスケジュールすることをお勧めします。 次の項目が存在する場合、 *変更*&#x200B;の場合、トリガーは変更に関する情報を含むバンドルを返します。 次がない場合： *変更*&#x200B;の場合、トリガーはバンドルを出力しません。 シナリオのスケジュールについては、 [でのシナリオのスケジュール設定 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+ポーリングトリガーは、前回の実行以降に変更がなかった場合でも、特定のサービスを定期的にポーリングします。ポーリングトリガーを含むシナリオを、一定の間隔で実行するようにスケジュールすることをお勧めします。*変更*&#x200B;がある場合、トリガーは変更に関する情報を含むバンドルを返します。*変更*&#x200B;がない場合、トリガーはバンドルを出力しません。シナリオのスケジュールの説明については、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md)でのシナリオのスケジュール設定を参照してください。
 
-ポーリングトリガーでは、エポックパネルを介して出力する最初のバンドルを選択できます。 パネルは、トリガーを保存した後、または設定を変更した後、自動的にトリガーされます。 詳しくは、 [トリガーモジュールの開始場所を選択 [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+ポーリングトリガーでは、エポックパネルを介して出力する最初のバンドルを選択できます。パネルは、トリガーを保存した後、または設定を変更した後、自動的にトリガーされます。詳しくは、[[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md) でのトリガーモジュールの開始場所の選択を参照してください。
 
 >[!NOTE]
 >
->エポックパネルでの設定は、モジュールの最初の実行にのみ影響します。 モジュールが実行されると、最後に出力されたバンドルが記憶され、エポックパネルを介して行われた設定が無効になります。
+>エポックパネルで行われた設定は、モジュールの最初の実行にのみ影響します。モジュールが実行されると、最後に出力されたバンドルが記憶され、エポックパネルを介して行われた設定が無効になります。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->* **[!DNL Workfront]> [!UICONTROL レコードを監視]** 前回のシナリオ実行以降に新しく追加されたファイルを返します
+>* **[!DNL Workfront]／[!UICONTROL レコードを監視]**&#x200B;は、前回のシナリオ実行以降に新しく追加されたファイルを返します
 >
->* **[!DNL Google Sheets]> [!UICONTROL 監視行]** 前回のシナリオ実行以降にユーザーが追加した新しい行を返します
+>* **[!DNL Google Sheets]／[!UICONTROL 行を監視]**&#x200B;は、前回のシナリオ実行以降にユーザーが追加した新しい行を返します
 
 ### インスタントトリガー
 
-インスタントトリガーは、サービスが通知を受け取ることを有効にします [!DNL Workfront Fusion] について *変更* すぐに 即座に実行するインスタントトリガーを含むシナリオをスケジュールすることをお勧めします。 手順については、 [Adobe Workfront Fusion でのシナリオのスケジュール](../../workfront-fusion/scenarios/schedule-a-scenario.md). 関連トピック [のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) を参照してください。
+インスタントトリガーを使用すると、サービスは&#x200B;*変更*&#x200B;について [!DNL Workfront Fusion] に即座に通知できます。即座に実行するインスタントトリガーを含むシナリオをスケジュールすることをお勧めします。手順については、[Adobe Workfront Fusion でのシナリオのスケジュール](../../workfront-fusion/scenarios/schedule-a-scenario.md)を参照してください。受信データの処理方法の詳細については、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) のインスタントトリガー（Web フック）も参照してください。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->* **[!DNL Workfront]> [!UICONTROL イベントを見る]** タスクの作成など、Workfrontで特定のタイプのイベントが発生した場合に情報を返します。
->* **[!DNL Google Sheets]> [!UICONTROL 変更を監視]** は、セルが更新されるたびに情報を返します。
+>* **[!DNL Workfront]／[!UICONTROL イベントを監視]**&#x200B;は、タスクの作成など、Workfront で特定の種類のイベントが発生したときに情報を返します。
+>* **[!DNL Google Sheets]／[!UICONTROL 変更を監視]**&#x200B;は、セルが更新されるたびに情報を返します。
 
-## 集約
+## アグリゲーター
 
-集約とは、複数のバンドルを 1 つのバンドルに蓄積するモジュールの一種です。
+アグリゲーターとは、複数のバンドルを 1 つのバンドルに蓄積するモジュールの一種です。
 
-各集約は 1 つのバンドルのみを返し、次のモジュールに渡してさらに処理を行います。
+各アグリゲーターは 1 つのバンドルのみを返し、次のモジュールに渡してさらに処理を行います。
 
-集約は、シナリオの途中にのみ配置できます。
+アグリゲーターは、シナリオの途中にのみ配置できます。
 
-シナリオに含めることができる集約の数に制限はありません。
+シナリオに含めることができるアグリゲーターの数に制限はありません。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->* **[!UICONTROL アーカイブ] > [!UICONTROL アーカイブの作成]** 受信したファイルを zip アーカイブに圧縮
->* **[!UICONTROL CSV] > [!UICONTROL CSV に集計]** CSV ファイルから複数の文字列を 1 行に結合します。
->* **[!UICONTROL ツール] > [!UICONTROL テキスト集約]** 複数の文字列を 1 つの文字列に組み合わせます。
+>* **[!UICONTROL アーカイブ]／[!UICONTROL アーカイブを作成]**&#x200B;は、受信したファイルを zip アーカイブに圧縮します
+>* **[!UICONTROL CSV]／[!UICONTROL CSV に集計]**&#x200B;は、CSV ファイルから複数の文字列を 1 行に結合します。
+>* **[!UICONTROL ツール]／[!UICONTROL テキストアグリゲーター]**&#x200B;は、複数の文字列を 1 つの文字列に組み合わせます。
 
-詳しくは、 [の集約モジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
+詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md) のアグリゲーターモジュールを参照してください。
 
 ## イテレータ
 
-Iterator は、配列を複数の個別のバンドルに分割するモジュールの一種です。
+イテレーターは、配列を複数の個別のバンドルに分割するモジュールの一種です。
 
-各反復子は 1 つ以上のバンドルを返し、次のモジュールに渡して処理します。
+各イテレーターは 1 つ以上のバンドルを返し、次のモジュールに渡して処理します。
 
-イテレータは、シナリオの途中にのみ配置できます。
+イテレーターは、シナリオの途中にのみ配置できます。
 
-シナリオには、無制限の数のイテレーターを含めることができます。
+シナリオに含めることができるイテレーターの数に制限はありません。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->**[!UICONTROL 電子メール] > [!UICONTROL 添付ファイルの取得]** は、添付ファイルの配列を別々のバンドルに分割します
+>**[!UICONTROL メール]／[!UICONTROL 添付ファイルを取得]**&#x200B;は、添付ファイルの配列を別々のバンドルに分割します
 
-詳しくは、 [の Iterator モジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) および [で配列をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md).
+詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md) のイテレーターモジュールおよび[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md) での配列マッピングを参照してください。
