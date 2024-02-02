@@ -1,67 +1,67 @@
 ---
-title: 有効にする [!DNL Adobe Workfront] （Outlook 用）
+title: ' [!DNL Adobe Workfront]  を有効化（Outlook 用）'
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: ユーザーが [!DNL Adobe Workfront] Outlook の場合、まずシステムに対して有効にする必要があります。
+description: ユーザーが Outlook 用  [!DNL Adobe Workfront]  の使用を開始するには、まずシステムでそれを有効にする必要があります。
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
 source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# 有効にする [!DNL Adobe Workfront for Outlook]
+# [!DNL Adobe Workfront for Outlook] を有効にする
 
-ユーザーが [!DNL Adobe Workfront for Outlook]を使用する場合は、まずシステムで有効にする必要があります。
+ユーザーが Outlook 用 [!DNL Adobe Workfront for Outlook] の使用を開始するには、まずシステムでそれを有効にする必要があります。
 
-の使用方法に関する情報 [!DNL Workfront for Outlook] 有効にした後、 [[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).
+[!DNL Workfront for Outlook] を有効にした後の使用方法について詳しくは、[[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)を参照してください。
 
 ## アクセス要件
 
-この記事の手順を実行するには、次の手順を実行する必要があります。
+この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。 詳しくは、 [!DNL Workfront] 管理者向け： <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] の管理者になる必要があります。[!DNL Workfront] 管理者について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## を有効にします。 [!DNL Workfront] [!DNL Outlook] アドイン
+## [!DNL Workfront] [!DNL Outlook] アドインを有効化
 
-1. にログインします。 [!DNL Workfront] 管理者として。
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. [!DNL Workfront] に管理者としてログインします。
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) の順にクリックします。
 
-1. 展開 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL 環境設定]**.
+1. **[!UICONTROL システム]**&#x200B;を展開し、続いて「**[!UICONTROL 環境設定]**」をクリックします。
 
-1. 以下を確認します。 **[!UICONTROL ユーザーがWorkfrontのモバイルアプリケーションと [!DNL Workfront] [!DNL Outlook] アドイン]** が選択されている。\
-   また、 [!DNL Workfront] モバイルアプリケーションを使用する場合、この設定を使用すると、 [!DNL Workfront] [!DNL Outlook] 使用するアドインです。
+1. 「**[!UICONTROL ユーザーが Workfront のモバイルアプリケーションと [!DNL Workfront] [!DNL Outlook] アドイン]** が使用できるようにする」が選択されていることを確認します。\
+   この設定では、[!DNL Workfront] モバイルアプリケーションの使用を許可するだけでなく、[!DNL Workfront] [!DNL Outlook] アドインの使用も許可します。
 
    このオプションは、デフォルトで有効になっています。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## のインストール [!DNL Workfront] [!DNL Outlook] アドイン
+## [!DNL Workfront] [!DNL Outlook] アドインのインストール
 
-を使用するための必要システム構成の詳細 [!DNL Workfront] アドイン [!DNL Outlook]を参照してください。 [必要システム構成](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#system-requirements-and-prerequisites) in [のAdobe Workfrontを設定 [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+[!DNL Outlook] 用に [!DNL Workfront] アドインを使用するためのシステム要件について詳しくは、「[ [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md) 用に Adobe Workfront を設定」にある[システム要件](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#system-requirements-and-prerequisites)を参照してください。
 
-をインストールする方法の詳細 [!DNL Workfront] のアドイン [!DNL Outlook]を参照してください。 [アドインのインストール](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in) in  [設定 [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+[!DNL Outlook] 用の [!DNL Workfront] アドインをインストールする方法について詳しくは、[設定 [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)にある[アドインのインストール](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in)を参照してください。
