@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 11 月 8 日の週
-description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 11 月 8 日の週
+title: Workfront Fusion リリースアクティビティ：2021年11月8日（PT）の週
+description: Workfront Fusion リリースアクティビティ：2021年11月8日（PT）の週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -8,28 +8,28 @@ recommendations: noDisplay, noCatalog
 exl-id: 3f3405f9-ea57-4bb8-9dab-c51ccbec9416
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '146'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 11 月 8 日の週
+# Workfront Fusion リリースアクティビティ：2021年11月8日（PT）の週
 
-このページでは、2021 年 11 月 8 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年11月8日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## 変換モジュールをWorkfront Connector で使用できるようになりました
+## Workfront Connector で「レコードを変換」モジュールを使用できるようになりました
 
-「その他のアクション」モジュールで使用できる最も一般的なアクションの 1 つに対してモジュールを作成しました。 これで、「レコードを変換」モジュールを使用して、次の変換を行うことができます。
+「その他のアクション」モジュールで使用できる最も一般的なアクションの 1 つに対してモジュールを作成しました。これで、「レコードを変換」モジュールを使用して、次の変換を行うことができます。
 
-* タスクに対する問題
-* プロジェクトに対する問題
-* プロジェクトへのタスク
+* イシューをタスクに変換
+* イシューをプロジェクトに変換
+* タスクをプロジェクトに変換
 
 以前は、これらの変換は、「その他のアクション」モジュールでのみ使用できました。
 
-詳しくは、 [Adobe Workfrontモジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+詳しくは、[Adobe Workfront モジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)を参照してください。
