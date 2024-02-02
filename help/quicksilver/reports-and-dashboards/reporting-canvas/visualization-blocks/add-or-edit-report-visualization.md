@@ -1,19 +1,19 @@
 ---
-title: レポートキャンバスでのビジュアライゼーションブロックの追加または編集
-description: レポートキャンバスでのビジュアライゼーションブロックの追加または編集
+title: レポートキャンバスでビジュアライゼーションブロックを追加または編集する
+description: レポートキャンバスでビジュアライゼーションブロックを追加または編集する
 hidefromtoc: true
 hide: true
-source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
-workflow-type: tm+mt
+exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
+source-git-commit: f994a3f79df0594ea190a3dd77853c4b4ea89afb
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
+# レポートキャンバスでビジュアライゼーションブロックを追加または編集する
 
-# レポートキャンバスでのビジュアライゼーションブロックの追加または編集
-
-ビジュアライゼーションを使用すると、重要な情報をわかりやすく強調表示して、データを含むストーリーを伝えるのに役立ちます。
+ビジュアライゼーションは、重要な情報をわかりやすく強調表示して、データのストーリーを伝えるのに役立ちます。
 
 レポートには、次のタイプのビジュアライゼーションを追加できます。
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 前提条件
 
-開始する前に、レポートキャンバスベータ版に登録する必要があります。 詳しくは、 [レポートキャンバスベータ版：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+開始する前に、レポートキャンバス Beta に登録する必要があります。詳しくは、[レポートキャンバス Beta：概要](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)を参照してください。
 
 ## ビジュアライゼーションブロックの追加または編集
 
@@ -32,50 +32,50 @@ ht-degree: 1%
 >
 >レポートのブロックを作成および編集すると、すべての変更が自動的に保存されます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **レポート**.
-1. クリック **新しいレポート**&#x200B;次に、データを含むテーブルでレポートを作成します。詳しくは、 [レポートキャンバスでのレポートの作成](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) および [レポートキャンバスでのテーブルブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
+1. 「**新規レポート**」をクリックし、次にデータを含むテーブルでレポートを作成します。詳しくは、[レポートキャンバスでのレポートの作成](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)および[レポートキャンバスでのテーブルブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)を参照してください。
 
    または
 
-   データが含まれるテーブルを含む既存のレポートで、 **その他のメニュー** アイコン ![](assets/more-icon.png) レポートのヘッダーで、「 **編集**.
+   データを含むテーブルの既存のレポートで、レポートヘッダーにある&#x200B;**その他のメニュー**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**編集**」を選択します。
 
-1. 画面の右側の、の下 **ブロックを追加**、次のいずれか：
+1. 画面の右側の「**ブロックを追加**」で、次のいずれかを実行します。
 
-   次の項目をドラッグ： **ビジュアライゼーション** アイコン****をキャンバス上に直接、目的の場所に配置します。
-
-   または
-
-   次をダブルクリックします。 **ビジュアライゼーション** アイコン****をクリックして、キャンバスの上部にビジュアライゼーションを追加します。
+   **ビジュアライゼーション**&#x200B;アイコン **** をキャンバス上の目的の場所に直接ドラッグします。
 
    または
 
-   を選択します。 **視覚化** アイコン****をクリックします。
+   **ビジュアライゼーション**&#x200B;アイコン **** をダブルクリックして、キャンバスの上部にビジュアライゼーションを追加します。
+
+   または
+
+   キャンバス上の既存のテーブルの上部にある&#x200B;**視覚化**&#x200B;アイコン **** を選択します。
 
    >[!TIP]
    >
-   >配置後に、そのコーナーハンドルをドラッグして、ブロックのサイズを変更できます。
+   >ブロックを配置した後に、そのコーナーのハンドルをドラッグして、ブロックのサイズを変更できます。
 
-1. （条件付き）レポートに複数のテーブルが含まれている場合、 **ビジュアライゼーションの作成** ボックスが表示されたら、ビジュアライゼーションのソーステーブルを選択します。
+1. （条件付き）レポートに複数のテーブルが含まれている場合、表示される&#x200B;**ビジュアライゼーションを構築**&#x200B;ボックスで、ビジュアライゼーションのソーステーブルを選択します。
 
    ![](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
-   >次を選択した場合、 **+新しいテーブルを追加**&#x200B;に設定すると、ビジュアライゼーションブロックの下に新しいテーブルブロックが作成されます。 ビジュアライゼーションを追加する前に、テーブルにデータを入力する必要があります。 テーブルの作成と編集の詳細については、[ [レポートキャンバスでのテーブルブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >「**+ 新しいテーブルを追加**」を選択すると、ビジュアライゼーションブロックの下に新しいテーブルブロックが作成されます。ビジュアライゼーションを追加する前に、テーブルにデータを入力する必要があります。テーブルの作成と編集について詳しくは、[[レポートキャンバスでのテーブルブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) を参照してください。
 
 1. 追加するビジュアライゼーションのタイプを選択します。
 
    ![](assets/select-vis-type-350x205.png)
 
-   ビジュアライゼーションが表示され、選択したテーブルのデータを表します。
+   選択したテーブルのデータを表すビジュアライゼーションが表示されます。
 
    >[!TIP]
    >
-   >ビジュアライゼーションのタイトルとソーステーブルのタイトルの隣のドットの色が一致します。 複数のテーブルを含むレポートでは、これにより、ビジュアライゼーションを、関連するテーブルと簡単に一致させることができます。
+   >ビジュアライゼーションのタイトルとソーステーブルのタイトルの横にあるドットの色が一致します。複数のテーブルを含むレポートでは、これにより、ビジュアライゼーションを関連するテーブルと簡単に照合できます。
 
-1. 次に、ビジュアライゼーションの設定を続けます。
+1. ビジュアライゼーションの設定を続けます。
 
-   * **棒グラフ** ビジュアライゼーション：手順については、 [レポートキャンバスでの棒グラフビジュアライゼーションの設定](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **列** ビジュアライゼーション：手順については、 [レポートキャンバスでの列のビジュアライゼーションの設定](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **円グラフ** ビジュアライゼーション：手順については、 [レポートキャンバスでの円グラフのビジュアライゼーションの設定](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI** ビジュアライゼーション：手順については、 [レポートキャンバスでの KPI ビジュアライゼーションの設定](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * **棒グラフ**&#x200B;のビジュアライゼーション：手順については、[レポートキャンバスでの棒グラフのビジュアライゼーションの設定](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar)を参照してください。
+   * **列**&#x200B;のビジュアライゼーション：手順については、[レポートキャンバスでの列のビジュアライゼーションの設定](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)を参照してください。
+   * **円グラフ**&#x200B;のビジュアライゼーション：手順については、[レポートキャンバスでの円グラフのビジュアライゼーションの設定](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)を参照してください。
+   * **KPI** のビジュアライゼーション：手順については、[レポートキャンバスでの KPI のビジュアライゼーションの設定](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)を参照してください。
