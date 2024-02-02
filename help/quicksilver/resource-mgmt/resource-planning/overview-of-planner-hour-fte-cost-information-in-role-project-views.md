@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: リソースプランナーのプロジェクトビューとロールビューの時間、工数、コスト情報の概要
-description: リソースプランナーのプロジェクトビューとロールビューの時間、工数、コスト情報の概要
+title: リソースプランナーのプロジェクトビューと役割ビューの時間数、FTE およびコスト情報の概要
+description: リソースプランナーのプロジェクトビューと役割ビューの時間数、FTE およびコスト情報の概要
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2973'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# リソースプランナーのプロジェクトビューとロールビューの時間、工数、コスト情報の概要
+# リソースプランナーのプロジェクトビューと役割ビューの時間、FTE、コスト情報の概要
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -24,197 +24,198 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: relink all articles pointing to this section to the new article)</p>
 -->
 
-プロジェクトで実行する必要のある作業に対してリソースを予算を割り当てることは、リソースプランナーの主な機能です。 リソースの使用可能時間を表示し、リソースが割り当てられているプロジェクトに時間を割り当てることができます。
+プロジェクトで達成する必要のある作業に対してリソースを予算計上することが、リソースプランナーの主な機能です。リソースの空き時間を表示し、リソースが割り当てられているプロジェクトに時間を割り当てることができます。
 
-リソース・プランナでのリソース予算作成の詳細は、 [「プロジェクト」ビューと「ロール」ビューを使用する、リソースプランナーの予算リソース](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)を参照してください。
 
-この記事では、リソース・プランナでリソースの予算を作成する前に知っておく必要がある主要概念の一部を説明します。
+この記事では、リソースプランナーでリソースの予算計上を開始する前に知っておく必要がある主要概念の一部を説明します。
 
-## 予算リソースの概要
+## リソース予算計上の概要
 
-リソース・プランナを使用してリソースを予算設定する際は、次の点を考慮します。
+リソースプランナーを使用してリソースを予算計上する際は、次の点に注意してください。
 
-* リソースの割り当てを予算するには、リソースがプロジェクトでの作業を完了するのに使用できる時間数、工数、またはコストを指定します。 リソースの時間またはコストを予算すると、リソースの使用可能な時間、工数、またはコストが予算額の割合で減少します。 その結果、予算を作成するプロジェクトの「使用可能時間」、「工数」または「原価」の金額が、それらのプロジェクトのユーザーおよび役割に対して減少します。
+* リソースの割り当てを予算計上するには、リソースがプロジェクトでの作業完了に利用できる時間、FTE、またはコストの量を指定します。リソースの時間またはコストを予算計上すると、そのリソースの利用可能時間数、FTE、またはコストが、予算計上された量だけ減少します。その結果、予算計上するプロジェクトに従うプロジェクトの利用可能時間数、FTE またはコストの量が、該当するプロジェクトの該当するユーザーおよび役割に対して減少します。
 
-   >[!IMPORTANT]
-   >
-   >15 年間のリソース予算を作成できます。 期間が 15 年を超えるプロジェクトのリソースを予算する場合、予算設定情報が正確でない可能性があります。
+  >[!IMPORTANT]
+  >
+  >リソースは 15 年の期間にわたって予算計上できます。期間が 15 年を超えるプロジェクトのリソースを予算計上すると、計上する情報が正確でなくなる可能性があります。
 
-* プロジェクトのタイムラインに関係なく、リソースプランナーに表示される任意の期間のリソースの「時間」、「工数」または「コスト」を予算できます。 たとえば、プロジェクトのタイムライン（計画時間と関連付けられている）でリソースが使用できない可能性があるが、別の時間で使用できる場合は、計画時間がゼロの時間枠に予算を割り当てます。 この後、リソースの可用性に合わせて手動でプロジェクトのタイムラインを変更できます。
+* プロジェクトのタイムラインに関係なく、リソースプランナーに表示される任意の時間枠のリソースの時間、FTE またはコストの予算を計上できます。例えば、（予定時間数に関連付けられた）プロジェクトのタイムラインではリソースが使用できないが別の時間では使用できる可能性があることを示す場合は、予定時間数がゼロの時間枠にリソースの予算を計上することができます（その期間にリソースが作業に使用できるようになる場合）。これを行った後に、リソースの空き時間に合わせてプロジェクトのタイムラインを手動で変更できます。
 
-   >[!NOTE]
-   >
-   >まず、業務上の役割またはユーザーに対して、時間、工数、コストを手動で予算設定することをお勧めします。 自動オプションを使用して、計画時間、工数、原価の金額が常に予算時間、工数、原価と一致する必要がある場合にのみ、プロジェクトと生産資源の予算時間を設定できます。\
-   >リソース・プランナで予算作成の自動オプションを使用する方法の詳細は、この記事の「予算プロジェクトと役割の自動化」の節を参照してください [Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >[!NOTE]
+  >
+  >まず、担当業務またはユーザーに対して、時間、FTE、またはコストを手動で予算計上することをお勧めします。自動オプションを使用してプロジェクトとリソースの時間を予算計上できるのは、予定の時間数、FTE またはコストの量が、予算計上された時間数、FTE またはコストと常に一致する場合のみです。\
+  >リソースプランナーで予算計上の自動オプションを使用する方法について詳しくは、[Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)の記事の「プロジェクトと役割の自動予算計上」の節を参照してください。
 
-* 予算の工数またはコストは予算の時間と同じです。Adobe Workfrontでは、予算するリソースに対して時間ではなく FTE とコストの値が使用されます。
+* FTE またはコストの予算計上は、時間の予算計上と同じです。その場合、Adobe Workfront では、予算計上するリソースに関して、時間ではなく FTE とコストの値が使用されます。
 
-   リソース・プランナでのコストの計算方法の詳細は、次を参照してください： [リソースプランナーでコストを計算する](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+  リソースプランナーでのコストの計算方法について詳しくは、[リソースプランナーでのコストの計算](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)を参照してください。
 
-* リソース・プランナでのリソースの予算割当は、次の方法で行われます。
+* リソースプランナーでのリソースの割り当ての予算計上は、次の方法で行われます。
 
    * 手動
 
-      または
+     または
 
-   * 自動的に ( **プロジェクト別に表示** および **ロール別に表示** ビュー。
-   詳しくは、 [「プロジェクト」ビューと「ロール」ビューを使用する、リソースプランナーの予算リソース](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   * 自動（**プロジェクト別に表示**&#x200B;ビューおよび&#x200B;**役割別に表示**&#x200B;ビューのプロジェクトと役割のオプションを使用）。
 
-* ユーザーがジョブの役割を変更し、リソースプールから削除、非アクティブ化、または削除した場合、その役割に予算された時間は変更されず、役割の残りのユーザーに再配分されます。 ジョブ・ロールに関連付けられたユーザーがいなくなった場合、ロールの予算時間は 0 になります。
+  詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)を参照してください。
 
-プロジェクトと役割のオプションの詳細については、「 [生産資源プランナの時間、工数および原価の値の把握](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) 」を参照してください。
+* ユーザーが担当業務を変更した場合や、リソースプールから削除、非アクティブ化、または除去された場合、その役割に予算計上された時間は変更されず、その役割の残りのユーザーに再配分されます。担当業務に関連付けられているユーザーがいなくなった場合、その役割の予算計上時間数はゼロになります。
 
-## 生産資源プランナの時間、工数および原価の値の把握 {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
+プロジェクトと役割のオプションについて詳しくは、この記事の[リソースプランナーの時間、FTE、コストの値について](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner)の節を参照してください。
+
+## リソースプランナーの時間、FTE、コストの値について {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this needs to be broken into its own article and leave here just the how-to: see this article: overview-of-planner-hour-fte-cost-information-in-role-project-views)</p>
 -->
 
-リソースを予算編成し、リソース・プランナの予算時間情報を更新する前に、次の概念に精通している必要があります
+リソースを予算計上し、リソースプランナーで予算計上時間数の情報を更新する前に、次の概念を理解しておく必要があります。
 
-* **計画時間、工数またはコスト**:タスクと問題に関する定義に従って実行する必要がある作業。
-* **利用可能な時間数、工数、コスト**:ユーザーに関連付けられたスケジュールに従って、ユーザーまたはジョブの役割が機能できる時間。
+* **予定時間数、FTE またはコスト**：タスクとイシューに関する定義に従って行う必要がある作業。
+* **利用可能時間数、FTE またはコスト**：ユーザーに関連付けられたスケジュールに従って、ユーザーまたは担当業務が利用可能な時間。
 
-この情報は、各リソース（ユーザーまたはロール）および各プロジェクトのリソースプランナーに表示されます。
+この情報は、リソース（ユーザーまたは役割）ごと、プロジェクトごとに、リソースプランナーに表示されます。
 
-プロジェクトのプロジェクトビューと役割ビューに表示される内容については、この記事を参照してください。 [リソースプランナーのナビゲーションの概要](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+プロジェクトのプロジェクトビューと役割ビューに表示される内容について詳しくは、[リソースプランナーのナビゲーションの概要](../../resource-mgmt/resource-planning/resource-planner-navigation.md)の記事を参照してください。
 
-リソース・プランナでのコストの計算方法の詳細は、「 [リソースプランナーでコストを計算する](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+リソースプランナーでのコストの計算方法について詳しくは、[リソースプランナーでのコストの計算](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)の記事を参照してください。
 
 >[!NOTE]
 >
->原価による予算作成は、時間または工数による予算作成と同じですが、Workfrontが生産資源プランナの原価を計算する方法を理解する必要があります。
+>コストによる予算計上は、時間または FTEによる予算作成と同じですが、Workfront がリソースプランナーのコストを計算する方法を理解する必要があります。
 >
->リソース・プランナでのコストの計算方法の詳細は、「 [リソースプランナーでコストを計算する](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+>リソースプランナーでのコストの計算方法について詳しくは、[リソースプランナーでのコストの計算](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)の記事を参照してください。
 
-次の表に、「プロジェクト」ビューまたは「ロール」ビューを適用する際に「リソース・プランナ」に表示される割付情報と可用性情報を示します。 この情報は、時間、工数またはコストで表示できます。
+次の表に、プロジェクトビューまたはロールビューを適用する際にリソースプランナーに表示される割り当てと空き時間の情報を示します。この情報は、時間別、FTE 別、またはコスト別に表示できます。
 
-* [AVL (Available) 列](#the-avl-available-column)
-* [「PLN （計画済み）」列](#the-pln-planned-column)
-* [BDG （予算）列](#the-bdg-budgeted-column)
-* [「VAR （平方偏差）」列](#the-var-variance-column)
+* [AVL（利用可能）列](#the-avl-available-column)
+* [PLN（予定）列](#the-pln-planned-column)
+* [BDG（予算計上）列](#the-bdg-budgeted-column)
+* [VAR（差異）列](#the-var-variance-column)
 * [NET 列](#the-net-column)
 
-### AVL (Available) 列 {#the-avl-available-column}
+### AVL（利用可能）列 {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>表示順</strong> </td> 
+   <td><strong>表示対象</strong> </td> 
    <td><strong>説明</strong> </td> 
   </tr> 
   <tr> 
    <td>プロジェクト </td> 
-   <td> <p>選択した期間で、プロジェクトのすべてのユーザーがスケジュールに従って作業できる時間、工数、コストの合計。 </p> </td> 
+   <td> <p>選択した時間枠で、プロジェクトのすべてのユーザーがスケジュールに従って作業できる時間数、FTE またはコストの合計。 </p> </td> 
   </tr> 
   <tr> 
    <td>役割</td> 
-   <td> <p>この役割に関連付けられているすべてのユーザーが、スケジュールとそのユーザーのスケジュールに従って作業できる時間数、工数、またはコストの合計 <strong>FTE の可用性の割合</strong> 選択した時間枠に対する特定の役割の。 </p> <p>次の点に注意してください。 </p> 
+   <td> <p>選択した時間枠で、この役割に関連付けられているすべてのユーザーが、スケジュール、およびユーザーの特定の役割に対する <strong>FTE 使用可能時間の割合</strong>に従って作業できる時間数、FTE またはコストの合計。 </p> <p>次の点に注意してください。 </p> 
     <ul> 
-     <li>ジョブロールに関連付けられているユーザーがない場合、ジョブロールの「使用可能時間」の値は 0 になります。 </li> 
-     <li>ユーザーがプライマリジョブロールに関連付けられ、 <strong>FTE の可用性の割合</strong> 役割が 0%の場合、「Available Hours」の値は 0 です。</li> 
-     <li>ユーザーが他のロールと関連付けられている場合、 <strong>FTE の可用性の割合</strong> ロールが 0%の場合、「その他のロール」は「リソース・プランナ」にリストされず、ユーザーは「プライマリ・ロール」の下にのみ表示されます。</li> 
-    </ul> <p>詳しくは、 <strong>FTE の可用性の割合</strong> 役割については、この記事を参照してください。 <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>.</p> <p>リソース・プランナでのジョブ・ロールの可用性の計算方法の詳細は、この記事の「リソース・プランナでのジョブ・ロールの使用可能時間と工数の計算」の項を参照してください <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.</p> </td> 
+     <li>担当業務に関連付けられているユーザーがいない場合、担当業務の利用可能時間数の値は 0 になります。 </li> 
+     <li>ユーザーがプライマリ担当業務に関連付けられ、その役割の <strong>FTE 使用可能時間の割合</strong>が 0％の場合、利用可能時間数の値は 0 になります。</li> 
+     <li>ユーザーがその他の役割に関連付けられていて、その役割の <strong>FTE 使用可能時間の割合</strong>が 0％の場合、その他の役割はリソースプランナーにリストされず、ユーザーはプライマリ担当業務の下にのみ表示されます。</li> 
+    </ul> <p>担当業務の<strong>FTE 使用可能時間の割合</strong>について詳しくは、<a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>の記事を参照してください。</p> <p>リソースプランナーでの担当業務の利用可能時間の計算方法について詳しくは、<a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソースプランナーでのユーザーおよび役割の時間と FTE の計算の概要</a>の記事の「リソースプランナーでの担当業務の利用可能時間数と FTE の計算」の節を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>ユーザー</td> 
-   <td> <p>選択した期間に対して、ユーザーが作業できる時間、工数、コスト（スケジュールに従って）が表示されます。 この数値は、次に関連する時間を引きます。</p> 
+   <td> <p>選択した時間枠で、ユーザーのスケジュールに基づき、ユーザーが作業できる時間数、FTE またはコスト。この数値は、次に関連する時間数を差し引いたものです。</p> 
     <ul> 
      <li>スケジュールの例外</li> 
      <li>ユーザーの休暇</li> 
-     <li>他のプロジェクトで予算に計上された時間数。 </li> 
-    </ul> <p>ユーザーの利用可能な時間、工数またはコストは、次の項目に従って変更されます。 </p> 
+     <li>その他のプロジェクトに対する予算計上時間数 </li> 
+    </ul> <p>ユーザーの利用可能時間数、FTE またはコストは、次の内容に従って変更されます。 </p> 
     <ul> 
-     <li>システム・レベルでのリソース管理プリファレンスに基づいて、スケジュールと FTE を計算する方法。<br><p>ユーザーとジョブの役割の可用性の計算の詳細については、「 <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソース・プランナのユーザーとロールの時間と工数の計算の概要</a>.</p>
-     Workfrontでのリソース管理環境設定について詳しくは、 <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a></li> 
+     <li>システムレベルでのリソース管理環境設定に基づいた、スケジュールと FTE の計算方法。<br><p>ユーザーと担当業務の利用可能時間の計算について詳しくは、<a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">リソースプランナーでのユーザーおよび役割の時間と FTE の計算の概要</a>を参照してください。</p>
+     Workfront でのリソース管理環境設定について詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a>を参照してください。</li> 
     </ul> 
     <ul> 
-     <li>の <strong>プロジェクト計画の優先順位</strong>（ユーザーが予算で作業する場合）<br>プロジェクト計画優先度がユーザーの使用可能時間に与える影響の詳細は、 <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">リソースプランナーのナビゲーションの概要 </a>. </li> 
-    </ul> <p>ユーザーが非アクティブ化をスケジュールされている場合、非アクティブ化の日からの使用可能な時間、FTE またはコストはゼロになります。 <br>ユーザーの非アクティブ化について詳しくは、 <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーを非アクティブ化または再アクティブ化する</a>.</p> </td> 
+     <li><strong>プロジェクト計画の優先度</strong>（ユーザーの作業が予算に計上されている場合）<br>プロジェクト計画の優先度がユーザーの利用可能時間数に与える影響について詳しくは、<a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">リソースプランナーのナビゲーションの概要</a>を参照してください。 </li> 
+    </ul> <p>ユーザーの非アクティブ化がスケジューリングされている場合、非アクティブ化日以降の利用可能時間数、FTE またはコストはゼロになります。<br>ユーザーの非アクティブ化について詳しくは、<a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
 
-### 「PLN （計画済み）」列 {#the-pln-planned-column}
+### 「PLN（予定）」列 {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>表示順</strong> </td> 
+   <td><strong>表示対象</strong> </td> 
    <td><strong>説明</strong> </td> 
   </tr> 
   <tr> 
    <td>プロジェクト</td> 
-   <td> <p>プロジェクトの下にリストされたすべてのジョブロールまたはユーザーからの計画時間、工数、またはコストの合計 ( <strong>ロールなし</strong> または <strong>ユーザーなし</strong> セクション、選択した期間、およびプロジェクトの「プロジェクトの詳細」タブに表示されるもの。 </p> <p><b>メモ</b>
+   <td> <p>選択した時間枠で、プロジェクトのプロジェクト詳細タブに表示されるプロジェクトの下にリストされたすべての担当業務またはユーザーの予定時間数、FTE またはコストの合計（「<strong>役割なし</strong>」または「<strong>ユーザーなし</strong>」セクションも含む）。 </p> <p><b>メモ</b>
 
-日次ユーザー割当の手動調整により、生産資源プランナの週次、月次または四半期の計画時間の値が変更される場合があります。 ワークロード・バランサを使用して、タスクと問題に対する日次ユーザー割り当てを手動で調整できます。 詳しくは、 <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">ワークロードバランサーでのユーザー割り当ての管理</a>.</p> </td>
+日次のユーザー割り当てを手動で調整すると、リソースプランナーの週次、月次または四半期の予定時間数の値が変更される場合があります。ワークロードバランサーを使用して、タスクとイシューに対する日次のユーザー割り当てを手動で調整できます。詳しくは、<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">ワークロードバランサーでのユーザー割り当ての管理</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td>役割</td> 
-   <td> <p>選択した期間内の、ロールに割り当てられたすべてのタスクからの計画時間の合計。 </p> <p>この <strong>ロールなし</strong> 「 」セクションには、未割り当てのタスク ( 時間が <strong>ユーザーなし</strong> （セクション）、またはジョブロールに関連付けられていないユーザーに割り当てられます。 </p> </td> 
+   <td> <p>選択した時間枠内で、役割に割り当てられたすべてのタスクからの予定時間数の合計。 </p> <p>「<strong>役割なし</strong>」セクションには、未割り当てのタスク、チームに割り当てられているタスク（時間数は「<strong>ユーザーなし</strong>」セクションに一覧表示）、または担当業務に関連付けられていないユーザーに割り当てられたタスクのいずれかに関連付けられた予定時間数が表示されます。 </p> </td> 
   </tr> 
   <tr> 
    <td>ユーザー</td> 
-   <td> <p>特定の役割のユーザーに割り当てられたすべてのタスクの、選択した期間の計画時間。 </p> <p>この <strong>ユーザーなし</strong> 「 」セクションには、未割り当てまたはチームに割り当てられているタスクに関連する計画時間が表示されます。 </p> </td> 
+   <td> <p>特定の役割のユーザーに割り当てられたすべてのタスクの、選択した時間枠での予定時間数。 </p> <p>「<strong>ユーザーなし</strong>」セクションには、未割り当てまたはチームに割り当てられているタスクに関連する予定時間数が表示されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-計画時間を表示する際は、次の点を考慮してください。
+予定時間数を表示する際は、次の点を考慮してください。
 
-* [ プロジェクト ] ビューと [ ロール ] ビューの [ リソースプランナ ] にタスクの割り当てに関する情報は表示されませんが、[ 計画時間 ] の値は、プロジェクト内のタスクの [ 計画時間 ] から取得されます。
-* 予定時間は、タスクの期間内の各日に、タスクに割り当てられたリソースに対して均等に配分されます。 タスク期間は、タスクの「計画開始日」と「完了日」に基づき、その期間内の各カレンダー日が含まれます。\
-   Workfrontは、ユーザーまたはプロジェクトに予定時間を配分する際に、ユーザーまたはプロジェクトのスケジュールを考慮に入れます。 この場合、計画時間は、週末、休日、スケジュール例外を除くタスクの期間内に、各日に均等に配分されます。\
-   たとえば、リソース・プランナを週別に表示し、プロジェクトに複数週間のタスクがある場合、1 週間の予定時間数は、その週内の日数がタスク期間の一部であるかどうかによって異なります。 これは、「月別」または「四半期別」で「生産資源プランナ」を表示する場合と、タスクが複数の月または四半期にまたがる場合に同様に機能します。\
-   週末、スケジュールの例外、およびタイムオフ日は、この配分から除外されます。
-* 各リソースの予定時間の計算には、次のタスクのカテゴリが含まれます。
+* プロジェクトビューと役割ビューには、リソースプランナーでのタスクの割り当てに関する情報は表示されませんが、予定時間数の値は、プロジェクト内のタスクの予定時間数から取得されます。
+* 予定時間数は、タスクの期間内の各日に、タスクに割り当てられたリソースに対して均等に配分されます。タスク期間は、タスクの予定開始日と完了日に基づき、その期間内のすべてのカレンダー日が含まれます。\
+  Workfront では、ユーザーまたはプロジェクトに予定時間数を配分する際に、ユーザーまたはプロジェクトのスケジュールが考慮されます。この場合、予定時間数は、週末、休日、スケジュール例外を除くタスクの期間内の各日に均等に配分されます。\
+  例えば、リソースプランナーを週別に表示していて、プロジェクトに複数週にわたるタスクがある場合、1 週間あたりの予定時間数は、その週の何日がタスク期間に含まれているかによって異なります。この動作は、月別または四半期別でリソースプランナーを表示する場合や、タスクが複数の月または四半期にまたがる場合と同様です。\
+  週末、スケジュールの例外および休暇日は、この配分から除外されます。
+* 各リソースの予定時間数の計算には、次のタスクのカテゴリが含まれます。
 
-   * リソースプール、ジョブロール、またはプロジェクトのチームでユーザーに割り当てられたタスク\
-      タスクがチームに割り当てられると、その割り当てが以下に表示されます。 **ロールなし** および **ユーザーなし** セクション。 チームに関連付けられた「計画時間」は表示できますが、役割もユーザーもタスクに関連付けられていないので、時間を予算できません。
+   * リソースプール、担当業務、またはプロジェクトのチームでユーザーに割り当てられたタスク\
+     タスクがチームに割り当てられると、その割り当ては「**役割なし**」および「**ユーザーなし**」セクションに表示されます。チームに関連付けられた予定時間数は表示できますが、タスクに関連付けられた役割やユーザーがないので、時間数を予算計上することはできません。
 
    * 未割り当てタスク
 
-* 生産資源計画担当の計画時間には、次に関連する計画時間は含まれません。
+* リソースプランナーの予定時間数には、次に関連する予定時間数は含まれません。
 
    * 親タスク
    * リソースプールを持たないユーザーに割り当てられたタスク
-   * 問題、 **問題からの時間数を含める** の設定は無効です。
+   * イシュー（**イシューの時間数を含める**&#x200B;の設定が無効の場合）。
 
-* タスクの期間が 0 の場合、計画時間はリソース・プランナに表示されません。
-* 非アクティブなユーザーに関連付けられた計画時間は表示されません。
+* タスクの期間が 0 の場合、予定時間数はリソースプランナーに表示されません。
+* 非アクティブ化されたユーザーに関連付けられた予定時間数は表示されません。
 
-### BDG （予算）列 {#the-bdg-budgeted-column}
+### BDG（予算）列 {#the-bdg-budgeted-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>表示順</strong> </td> 
+   <td><strong>表示対象</strong> </td> 
    <td><strong>説明</strong> </td> 
   </tr> 
   <tr> 
    <td>プロジェクト</td> 
-   <td> <p>選択した期間に対してプロジェクトに予算した時間数、工数、コストを見積もる手動入力。 </p> <p>[ プロジェクト ] ビューでは、プロジェクトの予算時間が、プロジェクトの下に表示されるジョブの役割に配分されます。 各ロールの計画時間数によって、予算時間がロールにどのように配分されるかが決まります。 予算時間は、「計画時間」の値が高い役割に配分されます。 </p> <p>[ 役割 ] ビューでは、プロジェクトの予算時間は、プロジェクト上の役割やユーザーに配分されません。 </p> </td> 
+   <td> <p>選択した時間枠に対するプロジェクトの予算計上時間数、FTE、またはコストを見積もるための手動入力。 </p> <p>プロジェクトビューでは、プロジェクトに予算を計上した時間数が、プロジェクトの下に一覧表示される担当業務に配分されます。各役割の予定時間数によって、予算計上時間数が役割にどのように配分されるかが決まります。 予算計上時間数は、「予定時間数」の値が高い役割に配分されます。 </p> <p>役割ビューでは、プロジェクトの予算計上時間数は、プロジェクト上の役割やユーザーに配分されません。 </p> </td> 
   </tr> 
   <tr> 
    <td>役割</td> 
-   <td> <p>選択した期間に対して、ロールの予算時間数を見積もるための手動入力。 </p> <p>ジョブ・ロールに関連付けられているユーザーがない場合は、ジョブ・ロールの予算時間を見積もることはできません。 </p> <p>[ 役割 ] ビューでは、その役割に予算を割り当てた時間が、その役割の下に一覧表示されるプロジェクトに配分されます。 各プロジェクトの計画時間数によって、予算時間がプロジェクトにどのように配分されるかが決まります。 予算時間は、「計画時間」の値が大きいプロジェクトに配分されます。</p> <p>[ プロジェクト ] ビューでは、ロールの予算時間は、ロールに関連付けられたプロジェクトやユーザーに配分されません。 </p> </td> 
+   <td> <p>選択した時間枠に対する役割の予算計上時間数を見積もるための手動入力。 </p> <p>ユーザーが担当業務に関連付けられていない場合、その担当業務の予算計上時間を見積もることはできません。 </p> <p>役割ビューでは、その役割に予算計上した時間数が、その役割の下に一覧表示されるプロジェクトに配分されます。 各プロジェクトの予定時間数によって、予算計上時間数がプロジェクトにどのように配分されるかが決まります。予算計上時間数は、予定時間数の値が大きいプロジェクトに配分されます。</p> <p>プロジェクトビューでは、役割の予算計上時間数は、役割に関連付けられたプロジェクトやユーザーに配分されません。 </p> </td> 
   </tr> 
   <tr> 
    <td>ユーザー</td> 
-   <td> <p>選択した期間に対してユーザーが予算した時間数を見積もるための手動入力。 </p> <p> <p><b>注意</b>   タスクに割り当てられていないが、プロジェクト上の資源プールに関連付けられているユーザーの予算時間を見積もることができます。これは、これらのユーザーが資源プランナにも表示されるためです。 ただし、タスクに割り当てられていない場合は、「計画時間」はゼロにする必要があります。 </p> </p> </td> 
+   <td> <p>選択した時間枠に対するユーザーの予算計上時間数を見積もるための手動入力。 </p> <p> <p><b>メモ</b> タスクには割り当てられていないが、プロジェクトのリソースプールに関連付けられているユーザーの予算計上時間数を見積もることができます。これらのユーザーがリソースプランナーにも表示されるためです。ただし、タスクに割り当てられていない場合は、予定時間数はゼロにする必要があります。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-予算時間を使用する際は、次の点に注意してください。
+予算計上時間数を使用する際は、次の点を考慮してください。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -222,53 +223,53 @@ ht-degree: 0%
 </MadCap:conditionalText>
 -->
 
-* リソースを予算設定できるのは、プロジェクトに対するリソース管理および財務データの編集および財務の管理の権限を持っている場合のみです。
+* リソースを予算計上できるのは、プロジェクトに対するリソース管理、財務データの編集および財務管理の権限を持っている場合のみです。
 
-   予算リソースの割り当てに必要なアクセスの詳細については、この記事を参照してください [Adobe Workfrontの予算リソースに必要なアクセス](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  リソース予算計上に必要なアクセス権について詳しくは、[Adobe Workfront でのリソース予算計上に必要なアクセス権](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)の記事を参照してください。
 
-* デフォルトでは、すべてのリソースとすべてのプロジェクトに対して、リソース・プランナの予算時間は 0 です。
-* ユーザーとロールの予算時間を手動で見積もるか、プロジェクトロールまたはジョブロールのいずれかのリンクを使用できます **詳細** メニューを使用して、予定時間数に従って更新できます。\
-   プロジェクトと役割のオプションの詳細については、「 [リソースプランナーのプロジェクトビューとロールビューの時間、工数、コスト情報の概要](#Budget) 」を参照してください。
+* デフォルトでは、すべてのリソースとすべてのプロジェクトに対する、リソースプランナーの予算計上時間数は 0 です。
+* ユーザーと役割の予算計上時間数を手動で見積もることも、プロジェクトまたは担当業務の&#x200B;**その他**&#x200B;メニューのリンクの 1 つを使用して、予定時間数に応じて更新することもできます。\
+  プロジェクトと役割のオプションについて詳しくは、[リソースプランナーのプロジェクトビューと役割ビューの時間、FTE、コスト情報の概要](#Budget)を参照してください。
 
-* 時間、工数、コストを予算できる最小の期間は 1 週間です。 1 日の時間、工数、コストは予算できません。
-* 予算時間は、タスクに割り当てられた各リソースに対して、タスクの期間内の各日に均等に配分されます。 タスク期間は、タスクの「計画開始日」と「完了日」に基づき、その期間内の各カレンダー日が含まれます。\
-   Workfrontでは、予算時間をユーザーまたはプロジェクトに配分する際に、ユーザーまたはプロジェクトのスケジュールが考慮されます。 この場合、予算時間は、週末を除くタスク期間内の各日に均等に配分されますが、タイムオフやスケジュール例外も含まれます。\
-   たとえば、リソース・プランナを週別に表示し、複数週間にわたるタスクがある場合、1 週間あたりの予算時間数は、その週内の日数がタスク期間の一部であるかどうかによって異なります。 週末はこの配布から除外されます。 これは、「月別」または「四半期別」で「生産資源プランナ」を表示する場合と、タスクが複数の月または四半期にまたがる場合に同様に機能します。
+* 時間数、FTE、コストを予算計上できる最短の期間は 1 週間です。 1 日の時間、FTE、コストを予算計上することはできません。
+* 予算計上時間数は、タスクの期間内の各日に、タスクに割り当てられたリソースに対して均等に配分されます。タスク期間は、タスクの予定開始日と完了日に基づき、その期間内のすべてのカレンダー日が含まれます。\
+  Workfront では、ユーザーまたはプロジェクトに予算計上時間数を配分する際に、ユーザーまたはプロジェクトのスケジュールが考慮されます。この場合、予算計上時間数は、週末を除くタスク期間内の各日に均等に配分されますが、休日やスケジュールの例外も含まれます。\
+  例えば、リソースプランナーを週別に表示し、複数週にわたるタスクがある場合、1 週間あたりの予定時間数は、その週内のタスク期間に含まれる日数によって異なります。週末はこの配分から除外されます。 この動作は、月別または四半期別でリソースプランナーを表示する場合や、タスクが複数の月または四半期にまたがる場合と同様です。
 
-* 新しいレポートのレポート・オブジェクトとして「予算時間」を選択すると、予算時間に関するレポートを作成できます。\
-   Workfrontでレポートできるオブジェクトについて詳しくは、この記事の「オブジェクトのレポート」の節を参照してください [Adobe Workfrontのオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-   予算時間レポートの作成方法については、この記事を参照してください [レポート：予算時間](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+* 新規レポートのレポートオブジェクトとして予算計上時間数を選択すると、予算計上時間数についてレポートを作成できます。\
+  Workfront でレポートできるオブジェクトについて詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の「オブジェクトに関するレポート」の節を参照してください。\
+  予算計上時間数のレポートの作成方法については、[レポート：予算計上時間数](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)の記事を参照してください。
 
-* 後で非アクティブ化したユーザーに対して予算された時間は表示されません。
+* 後で非アクティブ化したユーザーに対して、以前に予算計上された時間は表示されません。
 
-### 「VAR （平方偏差）」列 {#the-var-variance-column}
+### VAR（平方偏差）列 {#the-var-variance-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>表示順</strong> </td> 
+   <td><strong>表示対象</strong> </td> 
    <td><strong>説明</strong> </td> 
   </tr> 
   <tr> 
    <td>プロジェクト</td> 
-   <td> <p>「時間」、「工数」または「原価差異」は、プロジェクトの全計画時間を完了するのに十分な予算時間があるかどうかを示します。 </p> <p>プロジェクト時間、工数または原価差異は、次の式を使用して計算されます。</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>時間、FTE、コスト差異は、プロジェクトの全予定時間数を完了するのに十分な予算計上時間数がプロジェクトにあるかどうかを示します。 </p> <p>プロジェクト時間、FTE、コスト差異は、次の式を使用して計算します。</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
    <td>役割</td> 
-   <td> <p>「時間」、「工数」または「原価差異」は、割り当てられた計画時間を完了するのに十分な予算時間、工数、原価のどれがロールにあるかを示します。 </p> <p>「役割時間」、「工数」または「原価差異」は、次の式を使用して計算されます。</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>時間、FTE、コスト差異は、役割に割り当てられた予定時間数を完了するのに十分な予算計上時間数、FTE、コストがあるかどうかを示します。 </p> <p>役割時間、FTE、コスト差異は、次の式を使用して計算します。</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
    <td>ユーザー</td> 
-   <td> <p>「時間」、「工数」または「原価差異」は、ユーザーが割り当てられた計画時間を達成するのに十分な予算時間があるかどうかを示します。 </p> <p>「ユーザー時間」、「工数」または「原価差異」は、次の式を使用して計算されます。</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
+   <td> <p>時間、FTE、コスト差異は、ユーザーが割り当てられた予定時間数を完了するのに十分な予算計上時間数があるかどうかを示します。 </p> <p>ユーザー時間、FTE、コスト差異は、次の式を使用して計算します。</p> <p><code>User Hours, FTE, or Cost Variance = User Budgeted Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->「時間」、「工数」または「原価差異」が赤で表示される場合は、完了する必要のある実際の作業の計画時間よりも予算時間の方が少なく見積もられています。 この場合、予算時間では作業を完了するのに十分でない場合があります。
+>時間、FTE、コスト差異が赤色で表示される場合は、完了する必要がある実際の作業の予定時間数よりも少ない予算計上時間数が見積もられています。 この場合、この予算計上時間数では作業を完了するのに十分ではない可能性があります。
 
 ### NET 列  {#the-net-column}
 
@@ -277,22 +278,22 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>表示順</strong> </td> 
+   <td><strong>表示対象</strong> </td> 
    <td><strong>説明</strong> </td> 
   </tr> 
   <tr> 
    <td>プロジェクト</td> 
    <td> 
     <div> 
-     <p>プロジェクトの「正味時間」、「工数」または「原価」には、次のいずれかが表示されます。 </p> 
+     <p>プロジェクトの純残存時間、FTE、コストには、次のいずれかが表示されます。 </p> 
      <ul> 
-      <li> <p>使用可能な時間またはコストと、プロジェクトの予算時間またはコストの差。</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p>NET 計算設定で計画済 (PLN) 値を使用できる場合の、使用可能な時間またはコストと、プロジェクトの計画済時間またはコストの違い： </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
+      <li> <p>使用可能な時間またはコストと、プロジェクトの予算計上時間またはコストの差異：</p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p>「使用可能な時間またはコスト」と、「純残存計算で予定（PLN）値を使用」設定が有効な場合の、プロジェクトの予定時間数またはコストの差異： </p> <p><code>Project Net Hours, FTE, or Cost = Project Available Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code>
       </p>
 
 <p><b>ヒント</b></p>        
-  <p>このオプションは、「選択した項目を表示」セクションでビューをカスタマイズした場合にのみ適用されます。</p>
-  <p>詳しくは、 <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a> </p> 
+  <p>このオプションは、選択した項目を表示セクションでビューをカスタマイズした場合にのみ適用されます。</p>
+  <p>詳しくは、<a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a>を参照してください。 </p> 
       </li> 
      </ul> 
     </div> </td> 
@@ -301,12 +302,12 @@ ht-degree: 0%
    <td>役割</td> 
    <td> 
     <div> 
-     <p>「正味時間」、「工数」または「原価」の役割には、次のいずれかが表示されます。 </p> 
+     <p>役割の正味時間、FTE、コストには、次のいずれかが表示されます。 </p> 
      <ul> 
-      <li> <p>使用可能な時間またはコストと、ロールの予算時間またはコストの差異：</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>「使用可能な時間または原価」と、「NET 計算で計画 (PLN) 値を使用」設定が有効な場合のロールの計画時間または原価の差異：</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>ヒント</b> <span>
+      <li> <p>使用可能な時間またはコストと、役割の予算時間またはコストの差異：</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p><span>「使用可能な時間またはコスト」と、「NET 計算で予定（PLN）値を使用」設定が有効な場合の役割の予定時間数またはコストの差異：</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>ヒント</b> <span>
 
-このオプションは、「選択した項目を表示」セクションでビューをカスタマイズした場合にのみ適用されます。</span> </p> <p><span>詳しくは、 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a> </p> </li>
+このオプションは、選択した項目を表示セクションでビューをカスタマイズした場合にのみ適用されます。</span> </p> <p><span>詳しくは、</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a>を参照してください。 </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -314,12 +315,12 @@ ht-degree: 0%
    <td>ユーザー</td> 
    <td> 
     <div> 
-     <p>ユーザーの正味時間、工数または原価には、次のいずれかが表示されます。 </p> 
+     <p>ユーザーの正味時間、FTE、コストの役割には、次のいずれかが表示されます。 </p> 
      <ul> 
-      <li> <p>「使用可能な時間またはコスト」と、ユーザーの予算時間またはコストの差。</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>NET 計算設定で計画済 (PLN) 値を使用可能にした場合の、使用可能な時間またはコストと、ユーザーの計画済時間またはコストの差異：</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>ヒント</b> <span>
+      <li> <p>使用可能な時間またはコストと、ユーザーの予算時間またはコストの差異：</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
+      <li> <p><span>「使用可能な時間またはコスト」と、「NET 計算で予定（PLN）値を使用」設定が有効な場合のユーザーの予定時間数またはコストの差異：</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>ヒント</b> <span>
 
-このオプションは、「選択した項目を表示」セクションでビューをカスタマイズした場合にのみ適用されます。</span> </p> <p><span>詳しくは、 </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a> </p> </li>
+このオプションは、選択した項目を表示セクションでビューをカスタマイズした場合にのみ適用されます。</span> </p> <p><span>詳しくは、</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー</a>を参照してください。 </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -328,7 +329,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**NET Hours、FTE、または Cost が赤で表示される場合、予算をカバーするのに十分な使用可能な時間または予算がありません** または作業に関連する計画時間またはコスト。 この場合、リソースは割り当て超過になります。
+>**正味時間、FTE、またはコストが赤で表示される場合、予算をカバーするのに十分な使用可能な時間または予算** または作業に関連する予定時間またはコストがありません。この場合、リソースは割り当て超過になります。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>
