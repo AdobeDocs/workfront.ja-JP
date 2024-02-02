@@ -2,25 +2,25 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: 投資利益率 (ROI) の計算
-description: 投資利益率 (ROI) はAdobe Workfrontの指標で、ポートフォリオ管理者は、プロジェクトの当初の計画されたメリットと予算に基づくコストに対するプロジェクトのパフォーマンスをすばやく確認できます。
+title: 投資回収率（ROI）の計算
+description: 投資回収率（ROI）は、ポートフォリオマネージャーがプロジェクトの元の予定利率と予算計上コストに対するプロジェクトのパフォーマンスをすばやく確認するための Adobe Workfront の指標です。
 author: Alina
 feature: Work Management
 exl-id: 1a3d16cb-8cb1-472e-8102-0ea8e0bc0edd
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 投資利益率 (ROI) の計算
+# 投資回収率（ROI）の計算
 
-投資利益率 (ROI) はAdobe Workfrontの指標で、ポートフォリオ管理者は、プロジェクトの当初の計画されたメリットと予算に基づくコストに対するプロジェクトのパフォーマンスをすばやく確認できます。
+投資回収率（ROI）は、ポートフォリオマネージャーがプロジェクトの元の予定利率と予算計上コストに対するプロジェクトのパフォーマンスをすばやく確認するための Adobe Workfront の指標です。
 
-## プロジェクトの概要投資利益率 (ROI)
+## プロジェクト投資回収率（ROI）の概要
 
-Workfrontは次の式を使用して ROI を計算します。
+Workfront は次の式を使用して ROI を計算します。
 
 ```
 Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budgeted Cost] x 100
@@ -28,30 +28,31 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 
 次のフィールドは、プロジェクトの ROI に影響します。
 
-* **プロジェクト計画特典**:これは、ビジネスケースの「プロジェクト情報」領域を完了する際に、プロジェクト所有者が指定する手動エントリです。 これは、プロジェクト所有者として、プロジェクトを完了した場合にプロジェクトのメリットが生じる可能性があると考える、ユーザーの推定値です。 これは特定の金額の通貨で、正の値にする必要があります。\
-   プロジェクトの計画的利益の詳細については、この記事の「プロジェクト情報」の節を参照してください [プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* **プロジェクト予定利益**：これは、ビジネスケースのプロジェクト情報エリアに入力する際にプロジェクト所有者が指定する手動エントリです。これは、プロジェクトを完了した場合にプロジェクトに生じる利益のプロジェクト所有者による推定値です。これは特定の金額の通貨で、正の値にする必要があります。\
+  プロジェクトの予定利益について詳しくは、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)の記事の「プロジェクト情報」の節を参照してください。
 
-* **プロジェクトの予算コスト**：プロジェクトを初めて起動したときの推定プロジェクトに関連する合計コストです。
+* **プロジェクトの予算計上コスト**：プロジェクトの立ち上げ当初に見積もった、プロジェクトに関連する合計コストです。
 
-   この **予算コスト** は **予算労務費** ビジネス・ケースの「生産資源予算編成」領域で計算される値で、「生産資源プランナ」の製造オーダー・ロールに予算された時間数と、各製造オーダー・ロールの「時間単価」レートが考慮されます。\
-   詳しくは、 [予算コストの計算](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  **予算計上コスト**&#x200B;は、ビジネスケースのリソース予算計上のエリアで計算された&#x200B;**予算計上労力コスト**&#x200B;の値を使用します。この値には、リソースプランナーで担当業務に予算計上された時間と、それぞれの担当業務の 1 時間あたりのコストが考慮されます。\
+  詳しくは、[予算計上コストの計算](../../../manage-work/projects/project-finances/budgeted-cost.md)を参照してください。
 
-## プロジェクトの投資収益率 (ROI) を見つける
+## プロジェクト投資回収率（ROI）の検索
 
-Workfrontの次の領域で、プロジェクトの ROI の値を確認できます。
+Workfront の次のエリアで、プロジェクトの ROI の値を表示できます。
 
-* Portfolioの最適化で、プロジェクトがポートフォリオに関連付けられているかどうか
+* ポートフォリオオプティマイザー（プロジェクトがポートフォリオに関連付けられている場合）
 
-   >[!NOTE]
-   >
-   >すべてのプロジェクトの ROI 値の合計は、ポートフォリオの ROI です。
+  >[!NOTE]
+  >
+  >すべてのプロジェクトの ROI 値の合計は、ポートフォリオの ROI です。
 
-   Optimizer の詳細については、「Portfolio・オプティマイザ」を参照してください。 [Portfolio最適化の概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  ポートフォリオオプティマイザーについて詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)の記事を参照してください。
 
-* 次のリストとレポートの「プロジェクトの ROI 」フィールド： 
+* 次のリストとレポートに「プロジェクト ROI」フィールドがあります。
 
    * プロジェクト
    * タスク
-   * 問題
+   * イシュー
    * プロジェクト（財務データ）
-   Workfrontでのレポート作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+  Workfront でのレポート作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。
