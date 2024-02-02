@@ -2,14 +2,14 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: リソースプールの概要
-description: リソースマネージャは、リソースプールにユーザーを追加することで、リソースを管理できます。
+description: リソースマネージャは、リソースプールにユーザーを追加することにより、リソースを管理することができます。
 author: Alina
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>
 -->
 
-リソースマネージャは、リソースプールにユーザーを追加することで、リソースを管理できます。
+リソースマネージャは、リソースプールにユーザーを追加することにより、リソースを管理することができます。
 
-効率的なリソース管理は、ユーザーを使用してリソースプールに入力し、それらをプロジェクトに接続しないと、実行できません。 これは、リソース計画機能を使用するための前提条件です。
+効率的なリソース管理は、リソースプールにユーザーを追加し、プロジェクトに添付することなしには実現できません。これは、リソース計画機能を使用するための前提条件です。
 
-資源計画の使用を開始する前に必要な前提条件の詳細は、「資源計画での作業の前提条件」の項を参照してください。 [リソースプランナーの概要](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+リソース計画の使用を開始する前に必要な前提条件について詳しくは、[リソースプランナーの概要](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)にある「リソースプランナーでの作業の前提条件」の節を参照してください。
 
-リソースプールの作成と管理の詳細については、次の記事を参照してください。
+リソースプールの作成と管理について詳しくは、以下の記事を参照してください。
 
-* [資源プールの作成](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [リソースプールの作成](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * [リソースプールとプロジェクトおよびテンプレートの関連付け](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
 * [リソースプールとユーザーの関連付け](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-* [リソースプールからユーザーを削除する](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [リソースプールからのユーザーの削除](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -66,30 +66,30 @@ If you still don't have access, ask your Workfront administrator if they set add
 </div>
 -->
 
-## 資源プールの概要
+## リソースプールの概要
 
-* リソースプールは、プロジェクトの完了に同時に必要なユーザーの集まりです。
-* リソースプールは、プログラムとポートフォリオ内のすべてのプロジェクトに関連付けられている場合、複数のプロジェクト、プログラム、またはポートフォリオ間で共有できます。
-* リソースプールを作成し、作成時に既存のユーザーに割り当てるか、リソースプールを作成して既存のユーザーに関連付けるか、ユーザーの作成時または編集時に新しいユーザーに関連付けることができます。
-* リソースプールにユーザーを入力した後、それらをプロジェクトとテンプレートに関連付け、プロジェクトへのユーザー割り当てをより効率的に管理できます。
-* 必要に応じて、プロジェクト、テンプレート、またはユーザーにリソースプールを関連付けることができます。
+* リソースプールとは、プロジェクトの完了に同時に必要なユーザーのコレクションです。
+* リソースプールは、プログラムとポートフォリオ内のすべてのプロジェクトに関連付けられている場合、複数のプロジェクト、プログラムやポートフォリオ間で共有することができます。
+* 「リソースプールを作成して、その作成時に既存のユーザーを追加する」か、「ユーザーの作成または編集時にリソースプールを作成して既存のユーザーや新しいユーザーに関連付ける」かのいずれかを実行することができます。
+* リソースプールにユーザーを追加した後、リソースプールをプロジェクトとテンプレートに関連付け、プロジェクトへのユーザー割り当てをより効率的に管理することができます。
+* 必要な数のリソースプールをプロジェクト、テンプレートやユーザーに関連付けることができます。
 
-## ユーザーをリソースプールに関連付けるための条件
+## ユーザーをリソースプールに関連付けるための基準
 
-リソースプールを構築する方法はいくつかあります。
+リソースプールは複数の方法で構築することができます。
 
-次の方法をお勧めします。
+以下のアプローチをお勧めします。
 
 * 同じリソースプール内のすべてのユーザーを同じチームに所属させることができます。
 
-   たとえば、マーケティングチームのすべてのユーザーをプロジェクトで使用できるようにする場合は、そのチームのすべてのユーザーを追加するマーケティングリソースプールが必要です。 その後、そのチームのメンバーが割り当てられているプロジェクトにマーケティングリソースプールを関連付けることができます。
+  例えば、マーケティングチームのすべてのユーザーをプロジェクトに参加できるようにする場合は、そのチームのすべてのユーザーを追加するマーケティングリソースプールが必要になります。そうすれば、マーケティングリソースプールを、そのチームのメンバーが割り当てられているプロジェクトに関連付けることができます。
 
-* 特に、ロールが需要が高く、個別に予算を作成する必要がある場合は、同じリソースプール内のすべてのユーザーが同様のロールを満たすことができます。
+* 特に役割の需要が高く、個別に予算計上する必要がある場合には、同じリソースプール内のすべてのユーザーに同様の役割を実行させることができます。
 
-   例えば、コンサルタントとして機能する外部リソースが、プロジェクトに対して時々利用できるようにしたい場合があります。 コンサルタントのリソースプールを作成して、プロジェクトに接続し、内部または外部のコンサルタントの両方のユーザーを配置できます。
+  例えば、コンサルタントとして働く外部リソースがプロジェクトに随時対応できるようにしたい場合があります。プロジェクトに添付できるコンサルタント用のリソースプールを作成し、これに内部コンサルタントや外部コンサルタントの両方のユーザーを配置することができます。
 
-* 部門別またはコスト・センター別に資源プールを作成することもできます。
-* 多数のユーザーが存在する場合や、一度に多数のプロジェクトのリソースを管理する場合は、システム内のすべてのユーザーを 1 つのリソースプールに追加することはお勧めしません。
+* 部門別またはコストセンター別にリソースプールを作成することもできます。
+* 多数のユーザーがいる場合、または一度に多数のプロジェクトのリソースを管理する場合には、システム内のすべてのユーザーを 1 つのリソースプールに追加することはお勧めしません。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
