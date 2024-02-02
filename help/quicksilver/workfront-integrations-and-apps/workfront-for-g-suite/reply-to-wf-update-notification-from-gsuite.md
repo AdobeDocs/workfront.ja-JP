@@ -1,26 +1,26 @@
 ---
 product-area: workfront-integrations
-keywords: google,doc,document,sheet,slide
+keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
-title: 返信先： [!DNL Adobe Workfront] G Suite からの通知を更新
-description: の更新に関する通知を受け取ったとき [!DNL Adobe] [!DNL Workfront]G Suite に関するWorkfrontからの返信をすばやく投稿できます。
+title: G Suite からの  [!DNL Adobe Workfront]  アップデート通知に返信
+description: ' [!DNL Adobe] [!DNL Workfront] でアップデートに関する通知を受け取ったら、Workfront for G Suite からすぐに返信を投稿できます。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
 source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# 返信先： [!DNL Adobe Workfront] 通知を更新 [!DNL G Suite]
+# [!DNL G Suite] からの [!DNL Adobe Workfront] アップデート通知に返信
 
 >[!NOTE]
 >
->Google用Adobe Workfrontプラグインの最新バージョンは、2023 年 6 月 26 日にリリースされました。
+>Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
 
-の更新に関する通知を受け取ったとき [!DNL Adobe Workfront]を使用すると、 [!DNL Workfront for G Suite].
+[!DNL Adobe Workfront] でアップデートに関する通知を受け取ったら、[!DNL Workfront for G Suite] からすぐに返信を投稿できます。
 
 ## アクセス要件
 
@@ -31,7 +31,7 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -41,22 +41,22 @@ ht-degree: 2%
   </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-事前に [!DNL Workfront] タスク [!DNL G Suite]を
+[!DNL G Suite] で [!DNL Workfront] タスクを作成する前に、以下の動作を実行する必要があります。
 
-* インストール [!DNL Workfront for G suite]\
-   手順については、 [インストール [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* [!DNL Workfront for G suite] をインストール\
+   手順については、[インストール [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)を参照してください。
 
-## からの更新通知に返信 [!DNL G Suite]
+## [!DNL G Suite] からのアップデート通知に返信
 
-1. この [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、 [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) 内 [!DNL G Suite] ページの右端にあるアドオンサイドバー。
-1. を開きます。 [!DNL Workfront] 更新を含む電子メール通知。
-1. の下部付近 [!UICONTROL Workfront for G Suite] パネル、クリック **[!UICONTROL コメントを投稿]**&#x200B;返信を入力します。
-1. （オプション）返信を特定のユーザーに通知するには、 **[!DNL Notify people and teams]**&#x200B;名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
+1. [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、ページの右端にある [!DNL G Suite] アドオンサイドバーで [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. アップデートを含む [!DNL Workfront] メール通知を開きます。
+1. [!UICONTROL Workfront for G Suite] パネルの下部近くにある「**[!UICONTROL コメントを投稿]**」をクリックし、返信を入力します。
+1. （オプション）返信を特定のユーザーに通知するには、「**[!DNL Notify people and teams]**」をクリックして、名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
    他の名前を追加する場合は、この手順を繰り返します。
 
-1. クリック **[!DNL Post]**.
+1. 「**[!DNL Post]**」をクリックします。
