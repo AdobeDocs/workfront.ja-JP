@@ -1,153 +1,156 @@
 ---
 product-area: workfront-integrations;setup;user-management
 navigation-topic: workfront-for-salesforce
-title: の設定 [!DNL Adobe Workfront] セクション [!DNL Salesforce] ユーザー
-description: インストール後 [!DNL Adobe Workfront] （Salesforce as a 用） [!DNL Workfront] 管理者は、Salesforce の商談とアカウントページレイアウトに新しいセクションで追加することで、ユーザーが使用できるようにすることができます。
+title: ' [!DNL Salesforce]  ユーザー用  [!DNL Adobe Workfront]  セクションの設定'
+description: ' [!DNL Workfront]  管理者は、 [!DNL Adobe Workfront]  for Salesforce をインストールした後に、Salesforce の新しいセクションで商談ページレイアウトとアカウントページレイアウトに追加することにより、ユーザーがそれを使用できるようになります。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
 source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# の設定 [!DNL Adobe Workfront] セクション [!DNL Salesforce] ユーザー
+# [!DNL Salesforce] ユーザー用 [!DNL Adobe Workfront] セクションの設定
 
-A [!UICONTROL Pro] [!DNL Workfront] この機能を使用するにはプランが必要です。 利用可能な様々なプランについて詳しくは、 [[!DNL Workfront] プラン。](https://www.workfront.com/plans)
+この機能を使用するには、[!UICONTROL Pro] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://www.workfront.com/plans)を参照してください。
 
-インストール後 [!DNL Adobe Workfront] 対象 [!DNL Salesforce] as a [!DNL Workfront] 管理者は、新しいセクションでユーザーの [!UICONTROL 商談] および [!UICONTROL アカウント]
-ページレイアウト [!UICONTROL Salesforce].
+[!DNL Workfront] 管理者は、[!DNL Adobe Workfront] for [!DNL Salesforce] をインストールした後に、[!UICONTROL Salesforce] の新しいセクションで[!UICONTROL 商談]ページレイアウトおよび[!UICONTROL アカウント]
+ページレイアウトに追加することにより、ユーザーがそれを使用できるようになります。
 
-インストールに関する情報 [!DNL Workfront for Salesforce]を参照してください。 [インストール [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+[!DNL Workfront for Salesforce] のインストールについて詳しくは、[ [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
 
-ユーザーが [!DNL Workfront] 両方で利用可能 [!DNL Classic] および [!DNL Lightning Experience] フレームワークの場合は、 [!DNL WorkfrontOpportunities] そして [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] ページから [!UICONTROL 商談] および [!UICONTROL アカウント] ページレイアウトに含めることができます。
+ユーザーが [!DNL Classic] フレームワークと [!DNL Lightning Experience] フレームワークの両方で [!DNL Workfront] を使用できるようにするために、[!DNL WorkfrontOpportunities] と [!DNL WorkfrontAccounts] [!UICONTROL Visualforce] ページを[!UICONTROL 商談]ページレイアウトおよび[!UICONTROL アカウント]ページレイアウトにそれぞれ追加する必要があります。
 
 ## アクセス要件
 
-この記事で説明する機能を使用するには、次のアクセス権が必要です。
+この記事で説明されている機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]</p> </td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-* 次をお持ちの場合は、 [!DNL Salesforce] システム管理者アカウントにアクセスできるインスタンス。
-* 次をお持ちの場合は、 [!DNL Workfront] システム管理者アカウントにアクセスできるインスタンス。
+* システム管理者アカウントにアクセスできる [!DNL Salesforce] インスタンスが必要です。
+* システム管理者アカウントにアクセスできる [!DNL Workfront] インスタンスが必要です。
 
-## の設定 [!DNL Workfront] セクション [!DNL Salesforce Classic] 枠組み
+## [!DNL Salesforce Classic] フレームワークで [!DNL Workfront] セクションを設定
 
-1. にログインします。 [!DNL Salesforce] Workfront管理者。
-1. クリック **[!UICONTROL 設定].**
-1. 内 **[!UICONTROL ビルド]** セクション、展開 **[!UICONTROL カスタマイズ].**
+1. Workfront 管理者として [!DNL Salesforce] にログインします。
+1. 「**[!UICONTROL 設定]」**&#x200B;をクリックします。
+1. 「**[!UICONTROL ビルド]**」セクションで、**[!UICONTROL カスタマイズ]**&#x200B;を展開します。
 
-1. 展開 **[!UICONTROL 商談]**&#x200B;を選択し、「 **[!UICONTROL ページレイアウト]** を追加します。 [!DNL Workfront] セクションから商談に移行します。
-
-   または
-
-   展開 **[!UICONTROL アカウント]**&#x200B;を選択し、「 **[!UICONTROL ページレイアウト]** を追加します。 [!DNL Workfront] セクションをアカウントに追加します。
-
-1. クリック **[!UICONTROL 編集]** 既存のレイアウト上。
+1. **[!UICONTROL 商談]**&#x200B;を展開し、次に「**[!UICONTROL ページレイアウト]**」をクリックして、[!DNL Workfront] セクションを商談に追加します。
 
    または
 
-   クリック **[!UICONTROL 新規]** をクリックして、新しいレイアウトを追加します。
+   **[!UICONTROL アカウント]**&#x200B;を展開し、次に「**[!UICONTROL ページレイアウト]**」をクリックして、[!DNL Workfront] セクションをアカウントに追加します。
 
-1. （オプション） **[!UICONTROL セクション]** コンポーネントをレイアウトに追加し、目的の位置にドロップします。\
+
+1. 既存のレイアウト上の「**[!UICONTROL 編集]**」をクリックします。
+
+   または
+
+   「**[!UICONTROL 新規]**」をクリックして、新しいレイアウトを追加します。
+
+1. （オプション）**[!UICONTROL セクション]**&#x200B;コンポーネントをレイアウトにドラッグし、希望の位置にドロップします。
 
 1. （オプション）新しいセクションの名前を指定します。
 
-   このセクションに名前を付けることをお勧めします **[!DNL Workfront]**.
+   このセクションに「**[!DNL Workfront]**」と名前を付けることをお勧めします。
 
-1. （オプション）目的の **[!UICONTROL レイアウト]** および **[!UICONTROL タブキーの順序]** を参照してください。
+1. （オプション）新しいセクションの目的の&#x200B;**[!UICONTROL レイアウト]**&#x200B;および&#x200B;**[!UICONTROL タブキーの順序]**&#x200B;を指定します。
 
-   次を選択することをお勧めします。 **[!UICONTROL 1 列]** レイアウト [!DNL Workfront] 」セクションに入力します。
+   **[!UICONTROL [!DNL Workfront] セクションの 1 列]**&#x200B;レイアウトを選択することをお勧めします。
 
-1. クリック **[!UICONTROL OK]**.
-1. 内 **[!UICONTROL レイアウト]** 領域、クリック **[!UICONTROL Visualforce ページ].**
+1. 「**[!UICONTROL OK]**」をクリックします。
+1. **[!UICONTROL レイアウト]**&#x200B;領域で、**[!UICONTROL Visualforce ページ]**&#x200B;をクリックします。
 
-1. 次をドラッグ&amp;ドロップ： **[!UICONTROL WorkfrontOpportunity]** コンポーネントを **[!UICONTROL 商談]** レイアウト。
-
-   または
-
-   次をドラッグ&amp;ドロップ： **[!UICONTROL WorkfrontAccounts]** コンポーネントを  **[!UICONTROL アカウント]** レイアウト。\
-
-1. 次をクリック： **[!UICONTROL プロパティ]** 新しく追加されたコンポーネントの右上にあるアイコン。\
-
-1. 最適な表示を実現するには、 [!DNL Workfront Visualforce] ページ：
-
-   * **[!UICONTROL 幅（ピクセルまたは%）]**:100%
-   * **[!UICONTROL 高さ（ピクセル単位）]**:600
-   * 選択 **[!UICONTROL スクロールバーを表示]**.
-
-1. クリック **[!UICONTROL OK]**.
-1. クリック **[!UICONTROL 保存]** をクリックして、レイアウトを保存します。
-
-   このレイアウトを割り当てたすべてのユーザーが、 [!DNL Workfront] セクション [!UICONTROL 商談] または [!UICONTROL アカウント] オブジェクト。
-
-   ユーザーには [!DNL Workfront] ログイン画面 ( [!DNL Workfront] 」セクションに入力します。 この [!DNL Workfront] アカウントを使用すると、セクションを折りたたむことはできますが、レイアウトからは削除できません。
-
-## の設定 [!DNL Workfront] セクション [!DNL Salesforce Lightning Experience] 枠組み
-
-次の項目を追加できます。 [!DNL Workfront] セクションから [!DNL Salesforce] [!UICONTROL 商談] または [!DNL Salesforce Lightning Experience] フレームワークは、 [!UICONTROL 設定] 領域、またはアカウントまたは [!UICONTROL 商談] オブジェクト。
-
-* [の設定 [!DNL Workfront] セクション [!UICONTROL 設定] レベル](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
-* [の設定 [!DNL Workfront] 商談またはアカウントレベルのセクション](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
-
-### の設定 [!DNL Workfront] セクション [!UICONTROL 設定] レベル {#configure-the-workfront-section-at-the-setup-level}
-
-1. ログイン [!DNL Salesforce] をシステム管理者として設定します。
-1. 次をクリック： **[!UICONTROL 設定]** アイコンをクリックし、 **[!UICONTROL 設定]**.
-
-1. 展開 **[!UICONTROL オブジェクトとフィールド]**&#x200B;を選択し、「 **[!UICONTROL オブジェクトマネージャ]**.
-
-1. クリック **[!UICONTROL 商談]** をクリックして、商談のレイアウトをカスタマイズします。
+1. **[!UICONTROL WorkfrontOpportunities]** コンポーネントを&#x200B;**[!UICONTROL 商談]**&#x200B;レイアウトの新しいセクションにドラッグ＆ドロップします。
 
    または
 
-   クリック **[!UICONTROL アカウント]** をクリックして、アカウントのレイアウトをカスタマイズします。
+   **[!UICONTROL WorkfrontAccounts]** コンポーネントを&#x200B;**[!UICONTROL アカウント]**&#x200B;レイアウトの新しいセクションにドラッグ＆ドロップします。
 
-1. クリック **[!UICONTROL ページレイアウト]**.
+1. 新しく追加されたコンポーネントの右上にある「**[!UICONTROL プロパティ]**」アイコンをクリックします。
+
+1. 最適な表示を実現するには、[!DNL Workfront Visualforce] ページに次のプロパティを指定します。
+
+   * **[!UICONTROL 幅（ピクセル単位または％）]**：100％
+   * **[!UICONTROL 高さ（ピクセル単位）]**：600
+   * 「**[!UICONTROL スクロールバーを表示]**」を選択します。
+
+1. 「**[!UICONTROL OK]**」をクリックします。
+1. 「**[!UICONTROL 保存]**」をクリックしてレイアウトを保存します。
+
+   このレイアウトを割り当てたすべてのユーザーが、[!UICONTROL 商談]オブジェクトまたは[!UICONTROL アカウント]オブジェクトで [!DNL Workfront] セクションを参照できるようになりました。
+
+   ユーザーには、[!DNL Workfront] セクションで [!DNL Workfront] ログイン画面が表示されます。[!DNL Workfront] アカウントを持っていない場合は、セクションを折りたたむことはできますが、レイアウトから削除できません。
+
+## [!DNL Salesforce Lightning Experience] フレームワークで [!DNL Workfront] セクションを設定
+
+[!UICONTROL 設定]領域にアクセスするか、アカウントまたは[!UICONTROL 商談]オブジェクトからアクセスすることで、
+[!DNL Salesforce Lightning Experience] フレームワークの [!DNL Salesforce] の[!UICONTROL 商談]またはアカウントのレイアウトに [!DNL Workfront] セクションを追加できます。
+
+* [[!UICONTROL 設定]レベルで  [!DNL Workfront]  セクションを設定](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
+* [商談またはアカウントレベルで  [!DNL Workfront]  セクションを設定](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
+
+### [!UICONTROL 設定]レベルで [!DNL Workfront] セクションを設定 {#configure-the-workfront-section-at-the-setup-level}
+
+1. システム管理者として [!DNL Salesforce] にログインします。
+1. **[!UICONTROL 設定]**&#x200B;アイコン、「**[!UICONTROL 設定]**」の順にクリックします。
+
+1. **[!UICONTROL オブジェクトとフィールド]**&#x200B;を展開し、「**[!UICONTROL オブジェクトマネージャー]**」をクリックします。
+
+1. 「**[!UICONTROL 機会]**」をクリックして、機会のレイアウトをカスタマイズします。
+
+   または
+
+   「**[!UICONTROL アカウント]**」をクリックして、アカウントのレイアウトをカスタマイズします。
+
+1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 1. 既存のページレイアウトの名前をクリックして編集します。
 
    または
 
-   クリック **[!UICONTROL 新規]** をクリックして、新しいページレイアウトを作成します。
+   「**[!UICONTROL 新規]**」をクリックして、新しいページレイアウトを作成します。
 
-1. 続行 [の設定 [!DNL Workfront] 商談またはアカウントレベルのセクション](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) 下
+1. 以下の[機会レベルまたはアカウント レベルでの  [!DNL Workfront]  セクションの設定](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)に進みます。
 
-### の設定 [!DNL Workfront] 商談またはアカウントレベルのセクション {#configure-the-workfront-section-at-the-opportunity-or-account-level}
+### 機会またはアカウントレベルでの [!DNL Workfront] セクションの設定 {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 
-1. にログインします。 [!DNL Salesforce] をシステム管理者として設定します。
-1. 次に移動： **[!UICONTROL 商談]** または **[!UICONTROL アカウント]**.
+1. システム管理者として [!DNL Salesforce] にログインします。
+1. 「**[!UICONTROL 機会]**」または「**[!UICONTROL アカウント]**」に移動します。
 
-1. 次をクリック： **[!UICONTROL 設定]** アイコンをクリックし、 **[!UICONTROL ページを編集]**.\
+1. **[!UICONTROL 設定]**&#x200B;アイコンをクリックし、「**[!UICONTROL ページを編集]**」をクリックします。
 
-1. を展開します。 **[!UICONTROL カスタム管理]** 」セクションに入力します。
-1. 次をドラッグ&amp;ドロップ： **[!DNL Workfront]** コンポーネント [!UICONTROL 商談] またはアカウントページ。
+1. 「**[!UICONTROL カスタム管理]**」セクションを展開します。
+1. 「[!UICONTROL 機会]」または「アカウント」ページに
+**[!DNL Workfront]** コンポーネントをドラッグ ＆ドロップします。
 
-   ページの幅全体を [!DNL Workfront] 」セクションを使用します。
+   [!DNL Workfront] セクションには、レイアウトの 1 つの列ではなく、ページの全幅を使用することをお勧めします。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   このレイアウトを割り当てたすべてのユーザーが、 [!DNL Workfront] セクション [!UICONTROL 商談] または [!UICONTROL アカウント] オブジェクト。
+   このレイアウトが割り当てられているすべてのユーザーが、「[!UICONTROL 機会]」または「[!UICONTROL アカウント]」のオブジェクトで「[!DNL Workfront]」セクションを表示できるようになりました。
 
    >[!NOTE]
    >
-   >ユーザーには [!DNL Workfront] ログイン画面 ( [!DNL Workfront] 」セクションに入力します。 この [!DNL Workfront] アカウントを使用すると、セクションを折りたたむことはできますが、レイアウトからは削除できません。 ユーザーは、有効にした認証方法を使用してログインできます。認証またはセキュリティアサーションマークアップ言語 (SAML)URL の拡張。
+   >ユーザーには、「[!DNL Workfront]」セクションに [!DNL Workfront] ログイン画面が表示されます。[!DNL Workfront] アカウントを持っていない場合、セクションを折りたたむことはできますが、レイアウトから削除することはできません。ユーザーは、有効にした認証方法（強化認証または Security Assertion Markup Language（SAML）URL）を使用してログインできます。
 
