@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: OptimizerPortfolioの検索
-description: 次の [!UICONTROL Portfolio最適化] ポートフォリオにアクセスするとき。
+title: ポートフォリオオプティマイザーを探す
+description: '[!UICONTROL ポートフォリオオプティマイザー]は、ポートフォリオにアクセスすると、見つかります。'
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
 source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# を [!UICONTROL Portfolio最適化]
+# [!UICONTROL ポートフォリオオプティマイザー]を探す
 
-次の [!UICONTROL Portfolio最適化] ポートフォリオにアクセスするとき。
+[!UICONTROL ポートフォリオオプティマイザー]は、ポートフォリオにアクセスすると、見つかります。
 
 ## アクセス要件
 
@@ -26,38 +26,38 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Business] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ] </p> </td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROLPortfolioおよびプロジェクトへの編集 ] アクセス</p> <p><b>メモ</b>
+   <td> <p>ポートフォリオとプロジェクトへの[!UICONTROL Edit]アクセス権</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオに対する [!UICONTROL 管理 ] 権限</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## を [!UICONTROL Portfolio最適化]
+## [!UICONTROL ポートフォリオオプティマイザー]を探す
 
-1. 次の **[!UICONTROL メインメニュー]**&#x200B;をクリックし、 **[!UICONTROL Portfolio]**.
+1. **[!UICONTROL メインメニュー]**&#x200B;から、「**[!UICONTROL ポートフォリオ]**」をクリックします。
 
    デフォルトでは、自分が所有するポートフォリオが表示されます。
 
-1. （オプション） **[!UICONTROL フィルター]** 別のポートフォリオのセットを表示するには、ドロップダウンメニューの「 」を選択します。
+1. （オプション）**[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューから、別のポートフォリオセットを選択して表示します。
 1. ポートフォリオの名前をクリックしてアクセスします。
-1. クリック **[!UICONTROL Portfolioの最適化]** をクリックします。
+1. 左側のパネルで「**[!UICONTROL ポートフォリオ最適化]**」をクリックします。
 
-   この [!UICONTROL Portfolio最適化] が表示されます。
+   [!UICONTROL ポートフォリオオプティマイザー]が表示されます。
 
    ![](assets/nwe-portfolio-optimizer-350x83.png)
