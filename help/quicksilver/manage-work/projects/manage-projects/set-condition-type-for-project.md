@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: プロジェクトの条件タイプの設定
-description: プロジェクトマネージャーは、プロジェクトの条件の種類を更新して、プロジェクトの条件の計算方法を決定できます。 プロジェクトの条件は、プロジェクトの進行状況を視覚的に表したものです。
+title: プロジェクトの状況タイプを設定
+description: プロジェクトマネージャーは、プロジェクトの状況タイプを更新して、プロジェクトの状況の計算方法を決定できます。プロジェクト状況は、プロジェクトの進行状況を視覚的に表したものです。
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# プロジェクトの条件タイプの設定
+# プロジェクトの状況タイプを設定
 
-プロジェクトマネージャーは、プロジェクトの条件の種類を更新して、プロジェクトの条件の計算方法を決定できます。 プロジェクトの条件は、プロジェクトの進行状況を視覚的に表したものです。
+プロジェクトマネージャーは、プロジェクトの状況タイプを更新して、プロジェクトの状況の計算方法を決定できます。プロジェクト状況は、プロジェクトの進行状況を視覚的に表したものです。
 
 ## アクセス要件
 
@@ -26,50 +26,50 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 プロジェクトへのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>. Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>. </p> </td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。プロジェクトへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセスの許可</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> 
     <ul> 
-     <li> <p>プロジェクトに権限を付与して、「プロジェクトの詳細」領域で条件タイプを編集します </p> </li> 
-     <li> <p>プロジェクトに対する権限を管理して、「プロジェクトを編集」ボックスで条件の種類を編集します</p> </li> 
-    </ul> <p> プロジェクト権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfrontでプロジェクトを共有する</a>.</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+     <li> <p>プロジェクトに参加権限でプロジェクト詳細エリアで状況タイプを編集 </p> </li> 
+     <li> <p>プロジェクトに対する権限を管理して、「プロジェクトを編集」ボックスで状況タイプを編集します</p> </li> 
+    </ul> <p> プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## プロジェクトの条件タイプの設定
+## プロジェクトの状況タイプの設定
 
-1. 条件タイプを更新するプロジェクトに移動します。
-1. 次のいずれかの操作を行います。 
+1. 状況タイプを更新するプロジェクトに移動します。
+1. 次のいずれかの操作を実行します。
 
-   * 次をクリック： **詳細** メニュー ![](assets/qs-more-menu.png) プロジェクト名の右に移動し、 **編集**.
-   * クリック **プロジェクトの詳細** をクリックします。
+   * プロジェクト名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/qs-more-menu.png)、「**編集**」の順にクリックします。
+   * 左側のパネルにある「**プロジェクト詳細**」をクリックします。
 
    ![](assets/update-condition-type-nwe-350x108.png)
 
-1. 内 **条件タイプ** 「 」フィールドで、次のいずれかを選択します。
+1. 「**状況タイプ**」フィールドで、次のいずれかを選択します。
 
-   * **手動：** プロジェクトの所有者が、手動でプロジェクトに条件を設定します。
+   * **手動：** プロジェクト所有者が、プロジェクトに対して手動で状況を設定します。
 
-      この場合、プロジェクト所有者は、プロジェクトヘッダーまたは「プロジェクトの詳細」セクションで、プロジェクトの条件を更新できます。
+     この場合、プロジェクト所有者は、プロジェクトヘッダーまたは「プロジェクト詳細」セクションで、プロジェクトの状況を更新できます。
 
-   * **進捗状況ステータス：** Workfrontは、プロジェクトの進捗状況ステータスに基づいて条件を設定します。 進捗状況ステータスの計算方法について詳しくは、 [プロジェクトの進行状況ステータスの概要](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * **進捗ステータス：** Workfront は、プロジェクトの進捗ステータスに基づいて状況を設定します。進捗ステータスの計算方法について詳しくは、[プロジェクトの進捗ステータスの概要](../../../manage-work/projects/planning-a-project/project-progress-status.md)を参照してください。
 
-1. クリック **保存** を変更する際に、「プロジェクトを編集」ボックスの「条件タイプ」を変更します。
+1. 「プロジェクトを編集」ボックスの状況タイプを変更する場合は「**保存**」をクリックします。
 
-   クリック **変更を保存** 「プロジェクトの詳細」セクションで「条件タイプ」を変更する場合。
+   「プロジェクト詳細」セクションで状況タイプを変更する場合は「**変更を保存**」をクリックします。
 
  
