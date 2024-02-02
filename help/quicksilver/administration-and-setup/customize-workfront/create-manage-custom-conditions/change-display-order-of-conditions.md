@@ -9,23 +9,23 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # 条件の表示順を変更する
 
-条件がプロジェクト、タスクおよび問題に表示される順序を変更できます。
+条件がプロジェクト、タスク、およびイシューに表示される順序を変更できます。
 
-* ユーザーがプロジェクトを編集しているとき
+* ユーザーがプロジェクトを編集する場合：
 
-   ![](assets/change-condition-edit-project.png)
+  ![](assets/change-condition-edit-project.png)
 
-* ユーザーがタスクまたはイシューの条件を変更しているとき
+* ユーザーがタスクまたはイシューの条件を変更する場合
 
-   ![](assets/change-conditions-list-dropdown-only.png)
+  ![](assets/change-conditions-list-dropdown-only.png)
 
 ## アクセス要件
 
@@ -36,30 +36,30 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 条件の表示順を変更する
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
 
-1. クリック **プロジェクト環境設定** > **条件**.
+1. **プロジェクト環境設定**／**条件**&#x200B;をクリックします。
 
-1. を選択します。 **プロジェクト**,**タスク**&#x200B;または **問題** タブをクリックします。
+1. 「**プロジェクト**」、「**タスク**」、または「**イシュー**」タブを選択します。
 
-1. ドラッグ ![](assets/move-icon---dots.png) 順序を変更する条件。
+1. ![](assets/move-icon---dots.png) 条件をドラッグして順序を変更します。
 
    新しい順序は自動的に保存されます。
 
-条件のカスタマイズについて詳しくは、 [カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+条件のカスタマイズについて詳しくは、[カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)を参照してください。
