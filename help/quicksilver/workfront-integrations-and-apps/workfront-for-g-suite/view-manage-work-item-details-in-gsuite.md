@@ -1,26 +1,26 @@
 ---
 product-area: workfront-integrations;projects
-keywords: google,doc,document,sheet,slide
+keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
-title: 表示と管理 [!DNL Adobe Workfront] G Suite のオブジェクト詳細
-description: G Suite を離れることなく、作業項目の詳細を表示および管理できます。 たとえば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることができます。 [!DNL Adobe Workfront] G Suite 用。
+title: G Suite から  [!DNL Adobe Workfront]  オブジェクトの詳細を表示および管理
+description: G Suite を離れることなく、作業アイテムの詳細を表示および管理できます。例えば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることをすべて  [!DNL Adobe Workfront]  for G Suite 内で行うことができます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
 source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 表示と管理 [!DNL Adobe Workfront] オブジェクトの詳細 [!DNL G Suite]
+# [!DNL G Suite] から [!DNL Adobe Workfront] オブジェクトの詳細を表示および管理
 
 >[!NOTE]
 >
->Google用Adobe Workfrontプラグインの最新バージョンは、2023 年 6 月 26 日にリリースされました。
+>Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
 
-作業項目の詳細を表示および管理する際に、作業項目の詳細を [!DNL G Suite]. たとえば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることができます。 [!DNL Adobe Workfront for G Suite].
+[!DNL G Suite] から離れることなく、作業アイテムの詳細を表示および管理できます。例えば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることをすべて [!DNL Adobe Workfront for G Suite] 内で行うことができます。
 
 ## アクセス要件
 
@@ -31,7 +31,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -41,45 +41,45 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-作業項目の詳細を表示および管理する前に、 [!DNL G Suite]を
+[!DNL G Suite] で作業アイテムの詳細を表示および管理するには、次のことを行う必要があります。
 
-* インストール [!DNL Workfront for G suite]\
-   手順については、 [インストール [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* [!DNL Workfront for G suite] をインストール\
+   手順については、[ [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md) をインストールを参照してください。
 
-## で作業項目の詳細を表示および管理 [!DNL G Suite]
+## [!DNL G Suite] で作業アイテムの詳細を表示および管理する
 
-1. この [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、 [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) 内 [!DNL G Suite] ページの右端にあるアドオンサイドバー。
-1. 次に移動： [!DNL Workfront] 内でのタスクまたは問題 [!DNL G Suite]( [アクセス [!DNL Adobe Workfront] [!UICONTROL ホーム] [!DNL G Suite] のコンテンツ](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
+1. [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、ページの右端にある [!DNL G Suite] アドオンサイドバーにある [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. [[!DNL G Suite] の  [!DNL Adobe Workfront] [!UICONTROL  のホーム]コンテンツにアクセス](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)の説明に従って、[!DNL G Suite] 内の [!DNL Workfront] タスクまたはイシューに移動します。
 
-   タスクまたはイシューを選択すると、 **[!UICONTROL 詳細]** 」タブが開きます。 上の領域 **[!UICONTROL 詳細]** 「 」タブには、親オブジェクトの名前、タスクまたはタスクの名前、および [!UICONTROL 期限] （タスクの場合）または [!UICONTROL 優先日] （問題の場合）。
+   タスクまたはイシューを選択すると、「**[!UICONTROL 詳細]**」タブが開きます。「**[!UICONTROL 詳細]**」タブの上のエリアには、親オブジェクトの名前、タスクまたはイシューの名前、[!UICONTROL 期日]（タスクの場合）または[!UICONTROL 優先日]（イシューの場合）が表示されます。
 
 
-   このタブでは、 [!DNL G Suite]（以下を含む）
+   [!DNL G Suite] から離れることなく、このタブで次のような様々なタスクを実行できます。
 
-   * オブジェクトの **[!UICONTROL 説明]** その他の詳細 ( オブジェクトに割り当てられたユーザー、 **[!UICONTROL 優先度]**、要求者、 **[!UICONTROL 計画完了日]**、およびオブジェクトに添付されたカスタムフィールドとフォーム。
+   * オブジェクトの&#x200B;**[!UICONTROL 説明]**、およびオブジェクトに割り当てられたユーザー、**[!UICONTROL 優先度]**、リクエスター、**[!UICONTROL 予定完了日]**、オブジェクトに添付されたカスタムフィールドやフォームなど、その他の詳細を表示します。
 
      カスタムフォームには、情報が追加されたフィールドのみが表示されます。
 
-   * 次をクリック： **[!UICONTROL 親プロジェクト]** 親オブジェクトの詳細を表示する領域。
+   * **[!UICONTROL 親プロジェクト]**&#x200B;エリアをクリックして、親オブジェクトの詳細を表示します。
 
      >[!TIP]
      >
-     >これは、同じ名前のタスクや問題があり、それらを区別する必要がある場合に役立ちます。
+     >これは、同じ名前のタスクやイシューがあり、それらを区別する必要がある場合に役立ちます。
 
-   * 割り当てられた作業を承認するには、 **[!UICONTROL 作業]**.
-   * 次のような様々なオプションを編集します。 **[!UICONTROL 完了]** オプション、 **[!UICONTROL ステータス]**、および **[!UICONTROL 完了率]**.
+   * 「**[!UICONTROL 作業をする]**」をクリックして、自分に割り当てられた作業を承認します。
+   * 「**[!UICONTROL 完了]**」オプション、「**[!UICONTROL ステータス]**」、「**[!UICONTROL 完了率]**」などの様々なオプションを編集します。
 
-     の下 **[!UICONTROL 完了率]**、数値を入力し、（オプションで）割合記号%を入力して、項目の進行状況を示します。
+     「**[!UICONTROL 完了率]**」で、項目の進捗状況を示す数字と（オプションで）パーセント記号％を入力します。
    * 所有者、サイズ、添付ファイルなど、承認リクエストに関する情報を表示します。
-   * **[!UICONTROL 承認]** または **[!UICONTROL 拒否]** 承認リクエストとドキュメント。
+   * 承認リクエストとドキュメントを&#x200B;**[!UICONTROL 承認]**&#x200B;または&#x200B;**[!UICONTROL 却下]**&#x200B;します。
 
-   * **[!UICONTROL 付与]** または **[!UICONTROL 無視]** アクセスリクエスト
+   * アクセス権のリクエストを&#x200B;**[!UICONTROL 許可]**&#x200B;または&#x200B;**[!UICONTROL 無視]**&#x200B;します。
 
-1. （オプション）「 **[!UICONTROL 表示場所[!DNL Workfront]]** 現在の作業項目 ( [!DNL Workfront].
+1. （オプション）**[!UICONTROL [!DNL Workfront]]** で「表示」をクリックして、[!DNL Workfront] の現在の作業アイテムに移動します。
 
-* 詳しくは、 [!UICONTROL 更新] タブ [!DNL Workfront for G Suite]を参照してください。 [の更新 [!DNL Adobe Workfront] オブジェクトを [!DNL G Suite] から](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
-* 詳しくは、 [!UICONTROL ドキュメント] タブ [!DNL Workfront for G Suite]を参照してください。 [[!DNL G Suite] のドキュメントの表示と管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).
+* [!DNL Workfront for G Suite] の「[!UICONTROL 更新]」タブの使用について詳しくは、[[!DNL G Suite] から  [!DNL Adobe Workfront]  オブジェクトを更新](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)を参照してください。
+* [!DNL Workfront for G Suite] の「[!UICONTROL ドキュメント]」タブの使用について詳しくは、[[!DNL G Suite] のドキュメントを表示および管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)を参照してください。
