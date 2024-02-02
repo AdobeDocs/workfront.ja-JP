@@ -2,22 +2,22 @@
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: チーム設定を編集
-description: プランまたは作業用ライセンスを持つWorkfront管理者とユーザは、チーム設定を編集できます。
+description: Workfront 管理者、またはプランライセンスもしくはワークライセンスを持つユーザーは、チーム設定を編集できます。
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
 source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # チーム設定を編集
 
-As a [!DNL Adobe Workfront] 管理者または [!UICONTROL プラン] または [!UICONTROL 作業] ライセンス、編集可能 [!UICONTROL チーム設定].
+[!DNL Adobe Workfront] 管理者、または [!UICONTROL プラン]ライセンスもしくは[!UICONTROL ワーク]ライセンスを持つユーザーは、[!UICONTROL チーム設定]を編集できます。
 
-チームにユーザーを追加し、チームレイアウトテンプレートを設定し、チームが作業項目を完了したときのステータスの記録方法を設定できます。
+チームにユーザーを追加し、チームのレイアウトテンプレートを設定し、チームが作業項目を完了したときのステータスの記録方法を設定できます。
 
 ## アクセス要件
 
@@ -30,59 +30,59 @@ As a [!DNL Adobe Workfront] 管理者または [!UICONTROL プラン] または 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>仕事以上</p> </td> 
+   <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+&#42;保有するプランやライセンスの種類を確認するには、管理者に連絡[!DNL Workfront]してください。
 
 ## チーム設定を編集
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **[!UICONTROL チーム]**.
+1. Adobe Workfront の右上にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン（![](assets/main-menu-icon.png)）をクリックし、「**[!UICONTROL チーム]**」をクリックします。
 
-1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
+1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン（![チームの切り替えアイコン](assets/switch-team-icon.png)）をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
-1. 次をクリック： **[!UICONTROL 詳細]** メニュー ![](assets/more-icon.png)を選択し、「 **[!UICONTROL 編集]**.
+1. **[!UICONTROL その他]**&#x200B;メニュー（![](assets/more-icon.png)）をクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   次のいずれかを持つチームメンバーのみ [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。
+   このオプションは、[!UICONTROL プラン]ライセンスまたは[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
 
-   次の場合、 [!UICONTROL 編集] 」オプションが表示されない場合は、Workfront管理者に確認し、 [!UICONTROL チーム設定] は、 [!UICONTROL スクラムチーム], [!UICONTROL かんばんチーム]または [!UICONTROL ウォーターフォールチーム].
+   「[!UICONTROL 編集]」オプションがあるべきなのに表示されない場合は、[!UICONTROL スクラムチーム]、[!UICONTROL かんばんチーム]、または[!UICONTROL ウォーターフォールチーム]に対してレイアウトテンプレートで「[!UICONTROL チーム設定]」が表示されていることを確認するよう Workfront 管理者に依頼してください。
 
    ![](assets/edit-team-settings-1.png)
 
 1. チーム設定では、次のような変更を行うことができます。
 
    * チーム名の変更
-   * チームを非アクティブ化
-   * チームをグループに関連付ける
+   * チームのディアクティベート
+   * チームとグループの関連付け
 
-      >[!NOTE]
-      >
-      >チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならずにチームを管理できます。 グループ管理者は、メインメニューから「チーム」領域に移動し、 [!UICONTROL チームの切り替え] 矢印 ![チームを切り替えアイコン](assets/switch-team-icon.png) ：管理するグループに割り当てられているすべてのチームをリストします。
+     >[!NOTE]
+     >
+     >チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならなくてもチームを管理できます。グループ管理者は、「メインメニュー」から「チーム」エリアに移動して[!UICONTROL チームを切り替え]矢印（![チームを切り替えアイコン](assets/switch-team-icon.png)）をクリックし、自分が管理するグループに割り当てられているすべてのチームを一覧表示することができます。
 
-      適切なグループにカーソルを合わせ、情報アイコンをクリックすると、適切なグループがチームに関連付けられていることを確認できます ![](assets/info-icon.png) その横に表示されます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
+     正しいグループにマウスを移動し、その横に表示される情報アイコン（![](assets/info-icon.png)）をクリックすると、自分がそのチームに関連付けられていることを確認できます。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
 
-   * チーム所有者を指定
+   * チーム所有者の指定
    * チームメンバーの追加と削除
-   * チームの説明を追加
-   * レイアウトテンプレートをチームに適用する
+   * チームの説明の追加
+   * チームへのレイアウトテンプレートの適用
 
-      カスタムレイアウトテンプレートをチームに適用する方法の詳細については、 [!UICONTROL マイワーク] および [!UICONTROL 作業要求] 領域にレイアウトテンプレートが含まれます。
+     チームへのカスタムレイアウトテンプレートの適用について詳しくは、レイアウトテンプレートを使用した「[!UICONTROL 担当作業]」および「[!UICONTROL 作業要求]」エリアの変更の「チームへのカスタムテンプレートの適用」セクションを参照してください。
 
-   * このチームがアジャイルチームかどうかを判断するには、 **[!UICONTROL アジャイルチームです]** オプション。
+   * 「**[!UICONTROL これはアジャイル チームです]**」オプションを選択して、このチームがアジャイルチームかどうかを決定します。
 
-      アジャイルチームとアジャイルチーム内での作業の管理方法について詳しくは、 [アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     アジャイルチームとアジャイルチーム内での作業の管理方法について詳しくは、[アジャイルチームの作成](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)を参照してください。
 
-   * を [!UICONTROL 作業] ボタンを [!UICONTROL 開始] 」ボタンをクリックします。 の設定方法の詳細については、 [!UICONTROL 開始] ボタン、「 [「作業範囲」ボタンを [!UICONTROL 開始] ボタン](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
-   * のカスタマイズ **[!UICONTROL 完了]** 」ボタンをクリックします。 をカスタマイズする方法の詳細については、 [!UICONTROL 完了] ボタンをクリックします。
+   * 「[!UICONTROL 作業をする]」ボタンを「[!UICONTROL 開始]」ボタンに変更します。「[!UICONTROL 開始]」ボタンの設定方法について詳しくは、[「作業をする」ボタンの「[!UICONTROL 開始]」ボタンへの置き換え](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)を参照してください。
+   * 「**[!UICONTROL 完了]**」ボタンをカスタマイズします。「[!UICONTROL 完了]」ボタンをカスタマイズする方法の詳細については、次を参照してください。
 
-      * [の設定 [!UICONTROL 完了] タスクのボタン](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
-      * [の設定 [!UICONTROL 完了] ボタン](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+      * [タスクの「[!UICONTROL 完了]」ボタンの設定](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
+      * [イシューの「[!UICONTROL 完了]」ボタンの設定](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
