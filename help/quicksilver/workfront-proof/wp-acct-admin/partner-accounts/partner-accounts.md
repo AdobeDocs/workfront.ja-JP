@@ -3,26 +3,26 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: のパートナーアカウント [!DNL Workfront Proof]
-description: この節では、 [!DNL Workfront Proof].
+title: ' [!DNL Workfront Proof] のパートナーアカウント'
+description: この節には、 [!DNL Workfront Proof] のパートナーアカウントに関する記事が含まれています。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 8283908e-1ef1-4914-9b67-b934d2de60ca
 source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '51'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# のパートナーアカウント [!DNL Workfront] 配達確認
+# [!DNL Workfront] プルーフのパートナーアカウント
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 この節では、次の記事を扱います。
 
-* [A と B の間のパートナー関係を管理する [!DNL Workfront Proof ]アカウント](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-* [のパートナーと項目を共有する [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+* [ [!DNL Workfront Proof ] アカウントの間のパートナー関係の管理](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [ [!DNL Workfront Proof] のパートナーと項目の共有](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
