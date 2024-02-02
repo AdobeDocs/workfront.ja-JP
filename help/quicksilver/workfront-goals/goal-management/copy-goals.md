@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront目標のコピー
-description: 目標をコピーしてAdobe Workfront目標を作成できます。 元の目標情報の一部は新しい目標に転送されます。
+title: Adobe Workfront Goals の目標をコピー
+description: Adobe Workfront Goals の目標をコピーして目標を作成できます。元の目標情報の一部は新しい目標に転送されます。
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
 source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標のコピー
+# Adobe Workfront Goals の目標をコピー
 
-目標をコピーしてAdobe Workfront目標を作成できます。 元の目標情報の一部は新しい目標に転送されます。
+Adobe Workfront Goals の目標をコピーして目標を作成できます。元の目標情報の一部は新しい目標に転送されます。
 
 ## アクセス要件
 
@@ -81,25 +81,25 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront目標の使用要件</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>目標以降へのアクセスを編集</p> <p><b>メモ</b>
+   <td> <p>Goals 以上への編集アクセス権</p> <p><b>メモ</b>
 
-<p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+<p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -107,42 +107,42 @@ You must have the following:
    <td> 
     <div> 
      <p>目標に対する権限の管理</p> 
-     <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
+     <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## 前提条件
 
-を起動する前に、次の条件を満たす必要があります。
+開始するには、まず以下が必要です。
 
-* メインメニューの目標領域を含むレイアウトテンプレート。
+* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 
 ## 目標のコピーに関する考慮事項
 
-目標をコピーする前に、アクセスレベルで目標を編集する権限が必要です。 目標へのアクセス権の付与について詳しくは、 [Adobe Workfront目標へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+目標をコピーする前に、アクセスレベルで目標を編集する権限が必要です。目標へのアクセス権の付与について詳しくは、[Adobe Workfront Goals へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)を参照してください。
 
 既存の目標をコピーする理由の一部を次に示します。
 
-* ある期間（四半期または年）の終わりに、次の期間と同じ目標を再作成する場合。
-* 目標を完了できず、別の期間でその目標に取り組む場合は、指定した期間の終わり。
-* 複数のチームメンバーが同じ目標を持ち、それぞれに対して 1 つを作成する必要が生じる場合があります。
+* 期間（四半期または年）の終わりに、次の期間のために同じ目標を再作成する場合。
+* 期間の終わりに、目標を完了できず、別の期間でその目標に取り組む場合。
+* 複数のチームメンバーが同じ目標を持ち、それぞれに対して 1 つずつ作成する必要がある場合。
 
 >[!TIP]
 >
->目標は任意のステータスでコピーできます。 目標ステータスについて詳しくは、 [Adobe Workfront目標の目標ステータスの概要](../../workfront-goals/goal-management/goal-status-overview.md).
+>目標は任意のステータスでコピーできます。目標ステータスについて詳しくは、[Adobe Workfront Goals の目標ステータスの概要](../../workfront-goals/goal-management/goal-status-overview.md)を参照してください。
 
 目標をコピーする際は、次の点を考慮してください。
 
 * 目標に関する情報もすべて新しい目標にコピーされます。
-* 既存の目標の結果をコピーするように選択できます。 結果の名前は新しい目標に転送されますが、既存の目標に関する結果の現在の進行状況は新しい目標にコピーされません。 コピーした結果は、デフォルトで同じ所有者に割り当てられます。
+* 既存の目標の結果をコピーするように選択できます。結果の名前は新しい目標に転送されますが、既存の目標に関する結果の現在の進行状況は新しい目標にコピーされません。コピーした結果は、デフォルトで同じ所有者に割り当てられます。
 
-   >[!NOTE]
-   >
-   >元の所有者がWorkfrontから削除または非アクティブ化された場合、新しい結果がログインユーザーに割り当てられます。
+  >[!NOTE]
+  >
+  >元の所有者が Workfront から削除または非アクティブ化にされた場合、新しい結果がログインユーザーに割り当てられます。
 
 * 目標をコピーする際に、目標のアクティビティをコピーすることはできません。
 
@@ -219,44 +219,42 @@ To copy goals in the Production environment:
 -->
 
 
-1. 目標に移動し、 **詳細** メニュー ![](assets/more-icon.png)を選択し、「 **目標をコピー**.
+1. 目標に移動し、**その他**&#x200B;メニュー ![](assets/more-icon.png) を選択し、「**目標をコピー**」をクリックします。
 
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. コピーした目標に関する次の情報を更新します。
-   * **目標名**:新しい目標の名前。 コピーされたゴールのデフォルト名は、「コピー」です。 &lt;original goal=&quot;&quot;>&quot;.
-   * **期間**:目標を達成する期間。 ドロップダウンメニューから期間を選択します。
+   * **目標名**：新しい目標の名前。コピーされた目標のデフォルト名は、「Copy of &lt;元の目標>」です。
+   * **期間**：目標を達成する期間。ドロップダウンメニューから期間を選択します。
 
-      または
+     または
 
-      選択 **カスタム日付を有効にする** 目標のカスタム日付を指定するには **開始** および **終了日**. 「カスタム日付を有効にする」設定は、デフォルトでは無効になっています。
+     「**カスタム日付を有効にする**」を選択して、目標の&#x200B;**開始日**&#x200B;と&#x200B;**終了日**&#x200B;のカスタム日付を指定します。「カスタム日付を有効にする」設定は、デフォルトでは無効になっています。
 
-      >[!TIP]
-      >
-      >   「カスタム日付を有効にする」をオフにすると、元の目標の期間に戻ります。
+     >[!TIP]
+     >
+     >   「カスタム日付を有効にする」をオフにすると、元の目標の期間に戻ります。
 
-      * **目標所有者**:目標の所有者。 ユーザー、チーム、グループまたは会社を指定できます。 デフォルトは、元の目標の所有者です。
-      * **説明**:目標に関する追加情報。
-      * **結果をコピー**:現在の目標の結果をコピーした目標に転送する場合は、このオプションを選択します。 これにより、元の結果が複製され、コピーしたゴールに添付されます。 コピーしたゴールの結果には、元のゴールの結果と同じ所有者、名前、測定値が含まれます。
+      * **目標の所有者**：目標の所有者。ユーザー、チーム、グループ、会社のいずれかを指定できます。デフォルトは、元の目標の所有者です。
+      * **説明**：目標に関する追加情報。
+      * **結果をコピー**：現在の目標の結果をコピーした目標に転送する場合は、このオプションを選択します。これにより、元の結果が複製され、コピーしたゴールに添付されます。コピーしたゴールの結果には、元のゴールの結果と同じ所有者、名前、測定値が含まれます。
 
-         >[!NOTE]
-         >
-         >* 元の結果の進行状況は、コピーされた目標には転送されません。
-         >* 元の所有者がWorkfrontから削除または非アクティブ化された場合、新しい結果がログインユーザーに割り当てられます。
+        >[!NOTE]
+        >
+        >* 元の結果の進行状況は、コピーされた目標には転送されません。
+        >* 元の所有者が Workfront から削除または非アクティブ化にされた場合、新しい結果がログインユーザーに割り当てられます。
 
+1. 「**目標をコピー**」をクリックします。
 
-1. クリック **目標をコピー**.
-
-   元の目標と同様の目標が作成され、ステータスは「ドラフト」になります。
+   元の目標と同様の目標が作成され、ステータスはドラフトになります。
 
    >[!NOTE]
    >
    >元の目標から結果をコピーしていない場合は、まず新しい目標を進捗状況インジケーターに関連付けてから、目標をアクティブ化して達成に向けて作業を開始する必要があります。
    >目標と進捗インジケーターの関連付けについて詳しくは、次の記事を参照してください。
-   >* [Adobe Workfront目標の目標に結果を追加](../results-and-activities/add-results-to-goals.md)
-   >* [Adobe Workfront目標での目標へのアクティビティの追加](../results-and-activities/add-activities-to-goals.md)
-   >* [目標をAdobe Workfront目標に結び付けて整列させる](../goal-alignment/align-goals-by-connecting-them.md)
-
+   >* [Adobe Workfront Goals の目標に結果を追加](../results-and-activities/add-results-to-goals.md)
+   >* [Adobe Workfront Goals の目標にアクティビティを追加](../results-and-activities/add-activities-to-goals.md)
+   >* [目標を Adobe Workfront Goals に結び付けて連携](../goal-alignment/align-goals-by-connecting-them.md)
    >
-   >目標のアクティブ化について詳しくは、 [目標を有効化](../goal-management/activate-goals.md).
+   >目標のアクティブ化について詳しくは、[目標をアクティブ化](../goal-management/activate-goals.md)を参照してください。
 
