@@ -2,30 +2,30 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Workfrontおよび SAML 2.0 での Outlook の使用を有効にする
-description: SAML 2.0 認証を有効にし、ユーザーが SAML 2.0 資格情報を使用してMicrosoft Outlook からWorkfrontにログインできるようにする場合は、Office アドインで SAML 2.0 を有効にして認証を行う必要があります。
+title: Workfront と SAML 2.0 での Outlook の使用を有効化
+description: SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報を使用して Microsoft Outlook から Workfront にログインできるようにする場合は、Office アドインで SAML 2.0 を有効にして認証を行う必要があります。
 author: Caroline, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Workfrontおよび SAML 2.0 での Outlook の使用を有効にする
+# Workfront と SAML 2.0 での Outlook の使用を有効化
 
-SAML 2.0 認証を有効にし、ユーザーが SAML 2.0 資格情報を使用してMicrosoft Outlook からWorkfrontにログインできるようにする場合は、Office アドインで SAML 2.0 を有効にして認証を行う必要があります。
+SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報を使用して Microsoft Outlook から Workfront にログインできるようにする場合は、Office アドインで SAML 2.0 を有効にして認証を行う必要があります。
 
 >[!NOTE]
 >
->組織のWorkfrontインスタンスがカスタム SSO ポータルを使用している場合は使用できません。>
+>組織の Workfront インスタンスがカスタム SSO Portal を使用している場合は使用できません。>
 ><!--
 >or is enabled with Adobe IMS>
 >-->
->詳細については、ネットワークまたは IT 管理者にお問い合わせください。
+>詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
 ## アクセス要件
 
@@ -36,37 +36,38 @@ SAML 2.0 認証を有効にし、ユーザーが SAML 2.0 資格情報を使用�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Workfrontおよび SAML 2.0 での Outlook の使用を有効にする
+## Workfront と SAML 2.0 での Outlook の使用を有効化
 
-1. クリック **設定** グローバルナビゲーションバーのAdobe Workfrontの右上隅付近
-1. クリック **システム** > **環境設定**.
+1. グローバルナビゲーションバーの Adobe Workfront の右上隅付近で「**設定**」をクリックします。
+1. **システム**／**環境設定**&#x200B;をクリックします。
 
-1. 内 **セキュリティ** セクションで、 **Office 365 アドインで SAML 2.0 認証を許可する**&#x200B;が有効になっている。
+1. 「**セキュリティ**」セクションで、「**Office 365 アドインで SAML 2.0 Authentication を許可**」が有効になっていることを確認します。
 
-   このオプションを使用すると、Office 365 アドインの Iframe でのみWorkfrontの埋め込みを有効にできます。 クリック可能なコンテンツが含まれていないので、クリックジャッキング違反は発生しません。
+   このオプションを使用すると、Office 365 アドインの Iframe でのみ Workfront の埋め込みを有効にすることができます。クリック可能なコンテンツが含まれていないので、クリックジャッキング侵害を起こしません。
 
    このオプションは、デフォルトで有効になっています。
 
    >[!NOTE]
    >
-   >このオプションを有効にした場合 **iframe へのWorkfrontの埋め込みを許可**、オプション **Office 365 アドインで SAML 2.0 認証を許可する** はグレー表示になり、有効になります。
+   >「**iframe への Workfront の埋め込みを許可**」オプションを有効にする場合、「**Office 365 アドインで SAML 2.0 Authentication を許可**」オプションはグレー表示になり、有効になります。
    >
    >![](assets/if-you-enable.png)
+   >
 
 1. 「**保存**」をクリックします。
 
-   ここで保存した変更は、Workfrontのすべてのユーザーのエクスペリエンスに影響します。
+   ここで保存した変更内容は、Workfront のすべてのユーザーのエクスペリエンスに影響します。
