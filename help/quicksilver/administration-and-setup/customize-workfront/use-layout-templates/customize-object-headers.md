@@ -3,33 +3,33 @@ title: レイアウトテンプレートを使用したオブジェクトヘッ�
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Adobe Workfront管理者またはグループ管理者は、レイアウトテンプレートを使用して、ユーザーがオブジェクトのページを開く際にオブジェクトヘッダーに表示されるフィールドを設定できます。
+description: Adobe Workfront 管理者またはグループ管理者は、レイアウトテンプレートを使用して、ユーザーがオブジェクトページを開いた際にオブジェクトヘッダーに表示されるフィールドを設定できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ
 
-Adobe Workfrontの管理者またはグループ管理者は、レイアウトテンプレートを使用して、ユーザーがオブジェクトのページを開く際にオブジェクトヘッダーに表示されるフィールドを設定できます。
+Adobe Workfront 管理者またはグループ管理者は、レイアウトテンプレートを使用して、ユーザーがオブジェクトのページを開いた際にオブジェクトヘッダーに表示されるフィールドを設定できます。
 
 >[!IMPORTANT]
 >
->オブジェクトヘッダーのカスタマイズは、現在、プロジェクト、タスクおよび問題に対して使用できます。
+>オブジェクトヘッダーのカスタマイズは、現在、プロジェクト、タスクおよびイシューに対して使用できます。
 
 ![](assets/object-header-fields.png)
 
-レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
 
@@ -38,41 +38,41 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
 
 <table>
   <tr>
-   <td><strong>Adobe Workfrontプラン</strong>
+   <td><strong>Adobe Workfront プラン</strong>
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfrontライセンス</strong>
+   <td><strong>Adobe Workfront ライセンス</strong>
    </td>
-   <td>計画
+   <td>プラン
    </td>
   </tr>
   <tr>
    <td><strong>アクセスレベル設定</strong>
    </td>
-   <td>Workfrontまたはグループ管理者である必要があります。
+   <td>Workfront 管理者またはグループの管理者である必要があります。
 <p>
    </td>
   </tr>
 </table>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 [カスタムアクセスレベルの作成または変更](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
-## オブジェクトヘッダーのカスタマイズ
+## オブジェクトヘッダーをカスタマイズ
 
-1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 内 **ユーザーに表示する内容をカスタマイズ** ドロップダウンメニューで、「 **プロジェクト**, **タスク** または **問題**.
+1. [レイアウトテンプレートの作成と管理](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
+1. **ユーザーの表示項目をカスタマイズする**&#x200B;ドロップダウンメニューで、「**プロジェクト**」、「**タスク**」または「**イシュー**」を選択します。
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. 内 [!UICONTROL ヘッダーフィールド] セクションで、表示されたフィールドにマウスを移動して、次のいずれかの操作を行います。
-   * 次をクリック： **x** フィールドを削除するアイコン
+1. 「[!UICONTROL ヘッダーフィールド]」セクションで、表示されたフィールドにポインタを合わせ、次のいずれかの操作を行います。
+   * **x** アイコンをクリックしてフィールドを削除
 
      または
 
-   * クリック&amp;ホールド **つかむ** アイコンを使用して、フィールドを新しい場所にドラッグ&amp;ドロップします。
+   * **つかむ**&#x200B;アイコンをクリックしたまま、そのフィールドを新しい場所にドラッグ＆ドロップ
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,28 +80,28 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
 
 1. 1 つのオブジェクトのヘッダーには、最大 5 つのフィールドを含めることができます。
 既に 5 つのフィールドが選択されている場合、新しいフィールドを追加する前に、1 つのフィールドを削除する必要があります。
-1. 内 **フィールドを追加** ボックスに、追加する編集不可能なWorkfrontフィールドの名前を入力し、リストに表示されたら選択します。 このフィールドは「フィールドを追加」ボックスのすぐ右に追加され、オブジェクトのヘッダーの左上隅にある最初のフィールドとして表示されます。
+1. 「**フィールドを追加**」ボックスで、追加する編集不可能な Workfront フィールドの名前を入力し、リストに表示されたら選択します。このフィールドは、「フィールドを追加」ボックスの右隣に追加され、オブジェクトのヘッダーの左上隅に一番目のフィールドとして表示されます。
 
    >[!TIP]
    >
-   >* オブジェクトの「詳細」セクションの「概要」領域に表示され、編集できないフィールドのみを追加できます。 編集不可のフィールドは、ユーザーが手動で編集できないフィールドです。 これらはWorkfrontで自動的に計算されます。
+   >* オブジェクトの「詳細」セクションの概要エリアに表示されていて、編集不可能なフィールドだけを追加できます。編集不可能なフィールドは、ユーザーが手動で編集できないフィールドです。これらは Workfront で自動的に計算されます。
    >
-   >* 既に既定のヘッダーに含まれている編集可能フィールド（プロジェクト所有者、ステータス、完了率、割り当てなど）を追加できます。
+   >* 既にデフォルトのヘッダーに含まれている編集可能フィールド（プロジェクト所有者、ステータス、完了率、割り当てなど）を追加できます。
    >
-   >* 問題のヘッダーに「解決者」フィールドを追加すると、問題に関連付けられた解決オブジェクトがある場合、そのフィールドは「問題の解決、タスク、またはプロジェクト」に変わります。
+   >* イシューのヘッダーに「解決オブジェクト」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、そのフィールドは「解決するイシュー、タスク、またはプロジェクト」に変わります。
 
 
    ![](assets/add-field-to-header-in-lt-list.png)
 
 
-1. （オプション）追加したフィールドを別の順序でドラッグ&amp;ドロップします。
+1. （オプション）追加したフィールドを、別の順序でドラッグ＆ドロップします。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 
    または
 
-   カスタマイズが終了したら、 **保存**.
+   カスタマイズが完了したら、「**保存**」をクリックします。
 
    >[!TIP]
    >
-   >「保存」はいつでもクリックして進行状況を保存でき、後でテンプレートの変更を続行できます。
+   >いつでも「保存」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
