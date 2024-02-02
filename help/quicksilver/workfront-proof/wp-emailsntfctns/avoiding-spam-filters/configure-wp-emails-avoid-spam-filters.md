@@ -2,42 +2,42 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: 設定 [!DNL Workfront Proof] スパムフィルターを避けるための E メール
-description: 「E メールクライアントのスパムフィルターは、重要な目的の 1 つです。迷惑で、場合によっては悪意のあるスパムメールからユーザーを保護する。 しかし、スパムフィルターに正しい設定がない場合、次の重要な情報が表示されない可能性があります [!DNL Workfront Proof] メール：配達確認用の E メール通知、ニュースレター、特別な通信。"
+title: スパムフィルターを回避するための  [!DNL Workfront Proof]  メールの設定
+description: 「メールクライアントのスパムフィルターは、迷惑な、おそらく悪意のあるスパムメールからユーザーを保護するという重要な目的を果たします。しかし、スパムフィルターの設定が正しくない場合、プルーフメール通知、ニュースレター、特別なお知らせなどの重要な  [!DNL Workfront Proof]  メールが表示されなくなる可能性があります。」
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '493'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 設定 [!DNL Workfront Proof] スパムフィルターを避けるための E メール
+# スパムフィルターを回避するための [!DNL Workfront Proof] メールの設定
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-E メールクライアントのスパムフィルターは、重要な目的の 1 つです。迷惑で、場合によっては悪意のあるスパムメールからユーザーを保護する。 しかし、スパムフィルターに正しい設定がない場合、次の重要な情報が表示されない可能性があります [!DNL Workfront Proof] メール：配達確認用の電子メール通知、ニュースレターおよび特別な通信。
+メールクライアントのスパムフィルターは、迷惑な、おそらく悪意のあるスパムメールからユーザーを保護するという重要な目的を果たします。しかし、スパムフィルターの設定が正しくない場合、プルーフメール通知、ニュースレター、特別なお知らせなどの重要な [!DNL Workfront Proof] メールが表示されなくなる可能性があります。
 
-次の手順で [!DNL Workfront Proof] メールは常にスパムフォルダーではなく受信ボックスに転送されます。メールに次の内容を追加する必要があり許可リストます。
+[!DNL Workfront Proof] メールがスパムフォルダーではなく、常にインボックスにルーティングされるようにするには、以下を許可リストに追加する必要があります。
 
-* [!DNL Workfront Proof] メールサーバ： **[!DNL mx.proofhq.com]**
-* [!DNL Workfront Proof] &quot;[!UICONTROL から]&quot;メールアドレス ( 例：notification@proofhq.com)
+* [!DNL Workfront Proof] メールサーバー：**[!DNL mx.proofhq.com]**
+* [!DNL Workfront Proof]「[!UICONTROL 送信者]」のメールアドレス（例：notification@proofhq.com）
 
-に追加する URL について詳しくは、 [ファイアウォールの設定を許可リスト行う](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) 記事内 [ファイアウォールの設定を許可リスト行う](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+許可リストに追加する URL について詳しくは、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)の記事にある[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
-## [!DNL Workfront Proof] &quot;[!UICONTROL から]&quot;件のメールアドレス
+## [!DNL Workfront Proof]「[!UICONTROL 送信者]」のメールアドレス
 
-電子メールクライアントのタイプに応じて、 [!DNL Workfront Proof] &quot;[!UICONTROL から]「スパムフィルターが将来メールをスパムフォルダーにルーティングするのを防ぐために、次のいずれかの電子メールアドレスを使用します。
+メールクライアントのタイプによっては、今後スパムフィルタによってメールがスパムフォルダにルーティングされないようにするために、[!DNL Workfront Proof]「[!UICONTROL 送信者]」メールアドレスを以下のいずれかに追加する必要が生じる場合があります。
 
 * 連絡先リスト
-* お使いの [!UICONTROL 差出人セーフ] リスト
-* これらのアドレスからインボックスに E メールを配信するために作成するフィルター
+* [!UICONTROL 信頼できる送信者]リスト
+* これらのアドレスからのメールをインボックスに配信するために作成するフィルター
 
-既存の [!DNL Workfront Proof] スパムフォルダーからの電子メールと、「[!UICONTROL から]「アドレスがブロック済みアドレス一覧にあります。 このヘルプページには、 [!DNL Workfront Proof] &quot;[!UICONTROL から]「アドレス」とは、次の E メールクライアントでスパムフィルターに追加する方法を示しています。
+また、既存の [!DNL Workfront Proof] メールをスパムフォルダーから削除し、「[!UICONTROL 送信者]」アドレスがブロックアドレスリストに含まれているかどうかを確認する必要がある場合もあります。このヘルプページには、[!DNL Workfront Proof]「[!UICONTROL 送信者]」アドレスがリスト表示され、以下のメールクライアントのスパムフィルターにアドレスを追加する方法が示されています。
 
 * [!DNL Gmail]
 * [!DNL Microsoft Outlook 2003 - 2007]
@@ -47,25 +47,25 @@ E メールクライアントのスパムフィルターは、重要な目的の
 
 >[!NOTE]
 >
->ここで説明する手順に関してご質問がある場合は、電子メールクライアントのヘルプを確認してください。
+>ここで説明する手順に関して不明点がある場合は、メールクライアントのヘルプを確認してください。
 
-詳しくは、 [一般的な E メールクライアントのスパム設定](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md).
+詳しくは、[一般的なメールクライアント向けのスパム設定](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)を参照してください。
 
-## この [!DNL Workfront Proof] &quot;[!UICONTROL から]&quot;コピーするメールアドレス
+## コピーする [!DNL Workfront Proof]「[!UICONTROL 送信者]」のメールアドレス
 
-次の手順で [!DNL Workfront Proof] メールがインボックスに届くには、2 つ追加する必要があります [!DNL Workfront Proof] e メールアドレスは、e メールクライアントのスパムフィルターとは別に、
+[!DNL Workfront Proof] メールがインボックスに確実に届くようにするには、2 つの [!DNL Workfront Proof] メールアドレスをメールクライアントのスパムフィルターに個別に追加する必要があります。
 
-* 一般的なサポートアドレス [!DNL support@proofhq.com]( [!DNL Workfront Proof] 多数の電子メール通信を送信
-* 通知アドレス [!DNL Workfront Proof] 配達確認の作成者および配達確認へのリンクを含むレビュー担当者に配達確認通知 E メールを送信します。 これは、一般的なアドレス、notification@support.proofhq.com、またはカスタマイズされたサブドメインまたはホワイトラベルドメインがある場合の特定のアドレスです。
+* 一般的なサポートアドレス [!DNL support@proofhq.com]。[!DNL Workfront Proof] はここから多数のメール通信を送信
+* 通知アドレス。[!DNL Workfront Proof] はここからプルーフ作成者とレビュアーに、プルーフへのリンクを含むプルーフ通知メールを送信します。カスタマイズされたサブドメインまたはホワイトラベルドメインがある場合、これは一般的なアドレス、notification@support.proofhq.com、あるいは特定のアドレスになります。
 
-追加するには [!DNL Workfront Proof] &quot;[!UICONTROL から]&#39;&#39;アドレスをメールクライアントのフィルターに追加します：
+[!DNL Workfront Proof]「[!UICONTROL 送信者]」アドレスをメールクライアントのフィルターに追加するには、以下のように行います。
 
-1. 一般をコピー [!DNL Workfront Proof] サポート&quot;[!UICONTROL から]「電子メールアドレス (support@proofhq.com) 」と入力し、電子メールクライアントに指定されたフィールドに貼り付けます。
-1. 次のいずれかの適切なをコピーします。 [!DNL Workfront Proof] &quot;[!UICONTROL から]»電子メールアドレスを入力し、電子メールクライアントに指定されたフィールドに個別に貼り付けます。
+1. 一般的な [!DNL Workfront Proof] サポートの「[!UICONTROL 送信者]」メールアドレス（support@proofhq.com）をコピーし、メールクライアント向けに指定されたフィールドにペーストします。
+1. 次の [!DNL Workfront Proof]「[!UICONTROL 送信者]」メールアドレスのうちの適切なものをコピーし、メールクライアント向けに指定されたフィールドに個別にペーストします。
 
-   * notification@support.proofhq.comカスタマイズされたサブドメインまたはホワイトラベルドメインがない場合
-   * カスタマイズされたサブドメインがある場合はnotification@yoursubdomain.proofhq.comこのアドレスにサブドメイン名を置き換える
-   * notification@yoursubdomain.yourdomain.com白いラベルのドメインがある場合；このアドレスにサブドメイン名とドメイン名を置き換えてください
+   * notification@support.proofhq.com（カスタマイズされたサブドメインまたはホワイトラベルドメインがない場合）
+   * notification@yoursubdomain.proofhq.com（カスタマイズされたサブドメインがある場合は、このアドレスのサブドメイン名を置き換えてください）
+   * notification@yoursubdomain.yourdomain.com（ホワイトラベルドメインがある場合は、このアドレスのサブドメイン名とドメイン名を置き換えてください）
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">See the relevant section below for your email client to find out where to paste in these two Workfront Proof "[!UICONTROL from]" addresses.</p>
