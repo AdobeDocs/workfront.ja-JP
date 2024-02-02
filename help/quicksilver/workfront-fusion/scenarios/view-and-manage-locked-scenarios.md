@@ -6,10 +6,10 @@ title: ' [!DNL Adobe Workfront Fusion] でのロックされたシナリオの�
 description: ' [!DNL Adobe Workfront Fusion] でのロックされたシナリオの管理'
 author: Becky
 feature: Workfront Fusion
-exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
-source-wordcount: '333'
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
