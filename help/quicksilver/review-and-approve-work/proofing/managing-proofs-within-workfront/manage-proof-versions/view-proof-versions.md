@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: manage-proof-versions
-title: 配達確認のバージョンを表示
-description: 配達確認の過去のバージョンを表示できます。
+title: プルーフのバージョンの表示
+description: プルーフの過去のバージョンを表示できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# 配達確認のバージョンを表示
+# プルーフのバージョンの表示
 
-配達確認の過去のバージョンを表示できます。
+プルーフの過去のバージョンを表示できます。
 
 ## アクセス要件
 
@@ -26,48 +26,48 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
-   <td>マネージャ以降</td> 
+   <td>マネージャー以上</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、配達確認権限プロファイルを確認するには、WorkfrontまたはWorkfrontの配達確認管理者に問い合わせてください。
+&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
 
-## すべての配達確認バージョンのリストを表示
+## プルーフのすべてのバージョンのリストを表示
 
-1. 「ドキュメント」リストに移動し、配達確認を選択します。
-1. 「概要」で、「 **すべてのバージョン** 」セクションに入力します。 ここで、配達確認のすべてのバージョンを表示できます。
+1. ドキュメントリストに移動し、プルーフを選択します。
+1. 「概要」で、「**すべてのバージョン**」セクションまでスクロールします。ここで、プルーフのすべてのバージョンを表示できます。
 
    ![](assets/copy-of-versions-350x173.png)
 
-## 以前の配達確認バージョンのプレビュー
+## プルーフの前回のバージョンのプレビュー
 
 プレビューできないファイル（XLSX や DOC など）がダウンロードされます。
 
-1. ドキュメントリストに移動し、配達確認を選択します。
-1. 「概要」で、「 **バージョン**、 **詳細** メニューから、 **プレビュー**.
+1. ドキュメントリストに移動し、プルーフを選択します。
+1. 「概要」で「**バージョン**」までスクロールし、**その他**&#x200B;メニューをクリックして、「**プレビュー**」を選択します。
 
    ![](assets/proof-versions-in-summary-350x167.png)
 
-## 以前の配達確認バージョンを表示
+## プルーフの前回のバージョンを表示
 
-Workfrontでドキュメントへの表示アクセス権を持つユーザーは誰でも、配達確認済みドキュメントの過去のバージョンを表示できます。 ユーザーに校正ライセンスがある必要はありません。
+Workfront でドキュメントへの表示アクセス権を持つユーザーは誰でも、プルーフ済みドキュメントの過去のバージョンを表示できます。ユーザーがプルーフ用ライセンスを持つ必要はありません。
 
-1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「 」を選択します。 **ドキュメント**.
-1. 必要な配達確認を見つけます。
-1. 「概要」で、「 **バージョン**、 **詳細** メニューから、 **配達確認を開く**.
+1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
+1. 必要なプルーフを見つけます。
+1. 「概要」で「**バージョン**」までスクロールし、**その他**&#x200B;メニューから「**プルーフを開く**」を選択します。
 
    ![](assets/proof-versions-in-summary-350x167.png)
