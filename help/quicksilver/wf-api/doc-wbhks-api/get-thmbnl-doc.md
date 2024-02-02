@@ -2,38 +2,38 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: ドキュメントのサムネールを取得する
-description: ドキュメントのサムネールを取得する
+title: ドキュメントのサムネールの取得
+description: ドキュメントのサムネールの取得
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 31960689-1811-4ba7-a63d-0842caedf3ea
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 5%
+workflow-type: ht
+source-wordcount: '50'
+ht-degree: 100%
 
 ---
 
 
-# ドキュメントのサムネールを取得する
+# ドキュメントのサムネールの取得
 
-ドキュメントの生のサムネールのバイト数を返します。
+ドキュメントのサムネールの未加工バイトデータを返します。
 
 **URL**
 
-GET/サムネール
+GET /thumbnail
 
 ## クエリパラメーター
 
 | 名前  | 説明 |
 |---|---|
-| id  | ドキュメント ID。 |
-| サイズ  |  サムネールの幅。 |
+| id  | ドキュメント ID |
+| size  | サムネールの幅。 |
 
 
 ## 応答
 
-生のサムネールのバイト数です。
+サムネールの未加工のバイトデータです。
 
-**例：**: https://www.acme.com/api/thumbnail?id=123456
+**例**：https://www.acme.com/api/thumbnail?id=123456
