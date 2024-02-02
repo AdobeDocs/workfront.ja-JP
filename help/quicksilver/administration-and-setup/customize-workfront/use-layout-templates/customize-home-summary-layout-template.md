@@ -1,38 +1,38 @@
 ---
-title: レイアウトテンプレートを使用してホームと概要をカスタマイズする
+title: レイアウトテンプレートを使用したホームと概要のカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: レイアウトテンプレートを使用して、ホームおよびサマリでタスクやイシューをクリックしたときにユーザーに表示する内容を設定できます。 以下の手順を使用して行った各設定は、同じ方法でホーム領域と Summary パネルに影響します。 これらのカスタマイズは、ドキュメントの概要パネルには適用されません。
+description: レイアウトテンプレートを使用して、「ホーム」および「概要」でタスクやイシューをクリックした際にユーザーに表示する内容を設定できます。以下の手順を使用して行った各設定は、「ホーム」および「概要」パネルにも反映されます。ただし、これらのカスタマイズは「ドキュメントの概要」パネルには適用されません。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# レイアウトテンプレートを使用してホームと概要をカスタマイズする
+# レイアウトテンプレートを使用したホームと概要のカスタマイズ
 
-レイアウトテンプレートを使用して、ホームおよびサマリでタスクやイシューをクリックしたときにユーザーに表示する内容を設定できます。 以下の手順を使用して行った各設定は、同じ方法でホーム領域と Summary パネルに影響します。 これらのカスタマイズは、ドキュメントの概要パネルには適用されません。
+レイアウトテンプレートを使用して、「ホーム」および「概要」でタスクやイシューをクリックした際にユーザーに表示する内容を設定できます。以下の手順を使用して行った各設定は、「ホーム」および「概要」パネルにも反映されます。ただし、これらのカスタマイズは「ドキュメントの概要」パネルには適用されません。
 
 以下を設定できます。
 
-* 「詳細」領域でタスクまたはイシューに対して表示されるフィールドと順序
-* 選択したタスクまたはイシューの更新、ログに記録された時間、添付されたドキュメント、タイムスタンプを表示するかどうか
+* 「詳細」でタスクまたはイシューに対して表示されるフィールドおよび順序
+* 選択したタスクまたはイシューに対して、更新、ログに記録された時間、添付されたドキュメント、タイムスタンプを表示するかどうか
 
-ユーザーが割り当てられているプロジェクトの承認、ドキュメントの承認、ドキュメントのバージョンの承認をクリックしたときに、ホーム領域に表示されるフィールドをカスタマイズすることもできます。
+ユーザーに割り当てられているプロジェクトの承認、ドキュメントの承認、ドキュメントのバージョンの承認をクリックする際に、「ホーム」に表示されるフィールドをカスタマイズすることもできます。
 
-ホーム領域については、 [ホーム領域を使用する](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). 概要パネルについて詳しくは、 [概要の概要](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+「ホーム」について詳しくは、[ホームエリアの使用](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)を参照してください。「概要」パネルについて詳しくは、[概要について](../../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
-レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
 
@@ -43,28 +43,28 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## レイアウトテンプレートを使用してホームと概要をカスタマイズする
+## レイアウトテンプレートを使用したホームと概要のカスタマイズ
 
-1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 
-1. 下向き矢印をクリックします。 ![](assets/dropdown-arrow.png) under **ユーザーに表示する内容をカスタマイズする**&#x200B;を選択し、次に **ホームと概要**.
+1. 「**ユーザーの表示項目をカスタマイズする**」の下にある下向き矢印 ![](assets/dropdown-arrow.png)、「**ホームと概要**」の順にクリックします。
 
-1. 左側に表示されるリストで、オブジェクトタイプ (**タスク**, **問題**, **プロジェクト**, **ドキュメント**&#x200B;または **ドキュメントのバージョン**) をクリックし、[ ホーム ] および [ 概要 ] でカスタマイズします。
+1. 左側に表示されるリストから「ホームと概要」でカスタマイズするオブジェクトタイプ（**タスク**、**イシュー**、**プロジェクト**、**ドキュメント**&#x200B;または&#x200B;**ドキュメントのバージョン**）をクリックします。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -72,61 +72,61 @@ ht-degree: 2%
     <tbody> 
      <tr> 
       <td role="rowheader">タスク</td> 
-      <td> <p>ホームでは、この設定を行うと、ユーザーがタスクをクリックしたときにタスクの右側の領域が変わります。 また、タスクのリストでは、ユーザーがタスクを選択して [ 概要を開く ] アイコンをクリックすると、ページの右側に表示される概要パネルに影響します <img src="assets/summary-panel-icon.png">.</p> <p>例えば、ユーザーがホームでタスクを選択する際に「詳細」領域に表示されるフィールドを指定できます。</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>また、サマリーでタスクを選択した場合は、次のようになります。</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>「ホーム」でこの設定は、ユーザーがタスクをクリックした際にタスクの右側のエリアに反映されます。また、タスクのリストでは、ユーザーがタスクを選択して概要を開くアイコン <img src="assets/summary-panel-icon.png"> をクリックした際に、ページの右側に表示される「概要」パネルに反映されます。</p> <p>例えば、ユーザーが「ホーム」でタスクを選択したときに「詳細」エリアに表示されるフィールドを指定できます。</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>また、概要でタスクを選択した場合は、次のようになります。</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">イシュー</td> 
-      <td> <p>ホームでは、この設定は、ユーザーが問題をクリックしたときに問題の右側の領域に影響します。</p> <p>問題の一覧では、この設定は、ユーザーが問題を選択して [ 概要を開く ] アイコンをクリックしたときにページの右側に表示される [ 概要 ] パネルに影響します <img src="assets/summary-panel-icon.png">.</p> </td> 
+      <td> <p>「ホーム」でこの設定は、ユーザーがイシューをクリックした際に、イシューの右側のエリアに反映されます。</p> <p>イシューのリストでこの設定は、ユーザーがイシューを選択して概要を開くアイコン <img src="assets/summary-panel-icon.png"> をクリックした際に、ページの右側に表示される「概要」パネルに反映されます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">プロジェクト</td> 
-      <td>ホームでは、ユーザーが割り当てられたプロジェクトの承認をクリックすると、この設定の影響を受けるのは承認の右側の領域です。</td> 
+      <td>「ホーム」でこの設定は、ユーザーが自分に割り当てられたプロジェクト承認をクリックした際に、承認の右側のエリアに反映されます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">ドキュメント</td> 
-      <td>ホームでは、ユーザーが割り当てられているドキュメントの承認をクリックすると、この設定の影響を受けるのは承認の右側の領域です。</td> 
+      <td>「ホーム」でこの設定は、ユーザーが自分に割り当てられたドキュメントの承認をクリックした際に、承認の右側のエリアに反映されます。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">ドキュメント バージョン</td> 
-      <td>ホームでは、ユーザーが特定のバージョンのドキュメントに割り当てられている承認をクリックすると、この設定の影響を受けるのは、承認の右側の領域です。</td> 
+      <td role="rowheader">ドキュメントバージョン</td> 
+      <td>「ホーム」でこの設定は、ユーザーが特定のバージョンのドキュメントの自分に割り当てられた承認をクリックした際に、承認の右側のエリアに反映されます。</td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!IMPORTANT]
    >
-   >タスクの割り当てが解除されている場合、レイアウトテンプレートに割り当てられたユーザーには、概要にフィールドのカスタマイズが表示されません。
+   >タスクが未割り当ての場合、レイアウトテンプレートに割り当てられたユーザーには、「概要」にフィールドのカスタマイズが表示されません。
 
-1. （条件付き）前の手順で [ タスク ] または [ タスク ] をクリックした場合は、カスタマイズするタスクまたはタスクのカテゴリを選択します。
+1. （条件付き）前の手順で「タスク」または「イシュー」をクリックした場合は、カスタマイズするタスクまたはイシューのカテゴリを選択します。
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. （条件付き） **「プライマリアクションを設定」ボタン** ドロップダウンメニューが表示されます (「 **タスク** または **問題** 左側のリストで )、プライマリアクション (**完了** または **ステータス**) を使用して、タスクまたはイシューを表示する際に、ユーザーがホーム領域およびサマリパネルで利用できるようにします。
+1. （条件付き）「**「プライマリアクションボタンを設定します**」ドロップダウンメニューが表示される場合、（左側のリストの「**タスク**」または「**イシュー**」を選択した場合）、タスクまたはイシューを表示する際に、ユーザーが「ホーム」エリアおよび「概要」パネルで使用できるプライマリアクション（「**完了**」または「**ステータス**」）をクリックします。
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. 追加 ![](assets/add-item-plus-in-circle-blue.png) または非表示 ![](assets/close-or-hide---x.png) 選択したオブジェクトタイプのフィールド。
+1. 選択したオブジェクトタイプでフィールドを追加 ![](assets/add-item-plus-in-circle-blue.png) 非表示 ![](assets/close-or-hide---x.png) にします。
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. 手順 3 ～ 6 を繰り返して、他のオブジェクトタイプのホーム領域と [ 概要 ] パネルをカスタマイズします。
-1. クリック **グローバル設定**&#x200B;をクリックし、左下隅付近にある、「ホーム」と「概要」のAdobe Workfrontオブジェクトに関連する次のオプションを有効または無効にします。
+1. 手順 3 ～ 6 を繰り返して、他のオブジェクトタイプのホームエリアと概要パネルをカスタマイズします。
+1. 左下隅付近にある「**グローバル設定**」をクリックして、ホームと概要で Adobe Workfront オブジェクトに関連する次のオプションを有効または無効にします。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">作業の更新を表示する</td> 
-      <td>選択したタスクまたは問題に対して行われた更新を [ ホーム ] または [ 概要 ] に表示します。 これには、ユーザーによるシステム更新と更新の両方が含まれます。 ユーザーは、システムの更新をフィルターして除外できます。詳しくは、 <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">システム更新を有効または無効にする</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業を更新</a>.</td> 
+      <td role="rowheader">作業の更新を表示</td> 
+      <td>選択したタスクまたはイシューに対して行われた更新をホームまたは概要に表示します。これには、システム更新とユーザーによる更新の両方が含まれます。ユーザーは、システムの更新をフィルターして除外できます（<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業を更新</a>の<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">システムアップデートを有効化または無効化</a>の節を参照）。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">作業に対する時間を記録する</td> 
-      <td>タスクまたは問題が選択されている場合に [ 作業時間に対するログ ] オプションを表示し、[ ホーム ] 領域と [ 概要 ] 領域から作業項目に対する時間を直接記録できます。</td> 
+      <td>タスクまたはイシューが選択されている場合に「作業に対する時間を記録する」オプションを表示し、ホームエリアと概要エリアから作業アイテムに対する時間を直接記録できます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">作業に関連付けられたドキュメントを表示</td> 
-      <td>タスクまたはタスクが選択されたとき、[ ホーム ] と [ サマリ ] に [ ドキュメント ] 領域が表示され、タスクまたはタスクに添付されたドキュメントが一覧表示されます。 ユーザーは、ドキュメントをクリックして、プレビューウィンドウに表示できます。</td> 
+      <td>タスクまたはイシューを選択すると、ホームおよび概要にドキュメント領域が表示され、タスクまたはイシューに添付されているドキュメントがリストされます。ユーザーは、ドキュメントをクリックして、プレビューウィンドウに表示できます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">タイムスタンプを非表示</td> 
@@ -135,7 +135,7 @@ ht-degree: 2%
         <li>予定完了日</li>
         <li>コミット日</li>
         <li>送信日</li>
-       </ul><p><b>注意</b>：このオプションを有効にすると、期限が過ぎた作業項目は、時間ではなく、日付に基づいてホームワークリストの遅延グループに移動されます。</p></td> 
+       </ul><p><b>メモ</b>：このオプションを有効にすると、期限が過ぎた作業アイテムは、時間ではなく、日付に基づいてホームワークリストの遅延グループに移動されます。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -144,6 +144,6 @@ ht-degree: 2%
 
    または
 
-   カスタマイズが終了したら、 **保存**.
+   カスタマイズが終了したら、「**保存**」をクリックします。
 
-レイアウトテンプレートについて詳しくは、 [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートについて詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
