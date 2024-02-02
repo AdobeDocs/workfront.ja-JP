@@ -1,219 +1,221 @@
 ---
 content-type: overview
 navigation-topic: business-case-and-scorecards
-title: ビジネス事例の領域の概要
-description: この記事では、プロジェクトのビジネス事例の領域について説明します。
+title: ビジネスケースのエリアの概要
+description: この記事では、プロジェクトのビジネスケースのエリアについて説明します。
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1604'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# ビジネス事例の領域の概要
+# ビジネスケースのエリアの概要
 
-この記事では、プロジェクトのビジネス事例の領域について説明します。
+この記事では、プロジェクトのビジネスケースのエリアについて説明します。
 
-プロジェクトのビジネスケースの作成については、 [プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+プロジェクトのビジネスケースの作成について詳しくは、[プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
-Adobe Workfront管理者またはグループ管理者は、プロジェクト情報セクションを除き、ビジネスケース内のすべてのセクションを有効にしてから、プロジェクトに表示する必要があります。 「プロジェクト情報」セクションは、デフォルトで有効になっています。
+Adobe Workfront 管理者またはグループ管理者は、プロジェクト情報セクションを除き、ビジネスケース内のすべてのセクションを有効にしてプロジェクトに表示されるようにする必要があります。プロジェクト情報セクションは、デフォルトで有効になっています。
 
-ビジネスケースの領域を有効にする方法について詳しくは、  [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+ビジネスケースのエリアを有効にする方法について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)の「ビジネスケース」の節を参照してください。
 
-プロジェクトのビジネス事例に含まれる領域を次に示します。
+プロジェクトのビジネスケースに含まれるエリアを次に示します。
 
 * プロジェクト情報
-* 目標
+* Goals
 * 費用
 * リソース予算計上
-* 危険
+* リスク
 * スコアカード
 * カスタムフォーム
-* ビジネス ケース概要
+* ビジネスケースの概要
 
 ## プロジェクト情報
 
-この **プロジェクト情報** ビジネスケースの領域は、Workfront管理者が設定できません。 すべてのプロジェクトには、ビジネスケース内に「プロジェクト情報」領域があります。 
+Workfront 管理者は、ビジネスケースの&#x200B;**プロジェクト情報**&#x200B;エリアを設定できません。すべてのプロジェクトには、ビジネスケース内にプロジェクト情報エリアがあります。
 
-ビジネスケースの「プロジェクト情報」セクションには、プロジェクトが実際に開始される前の、プロジェクトの基本情報が含まれます。
+ビジネスケースのプロジェクト情報セクションには、プロジェクトが実際に開始される前の、プロジェクトの基本情報が含まれます。
 
 次のフィールドの編集を検討してください。
 
-* **説明**:プロジェクトの説明を指定します。
+* **説明**：プロジェクトの説明を指定します。
 * **プロジェクト所有者**
 
-   デフォルトでは、プロジェクトを作成するユーザーもプロジェクト所有者です。 このフィールドを編集し、別のアクティブなユーザーをプロジェクトの所有者として指定できます。
+  デフォルトでは、プロジェクトを作成したユーザーがプロジェクト所有者になります。このフィールドを編集し、別のアクティブなユーザーをプロジェクトの所有者として指定できます。
 
-* **プロジェクト スポンサー**
+* **プロジェクトスポンサー**
 
-   プロジェクトのスポンサーとして、プロジェクト所有者以外のユーザーを追加することを検討します。 スポンサーはビジネスケースの承認を受けます。 
+  プロジェクトのスポンサーとして、プロジェクト所有者以外のユーザーを追加することを検討してください。スポンサーは、ビジネスケースの承認を受けます。 
 
-* **Portfolio**:プロジェクトのPortfolioを指定します。 Portfolioを作成し、 **アクティブ** このドロップダウンメニューで選択できるようになる前に。
+* **ポートフォリオ**：プロジェクトのポートフォリオを指定します。ポートフォリオを作成し、**アクティブ**&#x200B;ステータスに設定すると、このドロップダウンメニューで選択できるようになります。
 
-   ポートフォリオについて詳しくは、 [Adobe WorkfrontのPortfolioの概要](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  ポートフォリオについて詳しくは、[Adobe Workfront でのポートフォリオの概要](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
 
-   Portfolioの作成について詳しくは、 [ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  ポートフォリオの作成について詳しくは、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
 
-* **計画済み特典**:このプロジェクトが完了したときに、組織に対してどのような金銭上の利益が計画されるかを見積もります。 任意の金額の通貨を指定でき、正の値にする必要があります。 例：$10,000。
-* **ステータス**:デフォルトでは、プロジェクトリクエストのステータスはに設定されています **アイデア**.
+* **予定利益**：このプロジェクトが完了したときに、組織が予定する金銭上の利益を見積もります。任意の金額の通貨を指定できますが、正の値にする必要があります。（例：$10,000）。
+* **ステータス**：デフォルトでは、プロジェクトリクエストのステータスは「**アイデア**」に設定されています。
 
-   「ステータス」を「アイデア」または「計画」以外に変更した場合、「 **送信** 」ボタンが「ビジネス・ケース要約」領域に表示されなくなり、ビジネス・ケースを承認用に送信できなくなります。 
+  「ステータス」を「アイデア」または「計画」以外に変更した場合、「**送信**」ボタンがビジネスケースの概要エリアに表示されなくなり、ビジネスケースを承認用に送信できなくなります。
 
-* **固定開始日**:プロジェクトを開始する日付を指定します。
-* **固定終了日**:プロジェクトを終了する日付を指定します。
+* **固定開始日**：プロジェクトを開始する日付を指定します。
+* **固定終了日**：プロジェクトを終了する日付を指定します。
 
-   >[!NOTE]
-   >
-   >ビジネス・ケースの「固定開始日」と「終了日」は、プロジェクトの計画開始日と完了日には影響しません。 これらは、プロジェクトが理想的に開発される時期に、プロジェクト作成者がリクエストした日付を表します。 代わりに、プロジェクトの「計画開始日」と「計画完了日」に、プロジェクト上のタスクに基づくプロジェクトの計画タイムラインが表示されます。
+  >[!NOTE]
+  >
+  >ビジネスケースの「固定開始日」と「終了日」は、プロジェクトの予定開始日と完了日には影響しません。これらは、プロジェクトが理想的に開発される時期に、プロジェクト作成者がリクエストした日付を表します。代わりに、プロジェクトの「予定開始日」と「予定完了日」に、プロジェクト上のタスクに基づくプロジェクトの計画タイムラインが表示されます。
 
 ## 目標
 
-目標は、プロジェクトの目標を定義します。 この領域はビジネスケースではデフォルトで有効になっていますが、Workfrontの管理者が表示しないように選択する場合があります。 このフィールドには、目標が優先順に表示されます。
+目標は、プロジェクトの目標を定義します。このエリアはビジネスケースではデフォルトで有効になっていますが、Workfront の管理者によって表示しないように選択できます。このフィールドには、目標が優先順に表示されます。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
 -->
 
 >[!TIP]
-プロジェクトの個々のビジネスケースに関連していない組織の戦略目標を作成できます。 戦略的目標を作成するには、Adobe Workfront目標にアクセスできる必要があります。 その後、ビジネスケース外のプロジェクトに接続できます。 Workfront目標を使用した目標の作成について詳しくは、 [Adobe Workfront目標の概要](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>
+プロジェクトの個々のビジネスケースに関連していない組織の戦略目標を作成できます。戦略的目標を作成するには、Adobe Workfront Goals にアクセスする必要があります。その後、ビジネスケース外のプロジェクトに接続できます。Workfront Goals を使用した目標の作成について詳しくは、[Adobe Workfront Goals の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。
 
-目標の定義は、Portfolio・オプティマイザでスコアを受け取るプロジェクトに対してオプションです。 このセクションは、ビジネスケースの唯一のオプションセクションです。 ビジネス・ケースのその他のセクションは、Portfolio・オプティマイザでプロジェクトのスコアリングを行う前に完了する必要があります。 目標の作成時に、目標の優先度を指定できます。
+目標の定義は、ポートフォリオオプティマイザーでプロジェクトがスコアを受け取るにはオプションです。このセクションは、ビジネスケースの唯一のオプションセクションです。ビジネスケースのその他のセクションは、ポートフォリオオプティマイザーでプロジェクトのスコアリングを行う前に完了する必要があります。目標の作成時に、目標の優先度を指定できます。
 
-目標について詳しくは、  [ビジネスケース目標の作成](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+目標について詳しくは、[ビジネスケース目標の作成](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md)を参照してください。
 
 ## 費用
 
-費用は、プロジェクトの存続中に発生する可能性のある非労務費を表します。 この領域はビジネスケースではデフォルトで有効になっていますが、Workfrontの管理者が表示しないように選択する場合があります。 
+費用は、プロジェクトの存続中に発生する可能性のある非労務費を表します。このエリアはビジネスケースではデフォルトで有効になっていますが、Workfront の管理者によって表示しないように選択できます。 
 
-ビジネス・ケースに入力する費用は、「計画費用」として、プロジェクトの「費用」タブにも入力されます。
+ビジネスケースに入力する費用は、計画費用として、プロジェクトの「費用」タブにも入力されます。
 
 費用は、プロジェクトの次のフィールドに影響します。
 
 * 予算計上コスト
 * 純価
 
-予算原価と正味値の詳細は、次を参照してください： [ビジネス事例の財務分野の概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+予算計上コストと純価について詳しくは、[ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)を参照してください。
 
-費用について詳しくは、  [プロジェクト費用の管理](../../../manage-work/projects/project-finances/manage-project-expenses.md) .
+費用について詳しくは、[プロジェクト費用を管理](../../../manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
 
-Workfront管理者がカスタム費用タイプを設定できます。
+Workfront 管理者はカスタム費用タイプを設定できます。
 
-カスタム費用タイプの作成の詳細については、 [カスタム経費タイプを作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md). 
+カスタム費用タイプの作成について詳しくは、[カスタム費用タイプの作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)を参照してください。
 
 ## リソース予算計上
 
-ビジネス・ケースの「生産資源予算編成」領域では、次の処理を実行できます。
+ビジネスケースの「リソース予算計上」エリアでは、次のアクションを実行できます。
 
-* リソースプールをプロジェクトに関連付けます。
-* プロジェクトレベルでリソースを予算化します。
+* リソースプールをプロジェクトに関連付ける。
+* プロジェクトレベルでリソースを予算に計上する。
 
-プロジェクト上の生産資源の予算時間は、ビジネス・ケースの「生産資源予算」領域に表示され、プロジェクトの予算労務費が生成されます。 ビジネスケースのこの領域は、デフォルトで有効になっています。
+プロジェクト上でリソースに予算として計上された時間は、ビジネスケースの「リソース予算計上」エリアに表示され、プロジェクトの予算計上労力コストが生成されます。ビジネスケースのこのエリアは、デフォルトで有効になっています。
 
-ビジネス事例のプロジェクトの予算リソースの詳細は、 [ビジネス事例の予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+ビジネスケースでのプロジェクトのリソース予算計上について詳しくは、[ビジネスケースでのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
 
 ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
-ビジネス・ケースの「生産資源予算編成」セクションを表示する際は、次の点を考慮してください。
+ビジネスケースの「リソース予算計上」セクションを確認する際は、次の点を考慮してください。
 
-* ここでは、次のツールを使用してリソース情報を予算できます。
+* ここでは、次のツールを使用してリソース情報の予算を計上できます。
 
    * リソースプランナー
 
-      詳しくは、 [リソース・プランナを使用したビジネス・ケースの予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+     詳しくは、[リソースプランナーを使用したビジネスケースでのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)を参照してください。
 
-   * シナリオプランナー（会社がシナリオプランナーの追加ライセンスを購入している場合）
+   * シナリオプランナー（会社がシナリオプランナー用に追加ライセンスを購入している場合）
 
-      詳しくは、 [シナリオ・プランナを使用したビジネス・ケースの予算生産資源](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     詳しくは、[シナリオプランナーを使用したビジネスケースでのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)を参照してください。
 
-      シナリオプランナーは、新しいAdobe Workfrontエクスペリエンスでのみ使用でき、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
+     シナリオプランナーは、新しい Adobe Workfront エクスペリエンスでのみ使用でき、追加のライセンスが必要です。Workfront シナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
-* ここに表示される情報は、システム・レベルの生産資源プランナまたはシナリオ・プランナにも表示されます。 
+* ここに表示される情報は、システムレベルのリソースプランナーやシナリオプランナーにも表示されます。 
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
   -->
 
-* 役割が時間単価の原価率に関連付けられている場合は、生産資源を予算化した後、「生産資源予算」領域にプロジェクトの予算労務費が表示されます。 予算労務費は、プロジェクトの通貨で表示されます。
+* 担当業務が 1 時間当たりのコストのレートに関連付けられている場合は、リソースの予算を計上すると、「リソース予算計上」エリアにプロジェクトの予算計上労力コストが表示されます。予算計上労力コストは、プロジェクトの通貨で表示されます。
 
-   >[!IMPORTANT]
-   予算労務費は、ユーザーではなく、プロジェクト上の役割に関連する原価です。 ユーザーの全予算労務費の合計は、ユーザーに関連付けられたジョブ・ロールの予算労務費と等しくなる場合と異なる場合があります。 
+  >[!IMPORTANT]
+  >
+  予算計上労力コストは、ユーザーではなく、プロジェクトの担当業務に関連付けられたコストです。ユーザーの予算計上労力コストの合計は、ユーザーに関連付けられた担当業務の予算計上労力コストと等しくなる場合もあれば、異なる場合もあります。 
 
-   予算労務費の詳細は、 [ビジネス事例の財務分野の概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+  予算計上労力コストについて詳しくは、[ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)を参照してください。
 
-   ジョブの役割を作成し、それらに時間単価を関連付ける方法の詳細は、 [ジョブの役割の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  担当業務の作成および 1 時間当たりのコストのレートを担当業務に関連付ける方法について詳しくは、[担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 
-## 危険
+## リスク
 
-リスクとは、プロジェクトが予定通りに完了しない、または予算に達しない可能性のある要因です。 これらの要因を定義することは、Portfolioマネージャーまたはプロジェクトスポンサーが、プロジェクトの承認に関する教育を受けた決定を下すうえで重要です。 この領域はビジネスケースではデフォルトで有効になっていますが、Workfrontの管理者が表示しないように選択する場合があります。
+リスクとは、プロジェクトが期限や予算を超過せずに完了することを妨げる可能性のある要因のことです。これらの要因を定義することは、ポートフォリオマネージャーやプロジェクトスポンサーが、プロジェクトの承認に関して情報に基づく決定を下すうえで重要です。このエリアはビジネスケースではデフォルトで有効になっていますが、Workfront の管理者によって表示しないように選択できます。
 
-潜在的なコストを、発生した場合に定義するリスクに関連付けることができます。 プロジェクトのリスクに伴うコストは、プロジェクトの正味価値に影響します。 
+潜在的なコストを、万一発生した場合を想定して定義するリスクに関連付けることができます。プロジェクトのリスクに伴うコストは、プロジェクトの純価に影響を与えます。 
 
-プロジェクトの純価値の詳細については、 [ビジネス事例の財務分野の概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+プロジェクトの純価値の詳細については、[ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)を参照してください。
 
-リスクの作成の詳細については、  [プロジェクトのリスクの作成と編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+リスクの作成の詳細については、[プロジェクトでのリスクの作成と編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
 
-Workfront管理者がカスタムリスクタイプを設定できます。
+Workfront 管理者はカスタムリスクタイプを設定できます。
 
-カスタムリスクタイプの作成と編集の詳細については、 [リスクタイプの編集と作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+カスタムリスクタイプの作成と編集の詳細については、[リスクタイプの編集と作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md)を参照してください。
 
 ## スコアカード
 
-スコアカードは、プロジェクトの整列を測定します。 この領域はビジネスケースではデフォルトで有効になっていますが、Workfrontの管理者が表示しないように選択する場合があります。
+スコアカードは、プロジェクトの整合性を測定します。このエリアはビジネスケースではデフォルトで有効になっていますが、Workfront の管理者によって表示しないように選択できます。
 
-プロジェクトへのスコアカードの適用と線形スコアの生成の詳細については、 [プロジェクトにスコアカードを適用し、線形スコアを生成する](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+プロジェクトへのスコアカードの適用および整合性スコアの生成について詳しくは、[プロジェクトへのスコアカードの適用および整合性スコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
-スコアカードを適用するには、Workfront管理者がスコアカードを作成する必要があります。 この **スコアカード** スコアカードを作成しない限り、ビジネス・ケースの領域は表示されません。
+スコアカードを適用するには、Workfront 管理者がスコアカードを作成する必要があります。スコアカードが作成されていないと、ビジネスケースの&#x200B;**スコアカード**&#x200B;エリアは表示されません。
 
-スコアカードの作成の詳細については、「  [スコアカードの作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+スコアカード作成の詳細については、[スコアカードの作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
 
 ## カスタムフォーム
 
-ビジネスケースを定義する際に、カスタムFormsをプロジェクトに添付できます。 ビジネス事例では、この領域はデフォルトで有効になっていません。 Workfrontの管理者が、ビジネスケースに表示するために有効にする必要があります。
+ビジネスケースを定義する際に、プロジェクトにカスタムフォームを添付できます。ビジネスケースでは、このエリアはデフォルトでは有効になっていません。ビジネスケースに表示するには、Workfront 　管理者が有効にする必要があります。
 
-ビジネス事例の領域を有効にする方法について詳しくは、 [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+ビジネスケースのエリアを有効にする方法について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-カスタムフォームを適用するには、Workfront管理者が最初にカスタムフォームを作成する必要があります。
+カスタムフォームを適用するには、まず Workfront 管理者がカスタムフォームを作成する必要があります。
 
-カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
 カスタムフォームを使用して、ビジネスケースの他のフィールドに表示されない追加情報を収集できます。
 
-カスタムフォームの適用について詳しくは、 [ビジネス事例にカスタムフォームを添付する](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
+カスタムフォームの適用について詳しくは、[ビジネスケースへのカスタムフォームの添付](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)を参照してください。
 
-## ビジネス ケース概要
+## ビジネスケースの概要
 
-* [ビジネス事例の概要](#overview-of-the-business-case-summary)
-* [ビジネスケースのエクスポート](#export-the-business-case)
+* [ビジネスケースの概要](#overview-of-the-business-case-summary)
+* [ビジネスケースをエクスポート](#export-the-business-case)
 
-### ビジネス事例の概要 {#overview-of-the-business-case-summary}
+### ビジネスケースの概要 {#overview-of-the-business-case-summary}
 
-主なプロジェクトの財務状況の概要と、プロジェクトがスコアカードと一致しているかどうかの概要は、ビジネスケースの右上隅にあるビジネスケースの概要パネルで確認できます。
+主なプロジェクトの財務状況の概要と、プロジェクトがスコアカードと整合性が取れているかどうかの概要は、ビジネスケースの右上隅にあるビジネスケースの概要パネルで確認できます。
 
-ビジネス事例サマリは編集できません。 これは、財務分野とスコアカードに関連する、プロジェクトの状態のクイックビューに過ぎません。 \
+ビジネスケースの概要は編集できません。これは、財務エリアとスコアカードに関連する、プロジェクトの状態のクイックビューに過ぎません。 \
  
 
-次のフィールドが「ビジネス事例サマリ」に表示されます。
+ビジネスケースの概要には、次のフィールドが表示されます。
 
-* プロジェクトの正味の値
-* プロジェクトの予算コスト
-* 潜在的なリスクコスト
-* 計画済み給付金
-* 線形スコア
+* プロジェクト純価
+* プロジェクト予算計上コスト
+* 潜在リスクコスト
+* 予定利益
+* 整合性スコア
 
-これらのフィールドについて詳しくは、 [ビジネス事例の財務分野の概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+これらのフィールドの詳細については、[ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)を参照してください。
 
-### ビジネスケースのエクスポート {#export-the-business-case}
+### ビジネスケースをエクスポート {#export-the-business-case}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: made this into a standalone article, linked in the first paragraph of this section)</p>
 -->
 
-ビジネスケースを印刷したり、より簡潔な形式で E メールに添付したりする必要がある場合は、ビジネスケースをPDFファイルに書き出すことができます。 
+ビジネスケースを印刷したり、より圧縮された形式でメールに添付したりする必要がある場合に備えて、ビジネスケースを PDF ファイルに書き出すことができます。 
 
-詳しくは、 [プロジェクトのビジネス事例のエクスポート](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+詳しくは、[プロジェクトのビジネスケースの書き出し](../../../manage-work/projects/define-a-business-case/export-business-case.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
