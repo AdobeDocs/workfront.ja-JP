@@ -1,203 +1,216 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-salesforce
-title: 作成 [!DNL Adobe Workfront] プロジェクトから [!DNL Salesforce] オブジェクト
-description: インストール後 [!DNL Adobe Workfront] Salesforce の場合は、 [!DNL Workfront] プロジェクト [!DNL Salesforce] 商談とアカウント。
+title: ' [!DNL Salesforce]  オブジェクトからの  [!DNL Adobe Workfront]  プロジェクトの作成'
+description: ' [!DNL Adobe Workfront] for Salesforce をインストールした後、 [!DNL Salesforce] 商談とアカウントで特定の基準が満たされたときに [!DNL Workfront] プロジェクトを作成するトリガーを定義できます。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
 source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1506'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# 作成 [!DNL Adobe Workfront] プロジェクトから [!DNL Salesforce] オブジェクト
+# [!DNL Salesforce] オブジェクトからの [!DNL Adobe Workfront] プロジェクトの作成
 
-インストール後 [!DNL Adobe Workfront] Salesforce の場合は、 [!DNL Workfront] プロジェクト [!DNL Salesforce] [!UICONTROL 商談] および [!UICONTROL アカウント].
+[!DNL Adobe Workfront]for Salesforce をインストールした後、[!DNL Salesforce] [!UICONTROL  の商談]と[!UICONTROL アカウント]で特定の基準が満たされたときに [!DNL Workfront] プロジェクトを作成するトリガーを定義できます。
 
 ## アクセス要件
 
-この記事で説明する機能を使用するには、次のアクセス権が必要です。
+この記事で説明されている機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]</p> </td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-次の手順で [!DNL Workfront] からのリクエスト [!DNL Salesforce] [!UICONTROL 商談] またはアカウントを使用して、環境に次の設定があることを確認します。
+[!DNL Salesforce][!UICONTROL 商談]またはアカウントから [!DNL Workfront] リクエストを送信するには、
+環境に次のものが存在することを確認してください。
 
-* お使いの [!DNL Workfront] 管理者がインストール済み [!DNL Workfront for Salesforce].\
-   インストールの詳細 [!DNL Workfront for Salesforce]を参照してください。 [インストール [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* [!DNL Workfront] 管理者が [!DNL Workfront for Salesforce] を既にインストールしている。\
+   [!DNL Workfront for Salesforce] のインストールについて詳しくは、[ [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
 
-* お使いの [!DNL Workfront] 管理者が [!DNL Workfront] セクションで [!UICONTROL 商談] およびアカウントページレイアウト\
-   詳しくは、 [!DNL Workfront] セクションをページレイアウトに追加する場合は、 [の設定 [!DNL Adobe Workfront] セクション [!DNL Salesforce] ユーザー](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+* [!DNL Workfront] 管理者が、[!UICONTROL 商談]ページとアカウントページのレイアウトに「[!DNL Workfront]」セクションを
+既に追加している。\
+   ページレイアウトに「[!DNL Workfront]」セクションを追加する方法について詳しくは、[ [!DNL Salesforce] ユーザーへの「 [!DNL Adobe Workfront] 」セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
 
-* 次の条件を満たしている： [!DNL Workfront] アカウントを使用し、 [!DNL Workfront] セクションを [!UICONTROL 商談] またはアカウント。
+* [!DNL Workfront] アカウントがあり、[!UICONTROL 商談]またはアカウント内の「[!DNL Workfront]」セクションからログインできる。
 
-## 作成の設定 [!DNL Workfront] プロジェクト元 [!DNL Salesforce]
+
+## [!DNL Salesforce] からの [!DNL Workfront] プロジェクトの作成の設定
 
 * [プロジェクトの自動作成について](#understanding-the-automatic-creation-of-projects-understanding-the-automatic-creation-of-projects)
-* [設定トリガー](#configuring-triggers-configuring-triggers)
+* [トリガーの設定](#configuring-triggers-configuring-triggers)
 * [プロジェクト名について](#understanding-project-names-understanding-project-names)
 
 ### プロジェクトの自動作成について {#understanding-the-automatic-creation-of-projects}
 
-を [!DNL Salesforce] システム管理者は、でプロジェクトを自動的に作成できるトリガーを定義できます。 [!DNL Workfront] で次のことが起こった場合 [!DNL Salesforce]:
+[!DNL Salesforce] システム管理者は、[!DNL Salesforce] で次のことが発生したときに [!DNL Workfront] でプロジェクトを自動的に作成できるトリガーを定義できます。
 
-* この [!UICONTROL ステージ] の [!UICONTROL 商談] が更新されました。
-* この [!UICONTROL タイプ] の数が更新されました。
+* [!UICONTROL 商談]の[!UICONTROL ステージ]が更新された。
+* アカウントの[!UICONTROL タイプ]の数が
+更新された。
 
-トリガーは、 [!DNL Workfront for Salesforce].  \
-インストールに関する情報 [!DNL Workfront for Salesforce]を参照してください。 [インストール [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
+トリガーは、[!DNL Workfront for Salesforce] をインストールした後にのみ設定できます。  \
+[!DNL Workfront for Salesforce] のインストールについては、[ [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md) のインストールを参照してください。
 
-自動的に作成するトリガーを設定する際は、次の点を考慮してください [!DNL Workfront] 次の場合にプロジェクト [!DNL Salesforce] 項目が作成または更新されました：
+[!DNL Salesforce] の項目が作成または更新されたときに [!DNL Workfront] プロジェクトを自動的に作成するようにトリガーを設定する場合は、以下を考慮してください。
 
-* 次の条件を満たす必要があります。 [!DNL Salesforce] および [!DNL Workfront] システム管理者：トリガーを設定します。
-* 設定後、すべてのトリガーが [!UICONTROL ステージ] の [!UICONTROL 商談] または [!UICONTROL タイプ] アカウントのトリガーに、 [!DNL Workfront] プロジェクト。 これには以下が含まれます。 [!DNL Salesforce] ユーザーの [!DNL Workfront] アカウント
+* トリガーを設定するには、[!DNL Salesforce] および [!DNL Workfront] のシステム管理者である必要があります。
+* 設定後、[!UICONTROL 商談]の[!UICONTROL ステージ]、またはアカウントの[!UICONTROL タイプ]を更新する人は誰でも、
+[!DNL Workfront] プロジェクトの作成をトリガーできます。これには、[!DNL Workfront] アカウントを持たない [!DNL Salesforce] ユーザーも含まれます。
 * 使用できるトリガー数に制限はありません。
-* 同じ条件に基づいて複数のトリガーを作成することはできません。 トリガーは、デフォルトで一意です。
-* プロジェクトを作成すると、そのプロジェクトは自動的にオポチュニティまたは生成されたアカウントにリンクされます。 一旦確立すると、このリンクは切断できません。
-* 1 つのオポチュニティまたはアカウントを [!DNL Workfront] トリガーされた条件が、オポチュニティまたはアカウントの存続期間中に複数回満たされた場合。
+* 同じ条件に基づいて複数のトリガーを作成することはできません。トリガーは、デフォルトで一意です。
+* プロジェクトを作成すると、そのプロジェクトは自動的に商談または生成されたアカウントにリンクされます。一旦確立すると、このリンクは切断できません。
+* 商談またはアカウントの存続期間中にトリガーされた条件が複数回満たされた場合、1 つの商談またはアカウントを [!DNL Workfront] の複数のプロジェクトにリンクできます。
 
-   例えば、複数の [!UICONTROL ステージ] の [!UICONTROL 商談] プロジェクトをトリガーするには、オポチュニティが到達する定義済みのステージごとに、そのオポチュニティの存続期間中にプロジェクトが作成されます。 また、 [!UICONTROL ステージ] の [!UICONTROL 商談] 定義されたステージから別のステージに移動し、定義されたステージに戻ると、2 回目に更新したときに 2 つ目のプロジェクトが作成されます。 [!UICONTROL ステージ] フィールドを同じ定義済みステージに追加します。
+  例えば、[!UICONTROL 商談]に対して複数の[!UICONTROL ステージ]を定義してプロジェクトをトリガーすると、プロジェクトは、その商談が存在する限り、その商談が到達する定義済みのステージごとに作成されます。また、[!UICONTROL 商談]の[!UICONTROL ステージ]を定義されたステージから別のステージに更新し、その後定義されたステージに戻すと、2 回目に「[!UICONTROL ステージ]」フィールドを同じ定義済みステージに更新したときに、そのステージに対して 2 つ目のプロジェクトが作成されます。
 
-* の 1 つのプロジェクト [!DNL Workfront] は、 [!DNL Salesforce] いつでも同時にではなく、両方に対して同時にではありません。
+* [!DNL Workfront] の 1 つのプロジェクトは、常に [!DNL Salesforce] の 1 つの商談または 1 つのアカウントにのみリンクできますが、同時に両方にリンクすることはできません。
 
-### 設定トリガー {#configuring-triggers}
+### トリガーの設定 {#configuring-triggers}
 
-設定が完了すると、トリガーの作成プロセスが [!DNL Workfront] 両方に対してプロジェクトが有効です [!UICONTROL Salesforce Classic] または [!DNL Lightning Experience] フレームワーク
+トリガーを設定すると、[!UICONTROL Salesforce Classic] または [!DNL Lightning Experience] の両方のフレームワークで [!DNL Workfront] プロジェクトの作成プロセスが有効になります。
 
-でトリガーを設定するには [!UICONTROL Salesforce]:
+[!UICONTROL Salesforce] でトリガーを設定するには：
 
-1. にログインします。 [!DNL Salesforce] をシステム管理者として設定します。
-1. （条件付き）で [!DNL Salesforce Classic]をクリックし、 **[!UICONTROL 設定]**、および **[!UICONTROL ビルド]** セクション、展開 **[!UICONTROL 稲妻]**.
+1. システム管理者として [!DNL Salesforce] にログインします。
+1. （条件付き）[!DNL Salesforce Classic] で、「**[!UICONTROL 設定]**」をクリックし、「**[!UICONTROL ビルド]**」セクションで&#x200B;**[!UICONTROL 稲妻]**&#x200B;を展開します。
 
    または
 
-   In [!DNL Salesforce] Lightning Experience で、 **[!UICONTROL 設定] アイコン**&#x200B;を、 **[!UICONTROL 設定]**&#x200B;および **[!UICONTROL PLATFORM ツール]** 展開 **[!UICONTROL アプリ]**.
+   [!DNL Salesforce] Lightning Experience で、**[!UICONTROL 設定]アイコン**、**[!UICONTROL 設定]**&#x200B;をクリックし、**[!UICONTROL プラットフォームツール]**&#x200B;で&#x200B;**[!UICONTROL アプリ]**&#x200B;を展開します。
 
-1. クリック **[!UICONTROL インストール済みパッケージ]**.
+1. **[!UICONTROL インストール済みパッケージ]**&#x200B;をクリックします。
 
-   この **[!DNL Workfront]** パッケージがインストールされました。
+   **[!DNL Workfront]** パッケージがインストールされます。
 
-1. クリック **[!UICONTROL 設定]** 次の **[!DNL Workfront]**.
+1. **[!DNL Workfront]** の横にある「**[!UICONTROL 設定]**」をクリックします。
 
-1. にログインします。 [!DNL Workfront] をシステム管理者として設定します。
+1. [!DNL Workfront] にシステム管理者としてログインします。
 
-   この **[!UICONTROL トリガー]** ページが表示されます。
+   「**[!UICONTROL トリガー]**」ページが表示されます。
 
-   ![salesforce_トリガー_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
+   ![salesforce_triggers_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
 
-1. クリック **[!UICONTROL 新規トリガー]**.
-1. 次の **[!UICONTROL [!DNL Salesforce]オブジェクト]** ドロップダウンメニューで、「 **[!UICONTROL 商談]**.
+1. 「**[!UICONTROL 新規トリガー]**」をクリックします。
+1. 「**[!UICONTROL [!DNL Salesforce]オブジェクト]**」ドロップダウンメニューから「**[!UICONTROL 機会]**」を選択します。
 
    必須フィールドです。
 
 1. （条件付き）次の項目を指定します。
 
-   1. 次の **[!UICONTROL ステージ]** ドロップダウンメニューで、 **[!UICONTROL ステージ]**.\
+   1. 「**[!UICONTROL ステージ]**」ドロップダウンメニューから「**[!UICONTROL ステージ]**」を選択します。
 
-      商談が [!UICONTROL ステージ] ここで指定した場合、 [!DNL Workfront]. 必須フィールドです。
+      ここで指定された[!UICONTROL ステージ]に機会が到達すると、プロジェクトが [!DNL Workfront] に作成されます。必須フィールドです。
 
-   1. 内 **[!UICONTROL Portfolioまたはプログラム]** フィールドに、プロジェクトを配置するPortfolioまたはプログラムの名前を入力します [!DNL Workfront]」をクリックし、リストに表示されたら選択します。\
+   1. 「**[!UICONTROL ポートフォリオまたはプログラム]**」フィールドで、[!DNL Workfront] 内でプロジェクトを配置するポートフォリオまたはプログラムの名前の入力を開始し、リストに表示されたらそれを選択します。\
 
-      Portfolioまたはプログラムを指定しない場合、新しいプロジェクトが作成され、 [!UICONTROL 自分が所有するプロジェクト] 次にログインしたユーザーのリスト： [!DNL Workfront] トリガー このユーザーは、新しいプロジェクトのプロジェクト所有者でもあります。
+      ポートフォリオまたはプログラムを指定しない場合、新しいプロジェクトが作成され、トリガーの設定時に [!DNL Workfront] にログインしているユーザーの[!UICONTROL 所有プロジェクト]リストに追加されます。このユーザーは、新しいプロジェクトのプロジェクト所有者でもあります。
 
-   1. 新しいテンプレートに関連付けるテンプレートの名前の入力を開始します [!DNL Workfront] プロジェクトを選択し、リストに表示されたら選択します。\
+   1. 新しい [!DNL Workfront] プロジェクトに関連付けるテンプレートの名前の入力を開始し、リストに表示されたらそれを選択します。\
 
       必須フィールドです。
 
 
       >[!NOTE]
       >
-      >この統合で使用するテンプレートに対してテンプレート所有者を指定した場合、その所有者が新しいプロジェクトのプロジェクト所有者になります。 新しいプロジェクトが [!UICONTROL 自分が所有するプロジェクト] テンプレートに従った、新しいプロジェクトの所有者であるユーザーのリスト。
+      >この統合に使用する予定のテンプレートにテンプレート所有者を指定している場合、それが新しいプロジェクトのプロジェクト所有者になります。新しいプロジェクトは、テンプレートに従って、新しいプロジェクトの所有者であるユーザーの[!UICONTROL 所有プロジェクト]リストの下に表示されます。
 
-   1. （オプション） **[!UICONTROL 販売した各製品タイプに対して新しいプロジェクトを作成] フィールド**&#x200B;任意の 1 つのオポチュニティで販売されるすべてのタイプの製品の新しいプロジェクトを作成する場合。
-   1. （条件付き） **[!UICONTROL 製品]** 内 **[!UICONTROL 製品]** ドロップダウンメニュー。
-
-      必須フィールドです。
-
-   1. （条件付き）名前の入力を開始する **[!UICONTROL テンプレート]** 新しい [!DNL Workfront] 指定した製品が [!UICONTROL 商談]. リストに表示される場合に選択します。
+   1. （オプション）1 つの機会で販売される製品のタイプごとに新しいプロジェクトを作成する場合は、**[!UICONTROL 販売製品タイプごとに新しいプロジェクトを作成]フィールド**&#x200B;を選択します。
+   1. （条件付き）「**[!UICONTROL 製品]**」ドロップダウンメニューで、「**[!UICONTROL 製品]**」を選択します。
 
       必須フィールドです。
 
-      新しい製品をに追加したときに作成されるプロジェクト [!DNL Salesforce] 商談が、商談に対して選択された同じPortfolioまたはプログラムに配置されています。
+   1. （条件付き）指定した製品が[!UICONTROL 機会]にある場合、新しい [!DNL Workfront] プロジェクトに関連付ける&#x200B;**[!UICONTROL テンプレート]**&#x200B;の名前の入力を開始します。名前がリストに表示されたら、選択します。
+
+      必須フィールドです。
+
+      新しい製品が [!DNL Salesforce] の機会に追加されるときに作成されるプロジェクトは、その機会に対して選択された同じポートフォリオまたはプログラムに配置されます。
 
       >[!IMPORTANT]
       >
-      >プロジェクトは、 [!UICONTROL 商談]. 製品がに追加されるのではなく、「ステージ」フィールドの更新時に指定された製品ごとに一意のプロジェクトが作成されます。 [!UICONTROL 商談].
+      >プロジェクトは、[!UICONTROL 機会]でステージが更新された場合にのみ作成されます。製品が[!UICONTROL 機会]に追加されるときではなく、「ステージ」フィールドが更新されるときに、指定された製品ごとに一意のプロジェクトが作成されます。
 
-1. （オプション）「 **[!UICONTROL 新規トリガー]**.
-1. （オプション） **[!UICONTROL [!DNL Salesforce]オブジェクト]** ドロップダウンメニューから「**アカウント**」を選択します。
+1. （オプション）「**[!UICONTROL 新しいトリガー]**」をクリックします。
+1. （オプション）「**[!UICONTROL [!DNL Salesforce]オブジェクト]**」ドロップダウンメニューから、「**アカウント
+**」を選択します。
 
    必須フィールドです。
 1. （条件付き）次の項目を指定します。
 
-   1. を選択します。 **[!UICONTROL タイプ]** から **[!UICONTROL タイプ]** ドロップダウンメニュー。
+   1. 「**[!UICONTROL タイプ]**」ドロップダウンメニューから「**[!UICONTROL タイプ]**」を選択します。
 
-      **アカウント**が **[!UICONTROL タイプ]** ここで指定 [!DNL Salesforce], a **[!UICONTROL プロジェクト]** 次で作成： [!DNL Workfront].
+      任意の「**アカウント
+**」が、[!DNL Salesforce] で指定された&#x200B;**[!UICONTROL タイプ]**&#x200B;として指定されている場合、**[!UICONTROL プロジェクト]**&#x200B;が [!DNL Workfront] に作成されます。
 
       必須フィールドです。
 
-   1. （オプション）名前の入力を開始する **[!UICONTROL Portfolio]** または **[!UICONTROL プログラム]** プロジェクトを配置する場所 [!DNL Workfront] 内 **[!UICONTROL Portfolioまたはプログラム]** フィールドに値を入力し、リストに表示されるときに選択します。
+   1. （オプション）「**[!UICONTROL ポートフォリオまたはプログラム]**」フィールドの [!DNL Workfront] にプロジェクトを配置する&#x200B;**[!UICONTROL ポートフォリオ]**&#x200B;または&#x200B;**[!UICONTROL プログラム]**&#x200B;の名前の入力を開始して、リストに表示されたら選択します。
 
-      Portfolioまたはプログラムを指定しない場合、新しいプロジェクトが作成され、 **[!UICONTROL 自分が所有するプロジェクト]** 次にログインしたユーザーのリスト： [!DNL Workfront] から [!DNL Salesforce]. また、ユーザーは、新しいプロジェクトのプロジェクト所有者でもあります。
+      ポートフォリオまたはプログラムを指定しない場合、新しいプロジェクトが作成され、[!DNL Salesforce] から [!DNL Workfront] にログインしたユーザーの&#x200B;**[!UICONTROL 所有プロジェクト]**&#x200B;リストに追加されます。また、ユーザーは、新しいプロジェクトのプロジェクト所有者でもあります。
 
-   1. 名前の入力を開始 **[!UICONTROL テンプレート]** 新しい [!DNL Workfront] プロジェクトを選択し、リストに表示されたら選択します。
+   1. 新しい [!DNL Workfront] プロジェクトに関連付ける&#x200B;**[!UICONTROL テンプレート]**&#x200B;の名前の入力を開始し、リストに表示されたらそれを選択します。
 
       必須フィールドです。
 
       >[!NOTE]
       >
-      >この統合で使用するテンプレートに対してテンプレート所有者を指定した場合、その所有者が新しいプロジェクトのプロジェクト所有者になります。 新しいプロジェクトが **[!UICONTROL 自分が所有するプロジェクト]** テンプレートに従った、新しいプロジェクトの所有者であるユーザーのリスト。
+      >この統合に使用する予定のテンプレートにテンプレート所有者を指定している場合、それが新しいプロジェクトのプロジェクト所有者になります。新しいプロジェクトは、テンプレートに従って、新しいプロジェクトの所有者であるユーザーの&#x200B;**[!UICONTROL 所有プロジェクト]**&#x200B;リストの下に表示されます。
+
    ![salesforce_トリガー_page_with_cleaned_up_template_names.png](assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   [!DNL Workfront] プロジェクトは、どのトリガーも満たすたびに生成されます。
+   いずれかのトリガーが満たされるたびに、[!DNL Workfront] プロジェクトが生成されるようになりました。
 
 ### プロジェクト名について {#understanding-project-names}
 
-プロジェクトを生成したトリガーに応じて、 [!DNL Workfront] は、次のいずれかのパターンに従うことができます。
+どのトリガーがプロジェクトを生成したかに応じて、[!DNL Workfront] 内のプロジェクトの名前は次のいずれかのパターンに従います。
 
-* オポチュニティまたはアカウントトリガーに基づいてプロジェクトを作成した場合、プロジェクトの名前は次のようになります。 *`<Salesforce object name>`: `<Project template name>` ( [!DNL Salesforce])*.
-* 新しい製品の追加も含む商談トリガーに基づいてプロジェクトが作成される場合、プロジェクトの名前は次のようになります。 *`<Salesforce object name>`: `<Salesforce product name>` ( [!DNL Salesforce])*.
+* プロジェクトが機会または取引先トリガーに基づいて作成された場合、プロジェクトの名前は次のようになります。*`<Salesforce object name>`：`<Project template name>`（[!DNL Salesforce] 経由）*。
+* 新しい製品の追加も含まれる機会トリガーに基づいてプロジェクトが作成された場合、プロジェクトの名前は次のようになります：*`<Salesforce object name>`：`<Salesforce product name>`（[!DNL Salesforce] 経由）*。
 
-## 表示 [!DNL Workfront] プロジェクト
+## [!DNL Workfront] プロジェクトを表示する
 
-次に、 [!DNL Workfront] 管理者が [!DNL Workfront] セクションで [!UICONTROL 商談] またはアカウントページレイアウトを使用すると、 [!UICONTROL プロジェクト] 」タブをクリックします。\
-詳しくは、 [!DNL Workfront] セクションを [!UICONTROL 商談] またはアカウントについては、 [の設定 [!DNL Adobe Workfront] セクション [!DNL Salesforce] ユーザー](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+[!DNL Workfront] 管理者が[!UICONTROL 機会]またはアカウント
+ページレイアウトに「[!DNL Workfront]」セクションを追加した場合、このセクションの「[!UICONTROL プロジェクト]」タブで自動的に作成されたプロジェクトを確認できます。\
+[!UICONTROL 機会]またはアカウント
+のページレイアウトへの「[!DNL Workfront]」セクションの追加について詳しくは、[ [!DNL Salesforce]  ユーザーに「 [!DNL Adobe Workfront] 」セクションを設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
 
-次をお持ちの場合は、 [!DNL Workfront] アカウントにログインし、 [!DNL Workfront] 表示する [!UICONTROL プロジェクト] タブをクリックします。
+「[!UICONTROL プロジェクト]」タブを表示するには、[!DNL Workfront] アカウントを持ち、[!DNL Workfront] にログインしている必要があります。
 
-から作成されたプロジェクトを表示するには [!UICONTROL 商談] またはアカウント：
+[!UICONTROL 機会]またはアカウント
+から作成されたプロジェクトを表示するには、以下の手順を実行します。
 
-1. 次に移動： [!UICONTROL 商談] またはアカウント。
-1. 次に移動： **[!DNL Workfront]** 」セクションに入力します。
+1. [!UICONTROL 機会]またはアカウント
+に移動します。
+1. 「**[!DNL Workfront]**」セクションに移動します。
 
    >[!NOTE]
    >
-   >使用する [!DNL Workfront] 管理者がこのセクションを設定しました。別の名前を使用している可能性があります。
+   >[!DNL Workfront] 管理者がこのセクションをどのように設定したかに応じて、別の名前が付けられる場合があります。
 
-1. を選択します。 **[!UICONTROL プロジェクト]** タブをクリックします。
+1. 「**[!UICONTROL プロジェクト]**」タブを選択します。
 
-   定義済みのプロジェクトで作成されたすべてのトリガーがこのタブに表示されます。 の任意のユーザー [!DNL Salesforce] 同じく [!DNL Workfront] アカウントと、これらのプロジェクトをで表示する権限を持つユーザー [!DNL Workfront] また、 [!DNL Salesforce] の [!UICONTROL 商談] または生成したアカウント。
+   定義済みのトリガーで作成されたすべてのプロジェクトがこのタブに表示されます。[!DNL Salesforce] のユーザーで、[!DNL Workfront] アカウントも持ち、[!DNL Workfront] でこれらのプロジェクトを表示する権限を持っている可能性があるユーザーは、それらを生成した[!UICONTROL 機会]またはアカウント
+について [!DNL Salesforce] でもそれらを確認できます。
 
    統合で作成されたプロジェクトに関する次の情報を表示できます。
 
@@ -210,11 +223,12 @@ ht-degree: 3%
    * 予定完了日
    * 完了率
 
-      この情報が [!DNL Workfront]をクリックすると、このリストで更新されたフィールドを確認できます。
+     この情報が [!DNL Workfront] で更新されると、このリストで更新されたフィールドを確認できます。
 
-1. （オプション）プロジェクトの名前をクリックして、Workfrontで開きます。
-1. （オプション）「 [!UICONTROL **[!UICONTROL Salesforce に移動]**] 内 [!UICONTROL プロジェクトの詳細] 領域、または [!UICONTROL 商談] またはプロジェクトが開始されたアカウント システム管理者またはグループ管理者が [!UICONTROL 統合] フィールドをレイアウトテンプレートに追加して、プロジェクトのヘッダーに表示します。
+1. （オプション）プロジェクトの名前をクリックして、Workfront で開きます。
+1. （オプション）[!UICONTROL プロジェクト詳細]エリアまたはプロジェクトヘッダーの「[!UICONTROL **[!UICONTROL Salesforce に移動」]**]をクリックして、プロジェクトが開始された[!UICONTROL 機会]またはアカウント
+にアクセスします。システム管理者またはグループ管理者は、プロジェクトヘッダーで「[!UICONTROL 統合]」フィールドを見つけるためにレイアウトテンプレートにそのフィールドを追加する必要があります。
 
    >[!NOTE]
    >
-   >この [!UICONTROL Salesforce に移動] リンクはすべてのに対して表示されます [!DNL Workfront] プロジェクトを表示できるユーザー。 次をお持ちの場合は、 [!DNL Salesforce] 次にアクセスできるアカウント [!DNL Salesforce] プロジェクトが生成された商談またはアカウント。
+   >「[!UICONTROL Salesforce に移動]」リンクは、プロジェクトを表示できるすべての [!DNL Workfront] ユーザーに表示されます。プロジェクトが生成された [!DNL Salesforce] の機会またはアカウントに移動するには、[!DNL Salesforce] アカウントが必要です。
