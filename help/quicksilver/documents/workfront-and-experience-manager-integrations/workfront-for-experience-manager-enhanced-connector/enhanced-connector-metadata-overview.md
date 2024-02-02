@@ -2,27 +2,27 @@
 content-type: overview
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-experience-manager-enhanced-connector
-title: Workfront forExperience Manager強化コネクタメタデータの概要
-description: Workfront forExperience Manager拡張コネクタでは、アイディエーションから配信へのメタデータを自動的にキャプチャできます。 アセットリポジトリ内の検索性を向上させて、コンテンツの速度を向上させます。 プロジェクトのタイトル、参照番号、日付、またはその他の関連するメタデータプロパティを検索することで、特定のWorkfrontプロジェクトに関連するすべてのアセットを簡単に見つけることができます。
+title: Workfront for Experience Manager 拡張コネクターのメタデータの概要
+description: Workfront for Experience Manager 拡張コネクタでは、アイディエーションから配信に至るまでのメタデータを自動的に取得できます。アセットリポジトリ内の検索性を向上させて、コンテンツの速度を向上させます。プロジェクトのタイトル、参照番号、日付、またはその他の関連するメタデータプロパティを検索することで、特定の Workfront プロジェクトに関連するすべてのアセットを簡単に見つけることができます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b05e766-6b07-451a-9f43-7f1a980e1a9d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-# Workfront forExperience Manager強化コネクタメタデータの概要
+# Workfront for Experience Manager 拡張コネクターのメタデータの概要
 
-Workfront forExperience Manager拡張コネクタでは、アイディエーションから配信へのメタデータを自動的にキャプチャできます。 アセットリポジトリ内の検索性を向上させて、コンテンツの速度を向上させます。 プロジェクトのタイトル、参照番号、日付、またはその他の関連するメタデータプロパティを検索することで、特定のWorkfrontプロジェクトに関連するすべてのアセットを簡単に見つけることができます。
+Workfront for Experience Manager 拡張コネクタでは、アイディエーションから配信に至るまでのメタデータを自動的に取得できます。アセットリポジトリ内の検索性を向上させて、コンテンツの速度を向上させます。プロジェクトのタイトル、参照番号、日付、またはその他の関連するメタデータプロパティを検索することで、特定の Workfront プロジェクトに関連するすべてのアセットを簡単に見つけることができます。
 
 ## メタデータのベストプラクティス
 
-Workfront forExperience Manager強化コネクタは、すべてのカスタムフォームフィールドをマッピングできます。 以下に、Workfrontで取り込み、Experience Manager Assetsに送信されるデジタルアセットに添付する一般的なメタデータフィールドのリストを示します。
+Workfront for Experience Manager 拡張コネクタは、すべてのカスタムフォームフィールドをマッピングできます。以下に、Workfront で取り込み、Experience Manager Assets に送信されるデジタルアセットに添付する一般的なメタデータフィールドのリストを示します。
 
-* プロジェクトの詳細
+* プロジェクト詳細
 
    * プロジェクト名
    * プロジェクト ID または参照番号
@@ -45,9 +45,9 @@ Workfront forExperience Manager強化コネクタは、すべてのカスタム�
    * 割り当て先
    * 合計ログ記録時間
 
-* 問題の詳細
+* イシューの詳細
 
-   * 問題名
-   * 問題 ID または参照番号
-   * 問題の説明
+   * イシュー名
+   * イシュー ID または参照番号
+   * イシューの説明
    * 割り当て先
