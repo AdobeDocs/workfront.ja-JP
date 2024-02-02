@@ -1,57 +1,57 @@
 ---
-title: 21.4 統合の強化
-description: 21.4 統合の強化
+title: 21.4 統合の機能強化
+description: 21.4 統合の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: d3e2342e-1c44-49c2-90bc-9fd77fbb2db8
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 21.4 統合の強化
+# 21.4 統合の機能強化
 
-このページでは、プレビュー環境の 21.4 リリースでおこなわれた統合の機能強化について説明します。 これらの機能強化は、2021 年 10 月 4 日の週に実稼動環境で利用可能になる予定です。
+このページでは、プレビュー環境の 21.4 リリースで行われた統合の機能強化について説明します。これらの機能強化は、2021年10月4日（PT）の週に実稼動環境で利用可能になる予定です。
 
-21.4 リリースで利用可能なすべての変更点の一覧については、 [21.4 リリースの概要](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+21.4 リリースで利用可能なすべての変更点の一覧については、[21.4 リリースの概要](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md)を参照してください。
 
-## ドキュメントをDropboxビジネス
+## Dropbox Business からドキュメントをリンク
 
-使用可能なドキュメント統合としてDropboxビジネスを追加しました。 これで、Workfront内から直接、Dropboxビジネスに保存したドキュメントにアクセスできます。
+利用可能なドキュメント統合として Dropbox Business を追加しました。Dropbox Business に保存したドキュメントに Workfront 内から直接アクセスできるようになりました。
 
-Dropboxビジネスでは、共有ドキュメントをリンクし、共有フォルダにドキュメントをアップロードできます。 Dropbox(Dropboxビジネスではない ) を使用すると、ドキュメントの所有者のみがWorkfrontでドキュメントを表示できます。
+Dropbox Business では、共有ドキュメントをリンクしたり、ドキュメントを共有フォルダーにアップロードしたりできます。Dropbox（Dropbox Business ではありません）では、ドキュメントの所有者のみが Workfront でドキュメントを表示できます。
 
-Workfront管理者が組織に対してこの統合を有効にできます。
+Workfront 管理者は、組織に対してこの統合を有効にすることができます。
 
-詳しくは、 [外部アプリケーションからドキュメントをリンク](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+詳しくは、[外部アプリケーションからドキュメントをリンク](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)を参照してください。
 
-Workfront管理者がこのオプションを有効にする方法について詳しくは、 [ドキュメント統合の設定](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Workfront 管理者がこのオプションを有効にする方法について詳しくは、[ドキュメント統合の設定](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
 
-## WorkfrontのSlackの更新
+## Workfront for Slack をアップデート
 
-WorkfrontでのSlack統合に関して、次の更新が表示されるようになりました。
+次の更新が Workfront for Slack 統合に表示されるようになりました。
 
-* Workfront forSlackは新しい外観と操作性を備えています。
-* これで、WorkfrontにリアルタイムでSlack通知が届きます。
+* Workfront for Slack のルックアンドフィールが新しくなりました。
+* Workfront for Slack の通知をリアルタイムで受信できるようになりました。
 
-  例えば、タスクに割り当てられている場合は、割り当てられるとすぐに通知を受け取ります。 以前は、通知がSlackに表示されるまでに遅延が生じる可能性がありました。
+  例えば、タスクに割り当てられている場合は、割り当てられるとすぐに通知を受け取ります。以前は、通知が Slack に表示されるまでに遅延が生じる可能性がありました。
 
-この更新では、Workfrontを認証統合のために再認証する必要があります。 統合の認証について詳しくは、 [Adobe WorkfrontをSlack用に設定](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+この更新では、Workfront for Slack を統合するために再認証する必要があります。統合の認証について詳しくは、[Adobe Workfront for Slack を設定](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)を参照してください。
 
-Slack通知について詳しくは、 Workfront [Adobe Workfront通知をSlackで受信](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Workfront for Slack の通知について詳しくは、[Adobe Workfront の通知を Slack で受信](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)を参照してください。
 
-## Adobe Workfront統合に同意する場合のアカウントアクセスの詳細をより明確に示す
+## Adobe Workfront 統合に同意する際のアカウントアクセスの詳細を、より明確に表示
 
-Adobe Workfront統合の同意画面が更新されました。 これで、統合がアクセスできる特定のアクションおよび領域を表示できるので、統合またはアプリケーションがアクセスできるようにする内容をより深く理解できます。
+Adobe Workfront 統合の同意画面が更新されました。これで、統合がアクセスできる特定のアクションおよびエリアを表示できるので、統合またはアプリケーションがアクセスできるようにする内容をより深く理解できます。
 
-この新しい同意画面は、OAuth 2.0 を使用するAdobe Workfront統合に適用されます。
+この新しい同意画面は、OAuth 2.0 を使用する Adobe Workfront 統合に適用されます。
 
 特定の統合について詳しくは、統合のドキュメントを参照してください。
 
-## 統合に API キー認証は不要になりました
+## 統合に API キー認証が不要になりました
 
-Workfront統合は、最近、セキュリティと操作性を高めるために OAuth2 を使用し始めています。 この移行の一環として、Workfrontでは、統合認証に API キーを必要としなくなりました。
+最近、Workfront 統合では、セキュリティと使いやすさを向上させるために、OAuth2 の使用が開始されました。この移行の一環として、Workfront では、統合認証に API キーを必要としなくなりました。
