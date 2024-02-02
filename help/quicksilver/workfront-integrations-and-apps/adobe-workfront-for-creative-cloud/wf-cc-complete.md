@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Adobe Workfrontプラグインを使用して作業項目を完了とマーク
-description: Adobe Workfrontでの作業をシームレスに完了し、Adobe Creative Cloudアプリケーションに留まることができます。
+title: Adobe Workfront プラグインを使用して作業アイテムを完了とマーク
+description: Adobe Workfront での作業をシームレスに完了し、Adobe Creative Cloud アプリケーションに留まることができます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 次を使用して作業項目を完了済みとマーク [!DNL Adobe Workfront] プラグイン
+# [!DNL Adobe Workfront] プラグインを使用して作業アイテムを完了済みとマーク
 
-次の場所に留まることができます [!DNL Adobe Creative Cloud] アプリケーションとシームレスに、 [!DNL Adobe Workfront] プラグインを使用：
+次の [!DNL Adobe Creative Cloud] アプリケーションに留まり、プラグインを使用して [!DNL Adobe Workfront] でシームレスに作業を完了できます。
 
 {{cc-app-list}}
 
@@ -37,40 +37,40 @@ ht-degree: 0%
   </tr> --> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
+   <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>[!UICONTROL 編集 ]：完了するオブジェクトへのアクセス権。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>完了するオブジェクトへの[!UICONTROL Edit]アクセス権。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a> を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
 {{cc-install-prereq}}
 
-## 作業項目を完了
+## 作業アイテムを完了する
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 次の **[!UICONTROL 作業用リスト]**、完了とマークするタスクまたは問題を選択します。
-1. クリック **[!UICONTROL 完了]**.  このタスクまたはタスクに割り当てられた唯一のユーザーである場合は、項目がマークされます [!UICONTROL 完了] または [!UICONTROL 解決済み] in [!DNL Workfront].
-1. （条件付き）複数のユーザーがこのタスクまたはイシューに割り当てられている場合、 [!UICONTROL 完了] ドロップダウンを開きます。 次の操作が可能です。
+1. **[!UICONTROL 作業リスト]**&#x200B;から、完了とマークするタスクまたはイシューを選択します。
+1. 「**[!UICONTROL 完了]**」をクリックします。このタスクまたはイシューに割り当てられた唯一のユーザーである場合は、[!DNL Workfront] で項目に対して[!UICONTROL 完了]または[!UICONTROL 解決済み]とマークされます。
+1. （条件付き）複数のユーザーがこのタスクまたはイシューに割り当てられている場合、「[!UICONTROL 完了]」をクリックするとドロップダウンが表示されます。次の操作が可能です。
 
-   クリック **[!UICONTROL 私の部分で完了]** 他のユーザーがタスクまたはイシューを完了するために自分の作業を行う必要がある場合。
+   他のユーザーがタスクまたはイシューを完了する作業を行う必要がある場合、「**[!UICONTROL 担当部分は完了]**」をクリックします。
 
    または
 
-   クリック **[!UICONTROL 完了]** （タスクの場合）または **[!UICONTROL 解決済み]** （問題の場合）タスクや問題に対してこれ以上の作業をおこなう必要がない場合に使用します。 これは、項目をマークします [!UICONTROL 完了] または [!UICONTROL 解決済み] in [!DNL Workfront].
+   タスクやイシューに対してこれ以上の作業を行う必要がない場合、（タスクに対して）「**[!UICONTROL 完了]**」または（イシューに対して）「**[!UICONTROL 解決済み]**」をクリックします。これは、[!DNL Workfront] で項目を[!UICONTROL 完了]または[!UICONTROL 解決済み]とマークします。
 
    >[!NOTE]
    >
-   >作業項目に先行タスクがある場合、先行タスクが完了とマークされるまで、[ 完了 ] ボタンは灰色で表示されます。 内の先行タスクを表示するには [!DNL Workfront]、タスク名をクリックします。
+   >先行する作業アイテムがある場合、先行するものが完了とマークされるまで、「完了」ボタンは灰色で表示されます。[!DNL Workfront] 内の先行タスクを表示するには、タスク名をクリックします。
    >![](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
