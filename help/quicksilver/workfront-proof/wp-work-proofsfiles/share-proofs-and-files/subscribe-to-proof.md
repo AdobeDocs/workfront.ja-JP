@@ -2,37 +2,37 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: で配達確認を購読 [!DNL Workfront] 配達確認
-description: 別のユーザーが配達確認の URL を開いてブラウザーで開くと、読み取り専用モードで校正ビューアが起動します。 配達確認を処理する前に、配達確認を購読して自分を特定する必要があります。
+title: ' [!DNL Workfront]  Proof でプルーフに登録する'
+description: 別のユーザーの送信時にプルーフ URL を開き、それをブラウザーで開くと、プルーフビューアが読み取り専用モードで起動します。プルーフで作業する前に、登録して自分自身を識別する必要があります。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# で配達確認を購読 [!DNL Workfront Proof]
+# [!DNL Workfront Proof] でプルーフに登録する
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-別のユーザーが配達確認の URL を開いてブラウザーで開くと、読み取り専用モードで校正ビューアが起動します。 配達確認を処理する前に、配達確認を購読して自分を特定する必要があります。
+別のユーザーの送信時にプルーフ URL を開き、それをブラウザーで開くと、プルーフビューアが読み取り専用モードで起動します。プルーフで作業する前に、登録して自分自身を識別する必要があります。
 
 >[!NOTE]
 >
->ユーザーが配達確認を購読する前に、その購読設定を有効にする必要があります ( [での配達確認の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [での配達確認の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)) をクリックします。
+>ユーザーがプルーフに登録する前に、そのサブスクリプション設定を有効にする必要があります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) のプルーフ設定を設定の[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) のプルーフ設定を設定の節を参照）。
 
-配達確認を購読するには：
+プルーフに登録するには、次の手順を実行します。
 
-1. クリック **[!UICONTROL ログイン]** をクリックします。
-1. 電子メールアドレスを **[!UICONTROL ログイン]** 」ボックスが表示されます。
-1. 配達確認のレビュー担当者でもユーザーでもない場合は、 [!DNL Workfront Proof]、表示名を入力します。\
+1. プルーフビューアーの上部にある「**[!UICONTROL ログイン]**」をクリックします。
+1. 表示される「**[!UICONTROL ログイン]**」ボックスにメールアドレスを入力します。
+1. プルーフのレビュアーでも [!DNL Workfront Proof] のユーザーでもない場合は、表示名を入力します。\
    または\
-   次の場合、 [!DNL Workfront Proof] パスワードを入力します（配達確認のレビュー担当者かどうかに関係なく）。\
-   配達確認を共有した人が選択した配達確認共有 E メールの設定に応じて、E メールで送信される E メールで、検証手順に従う必要が生じる場合があります。
+   [!DNL Workfront Proof] パスワードをお持ちの場合は、それを入力します（プルーフのレビュアーかどうかは関係ありません）。\
+   プルーフを共有したユーザーが選択したプルーフ共有メールの設定に応じて、送信されたメールに記載されている検証手順に従う必要がある場合があります。
 
-1. 配達確認に対するユーザーの役割は、配達確認の詳細ページで設定される「購読」です。 配達確認の役割の設定について詳しくは、 [での配達確認の設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+1. プルーフにおけるユーザーの役割はサブスクリプションであり、これはプルーフのプルーフの詳細ページで設定されます。プルーフの役割の設定について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でプルーフを設定を参照してください。
