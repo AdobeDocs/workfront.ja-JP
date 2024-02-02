@@ -5,8 +5,8 @@ title: アジャイルチームのかんばんカードの Workfront ボード�
 description: 作業アイテムをアジャイルチームかんばんボードから新規または既存の Workfront ボードに移行できます。
 author: Lisa
 feature: Agile
-exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
