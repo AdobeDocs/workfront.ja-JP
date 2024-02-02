@@ -1,41 +1,41 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: イベント購読用のアウトバウンドメッセージ形式
-description: イベント購読用のアウトバウンドメッセージ形式
+title: イベント登録用のアウトバウンドメッセージ形式
+description: イベント登録用のアウトバウンドメッセージ形式
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
-workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '255'
+ht-degree: 100%
 
 ---
 
-# イベント購読用のアウトバウンドメッセージ形式
+# イベント登録用のアウトバウンドメッセージ形式
 
-Adobe Workfront 2017.3 のリリースでは、パフォーマンスを向上させ、統合でイベント購読をより適切に使用できるように、イベント購読のアウトバウンドメッセージの形式が変更されます。
+Adobe Workfront 2017.3 のリリースでは、イベント登録のアウトバウンドメッセージの形式が変更され、パフォーマンスを向上させ、統合のためにイベント登録をより適切に使用できるようになります。
 
 ## アウトバウンドメッセージ形式の更新
 
-送信メッセージの形式に対して、次の変更がおこなわれます。
+アウトバウンドメッセージの形式に対して、次の変更が行われます。
 
-* アウトバウンドメッセージには、Workfrontリソースの oldState と newState が含まれます。
+* アウトバウンドメッセージには、Workfront リソースの oldState と newState が含まれます。
 
-  これらの値は、Workfrontでのイベントの結果としてオブジェクトに加えられた変更を表示します。
+  これらの値は、Workfront でのイベントの結果としてオブジェクトに加えられた変更を表示します。
 
-* eventTime メタデータフィールドは、すべての送信メッセージに追加されます。
+* eventTime メタデータフィールドが、すべての送信メッセージに追加されます。
 
-  このフィールドは、ナノ秒およびエポック秒単位で、イベントが発生した時刻を示します。 統合で処理されるイベントを並べ替える際に、 eventTime を使用します。
+  このフィールドは、イベントが発生した時刻をナノ秒（Nanosecond）およびエポック秒（EpochSeconds）単位で、示します。統合で処理されるイベントを並べ替える際に、eventTime を使用します。
 
 * メモリソースの owner:companyID の参照フィールドは削除されます。
-* DOCU (Document) リソースの currentVersion が参照している objectOn は削除されます。
+* DOCU（Document）リソースの currentVersion が参照している objectOn は削除されます。
 
-現在Workfrontイベントのサブスクリプションを使用している場合、これらの変更を考慮するには、2017.3 リリースより前にWorkfront統合を更新する必要があります。
+現在 Workfront イベントの登録を使用している場合、これらの変更に対応するには、2017.3 リリースより前にWorkfront 統合を更新する必要があります。
 
-イベント購読について詳しくは、 [イベント購読 API](../../wf-api/general/event-subs-api.md).
+イベント登録について詳しくは、[Event Subscription API](../../wf-api/general/event-subs-api.md) を参照してください。
 
 ## 古いメッセージ形式と新しいメッセージ形式のサンプル
 
@@ -73,7 +73,7 @@ Adobe Workfront 2017.3 のリリースでは、パフォーマンスを向上さ
 }
 ```
 
-2017.3 のリリース後、次の新しい形式の CREATE メッセージが使用されます。
+2017.3 のリリース後は、次の新しい形式の CREATE メッセージが使用されます。
 
 ```
 {
@@ -111,7 +111,7 @@ Adobe Workfront 2017.3 のリリースでは、パフォーマンスを向上さ
    "oldState": {}
 ```
 
-次の古い形式の更新メッセージは、2017.3 のリリース後は使用されなくなります。
+次の古い形式の UPDATE メッセージは、2017.3 のリリース後は使用されなくなります。
 
 ```
 {
@@ -147,7 +147,7 @@ Adobe Workfront 2017.3 のリリースでは、パフォーマンスを向上さ
  }
 ```
 
-2017.3 のリリース後に、次の新しい形式の UPDATE メッセージが使用されます。
+2017.3 のリリース後は、次の新しい形式の UPDATE メッセージが使用されます。
 
 ```
 {
