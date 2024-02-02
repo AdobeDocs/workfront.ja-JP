@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
-title: リクエストタイプの設定
-description: プロジェクトの作業中に、予期しないイベントが発生することがあります。 これらの予期しないイベントは、特定のプロジェクトまたはタスクの問題として記録できます。 リクエストキューとして指定されたプロジェクトの問題として記録されたリクエストを送信することもできます。 問題とリクエストは、Adobe Workfrontで交換可能と見なされます。
+title: リクエストタイプを設定
+description: プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントは、特定のプロジェクトやタスクに対するイシューとして記録できます。リクエストを送信することもできます。リクエストは、リクエストキューとして指定されたプロジェクトのイシューとして記録されます。Adobe Workfront では、イシューとリクエストは互換性があると見なします。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# リクエストタイプの設定
+# リクエストタイプを設定
 
-プロジェクトの作業中に、予期しないイベントが発生することがあります。 これらの予期しないイベントは、特定のプロジェクトまたはタスクの問題として記録できます。 リクエストキューとして指定されたプロジェクトの問題として記録されたリクエストを送信することもできます。 問題とリクエストは、Adobe Workfrontで交換可能と見なされます。
+プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントは、特定のプロジェクトやタスクに対するイシューとして記録できます。リクエストを送信することもできます。リクエストは、リクエストキューとして指定されたプロジェクトのイシューとして記録されます。Adobe Workfront では、イシューとリクエストは互換性があると見なします。
 
-での問題の作成に関する情報 [!DNL Workfront]を参照してください。 [イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md). でのリクエスト作成について詳しくは、 [!DNL Workfront]を参照してください。 [作成して送信 [!DNL Adobe Workfront] リクエスト](../../../manage-work/requests/create-requests/create-submit-requests.md). 要求タイプとプロジェクトの関連付けについては、 [プロジェクトの要求タイプの定義](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+[!DNL Workfront] でのイシューの作成については、[イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。[!DNL Workfront] でのリクエストの作成については、[ [!DNL Adobe Workfront] リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。リクエストタイプとプロジェクトの関連付けについては、[プロジェクトのリクエストタイプの定義](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)を参照してください。
 
 ## アクセス要件
 
@@ -30,16 +30,16 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> <p><b>注意</b>:まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,35 +61,35 @@ You must have at least one request type selected. You can select multiple reques
 </div>
 -->
 
-## リクエストタイプの名前のカスタマイズ
+## リクエストタイプ名のカスタマイズ
 
-As a [!DNL Workfront] 管理者は、システムでリクエストタイプの名前を設定できます。 新しい名前は、 [!DNL Workfront] ここで、 **[!UICONTROL 問題のタイプ]** または **[!UICONTROL リクエストタイプ]** フィールドの表示：
+[!DNL Workfront] 管理者は、システム内でのリクエストタイプ名を設定できます。新しい名前は、**[!UICONTROL イシュータイプ]**&#x200B;または&#x200B;**[!UICONTROL リクエストタイプ]**&#x200B;のフィールドが表示される [!DNL Workfront] のエリアに表示されます。
 
-* 内 **[!UICONTROL キューの詳細]** 問題またはリクエストを受け取るプロジェクトの領域。
-* 1 つのリクエストキューに対して複数のリクエストタイプが選択されている場合、 **[!UICONTROL 新しい問題] フォーム** 内 **[!UICONTROL 問題のタイプ]** フィールドに入力します。
+* イシューまたはリクエストを受け取るプロジェクトの&#x200B;**[!UICONTROL キューの詳細]**&#x200B;エリア。
+* 新しいイシューを作成するか、新しいリクエストを送信するときに、**[!UICONTROL イシュータイプ]**&#x200B;フィールドの&#x200B;**[!UICONTROL 新しいイシュー]フォーム**&#x200B;でリクエストキューに対して複数のリクエストタイプが選択されている場合。
 
-   での問題の作成について詳しくは、 [!DNL Workfront]を参照してください。  [イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)
+  [!DNL Workfront] でのイシューの作成について詳しくは、[イシューを作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。
 
-   でのリクエスト作成について詳しくは、 [!DNL Workfront]を参照してください。  [作成して送信 [!DNL Adobe Workfront] リクエスト](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  [!DNL Workfront] でのリクエストの作成について詳しくは、[ [!DNL Adobe Workfront]  リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-* の **[!UICONTROL トピックの詳細をキュー]** フォームを開きます。\
-   キュートピックの作成の詳細については、 [キュートピックを作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* キューのトピックを設定するとき、**[!UICONTROL キューのトピックの詳細]**&#x200B;フォーム。\
+   キューのトピックの作成について詳しくは、[キューのトピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
-リクエストタイプの名前をカスタマイズするには：
+リクエストタイプ名をカスタマイズするには：
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
 
-1. クリック **[!UICONTROL プロジェクト環境設定]** > **[!UICONTROL ステータス]**.
+1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL ステータス]**&#x200B;をクリックします。
 
-1. 次をクリック： **[!UICONTROL 問題]** タブをクリックします。
-1. の上部 **[!UICONTROL 問題]** 「 」タブで、リクエストタイプの名前の上にマウスポインターを置いて、 **[!UICONTROL 編集]** 表示されるアイコン。
+1. 「**[!UICONTROL イシュー]**」タブをクリックします。
+1. 「**[!UICONTROL イシュー]**」タブの上部で、リクエストタイプ名にカーソルを合わせ、表示される&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
    ![](assets/edit-request-type-name-nwe.png)
 
-1. 表示されるボックスに新しい名前を入力し、 **[!UICONTROL 入力]**.
+1. 表示されるボックスに新しい名前を入力し、**[!UICONTROL Enter]** を押します。
 
-## 様々なリクエストタイプ内での問題ステータスの設定
+## 異なるリクエストタイプ内でのイシューステータスの設定
 
-各リクエストタイプを異なる問題ステータスに関連付けることができます。 また、イシューのタイプに応じて、イシューに対するステータスの表示順を変更することもできます。
+各リクエストタイプを異なるイシューステータスに関連付けることができます。また、イシューのタイプに応じて、イシューに対するステータスの表示順を変更することもできます。
 
-問題ステータスのデフォルトの順序の変更と問題ステータスの設定について詳しくは、 [ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) セクション [ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+イシューステータスのデフォルトの順序の変更とイシューステータスの設定について詳しくは、[ステータスの作成と編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)の[ステータスの作成と編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)の節を参照してください。
