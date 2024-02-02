@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 8 月 23 日の週
-description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 8 月 23 日の週
+title: Workfront Fusion リリースアクティビティ：2021年8月23日（PT）の週
+description: Workfront Fusion リリースアクティビティ：2021年8月23日（PT）の週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -8,42 +8,42 @@ recommendations: noDisplay, noCatalog
 exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 8 月 23 日の週
+# Workfront Fusion リリースアクティビティ：2021年8月23日（PT）の週
 
-このページでは、2021 年 8 月 23 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年8月23日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## Workfrontモジュールで Typeahead フィールドを使用できるようになりました
+## Workfront モジュールで Typeahead フィールドを使用できるようになりました
 
-モジュールを使いやすくするために、一部のドロップダウンリストを typeahead フィールドに置き換えました。 これで、長いリストから項目を選択する代わりに、項目の入力を開始し、表示されたらクリックすることができます。
+モジュールを使いやすくするために、一部のドロップダウンリストを typeahead フィールドに置き換えました。これで、長いリストから項目を選択する代わりに、項目を入力し始めると表示される項目をクリックできます。
 
-以前は、ユーザーはドロップダウンリストから項目を選択していました。 オブジェクトによっては、リストが長くなり、項目をスクロールして場所を見つけるのに不便な場合があります。
+以前は、ユーザーはドロップダウンリストから項目を選択していました。オブジェクトによっては、リストが長くなり、スクロールして対象の項目を見つけるのに不便な場合があります。
 
-Workfrontモジュールについて詳しくは、 [Adobe Workfrontモジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Workfront モジュールについて詳しくは、[Adobe Workfront モジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)を参照してください。
 
-## Workfrontモジュールで請求レコードオブジェクトを利用できるようになりました
+## Workfront モジュールで請求記録オブジェクトを利用できるようになりました
 
-請求レコードオブジェクトは、次のモジュール内のドロップダウンオブジェクト選択リストに表示されます。
+請求記録オブジェクトは、次のモジュール内のドロップダウンオブジェクト選択リストに表示されます。
 
-* レコードを監視
-* レコードを削除
-* レコードを作成
+* 記録を監視
+* 記録を削除
+* 記録を作成
 * レコードの読み取り
-* レコードを更新
-* レコードを検索
+* 記録を更新
+* 記録を検索
 
-以前は、請求レコードオブジェクトはマッピングを通じてのみ使用できました。
+以前は、請求記録オブジェクトはマッピングを通じてのみ使用できました。
 
-詳しくは、 [Adobe Workfrontモジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+詳しくは、[Adobe Workfront モジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
