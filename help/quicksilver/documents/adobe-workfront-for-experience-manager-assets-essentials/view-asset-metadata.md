@@ -2,21 +2,21 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Experience Manager AssetsまたはAssets Essentialsのマッピングされたメタデータの表示
-description: マッピングされたメタデータのリアルタイム表示は、ドキュメントのドキュメントの詳細と概要パネルで確認できます。
+title: Experience Manager Assets または Assets Essentials のマッピングされたメタデータの表示
+description: ドキュメントの詳細とドキュメントの概要パネルで、マッピングされたメタデータのリアルタイムビューを確認できます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
 source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Experience Manager AssetsまたはAssets Essentialsのマッピングされたメタデータの表示
+# Experience Manager Assets または Assets Essentials のマッピングされたメタデータの表示
 
-マッピングされたメタデータのリアルタイム表示は、ドキュメントのドキュメントの詳細と概要パネルで確認できます。 アセットをWorkfrontからExperience Manager AssetsまたはAssets Essentialsに送信する際に、メタデータフィールドが最初にマッピングされます。 Workfront管理者がオブジェクトメタデータの同期を有効にしている場合、どちらかのアプリケーションで変更されたフィールドは最新の状態に保たれます。
+ドキュメントの詳細とドキュメントの概要パネルで、マッピングされたメタデータのリアルタイムビューを確認できます。Workfront から Experience Manager Assets または Assets Essentials にアセットを送信する際、メタデータフィールドが最初にマッピングされます。Workfront 管理者がオブジェクトメタデータの同期を有効にしている場合、どちらかのアプリケーションで変更されたフィールドは最新の状態に保たれます。
 
 ## アクセス要件
 
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront plan*</strong>
+   <td><strong>Adobe Workfront プラン*</strong>
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfrontライセンス*</strong>
+   <td><strong>Adobe Workfront ライセンス*</strong>
    </td>
    <td>リクエスト以上
    </td>
@@ -38,7 +38,7 @@ ht-degree: 0%
   <tr>
    <td><strong>製品</strong>
    </td>
-   <td>Experience Manager AssetsまたはAssets Essentialsがあり、Admin Consoleでユーザーとして製品に追加される必要があります。
+   <td>Experience Manager Assets as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されていることが必要です。
    </td>
   </tr>
   <tr>
@@ -46,53 +46,53 @@ ht-degree: 0%
    </td>
    <td>ドキュメントへのアクセスを編集
 <p>
-<strong>注意： </strong>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <strong>カスタムアクセスレベルの作成または変更</strong>.
+<strong>メモ</strong>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<strong>カスタムアクセスレベルの作成または変更</strong>を参照してください。
    </td>
   </tr>
   <tr>
-   <td><strong>オブジェクト権限</strong>
+   <td><strong>オブジェクトの権限</strong>
    </td>
-   <td>アクセス権以上の表示
+   <td>表示アクセス権またはそれ以上の権限
 <p>
-追加のアクセス権のリクエストについて詳しくは、 <strong>オブジェクトへのアクセスのリクエスト </strong>.
+追加のアクセス権のリクエストについて詳しくは、<strong>オブジェクトへのアクセス権のリクエスト</strong>を参照してください。
    </td>
   </tr>
 </table>
 
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 
 ## 前提条件
 
-始める前に
+開始する前に、
 
-* Workfront管理者は、統合を設定する必要があります。 詳しくは、 [Experience Manager Assets統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Workfront 管理者は、Experience Manager 統合を設定する必要があります。詳しくは、[Experience Manager Assets as a Cloud Service 統合を設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)または[Experience Manager Assets Essentials 統合を設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)を参照してください。
 
 
 ## ドキュメントの詳細
 
-ドキュメントの詳細でメタデータパネルを開くには：
+ドキュメントの詳細でメタデータパネルを開くには、以下の手順を実行します。
 
-1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「 」を選択します。 **ドキュメント**.
-1. 必要なドキュメントの上にマウスポインターを置いて、「 **ドキュメントの詳細**.
-1. 検索と展開 **メタデータ** 」セクションに入力します。
+1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
+1. 必要なドキュメントの上にポインタを合わせ、「**ドキュメントの詳細**」を選択します。
+1. 「**メタデータ**」セクションを見つけて展開します。
    >[!NOTE]
    >
-   >このセクションのフィールドは編集できません。 これらは表示専用です。
+   >このセクションのフィールドは編集できません。これらは表示専用です。
 
 ![ドキュメントの詳細パネル](assets/metadata-panel-doc-details.png)
 
 
 ## ドキュメントの概要
 
-Summary パネルでメタデータパネルを開くには：
+概要パネルでメタデータパネルを開くには、以下の手順を実行します。
 
-1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「 」を選択します。 **ドキュメント**.
+1. ドキュメントを含むプロジェクト、タスク、またはイシューに移動し、**ドキュメント**&#x200B;を選択します。
 1. 必要なドキュメントを見つけます。
-1. 次をクリック： **概要アイコン** ![概要アイコン](assets/summary-panel-icon.png)をクリックし、次に **メタデータ** 」セクションに入力します。
+1. **概要アイコン** ![概要アイコン](assets/summary-panel-icon.png) をクリックして、「**メタデータ**」セクションを展開します。
    >[!NOTE]
    >
-   >このセクションのフィールドは編集できません。 これらは表示専用です。
+   >このセクションのフィールドは編集できません。これらは表示専用です。
 
-![文書の概要](assets/metadata-panel-summary.png)
+![ドキュメントの概要](assets/metadata-panel-summary.png)
