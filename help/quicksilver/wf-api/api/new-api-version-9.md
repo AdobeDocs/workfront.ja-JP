@@ -2,15 +2,15 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 9 の新機能
-description: これは、API バージョン 9 の新しいリソースのリストです。バージョン 9 のリソースに対しておこなわれた更新のリストを確認するには、API バージョン 9 の更新を参照してください。
+description: API バージョン 9 の新しいリソースのリストです。バージョン 9 のリソースに加えられた更新のリストを確認するには、「API バージョン 9 の更新」にアクセスしてください。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
-workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 16%
+workflow-type: ht
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 16%
 
 ## 新しいリソース
 
-これは、API バージョン 9 で新しく追加されたリソースのリストです。バージョン 9 のリソースに対しておこなわれた更新のリストを確認するには、以下を参照してください。 [API バージョン 9 の更新](../../wf-api/api/new-api-version-9-updates.md)
+API バージョン 9 の新しいリソースのリストです。バージョン 9 のリソースに加えられた更新のリストを確認するには、[API バージョン 9 の更新](../../wf-api/api/new-api-version-9-updates.md)にアクセスしてください。
 
 ### AccessLevel
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `accessRestrictions` | `customer` | `accessLevelPermissions` |  |  |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `accessRulePreferences` |  |  |  | `COPY` |
@@ -45,7 +45,7 @@ ht-degree: 16%
 
 ### AccessLevelPermissions
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `coreAction` |  |  |  |  |  |   |
 | `forbiddenActions` |  |  |  |  |  |   |
@@ -58,7 +58,7 @@ ht-degree: 16%
 
 ### AccessRulePreference
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
@@ -66,7 +66,7 @@ ht-degree: 16%
 
 ### BudgetedHour
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `allocationDate` |  |  |  |  |  | `ADD` |
 | `budgetedHours` |  |  |  |  |  | `DELETE` |
@@ -80,7 +80,7 @@ ht-degree: 16%
 
 ### CalendarPortalSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `calendarInfoID` | `customer` |  | `displayDescription` |  |  | `ADD` |
 | `customerID` | `enteredBy` |  | `displayName` |  |  | `COPY` |
@@ -95,7 +95,7 @@ ht-degree: 16%
 
 ### CalendarSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `calendarID` | `customer` | `filters` |  | `getConcatenatedExpressionForm` |  | `ADD` |
 | `calEvents` |  |  |  | `getPrettyExpressionForm` |  | `COUNT` |
@@ -112,7 +112,7 @@ ht-degree: 16%
 
 ### ExternalSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `appGlobalID` | `customer` |  | `displayDescription` | `calculateURL` |  | `ADD` |
 | `calculatedURL` | `enteredBy` |  | `displayName` | `calculateURLS` |  | `COPY` |
@@ -140,4 +140,4 @@ ht-degree: 16%
 
  
 
-このリストは 2 つの半分に分かれています。 後半を見るには、 [API バージョン 9 の新機能（続き）](../../wf-api/api/new-api-version-9-continue.md). バージョン 9 のアップデートの一覧を表示するには、 [API バージョン 9 の更新](../../wf-api/api/new-api-version-9-updates.md)
+このリストは 2 つに分割されています。後半を参照するには、[API バージョン 9 の新機能（続き）](../../wf-api/api/new-api-version-9-continue.md)を参照してください。バージョン 9 の更新のリストを表示するには、[API バージョン 9 の更新](../../wf-api/api/new-api-version-9-updates.md)にアクセスしてください。
