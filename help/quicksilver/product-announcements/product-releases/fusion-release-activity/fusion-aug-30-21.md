@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 8 月 30 日の週
-description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 8 月 30 日の週
+title: Workfront Fusion リリースアクティビティ：2021年8月30日（PT）の週
+description: Workfront Fusion リリースアクティビティ：2021年8月30日（PT）の週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -8,40 +8,40 @@ recommendations: noDisplay, noCatalog
 exl-id: 988349f9-aa12-4017-9032-be4d0078959e
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 8 月 30 日の週
+# Workfront Fusion リリースアクティビティ：2021年8月30日（PT）の週
 
-このページでは、2021 年 8 月 30 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年8月30日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## Workfront/イベント監視モジュールをトリガーするイベントのフィルタリング
+## Workfront／イベント監視モジュールをトリガーするイベントをフィルタリングする
 
-1. Workfront/イベント監視モジュールをトリガーにするイベント用のカスタムフィルターを設定する
+1. Workfront／イベント監視モジュールをトリガーにするイベント用のカスタムフィルターを設定する
 
-   不要なシナリオの実行数を減らすために、 Workfront /レコード監視モジュールを更新し、イベントのフィルタリングを有効にしました。 これで、Webhook を作成する際にフィルターを設定できます。 これにより、イベントが特定の条件を満たす場合にのみ、トリガーが発生します。
+   不要なシナリオの実行数を減らすために、Workfront／レコード監視モジュールを更新し、イベントのフィルタリングを有効にしました。Webhook を作成する際にフィルターを設定できるようになりました。これにより、イベントが特定の条件を満たす場合にのみ、トリガーが発生します。
 
    イベントフィルターは、現在、次の操作を提供しています。
 
-   * 次と等しい：トリガーがフィルターの条件と一致する場合のみ、シナリオを指定します。 例えば、イベントが特定のプロジェクトで発生した場合にのみシナリオをトリガーするフィルターを設定できます。
-   * 等しくない：トリガーがフィルターの条件に一致しない場合にのみ、シナリオを等しくします。 例えば、でイベントが発生した場合にステータスが「クローズ」にならない場合にのみ、シナリオをトリガーするフィルターを作成できます。
+   * 等しい：イベントがフィルターの条件に一致する場合にのみシナリオをトリガーします。例えば、イベントが特定のプロジェクトで発生した場合にのみシナリオをトリガーするフィルターを設定できます。
+   * 等しくない：イベントがフィルターの条件に一致しない場合にのみシナリオをトリガーします。例えば、イベントが発生したイシューのステータスが「クローズ」でない場合にのみシナリオをトリガーするフィルターを作成できます。
 
-   以前は、監視レコードモジュールはすべてのレコードを取得していました。 ユーザーは、シナリオの後半でフィルターを設定することでのみ、フィルタリングできました。
+   以前は、記録を監視モジュールではすべての記録を取得していました。ユーザーは、シナリオの後半でフィルターを設定することでのみ、フィルタリングできました。
 
-   イベントのフィルタリングを活用するには、Watch イベントモジュールで新しい Webhook を作成します。 現在、この機能を含めるために既存の Web フックを編集することはできません。 既存のシナリオに対して、イベントフィルターを使用して新しい Web フックを作成することを強くお勧めします。
+   イベントのフィルタリングを活用するには、イベント監視モジュールで新しい Web フックを作成します。現在、この機能を含めるために既存の Web フックを編集することはできません。既存のシナリオに対して、イベントフィルターを使用して新しい Web フックを作成することを強くお勧めします。
 
 1. 現在の接続でトリガーされたイベントを除外します。
 
-   Web フックをWorkfront / Watch イベントモジュール用に簡単に設定できるように、最も一般的なイベントフィルターが追加されました。 これで、Webhook には、Watch イベントモジュール用に指定された接続を使用して、モジュールによる変更を除外するオプションが用意されました。 つまり、このフィルターを有効にすると、その接続に関連付けられたWorkfrontユーザーが行った変更では、シナリオをトリガーできなくなります。
+   Web フックを Workfront／イベント監視モジュール用に簡単に設定できるように、最も一般的なイベントフィルターが組み込まれました。Web フックには、イベント監視モジュールに指定された接続を使用してモジュールによって行われた変更を除外するオプションが追加されました。つまり、このフィルターを有効にすると、その接続に関連付けられた Workfront ユーザーが行った変更では、シナリオをトリガーできなくなります。
 
-   以前は、このフィルターは使用できませんでした。 したがって、Workfrontモジュールでおこなった変更を、これらのモジュールを含むトリガーシナリオに対して容易に行うことができ、シナリオが無限ループで自らをトリガーさせる可能性があります。
+   以前は、このフィルターは使用できませんでした。したがって、Workfront モジュールに加えられた変更により、それらのモジュールを含むシナリオがトリガーされやすくなり、シナリオが無限ループで自動的にトリガーされる可能性がありました。
 
-Workfront/イベントを監視モジュールのイベントフィルターについて詳しくは、 [Adobe Workfrontモジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Workfront／イベント監視モジュールのイベントフィルターについて詳しくは、[Adobe Workfront モジュール](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md)を参照してください。
 
