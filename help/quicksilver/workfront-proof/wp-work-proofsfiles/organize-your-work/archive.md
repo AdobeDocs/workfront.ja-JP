@@ -2,80 +2,80 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Workfront Proof にアーカイブ
-description: Workfront Proof は、60 日間操作がおこなわれなかった場合に配達確認をアーカイブします。
+title: Workfront Proof でのアーカイブ
+description: Workfront Proof は、60 日間操作が行われなかったプルーフをアーカイブします。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 66a15edf-8504-471a-a6be-f632760b50ed
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# アーカイブ [!DNL Workfront Proof]
+# [!DNL Workfront Proof] でのアーカイブ
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-[!DNL Workfront Proof] は、60 日間操作が行われなかった場合の配達確認をアーカイブします。
+[!DNL Workfront Proof] は、60 日間操作が行われなかったプルーフをアーカイブします。
 
-編集権限がある場合は、いつでも手動で配達確認をアーカイブできます。 編集権限について詳しくは、 [の配達確認権限プロファイル [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+編集権限があれば、いつでも手動でプルーフをアーカイブできます。編集権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
-アーカイブした配達確認：
+アーカイブしたプルーフ：
 
-* ビューページのアーカイブ配達確認ビューにのみ表示されます（以下の「配達確認がアーカイブされているかどうかを確認する方法」を参照）
-* 無期限にアカウントに残ります（削除されない場合）
-* 誰でもいつでもアーカイブを解除できます（アーカイブを解除できないレビュー担当者も含む） [!DNL Workfront Proof] ユーザー )
-* ストレージの制限にカウントする
-* 自動アーカイブ時に自動的にロックする
-* 手動でアーカイブする際にロックまたはロック解除可能
+* ビューページのアーカイブされたプルーフビューにのみ表示されます。詳しくは、以下のプルーフがアーカイブされているかどうかを確認する方法を参照してください。
+* 削除されない限り、無期限にアカウントに残ります。
+* いつでも誰でもアーカイブを解除できます（[!DNL Workfront Proof] ユーザーではないレビュアーも含みます）。
+* ストレージの制限にカウントされます。
+* 自動でアーカイブされた場合、自動的にロックされます。
+* 手動でアーカイブされた場合、ロックすることも、ロックを解除することもできます。
 
-アーカイブとアーカイブ解除は、配達確認の「アクティビティ」セクションに記録されます。 詳しくは、 [で配達確認の詳細を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+アーカイブとアーカイブの解除は、プルーフの「アクティビティ」セクションに記録されます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理するを参照してください。
 
 >[!NOTE]
 >
->ファイルやフォルダはアーカイブできません。
+>ファイルやフォルダーはアーカイブできません。
 
-## 配達確認の手動アーカイブ
+## プルーフの手動アーカイブ
 
-編集権限がある場合は、いつでも手動で配達確認をアーカイブできます。 編集権限について詳しくは、 [の配達確認権限プロファイル [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+編集権限があれば、いつでも手動でプルーフをアーカイブできます。編集権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 アーカイブ処理が完了するまでに最大 24 時間かかる場合があります。
 
-1. ダッシュボードまたはリスト表示で、アーカイブする各配達確認のチェックボックスを選択します (  [のビューページで項目を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) を参照してください )。
+1. ダッシュボードまたはリストビューで、アーカイブする各プルーフのチェックボックスをオンにします。リストビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでアイテムを管理するを参照してください。
 
-1. 選択 **[!UICONTROL 詳細]** > **[!UICONTROL アーカイブ]**.\
-   この [!UICONTROL 配達確認のアーカイブ] メッセージボックスが表示されます。
+1. **[!UICONTROL その他]**／**[!UICONTROL アーカイブ]**&#x200B;を選択します。\
+   [!UICONTROL プルーフのアーカイブ]メッセージボックスが表示されます。
 
-1. オプションをクリックして、配達確認のアーカイブ中に、配達確認をロックするかロックを解除するかを指定します。\
-   [!DNL Workfront Proof] は、指定したロックオプションを使用して配達確認をアーカイブします。
+1. オプションをクリックして、アーカイブ中にプルーフをロックするかロック解除するかを指定します。\
+   [!DNL Workfront Proof] は、指定したロックオプションを使用してプルーフをアーカイブします。
 
-## アーカイブされた配達確認のリスト
+## アーカイブされたプルーフのリスト
 
-アーカイブされた配達確認は、 **[!UICONTROL アーカイブした配達確認]** 配達確認名の右側にアーカイブ済みアイコンを表示します。
+アーカイブされたプルーフは、**[!UICONTROL アーカイブされたプルーフ]**&#x200B;ビューにのみ表示され、プルーフ名の右側にアーカイブされたアイコンが表示されます。
 
-アーカイブ済みの配達確認ビューを表示するには：
+アーカイブされたプルーフビューを表示するには：
 
-1. クリック **[!UICONTROL 件数]**&#x200B;を選択し、「 **[!UICONTROL すべての項目]** > **[!UICONTROL アーカイブした配達確認]**.
+1. 「**[!UICONTROL ビュー]**」をクリックし、**[!UICONTROL すべてのアイテム]**／**[!UICONTROL アーカイブされたプルーフ]**&#x200B;をクリックします。
 
-   このリストでアーカイブされた配達確認の名前をクリックすると、 [!UICONTROL 配達確認の詳細] ページが表示され、表示 **[!UICONTROL アーカイブ解除]** 」ボタンをクリックします。
+   このリストでアーカイブされたプルーフの名前をクリックすると、[!UICONTROL プルーフの詳細]ページが表示され、ページの上部に「**[!UICONTROL アーカイブ解除]**」ボタンが表示されます。
 
-   また、 **[!UICONTROL アクティビティ]** 「 」セクションでは、配達確認がアーカイブされた日時と、誰がアーカイブしたかを示すエントリを表示できます。\
+   また、ページの「**[!UICONTROL アクティビティ]**」セクションを展開すると、プルーフがいつアーカイブされたか、誰がアーカイブしたかを示すエントリを表示できます。\
    ![Archived_proof_Activity_expanded.png](assets/archived-proof-activity-expanded-350x77.png)\
-   この **[!UICONTROL アクティビティ]** 「 」セクションには、配達確認をアーカイブしたユーザーの名前は表示されません。つまり、無操作状態が 60 日間続くと、配達確認は自動的にアーカイブされました。\
-   アーカイブされた配達確認の内容を表示するには、まずアーカイブを解除する必要があります。
+   「**[!UICONTROL アクティビティ]**」セクションにプルーフをアーカイブしたユーザーの名前が表示されない場合は、60 日間非アクティブな状態が続いた後にプルーフが自動的にアーカイブされたことを意味します。\
+   アーカイブされたプルーフの内容を表示するには、まずアーカイブを解除する必要があります。
 
-## 配達確認のアーカイブ解除
+## プルーフのアーカイブ解除
 
-誰でも、いつでも配達確認のアーカイブを解除できます。 これには、以外のレビュー担当者も含まれます [!DNL Workfront Proof] ユーザー。
+プルーフのアーカイブは、いつでも誰でも解除できます。これには、[!DNL Workfront Proof] ユーザーでないレビュアーも含まれます。
 
-「アーカイブ済みの配達確認」ビューから配達確認をアーカイブ解除するには：
+アーカイブされたプルーフビューからプルーフのアーカイブを解除するには：
 
-1. クリック **[!UICONTROL 件数]**&#x200B;を選択し、「 **[!UICONTROL すべての項目]** > **[!UICONTROL アーカイブした配達確認]**.
+1. 「**[!UICONTROL ビュー]**」をクリックし、**[!UICONTROL すべてのアイテム]**／**[!UICONTROL アーカイブされたプルーフ]**&#x200B;をクリックします。
 
-1. アーカイブを解除する配達確認または配達確認の横にあるチェックボックスをクリックします。
-1. クリック **[!UICONTROL 詳細]**&#x200B;を選択し、「 **[!UICONTROL アーカイブ解除]** をクリックします。\
-   配達確認のアーカイブが解除されていることを示すメッセージがページ上部に表示されます。
+1. アーカイブを解除するプルーフの横にあるチェックボックスをクリックします。
+1. 「**[!UICONTROL その他]**」をクリックし、表示されるメニューから「**[!UICONTROL アーカイブ解除]**」をクリックします。\
+   プルーフのアーカイブが解除されたことを示すメッセージがページの上部に表示されます。
