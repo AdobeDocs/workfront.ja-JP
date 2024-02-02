@@ -1,31 +1,31 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボードでストーリーを並べ替え
-description: かんばんボードのステータス列内にストーリーを表示する順序を変更する場合があります。
+title: かんばんボードでのストーリーの並べ替え
+description: 場合によっては、かんばんボードのステータス列内にストーリーを表示する順序を変更する必要があります。
 author: Lisa
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
 source-git-commit: a478e5355db33e076b321a6219442198901f3252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# ストーリーを [!UICONTROL かんばん] ボード
+# [!UICONTROL かんばん]ボードでのストーリーの並べ替え
 
-ストーリーが [!UICONTROL かんばん] ボード。
+場合によっては、[!UICONTROL かんばん]ボードのステータス列内にストーリーを表示する順序を変更する必要があります。
 
 >[!NOTE]
 >
->ストーリーがバックログに表示される順序は変更できません [!UICONTROL かんばん] チーム。
+>[!UICONTROL かんばん]チームのバックログに表示されるストーリーの順序は変更できません。
 
-ストーリーが [!UICONTROL かんばん] ボードは優先度を示しません。 しかし、物語をより目に見えるものにすることで、それは知覚される優先順位に影響を与えることができます。
+[!UICONTROL かんばん]ボードに表示されるストーリーの順序は、優先度を示すものではありません。しかし、ストーリーを目につきやすくすることで、認識時の優先度に影響を与える可能性があります。
 
-デフォルトでは、ストーリーは、 [!UICONTROL かんばん] ボード。
+デフォルトでは、ストーリーは[!UICONTROL かんばん]ボードの各ステータス列内にアルファベット順に表示されます。
 
-列を並べ替える際に、 [!DNL Kanban] ボードに加えた変更はすべて保存されるので、次にユーザーが変更を表示しても、変更内容は保持されます [!UICONTROL かんばん] ボード。 （ブラウザーのキャッシュをクリアしても、加えた変更は元に戻されません）。
+[!DNL Kanban]ボード上で列の順序を変更すると、加えた変更が保存されるので、次回自分または別のユーザーが[!UICONTROL かんばん]ボードを表示するときにも変更内容が保持されます。（ブラウザーキャッシュをクリアしても、加えた変更は元に戻せません）。
 
 ## アクセス要件
 
@@ -36,29 +36,29 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
+   <td> <p>[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以降</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者は、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## ストーリーを [!UICONTROL かんばん] ボード
+## [!UICONTROL かんばん]ボードでのストーリーの並べ替え
 
-順序やストーリーを変更するには：
+ストーリーの順序を変更するには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe] Workfront、 **[!UICONTROL チーム]**.
+1. [!DNL Adobe] Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) に続いて、「**[!UICONTROL チーム]**」をクリックします。
 
-1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)を選択し、新しい [!UICONTROL かんばん] チームをドロップダウンメニューから選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックしたあと、ドロップダウンメニューから新しい[!UICONTROL かんばん]チームを選択するか、検索バーでチームを検索します。
 
-1. 次に移動： [!UICONTROL かんばん] 並べ替えるストーリーを含むボード。
-1. ストーリータイルを、ステータス列内の目的の垂直位置 ( [!UICONTROL かんばん] ボード。
+1. 並べ替えるストーリーが含まれている[!UICONTROL かんばん]ボードに移動します。
+1. [!UICONTROL かんばん]ボードのステータス列内の希望する垂直位置にストーリータイルをドラッグします。
