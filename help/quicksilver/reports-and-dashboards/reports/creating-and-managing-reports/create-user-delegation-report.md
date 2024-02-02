@@ -1,33 +1,33 @@
 ---
 product-area: reporting
-keywords: ユーザー，委任，レポート，委任，承認
+keywords: ユーザー,デリゲーション,レポート,デリゲート,承認
 navigation-topic: create-and-manage-reports
-title: ユーザー委任レポートの作成
-description: ユーザー委任レポートの作成
+title: ユーザーのデリゲーションレポートの作成
+description: ユーザーのデリゲーションレポートの作成
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 4%
+workflow-type: ht
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
-# ユーザー委任レポートの作成
+# ユーザーのデリゲーションレポートの作成
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-Adobe Workfrontでは、ユーザーがプロジェクト、タスクおよび問題の承認を他のユーザーに委任して、不在時に承認が管理されるようにすることができます。 プランライセンスを持つユーザは、次の項目を確認するためのユーザ委任レポートを作成できます。
+Adobe Workfront では、ユーザーがプロジェクト、タスクおよびイシューの承認を他のユーザーにデリゲートして、不在時に承認が管理されるようにすることができます。プランライセンスを持つユーザーは、ユーザーのデリゲーションレポートを作成して、次の項目を確認できます。
 
-* タスク、問題およびプロジェクトの承認を別のユーザーに委任したユーザー
-* タスク、問題、およびプロジェクト承認を委任したユーザーに割り当てるユーザー
+* タスク、イシューおよびプロジェクトの承認を別のユーザーにデリゲートしたユーザー
+* 割り当てられたタスク、イシューおよびプロジェクトの承認をデリゲートしたユーザー
 
-* 委任が開始および終了する日付
+* デリゲーションが開始および終了する日付
 
-承認の委任について詳しくは、 [承認リクエストを委任](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+承認のデリゲーションについて詳しくは、[承認リクエストのデリゲート](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn more about delegating work, see <a href="../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md" class="MCXref xref">Log personal time off and delegate your work</a>.</p>
@@ -46,55 +46,55 @@ Adobe Workfrontでは、ユーザーがプロジェクト、タスクおよび�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>承認が委任された項目と委任に関係するユーザーに対する権限を表示します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>承認がデリゲートされた項目とデリゲーションに関係するユーザーに対する権限の表示</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## ユーザー委任レポートの作成
+## ユーザーのデリゲーションレポートの作成
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **レポート**.
+1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**レポート**」をクリックします。
 
-1. クリック **新しいレポート**&#x200B;を選択し、「 **ユーザーの委任**.\
+1. 「**新規レポート**」をクリックし、「**ユーザーのデリゲーション**」を選択します。\
    ![](assets/classic-new-report-user-delegation-350x644.png)
 
    次のフィールドは、デフォルトでこのレポートに表示されます。
 
    | フィールド | 説明 |
    |---|---|
-   | **委任元ユーザー** | これは、タスク、問題およびプロジェクトの承認を別のユーザーに委任するユーザーです。 |
-   | **委任先ユーザー** | タスク、問題、およびプロジェクト承認が委任されたユーザーです。 |
-   | **開始** | これは、委任をおこなったユーザーの不在時間の開始時です。 |
-   | **終了** | これで、委任をおこなったユーザーの不在時間が終了します。 |
+   | **デリゲート元ユーザー** | タスク、イシューおよびプロジェクトの承認を別のユーザーにデリゲートするユーザーです。 |
+   | **デリゲート先ユーザー** | タスク、イシューおよびプロジェクト承認がデリゲートされたユーザーです。 |
+   | **開始** | デリゲーションを行ったユーザーの不在時間の開始時です。 |
+   | **終了** | デリゲーションを行ったユーザーの不在時間の終了時です。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. （オプション）Report Builder で、次の変更をおこないます。
+1. （オプション）Report Builder で、次の変更を行います。
 
    * 列
    * グループ化
    * フィルター
    * グラフ
 
-   これらの機能について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   これらの機能について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-1. レポートの作成が完了したら、「 **保存して閉じる**.
+1. レポートの作成が完了したら、「**保存して閉じる**」をクリックします。
 
-1. 新しい名前を **レポート名** 「 」フィールドで、「 **レポートを保存**.
+1. 新しい名前を「**レポート名**」フィールドで入力し、「**レポートを保存**」をクリックします。
 
    レポートが表示されます。
