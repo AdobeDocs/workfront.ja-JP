@@ -7,19 +7,19 @@ recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 4ff63ad4-19b8-4436-9747-31d6a08c8c80
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '32'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Workfront API
 
-このセクションでは、以下のサブセクションについて説明します。
+このセクションには、次のサブセクションが含まれます。
 
 * [API](../wf-api/api/api.md)
 * [Document Webhook API](../wf-api/doc-wbhks-api/document-webhooks-api.md)
 * [API 一般](../wf-api/general/api-general.md)
-* [Adobe Workfront API のヒント、テクニックおよびトラブルシューティング](../wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-* [Adobe Workfront Objects](../wf-api/wf-objects/workfront-objects.md)
+* [Adobe Workfront API のヒント、テクニック、およびトラブルシューティング](../wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+* [Adobe Workfront オブジェクト](../wf-api/wf-objects/workfront-objects.md)
