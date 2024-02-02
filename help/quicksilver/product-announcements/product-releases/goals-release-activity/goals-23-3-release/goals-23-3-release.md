@@ -2,23 +2,23 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront 23.3 リリースでの目標
-description: このページでは、23.3 リリースで実稼動環境にリリースされる新しいAdobe WorkfrontエクスペリエンスのAdobe Workfront目標に関する機能について説明します。
+title: 23.3 リリースに伴う Adobe Workfront Goals
+description: このページでは、23.3 リリースで本番環境にリリースされた新しい Adobe Workfront エクスペリエンスにおける Adobe Workfront Goals の機能について説明します。
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
 source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront 23.3 リリースでの目標
+# 23.3 リリースに伴う Adobe Workfront Goals
 
-このページでは、23.3 リリース期間内に実稼動環境にリリースされるAdobe Workfront Goals の機能について説明します。
+このページでは、23.3 リリース期間内に実稼動環境にリリースされる Adobe Workfront Goals の機能について説明します。
 
-23.3 リリースサイクルのこの時点でのWorkfrontのすべての領域で利用可能なすべての変更点のリストについては、 [23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+23.3 リリースサイクルのこの時点での Workfront のすべてのエリアで利用可能なすべての変更のリストについては、[23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)を参照してください。
 
 <table>
             <col style="width: 50%;" />
@@ -36,18 +36,18 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">更新セクションの機能強化</a></p>
-                        <p>目標の更新に関する節の機能強化は、新しいコメントベータ版エクスペリエンスにリリースされる更新と同時に、23.3 リリース期間内に提供されます。 これらの機能強化は、プレビューのリリース後すぐに、実稼動環境で使用可能になります。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">「更新」セクションの機能強化</a></p>
+                        <p>目標の「更新」セクションの機能強化は、新しいコメント機能のベータ版エクスペリエンスにリリースされるアップデートと同時に、23.3 リリース期間内に提供されます。これらの機能強化は、プレビューにリリース後すぐに、実稼動環境で利用できるようになります。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 23.3 リリース期間を通じて<br /></p>
+                                <p>プレビューリリース：23.3 のリリース期間中<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：特に指定のない限り、23.3 リリースを使用</span></p>
+                                <p><span class="preview">実稼動版リリース：23.3 リリース（特に指定のない限り）</span></p>
                             </li>
                         </ul>
                     </td>
