@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: '[ ホーム ] 領域の作業を優先する'
-description: ホームのワークリストの項目を優先させることができます。 [ 優先度 ] に追加する項目は、優先度のみです。 他のユーザーに対して優先順位付けは行われず、優先順位付けを行うことはできません。 最大 20 個の項目を「 [!UICONTROL 優先順位の並べ替え基準] オプション。
+title: ホームエリアの作業を優先する
+description: ホームの作業リストの項目を優先させることができます。マイ優先度に追加する項目は、自分だけに対する優先度です。他のユーザーに対する優先度ではなく、他のユーザーによって優先順位が変えられることはありません。最大 20 個の項目を「[!UICONTROL 優先度の並べ替え]」オプションで追加できます。
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 8647df70-c9cc-47fb-a7f7-a83d0fd061b4
 source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# 作業を [!UICONTROL ホーム] 領域
+# [!UICONTROL ホーム]エリアで作業に優先度を付ける
 
-次の項目に優先順位を付けることができます： [!UICONTROL 作業用リスト] in [!UICONTROL ホーム]. 追加先の項目 [!UICONTROL 優先度] あなただけの優先事項です。 他のユーザーに対して優先順位付けは行われず、優先順位付けを行うことはできません。 最大 20 個の項目を「 [!UICONTROL 優先度] [!UICONTROL 並べ替え基準] オプション。
+[!UICONTROL ホーム]の[!UICONTROL 作業リスト]で、項目に優先順位を付けることができます。[!UICONTROL マイ優先度]に追加した項目は、自分のみに対する優先度です。他のユーザーに対する優先度ではなく、他のユーザーによって優先順位が変えられることはありません。最大 20 個の項目を[!UICONTROL マイ優先度]の[!UICONTROL 並べ替え]オプションに追加できます。
 
 ## アクセス要件
 
@@ -33,59 +33,59 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
+   <td> <p>[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>タスクと問題への [!UICONTROL 編集 ] アクセス</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限を設定しているかどうかを [!DNL Workfront] 管理者に確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>優先順位を設定するタスクと問題に、権限以上を貢献する</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>優先度を設定するタスクとイシューに対する参加以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## 項目の追加先 [!UICONTROL 優先度]
+## [!UICONTROL マイ優先度]に項目を追加する
 
-自分に割り当てられた任意の項目を [!UICONTROL 作業用リスト] から [!UICONTROL 優先度]. リストの下部に新しい項目が追加されます。
+[!UICONTROL 作業リスト]で自分に割り当てられた任意の項目を[!UICONTROL マイ優先度]に追加できます。リストの下部に新しい項目が追加されます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) 右上隅で、「 **[!UICONTROL ホーム]**.
-1. 左側のパネルで、 **[!UICONTROL グループ化の基準]** ドロップダウンメニューは、次のいずれかのオプションで並べ替えられています。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+1. 左側のパネルで、**[!UICONTROL グループ化]** ドロップダウンメニューが次のいずれかのオプションで並べ替えられていることを確認します。
 
    * [!UICONTROL 完了予定]
    * [!UICONTROL 予定開始]
    * [!UICONTROL コミット日]
    * [!UICONTROL プロジェクト]
 
-1. 作業項目の上にマウスポインターを置いて、 **[!UICONTROL 詳細]** アイコン ![](assets/more-icon.png).
+1. 作業アイテムの上にポインタを合わせて、**[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png) をクリックします。
 
-1. 選択 **[!UICONTROL 優先度に追加]**.
+1. 「**[!UICONTROL マイ優先度に追加]**」を選択します。
 
    ![](assets/getting-started-my-priority-group-by-drop-down-nwe-350x405.png)
 
-## 次を使用して項目を優先順位付け [!UICONTROL 優先度] グループ化
+## [!UICONTROL マイ優先度]のグループ化を使用して項目に優先度を付ける
 
-選択した後に作業を優先させることができます [!UICONTROL 優先度] グループ化ドロップダウンメニューで、最も重要な項目をリストの先頭に配置します。 設定した優先度は、自分にのみ表示されます。 他のユーザーが自分の仕事を優先することはできません。
+グループ化ドロップダウンメニューで「[!UICONTROL マイ優先度]」を選択した後に作業に優先度を付けることができ、最も重要な項目をリストの先頭に配置します。設定した優先度は、自分にのみ表示されます。他のユーザーによって自分の作業に優先度を付けられることはありません。
 
-作業項目を次に追加する必要があります： [!UICONTROL 優先度] 優先順位付けを開始する前に
+優先度付けを開始する前に、[!UICONTROL マイ優先度]に作業アイテムを追加する必要があります。
 
-詳しくは、 [項目の追加先 [!UICONTROL 優先度]](#add-items-to-my-priority) 」を参照してください。
+詳しくは、この記事の[[!UICONTROL マイ優先度]](#add-items-to-my-priority)への項目の追加の節を参照してください。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) 右上隅で、「 **[!UICONTROL ホーム]**.
-1. 左側のパネルで、 **[!UICONTROL グループ化の基準]** ドロップダウンメニューから、 **[!UICONTROL 優先度]**.
+1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+1. 左側のパネルで、**[!UICONTROL グループ化]**&#x200B;ドロップダウンメニューをクリックして、「**[!UICONTROL マイ優先度]**」を選択します。
 
-1. 作業項目を選択し、適切な場所にドラッグ&amp;ドロップして、リスト内で優先順位を付けます。
+1. 作業アイテムを選択し、適切な場所にドラッグ＆ドロップして、リスト内で優先度を付けます。
 
    ![](assets/drag-drop-my-priority-with-group-by-menu-nwe-350x426.png)
 
-## から項目を削除 [!UICONTROL 優先度]
+## [!UICONTROL マイ優先度]から項目を削除
 
-次の場所から項目を削除できます： [!UICONTROL 優先度] 作業項目を完了するか、 [!UICONTROL 詳細] アイコン 作業項目から未割り当ての場合は、作業項目も [!UICONTROL 優先度].
+作業アイテムを完了させるかまたは[!UICONTROL その他]アイコンを使用して手動で項目を削除することで、[!UICONTROL マイ優先度]からアイテムを削除できます。作業アイテムから割り当てが解除された場合は、その作業アイテムも[!UICONTROL マイ優先度]から削除されます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) 右上隅で、「 **[!UICONTROL ホーム]**.
-1. 左側のパネルで、 **[!UICONTROL 詳細]** アイコンをクリックし、「 **[!UICONTROL 優先度から削除]**.
+1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
+1. 左側のパネルで、**[!UICONTROL その他]**&#x200B;アイコンをクリックし、「**[!UICONTROL マイ優先度から削除]**」を選択します。
 
    ![[!UICONTROL [!UICONTROL マイ優先度から削除]]](assets/getting-started-remove-from-priority-nwe-350x395.png)
