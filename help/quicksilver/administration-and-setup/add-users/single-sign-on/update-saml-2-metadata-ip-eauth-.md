@@ -1,28 +1,28 @@
 ---
-title: 拡張認証を使用する際に IDP の SAML 2.0 メタデータを更新する
-description: Adobe Workfront管理者は、Workfrontシングルサインオン (SSO) を、Security Assertion Markup Language(SAML)2.0 プロトコルをサポートする任意の ID プロバイダーと統合できます。
+title: 拡張認証を使用する際の IDP の SAML 2.0 メタデータの更新
+description: Adobe Workfront 管理者は、Security Assertion Markup Language（SAML）2.0 プロトコルをサポートする任意の ID プロバイダーを Workfront シングルサインオン（SSO）で統合できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 source-git-commit: b6fc4775953e47a1b9d84d7537a6d9f5d35b1f2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 拡張認証を使用する際に IDP の SAML 2.0 メタデータを更新する
+# 拡張認証を使用する際の IDP の SAML 2.0 メタデータの更新
 
 <!-- enhanced authentication is no longer available for workfront customers -->
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront管理者は、Workfrontシングルサインオン (SSO) を、Security Assertion Markup Language(SAML)2.0 プロトコルをサポートする任意の ID プロバイダーと統合できます。
+Adobe Workfront 管理者は、Security Assertion Markup Language（SAML）2.0 プロトコルをサポートする任意の ID プロバイダーを Workfront シングルサインオン（SSO）で統合できます。
 
-次の節では、Workfrontアカウントが拡張認証エクスペリエンスにアップグレードされた（一部の組織ではまだ利用できない）場合の統合プロセスについて説明します。 拡張認証エクスペリエンスについて詳しくは、 [拡張認証の概要](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
+以下の節では、Workfront アカウントが拡張認証バージョンにアップグレードされている（まだご利用できない組織もあります）場合の統合プロセスについて説明します。拡張認証バージョンについて詳しくは、[拡張認証の概要](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)を参照してください。
 
-拡張認証エクスペリエンスに移行する前の SAML の設定について詳しくは、 [ID プロバイダーの SAML 2.0 メタデータの更新](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+拡張認証バージョンに移行する前の SAML 設定について詳しくは、[ID プロバイダーの SAML 2.0 メタデータの更新](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)を参照してください。
 
 
 ## アクセス要件
@@ -34,118 +34,118 @@ Adobe Workfront管理者は、Workfrontシングルサインオン (SSO) を、S
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がユーザーのアクセスレベルを変更する方法については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## ID プロバイダーとして Okta を使用する
+## Okta を ID プロバイダーとして使用する
 
-Okta は、SAML 2.0 をサポートする ID プロバイダーの例です。この節では、Okta を ID プロバイダーとして使用する方法について説明します。 SAML 2.0 をサポートする別の ID プロバイダーを設定する場合も、同様の手順が必要です。
+Okta は、SAML 2.0 をサポートしている ID プロバイダーの 1 つです。この節では、Okta を ID プロバイダーとして使用する方法について説明します。SAML 2.0 をサポートする別の ID プロバイダーを設定する場合も、同様の手順が必要です。
 
 >[!NOTE]
 >
->ユーザーは電子メールアドレスに基づいてマッピングされます。 Okta を使用してWorkfrontにログインするには、Workfrontのお客様に同じ（大文字と小文字が区別されない）E メールアドレスを持つユーザーが作成されている必要があります。
+>ユーザーはメールアドレスに基づいてマッピングされます。Okta を使用して Workfront にログインするには、同じメールアドレスのユーザーが Workfront のお客様に作成されている必要があります。メールアドレスは、大文字と小文字を区別しません。
 
-以下の節を完了して、Okta をWorkfrontで ID プロバイダーとして設定します。
+以下の節の手順を実施して、Workfront で Okta を ID プロバイダーとして設定します。
 
-* [Okta でのWorkfrontアプリの作成](#create-a-workfront-app-in-okta)
-* [Okta インスタンスをWorkfrontの ID プロバイダーとして追加する](#add-your-okta-instance-as-an-identity-provider-in-workfront)
+* [Okta で Workfront アプリを作成する](#create-a-workfront-app-in-okta)
+* [Okta インスタンスを Workfront の ID プロバイダーとして追加する](#add-your-okta-instance-as-an-identity-provider-in-workfront)
 
-### Okta でのWorkfrontアプリの作成 {#create-a-workfront-app-in-okta}
+### Okta で Workfront アプリを作成する {#create-a-workfront-app-in-okta}
 
 1. Okta 環境にログインします。
-1. 以下を確認します。 **クラシック UI** が Okta インターフェイスの左上隅で選択されている。
-1. メニューで、 **アプリ** > **アプリ**.
+1. Okta インターフェイスの左上隅で「**クラシック UI**」が選択されていることを確認します。
+1. メニューで、**アプリケーション**／**アプリケーション**&#x200B;をクリックします。
 
-1. クリック **アプリを追加**&#x200B;を選択し、「 **新しいアプリを作成**.
+1. 「**アプリケーションを追加**」をクリックし、次に「**アプリを新規作成**」をクリックします。
 
-1. 内 **新しいアプリケーション統合の作成ダイアログ** ボックス、 **SAML 2.0**&#x200B;を選択し、「 **作成**.
+1. **新しいアプリケーションの統合を作成**&#x200B;ダイアログボックスで「**SAML 2.0**」を選択し、「**作成**」をクリックします。
 
-1. Workfrontアプリの名前を指定し、 **次へ**.
+1. Workfront アプリの名前を指定し「**次へ**」をクリックします。
 1. 表示される SAML 設定ページで、SAML 設定ページに必要な情報を探します。
 
-   1. Okta インターフェイスが表示されているブラウザタブを終了せずに、別のブラウザタブまたはウィンドウを開きます。
+   1. Okta インターフェイスが表示されているブラウザーのタブを閉じずに、ブラウザーの別のタブまたは別のウィンドウを開きます。
    1. ブラウザーで次の URL を指定します。
 
       `https://[your_customer_subdomain].my.workfront.com/auth/saml2/metadata`
 
-   1. 結果の XML ファイルで、 **entityID** および **場所**.
+   1. 結果の XML ファイルで、**entityID** と&#x200B;**場所**&#x200B;の値を確認します。
 
       ![sso-okta.png](assets/sso-okta.png)
 
-   1. 値を **entityID** フィールドをシステムクリップボードに追加します。 このブラウザタブを閉じないでください。
+   1. **entityID** フィールドの値をシステムのクリップボードにコピーします。このブラウザーのタブを閉じないでください。
 
 1. 手順 6 で開いた SAML 設定ページに戻ります。
-1. 次の **entityID** 入る **オーディエンス URI（SP エンティティ ID）** フィールドに入力します。
+1. **entityID** フィールドの値を&#x200B;**オーディエンス URI（SP エンティティ ID）**&#x200B;フィールドに貼り付けます。
 
-1. 他のブラウザータブの XML ファイルで、 **場所** フィールドに入力します。
-1. 次の **場所** 入る **シングルサインオン** **URL** フィールドに入力します。
+1. ブラウザーの別のタブの XML ファイルで、**場所**&#x200B;フィールドの値をコピーします。
+1. **場所**&#x200B;フィールドの値を&#x200B;**シングルサインオン** **URL** フィールドに貼り付けます。
 
-1. スクロールして **属性ステートメント（オプション）** 」セクションに入力します。
-1. 内 **名前** フィールド、指定 **電子メール**.
+1. 「**属性ステートメント（オプション）**」セクションまでスクロールします。
+1. **名前**&#x200B;フィールドで、**メール**&#x200B;を指定します。
 
-1. 内 **値** フィールド、指定 **user.email**.
+1. **値**&#x200B;フィールドで、**user.email** を指定します。
 
-1. （オプション）詳細値を追加します。
-1. クリック **次へ**.
-1. 選択、 **内部アプリを追加している Okta のお客様です**&#x200B;を選択し、「 **完了**.
+1. （オプション）その他の値を追加します。
+1. 「**次へ**」をクリックします。
+1. 「**私は、内部アプリを追加している Okta の顧客です**」を選択し、「**終了**」をクリックします。
 
-### Okta インスタンスをWorkfrontの ID プロバイダーとして追加する {#add-your-okta-instance-as-an-identity-provider-in-workfront}
+### Okta インスタンスを Workfront の ID プロバイダーとして追加する {#add-your-okta-instance-as-an-identity-provider-in-workfront}
 
-この手順では、Okta をWorkfrontで ID プロバイダーとして設定するための重要な情報を提供します。 その他のマッピングや設定オプションについて詳しくは、 [SAML 2.0 でのAdobe Workfrontの設定](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+この手順では、Workfront で Okta を ID プロバイダーとして設定するための重要な情報を提供しています。その他のマッピングや設定のオプションについて詳しくは、[SAML 2.0 での Adobe Workfront の設定](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)を参照してください。
 
-1. Okta インスタンス用の ID プロバイダーメタデータをダウンロードします。
+1. Okta インスタンスの ID プロバイダーのメタデータをダウンロードします。
 
    1. Okta 環境にログインします。
-   1. 以下を確認します。 **クラシック UI** が Okta インターフェイスの左上隅で選択されている。
-   1. メニューで、 **アプリ** > **アプリ**.
+   1. Okta インターフェイスの左上隅で&#x200B;**クラシック UI**&#x200B;が選択されていることを確認します。
+   1. メニューから、**アプリケーション**／**アプリケーション**&#x200B;をクリックします。
 
-   1. 作成したWorkfrontアプリをクリックします（「 」の節を参照）。 [Okta でのWorkfrontアプリの作成](#create-a-workfront-app-in-okta)
-   1. の **サインオン** タブ、クリック **ID プロバイダーメタデータ**.
+   1. [Okta で Workfront アプリを作成](#create-a-workfront-app-in-okta)の節の説明に従って作成した Workfront アプリをクリックします。
+   1. 「**サインオン**」タブで、**IDプロバイダーのメタデータ**&#x200B;をクリックします。
 
       ![idp_okta_metadata.png](assets/idp-okta-metadata.png)
 
-      メタデータが XML として新しいブラウザータブで開かれます。
+      メタデータが、新しいブラウザータブで XML として開きます。
 
-   1. ブラウザーの URL フィールドに表示される URL をコピーします。
+   1. ブラウザーの URL フィールドに表示されている URL をコピーします。
 
-1. Workfront管理者としてWorkfrontにログインします。
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Workfront 管理者として Workfront にログインします。
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリック。
 
-1. 左側のパネルで、 **システム** > **シングルサインオン (SSO)**.
+1. 左側のパネルで、**システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
 
-1. （条件付き）2 つのタブが表示される場合、 **新しい SSO プロバイダ** タブをクリックします。
+1. （条件付き）タブが 2 つ表示されている場合は、「**新しい SSO プロバイダー**」タブをクリックします。
 
    ![sso_idp_halflife.png](assets/sso-idp-halflife-350x234.png)
 
    >[!IMPORTANT]
    >
-   >既存の SSO 設定は、 **現在の SSO プロバイダー** 「 」タブに移動し、アカウントが拡張認証機能に更新され、新しい SSO 設定が完全に機能するようになります。
+   >アカウントが強化された認証エクスペリエンスに更新され、新しい SSO 設定が完全に機能するまで、「**現在の SSO プロバイダー**」タブの既存の SSO 設定を削除しないでください。
 
-1. クリック **新しい SSO プロバイダー**.
+1. **新しい SSO プロバイダー**&#x200B;をクリックします。
 1. Okta IDP などの名前を指定し、説明を指定します。
-1. 内 **ID プロバイダーメタデータからのフィールドの入力** 「 」セクションで、手順 1 でコピーした URL を、 **メタデータ URL** フィールドに入力します。\
-   または、 **ファイルを選択** .xml ファイルをアップロードする場合は、この URL を貼り付けることをお勧めします。
+1. 「**ID プロバイダーのメタデータからフィールドに入力**」セクションで、手順 1 でコピーした URL を&#x200B;**メタデータ URL**&#x200B;フィールドに貼り付けます。\
+   または、「**ファイルを選択**」をクリックして .xml ファイルをアップロードすることもできますが、URL を貼り付けることをお勧めします。
 
-1. 内 **ユーザ属性をマッピング** セクション内の **ディレクトリ属性** フィールド、タイプ **電子メール**. (**電子メールアドレス** が **Workfront User Attribute** フィールド )
+1. 「**ユーザー属性のマップ**」セクションの&#x200B;**ディレクトリ属性**&#x200B;フィールドに、**メール**&#x200B;と入力します。（**メールアドレス**&#x200B;は、**Workfront ユーザー属性**&#x200B;フィールドに既に入力されています。）
 
-1. （オプション）有効にする **デフォルトの SSO プロバイダーにする** 認証用にWorkfrontのログイン画面ではなく、認証されていないユーザーを id プロバイダーのログイン画面に送信する場合。 システム内のすべてのユーザーが ID プロバイダーを通じてWorkfrontにアクセスする場合にのみ、このオプションを有効にすることをお勧めします。
-1. を選択します。 **有効にする** チェックボックス。 その前に、システム内のユーザーが新しいログイン操作を認識し、Workfrontシステムへのアクセス権が失われないようにしてください。
-1. クリック **接続をテスト**.\
+1. （オプション）「**デフォルトの SSO プロバイダーにする**」を有効にし、認証されていないユーザーを Workfront ログイン画面ではなく ID プロバイダーのログイン画面に送信して認証を行います。システム内のすべてのユーザーが ID プロバイダーを通じて Workfront にアクセスする場合にのみ、このオプションを有効にすることをお勧めします。
+1. 「**有効**」チェックボックスを選択します。これを行う前に、システム内のユーザーが Workfront システムにアクセスできなくなることがないよう、新しいログインエクスペリエンスを認識していることを確認してください。
+1. 「**接続をテスト**」をクリックします。\
    接続が成功したことを示すメッセージが表示されます。
 
 1. 「**保存**」をクリックします。
 
 ## 他の ID プロバイダーの使用
 
-Okta 以外の ID プロバイダー（Ping や Centrify など）を使用する場合は、Workfrontメタデータを ID プロバイダーに再アップロードする必要があります。
+Okta 以外の ID プロバイダー（Ping や Centrify など）を使用する場合は、Workfront メタデータを ID プロバイダーに再アップロードする必要があります。
