@@ -7,9 +7,9 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2461'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 このページでは、23.1 リリースに含まれる機能について説明します。
 
-これらの機能強化は、2023 年 1 月 19 日および 23.1 リリースの実稼動環境で使用可能になりました。
+これらの機能強化は、2023年1月18日（PT）および 2023年1月10日（PT）の 23.1 リリースで実稼動環境で使用可能になりました。
 
-23.1 リリースウェビナーは 2023 年 1 月 10 日（火）に開催されました。 以下が可能です。 [オンデマンド録画をこちらで閲覧するには、オンセミナーに登録してください](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
+23.1 リリースウェビナーは 2023年1月10日（火）に開催されました。[こちら](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77)でウェビナーに登録してオンデマンド録画を視聴できます。
 
-<span class="preview">オフサイクル機能（23.1 リリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
+<span class="preview">オフサイクル機能（23.1 のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
 
-## Adobe Workfrontの機能強化
+## Adobe Workfront の機能強化
 
 * [プロジェクトおよびリソース管理の機能強化](#project-and-resource-management-enhancements)
 
-* [アジャイルの強化](#agile-enhancements)
+* [アジャイルの機能強化](#agile-enhancements)
 
-* [モバイル機能の強化](#mobile-enhancements)
+* [モバイルの機能強化](#mobile-enhancements)
 
 * [その他の機能強化](#other-enhancements)
 
@@ -51,18 +51,18 @@ ht-degree: 0%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">ワークロード・バランサでアイテムを一括割り当てする際に「その他の割り当て」リストに追加されるセカンダリのジョブ・ロール</a></p>
-                        <p>「役割の割り当て」フィールドでジョブの役割を選択した後、ワークロード・バランサでユーザーを一括割り当てると、「割り当てるユーザー」フィールドの「その他の割り当て」リストに入力されたユーザーのリストに、各ユーザーに関連付けられたすべての役割が表示されます。 この機能強化以前は、ユーザーの主な役割のみが表示されていました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">ワークロードバランサーでアイテムを一括割り当てする際に「その他の割り当て」リストにセカンダリのジョブの役割を追加</a></p>
+                        <p>「役割の割り当て」フィールドでジョブの役割を選択した後、ワークロードバランサーでユーザーを一括割り当てると、「割り当てるユーザー」フィールドの「その他の割り当て」リストに入力されたユーザーのリストに、各ユーザーに関連付けられたすべての役割が表示されるようになりました。この機能強化以前は、ユーザーのプライマリの役割のみが表示されていました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 1 月 6 日<br /></p>
+                                <p>プレビューリリース：2023年1月5日（PT）<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース： 23.1 リリースを使用</span></p>
+                                <p><span class="preview">実稼動版リリース：23.1 リリースを使用</span></p>
                             </li>
                         </ul>
                     </td>
@@ -70,36 +70,36 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトの「ユーザーを追加」オプションの再配置</a></p>
-                        <p>リソーススケジュールツールの廃止と削除に備えて、プロジェクトの「スケジュール設定」セクションから「ユーザーを追加」オプションを「人」セクションに移動しました。 プロジェクトにユーザーを追加する場合、プロジェクトのアイテムに関連付けられていないユーザーは、プロジェクトチームの一員になります。</p>
-                        <p>10 月 20 日に、リソーススケジューラーがプレビュー環境から削除されました。 23.1 リリースで実稼動環境から削除されます。</p>
+                        <p>リソーススケジュールツールの廃止と削除に備えて、プロジェクトの「スケジュール」セクションの「ユーザーを追加」オプションを「ユーザー」セクションに移動しました。プロジェクトにユーザーを追加する場合、プロジェクトのアイテムに関連付けられていないユーザーは、プロジェクトチームの一員になります。</p>
+                        <p>10月20日（PT）に、リソーススケジューラーがプレビュー環境から削除されました。23.1 リリースで実稼動環境から削除されます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 10 月 21 日<br /></p>
+                                <p>プレビューリリース：2022年10月20日（PT)<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース： 2022 年 10 月 27 日（オフサイクル）</span></p>
+                                <p><span class="preview">実稼動版リリース：2022年10月27日（PT）（オフサイクル）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントフォルダーへの直接リンクのコピー</a></p>
-                        <p>ドキュメントフォルダーのリンクをコピーして共有し、フォルダーにすばやくアクセスできるようになりました。 フォルダーを表示するには、少なくともオブジェクトへの表示アクセス権が必要です。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントフォルダーへのダイレクトリンクをコピー</a></p>
+                        <p>ドキュメントフォルダーのリンクをコピーして共有し、フォルダーに素早くアクセスできるようになりました。フォルダーを表示するには、少なくともオブジェクトへの表示アクセス権が必要です。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 10 月 14 日<br /></p>
+                                <p>プレビューリリース：2022年10月13日（PT)<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース： 23.1 リリースを使用</p>
+                                <p>実稼動版リリース：23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -107,7 +107,7 @@ ht-degree: 0%
             </tbody>
         </table>
 
-### アジャイルの強化
+### アジャイルの機能強化
 
 <table>
             <col style="width: 50%;" />
@@ -125,16 +125,16 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Boards のスクラム計画</a><span style="color: #ff0000;"> 近日開始！</span></p>
-                        <p>Adobe Workfrontボードの新しいスクラム計画機能は、アジャイルなプロセスを管理する柔軟なオプションを提供します。 これらのツールを使用して、次の操作を実行できます。
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront ボードのスクラム計画が</a><span style="color: #ff0000;">近日公開！</span></p>
+                        <p>Adobe Workfront ボードの新しいスクラム計画機能は、アジャイルなプロセスを管理する柔軟なオプションを提供します。これらのツールを使用して、次の操作を実行できます。
                         <ul>
-                        <li>繰り返しまたはスプリントでの作業の追跡</li>
-                        <li>Velocity を使用してチームのコミットメントをガイド</li>
-                        <li>バーンダウンと完了率を追跡する</li>
+                        <li>イテレーションまたはスプリントでの作業をトラック</li>
+                        <li>速度を利用してチームのコミットメントを導く</li>
+                        <li>バーンダウンと完了率を追跡</li>
                         </ul>
                         </p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
@@ -143,45 +143,45 @@ ht-degree: 0%
                             </li>
                             <li>
                                 <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリース以降のすばやいフォロー</p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリース以降すぐ</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">カードの期限は、Workfrontオブジェクトの予定完了日にマッピングされます</a></p>
-                        <p>Workfrontボードで、接続されたカードの期限が、関連するWorkfrontオブジェクトの予定完了日にマッピングされるようになりました。 カードの期限を更新すると、タスクまたはイシューの予定完了日が更新されます。 計画完了日を変更すると、カードの期限も変更されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">カードの期限は、Workfront オブジェクトの予定完了日にマッピングされます</a></p>
+                        <p>Workfront ボードの接続されたカードの期限が、関連する Workfront オブジェクトの予定完了日にマッピングされるようになりました。カードの期限を更新すると、タスクまたはイシューの予定完了日が更新されます。予定完了日を変更すると、カードの期限も変更されます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 12 月 2 日<br /></p>
+                                <p>プレビューリリース：2022年12月1日（PT）<br /></p>
                             </li>
                             <li>
                                 <p>先行オプトイン用の実稼動版リリース：使用不可</p> 
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリースに伴う</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードのチェックリスト項目とWorkfrontのサブタスクがリンクされました</a></p>
-                        <p>接続されたカードをWorkfrontタスクのボードに追加すると、サブタスクはカードのチェックリスト項目として読み込まれます。 また、接続したカードでチェックリスト項目を作成すると、サブタスクがWorkfrontタスクに追加されます。 問題に関するチェックリスト項目は、どのWorkfrontオブジェクトにも接続されていません。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードのチェックリスト項目と Workfront のサブタスクがリンクされました</a></p>
+                        <p>接続されたカードを Workfront タスクのボードに追加すると、サブタスクはカードのチェックリスト項目として読み込まれます。また、接続したカードでチェックリスト項目を作成すると、サブタスクが Workfront タスクに追加されます。イシューに関するチェックリスト項目は、どの Workfront オブジェクトにも未接続です。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 12 月 2 日<br /><span style="color: #ff0000;"> この機能はプレビューから削除され、23.1 ではリリースされません。</span></p>
+                                <p>プレビューリリース：2022年12月1日（PT）<br /><span style="color: #ff0000;">この機能はプレビューから削除され、23.1 ではリリースされません。</span></p>
                             </li>
                             <li>
                                 <p>先行オプトイン用の実稼動版リリース：使用不可</p>
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリースに伴う</p>
                             </li>
                         </ul>
                     </td>
@@ -189,18 +189,18 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボード列のカードカウンター</a></p>
-                        <p>新しい設定では、ボード上のすべての列のカードカウンターをオンにできます。 ある列に WIP 制限を使用している場合、別のカードカウンターは追加されません。</p>
+                        <p>新しい設定では、ボード上のすべての列のカードカウンターをオンにできます。ある列に WIP 制限を使用している場合、別のカードカウンターは追加されません。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 11 月 18 日<br /></p>
+                                <p>プレビューリリース：2022年11月17日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>先行オプトインの実稼動リリース：2022 年 12 月 1 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
+                                <p>先行オプトインの実稼動リリース：2022年12月1日（PT）<span style="color: #ff0000;">この機能は、Workfront ボードの初期の機能オプトインからのみ、実稼動環境でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリースに伴う</p>
                             </li>
                         </ul>
                     </td>
@@ -210,35 +210,35 @@ ht-degree: 0%
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードダッシュボードでの検索と並べ替え</a></p>
                         <p>ボードダッシュボードをボード名や日付で並べ替え、リスト内の特定のボードを検索できるようになりました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 11 月 11 日<br /></p>
+                                <p>プレビューリリース：2022年11月10日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>先行オプトインの実稼動リリース：2022 年 11 月 18 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
+                                <p>先行オプトインの実稼動リリース：2022年11月17日（PT）<span style="color: #ff0000;">この機能は、Workfront ボードの初期の機能オプトインからのみ、実稼動環境でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリースに伴う</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                      <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">カードにステータスが表示されます</a></p>
-                        <p>ボード上のカードにステータスが割り当てられた場合、そのステータスがカードに表示されるので、カードを開いてステータスを確認する必要はありません。 この強化は、アドホックカードと接続カードの両方に適用されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">カードへのステータス表示</a></p>
+                        <p>ボード上のカードにステータスが割り当てられた場合、そのステータスがカードに表示されるので、カードを開いてステータスを確認する必要はありません。この機能強化は、アドホックカードと接続カードの両方に適用されます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 11 月 11 日<br /></p>
+                                <p>プレビューリリース：2022年11月10日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>先行オプトインの実稼動リリース：2022 年 11 月 18 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
+                                <p>先行オプトインの実稼動リリース：2022年11月17日（PT）<span style="color: #ff0000;">この機能は、Workfront ボードの初期の機能オプトインからのみ、実稼動環境でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリースに伴う</p>
                             </li>
                         </ul>
                     </td>
@@ -246,40 +246,40 @@ ht-degree: 0%
                     <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードでリンク可能なカードが利用可能になりました</a></p>
-                        <p>特定のカードへのリンクを別のボードユーザに送信できるようになりました。 ユーザーがリンクを開くには、そのユーザーがボードを表示するアクセス権を持っている必要があります。</p>
+                        <p>特定のカードへのリンクを別のボードユーザーに送信できるようになりました。ユーザーがリンクを開くには、そのユーザーにボードを表示するアクセス権必要です。</p>
                         <!-- <p>When you open a card on a board, the browser URL looks like this: https://<Workfront-URL>/boards/<board-id>/card/<card-id>.</p> -->
-                        <p>完全な URL をコピーして他のユーザーに送信できます。 リンクにアクセスすると、開いたカードに直接アクセスします。</p>
+                        <p>完全な URL をコピーして他のユーザーに送信できます。リンクにアクセスすると、開いたカードに直接移動します。</p>
                         <p>以前は、ボードではリンクが使用できましたが、特定のカードでは使用できませんでした。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 11 月 11 日<br /></p>
+                                <p>プレビューリリース：2022年11月10日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>先行オプトインの実稼動リリース：2022 年 11 月 18 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
+                                <p>先行オプトインの実稼動リリース：2022年11月17日（PT）<span style="color: #ff0000;">この機能は、Workfront ボードの初期の機能オプトインからのみ、実稼動環境でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリースに伴う</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードの接続でフィルター</a></p>
-                        <p>ボード上のフィルターのリストに、接続でフィルターするオプションが追加され、特定のプロジェクトに接続されているカードがすべて表示されます。 また、接続されていないカードでフィルタリングすることもできます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードでの接続によるフィルター</a></p>
+                        <p>ボード上のフィルターのリストに、接続によってフィルタリングするオプションが追加され、特定のプロジェクトに接続されているカードがすべて表示されます。また、未接続のカードでフィルタリングすることもできます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 10 月 28 日<br /></p>
+                                <p>プレビューリリース：2022年10月27日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>先行オプトインの実稼動リリース：2022 年 11 月 4 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
+                                <p>先行オプトインの実稼動リリース：2022年11月3日（PT）<span style="color: #ff0000;">この機能は、Workfront ボードの初期の機能オプトインからのみ、実稼動環境でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリースに伴う</p>
                             </li>
                         </ul>
                     </td>
@@ -287,19 +287,19 @@ ht-degree: 0%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">スケジュールに従ってボードからカードをアーカイブ</a></p>
-                        <p>カードをスケジュールに従ってアーカイブしたり、ボードから「フォールオフ」したりするようにボードを設定できます。 特定の列にカードを設定して、特定の日数または週数でアーカイブするオプションが使用できます。 たとえば、フォールオフを定義して、完了 (Complete) 列のカードを 2 週間後にアーカイブすることができます。</p>
-                        <p>ボードから落ちた後に再度カードを表示する場合は、アーカイブしたカードを表示するようにボードフィルターを設定できます。</p>
+                        <p>カードをスケジュールに従ってアーカイブしたり、ボードから「フォールオフ」したりするようにボードを設定できます。特定の列にカードを設定して、特定の日数または週数でアーカイブするオプションが使用できます。例えば、フォールオフを定義して、完了列のカードを 2 週間後にアーカイブすることができます。</p>
+                        <p>ボードから消えた後に再度カードを表示する場合は、アーカイブしたカードを表示するようにボードフィルターを設定できます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 10 月 28 日<br /></p>
+                                <p>プレビューリリース：2022年10月27日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>先行オプトインの実稼動リリース：2022 年 11 月 4 日 <span style="color: #ff0000;"> この機能は、Workfrontボードの初期の機能オプトインからのみ、本番でこの日に利用できます。</span></p>
-                                <p>すべてのお客様向けの実稼動リリース： 23.1 リリースを使用</p>
+                                <p>先行オプトインの実稼動リリース：2022年11月3日（PT）<span style="color: #ff0000;">この機能は、Workfront ボードの初期の機能オプトインからのみ、実稼動環境でこの日に利用できます。</span></p>
+                                <p>すべてのお客様向けの実稼動リリース：23.1 リリースに伴う</p>
                             </li>
                         </ul>
                     </td>
@@ -307,7 +307,7 @@ ht-degree: 0%
             </tbody>
         </table>
 
-### モバイル機能の強化
+### モバイルの機能強化
 
 <table>
             <col style="width: 50%;" />
@@ -325,16 +325,16 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">モバイルアプリでボードが利用できるようになりました</a><span style="color: #ff0000;"> 近日開始！</span></p>
-                        <p>Adobe Workfrontボードがモバイルアプリで利用できるようになりました。 ボードにはホーム画面から直接アクセスでき、アクセスできるすべてのボードがWorkfrontのデスクトップバージョンで表示されます。 特定のボードでは、すべての列とカードを表示および編集できます。 カードの詳細には、名前、説明、列、担当者、ステータス、期限、見積もり、タグ、チェックリストの項目が含まれます。 アドホックカードと接続されたカードの両方がボードに表示されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">モバイルアプリでのボード利用が</a><span style="color: #ff0000;">近日公開！</span></p>
+                        <p>Adobe Workfront ボードがモバイルアプリで利用できるようになりました。ボードにはホーム画面から直接アクセスでき、アクセス権があるすべてのボードが、Workfront のデスクトップバージョンで表示されます。特定のボードでは、すべての列とカードを表示および編集できます。カードの詳細には、名前、説明、列、担当者、ステータス、期日、見積もり、タグ、チェックリスト項目が含まれます。アドホックカードと接続されたカードの両方がボードに表示されます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：なし<br /></p>
+                                <p>プレビューリリース：該当なし<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動リリース： 2023 年 1 月中旬から後半にApple App StoreおよびGoogle Playストアで利用可能</span></p>
+                                <p><span class="preview">実稼動版リリース：2023年1月中旬～下旬に Apple App Store および Google Play ストアで利用できます。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -360,59 +360,59 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe WorkfrontへのIllustratorのデザインおよびビデオプラグインの追加の紹介</a><span style="color: #ff0000;"> 実稼動環境での新規作成</span></p>
-                        <p>Adobe Illustratorを含むInDesignプラグインのためのAdobe Workfrontの拡張がお知らせします。</p>
-                        <p>更新されたプラグイン（デザインおよびビデオ用）は、Illustrator、InDesign、Premiere Pro、After Effectsをサポートするようになりました。  </p>
-                        <p>このプラグインを使用すると、作業項目の詳細にアクセスしたり、更新領域の同僚と共同作業したり、お気に入りのCreative Cloudアプリケーションを離れることなく、すべての時間をログに記録したりできます。</p>
-                        <p>また、管理者は、Admin Consoleのプラグインを使用してパッケージを作成し、管理または自己管理の方法でユーザーにデプロイすることもできます。</p>
+                        <span style="color: #ff0000;">実稼動環境で新たに </span><a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront のデザインおよびビデオプラグインに Illustrator を追加導入</a></p>
+                        <p>Adobe Illustrator を含む InDesign プラグインのための Adobe Workfront の拡張がお知らせします。</p>
+                        <p>アップデートされた Adobe Workfront のデザインおよびビデオプラグインは、Illustrator、InDesign、Illustrator、Premiere Pro、After Effects をサポートするようになりました。  </p>
+                        <p>このプラグインを使用すると、作業アイテムの詳細にアクセスしたり、更新エリアの同僚社員と共同作業したり、お気に入りの Creative Cloud アプリケーションを離れることなく、すべての時間をログに記録したりできます。</p>
+                        <p>また、管理者は、Admin Console のプラグインを使用してパッケージを作成し、マネージドまたは自己管理の方法でユーザーにデプロイすることもできます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：なし<br /></p>
+                                <p>プレビューリリース：該当なし<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース： <span class="preview">2022 年 12 月 12 日</span></p>
+                                <p>実稼動版リリース：<span class="preview">2022年12月12日（PT）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontで一般に利用可能な拡張フィルターエクスペリエンス</a></p>
-                        <p>2022 年 8 月に、プロジェクト、タスクおよび問題リストに関するフィルターエクスペリエンスへのアップグレードがパブリックベータ版にリリースされました。 ほとんどのリストで、フィルター機能が強化されました。</p>
-                        <p>23.1 リリースの「高速フォロー」として、拡張フィルターエクスペリエンスは一般に利用可能になり、2023 年 2 月/3 月の期間に標準フィルタービルダーになります。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront の拡張フィルターエクスペリエンスが一般利用可能に</a></p>
+                        <p>2022年8月に、プロジェクト、タスクおよびイシューリストに関するフィルターエクスペリエンスへのアップグレードがパブリックベータ版にリリースされました。ほとんどのリストで、フィルター機能が強化されました。</p>
+                        <p>23.1 リリースの「高速フォロー」として、強化されたフィルターエクスペリエンスは一般に利用可能になり、2023年2月／3月の期間に標準フィルタービルダーになります。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 2 月/3 月<br /></p>
+                                <p>プレビューリリース：2023年2月／3月<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース： 2023 年 2 月/3 月</p>
+                                <p>実稼動版リリース：2023年2月／3月</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">「設定」領域のフィルター、ビュー、グループ化ページに新しいリスト制御機能が追加されました。</a></p>
-                        <p>「設定」領域のフィルター、ビュー、グループ化ページにリスト制御機能を追加しました。 ここで、レイアウトテンプレートのフィルター、ビューおよびグループを有効または無効にできます。
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">設定エリアのフィルター、ビュー、グループ化ページに新しいリスト制御機能が追加されました。</a></p>
+                        <p>「設定」エリアのフィルター、ビュー、グループ化ページにリストコントロール機能を追加しました。ここで、レイアウトテンプレートのフィルター、ビューおよびグループ化を有効または無効にできます。
 </p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 12 月 2 日<br /></p>
+                                <p>プレビューリリース：2022年12月1日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース： 23.1 リリースを使用</p>
+                                <p>実稼動版リリース：23.1 リリースを使用</p>
                             </li>
                         </ul>
                     </td>
@@ -420,53 +420,53 @@ ht-degree: 0%
                 <tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">デザインおよびビデオのためのAdobe Workfrontの概要</a></p>
-                        <p>Adobe Workfront、Adobe Premiere Pro、After Effectsを含むInDesignプラグインのためのの拡張をお知らせします。 プラグインの名前は、デザインとビデオでAdobe Workfrontに変更されます。</p>
-                        <p>更新されたAdobe Workfront（デザインおよびビデオ用）は、InDesign、Premiere Pro、After Effectsをサポートするようになりました。Illustratorは近日中に対応します。</p>
-                        <p>このプラグインを使用すると、作業項目の詳細にアクセスしたり、更新領域の同僚と共同作業したり、お気に入りのCreative Cloudアプリケーションを離れることなく、すべての時間をログに記録したりできます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront のデザインおよびビデオプラグインの導入</a></p>
+                        <p>Adobe Premiere Pro および After Effectsを含めた InDesign プラグインの Adobe Workfront 拡張をお知らせします。プラグインの名前は、デザインおよびビデオ用 Adobe Workfront に変更されます。</p>
+                        <p>アップデートされたデザインおよびビデオ用 Adobe Workfront プラグインは、InDesign、Premiere Pro および After Effects をサポートするようになりました。Illustrator への対応は近日中に開始となります。</p>
+                        <p>このプラグインを使用すると、作業アイテムの詳細にアクセスしたり、更新エリアの同僚社員と共同作業したり、お気に入りの Creative Cloud アプリケーションを離れることなく、すべての時間をログに記録したりできます。 </p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：なし<br /></p>
+                                <p>プレビューリリース：該当なし<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動リリース： 2022 年 11 月 18 日</span></p>
+                                <p><span class="preview">実稼動版リリース：2022年11月17日（PT）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.1 リリース期間のルックアンドフィールの更新</a></p>
-                        <p>Adobe Workfrontアプリケーションの様々な領域のルックアンドフィールに対するマイナーなアップデートは、23.1 リリース期間内におこなわれています。 これらの機能強化は、プレビューのリリース後最低 2 週間で実稼動環境で利用できるようになります。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">23.1 リリース期間のルックアンドフィールのアップデート</a></p>
+                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する軽微なアップデートは、23.1 リリース期間内に行われています。これらの機能強化はプレビューにリリース後、最低 2 週間で実稼動環境で利用できるようになります。 </p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 23.1 リリース期間を通じて<br /></p>
+                                <p>プレビューリリース：23.1 リリース期間を通じて<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：プレビューにリリースしてから最低 2 週間（特に指定のない限り）後</span></p>
+                                <p><span class="preview">実稼動リリース：プレビューにリリースしてから最短で 2 週間後（特に指定のない限り）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontヘルプにアクセスする方法 (AdobeUnified Experience のお客様向け )</a></p>
-                        <p>組織がAdobe Admin Consoleおよび Unified Experience for WorkfrontのAdobeにオンボーディングされている場合、Workfrontナビゲーションバーには「ヘルプ」のリンクが表示されなくなりました。</p>
-                        <p>Adobe Experience LeagueのWorkfrontヘルプには、Workfrontナビゲーションバーの左側にあるメインメニューか、上部のナビゲーション領域にある疑問符アイコンを使用してアクセスできます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront ヘルプへのアクセス方法（Adobe Unified Experience のお客様向け）</a></p>
+                        <p>組織が Workfront 向け Adobe Admin Console および Adobe Unified Experience にオンボーディングされている場合、Workfront ナビゲーションバーには「ヘルプ」のリンクが表示されなくなりました。</p>
+                        <p>Adobe Experience League の Workfront ヘルプには、Workfront ナビゲーションバーの左側にあるメインメニューか、上部のナビゲーションエリアにある疑問符アイコンを使用してアクセスできます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 10 月 28 日<br /></p>
+                                <p>プレビューリリース：2022年10月27日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>実稼動リリース： 2022 年 11 月 4 日 <span style="color: #ff0000;"> この機能は、WorkfrontのAdobe統合エクスペリエンスにオンボーディングされているお客様にのみ適用されます。</span></p>
+                                <p>実稼動リリース：2022年11月3日（PT）<span style="color: #ff0000;">この機能は、Adobe Unified Experience for Workfront にオンボーディングされているお客様にのみ適用されます。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -474,21 +474,21 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">ピンの削除時にピンと新しいエクスペリエンスの名前を変更する</a></p>
-                        <p>ピンに対して次の更新を利用できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">ピンの名前の変更およびピンの削除時の新しいエクスペリエンス</a></p>
+                        <p>ピンに対して次のアップデートを利用できるようになりました。</p>
                         <ul>
-                        <li>既存のピンの名前を変更する</li>
-                        <li>ピンを削除する際のエクスペリエンスが向上しました</li>
+                        <li>既存のピンの名前を変更</li>
+                        <li>ピンを削除する際のエクスペリエンスを向上</li>
                         </ul>
-                        <p>ピンの名前を変更したり、ピンを削除するオプションは、ピンの上にマウスポインターを置くとドロップダウンメニューに表示されます。</p>
+                        <p>ピンの名前を変更したり、ピンを削除するオプションは、ピンの上にポインタを合わせるとドロップダウンメニューに表示されます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2022 年 10 月 14 日<br /></p>
+                                <p>プレビューリリース：2022年10月13日（PT)<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース： 2022 年 10 月 27 日（オフサイクル）</span></p>
+                                <p><span class="preview">実稼動版リリース：2022年10月27日（PT）（オフサイクル）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -500,91 +500,91 @@ ht-degree: 0%
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境の 23.1 リリーススケジュール以外のサイクルで使用できます。 最新の機能について詳しくは、 [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion の新機能は、実稼動環境の 23.1 リリーススケジュール以外のタイミングで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-### WorkfrontScenario プランナーの機能強化
+### Workfront Scenario Planner の機能強化
 
-リリースのこの時点では、シナリオプランナーの更新はありません。 この領域は、更新が利用可能になると更新されます。
+リリースの現時点では、シナリオプランナーの更新はありません。このエリアは、アップデートが利用可能になると更新されます。
 
 ### Workfront Proof の機能強化
 
-このリリースでは、現時点でWorkfront Proof の更新はありません。 この領域は、更新が利用可能になると更新されます。
+リリースの現時点では、Workfront Proof の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
 
-### Workfront目標の強化
+### Workfront Goals の強化
 
-23.1 リリースを含むWorkfront Goals リリースの新機能。 プレビューで利用できる新機能について詳しくは、 [Adobe Workfront 23.1 リリースでの目標](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
+23.1 リリースでの Workfront Goals リリースの新機能。プレビュー環境で利用できる新機能について詳しくは、[23.1 リリースでの Adobe Workfront Goals](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md) を参照してください。
 
 ### API バージョン 15
 
-API バージョン 15 では、いくつかのリソースとエンドポイントを変更しました。 一部の変更は新しい機能をサポートし、他の変更では、API を通じて入手可能な情報を使いやすくします。
+API バージョン 15 では、いくつかのリソースとエンドポイントを変更しました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
-の新機能と更新点について詳しくは、 [API バージョン 15 の新機能](/help/quicksilver/wf-api/api/new-api-version-15.md).
+新機能と更新点について詳しくは、[API バージョン 15 の新機能](/help/quicksilver/wf-api/api/new-api-version-15.md)を参照してください。
 
-API バージョンについて詳しくは、 [API のバージョン管理とサポートのスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+API バージョンについて詳しくは、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
-### Workfront のメンテナンス更新
+### Workfront のメンテナンスアップデート
 
-22.3 リリースでおこなわれたメンテナンスアップデートについて詳しくは、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
 
 ### トレーニングの更新
 
-各Adobe Workfront製品リリースの学習プログラム、学習パス、ビデオ、ガイドに対しておこなわれた最新のアップデートを確認します。 詳しくは、 [WorkfrontTutorialsページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
 
-### 機能は間もなくWorkfrontから削除されます
+### Workfront から近日中に削除される機能
 
-次の機能は、近日中にWorkfrontから削除されます。
+次の機能は、近日中に Workfront から削除されます。
 
-#### **プレビュー環境からのキャンペーン（ベータ版）領域の廃止と削除**
+#### **プレビュー環境からキャンペーン（ベータ版）エリアを廃止および削除**
 
-2023 年 1 月 10 日に、プレビュー環境から「キャンペーン（ベータ版） 」領域を削除します。 アドビの製品チームは、この機能を確認し、将来の製品リリースに組み込みます。
+2023年1月9日（PT）に、プレビュー環境からキャンペーン（ベータ版）エリアを削除します。 アドビの製品チームは、この機能をレビューし、将来の製品リリースに組み込む予定です。
 
-現時点では、次の変更を加えています。
+現時点では、次の変更を行っています。
 
-* プレビュー環境のメインメニューおよびレイアウトテンプレートから「キャンペーン（ベータ版） 」領域を削除します。
-* リクエストによって有効にした顧客の場合は、実稼動環境のメインメニューやレイアウトテンプレートから「キャンペーン（ベータ版） 」領域を削除します。
+* プレビュー環境のメインメニューおよびレイアウトテンプレートから、キャンペーン（ベータ版）エリアを削除します。
+* リクエストによって有効にした顧客の場合は、実稼動環境のメインメニューやレイアウトテンプレートからキャンペーン（ベータ版）エリアを削除します。
 
-また、この機能を説明する記事もすべて削除されます。
+また、この機能を説明するすべての記事も削除します。
 
-#### **リストコントロール（セットアップの「インターフェイス」領域から）**
+#### **リストコントロール（設定のインターフェイス領域から）**
 
-セットアップ/インターフェイスのリストコントロールは、23.1 リリースで削除されます。
+設定／インターフェイスのリストコントロールは、23.1 リリースで削除されます。
 
-一部のリスト制御機能は、設定/インターフェイス/フィルター/ビュー/グループ化領域に移行します。 詳しくは、 [デフォルトのフィルター、ビュー、グループを作成、編集および共有します](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+一部のリストコントロール機能は、設定／インターフェイス／フィルター／ビュー／グループ化領域に移行します。 詳しくは、[デフォルトのフィルター、ビューおよびグループ化の作成、編集および共有](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)を参照してください。
 
-#### **IllustratorおよびInDesign用Workfront Extension for**
+#### **Illustrator および InDesign 向け Workfront 拡張機能**
 
-次の項目を置き換えます： [IllustratorおよびInDesign用Workfront Extension for ](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) 更新されたCreative Cloudプラグイン 2022 年後半以降、この拡張機能は Exchange でインストールできなくなります。
+[Illustrator および InDesign 向け Workfront 拡張機能](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)を更新された Creative Cloud プラグインに置き換えます。2022 年後半以降、この拡張機能は Adobe Exchange でインストールできなくなります。
 
-この拡張機能の機能は、更新されたAdobe WorkfrontでCreative Cloudプラグインに対して使用できます。
+この拡張機能の機能は、更新された Creative Cloud プラグイン用 Adobe Workfront で利用できます。
 * [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* [Adobe Workfront（デザインとビデオ）](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* [Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
-#### **リソーススケジューラ**
+#### **リソーススケジューラー**
 
 >[!NOTE]
 >
->10 月 20 日に、リソーススケジューラーがプレビュー環境から削除されました。 2023 年 1 月の 23.1 リリースで、実稼動環境から削除されます。
+>10月20日（PT）に、リソーススケジューラーがプレビュー環境から削除されました。2023年1月（PT）の 23.1 リリースで、実稼動環境から削除されます。
 
 
 リソーススケジュールツールの廃止に伴い、次の領域が削除されました。
 
-* メインメニューのリソース領域のスケジュール設定セクション
+* メインメニューのリソース領域の「スケジュール設定」セクション
 
-* チームのページのスケジュールセクション
+* チームのページの「スケジュール設定」セクション
 
 * プロジェクトのページの「スケジュール設定」セクション
 
-ワークロードバランサーがリソーススケジューラを置き換えています。
+ワークロードバランサーはリソーススケジューラーの代わりとなります。
 
-#### **イベント購読 API の SHARE イベントタイプ。**
+#### **イベント登録 API の共有イベントタイプ。**
 
 >[!NOTE]
 >
->  この機能は、新しい購読を作成する際に廃止され、2023 年 1 月に削除されます。
+>  この機能は、新しい登録を作成する際に廃止され、2023年1月（PT）に削除されます。
 
-このイベントタイプを使用すると、オブジェクトの権限が更新された際に顧客が監視できます。
+このイベントタイプにより、顧客はオブジェクトの権限がいつ更新されるかを監視できるようになりました。
 
-イベントの購読と、引き続きサポートされる他のイベントタイプについて詳しくは、 [イベント購読 API](/help/quicksilver/wf-api/general/event-subs-api.md)
+イベント登録および引き続きサポートされるその他のイベントタイプについて詳しくは、[Event Subscription API](/help/quicksilver/wf-api/general/event-subs-api.md) を参照してください。
 
 
