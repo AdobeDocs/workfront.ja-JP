@@ -4,100 +4,100 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: テキストパーサー
-description: テキストパーサーツールを使用して、他のユーザーで使用するテキストを解析できます [!DNL Adobe Workfront Fusion] シナリオモジュール。 テキストパーサーに接続は必要ありません。
+description: テキストパーサーツールを使用すると、他の [!DNL Adobe Workfront Fusion] シナリオモジュールで使用できるようにテキストを解析できます。テキストパーサーには接続は必要ありません。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # [!UICONTROL テキストパーサー]
 
-以下を使用して、 [!UICONTROL テキストパーサーツール] テキストを他で使用するために解析する [!DNL Adobe Workfront Fusion] シナリオモジュール。 この [!UICONTROL テキストパーサー] は接続を必要としません。
+[!UICONTROL テキストパーサーツール]を使用すると、他の [!DNL Adobe Workfront Fusion] シナリオモジュールで使用できるようにテキストを解析できます。[!UICONTROL テキストパーサー]には接続は必要ありません。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion]ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、[!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も組織で購入する必要があります。[!DNL Workfront Fusion] は [!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明されている機能を使用するには、[!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## [!UICONTROL テキストパーサー] モジュールとそのフィールド
+## [!UICONTROL テキストパーサー]モジュールとそのフィールド
 
-設定時に [!UICONTROL テキストパーサー] モジュール [!DNL Adobe Workfront Fusion] 以下のフィールドが表示されます。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!UICONTROL テキストパーサー]モジュールを設定すると、[!DNL Adobe Workfront Fusion] には、以下のフィールドが表示されます。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でのモジュール間の情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
 ### 変換サービス
 
-* [[!UICONTROL 「Get Elements from」HTML]](#get-elements-from-html)
+* [[!UICONTROL HTML から要素を取得]](#get-elements-from-html)
 * [[!UICONTROL テキストから要素を取得]](#get-elements-from-text)
-* [[!UICONTROL HTMLからテキスト]](#html-to-text)
-* [[!UICONTROL 一致パターン]](#match-pattern)
+* [[!UICONTROL HTML をテキストに変換]](#html-to-text)
+* [[!UICONTROL パターンを照合]](#match-pattern)
 * [[!UICONTROL 置き換え]](#replace)
 
-#### [!UICONTROL 「Get Elements from」HTML]
+#### [!UICONTROL HTML から要素を取得]
 
-必要な要素をHTMLコードから取得します。
+必要な要素を HTML コードから取得します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL モジュールで一致が見つからない場合でも、ルートの実行を続行します ]</td> 
+   <td>[!UICONTROL Continue the execution of the route even if the module finds no matches]</td> 
    <td> <p>結果が返されない場合にモジュールがシナリオを停止しないようにするには、このオプションを有効にします。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 要素タイプ ]</td> 
-   <td> <p> 要素コードから取得する要素のタイプをHTMLします。 </p> 
+   <td>[!UICONTROL Element type]</td> 
+   <td> <p> HTML コードから取得する要素のタイプを選択します。 </p> 
     <ul> 
-     <li>[!UICONTROL 画像 ]</li> 
-     <li>[!UICONTROL リンク ]</li> 
-     <li>[!UICONTROL iFrame 要素 ]</li> 
+     <li>[!UICONTROL Image]</li> 
+     <li>[!UICONTROL Link]</li> 
+     <li>[!UICONTROL iFrame element(s)]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROLHTML] </td> 
-   <td> <p>指定したHTMLタイプを取得する要素コードを入力またはマッピングします。</p> </td> 
+   <td>[!UICONTROL HTML] </td> 
+   <td> <p>指定した要素タイプを取得する HTML コードを入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,84 +111,84 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL テキストを入力 ]</td> 
-   <td> <p>解析するテキストを入力またはマップします。</p> </td> 
+   <td>[!UICONTROL Input text]</td> 
+   <td> <p>解析するテキストを入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL パターン ]</td> 
+   <td>[!UICONTROL Pattern]</td> 
    <td> <p>テキストから解析する要素を反映するパターンを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 重複する発生件数を無視 ]</td> 
-   <td> <p>テキスト要素の重複部分を無視する場合は、このチェックボックスをオンにします。</p> </td> 
+   <td>[!UICONTROL Ignore Duplicate Occurrences]</td> 
+   <td> <p>テキスト要素の重複発生を無視する場合は、このチェックボックスをオンにします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL HTMLからテキスト]
+#### [!UICONTROL HTML からテキスト]
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROLHTML] </td> 
-   <td> <p>プレーンHTMLに変換するテキストコードを入力します。</p> </td> 
+   <td>[!UICONTROL HTML] </td> 
+   <td> <p>プレーンテキストに変換する HTML コードを入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 改行 ] </td> 
-   <td> <p>改行のタイプ（改行）を選択します。</p> </td> 
+   <td>[!UICONTROL Line break] </td> 
+   <td> <p>新規行（改行）のタイプを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 大文字の見出し ]</p> </td> 
-   <td> <p>見出しタグで囲まれたテキストを変換する場合は、このオプションを有効にします ( 例： &lt;h2&gt; &lt;/h2&gt;) を大文字に変換します。</p> </td> 
+   <td> <p>[!UICONTROL Uppercase headings]</p> </td> 
+   <td> <p>見出しタグ（&lt;h2&gt; &lt;/h2&gt; など）で囲まれたテキストを大文字テキストに変換する場合は、このオプションを有効にします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL 一致パターン]
 
-この [!UICONTROL 一致パターン] モジュールを使用すると、指定したテキストから検索パターンに一致する文字列要素を検索および抽出できます。 このモジュールは、正規表現（正規表現または正規表現とも呼ばれます）を使用します。
+[!UICONTROL 一致パターン]モジュールを使用すると、指定したテキストから検索パターンに一致する文字列要素を検索して抽出できます。このモジュールは正規表現（regex または regexp と表記される場合もあります）を使用します。
 
-正規表現とは、各文字がメタ文字で、特殊な意味を持つ文字、またはリテラル意味を持つ正規文字のシーケンスです。 これらの文字とメタ文字は、テキストの検索に使用できるパターンを識別します。 例えば、名前を検索する場合、大文字で始まる 2 つの連続する単語で構成されるパターンを検索する正規表現を設定できます。 正規表現は、テキストを検索および操作するための強力なツールです。
+正規表現とは、各文字が特別な意味を持つメタ文字、またはリテラルの意味を持つ正規文字のいずれかである文字のシーケンスです。これらの文字とメタ文字は、テキストの検索に使用できるパターンを識別します。例えば、名前を検索する場合、大文字で始まる 2 つの連続した単語で構成されるパターンを検索する正規表現を設定できます。正規表現は、テキストを検索および操作するための強力なツールです。
 
-正規表現の議論は、この記事の範囲外です。 次のリソースをお勧めします。
+正規表現についての詳しい説明は、この記事の範囲外です。次のリソースをお勧めします。
 
-* メタ文字の完全なリストについては、 [正規表現](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) MDN web ドキュメントの。
-* 正規表現の作成方法に関するチュートリアルについては、 [RegexOne](https://regexone.com/).
-* 正規表現を試す場合は、 [正規表現 101](https://regex101.com/) web サイト。 左側のパネルで ECMAScript (JavaScript) FLAVOR を選択します。
+* メタ文字の完全なリストについては、MDN web ドキュメントの[正規表現](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)を参照してください。
+* 正規表現の作成方法を説明するチュートリアルについては、[RegexOne](https://regexone.com/) をお勧めします。
+* 正規表現を試したい方には、[正規表現 101](https://regex101.com/) web サイトをお勧めします。左パネルで ECMAScript（JavaScript）FLAVOR を選択します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL パターン ] </td> 
-   <td> <p>正規表現のパターンを入力します。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span> <code>[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?</code> 指定されたテキスト内のすべての数字を抽出します。</p> <p>メモ:  <p>パターンには、少なくとも 1 つのキャプチャグループが括弧で囲まれている必要があります <code>()</code>. パターンにキャプチャグループが含まれていない場合、出力バンドルは空になります。</p> </p> </td> 
+   <td>[!UICONTROL Pattern] </td> 
+   <td> <p>正規表現のパターンを入力します。 </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>[+-]?(\d+(\.\d+)?|\.\d+)([eE][+-]?\d+)?</code> で指定されたテキスト内のすべての数字を抽出します。</p> <p>メモ：  <p>パターンでは、少なくとも 1 つのキャプチャグループが括弧内に含まれている必要があります<code>()</code>。パターンにキャプチャグループが含まれていない場合、出力バンドルは空になります。</p> </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL グローバル一致 ]</td> 
-   <td> <p>テキスト内のすべての一致を取得するには、このオプションを有効にします。 それぞれの一致は、別々のバンドルに出力されます。 このオプションが無効な場合、モジュールは最初のエントリのみを取得します。</p> </td> 
+   <td>[!UICONTROL Global match]</td> 
+   <td> <p>テキスト内のすべての一致を取得するには、このオプションを有効にします。一致はそれぞれ、個別のバンドルに出力されます。このオプションが無効になっている場合、モジュールは最初のエントリのみを取得します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 大文字と小文字を区別 ]</td> 
-   <td> <p> このモジュールで、テキストの大文字と小文字が区別されるようにこのオプションを有効にします。</p> </td> 
+   <td>[!UICONTROL Case sensitive]</td> 
+   <td> <p> このモジュールでテキストの大文字と小文字を区別して扱うには、このオプションを有効にします。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 複数行 </td> 
-   <td> <p>このオプションを有効にして、開始および終了のメタ文字 (<code>^</code> および <code>$</code>) は、入力文字列全体の先頭または末尾だけでなく、各行の先頭または末尾に一致します。</p> </td> 
+   <td>[!UICONTROL Multiline] </td> 
+   <td> <p>このオプションを有効にすると、開始メタ文字と終了メタ文字（<code>^</code> および <code>$</code>）が、入力文字列全体の先頭または末尾だけでなく、各行の先頭または末尾と一致するようになります。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL シングルライン ]</td> 
-   <td>このオプションを有効にして、必ずピリオド (.) 改行文字 (<code>\n</code>) をクリックします。</td> 
+   <td>[!UICONTROL Singleline]</td> 
+   <td>ピリオド（.）が改行文字（<code>\n</code>）と一致するようにするには、このオプションを有効にします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL モジュールが結果を返さない場合でも、ルートの実行を続行します ]</td> 
+   <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
    <td> <p>結果が返されない場合にモジュールがシナリオを停止しないようにするには、このオプションを有効にします。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL テキスト ] </td> 
-   <td> <p>パターンに合わせるテキストを入力またはマッピングします。</p> </td> 
+   <td>[!UICONTROL Text] </td> 
+   <td> <p>パターンと一致させるテキストを入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -202,31 +202,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL パターン ] </td> 
-   <td> <p>検索語句を入力します。 また、正規表現を使用することもできます。 正規表現について詳しくは、 <a href="#match-pattern" class="MCXref xref">[!UICONTROL 一致パターン ]</a> モジュール。</p> </td> 
+   <td>[!UICONTROL Pattern] </td> 
+   <td> <p>検索語句を入力します。また、正規表現を使用することもできます。正規表現について詳しくは、<a href="#match-pattern" class="MCXref xref">[!UICONTROL Match Pattern]</a> モジュールを参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 新しい値 ]</td> 
+   <td>[!UICONTROL New value]</td> 
    <td> <p> 検索語句を置き換える値を入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL グローバル一致 ]</td> 
-   <td> <p>テキスト内のすべての一致を取得するには、このオプションを有効にします。 それぞれの一致は、別々のバンドルに出力されます。 このオプションが無効な場合、モジュールは最初のエントリのみを取得します。</p> </td> 
+   <td>[!UICONTROL Global match]</td> 
+   <td> <p>テキスト内のすべての一致を取得するには、このオプションを有効にします。一致はそれぞれ、個別のバンドルに出力されます。このオプションが無効になっている場合、モジュールは最初のエントリのみを取得します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 大文字と小文字を区別 ]</td> 
-   <td> <p> このモジュールで、テキストの大文字と小文字が区別されるようにこのオプションを有効にします。</p> </td> 
+   <td>[!UICONTROL Case sensitive]</td> 
+   <td> <p> このモジュールでテキストの大文字と小文字を区別して扱うには、このオプションを有効にします。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 複数行 </td> 
-   <td> <p>このオプションを有効にして、開始および終了のメタ文字 (<code>^</code> および <code>$</code>) は、入力文字列全体の先頭または末尾だけでなく、各行の先頭または末尾に一致します。</p> </td> 
+   <td>[!UICONTROL Multiline] </td> 
+   <td> <p>このオプションを有効にすると、開始メタ文字と終了メタ文字（<code>^</code> および <code>$</code>）が、入力文字列全体の先頭または末尾だけでなく、各行の先頭または末尾と一致するようになります。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL シングルライン ]</td> 
-   <td>このオプションを有効にして、必ずピリオド (.) 改行文字 (<code>\n</code>) をクリックします。</td> 
+   <td>[!UICONTROL Singleline]</td> 
+   <td>ピリオド（.）が改行文字（<code>\n</code>）に一致します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL テキスト ] </td> 
+   <td>[!UICONTROL Text] </td> 
    <td> <p>検索するテキストを入力します。</p> </td> 
   </tr> 
  </tbody> 
@@ -234,6 +234,6 @@ ht-degree: 0%
 
 ### データスクレーピング
 
-データスクレーピング（Web スクレーピング、データ抽出、Web 収集とも呼ばれます）とは、Web サイトからデータを収集し、ローカルのデータベースまたはスプレッドシートに保存するプロセスです。 Web サイトからデータを削除する場合で、正規表現に慣れていない場合は、データ削除ツールを使用できます。
+データスクレーピング（web スクレーピング、データ抽出、web 収集とも呼ばれます）とは、web サイトからデータを収集し、ローカルのデータベースまたはスプレッドシートに保存するプロセスです。Web サイトからデータを削除する場合で、かつ正規表現に慣れていない場合は、データスクレーピングツールを使用できます。
 
-データスクレーピングツールが REST API を提供している場合は、ユニバーサルアドビのユニバーサルアプリケーションを通じて接続できます [[!UICONTROL HTTP] モジュール](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) および [ウェブフック](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) モジュール。
+データスクレーピングツールが REST API を提供している場合は、ユニバーサル [[!UICONTROL HTTP] モジュール](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)および [Web フック](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)モジュールを通じて接続できます。
