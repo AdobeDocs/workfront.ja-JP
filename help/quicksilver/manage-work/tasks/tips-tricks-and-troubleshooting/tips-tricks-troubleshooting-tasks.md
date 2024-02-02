@@ -7,9 +7,9 @@ feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c93388d2-3166-4beb-9156-e309041ed109
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '33'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -17,5 +17,5 @@ ht-degree: 0%
 
 この節では、次の記事を扱います。
 
-* [タスクの FAQ](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
-* [推定期間が計画期間と一致しません](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
+* [タスクに関する FAQ](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
+* [見込み期間が予定期間と一致しません](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
