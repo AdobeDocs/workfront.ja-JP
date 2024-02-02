@@ -3,15 +3,15 @@ title: 監査ログの表示と書き出し
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。 監査ログを書き出すこともできます。 監査ログは、過去 90 日間にシステムでトリガーされたユーザーの変更をリストします。
+description: システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。監査ログはエクスポートすることもできます。監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -21,67 +21,67 @@ ht-degree: 0%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
-システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。 監査ログを書き出すこともできます。
+システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。監査ログはエクスポートすることもできます。
 
-監査ログは、過去 90 日間にシステムでトリガーされたユーザーの変更をリストします。
+監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
 
-すべての監査ログのタイプと、その生成内容について詳しくは、 [監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+すべての監査ログのタイプとその生成内容については、[監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください。
 
 ## アクセス要件
 
-この記事の手順を実行するには、次の手順を実行する必要があります。
+この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td> <p>計画 </p> <p>Workfront管理者である。</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> <p>プラン </p> <p>Workfront 管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 監査ログの表示
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン![](assets/main-menu-icon.png)、**設定**![](assets/gear-icon-settings.png)の順にをクリックします。
 
-1. 左側のパネルで、 **システム/監査ログ**.
-1. 内 **ログタイプ** ドロップダウンメニューから、表示する監査ログのタイプを選択します。
+1. 左側のパネルで、**システム／監査ログ**&#x200B;をクリックします。
+1. 「**ログタイプ**」ドロップダウンメニューで、表示する監査ログのタイプを選択します。
 
-   **すべてのログタイプ** はデフォルトで選択されています。
+   デフォルトでは、「**すべてのログタイプ**」が選択されています。
 
-   表示できるすべての監査ログの種類とそれらに含まれる情報の一覧については、 [監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   表示できるすべての監査ログタイプとそれらに含まれる情報のリストについては、[監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください。
 
 1. （オプション）使用可能な任意のフィルターを設定します。
 
    >[!NOTE]
    >
-   >Action Type ドロップダウンメニューのオプションは、選択した監査ログによって異なります。
+   >「アクションタイプ」ドロップダウンメニューのオプションは、選択した監査ログによって異なります。
 
    ![](assets/audit-logs.jpg)
 
-1. クリック **適用**.
-1. （オプション）「 **フィルターをクリア** ：フィルターに加えた変更をリセットします。
+1. 「**適用**」をクリックします。
+1. （オプション）「**フィルターをクリア**」をクリックして、フィルターに加えられた変更をリセットします。
 
-## 監査ログの書き出し
+## 監査ログのエクスポート
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上にある&#x200B;**メインメニュー**&#x200B;アイコン（![](assets/main-menu-icon.png)）をクリックし、**設定**&#x200B;アイコン（![](assets/gear-icon-settings.png)）をクリックします。
 
-1. 左側のパネルで、 **システム/監査ログ**.
+1. 左側のパネルで、**システム／監査ログ**&#x200B;をクリックします。
 
-1. 内 **ログタイプ** ドロップダウンメニューから、監査ログを選択します。
+1. 「**ログタイプ**」ドロップダウンメニューで「監査ログ」を選択します。
 
-   **すべてのログタイプ** はデフォルトで選択されています。
+   デフォルトでは「**すべてのログタイプ**」が選択されています。
 
-1. 使用可能なフィルターのいずれかを設定し、「 **適用**.
+1. 使用可能なフィルターのいずれかを設定し、「**適用**」をクリックします。
 
    >[!IMPORTANT]
    >
-   >一度に 50,000 件を超えるログを書き出すことはできません。 Workfrontは、ページに表示されるログの数ではなく、設定したフィルターに基づいてログを書き出します。 フィルター済みログの合計数をページの右下隅に表示できます。
+   >一度に 50,000 件を超えるログをエクスポートすることはできません。Workfront では、ページに表示されるログの数ではなく、設定したフィルターに基づいてログがエクスポートされます。フィルターされたログの合計数は、ページの右下に表示されます。
 
-1. クリック **書き出し**.
+1. 「**エクスポート**」をクリックします。
