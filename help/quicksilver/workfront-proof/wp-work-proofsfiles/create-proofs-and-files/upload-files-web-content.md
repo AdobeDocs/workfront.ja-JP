@@ -2,65 +2,65 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
-title: ファイルと Web コンテンツのアップロード先 [!DNL Workfront Proof]
-description: にファイルをアップロードできます。 [!DNL Workfront Proof] 配達確認を作成せずに また、Web サイトや他の Web コンテンツの URL をに追加できます。 [!DNL Workfront Proof].
+title: ' [!DNL Workfront Proof] にファイルと Web コンテンツをアップロード'
+description: ファイルは、プルーフを作成しなくても  [!DNL Workfront Proof]  にアップロードできます。また、 [!DNL Workfront Proof] には web サイトや他の web コンテンツの URL を追加できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# ファイルと Web コンテンツのアップロード先 [!DNL Workfront Proof]
+# [!DNL Workfront Proof] にファイルと web コンテンツをアップロード
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、[!DNL Workfront Proof] スタンドアロン製品の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-にファイルをアップロードできます。 [!DNL Workfront Proof] 配達確認を作成せずに また、Web サイトや他の Web コンテンツの URL をに追加できます。 [!DNL Workfront Proof].
+ファイルは、プルーフを作成しなくても [!DNL Workfront Proof] にアップロードできます。また、[!DNL Workfront Proof] には web サイトや他の web コンテンツの URL を追加できます。
 
-## 配達確認を作成しないファイルのアップロードについて
+## プルーフを作成せずにファイルをアップロードすることについて
 
-場合によっては、 [!DNL Workfront Proof] また、同時に配達確認を作成します ( [で配達確認を生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)) をクリックします。
+場合によっては、ファイルを [!DNL Workfront Proof] に追加し、同時にプルーフを作成する場合があります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照）。
 
-その他の場合は、 [!DNL Workfront Proof] 配達確認を作成せずに
+他の場合には、プルーフを作成せずにファイルを [!DNL Workfront Proof] に追加したい場合もあります。
 
-これは、例えば、校正権限を持っていないが、校正権限を持つユーザーにレビュー用のファイルを提供する必要がある場合に便利です。これらのユーザーの 1 人は、アップロード後に配達確認を作成できます。
+これは、例えば、自分はプルーフ権限を持っていないが、プルーフ権限を持つユーザーに対してレビュー用のファイルを提供する必要がある場合に便利です。ファイルをアップロードすると、それらのユーザーのいずれかプルーフを作成できます。
 
-また、 [!DNL Workfront Proof] 配達確認を作成せずにファイルのクラウドストレージとして保存できます。 一部の組織では [!DNL Workfront Proof] プロジェクトに関する内部ドキュメントなど、プロジェクトの一部のデジタルマテリアルを一緒に保持する場合は、校正をおこなう必要はありません。
+また、プルーフを作成せずに [!DNL Workfront Proof] をファイルのクラウドストレージとして使用できます。組織によっては、プロジェクトに関する内部ドキュメントなど一部のデジタル資料がプルーフの必要がない場合でも、[!DNL Workfront Proof] を使用してプロジェクトのすべてのデジタル資料をまとめて保管しています。
 
 ## ファイルのアップロードと URL の追加
 
-ファイルをにアップロードするには [!DNL Workfront Proof]:
+ファイルを [!DNL Workfront Proof] にアップロードするには：
 
-1. の左上隅に [!DNL Workfront Proof]をクリックし、 **[!UICONTROL 新しい配達確認]** ボタンをクリックし、 **[!UICONTROL ファイルをアップロード]** をクリックします。\
+1. [!DNL Workfront Proof] の左上隅にある「**[!UICONTROL 新しいプルーフ]**」ボタンをクリックし、表示されたメニューで「**[!UICONTROL ファイルをアップロード]**」をクリックします。\
    ![](assets/new-proof-button-menu.png)
 
-1. この **[!DNL New File]** ページが表示されます。
-1. 次のいずれかの操作を行って、配達確認に必要なコンテンツをアップロードまたは追加します。
+1. **[!DNL New File]** ページが表示されます。
+1. 次のいずれかの操作を行って、プルーフに必要なコンテンツをアップロードまたは追加します。
 
-   * ファイルを **[!UICONTROL ここにファイルをドロップ]** ボックス または、 **[!UICONTROL ファイルを選択]**&#x200B;をクリックし、それらを検索して選択します。
+   * ファイルを「**[!UICONTROL ここにファイルをドロップ]**」ボックスにドラッグ＆ドロップします。または、「**[!UICONTROL ファイルを選択]**」をクリックし、それらを検索して選択します。
 
-   * この手順を繰り返して、必要な数のファイルを追加できます。 アップロードしたファイルは、1 つのマージされたファイルではなく、個々のファイルとしてアカウントに表示されます。
+   * この手順を繰り返して、必要な数のファイルを追加できます。アップロードしたファイルは、1 つの結合されたファイルではなく、個々のファイルとしてアカウントに表示されます。
 
-   * URL からファイルを作成する場合は、 **www.yoursite.com**. 終了したら、 **[!UICONTROL 入力]** または、ボックスの端にある緑色の矢印ボタンをクリックします。\
+   * URL からファイルを作成する場合は、**www.yoursite.com** を含む URL をボックスに入力します。終了したら、**[!UICONTROL Enter]** を押すか、ボックスの端にある緑色の矢印ボタンをクリックします。
 
-      複数の URL をスペースで区切って入力すると、複数のファイルを一度に作成できます。
+     複数の URL をスペースで区切って入力すると、複数のファイルを一度に作成できます。
 
-1. ファイルの配達確認を必要とするレビュー担当者の E メールアドレスを下のボックスに入力します **[!UICONTROL 共有]**.\
-   これらの手順が完了すると、これらの受信者はファイルのダウンロードリンクを含む E メールを受け取ります。\
-   ファイルを連絡先、グループ、パートナーと共有できます ( [連絡先](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts),  [グループ](https://support.workfront.com/hc/en-us/sections/115000920828-Groups)、および [パートナーアカウント](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)) をクリックします。
+1. ファイルのプルーフを必要とするレビュアーのメールアドレスを&#x200B;**[!UICONTROL 共有]**&#x200B;の下のボックスに入力します。\
+   これらの手順が完了すると、これらの受信者はファイルのダウンロードリンクを含むメールを受け取ります。\
+   ファイルを連絡先、グループ、パートナーと共有できます（[連絡先](https://support.workfront.com/hc/ja-jp/sections/115000920808-Contacts)、[グループ](https://support.workfront.com/hc/ja-jp/sections/115000920828-Groups)、および [パートナーアカウント](https://support.workfront.com/hc/ja-jp/sections/115000912107-Partner-accounts)を参照）。
 
-1. （オプション） **[!UICONTROL メールで担当者に通知]** ファイルの受信者が受信した e メールに、カスタムの件名とメッセージを追加する場合。 詳しくは、 [Workfront Proof でファイルを共有](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) を参照してください。
+1. （オプション）ファイルの受信者が受信するメールにカスタムの件名とメッセージを追加する場合は、「**[!UICONTROL メールで担当者に通知]**」を選択できます。詳しくは、[Workfront Proof でのファイルの共有](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)を参照してください。
 
-1. （オプション） **[!UICONTROL 整理]**&#x200B;を使用する場合は、アップロードするファイルを整理するフォルダーを選択または作成できます。 また、タグを追加して、ファイルを簡単に識別して見つけることもできます。
-1. タグは、ファイルの内容を記述するために使用できる単語または単語の組み合わせです。 必要なものを簡単に検索できます。
+1. （オプション）「**[!UICONTROL 整理]**」の下で、アップロードするファイルを整理するフォルダーを選択または作成できます。また、タグを追加して、ファイルを簡単に識別して見つけることもできます。
+1. タグは、ファイルの内容を記述するために使用できる単語または単語の組み合わせです。必要なものを簡単に検索できます。
 
    >[!NOTE]
    >
-   > 追加するフォルダー [!DNL Workfront Proof] は校正システムの一部です。これらは、コンピューター上または会社のサーバー上でアクセスするファイルフォルダーシステムに含まれていません。
+   > [!DNL Workfront Proof] に追加するフォルダーはプルーフシステムのみの一部です。コンピューター上や会社のサーバー上でアクセスするファイルフォルダーシステムの一部ではありません。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
