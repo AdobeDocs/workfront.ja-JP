@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: FAQ - [!DNL Workfront Proof] アカウント
-description: 新しいアカウントを開くには、体験版登録ページに移動し、体験版アカウントを開きます。 チームのメンバーが連絡を取り、 [!DNL Workfront Proof].
+description: 新しいアカウントを開くには、体験版登録ページに移動し、体験版アカウントを開きます。その後、お客様が  [!DNL Workfront Proof] の使用を開始できるよう、弊社のチームのメンバーからご連絡させていただきます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
 source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,62 +19,62 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-## 新しい [!DNL Workfront Proof] アカウント？
+## 新しい [!DNL Workfront Proof] アカウントを開くには？
 
-新しいアカウントを開くには、 [体験登録ページ](https://www.proofhq.com/html/free-trial.html) 体験版アカウントを開きます。 チームのメンバーが連絡を取り、 [!DNL Workfront Proof].
+新しいアカウントを開くには、[体験版登録ページ](https://www.proofhq.com/html/free-trial.html)に移動し、体験版アカウントを開きます。その後、弊社のチームのメンバーが [!DNL Workfront Proof] の使用を開始できるようご連絡させていただきます。
 
-既にシステムを把握しており、有料プランにサインアップする場合は、次に進んでください： *[!UICONTROL 設定]* *>* *[!UICONTROL 請求]* アカウントを有料プランの 1 つにアップグレードしてください。
+すでにシステムについてはご存知で、有料プランに新規登録する場合は、*[!UICONTROL 設定]* *／* *[!UICONTROL 請求]*&#x200B;に移動して、有料プランのいずれかにアカウントをアップグレードしてください。
 
-## 自分のアカウントに人を追加する方法を教えてください。
+## マイアカウントに人を追加する方法
 
-管理者と請求管理者は、アカウントにユーザーを追加できます。 ユーザーが作業を管理し、アカウント内で配達確認やファイルを作成するのに役立つ独自のダッシュボードを用意しています。
+管理者と請求管理者は、アカウントにユーザーを追加できます。ユーザーは自分の作業を管理するのに役立つ独自のダッシュボードを持っており、アカウント内にプルーフやファイルを作成できます。
 
-ぜひご覧ください [次を使用してユーザーを作成 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を参照して、アカウントにユーザーを追加する方法を確認してください。
+ユーザーをアカウントに追加する方法について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を使用してユーザーを作成するを参照してください。
 
-## パスワードを忘れたので、何ができますか？
+## パスワードを忘れた場合
 
-次に移動： [ログインページ](https://app.proofhq.com/login) をクリックし、 *[!UICONTROL パスワードを忘れた場合]*. パスワードを変更できるリセットリンクをメールで送信します。
+[ログインページ](https://app.proofhq.com/login)に移動し、*[!UICONTROL パスワードを忘れた場合]*&#x200B;をクリックします。パスワードを変更できるリセットリンクがメールでお送れらてきます。
 
 ## 権限プロファイルが重要な理由
 
-権限プロファイルは、アカウント内の様々な項目に対する担当者のアクセスを定義します。 これは、他のユーザーの配達確認を他のユーザーに表示したくない場合や、ユーザーにアクセス権を付与したくない場合に重要です [!UICONTROL アカウント設定] または [!UICONTROL 請求]. 詳しくは、 [の配達確認権限プロファイル [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) の記事で、 [!DNL Workfront Proof].
+権限プロファイルは、アカウント内の様々なアイテムに対してユーザーが持つアクセス権を定義するものです。これは、他の人のプルーフを見られたくない場合や、[!UICONTROL アカウント設定]や[!UICONTROL 請求]へのアクセスを許可したくない場合に重要です。[!DNL Workfront Proof] で利用可能なプロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルのの記事を参照してください。
 
-権限をもう少し微調整する必要がある場合は、カスタムプロファイルを検討する必要があります。 これは [!UICONTROL 無制限] カスタマイズされた権限を持つ独自のプロファイルを作成できる機能。 詳しくは、 [[!UICONTROL を使用したカスタムプロファイルの作成と管理 [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) 記事。
+権限をもう少し細かく調整する必要がある場合は、カスタムプロファイルを検討するとよいでしょう。これは、カスタマイズされた権限で独自のプロファイルを作成できる[!UICONTROL 無制限]の機能です。詳しくは、[[!UICONTROL  [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成と管理の記事を参照してください。
 
-## 配達確認の役割と権限プロファイルの違いは何ですか？
+## プルーフロールと権限プロファイルの違い
 
-配達確認の役割は、レビュー担当者が配達確認に対して実行できるアクション（コメント、決定など）を定義します。
+プルーフロールは、レビュー担当者がプルーフに対して実行できるアクション（コメント、決定など）を定義します。
 
-権限プロファイルは、ユーザーがアカウントで実行できるアクション（配達確認の作成、他のユーザーの配達確認の編集、アカウント設定の管理など）を定義します。
+権限プロファイルは、ユーザーがアカウントで実行できるアクション（プルーフの作成、他のユーザーのプルーフの編集、アカウント設定の管理など）を定義します。
 
-## 配達確認の整理方法を教えてください。
+## プルーフの整理方法
 
-配達確認とファイルを整理する最も一般的な方法は、アカウントでフォルダー構造を作成することです。 フォルダーとサブフォルダーは必要な数だけ持つことができます。
+プルーフやファイルを整理する一般的な方法は、アカウントでフォルダー構造を作成することです。フォルダーとサブフォルダーは必要な数だけ持つことができます。
 
-例えば、クライアントごとに個別のフォルダを作成し、プロジェクトごとに異なるサブフォルダを作成できます。 または、プロジェクト用のフォルダーを作成し、アセットごとに異なるサブフォルダーを作成することもできます。 必要に応じて、配達確認の作成者は、作成した配達確認用に独自のフォルダーを作成するだけで済みます。 フォルダーについては、 [内のフォルダー [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) 記事。
+例えば、クライアントごとに個別のフォルダーを作成し、プロジェクトごとに異なるサブフォルダーを作成できます。または、プロジェクト用のフォルダーを作成し、アセットごとに異なるサブフォルダーを作成することもできます。必要に応じて、プルーフの作成者は、作成したプルーフ用に独自のフォルダーを作成するだけで済みます。フォルダーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) のフォルダーの記事を参照してください。
 
-*タグ* は、アカウント内の配達確認やファイルを整理するためのもう 1 つの方法です。 複数のタグを配達確認やファイルに適用して、プロジェクト名、コンテンツのタイプ、クライアント名などに使用できます。 タグを使用してアカウントを検索し、検索結果に対して様々なアクションを実行できます。 また、カスタムビューでも使用できます。 詳しくは、 [[!UICONTROL タグの作成と管理] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) タグの詳細については、この記事を参照してください。
+*タグ*&#x200B;は、アカウント内でプルーフやファイルを整理するためのもう 1 つの方法です。複数のタグをプルーフやファイルに適用することができ、プロジェクト名、コンテンツタイプ、クライアント名などに使用できます。タグを使用するとアカウントを検索することができ、検索結果に対して様々なアクションを実行できます。カスタムビューでも使用することもできます。タグについて詳しくは、[[!UICONTROL  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) でのタグの作成と管理]の記事を参照してください。
 
-## どうすればクライアントにダッシュボードを提供できますか？
+## クライアントにダッシュボードを提供する方法
 
-Satellite アカウントを設定できます。 衛星は、ハブアカウント内で管理される個別のアカウントです。 同じハブに複数の衛星を取り付けることができます。
+クライアント用にサテライトアカウントを設定できます。サテライトは、ハブアカウント内で管理できる個別のアカウントです。同じハブに複数のサテライトを設けることができます。
 
-このセットアップを使用すると、独自のアカウントに追加しなくても、クライアントにダッシュボードを提供できます。 これは、顧客が目的の情報のみを確認できるようにする優れた方法です。衛星アカウントのユーザーは、ハブアカウント（または同じハブに接続されている他の衛星）の詳細を確認できません。 衛星アカウントについては、 [での Satellite アカウント [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md).
+この設定を使用すると、クライアントを独自のアカウントに追加しなくても、ダッシュボードを提供することが可能になります。これは、クライアントが参照すべき情報のみを確実に参照できるようにするための優れた方法です。サテライトアカウントのユーザーには、ハブアカウント（または同じハブに接続されている他のサテライト）の詳細は表示されません。サテライトアカウントについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md) のサテライトアカウントを参照してください。
 
-## レポートを作成するには、 [!DNL Workfront Proof]?
+## [!DNL Workfront Proof] を使用してレポートを作成する方法
 
-カスタムビューは [!UICONTROL 大規模法人] および [!UICONTROL 無制限] の各エディションでは、アカウント内で独自のビューを作成できます。 そのビューに含める情報、使用するフィルター、情報の並べ替え方法を選択できます。 アカウント内の配達確認やファイルを追跡する優れたツールですが、レポートツールとしても使用できます。カスタムビューは、 [!DNL Excel] ファイルに保存され、データをさらに処理できます。
+[!UICONTROL Enterprise] および [!UICONTROL Unlimited] エディションで利用可能なカスタムビューを使用すると、アカウント内に独自のビューを構築できます。そのビューに含める情報、使用するフィルター、情報の並べ替え方法を選択できます。これはアカウント内のプルーフとファイルを追跡するのに優れたツールですが、レポートツールとしても使用できます。カスタムビューは [!DNL Excel] ファイルに書き出せるので、データをさらに処理できます。
 
-詳細な手順については、 [でカスタムビューを作成および管理する [!DNL Workfront Proof] 配達確認](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) ページ。
+詳細な手順については、[ [!DNL Workfront Proof]  のプルーフページでのカスタムビューの作成と管理](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)を参照してください。
 
-## 誰かが偶然に証拠を削除したら、私は何ができますか？
+## プルーフが誤って削除された場合は、どうすればよいですか？
 
-配達確認が削除されると、その配達確認は [!UICONTROL ごみ箱] フォルダーをサイドバーに追加します。 誤って何かを削除した場合は、心配しないでください。配達確認を削除できた場合は、ごみ箱から復元することもできます。 単に [!UICONTROL ごみ箱]削除した配達確認を選択し、「 *[!UICONTROL 復元]*.
+削除されたプルーフは、サイドバーの[!UICONTROL ごみ箱]フォルダーに移動します。誤って削除してしまっても心配ありません。プルーフを削除することも、ごみ箱から復元することもできます。[!UICONTROL ごみ箱]に移動し、削除したプルーフを選択して「*[!UICONTROL 復元]*」をクリックします。
 
-ごみ箱フォルダーの詳細については、 [でごみ箱を復元して空にする [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) 記事。
+ごみ箱フォルダーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
 
-## どうすれば払えるか [!DNL Workfront Proof] 配信登録？
+## [!DNL Workfront Proof] サブスクリプションの支払い方法について教えてください。
 
-月額サブスクリプションは、クレジットカードでのみ支払われます。 年間のサブスクリプションでは、クレジットカードと銀行振り込みのどちらかを選択できます。 <!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->
+月間サブスクリプションの支払い方法は、クレジットカードのみです。年間サブスクリプションでは、クレジットカードと銀行振り込みから選択できます。<!--Visit the [Account Payment in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) help page for additional information.-->
