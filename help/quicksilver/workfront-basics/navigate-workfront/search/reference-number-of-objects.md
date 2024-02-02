@@ -1,70 +1,69 @@
 ---
 content-type: reference
 navigation-topic: search
-title: オブジェクトの参照数を使用
-description: In [!DNL Adobe Workfront]の場合、項目はオブジェクトとして識別されます。 オブジェクトはデータベースに対応し、データと項目の関連付けに使用されます。 参照番号は、同じ名前のタスクなど、他の類似した 2 つのオブジェクトを区別する場合に便利です。 参照番号を検索し、レポートに含めることができます。
+title: オブジェクトの参照番号を使用
+description: ' [!DNL Adobe Workfront] の場合、項目はオブジェクトとして識別されます。オブジェクトはデータベースに対応し、データと項目の関連付けに使用されます。参照番号は、2 つの類似したオブジェクト（同じ名前のタスクなど）を区別するのに役立ちます。参照番号を検索し、レポートに含めることができます。'
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# オブジェクトの参照数を使用
+# オブジェクトの参照番号を使用
 
-In [!DNL Adobe Workfront]の場合、項目はオブジェクトとして識別されます。 オブジェクトはデータベースに対応し、データと項目の関連付けに使用されます。
+[!DNL Adobe Workfront] の場合、項目はオブジェクトとして識別されます。オブジェクトはデータベースに対応し、データと項目の関連付けに使用されます。
 
-Workfrontは、オブジェクトの作成時に、次の各オブジェクトに一意の参照番号を自動的に割り当てます。
+Workfront は、オブジェクトの作成時に、次の各オブジェクトに一意の参照番号を自動的に割り当てます。
 
 * プロジェクト
 * タスク
-* 問題
+* イシュー
 * ドキュメント
 
-参照番号は、同じ名前のタスクなど、他の類似した 2 つのオブジェクトを区別する場合に便利です。 参照番号を検索し、レポートに含めることができます。
+参照番号は、2 つの類似したオブジェクト（同じ名前のタスクなど）を区別するのに役立ちます。参照番号を検索し、レポートに含めることができます。
 
 >[!IMPORTANT]
 >
->* [!DNL Workfront] では、すべての顧客とすべてのオブジェクトに対して、参照番号を連続して割り当てます。 例えば、タスクを作成する場合、 [!DNL Workfront] 参照番号00005を割り当てる場合があります。 別の顧客が次にプロジェクトを作成する場合、そのプロジェクトには次に使用可能な参照番号 ( 例：00006) が表示されます。 次にイシューを作成すると、そのイシューには参照番号00007などが送信される場合があります。
->* 内のオブジェクトの参照番号の順序は制御できません [!DNL Workfront]. シーケンスは、常にデータベースによって制御されます。
+>* [!DNL Workfront] では、すべての顧客とすべてのオブジェクトに対して、参照番号を連続して割り当てます。例えば、タスクを作成すると、[!DNL Workfront] は参照番号 00005 を割り当てる場合があります。別の顧客が次にプロジェクトを作成すると、そのプロジェクトは、次に利用可能な参照番号（00006 など）を受け取る場合があります。次にイシューを作成すると、そのイシューは参照番号 00007 などを受け取る場合があります。
+>* [!DNL Workfront] 内のオブジェクトの参照番号のシーケンスは制御できません。シーケンスは、常にデータベースによって制御されます。
 >
 
 
 
+## オブジェクトの参照番号を表示する
 
-## オブジェクトの参照番号の表示
+タスクとイシューに関する参照番号は、デフォルトで表示されます。[!DNL Workfront] を簡単に設定して、他のタイプのオブジェクトの参照番号を表示することもできます。
 
-タスクとタスクに関する参照番号は、デフォルトで表示されます。 また、 [!DNL Workfront] をクリックして、他のタイプのオブジェクトの参照番号を表示します。
+* [タスクとイシューの参照番号を表示する](#view-reference-numbers-for-tasks-and-issues)
+* [他のオブジェクトの参照番号を表示する](#view-reference-numbers-for-other-objects)
+* [レポートの参照番号を表示する](#view-reference-numbers-in-reports)
 
-* [タスクと問題の参照番号を表示](#view-reference-numbers-for-tasks-and-issues)
-* [他のオブジェクトの参照番号を表示](#view-reference-numbers-for-other-objects)
-* [レポートでの参照番号の表示](#view-reference-numbers-in-reports)
+### タスクとイシューの参照番号を表示する
 
-### タスクと問題の参照番号を表示
-
-タスクまたはイシューを表示する場合は、参照番号がデフォルトで表示されます。  参照番号を確認するには、 **[!UICONTROL タスクの詳細]** または **[!UICONTROL 問題の詳細]** 左のパネルで、 **[!UICONTROL 基本情報]** の節を参照してください。
+タスクまたはイシューを表示する場合は、参照番号がデフォルトで表示されます。参照番号を確認するには、左側のパネルで「**[!UICONTROL タスクの詳細]**」または「**[!UICONTROL イシューの詳細]**」をクリックし、概要で「**[!UICONTROL 基本情報]**」セクションを見つけます。
 
 ![](assets/reference-number-nwe-350x184.png)
 
-### 他のオブジェクトの参照番号を表示
+### 他のオブジェクトの参照番号を表示する
 
-オブジェクトの参照番号を表示するには、カスタムビューを作成するか、既存のビューを修正して、 [!UICONTROL 参照番号] フィールドをビューの列に追加します。 例えば、 [!UICONTROL プロジェクト] 「表示」は、すべてのプロジェクトの参照番号を表示します。
+オブジェクトの参照番号を表示するには、カスタムビューを作成するか、既存のビューを修正して、「[!UICONTROL 参照番号]」フィールドをビューの列に追加します。例えば、[!UICONTROL プロジェクト]ビューを変更して、すべてのプロジェクトの参照番号を表示できます。
 
-ビューを作成または変更する方法については、 [表示の概要 ( [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+ビューを作成または変更する方法について詳しくは、[ [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) のビューの概要を参照してください。
 
-### レポートでの参照番号の表示
+### レポートの参照番号を表示する
 
-レポート内のオブジェクトの参照番号を表示するには、 [!UICONTROL 参照番号] 」列をレポートに追加します。
+[!UICONTROL 参照番号]列をレポートに追加すると、レポート内のオブジェクトの参照番号を表示できます。
 
-レポートに列を追加する方法について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+レポートに列を追加する方法について詳しくは、[カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-## 参照番号によるオブジェクトの検索
+## 参照番号でオブジェクトを検索する
 
 [!DNL Workfront] を使用すると、参照番号でオブジェクトを検索できます。
 
-オブジェクトの参照番号を **[!UICONTROL 検索]** 「 」フィールドで、「 **[!UICONTROL 入力]**.
+「**[!UICONTROL 検索]**」フィールドにオブジェクトの参照番号を入力し、**[!UICONTROL Enter]** を押します。
 
-Workfrontでの検索について詳しくは、 [検索 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Workfront での検索について詳しくは、[検索 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)を参照してください。
