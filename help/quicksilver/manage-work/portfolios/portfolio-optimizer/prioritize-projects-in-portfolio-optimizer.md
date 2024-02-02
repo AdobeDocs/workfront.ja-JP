@@ -1,34 +1,34 @@
 ---
-title: Adobe Manager でのプロジェクトの優先順位Portfolio
+title: ポートフォリオオプティマイザーでプロジェクトを最適化する
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-description: Portfolio・オプティマイザでは、プロジェクトの完了順序を設定するために優先順位を付けることができます。
+description: ポートフォリオオプティマイザーでは、プロジェクトの完了順序を設定するために優先順位を付けることができます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
 source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# でプロジェクトに優先順位を付ける [!UICONTROL Portfolio最適化]
+# [!UICONTROL ポートフォリオオプティマイザー]でのプロジェクトの優先順位付け
 
-プロジェクトを [!UICONTROL Portfolio最適化]をクリックして、これらを完了する順序を設定します。
+[!UICONTROL ポートフォリオオプティマイザー]では、プロジェクトの完了順序を設定するために優先順位を付けることができます。
 
-を使用する際は、次の点に注意してください。 [!UICONTROL Portfolio最適化]:
+[!UICONTROL ポートフォリオオプティマイザー]を使用する際には、次の点を考慮してください。
 
-* の上部にあるプロジェクト [!UICONTROL Portfolio最適化] は、下に示すものよりも重要と考えられています。 優先度の高い [!UICONTROL Portfolio最適化] Portfolioを最適化する
-* のプロジェクトの優先度 [!UICONTROL Portfolio最適化] が [!UICONTROL 優先度] ～に位置するフィールド [!UICONTROL プロジェクトの詳細] タブをクリックします。
+* [!UICONTROL ポートフォリオオプティマイザー]の上部にあるプロジェクトは、下部にあるものよりも重要であるとみなされます。 ポートフォリオを最適化するには、[!UICONTROL ポートフォリオオプティマイザー]での優先順位に従ってプロジェクトを完了する必要があります。
+* [!UICONTROL ポートフォリオオプティマイザー]内のプロジェクトの優先度は、プロジェクトの「[!UICONTROL プロジェクトの詳細]」タブにある[!UICONTROL 優先度]フィールドとは無関係です。
 
-   この [!UICONTROL 優先度] フィールド [!UICONTROL プロジェクトの詳細] タブは視覚的なフラグで、プロジェクトの重要性を手動で指定します。
+  「[!UICONTROL プロジェクトの詳細]」タブの「[!UICONTROL 優先度]」フィールドは、プロジェクトの重要性の理解のために手動で指定する視覚的なフラグです。
 
-* Portfolio・オプティマイザのプロジェクトの優先度は、 [!DNL Resource Planner]（有効な場合）。 内 [!DNL Resource Planner]を使用する場合、プロジェクトはリソースを [!UICONTROL リソースプランナー] 優先順位ではなく、優先順位 [!UICONTROL Portfolio優先].
+* ポートフォリオオプティマイザー内のプロジェクトの優先度は、[!DNL Resource Planner] で有効になっている場合に表示されます。[!DNL Resource Planner] では、プロジェクトは[!UICONTROL ポートフォリオの優先度]ではなく、[!UICONTROL リソースプランナー]の優先度の順序でリソースを受け取ります。
 
-   でのプロジェクトの優先順位付けの詳細 [!UICONTROL リソースプランナー]（記事を参照） [でプロジェクトに優先順位を付ける [!UICONTROL リソースプランナー]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  [!UICONTROL リソースプランナー]でのプロジェクトの優先順位付けについて詳しくは、[[!UICONTROL リソース プランナーでのプロジェクトの優先順位付け]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)を参照してください。
 
-* この **[!UICONTROL プロジェクトの優先順位]** 領域 [!UICONTROL Portfolio最適化] 次の順序でプロジェクトを表示： [!UICONTROL 計画開始日] および [!UICONTROL 正味値]（デフォルト）。
+* [!UICONTROL ポートフォリオオプティマイザー]の&#x200B;**[!UICONTROL プロジェクトの優先順位]**&#x200B;領域には、デフォルトで、[!UICONTROL 開始予定日]、[!UICONTROL 純価]の順にプロジェクトが表示されます。
 
 ## アクセス要件
 
@@ -39,46 +39,46 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> <p>[!UICONTROL Business] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROL 編集 ] によるプロジェクトおよびPortfolioへのアクセス</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトおよびポートフォリオへのアクセスの [!UICONTROL Edit]</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオに対する [!UICONTROL 管理 ] 権限</p> <p>プロジェクトへの権限の貢献</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの参加権限かそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## 内のプロジェクトの優先度を変更 [!UICONTROL Portfolio最適化]
+## [!UICONTROL ポートフォリオオプティマイザー]内のプロジェクト優先度の変更
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)をクリックします。
 
-1. クリック **[!UICONTROL Portfolio]**.
-1. （オプション） **[!UICONTROL フィルター]** 」ドロップダウンメニューを使用して、ポートフォリオの正しいリストを表示できます。
+1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
+1. （オプション） **[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューで正しいフィルターを選択すると、ポートフォリオの正しいリストが表示されます。
 1. ポートフォリオの名前をクリックして開きます。
-1. クリック **[!UICONTROL Portfolioの最適化]** をクリックします。
-1. 内 [!UICONTROL プロジェクトの収益化] 「 」領域で、プロジェクトを優先順にドラッグして目的の表示位置にドロップすることで、プロジェクトの優先度を変更します。
+1. 左側のパネルで「**[!UICONTROL ポートフォリオの最適化]**」をクリックします。
+1. [!UICONTROL プロジェクト最適化]領域で、プロジェクトの優先度を変更するには、優先度の高い順にプロジェクトをドラッグし、目的の表示位置にドロップします。
 
    ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
-   クリック **[!UICONTROL 優先度を設定]** （プロジェクトの再配置を完了する際に）を選択します。 プロジェクトは、新しい注文に基づいて新しい番号を受け取ります。
+   プロジェクトの再配置が完了したら、プロジェクトの最適化領域で「**[!UICONTROL 優先度を設定]**」をクリックします。プロジェクトには、新しい順序に基づいて新しい番号が割り振られます。
 
-1. クリック **[!UICONTROL 保存]** 新しいプロジェクトの優先度を [!UICONTROL Portfolio最適化]. 優先度は、数値に数値として表示されます **#** 列。
+1. 「**[!UICONTROL 保存]**」をクリックして、[!UICONTROL ポートフォリオオプティマイザー]に新しいプロジェクトの優先度を保存します。優先度は数値 **#** 列に数値として表示されます。
 
    >[!TIP]
    >
-   >これによって、 [!UICONTROL Portfolio最適化]プロジェクトのリストが **#** 列。 次をクリック： **#** 列ヘッダーを使用して、プロジェクト優先度でリストを並べ替えます。
+   >プロジェクトのリストは **#** 列以外の列で並べ替えられる可能性があるため、[!UICONTROL ポートフォリオオプティマイザー]でのプロジェクトの順序が必ずしも変更されるわけではありません。**#** 列ヘッダーをクリックして、プロジェクト優先度でリストを並べ替えます。
 
-   プロジェクトの優先度は、 [!UICONTROL Portfolio最適化] リソースプランナーで、 **[!UICONTROL Portfolio優先度の表示]** 設定をリソース・プランナで行います。
+   リソースプランナーで「**[!UICONTROL ポートフォリオの優先度を表示]**」設定を有効にすると、リソースプランナーで[!UICONTROL ポートフォリオ オプティマイザー]に表示されるプロジェクトの優先度を確認できます。
 
-   でのプロジェクトの優先順位付けの詳細 [!UICONTROL リソースプランナー]（記事を参照） [でプロジェクトに優先順位を付ける [!UICONTROL リソースプランナー]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+   [!UICONTROL リソースプランナー] でのプロジェクトの優先順位付けについて詳しくは、[[!UICONTROL リソース プランナーでのプロジェクトの優先順位付け]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)を参照してください。
