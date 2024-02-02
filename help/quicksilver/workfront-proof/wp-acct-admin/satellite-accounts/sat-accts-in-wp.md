@@ -3,59 +3,59 @@ content-type: overview;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
-title: での Satellite アカウント [!DNL Workfront Proof]
-description: Satellite アカウントとは、お客様自身が設定および管理する有料アカウントです [!DNL Workfront Proof] アカウント
+title: ' [!DNL Workfront Proof] でのサテライトアカウント'
+description: サテライトアカウントとは、 [!DNL Workfront Proof]  アカウント内でお客様自身が設定および管理する有料アカウントです。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 139e9a6c-b9ed-4819-970b-d62f47ccd71b
 source-git-commit: 5be053a6ee99404673f6f3258a423ef5e5c7f431
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# での Satellite アカウント [!DNL Workfront Proof]
+# [!DNL Workfront Proof] でのサテライトアカウント
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-Satellite アカウントとは、お客様自身が設定および管理する有料アカウントです [!DNL Workfront Proof] アカウント
+サテライトアカウントとは、[!DNL Workfront Proof] アカウント内でお客様自身が設定および管理する有料アカウントです。
 
-アカウントが[!UICONTROL ハブ]」という名前に変更され、Satellite アカウントにリンクされている Satellite アカウントの管理に使用されます。
+アカウントが「[!UICONTROL ハブ]」という名となり、リンクされているサテライトアカウントの管理に使用されます。
 
-設定できる Satellite アカウントの数に制限はないので、必要に応じてクライアントごとに個別のアカウントを作成できます。
+設定できるサテライトアカウントの数に制限はないので、必要に応じてクライアントごとに個別のアカウントを作成できます。
 
-1 つの組織から Satellite アカウントに複数のユーザーを追加して、ユーザーが作業できるようにパーソナライズされたブランドアカウントを作成できます。
+1 つの組織から複数のユーザーをサテライトアカウントに追加して、ユーザーが作業するためのパーソナライズされたブランドアカウントを作成できます。
 
-## なぜ Satellite アカウントを設定する必要があるのですか？
+## なぜサテライトアカウントを設定する必要がありますか？
 
-時刻 [!DNL Workfront]では、よく次の質問を受けます。
+[!DNL Workfront] については、よく次の質問が寄せられます。
 
-* 各クライアントに対してログインを作成できますか。
-* プライベートデータを表示せずにログインする方法
-* 私は自分のフリーランサーを追加する必要がある [!DNL Workfront Proof] アカウント？
+* 各クライアントに対してログインを作成できますか？
+* クライアントは、どのようにプライベートデータを表示せずにログインできますか？
+* 自分の [!DNL Workfront Proof] アカウントにフリーランサーを追加する必要がありますか？
 
-[!UICONTROL Workfront Proof] 有効な E メールアドレスを持つユーザーと簡単に配達確認を共有できます。 [!UICONTROL Workfront Proof].
+[!UICONTROL Workfront Proof] では、有効なメールアドレスを持つユーザーと簡単にプルーフを共有できます。[!UICONTROL Workfront Proof] にログインする必要もありません。
 
-ただし、ワークフローの参加者に独自のログイン権限を付与して、自分のダッシュボードを用意し、共有したすべての配達確認を 1 か所で表示したい場合があります。
+ただし、自分のダッシュボードで、共有したすべてのプルーフを 1 か所で表示できるように、ワークフローの参加者に独自のログイン権限を付与したい場合があります。
 
-また、 [!UICONTROL ログインが必要です] 設定を使用する場合は、レビュー担当者が自分でログインする必要があります。 詳しくは、 [での配達確認のセキュリティ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
+また、[!UICONTROL 必要なログイン]設定を使用してプルーフのセキュリティを強化したい場合は、レビュアーが自らログインする必要があります。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md) でのプルーフのセキュリティを参照してください。
 
-外部の担当者をユーザーとして [!DNL Workfront Proof] アカウントを使用すると、表示してほしくない情報にアクセスできるので、アカウントを使用してください。
+外部の人を [!DNL Workfront Proof] アカウントのユーザーとして追加すると、内部情報にアクセスできるようになるためお勧めしません。
 
-では、他の組織のユーザーに対するログインをどのようにして設定すればよいでしょうか。
+では、他の組織に属するユーザーのログインはどのように設定すればよいでしょうか？
 
-クライアント用に Satellite アカウントを作成する。
+クライアント用にサテライトアカウントを作成します。
 
-## Satellite アカウントの主な機能とメリット
+## サテライトアカウントの主な機能と利点
 
-| **機能** | **便益** |
+| **機能** | **利点** |
 |---|---|
-| 「[!UICONTROL ハブ]&quot;アカウント | 1 か所から複数の Satellite アカウントを簡単に管理 |
-| Satellite アカウント内の各ユーザーの個人ログイン | 配達確認に関するセキュリティを強化します（配達確認はパスワードで保護できます）。 詳しくは、  [での配達確認のセキュリティ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)) をクリックします。 |
-| クライアント向けのパーソナライズされたブランディング | クライアントが持つブランディングエクスペリエンスを制御できます [!DNL Workfront Proof] |
-| クライアントのワークフローの強化 | 特定のクライアントのニーズに合わせて校正プロセスを調整できます |
-| クライアントは、Satellite アカウントから配達確認をアップロードして、共有できます | クライアントが独自の配達確認を開始できる |
-| 以前にクライアントと共有された配達確認は、自動的にアカウントに表示されます | 以前の配達確認を再共有する必要がない |
+| 「[!UICONTROL ハブ]」アカウント内で管理 | 1 か所から複数のサテライトアカウントを簡単に管理 |
+| サテライトアカウント内の各ユーザーによる個々のログイン | プルーフでのセキュリティの強化が可能（プルーフはパスワードで保護できます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md) でのプルーフのセキュリティを参照してください）。 |
+| クライアント向けにパーソナライズされたブランディング | クライアントの [!DNL Workfront Proof] のブランディングエクスペリエンスを制御可能 |
+| クライアントのワークフローの強化 | 特定のクライアントのニーズに合わせてプルーフのプロセスを調整可能 |
+| クライアントがサテライトアカウントからプルーフをアップロードして共有可能 | クライアントが独自のプルーフを開始可能 |
+| 以前にクライアントと共有されたプループを自動でアカウントに表示 | 以前のプルーフの再共有が不要 |
