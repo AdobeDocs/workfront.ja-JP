@@ -1,47 +1,47 @@
 ---
-title: レイアウトテンプレートを使用したユーザインターフェイスの用語のカスタマイズ
+title: レイアウトテンプレートを使用したユーザーインターフェイスの用語のカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Adobe Workfront管理者は、レイアウトテンプレートを使用して、Workfront全体で表示される一部のオブジェクトのラベルを、組織で使用されている用語に合わせて変更できます。
+description: Adobe Workfront 管理者は、レイアウトテンプレートを使用して、Workfront 全体に表示される一部のオブジェクトのラベルを組織で使用されている用語に合わせて変更できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# レイアウトテンプレートを使用したユーザインターフェイスの用語のカスタマイズ
+# レイアウトテンプレートを使用したユーザーインターフェイスの用語のカスタマイズ
 
-Adobe Workfront管理者は、レイアウトテンプレートを使用して、Workfront全体で表示される一部のオブジェクトのラベルを、組織で使用されている用語に合わせて変更できます。
+Adobe Workfront 管理者は、レイアウトテンプレートを使用して、Workfront 全体に表示される一部のオブジェクトのラベルを組織で使用されている用語に合わせて変更できます。
 
-用語を変更したレイアウトテンプレートを保存し、Workfrontからログアウトしてから再度ログインすると、変更したラベルがWorkfrontのほとんどの領域でデフォルトのラベルが表示される場所に表示されます。
+用語を変更したレイアウトテンプレートを保存し、Workfront からログアウトしてから再度ログインすると、Workfront のほとんどのエリアでデフォルトのラベルの代わりに変更したラベルが表示されます。
 
 * メインメニュー
-* メインメニューからアクセスするすべての領域
+* メインメニューからアクセス可能なすべてのエリア
 * すべてのタブ
 * すべてのメニュー
-* Report Builderおよびレポート要素（ビュー、フィルターおよびグループ化）
-* 保存ボタン
+* Report Builder とレポート要素（ビュー、フィルターおよびグループ化）
+* 「保存」ボタン
 * 書き出されたファイル
 * メール
 * モバイルアプリ
 
 >[!NOTE]
 >
->* Outlook アドイン領域には、カスタマイズされたラベルは表示されません。
->* ラベルをカスタマイズすると、文法やその他の問題が発生する場合があります。 例えば、「Issue」を「Request」に変更すると、UI 内に「An request」というフレーズが表示される場所が存在する場合があります。 詳しくは、 [オブジェクト名のカスタマイズの影響](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names) 記事内 [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+>* Outlook アドインエリアには、カスタマイズされたラベルは表示されません。
+>* ラベルをカスタマイズすると、文法やその他の問題が発生する場合があります。例えば、「Issue」を「Request」に変更すると、UI 内の場所に「An request」という語句が表示される場合があります。詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の[オブジェクト名のカスタマイズの影響](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#implications-of-customizing-object-names)を参照してください。
 >
 
-レイアウトテンプレートについて詳しくは、 [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートについて詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
 
@@ -52,34 +52,34 @@ Adobe Workfront管理者は、レイアウトテンプレートを使用して�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセスできない場合は、Workfront 管理者に問い合わせて、アクセスレベルに制限が追加されていないか確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## ユーザーインターフェイスの用語のカスタマイズ
 
-1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. クリック **用語を設定** ページの右上隅付近にあります。
+1. [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
+1. ページの右上隅付近にある「**用語の設定**」をクリックします。
 1. 次のいずれかの操作を行います。
 
-   * Workfrontが提供する別の用語を使用するには、下向き矢印をクリックします  ![](assets/dropdown-arrow.png) ラベルの横にある、ドロップダウンリストで必要な代替ラベルをクリックします。
+   * Workfront が提供する別の用語を使用するには、ラベルの横にある下向き矢印 ![](assets/dropdown-arrow.png) をクリックして、ドロップダウンリストで必要な代替ラベルをクリックします。
 
      >[!NOTE]
      >
-     >ドロップダウンリストで提供される代替ラベルは、英語以外の言語用にローカライズされたWorkfrontのバージョンでサポートされています。
+     >ドロップダウンリストで提供される代替ラベルは、英語以外の言語用にローカライズされた Workfront のバージョンでサポートされています。
 
-   * オブジェクトに対して表示されるラベルに独自の代替オプションを指定するには、 **カスタム名を設定** ラベルの右側にを入力し、 **単数** および **複数** カスタム用語の形式。 次をクリックできます。 **リセット** もし気が変われば
+   * オブジェクトに対して表示されるラベルに独自の代替オプションを指定するには、ラベルの右側にある「**カスタム名を設定**」をクリックし、カスタム用語の&#x200B;**単数形**&#x200B;および&#x200B;**複数形**&#x200B;の形式を入力します。変更する場合は、「**リセット**」をクリックしてください。
 
      次のオブジェクト名をカスタマイズできます。
 
@@ -89,18 +89,18 @@ Adobe Workfront管理者は、レイアウトテンプレートを使用して�
       <col>
       <tbody>
        <tr>
-        <td role="rowheader"><p>Workfrontオブジェクト</p></td>
+        <td role="rowheader"><p>Workfront オブジェクト</p></td>
         <td>
           <p>ポートフォリオ</p>
           <p>プログラム</p>
           <p>プロジェクト</p>
           <p>タスク</p>
-          <p>問題</p>
+          <p>イシュー</p>
           <p>目標</p>
           <p>結果</p>
           <p>アクティビティ</p>
          </ul></td>
-        <td><p>これらのオブジェクトの詳細については、 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfrontのオブジェクトについて</a>.</p></td>
+        <td><p>これらのオブジェクトについて詳しくは、<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront のオブジェクトについて</a>を参照してください。</p></td>
        </tr>
        <tr>
         <td role="rowheader"><p>Workfront Goals オブジェクト</p></td>
@@ -110,40 +110,40 @@ Adobe Workfront管理者は、レイアウトテンプレートを使用して�
           <p>結果</p>
           <p>アクティビティ</p>
          </ul></td>
-        <td><p>これらのオブジェクトには追加のライセンスが必要です。 詳しくは、 <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront目標の概要</a>.</p></td>
+        <td><p>これらのオブジェクトには追加のライセンスが必要です。詳しくは、<a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals の概要</a>を参照してください。</p></td>
        </tr>
        <tr data-mc-conditions="">
-        <td role="rowheader"><p>Workfront Scenario Planner オブジェクト</p></td>
+        <td role="rowheader"><p>Workfront シナリオプランナオブジェクト</p></td>
         <td>
          <ul>
           <p>イニシアチブ</p>
           <p>シナリオ</p>
-          <p>計画 </p>
+          <p>プラン </p>
          </ul></td>
-        <td><p>これらのオブジェクトには追加のライセンスが必要です。 詳しくは、 <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">シナリオプランナーの概要</a>.</p></td>
+        <td><p>これらのオブジェクトには追加のライセンスが必要です。詳しくは、<a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">シナリオプランナの概要</a>を参照してください。</p></td>
        </tr>
       </tbody>
      </table>
 
-1. 完了したら、「 **完了**.
+1. 完了したら、「**完了**」をクリックします。
 
    >[!TIP]
    >
-   >「完了」をクリックした後（レイアウトテンプレートを保存した後でも）、いつでも用語の設定設定に戻り、カスタム用語の横にある「リセット」をクリックして、デフォルトの状態に戻すことができます。
+   >完了をクリックした後（レイアウトテンプレートを保存した後）で、いつでも用語の設定の設定に戻り、カスタム用語の横にあるリセットをクリックしてデフォルト設定に戻すことができます。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 
    または
 
-   カスタマイズが終了したら、 **保存**.
+   カスタマイズが完了したら、**保存**&#x200B;をクリックします。
 
-1. 用語の変更を確認するには、次の手順に従います。
+1. 用語の変更を確認するには、次の操作を行います。
 
-   1. ログアウトして、Workfrontに再度ログインします。
-   1. Workfront環境用に開いているすべてのブラウザータブを閉じます。
+   1. ログアウトして、Workfront に再度ログインします。
+   1. Workfront 環境で開いているすべてのブラウザータブを閉じます。
 
    >[!IMPORTANT]
    >
-   >また、用語を変更する前にレイアウトテンプレートを使用したユーザーに対しても必要です。
+   >用語の変更前にレイアウトテンプレートを使用していたユーザーも、この操作を行う必要があります。
 
-レイアウトテンプレートについて詳しくは、 [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートについて詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
