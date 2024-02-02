@@ -2,34 +2,34 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: ドキュメントの Web フックを含むフォルダーの作成
-description: ドキュメントの Web フックを含むフォルダーの作成
+title: ドキュメントの Web フックを含むフォルダーを作成
+description: ドキュメントの Web フックを含むフォルダーを作成
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 50905915-58c9-4b50-b8a1-133833884a88
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '66'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 
-# ドキュメントの Web フックを含むフォルダーの作成
+# ドキュメントの Web フックを含むフォルダーを作成
 
 指定されたディレクトリにフォルダーを作成します。
 
 ## URL
 
-POST/createFolder
+POST /createFolder
 
 ## クエリパラメーター
 
 | **名前** | **説明** |
 |---|---|
-| parentId  | フォルダーを作成するフォルダー ID |
-| name  | 新しいフォルダーの名前 |
+| parentId  | フォルダーを作成するフォルダーの ID |
+| 名前  | 新規フォルダーの名前 |
 
 
 
