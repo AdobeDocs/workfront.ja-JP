@@ -4,16 +4,16 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: グループの役割
-description: Workfrontの管理者は、作業および通信が必要なWorkfront領域へのアクセス権をグループに付与します。 その後、各グループは、ユーザー、テンプレート、カスタムフォームなどのWorkfrontの情報や、プロジェクトを他の部門の情報とは別に保持できます。 グループごとに少なくとも 1 人のグループ管理者が必要です。 1 つのグループの下に、最大 14 レベルのサブグループを配置できます。
+description: Workfront 管理者は、作業およびコミュニケーションが必要な Workfront エリアへのアクセス権をグループに付与します。各グループは、ユーザー、テンプレート、カスタムフォームなどの Workfront の情報やプロジェクトを他の部門のものと分けて別に管理できます。グループごとに 1 人以上のグループ管理者が必要です。1 つのグループの下に、最大 14 レベルのサブグループを作成できます。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
 source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
-workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+workflow-type: ht
+source-wordcount: '91'
+ht-degree: 100%
 
 ---
 
