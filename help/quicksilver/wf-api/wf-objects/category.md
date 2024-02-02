@@ -1,16 +1,16 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: APIModel INTERNAL がフィールド projectid (OpTask)Category をサポートしない場合
+title: APIModel INTERNAL がフィールド projectid (OpTask) をサポートしない場合のカテゴリ
 description: APIModel INTERNAL がフィールド projectid (OpTask) をサポートしない場合
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 22%
+workflow-type: ht
+source-wordcount: '304'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 # カテゴリ
 
 Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
-メッセージ：「APIModel INTERNAL はフィールド projectid (OpTask) をサポートしていません」
+message: &quot;APIModel INTERNAL does not support field projectid (OpTask)&quot;
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -41,7 +41,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}"><strong>ID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}">ID</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Identifying GUID&quot;}">GUID の識別</td> 
    <td> </td> 
    <td> </td> 
@@ -50,14 +50,14 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;accessorIDs&quot;}"><strong>accessorIDs</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">accessorIDs</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String Array&quot;}">文字列配列</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">このオブジェクトにアクセスできる人/チーム ID のリスト</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">このオブジェクトにアクセスできる人／チーム ID のリスト</td> 
    <td> </td> 
    <td> <p><span class="dtRead">読み取り専用</span> </p> <p><span class="dtLazy">遅延読み取り</span> </p> <p><span class="dtDyn">動的</span> </p> <p><span class="dtGrp">グループ化不可</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;catObjCode&quot;}"><strong>catObjCode</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">タイプ</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type of Object the Custom form is related to&quot;}">カスタムフォームが関連するオブジェクトのタイプ</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;[{\&quot;label\&quot;:\&quot;Company\&quot;,\&quot;value\&quot;:\&quot;CMPY\&quot;},{\&quot;label\&quot;:\&quot;Task\&quot;,\&quot;value\&quot;:\&quot;TASK\&quot;},{\&quot;label\&quot;:\&quot;Project\&quot;,\&quot;value\&quot;:\&quot;PROJ\&quot;},{\&quot;label\&quot;:\&quot;Portfolio\&quot;,\&quot;value\&quot;:\&quot;PORT\&quot;},{\&quot;label\&quot;:\&quot;Program\&quot;,\&quot;value\&quot;:\&quot;PRGM\&quot;},{\&quot;label\&quot;:\&quot;User\&quot;,\&quot;value\&quot;:\&quot;USER\&quot;},{\&quot;label\&quot;:\&quot;Document\&quot;,\&quot;value\&quot;:\&quot;DOCU\&quot;},{\&quot;label\&quot;:\&quot;Issue\&quot;,\&quot;value\&quot;:\&quot;OPTASK\&quot;},{\&quot;label\&quot;:\&quot;Expense\&quot;,\&quot;value\&quot;:\&quot;EXPNS\&quot;},{\&quot;label\&quot;:\&quot;Iteration\&quot;,\&quot;value\&quot;:\&quot;ITRN\&quot;}]&quot;}"><code>[{"label":"Company","value":"CMPY"},{"label":"Task","value":"TASK"},{"label":"Project","value":"PROJ"},{"label":"Portfolio","value":"PORT"},{"label":"Program","value":"PRGM"},{"label":"User","value":"USER"},{"label":"Document","value":"DOCU"},{"label":"Issue","value":"OPTASK"},{"label":"Expense","value":"EXPNS"},{"label":"Iteration","value":"ITRN"}]</code> </td> 
    <td> <p><span class="dtEdit">編集可能</span> </p> <p><span class="dtReq">必須</span> </p> </td> 
@@ -65,7 +65,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;customerID&quot;}"><strong>customerID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Customer ID&quot;}">顧客 ID</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the Customer&quot;}">顧客の ID</td> 
    <td> </td> 
    <td> <p><span class="dtGrp">グループ化不可</span> </p> </td> 
@@ -73,7 +73,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;description&quot;}"><strong>説明</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Description&quot;}">説明</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Description&quot;}">説明</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">編集可能</span> </p> </td> 
@@ -81,7 +81,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;enteredByID&quot;}"><strong>enteriedByID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Entered By ID&quot;}">入力者 ID</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the User that added the Custom Form&quot;}">カスタムフォームを追加したユーザーの ID</td> 
    <td> </td> 
    <td> <p><span class="dtGrp">グループ化不可</span> </p> </td> 
@@ -89,7 +89,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">外部参照 ID</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">外部オブジェクトへのリンクに使用するためのユーザー編集可能フィールド</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">編集可能</span> </p> </td> 
@@ -97,7 +97,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;groupID&quot;}"><strong>groupID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Group ID&quot;}">グループ ID</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the first group with access to the custom form&quot;}">カスタムフォームへのアクセス権を持つ最初のグループの ID</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">編集可能</span> </p> <p><span class="dtGrp">グループ化不可</span> </p> </td> 
@@ -105,7 +105,7 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;hasCalculatedFields&quot;}"><strong>hasCalculatedFields</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Has Calculated Fields&quot;}">計算済みフィールドあり</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">Boolean</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">ブール値</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Does the form have calculated fields associated with it?&quot;}">フォームに関連付けられた計算フィールドがあるか。</td> 
    <td> </td> 
    <td> <p><span class="dtGrp">グループ化不可</span> </p> </td> 
@@ -121,15 +121,15 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdatedByID&quot;}"><strong>lastUpdatedByID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Last Updated By ID&quot;}">最終更新者 ID</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">オブジェクトを更新する最後のユーザーの ID</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">オブジェクトを更新した最後のユーザーの ID</td> 
    <td> </td> 
    <td> <p><span class="dtGrp">グループ化不可</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>name</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name&quot;}">名前</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name of the Object&quot;}">オブジェクトの名前</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">編集可能</span> </p> <p><span class="dtReq">必須</span> </p> </td> 
@@ -139,23 +139,23 @@ Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
 
 ## 参照
 
-| 名前 | ラベル | タイプ | タイプオブジェクトコード | URL |
+| 名前 | ラベル | タイプ | オブジェクトコードのタイプ | URL |
 |---|---|---|---|---|
-| 顧客 | 顧客 | 顧客 | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 入力者 | enteredBy | ユーザー | ユーザー | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| グループ | グループ | グループ | グループ | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| 最終更新者 | lastUpdatedBy | ユーザー | ユーザー | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| 顧客 | customer | 顧客 | CUST | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| 入力者 | enteredBy | ユーザー | ユーザー | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| グループ | グループ | グループ | グループ | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| 最終更新者 | lastUpdatedBy | ユーザー | ユーザー | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
 
 
 ## コレクション
 
-| 名前 | ラベル | タイプ | タイプオブジェクトコード | URL |
+| 名前 | ラベル | タイプ | オブジェクトコードのタイプ | URL |
 |---|---|---|---|---|
-| アクセス ルール | accessRules | アクセス ルール | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| カテゴリアクセスルール | categoryAccessRules | カテゴリアクセスルール | CATACR | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| カテゴリカスケードルール | categoryCascadeRules | カテゴリのカスケードルール | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| カテゴリ パラメーター | categoryParameters | カテゴリ パラメーター | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| その他のグループ | otherGroups | グループ | グループ | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| アクセスルール | accessRules | アクセスルール | ACSRUL | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| カテゴリアクセスルール | categoryAccessRules | カテゴリアクセスルール | CATACR | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| カテゴリカスケードルール | categoryCascadeRules | カテゴリカスケードルール | CTCSRL | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| カテゴリパラメーター | categoryParameters | カテゴリパラメーター | CTGYPA | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| その他のグループ | otherGroups | グループ | グループ | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
 
 
 ## アクション
