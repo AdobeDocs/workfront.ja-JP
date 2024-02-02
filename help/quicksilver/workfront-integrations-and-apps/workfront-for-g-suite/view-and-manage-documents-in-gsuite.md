@@ -1,26 +1,26 @@
 ---
 product-area: workfront-integrations;documents
-keywords: google,doc,document,sheet,slide
+keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
-title: G Suite でのドキュメントの表示と管理
-description: 次に関連するドキュメントを表示および管理できます： [!DNL Adobe Workfront] オブジェクトが G Suite から削除されない場合。
+title: G Suite からのドキュメントの表示および管理
+description: G Suite を離れることなく、 [!DNL Adobe Workfront]  オブジェクトに関連付けられたドキュメントを表示および管理できます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
 source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# ドキュメントの表示と管理 [!DNL G Suite]
+# [!DNL G Suite] からドキュメントを表示および管理する
 
 >[!NOTE]
 >
->Google用Adobe Workfrontプラグインの最新バージョンは、2023 年 6 月 26 日にリリースされました。
+>Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
 
-次に関連するドキュメントを表示および管理できます： [!DNL Adobe Workfront] 出て行かない [!DNL G Suite].
+[!DNL G Suite] を離れることなく、[!DNL Adobe Workfront] オブジェクトに関連付けられたドキュメントを表示および管理できます。
 
 ## アクセス要件
 
@@ -31,7 +31,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -41,42 +41,42 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-表示または管理する前に [!DNL Workfront] ドキュメント [!DNL G Suite]を
+[!DNL G Suite] で [!DNL Workfront] のドキュメントを表示または管理するには、次のことを行う必要があります。
 
-* インストール [!DNL Workfront for G suite]\
-   手順については、 [インストール [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* [!DNL Workfront for G suite] のインストール\
+   手順については、[インストール [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)を参照してください。
 
-## 表示と管理 [!DNL Workfront] ドキュメント [!DNL G Suite]
+## [!DNL G Suite] で [!DNL Workfront] ドキュメントを表示および管理する
 
-1. この [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、 [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) 内 [!DNL G Suite] ページの右端にあるアドオンサイドバー。
-1. 次に移動： [!DNL Workfront] 内でのタスクまたは問題 [!DNL G Suite]( [アクセス [!DNL Adobe Workfront] [!UICONTROL ホーム] [!DNL G Suite] のコンテンツ](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
-1. クリック **[!UICONTROL ドキュメント]**.
+1. [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、ページの右端にある [!DNL G Suite] アドオンサイドバーにある [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. [[!DNL G Suite] の  [!DNL Adobe Workfront] [!UICONTROL  のホーム]コンテンツにアクセス](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)の説明に従って、[!DNL G Suite] 内の [!DNL Workfront] タスクまたはイシューに移動します。
+1. 「**[!UICONTROL ドキュメント]**」をクリックします。
 
-   数値は、タスクまたはイシューにアップロードされたドキュメントの数を示します。添付ファイルとして、またはクラウドに保存されている共有ファイルとしてです。
+   この数値は、添付ファイルとして、およびクラウドに保存されている共有ファイルとして、タスクまたはイシューにアップロードされたドキュメントの数を示します。
 
-   タスクとイシューにアップロードされたフォルダーとドキュメントがリストに表示されます。 任意のフォルダをクリックして、ドキュメントをリストします。
+   タスクとイシューにアップロードされたフォルダーとドキュメントがリストに表示されます。任意のフォルダーをクリックすると、そのフォルダー内のドキュメントが一覧表示されます。
 
 1. （オプション）ドキュメントの名前をクリックして、そのドキュメントに関する情報を表示します。
 
-   文書に関する情報を表示する場合は、 [!DNL Workfront for G Suite] ドキュメントの親オブジェクトとドキュメント名を表示します。 以下に、所有者、オブジェクトに追加された日付、サイズなど、ドキュメントに関する追加情報を表示できます。
+   ドキュメントに関する情報を表示している場合、[!DNL Workfront for G Suite] の上部の情報には、ドキュメントの親オブジェクトとドキュメントの名前が表示されます。以下に、所有者、オブジェクトに追加された日付、サイズなど、ドキュメントに関する追加情報を表示できます。
 
-1. （オプション）「 **[!UICONTROL 更新]** ドキュメントに関する更新を表示または投稿するには、 **[!UICONTROL 詳細]** をクリックして、ドキュメントに関する情報の表示に戻ります。
+1. （オプション）「**[!UICONTROL 更新]**」をクリックしてドキュメントに関する更新を表示または投稿し、「**[!UICONTROL 詳細]**」をクリックしてドキュメントに関する情報の表示に戻ります。
 
-   更新や返信の投稿に関する情報が必要な場合は、 [の更新 [!DNL Adobe Workfront] オブジェクトを [!DNL G Suite] から](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+   更新や返信の投稿に関する情報が必要な場合は、[[!DNL G Suite] から  [!DNL Adobe Workfront]  オブジェクトを更新](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)を参照してください。
 
-1. （オプション） **[!UICONTROL ダウンロード]** アイコン ![](assets/download-icon.png) をクリックして、リスト内のドキュメントをダウンロードします。
+1. （オプション）**[!UICONTROL ダウンロード]**&#x200B;アイコン ![](assets/download-icon.png) をクリックして、リスト内のドキュメントをダウンロードします。
 
    または
 
-   ドキュメントがクラウドドライブに保存されている場合は、 **[!UICONTROL 開く]** アイコン ![](assets/open-icon.png) .
+   ドキュメントがクラウドドライブに保存されている場合は、**[!UICONTROL 開く]**&#x200B;アイコン ![](assets/open-icon.png) をクリックします。
 
-1. クリック **[!UICONTROL Workfrontで表示]** ドキュメントの詳細ページに移動するには、 [!DNL Workfront].
+1. 「**[!UICONTROL Workfront で表示]**」をクリックして、[!DNL Workfront] にあるドキュメントのドキュメントの詳細ページに移動します。
 
-また、 [!DNL Workfront] オブジェクト [!DNL G Suite] 受信時に [!DNL Workfront] 通知電子メール（オブジェクトに関する）。 詳しくは、 [管理 [!DNL Adobe Workfront] [!DNL G Suite] からの通知の詳細](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
+また、オブジェクトに関する [!DNL Workfront] 通知メールを受信したときに、[!DNL G Suite] の [!DNL Workfront] オブジェクトに関連付けられたドキュメント（およびその他の詳細）を表示および管理することもできます。詳しくは、[[!DNL G Suite] から  [!DNL Adobe Workfront]  の通知詳細を管理](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)を参照してください。
 
-* 詳しくは、 [!UICONTROL 詳細] タブ [!DNL Workfront for G Suite]を参照してください。 [表示と管理 [!DNL Adobe Workfront] [!DNL G Suite] のオブジェクトの詳細](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
-* 詳しくは、 [!UICONTROL 更新] タブ [!DNL Workfront for G Suite]を参照してください。 [の更新 [!DNL Adobe Workfront] オブジェクトを [!DNL G Suite] から](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* [!DNL Workfront for G Suite] の「[!UICONTROL 詳細]」タブの使用について詳しくは、[[!DNL G Suite] から  [!DNL Adobe Workfront]  オブジェクトを表示および管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)を参照してください。
+* [!DNL Workfront for G Suite] の「[!UICONTROL 更新]」タブの使用について詳しくは、[[!DNL G Suite] から  [!DNL Adobe Workfront]  オブジェクトを更新](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)を参照してください。
