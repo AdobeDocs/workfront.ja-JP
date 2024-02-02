@@ -2,20 +2,20 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: プロジェクトの概要計画開始日
-description: プロジェクトの概要計画開始日
+title: プロジェクトの予定開始日の概要
+description: プロジェクトの予定開始日の概要
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# プロジェクトの概要計画開始日
+# プロジェクトの予定開始日の概要
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -25,19 +25,19 @@ ht-degree: 0%
 </div>
 -->
 
-プロジェクトの「計画開始日」と「計画完了日」は、プロジェクトのタスクの日付に依存します。 この記事では、プロジェクトの計画開始日について説明します。 計画開始日タスクの詳細は、 [タスクの計画開始日の概要](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+プロジェクトの予定開始日と予定完了日は、プロジェクトのタスクの日付に依存します。この記事では、プロジェクトの予定開始日について説明します。タスクの予定開始日について詳しくは、[タスクの予定開始日の概要](../../../manage-work/tasks/task-information/task-planned-start-date.md)を参照してください。
 
-プロジェクトの「計画開始日」は、プロジェクトを「開始」からスケジュールするか、「完了日」からスケジュールするかに応じて、手動で設定するか、自動で設定できます。
+プロジェクトの予定開始日は、プロジェクトを開始日からスケジュールするか、完了日からスケジュールするかに応じて、手動または自動で設定できます。
 
-## プロジェクトの計画開始日を手動で設定する
+## プロジェクトの予定開始日を手動で設定する
 
-プロジェクトを「開始日」からスケジュールする場合は、プロジェクトの「計画開始日」を手動で設定する必要があります。
+プロジェクトを開始日からスケジュールする場合は、プロジェクトの予定開始日を手動で設定する必要があります。
 
 >[!NOTE]
 >
->プロジェクトの計画開始日を手動で設定すると、Workfrontは、すべてのタスクの期間に基づいて、プロジェクトの計画完了日を自動的に計算します。
+>プロジェクトの予定開始日を手動で設定すると、Workfront は、すべてのタスクの期間に基づいて、プロジェクトの予定完了日を自動的に計算します。
 
-プロジェクトの計画開始日の設定については、 [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).
+プロジェクトの予定開始日の設定について詳しくは、[プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
@@ -54,29 +54,29 @@ ht-degree: 0%
 </ol>
 -->
 
-## プロジェクトの計画開始日を自動的に設定する
+## プロジェクトの予定開始日を自動的に設定する
 
-次の方法でプロジェクトを作成すると、プロジェクトの「計画開始日」が自動的に設定されます。
+次の方法でプロジェクトを作成すると、プロジェクトの予定開始日が自動的に設定されます。
 
-* 最初から作成した場合と、プロジェクトを「完了日」からスケジュールする場合。
+* 最初から作成した場合と、プロジェクトを完了日からスケジュールする場合。
 
-  [ 予定開始日 ] は、[ 完了日 ] に選択した日付と、プロジェクト上のすべてのタスクの期間に基づいて、Adobe Workfrontによって自動的に計算されます。
+  予定開始日は、完了日に選択した日付と、プロジェクト上のすべてのタスクの期間に基づいて、Adobe Workfront によって自動的に計算されます。
 
-  ゼロからプロジェクトを作成する方法については、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md).
+  最初からプロジェクトを作成する方法について詳しくは、[プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)を参照してください。
 
 * Microsoft Project から読み込みます。
 
-  「計画開始日」は、Microsoft Project のプロジェクトの開始日です。
+  予定開始日は、Microsoft Project のプロジェクトの開始日です。
 
-  Microsoft Project からプロジェクトを読み込む方法について詳しくは、 [Microsoft Project からプロジェクトを読み込む](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Microsoft Project からプロジェクトを読み込む方法について詳しくは、[Microsoft Project からプロジェクトを読み込む](../../../manage-work/projects/create-projects/import-project-from-ms-project.md)を参照してください。
 
-* Workfront管理者の場合は、Workfront Kick-Starts を使用して読み込みます。
+* Workfront 管理者の場合は、Workfront Kick-Starts を使用して読み込みます。
 
-  「計画開始日」は、キック開始ファイルのプロジェクトシートの setPlannedStartDate フィールドに別途指定しない限り、常にコンピュータの日時と日付に一致します。
+  予定開始日は、キックスタートファイルのプロジェクトシートの setPlannedStartDate フィールドに別途指定しない限り、常にコンピューターの日時と日付に一致します。
 
-  キックスタートを使用したデータのインポートについては、 [キックスタートテンプレートを使用してAdobe Workfrontにデータを読み込む](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  キックスタートを使用したデータの読み込みについて詳しくは、[キックスタートテンプレートを使用して Adobe Workfront にデータを読み込む](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)を参照してください。
 
-  キックスタートを使用したプロジェクトの読み込みについては、 [キック開始シナリオ：シンプルなプロジェクトとタスクのインポートの準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  キックスタートを使用したプロジェクトの読み込みについて詳しくは、[キックスタートシナリオ：シンプルなプロジェクトおよびタスクの読み込みの準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -93,11 +93,11 @@ ht-degree: 0%
 </div>
 -->
 
-## タスクの計画開始日
+## タスクの予定開始日
 
-タスクの「予定開始日」を指定することも、特定の条件に応じてWorkfrontまで計算することもできます。
+タスクの予定開始日を指定することも、Workfront に任せて、特定の基準に基づいて計算することもできます。
 
-タスクの計画開始日については、 [タスクの計画開始日の概要](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+タスクの予定開始日について詳しくは、[タスクの予定開始日の概要](../../../manage-work/tasks/task-information/task-planned-start-date.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
