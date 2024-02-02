@@ -2,101 +2,101 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: でのプロファイル設定の変更 [!DNL Adobe Workfront Fusion]
-description: 情報は、 [!DNL Adobe Workfront Fusion] アカウントプロファイル。
+title: ' [!DNL Adobe Workfront Fusion] のプロファイル設定を変更する'
+description: 情報は、 [!DNL Adobe Workfront Fusion]  アカウントプロファイルで変更できます。
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# でのプロファイル設定の変更 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] でのプロファイル設定を変更
 
-情報は、 [!DNL Adobe Workfront Fusion] アカウントプロファイル。
+情報は、[!DNL Adobe Workfront Fusion] アカウントプロファイルで変更できます。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p><p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA)</p>   </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront]プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明する機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## プロファイル設定の変更
+## プロファイル設定を変更
 
-プロファイル設定を変更するプロセスは、組織が統合シェルAdobe上にあるかどうかによって異なります。
+プロファイル設定を変更するプロセスは、組織が Adobe Unified Shell を使用しているかどうかによって異なります。
 
-* [統合シェルのプロファイル設定の変更](#change-profile-settings-on-the-unified-shell)
-* [統合シェルを使用せずにプロファイル設定を変更する](#change-profile-settings-without-the-unified-shell)
+* [Unified Shell でプロファイル設定を変更](#change-profile-settings-on-the-unified-shell)
+* [Unified Shell を使用せずにプロファイル設定を変更](#change-profile-settings-without-the-unified-shell)
 
-### 統合シェルのプロファイル設定の変更
+### Unified Shell でプロファイル設定を変更
 
-組織が統合シェルAdobe上にある場合は、上部のナビゲーション領域のプロファイル画像をクリックすると、プロファイルと環境設定のオプションにアクセスできます。
+組織が Adobe Unified Shell を使用している場合、上部のナビゲーションエリアでプロファイル写真をクリックすると、プロファイルと設定オプションにアクセスできます。
 
 このメニューでは、次の操作を実行できます。
 
-* 選択 **[!UICONTROL ダークテーマ]** フォーマット [!DNL Adobe Experience Cloud].
-* 設定 **[!UICONTROL 環境設定]** 対象 [!DNL Adobe Experience Cloud]（プライマリ言語とセカンダリ言語の環境設定を含む）
-* 次にアクセス： **[!UICONTROL [!DNL Workfront]プロファイル]**. プロファイルに移動したら、「 **[!UICONTROL 詳細]** メニューと選択 **[!UICONTROL 編集]**. プロファイルについて詳しくは、 [設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL ログアウト]** Adobe Experience Cloud
+* [!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL ダークテーマ]**&#x200B;の書式を選択します。
+* メイン言語とサブ言語の環境設定を含む、[!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL 環境設定]**&#x200B;を指定します。
+* **[!UICONTROL [!DNL Workfront]のプロファイル]**&#x200B;にアクセスします。プロファイルを開いたら、「**[!UICONTROL その他]**」メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。プロファイルについて詳しくは、[個人設定の指定](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
+* Adobe Experience Cloud から&#x200B;**[!UICONTROL ログアウト]**&#x200B;します。
 
-### 統合シェルを使用せずにプロファイル設定を変更する
+### Unified Shell を使用せずにプロファイル設定を変更
 
-統合 ShellSAdobeを使用しない組織のアカウントプロファイルの情報を変更するには、次の手順を実行します。
+Adobe Unified Shell を使用しない組織でアカウントプロファイルの情報を変更するには、次の手順を実行します。
 
-1. 左側のパネルの下部にあるアバターをクリックし、 **[!UICONTROL プロファイル]**.
-1. クリック： **[!UICONTROL 一般オプション]**&#x200B;次のいずれかのオプションを変更します。
+1. 左パネルの下部にあるアバターをクリックし、「**[!UICONTROL プロファイル]**」をクリックします。
+1. 「**[!UICONTROL 一般オプション]**」をクリックしてから、次のいずれかのオプションを変更します。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 組織 ]</td> 
+      <td role="rowheader">[!UICONTROL Organizations]</td> 
       <td> <p>作業する組織を選択します。<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL タイムゾーンオプション ]</td> 
+      <td role="rowheader">[!UICONTROL Time Zone Options]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Web]</strong>:表示される日時に使用するタイムゾーンを変更します。 [!DNL Workfront Fusion] web サイト。</li> 
-        <li><strong>[!UICONTROL シナリオ ]</strong>:（タイムゾーンを明示的に指定しない場合）シナリオの実行中に、日付と時刻の解析と書式設定に使用するタイムゾーンを変更します。 各設定のタイムゾーンを選択できます。</li> 
+        <li><strong>[!UICONTROL Web]</strong>：[!DNL Workfront Fusion] web サイトに表示される日付と時刻に使用されるタイムゾーンを変更します。</li> 
+        <li><strong>[!UICONTROL Scenarios]</strong>：シナリオ実行時の日付と時刻の解析および書式設定に使用するタイムゾーンを変更します（タイムゾーンを明示的に指定していない場合）。各設定のタイムゾーンを選択できます。</li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL API]</td> 
-      <td> <p>次の間の呼び出しに使用する API トークンを追加できます。 [!DNL Workfront Fusion] と他のアプリまたは Web サービス。 これは高度な機能です。</p> </td> 
+      <td> <p>[!DNL Workfront Fusion] と他のアプリまたは web サービスの間の呼び出しに使用する API トークンを追加できます。これは高度な機能です。</p> </td> 
      </tr> 
     </tbody> 
    </table>
