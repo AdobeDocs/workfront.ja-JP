@@ -2,71 +2,71 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: でのファイルの管理 [!DNL Workfront Proof]
-description: Workfront Proof にアップロードされたファイル（配達確認ではない）に関する情報を管理、共有および表示できます (Workfront Proof へのファイルおよび Web コンテンツのアップロードを参照 )。
+title: ' [!DNL Workfront Proof] でのファイルの管理'
+description: Workfront Proof にアップロードされたファイル（プルーフ以外）に関する情報を管理、共有および表示することができできます（「Workfront Proof へのファイルおよび web コンテンツのアップロード」を参照）。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# でのファイルの管理 [!DNL Workfront Proof]
+# [!DNL Workfront Proof] でのファイルの管理
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-Workfront Proof にアップロードされたファイル（配達確認ではない）に関する情報を管理、共有および表示できます ( [ファイルと Web コンテンツのアップロード先 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)) をクリックします。
+Workfront Proof にアップロードされたファイル（プルーフ以外）に関する情報を管理、共有および表示することができできます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルおよび web コンテンツのアップロードを参照）。
 
-1. の右にある下向き矢印をクリックします。 **[!UICONTROL 件数]** 左側のナビゲーションパネルで、 **[!UICONTROL ファイル]** 」と入力します。
+1. 左側のナビゲーションパネルで「**[!UICONTROL ビュー]**」の右にある下矢印をクリックしたあと、ドロップダウンメニューの「**[!UICONTROL ファイル]**」をクリックします。
 
-1. 次をクリック： **[!UICONTROL 詳細]** ボタンをクリックし、 **[!UICONTROL ファイルの詳細を表示]** をクリックします。\
+1. ファイルの&#x200B;**[!UICONTROL その他]**&#x200B;ボタンをクリックし、表示されるメニューの「**[!UICONTROL ファイルの詳細を表示]**」をクリックします。\
    ![](assets/click-more-then-view-file-details.png)\
-   表示されるウィンドウで、ファイルの詳細を表示および編集できます。 例えば、ウィンドウ上部のファイル名を [!DNL Workfront Proof] **フォルダー** ファイルを保存し、 **所有者** ファイルの。\
+   表示されるウィンドウでファイルの詳細を表示および編集できます。例えば、ウィンドウの上部に表示されるファイル名、ファイルを保存する [!DNL Workfront Proof] **フォルダー**&#x200B;およびファイルの&#x200B;**所有者**&#x200B;を変更できます。\
    ![](assets/file-details-page-350x129.png)
 
-1. （オプション）ファイルの編集権限を持っている場合は、右上隅にあるアクションボタンを使用して、ファイルを管理および共有します。
+1. （オプション）ファイルの編集権限がある場合は、右上隅にある以下のアクションボタンを使用して、ファイルを管理および共有します。
 
-* **[!UICONTROL タグ]**. ファイルに適用されるタグを管理します。\
+* **[!UICONTROL タグ]**：ファイルに適用されるタグを管理します。\
    ![](assets/tags-button.png)\
-   アクションボタンの下に、ファイルに適用されているタグが表示されます。 不要なタグの横にある x をクリックして、そのタグを削除できます。\
+   アクションボタンの下に、ファイルに適用されているすべてのタグが表示されます。不要なタグの横にある「x」をクリックして、そのタグを削除できます。\
    ![](assets/view-file-tags-350x64.png)
 
-* **[!UICONTROL 指定の場所に移動]**. ファイルをフォルダーに整理します。 ファイルは、既存のフォルダー間で移動したり、新しいフォルダーに配置したりできます。\
+* **[!UICONTROL 指定の場所に移動]**：ファイルをフォルダーに整理します。ファイルを既存のフォルダー間で移動したり、新しいフォルダーに配置したりできます。\
    ![](assets/folder-button.png)
 
-* **[!UICONTROL 共有]**. 他のユーザーとファイルを共有します。 [!DNL Workfront Proof] は、カスタムメッセージとダウンロードリンクを含む電子メール通知を受信者に送信します。\
+* **[!UICONTROL 共有]**：ファイルを他のユーザーと共有します。[!DNL Workfront Proof] では、カスタムメッセージとダウンロードリンクを含んだメール通知を受信者に送信します。\
    ![](assets/share-button.png)
 
-* **[!UICONTROL ごみ箱]**. ファイルをごみ箱に移動して削除できます。 ごみ箱が空になるまで、ファイルは保存の上限にカウントされます ( [でごみ箱を復元して空にする [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)) をクリックします。\
+* **[!UICONTROL ごみ箱]**：ファイルをごみ箱に移動することにより、削除できます。なお、ごみ箱を空にするまで、ファイルはストレージの限度内で蓄積されます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) におけるごみ箱の内容の復元および完全削除を参照）。\
    ![](assets/trash-button.png)
 
-* **[!UICONTROL 件が非表示]**. このドロップダウンリストで、 **[!UICONTROL 配達確認に変換]** ファイルの配達確認を作成するには ( [で配達確認を生成 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)) をクリックします。 このファイルは、配達確認のファイルタイプ要件を満たしている必要があります ( [サポートされている検証ファイルの種類とサイズ制限の概要](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)) をクリックします。 ファイル名が既存の配達確認の名前と一致する場合、 [!DNL Workfront Proof] をクリックすると、ファイルを **[!UICONTROL 新しいバージョン]** を参照してください（を参照）。\
+* **[!UICONTROL その他]**：このドロップダウンリストで、「**[!UICONTROL プルーフに変換]**」をクリックすると、ファイルのプルーフを作成できます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成を参照）。ファイルは、プルーフのファイルタイプ要件を満たしている必要があります（[サポートされているプルーフのファイルタイプとサイズ制限の概要](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)を参照）。ファイル名が既存のプルーフの名前と一致する場合、[!DNL Workfront Proof] では、ファイルをそのプルーフの&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;に変換できるリンクを含んだメッセージを表示します（参照）。\
    ![](assets/more-button-text-version.png)
 
-   >[!TIP]
-   >
-   >別のファイルから共有されたファイルの場合 [!DNL Workfront Proof] アカウント（自分のアカウントにアップロードされたものではない）の変換は、Enterprise Plans でのみ利用できます。
+  >[!TIP]
+  >
+  >別の [!DNL Workfront Proof] アカウントから共有されたファイル（自分自身のアカウントにアップロードされたもの以外）の場合、変換はエンタープライズプランでのみ利用できます。
 
-   また、 **[!UICONTROL ダウンロード]** をクリックして、元のファイルをコンピューターにダウンロードします。
+  また、「**[!UICONTROL ダウンロード]**」をクリックして、元のファイルをコンピューターにダウンロードすることもできます。
 
-1. （オプション） **[!UICONTROL 共有先]** 「 」セクションに、ファイルの共有先ユーザーの一覧が表示されます。
+1. （オプション）「**[!UICONTROL 共有者]**」セクションを開くと、ファイルが共有されているユーザーがリスト表示されます。
 
-   以下が可能です。 **[!UICONTROL メッセージ]** または **[!UICONTROL 削除]** ユーザーが **[!UICONTROL 詳細]** アイコンが右側に表示されます。
+   右側の&#x200B;**[!UICONTROL その他]**&#x200B;アイコンを使用して、ユーザーに&#x200B;**[!UICONTROL メッセージ]**&#x200B;を送信したり、ユーザーを&#x200B;**[!UICONTROL 削除]**&#x200B;したりできます。
 
    ![](assets/message-and-remove.png)
 
-   これらのユーザーの 1 つを「メッセージ」にする場合、 **[!DNL Message all]** ページが表示され、複数のメッセージを一度に送信できます。
+   これらのユーザーの 1 人にメッセージを送信することを選択した場合、**[!DNL Message all]**&#x200B;ページが表示されるので、複数のメッセージを一度に送信できます。
 
-1. を開きます。 **[!UICONTROL アクティビティ]** 「 」セクションに、ファイルに関するすべてのアクティビティのリストが表示されます。このリストには、日時、アクションを実行したユーザーが含まれます。 アクティビティには次のものが含まれます。
+1. 「**[!UICONTROL アクティビティ]**」セクションを開くと、時刻、日付、アクションを実行したユーザーなど、ファイルに対するすべてのアクティビティが一覧表示されます。アクティビティには以下のものが含まれます。
 
-   * ファイルがアップロードされました
-   * 新しい担当者が追加されました
-   * 削除された担当者
-   * ダウンロードされたファイル
+   * ファイルがアップロードされた
+   * 新しいユーザーが追加された
+   * ユーザーが削除された
+   * ファイルがダウンロードされた
 
-1. を開きます。 **[!UICONTROL メッセージ]** セクションを使用して、ユーザーがファイルと関連付けて送信したメッセージをトレースします。 右側の「i」アイコンをクリックすると、メッセージのコンテンツを表示できます。
+1. 「**[!UICONTROL メッセージ]**」セクションを開いて、ユーザーがファイルに関連して送信したメッセージをトレースします。右側の「i」アイコンをクリックすると、メッセージのコンテンツを表示できます。
