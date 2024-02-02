@@ -2,14 +2,14 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードの作成または編集
-description: 次から： [!UICONTROL ボード] ダッシュボードを使用すると、新しいボードを作成したり、既存のボードを編集したりできます。
+description: '[!UICONTROL ボード]ダッシュボードから、ボードを新規作成したり、既存のボードを編集したりすることができます。'
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 80%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-次から： [!UICONTROL ボード] ダッシュボードを使用すると、新しいボードを作成したり、既存のボードを編集したりできます。
+[!UICONTROL ボード]ダッシュボードから、ボードを新規作成したり、既存のボードを編集したりすることができます。
 
 ## アクセス要件
 
@@ -28,7 +28,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
     <tr> 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 新しいボードを作成
+## ボードを新規作成
 
 {{step1-to-boards}}
 
@@ -53,20 +53,24 @@ ht-degree: 1%
 
    | テンプレート | 説明 |
    |---------|----------|
-   | 基本ボード | 3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>3 つのデフォルトの列がボード上に表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 |
-   | かんばんボード | 「バックログ」、「新規」、「処理中」、「完了」および「保留中」の各列がボードに表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。<p>バックログを使用するには、取り込みカラムのフィルタを設定する必要があります。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>各列のデフォルトのポリシーを確認するには、 [!UICONTROL **その他** メニュー] 列で、 [!UICONTROL **編集**]. これらの事前設定済みポリシーは任意に変更できます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
-   | レトロボード | ボードには次の列が用意されています：何がうまくいったのですか？ 何が改善できるのか？ 誰をお祝いしましょうか？ もっと速く動くには何ができるでしょうか？ 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>列ポリシーは適用されません。 |
-   | 動的なボード | ボードには、「未選択」、「新規」、「処理中」、「保留中」および「完了」の列が表示されます。 新しい列を追加し、デフォルトの列の名前を変更または削除できます。 (「未選択」列は、名前を変更できますが、削除はできません。 この列には、ステータスが他の列のステータスのどれとも一致しないすべてのカードが含まれます。) <p>デフォルトの列ポリシーでは、ステータスに基づいてカードが列に割り当てられます。 詳しくは、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+   | 基本ボード | 3 つのデフォルトの列がボード上に表示されます。新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>3 つのデフォルトの列がボード上に表示されます。新しい列を追加し、デフォルトの列の名前を変更または削除できます。 |
+   | かんばんボード | バックログ、新規、処理中、完了、および保留中の各列がボードに表示されます。新しい列を追加し、デフォルトの列の名前を変更または削除できます。<p>バックログを使用するには、取り込み列にフィルターを設定する必要があります。詳しくは、[ボードに取り込み列を追加](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)を参照してください。 <p>各列のデフォルトのポリシーを確認するには、列の「[!UICONTROL **その他**」メニュー]をクリックし、「[!UICONTROL **編集**]」を選択します。これらの事前設定ポリシーはいずれも変更できます。詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。 |
+   | レトロボード | ボードには次の列が用意されています：うまくいったこと。改善すべき点賞賛すべき対象迅速化のためにできること新しい列を追加し、デフォルトの列の名前を変更または削除できます。 <p>列ポリシーは適用されません。 |
+   | 動的なボード | ボードには、未選択、新規、処理中、保留中および完了の列が表示されます。新しい列を追加し、デフォルトの列の名前を変更または削除できます。（未選択の列は、名前を変更できますが、削除はできません。この列には、他のどの列のステータスとも一致しないステータスを持つすべてのカードがが保持されます。) <p>デフォルトの列ポリシーでは、ステータスに基づいてカードが列に割り当てられます。詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。 |
 
-1. ダイナミックボードの場合のみ、セットアップウィザードの手順に従います。
+1. 動的なボードの場合のみ、セットアップウィザードの手順に従います。
 
    1. ボードの名前を入力し、 [!UICONTROL **次へ**].
-   1. 検索と選択 [!DNL Workfront] [!UICONTROL **プロジェクト**] 仕事や問題をボードに持ち込む。
-   1. 検索と選択 [!UICONTROL **割当て**] 仕事や問題をボードに持ち込む。
+   1. [!DNL Workfront] [!UICONTROL **プロジェクト**]&#x200B;を検索して選択し、タスクとイシューをボードに取り込みます。
+   1. [!UICONTROL **割り当て**]&#x200B;を検索として選択し、タスクとイシューをボードに取り込みます。
 
-      すべてのオブジェクトは、ボード上に接続されたカードとして表示されます。
+      すべてのオブジェクトは、接続されたカードとしてボード上に表示されます。
 
-      The [!UICONTROL **追加中のカード**] カウンターは、ボードに表示されるカードの数を示します。 例えば、100 個のタスクと問題を含むプロジェクトを選択した場合、カウンターには 100 と表示されます。 ユーザー割り当てを追加し、そのユーザーがプロジェクト上の 5 つのタスクに割り当てられている場合、カウンターには 5 と表示されます。
+      [!UICONTROL **追加中のカード**]&#x200B;カウンターは、ボードに表示されるカードの数を示します。例えば、100 個のタスクとイシューを含むプロジェクトを選択した場合、カウンターには 100 と表示されます。ユーザー割り当てを追加し、そのユーザーがプロジェクトにある 5 つのタスクに割り当てられている場合、カウンターには 5 と表示されます。
+
+      >[!NOTE]
+      >
+      >ボードに 1,000 枚を超えるカードがある場合は、ボードのパフォーマンスが影響を受けます。
 
    1. （オプション）「 」を選択します。 [!UICONTROL **完了したカードをアーカイブしない**] 完了したタスクと問題を、完了したカードとして「完了」列に表示されるカードとしてボードに取り込む場合。 このオプションを選択しない場合、ボード作成時に完了したカードは、アーカイブされたカードとしてボードに取り込まれます。
 
@@ -74,20 +78,20 @@ ht-degree: 1%
       >
       >デフォルトでは、アーカイブされたカードはボードに表示されません。 アーカイブされたカードを表示するには、構成設定をオンにしてから、ボードをフィルターしてアーカイブされたカードを表示する必要があります。 詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) および [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-   1. （オプション）「 [!UICONTROL **詳細フィルターの使用**] をクリックして、追加のフィルターオプションを表示します。
+   1. （オプション）「[!UICONTROL **詳細フィルターの使用**]」をクリックして、追加のフィルターオプションを表示します。
 
-      これは、吸気カラムにフィルタを作成するのと同じ手順です。 詳しくは、 [ボードに吸気柱を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+      これは、取り込み列にフィルターを作成するのと同じ手順です。詳しくは、[ボードに取り込み列を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)を参照してください。
 
-   1. フィルターを追加したら、 [!UICONTROL **ボードを作成**].
+   1. フィルターを追加したら、[!UICONTROL **ボードを作成**]&#x200B;を参照してください。
 
-1. ボードの名前を **[!UICONTROL ボード]** フィールドに入力し、Enter キーを押します。
+1. ボードの名前を&#x200B;**[!UICONTROL ボード]**&#x200B;フィールドに入力し、Enter キーを押します。
 1. 必要に応じて、ボードを設定します。
 
-   詳しくは、 [ボードに対するメンバーの追加または削除](../../agile/get-started-with-boards/add-members-to-board.md), [ボード列を管理](../../agile/get-started-with-boards/manage-board-columns.md), [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)、および [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   詳しくは、[ボードに対するメンバーの追加または削除](../../agile/get-started-with-boards/add-members-to-board.md)、[ボード列を管理](../../agile/get-started-with-boards/manage-board-columns.md)、[ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)、および[ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
-1. クリック **[!UICONTROL すべてのボード]** をクリックして、ボードダッシュボードに戻ります。
+1. **[!UICONTROL すべてのボード]**&#x200B;をクリックして、ボードダッシュボードに戻ります。
 
-   また、現在のボードの名前でラベル付けされたドロップダウンメニューを見つけ、それをクリックして別のボードに切り替えることもできます。
+   また、現在のボードの名前でラベル付けされたドロップダウンメニューを検索し、クリックして別のボードに切り替えることもできます。
 
    ![ボードのリスト](assets/boards-button-list-of-boards-350x188.png)
 
@@ -95,11 +99,11 @@ ht-degree: 1%
 
 {{step1-to-boards}}
 
-1. ダッシュボードで、開くボードを選択します。
-1. 必要に応じて、ボードを編集します。 ボード名をクリックして名前を変更できます。
+1. ダッシュボードで、ボードを選択して開きます。
+1. 必要に応じて、ボードを編集します。ボード名をクリックして名前を変更できます。
 
-   詳しくは、 [ボードに対するメンバーの追加または削除](../../agile/get-started-with-boards/add-members-to-board.md), [ボード列を管理](../../agile/get-started-with-boards/manage-board-columns.md)、および [ボードへのカードの追加](../../agile/get-started-with-boards/add-card-to-board.md).
+   詳しくは、[ボードに対するメンバーの追加または削除](../../agile/get-started-with-boards/add-members-to-board.md)、[ボード列を管理](../../agile/get-started-with-boards/manage-board-columns.md)、および[ボードへのカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)を参照してください。
 
-1. クリック **[!UICONTROL すべてのボード]** をクリックして、ボードダッシュボードに戻ります。
+1. 「**[!UICONTROL すべてのボード]**」をクリックして、ボードダッシュボードに戻ります。
 
-   また、現在のボードの名前でラベル付けされたドロップダウンメニューを見つけ、それをクリックして別のボードに切り替えることもできます。
+   また、現在のボードの名前でラベル付けされたドロップダウンメニューを検索し、クリックして別のボードに切り替えることもできます。
