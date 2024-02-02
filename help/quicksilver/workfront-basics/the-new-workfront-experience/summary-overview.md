@@ -1,21 +1,21 @@
 ---
 content-type: overview
-title: 概要の概要
-description: 概要パネルを使用して、タスクの問題、ドキュメント、またはタスクの他の領域のリストから直接作業項目情報を確認および更新できます [!DNL Adobe Workfront] タスクと問題を表示する
+title: 概要パネルについて
+description: 概要パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する  [!DNL Adobe Workfront]  の他のエリアから直接、作業アイテムの情報を確認および更新できます。
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL 概要] 概要
+# [!UICONTROL 概要]パネルについて
 
-以下を使用して、 [!UICONTROL 概要] タスクの問題、ドキュメント、またはタスクの他の領域から直接作業項目情報を確認し、更新するパネル [!DNL Adobe Workfront] タスクと問題を表示する
+[!UICONTROL 概要]パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する [!DNL Adobe Workfront] の他のエリアから直接、作業アイテムの情報を確認および更新できます。
 
-次の表に、 [!UICONTROL 概要] パネル：
+[!UICONTROL 概要]パネルが配置され、使用できるエリアは、次の表のとおりです。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -24,20 +24,20 @@ ht-degree: 2%
    <td>タスク</td> 
   </tr> 
   <tr> 
-   <td> <p>タスクリスト内の</p> 
+   <td> <p>次の中のタスクリスト</p> 
     <ul> 
      <li>プロジェクト</li> 
      <li>サブタスク</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Unassigned] および [!UICONTROL Assigned] [!UICONTROL Workload Balancer] の作業領域のタスク</td> 
+   <td>[!UICONTROL Workload Balancer] の [!UICONTROL Unassigned] および[!UICONTROL Assigned] の作業エリアのタスク</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>問題</td> 
+   <td>イシュー</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>問題リストの</p> 
+   <td> <p>次の中のイシューリスト</p> 
     <ul> 
      <li>プロジェクト</li> 
      <li>タスク</li> 
@@ -45,19 +45,19 @@ ht-degree: 2%
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ワークロードバランサー ] の [!UICONTROL 割り当て済み作業領域の問題</td> 
+   <td>[!UICONTROL Workload Balancer] の [!UICONTROL Assigned Work] エリアのイシュー</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 要求 ] 領域の [!UICONTROL Submitted] セクションの問題</td> 
+   <td>[!UICONTROL Requests] エリアの「[!UICONTROL Submitted]」セクションのイシュー</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ドキュメント</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ドキュメント ] 領域</td> 
+   <td>[!UICONTROL Documents] エリア</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ドキュメント ] セクション（プロジェクト、タスク、イシュー、プログラム、ポートフォリオ、テンプレート、テンプレートタスク、ユーザー）</td> 
+   <td>任意のオブジェクト（プロジェクト、タスク、イシュー、プログラム、ポートフォリオ、テンプレート、テンプレートタスク、ユーザー）の「[!UICONTROL Documents]」セクション</td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,11 +66,11 @@ ht-degree: 2%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront administrators can customize the Summary in the Layout Template. For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p>
 -->
 
-この記事では、 [!UICONTROL 概要] リストのタスクと問題に関するパネル
+この記事では、リスト内のタスクとイシューの[!UICONTROL 概要]パネルへのアクセス方法と使用方法について説明します。
 
-にアクセスする方法について詳しくは、 [!UICONTROL 概要] 内 [!UICONTROL ワークロードバランサー]を参照してください。 [の作業項目を更新 [!UICONTROL ワークロードバランサー] の使用 [!UICONTROL 概要]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+[!UICONTROL ワークロードバランサー]の[!UICONTROL 概要]へのアクセスについて詳しくは、「[[!UICONTROL ワークロードバランサー]の作業アイテムを[!UICONTROL 概要]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)を使用して更新する」を参照してください。
 
-にアクセスする方法について詳しくは、 [!UICONTROL 概要] ドキュメントについては、 [[!UICONTROL 概要] ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md).
+ドキュメントの[!UICONTROL 概要]へのアクセスについて詳しくは、ドキュメントの[[!UICONTROL 概要]](../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
 ## アクセス要件
 
@@ -81,107 +81,107 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> <p>[!UICONTROL Request] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL 表示 ] 以降のタスク、問題、ドキュメントへのアクセス権</p> <p>[!UICONTROL View] またはそれ以降のバージョンから、ドキュメントの [!UICONTROL Summary] を表示する任意のオブジェクトへのアクセス権が与えられます</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>タスク、イシュー、ドキュメントに対する [!UICONTROL View] またはそれ以上の権限</p> <p>ドキュメントの [!UICONTROL Summary] を表示する任意のオブジェクトに対する [!UICONTROL View] またはそれ以上の権限</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>タスク、イシューまたはドキュメントに対する [!UICONTROL 表示 ] 以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>タスク、イシュー、ドキュメントに対する[!UICONTROL View] またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトのアクセスのリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## 次を表示： [!UICONTROL 概要] タスクまたは問題のリストのパネル
+## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
-1. タスクまたはイシューに移動し、リストから項目を選択します。
-1. 次をクリック： **[!UICONTROL 概要]** アイコン ![](assets/qs-summary-in-new-toolbar-small.png)
+1. タスクまたはイシューに移動し、リストからアイテムを選択します。
+1. **[!UICONTROL 概要]**&#x200B;アイコン ![](assets/qs-summary-in-new-toolbar-small.png) をクリックします。
 
    または
 
-   次をクリック： **[!UICONTROL 概要を開く]** アイコン ![](assets/open-summary-with-text-nwe.png) 内 [!UICONTROL 送信済み] セクション [!UICONTROL リクエスト] 領域
+   [!UICONTROL リクエスト]エリアの「[!UICONTROL 送信済み]」セクションにある&#x200B;**[!UICONTROL 概要を開く]**&#x200B;アイコン ![](assets/open-summary-with-text-nwe.png) をクリックします。
 
-   サマリーを開いた後も、他のタスクやイシューをクリックまたは選択しても開いたままになり、手動で閉じるまで開いたままになります。
+   概要を開いた後、他のタスクやイシューをクリックまたは選択しても、概要は手動で閉じるまで開いたままになります。
 
    >[!TIP]
    >
-   >タスクの詳細を表示するには、一度に 1 つのタスクまたは 1 つのタスクのみを選択できます。詳細は、 [!UICONTROL 概要] パネル。
+   >[!UICONTROL 概要]パネルで詳細を表示するとき、選択できるタスクまたはイシューは一度に 1 つだけです。
 
    ![概要パネル](assets/summary-panel-for-task.png)
 
-1. （オプション）を閉じるには、 [!UICONTROL 概要] パネルで、次のいずれかの操作を行います。
+1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
-   * タスクまたはタスクの一覧で、 **[!UICONTROL 概要を開く]** アイコン ![](assets/summary-panel-icon.png)
-
-     または
-
-     次をクリック： **X** アイコン [!UICONTROL 概要] パネル。
-
-   * 内 [!UICONTROL 送信済み] セクション [!UICONTROL リクエスト] 」領域で、 **[!UICONTROL 概要を閉じる]** アイコン ![](assets/close-summary-with-text-nwe.png)
+   * タスクまたは問題のリストで、**[!UICONTROL 概要を開く]**&#x200B;アイコン ![](assets/summary-panel-icon.png) をクリックします。
 
      または
 
-     次をクリック： **X** アイコンをクリックします。
+     [!UICONTROL 概要]パネルの右上隅にある **X** アイコンをクリックします。
+
+   * [!UICONTROL リクエスト]領域の「[!UICONTROL 送信済み]」セクションで、**[!UICONTROL 概要を閉じる]**&#x200B;アイコン ![](assets/close-summary-with-text-nwe.png) をクリックします。
+
+     または
+
+     概要パネルの右上隅にある **X** アイコンをクリックします。
 
 ## [!UICONTROL 完了率]
 
-の上部にあるプログレスバーを使用します。 [!UICONTROL 概要] ：選択したタスクまたはタスクの完了率を更新します。 数値を入力するか、バーを正しい割合にドラッグします。
+[!UICONTROL 概要]の上部にある進捗バーを使用すると、選択したタスクまたはイシューの完了率を更新できます。完了率の正しい数値を入力するか、バーをドラッグします。
 
 ![](assets/summary-overview-percent-complete-350x395.png)
 
-## [!UICONTROL アップデート]
+## [!UICONTROL 更新]
 
-以下を使用： [!UICONTROL 更新] セクション [!UICONTROL 概要] 最近の更新を表示し、選択したタスクまたは問題を更新する場合。 クリック **[!UICONTROL すべてを表示]** 直接に [!UICONTROL 更新] 」タブをクリックします。
+[!UICONTROL 概要]の「[!UICONTROL 更新]」セクションを使用すると、最近の更新を表示したり、選択したタスクまたはイシューを更新したりできます。「**[!UICONTROL すべて表示]**」をクリックすると、タスクの「[!UICONTROL 更新]」タブに直接移動できます。
 
 ![](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL ドキュメント]
 
-以下を使用： [!UICONTROL ドキュメント] セクション [!UICONTROL 概要] 選択したタスクまたは問題に添付されたドキュメントを表示するには、次の手順に従います。 サムネールをクリックして、ドキュメントのプレビューを開きます。 直接 [!UICONTROL ドキュメント] タスクまたはイシューのタブで、 **[!UICONTROL ドキュメント]** タイトル。
+[!UICONTROL 概要]の「[!UICONTROL ドキュメント]」セクションを使用すると、選択したタスクまたはイシューに添付されているドキュメントを表示できます。サムネールをクリックすると、ドキュメントのプレビューが開きます。タスクまたはイシューの「[!UICONTROL ドキュメント]」タブに直接移動するには、「**[!UICONTROL ドキュメント]**」タイトルをクリックします。
 
 ![](assets/summary-overview-documents-350x84.png)
 
 ## [!UICONTROL 詳細]
 
-以下を使用： [!UICONTROL 詳細] セクション [!UICONTROL 概要] 作業項目の詳細を表示するには、割り当てを行うか、開始日を追加します。 クリック **[!UICONTROL すべてを表示]** 直接に [!UICONTROL 詳細] タスクまたはイシューのタブ
+[!UICONTROL 概要]の「[!UICONTROL 詳細]」セクションを使用すると、作業項目の概要レベルの詳細を表示したり、割り当てを行ったり、開始日を追加したりできます。「**[!UICONTROL すべて表示]**」をクリックすると、タスクまたはイシューの「[!UICONTROL 詳細]」タブに直接移動できます。
 
 >[!NOTE]
 >
->このセクションに表示されるフィールドは、ホームの右側のパネルに表示されるフィールドと同じです。 これらのフィールドはカスタマイズできます [カスタマイズ [!UICONTROL ホーム] および [!UICONTROL 概要] レイアウトテンプレートの使用](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>このセクションに表示されるフィールドは、ホームの右パネルに表示されるフィールドと同じです。これらのフィールドはカスタマイズできます。詳しくは、[レイアウトテンプレートを使用した[!UICONTROL ホーム]と[!UICONTROL 概要]のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)を参照してください。
 
 ![](assets/summary-overview-details-new-350x278.png)
 
 ## [!UICONTROL サブタスク]
 
-このセクションは、タスクに対してのみ使用できます。 以下を使用： [!UICONTROL サブタスク] セクション [!UICONTROL 概要] 見る [!UICONTROL 新規], [!UICONTROL 処理中]、および [!UICONTROL クローズ] 選択したタスクのサブタスク。 次をクリック： **[!UICONTROL ステータス]** ドロップダウンメニューを使用して、ステータスを切り替えることができます。 直接 [!UICONTROL サブタスク] タスクの「 」タブで、 **[!UICONTROL サブタスク]**&#x200B;タイトル
+このセクションは、タスクに対してのみ使用できます。[!UICONTROL 概要]の「[!UICONTROL サブタスク]」セクションすると、選択したタスクの[!UICONTROL 新規]、[!UICONTROL 処理中]、[!UICONTROL クローズ]のサブタスクを表示できます。**[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューをクリックすると、ステータスを切り替えることができます。タスクの「[!UICONTROL サブタスク]」タブに直接移動するには、「**[!UICONTROL サブタスク]**」タイトルをクリックします。
 
-タスクにサブタスクを追加していない場合は、 **[!UICONTROL ここに追加]** 直接に [!UICONTROL サブタスク] 」タブをクリックします。
+タスクにサブタスクを追加していない場合は、「**[!UICONTROL ここに追加してください。]**」をクリックして、タスクの「[!UICONTROL サブタスク]」タブに直接に移動します。
 
 ![](assets/summary-overview-subtasks-350x140.png)
 
-## [!UICONTROL 時間]
+## [!UICONTROL 時間数]
 
-以下を使用： [!UICONTROL 時間] セクション [!UICONTROL 概要] 選択したタスクまたは問題に関する時間を記録します。 クリック **[!UICONTROL ログ時間]** 時間を入力します。 タスクまたはイシューの「時間」タブに直接移動するには、 **[!UICONTROL 時間]** タイトル。
+[!UICONTROL 概要]の「[!UICONTROL 時間数]」セクションを使用すると、選択したタスクまたはイシューに関する時間を記録できます。「**[!UICONTROL 時間を記録]**」をクリックし、時間を入力します。タスクまたはイシューの「時間数」タブに直接移動するには、「**[!UICONTROL 時間数]**」タイトルをクリックします。
 
-時間数： [!UICONTROL 概要] には、ログに記録した時間が表示されます。 他のユーザーの合計時間は [!UICONTROL 概要] タスクにログオンする時間に応じて異なります。
+[!UICONTROL 概要]の時間数には、ログに記録した時間が表示されます。[!UICONTROL 概要]で他のユーザーに表示される時間合計は、それらのユーザーがタスクに関して記録した時間によって異なります。
 
-予定がない場合 [!UICONTROL 時間] タスクまたはイシューで、時間をログに記録した場合、時間バーは赤で表示されます。
+タスクやイシューに関する予定[!UICONTROL 時間数]がなく、時間をログに記録した場合は、時間数バーが赤色で表示されます。
 
 ![](assets/summary-overview-hours-350x96.png)
 
 ## 承認
 
-以下を使用： [!UICONTROL 承認] セクション [!UICONTROL 概要] ：選択したタスクまたは問題に関連付けられている承認を表示します。 承認を追加していない場合、ドロップダウンメニューから既存の承認を選択するか、 **[!UICONTROL 単一使用の承認プロセスの作成]** 直接に [!UICONTROL 承認] タスクまたはイシューのタブ
+[!UICONTROL 概要]の「[!UICONTROL 承認]」セクションを使用すると、選択したタスクまたはイシューに添付された承認を表示できます。まだ承認を追加していない場合は、ドロップダウンメニューから既存の承認を選択するか、「**[!UICONTROL 単一使用承認プロセスを作成]**」をクリックして、タスクまたはイシューの「[!UICONTROL 承認]」タブに直接移動します。
 
-直接 [!UICONTROL 承認] タスクまたはイシューのタブで、 **[!UICONTROL 承認]** タイトル。
+タスクまたはイシューの「[!UICONTROL 承認]」タブに直接移動するには、「**[!UICONTROL 承認]**」タイトルをクリックします。
 
 ![](assets/summary-overview-approvals-350x122.png)
