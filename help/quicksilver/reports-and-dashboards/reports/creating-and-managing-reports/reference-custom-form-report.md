@@ -1,23 +1,23 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: レポートでのカスタムフォームの参照
-description: オブジェクトのカスタムフォームは、そのオブジェクトのレポートのビュー、フィルター、グループで参照できます。
+title: レポート内のカスタムフォームの参照
+description: オブジェクトのカスタムフォームは、そのオブジェクトのレポートのビュー、フィルター、グループ化で参照できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# レポートでのカスタムフォームの参照
+# レポート内のカスタムフォームの参照
 
-オブジェクトのカスタムフォームは、そのオブジェクトのレポートのビュー、フィルター、グループで参照できます。
+オブジェクトのカスタムフォームは、そのオブジェクトのレポートのビュー、フィルター、グループ化で参照できます。
 
-カスタムフォームの内容を参照してレポートに含めることも、カスタムフォーム自体に関する情報を参照してレポートに含めることもできます。
+カスタムフォームの内容を参照してレポートに含めることや、カスタムフォーム自体に関する情報を参照してレポートに含めることができます。
 
 ## アクセス要件
 
@@ -28,136 +28,136 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
 ## 前提条件
 
 カスタムフォームをレポートで参照するには、その前にカスタムフォームが存在する必要があります。
 
-カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
 ## カスタムフォームのコンテンツの参照
 
-カスタムフォーム内のフィールドを参照できます。 カスタムフォームをオブジェクトに適用すると、そのカスタムフォームに関連付けられているすべてのフィールドを、そのオブジェクト上の他のフィールドと同様に、レポートで参照できるようになります。
+カスタムフォーム内のフィールドを参照できます。カスタムフォームをオブジェクトに適用すると、そのカスタムフォームに関連付けられているすべてのフィールドが、そのオブジェクト上の他のフィールドと同様に、レポートで参照可能になります。
 
 >[!NOTE]
 >
->複数のオプションを持つフィールドの場合、非表示のフィールドも含め、レポートのフィルターとプロンプトですべてのオプションを使用できます。\
->複数のオプションを使用してカスタムフィールドから選択肢を非表示にする方法については、「 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>複数のオプションを持つフィールドの場合、非表示のものも含め、レポートのフィルターとプロンプトですべてのオプションを使用できます。\
+>複数のオプションを持つカスタムフィールドから選択肢を非表示にする方法について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
 レポートを作成する場合は、フォームのオブジェクトタイプをフィールドソースとして使用し、カスタムフィールドの名前をフィールド名として使用します。
 
-例えば、カスタムフィールドを含むすべてのプロジェクトにカスタムフォームを適用する場合があります **コンサルタント**. Olivia Kim がコンサルタントであるプロジェクトをすべてリストするレポートを作成するには、 **プロジェクト** オブジェクトタイプをフィールドソースとして使用し、 **コンサルタント** をフィールド名として使用します。 フィルタ修飾子をに設定します。 **次と等しい**&#x200B;オリビア・キムと入力します。
+例えば、**コンサルタント**&#x200B;というカスタムフィールドを含むすべてのプロジェクトにカスタムフォームを適用するとします。Olivia Kim がコンサルタントであるプロジェクトをすべてリストするレポートを作成するには、**プロジェクト**&#x200B;のオブジェクトタイプをフィールドソースとして使用し、**コンサルタント**&#x200B;をフィールド名として使用します。フィルタ修飾子を「**次に等しい**」に設定し、Olivia Kim と入力します。
 
 ![](assets/qs-consultant-filter-example-350x126.png)
 
-レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-## カスタムフォームに関するリファレンス情報
+## カスタムフォームに関する情報の参照
 
 カスタムフォームに関する情報（オブジェクトに関連付けられているカスタムフォームの名前など）を参照できます。
 
-&#x200B;要素（表示、フィルター、グループ化）に応じて、次のいずれかを参照できます。
+要素（ビュー、フィルター、グループ化）に応じて、次のいずれかを参照できます。
 
-* オブジェクトに適用される主なカスタムフォームは次のとおりです。
+* オブジェクトに適用される主要なカスタムフォーム：
 
-   これは、オブジェクトの詳細ページで最初に表示されるフォームです。
+  これは、オブジェクトの詳細ページで最初に表示されるフォームです。
 
 * すべてのカスタムフォーム（1 つのオブジェクトに複数のカスタムフォームが適用されている場合）
 
-ビュー、フィルターおよびグループに関するカスタムフォームを参照できます。
+ビュー、フィルターおよびグループ化に関するカスタムフォームを参照できます。
 
-* [レポートビューでのカスタムフォームの参照（列）](#reference-custom-forms-in-a-report-view-column)
-* [レポートフィルターでのカスタムフォームの参照](#reference-custom-forms-in-a-report-filter)
-* [レポートグループ内のカスタムフォームの参照](#reference-custom-forms-in-a-report-grouping)
+* [ビュー（列）レポートでのカスタムフォームの参照](#reference-custom-forms-in-a-report-view-column)
+* [フィルターレポートでのカスタムフォームの参照](#reference-custom-forms-in-a-report-filter)
+* [グループ化レポートでのカスタムフォームの参照](#reference-custom-forms-in-a-report-grouping)
 
-### レポートビューでのカスタムフォームの参照（列） {#reference-custom-forms-in-a-report-view-column}
+### ビュー（列）レポートでのカスタムフォームの参照 {#reference-custom-forms-in-a-report-view-column}
 
 オブジェクトに関連付けられているすべてのカスタムフォームを表示するには：
 
-1. 記事の説明に従って、レポートの作成を開始します。 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. の **列** タブで、参照するカスタムフォームが適用されるオブジェクトの種類を展開し、 **カテゴリ名**.\
-   例えば、タスクに関連付けられているすべてのカスタムフォームを表示するには、 **タスク** フィールドソースで、 **カテゴリ名** フィールド名。\
+1. [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
+1. 「**列**」タブで、参照するカスタムフォームの適用先となるオブジェクトタイプを展開し、「**カテゴリ名**」をクリックします。\
+   例えば、タスクに関連付けられているすべてのカスタムフォームを表示するには、「**タスク**」フィールドソースを展開して、「**カテゴリ名**」フィールド名をクリックします。\
    ![](assets/qs-category-name-column-350x267.png)
 
-オブジェクトに関連付けられた主なカスタムフォームのみを表示するには：
+オブジェクトに関連付けられている主要なカスタムフォームのみを表示するには：
 
-1. 記事の説明に従って、レポートの作成を開始します。 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. の **列** タブ、展開 **カテゴリ** フィールドソースで、 **名前** フィールド名。\
+1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
+1. 「**列**」タブで、「**カテゴリ**」フィールドソースを展開し、「**名前**」フィールド名をクリックします。\
    ![](assets/qs-category-name-column-2-350x248.png)
 
-### レポートフィルターでのカスタムフォームの参照 {#reference-custom-forms-in-a-report-filter}
+### レポートフィルターでカスタムフォームを参照する {#reference-custom-forms-in-a-report-filter}
 
-オブジェクトタイプに関連付けられているすべてのカスタムフォームをフィルタリングするには：
+オブジェクトタイプに関連付けられているすべてのカスタムフォームをフィルタリングするには、次の手順に従います。
 
-1. 記事の説明に従って、レポートの作成を開始します。 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. の **フィルター** タブ、展開 **カテゴリ**&#x200B;を選択し、「 **名前**.\
+1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
+1. 「**フィルター**」タブで、「**カテゴリ**」を展開し、「**名前**」をクリックします。\
    ![](assets/qs-categories-name-filter-350x311.png)
 
 1. 使用する条件修飾子を選択します。
 
-   * ブランク
-   * ブランクでない
-   * 含む
-   * 含まない (大文字と小文字を区別しない)
-   * 等しい (大文字と小文字を区別しない)
-   * 等しくない (大文字と小文字を区別しない)
+   * が空白
+   * が空白でない
+   * が次を含む
+   * が次を含まない
+   * が次に等しい
+   * が次と等しくない
 
-   各修飾子の詳細については、「 [フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   各修飾子について詳しくは、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)の記事を参照してください。
 
    >[!NOTE]
    >
-   >フィルターしようとしているフィールドに複数のオプションがあり、 **等しくない** または **次を含まない** クオリファイアを使用すると、指定した選択肢のみを含む結果が除外されます。 フィールドに、指定したオプションを含むその他のオプションが含まれている場合、その結果はレポートからフィルタリングされません。 これには、同じオブジェクトに関連付けられている複数のカスタムFormsのフィルタリングも含まれます。
+   >フィルタリングしようとしているフィールドに複数のオプションがあり、**Not Equal** または **Does Not Contain** 修飾子を使用すると、指定した選択肢のみを含む結果が除外されます。フィールドに指定されたオプションを含む追加のオプションが含まれている場合、それらの結果はレポートからフィルタリングされません。これには、複数のカスタムフォームが同じオブジェクトに添付されている場合、これらのフィルタリングが含まれます。
 
-1. フィルターするカスタムフォームの名前を入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
-1. （オプション）「 **別のフィルタールールを追加**&#x200B;次に、手順 2～4 を繰り返して、追加のフィルタールールを作成します。
-1. クリック **保存して閉じる**.
+1. フィルタリングするカスタムフォームの名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
+1. （オプション）「**別のフィルタールールを追加**」をクリックし、手順 2～4 を繰り返して追加のフィルタールールを作成します。
+1. 「**保存して閉じる**」をクリックします。
 
-オブジェクトタイプに関連付けられた主なカスタムフォームのみをフィルタリングするには：
+オブジェクトタイプに関連付けられた主なカスタムフォームのみをフィルタリングするには、次の手順を実行します。
 
-1. 記事の説明に従って、レポートの作成を開始します。 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. の **フィルター** タブ、展開 **カテゴリ** フィールドソースで、 **名前** フィールド名。\
+1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
+1. 「**フィルター**」タブで、「**カテゴリ**」フィールドソースを展開し、「**名前**」フィールド名をクリックします。\
    ![](assets/qs-category-name-filter-350x437.png)
 
 1. 使用する条件修飾子を選択します。
 
-   * ブランク
-   * ブランクでない
-   * 含む
-   * 含まない (大文字と小文字を区別しない)
-   * 等しい (大文字と小文字を区別しない)
-   * 等しくない (大文字と小文字を区別しない)
+   * が空白
+   * が空白でない
+   * が次を含む
+   * が次を含まない
+   * が次に等しい
+   * が次と等しくない
 
-   各修飾子の詳細については、「 [フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   各修飾子について詳しくは、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)の記事を参照してください。
 
-1. フィルターするカスタムフォームの名前を入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
-1. （オプション）「 **別のフィルタールールを追加**&#x200B;次に、手順 2～4 を繰り返して、追加のフィルタールールを作成します。
-1. クリック **保存して閉じる**.
+1. フィルタリングするカスタムフォームの名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
+1. （オプション）「**別のフィルタールールを追加**」をクリックし、手順 2～4 を繰り返して追加のフィルタールールを作成します。
+1. 「**保存して閉じる**」をクリックします。
 
-### レポートグループ内のカスタムフォームの参照 {#reference-custom-forms-in-a-report-grouping}
+### グループ化レポートでのカスタムフォームの参照 {#reference-custom-forms-in-a-report-grouping}
 
 >[!NOTE]
 >
->項目は、オブジェクトに関連付けられた主なカスタムフォームによってのみグループ化できます。オブジェクトに関連付けられているすべてのフォームで項目をグループ化することはできません。
+>項目をグループ化できるのは、オブジェクトに関連付けられた主なカスタムフォームのみです。オブジェクトに関連付けられたすべてのフォームで項目をグループ化することはできません。
 
-1. 記事の説明に従って、レポートの作成を開始します。 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. の **グループ化** タブ、展開 **カテゴリ**&#x200B;を選択し、「 **名前**.\
+1. [カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事の説明に従って、レポートの作成を開始します。
+1. 「**グループ化**」タブで、「**カテゴリ**」を展開し、「**名前**」をクリックします。\
    ![](assets/qs-category-name-grouping-350x373.png)
