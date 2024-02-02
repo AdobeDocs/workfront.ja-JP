@@ -2,27 +2,27 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )
-description: 組織がAdobeビジネスプラットフォームにオンボーディングされている場合、ユーザーはAdobeビジネスプラットフォームを使用してAdobe Workfrontにアクセスします。 つまり、ユーザー管理は主にAdobe Admin Consoleを通じておこなわれ、シングルサインオン (SSO) はWorkfrontを通じてではなく、Adobeビジネスプラットフォームを通じて処理されます。 Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAdobeビジネスプラットフォームにオンボーディングされているかどうかによって異なります。 この記事では、別の方法で処理する必要がある手順と、WorkfrontとAdobe Admin Consoleの両方の手順へのリンクを示します。
+title: プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）
+description: 組織が Adobe Business Platform にオンボーディングされている場合、ユーザーは Adobe Business Platform を使用して Adobe Workfront にアクセスします。つまり、ユーザー管理は主に Adobe Admin Console を通じて行われ、シングルサインオン（SSO）は Workfront を通じてではなく Adobe Business Platform を通じて処理されます。Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかで異なります。この記事では、別々の方法で処理する必要がある手順と、Workfront と Adobe Admin Console の両方の手順へのリンクを示します。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
 source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )
+# プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）
 
-組織がAdobeビジネスプラットフォームにオンボーディングされている場合、ユーザーはAdobeビジネスプラットフォームを使用してAdobe Workfrontにアクセスします。 つまり、
+組織が Adobe Business Platform にオンボーディングされている場合、ユーザーは Adobe Business Platform を使用して Adobe Workfront にアクセスします。つまり、次のようになります。
 
-* ユーザー管理は、主にAdobe Admin Consoleを通じておこなわれます
-* シングルサインオン (SSO) は、Workfrontを通じてではなく、Adobeビジネスプラットフォームを通じて処理されます
+* ユーザー管理は主に Adobe Admin Console を通じて行われる
+* シングルサインオン（SSO）は、Workfront を通じてではなく、Adobe Business Platform を通じて処理される
 
-Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAdobeビジネスプラットフォームにオンボーディングされているかどうかによって異なります。 この記事では、別の方法で処理する必要がある手順と、WorkfrontとAdobe Admin Consoleの両方の手順へのリンクを示します。
+Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかで異なります。この記事では、別々の方法で処理する必要がある手順と、Workfront と Adobe Admin Console の両方の手順へのリンクを示します。
 
 ## ユーザー
 
@@ -33,8 +33,8 @@ Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAd
  <thead> 
   <tr> 
    <th>アクション</th> 
-   <th>Workfrontの手順については、</th> 
-   <th>AdobeAdmin Console の手順については、</th> 
+   <th>Workfront での手順の参照先</th> 
+   <th>AdobeAdmin Console での手順の参照先</th> 
   </tr> 
  </thead> 
  <tbody> <!--
@@ -51,26 +51,26 @@ Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAd
    </tr>
   --> 
   <tr> 
-   <td role="rowheader">ユーザー管理者アクセス権の付与</td> 
+   <td role="rowheader">ユーザーに管理者アクセス権を付与</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>の「ユーザーの詳細を編集」の節 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">ユーザーを個別に管理</a></p> </li> 
+     <li> <p><a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">ユーザーを個別に管理</a>の「ユーザーの詳細の編集」の節</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontへのユーザーの追加</td> 
+   <td role="rowheader">Adobe Workfront にユーザーを追加</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">ユーザーを追加</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Adobe Admin Consoleでのユーザー管理</a> </p> </li> 
-     <li> <p>の「ユーザーの追加」の節 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">ユーザーを個別に管理</a></p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Adobe Admin Console でのユーザー管理</a> </p> </li> 
+     <li> <p><a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">ユーザーを個別に管理</a>の「ユーザーの追加」の節</p> </li> 
     </ul> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -87,48 +87,48 @@ Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAd
    </tr>
   --> 
   <tr> 
-   <td role="rowheader">ユーザーを非アクティブ化する</td> 
+   <td role="rowheader">ユーザーの非アクティブ化</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーを非アクティブ化または再アクティブ化する</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>の「ユーザーの削除」の節 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">ユーザーを個別に管理</a></p> </li> 
+     <li> <p><a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">ユーザーを個別に管理</a>の「ユーザーの削除」の節</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ユーザーの削除</td> 
+   <td role="rowheader">ユーザーを削除</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md" class="MCXref xref">ユーザーの削除</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>次のセクションの「ユーザーを完全に削除」 <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">ディレクトリユーザーの管理</a>
-     </p><p>注意：ユーザーの削除 [!DNL Adobe Admin Console] でユーザーを非アクティブ化 [!DNL Workfront]を削除することはできませんが、 [!DNL Workfront].</p> </li> 
+     <li> <p><a href="https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html">ディレクトリユーザーを管理</a>の「ユーザーを完全に削除」の節
+     </p><p>メモ：[!DNL Adobe Admin Console] からユーザーを削除すると、ユーザーは [!DNL Workfront] で非アクティブ化されますが、[!DNL Workfront] からは削除されません。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ユーザープロファイルの編集</td> 
+   <td role="rowheader">ユーザープロファイルを編集</td> 
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>の「ユーザーの詳細を編集」の節 <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">ユーザーを個別に管理</a></p> </li> 
+     <li> <p><a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">ユーザーを個別に管理</a>の「ユーザーの詳細の編集」の節</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ユーザープロファイルの一括編集</td> 
+   <td role="rowheader">ユーザープロファイルを一括編集</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">ユーザープロファイルの一括編集</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">ユーザープロファイルを一括編集</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>の「ユーザーの詳細を編集」の節 <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">CSV の一括アップロード</a></p> </li> 
+     <li> <p><a href="https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html">CSV の一括アップロード</a>の「ユーザーの詳細の編集」の節</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -139,14 +139,14 @@ Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAd
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>「ユーザーの追加」( <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">CSV の一括アップロード</a></p> </li> 
+     <li> <p><a href="https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html">CSV の一括アップロード</a>の「ユーザーの追加」の節</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">別のユーザーとしてログイン</td> 
+   <td role="rowheader">別のユーザーとしてのログイン</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">別のユーザーとしてログイン</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md" class="MCXref xref">別のユーザーとしてのログイン</a> </p> </li> 
     </ul> </td> 
    <td>利用不可</td> 
   </tr> 
@@ -154,11 +154,11 @@ Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAd
    <td role="rowheader">SAML 証明書を更新</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md" class="MCXref xref">Adobe Workfront SAML 2.0 メタデータ証明書を更新します</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md" class="MCXref xref">Adobe Workfront SAML 2.0 メタデータ証明書を更新</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>「SAML 応答のデジタル署名が検証されませんでした…」の節 in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">トラブルシューティングFederated ID</a></p> </li> 
+     <li> <p><a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=jp">Federated ID のトラブルシューティング</a>内の「SAML 応答のデジタル署名が検証されませんでした...」の節</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -166,13 +166,13 @@ Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAd
 
 ## SSO（シングルサインオン）
 
-Adobeビジネスプラットフォームはユーザーのシングルサインオン (SSO) を制御するので、次のアクションと機能はAdobeビジネスプラットフォームを通じて自動的に処理されます。 組織がまだAdobeビジネスプラットフォームに転送されていない場合、Workfrontでこれらの操作を実行する必要があります。
+Adobe Business Platform は、ユーザーのシングルサインオン（SSO）を制御するので、次のアクションと機能は、Adobe Business Platform を通じて自動的に処理されます。組織がまだ Adobe Business Platform にオンボーディングされていない場合、Workfront でこれらのアクションを実行する必要があります。
 
 
-* [SAML 2.0 でのAdobe Workfrontの設定](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [ADFS を使用した SAML 2.0 でのAdobe Workfrontの設定](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-* [Adobe Workfrontでのシングルサインオンの無効化](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [ID プロバイダーの SAML 2.0 メタデータの更新](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [SAML 2.0 で Adobe Workfront を設定](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+* [ADFS を使用した SAML 2.0 で Adobe Workfront を設定](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
+* [Adobe Workfront でシングルサインオンを無効化](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
+* [ID プロバイダーの SAML 2.0 メタデータを更新](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [シングルサインオンのユーザーを更新](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-* [認証用のパスワードポリシーの設定](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [システムセキュリティの環境設定の構成](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [認証用のパスワードポリシーを設定](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [システムセキュリティの環境設定を指定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
