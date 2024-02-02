@@ -1,22 +1,22 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: 結果とアクティビティを目標に変換して目標を揃える
-description: 2 つの目標を手動で整列させたり、既存の目標の結果やアクティビティを別の目標に変換したりできます。 変換された結果またはアクティビティが、元の目標の子目標になります。 2 つの目標を手動で揃える方法について詳しくは、 Adobe Workfront目標で目標を連結して整列を参照してください。
+title: 結果とアクティビティを目標に変換して目標を連携
+description: 2 つの目標を手動で連携させたり、既存の目標の結果やアクティビティを別の目標に変換したりできます。変換された結果やアクティビティは、元の目標の子目標になります。2 つの目標を手動で連携させる方法について詳しくは、目標を Adobe Workfront Goals に結び付けて連携を参照してください。
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
 source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '643'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 結果とアクティビティを目標に変換して目標を揃える
+# 結果とアクティビティを目標に変換して目標を連携
 
-2 つの目標を手動で整列させたり、既存の目標の結果やアクティビティを別の目標に変換したりできます。 変換された結果またはアクティビティが、元の目標の子目標になります。
-2 つの目標を手動で揃える方法については、 [目標をAdobe Workfront目標に結び付けて整列させる](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+2 つの目標を手動で連携させたり、既存の目標の結果やアクティビティを別の目標に変換したりできます。変換された結果やアクティビティは、元の目標の子目標になります。
+2 つの目標を手動で連携させる方法について詳しくは、[目標を Adobe Workfront Goals に結び付けて連携](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)を参照してください。
 
 ## アクセス要件
 
@@ -81,24 +81,24 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront目標の使用要件</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>目標以降へのアクセスを編集</p> <p><b>メモ</b> 
-   <p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+   <td> <p>Goals 以上への編集アクセス権</p> <p><b>メモ</b> 
+   <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -106,40 +106,40 @@ ht-degree: 0%
    <td> 
     <div> 
      <p>目標に対する権限の管理</p> 
-     <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
+     <p>目標の共有については、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## 前提条件
 
-を起動する前に、次の条件を満たす必要があります。
+開始するには、まず以下が必要です。
 
-* メインメニューの目標領域を含むレイアウトテンプレート。
+* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 * 既存の結果とアクティビティを含む既存の目標。
 
-   目標の作成について詳しくは、 [Adobe Workfront目標での目標の作成](../../workfront-goals/goal-management/create-goals.md).
+  目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 
 >[!IMPORTANT]
 >
->目標には、最大 1000 個の進行状況インジケーターを設定できます。
+>目標には、最大 1000 個の進捗インジケーターを設定できます。
 
 <!--drafted for goal redesign: At PRODUCTION: update the sentence above to remove Production/ Preview references-->
 
 ## 結果やアクティビティを目標に変換する際の考慮事項
 
-結果やアクティビティの範囲が予想以上に大きい場合があり、目標になるという意味が理にかなう場合があります。 既存の目標の結果やアクティビティを新しい目標に変換できます。 これは、目標を揃えるためのボトムアップアプローチです。
+結果やアクティビティの範囲が予想よりも大きくなって、目標となる方が理にかなっている場合があります。既存の目標の結果やアクティビティを新しい目標に変換できます。これは、目標を連携させるためのボトムアップアプローチです。
 
 結果やアクティビティを目標に変換する際は、次の点を考慮してください。
 
-* 変換された結果またはアクティビティが元の目標の子目標になり、2 つの目標が整列します。
-* 元の目標に関する追加の結果やアクティビティがない場合、新しく作成された目標は、元の目標の単一の進行状況インジケーターになります。 子の目標に対する進行状況を追跡するには、結果とアクティビティを追加する必要があります。
-* 結果またはアクティビティを目標に変換すると元に戻せなくなります。 コンバージョンが完了すると、新しい子目標を再び親目標の結果やアクティビティにすることはできなくなります。
+* 変換された結果またはアクティビティが元の目標の子目標になり、2 つの目標が連携します。
+* 元の目標に関する追加の結果やアクティビティがない場合、新しく作成された目標は、元の目標の単一の進捗インジケーターになります。子の目標に対する進捗をトラックするには、結果とアクティビティを追加する必要があります。
+* 結果またはアクティビティを目標に変換すると、元に戻せなくなります。変換すると、新しい子目標を再び親目標の結果やアクティビティにすることはできなくなります。
 
-## 結果またはアクティビティを目標に変換する
+## 結果またはアクティビティを目標に変換
 
 <!--
 <span class="preview">Converting results and activities differs depending on what environment you use. </span>
@@ -159,19 +159,19 @@ ht-degree: 0%
 1. (Optional) Click the name of the new goal to open the **Goal Details** panel and edit the name of the goal. For information about editing any information for an existing goal, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
 -->
 
-1. 結果がある目標または目標にコンバートするアクティビティに移動します。
-1. 目標のページで、 **進行状況指標** をクリックします。
-1. 進行状況インジケーターのリストで結果またはアクティビティを選択し、 **目標に変換** アイコン ![](assets/convert-to-goal-icon-unshimmed.png) をクリックします。 「目標に変換」ボックスが開きます。
+1. 目標に変換する結果またはアクティビティがある目標に移動します。
+1. 目標のページで、左側のパネルの「**進捗インジケーター**」をクリックします。
+1. 進捗インジケーターのリストで結果またはアクティビティを選択し、**目標に変換**&#x200B;アイコン ![](assets/convert-to-goal-icon-unshimmed.png) をクリックします。「目標に変換」ボックスが開きます。
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. 次の情報を更新します。
-   * **目標名**:デフォルトでは、新しい目標は、元の結果やアクティビティと同じ名前になります。
-   * **期間**:デフォルトでは、新しい目標の期間は現在の四半期です。 次の項目を選択できます。 **カスタム日付を有効にする** を設定して、新しい目標のカスタム期間を定義します。
-   * **目標所有者**:デフォルトでは、新しい目標所有者は、元の結果またはアクティビティの所有者です。
-   * **説明**:新しい目標に関する詳細情報を追加します。
-1. クリック **保存**
+   * **目標名**：デフォルトでは、新しい目標は、元の結果やアクティビティと同じ名前になります。
+   * **期間**：デフォルトでは、新しい目標の期間は現在の四半期になります。「**カスタム日付を有効にする**」設定を選択して、新しい目標のカスタム期間を定義します。
+   * **目標の所有者**：デフォルトでは、目標の新しい所有者は、元の結果またはアクティビティの所有者になります。
+   * **説明**：新しい目標に関する詳細情報を追加します。
+1. 「**保存**」をクリックします。
 
-   結果またはアクティビティが、元の目標の子目標に変換されます。 目標として、元の目標の進捗状況インジケーターリストに表示されます。
+   これで、結果またはアクティビティが、元の目標の子目標に変換されます。その後、元の目標の進捗状況インジケーターリストに目標として表示されます。
 
 
 
