@@ -3,39 +3,39 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion リリースアクティビティ： 2021 年 1 月 25 日の週」
-description: このページでは、2021 年 1 月 25 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+title: 「Workfront Fusion リリースアクティビティ：2021年1月25日（PT）の週」
+description: このページでは、2021年1月25日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 316b86af-e8af-445d-82f7-64ecddb97a00
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 1 月 25 日の週
+# Workfront Fusion リリースアクティビティ：2021年1月25日（PT）の週
 
-このページでは、2021 年 1 月 25 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年1月25日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## Bynder コネクタとモジュールが利用可能になりました。
+## Bynder コネクタとモジュールが利用可能
 
-これで、Workfront Fusion を使用して Bynder アカウントに接続できます。 Bynder モジュールを使用すると、次の操作を実行できます。
+Workfront Fusion を使用して、お使いの Bynder アカウントに接続できるようになりました。Bynder モジュールを使用すると、次の操作を実行できます。
 
-* トリガーアセットの作成または更新時のシナリオの作成
-* アセットメタデータの読み取りまたは更新
-* コレクションへのアセットの追加またはコレクションからのアセットの削除
-* アセットにタグを追加したり、アセットからタグを削除したりする
-* アセットのダウンロードまたはアップロード
+* アセットの作成時または更新時にシナリオをトリガー
+* アセットのメタデータの読み取りや更新
+* コレクションに対してアセットを追加または削除
+* アセットに対してタグを追加または削除
+* アセットのダウンロードやアップロード
 * アセットのリストの取得
 * 指定した条件に基づいてアセットを検索
 * カスタム API 呼び出しの実行
 
-詳しくは、 [購入モジュール](../../../workfront-fusion/apps-and-their-modules/bynder-modules.md).
+詳しくは、[Bynder モジュール](../../../workfront-fusion/apps-and-their-modules/bynder-modules.md)を参照してください。
