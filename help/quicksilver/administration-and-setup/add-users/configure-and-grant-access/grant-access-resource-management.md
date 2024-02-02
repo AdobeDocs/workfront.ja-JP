@@ -1,23 +1,23 @@
 ---
-title: リソース管理へのアクセス権の付与
+title: リソース管理に対するアクセスの許可
 user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
-description: Adobe Workfront管理者は、アクセスレベルを使用して、Workfrontでのリソース管理に対するユーザーのアクセスを定義できます。
+description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront でのリソース管理に対するユーザーのアクセス権を定義できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# リソース管理へのアクセス権の付与
+# リソース管理に対するアクセスの許可
 
-Adobe Workfront管理者は、アクセスレベルを使用して、リソース管理に対するユーザーのアクセスを定義できます。詳しくは、 [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Adobe Workfront 管理者は、アクセスレベルを使用して、リソース管理に対するユーザーのアクセスを定義できます。詳しくは、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -28,24 +28,24 @@ Adobe Workfront管理者は、アクセスレベルを使用して、リソー�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## カスタムアクセスレベルを使用して、リソース管理ツールへのユーザーアクセスを設定する
+## カスタムアクセスレベルを使用した、リソース管理ツールへのユーザーアクセス権の設定
 
-1. アクセスレベルの作成または編集を開始します ( [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. 歯車アイコンをクリックします。 ![](assets/gear-icon-settings.png) の **表示** または **編集** 「リソース管理」の右にあるボタンをクリックし、許可するアビリティを **設定を微調整する**.
+1. アクセスレベルの作成または編集を行います。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+1. リソース管理の右側にある&#x200B;**表示**&#x200B;ボタンまたは&#x200B;**編集**&#x200B;ボタンの歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、付与する権限を「**設定の微調整**」で選択します。
 
    ![](assets/resource-management-details-of-edit-in-the-access-level.png)
 
@@ -55,29 +55,29 @@ Adobe Workfront管理者は、アクセスレベルを使用して、リソー�
     <tbody> 
      <tr> 
       <td role="rowheader">プランナー内の優先度と予算計上時間数を編集します</td> 
-      <td> <p>このライセンスを持つユーザーに対し、次の操作を許可します。</p> <p>リソースプランナーのプロジェクトに優先順位を付けます。</p> <p>生産資源計画ツール（プロジェクトのビジネス・ケースの「生産資源計画担当」および「生産資源予算編成」セクション）の生産資源に対する予算割当。</p> <p>このオプションは、デフォルトで有効になっています。</p> </td> 
+      <td> <p>このライセンスを持つユーザーに対し、次の操作を許可します。</p> <p>リソースプランナーでプロジェクトに優先順位を付けます。</p> <p>リソース計画ツール（リソースプランナーおよびプロジェクトのビジネスケースのリソース予算計上セクション）でのリソースに対する予算配分。</p> <p>このオプションは、デフォルトで有効になっています。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">リソース プールの管理</td> 
-      <td> <p>このライセンスを持つユーザーがリソースプールを作成、編集、削除できるようにします。 このオプションはデフォルトでは無効になっています。</p> </td> 
+      <td role="rowheader">リソースプールの管理</td> 
+      <td> <p>このライセンスを持つユーザーが、リソースプールを作成、編集、削除できます。このオプションはデフォルトでは無効になっています。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>ワークロード バランサーの予定時間数を更新する</span> </td> 
-      <td> <p>このライセンスを持つユーザーが、ワークロードバランサーでのユーザー割り当てを更新する際に、予定時間の作業項目を更新できるようにします。 割り当てられた時間の合計数は、作業項目の計画時間になります。</p> <p>このオプションはデフォルトでは無効になっています。</p> <p> 詳しくは、 <a href="../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">ワークロードバランサーでのユーザー割り当ての管理</a>.</p> </td> 
+      <td> <p>このライセンスを持つユーザーが、ワークロードバランサーでユーザー割り当てを更新する際に、作業アイテムの予定時間数を更新することを許可します。割り当て時間数の合計は、作業アイテムの予定時間数になります。</p> <p>このオプションはデフォルトでは無効になっています。</p> <p> 詳しくは、<a href="../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">ワークロードバランサーでのユーザー割り当ての管理</a>を参照してください。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （オプション）作業中のアクセスレベルの他のオブジェクトや領域のアクセス設定を構成するには、 [Adobe Workfrontへのアクセスの設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)例： [タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) および [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. 完了したら、「 **保存**.
+1. （オプション）作業中のアクセスレベルで他のオブジェクトや他の領域のアクセス権を設定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)のリストに記載されている、[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)や[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)などの記事を参照してください。
+1. 完了したら「**保存**」をクリックします。
 
-   アクセスレベルを作成したら、そのレベルをユーザーに割り当てることができます。 詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザープロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## ライセンスタイプ別のリソース管理へのアクセス
 
-各アクセスレベルのユーザーがリソース管理で実行できる操作について詳しくは、「 [リソース管理](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource) 記事内 [各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+各アクセスレベルのユーザーがリソース管理で実行できる操作について詳しくは、[各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)の記事の[リソース管理](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#resource)の節を参照してください。
 
-## 共有された問題へのアクセス
+## 共有されたイシューへアクセス
 
 <!--
 If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:
@@ -86,10 +86,10 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-別のユーザーとオブジェクトを共有する場合、そのオブジェクトに対する予算または表示リソースの割り当てに関する受信者の権限は、次の 3 つの組み合わせによって決まります。
+他のユーザーとオブジェクトを共有する場合、共有されたユーザーがそのオブジェクトのリソース配分を予算計上したり表示したりできる権限は、次の 3 つの組み合わせによって決まります。
 
-* リソース管理に関する受信者のアクセスレベル設定
-* 財務データへのユーザーのアクセス。詳しくは、 [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* 共有者がオブジェクトに対して付与した財務データに対する権限
+* 共有されたユーザーの、リソース管理に関するアクセスレベル設定
+* 共有されたユーザーの、財務データへのアクセス権。詳しくは、[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
+* 共有を行ったユーザーがオブジェクトに付与した、財務データに対する権限
 
-ユーザーがオブジェクトを共有する際にオブジェクトの財務データに付与できる権限の詳細については、 [オブジェクトに対する財務権限の共有](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+ユーザーがオブジェクトの共有を行う際に、オブジェクトの財務データに付与できる権限について詳しくは、[オブジェクトに対する財務権限の共有](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)を参照してください。
