@@ -6,10 +6,10 @@ description: Adobe Workfront の今後リリース予定のレポートキャン
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
-exl-id: f68975c2-50a6-4962-80b7-1b482c0bc1d4
-source-git-commit: 30e22a154ad7fdc8bc8f211aecfd907eab1676a6
+exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 100%
 
 ---
