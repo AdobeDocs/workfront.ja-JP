@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: Outlook メールをタスクとして作業用リストに追加する
-description: 変換できる [!DNL Outlook] メール送信先 [!DNL Adobe Workfront] タスク。 電子メールが変換されると、そのタスクは [ ホーム ] 領域の [ 作業用リスト ] に表示されます。
+title: Outlook メールをタスクとして作業リストに追加
+description: ' [!DNL Outlook]  メールを  [!DNL Adobe Workfront]  タスクに変換することができます。メールが変換されると、そのタスクはホームエリアの作業用リストに表示されます。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: fcd02116-ffeb-43d3-8541-5e30e6cfdc5e
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# を追加します。 [!DNL Outlook] タスクとしてのメールを作業リストに送信
+# [!DNL Outlook] メールをタスクとして作業リストに追加
 
-変換できる [!DNL Outlook] メール送信先 [!DNL Adobe Workfront] タスク。 E メールが変換されると、タスクを [!UICONTROL 作業] リスト [!UICONTROL ホーム] 領域
+[!DNL Outlook] メールを [!DNL Adobe Workfront] タスクに変換することができます。メールが変換されると、そのタスクは[!UICONTROL ホーム]エリアの[!UICONTROL 作業]リストに表示されます。
 
 ## アクセス要件
 
@@ -26,7 +26,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -36,34 +36,34 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-お使いの [!DNL Workfront] 管理者は有効にする必要があります [!DNL Outlook for Office] と [!DNL Workfront] この統合を使用する前に、
+担当の [!DNL Workfront] 管理者はこの統合を使用する前に [!DNL Workfront] で [!DNL Outlook for Office] を有効にする必要があります。
 
-## を追加します。 [!DNL Outlook] タスクとしてのメールを作業リストに送信
+## [!DNL Outlook] メールをタスクとして作業リストに追加
 
-1. 内のメールを選択 [!DNL Outlook] タスクに変換する
-1. 次をクリック： **[!DNL Workfront]** 電子メールメッセージの右上隅にあるアイコン [!DNL Workfront] アドインです。\
-   電子メールの右上にある下向き矢印をクリックして、 [!DNL Workfront] アイコン
+1. タスクに変換する [!DNL Outlook] 内のメールを選択します。
+1. メールメッセージの右上隅にある **[!DNL Workfront]** アイコンをクリックして [!DNL Workfront] アドインを表示します。\
+   メールの右上にある下向き矢印をクリックして [!DNL Workfront] アイコンにアクセスする場合もあります。
 
-1. 次をクリック： **[!UICONTROL メニュー]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) アイコンをクリックして使用可能な [!DNL Workfront] オプション。\
+1. **[!UICONTROL メニュー]**![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png)アイコンをクリックして、使用可能な [!DNL Workfront] オプションのリストを表示します。
 
 
-1. クリック **[!UICONTROL 作業に追加]**.\
+1. 「**[!UICONTROL 作業に追加]**」をクリックします。
 
-1. 選択を解除する **[!UICONTROL プロジェクトに追加]** フィールドに入力します。
-1. （オプション）電子メールをタスクとして保存する前に、次の情報を更新できます。
+1. 「**[!UICONTROL プロジェクトに追加]**」フィールドの選択を解除します。
+1. （オプション）メールをタスクとして保存する前に、次の情報を更新できます。
 
-   * **[!UICONTROL タスク名]:** デフォルトでは、タスク名は電子メールの件名と同じです。 必要に応じてタスク名を変更できます。
-   * **[!UICONTROL 説明]:** デフォルトでは、説明は E メール本文と同じです。 説明は必要に応じて変更できます。
-   * **[!UICONTROL 添付ファイル]:** 電子メールの添付ファイルは、 [!UICONTROL ドキュメント] タスクの領域。 E メールをタスクとして保存する前に、添付ファイルを削除することができます。
+   * **[!UICONTROL タスク名]：**&#x200B;デフォルトでは、タスク名はメールの件名と同じです。必要に応じてタスク名を変更できます。
+   * **[!UICONTROL 説明]：**&#x200B;デフォルトでは、説明はメール本文と同じです。必要に応じて説明を変更できます。
+   * **[!UICONTROL 添付ファイル]：**&#x200B;メールの添付ファイルは、タスクの[!UICONTROL ドキュメント]エリアに保存されます。メールをタスクとして保存する前に、任意の添付ファイルを削除することができます。
 
-1. クリック **[!UICONTROL 追加]**.\
-   タスクが [!UICONTROL 作業用リスト] コミット日のないホーム領域で使用できます。
+1. 「**[!UICONTROL 追加]**」をクリックします。\
+   タスクはホームエリアの[!UICONTROL 作業リスト]に、コミット日なしで追加されます。
 
-1. （オプション）「 **[!UICONTROL Workfrontで表示]** タスクを [!DNL Workfront] 新しいタブのアプリケーション。
+1. （オプション）新しいタブの [!DNL Workfront] アプリケーションで **[!UICONTROL Workfront で表示]** タスクをクリックします。
 
-1. （オプション）に戻る [!DNL Outlook]をクリックし、元の E メールを選択します。\
-   の上部 [!DNL Workfront] アドインパネルに、電子メールがタスクとしてWorkfrontに追加されたことを示すリンクが表示されます。 リンクには、変換された日付が含まれています。\
+1. （オプション）[!DNL Outlook] に戻り、元のメールを選択します。\
+   [!DNL Workfront] アドインパネルの上部に、メールが Workfront に追加されたことを示すリンクが表示され、確認が行われます。リンクには、変換された日付が含まれます。
