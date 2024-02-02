@@ -8,17 +8,17 @@ feature: Workfront API
 role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
-workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 8%
+workflow-type: ht
+source-wordcount: '212'
+ht-degree: 100%
 
 ---
 
 # API 応答のエスケープ文字
 
-一部の API 応答の構文には、エスケープ文字 ( `\` （バックスラッシュ）。 エスケープ文字は、エスケープ文字の直後の文字または文字列が特別な値を持つことを示します。 例： `\t` は読み取り装置に `t` は次のように解釈する必要があります。 `tab` 「t」の文字ではなく バックスラッシュの後に 1 つ以上の文字を含む文字列は、エスケープシーケンスと呼ばれます。
+一部の API 応答の構文には、エスケープ文字の、`\`（バックスラッシュ）を含みます。エスケープ文字は、エスケープ文字の直後の文字または文字列が特別な値を持つことを示します。例えば、`tab`「t」の文字ではなく、`t`「t」の文字として解釈される`\t`読み取り装置に伝えます。バックスラッシュの後に 1 つ以上の文字を含む文字列は、エスケープシーケンスと呼ばれます。
 
-16 進エスケープシーケンスでは、有効な 16 進数を使用する必要があります。 次の表に、Adobe Workfront API 応答でエンコードされるエスケープシーケンスを示します。
+16 進エスケープシーケンスでは、有効な 16 進数を使用する必要があります。次の表に、Adobe Workfront API 応答でエンコードされるエスケープシーケンスを示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,14 +28,14 @@ ht-degree: 8%
   <tr> 
    <th><strong>エスケープシーケンス</strong> </th> 
    <th><strong>Unicode 文字</strong> </th> 
-   <th><strong>次を表す</strong> </th> 
+   <th><strong>表示</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>\u000<em>x</em></p> <p>ここで、 <em>x</em> は、0 ～ 7 の数値を表す 16 進数コードです。</p> </td> 
+   <td> <p>\u000<em>x</em></p> <p>ここで、<em>x</em>は、0 ～ 7 の数値を表す 16 進数コードです</p> </td> 
    <td>0-7</td> 
-   <td>コードポイント 0 ～ 7 で表される Unicode 文字</td> 
+   <td>コードポイント 0～7 で表される Unicode 文字</td> 
   </tr> 
   <tr> 
    <td>\b</td> 
@@ -68,27 +68,27 @@ ht-degree: 8%
    <td>キャリッジリターン</td> 
   </tr> 
   <tr> 
-   <td> <p>\u00<em>xx</em></p> <p><em>ここで、xx は 14～31 の数値の 16 進数コードです。</em> </p> </td> 
+   <td> <p>\u00<em>xx</em></p> <p><em>ここで、xx は 14～31 の数値の 16 進数コードです</em> </p> </td> 
    <td>14 - 31</td> 
-   <td>コードポイント 14 ～ 31 で表される Unicode 文字</td> 
+   <td>コードポイント 14～31 で表される Unicode 文字</td> 
   </tr> 
   <tr> 
    <td> <p>\/</p> </td> 
    <td>47</td> 
-   <td>/ （スラッシュ）</td> 
+   <td>/（フォワードスラッシュ）</td> 
   </tr> 
   <tr> 
    <td> <p>\u003c</p> </td> 
    <td>60</td> 
-   <td>&lt; （より小さい）</td> 
+   <td>&lt;（未満）</td> 
   </tr> 
   <tr> 
    <td> <p>\\</p> </td> 
    <td>92</td> 
-   <td>\ （バックスラッシュ）</td> 
+   <td>\（バックスラッシュ）</td> 
   </tr> 
   <tr> 
-   <td> <p>\u<em>xxxx</em></p> <p>ここで、 <em>xxxx</em> は、127 を超える任意の数の 16 進コードです。</p> </td> 
+   <td> <p>\u<em>xxxx</em></p> <p>ここで、<em>xxxx</em> は、127 を超える任意の数の 16 進数コードです</p> </td> 
    <td>128+</td> 
    <td>127 を超える任意のコードポイントに対する Unicode 文字</td> 
   </tr> 
