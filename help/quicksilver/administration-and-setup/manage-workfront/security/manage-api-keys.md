@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
 title: API キーの管理
-description: API セキュリティの脆弱性を最小限に抑えるために、Adobe Workfront管理者は、ユーザーに代わってアプリケーションがWorkfrontにアクセスできるようにするために使用する API キーを管理できます。
+description: API セキュリティ脆弱性を最小限に抑えるために、Adobe Workfront 管理者は、アプリケーションがユーザーに代わって Workfront へのアクセスに使用される API キーを管理できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 2%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
-API セキュリティの脆弱性を最小限に抑えるために、Adobe Workfront管理者は、ユーザーに代わってアプリケーションがWorkfrontにアクセスできるようにするために使用する API キーを管理できます。
+API セキュリティ脆弱性を最小限に抑えるために、Adobe Workfront 管理者は、アプリケーションがユーザーに代わって Workfront へのアクセスに使用される API キーを管理できます。
 
-現在の管理者 API キーのリセットまたは削除、期限切れに設定、すべてのユーザーの API キーの削除をおこなうことができます。
+現在の管理者 API キーのリセットまたは削除、API キーを期限切れに設定、すべてのユーザーの API キーの削除を行うことができます。
 
-Workfront API を利用するアプリケーションの例を次に示します。
+Workfront API を活用するアプリケーションの例を次に示します。
 
-* ドキュメントの統合 (Dropbox、Google Drive、Workfront DAM など )
-* Workfront mobile applications
+* Dropbox、Google Drive、Workfront DAM などのドキュメントの統合
+* Workfront モバイルアプリケーション
 
 >[!IMPORTANT]
 >
->API キーをリセットまたは削除する場合、Workfrontに再びアクセスできるように、Workfront API を利用し、この API キーを介してWorkfrontに認証するアプリケーションを再設定する必要があります。
+>API キーをリセットまたは削除する場合、Workfront API を利用し、この API キーを介して Workfront に対して認証するアプリケーションは、Workfront へのアクセス権を取り戻すために再設定する必要があります。
 
 ## アクセス要件
 
@@ -42,154 +42,154 @@ Workfront API を利用するアプリケーションの例を次に示します
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Workfront API キー
 
-Workfrontの各ユーザーは一意の API キーを持っています。 このキーは、ユーザーがWorkfront API(Workfrontモバイルアプリやドキュメント統合など ) を利用した統合にアクセスした時点で、ユーザー単位で生成されます。
+Workfront のそれぞれのユーザーが、一意の API キーを持っています。このキーは、ユーザーが Workfront API（Workfront モバイルアプリやドキュメント統合など）を活用する統合にアクセスする際に、ユーザーごとに生成されます。
 
 >[!NOTE]
 >
-> 実稼動環境で生成した API キーは、週の更新中にプレビュー環境にコピーされます。 プレビュー環境で生成した API キーは、毎週の更新中に実稼動用 API キーで上書きされます。
+> 実稼動環境で生成した API キーは、毎週の更新中にプレビュー環境にコピーされます。プレビュー環境で生成した API キーは、毎週の更新中に実稼動用 API キーで上書きされます。
 
-また、Workfront管理者には固有の API キーが割り当てられています。 アプリケーションで管理者 API キーを使用してWorkfrontにアクセスする場合、そのアプリケーションにはWorkfrontへの管理者アクセス権があります。
+Workfront 管理者には一意の API キーが割り当てられています。アプリケーションが管理者 API キーを使用して Workfront にアクセスすると、アプリケーションは Workfront への管理アクセス権を持つことになります。
 
-## 管理者 API キーを管理
+## 管理者 API キーの管理
 
-管理者ユーザーアカウントの API キーを生成、リセット、または削除できます。
+管理者ユーザーアカウントの API キーを生成、リセットまたは削除することができます。
 
 >[!NOTE]
 >
->API を使用して API キーを生成することもできます。 詳しくは、 [イベント購読 API](../../../wf-api/general/event-subs-api.md) セクション [イベント購読 API](../../../wf-api/general/event-subs-api.md).
+>API を使用して API キーを生成することもできます。詳しくは、[イベント登録 API](../../../wf-api/general/event-subs-api.md) にある[イベント登録 API](../../../wf-api/general/event-subs-api.md) の節を参照してください。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
 
-1. クリック **システム >** **顧客情報。**
-1. （条件付き）次のいずれかの操作を実行します。
+1. **システム**／**顧客情報**&#x200B;をクリックします。
+1. （条件付き）次のアクションのいずれかを実行します。
 
-   API キーを生成するには：内 **API キー設定** セクションで、 **API キーを生成**.
+   API キーを生成するには、「**API キーを設定**」セクションで、「**API キーを生成**」をクリックします。
 
    または\
-   API キーをリセットするには：内 **API キー設定** セクションで、 **リセット**&#x200B;を、**リセット。**
+   API キーをリセットするには、「**API キーの設定**」セクションで、「**リセット**」をクリックし、「**リセット**&#x200B;をクリックします。
 
    または
 
-   API キーを削除するには：内 **API キー設定** セクションで、 **削除**&#x200B;を、 **削除**.
+   API キーを削除するには、「**API キーの設定**」セクションで、「**削除**&#x200B;をクリックし、「**削除**」をクリックします。
 
 ## 管理者以外のユーザー向けの API キーの生成
 
-Workfront管理者以外の役割を持つユーザーの API キーを生成および管理できます。
+Workfront 管理者以外の役割を持つユーザーの API キーを生成および管理できます。
 
 >[!NOTE]
 >
->組織のWorkfrontインスタンスで「Adobe IMS」が有効になっている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。
+>組織の Workfront インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
-1. （条件付き）組織がシングルサインオン (SSO) アクセス管理を使用している場合、SSO 認証を必要とするオプションを一時的に無効にします。
+1. （条件付き）組織がシングルサインオン（SSO）アクセス管理を使用している場合、SSO 認証を必要とするオプションを一時的に無効にします。
 
-   1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+   1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
 
-   1. 展開 **システム**&#x200B;を選択し、「 **シングルサインオン (SSO)**.\
+   1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。\
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
 
    1. SSO 認証が必要なチェックボックスを無効にします。
 
-      例えば、組織が SAML 2.0 を使用している場合は、を無効にします。 **SAML 2.0 認証のみを許可**.
+      例えば、組織が SAML 2.0 を使用している場合は、「**SAML 2.0 認証のみを許可**」を無効にします。
 
 1. ブラウザーのアドレスバーに、次の API 呼び出しを入力します。
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**ユーザー名**&amp;password=**パスワード**&amp;method=PUT
+   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
 
-   置換 `<domain>` Workfrontのドメイン名、およびユーザーのWorkfront資格情報を使用したユーザー名とパスワード。
+   `<domain>` を Workfront ドメイン名に置き換え、ユーザー名とパスワードをユーザーの Workfront 資格情報に置き換えます。
 
-1. （条件付き）手順 1 で SSO 認証を無効にした場合、SSO 認証が必要なオプションを有効にします。
+1. （条件付き）手順 1 で SSO 認証を要求するオプションを無効にした場合は、これを有効にします。
 
-   1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+   1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**設定** ![](assets/gear-icon-settings.png) をクリックします。
 
-   1. 展開 **システム**&#x200B;を選択し、「 **シングルサインオン (SSO)**.
+   1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
 
-   1. SSO メソッドを **タイプ** ドロップダウンメニュー。
+   1. **タイプ**&#x200B;ドロップダウンメニューで、「SSO メソッド」を選択します。。
    1. SSO 認証が必要なチェックボックスをオンにします。
 
 ## API キーの有効期限を設定
 
-API キーは、システム内のすべてのユーザーの有効期限が切れるように設定できます。 ユーザーの API キーの有効期限が切れたら、Workfrontにアクセスするには、Workfront API を使用するアプリケーションに対して再認証する必要があります。 API キーの有効期限が切れる頻度を変更できます。 また、ユーザーのパスワードの有効期限が切れたときに API キーを期限切れにするかどうかを設定することもできます。
+API キーは、システム内のすべてのユーザーの有効期限が切れるように設定できます。ユーザーの API キーの有効期限が切れると、ユーザーは Workfront API を使用して Workfront にアクセスするアプリケーションに対して再認証する必要があります。API キーの有効期限が切れる頻度を変更できます。ユーザーのパスワードの有効期限が切れた場合に、API キーを期限切れにするかどうかを設定することもできます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
 
-1. クリック **システム** > **顧客情報**.
-1. 内 **API キー設定** 領域、 **作成後**, **API キーの有効期限：** ドロップダウンリストから、API キーの有効期限を選択します。
+1. **システム**／**顧客情報**&#x200B;をクリックします。
+1. **API キー設定**&#x200B;エリア内の、**作成後**&#x200B;の&#x200B;**API キーの有効期限：**&#x200B;ドロップダウンリストから、API キーを期限切れにする時間枠を選択します。
 
-   このオプションを変更すると、変更を加えた時点から新しい期間が開始されます。 例えば、このオプションを *1 か月* から *6 か月*&#x200B;に設定した場合、API キーは変更を加えてから 6 ヶ月で有効期限が切れます。
+   このオプションを変更すると、変更を加えた時点から新しい期間が開始されます。例えば、このオプションを *1 か月*&#x200B;から *6 か月*&#x200B;に変更すると、API キーの有効期限は変更を行ってから 6 か月になります。
 
    デフォルトでは、API キーは毎月期限が切れます。
 
-1. ユーザーのパスワードが期限切れになった時点で期限切れになるように API キーを設定するには、 **ユーザーのパスワードが期限切れになったら API キーを削除する**.
+1. ユーザーのパスワードが期限切れになった時点で期限切れになるように API キーを設定するには、**ユーザーのパスワードが期限切れになったら API キーを削除**&#x200B;を選択します。
 
    デフォルトでは、このオプションは選択されていません。
 
-   ユーザーパスワードが失効するように設定する方法については、 [システムセキュリティの環境設定の構成](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+   ユーザーパスワードが失効するように設定する方法については、[システムセキュリティの環境設定の指定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
 1. 「**保存**」をクリックします。
 
-## すべてのユーザーの API キーを削除します
+## すべてのユーザーの API キーを削除
 
-Workfrontシステムに関する特定のセキュリティ違反を懸念する場合は、すべてのユーザーの API キーを同時に削除できます。
+Workfront システムに関する特定のセキュリティ違反を懸念する場合は、すべてのユーザーの API キーを同時に削除できます。
 
 >[!IMPORTANT]
 >
->すべてのユーザーの API キーを削除すると、システム内のすべてのユーザーの API キーがすべて無効になります。 この操作を実行すると、Workfrontで新しい API キーを生成し、すべての統合を更新するまで、Workfrontでのすべての統合が失敗します。
+>すべてのユーザーの API キーを削除すると、システム内のすべてのユーザーの API キーがすべて無効になります。このアクションにより、Workfront で新しい API キーを生成して統合をすべてアップデートするまで、Workfront でのすべての統合が失敗します。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**設定** ![](assets/gear-icon-settings.png) をクリックします。
 
-1. 展開 **システム**&#x200B;を選択し、「 **顧客情報。**
+1. **システム**&#x200B;を展開して、「**顧客情報**」をクリックします。
 
-1. 内 **API キー設定** 領域、クリック **すべての API キーを削除**&#x200B;を選択し、「 **削除** **すべて**.
+1. **API キー設定**&#x200B;領域で、**すべての API キーを削除**、**削除**／**すべて**&#x200B;の順にクリックします。
 
 ## X.509 証明書を使用した API ログインの制限
 
 >[!IMPORTANT]
 >
->この節で説明する手順は、まだAdobeビジネスプラットフォームに転送されていない組織にのみ適用されます。 組織がWorkfront Business Platform にオンボーディングされている場合、Adobe API を使用してWorkfrontにログインすることはできません。
+>この節で説明する手順は、Adobe Business Platform にまだ登録されていない組織にのみ適用されます。組織が Adobe Business Platform にオンボーディングされている場合、Workfront API を介して Workfront にログインすることはできません。
 >
->組織がAdobeビジネスプラットフォームにオンボーディングされているかどうかに応じて異なる手順のリストについては、 [プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>組織が Adobe Business Platform に登録されているかどうかによって異なる手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
-サードパーティアプリケーションは、API を介してWorkfrontと通信できます。 X.509 証明書をWorkfrontにアップロードすることで、Workfrontサイトのセキュリティを強化するために API ログインリクエストを制限するようWorkfrontを設定できます。 有効にしたら、API を介したすべてのログインリクエストには、ユーザー名とパスワードに加えて、クライアント証明書が含まれている必要があります。
+サードパーティアプリケーションは、API を介して Workfront と通信できます。X.509 証明書を Workfront にアップロードすることで、Workfront サイトのセキュリティを強化するために API ログインリクエストを制限するよう Workfront を設定できます。有効にしたら、API を介したすべてのログインリクエストには、ユーザー名とパスワードに加えて、クライアント証明書が含まれている必要があります。
 
 >[!NOTE]
 >
->組織のWorkfrontインスタンスで「Adobe IMS」が有効になっている場合は、この機能を使用できません。 詳細については、ネットワークまたは IT 管理者にお問い合わせください。
+>組織の Workfront インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
 * [X.509 証明書の取得](#obtain-the-x-509-certificate)
-* [証明書をWorkfrontにアップロード](#upload-the-certificate-to-workfront)
-* [API ログイン呼び出しが制限されていることを確認します](#verify-api-login-calls-are-restricted)
+* [Workfront への証明書のアップロード](#upload-the-certificate-to-workfront)
+* [API ログイン呼び出しが制限されていることの確認](#verify-api-login-calls-are-restricted)
 
 ### X.509 証明書の取得 {#obtain-the-x-509-certificate}
 
 有効な X.509 証明書を信頼できる証明機関（Verisign など）から取得し、ワークステーションの一時的な場所に配置します。
 
-### 証明書をWorkfrontにアップロード {#upload-the-certificate-to-workfront}
+### Workfront への証明書のアップロード {#upload-the-certificate-to-workfront}
 
-認証局から X.509 証明書を取得したら、Workfrontにアップロードする必要があります。
+認証局から X.509 証明書を取得したら、Workfront にアップロードする必要があります。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
 
-1. 展開 **システム**&#x200B;を選択し、「 **顧客情報**.
+1. **システム**&#x200B;を展開して、「**顧客情報**」をクリックします。
 
-1. 内 **API キー設定** 領域、選択 **X.509 証明書を有効にする**.
+1. **API キー設定**&#x200B;エリアで、「**X.509証明書を有効にする**」を選択します。
 1. ワークステーションで、以前にダウンロードした X.509 証明書を参照して選択します。
-1. （オプション）「 **詳細を表示** 証明書名の横に、証明書に関する次の詳細が表示されます。
+1. （オプション）証明書名の横にある「**詳細を表示**」をクリックすると、証明書に関する次の詳細が表示されます。
 
    * 件名の共通名
    * 件名の組織
@@ -198,15 +198,15 @@ Workfrontシステムに関する特定のセキュリティ違反を懸念す�
    * 発行者の組織
    * 発行者組織の単位
    * シリアル番号
-   * 問題の日付
+   * イシューの日付
    * 有効期限
 
 1. 「**保存**」をクリックします。
 
-### API ログイン呼び出しが制限されていることを確認します {#verify-api-login-calls-are-restricted}
+### API ログイン呼び出しが制限されていることの確認 {#verify-api-login-calls-are-restricted}
 
-X.509 証明書を必要とするようにWorkfrontのインスタンスを設定する前に、 `/login` 有効なユーザー名およびパスワードパラメーターを使用するエンドポイント。 sessionID を含む 200 件の応答を受け取ります。
+X.509 証明書を必要とするようにWorkfrontのインスタンスを設定する前に、有効なユーザー名とパスワードのパラメーターを使用して、`/login` エンドポイントへの API リクエストを実行します。sessionID を含む 200 件の応答を受け取ります。
 
-Workfrontのインスタンスの顧客情報ページで X.509 証明書を要件に合わせた後、再度ログインを試みます。 今回は、次のメッセージと共に 500 エラー応答が返されます。「信頼できない要求です。 システム管理者に連絡し、証明書を添付してください。」
+Workfront のインスタンスの顧客情報ページで X.509 証明書を要件とした後、再度ログインを試みます。今回は、次のメッセージを含む 500 エラー応答を受け取ります。「信頼できないリクエストです。システム管理者に連絡して、証明書を添付してください。」
 
-X.509 証明書が必要であることを確認したら、証明書の値に apiCertificate の追加パラメーターを設定して、同じログイン要求を実行します。 この操作が正しく実行された場合は、有効な sessionID を含む 200 件の応答を受け取ります。
+X.509 証明書が必須であることを確認したら、証明書の値に apiCertificate の追加パラメーターを設定して、同じログインリクエストを実行します。この操作が正しく実行された場合は、有効な sessionID を含む 200 件の応答を受け取ります。
