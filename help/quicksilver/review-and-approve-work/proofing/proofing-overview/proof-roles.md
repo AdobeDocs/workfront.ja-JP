@@ -2,35 +2,35 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: 配達確認の役割の概要
-description: 配達確認の役割を使用すると、個々の配達確認に対する権限を付与できます。 配達確認の役割は、配達確認の権限プロファイルとは異なります。 配達確認権限プロファイルの詳細については、「配達確認権限プロファイルの概要」を参照してください。
+title: プルーフの役割の概要
+description: プルーフの役割を使用すると、個々のプルーフに対する権限を付与できます。プルーフの役割は、プルーフの権限プロファイルとは異なります。プルーフ権限プロファイルのについて詳しくは、プルーフ権限プロファイルの概要を参照してください。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# 配達確認の役割の概要
+# プルーフの役割の概要
 
-配達確認の役割を使用すると、個々の配達確認に対する権限を付与できます。 配達確認の役割は、配達確認の権限プロファイルとは異なります。 配達確認権限プロファイルについて詳しくは、 [配達確認権限プロファイルの概要](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+プルーフの役割を使用すると、個々のプルーフに対する権限を付与できます。プルーフの役割は、プルーフの権限プロファイルとは異なります。プルーフ権限プロファイルのについて詳しくは、[プルーフ権限プロファイルの概要](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)を参照してください。
 
-## 配達確認の役割
+## プルーフの役割
 
-配達確認の役割は、ユーザーが配達確認のレビューに招待されたときに、個々の配達確認のユーザーに付与されます。 Workfront Pro+プランをお持ちの場合は、作業用またはプランのライセンスを持つユーザーに校正ロールを付与できます。 Workfront Premium レガシープランをご利用の場合は、指定された校正ライセンスを持つユーザーに校正の役割を付与できます。 詳しくは、 [Workfrontの校正機能へのアクセス](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+プルーフの役割は、ユーザーがプルーフのレビューに招待されたときに、個々のプルーフに付与されます。Workfront Pro+ プランをご利用の場合は、作業用またはプランのライセンスを持つユーザーにプルーフの役割を付与できます。Workfront Premium レガシープランをご利用の場合は、指定されたプルーフライセンスを持つユーザーにプルーフの役割を付与できます。詳しくは、[Workfront のプルーフ機能へのアクセス](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)を参照してください。
 
 >[!NOTE]
 >
->新しいWorkfrontプランのユーザーは、システム内の任意のユーザーに作成者またはモデレーターの役割を付与できます。 レガシープランのユーザーは、システム内の配達確認ライセンスを持つすべてのユーザーに、作成者またはモデレーターの役割を付与できます。
+>新しい Workfront プランのユーザーは、システム内の任意のユーザーに作成者またはモデレーターの役割を付与できます。従来のプランのユーザーは、システム内のプルーフライセンスを持つユーザーに作成者またはモデレーターの役割を付与できます。
 
-配達確認の役割は、特定の配達確認に関してレビュー担当者が実行できるアクションを定義します。
+プルーフの役割では、特定のプルーフに関連してレビュアーが実行できるアクションを定義します。
 
-**例：** レビュー担当者の役割が割り当てられている場合は、マークアップとコメントを追加して配達確認を確認するように求められますが、配達確認を承認または拒否するオプションはありません。
+**例：**&#x200B;レビュアーの役割が割り当てられている場合は、マークアップとコメントを追加してプルーフを確認するように求められますが、プルーフを承認または拒否するオプションはありません。
 
-特定の配達確認の役割は、レビュー担当者に対して（アカウントプロファイルがない場合でも）編集権限を付与し、コメントに対するアクションの追加、新しいバージョンの作成、配達確認へのレビュー担当者の追加などの追加機能を使用できます。
+特定のプルーフの役割は、（アカウントプロファイルで付与されていない場合でも）プルーフに関する編集権限をレビュアーに付与し、コメントに対するアクションの追加、新しいバージョンの作成、プルーフへのレビュアーの追加などの追加機能をレビュアーが使用できるようにします。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -50,7 +50,7 @@ ht-degree: 2%
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>配達確認を表示</strong> </p> </th> 
+   <th> <p><strong>プルーフを表示</strong> </p> </th> 
    <th> <p><strong>マークアップを追加</strong> </p> </th> 
    <th> <p><strong>コメントを追加</strong> </p> </th> 
    <th> <p><strong>返信がない場合は自分のコメントを編集</strong> </p> </th> 
@@ -58,10 +58,10 @@ ht-degree: 2%
    <th> <p><strong>他のユーザーが行ったコメントを削除</strong> </p> </th> 
    <th>コメントを解決</th> 
    <th>コメントにアクションを適用</th> 
-   <th> <p><strong>配達確認を編集</strong> </p> </th> 
-   <th>他のユーザーと配達確認を共有</th> 
+   <th> <p><strong>プルーフを編集</strong> </p> </th> 
+   <th>他のユーザーとプルーフを共有</th> 
    <th>新しいバージョンを作成</th> 
-   <th> <p><strong>ホーム領域での承認リクエストの表示</strong> </p> </th> 
+   <th> <p><strong>ホームエリアで承認リクエストを表示</strong> </p> </th> 
    <th>新しいレビュー担当者を追加</th> 
   </tr> 
  </thead> 
@@ -131,7 +131,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>作者</strong> </p> </td> 
+   <td> <p><strong>作成者</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -147,7 +147,7 @@ ht-degree: 2%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>調整者</strong> </p> </td> 
+   <td> <p><strong>進行管理者</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p><strong>✓</strong> </p> </td> 
