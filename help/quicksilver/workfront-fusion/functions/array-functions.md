@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Adobe Workfront Fusion の配列関数
-description: Adobe Workfront Fusion マッピングパネルでは、次の配列関数を使用できます。
+description: 次の配列関数は、Adobe Workfront Fusion マッピングパネルで使用できます。
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,178 +19,178 @@ ht-degree: 0%
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront]プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を、組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront]プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## [!UICONTROL add (array;value1;value2;...)]
+## [!UICONTROL add (array; value1; value2; ...)]
 
-パラメータで指定された値を配列に追加し、その配列を返します。
+パラメーターで指定された値を配列に追加し、その配列を返します。
 
-## [!UICONTROL contains (array;値 )]
+## [!UICONTROL contains (array; value)]
 
-配列に値が含まれているかどうかを検証します。
+配列に値が含まれているかどうかを確認します。
 
-## [!UICONTROL distinct ( 配列； [key])]
+## [!UICONTROL distinct (array; [key])]
 
-配列内の重複を削除します。 「[!UICONTROL key]」引数を使用して複雑なオブジェクト内のプロパティにアクセスします。 ネストされたプロパティにアクセスするには、ドット表記を使用します。 配列の最初の項目はインデックス 1 です。
+配列内の重複を削除します。複雑なオブジェクト内のプロパティにアクセスするには、「[!UICONTROL キー]」引数を使用します。ネストされたプロパティにアクセスするには、ドット表記を使用します。配列内の最初の項目はインデックス 1 です。
 
 >[!INFO]
 >
->**例：** `distinct(Contacts[];name)`
+>**例：**`distinct(Contacts[];name)`
 >
->「name」プロパティを比較することで、連絡先の配列内の重複を削除します
+>「名前」プロパティを比較して、連絡先の配列内の重複を削除します。
 
-## [!UICONTROL flatten（配列）]
+## [!UICONTROL flatten (array)]
 
-指定した深さまで、すべてのサブ配列要素が再帰的に連結された新しい配列を作成します。
+すべてのサブ配列要素が再帰的に連結された新しい配列を、指定された深さまで作成します。
 
 
-## [!UICONTROL join (array;区切り文字 )]
+## [!UICONTROL join (array; separator)]
 
-各項目の間に指定した区切り文字を使用して、配列のすべての項目を文字列に連結します。
+各項目間に指定された区切り記号を使用して、配列のすべての項目を文字列に連結します。
 
 ## [!UICONTROL keys (object)]
 
 指定されたオブジェクトまたは配列のプロパティの配列を返します。
 
-## [!UICONTROL length （配列）]
+## [!UICONTROL length (array)]
 
-配列内の項目数を返します。
+配列内の項目の数を返します。
 
-## [!UICONTROL map ( 複合配列；キー[フィルタリングのためのキー];[フィルタリングに使用可能な値])]
+## [!UICONTROL map (complex array; key;[フィルタリング用キー];[フィルタリングに使用可能な値])]
 
-複合配列の値を含むプリミティブ配列を返します。 この関数は、値のフィルタリングを許可します。 キーには生の変数名を使用します。
+複素配列の値を含むプリミティブ配列を返します。この関数を使用すると、値をフィルターできます。キーには変数名を使用します。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
 >* `map(Emails[];email)`
 >
->  E メールを含むプリミティブ配列を返します
+>  メールを含むプリミティブ配列を返します
 >
 >* `map(Emails[];email;label;work;home)`
 >
->  仕事またはホームと等しいラベルを持つ E メールを含むプリミティブな配列を返します
+>  職場または自宅に等しいラベルを持つメールのプリミティブ配列を返します。
 
-詳しくは、 [のモジュール間で情報をマッピングする [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+詳しくは、[[!UICONTROL Adobe Workfront Fusion のモジュール間で情報をマッピング]](../../workfront-fusion/mapping/map-information-between-modules.md)を参照してください。
 
 
-## [!UICONTROL merge (array1;array2;...)]
+## [!UICONTROL merge (array1; array2; ...)]
 
-1 つ以上の配列を 1 つの配列に結合します。
+1 つまたは複数の配列を 1 つの配列に結合します。
 
-## [!UICONTROL remove (array;value1;value2;...)]
+## [!UICONTROL remove (array; value1; value2; ...)]
 
-配列のパラメーターで指定された値を削除します。 この関数は、テキストまたは数値のプリミティブ配列に対してのみ有効です。
+配列のパラメーターに指定された値を削除します。この関数は、テキストまたは数値のプリミティブ配列に対してのみ有効です。
 
-## [!UICONTROL reverse （配列）]
+## [!UICONTROL reverse (array)]
 
-配列の最初の要素が最後の要素になり、2 番目の要素が最後から次の要素になります。
+配列の最初の要素が最後の要素になり、2 番目の要素が最後から 2 番目の要素になります。
 
-## [!UICONTROL slice (array;開始； [終了])]
+## [!UICONTROL slice (array; start; [end])]
 
-選択した項目のみを含む新しい配列を返します。
+選択された項目のみを含む新しい配列を返します。
 
-## [!UICONTROL sort (array; [注文]; [key])]
+## [!UICONTROL sort (array; [order]; [key])]
 
-配列の値を並べ替えます。 有効な `order` パラメーターは次のとおりです。
+配列の値を並べ替えます。`order` パラメーターの有効な値は次のとおりです。
 
 * `asc`
 
-  （デフォルト） — 昇順：1、2、3、... （タイプ Number）。 A、B、C、a、b、c、... （「テキスト」タイプ）。
+  （デフォルト）ー 昇順：番号タイプの場合は 1、2、3、...。A、B、C、a、b、c、...テキスト型の場合
 
 * `desc`
 
-  降順：..., 3, 2, 1 （数値タイプ）。..., c, b, a, c, B, A （テキストタイプ）。
+  降順：番号型の場合は　...、3、2、1。テキスト型の場合は ...、c、b、a、C、B、A。
 
 * `asc ci`
 
-  大文字と小文字を区別しない昇順A, a, B, b, C, c, c, ... （テキストタイプ）。
+  大文字と小文字を区別しない昇順：テキスト型の場合は A、a、B、b、C、c、...。
 
 * `desc ci`
 
-  大文字と小文字を区別しない降順：..., C, c, B, b, A, a （テキストタイプの場合）
+  大文字と小文字を区別しない降順：テキスト型の場合は ...、C、c、B、b、A、a。
 
-以下を使用： `key` 複雑なオブジェクト内のプロパティにアクセスするためのパラメーター。
+`key` パラメーターを使用して、複雑なオブジェクト内のプロパティにアクセスします。
 
-キーには生の変数名を使用します。
+キーには変数名を使用します。
 
 ネストされたプロパティにアクセスするには、ドット表記を使用します。
 
-配列の最初の項目はインデックス 1 です。
+配列内の最初の項目はインデックス 1 です。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
 >* `sort(Contacts[];name)`
 >
->    連絡先の配列を「name」プロパティでデフォルトの昇順に並べ替えます
+>    連絡先の配列を「名前」プロパティによってデフォルトの昇順で並べ替えます。
 >
 >* `sort(Contacts[];desc;name)`
 >
->   連絡先の配列を「name」プロパティで降順に並べ替えます
+>   連絡先の配列を「名前」プロパティで降順に並べ替えます
 >
 >* `sort(Contacts[];asc ci;name)`
 >
->    大文字と小文字を区別しない昇順で、連絡先の配列を「name」プロパティで並べ替えます
+>    連絡先の配列を「名前」プロパティによって大文字と小文字を区別しない昇順で並べ替えます。
 >
 >* `sort(Emails[];sender.name)`
 >
->    「sender.name」プロパティで電子メールの配列を並べ替えます
+>    メールの配列を「sender.name」プロパティで並べ替えます。
 
 ## [!UICONTROL arrayDifference [array1, array2, mode]]
 
-2 つの配列の違いを返します。
+2 つの配列の差を返します。
 
-次のいずれかの値を `mode` パラメーター。
+`mode` パラメーターに次のいずれかの値を入力します。
 
-* `classic`:のすべての要素を含む新しい配列を返します。 `array1` に存在しない `array2`.
+* `classic`：`array2` に存在しない `array1` のすべての要素を含む新しい配列を返します。
 
-* `symmetric`:両方の配列に共通でない要素の配列を返します。
+* `symmetric`：両方の配列に共通ではない要素の配列を返します。
 
-  つまり、この関数は、 `array1` に存在しない `array2`、および `array2` に存在しない `array1`.
+  つまり、この関数は、`array2` に存在しない`array1` のすべての要素と、`array1` に存在しない `array2` のすべての要素を含む配列を返します。
 
   >[!INFO]
   >
-  >**例:**
+  >**例：**
   >
-  >次の配列が考えられます。
+  >次の配列があるとします。
   >
   >```
   >myArray = [1,2,3,4,5]
@@ -202,12 +202,12 @@ ht-degree: 0%
   >
   >* `arrayDifference [myArray, yourArray, classic]`
   >
-  >    戻り値 `[1,2]`
+  >    `[1,2]` を返します
   >
   >* `arrayDifference [yourArray, myArray, classic]`
   >
-  >    戻り値 `[6,7]`
+  >    `[6,7]` を返します
   >
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
-  >    戻り値 `[1,2,6,7]`
+  >    `[1,2,6,7]` 
