@@ -2,59 +2,59 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: 次を使用してユーザーを作成 [!DNL Workfront Proof]
-description: As a [!DNL Workfront Proof] 管理者は、新しいユーザーを作成できます。
+title: ' [!DNL Workfront Proof] を使用したユーザーの作成'
+description: ' [!DNL Workfront Proof]  管理者は、新規ユーザーを作成できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23a692ba-88d4-487f-beaf-52671259ebaf
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 次を使用してユーザーを作成 [!DNL Workfront Proof]
+# [!DNL Workfront Proof] を使用したユーザーの作成
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-As a [!DNL Workfront Proof] 管理者は、新しいユーザーを作成できます。
+[!DNL Workfront Proof] 管理者は、新規ユーザーを作成できます。
 
-管理者権限について詳しくは、 [の配達確認権限プロファイル [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+管理者権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 >[!NOTE]
 >
 >お客様独自のアカウントにサードパーティを追加することはお勧めしません。
 
-ユーザーはゼロから作成することも、ゲストをライセンスを持つユーザーに変換することもできます。
+ユーザーは最初から作成することも、ゲストをライセンスを持つユーザーに変換することもできます。
 
-## ユーザーの作成
+## ユーザーを作成
 
-1. 次のいずれかの操作を行って、ユーザーの作成を開始します。
+1. ユーザーの作成を開始するには、次のいずれかの操作を行います。
 
-   * の横にあるドロップダウンメニューの矢印をクリックします。 **[!UICONTROL 新しい配達確認]**&#x200B;を選択し、「 **[!UICONTROL 新しいユーザー]**.
+   * **[!UICONTROL 新規プルーフ]**&#x200B;の横にあるドロップダウンメニューの矢印、「**[!UICONTROL 新規ユーザー]**」の順にクリックします。
 
-   * クリック **[!UICONTROL 設定]** > **[!UICONTROL アカウント設定]**&#x200B;を選択し、「 **[!UICONTROL +新しいユーザー]**.
+   * **[!UICONTROL 設定]**／**[!UICONTROL アカウント設定]**／「**[!UICONTROL +新規ユーザー]**」をクリックします。
 
-   * クリック **[!UICONTROL 連絡先]** 左側のナビゲーションメニューで、 **[!UICONTROL +新規]**&#x200B;を選択し、「 **[!UICONTROL 新しいユーザー]**.
-*[ 新しいユーザ ] ダイアログ・ボックスが表示されます。
+   * 左側のナビゲーションメニューの「**[!UICONTROL 連絡先]**」、「**[!UICONTROL +新規]**」、「**[!UICONTROL 新規ユーザー]**」の順にクリックします。
+* 新規ユーザーダイアログボックスが表示されます。
 
-1. 内 **[!UICONTROL 新しいユーザー]** 表示されるボックスに、ユーザーの情報を入力し、設定オプションを設定します。詳しくは、 [次を使用してユーザー情報を設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
+1. 表示される&#x200B;**[!UICONTROL 新規ユーザー]**&#x200B;ボックスに、ユーザーの情報を入力し、設定オプションを設定します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md) を使用したユーザー情報の設定を参照してください。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-## ゲストのユーザーへの変換
+## ゲストをユーザーに変換
 
-ゲストとは、ライセンスを持っていないユーザーです [!DNL Workfront Proof] アカウント Guest がライセンスを持つユーザーアカウントにアップグレードされた場合は、Guest アカウントをライセンスを持つユーザーに手動で変換する必要があります。
+ゲストとは、[!DNL Workfront Proof] アカウントのライセンスを持っていないユーザーです。ゲストがライセンスを持つユーザーアカウントにアップグレードされた場合は、ゲストアカウントをライセンスを持つユーザーに手動で変換する必要があります。
 
-ゲストとユーザーについて詳しくは、 [でのユーザー、メンバー、ゲストについて [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md).
+ゲストとユーザーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) でのユーザー、メンバーおよびゲストについてを参照してください。
 
-1. クリック **[!UICONTROL 連絡先]** をクリックします。
-1. 次をクリック： **[!UICONTROL 詳細]** ユーザーに変換するゲストの右側のアイコンをクリックし、 **[!UICONTROL ユーザーに変換]**.
+1. 左側のナビゲーションメニューで「**[!UICONTROL 連絡先]**」をクリックします。
+1. ユーザーに変換するゲストの右側の&#x200B;**[!UICONTROL その他]**&#x200B;アイコン、「**[!UICONTROL ユーザーに変換]**」の順にクリックします。
    ![Screenshot_2018-03-30_14-08-35.png](assets/screenshot-2018-03-30-14-08-35-350x143.png)
 
-1. 内 **[!UICONTROL 新しいユーザー]** 表示されるダイアログボックスで、ユーザーの設定オプションを設定します。詳しくは、 [次を使用してユーザー情報を設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
+1. 表示される&#x200B;**[!UICONTROL 新規ユーザー]**&#x200B;ダイアログボックスで、ユーザーの設定オプションを設定します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md) を使用したユーザー情報の設定を参照してください。
 
-1. クリック **[!UICONTROL ユーザーに変換]**.
+1. 「**[!UICONTROL ユーザーに変換]**」をクリックします。
