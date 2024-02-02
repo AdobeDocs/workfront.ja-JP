@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: Outlook メールから既存のオブジェクトを更新する
-description: Outlook 電子メールからの情報に関する既存のプロジェクト、タスク、またはイシューを更新できます。
+title: Outlook メールからの既存オブジェクトの更新
+description: Outlook メールからの情報で、既存のプロジェクト、タスクまたはイシューを更新できます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# からの既存のオブジェクトの更新 [!DNL Outlook] 電子メール
+# [!DNL Outlook] メールからの既存オブジェクトの更新
 
-既存のプロジェクト、タスクまたはイシューを更新するには、 [!DNL Outlook] 電子メール。
+[!DNL Outlook] メールからの情報で、既存のプロジェクト、タスクまたはイシューを更新できます。
 
 ## アクセス要件
 
@@ -26,7 +26,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -36,47 +36,47 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-お使いの [!DNL Workfront] 管理者は有効にする必要があります [!DNL Outlook for Office] と [!DNL Workfront] この統合を使用する前に、
+この統合を使用するには、まず [!DNL Workfront] 管理者が [!DNL Workfront] で [!DNL Outlook for Office] を有効にする必要があります。
 
-## からの既存のオブジェクトの更新 [!DNL Outlook] 電子メール
+## [!DNL Outlook] メールからの既存オブジェクトの更新
 
-1. In [!DNL Outlook]、 [!DNL Adobe Workfront update].
-1. 次をクリック： **[!DNL Workfront]** アイコン（電子メールメッセージの右上隅）を使用して、Workfrontアドインを表示します。\
-   電子メールの右上にある下向き矢印をクリックして、 [!DNL Workfront] アイコン
+1. [!DNL Outlook] で、[!DNL Adobe Workfront update]に組み込む情報を含んだメールを選択します。
+1. メールメッセージの右上隅にある **[!DNL Workfront]** アイコンをクリックして、Workfront アドインを表示します。\
+   [!DNL Workfront] アイコンにアクセスするには、メールの右上にある下向き矢印をクリックする必要がある場合があります。
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコン ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) 使用可能な [!DNL Workfront] オプション。\
+1. **[!UICONTROL メニュー]**&#x200B;アイコン ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) をクリックして、使用可能な [!DNL Workfront] オプションのリストを表示します。
 
 
-1. クリック **[!UICONTROL 更新] Workfront**.\
-   電子メールをタスクとして保存する前に、次の情報を更新できます。
+1. Workfront で「**[!UICONTROL 更新]」をクリックします**。\
+   タスクとして保存する前に、メールからの次の情報を更新できます。
 
-   * **[!UICONTROL タイプ]**:更新するオブジェクトのタイプを選択します。 次を選択できます。 **[!UICONTROL プロジェクト]**, **[!UICONTROL タスク]**&#x200B;または **[!UICONTROL 問題]**. 選択したオブジェクトによって、 **[!UICONTROL 名前]** フィールドを参照してください。 オブジェクトのタイプが不明な場合は、 **[!UICONTROL すべて]** プロジェクト、タスク、問題を同時に検索する
+   * **[!UICONTROL タイプ]**：更新するオブジェクトのタイプを選択します。**[!UICONTROL プロジェクト]**、**[!UICONTROL タスク]**&#x200B;または&#x200B;**[!UICONTROL イシュー]**&#x200B;を選択できます。選択したオブジェクトによって、以下の「**[!UICONTROL 名前]**」フィールドに表示される結果が決まります。オブジェクトのタイプが不明な場合は、「**[!UICONTROL すべて]**」を選択して、プロジェクト、タスクおよびイシューを同時に検索します。
 
-   * **[!UICONTROL 名前]**:更新するプロジェクト、タスク、またはタスクの名前を入力します。 名前がドロップダウンリストに表示されたら、その名前をクリックします。
-   * **[!UICONTROL 更新]**:デフォルトでは、更新は E メール本文と同じです。 必要に応じて更新を変更できます。\
+   * **[!UICONTROL 名前]**：更新するプロジェクト、タスクまたはイシューの名前を入力していきます。名前がドロップダウンリストに表示されたら、クリックします。
+   * **[!UICONTROL 更新]**：デフォルトでは、更新はメールの本文と同じです。必要に応じて更新を変更できます。
 
-      この [!UICONTROL 更新] は、Workfrontで更新ステータスとして表示されます。
+     この[!UICONTROL 更新]は、Workfront で更新ステータスとして表示されます。
 
-   * **[!UICONTROL 添付ファイル]**:電子メールの添付ファイルは、 [!UICONTROL ドキュメント] タスクの領域。 更新を送信する前に、添付ファイルを削除することができます。
+   * **[!UICONTROL 添付ファイル]**：メールの添付ファイルは、タスクの[!UICONTROL ドキュメント]エリアに保存されます。更新を送信する前に、添付ファイルを削除することができます。
 
-1. （オプション）「 **[!UICONTROL その他を含む]**&#x200B;で、更新に含めるユーザーの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。\
-   この手順を繰り返して追加のユーザーを含め、 **[!UICONTROL 完了]**.\
-   デフォルトでは、返信先のユーザーは、そのユーザーを含めているかどうかに関係なく通知を受け取ります。\
+1. （オプション）「**[!UICONTROL この更新に他者を含める]**」をクリックして、更新に含めるユーザーの名前を入力していき、ドロップダウンリストに名前が表示されたらクリックします。\
+   この手順を繰り返してさらにユーザーを追加し、「**[!UICONTROL 完了]**」をクリックします。\
+   デフォルトでは、返信先のユーザーには、そのユーザーが含まれているかどうかに関係なく、通知が届きます。\
 
-1. （オプション） **[!UICONTROL ロック]** アイコンを使用して、この更新を社内のユーザーに制限します。 更新がロックされている場合、会社外のユーザーは更新を表示できません。
+1. （オプション）**[!UICONTROL ロック]**&#x200B;アイコンをクリックして、この更新を社内のユーザーのみに制限します。更新がロックされている場合、社外のユーザーは更新を表示できません。
 
-   * **[!UICONTROL ロック解除]:** 更新が存在するプロジェクト、タスク、または問題に対するアクセス権を持つユーザーは、すべて更新を表示できます。\
+   * **[!UICONTROL ロック解除]：**&#x200B;更新のあるプロジェクト、タスクまたはイシューに対するアクセス権を持つユーザーは誰でも更新を表示できます。
 
-      デフォルトでは、更新はロック解除されています。\
+     デフォルトでは、更新はロック解除されています。\
       ![o365_addin_unlock.png](assets/o365-addin-unlock.png)
 
-   * **[!UICONTROL ロック済み]:** 更新を表示できるのは、社内のユーザーのみです。\
+   * **[!UICONTROL ロック済み]：**&#x200B;更新を表示できるのは、社内のユーザーのみです。
 
-      ![o365_addin_lock.png](assets/o365-addin-lock.png)
+     ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
-1. クリック **[!UICONTROL 更新]**.
-1. （オプション）「 **[!UICONTROL Workfrontで表示]** 更新された項目を [!DNL Workfront] 内の統合 [!UICONTROL Outlook].
+1. 「**[!UICONTROL 更新]**」をクリックします。
+1. （オプション）「**[!UICONTROL Workfront で表示]**」をクリックして、[!UICONTROL Outlook] 内の [!DNL Workfront] 統合で更新された項目を表示します。
