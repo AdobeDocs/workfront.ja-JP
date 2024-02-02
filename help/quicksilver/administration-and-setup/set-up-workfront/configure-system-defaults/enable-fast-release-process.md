@@ -7,9 +7,10 @@ description: 新しい Workfront 機能を毎月受け取るか、四半期ご�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
-source-wordcount: '373'
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
