@@ -3,41 +3,41 @@ content-type: overview
 product-area: documents
 navigation-topic: manage-documents
 title: ドキュメントの詳細の概要
-description: ドキュメントの詳細ページでは、Adobe Workfrontオブジェクトに添付されたドキュメントのプロパティを表示、伝達、管理することができます。
+description: ドキュメントの詳細ページでは、Adobe Workfront オブジェクトに添付されたドキュメントのプロパティを表示、通信、管理できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # ドキュメントの詳細の概要
 
-ドキュメントの詳細ページでは、Adobe Workfrontオブジェクトに添付されたドキュメントのプロパティを表示、伝達、管理することができます。
+ドキュメントの詳細ページでは、Adobe Workfront オブジェクトに添付されたドキュメントのプロパティを表示、通信、管理できます。
 
 ## ドキュメントの詳細ページを開きます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **ドキュメント**.
+1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**ドキュメント**」をクリックします。
 
-1. ドキュメントにカーソルを合わせ、 **ドキュメントの詳細**.
+1. ドキュメントにポインタを合わせ、「**ドキュメントの詳細**」をクリックします。
 
    ![](assets/document-details-350x179.png)
 
-## ドキュメントと配達確認に対する基本的な操作の実行
+## ドキュメントとプルーフに対して基本的なアクションを実行
 
-ドキュメントの詳細ページから、ドキュメントと配達確認の両方に対して、次の操作を実行できます。
+ドキュメントの詳細ページから、ドキュメントとプルーフの両方に対して次のアクションを実行できます。
 
-* 簡易または高度な配達確認の作成
+* シンプルまたは高度なプルーフを作成
 * 新しいバージョンを作成
-* 承認を決定する
-* ドキュメントのプレビュー
+* 承認決定する
+* ドキュメントをプレビュー
 * ドキュメントの説明を編集
-* ドキュメントのチェックインとチェックアウト
+* ドキュメントをチェックイン／チェックアウト
 
-さらに、「その他」アイコンを使用して、 ![](assets/more-icon.png) 次の操作を実行するには、ドキュメント名の横に次の操作を行います。
+さらに、ドキュメント名の横にあるその他アイコン ![](assets/more-icon.png) を使用して、次のアクションを実行できます。
 
 * 共有
 * 移動
@@ -45,14 +45,14 @@ ht-degree: 2%
 * ダウンロード
 * 送信
 
-## 配達確認固有のアクションの実行
+## プルーフ固有のアクションを実行
 
-配達確認ワークフローでドキュメントの詳細ページを表示する場合は、次の操作を実行できます。
+プルーフワークフローを使用している場合は、ドキュメントの詳細ページから次のアクションを実行できます。
 
-* 送信済み、開封済み、コメント、決定 (SOCD) の詳細を表示
-* 配達確認を開く
+* 送信済み、開封済み、コメント、決定（SOCD）の詳細を表示
+* プルーフを開く
 * 印刷の概要を開く
-* 配達確認のロックまたはロック解除
-* 校正カスタムフィールドの編集
+* プルーフをロック／ロック解除
+* プルーフカスタムフィールドを編集
 
-   Workfront Proof で校正カスタムフィールドを設定する必要があります。 詳しくは、 [Workfront Proof でのカスタムフィールドの作成と管理](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+  Workfront Proof でプルーフカスタムフィールドを設定する必要があります。詳しくは、[Workfront Proof でのカスタムフィールドの作成と管理](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)を参照してください。
