@@ -3,107 +3,107 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Adobe Workfront Fusion の Iterator モジュール
-description: Iterator モジュールは、配列を一連のバンドルに変換する特殊なタイプのモジュールです。 各配列項目は、別々のバンドルとして出力されます。
+title: Adobe Workfront Fusion のイテレータモジュール
+description: イテレータモジュールは、配列を一連のバンドルに変換する特別なタイプのモジュールです。各配列項目は、別々のバンドルとして出力されます。
 author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL 反復子] モジュール [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] の[!UICONTROL イテレータ]モジュール
 
-An [!UICONTROL 反復子] モジュールは、配列を一連のバンドルに変換する特殊なタイプのモジュールです。 各配列項目は、別々のバンドルとして出力されます。
+[!UICONTROL イテレータ]は、配列を一連のバンドルに変換する特別なタイプのモジュールです。各配列項目は、別々のバンドルとして出力されます。
 
-詳しくは、 [モジュールのタイプ](../../workfront-fusion/modules/module-types.md) および [Adobe Workfront Fusion で配列をマッピングする](../../workfront-fusion/mapping/map-an-array.md).
+詳しくは、[モジュールのタイプ](../../workfront-fusion/modules/module-types.md)および [Adobe Workfront Fusion で配列をマッピング](../../workfront-fusion/mapping/map-an-array.md)を参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>この記事で説明する機能を使用するには、Adobe Workfront Fusion とAdobe Workfrontを購入する必要があります。</td> 
+   <td>この記事で説明する機能を使用するには、Adobe Workfront Fusion と Adobe Workfront を購入する必要があります。</td> 
   </tr> 
  </tbody> 
 </table>
 
-保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## [!UICONTROL 反復子] モジュール構成
+## [!UICONTROL イテレータ]モジュールの設定
 
-次の項目を設定しました。 [!UICONTROL 反復子] モジュールは、他のモジュールの設定と同じです。 この [!UICONTROL 配列] フィールドには、変換または分割する別々のバンドルの配列が含まれます。
+[!UICONTROL イテレータ]モジュールは、他のモジュールを設定するのと同じように設定します。「[!UICONTROL 配列]」フィールドには、変換されるか個別のバンドルに分割される配列が含まれます。
 
 ![](assets/set-up-iterator-350x190.jpg)
 
-詳しくは、 [Adobe Workfront Fusion でのモジュールの設定](../../workfront-fusion/modules/configure-a-modules-settings.md).
+詳しくは、[Adobe Workfront Fusion でモジュールを設定](../../workfront-fusion/modules/configure-a-modules-settings.md)を参照してください。
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >
->* 以下のシナリオでは、添付ファイルを含む E メールを取得し、添付ファイルを選択した 1 つのファイルとして保存する方法を示します [!DNL Dropbox] フォルダー。
+>* 以下のシナリオは、添付ファイル付きのメールを取得し、その添付ファイルを選択した [!DNL Dropbox] フォルダーに 1 つのファイルとして保存する方法を示しています。
 >
->   E メールには、添付ファイルの配列を含めることができます。 この [!UICONTROL 反復子] 最初のモジュールの後に挿入されたモジュールを使用すると、各添付ファイルを個別に処理できます。 この [!UICONTROL 反復子] モジュールは、添付ファイルの配列を 1 つのバンドルに分割します。 各バンドルは、1 つの添付ファイルを持ち、選択した 1 つのバンドルに 1 つずつ保存されます [!DNL Dropbox] フォルダー。 この [!UICONTROL 反復子] モジュールの設定は、上記のとおりです。の [!UICONTROL 配列] フィールドには `Attachments` 配列。
+>   メールには、添付ファイルの配列を含めることができます。最初のモジュールの後に挿入された[!UICONTROL イテレータ]モジュールにより、各添付ファイルを個別に処理できるようになります。[!UICONTROL イテレータ]モジュールは、添付ファイルの配列を 1 つのバンドルに分割します。1 つの添付ファイルを含む各バンドルは、選択した [!DNL Dropbox] フォルダーに一度に 1 つずつ保存されます。[!UICONTROL イテレータ]モジュールの設定は、上記のとおりです。「[!UICONTROL 配列]」フィールドには、`Attachments` 配列が含まれている必要があります。
 >
 >   ![](assets/attachments-array-350x154.jpg)
 >
->* 多くの方がご都合の良いように [!DNL Workfront Fusion] アプリに特化した [!UICONTROL 反復子] モジュールを簡単に設定できます。 例えば、 [!UICONTROL 電子メール] アプリに特別な [!UICONTROL 反復子] モジュール [!UICONTROL 電子メール] > [!UICONTROL 添付ファイルを繰り返し] それは一般と同じ結果を生む [!UICONTROL 反復子] モジュール。
+>* 便宜上、多くの [!DNL Workfront Fusion] アプリは、設定が簡素化された特別な[!UICONTROL イテレータ]モジュールを提供しています。例えば、[!UICONTROL メールアプリ]には、一般的な[!UICONTROL イテレータ]モジュールと同じ結果を生成する特別な[!UICONTROL イテレータ]モジュール[!UICONTROL メール]／[!UICONTROL 添付ファイルを反復]が含まれています。
 >
 >   ![](assets/specialized-iterators-350x135.jpg)
 
 
-## トラブルシューティング：マッピングパネルで、次の下にマッピング可能な項目が表示されない [!UICONTROL 反復子] モジュール
+## トラブルシューティング：マッピングパネルでは、[!UICONTROL イテレータ]モジュールの下にマッピング可能な項目が表示されません
 
-実行時に [!UICONTROL 反復子] モジュールは、配列の項目の構造に関する情報を持っていません。 [!UICONTROL 反復子] モジュールは、次の 2 つの項目のみを表示します [!UICONTROL 反復子] モジュール：`Total number of bundles` および `Bundle order position`:
+[!UICONTROL イテレータ]モジュールに配列の項目の構造に関する情報がない場合、[!UICONTROL イテレータ]モジュールに続くモジュールのマッピングパネルには、[!UICONTROL イテレータ]モジュールの下に `Total number of bundles` と `Bundle order position` の 2 つの項目のみが表示されます。
 
 ![](assets/mapping-panel-doesnt-display-350x147.png)
 
-これは、各モジュールが出力する項目に関する情報を提供し、後続のモジュールのマッピングパネルにそれらの項目を適切に表示できるようにするためです。 ただし、場合によっては、複数のモジュールでこの情報を提供できないことがあります。例： [!UICONTROL JSON] > [!UICONTROL JSON を解析] または [!UICONTROL ウェブフック] > [!UICONTROL カスタムウェブフック] モジュールにデータ構造がありません。
+これは、各モジュールが出力する項目に関する情報を提供し、後続のモジュールのマッピングパネルにそれらの項目を適切に表示できるようにするためです。ただし、いくつかのモジュールでは、この情報を提供できない場合があります。例えば、データ構造が欠落している [!UICONTROL JSON]／[!UICONTROL JSON を解析]または[!UICONTROL  Web フック]／[!UICONTROL カスタム Web フック]モジュールです。
 
 解決策は、シナリオを手動で実行し、出力する項目についてモジュールに学習させ、次のモジュールに情報を提供できるようにすることです。
 
-例えば、 [!UICONTROL JSON] > [!UICONTROL JSON を解析] モジュールに以下のようなデータ構造が含まれていません。
+例えば、以下のようなデータ構造のない [!UICONTROL JSON]／[!UICONTROL JSON を解析]モジュールがある場合：
 
 ![](assets/json-parse-json-350x285.png)
 
-次に、 [!UICONTROL 反復子] モジュールを使用すると、モジュールの出力を、セットアップパネルの「配列」フィールドにマッピングできなくなります。 [!UICONTROL 反復子] モジュール：
+そして、[!UICONTROL イテレータ]モジュールをそれに接続すると、モジュールの出力を[!UICONTROL イテレータ]モジュールの設定パネルの「配列」フィールドにマッピングすることはできません。
 
 ![](assets/connect-iterator-module-350x146.png)
 
-これを解決するには、シナリオエディターでシナリオを手動で開始します。 モジュールのリンクを解除するには、 [!UICONTROL JSON] > [!UICONTROL JSON を解析] モジュールを使用して、フローがこれ以上続くのを防ぎます。 または、 [!UICONTROL JSON] > [!UICONTROL JSON を解析] モジュールと選択 **[!UICONTROL このモジュールのみを実行]** コンテキストメニューから [!UICONTROL JSON] > [!UICONTROL JSON を解析] モジュール。
+これを解決するには、シナリオエディターでシナリオを手動で開始します。[!UICONTROL JSON]／[!UICONTROL JSON を解析]モジュールの後でモジュールのリンクを解除すると、フローがそれ以上続行しないようにすることができます。または、[!UICONTROL JSON]／[!UICONTROL JSON を解析]モジュールを右クリックし、コンテキストメニューから「**[!UICONTROL このモジュールのみ実行]**」を選択して、[!UICONTROL JSON]／[!UICONTROL JSON を解析]モジュールのみを実行します。
 
-次の場合に [!UICONTROL JSON] > [!UICONTROL JSON を解析] を実行すると、出力する項目について学習し、この情報を Iterator モジュールを含むすべての後続モジュールに提供します。 次に、Iterator の設定のマッピングパネルに、次の項目が表示されます。
+[!UICONTROL JSON]／[!UICONTROL JSON を解析]が実行されると、出力される項目について学習し、この情報をイテレータモジュールを含む後続のすべてのモジュールに提供します。イテレータの設定のマッピングパネルには、次の項目が表示されます。
 
 ![](assets/mapping-panel-displays-items-350x131.png)
 
-さらに、 [!UICONTROL 反復子] モジュールは、配列の項目に含まれる項目を表示します。
+さらに、[!UICONTROL イテレータ]モジュールの後に接続されているモジュールのマッピングパネルには、配列の項目に含まれる項目が表示されます。
 
 ![](assets/items-contained-in-array-350x156.png)
 
