@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Adobe Photoshopからドキュメントをアップロード
-description: プロジェクトをドキュメントとしてアップロードして、すばやいレビューや承認をおこなったり、単にAdobe Workfrontに保存したりできます。
+title: Adobe Photoshop からのドキュメントのアップロード
+description: プロジェクトをドキュメントとしてアップロードして、レビューや承認をすばやくおこなったり、Adobe Workfront に保存したりできます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
 source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# ドキュメントのアップロード元 [!DNL Photoshop]
+# [!DNL Photoshop] からドキュメントをアップロード
 
-プロジェクトをドキュメントとしてアップロードして、すばやいレビューと承認をおこなうか、単ににに保存することができます。 [!DNL Adobe Workfront].
+アートボードをドキュメントとしてアップロードすると、すばやくレビューや承認を行ったり、単に [!DNL Adobe Workfront] に保存したりすることができます。
 
 ## アクセス要件
 
@@ -35,43 +35,43 @@ ht-degree: 0%
   </tr> -->
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
+   <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROL ドキュメント ] への [!UICONTROL 編集 ] アクセス</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL Documents]への[!UICONTROL Edit]アクセス</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>[!UICONTROL 表示 ] ドキュメントをアップロードするオブジェクトに対する [!UICONTROL 表示 ] アクセス権以上。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ドキュメントをアップロードするオブジェクトに対する [!UICONTROL View] アクセス権以上。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-* 次をインストールする必要があります： [!DNL Adobe Workfront for Photoshop] プラグインを使用してください [!DNL Adobe Photoshop] プロジェクト [!DNL Workfront].
+*  [!DNL Adobe Photoshop] プロジェクトを [!DNL Workfront] にアップロードする前に、[!DNL Adobe Workfront for Photoshop] プラグインをインストールする必要があります。
 
-   手順については、 [Adobe Workfront for Photoshopのインストール](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  手順については、[Adobe Workfront for Photoshop のインストール](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)を参照してください。
 
-## にドキュメントをアップロード [!DNL Adobe Photoshop]
+## [!DNL Adobe Photoshop] にドキュメントをアップロード
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、次に&#x200B;**[!UICONTROL 作業リスト]**&#x200B;を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. ドキュメントをアップロードする作業項目に移動します。
-1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
+1. ドキュメントをアップロードする作業アイテムに移動します。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
-1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にある。
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
+1. プラグインの下部にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
+1. ドロップダウンメニューから&#x200B;**[!UICONTROL アセットタイプ]**&#x200B;を選択します。
 
    >[!NOTE]
    >
-   >承認者を追加すると、画像はにアップロードされます。 [!DNL Workfront] 簡単な配達確認として
+   >承認者を追加すると、画像は単純なプルーフとして [!DNL Workfront] にアップロードされます。
 
-1. （オプション） **[!UICONTROL 更新]** 領域
-1. クリック **[!UICONTROL アップロード]**.\
-   ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
+1. 「**[!UICONTROL アップロード]**」をクリックします。\
+   ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
