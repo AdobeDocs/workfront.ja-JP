@@ -2,22 +2,22 @@
 product-area: projects
 navigation-topic: task-information
 title: タスクのトラッキングモードの設定
-description: タスクの追跡モードは、Adobe Workfrontでのタスクの進捗状況ステータスの更新方法を決定します。
+description: Adobe Workfront でタスクの進捗状態がどのように更新されるかは、タスクのトラッキングモードで決まります。
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # タスクのトラッキングモードの設定
 
-タスクの追跡モードは、Adobe Workfrontでのタスクの進捗状況ステータスの更新方法を決定します。
+Adobe Workfront でタスクの進捗状態がどのように更新されるかは、タスクのトラッキングモードで決まります。
 
-タスクのトラッキングモードについて詳しくは、 [タスクトラッキングモードの概要](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+タスクのトラッキングモードについては、[タスクのトラッキングモードの概要](../../../manage-work/tasks/task-information/task-tracking-mode.md)を参照してください。
 
 ## アクセス要件
 
@@ -59,47 +59,47 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfrontプラン</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront プラン</a>*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>*</td> 
-   <td> <p>仕事以上</p> </td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>*</td> 
+   <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクへのアクセスを編集 </p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a></p> </td> 
+   <td> <p>タスクへのアクセスを編集 </p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>タスクの管理権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## タスクのトラッキングモードの設定
 
-トラッキングモードを設定するには：
+トラッキングモードを設定するには、次の手順に従います。
 
 1. トラッキングモードを設定するタスクに移動します。
-1. 次をクリック： **詳細** アイコン ![](assets/qs-more-icon-on-an-object.png)タスク名の横にあるをクリックし、 **編集**.
+1. タスク名の横にある&#x200B;**その他**&#x200B;アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックしたあと、「**編集**」をクリックします。
 
-   「タスクを編集」(Edit Task) ダイアログボックスが開きます。
+   タスクの編集ダイアログボックスが開きます。
 
-1. 内 **設定** セクションで、 **トラッキングモード** ドロップダウンメニューからタスクのトラッキングモードを選択します。
+1. 「**設定**」セクションで、**トラッキングモード**&#x200B;ドロップダウンメニューを使用して、タスクのトラッキングモードを選択します。
 
    ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. 次のオプションから選択します。
 
-   * ユーザーは更新する必要があります（これはデフォルトのオプションです）
-   * 予定通り
+   * ユーザーが更新する必要あり（これがデフォルトのオプションです）
+   * 予定通りを想定
    * 遅延警告を無視
-   * オートコンプリート
+   * 自動完了
    * 先行タスク
 
-   トラッキングモードのオプションについて詳しくは、 [タスクトラッキングモードの概要](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+   トラッキングモードのオプションについて詳しくは、[タスクのトラッキングモードの概要](../../../manage-work/tasks/task-information/task-tracking-mode.md)を参照してください。
 
 1. 「**保存**」をクリックします。
