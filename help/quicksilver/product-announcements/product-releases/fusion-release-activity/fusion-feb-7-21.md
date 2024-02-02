@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion リリース活動：&nbsp;2022 年 2 月 7 日の週
-description: Workfront Fusion リリース活動：&nbsp;2022 年 2 月 7 日の週
+title: Workfront Fusion リリースアクティビティ： 2022年2月7日の週
+description: Workfront Fusion リリースアクティビティ： 2022年2月7日の週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -8,28 +8,28 @@ recommendations: noDisplay, noCatalog
 exl-id: 4cc64bf6-98a4-4a92-b8d5-0c1e5e293171
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2022 年 2 月 7 日の週
+# Workfront Fusion リリースアクティビティ：2022年2月7日の週
 
-このページでは、2022 年 2 月 8 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2022年2月7日の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## Analypan コネクタとモジュールを利用できるようになりました。
+## Anaplan コネクタとモジュールを利用できるようになりました。
 
-これで、Adobe Workfront Fusion を使用して Anaplan アカウントに接続できます。 Anaplan モジュールを使用すると、次のことが可能になります。
+Adobe Workfront Fusion を使用して Anaplan アカウントに接続できます。Anaplan モジュールを使用すると、次のことが可能になります。
 
-* Analyplan レコードの作成、読み取り、更新、削除、検索
-* Anaplan へのレコードのバッチインポート
+* Anaplan レコードの作成、読み取り、更新、削除、検索
+* Anaplan へのレコードのバッチ読み込み
 
-詳しくは、 [Analyplan モジュール](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
+詳しくは、[Anaplan モジュール](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -44,10 +44,10 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 </div>
 -->
 
-## シナリオを作成する際に、シナリオエディタに直接移動します。
+## シナリオを作成するには、シナリオエディターに直接移動します。
 
-シナリオの作成処理をよりスムーズにするために、アプリ選択ページを削除しました。 これで、シナリオエディターに直接移動し、モジュールを追加する際に表示されるリストから、接続先のアプリを選択できます。
+シナリオの作成をよりスムーズに処理できるように、アプリ選択ページを削除しました。シナリオエディターに直接移動し、モジュールを追加する際に表示されるリストから、接続先のアプリを選択できます。
 
-以前は、アプリ選択ページからアプリを選択するだけでなく、リストからもアプリを選択できました。
+以前は、リストアプリを選択するだけでなく、アプリ選択ページからもアプリを選択できました。
 
-シナリオのアプリ選択について詳しくは、 [Adobe Workfront Fusion でシナリオを作成する](../../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオのアプリ選択について詳しくは、[Adobe Workfront Fusion でのシナリオの作成](../../../workfront-fusion/scenarios/create-a-scenario.md)を参照してください。
