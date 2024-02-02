@@ -2,44 +2,44 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Adobe Workfrontでのリソース計画
-description: この節の記事には、Adobe Workfrontのリソース領域の「プランナー」セクションと「リソースプール」セクションの機能に関する情報が含まれています。
+title: Adobe Workfront でのリソース計画
+description: この節の記事には、Adobe Workfront のリソース領域のプランナーセクションとリソースプールセクションの機能に関する情報が含まれています。
 author: Alina
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfrontでのリソース計画
+# Adobe Workfront でのリソース計画
 
-この節の記事には、Adobe Workfrontのリソース領域の「プランナー」セクションと「リソースプール」セクションの機能に関する情報が含まれています。
+この節の記事には、Adobe Workfront のリソース領域のプランナーセクションとリソースプールセクションの機能に関する情報が含まれています。
 
 この節では、次の記事を扱います。
 
 * [リソース計画の概要](../../resource-mgmt/resource-planning/get-started-resource-planning.md)
-* [Adobe Workfrontの予算リソースに必要なアクセス](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
-* [リソース プール](../../resource-mgmt/resource-planning/resource-pools/resource-pools.md)
+* [Adobe Workfront でのリソース予算計上に必要なアクセス](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+* [リソースプール](../../resource-mgmt/resource-planning/resource-pools/resource-pools.md)
 * [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
-* [リソース・プランナの検索](../../resource-mgmt/resource-planning/locate-resource-planner.md)
+* [リソースプランナーの場所](../../resource-mgmt/resource-planning/locate-resource-planner.md)
 * [リソースプランナーのナビゲーションの概要](../../resource-mgmt/resource-planning/resource-planner-navigation.md)
-* [Adobe Workfront Resource Planner を使用したリソースの可用性と割り当てのレビュー](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
-* [リソースプランナーのプロジェクトビューとロールビューの時間、工数、コスト情報の概要](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
-* [「プロジェクト」ビューと「ロール」ビューを使用する、リソースプランナーの予算リソース](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
-* [リソース・プランナで予算作成日を調整します](../../resource-mgmt/resource-planning/adjust-budgeting-dates.md)
-* [ユーザー・ビューを使用する場合は、リソース・プランナで「使用可能」、「計画済」、「実績時間」または「FTE」を表示します](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
-* [リソース・プランナのユーザーとロールに対する時間と工数の計算の概要](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)
-* [リソースプランナーでコストを計算する](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)
-* [リソースプランナーのプロジェクトに優先順位を付ける](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)
-* [リンクを使用して「リソースプランナー」ユーザービューを共有します](../../resource-mgmt/resource-planning/share-resource-planner-with-link.md)
-* [リソースプランナーの情報のフィルタリング](../../resource-mgmt/resource-planning/filter-resource-planner.md)
-* [リソースプランナーからの情報のエクスポート](../../resource-mgmt/resource-planning/export-resource-planner.md)
-* [生産資源プランナの予算時間に関するレポート](../../resource-mgmt/resource-planning/report-on-budgeted-hours.md)
-* [リソース・プランナの表示制限](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+* [Adobe Workfront リソースプランナーを使用したリソースの空き時間と割り当ての確認](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
+* [リソースプランナーでのプロジェクトビューと役割ビューでの時間数、FTE、コスト情報の概要](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+* [プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+* [リソースプランナーでの予算作成日の調整](../../resource-mgmt/resource-planning/adjust-budgeting-dates.md)
+* [ユーザービューを使用する場合は、リソースプランナーで使用可能、予定、実際の時間数、または FTE を表示する](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+* [リソースプランナーでのユーザーと役割に対する時間と FTE の計算の概要](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md)
+* [リソースプランナーでのコストの計算](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md)
+* [リソースプランナーでのプロジェクトの優先順位付け](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)
+* [リンクを使用したリソースプランナーユーザービューの共有](../../resource-mgmt/resource-planning/share-resource-planner-with-link.md)
+* [リソースプランナーでの情報のフィルタリング](../../resource-mgmt/resource-planning/filter-resource-planner.md)
+* [リソースプランナーからの情報の書き出し](../../resource-mgmt/resource-planning/export-resource-planner.md)
+* [リソースプランナーの予算時間に関するレポート](../../resource-mgmt/resource-planning/report-on-budgeted-hours.md)
+* [リソースプランナーの表示制限](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/track-user-utilization.md" class="MCXref xref" xrefformat="{para}">Track User Utilization information</a> </li>
