@@ -3,21 +3,21 @@ title: メタデータマッピングの設定
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: メタデータは、ドキュメントに関連付けられた説明情報です。 次の設定が可能です。 [!DNL Adobe Workfront] に送信するドキュメントを含むメタデータを含める [!DNL Workfront] アプリケーション。
+description: メタデータは、ドキュメントに関連付けられた記述的情報です。 [!DNL Workfront]  アプリケーションに送信するドキュメントにメタデータが入るように  [!DNL Adobe Workfront]  を設定することができます。
 author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
 source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # メタデータマッピングの設定
 
-メタデータは、ドキュメントに関連付けられた説明情報です。 次の設定が可能です。 [!DNL Adobe Workfront] に送信するドキュメントを含むメタデータを含める [!DNL Workfront] アプリケーション。
+メタデータは、ドキュメントに関連付けられた記述的情報です。[!DNL Workfront] アプリケーションに送信するドキュメントにメタデータが入るように [!DNL Adobe Workfront] を設定することができます。
 
 ## アクセス要件
 
@@ -28,67 +28,67 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。 詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> <p><b>注意</b>:まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## について [!DNL Workfront] メタデータ
+## [!DNL Workfront] メタデータについて
 
-内のドキュメントのメタデータ [!DNL Workfront] 関連するプロジェクト名、タスクの説明、計画完了日などの情報を含めることができます。 As a [!DNL Workfront] 管理者、 [!DNL Workfront] 送信元のドキュメントにメタデータを含める [!DNL Workfront] 次の [!DNL Workfront] アプリケーション：
+[!DNL Workfront] 内のドキュメントのメタデータは、関連するプロジェクト名、タスクの説明、予定完了日などの情報を入れることができます。[!DNL Workfront] 管理者は、[!DNL Workfront] から次の [!DNL Workfront] アプリケーションに送信されるドキュメントにメタデータが入るように、[!DNL Workfront] を設定することができます。
 
 * [!DNL Workfront DAM]
 
-メタデータをドキュメントと共に送信する前に、まず含めるメタデータを指定またはマッピングする必要があります。 で使用する任意のフィールドをマッピングできます。 [!DNL Workfront]. メタデータマッピングを設定すると、 [!DNL Workfront] アプリケーションは、マッピングされたメタデータを含みます。
+メタデータをドキュメントと共に送信する前に、まず入れたいメタデータを指定またはマッピングする必要があります。[!DNL Workfront] で使用するどのフィールドでもマッピングできます。メタデータマッピングを設定すると、[!DNL Workfront] アプリケーションにアップロードされたすべてのドキュメントには、マッピングされたメタデータが入ります。
 
-ユーザーがドキュメントを [!DNL Workfront] から [!DNL Workfront] アプリケーション、マッピングされたメタデータはドキュメントに沿って転送されます。 ドキュメントのバージョンが [!DNL Workfront] アプリケーションが次にリンクされている： [!DNL Workfront]、でのドキュメントのメタデータに対する変更 [!DNL Workfront] は、 [!DNL Workfront] アプリケーション。 マッピングされたフィールドが [!DNL Workfront] を変更した場合は、更新されたメタデータを含む新しいバージョンのドキュメントをに送信する必要があります。 [!DNL Workfront] アプリケーション。
+ユーザーが [!DNL Workfront] から [!DNL Workfront] アプリケーションにドキュメントを送信すると、マッピングされたメタデータは、ドキュメントと共に転送されます。[!DNL Workfront] アプリケーションのドキュメントのバージョンが [!DNL Workfront] にリンクされている場合、[!DNL Workfront] のドキュメントのメタデータに対して行われた変更は、[!DNL Workfront] アプリケーションのドキュメントのメタデータには反映されません。[!DNL Workfront] にマッピングされたフィールドが変更された場合、更新されたメタデータが入った新しいバージョンのドキュメントを [!DNL Workfront] アプリケーションに送信する必要があります。
 
 >[!NOTE]
 >
->メタデータは、次の 1 つの方向にのみマッピングできます。から [!DNL Workfront] から [!DNL Workfront DAM]. リンク先のドキュメントのメタデータ [!DNL Workfront] から [!DNL Workfront DAM] はWorkfrontに転送できません。
+>メタデータのマッピングは、[!DNL Workfront] から [!DNL Workfront DAM]. への 1 方向にのみ実行できます。[!DNL Workfront DAM] から [!DNL Workfront] にリンクされたドキュメントのメタデータは、Workfront に転送できません。
 
-同じ [!DNL Workfront] の各メタデータフィールド [!DNL Workfront DAM]ですが、複数のアプリケーションのどちらのアプリケーションでもメタデータフィールドを使用することはできません [!DNL Workfront] メタデータフィールド
+様々な [!DNL Workfront DAM] のメタデータフィールドに同じ [!DNL Workfront] フィールドをマッピングできますが、複数の [!DNL Workfront] メタデータフィールドに対しては、そのアプリケーションのどれでも、メタデータフィールドを使用することはできません。
 
-複数の [!DNL Workfront] 1 つのメタデータフィールド ( [!DNL Workfront] アプリケーションで、最初に [!DNL Workfront] をクリックして、オブジェクトの個々のカスタムフィールドをすべて表示します。 次に、計算指標 [!DNL Workfront] フィールドを [!DNL Workfront] アプリケーション。 計算カスタムフィールドの詳細については、 [計算データをカスタムフォームに追加する](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+複数の [!DNL Workfront] フィールドを構成して [!DNL Workfront] アプリケーションの 1 つのメタデータフィールドに書き出すには、最初に [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、計算 [!DNL Workfront] フィールドを [!DNL Workfront] アプリケーションのメタフィールドにマッピングします。計算カスタムフィールドについて詳しくは、[カスタムフォームに計算データを追加](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
 
-メタデータマッピングプロセスのフィールドをマッピングする前に、 [!DNL Workfront]. 詳しくは、 [ドキュメント統合の設定](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+メタデータマッピングプロセスのフィールドをマッピングする前に、[!DNL Workfront] でアプリケーションを有効にする必要があります。詳しくは、[ドキュメント統合を設定](../../administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
 
-## 設定 [!DNL Workfront] メタデータを送信する
+## メタデータを送信するように [!DNL Workfront] を設定
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. [!DNL Adobe Workfront] の右上にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン（![](assets/main-menu-icon.png)）をクリックし、**[!UICONTROL 設定]**&#x200B;アイコン（![](assets/gear-icon-settings.png)）をクリックします。
 
-1. 左側のパネルで、 **[!UICONTROL ドキュメント]** > **[!UICONTROL メタデータマッピング]**.
+1. 左側のパネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL メタデータ マッピング]**&#x200B;をクリックします。
 
    ![](assets/metadata-mapping.png)
 
-1. 内 **[!UICONTROL マッピングのソースフィールドを選択]** ボックスに、マッピング先のWorkfrontフィールドの名前を入力します [!DNL Workfront DAM]をクリックし、リストに表示されたら選択します。
-1. 内 **[!UICONTROL マッピングのターゲットフィールドを選択]** ボックスで、選択した [!DNL Workfront] フィールドに入力します。
+1. 「**[!UICONTROL マッピングのソース フィールドを選択]**」ボックスで、[!DNL Workfront DAM] にマッピングする Workfront フィールドの名前を一部入力し、名前がリストに表示されたらそれを選択します。
+1. 「**[!UICONTROL マッピングのターゲット フィールドを選択]**」ボックスで、選択した [!DNL Workfront] フィールドの情報を入力するフィールドを選択します。
 
-1. クリック **[!UICONTROL マッピングを追加]**.
+1. 「**[!UICONTROL マッピングを追加]**」をクリックします。
 
-   マッピングされたフィールドは、ページの下部に表示されるマッピングされたフィールドに表示されます。
+   マッピングされたフィールドは、ページの下部にリストアップされるマッピングされたフィールドに表示されます。
 
-1. 手順 5 と 6 を繰り返し、必要なすべてのを追加します。 [!DNL Workfront] フィールドとそれに対応する [!DNL Workfront DAM] フィールド。
+1. 必要なすべての [!DNL Workfront] フィールドとそれに対応する [!DNL Workfront DAM] フィールドを追加するまで、手順 5 と 6 を繰り返します。
 
 ## マッピングされたフィールドを削除
 
-1. にログインします。 [!DNL Workfront] 管理者として。
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. [!DNL Workfront] に管理者としてログインします。
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
 
-1. 左側のパネルで、 **[!UICONTROL ドキュメント]** > **[!UICONTROL メタデータマッピング]**.
+1. 左側のパネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL メタデータ マッピング]**&#x200B;をクリックします。
 
 1. マッピングされたフィールドのリストで、メタデータマッピングから削除するフィールドを選択します。
-1. クリック **[!UICONTROL 削除]**.
+1. 「**[!UICONTROL 削除]**」をクリックします。
 
-   指定されたフィールドはマッピングされなくなりました。 ユーザーがからドキュメントを送信したとき [!DNL Workfront] から [!DNL Workfront DAM]の場合、削除されたフィールド内に含まれるメタデータは、ドキュメントと共に転送されません。
+   指定されたフィールドはもうマッピングされていません。ユーザーが [!DNL Workfront] から [!DNL Workfront DAM] にドキュメントを送信しても、削除されたフィールド内にあったメタデータは、ドキュメントと共に転送されなくなりました。
 
-   マッピングされたフィールドを削除する前に送信されたドキュメントには、削除されたフィールドのメタデータを含め、送信された元のメタデータが保持されます。
+   マッピングされたフィールドを削除する前に送信されたドキュメントには、削除されたフィールドのメタデータを含む、送信された元のメタデータが保持されます。
