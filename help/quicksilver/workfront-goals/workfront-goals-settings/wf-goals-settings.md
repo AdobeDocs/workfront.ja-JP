@@ -2,20 +2,20 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Adobe Workfront目標の設定
-description: 目標に関する通知と、Adobe Workfront目標で目標を共有する方法については、次の記事を参照してください。
+title: Adobe Workfront Goals の設定
+description: 目標関連の通知と、Adobe Workfront Goals で目標を共有する方法については、以下の記事を参照してください。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
-workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '107'
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標の設定
+# Adobe Workfront Goals の設定
 
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:
 
@@ -41,17 +41,17 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 >[!NOTE]
 >
->この記事で説明する機能を使用するには、以下が必要です。
+>この記事で説明している機能を使用するには、組織に以下が必要です。
 >
->* A Pro 以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
->* Workfrontライセンスに加えて、Adobe Workfront Goals ライセンスが必要です。
+>* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
+>* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 >
->  Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。
+>  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 >
->Workfront Goals へのアクセスについて詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 この節では、次の記事を扱います。
 
-* [Adobe Workfront目標の通知を有効にする](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* [Workfront目標での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
-* [Adobe Workfront目標の用語のカスタマイズ](../workfront-goals-settings/customize-wf-goals-terminology.md)
+* [Adobe Workfront Goals の通知の有効化](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* [Workfront Goals での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+* [Adobe Workfront Goals の用語のカスタマイズ](../workfront-goals-settings/customize-wf-goals-terminology.md)
