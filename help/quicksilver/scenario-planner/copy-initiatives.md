@@ -1,21 +1,21 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: シナリオプランナーのイニシアチブのコピー
-description: 既存のイニシアチブをコピーして、イニシアチブを作成できます。 自分が作成したプランや、自分と共有するプランに対するイニシアチブをコピーできます。
+title: シナリオプランナーのイニシアチブをコピーする
+description: 既存のイニシアチブをコピーして、イニシアチブを作成できます。自分が作成したプランや、誰かが自分と共有するプランのイニシアチブをコピーできます。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
 source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# イニシアチブを [!DNL Scenario Planner]
+# [!DNL Scenario Planner] 内のイニシアチブをコピーする
 
-既存のイニシアチブをコピーして、イニシアチブを作成できます。 自分が作成したプランや、自分と共有するプランに対するイニシアチブをコピーできます。
+既存のイニシアチブをコピーして、イニシアチブを作成できます。自分が作成したプランや、誰かが自分と共有するプランのイニシアチブをコピーできます。
 
 ## アクセス要件
 
@@ -24,7 +24,7 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 計画*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> プラン*</b> </p> </td> 
    <td>[!UICONTROL Business] 以降</td> 
   </tr> 
   <tr> 
@@ -33,20 +33,20 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td><b>製品</b> </td> 
-   <td> <p>の追加ライセンスを購入する必要があります。 [!DNL Adobe Workfront Scenario Planner] をクリックして、この記事で説明する機能にアクセスします。</p> <p>詳しくは、 [!DNL Workfront Scenario Planner]を参照してください。 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">を使用するために必要なアクセス [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の取得については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>[!UICONTROL 編集 ] 以降の [!DNL Scenario Planner]</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 を参照してください。 [!DNL Workfront] 管理者は、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>次に対する[!UICONTROL Edit]以上のアクセス権： [!DNL Scenario Planner]</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>オブジェクト権限</strong> </p> </td> 
-   <td> <p>プランに対する [!UICONTROL 管理 ] 権限</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">内のプランへのアクセスをリクエスト [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
+   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>計画への追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> の計画へのアクセスをリクエストを参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## イニシアチブのコピー
+## イニシアチブをコピーする
 
 イニシアチブをコピーする際は、次の点に注意してください。
 
@@ -55,41 +55,41 @@ ht-degree: 1%
 
    * [!UICONTROL 期間]
    * [!UICONTROL 担当業務]
-   * [!UICONTROL 人] および [!UICONTROL 固定コスト]
+   * [!UICONTROL ユーザー]および[!UICONTROL 固定コスト]
    * [!UICONTROL 予定便益]
 
 * イニシアチブをコピーすると、元のイニシアチブに情報が存在する場合に、プランの次の情報を変更できます。
 
-   * 必要なジョブロール数
+   * 必要な担当業務数
    * [!UICONTROL コスト]
-   * [!UICONTROL プランの使用率]
-   * ジョブの役割の使用率
+   * [!UICONTROL プランの稼動率]
+   * 担当業務の稼動率
    * [!UICONTROL 純価]
 
 * プロジェクトを読み込んで作成されたイニシアチブ、または少なくとも 1 回プロジェクトに公開されたイニシアチブをコピーすると、次のような影響があります。
 
    * イニシアチブに関連付けられたプロジェクトは複製されません。
    * コピーしたイニシアチブはプロジェクトに接続されません。
-   * これによって [!DNL Scenario Planner] 1 回以上公開されたプロジェクトの場合は、プロジェクトに関する節。
+   * 1 回以上公開されているプロジェクトの場合、プロジェクトの [!DNL Scenario Planner] セクションは変更されません。
 
-   プロジェクトへのイニシアチブの公開については、 [プロジェクトを更新または作成するには、 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
-   プロジェクトのインポートによるイニシアチブの作成については、 [内のプランにプロジェクトをインポート [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) .
+  プロジェクトの読み込みによるイニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) のプランにプロジェクトを読み込むを参照してください。
 
-## イニシアチブのコピー
+## イニシアチブをコピーする
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png)を選択し、「 [!UICONTROL シナリオ].
+1. **[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「[!UICONTROL シナリオ]」の順にクリックします。
 
-   プランのリストが表示されます。
+   計画のリストが表示されます。
 
-1. プランの名前をクリックして開き、コピーするイニシアチブを探します。
-1. コピーするイニシアチブまたはイニシアチブの左側にあるボックスを選択し、[ ] をクリックします。 **[!UICONTROL コピー]** を選択します。
+1. プランの名前をクリックして開き、コピーするイニシアチブを確認します。
+1. コピーするイニシアチブの左側にあるボックスを選択し、プランの下部に表示されるメニューから、「**[!UICONTROL コピー]**」をクリックします。
 
    ![](assets/bottom-manage-initiative-menu-350x45.png)
 
-   [!DNL Workfront] イニシアチブが直ちにコピーされ、最後に選択したイニシアチブの下に配置されます。
+   [!DNL Workfront] はイニシアチブをすぐにコピーし、最後に選択したイニシアチブの下に配置します。
 
-   コピーしたイニシアチブの名前は次のとおりです *[!UICONTROL のコピー]`<Name of original initiative>`*.
+   コピーされたイニシアチブの名前は、* のコピー`<Name of original initiative>`*&#x200B;です。
 
    >[!NOTE]
    >
@@ -103,6 +103,6 @@ ht-degree: 1%
 
 1. （オプション）新しく作成したイニシアチブの優先度を更新します。
 
-   イニシアチブの優先順位については、 [のイニシアチブ優先度を更新 [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   イニシアチブの優先順位について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md) のイニシアチブ優先度を更新を参照してください。
 
-1. クリック **[!UICONTROL プランを保存]** 変更を保存します。
+1. 「**[!UICONTROL プランを保存]**」をクリックして、変更を保存します。
