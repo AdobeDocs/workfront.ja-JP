@@ -2,27 +2,27 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: デフォルトの問題タイプをカスタマイズ
-description: デフォルトの問題タイプごとにラベルをカスタマイズして、組織で使用される用語に合わせることができます。 問題タイプは、問題ステータスのカスタマイズやリクエストキューの作成に役立ちます。
+title: デフォルトのイシュータイプをカスタマイズ
+description: デフォルトのイシュータイプごとにラベルをカスタマイズして、組織で使用される用語に合わせることができます。イシュータイプは、イシューステータスのカスタマイズやリクエストキューの作成に役立ちます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# デフォルトの問題タイプをカスタマイズ
+# デフォルトのイシュータイプをカスタマイズ
 
-問題のタイプは、次の状況で役立ちます。
+イシュータイプは、次の状況で役立ちます。
 
-* 問題ステータスをカスタマイズする場合 (「 [ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-* リクエストキューを作成する際に使用します。詳しくは、 [リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* イシューステータスをカスタマイズする場合（[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照）
+* リクエストキューを作成する場合（[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照）
 
-デフォルトの問題タイプごとにラベルをカスタマイズして、組織で使用される用語に合わせることができます。
+デフォルトのイシュータイプごとにラベルをカスタマイズして、組織で使用される用語に合わせることができます。
 
 ## アクセス要件
 
@@ -33,52 +33,52 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> <p><b>注意</b>:まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## デフォルトの問題タイプ
+## デフォルトのイシュータイプ
 
-次の場合： [!DNL Adobe Workfront] [!UICONTROL administrator] access には、設定および名前を変更できるデフォルトの問題タイプが 4 つあります。
+[!DNL Adobe Workfront] [!UICONTROL 管理者]アクセス権を持つ場合、4 つのデフォルトのイシュータイプを設定して名前変更できます。
 
-* **[!UICONTROL バグレポート]** システムで報告されたバグを追跡するために使用されます。
-* **[!UICONTROL 変更管理]** 更新または修正が必要な問題を追跡するために使用します。
-* **[!UICONTROL 問題]** のオブジェクト [!DNL Workfront] これは、予期しない作業、発生した問題、またはタスクを続行するために解決する必要のある何かを伝えます。
-* **[!UICONTROL リクエスト]** Workfrontでユーザーがリクエストをおこなうリクエストキューに適用される問題タイプです。
+* **[!UICONTROL バグレポート]**：システムで報告されたバグをトラックするために使用されます。
+* **[!UICONTROL 変更依頼]**：更新または修正が必要な問題をトラックするために使用します。
+* **[!UICONTROL イシュー]**：計画外の作業、発生した問題、またはタスクを続行するために解決する必要があるものを伝達する [!DNL Workfront] 内のオブジェクト。
+* **[!UICONTROL リクエスト]**： Workfront でユーザーがリクエストを行うリクエストキューに適用されるイシュータイプ。
 
 ![](assets/default-issue-types.png)
 
-## 問題タイプのカスタマイズ
+## イシュータイプのカスタマイズ
 
-問題タイプのカスタマイズについて、次の点を考慮してください。
+イシュータイプのカスタマイズについて、次の点を考慮してください。
 
-* 問題タイプのラベルは変更できますが、関数は変更できません。
-* 追加のイシュータイプは作成できません。
-* イシュータイプの名前に対してフィルター値を変更することはできません。 したがって、問題レポートでフィルターを作成した場合、フィルター（キー）の値は問題タイプのカスタム名を反映しません。
-* 各問題タイプには、3 つのデフォルトのステータスが関連付けられています。 [!UICONTROL 新規], [!UICONTROL 処理中]、および [!UICONTROL クローズ]. これらのステータスは、イシュータイプから削除することはできませんが、名前を変更することはできます。
-* 各問題タイプのドロップダウンメニューに表示されるオプションの順序を変更できます。
+* イシュータイプのラベルは変更できますが、関数は変更できません。
+* これ以上のイシュータイプは作成できません。
+* イシュータイプの名前に対してフィルター値を変更することはできません。したがって、イシューレポートでフィルターを作成した場合、フィルター（キー）の値はイシュータイプのカスタム名を反映しません。
+* 各イシュータイプには、3 つのデフォルトのステータス（[!UICONTROL 新規]、[!UICONTROL 処理中]、[!UICONTROL 閉じる]）が関連付けられています。これらのステータスは、イシュータイプから削除することはできませんが、名前を変更することはできます。
+* 各イシュータイプのドロップダウンメニューに表示されるオプションの順序を変更できます。
 
-問題タイプをカスタマイズするには：
+イシュータイプをカスタマイズするには：
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
 
-1. クリック **[!UICONTROL プロジェクト環境設定]** > **[!UICONTROL ステータス]**.
+1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL ステータス]**&#x200B;をクリックします。
 
-1. 次をクリック： **[!UICONTROL 問題]** タブをクリックします。
+1. 「**[!UICONTROL イシュー]**」タブを選択します。
 1. 次のいずれかの操作を行います。
 
-   * カスタマイズする問題のタイプの上にマウスポインターを置いて、 [!UICONTROL 編集] アイコン ![](assets/edit-icon.png) が右端に表示されたら、問題のタイプの新しい名前を入力します。
+   * カスタマイズするイシュータイプにポインタを合わせて、[!UICONTROL 編集]アイコン ![](assets/edit-icon.png) が右端に表示されたら、イシュータイプの新しい名前を入力します。
 
-      ![](assets/customize-issue-type.png)
+     ![](assets/customize-issue-type.png)
 
-   * 次をクリック： [!UICONTROL 問題タイプ] 関連するステータスをリストするには、ハンドルにカーソルを合わせたときに表示されるハンドルをドラッグし、ユーザーの問題に表示する順序でドロップします **[!UICONTROL ステータス]** ドロップダウンメニュー。
+   * [!UICONTROL イシューの種類]をクリックして関連するステータスをリストし、ポインタを合わせると表示されるハンドルをドラッグし、ユーザーのイシュー&#x200B;**[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューに表示する順序でドロップします。
