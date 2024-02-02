@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''表示：タスクの'
-description: タスクリストにカスタムビューを追加し、リストをエクスポートする前にこのビューが選択されていることを確認することで、エクスポートしたタスクリストで親と子の関係の区別を維持できます。
+title: 「ビュー：タスクをインデントしてタスク内の親子関係を表示」
+description: タスクリストにカスタムビューを追加し、リストを書き出す前にこのビューが選択されていることを確認することで、書き出したタスクリストで親子関係の区別を維持できます。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# 表示：タスクをインデントして、タスク内に親子関係を表示する
+# ビュー：タスクをンデントしてタスク内の親子関係を表示
 
-タスクリストにカスタムビューを追加し、リストをエクスポートする前にこのビューが選択されていることを確認することで、エクスポートしたタスクリストで親と子の関係の区別を維持できます。
+タスクリストにカスタムビューを追加し、リストを書き出す前にこのビューが選択されていることを確認することで、書き出したタスクリストで親子関係の区別を維持できます。
 
 ![](assets/parent-child-indented-custom-view-350x94.png)
 
@@ -29,39 +29,39 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>ビューの変更をリクエスト </p>
-   <p>レポートの変更計画</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>表示の変更をリクエスト </p>
+   <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートを変更します</p> <p>フィルター、ビュー、グループへのアクセスを編集してビューを変更します</p> <p><b>メモ</b>
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## タスクをインデントして、タスク内に親子関係を表示します
+## タスクをインデントしてタスク内の親子関係を表示
 
 1. 書き出すタスクリストが含まれるプロジェクトに移動します。
-1. 次をクリック： **表示** ドロップダウンメニューで、 **新しいビュー**.
+1. **ビュー**&#x200B;ドロップダウンメニューをクリックし、**新規ビュー**&#x200B;を選択します。
 
 1. 画面の左上隅でフィルターに名前を付けます。
-1. をクリックします。 **タスク名** 列ヘッダー。
+1. 「**タスク名**」列ヘッダーをクリックします。
 
-1. 選択 **テキストモードに切り替え** をクリックします。
-1. テキストボックス内の任意の場所をクリックして、テキストを編集し、既存のテキストをすべて削除します。
+1. 右上隅の「**テキストモードに切り替える**」を選択します。
+1. テキストボックス内の任意の場所をクリックしてテキストを編集し、既存のテキストをすべて削除します。
 1. 次のテキストを貼り付けます。
 
    ```
@@ -69,4 +69,4 @@ ht-degree: 1%
    ```
 
 1. 「**保存**」をクリックします。
-1. クリック **ビューを保存**.
+1. 「**ビューを保存**」をクリックします。
