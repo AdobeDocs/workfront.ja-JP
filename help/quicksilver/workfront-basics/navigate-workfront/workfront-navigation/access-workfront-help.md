@@ -1,19 +1,19 @@
 ---
 navigation-topic: workfront-navigation
-title: Adobe Workfrontヘルプにアクセス
-description: Workfrontは、Workfrontが提供する様々な製品内の機能に関する質問に対する回答を見つけるのに役立つ、様々なコンテンツを提供しています。
+title: Adobe Workfront ヘルプへのアクセス
+description: Workfront では、提供されている様々な製品の機能に関する質問への回答を見つけるのに役立つ様々なコンテンツが用意されています。
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# アクセス [!DNL Adobe Workfront] ヘルプ
+# [!DNL Adobe Workfront] ヘルプへのアクセス
 
-[!DNL Workfront] は、 [!DNL Workfront].
+[!DNL Workfront] では、[!DNL Workfront] で提供されている様々な製品の機能に関する質問への回答を見つけるのに役立つ様々なコンテンツが用意されています。
 
 ## アクセス要件
 
@@ -26,31 +26,31 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> <p>[!UICONTROL Request] 以降</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプランやライセンスタイプについては、[!DNL Workfront] 管理者にお問い合わせください。
 
-## 次にアクセス： [!DNL Adobe Workfront] Experience League
+## Experience League に関する [!DNL Adobe Workfront] ドキュメントへのアクセス
 
-1. 次に移動： [[!DNL Adobe Workfront] のドキュメントページ [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
+1. [[!DNL Adobe Workfront]  [!DNL Experience League] に関するドキュメントのページ](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=ja)に移動します。
 
-ヘルプドキュメントの検索に加えて、次の情報も参照できます [!DNL Workfront] Experience Leagueのリソース：
+ヘルプドキュメントの検索に加えて、Experience League から以下の [!DNL Workfront] リソースにアクセスすることもできます。
 
-* WorkfrontTutorials:詳しくは、 [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
+* Workfront チュートリアル：詳しくは、[[!DNL Workfront] チュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)を参照してください。
 
-* [!UICONTROL イノベーションラボ]:詳しくは、 [この [!UICONTROL イノベーションラボ]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* [!UICONTROL [!DNL Workfront] コミュニティ]:詳しくは、 [[!UICONTROL [!DNL Adobe Workfront] コミュニティ ]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+* [!UICONTROL イノベーションラボ]：詳しくは、[[!UICONTROL イノベーションラボ]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=ja)を参照してください。
+* [!UICONTROL [!DNL Workfront] コミュニティ]：詳しくは、[[!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)を参照してください。
 
-## 内部からヘルプにアクセス [!DNL Workfront]
+## [!DNL Workfront] 内部からのヘルプへのアクセス
 
 {{step1-click-main-menu}}
 
-1. クリック **[!UICONTROL ヘルプ]** ![ヘルプアイコン](assets/help-icon.png).
+1. 「**[!UICONTROL ヘルプ]**」（![ヘルプアイコン](assets/help-icon.png)）をクリックします。
