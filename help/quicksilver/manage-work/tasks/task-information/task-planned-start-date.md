@@ -2,94 +2,94 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: タスクの計画開始日の概要
-description: タスクの計画開始日とは、タスクの作成者がタスクの作業を開始するように決定した日付です。 計画タスクの日付は、プロジェクトの日付とタイムラインに影響を与えます。 プロジェクトの計画開始日の詳細は、「プロジェクトの概要計画開始日」を参照してください。
+title: タスクの予定開始日の概要
+description: タスクの予定開始日とは、タスク作成者が、その日にタスクの作業を開始する必要があると決定する日付です。タスクの予定日は、プロジェクトの日付とタイムラインに影響します。プロジェクトの予定開始日について詳しくは、プロジェクトの予定開始日の概要を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 2ac6327f-4a13-4fb8-ad8e-03d032221483
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# タスクの計画開始日の概要
+# タスクの予定開始日の概要
 
-タスクの計画開始日とは、タスクの作成者がタスクの作業を開始するように決定した日付です。 計画タスクの日付は、プロジェクトの日付とタイムラインに影響を与えます。 プロジェクトの計画開始日については、 [プロジェクトの概要計画開始日](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
+タスクの予定開始日とは、タスク作成者が、その日にタスクの作業を開始する必要があると決定する日付です。タスクの予定日は、プロジェクトの日付とタイムラインに影響します。プロジェクトの予定開始日について詳しくは、[プロジェクトの予定開始日の概要](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)を参照してください。
 
-## タスクの計画開始日
+## タスクの予定開始日
 
-タスクの「予定開始日」を指定することも、特定の条件に応じてAdobe Workfrontまで計算することもできます。 
+タスクの予定開始日を指定することも、特定の基準に基づいて Adobe Workfront に任せて計算することもできます。 
 
-* [タスクの計画開始日を手動で設定する](#manually-set-the-planned-start-date-of-a-task)
-* [タスクの計画開始日の計算方法](#how-the-planned-start-date-is-calculated-for-a-task)
+* [タスクの予定開始日の手動設定](#manually-set-the-planned-start-date-of-a-task)
+* [タスクの予定開始日の計算方法](#how-the-planned-start-date-is-calculated-for-a-task)
 
-### タスクの計画開始日を手動で設定する {#manually-set-the-planned-start-date-of-a-task}
+### タスクの予定開始日の手動設定 {#manually-set-the-planned-start-date-of-a-task}
 
-タスクの計画開始日の設定は、タスクに割り当てたタスク制約の種類によって異なります。 
+タスクの予定開始日の設定は、タスクに割り当てたタスクの制約のタイプによって異なります。 
 
-タスクの作成時に、手動で計画開始日を設定できます。詳しくは、この記事を参照してください [プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+[プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)の記事で説明されるように、タスクを作成する際に予定開始日を手動で設定できます。
 
-次のタスク制約のいずれかを選択すると、計画開始日を手動で指定できます。 
+次のタスクの制約のいずれかを選択すると、予定開始日を手動で指定できます。
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>タスク制約タイプ</strong> </p> </th> 
-   <th> <p><strong>計画完了日の手動変更の影響</strong> </p> </th> 
+   <th> <p><strong>タスクの制約タイプ</strong> </p> </th> 
+   <th> <p><strong>予定完了日の手動変更の影響</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>指定日に開始</p> <p>指定日以後に開始</p> <p>指定日までに開始</p> </td> 
-   <td> <p><span class="s1">「計画完了日」は、期間を同じにするために調整されます。</span> </p> </td> 
+   <td> <p>指定日に開始</p> <p>指定日以降に開始</p> <p>指定日までに開始</p> </td> 
+   <td> <p><span class="s1">予定完了日は、期間を同じにするために調整されます。</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>固定日付</p> </td> 
-   <td> <p>「期間」は、計画完了日を同じ日付に保つために調整されます。</p> </td> 
+   <td> <p>期間は、予定完了日を同じにするために調整されます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### タスクの計画開始日の計算方法 {#how-the-planned-start-date-is-calculated-for-a-task}
+### タスクの予定開始日の計算方法 {#how-the-planned-start-date-is-calculated-for-a-task}
 
-システムによって自動的に計算される場合、次のようにタスクの計画開始日に影響を与える可能性があります。
+システムによって自動的に計算される場合、次の項目がタスクの予定開始日に影響する可能性があります。
 
-* セットアップの「タスクと問題」領域の「開始日」環境設定
+* 設定のタスクとイシューのエリアにある開始日の環境設定
 
-   Workfrontまたはグループの管理者は、新しいタスクの開始日を、プロジェクトの予定開始日と同じ日付にするか、タスクを作成した日にするかを決定できます。
+  Workfront 管理者やグループ管理者は、新規タスクをプロジェクトの予定開始日と同じ日に開始するか、タスクを作成した日に開始するかを決定できます。
 
-   タスクと問題の環境設定について詳しくは、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  タスクとイシューの環境設定について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 * タスクの制約
 
-   タスク制約の詳細については、「 [タスク制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
+  タスクの制約について詳しくは、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)の記事を参照してください
 
 * タスクの先行関係
 
-   タスクの先行タスクの詳細については、「 [タスクの先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  タスクの先行タスクについて詳しくは、[タスクの先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)の記事を参照してください。
 
-* プロジェクト開始日：プロジェクトが開始日からスケジュールされる日付です。
-* タスクのプライマリ担当者のスケジュールの時間。
+* プロジェクトが開始日からスケジュールされている場合、プロジェクト開始日。
+* タスクのプライマリ担当者の休暇スケジュール。
 
-   プライマリの担当者がタスクの期間中に予定されている時間を設定した場合、タスクの予定日は、 **タスク期間でのユーザーのオフ時間を考慮する** 設定が **ユーザーのタイムオフ** フィールドに入力します。 新しいプロジェクトは、この設定をプロジェクトの環境設定領域から継承しますが、設定はプロジェクトレベルで編集できます。
+  プライマリ担当者がタスクの期間中に休暇を取る場合、「**ユーザーの休暇**」フィールドで&#x200B;**タスク期間にユーザーの休暇を考慮**&#x200B;の設定が選択されていると、タスクの予定日がそれに応じて調整されます。この設定は、新しいプロジェクトではプロジェクトの環境設定領域から継承されますが、設定はプロジェクトレベルで編集できます。
 
-   例えば、「可能な限り早く」という制約を持つプライマリが 6 月 1 日に開始し、6 月 3 日に完了するようにスケジュールされていて、担当者が 6 月 1 日にタイムオフのマークを付けている場合、「計画開始日」は 6 月 2 日になります。
+  例えば、「できるだけ早く」という制約を持つタスクが 6月1日に開始し、6月3日に完了するようにスケジュールされ、プライマリ担当者が 6月1日に「休暇」とマークされている場合、タスクの予定開始日は 6月2日になります。
 
-   詳しくは、 **ユーザーのタイムオフ** 環境設定については、記事を参照してください。  [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) または [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).
+  **ユーザーの休暇**&#x200B;の環境設定について詳しくは、[システム全体のプロジェクトの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)または[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)の記事を参照してください。
 
-自動的に設定された場合、計画開始日は次の計算に基づいて決定されます。 
+自動的に設定された場合、予定開始日は次の計算に基づいて決定されます。
 
 ```
 Planned Start Date = Planned Completion Date - Task Duration
 ```
 
-例えば、タスクの「完了日」が 9 月 16 日で、期間が 10 日の場合、「計画開始日」は 9 月 6 日です。
+例えば、タスクの完了日が 9月16日で期間が 10 日の場合、予定開始日は 9月6日になります。
 
 >[!NOTE]
 >
-> また、計画時間と期間が自動的に調整されるように、プロジェクトの「更新タイプ」も「自動および変更時」または「自動」に設定する必要があります。\
-更新の種類の詳細については、「 [プロジェクトの更新タイプを選択](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+>予定時間数と期間を自動的に調整するには、プロジェクトの更新タイプを「自動・変更時」または「自動」に設定する必要があります。\
+更新タイプについて詳しくは、[プロジェクトの更新タイプの選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。
