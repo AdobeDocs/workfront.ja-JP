@@ -1,59 +1,59 @@
 ---
-title: 22.4 リソース管理の強化
-description: 22.4 リソース管理の強化
+title: 22.4 リソース管理の機能強化
+description: 22.4 リソース管理の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 22.4 リソース管理の強化
+# 22.4 リソース管理の機能強化
 
-このページでは、プレビュー環境の 22.4 リリースでおこなわれたリソース管理のすべての機能強化について説明します。 これらの機能強化は、2022 年 10 月 3 日の週に提供されます。
+このページでは、プレビュー環境での 22.4 リリースで行われた、リソース管理のすべての機能強化について説明します。これらの機能強化は、2022年10月3日（PT）の週に利用できるようになります。
 
-22.4 リリースで使用可能なすべての変更点の一覧については、 [22.4 リリースの概要](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+22.4 リリースで利用可能なすべての変更点の一覧については、[22.4 リリースの概要](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)を参照してください。
 
 ## プロジェクトのワークロードバランサーのすべてのユーザーを表示
 
-プロジェクトのワークロードバランサーを離れることなく、システム内のすべてのユーザーとその容量を表示できるように、「すべてのユーザーを表示」オプションを追加しました。 有効にすると、プロジェクトのワークロードバランサーに、割り当てられた作業領域にシステム内のすべてのユーザーが表示されます。 この機能強化により、「未割り当ての作業」領域に表示される作業に割り当てる必要があるユーザーを容易に特定できます。
+プロジェクトのワークロードバランサーから離れることなく、システム内のすべてのユーザーとその能力を表示できるようにするために、「すべてのユーザーを表示」オプションを追加しました。有効にすると、プロジェクトのワークロードバランサーにより、システム内のすべてのユーザーが割り当てられた作業エリアに表示されます。この機能強化により、「未割り当ての作業」領域にリストされている作業に誰を割り当てる必要があるかを簡単に識別できます。
 
-詳しくは、 [ドラッグ&amp;ドロップによりワークロードバランサーで作業を割り当てる](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+詳しくは、[ドラッグ＆ドロップすることによるワークロードバランサーでの作業の割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)を参照してください。
 
-[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
-## 作業を一括で割り当てる際に、選択したジョブロールを持つすべてのユーザーをワークロードバランサーに表示します
+## 作業を一括で割り当てるときに、選択した担当業務を割り当てられているすべてのユーザーをワークロードバランサーに表示
 
-ジョブの役割をワークロードバランサー内のユーザーに一括で置き換える際に、適切な担当者を見つけやすくするため、使用可能なユーザーのリストの入力方法を改善しました。 これで、同じユーザーリスト内の 2 つの異なる領域で、選択した役割を果たすシステム内のすべてのユーザーを表示できます。
+ワークロードバランサーでユーザーの担当業務を一括で置き換えるときに適切なユーザーを見つけやすくするために、手が空いているユーザーのリストへの入力方法が改善されました。これで、選択した役割を果たすことができるシステム内のすべてのユーザーを、同じユーザーリスト内の 2 つの異なるエリアに表示できるようになりました。
 
-* 最初の領域（「提案割当」）には、「スマート割当」論理で識別されるユーザーが表示されます。 詳しくは、 [スマート割り当ての概要](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+* 1 つ目のエリア（提案された割り当て）には、スマート割り当てロジックで特定されたユーザーが表示されます。詳しくは、[スマート割り当ての概要](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
-* 2 つ目の領域（「その他の割り当て」）には、選択した役割を果たすことができるすべてのユーザーが表示されます。
+* 2 つ目のエリア（その他の割り当て）には、選択した役割を果たすことができるすべてのユーザーが表示されます。
 
-この機能強化の前は、スマート割り当てロジックに従って割り当てに使用できるユーザーのリストのみを表示できました。
+この機能強化が実施される前は、スマート割り当てロジックに従って割り当て可能なユーザーのリストのみを表示できました。
 
-ワークロードバランサーを使用した一括割り当ての詳細は、 [ワークロードバランサーを使用して作業を一括で割り当てる](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+ワークロードバランサーを使用した作業の一括割り当ての詳細は、[ワークロードバランサーを使用した作業の一括割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
 
-[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
-## ワークライセンスユーザーと問題設定用のワークロードバランサーの強化
+## ワークライセンスユーザー向けのワークロードバランサーの機能強化とイシュー設定
 
-スケジューリングツールの廃止に備えて、ワークロードバランサーに次の機能が追加されました。
+スケジュールツールの廃止に備えて、次の機能強化がワークロードバランサーに追加されました。
 
-* ワークライセンスユーザーは、プロジェクトのワークロードバランサーを使用する際に割り当てを調整できるようになりました
+* ワークライセンスユーザーは、プロジェクトのワークロードバランサーを使用する際に、割り当てを調整できるようになりました。
 
-* 「問題からの時間を含む」設定を有効にすると、問題は未割り当ての作業領域に表示されます
+* 「イシューからの時間を含む」設定を有効にすると、イシューは未割り当ての作業エリアに表示されます
 
-これらの機能強化がおこなわれる前は、割り当てられた作業領域にのみ表示されるユーザーの割り当てと問題を調整できるのは、Plan-license ユーザーのみです。
+これらの機能強化が実施される前は、割り当てられた作業領域にのみ表示されるユーザー割り当てとイシューを調整できるのは、プランライセンスのユーザーのみでした。
 
 詳しくは、次の記事を参照してください。
 
-* [ワークロード・バランサのナビゲート](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* [ワークロードバランサーの操作](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)。
 
-* [ワークロードバランサーでのユーザー割り当ての管理](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [ワークロードバランサーでのユーザー割り当ての管理](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)。
 
