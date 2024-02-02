@@ -2,49 +2,49 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Workfront Proof での配達確認の削除
-description: 配達確認の編集権限を持つユーザーは、配達確認を削除できます。
+title: Workfront Proof でのプルーフの削除
+description: プルーフの編集権限があるユーザーはプルーフを削除できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Proof での配達確認の削除
+# Workfront Proof でのプルーフの削除
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-配達確認の編集権限を持つユーザーは、配達確認を削除できます。
+プルーフの編集権限があるユーザーはプルーフを削除できます。
 
-編集権限について詳しくは、 [の配達確認権限プロファイル [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) および [での配達確認の役割の管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+編集権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) のプルーフの役割の管理を参照してください。
 
-アカウント内の配達確認（またはファイルやフォルダーなどの他の項目）を削除する場合は、 [!DNL Workfront Proof] ごみ箱に移動します。 ごみ箱内の項目を簡単に復元できます。
+アカウント内のプルーフ（またはファイルやフォルダーなどの他のアイテム）を削除すると、[!DNL Workfront Proof] によってゴミ箱に移されます。ごみ箱内のアイテムは簡単に復元できます。
 
-ごみ箱について詳しくは、 [でごみ箱を復元して空にする [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+ごみ箱について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) のごみ箱の復元と空にするを参照してください。
 
 >[!NOTE]
 >
->ごみ箱に保存された項目は、保存の上限にカウントされます。 ストレージスペースを解放するには、ごみ箱を空にしてください。
+>ごみ箱に格納されたアイテムは、保存制限までカウントされます。ストレージスペースを解放するには、ごみ箱を空にしてください。
 
-## 配達確認の削除
+## プルーフの削除
 
-1. 任意のリスト表示で、 **[!UICONTROL 詳細]** メニューを使用して、配達確認の右側に表示されます。\
+1. 任意のリストビューで、プルーフの右側にある「**[!UICONTROL その他]**」メニューをクリックします。\
    ![](assets/more-button-small.png)
 
-1. クリック **[!UICONTROL 配達確認の詳細を表示]** をクリックします。
-1. 次をクリック： **[!UICONTROL 削除]** ボタンをクリックします。
-1. 表示されるドロップダウンメニューで、配達確認全体を削除するか、表示している特定のバージョンのみを削除するかを選択します。
+1. 表示されるドロップダウンメニューの「**[!UICONTROL プルーフの詳細を表示]**」をクリックします。
+1. ページの右上近くにある「**[!UICONTROL 削除]**」ボタンをクリックします。
+1. 表示されるドロップダウンメニューで、プルーフ全体を削除するか、表示している特定のバージョンのみを削除するかを選択します。
 
-## 配達確認を削除するその他の方法
+## プルーフを削除するその他の方法
 
-以下に示す場所で配達確認を削除することもできます。 複数のバージョンを持つ配達確認の場合、これらのメソッドによって配達確認チェーン全体が削除されることに注意してください。
+以下に示す場所でプルーフを削除することもできます。複数のバージョンがあるプルーフの場合、これらの方法でプルーフチェーン全体が削除されることに注意が必要です。
 
-* 校正ビューアで、 **[!UICONTROL 削除]** 」と入力します。
-* 任意のリスト表示で、配達確認の左側にあるチェックボックス（またはヘッダー内のチェックボックスをクリックしてリストに表示されているすべての配達確認を選択）をクリックし、 [!UICONTROL 削除] をリストの上に追加します。
-* リスト表示で、 **[!UICONTROL 詳細]** 配達確認の右側のメニューで、 **[!UICONTROL 削除]**.
+* プルーフビューアーの左側のツールメニューで、「**[!UICONTROL 削除]**」をクリックします。
+* どのリストビューでも、プルーフの左側にあるチェックボックス（またはリストされているすべてのプルーフを選択するにはヘッダーのチェックボックス）をクリックし、リストの上にある「[!UICONTROL 削除]」をクリックします。
+* リスト表示で、プルーフの右側にある&#x200B;**[!UICONTROL その他]**&#x200B;のメニュー、「**[!UICONTROL 削除]**」の順にクリックします。
