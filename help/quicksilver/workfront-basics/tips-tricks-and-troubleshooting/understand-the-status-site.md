@@ -1,69 +1,69 @@
 ---
-title: The [!DNL Adobe Workfront] ステータスサイト
-description: のヘルスを確認できます。 [!DNL Workfront] インシデント、定期メンテナンス期間、およびすべての [!DNL Workfront] クラスターにアクセスする方法 [!DNL Workfront Status] サイト。
+title: ' [!DNL Adobe Workfront]  ステータスサイト'
+description: ' [!DNL Workfront Status]  サイトにアクセスすると、インシデント、スケジュール済みメンテナンス期間、すべての  [!DNL Workfront]  クラスターの現在のステータスなど、 [!DNL Workfront]  プラットフォームのヘルスを表示できます。'
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
 source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# The [!DNL Adobe Workfront] ステータスサイト
+# [!DNL Adobe Workfront] ステータスサイト
 
 <!-- Audited: 1/2024 -->
 
 ## ステータスサイトの概要
 
-のヘルスを確認できます。 [!DNL Workfront] インシデント、定期メンテナンス期間、およびすべての [!DNL Workfront] クラスターにアクセスする方法 [!DNL Workfront Status] サイト。
+[!DNL Workfront Status] サイトにアクセスすると、インシデント、スケジュール済みメンテナンス期間、すべての [!DNL Workfront] クラスターの現在のステータスなど、[!DNL Workfront] プラットフォームのヘルスを表示できます。
 
 ステータスサイトの次の情報にアクセスできます。
 
 * リアルタイムシステムパフォーマンス統計
-* 計画されたメンテナンススケジュール
-* ～が雇用するセーフガードに関する情報 [!DNL Workfront] ユーザーデータを保護する
+* 予定されたメンテナンススケジュール
+* ユーザーデータを保護するために [!DNL Workfront] が採用している保護手段に関する情報
 * 名前付き脆弱性ステータス
 
-## 表示 [!DNL Adobe Workfront] ステータスの更新
+## [!DNL Adobe Workfront] ステータスの更新を表示する
 
-ステータスの更新は、 [!DNL Adobe] ステータスサイト。
+[!DNL Adobe] ステータスサイトでステータスの更新を確認できます。
 
-1. タイプ [status.adobe.com](https://status.adobe.com/) 」をクリックして、ステータスサイトにアクセスします。
+1. ブラウザーに「[status.adobe.com](https://status.adobe.com/ja/)」と入力して、ステータスサイトにアクセスします。
 
-1. 選択 **[!UICONTROL Experience Cloud]**.
-1. 下にスクロールして、「 」を選択します。 **[!UICONTROL Adobe Workfront]** を選択します。
+1. 「**[!UICONTROL Experience Cloud]**」を選択します。
+1. 下にスクロールして、ソリューションのリストから「**[!UICONTROL Adobe Workfront]**」を選択します。
 
-## 配信登録または配信登録の管理
+## サブスクリプションを登録または管理する
 
-ステータスサイトを購読する、または既に購読した後で購読を管理するには、次の手順を実行します。
+ステータスサイトに登録する、または既に登録した後でサブスクリプションを管理するには、次の手順を実行します。
 
-1. に移動します。 [status.adobe.com](https://status.adobe.com/).
-1. ステータスバーで、 **[!UICONTROL 購読を管理]**.
+1. [status.adobe.com](https://status.adobe.com/ja/) に移動します。
+1. ステータスバーで、「**[!UICONTROL サブスクリプションを管理]**」を選択します。
    ![](assets/manage-subs.png)
 1. 既存のアカウントがある場合は、そのアカウントにログインし、それ以外の場合は新しいアカウントを作成します。
-1. 次をクリック： **[!UICONTROL 購読を作成]** 」ボタンをクリックします。
-1. 選択 **[!UICONTROL Adobe Workfront]** の下に **[!UICONTROL Experience Cloud]** ヘッダー、次に「 **[!UICONTROL 続行]**.
-1. 地域とイベントタイプの環境設定を選択し、「 **[!UICONTROL 続行]**.
-1. クリック **[!UICONTROL 完了]** 購読を確認するには、をクリックします。
+1. 「**[!UICONTROL サブスクリプションを作成]**」ボタンをクリックします。
+1. **[!UICONTROL Experience Cloud]** ヘッダーの下にある「**[!UICONTROL Adobe Workfront]**」を選択し、「**[!UICONTROL 続行]**」をクリックします。
+1. 地域とイベントタイプの環境設定を選択し、「**[!UICONTROL 続行]**」をクリックします。
+1. 「**[!UICONTROL 完了]**」をクリックして、サブスクリプションを確定します。
 
-## 特定の脆弱性の理解
+## 名前付きの脆弱性を理解する
 
-### 「脆弱性」とは何ですか？ {#what-is-a-named-vulnerability}
+### 名前付きの脆弱性とは {#what-is-a-named-vulnerability}
 
-コンピュータのセキュリティにおいて、脆弱性とは、攻撃者がシステムの安定性、セキュリティ、または整合性を低下させる脆弱性です。
+コンピューターのセキュリティにおいて、脆弱性とは、攻撃者がシステムの安定性、セキュリティ、または整合性を低下させることを可能にする弱点のことです。
 
-脆弱性の研究者やクリエイターは、内部的にプロジェクトに名前を付け、参照しやすくします ( 例： [!DNL ShellShock], [!DNL Heartbleed], [!DNL POODLE]、および [!DNL WannaCry]/[!DNL Petya]) をクリックします。 脆弱性が広く影響を及ぼした場合、脆弱性が開示されると、これらの名前は公開されます。
+脆弱性の研究者やエクスプロイトの作成者は、参照しやすいように内部的にプロジェクトに名前を付けます（[!DNL ShellShock]、[!DNL Heartbleed]、[!DNL POODLE]、[!DNL WannaCry] や [!DNL Petya] など）。脆弱性が広く影響を及ぼした場合、脆弱性が開示されると、これらの名前は公開されます。
 
-### 特定された名前付きの脆弱性を表示する方法を教えてください。 [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
+### [!DNL Workfront?] で特定された名前付きの脆弱性を表示する方法を教えてください {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. に移動します。  [status.adobe.com](https://status.adobe.com/)を選択し、次に **[!UICONTROL セキュリティ]**.
+1. [status.adobe.com](https://status.adobe.com/ja/) に移動して、「**[!UICONTROL セキュリティ]**」をクリックします。
 
-## なぜこれが重要なのか？ {#why-is-this-important}
+## これが重要な理由 {#why-is-this-important}
 
-セキュリティ対応のネットワーク管理者は、ステータスサイトと、Workfrontによって特定される名前付きの脆弱性に精通している必要があります。
+セキュリティ対応のネットワーク管理者は、ステータスサイトと、Workfront によって特定される名前付きの脆弱性に精通している必要があります。
 
 大きな影響を及ぼす脆弱性が明らかになった場合は、ベンダーが確実に認識し、データを保護する必要があります。
 
-ステータスサイトには、いつでも到達できるこのような脆弱性の現在のログが用意されています。このログでは、待機がチケットを起動したり、この情報を入手するためにアカウントマネージャーに連絡したりするのを回避できます。
+ステータスサイトには、このような脆弱性の最新ログが提供されており、いつでもアクセスできるため、チケットを記録したり、アカウントマネージャーに連絡してこの情報を入手したりする手間を省くことができます。
