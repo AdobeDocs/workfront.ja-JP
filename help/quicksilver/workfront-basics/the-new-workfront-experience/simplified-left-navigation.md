@@ -1,29 +1,29 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: 左側のナビゲーション [!DNL Adobe Workfront]
-description: の左側のナビゲーションパネル [!DNL Workfront] を使用すると、システム内を簡単に移動できます。
+title: ' [!DNL Adobe Workfront] の左側のナビゲーション'
+description: ' [!DNL Workfront]  の左側のナビゲーションパネルを使用すると、システム内を簡単に移動できます。'
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1403'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# 左側のナビゲーション [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront] の左側のナビゲーション
 
-WF のほとんどの領域とオブジェクトは、画面の左側にある単純なナビゲーションパネルを使用します。 左側のパネルナビゲーションには次の利点があります。
+WF のほとんどのエリアとオブジェクトは、画面の左側にあるシンプルなナビゲーションパネルを使用します。左側のパネルナビゲーションには次の利点があります。
 
-* 画面領域の管理が改善されました。
-* お使いの [!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、オブジェクトの詳細を除く、左側のパネルの任意のセクションを非表示にできます。
+* 画面スペースの管理が改善されました。
+* [!DNL Workfront] 管理者は、レイアウトテンプレートを使用して、オブジェクトの詳細を除く、左側のパネルの任意のセクションを非表示にできます。
 
-   レイアウトテンプレートの使用について詳しくは、 [レイアウトテンプレートの作成と管理](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+  レイアウトテンプレートの使用について詳しくは、[レイアウトテンプレートを作成および管理](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)の記事を参照してください。
 
-* 画面を必要な順序でドラッグ&amp;ドロップすることで、追加の画面を開かずに、左側のナビゲーションでセクションの順序を簡単に変更できます。
+* 追加の画面を開かなくても、左側のナビゲーションのセクションの順序を希望の順序でドラッグアンドドロップすることで簡単に変更できます。
 
-   詳しくは、この記事の次の節を参照してください。 [左側のナビゲーションパネルを使用します。](#use-the-left-navigation-panel).
+  詳しくは、この記事の[左側のナビゲーションパネルを使用](#use-the-left-navigation-panel)の節を参照してください。
 
 * ダッシュボードを追加して、左側のパネルをカスタマイズできます。
 
@@ -38,34 +38,34 @@ WF のほとんどの領域とオブジェクトは、画面の左側にある�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> <p>[!UICONTROL Request] 以降</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+&#42;保有するプランやライセンスの種類を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 左側のナビゲーションパネルのデフォルトのセクション
 
-左側のパネルから、Adobe Workfrontの様々なオブジェクトや領域に関するオブジェクトや領域の詳細情報にアクセスできます。
+左側のパネルから、Adobe Workfront の様々なオブジェクトやエリアに関する詳細情報にアクセスできます。
 
-オブジェクトまたは移動先の領域に応じて、左側のパネルに表示されるセクションが異なります。
+オブジェクトまたは移動先のエリアに応じて、左側のパネルに表示されるセクションが異なります。
 
 左側のパネルは、次のオブジェクトで使用できます。
 
 * プロジェクト
 * タスク
-* 問題
+* イシュー
 * ポートフォリオ
 * プログラム
 * テンプレート
-* テンプレート タスク
-* 反復
+* テンプレートタスク
+* イテレーション
 * ユーザー
 * チーム
 * グループ
@@ -73,143 +73,143 @@ WF のほとんどの領域とオブジェクトは、画面の左側にある�
 
 >[!IMPORTANT]
 >
->左のパネルにデフォルトで 1 つのセクションのみが表示される場合 ( 例： **[!UICONTROL すべてのプロジェクト]** 内 **[!UICONTROL プロジェクト]** 面積 [!DNL Workfront] 管理者は、レイアウトテンプレートを作成する際に、この領域にカスタムセクションを少なくとも 1 つ追加し、左のパネルがその領域に表示される前に、そのテンプレートに割り当てる必要があります。\
->を [!DNL Workfront] 管理者は、レイアウトテンプレートの左側のパネルをカスタマイズします。詳しくは、 [レイアウトテンプレートを使用して左のパネルをカスタマイズする](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>左のパネルにデフォルトで 1 つのセクションのみが表示される場合（**[!UICONTROL プロジェクト]**&#x200B;の&#x200B;**[!UICONTROL すべてのプロジェクト]**&#x200B;など）[!DNL Workfront] 管理者は、レイアウトテンプレートを作成するときにこのエリア 1 つ以上のカスタムセクションを追加し、そのエリアに左側のパネルが表示される前に、ユーザーをそのテンプレートに割り当てる必要があります。\
+>[!DNL Workfront] 管理者がレイアウトテンプレートの左側のパネルをカスタマイズする方法について詳しくは、[レイアウトテンプレートを使用して左のパネルをカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
 
-左側のパネルは、次の領域で使用できます。
+左側のパネルは、次のエリアで使用できます。
 
-* [のデフォルトのセクション [!UICONTROL ダッシュボード] 領域](#default-sections-in-the-dashboards-area)
-* [のデフォルトのセクション [!UICONTROL リクエスト] 領域](#default-sections-in-the-requests-area)
-* [のデフォルトのセクション [!UICONTROL リソース] 領域](#default-sections-in-the-resourcing-area)
-* [のデフォルトのセクション [!UICONTROL プロジェクト] 領域](#default-sections-in-the-projects-area)
-* [のデフォルトのセクション [!UICONTROL タイムシート] 領域](#default-sections-in-the-timesheets-area)
-* [のデフォルトのセクション [!DNL Goals] 領域](#default-sections-in-the-goals-area)
+* [[!UICONTROL ダッシュボード]エリアのデフォルトのセクション](#default-sections-in-the-dashboards-area)
+* [[!UICONTROL リクエスト]エリアのデフォルトのセクション](#default-sections-in-the-requests-area)
+* [[!UICONTROL リソース]エリアのデフォルトのセクション](#default-sections-in-the-resourcing-area)
+* [[!UICONTROL プロジェクト]エリアのデフォルトのセクション](#default-sections-in-the-projects-area)
+* [[!UICONTROL タイムシート]エリアのデフォルトのセクション](#default-sections-in-the-timesheets-area)
+* [ [!DNL Goals]  エリアのデフォルトのセクション](#default-sections-in-the-goals-area)
 
-### のデフォルトのセクション [!UICONTROL ダッシュボード] 領域
+### [!UICONTROL ダッシュボード]エリアのデフォルトのセクション
 
-次のセクションは、 **[!UICONTROL ダッシュボード]** 領域：
+次のセクションは、**[!UICONTROL ダッシュボード]**&#x200B;エリアの左側のパネルに表示されます。
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL マイダッシュボード ]</strong></td>
-        <td>作成したダッシュボードが表示されます。</td>
+        <td><strong>[!UICONTROL My Dashboards]</strong></td>
+        <td>自分が作成したダッシュボードが表示されます。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 共有ダッシュボード ]</strong></td>
+        <td><strong>[!UICONTROL Shared Dashboards]</strong></td>
         <td>他のユーザーが作成し、自分と共有しているダッシュボードが表示されます。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL すべてのダッシュボード ]</strong></td>
-        <td>自分または他のユーザーが作成したダッシュボードと、少なくとも表示する権限を持つダッシュボードが表示されます。</td>
+        <td><strong>[!UICONTROL All Dashboards]</strong></td>
+        <td>自分または他のユーザーが作成したダッシュボードのうち少なくとも表示権限を持つダッシュボードが表示されます。</td>
     </tr>
 </table>
 
-ダッシュボード領域の左側のパネルの使用方法については、「 [左側のナビゲーションパネルを使用します。](#use-the-left-navigation-panel) 」を参照してください。
+ダッシュボードエリアの左側のパネルの使用方法については、[左側のナビゲーションパネルを使用](#use-the-left-navigation-panel)の節を参照してください。
 
-### のデフォルトのセクション [!UICONTROL リクエスト] 領域
+### [!UICONTROL リクエスト]エリアのデフォルトのセクション
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 送信済み ]</strong></td>
-        <td>自分または他のユーザーが送信したリクエストと、少なくとも表示する権限を持つリクエストを表示します。 リクエストリストの右上隅にあるフィルターを使用して、自分のリクエストや、他のユーザーが送信したリクエスト、および表示するアクセス権を持っているリクエストを表示します。</td>
+        <td><strong>[!UICONTROL Submitted]</strong></td>
+        <td>自分または他のユーザーが送信したダッシュボードのうち少なくとも表示権限を持つリクエストが表示されます。リクエストリストの右上隅にあるフィルターを使用して、自分のリクエストや、他のユーザーが送信したリクエスト、および表示するアクセス権を持っているリクエストを表示します。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL ドラフト ]</strong></td>
-        <td>開始したがまだ送信していないリクエストを表示します。 [!DNL Workfront] キュートピックを選択した後、[ 下書き ] フォルダに新しい要求が自動的に保存されます。</td>
+        <td><strong>[!UICONTROL Drafts]</strong></td>
+        <td>開始したがまだ送信していないリクエストを表示します。[!DNL Workfront] は、キューのトピックを選択した後、新しいリクエストをドラフトフォルダーに自動的に保存します。</td>
     </tr>
 </table>
 
-左側のパネルを使用する方法については、 [!UICONTROL リクエスト] 領域（「セクション」を参照） [左側のナビゲーションパネルを使用します。](#use-the-left-navigation-panel) 」を参照してください。
+[!UICONTROL リクエスト]エリアの左側のパネルの使用方法については、この記事の[左側のナビゲーションパネルを使用](#use-the-left-navigation-panel)の節を参照してください。
 
-### のデフォルトのセクション [!UICONTROL リソース] 領域
+### [!UICONTROL リソース]エリアのデフォルトのセクション
 
-次のセクションは、 **[!UICONTROL リソース]** 領域：
+次のセクションは、**[!UICONTROL リソース]**&#x200B;エリアの左側のパネルに表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>計画担当者</strong></td> 
-   <td>リソース・プランナを表示します。 この領域を使用して、複数のプロジェクトにわたってリソースを計画します。 リソース・プランナの使用に関する詳細は、 <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">リソース計画の概要</a>.</td> 
+   <td role="rowheader"><strong>プランナー</strong></td> 
+   <td>リソースプランナーを表示します。このエリアを使用して、複数のプロジェクトにわたってリソースを計画します。リソースプランナーの使用について詳しくは、<a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">リソース計画の概要</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL ワークロードバランサー ]</strong></td> 
-   <td>ワークロード・バランサを表示します。 この領域を使用して、リソースに実績作業時間を割り当てます。 <br>
-   リソースのスケジュール設定について詳しくは、 <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">ワークロードバランサーでの作業割り当ての概要</a>.</td> 
+   <td role="rowheader"><strong>[!UICONTROL Workload Balancer]</strong></td> 
+   <td>ワークロードバランサーを表示します。このエリアを使用して、リソースに実際の作業を割り当てます。<br>
+   リソースのスケジュール設定について詳しくは、<a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">ワークロードバランサーでの作業割り当ての概要</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>稼働率</strong></td> 
-   <td>稼働状況レポートを表示します。 使用率レポートの読み取り方法については、 <a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">リソース使用率レポートの概要</a>.</td> 
+   <td>稼働状況レポートを表示します。稼働率レポートの読み取り方法について詳しくは、<a href="../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">リソース稼働率レポートの概要</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>リソース プール</strong></td> 
-   <td>Workfrontのすべてのリソースプールを表示します。 リソースプールの詳細については、 <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> リソースプールの概要 </a>.</td>
+   <td role="rowheader"><strong>リソースプール</strong></td> 
+   <td>Workfront のすべてのリソースプールを表示します。リソースプールの詳細について詳しくは、<a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">リソースプールの概要</a>を参照してください。</td>
   </tr> 
  </tbody> 
 </table>
 
 
-左側のパネルを使用する方法については、 [!UICONTROL リソース] 領域（「セクション」を参照） [左側のナビゲーションパネルを使用します。](#use-the-left-navigation-panel) 」を参照してください。
+[!UICONTROL リソース]エリアの左側のパネルを使用する方法については、この記事の[左側のナビゲーションパネルを使用](#use-the-left-navigation-panel)の節を参照してください。
 
-### のデフォルトのセクション [!UICONTROL プロジェクト] 領域
+### [!UICONTROL プロジェクト]エリアのデフォルトのセクション
 
-次のセクションは、 **[!UICONTROL プロジェクト]** 領域：
-
-<table style="table-layout:auto">
-    <tr>
-        <td><strong>[!UICONTROL すべてのプロジェクト ]</strong></td>
-        <td>表示するアクセス権のあるすべてのプロジェクトを表示します。 [!UICONTROL フィルター ] ドロップダウンメニューを使用して、表示するプロジェクトを変更します</td>
-    </tr>
-    <tr>
-        <td><strong>[!UICONTROL カスタムセクション ]</strong></td>
-        <td>この [!DNL Workfront] 管理者が、レイアウトテンプレートの [!UICONTROL プロジェクト ] 領域の左側のパネルに追加されました。 カスタムセクションには、お使いの環境用にカスタマイズされた名前が付けられます。</td>
-    </tr>
-</table>
-
-左側のパネルを使用する方法については、 [!UICONTROL プロジェクト] 領域（「セクション」を参照） [左側のナビゲーションパネルを使用します。](#use-the-left-navigation-panel) 」を参照してください。
-
-### のデフォルトのセクション [!UICONTROL タイムシート] 領域
-
-次のセクションは、 **[!UICONTROL タイムシート]** 領域：
+次のセクションは、**[!UICONTROL プロジェクト]**&#x200B;エリアの左側のパネルに表示されます。
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL マイタイムシート ]</strong></td>
-        <td>既定でアクティブなタイムシートがすべて表示されます。 送信済みまたは終了済みのタイムシートを表示するには、[!UICONTROL フィルター ] ドロップダウンメニューから [!UICONTROL 送信済み ] または [!UICONTROL すべて ] を選択します。</td>
+        <td><strong>[!UICONTROL All Projects]</strong></td>
+        <td>表示するアクセス権のあるすべてのプロジェクトを表示します。[!UICONTROL Filter] ドロップダウンメニューを使用して、表示するプロジェクトを変更します</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL タイムシート [ 承認 ]]</strong></td>
-        <td>既定で、承認用に送信されたタイムシートを表示します。 承認者であるアクティブなタイムシートまたはすべてのタイムシートを表示するには、[ フィルタ ] ドロップダウンメニューから [!UICONTROL アクティブ ] または [ アプリ ] を選択します。</td>
-    </tr>
-    <tr>
-        <td><strong>[!UICONTROL すべてのタイムシート ]</strong></td>
-        <td>左側の [ フィルタ ] 領域で選択したフィルタに基づいて、表示するアクセス権のあるすべてのタイムシートを表示します。</td>
+        <td><strong>[!UICONTROL Custom sections]</strong></td>
+        <td>[!DNL Workfront] 管理者がレイアウトテンプレートの [!UICONTROL Projects] エリアの左側のパネルに追加したすべてのカスタムセクションを表示できます。カスタムセクションには、環境用にカスタマイズされた名前が付いています。</td>
     </tr>
 </table>
 
-左側のパネルを使用する方法については、 [!UICONTROL タイムシート] 領域（「セクション」を参照） [左側のナビゲーションパネルを使用します。](#use-the-left-navigation-panel) 」を参照してください。
+[!UICONTROL プロジェクト]エリアの左側のパネルの使用方法については、この記事の[左側のナビゲーションパネルを使用](#use-the-left-navigation-panel)の節を参照してください。
 
-### のデフォルトのセクション [!DNL Goals] 領域
+### [!UICONTROL タイムシート]エリアのデフォルトのセクション
+
+次のセクションは、**[!UICONTROL タイムシート]**&#x200B;エリアの左側のパネルに表示されます。
+
+<table style="table-layout:auto">
+    <tr>
+        <td><strong>[!UICONTROL My Timesheets]</strong></td>
+        <td>デフォルトでアクティブなタイムシートがすべて表示されます。送信済みまたは終了済みのタイムシートを表示するには、[!UICONTROL Filter] ドロップダウンメニューから [!UICONTROL Submitted] または [!UICONTROL All] を選択します。</td>
+    </tr>
+    <tr>
+        <td><strong>[!UICONTROL Timesheets I Approve]</strong></td>
+        <td>デフォルトで、承認用に送信されたタイムシートを表示します。承認者であるアクティブなタイムシートまたはすべてのタイムシートを表示するには、フィルタードロップダウンメニューから [!UICONTROL Active] またはアプリを選択します。</td>
+    </tr>
+    <tr>
+        <td><strong>[!UICONTROL All Timesheets]</strong></td>
+        <td>左側のフィルターエリアで選択したフィルターに基づいて、表示するアクセス権のあるすべてのタイムシートを表示します。</td>
+    </tr>
+</table>
+
+[!UICONTROL タイムシート]エリアの左側のパネルを使用する方法については、この記事の[左側のナビゲーションパネルを使用](#use-the-left-navigation-panel)の節を参照してください。
+
+### [!DNL Goals] エリアのデフォルトのセクション
 
 >[!NOTE]
 >
->目標にアクセスするには、追加のライセンスが必要です。 詳しくは、 [!DNL Workfront Goals]を参照してください。 [[!DNL Adobe Workfront Goals] 概要](../../workfront-goals/goal-management/wf-goals-overview.md).
+>目標にアクセスするには、追加のライセンスが必要です。[!DNL Workfront Goals] について詳しくは、[[!DNL Adobe Workfront Goals] 概要](../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。
 
-次のセクションは、 **[!UICONTROL 目標]** 領域：
+次のセクションは、**[!UICONTROL 目標]**&#x200B;エリアの左側のパネルに表示されます。
 
 <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL 目標リスト ]</strong></td>
-        <td>表示するアクセス権のあるすべての目標が表示されます。 詳しくは、 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">次の [!UICONTROL 目標リスト ] で目標を管理 [!DNL Adobe Workfront Goals]</a>.</td>
+        <td><strong>[!UICONTROL Goal List]</strong></td>
+        <td>表示するアクセス権のあるすべての目標を表示します。詳しくは、<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md">[!DNL Adobe Workfront Goals]</a> の [!UICONTROL Goal List] で目標を管理を参照してください。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL グラフ ]</strong></td>
-        <td>目標の効果をグラフで表示します。 詳しくは、 <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">グラフを確認しての目標の進行傾向を理解する [!DNL Adobe Workfront] 目標</a>.</td>
+        <td><strong>[!UICONTROL Graphs]</strong></td>
+        <td>目標の効果をグラフで表示します。詳しくは、<a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md">グラフを確認して [!DNL Adobe Workfront] Goals の目標進捗の傾向を理解する</a>を参照してください。</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL 目標の整列 ]</strong></td>
-        <td>階層内で目標の配置を表示します。 詳しくは、 <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">の目標の整合の概要 [!DNL Adobe Workfront Goals]</a>.</td>
+        <td><strong>[!UICONTROL Goal Alignment]</strong></td>
+        <td>目標の相互の整合性を階層的に表示します。詳しくは、<a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">[!DNL Adobe Workfront Goals]</a> Goals の目標の整合性の概要を参照してください。</td>
     </tr>
     </table>
 
@@ -230,56 +230,56 @@ WF のほとんどの領域とオブジェクトは、画面の左側にある�
     </tr>
 </table>
 -->
-左側のパネルを使用する方法については、 [!UICONTROL 目標] 領域（「セクション」を参照） [左側のナビゲーションパネルを使用します。](#use-the-left-navigation-panel) 」を参照してください。
+[!UICONTROL 目標]エリアの左側のパネルの使用方法については、この記事の[左側のナビゲーションパネルを使用](#use-the-left-navigation-panel)の節を参照してください。
 
 ## 左側のナビゲーションパネルを使用します。
 
-左側のパネルでの情報の検索と編集は、これらのオブジェクトに似ています。 左側のパネルで使用できるオプションは、アクセスするオブジェクトによって異なります。
+左側のパネルでの情報の検索と編集は、これらのオブジェクトに似ています。左側のパネルで使用できるオプションは、アクセスするオブジェクトによって異なります。
 
-特定の領域で利用できるセクションについては、 [[!UICONTROL デフォルトのセクション] （左側のナビゲーションパネル）](#default-sections-in-the-left-navigation-panel).
+特定のエリアで利用できるセクションについては、[[!UICONTROL 左側のナビゲーションパネルのデフォルトのセクション]](#default-sections-in-the-left-navigation-panel)を参照してください。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon-16x12.png)をクリックしてから、オブジェクトの名前をクリックしてアクセスします。
+1. **[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon-16x12.png) をクリックしてから、オブジェクトの名前をクリックしてアクセスします。
 
    オブジェクトページが表示されます。
 
-1. （条件付き）オブジェクトのリストを含む領域を選択した場合、 **[!UICONTROL プロジェクト]** または **[!UICONTROL Portfolio]** — 左側のパネルナビゲーションにアクセスするには、次の操作を行う必要があります。
+1. （条件付き）オブジェクトのリストを含むエリアを選択した場合（**[!UICONTROL プロジェクト]**&#x200B;または&#x200B;**[!UICONTROL ポートフォリオ]**&#x200B;など）、左側のパネルナビゲーションにアクセスするには、次の操作を行う必要があります。
 
    1. リスト内のオブジェクトをクリックします。
-   1. （オプション）左側のパネルナビゲーションで、別のオブジェクト ( 例： **[!UICONTROL タスク]** または **[!UICONTROL 問題]** プロジェクト内 — 左パネルでオブジェクトのリストにアクセスし、特定のオブジェクトの名前をクリックします。\
+   1. （オプション）左側のパネルナビゲーションで、別のオブジェクト（プロジェクト内の&#x200B;**[!UICONTROL タスク]**&#x200B;または&#x200B;**[!UICONTROL イシュー]**&#x200B;など）を選択して、オブジェクトのリストにアクセスし、特定のオブジェクトの名前をクリックします。\
 
       オブジェクトページが表示されます。
 
 1. オブジェクトページで、左側のパネルの任意のセクションをクリックして、そのセクションの情報を表示または編集します。
 
-   情報を編集するには、その前にオブジェクトを編集する権限が必要です。
+   情報を編集するには、オブジェクトを編集する権限が必要です。
 
-   ![左側のパネルセクション](assets/NWE-left-navigation-panel.png)
+   ![左側パネルのセクション](assets/NWE-left-navigation-panel.png)
 
-1. （オプション）「 **[!UICONTROL さらに表示]** をクリックして、さらにセクションを表示します。
+1. （オプション）左側のパネルの下部にある「**[!UICONTROL さらに表示]**」をクリックして、より多くのセクションを表示します。
 
    >[!NOTE]
    >
    >デフォルトですべてのセクションが左側のパネルに表示されている場合、このオプションは使用できません。
 
-1. （オプション）ダッシュボードのクイックリンクを追加するには、 **[!UICONTROL ダッシュボードを追加]** 左のパネルの下部で、次の操作を行います。
+1. （オプション）ダッシュボードクイックリンクを追加するには、左のパネルの下部にある「**[!UICONTROL ダッシュボードを追加]**」をクリックし、以下の操作を行います。
 
-   1. ダッシュボードの名前を **[!UICONTROL クイックリンク名]** フィールドに入力します。
-   1. 既存のダッシュボードの名前を **[!UICONTROL ダッシュボードを選択]** 「 」フィールドを選択し、リストに表示されたらダッシュボードをクリックします。
+   1. ダッシュボードの名前を&#x200B;**[!UICONTROL クイックリンク名]**&#x200B;フィールドに入力します。
+   1. 「**[!UICONTROL ダッシュボードを選択]**」フィールドに既存のダッシュボードの名前を入力し、リストに表示されたらダッシュボードを選択します。
 
       >[!TIP]
       >
-      >ダッシュボードをリストに表示する前に、作成する必要があります。
+      >ダッシュボードがリストに表示される前に、ダッシュボードを作成する必要があります。
 
-   1. クリック **[!UICONTROL 追加]**.
+   1. 「**[!UICONTROL 追加]**」をクリックします。
 
       左側のパネルの下部にダッシュボードのリンクが表示されます。
 
-1. （オプション）左側のパネルでセクションの順序を変更するには、 **[!UICONTROL ドラッグ]** アイコン ![](assets/drag-icon.png) セクションの右にドラッグし、上下にドラッグします。
+1. （オプション）左側のパネルでセクションの順序を変更するには、セクションの右の&#x200B;**[!UICONTROL ドラッグ]**&#x200B;アイコン ![](assets/drag-icon.png) をクリックし、上下にドラッグします。
 
    ![セクションをドラッグ](assets/drag-section-right.png)
 
-1. （オプション）左のパネルを閉じるには、 **[!UICONTROL 折りたたむ]** アイコン ![](assets/left-panel-collapse-icon.png).
+1. （オプション）左側のパネルを閉じるには、**[!UICONTROL 折りたたむ]**&#x200B;アイコン ![](assets/left-panel-collapse-icon.png) をクリックします。
 
    >[!NOTE]
    >
-   >左のパネルを折りたたむと、 [!DNL Workfront] 別の場所に移動しても、好みを保持します [!DNL Workfront] オブジェクト。 左側のパネルを再度展開するには、 **[!UICONTROL 展開]** アイコン ![](assets/left-panel-expand-icon.png).
+   >左側のパネルを折りたたむと、別の [!DNL Workfront] オブジェクトに移動しても、[!DNL Workfront] は環境設定を保持します。左側のパネルを再度展開するには、**[!UICONTROL 展開]**&#x200B;アイコン ![](assets/left-panel-expand-icon.png) をクリックします。
