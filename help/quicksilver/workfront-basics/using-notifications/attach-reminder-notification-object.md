@@ -2,25 +2,25 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: オブジェクトにリマインダー通知を添付する
-description: アラーム通知は、プロジェクト、タスク、タスク、タスク、タイムシート、テンプレート、テンプレートタスク、および定期タイムシートプロファイルのオブジェクトの種類に関連付けることができます。
+title: オブジェクトへのリマインダ通知の添付
+description: リマインダー通知は、プロジェクト、タスク、イシュー、タイムシート、テンプレート、テンプレートタスクおよび定期タイムシートプロファイルのオブジェクトタイプに関連付けることができます。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
 source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# オブジェクトにリマインダー通知を添付する
+# オブジェクトへのリマインダ通知の添付
 
-リマインダー通知は、複数の異なるオブジェクトタイプに関連付けることができます。プロジェクト、タスク、タスク、タスク、タイムシート、テンプレート、テンプレートタスク、および定期タイムシートプロファイル。
+リマインダー通知は、以下の複数の異なるオブジェクトタイプに関連付けることができます。プロジェクト、タスク、イシュー、タイムシート、テンプレート、テンプレートタスクおよび定期タイムシートプロファイル
 
-オブジェクトにリマインダー通知を添付する前に、 [!DNL Adobe Workfront] 管理者は、 [リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+オブジェクトにリマインダー通知を添付する前に、[リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)で説明したように、[!DNL Adobe Workfront] 管理者は通知を作成する必要があります。
 
-リマインダー通知を添付する手順は、添付するオブジェクトの種類に関係なく同じです。
+リマインダー通知を添付する手順は、添付先のオブジェクトタイプに関係なく同じです。
 
 ## アクセス要件
 
@@ -42,31 +42,31 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以降</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：アクセス権がない場合は、アクセスレベルに追加の制限が設定されているかどうかを [!DNL Workfront] 管理者に確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>オブジェクトへのアクセスを管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>オブジェクトへのアクセスの管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## オブジェクトにリマインダー通知を添付する
+## オブジェクトへのリマインダー通知の添付
 
 1. リマインダー通知を添付するオブジェクトに移動します。
-1. 編集アイコンをクリックします。 ![](assets/edit-icon.png).
-1. ( **[!UICONTROL 編集]** 表示されるボックスで、 **[!UICONTROL 設定]**.
+1. 編集アイコン ![](assets/edit-icon.png) をクリックします。
+1. 表示される&#x200B;**[!UICONTROL 編集]**&#x200B;ボックスの左側のパネルで、「**[!UICONTROL 設定]**」をクリックします。
 
-1. の下 **[!UICONTROL リマインダー通知]**、オブジェクトに関連付ける通知を選択します。
+1. **[!UICONTROL リマインダー通知]**&#x200B;の下に、オブジェクトに添付する通知を選択します。
 
    この例では、編集中のオブジェクトはタスクです。
 
    ![](assets/reminder-notification-select-one-350x213.png)
 
-   この [!DNL Workfront] 管理者が複数のリマインダー通知を作成しました。1 つのオブジェクトに複数の通知を添付できます。
+   [!DNL Workfront] 管理者が複数のリマインダー通知を作成した場合、単一のオブジェクトに複数の通知を添付できます。
 
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
-   リマインダー通知の配信をテストする際に不明な点がある場合は、 [!DNL Workfront] 管理者。
+   リマインダー通知の配信をテストする際にサポートが必要な場合は、[!DNL Workfront] 管理者にお問い合わせください。
