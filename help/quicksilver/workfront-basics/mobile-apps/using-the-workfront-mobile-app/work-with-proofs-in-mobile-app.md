@@ -1,121 +1,121 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: の配達確認を確認し、決定する [!DNL Adobe Workfront] モバイルアプリ
-description: 配達確認が承認用に割り当てられると、モバイルアプリの承認のリストに表示されます。 配達確認をアプリで直接確認し、決定することができます。
+title: ' [!DNL Adobe Workfront] モバイルアプリでのプルーフのレビューと承認に関する判断'
+description: プルーフの承認を割り当てられると、そのプルーフがモバイルアプリの承認リストに表示されます。プルーフをアプリで直接レビューし、承認の是非を判断することができます。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# の配達確認を確認し、決定する [!DNL Adobe Workfront] モバイルアプリ
+# [!DNL Adobe Workfront]モバイルアプリでのプルーフのレビューと承認に関する判断
 
-配達確認が承認用に割り当てられると、モバイルアプリの承認のリストに表示されます。 配達確認をアプリで直接確認し、決定することができます。 での配達確認のレビューと承認に関する情報 [!DNL Adobe Workfront]を参照してください。 [以内の配達確認を確認 [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+プルーフの承認を割り当てられると、そのプルーフがモバイルアプリの承認リストに表示されます。プルーフをアプリで直接レビューし、承認の是非を判断することができます。[!DNL Adobe Workfront] でのプルーフのレビューと承認については、[プルーフのレビュー： [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
 
-配達確認にコメントを追加し、最終的な決定をおこなう前にリビジョンプロセスを実行できます。 コメントについて詳しくは、 [での配達確認に対するコメント [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md) または [での配達確認に対するコメント [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md).
+最終決定の前に、プルーフにコメントを追加し、リビジョンプロセスを実施することができます。コメントについては、[プルーフに対するコメント： [!DNL iOS]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)または[プルーフに対するコメント： [!DNL Android]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)を参照してください。
 
-配達確認を確認および承認するためのアクセス権は、 [!DNL Adobe Workfront]. 校正機能について詳しくは、 [の配達確認権限プロファイル [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+プルーフをレビューおよび承認するためのアクセス権は、[!DNL Adobe Workfront] と同じです。プルーフ機能については、[プルーフ権限プロファイル： [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)を参照してください。
 
-## 配達確認を開いて確認
+## プルーフを開いてレビュー
 
-1. 配達確認の承認タスクを開きます。
+1. プルーフ承認タスクを次のように開きます。
 
-   * で配達確認の承認タスクを選択 [!UICONTROL 承認] ～の面積 [!UICONTROL マイワーク].
+   * [!UICONTROL 担当作業]の[!UICONTROL 承認]エリアで、プルーフ承認タスクを選択します。
 
-      ![「自分の仕事の承認」セクション](assets/mobile-mywork-approvals-338x482.png)\
+     ![担当作業の承認領域](assets/mobile-mywork-approvals-338x482.png)\
       または
 
-   * 選択 **[!UICONTROL すべての承認を表示]** 内 [!UICONTROL 承認] ～の面積 [!UICONTROL マイワーク]. 次に、すべての承認のリストで配達確認の承認タスクを選択します。
+   * [!UICONTROL 担当作業]の[!UICONTROL 承認]領域で、「**[!UICONTROL すべての承認を表示]**」を選択します。次に、すべての承認のリストでプルーフ承認タスクを選択します。
 
-      詳しくは、 [!UICONTROL マイワーク] モバイルアプリの場合は、 [[!UICONTROL マイワーク] モバイルアプリのセクション](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+     モバイルアプリの[!UICONTROL 担当作業]については、[[!UICONTROL モバイルアプリの「担当作業」セクション]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)を参照してください。
 
-1. 詳細ページで、「 」を選択します。 **[!UICONTROL 配達確認に移動]**.
+1. 詳細ページで、「**[!UICONTROL プルーフに移動]**&#x200B;を選択します。
 
-   ![配達確認タスク](assets/mobile-prooftask1-338x516.png)
+   ![プルーフタスク](assets/mobile-prooftask1-338x516.png)
 
-1. ドキュメント配達確認を確認します。
-1. （オプション）「 」を選択します。 ![[!UICONTROL 単一ページアイコン]](assets/mobile-proofpagingicon1-25x36.png) をクリックします。 選択 ![[!UICONTROL 連続ページアイコン]](assets/mobile-proofpagingicon2-25x25.png) をクリックして、単一のページビューに戻します。
+1. ドキュメントプルーフをレビューします。
+1. （オプション）ドキュメントの右上にある![[!UICONTROL 単ページアイコン]](assets/mobile-proofpagingicon1-25x36.png)を選択して、単ページ表示から連続表示に変更します。![[!UICONTROL 連続ページアイコン]](assets/mobile-proofpagingicon2-25x25.png)を選択すると、単ページ表示に戻ります。
 
-   単一ページビューでは、右と左にスクロールしてドキュメントページ間を移動します。 連続表示では、上下にスクロールしてページ間を移動します。
+   単ページ表示では、左右にスクロールすると、ドキュメントページ間を移動できます。連続表示では、上下にスクロールすると、ページ間を移動できます。
 
-1. （オプション）右側のスクロールインジケーターを使用して特定のページに移動します。
+1. （オプション）右側のスクロールインジケーターを使用して、特定のページに移動します。
 
    1. スクロールインジケーターをタップします。
-   1. ページ番号を [!UICONTROL ページに移動] ボックスとを選択します。 **[!UICONTROL OK]**.
+   1. [!UICONTROL ページに移動]ボックスでページ番号を入力し、「**[!UICONTROL OK]**」を選択します。
    1. ![ページに移動](assets/mobile-gotopage-350x224.png)
 
-1. ドキュメントの左上にある矢印を選択して、 [!UICONTROL 詳細] ページ。
-1. （オプション） [!UICONTROL 詳細] ページ、選択 **[!UICONTROL 更新]** ：配達確認のすべての更新を表示します。例えば、配達確認の作成日時や、配達確認が承認用に送信された日時などです。
+1. ドキュメントの左上にある矢印を選択すると、[!UICONTROL 詳細]ページに戻ります。
+1. （オプション）[!UICONTROL 詳細]ページで、「**[!UICONTROL 更新]**」を選択すると、プルーフの作成日や承認用に送信された時間など、プルーフのすべての更新情報が表示されます。
 
-## 配達確認のロックとロック解除
+## プルーフのロックとロック解除
 
-配達確認の所有者、作成者またはモデレーターとして割り当てられたユーザーは、他のユーザーがコメントしたり、配達確認に対して意思決定を下したりするのを防ぐために、配達確認をロックできます。
+プルーフの所有者、作成者またはモデレーターとして割り当てられたユーザーは、他のユーザーがプルーフに対してコメントしたり判断したりできないように、プルーフをロックできます。
 
-### 配達確認をロック
+### プルーフのロック
 
-1. ドキュメントの配達確認を開き、 **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/mobile-verticalmoremenu-20x33.png) をクリックします。 次に、 **[!UICONTROL 詳細]**.
-1. 選択 **[!UICONTROL ドキュメントをロック]**.\
-   A &quot;[!UICONTROL ロック済み]」のインジケータがドキュメントの上部に表示されます。
+1. ドキュメントプルーフを開き、ドキュメントの右上の&#x200B;**[!UICONTROL その他]**&#x200B;メニューアイコン ![その他メニュー](assets/mobile-verticalmoremenu-20x33.png) を選択します。次に、「**[!UICONTROL その他]**」を選択します。
+1. 「**[!UICONTROL ドキュメントをロック]**」を選択します。\
+   「[!UICONTROL ロック済み]」インジケーターがドキュメントの上部に表示されます。
 
-### 配達確認のロック解除
+### プルーフのロック解除
 
-1. ドキュメントの配達確認を開き、 **[!UICONTROL 詳細]** メニュー ![その他のメニュー](assets/mobile-verticalmoremenu-20x33.png) をクリックします。 次に、 **[!UICONTROL 詳細]**.
-1. 選択 **[!UICONTROL ドキュメントのロックを解除]**.
-1. 選択 **[!UICONTROL ロック解除]** をクリックします。
+1. ドキュメントプルーフを開き、ドキュメントの右上の&#x200B;**[!UICONTROL その他]**&#x200B;メニューアイコン ![その他メニュー](assets/mobile-verticalmoremenu-20x33.png) を選択します。次に、「**[!UICONTROL その他]**」を選択します。
+1. 「**[!UICONTROL ドキュメントのロックを解除]**」を選択します。
+1. 確認メッセージで「**[!UICONTROL ロック解除]**」を選択します。
 
-## 配達確認に関する決定
+## プルーフの承認に関する判断
 
-ドキュメントの配達確認を確認した後、配達確認自体に対して決定を行うことができます。 配達確認の所有者が配達確認をロックした場合、決定を下すことはできません。
+ドキュメントプルーフのレビューを終えたら、プルーフそのもので判断を下すことができます。プルーフの所有者がプルーフをロックしてある場合、判断を下すことはできません。
 
-### 配達確認で決定
+### プルーフでの判断
 
-1. ドキュメント配達確認を開きます。
-1. 決定アイコンを選択 ![[!UICONTROL 決定] アイコン](assets/mobile-proofcheckmarkdecisionicon-30x30.png) をクリックします。
-1. 次に示す [!UICONTROL 決定を下す] ボックス
+1. ドキュメントのプルーフを開きます。
+1. ドキュメントの右上にある![[!UICONTROL 決定]アイコン ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) を選択します。
+1. 「[!UICONTROL 決定を下す]」ボックスで決定を選択します。
 
-   以下に、一般的な判定オプションを示します。 この [!DNL Adobe Workfront] 管理者または [!UICONTROL Workfront Proof] 管理者は、決定オプションのリストを設定できます。 管理者が決定を設定する方法について詳しくは、 [Workfront Proof での承認決定オプションの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+   いくつかの一般的な決定オプションを以下に示します。[!DNL Adobe Workfront] 管理者または [!UICONTROL Workfront Proof] 管理者は、決定オプションのリストを設定できます。管理者が決定を設定する方法の詳細については、[Workfront Proof での承認決定オプションの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)を参照してください。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 承認済み ]</strong></td> 
-      <td>配達確認は、ワークフローの次のステージに移動する準備が整いました。</td> 
+      <td role="rowheader"><strong>[!UICONTROL Approved]</strong></td> 
+      <td>プルーフは、ワークフローの次の段階に進む準備ができています。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 変更により承認済み ]</strong></td> 
-      <td> <p>配達確認には変更が必要ですが、ワークフローの次のステージに移る前にリビジョンを確認する必要はありません。</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Approved with changes]</strong></td> 
+      <td> <p>プルーフにはいくつかの変更が必要ですが、ワークフローの次の段階に進む前にリビジョンを確認する必要はありません。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 却下 ]</strong></td> 
-      <td>配達確認は拒否され、ワークフロー内を前に進みません。</td> 
+      <td role="rowheader"><strong>[!UICONTROL Rejected]</strong></td> 
+      <td>プルーフは拒否され、ワークフローで先に進むことはできません。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. （条件付き） [!DNL Adobe Workfront] 管理者または [!DNL Workfront Proof] 管理者が次のリストを追加しました： [!UICONTROL 理由]」で、必要に応じて、決定の理由を選択します。
+1. （条件付き）[!DNL Adobe Workfront] 管理者または [!DNL Workfront Proof] 管理者が、[!UICONTROL 理由]のリストを追加した場合は、決定に該当する理由を選択してください。
 
-   理由の中には、理由を選択した理由を説明するコメントが必要なものもあります。
+   理由によっては、その理由を選択した理由を説明するコメントが必要な場合もあります。
 
-   管理者が理由を設定する方法について詳しくは、  [での承認決定オプションの設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+   管理者が理由を設定する方法の詳細については、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) での承認決定オプションの設定を参照してください。
 
-1. 選択 **[!UICONTROL 送信]**.
+1. 「**[!UICONTROL 送信]**」を選択します。
 
-### 配達確認での決定を変更する
+### プルーフで決定を変更する
 
-1. ドキュメント配達確認を開きます。
-1. 決定アイコンを選択 ![[!UICONTROL 決定] アイコン](assets/mobile-proofcheckmarkdecisionicon-30x30.png) をクリックします。
+1. ドキュメントのプルーフを開きます。
+1. ドキュメントの右上にある決定アイコン![[!UICONTROL 決定]アイコン](assets/mobile-proofcheckmarkdecisionicon-30x30.png)を選択します。
 
-   この [!UICONTROL 決定を下す] ボックスに、現在の決定が表示されます。
+   「[!UICONTROL 決定を下す]」ボックスには、現在の決定が表示されます。
 
-1. 別の決定を選択するか、 **[!UICONTROL 選択をクリア]** をクリックして、決定を削除します。
+1. 別の決定を選択するか、「**[!UICONTROL 選択をクリア]**」を選択して決定を削除します。
 
-   理由を含む決定の場合は、別の理由を選択するか、理由を削除できます。
+   理由のある決定の場合は、別の理由を選択することも、理由を削除することもできます。
 
-1. 選択 **[!UICONTROL 送信]**.
+1. 「**[!UICONTROL 送信]**」を選択します。
