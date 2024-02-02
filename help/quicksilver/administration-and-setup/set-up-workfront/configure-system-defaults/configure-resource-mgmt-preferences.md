@@ -3,25 +3,25 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: リソース管理環境設定の指定
-description: As a [!DNL Adobe Workfront] 管理者は、システムのリソース管理環境設定を構成できます。 これらのリソース管理環境設定により、 [!DNL Workfront] リソースのスケジュールおよび計画ツール。
+description: ' [!DNL Adobe Workfront] 管理者は、システムのリソース管理環境設定を指定できます。これらのリソース管理環境設定は、ユーザーの空き時間またはキャパシティおよび FTE が [!DNL Workfront] リソースのスケジュールおよび計画ツールでどのように計算されるかを決定します。'
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 設定 [!UICONTROL リソース管理] 環境設定
+# [!UICONTROL リソース管理]環境設定の指定
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] システムの環境設定。 これらの環境設定では、 [!DNL Workfront] リソースのスケジュールおよび計画ツール。
+[!DNL Adobe Workfront] 管理者は、システムの[!UICONTROL リソース管理]環境設定を指定できます。これらの環境設定は、ユーザーの時間数、FTE 使用可能時間またはキャパシティが [!DNL Workfront] リソーススケジュールおよび計画ツールでどのように計算されるかを決定します。
 
 ## アクセス要件
 
@@ -54,75 +54,76 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
 </table>
 -->
 
-この記事の手順を実行するには、次の手順を実行する必要があります。
+この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>システム管理者のアクセスレベル</p> <p>詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> <p><b>メモ</b>:
+   <td> <p>システム管理者のアクセスレベル</p> <p>詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>：
 
-まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
  </tbody> 
 </table>
 
-## ユーザーの容量を計算する際に考慮される情報
+## ユーザーのキャパシティを計算する際に考慮される情報
 
-ユーザーの容量を計算する際、Workfrontでは次の情報が考慮されます。
+ユーザーのキャパシティを計算する際に、Workfront では次の情報を考慮に入れます。
 
-* ユーザーのスケジュールまたはWorkfrontシステムのスケジュールで定義された、スケジュールされた時間数 [!UICONTROL デフォルトのスケジュール]
-* [!UICONTROL スケジュール] [!UICONTROL 例外] ( [!UICONTROL スケジュール] が使用されている場合、ユーザーのスケジュールの例外である場合、または [!DNL Workfront] [!UICONTROL デフォルトのスケジュール])
-* ユーザーのオフタイム
-* フルタイム相当 ([!UICONTROL FTE]) に含まれます。 [!DNL Workfront] システム。 この [!UICONTROL FTE] は、スケジュールで定義されているように、ユーザーがフルタイムで作業する場合は 1 に等しくなります。
-* の値 [!UICONTROL 作業時間] ユーザーがプロジェクト関連の作業に費やした時間を参照するユーザーの場合。 会議やトレーニングなどのオーバーヘッド時間は含まれません。 この [!UICONTROL 作業時間] が 1 に等しいのは、ユーザーが作業に使用できる状態が [!UICONTROL FTE] スケジュールとは、会議やトレーニングなど、プロジェクトに関連しない作業に時間を費やさないということです。
-
-
-でのリソースの計画とスケジュールに関する情報 [!DNL Workfront]を参照してください。 [リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+* ユーザーのスケジュールまたは Workfront システムの[!UICONTROL デフォルトのスケジュール]で定義されたスケジュール済み時間数。
+* [!UICONTROL スケジュール][!UICONTROL 例外]（どちらの[!UICONTROL スケジュール]が使用されているかに応じて、ユーザーのスケジュールの例外となるか、[!DNL Workfront] の[!UICONTROL デフォルトのスケジュール]に関連する例外となります）
+* ユーザーの休暇
+* ユーザーまたは [!DNL Workfront] システムのフルタイム当量（[!UICONTROL FTE]）の値。ユーザーがスケジュールで定義されているとおりにフルタイムで作業する場合、[!UICONTROL FTE] は 1 に等しくなります。
+* ユーザーの[!UICONTROL 作業時間]の値は、プロジェクト関連の作業にユーザーが費やした時間を示します。会議やトレーニングなどのオーバーヘッド時間は含まれません。[!UICONTROL 作業時間]が 1 と等しくなるのは、[!UICONTROL FTE] またはスケジュールに示される全時間にわたってユーザーが作業可能な場合で、会議やトレーニングなど、プロジェクトに関係しない作業に時間を費やさないことを意味します。
 
 
-## 設定 [!UICONTROL リソース管理] 環境設定
+[!DNL Workfront] でのリソースの計画とスケジュールについては、[リソース管理の基本を学ぶ](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
+
+
+## [!UICONTROL リソース管理]環境設定の指定
 
 >[!NOTE]
 >
->この設定はグローバル設定なので、この選択は、すべてのユーザーに対して、すべてのリソース管理ツールのシステム全体のすべての計算に影響を与えます。
+>これはグローバル設定なので、この選択は、すべてのリソース管理ツールで、すべてのユーザーに対して、システム全体のすべての計算に影響を及ぼします。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
-1. クリック **[!UICONTROL リソース管理]**.
-1. 次のいずれかの方法を選択して、でのユーザーの可用性を計算します。 [!DNL Workfront]:
+1. [!DNL Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) に続いて、**[!UICONTROL 設定]**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+1. 「**[!UICONTROL リソース管理]**」をクリックします。
+1. 次のいずれかの方法を選択して、[!DNL Workfront] でのユーザーの空き時間を計算します。
 
-   * **デフォルトのスケジュール**: [!DNL Workfront] は、システムのデフォルトスケジュールとユーザーの個々の FTE を使用して、リソース管理ツールのユーザーの使用可能時間を計算します。
+   * **デフォルトのスケジュール**：[!DNL Workfront] では、システムのデフォルトスケジュールとユーザーの個々の FTE を使用して、リソース管理ツールでユーザーの利用可能時間数を計算します。
 
-      スケジュールについて詳しくは、 [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     スケジュールについて詳しくは、[スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
-      ユーザーの [!UICONTROL FTE]を参照してください。  [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     ユーザーの [!UICONTROL FTE] 値の特定について詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-      Workfrontは、Workfront管理者が [!UICONTROL デフォルトのスケジュール]:
-
-
-      `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
+     Workfront では、Workfront 管理者が[!UICONTROL デフォルトのスケジュール]を選択した場合、次の式を使用してユーザーの利用可能時間数を計算します。
 
 
-      >[!INFO]
-      >
-      >例えば、デフォルトスケジュールが週 40 時間の場合、ユーザーのプロファイルの FTE が 0.5 である場合、ユーザーは 1 日 1 時間のオフタイムを持ち、 [!UICONTROL 作業時間] ユーザーのプロファイルが 0.5 の場合、ユーザーは週に 9.5 時間、実際のプロジェクト作業に使用できます。
-      >
-      >ユーザーが 1 日に 1 時間のオフタイムを持っている場合、利用可能な時間は次のように計算されます。
-      >
-      >
-      >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
+     `User Available Hours = [([!UICONTROL Default Schedule] Hours - [!UICONTROL Exceptions]) * [!UICONTROL FTE] - Time off hours] * [!UICONTROL Work Time]`
 
-      <!--This used to be the calculation before we implemented the Work Time field: 
+
+     >[!INFO]
+     >
+     >例えば、デフォルトのスケジュールが週 40 時間で、ユーザーのプロファイルの FTE が 0.5 であり、ユーザーには 1 日 1 時間の休暇があり、ユーザーのプロファイルの[!UICONTROL 作業時間]が 0.5 の場合、ユーザーは週に 9.5 時間、実際のプロジェクト作業に従事できます。
+     >
+     >ユーザーに 1 日に 1 時間の休暇がある場合、利用可能時間数は次のように計算されます。
+     >
+     >
+     >`User Available Hours = [((40 - 0) * 0.5) - 1] * 0.5 = 9.5 hours`
+     >
+
+     <!--This used to be the calculation before we implemented the Work Time field: 
     
       ```
       User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
@@ -140,7 +141,7 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
 
 
 
-      <!--      
+     <!--      
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE: this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
       <div class="example" data-mc-autonum="<b>Example: </b>">      
       <span class="autonumber"><span><b>Example: </b></span></span>      
@@ -152,38 +153,39 @@ As a [!DNL Adobe Workfront] 管理者は、 [!UICONTROL リソース管理] シ�
       </div></li>      
       -->
 
-   * **ユーザーのスケジュール**: [!DNL Workfront] は、ユーザーのスケジュールと [!UICONTROL デフォルトのスケジュール] システムが使用可能な [!UICONTROL FTE] リソース管理ツールでのユーザーの値。 利用可能な時間数は、ユーザーのスケジュールに従ってのみ計算されます。 の値 [!UICONTROL FTE] の値は無視されます。 これはデフォルト設定です。
+   * **ユーザーのスケジュール**：[!DNL Workfront] では、ユーザーのスケジュールとシステムの[!UICONTROL デフォルトのスケジュール]を使用して、リソース管理ツールでユーザーの利用可能な [!UICONTROL FTE] 値を計算します。利用可能時間数は、ユーザーのスケジュールにのみ従って計算されます。ユーザーの [!UICONTROL FTE] の値は無視されます。これはデフォルトの設定です。
 
-      スケジュールについて詳しくは、 [スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     スケジュールについて詳しくは、[スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
-      ユーザーの [!UICONTROL スケジュール]を参照してください。  [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     ユーザーの[!UICONTROL スケジュール]について詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-      >[!NOTE]
-      >
-      >ユーザーがスケジュールに関連付けられていない場合、ユーザーの使用可能時間は [!UICONTROL デフォルトのスケジュール].
+     >[!NOTE]
+     >
+     >ユーザーがスケジュールに関連付けられていない場合、ユーザーの利用可能時間数は[!UICONTROL デフォルトのスケジュール]のみを使用して計算されます。
 
-      ユーザーが使用できる時間は、次の数式で計算されます。
-
-
-      `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
+     ユーザーの利用可能時間数は、次の式で計算されます。
 
 
-      利用可能な [!UICONTROL FTE] の値は、次の式で計算されます。
+     `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
 
 
-      `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`
+     ユーザーの利用可能な [!UICONTROL FTE] の値は、次の式で計算されます。
 
 
-      >[!INFO]
-      >
-      >例えば、 [!UICONTROL デフォルトのスケジュール] が週に 40 時間、ユーザーのスケジュールが週に 30 時間、ユーザーの [!UICONTROL 作業時間] は 0.5 です。 [!UICONTROL FTE] の値は 0.35 です。
-      >
-      >ユーザーが 1 日に 2 時間の休暇を取っている場合、そのユーザーの週間利用可能 [!UICONTROL FTE] は次のように計算されます。
-      >
-      >
-      >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
+     `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`
 
-      <!--This used to be the calculation before we implemented the Work Time field: 
+
+     >[!INFO]
+     >
+     >例えば、[!UICONTROL デフォルトのスケジュール]が週 40 時間、ユーザーのスケジュールが週 30 時間、ユーザーの [!UICONTROL 作業時間] が 0.5 の場合、ユーザーの [!UICONTROL FTE] は 0.35 になります。
+     >
+     >ユーザーが 1 日に 2 時間の休暇を取っている場合、そのユーザーの週間利用可能 [!UICONTROL FTE] は次のように計算されます。
+     >
+     >
+     >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
+     >
+
+     <!--This used to be the calculation before we implemented the Work Time field: 
       
 
       The Available hours for the user are calculated by the following formula:
