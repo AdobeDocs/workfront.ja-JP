@@ -3,28 +3,28 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Microsoft Exchange での POP の設定
-description: の POP 電子メールアカウント [!DNL Microsoft Exchange] は無効です。
+title: Microsoft Exchange での POP 設定
+description: ' [!DNL Microsoft Exchange]  の POP メールアカウントが無効になっています。'
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# POP in の設定 [!DNL Microsoft Exchange]
+# [!DNL Microsoft Exchange] での POP 設定
 
 ## 問題
 
-の POP 電子メールアカウント [!DNL Microsoft Exchange] は無効です。
+[!DNL Microsoft Exchange] の POP メールアカウントが無効になっています。
 
-## 解決策
+## ソリューション
 
-時間をかけて問題のトラブルシューティングを行う前に、ユーザーの POP アカウントが正しく設定されていることを確認してください。 POP アカウントが正しく設定されていることを確認した後も引き続き問題が発生する場合は、 [!DNL Microsoft] サポートまたはパートナーの 1 人が追加のサポートを受けられます。
+問題のトラブルシューティングに時間を費やす前に、ユーザーの POP アカウントが正しく設定されていることを確認してください。POP アカウントが正しく設定されていることを確認した後も問題が解決しない場合は、[!DNL Microsoft] サポートまたはそのパートナーにお問い合わせください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions on integrating a POP account in Adobe Workfront, see .</p>
@@ -39,89 +39,89 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>計画</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。 詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> <p><b>注意</b>:まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## POP in の設定 [!DNL Microsoft Exchange]
+## [!DNL Microsoft Exchange] での POP 設定
 
 >[!NOTE]
 >
->次の手順を、POP in の設定に関する一般的なガイドとして使用できます [!DNL Microsoft Exchange] 実稼動用 [!DNL Workfront] システム。 手順は、Exchange のバージョンやMicrosoftがおこなったコード変更によって大きく異なる場合があります。
+>次の手順を、実稼動 [!DNL Workfront] システム向けに [!DNL Microsoft Exchange] での POP 設定に関する一般的なガイドとして使用できます。この手順は、Exchange のバージョンや Microsoft によるコード変更によって大きく異なる場合があります。
 
 1. Exchange 2010 サーバーで POP3 サービスを起動し、有効にします。
 
    >[!NOTE]
    >
-   >デフォルトでは、POP3 サービスは開始されません。
+   >デフォルトでは、POP3 サービスは開始されていません。
 
-   1. 開始 [!DNL Microsoft]のサーバーマネージャー。
-   1. 移動： **[!UICONTROL サーバーマネージャ]** > **[!UICONTROL 設定]** >**[!UICONTROL 高度なセキュリティを備えた Windows ファイアウォール]** > **[!UICONTROL サービス]**.
+   1. [!DNL Microsoft] のサーバーマネージャーを起動します。
+   1. **[!UICONTROL サーバーマネージャー]**／**[!UICONTROL 設定]**／**[!UICONTROL 高度なセキュリティを備えた Windows ファイアウォール]**／**[!UICONTROL サービス]**&#x200B;の順に移動します。
 
-   1. 右クリック **[!DNL Microsoft Exchange]POP3**&#x200B;を選択し、「 **[!UICONTROL プロパティ]**.
+   1. **[!DNL Microsoft Exchange]POP3**&#x200B;を右クリックし、「**[!UICONTROL プロパティ]**」をクリックします。
 
-   1. （条件付き）POP サービスが自動的に開始するように、 **[!UICONTROL 一般]** タブ、 **[!UICONTROL 起動]** 入力 [!UICONTROL 自動].
+   1. （条件付き）POP サービスが自動的に開始されるようにするには、「**[!UICONTROL 一般]**」タブで、「**[!UICONTROL 起動]**」タイプを「[!UICONTROL 自動]」に設定します。
 
 1. サーバーに POP3 を設定します。
 
-   1. を開始します。 [!DNL Microsoft Exchange] 管理コンソール。
-   1. 移動： [!DNL Microsoft] **[!UICONTROL Exchange オンプレミス]** > **[!UICONTROL サーバー設定]** > **[!UICONTROL クライアントアクセス]**.
+   1. [!DNL Microsoft Exchange] 管理コンソールを起動します。
+   1. [!DNL Microsoft] **[!UICONTROL Exchange オンプレミス]**／**[!UICONTROL サーバー設定]**／**[!UICONTROL クライアントアクセス]**&#x200B;の順に移動します。
 
-   1. 選択 **[!UICONTROL POP3]**.
+   1. 「**[!UICONTROL POP3]**」を選択します。
 
-      POP3 はリストの [!UICONTROL POP3] および [!UICONTROL IMAP4] タブ
+      POP3 は「[!UICONTROL POP3]」タブと「[!UICONTROL IMAP4]」タブの下のリストにあります。
 
-   1. 右側の下 **[!UICONTROL アクション]**&#x200B;を選択します。 **[!UICONTROL POP3]**&#x200B;を選択して、 **[!UICONTROL プロパティ]**.
+   1. 右側の&#x200B;**[!UICONTROL アクション]**&#x200B;で、「**[!UICONTROL POP3]**」を選択し、「**[!UICONTROL プロパティ]**」を選択します。
 
-   1. クリック **[!UICONTROL POP3 プロパティ]**&#x200B;をクリックし、 **[!UICONTROL 連結]** タブをクリックします。
+   1. 「**[!UICONTROL POP3 プロパティ]**」をクリックし、「**[!UICONTROL 連結]**」タブを開きます。
 
-      POP3 サーバー用に設定された、使用可能な IP アドレスとポート番号がすべて表示されます。 上部のボックスには「暗号化されていません」と表示され、下部のボックスには SSL/TLS 接続用の IP とポートが表示されます。
+      POP3 サーバー用に設定された、すべての使用可能な IP アドレスとポート番号が表示されます。上部のボックスには暗号化されていないことが表示され、下部のボックスには SSL/TLS 接続用の IP とポートが表示されます。
 
-   1. クリック **[!UICONTROL POP3 プロパティ]**&#x200B;をクリックし、 **[!UICONTROL 認証]** タブをクリックします。
+   1. 「**[!UICONTROL POP3 プロパティ]**」をクリックし、「**[!UICONTROL 認証]**」タブを開きます。
 
-   1. **[!UICONTROL セキュアを選択]** ログインします。
+   1. **[!UICONTROL 安全な]**&#x200B;ログインを選択します。
 
-      クライアントがサーバーに対して認証をおこなうには、TLS 接続が必要です。
+      クライアントがサーバーに対して認証を行うには、TLS 接続が必要です。
 
-1. ユーザーの POP への接続を有効にするか、許可します。
+1. ユーザーが POP に接続できるようにするか、許可します。
 
-   1. を開始します。 [!DNL Microsoft Exchange] 管理コンソール。
-   1. 移動： [!DNL Microsoft] **[!UICONTROL Exchange オンプレミス]** > **[!UICONTROL 受信者の設定]** > **[!UICONTROL Mailbox]**.
+   1. [!DNL Microsoft Exchange] 管理コンソールを起動します。
+   1. [!DNL Microsoft] **[!UICONTROL Exchange オンプレミス]**／**[!UICONTROL 受信者設定]**／**[!UICONTROL メールボックス]**&#x200B;の順に移動します。
 
       メールボックスまたはユーザーのリストが表示されます。
 
-   1. 内で使用されている E メールをハイライトします [!DNL Workfront].
-   1. 右側の下 **[!UICONTROL アクション]**&#x200B;を選択します。 **[!UICONTROL プロパティ]**&#x200B;をクリックし、 **[!UICONTROL メールボックスの機能]** タブをクリックします。
+   1. [!DNL Workfront] 内で使用されているメールをハイライト表示します。
+   1. 右側の&#x200B;**[!UICONTROL アクション]**&#x200B;で、「**[!UICONTROL プロパティ]**」を選択し、「**[!UICONTROL メールボックスの機能]**」タブを開きます。
 
-   1. （条件付き）POP3 が無効な場合、 **[!UICONTROL POP3]**&#x200B;を選択し、「 **[!UICONTROL 有効にする]**.
+   1. （条件付き）POP3 が無効な場合、「**[!UICONTROL POP3]**」、「**[!UICONTROL 有効にする]**」の順にクリックします。
 
       メールボックスまたはユーザーのリストが表示されます。
 
 1. 受信コネクタを設定します。
 
-   1. 開始 [!DNL Microsoft Exchange] 管理コンソール。
-   1. 移動： [!DNL Microsoft] **[!UICONTROL Exchange オンプレミス]** > **[!UICONTROL サーバー設定]** > **[!UICONTROL ハブトランスポート]**.
+   1. [!DNL Microsoft Exchange] 管理コンソールを起動します。
+   1. [!DNL Microsoft] **[!UICONTROL Exchange オンプレミス]**／**[!UICONTROL サーバー設定]**／**[!UICONTROL ハブトランスポート]**&#x200B;の順に移動します。
 
       受信コネクタのリストが表示されます。
 
-   1. 受信コネクタを確認します。 *クライアント* *EX01* が有効になっている。
+   1. 受信コネクタ&#x200B;*クライアント* *EX01* が有効になっていることを確認します。
 
-      ここで、 *クライアント* *EX01* は、Exchange サーバーの名前です。
+      *クライアント* *EX01* は、Exchange サーバーの名前です。
 
-   1. 選択 *クライアント EX01*&#x200B;右の下に **[!UICONTROL アクション]**&#x200B;を選択します。 **[!UICONTROL プロパティ]**.
+   1. *クライアント EX01* を選択し、右側の&#x200B;**[!UICONTROL アクション]**&#x200B;で、「**[!UICONTROL プロパティ]**」を選択します。
 
-   1. を開きます。 **[!UICONTROL 認証]** 「 」タブで、 **[!UICONTROL トランスポート層セキュリティ (TLS)]** がオンになっている。
+   1. 「**[!UICONTROL 認証]**」タブを開き、**[!UICONTROL トランスポート層セキュリティ（TLS）]**&#x200B;がオンになっていることを確認します。
 
       >[!NOTE]
       >
-      >基本認証を使用するには、TLS と統合 Windows 認証を開始する必要がある場合があります。
+      >基本認証を行うには、TLS と統合 Windows 認証を開始する必要がある場合があります。
