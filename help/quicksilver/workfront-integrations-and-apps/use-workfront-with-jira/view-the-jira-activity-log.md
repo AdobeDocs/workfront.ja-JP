@@ -1,23 +1,23 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-jira
-title: Jira アクティビティログの表示
-description: As a [!DNL Jira] 管理者は、同期中またはチケット間の作成中に発生した例外およびエラーを表示できます [!DNL Adobe Workfront] および [!DNL Jira] 」と入力します。
+title: Jira のアクティビティログの表示
+description: ' [!DNL Jira]  管理者は、  [!DNL Adobe Workfront]  と  [!DNL Jira]  の間の同期中またはチケットの作成中に発生した例外やエラーをアクティビティログで参照できます。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
 source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 次を表示： [!UICONTROL [!DNL Jira] アクティビティログ]
+# [!UICONTROL [!DNL Jira]アクティビティログ]の表示
 
-As a [!DNL Jira] 管理者は、同期中またはチケット間の作成中に発生した例外およびエラーを表示できます [!DNL Adobe Workfront] および [!DNL Jira] 内 [!UICONTROL アクティビティログ].
+[!DNL Jira] 管理者は、[!DNL Adobe Workfront] と [!DNL Jira] の間の同期中またはチケットの作成中に発生した例外やエラーを[!UICONTROL アクティビティログ]で参照できます。
 
-アクティビティログには、最大 500 個の項目が表示され、最新の項目から始まります。
+アクティビティログには、最大 500 個の項目が新しい順に表示されます。
 
 ## アクセス要件
 
@@ -30,50 +30,50 @@ As a [!DNL Jira] 管理者は、同期中またはチケット間の作成中に
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] 計画</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] プラン</a>*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] ライセンスの概要</a>*</td> 
-   <td> <p>[!UICONTROL プラン ]</p> </td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] アクセス</td> 
-   <td> <p>システム管理者のアクセス権</p> <p>重要：で別々のシステム管理者アカウントを作成することをお勧めします。 [!DNL Jira] および [!DNL Workfront] ユーザーに付随する可能性のある既存の統合を使用するのではなく、この統合専用にする場合。</p> </td> 
+   <td> <p>システム管理者のアクセス権</p> <p>重要：ユーザーが属する既存のユーザーアカウントを使用するのではなく、この統合専用に [!DNL Jira] と [!DNL Workfront] で個別のシステム管理者アカウントを作成することをお勧めします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。 詳しくは、 [!DNL Workfront] 管理者向け： <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者であることが必要です。[!DNL Workfront] 管理者について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p>注：アクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されていないか確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権については、[!DNL Workfront] 管理者にお問い合わせのうえご確認ください。
 
 ## 前提条件
 
-次の間で項目をリンクする前に [!DNL Workfront] および [!DNL Jira]を
+[!DNL Workfront] と [!DNL Jira] 間の項目をリンクするには、まず以下が必要です
 
-* インストール [!DNL Workfront for Jira]
+* [!DNL Workfront for Jira] をインストールする
 
-   インストールの手順 [!DNL Workfront for Jira]を参照してください。 [インストール [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+  [!DNL Workfront for Jira] をインストールする手順については、[インストール [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)を参照してください。
 
-## 次にアクセス： [!UICONTROL [!DNL Jira] アクティビティログ]:
+## [!UICONTROL [!DNL Jira]アクティビティログ]にアクセスする
 
 1. システム管理者として Jira にログインします。
-1. クリック **[!UICONTROL 設定]** メイン [!DNL Jira] メニュー
-1. クリック **[!UICONTROL アドオン]**&#x200B;を、 **[!UICONTROL アドオンの管理]**.
+1. [!DNL Jira] のメインメニューで「**[!UICONTROL 設定]**」をクリックします。
+1. 「**[!UICONTROL アドオン]**」をクリックしてから「**[!UICONTROL アドオンを管理]**」をクリックします。
 
-1. を展開します。 **[!DNL Workfront]** アドオン。
-1. クリック **[!UICONTROL 設定]**.
-1. にログインします。 [!DNL Workfront] をシステム管理者として設定します。
-1. を選択します。 **[!UICONTROL アクティビティログ]** タブをクリックします。
+1. **[!DNL Workfront]** アドオンを展開します。
+1. 「**[!UICONTROL 設定]**」をクリックします。
+1. システム管理者として [!DNL Workfront] にログインします。
+1. 「**[!UICONTROL アクティビティログ]**」タブを選択します。
 
-   アイテムの作成中、または 2 つのアプリケーション間のフィールドの同期中に発生した例外およびエラーに関する情報を表示します。
+   アイテムの作成中、または 2 つのアプリケーションのフィールドの同期中に発生した例外およびエラーに関する情報が表示されます。
 
    ログには、次のフィールドが含まれます。
 
    * 発生日
    * Jira のユーザーの名前
-   * Jira 発行番号
+   * Jira のイシュー番号
    * 発生したエラーの簡単な説明。
