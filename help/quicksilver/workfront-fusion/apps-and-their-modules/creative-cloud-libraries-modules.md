@@ -4,36 +4,36 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Adobe Creative Cloud Libraries モジュール
-description: を使用 [!DNL Adobe Workfront Fusion Adobe Creative Cloud] ライブラリモジュールを使用すると、要素やライブラリが作成または更新されたときにシナリオを開始できます。 また、要素をアップロード、取得、アーカイブまたはリストすることも、 [!DNL Adobe Creative Cloud Libraries] API.
+title: Adobe Creative Cloud ライブラリモジュール
+description: ' [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  ライブラリモジュールを使用すると、要素やライブラリが作成または更新されたときにシナリオを開始できます。また、要素をアップロード、取得、アーカイブまたはリストすることも、 [!DNL Adobe Creative Cloud Libraries]  API を呼び出すこともできます。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1241'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Creative Cloud Libraries Modules
+# Adobe Creative Cloud ライブラリモジュール
 
-を使用 [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] モジュールを使用すると、要素またはライブラリが作成または更新されたときにシナリオを開始できます。 また、要素をアップロード、取得、アーカイブまたはリストすることも、 [!DNL Adobe Creative Cloud Libraries] API.
+[!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] モジュールを使用すると、要素やライブラリが作成または更新されたときにシナリオを開始できます。また、要素をアップロード、取得、アーカイブまたはリストすることも、[!DNL Adobe Creative Cloud Libraries] API を呼び出すこともできます。
 
-シナリオの作成手順については、 [シナリオの作成](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順が必要な場合は、[](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
       <td>
         <p>[!UICONTROL Pro] 以降</p>
       </td>
@@ -41,42 +41,42 @@ ht-degree: 0%
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
       <td>
-        <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p>
+        <p>[!UICONTROL Plan]、[!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td>
       <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">製品</td>
       <td>
-   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、[!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も組織で購入する必要があります。[!DNL Workfront Fusion] は [!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明されている機能を使用するには、[!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も組織で購入する必要があります。</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
-次を使用するには： [!DNL Adobe Creative Cloud Libraries] モジュールの場合は、 [!UICONTROL Adobe Creative Cloud] アカウント。
+[!DNL Adobe Creative Cloud Libraries] モジュールを使用するには、[!UICONTROL Adobe Creative Cloud] アカウントが必要です。
 
-## [!UICONTROL Adobe Creative Cloud Libraries] モジュールとそのフィールド
+## [!UICONTROL Adobe Creative Cloud ライブラリ]モジュールおよびそのフィールド
 
-設定時に [!UICONTROL Adobe Creative Cloud Libraries] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Adobe Creative Cloud Libraries] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!UICONTROL Adobe Creative Cloud ライブラリ]モジュール設定時に、[!DNL Workfront Fusion] には以下のフィールドが表示されます。これらと共に、アプリやサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Adobe Creative Cloud Libraries] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) で 1 つのモジュールから別のモジュールに情報をマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -94,13 +94,13 @@ ht-degree: 0%
 
 * [[!UICONTROL 要素の取得]](#get-an-element)
 
-* [[!UICONTROL リスト要素]](#list-elements)
+* [[!UICONTROL 要素のリスト]](#list-elements)
 
 * [[!UICONTROL 要素のアップロード]](#upload-an-element)
 
-* [!UICONTROL [ ライブラリの新しい要素を監視する ]](#watch-new-element-in-library)
+* [!UICONTROL [Watch New Element in Library]](#watch-new-element-in-library)
 
-* [[!UICONTROL 更新された要素を監視する]](#watch-updated-elements)
+* [[!UICONTROL 更新された要素の監視]](#watch-updated-elements)
 
 
 #### [!UICONTROL 要素のアーカイブ]
@@ -112,15 +112,15 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>接続方法については、 [!DNL Adobe Creative Cloud] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ライブラリ ID]</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >アーカイブする要素を含むライブラリを選択します。</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL 要素 ID]</td>
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL Element ID]</td>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">アーカイブする要素を選択します。</td>
     </tr>
   </tbody>
@@ -135,36 +135,36 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>接続方法については、 [!DNL Adobe Creative Cloud] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ライブラリ ID]</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >取得する要素を含むライブラリを選択します。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 要素 ID]</td>
+      <td role="rowheader">[!UICONTROL Element ID]</td>
       <td>取得する要素の ID を入力またはマッピングします。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL セレクター ]</td>
+      <td role="rowheader">[!UICONTROL Selector]</td>
       <td>
         <p>モジュールが返す情報のタイプを選択します。 </p>
         <ul>
           <li>
-            <p><b>[!UICONTROL デフォルト ]</b>
+            <p><b>[!UICONTROL Default]</b>
             </p>
             <p>ベースデータ</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 詳細 ]</b>
+            <p><b>[!UICONTROL Details]</b>
             </p>
             <p>すべての使用可能なデータ</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 表示域 ]</b>
+            <p><b>[!UICONTROL Representations]</b>
             </p>
-            <p>ライブラリ要素に関連付けられたアセットの統合されたリスト</p>
+            <p>ライブラリ要素に関連付けられたアセットのフラット化されたリスト</p>
           </li>
         </ul>
       </td>
@@ -181,46 +181,46 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>接続方法については、 [!DNL Adobe Creative Cloud] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ライブラリ ID]</td>
-      <td >要素のリストを表示するライブラリを選択します。</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
+      <td >要素をリストするライブラリを選択します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Order by]</td>
-      <td>名前順に結果を並べ替えるか、要素が最後に変更された日付順に選択します。</td>
+      <td>結果を名前順に並べ替えるか、要素が最後に変更された日付順に並べ替えるかを選択します。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL の種類 ]</td>
-      <td >MIME タイプを入力して、指定した MIME タイプで識別される要素に結果を制限します。 例: <code>string</code>.</td>
+      <td role="rowheader">[!UICONTROL Type]</td>
+      <td >MIME タイプを入力して、指定した MIME タイプで識別される要素に結果を制限します。例：<code>string</code>。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL セレクター ]</td>
+      <td role="rowheader">[!UICONTROL Selector]</td>
       <td>
         <p>モジュールが返す情報のタイプを選択します。 </p>
         <ul>
           <li>
-            <p><b>[!UICONTROL デフォルト ]</b>
+            <p><b>[!UICONTROL Default]</b>
             </p>
             <p>ベースデータ</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 詳細 ]</b>
+            <p><b>[!UICONTROL Details]</b>
             </p>
             <p>すべての使用可能なデータ</p>
           </li>
           <li>
-            <p><b>[!UICONTROL 表示域 ]</b>
+            <p><b>[!UICONTROL Representations]</b>
             </p>
-            <p>ライブラリ要素に関連付けられたアセットの統合されたリスト</p>
+            <p>ライブラリ要素に関連付けられたアセットのフラット化されたリスト</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 制限 ]</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td>
     </tr>
   </tbody>
@@ -228,56 +228,56 @@ ht-degree: 0%
 
 #### [!UICONTROL 要素のアップロード]
 
-このアクションモジュールは、小さいファイルアセットを既存のライブラリにアップロードします。 最大ファイルサイズは 1 GB です。
+このアクションモジュールは、小さなファイルアセットを既存のライブラリにアップロードします。最大ファイルサイズは 1 GB です。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>接続方法については、 [!DNL Adobe Creative Cloud] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]への接続の作成 - 基本手順を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ライブラリ ID]</td>
-      <td >要素のリストを表示するライブラリを選択します。</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
+      <td >要素をリストするライブラリを選択します。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 呼び出しモード ]</td>
+      <td role="rowheader">[!UICONTROL Invocation Mode]</td>
       <td>
         <p>このリクエストプロセスを呼び出す処理モードを選択します。</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL 同期 ]</b>
+            <p><b>[!UICONTROL sync]</b>
             </p>
-            <p>API 呼び出しが同期的に処理されます。 処理が完了すると（呼び出しがタイムアウトしない限り）応答が配信されます。</p>
+            <p>API 呼び出しが同期処理されます。処理が完了すると（呼び出しがタイムアウトしない限り）応答が配信されます。</p>
           </li>
           <li>
             <p><b>[!UICONTROL async]</b>
             </p>
-            <p>非同期モニタ応答は直ちに返され、リクエスト処理は非同期で実行されます。 呼び出しは、完了するまでエンドポイントをポーリングする役割を持ちます。</p>
+            <p>非同期モニター応答は直ちに返され、リクエスト処理は非同期で実行されます。呼び出しは、完了するまでエンドポイントをポーリングする役割を持ちます。</p>
           </li>
           <li>
-            <p><b>[!UICONTROL sync,async]</b> （デフォルト）</p>
-            <p>リクエストの同期処理が試行されます。 処理が 5000 ミリ秒を超えると、非同期モニター応答が返されます。 要求が完了するまで、モニター URL をポーリングする必要があります。</p>
+            <p><b>[!UICONTROL sync,async]</b>（デフォルト）</p>
+            <p>リクエストの同期処理が試行されます。処理時間が 5000 ミリ秒を超えると、非同期モニター応答が返されます。リクエストが完了するまで、モニター URL をポーリングする必要があります。</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL タイプファイル ]</td>
-      <td >アップロードするファイルの MIME タイプを入力またはマッピングします。</td>
+      <td role="rowheader">[!UICONTROL Type File]</td>
+      <td >アップロードしたファイルの MIME タイプを入力またはマッピングします。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ソースファイル ]</td>
+      <td role="rowheader">[!UICONTROL Source File]</td>
       <td>
-        <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p>
+        <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL ライブラリの新しい要素を監視する]
+#### [!UICONTROL ライブラリの新しい要素を監視]
 
 このトリガーモジュールは、要素がライブラリに追加されると、シナリオを開始します。
 
@@ -286,39 +286,39 @@ ht-degree: 0%
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>接続方法については、 [!DNL Adobe Creative Cloud] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ライブラリ ID]</td>
-      <td >更新された要素を監視するライブラリを選択します。</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
+      <td >アップデートされた要素を監視するライブラリを選択します。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 制限 ]</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td>
     </tr>
   </tbody>
 </table>
 
 
-#### [!UICONTROL 更新された要素を監視する]
+#### [!UICONTROL アップデートされた要素を監視]
 
-このトリガーモジュールは、ライブラリ内の要素が更新されると、シナリオを開始します。
+このトリガーモジュールは、ライブラリ内の要素がアップデートされると、シナリオを開始します。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>接続方法については、 [!DNL Adobe Creative Cloud] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ライブラリ ID]</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >新しい要素を監視するライブラリを選択します。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 制限 ]</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td>
     </tr>
   </tbody>
@@ -326,44 +326,44 @@ ht-degree: 0%
 
 ### ライブラリ
 
-* [[!UICONTROL 新しいライブラリを見る]](#watch-new-libraries)
+* [[!UICONTROL 新しいライブラリを監視]](#watch-new-libraries)
 
-* [[!UICONTROL 更新されたライブラリを監視する]](#watch-updated-libraries)
+* [[!UICONTROL アップデートされたライブラリを監視]](#watch-updated-libraries)
 
 
-#### [!UICONTROL 新しいライブラリを見る]
+#### [!UICONTROL 新しいライブラリを監視]
 
-このトリガーモジュールは、新しいライブラリが作成される際にシナリオを開始します。
+このトリガーモジュールは、新しいライブラリの作成時にシナリオを開始します。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>接続方法については、 [!DNL Adobe Creative Cloud] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 制限 ]</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL 更新されたライブラリを監視する]
+#### [!UICONTROL アップデートされたライブラリを監視]
 
-このトリガーモジュールは、既存のライブラリが更新されると、シナリオを開始します。
+このトリガーモジュールは、既存のライブラリの更新時にシナリオを開始します。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td>接続方法については、 [!DNL Adobe Creative Cloud] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順。</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 制限 ]</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td>
     </tr>
   </tbody>
@@ -371,60 +371,60 @@ ht-degree: 0%
 
 ### その他
 
-#### [!UICONTROL API 呼び出しを実行する]
+#### [!UICONTROL API 呼び出しを実行]
 
-このモジュールは、 [!DNL Adobe Creative Cloud Libraries] API.
+このモジュールは、[!DNL Adobe Creative Cloud Libraries] API に対してカスタム API 呼び出しを実行します。
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL 接続 ]</td>
-      <td> <p>Adobe Creative CloudアカウントをWorkfront Fusion に接続する手順については、 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion — 基本手順への接続を作成します。</a></p>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td> <p>Adobe Creative Cloud アカウントを Workfront Fusion に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront Fusion への接続を作成 - 基本手順を参照してください。</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>相対パスを入力 <code>https://cc-libraries.adobe.io/api</code>.</p>
-    <p>例： <code>/v1/libraries</code>.</p>
+        <p><code>https://cc-libraries.adobe.io/api</code> への相対パスを入力します。</p>
+    <p>例：<code>/v1/libraries</code></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL API バージョン ]</td>
+      <td role="rowheader">[!UICONTROL API version]</td>
       <td>
-        <p>のバージョンを選択 [!DNL Adobe Analytics] 接続先の API。</p>
+        <p>接続する [!DNL Adobe Analytics] APIのバージョンを選択します。</p>
       </td>
     </tr>    <tr>
-      <td role="rowheader">[!UICONTROL メソッド ]</td>
-      <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Method]</td>
+      <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での HTTP リクエスト方法を参照してください。</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
-        <p>標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します。</p>
-        <p>以下に例を挙げます。 <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion は、認証ヘッダーを追加します。</p>
+        <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p>
+        <p>例： <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion は認証ヘッダーを追加します。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL クエリ文字列 ]</td>
+      <td role="rowheader">[!UICONTROL Query String]</td>
       <td>
-        <p>標準の JSON オブジェクトの形式で、API 呼び出しのクエリを追加します。</p>
+        <p>API 呼び出しのクエリを標準 JSON オブジェクトの形式で追加します。</p>
         <p>例： <code>{"name":"something-urgent"}</code></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 本文 ]</td>
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+      <td role="rowheader">[!UICONTROL Body]</td>
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件ステートメントを JSON で使用する場合は、条件ステートメントの外側に引用符を挿入します。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
        <tr>
-      <td role="rowheader">[!UICONTROL 一時的なドキュメントのアップロード ]</td>
+      <td role="rowheader">[!UICONTROL Upload a transient document]</td>
       <td>
       <p>一時的なドキュメントをアップロードする場合は、アップロードするドキュメントのソースファイルを入力します。</p>
-      <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p>
+      <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p>
     </td>
     </tr>
 
