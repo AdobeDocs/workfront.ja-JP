@@ -4,84 +4,84 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: トレロモジュール
-description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、Trello を使用するワークフローを自動化し、複数のサードパーティのアプリケーションやサービスに接続できます。
+title: Trello モジュール
+description: ' [!DNL Adobe Workfront Fusion]  シナリオ内では、Trello を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりすることができます。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5087'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL トレロ] モジュール
+# [!UICONTROL Trello] モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!UICONTROL トレロ]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+[!DNL Adobe Workfront Fusion] シナリオでは、[!UICONTROL Trello] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりすることができます。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>レガシー製品要件：この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
-使用する [!DNL Trello] モジュールの場合、 [!UICONTROL トレロ] アカウント
+[!DNL Trello] モジュールを使用するには、[!UICONTROL Trello] アカウントが必要です。
 
-## 接続 [!UICONTROL トレロ] から [!DNL Workfront Fusion]
+## [!UICONTROL Trello] を [!DNL Workfront Fusion] に接続
 
-接続方法 [!UICONTROL トレロ] アカウント [!DNL Workfront Fusion]を参照してください。 [への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)
+[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、[ [!DNL Adobe Workfront Fusion]  への接続の作成 - 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)を参照してください。
 
-## [!UICONTROL トレロ] モジュールとそのフィールド
+## [!UICONTROL Trello] モジュールとそのフィールド
 
-設定時に [!UICONTROL トレロ] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!UICONTROL トレロ] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!UICONTROL Trello] モジュールを設定すると、[!DNL Workfront Fusion] には以下のフィールドが表示されます。これらとともに、アプリやサービスのアクセスレベルなどの要因に応じて、追加の「[!UICONTROL Trello]」フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
 * [ボード](#boards)
 * [リスト](#lists)
-* [枚のカード](#cards)
+* [カード](#cards)
 * [メンバー](#members)
 * [チェックリスト](#checklists)
 * [ラベル](#labels)
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ### ボード
 
-+++ **[!UICONTROL ウォッチボード]**
++++ **[!UICONTROL ボードを監視]**
 
 このトリガーモジュールは、新しいボードが追加されるとシナリオを開始します。
 
@@ -98,19 +98,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ] </td> 
-   <td> <p>ボードの最大数 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>[!DNL Workfront Fusion] が 1 回の実行サイクルで返すボードの最大数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL ボードの作成]**
++++ **[!UICONTROL ボードを作成]**
 
 このアクションモジュールは、選択した設定で新しいボードを作成します。
 
@@ -119,72 +119,75 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 名前 ] </td> 
-   <td> <p>新しいボードの名前を入力またはマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Name] </td> 
+   <td> <p>新しいボードの名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 説明 ]</td> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
    <td> <p>必要に応じて、ボードの説明を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 組織 ID]</p> </td> 
-   <td> <p>組織の ID を入力またはマッピングします。 組織 ID は、監視アクティビティモジュールなど、別のモジュールを使用して取得できます。</p> <p> <img src="assets/id-of-org.png"> </p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Organization ID]</p> </td> 
+   <td> <p>組織の ID を入力またはマッピングします。Watch Activities モジュールなどの別のモジュールを使用して組織 ID を取得できます。</p> <p> <img src="assets/id-of-org.png"> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 権限レベル ]</p> </td> 
-   <td> <p>ボードには、権限レベルごとに異なる投票およびコメントルールがあります。 例：ボードが [!UICONTROL Private] で、投票ルールとコメントルールを [!UICONTROL All] として設定している場合は、エラーが表示されます。 </p> <p>投票とコメントは、権限レベルごとに次のグループに制限されます。</p> 
+   <td role="rowheader"> <p>[!UICONTROL Permission level]</p> </td> 
+   <td> <p>ボードには、権限レベルごとに異なる投票ルールおよびコメントルールがあります。例えば、ボードが [!UICONTROL Private] で、投票ルールとコメントルールを [!UICONTROL All] として設定した場合、エラーが発生します。 </p> <p>投票とコメントは、権限レベルごとに次のグループに制限されます。</p> 
     <ul> 
-     <li><strong>[!UICONTROL プライベート ]</strong>:—&gt; メンバー、メンバーおよび監視者</li> 
-     <li><strong>[!UICONTROL 組織用 ]</strong>:—&gt; メンバー、メンバーおよび監視者、組織メンバー</li> 
-     <li><strong>[!UICONTROL パブリック ]</strong>:—&gt; メンバー、メンバーおよび監視者、組織メンバー、すべて</li> 
+     <li><strong>[!UICONTROL Private]</strong>：
+      --&gt;メンバー、メンバーおよびオブザーバー</li> 
+     <li><strong>[!UICONTROL For organization]</strong>：
+      --&gt;メンバー、メンバーおよびオブザーバー、組織のメンバー</li> 
+     <li><strong>[!UICONTROL Public]</strong>：
+      --&gt;メンバー、メンバーおよびオブザーバー、組織のメンバー、すべて</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 投票 ]</p> </td> 
-   <td> <p>このボードで投票できる人を指定するオプションを選択します。 権限レベルでの投票制限については、「 [!UICONTROL 権限レベル ] 」フィールドを参照してください。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Voting]</p> </td> 
+   <td> <p>このボードで投票できるユーザーを、オプションを選択して指定します。権限レベルでの投票の制限については、「[!UICONTROL Permission level]」フィールドを参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL コメント ]</p> </td> 
-   <td> <p>このボードのカードにコメントできるユーザーを指定するオプションを選択します。 権限レベルの制限については、 [!UICONTROL 権限レベル ] フィールドを参照してください。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Comments]</p> </td> 
+   <td> <p>このボードのカードにコメントできるユーザーを、オプションを選択して指定します。権限レベルでのコメントの制限については、「[!UICONTROL Permission level]」フィールドを参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL の招待 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Invitations]</p> </td> 
    <td> <p>他のユーザーをこのボードに招待できるユーザーを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 自己結合 ]</p> </td> 
-   <td> <p>チームメンバーが自分でボードに参加できるか、招待する必要があるかを選択します。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Self-join]</p> </td> 
+   <td> <p>チームメンバーが自分でボードに参加できるか、招待される必要があるかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL デフォルトのラベル ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Default labels]</p> </td> 
    <td> <p>新しいボードにデフォルトのラベルセットを使用するかどうかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL デフォルトリスト ]</p> </td> 
-   <td> <p>デフォルトのリストセットをボードに追加するか（[!UICONTROL タスク ]、[!UICONTROL 実行 ]、[!UICONTROL 完了 ]）を選択します。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Default lists]</p> </td> 
+   <td> <p>デフォルトのリストセットをボードに追加するかを選択します（[!UICONTROL To Do]、[!UICONTROL Doing]、[!UICONTROL Done]）。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ボードソース ID]</p> </td> 
-   <td> <p>新しいボードにコピーするボードの ID を選択またはマップします。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Board source ID]</p> </td> 
+   <td> <p>新しいボードにコピーするボードの ID を選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL カードカバー ]</p> </td> 
-   <td> <p>選択 <strong>[!UICONTROL はい ]</strong> ボードのカードカバーを有効にする場合。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Card Covers]</p> </td> 
+   <td> <p>ボードのカードカバーを有効にする場合は、「<strong>[!UICONTROL Yes]</strong>」を選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 背景 ]</p> </td> 
-   <td> <p>背景の色またはカスタムの背景を選択します。</p> <p>注意：カスタム背景は、[!UICONTROL Trello Gold および Business Class] の購読者のみが使用できます。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Background]</p> </td> 
+   <td> <p>背景のカラーまたはカスタム背景を選択します。</p> <p>メモ：カスタム背景は、[!UICONTROL Trello Gold and Business Class] のサブスクライバーのみが使用できます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL カードの古いバージョン ]</p> </td> 
-   <td> <p>2 つのカードエージングモードから選択します。 </p> 
+   <td role="rowheader"> <p>[!UICONTROL Card aging]</p> </td> 
+   <td> <p>カードの期間経過を表す 2 つのモードから選択します。 </p> 
     <ul> 
-     <li><strong>[!UICONTROL Regular]</strong>:カードは年を取るにつれて徐々に透明になる。 </li> 
-     <li><strong>[!UICONTROL Priate]</strong>:カードは年をとるにつれて、古い海賊の地図のように裂け、黄色く、き裂ける。</li> 
+     <li><strong>[!UICONTROL Regular]</strong>：カードは期間が経過するにつれ、徐々に透明になります。 </li> 
+     <li><strong>[!UICONTROL Pirate]</strong>：カードは期間が経過するにつれ、古びた海賊の地図のように、裂け、黄ばみ、ひび割れます。</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -201,92 +204,95 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成- 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ボード ID]</p> </td> 
-   <td> <p>モジュールで作成するボードの一意の [!UICONTROL Trello] ID を入力またはマッピングします。 ボード ID は、Watch Boards モジュールなど、別のモジュールを使用して取得できます</p> <p> <img src="assets/watch-boards.png"> </p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
+   <td> <p>モジュールで作成するボードの一意の [!UICONTROL Trello] ID を入力またはマッピングします。Watch Boards モジュールなどの別のモジュールを使用してボード ID を取得できます。</p> <p> <img src="assets/watch-boards.png"> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新しい名前 ]</td> 
-   <td> <p> ボードの新しい名前を入力またはマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td> <p> ボードの新しい名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新しい説明 ]</td> 
-   <td> <p> 必要に応じて、新しいボードの説明を入力またはマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL New description]</td> 
+   <td> <p> 必要に応じて、ボードの説明を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 組織 ID]</p> </td> 
-   <td> <p>モジュールで編集するボードの一意の [!UICONTROL Trello] ID を入力またはマッピングします。 ボード ID は、 [!DNL Watch Activities] モジュール。</p> <p> <img src="assets/org-id.png"> </p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Organization ID]</p> </td> 
+   <td> <p>モジュールで編集するボードの一意の [!UICONTROL Trello] ID を入力またはマッピングします。[!DNL Watch Activities] モジュールなどの別のモジュールを使用してボード ID を取得できます。</p> <p> <img src="assets/org-id.png"> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 購読 ] </td> 
-   <td> <p>オプションを選択して、代理ユーザーがボードを購読するかどうかを指定します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Subscribe] </td> 
+   <td> <p>オプションを選択して、代理ユーザーがボードに登録しているかどうかを指定します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 権限レベル ]</p> </td> 
-   <td> <p>ボードには、権限レベルごとに異なる投票およびコメントルールがあります。 例：ボードが [!UICONTROL Private] で、投票ルールとコメントルールを [!UICONTROL All] として設定している場合は、エラーが表示されます。 </p> <p>投票とコメントは、権限レベルごとに次のグループに制限されます。</p> 
+   <td role="rowheader"> <p>[!UICONTROL Permission level]</p> </td> 
+   <td> <p>ボードには、権限レベルごとに異なる投票ルールおよびコメントルールがあります。例えば、ボードが [!UICONTROL Private] で、投票ルールとコメントルールを [!UICONTROL All] として設定した場合、エラーが発生します。 </p> <p>投票とコメントは、権限レベルごとに次のグループに制限されます。</p> 
     <ul> 
-     <li><strong>[!UICONTROL プライベート ]</strong>:—&gt; メンバー、メンバーおよび監視者</li> 
-     <li><strong>[!UICONTROL 組織用 ]</strong>:—&gt; メンバー、メンバーおよび監視者、組織メンバー</li> 
-     <li><strong>[!UICONTROL パブリック ]</strong>:—&gt; メンバー、メンバーおよび監視者、組織メンバー、すべて</li> 
+     <li><strong>[!UICONTROL Private]</strong>：
+      --&gt;メンバー、メンバーおよびオブザーバー</li> 
+     <li><strong>[!UICONTROL For organization]</strong>：
+      --&gt;メンバー、メンバーおよびオブザーバー、組織のメンバー</li> 
+     <li><strong>[!UICONTROL Public]</strong>：
+      --&gt;メンバー、メンバーおよびオブザーバー、組織のメンバー、全員</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 投票 ]</p> </td> 
-   <td> <p>このボードで投票できる人を指定するオプションを選択します。 権限レベルでの投票制限については、「 [!UICONTROL 権限レベル ] 」フィールドを参照してください。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Voting]</p> </td> 
+   <td> <p>このボードで投票できるユーザーを、オプションを選択して指定します。権限レベルでの投票の制限については、「[!UICONTROL Permission level]」フィールドを参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL コメント ]</p> </td> 
-   <td> <p>このボードのカードにコメントできるユーザーを指定するオプションを選択します。 権限レベルの制限については、 [!UICONTROL 権限レベル ] フィールドを参照してください。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Comments]</p> </td> 
+   <td> <p>このボードのカードにコメントできるユーザーを、オプションを選択して指定します。権限レベルでのコメントの制限については、「[!UICONTROL Permission level]」フィールドを参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL の招待 ] </td> 
-   <td> <p>このボードに人を招待できるユーザーを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Invitations] </td> 
+   <td> <p>このボードにユーザーを招待できる担当者を選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 自己結合 ]</td> 
-   <td> <p> チームメンバーが自分でボードに参加できるか、招待する必要があるかを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Self-join]</td> 
+   <td> <p> チームメンバーが自分でボードに参加できるか、招待される必要があるかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カードカバー ]</td> 
-   <td> <p> このボードにカードカバーを表示するかどうかを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Card covers]</td> 
+   <td> <p> このボードにカードの表紙を表示するかどうかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 背景 ] </td> 
-   <td> <p>背景の色またはカスタムの背景を選択します。</p> <p>注意：カスタム背景は、[!UICONTROL Trello Gold および Business Class] の購読者のみが使用できます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Background] </td> 
+   <td> <p>背景のカラーまたはカスタム背景を選択します。</p> <p>メモ：カスタム背景は、[!UICONTROL Trello Gold and Business Class] のサブスクライバーのみが使用できます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 背景 ID]</td> 
-   <td> <p> 「[!UICONTROL 背景 ]」フィールドでカスタム背景の使用を選択した場合は、使用する背景の ID を入力またはマッピングします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Background ID]</td> 
+   <td> <p> [!UICONTROL Background] フィールドでカスタム背景の使用を選択した場合は、使用する背景の ID を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL カードの古いバージョン ]</p> </td> 
-   <td> <p>2 つのカードエージングモードから選択します。 </p> 
+   <td role="rowheader"> <p>[!UICONTROL Card aging]</p> </td> 
+   <td> <p>カードの期間経過を表す 2 つのモードから選択します。 </p> 
     <ul> 
-     <li><strong>[!UICONTROL Regular]</strong>:カードは年を取るにつれて徐々に透明になる。 </li> 
-     <li><strong>[!UICONTROL Priate]</strong>:カードは年をとるにつれて、古い海賊の地図のように裂け、黄色く、き裂ける。</li> 
+     <li><strong>[!UICONTROL Regular]</strong>：カードは期間が経過するにつれ、徐々に透明になります。 </li> 
+     <li><strong>[!UICONTROL Pirate]</strong>：カードは期間が経過するにつれ、古びた海賊の地図のように、裂け、黄ばみ、ひび割れます。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カレンダーフィードが有効になっています ]</td> 
+   <td role="rowheader">[!UICONTROL Calendar feed enabled]</td> 
    <td> <p> カレンダーフィードを有効にするかどうかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL &lt;color&gt; ラベル名 ]</td> 
+   <td role="rowheader">[!UICONTROL &lt;Color&gt; label name]</td> 
    <td> <p> 目的のカラーラベルに名前を割り当てます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL アーカイブ ] </td> 
-   <td> <p>ボードをアーカイブ（閉じる）するかどうかを指定するオプションを選択します。 </p> </td> 
+   <td role="rowheader">[!UICONTROL Archive] </td> 
+   <td> <p>ボードをアーカイブする（閉じる）かどうかを示すオプションを選択します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL ボードの取得]**
++++ **[!UICONTROL ボードを取得]**
 
 このアクションモジュールは、ボードの詳細を取得します。
 
@@ -295,11 +301,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ボード ID]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
    <td> <p>情報を取得するボードの ID を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
@@ -316,24 +322,24 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL クエリ ] </td> 
+   <td role="rowheader">[!UICONTROL Query] </td> 
    <td> <p>情報を取得するボードの名前（または名前の一部）を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 返されるボードの最大数 ]</td> 
-   <td> <p> ボードの最大数を入力 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。 この値は 1000 以下にする必要があります。</p>  </td> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned boards]</td> 
+   <td> <p> [!DNL Workfront Fusion] が 1 回の実行サイクルで返すボードの最大数を入力します。この値は、1000 以下にする必要があります。</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Partial] </p> </td> 
-   <td> <p>デフォルトでは、このモジュールは、クエリ内の各単語の完全一致をメンバーコンテンツで検索します。 [!UICONTROL の一部 ] が有効な場合、モジュールはクエリ内の任意の単語で始まるコンテンツを検索します。</p> <p> 例えば、「development」という単語を使用して「My Development Status Report」というタイトルのボードを検索する場合、デフォルトでは単語全体を検索する必要があります。 [!UICONTROL Partial] を有効にしている場合、「dev」を検索することはできますが、「development」を検索することはできません。</p> </td> 
+   <td> <p>デフォルトでは、このモジュールは、クエリ内の各単語の完全一致をメンバーコンテンツで検索します。[!UICONTROL Partial] が有効な場合、モジュールはクエリ内の任意の単語で始まるコンテンツを検索します。</p> <p> 例えば、「development」という単語を使用して「My Development Status Report」というタイトルのボードを検索する場合、デフォルトでは単語全体を検索する必要があります。[!UICONTROL Partial] を有効にしている場合、「dev」を検索することはできますが、「velopment」を検索することはできません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ] </td> 
-   <td> <p>"mine"と入力するか、ボード ID のコンマ区切りリストをマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Boards] </td> 
+   <td> <p>「mine」と入力するか、ボード ID のコンマ区切りリストをマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -349,15 +355,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ID]</td> 
-   <td> <p> 閉じる、または再度開くボードの ID を入力またはマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Board ID]</td> 
+   <td> <p> 閉じる、または再度開くボードの ID を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL アーカイブまたはアーカイブ解除 ]</td> 
+   <td role="rowheader">[!UICONTROL Archive or unarchive]</td> 
    <td> <p> ボードを閉じる（アーカイブ）か、再び開く（アーカイブ解除）かを選択します。</p> </td> 
   </tr> 
  </tbody> 
@@ -365,7 +371,7 @@ ht-degree: 0%
 
 +++
 
-+++ **[!UICONTROL メンバーをボードに割り当てる]**
++++ **[!UICONTROL メンバーをボードに割り当て]**
 
 このアクションモジュールは、指定したボードにメンバーを割り当てます。
 
@@ -374,28 +380,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ID]</td> 
+   <td role="rowheader">[!UICONTROL Board ID]</td> 
    <td> <p> メンバーを追加するボードを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 電子メールアドレス ]</td> 
+   <td role="rowheader">[!UICONTROL Email address]</td> 
    <td> <p> ボードに追加するメンバーのメールアドレスを入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL メンバータイプ ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Member type]</p> </td> 
    <td> <p>ボードに追加するメンバーのタイプを選択します。</p> 
     <ul> 
-     <li><strong>[!UICONTROL Admin]</strong>:ボード管理者は、ボード上で任意のボード操作を実行できます。</li> 
-     <li><strong>[!UICONTROL 標準 ]</strong>:通常の部材は、単に基板の部材である。</li> 
-     <li><strong>[!UICONTROL 監視者 ]</strong>:監視者は、ボードに対する読み取り専用アクセス権を持つメンバーです。 <br>オブザーバーは、[!UICONTROL Trello Business Class] のチームでのみ使用できます。</li> 
+     <li><strong>[!UICONTROL Admin]</strong>：ボード管理者は、ボード上で任意のボードアクションを実行できます。</li> 
+     <li><strong>[!UICONTROL Normal]</strong>：通常のメンバーは、ボードのただのメンバーです。</li> 
+     <li><strong>[!UICONTROL Observer]</strong>：オブザーバーは、ボードに対する読み取り専用アクセス権を持つメンバーです。<br>オブザーバーは、[!UICONTROL Trello Business Class] を持っているチームのみが使用できます。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フルネーム ]</td> 
+   <td role="rowheader">[!UICONTROL Full name]</td> 
    <td> <p> ボードに追加するユーザーのフルネームを入力します。</p> </td> 
   </tr> 
  </tbody> 
@@ -403,7 +409,7 @@ ht-degree: 0%
 
 +++
 
-+++ **[!UICONTROL ボードからのメンバーの割り当て解除]**
++++ **[!UICONTROL メンバーをボードから割り当て解除]**
 
 このアクションモジュールは、ボードからメンバーを削除します。
 
@@ -412,15 +418,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ID]</td> 
-   <td> <p> ユーザーを削除するボードの ID を入力（マップまたは選択）します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Board ID]</td> 
+   <td> <p> ユーザーを削除するボードの ID を入力（マッピングまたは選択）します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL メンバー ] </td> 
+   <td role="rowheader">[!UICONTROL Member] </td> 
    <td> <p>ボードから削除するメンバーを選択します。</p> </td> 
   </tr> 
  </tbody> 
@@ -430,36 +436,36 @@ ht-degree: 0%
 
 ### リスト
 
-+++ **[!UICONTROL ウォッチカードがリストに移動しました]**
++++ **[!UICONTROL リストに移動されたカードを監視]**
 
-このトリガーモジュールは、カードが特定のリストに移動されるとアクティブになります。
+このトリガーモジュールは、カードが特定のリストに移動されるとアクティブ化されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ]</td> 
+   <td role="rowheader">[!UICONTROL Board]</td> 
    <td>カードを監視するリストを含むボードを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL リスト ]</td> 
+   <td role="rowheader">[!UICONTROL List]</td> 
    <td>カードを監視するリストを選択します。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ] </td> 
-   <td> <p>カードの最大数 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p>  </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>[!DNL Workfront Fusion] が 1 回の実行サイクルで返すボードの最大数。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL リストの作成]**
++++ **[!UICONTROL リストを作成]**
 
 このアクションモジュールは、指定したボードにリストを作成します。
 
@@ -468,26 +474,26 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ID]</td> 
+   <td role="rowheader">[!UICONTROL Board ID]</td> 
    <td> <p> リストを作成するボードの ID を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 名前 ] </td> 
-   <td> <p>新しいリストの名前を入力またはマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Name] </td> 
+   <td> <p>新しいリストの名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 位置 ] </td> 
+   <td role="rowheader">[!UICONTROL Position] </td> 
    <td> <p>リストを上に追加するか、カードの下に追加するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL リストをコピー ]</td> 
+   <td role="rowheader">[!UICONTROL Copy list]</td> 
    <td> <p> コピーするリストの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>手動で入力</strong> </p> <p>内 <strong>[!UICONTROL リスト ID]</strong> 」フィールドに、コピーするリストの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>手動で入力</strong> </p> <p><strong>[!UICONTROL List ID]</strong> フィールドに、コピーするリストの ID を入力またはマッピングします。<br></p> </li> 
      <li> <p><strong>選択</strong> </p> <p>コピーするリストを含むボードを選択し、リストを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -496,7 +502,7 @@ ht-degree: 0%
 
 +++
 
-+++ **[!UICONTROL リストの編集]**
++++ **[!UICONTROL リストを編集]**
 
 このアクションモジュールは、既存のリストを編集します。
 
@@ -505,27 +511,27 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL リスト ID]</td> 
+   <td role="rowheader">[!UICONTROL List ID]</td> 
    <td> <p> 更新するリストの ID を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 名前 ] </td> 
-   <td> <p>リストの新しい名前を入力またはマップします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Name] </td> 
+   <td> <p>リストの新しい名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ID]</td> 
+   <td role="rowheader">[!UICONTROL Board ID]</td> 
    <td> <p> リストを移動するボードをマッピングまたは選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 位置 ] </td> 
+   <td role="rowheader">[!UICONTROL Position] </td> 
    <td> <p>リストを上に追加するか、カードの下に追加するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 購読済み ]</td> 
+   <td role="rowheader">[!UICONTROL Subscribed]</td> 
    <td> <p>アクティブなメンバーをリストに登録する場合は、このオプションを有効にします。</p> </td> 
   </tr> 
  </tbody> 
@@ -542,11 +548,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL リスト ID]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL List ID]</p> </td> 
    <td> <p>情報を取得するリストの ID を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
@@ -554,9 +560,9 @@ ht-degree: 0%
 
 +++
 
-### 枚のカード
+### カード
 
-+++ **[!UICONTROL 名刺]**
++++ **[!UICONTROL カードを監視]**
 
 このトリガーモジュールは、新しいカードが追加されると有効になります。
 
@@ -565,28 +571,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 監視オブジェクト ]</td> 
+   <td role="rowheader">[!UICONTROL Watched object]</td> 
    <td> <p>カードを監視する場所を選択します。</p> 
     <ul> 
-     <li><strong>[!UICONTROL すべてのカード ]</strong> </li> 
-     <li> <p><strong>特定のボードのカード</strong> </p> <p>カードを監視するボードを選択します</p> </li> 
-     <li> <p><strong>[!UICONTROL 特定のリストのカード ]</strong> </p> <p>カードを監視するリストが含まれているボードを選択し、リストを選択します。</p> </li> 
+     <li><strong>[!UICONTROL All cards]</strong> </li> 
+     <li> <p><strong>特定のボード上のカード</strong> </p> <p>カードを監視するボードを選択します</p> </li> 
+     <li> <p><strong>[!UICONTROL Cards on specific list]</strong> </p> <p>カードを監視するリストが含まれているボードを選択し、リストを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ] </td> 
-   <td> <p>カードの最大数 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>[!DNL Workfront Fusion] が 1 回の実行サイクルで返すボードの最大数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL カードの作成]**
++++ **[!UICONTROL カードを作成]**
 
 このアクションモジュールは、選択したリストにカードを作成します。
 
@@ -595,66 +601,66 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL リスト ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter a list ID]</td> 
    <td> <p> カードを追加するリストの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL リスト ID]</strong> フィールドに、カードを追加するリストの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>コピーするリストを含むボードを選択し、リストを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p><strong>[!UICONTROL List ID]</strong> フィールドに、カードを追加するリストの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>コピーするリストを含むボードを選択し、リストを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ラベル ] </td> 
-   <td> <p>カードに追加するラベルごとに、ラベルの ID を入力します。 ID は、例えば [!UICONTROL ラベルの取得 ] モジュールを使用して取得できます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Labels] </td> 
+   <td> <p>カードに追加するラベルごとに、ラベルの ID を入力します。ID は、例えば [!UICONTROL Retrieve Labels] モジュールを使用して取得できます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL メンバー ]</td> 
+   <td role="rowheader">[!UICONTROL Members]</td> 
    <td>カードに追加する各メンバーに対して、メンバーの ID を入力します。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 名前 ] </td> 
+   <td role="rowheader">[!UICONTROL Name] </td> 
    <td> <p>新しいカードの名前を入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 説明 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Description]</p> </td> 
    <td> <p>カードの説明を入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 位置 ] </td> 
-   <td> <p>カードを上に追加するか、[!UICONTROL 追加 ] を使用してリストの下に追加するかを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Position] </td> 
+   <td> <p>カードをリストの一番上に追加するか、[!UICONTROL append] カードをリストの下部に追加するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 期限 ]</td> 
-   <td> <p> カードの期限を入力します。 サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Due date]</td> 
+   <td> <p> カードの期限を入力します。サポートされる日付と時刻の形式の一覧については、<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での型強制を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 期限 ]</td> 
+   <td role="rowheader">[!UICONTROL Due complete]</td> 
    <td> <p> カードが期限に達したことを示すには、このオプションを有効にします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ファイル URL]</td> 
+   <td role="rowheader">[!UICONTROL File URL]</td> 
    <td> <p>カードに添付ファイルとして追加するファイルの URL を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL ソースファイル ]</p> </td> 
-   <td> <p>カードに添付ファイルとして追加するファイルの情報を入力またはマップします。</p> 
+   <td role="rowheader"> <p>[!UICONTROL Source file]</p> </td> 
+   <td> <p>カードに添付ファイルとして追加するファイルの情報を入力またはマッピングします。</p> 
     <ul> 
-     <li>[!UICONTROL ファイル名 ]:ファイル拡張子を含むファイル名を入力またはマッピングします。</li> 
+     <li>[!UICONTROL File name]：ファイル拡張子を含むファイル名を入力またはマッピングします。</li> 
      <li> 
-     <p>前のモジュールからファイルを選択するか、ファイルの名前とデータをマップします</p> 
-     <p>注意：ファイルのアップロードには、添付ファイルあたり 10 MB の制限があります。 ただし、[!UICONTROL Business Class] メンバーと [!UICONTROL Trello Gold] メンバーには、添付ファイルあたり 250 MB のファイルアップロード制限があります。</p> 
+     <p>前のモジュールからファイルを選択するか、ファイルの名前とデータをマッピング</p> 
+     <p>メモ：ファイルのアップロードには、添付ファイルあたり 10 MB の制限があります。ただし、[!UICONTROL Business Class] のメンバーと [!UICONTROL Trello Gold] のメンバーには、添付ファイル あたり 250MB のアップロード制限があります。</p> 
      </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カードをコピー ]</td> 
+   <td role="rowheader">[!UICONTROL Copy card]</td> 
    <td> <p> コピーするカードの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL カード ID]</strong> 」フィールドに、コピーするカードの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>コピーするカードが含まれるボードを選択し、そのカードを含むリストを選択して、カードを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p><strong>[!UICONTROL Card ID]</strong> フィールドに、コピーするカードの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>コピーするカードを含むボードを選択し、そのカードを含むリストを選択して、カードを選びます。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -662,7 +668,7 @@ ht-degree: 0%
 
 +++
 
-+++ **[!UICONTROL カードの編集]**
++++ **[!UICONTROL カードを編集]**
 
 このアクションモジュールは、既存のカードを編集します。
 
@@ -671,67 +677,67 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter Card ID]</td> 
    <td> <p> 編集するカードの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL カード ID]</strong> フィールドに、編集するカードの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>編集するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p><strong>[!UICONTROL Card ID]</strong> フィールドに、編集するカードの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>編集するカードを含むボードを選択し、そのカードを含むリストを選択して、カードを選びます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 新しい名前 ]</td> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
    <td> <p>カードの新しい名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 新しい説明 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL New description]</p> </td> 
    <td> <p>カードの新しい説明を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL カードの移動 ]</p> </td> 
-   <td> <p>ボードまたはボードを選択し、カードを移動する場所のリストを表示します。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Move a card]</p> </td> 
+   <td> <p>カードを移動するボードまたはボードとリストを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ラベル ] </td> 
+   <td role="rowheader">[!UICONTROL Labels] </td> 
    <td> <p>カードに追加するラベルの ID を追加します。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 位置 ] </td> 
-   <td> <p>カードを上に追加するか、[!UICONTROL 追加 ] を使用してリストの下に追加するかを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Position] </td> 
+   <td> <p>カードをリストの一番上に追加するか、[!UICONTROL append] カードをリストの下部に追加するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 期限 ]</td> 
-   <td> <p> カードの期限を入力します。 サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Due date]</td> 
+   <td> <p> カードの期限を入力します。サポートされる日付と時刻の形式の一覧については、<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での型強制を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 期限 ]</td> 
-   <td> <p> このオプションを有効にすると、カードは期限に完了とマークされます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Due complete]</td> 
+   <td> <p> このオプションを有効にすると、カードは期限日に完了とマークされます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL メンバー ] </td> 
+   <td role="rowheader">[!UICONTROL Members] </td> 
    <td> <p>カードに追加するメンバーの ID を追加またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 添付ファイルカバー ID]</p> </td> 
-   <td> <p>カードのカバーとして使用する画像添付ファイルの ID を入力またはマッピングします。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Attachment cover ID]</p> </td> 
+   <td> <p>カードの表紙として使用する画像添付ファイルの ID を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 購読 ] </td> 
-   <td> <p>メンバーがカードを購読する必要があるかどうかを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Subscribe] </td> 
+   <td> <p>メンバーをカードに登録するかどうかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL アーカイブ ] </td> 
-   <td> <p>カードをアーカイブ（閉じる）するかどうかを指定するオプションを選択します。 </p> </td> 
+   <td role="rowheader">[!UICONTROL Archive] </td> 
+   <td> <p>カードをアーカイブ（クローズ）するかどうかを示すオプションを選択します。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL カードの入手]**
++++ **[!UICONTROL カードを入手]**
 
 このアクションモジュールは、選択したカードの詳細を取得します。
 
@@ -740,19 +746,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ID]</td> 
-   <td> <p>詳細を取得するカードが含まれるボードの ID を入力します。 これにより、ボードのカスタムフィールドの名前を確認できます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Board ID]</td> 
+   <td> <p>詳細を取得するカードが含まれるボードの ID を入力します。この ID によって、ボードのカスタムフィールドの名前を確認できます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter card ID]</td> 
    <td> <p> 詳細を取得するカードの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL カード ID]</strong> 「 」フィールドに、詳細を取得するカードの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>詳細を取得するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>「<strong>[!UICONTROL Card ID]</strong>」フィールドに、詳細を取得するカードの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>詳細を取得するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -769,49 +775,49 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ボード ] </td> 
-   <td> <p>検索するボードを選択します。 ボードが選択されていない場合は、すべてのボードが検索されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Board] </td> 
+   <td> <p>検索するボードを選択します。ボードが選択されていない場合は、すべてのボードが検索されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL クエリ ]</p> </td> 
-   <td> <p>検索クエリを入力します。 次の検索演算子を使用して、検索を絞り込むことができます。</p> 
+   <td role="rowheader"> <p>[!UICONTROL Query]</p> </td> 
+   <td> <p>検索クエリを入力します。次の検索演算子を使用すると、検索を絞り込むことができます。</p> 
     <ul> 
-     <li><code><strong>-operator</strong></code> <p>「 — 」を任意の演算子に追加して、除外検索 ( 例： <code>[!UICONTROL -has:members]</code> をクリックして、メンバーが割り当てられていないカードを検索します。</p> </li> 
-     <li><code><strong>@name</strong></code> <p>メンバーに割り当てられたカードを返します。 また、 <code>member:</code>. 用途 <code>@me</code> カードのみを含める場合。</p> </li> 
-     <li><code><strong>#label</strong></code> <p>ラベル付きのカードを返します。 また、 <code>label:</code>. 例： <code>label:"FIX IT"</code> は「FIX IT」というラベルのカードを返します。</p> </li> 
-     <li><code><strong>board:id</strong></code> <p>特定のボード内のカードを返します。 例： <code>board:Trello</code> は、ボード名に [!UICONTROL Trello] が含まれるボードにカードを返します。</p> </li> 
+     <li><code><strong>-operator</strong></code> <p>「-」を任意の演算子に追加して、除外検索を実行できます。例えば、<code>[!UICONTROL -has:members]</code> を使用すると、メンバーが割り当てられていないカードを検索できます。</p> </li> 
+     <li><code><strong>@name</strong></code> <p>メンバーに割り当てられたカードを返します。<code>member:</code> を使用することもできます。カードのみを含めるには <code>@me</code> を使用します。</p> </li> 
+     <li><code><strong>#label</strong></code> <p>ラベル付きのカードを返します。<code>label:</code> を使用することもできます。例えば、<code>label:"FIX IT"</code> は「FIX IT」というラベルのカードを返します。</p> </li> 
+     <li><code><strong>board:id</strong></code> <p>特定のボード内のカードを返します。例えば、<code>board:Trello</code> は、ボード名に [!UICONTROL Trello] が含まれるボードのカードを返します。</p> </li> 
      <li><code><strong>list:name</strong></code> <p>「name」という名前のリスト内のカードを返します。</p> </li> 
-     <li><code><strong>has:attachments</strong></code> <p>添付ファイル付きのカードを返します。 この <code>has</code>:演算子は、 <code>has:description</code>, <code>has:cover</code>, <code>has:members</code>または <code>has:stickers</code>.</p> </li> 
-     <li><code><strong>due:day</strong></code> <p>24 時間以内に期限切れのカードを返します。 この <code>due:</code> 演算子は、 <code>due:week</code>, <code>due:month</code>または <code>due:overdue</code>. また、特定の日の範囲を検索することもできます。 例： <code>due:14</code> 検索には、今後 14 日以内に期限が切れるカードが含まれます。</p> </li> 
-     <li><code><strong>created:day</strong></code> <p>過去 24 時間に作成されたカードを返します。 この<code> created:</code> 演算子は、 <code>created:week</code> または <code>created:month</code>. また、特定の日の範囲を検索することもできます。 例： <code>created:14</code> 「 」では、過去 14 日間に作成されたカードが検索に含まれます。</p> </li> 
-     <li><code><strong>edited:day</strong></code> <p>過去 24 時間に編集されたカードを返します。 この <code>edited:</code> 演算子は、 <code>edited:week</code> または <code>edited:month</code>. また、特定の日の範囲を検索することもできます。 例： <code>edited:21</code> を検索するには、過去 21 日間に編集されたカードが含まれます。</p> </li> 
-     <li><code><strong>description:</strong>, <strong>checklist:</strong>, <strong>comment:</strong>, and <strong>name:</strong></code> <p>カードの説明、チェックリスト、コメント、名前のテキストに一致するカードを返します。 例えば、comment:"FIX IT"はコメントに"FIX IT"を含むカードを返します。</p> </li> 
-     <li><code><strong>is:open</strong> and <strong>is:archived</strong></code> <p>開いているまたはアーカイブされているカードを返します。 どちらも指定されていない場合、[!UICONTROL Trello] は両方の型を返します。</p> </li> 
+     <li><code><strong>has:attachments</strong></code> <p>添付ファイル付きのカードを返します。<code>has</code>: 演算子は、<code>has:description</code>、<code>has:cover</code>、<code>has:members</code> または <code>has:stickers</code> などの他の属性と併用することもできます。</p> </li> 
+     <li><code><strong>due:day</strong></code> <p>24 時間以内に期限が切れるカードを返します。<code>due:</code> 演算子は、<code>due:week</code>、<code>due:month</code>、<code>due:overdue</code> などの他の時間枠でも使用できます。また、特定の日の範囲を検索することもできます。例えば、次の 14 日以内に期限が切れるカードを含めるには、検索に <code>due:14</code> を追加します。</p> </li> 
+     <li><code><strong>created:day</strong></code> <p>過去 24 時間以内に作成されたカードを返します。<code> created:</code> 演算子は、<code>created:week</code> または <code>created:month</code> などの他の時間枠でも使用できます。また、特定の日の範囲を検索することもできます。例えば、過去 14 日間に作成されたカードを含めるには、検索に <code>created:14</code> を追加します。</p> </li> 
+     <li><code><strong>edited:day</strong></code> <p>過去 24 時間に編集されたカードを返します。<code>edited:</code> 演算子は、<code>edited:week</code> や <code>edited:month</code> などの他の時間枠でも使用できます。また、特定の日の範囲を検索することもできます。例えば、過去 21 日間に編集されたカードを含めるには、検索に <code>edited:21</code> を追加します。</p> </li> 
+     <li><code><strong>description:</strong>, <strong>checklist:</strong>, <strong>comment:</strong>, and <strong>name:</strong></code> <p>カードの説明、チェックリスト、コメント、名前のテキストに一致するカードを返します。例えば、comment:"FIX IT" はコメントに「FIX IT」を含むカードを返します。</p> </li> 
+     <li><code><strong>is:open</strong> and <strong>is:archived</strong></code> <p>オープンなカード、またはアーカイブされているカードを返します。いずれも指定されていない場合、[!UICONTROL Trello] は両方のタイプを返します。</p> </li> 
      <li><code><strong>is:starred</strong> </code> <p>スター付きのボードのカードのみが含まれます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 返されるカードの最大数 ]</td> 
-   <td> <p> カードの最大数 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。 この値は 1000 以下にする必要があります。</p> </td> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned cards]</td> 
+   <td> <p> [!DNL Workfront Fusion] が 1 回の実行サイクルで返すカードの最大数。この値は、1000 以下にする必要があります。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Partial] </td> 
-   <td> <p>デフォルトでは、このモジュールは、クエリ内の各単語の完全一致をメンバーコンテンツで検索します。 [!UICONTROL の一部 ] が有効な場合、モジュールはクエリ内の任意の単語で始まるコンテンツを検索します。</p> <p> 例えば、「development」という単語を使用して「My Development Status Report」というタイトルのボードを検索する場合、デフォルトでは単語全体を検索する必要があります。 [!UICONTROL Partial] を有効にしている場合、「dev」を検索することはできますが、「development」を検索することはできません。</p> </td> 
+   <td> <p>デフォルトでは、このモジュールは、クエリ内の各単語の完全一致をメンバーコンテンツで検索します。[!UICONTROL Partial] が有効な場合、モジュールはクエリ内の任意の単語で始まるコンテンツを検索します。</p> <p> 例えば、「development」という単語を使用して「My Development Status Report」というタイトルのボードを検索する場合、デフォルトでは単語全体を検索する必要があります。[!UICONTROL Partial] を有効にしている場合、「dev」を検索することはできますが、「velopment」を検索することはできません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ] </td> 
-   <td> <p>特に検索するカードを追加します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Cards] </td> 
+   <td> <p>具体的に検索したいカードを追加します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL カードのアーカイブまたはアーカイブ解除]**
++++ **[!UICONTROL カードをアーカイブまたはアーカイブ解除]**
 
 このアクションモジュールは、カードをアーカイブするか、ボードに送り返します。
 
@@ -820,15 +826,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID]</td> 
-   <td> <p> アーカイブするカードの ID を入力またはマッピングするか、ボードに送り返します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Card ID]</td> 
+   <td> <p> アーカイブするかボードに送り返すカードの ID を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL アーカイブまたはアーカイブ解除 ]</td> 
+   <td role="rowheader">[!UICONTROL Archive or unarchive]</td> 
    <td> <p> カードを閉じる（アーカイブ）か、ボードに送り返す（アーカイブ解除）かを選択します。</p> </td> 
   </tr> 
  </tbody> 
@@ -836,31 +842,31 @@ ht-degree: 0%
 
 +++
 
-+++ **[!UICONTROL 添付ファイルを追加]**
++++ **[!UICONTROL 添付ファイルの追加]**
 
-このアクションモジュールは、選択したカードに添付ファイルを追加します。
+このアクションモジュールは、選択されたカードに添付ファイルを追加します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter card ID]</td> 
    <td> <p> 詳細を取得するカードの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>手動で入力</strong> </p> <p>内 <strong>[!UICONTROL カード ID]</strong> 「 」フィールドに、詳細を取得するカードの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>詳細を取得するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。</p> </li> 
+     <li> <p><strong>手動で入力</strong> </p> <p>詳細を取得するカードの ID を「<strong>[!UICONTROL Card ID]</strong>」フィールドに入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>詳細を取得するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 添付ファイルの種類 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Attachment type]</p> </td> 
    <td> <p>ファイルを直接アップロードするか、ファイルの URL を指定するかを選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL ファイル ]</strong> </p> <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p> </li> 
+     <li> <p><strong>[!UICONTROL File]</strong> </p> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> </li> 
      <li> <p><strong>[!UICONTROL URL]</strong> </p> <p>ファイルの URL を入力し、添付ファイルの名前を指定します。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -871,36 +877,36 @@ ht-degree: 0%
 
 ### メンバー
 
-+++ **[!UICONTROL メンバーをボードに割り当てる]**
++++ **[!UICONTROL ボードへのメンバーの割り当て]**
 
-参照：[!UICONTROL メンバーをボードに割り当てる]」の下に [ボード](#boards).
+[ボード](#boards)の節の「[!UICONTROL ボードへのメンバーの割り当て]」を参照してください。
 
 +++
 
 +++ **[!UICONTROL ボードからのメンバーの割り当て解除]**
 
-参照：[!UICONTROL ボードからのメンバーの割り当て解除]」の下に [ボード](#boards).
+[ボード](#boards)の節の「[!UICONTROL ボードからのメンバーの割り当て解除]」を参照してください。
 
 +++
 
 +++ **[!UICONTROL カードへのメンバーの追加]**
 
-このアクションモジュールは、指定されたメンバーを指定されたカードに追加します。
+このアクションモジュールは、指定のメンバーを指定のカードに追加します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL カード ID とメンバー ID を入力 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Enter card ID and member ID]</p> </td> 
    <td> <p>カード ID とメンバー ID の入力方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>を入力またはマッピングします。 <strong>[!UICONTROL カード ID]</strong> そして <strong>[!UICONTROL メンバー ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>メンバーを追加するカードが含まれるボードを選択し、カードを含むリスト、カード自体、およびカードに追加するメンバーを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>「<strong>[!UICONTROL Card ID]</strong>」と「<strong>[!UICONTROL Member ID]</strong>」を入力またはマッピングします。</p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>メンバーの追加先となるカードが含まれるボードを選択し、カード、カード自体およびカードに追加するメンバーを含んだリストを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -908,29 +914,29 @@ ht-degree: 0%
 
 +++
 
-+++ **[!UICONTROL メンバーを検索]**
++++ **[!UICONTROL メンバーの検索]**
 
-このアクションモジュールは、 [!UICONTROL トレロ] メンバー。
+このアクションモジュールは、[!UICONTROL Trello] メンバーに関する情報を取得します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL クエリ ] </td> 
+   <td role="rowheader">[!UICONTROL Query] </td> 
    <td> <p>検索するユーザーのフルネームまたはユーザー名を入力します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Partial] </td> 
-   <td> <p>デフォルトでは、このモジュールは、クエリ内の各単語の完全一致をメンバーコンテンツで検索します。 [!UICONTROL の一部 ] が有効な場合、モジュールはクエリ内の任意の単語で始まるコンテンツを検索します。</p> <p> 例えば、「development」という単語を使用して「My Development Status Report」というタイトルのボードを検索する場合、デフォルトでは単語全体を検索する必要があります。 [!UICONTROL Partial] を有効にしている場合、「dev」を検索することはできますが、「development」を検索することはできません。</p> </td> 
+   <td> <p>デフォルトでは、このモジュールは、クエリ内の各単語の完全一致をメンバーコンテンツで検索します。[!UICONTROL Partial] が有効な場合、モジュールはクエリ内の任意の単語で始まるコンテンツを検索します。</p> <p> 例えば、「development」という単語を使用して「My Development Status Report」というタイトルのボードを検索する場合、デフォルトでは単語全体を検索する必要があります。[!UICONTROL Partial] を有効にしている場合、「dev」を検索することはできますが、「velopment」を検索することはできません。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 返されるメンバーの最大数 ]</td> 
-   <td> <p> メンバーの最大数 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned members]</td> 
+   <td> <p> [!DNL Workfront Fusion] が 1 回の実行サイクルで返すメンバーの最大数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -939,44 +945,44 @@ ht-degree: 0%
 
 ### チェックリスト
 
-+++ **[!UICONTROL チェックリストを作成]**
++++ **[!UICONTROL チェックリストの作成]**
 
-このアクションモジュールは、選択したカードにチェックリストを作成します。
+このアクションモジュールは、選択されたカードにチェックリストを作成します。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter a card ID]</td> 
    <td> <p> チェックリストを追加するカードの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL カード ID]</strong> フィールドに、チェックリストを追加するカードの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>チェックリストを追加するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>「<strong>[!UICONTROL Card ID]</strong>」フィールドに、チェックリストを追加するカードの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>チェックリストを追加するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 名前 ] </td> 
+   <td role="rowheader">[!UICONTROL Name] </td> 
    <td> <p>チェックリストの名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 位置 ] </td> 
-   <td> <p>チェックリストを上に追加するか、[!UICONTROL] チェックリストをカードの下に追加するかを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Position] </td> 
+   <td> <p>チェックリストをカードの上部に追加するか、[!UICONTROL append the] チェックリストをカードの下部に追加するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL チェックリスト ID を入力 ]</p> </td> 
-   <td> <p>新しいチェックリストにコピーするソースチェックリストの ID を入力またはマッピングします。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Enter checklist ID]</p> </td> 
+   <td> <p>新規チェックリストにコピーするソースチェックリストの ID を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL チェックリスト項目の作成]**
++++ **[!UICONTROL チェックリスト項目を作成]**
 
 このアクションモジュールは、特定のチェックリストに項目を追加します。
 
@@ -985,28 +991,28 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チェックリスト ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter checklist ID]</td> 
    <td> <p> 項目を追加するチェックリストの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL チェックリスト ID]</strong> フィールドに、チェックリストを追加するカードの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>チェックリストを追加するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択し、チェックリストを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>「<strong>[!UICONTROL Checklist ID]</strong>」フィールドに、チェックリストを追加するカードの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>チェックリストを追加するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カード、チェックリストの順に選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 項目名 ]</p> </td> 
-   <td> <p>新しい項目の名前を入力またはマップします。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Item name]</p> </td> 
+   <td> <p>新しい項目の名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 位置 ]</p> </td> 
-   <td> <p>チェックリストの上部に項目を追加するか、下部に [!UICONTROL append] を追加するかを選択します。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Position]</p> </td> 
+   <td> <p>項目をチェックリストの上部に追加するか、[!UICONTROL append] をチェックリストの下部に追加するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL チェック済み ]</p> </td> 
-   <td> <p>既にオンにして項目を追加する場合は、このオプションを有効にします。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Checked]</p> </td> 
+   <td> <p>既にオンになっている項目を追加する場合は、このオプションを有効にします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1022,32 +1028,32 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] へへの接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID とチェックリスト項目 ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter a Card ID and Checklist Item ID]</td> 
    <td> <p> 項目を編集するカードとチェックリストの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL チェックリスト ID]</strong> フィールドに、チェックリストを追加するカードの ID を入力またはマッピングします。</p> <p>内 <strong>[!UICONTROL チェックリスト項目 ID]</strong> フィールドに、チェックリストの ID を入力またはマッピングします。</p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>チェックリストを追加するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択し、チェックリストを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>「<strong>[!UICONTROL Checklist ID]</strong>」フィールドに、チェックリストを追加するカードの ID を入力またはマッピングします。</p> <p>「<strong>[!UICONTROL Checklist Item ID]</strong>」フィールドに、チェックリストの ID を入力またはマッピングします。</p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>チェックリストを追加するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カード、チェックリストの順に選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チェックリスト ID]</td> 
-   <td>チェックリスト項目を移動するチェックリストを選択またはマップします。</td> 
+   <td role="rowheader">[!UICONTROL Checklist ID]</td> 
+   <td>チェックリスト項目を移動するチェックリストを選択またはマッピングします。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 項目名 ]</p> </td> 
-   <td> <p>新しい項目の名前を入力またはマップします。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Item name]</p> </td> 
+   <td> <p>新しい項目の名前を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 位置 ]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Position]</p> </td> 
    <td> <p>項目を上に追加するか、チェックリストの下に追加するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL 状態 ]</p> </td> 
-   <td> <p>チェックリスト項目が完了したか不完全であるかを選択します。</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL State]</p> </td> 
+   <td> <p>チェックリスト項目が完了したか未完了であるかを選択します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1056,7 +1062,7 @@ ht-degree: 0%
 
 ### ラベル
 
-+++ **[!UICONTROL カードへのラベルの追加]**
++++ **[!UICONTROL カードにラベルを追加]**
 
 このアクションモジュールは、選択したカードにラベルを追加します。
 
@@ -1065,15 +1071,15 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter card ID]</td> 
    <td> <p> チェックリストを追加するカードの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL カード ID]</strong> フィールドに、チェックリストを追加するカードの ID を入力またはマッピングします。 内<strong>[!UICONTROL ラベル ID]</strong> 「 」フィールドで、追加するラベルの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>チェックリストを追加するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。 </p> <p>カードに追加するラベルを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>「<strong>[!UICONTROL Card ID]</strong>」フィールドに、チェックリストを追加するカードの ID を入力またはマッピングします。「<strong>[!UICONTROL Label ID]</strong>」フィールドに、追加するラベルの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>チェックリストを追加するカードが含まれるボードを選択し、カードが含まれるリストを選択して、カードを選択します。 </p> <p>カードに追加するラベルを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1083,7 +1089,7 @@ ht-degree: 0%
 
 ### コメント
 
-+++ **[!UICONTROL コメントを見る]**
++++ **[!UICONTROL コメントを監視]**
 
 指定された場所に新しいコメントがある場合に、コメントの詳細を取得します。
 
@@ -1092,30 +1098,30 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 監視オブジェクト ]</td> 
+   <td role="rowheader">[!UICONTROL Watched object]</td> 
    <td> <p>コメントを監視する場所を選択します。</p> 
     <ul> 
-     <li><strong>[!UICONTROL すべてのカード ] を至る所に</strong> </li> 
-     <li> <p><strong>[!UICONTROL ボード ]</strong> </p> <p>コメントを監視するボードを選択</p> </li> 
-     <li> <p><strong>[!UICONTROL リスト ]</strong> </p> <p>コメントを監視するリストが含まれるボードを選択し、リストを選択します。</p> </li> 
+     <li><strong>あらゆる場所の [!UICONTROL All cards]</strong> </li> 
+     <li> <p><strong>[!UICONTROL Board]</strong> </p> <p>コメントを監視するボードを選択します</p> </li> 
+     <li> <p><strong>[!UICONTROL List]</strong> </p> <p>コメントを監視するリストが含まれるボードを選択し、リストを選択します。</p> </li> 
      <li><strong>[!UICONTROL Card]</strong> </li> 
-     <li>コメントを閲覧するカードが含まれるボードを選択し、そのカードが含まれるリストを選択して、カードを選択します。</li> 
+     <li>コメントを監視するカードが含まれるボードを選択し、そのカードが含まれるリストを選択して、カードを選択します。</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ] </td> 
-   <td> <p>コメントの最大数 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>[!DNL Workfront Fusion] が 1 回の実行サイクルで返すコメントの最大数。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **[!UICONTROL カードでのコメントの作成]**
++++ **[!UICONTROL カードでコメントを作成]**
 
 このアクションモジュールは、選択したカードにコメントを追加します。
 
@@ -1124,19 +1130,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter a card ID]</td> 
    <td> <p> コメントを追加するカードの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL カード ID]</strong> 「 」フィールドで、コメントを追加するカードの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>コメントを追加するカードが含まれるボードを選択し、そのカードを含むリストを選択して、カードを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p><strong>[!UICONTROL Card ID]</strong> フィールドに、コメントを追加するカードの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>コメントを追加するカードが含まれるボードを選択し、そのカードを含むリストを選択して、カードを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL コメント ] </td> 
+   <td role="rowheader">[!UICONTROL Comment] </td> 
    <td> <p>選択したカードに追加するコメントを入力します。</p> </td> 
   </tr> 
  </tbody> 
@@ -1144,52 +1150,52 @@ ht-degree: 0%
 
 +++
 
-+++ **[!UICONTROL カード内のコメントのリスト]**
++++ **[!UICONTROL カード内のコメントをリスト]**
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td> <p>[!UICONTROL Trello] アカウントの接続手順 [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>[!UICONTROL Trello] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL カード ID を入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Enter a card ID]</td> 
    <td> <p> コメントを追加するカードの ID を入力する方法を選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 手動で入力 ]</strong> </p> <p>内 <strong>[!UICONTROL カード ID]</strong> 「 」フィールドで、コメントを追加するカードの ID を入力またはマッピングします。<br></p> </li> 
-     <li> <p><strong>[!UICONTROL 選択 ]</strong> </p> <p>コメントを追加するカードが含まれるボードを選択し、そのカードを含むリストを選択して、カードを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p><strong>[!UICONTROL Card ID]</strong> フィールドに、コメントを追加するカードの ID を入力またはマッピングします。<br></p> </li> 
+     <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>コメントを追加するカードが含まれるボードを選択し、そのカードを含むリストを選択して、カードを選択します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 返されたコメントの最大数 ]</td> 
-   <td> <p> コメントの最大数を入力 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned comments]</td> 
+   <td> <p> [!DNL Workfront Fusion] が 1 回の実行サイクルで返すコメントの最大数を入力します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Since] </td> 
-   <td> <p>コメントが作成された期間の開始日を設定します。 サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>コメントが作成された期間の開始日を設定します。サポートされる日付と時刻の形式の一覧については、<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での型強制を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Before] </td> 
-   <td> <p>コメントが作成された期間の終了日を設定します。 サポートされる日付と時刻の形式の一覧については、 <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">強制入力 [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>コメントが作成された期間の終了日を設定します。サポートされる日付と時刻の形式の一覧については、<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での型強制を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## [!UICONTROL トレロ] オブジェクト ID
+## [!UICONTROL Trello] オブジェクト ID
 
-* [でカードの ID やショートリンクを見つける方法 [!DNL Trello]](#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello)
-* [で他のオブジェクトの ID を見つける方法 [!DNL Trello]](#how-to-find-ids-of-other-objects-in-trello)
+* [ [!DNL Trello] でカードの ID やショートリンクを見つける方法](#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello)
+* [ [!DNL Trello] で他のオブジェクトの ID を見つける方法](#how-to-find-ids-of-other-objects-in-trello)
 
-### でカードの ID やショートリンクを見つける方法 [!DNL Trello]
+### [!DNL Trello] でカードの ID やショートリンクを見つける方法
 
-カードを編集したり新しいコメントを作成したりする場合は、カードの ID またはそのショートリンクを知っておく必要があります。 この情報は、 [!UICONTROL 新しいカード] トリガー。 カードのショートリンクは、カードを開き、 [!UICONTROL 共有] 」ボタンをクリックします。 ショートリンクは [!UICONTROL このカードへのリンク] ボックスに、URL の末尾に `https://trello.com/c/`.
+カードを編集したり新しいコメントを作成したりする場合は、カードの ID やショートリンクを知っておく必要があります。[!UICONTROL 新しいカード]トリガーの出力から、この情報を入手できます。カードのショートリンクは、カードを開き、「[!UICONTROL 共有]」ボタンをクリックすることによっても取得できます。ショートリンクは、[!UICONTROL このカードへのリンク]ボックスで、`https://trello.com/c/` の後の URL 末尾にあります。
 
 ![](assets/share-and-more-350x575.png)
 
-### で他のオブジェクトの ID を見つける方法 [!DNL Trello]
+### [!DNL Trello] で他のオブジェクトの ID を見つける方法
 
-ボード ID、リスト ID、コメント ID は、トリガーを使用してのみ取得できます。 この [!DNL trello.com] web サイトには、これらの ID は表示されません。
+ボード ID、リスト ID、コメント ID は、トリガーを使用してのみ取得できます。[!DNL trello.com] web サイトには、これらの ID は表示されません。
