@@ -2,33 +2,33 @@
 content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Adobe Workfront mobile app virtual assistant
-description: Adobe Workfront Mobile App 仮想アシスタントを使用して、Workfront内の情報を検索、削除および検索します。 また、仮想アシスタントのコマンドやクエリをピン留めして、いつでも結果にアクセスできます。
+title: Adobe Workfront モバイルアプリバーチャルアシスタント
+description: Adobe Workfront モバイルアプリバーチャルアシスタントを使用すると、Workfront 内部の情報を特定、削除および検索できます。また、バーチャルアシスタントのコマンドやクエリをピン留めして、いつでも結果にアクセスできます。
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2c3bbf76-6620-4319-a872-09330441c815
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '707'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Workfront] モバイルアプリ仮想アシスタント
+# [!DNL Adobe Workfront] モバイルアプリバーチャルアシスタント
 
-以下を使用： [!DNL Adobe Workfront] モバイルアプリ仮想アシスタントで [!DNL Workfront]. また、仮想アシスタントのコマンドやクエリをピン留めして、いつでも結果にアクセスできます。
+[!DNL Adobe Workfront] モバイルアプリバーチャルアシスタントを使用すると、[!DNL Workfront] 内部の情報を特定、削除および検索できます。また、バーチャルアシスタントのコマンドやクエリをピン留めして、いつでも結果にアクセスできます。
 
 ## 使用可能なコマンド
 
-次の音声コマンドを使用して、モバイルアプリで作業を管理します。
+以下の音声コマンドを使用すると、モバイルアプリで作業を管理できます。
 
-* [[!UICONTROL 表示], [!UICONTROL 検索], [!UICONTROL を検索]](#show-me-find-search-for)
+* [[!UICONTROL 表示]、[!UICONTROL 見つける]、[!UICONTROL 検索]](#show-me-find-search-for)
 * [[!UICONTROL 削除]](#delete)
-* [[!UICONTROL コマンドを使用する]](#help-me-with-commands)
+* [[!UICONTROL コマンドのヘルプ]](#help-me-with-commands)
 
-### [!UICONTROL 表示], [!UICONTROL 検索], [!UICONTROL を検索]
+### [!UICONTROL 表示]、[!UICONTROL 見つける]、[!UICONTROL 検索]
 
-以下を使用： [!UICONTROL 表示] コマンドを使用して、次のオブジェクトに関する情報を確認します。
+[!UICONTROL 表示]コマンドを使用すると、以下のオブジェクトに関する情報を表示できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ ht-degree: 7%
   <tr> 
    <td> </td> 
    <td>日付</td> 
-   <td>[!UICONTROL ステータス ]</td> 
-   <td>[!UICONTROL 条件 ]</td> 
+   <td>[!UICONTROL Status]</td> 
+   <td>[!UICONTROL Condition]</td> 
   </tr> 
   <tr> 
    <td> <p>タスク</p> </td> 
@@ -49,7 +49,7 @@ ht-degree: 7%
    <td>はい</td> 
   </tr> 
   <tr> 
-   <td>問題</td> 
+   <td>イシュー</td> 
    <td>はい</td> 
    <td>はい</td> 
    <td>はい</td> 
@@ -112,99 +112,99 @@ ht-degree: 7%
  <col> 
  <tbody> 
   <tr> 
-   <td colspan="2"><strong>オブジェクトを検索</strong> </td> 
+   <td colspan="2"><strong>マイオブジェクトを検索</strong> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li>自分のタスクを表示する</li> 
-     <li> 問題を表示する </li> 
-     <li>チームを表示 </li> 
-     <li>過去 2 週間のタスクを表示する </li> 
-     <li>2020 年のプロジェクトを表示する</li> 
-     <li> 4 月 1 日の問題を表示 </li> 
-     <li>8 月のタイムシートを表示する </li> 
+     <li>マイタスクを表示</li> 
+     <li> マイイシューを表示 </li> 
+     <li>マイチームを表示 </li> 
+     <li>過去 2 週間のマイタスクを表示 </li> 
+     <li>2020年のマイプロジェクトを表示</li> 
+     <li> 4月1日のマイイシューを表示 </li> 
+     <li>8月のマイタイムシートを表示 </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL In Progress] の状態で自分のタスクを表示する </li> 
-     <li>[!UICONTROL いくつかの懸念事項 ] の条件に関する問題を表示する </li> 
-     <li>[!UICONTROL Planning] ステータスのプロジェクトと [!UICONTROL On Target] の条件を表示する </li> 
-     <li>[!UICONTROL 新規 ] および [!UICONTROL 処理中 ] のステータスに関する問題を表示する </li> 
-     <li>2019 年の自分のタイムシートをステータス [!UICONTROL 開く ] で表示する </li> 
-     <li>[!UICONTROL 保留中 ] のステータスを持つプロジェクトを今月の [!UICONTROL 危険時 ] に表示する </li> 
+     <li>[!UICONTROL In Progress] ステータスのマイタスクを表示 </li> 
+     <li>[!UICONTROL Some Concerns] 状態のマイイシューを表示 </li> 
+     <li>[!UICONTROL Planning] ステータスおよび [!UICONTROL On Target] 状態のマイプロジェクトを表示 </li> 
+     <li>[!UICONTROL New] ステータスおよび [!UICONTROL In Progress] ステータスのマイイシューを表示 </li> 
+     <li>2019年の [!UICONTROL Open] ステータスのマイタイムシートを表示 </li> 
+     <li>今月の [!UICONTROL On Hold] ステータスおよび [!UICONTROL At Risk] 状態のマイプロジェクトを表示 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>自分が所有する/自分が所有するプロジェクトを検索</strong> </td> 
-  </tr> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>自分が所有するプロジェクトを表示する </li> 
-     <li>自分のプロジェクトを表示する </li> 
-     <li>自分が所有するプロジェクトをステータス [!UICONTROL Planning] で表示する </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>条件 [!UICONTROL On Target] で現在表示しているプロジェクトを表示する </li> 
-     <li>先週所有するプロジェクトを表示する </li> 
-     <li>昨年 3 月の [!UICONTROL On Target] 条件を持つプロジェクトを表示する </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"><strong>個人用タスクを検索</strong></td> 
+   <td colspan="2"><strong>自分が所有するプロジェクト／自分が参加するプロジェクトを検索</strong> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li>個人用タスクを表示する </li> 
-     <li>[!UICONTROL In Progress] の状態で自分の個人用タスクを表示する </li> 
+     <li>自分が所有するプロジェクトを表示 </li> 
+     <li>自分が参加するプロジェクトを表示 </li> 
+     <li>[!UICONTROL Planning] ステータスの自分が所有するプロジェクトを表示 </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Going Smouse] の条件を持つ個人用タスクを表示する </li> 
-     <li>4 月 26 日に [!UICONTROL In Progress] の状態で自分の個人用タスクを表示する </li> 
+     <li>[!UICONTROL On Target] 状態の自分が参加するプロジェクトを表示 </li> 
+     <li>先週の自分が所有するプロジェクトを表示 </li> 
+     <li>昨年3月の [!UICONTROL On Target] 状態の自分が参加するプロジェクトを表示 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>遅れた項目を検索</strong></td> 
-  </tr> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>私の遅れたアイテムを表示する </li> 
-     <li>2020 年 8 月の私の遅れた項目を表示 </li> 
-     <li>遅れたタスクを表示する </li>
-     <li>遅れた問題を表示する </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!UICONTROL 新規 ] のステータスで遅延タスクを表示する </li> 
-     <li>[!UICONTROL In Progress] のステータスに関する遅延問題を表示する </li> 
-     <li>[!UICONTROL Going Smousle] 状態の最近の問題を 2 日間表示する </li> 
-     <li>3 月 26 日の遅延タスクのステータスを表示する </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colspan="2"><strong>担当者（担当者/チーム）によるオブジェクトの検索。 次でのみ使用可能： [!DNL iOS] デバイス。</strong></td> 
+   <td colspan="2"><strong>自分の個人用タスクを検索</strong></td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li>自分に割り当てられた問題を表示する </li> 
-     <li>ヘレンに割り当てられた問題を表示する </li> 
-     <li>[!UICONTROL Android] チームに割り当てられている問題を表示する </li> 
-     <li>"ヘレン"に割り当てられたタスクを表示する </li> 
-     <li>「」に割り当てられたタスクを表示する[!DNL Android]"チーム" </li> 
+     <li>自分の個人用タスクを表示 </li> 
+     <li>[!UICONTROL In Progress] ステータスの自分の個人用タスクを表示 </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>ヘレンに割り当てられたプロジェクトを表示する </li> 
-     <li>割り当て先のプロジェクトを表示する [!DNL Android] チーム </li> 
-     <li>自分にプロジェクト/タスク/問題を表示 [!DNL Android] チームは現在作業中です </li> 
-     <li>Helen が割り当てた/所有するプログラム/ポートフォリオを表示 </li> 
-     <li>自分にユーザー/人/メンバーを表示する [!DNL Android] チーム </li> 
+     <li>[!UICONTROL Going Smoothly] 状態の自分の個人用タスクを表示 </li> 
+     <li>4月26日の [!UICONTROL In Progress] ステータスの自分の個人用タスクを表示 </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td colspan="2"><strong>自分の遅延した項目を検索</strong></td> 
+  </tr> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>自分の遅延した項目を表示 </li> 
+     <li>2020年8月の自分の遅延した項目を表示 </li> 
+     <li>自分の遅延したタスクを表示 </li>
+     <li>自分の遅延したイシューを表示 </li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li>[!UICONTROL New] ステータスの自分の遅延したタスクを表示 </li> 
+     <li>[!UICONTROL In Progress] ステータスの自分の遅延したイシューを表示 </li> 
+     <li>過去 2 日間の [!UICONTROL Going Smoothly] 状態の自分の遅延したイシューを表示 </li> 
+     <li>3月26日 [!UICONTROL Complete] 状態の自分の遅延したタスクを表示 </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td colspan="2"><strong>担当者（担当者/チーム）によりオブジェクトを検索。[!DNL iOS] デバイスのみ使用可能です。</strong></td> 
+  </tr> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>自分に割り当てられたイシューを表示 </li> 
+     <li>ヘレンに割り当てられたイシューを表示 </li> 
+     <li>[!UICONTROL Android] チームに割り当てられたイシューを表示 </li> 
+     <li>「ヘレン」に割り当てられたタスクを表示 </li> 
+     <li>「[!DNL Android]」チームに割り当てられたタスクを表示 </li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li>ヘレンに割り当てられたプロジェクトを表示 </li> 
+     <li>「[!DNL Android]」チームに割り当てられたプロジェクトを表示 </li> 
+     <li>[!DNL Android] チームが現在作業中のプロジェクト／タスク／イシューを表示 </li> 
+     <li>ヘレンが割り当てた／所有するプログラム/ポートフォリオを表示 </li> 
+     <li>[!DNL Android] チームに割り当てられたユーザー／担当者／メンバーを表示 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -212,10 +212,10 @@ ht-degree: 7%
 
 ### [!UICONTROL 削除]
 
-次のオブジェクトタイプを削除するには、 delete コマンドを使用します。
+「削除」コマンドを使用して、以下のオブジェクトタイプを削除します。
 
 * タスク
-* 問題
+* イシュー
 * ドキュメント
 * タイムシート
 
@@ -233,37 +233,37 @@ ht-degree: 7%
     <ul> 
      <li>オブジェクトを削除</li> 
      <li>タスクを削除</li> 
-     <li>現在のオブジェクトを削除*<br>*[!UICONTROL 詳細 ] 画面からのみ利用できます</li> 
+     <li>現在のオブジェクトを削除*<br>*[!UICONTROL Details] 画面からのみ利用可能</li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li>マーケティングという名前のオブジェクトを削除</li> 
-     <li>名前のデザインレビューを含むタスクを削除</li> 
+     <li>デザインレビューという名前のタスクを削除</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### コマンドを使用する
+### コマンドでサポートが必要です
 
-ヘルプコマンドを使用して、使用可能なコマンドのリストをモバイルアプリで直接表示します。
+ヘルプコマンドを使用して、使用可能なコマンドのリストをモバイルアプリに直接表示します。
 
 ![ヘルプコマンド](assets/help-with-va-350x725.png)
 
-## 固定コマンド
+## コマンドをピン留め
 
-ピン機能を使用して、保存した仮想アシスタントコマンドと Web ブラウザからピンにアクセスします。 コマンドをピン留めすると、 [!UICONTROL ピン留め] 領域
+ピン留め機能を使用すると、web ブラウザからピンだけでなく、保存されたバーチャルアシスタントコマンドにもアクセスできます。コマンドをピン留めすると、[!UICONTROL ピン留め]エリアからいつでもコマンドにアクセスできます。
 
-### 仮想アシスタント (VA)
+### バーチャルアシスタント（VA）
 
-の VA セクション [!UICONTROL ピン留め] ページでは、後でアクセスする音声コマンドを保存できます。
+[!UICONTROL ピン留め]ページの VA セクションでは、音声コマンドを保存し、後でアクセスすることができます。
 
-コマンドを固定するには：
+コマンドをピン留めするには、以下のように行います。
 
-1. コマンドを入力し、 **[!UICONTROL ピン留め]** アイコンをクリックします。
+1. コマンドを入力し、**[!UICONTROL ピン]**&#x200B;アイコンをタップします。
 
-![固定してクエリを保存](assets/pin-and-save-query-adobe-350x285.png)
+![ピン留めしてクエリを保存](assets/pin-and-save-query-adobe-350x285.png)
 
 ### Web ブラウザー
 
-この [!UICONTROL Web] セクション [!UICONTROL ピン留め] ページを使用すると、Web ブラウザーで固定したオブジェクトにアクセスできます。 固定されたオブジェクトがモバイルアプリでサポートされている場合は、まずそこに開きます。 サポートされていない場合は、Web ブラウザーを起動します。
+[!UICONTROL ピン]ページの [!UICONTROL web] セクションで、web ブラウザーで固定したオブジェクトにアクセスできます。固定されたオブジェクトがモバイルアプリでサポートされている場合は、まずそこで開きます。サポートされていない場合は、web ブラウザーを起動します。
