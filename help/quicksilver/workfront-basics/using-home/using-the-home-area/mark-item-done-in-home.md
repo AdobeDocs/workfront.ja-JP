@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: ホーム領域で項目を完了としてマーク
-description: タスクまたはタスクの担当者である場合は、タスクまたはタスクを「完了」としてマークできます。 タスクまたはタスクを「完了」としてマークすると、タスクまたはタスクのステータスが「完了」に変わります。
+title: ホームエリアで項目を完了としてマーク
+description: タスクまたはイシューの担当者である場合は、タスクまたはイシューを完了としてマークできます。タスクまたはイシューを完了としてマークすると、タスクまたはイシューのステータスが完了に変わります。
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
 source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 項目を次の形式でマーク [!UICONTROL 完了] 内 [!UICONTROL ホーム] 領域
+# [!UICONTROL ホーム]エリアで項目を[!UICONTROL 完了]とマーク
 
-タスクまたはタスクの担当者である場合は、タスクまたはタスクを「完了」としてマークできます。 タスクまたはタスクを次のようにマークする場合 [!UICONTROL 完了]に設定されている場合、タスクまたはイシューのステータスは [!UICONTROL 完了].
+タスクまたはイシューの担当者である場合は、タスクまたはイシューを完了としてマークできます。タスクまたはイシューを[!UICONTROL 完了]とマークすると、タスクまたはイシューのステータスは[!UICONTROL 完了]を変更されます。
 
 >[!NOTE]
 >
->次の項目は表示されません： [!UICONTROL 完了] 」ボタンをクリックします。
+>タスクまたはイシューに割り当てられたリソースの 1 つでない限り、「[!UICONTROL 完了]」ボタンは表示されません。
 
 ## アクセス要件
 
@@ -37,73 +37,73 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
+   <td> <p>[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>タスクと問題への [!UICONTROL 編集 ] アクセス</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されているか [!DNL Workfront] 管理者に確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>作業が必要なタスクや問題に、権限以上を貢献する</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>作業が必要なタスクやイシューに対する参加以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト </a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## タスクまたはタスクを次のようにマーク [!UICONTROL 完了]
+## タスクまたはイシューを[!UICONTROL 完了]としてマーク
 
-タスクまたはタスクに割り当てられたユーザーのみが、タスクまたはタスクを [!UICONTROL 完了].
+タスクまたはイシューに割り当てられたユーザーのみが、タスクまたはイシューを[!UICONTROL 完了]としてマークできます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) 右上隅で、「 **[!UICONTROL ホーム]**.
-1. 内 **[!UICONTROL 作業用リスト]**&#x200B;で、作業を待っている項目を探します。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) をクリックして、「**[!UICONTROL ホーム]**」をクリックします。
+1. **[!UICONTROL 作業リスト]**&#x200B;で、作業待ちの項目を探します。
 1. 次のいずれかの操作を行います。
 
-* クリック **[!UICONTROL 完了]** （作業項目）\
-   詳しくは、 [のオプションについて [!UICONTROL 完了] ボタン](#understand-the-options-of-the-done-button) このボタンの表示方法の詳細を参照してください。
+* 作業アイテムの「**[!UICONTROL 完了]**」をクリックします。\
+   このボタンの表示方法について詳しくは、[「[!UICONTROL 完了]」ボタンのオプションについて](#understand-the-options-of-the-done-button)を参照してください。
 
-* 実行済みとしてマークする項目を選択し、右側のパネルで、 **[!UICONTROL ステータスを更新]**&#x200B;次に、項目のステータスを [!UICONTROL 完了] または [!UICONTROL クローズ].
+* 完了としてマークする項目を選択し、右側のパネルで「**[!UICONTROL 更新状態]**」をクリックして、項目のステータスを[!UICONTROL 完了]または[!UICONTROL クローズ]に等しいステータスに変更します。
 
-## のオプションについて [!UICONTROL 完了] ボタン
+## 「[!UICONTROL 完了]」ボタンのオプションについて
 
-デフォルトでは、 [!UICONTROL 完了] 作業項目のボタンが、その項目のステータスを [!UICONTROL 完了] （タスクの場合）または [!UICONTROL 解決済み] （問題の場合）。
+デフォルトで、作業アイテムの「[!UICONTROL 完了]」ボタンをクリックすると、その項目のステータスは[!UICONTROL 完了]（タスクの場合）または[!UICONTROL 解決済み]（イシューの場合）に変更されます。
 
-お使いの [!DNL Adobe Workfront] 管理者は、関連付けられているステータスをカスタマイズできます [!UICONTROL 完了] ボタンをクリックし、それらのカスタマイズをホームチームに適用します。
+[!DNL Adobe Workfront] 管理者は、「[!UICONTROL 完了]」ボタン関連付けられているステータスをカスタマイズできます。カスタマイズした内容はホームチームに適用できます。
 
-に関連付けられているステータスの数に応じて、 [!UICONTROL 完了] ボタン、またはタスクまたはイシューに割り当てられているリソースの数、またはタスクまたはイシューの外観 [!UICONTROL 完了] ボタンを変更できます。
+「[!UICONTROL 完了]」ボタンに関連付けられているステータスの数またはタスクまたはイシューに割り当てられているリソースの数に応じて、「[!UICONTROL 完了]」ボタンの外観は変更されます。
 
-* [[!UICONTROL 完了] 1 つのステータスに関連付けられたボタン](#done-button-associated-with-one-status)
-* [[!UICONTROL 完了] 複数のステータスに関連付けられたボタン](#done-button-associated-with-multiple-statuses)
-* [[!UICONTROL 完了] 複数のリソースに割り当てられた項目のボタン](#done-button-for-items-assigned-to-multiple-resources)
+* [1 つのステータスに関連付けられた「[!UICONTROL 完了]」ボタン](#done-button-associated-with-one-status)
+* [複数のステータスに関連付けられた「[!UICONTROL 完了]」ボタン](#done-button-associated-with-multiple-statuses)
+* [複数のリソースに割り当てられた項目の「[!UICONTROL 完了]」ボタン](#done-button-for-items-assigned-to-multiple-resources)
 
-### [!UICONTROL 完了] 1 つのステータスに関連付けられたボタン
+### 1 つのステータスに関連付けられた「[!UICONTROL 完了]」ボタン
 
-次の場合に [!UICONTROL 完了] ボタンが 1 つのステータスに関連付けられ、作業項目が割り当てられている場合、ボタンは次のようになります。 **[!UICONTROL 完了]**. クリックすると、タスクまたはイシューのステータスが、 [!UICONTROL 完了] 」ボタンをクリックします。
+「[!UICONTROL 完了]」ボタンが 1 つのステータスに関連付けられ、作業アイテムが割り当てられている場合、ボタンは&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。クリックすると、タスクまたはイシューのステータスは、[!UICONTROL 完了]」ボタンに関連付けされたステータスに変更されます。
 
-![完了ボタン](assets/Done.png)
+![「完了」ボタン](assets/Done.png)
 
-どのステータスが [!UICONTROL 完了] ボタンをクリックし、 [!UICONTROL チーム設定] の [!UICONTROL 完了ボタン] の節を参照してください。 [チーム設定を編集](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
+どのステータスが「[!UICONTROL 完了]」ボタンと関連付けされているかを確認するには、[チーム設定の編集](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)で説明されるように、「[!UICONTROL 完了ボタン]」セクションのホームチームの[!UICONTROL チーム設定]を確認します。
 
-ホームチームに割り当てられていない場合は、クリック時に既定のステータスが選択されます [!UICONTROL 完了]( 上記の [のオプションについて [!UICONTROL 完了] ボタン](#understand-the-options-of-the-done-button).
+ホームチームに割り当てられていない場合、前述の[「[!UICONTROL 完了]」ボタンのオプションについて](#understand-the-options-of-the-done-button)で説明されるように、[!UICONTROL 完了]クリック時にデフォルトのステータスが選択されます。
 
-### [!UICONTROL 完了] 複数のステータスに関連付けられたボタン
+### 複数のステータスに関連付けられた「[!UICONTROL 完了]」ボタン
 
-次の場合に [!UICONTROL 完了] ボタンが複数のステータスに関連付けられている場合、ボタンに **[!UICONTROL 完了]** その後にドロップダウンメニューが表示されます。 このシナリオでは、 [!UICONTROL 完了]. ドロップダウンメニューからステータスを選択する必要があります。 作業項目の完了に最も適したステータスを選択します。 これにより、作業項目のステータスを変更します。
+「[!UICONTROL 完了]」ボタンが複数のステータスに関連付けられている場合、ドロップダウンメニューのボタンに&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。このシナリオでは、簡単に「[!UICONTROL 完了]」をクリックできません。ドロップダウンメニューからステータスを選択する必要があります。作業アイテムの完了に最も適したステータスを選択します。これにより、作業アイテムのステータスを変更します。
 
-複数のステータスを [!UICONTROL 完了] ボタン、「 [の設定 [!UICONTROL 完了] タスクのボタン](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) および [の設定 [!UICONTROL 完了] ボタン](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
+複数のステータスに「[!UICONTROL 完了]」ボタンを関連付けする方法について詳しくは、[タスクの「[!UICONTROL 完了]」ボタンの設定](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)および[イシューの「[!UICONTROL 完了]」ボタンの設定](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)を参照してください。
 
 <!--
 <img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 -->
 
-### [!UICONTROL 完了] 複数のリソースに割り当てられた項目のボタン
+### 複数のリソースに割り当てられた項目の「[!UICONTROL 完了]」ボタン
 
-タスクまたはイシューが複数のリソースに割り当てられている場合、ボタンに「 **[!UICONTROL 完了]** その後にドロップダウンメニューが表示されます。 ドロップダウンメニューで、次の中から選択できます。 **[!UICONTROL 私の部分で完了]** （これにより、チームメンバーは、自分がタスクの一部について完了したことを知ることができます）または [!UICONTROL 完了] ボタン（項目を完了する） 次を選択した後： **[!UICONTROL 私の部分で完了]**「 」の場合、作業項目は「作業リスト」から削除されますが、作業項目に割り当てられている作業項目の「作業リスト」には残ります。\
-「完了」ボタンが複数のステータスに関連付けられている場合は、そのステータスが「 **私の部分で完了**.
+タスクまたはイシューが複数のリソースに割り当てられている場合、ドロップダウンメニューのボタンに&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。ドロップダウンメニューで、「**[!UICONTROL 担当部分は完了]**」（これにより、チームメンバーは、お客様のタスクの一部が完了したことを知ることができます）、または「[!UICONTROL 完了]」ボタン（項目を完了する）に関連するステータスのどちらかを選択できます。「**[!UICONTROL 担当部分は完了]**」を選択した後に、作業アイテムは作業リストから削除されますが、作業アイテムに割り当てられている作業アイテムの作業リストには残ります。\
+「完了」ボタンが複数のステータスに関連付けられている場合は、そのステータスが「**担当部分は完了**」の下に表示されます。
 
 >[!NOTE]
 >
->複数の担当者がいるタスクまたはタスクの場合、各ユーザーは、タスクまたはタスクに対する自分の割り当てが実際に完了したことを示す責任を持ちます。 この理由から、各担当者は [!UICONTROL 完了] アイテムに割り当てられた作業が完了したことを示すために
+>複数の担当者がいるタスクまたはイシューの場合、各ユーザーには、タスクまたはイシューに対する自分の割り当てが実際に完了したことを示す責任があります。この理由から、各担当者は「[!UICONTROL 完了]」をクリックし、項目に割り当てられた作業が完了したことを示す必要があります。
 
 ![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
