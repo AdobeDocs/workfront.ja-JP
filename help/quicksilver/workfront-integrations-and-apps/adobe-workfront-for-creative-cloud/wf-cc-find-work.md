@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Adobe Workfrontプラグインを使用して作業を検索する
-description: Adobe Creative Cloudのアプリケーションを終了せずに、Adobe Workfrontで割り当てられた作業を見つけます。
+title: Adobe Workfront プラグインを使用して作業を検索
+description: 次の Adobe Creative Cloud アプリケーションを離れることなく、Adobe Workfront で自分に割り当てられた作業を検索します。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# を使用して作業内容を見つける [!DNL Adobe Workfront] プラグイン
+# [!DNL Adobe Workfront] プラグインを使用して作業を検索する
 
-で自分に割り当てられている作業を見つけます。 [!DNL Adobe Workfront] 次のものを残さずに [!DNL Adobe Creative Cloud] アプリケーション：
+次の [!DNL Adobe Creative Cloud] アプリケーションを離れることなく、[!DNL Adobe Workfront]で自分に割り当てられた作業を検索します。
 
 {{cc-app-list}}
 
@@ -37,24 +37,24 @@ ht-degree: 0%
   </tr> -->
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
+   <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
 {{cc-install-prereq}}
 
-## 以下を使用： [!UICONTROL 作業用リスト] 重要な情報にアクセスする
+## [!UICONTROL 作業リスト]を使用して重要な情報にアクセスする
 
-この [!UICONTROL 作業用リスト] 割り当てられたすべてのタスクと問題を 1 か所で表示できます。 以下を使用して、 [!UICONTROL 並べ替え基準] 項目をグループ化し、 [!UICONTROL フィルター] 完成させる必要のある仕事に集中する。
+[!UICONTROL 作業リスト]を使用すると、自分に割り当てられたすべてのタスクとイシューを 1 か所で表示できます。[!UICONTROL 並べ替え] オプションを使用して項目をグループ化し、[!UICONTROL フィルター] を使用して完了する必要のある作業に焦点を当てることができます。
 
-### 類似した作業項目を [!DNL Sort By] オプション
+### [!DNL Sort By] オプションを使用して類似の作業アイテムをグループ化します。
 
-以下を使用： [!UICONTROL 並べ替え基準] 同様の項目を [!UICONTROL 作業用リスト]. 並べ替え基準は次のとおりです。
+[!UICONTROL 並べ替え]オプションを使用して、[!UICONTROL 作業リスト]内の類似したアイテムをグループ化します。並べ替え基準
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,10 +63,10 @@ ht-degree: 0%
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL 期限 ]</li> 
-     <li>[!UICONTROL 名前 ]</li> 
-     <li>[!UICONTROL プロジェクト名 ]</li> 
-     <li>[!UICONTROL マイ優先度 ]</li> 
+     <li>[!UICONTROL Due Date]</li> 
+     <li>[!UICONTROL Name]</li> 
+     <li>[!UICONTROL Project Name]</li> 
+     <li>[!UICONTROL My Priority]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ### フィルターでフォーカスを絞り込む
 
-以下を使用： [!UICONTROL フィルター] 特定の作業項目に焦点を絞る フィルターの使用方法はいくつかあります。
+[!UICONTROL フィルター]を使用して、特定の作業アイテムに焦点を絞ります。フィルターの使用方法はいくつかあります。
 
  
 
@@ -84,19 +84,19 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>1 つ目は、作業項目のタイプまたは属性のみに基づいてフィルタリングする方法です。</p> 
+   <td> <p>1 つ目は、作業アイテムのタイプまたは属性のみに基づくフィルタリングする方法です。</p> 
     <ul> 
-     <li><strong>作業項目</strong>:タスク、サブタスク、タスクまたは個人用タスク</li> 
-     <li><strong>作業項目の状態</strong>:[!UICONTROL 作業中 ]、[!UICONTROL 開始の準備完了 ]、[!UICONTROL 準備ができていません ]</li> 
-    </ul> <p>2 つ目は、作業項目と作業項目の状態を一緒に使用してフィルタリングする方法です。 例えば、「タスク」と「[!UICONTROL 開始準備完了 ]」を選択して、作業の準備が整った作業リスト内のタスクをすべて検索できます。</p> <p>[!UICONTROL Field Match] を使用して、フィルターセット内の特定の項目を検索することもできます。 </p> </td> 
+     <li><strong>作業アイテム</strong>：タスク、サブタスク、イシューまたは個人用タスク</li> 
+     <li><strong>作業アイテムの状態</strong>：[!UICONTROL Working On]、[!UICONTROL Ready to Start]、または [!UICONTROL Not Ready]</li> 
+    </ul> <p>2 つ目は、作業アイテムと作業アイテムのステータスを組み合わせて使用するフィルタリングする方法です。例えば、タスクと [!UICONTROL Ready to Start] を選択すると、作業リスト内で作業の準備ができているすべてのタスクを検索できます。</p> <p>また、[!UICONTROL Field Match] を使用して、フィルターセット内の特定の項目を検索することもできます。 </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 作業内容を検索
+## 作業を検索
 
-以下を使用： [!UICONTROL 検索] バーを使用して、必要なプロジェクト、タスク、問題、ドキュメントを検索できます。
+[!UICONTROL 検索]バーを使用して、必要なプロジェクト、タスク、イシュー、およびドキュメントを検索します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,17 +105,17 @@ ht-degree: 0%
   <tr> 
    <td> 
     <ul> 
-     <li>最近使用した項目を表示：最新の作業項目のうち、最大 5 つをデスクトップまたはプラグインバージョンのWorkfrontで表示できます。</li> 
-     <li>ピン留めされた項目を検索：新しいAdobe Workfrontエクスペリエンスで固定したプロジェクト、タスク、問題およびドキュメントにアクセスできます。</li> 
-     <li>お気に入りを検索：お気に入りとして保存した任意のプロジェクト、タスク、タスク、イシュー、ドキュメントを表示できます。</li> 
+     <li>最近の項目を表示：Workfront のデスクトップ バージョンまたはプラグイン バージョンを通じてアクセスした最新の作業アイテムを最大 5 つ表示できます。</li> 
+     <li>ピン留めされた項目を確認：新しい Adobe Workfront エクスペリエンスでピン留めしたプロジェクト、タスク、イシューおよびドキュメントにアクセスできます。</li> 
+     <li>お気に入りの検索：お気に入りとして保存したプロジェクト、タスク、イシュー、またはドキュメントを表示できます。</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-search-p.png"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 以下を使用： [!UICONTROL メニュー] プロジェクトに移動する
+## [!UICONTROL メニュー]を使用してプロジェクト間を移動
 
-以下を使用して、 [!UICONTROL メニュー] アイコンをクリックして、プロジェクト内の親アイテムに移動します。
+[!UICONTROL メニュー]アイコンを使用して、プロジェクト内の親項目に移動できます。
 
 ![](assets/go-back-to-work-list-350x314.png)
