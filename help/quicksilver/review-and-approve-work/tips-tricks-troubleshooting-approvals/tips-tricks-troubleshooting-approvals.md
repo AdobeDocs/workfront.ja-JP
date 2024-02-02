@@ -7,9 +7,9 @@ feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 6dab28d7-48d3-4568-87ef-384992555da1
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '32'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -17,4 +17,4 @@ ht-degree: 0%
 
 この節では、次の記事を扱います。
 
-* [すべてのユーザーの決定数を表示](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
+* [全ユーザーの決定数の確認](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
