@@ -1,27 +1,27 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Adobe Workfrontでのグループ化の作成
-description: カスタムグループをゼロから作成したり、既存のグループをカスタマイズしたりできます。
+title: Adobe Workfront でのグループ化の作成
+description: カスタムグループを最初から作成することも、既存のグループ化をカスタマイズすることもできます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfrontでのグループ化の作成
+# Adobe Workfront でのグループ化の作成
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
 -->
 
-レポートまたはリストの結果は、グループ化を使用して整理できます。 グループ化では、特定の情報に基づいて情報が分類されます。
+レポートまたはリストの結果は、グループ化を使用して整理できます。グループ化では、特定の情報に基づいて情報が分類されます。
 
-カスタムグループをゼロから作成したり、既存のグループをカスタマイズしたりできます。 以下の手順に従って、一からグループ化を作成します。
+カスタムグループを最初から作成することも、既存のグループ化をカスタマイズすることもできます。最初からグループ化を作成するには、次の手順に従います。
 
 ## アクセス要件
 
@@ -32,42 +32,42 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
    <td> <p>リクエスト以上 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートでのグループ化を作成します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへの編集アクセス権（レポートでグループ化を作成するため）</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>レポートのグループ化を編集するための、レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>レポートへの管理権限でレポート内のグループ化を編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## グループの作成
+## グループ化を作成
 
-1. カスタムグループを作成するレポートまたはリストに移動します。
-1. 次をクリック： **グループ化** アイコン
+1. カスタムグループ化を作成するレポートまたはリストに移動します。
+1. **グループ化**&#x200B;アイコンをクリックします。
 
-   ![新しいグループを選択](assets/newgrouping-nwe-standard-350x304.png)
+   ![新規グループ化の選択](assets/newgrouping-nwe-standard-350x304.png)
 
-1. クリック **新しいグループ化**.
-ローンチのグループ化を作成するためのインターフェイスビルダー。
+1. 「**新規グループ化**」をクリックします。
+グループ化を作成するためのインターフェイスビルダーが起動します。
 
-1. 内 **グループ化プレビュー** セクションで、 **グループを追加** を使用して、レポート内の情報の整理方法を定義します。 レポートでのグループ化の表示のプレビューを次に示します。
+1. 「**グループ化のプレビュー**」セクションで、「**グループ化の追加**」をクリックして、レポート内の情報の整理方法を定義します。レポート内のグループ化の表示についてプレビューを次に示します。
 
 1. レポート内の情報を整理する方法を表すフィールドの名前を入力し、ドロップダウンリストに表示されたらクリックします。
-1. （オプションおよび条件付き）更新されたリストでグループを作成する場合、 **デフォルトでこのグループ化を折りたたむ** を指定します。 この設定はデフォルトでは無効になっており、グループ化の結果は常に展開されたリストに表示されます。
+1. （オプションおよび条件付き）更新されたリストでグループ化を作成する場合、グループ化の結果を展開された状態ではなく折りたたまれた状態で表示するには、「**既定としてこのグループ化を折りたたむ**」を選択します。この設定はデフォルトでは無効になっており、グループ化の結果は常に展開されたリストで表示されます。
 
-   更新リストとレガシーリストについて詳しくは、 [更新済みリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) 記事内 [Adobe Workfrontのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   更新されたリストと従来のリストについては、[Adobe Workfront のリストの基本を学ぶ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)の記事の[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -75,21 +75,20 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >* リスト表示時にグループを手動で調整すると、Workfrontでは、ログアウトするまで手動の設定が記憶されます。 再度ログインすると、この設定に従ってリストが表示されます。
-   >* グループ化の結果は、グラフ要素または従来のリストからアクセスした後は常に展開されて表示されます。 この場合、この設定は無視されます。
+   >* リストを表示しているときにグループ化を手動で調整すると、ログアウトするまで Workfront に手動の設定が記憶されます。再度ログインすると、この設定に従ってリストが表示されます。
+   >* グループ化の結果は、グラフ要素または従来のリストからアクセスした後で常に展開されて表示されます。この場合、この設定は無視されます。
 
+1. 手順 4、5 および 6 を繰り返して、追加のグループ化を定義します。\
+   情報を整理するために、最大 3 つのグループを定義できます。マトリックスレポートを作成すると、最大 4 つのグループに分けて情報を整理できます。マトリックスレポートについて詳しくは、[マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 
-1. 手順 4、5、6 を繰り返して、追加のグループを定義します。\
-   情報を整理するために、最大 3 つのグループを定義できます。 マトリックスレポートを作成すると、最大 4 つのグループに分けて情報を整理できます。 マトリックスレポートの詳細については、 [マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
-
-1. クリック **グループ化を保存**.
+1. 「**グループ化の保存**」をクリックします。
 
 ## 追加情報
 
-関連項目：
+関連トピック：
 
-* [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
-* [レポート要素：フィルター、ビュー、グループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Adobe Workfront でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [レポート要素：フィルター、ビューおよびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [既存のグループを編集](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
 <!--
