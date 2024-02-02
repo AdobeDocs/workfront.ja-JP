@@ -7,9 +7,10 @@ title: Adobe Workfront Fusion の操作
 description: Adobe Workfront Fusion の操作は、モジュールによって実行されるタスクです。トラッキングの目的上、モジュールによって実行された成功アクションは操作とみなします。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8d82fd10a6742f13f62b5479fafa5b42e567700f
+exl-id: 34268fb6-e485-42be-b751-3ee79bbf5797
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
-source-wordcount: '331'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
@@ -51,4 +52,3 @@ ht-degree: 100%
 * **組織ダッシュボード**：組織全体で使用される操作
 * **チームダッシュボード**：このチームが所有するシナリオで使用される操作（[!DNL Adobe Experience Cloud] のみ）
 * **シナリオの詳細ページ**：このシナリオで使用される操作（[!DNL Adobe Experience Cloud] のみ）
-
