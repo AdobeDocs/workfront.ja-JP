@@ -2,22 +2,23 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront 23.2 リリースでの目標
-description: このページでは、23.2 リリースで実稼動環境にリリースされる新しいAdobe WorkfrontエクスペリエンスのAdobe Workfront目標に関する機能について説明します。
+title: 23.2 リリースに伴う Adobe Workfront Goals
+description: このページでは、23.2 リリースで実稼動環境にリリースされた新しい Adobe Workfront エクスペリエンスにおける Adobe Workfront Goals の機能について説明します。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
-workflow-type: tm+mt
+exl-id: 7f543c35-d4e3-4d17-be21-1f09eb7c4df3
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront 23.2 リリースでの目標
+# 23.2 リリースに伴う Adobe Workfront Goals
 
-このページでは、2023 年 4 月 3 日の週に予定されている、23.2 リリースを含む実稼動環境にリリースされるAdobe Workfront Goals の機能について説明します。
+このページでは、2023年4月3日の週に予定される 23.2 リリースに伴い、実稼動環境にリリースされる Adobe Workfront Goals の機能について説明します。
 
-23.2 リリースサイクルのこの時点でのWorkfrontのすべての領域で利用可能なすべての変更点のリストについては、 [23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+23.2 リリースサイクルの時点において、Workfront の全エリアで利用可能なすべての変更のリストについては、[23.2 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)を参照してください。
 
 <table>
             <col style="width: 50%;" />
@@ -35,19 +36,19 @@ ht-degree: 0%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md">コメントエクスペリエンスの目標の改善</a></p>
-                        <p>23.1 リリースから、Workfront Goals の新しいコメント作成機能が導入されました。</p>
-                        <p>目標に対するコメントのエクスペリエンスは、問題のためにリリースされた新しいコメントのエクスペリエンスベータ版と一致します。 アドビでは、2023 年のすべてのリリースで、この領域のアップデートを引き続きリリースしています。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md">Goals のコメントエクスペリエンスの改善</a></p>
+                        <p>23.1 リリースから、Workfront Goals の新しいコメントエクスペリエンスが導入されました。</p>
+                        <p>目標に対するコメントエクスペリエンスは、イシューに対してリリースされた新しいコメントエクスペリエンスのベータ版と一致します。2023年のすべてのリリースで、このエリアのアップデートを引き続きリリースします。 </p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2023 年 3 月 24 日<br /></p>
+                                <p>プレビューリリース：2023年3月23日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>実稼動版リリース：23.2 リリースの場合</p>
+                                <p>実稼動版リリース：23.2 リリース</p>
                             </li>
                         </ul>
                     </td>
