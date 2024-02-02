@@ -2,104 +2,104 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
-title: での配達確認の確認 [!DNL Basecamp]
-description: Basecamp との統合 [!DNL Workfront Proof] を使用すると、Basecamp を離れることなく、配達確認を簡単に確認および承認できます。
+title: ' [!DNL Basecamp] でのプルーフのレビュー'
+description: Basecamp と  [!DNL Workfront Proof]  の統合を使用すると、Basecamp から直接、プルーフを簡単に確認および承認できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 355e6bfe-ae6d-4bac-a648-0e48cf945bb4
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# での配達確認の確認 [!DNL Basecamp]
+# [!DNL Basecamp] でのプルーフの確認
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この [!DNL Basecamp] ～との統合 [!DNL Workfront Proof] を使用すると、配達確認を変更せずに簡単に確認および承認できます [!DNL Basecamp].
+[!DNL Basecamp] と [!DNL Workfront Proof] の統合を使用すると、[!DNL Basecamp] を離れることなく、プルーフを簡単に確認および承認できます。
 
-必要ない [!DNL Workfront Proof] ログインしてすべてのレビューツールを使用し、配達確認に対するコメントや決定を行う：
+[!DNL Workfront Proof] にログインしなくても、すべてのレビューツールを使用してプルーフに関するコメントや決定を行うことができます。
 
-* を [!DNL Basecamp] アカウントに登録されると、（縮小配達確認を使用して）確認する配達確認を含むメッセージが届きます
-* コメントやマークアップを追加して、ミニプルーフに対する決定を行うことも、レビュー用にフルページの配達確認に切り替えることもできます
-* 他のレビュー担当者のコメントやマークアップを確認し、それに応答することができます
+* [!DNL Basecamp] アカウントに、確認するためのプルーフを含むメッセージが届きます（ミニプルーフ経由）
+* コメントやマークアップを追加して、ミニプルーフに対する決定を行うことも、レビュー用にフルページのプルーフに切り替えることもできます
+* 他のレビュアーのコメントやマークアップを確認し、それに応答することができます
 
-決定について詳しくは、 [校正ビューアで配達確認を決定する](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
-
->[!NOTE]
->
-> 次のユーザーでない場合、 [!DNL Workfront Proof]に値を入力する場合、 [!DNL Basecamp]. 必要な操作は、メールアドレスと画面名を入力するだけです。 また、[!UICONTROL 記憶する]」をクリックします。
-
-## 通知 E メールによる配達確認の表示
-
-新しい配達確認または既存の配達確認を次にリンクする場合： [!DNL Basecamp], [!DNL Workfront Proof] 次を含むすべてのレビュー担当者に配達確認通知 E メールを送信します。
-
-* 配達確認メッセージ（カスタムまたは標準）(1)
-* 配達確認の詳細 (2)
-* 個人 URL （配達確認リンクに移動） (3)
-* リンク先 [!DNL Basecamp] 次の場所にある配達確認に直接移動するためのプロジェクトメッセージ [!DNL Basecamp] (4)\
-   次以外の場合[!DNL Basecamp] レビュー担当者が配達確認に追加されているので、そのレビュー担当者の E メール通知には [!DNL Basecamp] リンク。
-* 配達確認の進行状況 (5)
-* レビュー担当者とその個人の進捗 (6)
+決定について詳しくは、[プルーフビューアでプルーフを決定する](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)を参照してください。
 
 >[!NOTE]
 >
-> 次の条件を満たさない場合、 [!DNL Basecamp] セッションを別のブラウザーウィンドウで開くには、 [!DNL Basecamp] アカウントを使用して、 [!DNL Basecamp].
+> [!DNL Workfront Proof] のユーザーでない場合、[!DNL Basecamp] でプルーフに対して作業を行えます。必要な操作は、メールアドレスと画面名を入力するだけです。また、「[!UICONTROL 情報を記憶する]」というメッセージを選択すると、詳細を入力する必要があるのは 1 回だけになります。
+
+## 通知メールからのプルーフの表示
+
+プルーフを [!DNL Basecamp] にリンクした場合、[!DNL Workfront Proof] は、次の情報を含むプルーフ通知メールをすべてのレビュアーに送信します。
+
+* プルーフメッセージ（カスタムまたは標準）（1）
+* プルーフの詳細（2）
+* 個人 URL（プルーフリンクに移動）（3）
+* [!DNL Basecamp] でプルーフに直接アクセスするための [!DNL Basecamp] プロジェクトメッセージへのリンク（4）\
+   [!DNL Basecamp] 以外のレビュアーがプルーフに追加された場合、そのメール通知には [!DNL Basecamp] リンクが含まれません。
+* プルーフの進行状況（5）
+* レビューアーとその個々の進行状況（6）
+
+>[!NOTE]
+>
+> 別のブラウザーウィンドウで [!DNL Basecamp] セッションを開いていない場合は、[!DNL Basecamp] でメッセージが表示される前に、[!DNL Basecamp] アカウントにログインする必要があります。
 
 ![Basecamp_ProofHQ_email_notification1__1_.png](assets/basecamp-proofhq-email-notification1--1--350x202.png)
 
-## 経由での配達確認の表示 [!DNL Basecamp] メッセージ
+## [!DNL Basecamp] メッセージからのプルーフの表示
 
-新しい配達確認が [!DNL Basecamp] プロジェクト：
+[!DNL Basecamp] プロジェクトに追加された新しいプルーフに関するメール通知を受け取った場合、次を行います。
 
-1. プロジェクトページに移動します (1)。
-1. 配達確認のメッセージを見つけます (2)。\
-   メッセージページには、配達確認の名前（件名内）(3) と、全画面表示の配達確認ビューア (4) へのリンクが含まれます。
+1. プロジェクトページに移動します（1）。
+1. プルーフのメッセージを見つけます（2）。\
+   メッセージページには、プルーフの名前（件名内）（3）と、全画面表示のプルーフビューアー（4）へのリンクが含まれます。
 1. ![Basecamp_messages_1.png](assets/basecamp-messages-1-350x129.png)
 
-1. 次にログインしている場合、 [!DNL Workfront Proof] アカウントは、ブラウザーウィンドウの 1 つで、すぐにレビューを開始できます。 縮小配達確認の左下隅に自分の名前が表示されない場合：
-1. クリック **[!UICONTROL ログイン]** (5)
-1. （配達確認に追加するために使用した） E メールアドレスを入力します (6)。
-1. クリック **[!UICONTROL 次へ]** 表示される 2 番目のボックスに、 [!DNL Workfront Proof] パスワード (7)。\
-   次の条件を満たさない場合、 [!DNL Workfront Proof] アカウント」に、表示するパブリック名を入力します。
+1. いずれかのブラウザーウィンドウで [!DNL Workfront Proof] アカウントにログインしている場合は、すぐにレビューを開始できます。ミニプルーフの左下隅に自分の名前が表示されない場合：
+1. 「**[!UICONTROL ログイン]**」をクリックします（5）。
+1. メールアドレス（プルーフに追加するために使用したもの）を入力します（6）。
+1. 「**[!UICONTROL 次へ]**」をクリックし、表示される 2 番目のボックスに [!DNL Workfront Proof] のパスワードを入力します（7）。\
+   [!DNL Workfront Proof] アカウントがない場合、表示するパブリック名を入力します。
 
-1. クリック **[!UICONTROL このアカウントを記憶する]** したがって、詳細を入力する必要があるのは 1 回だけです。\
-   これで、で配達確認を確認する準備が整いました。 [!DNL Basecamp].
+1. 「**[!UICONTROL 情報を記憶する]**」をクリックして、1 回だけ詳細を入力すれば済むようにします。\
+   これで、[!DNL Basecamp] でプルーフを確認する準備が整いました。
 
-## での配達確認の確認 [!DNL Basecamp]
+## [!DNL Basecamp] でのプルーフの確認
 
-での配達確認の確認 [!DNL Basecamp] ～でそうするのと同じくらい簡単だ [!DNL Workfront Proof]. の縮小配達確認 [!DNL Basecamp] には、コメントやマークアップを追加し、配達確認に関する決定をおこなうために必要なすべてのツールが用意されています。
+[!DNL Basecamp] でプルーフを確認するのは、[!DNL Workfront Proof] の場合と同じくらい簡単です。[!DNL Basecamp] のミニプルーフは、プルーフに対してコメントやマークアップを追加し、校正判断を行うために必要なすべてのツールを提供します。
 
 ![Basecamp_message_window_with_miniproof.png](assets/basecamp-message-window-with-miniproof-350x406.png)
 
-* お使いの [!DNL Basecamp] プロジェクト名 (1)
-* この [!DNL Workfront Proof] メール通知件名 (2)
-* 配達確認ビューア全体への直接リンク（ウィンドウ全体が開きます）(3)
-* 配達確認の名前とバージョン (4)
-* アクションメニュー (5)
-* フルスクリーンボタン (6)
-* サイドバー (7)
-* ユーザー名 (8)
-* [!UICONTROL コメント] および [!UICONTROL 決定] ボタン (9)
-* ズームツール (10)
-* ページナビゲーションツール (11)
+* [!DNL Basecamp] プロジェクト名（1）
+* [!DNL Workfront Proof] メール通知件名（2）
+* 完全なプルーフビューアーへの直接リンク（フルウィンドウビューが開きます）（3）
+* プルーフ名とバージョン（4）
+* アクションメニュー（5）
+* 全画面ボタン（6）
+* サイドバー（7）
+* ユーザー名（8）
+* 「[!UICONTROL コメント]」ボタンと「[!UICONTROL 決定]」ボタン（9）
+* ズームツール（10）
+* ページナビゲーションツール（11）
 
-に応答を送信する必要はありません。 [!DNL Basecamp] （内で配達確認を確認する際と同様に）コメントや決定が配達確認に保存されるときに [!DNL Workfront Proof]) をクリックします。
+コメントと決定はプルーフに保存されるため（[!DNL Workfront Proof] 内でプルーフをレビューする場合と同様）、[!DNL Basecamp] メッセージに応答を送信する必要はありません。
 
-## 全ページの配達確認のレビュー
+## 全ページのプルーフのレビュー
 
-すべての [!DNL Workfront Proof] 通常の機能を使用するには、縮小配達確認のすぐ上にあるメッセージ内のリンクまたは縮小配達確認の右上隅にある全画面表示アイコンをクリックします。
+ミニプルーフのすぐ上にあるメッセージ内のリンクをクリックするか、ミニプルーフの右上隅にある全画面アイコンをクリックすると、[!DNL Workfront Proof] の通常の機能をすべて備えた全ページのプルーフを表示できます。
 
-配達確認画像は元のサイズのままですが、ページ自体は縮小配達確認ページよりも広くなっています。
+プルーフの画像は元のサイズのままですが、ページ自体の幅はミニプルーフページよりも広くなろます。
 
-完全なページの配達確認には、次の内容が表示されます。
+全ページ表示のプルーフには、以下の内容が表示されます。
 
-* この [!UICONTROL コメントを追加] および [!UICONTROL 決定を送信] ボタン（ミニプルーフに表示されるコメントや決定アイコンではなく） (1)
-* 縮小校正 (2) よりも多くのズームおよびナビゲーションツール。
-* この [!UICONTROL に移動します。 [!DNL Basecamp]] 」ボタンをクリックします。 これをクリックすると、 [!DNL Basecamp] アカウント (3)
+* 「[!UICONTROL コメントを追加]」ボタンおよび「[!UICONTROL 決定を送信]」ボタン（ミニプルーフに表示される「コメント」アイコンや「決定」アイコンではなく）（1）。
+* ミニプルーフよりも多くのズームツールおよびナビゲーションツール（2）。
+* プルーフの左上隅にある「[!UICONTROL 移動先[!DNL Basecamp]]」ボタン。これをクリックすると、[!DNL Basecamp] アカウントに戻ります（3）。
 
 ![ProofHQ_full_screen_view.png](assets/proofhq-full-screen-view-350x217.png)
