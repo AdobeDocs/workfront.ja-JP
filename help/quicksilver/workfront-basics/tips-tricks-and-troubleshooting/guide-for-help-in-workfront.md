@@ -1,28 +1,28 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: ヘルプを見つけるためのクイックガイド [!DNL Adobe Workfront]
-description: ヘルプを見つけるためのクイックガイド [!DNL Adobe Workfront]
+title: ' [!DNL Adobe Workfront] のヘルプを見つけるクイックガイド'
+description: ' [!DNL Adobe Workfront] のヘルプを見つけるクイックガイド'
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
-workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '812'
+ht-degree: 100%
 
 ---
 
-# ヘルプを見つけるためのクイックガイド [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront] のヘルプを見つけるクイックガイド
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: There are several hard-coded links in this article.)</p>
 -->
 
-ようこそ [!DNL Adobe Workfront!] お客様にはご質問があることがわかっているので、どこからヘルプを開始すればよいのかは必ずしも分かっていません。 このクイックガイドでは、よくある質問に対する回答、および成功をサポートするために利用できるリソースについて説明します。
+[!DNL Adobe Workfront!] へようこそ。お客様が様々な疑問をお持ちであることやヘルプの場所がわからないことなど、アドビはしっかり承知しています。このクイックガイドでは、よくある質問に対する回答、およびお客様の成功をサポートするために利用できるリソースについて説明します。
 
 >[!TIP]
 >
->このページをブックマークすることをお勧めします。 利用可能になったリソースを追加して更新します。 >
+>このページをブックマークすることをお勧めします。利用可能になったリソースを追加して更新します。>
 ><!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
@@ -30,74 +30,74 @@ ht-degree: 0%
 >-->
 
 
-## 質問に回答し、 [!DNL Workfront?]
+## [!DNL Workfront?] に関して学んだり、質問するにはどうすればいいですか？
 
-詳しくは、以下を参照してください。 [!DNL Workfront]を使用すると、次のことができます。
+[!DNL Workfront] について詳しくは、次を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>チェックアウト [!DNL Workfront] オン [!DNL Adobe Experience League]</strong> </td> 
-   <td> <p>検索バーは、 <a href="https://experienceleague.adobe.com/docs/workfront.html">https://experienceleague.adobe.com/docs/workfront.html</a> 特定の記事、ディスカッション、トレーニングを見つけるのに役立ちます。 これは、すべての項目の検索エンジンと考えてください。 [!DNL Workfront].</p> <p>ここでは、次のようなリソースも検索できます。</p> 
+   <td><strong>[!DNL Adobe Experience League]</strong> で [!DNL Workfront] を確認する </td> 
+   <td> <p><a href="https://experienceleague.adobe.com/docs/workfront.html?lang=ja">https://experienceleague.adobe.com/docs/workfront.html?lang=ja</a> で上部の検索バーは、特定の記事、ディスカッション、トレーニングを見つけるのに役立ちます。あらゆる [!DNL Workfront] の項目の検索エンジンと考えてください。</p> <p>ここでは、次のようなリソースも検索できます。</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html">ドキュメント</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html">チュートリアル</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en">製品リリース</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html">API ドキュメント</a> </p> </li> 
-     <li> <p>その他！</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=ja">ドキュメント</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja">チュートリアル</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=ja">製品リリース</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html?lang=ja">API ドキュメント</a> </p> </li> 
+     <li> <p>その他</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td><strong>エキスパートに質問する</strong> </td> 
-   <td> <p>5 分のルールに従います。 数分後に答えが見つからない場合は、次に目を通すことを躊躇しないでください： [!DNL Workfront] 支えて！ <strong>[!DNL Workfront]のカスタマーサポートチーム</strong> は、技術的な問題に加え、コミュニティやトレーニングプラットフォームにアクセスする際の支援を目的としています。</p> <p>米国および EMEA を拠点とするライブサポートエンジニアが、お客様の電話に数秒で応答します。 どうぞ遠慮なくお電話ください！</p> 
+   <td> <p>5 分ルールに従います。答えが見つからない場合は、[!DNL Workfront] サポートにお問い合わせください。<strong>[!DNL Workfront] のカスタマーサポートチーム</strong>は、技術的な問題に加え、コミュニティやトレーニングプラットフォームにアクセスする際のサポートを提供することも目的としています。</p> <p>米国および EMEA を拠点とするライブサポートエンジニアが、お客様からのお問合せに数秒で応答します。どうぞご遠慮なくお問い合わせください。</p> 
     <ul> 
      <li> <p>844-306-4357（米国）</p> </li> 
-     <li>+44(0)-1256-274200(EMEA)</li> 
-    </ul> <p>詳しくは、 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">カスタマーサポートに連絡</a>.</p> </td> 
+     <li>+44(0)-1256-274200（EMEA）</li> 
+    </ul> <p>詳しくは、<a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">カスタマーサポートへの問い合わせ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>[!UICONTROL ピアとの接続 ]</strong> </td> 
-   <td>[!UICONTROL [!DNL Workfront] [ コミュニティ ] は、現代の仕事を習得し、自分の洞察と専門知識を積極的に共有する専門家のネットワークを提供します。 詳しくは、 <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">The [!DNL Adobe Workfront] コミュニティ</a>.</td> 
+   <td><strong>[!UICONTROL Connect with peers]</strong> </td> 
+   <td>[!UICONTROL [!DNL Workfront] Community] は、現代の仕事に精通した専門家のネットワークを提供し、洞察と専門知識を積極的に共有します。詳しくは、<a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">[!DNL Adobe Workfront] コミュニティ</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td><strong>の新機能</strong>[!DNL Workfront]<strong>製品</strong></td> 
-   <td>訪問 <a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html" target="_blank">製品リリース</a> 」を参照してください。</td> 
+   <td><strong></strong>[!DNL Workfront] <strong>製品</strong>の新機能</td> 
+   <td>最新情報について詳しくは、<a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=ja" target="_blank">製品リリース</a>を参照してください。</td> 
   </tr> 
   <tr> 
-   <td><strong>オンデマンドで学び、 [!DNL Workfront] トレーニング</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> は、プランナー、ワーカー、共同作業者、システム管理者が、の主要な機能を使用して作業を開始および実行できる、役割ベースの学習パスを提供します。 [!DNL Workfront].<br>を展開します。 [!DNL Workfront] 知識</a> 学習パス、ビデオチュートリアル、ダウンロード可能なガイドを参照して、目的のトピックを確認します。<br></td> 
+   <td><strong>[!DNL Workfront] トレーニングでオンデマンドで学ぶ</strong> </td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a> は、プランナー、作業者、共同作業者、システム管理者が、[!DNL Workfront] の主要な機能をインストールおよび導入できる、役割ベースの学習パスを提供します。興味のあるトピックの学習パス、ビデオチュートリアルおよびダウンロード可能なガイドを参照して、<br>[!DNL Workfront] ナレッジ</a>を広げます。<br></td> 
   </tr> 
  </tbody> 
 </table>
 
-## 自分のような他のお客様が正常にを使用する方法 [!DNL Workfront]? 同業者と連携して、ベストプラクティスや回避すべき誤りを学ぶにはどうすればよいですか？
+## 自分のような他のユーザーはどのようにうまく [!DNL Workfront] を使用できますか？ベストプラクティスや避けるべきミスを学ぶために、どのように他のユーザーとつながることができますか？
 
-以下のリソースは、 [!DNL Workfront]:
+次のリソースは、どのように [!DNL Workfront] を活用できるかを判断するのに役立ちます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><a href="https://business.adobe.com/resources/main.html?Products=Workfront">[!DNL Workfront] 顧客を重点的に取り上げるリソース</a> </td> 
-   <td>これは、ウェビナー、ebook、ホワイトペーパー、ビデオ、レポートの出発源となります。</td> 
+   <td><a href="https://business.adobe.com/jp/resources/main.html?Products=Workfront">[!DNL Workfront] リソースはユーザーをハイライト</a> </td> 
+   <td>これは、ウェビナー、ebook、ホワイトペーパー、ビデオおよびレポートのソースとなります。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories?Products=Adobe%2520Workfront">ケーススタディ</a> </td> 
-   <td>60 件以上に及ぶ導入事例のコレクションを通じて、お客様の課題を強調し、 [!DNL Workfront] ソリューションとメリット</td> 
+   <td><a href="https://business.adobe.com/jp/customer-success-stories.html?Products=Adobe%2520Workfront">ケーススタディ</a> </td> 
+   <td>60 件以上に及ぶケーススタディのコレクションを通じて、お客様が直面する課題、[!DNL Workfront] ソリューションおよびメリットを説明します。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] コミュニティ</a> </td> 
-   <td>The [!DNL Workfront] コミュニティでは、 [!DNL Workfront] 世界中のユーザーと専門家です。 彼らは常にあなたの質問に答えるために、または正しい方向にあなたを指示するのを助けます。</td> 
+   <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja">[!DNL Workfront] コミュニティ</a> </td> 
+   <td>[!DNL Workfront] コミュニティでは、世界中の [!DNL Workfront] ユーザーと専門家とのコミュニケーションを実現します。いつでも質問に回答しまたは適切な方向を指し示す手助けをします。</td> 
   </tr> 
  </tbody> 
 </table>
 
-## 方法 [!DNL Workfront] 管理者向けの準備 [!DNL Workfront] 製品リリース？
+## [!DNL Workfront] 管理者は、どのように [!DNL Workfront] 製品リリースへの準備をすることができますか？
 
-以下の 3 つの手順は、Adobe Analytics Analytics として役立ちます [!DNL Workfront] 管理者は、新しいリリースのたびに、その先に留まります。
+これらの 3 つの手順は、[!DNL Workfront] 管理者が新しいリリースを常に把握するのに役立ちます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,55 +105,55 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td><strong>手順 1：今後の予定を学ぶ</strong> </td> 
-   <td> <p>以下のリソースを利用すると、Workfrontに対する更新のリリースについて常に把握できます。</p> 
+   <td> <p>これらのリソースを利用すると、Workfront のアップデートのリリースについて常に把握できます。</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=en" target="_blank">製品に関するお知らせ</a>:Workfrontの製品ロードマップのアップデートをお探しですか？ 製品のお知らせページでは、リリースのアップデートとロードマップのプレゼンテーションを確認できます。</p> </li> 
-     <li> <p><strong>お知らせセンター</strong>：通知を確認し、アドビの [!DNL Workfront] すべてのお客様の情報に関する製品チーム。 次にアクセス： <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a> のセクション [!DNL Workfront]」をクリックします。</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=ja" target="_blank">製品に関するお知らせ</a>：Workfront の製品ロードマップのアップデートをお探しですか？製品に関するお知らせページでは、リリースのアップデートとロードマップのプレゼンテーションを確認できます。</p> </li> 
+     <li> <p><strong>通知センター</strong>：通知を確認し、アドビの [!DNL Workfront] 製品チームからすべての顧客の情報に関する重要な更新内容を受け取ります。ナビゲーション上部の [!DNL Workfront] の「<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a>」セクションに移動します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>手順 2：更新の準備</strong> </td> 
+   <td><strong>手順 2：アップデートへの準備</strong> </td> 
    <td> 
     <ul> 
-     <li> <p>最新の更新を [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">サンドボックス</a>.</p> </li> 
-     <li> <p>担当者の作業に対する更新の影響を特定します。 アドビの <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">ナレッジベース</a> および <a href="https://experienceleague.adobe.com/events/?lang=en">イベント</a> 助けて！ 製品マネージャは、多くの場合、機能によって解決された直接のエンドユーザーまたはビジネス上の問題を挙げ、変更への影響をショートカットにするのに役立ちます。</p> </li> 
+     <li> <p>[!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">サンドボックス</a>の最新のアップデートをテストします。</p> </li> 
+     <li> <p>アップデートがどのように作業に影響を与えるかを特定します。アドビの<a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=ja">ナレッジベース</a>および<a href="https://experienceleague.adobe.com/events/?lang=ja">イベント</a>が役立ちます。製品マネージャーは、多くの場合、機能によって解決された直接のエンドユーザーまたはビジネス上の問題を挙げ、変更への影響を最小限に抑えるのに役立ちます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>手順 3：変更の伝達</strong> </td> 
+   <td><strong>手順 3：変更内容の伝達</strong> </td> 
    <td> 
     <ul> 
-     <li> <p>何が変更され、なぜメリットが得られるのか、質問をする相手についてのコミュニケーションを、組織内のユーザーに送信します。</p> </li> 
-     <li> <p>作業を広げるには、知識と更新の観点から、パワーユーザーや対象物の専門家をツールの独自の領域に特定することを検討します。 これは、縁組みを促進し、養子縁組をサポートするのに役立ちます。</p> </li> 
+     <li> <p>何が変更され、どのようにメリットが得られるのか、誰に質問できるかなどのコミュニケーションを、組織内のユーザーに送信します。</p> </li> 
+     <li> <p>作業を拡大するには、知識と更新の観点から、パワーユーザーや対象物の専門家をツールの独自の領域に特定することを検討します。これは、エンゲージメントを促進し、採用をサポートするのに役立ちます。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 次のアイデアがある場合： [!DNL Workfront?]
+## [!DNL Workfront?] のアイデアがある場合
 
-The [!DNL Workfront] [!UICONTROL イノベーションラボ] は、認証済みのサポート連絡先が、他のお客様と製品のアイデアを送信、投票、および話し合うことができる場所です。
+[!DNL Workfront] [!UICONTROL イノベーションラボ]は、認証済みのサポート連絡先が、他のお客様と製品のアイデアを送信、投票および話し合うことができる場所です。
 
-詳しくは、この記事を参照してください。 [The Innovation Lab](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
+詳しくは、[イノベーションラボ](../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)の記事を参照してください。
 
-## ツールをと統合し、接続する方法 [!DNL Workfront?]
+## [!DNL Workfront?] をツールと統合し、接続する方法
 
-以下のリソースは、 [!DNL Workfront] API とその他の統合：
+次のリソースは、[!DNL Workfront] API とその他の統合を学ぶことに役立ちます。
 
-| [[!DNL Adobe Workfront] 統合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | 統合可能な [!DNL Workfront] サードパーティのアプリケーションを使用する場合。 統合は、のユーティリティを拡張できます [!DNL Workfront] 組織のニーズに合わせて調整します。 このナレッジベース記事では、統合オプションについて説明し、次の方向に向かって示します。 |
+| [[!DNL Adobe Workfront] 統合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | サードパーティのアプリケーションと [!DNL Workfront] を統合できます。統合は、[!DNL Workfront] のユーティリティを拡張し、組織のニーズに合わせて調整できます。このナレッジベースの記事では、統合オプションについて説明し、今後の方向性を示します。 |
 |---|---|
-| [[!DNL Workfront] 組み込み統合](https://www.workfront.com/integrations) | Workfrontの無料の組み込み統合により、同じワークフローやプロセスを維持しながら、Workfrontプラットフォームへのスムーズな移行を実現します。 |
-| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | 接続 [!DNL Workfront] 100 を超えるアプリケーションに対応し、コードを使用せずにビジネスクリティカルなプロセスを容易に自動化できます。 |
+| [[!DNL Workfront] 組み込みの統合](https://www.workfront.com/integrations) | Workfront の無料の組み込み統合により、同じワークフローやプロセスを維持しながら、Workfront プラットフォームへのスムーズな移行を実現します。 |
+| [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | [!DNL Workfront] を100 を超えるアプリケーションに接続し、コードを使用せずにビジネスクリティカルなプロセスを容易に自動化できます。 |
 
 {style="table-layout:auto"}
 
-## その条件 [!DNL Workfront] メンテナンスを実行しますか？ 次の項目を調べる方法を教えてください。 [!DNL Workfront] 落ちてる？
+## [!DNL Workfront] はいつメンテナンスを実行しますか？[!DNL Workfront] がダウンしているかどうかを調べる方法を教えてください。
 
-配信登録 [status.adobe.com](https://status.adobe.com/ja/) メンテナンスのスケジュールや停止の問題に関する情報を常に得る。
+[status.adobe.com](https://status.adobe.com/ja/) に登録して、メンテナンスのスケジュールや障害に関する情報を入手します。
 
-詳しくは、 [!DNL Workfront] ステータスサイト ( [The [!DNL Adobe Workfront] ステータスサイト](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).
+[!DNL Workfront] ステータスサイトについて詳しくは、[ [!DNL Adobe Workfront] ステータスサイト](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)を参照してください。
 
-毎週のメンテナンス更新で修正された点については、 [メンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+毎週のメンテナンス更新で修正された点については、[メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
