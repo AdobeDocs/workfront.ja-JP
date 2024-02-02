@@ -1,30 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront目標の目標の詳細パネルで目標を更新します
-description: 目標の詳細パネルにアクセスして、個々の目標の情報を更新できます。
+title: Adobe Workfront Goals の目標の詳細パネルで目標を更新
+description: 目標の詳細パネルにアクセスして、個別の目標の情報を更新できます。
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
 source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '614'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標の「目標の詳細」節の目標を更新します
+# Adobe Workfront Goals の目標の詳細セクションで、目標を更新
 
 <!--drafted for the goal redesign:
 - change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
 - update the description in the metadata above
 -->
 
-目標の詳細パネルにアクセスして、個々の目標の情報を更新できます。
+目標の詳細パネルにアクセスして、個別の目標の情報を更新できます。
 
 >[!NOTE]
 >
->ステータスが「クローズ済み」の目標は更新できません。
+>ステータスがクローズ済みの目標は更新できません。
 
 
 ## アクセス要件
@@ -91,23 +91,23 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront目標の使用要件</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>目標以降へのアクセスを編集</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+   <td> <p>Goals 以上への編集アクセス権</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -115,23 +115,23 @@ You must have the following:
    <td> 
     <div> 
      <p>目標に対する権限の管理</p> 
-     <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
+     <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## 前提条件
 
-を起動する前に、次の条件を満たす必要があります。
+開始するには、まず以下が必要です。
 
-* メインメニューの目標領域を含むレイアウトテンプレート。
+* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 
-## 目標の詳細セクションの目標を更新
+## 目標の詳細セクションで、目標を更新
 
-目標のリストから個々の目標にアクセスできます。
+目標のリストから、個別の目標にアクセスできます。
 
 <!--
 
@@ -220,44 +220,43 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. 目標リストで目標の名前をクリックし、目標の名前をクリックします。
 
-   これにより、 **目標の詳細** 」セクションを開きます。
+   これにより、左側に&#x200B;**目標の詳細**&#x200B;セクションが開きます。
 
    ![](assets/goal-page-unshimmed.png)
 
-1. 次をクリック： **編集アイコン** ![](assets/edit-icon.png) 右上隅で、「 **すべてを編集** または **概要**
+1. 右上隅で&#x200B;**編集アイコン** ![](assets/edit-icon.png) をクリックし、「**すべてを編集**」または「**概要**」をクリックします。
 
    または
 
-   「目標の詳細」セクションの編集可能なフィールドの 1 つに情報を入力します。 セクションが編集可能になります。
+   目標の詳細セクションの編集可能なフィールドのうちの 1 つに情報を入力します。セクションが編集可能になります。
 
    >[!IMPORTANT]
    >
-   >「目標の詳細」セクションに表示されるすべてのフィールドを編集できるわけではありません。 Workfrontは一部のフィールドを計算し、読み取り専用です。
+   >目標の詳細セクションに表示されるすべてのフィールドが、編集可能なわけではありません。Workfront は一部のフィールドを計算しますが、このようなフィールドは読み取り専用です。
 
-1. 次のフィールドを更新または確認します。
+1. 以下のフィールドを更新または確認します。
 
-   * **説明**:目標に関する情報を追加または更新します。
-   * **進行状況**:目標の達成率を示します。 目標の進捗状況を手動で更新することはできません。 目標の進行状況は、すべての進行状況インジケーターの計算です。
-   * **条件**:目標が新しく、まだ更新されていないか、ターゲットが予定どおりに完了しているか、遅れているかを示します。 目標の条件は更新できません。 目標の条件は、Workfront によって自動的に計算されます。\
-      目標条件と進捗について詳しくは、
-      [Adobe Workfront目標の目標の達成状況と条件の概要](../goal-management/calculate-goal-progress.md).
-   * **ステータス**:目標のステータスを手動で更新することはできません。 詳しくは、 [Adobe Workfront目標の目標ステータスの概要](../goal-management/goal-status-overview.md).
-   * **目標所有者**:「 」をクリックして、目標の所有者の名前を更新します。 ユーザー、チーム、グループまたは組織の名前を入力し、リストに表示されたら選択します。 1 つの目標に対して所有者を 1 つだけ指定できます。
-   * **親目標**:選択した目標の親として設定する目標の名前を入力します。 選択した目標の進捗状況は、親目標の進捗状況を自動的に更新します。
+   * **説明**：目標に関する情報を追加または更新します。
+   * **進行状況**：これまでに完了した目標の割合を示します。目標の進行状況を手動で更新することはできません。目標の進行状況は、すべての進捗状況インジケーターの計算です。
+   * **状況**：目標が新規で、まだ更新されていないか、ターゲットが予定通りに完了しそうか、それとも遅れているかを示します。目標の状況は更新できません。目標の状況は、Workfront によって自動的に計算されます。\
+     目標の条件と進行状況に関して詳しくは、
+     [Adobe Workfront Goals の目標の進捗と状況の概要](../goal-management/calculate-goal-progress.md)を参照してください。
+   * **ステータス**：目標のステータスを手動で更新することはできません。詳しくは、[Adobe Workfront Goals の目標ステータスの概要](../goal-management/goal-status-overview.md)を参照してください。
+   * **目標所有者**：をクリックして、目標の所有者の名前を更新します。ユーザー、チーム、グループまたは組織の名前を入力し、リストに表示されたら選択します。1 つの目標に対して所有者を 1 名だけ指定できます。
+   * **親目標**：選択した目標の親として設定する目標の名前を入力します。選択した目標の進行状況は、親目標の進行状況を自動的に更新します。
 
-      >[!TIP]
-      >
-      >親目標に関する次の情報は更新できません。
-      >    * 親目標の期間
-      >    * 親目標の進捗状況
-      >    * 親目標の所有者.
+     >[!TIP]
+     >
+     >親目標に関する以下の情報は更新できません。
+     >    * 親目標の期間
+     >    * 親目標の進捗状況
+     >    * 親目標の所有者.
+     >      
+     >親目標自体に関するこの情報を、自分で更新する必要があります。
 
-      >      
-      >親目標自体に関するこの情報を更新する必要があります。
-
-   * **期間**:クリックして目標の期間を更新\
-      または\
-      選択 **カスタム日付を有効にする** 目標の日付を指定するには **開始** および **終了日**.
-   * **終了メモ**:このフィールドは、ステータスが「クローズ」の目標に対してのみ表示されます。 クローズした目標は編集できません。 終了した目標を再度開くと、終了日が完全に削除されます。
+   * **期間**：クリックして目標の期間を更新\
+     または\
+     「**カスタム日付を使用**」を選択して、目標の&#x200B;**開始**&#x200B;および&#x200B;**終了日**&#x200B;の日付を指定します。
+   * **クローズメモ**：このフィールドは、ステータスがクローズの目標に対してのみ表示されます。クローズした目標は編集できません。クローズした目標を再度開くと、クローズメモが完全に削除されます。
 
 
