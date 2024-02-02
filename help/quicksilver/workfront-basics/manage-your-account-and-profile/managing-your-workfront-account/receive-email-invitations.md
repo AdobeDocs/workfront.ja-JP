@@ -1,19 +1,19 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: E メールの招待状を受け取り、のパスワードを作成します。 [!DNL Adobe Workfront]
-description: When a [!DNL Workfront] 管理者が新しいユーザーを作成した場合、新しいユーザーは、いくつかの要因に基づいて招待メールを受け取る場合があります。
+title: 招待メールを受信して  [!DNL Adobe Workfront] のパスワードを作成
+description: ' [!DNL Workfront]  管理者が新しいユーザーを作成すると、新しいユーザーは、いくつかの要因に基づいて招待メールを受け取る場合があります。'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
 source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# E メールの招待状を受け取り、のパスワードを作成します。 [!DNL Adobe Workfront]
+# 招待メールを受信して [!DNL Adobe Workfront] のパスワードを作成
 
 ## アクセス要件
 
@@ -26,52 +26,52 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> <p>[!UICONTROL Request] 以降</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## E メールの招待状を受け取る
+## 招待メールの受信
 
-When a [!DNL Workfront] 管理者が新しいユーザーを作成した場合、新しいユーザーは、次のいくつかの要因に基づいて招待メールを受け取る場合があります。
+[!DNL Workfront] 管理者が新しいユーザーを作成すると、新しいユーザーは、いくつかの要因に基づいて招待メールを受け取る場合があります。
 
-* ユーザーの組織が [!DNL Adobe Admin Console]
-* ユーザーが [!DNL Workfront] または [!DNL Admin Console]
-* ユーザーが他のユーザーにアクセスできるかどうか [!DNL Adobe] 製品またはは新規 [!DNL Adobe] ユーザー
-* 管理者がユーザーに招待メールを送信するかどうかを選択する ( まだ [!DNL Admin Console])
+* ユーザーの組織が [!DNL Adobe Admin Console] にオンボーディングされているかどうか
+* ユーザーが [!DNL Workfront] と [!DNL Admin Console] のどちらに追加されているか
+* ユーザーが他の [!DNL Adobe] 製品へのアクセス権を持っているか、新しい [!DNL Adobe] ユーザーか
+* 管理者がユーザーに招待メールを送信することを選択したかどうか（まだ [!DNL Admin Console] に登録されていない組織のみに適用）
 
-詳しくは、 [!DNL Workfront] 管理者が新しいユーザーを作成する際に電子メールの招待状を送信します。詳しくは、 [新規ユーザーへのメール招待を管理](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
+[!DNL Workfront] 管理者が新しいユーザーを作成する際に招待メールを送信する用法について詳しくは、[新規ユーザーへの招待メールを管理](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)を参照してください。
 
-Workfront管理者が新しいユーザーを [!DNL Adobe Workfront]を参照してください。 [ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Workfront 管理者が新しいユーザーを [!DNL Adobe Workfront] に追加する方法について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-## のパスワードを作成 [!DNL Workfront]
+## [!DNL Workfront] のパスワードを作成
 
-新規ユーザーは、招待メールを受け取った後、電子メールの招待状のリンクをたどって、 [!DNL Workfront] アカウントを作成するには、パスワードを選択します。
+新規ユーザーは、招待メールを受け取った後、招待メールのリンクに従って、パスワードを選択することにより、[!DNL Workfront] アカウントの作成を完了できます。
 
 >[!NOTE]
 >
->E メール内のリンクは、 [!UICONTROL 一般オプション] 領域 [!UICONTROL 招待] ページを [!DNL Workfront] 管理者。
+>メール内のリンクは、[!DNL Workfront] 管理者が[!UICONTROL 招待]ページの[!UICONTROL 一般のオプション]エリアで指定している日数に限り有効です。
 
-のパスワードを作成するには、以下を実行します。 [!DNL Workfront] 招待メールを使用して、次の操作を行います。
+招待メールを使用して [!DNL Workfront] のパスワードを作成するには：
 
-1. クリック **[!UICONTROL はじめに]** Workfrontからの招待メールで
+1. Workfront からの招待メールで「**[!UICONTROL 開始する]**」をクリックします。
 
-   ![電子メールの招待状からの新しいユーザー画面](assets/new-user-screen-from-invitation-adobe-350x292.png)
+   ![招待メールの新規ユーザー画面](assets/new-user-screen-from-invitation-adobe-350x292.png)
 
 1. 次の情報を指定します。\
-   **[!UICONTROL 名]**:名（事前入力が必要です）。\
-   **[!UICONTROL 姓]**:姓（事前入力が必要です）。\
-   **[!UICONTROL タイトル]**:組織内の役職。\
-   **[!UICONTROL パスワード]**:Workfrontにログインするためのパスワードを選択します。\
-   **[!UICONTROL パスワードを確認]**:次を確認： [!DNL Workfront] パスワード。
+   **[!UICONTROL 名]**：名（通常は事前入力されています）。\
+   **[!UICONTROL 姓]**：姓（通常は事前入力されています）。\
+   **[!UICONTROL 役職]**：組織内の役職。\
+   **[!UICONTROL パスワード]**：Workfront にログインするためのパスワードを選択します。\
+   **[!UICONTROL パスワードの確認]**：[!DNL Workfront] のパスワードを確認します。
 
-1. 選択 **[!UICONTROL 利用条件に同意します]**.
-1. クリック **[!UICONTROL ログイン]**.\
-   これで、Workfrontでのユーザーアカウントの作成が完了します。
+1. 「**[!UICONTROL 利用条件に同意します]**」を選択します。
+1. 「**[!UICONTROL ログイン]**」をクリックします。\
+   これで、Workfront でのユーザーアカウントの作成が完了します。
