@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 7 月 26 日の週
-description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 7 月 26 日の週
+title: Workfront Fusion リリースアクティビティ：&nbsp;2021年7月26日（PT）の週
+description: Workfront Fusion リリースアクティビティ：&nbsp;2021年7月26日（PT）の週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -8,33 +8,33 @@ recommendations: noDisplay, noCatalog
 exl-id: 07bbdf99-986e-408d-9ee7-3c43dbb5b2ff
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 7 月 26 日の週
+# Workfront Fusion リリースアクティビティ：2021年7月26日（PT）の週
 
-このページでは、2021 年 7 月 26 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年7月26日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## Salesforce コネクタのモジュールを簡素化
+## Salesforce コネクタの簡素化モジュール
 
-シナリオで Salesforce モジュールを簡単に設定できるように、Salesforce/レコードと Salesforce の作成/レコードの更新モジュールにいくつかの変更を加えました。 これで、値を指定するフィールドを選択できます。 フィールドは必須または任意として明確にマークされ、選択したフィールドのみがモジュールに表示されます。
+シナリオで Salesforce モジュールをより簡単に設定できるように、「Salesforce／レコードを作成」と「Salesforce／レコードモジュールをアップデート」にいくつかの変更を加えました。これで、値を指定するフィールドを選択できます。フィールドは必須またはオプションとして明確にマークされており、選択したフィールドのみがモジュールに表示されます。
 
-以前は、レコードの使用可能なすべてのフィールドがモジュールに表示されていたので、必要なフィールドの検索が困難になり、Workfrontに大量の不要なデータが送信されるためパフォーマンスに影響を与える可能性がありました。
+以前は、レコードの使用可能なすべてのフィールドがモジュールに表示されていたので、これにより、目的のフィールドを見つけることが困難になり、この結果大量の不要なデータが Workfront に送信されるため、パフォーマンスに影響を与える可能性がありました。
 
-以前に利用可能なモジュールを使用する既存のシナリオの機能は変更されませんが、新しいシナリオでは使用できません。
+以前に利用可能なモジュールを使用する既存のシナリオの機能は変更されませんが、そのようなモジュールは、新しいシナリオでは使用できません。
 
-詳しくは、 [Salesforce モジュール](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
+詳しくは、[Salesforce モジュール](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md)を参照してください。
 
-## Adobe Workfront Fusion コネクタに同意する場合のアカウントアクセスの詳細をより明確に確認できます
+## Adobe Workfront Fusion コネクタに同意する際のアカウントアクセスの詳細を、より明確に表示
 
-Adobe Workfront Fusion への接続に関する同意画面が更新されました。 これで、接続がアクセスできる特定のアクションと領域を確認できるので、アプリケーションがアクセスできる内容をより深く理解できます。
+Adobe Workfront Fusion への接続に関する同意画面がアップデートされました。これで、接続がアクセスできる特定のアクションとエリアが表示されるため、アプリケーションに何へのアクセスを許可しているのかをよりよく理解できるようになります。
 
-詳しくは、 [モジュールのアプリまたは Web サービスをWorkfront Fusion に接続する](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) のセクション [Adobe Workfront Fusion でシナリオを作成する](../../../workfront-fusion/scenarios/create-a-scenario.md).
+詳しくは、[Adobe Workfront Fusion でのシナリオの作成](../../../workfront-fusion/scenarios/create-a-scenario.md)で、[モジュールのアプリまたは web サービスを Workfront Fusion に接続](../../../workfront-fusion/scenarios/create-a-scenario.md#connect)の節を参照してください。
 
