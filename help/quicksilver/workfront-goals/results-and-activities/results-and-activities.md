@@ -2,21 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Adobe Workfront目標の結果とアクティビティ
-description: 結果とアクティビティは、Adobe Workfront目標の目標の進捗状況インジケーターです。 結果とアクティビティの詳細については、次の記事を参照してください。
+title: Adobe Workfront Goals の結果とアクティビティ
+description: 結果とアクティビティは、Adobe Workfront Goals の目標の進行状況インジケーターです。結果とアクティビティの詳細については、次の記事を参照してください。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
-workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
 
-# Adobe Workfront目標の結果とアクティビティ
+# Adobe Workfront Goals の結果とアクティビティ
 
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:
 
@@ -42,22 +42,22 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 >[!NOTE]
 >
->この記事で説明する機能を使用するには、以下が必要です。
+>この記事で説明している機能を使用するには、組織に以下が必要です。
 >
->* A Pro 以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
->* Workfrontライセンスに加えて、Adobe Workfront Goals ライセンスが必要です。
+>* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
+>* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 >
->  Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。
+>  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 >
->Workfront Goals へのアクセスについて詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-Workfront目標の進行状況を記録するには、進行状況インジケーターを目標に関連付ける必要があります。 結果やアクティビティに加えて、プロジェクトや子の目標を目標に関連付けて、進捗状況を記録することもできます。
+Workfront Goals の進行状況を記録するには、進行状況インジケーターを目標に関連付ける必要があります。結果やアクティビティに加えて、プロジェクトや子の目標を目標に関連付けて、進行状況を記録することもできます。
 
 この節では、次の記事を扱います。
 
-* [Adobe Workfront目標の結果とアクティビティの概要](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Adobe Workfront目標での目標へのアクティビティの追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Adobe Workfront目標の目標に結果を追加](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Adobe Workfront目標の目標へのプロジェクトの追加](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
-* [Adobe Workfront目標で結果とアクティビティを編集](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
-* [Adobe Workfront目標の目標から結果、アクティビティ、プロジェクトを削除](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+* [Adobe Workfront Goals での結果とアクティビティの編集の基本を学ぶ](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Adobe Workfront Goals の目標へのアクティビティの追加](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Adobe Workfront Goals の目標への結果の追加](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Adobe Workfront Goals の目標へのプロジェクトの追加](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+* [Adobe Workfront Goals での結果とアクティビティの編集](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Adobe Workfront Goals の目標からの結果、アクティビティ、プロジェクトの削除](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
