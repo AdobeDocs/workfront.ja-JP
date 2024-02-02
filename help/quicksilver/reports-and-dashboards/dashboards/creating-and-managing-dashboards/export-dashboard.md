@@ -2,25 +2,25 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードのエクスポート
-description: Web ブラウザーで使用できる印刷オプションを使用して、ダッシュボードを.pdf ファイルに書き出すことができます。
+description: Web ブラウザーで使用できる印刷オプションを使用して、ダッシュボードを .pdf ファイルに書き出すことができます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # ダッシュボードのエクスポート
 
-Web ブラウザーで使用できる印刷オプションを使用して、ダッシュボードを.pdf ファイルに書き出すことができます。
+Web ブラウザーで使用できる印刷オプションを使用して、ダッシュボードを .pdf ファイルに書き出すことができます。
 
 >[!NOTE]
 >
 >Web ページからコンテンツを印刷する場合、コンテンツの形式設定に影響が及ぶ可能性があります。\
->例えば、ダッシュボード内のレポートのヘッダーがレポートリスト内の行から切り離されている場合があります。
+>例えば、ダッシュボード内のレポートのヘッダーがレポートリスト内の行から切り取られる場合があります。
 
 ## アクセス要件
 
@@ -31,42 +31,42 @@ Web ブラウザーで使用できる印刷オプションを使用して、ダ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>仕事以上</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>レポート、ダッシュボード、およびカレンダーへのアクセスの表示</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーの表示アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ダッシュボードに対する権限の表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ダッシュボードの表示権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
 ## 前提条件
 
-ダッシュボードをエクスポートする前に、ダッシュボードを作成する必要があります。
+ダッシュボードを書き出す前に、ダッシュボードを作成する必要があります。
 
-ダッシュボードの作成について詳しくは、 [ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+ダッシュボードの作成については、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 
-## ダッシュボードを.pdf ファイルにエクスポートします。
+## ダッシュボードを .pdf ファイルに書き出します。
 
-1. エクスポートするダッシュボードに移動します。
-1. クリック **ダッシュボードのアクション**&#x200B;を選択し、「 **印刷**.
+1. 書き出すダッシュボードに移動します。
+1. 「**ダッシュボードの操作**」をクリックし、「**印刷**」を選択します。
 
    ![](assets/dashboard-actions-print-350x254.png)
 
    印刷ダイアログが開きます。
 
-1. Web ブラウザーに応じて、適切な印刷オプションを選択し、.pdf を完成させます。 ファイルエクスポート：
+1. Web ブラウザーに応じて、適切な印刷オプションを選択し、.pdf を完成させます。ファイルの書き出し：
 
    <table style="table-layout:auto"> 
     <col> 
@@ -74,7 +74,7 @@ Web ブラウザーで使用できる印刷オプションを使用して、ダ�
     <thead> 
      <tr> 
       <th>Web ブラウザー</th> 
-      <th>印刷ダイアログの選択</th> 
+      <th>印刷ダイアログの選択項目</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -82,20 +82,20 @@ Web ブラウザーで使用できる印刷オプションを使用して、ダ�
       <td>Google Chrome</td> 
       <td> 
        <ol> 
-        <li value="1">内 <strong>宛先</strong> フィールド、選択 <strong>「名前を付けて保存」PDF</strong>をクリックし、他の印刷オプションを変更します。</li> 
+        <li value="1">「<strong>宛先</strong>」フィールドで、「<strong>PDF として保存</strong>」を選択して、変更したい他の印刷オプションを変更します。</li> 
         <li value="2">「<strong>保存</strong>」をクリックします。</li> 
-        <li value="3">（オプション） <strong>ファイル名</strong>」をクリックし、ファイルの新しいフォルダーの宛先を選択します。</li> 
-        <li value="4">クリック <strong>保存</strong> .pdf ファイルをハードドライブに保存します。<br><br></li> 
+        <li value="3">（オプション）「<strong>ファイル名</strong>」を編集して、ファイルの新規フォルダーの宛先を選択します。</li> 
+        <li value="4">「<strong>保存</strong>」をクリックして、.pdf ファイルをハードドライブに保存します。<br><br></li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td>Internet Explorer、Microsoft Edge、Mozilla Firefox</td> 
-      <td> <p>注意：Internet Explorer バージョン 11 を使用している場合は、サードパーティ製のプラグインをインストールしないと、PDFに印刷機能を使用できない場合があります。</p> 
+      <td> <p>メモ：Internet Explorer バージョン 11 を使用している場合、サードパーティのプラグインをインストールしないと、PDF への印刷機能を使用できない場合があります。</p> 
        <ol> 
-        <li value="1">内 <strong>プリンタ</strong> または <strong>プリンタを選択</strong> フィールド、選択 <strong>Microsoft Print toPDF</strong>をクリックし、他の印刷オプションを変更します。</li> 
-        <li value="2">クリック <strong>印刷</strong>.</li> 
-        <li value="3">を入力します。 <strong>ファイル名</strong></li> 
-        <li value="4">（オプション）ファイルの新しいフォルダーの宛先を選択します。</li> 
+        <li value="1">「<strong>プリンター</strong>」または「<strong>プリンターの選択</strong>」フィールドで、「<strong>Microsoft Print to PDF</strong>」を選択し、変更する他の印刷オプションを変更します。</li> 
+        <li value="2">「<strong>印刷</strong>」をクリックします。</li> 
+        <li value="3"><strong>ファイル名</strong>を入力します。</li> 
+        <li value="4">（オプション）ファイルの新規フォルダーの宛先を選択します。</li> 
         <li value="5">「<strong>保存</strong>」をクリックします。</li> 
        </ol> </td> 
      </tr> 
@@ -103,9 +103,9 @@ Web ブラウザーで使用できる印刷オプションを使用して、ダ�
       <td>Safari</td> 
       <td> 
        <ol> 
-        <li value="1">左下隅でドロップダウン矢印をクリックし、「 <strong>「名前を付けて保存」PDF</strong>.</li> 
-        <li value="2">を入力します。 <strong>ファイル名</strong>.</li> 
-        <li value="3">（オプション）変更する他の印刷オプションを変更します。例えば、ファイルの新しいフォルダ先を選択します。</li> 
+        <li value="1">左下隅でドロップダウン矢印をクリックし、「<strong>PDF として保存</strong>」を選択します。</li> 
+        <li value="2"><strong>ファイル名</strong>を入力します。</li> 
+        <li value="3">（オプション）ファイルの新規フォルダーの宛先の選択など、変更する他の印刷オプションを変更します。</li> 
         <li value="4">「<strong>保存</strong>」をクリックします。</li> 
        </ol> </td> 
      </tr> 
