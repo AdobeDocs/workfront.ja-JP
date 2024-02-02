@@ -7,36 +7,36 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 23.1 プロジェクトおよびリソース管理に関する機能強化
 
-このページでは、プレビュー環境の 23.1 リリースでおこなわれたプロジェクトおよびリソース管理に関するすべての機能強化について説明します。 これらの機能強化は、2023 年 1 月 17 日の週に実稼動環境で利用可能になる予定です。
+このページでは、23.1 リリースのプレビュー環境で実施されたプロジェクトとリソース管理の機能強化について説明します。これらの機能強化は、2023年1月16日の週に実稼動環境で利用可能になる予定です。
 
-23.1 リリースで使用可能なすべての変更点の一覧については、 [23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+23.1 リリースで使用可能なすべての変更点の一覧について詳しく、[23.1 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)を参照してください。
 
-## ワークロード・バランサでアイテムを一括割り当てする際に「その他の割り当て」リストに追加されるセカンダリのジョブ・ロール
+## ワークロードバランサーで項目を一括割り当てする際に「その他の割り当て」リストにセカンダリの担当業務を追加
 
-「役割の割り当て」フィールドでジョブの役割を選択した後、ワークロード・バランサでユーザーを一括割り当てると、「割り当てるユーザー」フィールドの「その他の割り当て」リストに入力されたユーザーのリストに、各ユーザーに関連付けられたすべての役割が表示されます。 この機能強化以前は、ユーザーの主な役割のみが表示されていました。
+「役割の割り当て」フィールドでジョブの役割を選択した後、ワークロードバランサーでユーザーを一括割り当てると、「割り当てるユーザー」フィールドの「その他の割り当て」リストに入力されたユーザーのリストに、各ユーザーに関連付けられたすべての役割が表示されるようになりました。この機能強化以前は、ユーザーのプライマリの役割のみが表示されていました。
 
-詳しくは、 [ワークロードバランサーを使用して作業を一括で割り当てる](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+詳しくは、[ワークロードバランサーを使用した作業の一括割り当て](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
 
 ## プロジェクトの「ユーザーを追加」オプションの再配置
 
-リソーススケジュールツールの廃止と削除に備えて、プロジェクトの「スケジュール設定」セクションから「ユーザーを追加」オプションを「人」セクションに移動しました。 プロジェクトにユーザーを追加する場合、プロジェクトのアイテムに関連付けられていないユーザーは、プロジェクトチームの一員になります。
+リソーススケジュールツールの廃止と削除に備えて、プロジェクトの「スケジュール」セクションの「ユーザーを追加」オプションを「ユーザー」セクションに移動しました。プロジェクトにユーザーを追加する場合、プロジェクトのアイテムに関連付けられていないユーザーは、プロジェクトチームの一員になります。
 
-詳しくは、 [プロジェクトチームを管理](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+詳しくは、[プロジェクトチームを管理](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)を参照してください。
 
-[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412443/){target=_blank}
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3412443/){target=_blank}
 
-## ドキュメントフォルダーのダイレクトリンクをコピーする
+## ドキュメントフォルダーのダイレクトリンクをコピー
 
-ドキュメントフォルダーのリンクをコピーして共有し、フォルダーにすばやくアクセスできるようになりました。 フォルダーを表示するには、少なくともオブジェクトへの表示アクセス権が必要です。
+ドキュメントフォルダーのリンクをコピーして共有し、フォルダーに素早くアクセスできるようになりました。フォルダーを表示するには、少なくともオブジェクトへの表示アクセス権が必要です。
 
-詳しくは、 [ドキュメントフォルダーへのリンクをコピーして共有する](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md).
+詳しくは、[ドキュメントフォルダーへのリンクをコピーして共有](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md)を参照してください。
 
-[この機能のデモビデオを表示](https://video.tv.adobe.com/v/3412385/){target=_blank}
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3412385/){target=_blank}
