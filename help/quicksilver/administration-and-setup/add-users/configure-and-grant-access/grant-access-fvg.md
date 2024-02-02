@@ -1,25 +1,25 @@
 ---
-title: フィルター、ビューおよびグループに対するアクセス権の付与
+title: フィルター、ビュー、グループ化に対するアクセス権を付与
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
-description: Adobe Workfront管理者は、アクセスレベルを使用して、リストおよびレポートのフィルター、表示、グループ化コントロールに対するユーザーのアクセスを定義できます。
+description: Adobe Workfront 管理者は、アクセスレベルを使用して、リストおよびレポートのフィルター、ビュー、グループ化コントロールに対するユーザーのアクセス権を定義できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
 source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# フィルター、ビューおよびグループに対するアクセス権の付与
+# フィルター、ビュー、グループ化に対するアクセス権を付与
 
-Adobe Workfrontの管理者は、アクセスレベルを使用して、リストやレポートのフィルター、表示、グループ化コントロールに対するユーザーのアクセスを定義できます。詳しくは、 [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)の説明に従って、Adobe Workfront 管理者は、アクセスレベルを使用して、リストおよびレポートのフィルター、ビュー、グループ化コントロールに対するユーザーのアクセス権を定義できます。
 
-フィルター、表示、グループ化コントロールについて詳しくは、 [レポート要素：フィルター、ビュー、グループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+フィルター、ビュー、グループ化コントロールについて詳しくは、[レポート要素：フィルター、ビューおよびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
 
 ## アクセス要件
 
@@ -30,42 +30,42 @@ Adobe Workfrontの管理者は、アクセスレベルを使用して、リス�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## カスタムアクセスレベルを使用して、フィルター、ビューおよびグループに対するユーザーアクセスを設定する
+## カスタムアクセスレベルを使用して、フィルター、ビュー、グループ化に対するユーザーアクセスを設定
 
-1. アクセスレベルの作成または編集を開始します ( [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. 歯車アイコンをクリックします。 ![](assets/gear-icon-settings.png) の **表示** または **編集** 「フィルター」の右にあるボタンをクリックし、許可するアビリティーを「 」の下で選択します。 **設定を微調整する**.
+1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
+1. 「フィルター」の右にある「**表示**」ボタンまたは「**編集**」ボタン上の歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、付与する機能を「**設定を微調整**」の下で選択します。
 
    ![](assets/gear-icon-filters-dashboards-groupings.jpg)
 
-   デフォルトでは、プラン、作業、レビュー担当者、リクエストのライセンスを持つユーザーは、完全な表示機能と編集機能を持ちます。 外部ユーザーライセンスを持つユーザーは、フィルター、表示、グループにアクセスできません。
+   デフォルトでは、計画、作業、レビュアーやリクエストのライセンスを持つユーザーは、完全な表示および編集の機能を持ちます。外部ユーザーライセンスを持つユーザーは、フィルター、ビュー、グループ化にアクセスできません。
 
    <!--If this changes, undraft section with table below
    -->
 
-1. （オプション）作業中のアクセスレベルの他のオブジェクトや領域のアクセス設定を構成するには、 [Adobe Workfrontへのアクセスの設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)例： [タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) および [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. 完了したら、「 **保存**.
+1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス設定を指定するには、[Adobe Workfront へのアクセスを設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事のうちの 1 つ（[タスクへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)、[財務データへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)など）に従って、作業を続けます。
+1. 完了したら「**保存**」をクリックします。
 
-   アクセスレベルを作成したら、そのレベルをユーザーに割り当てることができます。 詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザープロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 <!--## Access to filters, views, and groupings by license type
 
 Drafting out this section for now because the table is redundant since all four license types can do everything.</span>-->
 
-この表は、Workfront管理者が、各ライセンスタイプのユーザーに対して、フィルタ、表示、グループ化に対して実行を許可する内容を示しています。 Workfrontのライセンスの種類について詳しくは、 [Adobe Workfrontライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+この表は、Workfront 管理者がそれぞれのライセンスタイプを持つユーザーに許可できるフィルター、ビュー、グループ化の内容を示しています。Workfront ライセンスタイプについて詳しくは、[Adobe Workfront のライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)を参照してください。
 
 <table style="table-layout:auto">
 <col>
@@ -76,50 +76,50 @@ Drafting out this section for now because the table is redundant since all four 
 <thead>
 <tr>
 <th> アクション </th>
-<th> 計画担当者 </th>
+<th> プランナー </th>
 <th> 作業者 </th>
 <th> レビュアー </th>
-<th> 要求者 </th>
+<th> リクエスター </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>フィルター、ビュー、グループ化の編集</td>
+<td>フィルター、ビュー、グループ化を編集</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>フィルター、ビュー、グループの作成</td>
+<td>フィルター、ビュー、グループ化を作成</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>フィルター、ビュー、およびグループを表示</td>
+<td>フィルター、ビュー、グループ化を表示</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>フィルター、ビュー、およびグループの削除</td>
+<td>フィルター、ビュー、グループ化の削除</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>フィルター、ビュー、グループの共有</td>
+<td>フィルター、ビュー、グループ化を共有</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>システム全体でフィルター、ビュー、グループを共有</td>
+<td>システム全体でフィルター、ビュー、グループ化を共有</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
