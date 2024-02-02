@@ -3,118 +3,118 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion リリースアクティビティ： 2021 年 1 月 11 日の週」
-description: このページでは、2021 年 1 月 11 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+title: 「Workfront Fusion リリースアクティビティ：2021年1月11日（PT）の週」
+description: このページでは、2021年1月11日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 2439e2a7-9404-433a-bd71-a7776042d8a0
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 1 月 11 日の週
+# Workfront Fusion リリースアクティビティ：2021年1月11日（PT）の週
 
-このページでは、2021 年 1 月 11 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年1月11日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## コネクタとモジュールを拡張可能
+## Widen コネクタとモジュールが利用可能になります
 
-これで、Workfront Fusion を使用して Widen アカウントに接続できます。 Widen モジュールを使用すると、次の操作を実行できます。
+Workfront Fusion を使用して、お使いの Widen アカウントに接続できるようになりました。Widen モジュールを使用すると、次のことが可能になります。
 
-* コレクションへのアセットの追加またはコレクションからのアセットの削除
-* ファイルのダウンロードまたはアップロード
-* アセットメタデータの読み取りまたは更新
+* コレクションに対してアセットを追加または削除
+* ファイルのダウンロードやアップロード
+* アセットのメタデータの読み取りや更新
 * 指定した条件に基づいてアセットを検索
 * コレクション内のアセットのリストの取得
 * カスタム API 呼び出しを実行します。
 
-詳しくは、 [モジュールを広げる](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+詳しくは、[Widen モジュール](../../../workfront-fusion/apps-and-their-modules/widen-modules.md)を参照してください。
 
-## DataDog コネクタとモジュールを利用できるようになりました
+## DataDog コネクタとモジュールが利用可能になります
 
-これで、Workfront Fusion を使用して Datadog アカウントに接続できます。
+Workfront Fusion を使用して、お使いの Datadog アカウントに接続できるようになりました。
 
-DataDog モジュールを使用すると、次の操作を実行できます。
+DataDog モジュールを使用すると、次のことが可能になります。
 
 * 時系列ポイントの投稿
 * カスタム API 呼び出しの実行
 
-DataDog モジュールについて詳しくは、 [データドグモジュール](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+DataDog モジュールについて詳しくは、[Datadog モジュール](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md)を参照してください。
 
-## Cvent コネクタとモジュールが利用可能に
+## Cvent コネクタとモジュールが利用可能になります
 
-これで、Workfront Fusion 2.0 を使用して Cvent アカウントに接続できます。
+Workfront Fusion 2.0 を使用して、お使いの Cvent アカウントに接続できるようになりました。
 
-Cvent モジュールを使用すると、次の操作を実行できます。
+Cvent モジュールを使用すると、次のことが可能になります。
 
-* 会議出席依頼を作成する
-* 連絡先、イベント、招待者などのレコードを読み取る
-* 指定した条件に基づいてレコードをリスト
-* 特定のイベントに招待者を登録または追加する
+* 会議出席リクエストの作成
+* 連絡先、イベントまたは招待者などのレコードの読み取り
+* 指定した条件に基づくレコードの一覧表示
+* 特定のイベントへの招待者の登録または追加
 * 連絡先の更新または削除
-* カスタム API 呼び出しをおこなう
+* カスタム API 呼び出しを実行
 
-使用可能な Cvent モジュールについて詳しくは、 [Cvent モジュール](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+使用可能な Cvent モジュールについて詳しくは、[Cvent モジュール](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md)を参照してください。
 
-## Microsoft Dynamics 365 コネクタとモジュールが利用できるようになりました
+## Microsoft Dynamics 365 コネクタとモジュールが利用可能になります
 
-これで、Workfront Fusion 2.0 を使用してMicrosoft Dynamics 365 アカウントに接続できます。 Microsoft Dynamics 365 モジュールでは、次の操作を実行できます。
+Workfront Fusion 2.0 を使用して、お使いの Microsoft Dynamics 365 アカウントに接続できるようになりました。Microsoft Dynamics 365 モジュールを使用すると、次のことが可能になります。
 
 * Microsoft Dynamics 365 でレコードが追加または更新された場合のシナリオのトリガー
 * Microsoft Dynamics 365 レコードの作成、読み取り、更新、削除
 * カスタム API 呼び出しの実行
 
-使用可能なMicrosoft Dynamics 365 モジュールについて詳しくは、 [Microsoft Dynamics 365 モジュール](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+使用可能な Microsoft Dynamics 365 モジュールについて詳しくは、[Microsoft Dynamics 365 モジュール](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)を参照してください。
 
-## DocuSign コネクタとモジュールを利用できるようになりました
+## DocuSign コネクタとモジュールが利用可能になります
 
-これで、Workfront Fusion 2.0 を使用して Document アカウントに接続できます。 ドキュメントモジュールを使用すると、次の操作を実行できます。
+Workfront Fusion 2.0 を使用して、お使いの Docusign アカウントに接続できるようになりました。Docusign モジュールを使用すると、次のことが可能になります。
 
-* トリガーエンベロープがステータスを変更したときのシナリオのステータス
-* エンベロープの作成
-* 既存の封筒に受信者を読み取り、送信、または追加する
+* エンベロープがステータスを変更した際にシナリオをトリガーする
+* エンベロープを作成する
+* 既存のエンベロープに受信者を読み取り、送信、または追加する
 * ドキュメント内のカスタムフィールドを追加または変更する
-* ドキュメントをフィールド形式でダウンロードする
-* エンベロープにファイルをアップロード
+* ドキュメントをファイルとしてダウンロードする
+* エンベロープにファイルをアップロードする
 * カスタム API 呼び出しの実行
 
-詳しくは、 [DocuSign モジュール](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+詳しくは、[DocuSign モジュール](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md)を参照してください。
 
-## シナリオ実行履歴を検索
+## シナリオ実行履歴の検索
 
-以前のシナリオの実行時の特定の情報を見つけやすくなりました。 Fusion の新しい全文検索では、バンドルに含まれるすべてのデータの実行履歴を検索できます。 例えば、特定のタスクを作成した実行を識別するには、全文検索を使用して、そのタスク ID を検索します。
+以前のシナリオ実行の特定の情報が見つけやすくなりました。Fusion の新しい全文検索では、バンドルに含まれている任意のデータの実行履歴を検索できます。例えば、特定のタスクを作成した実行を識別するには、全文検索を使用してそのタスクの ID を検索することができます。
 
-以前は、特定の実行情報を見つけるには、各実行を個別に表示する必要がありました。
+これまでは、特定の実行情報を見つけるには、それぞれの実行を個別に表示する必要がありました。
 
-詳しくは、 [Adobe Workfront Fusion でシナリオの実行履歴を表示します](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+詳しくは、[Adobe Workfront Fusion におけるシナリオの実行履歴の表示](../../../workfront-fusion/scenarios/view-scenario-execution-history.md)を参照してください。
 
-## Fusion 2.0 Data Store の更新
+## Fusion 2.0 データストアの更新
 
-データストアを簡単にカスタマイズできるように、新しい機能が追加されました。 データストアを表示すると、次の操作を実行できます。
+データストアをカスタマイズしやすくなるように、新しい機能が追加されました。データストアの表示中に、次の操作を行えるようになりました。
 
-* ドラッグ&amp;ドロップして列を並べ替え
-* 単一のセルの編集
+* ドラッグ＆ドロップして列を並べ替え
+* 1 つのセルを編集
 * 複数行を追加
 
-データストアの詳細については、 [データストアモジュール](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+データストアついて詳しくは、[データストアモジュール](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md)を参照してください。
 
-## HTTP コネクタを使用した API キー認証リクエストの作成
+## HTTP コネクタを使用した API キー認証リクエストの実行
 
-API にアクセスする柔軟性を高めるために、HTTP コネクタに新しいモジュールが追加されました。 これで、アクセスする Web サービスで API キーを使用する必要がある場合に、HTTP コネクタを使用してリクエストを実行できます。
+より柔軟に API にアクセスできるように、HTTP コネクタに新しいモジュールが追加されました。これで、アクセスする web サービスで API キーを使用する必要がある場合に、HTTP コネクタを使用してリクエストを実行できるようになりました。
 
-詳しくは、 [HTTP モジュール](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+詳しくは、[HTTP モジュール](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)を参照してください。
 
 ## マッピングパネルで使用できる新しい関数
 
-モジュール内の数式をカスタマイズして簡単にするために、新しい関数が追加されました。
+モジュール内の数式をカスタマイズしたり簡素化したりできるように、新しい関数がいくつか追加されました。
 
 * この
 
@@ -122,14 +122,14 @@ API にアクセスする柔軟性を高めるために、HTTP コネクタに�
   omit
   ```
 
-  関数は、オブジェクトの指定されたキーを省略し、残りのキーを返す一般的な関数です。
+  関数は、オブジェクトの指定のキーを省略し、残りのキーを返す一般関数です。
 * この
 
   ```
   pick
   ```
 
-  関数は、オブジェクトから指定されたキーのみを選択する一般的な関数です。
+  関数は、オブジェクトから指定のキーのみを選択する一般関数です。
 * この
 
   ```
@@ -138,6 +138,6 @@ API にアクセスする柔軟性を高めるために、HTTP コネクタに�
 
   関数は、テキスト内のすべての Markdown タグをエスケープする文字列関数です。
 
-omit 関数と pick 関数の詳細については、を参照してください。 [Adobe Workfront Fusion の一般的な機能](../../../workfront-fusion/functions/general-functions.md).
+omit 関数と pick 関数について詳しくは、[Adobe Workfront Fusion の一般関数](../../../workfront-fusion/functions/general-functions.md)を参照してください。
 
-escapeMarkdown 関数について詳しくは、 [Adobe Workfront Fusion の文字列関数](../../../workfront-fusion/functions/string-functions.md).
+escapeMarkdown 関数について詳しくは、[Adobe Workfront Fusion の文字列関数](../../../workfront-fusion/functions/string-functions.md)を参照してください。
