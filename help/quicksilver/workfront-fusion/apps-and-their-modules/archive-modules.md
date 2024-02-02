@@ -3,63 +3,63 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: モジュールをアーカイブ
-description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、zip 形式のファイルなどのアーカイブを複数のサードパーティのアプリケーションやサービスに接続できます。 例えば、次のシナリオを設定できます。
+title: モジュールのアーカイブ
+description: ' [!DNL Adobe Workfront Fusion]  シナリオの場合、zip 形式のファイルなどのアーカイブを複数のサードパーティのアプリケーションやサービスに接続できます。例えば、次のシナリオを設定できます。'
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
 source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# [!UICONTROL アーカイブ] モジュール
+# [!UICONTROL アーカイブ]モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオの場合は、圧縮ファイルなどのアーカイブをシナリオで使用して、自動化または統合で使用できます。
+[!DNL Adobe Workfront Fusion] シナリオの場合、zip 形式のファイルなどのアーカイブをシナリオで使用して、自動化または統合で使用できます。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
-## [!UICONTROL アーカイブ] モジュールとそのフィールド
+## [!UICONTROL アーカイブ]モジュールとそのフィールド
 
-設定時に [!UICONTROL アーカイブ] モジュール [!DNL Workfront Fusion] 以下のフィールドが表示されます。 これらに加えて、 [!UICONTROL アーカイブ] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!UICONTROL アーカイブ]モジュールの設定時に、[!DNL Workfront Fusion] には以下のフィールドが表示されます。これらとともに、アプリやサービスのアクセスレベルなどの要因に応じて、追加の「[!UICONTROL アーカイブ]」フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [のモジュール間で情報をマッピングする [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) での、1 つのモジュールから別のモジュールへの情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL アーカイブの抽出]](#extract-an-archive)
-* [[!UICONTROL アーカイブの作成]](#create-an-archive)
-* [[!UICONTROL 水増し]](#inflate)
+* [[!UICONTROL アーカイブを抽出]](#extract-an-archive)
+* [[!UICONTROL アーカイブを作成]](#create-an-archive)
+* [[!UICONTROL インフレート]](#inflate)
 * [[!UICONTROL デフレート]](#deflate)
 
-## [!UICONTROL アーカイブの抽出]
+## [!UICONTROL アーカイブを抽出]
 
 このアクションモジュールは、指定したファイルをアーカイブから抽出します。
 
-このモジュールは、ファイルの ID と関連するフィールドのほか、接続がアクセスするカスタムフィールドと値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、ファイルの ID や関連するフィールドのほか、接続を介してアクセスされるカスタムフィールドおよび値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL ソースファイル ]</td> 
-   <td> <p> 抽出するファイルを選択します。 このファイルは、以前のモジュール ( [!DNL Workfront] &gt;[!UICONTROL ドキュメントをダウンロード ] モジュール )。</p>  </td> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p> インポートするファイルを選択してください。このファイルは、以前のモジュール（[!DNL Workfront]／[!UICONTROL Download a document] モジュールなど）からマッピングできます。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!INFO]
 >
->**例：** 定義したから ZIP ファイルを取得します。 [!DNL Dropbox] フォルダー（アーカイブなど）、を使用して抽出します。 [!UICONTROL アーカイブ] をモジュール化し、抽出したファイルを、 [!UICONTROL 電子メール] または [!DNL Gmail] モジュール。
+>**例：**&#x200B;定義された [!DNL Dropbox] フォルダー（アーカイブなど）から ZIP ファイルを取得し、[!UICONTROL アーカイブ]モジュールを使用して抽出し、[!UICONTROL メール]または [!DNL Gmail] モジュールを使用して、抽出したファイルを目的のメールアドレスに添付ファイルとして送信します。
 >
 >![](assets/example-dropbox-350x134.png)
 
-## [!UICONTROL アーカイブの作成]
+## [!UICONTROL アーカイブを作成]
 
-この集約モジュールは、目的のファイルを [!UICONTROL ZIP] または [!UICONTROL TAR] アーカイブ。
+このアグリゲータモジュールは、目的のファイルを [!UICONTROL ZIP] または [!UICONTROL TAR] アーカイブに追加します。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -68,68 +68,68 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL ソースモジュール ]</td> 
-   <td> <p> ファイルを取得するモジュールを選択します。</p> </td> 
+   <td>[!UICONTROL Source module]</td> 
+   <td> <p> ファイルの取得元のモジュールを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL の種類 ] </td> 
-   <td> <p>ファイルを [!UICONTROL ZIP] アーカイブまたは [!UICONTROL TAR] アーカイブに追加するかどうかを選択します。</p> </td> 
+   <td>[!UICONTROL Type] </td> 
+   <td> <p>ファイルを [!UICONTROL ZIP] アーカイブまたは [!UICONTROL TAR] アーカイブのどちらに追加するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL コメント ]</td> 
+   <td>[!UICONTROL Comment]</td> 
    <td>アーカイブに追加するコメントを入力します。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Group by]</td> 
-   <td> <p>集計出力をグループ化する式を定義します。 この式には、1 つ以上のマッピングされた項目を含めることができます。 集計されたデータは、この式の値を使用してグループに分割されます。 各グループは、キー（評価された式）と値（集計テキスト）を持つ個別のバンドルとして出力されます。 キーを後続のモジュールのフィルターとして使用できます。</p> </td> 
+   <td> <p>集約出力をグループ化する式を定義します。この式には、1 つ以上のマッピングされた項目を含めることができます。集約されたデータは、この式の値を使用してグループに分割されます。各グループは、キー（評価された式）と値（集約されたテキスト）を持つ個別のバンドルとして出力されます。キーを後続のモジュールのフィルターとして使用できます。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 空の集計後に処理を停止 ]</td> 
+   <td>[!UICONTROL Stop processing after an empty aggregation]</td> 
    <td>結果がない場合にシナリオを停止するには、このオプションを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL アーカイブ名 ]</td> 
-   <td> <p> 作成したアーカイブの名前を入力します。 拡張機能は追加しないでください。</p> </td> 
+   <td>[!UICONTROL Archive name]</td> 
+   <td> <p> 作成したアーカイブの名前を入力します。拡張機能は追加しないでください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ソースファイル ]</td> 
-   <td> <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p> </td> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!INFO]
 >
->**例：** 次を使用して受信メールを監視する [!DNL Gmail] >[!UICONTROL メールを見る] モジュール。 E メールを受け取ると、添付ファイルは個々のバンドルに繰り返され、次に [!DNL ZIP] ファイルを作成し、定義したDropboxフォルダに保存します。
+>**例：**[!DNL Gmail]／[!UICONTROL メールを監視]モジュールを使用して受信メールを見ます。メールを受け取ると、添付ファイルは個々のバンドルに反復され、[!DNL ZIP] ファイルにアーカイブされて、定義された Dropbox フォルダーに保存されます。
 >
 >![](assets/example-gmail-350x102.png)
 
-## [!UICONTROL 水増し]
+## [!UICONTROL インフレート]
 
-この変換器モジュールは、膨張アルゴリズムを用いてバイナリデータを解凍する。
+この変換モジュールは、インフレーションアルゴリズムを用いてバイナリデータを解凍します。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データ ] </td> 
-   <td> <p>展開関数を使用して、展開するデータを入力またはマッピングします。</p> </td> 
+   <td>[!UICONTROL Data] </td> 
+   <td> <p>インフレート関数を使用して、インフレートするデータを入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## [!UICONTROL デフレート]
 
-この変換器モジュールは、デフレーションアルゴリズムを使用してバイナリデータを圧縮します。
+この変換モジュールは、デフレーションアルゴリズムを使用してバイナリデータを圧縮します。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データ ] </td> 
-   <td> <p>deflate 関数を使用して圧縮するデータを入力またはマッピングします。</p> </td> 
+   <td>[!UICONTROL Data] </td> 
+   <td> <p>deflate 関数を使用して、圧縮するデータを入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
