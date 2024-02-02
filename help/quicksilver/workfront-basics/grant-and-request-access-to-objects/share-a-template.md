@@ -2,64 +2,64 @@
 title: テンプレートの共有
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: Adobe Workfront管理者は、アクセスレベルを割り当てる際に、テンプレートの表示や編集に対するアクセス権をユーザーに付与できます。 テンプレートを編集するには、プランライセンスが必要です。
+description: Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当てる際に、テンプレートを表示または編集するためのアクセス権をユーザーに付与できます。テンプレートを編集するには、Plan ライセンスが必要です。
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # テンプレートの共有
 
-Adobe Workfront管理者は、アクセスレベルを割り当てる際に、テンプレートの表示や編集に対するアクセス権をユーザーに付与できます。 テンプレートを編集するには、プランライセンスが必要です。
+Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当てる際に、テンプレートを表示または編集するためのアクセス権をユーザーに付与できます。テンプレートを編集するには、Plan ライセンスが必要です。
 
-テンプレートへのアクセス権の付与について詳しくは、 [テンプレートへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+テンプレートへのアクセス権の付与について詳しくは、[テンプレートへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)を参照してください。
 
-ユーザーは、付与したアクセスレベルに加えて、特定のテンプレートを共有する他のユーザーから、特定のテンプレートを表示または管理する権限を受け取ることもできます。
+付与されるアクセスレベルに加えて、ユーザーは、特定のテンプレートを共有する他のユーザーから、それらのテンプレートを表示または管理する権限を受け取ることもできます。
 
 >[!NOTE]
 >
->権限レベルは、アクセスレベル内で機能します。 例えば、ユーザーは、アクセスレベルでテンプレートの表示のみが許可されている場合、テンプレートを管理する権限を受け取ることはできません。
+>権限レベルは、アクセスレベルの範囲内で機能します。例えば、アクセスレベルでテンプレートの表示のみが許可されている場合、そのユーザーはテンプレートを管理する権限を得ることはできません。
 
 権限は、Workfrontの 1 つの項目に固有で、その項目に対して実行できるアクションを定義します。
 
 ## テンプレートを共有する際の考慮事項
 
-* 以下の考慮事項に加えて、 [オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-* テンプレートの作成者およびテンプレート所有者には、デフォルトでテンプレートに対する管理権限があります。 ユーザーをテンプレート所有者に指定する方法については、 [プロジェクトテンプレートの編集](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
-* テンプレートを共有する際に、以下を共有できます。
+* 以下の考慮事項に加えて、[オブジェクトに対する権限の共有の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
+* テンプレートの作成者およびテンプレート所有者には、デフォルトで、テンプレートに対する管理権限があります。ユーザーをテンプレート所有者に指定する方法については、[プロジェクトテンプレートの編集](../../manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
+* テンプレートを共有すると、以下のものを共有できます。
 
    * テンプレート
 
-      テンプレートの共有方法について詳しくは、 [プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     テンプレートの共有方法について詳しくは、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
 
-      テンプレートには、次の権限を付与できます。
+     テンプレートに対する次の権限を付与できます。
 
-      * ビュー
+      * 表示
 
-         ![](assets/view-on-template-262x221.png)
+        ![](assets/view-on-template-262x221.png)
 
       * 管理
 
-         ![](assets/manage-on-template-225x280.png)
-   * このテンプレートを使用して作成される今後のプロジェクト。 個々のプロジェクトと同じレベルの権限を、テンプレートから作成されたプロジェクトに付与できます。 
+        ![](assets/manage-on-template-225x280.png)
 
-      テンプレートレベルでテンプレートからプロジェクトを共有する方法については、 [プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+   * このテンプレートを使用して今後作成されるプロジェクト。個々のプロジェクトに付与するのと同じレベルの権限を、テンプレートから作成されたプロジェクトに付与できます。 
 
+     テンプレートから作成されたプロジェクトをテンプレートレベルで共有する方法については、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
 
-* テンプレートから作成されたテンプレートまたはプロジェクトを共有する場合、ユーザーは、デフォルトで、テンプレートまたはプロジェクトに関連付けられているすべての子オブジェクトに同じ権限を継承します。
+* テンプレートまたはテンプレートから作成されたプロジェクトを共有する場合、ユーザーは、テンプレートまたはプロジェクトに関連付けられているすべての子オブジェクトに対して同じ権限をデフォルトで継承します。
 
-   Workfrontのオブジェクトの階層について詳しくは、  [Adobe Workfrontのオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Workfront のオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
 
-* テンプレートを共有する場合、特に指定のない限り、テンプレートから作成されるすべてのテンプレートタスクとドキュメント、および今後のプロジェクトの問題は同じ権限を継承します。
+* テンプレートを共有する場合、特に指定のない限り、すべてのテンプレートタスクおよびドキュメントと、そのテンプレートから今後作成されるプロジェクトに関するイシューは、同じ権限を継承します。
 
-   プロジェクトに対するユーザーの権限に基づいて、テンプレートタスクへのアクセスを管理したり、プロジェクトに関する問題を管理したりする方法については、 [アクセス](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) 記事のセクション [プロジェクトテンプレートの編集](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+  プロジェクトに対するユーザーの権限に基づいてテンプレートタスクとプロジェクトのイシューへのアクセスを管理する方法については、[プロジェクトテンプレートの編集](../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の[アクセス](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)の節を参照してください。
 
-* Workfrontの管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。 ドキュメントに対する継承された権限の制限について詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* Workfront 管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。ドキュメントに対する継承された権限の制限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -106,7 +106,7 @@ You can share an object only with active users, teams,
 
 ## テンプレート共有の詳細設定
 
-次の表に、ユーザーにテンプレートの表示または管理を許可する際に付与できる権限を示します。 テンプレートを共有する手順については、 [テンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) 記事内 [プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+ユーザーにテンプレートの表示または管理を許可する際に付与できる権限を次の表に示します。テンプレートを共有する手順については、[プロジェクトテンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)の記事の[テンプレートの共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share)の節を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +116,7 @@ You can share an object only with active users, teams,
   <tr> 
    <th>アクション</th> 
    <th>管理</th> 
-   <th>ビュー</th> 
+   <th>表示</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -151,11 +151,11 @@ You can share an object only with active users, teams,
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>ドキュメントを追加</p> <p>ヒント：プロジェクトテンプレートにドキュメントを追加する人が、プロジェクトにドキュメントを追加すると考える場合があります。 この設定を無効にすると、受信者に対してこの設定を防ぐことができます。</p> </td> 
+   <td> <p>ドキュメントを追加</p> <p>ヒント：時には、プロジェクトにドキュメントを追加しているつもりで、プロジェクトテンプレートにドキュメントを追加してしまうユーザーがいます。この設定を無効にすることで、受信者のこのような行動を防ぐことができます。</p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
-テンプレートから作成されたプロジェクトにユーザーに付与する権限を理解するには、 [Adobe Workfrontでプロジェクトを共有する](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+テンプレートから作成されたプロジェクトに対する、ユーザーに付与する権限については、[Adobe Workfront でのプロジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
