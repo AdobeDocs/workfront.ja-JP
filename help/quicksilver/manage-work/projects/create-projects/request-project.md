@@ -2,27 +2,27 @@
 product-area: projects
 navigation-topic: create-projects
 title: プロジェクトのリクエスト
-description: プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。 これにより、ステータスが「アイデア」のプロジェクトが作成されます。 プロジェクトのビジネスケースを作成して、完了して達成する重要なポイントの一部を示し、管理者の人件費と費用予算について提示することをお勧めします。
+description: プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。これにより、ステータスが「アイデア」のプロジェクトが作成されます。プロジェクトのビジネスケースを作成して、それを完了することで達成したい重要なポイントの概要を示し、経営陣に人件費と経費の予算を提示することをお勧めします。
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # プロジェクトのリクエスト
 
-プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。 これにより、ステータスが「アイデア」のプロジェクトが作成されます。 プロジェクトのビジネスケースを作成して、完了して達成する重要なポイントの一部を示し、管理者の人件費と費用予算について提示することをお勧めします。
+プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。これにより、ステータスが「アイデア」のプロジェクトが作成されます。プロジェクトのビジネスケースを作成して、それを完了することで達成したい重要なポイントの概要を示し、経営陣に人件費と経費の予算を提示することをお勧めします。
 
-Adobe Workfrontの次の領域で新しいプロジェクトを追加する際に、プロジェクトをリクエストできます。
+Adobe Workfront の次のエリアで新しいプロジェクトを追加する際に、プロジェクトをリクエストできます。
 
-* 「プロジェクト」領域
-* Portfolioの「プロジェクト」領域
-* プログラムの「プロジェクト」領域で
-* プロジェクトのグループの「グループ」領域で、グループ管理者の場合に使用します。
+* プロジェクトエリアの場合
+* ポートフォリオのプロジェクトエリアの場合
+* プログラムのプロジェクトエリアの場合
+* プロジェクトのグループのグループエリアで、グループ管理者の場合。
 
 ## アクセス要件
 
@@ -65,48 +65,49 @@ Adobe Workfrontの次の領域で新しいプロジェクトを追加する際�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront ライセンス*</p> </td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル*</td> 
    <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 プロジェクトへのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>. Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>. </p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。プロジェクトへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトリクエストを作成すると、プロジェクトに対する管理権限が自動的に付与されます </p> <p> プロジェクト権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfrontでプロジェクトを共有する</a>.</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトのリクエストを作成すると、プロジェクトに対する管理権限が自動的に付与されます。 </p> <p> プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
 ## プロジェクトのリクエスト
 
 1. 次のいずれかの操作を行います。
 
-   * 次をクリック： **メインメニュー** ![](assets/main-menu-icon.png)をクリックし、 **プロジェクト**&#x200B;を展開し、 **新規プロジェクト**.
-   * ポートフォリオに移動し、を展開します。 **新規プロジェクト**.
-   * プログラムに移動し、を展開します。 **新規プロジェクト**.
-   * グループ管理者は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。 詳しくは、 [グループのプロジェクトの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * **メインメニュー** ![](assets/main-menu-icon.png)、**プロジェクト**&#x200B;の順にクリックしてから、「**新規プロジェクト**」を展開します。
+   * ポートフォリオに移動し、「**新規プロジェクト**」を展開します。
+   * プログラムに移動し、「**新規プロジェクト**」を展開します。
+   * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
-1. クリック **プロジェクトをリクエスト**.
+1. 「**プロジェクトをリクエスト**」をクリックします。
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 次のいずれかの操作を行います。
 
-   * ビジネスケースを定義する際のプロジェクトの作成と同じ手順に従います。 （推奨）
+   * ビジネスケースを定義する際に、プロジェクトを作成する場合と同じ手順に従います。（推奨）
 
-      ビジネスケースの定義とプロジェクトのリクエストについては、 [プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     ビジネスケースの定義とプロジェクトのリクエストについて詳しくは、[プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
-   * プロジェクトを最初から作成するか、テンプレートを使用して、ステータスを「 」に変更します。 **リクエスト**.
+   * プロジェクトを最初から作成するか、テンプレートを使用して、ステータスを「**リクエスト済み**」に変更します。
 
-      プロジェクトの作成について詳しくは、 [プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md) または [テンプレートを使用したプロジェクトの作成](../../../manage-work/projects/create-projects/create-project-from-template.md).
-   リクエストするプロジェクトのステータスは次のとおりです **リクエスト** そして、 **リクエストされたプロジェクト** タブに表示されます (Portfolioに関連付けている場合 )。Portfolio ポートフォリオマネージャは、レビューを行い、承認または拒否できるようになりました。この場合、プロジェクトのステータスは次のいずれかに変わります。 **承認済み** または **却下**.
+     プロジェクトの作成について詳しくは、[プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)または[テンプレートを使用してプロジェクトを作成](../../../manage-work/projects/create-projects/create-project-from-template.md)を参照してください。
+
+   リクエストしたプロジェクトのステータスは「**リクエスト済み**」で、ポートフォリオに関連付けている場合は、ポートフォリオの「**リクエストされたプロジェクト**」タブに表示されます。ポートフォリオマネージャーは、レビューを行い、承認または拒否できるようになりました。この場合、プロジェクトのステータスは「**承認済み**」または「**却下**」に変わります。
