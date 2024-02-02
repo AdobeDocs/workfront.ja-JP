@@ -5,95 +5,95 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: エアテーブルモジュール
-description: Adobe Workfront Fusion には、Adobe Workfrontライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
+title: Airtable モジュール
+description: Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# エアテーブルモジュール
+# Airtable モジュール
 
 
-を使用 [!DNL Airtable] コネクタ [!DNL Adobe Workfront Fusion]の場合は、 [!DNL Airtable] レコードのアカウント、作成、アップロード、更新、レコードの検索、および Airtable API へのカスタム API 呼び出しの実行を行います。
+[!DNL Adobe Workfront Fusion] 対応の [!DNL Airtable] コネクタを使用すると、[!DNL Airtable] アカウント内のイベントに基づいてシナリオを開始したり、レコードを作成、アップロード、更新したり、レコードを検索したり、Airtable API に対するカスタム API 呼び出しを実行したりできます。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>この記事で説明されている機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
-この記事の機能を使用するには、航空可能アカウントが必要です。
+この記事の機能を使用するには、Airtable アカウントが必要です。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
 
-## Airtable をWorkfront Fusion に接続 {#connect-airtable-to-workfront-fusion}
+## Airtable を Workfront Fusion に接続 {#connect-airtable-to-workfront-fusion}
 
 <!--
 
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. Workfront Fusion および **接続の作成** 」ダイアログが表示されます。
-1. 接続の名前を入力します。
-1. （オプション）「詳細設定を表示」をクリックし、空輸可能なクライアント ID とクライアントの秘密鍵を入力します。
-1. 次をクリック： **続行** ボタンをクリックして接続を作成し、モジュールに戻ります。
+1. Workfront Fusion と、必要なモジュールの&#x200B;**接続を作成**&#x200B;ダイアログを開きます。
+1. 接続に名前を入力します。
+1. （オプション）「詳細設定を表示」をクリックし、Airtable のクライアント ID とクライアントシークレットを入力します。
+1. 「**続行**」ボタンをクリックして接続を作成し、モジュールに戻ります。
 
-## エアテーブルモジュールとそのフィールド
+## Airtable モジュールとそのフィールド
 
 ### レコード
 
-* [レコードの作成](#create-a-record)
-* [レコードの削除](#delete-a-record)
-* [レコードの取得](#get-a-record)
+* [レコードを作成](#create-a-record)
+* [レコードを削除](#delete-a-record)
+* [レコードを取得](#get-a-record)
 * [レコードを検索](#search-records)
-* [レコードの更新](#update-a-record)
-* [レコードのアップサート](#upsert-a-record)
+* [レコードを更新](#update-a-record)
+* [レコードをアップサート](#upsert-a-record)
 * [レコードを監視](#watch-records)
-* [応答を見る](#watch-responses)
-* [API 呼び出しを実行する](#make-an-api-call)
+* [応答を監視](#watch-responses)
+* [API 呼び出しを実行](#make-an-api-call)
 
-#### レコードの作成 {#create-a-record}
+#### レコードを作成 {#create-a-record}
 
 このアクションモジュールは、新しいレコードを作成します。
 
-レコードに含めるデータと、そのデータを保存する場所を指定します。
+レコードに含めるデータと、その保存場所を指定します。
 
-このモジュールは、レコードに関連付けられた標準フィールドと、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードに関連付けられた標準フィールドのほか、接続を介してアクセスされるカスタムフィールドおよび値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -103,7 +103,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>接続 </td> 
-   <td> <p>Airtable アカウントをWorkfront Fusion に接続する手順については、 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable をWorkfront Fusion に接続</a> 」を参照してください。</p> </td> 
+   <td> <p>Airtable アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable を Workfront Fusion に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>基本 </td> 
@@ -115,7 +115,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>レコード</p> </td> 
-   <td> <p>新しいレコードの値を入力します。 使用可能なフィールドは、選択したテーブルに基づきます。</p> <!--<p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
+   <td> <p>新しいレコードの値を入力します。使用可能なフィールドは、選択したテーブルに基づきます。</p> <!--<p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>Multiple lines of text, which may contain "mention tokens", for example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -142,7 +142,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>スマートリンク</td> 
-   <td> <p>別のテーブルにリンクするフィールドにレコード ID の代わりに名前を入力するには、このオプションを有効にします。 一致するレコードがない場合、リンクされたテーブルにレコードが自動的に作成されます。</p> </td> 
+   <td> <p>別のテーブルにリンクするフィールドにレコード ID の代わりに名前を入力するには、このオプションを有効にします。一致がない場合、リンクされたテーブルにレコードが自動的に作成されます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -153,7 +153,7 @@ ht-degree: 2%
 
 レコードの ID と場所を指定します。
 
-このモジュールは、レコードと関連するフィールドの ID と、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードの ID や関連するフィールドのほか、接続を介してアクセスされるカスタムフィールドおよび値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -163,7 +163,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>接続 </td> 
-   <td> <p>Airtable アカウントをWorkfront Fusion に接続する手順については、 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable をWorkfront Fusion に接続</a> 」を参照してください。</p> </td> 
+   <td> <p>Airtable アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable を Workfront Fusion に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>基本 </td> 
@@ -175,12 +175,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>レコード ID</td> 
-   <td> <p>モジュールで削除するレコードの一意の Airtable ID を入力またはマッピングします。 例えば、レコードの検索モジュールを使用して ID を取得できます。</p> </td> 
+   <td> <p>モジュールで削除するレコードの一意の Airtable ID を入力またはマッピングします。例えば、レコードを検索モジュールを使用して ID を取得できます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### レコードの取得 {#get-a-record}
+#### レコードを取得 {#get-a-record}
 
 このアクションモジュールは、レコードの詳細を取得します。
 
@@ -190,11 +190,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>接続 </td> 
-   <td> <p>Airtable アカウントをWorkfront Fusion に接続する手順については、 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable をWorkfront Fusion に接続</a> 」を参照してください。</p> </td> 
+   <td> <p>Airtable アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable を Workfront Fusion に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>基本 </td> 
-   <td> <p>取得するレコードを含むテーブルを含むベースを選択します。</p> </td> 
+   <td> <p>取得するレコードが含まれているテーブルを含むベースを選択します。</p> </td> 
   </tr> 
   <tr> 
    <td>テーブル</td> 
@@ -207,11 +207,11 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-#### レコードを検索 {#search-records}
+#### レコードの検索 {#search-records}
 
-この検索モジュールは、Airtable 内の、指定した検索クエリに一致するオブジェクト内のレコードを検索します。
+この検索モジュールは、指定した検索クエリに一致するレコードを Airtable のオブジェクト内で検索します。
 
-この情報は、シナリオの後続のモジュールにマッピングできます。
+この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -221,7 +221,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>接続 </td> 
-   <td> <p>Airtable アカウントをWorkfront Fusion に接続する手順については、 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable をWorkfront Fusion に接続</a> 」を参照してください。</p> </td> 
+   <td> <p>Airtable アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable を Workfront Fusion に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>基本 </td> 
@@ -232,15 +232,15 @@ ht-degree: 2%
    <td> <p>レコードを検索するテーブルを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>公式</p> </td> 
-   <td> <p>レコードのフィルタリングに使用する数式です。 式は各レコードに対して評価され、結果が <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>または <code>#Error!</code> レコードが応答に含まれます。</p> <p>を <code>view</code>の場合は、そのビュー内で数式を満たすレコードのみが返されます。</p> <p>例えば、名前が空でないレコードのみを含めるには、次のように渡します。<code> NOT({Name} = '')</code></p> <p>詳しくは、Airtable サポートドキュメントで数式フィールドの参照に関する情報を検索してください。</p> </td> 
+   <td> <p>式</p> </td> 
+   <td> <p>レコードのフィルタリングに使用する数式です。式は各レコードに対して評価され、結果が <code>0</code>、<code>false</code>、<code>""</code>、<code>NaN</code>、<code>[]</code> または <code>#Error!</code> でない場合は、レコードが応答に含まれます。</p> <p><code>view</code> と組み合わせた場合は、そのビュー内で数式を満たすレコードのみが返されます。</p> <p>例えば、名前が空でないレコードのみを含めるには、次のように渡します。<code> NOT({Name} = '')</code></p> <p>詳しくは、Airtable サポートドキュメントで数式フィールドの参照に関する情報を検索してください。</p> </td> 
   </tr> 
   <tr> 
    <td>並べ替え </td> 
    <td> <p>並べ替えの方向と、結果の並べ替えに使用するフィールドを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td>ビュー </td> 
+   <td>表示 </td> 
    <td> <p>レコードを検索するビューを選択します。</p> </td> 
   </tr> 
   <tr> 
@@ -256,7 +256,7 @@ ht-degree: 2%
 
 レコードの ID と、レコードに含める新しいデータを指定します。
 
-このモジュールは、レコードに関連付けられた標準フィールドと、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードに関連付けられた標準フィールドのほか、接続を介してアクセスされるカスタムフィールドおよび値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -266,7 +266,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>接続 </td> 
-   <td> <p>Airtable アカウントをWorkfront Fusion に接続する手順については、 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable をWorkfront Fusion に接続</a> 」を参照してください。</p> </td> 
+   <td> <p>Airtable アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable を Workfront Fusion に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>基本 </td> 
@@ -278,11 +278,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>レコード ID </td> 
-   <td> <p>モジュールを更新するレコードの一意の可変 ID を入力またはマッピングします。 例えば、レコードの検索モジュールを使用して ID を取得できます。</p> </td> 
+   <td> <p>モジュールで更新するレコードの一意の Airtable ID を入力またはマッピングします。例えば、レコードを検索モジュールを使用して ID を取得できます。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>レコード</p> </td> 
-   <td> <p>新しいレコードの値を入力します。 使用可能なフィールドは、選択したテーブルによって異なります。</p> <!--<p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
+   <td> <p>新しいレコードの値を入力します。使用可能なフィールドは、選択したテーブルによって異なります。</p> <!--<p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -309,18 +309,18 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>スマートリンク</td> 
-   <td> <p>別のテーブルにリンクするフィールドに、レコード ID の代わりに名前を入力します。 一致するレコードがない場合、リンクされたテーブルにレコードが自動的に作成されます。</p> </td> 
+   <td> <p>別のテーブルにリンクするフィールドに、レコード ID の代わりに名前を入力します。一致がない場合、リンクされたテーブルにレコードが自動的に作成されます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### レコードのアップサート
+#### レコードをアップサート
 
 このアクションモジュールは、特定のレコードを更新または挿入します。
 
 レコードの ID と、レコードに含める新しいデータを指定します。
 
-このモジュールは、レコードに関連付けられた標準フィールドと、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードに関連付けられた標準フィールドのほか、接続を介してアクセスされるカスタムフィールドおよび値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -330,7 +330,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>接続 </td> 
-   <td> <p>Airtable アカウントをWorkfront Fusion に接続する手順については、 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable をWorkfront Fusion に接続</a> 」を参照してください。</p> </td> 
+   <td> <p>Airtable アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable を Workfront Fusion に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>基本 </td> 
@@ -342,11 +342,11 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>レコード ID </td> 
-   <td> <p>レコードを更新する場合は、モジュールで更新するレコードの一意の Airtable ID を入力またはマッピングします。 例えば、レコードの検索モジュールを使用して ID を取得できます。</p> </td> 
+   <td> <p>レコードを更新する場合は、モジュールで更新するレコードの一意の Airtable ID を入力またはマッピングします。例えば、レコードを検索モジュールを使用して ID を取得できます。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>レコード</p> </td> 
-   <td> <p>新しいレコードの値を入力します。 使用可能なフィールドは、選択したテーブルによって異なります。</p> <!-- <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
+   <td> <p>新しいレコードの値を入力します。使用可能なフィールドは、選択したテーブルによって異なります。</p> <!-- <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -373,14 +373,14 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td>スマートリンク</td> 
-   <td> <p>別のテーブルにリンクするフィールドに、レコード ID の代わりに名前を入力します。 一致するレコードがない場合、リンクされたテーブルにレコードが自動的に作成されます。</p> </td> 
+   <td> <p>別のテーブルにリンクするフィールドに、レコード ID の代わりに名前を入力します。一致がない場合、リンクされたテーブルにレコードが自動的に作成されます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### レコードを監視 {#watch-records}
 
-このトリガーモジュールは、指定したテーブルでレコードが作成または更新されたときにシナリオを開始します。
+このトリガーモジュールは、指定したテーブルでレコードが作成またはアップデートされたときにシナリオを開始します。
 
 >[!NOTE]
 >
@@ -392,7 +392,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td>接続 </td> 
-   <td> <p>Airtable アカウントをWorkfront Fusion に接続する手順については、 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable をWorkfront Fusion に接続</a> 」を参照してください。</p> </td> 
+   <td> <p>Airtable アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable を Workfront Fusion に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>基本 </td> 
@@ -404,7 +404,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p>トリガー設定</p> </td> 
-   <td> <p>トリガー場</p> <p>A <code>Created Time</code> または <code>Last Modified Time</code> レコードの並べ替えに使用するフィールド。 次の条件を満たさない場合、 <code>Created Time</code> または <code>Last Modified Time</code> フィールドを作成する必要があります。 </p> <p>ラベルフィールド</p> <p>レコードのラベルとして使用されるフィールド（例えば、[ 開始場所を選択 ] ダイアログ内）。</p> </td> 
+   <td> <p>トリガーフィールド</p> <p>レコードの並べ替えに使用する <code>Created Time</code> または <code>Last Modified Time</code> フィールド。スキーマに <code>Created Time</code> または <code>Last Modified Time</code> フィールドが含まれていない場合は、作成する必要があります。 </p> <p>ラベルフィールド</p> <p>レコードのラベルとして使用されるフィールド（開始場所を選択ダイアログ内など）。</p> </td> 
   </tr> 
   <tr> 
    <td>制限</td> 
@@ -415,45 +415,45 @@ ht-degree: 2%
    <td> <p>使用するビューを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>公式</p> </td> 
-   <td> <p>レコードのフィルタリングに使用する数式です。 式は各レコードに対して評価され、結果が <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>または <code>#Error!</code> レコードが応答に含まれます。</p> <p>を <code>view</code>の場合は、そのビュー内で数式を満たすレコードのみが返されます。</p> <p>例えば、名前が空でないレコードのみを含めるには、次のように渡します。<code> NOT({Name} = '')</code></p> <p>詳しくは、Airtable サポートドキュメントの数式フィールドの参照に関する情報を参照してください。</p> </td> 
+   <td> <p>式</p> </td> 
+   <td> <p>レコードのフィルタリングに使用する数式です。式は各レコードに対して評価され、結果が <code>0</code>、<code>false</code>、<code>""</code>、<code>NaN</code>、<code>[]</code> または <code>#Error!</code> でない場合は、レコードが応答に含まれます。</p> <p><code>view</code> と組み合わせた場合は、そのビュー内で数式を満たすレコードのみが返されます。</p> <p>例えば、名前が空でないレコードのみを含めるには、次のように渡します。<code> NOT({Name} = '')</code></p> <p>詳しくは、Airtable サポートドキュメントの数式フィールドの参照に関する情報を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 応答を見る
+#### 応答を監視
 
-このトリガーモジュールは、フォームが送信されるとシナリオを開始します。
+このトリガーモジュールは、フォームが送信されたときにシナリオを開始します。
 
 >[!NOTE]
 >
->この機能は有料 Airtable Pro Plan でのみ利用できます。
+>この機能は有料の Airtable Pro プランでのみ利用できます。
 
-Webhook の URL は、Workfront Fusion で生成し、Airtable の設定を形成するために追加する必要があります。
+web フック URL は、Workfront Fusion で生成してから、Airtable のフォーム設定に追加する必要があります。
 
-1. 「新しい応答を監視」モジュールをWorkfront Fusion シナリオに追加します。
-1. Webhook の URL を生成してコピーします。
+1. 新しい応答を監視モジュールを Workfront Fusion シナリオに追加します。
+1. web フック URL を生成してコピーします。
 
-   手順については、 [Adobe Workfront Fusion のインスタントトリガー（Web フック）](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
+   手順については、[Adobe Workfront Fusion のインスタントトリガー（web フック）](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)を参照してください。
 
-1. 航空便のアカウントにログインします。
-1. フォームに使用するベースとテーブルを開き、フォームビューを作成します。
-1. 必要に応じてフォームを設定し、フォームを下にスクロールして、「フォームが送信された後に URL にリダイレクト」オプションを有効にします。
-1. 手順 2 で生成した Webhook の URL を表示されるダイアログボックスに入力し、 ?record_id={record_id} Webhook URL の直後に、モジュールの出力にレコード ID を含めて、「保存」をクリックします。 結果の URL は、例えば、次のようになります。
-1. Workfront Fusion のシナリオに戻り、「応答を監視」モジュールを実行して、Airtable からフィールドを読み込み、それらのフィールドを他のモジュールにマッピングできるようにします。
-1. 「フォームの送信後に URL にリダイレクト」オプションが有効になっていて、Webhook URL が追加されている Airtable でフォームを送信します（上記の手順 6）。
+1. Airtable アカウントにログインします。
+1. ベースと、フォームに使用するテーブルを開き、フォームビューを作成します。
+1. 必要に応じてフォームを設定し、フォームを下にスクロールして、「フォーム送信後に URL にリダイレクト」オプションを有効にします。
+1. 表示されるダイアログボックスに、手順 2 で生成した web フック URL を入力し、web フック URL の直後に ？record_id={record_id} を追加してレコード ID をモジュールの出力に含め、「保存」をクリックします。結果の URL は、例えば、次のようになります。
+1. Workfront Fusion のシナリオに戻り、応答を監視モジュールのみを実行して、Airtable からフィールドを読み込み、それらのフィールドを他のモジュールにマッピングできるようにします。
+1. 「フォーム送信後に URL にリダイレクト」オプションが有効になっていて、web フック URL が追加（上記の手順 6）されているAirtable でフォームを送信します。
 
    応答を監視モジュールがトリガーされ、目的のデータが読み込まれます。
 
-1. Airtable / Get a Record モジュールを Airtable / Watch Responses モジュールの直後に追加し、 record_id を「 Record ID 」フィールドにマッピングします。
+1. Airtable／レコードを取得モジュールを、Airtable／応答を監視モジュールの直後に追加し、record_id を「レコード ID」フィールドにマッピングします。
 
-これで、フォームが送信されるたびに、Workfront Fusion シナリオの Watch Responses モジュールがトリガーされ、Get a Record モジュールが送信されたフォームの詳細を返します。
+これで、フォームが送信されるたびに、Workfront Fusion シナリオの応答を監視モジュールがトリガーされ、レコードを取得モジュールが、送信されたフォームの詳細を返します。
 
-#### API 呼び出しを実行する
+#### API 呼び出しを実行
 
 #### カスタム API 呼び出し
 
-このアクションモジュールを使用すると、 [!DNL Airtable] API. これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Airtable] モジュール。
+このアクションモジュールでは、[!DNL Airtable] API への認証済みのカスタム呼び出しを実行できます。これにより、他の [!DNL Airtable] モジュールでは不可能なデータフロー自動処理を実現できます。
 
 アクションは、指定したエンティティタイプ（Allocadia オブジェクトタイプ）に基づいて実行されます。
 
@@ -465,19 +465,19 @@ Webhook の URL は、Workfront Fusion で生成し、Airtable の設定を形�
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>接続</p> </td> 
-   <td> <p>Airtable アカウントをWorkfront Fusion に接続する手順については、 <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable をWorkfront Fusion に接続</a> 」を参照してください。</p> </td> 
+   <td> <p>Airtable アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Airtable を Workfront Fusion に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>相対パスを入力 <code>https://api.airtable.com/}</code>. 例: <code>v0/{base}/{table}</code> </td> 
+   <td><code>https://api.airtable.com/}</code> への相対パスを入力します。例：<code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">メソッド</td> 
-   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a> での HTTP リクエストメソッドを参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ヘッダー</td> 
-   <td> <p>標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します。</p> <p>以下に例を挙げます。 <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] によって、認証ヘッダーが追加されます。</p> </td> 
+   <td> <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] によって、認証ヘッダーが追加されます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">クエリ文字列</td> 
@@ -485,7 +485,7 @@ Webhook の URL は、Workfront Fusion で生成し、Airtable の設定を形�
   </tr> 
   <tr> 
    <td role="rowheader">本文</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>メモ:  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件ステートメントを JSON で使用する場合は、条件ステートメントの外側に引用符を挿入します。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
