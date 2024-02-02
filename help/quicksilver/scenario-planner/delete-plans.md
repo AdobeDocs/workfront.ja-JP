@@ -1,21 +1,21 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: シナリオプランナーのプランの削除
-description: 自分で作成したプランを削除できます。 自分と共有されているプランは削除できません。
+title: Scenario Planner でのプランの削除
+description: 自分で作成した計画を削除できます。自分と共有されている計画は削除できません。
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '530'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# のプランを削除 [!DNL Scenario Planner]
+# [!DNL Scenario Planner] で計画を削除
 
-自分で作成したプランを削除できます。 自分と共有されているプランは削除できません。
+自分で作成した計画を削除できます。自分と共有されている計画は削除できません。
 
 ## アクセス要件
 
@@ -26,37 +26,37 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> 計画*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> プラン*</b> </p> </td> 
    <td>[!UICONTROL Business] 以降</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> ライセンス*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>ライセンス*</b> </p> </td> 
    <td> <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
   <tr> 
    <td><b>製品</b> </td> 
-   <td> <p>の追加ライセンスを購入する必要があります。 [!DNL Adobe Workfront Scenario Planner] をクリックして、この記事で説明する機能にアクセスします。</p> <p>詳しくは、 [!DNL Workfront Scenario Planner]を参照してください。 <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">を使用するために必要なアクセス [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の取得については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>[!UICONTROL 編集 ] 以降の [!DNL Scenario Planner]</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>次に対する[!UICONTROL Edit]以上のアクセス権： [!DNL Scenario Planner]</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>オブジェクト権限</strong> </p> </td> 
-   <td> <p>プランに対する [!UICONTROL 管理 ] 権限</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、 <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">内のプランへのアクセスをリクエスト [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
+   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>計画への追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> の計画へのアクセスをリクエストを参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 計画を削除
 
 >[!IMPORTANT]
 >
->削除したプランは復元できません。
+>削除した計画は復元できません。
 
-プランを削除するか、プラン内の 1 つのシナリオを削除できます。
+計画を削除するか、計画内の 1 つのシナリオを削除できます。
 
 * [計画を削除](#delete-plans)
 * [シナリオの削除](#delete-scenarios)
@@ -65,23 +65,23 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->プランを削除する際は、次の点を考慮してください。
+>計画を削除する際は、次の点を考慮してください。
 >
->* プランに関連する情報もすべて削除されます。 これには、ジョブの役割やコストに関する情報を含む、プランに関連するすべてのシナリオとイニシアチブが含まれます。 この情報は復元できません。
->* プランに公開済みのシナリオが含まれる場合、削除されたイニシアチブにリンクされたプロジェクトが保持され、 [!DNL Scenario Planner] 領域が [!UICONTROL プロジェクトの詳細] 」セクションに入力します。
+>* 計画に関連する情報もすべて削除されます。これには、担当業務やコストに関する情報を含む、計画に関連するすべてのシナリオとイニシアチブが含まれます。この情報は復元できません。
+>* 公開済みのシナリオが計画に含まれる場合、削除されたイニシアチブにリンクされたプロジェクトが保持され、[!DNL Scenario Planner] エリアは「[!UICONTROL プロジェクトの詳細]」セクションに残ります。
 >
->  プロジェクトへのイニシアチブの公開については、 [プロジェクトを更新または作成するには、 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
-計画を削除する手順は、次のとおりです。
+計画の削除方法は、次のとおりです。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png)を選択し、「 [!UICONTROL シナリオ].
+1. **[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「[!UICONTROL シナリオ]」の順にクリックします。
 
-   プランのリストが表示されます。
+   計画のリストが表示されます。
 
-1. プランの名前をクリックして開きます。
-1. 次をクリック： **[!UICONTROL その他のメニュー]** ![](assets/more-menu.png) プラン名の右に移動し、 **[!UICONTROL 削除]** > **[!UICONTROL はい、削除します]**.
+1. 計画の名前をクリックして開きます。
+1. 計画名の右側で&#x200B;**[!UICONTROL その他のメニュー]** ![](assets/more-menu.png)、「**[!UICONTROL 削除]**」、「**[!UICONTROL はい、削除します]**」の順にクリックします。
 
-   プランが削除され、プランのリストに戻ります。
+   計画が削除され、計画のリストに戻ります。
 
 ### シナリオの削除 {#delete-scenarios}
 
@@ -89,25 +89,25 @@ ht-degree: 1%
 >
 >シナリオを削除する際は、次の点を考慮してください。
 >
->* シナリオを削除すると、すべてのイニシアチブとその情報がシナリオから削除されます。 他のシナリオにコピーした場合、イニシアチブは他のシナリオに残ります。
->* シナリオを削除すると、後続のシナリオでは削除されたシナリオの数が適用され、カウント順が保持されます。 たとえば、シナリオ 4 を削除すると、シナリオ 5 はシナリオ 4 になります。
->* シナリオに関する一部のイニシアチブが公開されると、イニシアチブにリンクされたプロジェクトが保持され、「シナリオプランナー」領域はリンクされたプロジェクトに残ります
->* 公開されたイニシアチブが別のシナリオに存在する場合、プロジェクトへのリンクを含め、そのシナリオにとどまります。 これらのイニシアチブを他のシナリオから公開すると、リンクされたプロジェクトが、それらのシナリオの新しい情報で更新されます。
+>* シナリオを削除すると、すべてのイニシアチブとその情報がシナリオから削除されます。他のシナリオにコピーした場合、イニシアチブは他のシナリオに残ります。
+>* シナリオを削除すると、後続のシナリオでは削除されたシナリオの数が適用され、カウント順が保持されます。例えば、シナリオ 4 を削除すると、シナリオ 5 はシナリオ 4 になります。
+>* シナリオに関する一部のイニシアチブが公開されると、イニシアチブにリンクされたプロジェクトが保持され、シナリオプランナーのエリアはリンクされたプロジェクトに残ります
+>* 公開されたイニシアチブが別のシナリオに存在する場合、そのイニシアチブ（プロジェクトへのリンクを含む）は、そのシナリオに残ります。これらのイニシアチブを他のシナリオから公開すると、リンクされたプロジェクトがそれらのシナリオからの新しい情報で更新されます。
 >
->  プロジェクトへのイニシアチブの公開については、 [プロジェクトを更新または作成するには、 [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
-シナリオを削除するには：
+シナリオの削除方法は、次のとおりです。
 
-1. シナリオを削除するプランに移動します。
+1. シナリオを削除する計画に移動します。
 
-   デフォルトでは、初期シナリオが表示されます。
+   デフォルトでは、最初のシナリオが表示されます。
 
-1. クリック **[!UICONTROL シナリオの比較]**.
-1. シナリオカードの右上隅にある **[!UICONTROL 詳細]** メニュー ![](assets/more-menu.png)を選択し、「 **[!UICONTROL 削除]**.
+1. 「**[!UICONTROL シナリオを比較]**」をクリックします。
+1. シナリオカードの右上隅にある **[!UICONTROL その他]** メニュー ![](assets/more-menu.png)、「**[!UICONTROL 削除]**」の順にクリックします。
 
    シナリオが削除されます。
 
-1. クリック **[!UICONTROL プランを保存]** 変更を保存します。
+1. 「**[!UICONTROL 計画を保存]**」をクリックして、変更を保存します。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
