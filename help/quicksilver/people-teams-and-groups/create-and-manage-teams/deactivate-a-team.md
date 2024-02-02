@@ -1,21 +1,21 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: チームを非アクティブ化
-description: 関連する履歴データを保持したまま、使用しなくなったチームを非アクティブ化できます。 Adobe Workfrontの管理者は、セットアップの「チーム」領域からいつでもチームを再アクティブ化できます。
+title: チームの非アクティブ化
+description: 関連する履歴データを保持したまま、使用しなくなったチームを非アクティブ化できます。Adobe Workfront 管理者は、設定のチームエリアからいつでもチームを再アクティブ化できます。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
 source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# チームを非アクティブ化
+# チームの非アクティブ化
 
-関連する履歴データを保持したまま、使用しなくなったチームを非アクティブ化できます。 [!DNL Adobe Workfront] 管理者は、セットアップの「チーム」領域からいつでもチームを再アクティブ化できます。 チームを非アクティブ化すると、チームは次の領域に表示されなくなります。
+関連する履歴データを保持したまま、使用しなくなったチームを非アクティブ化できます。[!DNL Adobe Workfront] 管理者は、設定のチームエリアからいつでもチームを再アクティブ化できます。チームを非アクティブ化すると、チームは以下のエリアに表示されなくなります。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -24,23 +24,23 @@ ht-degree: 0%
   <tr> 
    <td> 
     <ul> 
-     <li> <p>カスタムフォームの先頭に入力するフィールド</p> </li> 
+     <li> <p>カスタムフォームの先行入力フィールド</p> </li> 
     </ul> 
     <ul> 
      <li> <p>オブジェクトの共有ダイアログ</p> </li> 
-     <li> <p>[!UICONTROL ユーザープロファイル ]*</p> </li> 
+     <li> <p>[!UICONTROL User Profile]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL チーム ] 領域のメイン選択ドロップダウンメニュー</p> </li> 
-     <li> <p>[!UICONTROL 割り当て ] typeahead</p> </li> 
-     <li> <p>プロジェクトの [!UICONTROL かんばんに追加 ] ボードダイアログ</p> </li> 
+     <li> <p>[!UICONTROL Teams] エリアのメイン選択ドロップダウンメニュー</p> </li> 
+     <li> <p>[!UICONTROL Assignments] 先行入力</p> </li> 
+     <li> <p>プロジェクトの [!UICONTROL Add to Kanban] ボードダイアログ</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-非アクティブなチームは、チームを検索しても表示されませんが、には表示されます [!UICONTROL ホームチーム] およびその他のチーム（非アクティブ化の前にユーザーがチームに割り当てられた場合）
+非アクティブ化されたチームは、チームを検索するときに表示されませんが、ユーザーが非アクティブ化前にチームに割り当てられていた場合は、[!UICONTROL ホームチーム]およびその他のチームには引き続き表示されます。
 
 ## アクセス要件
 
@@ -51,39 +51,39 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>計画</p> </td> 
+   <td> <p>プラン</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+&#42;保有しているプランやライセンスの種類については、[!DNL Workfront] 管理者にお問い合わせください。
 
-## チームを非アクティブ化
+## チームの非アクティブ化
 
-アクティベーションを解除する前にチームに割り当てられた作業は、すべて割り当てられたままになります。 チームを非アクティブ化する前に、作業を再割り当てすることをお勧めします。
+非アクティブ化する前にチームに割り当てられた作業は、すべて割り当てられたままです。チームを非アクティブ化する前に、作業を再割り当てすることをお勧めします。
 
 >[!TIP]
 >
->非アクティブなチームが割り当てられたままのタスクや問題をフィルタリングするレポートを作成できます。
+>非アクティブ化されたチームがまだ割り当てられているタスクやイシューをフィルタリングして特定するレポートを作成できます。
 
-リクエストキューを使用する場合、ルーティングルールでデフォルトチームとして割り当てられたチームを非アクティブ化しても、チームはそのまま残り、リクエストは非アクティブなチームにルーティングされます。 チームを非アクティブ化する前に、アクティブなチームでルーティングルールを更新することをお勧めします。
+リクエストキューを使用する場合、ルーティングルールでデフォルトチームとして割り当てられたチームを非アクティブ化しても、そのチームはそのまま残り、リクエストは非アクティブ化されたチームに引き続きルーティングされます。チームを非アクティブ化する前に、アクティブなチームでルーティングルールをアップデートすることをお勧めします。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **[!UICONTROL チーム]**.
-1. 次をクリック： **[!DNL Switch team]** アイコンをクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
-1. 次をクリック： **[!UICONTROL 詳細]** メニューから、 **[!UICONTROL 編集]**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL チーム]**」をクリックします。
+1. **[!DNL Switch team]** アイコンをクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
+1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. をクリア **[!UICONTROL アクティブ]** チェックボックスをオンにします。
-1. クリック **[!UICONTROL 変更を保存]**.
+1. 「**[!UICONTROL アクティブ]**」チェックボックスをオフにします。
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
 ## 既知の制限事項
 
-非アクティブなチームは、次の領域に表示されます。
+非アクティブ化されたチームは、以下のエリアに表示されます。
 
-* の「所有者」フィールド [!DNL Workfront Goals]. 追加のライセンスが必要です。 [!DNL Adobe Workfront Goals]. 詳しくは、 [の基本を学ぶ [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+* [!DNL Workfront Goals] の所有者フィールドこれには、追加の [!DNL Adobe Workfront Goals] ライセンスが必要です。詳しくは、[概要 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)を参照してください。
