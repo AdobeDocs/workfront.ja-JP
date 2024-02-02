@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront目標での目標の作成
-description: CEO、マネージャー、個人のどちらの投稿者でも、Adobe Workfront目標で目標を作成して、目標と組織の戦略を示す目標に合わせることができます。
+title: Adobe Workfront Goals での目標の作成
+description: CEO、マネージャー、または個人の投稿者であっても、Adobe Workfront Goals で目標を作成し、自分の作業を、自分の目標や組織の戦略を概略化した目標に合わせることができます。
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
 source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '687'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標での目標の作成
+# Adobe Workfront Goals での目標の作成
 
-CEO、マネージャー、個人のどちらの投稿者でも、Adobe Workfront目標で目標を作成して、目標と組織の戦略を示す目標に合わせることができます。
+CEO、マネージャー、または個人の投稿者であっても、Adobe Workfront Goals で目標を作成し、自分の作業を、自分の目標や組織の戦略を概略化した目標に合わせることができます。
 
 ## アクセス要件
 
@@ -81,23 +81,23 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront目標の使用要件</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>目標以降へのアクセスを編集</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+   <td> <p>Goals 以上への編集アクセス権</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -105,33 +105,33 @@ You must have the following:
    <td> 
     <div> 
      <p>目標に対する権限の管理</p> 
-     <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
+     <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## 前提条件
 
-を起動する前に、次の条件を満たす必要があります。
+開始するには、まず以下が必要です。
 
-* メインメニューの目標領域を含むレイアウトテンプレート。
+* メインメニューの目標エリアを含むレイアウトテンプレート。
 
 ## 目標作成のガイドライン
 
-Workfront Goals を開始する前に、ベストプラクティスに関する推奨事項と、目標を効果的に管理するためのガイドラインをお読みになることをお勧めします。 目標の作成と管理に関するガイドラインについて詳しくは、 [Adobe Workfront目標の概要](../../workfront-goals/goal-management/wf-goals-overview.md).
+Workfront Goals を開始する前に、ベストプラクティスに関する推奨事項と、目標を効果的に管理するためのガイドラインをお読みになることをお勧めします。目標の作成と管理に関するガイドラインについて詳しくは、[Adobe Workfront Goals の概要](../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。
 
-## 目標の作成
+## 目標を作成
 
-この記事では、Workfront目標で戦略目標を作成する方法について説明します。 ビジネスケースの目標の作成について詳しくは、 [ビジネスケース目標の作成](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+この記事では、Workfront Goals で戦略目標を作成する方法について説明します。ビジネスケースの目標の作成について詳しくは、[ビジネスケース目標を作成](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)を参照してください。
 
 次のいずれかの方法で戦略目標を作成できます。
 
 * [ゼロから目標を作成](#create-a-goal-from-scratch)
-* [既存の目標のコピー](#copy-an-existing-goal)
-* [結果またはアクティビティを目標に変換する](#convert-a-result-or-activity-to-a-goal)
+* [既存の目標をコピー](#copy-an-existing-goal)
+* [結果またはアクティビティを目標に変換](#convert-a-result-or-activity-to-a-goal)
 
 ### ゼロから目標を作成 {#create-a-goal-from-scratch}
 
@@ -212,59 +212,59 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) 右上隅で、「 **目標**.
+1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**目標**」の順にクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    目標リストが表示されます。
-1. クリック **新しい目標**.
+1. 「**新しい目標**」をクリックします。
 
-   [ 新しい目標 ] ボックスが表示されます。
+   「新しい目標」ボックスが表示されます。
 
    ![](assets/new-goal-box-unshimmed.png)
 
 1. 次のフィールドに情報を入力します。
-   * **目標名**:目標の名前を入力します。 必須フィールドです。
-   * **期間**:次の日から事前に定義された四半期または年を選択 **期間** ドロップダウンフィールド
+   * **目標名**：目標の名前を入力します。必須フィールドです。
+   * **期間**：事前に定義された四半期または年を&#x200B;**期間**&#x200B;ドロップダウンフィールドから選択します。
 
-      または
+     または
 
-      を選択します。 **カスタム日付を有効にする** オプションを選択し、 **開始** および **終了日** を設定します。
+     「**カスタム日付を使用**」オプションを選択して、目標の「**開始**」および「**終了日**」を選択します。
 
-      前年、現在および後年の各四半期は、「期間」ドロップダウン・フィールドに事前定義済みのオプションとしてリストされます。
+     前年、今年、翌年とそれぞれの四半期が、事前定義されたオプションとして期間ドロップダウンフィールドにリストされます。
 
-      目標の期間は、目標が完了すると予想される期間を示します。
+     目標の期間は、目標が完了すると予想される期間を示します。
 
-   * **目標所有者**:ユーザー、チーム、グループまたは組織の名前を入力し、目標の所有者を示します。 デフォルトでは、目標の所有者として選択されています。
-   * **説明**:目標に関する追加情報を入力します。
-1. クリック **目標を作成**.
+   * **目標の所有者**：目標の所有者を示すために、ユーザー、チーム、グループ、または組織の名前の入力を開始します。デフォルトでは、目標の所有者が選択されています。
+   * **説明**：目標に関する追加情報を入力します。
+1. 「**目標を作成**」をクリックします。
 
-   新しい目標は目標リストに表示され、ステータスは **ドラフト**.
+   新しい目標が目標リストに一覧表示され、**ドラフト**&#x200B;のステータスになります。
 
    目標をアクティブ化し、作業を開始するには、目標を進行状況インジケーターに関連付ける必要があります。
 
-   アクティブ化する目標を準備するには、次の少なくとも 1 つを実行します。
-   * 結果を追加
+   アクティブ化する目標を準備するには、次のうち 1 つ以上を実行します。
+   * 結果を追加する
 
-      結果の追加について詳しくは、 [Adobe Workfront目標の目標に結果を追加](../results-and-activities/add-results-to-goals.md).
-   * アクティビティを追加
+     結果の追加について詳しくは、[Adobe Workfront Goals で目標に結果を追加](../results-and-activities/add-results-to-goals.md)を参照してください。
+   * アクティビティを追加する
 
-      アクティビティの追加について詳しくは、 [Adobe Workfront目標での目標へのアクティビティの追加](../results-and-activities/add-activities-to-goals.md).
-   * 別の目標をそれに合わせる
+     アクティビティの追加について詳しくは、[Adobe Workfront Goals の目標へのアクティビティの追加](../results-and-activities/add-activities-to-goals.md)を参照してください。
+   * 別の目標を整合させる
 
-      目標の調整について詳しくは、 [目標をAdobe Workfront目標に結び付けて整列させる](../goal-alignment/align-goals-by-connecting-them.md).
+     目標の整合について詳しくは、[Adobe Workfront Goals で目標をに結び付けて整合させる](../goal-alignment/align-goals-by-connecting-them.md)を参照してください。
 
 
-### 既存の目標のコピー {#copy-an-existing-goal}
+### 既存の目標をコピーする {#copy-an-existing-goal}
 
 既存の目標をコピーして、目標を作成できます。
 
-目標のコピーについて詳しくは、 [Adobe Workfront目標のコピー](../../workfront-goals/goal-management/copy-goals.md).
+目標のコピーについて詳しくは、[Adobe Workfront Goals で目標をコピー](../../workfront-goals/goal-management/copy-goals.md)を参照してください。
 
-### 結果またはアクティビティを目標に変換する {#convert-a-result-or-activity-to-a-goal}
+### 結果またはアクティビティを目標に変換 {#convert-a-result-or-activity-to-a-goal}
 
-既存の目標の結果やアクティビティを目標に変換することで、目標を作成できます。 新しい目標は、元の目標に合わせて調整されます。
+既存の目標の結果やアクティビティを目標に変換することで、目標を作成できます。新しい目標は、元の目標に一致するように調整されます。
 
-結果およびアクティビティを目標に変換する方法について詳しくは、 [結果とアクティビティを目標に変換して目標を揃える](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+結果とアクティビティを目標に変換する方法について詳しくは、[Adobe Workfront Goals で目標をに結び付けて整合させる](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)を参照してください。
 
