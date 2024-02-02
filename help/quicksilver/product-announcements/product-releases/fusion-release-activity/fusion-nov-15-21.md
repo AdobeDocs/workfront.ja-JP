@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 11 月 15 日の週
-description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 11 月 15 日の週
+title: Workfront Fusion リリースアクティビティ： 2021年11月15日（PT）の週
+description: Workfront Fusion リリースアクティビティ： 2021年11月15日（PT）の週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -8,27 +8,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 36befe2a-6655-4213-a74f-635542c2cec2
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 11 月 15 日の週
+# Workfront Fusion リリースアクティビティ：2021年11月15日（PT）の週
 
-このページでは、2021 年 11 月 15 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年11月15日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
 ## Adobe Workfront Fusion の新しいルックアンドフィール
 
-Workfront Fusion のルックアンドフィールを更新し、他のAdobe製品のルックアンドフィールをより深く反映しました。 このクリーンな外観の変更により、様々なAdobe製品で作業する際に、より一貫したエクスペリエンスを提供します。
+Workfront Fusion のルックアンドフィールをアップデートし、他のアドビ製品のルックアンドフィールにより近くなるように反映しました。このクリーンな外観の変更により、様々なアドビ製品で作業する際に、より一貫性のあるエクスペリエンスを提供します。
 
-また、このアップグレードにより、より迅速なナビゲーションを実現するためのパフォーマンスが向上しました。
+また、このアップグレードによってパフォーマンスが向上し、より迅速なナビゲーションを実現しました。
 
-新しいルックアンドフィールは、Adobe Workfront Fusion の機能には影響しません。 すべてのボタン、タブ、その他のツールは同じ場所にあるので、既存の動作やワークフローを変更する必要はありません。
+新しいルックアンドフィールは、Adobe Workfront Fusion の機能に対する影響はありません。すべてのボタン、タブおよびその他のツールは同じ場所にあるので、既存の動作やワークフローを変更する必要はありません。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
