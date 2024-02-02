@@ -2,26 +2,26 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: プロジェクト計画福利厚生の概要
-description: 「計画福利厚生」とは、プロジェクトが完了した場合に組織が利益を得る可能性がある推定金額です。
+title: プロジェクトの予定利益の概要
+description: 予定利益とは、プロジェクトが完了した場合に組織が利益を得る可能性がある推定金額です。
 author: Alina
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# プロジェクト計画福利厚生の概要
+# プロジェクトの予定利益の概要
 
-「計画福利厚生」とは、プロジェクトが完了した場合に組織が利益を得る可能性がある推定金額です。
+予定利益とは、プロジェクトが完了した場合に組織が利益を得る可能性がある推定金額です。
 
-計画特典は、Adobe Workfrontでは計算されません。 プロジェクト所有者は、ビジネス事例でプロジェクトの計画特典を手動で指定します。 この値の決定方法については、各組織でポリシーを設定することをお勧めします。
+予定利益は、Adobe Workfront では計算されません。プロジェクト所有者は、ビジネスケースでプロジェクトの予定利益を手動で指定します。この値の決定方法については、各組織でポリシーを設定することをお勧めします。
 
-プロジェクトの計画的利点は、プロジェクトの正味価値に影響を与えます。\
-プロジェクトの正味価値の計算の詳細については、「 [正味値を計算](../../../manage-work/projects/project-finances/calculate-net-value.md).
+プロジェクトの予定利益は、プロジェクトの正味価値に影響を与えます。\
+プロジェクトの正味価値の計算について詳しくは、[正味値を計算](../../../manage-work/projects/project-finances/calculate-net-value.md)の記事を参照してください。
 
 ## アクセス要件
 
@@ -32,43 +32,43 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよび財務データへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトおよび財務データへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財務を管理する権限を持つプロジェクトに対する権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>財務を管理する権限を持つプロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## プロジェクトの計画済み特典の検索
+## プロジェクトの予定利益を検索
 
-Workfrontの次の領域で、プロジェクトの計画的利益を表示または更新できます。
+Workfront の次のエリアで、プロジェクトの予定利益を表示または更新できます。
 
-* 「ビジネス事例の概要」で、\
-   プロジェクトのビジネス事例の詳細については、「 [プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* ビジネスケースの概要で。\
+  プロジェクトのビジネスケースのついて詳しくは、[プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)の記事を参照してください。
 
-* プロジェクトレポートで、「計画特典」列をレポートのビューに追加する場合。\
-   Workfrontでのレポート作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* プロジェクトレポートで、予定利益の列をレポートのビューに追加する場合。\
+  Workfront でのレポート作成について詳しくは、[カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。
 
-* Portfolio・オプティマイザ\
-   Adobe Manager の詳細については、「Portfolio・オプティマイザ」を参照してください。 [Portfolio最適化の概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+* ポートフォリオオプティマイザー。\
+  ポートフォリオオプティマイザーについて詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)の記事を参照してください。
 
-## プロジェクトの計画済み特典の更新
+## プロジェクトの予定利益を更新
 
-1. 計画福利厚生を更新するプロジェクトに移動します。
-1. クリック **ビジネス事例** をクリックします。
-1. クリック **プロジェクト情報の編集** また、 **計画済み特典** フィールドに入力します。
+1. 予定利益を更新するプロジェクトに移動します。
+1. 左側のパネルで「**ビジネスケース**」をクリックします。
+1. 「**プロジェクト情報を編集**&#x200B;をクリックし、「**予定利益**」フィールドに予定利益の金額を指定します。
 
 1. 「**保存**」をクリックします。
