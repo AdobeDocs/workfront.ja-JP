@@ -1,20 +1,20 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: 通貨が null の場合に、プロジェクトの通貨情報を取得します
-description: 通貨が null の場合に、プロジェクトの通貨情報を取得します
+title: 通貨が null の場合に、プロジェクトの通貨情報を取得する
+description: 通貨が null の場合に、プロジェクトの通貨情報を取得する
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 31ed533b-be19-4ccb-aad4-7c78e008b3e9
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 通貨が null（割り当てられていない）の場合に、プロジェクトの通貨情報を取得します
+# 通貨が null（割り当てられていない）の場合に、プロジェクトの通貨情報を取得する
 
 通貨フィールドを含むプロジェクトオブジェクトは、次のリクエストを使用して取得できます。
 
@@ -37,7 +37,7 @@ GET /attask/api-internal/project/{{projectID}}?fields=currency
 }
 ```
 
-通貨がプロジェクトに設定されていない場合、この応答には値を持つ通貨が含まれます `null`:
+プロジェクトに通貨が設定されていない場合、この応答には `null` の値の通貨が含まれます。
 
 ```
 {
@@ -56,7 +56,7 @@ GET /attask/api-internal/project/{{projectID}}?fields=currency
 
 `GET /attask/api-internal/CUST/currentCustomer?fields=currency`
 
-応答には、ユーザーがデフォルトとして設定した通貨が含まれます。通貨が設定されていないその顧客のプロジェクトで使用されます。
+この応答には、ユーザーがデフォルトとして設定した通貨が含まれ、その通貨が設定されていない顧客のプロジェクトで使用されます。
 
 ```
 {
