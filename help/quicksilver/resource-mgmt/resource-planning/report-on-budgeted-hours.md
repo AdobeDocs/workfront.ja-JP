@@ -1,23 +1,23 @@
 ---
 product-area: resource-management;reporting
 navigation-topic: resource-planning
-title: 生産資源プランナの予算時間に関するレポート
-description: リソース・プランナを使用して、プロジェクトのリソースを予算できます。 Adobe Workfront Resource Planner を使用したリソースの予算設定の詳細は、「プロジェクトビューと役割ビューを使用したリソースプランナーの予算リソース」を参照してください。
+title: リソースプランナーの予算時間に関するレポート
+description: リソースプランナーを使用して、プロジェクトのリソースを予算計上できます。Adobe Workfront リソースプランナーを使用したリソースの予算計上について詳しくは、プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上の記事を参照してください。
 author: Alina
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 生産資源プランナの予算時間に関するレポート
+# リソースプランナーの予算時間に関するレポート
 
-リソース・プランナを使用して、プロジェクトのリソースを予算できます。 Adobe Workfront Resource Planner を使用したリソースの予算設定について詳しくは、この記事を参照してください [「プロジェクト」ビューと「ロール」ビューを使用する、リソースプランナーの予算リソース](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+リソースプランナーを使用して、プロジェクトのリソースを予算計上できます。Adobe Workfront リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
 
-予算リソースとは、プロジェクト上のリソースがプロジェクトでの作業を完了するのに必要な一定の時間を定義（または予算）することを意味します。 リソース・プランナに入力した予算時間情報を、リソース・プランナにアクセスできない他のユーザーと共有するには、「予算時間」レポートを作成します。 詳しくは、 [レポート：予算時間](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+リソースの予算計上とは、プロジェクトのリソースがプロジェクトの作業を完了するために必要な特定の時間を定義（または予算）することを意味します。リソースプランナーへのアクセス権がない他のユーザーと予算計上時間数の情報を共有したい場合は、予算計上時間数のレポートを作成することで共有できます。詳しくは、[レポート：予算計上時間数](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is all drafted - below - same content as the one in the standalone Report: Budgeted Hour article - consider deleting that and just keeping the infomation here?!)</p>
