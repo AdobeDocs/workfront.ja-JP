@@ -2,53 +2,53 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '期間タイプの概要：計算された割り当て'
-description: 計算された割り当ては、Adobe Workfrontのタスクに設定できる期間の種類です。 Workfrontの期間のタイプに関する一般情報については、タスク期間の概要および期間のタイプを参照してください。
+title: 「期間タイプの概要：予定割り当て時間」
+description: 予定割り当て時間は、Adobe Workfront のタスクに設定できる期間タイプです。Workfront の期間タイプに関する一般情報については、タスク期間の概要と期間タイプを参照してください。
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 期間タイプの概要：計算された割り当て
+# 期間タイプの概要：算出した割り当て
 
-計算された割り当ては、Adobe Workfrontのタスクに設定できる期間の種類です。 Workfrontの期間のタイプに関する一般情報については、 [タスクの期間と期間のタイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+予定割り当て時間は、Adobe Workfront のタスクに設定できる期間タイプです。Workfront の期間タイプに関する一般情報については、[タスク期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
-## 計算された割り当て期間タイプの概要
+## 予定割り当て時間の期間タイプの概要
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This Hub issue has a powerpoint that highlights information that is useful to users when using Calculated Assignment duration type. I don't think we can use the powerpoint, because it's old. I also don't know if the things they discuss are still relevant, since the PP is from 2015. I've closed the issue, but I'm putting a link here just in case the info is useful. https://hub.workfront.com/issue/5a9dd7d5007d02a8966014557c23cc89/updates)</p>
 -->
 
-* 「割り当て期間タイプの計算」を使用する場合は、タスクの「期間」と「予定時間数」の両方を指定する必要があります。 次に、Workfrontは、計画時間数を期間内の時間数で割り、タスクに割り当てられたリソース数で割り当て率（割り当ての計算）を各リソースに対して計算します。 各リソースの配分率は同じ値になります。 この場合、各リソースの配分値を変更することはできません。
-* Workfrontまたはグループ管理者は、システムまたはグループのデフォルトの期間タイプを計算割り当てに設定できます。 この場合、すべての新しいタスクは、この期間タイプで作成されます。 システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクや問題の環境設定を変更する方法については、 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* 予定割り当て時間の期間タイプを使用する場合は、タスクの期間と予定時間数の両方を指定する必要があります。次に、Workfront は、予定時間数を期間内の時間数で割り、タスクに割り当てられたリソース数で配分率（割り当て）を各リソースに対して計算します。各リソースの配分率は、同じ値で均等に配分されます。この場合、各リソースの配分値を変更することはできません。
+* Workfront またはグループ管理者は、システムまたはグループのデフォルトの期間タイプを、予定割り当て時間として設定できます。この場合、すべての新しいタスクは、この期間タイプで作成されます。システムレベルまたはグループレベルのプロジェクト環境設定の一部として、タスクやイシューの環境設定を変更する方法については、[システム全体のタスクとイシュー環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
-   この場合、タスクのデフォルトは「期間」が 1 日、デフォルトは「予定時間」が 0 時間になります。 プロジェクトマネージャがより正確な「期間」を設定し、「計画時間」フィールドに実際の見積もりを入力しない限り、リソースは未割り当てと表示されます。
+  この場合、タスクのデフォルトの期間は 1 日、デフォルトの予定時間数は 0 時間になります。プロジェクトマネージャーがより正確な期間を設定し、予定時間数フィールドに現実的な見積もりを入力しない限り、リソースの割り当てが不十分として表示されます。
 
-次の状況では、「計算された割り当て」が推奨される期間の種類です。
+次の状況では、予定割り当て時間が推奨される期間タイプです。
 
-* 割り当てにアクティビティウィンドウがあるが、割り当てられた期間全体を費やして作業を完了しない場合。 例えば、週の終わりまでにレポートをスーパーバイザーに配信するように割り当てられているとします。 期間は 5 日ですが、ドキュメントの下書きには 10 時間しかかかりません。
-* 1 つのリソースがタスクに割り当てられる場合、プロジェクトマネージャは、計画期間と計画作業量を互いに関係なく見積もることができます。
+* 割り当てにアクティビティウィンドウがあるが、割り当てられた期間全体を費やして作業を完了しない場合。例えば、週の終わりまでにレポートをスーパーバイザーに提出するように割り当てられているとします。期間は 5 日ですが、ドキュメントの下書きには 10 時間しかかかりません。
+* プロジェクトマネージャーは、予定期間と予定作業量を個別に見積もることができるため、1 つのリソースが 1 つのタスクに割り当てられる場合。
 
-   同じ結果に対して [ 計算された作業時間の期間の種類 ] を使用できますが、計画時間の計算値に影響を与えるには、プロジェクトマネージャがリソースの割合配分を入力する必要があります。 これにより、プロジェクトの計画がより難しく、時間がかかります。
+  同じ結果に対して予定作業の期間タイプを使用できますが、予定時間数の計算値に影響を与えるには、プロジェクトマネージャーがリソースの配分率を入力する必要があります。これにより、プロジェクト計画の難易度が高まり、所要時間も長くなります。
 
-各リソースの割り当て率は、次のように計算されます。
+各リソースの配分率は、次のように計算します。
 
 ```
 Planned Hours / Duration / Number of Resources = Allocation Percentage for each resource
 ```
 
-例えば、以下に示すシナリオでは、各タスクの期間は 3 日です。 プロジェクト・マネージャは、「期間」（3 日または 24 時間）と「計画時間」の両方を手動で入力し、その結果、割り当て率（または割り当て率）が次のように計算されます。
+例えば、次に説明するシナリオでは、各タスクの期間は 3 日です。プロジェクトマネージャーは、期間（3 日または 24 時間）と予定時間数の両方を手動で入力します。その結果、配分率（または割り当て率）は、次のように計算されます。
 
 ![](assets/calcassign-350x80.png)
 
-## タスクの期間の種類を計算割り当てに変更する
+## タスクの期間タイプを予定割り当て時間に変更
 
-タスクの期間の種類の変更について詳しくは、 [タスクの期間タイプの更新](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+タスクの期間タイプの変更について詳しくは、[タスクの期間タイプの更新](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md)を参照してください。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>
