@@ -6,10 +6,10 @@ title: 23.3 リリースに伴う Adobe Workfront Goals
 description: このページでは、23.3 リリースで本番環境にリリースされた新しい Adobe Workfront エクスペリエンスにおける Adobe Workfront Goals の機能について説明します。
 author: Courtney
 feature: Product Announcements, Workfront Goals
-exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
-source-git-commit: 3e6f4b8c8bfb9cb6106dbb9522d77f5133a886e3
+exl-id: 1fa39be8-c949-4fe5-b62e-94375a80713b
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
-source-wordcount: '152'
+source-wordcount: '161'
 ht-degree: 100%
 
 ---
