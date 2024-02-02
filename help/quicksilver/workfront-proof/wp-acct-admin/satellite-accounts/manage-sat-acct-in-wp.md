@@ -2,43 +2,43 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
-title: での Satellite アカウントの管理 [!DNL Workfront Proof]
-description: As a [!DNL Workfront Proof] 管理者は、組織のアカウントで設定された satellite アカウントを管理できます。
+title: ' [!DNL Workfront Proof] でのサテライトアカウントの管理'
+description: ' [!DNL Workfront Proof]  管理者として、組織のアカウントに設定されたサテライトアカウントを管理できます。'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6ff109c2-0584-4087-82de-d431dd5abec7
 source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# での Satellite アカウントの管理 [!DNL Workfront Proof]
+# [!DNL Workfront Proof] でのサテライトアカウントの管理
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-As a [!DNL Workfront Proof] 管理者は、組織のアカウントで設定された satellite アカウントを管理できます。
+[!DNL Workfront Proof] 管理者として、組織のアカウントに設定されたサテライトアカウントを管理できます。
 
 ## 請求情報の更新
 
-Satellite アカウントの請求の詳細を表示および管理するには、次の手順に従います。
+サテライトアカウントの請求詳細を表示および管理するには、次の手順を実行します。
 
-1. 次に移動： [!UICONTROL 請求] ページ。
-1. ページ上部のドロップダウンメニュー (1) を開き、関連する Satellite アカウントを選択します。 (2)
+1. [!UICONTROL 請求]ページに移動します。
+1. ページの上部にあるドロップダウンメニューを開き (1)、関連するサテライトアカウントを選択します。（2）
 
-   詳しくは、 [この [!DNL Workfront Proof] [!UICONTROL 請求] ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+   詳しくは、[ [!DNL Workfront Proof] [!UICONTROL 請求]ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)を参照してください。
 
    ![Satellite_Account_Billing_Page__1_.png](assets/satellite-account-billing-page--1--350x167.png)
 
 ## アカウント情報の更新
 
-Satellite アカウントのアカウント設定を表示および管理するには：
+サテライトアカウントのアカウント設定を表示および管理するには、次の手順を実行します。
 
-1. に移動します。 [!UICONTROL アカウント設定] をクリックします。
-1. 次をクリック： **[!UICONTROL アカウント]** ドロップダウンメニューから、関連する Satellite アカウントを選択します。 (1)
-1. 関連するタブをクリックして、Satellite アカウントのアカウント設定を管理します。
+1. ページ上部の[!UICONTROL アカウント設定]に移動します。
+1. **[!UICONTROL アカウント]**&#x200B;ドロップダウンメニューをクリックし、関連するサテライトアカウントを選択します。（1）
+1. 関連するタブをクリックして、サテライトアカウントのアカウント設定を管理します。
 
 ![SA_Account_Settings.png](assets/sa-account-settings-350x151.png)
