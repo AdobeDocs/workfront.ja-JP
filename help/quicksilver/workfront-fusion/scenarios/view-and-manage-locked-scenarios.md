@@ -2,21 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: でのロックされたシナリオの管理 [!DNL Adobe Workfront Fusion]
-description: でのロックされたシナリオの管理 [!DNL Adobe Workfront Fusion]
+title: ' [!DNL Adobe Workfront Fusion] でのロックされたシナリオの管理'
+description: ' [!DNL Adobe Workfront Fusion] でのロックされたシナリオの管理'
 author: Becky
 feature: Workfront Fusion
 exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
 source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# でのロックされたシナリオの管理 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] でのロックされたシナリオの管理 
 
-場合によっては、シナリオが一時的にロックされることがあります [!DNL Workfront Fusion]. ロックされた実行は、2 ～ 4 時間以内に自動的にロック解除されます。 シナリオのロックを手動で解除することもできます。
+場合によっては、[!DNL Workfront Fusion] でシナリオが一時的にロックされることがあります。ロックされた実行は、2～4 時間以内に自動的にロック解除されます。シナリオのロックを手動で解除することもできます。
 
 >[!IMPORTANT]
 >
@@ -24,56 +24,56 @@ ht-degree: 0%
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p><p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA) </p>  </td>    </tr> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>この記事で説明されている機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## ロックされたシナリオについて
 
 シナリオは、様々な理由でロックされる場合があります。
 
-Workfront Fusion は、スケジュールされたシナリオの並列処理をサポートしていません。 これらのシナリオは、シナリオの実行の開始時にロックされ、完了時にロックが解除されます。 実行が中断された場合、シナリオはロックを解除できない可能性があります。 これは、ユーザーが手動でシナリオを強制的に停止した場合や、システムの問題が発生した場合に発生する可能性があります。
+Workfront Fusion では、スケジュールされたシナリオの並列処理をサポートしていません。これらのシナリオは、シナリオ実行の開始時にロックされ、完了時にロックが解除されます。実行が中断された場合は、シナリオのロックが解除されない可能性があります。これは、ユーザーが手動で強制的にシナリオを停止した場合や、システムの問題が発生した場合に起こる可能性があります。
 
-また、Workfront Fusion のエンジニアリングチームは、パフォーマンスやその他の問題を引き起こしているので、シナリオをロックする場合があります。
+また、Workfront Fusion でパフォーマンスなどの問題が発生しているので、エンジニアリングチームがシナリオをロックする場合があります。
 
-ロックされたシナリオの原因に関係なく、ロックされた後、シナリオは自動的に 2～4 時間でロック解除されます。
+ロックされたシナリオの原因に関係なく、シナリオはロックされた後 2～4 時間で自動的にロック解除されます。
 
-## ロックされたシナリオのロック解除
+## ロックされたシナリオのロックを解除
 
-ロックされたシナリオは、ロックされた時点から 2 ～ 4 時間ロック解除されます。 シナリオのロックを手動で解除してから、自動的にロックを解除するようスケジュールを設定できます。
+ロックされたシナリオは、ロックされた時点から 2～4 時間後にロック解除されます。シナリオの自動ロック解除がスケジュールされている時点より前に、手動でロック解除することもできます。
 
-シナリオを手動でロック解除すると、シナリオの実行でエラーが発生する場合があります。 シナリオの設計の一環として実行の実行と停止が原因でシナリオがロックされている場合にのみ、シナリオを手動でロック解除することをお勧めします。 その他の状況では、シナリオのロックが自動的に解除されるのを待つことをお勧めします。
+シナリオを手動でロック解除すると、シナリオの実行でエラーが発生する場合があります。シナリオの設計の一環として、シナリオを手動でロック解除するのは、実行の開始と停止が原因でシナリオがロックされる場合に限ることをお勧めします。その他の状況では、シナリオのロックが自動的に解除されるのを待つことをお勧めします。
 
 >[!IMPORTANT]
 >
 >シナリオを手動でロック解除すると、シナリオの実行でエラーが発生する場合があります。
 
 1. ロックされたシナリオのシナリオの詳細ページに移動します。
-1. クリック **[!UICONTROL オプション]** をクリックします。
-1. 選択 **[!UICONTROL 実行のロックを解除]**.
-1. クリック **[!UICONTROL ロック解除]**.
+1. 画面の右上隅にある「**[!UICONTROL オプション]**」をクリックします。
+1. 「**[!UICONTROL 実行のロックを解除]**」を選択します。
+1. 「**[!UICONTROL ロックを解除]**」をクリックします。
