@@ -1,35 +1,35 @@
 ---
 content-type: release-notes
-keywords: メモ，四半期，更新
+keywords: メモ、四半期、更新
 navigation-topic: product-releases
-title: 21.1 リソース管理の強化
-description: このページでは、プレビュー環境の 21.1 リリースでおこなわれたリソース管理のすべての機能強化について説明します。 これらの機能強化は、2021 年 2 月 15 日の週に実稼動環境で利用可能になる予定です。
+title: 21.1 リソース管理の機能強化
+description: このページでは、プレビュー環境の 21.1 リリースで行われたリソース管理のすべての機能強化について説明します。これらの機能強化は、2021年2月15日（PT）の週に実稼動環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f9a55491-c80d-4057-9a72-bcdc09256e23
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 21.1 リソース管理の強化
+# 21.1 リソース管理の機能強化
 
-このページでは、プレビュー環境の 21.1 リリースでおこなわれたリソース管理のすべての機能強化について説明します。 これらの機能強化は、2021 年 2 月 15 日の週に実稼動環境で利用可能になる予定です。
+このページでは、プレビュー環境の 21.1 リリースで行われたリソース管理のすべての機能強化について説明します。これらの機能強化は、2021年2月15日（PT）の週に実稼動環境で利用可能になる予定です。
 
-21.1 リリースで使用可能なすべての変更点の一覧については、 [21.1 リリースの概要](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+21.1 リリースで使用可能なすべての変更点の一覧については、[21.1 リリースの概要](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md)を参照してください。
 
 ## プロジェクト用のワークロードバランサー
 
-これで、ワークロードバランサーがプロジェクト内で使用できるようになりました。 これで、ワークロードバランサーまたはスケジューリングツールを使用してプロジェクトリソースを管理するかを選択できます。
+プロジェクト内でワークロードバランサーを使用できるようになりました。プロジェクトリソースを管理するのに、ワークロードバランサーを使用するかスケジュールツールを使用するかを選択できるようになりました。
 
-ワークロードバランサーのAdobe Workfrontでの位置について詳しくは、 [ワークロード・バランサの検索](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+ワークロードバランサーの Adobe Workfront 内の場所について詳しくは、[ワークロードバランサーを検索](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 
-## チームで利用可能なWorkfrontバランサー
+## Workfront Balancer がチームで利用可能
 
-ワークロードバランサーをチーム内で使用できるようになりました。 これで、ワークロードバランサーを使用するか、スケジューリングツールを使用してチームリソースを管理するかを選択できます。
+チーム内でワークロードバランサーを使用できるようになりました。チームリソースを管理するのに、ワークロードバランサーを使用するかスケジュールツールを使用するかを選択できるようになりました。
 
-ワークロードバランサーのWorkfrontでの位置について詳しくは、 [ワークロード・バランサの検索](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+ワークロードバランサーの Workfront 内の場所について詳しくは、[ワークロードバランサーを検索](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 
