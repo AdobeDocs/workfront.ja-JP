@@ -2,24 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: リスクタイプの編集と作成
-description: 計画段階でプロジェクトにリスクを追加して、作業の承認前に潜在的な障害を特定できます。 リスクとは、時間通りに、または予算内でプロジェクトが完了するのを妨げる可能性のあるイベントです。
+title: リスクタイプを編集および作成
+description: 計画段階では、すべての作業の承認前に、潜在的な障害物を特定するためのリスクがプロジェクトに追加されます。リスクとは、プロジェクトを期限内または予算内で完了することを妨げる可能性のあるイベントです。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# リスクタイプの編集と作成
+# リスクタイプを編集および作成
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-計画段階でプロジェクトにリスクを追加して、作業の承認前に潜在的な障害を特定できます。 リスクとは、時間通りに、または予算内でプロジェクトが完了するのを妨げる可能性のあるイベントです。
+計画段階では、すべての作業の承認前に、潜在的な障害物を特定するためのリスクがプロジェクトに追加されます。リスクとは、プロジェクトを期限内または予算内で完了することを妨げる可能性のあるイベントです。
 
 ## アクセス要件
 
@@ -30,64 +30,64 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> <p><b>注意</b>:まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>ユーザーは [!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：アクセスできない場合は、[!DNL Workfront] 管理者にアクセスレベルに追加の制限が設定されていないかお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## リスクのタイプ
+## リスクタイプ
 
-リスクタイプは、レポート目的で分類するためにリスクに使用できるラベルです。 これらは、 **[!UICONTROL 設定]** 領域 [!DNL Adobe Workfront] 管理者。 リスクタイプが **[!UICONTROL 設定]** 領域内では、システムに対して普遍的です。 プロジェクト所有者は全員、プロジェクトに同じリスクタイプを使用できます。
+リスクタイプは、レポート目的でリスクを分類するために使用できるラベルです。リスクタイプは、[!DNL Adobe Workfront] 管理者が&#x200B;**[!UICONTROL 設定]**&#x200B;エリアで作成します。**[!UICONTROL 設定]**&#x200B;エリアでリスクタイプが確立されると、リスクタイプはシステムに共通になります。すべてのプロジェクト所有者は、プロジェクトに同じリスクタイプを使用できます。
 
-## リスクタイプの編集と作成
+## リスクタイプを編集および作成
 
-一部のリスクタイプは既にに存在します [!DNL Workfront]（デフォルト）。 組織のニーズを反映するには、既存のリスクタイプを編集するか、新しいリスクタイプを作成します。
+一部のリスクタイプはデフォルトで、既に [!DNL Workfront] に存在します。組織のニーズを反映させるために、既存のリスクタイプを編集するか、新しいリスクタイプを作成することができます。
 
-* [既存のリスクタイプの編集](#edit-existing-risk-types)
-* [新しいリスクタイプの作成](#create-new-risk-types)
+* [既存のリスクタイプを編集](#edit-existing-risk-types)
+* [新しいリスクタイプを作成](#create-new-risk-types)
 
-### 既存のリスクタイプの編集 {#edit-existing-risk-types}
+### 既存のリスクタイプを編集 {#edit-existing-risk-types}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
 
-1. クリック **[!UICONTROL リスクタイプ]**.
+1. 「**[!UICONTROL リスクタイプ]**」をクリックします。
 1. 編集するリスクタイプを選択します。
-1. クリック **[!UICONTROL 編集]**.
+1. 「**[!UICONTROL 編集]**」をクリックします。
 1. （オプション）リスクタイプの名前と説明を変更します。
 
-   文字数の上限は 50 文字です **[!UICONTROL 名前]** そして **[!UICONTROL 説明]** フィールド。
+   **[!UICONTROL 名前]**&#x200B;フィールドと&#x200B;**[!UICONTROL 説明]**&#x200B;フィールドには 50 文字の文字数制限があります。
 
-1. クリック **[!UICONTROL 変更を保存].**
+1. 「**[!UICONTROL 変更を保存]」をクリックします。**
 
-### 新しいリスクタイプの作成 {#create-new-risk-types}
+### 新しいリスクタイプを作成 {#create-new-risk-types}
 
-デフォルトのリスクタイプに加えて、組織のニーズを反映した新しいリスクタイプを作成できます。
+デフォルトのリスクタイプに加えて、組織のニーズを反映させる新しいリスクタイプを作成することができます。
 
-新しいリスク・タイプを作成する手順は、次のとおりです。
+リスクタイプを新規作成。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) の順にクリックします。
 
-1. クリック **[!UICONTROL リスクタイプ]**.
-1. クリック **[!UICONTROL 新しいリスクタイプ]**.
-1. タイプ a **[!UICONTROL 名前]** （必須）および **[!UICONTROL 説明]** （オプション）リスクタイプ。
+1. 「**[!UICONTROL リスクタイプ]**」をクリックします。
+1. 「**[!UICONTROL 新しいリスクタイプ]**」をクリックします。
+1. リスクタイプの&#x200B;**[!UICONTROL 名前]**（必須）と&#x200B;**[!UICONTROL 説明]**（オプション）を入力します。
 
-   文字数の上限は 50 文字です **[!UICONTROL 名前]** そして **[!UICONTROL 説明]** フィールド。
+   **[!UICONTROL 名前]**&#x200B;フィールドと&#x200B;**[!UICONTROL 説明]**&#x200B;フィールドには 50 文字の文字数制限があります。
 
-1. クリック **[!UICONTROL リスクタイプの作成]**. インライン編集を使用してリスクタイプを追加した場合は、[ **[!UICONTROL 入力]** 完了したら
+1. 「**[!UICONTROL リスクタイプを作成]**」をクリックします。インライン編集を使用してリスクタイプを追加した場合、完了したら&#x200B;**[!UICONTROL Enter]** をクリックします。
 
    >[!NOTE]
    >
-   >カスタムリスクタイプを編集する必要がある場合は、「 [[!UICONTROL 既存の項目を編集] リスクタイプ](#edit-existing-risk-types) 」を参照してください。
+   >カスタムリスクタイプを編集する必要がある場合は、[[!UICONTROL 既存の]リスクタイプ](#edit-existing-risk-types)を編集の節を参照してください。
 
-## プロジェクトにリスクタイプを付加
+## プロジェクトのリスクタイプにリスクを添付
 
-リスクタイプは、プロジェクトに追加されるリスクのラベル付けに使用できます。 プロジェクトにリスクを追加する方法の詳細については、 [プロジェクトのリスクの作成と編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+リスクタイプは、プロジェクトに追加されるリスクのラベル付けに使用できます。プロジェクトにリスクを追加する方法について詳しくは、[プロジェクトのリスクを作成および編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)を参照してください。
