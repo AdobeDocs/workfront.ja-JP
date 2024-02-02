@@ -1,36 +1,36 @@
 ---
-title: デフォルトのAdobe Workfrontレイアウトについて
+title: デフォルトの Adobe Workfront レイアウトについて
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更をおこなう前に、メインメニュー、左側のパネル、ビュー、グループ化およびフィルターが配置されたものです。
+description: デフォルトのレイアウトでは、Adobe Workfront 管理者がレイアウトテンプレートを使用して変更を行う前に、メインメニュー、左側のパネル、表示、グループ化およびフィルターが配置されています。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 14%
+ht-degree: 100%
 
 ---
 
-# デフォルトのAdobe Workfrontレイアウトについて
+# デフォルトの Adobe Workfront レイアウトについて
 
-デフォルトのレイアウトは、メインメニューの配置です ![](assets/main-menu-icon.png)、 Adobe Workfront管理者がレイアウトテンプレートを使用して変更をおこなう前に、左側のパネルと、ビュー、グループ化、フィルターを使用しておこないます。
+デフォルトのレイアウトでは、Adobe Workfront 管理者がレイアウトテンプレートを使用して変更を行う前に、メインメニュー![](assets/main-menu-icon.png)、左側のパネル、表示、グループ化およびフィルターが配置されています。
 
-Workfront管理者がユーザーにレイアウトテンプレートを割り当ててユーザーのデフォルトレイアウトを変更する方法について詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Workfront 管理者がユーザーにレイアウトテンプレートを割り当ててユーザーのデフォルトレイアウトを変更する方法について詳しくは、[レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 >[!NOTE]
 >
->ユーザーは、ユーザープロファイルの環境設定を編集することで、自分のレイアウトを変更できます。 詳しくは、 [環境設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) セクション [設定を行う](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>ユーザーは、ユーザープロファイルの環境設定を編集することで、自分のレイアウトを変更できます。詳しくは、[個人設定を行う](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)の[環境設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences)の節を参照してください。
 
 ## 各アクセスレベルのデフォルトレイアウト
 
-各ユーザーのデフォルトのレイアウトは、アクセスレベルに応じて異なります。 割り当てられているアクセスレベルによっては、メインメニューまたは特定の左側のパネル項目に特定の領域が表示されない場合があります。
+各ユーザーのデフォルトのレイアウトは、アクセスレベルに応じて異なります。割り当てられているアクセスレベルによっては、メインメニューまたは特定の左側のパネル項目に特定の領域が表示されない場合があります。
 
-次の表に、デフォルトで各アクセスレベルに対して左側のパネル項目が表示される内容を示します。 各アクセスレベルのデフォルトのランディング領域も示されます。
+次の表では、デフォルトで各アクセスレベルに対して表示される左側のパネル項目の内容が示されます。各アクセスレベルのデフォルトのランディング領域も示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +44,9 @@ Workfront管理者がユーザーにレイアウトテンプレートを割り�
  <thead> 
   <tr> 
    <th>エリア</th> 
-   <th> 左のパネル項目 </th> 
+   <th> 左側のパネル項目 </th> 
    <th> <p>システム管理者</p> </th> 
-   <th> <p>計画担当者</p> </th> 
+   <th> <p>プランナー</p> </th> 
    <th>作業者</th> 
    <th>レビュアー</th> 
    <th>依頼者</th> 
@@ -57,8 +57,8 @@ Workfront管理者がユーザーにレイアウトテンプレートを割り�
   <tr> 
    <td rowspan="2"><strong>プロジェクト</strong> </td> 
    <td><strong>プロジェクト</strong> </td> 
-   <td>✔ <br>（デフォルトのランディング領域）</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>（デフォルトのランディング領域）</td> 
+   <td>✔<br>（デフォルトのランディング領域）</td> 
+   <td><span style="font-weight: 400;">✔</span><br>（デフォルトのランディング領域）</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -74,7 +74,7 @@ Workfront管理者がユーザーにレイアウトテンプレートを割り�
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>報告書</strong> </td> 
+   <td rowspan="3"><strong>レポート</strong> </td> 
    <td><strong>レポート</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -102,7 +102,7 @@ Workfront管理者がユーザーにレイアウトテンプレートを割り�
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>人</strong> ( に名前を変更 <strong>チーム</strong> （作業ライセンスを持つユーザー向け）</td> 
+   <td rowspan="5"><strong>ユーザー</strong>（ワークライセンスを持つユーザーの場合は<strong>チーム</strong>に名前を変更）</td> 
    <td><strong>チーム</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -149,7 +149,7 @@ Workfront管理者がユーザーにレイアウトテンプレートを割り�
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><strong>リクエスト</strong> </td> 
+   <td rowspan="3"><strong>要求</strong> </td> 
    <td><strong>新しい要求</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -164,8 +164,8 @@ Workfront管理者がユーザーにレイアウトテンプレートを割り�
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br>（デフォルトのランディング領域）</td> 
-   <td>✔ <br>（デフォルトのランディング領域）</td> 
+   <td>✔ <br>（デフォルトのランディングエリア）</td> 
+   <td>✔ <br>（デフォルトのランディングエリア）</td> 
   </tr> 
   <tr> 
    <td><strong>すべての要求</strong> </td> 
@@ -218,7 +218,7 @@ Workfront管理者がユーザーにレイアウトテンプレートを割り�
    <td><strong>設定</strong> </td> 
    <td> </td> 
    <td>✔ </td> 
-   <td>限られた機能</td> 
+   <td>機能制限付き</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
