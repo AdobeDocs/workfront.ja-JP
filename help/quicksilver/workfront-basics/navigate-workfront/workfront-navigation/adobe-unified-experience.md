@@ -1,21 +1,21 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: のAdobe統合エクスペリエンス [!DNL Workfront]
-description: へのアクセス [!DNL Workfront] Adobe Experience Cloudを通じて、すべてのAdobeアプリケーションをシームレスに統合された管理体験を提供します。
+title: ' [!DNL Workfront] の Adobe Unified Experience'
+description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセスすると、すべての Adobe アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Unified Experience] の [!DNL Workfront]
+# [!DNL Workfront] 向け [!DNL Adobe Unified Experience]
 
-へのアクセス [!DNL Workfront] 経由 [!DNL Adobe Experience Cloud] を使用すれば、すべての [!DNL Adobe] アプリケーション。 単一の ID 管理では、複数の URL やログイン ID を使用せずに、1 つの場所でログインできます。
+[!DNL Adobe Experience Cloud] を介して [!DNL Workfront] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
 
 ## アクセス要件
 
@@ -26,79 +26,79 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> <p>[!UICONTROL Request] 以降</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-組織のインスタンス ( [!DNL Workfront] は、 [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
+組織の [!DNL Workfront] インスタンスは、[!DNL Adobe Business Platform] や [!DNL Adobe Admin Console] にオンボードされる必要があります。
 
-のオンボーディングに関するご質問がある場合は、 [!DNL Adobe Admin Console]を参照し、 [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+[!DNL Adobe Admin Console] のオンボーディングに関するご質問がある場合は、[[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/) を参照してください。
 
-## にログインします。 [!DNL Adobe Experience Cloud]
+## [!DNL Adobe Experience Cloud] にログインする
 
-1. ブラウザーウィンドウを開き、に移動します。 <https://experience.adobe.com>.
-1. の [!UICONTROL ログイン] 画面、電子メールアドレスを入力して、 **[!UICONTROL 続行]**.
+1. ブラウザーウィンドウを開き、<https://experience.adobe.com> に移動します。
+1. [!UICONTROL ログイン]画面で、メールアドレスを入力して、「**[!UICONTROL 続行]**」をクリックします。
 
-   ![ログイン先 [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
+   ![[!DNL Adobe Experience Cloud]](assets/aec-login-page.png)にログインする
 
-## アクセス [!DNL Workfront]
+## [!DNL Workfront] にアクセス
 
-ログイン後 [!DNL Adobe Experience Cloud]を選択すると、 [!DNL Workfront] 上部のナビゲーション領域の組織切り替えボタンをクリックして、アクセス権を持つ組織と環境。 を選択します。 [!DNL Workfront] 作業する組織または環境。 環境には、 [!UICONTROL プレビュー] および [!UICONTROL サンドボックス] （組織で使用されている場合）。
+[!DNL Adobe Experience Cloud] にログインすると、上部のナビゲーションエリアにある組織スイッチャーをクリックして、アクセスできるすべての [!DNL Workfront] 組織と環境を表示できます。作業する [!DNL Workfront] の組織または環境を選択します。組織で使用されている場合、環境には[!UICONTROL プレビュー]と[!UICONTROL サンドボックス]が含まれる可能性があります。
 
-![表示 [!DNL Workfront] 組織と環境](assets/aec-view-all-orgs.png)
+![ [!DNL Workfront] の組織と環境を表示 ](assets/aec-view-all-orgs.png)
 
 >[!NOTE]
 >
->に初めてログインしたとき [!DNL Adobe Experience Cloud]の場合、デフォルトでは、アルファベット順のリストの最初の組織に設定されます。 次回ログインしたときは、組織は最後に訪問した組織にデフォルトで設定されます。
+>初めて [!DNL Adobe Experience Cloud] にログインすると、組織はデフォルトでアルファベット順リストの最初の組織に設定されます。次回ログインすると、最後にアクセスした組織がデフォルトで設定されます。
 
-[!DNL Workfront] が [!DNL Adobe Experience Cloud] アクセス権のある製品。 次を選択できます。 [!DNL Workfront] ( [!DNL Experience Cloud] ホームページを開くか、製品切り替えボタンを使用します。 ![製品切り替えボタン](assets/main-menu-icon.png) アプリケーションをいつでも変更できます。
+[!DNL Workfront] は、アクセスできる [!DNL Adobe Experience Cloud] 製品のリストに表示されます。[!DNL Experience Cloud] ホームページのクイックアクセスメニューで [!DNL Workfront] を選択するか、製品スイッチャー ![製品スイッチャー](assets/main-menu-icon.png) を使用していつでもアプリケーションを変更できます。
 
-![選択 [!DNL Workfront] アプリにアクセスする](assets/aec-product-switcher.png)
+![ [!DNL Workfront] を選択してアプリケーションにアクセス ](assets/aec-product-switcher.png)
 
-## 移動 [!DNL Workfront]
+## [!DNL Workfront] をナビゲートする
 
-以下を使用： [!UICONTROL メインメニュー] アイコン ![](assets/main-menu-icon-left-nav.png) の左側に [!DNL Workfront] ナビゲーションバーを使用して、アクセス権のある任意のページに移動します。 「 」で使用できるオプション [!UICONTROL メインメニュー] は次のものに依存します。
+[!DNL Workfront] ナビゲーション バーの左側にある[!UICONTROL メイン メニュー]アイコン ![](assets/main-menu-icon-left-nav.png) を使用して、アクセスできるページに移動します。[!UICONTROL メインメニュー]で使用できるオプションは、次の要素によって異なります。
 
-* **レイアウトテンプレート設定**:方法を学ぶには [!DNL Workfront] 管理者が [!UICONTROL メインメニュー] レイアウトテンプレートから、 [のカスタマイズ [!UICONTROL メインメニュー] レイアウトテンプレートの使用](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-* **ライセンスの種類**:異なるライセンスタイプのデフォルト設定については、 [ナビゲーションについて [!UICONTROL レビュー]-license ユーザ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) または [ナビゲーションについて [!UICONTROL 作業]-license ユーザ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **レイアウトテンプレートの設定**：[!DNL Workfront] 管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレートを使用して、[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+* **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[[!UICONTROL レビュー]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[[!UICONTROL 作業]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)を参照してください。
 
 ![メインメニュー](assets/main-menu-options-left-nav.png)
 
 ## プロファイルと環境設定にアクセスする
 
-上部のナビゲーション領域のプロフィール画像をクリックすると、プロフィールおよび環境設定オプションにアクセスできます。
+上部のナビゲーションエリアのプロフィール画像をクリックすると、プロフィールおよび環境設定オプションにアクセスできます。
 
 ![プロファイルメニュー](assets/aec-profile-picture-menu.png)
 
 このメニューでは、次の操作を実行できます。
 
-* 選択 **[!UICONTROL ダークテーマ]** フォーマット [!DNL Adobe Experience Cloud].
-* 設定 **[!UICONTROL 環境設定]** 対象 [!DNL Adobe Experience Cloud]（プライマリ言語とセカンダリ言語の環境設定を含む）
-* 次にアクセス： **[!UICONTROL [!DNL Workfront]プロファイル]**. プロファイルに移動したら、「 **[!UICONTROL 詳細]** メニュー ![](assets/more-icon.png) を選択し、 **[!UICONTROL 編集]**. プロファイルについて詳しくは、 [設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL ログアウト]** Adobe Experience Cloud
+* [!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL ダークテーマ]**&#x200B;の書式を選択します。
+* メイン言語とサブ言語の環境設定を含む、[!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL 環境設定]**&#x200B;を設定します。
+* **[!UICONTROL [!DNL Workfront]のプロファイル]**&#x200B;にアクセスします。プロファイルを開いたら、**[!UICONTROL その他]**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**[!UICONTROL 編集]**」を選択します。プロファイルについて詳しくは、[個人設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
+* Adobe Experience Cloud の&#x200B;**[!UICONTROL ログアウト]**
 
-## パスワードを管理
+## パスワードを管理する
 
 >[!NOTE]
 >
->パスワードを変更すると、すべてのユーザーのパスワードが変更されます [!DNL Adobe Experience Cloud] アプリケーション。
+>パスワードを変更すると、すべての [!DNL Adobe Experience Cloud] アプリケーションのパスワードが変更されます。
 
-パスワードはで管理されていません [!DNL Workfront].
+パスワードは [!DNL Workfront] では管理されません。
 
-組織が別のアプリケーションを使用してパスワードを管理している場合、そのプロバイダを通じてパスワードを変更します。
+組織が別のアプリケーションを使用してパスワードを管理している場合、そのプロバイダーを通じてパスワードを変更します。
 
-パスワードが [!DNL Adobe]の場合は、パスワードアカウントでAdobeを変更できます。
+パスワードが [!DNL Adobe] によって管理されている場合は、アドビアカウントのパスワードを変更できます。
 
-[パスワードの変更については、この記事をAdobeしてください。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[パスワードの変更については、この記事を参照ください。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。
