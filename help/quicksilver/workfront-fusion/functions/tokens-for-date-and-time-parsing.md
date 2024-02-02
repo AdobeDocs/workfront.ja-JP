@@ -3,58 +3,58 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Adobe Workfront Fusion での日時解析用トークン
-description: 日時解析に関する次のトークンは、 [!DNL Adobe Workfront Fusion mapping] パネル。
+title: Adobe Workfront Fusion の日付と時間の解析用トークン
+description: 日付と時刻の解析用の次のトークンは、 [!DNL Adobe Workfront Fusion mapping]  パネルで使用できます。
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# での日時解析用トークン [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] での日付と時刻の解析用のトークン
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件はありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 年、月、日のトークン
 
@@ -83,17 +83,17 @@ ht-degree: 6%
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>-25</code> </td> 
-   <td> <p>[!UICONTROL 年（任意の桁数と記号）</p> </td> 
+   <td> <p>[!UICONTROL Year with any number of digits and sign]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
    <td><code>1..4</code> </td> 
-   <td> <p> 四半期. 月を四半期の最初の月に設定します。</p> </td> 
+   <td> <p> 四半期。月を四半期の最初の月に設定します。</p> </td> 
   </tr> 
   <tr> 
    <td><code>M MM</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> 月番号</p> </td> 
+   <td> <p> 月の数字</p> </td> 
   </tr> 
   <tr> 
    <td><code>MMM MMMM</code> </td> 
@@ -108,7 +108,7 @@ ht-degree: 6%
   <tr> 
    <td><code>Do </code> </td> 
    <td><code>1st..31st</code> </td> 
-   <td> <p> 年間通算日</p> </td> 
+   <td> <p> 序数付きの月の日</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDD DDDD</code> </td> 
@@ -128,7 +128,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-## 週の年、週、平日のトークン
+## 週年、週、週日のトークン
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,22 +145,22 @@ ht-degree: 6%
   <tr> 
    <td><code>ddd dddd</code> </td> 
    <td><code>Mon...Sunday</code> </td> 
-   <td> <p> 日名</p> </td> 
+   <td> <p> 曜日名</p> </td> 
   </tr> 
   <tr> 
    <td><code>GGGG</code> </td> 
    <td><code>2014</code> </td> 
-   <td> <p> ISO 4 桁の週の年</p> </td> 
+   <td> <p> ISO 4 桁の週年</p> </td> 
   </tr> 
   <tr> 
    <td><code>GG </code> </td> 
    <td><code>14</code> </td> 
-   <td> <p> ISO 2 桁の週の年</p> </td> 
+   <td> <p> ISO 2 桁の週年</p> </td> 
   </tr> 
   <tr> 
    <td><code>W WW</code> </td> 
    <td><code>1..53</code></td> 
-   <td> <p> ISO 年間通算週</p> </td> 
+   <td> <p> ISO 年の週</p> </td> 
   </tr> 
   <tr> 
    <td><code>E</code> </td> 
@@ -170,7 +170,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-## 時間、分、秒、ミリ秒、オフセットの各トークン
+## 時間、分、秒、ミリ秒、オフセットのトークン
 
 <table style="table-layout:auto"> 
  <col> 
@@ -192,17 +192,17 @@ ht-degree: 6%
   <tr> 
    <td><code>h hh</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> 時間（A と共に 12 時間使用）</p> </td> 
+   <td> <p> 時間（A とともに 12 時間使用）</p> </td> 
   </tr> 
   <tr> 
    <td><code>k kk</code> </td> 
    <td><code>1..24</code> </td> 
-   <td> <p> 時間（1 ～ 24 時間）</p> </td> 
+   <td> <p> 時間（1～24 の 24 時間）</p> </td> 
   </tr> 
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> 経絡後または経絡前（p の 1 文字も有効と見なされます）</p> </td> 
+   <td> <p> PM または AM（a p の 1 文字も有効と見なされます）</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 
@@ -222,7 +222,7 @@ ht-degree: 6%
   <tr> 
    <td><code>Z ZZ</code> </td> 
    <td><code>+12:00</code> </td> 
-   <td> <p> UTC からのオフセットを+-HH:mm、+-HHmm、Z のいずれかとして指定</p> </td> 
+   <td> <p> +-HH:mm、+-HHmm、または Z として UTC からオフセット</p> </td> 
   </tr> 
  </tbody> 
 </table>
