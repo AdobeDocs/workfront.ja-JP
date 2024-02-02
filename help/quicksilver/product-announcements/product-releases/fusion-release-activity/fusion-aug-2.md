@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 8 月 2 日の週
-description: Workfront Fusion リリースアクティビティ：&nbsp;2021 年 8 月 2 日の週
+title: Workfront Fusion リリースアクティビティ：2021年8月2日（PT）の週
+description: Workfront Fusion リリースアクティビティ：2021年8月2日（PT）の週
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -8,19 +8,19 @@ recommendations: noDisplay, noCatalog
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2021 年 8 月 2 日の週
+# Workfront Fusion リリースアクティビティ：2021年8月2日（PT）の週
 
-このページでは、2021 年 8 月 2 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2021年8月2日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -49,19 +49,19 @@ Workfront Fusion の最近のバグ修正の一覧については、 [Workfront�
 
 マッピングパネルで 2 つの新しい関数を使用できるようになりました。
 
-* 新しい日付と時間関数： dateDifference
+* 新しい日付と時間関数：dateDifference
 
-  シナリオで時間の範囲を簡単に計算できるように、新しい「dateDifference」日時関数を追加しました。 この関数は、2 つの日付または時間と時間の単位を取り、選択した時間の単位で表される、日付または時間の間の時間を返します。
+  シナリオで時間の範囲を簡単に計算できるように、新しい「dateDifference」日付および時間関数を追加しました。この関数は 2 つの日付または時刻と時間単位を受け取り、選択された時間単位で表された日付または時刻の間の時間を返します。
 
-  以前は、日付と時間の差異は、ユーザーが入力した数式でのみ計算できました。
+  以前は、日付と時間の差は、ユーザーが入力した数式でのみ計算できました。
 
-  詳しくは、 [Adobe Workfront Fusion の日付および時間関数](../../../workfront-fusion/functions/date-and-time-functions.md).
+  詳しくは、[Adobe Workfront Fusion の日付と時間の関数](../../../workfront-fusion/functions/date-and-time-functions.md)を参照してください。
 
 * 新しい配列関数：arrayDifference
 
-  この関数は、2 つの配列を取り、新しい配列を返します。 モジュールが返す新しい配列のタイプを選択できます。
+  この関数は、2 つの配列を受け取り、新しい配列を返します。モジュールが返す新しい配列のタイプを選択できます。
 
-   * 他の配列に含まれていない、1 つの配列の要素の配列
-   * 1 つの配列または他の配列に含まれるが、両方には含まれない要素の配列。
+   * 一方の配列の要素のうち、もう一方の配列には含まれていない要素の配列
+   * どちらかの配列に含まれるが、両方には含まれない要素の配列。
 
-  詳しくは、 [Adobe Workfront Fusion の配列関数](../../../workfront-fusion/functions/array-functions.md).
+  詳しくは、[Adobe Workfront Fusion の配列関数](../../../workfront-fusion/functions/array-functions.md)を参照してください。
