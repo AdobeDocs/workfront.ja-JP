@@ -2,25 +2,25 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 配達確認の管理
-description: 配達確認の設定を編集
+title: プルーフを管理する
+description: プルーフの設定を編集
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ed1719ff-27e3-4fc0-b5bf-b3f20ffe98f0
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 配達確認の管理
+# プルーフを管理する
 
-* [配達確認の設定を編集](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
-* [Adobe Workfront内での配達確認の概要の印刷](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
-* [配達確認の削除](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
-* [アーカイブした配達確認の復元](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
-* [Adobe Workfront内での配達確認のアクティビティの表示](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
-* [配達確認の承認レポートを使用](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
-* [Adobe WorkfrontからWorkfront Proof にアクセス](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
+* [プルーフの設定を編集](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
+* [Adobe Workfront 内でプルーフの概要を印刷](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+* [プルーフの削除](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
+* [アーカイブされたプルーフの復元](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
+* [Adobe Workfront 内でのプルーフのアクティビティの表示](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)
+* [プルーフの承認レポートを使用](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
+* [Adobe Workfront から Workfront Proof にアクセス](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
