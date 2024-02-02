@@ -3,25 +3,25 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Web フックを使用したドキュメントコンテンツの取得
-description: ドキュメントの生のバイトを返します
+description: ドキュメントの未加工のバイトデータを返します
 author: Becky
 feature: Workfront API, Digital Content and Documents
 role: Developer
 exl-id: 0f0b5af7-f276-4856-852c-e976fa491f83
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
 # Web フックを使用したドキュメントコンテンツの取得
 
-ドキュメントの生のバイトを返します
+ドキュメントの未加工のバイトデータを返します
 
 ## URL
 
-GET/ダウンロード
+GET /download
 
 ## クエリパラメーター
 
@@ -37,13 +37,13 @@ GET/ダウンロード
  <tbody> 
   <tr> 
    <td> <p>id</p> </td> 
-   <td> ドキュメント ID。</td> 
+   <td>ドキュメント ID</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 応答
 
-ドキュメントの生のバイト。
+ドキュメントの未加工のバイトデータ。
 
-**例**:  `https://www.acme.com/api/download?id=123456`
+**例**：`https://www.acme.com/api/download?id=123456`
