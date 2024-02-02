@@ -2,25 +2,25 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 9 の新機能（続き）
-description: このリストは、大きいリストの後半部分です。 前半は、API バージョン 9 の新機能です。 バージョン 9 のアップデートの一覧については、 API バージョン 9 のアップデートを参照してください。
+description: このリストは、リスト全体の後半部分です。前半部分は、API バージョン 9 の新機能に記載されています。バージョン 9 のアップデートのリストについては、API バージョン 9 のアップデートを参照してください。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
-workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 20%
+workflow-type: ht
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
 # API バージョン 9 の新機能（続き）
 
-このリストは、大きいリストの後半部分です。 前半は、 [API バージョン 9 の新機能](../../wf-api/api/new-api-version-9.md). バージョン 9 の更新のリストは、次の場所にあります。 [API バージョン 9 の更新](../../wf-api/api/new-api-version-9-updates.md).
+このリストは、リスト全体の後半部分です。前半部分は、[API バージョン 9 の新機能](../../wf-api/api/new-api-version-9.md)に記載されています。バージョン 9 のアップデートのリストについては、[API バージョン 9 のアップデート](../../wf-api/api/new-api-version-9-updates.md)を参照してください
 
 ## PortalSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `accessLevelMM` | `exportFusionChartToPDF` |  | `ADD` |
 | `appGlobalID` | `enteredBy` | `lastViewers` | `displayDescription` | `getPK` |  | `COPY` |
@@ -88,7 +88,7 @@ ht-degree: 20%
 
 ## PortalSectionLastViewer
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | creationDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -100,7 +100,7 @@ ht-degree: 20%
 
 ## PortalSectionStatisticInfo
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `allViews` | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -118,7 +118,7 @@ ht-degree: 20%
 
 ## PortalTab
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `linkedRoleIDs` | `advancedCopy` |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `linkedRoles` | `linkedTeamIDs` | `exportDashboard` |  | `COPY` |
@@ -140,7 +140,7 @@ ht-degree: 20%
 
 ## PortalTabSection
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `area` | `calendarPortalSection`  |   |   |   |   |   |
 | `calendarPortalSectionID` | `customer`  |   |   |   |   |   |
@@ -157,17 +157,17 @@ ht-degree: 20%
 
 ## ReportFolder
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | customerID | `customer` |   |   |   |   |   |
 | `ID`  |   |   |   |   |   |   |
-| name |   |   |   |   |   |   |
+| 名前 |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
 ## ScheduleReport
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | `customerID` | `customer` | `groups` | `accessLevelMM` | `sendReportDeliveryNow` |  | `ADD` |
 | `description` | `enteredBy` | `roles` |  |  |  | `COPY` |
