@@ -3,84 +3,84 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 「Workfront Fusion リリースアクティビティ： 2022 年 7 月 11 日の週」
-description: このページでは、2022 年 7 月 11 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+title: 「Workfront Fusion リリースアクティビティ：2022年7月11日（PT）の週」
+description: このページでは、2022年7月11日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 19d4610a-670a-49e7-b276-f670de867910
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfront Fusion リリースアクティビティ： 2022 年 7 月 11 日の週
+# Workfront Fusion リリースアクティビティ：2022年7月11日（PT）の週
 
-このページでは、2022 年 7 月 11 日の週にAdobe Workfront Fusion でおこなわれたすべての機能強化について説明します。
+このページでは、2022年7月11日（PT）の週に Adobe Workfront Fusion で行われたすべての機能強化について説明します。
 
-最近のすべての変更の一覧については、 [Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+最近のすべての変更内容のリストについては、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-Workfront Fusion の最近のバグ修正の一覧については、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) ページを開き、 Workfront Fusion メンテナンスアップデートというラベルの付いたアップデートがないか確認します。
+Workfront Fusion での最近のバグ修正のリストについては、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページで、Workfront Fusion メンテナンスアップデートというラベルが付いたアップデートがあるか確認してください。
 
-## フィグマ接続とモジュールが利用可能に
+## Figma 接続およびモジュールが使用可能に
 
-これで、Adobe Workfront Fusion を使用して Figma アカウントに接続できます。 Figma モジュールを使用すると、次の操作を実行できます。
+Adobe Workfront Fusion で Figma アカウントに接続できるようになりました。Figma モジュールを使用すると、以下が可能になります。
 
-* Figma アカウントでイベントが発生した場合のシナリオのトリガー
+* Figma アカウントでイベントが発生したときのシナリオのトリガー
 
 * ファイルに対するコメントの投稿または削除
 
-* ファイル、ファイルバージョン履歴、プロジェクトファイル、またはプロジェクトに関するコメントを一覧表示します。
+* ファイル、ファイルのバージョン履歴、プロジェクトファイルまたはプロジェクトに関するコメントのリストアップ。
 
-* ファイル、画像、スタイル、またはコンポーネントを取得する
+* ファイル、画像、スタイルまたはコンポーネントの取得
 
 * Figma API の呼び出し
 
 
-詳しくは、 [図モジュール](../../../workfront-fusion/apps-and-their-modules/figma-modules.md).
+詳しくは、[Figma モジュール](../../../workfront-fusion/apps-and-their-modules/figma-modules.md)を参照してください。
 
-## Workdayコネクタとモジュールが利用可能になりました
+## Workday コネクタおよびモジュールが使用可能に
 
-これで、Adobe Workfront Fusion を使用してWorkdayアカウントに接続できます。 Workdayモジュールを使用すると、次のことができます。
+Adobe Workfront Fusion で Workday アカウントに接続できるようになりました。Workday モジュールを使用すると、以下が可能になります。
 
-* レコードの作成、読み取り、更新、削除
+* レコードを作成、読み取り、更新、削除
 
 * レコードのリストの取得
 
-* Workday API にリクエストを送信する
+* Workday API へのリクエストの実行
 
 
-詳しくは、 [Workdayモジュール](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
+詳しくは、[Workday モジュール](../../../workfront-fusion/apps-and-their-modules/workday-modules.md)を参照してください。
 
-## Adobe Creative Cloud Libraries 接続とモジュールが利用可能
+## Adobe Creative Cloud ライブラリ接続およびモジュールが使用可能に
 
-これで、Adobe Workfront Fusion を使用してAdobe Creative Cloudライブラリに接続できます。 Adobe Creative Cloud Libraries モジュールを使用すると、次の操作を実行できます。
+Adobe Workfront Fusion で Adobe Creative Cloud ライブラリに接続できるようになりました。Adobe Creative Cloud ライブラリモジュールを使用すると、以下が可能になります。
 
-* 要素またはライブラリが作成または更新されたら、シナリオを開始します
+* 要素またはライブラリの作成または更新時のシナリオの開始
 
 * 要素のアップロード、取得またはアーカイブ
 
-* 特定のライブラリ内の要素のリスト
+* 特定ライブラリ内の要素のリストアップ
 
 * カスタム API 呼び出しの実行
 
 
-詳しくは、 [Adobe Creative Cloud Libraries モジュール](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+詳しくは、[Adobe Creative Cloud ライブラリモジュール](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)を参照してください。
 
-## Adobe Target接続とモジュールが利用可能になりました
+## Adobe Target 接続およびモジュールが使用可能に
 
-これで、Adobe Workfront Fusion を使用してAdobe Targetアカウントに接続できます。 Adobe Targetモジュールを使用すると、次のことができます。
+Adobe Workfront Fusion で Adobe Target アカウントに接続できるようになりました。Adobe Target モジュールを使用すると、以下が可能になります。
 
-* アクティビティ、オファー、オーディエンス、プロパティ、レポートなどのレコードの作成、読み取り、更新、削除
+* アクティビティ、オファー、オーディエンス、プロパティ、レポートなどのレコードの作成、読み取り、更新または削除
 
-* 指定したタイプのすべてのレコードをリスト
+* 指定したタイプの全レコードのリストアップ
 
-* 指定した条件に基づいてレコードを検索
+* 指定した条件に基づくレコードの検索
 
 * カスタム API 呼び出しの実行
 
 
-詳しくは、 [Adobe Targetモジュール](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).
+詳しくは、[Adobe Target モジュール](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)を参照してください。
