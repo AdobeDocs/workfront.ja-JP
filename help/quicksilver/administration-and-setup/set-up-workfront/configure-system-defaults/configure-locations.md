@@ -7,7 +7,8 @@ description: Adobe Workfront 管理者は、評価カードで担当業務の割
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
 source-wordcount: '221'
 ht-degree: 100%
@@ -60,4 +61,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >評価カード上の担当業務に関連付けられている場所は削除できません。
-
