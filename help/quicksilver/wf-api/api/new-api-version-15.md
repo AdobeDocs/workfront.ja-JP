@@ -2,41 +2,41 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 15 の新機能
-description: Adobe Workfrontは、2022 年 6 月 14 日に API バージョン 14 をリリースしました。 API バージョン 15 では、バージョン 14 から次の変更がおこなわれました。
+description: Adobe Workfront は、2022年6月14日（PT）に API バージョン 14 をリリースしました。API バージョン 15 では、バージョン 14 から以下の変更が行われました。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
-workflow-type: tm+mt
-source-wordcount: '2349'
-ht-degree: 3%
+workflow-type: ht
+source-wordcount: '2286'
+ht-degree: 100%
 
 ---
 
 # API バージョン 15 の新機能
 
-Adobe Workfrontは、2022 年 6 月 14 日に API バージョン 15 をリリースしました。 API バージョン 15 では、バージョン 14 から次の変更がおこなわれました。
+Adobe Workfront は、2022年6月14日（PT）に API バージョン 15 をリリースしました。API バージョン 15 では、バージョン 14 から以下の変更が行われました。
 
 ## 追加されたリソース
 
-* [イニシアチブ (INITIV)](#Initiati)
+* [イニシアチブ（INITIV）](#Initiati)
 
-* [IssueDef (ISSDEF)](#IssueDef)
+* [IssueDef（ISSDEF）](#IssueDef)
 
-* [ObjectIntegration (OBJINT)](#ObjectIn)
+* [ObjectIntegration（OBJINT）](#ObjectIn)
 
-* [RichTextGroupParameterValue (GRCVAL)](#RichText)
+* [RichTextGroupParameterValue（GRCVAL）](#RichText)
 
-* [TaskDef (TSKDEF)](#TaskDef)
+* [TaskDef（TSKDEF）](#TaskDef)
 
-* [UserApproval (USRAPV)](#UserAppr)
+* [UserApproval（USRAPV）](#UserAppr)
 
-### イニシアチブ (INITIV)
+### イニシアチブ（INITIV）
 
-Initiative オブジェクトは、Workfrontシナリオプランナに、ジョブの役割の種類と数、固定コスト、および計画福利厚生に関する見積もりを作成します。
+イニシアチブオブジェクトは、担当業務の種類と数、固定コスト、予定利益の見積もりを Workfront シナリオプランナーに作成します。
 
-イニシアチブの詳細については、 [シナリオプランナーのイニシアチブの概要](../../scenario-planner/initiatives-overview.md).
+イニシアチブについて詳しくは、[シナリオプランナーのイニシアチブの概要](../../scenario-planner/initiatives-overview.md)を参照してください。
 
 <table>
   <col/>
@@ -54,17 +54,17 @@ Initiative オブジェクトは、Workfrontシナリオプランナに、ジョ
           <li>
             <p><b>期間</b>
             </p>
-            <p>endDate と startDate の間の時間です。</p>
+            <p>endDate と startDate の間の時間数。</p>
           </li>
           <li>
             <p><b>endDate</b>
             </p>
-            <p>イニシアチブの計画完了日。</p>
+            <p>イニシアチブの予定完了日。</p>
           </li>
           <li>
-            <p><b>enteriedByID</b>
+            <p><b>enteredByID</b>
             </p>
-            <p>要求を送信したユーザーに関連付けられた ID。</p>
+            <p>リクエストを送信したユーザーに関連付けられた ID。</p>
           </li>
           <li>
             <p><b>ID</b>
@@ -74,12 +74,12 @@ Initiative オブジェクトは、Workfrontシナリオプランナに、ジョ
           <li>
             <p><b>initiativeID</b>
             </p>
-            <p>イニシアチブに関連付けられている ID。</p>
+            <p>イニシアチブに関連付けられた ID。</p>
           </li>
           <li>
             <p><b>lastPublishedDate</b>
             </p>
-            <p>イニシアチブがWorkfrontシナリオプランナーで最後に公開された日付。</p>
+            <p>イニシアチブが Workfront シナリオプランナーで最後に公開された日付。</p>
           </li>
           <li>
             <p><b>name</b>
@@ -104,12 +104,12 @@ Initiative オブジェクトは、Workfrontシナリオプランナに、ジョ
           <li>
             <p><b>scenarioID</b>
             </p>
-            <p>イニシアチブに関連付けられたWorkfrontシナリオプランナーのシナリオの ID。</p>
+            <p>イニシアチブに関連付けられた Workfront シナリオプランナーのシナリオの ID。</p>
           </li>
           <li>
             <p><b>startDate</b>
             </p>
-            <p>イニシアチブの計画開始日。</p>
+            <p>イニシアチブの予定開始日。</p>
           </li>
         </ul>
       </td>
@@ -153,7 +153,7 @@ Initiative オブジェクトは、Workfrontシナリオプランナに、ジョ
       </td>
     </tr>
     <tr>
-      <td role="rowheader">オペレーション</td>
+      <td role="rowheader">操作</td>
       <td>
         <ul>
           <li>
@@ -161,15 +161,15 @@ Initiative オブジェクトは、Workfrontシナリオプランナに、ジョ
             </p>
           </li>
           <li>
-            <p><b>GET</b>
+            <p><b>取得</b>
             </p>
           </li>
           <li>
-            <p><b>レポート </b>
+            <p><b>レポート</b>
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>検索</b>
             </p>
           </li>
         </ul>
@@ -178,9 +178,9 @@ Initiative オブジェクトは、Workfrontシナリオプランナに、ジョ
   </tbody>
 </table>
 
-### IssueDef (ISSDEF)
+### IssueDef（ISSDEF）
 
-IssueDef オブジェクトは、問題の形式に関する一連のデータを表します。 このオブジェクトは、プロジェクトまたはテンプレートに添付でき、そのプロジェクトまたはテンプレートに追加される問題に影響を与えます。
+IssueDef オブジェクトは、イシューの形式に関する一連のデータを表します。このオブジェクトは、プロジェクトやテンプレートに添付でき、そのプロジェクトやテンプレートに追加されるイシューに影響を与えます。
 
 <table>
   <col/>
@@ -219,9 +219,9 @@ IssueDef オブジェクトは、問題の形式に関する一連のデータ�
   </tbody>
 </table>
 
-### ObjectIntegration (OBJINT)
+### ObjectIntegration（OBJINT）
 
-場合によっては、Workfrontの作業項目を外部のソフトウェア製品のオブジェクトに直接リンクさせることができます。 ObjectIntegration オブジェクトは、このリンクを表します。
+場合によっては、Workfront の作業アイテムを、外部ソフトウェア製品のオブジェクトに直接リンクすることができます。ObjectIntegration オブジェクトは、このリンクを表します。
 
 <table>
   <col/>
@@ -239,26 +239,26 @@ IssueDef オブジェクトは、問題の形式に関する一連のデータ�
           <li>
             <p><b>entryDate</b>
             </p>
-            <p>ObjectIntegration がWorkfront System に入力された日時。</p>
+            <p>ObjectIntegration がWorkfront システムに入力された日時。</p>
           </li>
           <li>
             <p><b>ID</b>
             </p>
-            <p>特定の ObjectIntegration オブジェクトの一意のWorkfront ID。</p>
+            <p>特定の ObjectIntegration オブジェクトの一意の Workfront ID。</p>
           </li>
           <li>
             <p><b>integrationType</b>
             </p>
-            <p>ObjectIntegration オブジェクトがリンクを作成する外部ソフトウェア。 次の値を指定できます。</p>
+            <p>ObjectIntegration オブジェクトがリンクを作成する外部ソフトウェア。次の値を指定できます。</p>
             <ul>
               <li>
-                <p>JIRA</p>
+                <p>Jira</p>
               </li>
               <li>
-                <p>SALESFORCE</p>
+                <p>Salesforce</p>
               </li>
               <li>
-                <p>アナプラン</p>
+                <p>Anaplan</p>
               </li>
             </ul>
           </li>
@@ -269,12 +269,12 @@ IssueDef オブジェクトは、問題の形式に関する一連のデータ�
           <li>
             <p><b>objID</b>
             </p>
-            <p>ObjectIntegration が関連付けられているWorkfront内のオブジェクト。</p>
+            <p>ObjectIntegration が関連付けられた Workfront 内のオブジェクト。</p>
           </li>
           <li>
             <p><b>objObjCode</b>
             </p>
-            <p>ObjectIntegration が関連付けられているWorkfront内のオブジェクトのオブジェクトコード。</p>
+            <p>ObjectIntegration が関連付けられた Workfront 内のオブジェクトのオブジェクトコード。</p>
           </li>
           <li>
             <p><b>param1</b>
@@ -323,9 +323,9 @@ IssueDef オブジェクトは、問題の形式に関する一連のデータ�
   </tbody>
 </table>
 
-### TaskDef (TSKDEF)
+### TaskDef（TSKDEF）
 
-TaskDef オブジェクトは、タスクの形式に関する一連のデータを表します。 このオブジェクトは、プロジェクトまたはテンプレートにアタッチでき、そのプロジェクトまたはテンプレートに追加されるタスクに影響を与えます。
+TaskDef オブジェクトは、タスクの形式に関する一連のデータを表します。このオブジェクトは、プロジェクトやテンプレートに添付でき、そのプロジェクトやテンプレートに追加されるタスクに影響を与えます。
 
 <table>
   <col/>
@@ -336,7 +336,7 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
       <td>
         <ul>
           <li>
-            <p><b>autoCalcPlannedHours </b>
+            <p><b>autoCalcPlannedHours</b>
             </p>
           </li>
           <li>
@@ -351,7 +351,7 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
       <td >
         <ul>
           <li>
-            <p><b>defaultApprovalProcess </b>
+            <p><b>defaultApprovalProcess</b>
             </p>
           </li>
         </ul>
@@ -387,7 +387,7 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
   </tbody>
 </table>
 
-### UserApproval (USRAPV)
+### UserApproval（USRAPV）
 
 <table>
   <col/>
@@ -433,19 +433,19 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
       <td >
         <ul>
           <li>
-            <p><b>承認者</b>
+            <p><b>approver</b>
             </p>
           </li>
           <li>
-            <p><b>顧客</b>
+            <p><b>customer</b>
             </p>
           </li>
           <li>
-            <p><b>要求者</b>
+            <p><b>requestor</b>
             </p>
           </li>
           <li>
-            <p><b>ユーザー</b>
+            <p><b>user</b>
             </p>
           </li>
         </ul>
@@ -498,14 +498,14 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
             </p>
           </li>
           <li>
-            <p><b>却下する</b>
+            <p><b>却下</b>
             </p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">オペレーション</td>
+      <td role="rowheader">操作</td>
       <td>
         <ul>
           <li>
@@ -517,19 +517,19 @@ TaskDef オブジェクトは、タスクの形式に関する一連のデータ
             </p>
           </li>
           <li>
-            <p><b>DELETE</b>
+            <p><b>削除</b>
             </p>
           </li>
           <li>
-            <p><b>GET</b>
+            <p><b>取得</b>
             </p>
           </li>
           <li>
-            <p><b>レポート</b>
+            <p><b>REPORT</b>
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>検索</b>
             </p>
           </li>
         </ul>
@@ -544,67 +544,67 @@ API バージョン 15 ではリソースが削除されませんでした。
 
 ## 変更されたリソース
 
-* [AccessLevel (ACSLVL)](#AccessLe)
+* [AccessLevel（ACSLVL）](#AccessLe)
 
-* [AccessLevelPermissions (ALVPER)](#AccessLe2)
+* [AccessLevelPermissions（ALVPER）](#AccessLe2)
 
-* [AccessRequest (ACSREQ)](#AccessRe)
+* [AccessRequest（ACSREQ）](#AccessRe)
 
-* [アクセス規則 (ACSRUL)](#AccessRu)
+* [AccessRule（ACSRUL）](#AccessRu)
 
-* [承認（承認）](#Approval)
+* [Approval（APPROVAL）](#Approval)
 
-* [カテゴリ (CTGY)](#Category)
+* [Category（CTGY）](#Category)
 
-* [CategoryParameter (CTGYPA)](#Category2)
+* [CategoryParameter（CTGYPA）](#Category2)
 
-* [顧客の環境設定 (CUSTPR)](#Customer)
+* [CustomerPreferences（CUSTPR）](#Customer)
 
-* [DocumentFolder (DOCFDR)](#Document)
+* [DocumentFolder（DOCFDR）](#Document)
 
-* [DocumentVersion (DOCV)](#Document2)
+* [DocumentVersion（DOCV）](#Document2)
 
-* [グループ (GROUP)](#Group)
+* [グループ（GROUP）](#Group)
 
-* [ジャーナルエントリ (JRNEL)](#JournalE)
+* [JournalEntry（JRNLE）](#JournalE)
 
 * [LinkedFolder (LNKFDR)](#LinkedFo)
 
-* [オペタスク/問題 (OPTASK)](#OpTask)
+* [OpTask / Issue（OPTASK）](#OpTask)
 
-* [パラメータ (PARAM)](#Paramete)
+* [Parameter（PARAM）](#Paramete)
 
-* [Portfolio（ポート）](#Portfoli)
+* [Portfolio（PORT）](#Portfoli)
 
-* [プログラム (PRGM)](#Program)
+* [Program（PRGM）](#Program)
 
-* [プロジェクト (PROJ)](#Project)
+* [Project（PROJ）](#Project)
 
-* [QueueDef (QUED)](#QueueDef)
+* [QueueDef（QUED）](#QueueDef)
 
-* [ScoreCardQuestion (SCOREQ)](#ScoreCar)
+* [ScoreCardQuestion（SCOREQ）](#ScoreCar)
 
-* [タスク (TASK)](#Task)
+* [Task（TASK）](#Task)
 
-* [テンプレート (TMPL)](#Template)
+* [Template（TMPL）](#Template)
 
-* [タイムシート (TSHET)](#Timeshee)
+* [Timesheet（TSHET）](#Timeshee)
 
-* [表示 (UIVIEW)](#View)
+* [View（UIVIEW）](#View)
 
-* [更新（更新）](#Update)
+* [Update（UPDATE）](#Update)
 
-* [ユーザー (USER)](#User)
+* [User （USER）](#User)
 
-* [UserNote (USRNOT)](#UserNote)
+* [UserNote（USRNOT）](#UserNote)
 
-* [作業（作業）](#Work)
+* [Work（WORK）](#Work)
 
-### AccessLevel (ACSLVL)
+### AccessLevel（ACSLVL）
 
-AccessLevel オブジェクトは、ユーザーに関連付けられ、ユーザーがアクセスできる AccessLevelPermissions のセットを表します。
+AccessLevel オブジェクトはユーザーに関連付けられていて、ユーザーのアクセス権を指定する AccessLevelPermissions のセットを表します。
 
-アクセスレベルの詳細については、 [アクセスレベル](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+アクセスレベルについて詳しくは、[アクセスレベル](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)を参照してください。
 
 <table>
   <col/>
@@ -615,14 +615,14 @@ AccessLevel オブジェクトは、ユーザーに関連付けられ、ユー�
       <td>
         <ul>
           <li>
-            <p><b>fieldAccessPrivileges</b> (string[])</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>fieldAccessPrivileges</b>（string[]）</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>VTMAWMG （自分のグループに関連付けられたチームを表示）</p>
+                <p>VTMAWMG（自分のグループと関連付けられたチームを表示）</p>
               </li>
               <li>
-                <p>VALLTM （すべてのチームを表示）</p>
+                <p>VALLTM（すべてのチームを表示）</p>
               </li>
             </ul>
           </li>
@@ -632,9 +632,9 @@ AccessLevel オブジェクトは、ユーザーに関連付けられ、ユー�
   </tbody>
 </table>
 
-### AccessLevelPermissions (ALVPER)
+### AccessLevelPermissions（ALVPER）
 
-AccessLevelPermissions オブジェクトは、Workfrontオブジェクトにアクセス、作成、または変更するための特定の権限を表します。 これらの権限は、アクセスレベルに関連付けることができます。
+AccessLevelPermissions オブジェクトは、Workfront オブジェクトにアクセス、作成または変更を行うための特定の権限を表します。これらの権限は、アクセスレベルに関連付けることができます。
 
 <table>
   <col/>
@@ -645,38 +645,38 @@ AccessLevelPermissions オブジェクトは、Workfrontオブジェクトにア
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b> (string[])</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>coreAction</b>（string[]）</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b> (string[])</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>forbiddenActions</b>（string[]）</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>secondaryActions</b> (string[])</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>secondaryActions</b>（string[]）</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
@@ -686,9 +686,9 @@ AccessLevelPermissions オブジェクトは、Workfrontオブジェクトにア
   </tbody>
 </table>
 
-### AccessRequest (ACSREQ)
+### AccessRequest（ACSREQ）
 
-ユーザーが必要なWorkfront内のオブジェクトへのアクセス権を持っていない場合、そのオブジェクトへのアクセス権をリクエストできます。 AccessRequest オブジェクトは、このリクエストを表します。
+Workfront のオブジェクトに対する必要なアクセス権をユーザーが持っていない場合、そのオブジェクトへの利用申請を行うことができます。AccessRequest オブジェクトは、このリクエストを表します。
 
 <table>
   <col/>
@@ -699,20 +699,20 @@ AccessLevelPermissions オブジェクトは、Workfrontオブジェクトにア
       <td>
         <ul>
           <li>
-            <p><b>アクション</b> （文字列）</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>action</b>（string）</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>autoShareAction</b> （文字列）</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>autoShareAction</b>（文字列）</p>
+            <p>次の値を追加しました。</p>
             <ul>
               <li>
                 <p>WDL</p>
@@ -725,9 +725,9 @@ AccessLevelPermissions オブジェクトは、Workfrontオブジェクトにア
   </tbody>
 </table>
 
-### アクセス規則 (ACSRUL)
+### AccessRule（ACSRUL）
 
-AccessRule オブジェクトは、ユーザーが作成したプロジェクトを共有する方法を決定するカスタムアクセスレベルのルールセットを表します。
+AccessRule オブジェクトは、作成したプロジェクトをユーザーが共有する方法を決定する、カスタムアクセスレベルのルールセットを表します。
 
 <table>
   <col/>
@@ -738,38 +738,38 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b> (string[])</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>coreAction</b>（string[]）</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b> (string[])</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>forbiddenActions</b>（string[]）</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>secondaryActions</b> (string[])</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>secondaryActions</b>（string[]）</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
@@ -779,9 +779,9 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
   </tbody>
 </table>
 
-### 承認（承認）
+### Approval（APPROVAL）
 
-タスク、ドキュメント、タイムシートなどの特定の作業項目に対しては、管理者や他のユーザーが作業項目に対してサインオフする必要が生じる場合があります。 Approval オブジェクトは、作業項目に対するサインオフの操作を表します。
+タスク、ドキュメント、タイムシートなどの所定の作業アイテムは、上司または他のユーザーが承認することが必要な場合があります。承認オブジェクトは、作業アイテムに対する承認の操作を表します。
 
 <table>
   <col/>
@@ -805,18 +805,18 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
           <li>
             <p><b>イニシアチブ</b>
             </p>
-            <p>追加済み.</p>
-            <p>Initiative オブジェクトは、Workfrontシナリオプランナに、ジョブの役割の種類と数、固定コスト、および計画福利厚生に関する見積もりを作成します。 </p>
+            <p>追加済み。</p>
+            <p>イニシアチブオブジェクトは、担当業務の種類と数、固定コスト、予定利益の見積もりを Workfront シナリオプランナーに作成します。 </p>
           </li>
           <li>
             <p><b>issueDef</b>
             </p>
-            <p>追加済み.</p>
+            <p>追加済み。</p>
           </li>
           <li>
             <p><b>taskDef</b>
             </p>
-            <p>追加済み.</p>
+            <p>追加済み。</p>
           </li>
         </ul>
       </td>
@@ -829,8 +829,8 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
             <p style="font-weight: bold;"><b>objectIntegrations
 </b>
             </p>
-            <p style="font-weight: normal;">追加済み.</p>
-            <p>場合によっては、Workfrontの作業項目を外部のソフトウェア製品のオブジェクトに直接リンクさせることができます。 ObjectIntegration オブジェクトは、このリンクを表します。</p>
+            <p style="font-weight: normal;">追加済み。</p>
+            <p>場合によっては、Workfront の作業アイテムを、外部ソフトウェア製品のオブジェクトに直接リンクすることができます。ObjectIntegration オブジェクトは、このリンクを表します。</p>
           </li>
         </ul>
       </td>
@@ -838,9 +838,9 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
   </tbody>
 </table>
 
-### カテゴリ (CTGY)
+### Category（CTGY）
 
-Category オブジェクトはカスタムフォームです。
+カテゴリオブジェクトはカスタムフォームです。
 
 <table>
   <col/>
@@ -851,20 +851,20 @@ Category オブジェクトはカスタムフォームです。
       <td>
         <ul>
           <li>
-            <p><b>catObjCode</b> （文字列）</p>
-            <p>次の可能な値が追加されました。</p>
+            <p><b>catObjCode</b>（文字列）</p>
+            <p>次の値を追加しました。</p>
             <ul>
               <li>
-                <p>グループ（グループ）</p>
+                <p>GROUP（グループ）</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>objTypes</b> (string[])</p>
-            <p>追加済み.</p>
-            <p style="font-weight: normal;">このパラメーターは、カスタムフォームを添付できるオブジェクトの配列です。 複数のタイプのオブジェクトにカスタムフォームを添付する機能をサポートするために追加されました。</p>
-            <p>可能な値： </p>
-            <p>CMPY, PORT, PRGM, PROJ, TASK, OPTASK, USER, DOCU, EXPNS, ITRN, BILL, GROUP</p>
+            <p><b>objTypes</b>（文字列 []）</p>
+            <p>追加済み。</p>
+            <p style="font-weight: normal;">このパラメーターは、カスタムフォームを添付できるオブジェクトの配列です。カスタムフォームを複数のタイプのオブジェクトに添付する機能をサポートするために追加されました。</p>
+            <p>使用可能な値を以下に示します。 </p>
+            <p>CMPY、PORT、PRGM、PROJ、TASK、OPTASK、USER、DOCU、EXPNS、ITRN、BILL、GROUP</p>
           </li>
         </ul>
       </td>
@@ -874,11 +874,11 @@ Category オブジェクトはカスタムフォームです。
       <td>
         <ul>
           <li>
-            <p><b>objTypes</b> (string[])</p>
-            <p>追加済み.</p>
-            <p style="font-weight: normal;">このパラメーターは、カスタムフォームを添付できるオブジェクトの配列です。 複数のタイプのオブジェクトにカスタムフォームを添付する機能をサポートするために追加されました。</p>
-            <p>可能な値： </p>
-            <p>CMPY, PORT, PRGM, PROJ, TASK, OPTASK, USER, DOCU, EXPNS, ITRN, BILL, GROUP</p>
+            <p><b>objTypes</b>（string[]）</p>
+            <p>追加済み。</p>
+            <p style="font-weight: normal;">このパラメーターは、カスタムフォームを添付できるオブジェクトの配列です。カスタムフォームを複数のタイプのオブジェクトに添付する機能をサポートするために追加されました。</p>
+            <p>使用可能な値を以下に示します。 </p>
+            <p>CMPY、PORT、PRGM、PROJ、TASK、OPTASK、USER、DOCU、EXPNS、ITRN、BILL、GROUP</p>
           </li>
         </ul>
       </td>
@@ -886,7 +886,7 @@ Category オブジェクトはカスタムフォームです。
   </tbody>
 </table>
 
-### CategoryParameter (CTGYPA)
+### CategoryParameter（CTGYPA）
 
 <table>
   <col/>
@@ -899,17 +899,17 @@ Category オブジェクトはカスタムフォームです。
           <li>
             <p><b>hideFormulaFromDescription</b>
             </p>
-            <p>追加済み.</p>
+            <p>追加済み。</p>
           </li>
           <li>
             <p><b>journaledObjCodes</b>
             </p>
-            <p>追加済み.</p>
+            <p>追加済み。</p>
           </li>
           <li>
             <p><b>rawCustomExpression</b>
             </p>
-            <p>追加済み.</p>
+            <p>追加済み。</p>
           </li>
         </ul>
       </td>
@@ -917,9 +917,9 @@ Category オブジェクトはカスタムフォームです。
   </tbody>
 </table>
 
-### 顧客の環境設定 (CUSTPR)
+### CustomerPreferences（CUSTPR）
 
-CustomerPreferences オブジェクトは、Workfrontのインスタンスに対して顧客が設定した一連の環境設定を表します。
+CustomerPreferences オブジェクトは、Workfront のインスタンスに対して顧客が設定した一連の環境設定を表します。
 
 <table>
   <col/>
@@ -932,17 +932,17 @@ CustomerPreferences オブジェクトは、Workfrontのインスタンスに対
           <li>
             <p><b>name</b>
             </p>
-            <p>次の値が追加されました。</p>
+            <p>以下の値を追加しました。</p>
             <ul>
               <li>
-                <p><code>password:sharePointV2IntegrationEnabled</code> (SharePoint (Graph API) 統合が有効)</p>
-                <p>この値は、更新された SharePoint 統合をサポートします。</p>
+                <p><code>password:sharePointV2IntegrationEnabled</code> （SharePoint（Graph API）統合が有効）</p>
+                <p>この値は、アップデートされた SharePoint 統合をサポートします。</p>
               </li>
               <li>
-                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (ユーザーがテンプレートを使用せずにプロジェクトを作成することを許可)</p>
+                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> （ユーザーがテンプレートを使用せずにプロジェクトを作成することを許可）</p>
               </li>
               <li>
-                <p><code>project.mgmt:taskissue.delegate</code> (config.taskissue.delegate)</p>
+                <p><code>project.mgmt:taskissue.delegate</code> （config.taskissue.delegate）</p>
               </li>
             </ul>
           </li>
@@ -952,17 +952,17 @@ CustomerPreferences オブジェクトは、Workfrontのインスタンスに対
   </tbody>
 </table>
 
-### DocumentFolder (DOCFDR)
+### DocumentFolder（DOCFDR）
 
-ドキュメントはフォルダに整理できます。 個人用ドキュメント領域に個人用フォルダを作成できます。 DocumentFolder オブジェクトは、これらのフォルダの 1 つを表します。
+ドキュメントをフォルダーに整理できます。個人用ドキュメントエリアに個人用フォルダーを作成できます。DocumentFolder オブジェクトは、これらのフォルダーのうちの 1 つを表します。
 
-DocumentFolder オブジェクトにフラグが追加されました `SHARABLE`.
+DocumentFolder オブジェクトにフラグ `SHARABLE` が追加されました。
 
-### DocumentVersion (DOCV)
+### DocumentVersion（DOCV）
 
 DocumentVersion オブジェクトは、ファイルの特定のバージョン（書き込まれた資料、画像、その他の形式の情報など）を表します。
 
-ドキュメントのバージョンについて詳しくは、 [新しいバージョンのドキュメントをアップロード](../../documents/managing-documents/upload-new-document-version.md).
+ドキュメントのバージョンについて詳しくは、[新しいバージョンのドキュメントをアップロード](../../documents/managing-documents/upload-new-document-version.md)を参照してください。
 
 <table>
   <col/>
@@ -978,8 +978,8 @@ DocumentVersion オブジェクトは、ファイルの特定のバージョン�
             <p>次の値が追加されました。 </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API))</p>
-                <p>この値は、更新された SharePoint 統合をサポートします。</p>
+                <p><code>SHAREPOINT_V2</code> （SharePoint（Graph API））</p>
+                <p>この値は、アップデートされた SharePoint 統合をサポートします。</p>
               </li>
             </ul>
           </li>
@@ -989,13 +989,13 @@ DocumentVersion オブジェクトは、ファイルの特定のバージョン�
   </tbody>
 </table>
 
-### グループ (GROUP)
+### グループ（GROUP）
 
-Group オブジェクトは、一連のユーザーとチームを表します。 グループは、多くの場合、部門の構造を表します。
+グループオブジェクトは、一連のユーザーとチームを表します。グループは、多くの場合、部門の構造を表します。
 
 グループについて詳しくは、グループとチームを参照してください。
 
-Group オブジェクトにフラグが追加されました `DATA_EXTENDIBLE`
+Group オブジェクトにフラグ `DATA_EXTENDIBLE` が追加されました
 
 <table>
   <col/>
@@ -1004,17 +1004,17 @@ Group オブジェクトにフラグが追加されました `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">直接フィールド</td>
       <td>
-        <p>次のフィールドが追加されました。</p>
+        <p>以下のフィールドが追加されました。</p>
         <ul>
           <li>
             <p><b>categoryID</b>
             </p>
-            <p>カテゴリはカスタムフォームです。 このパラメーターは、カスタムFormsをグループオブジェクトに追加する機能をサポートするために追加されました。 </p>
+            <p>カテゴリはカスタムフォームです。このパラメーターは、カスタムフォームを Group オブジェクトに追加する機能をサポートするために追加されました。 </p>
           </li>
           <li>
             <p><b>isActive</b>
             </p>
-            <p>オブジェクトが Active の場合は値 true を持ち、そうでない場合は false を持つブール型パラメータです。 [ アクティブ ] に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトにアタッチできます。</p>
+            <p>オブジェクトが Active の場合は値 true を持ち、そうでない場合は false を持つブーリアン型パラメーターです。「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。</p>
           </li>
         </ul>
       </td>
@@ -1022,22 +1022,22 @@ Group オブジェクトにフラグが追加されました `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">参照フィールド</td>
       <td >
-        <p>次のフィールドが追加されました。</p>
+        <p>以下のフィールドが追加されました。</p>
         <ul>
           <li>
-            <p><b>承認者</b>
+            <p><b>approver</b>
             </p>
           </li>
           <li>
-            <p><b>顧客</b>
+            <p><b>customer</b>
             </p>
           </li>
           <li>
-            <p><b>要求者</b>
+            <p><b>requestor</b>
             </p>
           </li>
           <li>
-            <p><b>ユーザー</b>
+            <p><b>user</b>
             </p>
           </li>
         </ul>
@@ -1046,7 +1046,7 @@ Group オブジェクトにフラグが追加されました `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">コレクションフィールド</td>
       <td>
-        <p>次のフィールドが追加されました。</p>
+        <p>以下のフィールドが追加されました。</p>
         <ul>
           <li>
             <p><b>objectCategories</b>
@@ -1055,7 +1055,7 @@ Group オブジェクトにフラグが追加されました `DATA_EXTENDIBLE`
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>場合によっては、Workfrontの作業項目を外部のソフトウェア製品のオブジェクトに直接リンクさせることができます。 ObjectIntegration オブジェクトは、このリンクを表します。</p>
+            <p>場合によっては、Workfront の作業アイテムを、外部ソフトウェア製品のオブジェクトに直接リンクすることができます。ObjectIntegration オブジェクトは、このリンクを表します。</p>
           </li>
         </ul>
       </td>
@@ -1068,7 +1068,7 @@ Group オブジェクトにフラグが追加されました `DATA_EXTENDIBLE`
           <li>
             <p><b>isActive</b>
             </p>
-            <p>オブジェクトが Active の場合は値 true を持ち、そうでない場合は false を持つブール型パラメータです。 [ アクティブ ] に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトにアタッチできます。</p>
+            <p>オブジェクトが Active の場合は値 true を持ち、そうでない場合は false を持つブーリアン型パラメーターです。「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。</p>
           </li>
         </ul>
       </td>
@@ -1076,12 +1076,12 @@ Group オブジェクトにフラグが追加されました `DATA_EXTENDIBLE`
     <tr>
       <td role="rowheader">アクション</td>
       <td>
-        <p>次のフィールドが追加されました。</p>
+        <p>以下のフィールドが追加されました。</p>
         <ul>
           <li>
             <p><b>calculateDataExtension</b>
             </p>
-            <p>この操作により、カスタムフォームフィールドの式が再計算されます。</p>
+            <p>このアクションにより、カスタムフォームフィールドの式が再計算されます。</p>
           </li>
           <li>
             <p><b>completeGroupInfo</b>
@@ -1101,9 +1101,9 @@ Group オブジェクトにフラグが追加されました `DATA_EXTENDIBLE`
   </tbody>
 </table>
 
-### ジャーナルエントリ (JRNEL)
+### JournalEntry（JRNLE）
 
-JournalEntry オブジェクトを設定して、特定のオブジェクトフィールドに関する情報を、それらのフィールドが変更されたときに記録することができます。 フィールドを Journal Entry オブジェクトの一部としてログに記録するように設定すると、そのフィールドを変更するたびに対応する Journal Entry が作成されます。
+JournalEntry オブジェクトを設定して、特定のオブジェクトフィールドに関する情報を、それらのフィールドが変更されたときに記録することができます。フィールドをジャーナルエントリオブジェクトの一部としてログに記録するように設定すると、そのフィールドが変更されるたびに、対応するジャーナルエントリが作成されます。
 
 <table>
   <col/>
@@ -1117,7 +1117,7 @@ JournalEntry オブジェクトを設定して、特定のオブジェクトフ�
         <p>次の値が追加されました。 </p>
         <ul>
           <li>
-            <p>DW （ダウンロード）</p>
+            <p>DW（Download）</p>
           </li>
         </ul>
       </td>
@@ -1127,9 +1127,9 @@ JournalEntry オブジェクトを設定して、特定のオブジェクトフ�
 
 ### LinkedFolder (LNKFDR)
 
-LinkedFolder オブジェクトは、Google Drive やDropboxなど、外部のドキュメントプロバイダからリンクされたフォルダを表します。
+LinkedFolder オブジェクトは、Google Drive や Dropbox など、外部のドキュメントプロバイダからリンクされたフォルダーを表します。
 
-リンクされたフォルダの詳細については、「外部アプリケーションからドキュメントをリンクする」を参照してください。
+リンクされたフォルダについて詳しくは、外部アプリケーションからドキュメントをリンクを参照してください。
 
 <table>
   <col/>
@@ -1145,8 +1145,8 @@ LinkedFolder オブジェクトは、Google Drive やDropboxなど、外部の�
             <p>次の値が追加されました。 </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API))</p>
-                <p>この値は、更新された SharePoint 統合をサポートします。</p>
+                <p><code>SHAREPOINT_V2</code> （SharePoint（Graph API））</p>
+                <p>この値は、アップデートされた SharePoint 統合をサポートします。</p>
               </li>
             </ul>
           </li>
@@ -1156,9 +1156,9 @@ LinkedFolder オブジェクトは、Google Drive やDropboxなど、外部の�
   </tbody>
 </table>
 
-### オペタスク/問題 (OPTASK)
+### OpTask / Issue（OPTASK）
 
-OpTask オブジェクトは、一般にイシューと呼ばれます。 問題とは、通常、タスクまたはプロジェクトを完了できない問題があることを示す作業項目です。 問題は、ヘルプデスクへのリクエストでもかまいません。 変更管理、要求、バグも問題です。
+OpTask オブジェクトは、一般にイシューと呼ばれます。イシューは、通常、タスクまたはプロジェクトを完了できない問題があることを示す作業アイテムです。イシューは、ヘルプデスクへのリクエストである場合もあります。変更指示、リクエスト、バグもイシューです。
 
 <table>
   <col/>
@@ -1167,7 +1167,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
     <tr>
       <td role="rowheader">アクション</td>
       <td>
-        <p>次のアクションが追加されました。</p>
+        <p>以下のアクションが追加されました。</p>
         <ul>
           <li>
             <p><b>bulkMoveWithOptions</b>
@@ -1178,12 +1178,12 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
             </p>
           </li>
         </ul>
-        <p>次のアクションが変更されました：</p>
+        <p>次のアクションが変更されました。</p>
         <ul>
           <li>
             <p><b>copyIssue</b>
             </p>
-            <p>追加されたフィールド <code>parentID</code></p>
+            <p>フィールドが追加されました <code>parentID</code></p>
           </li>
         </ul>
       </td>
@@ -1191,9 +1191,9 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
   </tbody>
 </table>
 
-### パラメータ (PARAM)
+### Parameter（PARAM）
 
-Parameter オブジェクトは、カスタムフィールドです。
+パラメーターオブジェクトは、カスタムフィールドです。
 
 <table>
   <col/>
@@ -1209,18 +1209,18 @@ Parameter オブジェクトは、カスタムフィールドです。
             </p>
           </li>
         </ul>
-        <p>次のフィールドが変更されました：</p>
+        <p>次のフィールドが変更されました。</p>
         <ul>
           <li>
             <p><b>dataType</b>
             </p>
-            <p>可能な値を追加しました。 <code>WIDGET </code>（ウィジェット） </p>
+            <p>使用可能な値 <code>WIDGET </code>（ウィジェット）を追加しました </p>
             <p>この値は、カスタムフォームでの画像の使用をサポートします。</p>
           </li>
           <li>
             <p><b>displayType</b>
             </p>
-            <p>可能な値を追加しました。 <code>WIDGET </code>（ウィジェット）</p>
+            <p>使用可能な値 <code>WIDGET </code>（ウィジェット）を追加しました</p>
             <p>この値は、カスタムフォームでの画像の使用をサポートします。</p>
           </li>
         </ul>
@@ -1229,46 +1229,9 @@ Parameter オブジェクトは、カスタムフィールドです。
   </tbody>
 </table>
 
-### Portfolio（ポート）
+### Portfolio（PORT）
 
-Portfolioオブジェクトとは、同じリソース、通常は費用や担当者を競い合って完了するプロジェクトの集まりです。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">コレクションフィールド</td>
-      <td>
-        <ul>
-          <li>
-            <p><b>objectIntegrations</b>
-            </p>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">アクション</td>
-      <td>
-        <ul>
-          <li>
-            <p><b>linkExternalObject</b>
-            </p>
-          </li>
-          <li>
-            <p><b>unlinkExternalObject</b>
-            </p>
-          </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-### プログラム (PRGM)
-
-Program オブジェクトは、ポートフォリオ内のプロジェクトのサブセットで、類似のプロジェクトを 1 つにグループ化できます。
+ポートフォリオオブジェクトは、同じリソース（通常はプロジェクトを完了するための資金や人材）を競い合って完了するプロジェクトのコレクションです。
 
 <table>
   <col/>
@@ -1303,9 +1266,46 @@ Program オブジェクトは、ポートフォリオ内のプロジェクトの
   </tbody>
 </table>
 
-### プロジェクト (PROJ)
+### Program（PRGM）
 
-プロジェクトはWorkfront内の作業項目で、Workfrontが作業をおこなう際に役立つ主要な構成要素です。 Project オブジェクトは、共通の特定の目標を持つタスクのグループを表します。
+プログラムオブジェクトは、ポートフォリオ内のプロジェクトのサブセットで、類似のプロジェクトを 1 つにグループ化できます。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">コレクションフィールド</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>objectIntegrations</b>
+            </p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">アクション</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>linkExternalObject</b>
+            </p>
+          </li>
+          <li>
+            <p><b>unlinkExternalObject</b>
+            </p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Project（PROJ）
+
+プロジェクトは Workfront 内の作業アイテムで、Workfront が人々の作業を支援するための主要な構築ブロックです。プロジェクトオブジェクトは、共通の特定の目標を持つタスクのグループを表します。
 
 <table>
   <col/>
@@ -1327,9 +1327,9 @@ Program オブジェクトは、ポートフォリオ内のプロジェクトの
       <td >
         <ul>
           <li>
-            <p><b>イニシアチブ</b>
+            <p><b>initiative</b>
             </p>
-            <p>Initiative オブジェクトは、Workfrontシナリオプランナに、ジョブの役割の種類と数、固定コスト、および計画福利厚生に関する見積もりを作成します。 </p>
+            <p>イニシアチブオブジェクトは、担当業務の種類と数、固定コスト、予定利益の見積もりを Workfront シナリオプランナーに作成します。 </p>
           </li>
           <li>
             <p><b>issueDef</b>
@@ -1349,7 +1349,7 @@ Program オブジェクトは、ポートフォリオ内のプロジェクトの
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>場合によっては、Workfrontの作業項目を外部のソフトウェア製品のオブジェクトに直接リンクさせることができます。 ObjectIntegration オブジェクトは、このリンクを表します。</p>
+            <p>場合によっては、Workfront の作業アイテムを、外部ソフトウェア製品のオブジェクトに直接リンクすることができます。ObjectIntegration オブジェクトは、このリンクを表します。</p>
           </li>
         </ul>
       </td>
@@ -1357,11 +1357,11 @@ Program オブジェクトは、ポートフォリオ内のプロジェクトの
   </tbody>
 </table>
 
-### QueueDef (QUED)
+### QueueDef（QUED）
 
-QueueDef オブジェクトは、Queue を表します。Queue は、ユーザーが問題を送信できるようにヘルプデスク領域に公開されたプロジェクトです。
+QueueDef オブジェクトは、キューを表します。キューは、ユーザーがイシューを送信できるようにヘルプデスクエリアに公開されたプロジェクトです。
 
-リクエストキューについて詳しくは、 [リクエストキューの作成](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+リクエストキューについて詳しくは、[リクエストキューの作成](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 <table>
   <col/>
@@ -1374,26 +1374,26 @@ QueueDef オブジェクトは、Queue を表します。Queue は、ユーザ�
           <li>
             <p><b>requestorCoreAction</b>
             </p>
-            <p>次の可能な値が追加されました。</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
           <li>
             <p><b>requestorForbiddenActions</b>
             </p>
-            <p>次の可能な値が追加されました。</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON （自分の所属するチームを編集）</p>
+                <p>EDIT_TEAMS_I_AM_ON（所属チームを編集）</p>
               </li>
               <li>
-                <p>EDIT_TEAMS_I_GROUP_ADMIN ( 管理するグループのチームを編集する（グループ管理者のみ）)</p>
+                <p>EDIT_TEAMS_I_GROUP_ADMIN（自分が管理するグループのチームを編集する（グループ管理者のみ））</p>
               </li>
             </ul>
           </li>
@@ -1403,11 +1403,11 @@ QueueDef オブジェクトは、Queue を表します。Queue は、ユーザ�
   </tbody>
 </table>
 
-### ScoreCardQuestion (SCOREQ)
+### ScoreCardQuestion（SCOREQ）
 
-ScoreCardQuestion オブジェクトは、スコアカードに追加された質問を表します。 これらの質問は通常、Portfolio管理者が決定し、その回答によって、管理者はプロジェクトがポートフォリオの目標にどの程度適合しているかを理解できます。
+ScoreCardQuestion オブジェクトは、スコアカードに追加された質問を表します。これらの質問は通常、ポートフォリオマネージャーが決定し、その回答によって、マネージャーはプロジェクトがポートフォリオの目標にどの程度適合しているかを理解できます。
 
-スコアカードに関する質問の詳細は、「 [スコアカードの作成](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+スコアカードに関する質問について詳しくは、[スコアカードを作成](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
 
 <table>
   <col/>
@@ -1420,7 +1420,7 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
           <li>
             <p><b>displayType</b>
             </p>
-            <p>可能な値を追加しました。 <code>WIDGET </code>（ウィジェット）</p>
+            <p>可能な値 <code>WIDGET </code>（ウィジェット）を追加しました。</p>
           </li>
         </ul>
       </td>
@@ -1428,9 +1428,9 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
   </tbody>
 </table>
 
-### タスク (TASK)
+### Task（TASK）
 
-Task オブジェクトは、最終目標を達成する（プロジェクトの完了）ためのステップとして実行する必要がある作業項目を表します。
+タスクオブジェクトは、最終目標を達成する（プロジェクトの完了）ためのステップとして実行する必要がある作業項目を表します。
 
 <table>
   <col/>
@@ -1443,7 +1443,7 @@ Task オブジェクトは、最終目標を達成する（プロジェクトの
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>場合によっては、Workfrontの作業項目を外部のソフトウェア製品のオブジェクトに直接リンクさせることができます。 ObjectIntegration オブジェクトは、このリンクを表します。</p>
+            <p>場合によっては、Workfront の作業アイテムを、外部ソフトウェア製品のオブジェクトに直接リンクすることができます。ObjectIntegration オブジェクトは、このリンクを表します。</p>
           </li>
         </ul>
       </td>
@@ -1451,9 +1451,9 @@ Task オブジェクトは、最終目標を達成する（プロジェクトの
   </tbody>
 </table>
 
-### テンプレート (TMPL)
+### Template（TMPL）
 
-Template オブジェクトは、プロジェクトのパターンを表します。 プロジェクトは、テンプレートから作成して時間を節約できます。 テンプレートにはチームとタスクが含まれ、テンプレートから作成されたすべてのプロジェクトにコピーされます。
+テンプレートオブジェクトは、プロジェクトのパターンを表します。プロジェクトをテンプレートから作成することで時間を節約できます。テンプレートにはチームとタスクが含まれ、テンプレートから作成されたすべてのプロジェクトにコピーされます。
 
 <table>
   <col/>
@@ -1477,9 +1477,9 @@ Template オブジェクトは、プロジェクトのパターンを表しま�
   </tbody>
 </table>
 
-### タイムシート (TSHET)
+### Timesheet（TSHET）
 
-Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Types の実績作業時間をユーザーが入力できる仮想タイムカードを表します。
+Timesheet オブジェクトは、タスク、プロジェクトおよびオーバーヘッド時間タイプに対して行った実際の時間数をユーザーが入力できる仮想タイムカードを表します。
 
 <table>
   <col/>
@@ -1488,7 +1488,7 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
     <tr>
       <td role="rowheader">コアフィールド</td>
       <td>
-        <p>次のフィールドが削除されました：</p>
+        <p>次のフィールドが削除されました。</p>
         <ul>
           <li>
             <p><b>objCode</b>
@@ -1500,7 +1500,7 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
   </tbody>
 </table>
 
-### 表示 (UIVIEW)
+### View（UIVIEW）
 
 <table>
   <col/>
@@ -1516,40 +1516,40 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
             <p>次の可能な値が削除されました。</p>
             <ul>
               <li>
-                <p><code>FOUR_COL</code> (4 カラム レイアウト)</p>
+                <p><code>FOUR_COL</code> （4 カラム レイアウト）</p>
               </li>
               <li>
-                <p><code>UPDATES</code> (アップデート)</p>
+                <p><code>UPDATES</code> （更新）</p>
               </li>
               <li>
-                <p><code>UPDATESTOOLBAR_FEED</code> (アップデート)</p>
+                <p><code>UPDATESTOOLBAR_FEED</code> （更新）</p>
               </li>
               <li>
-                <p><code>WORKINGON</code> (作業中)</p>
+                <p><code>WORKINGON</code> （作業中）</p>
               </li>
               <li>
-                <p><code>CUSTOMDATA</code> (カスタムデータ)</p>
+                <p><code>CUSTOMDATA</code> （カスタムデータ）</p>
               </li>
               <li>
-                <p><code>CUSTOMDATA_UPDATE</code> (カスタム データの更新)</p>
+                <p><code>CUSTOMDATA_UPDATE</code> （カスタムデータの更新）</p>
               </li>
               <li>
-                <p><code>STATUS_UPDATE</code> (状態更新)</p>
+                <p><code>STATUS_UPDATE</code> （ステータスの更新）</p>
               </li>
               <li>
-                <p><code>OPTASK_STATUS_UPDATE</code> (状態更新)</p>
+                <p><code>OPTASK_STATUS_UPDATE</code> （ステータスの更新）</p>
               </li>
               <li>
-                <p><code>PROJ_STATUS_UPDATE</code> (状態更新)</p>
+                <p><code>PROJ_STATUS_UPDATE</code> （ステータスの更新）</p>
               </li>
               <li>
-                <p><code>PROJECT_TIMEENTRY</code> (状態更新)</p>
+                <p><code>PROJECT_TIMEENTRY</code> （ステータスの更新）</p>
               </li>
               <li>
-                <p><code>DLIST</code> (詳細リスト)</p>
+                <p><code>DLIST</code> （詳細リスト）</p>
               </li>
               <li>
-                <p><code>DLIST_SECTION</code> (詳細リスト セクション)</p>
+                <p><code>DLIST_SECTION</code> （詳細リストセクション）</p>
               </li>
             </ul>
           </li>
@@ -1559,9 +1559,9 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
   </tbody>
 </table>
 
-### 更新（更新）
+### Update（UPDATE）
 
-Workfrontの作業項目を更新して、ユーザーに現在のステータスを知らせることができます。 Update オブジェクトは、これらの更新の 1 つを表します。 更新は、ユーザーが入力するか、Workfrontシステムが作成します。
+Workfront の作業アイテムを更新して、ユーザーに現在のステータスを知らせることができます。更新オブジェクトは、これらの更新の 1 つを表します。更新は、ユーザーが入力するか、Workfront システムが作成することができます。
 
 <table>
   <col/>
@@ -1574,7 +1574,7 @@ Workfrontの作業項目を更新して、ユーザーに現在のステータ�
           <li>
             <p><b>updateType</b>
             </p>
-            <p>可能な値を追加しました。 <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload)</p>
+            <p>可能な値 <code>documentVersionDownload </code>（enum.updatetypeenum.documentversiondownload）を追加しました。</p>
           </li>
         </ul>
       </td>
@@ -1582,9 +1582,9 @@ Workfrontの作業項目を更新して、ユーザーに現在のステータ�
   </tbody>
 </table>
 
-### ユーザー (USER)
+### User （USER）
 
-User オブジェクトは、Workfrontにログインしてシステムとやり取りできるアカウントを持つ人物を表します。
+ユーザーオブジェクトは、ログインしてシステムとやり取りできる Workfront アカウントを持つユーザーを表します。
 
 <table>
   <col/>
@@ -1619,7 +1619,7 @@ User オブジェクトは、Workfrontにログインしてシステムとやり
   </tbody>
 </table>
 
-### UserNote (USRNOT)
+### UserNote（USRNOT）
 
 UserNote オブジェクトは通知です。
 
@@ -1634,13 +1634,13 @@ UserNote オブジェクトは通知です。
           <li>
             <p><b>eventType</b>
             </p>
-            <p>次の可能な値が追加されました。</p>
+            <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p><code>DUP </code>（ドキュメントの配達確認を要求）</p>
+                <p><code>DUP </code>（このドキュメントをプルーフするようにリクエストしました）</p>
               </li>
               <li>
-                <p><code>DUV </code>（ドキュメントを表示できます）</p>
+                <p><code>DUV </code>（ドキュメントの表示を許可します）</p>
               </li>
             </ul>
           </li>
@@ -1650,9 +1650,9 @@ UserNote オブジェクトは通知です。
   </tbody>
 </table>
 
-### 作業（作業）
+### Work（WORK）
 
-Work オブジェクトは、Task と OpTask の両方が継承する共通のインターフェイスで、2 つの間で共通のコードを共有します。
+作業オブジェクトは、Task と OpTask の両方が継承する共通のインターフェイスで、2 つの間で共通のコードを共有します。
 
 <table>
   <col/>
@@ -1665,7 +1665,7 @@ Work オブジェクトは、Task と OpTask の両方が継承する共通の�
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>場合によっては、Workfrontの作業項目を外部のソフトウェア製品のオブジェクトに直接リンクさせることができます。 ObjectIntegration オブジェクトは、このリンクを表します。</p>
+            <p>場合によっては、Workfront の作業アイテムを、外部ソフトウェア製品のオブジェクトに直接リンクすることができます。ObjectIntegration オブジェクトは、このリンクを表します。</p>
           </li>
         </ul>
       </td>
