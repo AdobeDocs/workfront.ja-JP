@@ -3,23 +3,23 @@ title: プログラムへのアクセス権の付与
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
-description: Adobe Workfront管理者は、アクセスレベルを使用して、Workfrontのプログラムに対するユーザーのアクセスを定義できます。
+description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront でユーザーのプログラムへのアクセス権を定義できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 169f6357-1fbb-43e0-83af-1c4be682ddbf
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # プログラムへのアクセス権の付与
 
-Adobe Workfront管理者は、アクセスレベルを使用して、プログラムに対するユーザーのアクセスを定義できます。詳しくは、 [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+Adobe Workfront 管理者は、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明されるように、プロジェクトに対するユーザーのアクセス権を定義するために、アクセスレベルを使用できます。
 
-カスタムアクセスレベルを使用して、Workfrontの他のオブジェクトタイプへのユーザーのアクセスを管理する方法について詳しくは、 [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+カスタムアクセスレベルを使用して、Workfront の他のオブジェクトタイプへのユーザーのアクセスを管理する方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 ## アクセス要件
 
@@ -30,43 +30,43 @@ Adobe Workfront管理者は、アクセスレベルを使用して、プログ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がユーザーのアクセスレベルを変更する方法については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## カスタムアクセスレベルを使用してプログラムへのユーザーアクセスを構成する
+## カスタムアクセスレベルを使用してプログラムへのユーザーのアクセス権を設定する
 
-1. アクセスレベルの作成または編集を開始します ( [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. 歯車アイコンをクリックします。 ![](assets/gear-icon-settings.png) の **表示** または **編集** [ プログラム ] の右にあるボタンをクリックし、 **設定を微調整する**.
+1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
+1. プログラムの右側にある「**表示**」ボタンまたは「**編集**」ボタンの歯車アイコン![](assets/gear-icon-settings.png) をクリックし、「**設定の微調整**」で許可する機能を選択します。
 
-   各アクセスレベルのユーザーがプログラムで実行できる操作について詳しくは、「 [プログラム](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#programs) 記事内 [各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+   各アクセスレベルのユーザーがプログラムに対して実行できる内容について詳しくは、[各オブジェクトタイプで利用可能な機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)の記事の[プログラム](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#programs)の節を参照してください。
 
    >[!NOTE]
    >
-   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランクのオブジェクトに対するユーザーのアクセスには影響しません。 たとえば、ユーザーのアクセスレベルでのプログラムの削除を制限できますが、プログラムよりも低いランクのプロジェクトの削除は制限されません。オブジェクトの階層の詳細については、「 [オブジェクトの相互依存性と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) 記事内 [Adobe Workfrontのオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >特定の種類のオブジェクトに対してアクセスレベルの設定を行う場合、その設定は、低いランクのオブジェクトに対するユーザーのアクセスには影響しません。例えば、ユーザーのアクセスレベルでプログラムの削除を制限できますが、プログラムよりも下位のプロジェクトの削除は制限されません。オブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の[オブジェクトの相互依存性と階層](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects)の節を参照してください。
 
-1. （オプション）作業中のアクセスレベルの他のオブジェクトや領域のアクセス設定を構成するには、 [Adobe Workfrontへのアクセスの設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)例： [タスクへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) および [財務データへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. 完了したら、「 **保存**.
+1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス設定を指定するには、[Adobe Workfront へのアクセスを設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事のうちの 1 つ（[タスクへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)、[財務データへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)など）に従って、作業を続けます。
+1. 完了したら、「**保存**」をクリックします。
 
-   アクセスレベルを作成したら、そのレベルをユーザーに割り当てることができます。 詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザープロファイルを編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-## ライセンスの種類別のプログラムへのアクセス
+## ライセンスタイプ別のプログラムへのアクセス権
 
-各アクセスレベルのユーザーがプログラムで実行できる操作について詳しくは、「 [プログラム](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#programs) 記事内 [各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+各アクセスレベルのユーザーがプログラムに対して実行できる内容について詳しくは、[各オブジェクトタイプで利用可能な機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)の記事の[プログラム](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#programs)の節を参照してください。
 
-## 共有プログラムへのアクセス
+## 共有プログラムへのアクセス権
 
-プログラムの所有者または作成者として、他のユーザーに権限を付与することで、他のユーザーと共有できます。詳しくは、 [プログラムの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md).
+プログラムの所有者または作成者として、プログラムに対する権限を付与することで、[タスクを共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)の説明に従って、他のユーザーと共有できます。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -77,7 +77,7 @@ Adobe Workfront管理者は、アクセスレベルを使用して、プログ�
 </div>
 -->
 
-別のユーザーとオブジェクトを共有する場合、そのオブジェクトに対する受信者の権限は次の 2 つの組み合わせによって決まります。
+別のユーザーとオブジェクトを共有する場合、そのオブジェクトに対する受信者の権限は次の 2 つ項目の組み合わせによって決まります。
 
-* オブジェクトの受信者に付与する権限
-* オブジェクトのタイプに関する受信者のアクセスレベル設定
+* オブジェクトについて受信者に付与する権限
+* オブジェクトのタイプについての受信者のアクセスレベル設定
