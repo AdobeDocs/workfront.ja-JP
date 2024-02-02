@@ -2,27 +2,27 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Adobe Workfront目標の目標揃えの概要
-description: 目標の調整により、目標を相互に合わせ、チーム、グループ、会社の組織目標に合わせて、組織内の全員が同じページで達成すべきことについて確認できます。
+title: Adobe Workfront Goals での目標の関連付けの概要
+description: 目標を関連付けることにより、各自の目標を互いに、またチームやグループ、会社の組織的な目標と連携させることで、組織の全員が達成すべきことについて同じ考えを持っていることを確認します。
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標の目標揃えの概要
+# Adobe Workfront Goals での目標の関連付けの概要
 
 >[!NOTE]
 >
->この記事で説明する機能を使用するには、以下が必要です。
->* プロ以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
->* Workfrontライセンスに加えて、Adobe Workfront Goals ライセンスが必要です。 Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。
+>この記事で説明している機能を使用するには、組織に以下が必要です。
+>* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
+>* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 >
->Workfront Goals へのアクセスについて詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:    
     
@@ -46,52 +46,52 @@ Contact your Workfront account manager to learn about a Workfront Goals license.
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
 -->
 
-目標の整合は、目標管理の重要な部分です。 お互いの目標を合わせ、チーム、グループおよび会社の組織目標に合わせることで、戦略を前進させるために何が必要かについて、組織の全員が同じページにいることを確認できます。
+目標の関連付けは、目標管理の重要な部分です。各自の目標をお互いに、またチームやグループ、会社の組織的な目標と連携させることで、戦略を前進させるために何が必要かについて、組織の全員が同じ考えを持っていることを確認できます。
 
-トップレベルの企業、チーム、またはグループの目標を設定し、確認した後、ダイレクトレポートとチームメンバーは、トップレベルから重点的に目標を作成する必要があります。 これらの目標の範囲は、より狭く、目標の責任者として指定された個人とその影響範囲を考慮に入れる必要があります。 目標は、何を達成し、何を達成し、何を、それが一致する親の目標を達成する必要があるかという問いに答える必要があります。
+トップレベルの企業、チーム、またはグループの目標を設定し、確認した後、直属の部下とチームメンバーは、トップレベルから重なる、より焦点を絞った目標を作成する必要があります。これらの目標の範囲は、より狭く、目標の責任者として指定された個人とその影響範囲を考慮に入れる必要があります。目標は、その目標が関連付けられた親目標を達成するために、ユーザーやそのチームが何を達成しなければならないかという問いに答える必要があります。
 
-目標を揃える際のベストプラクティスについて詳しくは、 [Adobe Workfront目標の概要](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+目標の関連付けに関するベストプラクティスについて詳しくは、[Adobe Workfront Goals の概要](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)を参照してください。
 
-## 目標を揃えるための考慮事項
+## 目標の関連付けに関する考慮事項
 
-* 目標は、同時に複数の他の目標に貢献することはできません。 同じ親目標に複数の子目標を整列させることはできますが、子目標に設定できる親は 1 つだけです。 親と子の目標について詳しくは、 [親と子の目標の理解](#understand-parent-and-children-goals) 」の節を参照してください。
-* 目標には、複数の目標（または子）のほか、複数のアクティビティと結果を含めることができます。 さらに、各子目標には、進行状況および親目標の進行状況に影響を与える他のアクティビティや結果を含めることができます。
+* 目標は、同時に複数の他の目標に参加することはできません。同じ親目標に複数の子目標を関連付けることはできますが、子目標に設定できる親目標は 1 つだけです。親目標と子目標について詳しくは、この記事内の[親目標と子目標について](#understand-parent-and-children-goals)の節を参照してください。
+* 目標には、複数の関連付けられた（または子）目標のほか、複数のアクティビティと結果を含めることができます。さらに、各子目標は、親目標の進捗と同様に、その進捗に影響を与える他の活動や結果を持つことができます。
 
-   >[!TIP]
-   >
-   >この構造は、できるだけ簡単にすることをお勧めします。
+  >[!TIP]
+  >
+  >この構造は、できるだけ簡単にすることをお勧めします。
 
-* 役割に応じて、様々な種類の目標を更新する必要があります。 例：
+* 役割に応じて、様々な種類の目標を更新する必要があります。例：
 
-   * 個々のコントリビューターは、チーム、グループ、企業レベルの目標に合わせて調整する必要がある、独自の目標にコントリビューションすることをお勧めします。 独自の目標を更新すると、他のすべての親目標の進捗状況が更新されます。
-   * CEO またはビジネスマネージャとして、目標に貢献し、チーム、グループ、会社に割り当てられた目標を更新することをお勧めします。
+   * 個人のコントリビューターは、チーム、グループおよび会社レベルの目標と関連付けられた個人の目標に参加することをお勧めします。個人の目標を更新すると、他のすべての親目標の進捗状況が更新されます。
+   * CEO またはビジネスマネージャーとして、チーム、グループ、会社に割り当てられた目標を更新するだけでなく、自分の目標にも貢献することをお勧めします。
 
-## 目標の整列のタイプ
+## 目標の関連付けのタイプ
 
-目標を揃えるには、次の 2 つの方法があります。
+目標を関連付けるには、次の 2 つのアプローチがあります。
 
-* **下から上への配置**:子の目標を親の目標に直接接続できます。 ボトムアップ目標の位置合わせについては、 [目標をAdobe Workfront目標に結び付けて整列させる](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+* **ボトムアップによる関連付け**：子目標を親目標に直接結び付けることができます。ボトムアップによる目標の関連付けについて詳しくは、[目標を Adobe Workfront Goals に結び付けて連携](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)を参照してください。
 
-* **上下揃え**:目標の結果またはアクティビティを別の目標に変換できます。 新しいゴールは、親になる元のゴールの子ゴールになります。 トップダウン目標の整列について詳しくは、 [結果とアクティビティを目標に変換して目標を揃える](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+* **トップダウンによる関連付け**：目標の結果またはアクティビティを別の目標に変換できます。新しい目標は、親になる元の目標の子目標になります。トップダウンによる目標の関連付けについて詳しくは、[結果とアクティビティを目標に変換して目標を連携](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)を参照してください。
 
-親と子の目標について詳しくは、 [親と子の目標の理解](#understand-parent-and-children-goals) 」の節を参照してください。
+親目標と子目標について詳しくは、この記事内の[親目標と子目標について](#understand-parent-and-children-goals)の節を参照してください。
 
-## 親と子の目標の理解 {#understand-parent-and-children-goals}
+## 親目標と子目標について {#understand-parent-and-children-goals}
 
-ゴールを互いに合わせると、1 つのゴールが親ゴールになり、もう 1 つが子ゴールになります。 子目標の進行は親目標の進行に影響します。 これにより、目標階層が作成されます。
+目標を互いに関連付けると、1 つのゴールが親目標になり、もう 1 つが子目標になります。子目標の進行は親目標の進捗に影響を与えます。これにより、目標の階層が作成されます。
 
-子と親の目標を使用する際は、次の点に注意してください。
+子目標と親目標を使用する際は、次の点を考慮してください。
 
-* 複数の子目標を同じ親目標に合わせることができます。
+* 複数の子目標を同じ親目標に関連付けることができます。
 * 1 つの子目標には、1 つの親目標のみを設定できます。
-* 子の目標の進捗状況は、その結果とアクティビティによって示され、親の目標の進捗状況に影響を与えます。 親目標に関連付けられたその他のアクティビティや結果も、親目標の進行状況に影響します。
-* 親目標のレベルで子目標の進捗状況を更新することはできません。 子目標のアクティビティと結果を更新する必要があります。これにより、子の進行状況と親目標の進捗状況が自動的に更新されます。
+* 子目標の進捗は、その結果とアクティビティによって示され、親目標の進捗に影響を与えます。親目標に関連付けられたその他のアクティビティや結果も、親目標の進捗に影響を与えます。
+* 親目標のレベルで子目標の進捗を更新することはできません。子目標のアクティビティと結果を更新する必要があります。これにより、子目標の進捗と親目標の進捗が自動的に更新されます。
 
-   目標の進捗の更新について詳しくは、 [Adobe Workfront目標での目標の進捗状況の更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  目標の進捗の更新について詳しくは、[Adobe Workfront Goals での目標の進捗の更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
 
-## 整列した目標を配置
+## 関連付けた目標の見つけ方
 
-目標を揃えた後、それらは同じ階層の一部となり、Workfront目標の様々な領域に表示されます。
+目標を関連付けた後、それらの目標は同じ階層の一部となり、Workfront Goals の様々なエリアに表示されます。
 
 <!--
 * In the Production enviroment, you can view children and parent goals in the following areas:
@@ -103,10 +103,10 @@ For additional information about access to Workfront Goals, see [Requirements to
     * Pulse section
     * You can view all the parent goals of a goal in the Goal Hierarchy field of a Project or Goal report.
 -->
-以下の領域で、子と親の目標を表示できます。
+以下のエリアで、子目標と親目標を表示できます。
 
-* 目標のページの「進捗状況指標」セクション（タイプ：目標グループ）
-* 目標ページの「目標の整列」セクションを参照してください。
+* 目標のページの「進捗状況インジケーター」セクション（タイプ：目標グループの下）。
+* 目標ページの「目標の整合」セクション。
 
 
 
