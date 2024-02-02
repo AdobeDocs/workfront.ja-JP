@@ -1,125 +1,125 @@
 ---
-title: を介して MS Graph REST API を呼び出します。 [!DNL Adobe Workfront Fusion] HTTP &gt;OAuth 2.0 リクエストモジュールを作成する
-description: を介して MS Graph REST API を呼び出します。 [!DNL Adobe Workfront Fusion] HTTP &gt;OAuth 2.0 リクエストモジュールを作成する
+title: ' [!DNL Adobe Workfront Fusion] HTTP／OAuth 2.0 リクエストを実行モジュールを使用して、MS Graph REST API を呼び出します。'
+description: ' [!DNL Adobe Workfront Fusion] HTTP／OAuth 2.0 リクエストを実行モジュールを使用して、MS Graph REST API を呼び出します。'
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# を[!UICONTROL  MS Graph REST API] 経由 [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 リクエストを作成] モジュール
+# [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 リクエストを実行]モジュールを使用して、[!UICONTROL MS Graph REST API] を呼び出します。
 
-多数 [!DNL Microsoft] web サービスには、 [!DNL Microsoft Graph API]. この記事では、 [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL OAuth 2.0 リクエストを作成] モジュール。
+多くの [!DNL Microsoft] web サービスは、[!DNL Microsoft Graph API] を通じてアクセスされます。この記事では、[!DNL Workfront Fusion] [!DNL HTTP]／[!UICONTROL OAuth 2.0 リクエストを実行]モジュールを使用して、その API への接続を作成する方法について説明します。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!DNL Adobe Workfront] の [!UICONTROL Select] または [!UICONTROL Prime] プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も組織で購入する必要があります。[!DNL Workfront Fusion] は [!DNL Workfront] の [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も組織で購入する必要があります。</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## 登録 [!DNL Workfront Fusion] 内 [!DNL Microsoft Application Registration Portal]
+## [!DNL Microsoft Application Registration Portal] での [!DNL Workfront Fusion] の登録
 
-への接続を作成するには、以下を実行します。 [!DNL Microsoft Graph REST API]、最初にを登録する必要があります [!DNL Adobe Workfront Fusion].
+[!DNL Microsoft Graph REST API] への接続を作成するには、まず [!DNL Adobe Workfront Fusion] を登録する必要があります。
 
-1. 新しいアプリケーションの登録を開始します ( [アプリを登録](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) 内 [!DNL Microsoft] ドキュメント。
+1. [!DNL Microsoft] ドキュメントの[アプリを登録する](https://docs.microsoft.com/en-us/graph/auth-register-app-v2)の説明に従って、新しいアプリケーションの登録を開始します。
 
-   登録の一環として [!DNL Microsoft] には、次の情報が必要です。
+   登録の一環として、[!DNL Microsoft] は次の情報を必要とします。
 
    <table style="table-layout:auto">
       <tr>
-        <td>[!UICONTROL アプリケーション名 ]</td>
-        <td>アプリケーションの名前を入力します（例： 「My」）。 [!DNL Workfront Fusion] 申請」</td>
+        <td>[!UICONTROL Application name]</td>
+        <td>「マイ [!DNL Workfront Fusion] アプリケーション」などのアプリケーション名を入力します。</td>
       </tr>
       <tr>
-        <td>[!UICONTROL リダイレクト URL]</td>
+        <td>[!UICONTROL Redirect URL]</td>
         <td><code>https://app.workfrontfusion.com/oauth/cb/oauth2</code></td>
       </tr>
     </table>
 
-1. アプリの登録が完了したら、 [!UICONTROL アプリケーション ID].
+1. アプリの登録が完了したら、[!UICONTROL アプリケーション ID] をメモします。
 
    >[!IMPORTANT]
    >
-   >接続を設定するには、アプリケーション ID が必要です。 [!DNL Workfront Fusion].
+   >[!DNL Workfront Fusion] で接続を設定するには、アプリケーション ID が必要になります。
 
-1. を生成 [!UICONTROL アプリケーション秘密鍵]. この秘密を書き留めておけ。
+1. [!UICONTROL アプリケーションシークレット]を生成します。このシークレットをメモしておいてください。
 
-   手順については、 [アプリを登録](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) 内 [!DNL Microsoft] ドキュメント。
+   手順については、[!DNL Microsoft] ドキュメントの[アプリを登録する](https://docs.microsoft.com/en-us/graph/auth-register-app-v2)を参照してください。
 
    >[!IMPORTANT]
    >
-   >次が必要です： [!UICONTROL アプリケーション秘密鍵] 接続を設定するには、以下を使用します。 [!DNL Workfront Fusion].
+   >[!DNL Workfront Fusion] で接続を設定するには、[!UICONTROL アプリケーションシークレット]が必要になります。
 
 1. アプリケーションの権限を設定します。
 
-   これらのフィールドの配置と設定について詳しくは、 Microsoft Graph の権限の設定の節 ( [ユーザーを使用しないでアクセスを取得する](https://docs.microsoft.com/en-us/graph/auth-v2-service) 内 [!UICONTROL Microsoft] ドキュメント。
+   これらのフィールドの検索と構成について詳しくは、[!UICONTROL Microsoft] ドキュメントの[ユーザーなしでアクセスを取得](https://docs.microsoft.com/en-us/graph/auth-v2-service)の「Microsoft Graph のアクセス許可を構成する」節を参照してください。
 
    <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL アプリケーションにはどのような種類の権限が必要ですか？]</td> 
-      <td>選択 <code>[!UICONTROL Delegated permissions]</code>.</td> 
+      <td role="rowheader">[!UICONTROL What type of permissions does your application require?]</td> 
+      <td><code>[!UICONTROL Delegated permissions]</code>を選択します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 権限を選択 ]</td> 
+      <td role="rowheader">[!UICONTROL Select permissions]</td> 
       <td> <p>次の権限を選択します。</p> 
        <ul> 
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
-        <li> <p>統合に必要なその他の権限 ( 例： <code>User.Read</code>)</p> </li> 
-       </ul> <p>重要：接続を設定するには、選択した権限が必要です。 [!DNL Workfront Fusion].</p> </td> 
+        <li> <p>統合に必要なその他の権限（例：<code>User.Read</code>）</p> </li> 
+       </ul> <p>重要：[!DNL Workfront Fusion] で接続を設定するには、選択した権限が必要になります。</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 次に進む [の設定 [!DNL MS Graph API] 接続 [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion).
+1. [ [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion) での [!DNL MS Graph API] 接続の設定に進みます。
 
-## の設定 [!DNL MS Graph API] 接続 [!DNL Workfront Fusion]
+## [!DNL Workfront Fusion] での [!DNL MS Graph API] 接続の設定
 
-登録後 [!DNL Workfront Fusion] で説明されているように [登録 [!DNL Workfront Fusion] 内 [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)を設定すると、 [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 を作成する] リクエストモジュール。
+[ [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal) での [!DNL Workfront Fusion] の登録での説明に従って [!DNL Workfront Fusion] を登録したら、[!UICONTROL HTTP]／[!UICONTROL Oauth 2.0 リクエストを実行]モジュールで接続を設定できます。
 
-1. を追加します。 [!UICONTROL HTTP] >[!UICONTROL OAuth 2.0 呼び出しの実行] モジュールをシナリオに追加します。
-1. クリック **[!UICONTROL 追加]** の横 [!UICONTROL 接続] フィールドに入力します。
+1. [!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 呼び出しを実行]モジュールをシナリオに追加します。
+1. 「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 接続フィールドを次のように設定します。
 
    <table style="table-layout:auto"> 
@@ -127,68 +127,68 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 接続名 ]</td> 
-      <td>接続の名前を入力します。</td> 
+      <td role="rowheader">[!UICONTROL Connection name]</td> 
+      <td>接続に名前を入力します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">[!UICONTROL フロータイプ ]</p> </td> 
+      <td role="rowheader"> <p role="rowheader">[!UICONTROL Flow type]</p> </td> 
       <td><code>[!UICONTROL Authorization Code]</code> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL URI を許可 ]</td> 
+      <td role="rowheader">[!UICONTROL Authorize URI]</td> 
       <td><code>https://login.microsoftonline.com/common/oauth2/v2.0/authorize</code> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL トークン URI]</td> 
+      <td role="rowheader">[!UICONTROL Token URI]</td> 
       <td><code>https://login.microsoftonline.com/common/oauth2/v2.0/token</code> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL スコープ ]</td> 
-      <td> <p>の手順 4 で選択した権限を入力します <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">登録 [!DNL Workfront Fusion] 内 [!DNL Microsoft Application Registration Portal]</a>.</p> <p>範囲ごとに、 <b>[!UICONTROL 追加 ]</b> 権限を入力します。</p> <p>例: <code>offline_access</code>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Scope]</td> 
+      <td> <p><a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">[!DNL Workfront Fusion] を [!DNL Microsoft Application Registration Portal]</a> に登録する手順 4 で選択した権限を入力します。</p> <p>範囲ごとに、<b>[!UICONTROL Add]</b> をクリックし、権限を入力します。</p> <p>例：<code>offline_access</code>。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL スコープ区切り文字 ]</td> 
+      <td role="rowheader">[!UICONTROL Scope separator]</td> 
       <td><code>SPACE</code> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL クライアント ID]</td> 
-      <td>手順 2 の [!UICONTROL アプリケーション ID] ( <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">登録 [!DNL Workfront Fusion] 内 [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td role="rowheader">[!UICONTROL Client ID]</td> 
+      <td><a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">[!DNL Microsoft Application Registration Portal]</a>に[!DNL Workfront Fusion]を登録する手順 2 の [!UICONTROL Application ID] を入力します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL クライアント秘密鍵 ]</td> 
-      <td>手順 2 で生成した [!UICONTROL Application Secret] ( <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">登録 [!DNL Workfront Fusion] 内 [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td role="rowheader">[!UICONTROL Client Secret]</td> 
+      <td><a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">[!DNL Microsoft Application Registration Portal]</a> に [!DNL Workfront Fusion] を登録する手順 2 で生成した [!UICONTROL Application Secret] を入力します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL パラメーターを許可 ]</td> 
-      <td> <p>以下の Authorize パラメーターを追加します。</p> 
+      <td role="rowheader">[!UICONTROL Authorize parameters]</td> 
+      <td> <p>次の承認パラメーターを追加します。</p> 
        <ul> 
-        <li> <p>[!UICONTROL キー ]:<code> response_mode</code> [!UICONTROL 値 ]: <code>query</code></p> </li> 
-        <li> <p>[!UICONTROL キー ]: <code>prompt </code>[!UICONTROL 値 ]: <code>consent</code></p> </li> 
+        <li> <p>[!UICONTROL Key]：<code> response_mode</code> [!UICONTROL Value]： <code>query</code></p> </li> 
+        <li> <p>[!UICONTROL Key]：<code>prompt </code>[!UICONTROL Value]： <code>consent</code></p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL アクセストークンパラメーター ]</td> 
+      <td role="rowheader">[!UICONTROL Access token parameters]</td> 
       <td>このフィールドには何も入力する必要はありません。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL トークンパラメーターを更新 ]</td> 
+      <td role="rowheader">[!UICONTROL Refresh token parameters]</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>クリック <b>[!UICONTROL 追加 ]</b>.</p> </li> 
-        <li value="2"> <p>内 <b>[!UICONTROL キー ]</b> フィールドに入力 <code>scope</code>.</p> </li> 
-        <li value="3"> <p>内 <b>[!UICONTROL 値 ]</b> 「 」フィールドに、スコープフィールドに入力したすべての [!UICONTROL スコープ ] をスペースで区切って入力します。</p> <p>例: <code>offline_access openid User.Read</code></p> </li> 
+        <li value="1"> <p>「<b>[!UICONTROL Add]</b>」をクリックします。</p> </li> 
+        <li value="2"> <p>「<b>[!UICONTROL Key]</b>」フィールドに、<code>scope</code> を入力します。</p> </li> 
+        <li value="3"> <p>「<b>[!UICONTROL Value]</b>」フィールドに、スコープフィールドに入力したすべての [!UICONTROL scope] を、スペースで区切って入力します。</p> <p>例： <code>offline_access openid User.Read</code></p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL カスタムヘッダー ]</td> 
+      <td role="rowheader">[!UICONTROL Custom Headers]</td> 
       <td>このフィールドには何も入力する必要はありません。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL トークンの配置 ]</td> 
+      <td role="rowheader">[!UICONTROL Token Placement]</td> 
       <td><code>[!UICONTROL In the header]</code> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. クリック **[!UICONTROL 続行]**.
-1. 表示されるウィンドウで、 **[!UICONTROL 確定]** 接続を完了し、モジュールに戻ります。
+1. 「**[!UICONTROL 続行]**」をクリックします。
+1. 表示されるウィンドウで、「**[!UICONTROL 確定]**」をクリックして接続を完了し、モジュールに戻ります。
