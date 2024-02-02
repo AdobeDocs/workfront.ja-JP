@@ -2,31 +2,31 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''タスク制約の概要：できるだけ遅くまで」'
-description: 可能な限り遅く (ALAP) は、タスクの完了時間を可能な限りプロジェクトの終わりに近い位置に配置するAdobe Workfront Task Constraint です。
+title: 「タスク制約の概要：できるだけ遅く」
+description: できるだけ遅く（ALAP）は、タスクの完了時間をプロジェクトの終了時間にできるだけ近づける Adobe Workfront のタスク制約です。
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # タスク制約の概要：できるだけ遅く
 
-可能な限り遅く (ALAP) は、タスクの完了時間を可能な限りプロジェクトの終わりに近い位置に配置するAdobe Workfront Task Constraint です。
+できるだけ遅く（ALAP）は、タスクの完了時間をプロジェクトの終了時間にできるだけ近づける Adobe Workfront のタスク制約です。
 
 この制約を使用すると、先行タスクまたは依存タスクが再スケジュールされる場合があります。
 
-先行関係の詳細については、「 [タスクの先行タスクを使用](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+先行タスクの関係について詳しくは、[タスクの先行タスクの使用](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md)を参照してください。
 
-プロジェクトで「完了日からスケジュール」のスケジュール・モードを使用し、タスクの「開始日」に「プロジェクト計画日に基づく」がシステムまたはグループのデフォルトのスケジュール・モードを使用する場合は、デフォルトの制約が「可能な限り遅延」になります。
+プロジェクトが使用するスケジュールモードが「完了日からスケジュール」で、タスクの開始日のシステムまたはグループのデフォルトが、「プロジェクト予定日に基づく」場合、「できるだけ遅く」がデフォルトの制約になります。
 
-新しいタスクの既定の制約を設定する場所については、を参照してください。 [システム全体のタスクと問題の環境設定を構成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+新しいタスクのデフォルトの制約を設定する場所については、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
-タスクのタスク制約を更新する方法については、 [タスクのタスク制約の更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+タスクでタスクの制約を更新する方法については、[タスクでタスクの制約を更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,31 +43,31 @@ ht-degree: 0%
 </div>
 -->
 
-## 最新の利用可能な時間と可能な限り遅い時間の違い
+## 「最も遅い空き時間」と「できるだけ遅く」の違い
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
-Latest Available Time 制約は、次の条件が存在する場合、 As Late Ass Foxable 制約とは異なります。
+次の条件に該当する場合、「最も遅い空き時間」の制約は「できるだけ遅く」の制約とは異なります。
 
-* プロジェクトは開始日からスケジュールされています
-* プロジェクト内のタスクには先行タスク関係があります
-* 後続タスクには、柔軟なタスク制約があります
+* プロジェクトが開始日からスケジュールされています
+* プロジェクト内のタスクには、先行タスク関係があります
+* 後続タスクに柔軟なタスクの制約があります
 
-この場合：
+この状況では、次のようになります。
 
-* **最新の利用可能時間：** 先行タスクに対して [ 最新の利用可能時間 ] 制約を使用すると、後続タスクの柔軟な制約が優先されます。
+* **最も遅い空き時間：**&#x200B;先行タスクで「最も遅い空き時間」の制約を使用すると、後続タスクの柔軟な制約が優先されます。
 
-   **例：** たとえば、タスク A はタスク B の先行タスクです。タスク A には最新の利用可能時間制約が、タスク B には [ 可能な限り早く ] 制約が設定されます。 この場合、タスク A は、可能な限りプロジェクトの開始に近い状態にスケジュールされます。
+  **例：**&#x200B;例えば、タスク A がタスク B の先行タスクであるとします。タスク A には「最も遅い空き時間」の制約が適用され、タスク B には「できるだけ早く」の制約が適用されます。この場合、タスク A はプロジェクトの開始にできるだけ近いタイミングでスケジュールされます。
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **できるだけ遅くまで、** このシナリオでは、先行タスクに対して [ 可能な限り遅延 ] 制約を使用すると、先行タスクが優先されます。
+* **できるだけ遅く：**&#x200B;このシナリオでは、先行タスクに「できるだけ遅く」の制約を適用すると、先行タスクが優先されます。
 
-   **例：** たとえば、タスク A はタスク B の先行タスクです。タスク A には可能な限り遅い制約、タスク B には可能な限り早い制約があります。 この場合、タスク A は可能な限りプロジェクトの終わり近くにスケジュールされます。
+  **例：**&#x200B;例えば、タスク A がタスク B の先行タスクであるとします。タスク A には「できるだけ遅く」の制約が適用され、タスク B には「できるだけ早く」の制約が適用されます。この場合、タスク A はプロジェクトの終了にできるだけ近いタイミングでスケジュールされます。
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 
