@@ -1,31 +1,31 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Workfront for Adobe Experience Manager拡張コネクタのアンインストール
-description: WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceを接続する最新のネイティブ統合に対して、Adobe Experience Manager拡張コネクタ付きWorkfrontをアンインストールする必要があります。
+title: Adobe Experience Manager 拡張コネクタ用の Workfront のアンインストール
+description: Adobe Experience Manager 拡張コネクタ付き Workfront（Workfront と Adobe Experience Manager Assets as a Cloud Service を接続する最新のネイティブ統合）をアンインストールする必要があります。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Manager拡張コネクタ付きWorkfrontのアンインストール
+# Adobe Experience Manager 拡張コネクタ付き Workfront のアンインストール
 
-WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceを接続する最新のネイティブ統合に対して、Adobe Experience Manager拡張コネクタ付きWorkfrontをアンインストールする必要があります。
+Adobe Experience Manager 拡張コネクタ付き Workfront（Workfront と Adobe Experience Manager Assets as a Cloud Service を接続する最新のネイティブ統合）をアンインストールする必要があります。
 
 ## 前提条件
 
-* （オプション）必要に応じて、Workfrontファイアウォール設定およびAEM Dispatcher 設定に加えた変更を元に戻します。
+* （オプション）必要に応じて、Workfront ファイアウォール設定および AEM Dispatcher 設定に加えた変更を元に戻します。
 
 ## 拡張コネクタのアンインストール
 
-1. Cloud Manager からAEM as a Cloud Serviceリポジトリにアクセスしてクローンを作成します。
+1. Cloud Manager から AEM as a Cloud Service リポジトリにアクセスしてクローンを作成します。
 
-1. 任意の IDE で、クローン Git リポジトリを開きます。
+1. 任意の IDE で、クローン作成した Git リポジトリを開きます。
 
 1. 拡張コネクタがインストールされているブランチをチェックアウトします。
 
@@ -33,7 +33,7 @@ WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceを接続する最�
 
    `Path: /ui.apps/src/main/resources/<zip file will be here>`
 
-1. プロジェクトのルートの pom.xml ファイルから次の依存関係を削除します。
+1. プロジェクトのルートの pom.xml ファイルから、以下の依存関係を削除します。
 
    ```
    <!-- Workfront Tools -->
@@ -49,21 +49,9 @@ WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceを接続する最�
 
    >[!NOTE]
    >
-   >上記のコードブロック (1.8.0) で参照されているバージョンが、コードからアンインストールされているバージョンを反映していることを確認してください。
+   >上記のコードブロック（1.8.0）で参照されているバージョンが、コードからアンインストールされているバージョンを反映していることを確認してください。
 
-1. 次の依存関係を、という名前のプロジェクトのサブモジュールの pom.xml ファイルから削除します。 **すべて**.
-
-   ```
-   <!-- Workfront Tools -->
-   <embedded>
-       <groupId>digital.hoodoo</groupId>
-       <artifactId>workfront-tools.ui.apps</artifactId>
-       <type>zip</type>
-       <target>/apps/<path-to-project-install-folder>/install</target>
-   </embedded>
-   ```
-
-1. 次の埋め込みを、プロジェクトのサブモジュール (all) の pom.xml ファイルから削除します。
+1. 次の依存関係を、**すべて**&#x200B;という名前のプロジェクトのサブモジュールの pom.xml ファイルから削除します。
 
    ```
    <!-- Workfront Tools -->
@@ -75,7 +63,19 @@ WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceを接続する最�
    </embedded>
    ```
 
-1. （条件付き）プロジェクトのルートの pom.xml ファイルからリポジトリ設定を削除します。
+1. すべてという名前のプロジェクトのサブモジュールの pom.xml ファイルから、以下の埋め込みを削除します。
+
+   ```
+   <!-- Workfront Tools -->
+   <embedded>
+       <groupId>digital.hoodoo</groupId>
+       <artifactId>workfront-tools.ui.apps</artifactId>
+       <type>zip</type>
+       <target>/apps/<path-to-project-install-folder>/install</target>
+   </embedded>
+   ```
+
+1. （条件付き）プロジェクトのルートの pom.xml ファイルから、リポジトリ設定を削除します。
 
 
    ```
@@ -86,7 +86,7 @@ WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceを接続する最�
    </repository>
    ```
 
-1. （条件付き）次のパスにある settings.xml からサーバー設定を削除します。/cloudmanager/maven/settings.xmlをプロジェクトルートに追加します。
+1. （条件付き）以下のパスにある settings.xml から、サーバー設定を削除します。プロジェクトルートの /cloudmanager/maven/settings.xml
 
    ```
            <server>
@@ -104,4 +104,4 @@ WorkfrontとAdobe Experience Manager Assetsas a Cloud Serviceを接続する最�
 
 1. 変更をコミットし、コードを Cloud Manager リポジトリにプッシュします。
 
-1. Cloud Manager パイプラインを実行して、変更をCloud Servicesインスタンスにデプロイします
+1. Cloud Manager パイプラインを実行して、変更を Cloud Service インスタンスにデプロイします
