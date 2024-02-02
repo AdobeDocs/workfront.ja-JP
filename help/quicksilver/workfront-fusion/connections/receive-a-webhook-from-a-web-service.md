@@ -2,75 +2,75 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
-title: Web サービスから Webhook を受け取る
-description: Web サービスが現在アプリとして [!DNL Adobe Workfront Fusion]Web フックの送信をサポートしていますが、カスタム Webhook モジュールをインスタントトリガーとして使用して、サービスをシナリオに追加できます。
+title: Web サービスから web フックを受け取る
+description: Web サービスが現在  [!DNL Adobe Workfront Fusion] にアプリとして実装されていないが、web フックの送信をサポートしている場合は、カスタム web フックモジュールをインスタントトリガーとして使用して、サービスをシナリオに追加できます。
 author: Becky
 feature: Workfront Fusion
 exl-id: f1a67dbf-c245-4936-9dcc-3fdbfc6ee3b1
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Web サービスから Webhook を受け取る
+# Web サービスから web フックを受け取る
 
-Web サービスが現在アプリとして [!DNL Adobe Workfront Fusion]Web フックの送信をサポートしていますが、カスタム Webhook モジュールをインスタントトリガーとして使用して、サービスをシナリオに追加できます。
+Web サービスが現在 [!DNL Adobe Workfront Fusion] にアプリとして実装されていないが、web フックの送信をサポートしている場合は、カスタム web フックモジュールをインスタントトリガーとして使用して、サービスをシナリオに追加できます。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件はありません。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## ウェブフックを受け取る
+## Web フックを受信
 
-1. を **[!UICONTROL ウェブフック] >[!UICONTROL カスタムウェブフック]** モジュールをシナリオに追加します。
-1. クリック **[!UICONTROL 追加]**, type **[!UICONTROL ウェブフック名]** 表示されるボックスで、 **[!UICONTROL 保存]**.
+1. **[!UICONTROL Web フック]／[!UICONTROL カスタム web フック]**&#x200B;モジュールをシナリオに追加します。
+1. 「**[!UICONTROL 追加]**」をクリックし、表示されるボックスに **[!UICONTROL web フック名]**&#x200B;を入力してから、「**[!UICONTROL 保存]**」をクリックします。
 
-1. クリック **[!UICONTROL アドレスをクリップボードにコピー]**&#x200B;を選択し、「 **[!UICONTROL OK]**.
+1. **[!UICONTROL アドレスをクリップボードにコピー]**、次に「**[!UICONTROL OK]**」をクリックします。
 
-1. Web サービスにログインし、次の操作を行います。
+1. Web サービスにログインし、以下の操作を行います。
 
-   1. 内 [!UICONTROL 設定] web サービス用の領域で、webhook を作成します。
-   1. 手順 3 でクリップボードにコピーしたアドレスを貼り付けます。
-   1. Webhook をトリガーするイベントを選択します。
+   1. Web サービス用の[!UICONTROL 設定]エリアで、web フックを作成します。
+   1. 手順 3 でクリップボードにコピーしたアドレスをペーストします。
+   1. Web フックをトリガーするイベントを選択します。
 
-1. 内 [!DNL Workfront Fusion] シナリオの場合は、イベントをトリガーする 1 つ以上のイベントを指定します [!UICONTROL カスタムウェブフック] モジュール。
+1. [!DNL Workfront Fusion] シナリオで、[!UICONTROL カスタム web フック]モジュールをトリガーする 1 つ以上のイベントを指定します。
 1. シナリオを実行します。
 
-   イベントが発生した場合、 [!UICONTROL カスタムウェブフック] モジュールトリガーとシナリオが実行されます。
+   イベントが発生した場合、[!UICONTROL カスタム web フック]モジュールがトリガーして、シナリオが実行されます。
