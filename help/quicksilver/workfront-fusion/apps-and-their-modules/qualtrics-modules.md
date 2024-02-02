@@ -5,73 +5,73 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Qualtrics モジュール
-description: 内 [!DNL Adobe Workfront Fusion] シナリオの場合、Qualtrics を使用するワークフローを自動化でき、さらにそれを複数のサードパーティのアプリケーションやサービスに接続できます。
+description: ' [!DNL Adobe Workfront Fusion] シナリオでは、Qualtrics を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりすることができます。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Qualtrics モジュール
 
-内 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Qualtrics]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Qualtrics] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプやアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス ](../../workfront-fusion/get-started/license-automation-vs-integration.md) を参照してください。
 
 ## 前提条件
 
-使用する [!DNL Qualtrics] モジュールの場合、 [!UICONTROL Qualtrics] アカウント
+[!DNL Qualtrics] モジュールを使用するには、[!UICONTROL Qualtrics] アカウントが必要です。
 
-## 接続中 [!DNL Qualtrics] から [!DNL Workfront Fusion]
+## [!DNL Qualtrics] と [!DNL Workfront Fusion] の接続
 
-次に、 [!DNL Qualtrics] 内部から直接アカウントを取得する [!UICONTROL Qualtrics] モジュール。
+[!DNL Qualtrics] アカウントへの接続を、[!UICONTROL Qualtrics] モジュール内から直接作成できます。
 
-1. 任意の [!UICONTROL Qualtrics] モジュール、クリック **[!UICONTROL 追加]** の横 [!UICONTROL 接続] フィールドに入力します。
+1. 任意の [!UICONTROL Qualtrics] モジュールで、「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 次の情報を入力します。
 
    <table style="table-layout:auto"> 
@@ -79,25 +79,25 @@ ht-degree: 1%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 接続名 ]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
       <td> <p>新しい接続の名前を入力します。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL データセンター ID] </td> 
-      <td>形式を使用 <code>&lt;Data Center ID>.qualtrics.com</code>.</td> 
+      <td role="rowheader">[!UICONTROL Data Center ID] </td> 
+      <td><code>&lt;Data Center ID>.qualtrics.com</code> の形式を使用します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL API キー ]</td> 
-      <td>API キーを見つけるには、 [!DNL Qualtrics] ドキュメント。</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
+      <td>API キーを見つけるには、[!DNL Qualtrics] ドキュメントを参照してください。</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. クリック **[!UICONTROL 続行]** 接続を作成し、モジュールに戻ります。
+1. 「**[!UICONTROL 続行]**」をクリックし、接続を作成して、モジュールに戻ります。
 
 ## [!DNL Qualtrics] モジュールとそのフィールド
 
-では、以下のモジュールを使用できます。 [!DNL Qualtrics] コネクタ：
+[!DNL Qualtrics] コネクターでは、以下のモジュールを使用できます。
 
 * [!UICONTROL 新しい調査の回答を見る]
 * [!UICONTROL ディレクトリ連絡先の作成]
@@ -105,6 +105,6 @@ ht-degree: 1%
 * [!UICONTROL ディレクトリ連絡先の取得]
 * [!UICONTROL ディレクトリ連絡先の更新]
 * [!UICONTROL SMS を使用した新しい調査配布の作成]
-* [!UICONTROL 電子メールでの調査の配布]
-* [!UICONTROL API 呼び出しを実行する]
-* [!UICONTROL ディレクトリ連絡先のリスト]
+* [!UICONTROL メールでの調査配布]
+* [!UICONTROL API 呼び出し]
+* [!UICONTROL ディレクトリ連絡先をリスト]
