@@ -1,23 +1,23 @@
 ---
 product-area: calendars
 navigation-topic: use-the-home-area
-title: ホームカレンダーの表示
-description: カレンダービューは、 [!DNL Adobe Workfront Home] ：割り当てられたすべての作業項目を 1 か所で管理します。 [ ホームカレンダー ] ビューは、自分だけが表示し、自分だけがホームカレンダーを管理できます。
+title: ホームのカレンダーの表示
+description: ' [!DNL Adobe Workfront Home]  でカレンダービューを使用し、割り当てられたすべての作業アイテムを 1 か所で管理できます。ホームのカレンダービューは、自分のみに表示され、自分だけがホームのカレンダーを管理できます。'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c8801cb4-0485-44a1-9a7d-a17a96bca419
 source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 次を表示： [!UICONTROL ホームカレンダー]
+# [!UICONTROL ホームのカレンダー]を表示
 
-以下を使用して、 [!UICONTROL カレンダー] 表示 [!DNL Adobe Workfront Home] ：割り当てられたすべての作業項目を 1 か所で管理します。 お使いの [!UICONTROL ホームカレンダー] 自分だけが表示され、自分だけが [!UICONTROL ホームカレンダー].
+[!DNL Adobe Workfront Home] で[!UICONTROL カレンダー]ビューを使用し、割り当てられたすべての作業アイテムを 1 か所で管理できます。お使いの[!UICONTROL ホームのカレンダー]ビューは、自分のみに表示され、自分だけが[!UICONTROL ホームのカレンダー]を管理できます。
 
-ホームカレンダーの詳細については、 [ホームカレンダービュー](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+ホームのカレンダーの詳細については、[ホームのカレンダービュー](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)を参照してください。
 
 ## アクセス要件
 
@@ -35,42 +35,41 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以降</p> </td> 
+   <td> <p>[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>タスクと問題への [!UICONTROL 編集 ] アクセス</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>カレンダーに追加するタスクおよび問題に対する [!UICONTROL Contribute] の権限以上</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>カレンダーに追加するタスクおよびイシューに対する [!UICONTROL Contribute] の権限以上</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## 次を表示： [!DNL Workfront] [!UICONTROL ホームカレンダー]
+## [!UICONTROL [!DNL Workfront] のホームのカレンダー]を表示
 
-1. 次をクリック： **[!UICONTROL ホーム]** アイコン ![](assets/home-icon-30x29.png) Adobe Workfrontの左上隅に
+1. Adobe Workfront の左上隅で、**[!UICONTROL ホーム]**&#x200B;アイコン ![](assets/home-icon-30x29.png) をクリックします。
 
    >[!NOTE]
    >
-   >お使いの [!DNL Workfront] 管理者は、 [!UICONTROL ホーム] アイコンを次に示します。
+   >[!DNL Workfront] 管理者は、環境の[!UICONTROL ホーム]アイコンに次の変更を行います。
    >
-   >* 組織を説明するようにカスタマイズされた画像に置き換えます。 この場合、この記事に示すアイコンは異なります。
-   >* リンクされたページを別のページに置き換えます。 この場合、 **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) ページの右上隅にある「 **[!UICONTROL ホーム]**.
+   >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
+   >* リンクされたページを別のページに置き換える。この場合、ページの右上隅で、**[!UICONTROL メインメニュー]**![](assets/main-menu-icon.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
 
 
-
-1. クリック **[!UICONTROL 作業用リスト]** ホームの左上隅で、 **[!UICONTROL カレンダー]** 」と入力します。
+1. ホームの左上隅で、「**[!UICONTROL 作業リスト]**」、ドロップダウンメニューで「**[!UICONTROL カレンダー]**」の順にクリックします。
 
    ![](assets/work-list-calendar-drop-down-expanded-home-nwe.png)
 
-   この [!UICONTROL ホームカレンダー] ビューが表示されます。
+   [!UICONTROL ホームのカレンダー]ビューが表示されます。
 
    ![](assets/calendar-group-by-drop-down-home-nwe-350x135.png)
 
-   自分に割り当てられた作業項目、または自分のグループ、チーム、または役割に割り当てられた作業項目がすべて左側のパネルに表示されます。
+   自分に割り当てられた作業アイテム、または自分のグループ、チーム、または役割に割り当てられた作業アイテムがすべて左側のパネルに表示されます。
 
-   左側のパネルからカレンダーにタスクをドラッグ&amp;ドロップして、稼働日を管理できます。 を [!UICONTROL ホームカレンダー]を参照してください。 [以下を使用： [!UICONTROL ホームカレンダー] 表示](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+   左側のパネルからカレンダーにタスクをドラッグ＆ドロップすることで、作業日を管理できます。[!UICONTROL ホームのカレンダー]に入力する方法について詳しくは、[[!UICONTROL ホームのカレンダー]ビュー](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)の使用を参照してください。
