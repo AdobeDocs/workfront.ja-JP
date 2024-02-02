@@ -2,30 +2,30 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: でドキュメントと配達確認をアップロード  [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ
-description: Adobe Workfront plugin for [!DNL Creative Cloud] アプリ
+title: ' [!DNL Creative Cloud]  アプリケーション用  [!DNL Adobe Workfront]  プラグインを使用してドキュメントとプルーフをアップロード'
+description: ' [!DNL Creative Cloud]  アプリケーション用 Adobe Workfront プラグイン'
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 418f1293-5639-4614-b518-d17601467f82
 source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '67'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# でドキュメントと配達確認をアップロード  [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ
+# [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用してドキュメントとプルーフをアップロード
 
 >[!NOTE]
 >
->ドキュメントと配達確認のアップロードは、現在、Premiere ProおよびAfter Effectsではサポートされていません。
+>ドキュメントとプルーフのアップロードは現在、Premiere Pro および After Effects ではサポートされていません。
 
 
-* [配達確認のアップロード元 [!DNL Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
-* [ドキュメントのアップロード元 [!DNL Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
-* [アップロード [!DNL XD] ～の証としてのアートボード [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
-* [アップロード [!DNL XD] 書類としてのアートボード [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [配達確認のアップロード元 [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
-* [ドキュメントのアップロード元 [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-* [配達確認のアップロード元 [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
-* [ドキュメントのアップロード元 [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+* [ [!DNL Photoshop] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
+* [ [!DNL Photoshop] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
+* [ [!DNL XD]  アートボードをプルーフとして  [!DNL Workfront] にアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [ [!DNL XD]  アートボードをドキュメントとして  [!DNL Workfront] にアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [ [!DNL InDesign] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
+* [ [!DNL InDesign] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+* [ [!DNL Illustrator] からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+* [ [!DNL Illustrator] からドキュメントをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
