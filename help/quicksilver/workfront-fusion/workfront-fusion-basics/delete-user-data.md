@@ -2,21 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: ユーザデータの削除 [!DNL Adobe Workfront Fusion]
-description: ユーザーデータは、 [!DNL Adobe Workfront Fusion] アカウント
+title: ' [!DNL Adobe Workfront Fusion] のユーザーデータの削除'
+description: ' [!DNL Adobe Workfront Fusion]  アカウントのユーザーデータは保存および削除できます。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
 source-git-commit: 759472ada4595625e3a02b55c455564e24343743
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# ユーザデータの削除 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] のユーザーデータの削除
 
-ユーザーデータは、 [!DNL Adobe Workfront Fusion] アカウント：
+[!DNL Adobe Workfront Fusion] アカウントの次のエリアにユーザーデータを保存または削除できます。
 
 * [!UICONTROL シナリオ]
 * [!UICONTROL 接続]
@@ -28,46 +28,46 @@ ht-degree: 2%
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p><p>[!UICONTROL [!DNL Workfront Fusion] 自動化 (WA)</p>   </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## ユーザーデータを削除
 
-ユーザー・データを削除する手順は、次のとおりです。
+ユーザーデータを削除するには、次の手順に従います。
 
-1. 左パネルの領域をクリックします。
+1. 左側のパネルのエリアをクリックします。
 
-   例えば、シナリオを削除する場合は、 **[!UICONTROL シナリオ]** をクリックします。
+   例えば、シナリオを削除する場合は、左側のパネルの「**[!UICONTROL シナリオ]**」をクリックします。
 
-1. 削除する項目の右にある下向き矢印をクリックし、 **[!UICONTROL 削除]**.
-1. クリック **[!UICONTROL 本当に]** をクリックして確定します。
+1. 削除する項目の右にある下向き矢印をクリックし、「**[!UICONTROL 削除]**」をクリックします。
+1. 「**[!UICONTROL はい]**」をクリックして確定します。
