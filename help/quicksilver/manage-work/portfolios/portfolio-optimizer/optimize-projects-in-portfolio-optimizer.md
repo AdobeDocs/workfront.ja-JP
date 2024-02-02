@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Optimizer でのプロジェクトのPortfolio
-description: 以下を使用して、 [!UICONTROL Portfolio最適化] ：スコアやその他の値に基づいてプロジェクトを優先します。 Optimizer は、コスト、整列、リスク、ROI などの重要なプロジェクト情報を考慮し、より重要なものに従ってプロジェクトに優先順位を付けます。
+title: ポートフォリオオプティマイザーでのプロジェクトの最適化
+description: '[!UICONTROL ポートフォリオオプティマイザー]を使用すると、スコアやその他の値に基づいてプロジェクトに優先順位を付けることができます。オプティマイザーは、コスト、調整、リスク、ROI などの重要なプロジェクト情報を考慮して、ユーザーにとって何がより重要であるかに従ってプロジェクトに優先順位を付けます。'
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
 source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# でのプロジェクトの最適化 [!UICONTROL Portfolio最適化]
+# [!UICONTROL ポートフォリオオプティマイザー]でプロジェクトを最適化
 
-以下を使用して、 [!UICONTROL Portfolio最適化] ：スコアやその他の値に基づいてプロジェクトを優先します。 この [!UICONTROL 最適化] では、コスト、整列、リスク、ROI などの重要なプロジェクト情報を考慮して、より重要なものに従ってプロジェクトを優先順位付けします。
+[!UICONTROL ポートフォリオオプティマイザー]を使用すると、スコアやその他の値に基づいてプロジェクトに優先順位を付けることができます。[!UICONTROL オプティマイザー] は、コスト、調整、リスク、ROI などの重要なプロジェクト情報を考慮して、ユーザーとって何がより重要であるかに従ってプロジェクトに優先順位を付けます。
 
 ## アクセス要件
 
@@ -26,56 +26,56 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Business] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ] </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROL 編集 ] によるプロジェクトおよびPortfolioへのアクセス</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトおよびポートフォリオへのアクセスの [!UICONTROL Edit]</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオに対する [!UICONTROL 管理 ] 権限</p> <p>プロジェクトへの権限の貢献</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの参加権限かそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## Optimizer でのプロジェクトのPortfolio
+## ポートフォリオオプティマイザーでのプロジェクトの最適化
 
-1. Portfolioを開き、 **[!UICONTROL Portfolioの最適化]** をクリックします。
+1. ポートフォリオを開き、左側のパネルで&#x200B;**[!UICONTROL ポートフォリオの最適化]**&#x200B;をクリックします。
 
-   この [!UICONTROL Portfolio最適化] が表示されます。
+   [!UICONTROL ポートフォリオオプティマイザー]が表示されます。
 
-1. 次をクリック： **[!UICONTROL 最適化]** アイコン
+1. **[!UICONTROL 最適化]**&#x200B;アイコンをクリックします。
 
    ![](assets/optimize-icon-portfolio-optimizer.png)\
-   プロジェクトのスコアを割り当てることができるカテゴリは、 [!UICONTROL 最適化] アイコン
+   プロジェクトのスコア付けに使用できるカテゴリが、[!UICONTROL 最適化]アイコンの左側に表示されます。
 
-1. スライド円を使用して、次のカテゴリの最適化を修正します。
+1. スライドする円を使用して、次のいずれかのカテゴリの最適化を変更します。
 
-   * **[!UICONTROL 低コスト]**:スライダーを右に動かして、一番下のプロジェクトを表示します [!UICONTROL 計画コスト].
-   * **[!UICONTROL 高い整列]**:スライダを右に動かして、 [!UICONTROL スコアカード].
-   * **[!UICONTROL 高い値]**:スライダーを右に動かして、高い方のプロジェクトを表示します [!UICONTROL 正味値] スコア。
-   * **[!UICONTROL 利益をもたらすリスクが低い]**:スライダを右に動かして、最もリスクの低いプロジェクトをメリット比で表示します。
-   * **[!UICONTROL 高い ROI]**:スライダーを右に動かすと、投資回収率 (ROI) が高いプロジェクトが表示されます。
+   * **[!UICONTROL 低コスト]**：スライダーを右に移動すると、[!UICONTROL 予定コスト]が最も低いプロジェクトが表示されます。
+   * **[!UICONTROL 整合性の高さ]**：スライダーを右に移動すると、[!UICONTROL スコアカード]に基づいて最も整合性が高いプロジェクトが表示されます。
+   * **[!UICONTROL 価値の高さ]**：スライダーを右に移動すると、[!UICONTROL 純値]スコアが高いプロジェクトが表示されます。
+   * **[!UICONTROL 利点に対するリスクの低さ]**：スライダーを右に動かすすと、利点に対すいてリスクが最も低いプロジェクトが表示されます。
+   * **[!UICONTROL ROI の高さ]**：スライダーを右に移動すると、投資収益率（ROI）が高いプロジェクトが表示されます。
 
-1. 次をクリック： **x アイコン** 最適化カテゴリを閉じます。
+1. **x アイコン** をクリックして、最適化カテゴリを閉じます。
 
-   これにより、 [!UICONTROL スコア] の各プロジェクトの値 **[!UICONTROL スコア]** 列。
+   これにより、**[!UICONTROL スコア]**&#x200B;列の各プロジェクトの[!UICONTROL スコア]値が更新されます。
 
-   詳しくは、 [!UICONTROL Portfolio最適化] スコア ( [の概要 [!UICONTROL Portfolio最適化] スコア](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+   [!UICONTROL ポートフォリオオプティマイザー]スコアの詳細については、[[!UICONTROL ポートフォリオオプティマイザー]スコアの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)を参照してください。
 
-1. 正しい重み付けを **[!UICONTROL スコア]** 」列で、 **[!UICONTROL スコア]** 列を使用してこの列で並べ替えます。 スコアが最も高いプロジェクトがリストの一番上に表示されます。
+1. **[!UICONTROL スコア]**&#x200B;列に正しい重みを設定したら、**[!UICONTROL スコア]**&#x200B;列のヘッダーをクリックして、この列で並べ替えます。最もスコアの高いプロジェクトがリストの先頭に表示されます。
 
-1. （オプション）優先順にプロジェクトをドラッグ&amp;ドロップします。\
-   これにより、 [!UICONTROL Portfolio最適化].
-1. （オプション）「 **[!UICONTROL 優先度を設定]** プロジェクトの新しい優先度を保存します。\
-   プロジェクトの優先順位付けの詳細については、 [!UICONTROL Portfolio最適化]（記事を参照） [でプロジェクトに優先順位を付ける [!UICONTROL Portfolio最適化]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+1. （オプション）優先度に従ってプロジェクトをドラッグ＆ドロップします。\
+   これにより、[!UICONTROL ポートフォリオオプティマイザー]内のプロジェクトの順序が変更されます。
+1. （オプション）**[!UICONTROL 優先度の設定]**&#x200B;をクリックして、プロジェクトの新しい優先度を保存します。\
+   [!UICONTROL ポートフォリオオプティマイザー]でのプロジェクトの優先順位付けの詳細については、[[!UICONTROL ポートフォリオオプティマイザーでのプロジェクトの優先順位付け]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)を参照してください。
 
-1. クリック **[!UICONTROL 保存]** を [!UICONTROL Portfolio最適化].
+1. **[!UICONTROL 保存]**&#x200B;をクリックして、[!UICONTROL ポートフォリオオプティマイザー]を保存します。
