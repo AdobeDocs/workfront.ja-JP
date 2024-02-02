@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: 新規ユーザーへのメール招待を管理
-description: Adobe Workfront管理者は、E メールの招待状を使用して、Workfrontにユーザーを追加し、追加されたことをユーザーに通知できます。
+title: 新規ユーザーへのメール招待の管理
+description: Adobe Workfront 管理者は、招待メールを使用してユーザーを Workfront に追加し、追加されたことをユーザーに通知することができます。
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
 source-git-commit: 9bcd792139f8f2f0198da943e5c63a2add32e856
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '947'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 新規ユーザーへのメール招待を管理
+# 新規ユーザーへのメール招待の管理
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -23,24 +23,24 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->このページで説明する手順は、まだAdmin Consoleにオンボーディングされていない組織にのみ適用されます。 組織がAdobe Admin Consoleにオンボーディングされている場合、Adobe Admin Consoleを通じてこの操作を実行する必要があります。
+>このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
 >
->組織がAdobe Admin Consoleにオンボーディングされているかどうかに応じて異なる手順のリストについては、 [プラットフォームベースの管理上の違い (Adobe Workfront/Adobeビジネスプラットフォーム )](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについて詳しくは、[プラットフォームベースの管理上の違い（Adobe Workfront/Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
-Adobe Workfront管理者は、E メールの招待状を使用して、Workfrontにユーザーを追加し、追加されたことをユーザーに通知できます。
+Adobe Workfront 管理者は、招待メールを使用してユーザーを Workfront に追加し、追加されたことをユーザーに通知することができます。
 
-電子メールの招待状を使用すると、新しいユーザーはリンクをたどってWorkfrontアカウントのパスワードを選択できます。 その後、アカウントの設定を完了できます。
+メールの招待状を使用すると、新規ユーザーはリンクをたどって Workfront アカウントのパスワードを選択できます。そうした後、アカウントの設定を完了できます。
 
-新しいアカウントのセキュリティを確保するために、新しいユーザーは自分のパスワードを選択できるよう、E メールの招待状を使用することをお勧めします。 また、新しいユーザーのアカウント作成時に、そのユーザーのパスワードを選択することもできます。 Workfrontに新しいユーザーを追加する方法について詳しくは、 [ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+新規アカウントのセキュリティを確保するために、新規ユーザーは自分のパスワードを選択できるよう、メールの招待状を使用することをお勧めします。あるいは、新規ユーザーのアカウントを作成するときに、新しいパスワードを選択することもできます。Workfront に新しいユーザーを追加する方法について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-次の新しいユーザー電子メールを設定できます。
+以下の新しいユーザーメールを設定できます。
 
-* Workfrontに追加された新規ユーザー
-* 要求者のライセンスを持つユーザーがWorkfrontに追加された
+* Workfront に追加された新規ユーザー
+* Workfront に追加された、依頼者のライセンスを持つユーザー
 
-電子メールの招待状が送信されると、すべての新規ユーザーに同じ電子メールが表示されます。
+メールの招待状が送信されると、すべての新規ユーザーに同じメールが表示されます。
 
-E メールの招待状の受け取りについて詳しくは、 [E メールの招待状を受け取り、Adobe Workfront用のパスワードを作成します](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
+メールの招待状の受信について詳しくは、[メールの招待状を受信し、Adobe Workfront 用のパスワードを作成](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)を参照してください。
 
 ## アクセス要件
 
@@ -51,12 +51,12 @@ E メールの招待状の受け取りについて詳しくは、 [E メール�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -65,66 +65,66 @@ E メールの招待状の受け取りについて詳しくは、 [E メール�
  </tbody> 
 </table>
 
-## E メールの招待状を生成 {#generate-email-invitations}
+## メールの招待状を生成 {#generate-email-invitations}
 
-E メールの招待状は、次のシナリオで生成されます。
+メールの招待状は、以下のシナリオで生成されます。
 
-* 新しいユーザーを作成し、 **この人に招待メールを送信** の **新しいユーザー** フォーム。 新しいユーザーの作成について詳しくは、 [ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* 複数の新しいユーザーをインポートし、 **これらの担当者に招待メールを送信** オプション。 複数の新しいユーザーのインポートについて詳しくは、 [ユーザーの読み込み](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
-* ユーザーを作成した後は、Workfrontにまだアカウントを登録しておらず、Workfrontのパスワードを設定していないユーザーへの招待を手動で生成できます。\
-   アカウントを作成済みだが、まだ登録していないユーザーは、 **登録解除** Workfront
+* 新規ユーザーを作成し、**新規ユーザー**&#x200B;フォームにある&#x200B;**このユーザーに招待メールを送信**&#x200B;を選択します。新規ユーザーの作成について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
+* 複数の新規ユーザーを読み込み、「**このユーザーに招待メールを送信**」オプションを選択します。複数の新規ユーザーの読み込みについて詳しくは、[ユーザーの読み込み](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)を参照してください。
+* ユーザーを作成した後は、Workfront にアカウントをまだ登録しておらず、Workfront パスワードが確定していないユーザーに対して、招待状を手動で生成できます。\
+  アカウントを作成済みだが、まだ登録していないユーザーは、Workfront で&#x200B;**未登録**&#x200B;とマークされます。
 
-   >[!NOTE]
-   >
-   >この **この人に招待メールを送信** 」ボックスに入力すると、電子メールの招待状を手動で生成することはできません。 E メールの招待状を手動で再送信できるのは、アカウントの作成時に元の E メールの招待状を送信したユーザーのみです。 新しいユーザーの作成について詳しくは、 [ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >[!NOTE]
+  >
+  >ユーザー作成時に&#x200B;**このユーザー招待メールを送信**&#x200B;ボックスを選択解除すると、メールの招待状を手動で生成することはできません。メールの招待状を手動で再送信できるのは、アカウントの作成時に元のメールの招待状を受信したユーザーのみです。新規ユーザーの作成について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-既存の未登録ユーザーへの E メール招待状を手動で生成するには：
+既存の未登録ユーザーへのメール招待状を手動で生成するには、以下のように行います。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **ユーザー** ![](assets/users-icon-in-main-menu.png).
-1. 次を表示するユーザーを選択します： **登録解除** 名前の後にラベルを付けます。
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**ユーザー** ![](assets/users-icon-in-main-menu.png) の順にクリックします。
+1. 名前の後に「**未登録**」ラベルが表示されているユーザーを選択します。
 
    ![](assets/unreg-user-qs-350x221.png)
 
-1. その他アイコンをクリックします。 ![](assets/more-icon.png)を選択し、「 **ユーザーに登録を促す**.
+1. その他アイコン ![](assets/more-icon.png) をクリックし、次に&#x200B;**登録についてユーザーに後で通知**&#x200B;をクリックします。
 
-   新しいユーザーに、Workfrontのパスワードを作成するために使用できる新しいリンクが記載された招待メールが送信されます。
+   新規ユーザーに、Workfront パスワードの作成に使用できる新しいリンクを含む招待メールが送信されます。
 
    >[!NOTE]
    >
-   >組織がAdmin Consoleにオンボーディングされ、Workfrontを通じてユーザーを追加する場合、新しいユーザーに電子メール招待メールを送信するオプションはありません。
+   >組織が Admin Console にオンボードされていて、Workfront からユーザーを追加する場合は、新規ユーザーにメールの招待状を送信するオプションはありません。
    >
-   >新しいAdobeユーザーがAdmin Consoleに追加され、Admin Consoleが電子メールを配信して登録プロセスを完了するよう招待します。 すべてのユーザーが登録プロセスを完了して、任意のAdobe・システムにアクセスします。
+   >新規アドビユーザーが Admin Console に追加され、登録プロセスを完了するように勧めるメールが Admin Console から送信されます。どのアドビシステムにアクセスするにも、すべてのユーザーが登録プロセスを完了する必要があります。
    >
-   >既存のAdobeユーザーの場合、Workfrontが使用可能になっていることを知らせる電子メールをユーザーが受け取る場合と受け取らない場合があります。 これは、製品のAdobe管理者が制御するプリファレンスです。
+   >既存のアドビユーザーの場合、Workfront が使用可能になっていることを知らせるメールがユーザーに届く場合と届かない場合があります。これは、製品のアドビ管理者が制御する環境設定です。
 
-## E メールの招待状の設定 {#configure-email-invitations}
+## メールの招待状を設定 {#configure-email-invitations}
 
-Workfront管理者は、新しいユーザーへの E メールの招待状に含めるメッセージを設定できます。
+Workfront 管理者は、新規ユーザーへの招待メールに含めるメッセージを設定できます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
 
-1. 左側のリストで、 **電子メール** > **招待**.
+1. 左側のリストで、**メール**／**招待状**&#x200B;とクリックします。
 
-1. 内 **一般オプション** セクションで、次のいずれかの変更をおこないます。
+1. **一般のオプション**&#x200B;セクションで、以下の変更のいずれかを行います。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>...日後に招待リンクを非アクティブ化</strong> </td> 
-      <td> <p>E メールの招待状にWorkfrontへの有効なリンクが含まれなくなるまでの時間を選択します。 デフォルトの日数は 45 日です。</p> </td> 
+      <td role="rowheader"><strong>＿日後に招待リンクを非アクティブ化</strong> </td> 
+      <td> <p>招待メールに Workfront への有効なリンクが含まれなくなるまでの時間を選択します。デフォルトは 45 日です。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>メッセージやサービス期間を含める</strong> </td> 
-      <td> <p>Workfrontに追加されたすべての新規ユーザーの電子メール招待状を変更する場合は、このオプションを選択します。 これには、要求者のライセンスを持つユーザーは含まれません。</p> 
+      <td role="rowheader"><strong>メッセージや利用規約を含める</strong> </td> 
+      <td> <p>Workfront に追加されたすべての新規ユーザーの招待メールを変更する場合は、このオプションを選択します。これには、依頼者のライセンスを持つユーザーは含まれません。</p> 
        <ul> 
-        <li><strong>メッセージ</strong>:すべての新規ユーザーの電子メールの招待状を変更する場合は、電子メールの本文として電子メールの招待状に含めるテキストを指定します。</li> 
-        <li><strong>利用条件</strong>:すべての新規ユーザーに対する電子メールの招待状を変更する場合は、電子メールの招待状に含めるテキストを利用条件として指定します。<br></li> 
-        <li><strong>ヘルプデスクユーザー向けのメッセージやサービス期間を含める</strong>:要求者のライセンスを持つWorkfrontに追加されたすべての新規ユーザーに対して電子メールの招待状を変更する場合は、このオプションを選択します。</li> 
-        <li><strong>メッセージ</strong>:要求者のライセンスを持つすべての新規ユーザーに対して電子メールの招待状を変更する場合は、電子メールの本文として電子メールの招待状に含めるテキストを指定します。</li> 
-        <li><strong>利用条件</strong>:依頼者のライセンスを持つすべての新規ユーザーに対して電子メールの招待状を変更する場合は、電子メールの招待状に含めるテキストを利用条件として指定します。<br></li> 
-        <li> <p>内 <strong>招待のプレビュー</strong> 「 」セクションに、電子メールの招待状のプレビューを表示できます。 電子メールの招待状にカスタマイズしたメッセージを含めることを選択した場合は、カスタマイズしたメッセージがこの領域に表示されます。</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>メッセージ</strong>：すべての新規ユーザーに対するメールの招待状の変更を選択する場合は、メールの本文としてメールの招待状に含めるテキストを指定します。</li> 
+        <li><strong>利用条件</strong>：すべての新規ユーザーに対するメールの招待状の変更を選択する場合は、メールの招待状に含めるテキストを利用条件として指定します。<br></li> 
+        <li><strong>ヘルプデスクユーザー向けのメッセージや利用規約を含める</strong>：Workfront に追加された、依頼者のライセンスを持つすべての新規ユーザーに対してメールの招待状を変更する場合は、このオプションを選択します。</li> 
+        <li><strong>メッセージ</strong>：要求者ライセンスを持つすべての新規ユーザーへのメールの招待状を変更する場合は、メールの本文としてメールの招待状に含めるテキストを指定します。</li> 
+        <li><strong>条件</strong>：要求者のライセンスを持つすべての新規ユーザーへのメールの招待状を変更する場合は、メールの招待状に含めるテキストを条件として指定します。<br></li> 
+        <li> <p>「<strong>招待状のプレビュー</strong>」セクションに、メールの招待状のプレビューを表示できます。カスタマイズしたメッセージをメールの招待状に含めるよう選択した場合は、カスタマイズしたメッセージがこの領域に表示されます。</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
