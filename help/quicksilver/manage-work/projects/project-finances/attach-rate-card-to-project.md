@@ -1,33 +1,33 @@
 ---
-title: プロジェクトへの料金カードの添付
-description: レートカードをプロジェクトに付加すると、場所別のすべての役割とそれに関連する請求率がプロジェクトに追加されます。
+title: プロジェクトへのレートカードの添付
+description: レートカードをプロジェクトに添付すると、場所別のすべての役割とそれに関連する請求レートがプロジェクトに追加されます。
 author: Lisa
 feature: Work Management
 role: User
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# プロジェクトへの料金カードの添付
+# プロジェクトへのレートカードの添付
 
 {{highlighted-preview-article-level}}
 
-レートカードには、場所に基づいて、ジョブの役割ごとに複数の請求レートが保存されます。 それぞれ異なる請求率を持つ、パリに拠点を置く Designer と、ニューヨークに拠点を置く 2 人目の Designer という職務を持つことができます。 ただし、レートカードのジョブロールに場所は必要ありません。 レートカード上のジョブロール（場所など）の請求レートには、有効日も含まれる場合があります。
+レートカードには、場所に基づいて、担当業務ごとに複数の請求レートが保存されます。例えば、パリを拠点とするデザイナーとニューヨークを拠点とする別のデザイナーの 2 つの担当業務を持ち、それぞれに異なる請求レートで設定できます。ただし、レートカードの担当業務に場所は必要ありません。レートカードの担当業務（場所が含まれる場合もあります）の請求レートには、有効日付を含めることもできます。
 
-レートカードをプロジェクトに付加すると、場所別のすべての役割とそれに関連する請求率がプロジェクトに追加されます。
+レートカードをプロジェクトに添付すると、場所別のすべての役割とそれに関連する請求レートがプロジェクトに追加されます。
 
 >[!NOTE]
 >
->レートカードを添付すると、プロジェクト上の既存の請求率が上書きされます。
+>評価カードを添付すると、プロジェクト上の既存の請求レートが上書きされます。
 
-請求率は、プロジェクト内の料金カードから直接編集できます。 これは、デフォルトのレートカードに保存されるレートには影響しません。
+請求レートは、プロジェクト内のレートカードから直接編集できます。これは、デフォルトのレートカードに保存されるレートには影響しません。
 
-レートカードの作成について詳しくは、 [レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+レートカードの作成について詳しくは、[レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。
 
-プロジェクトのジョブロール請求率の上書きおよびプロジェクト収益の計算に関する一般情報は、 [ジョブ・ロール請求率の上書きとプロジェクトの収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+プロジェクトの担当業務請求レートの上書きおよびプロジェクト収益の計算に関する一般的な情報については、[担当業務請求レートの上書きとプロジェクトでの収益の計算の概要](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 ## アクセス要件
 
@@ -38,41 +38,41 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：標準</p><p>または</p><p>レガシープラン：プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>現在のプラン：標準</p><p>または</p><p>従来のプラン：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよび財務データへのアクセスを編集</p> <p>ジョブロールの管理アクセス</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトおよび財務データへのアクセスを編集する</p> <p>担当業務の管理アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財務を管理する権限を持つプロジェクトに対する権限を管理します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>財務を管理する権限を持つプロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## プロジェクトへの料金カードの添付
+## プロジェクトへのレートカードの添付
 
 1. プロジェクトに移動します。
-1. クリック **請求率** をクリックします。 最初にクリックする必要がある場合があります **さらに表示**.
-1. クリック **請求率の追加 > レートカードの添付**.
+1. 左側のパネルで「**請求料金**」をクリックします。最初に「**さらに表示**」をクリックする必要がある場合もあります。
+1. **「請求レートを追加」／「レートカードを添付」**&#x200B;をクリックします。
 
-   料金カードの添付ページが開きます。 詳しくは、 [レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   レートカードを添付ページが開きます。詳しくは、[レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。
 
-1. プロジェクトに追加する料金カードを選択し、 **添付**.
+1. プロジェクトに追加するレートカードを選択し、「**添付**」をクリックします。
 
-   料金カードとそのすべてのジョブロールレートが請求率リストに追加されます。
+   レートカードとそのすべての担当業務のレートが請求レートリストに追加されます。
 
    ![プロジェクトに追加されたレートカード](assets/billing-rates-added-from-rate-card.png)
 
    >[!NOTE]
    >
-   >請求率リストでは、レートカードから 1 つ以上の役割を削除できます。 プロジェクトからジョブロールの請求率を削除しても、デフォルトの料金カードからは削除されません。
+   >請求レートリストでは、レートカードからの 1 つ以上の担当業務を削除できます。プロジェクトから担当業務の請求レートを削除しても、デフォルトのレートカードからは削除されません。
 
