@@ -2,26 +2,26 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: カスタム経費タイプを作成
-description: As a [!DNL Adobe Workfront] 管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。 費用は、タスクまたはプロジェクトに関連付けることができる非労務費です。
+title: カスタム費用タイプを作成
+description: ' [!DNL Adobe Workfront]  管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。費用は、タスクやプロジェクトに関連付けることができる労力以外のコストです。'
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# カスタム経費タイプを作成
+# カスタム費用タイプを作成
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-As a [!DNL Adobe Workfront] 管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。 費用は、タスクまたはプロジェクトに関連付けることができる非労務費です。
+[!DNL Adobe Workfront] 管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。費用は、タスクやプロジェクトに関連付けることができる労力以外のコストです。
 
-作成した費用タイプは、編集または削除できます。 組み込みの [!DNL Workfront] 費用タイプ。
+作成した費用タイプは、編集や削除することができます。組み込みの [!DNL Workfront] 費用タイプは、削除したり編集したりすることができません。
 
 ## アクセス要件
 
@@ -32,23 +32,23 @@ As a [!DNL Adobe Workfront] 管理者は、カスタム費用タイプを作成�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> <p><b>注意</b>:まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## デフォルトの費用タイプ
 
-に含まれる費用タイプ [!DNL Workfront] デフォルトでは、次の項目を含むを削除または編集することはできません。
+デフォルトで [!DNL Workfront] に含まれる費用タイプは、次の項目を含み、削除したり編集したりすることができません。
 
 * [!UICONTROL 広告宣伝費]
 * [!UICONTROL コンサルティング]
@@ -57,28 +57,28 @@ As a [!DNL Adobe Workfront] 管理者は、カスタム費用タイプを作成�
 * [!UICONTROL 部材費]
 * [!UICONTROL 交通費]
 
-## カスタム経費タイプを作成
+## カスタム費用タイプを作成
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront].
-1. クリック **[!UICONTROL 費用タイプ]**.
-1. クリック **[!UICONTROL 新しい費用タイプ]**.
-1. 内 **[!UICONTROL 新しい費用タイプ]** 表示されるボックスで、次の情報を指定します。
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
+1. 「**[!UICONTROL 新規費用タイプ]**」をクリックします。
+1. 表示される「**[!UICONTROL 新規費用タイプ]**」ボックスで、次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名前 ]</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>費用の名前を指定します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 説明 ]</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td>費用の説明を指定します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 計算単位 ]</td> 
-      <td> <p>費用タイプの測定単位をドロップダウンリストから選択します。</p> <p>以下の測定単位を使用できます。</p> 
+      <td role="rowheader">[!UICONTROL Calculated Unit]</td> 
+      <td> <p>費用タイプの測定単位をドロップダウンリストから選択します。</p> <p>以下の測定単位が使用できます。</p> 
        <ul> 
         <li>マイル</li> 
         <li>キロメートル</li> 
@@ -86,28 +86,28 @@ As a [!DNL Adobe Workfront] 管理者は、カスタム費用タイプを作成�
         <li>ドル</li> 
         <li>ドル</li> 
         <li>日</li> 
-        <li>その他 — このオプションを選択すると、測定単位に名前を付け、測定単位を組織にとってなじみのあるものとして定義するよう求められます。</li> 
+        <li>その他 - このオプションを選択すると、測定単位に名前を付け、測定単位を組織にとってなじみのあるものとして定義するよう求められます。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">レート</td> 
-      <td> <p>単位あたりの価格を指定します。 これは通貨形式のフィールドで、 <strong>[!UICONTROL 計算単位 ]</strong> フィールドに入力します。 </p> <p>レートには、小数点以下 4 桁までの数値を含めることができます。 例： 1.0375</p> </td> 
+      <td> <p>単位あたりの価格を指定します。これは通貨形式のフィールドで、<strong>[!UICONTROL Calculated Unit]</strong>フィールドで確立された各ユニットのコストを表します。 </p> <p>レートには、小数点以下 4 桁までの数値を含めることができます。例えば、1.0375</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. クリック **[!UICONTROL 費用タイプを作成]**.\
+1. 「**[!UICONTROL 費用タイプの作成]**」をクリックします。\
    これで、ユーザーが費用タイプをプロジェクトとタスクの費用に関連付けることができるようになりました。
 
-## カスタム費用タイプの変更
+## カスタム費用タイプを変更
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront].
-1. クリック **[!UICONTROL 費用タイプ]**.
-1. 変更する費用タイプを選択し、「 **[!UICONTROL 編集]**.
+1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
+1. 変更する費用タイプを選択してから、「**[!UICONTROL 編集]**」をクリックします。
 
-   この **[!UICONTROL 費用タイプの編集]** ダイアログボックスが表示されます。
+   **[!UICONTROL 費用タイプの編集]**&#x200B;ダイアログボックスが表示されます。
 
-1. 必要な変更を加え、「 **[!UICONTROL 変更を保存]**.\
+1. 必要な変更を加え、「**[!UICONTROL 変更を保存]**」をクリックします。\
    これで、ユーザーが費用タイプをプロジェクトとタスクの費用に関連付けることができるようになりました。
 
-費用の使用方法とプロジェクトのコストに与える影響の詳細については、「 [プロジェクト費用の管理](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+費用の使用方法とプロジェクトのコストに与える影響に関して詳しくは、「[プロジェクト費用の管理](../../../manage-work/projects/project-finances/manage-project-expenses.md)」の記事を参照してください。
