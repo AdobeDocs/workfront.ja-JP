@@ -5,13 +5,13 @@ title: 新しいホームでのウィジェットの追加、編集または削�
 description: 多数のウィジェットから選択して、ホームページに表示されるコンテンツをカスタマイズできます。これらのウィジェットは、ホームページ上でサイズ変更や配置が可能です。
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
 ---
-
 
 # 新しいホームでのウィジェットの追加、編集または削除
 
