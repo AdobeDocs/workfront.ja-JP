@@ -1,21 +1,21 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: バーンダウンチャートのデータを同期
-description: バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。 燃え下がりグラフがプロジェクトまたは反復のデータと同期しなくなった場合は、手動で同期できます。
+title: バーンダウンチャートのデータを同期する
+description: バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。バーンダウンチャートがプロジェクトまたはイテレーションのデータと同期しなくなった場合は、手動で同期できます。
 author: Lisa
 feature: Agile
 exl-id: 39086d73-4835-4e15-8fa6-7a7efc48a38b
 source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '191'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# バーンダウンチャートのデータを同期
+# バーンダウンチャートのデータを同期する
 
-バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。 燃え下がりグラフがプロジェクトまたは反復のデータと同期しなくなった場合は、手動で同期できます。
+バーンダウンチャートは、プロジェクトまたはイテレーション内のデータと自動的に同期されます。バーンダウンチャートがプロジェクトまたはイテレーションのデータと同期しなくなった場合は、手動で同期できます。
 
 ## アクセス要件
 
@@ -28,7 +28,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -38,13 +38,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+&#42;保有するプランやライセンスの種類を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## バーンダウンチャートをイテレーション内のデータと手動で同期
+## バーンダウンチャートをイテレーション内のデータと手動で同期する
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) 右上隅に [!DNL Adobe Workfront]を選択し、「 **[!UICONTROL チーム]**.
+1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)を選択し[!DNL Adobe Workfront]、次に「**[!UICONTROL チーム]**」をクリックします。
 
-1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
-1. バーンダウンチャートを手動で同期する反復に移動します。
-1. 同期アイコンをクリックします。 ![同期アイコン](assets/agile-syncicon.png) をクリックします。
+1. 手動で同期させるイテレーションにバーンダウンチャートを移動します。
+1. イテレーション名の横にある同期アイコン ![同期アイコン](assets/agile-syncicon.png) をクリックします。
