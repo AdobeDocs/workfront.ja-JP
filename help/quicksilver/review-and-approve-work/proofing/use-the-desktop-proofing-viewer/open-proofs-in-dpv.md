@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: デスクトップ校正ビューアで配達確認を開く
-description: 以下の説明に従って配達確認を開けない場合は、Adobe Workfront管理者またはWorkfront Proof 管理者に問い合わせてください。
+title: デスクトッププルーフビューアでプルーフを開く
+description: 以下の説明に従ってもプルーフを開けない場合は、Adobe Workfront 管理者または Workfront Proof 管理者にお問い合わせください。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
 source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# デスクトップ校正ビューアで配達確認を開く
+# デスクトッププルーフビューアでプルーフを開く
 
-以下の説明に従って配達確認を開けない場合は、Adobe Workfront管理者またはWorkfront Proof 管理者に問い合わせてください。
+以下の説明に従ってもプルーフを開けない場合は、Adobe Workfront 管理者または Workfront Proof 管理者にお問い合わせください。
 
 ## アクセス要件
 
@@ -26,20 +26,20 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">配達確認の役割</td> 
+   <td role="rowheader">プルーフの役割</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
-   <td>マネージャ以降</td> 
+   <td>マネージャー以上</td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,21 +48,21 @@ ht-degree: 2%
 
 ## 前提条件
 
-* デスクトップ校正ビューアをインストールする必要があります。 詳しくは、 [デスクトップ校正ビューアのインストール](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+* デスクトッププルーフビューアをインストールする必要があります。詳しくは、[デスクトッププルーフビューアのインストール](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)を参照してください。
 
-## デスクトップ校正ビューアから配達確認を開く
+## デスクトッププルーフビューアからプルーフを開く
 
-デスクトップ校正ビューアでインタラクティブコンテンツを定期的に確認する場合、Workfrontの管理者は、デスクトップ校正ビューアをデフォルトビューアとして設定できます。 詳しくは、 [デスクトップ校正ビューアで非インタラクティブ校正を開くためのユーザー設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs) 記事の中で [デスクトップ校正ビューアについて](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+デスクトッププルーフビューアでインタラクティブコンテンツを定期的に確認する場合、Workfront 管理者は、デスクトッププルーフビューアをデフォルトビューアとして設定できます。詳しくは、[デスクトッププルーフビューアについて](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)の記事の[デスクトッププルーフビューアで非インタラクティブプルーフを開くためのユーザー設定](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs)を参照してください。
 
-1. デスクトップ校正ビューアで、 **配達確認 URL**.
+1. デスクトッププルーフビューアで、**プルーフ URL**&#x200B;を入力します。
 
-   配達確認 URL へのアクセスについて詳しくは、 [自分と共有されている配達確認にアクセス](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md).
+   プルーフ URL へのアクセスについて詳しくは、[共有されたプルーフにアクセス](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)を参照してください。
 
    >[!NOTE]
    >
-   >デスクトップ校正ビューアは、ログインを必要とする Web サイトをサポートしていません。
+   >デスクトッププルーフビューアは、ログインを必要とする web サイトをサポートしていません。
 
-1. クリック **配達確認を開く** をクリックします。 
+1. 表示される画面で「**プルーフを開く**」をクリックします。
 
  
 
