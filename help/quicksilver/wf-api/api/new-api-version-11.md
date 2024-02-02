@@ -2,15 +2,15 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 11 の新機能
-description: Adobe Workfront API に、レポートのリソースとして ReportableBudgedHour が追加されました。 この機能は、BudgetedHour にない参照フィールド、コアフィールド、および既定のフィールドを備えています。
+description: Adobe Workfront API に、レポート用のリソースとして ReportableBudgedHour が追加されました。BudgetedHour にない参照フィールド、コアフィールドおよびデフォルトフィールドを特長として備えています。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
-workflow-type: tm+mt
-source-wordcount: '3600'
-ht-degree: 2%
+workflow-type: ht
+source-wordcount: '3573'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 2%
  --> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">accessExpirationDate</li> 
@@ -61,9 +61,9 @@ ht-degree: 2%
    <td>参照フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">アクセサ</li> 
+     <li style="font-weight: bold;">accessor</li> 
      <li style="font-weight: bold;">顧客</li> 
-     <li style="font-weight: bold;">ユーザー  </li> 
+     <li style="font-weight: bold;">user</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -88,14 +88,14 @@ ht-degree: 2%
  --> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">customerID</li> 
      <li style="font-weight: bold;">ID</li> 
      <li style="font-weight: bold;">loginAsSettingsID</li> 
      <li style="font-weight: bold;">objID</li> 
-     <li style="font-weight: bold;">objObjCode  </li> 
+     <li style="font-weight: bold;">objObjCode</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -127,13 +127,13 @@ ht-degree: 2%
  --> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
      <li style="font-weight: bold;">customerID</li> 
      <li style="font-weight: bold;">licenseTypes</li> 
      <li style="font-weight: bold;">ID</li> 
-     <li style="font-weight: bold;">restrictedLoginAs  </li> 
+     <li style="font-weight: bold;">restrictedLoginAs</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -163,23 +163,23 @@ ht-degree: 2%
 
 ### ReportableBudgetedHour {#reportablebudgetedhour}
 
-Adobe Workfront API に、レポートのリソースとして ReportableBudgedHour が追加されました。 この機能は、BudgetedHour にない参照フィールド、コアフィールド、および既定のフィールドを備えています。
+Adobe Workfront API に、レポート用のリソースとして ReportableBudgedHour が追加されました。BudgetedHour にない参照フィールド、コアフィールドおよびデフォルトフィールドを特長として備えています。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">allocationDate </p> <p>「配賦日」は、リソース・プランナに時間を予算設定した週の最初の日（日曜日）です。</p> </li> 
-     <li> <p style="font-weight: bold;">budgetedHours </p> <p>予算時間とは、リソースがプロジェクトで完了する必要のある作業に対するリソースマネージャの予算時間です</p> </li> 
-     <li> <p style="font-weight: bold;">ID </p> <p>特定のレポート可能な予算時間オブジェクトに割り当てられた一意のWorkfront ID。</p> </li> 
+     <li> <p style="font-weight: bold;">allocationDate </p> <p>配分日は、リソースプランナーで時間数を予算計上した週の最初の日（日曜日）です。</p> </li> 
+     <li> <p style="font-weight: bold;">budgetedHours </p> <p>予算計上時間数は、プロジェクトでリソースが達成すべき作業に対して、リソースマネージャーが予算計上した時間数です</p> </li> 
+     <li> <p style="font-weight: bold;">ID </p> <p>特定のレポート可能な予算計上時間数オブジェクトに割り当てられた、一意の Workfront ID です。</p> </li> 
      <li style="font-weight: bold;">plannedBudgetedHours </li> 
-     <li> <p style="font-weight: bold;">projectID </p> <p>特定のプロジェクトに割り当てられた一意のWorkfront ID。</p> </li> 
-     <li> <p style="font-weight: bold;">roleID</p> <p>特定のジョブの役割に割り当てられた一意のWorkfront ID。</p> </li> 
-     <li> <p style="font-weight: bold;">userID</p> <p>特定のユーザーに割り当てられた一意のWorkfront ID。</p> </li> 
+     <li> <p style="font-weight: bold;">projectID </p> <p>特定のプロジェクトに割り当てられた一意の Workfront ID です。</p> </li> 
+     <li> <p style="font-weight: bold;">roleID</p> <p>特定の担当業務に割り当てられた一意の Workfront ID です。</p> </li> 
+     <li> <p style="font-weight: bold;">userID</p> <p>特定のユーザーに割り当てられた一意の Workfront ID です。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -187,8 +187,8 @@ Adobe Workfront API に、レポートのリソースとして ReportableBudgedH
    <td> 
     <ul> 
      <li> <p style="font-weight: bold;">プロジェクト</p> <p>ReportableBudgetedHour が関連付けられているプロジェクトです。</p> </li> 
-     <li> <p style="font-weight: bold;">役割</p> <p>ReportableBudgetedHour が関連付けられているジョブの役割です。</p> </li> 
-     <li> <p style="font-weight: bold;">ユーザー</p> <p>ReportableBudgetedHour が関連付けられているユーザー。</p> </li> 
+     <li> <p style="font-weight: bold;">役割</p> <p>ReportableBudgetedHour が関連付けられている担当業務です。</p> </li> 
+     <li> <p style="font-weight: bold;">ユーザー</p> <p>ReportableBudgetedHour が関連付けられているユーザーです。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -196,7 +196,7 @@ Adobe Workfront API に、レポートのリソースとして ReportableBudgedH
    <td> 
     <ul> 
      <li style="font-weight: bold;">ID</li> 
-     <li style="font-weight: bold;">name</li> 
+     <li style="font-weight: bold;">名前</li> 
      <li style="font-weight: bold;">objCode</li> 
     </ul> </td> 
   </tr> 
@@ -204,16 +204,16 @@ Adobe Workfront API に、レポートのリソースとして ReportableBudgedH
    <td>デフォルトのフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">name</li> 
+     <li style="font-weight: bold;">名前</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>オペレーション</td> 
+   <td>操作</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">カウント</li> 
+     <li style="font-weight: bold;">COUNT</li> 
      <li style="font-weight: bold;">GET</li> 
-     <li style="font-weight: bold;">レポート </li> 
+     <li style="font-weight: bold;">REPORT </li> 
      <li style="font-weight: bold;">SEARCH</li> 
     </ul> </td> 
   </tr> 
@@ -252,11 +252,11 @@ API v11 で削除されたリソースはありません。
     <ul> 
      <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
      <li><a href="#document" class="MCXref xref">ドキュメント</a> </li> 
-     <li><a href="#iteration" class="MCXref xref">反復</a> </li> 
+     <li><a href="#iteration" class="MCXref xref">イテレーション</a> </li> 
      <li><a href="#layout-template" class="MCXref xref">レイアウトテンプレート</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
      <li><a href="#note" class="MCXref xref">メモ</a> </li> 
-     <li><a href="#optask" class="MCXref xref">Opタスク</a> </li> 
+     <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
      <li><a href="#parameter" class="MCXref xref">パラメーター</a> </li> 
      <li><a href="#portfolio" class="MCXref xref">ポートフォリオ</a> </li> 
      <li><a href="#program" class="MCXref xref">プログラム</a> </li> 
@@ -268,7 +268,7 @@ API v11 で削除されたリソースはありません。
    <td> 
     <ul> 
      <li><a href="#resourceplannerfilter" class="MCXref xref">ResourcePlannerFilter</a> </li> 
-     <li><a href="#risk" class="MCXref xref">危険</a> </li> 
+     <li><a href="#risk" class="MCXref xref">リスク</a> </li> 
      <li><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </li> 
      <li><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </li> 
      <li><a href="#task" class="MCXref xref">タスク</a> </li> 
@@ -291,15 +291,15 @@ API v11 で削除されたリソースはありません。
 
 ### AccessLevelPermissions {#accesslevelpermissions}
 
-AccessLevelPermissions オブジェクトは、一連のアクセス許可を表します。 その後、この一連の権限をアクセスレベルに関連付けることができます。
+AccessLevelPermissions オブジェクトは、一連のアクセス権限を表します。この一連の権限は、アクセスレベルに関連付けることができます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
-   <td> <p>次のフィールドに、BUDGETING_INFORMATION という値が追加されました。 これにより、プランナーの優先度と予算時間を編集する権限を持つユーザーが許可されます。</p> 
+   <td>直接フィールド</td> 
+   <td> <p>次のフィールドに可能な値 BUDGETING_INFORMATION が追加されました。これにより、権限を持つユーザーは、プランナーで優先度と予算計上時間数を編集することができます。</p> 
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
@@ -311,17 +311,17 @@ AccessLevelPermissions オブジェクトは、一連のアクセス許可を表
 
 ### AccessRequest {#accessrequest}
 
-ユーザーが必要なWorkfront内のオブジェクトへのアクセス権を持っていない場合、そのオブジェクトへのアクセス権をリクエストできます。 AccessRequest オブジェクトは、このリクエストを表します。
+Workfront のオブジェクトに対する必要なアクセス権をユーザーが持っていない場合、そのオブジェクトへの利用申請を行うことができます。AccessRequest オブジェクトは、このリクエストを表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">アクション</p> <p>BUDGETING_INFORMATION の値を追加しました。 これにより、プランナーの優先度と予算時間を編集する権限を持つユーザーが許可されます。  </p> </li> 
+     <li> <p style="font-weight: bold;">アクション</p> <p>可能な値 BUDGETING_INFORMATION を追加しました。これにより、権限を持つユーザーは、プランナーで優先度と予算計上時間数を編集することができます。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -329,15 +329,15 @@ AccessLevelPermissions オブジェクトは、一連のアクセス許可を表
 
 ### AccessRule {#accessrule}
 
-AccessRule オブジェクトは、ユーザーが作成したプロジェクトを共有する方法を決定するカスタムアクセスレベルのルールセットを表します。
+AccessRule オブジェクトは、作成したプロジェクトをユーザーが共有する方法を決定する、カスタムアクセスレベルのルールセットを表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
-   <td> <p>次のフィールドに、BUDGETING_INFORMATION という値が追加されました。 これにより、プランナーの優先度と予算時間を編集する権限を持つユーザーが許可されます。</p> 
+   <td>直接フィールド</td> 
+   <td> <p>次のフィールドに可能な値 BUDGETING_INFORMATION が追加されました。これにより、権限を持つユーザーは、プランナーで優先度と予算計上時間数を編集することができます。</p> 
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
@@ -349,37 +349,37 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
 
 ### 承認 {#approval}
 
-タスク、ドキュメント、タイムシートなどの特定の作業項目に対しては、管理者や他のユーザーが作業項目に対してサインオフする必要が生じる場合があります。 Approval オブジェクトは、作業項目に対するサインオフの操作を表します。
+タスク、ドキュメント、タイムシートなどの所定の作業アイテムは、上司または他のユーザーが承認することが必要な場合があります。承認オブジェクトは、作業アイテムに対する承認の操作を表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">ダイレクトフィールド<p style="font-weight: normal;">次のフィールドにはバリデータ AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR が追加されました。 これらのバリデータは、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないことを指定します。</p>
+   <td colspan="2">直接フィールド<p style="font-weight: normal;">次のフィールドには、AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR というバリデーターが追加されました。これらのバリデーターは、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないことを指定します。</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
      <li style="font-weight: bold;">constraintDate</li>
      <li style="font-weight: bold;">plannedCompletionDate</li>
      <li style="font-weight: bold;">plannedStartDate</li>
-    </ul><p style="font-weight: normal;">EAC（完了時の推定）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
+    </ul><p style="font-weight: normal;">EAC（完成時総コスト見積り）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ] です。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
-     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS (Budgeted Cost of Work Scheduled) は、計画値とも呼ばれ、この指標の計算時に完了する必要のあるタスクの量の予算コストを表すプロジェクトのパフォーマンス指標です。 タスクの場合、BCWS =計画完了率 x タスク予算。 プロジェクトの場合、BCWS = SUM（すべての親タスクと個々のタスクの BCWS 値）</p></li>
-    </ul><p style="font-weight: normal;">次のフィールドに、ET の値が追加されました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。</p>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP（実行された作業の予算計上コスト）は、出来高とも呼ばれ、この指標の計算時点で実際に完了したタスク量の予算計上コストを表す、プロジェクトのパフォーマンス指標です。タスクの場合、BCWP = 実績完了率 x タスク予算となります。プロジェクトの場合、BCWP = SUM(すべての親タスクと個々のタスクの BCWP 値) となります。</p></li>
+     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS（予定された作業の予算計上コスト）は、予定値とも呼ばれ、この指標の計算時点で完了しているべきタスク量の予算計上コストを表す、プロジェクトのパフォーマンス指標です。タスクの場合、BCWS = 予定完了率 x タスク予算となります。プロジェクトの場合、BCWS = SUM(すべての親タスクと個々のタスクの BCWS 値) となります。</p></li>
+    </ul><p style="font-weight: normal;">次のフィールドに可能な値 ET が追加されました。この値は、週末や休日を考慮しない、経過月数の単位を表します。</p>
     <ul>
      <li style="font-weight: bold;">durationUnit</li>
      <li style="font-weight: bold;">workUnit</li>
-    </ul><p style="font-weight: normal;">以下のフィールドには CURRENCY というフラグが追加されています。</p>
+    </ul><p style="font-weight: normal;">次のフィールドに、CURRENCY というフラグが追加されました。</p>
     <ul>
      <li style="font-weight: bold;">projectBudgetedCost</li>
      <li style="font-weight: bold;">projectNetValue</li>
-    </ul><p style="font-weight: normal;">次のフィールドが Approval オブジェクトから削除されました。</p>
+    </ul><p style="font-weight: normal;">次のフィールドが承認オブジェクトから削除されました。</p>
     <ul>
      <li style="font-weight: bold;">reservedTimeID</li>
      <li style="font-weight: bold;">timelineExceptionInfo</li>
-    </ul><p style="font-weight: normal;">次のフィールドが Approval オブジェクトに追加されました。</p>
+    </ul><p style="font-weight: normal;">次のフィールドが承認オブジェクトに追加されました。</p>
     <ul>
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
@@ -388,14 +388,14 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
    <td>参照フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">Approval オブジェクトから削除されました  </p> </li> 
+     <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">承認オブジェクトから削除されました</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>コレクションフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Approval オブジェクトに追加されました。</p> </li> 
+     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">承認オブジェクトに追加されました。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -403,17 +403,17 @@ AccessRule オブジェクトは、ユーザーが作成したプロジェクト
 
 ### ApprovalPath {#approvalpath}
 
-ApprovalPath オブジェクトは、承認プロセス内のブランチです。 承認パスは、承認プロセスが関連付けられているオブジェクトのステータスに基づきます。
+ApprovalPath オブジェクトは、承認プロセス内の分岐です。承認パスは、承認プロセスが関連付けられているオブジェクトのステータスに基づいています。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。この値は、週末や休日を考慮しない、経過月数の単位を表します。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -421,17 +421,17 @@ ApprovalPath オブジェクトは、承認プロセス内のブランチです�
 
 ### ApprovalProcess {#approvalprocess}
 
-ApprovalProcess オブジェクトは、プロジェクト、タスク、またはイシューに関連付けることができる複数手順の承認です。
+ApprovalProcess オブジェクトは、プロジェクト、タスク、イシューに関連付けることができる、複数段階の承認です。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドは追加されました。オブジェクトがアクティブの場合は値が true、そうでない場合は false のブール型パラメーターです。 [ アクティブ ] に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトにアタッチできます。 [ アクティブ ] に設定されていないオブジェクトは、他のオブジェクトにアタッチするドロップダウンメニューや先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -446,17 +446,17 @@ ApprovalProcess オブジェクトは、プロジェクト、タスク、また�
 
 ### 割り当て {#assignment}
 
-割り当てオブジェクトは、作業項目と、作業項目に割り当てられているユーザー、チーム、またはグループとの間の接続を表します。
+割り当てオブジェクトは、作業アイテムと、作業アイテムに割り当てられたユーザー、チーム、グループとの間の接続を表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。この値は、週末や休日を考慮しない、経過月数の単位を表します。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -464,17 +464,17 @@ ApprovalProcess オブジェクトは、プロジェクト、タスク、また�
 
 ### BaselineTask {#baselinetask}
 
-ベースラインは、特定の時点でのプロジェクトのパフォーマンスがどのように表示されたかを示すスナップショットです。 主要な日付、進捗状況、コスト、売上高など、プロジェクトに関する主要な情報が格納されます。 基準計画を作成すると、その基準計画の基準計画タスクに関するタスク情報も取り込まれます。
+ベースラインは、特定の時点でのプロジェクトのパフォーマンスを示すスナップショットです。主要な日付、進捗状況、コスト、売上高など、プロジェクトに関する主要な情報が保存されています。ベースラインを作成すると、そのベースラインのベースラインタスクに関するタスク情報も取り込まれます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">可能な値 ET を追加しました。この値は、週末や休日を考慮しない、経過月数の単位を表します。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -482,17 +482,17 @@ ApprovalProcess オブジェクトは、プロジェクト、タスク、また�
 
 ### カテゴリ {#category}
 
-Category オブジェクトはカスタムフォームです。 このオブジェクトに関するレポートを作成し、他のオブジェクトレポートにも表示できます。
+カテゴリオブジェクトはカスタムフォームです。このオブジェクトに関するレポートを作成し、他のオブジェクトレポートにも表示できます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドは追加されました。オブジェクトがアクティブの場合は値が true、そうでない場合は false のブール型パラメーターです。 [ アクティブ ] に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトにアタッチできます。 [ アクティブ ] に設定されていないオブジェクトは、他のオブジェクトにアタッチするドロップダウンメニューや先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -507,17 +507,17 @@ Category オブジェクトはカスタムフォームです。 このオブジ�
 
 ### 会社 {#company}
 
-Company オブジェクトは、人々の集まりで構成される組織を表します。 会社は、ユーザーまたはプロジェクトに関連付けられます。
+会社オブジェクトは、人物の集まりで構成される組織を表します。会社は、ユーザーまたはプロジェクトに関連付けられます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドは追加されました。オブジェクトがアクティブの場合は値が true、そうでない場合は false のブール型パラメーターです。 [ アクティブ ] に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトにアタッチできます。 [ アクティブ ] に設定されていないオブジェクトは、他のオブジェクトにアタッチするドロップダウンメニューや先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -551,7 +551,7 @@ Company オブジェクトは、人々の集まりで構成される組織を表
   </tr> 
   <tr> 
    <td>クエリ</td> 
-   <td> <p>CustomEnum オブジェクトに次のクエリが追加されました</p> 
+   <td> <p>次のクエリが CustomEnum オブジェクトに追加されました</p> 
     <ul> 
      <li style="font-weight: bold;">opTaskConditions</li> 
      <li style="font-weight: bold;">projectConditions</li> 
@@ -563,21 +563,21 @@ Company オブジェクトは、人々の集まりで構成される組織を表
 
 ### 顧客 {#customer}
 
-Customer オブジェクトは、Workfrontのインスタンスを使用する組織を表します。
+顧客オブジェクトは、Workfront のインスタンスを使用する組織を表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>customEnumTypes</p> <p style="font-weight: normal;">次の可能な値を追加しました。 </p> 
+     <li style="font-weight: bold;"> <p>customEnumTypes</p> <p style="font-weight: normal;">次の値を追加しました。 </p> 
       <ul> 
-       <li style="font-weight: normal;">CONDITION_PROJ （プロジェクト条件）</li> 
-       <li style="font-weight: normal;">CONDITION_TASK （タスク条件）</li> 
-       <li style="font-weight: normal;">CONDITION_OPTASK （発行条件）  </li> 
+       <li style="font-weight: normal;">CONDITION_PROJ（プロジェクト状況）</li> 
+       <li style="font-weight: normal;">CONDITION_TASK（タスク条件）</li> 
+       <li style="font-weight: normal;">CONDITION_OPTASK（イシュー条件）</li> 
       </ul> </li> 
     </ul> </td> 
   </tr> <!--
@@ -591,7 +591,7 @@ Customer オブジェクトは、Workfrontのインスタンスを使用する�
   --> 
   <tr> 
    <td>アクション</td> 
-   <td> <p style="font-weight: normal;">次のアクションが Customer オブジェクトに追加されました</p> 
+   <td> <p style="font-weight: normal;">次のアクションが顧客オブジェクトに追加されました</p> 
     <ul> 
      <li style="font-weight: bold;">goalsEnabled</li> 
      <li style="font-weight: bold;">updateLoginAsSettings</li> 
@@ -602,7 +602,7 @@ Customer オブジェクトは、Workfrontのインスタンスを使用する�
 
 ### CustomerPreferences {#customerpreferences}
 
-CustomerPreferences オブジェクトは、Workfrontのインスタンスに対して顧客が設定した一連の環境設定を表します。
+CustomerPreferences オブジェクトは、Workfront のインスタンスに対して顧客が設定した一連の環境設定を表します。
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -611,18 +611,18 @@ CustomerPreferences オブジェクトは、Workfrontのインスタンスに対
  --> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">次の可能な値を追加しました。</p> 
+     <li style="font-weight: bold;"> <p>名前</p> <p style="font-weight: normal;">次の値を追加しました。</p> 
       <ul> 
-       <li style="font-weight: normal;">password:password.eauthPolicy （パスワードの複雑さの要件）</li> 
-       <li style="font-weight: normal;"> password:password.minimumLength （最小パスワード長）</li> 
-       <li style="font-weight: normal;">password:mobileSessionTimeout（モバイルセッションタイムアウト）</li> 
-       <li style="font-weight: normal;"> project.mgmt:default.project.usertimeoff (User Time Off)</li> 
-       <li style="font-weight: normal;">タイムシート：default.timesheet.manualrole （手動制御ロール）</li> 
-       <li style="font-weight: normal;">proof:defaultNonRecipientRole (config.proofhq.defaultnonrecipientrole) </li> 
-       <li style="font-weight: normal;">proof:defaultNonRecipientGuestRole (config.proofhq.defaultnonrecipientguestrole)  </li> 
+       <li style="font-weight: normal;">password:password.eauthPolicy（パスワードの複雑さの要件）</li> 
+       <li style="font-weight: normal;"> password:password.minimumLength（最小パスワード長）</li> 
+       <li style="font-weight: normal;">password:mobileSessionTimeout（モバイルセッションのタイムアウト値）</li> 
+       <li style="font-weight: normal;"> project.mgmt:default.project.usertimeoff（ユーザーの休暇）</li> 
+       <li style="font-weight: normal;">timesheet:default.timesheet.manualrole（手動制御役割）</li> 
+       <li style="font-weight: normal;">proof:defaultNonRecipientRole（config.proofhq.defaultnonrecipientrole） </li> 
+       <li style="font-weight: normal;">proof:defaultNonRecipientGuestRole（config.proofhq.defaultnonrecipientguestrole）</li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -647,7 +647,7 @@ CustomerPreferences オブジェクトは、Workfrontのインスタンスに対
 
 ### ドキュメント {#document}
 
-Document オブジェクトは、ファイル（書き込まれた資料、画像、その他の形式の情報など）を表します。
+Document オブジェクトは、ファイル（書かれた資料、画像、その他の形式の情報など）を表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -655,7 +655,7 @@ Document オブジェクトは、ファイル（書き込まれた資料、画�
  <tbody> 
   <tr> 
    <td>アクション</td> 
-   <td> <p>次のアクションが Document オブジェクトに追加されました。</p> 
+   <td> <p>次のアクションがドキュメントオブジェクトに追加されました。</p> 
     <ul> 
      <li style="font-weight: bold;">completeLargeDocument</li> 
      <li style="font-weight: bold;">createLargeDocument</li> 
@@ -669,21 +669,21 @@ Document オブジェクトは、ファイル（書き込まれた資料、画�
  </tbody> 
 </table>
 
-### 反復 {#iteration}
+### イテレーション {#iteration}
 
-Iteration オブジェクトは、1 つのアジャイルイテレーションを表します。 繰り返しとは、アジャイルストーリーの計画と完了に使用される、個別の期間です。
+イテレーションオブジェクトは、1 つのアジャイルイテレーションを表します。イテレーションとは、アジャイルストーリーの計画と完了に使用される、個別の期間です。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
-   <td> <p>次のフィールドが Iteration オブジェクトに追加されました。</p> 
+   <td>直接フィールド</td> 
+   <td> <p>次のフィールドがイテレーションオブジェクトに追加されました。</p> 
     <ul> 
      <li style="font-weight: bold;">originalTotalPoints</li> 
-     <li style="font-weight: bold;">完了したポイント</li> 
-     <li style="font-weight: bold;">totalPoints  </li> 
+     <li style="font-weight: bold;">pointsCompleted</li> 
+     <li style="font-weight: bold;">totalPoints</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -691,17 +691,17 @@ Iteration オブジェクトは、1 つのアジャイルイテレーション�
 
 ### レイアウトテンプレート {#layout-template}
 
-Layout Template オブジェクトは、メインメニュー、ナビゲーションパネル、ホーム領域など、レイアウト要素の特定の配置を表します。 レイアウトテンプレートは、ユーザー、チーム、グループまたはジョブの役割に割り当てることができます。
+レイアウトテンプレートオブジェクトは、メインメニュー、ナビゲーションパネル、ホームエリアなど、レイアウト要素の特定の配置を表します。レイアウトテンプレートは、ユーザー、チーム、グループ、担当業務に割り当てることができます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">このフィールドは追加され、レイアウトテンプレートが作業用リストとカレンダーに期限のタイムスタンプを表示するように設定されている場合は true、タイムスタンプを非表示にするように設定されている場合は false の値を持つブール型パラメータです。  </p> </li> 
+     <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">この追加されたフィールドは、レイアウトテンプレートが作業用リストとカレンダーに期限のタイムスタンプを表示するように設定されている場合は true、タイムスタンプを非表示にするように設定されている場合は false の値を持つブーリアン型パラメーターです。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -716,17 +716,17 @@ Layout Template オブジェクトは、メインメニュー、ナビゲーシ�
 
 ### MilestonePath {#milestonepath}
 
-マイルストーンは、タスクがプロジェクトの重要なポイントであることを示すマーカーです。 通常は、プロジェクトのフェーズの完了や、重要なアクティビティのセットなど、重要なイベントを示すために使用されます。 MilestonePath オブジェクトは、マイルストーンの集まりです。
+マイルストーンは、タスクがプロジェクトの重要なポイントであることを示すマーカーです。通常は、プロジェクトのフェーズの完了や、一連の重要なアクティビティなど、重要なイベントを示すために使用されます。MilestonePath オブジェクトは、マイルストーンの集まりです。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドは追加されました。オブジェクトがアクティブの場合は値が true、そうでない場合は false のブール型パラメーターです。 [ アクティブ ] に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトにアタッチできます。 [ アクティブ ] に設定されていないオブジェクトは、他のオブジェクトにアタッチするドロップダウンメニューや先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -741,15 +741,15 @@ Layout Template オブジェクトは、メインメニュー、ナビゲーシ�
 
 ### メモ {#note}
 
-Note オブジェクトは、Workfrontオブジェクトに対しておこなわれるコメントまたは更新です。
+メモオブジェクトは、Workfront オブジェクトに対するコメントまたは更新です。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
-   <td> <p>次のフィールドが Note オブジェクトに追加されました。</p> 
+   <td>直接フィールド</td> 
+   <td> <p>次のフィールドがメモオブジェクトに追加されました。</p> 
     <ul> 
      <li style="font-weight: bold;">proofID  </li> 
     </ul> </td> 
@@ -758,22 +758,22 @@ Note オブジェクトは、Workfrontオブジェクトに対しておこなわ
    <td>コレクションフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>いいね！</p> <p style="font-weight: normal;">追加済み</p> </li> 
+     <li style="font-weight: bold;"> <p>いいね</p> <p style="font-weight: normal;">追加済み</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Opタスク {#optask}
+### OpTask {#optask}
 
-OpTask オブジェクトは、一般にイシューと呼ばれます。 問題とは、通常、タスクまたはプロジェクトを完了できない問題があることを示す作業項目です。 問題は、ヘルプデスクへのリクエストでもかまいません。 変更管理、要求、バグも問題です。
+OpTask オブジェクトは、一般にイシューと呼ばれます。イシューは、通常、タスクまたはプロジェクトを完了できない問題があることを示す作業アイテムです。イシューは、ヘルプデスクへのリクエストである場合もあります。変更指示、リクエスト、バグもイシューです。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">ダイレクトフィールド<p style="font-weight: normal;">次のフィールドにはバリデータ AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR が追加されました。 これらの値は、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないことを指定します。</p>
+   <td colspan="2">直接フィールド<p style="font-weight: normal;">次のフィールドには、AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR というバリデーターが追加されました。これらのバリデーターは、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないように指定します。</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
@@ -781,10 +781,10 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
      <li style="font-weight: bold;">plannedStartDate</li>
     </ul><p style="font-weight: normal;">OpTask に次のフィールドが追加されました。</p>
     <ul>
-     <li style="font-weight: bold;"><p>kanbanBoardID </p><p style="font-weight: normal;">かんばんボードオブジェクトの一意のWorkfront ID。</p></li>
-     <li style="font-weight: bold;"><p>percentComplete</p><p style="font-weight: normal;">「完了率」は、発行の完了済金額をパーセンテージで返すパラメータです。</p></li>
+     <li style="font-weight: bold;"><p>kanbanBoardID </p><p style="font-weight: normal;">かんばんボードオブジェクトの一意の Workfront ID です。</p></li>
+     <li style="font-weight: bold;"><p>percentComplete</p><p style="font-weight: normal;">完了率は、完了したイシューの量をパーセンテージで返すパラメーターです。</p></li>
      <li style="font-weight: bold;">storyPoints</li>
-     <li style="font-weight: bold;">作業  </li>
+     <li style="font-weight: bold;">ワーク  </li>
     </ul></td> 
   </tr> 
   <tr> 
@@ -798,7 +798,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
    <td>フィールドの検索</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>作業</p> <p style="font-weight: normal;">削除済み</p> </li> 
+     <li style="font-weight: bold;"> <p>ワーク</p> <p style="font-weight: normal;">削除されました</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -810,7 +810,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
   </tr> 
   <tr> 
    <td>アクション</td> 
-   <td> <p>OpTask オブジェクトに次のアクションが追加されました</p> 
+   <td> <p>次のアクションが OpTask オブジェクトに追加されました</p> 
     <ul> 
      <li style="font-weight: bold;">bulkMove</li> 
      <li style="font-weight: bold;">copyIssue</li> 
@@ -821,18 +821,18 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。 問題
 
 ### パラメーター {#parameter}
 
-Parameter オブジェクトは、カスタムフィールドです。
+パラメーターオブジェクトは、カスタムフィールドです。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">可能な値 TYAH (Typeahead) を追加しました。</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">このフィールドが追加され、参照先のオブジェクトのオブジェクトコードを参照します。 すべてのオブジェクトのオブジェクトコードは、 <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラ</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">可能性のある値 TYAH（先行入力）を追加しました。</p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">このフィールドが追加され、参照されるオブジェクトのオブジェクトコードを参照します。すべてのオブジェクトのオブジェクトコードは、<a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラー</a>で確認できます。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -840,17 +840,17 @@ Parameter オブジェクトは、カスタムフィールドです。
 
 ### ポートフォリオ {#portfolio}
 
-Portfolioオブジェクトとは、同じリソース、通常は費用や担当者を競い合って完了するプロジェクトの集まりです。
+ポートフォリオオブジェクトは、同じリソース（通常はプロジェクトを完了するための資金や人材）を競い合って完了するプロジェクトのコレクションです。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>説明</p> <p style="font-weight: normal;">バリデーターMAX_LENGTH が追加されました。このバリデーターは、説明の長さが 4,000 文字以下であることを指定しています。</p> </li> 
+     <li style="font-weight: bold;"> <p>説明</p> <p style="font-weight: normal;">バリデーター MAX_LENGTH が追加されました。このバリデーターは、説明の長さが 4,000 文字以下にするように指定しています。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -858,19 +858,19 @@ Portfolioオブジェクトとは、同じリソース、通常は費用や担�
 
 ### プログラム {#program}
 
-Program オブジェクトは、ポートフォリオ内のサブセットで、類似したプロジェクトを 1 つにグループ化できます。
+プログラムオブジェクトは、ポートフォリオ内のサブセットで、類似したプロジェクトを 1 つにグループ化できます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>説明</p> <p style="font-weight: normal;">バリデーターMAX_LENGTH が追加されました。このバリデーターは、説明の長さが 4,000 文字以下であることを指定しています。</p> </li> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドは追加されました。オブジェクトがアクティブの場合は値が true、そうでない場合は false のブール型パラメーターです。 [ アクティブ ] に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトにアタッチできます。 [ アクティブ ] に設定されていないオブジェクトは、他のオブジェクトにアタッチするドロップダウンメニューや先行入力フィールドには表示されません。  </p> </li> 
-     <li style="font-weight: bold;"> <p>name </p> <p style="font-weight: normal;">バリデーターMAX_LENGTH が追加されました。このバリデーターは名前の長さを 255 文字以下にするように指定しています。  </p> </li> 
+     <li style="font-weight: bold;"> <p>説明</p> <p style="font-weight: normal;">バリデーター MAX_LENGTH が追加されました。このバリデーターは、説明の長さが 4,000 文字以下にするように指定しています。</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。 </p> </li> 
+     <li style="font-weight: bold;"> <p>名前 </p> <p style="font-weight: normal;">バリデーター MAX_LENGTH が追加されました。このバリデーターは名前の長さを 255 文字以下にするように指定します。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -885,28 +885,28 @@ Program オブジェクトは、ポートフォリオ内のサブセットで、
 
 ### プロジェクト {#project}
 
-プロジェクトはWorkfront内の作業項目で、Workfrontが作業をおこなう際に役立つ主要な構成要素です。 Project オブジェクトは、共通の特定の目標を持つタスクのグループを表します。
+プロジェクトは Workfront 内の作業アイテムで、Workfront が人々の作業を支援するための主要な構築ブロックです。プロジェクトオブジェクトは、共通の特定の目標を持つタスクのグループを表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">ダイレクトフィールド<p style="font-weight: normal;">次のフィールドにはバリデータ AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR が追加されました。 これらの値は、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないことを指定します。</p>
+   <td colspan="2">直接フィールド<p style="font-weight: normal;">次のフィールドには、AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR というバリデーターが追加されました。これらのバリデーターは、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないように指定します。</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
      <li style="font-weight: bold;">plannedCompletionDate</li>
      <li style="font-weight: bold;">plannedStartDate</li>
-    </ul><p style="font-weight: normal;">EAC（完了時の推定）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
+    </ul><p style="font-weight: normal;">EAC（完成時総コスト見積り）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ] です。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
-     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS (Budgeted Cost of Work Scheduled) は、計画値とも呼ばれ、この指標の計算時に完了する必要のあるタスクの量の予算コストを表すプロジェクトのパフォーマンス指標です。 タスクの場合、BCWS =計画完了率 x タスク予算。 プロジェクトの場合、BCWS = SUM（すべての親タスクと個々のタスクの BCWS 値）</p></li>
-    </ul><p style="font-weight: normal;">以下のフィールドには CURRENCY というフラグが追加されています。</p>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP（実行された作業の予算計上コスト）は、出来高とも呼ばれ、この指標の計算時点で実際に完了したタスク量の予算計上コストを表す、プロジェクトのパフォーマンス指標です。タスクの場合、BCWP = 実績完了率 x タスク予算となります。プロジェクトの場合、BCWP = SUM(すべての親タスクと個々のタスクの BCWP 値) となります。</p></li>
+     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS（予定された作業の予算計上コスト）は、予定値とも呼ばれ、この指標の計算時点で完了しているべきタスク量の予算計上コストを表す、プロジェクトのパフォーマンス指標です。タスクの場合、BCWS = 予定完了率 x タスク予算となります。プロジェクトの場合、BCWS = SUM(すべての親タスクと個々のタスクの BCWS 値) となります。</p></li>
+    </ul><p style="font-weight: normal;">次のフィールドに、CURRENCY というフラグが追加されました。</p>
     <ul>
      <li style="font-weight: bold;">projectBudgetedCost</li>
      <li style="font-weight: bold;">projectNetValue</li>
-    </ul><p style="font-weight: normal;">次のフィールドは、Project オブジェクトから削除されました。</p>
+    </ul><p style="font-weight: normal;">次のフィールドは、プロジェクトオブジェクトから削除されました。</p>
     <ul>
      <li style="font-weight: bold;">timelineExceptionInfo</li>
     </ul></td> 
@@ -923,17 +923,17 @@ Program オブジェクトは、ポートフォリオ内のサブセットで、
 
 ### ProofApproval {#proofapproval}
 
-ProofApproval オブジェクトは、配達確認に直接接続される承認を表します。
+ProofApproval オブジェクトは、プルーフに直接接続される承認を表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isWaitingDecision</p> <p style="font-weight: normal;">このフィールドが追加され、配達確認が判定を待機している場合は値が true、待機していない場合は false のブール値パラメーターです。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isWaitingDecision</p> <p style="font-weight: normal;">この追加されたフィールドは、プルーフが判定を待機している場合は true、待機していない場合は false の値を持つブーリアン型パラメーターです。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -941,15 +941,15 @@ ProofApproval オブジェクトは、配達確認に直接接続される承認
 
 ### QueueDef {#queuedef}
 
-QueueDef オブジェクトは、Queue を表します。Queue は、ヘルプデスク領域に公開され、ユーザーが問題を送信できるようにするプロジェクトです。
+QueueDef オブジェクトは、キューを表します。キューは、ユーザーがイシューを送信できるようにヘルプデスクエリアに公開されたプロジェクトです。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
-   <td> <p>次のフィールドに、BUDGETING_INFORMATION という値が追加されました。 これにより、プランナーの優先度と予算時間を編集する権限を持つユーザーが許可されます。</p> 
+   <td>直接フィールド</td> 
+   <td> <p>次のフィールドに可能な値 BUDGETING_INFORMATION が追加されました。これにより、権限を持つユーザーは、プランナーで優先度と予算計上時間数を編集することができます。</p> 
     <ul> 
      <li style="font-weight: bold;">requestorCoreAction</li> 
      <li style="font-weight: bold;">requestorForbiddenActions</li> 
@@ -962,15 +962,15 @@ QueueDef オブジェクトは、Queue を表します。Queue は、ヘルプ�
 
 ReservedTime オブジェクトは、ユーザーの個人時間に指定された日数を表し、ユーザーが作業に使用できないことを示します。
 
-ReservedTime リソースにより、フラグ REPORTABLE が追加されました。
+ReservedTime リソースにより、REPORTABLE というフラグが追加されました。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
-   <td> <p>以下のフィールドは、NOT_GROUPABLE フラグを削除しました。</p> 
+   <td>直接フィールド</td> 
+   <td> <p>以下のフィールドから、NOT_GROUPABLE というフラグを削除しました。</p> 
     <ul> 
      <li style="font-weight: bold;">endDate</li> 
      <li style="font-weight: bold;">extRefID</li> 
@@ -984,14 +984,14 @@ ReservedTime リソースにより、フラグ REPORTABLE が追加されまし�
    <td>参照フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>タスク</p> <p style="font-weight: normal;">削除済み  </p> </li> 
+     <li style="font-weight: bold;"> <p>タスク</p> <p style="font-weight: normal;">削除されました。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>オペレーション</td> 
+   <td>操作</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>編集</p> <p style="font-weight: normal;">追加済み</p> </li> 
+     <li style="font-weight: bold;"> <p>EDIT</p> <p style="font-weight: normal;">追加済み</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1001,32 +1001,32 @@ ReservedTime リソースにより、フラグ REPORTABLE が追加されまし�
 
 ResourcePlannerFilter オブジェクトは、リソースプランナーに表示する項目を決定する一連のルールです。
 
-ResourcePlannerFilter リソースにより、SHARABLE というフラグが追加されました。 オブジェクトに対する他の変更はありませんでした。
+ResourcePlannerFilter リソースにより、SHARABLE というフラグが追加されました。オブジェクトに対する他の変更はありませんでした。
 
-### 危険 {#risk}
+### リスク {#risk}
 
-Risk オブジェクトは、プロジェクトが予定通りに完了しない、または予算内で終了しない可能性のあるイベントを表します。 計画段階では、作業の承認前に、潜在的な障害物を特定するためのリスクがプロジェクトに追加されます。
+リスクオブジェクトは、プロジェクトが時間通りに完了しない、または予算内で終了しない可能性のあるイベントを表します。計画段階では、すべての作業の承認前に、潜在的な障害物を特定するためのリスクがプロジェクトに追加されます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> <p>次のフィールドがリスクオブジェクトに追加されました。</p> 
     <ul> 
-     <li style="font-weight: bold;"> <p>enteriedByID</p> <p style="font-weight: normal;">オブジェクトを最初に作成したユーザーの ID。</p> </li> 
-     <li> <p style="font-weight: bold;">entryDate</p> <p>ユーザーがWorkfrontでオブジェクトを送信した日付。</p> </li> 
+     <li style="font-weight: bold;"> <p>enteredByID</p> <p style="font-weight: normal;">オブジェクトを最初に作成したユーザーの ID。</p> </li> 
+     <li> <p style="font-weight: bold;">entryDate</p> <p>ユーザーが Workfront でオブジェクトを送信した日付。</p> </li> 
      <li> <p style="font-weight: bold;">lastUpdateDate</p> <p>Last Update Date パラメーターは、最終更新がオブジェクトに対して行われた日付を返します。</p> </li> 
-     <li> <p style="font-weight: bold;">lastUpdatedByID </p> <p>Last Updated By ID は、オブジェクトを更新した最後のユーザーのユーザー ID を返すパラメーターです。  </p> </li> 
+     <li> <p style="font-weight: bold;">lastUpdatedByID </p> <p>Last Updated By ID は、オブジェクトを更新した最後のユーザーのユーザー ID を返すパラメーターです。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>参照フィールド</td> 
-   <td> <p style="font-weight: normal;">次の参照フィールドが RIsk オブジェクトに追加されました。</p> 
+   <td> <p style="font-weight: normal;">次の参照フィールドがリスクオブジェクトに追加されました。</p> 
     <ul> 
      <li style="font-weight: bold;">enteredBy</li> 
-     <li style="font-weight: bold;">lastUpdatedBy  </li> 
+     <li style="font-weight: bold;">lastUpdatedBy </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1041,10 +1041,10 @@ ScheduledReport オブジェクトは、配信のスケジュールを設定し�
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>pageSize</p> <p style="font-weight: normal;">次の可能な値が追加されました。</p> 
+     <li style="font-weight: bold;"> <p>pageSize</p> <p style="font-weight: normal;">追加された可能な値は次のとおりです。</p> 
       <ul> 
        <li style="font-weight: normal;">A2</li> 
        <li style="font-weight: normal;">A1</li> 
@@ -1057,17 +1057,17 @@ ScheduledReport オブジェクトは、配信のスケジュールを設定し�
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-ScoreCardQuestion オブジェクトは、スコアカードに追加された質問を表します。 これらの質問は通常、Portfolio管理者が決定し、その回答によって、管理者はプロジェクトがポートフォリオの目標にどの程度適合しているかを理解できます。
+ScoreCardQuestion オブジェクトは、スコアカードに追加された質問を表します。これらの質問は通常、ポートフォリオマネージャーが決定し、その回答によって、マネージャーはプロジェクトがポートフォリオの目標にどの程度適合しているかを理解できます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">可能な値 TYAH (Typeahead) を追加しました。  </p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">可能な値 TYAH（Typeahead）を追加しました。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1075,32 +1075,32 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
 
 ### タスク {#task}
 
-Task オブジェクトは、最終目標を達成する（プロジェクトの完了）ためのステップとして実行する必要がある作業項目を表します。
+タスクオブジェクトは、最終目標を達成する（プロジェクトの完了）ためのステップとして実行する必要がある作業項目を表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">ダイレクトフィールド<p style="font-weight: normal;">次のフィールドにはバリデータ AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR が追加されました。 これらの値は、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないことを指定します。</p>
+   <td colspan="2">直接フィールド<p style="font-weight: normal;">次のフィールドには、AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR というバリデーターが追加されました。これらのバリデーターは、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないように指定します。</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
      <li style="font-weight: bold;">constraintDate</li>
      <li style="font-weight: bold;">plannedCompletionDate</li>
      <li style="font-weight: bold;">plannedStartDate</li>
-    </ul><p style="font-weight: normal;">EAC（完了時の推定）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
+    </ul><p style="font-weight: normal;">EAC（完成時総コスト見積り）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ] です。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
-     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS (Budgeted Cost of Work Scheduled) は、計画値とも呼ばれ、この指標の計算時に完了する必要のあるタスクの量の予算コストを表すプロジェクトのパフォーマンス指標です。 タスクの場合、BCWS =計画完了率 x タスク予算。 プロジェクトの場合、BCWS = SUM（すべての親タスクと個々のタスクの BCWS 値）</p></li>
-    </ul><p style="font-weight: normal;">次のフィールドに、ET の値が追加されました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。</p>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP（実行された作業の予算計上コスト）は、出来高とも呼ばれ、この指標の計算時点で実際に完了したタスク量の予算計上コストを表す、プロジェクトのパフォーマンス指標です。タスクの場合、BCWP = 実績完了率 x タスク予算となります。プロジェクトの場合、BCWP = SUM(すべての親タスクと個々のタスクの BCWP 値) となります。</p></li>
+     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS（予定された作業の予算計上コスト）は、予定値とも呼ばれ、この指標の計算時点で完了しているべきタスク量の予算計上コストを表す、プロジェクトのパフォーマンス指標です。タスクの場合、BCWS = 予定完了率 x タスク予算となります。プロジェクトの場合、BCWS = SUM(すべての親タスクと個々のタスクの BCWS 値) となります。</p></li>
+    </ul><p style="font-weight: normal;">次のフィールドに可能な値 ET が追加されました。この値は、週末や休日を考慮しない、経過月数の単位を表します。</p>
     <ul>
      <li style="font-weight: bold;">durationUnit</li>
      <li style="font-weight: bold;">workUnit</li>
-    </ul><p style="font-weight: normal;">次のフィールドが Task オブジェクトから削除されました。</p>
+    </ul><p style="font-weight: normal;">次のフィールドがタスクオブジェクトから削除されました。</p>
     <ul>
      <li style="font-weight: bold;">reservedTimeID</li>
-    </ul><p style="font-weight: normal;">次のフィールドが Task オブジェクトに追加されました。</p>
+    </ul><p style="font-weight: normal;">次のフィールドがタスクオブジェクトに追加されました。</p>
     <ul>
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
@@ -1109,7 +1109,7 @@ Task オブジェクトは、最終目標を達成する（プロジェクトの
    <td>参照フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">削除済み  </p> </li> 
+     <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">削除されました。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1124,21 +1124,21 @@ Task オブジェクトは、最終目標を達成する（プロジェクトの
 
 ### チーム {#team}
 
-Team オブジェクトは、作業項目に割り当てることができるユーザーの集まりです。
+チームオブジェクトは、作業アイテムに割り当てることができるユーザーの集まりです。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>agileEstimateType </p> <p style="font-weight: normal;">このフィールドは Team オブジェクトに追加されました。 「アジャイル推定タイプ」は、ストーリーの作業負荷の推定方法を決定します。 推定時間数が時間単位の場合は、ストーリーに追加される予定時間数です。 ポイント数が推定される場合、各ポイントでは、ポイントの設定に基づいて計画時間数がストーリーに追加されます（デフォルトは 8 時間）。 「アジャイル推定」タイプで使用できる値は次のとおりです。</p> 
+     <li style="font-weight: bold;"> <p>agileEstimateType </p> <p style="font-weight: normal;">このフィールドはチームオブジェクトに追加されました。Agile Estimate Type は、ストーリーの作業負荷の推定方法を決定します。時間単位での推定の場合は、ストーリーに追加される予定時間数です。ポイント数での推定の場合は、各ポイントはポイントの設定に基づいて予定時間数がストーリーに追加されます（デフォルトは 8 時間）。Agile Estimate Type で使用できる値は次のとおりです。</p> 
       <ul> 
-       <li style="font-weight: normal;"> STORY_POINTS （ストーリーポイント）</li> 
-       <li style="font-weight: normal;">時間（時間）</li> 
-       <li style="font-weight: normal;">LEGACY_POINTS ( 時間（ポイント）)  </li> 
+       <li style="font-weight: normal;"> STORY_POINTS（ストーリーポイント）</li> 
+       <li style="font-weight: normal;">HOURS（時間）</li> 
+       <li style="font-weight: normal;">LEGACY_POINTS（ポイントの時間）</li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -1147,24 +1147,24 @@ Team オブジェクトは、作業項目に割り当てることができるユ
 
 ### テンプレート {#template}
 
-Template オブジェクトは、プロジェクトのパターンを表します。 プロジェクトは、時間を節約するために、テンプレートから作成できます。 テンプレートにはチームとタスクが含まれ、テンプレートを使用するとプロジェクトにコピーされます。
+テンプレートオブジェクトは、プロジェクトのパターンを表します。プロジェクトをテンプレートから作成することで時間を節約できます。テンプレートにはチームとタスクが含まれ、テンプレートを使用するとプロジェクトにコピーされます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">このフィールドは追加されました。オブジェクトがアクティブの場合は値が true、そうでない場合は false のブール型パラメーターです。 [ アクティブ ] に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトにアタッチできます。 [ アクティブ ] に設定されていないオブジェクトは、他のオブジェクトにアタッチするドロップダウンメニューや先行入力フィールドには表示されません。  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">この追加されたフィールドは、オブジェクトがアクティブの場合は値が true、そうでない場合は false の値を持つブーリアン型パラメーターです。「アクティブ」に設定されたオブジェクトは、ドロップダウンメニューと先行入力フィールドに表示され、他のオブジェクトに添付できます。「アクティブ」に設定されていないオブジェクトは、ドロップダウンメニューや先行入力フィールドには表示されず、他のオブジェクトにアタッチできません。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>コレクションフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allPriority</p> <p style="font-weight: normal;">追加済み</p> </li> 
+     <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">追加済み</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1188,10 +1188,10 @@ Template オブジェクトは、プロジェクトのパターンを表しま�
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">可能な値 ET を追加しました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">可能な値 ET を追加しました。この値は、週末や休日を考慮しない、経過月数の単位を表します。 </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1199,15 +1199,15 @@ Template オブジェクトは、プロジェクトのパターンを表しま�
 
 ### TemplateTask {#templatetask}
 
-TemplateTask オブジェクトは、Template に含まれる Task を表します。 テンプレートタスクは、テンプレートが使用されるプロジェクト内のタスクになります。
+TemplateTask オブジェクトは、テンプレートに含まれるタスクを表します。テンプレートタスクは、テンプレートが使用されるプロジェクト内のタスクになります。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
-   <td> <p style="font-weight: normal;">次のフィールドに、ET の値が追加されました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。</p> 
+   <td>直接フィールド</td> 
+   <td> <p style="font-weight: normal;">次のフィールドに可能な値 ET が追加されました。この値は、週末や休日を考慮しない、経過月数の単位を表します。</p> 
     <ul> 
      <li style="font-weight: bold;">durationUnit</li> 
      <li style="font-weight: bold;">workUnit</li> 
@@ -1217,7 +1217,7 @@ TemplateTask オブジェクトは、Template に含まれる Task を表しま�
    <td>コレクションフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allPriority</p> <p style="font-weight: normal;">追加済み</p> </li> 
+     <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">追加済み</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1225,7 +1225,7 @@ TemplateTask オブジェクトは、Template に含まれる Task を表しま�
 
 ### タイムシート {#timesheet}
 
-Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Types の実績作業時間をユーザーが入力できる仮想タイムカードを表します。
+タイムシートオブジェクトは、タスク、プロジェクトおよびオーバーヘッド時間タイプの実際の時間数をユーザーが入力できる仮想タイムカードを表します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1235,30 +1235,30 @@ Timesheet オブジェクトは、Tasks、Projects、および Overhead Hour Typ
    <td>コアフィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>objCode</p> <p style="font-weight: normal;">削除済み</p> </li> 
+     <li style="font-weight: bold;"> <p>objCode</p> <p style="font-weight: normal;">削除されました</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### 更新 {#update}
+### アップデート {#update}
 
-Workfrontの作業項目を更新して、ユーザーに現在のステータスを知らせることができます。 Update オブジェクトは、これらの更新の 1 つを表します。 更新は、ユーザーが入力するか、Workfrontシステムが作成します。
+Workfront の作業アイテムを更新して、ユーザーに現在のステータスを知らせることができます。更新オブジェクトは、これらの更新の 1 つを表します。更新は、ユーザーが入力するか、Workfront システムが作成することができます。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>ダイレクトフィールド</td> 
+   <td>直接フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>updateType</p> <p style="font-weight: normal;">可能な値 referenceObjectCustomData (enum.updatetypeenum.referenceobjectcustomdata) を追加しました。  </p> </li> 
+     <li style="font-weight: bold;"> <p>updateType</p> <p style="font-weight: normal;">使用可能な値 referenceObjectCustomData（enum.updatetypeenum.referenceobjectcustomdata）を追加しました。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>クエリ</td> 
-   <td> <p style="font-weight: normal;">次のクエリが Update オブジェクトに追加されました。</p> 
+   <td> <p style="font-weight: normal;">次のクエリがアップデートオブジェクトに追加されました。</p> 
     <ul> 
      <li style="font-weight: bold;">objectUpdatesMobile</li> 
      <li style="font-weight: bold;">updateThreadMobile</li> 
@@ -1290,7 +1290,7 @@ Workfrontの作業項目を更新して、ユーザーに現在のステータ�
   </tr> 
   <tr> 
    <td>アクション</td> 
-   <td> <p style="font-weight: normal;">次のアクションが User オブジェクトに追加されました。</p> 
+   <td> <p style="font-weight: normal;">次のアクションがユーザーオブジェクトに追加されました。</p> 
     <ul> 
      <li style="font-weight: bold;">hasGrantLoginAsAccess</li> 
      <li style="font-weight: bold;">isUserAdmin</li> 
@@ -1314,10 +1314,10 @@ Workfrontの作業項目を更新して、ユーザーに現在のステータ�
  <tbody> 
   <tr> 
    <td>アクション</td> 
-   <td> <p style="font-weight: normal;">次のアクションが User オブジェクトに追加されました。</p> 
+   <td> <p style="font-weight: normal;">次のアクションがユーザーオブジェクトに追加されました。</p> 
     <ul> 
      <li style="font-weight: bold;">acknowledgeMyNotifications</li> 
-     <li style="font-weight: bold;">unacknowledAllObjectsTypeCount  </li> 
+     <li style="font-weight: bold;">unacknowledAllObjectsTypeCount</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1330,34 +1330,34 @@ Workfrontの作業項目を更新して、ユーザーに現在のステータ�
  </tbody> 
 </table>
 
-### 作業  {#work}
+### ワーク  {#work}
 
-Work オブジェクトは、Task と OpTask の両方が継承する共通のインターフェイスで、2 つの間で共通のコードを共有します。
+作業オブジェクトは、Task と OpTask の両方が継承する共通のインターフェイスで、2 つの間で共通のコードを共有します。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">ダイレクトフィールド<p style="font-weight: normal;">次のフィールドにはバリデータ AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR が追加されました。 これらの値は、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないことを指定します。</p>
+   <td colspan="2">直接フィールド<p style="font-weight: normal;">次のフィールドには、AT_DATE_BEFORE_YEAR と AT_DATE_AFTER_YEAR というバリデーターが追加されました。これらのバリデーターは、関連付けられたオブジェクトの日付を 1900 年より前や 2200 年より後に設定できないように指定します。</p>
     <ul>
      <li style="font-weight: bold;">actualCompletionDate</li>
      <li style="font-weight: bold;">actualStartDate</li>
      <li style="font-weight: bold;">constraintDate</li>
      <li style="font-weight: bold;">plannedCompletionDate</li>
      <li style="font-weight: bold;">plannedStartDate</li>
-    </ul><p style="font-weight: normal;">EAC（完了時の推定）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
+    </ul><p style="font-weight: normal;">EAC（完成時総コスト見積り）の計算に透明性を持たせるため、パブリック API に以下のフィールドを追加しました。</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP (Budgeted Cost of Work Performed) は、達成額とも呼ばれ、この指標の計算時に実際に完了したタスクの量の予算コストを表すプロジェクトの実績指標です。 タスクの場合、[BCWP =実績達成率 x タスク予算 ] です。 プロジェクトの場合、BCWP = SUM（すべての親タスクと個々のタスクの BCWP 値）</p></li>
-     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS (Budgeted Cost of Work Scheduled) は、計画値とも呼ばれ、この指標の計算時に完了する必要のあるタスクの量の予算コストを表すプロジェクトのパフォーマンス指標です。 タスクの場合、BCWS =計画完了率 x タスク予算。 プロジェクトの場合、BCWS = SUM（すべての親タスクと個々のタスクの BCWS 値）</p></li>
-    </ul><p style="font-weight: normal;">次のフィールドに、ET の値が追加されました。 この値は、週末や休日を問わず月を指す経過時間（月）の単位を表します。</p>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">BCWP（実行された作業の予算計上コスト）は、出来高とも呼ばれ、この指標の計算時点で実際に完了したタスク量の予算計上コストを表す、プロジェクトのパフォーマンス指標です。タスクの場合、BCWP = 実績完了率 x タスク予算となります。プロジェクトの場合、BCWP = SUM(すべての親タスクと個々のタスクの BCWP 値) となります。</p></li>
+     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">BCWS（予定された作業の予算計上コスト）は、予定値とも呼ばれ、この指標の計算時点で完了しているべきタスク量の予算計上コストを表す、プロジェクトのパフォーマンス指標です。タスクの場合、BCWS = 予定完了率 x タスク予算となります。プロジェクトの場合、BCWS = SUM(すべての親タスクと個々のタスクの BCWS 値) となります。</p></li>
+    </ul><p style="font-weight: normal;">次のフィールドに可能な値 ET が追加されました。この値は、週末や休日を考慮しない、経過月数の単位を表します。</p>
     <ul>
      <li style="font-weight: bold;">durationUnit</li>
      <li style="font-weight: bold;">workUnit</li>
-    </ul><p style="font-weight: normal;">次のフィールドは Work オブジェクトから削除されました。</p>
+    </ul><p style="font-weight: normal;">次のフィールドは作業オブジェクトから削除されました。</p>
     <ul>
      <li style="font-weight: bold;">reservedTimeID</li>
-    </ul><p style="font-weight: normal;">次のフィールドが Work オブジェクトに追加されました。</p>
+    </ul><p style="font-weight: normal;">次のフィールドが作業オブジェクトに追加されました。</p>
     <ul>
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
@@ -1366,7 +1366,7 @@ Work オブジェクトは、Task と OpTask の両方が継承する共通の�
    <td>参照フィールド</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">削除済み  </p> </li> 
+     <li style="font-weight: bold;"> <p>reservedTime</p> <p style="font-weight: normal;">削除されました。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
