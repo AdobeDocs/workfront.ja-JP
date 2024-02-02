@@ -7,56 +7,56 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 22.3 統合の強化
 
-このページでは、プレビュー環境の 2.3 リリースでおこなわれた統合の機能強化について説明します。 これらの機能強化は、2022 年 7 月 11 日の週の 2022 年 1 月に実稼動環境で利用可能になる予定です。 22.3 リリースで使用可能なすべての変更点の一覧については、 [22.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+このページでは、プレビュー環境の 2.3 リリースで行われたすべての統合の機能強化について説明します。これらの機能強化は、2022年7月11日の週に実稼動環境で利用可能になる予定です。22.3 リリースで使用可能なすべての変更点の一覧については、[22.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)を参照してください。
 
-## Adobe Workfront for Experience Manager Assetsの統合
+## Experience Manager Assets の統合向けの Adobe Workfront
 
-Adobe Workfront Experience Manager Assetsの統合がCloud Service可能になりました。
+Adobe Workfront Experience Manager Assets の統合が Cloud Service で利用可能になったことをお知らせします。
 
-また、Cloud ServiceとAssets Essentialsの両方に新しい機能が導入されました。この統合により、ユーザーは次の操作を実行できます。
+また、Cloud Service と Assets Essentials の両方に新しい機能が導入されました。この統合により、次の操作を実行できます。
 
-* Workfront内から、リンクされたAEMフォルダーを自動的に作成する
+* Workfront 内から、リンクされた AEM フォルダーを自動的に作成
 
-* 既にリンクされているアセットのメタデータの更新をWorkfrontからAEMにプッシュします
+* 既にリンクされているアセットのメタデータの更新を Workfront から AEM にプッシュ
 
-* Workfront内の最新のAEMメタデータをリアルタイムで表示
+* Workfront 内の最新の AEM メタデータをリアルタイムで表示
 
 
-この統合を使用するには、WorkfrontとAdobe Experience Manager Assets、またはAssets EssentialsがAdobe Admin Consoleの組織 ID に関連付けられている必要があります。 詳細については、Adobeの営業担当者にお問い合わせください。
+この統合を使用するには、Workfront と、Adobe Admin Console の組織 ID に関連付けられている Adobe Experience Manager Assets または Assets Essentials が必要です。詳しくは、アドビの営業担当者にお問い合わせください。
 
-統合の設定について詳しくは、
+統合の設定について詳しくは、次を参照してください。
 
-* [Experience Manager Assets as a Cloud Service統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [Experience Manager Assets as a Cloud Service 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 
 * [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 
 
-統合の使用について詳しくは、 Adobe Workfront for Experience Manager Assets Essentials を参照してください。
+統合の使用について詳しくは、Experience Manager Assets Essentials 向けの Adobe Workfront を参照してください。
 
-## 新しいSharePoint(Graph API) 統合が利用できるようになりました
+## 新しい SharePoint（Graph API）統合が使用可能に
 
-よりシンプルな新しいSharePoint統合を作成しました。 今は、SharePoint統合を設定する必要はありません。 代わりに、新しいSharePoint統合は、他のドキュメント統合と同様に、単に選択できるオプションです。
+新しくよりシンプルな SharePoint 統合が作成されました。SharePoint 統合を設定しなくてもよくなりました。代わりに、新しい SharePoint 統合は、他のドキュメント統合と同様に、選択できるオプションにすぎなくなりました。
 
-従来のSharePoint統合を通じて現在リンクされているドキュメントへのアクセス権は失われません。 ただし、従来の統合を通じて新しいドキュメントをリンクすることはできません。
+従来の SharePoint 統合を通じて現在リンクされているドキュメントへのアクセス権は、失われません。ただし、従来の統合を通じて新しいドキュメントをリンクすることはできません。
 
-Workfront管理者は、組織のニーズに応じて、SharePointと従来のSharePointの統合を別々に有効化および無効化できます。
+Workfront 管理者は、組織のニーズに応じて、SharePoint と従来の SharePoint の統合を個別に有効または無効にすることができます。
 
-詳しくは、 [レガシーSharePoint統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+詳しくは、[従来の SharePoint 統合を設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
 
-## 複数のファイルを 1 つの配達確認でCreative Cloudプラグインで結合
+## Creative Cloud プラグインで複数のファイルを単一のプルーフに結合
 
-Workfrontで複数ファイルの配達確認を作成するために、Adobe Workfrontで作成したコンテンツを使用して、外部のファイルをアップロードできるようになりました。 外部のファイルは、Workfront内に追加の配達確認ページとして表示されます。 この機能強化により、配達確認作成エクスペリエンスのルックアンドフィールも更新しました。
+Creative Cloud 用 Adobe Workfront プラグインで作成したコンテンツを含んだ外部ファイルをアップロードして、Workfront で複数ファイルのプルーフを作成できるようになりました。外部ファイルは、Workfront 内に追加のプルーフページとして表示されます。この機能強化により、プルーフ作成エクスペリエンスのルックアンドフィールも更新されました。
 
-詳しくは、
+詳しくは、次を参照してください。
 
-* [Adobe Photoshopから配達確認をアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
+* [Adobe Photoshop からプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
 
-* [XDアートボードを配達確認としてWorkfrontにアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [XD アートボードをプルーフとして Workfront にアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
