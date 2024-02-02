@@ -1,170 +1,170 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: アクセス [!DNL Adobe Workfront] 内の共有リンクのオブジェクト [!DNL Slack]
-description: リンク先 [!DNL Adobe Workfront] オブジェクトがSlackチャネルで共有されると、をインストールして設定した後、Slackでそれらに関する追加情報を表示できます [!DNL Workfront] Slack
+title: ' [!DNL Slack] の共有リンクからの [!DNL Adobe Workfront] オブジェクトへのアクセス'
+description: ' [!DNL Adobe Workfront] オブジェクトへのリンクが Slack チャネルで共有されると、 [!DNL Workfront] をインストールして Slack 用に設定した後で、それらに関する追加情報が Slack に表示されます。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
 source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# アクセス [!DNL Adobe Workfront] 内の共有リンクのオブジェクト [!DNL Slack]
+# [!DNL Slack] の共有リンクからの [!DNL Adobe Workfront] オブジェクトへのアクセス
 
-リンク先 [!DNL Adobe Workfront] オブジェクトが [!DNL Slack] チャネルに含まれているセグメントに関する追加情報を [!DNL Slack]をインストールして設定した後、 [!DNL Workfront for Slack].
+[!DNL Adobe Workfront] オブジェクトへのリンクが [!DNL Slack] チャネルで共有されると、[!DNL Workfront for Slack] をインストールして設定した後で、それらに関する追加情報が [!DNL Slack] に表示されます。
 
-設定に関する詳細 [!DNL Workfront for Slack]を参照してください。 [設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+[!DNL Workfront for Slack] の設定について詳しくは、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
-次にログインする必要があります： [!DNL Workfront] 別のブラウザータブでリンクを開く、または [!DNL Slack].
+[!DNL Slack] からリンクを開いたり、これらのオブジェクトに対して追加のアクションを実行したりするには、別のブラウザータブで [!DNL Workfront] にログインする必要があります。
 
-ユーザーが [!DNL Workfront] リンクと共に、オブジェクトに関する追加情報も表示される場合があります。 リンクを送信するユーザーには、少なくとも [!UICONTROL 表示] 追加情報を表示するためのオブジェクトへの権限 [!DNL Slack].
+ユーザーが [!DNL Workfront] 内のオブジェクトへのリンクを共有している場合、そのオブジェクトに関する追加情報がリンクと共に表示される場合があります。これらの追加情報を [!DNL Slack] に表示するには、リンクを送信するユーザーに、少なくともオブジェクトの[!UICONTROL 表示]権限が必要です。
 
 ## アクセス要件
 
-この記事で説明する機能を使用するには、次のアクセス権が必要です。
+この記事で説明されている機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]</p> </td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-お気に入りと最近使用した項目にアクセスする前に [!DNL Slack]を
+[!DNL Slack] から、最近使用した項目とお気に入りにアクセスするには、まず以下が必要です。
 
-* 設定 [!DNL Workfront for Slack]\
-   設定手順 [!DNL Workfront for Slack]を参照してください。 [設定 [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+* [!DNL Workfront for Slack] の設定\
+   [!DNL Workfront for Slack] の設定の手順については、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
-## 次のプロジェクトにアクセス [!DNL Slack]
+## [!DNL Slack] からのプロジェクトへのアクセス
 
-1. にログインします。 [!DNL Slack] インスタンスとログイン [!DNL Workfront from Slack.]
+1. [!DNL Slack] インスタンスにログインし、[!DNL Workfront from Slack.] にログインします。
 
-   へのログインの詳細 [!DNL Workfront] から [!DNL Slack]詳しくは、 [!DNL Workfront from Slack]」セクション内の [アクセス [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) へのアクセスの「[!DNL Workfront from Slack] へのログイン」の節を参照してください。
 
-1. リンク先の [!DNL Workfront] プロジェクト。
+1. [!DNL Workfront] プロジェクトへのリンクを含んだメッセージに移動します。
 
    >[!NOTE]
    >
-   >リンクを共有するユーザーには、少なくとも [!UICONTROL 表示] 権限をプロジェクトに設定して、プロジェクトに関する追加情報を表示できます。
+   >リンクを共有しているユーザーがプロジェクトに関する追加情報を参照するには、少なくともプロジェクトの[!UICONTROL 表示]権限が必要です。
 
-1. （オプション）プロジェクトの名前をクリックしてで開きます。 [!DNL Workfront] をクリックします。
+1. （オプション）プロジェクトの名前をクリックして、新しいブラウザータブで [!DNL Workfront] にプロジェクトを開きます。
 1. プロジェクトに関する次の追加情報を確認することを検討します。
 
-   * **[!UICONTROL ステータス]:** プロジェクトのステータスの詳細については、 [システムプロジェクトステータスのリストへのアクセス](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+   * **[!UICONTROL ステータス]：**&#x200B;プロジェクトステータスについて詳しくは、[システムプロジェクトステータスのリストへのアクセス](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)を参照してください。
 
-   * **[!UICONTROL 計画完了日]**:計画完了日の詳細は、 [プロジェクトの完了予定日を設定](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+   * **[!UICONTROL 予定完了日]**：予定完了日について詳しくは、[プロジェクトの予定完了日の設定](../../manage-work/projects/planning-a-project/project-planned-completion-date.md)を参照してください。
 
-   * **[!UICONTROL Portfolio]** 名前：ポートフォリオについて詳しくは、 [Adobe WorkfrontのPortfolioの概要](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **[!UICONTROL ポートフォリオ]**&#x200B;名：ポートフォリオについて詳しくは、[Adobe Workfront のポートフォリオの概要](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)を参照してください。
 
-   * **[!UICONTROL 条件]**:プロジェクト条件の詳細については、 [プロジェクト条件と条件タイプの概要](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+   * **[!UICONTROL 状況]**：プロジェクト状況について詳しくは、[プロジェクト状況と状況タイプの概要](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)を参照してください。
 
-   * **[!UICONTROL 完了率]**:プロジェクトの「完了率」の値の詳細については、 [プロジェクトの完了率の概要](../../manage-work/tasks/task-information/project-percent-complete.md).
+   * **[!UICONTROL 完了率]**：プロジェクトの完了率の値について詳しくは、[プロジェクトの完了率の概要](../../manage-work/tasks/task-information/project-percent-complete.md)を参照してください。
 
-   * **[!UICONTROL 参照番号]**:オブジェクト参照番号の詳細については、 [オブジェクトの参照数を使用](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+   * **[!UICONTROL 参照番号]**：オブジェクトの参照番号について詳しくは、[オブジェクトの参照番号の使用](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md)を参照してください。
 
-1. （オプション）「 **[!UICONTROL 購読]** プロジェクトを購読する。
+1. （オプション）「**[!UICONTROL 登録]**」をクリックして、プロジェクトに登録します。
 
-   プロジェクトを正常に購読したことを示す確認メッセージが表示されます。
+   プロジェクトに正常に登録されたことを示す確認メッセージが表示されます。
 
-## 次のタスクにアクセス [!DNL Slack]
+## [!DNL Slack] からのタスクへのアクセス
 
-1. にログインします。 [!DNL Slack] インスタンスとログイン [!DNL Workfront from Slack].
+1. [!DNL Slack] インスタンスにログインし、[!DNL Workfront from Slack] にログインします。
 
-   へのログインの詳細 [!DNL Workfront] から [!DNL Slack]詳しくは、 [!DNL Workfront] から [!DNL Slack]」セクション内の [アクセス [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) へのアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
 
-1. リンク先の [!DNL Workfront] タスク。
+1. [!DNL Workfront] タスクへのリンクを含んだメッセージに移動します。
 
    >[!NOTE]
    >
-   >リンクを共有するユーザーには、少なくとも [!UICONTROL 表示] タスクに対する権限を設定し、タスクに関する追加情報を表示できます。
+   >リンクを共有しているユーザーがタスクに関する追加情報を参照するには、少なくともタスクの[!UICONTROL 表示]権限が必要です。
 
-1. （オプション）タスクの名前をクリックして開きます。 [!DNL Workfront] をクリックします。
+1. （オプション）タスクの名前をクリックして、新しいブラウザータブで [!DNL Workfront] にタスクを開きます。
 1. タスクに関する次の追加情報を確認することを検討します。
 
-   * **[!UICONTROL ステータス]**
+   * **[!UICONTROL 状態]**
 
-      タスクのステータスについて詳しくは、 [システムタスクステータスのリストへのアクセス](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md).
+     タスク状態について詳しくは、[システムタスク状態のリストへのアクセス](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)を参照してください。
 
    * **[!UICONTROL 完了率]**
-   * **[!UICONTROL 割り当て先名]**
+   * **[!UICONTROL 名前の割り当て]**
    * **[!DNL Planned Completion Date]**
-   * **[!UICONTROL プロジェクト名]** または **[!UICONTROL 親タスク名]**
+   * **[!UICONTROL プロジェクト名]**&#x200B;または&#x200B;**[!UICONTROL 親タスク名]**
    * **[!UICONTROL 参照番号]**
 
-      オブジェクト参照番号の詳細については、 [オブジェクトの参照数を使用](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+     オブジェクトの参照番号について詳しくは、[オブジェクトの参照番号の使用](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md)を参照してください。
 
-1. （オプション）「 **[!UICONTROL 購読]** タスクを購読する
+1. （オプション）「**[!UICONTROL 登録]**」をクリックして、タスクに登録します。
 
-   タスクを正常に購読したことを示す確認メッセージが表示されます。
+   タスクに正常に登録されたことを示す確認メッセージが表示されます。
 
-1. （オプション）「 **[!UICONTROL ユーザーに割り当て]** タスクをユーザーに割り当てます。
-1. （条件付き）クリックした場合は、ユーザーの名前の入力を開始します **[!UICONTROL ユーザーに割り当て]**.
+1. （オプション）「**[!UICONTROL ユーザーに割り当て]**」をクリックして、タスクをユーザーに割り当てます。
+1. （条件付き）「**[!UICONTROL ユーザーに割り当て]**」をクリックした場合は、ユーザーの名前を入力し始めます。
 
-   タスクをジョブロールまたはチームに割り当てることはできません。 [!DNL Slack].
+   [!DNL Slack] からタスクを担当業務またはチームに割り当てることはできません。
 
-## からのアクセスの問題 [!DNL Slack]
+## [!DNL Slack] からイシューにアクセス
 
-1. にログインします。 [!DNL Slack] インスタンスとログイン [!DNL Workfront] から [!DNL Slack].
+1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。
 
-   からWorkfrontにログインする方法について詳しくは、 [!DNL Slack]詳しくは、 [!DNL Workfront] から [!DNL Slack]」セクション内の [アクセス [!DNL Adobe Workfront] から [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   [!DNL Slack] から Workfront へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスの[!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
 
-1. リンク先の [!DNL Workfront] 問題。
+1. [!DNL Workfront] イシューへのリンクを含むメッセージに移動します。
 
    >[!NOTE]
    >
-   >リンクを共有するユーザーには、少なくとも [!UICONTROL 表示] 権限を問題に設定して、問題に関する追加情報を表示できます。
+   >リンクを共有しているユーザーは、イシューに関する追加情報を表示するために、イシューに対する[!UICONTROL 表示]以上の権限を持っている必要があります。
 
-1. （オプション）問題の名前をクリックして、 [!DNL Workfront] をクリックします。
+1. （オプション）イシューの名前をクリックして、新しいブラウザータブの [!DNL Workfront] でタスクを開きます。
 1. タスクに関する次の追加情報を確認することを検討します。
 
-   * **[!UICONTROL ステータス]**:問題のステータスについて詳しくは、 [システムの問題ステータスのリストへのアクセス](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+   * **[!UICONTROL ステータス]**：イシューのステータスについて詳しくは、[システムイシューステータスのリストへのアクセス](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)を参照してください。
 
-   * **[!UICONTROL 割り当て先名]**
+   * **[!UICONTROL 割り当て先の名前]**
    * **[!UICONTROL 予定完了日]**
    * **[!UICONTROL プロジェクト名]**
-   * **[!UICONTROL 参照番号]**:オブジェクト参照番号の詳細については、 [オブジェクトの参照数を使用](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+   * **[!UICONTROL 参照番号]**：オブジェクトの参照番号について詳しくは、[オブジェクトの参照番号を使用](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md)を参照してください。
 
-1. （オプション）「 **[!UICONTROL 購読]** を追加しました。
+1. （オプション）「**[!UICONTROL 登録]**」をクリックしてイシューに登録します。
 
-   問題の購読に成功したことを示す確認メッセージが表示されます。
+   イシューに正しく登録されたことを示す確認メッセージが表示されます。
 
-1. （オプション）「 **[!UICONTROL ユーザーに割り当て]** ユーザーに問題を割り当てます。
-1. （条件付き）クリックした場合は、ユーザーの名前の入力を開始します **[!UICONTROL ユーザーに割り当て]**.
+1. （オプション）「**[!UICONTROL ユーザーに割り当て]**」をクリックして、イシューをユーザーに割り当てます。
+1. （条件付き）「**[!UICONTROL ユーザーに割り当て]**」をクリックした場合は、ユーザー名を入力し始めます。
 
-   ジョブロールまたはチームにイシューを割り当てることはできません。 [!DNL Slack].
+   [!DNL Slack] から担当業務またはチームにイシューを割り当てることはできません。
 
-## 次の場所からポートフォリオにアクセス [!DNL Slack]
+## [!DNL Slack] からポートフォリオへのアクセス
 
-1. にログインします。 [!DNL Slack] インスタンスとログイン [!DNL Workfront] から [!DNL Slack].
+1. [!DNL Slack] インスタンスにログインし、[!DNL Slack] から [!DNL Workfront] にログインします。
 
-   へのログインの詳細 [!DNL Workfront] から [!DNL Slack]詳しくは、 [!DNL Workfront] から [!DNL Slack]」セクション内の [アクセス [!DNL Adobe Workfront] から [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
 
-1. リンク先の [!DNL Workfront] ポートフォリオ
+1. [!DNL Workfront] ポートフォリオへのリンクを含むメッセージに移動します。
 
    >[!NOTE]
    >
-   >リンクを共有するユーザーには、少なくとも [!UICONTROL 表示] ポートフォリオに対する権限を設定し、ポートフォリオに関する追加情報を表示できます。
+   >リンクを共有しているユーザーは、ポートフォリオに関する追加情報を表示するには、ポートフォリオに対する[!UICONTROL 表示]以上の権限を持っている必要があります。
 
-1. （オプション）ポートフォリオの名前をクリックして開きます。 [!DNL Workfront] をクリックします。
-1. ポートフォリオに関する次の追加情報の確認を検討します。
+1. （オプション）ポートフォリオの名前をクリックして、新しいブラウザータブの [!DNL Workfront] でポートフォリオを開きます。
+1. ポートフォリオに関する次の追加情報を確認することを検討します。
 
-   * **[!UICONTROL Portfolioマネージャ名]**
+   * **[!UICONTROL ポートフォリオマネージャーの名前]**
    * **[!UICONTROL 予定通り]**
    * **[!UICONTROL ROI]**
    * **[!UICONTROL 純価]**
@@ -172,39 +172,39 @@ ht-degree: 2%
    * **[!UICONTROL 予算通り]**
    * **[!UICONTROL 整合済み]**
 
-      ポートフォリオ指標に関する詳細は、 [!UICONTROL ROI], [!UICONTROL 正味値], [!UICONTROL 整列]、および [!UICONTROL オンタイム] および [!UICONTROL 予算] 値： [について [!UICONTROL Portfolio最適化].](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+     [!UICONTROL ROI]、[!UICONTROL 純価]、[!UICONTROL アライメント]、[!UICONTROL オンタイム]、[!UICONTROL 予算内]の値などのポートフォリオ指標について詳しくは、[[!UICONTROL ポートフォリオオプティマイザーについて]を参照してください。](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
-## 次のプログラムにアクセス： [!DNL Slack]
+## [!DNL Slack] からプログラムへのアクセス
 
-1. にログインします。 [!DNL Slack] インスタンスとログイン [!DNL Workfront] から [!DNL Slack].
+1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。
 
-   へのログインの詳細 [!DNL Workfront] から [!DNL Slack]詳しくは、 [!DNL Workfront] から [!DNL Slack]」セクション内の [アクセス [!DNL Adobe Workfront] から [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
 
-1. リンク先の [!DNL Workfront] プログラム。
+1. [!DNL Workfront] プログラムへのリンクを含むメッセージに移動します。
 
    >[!NOTE]
    >
-   > リンクを共有するユーザーには、少なくとも [!UICONTROL 表示] 権限をプログラムに設定して、プログラムに関する追加情報を表示します。
+   > リンクを共有しているユーザーは、プログラムに関する追加情報を表示するために、プログラムに対する[!UICONTROL 表示]以上の権限を持っている必要があります。
 
-1. （オプション）プログラムを開くプログラムの名前をクリックします。 [!DNL Workfront] をクリックします。
+1. （オプション）プログラムの名前をクリックして、新しいブラウザータブの [!DNL Workfront] でプログラムを開きます。
 1. プログラムに関する次の追加情報を確認することを検討します。
 
    * **[!UICONTROL 説明]**
    * **[!UICONTROL ポートフォリオ名]**
-   * **[!UICONTROL プログラムマネージャ名]**
+   * **[!UICONTROL プログラムマネージャーの名前]**
 
-      プログラムの詳細については、 [プログラムを作成および管理します。](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+     プログラムについて詳しくは、[プログラムの作成と管理](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)を参照してください。
 
-## 次の場所からレポートにアクセス [!DNL Slack]
+## [!DNL Slack] からレポートへのアクセス
 
-1. にログインします。 [!DNL Slack] インスタンスとログイン [!DNL Workfront] から [!DNL Slack].
+1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。
 
-   へのログインの詳細 [!DNL Workfront] から [!DNL Slack]詳しくは、 [!DNL Workfront] から [!DNL Slack]」セクション内の [アクセス [!DNL Adobe Workfront] から [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [!DNL Adobe Workfront] へのアクセス の [!DNL Slack] から [!DNL Workfront] へのログインの節を参照してください。
 
-1. リンク先の [!DNL Workfront] レポート。
+1. [!DNL Workfront] レポートへのリンクを含むメッセージに移動します。
 
    >[!NOTE]
    >
-   >リンクを共有するユーザーには、少なくとも [!UICONTROL 表示] 権限をレポートに追加して、そのレポートに関する追加情報を表示できます。
+   >リンクを共有しているユーザーは、レポートに関する追加情報を表示するために、レポートに対する[!UICONTROL 表示]以上の権限を持っている必要があります。
 
-1. （オプション）レポートの名前をクリックして開く [!DNL Workfront] をクリックします。
+1. （オプション）レポートの名前をクリックして、新しいブラウザータブの [!DNL Workfront] でレポートを開きます。
