@@ -4,22 +4,22 @@ user-type: administrator
 content-type: faq
 product-area: system-administration
 navigation-topic: administrator-faqs
-description: Adobe Workfrontは、100% Software-As-A-Service モデルに移行し、2011 年 12 月 31 日にオンプレミスソフトウェアの販売を停止しました。 2014 年以降、AtTask OnPremise はサポートされなくなり、ライセンスキーに関する問題は除きます。 オンプレミスアプリケーションは、ダウンロードまたはインストールできなくなりました。
+description: Adobe Workfront は、100% Software-As-A-Service モデルに移行し、2011年12月31日（PT）にオンプレミスソフトウェアの販売を停止しました。2014年以降、ライセンスキーに関する問題は除き、AtTask OnPremise はサポートされなくなります。オンプレミスアプリケーションは、ダウンロードまたはインストールできなくなりました。
 feature: System Setup and Administration
 role: Admin
 exl-id: 37c65360-6587-43b3-8eaf-4f1a9b375c1d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # AtTask OnPremise サポートポリシー
 
-Adobe Workfrontは、100% Software-As-A-Service モデルに移行し、2011 年 12 月 31 日にオンプレミスソフトウェアの販売を停止しました。 2014 年以降、AtTask OnPremise はサポートされなくなり、ライセンスキーに関する問題は除きます。 オンプレミスアプリケーションは、ダウンロードまたはインストールできなくなりました。
+Adobe Workfront は、100% Software-As-A-Service モデルに移行し、2011年12月31日（PT）にオンプレミスソフトウェアの販売を停止しました。2014年以降、ライセンスキーに関する問題は除き、AtTask OnPremise はサポートされなくなります。オンプレミスアプリケーションは、ダウンロードまたはインストールできなくなりました。
 
-既にデスクトップアプリケーションを使用していて、OnPremise を再インストールする必要がある場合は、インストールガイドをダウンロードします。
+既にアプリケーションを使用していて、OnPremise を再インストールする必要がある場合は、インストールガイドをダウンロードします。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OnPremise optimization tips can be found.</p>
@@ -40,29 +40,29 @@ SSL/TSL 設定の手順をダウンロードします。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。 詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> <p><b>注意</b>:まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## OnPremise のライセンスキーを更新する
+## OnPremise のライセンスキーを更新
 
-新しいライセンスキーが必要な場合は、844-306-HELP(4357) のWorkfrontカスタマーサポートにお電話ください。
+新しいライセンスキーが必要な場合は、844-306-HELP(4357) まで Workfront カスタマーサポート宛てにお電話ください。
 
 新しいライセンスキーを取得したら、
 
 1. atTask サーバーを停止します。
-1. 現在の license.key ファイル（AtTaskDoc フォルダ内）の名前を変更します。
-1. 新しい license.key ファイルをコピーします。
+1. 現在の license.key ファイル（AtTaskDoc フォルダー内）の名前を変更します。
+1. 新しい license.key ファイルを適切な場所にコピーします。
 1. atTask サーバーを再起動します。
 
 この記事には、次の添付ファイルが含まれます。
