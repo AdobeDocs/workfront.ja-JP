@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: old-workfront-goals-articles
-title: Adobe Workfront目標の目標の削除と無効化
-description: 目標の作業を開始し、組織内で無関係になった場合は、目標を削除する代わりに、非アクティブ化することをお勧めします。 目標を非アクティブ化すると、履歴情報が保持され、後で再アクティブ化することができます。 ただし、目標を削除する場合、目標リストを正確に保つために、目標を削除すると意味がないことがあります。
+title: Adobe Workfront Goals での目標の削除と非アクティブ化
+description: 目標に取り組み始めた後で、組織との関連性がなくなった場合は、目標を削除するのではなく、非アクティブ化することをお勧めします。目標を非アクティブ化すると、履歴情報が保持され、後で再度アクティブ化することができます。ただし、目標リストを正確に保つために、目標を削除することがよいことももあります。
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
 source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標の目標の削除と無効化
+# Adobe Workfront Goals での目標の削除と非アクティブ化
 
-目標の作業を開始し、組織内で無関係になった場合は、目標を削除する代わりに、非アクティブ化することをお勧めします。 目標を非アクティブ化すると、履歴情報が保持され、後で再アクティブ化することができます。 ただし、目標を削除する場合、目標リストを正確に保つために、目標を削除すると意味がないことがあります。
+目標に取り組み始めた後で、組織との関連性がなくなった場合は、目標を削除するのではなく、非アクティブ化することをお勧めします。目標を非アクティブ化すると、履歴情報が保持され、後で再度アクティブ化することができます。ただし、目標リストを正確に保つために、目標を削除することがよいことももあります。
 
 ## アクセス要件
 
@@ -81,25 +81,25 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront目標の使用要件</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>目標以降へのアクセスを編集</p> <p><b>メモ</b>
+   <td> <p>Goals 以上への編集アクセス権</p> <p><b>メモ</b>
 
-<p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+<p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -107,47 +107,47 @@ You must have the following:
    <td> 
     <div> 
      <p>目標に対する権限の管理</p> 
-     <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
+     <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 ## 前提条件
 
-を起動する前に、次の条件を満たす必要があります。
+開始するには、まず以下が必要です。
 
-* メインメニューの目標領域を含むレイアウトテンプレート。
+* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 
-## 目標を非アクティブ化
+## 目標の非アクティブ化
 
-関連性がなくなった目標を非アクティブ化し、後で再アクティブ化することができます。
+関連性がなくなり、将来的に再度アクティブ化する可能性がある目標を非アクティブ化できます。
 
-* [目標を非アクティブ化する際の考慮事項](#considerations-when-deactivating-goals)
-* [目標を非アクティブ化](#deactivate-goals)
+* [目標を非アクティブ化する場合の考慮事項](#considerations-when-deactivating-goals)
+* [目標の非アクティブ化](#deactivate-goals)
 
-### 目標を非アクティブ化する際の考慮事項
+### 目標を非アクティブ化する場合の考慮事項
 
-目標を無効にする際は、以下の点に注意してください。
+目標を非アクティブ化するときは、次の点に注意してください。
 
-* 「アクティブ」ステータスの目標のみ非アクティブ化できます。 目標のアクティブ化について詳しくは、 [Adobe Workfront目標で目標を有効化](../../workfront-goals/goal-management/activate-goals.md).
+* アクティブステータスの目標のみを非アクティブ化できます。目標のアクティブ化については、[Adobe Workfront Goals での目標のアクティブ化](../../workfront-goals/goal-management/activate-goals.md)を参照してください。
 
-   >[!TIP]
-   >
-   >ドラフトステータスでは目標を非アクティブ化できません。
+  >[!TIP]
+  >
+  >ドラフトステータスの目標を非アクティブ化することはできません。
 
-* Workfrontは、無効化された目標の進行状況の計算を停止します。
-* 「Workfront目標」の「グラフ」セクションに、非アクティブな目標が表示されなくなったか、考慮されなくなりました。 Workfront目標のグラフについて詳しくは、 [グラフを確認してAdobe Workfront目標の目標の進行状況の傾向を理解する](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* Workfront は、非アクティブ化された目標の進捗状況の計算を停止します。
+* 非アクティブな目標は、ワークフロント目標のグラフセクションに表示されなくなり、考慮されなくなります。Workfront Goals グラフについて詳しくは、[グラフを確認して Adobe Workfront Goals の目標進捗の傾向を理解する](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)を参照してください。
 
-   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
+  <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
-* 非アクティブ化された目標を更新できなくなりました。
-* 目標とその配置に関する情報を編集できます。
-* 以前に無効化された目標を再アクティブ化できます。
+* 非アクティブ化された目標を更新することはできなくなります。
+* 目標とその連携に関する情報を編集できます。
+* 以前に非アクティブ化した目標を再度アクティブ化できます。
 
-### 目標を非アクティブ化
+### 目標の非アクティブ化
 
 <!--
 Deactivating goals differs depending on which environment you use.
@@ -174,16 +174,16 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) 右上隅で、「 **目標**.
+1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**目標**」をクリックします。
 
    目標リストが表示されます。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-1. （オプション）アクティブな目標のみを表示するようにフィルターを変更します。
+1. （オプション）フィルターを変更して、アクティブな目標のみを表示します。
 
-   Workfront目標での情報のフィルターについて詳しくは、 [Adobe Workfront目標での情報のフィルター](../goal-management/filter-information-wf-goals.md).
+   Workfront Goals での情報のフィルタリングについて詳しくは、[Adobe Workfront Goals での情報のフィルタリング](../goal-management/filter-information-wf-goals.md)を参照してください。
 
 1. アクティブな目標をクリックします。
 
@@ -191,25 +191,25 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. 次をクリック： **詳細** メニュー ![](assets/more-icon.png) 目標名の右に移動し、 **無効化**.
+1. 目標名の右側にある&#x200B;**その他**&#x200B;メニュー![](assets/more-icon.png)をクリックし、**非アクティブ化**&#x200B;を選択します。
 
-1. 目標が非アクティブになり、そのステータスが非アクティブになります。
+1. 目標が非アクティブ化され、そのステータスは非アクティブになります。
 
-## 目標を削除
+## 目標の削除
 
-関連性がなくなった目標や関連性のない目標は削除できます。
+関連性がなくなった目標や、今後も関連性がないであろう目標は削除できます。
 
-* [目標を削除する際の考慮事項](#considerations-when-deleting-goals)
-* [目標を削除](#delete-goals)
+* [目標を削除する場合の考慮事項](#considerations-when-deleting-goals)
+* [目標の削除](#delete-goals)
 
-### 目標を削除する際の考慮事項 {#considerations-when-deleting-goals}
+### 目標を削除する場合の考慮事項 {#considerations-when-deleting-goals}
 
-* 終了した目標を含め、任意のステータスで目標を削除できます。
+* クローズした目標も含め、どのステータスの目標も削除できます。
 * 削除した目標は復元できません。
-* 結果と、目標に関連付けられている手動のプログレスバーアクティビティも削除されます。
+* 目標に関連付けられた結果と手動の進行状況バーのアクティビティも削除されます。
 * 目標に関連付けられたプロジェクトは削除されませんが、目標との関連付けは削除されます。
 
-### 目標を削除
+### 目標の削除
 
 <!--
 Deleting  goals differs depending on which environment you use.
@@ -231,15 +231,15 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. メインメニューアイコンをクリックします。 ![](assets/main-menu-icon.png) 右上隅で、「 **目標**.
+1. 右上隅にあるメインメニューアイコン ![](assets/main-menu-icon.png) をクリックし、**目標**&#x200B;をクリックします。
 
    目標リストが表示されます。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. 目標の名前をクリックします。 これにより、目標ページが開きます。
-1. 次をクリック： **詳細** メニュー ![](assets/more-icon.png) 目標名の右に移動し、 **目標を削除**&#x200B;を、 **削除**.
+1. 目標の名前をクリックします。目標ページが開きます。
+1. 目標名の右側にある&#x200B;**その他**&#x200B;メニュー![](assets/more-icon.png)をクリックし、**目標を削除**&#x200B;し、次に&#x200B;**削除**&#x200B;をクリックします。
 
-   また、目標とそのアクティビティと結果も削除され、復元できません。 目標または子目標に関連付けられたプロジェクトは削除されません。
+   目標とそのアクティビティおよび結果も削除され、復元することはできません。目標または子目標に関連付けられたプロジェクトは削除されません。
 
 
