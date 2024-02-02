@@ -1,23 +1,23 @@
 ---
 content-type: tips-tricks-troubleshooting
 product-area: documents
-keywords: 無効化、公開、共有、配達確認、公開、url
+keywords: 無効,パブリック,共有,プルーフ,パブリック,url
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: 公開 URL を使用した配達確認の共有を無効にするか、埋め込みコードを無効にします
-description: 公開 URL と配達確認を共有する機能や、配達確認ごとに、または個々のユーザーに対して、配達確認にコードを埋め込む機能をオフにできます。
+title: 公開 URL または埋め込みコードでのプルーフの共有の無効化
+description: パブリック URL でプルーフを共有する機能や、プルーフごとまたは個々のユーザーごとにプルーフにコードを埋め込む機能を無効にできます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 公開 URL を使用した配達確認の共有を無効にするか、埋め込みコードを無効にします
+# 公開 URL または埋め込みコードでのプルーフの共有の無効化
 
-公開 URL と配達確認を共有する機能や、配達確認ごとに、または個々のユーザーに対して、配達確認にコードを埋め込む機能をオフにできます。
+パブリック URL でプルーフを共有する機能や、プルーフごとまたは個々のユーザーごとにプルーフにコードを埋め込む機能を無効にできます。
 
 ## アクセス要件
 
@@ -28,41 +28,41 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>レガシープラン：選択またはプレミアム</p> <p>様々なプランでのアクセスの検証について詳しくは、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfrontの校正機能へのアクセス</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>現在のプラン：作業または計画</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、役割、配達確認権限プロファイルを確認するには、WorkfrontまたはWorkfrontの配達確認管理者に問い合わせてください。
+&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
 
-## 配達確認ごとに無効にする
+## プルーフごとに無効化
 
-配達確認の所有者または作成者であるか、作成者またはモデレーターの配達確認の役割が必要です。
+プルーフの所有者または作成者であるか、プルーフの役割が作者または進行管理者になっている必要があります。
 
-1. 配達確認を含むプロジェクトで、「 **ドキュメント** をクリックします。
-1. 配達確認の上にマウスポインターを置いて、「 」を選択します。 **ドキュメントの詳細** .
-1. 左側のパネルで、 **校正ビューアの設定**、次に **公開 URL または埋め込みコードを使用した配達確認の共有を許可** チェックボックス。
+1. プルーフを含んだプロジェクトで、左パネルの「**ドキュメント**」をクリックします。
+1. プルーフにポインタを合わせて、「**ドキュメントの詳細**」を選択します。
+1. 左パネルで「**プルーフ ビューアの設定**」をクリックして、「**パブリック URL または埋め込みコードによるプルーフの共有を許可**」チェックボックスをオフにします。
 
    ![](assets/proofing-viewer-settings-350x200.png)
 
 1. 「**保存**」をクリックします。
 
-## ユーザーごとに無効にする
+## ユーザーごとに無効化
 
-Workfrontインスタンスで、個々のユーザーに対して公開の配達確認設定を無効にできます。 この変更を行うには、管理者の配達確認権限プロファイルが必要です。
+Workfront インスタンスで、個々のユーザーごとにパブリックプルーフ設定を無効にできます。この変更を行うには、管理者のプルーフ権限プロファイルが必要です。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **校正**.
-1. クリック **アカウント設定** 右上隅付近にある
-1. 次をクリック： **ユーザー** 」タブをクリックし、ユーザーの名前をクリックします。
-1. 内 **デフォルトの配達確認設定** セクションで、 **公開共有** チェックボックス。
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、「**プルーフ**」をクリックします。
+1. 右上隅付近にある「**アカウント設定**」をクリックします。
+1. 「**ユーザー**」タブをクリックし、ユーザーの名前をクリックします。
+1. 「**デフォルトのプルーフ設定**」セクションで、「**パブリック共有**」チェックボックスをオフにします。
 
    ![](assets/default-proof-settings--public-sharing-350x210.png)
