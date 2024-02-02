@@ -2,31 +2,31 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 以下の記事を確認して、Workfront目標で目標を合わせる方法を理解してください。
-description: 以下の記事で、Adobe Workfrontでの目標の整合について説明します。
+title: Workfront Goals で目標を調整する方法を理解するには、次の記事を参照してください。
+description: Adobe Workfront での目標の調整については、次の記事で説明します。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
-workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '143'
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront目標の目標の調整
+# Adobe Workfront Goals で目標を調整
 
 >[!NOTE]
 >
->この記事で説明する機能を使用するには、以下が必要です。
+>この記事で説明している機能を使用するには、組織に以下が必要です。
 >
->* A Pro 以上 [Adobe Workfrontプラン](https://www.workfront.com/plans).
->* Workfrontライセンスに加えて、Adobe Workfront Goals ライセンスが必要です。
+>* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
+>* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 >
->Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 
-Workfront Goals へのアクセスについて詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:    
     
@@ -50,10 +50,10 @@ Contact your Workfront account manager to learn about a Workfront Goals license.
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
 -->
 
-以下の記事を確認して、Workfront目標で目標を揃える方法を理解してください。
+Workfront Goals で目標を調整する方法を理解するには、次の記事を参照してください。
 
-* [Adobe Workfront目標の目標揃えの概要](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [目標をAdobe Workfront目標に結び付けて整列させる](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [結果とアクティビティを目標に変換して目標を揃える](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
-* [Adobe Workfront目標の目標の整合を削除](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
-* [Adobe Workfront目標の目標の目標揃えセクションに移動します。](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
+* [Adobe Workfront Goals での調整の概要](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [目標を Adobe Workfront Goals に結び付けて調整](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [結果とアクティビティを目標に変換して目標を調整](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Adobe Workfront Goals での目標の調整の削除](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
+* [Adobe Workfront Goals の目標の整合性セクションに移動](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
