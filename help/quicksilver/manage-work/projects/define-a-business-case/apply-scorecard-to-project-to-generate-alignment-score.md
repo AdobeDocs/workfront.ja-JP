@@ -1,22 +1,22 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: プロジェクトにスコアカードを適用し、線形スコアを生成する
-description: スコアカードを使用して、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合しているかを測定できます。 スコアカードは、多くの場合、組織のミッション、価値、戦略目標を反映します。
+title: プロジェクトにスコアカードを適用し、整合性スコアを生成
+description: スコアカードを使用して、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合しているかを測定できます。スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
 source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1292'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# プロジェクトにスコアカードを適用し、線形スコアを生成する
+# プロジェクトにスコアカードを適用し、整合性スコアを生成
 
-スコアカードを使用して、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合しているかを測定できます。 スコアカードは、多くの場合、組織のミッション、価値、戦略目標を反映します。
+スコアカードを使用して、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合しているかを測定できます。スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。
 
-スコアカードの詳細と作成方法については、「 [スコアカードの作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+スコアカードとその作成方法について詳しくは、[スコアカードを作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
 
 ## アクセス要件
 
@@ -27,71 +27,71 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ビジネス以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p>Portfolio</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> <p>ポートフォリオに対する表示またはそれ以上のアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する権限の管理</p> <p>ポートフォリオに対する権限を表示または上限に設定する </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td> <p>プロジェクトに対して権限を管理</p> <p>ポートフォリオに対する表示またはそれ以上の権限 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## プロジェクトスコアカード {#project-scorecards}
+## プロジェクトのスコアカード {#project-scorecards}
 
 * [スコアカードの概要](#scorecards-overview)
-* [プロジェクトスコアカード](#project-scorecards)
+* [プロジェクトのスコアカード](#project-scorecards)
 
 ### スコアカードの概要 {#scorecards-overview}
 
-通常、プロジェクトマネージャはスコアカード情報を完了し、プロジェクトの線形値を 0 ～ 100 に設定します。 ポートフォリオマネージャーがポートフォリオオプティマイザー内のプロジェクトをレビューして比較する際に、後で生成された値が使用されます。
+通常、プロジェクトマネージャーがスコアカード情報をすべて入力し、プロジェクトの整合性の値を 0～100 で生成します。この生成された値は、後でポートフォリオマネージャーがポートフォリオオプティマイザー内のプロジェクトをレビューして比較する際に使用されます。
 
-ポートフォリオの最適化の詳細については、「 [Portfolio最適化の概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+ポートフォリオ最適化について詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)を参照してください。
 
 ### プロジェクトへのスコアカードの適用
 
-プランライセンスを持ち、プロジェクトに対する管理権限を持つユーザーは、スコアカードをプロジェクトに添付できます。
+プランライセンスを持ち、プロジェクトに対する管理権限を持つユーザーは、プロジェクトにスコアカードを添付できます。
 
-プロジェクト権限の詳細については、 [Adobe Workfrontでプロジェクトを共有する](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+プロジェクト権限について詳しくは、[Adobe Workfront でプロジェクトを共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 
-プロジェクトのビジネス事例を構築する際に、プロジェクトにスコアカードを追加できます。
+プロジェクトのビジネスケースを作成する一環として、プロジェクトにスコアカードを追加できます。
 
-ビジネスケースの構築について詳しくは、 [プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+ビジネスケースの作成について詳しくは、[プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
-ビジネス事例からスコアカードにアクセスするには、Adobe Workfrontの管理者またはグループ管理者が、プロジェクトの「ビジネス事例」領域の「スコアカード」セクションを有効にする必要があります。 プロジェクトの基本設定の設定とビジネス事例の領域の有効化について詳しくは、 [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+ビジネスケースからスコアカードにアクセスするには、Adobe Workfront 管理者またはグループ管理者が、プロジェクトのビジネスケースエリアの「スコアカード」セクションを有効にする必要があります。プロジェクトの環境設定とビジネスケースのエリアの有効化について詳しくは、[システム全体のプロジェクト環境を設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-スコアカードをプロジェクトに適用する手順は、次のとおりです。
+プロジェクトにスコアカードを適用する手順は、次のとおりです。
 
 1. スコアカードを適用するプロジェクトに移動します。
-1. クリック **ビジネス事例** をクリックします。
-1. 次を検索： **スコアカード** 」の項を参照してください。\
-   スコアカードは、 **スコアカード** 「 」セクションが「ビジネスケース」に表示されます。
+1. 左パネルの「**ビジネスケース**」をクリックします。
+1. ビジネスケースの「**スコアカード**」セクションを探します。\
+   ビジネスケースに「**スコアカード**」セクションを表示するには、スコアカードを作成する必要があります。
 
-   スコアカードの作成について詳しくは、 [スコアカードの作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+   スコアカードの作成について詳しくは、[スコアカードを作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
 
-1. ドロップダウンメニューからスコアカードを選択します。
+1. ドロップダウンメニューから「スコアカード」を選択します。
 
    ![new_scorecard.png](assets/new-scorecard-350x149.png)
 
 1. スコアカード内のすべての質問に対する回答を指定します。
 
-   Workfrontは、回答した各質問にスコアを適用し、各質問の個々のスコアに基づいてプロジェクト全体のスコアを計算します。
+   Workfront は、回答した各質問にスコアを適用し、全質問の個々のスコアに基づいてプロジェクト全体のスコアを計算します。
 
-   プロジェクト全体の線形スコアの生成について詳しくは、 [プロジェクトの線形スコアを生成する](#generate-an-alignment-score-for-a-project).
+   プロジェクト全体の整合性スコアの生成について詳しくは、[プロジェクトの整合性スコアを生成](#generate-an-alignment-score-for-a-project)を参照してください。
 
-1. クリック **保存** スコアカードを保存し、プロジェクトにスコアを付けます。
+1. 「**保存**」をクリックして、スコアカードを保存し、プロジェクトにスコアを付けます。
 
-   スコアカードがプロジェクトに関連付けられ、プロジェクトにスコアが割り当てられます。
+   スコアカードがプロジェクトに関連付けられ、プロジェクトにスコアが付きます。
 
 <!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
@@ -108,102 +108,102 @@ ht-degree: 0%
 
 -->
 
-## 線形スコアを生成
+## 整合性スコアを生成
 
-* [プロジェクトの線形スコアを生成する](#generate-an-alignment-score-for-a-project)
-* [ポートフォリオの線形スコアの生成](#generate-an-alignment-score-for-a-portfolio)
+* [プロジェクトの整合性スコアを生成](#generate-an-alignment-score-for-a-project)
+* [ポートフォリオの整合性スコアを生成](#generate-an-alignment-score-for-a-portfolio)
 
-### プロジェクトの線形スコアを生成する {#generate-an-alignment-score-for-a-project}
+### プロジェクトの整合性スコアを生成 {#generate-an-alignment-score-for-a-project}
 
-線形スコアは、スコアカードの入力後に生成される値です。
+整合性スコアは、スコアカードの入力後に生成される値です。
 
-スコアカードには、線形ポイントと呼ばれる数値が割り当てられた回答の選択肢が含まれています。 これらのポイントは、プロジェクトが組織とどの程度適合するかを決定するために使用されます。 各質問の配置ポイントには、0 ～ 100 の数値が含まれます。
+スコアカードには質問と回答の選択肢が含まれており、回答には整合性ポイントと呼ばれる数値が割り当てられています。これらのポイントは、プロジェクトが組織とどの程度整合しているかを決定するために使用されます。各質問の整合性ポイントには、0 ～ 100 の数値が含まれています。
 
-スコアカードが完成すると、Workfrontは、次の式を使用して、プロジェクトの線形スコアをパーセンテージで計算します。
+スコアカードが完成すると、Workfront は、プロジェクトの整合性スコアをパーセンテージで計算します。計算には次の式を使用します。
 
 ```
 Project Alignment Score = The sum of the question points from the scorecard met at a given time/ The sum of the possible points on the scorecard
 ```
 
-詳しくは、 [スコアカードの作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+詳しくは、[スコアカードの作成](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)を参照してください。
 
-### ポートフォリオの線形スコアの生成 {#generate-an-alignment-score-for-a-portfolio}
+### ポートフォリオの整合性スコアを生成 {#generate-an-alignment-score-for-a-portfolio}
 
-ポートフォリオの整列スコアは、ポートフォリオ内のすべてのプロジェクトの整列スコアの平均です。
+ポートフォリオの整合性スコアは、ポートフォリオ内のすべてのプロジェクトの整合性スコアの平均です。
 
-プロジェクトのスコアカードが完了すると、Workfrontは、次の式を使用して、これらの値を使用して、ポートフォリオの線形スコアをパーセンテージで計算します。
+各プロジェクトのスコアカードが完了すると、Workfront はそれらの値を使用して、ポートフォリオの整合性スコアをパーセンテージで計算します。計算には次の式を使用します。
 
-Portfolio線形スコア=プロジェクト線形スコアの割合の合計/ポートフォリオ内のプロジェクト数
+ポートフォリオの整合性スコア = プロジェクトの整合性スコアのパーセンテージの合計／ポートフォリオ内のプロジェクトの数
 
 >[!NOTE]
 >
->プロジェクトにスコアカードが関連付けられていないので、線形スコアが割り当てられていない場合は、ポートフォリオ内での配置が 0%と見なされます。 プロジェクトは、ポートフォリオ内のプロジェクトの数に考慮されます。
+>プロジェクトにスコアカードが関連付けられておらず、そのため整合性スコアが存在しない場合は、ポートフォリオ内で整合性が 0％ と見なされます。このプロジェクトは、ポートフォリオ内のプロジェクトの数にカウントされます。
 
-## 線形スコアの表示
+## 整合性スコアを確認
 
-プロジェクトの線形スコアは、プロジェクトレベルまたはPortfolioの最適化で表示できます。
+プロジェクトの整合性スコアは、プロジェクトレベルで、またはポートフォリオオプティマイザーで確認できます。
 
-* [プロジェクトの線形スコアを表示する](#View%20the)
-* [プロジェクトとポートフォリオの調整スコアをPortfolio最適化で表示](#View%20the2)
+* [プロジェクトで整合性スコアを確認](#View%20the)
+* [ポートフォリオオプティマイザーでプロジェクトやポートフォリオの整合性スコアを確認](#View%20the2)
 
-### プロジェクトの線形スコアを表示する
+### プロジェクトの整合性スコアを確認
 
-プロジェクトに対する Contribute 権限を持っている場合は、プロジェクトレベルでプロジェクトの配置スコアを表示できます。
+プロジェクトに対する参加権限を持っている場合は、プロジェクトレベルでプロジェクトの整合性スコアを確認できます。
 
-1. 線形スコアを表示するプロジェクトに移動します。
-1. クリック **ビジネス事例** をクリックします。
-1. 次に移動： **ビジネス事例の概要** 画面の右側に表示されます。
+1. 整合性スコアを確認するプロジェクトに移動します。
+1. 左側のパネルの「**ビジネスケース**」をクリックします。
+1. 画面右側の&#x200B;**ビジネスケース概要**&#x200B;に移動します。
 
-   線形スコアは、 **整列** の値です。
+   整合性スコアは、ビジネスケース概要の「**整合済み**」の値にあります。
 
    ![alignment_score_on_a_project.png](assets/alignment-score-on-a-project.png)
 
-### プロジェクトとポートフォリオの調整スコアをPortfolio最適化で表示
+### ポートフォリオオプティマイザーでプロジェクトやポートフォリオの整合性スコアを確認
 
-Portfolioに対する「管理」アクセス権を持っている場合は、ポートフォリオ管理で、プロジェクトまたはポートフォリオの配置スコアを表示できます。
+ポートフォリオに対する管理権限を持っている場合は、プロジェクトやポートフォリオの整合性スコアをポートフォリオオプティマイザーで確認できます。
 
-Portfolio・オプティマイザに表示される情報の詳細は、 [Portfolio最適化の概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+ポートフォリオオプティマイザーに表示される情報について詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)を参照してください。
 
-* [Adobe Optimizer でプロジェクトの線形スコアを探します。](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
-* [Portfolio・オプティマイザでポートフォリオの線形スコアを見つけます。](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
+* [ポートフォリオオプティマイザーでプロジェクトの整合性スコアを見つける](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
+* [ポートフォリオオプティマイザーでポートフォリオの整合性スコアを見つける](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-   ![](assets/alignment-score-in-portfolio-optimizer-nwe-350x97.png)
+  ![](assets/alignment-score-in-portfolio-optimizer-nwe-350x97.png)
 
-#### Adobe Optimizer でプロジェクトの線形スコアを探します。 {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
+#### ポートフォリオオプティマイザーでプロジェクトの整合性スコアを見つける {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png)を、 **Portfolio**.
+1. **メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**ポートフォリオ**」をクリックします。
 
-1. Portfolio名をクリックします。
-1. クリック **Portfolioの最適化** をクリックします。
+1. ポートフォリオの名前をクリックします。
+1. 左側のパネルで「**ポートフォリオ最適化**」をクリックします。
 
-   Portfolio・オプティマイザが表示されます。
+   ポートフォリオオプティマイザーが表示されます。
 
-1. プロジェクトの線形スコアは、 **整列** Portfolioの最適化の列。
+1. プロジェクトの整合性スコアは、ポートフォリオオプティマイザーの「**整合性**」に、パーセンテージで表示されます。
 
-   これは、プロジェクトに関連付けられたスコアカードに基づくプロジェクトの配置スコアです。
+   これは、プロジェクトに関連付けられたスコアカードに基づくプロジェクトの整合性スコアです。
 
-#### Portfolio・オプティマイザでポートフォリオの線形スコアを見つけます。  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
+#### ポートフォリオオプティマイザーでポートフォリオの整合性スコアを見つける  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
-1. 次に移動： **プロジェクト** 領域がグローバルナビゲーションバーに表示されます。
-1. を選択します。 **Portfolio** タブをクリックします。
-1. Portfolio名をクリックします。
-1. を選択します。 **Portfolioの最適化** タブをクリックします。
-1. Portfolio・オプティマイザの上部で、 **整列** 値、および **整列** ポートフォリオの線形スコアを示すゲージ。
+1. グローバルナビゲーションバーで「**プロジェクト**」エリアに移動します。
+1. 「**ポートフォリオ**」タブを選択します。
+1. ポートフォリオの名前をクリックします。
+1. 「**ポートフォリオ最適化**」タブを選択します。
+1. ポートフォリオオプティマイザーの上部で、ポートフォリオの整合性スコアを示す「**整合済み**」の値や「**整合性**」ゲージを探します。
 
-   これは、ポートフォリオの配列スコアです。
+   これは、ポートフォリオの整合性スコアです。
 
-   ポートフォリオの配列スコアの生成方法について詳しくは、 [ポートフォリオの線形スコアの生成](#generate-an-alignment-score-for-a-portfolio).
+   ポートフォリオの整合性スコアの生成方法について詳しくは、[ポートフォリオの整合性スコアを生成](#generate-an-alignment-score-for-a-portfolio)を参照してください。
 
-## Optimizer スコアの概要
+## ポートフォリオオプティマイザーのスコアの概要
 
-プロジェクトの線形スコアとポートフォリオ最適化スコアには違いがあります。
+プロジェクトの整合性スコアとポートフォリオオプティマイザーのスコアには違いがあります。
 
-プロジェクトの線形スコアは、スコアカードの完了後に取得したポイントに基づいて計算されます。 このスコアは、ポートフォリオ配置スコアの決定に使用されます。 線形のスコアは、割合で表示されます。
+プロジェクトの整合性スコアは、スコアカードの完了後に取得したポイントに基づいて計算されます。このスコアは、ポートフォリオ整合性スコアの決定に使用されます。整合性スコアは、割合で表示されます。
 
-プロジェクトの線形スコアは、 **整列** Portfolioの最適化の列。
+プロジェクトの整合性スコアは、ポートフォリオオプティマイザーの&#x200B;**整合性**&#x200B;列に表示されます。
 
-Portfolio Optimizer スコアは、Portfolio Optimizer で自動的に計算されるランキングで、このランキングに基づいてPortfolioを優先順位付けできます。 ポートフォリオ・オプティマイザ・スコアは、数字と共にインジケータ・アイコンとして表示され、 **スコア** Portfolioの最適化の列。 Portfolio・オプティマイザのスコアは、目標を除くビジネス・ケースのすべてのセクションが完了した場合にのみ生成されます。
+ポートフォリオオプティマイザーのスコアは、ポートフォリオオプティマイザーで自動的に計算され、プロジェクトの優先順位付けに使用できるランキングです。ポートフォリオオプティマイザーのスコアは、数字が付いたインジケーターアイコンとして表示され、ポートフォリオオプティマイザーの&#x200B;**スコア**&#x200B;列に表示されます。ポートフォリオオプティマイザーのスコアは、目標を除きビジネスケースのすべてのセクションが入力されている場合にのみ生成されます。
 
-プロジェクトのビジネスケースの作成の詳細については、 [プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+プロジェクトのビジネスケースの作成について詳しくは、[プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
-プロジェクトのポートフォリオ管理者スコアの計算の詳細については、 [Optimizer スコアの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+プロジェクトのポートフォリオオプティマイザースコアの計算について詳しくは、[ポートフォリオオプティマイザーのスコアの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)を参照してください。
