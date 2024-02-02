@@ -1,25 +1,25 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: アジャイルチームかんばんカードをWorkfrontボードに移行
-description: 作業項目をアジャイルチームかんばんボードから新しいまたは既存のWorkfrontボードに移行できます。
+title: アジャイルチームのかんばんカードの Workfront ボードへの移行
+description: 作業アイテムをアジャイルチームかんばんボードから新規または既存の Workfront ボードに移行できます。
 author: Lisa
 feature: Agile
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# アジャイルチームかんばんカードをWorkfrontボードに移行
+# アジャイルチームのかんばんカードの Workfront ボードへの移行
 
-作業項目をアジャイルチームかんばんボードから新しいまたは既存のWorkfrontボードに移行できます。 移行を実行すると、かんばんボード上のすべてのカードがWorkfrontボードにコピーされます。 特定のカードを選択することはできません。
+作業アイテムをアジャイルチームかんばんボードから新規または既存の Workfront ボードに移行できます。移行を実行すると、かんばんボード上のすべてのカードが Workfront ボードにコピーされます。特定のカードを選択することはできません。
 
-Workfrontボードでのカードの配置は、列ポリシーに基づいています。 ( 例えば、ポリシーを使用すると、ステータスが「処理中」のすべてのカードを特定の列に移動できます。 列ポリシーの詳細については、 [ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) ポリシーがない場合や、カードがポリシーと一致しない場合、カードはボードの左端の列に配置されます。 現時点では、レガシーボードの「バックログ」列のカードはWorkfrontボードに追加されません。
+Workfront ボードでのカードの配置は、列ポリシーに基づいています。（例えば、ポリシーを使用すると、ステータスが「処理中」のすべてのカードを特定の列に移動できます。列ポリシーについて詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。）ポリシーがない場合や、カードがポリシーと一致しない場合、カードはボードの左端の列に配置されます。現時点では、レガシーボードのバックログ列のカードは Workfront ボードに追加されません。
 
-カードはアジャイルチームかんばんボードからは削除されず、カードの状態の変更は両方のボードに同期します。 Workfrontボードに切り替える準備が整うまで、両方のボードをアクティブにしておくことができます。
+カードはアジャイルチームかんばんボードからは削除されず、カードの状態の変更は両方のボードに同期します。Workfront ボードに切り替える準備が整うまで、両方のボードをアクティブにしておくことができます。
 
 ## アクセス要件
 
@@ -32,38 +32,38 @@ Workfrontボードでのカードの配置は、列ポリシーに基づいて�
  </col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td>
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td>
    <td> <p>任意</p> </td>
   </tr>
   <tr>
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td>
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td>
+   <td> <p>[!UICONTROL Request] 以降</p> </td>
   </tr>
  </tbody>
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## かんばんカードを新しいボードに移行
+## かんばんカードを新しいボードに移行する
 
 {{step1-to-team}}
 
 1. かんばんボードにアクセスします。
-1. クリック [!UICONTROL **ボードに追加**] を選択し、 [!UICONTROL **新しいボード**].
-1. 次の日： [!UICONTROL 新しいボードに追加] ダイアログで、新しいボードの名前（現在のボードの名前）を入力します [!UICONTROL かんばん] ボードが自動的に表示されます )、をクリックします。 [!UICONTROL **追加**].
+1. 「[!UICONTROL **ボードに追加**]」をクリックして、「[!UICONTROL **新しいボード**]」を選択します。
+1. [!UICONTROL 新しいボードに追加]ダイアログで、新しいボードの名前を入力し（現在の[!UICONTROL かんばん]ボードの名前が自動的に表示されます）、「[!UICONTROL **追加**]」をクリックします。
 
-   ![新しいボードへのかんばんカードの追加](assets/add-kanban-cards-to-new-board-dialog.png)
+   ![新しいボードにかんばんカードを追加](assets/add-kanban-cards-to-new-board-dialog.png)
 
 1. （オプション）表示される成功メッセージで、リンクをクリックして新しいボードを開きます。
 
-## 既存のボードへのかんばんカードの移行
+## かんばんカードを既存のボードに移行する
 
 {{step1-to-team}}
 
 1. かんばんボードにアクセスします。
-1. クリック [!UICONTROL **ボードに追加**] を選択し、 [!UICONTROL **既存のボード**].
-1. 次の日： [!UICONTROL 既存のボードに追加] ダイアログで、カードを移行するボードを検索して選択します。 次に、「 [!UICONTROL **追加**].
+1. 「[!UICONTROL **ボードに追加**]」をクリックして、「[!UICONTROL **既存のボード**]」を選択します。
+1. [!UICONTROL 既存のボードに追加]ダイアログで、カードを移行するボードを検索して選択します。次に、「[!UICONTROL **追加**]」をクリックします。
 
-   ![既存のボードへのかんばんカードの追加](assets/add-kanban-cards-to-existing-board-dialog.png)
+   ![かんばんカードを既存のボードに追加](assets/add-kanban-cards-to-existing-board-dialog.png)
 
 1. （オプション）表示される成功メッセージで、リンクをクリックしてボードを開きます。
