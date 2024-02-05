@@ -2,7 +2,7 @@
 product-area: betas
 navigation-topic: new-commenting-experience-beta
 title: 新しいコメントエクスペリエンス
-description: Adobe Workfrontのコメントエクスペリエンスのアップデートは現在開発中です。 この更新には、新しいインターフェイス、新機能、および選択したオブジェクトの更新セクションのパフォーマンスの向上が含まれます。
+description: Adobe Workfront のコメント機能エクスペリエンスのアップデートは現在開発中です。この更新には、新しいインターフェイス、新機能、一部のオブジェクトの「更新」セクションのパフォーマンスの向上などが含まれています。
 author: Alina
 feature: Product Announcements
 role: User
@@ -10,7 +10,7 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
 source-wordcount: '1317'
-ht-degree: 2%
+ht-degree: 35%
 
 ---
 
@@ -50,12 +50,12 @@ The new commenting experience will slowly become available for all the objects w
 
 新しいコメントエクスペリエンスには、Adobe Workfrontオブジェクトの「更新」セクションの改善と変更が含まれています。
 
-新しいコメント作成機能に含まれる改善点の一つは次のとおりです。
+新しいコメントエクスペリエンスの改善点には以下が含まれます。
 
 * パフォーマンスとユーザーエクスペリエンスの向上
 * システムアクティビティの更新からのユーザーコメントの分離
 * オブジェクトに新しいコメントが追加されたときのリアルタイムインジケーター
-* 送信後のコメントの編集
+* コメントの送信後の編集
 
 次の機能は、削除されたか、新しいエクスペリエンスで非推奨（廃止予定）になります：
 
@@ -83,25 +83,25 @@ The new commenting experience will slowly become available for all the objects w
 For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
 -->
 
-次の表に、新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされる領域でのその使用可能性を示します。
+新しいコメントエクスペリエンスで使用できる機能と、それらがサポートされているエリアでの機能の使用可否を次の表に示します。
 
 <table>
   <tr>
-   <td><strong>機能 </strong>
+   <td><strong>機能</strong>
    </td>
-   <td><strong>以前のコメントエクスペリエンスに存在します </strong>
+   <td><strong>以前のコメントエクスペリエンスに存在</strong>
    </td>
-   <td><strong>新しいコメントエクスペリエンスに存在します </strong>
+   <td><strong>新しいコメントエクスペリエンスに存在</strong>
    </td>
-   <td><strong>新しいコメントエクスペリエンスで導入されます </strong>
+   <td><strong>新しいコメントエクスペリエンスで導入予定</strong>
    </td>
-   <td><strong>新しいコメントエクスペリエンスで導入されるタイミング </strong>
+   <td><strong>新しいコメントエクスペリエンスでの導入時期</strong>
    </td>
-   <td><strong>調査中 </strong>
+   <td><strong>調査中</strong>
    </td>
   </tr>
   <tr>
-   <td>コメントの作成/読み取り/返信/削除 
+   <td>コメントの作成／読み取り／返信／削除 
    </td>
    <td>✓ 
   </td>
@@ -115,7 +115,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
   </tr>
   <tr>
-   <td>リッチテキスト（引用符と絵文字を除く）
+   <td>リッチテキスト（引用と絵文字を除く）
    </td>
    <td>✓ 
    </td>
@@ -145,7 +145,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   </tr>
 
 <tr>
-   <td>リッチテキスト（ブロック引用符）
+   <td>リッチテキスト（ブロック引用）
    </td>
    <td>✓ 
    </td>
@@ -153,14 +153,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 2023 年第 2 四半期
+   <td> 2023年第 2 四半期
    </td>
    <td> 
    </td>
   </tr>
   <tr>
 <tr>
-   <td> 見積もりコメント
+   <td> コメントの引用
    </td>
    <td>✓ 
    </td>
@@ -168,13 +168,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 2023 年第 2 四半期
+   <td> 2023年第 2 四半期
    </td>
    <td> 
    </td>
   </tr>
   <tr>
-   <td>コメントに反応（「いいね！」） 
+   <td>コメントへの反応（「いいね！」） 
    </td>
    <td>✓ 
    </td>
@@ -202,7 +202,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
   </tr>
   <tr>
-   <td>コメント内の担当者のタグ付け 
+   <td>コメント内で人物にタグ付け 
    </td>
    <td>✓ 
    </td>
@@ -232,7 +232,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 
 <tr>
-   <td>すべてのねじ参加者に自動的にタグを付ける
+   <td>スレッドのすべての参加者に自動的にタグを付ける
    </td>
    <td> 
    </td>
@@ -261,7 +261,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
   </tr>
   <tr>
-   <td>コメントの投稿を取り消します 
+   <td>コメントの投稿を取り消す 
    </td>
    <td>✓ 
    </td>
@@ -279,7 +279,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ 
    </td>
-   <td>「アクティビティ」タブに置き換えられました 
+   <td>「アクティビティ」タブに置き換え 
    </td>
    <td> 
    </td>
@@ -303,7 +303,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
   </tr>
   <tr>
-   <td>ページから移動する際のコメントのドラフトの保存 
+   <td>ページから移動する際にコメントのドラフトを保存 
    </td>
    <td>✓ 
    </td>
@@ -349,11 +349,11 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ 
    </td>
-   <td> コピーリンクで置き換え
+   <td> 「リンクをコピー」に置き換え
    </td>
    <td> 
    </td>
-   <td>2023 年第 2 四半期 
+   <td>2023年第 2 四半期 
    </td>
    <td> 
    </td>
@@ -363,7 +363,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ 
    </td>
-   <td> コピーリンクで置き換え
+   <td> 「リンクをコピー」に置き換え
    </td>
    <td> 
    </td>
@@ -381,7 +381,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>2023 年第 2 四半期 
+   <td>2023年第 2 四半期 
    </td>
    <td> 
    </td>
@@ -401,7 +401,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
   </tr>
     <tr>
-   <td>コメント内の検索 
+   <td>コメント内を検索 
    </td>
    <td> 
    </td>
@@ -488,7 +488,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
   </tr>
 <tr>
-   <td>別のユーザーとしてログインしたコメントを追加する際に「代理」として表示する
+   <td>別のユーザーとしてログインしコメントを追加する際に「代理」として表示
    </td>
    <td> ✓
    </td>
@@ -509,19 +509,19 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 >
 >新しいコメント作成機能にリリースされた機能について詳しくは、 [新しいコメントベータ版エクスペリエンスリリースアクティビティ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
->Workfrontオブジェクトの更新管理について詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>Workfront オブジェクトの更新の管理について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 
-次に、実稼動環境への新しいコメント作成エクスペリエンスのリリースに関する主要なマイルストーンを示す、計画されたタイムラインを示します。 以下のマイルストーンに加えて、より小さな機能強化でコメント作成のエクスペリエンスも引き続き向上します。
+新しいコメントエクスペリエンスを実稼動環境にリリースする予定のタイムラインを、主要なマイルストーンとともに以下に示します。以下のマイルストーンに加えて、より小さな機能強化でコメント作成のエクスペリエンスも引き続き向上します。
 
 ベータ版が終了した後に新しいコメント作成機能としてリリースされた機能について詳しくは、現在のリリースの概要ページを参照してください。
 
 次に、新しいコメント作成エクスペリエンスのリリースに向けた計画的なタイムラインを示します。
 
-* 23.2 リリース（2023 年 4 月 7 日）:
+* 23.2 リリース（2023年4月6日（PT））：
    * 問題については、Commenting Experience Beta を起動してください。
    * 目標に向けて新しいコメントエクスペリエンスをリリース（唯一のエクスペリエンスとして）
-* 23.3 リリース（2023 年 7 月 21 日）:
+* 23.3 リリース（2023年7月20日（PT））：
    * プロジェクト、タスク、ドキュメントの Commenting Experience Beta を起動します。
    * （唯一のエクスペリエンスとして）ボード領域のカード用の新しいコメントエクスペリエンスをリリースします。
 * 2023 年第 4 四半期リリース（限定リリース。高速リリースを選択したお客様のみが利用できます）:
@@ -536,7 +536,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   >    これにより、新しいコメント作成エクスペリエンスのベータ段階が終了します。
 
    * 新しいコメントエクスペリエンス用にリリースされたすべての機能は、現在の通常の月次および四半期リリースのこの日付の部分から始まります。
-* 2023 年末：
+* 2023年末：
    * プロジェクト、タスク、問題、ドキュメントの各オブジェクトのセカンダリオプションとして、従来のコメントエクスペリエンスを保持します。 新しいコメントエクスペリエンスは、これらのオブジェクトのすべてのユーザーのデフォルトオプションです。
    * 新しいコメントエクスペリエンスを他のすべてのオブジェクトの唯一のエクスペリエンスにします。
 
@@ -548,7 +548,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
    * 「繰り返し」を除き、旧式のコメントストリームに切り替え、新しいコメントストリームをすべてのオブジェクトで唯一のエクスペリエンスにします。
 
-## 新しいコメントエクスペリエンスを見つける
+## 新しいコメントエクスペリエンスを検索
 
 &lt;! — 重要：従来のエクスペリエンスを削除したら、このバージョンを「更新」作業記事または「更新」セクションの概要に移動します。繰り返し以外は、エクスペリエンスがすべて異なると言います —>
 
@@ -560,7 +560,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
    * プロジェクト
    * タスク（ストーリーを含む）
-   * 問題
+   * イシュー
    * ドキュメント
 
   >[!TIP]
@@ -573,11 +573,11 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
      >[!NOTE]
      >
-     >Workfrontのこの領域にアクセスするには、Adobe Workfront Goals に対する追加のライセンスが必要です。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+     >Workfront のこのエリアにアクセスするには、Adobe Workfront Goals に対する追加のライセンスが必要です。詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
       * ボード上のカード
       * チーム
       * テンプレート
-      * テンプレート タスク
+      * テンプレートタスク
       * タイムシート
       * プログラム
       * ポートフォリオ
@@ -619,16 +619,16 @@ The new commenting experience is currently supported for the following objects:
 
 プロジェクト、タスク、問題およびドキュメントに対して Commenting Experience オプションを有効にするには：
 
-1. 新しいコメントエクスペリエンスを有効にするオブジェクトに移動し、「 **更新** をクリックします。
+1. 新しいコメントエクスペリエンスを有効にするオブジェクトに移動し、左側のパネルの「**更新**」をクリックします。
 1. （条件付き）無効になっている場合、 **新しいコメント** 」オプションを使用して、この機能を有効にします。 これは、デフォルトで有効になっている必要があります。
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 
-1. 更新の入力を開始するには、 **コメント** タブをクリックします。 「コメント」タブは、新しいエクスペリエンスを開いたときのデフォルトのタブです
+1. 「**コメント**」タブで、アップデートを入力します。「コメント」タブは、新しいエクスペリエンスを開いたときのデフォルトのタブです
 
    または
 
-   次をクリック：  **システムアクティビティ** 」タブに移動して、Workfrontが生成したアクティビティの更新を表示します。
+   「**システムアクティビティ**」タブをクリックして、Workfront で生成されたアクティビティのアップデートを表示します。
 
 1. （オプション）新しいコメントエクスペリエンスを無効にして従来のコメントに戻るには、「 **新しいコメント** オプション。
 

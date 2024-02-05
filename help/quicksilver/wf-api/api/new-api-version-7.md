@@ -9,22 +9,22 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 84%
 
 ---
 
 # API バージョン 7 の新機能
 
-## 新しいオブジェクト
+## 新規オブジェクト
 
-### 配達確認 Bean
+### プルーフ Bean
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 検索 |
 | deadLine |   |   |   |   |   |   |
-| name |   |   |   |   |   |   |
+| 名前 |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -46,7 +46,7 @@ ht-degree: 40%
    <th>検索</th> 
    <th>アクション</th> 
    <th>クエリ</th> 
-   <th>オペレーション</th> 
+   <th>操作</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -84,7 +84,7 @@ ht-degree: 40%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>取得  </td> 
+   <td>取得</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -93,7 +93,7 @@ ht-degree: 40%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>レポート </td> 
+   <td>レポート</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -109,7 +109,7 @@ ht-degree: 40%
 
 ### DocMetadataLinkGroup
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 追加 |
 |   |   |   |   |   |   | カウント |
@@ -122,7 +122,7 @@ ht-degree: 40%
 
 ### ProofApproval
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | カウント |
 |   |   |   |   |   |   | 取得 |
@@ -135,7 +135,7 @@ ht-degree: 40%
 
 ### ResourceContour
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | 追加 |
 |   |   |   |   |   |   | カウント |
@@ -151,11 +151,11 @@ ht-degree: 40%
 
 ### UserGroups
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | groupID | グループ |   |   |   |   |   |
-| isOwner  | ユーザー  |   |   |   |   |   |
-| userID  |   |   |   |   |   |   |
+| isOwner | ユーザー |   |   |   |   |   |
+| userID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -163,10 +163,10 @@ ht-degree: 40%
 
 ### TimesheetProfile
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| ID |   |  hourTypes |   |   |   | 追加 |
-| name |   |   |   |   |   | コピー |
+| ID |   | hourTypes |   |   |   | 追加 |
+| 名前 |   |   |   |   |   | コピー |
 |   |   |   |   |   |   | カウント |
 |   |   |   |   |   |   | 削除 |
 |   |   |   |   |   |   | 編集 |
@@ -181,17 +181,17 @@ ht-degree: 40%
 
 ### RsrcPool
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID | 顧客 | ユーザー |   |   |   | 追加 |
-| customerID  | enteredBy  |   |   |   |   | カウント |
-| 説明  | lastUpdatedBy  |   |   |   |   | 削除 |
-| enteriedByID  |   |   |   |   |   | 編集 |
-| entryDate  |   |   |   |   |   | 取得 |
-| extRefID  |   |   |   |   |   | レポート |
+| customerID | enteredBy |   |   |   |   | カウント |
+| 説明 | lastUpdatedBy |   |   |   |   | 削除 |
+| enteriedByID |   |   |   |   |   | 編集 |
+| entryDate |   |   |   |   |   | 取得 |
+| extRefID |   |   |   |   |   | レポート |
 | lastUpdateDate |   |   |   |   |   | 検索 |
 | lastUpdateByID |   |   |   |   |   |   |
-| name |   |   |   |   |   |   |
+| 名前 |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -199,12 +199,12 @@ ht-degree: 40%
 
 ### DocMetadataLinkGroup
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | カウント |
-| articleName  |   |   |   |   |   | 取得 |
-| pageID  |   |   |   |   |   | レポート |
-| url  |   |   |   |   |   | 検索 |
+| articleName |   |   |   |   |   | 取得 |
+| pageID |   |   |   |   |   | レポート |
+| url |   |   |   |   |   | 検索 |
 
 {style="table-layout:auto"}
 
@@ -216,11 +216,11 @@ ht-degree: 40%
 
 ## 更新されたオブジェクト
 
-既存のオブジェクトに対する変更：追加は単にリストに表示され、削除は取り消し線が付き、既存のオブジェクトに対する変更は表の後に付加されたメモを持ちます。
+既存のオブジェクトに対する変更：追加は単にリストに表示され、削除は打ち消し線が付き、既存の変更には表の後にメモが記載されます
 
 ### UpdateBean
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -232,7 +232,7 @@ ht-degree: 40%
 
 ### ApprovalServiceObject
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
@@ -250,7 +250,7 @@ ht-degree: 40%
 
 ### 承認プロセス
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
@@ -260,7 +260,7 @@ ht-degree: 40%
 
 ### 承認パス<sup>1</sup>
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | `Add` |
 |   |   |   |   |   |   | `Delete` |
@@ -274,7 +274,7 @@ ht-degree: 40%
 
 ### Work Service オブジェクト
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -290,9 +290,9 @@ ht-degree: 40%
 
 ### 割り当て
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
@@ -304,7 +304,7 @@ ht-degree: 40%
 
 ### 顧客 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
@@ -316,9 +316,9 @@ ht-degree: 40%
 
 ### カスタム列挙 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| groupID  |   |   |   |   |   |   |
+| groupID  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -326,19 +326,19 @@ ht-degree: 40%
 
 ### ドキュメント 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| checkOutTimestamp |   |   |   |  createProof |   |   |
+| checkOutTimestamp |   |   |   |  createProof |   |   |
 
 {style="table-layout:auto"}
 
  
 
-### DocumentVersion 
+### DocumentVersion 
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |  getProofingTokens |   |   |
+|   |   |   |   |  getProofingTokens |   |   |
 
 {style="table-layout:auto"}
 
@@ -346,9 +346,9 @@ ht-degree: 40%
 
 ### グループ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
+| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -359,21 +359,21 @@ ht-degree: 40%
 
 ### HourType
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
-|   |   |   |   |   | defaultTaskHourType  |   |
-|   |   |   |   |   | globalHourTypes  |   |
-|   |   |   |   |   | objectHourTypes  |   |
+|   |   |   |   |   | defaultTaskHourType  |   |
+|   |   |   |   |   | globalHourTypes  |   |
+|   |   |   |   |   | objectHourTypes  |   |
 
 {style="table-layout:auto"}
 
  
 
-### ジャーナル エントリ
+### ジャーナルエントリ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | changeType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -383,11 +383,11 @@ ht-degree: 40%
 
  
 
-### 商談（問題）
+### Optask（イシュー）
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   |  assignMultiple |   |   |
+| approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -398,7 +398,7 @@ ht-degree: 40%
 
 ### プロジェクト
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -411,7 +411,7 @@ ht-degree: 40%
 
 ### QueueDef
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
@@ -421,9 +421,9 @@ ht-degree: 40%
 
 ### QueueTopic
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |  queueTopicID |   |
+|   |   |   |   |   |  queueTopicID |   |
 
 {style="table-layout:auto"}
 
@@ -431,9 +431,9 @@ ht-degree: 40%
 
 ### 最近使った
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |  updateLastViewedObject |   |   |
+|   |   |   |   |  updateLastViewedObject |   |   |
 
 {style="table-layout:auto"}
 
@@ -441,9 +441,9 @@ ht-degree: 40%
 
 ### タスク
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
+| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
@@ -453,7 +453,7 @@ ht-degree: 40%
 
 ### TemplateTask
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 | workRequired<sup>1</sup> |   |   |   |   |   |   |
 
@@ -481,7 +481,7 @@ ht-degree: 40%
    <th>検索</th> 
    <th>アクション</th> 
    <th>クエリ</th> 
-   <th>オペレーション</th> 
+   <th>操作</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -491,13 +491,13 @@ ht-degree: 40%
    <td> </td> 
    <td>
     <code>roles</code> </td> 
-   <td> 役割</td> 
+   <td>役割</td> 
    <td>addMobileDevice</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
+   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
    <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
@@ -546,9 +546,9 @@ ht-degree: 40%
 
 ### ユーザーメモ
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
+| `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
@@ -560,7 +560,7 @@ ht-degree: 40%
 
 ### CustomerPrefObject
 
-| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | オペレーション |
+| フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 

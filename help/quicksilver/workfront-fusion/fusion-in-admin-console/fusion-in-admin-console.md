@@ -11,7 +11,7 @@ feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 92185eff-ca16-4d2a-acc6-a0d271203232
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 100%
 

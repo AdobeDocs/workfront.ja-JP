@@ -2,8 +2,8 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Adobe Workfront plugin forCreative Cloudアプリ
-description: Adobe Workfront plugin forCreative CloudApplications
+title: Creative Cloud アプリ用 Adobe Workfront プラグイン
+description: Creative Cloud アプリケーション用 Adobe Workfront プラグイン
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -11,37 +11,37 @@ exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
 source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 1%
+ht-degree: 81%
 
 ---
 
 
-# [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ
+# [!DNL Creative Cloud] アプリ用 [!DNL Adobe Workfront] プラグイン
 
 <!--Audited: 12/2023-->
 
-以下を使用すると、 [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud] プラグイン
+[!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインを使用すると、以下が可能になります。
 
-* 時間のログ記録
-* レビューと承認プロセスの開始
-* ファイルをアップロード
-* プロジェクトとタスクの表示
+* 時間を記録
+* レビュープロセスと承認プロセスの開始
+* ファイルのアップロード
+* プロジェクトやタスクの表示
 * その他
 
-[ビデオの概要では、 [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud] プラグイン](https://video.tv.adobe.com/v/3418801/){target=_blank}.
+[ [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインで利用できる機能の概要ビデオを見る](https://video.tv.adobe.com/v/3418801/){target=_blank}
 
 ## プラグインのインストールと使用
 
-The [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud] プラグインは次のCreative Cloudアプリで利用できます
+[!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインは次の Creative Cloud アプリで使用できます。
 
 {{cc-app-list}}
 
-プラグインの使用およびインストール方法について詳しくは、次のリソースを参照してください。
+プラグインの使用およびインストール方法については、次のリソースを参照してください。
 
-* [をインストールします。 [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-* [を使用して作業を管理 [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
-* [でドキュメントと配達確認をアップロード [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [ビデオチュートリアル：使用 [!DNL Adobe Workfront] のプラグイン [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用した作業の管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用したドキュメントとプルーフのアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [ビデオチュートリアル： [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインの使用](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html?lang=ja)
 * [ビデオチュートリアル：パッケージの作成と管理、アップデートのデプロイ、インストールエラーのトラブルシューティング](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

@@ -10,7 +10,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
 source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%
 

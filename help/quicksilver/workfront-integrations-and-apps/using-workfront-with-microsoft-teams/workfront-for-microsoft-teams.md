@@ -2,8 +2,8 @@
 content-type: overview
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Adobe Workfront forMicrosoft Teamsの概要
-description: チームの所有者は、 [!DNL Adobe Workfront for Microsoft Teams] チームのアプリ。
+title: Adobe Workfront for Microsoft Teams の概要
+description: チームの所有者は、チーム用に  [!DNL Adobe Workfront for Microsoft Teams]  アプリをインストールできます。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
 source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
@@ -25,34 +25,34 @@ ht-degree: 0%
 
 チームオーナーとして [!DNL Microsoft Teams]を使用している場合、 [!DNL Adobe Workfront for Microsoft Teams] チームのアプリ。
 
-使用 [!DNL Workfront] forMicrosoft Teamsを使用すると、 [!DNL Workfront] 絶えずMicrosoft Teamsを離れず
+[!DNL Workfront] を Microsoft Teams に使用すると、Microsoft Teams から移動せずに、[!DNL Workfront] で様々なアクションを実行できます。
 
-インストールにWorkfrontをMicrosoft Teamsする方法について詳しくは、 [Adobe Workfront forMicrosoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Microsoft Teams 用に Workfront をインストールする方法に関して詳しくは、[Microsoft Teams 用に Adobe Workfront をインストール](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)を参照してください。
 
-をインストールした後 [!DNL Workfront for Microsoft Teams]のインスタンスを離れることなく、次の操作を実行できます。 [!DNL Microsoft Teams]:
+[!DNL Workfront for Microsoft Teams] をインストールした後には、[!DNL Microsoft Teams] のインスタンスから移動せずに、以下の操作を実行できます。
 
-* を検索 [!DNL Workfront] プロジェクト、タスクおよびタスクを作成し、他のユーザーと共有します。
+* [!DNL Workfront] プロジェクト、タスクおよびイシューを検索し、他のユーザーと共有します。
 
-  の検索と共有について詳しくは、 [!DNL Workfront] 次の項目： [!DNL Microsoft Teams]を参照してください。 [検索と共有 [!DNL Adobe Workfront] 次の項目 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+  [!DNL Microsoft Teams] の [!DNL Workfront] 項目の検索と共有について詳しくは、[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) での  [!DNL Adobe Workfront]  項目の検索と共有を参照してください。
 
-* 作成 [!DNL Workfront] 個人用タスク。
+* [!DNL Workfront] 個人用タスクを作成します。
 
-  作成に関する情報 [!DNL Workfront] 個人用タスク [!DNL Microsoft Teams]を参照してください。 [作成 [!DNL Adobe Workfront] タスクから [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+  [!DNL Microsoft Teams] から [!DNL Workfront] 個人用タスクを作成する方法について詳しくは、を参照してください。[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) から  [!DNL Adobe Workfront]  タスクを作成を参照してください。
 
-* 送信 [!DNL Workfront] リクエストを送信し、送信したリクエストの進行状況を確認します。
+* [!DNL Workfront] リクエストを送信し、送信したリクエストの進行状況を確認します。
 
-  送信に関する情報 [!DNL Workfront] からのリクエスト [!DNL Microsoft Teams]を参照してください。 [送信中 [!DNL Workfront] からのリクエスト [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md).
+  [!DNL Microsoft Teams] からの [!DNL Workfront] リクエストの送信に関して詳しくは、[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/submit-workfront-requests-from-ms-teams.md) から  [!DNL Workfront]  リクエストを送信を参照してください。
 
-* 応答先 [!DNL Workfront] 更新およびコメントに関する通知。
-* ドキュメント承認の要求に応答します。\
-   応答に関する情報 [!DNL Workfront] 通知とドキュメント承認リクエスト [!DNL Microsoft Teams]を参照してください。 [管理 [!DNL Adobe Workfront] 通知 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+* アップデートおよびコメントに関する [!DNL Workfront] 通知に応答します。
+* ドキュメント承認のリクエストに応答します。\
+   [!DNL Microsoft Teams] から [!DNL Workfront] 通知とドキュメント承認リクエストへの応答に関して詳しくは、[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md)で  [!DNL Adobe Workfront]  通知を管理を参照してください。
 
-を使用する際は、次の点に注意してください。 [!DNL Workfront] 対象： [!DNL Microsoft Teams]:
+[!DNL Workfront] を使って [!DNL Microsoft Teams] で作業する場合は、以下の内容を考慮します。
 
-* 以下である必要はありません。 [!DNL Workfront] インストールする管理者 [!DNL Workfront for Microsoft Teams].\
-   アプリは無料です。チームの所有者でもある場合は、チームに追加できます。 [!DNL Microsoft Teams].
-* の任意のユーザー [!DNL Microsoft Team] アプリがチーム所有者によってインストールされていて、アプリが [!DNL Workfront] アカウント。
-* 複数のチームが [!DNL Workfront] から [!DNL Microsoft Teams]の場合は、チームごとにアプリをインストールする必要があります。
-* 次の項目に関する情報が表示されます。 [!DNL Workfront] 次の項目 [!DNL Microsoft Teams]. 例えば、名前、ステータス、優先度、担当者、計画完了日の [!DNL Workfront] 項目。 この情報はカスタマイズできません。
-* 次の URL に直接移動すると、 [!DNL Workfront] 項目とドキュメント [!DNL Microsoft Teams].
-* [!DNL Microsoft Teams] は、サポートを終了しました [!DNL Internet Explorer]. 次の手順で [!DNL Adobe Workfront for Microsoft Teams] 統合の場合は、 [!DNL Internet Explorer].
+* [!DNL Workfront for Microsoft Teams] をインストールするには、[!DNL Workfront] 管理者である必要はありません。\
+   アプリは無料です。[!DNL Microsoft Teams] でチームの所有者でもあるユーザーは、チームにこのアプリを追加できます。
+* アプリがチーム所有者によってインストールされており、[!DNL Workfront] アカウントを持っている場合、[!DNL Microsoft Team] 内のすべてのユーザーがアプリを使用できます。
+* 複数のチームが [!DNL Microsoft Teams] から [!DNL Workfront] へのアクセス権を持つ必要がある場合は、チームごとにアプリをインストールする必要があります。
+* [!DNL Workfront] の項目に関する情報を [!DNL Microsoft Teams] に表示することができます。例えば、[!DNL Workfront] 項目の名前、ステータス、優先度、担当者、予定完了日などです。この情報はカスタマイズできません。
+* [!DNL Workfront] の項目とドキュメントに、[!DNL Microsoft Teams] から直接移動できます。
+* [!DNL Microsoft Teams] は、[!DNL Internet Explorer] のサポートを終了しました。[!DNL Adobe Workfront for Microsoft Teams] の統合を使用する場合は、[!DNL Internet Explorer] 以外の web ブラウザーを使用する必要があります。

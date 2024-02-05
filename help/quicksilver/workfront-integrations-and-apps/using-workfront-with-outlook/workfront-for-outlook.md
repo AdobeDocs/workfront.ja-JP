@@ -9,7 +9,7 @@ feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 100%
 

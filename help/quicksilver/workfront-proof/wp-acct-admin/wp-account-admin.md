@@ -12,7 +12,7 @@ exl-id: 451b9f13-edeb-4e4b-9cee-d1a053bea17c
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 1%
+ht-degree: 87%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-このセクションでは、以下のサブセクションについて説明します。
+このセクションには、次のサブセクションが含まれます。
 
-* [のアカウント設定 [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
+* [ [!DNL Workfront Proof] のアカウント設定](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
 * [ブランディング [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/branding/branding.md)
 * [セキュリティの管理](../../workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-* [のパートナーアカウント [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-* [での Satellite アカウント [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
-* [のヒント、テクニックおよびトラブルシューティング [!DNL Workfront Proof] アカウント管理](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+* [ [!DNL Workfront Proof] のパートナーアカウント](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
+* [ [!DNL Workfront Proof] でのサテライトアカウント](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
+* [ [!DNL Workfront Proof]  のアカウント管理のヒント、テクニック、トラブルシューティング](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)

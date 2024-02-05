@@ -1,6 +1,6 @@
 ---
-title: 2023 年第 4 四半期リリースの概要
-description: 2023 年第 4 四半期リリースの概要
+title: 2023年第 4 四半期リリースの概要
+description: 2023年第 4 四半期リリースの概要
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -8,13 +8,13 @@ exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '2772'
-ht-degree: 0%
+ht-degree: 49%
 
 ---
 
-# 2023 年第 4 四半期リリースの概要
+# 2023年第 4 四半期リリースの概要
 
-このページでは、2023 年第 4 四半期リリースに含まれる機能について説明します。 これらの機能強化は、2023 年 10 月 27 日 (PT) および 23.10 リリースのすべてのお客様が実稼動環境で利用できるようになる予定です。
+このページでは、2023年第 4 四半期リリースに含まれる機能について説明します。これらの機能強化は、2023 年 10 月 27 日 (PT) および 23.10 リリースのすべてのお客様が実稼動環境で利用できるようになる予定です。
 
 <!--
 These enhancements will be included in the following releases:
@@ -24,39 +24,39 @@ These enhancements will be included in the following releases:
 >|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September 28, 2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
 -->
 
-23.10 リリースウェビナーは 2023 年 10 月 6 日でした。 以下が可能です。 [オンデマンド録画をこちらで閲覧するには、オンセミナーに登録してください](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
+23.10 リリースウェビナーは 2023年10月5日（PT）に開催されました。[こちら](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes)でウェビナーに登録してオンデマンド録画を視聴できます。
 
-<span class="preview">オフサイクル機能（2023 年第 4 四半期のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
+<span class="preview">オフサイクル機能（2023年第 4 四半期のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
 
 >[!IMPORTANT]
 >
->23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。 そのため、Workfrontでは、月次および四半期次のリリース追跡の両方に対応するように、リリースの採番方式を変更しています。
+>23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースの採番方式を変更しています。
 >
->* 次の場所にいる場合、 **高速リリース（毎月）** 追跡， 23.3 以降のリリースは **23.8**、2023 年 8 月 31 日。
-> * 次の場所にいる場合、 **四半期ごと** リリーストラック、23.3 以降のリリースは **23.10**、2023 年 10 月 26 日の週。
+>* **迅速リリース（毎月）**&#x200B;トラックを使用している場合、23.3 以降のリリースは、2023年8月31日（PT）の **23.8** です。
+> * **四半期**&#x200B;リリーストラックを使用している場合、23.3 以降のリリースは、2023年10月26日（PT）の週の **23.10** です。
 > 
-> 四半期リリースには、3 つの月別リリースの機能が含まれます。 例えば、23.10 の四半期リリースには、23.8、23.9 および 23.10 の月別リリースでリリースされた機能が含まれます。
+> 四半期リリースには、3 つの月別リリースの機能が含まれます。例えば、23.10 の四半期リリースには、23.8、23.9、および 23.10 の月別リリースでリリースされた機能が含まれます。
 >
->毎月および四半期のリリースは、今月の最後の木曜日に提供される予定です。
+>毎月および四半期のリリースは、月の最終木曜日に提供される予定です。
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>23.8（2023 年 8 月 32 日）</li><li>23.9（2023 年 9 月 29 日）</li><li>23.10（2023 年 10 月 27 日）</li></ul> | <ul><li>23.10（2023 年 10 月 26 日の週）</li></ul> |
->| <ul><li>リリースなし（2023 年 11 月）</li><li>リリースなし（2023 年 12 月）</li><li>24.1（2024 年 1 月）</li></ul> | <ul><li>24.1（2024 年 1 月）</li></ul> |
+>| <ul><li>23.8（2023年8月31日（PT））</li><li>23.9（2023 年 9 月 29 日）</li><li>23.10（2023年10月26日（PT））</li></ul> | <ul><li>23.10（2023年10月26日（PT）の週）</li></ul> |
+>| <ul><li>リリースなし（2023年11月）</li><li>リリースなし（2023年12月）</li><li>24.1（2024年1月）</li></ul> | <ul><li>24.1（2024年1月）</li></ul> |
 >
->高速リリースプロセスについて詳しくは、 [高速リリースプロセスを有効または無効にします](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
-## Adobe Workfrontの機能強化
+## Adobe Workfront の機能強化
 
-* [管理者の機能強化](#administrator-enhancements)
+* [管理者機能の強化](#administrator-enhancements)
 * [ボードの機能強化](#boards-enhancements)
-* [Financial Management の機能強化](#financial-management-enhancements)
+* [財務管理の機能強化](#financial-management-enhancements)
 * [ホームの機能強化](#home-enhancements)
-* [統合の強化](#integration-enhancements)
+* [統合の機能強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
 
-### 管理者の機能強化
+### 管理者機能の強化
 
 <table>
             <col style="width: 50%;" />
@@ -77,10 +77,10 @@ These enhancements will be included in the following releases:
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">従来のライセンスモデルのお客様が使用できる配達確認とドキュメントの決定</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>まだ新しいAdobe Workfrontライセンスモデルに移行していない従来のお客様は、1 ヶ月あたりのユーザーあたりの配達確認/ドキュメントに関する決定数を含むデータを、単一のレポートで表示できるようになりました。 このデータは、ユーザーの決定レポートを実行する際に使用できます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                                <p>プレビューリリース：2023年10月12日（PT）</p>
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様向けの実稼動環境：2023 年 10 月 12 日</span></p>
@@ -93,16 +93,16 @@ These enhancements will be included in the following releases:
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">カスタムフォームの計算フィールドで、$$USER ワイルドカードを使用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>新しいフォームデザイナーで、計算カスタムフィールドと外部参照フィールドで$$USER ワイルドカードを使用できるようになりました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 10 月 6 日</p>
+                                <p>プレビューリリース：2023年10月5日（PT）</p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.10 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -113,16 +113,16 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>新しいフィールドタイプ <strong>外部参照</strong>をカスタムフォームデザイナーで使用できるようになりました。 データを外部システムに保存している場合、このフィールドタイプを使用すると、外部 API からオプションを読み込み、カスタムフォーム内の他のフィールド値に基づいてフィルタリングできます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 9 月 14 日</p>
+                                <p>プレビューリリース：2023年9月14日（PT）</p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.9 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.9 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -150,10 +150,10 @@ These enhancements will be included in the following releases:
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontボードでサブタスクを利用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p><p>接続されたカードをWorkfrontタスクのボードに追加すると、既存のサブタスクがカードに読み込まれます。 また、接続したカードにサブタスクを作成すると、サブタスクがWorkfrontタスクに追加されます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                                <p>プレビューリリース：2023年10月12日（PT）</p>
                             </li>
                             <li>
                                 <p>ボードの早期アクセス用の実稼動：なし</p>
@@ -162,7 +162,7 @@ These enhancements will be included in the following releases:
                                 <p>高速リリース向けの本番環境：なし</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -171,10 +171,10 @@ These enhancements will be included in the following releases:
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">ボードとカードでのユーザー割り当ての強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Workfrontボードでユーザーをボードやカードに追加する際の柔軟性を高める機能強化が利用できるようになりました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 22 日</p>
+                                <p>プレビューリリース：2023年8月21日（PT）</p>
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様向けの実稼動環境：2023 年 8 月 24 日</span>
@@ -186,52 +186,52 @@ These enhancements will be included in the following releases:
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">接続されたカードにドキュメントを追加する</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Workfrontボードの接続されたカードにドキュメントを添付できるようになりました。 カードに追加したドキュメントは、接続されたタスクまたはイシューの「ドキュメント」タブで使用でき、両方の領域で同じファイルタイプがサポートされます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 22 日</p>
+                                <p>プレビューリリース：2023年8月21日（PT）</p>
                             </li>
                             <li>
-                                <p>ボードの先行公開の実稼働： 2023 年 8 月 24 日</p>
+                                <p>ボードの早期アクセスの実稼働版：2023年8月24日（PT）</p>
                             </li>
                             <li>
                                 <p>高速リリース向けの本番環境：なし</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">接続されたカードで表示専用として使用可能なドキュメント</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Workfrontボードで接続されたカードの場合、画像やPDFなどのドキュメントを表示できるようになりました。 ドキュメントは、ブラウザーでプレビューするか、コンピューターにダウンロードすることができます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントが接続カードで表示専用として使用可能</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Workfront ボードの接続カードで、画像や PDF などのドキュメントを表示できるようになりました。ドキュメントは、ブラウザーでプレビューするか、コンピューターにダウンロードすることができます。 </p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 4 日</p>
+                                <p>プレビューリリース：2023年8月3日（PT）</p>
                             </li>
                             <li>
-                                <p>ボードの先行公開の実稼働：2023 年 8 月 10 日</p>
+                                <p>ボードの早期アクセスの実稼働版：2023年8月10日（PT）</p>
                             </li>
                             <li>
                                 <p>高速リリース向けの本番環境：なし</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトのボード表示を問題で利用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p><p>プロジェクトの問題リストのボードビューにアクセスできるようになりました。 かんばんボードを使用すると、問題の進行状況をリストで表示するよりも視覚的に追跡できます。 </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトのボードビューをイシューで使用可能</a></p><p>[!BADGE In production ]{type=Informative}</p><p>プロジェクトのイシューリストのボードビューにアクセスできるようになりました。かんばんボードを使用すると、イシューの進行状況を、リストで表示するよりも視覚的に追跡できます。 </p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 4 日</p>
+                                <p>プレビューリリース：2023年8月3日（PT）</p>
                             </li>
                             <li>
                                 <p>ボードの早期アクセス用の実稼動：なし</p>
@@ -240,7 +240,7 @@ These enhancements will be included in the following releases:
                                 <p>高速リリース向けの本番環境：なし</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -248,7 +248,7 @@ These enhancements will be included in the following releases:
            </tbody>
         </table>
 
-### Financial Management の機能強化
+### 財務管理の機能強化
 
 <table>
             <col style="width: 50%;" />
@@ -266,19 +266,19 @@ These enhancements will be included in the following releases:
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">有効なコストと請求率の日付</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>日付の有効なコストと請求率が、Workfrontの会社、ユーザーおよびジョブの役割のオブジェクトで使用できるようになりました。 プロジェクトに有効日レートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定された率を使用して計算されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">日付上有効なコストと請求料率</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>有効日のコスト率と請求率が、Workfront の会社、ユーザー、および担当業務のオブジェクトで使用できるようになりました。プロジェクトに有効日のレートが適用され、時間がプロジェクトタスクにログオンすると、コストと売上高は各期間の指定されたレートを使用して計算されます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 6 月 30 日</p>
+                                <p>プレビューリリース：2023年6月29日（PT）</p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.10 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -307,16 +307,16 @@ These enhancements will be included in the following releases:
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトウィジェット、タスクウィジェット、およびイシューウィジェットの作業ボタンを委任します</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>古いホームページで一般的に要求される機能で、「マイワーク」、「マイタスク」、「マイタスク」の各ウィジェットに委任ボタンが追加され、不在時に作業を簡単に委任できるようになりました。 ボタンを表示するには、Workfront環境で作業の委任を有効にする必要があります。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                                <p>プレビューリリース：2023年10月12日（PT）</p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.10 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -326,16 +326,16 @@ These enhancements will be included in the following releases:
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホーム用の新しいボードウィジェット</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>新しいホームで利用可能な作業管理オプションに加えて、ホームページにボードを表示できるようになりました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                                <p>プレビューリリース：2023年10月12日（PT）</p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.10 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -345,16 +345,16 @@ These enhancements will be included in the following releases:
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコントリビューターの既定のランディングページ：新しいホーム</a>  </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>新しいホームが、貢献者/要求者アカウントの既定のランディングページになりました。 この新しいデフォルトのホームページには、コントリビューターがすぐに作業を管理できるように、特に選択された多数のウィジェットが含まれています。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                                <p>プレビューリリース：2023年10月12日（PT）</p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.10 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -365,16 +365,16 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>ユーザーのフィードバックに基づいて、タスクの期限と完了を集計したページ全体の時間範囲フィルターと概要バーを削除しました。 プロジェクト、タスク、問題の各ウィジェットには、個々の範囲をカスタマイズできる、組み込みのフィルタリング機能が備わっています。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 9 月 14 日<br /></p>
+                                <p>プレビューリリース：2023年9月13日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.9 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.9 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -385,16 +385,16 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>新しいホームから直接作業を管理する機能をさらに拡張し、新しいクイックアクションボタンがマイワークウィジェットに追加されました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 9 月 14 日<br /></p>
+                                <p>プレビューリリース：2023年9月13日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.9 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.9 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -405,16 +405,16 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>新しいホームの My Work ウィジェットで新しいフィルターオプションを使用できるようになりました。 オプションには、オブジェクトのタイプ（タスク、問題、リクエスト）とステータス（準備ができていない、開始準備ができている、作業中の、完了済み）のフィルターが含まれます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                                <p>プレビューリリース：2023年8月17日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.8 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -424,10 +424,10 @@ These enhancements will be included in the following releases:
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームでのカスタム用語のサポート</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>組織固有のニーズをより適切に満たすために、新しいホームでは、インスタンスのレイアウトテンプレートで定義されたオブジェクトに対して、カスタム用語を使用するようになりました。 例えば、Workfrontインスタンスで「プロジェクト」オブジェクトのラベルが「キャンペーン」に変更されている場合、マイプロジェクトウィジェットは代わりに「新規ホーム」のマイキャンペーンとして表示されます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                                <p>プレビューリリース：2023年8月17日（PT）<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span></p>
@@ -441,16 +441,16 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>新しいホームが無効になっているアカウントでは、[ 新しいホームを試す ] ボタンが表示されなくなりました。 個々のユーザーがボタンを使用して新しいホームを試す前に、システム管理者が新しいホームを再度有効にする必要があります。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                                <p>プレビューリリース：2023年8月17日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.8 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -461,10 +461,10 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>タスクの作成権限を必要とする TODO ウィジェットは、標準、計画、または作業用のライセンスの種類を持つユーザー向けのデフォルトのウィジェットセットにのみ存在します。 さらに、ウィジェットは他のすべてのライセンスタイプを持つユーザーのホームページから自動的に削除されました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                                <p>プレビューリリース：2023年8月17日（PT）<br /></p>
                             </li>
                             <li>
                                 <p>高速リリースの実稼動： 2023 年 8 月 18 日</p>
@@ -478,7 +478,7 @@ These enhancements will be included in the following releases:
            </tbody>
         </table>
 
-### 統合の強化
+### 統合の機能強化
 
 <table>
             <col style="width: 50%;" />
@@ -498,10 +498,10 @@ These enhancements will be included in the following releases:
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントをSharePoint(GraphAPI) に送信する際のエクスペリエンスの強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>SharePoint(GraphAPI) フォルダーにドキュメントを送信する際にフォルダーを見つけやすくするために、いくつかの変更を加えました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 25 日<br /></p>
+                                <p>プレビューリリース：2023年8月24日（PT）<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様の実稼動：2023 年 8 月 31 日</span></p>
@@ -513,10 +513,10 @@ These enhancements will be included in the following releases:
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメント統合のためのドラッグ&amp;ドロップのアップグレード</a></p><p>[!BADGE In production ]{type=Informative}</p><p>リンクされたフォルダーにファイルをドラッグ&amp;ドロップする際の明確さの追加とユーザーエラーの削除をいくつか強化しました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 25 日<br /></p>
+                                <p>プレビューリリース：2023年8月24日（PT）<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様向けの実稼動：23.10 リリース以降</span></p>
@@ -545,22 +545,22 @@ These enhancements will be included in the following releases:
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいドキュメント承認</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新規ドキュメント承認</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>このリリースでは、新機能に加え、承認および承認/レビュー用のドキュメントの作成と、承認プロセスが合理化されました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 10 月 13 日<br /></p>
+                                <p>プレビューリリース：2023年10月12日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.10 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
-                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span></p>
+                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在は特定のお客様のみが利用できます。</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -569,10 +569,10 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production]{type=Informative}</p>
                         <p>タスクリストがリアルタイムで更新されるようになりました。 タスクに加えた変更はタスクリスト内で更新され、ページを更新せずにタスクリストを表示しているユーザーに変更を表示できます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：なし<br /></p>
+                                <p>プレビューリリース：該当なし<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">すべてのお客様向けの本番環境：段階的な展開、2023 年 10 月 19 日完了</span></p>
@@ -582,21 +582,21 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトに新しいイシューを追加する際にデザインを更新しました</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトに新しいイシューを追加する際にアップデートされたデザイン</a> </p>
                         <p>[!BADGE In production ]{type=Informative}</p>
-                        <p>この更新は 23.3 リリースで発表されました。</p>
-                        <p>新しいイシューをプロジェクトに送信する際に表示される「新しいイシュー」ボックスを更新しました。 現在は、インターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される「新しいリクエスト」ボックスに一致します。</p>
+                        <p>このアップデートは 23.3 リリースで発表されました。</p>
+                        <p>新しいイシューをプロジェクトに送信する際に表示される新しいイシューボックスをアップデートしました。現在のインターフェイスは、新しいリクエストをリクエストキューに送信する際に表示される新しいリクエストボックスと同じです。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 7 月 27 日<br /></p>
+                                <p>プレビューリリース：2023 年 7 月 26 日<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.8 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -607,16 +607,16 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>ページ上のフォームの依存値が変更された場合、オブジェクトに添付されたフォームの計算フィールドが、リアルタイムで動的に再計算されるようになりました。 これにより、フォームを保存せずに、更新された結果を表示できます。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                                <p>プレビューリリース：2023年8月17日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.8 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -627,16 +627,16 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>割り当てがなく、単純期間タイプの定期タスクに計画時間を割り当てる方法を変更しました。 現在は、[ 簡易期間の種類 ] で割り当てを行わない新しい定期タスクに予定時間を設定すると、時間も個々の繰り返しに割り当てられます。 この変更以前は、親タスクが割り当てられていない場合、時間は個々の繰り返しに対して保存されていませんでした。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 8 月 18 日<br /></p>
+                                <p>プレビューリリース：2023年8月17日（PT）<br /></p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.8 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.8 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -665,16 +665,16 @@ These enhancements will be included in the following releases:
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">寄稿者のメインメニューの変更</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>有料Workfrontライセンスタイプで利用可能な機能について、寄稿者/リクエスタによりよく知らせるために、メインメニューで使用可能なすべてのオプションが表示されるようになりました。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年 10 月 13 日</p>
+                                <p>プレビューリリース：2023年10月12日（PT）</p>
                             </li>
                             <li>
-                                <p>高速リリースの実稼動： 23.10 リリースを使用</p>
+                                <p>迅速リリース用の実稼動版： 23.10 リリースに併せて</p>
                             </li>
                             <li>
-                                <p>四半期リリースの実稼動：23.10 リリースを使用</p>
+                                <p>四半期リリース用の実稼動版：23.10 リリースに併せて</p>
                             </li>
                         </ul>
                     </td>
@@ -685,10 +685,10 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>更新に関する節の機能強化は、2023 年第 4 四半期のリリース期間内に、コメント作成エクスペリエンスベータ版に対して提供される予定です。 これらの機能強化は、2023 年第 4 四半期リリース（2023 年 10 月）のすべてのお客様が実稼動環境で利用できるようになります。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年第 4 四半期のリリース期間<br /></p>
+                                <p>プレビューリリース：2023 年第 4 四半期のリリース期間中<br /></p>
                             </li>
                             <li>
                                 <p>高速リリースの実稼動： 23.8 リリースの開始</p>
@@ -705,10 +705,10 @@ These enhancements will be included in the following releases:
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>キャンバスダッシュボードの機能強化は、2023 年第 4 四半期のリリース期間内に、継続的なベータ版の一環として提供されます。 これらの機能強化は、2023 年第 4 四半期リリース（2023 年 10 月）のすべてのお客様が実稼動環境で利用できるようになります。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年第 4 四半期のリリース期間<br /></p>
+                                <p>プレビューリリース：2023 年第 4 四半期のリリース期間中<br /></p>
                             </li>
                             <li>
                                 <p>高速リリースの実稼動： 23.8 リリースの開始</p>
@@ -721,15 +721,15 @@ These enhancements will be included in the following releases:
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2023 年第 4 四半期の期間におけるルックアンドフィールの更新</a></p><p>[!BADGE In production ]{type=Informative}</p><p>2023 年第 4 四半期の期間内に、Adobe Workfrontアプリケーションの様々な領域のルックアンドフィールに対するマイナーなアップデートがおこなわれています。 特定のリリース日については、個々のリリースノートを確認してください。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2023 年第 4 四半期の期間におけるルックアンドフィールの更新</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対するマイナーアップデートは、2023 年第 4 四半期の期間内に行われます。特定のリリース日については、個々のリリースノートを確認してください。</p>
                     </td>
-                    <td><p><b>次の日に利用可能：</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2023 年第 4 四半期のリリース期間</p>
+                                <p>プレビューリリース：2023 年第 4 四半期のリリース期間中</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動版リリース：特定の日付のリリースノートを確認します。</span></p>
+                                <p><span class="preview">実稼動版リリース：リリースノートで日付を確認してください。</span></p>
                             </li>
                         </ul>
                     </td>
@@ -741,45 +741,45 @@ These enhancements will be included in the following releases:
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、2023 年第 4 四半期のリリーススケジュール以外の期間で、実稼動環境で使用できます。 最新の機能について詳しくは、 [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Workfront Fusion の新機能は、2023 年第 4 四半期のリリーススケジュールから外れたタイミングで、実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
-### Workfront Scenario Planner の機能強化
+### Workfront シナリオプランナーの機能強化
 
-リリースのこの時点では、シナリオプランナーの更新はありません。 この領域は、更新が利用可能になると更新されます。
+リリースの現時点では、シナリオプランナーの更新はありません。このエリアは、アップデートが利用可能になると更新されます。
 
 ### Workfront Proof の機能強化
 
-このリリースでは、現時点でWorkfront Proof の更新はありません。 この領域は、更新が利用可能になると更新されます。
+リリースの現時点では、Workfront Proof の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
 
-### Workfront目標の強化
+### Workfront Goals の強化
 
-このリリースでは、現時点でWorkfront Goals の更新はありません。 この領域は、更新が利用可能になると更新されます。
+リリースの現時点では、Workfront Goals の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
 
 ### API バージョン 17
 
-API バージョン 17 は 2023 年 10 月 13 日にリリースされました。 API バージョン 17 では、いくつかのリソースとエンドポイントを変更しました。 一部の変更は新しい機能をサポートし、他の変更では、API を通じて入手可能な情報を使いやすくします。
+API バージョン 17 は 2023 年 10 月 13 日にリリースされました。 API バージョン 17 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
-の新機能と更新点について詳しくは、 [API バージョン 17 の新機能](/help/quicksilver/wf-api/api/new-api-version-17.md).
+新機能と更新内容については、[API バージョン 17 の新機能](/help/quicksilver/wf-api/api/new-api-version-17.md)を参照してください。
 
-API バージョンについて詳しくは、 [API のバージョン管理とサポートのスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
-### Workfront のメンテナンス更新
+### Workfront のメンテナンスアップデート
 
-22.3 リリースでおこなわれたメンテナンスアップデートについて詳しくは、 [Workfrontメンテナンスの更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
 
 ### トレーニングの更新
 
-各Adobe Workfront製品リリースの学習プログラム、学習パス、ビデオ、ガイドに対しておこなわれた最新のアップデートを確認します。 詳しくは、 [WorkfrontTutorialsページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
 
-### 機能は間もなくWorkfrontから削除されます
+### Workfront から近日中に削除される機能
 
-次の機能は、近日中にWorkfrontから削除されます。
+次の機能は、近日中に Workfront から削除されます。
 
-#### 23.10 での配達確認モバイルアプリの廃止
+#### 23.10 での Proof モバイルアプリの廃止
 
-23.10 リリースでは、配達確認モバイルアプリは正式に廃止されます。 一般的なWorkfrontモバイルアプリが新しい校正機能で強化されました ( 詳しくは、 Workfront Mobile の機能強化のリリースノートを参照 )。また、できるだけ早く校正作業に使用することをお勧めします。
+23.10 リリースでは、Proof モバイルアプリが正式に廃止されます。一般的な Workfront モバイルアプリが新しいプルーフ機能で強化されました（詳しくは、Workfront モバイルの機能強化に関するリリースノートを参照してください）。できるだけ早くプルーフ作業にお使いいただくことをお勧めします。
 
-WorkfrontモバイルアプリにはWorkfrontログインが必要です。 外部のユーザーおよびゲストは、引き続き校正作業に Proof アプリを使用できます。ただし、サポートは終了し、23.10 では使用できなくなります。
+Workfront モバイルアプリには Workfront へのログインが必要です。外部のユーザーおよびゲストは、引き続きプルーフの作業に Proof アプリを使用できます。ただし、サポートは終了し、23.10 では使用できなくなります。
 
 #### 使用していないアカウントで削除されたワークストリーム
 

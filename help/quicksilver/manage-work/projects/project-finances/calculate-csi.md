@@ -2,67 +2,67 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: CSI(Calculate Cost Schedule Performance Index)
-description: CSI(Cost Schedule Performance Index) は、CPI(Cost Performance Index) と SPI(Schedule Performance Index) を組み合わせた自動計算で、コストとスケジュールのバランスを取る 1 つの一般的な指標になります。
+title: コストスケジュール効率指数（CSI）の計算
+description: コストスケジュール効率指数（CSI）は、コスト効率指数（CPI）とスケジュール効率指数（SPI）を組み合わせて、コストとスケジュールのバランスを取った 1 つの一般的な指標にする自動計算です。
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 97%
 
 ---
 
-# CSI(Calculate Cost Schedule Performance Index)
+# コストスケジュール効率指数（CSI）の計算
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
 -->
 
-## CSI(Cost Schedule Performance Index) の概要
+## コストスケジュール効率指数（CSI）の概要
 
-CSI(Cost Schedule Performance Index) は、CPI(Cost Performance Index) と SPI(Schedule Performance Index) を組み合わせた自動計算で、コストとスケジュールのバランスを取る 1 つの一般的な指標になります。 これらの値を乗算することで、1 つの指標が低い予算で長期化されたスケジュールを計算したり、その逆を計算したりできます。 プロジェクトマネージャは、この機能を使用して、コストが犠牲になってスケジュール中のプロジェクトを実行する場合に、一般的なプロジェクトまたはタスクの正常性を判断できます。
+コストスケジュール効率指数（CSI）は、コスト効率指数（CPI）とスケジュール効率指数（SPI）を組み合わせて、コストとスケジュールのバランスを取った 1 つの一般的な指標にする自動計算です。これらの値を乗算することで、少ない予算で長期に及ぶスケジュールまたはその逆を 1 つの指標で説明することができます。プロジェクトマネージャーは、プロジェクト中盤でスケジュールを推進するためにコストが犠牲になっている場合に、この指標を使用して、プロジェクトやタスクの全般的な健全性を判断することができます。
 
 >[!TIP]
 >
->Adobe Workfrontは、タスクとプロジェクトの両方に対して CSI を計算します。 Workfrontは、問題の CSI 値を計算しません。
+>Adobe Workfront では、タスクとプロジェクトの両方に対して CSI を計算します。Workfront では、イシューの CSI 値を計算しません。
 
-組織内に次のものが存在する場合にのみ、この指標によって提供される情報のメリットを得ることができます。
+この指標から提供される情報を活かすことができるのは、組織内の状況が以下の場合のみです。
 
-* ユーザーが、完了した作業の時間を記録しています。\
-  これにより、時間に基づいて CSI が計算されます。
-* ユーザーまたはジョブの役割には、時間あたりのコスト率が関連付けられています。 
+* ユーザーが、完了した作業の時間を記録している。\
+  これにより、時間数に基づいて CSI が計算されます。
+* ユーザーまたは担当業務に 1 時間当たりのコスト率が関連付けられている。 
 
   これにより、コストに基づいて CSI が計算されます。
 
-## Workfrontが CSI(Cost Schedule Performance Index) を計算する方法
+## Workfront でのコストスケジュール効率指数（CSI）の計算方法
 
-Workfrontは、次の式を使用して、プロジェクトまたはタスクの CSI(Cost Performance Index) を計算します。
+Workfront では、次の式を使用して、プロジェクトまたはタスクのコスト効率指数（CPI）を計算します。
 
 `CSI = CPI x SPI`
 
-CPI の詳細については、「 [コスト効果指数 (CPI) の計算](../../../manage-work/projects/project-finances/calculate-cpi.md).
+CPI について詳しくは、[コスト効率指数（CPI）の計算](../../../manage-work/projects/project-finances/calculate-cpi.md)の記事を参照してください。
 
-SPI について詳しくは、「 」を参照してください。 [スケジュールパフォーマンスインデックスの計算 (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+SPI について詳しくは、[スケジュール効率指数（SPI）の計算](../../../manage-work/projects/project-finances/calculate-spi.md)を参照してください。
 
 CSI には次の 3 つの値が考えられます。
 
 * 1 =全体的な計画に従う
 * \>1 =予算スケジュールの組み合わせの下
-* &lt;1 =予算超過スケジュールの組み合わせ
+* &lt;1 = 予算とスケジュールの組み合わせを超過
 
 ![](assets/csi-highlighted.png)
 
-## CSI(Cost Schedule Performance Index) を検索します。
+## コストスケジュール効率指数（CSI）を見つける
 
 >[!CAUTION]
 >
->プロジェクトまたはタスクの CSI 値を表示するには、アクセスレベルで財務データの表示へのアクセス権と、プロジェクトまたはタスクを表示する権限が必要です。
+>プロジェクトまたはタスクの CSI 値を表示するには、アクセスレベルでの財務データの表示アクセス権と、プロジェクトまたはタスクを表示する権限が必要です。
 
-CSI は、Workfrontの次の領域で見つけることができます。
+CSI は、Workfront の次のエリアに表示されます。
 
-* 「プロジェクトの詳細」セクションの財務領域。
-* 「タスクの詳細」セクションの財務領域
+* 「プロジェクト詳細」セクションの財務エリア。
+* 「タスクの詳細」セクションの財務エリア。
 * プロジェクトまたはタスクビュー
 * プロジェクトまたはタスクレポート

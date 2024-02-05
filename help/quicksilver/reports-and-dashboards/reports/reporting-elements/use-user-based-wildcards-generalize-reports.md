@@ -2,26 +2,26 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: ユーザーベースのワイルドカードを使用してレポートを一般化する
-description: 特定のレポート要素を作成する際に、特定の情報ではなくワイルドカードを使用して、レポートを一般化できます。
+description: 特定のレポート要素を作成するときに、特定の情報の代わりにワイルドカードを使用することで、レポートを一般化できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 1%
+ht-degree: 96%
 
 ---
 
 # ユーザーベースのワイルドカードを使用してレポートを一般化する
 
-特定のレポート要素を作成する際に、特定の情報ではなくワイルドカードを使用して、レポートを一般化できます。 例えば、特定のユーザーに割り当てられたタスクを示すレポートを作成する場合は、フィルターの「割り当て先」フィールドでユーザーの名前を使用できます。 ただし、ログインしたユーザーに割り当てられたタスクを表示するレポートを作成する場合は、そのユーザーが誰であるかに関係なく、そのユーザーに関する情報を表示するワイルドカードを使用できます。 この方法では、レポートを 1 回作成しますが、フィルターにワイルドカードを使用するので、他のユーザーが読み取るたびに異なる結果が生成されます。
+特定のレポート要素を作成するときに、特定の情報の代わりにワイルドカードを使用することで、レポートを一般化できます。例えば、特定のユーザーに割り当てられたタスクを示すレポートを作成する場合は、フィルターの「割り当て先」フィールドでユーザーの名前を使用できます。ただし、ログインしたユーザーに割り当てられたタスクを表示するレポートを作成する場合は、そのユーザーが誰であるかに関係なく、誰かがレポートを表示すると、そのユーザーにのみ関連する情報が表示されることを示すワイルドカードを使用できます。この方法では、レポートを一度作成しますが、フィルターでワイルドカードを使用しているため、レポートを読むたびに異なる結果が生成されます。
 
 次のレポート要素を作成する際に、ユーザーベースのワイルドカードを使用できます。
 
 * フィルター
 * カスタムプロンプト
-* 列のルールを追加する際に表示
+* 列のルールを追加するときのビュー
 
 ## アクセス要件
 
@@ -32,50 +32,50 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのレポート要素を編集します</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>ポート、ダッシュボード、カレンダーへの編集アクセスでレポートのレポート要素の編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
-   <td> <p>レポートのレポート要素を編集するためのレポートに対する権限の管理</p> <p>ビューまたはフィルターに対する権限を管理して編集する</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td> <p>レポートの管理権限（レポート内のレポート要素を編集するため）</p> <p>ビューまたはフィルターの管理権限（これらを編集するため）</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
 ## 前提条件
 
 ワイルドカード変数を追加する前に、レポートを作成する必要があります。
 
-レポートの作成手順については、 [レポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+レポートの作成手順については、[レポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)を参照してください。
 
-## ハウツー手順
+## 操作手順
 
 ユーザーベースのワイルドカードをレポートに挿入するには、次の手順に従います。
 
 1. ユーザーベースのワイルドカードを挿入するレポートに移動します。
-1. クリック **レポートのアクション**&#x200B;を、 **編集**.
+1. 「**報告書アクション**」をクリックし、次に「**編集**」を選択します。
 
-1. 次をクリック： **フィルター** タブをクリックします。
-1. クリック **フィルタールールを追加する**.
-1. フィルターに使用するフィールドの名前を入力します。\
+1. 「**フィルター**」タブをクリックします。
+1. 「**フィルター規則の追加**」をクリックします。
+1. フィルタリングの条件に使用するフィールドの名前を入力していきます。\
    ユーザーオブジェクトまたはユーザーに関する情報を参照するフィールドを入力する必要があります。
-1. 選択 **次と等しい** （フィルター変数のドロップダウンメニュー）を使用します。
+1. フィルター変数のドロップダウンメニューで「**が次に等しい**」を選択します。
 
    >[!TIP]
    >
-   >常に **次と等しい** Adobe Workfrontでワイルドカードを使用する場合は、フィルター変数を使用します。
+   >Adobe Workfront でワイルドカードを使用する場合は、常に&#x200B;**が次に等しい**&#x200B;フィルター変数を選択する必要があります。
 
-1. Adobe Analytics の **名前の入力を開始…** ボックス、タイプ： `$$USER.ID` または `$$USER.name` レポートに、ログインしたユーザーの名前に基づく情報を表示する場合。 ログインしたユーザーのグループ、チーム、会社、その他の情報を参照する他のワイルドカードを挿入できます。
+1. 「**名前の入力を開始…**」ボックスに、ログインしているユーザーに関する情報を名前に基づいてレポートに表示する場合は、`$$USER.ID` または `$$USER.name` と入力します。ログインしたユーザーのグループ、チーム、会社、その他の情報を参照する他のワイルドカードを挿入できます。
 
    ユーザーベースのワイルドカードの完全なリストについては、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -89,7 +89,7 @@ ht-degree: 1%
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [Adobe Workfrontでフィルターを作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [Adobe Workfront でフィルターを作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [レポートにプロンプトを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
-* [ビューでの条件付き書式の使用](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
+* [レポートにプロンプトを追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [ビューでの条件付き形式の使用](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

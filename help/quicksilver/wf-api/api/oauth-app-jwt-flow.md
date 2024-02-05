@@ -8,7 +8,7 @@ feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 

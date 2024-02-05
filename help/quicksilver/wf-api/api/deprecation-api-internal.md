@@ -9,24 +9,24 @@ role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
 source-git-commit: acc7414a9c6eef838147aee675603b6cc2566fb9
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 96%
 
 ---
 
 # API-Internal の廃止
 
-API-Internal は、設計と目的によりサポートされないAdobe Workfront API のバージョンです。 Workfront API の最新の更新が含まれていますが、通知なしに変更される可能性があるので、実稼動環境への統合では慎重に使用する必要があります。 Workfrontでは、すべての API-Internal 統合をバージョン管理された API に更新することを強くお勧めします。
+API-Internal は、設計と目的が原因でサポートされていない Adobe Workfront API バージョンです。Workfront API の最新の更新が含まれていますが、通知なしに変更される可能性があるので、実稼動環境への統合では慎重に使用する必要があります。Workfront では、すべての API-Internal 統合をバージョン管理された API に更新することを強くお勧めします。
 
-Workfront API のサポート対象バージョンについて詳しくは、 [API のバージョン管理とサポートのスケジュール](../../wf-api/api/api-version-support-schedule.md).
+Workfront API のサポート対象バージョンについて詳しくは、[API のバージョン管理とサポートスケジュール](../../wf-api/api/api-version-support-schedule.md)を参照してください。
 
-**API-Unsupported を使用**
+**API-Unsupported の使用**
 
-統合で、バージョン管理された API で使用できない機能が必要な場合、Workfrontでは API-Unsupported を使用することをお勧めします。 API-Internal と同様、API-Unsupported はサポートされていません。 API-Unsupported は、Workfront API に対する最新の変更も含まれており、予告なく変更される場合があります。 Workfrontでは、新しい機能を調べて API にバグがないことを確認できるテスト環境で API-Unsupported を使用することを推奨しています。
+バージョン管理された API で使用できない機能が統合で必要な場合、Workfront では API-Unsupported を使用することをお勧めします。API-Internal と同様に、API-Unsupported はサポート対象外です。また、API-Unsupported も Workfront API の最新の変更を含んでおり、予告なく変更される場合があります。Workfront では、新しい機能を調べて API にバグがないことを確認できるテスト環境で API-Unsupported を使用することをお勧めします。
 
 **使用している API バージョンの確認**
 
-REST を使用して、HTTPS 経由でWorkfrontに呼び出しを送信し、JSON 応答を返す URI を構築することで、統合で使用する API のバージョンを決定できます。
+統合で使用している API のバージョンを特定するには、REST を使用して、HTTPS で Workfront に呼び出しを送信して JSON 応答を返す URI を作成します。
 
 次の例は、API-Internal を呼び出す URI を示しています。
 

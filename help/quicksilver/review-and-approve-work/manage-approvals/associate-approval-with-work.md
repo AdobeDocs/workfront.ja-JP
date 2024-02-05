@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 source-git-commit: 65680d320a06cc96c7434d3efb91eb16e6e86e44
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1869'
 ht-degree: 100%
 

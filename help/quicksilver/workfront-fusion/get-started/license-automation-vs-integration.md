@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion ライセンス
-description: Adobe Workfront Fusion には、アクセス可能な機能を決定する 2 つの異なるライセンスが用意されています。 組織がWorkfront Fusion を購入した際に、これらのライセンスの 1 つを選択しました。
+description: Adobe Workfront Fusion には、アクセス可能な機能を決定する 2 つの異なるライセンスが用意されています。組織が Workfront Fusion を購入した際に、これらのライセンスの 1 つを選択しました。
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
 source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
@@ -27,37 +27,37 @@ ht-degree: 0%
 
 ## コネクタベースのライセンスモデル（レガシー）
 
-Adobe Analytics の [!DNL Adobe Workfront Fusion] レガシーライセンスモデル、 [!DNL Fusion] には、アクセス可能な機能を決定する 2 種類のライセンスが用意されています。 購入時に組織がこれらのライセンスの 1 つを選択しました [!DNL Workfront Fusion].
+[!DNL Adobe Workfront Fusion] の従来のライセンスモデル、[!DNL Fusion] には、アクセス可能な機能を決定する 2 種類のライセンスが用意されています。[!DNL Workfront Fusion] の購入時に組織がこれらのライセンスの 1 つを選択しました
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
-次のタイプを調べるには、以下を実行します。 [!DNL Workfront Fusion] ライセンスを取得し、次に問い合わせてください： [!DNL Workfront Fusion] 管理者。
+組織が所有している [!DNL Workfront Fusion] ライセンスの種類を調べるには、[!DNL Workfront Fusion] 管理者にお問い合わせください。
 
 ## [!DNL Workfront Fusion for Work Automation]
 
-* [のメリット [!DNL Workfront Fusion for Work Automation]](#benefits-of-workfront-fusion-for-work-automation)
-* [で使用できるコネクタとモジュール [!DNL Workfront Fusion for Work Automation]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation)
-* [の例 [!DNL Workfront Fusion for Work Automation]](#example-of-workfront-fusion-for-work-automation)
+* [ [!DNL Workfront Fusion for Work Automation] のメリット](#benefits-of-workfront-fusion-for-work-automation)
+* [ [!DNL Workfront Fusion for Work Automation] で使用できるコネクタとモジュール](#connectors-and-modules-available-for-workfront-fusion-for-work-automation)
+* [ [!DNL Workfront Fusion for Work Automation] の例](#example-of-workfront-fusion-for-work-automation)
 
-### のメリット [!DNL Workfront Fusion for Work Automation]
+### [!DNL Workfront Fusion for Work Automation] のメリット
 
-A [!DNL Workfront Fusion for Work Automation] ライセンスを使用すると、 [!DNL Workfront] ワークフロー。 次を使用： [!DNL Workfront Fusion for Work Automation]を使用すると、組織固有の作業プロセスを自動化するシナリオを作成できます。 を自動化するには、多くの利点があります。 [!DNL Workfront] プロセス。
+[!DNL Workfront Fusion for Work Automation] ライセンスを使用すると、[!DNL Workfront] ワークフローを自動化できます。[!DNL Workfront Fusion for Work Automation] を使用すると、組織固有の作業プロセスを自動化するシナリオを作成できます。[!DNL Workfront] プロセスの自動化には多くの利点があります。
 
-* 自動化は迅速で、エラーが発生しやすくなります。
-* 決定を必要としないワークフローや、決定を下すワークフローが if/then などのシンプルなロジックに基づいているワークフローは、自動化に適しています。
-* 自動処理は、 [!DNL Workfront] 製品
+* 自動処理は迅速で、エラーが発生しにくくなります。
+* 決定を必要としないワークフローや、決定を下すワークフローが if／then などのシンプルなロジックに基づいているワークフローは、自動処理に適しています。
+* 自動処理は、[!DNL Workfront] 製品に直接的に対処しない組織が使用するワークフローにおける、特別なニーズに対処できます。
 
-### で使用できるコネクタとモジュール [!DNL Workfront Fusion for Work Automation]
+### [!DNL Workfront Fusion for Work Automation] で使用できるコネクタとモジュール
 
-を使用 [!DNL Workfront Fusion for Work Automation] ライセンスを取得するには、次のアクセス権を持っています。
+[!DNL Workfront Fusion for Work Automation] ライセンスを使って、次にアクセスできます。
 
 * [!DNL Adobe Workfront]
 * [!DNL Workfront Proof]
-* Webhook
+* Web フック
 * 次のようなツールおよび変換サービスモジュール。
 
-   * PDFツール
+   * PDF ツール
    * アーカイブ
    * CSV
    * データストア
@@ -67,47 +67,47 @@ A [!DNL Workfront Fusion for Work Automation] ライセンスを使用すると�
    * MIME
    * XML
 
-### の例 [!DNL Workfront Fusion for Work Automation]
+### [!DNL Workfront Fusion for Work Automation] の例
 
-**例：** 次の例は、次のようなワークフローを示しています。
+**例：**&#x200B;次の例は、以下ようなワークフローを示しています。
 
 1. フィールドの変更を監視
-1. オブジェクトの割り当て先を含む、フィールドが関連付けられているオブジェクトに関する情報を取得します
-1. オブジェクトが割り当てられているユーザーに対して、フィールドの変更に関する通知を送信します
+1. オブジェクトの割り当て先を含む、フィールドが関連付けられているオブジェクトに関する情報を取得
+1. オブジェクトが割り当てられているユーザーに対して、フィールドの変更に関する通知を送信
 
 ![](assets/fusion-template-example-350x102.png)
 
 ## [!DNL Workfront Fusion for Work Automation and Integration]
 
-* [のメリット [!DNL Workfront Fusion for Work Automation and Integration]](#benefits-of-workfront-fusion-for-work-automation-and-integration)
-* [で使用できるコネクタとモジュール [!DNL Workfront Fusion for Work Automation and Integration]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation-and-integration)
-* [の例 [!DNL Workfront Fusion for Work Automation and Integration]](#example-of-workfront-fusion-for-work-automation-and-integration)
+* [ [!DNL Workfront Fusion for Work Automation and Integration] のメリット](#benefits-of-workfront-fusion-for-work-automation-and-integration)
+* [ [!DNL Workfront Fusion for Work Automation and Integration] で使用できるコネクタとモジュール](#connectors-and-modules-available-for-workfront-fusion-for-work-automation-and-integration)
+* [ [!DNL Workfront Fusion for Work Automation and Integration] の例](#example-of-workfront-fusion-for-work-automation-and-integration)
 
-### のメリット [!DNL Workfront Fusion for Work Automation and Integration] {#benefits-of-workfront-fusion-for-work-automation-and-integration}
+### [!DNL Workfront Fusion for Work Automation and Integration] のメリット {#benefits-of-workfront-fusion-for-work-automation-and-integration}
 
-A [!DNL Workfront Fusion for Work Automation and Integration] ライセンスを使用すると、 [!DNL Workfront Fusion for Work Automation] ライセンス。 さらに、このライセンスを使用すると、シナリオで他のアプリやサービスを使用できます。 例えば、 [!DNL Workfront Fusion] を自動化する [!DNL Jira] ジョブを使用して、ジョブをでタスクに変換します。 [!DNL Workfront]. また、 [!UICONTROL HTTP] または [!UICONTROL SFTP] ほぼすべての Web サービスに接続するためのコネクタ ( たとえば、 [!DNL Workfront Fusion] には、専用のコネクタがありません。
+[!DNL Workfront Fusion for Work Automation and Integration] ライセンス版を使用すると、[!DNL Workfront Fusion for Work Automation] ライセンス版の機能すべてにアクセスできます。さらに、このライセンスを使用すると、シナリオで他のアプリやサービスを使用できます。例えば、[!DNL Workfront Fusion] を使用して [!DNL Jira] ジョブを読み込むプロセスを自動化し、ジョブを [!DNL Workfront] でタスクに変換できます。また、[!DNL Workfront Fusion] に専用のコネクタがなくても、[!UICONTROL HTTP] または [!UICONTROL SFTP] コネクタを使用して、ほぼすべての web サービスに接続することができます。
 
-[!DNL Workfront Fusion for Work Automation and Integration] は、お客様の組織に多くの利点を提供します。
+[!DNL Workfront Fusion for Work Automation and Integration] は、組織に多くの利点を提供します。
 
-* [!DNL Workfront Fusion for Work Automation and Integration] 次に関連するすべての利点を含む [!DNL Workfront Fusion for Work Automation]
-* 統合により、ワークフローの完了時に様々なアプリにジャンプする必要が減ります。
-* アプリケーション間でのデータ転送の自動化は、データを手動で転送するよりも迅速でエラーが発生しにくくなります
+* [!DNL Workfront Fusion for Work Automation and Integration] は [!DNL Workfront Fusion for Work Automation] に関連するすべての利点を含みます。
+* 統合により、ワークフローの完了時に様々なアプリに出入りする必要が減ります。
+* アプリケーション間でのデータ転送の自動化は、データを手動で転送するよりも迅速でエラーが発生しにくくなります。
 
-### で使用できるコネクタとモジュール [!DNL Workfront Fusion for Work Automation and Integration]
+### [!DNL Workfront Fusion for Work Automation and Integration] で使用できるコネクタとモジュール
 
-使用可能な専用コネクタの一覧については、 [アプリとそのモジュール](../../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
+使用可能な専用コネクタの一覧については、[アプリとそのモジュール](../../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)を参照してください。
 
 >[!IMPORTANT]
 >
->[!DNL Workfront Fusion] は、ほとんどすべての web サービスに接続できます。 操作するアプリに専用のコネクタがない場合は、 [!UICONTROL HTTP], [!UICONTROL SFTP]または [!UICONTROL JSON] Web サービスに直接接続するコネクタ。
+>[!DNL Workfront Fusion] は、ほとんどすべての web サービスに接続できます。操作するアプリに専用のコネクタがない場合は、[!UICONTROL HTTP]、[!UICONTROL SFTP] または [!UICONTROL JSON] コネクタを使って、web サービスに直接接続できます。
 
-### の例 [!DNL Workfront Fusion for Work Automation and Integration]
+### [!DNL Workfront Fusion for Work Automation and Integration] の例
 
-**例：** 次の例は、次のようなワークフローを示しています。
+**例：**&#x200B;次の例は、以下のようなワークフローを示しています。
 
-1. 新規ユーザーのスプレッドシートを監視します
-1. ユーザーがに存在するかどうかを確認します。 [!DNL Workfront]
-1. でユーザーを作成します。 [!DNL Workfront] （ユーザーが存在しなかった場合）
-1. をアップロードします。 [!DNL Workfront] ユーザー ID をスプレッドシートに戻します。
+1. 新規ユーザーに対してスプレッドシートを監視
+1. ユーザーが [!DNL Workfront] に存在するかどうかを確認
+1. ユーザーが存在しない場合は、[!DNL Workfront] にユーザーを作成
+1. [!DNL Workfront] ユーザー ID をスプレッドシートにアップロードして戻す
 
 ![](assets/fusion-integration-example--350x171.png)

@@ -9,7 +9,7 @@ feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
 source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 

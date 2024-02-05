@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードを使用したビューの編集
-description: '注意：この記事にセクションを追加します： /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html ***また、この領域にテキストモードの概要記事の下書きを作成します )'
+description: 「メモ：この記事に節を追加します： /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** また、この領域にテキストモードの概要記事の下書きを作成します」
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
 source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 1%
+ht-degree: 93%
 
 ---
 
@@ -32,54 +32,54 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> <p>新規：標準 </p>
    <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートのレポート要素を編集します</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>ポート、ダッシュボード、カレンダーへの編集アクセスでレポートのレポート要素の編集</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>レポートの表示を編集するためのレポートに対する権限を管理します</p> <p>ビューに対する権限を管理して編集</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>レポートに対する権限を管理してレポートのビューを編集</p> <p>編集するために、ビューに対する管理権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
-レポートまたはリストでテキストモードの使用を開始する前に、必ずWorkfrontのテキストモード構文に関する十分な知識を持っておく必要があります。
+レポートまたはリストでテキストモードを使用するには、あらかじめ Workfront のテキストモード構文に関する十分な知識を持っている必要があります。
 
 詳しくは、以下を参照してください。
 
 * [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## ビューでのテキストモードの編集
+## テキストモードでビューを編集
 
-テキストモードを使用したビューの編集は、レポートとリストで同じです。 レポートからのビューへのアクセス、またはリストからのビューへのアクセスは異なります。
+テキストモードを使用したビューの編集は、レポートやリストの場合と同じです。レポートからのビューへのアクセスと、リストからのビューへのアクセスは異なります。
 
 >[!TIP]
 >
->標準モードでできるだけ多くのビューを作成し、そのビューをテキストモードに変換して編集することをお勧めします。
+>標準モードでビューのできるだけ多くのことを作成し、そのビューをテキストモードに変換して編集することをお勧めします。
 
-ビューの構築について詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+ビューの作成について詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 1. 次のいずれかの操作を行います。
 
-   1. レポートからビューにアクセスするには、レポートに移動し、 **レポートのアクション** > **編集** > **列（表示）** タブをクリックします。
-   1. リストからビューにアクセスするには、リストに移動し、 **表示** ドロップダウンメニューで、変更するビューの上にマウスを移動し、 **編集** アイコン ![](assets/edit-icon.png).
+   1. レポートからビューにアクセスするには、レポートに移動して、**レポートのアクション**／**編集**／**カラム（表示）**&#x200B;タブをクリックします。
+   1. リストからビューにアクセスするには、リストに移動し、**ビュー**&#x200B;ドロップダウンメニューから、変更するビューの上にポインタを合わせて、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
 
       ビュービルダーが開きます。
 
@@ -87,17 +87,17 @@ ht-degree: 1%
 
    または
 
-   を選択します。 **列（表示）** 」タブをクリックし、列を選択します。
+   レポートビルダーの「**列（表示）**」タブを選択し、列を選択します。
 
    >[!TIP]
    >
    >テキストモードを使用してビューを編集するには、一度に 1 列ずつ編集する必要があります。
 
-1. クリック **テキストモードに切り替え** をクリックします。
+1. ビルダーの右上隅にある「**テキストモードに切り替える**」をクリックします。
 
    >[!NOTE]
    >
-   >テキストモードで列を編集すると、Workfrontによって `textmode=true` コードの行を列に追加します。 これは、列がテキストモードで変更されたことを示します。
+   >テキストモードで列を編集すると、Workfront はコードの `textmode=true` 行を列に追加します。これは、列がテキストモードで変更されたことを示します。
 
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
@@ -112,7 +112,7 @@ ht-degree: 1%
     <col> 
     <thead> 
      <tr> 
-      <th>横断抽出ライン</th> 
+      <th>サンプル行</th> 
       <th>説明</th> 
      </tr> 
     </thead> 
@@ -203,9 +203,9 @@ ht-degree: 1%
     </tbody> 
    </table>
 
-1. クリック **適用** 変更を保存し、ビューの編集を続行する場合。
-1. クリック **保存して閉じる** をクリックしてレポートを保存します。
+1. 変更を保存してビューの編集を続行する場合は、「**適用**」をクリックします。
+1. 「**保存して閉じる**」をクリックして、レポートを保存します。
 
    または
 
-   クリック **ビューを保存** をクリックして、ビューをリストに保存します。
+   「**ビューを保存**」をクリックしてビューをリストに保存します。

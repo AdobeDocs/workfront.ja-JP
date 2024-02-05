@@ -2,14 +2,14 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトテンプレートの編集
-description: プロジェクトテンプレートを編集して、プロジェクトプロセスと設定の変更を反映させることができます。
+description: プロジェクトテンプレートを編集して、プロジェクトのプロセスと設定の変更を反映させることができます。
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
 source-wordcount: '4775'
-ht-degree: 2%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 <The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
 -->
 
-プロジェクトテンプレートを編集して、プロジェクトプロセスと設定の変更を反映させることができます。 テンプレートで変更を更新して保存すると、新しい変更は、テンプレートを使用してプロジェクトを作成する際に、新しいプロジェクトに表示されます。 テンプレートに加えた変更は、そのテンプレートを現在使用しているプロジェクトには反映されません。
+プロジェクトテンプレートを編集して、プロジェクトのプロセスと設定の変更を反映させることができます。テンプレートを更新して変更を保存すると、そのテンプレートを使用してプロジェクトを作成するときに、新しい変更内容が新しいプロジェクトに表示されます。テンプレートに加えた変更は、そのテンプレートを現在使用しているプロジェクトには反映されません。
 
 ## アクセス要件
 
@@ -34,31 +34,31 @@ ht-degree: 2%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス*</td> 
-   <td> <p>計画 </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>テンプレートへのアクセスを編集</p> <p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 テンプレートへのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">テンプレートへのアクセス権の付与</a>. Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>. </p> </td> 
+   <td> <p>テンプレートへの編集アクセス</p> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。テンプレートへのアクセス権については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">テンプレートへのアクセス権の付与</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> 
     <ul> 
-     <li> <p>テンプレートに権限を付与して、「テンプレートの詳細」タブで編集します。</p> </li> 
-     <li> <p>テンプレートに対する権限を管理し、「テンプレートの編集」ボックスでテンプレートを編集します。</p> </li> 
-    </ul> <p> テンプレートの権限について詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">テンプレートの共有</a>. </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+     <li> <p>テンプレートへの参加権限（「テンプレートの詳細」タブでテンプレートを編集するため）</p> </li> 
+     <li> <p>テンプレートの管理権限（テンプレートの編集ボックスでテンプレートを編集するため）</p> </li> 
+    </ul> <p> テンプレートの権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">テンプレートの共有</a>を参照してください。 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
-## テンプレートの編集 {#edit-a-template}
+## テンプレートを編集 {#edit-a-template}
 
 <!--
 Editing a template differs depending on what environment you choose. 
@@ -560,40 +560,40 @@ By editing issue settings, you can prevent users from adding issues inline in th
 -->
 
 1. 編集するテンプレートに移動します。
-1. （条件付き）テンプレートに関する限られた情報を編集するには、 **テンプレートの詳細** 左側のパネルで、左側のパネルにリストされている領域に移動して、各領域の情報を編集します。
-1. 「詳細」セクションの情報を編集するには、 **編集** アイコン ![](assets/edit-icon.png)をクリックし、下のいずれかの領域から選択するか、 **すべてを編集** すべての領域で情報を編集するには、次の手順に従います。
+1. （条件付き）テンプレートに関する限られた情報を編集するには、左パネルの「**テンプレートの詳細**」をクリックし、左パネルに一覧表示されているエリアに移動して、それぞれのエリアの情報を編集します。
+1. 「詳細」セクションの情報を編集するには、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックし、続いて以下のいずれかのエリアを選択するか、「**すべて編集**」をクリックしてすべてのエリアの情報を編集します。
 
    * 概要
    * カスタムフォーム
 
-   税関フォームの名前は、オブジェクトにカスタムフォームが添付されている場合にのみ表示されます。
+   カスタムフォームの名前は、オブジェクトにカスタムフォームがアタッチされている場合にのみ表示されます。
 
    * 財務
 
    >[!TIP]
    >
-   >「詳細」領域に表示されるすべてのフィールドの詳細については、下の「テンプレートを編集」ボックスを使用して、すべてのフィールドを編集し続けます。
+   >詳細エリアに表示されるすべてのフィールドについては、以下のテンプレートの編集ボックスを使用したすべてのフィールドの編集に進みます。
 
-1. （条件付き）テンプレートに関するすべての情報を編集するには、 **その他** メニュー ![](assets/qs-more-icon-on-an-object.png) テンプレート名の横にある「 」をクリックし、 **編集**.
+1. （条件付き）テンプレートに関するすべての情報を編集するには、テンプレート名の横にある&#x200B;**その他**&#x200B;メニューアイコン ![](assets/qs-more-icon-on-an-object.png)、「**編集**」の順にクリックします。
 
-   The **テンプレートを編集** ボックスが開きます。 このボックスの各セクションには、「テンプレートの詳細」セクションで使用できるのと同じフィールドが含まれています。
+   **テンプレートの編集**&#x200B;ボックスが開きます。このボックスの各セクションには、「テンプレートの詳細」セクションで使用できるフィールドと同じフィールドが含まれています。
 
-1. 次のセクションのいずれかで、情報の編集を検討します。
+1. 以下のセクションのいずれかで、情報の編集を検討します。
 
    * [テンプレート名](#template-name)
    * [概要](#overview-preview)
-   * [金融](#finance-preview)
+   * [財務](#finance-preview)
    * [カスタムフォーム](#custom-forms-preview)
    * [プロジェクト設定](#project-settings)
    * [タスク設定](#task-settings)
-   * [問題の設定](#issue-settings)
+   * [問題設定](#issue-settings)
    * [アクセス](#access-preview)
 
 
 ### テンプレート名{#template-name}
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. Adobe Analytics の **テンプレートを編集** ボックス、 **テンプレート名**.
+1. **テンプレートの編集**&#x200B;ボックスで、「**テンプレート名**」をクリックします。
 1. （オプション）変更する情報に応じて、以降のセクションの編集を続けます
 
    または
@@ -605,7 +605,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 概要 {#overview-preview}
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. Adobe Analytics の **テンプレートを編集** ボックス、 **概要**.
+1. 「**テンプレートを編集**」ボックス内で、**概要**&#x200B;をクリックします。
 
    ![](assets/edit-template-box-overview-section.png)
 
@@ -621,76 +621,76 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr> 
          <tr> 
          <td role="rowheader"><strong>優先度</strong></td> 
-         <td><p>これは、将来のプロジェクトに優先順位を付けることができる視覚的なフラグです。 次のオプションから選択します。</p> 
+         <td><p>これは、将来のプロジェクトに優先順位を付けるための単なる視覚的なフラグです。次のオプションから選択します。</p> 
          <ul> 
          <li><p><strong>なし</strong></p></li> 
          <li><p><strong>低</strong></p></li> 
          <li><p><strong>標準</strong></p></li> 
          <li><p><strong>高</strong></p></li> 
          <li><p><strong>緊急</strong></p></li> 
-         </ul><p><p>Workfront管理者が選択したプロジェクトの環境設定によっては、優先度の名前が異なる場合があります。 優先度の編集の詳細については、「 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成とカスタマイズ</a>.</p></p></td> 
+         </ul><p><p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成およびカスタマイズ</a>を参照してください。</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
-         <td>このテンプレートに関する情報に関する Web リンクを指定します。</td> 
+         <td>このテンプレートに関する情報に関連する web リンクを指定します。</td> 
        </tr>
        <tr> 
        <td role="rowheader"><strong>状況タイプ</strong></td> 
-       <td><p>次の条件タイプの中から選択します。</p> 
+       <td><p>次の状況タイプの中から選択します。</p> 
          <ul> 
-         <li><strong>手動：</strong> プロジェクト所有者は、プロジェクトの条件を手動で設定します。 <strong></strong></li> 
-         <li><strong>進捗状況ステータス：</strong> Workfrontは、クリティカルパス上のタスクの進捗状況ステータスに基づいて、今後のプロジェクトの条件を自動的に設定します。 進捗状況ステータスについて詳しくは、 <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">タスクの進捗状況ステータスの概要</a>.</li> 
+         <li><strong>手動：</strong>プロジェクト所有者は、プロジェクトに対して、プロジェクトの状況を手動で設定します。 <strong></strong></li> 
+         <li><strong>進捗ステータス：</strong>Workfront は、クリティカルパス上のタスクの進捗ステータスに基づいて、今後のプロジェクトの状況を自動的に設定します。進捗ステータスについて詳しくは、<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">タスクの進捗ステータスの概要</a>を参照してください。</li> 
        </ul>
          </td> 
          </tr> 
        <tr> 
          <td role="rowheader"><strong>スケジュールモード</strong></td> 
-         <td><p>このテンプレートを使用するプロジェクトを <strong>開始日</strong>、または <strong>完了日</strong>. この選択により、このテンプレートを使用するプロジェクトの今後のタスクの予定日が決まります。 </p><p>次の中から選択します。 </p> 
+         <td><p>このテンプレートを使用するプロジェクトを<strong>開始日</strong>からスケジュールするか、<strong>完了日</strong>からスケジュールするかを指定します。この選択により、このテンプレートを使用するプロジェクトの今後のタスクの予定日が決まります。 </p><p>次の中から選択します。 </p> 
        <ul> 
-       <li><p><strong>開始日からスケジュール</strong>：テンプレートの開始日は、実際には開始日です。 「開始日」からテンプレートをスケジュールする場合、Adobe Workfrontでは、すべてのテンプレートタスクの期間に基づいて、テンプレートの完了日が計算されます。 テンプレートの開始日が、将来のプロジェクトの計画開始日になります。</p></li> 
-       <li><p><strong>完了日からのスケジュール</strong>：テンプレートの完了日は、実際には完了日です。 「完了日」からテンプレートをスケジュールする場合、Workfrontでは、すべてのテンプレートタスクの期間に基づいて、テンプレートの開始日が計算されます。 テンプレートの「完了日」が、将来のプロジェクトの「計画完了日」になります。 </p></li> 
-       </ul><p>テンプレートタスクの開始日と終了日の詳細については、 <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">テンプレートの開始日と完了日の概要</a>. </p><p>テンプレートの「スケジュールを元にする」設定は、プロジェクトの設定と似ています。 Workfront管理者が、システム内のプロジェクトに対して、デフォルトの「スケジュールを元に戻す」設定を選択します。 プロジェクトの既定値の設定については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p></td> 
+       <li><p><strong>開始日からスケジュール</strong>：テンプレートの開始日は、実際の開始日です。「開始日」からテンプレートをスケジュールする場合、Adobe Workfront は、すべてのテンプレートタスクの期間に基づいて、テンプレートの完了日を計算します。テンプレートの開始日が、将来のプロジェクトの予定開始日になります。</p></li> 
+       <li><p><strong>完了日からスケジュール</strong>：テンプレートの完了日は、実際の完了日です。「完了日」からテンプレートをスケジュールする場合、Workfront は、すべてのテンプレートタスクの期間に基づいて、テンプレートの開始日を計算します。テンプレートの「完了日」が、将来のプロジェクトの「予定完了日」になります。 </p></li> 
+       </ul><p>テンプレートタスクの開始日と終了日について詳しくは、<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">テンプレートの開始日と完了日の概要</a>を参照してください。 </p><p>テンプレートのスケジュールの基点の設定は、プロジェクトの設定に似ています。Workfront 管理者は、システム内のプロジェクトのデフォルトのスケジュールの基点の設定を選択します。プロジェクトのデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定の指定</a>を参照してください。</p></td> 
        </tr>
 
    <tr> 
          <td role="rowheader"><strong>ポートフォリオ</strong></td> 
-         <td><p>このPortfolioから作成されるプロジェクトのテンプレートを指定します。 Portfolioは、ドロップダウンリストに表示される前に、最初に作成する必要があります。 </p><p>リストには、アクティブなポートフォリオのみが表示されます。 ポートフォリオの作成について詳しくは、 <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">ポートフォリオの作成 </a>.</p></td> 
+         <td><p>このテンプレートから作成されるプロジェクトのポートフォリオを指定します。ドロップダウンリストに表示される前に、まずポートフォリオを作成する必要があります。 </p><p>アクティブなポートフォリオのみが、リストに表示されます。ポートフォリオの作成について詳しくは、<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">ポートフォリオの作成</a>を参照してください。</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>プログラム</strong></td> 
-         <td><p>テンプレートのPortfolioを選択した場合は、 <strong>プログラム</strong> 将来のプロジェクトのために。 一部のPortfolioにはプログラムがない可能性があります。 このドロップダウンリストに表示される前に、最初にプログラムを作成する必要があります。 リストには、アクティブなプログラムのみが表示されます。</p><p>プログラムの作成の詳細については、「 <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">プログラムの作成</a>.</p></td> 
+         <td><p>テンプレートにポートフォリオを選択した場合、将来のプロジェクトのために<strong>プログラム</strong>を指定します。一部のポートフォリオにはプログラムがない可能性があります。このドロップダウンリストに表示される前に、最初にプログラムを作成する必要があります。リストには、アクティブなプログラムのみが表示されます。</p><p>プログラムの作成の詳細については、<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">プログラムの作成</a>を参照してください。</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>グループ</strong></td> 
-         <td><p>ドロップダウンリストで、テンプレートから作成されたプロジェクトに関連付けるグループを選択します。 任意のレベルのグループにすることができます。 </p><p>適切なグループを選択していることを確認するには、グループにカーソルを移動して、情報アイコンをクリックします。 <img src="assets/info-icon.png"> その横に表示されます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p><b>メモ</b>
+         <td><p>ドロップダウンリストで、テンプレートから作成されたプロジェクトに関連付けるグループを選択します。任意のレベルのグループにできます。 </p><p>適切なグループを選択していることを確認するには、グループにポインタを合わせて、その横に表示される情報アイコン <img src="assets/info-icon.png"> をクリックします。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p><b>メモ</b>
 
    <ul> 
-       <li><p>グループのページの [ プロジェクト ] 領域で、グループが選択されていないテンプレートを使用してプロジェクトを作成すると、現在開いているグループがプロジェクトに関連付けられます。</p><p>これは、グループが選択されていないテンプレートを使用してプロジェクトを作成する際に、ユーザのホームグループがプロジェクトに関連付けられる他の領域とは異なります。</p></li> 
+       <li><p>グループのページのプロジェクトエリアで、グループが選択されていないテンプレートを使用してプロジェクトを作成すると、現在開いているグループがプロジェクトに関連付けられます。</p><p>これは、グループが選択されていないテンプレートを使用してプロジェクトを作成する際に、システムがユーザーのホームグループとプロジェクトを関連付けるその他のエリアとは異なります。</p></li> 
        <li><p>プロジェクトの作成時、またはタスクやイシューのプロジェクトへの変換時に、グループが選択されたテンプレートを選択した場合は、別のグループをプロジェクト用に選択できます。</p></li> 
-       <li>このフィールドは、新しいAdobe Workfrontエクスペリエンスでのみテンプレートで使用できますが、テンプレートでは、Adobe Classic とAdobe Workfront Classic の両方のリストとレポートで表示できます。 </li> 
+       <li>このフィールドは、テンプレートでは新しい Adobe Workfront エクスペリエンスでのみ使用できますが、リストとレポートでは、新しい Adobe Workfront エクスペリエンスおよび Adobe Workfront Classic の両方で表示できます。 </li> 
          </ul> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>会社</strong></td> 
-         <td><p>テンプレートに関連付ける会社を指定します。 アクティブな会社のみがリストに表示されます。</p></td> 
+         <td><p>テンプレートに関連付ける会社を指定します。アクティブな会社のみがリストに表示されます。</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>テンプレート所有者</strong></td> 
-         <td><p>テンプレート所有者として指定されたユーザーは、Workfrontのアクティブなユーザーである必要があります。 </p><p>テンプレート所有者として指定されたユーザーについて、以下の点に注意してください。 </p> 
+         <td><p>テンプレート所有者として指定されたユーザーは、Workfront のアクティブなユーザーである必要があります。 </p><p>テンプレート所有者として指定されたユーザーについて、以下の点に注意してください。 </p> 
          <ul> 
          <li>テンプレートに対する管理権限が自動的に付与されます。 </li> 
-         <li>これらはプロジェクトチームに追加され、テンプレートから作成されたプロジェクトに対する管理権限が自動的に付与されます。 </li> 
-         <li>プロジェクトをこのテンプレートから作成すると、プロジェクト所有者になります。 </li> 
+         <li>このユーザーは、プロジェクトチームに追加され、テンプレートから作成されたプロジェクトに対する管理権限が自動的に付与されます。 </li> 
+         <li>プロジェクトをこのテンプレートから作成すると、このユーザーはプロジェクト所有者になります。 </li> 
          <li> テンプレート所有者として指定されたユーザーが、自分のアクセスレベルからテンプレートまたはプロジェクトに対する制限付きアクセス権を持っている場合、テンプレートおよびプロジェクトに対する管理権限は制限されます。 例えば、テンプレートまたはプロジェクトの表示アクセス権のみを持つユーザーは、テンプレート所有者に指定されると、テンプレートおよびプロジェクトに対する表示権限を自動的に受け取ります。</li>
          </ul></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>テンプレートスポンサー</strong></td> 
-         <td><p>このフィールドで指定したユーザーが、テンプレートがプロジェクトに追加されると、プロジェクトスポンサーになります。 このユーザーはプロジェクトチームに追加され、プロジェクトに対する表示権限が自動的に付与されます。 テンプレートスポンサーとして指定されたユーザーは、Workfrontのアクティブなユーザーである必要があります。 </p></td> 
+         <td><p>テンプレートがプロジェクトに追加されると、このフィールドで指定したユーザーはプロジェクトスポンサーになります。このユーザーはプロジェクトチームに追加され、プロジェクトに対する表示権限が自動的に付与されます。テンプレートスポンサーとして指定されるユーザーは、Workfront のアクティブなユーザーである必要があります。 </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>リソース管理者</strong></td> 
-         <td><p>指定したユーザーには、自動的に将来のプロジェクトに対する管理権限が付与され、プロジェクトのタスクや問題にリソースを割り当てることができます。 複数のリソースマネージャを指定できます。 </p></td> 
+         <td><p>指定したユーザーには、自動的に将来のプロジェクトに対する管理権限が付与され、プロジェクトのタスクやイシューにリソースを割り当てることができます。複数のリソースマネージャーを指定できます。 </p></td> 
        </tr> 
       </table>
 
@@ -703,7 +703,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### 財務 {#finance-preview}
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. Adobe Analytics の **テンプレートを編集** ボックス、 **金融**.
+1. 「**テンプレートを編集**」ボックスで、**財務**&#x200B;をクリックします。
 
    ![](assets/edit-template-box-finance-section.png)
 
@@ -715,7 +715,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <tbody>
        <tr> 
          <td role="rowheader"><strong> 通貨</strong></td> 
-         <td><p>システムのデフォルトの通貨と異なる場合は、将来のプロジェクトの通貨を指定します。 システムにデフォルトの通貨のみが存在する場合、このフィールドは表示されません。<br>通貨について詳しくは、 <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>.</p></td> 
+         <td><p>システムのデフォルトの通貨と異なる場合は、将来のプロジェクトの通貨を指定します。システムにデフォルトの通貨のみが存在する場合、このフィールドは表示されません。<br>通貨について詳しくは、<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p></td> 
        </tr>
        <tr> 
        <td role="rowheader"><strong>予算</strong></td> 
@@ -723,29 +723,29 @@ By editing issue settings, you can prevent users from adding issues inline in th
        </tr>  
        <tr> 
          <td role="rowheader"><strong>パフォーマンスインデックスメソッド</strong></td> 
-         <td><p>Workfrontが将来のプロジェクトの達成額指標を計算する方法を選択します。 次の中から選択します。
+         <td><p>Workfront が将来のプロジェクトの出来高指標を計算する方法を選択します。次の中から選択します。
          <ul>
          <li>時間ベース</li>
-         <li>コスト ベース</li>
+         <li>コストベース</li>
          </ul>
 
-   Performance Index メソッドの詳細については、「 <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">パフォーマンスインデックスメソッド (PIM) の設定</a>. </p></td>
+   パフォーマンスインデックスメソッドの詳細については、<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">パフォーマンスインデックスメソッド（PIM）の設定</a>を参照してください。 </p></td>
    </tr> 
          <tr> 
-         <td role="rowheader"><strong>予定便益</strong></td> 
-         <td><p>このテンプレートから作成されるプロジェクトの「計画特典」を指定します。 計画特典は、プロジェクトのビジネス事例とPortfolio・オプティマイザで使用されます。 </p><p>プロジェクトの計画的利益の詳細は、 <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">プロジェクト計画便益の概要</a>. プロジェクトの正味価値が計算される際には、プロジェクトの計画特典が考慮されます。 </p><p>Optimizer の使用の詳細については、「Portfolio・オプティマイザ」を参照してください。 <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Management Optimizer でのプロジェクトのPortfolio</a> </p></td> 
+         <td role="rowheader"><strong>予定利益</strong></td> 
+         <td><p>このテンプレートから作成されるプロジェクトの予定利益を指定します。予定利益は、プロジェクトのビジネスケースとポートフォリオオプティマイザーで使用されます。 </p><p>プロジェクトの予定利益について詳しくは、<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">プロジェクトの予定利益の概要</a>を参照してください。プロジェクトの正味価値が計算される際には、プロジェクトの予定利益が考慮されます。 </p><p>ポートフォリオオプティマイザーの使用の詳細については、<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">ポートフォリオオプティマイザーでのプロジェクトの管理</a>を参照してください。 </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>固定コスト</strong></td> 
-         <td><p>このテンプレートから作成されるプロジェクトの「固定コスト」を指定します。 これは、プロジェクトの時間に基づく人件費と、プロジェクトの費用の額に基づく費用コストとは異なります。 プロジェクトの固定コストは、プロジェクトの正味値を計算する際に考慮され、予算コストに含まれます。</p></td> 
+         <td><p>このテンプレートから作成されるプロジェクトの固定コストを指定します。これは、プロジェクトの時間に基づく労力コストと、プロジェクトの費用の額に基づく経費コストとは異なります。プロジェクトの固定コストは、プロジェクトの正味値を計算する際に考慮され、予算計上コストに含まれます。</p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>固定収益</strong></td> 
-       <td><p>このテンプレートから作成されるプロジェクトの固定売上高を指定します。</p></td> 
+       <td><p>このテンプレートから作成されるプロジェクトの固定収益を指定します。</p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>プロジェクト時間の承認</strong></td> 
-       <td><p>このオプションを選択すると、このテンプレートから作成される将来のプロジェクトのプロジェクト所有者が、プロジェクトにログオンした時間を承認する必要があります。 請求レコードを使用している場合、このオプションを選択すると、プロジェクトで承認された時間のみが請求レコードの請求可能時間として表示されます。 プロジェクトの承認時間は、タイムシートの承認とは無関係です。 プロジェクトで時間を承認する必要がある場合の詳細については、 <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">プロジェクトの承認に時間を要する</a>.</p></td> 
+       <td><p>このオプションを選択すると、このテンプレートで作成される今後のプロジェクトの所有者が、プロジェクトにログオンした時間を承認する必要があります。請求記録を使用している場合、このオプションを選択すると、プロジェクトで承認された時間のみが請求記録の請求可能時間として表示されます。プロジェクトの承認時間は、タイムシートの承認とは無関係です。プロジェクトで時間を承認する必要がある場合については詳しくは、<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">プロジェクトの承認に要する時間</a>を参照してください。</p></td> 
        </tr> 
        </tbody> 
       </table>
@@ -759,25 +759,25 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### カスタムフォーム {#custom-forms-preview}
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. Adobe Analytics の **テンプレートを編集** ボックス、 **カスタムForms**.
+1. **テンプレートを編集**&#x200B;ボックスで、「**カスタムフォーム**」をクリックします。
 
    ![](assets/edit-template-box-custom-forms-section.png)
 
    テンプレートに既に添付されているカスタムフォームの名前が左のパネルに表示されます。
 
-1. 内側をクリック **カスタムフォームを追加** フィールドに入力し、テンプレートに関連付けるカスタムフォームを選択します。 カスタムフォームをこのフィールドで選択できるようにするには、事前にカスタムフォームを作成する必要があります。
+1. 「**カスタムフォームを追加**」フィールドの中をクリックして、テンプレートに関連付けるカスタムフォーム（複数可）を選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。
 
-   リストには、アクティブなカスタムフォームのみが表示されます。 カスタムフォームの作成について詳しくは、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
-   1 つのテンプレートには、最大 10 個のカスタムフォームを追加できます。
+   1 つのテンプレートに最大 10 個のカスタムフォームを追加できます。
 
    フォームは、このテンプレートから作成されるプロジェクトに追加されます。
 
-1. （オプション）カスタムフォームの任意のフィールドの情報を更新します。 この情報は、テンプレートから作成されるプロジェクトに転送されます。
+1. （オプション）カスタムフォームの任意のフィールドの情報を更新します。この情報は、テンプレートから作成されるプロジェクトに転送されます。
 
-1. （オプション） **x** カスタムフォーム名の右にあるアイコンをクリックし、 **削除** をクリックして、テンプレートから削除します。
+1. （オプション）カスタムフォーム名の右にある「**x**」アイコン、「**削除**」の順にクリックし、カスタムフォームをテンプレートから削除します。
 
-1. （オプション）変更する情報に応じて、次のセクションを引き続き編集します。
+1. （オプション）変更する情報に応じて、以降のセクションを引き続き編集します。
 
    または
 
@@ -786,7 +786,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### プロジェクト設定 {#project-settings}
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. Adobe Analytics の **テンプレートを編集** ボックス、 **プロジェクト設定**.
+1. **テンプレートを編集**&#x200B;ボックスで、「**プロジェクト設定**」をクリックします。
 
    ![](assets/edit-template-box-project-settings-section.png)
 
@@ -797,112 +797,112 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <col> 
        <tbody> 
        <tr> 
-       <td role="rowheader"><strong>マイルストーンのパス</strong> </td> 
-       <td> <p>テンプレートのマイルストーンパスを選択します。 アクティブなマイルストーンパスのみがリストに表示されます。<br>マイルストーンパスの詳細については、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">マイルストーンパスを作成する</a>.</p> </td> 
+       <td role="rowheader"><strong>マイルストーンパス</strong> </td> 
+       <td> <p>テンプレートのマイルストーンパスを選択します。アクティブなマイルストーンパスのみがリストに表示されます。<br>マイルストーンパスについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">マイルストーンパスの作成</a>を参照してください。</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>完了モード</strong> </td> 
-         <td> <p>今後のプロジェクトを完了としてマークする方法を制御します。 <br>次のオプションから選択します。</p> 
+         <td> <p>今後のプロジェクトを完了としてマークする方法を制御します。<br>次のオプションから選択します。</p> 
          <ul> 
-         <li> <p><strong>自動</strong>：すべてのタスクと問題が完了すると、プロジェクトは「完了」とマークされます。</p> </li> 
-         <li> <p><strong>手動</strong>：すべてのタスクと問題が完了したら、プロジェクトの完了ステータスを手動で選択する必要があります。 </p> </li> 
+         <li> <p><strong>自動</strong>：すべてのタスクとイシューが完了すると、プロジェクトは「完了」とマークされます。</p> </li> 
+         <li> <p><strong>手動</strong>：すべてのタスクとイシューが完了したら、プロジェクトの「完了」のステータスを手動で選択する必要があります。 </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>概要完了モード</strong> </td> 
-       <td> <p>将来のプロジェクトの親タスクを [ 完了 ] としてマークする方法を制御します。 <br>次のオプションから選択します。</p> 
+       <td> <p>将来のプロジェクトの親タスクを「完了」としてマークする方法を制御します。<br>次のオプションから選択します。</p> 
        <ul> 
-       <li> <p><strong>自動</strong>：親タスクは「完了」とマークされ、子タスクが完了し、子タスクの完了率が更新されると、親タスクの完了率が自動的に更新されます。 </p> </li> 
+       <li> <p><strong>自動</strong>：親タスクは「完了」とマークされ、子タスクが完了してその完了率が更新されると、親タスクの完了率が自動的に更新されます。 </p> </li> 
        <li> <p><strong>手動</strong>：子タスクに加えられた変更に関係なく、完了率と親タスクのステータスを手動で更新する必要があります。 </p> </li> 
        </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>更新タイプ</strong> </td> 
-         <td> <p>将来のプロジェクトのタイムラインに対して行った変更を、プロジェクトに保存するタイミングを制御します。 </p> 
-         <b>例 </b> 
-         <p>プロジェクトトリガーに対する次の変更と、プロジェクトのタイムラインへの更新：</p> 
+         <td> <p>将来のプロジェクトのタイムラインに対して行った変更がプロジェクトに保存されるタイミングを制御します。 </p> 
+         <b>例</b> 
+         <p>プロジェクトに対する次の変更が、プロジェクトのタイムラインへの更新をトリガーします。</p> 
          <ul> 
-         <li> <p>タスクの日付を更新</p> </li> 
-         <li> <p>前任者関係を変更する<br></p> </li> 
+         <li> <p>タスクの日付を更新する</p> </li> 
+         <li> <p>先行タスク関係を変更する<br></p> </li> 
          <li> <p>親子関係を変更する</p> </li> 
-         <li> <p>タスクの制約や期間の種類の変更に加えて、割り当てを追加または削除します。</p> </li> 
+         <li> <p>タスクの制約または期間タイプの変更に加えて、割り当てを追加または削除する</p> </li> 
          </ul> 
          </div> <p>次のオプションから選択します。<br></p> 
          <ul> 
-         <li> <p><strong>自動および変更時</strong> （デフォルト設定）：プロジェクト内またはタイムラインが依存する別のプロジェクト内で変更が発生するたびに、将来のプロジェクトタイムラインが更新されます（変更時）。 また、プロジェクトのタイムラインは毎晩更新されます（自動）。<br>プロジェクトタイムラインが常に最新であることを確認するので、このフィールドではこの設定をお勧めします。<br>タイムラインの再計算をトリガーにするタスクまたはプロジェクトに対してアクションを実行すると、使用可能なすべての日付が直ちに表示され、作業を続行できます。 タスクが 100 を超えるプロジェクトでは、再計算に時間がかかる日付が疑問符（1～5 秒、大きなプロジェクトの場合は 1 分まで）として表示されます。 これは、再計算がまだ完了しておらず、日付が変更される可能性があることを示しています。<br></p> </li> 
+         <li> <p><strong>自動および変更時</strong>（デフォルト設定）：プロジェクトのタイムラインは、プロジェクト内またはプロジェクトが依存する別のプロジェクト内で変更が発生するたびに更新されます（変更時）。また、プロジェクトのタイムラインは毎晩更新されます（自動）。<br>プロジェクトタイムラインが常に最新であることが保証されるため、このフィールドではこの設定が推奨されています。<br>タイムラインの再計算をトリガーするタスクまたはプロジェクトに対してアクションを実行すると、使用可能なすべての日付が直ちに表示され、作業を続行できます。タスクが 100 を超えるプロジェクトでは、再計算に時間がかかる日付が疑問符で短時間（1 から 5 秒、大きなプロジェクトの場合は最大 1 分）のみ表示されます。これは、再計算がまだ完了しておらず、日付が変更される可能性があることを示しています。<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>変更のみ</strong>：プロジェクトタイムラインは、プロジェクト内、またはタイムラインが依存する別のプロジェクト内で変更が発生するたびに更新されます。 プロジェクトや、タイムラインが依存する他のプロジェクトで変更がほとんど発生しない場合は、このオプションを選択できます。<br></p> </li> 
+         <li> <p><strong>変更時のみ</strong>：プロジェクトのタイムラインは、プロジェクト内またはプロジェクトが依存する別のプロジェクト内で変更が発生するたびに更新されます。プロジェクト内、またはタイムラインが依存する他のプロジェクト内で変更がほとんど発生しない場合は、このオプションを選択できます。<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>自動のみ</strong>：プロジェクトタイムラインは毎晩更新されます。変更を加えてもすぐには更新されません。<br>プロジェクトまたはタイムラインが依存する他のプロジェクトで毎日多くの変更が発生する場合に、このオプションを選択できます。 ただし、変更を加えてもプロジェクトは更新されないので、この設定を選択したことに注意してください。<br></p> </li> 
+         <li> <p><strong>自動のみ</strong>：プロジェクトタイムラインは毎晩更新されます。変更を加えても即時更新されません。<br>プロジェクト内またはタイムラインが依存する他のプロジェクト内で毎日多くの変更が発生する場合は、このオプションを選択します。ただし、変更を加えてもプロジェクトがすぐに更新されないので、この設定を選択した場合は注意が必要です。<br></p> </li> 
          </ul> 
          <ul> 
-         <li> <p><strong>手動のみ</strong>：プロジェクトタイムラインは、「タイムラインを再計算」オプションを選択した場合にのみ更新されます。詳しくは、 <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">プロジェクトタイムラインを再計算</a>.<br></p> </li> 
-         </ul> <p>一度に多くの変更を加え、個々の変更の後ではなく、すべての変更が行われた後にタイムラインの再計算を行う場合は、このオプションを選択します。</p> </td> 
+         <li> <p><strong>手動のみ</strong>：プロジェクトタイムラインは、「タイムラインを再計算」オプションを選択した場合にのみ更新されます（<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">プロジェクトタイムラインの再計算</a>を参照）。<br></p> </li> 
+         </ul> <p>プロジェクトに一度に多くの変更を加え、個々を変更した後ではなくすべての変更が行われた後でタイムラインの再計算を実行する場合は、このオプションを選択できます。</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>スケジュール</strong> </td> 
-         <td> <p>テンプレートのスケジュールを選択します。 これは、このテンプレートから作成されるプロジェクトのスケジュールになります。 これは、プロジェクトで作業しているほとんどの人に割り当てられたのと同じスケジュールである必要があります。 スケジュールをテンプレートに割り当てるには、スケジュールを作成する必要があります。<br>スケジュールの作成について詳しくは、 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>. <br>システムでカスタムスケジュールを作成していない場合は、「デフォルトスケジュール」(Default Schedule) が選択されます。 </p> </td> 
+         <td> <p>テンプレートのスケジュールを選択します。これは、このテンプレートから作成されるプロジェクトのスケジュールになります。これは、プロジェクトで作業しているほとんどの人に割り当てられているスケジュールと同じである必要があります。スケジュールをテンプレートに割り当てるには、スケジュールを作成する必要があります。<br>スケジュールの作成について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>を参照してください。<br>システムでカスタムスケジュールを作成していない場合は、デフォルトのスケジュールが選択されます。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>ユーザーのタイムオフ</strong> </td> 
-         <td> <p>タスクのプライマリ担当者のタイムオフで、タスクの予定日を調整するかどうかを指定します。 テンプレートを既存のプロジェクトにアタッチし、このフィールドの設定がプロジェクトとは異なる場合、プロジェクトの設定は変更されません。 新しいテンプレートに対するこの設定の既定のオプションは、システムレベルのプロジェクト環境設定と同じです。 </p> <p>システムレベルでのプロジェクトのプリファレンスについては、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>. </p> <p>この設定がプロジェクトのタスク日に与える影響については、 <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">プロジェクトを編集</a>.<br>次のオプションから選択します。<br></p> 
+         <td role="rowheader"><strong>ユーザーの休暇</strong> </td> 
+         <td> <p>タスクのプライマリ担当者の休暇によって、そのプロジェクトのタスクの予定日を調整するかどうかを指定します。テンプレートを既存のプロジェクトに添付すると、このフィールドの設定がプロジェクトとは異なる場合、プロジェクトの設定は変更されません。新しいテンプレートに対するこの設定のデフォルトのオプションは、システムレベルのプロジェクト環境設定と同じです。 </p> <p>システムレベルでのプロジェクト環境設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>を参照してください。 </p> <p>この設定がプロジェクトのタスク日に与える影響については、<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">プロジェクトの編集</a>を参照してください。<br>次のオプションから選択します。<br></p> 
          <ul> 
-         <li> <p><strong>タスク期間でのユーザーのオフ時間を考慮する</strong>：このオプションを選択すると、タスクの期間中にタスクの休暇が発生した場合、このテンプレートから作成されるプロジェクトのプライマリの予定日がタスクの担当者の期間に応じて調整されます。 </p> </li> 
-         <li> <p><strong>タスク期間のユーザーのオフ時間を無視する</strong>：このオプションを選択すると、タスクのプライマリ担当者がタスクの期間中に休暇を取った場合でも、このテンプレートから作成されるプロジェクトのタスクの計画日は、元の計画済みのままになります。 </p> </li> 
+         <li> <p><strong>タスク継続期間中のユーザーの休暇を考慮する</strong>：このオプションを選択すると、このテンプレートから作成されたプロジェクトのタスクの予定日は、タスクのプライマリ担当者の休暇がタスクの期間中に発生した場合に、その休暇に応じて調整されます。 </p> </li> 
+         <li> <p><strong>タスク継続期間中のユーザーの休暇を無視する</strong>：このオプションを選択すると、タスクのプライマリ担当者がタスクの期間中に休暇を取った場合でも、このテンプレートから作成されるプロジェクトのタスクの計画日は、元の計画済みのままになります。 </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>リソースの平準化モード</strong> </td> 
+         <td role="rowheader"><strong>リソースの標準化モード</strong> </td> 
          <td> <p>次のオプションから選択します。<br></p> 
          <ul> 
-         <li> <p><strong>手動</strong>：このテンプレートから作成されたプロジェクトに対して、リソースを手動でレベル設定する必要があります（これがデフォルト設定です）。</p> </li> 
-         <li> <p><strong>自動：</strong> Workfrontは、将来のプロジェクトに関するリソースレベルを設定します。 <br>リソースの平準化の詳細については、「 <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">ガントチャートのリソースのレベル設定 </a>. </p> </li> 
+         <li> <p><strong>手動</strong>：このテンプレートから作成されたプロジェクトに対して、リソースを手動で標準化する必要があります（これはデフォルト設定です）。</p> </li> 
+         <li> <p><strong>自動</strong>：Workfront が将来のプロジェクトに関するリソースを標準化します。<br>リソースの標準化について詳しくは、<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">ガントチャートでのリソースの標準化</a>を参照してください。 </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>リスク</strong> </td> 
-         <td> <p>このテンプレートから作成されるプロジェクトのリスクレベルを定義します。 リスクは、プロジェクトがどの程度リスクが高いかを示す指標に過ぎません。 リスクのレベルに基づいて、プロジェクトの実行を優先順位付けできます。<br>次のリスクレベルから選択することを検討します。<br></p> 
+         <td> <p>このテンプレートから作成されるプロジェクトのリスクレベルを定義します。リスクは、プロジェクトの危険性を示す指標に過ぎません。リスクのレベルに基づいて、プロジェクトに優先順位を付けて実行できます。<br>次のリスクレベルから選択することを検討します。<br></p> 
          <ul> 
-         <li> <p><strong>非常に低い</strong> </p> </li> 
+         <li> <p><strong>極低</strong> </p> </li> 
          <li> <p><strong>低</strong> </p> </li> 
          <li> <p><strong>中</strong> </p> </li> 
          <li> <p><strong>高</strong> </p> </li> 
-         <li> <p><strong>高画質</strong> </p> </li> 
+         <li> <p><strong>極高</strong> </p> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>リソース プール</strong> </td> 
-         <td> <p>テンプレートに関連付けられた資源プールを指定します。 リソースプールとは、プロジェクトの完了に同時に必要なユーザーの集まりです。 リソースプールの詳細については、「 <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> リソースプールの概要 </a>.</p> <p> <p><b>メモ</b>
+         <td role="rowheader"><strong>リソースプール</strong> </td> 
+         <td> <p>テンプレートに関連付けられたリソースプールを指定します。リソースプールとは、プロジェクトを完了するために同時に必要になるユーザーの集まりです。リソースプールについて詳しくは、<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">リソースプールの概要</a>を参照してください。</p> <p> <p><b>メモ</b>
 
-   一括でテンプレートを編集する場合、選択したすべてのテンプレートに共通するリソースプールのみがこのフィールドに表示されます。 選択したテンプレートに共有リソースプールがない場合、このフィールドは空になります。 ここで指定したリソースプールは、テンプレートの個々のリソースプールを上書きします。</p> </p> </td>
+   テンプレートを一括で編集する場合は、選択したすべてのテンプレートに共通のリソースプールのみがこのフィールドに表示されます。選択したテンプレートに共有リソースプールがない場合、このフィールドは空になります。ここで指定したリソースプールは、テンプレートの個々のリソースプールを上書きします。</p> </p> </td>
    </tr>
        <tr> 
-         <td role="rowheader"><strong>時間タイプをフィルター</strong> </td> 
-         <td> <p>次の点に注意してください。</p> <p>選択 <strong>いいえ</strong> プロジェクト固有のすべての時間タイプを将来のプロジェクトで使用できるようにします。 （これはデフォルトの選択です）。</p> <p>または</p> <p>選択 <strong>はい</strong> 将来のプロジェクトで、プロジェクト固有の時間タイプのサブセットのみを使用可能にするには、使用可能にする時間タイプを選択します。 （複数の時間タイプを選択するには、Shift キーを押したままにします）。</p> <p>このオプションを選択した場合、選択した時間タイプのみが、プロジェクトでの時間（またはプロジェクト内のタスクと問題）のログ記録時に選択できます。 1 つ以上の時間タイプを選択する必要があります。このオプションを選択し、時間タイプを選択しない場合、すべての時間タイプがプロジェクトで使用可能になります。</p> <p>ユーザーがプロジェクト上でこれらの時間タイプのオプションを表示するには、同じ時間タイプを個々のユーザーレベルで選択する必要があります。 </p> <p>ユーザーレベルで時間タイプを定義する方法について詳しくは、「 <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">ログ時間</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">ログ時間</a>.</p> </td> 
+         <td role="rowheader"><strong>時間タイプのフィルター</strong> </td> 
+         <td> <p>次の点に注意してください。</p> <p>「<strong>いいえ</strong>」を選択して、プロジェクト固有のすべての時間タイプを今後のプロジェクトで使用できるようにします。（これはデフォルトの選択です）</p> <p>または</p> <p>「<strong>はい</strong>」を選択して、プロジェクト固有の時間タイプのサブセットのみを今後のプロジェクトで使用可能にしたうえで、使用できる時間タイプを選択します。（複数の時間タイプを選択するには、Shift キーを押しながら選択します）。</p> <p>このオプションを選択した場合は、選択した時間タイプのみが、プロジェクト（またはプロジェクト内のタスクやイシュー）の時間を記録する際に選択できるようになります。1 つ以上の時間タイプを選択する必要があります。このオプションを選択し、時間タイプを選択しない場合、すべての時間タイプがプロジェクトで使用可能になります。</p> <p>ユーザーがプロジェクトでこれらの時間タイプのオプションを表示するには、個々のユーザーレベルで同じ時間タイプの選択を行う必要があります。 </p> <p>ユーザーレベルでの時間タイプの定義について詳しくは、<a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">時間の記録</a>で<a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">時間の記録</a>の節を参照してください。</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>承認プロセス</strong> </td> 
-         <td> <p>テンプレートに関連付ける承認プロセスを選択します。 Workfront管理者または承認プロセスへの管理者アクセス権を持つユーザーは、テンプレートに関連付ける前に、システムレベルまたはグループレベルのプロジェクト承認プロセスを定義する必要があります。 承認プロセスの作成について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業項目の承認プロセスの作成</a>.</p> <p>承認プロセスを追加する際は、次の点を考慮してください。 </p> 
+         <td> <p>テンプレートに関連付ける承認プロセスを選択します。承認プロセスをテンプレートに関連付けるには、まず、Workfront 管理者または承認プロセスへの管理アクセス権を持つユーザーが、システムレベルまたはグループレベルのプロジェクト承認プロセスを定義する必要があります。承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスの作成</a>を参照してください。</p> <p>承認プロセスを追加する際は、次の点を考慮してください。 </p> 
          <ul> 
          <li>アクティブな承認プロセスのみがリストに表示されます。 </li> 
-         <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。 テンプレートの承認プロセス以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p><b>重要</b>
+         <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。テンプレートのグループ以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p><b>重要</b>
 
-   テンプレートに関連付けられているグループが変更されると、グループ固有の承認プロセスが単一使用の承認プロセスになります。 プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">グループと承認プロセスの変更が、割り当てられた承認プロセスに及ぼす影響</a>. </p> </li>
-   <li> <p>単一使用の承認プロセスを追加した場合、このフィールドには「カスタム」と表示されます。 詳しくは、 <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスを作業に関連付ける</a>. </p> 
+   テンプレートに関連付けられたグループが変更されると、グループ固有の承認プロセスが 1 回限りの承認プロセスになります。プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。 </p> </li>
+   <li> <p>1 回限りの承認プロセスを追加した場合は、このフィールドに「カスタム」として表示されます。詳しくは、<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスと作業の関連付け</a>を参照してください。 </p> 
          </li> 
-         <li> <p>テンプレートを一括編集する場合は、次のシナリオが考えられます。</p> 
+         <li> <p>テンプレートを一括編集する場合は、次のシナリオが存在します。</p> 
          <ul> 
             <li> <p>同じグループからテンプレートを選択すると、システムレベルとグループレベルの両方の承認プロセスがこのフィールドに表示されます。</p> </li> 
             <li> <p>異なるグループからテンプレートを選択すると、このフィールドにはシステムレベルの承認プロセスのみが表示されます。</p> </li> 
-            <li> <p>テンプレートに 1 回限りの承認プロセスが添付されている場合、選択したシステムレベルで置き換えられます。 </p> </li> 
+            <li> <p>いずれかのテンプレートに 1 回限りの承認プロセスが添付されている場合、選択したシステムレベルの承認プロセスに置き換えられます。 </p> </li> 
          </ul> </li> 
          </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>リマインダー通知</strong> </td> 
-         <td>今後のプロジェクトに関連付ける「リマインダー通知」を選択します。 このフィールドをテンプレートの編集中に表示するには、プロジェクトのリマインダー通知を設定する必要があります。 <br>リマインダー通知の設定の詳細については、 <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">リマインダー通知の設定</a>.</td> 
+         <td role="rowheader"><strong>リマインダ通知</strong> </td> 
+         <td>今後のプロジェクトに関連付けるリマインダー通知を選択します。テンプレートの編集時にこのフィールドを表示するには、プロジェクトのリマインダー通知を設定する必要があります。<br>リマインダー通知の設定について詳しくは、<a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">リマインダー通知の設定</a>を参照してください。</td> 
        </tr> 
        </tbody> 
       </table>
@@ -915,56 +915,56 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 テンプレートから作成されるプロジェクトに新しいタスクを追加する際に、すべての新しいタスクに関連付けるデフォルトを定義できます。
 
-これらの設定が新しいタスクの作成に与える影響について詳しくは、 [タスクの作成の概要](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+これらの設定が新しいタスクの作成に与える影響については、[タスクの作成の概要](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)を参照してください。
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. Adobe Analytics の **テンプレートを編集** ボックス、 **タスク設定**.
+1. **テンプレートの編集**&#x200B;ボックスで、「**タスクの設定**」をクリックします。
 
    ![](assets/edit-template-box-tax-settings-section.png)
 
-1. Adobe Analytics の **タスクのデフォルトの承認プロセス** ボックスで、このテンプレートから作成されたプロジェクトにタスクを追加する際に、すべての新しいタスクに関連付ける承認プロセスを選択します。 タスクをタスクに関連付ける前に、タスクの承認プロセスを作成する必要があります。 アクティブな承認プロセスのみがリストに表示されます。 承認プロセスの作成について詳しくは、 [承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-1. Adobe Analytics の **タスクのデフォルトのカスタムForms** ボックスで、このテンプレートから作成されたプロジェクトに追加する際に、すべての新しいタスクに関連付けるカスタムフォームまたはフォームを選択します。 カスタムフォームをこのフィールドで選択できるようにするには、事前にカスタムフォームを作成する必要があります。 リストには、アクティブなカスタムフォームのみが表示されます。 カスタムフォームの作成について詳しくは、 [カスタムFormsの作成](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
-1. （オプション）「 」を選択します。 **作業工数を使用してタスク計画時間を自動的に計算** テンプレートから作成されたプロジェクトで、計画時間ではなく作業時間を使用して、タスク作業量の管理を有効にする場合。
-1. （条件付きおよびオプション）「作業量を使用して計画時間を自動的に計算」を選択した場合は、ドロップダウン・メニューをクリックして作業量の各レベルの割合を更新します。 次の割合の値がデフォルトです。
+1. 「**タスク既定の承認プロセス**」ボックスで、このテンプレートで作成されたプロジェクトに新しいタスクを追加する場合に、すべての新しいタスクに関連付けるタスク承認プロセスを選択します。承認プロセスをタスクに関連付けるには、まず、タスクの承認プロセスを作成する必要があります。アクティブな承認プロセスのみがリストに表示されます。承認プロセスの作成について詳しくは、[承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。
+1. 「**タスクのデフォルトのカスタムフォーム**」ボックスで、このテンプレートから作成されたプロジェクトにカスタムフォーム（複数可）を追加する際に、すべての新しいタスクに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成の詳細については、[カスタムフォームの作成](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
+1. （オプション）テンプレートから作成されたプロジェクトで予定時間数ではなく作業量を使用してタスクを管理する場合は、「**作業量を使うとタスクの予定時間数を自動的に計算できます**」を選択します。
+1. （条件付きおよびオプション）「作業量を使うとタスクの予定時間数を自動的に計算できます」を選択した場合は、ドロップダウンメニューをクリックし、作業量の各レベルで割合を更新します。デフォルト値は以下のとおりです。
 
-   | 作業従事レベル | 割合 (%) |
+   | 作業量レベル | 割合（%） |
    |---|---|
    | 小 | 25% |
    | 中 | 50% |
    | 大 | 75% |
 
-   作業量を使用してプロジェクトのタスクに関する作業を管理する方法については、「 [作業量の概要](../../../manage-work/tasks/task-information/work-effort.md).
+   作業量を使用してプロジェクトのタスクでの取り組みを管理する方法について詳しくは、[作業量の概要](../../../manage-work/tasks/task-information/work-effort.md)を参照してください。
 
-1. （オプション）変更する情報に応じて、次のセクションを引き続き編集します。
+1. （オプション）変更する情報に応じて、以降のセクションを引き続き編集します。
 
    または
 
    「**保存**」をクリックします。
 
-### 問題設定 {#issue-settings}
+### イシュー設定 {#issue-settings}
 
-イシュー設定を編集することで、ユーザーがテンプレートから作成される将来のプロジェクトでイシューをインラインで追加するのを防ぐことができます。
+イシューの設定を編集することで、テンプレートから作成される今後のプロジェクトで、ユーザーがイシューをインラインで追加するのを防ぐことができます。
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. Adobe Analytics の **テンプレートを編集** ボックス、 **問題の設定**.
+1. 「**テンプレートを編集**」ボックスで、「**問題設定**」をクリックします。
 
    ![](assets/edit-template-box-issue-settings-section.png)
 
-1. （オプション） **ユーザーがイシューをインラインで追加することを許可** オプション。 これはデフォルトで有効になっています。
+1. （オプション）「**ユーザーがインラインで問題を追加できるようにする**」オプションの選択を解除します。これはデフォルトで有効になっています。
 
-   このオプションを無効にすると、プロジェクトがテンプレートから作成されている場合、ユーザーは、プロジェクトまたは「問題」セクションのタスクにイシューをインラインで追加できません。
+   このオプションを無効にすると、プロジェクトがテンプレートから作成されている場合に、ユーザーは「問題」セクションのタスクやプロジェクトにインラインでイシューを追加できません。
 
    >[!TIP]
    >
-   >ユーザーが新しい問題に関連する新しい問題フィールドやカスタムフォームを入力するように強制する場合は、このオプションを無効にします。
+   >「新しい問題」フィールドや、新しいイシューに関連付けられたカスタムフォームへの入力をユーザーに強制する場合は、このオプションを無効にします。
 
-   このオプションを無効にすると、テンプレートから作成されたプロジェクトにイシューを追加する権限を持つユーザーは、「新しいイシュー」ボタンまたはプロジェクトに関連付けられたリクエストキューを使用して追加できます。
+   このオプションを無効にすると、テンプレートから作成されたプロジェクトにイシューを追加する権限を持つユーザーは、「新しい問題」ボタンまたはプロジェクトに関連付けられたリクエストキューを使用してイシューを追加することができます。
 
-   プロジェクトの問題設定の詳細については、 [問題の設定](../../../manage-work/projects/manage-projects/edit-projects.md#issue) 記事のセクション [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).
+   プロジェクトでのイシューの設定について詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)の記事にある[イシューの設定](../../../manage-work/projects/manage-projects/edit-projects.md#issue)のセクションを参照してください。
 
-   プロジェクトでの問題の作成について詳しくは、 [イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md).
+   プロジェクトでのイシューの作成について詳しくは、[イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。
 
-1. （オプション）変更する情報に応じて、次のセクションを引き続き編集します。
+1. （オプション）変更する情報に応じて、以降のセクションを引き続き編集します。
 
    または
 
@@ -973,45 +973,45 @@ By editing issue settings, you can prevent users from adding issues inline in th
 ### アクセス {#access-preview}
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
-1. Adobe Analytics の **テンプレートを編集** ボックス、 **アクセス**.
+1. 「**テンプレートを編集**」ボックスで「**アクセス**」をクリックします。
 
    ![](assets/edit-template-box-access-section.png)
 
-   テンプレートを使用してプロジェクトを作成すると、テンプレートに対して指定したアクセスが、プロジェクトに関連付けられたユーザーのアクセスになります。
+   テンプレートに指定したアクセス権は、テンプレートを使用してプロジェクトを作成する際に、プロジェクトに関連付けられたユーザーのアクセス権になります。
 
-   以下を指定します。 **アクセス** テンプレートの情報：
+   テンプレートについて、以下の&#x200B;**アクセス権**&#x200B;の情報を指定します。
 
    <table style="table-layout:auto"> 
        <col> 
        <col> 
        <tbody> 
        <tr> 
-         <td role="rowheader"><strong>誰かがタスクに割り当てられたとき</strong> </td> 
-         <td> <p>次から選択： <strong>表示</strong>, <strong>投稿、</strong> または <strong>管理</strong> タスクにアクセスします。 タスクに割り当てられたユーザーには、このタスクへのアクセス権が自動的に付与されます。 </p> </td> 
+         <td role="rowheader"><strong>ユーザーがタスクに割り当てられた場合</strong> </td> 
+         <td> <p>タスクへのアクセス権を、「<strong>表示</strong>」、「<strong>参加</strong>」、「<strong>管理</strong>」から選択します。タスクに割り当てられたユーザーには、タスクへのこのアクセス権が自動的に付与されます。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>プロジェクトへのアクセス権も付与</strong> </td> 
-         <td> <p> 次から選択： <strong>表示</strong>, <strong>Contribute</strong>または <strong>管理</strong> プロジェクトにアクセスします。 タスクに割り当てられたユーザーにも、プロジェクトへのこのアクセス権が自動的に付与されます。 </p> </td> 
+         <td> <p> プロジェクトへのアクセス権を、「<strong>表示</strong>」、「<strong>参加</strong>」、「<strong>管理</strong>」から選択します。タスクに割り当てられたユーザーにも、プロジェクトへのこのアクセス権が自動的に付与されます。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>誰かが問題に割り当てられたとき</strong> </td> 
-         <td> <p>次から選択： <strong>表示</strong>, <strong>投稿、</strong> または <strong>管理</strong> イシューにアクセスする。 イシューに割り当てられたユーザーには、そのイシューに対するこのアクセス権が自動的に付与されます。 </p> </td> 
+         <td role="rowheader"><strong>ユーザーがタスクに割り当てられた場合</strong> </td> 
+         <td> <p>イシューへのアクセス権を、「<strong>表示</strong>」、「<strong>参加</strong>」、「<strong>管理</strong>」から選択します。イシューに割り当てられたユーザーには、そのイシューに対するこのアクセス権が自動的に付与されます。 </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>プロジェクトへのアクセス権も付与</strong> </td> 
-         <td> <p> 次から選択： <strong>表示</strong>, <strong>Contribute</strong>または <strong>管理</strong> プロジェクトにアクセスします。 イシューに割り当てられたユーザーにも、プロジェクトへのアクセス権が自動的に付与されます。 </p> </td> 
+         <td> <p> プロジェクトへのアクセス権に関するアクションを、<strong>表示</strong>、<strong>参加</strong>、<strong>管理</strong>から選択します。イシューに割り当てられたユーザーにも、プロジェクトへのこのアクセス権が自動的に付与されます。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>誰かがリクエストを送信したとき：アクセス権を付与</strong> </td> 
-         <td> <p> 次から選択： <strong>表示</strong>, <strong>Contribute</strong>または <strong>管理</strong> リクエストにアクセスします。 プロジェクトにリクエストを送信すると、送信したリクエストに対してこのアクセス権が付与されます。 詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有 </a>.</p> </td> 
+         <td role="rowheader"><strong>誰かがリクエストを送信した場合：アクセス権を付与</strong> </td> 
+         <td> <p> リクエストのアクセス権に関するアクションを、<strong>表示</strong>、<strong>参加</strong>、<strong>管理</strong>から選択します。プロジェクトにリクエストを送信すると、送信したリクエストに対してこのアクセス権が付与されます。詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>同じ会社の担当者は、すべてのリクエストに対して同じ権限を継承します</strong> </td> 
-         <td> <p>同じ会社の担当者が、送信したかどうかに関わらず、プロジェクトのすべての要求に同じアクセス権を持つようにする場合は、このフィールドを選択します。</p> </td> 
+         <td role="rowheader"><strong>社内ユーザーは、すべてのリクエストに対して同じ権限を継承</strong> </td> 
+         <td> <p>同じ会社のユーザーが、リクエストを送信したかどうかに関わらず、プロジェクトのすべてのリクエストに同じアクセス権を持つようにする場合は、このフィールドを選択します。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>誰かがこのプロジェクトへのアクセス権を付与されたら：そのユーザーに…へのアクセス権を付与します。</strong> </td> 
-         <td> <p>プロジェクトがプロジェクトと共有されている場合に、ユーザーがプロジェクトに対して持つアクセスオプションを選択します。 ユーザーが <strong>ビューア</strong>, <strong>寄稿者</strong>または <strong>管理者</strong> プロジェクトを共有する際に使用します。 </p> </td> 
+         <td role="rowheader"><strong>誰かがこのプロジェクトへのアクセス権を付与された場合：そのユーザーに以下のアクセス権を付与</strong> </td> 
+         <td> <p>プロジェクトがユーザーと共有されている場合、ユーザーにそのプロジェクトで持たせたいアクセスオプションを選択します。ユーザーとプロジェクトを共有するときに、ユーザーが<strong>閲覧者</strong>、<strong>コントリビューター</strong>または<strong>管理者</strong>として指定されている場合は、ユーザーのアクセス権のために特定のオプションを選択します。 </p> </td> 
        </tr> 
        </tbody> 
       </table>
@@ -1024,95 +1024,95 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    変更がこのテンプレートに対して送信されます。
 
-   次に、このテンプレートを使用してプロジェクトを作成すると、これらの設定がすべて新しいプロジェクトに転送されます。
+   このテンプレートを使用してプロジェクトを作成すると、これらの設定はすべて新しいプロジェクトに転送されます。
 
 
-## テンプレートの一括編集
+## テンプレートを一括編集
 
 一括でテンプレートを編集し、それらのすべての情報を同時に更新できます。
 
-テンプレートを一括編集するには：
+テンプレートを一括編集するには、以下のように行います。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
 
-1. クリック **テンプレート**.
-1. リストから複数のテンプレートを選択します。
-1. クリック **編集**.
+1. 「**テンプレート**」をクリックします。
+1. リスト内の複数のテンプレートを選択します。
+1. 「**編集**」をクリックします。
 
-   The **テンプレートを編集** ダイアログボックスが開きます。
+   **テンプレートを編集**&#x200B;ダイアログボックスが開きます。
 
    ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 左側のセクションをクリックして、選択したすべてのテンプレートを編集します。
 
-   テンプレートに関する情報の編集について詳しくは、 [テンプレートの編集](#edit-a-template) 」の節を参照してください。
+   テンプレートに関する情報の編集について詳しくは、この記事の[テンプレートを編集](#edit-a-template)の節を参照してください。
 
 1. 「**変更を保存**」をクリックします。
 
-   これで、行った変更がすべて、選択したすべてのテンプレートに表示されます。
+   これで、行った変更のすべてが、すべての選択したテンプレートに表示されます。
 
-## テンプレートへのタスクの追加
+## テンプレートにタスクを追加
 
 テンプレートを作成し、テンプレート情報を編集した後、そのテンプレートにタスクを追加できます。
 
 テンプレートにタスクを追加する操作は、プロジェクトにタスクを追加する操作と似ています。
 
-プロジェクトへのタスクの追加の詳細については、「 [プロジェクトでのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+プロジェクトへのタスクの追加について詳しくは、[プロジェクトのタスクの作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
 
-テンプレートにタスクを追加すると、テンプレートの「期間」と「開始日」および「完了日」は、それに応じて変更されます。 テンプレートの開始日と完了日およびテンプレートタスクについて詳しくは、 [テンプレートの開始日と完了日の概要](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md).
+テンプレートにタスクを追加すると、テンプレートの期間と開始日および完了日は、それに応じて変更されます。テンプレートおよびテンプレートタスクの開始日と完了日について詳しくは、[テンプレートの開始日と完了日の概要](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)を参照してください。
 
-## テンプレートに項目を追加する
+## テンプレートに追加の項目を追加
 
-テンプレートを作成し、テンプレート情報を編集した後、さらに項目を追加できます。 追加した項目は、テンプレートから作成する際に、プロジェクトで使用できるようになります。
+テンプレートを作成し、テンプレート情報を編集した後、そのテンプレートにさらに項目を追加できます。追加した項目は、テンプレートからプロジェクトを作成する際に、プロジェクトで使用できるようになります。
 
-テンプレートに次の項目を追加する操作は、プロジェクトに追加する操作と同じです。
+テンプレートに以下の項目を追加する操作は、プロジェクトに追加する操作と同じです。
 
 * ドキュメント
-* 危険
+* リスク
 
-  リスクの作成の詳細については、 [プロジェクトのリスクの作成と編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)  記事のセクション [プロジェクトのリスクの作成と編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+  リスクの作成について詳しくは、[プロジェクトでのリスクの作成および編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)の記事にある[プロジェクトでリスクを作成および編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)の節を参照してください。
 
 * 承認プロセス
 
-  承認プロセスと作業の関連付けについて詳しくは、 [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  承認プロセスと作業の関連付けについて詳しくは、[新規または既存の承認プロセスの作業への関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)を参照してください。
 
-* 請求件の料率
+* 請求レート
 
-  プロジェクトの請求率の上書きの詳細は、 [ジョブ・ロール請求率の上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  プロジェクトの請求レートの上書きについて詳しくは、[担当業務の請求レートの上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
 
 * 費用
 
-  費用の追加について詳しくは、 [プロジェクト費用の管理](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  費用の追加について詳しくは、[プロジェクト費用の管理](../../../manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
 
 * トピックグループとキューのトピック
 
-  プロジェクトまたはテンプレートへのトピックグループおよびキュートピックの追加の詳細については、「 [リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  プロジェクトやテンプレートへのトピックグループおよびキュートピックの追加について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
-テンプレート内のタスクに次の項目を追加できます。
+テンプレート内のタスクに以下の項目を追加できます。
 
 * ドキュメント
 * 費用
 
-  費用の追加について詳しくは、 [プロジェクト費用の管理](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+  費用の追加について詳しくは、[プロジェクト費用の管理](../../../manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
 
 * 承認
 
-  作業への承認の関連付けについて詳しくは、「 [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+  承認の作業への関連付けについて詳しくは、[新規または既存の承認プロセスを作業に関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)を参照してください。
 
 
-## テンプレートのアクティブ化または非アクティブ化
+## テンプレートをアクティブ化または非アクティブ化
 
-テンプレートを非アクティブ化すると、ユーザーはテンプレートを見つけられず、そこからプロジェクトを作成できなくなります。 非アクティブ化されたテンプレートをプロジェクトに添付したり、プロジェクトの作成に使用したりすることはできません。
+ユーザーがテンプレートを見つけてそこからプロジェクトを作成できないようにしたい場合は、テンプレートを非アクティブ化することができます。非アクティブ化されたテンプレートをプロジェクトに添付したり、それを使用してプロジェクトを作成したりすることはできません。
 
-非アクティブ化されたテンプレートは、それらを使用して作成された既存のプロジェクトには影響しません。
+非アクティブ化されたテンプレートは、それを使用して作成された既存のプロジェクトには影響しません。
 
-テンプレートを非アクティブ化するには：
+テンプレートを非アクティブ化するには、以下のように行います。
 
-1. アクティブなテンプレートに移動し、 **その他** ![](assets/qs-more-icon-on-an-object.png) テンプレート名の横にあるメニューで、 **非アクティブ化**.
+1. アクティブなテンプレートに移動し、テンプレート名の横にある&#x200B;**その他** ![](assets/qs-more-icon-on-an-object.png) メニューをクリックし、続いて「**非アクティブ化**」をクリックします。
 
    ![](assets/deactivate-template-link-in-more-menu.png)
 
-   テンプレートがアクティブではなくなり、ユーザーはテンプレートからプロジェクトを作成するためのテンプレートが見つからなくなりました。
-1. （オプション）テンプレートをアクティブにするには、 **その他** ![](assets/qs-more-icon-on-an-object.png) テンプレート名の横にあるメニューで、 **有効化**.
+   このテンプレートはアクティブではなくなり、ユーザーはこのテンプレートからプロジェクトを作成できなくなりました。
+1. （オプション）テンプレートをアクティブにするには、テンプレート名の横にある&#x200B;**その他** ![](assets/qs-more-icon-on-an-object.png) メニューをクリックし、続いて「**アクティブ化**」をクリックします。
 
-   これで、テンプレートがアクティブになり、プロジェクトにアタッチしたり、プロジェクトの作成に使用したりできます。
+   これでテンプレートがアクティブになり、プロジェクトにアタッチしたり、プロジェクトの作成に使用したりできます。

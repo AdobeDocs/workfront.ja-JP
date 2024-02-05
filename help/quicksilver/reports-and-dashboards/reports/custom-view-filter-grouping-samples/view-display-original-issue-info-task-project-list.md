@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '表示：タスクとプロジェクトリストに元の問題情報を表示'
+title: 「ビュー：タスクとプロジェクトリストに元のイシュー情報を表示」
 description: 問題をリスト内のタスクとプロジェクトに変換した後、タスクとプロジェクトリストのビューに元の問題の情報を表示できます。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 4%
+source-wordcount: '134'
+ht-degree: 77%
 
 ---
 
-# 表示：タスクとプロジェクトの一覧に元の問題情報を表示します
+# ビュー：タスクとプロジェクトのリストに関する元のイシュー情報を表示
 
-問題をリスト内のタスクとプロジェクトに変換した後、タスクとプロジェクトリストのビューに元の問題の次の情報を表示できます。
+イシューをリスト内のタスクとプロジェクトに変換した後、タスクとプロジェクトリストのビューに元のイシューについて次の情報を表示できます。
 
 * 変換済みイシュー名
-* 変換済みのイシューのエントリ日
-* 変換された問題の発行者名
+* 変換済みイシューのエントリ日
+* 変換済みイシューの発信元名
 
-標準の Report Builder を使用したビューの作成について詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+標準の Report Builder を使用したビューの作成について詳しくは、[Adobe Workfront の概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-プロジェクトとタスクリストに関する追加の問題情報を含める方法の詳細については、「 [表示：タスクとプロジェクトの問題の詳細の発生元](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+プロジェクトとタスクリストに関する追加のイシュー情報を含める方法について詳しくは、[ビュー：タスクとプロジェクトの元のイシューの詳細](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
 source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 100%
 

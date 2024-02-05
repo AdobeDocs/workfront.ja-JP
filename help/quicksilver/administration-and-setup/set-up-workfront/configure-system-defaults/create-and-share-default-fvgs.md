@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: デフォルトのフィルター、ビュー、グループを作成、編集および共有します
-description: デフォルトのフィルター、ビューおよびグループを作成して、組織内のユーザーが使用できるようにすることができます。
+title: デフォルトのフィルター、ビュー、グループ化を作成、編集および共有
+description: デフォルトのフィルター、ビューおよびグループ化を作成すると、組織内のユーザーが使用できるようなります。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -11,19 +11,19 @@ exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
-# デフォルトのフィルター、ビュー、グループを作成、編集および共有します
+# デフォルトのフィルター、ビュー、グループ化を作成、編集および共有
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-デフォルトのフィルター、ビューおよびグループを作成して、組織内のユーザーが使用できるようにすることができます。
+デフォルトのフィルター、ビューおよびグループ化を作成すると、組織内のユーザーが使用できるようなります。
 
-この記事で説明するように、デフォルトのフィルター、ビューおよびグループを作成すると、共有相手のユーザーは、リストを表示する際にそれらを活用できます。 ユーザーは、作成したフィルター、ビューおよびグループに基づいて独自のフィルター、ビューおよびグループを作成できますが、作成したフィルター、ビューおよびグループを直接変更することはできません。
+この記事で説明するように、デフォルトのフィルター、ビューおよびグループ化を作成すると、共有相手のユーザーは、リストを表示する際にそれらを活用できます。ユーザーは、作成されたフィルター、ビューおよびグループに基づいて独自のフィルター、ビューおよびグループ化を作成できますが、他のユーザーに作成されたフィルター、ビューおよびグループ化を直接変更することはできません。
 
 ## アクセス要件
 
@@ -34,110 +34,110 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。</p> <p><b>注意</b>：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## デフォルトのフィルター、ビューまたはグループを作成する
+## デフォルトのフィルター、ビューまたはグループ化の作成
 
 {{step-1-to-setup}}
 
-1. フィルター、表示またはグループ化を作成または編集するかどうかに応じて、次のいずれかの操作を実行します。
+1. フィルター、ビューまたはグループ化を作成または編集するかどうかに応じて、次のいずれかの操作を実行します。
 
-   * クリック **[!UICONTROL インターフェイス]** > **[!UICONTROL フィルター]**.
+   * **[!UICONTROL インターフェイス]**／**[!UICONTROL フィルター]**&#x200B;をクリックします。
 
-   * クリック **[!UICONTROL インターフェイス] >** **[!UICONTROL 件数]**.
+   * **[!UICONTROL インターフェイス]／** **[!UICONTROL ビュー]**&#x200B;をクリックします。
 
-   * クリック **[!UICONTROL インターフェイス]** > **[!UICONTROL グループ化]**.
+   * **[!UICONTROL インターフェイス]**／**[!UICONTROL グループ化]**&#x200B;をクリックします。
 
-1. フィルター、表示またはグループ化を作成する場合は、 **[!UICONTROL フィルターを追加]**, **[!UICONTROL ビューを追加]**&#x200B;または **[!UICONTROL グループを追加]**」をクリックし、新しいフィルター、ビューまたはグループ化を関連付けるオブジェクトタイプを選択します。
+1. フィルター、ビューまたはグループ化を作成する場合は、「**[!UICONTROL フィルターを追加]**」、「**[!UICONTROL ビューを追加]**」または「**[!UICONTROL グループ化を追加]**」をクリックして、新しいフィルター、ビューまたはグループ化を関連付けるオブジェクトタイプを選択します。
 
    または
 
-   既存のフィルター、表示またはグループ化を編集する場合は、そのフィルターを選択し、 **[!UICONTROL 編集]** アイコン ![編集アイコン](assets/edit-icon.png).
+   既存のフィルター、ビューまたはグループ化を編集する場合は、そのフィルターを選択し、**[!UICONTROL 編集]**&#x200B;アイコン![編集アイコン](assets/edit-icon.png)をクリックします。
 
-1. フィルター、表示またはグループ化を設定します。
+1. フィルター、ビューまたはグループ化を設定します。
 
    使用可能なオプションについて詳しくは、次の記事の 1 つを参照してください。
 
    * [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [表示の概要 ( [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-   * [でのグループ化の概要 [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [[!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) のビューの概要
+   * [[!UICONTROL Adobe Workfront] のグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-1. クリック **[!UICONTROL 保存]** 左下隅付近にあります。
+1. 左下隅付近にある「**[!UICONTROL 保存]**」をクリックします。
 
-システム内のユーザーがフィルター、表示またはグループ化を使用できるようにします。 他のユーザーとのフィルター、表示、またはグループの共有について詳しくは、「 [フィルター、ビュー、またはグループをユーザーが使用できるようにする](#make-filters-views-or-groupings-available-to-users) 」を参照してください。
+システム内のユーザーがフィルター、ビューまたはグループ化を使用できるようにします。他のユーザーとのフィルター、ビューまたはグループ化の共有について詳しくは、この記事の[フィルター、ビューまたはグループをユーザーに使用可能にする](#make-filters-views-or-groupings-available-to-users)を参照してください。
 
 
-## レイアウトテンプレートから使用できるフィルター、ビュー、グループの表示/非表示を切り替えます
+## レイアウトテンプレートから使用できるフィルター、ビューまたはグループ化を表示または非表示にする
 
-レイアウトテンプレートから、フィルター、ビュー、グループの表示と非表示を切り替えることができます。 表示されるフィルターは、すべてのユーザーがシステム全体で使用できます。 レイアウトテンプレートを使用して、特定のユーザーまたはグループの表示可能なフィルターを非表示にできます。
+レイアウトテンプレートから、フィルター、ビューまたはグループ化の表示と非表示を選択できます。表示されるフィルターは、システム全体のすべてのユーザーが使用できます。レイアウトテンプレートを使用すると、特定のユーザーまたはグループに対して表示するフィルターを非表示にできます。
 
 >[!NOTE]
 >
->ユーザーがアクティブにフィルタ、ビュー、またはグループ化を使用していて、管理者が無効にした場合、ユーザーは新しいフィルタ、ビュー、またはグループ化を選択するまでアクセスできます。 新しいフィルター、表示またはグループ化を選択した後は、非表示のフィルター、表示またはグループ化に戻せなくなります。
+>ユーザーがアクティブに使用しているフィルター、ビューまたはグループ化を管理者が無効にした場合、ユーザーは新しいフィルター、ビューまたはグループ化を選択するまでアクセスできます。新しいフィルター、ビューまたはグループ化を選択した後は、非表示のフィルター、ビューまたはグループ化に戻せなくなります。
 
-レイアウトテンプレートから使用できるフィルター、ビューまたはグループの表示/非表示を切り替えるには：
+レイアウトテンプレートから使用できるフィルター、ビューまたはグループ化を表示または非表示にするには、次の手順に従います。
 
-1. クリック **[!UICONTROL インターフェイス]**&#x200B;をクリックし、次のいずれかをクリックします。 **[!UICONTROL フィルター]**, **[!UICONTROL 件数]**&#x200B;または **[!UICONTROL グループ化]**.
+1. 「**[!UICONTROL インターフェース]**」をクリックし、「**[!UICONTROL フィルター]**」、「**[!UICONTROL ビュー]**」または「**[!UICONTROL グループ化]**」のいずれかをクリックします。
 
-1. （条件付き）ユーザーが使用できるようにするフィルター、表示またはグループを選択し、「 **[!UICONTROL システム全体を有効にする]**.
+1. （条件付き）ユーザーが使用できるフィルター、ビューまたはグループ化を選択し、「**[!UICONTROL システム全体で有効にする]**」をクリックします。
 
    ![](assets/enable-system-wide-fvg.png)
 
    >[!TIP]
    >
-   >ほとんどのユーザーがフィルター、表示またはグループ化を使用でき、他のユーザーに対しては非表示にしたい場合は、レイアウトテンプレートを使用できます。 詳しくは、 [レイアウトテンプレートを使用したフィルター、ビューおよびグループのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >フィルター、ビューまたはグループ化を、ほとんどのユーザーに対して使用可能にし、他のユーザーに対しては非表示にする場合は、レイアウトテンプレートを使用します。詳しくは、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
-1. （条件付き）ユーザーに対して非表示にするフィルター、表示またはグループを選択し、「 **[!UICONTROL システム全体を無効にする]**. 無効にすると、フィルター、表示またはグループ化がレイアウトテンプレートやシステム全体のユーザーで非表示になります。
+1. （条件付き）ユーザーに対して非表示にするフィルター、ビューまたはグループ化を選択し、「**[!UICONTROL システム全体で無効にする]**」をクリックします。無効にすると、フィルター、ビューまたはグループ化がレイアウトテンプレートやシステム全体でユーザーに非表示になります。
 
 
-## フィルター、ビュー、またはグループをすべてのユーザーが使用できるようにする {#make-filters-views-or-groupings-available-to-users}
+## フィルター、ビューまたはグループ化をすべてのユーザーに使用可能にする {#make-filters-views-or-groupings-available-to-users}
 
-次の手順では、フィルター、ビューおよびグループを [!UICONTROL 共有] ダイアログ [!UICONTROL インターフェイス] 領域 [!UICONTROL 設定]. この設定は、レイアウトテンプレートを含むシステム全体のオン/オフスイッチのように機能します。
+これらの手順では、[!UICONTROL 設定]の[!UICONTROL インターフェース]エリアにある[!UICONTROL 共有]ダイアログからフィルター、ビューおよびグループ化を使用できるようにする方法について説明します。この設定は、レイアウトテンプレートを含む、システム全体のオン／オフスイッチのように機能します。
 
 {{step-1-to-setup}}
 
-1. クリック **[!UICONTROL インターフェイス]**&#x200B;をクリックし、次のいずれかをクリックします。 **[!UICONTROL フィルター]**, **[!UICONTROL 件数]**&#x200B;または **[!UICONTROL グループ化]**.
+1. 「**[!UICONTROL インターフェース]**」をクリックし、「**[!UICONTROL フィルター]**」、「**[!UICONTROL ビュー]**」または「**[!UICONTROL グループ化]**」のいずれかをクリックします。
 
-1. ユーザーが使用できるようにするフィルター、表示またはグループを選択し、 **[!UICONTROL 共有]** アイコン ![共有アイコン](assets/share-icon.png) 開く [!UICONTROL アクセスをフィルター], [!UICONTROL アクセスを表示]または [!UICONTROL グループ化アクセス] フォーム。
-1. （条件付き）フィルター、表示またはグループ化をシステム内のすべてのユーザーが使用できるようにするには、 **[!UICONTROL ギア]** ドロップダウンメニュー ![](assets/gear-menu-for-sharing-items.png)を選択し、次に **[!UICONTROL この機能をシステム全体で表示する]**. システム内のすべてのユーザーが、フィルター、表示またはグループ化を表示できるようになりました。
+1. ユーザーが使用できるフィルター、ビューまたはグループ化を選択し、**[!UICONTROL 共有]**&#x200B;アイコン![共有アイコン](assets/share-icon.png)をクリックして、[!UICONTROL フィルターアクセス]、[!UICONTROL ビューアクセス]または[!UICONTROL グループ化アクセス]のフォームを開きます。
+1. （条件付き）システム内のすべてのユーザーがフィルター、ビュー、またはグループ化を利用できるようにするには、**[!UICONTROL ギア]**&#x200B;ドロップダウンメニュー ![](assets/gear-menu-for-sharing-items.png)、**[!UICONTROL システム全体でこれを表示する]**&#x200B;の順にクリックします。システム内のすべてのユーザーが、フィルター、ビューまたはグループ化を表示できるようになりました。
 
    または
 
-   フィルター、表示またはグループ化を共有する特定のユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
+   フィルター、ビューまたはグループ化を共有する特定のユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
 
-   共有について詳しくは、 [オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   共有について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   指定したユーザーは、関連付けたオブジェクトタイプを表示する際に、既定のフィルタ、表示、またはグループを表示できます。
+   指定したユーザーは、関連付けたオブジェクトタイプを表示する際に、既定のフィルター、ビュー、またはグループ化を表示できます。
 
-## フィルター、ビュー、およびグループの削除
+## フィルター、ビュー、グループ化の削除
 
 {{step-1-to-setup}}
 
-1. 削除するフィルター、表示、グループ化のいずれを選択するかに応じて、次のいずれかの操作を実行します。
+1. 削除するフィルター、ビュー、グループ化のいずれを選択するかに応じて、次の操作を実行します。
 
-   * クリック **[!UICONTROL インターフェイス]** > **[!UICONTROL フィルター]**
+   * **[!UICONTROL インターフェイス]**／**[!UICONTROL フィルター]**&#x200B;をクリックします。
 
-   * クリック **[!UICONTROL インターフェイス]** > **[!UICONTROL 件数]**
+   * **[!UICONTROL インターフェイス]**／**[!UICONTROL ビュー]**&#x200B;をクリックします。
 
-   * クリック **[!UICONTROL インターフェイス]** > **[!UICONTROL グループ化]**
+   * **[!UICONTROL インターフェイス]**／**[!UICONTROL グループ化]**&#x200B;をクリックします。
 
-1. リスト内の 1 つ以上の項目を選択し、 **[!UICONTROL 削除]** アイコン ![削除アイコン](assets/delete.png).
-1. フィルター、表示またはグループ化の設定について詳しくは、次の記事のいずれかを参照してください。
+1. リスト内の 1 つ以上の項目を選択し、**[!UICONTROL 削除]**&#x200B;アイコン ![削除アイコン](assets/delete.png) をクリックします。
+1. フィルター、ビューまたはグループ化の設定について詳しくは、次のいずれかの記事を参照してください。
 
    * [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
    * [表示の概要 ( [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-   * [でのグループ化の概要 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [ [!DNL Adobe Workfront] でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

@@ -9,7 +9,7 @@ exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
 source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
 source-wordcount: '1531'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
 -->
 
-レポートが定義したスケジュールに従ってユーザーに自動的に配信されるようにスケジュールしたり、レポートを 1 回限りに手動で送信したりできます。 Adobe Workfrontからレポートを送信すると、そのユーザーは、別の添付ファイルでWorkfrontレポートが記載された電子メールを受け取ります。
+レポートが定義したスケジュールに従ってユーザーに自動的に配信されるようにスケジュールしたり、レポートを 1 回限りに手動で送信したりできます。 Adobe Workfront からレポートを送信すると、ユーザーは Workfront レポートが添付されたメールが送信されます。
 
-配信用のレポートの設定について詳しくは、 [レポートの自動配信のスケジュール設定](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+レポートの配信設定の詳細については、[自動レポート配信のスケジュールを設定](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)の記事を参照してください。
 
-プレビューサンドボックス環境では、レポートの配信スケジュールを設定したり、手動で配信したりすることはできません。 プレビューサンドボックスについて詳しくは、次の記事を参照してください。 [Adobe Workfrontプレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-プレビューサンドボックス環境でのレポートの配信について詳しくは、次の記事を参照してください。 [プレビューサンドボックス環境でのレポートの送信](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+プレビューサンドボックス環境では、レポートの配信をスケジュールしたり、手動で配信したりすることはできません。プレビューサンドボックスについて詳しくは、記事[Adobe Workfront プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。\
+プレビューサンドボックス環境でのレポートの配信について詳しくは、記事[プレビューサンドボックス環境でレポートを送信](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md)を参照してください。
 
 ## レポートの配信制限
 
@@ -32,72 +32,72 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
 -->
 
-配信するレポートをスケジュールする際は、次の点を考慮してください。
+レポートの配信をスケジュールする場合は、次の点を考慮してください。
 
-* 任意のレポートに対して、最大 10 回までの繰り返し配信をスケジュールできます。
-* レポートの作成者の場合にのみ、レポートの配信をスケジュールできます。 作成しなかったレポートを送信する必要がある場合は、手動で送信できます。
+* 任意のレポートに対して、最大 10 回の繰り返しレポート配信をスケジュールできます。
+* レポートの作成者である場合のみ、レポートの配信をスケジュールできます。作成していないレポートを送信する必要がある場合は、手動で送信できます。
 
 ## 書き出し制限
 
-Workfrontでのレポートの表示方法や、手動でのエクスポート、配信されたレポート、API を使用したレポートの書き出し方法に影響するいくつかのサイズ制限があります。
+Workfront でのレポートの表示方法、および手動書き出し、配信されたレポート、または API を介したレポートの書き出し方法に影響するサイズ制限がいくつかあります。
 
-* **5 MB のファイルサイズ：** 配信が予定されている書き出しレポートのファイルサイズ制限。 E メールに添付されたエクスポート済みファイルが 5 MB を超える場合、添付されたエクスポート済みレポートの代わりに、ファイルをダウンロードできるリンクが電子メールで送信されます。
+* **5MB のファイルサイズ：**&#x200B;配信が予定されているすべての書き出しレポートのファイルサイズ制限。メールに添付された書き出し済みファイルが 5 MB を超える場合、添付の書き出し済みレポートの代わりに、ファイルをダウンロードできるリンクがメールで送信されます。
 
   >[!NOTE]
   >
-  >Excelの.xlsx ファイルが 5MB を超える場合、電子メールは生成されません。 レポートは、手動でこの形式にエクスポートできます。 レポートのエクスポートについて詳しくは、 [データを書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >5MB を超える Excel .xlsx ファイルはメールを生成しません。レポートは、手動でこの形式にエクスポートできます。 レポートのエクスポートについて詳しくは、 [データを書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-* **50,000 行：** .pdf ファイルおよびタブ区切りファイルのレポート書き出しで許可されるデータの行数。
+* **50,000 行：**.pdf およびタブ区切りファイルのレポートの書き出しで許可されるデータの行数。
 
-  Excelの.xls ファイルの場合、この制限は次のとおりです。 **65,000 行**.
+  Excel .xls ファイルの場合、この制限は **65,000 行**&#x200B;です。
 
-  Excelの.xlsx ファイルの場合、この制限はです。 **100,000 行**.
+  Excel .xlsx ファイルの場合、この制限は **100,000 行**&#x200B;です。
 
-  これらの制限により、列見出しと、レポート内のグループ化の行が除外されます。 例えば、1 つのレポートに 6 つのグループが含まれ、50,000 行のデータが含まれる場合、エクスポートされるファイルの行数は 50,000 行になります。
+  これらの制限には、レポート内のグループ化の行だけでなく、列見出しも除外されます。例えば、1 つのレポートに 6 つのグループが含まれ、50,000 行のデータが含まれる場合、エクスポートされるファイルの行数は 50,000 行になります。
 
-  レポートにこれらの制限を超える項目がある場合は、レポートの書き出しと配信が成功しないというエラーが表示されます。 結果を配信できるように、画面に表示される項目の数を、この制限値以下の数に減らします。 すべてのデータをエクスポートする場合は、フィルターを使用して少ない負荷のデータを取得し、複数のエクスポートを実行することをお勧めします。 詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  レポートにこれらの制限を超える項目が含まれる場合、レポートの書き出しと配信が成功しないかったというエラーが表示されます。結果を配信できるように、画面に表示される項目の数を、この制限値以下の数に減らします。 すべてのデータをエクスポートする場合は、フィルターを使用して少ない負荷のデータを取得し、複数のエクスポートを実行することをお勧めします。 詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   以下の制限が適用されます。
 
-   * レポートの手動エクスポート。
-   * 予定レポート。
-   * API 統合を通じたエクスポート。
-   * キックスタートを通じてエクスポートされたデータ。
+   * レポートの手動書き出し。
+   * スケジュール済みレポート。
+   * API 統合を経由した書き出し。
+   * キックスタートを経由して書き出されたデータ。
 
-     キックスタートを使用したデータのエクスポートの詳細については、「 [「キックスタート」を使用してAdobe Workfrontからデータを書き出す](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     キックスタートを経由したデータの書き出しに関して詳しくは、記事[キックスタートを経由した Adobe Workfront からのデータの書き出し](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)を参照してください。
 
      >[!NOTE]
      >
-     >50,000 行を Excel 形式のファイルにのみエクスポートできます。
+     >50,000 行をキックスタートファイルに書き出すことができますが、データは Excel 形式のファイルにのみ書き出すことができます。
 
-   * プロジェクトの使用状況情報をエクスポートします。
+   * プロジェクトの稼働率情報を書き出します。
 
-     プロジェクトの使用率情報を書き出す方法の詳細については、 [リソース使用率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     プロジェクトの稼働率情報を書き出す方法に関して詳しくは、[リソース稼働率レポートの概要](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)を参照してください。
 
-* **65,530 ハイパーリンク：** これは、65,530 個を超えるハイパーリンクを含むドキュメントに対して Excel が課す制限です。 これらのドキュメントは、手動でエクスポートしたり、配信されたレポートに送信したりする際には開けません。 Excel ドキュメントのデータは 200 行に過ぎませんが、ドキュメント内に 65,530 個を超えるリンクがある場合、ドキュメントは開きません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には存在しません。
-* **256 列**:256 列を超えるドキュメントに対して Excel が課す制限です。 これらのドキュメントは、手動でエクスポートしたり、配信されたレポートに送信したりすることはできません。 この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には存在しません。
+* **65,530 個のハイパーリンク：**&#x200B;これは、65,530 個を超えるハイパーリンクを含むドキュメントに対して Excel が課す制限です。これらのドキュメントは、手動で書き出した場合や、配信されたレポートに添付された場合には開けません。Excel ドキュメントのデータは 200 行に過ぎなくても、ドキュメント内に 65,530 個を超えるリンクがある場合、ドキュメントは開きません。この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には該当しません。
+* **256 列**：Excel が 256 列を超えるドキュメントに対して課される制限です。これらのドキュメントは、手動で書き出したり、配信されたレポートに添付して送信したりすることはできません。この制限は、Excel ファイルにのみ存在し、他のサポートされている形式には該当しません。
 
-制限を超えてデータをエクスポートしようとすると、エクスポートで予期されたデータの一部が受け取らない場合があります。 代わりに、制限内に変更されたレポートが作成されます。
+制限を超えてデータを書き出そうとすると、書き出しで予想されたデータの一部を受信できない場合があります。代わりに、制限内に変更されたレポートが作成されます。
 
-さらに、の実行に 60 分以上かかるレポートは停止します。
+加えて、実行に 60 分以上かかるレポートは停止します。
 
-制限に関するご不明な点や問題がある場合は、Workfrontテクニカルサポートにお問い合わせください。
+制限に関するご不明な点や問題がある場合は、Workfront 技術サポートにお問い合わせください。
 
-## 配信されたレポートのタイムスタンプを理解する
+## 配信されたレポートのタイムスタンプについて
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Note about if this is delivered at a time based on the user's time zone settings?)</p>
 -->
 
-電子メールでレポートを受け取った場合、配信と同時にWorkfrontでレポートを表示すると、レポートのタイムスタンプと時刻の形式がWorkfrontの形式と一致しないことがあります。
+レポートをメールで受信する場合、配信と同時に Workfront でレポートを表示すると、レポートのタイムスタンプと時刻形式が Workfront のものと一致しない可能性があります。
 
 次の点に注意してください。
 
 * ブラウザーでレポートを表示する場合、レポートのタイムスタンプと形式は、ブラウザーの設定で定義された、ブラウザーのロケールとタイムゾーンに一致します。
-* レポートが電子メールで配信されると、Workfrontプロファイルで指定されたユーザーのロケールとタイムゾーンに合ったタイムスタンプと形式でレポートが配信されます。\
-  Workfrontのユーザーのロケールとタイムゾーンについて詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* レポートがメールで配信される場合、レポートは、Workfront プロファイルで指定されているユーザーロケールとタイムゾーンに一致するタイムスタンプと形式で配信されます。\
+  Workfront のユーザーロケールとタイムゾーンについて詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の記事を参照してください。
 
-## 特別なビューを持つレポート {#reports-with-a-special-view}
+## 特別なビューを備えたレポート {#reports-with-a-special-view}
 
 レポートに特別なビューを適用すると、Workfrontのレポートの「詳細」タブに特別なビューが表示されます。
 
@@ -105,90 +105,90 @@ Workfrontでのレポートの表示方法や、手動でのエクスポート�
 
 以下は特別なビューと見なされます。
 
-* プロジェクトレポートのマイルストーン表示
-* プロジェクトまたはタスクレポートのガント表示
-* グラフをデフォルトのタブとして持つレポート
+* プロジェクトレポートのマイルストーンビュー
+* プロジェクトまたはタスクレポートのガントビュー
+* 「グラフ」をデフォルトタブとするレポート
 
 >[!NOTE]
 >
->レポートに、特別なビューを持つデフォルトのタブに加えて、「マトリックス」タブも表示されている場合、レポートは「マトリックス」タブに表示されたとおりに配信されます。
+>特別なビューを備えたデフォルトタブに加えて、レポートに「マトリックス」タブも存在する場合、レポートは「マトリックス」タブでの表示どおりに配信されます。
 
-レポートに特別なビューを適用する方法の詳細については、「 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+特別なビューをレポートに適用する方法について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。
 
-## 配信されたファイルを使用
+## 配信されたファイルの使用
 
 Workfrontからレポートを送信すると、そのレポートが別の添付ファイルで送信された電子メールがユーザーに送信されます。
 
-* [件名、添付ファイル名、レポートタイトル](#subject-line-attachment-name-and-report-title)
+* [件名行、添付ファイル名およびレポートタイトル](#subject-line-attachment-name-and-report-title)
 * [タイムスタンプ](#timestamps)
 * [ブランディング](#branding)
-* [書式設定](#formatting)
+* [書式](#formatting)
 * [リンク](#links)
 
-### 件名、添付ファイル名、レポートタイトル {#subject-line-attachment-name-and-report-title}
+### 件名行、添付ファイル名およびレポートタイトル {#subject-line-attachment-name-and-report-title}
 
-配信されたレポートの電子メールの件名行について詳しくは、 [レポートの自動配信のスケジュール設定](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+配信されたレポートメールの件名行について詳しくは、[レポートの自動配信のスケジュール](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md)を参照してください。
 
 添付されたレポートの名前は次のとおりです。 *The_Name_Of_The_Report*&#x200B;書き出されたファイル形式が続きます。
 
-配信したレポートをPDFまたはHTMLファイル形式で書き込むようにスケジュールした場合、レポートのタイトルは次のようになります。
+配信するレポートを PDF または HTML ファイル形式でスケジュールした場合、レポートのタイトルは次のようになります。
 
-*レポートの名前。*
+*レポート名*
 
-Excel、Excel(.xlsx) または TSV 形式で配信される予定のレポートにはタイトルがありません。
+Excel、Excel（.xlsx）または TSV 形式で配信される予定のレポートには、タイトルがありません。
 
 >[!NOTE]
 >
->レポートに説明が含まれている場合、ファイルがPDFまたはHTMLファイルとしてフォーマットされている場合は、書き出されたファイルに含まれます。
+>レポートに説明が含まれている場合、ファイルが PDF または HTML ファイル形式の場合は、書き出されたファイルに含まれます。
 
 ### タイムスタンプ {#timestamps}
 
-添付ファイルにタイムスタンプが表示されるのは、ファイルの形式が.pdf の場合のみです。 タイムスタンプは、添付ファイルのフッターに表示されます。
+添付ファイルにタイムスタンプが表示されるのは、ファイルが PDF 形式の場合のみです。タイムスタンプは、添付ファイルのフッターに含まれます。
 
 タイムスタンプには以下が含まれます。
 
 * 日付
-* 時刻
+* 時間
 * レポートが送信されたタイムゾーン
 
 ### ブランディング {#branding}
 
-Workfront管理者がWorkfrontインスタンスにカスタマイズしたブランディングを追加した場合は、.pdf 形式で送信されるレポートに、パーソナライズしたロゴも含まれます。
+Workfront 管理者がカスタマイズしたブランディングを Workfront インスタンスに追加した場合、PDF 形式で送信されるレポートには、パーソナライズしたロゴも含まれます。
 
-その他の形式で送信されたレポートは、ロゴを使用してパーソナライズすることはできません。
+その他の形式で送信されるレポートは、ロゴでパーソナライズすることはできません。
 
-Workfrontインスタンスのブランディングについて詳しくは、 [Adobe Workfrontインスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Workfront インスタンスのブランディングについて詳しくは、[Adobe Workfront インスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)の記事を参照してください。
 
-### 書式設定 {#formatting}
+### 書式 {#formatting}
 
 レポートに特別な表示がない限り、レポートの送信や配信スケジュールをおこなう際には、レポートの「詳細」タブを常に受け取ります。
 
-Web アプリケーションでレポートに特別な書式が設定されている場合、「詳細」タブと「マトリックス」タブが.pdf および Excel ファイル用にのみ配信される場合は、レポートに特別な書式を設定して配信する必要があります。
+Web アプリケーションでレポートに特別な書式が設定されている場合、「詳細」タブと「マトリックス」タブが .pdf および Excel ファイル用にのみ配信される場合は、レポートに特別な書式を設定して配信する必要があります。
 
-配信ファイルには、レポートのフィルター、表示、グループ化は含まれません。 レポートの説明は、レポートをPDFファイルとして送信する場合にのみ表示されます。
+配信されるファイルには、レポートのフィルター、ビューまたはグループ化は含まれません。レポートの説明は、レポートを PDF ファイルとして送信する場合にのみ含まれます。
 
-特別なビューでのレポートの受信について詳しくは、 [特別なビューを持つレポート](#reports-with-a-special-view).\
-レポートのデフォルトのタブの選択と特殊な書式について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+特別なビューでのレポートの受信について詳しくは、[特別なビューを持つレポート](#reports-with-a-special-view)の記事を参照してください。\
+レポートのデフォルトのタブの選択と特殊な形式について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ### リンク {#links}
 
-WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、元のドキュメントに存在する作業リンクは、送信されたファイル内に残ります。 リンクは、Workfront内のリンクをサポートする任意のオブジェクトを指すことができます。
+WorkfrontからPDFまたは Excel 形式にレポートを送信する場合、元のドキュメントに存在する作業リンクは、送信されたファイル内に残ります。 リンクは、Workfront 内のリンクをサポートする任意のオブジェクトを指すことができます。
 
-また、電子メールメッセージ内のレポートの名前はリンクです。
+また、メールメッセージ内のレポートの名前はリンクです。
 
-## 予定レポートに関するレポート
+## スケジュールされたレポートに関するレポート
 
 次の項目を作成することで、レポートの配信が設定されているかどうかを確認できます。
 
-* **A ビュー** リスト内の Report オブジェクトまたはレポート用のレポートの場合：レポートのリストまたはレポート用のレポート内のビューを作成し、ビューに次の列を追加します。\
-  *予定レポート名。\
+* リスト内のレポートオブジェクトの&#x200B;**ビュー**&#x200B;またはレポート用のレポートの場合、レポートのリストまたはレポート用のレポート内のビューを作成し、ビューに次の列を追加します。\
+  *スケジュール済みレポート名。\
   *そのレポートに対してスケジュールされたすべての配信の名前は、箇条書きリストの列に表示されます。\
   ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
 * **フィルター** レポートオブジェクトの場合：レポートのリストまたは次のステートメントを使用して、レポートに関するレポートでフィルターを作成します。 *予定レポート ID が空ではありません*.\
   これにより、リストまたはレポートでスケジュールされたレポートのみが表示されます。\
   ![](assets/qs-scheduled-report-filter-350x101.png)\
-  レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). レポートの作成について詳しくは、 [レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。レポートの作成について詳しくは、[レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)を参照してください。
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

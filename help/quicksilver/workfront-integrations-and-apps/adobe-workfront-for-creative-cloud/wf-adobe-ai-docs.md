@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Illustratorからドキュメントをアップロード
-description: アートボードをドキュメントとしてアップロードして、すばやいレビューや承認を得たり、Adobe Workfrontに保存するだけで済みます。
+title: Illustrator からドキュメントをアップロード
+description: アートボードをドキュメントとしてアップロードすると、すばやくレビューや承認を行ったり、単に Adobe Workfront に保存したりすることができます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
 source-git-commit: e3bc8ca88dda16ac792e6de8055296105e6ff0e0
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
-# ドキュメントのアップロード元 [!DNL Illustrator]
+# [!DNL Illustrator] からドキュメントをアップロード
 
-プロジェクトをドキュメントとしてアップロードして、すばやいレビューと承認をおこなうか、単ににに保存することができます。 [!DNL Adobe Workfront].
+アートボードをドキュメントとしてアップロードすると、すばやくレビューや承認を行ったり、単に [!DNL Adobe Workfront] に保存したりすることができます。
 
 ## アクセス要件
 
@@ -35,50 +35,50 @@ ht-degree: 0%
   </tr> 
   <tr> -->
    <td role="rowheader">製品</td> 
-   <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
+   <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>[!UICONTROL ドキュメント ] へのアクセスの編集</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!UICONTROL Documents]の編集権限</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>ドキュメントをアップロードするオブジェクトへのアクセス権以上を表示します。</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>ドキュメントをアップロードするオブジェクトに対する表示以上の権限。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
 * をインストールする必要があります [!DNL Adobe Workfront for design and video] 次の場所からドキュメントをアップロードする前に [!DNL Illustrator].
 
-  手順については、 [インストール [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  手順については、[インストール [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)を参照してください。
 
-## へのドキュメントのアップロード先 [!DNL Illustrator]
+## [!DNL Illustrator] へドキュメントをアップロード
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. ドキュメントをアップロードする作業項目に移動します。
-1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
+1. ドキュメントをアップロードする作業アイテムに移動します。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
-1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にあります。
-1. （オプション） **[!UICONTROL 更新]** 領域。
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
-1. を開きます。 **[!UICONTROL 書き出しファイル設定の設定]** ダイアログボックスで、上で選択したアセットタイプに基づいて必要な書き出しオプションを設定します。
+1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
+1. （オプション）**[!UICONTROL 更新]**&#x200B;エリアにコメントを入力します。
+1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
+1. 「**[!UICONTROL 設定書き出しファイルの設定]**」ダイアログボックスを開き、上で選択したアセットタイプに基づいて必要な書き出しオプションを設定します。
 
    ![](assets/file-export-settings.png)
-1. クリック **[!UICONTROL アップロード]**.
-ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+1. 「**[!UICONTROL アップロード]**」をクリックします。
+ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
 
 >[!NOTE]
 >
->ドキュメントがテキストドキュメントとして書き出される場合は、 [!DNL Adobe Illustrator].
+>ドキュメントをテキストドキュメントとして書き出す場合は、[!DNL Adobe Illustrator] で設定をリセットする必要が出ることがあります。
 >
->1. In [!DNL Illustrator]をクリックし、 **[!UICONTROL 編集]** 「 」タブで「 」を選択します。 **[!UICONTROL 環境設定]**.
->1. 選択 **[!UICONTROL 一般]**.
->1. クリック **[!UICONTROL 環境設定をリセット]**.
->1. 閉じて再起動 [!DNL Illustrator].
+>1. [!DNL Illustrator] で「**[!UICONTROL 編集]**」タブをクリックし、「**[!UICONTROL 環境設定]**」を選択します。
+>1. 「**[!UICONTROL 一般]**」を選択します。
+>1. 「**[!UICONTROL 環境設定をリセット]**」をクリックします。
+>1. 閉じて [!DNL Illustrator] を再起動します。

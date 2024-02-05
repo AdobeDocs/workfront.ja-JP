@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: レガシーフォームビルダーを使用したカスタムフォームへのセクション区切りの追加
-description: カスタムフォームのカスタムフィールドとウィジェットを、見出し付きのセクションにグループ化できます。 これは、フォームに入力するユーザーに、組織化されたエクスペリエンスを提示する場合に役立ちます。 また、特定のカスタムフィールドとウィジェットへのアクセスを特定のユーザーに制限する必要がある場合は、それらをセクションに配置し、そのセクションへのアクセス権をそれらのユーザーにのみ付与することができます。
+description: カスタムフォームのカスタムフィールドとウィジェットを、見出し付きのセクションにグループ化できます。これは、フォームに入力するユーザーに、整理されたエクスペリエンスを提示する場合に役立ちます。また、特定のカスタムフィールドとウィジェットへのアクセスを特定のユーザーに制限する必要がある場合は、それらをセクションに配置し、そのセクションへのアクセス権をそれらのユーザーにのみ付与することができます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -11,21 +11,21 @@ exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
 source-git-commit: 56e1ceac4f37d9789f4a3a37ee0e6a7774133bfb
 workflow-type: tm+mt
 source-wordcount: '1173'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
 # レガシーフォームビルダーを使用したカスタムフォームへのセクション区切りの追加
 
-カスタムフォームのカスタムフィールドとウィジェットを、見出し付きのセクションにグループ化できます。 これは、フォームに入力するユーザーに、組織化されたエクスペリエンスを提示する場合に役立ちます。 また、特定のカスタムフィールドとウィジェットへのアクセスを特定のユーザーに制限する必要がある場合は、それらをセクションに配置し、そのセクションへのアクセス権をそれらのユーザーにのみ付与することができます。
+カスタムフォームのカスタムフィールドとウィジェットを、見出し付きのセクションにグループ化できます。これは、フォームに入力するユーザーに、整理されたエクスペリエンスを提示する場合に役立ちます。また、特定のカスタムフィールドとウィジェットへのアクセスを特定のユーザーに制限する必要がある場合は、それらをセクションに配置し、そのセクションへのアクセス権をそれらのユーザーにのみ付与することができます。
 
 例えば、システム管理者だけが表示または編集できる機密情報を追跡する必要がある場合は、「管理者のみ」の権限を持つセクション区切りを作成し、そのセクションに機密フィールドを配置できます。
 
-セクションに対して選択するアクセス設定は、カスタムフォームが添付されるWorkfrontオブジェクトに対するユーザーの権限に直接関連付けられます。 ユーザがそのオブジェクトの表示、投稿、管理に対するアクセス権を持っているかどうかに基づいて、セクションの表示/非表示を切り替えることができます。 また、セクションを「管理者のみ」に設定して、システム管理者のアクセスレベルのユーザーのみがアクセスできるようにすることもできます。
+セクションに選択するアクセス設定は、カスタムフォームが添付される Workfront オブジェクトに対してユーザーが持つ権限に直接関連付けられます。ユーザーがそのオブジェクトの表示、投稿、管理に対するアクセス権を持っているかどうかに基づいて、セクションの表示と非表示を切り替えることができます。また、セクションを「管理者のみ」に設定して、システム管理者のアクセスレベルを持つユーザーのみにアクセスを制限することもできます。
 
-オブジェクトに対する権限については、 [オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+オブジェクトに対する権限については、[オブジェクトに対する権限の共有の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、 [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) および [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+カスタムフォームのカスタムフィールドおよびウィジェットについては、[カスタムフォームへのカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)と[カスタムフォームのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
 
 <!--
 >[!TIP]
@@ -35,41 +35,41 @@ ht-degree: 0%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次の手順を実行する必要があります。
+この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfrontプラン</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td>
    <p>新規：標準</p>
    <p>現在：プラン</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>カスタムフォームへの管理アクセス</p></td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p></td> 
   </tr>  
  </tbody> 
 </table>
 
 この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## カスタムフォームのセクションへのアクセスの作成と設定
+## カスタムフォームのセクションにアクセス権を作成および設定する
 
-1. カスタムフォームの作成または編集を開始します ( [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. カスタムフィールドとウィジェットをフォームに追加します。詳しくは、 [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) および [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)の説明に従って、カスタムフォームの作成または編集を開始します。
+1. [カスタムフォームへのカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)と[カスタムフォームのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)の説明に従って、フォームにカスタムフィールドおよびウィジェットを追加します。
 
-1. カスタムフォームの作成中または編集中に、 **フィールドを追加** タブ、クリック **断面分割**.
+1. カスタムフォームの作成または編集中に、「**フィールドの追加**」タブで「**セクション区切り**」をクリックします。
 
    ![](assets/click-section-break.jpg)
 
-1. 次の日： **フィールド設定** タブで、セクションに必要なオプションを設定します。
+1. 「**フィールド設定**」タブで、セクションに必要な次のオプションを設定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,42 +79,42 @@ ht-degree: 0%
     <tbody> 
      <tr> 
       <td role="rowheader">ラベル</td> 
-      <td> <p>（必須）セクションの上に表示する説明的なラベルを入力します。 ラベルはいつでも変更できます。</p> <p><b>重要</b>：このラベルでは特殊文字を使用しないでください。 レポートでは正しく表示されません。</p> </td> 
+      <td> <p>（必須）セクションの上に表示する説明的なラベルを入力します。ラベルはいつでも変更できます。</p> <p><b>重要</b>：このラベルでは特殊文字を使用しないでください。レポートでは正しく表示されません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">説明</td> 
-      <td>ユーザーにセクションの目的を説明する場合は、テキストを入力します。 これは、カスタムフォームのセクションのラベルの下に表示されます。</td> 
+      <td>ユーザーにセクションの目的を説明する場合は、テキストを入力します。このテキストは、カスタムフォームのセクションのラベルの下に表示されます。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><p>ロジックの追加</p></td> 
-      <td><p>表示ロジックを使用して、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定します。</p><p><strong>注意：</strong> セクション区切りの下の個々のフィールドに適用された表示ロジックがすべて適用され、ロジックの結果としてすべて非表示になった場合、セクション全体がカスタムフォームで非表示になります。 これは、表示ロジックが断面分割に適用されていない場合でも発生します。</p><p>詳しくは、 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">表示ロジックの追加とカスタムフォームへのロジックのスキップ</a>.</p></td> 
+      <td role="rowheader"><p>ロジックを追加</p></td> 
+      <td><p>表示ロジックを使用して、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定します。</p><p><strong>注意：</strong> セクション区切りの下の個々のフィールドに適用された表示ロジックがすべて適用され、ロジックの結果としてすべて非表示になった場合、セクション全体がカスタムフォームで非表示になります。 これは、表示ロジックが断面分割に適用されていない場合でも発生します。</p><p>詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">カスタムフォームへの表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>アクセスを許可</p> </td> 
       <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。
-       <p>以下の権限をで使用できます。 <b>オブジェクトにこのアクセス権を持つユーザーは、フィールド値を表示できます</b>:</p> 
+       <p>次の権限は、「<b>オブジェクトに対してこのアクセス権を持つユーザーは、次のフィールド値を表示できます :</b>」で利用できます。</p> 
          <ul>
           <li><strong>表示</strong>：オブジェクトに対する権限の表示</li>
-          <li><p><b>制限付き編集</b>: （オブジェクトがプロジェクト、タスク、タスク、イシューまたはユーザーの場合にのみ使用できます）。</p> 
-          <p>プロジェクト、タスクまたはイシューの場合に、ユーザーがオブジェクトに投稿できるようにします。</p>
+          <li><p><b>制限付き編集</b>：（オブジェクトがプロジェクト、タスク、イシュー、またはユーザーの場合にのみ使用できます）。</p> 
+          <p>プロジェクト、タスク、またはイシューの場合、ユーザーがオブジェクトに投稿できるようにします。</p>
           <p>ユーザーがプロファイルを編集したり、オブジェクト（ユーザーの場合）に対するプロファイル権限を所有したりできます。</p></li> 
-          <li><b>編集</b>：オブジェクトに対する権限の管理 </li> 
+          <li><b>編集</b>：オブジェクトに対する管理権限 </li> 
           <li><b>管理者のみ</b>：システム管理者のアクセスレベル</li> 
          </ul> </li> 
-        <p>以下の権限をで使用できます。 <b>このオブジェクトへのアクセス権を持つユーザーは、フィールド値を編集できます</b>: </p> 
+        <p>次の権限は、「<b>オブジェクトに対してこのアクセス権を持つユーザーは、次のフィールド値を表示できます :</b>」で利用できます。 </p> 
          <ul> 
-          <li> <p><b>制限付き編集</b>: （オブジェクトがプロジェクト、タスク、タスク、イシューまたはユーザーの場合にのみ使用できます）。</p> 
-           <p>オブジェクトがプロジェクト、タスク、またはイシューの場合は、この権限を持つユーザーがオブジェクトに貢献できます</p>
+          <li> <p><b>制限付き編集</b>：（オブジェクトがプロジェクト、タスク、イシュー、またはユーザーの場合にのみ使用できます）。</p> 
+           <p>オブジェクトがプロジェクト、タスク、またはイシューの場合、この権限を持つユーザーはオブジェクトに投稿できる</p>
           <p>オブジェクトがユーザーの場合、この権限を持つユーザーは、プロファイルを編集したり、そのオブジェクトに対するプロファイル権限を所有したりできます。</p> 
-          <li><b>編集</b>：オブジェクトに対する権限の管理 </li> 
+          <li><b>編集</b>：オブジェクトに対する管理権限 </li> 
           <li><b>管理者のみ</b>：システム管理者のアクセスレベル</li> 
          </ul> </li> 
        </ul> 
-       <p>オブジェクトに対する権限については、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">オブジェクトに対する共有権限の概要</a>.</p> 
-       <p><b>注意</b>:  
+       <p>オブジェクトに対する権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">オブジェクトに対する共有権限の概要</a>を参照してください。</p> 
+       <p><b>メモ</b>：  
        <ul> 
-       <li> <p>ここで指定した権限を持たないユーザーは、セクションのカスタムフィールドとウィジェットを表示できません。 </p> <p>これは、フィールドの値をレポートに表示する場合や、テキストモードのレポートで計算フィールドで使用する場合にも当てはまります。</p> </li> 
-       <li> <p>複数のオブジェクトタイプをフォームに関連付けると、これらの手順で使用できる表示および編集権限が変更される場合があります。 詳しくは、 <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">複数のオブジェクトタイプが、カスタムフォームのセクション区切り権限に与える影響</a> 」を参照してください。</p> </li> 
+       <li> <p>ここで指定した権限を持たないユーザーは、セクションのカスタムフィールドとウィジェットを表示できません。 </p> <p>これは、フィールドの値をレポートに表示する場合や、テキストモードのレポートの計算フィールドで使用する場合にも当てはまります。</p> </li> 
+       <li> <p>複数のオブジェクトタイプをフォームに関連付けると、これらの手順で使用できる表示および編集権限が変更される場合があります。詳しくは、この記事内の<a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">複数のオブジェクトタイプが、カスタムフォームのセクション区切り権限に与える影響</a>を参照してください。</p> </li> 
         </ul> </p> </td> 
      </tr> 
     </tbody> 
@@ -124,19 +124,19 @@ ht-degree: 0%
 
    これは、セクションを保存する前に必要です。
 
-1. クリック **完了**.
+1. 「**完了**」をクリックします。
 
    >[!TIP]
    >
-   >次をクリックできます。 **適用** カスタムフォームの作成中はいつでも、変更内容を保存し、フォームを開いたままにすることができます。
+   >カスタムフォームの作成中に「**適用**」をクリックすると、変更内容を保存してフォームを開いたままにすることができます。
 
-1. 他の方法でカスタムフォームの作成を続ける場合は、次の記事のいずれかに進みます。
+1. 他の方法でカスタムフォームの作成を続ける場合は、以下の記事のいずれかに進みます。
 
-   * [カスタムフォームにカスタムフィールドを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
+   * [カスタムフォームへのカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2)
    * [カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-   * [計算データをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [カスタムフォームへの計算データの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [カスタムフォーム内でのカスタムフィールドおよびウィジェットの配置](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-   * [表示ロジックの追加とカスタムフォームへのロジックのスキップ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [カスタムフォームへの表示ロジックとスキップロジックの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [カスタムフォームのプレビューと完了](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 <!--
@@ -209,16 +209,16 @@ You can click
 </div>
 -->
 
-## 複数のオブジェクトタイプが断面の分割権限に与える影響 {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
+## 複数のオブジェクトタイプがセクション区切り権限に与える影響 {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
-カスタムフォームセクションの改ページに対する制限付き編集権限は、プロジェクト、タスク、問題、ユーザーの各オブジェクトタイプに対してのみ使用できます。
+カスタムフォームセクションセクション区切りの制限付き編集権限は、プロジェクト、タスク、イシューおよびユーザーのオブジェクトタイプに対してのみ使用できます。
 
-制限付き編集権限を持つセクション区切りを持つカスタムフォームでは、他のオブジェクトタイプ (Portfolio、プログラム、ドキュメント、会社、請求レコード、繰り返し、費用、グループ ) をフォームに追加すると、編集権限に切り替えます。
+制限付き編集権限を持つセクション区切り付きのカスタムフォームでは、他のオブジェクトタイプ（ポートフォリオ、プログラム、ドキュメント、会社、請求記録、イテレーション、費用またはグループ）をフォームに追加すると、そのオブジェクトタイプとフォーム上の既存のオブジェクトタイプの両方との互換性のある編集権限に切り替えるように指示が表示されます。
 
 >[!INFO]
 >
->**例：** Project オブジェクトの種類に関連付けられたカスタムフォームでは、セクション区切りは、制限付き編集権限を持つように設定されます。
+>**例：**&#x200B;プロジェクトオブジェクトタイプに関連付けられたカスタムフォームでは、セクション区切りは、制限付き編集権限を持つように設定されます。
 >
->Portfolioオブジェクトの種類をフォームに追加すると、フォーム内のセクション区切りに対して「制限付き編集」権限オプションを使用できなくなります。
+>ポートフォリオオブジェクトタイプをフォームに追加すると、フォーム内のセクション区切りに対して「制限付き編集」権限オプションを使用できなくなります。
 >
->画面上のメッセージで、[ 編集 ] 権限に切り替えるように求められます。この権限は、[ 制限付き編集 ] に最も似ており、[ プロジェクト ] オブジェクトタイプと [Portfolio] オブジェクトタイプの両方に対応しています。
+>画面上のメッセージで、編集権限に切り替えるように指示が表示されます。この権限は、プロジェクトオブジェクトタイプとポートフォリオオブジェクトタイプの両方に対応する、制限付き編集に最も類似する権限です。

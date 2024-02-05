@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: システムで追跡された更新
-description: Adobe Workfrontは、特定のオブジェクトの [!UICONTROL 更新] 領域。
+title: システムで追跡される更新
+description: Adobe Workfront は、オブジェクトの[!UICONTROL 更新]エリアのステータス情報をログに記録することで、特定のオブジェクトに対して行われるアクティビティを記録します。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,27 +12,27 @@ exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
 source-wordcount: '405'
-ht-degree: 6%
+ht-degree: 73%
 
 ---
 
-# システムで追跡された更新
+# システムで追跡される更新
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
-[!DNL Adobe Workfront] は、オブジェクトの [!UICONTROL 更新] 領域。
+[!DNL Adobe Workfront] は、オブジェクトの[!UICONTROL 更新]エリアのステータス情報をログに記録することで、特定のオブジェクトに対して行われるアクティビティを記録します。
 
-The [!UICONTROL 更新] 領域には、次の更新のタイプが含まれます。
+[!UICONTROL 更新]エリアには、次のタイプの更新が含まれます。
 
-* **ユーザーの更新：** ユーザーが手動で入力した。 コメント、返信、メモとも呼ばれます。
+* **ユーザー更新：**&#x200B;ユーザーが手動で入力したもの。コメント、返信、メモとも呼ばれます。
 
-  ユーザーの更新の設定について詳しくは、 [ユーザーの更新の環境設定を構成する](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+  ユーザーの更新の設定について詳しくは、[ユーザー更新の環境設定の指](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)を参照してください。
 
   ![](assets/updates-qs-350x125.png)
 
-* **システムの更新：** システムによって自動的に作成されます。 システム更新には、アイテムに発生した変更の種類を説明する簡単なメモが含まれています。
+* **システム更新：** システムによって自動的に行われたもの。システム更新には、項目に発生した変更の種類を説明する簡単なメモが含まれます。
 
-  システム更新フィードとそれらを有効にする方法について詳しくは、 [システム更新の構成](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  システム更新フィードおよびそれらを有効にする方法について詳しくは、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
   ![](assets/system-updates-example-unified-stream.png)
 
@@ -42,11 +42,11 @@ The [!UICONTROL 更新] 領域には、次の更新のタイプが含まれま�
   
   -->
 
-## システムで追跡される更新に関する考慮事項
+## システムで追跡された更新に関する考慮事項
 
 [ 更新 ] 領域を持つすべてのオブジェクトに対して、システムで追跡された更新を利用できるわけではありません。
 
-* The [!UICONTROL 更新] 領域は、次のオブジェクトに対して使用できます。
+* [!UICONTROL 更新]エリアは、次のオブジェクトで使用できます。
 
    * [!UICONTROL プロジェクト]
    * [!UICONTROL タスク]
@@ -61,21 +61,21 @@ The [!UICONTROL 更新] 領域には、次の更新のタイプが含まれま�
    * [!UICONTROL タイムシート]
    * [!UICONTROL ストーリー]
 
-     In [!DNL Workfront]ストーリーはタスクです。
+     [!DNL Workfront]では、ストーリーはタスクです。
    * [!UICONTROL 反復]
    * [!UICONTROL 目標]
 
-     へのアクセス権を持つには、追加のライセンスが必要です。 [!UICONTROL 目標] 領域。 詳しくは、 [Workfront目標の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * [!UICONTROL カード] 板の上で
+     [!UICONTROL 目標]エリアにアクセス権するには、追加のライセンスが必要です。詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+   * ボード上の[!UICONTROL カード]
 
-     カードの更新について詳しくは、 [ボードでの接続済みカードの使用](../../../agile/get-started-with-boards/connected-cards.md).
+     カードの更新について詳しくは、[ボードでの接続されたカードの使用](../../../agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 * [!DNL Workfront] は、次のオブジェクトのシステム更新を追跡しません。
 
    * [!UICONTROL チーム]
    * [!UICONTROL テンプレート]
    * [!UICONTROL テンプレート タスク]
-   * アドホック [!UICONTROL カード]
+   * アドホック[!UICONTROL カード]
    * [!UICONTROL イテレーション]
 
 
@@ -88,25 +88,25 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
    * 新しいコメントエクスペリエンスを使用する場合、ユーザーの更新が「コメント」タブに表示され、システムの更新が「システムアクティビティ」タブに表示されます。
 
-     新しいコメントエクスペリエンスについて詳しくは、 [新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+     新しいコメントエクスペリエンスについて詳しくは、[新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 
    * 従来のコメントエクスペリエンスを使用する場合、システムとユーザーの更新は 1 つの連続したフィードに表示されます。
 
    * 従来のコメントエクスペリエンスを使用する場合、ユーザーはデフォルトでシステムの更新を表示したり、表示しないように選択したりできます。 新しいコメントエクスペリエンスを使用する場合、システムの更新を無効にすることはできません。
 
-     システム更新の表示を無効にする方法については、「 [システム更新を有効または無効にする](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) 記事内 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     システム更新の表示を無効にする方法について詳しくは、[作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)の記事にある[システムアップデートを有効化または無効化](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable)の節を参照してください。
 
-* Workfrontは、次のオブジェクトに関するシステム追跡された更新を記録しますが、表示を無効にするオプションはありません。
+* Workfront は、次のオブジェクトに関するシステムで追跡された更新を記録しますが、これらについては表示を無効にするオプションはありません。
 
    * [!UICONTROL ポートフォリオ]
    * [!UICONTROL プログラム]
    * [!UICONTROL 反復]
 
-* [!DNL Workfront] 管理者は、システムで追跡する必要のある変更の種類を [!UICONTROL 更新] 領域。 次のアイテムを持たないオブジェクトが存在する： [!UICONTROL 更新] 領域も設定可能 [!UICONTROL 更新] フィード。 次のオブジェクトには [!UICONTROL 更新] システムが追跡する更新フィードを取り込むが、設定可能な更新フィードを持たない領域：
+* [!DNL Workfront] 管理者は、[!UICONTROL 更新]エリアでシステムで追跡する必要のある変更の種類を定義できます。[!UICONTROL 更新]エリアを持つすべてのオブジェクトに、設定可能な[!UICONTROL 更新]フィードがあるとは限りません。次のオブジェクトには[!UICONTROL 更新]エリアがあり、システムで追跡された更新フィードを記録しますが、設定可能な更新フィードはありません。
 
    * [!UICONTROL ドキュメント]
    * [!UICONTROL タイムシート]
-   * [!UICONTROL 反復]
+   * [!UICONTROL イテレーション]
    * [!UICONTROL 目標]
 
 

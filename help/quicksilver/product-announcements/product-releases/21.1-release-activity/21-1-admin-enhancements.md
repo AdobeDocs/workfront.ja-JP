@@ -9,7 +9,7 @@ feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 100%
 

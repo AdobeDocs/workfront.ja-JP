@@ -2,16 +2,16 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: ファイルまたはフォルダーのメタデータを一覧表示します
-description: ファイルまたはフォルダーのメタデータを一覧表示します
+title: ファイルまたはフォルダーのメタデータを一覧表示する
+description: ファイルまたはフォルダーのメタデータを一覧表示する
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '96'
+ht-degree: 91%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 4%
 
 **URL**
 
-GET/ファイル
+GET /files
 
 ## クエリパラメーター
 
 | 名前  | 説明 |
 |---|---|
-| parentId  | フォルダー ID。 ルートディレクトリのメタデータを取得するには、値「/」を使用します。 |
-| 最大  | 返す項目の最大数。 ページネーションに使用されます。 |
-| オフセット  |  ページオフセット。「max」と組み合わせて使用します。 |
+| parentId  | フォルダー ID。ルートディレクトリのメタデータを取得するには、値「/」を使用します。 |
+| 最大  | 返す項目の最大数。ページネーションに使用されます。 |
+| オフセット |  ページオフセット。「max」と組み合わせて使用します。 |
 
 
 ## 応答
 
-ファイルとフォルダーのリストを含む JSON。 各項目のメタデータは、/metadata エンドポイントから返されるメタデータと同じです。
+ファイルとフォルダーのリストを含んだ JSON。各項目のメタデータは、/metadata エンドポイントから返されるメタデータと同じです。
 
 **例：** https://www.acme.com/api/files?parentId=123456
 

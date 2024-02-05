@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: "グループ：記事インデックス"
-description: Workfront管理者は、部門の構造と一致するユーザーのグループを作成できます。 グループは、チームや会社に似ていますが、異なります。 Workfrontの管理者は、作業および通信が必要なWorkfront領域へのアクセス権をグループに付与します。 その後、各グループは、ユーザー、テンプレート、カスタムフォームなどのWorkfrontの情報や、プロジェクトを他の部門の情報とは別に保持できます。 グループごとに少なくとも 1 人のグループ管理者が必要です。 グループ管理者は、グループページを使用して、自分のグループを 1 か所で管理できます。 1 つのグループの下に、最大 14 レベルのサブグループを作成できます。
+description: Workfront 管理者は、部門の構造と一致するユーザーのグループを作成できます。グループは、チームや会社に似ていますが、異なります。Workfront 管理者は、作業およびコミュニケーションが必要な Workfront エリアへのアクセス権をグループに付与します。各グループは、ユーザー、テンプレート、カスタムフォームなどの Workfront の情報やプロジェクトを他の部門のものと分けて別に管理できます。グループごとに 1 人以上のグループ管理者が必要です。グループ管理者は、グループページを使用して、自分のグループを 1 か所で管理できます。1 つのグループの下に、最大 14 レベルのサブグループを作成できます。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -13,7 +13,7 @@ exl-id: afbbdda2-095b-429d-a672-2f53c541273c
 source-git-commit: a603b169a5863661508b796171aa6a12ac8fc3aa
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 

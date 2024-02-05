@@ -3,7 +3,7 @@ title: レイアウトテンプレートを使用したメインメニューの�
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Adobe Workfrontの管理者またはグループ管理者は、レイアウトテンプレートを使用して、Workfrontでメインメニューを開いたときに表示されるオプションを設定できます。
+description: Adobe Workfront の管理者またはグループ管理者は、レイアウトテンプレートを使用して、Workfront でメインメニューを開いた際に表示されるオプションを設定できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '574'
-ht-degree: 4%
+ht-degree: 71%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 4%
 
 <!--Audited: 01/2024-->
 
-Adobe Workfrontの管理者またはグループ管理者は、レイアウトテンプレートを使用して、Workfrontでメインメニューを開いたときに表示されるオプションを設定できます。
+Adobe Workfront の管理者またはグループ管理者は、レイアウトテンプレートを使用して、Workfront でメインメニューを開いた際に表示されるオプションを設定できます。
 
 ![メインメニューオプション](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
->ユーザーに表示されるメインメニューオプションは、ライセンスの種類と、アクセスレベルで設定されている設定によって異なります。 このレイアウトテンプレートを使用する一部のユーザーは、ここで選択するすべてのオプションが表示されない場合があります。 詳しくは、 [アクセスレベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) および [各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>ユーザーに表示されるメインメニューオプションは、ライセンスタイプおよびアクセスレベルで指定されている設定によって異なります。このレイアウトテンプレートを使用する一部のユーザーには、ここで選択するすべてのオプションが表示されない場合があります。詳しくは、[アクセスレベルと権限の連携](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)および[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
-レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
 
@@ -42,11 +42,11 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfrontプラン</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
    <td><p>現在：プラン</p>
    または
    <p>新規：標準</p></td> 
@@ -62,9 +62,9 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
 
 *アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## メインメニューのカスタマイズ
+## メインメニューをカスタマイズ
 
-1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 1. クリック **メインメニューの設定** をクリックします。
 
    「メインメニュー」(Main Menu) ボックスが開き、テンプレートの「メインメニュー」(Main Menu) に現在表示されている領域と、追加可能な項目が表示されます。 次に、追加できるすべての項目を示します。
@@ -85,7 +85,7 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
 
      >[!NOTE]
      >
-     >シナリオ・プランナには、追加のライセンスが必要です。 Workfront Scenario Planner の詳細は、 [シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md).
+     >シナリオプランナには、追加のライセンスが必要です。Workfront シナリオプランナについては、[シナリオプランナの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
    * チーム
    * ユーザー
@@ -99,12 +99,12 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
    * ドキュメント
    * テンプレート
    * 分析
-   * 校正
-   * 目標
+   * プルーフ
+   * Goals
 
      >[!NOTE]
      >
-     >目標には追加のライセンスが必要です。 Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Goals では追加のライセンスが必要です。Workfront Goals について詳しくは、[Adobe Workfront Goals の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。
 
    * マイ更新
    * ボード
@@ -112,22 +112,22 @@ Adobe Workfrontの管理者またはグループ管理者は、レイアウト�
 
 1. 次のいずれかの操作を行います。
 
-   * 非表示 ![](assets/remove-icon---x-in-circle.png) **アクティブな項目** 表示したくない
-   * 表示 ![](assets/add-icon-plus-in-circle.png) **利用可能な項目** を選択します。
-   * ドラッグ ![](assets/move-icon---dots.png) **アクティブな項目** をクリックして、メインメニューの表示順を変更します。
+   * 表示しない ![](assets/remove-icon---x-in-circle.png) **アクティブな項目**&#x200B;を非表示にします。
+   * メインメニューに表示する ![](assets/add-icon-plus-in-circle.png) **利用可能な項目**&#x200B;を表示します。
+   * ![](assets/move-icon---dots.png) **アクティブな項目**&#x200B;をドラッグして、メインメニューの表示順を変更します。
 
-1. クリック **完了**.
+1. 「**完了**」をクリックします。
 
-   また、 **キャンセル** 変更を破棄する場合は、いつでも変更を破棄できます。
+   また、変更を破棄する場合は、いつでも「**キャンセル**」をクリックして変更を破棄できます。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 
    または
 
-   カスタマイズが終了したら、 **保存**.
+   カスタマイズが完了したら、「**保存**」をクリックします。
 
    >[!TIP]
    >
-   >「保存」はいつでもクリックして進行状況を保存でき、後でテンプレートの変更を続行できます。
+   >いつでも「保存」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
 
-レイアウトテンプレートについて詳しくは、 [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートについて詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。

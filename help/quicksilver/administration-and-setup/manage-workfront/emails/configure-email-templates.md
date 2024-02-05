@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: emails-administration
-title: 電子メールテンプレートの設定
-description: Adobe Workfront管理者は、リマインダー通知をサポートするように電子メールテンプレートを設定できます。
+title: メールテンプレートの設定
+description: Adobe Workfront 管理者は、リマインダー通知をサポートするようにメールテンプレートを設定できます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,18 +11,18 @@ exl-id: 2ebc3be5-2734-4012-9277-86176c070137
 source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 2%
+ht-degree: 70%
 
 ---
 
-# 電子メールテンプレートの設定
+# メールテンプレートの設定
 
-Adobe Workfront管理者は、リマインダー通知をサポートするように電子メールテンプレートを設定できます。
+Adobe Workfront 管理者は、リマインダー通知をサポートするようにメールテンプレートを設定できます。
 
-電子メールテンプレートには、リマインダー通知が開始されたときにユーザーに送信されるメッセージが含まれます。\
-E メールテンプレートがない場合、リマインダー通知は空のコンテンツとして E メールの本文に配信されます。
+メールテンプレートには、リマインダー通知が実行されたときにユーザーに送信されるメッセージが含まれています。\
+メールテンプレートがない場合、リマインダー通知はメールの本文が空のコンテンツとして配信されます。
 
-電子メールテンプレートは、懸案事項、タスク、プロジェクト、およびタイムシートに関するリマインダー通知に関連付けることができます。 E メールテンプレートを作成する際に、Workfront管理者が E メールのコンテンツと件名を入力できます。
+メールテンプレートは、懸案事項、タスク、プロジェクトおよびタイムシートに関するリマインダー通知に関連付けることができます。メールテンプレートを作成する際に、Workfront 管理者はメールのコンテンツと件名を入力できます。
 
 ## アクセス要件
 
@@ -33,11 +33,11 @@ E メールテンプレートがない場合、リマインダー通知は空の
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td><p>現在：プラン</p>
    または
    <p>新規：標準</p></td> 
@@ -59,7 +59,7 @@ E メールテンプレートがない場合、リマインダー通知は空の
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. クリック **新規メールテンプレート**.
+1. **新規メールテンプレート**&#x200B;をクリックします。
 
 1. Adobe Analytics の **新規メールテンプレート** ボックスで、次の情報を指定します。
 
@@ -77,7 +77,7 @@ E メールテンプレートがない場合、リマインダー通知は空の
       <ul>
       <li>プロジェクト</li>
       <li>タスク</li>
-      <li>問題</li>
+      <li>イシュー</li>
       <li>タイムシート</li> </ul>
 
    これは必須フィールドで、デフォルトでは「プロジェクト」に設定されています。</td>
@@ -100,22 +100,22 @@ E メールテンプレートがない場合、リマインダー通知は空の
 
 1. 「**保存**」をクリックします。
 
-## E メールHTMLにテンプレートの書式を追加する {#add-html-formatting-to-an-email-template}
+## メールテンプレートに HTML 書式を追加 {#add-html-formatting-to-an-email-template}
 
-E メールテンプレートにHTMLタグを追加して、カスタム通知を作成できます。\
-電子メールテンプレートの作成を開始します。詳しくは、 [新しい電子メールテンプレートを作成します](#create-a-new-email-template).
+メールテンプレートに HTML タグを追加して、カスタム通知を作成できます。\
+[メールテンプレートを新規作成](#create-a-new-email-template)で説明されているように、メールテンプレートの作成を開始します。
 
-HTMLのフォーマットを使用すると、次の節で示すように、E メールテンプレートをエンリッチメントできます。
+HTML の形式を使用すると、次の節で示すように、メールテンプレートをエンリッチできます。
 
-* [Workfrontオブジェクトへのリンク](#link-to-workfront-objects)
-* [HTMLを使用したカスタムフィールドへのリンク](#link-to-custom-fields-with-html)
-* [HTMLE メールの例](#html-email-examples)
+* [Workfront オブジェクトへのリンク](#link-to-workfront-objects)
+* [HTML を使用したカスタムフィールドへのリンク](#link-to-custom-fields-with-html)
+* [HTML メールの例](#html-email-examples)
 
-### Workfrontオブジェクトへのリンク {#link-to-workfront-objects}
+### Workfront オブジェクトへのリンク {#link-to-workfront-objects}
 
-Workfrontフィールドへのリンクは、 `$$` ワイルドカードを使用して、特定のオブジェクトに関連付けられたデータベースから値を探すように e メールジェネレーターに指示します。
+Workfront フィールドへのリンクは、`$$` ワイルドカードを使用して、特定のオブジェクトに関連付けられたデータベースから値を探すようにメールジェネレーターに指定します。
 
-例えば、タスクが開始されるタスクを担当者に警告する通知用の E メールの本文では、次の構造に従うことができます。
+例えば、開始されるタスクについて、割り当て先にアラートを送信する通知用のメール本文では、次の設定に従います。
 
 ```html
 <html>
@@ -141,25 +141,25 @@ Workfrontフィールドへのリンクは、 `$$` ワイルドカードを使�
 
 * API エクスプローラーを参照し、任意のオブジェクトの「フィールド」タブからオブジェクトの名前を選択します。 API エクスプローラーについて詳しくは、 [API エクスプローラ](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* 以下を使用します。 `valuefield` 値は、レポートのテキストモード表示内にあります。 テキストモードの値について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* 以下を使用します。 `valuefield` 値は、レポートのテキストモード表示内にあります。 テキストモードの値について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
 The `heading` の値には、電子メール本文に表示するオブジェクトの名前を指定できます。
 
-### HTMLを使用したカスタムフィールドへのリンク {#link-to-custom-fields-with-html}
+### HTML を使用したカスタムフィールドへのリンク {#link-to-custom-fields-with-html}
 
 ユーザーおよびカスタムフィールドへのリンクを含めるには、 `$$` ワイルドカードを使用して、e メールジェネレーターに対し、オブジェクトに関連付けられたデータベースから値を探すように指示します。 データベース属性参照のどちら側にも存在する必要があります。
 
-例えば、次のテキストをHTMLとして追加すると、割り当てられたユーザーの名がタスクに関連付けられたリマインダー通知に追加されます。
+例えば、次のテキストを HTML として追加すると、割り当てられたユーザーのファーストネームがタスクに関連付けられたリマインダー通知に追加されます。
 
 `assignedTo:firstName`
 
-同じ書式を使用してカスタムフィールドを追加するには、電子メール通知に次の内容を追加します。
+同じ書式を使用してカスタムフィールドを追加するには、メール通知に次の内容を追加できます。
 
 `DE:Custom Field As It Appears in Workfront`
 
-例えば、これは、「配信日」という名前のカスタムフィールドへの参照を含む電子メールテンプレートで、「配信日」フィールドがタスクに属していると仮定します。
+例えば、これは、配信日という名前のカスタムフィールドへの参照を含むメールテンプレートで、「配信日」フィールドがタスクに属していると仮定します。
 
-置換 `<your domain>` 会社のWorkfrontドメイン（括弧なし）で囲みます。
+括弧を使用せずに、`<your domain>` を会社の Workfront ドメインに置き換えます。
 
 ```html
 <html>
@@ -193,22 +193,22 @@ The `heading` の値には、電子メール本文に表示するオブジェク
 >
 >`DE:Project:Delivery Date`
 
-### HTMLE メールの例 {#html-email-examples}
+### HTML メールの例 {#html-email-examples}
 
 * [遅延プロジェクトのリマインダー通知（例）](#late-project-reminder-notification-example)
-* [Task または Issue About to Start リマインダー（例）](#task-or-issue-about-to-start-reminder-example)
+* [開始予定のタスクまたはイシューのリマインダー（例）](#task-or-issue-about-to-start-reminder-example)
 
 #### 遅延プロジェクトのリマインダー通知（例） {#late-project-reminder-notification-example}
 
-遅延プロジェクトのリマインダー用の電子メールテンプレートを編集する場合は、「件名」フィールドと「コンテンツ」フィールドに関して、この情報を考慮してください。
+遅延プロジェクトのリマインダー用のメールテンプレートを編集する場合は、「件名」フィールドと「コンテンツ」フィールドに関するこの情報を考慮してください。
 
-置換 `<your domain>` 会社のWorkfrontドメイン（括弧なし）で置き換えます。
+括弧を使用せずに、`<your domain>` を会社の Workfront ドメインに置き換えます。
 
-**件名：**
+**件名:**
 
-管理するプロジェクトが遅れています
+管理するプロジェクトが遅れています。
 
-**コンテンツ：**
+**内容：**
 
 ```html
 <html>
@@ -228,25 +228,25 @@ The `heading` の値には、電子メール本文に表示するオブジェク
 </html>
 ```
 
-これにより、次のような E メールが生成されます。
+これにより、次のようなメールが生成されます。
 
 ![](assets/project-became-late-email.png)
 
-#### タスクまたは問題のリマインダーを開始する {#task-or-issue-about-to-start-reminder-example}
+#### 開始予定のタスクまたはイシューのリマインダー {#task-or-issue-about-to-start-reminder-example}
 
-また、今後のタスクや問題に対するリマインダー通知を作成することもできます。
+また、今後のタスクまたはイシューに対するリマインダー通知を作成することもできます。
 
-次のコードを電子メールテンプレートに含めて、タスクやタスクの予定開始日より何日も前に送信される、タスクや問題のリマインダー通知に使用できます。
+次のコードをメールテンプレートに含めて、タスクまたはイシューの予定開始日より何日も前に送信される、タスクやイシューのリマインダー通知に使用できます。
 
-置換 `<your domain>` 会社のWorkfrontドメイン（括弧なし）で置き換えます。
+括弧なしで、`<your domain>` を会社の Workfront ドメインに置き換えます。
 
-これを問題の電子メールに使用するには、 `/task/view.` 作業項目のリンク先の値 `/issue/view`.
+これをイシューのメールに使用するには、リンク内の `/task/view.` 値を `/issue/view` への作業アイテムに変更します。
 
-**件名：**
+**件名:**
 
 `$$name$$ to start on $$plannedStartDate$$`
 
-**コンテンツ：**
+**内容：**
 
 ```html
 <html>
@@ -285,4 +285,4 @@ The `heading` の値には、電子メール本文に表示するオブジェク
 
 ![email_template_delivered.png](assets/email-template-delivered.png)
 
-電子メールテンプレートを作成した後、ユーザーは、電子メールテンプレートをリマインダー通知に関連付けることができます。詳しくは、 [リマインダー通知の設定](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+[リマインダー通知の設定](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)で説明したように、メールテンプレートを作成した後に、ユーザーはメールテンプレートをリマインダー通知に関連付けることができます。

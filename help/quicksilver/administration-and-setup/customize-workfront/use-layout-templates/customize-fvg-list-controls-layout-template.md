@@ -1,9 +1,9 @@
 ---
-title: レイアウトテンプレートを使用したフィルター、ビューおよびグループのカスタマイズ
+title: レイアウトテンプレートを使用したフィルター、表示およびグループ化のカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Workfrontの管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。 これらのメニューは、Workfront全体のリストの上に表示されます（プロジェクトのタスクのリストなど）。
+description: Workfront の管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。これらのメニューは、プロジェクトのタスクリストなど、Workfront 全体のリストの上に表示されます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -11,21 +11,21 @@ exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
-# レイアウトテンプレートを使用したフィルター、ビューおよびグループのカスタマイズ
+# レイアウトテンプレートを使用したフィルター、表示およびグループ化のカスタマイズ
 
-Adobe Workfrontの管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。 これらのメニューは、Workfront全体のリストの上に表示されます。例えば、プロジェクトのタスクのリストなどです。
+Adobe Workfront の管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。これらのメニューは、プロジェクトのタスクリストなど、Workfront 全体のリストの上に表示されます。
 
 ![](assets/filter-view-grouping-layout-templates.png)
 
-レイアウトテンプレートについて詳しくは、 [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
 
@@ -36,59 +36,59 @@ Adobe Workfrontの管理者は、レイアウトテンプレートを使用し�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## フィルター、表示およびグループ化リストのコントロールのカスタマイズ：
+## フィルター、表示およびグループ化のリストコントロールをカスタマイズ：
 
-1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. 下向き矢印をクリックします。 ![](assets/down-arrow-blue.png) under **ユーザーに表示する内容をカスタマイズする**&#x200B;を選択し、次に **リスト** をクリックします。
+1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
+1. **ユーザーに表示する内容のカスタマイズ**&#x200B;の下にある下向き矢印![](assets/down-arrow-blue.png)をクリックし、次に&#x200B;**リスト**&#x200B;をクリックします。
 
    ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. 下向き矢印をクリックします。 ![](assets/down-arrow-blue.png) under **カスタマイズするリストを選択**&#x200B;次に、フィルター、表示およびグループ化リストコントロールをカスタマイズするWorkfrontオブジェクトのタイプを選択します。
+1. **カスタマイズするリストの選択**&#x200B;の下にある下向き矢印![](assets/down-arrow-blue.png)をクリックし、次に、フィルター、表示およびグループ化のリストコントロールをカスタマイズする Workfront オブジェクトのタイプを選択します。
 
    ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
-   >カスタマイズするプロジェクトを一覧として選択し、[ フィルタ ] セクションの [ 自分が所有するプロジェクト ] または [ 自分が所有するプロジェクト ] を無効にすると、ユーザーはそのフィルタを表示できなくなり、使用できなくなります。
+   >カスタマイズするプロジェクトをリストとして選択し、フィルタセクションにある、自分が所属するプロジェクト、または自分が所有するプロジェクトを無効にすると、ユーザーはそのフィルターを表示したり使用したりすることができなくなります。
    >
-   >* フィルターアイコンをクリックしたときに表示されるフィルターのリスト ![](assets/filter-nwepng.png) リストの上：
+   >* リストの上にあるフィルターアイコン ![](assets/filter-nwepng.png) をクリックしたときに表示されるフィルターのリスト内で、以下のように行います。
    >   
    >  ![](assets/disable-filters-projects-im-on-or-own.png)
    >   
-   >* 「プロジェクト」領域ヘッダーのヘッダーで、次の操作をおこないます。
+   >* プロジェクトエリアヘッダーの上にあるヘッダーで、以下のように行います。
    >   
    >  ![](assets/disable-filter-pills.png)
 
-1. （オプション）レイアウトテンプレートのデフォルトのフィルター、表示またはグループ化を変更する場合は、フィルター、表示またはグループ化にカーソルを合わせて、 **デフォルトとして設定**.
+1. （オプション）レイアウトテンプレートのデフォルトのフィルター、表示またはグループ化を変更する場合は、フィルター、表示またはグループ化にポインタを合わせて、**デフォルトとして設定**&#x200B;をクリックします。
 
-   選択したデフォルトによって、レイアウトテンプレートが割り当てられているときにWorkfront全体のリストに表示されるフィルター、表示、グループ化の各ユーザーが決まります。 これらのデフォルト値を変更しない場合、ユーザーは次のようにすべてのリストを表示します。
+   選択したデフォルトによって、レイアウトテンプレートがユーザーに割り当てられたときに、Workfront 全体のリストにユーザーに対して表示されるフィルター、表示、およびグループ化が決まります。これらのデフォルトを変更しない場合、以下のようにすべてのリストがユーザーに表示されます。
 
    * **フィルター**：すべて
-   * **表示**：標準（該当する場合。一部のリストにはこのビューがありません）
+   * **表示**：標準（該当する場合。一部のリストにはこの表示がありません）
    * **グループ化**：なし
 
-   別のデフォルトを選択した後で、「すべて」、「標準」、「なし」の各オプションを非表示にすることができます（手順 5 を参照）が、削除できません。
+   別のデフォルトを選択した後で、「すべて」、「標準」、「なし」の各オプションを非表示にすることができます（手順 5 を参照）が、削除はできません。
 
-   デフォルトとして使用されている他のオプションは削除できますが、最初に別のデフォルトを選択する必要があります。
+   デフォルトとして使用されているすべての他のオプションは削除できますが、最初に別のデフォルトを選択する必要があります。
 
-   フィルター、ビュー、グループの削除について詳しくは、 [デフォルトのフィルター、ビュー、グループを作成、編集および共有します](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+   フィルター、表示、グループ化の削除について詳しくは、[デフォルトのフィルター、表示、グループ化を作成、編集および共有](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md)を参照してください。
 
-1. 次のように、リストコントロールを非表示にして追加します。
+1. 以下のように、リストコントロールを非表示にして追加します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,15 +96,15 @@ Adobe Workfrontの管理者は、レイアウトテンプレートを使用し�
     <tbody> 
      <tr> 
       <td role="rowheader">リストコントロールを非表示にする</td> 
-      <td> <p>表示または非表示にするリストコントロールの横にあるボックスをオフにするか、オンにします。</p> <p>チェックボックスが淡色表示の場合は、そのリストコントロールを非表示にできません。 デフォルト <img src="assets/default-pill.png"> 現在既定として構成されている設定を非表示にできないため、各リストコントロールの設定は淡色表示になります。</p> </td> 
+      <td> <p>表示または非表示にするリストコントロールの横にあるボックスをオフ、またはオンにします。</p> <p>チェックボックスがグレー表示の場合は、そのリストコントロールを非表示にできません。現在デフォルトとして指定されている設定を非表示にできないため、各リストコントロールのデフォルト<img src="assets/default-pill.png">設定はグレー表示されます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">カスタムリストコントロールを追加</td> 
+      <td role="rowheader">カスタムリストコントロールの追加</td> 
       <td> <p> 
         <ol> 
-         <li value="1"> クリック <strong>フィルターを追加</strong>, <strong>ビューを追加</strong>または <strong>グループを追加</strong> をクリックします。 表示されるボックスに、組織用に以前に作成した既存のカスタムリストコントロールの名前を入力し、表示されたら名前をクリックします。</li> 
-         <li value="2"> 新しいカスタムリストコントロールをレイアウトテンプレートの既定のフィルタ、表示、またはグループ化として設定する場合は、 <strong>デフォルトとして設定</strong>. </li> 
-         <li value="3"> <p>クリック <strong>追加</strong> 完了したら、</p> <p><b>注意</b>: <p>ユーザーは、独自のリストにカスタムリストコントロールを追加できます。 レイアウトテンプレートにカスタムリストコントロールを追加すると、リストコントロールが追加され、パネルの下部に移動します。置き換えは行われません。</p> <p>これは、ユーザーがカスタムリストコントロールを持つ新しいレイアウトテンプレートに割り当てられる場合にも当てはまります。 </p> <p>リストコントロールのカスタマイズについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfrontの概要を表示</a>、および <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfrontでのグループ化の概要</a>.</p> </p> </li> 
+         <li value="1"> フィルター、表示、またはグループ化リストの下部にある<strong>フィルターの追加</strong>、<strong>表示の追加</strong>、または<strong>グループ化の追加</strong>をクリックします。表示されるボックスに、組織用に以前に作成した既存のカスタムリストコントロールの名前を入力し、表示されたら名前をクリックします。</li> 
+         <li value="2"> 新しいカスタムリストコントロールをレイアウトテンプレートのデフォルトのフィルター、表示、またはグループとして設定する場合は、「<strong>デフォルトとして設定</strong>」をクリックします。 </li> 
+         <li value="3"> <p>完了したら「<strong>追加</strong>」をクリックします。</p> <p><b>メモ</b>: <p>ユーザーは、独自のリストにカスタムリストコントロールを追加できます。Adobe Workfront 管理者がレイアウトテンプレートにカスタムリストコントロールを追加すると、リストコントロールが追加され、ユーザーのリストコントロールはパネルの下部に移動します。置き換えは行われません。</p> <p>カスタムリストコントロールを持つ新しいレイアウトテンプレートにユーザーを割り当てる場合にも、これが当てはまります。 </p> <p>リストコントロールのカスタマイズについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfrontの概要を表示</a>、および <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfrontでのグループ化の概要</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 
@@ -114,8 +114,8 @@ Adobe Workfrontの管理者は、レイアウトテンプレートを使用し�
 
    または
 
-   カスタマイズが終了したら、 **保存**.
+   カスタマイズが完了したら、「**保存**」をクリックします。
 
    >[!TIP]
    >
-   >「保存」はいつでもクリックして進行状況を保存でき、後でテンプレートの変更を続行できます。
+   >いつでも「保存」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。

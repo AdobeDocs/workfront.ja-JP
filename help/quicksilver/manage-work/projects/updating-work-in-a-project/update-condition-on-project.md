@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: プロジェクトの条件を更新
-description: プロジェクトの「条件」は、プロジェクトに関連する作業がスムーズに進むかどうか、または道路ブロックが発生したかどうかを示すために、プロジェクトに配置されるフラグです。 これは、プロジェクトのステータスとは異なり、プロジェクトに対して積極的に作業を行っているかどうかを示します。
+title: プロジェクトの状況の更新
+description: プロジェクトの状況は、プロジェクトに関連する作業がスムーズに進んでいるかどうか、または何らかの課題が発生したかどうかを示すために、プロジェクトに付けられるフラグです。これは、プロジェクトに対して積極的に取り組んでいるかどうかを示す、プロジェクトのステータスとは異なります。
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
-# プロジェクトの条件を更新
+# プロジェクトの状況の更新
 
-プロジェクトの「条件」は、プロジェクトに関連する作業がスムーズに進むかどうか、または道路ブロックが発生したかどうかを示すために、プロジェクトに配置されるフラグです。 これは、プロジェクトのステータスとは異なり、プロジェクトに対して積極的に作業を行っているかどうかを示します。
+プロジェクトの状況は、プロジェクトに関連する作業がスムーズに進んでいるかどうか、または何らかの課題が発生したかどうかを示すために、プロジェクトに付けられるフラグです。これは、プロジェクトに対して積極的に取り組んでいるかどうかを示す、プロジェクトのステータスとは異なります。
 
-プロジェクトの条件は、自動または手動で設定できます。 プロジェクトの条件を手動で変更するには、プロジェクトの所有者であるか、管理権限が必要です。
+プロジェクトの状況は、自動または手動で設定できます。プロジェクトの状況を手動で変更するには、プロジェクト所有者であるか、プロジェクトの管理権限が必要です。
 
-Adobe Workfront管理者は、 [カスタム条件の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Adobe Workfront 管理者は、環境にカスタムの状況を作成できます。詳しくは、[カスタム状況の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
 
 ## アクセス要件
 
@@ -30,28 +30,28 @@ Adobe Workfront管理者は、 [カスタム条件の作成または編集](../.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td>
 
 新しいライセンスの場合：
 <p>標準</p>
 
 現在のライセンスの場合：
-<ul><li><p>計画</p>
+<ul><li><p>プラン</p>
     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>プロジェクトへの表示またはアクセス権の高さ</p> <p>タスクおよび問題へのアクセスを編集 </p> </td> 
+   <td> <p>プロジェクトに対する表示以上のアクセス権</p> <p>タスクおよびイシューに対する編集アクセス権 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>タスクおよびタスクの条件を表示するタスクに対する権限を表示または上限に設定します</p>
-   <p>条件を更新するためのタスクおよび問題に関する権限を管理します</p>
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>状況を表示するための、タスクおよびイシューに対する表示以上の権限</p>
+   <p>状況を更新するための、タスクおよびイシューに対する管理権限</p>
      </td> 
   </tr> 
  </tbody> 
@@ -59,37 +59,37 @@ Adobe Workfront管理者は、 [カスタム条件の作成または編集](../.
 
 *保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 条件を自動的に設定
+## 状況の自動設定
 
-プロジェクトの条件を自動的に設定するには、プロジェクトの条件タイプを使用します。 Workfrontがプロジェクトの条件を自動的に設定するには、「条件タイプ」を「進行状況ステータス」に設定する必要があります。
+プロジェクトの状況を自動的に設定するかどうかは、プロジェクトの状況タイプで決まります。Workfront でプロジェクトの状況を自動的に設定するには、状況タイプを「進捗ステータス」に設定する必要があります。
 
-「設定」領域でプロジェクトの環境設定を行う場合、Workfrontまたはグループ管理者が、システム内の新規プロジェクトの「条件の種類」フィールドのデフォルトを決定します。 詳しくは、 [システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+システム内の新規プロジェクトの「状況タイプ」フィールドのデフォルトは、設定エリアでプロジェクトの環境設定を指定する際に、Workfront 管理者またはグループ管理者が決定します。詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-プロジェクトを作成すると、その時点のプロジェクトの進捗状況ステータスに合わせて、プロジェクトの条件が自動的に設定されます。 プロジェクトの進捗状況ステータスは、プロジェクト上のタスクの進捗状況に基づきます。
+プロジェクトを作成すると、その時点のプロジェクトの進捗ステータスに合わせて、プロジェクトの状況が自動的に設定されます。プロジェクトの進捗ステータスは、プロジェクトのタスクの進捗に基づいています。
 
-プロジェクト条件と、進捗状況ステータスに基づく計算方法について詳しくは、 [プロジェクトの進行状況ステータスの概要](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+プロジェクト状況と、進捗ステータスに基づくその計算方法については、[プロジェクトの進捗ステータスの概要](../../../manage-work/projects/planning-a-project/project-progress-status.md)を参照してください。
 
-## プロジェクトの条件を手動で更新する
+## プロジェクトの状況の手動更新
 
 プロジェクトの条件の種類を進捗状況ステータスではなく手動に設定した場合は、手動でプロジェクトの条件を更新できます。
 
-1. 条件を更新するプロジェクトに移動します。
+1. 状況を更新するプロジェクトに移動します。
 1. 次をクリック： **プロジェクトの詳細** 」セクションを使用して、
 
-1. 次の点を確認します。 **条件タイプ** フィールドが **手動**.
+1. 「**状況タイプ**」フィールドが「**手動**」に設定されていることを確認します。
 
    ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
 
-1. Adobe Analytics の **条件** 「 」フィールドで、以下のオプションから、関連する作業がスムーズに進むかどうか、または遅延が発生するかどうかを理解できるオプションを選択します。
+1. 「**状況**」フィールドで、関連する作業が順調に進んでいるかどうかや遅延があるかどうかについての理解に一致するものを、次のオプションから選択します。
 
-   * **ターゲット時**
-   * **危険にさらされて**
-   * **問題が発生している**
+   * **目標どおり**
+   * **危険あり**
+   * **トラブル発生中**
 
-   プロジェクト条件の詳細については、 [プロジェクト条件と条件タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+   プロジェクト状況について詳しくは、[プロジェクト状況と状況タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)を参照してください。
 
    >[!NOTE]
    >
-   >条件は、お使いの環境に合わせてカスタマイズできるので、お使いの環境で条件に対して 3 つ以上のオプションを検索できます。 条件の名前は、上記の名前とは異なる場合があります。 Workfrontの条件のカスタマイズについて詳しくは、 [カスタム条件の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+   >状況は環境に合わせてカスタマイズできるので、お使いの環境で状況の選択肢が 4 つ以上ある場合もあります。状況の名前は、上記の名前とは異なる場合があります。Workfront での状況のカスタマイズについては、[カスタム状況の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
 
 1. 「**変更を保存**」をクリックします。

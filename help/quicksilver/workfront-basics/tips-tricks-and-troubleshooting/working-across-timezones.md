@@ -2,48 +2,48 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: タイムゾーンをまたいでの作業
-description: 次の方法を理解すると役立ちます。 [!DNL Adobe Workfront] では、タイムゾーンを使用して、e メールなどの他の領域にあるオブジェクトと時間の時間フィールドを計算します。
+description: ' [!DNL Adobe Workfront]  では、タイムゾーンを使用して、オブジェクトの時間フィールドやメールなどの他のエリアの時間を計算する方法を理解すると役立ちます。'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
 # タイムゾーンをまたいでの作業
 
-次の方法を理解すると役立ちます。 [!DNL Adobe Workfront] では、タイムゾーンを使用して次の計算をおこないます。
+[!DNL Adobe Workfront] では、タイムゾーンを使用して次の計算を行う方法を理解すると役立ちます。
 
 * オブジェクトの時間フィールド
-* その他の回数 [!DNL Workfront] 自動Workfront E メールなどの領域
+* Workfront の自動メールなど、他の [!DNL Workfront] 領域での時間
 
-## のタイムゾーン [!DNL Workfront]
+## [!DNL Workfront] のタイムゾーン
 
-に表示される回数 [!DNL Workfront] は、組織のタイムゾーン設定に基づいています [!DNL Workfront] インスタンスとユーザープロファイルの両方に存在します。 これら 2 つのタイムゾーンが異なる場合、で使用する様々な領域や機能に時間の相違が生じる可能性があります。 [!DNL Workfront].
+[!DNL Workfront] に表示される時間は、組織の [!DNL Workfront] インスタンスとユーザープロフィールのタイムゾーン設定に基づいています。これら 2 つのタイムゾーンが異なる場合、[!DNL Workfront] で使用する様々な領域や機能に時間の相違が生じる可能性があります。
 
 >[!NOTE]
 >
->オブジェクトに関連付けられたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定ではなく、協定世界時 (UTC) で計算および保存されます。 カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて生成され、表示されます。
+>オブジェクトに添付されたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定ではなく、協定世界時（UTC）で計算および保存されます。カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて生成され、表示されます。
 
-* [組織の [!DNL Workfront] インスタンス](#your-organization-s-workfront-instance)
+* [組織の  [!DNL Workfront]  インスタンス](#your-organization-s-workfront-instance)
 * [ユーザープロファイル](#your-user-profile)
 
 ### 組織の [!DNL Workfront] インスタンス {#your-organization-s-workfront-instance}
 
-組織のタイムゾーン [!DNL Workfront] インスタンスは通常、メインオフィスの場所に設定されます。 これにより、次のことが決まります。
+組織の [!DNL Workfront] インスタンスのタイムゾーンは、通常、本社の場所に設定されます。これにより、次のことが決定されます。
 
-* が生成した E メールに表示される時間 [!DNL Workfront]
-* 新しく追加されたユーザーのタイムゾーン ( [!DNL Workfront] 管理者が、作業場所に基づいて異なるタイムゾーンを設定します。
+* [!DNL Workfront] が生成したメールに表示される時間
+* 新しく追加されたユーザーのタイムゾーン（[!DNL Workfront] 管理者が、ユーザーの勤務先の場所に基づいたタイムゾーンを設定する前）
 
-  この 2 つの例について詳しくは、 [システムの基本情報を設定する](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  この 2 つの例について詳しくは、[システムの基本情報の設定](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 
-* 上書きされたプロジェクトの請求率の開始または終了。 詳しくは、 [プロジェクト・レベルでの役割請求率の上書き](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+* 上書きされたプロジェクトの請求レートの開始または終了。詳しくは、[プロジェクトレベルで担当業務の請求レートを上書き](../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
 
 ### ユーザープロファイル {#your-user-profile}
 
-ユーザープロファイルのタイムゾーンは、勤務先の場所に対して設定する必要があります。 これにより、次のことが決まります。
+ユーザープロファイルのタイムゾーンは、勤務先の場所に設定する必要があります。これにより、次のことが決定されます。
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
@@ -51,59 +51,59 @@ ht-degree: 0%
 -->
 * 作業対象のオブジェクトの時間（開始時間や終了時間など）
 
-  複数のタイムゾーンのユーザーが 1 つのオブジェクトに割り当てられている場合、 [!DNL Workfront] は、各ユーザープロファイルで設定されたタイムゾーンを使用して、関係するすべてのユーザーのオブジェクト時間を変換します。
+  複数のタイムゾーンのユーザーが 1 つのオブジェクトに割り当てられている場合、[!DNL Workfront] は、各ユーザープロファイルで設定されているタイムゾーンを使用して、関係するすべてのユーザーのオブジェクト時間を変換します。
 
-  **例：** 勤務先の東部標準時 (EST) ゾーンで、午後 4 時に開始するタスクを設定し、太平洋標準時 (PST) ゾーンで勤務するユーザーに割り当てます。 これらのユーザーの場合、開始時間は午後 1 時と表示されます。 午後 4 時に表示する場合、3 時間遅れて作業を開始します。
+  **例：**&#x200B;勤務先の東部標準時（EST）ゾーンでは、午後 4 時に開始するタスクを設定し、太平洋標準時（PST）ゾーンで勤務しているユーザーに割り当てます。これらのユーザーの場合、開始時間は午後 1 時と表示されます。午後 4 時と表示されている場合、3 時間遅れて作業を開始することになります。
 
-  オブジェクト作成者が割り当て先のタイムゾーンの違いをメモせず、オブジェクトの時間を設定する際に必要な調整を行う場合や、割り当て先が違いをメモしない場合は、誰もがオブジェクトで共同作業する間にタイミングを正しく取得するのが難しくなります。
+  オブジェクト作成者が割り当て先のタイムゾーンの違いに気づかず、オブジェクトの時間を設定する際に必要な調整を行わない場合や、担当者がその違いに気づかない場合は、全員がオブジェクトで共同作業を行う間のタイミングを正しく把握するのが難しくなります。
 
-  **例：** 1 日のタスクを、PST ゾーンでの作業を忘れて、EST の午前 9 時に開始するように設定します。 これらのユーザーの場合、開始時刻は午前 6 時です。 ユーザーが作業を開始するのは 9:00（正午の時間）までではないので、タスクは開始され、3 時間遅れて完了します。
+  **例：**&#x200B;タスクの一部のユーザーが PST ゾーンで勤務していることを忘れて、1 日のタスクを EST の午前 9 時に開始するように設定するとします。これらのユーザーの場合、開始時刻は午前 6 時になります。ユーザーが作業を開始するのは 9:00（あなたのタイムゾーンでは正午）なので、タスクの開始と終了が 3 時間遅れます。
 
-ユーザープロファイルでのタイムゾーンの設定について詳しくは、 [設定を行う](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+ユーザープロファイルでのタイムゾーンの設定について詳しくは、[個人設定を行う](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 
-を参照してください。 [!DNL Workfront] 管理者 ( または、 [!UICONTROL 編集] ユーザーへのアクセス ) は、ユーザープロファイルでタイムゾーンを設定できます。詳しくは、 [ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+[!DNL Workfront] 管理者（または、ユーザーへの[!UICONTROL 編集]アクセス権を持つユーザー）がユーザープロファイルのタイムゾーンを設定する方法については、[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-## ユーザーが複数のタイムゾーンをまたいで作業しやすくする方法
+## ユーザーが複数のタイムゾーンをまたいで簡単に作業する方法
 
-複数のタイムゾーンでユーザーがより簡単に作業できるようにするには、次の方法があります。
+複数のタイムゾーンのユーザーがより簡単に作業できるようにするには、次の方法があります。
 
 * [スケジュールを使用](#use-schedules)
-* [カスタムフォームで計算時間フィールドを使用する](#use-calculated-time-fields-in-a-custom-form)
-* [カスタムフォームで日付フィールドの代わりにテキストフィールドを使用する](#use-text-fields-instead-of-date-fields-in-a-custom-form)
+* [カスタムフォームでの計算時間フィールドの使用](#use-calculated-time-fields-in-a-custom-form)
+* [カスタムフォームで日付フィールドの代わりにテキストフィールドを使用](#use-text-fields-instead-of-date-fields-in-a-custom-form)
 
 ### スケジュールを使用 {#use-schedules}
 
-[!DNL Workfront] 管理者は、組織内のタイムゾーンごとに別々のスケジュールを作成し、すべてのユーザーがどこにいても作業が適切にスケジュールされるようにします。 管理者がスケジュールを作成したら、特定のプロジェクトおよびユーザーに関連付けることができます。
+[!DNL Workfront] 管理者は、組織内のタイムゾーンごとに別々のスケジュールを作成し、すべてのユーザーがどこにいても作業が適切にスケジュールされるようにします。管理者がスケジュールを作成したら、特定のプロジェクトやユーザーに関連付けることができます。
 
-* **[!UICONTROL プロジェクト]**：プロジェクト作成者は、個々のプロジェクトのスケジュールを選択できます。 割り当て先のタイムゾーンに設定された作業時間に基づいて、プロジェクト内のタスクのスケジュールを決定します。
-* **[!UICONTROL ユーザー]**: A [!DNL Workfront] 管理者 ( または、 [!UICONTROL 編集] ユーザーへのアクセス ) は、ユーザーのプロファイル内の個々のユーザーのスケジュールを選択できます。
+* **[!UICONTROL プロジェクト]**：プロジェクト作成者は、個々のプロジェクトのスケジュールを選択できます。この結果、割り当て先のタイムゾーンに設定された作業時間に基づいて、プロジェクト内のタスクのスケジュールが決定されます。
+* **[!UICONTROL ユーザー]**：[!DNL Workfront] 管理者（または、ユーザーへの[!UICONTROL 編集]アクセス権を持つユーザー）は、ユーザープロファイルで個々のユーザーのスケジュールを選択できます。
 
-  このスケジュールは、プロジェクトスケジュールとは異なる場合があります。 例えば、誰かがプロジェクト内にタスクを作成し、まだ誰も割り当てていない場合、そのタスクはプロジェクトスケジュールを使用します。 ユーザーがタスクに割り当てられると、そのタスクはそのユーザーのスケジュールを使用します。
+  このスケジュールは、プロジェクトスケジュールとは異なる場合があります。例えば、誰かがプロジェクト内にタスクを作成し、まだ誰にも割り当てていない場合、そのタスクはプロジェクトスケジュールを使用します。ユーザーがタスクに割り当てられると、そのタスクはそのユーザーのスケジュールを使用します。
 
-  複数のユーザーがタスクに割り当てられている場合、システム全体のプロジェクトプリファレンスで設定した次のいずれかが使用されます。
+  複数のユーザーがタスクに割り当てられている場合、システム全体のプロジェクト環境設定で設定した、次のいずれかが使用されます。
 
    * タスクのプライマリ所有者のスケジュールのタイムゾーン
    * プロジェクトのスケジュールのタイムゾーン。
 
   これにより、タスクの日付が変更される場合があります。
 
-  **例：** EST ユーザーは、EST の正午である PST の午前 9 時に開始するようにスケジュールされた 1 日のタスクに割り当てられます。 EST ユーザーは、その日の残り作業時間が 2 時間に過ぎないので、タスク完了日は次の作業日まで約 6 時間延長されます。
+  **例：** EST ユーザーは、EST の正午である PST の午前 9:00 に開始するようにスケジュールされた 1 日限りのタスクに割り当てられます。EST ユーザーは、その日の残り作業時間が 2 時間に過ぎないので、タスク完了日は次の作業日まで約 6 時間延長されます。
 
-  詳しくは、 [!UICONTROL プロジェクト環境設定] ～の面積 [!UICONTROL 設定]を参照してください。 [システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  [!UICONTROL 設定]の[!UICONTROL プロジェクト環境設定]エリアについては、[システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-  プロジェクトまたはユーザーにスケジュールを割り当てる手順については、 [スケジュールの作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  プロジェクトまたはユーザーにスケジュールを割り当てる手順については、[スケジュールを作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
-  スケジュールで設定されたタイムゾーンがの配布に与える影響について詳しくは、 [!UICONTROL 予定時間] （内） [!UICONTROL ワークロードバランサー]を参照してください。 [ユーザー割り当てを [!UICONTROL ワークロードバランサー]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  スケジュールで設定されたタイムゾーンが[!UICONTROL ワークロードバランサー]での[!UICONTROL 予定時間数]の配分に与える影響については、[[!UICONTROL ワークロードバランサー]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)でのユーザー割り当ての管理を参照してください。
 
 
-### カスタムフォームで計算時間フィールドを使用する {#use-calculated-time-fields-in-a-custom-form}
+### カスタムフォームでの計算時間フィールドの使用 {#use-calculated-time-fields-in-a-custom-form}
 
-カスタムフォームで一連の計算済みカスタムフィールドを使用して、複数の都市で時刻を表示する空港時計の列など、組織のユーザーの現在時刻を表示できます。 ユーザーが作業する各タイムゾーンに対してフィールドを作成し、それぞれのタイムゾーンの時間を計算できます。
+カスタムフォームで一連の計算カスタムフィールドを使用して、複数の都市の時刻を表示する空港時計の列のように、組織のユーザーの現在時刻を表示できます。ユーザーが作業するタイムゾーンごとにフィールドを作成し、それぞれのタイムゾーンの時刻を各フィールドで計算できます。
 
 詳しくは、 [計算データをカスタムフォームに追加する](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を追加し、セクションを [日付と時刻の計算されたカスタムフィールド](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) 記事内 [計算データ式の概要](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-### カスタムフォームで日付フィールドの代わりにテキストフィールドを使用する {#use-text-fields-instead-of-date-fields-in-a-custom-form}
+### カスタムフォームで日付フィールドの代わりにテキストフィールドを使用 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 
-もしあなたが望まないなら [!DNL Workfront] 異なるタイムゾーンのユーザー向けにオブジェクトのに設定した時間を変換するには、日付フィールドではなく、オブジェクトに添付するカスタムフォームのテキストフィールドを使用します。 これにより、時間は、プロジェクトの全員に対して入力した時間を表示します。
+設定した時刻がタイムゾーンの異なるユーザー向けに [!DNL Workfront] によってオブジェクト内で変換されないようにする場合は、オブジェクトに添付するカスタムフォームで、日付フィールドではなくテキストフィールドを使用します。これにより、入力した時刻が、プロジェクトのすべてのメンバーに対して表示されます。
 
-この場合、ユーザーにタイムゾーンとユーザーの時間差を計算して、いつ作業を開始し、終了するかを指定するようにフォームのユーザーに促すことをお勧めします。 これは、カスタムフォームの入力手順や、そのフィールドのツールヒントに含めることができます。 詳しくは、 [カスタムフォームにカスタムフィールドを追加する](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+この場合、開発者のタイムゾーンとの時差を計算して作業の開始日時と終了日時を判断できるようにすることをフォームのユーザーに注意することをお勧めします。これは、カスタムフォームに入力する説明文や、そのフィールドのツールヒントに含めることもできます。詳しくは、[カスタムフォームへのカスタムフィールドの追加](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)を参照してください。

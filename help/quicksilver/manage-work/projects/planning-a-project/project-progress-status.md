@@ -2,23 +2,23 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: プロジェクトの進行状況ステータスの概要
-description: Adobe Workfrontは、プロジェクトの進行状況をタイムライン全体で確認することで、プロジェクトの進行状況ステータスを決定します。 タスクの進捗状況ステータスの値に基づいて、プロジェクトの条件を決定するようにWorkfrontを設定できます。 プロジェクトの進行状況ステータスについて詳しくは、この記事を参照してください。
+title: プロジェクト進捗ステータスの概要
+description: Adobe Workfront では、タイムライン全体でプロジェクトの進行状況を確認することで、プロジェクトの進捗ステータスを決定します。タスクの進捗ステータスの値に基づいて、プロジェクトの状況を決定するように Workfront を設定できます。プロジェクトの進行状況ステータスについて詳しくは、この記事を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
 source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 1%
+ht-degree: 45%
 
 ---
 
-# プロジェクトの進行状況ステータスの概要
+# プロジェクト進捗ステータスの概要
 
 <!--Audited: 12/2023-->
 
-Adobe Workfrontは、プロジェクトの進行状況をタイムライン全体で確認することで、プロジェクトの進行状況ステータスを決定します。 タスクの進捗状況ステータスの値に基づいて、プロジェクトの条件を決定するようにWorkfrontを設定できます。 プロジェクトの条件の設定について詳しくは、この記事を参照してください。 [プロジェクト条件と条件タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront では、タイムライン全体でプロジェクトの進行状況を確認することで、プロジェクトの進捗ステータスを決定します。タスクの進捗ステータスの値に基づいて、プロジェクトの状況を決定するように Workfront を設定できます。プロジェクト状況の設定について詳しくは、[プロジェクト状況と状況タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)の記事を参照してください。
 
 Workfrontのプロジェクトの進捗状況ステータスを次に示します。
 
@@ -50,9 +50,9 @@ Workfrontのプロジェクトの進捗状況ステータスを次に示しま�
 
 次の点に注意してください。
 
-* プロジェクトの予測完了日は、最新の予測完了日を持つクリティカルパス上のタスクによって決定されます。
-* プロジェクトの完了予定日は、最新の完了予定日と共に、クリティカルパス上のタスクによって決定されます。
+* プロジェクトの見込み完了日は、最新の見込み完了日を持つクリティカルパス上のタスクによって決まります。
+* プロジェクトの推定完了日は、最新の推定完了日を持つクリティカルパス上のタスクによって決まります。
 
 プロジェクトのクリティカルパスについて詳しくは、 [プロジェクトの概要の重要なパス](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-予定完了日については、 [プロジェクト、タスクおよび問題に関する予定完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+見込み完了日については、[プロジェクト、タスクおよびイシューの見込み完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。

@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Adobe Workfront for XDをインストールして開きます。
-description: Adobe Workfront for XDプラグインは、Marketplace からAdobeできます。
+title: Adobe Workfront for XD をインストールして開きます。
+description: Adobe Workfront for XD プラグインは、Adobe Marketplace からインストールできます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 93%
 
 ---
 
-# インストールして開く [!DNL Adobe Workfront for XD]
+# [!DNL Adobe Workfront for XD] をインストールして開く
 
-次をインストールできます： [!DNL Adobe Workfront for XD] プラグインをAdobeMarketplace から このプラグインは、次の言語をサポートしています。
+[!DNL Adobe Workfront for XD] プラグインは、Adobe Marketplace からインストールできます。このプラグインでは、次の言語をサポートしています。
 
 * 英語
 * フランス語
@@ -48,74 +48,74 @@ ht-degree: 1%
   </tr> -->
   <tr> 
    <td role="rowheader">製品</td> 
-   <td><p>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</p><p>詳しくは、 <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloudサポートポリシー</a>.</p></td> 
+   <td><p>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</p><p>詳しくは、<a href="https://helpx.adobe.com/jp/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud サポートポリシー</a>を参照してください。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-* 次をインストールする必要があります： [!DNL Adobe XD] アプリを使用してください。
+* Workfront プラグインをインストールする前に、[!DNL Adobe XD] アプリをインストールする必要があります。
 
 ## をインストールします。 [!DNL Adobe Workfront for XD] 組織のプラグイン
 
-次の場合、 [!DNL Adobe Admin Console] 管理者の場合、 [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、 [パッケージにプラグインを含める](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+[!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
-[こちらでビデオチュートリアルを表示](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[こちらからビデオチュートリアルをご覧いただけます](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
 [!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成することもできます。 詳しくは、 [[!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] ユーザー向けのパッケージを [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
-## をインストールします。 [!DNL Adobe Workfront for XD] 個別にプラグイン
+## [!DNL Adobe Workfront for XD] プラグインの個別インストール
 
-次をインストールできます： [!DNL Adobe Workfront for XD] 自分用のプラグイン [!DNL Adobe Exchange].
+[!DNL Adobe Exchange] から自分用に [!DNL Adobe Workfront for XD] プラグインをインストールできます。
 
-1. 次に移動： [Adobe Workfront for XDのインストールページ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) をAdobeExchange に追加します。
-1. 表示されるダイアログで、 **開く [!DNL Adobe Creative Cloud] デスクトップアプリ**.
-1. 1 回 [!DNL Adobe XD] プラグインマネージャーが開き、「 **[!UICONTROL インストール]**.
-1. ダイアログボックスの情報を読み、 **[!UICONTROL OK]**.
+1. Adobe Exchange の [Adobe Workfront for XD のインストールページ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share)に移動します。
+1. 表示されるダイアログで、「**[!DNL Adobe Creative Cloud] デスクトップアプリを開く**」をクリックします。
+1. [!DNL Adobe XD] プラグインマネージャーを開いたら、「**[!UICONTROL インストール]**」をクリックします。
+1. ダイアログボックスの情報を読み、「**[!UICONTROL OK]**」をクリックします。
 1. プラグインを開く方法については、次の節を参照してください。
 
-## を開きます。 [!DNL Adobe Workfront for XD] プラグイン
+## [!DNL Adobe Workfront for XD] プラグインを開きます。
 
 1. 開く [!DNL Adobe XD].
 
-1. 新しいファイルを作成するか、既存のファイルを開きます。
+1. 新規ファイルを作成するか、既存のファイルを開きます。
 
-1. 左下隅で、 **プラグイン** アイコン。
+1. 左下隅で、**プラグイン**&#x200B;アイコンをクリックします。
 
 ![](assets/xd-plugin-window-350x620.png)
 
-1. Adobe Analytics の **[!UICONTROL プラグインパネル]**，検索 **[!UICONTROL Adobe Workfront for XD]**.
+1. **[!UICONTROL プラグインパネル]**&#x200B;で、**[!UICONTROL Adobe Workfront for XD]** を検索します。
 
 1. プラグインへのログイン方法については、次の節を参照してください。
 
-## にログインします。 [!DNL Adobe Workfront for XD]
+## [!DNL Adobe Workfront for XD] にログイン
 
-1. プラグインパネルが開いていることを確認し、「 **[!DNL Adobe Workfront for XD]**.
-1. ドメインを入力し、「 **[!UICONTROL ログイン]**. ブラウザーページが開きます。
+1. プラグインパネルが開いていることを確認し、「**[!DNL Adobe Workfront for XD]**」をクリックします。
+1. ドメインを入力し、「**[!UICONTROL ログイン]**」をクリックします。ブラウザーページが開きます。
 
    >[!TIP]
    >
-   >* ドメインを検索するには、ブラウザーを開き、 [!DNL Workfront] インスタンスを作成し、URL の最初の部分をコピーします。\
+   >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
    >![](assets/domain-350x50.png)
    >
-   > * WorkfrontインスタンスがExperience Cloudと統合されている場合は、Admin Consoleの製品/WorkfrontにあるWorkfrontドメインを管理者に連絡し、提供してもらってください。
+   > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 
-1. ブラウザーで、 [!DNL Workfront] 認証情報を選択し、「 **[!DNL Log in]**. シングルサインオン (SSO) を使用している場合は、SSO プロバイダのページにアクセスしてログインします。
-
-   >[!NOTE]
-   >
-   >次の項目を入力するよう求められない場合があります： [!DNL Workfront] 最近ログインした場合の資格情報。
-
-   画面の指示に従ってにログインします。 [!DNL Workfront].
+1. ブラウザーで、[!DNL Workfront] 資格情報を入力し、「**[!DNL Log in]**」をクリックします。会社がシングルサインオン（SSO）を使用している場合は、SSO プロバイダーのページにリダイレクトされ、そこからログインします。
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] 接続先 [!DNL Adobe Creative Cloud] OAuth 2.0 を使用する。これは、ほとんどの web ベースの統合で、ユーザーの認証と承認に使用される安全な標準です。
-   >* 次の項目を入力するよう求められた場合、 [ドメインまたはホスト] の [!DNL Workfront] アカウントに次の形式で入力します。 *yourCompany&#39;sDomain.my.workfront.com*. 会社のドメインは通常、会社の名前です。
+   >最近ログインした場合は、[!DNL Workfront] の資格情報の入力を求められない場合があります。
 
-1. クリック **[!UICONTROL アクセスを許可]** ログインを完了して、に戻るには、次の手順に従います。 [!DNL Adobe XD] 自分の仕事を見るために
+   画面の指示に従って、[!DNL Workfront] にログインします。
+
+   >[!NOTE]
+   >
+   >* [!DNL Workfront] と [!DNL Adobe Creative Cloud] との接続には OAuth 2.0 を使用します。これはほとんどの Web ベースの統合で、ユーザーの認証と承認に使用される安全な規格です。
+   >* [!DNL Workfront] アカウントの [ ドメインまたはホスト ] を入力するよう求められた場合は、*yourCompany&#39;sDomain.my.workfront.com* の形式で入力します。会社のドメインは通常、会社の名前です。
+
+1. 「**[!UICONTROL アクセスを許可]**」をクリックしてログインを完了し、[!DNL Adobe XD] に戻って自分の作業を確認します。
 
  

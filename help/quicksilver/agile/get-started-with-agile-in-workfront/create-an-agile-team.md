@@ -2,14 +2,14 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: アジャイルチームの作成
-description: Adobe Workfrontは、アジャイルチームが段階的かつ整理的な方法で作業を完了できるようにします。
+description: Adobe Workfront を使用すると、アジャイルチームが漸進的かつ組織的な方法で作業を完了できます。
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
 source-wordcount: '1001'
-ht-degree: 1%
+ht-degree: 88%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 1%
 
 <!--Audited: 01/2024-->
 
-[!DNL Adobe Workfront] アジャイルチームは、段階的で整理された方法で作業を完了できます。
+[!DNL Adobe Workfront] アジャイルチームは、漸進的かつ組織的な方法で作業を完了できます。
 
-組織内の任意のユーザーは、アジャイルチームを表示し、バックログ、反復、ストーリーボード、個々のストーリーを含む、チームのアジャイルコンポーネントをすべて表示できます。 ただし、 [!UICONTROL 編集] 作業にアクセスすると、チームに割り当てられた作業に変更を加えることができます。
+組織内のすべてのユーザーがアジャイルチームを表示し、バックログ、イテレーション、ストーリーボード、個々のストーリーなど、チームのすべてのアジャイルコンポーネントを表示できます。ただし、[!UICONTROL 編集]アクセス権があるチームのメンバーだけが、チームに割り当てられた作業を変更することができます。
 
-[!DNL Workfront] は、次のアジャイルな方法論をサポートしています。
+[!DNL Workfront] は、以下のアジャイル手法をサポートしています。
 
-* **[!UICONTROL スクラム]**：チームには、完了する必要がある作業のバックログがあります。 チームが特定の作業チャンクに対して作業を行う準備が整うと、作業はバックログから反復に移動します。 スクラムチームの管理について詳しくは、 [機敏なチームのスクラム](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
+* **[!UICONTROL スクラム]**：チームには、完了する必要がある作業のバックログがあります。チームが特定の量の作業に取り組む準備ができると、その作業はバックログからイテレーションに移動されます。スクラムチームの管理について詳しくは、[アジャイルチームのスクラム](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)参照してください。
 
-* **[!UICONTROL かんばん]:** チームは、かんばんビューで、事前に定義されたステータスにわたって作業を移動します。 デフォルトのステータスは「バックログ」、「処理中」、「完了」です。 かんばんチームの管理の詳細は、「 [アジャイルチームのかんばん](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **[!UICONTROL かんばん]：** チームは、カンバンビューで事前に設定されたステータス間で作業を移動します。デフォルトのステータスは、バックログ、処理中、完了です。かんばんチームの管理について詳しくは、[アジャイルチームのかんばん](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)を参照してください。
 
 ## アクセス要件
 
@@ -38,7 +38,7 @@ ht-degree: 1%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -51,42 +51,42 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプランやライセンスのタイプを確認するには、[!DNL Workfront] 管理者に連絡してください。
 
-## 機敏な方法論の決定
+## アジャイル方法論の決定
 
-アジャイルチームには、スクラムまたはかんばんアジャイルの方法を使用できます。 各方法には様々な利点があります。 アジャイルチームの作業方法によって、使用するアジャイルな方法が決まります。
+アジャイルチームには、スクラムアジャイル方法論、またはかんばんアジャイル方法論を使用できます。それぞれの方法論には様々なメリットがあります。アジャイルチームの作業方法によって、選択して使用するアジャイル方法論が決まります。
 
-でのスクラムおよびかんばんのアジャイル方法論 [!DNL Workfront] ストーリーをストーリーボード全体に移動して、ステータスの変更と進行状況を示すことができます。
+[!DNL Workfront] のスクラムアジャイル方法論とかんばんアジャイル方法論の両方を使用すると、ストーリーボード上でストーリーを移動して、ストーリーのステータスの変更と進行状況を示すことができます。
 
-でのスクラムおよびかんばんアジャイル方法 [!DNL Workfront] 次の点が異なります。
+[!DNL Workfront] のスクラムアジャイル方法論とかんばんアジャイル方法論は、以下のように異なります。
 
-### でかんばんを使用するメリット [!DNL Workfront]
+### [!DNL Workfront] でかんばんを使用するメリット
 
-The [!DNL Kanban] ～の機敏な方法論 [!DNL Workfront] を使用すると、進行中の作業量を制限しながら、より簡単にストーリーをアジャイルなストーリーボードに移動できます。 を使用する際に、開始日と終了日は設定されません。 [!DNL Kanban] アジャイルな手法です。
+[!DNL Workfront] で [!DNL Kanban] アジャイル方法論 を使用すると、処理中の作業量を制限しながら、アジャイルストーリーボード全体でストーリーをより簡単に移動できるようになります。[!DNL Kanban] アジャイル方法論を使用する際に、開始日と終了日は設定されません。
 
-次の機能では、この方法がサポートされています。
+以下の機能が、この方法論をサポートします。
 
-* バックログを [!DNL Kanban] アジャイルストーリーボード。\
-   詳しくは、 [バックログを [!UICONTROL かんばん] ボード](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+* [!DNL Kanban] アジャイルストーリーボードにバックログを表示。\
+   詳しくは、[バックログを[!UICONTROL かんばん]ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
 
-* バックログの項目が自動的に [!UICONTROL かんばん] 他の項目が「完了」と等しいステータスに移動された場合のアジャイルストーリーボード。\
-   詳しくは、 [バックログから自動的に追加されるストーリーの設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) 記事内 [かんばんの構成](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+* 他の項目が完了に等しいステータスに移動された場合に、バックログの項目が自動的に[!UICONTROL かんばん]アジャイルストーリーボードに追加されるように設定します。\
+   詳しくは、[かんばんを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事にある[バックログから自動的に追加されるようにストーリーを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)の節を参照してください。
 
-* WIP(Work In Progress) 制限を [!UICONTROL かんばん] アジャイルストーリーボード。\
-   詳しくは、 [かんばんボードでの作業中 (WIP) の制限の管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+* [!UICONTROL かんばん]アジャイルストーリーボードに表示されるように作業中（WIP）制限を設定します。\
+   詳しくは、[かんばんボードでの作業中（WIP）の制限を管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
 
-### で Scrum を使用するメリット [!DNL Workfront]
+### [!DNL Workfront] でスクラムを使用するメリット
 
-スクラムアジャイルの手法： [!DNL Workfront] では、一連のストーリーをアジャイルな反復に追加し、その反復に対してストーリーボードを作成できます。 繰り返しは、定義した開始日と終了日に基づいておこなわれます。
+[!DNL Workfront] のスクラムアジャイル方法論は、一連のストーリーをアジャイルイテレーションに追加し、そのイテレーション用のストーリーボードを作成します。イテレーションは、定義した開始日と終了日に基づくものです。
 
-次の機能では、この方法がサポートされています。
+以下の機能が、この方法論をサポートします。
 
-* 次に関する問題を含めます： [!UICONTROL スクラム] ストーリーボード
-* アジャイルチームのバックログに関する問題を含める
-* サブタスクは [!UICONTROL スクラム] ストーリーボード
-* バーンダウンチャートを表示して、反復中のストーリーに対する進捗を確認します\
-   詳しくは、 [アジャイルバーンダウンチャートの概要](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+* [!UICONTROL スクラム]ストーリーボードにイシューを含めます。
+* アジャイルチームのバックログに関するイシューを含める
+* サブタスクは、[!UICONTROL スクラム]ストーリーボードに表示可能
+* バーンダウンチャートを表示して、イテレーション中のストーリーに対する進行状況を確認します\
+   詳しくは、[アジャイルバーンダウンチャートの概要](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)を参照してください。
 
 ## アジャイルチームの作成
 
@@ -94,7 +94,7 @@ The [!DNL Kanban] ～の機敏な方法論 [!DNL Workfront] を使用すると�
 
 1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)を選択し、次に **[!UICONTROL 新しいチームを作成]**.
 
-   ![「新しいチームを作成」を選択します。](assets/create-new-team-350x198.png)
+   ![「新規チームを作成」を選択します。](assets/create-new-team-350x198.png)
 
    [ 新しいチーム ] ボックスが表示されます。
 
@@ -105,32 +105,32 @@ The [!DNL Kanban] ～の機敏な方法論 [!DNL Workfront] を使用すると�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL チーム名 ]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Team Name]</strong> </td> 
       <td>新しいアジャイルチームの名前を入力します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL アジャイルチーム ]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL This is an Agile Team]</strong> </td> 
       <td>この新しいチームをアジャイルチームに設定するには、このオプションを選択します。</td> 
      </tr>
 
    <tr> 
-      <td role="rowheader"><strong>[!UICONTROL がアクティブです ]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
       <td>このチームを有効化するには、このオプションを選択します。 非アクティブなチームは、他のユーザーが作業に割り当てる際には表示されません。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-      <td role="rowheader"><strong>[!UICONTROL グループ ]</strong> </td> 
-      <td> <p>チームに追加するグループの名前を入力し、ドロップダウンリストに表示されたら名前を選択します。</p> <p><b>メモ</b></p> <p> チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならずにチームを管理できます。 グループ管理者は、[!UICONTROL メインメニュー ] から [!UICONTROL チーム ] 領域に移動し、[!UICONTROL チームを切り替え ] 矢印をクリックできます。 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> ：管理するグループに割り当てられているすべてのチームのリストを表示します。</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
+      <td> <p>チームに追加するグループの名前を入力し、ドロップダウンリストに表示されたら、名前を選択します。</p> <p><b>メモ</b></p> <p> チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならずにチームを管理できます。 管理するグループに割り当てられているすべてのチームのリストを表示するには、グループ管理者は、[!UICONTROL Main Menu] から [!UICONTROL Teams] 領域に移動し、[!UICONTROL Switch Teams] 矢印 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> をクリックできます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL チームメンバー ]</strong> </td> 
-      <td>チームに参加するユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前を選択します。<br>複数のユーザーをチームに追加するには、この手順を繰り返します。<br>ユーザーは複数のチームに参加できるので、俊敏なチームと俊敏でないチームの両方に参加できます。</td> 
+      <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
+      <td>チームに参加するユーザーの名前の入力を開始し、ドロップダウンリストに表示されたら、名前を選択します。<br>複数のユーザーをチームに追加するには、このプロセスを繰り返します。<br>ユーザーは複数のチームに参加できるので、アジャイルチームと非アジャイルチームの両方に参加できます。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 説明 ]</strong> </td> 
-      <td><p>チームの説明を入力します。</p> <p>チームを選択すると、[!UICONTROL チーム ] 領域の右上に説明が表示されます。</p>
-      <p>説明が長い場合は、クリックすると完全な説明がポップアップで表示されます。 [!UICONTROL チーム設定 ] の編集権限を持っている場合は、ポップアップで直接説明を編集することもできます。</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
+      <td><p>チームの説明を入力します。</p> <p>チームを選択すると、[!UICONTROL Teams] 領域の右上に説明が表示されます。</p>
+      <p>説明が長い場合は、クリックすると完全な説明がポップアップで表示されます。[!UICONTROL team settings] を編集するアクセス権がある場合は、ポップアップで直接説明を編集することもできます。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -139,30 +139,30 @@ The [!DNL Kanban] ～の機敏な方法論 [!DNL Workfront] を使用すると�
 
    アジャイルチームの設定について詳しくは、次の記事を参照してください。
 
-   * [設定 [!UICONTROL かんばん]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
-   * [設定 [!UICONTROL スクラム]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
+   * [[!UICONTROL かんばん]の設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+   * [[!UICONTROL スクラム]の設定](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
-## 既存のチームをアジャイルチームに変換する
+## 既存のチームからアジャイルチームへの変換
 
 既存のチームをアジャイルチームに変換できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL チーム]**.
-1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**[!UICONTROL ボード]**」の順にクリックします。
+1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. アジャイルチームに変換するチームを選択します。
-1. 次をクリック： **[!UICONTROL その他]** メニューから、「 **[!UICONTROL 編集]**.\
-   次のいずれかを持つチームメンバーのみ： [!UICONTROL プラン] または [!UICONTROL 作業] ライセンスこのオプションを参照してください。\
+1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。\
+   このオプションは、[!UICONTROL Plan] または [!UICONTROL Work] ライセンスを持つチームメンバーのみに表示されます。\
    ![](assets/edit-team-settings-350x205.png)
 
-1. Adobe Analytics の **[!UICONTROL アジャイル]** セクション、選択 **[!UICONTROL アジャイルチームです]**.
+1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。
 
-1. Adobe Analytics の **[!UICONTROL 方法]** セクションで、チームが **[!UICONTROL スクラム]** または **[!UICONTROL かんばん]** アジャイルな手法です。
+1. **[!UICONTROL 方法論]**&#x200B;セクションで、チームが&#x200B;**[!UICONTROL スクラム]**&#x200B;アジャイル方法論を使用するか&#x200B;**[!UICONTROL カンバン]**&#x200B;アジャイル方法論を使用するかを選択します。
 
-1. クリック **変更を保存します。**
+1. 「**変更を保存**」をクリックします。
 
    チームはアジャイルチームとして保存されます。 チームの編集時に、新しいチームをスクラムまたはかんばんチームとして設定できます。
 
    詳しくは、次の記事を参照してください。
 
-   * [設定 [!UICONTROL かんばん]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
-   * [設定 [!UICONTROL スクラム]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
+   * [[!UICONTROL かんばん]の設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+   * [[!UICONTROL スクラム]の設定](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

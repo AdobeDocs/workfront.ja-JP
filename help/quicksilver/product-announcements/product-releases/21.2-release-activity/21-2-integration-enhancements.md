@@ -9,7 +9,7 @@ feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 

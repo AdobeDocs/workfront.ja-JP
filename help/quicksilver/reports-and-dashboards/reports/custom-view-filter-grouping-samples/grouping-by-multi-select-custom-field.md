@@ -2,34 +2,34 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 複数選択カスタムフィールドでレポートをグループ化する
+title: 複数選択カスタムフィールドでレポートのグループ化
 description: Adobe Workfrontレポートの複数選択カスタムフィールドの値でグループ化できるのは、テキストモードを使用する場合のみです。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 74%
 
 ---
 
-# 複数選択カスタムフィールドでレポートをグループ化する
+# 複数選択カスタムフィールドでレポートのグループ化
 
 Adobe Workfrontレポートの複数選択カスタムフィールドの値でグループ化できるのは、テキストモードを使用する場合のみです。
 
-複数選択カスタムフィールドの例を次に示します。
+複数選択カスタムフィールドの例は、次のとおりです。
 
-* チェック ボックス
+* チェックボックス
 * 複数選択ドロップダウンメニュー
 
-テキストモードの使用について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+テキストモードの使用について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)の記事を参照してください。
 
 ## 複数選択のカスタムフィールドでグループ化する場合の考慮事項
 
-* テキストモードのグループ化を使用するレポートのグラフを作成することはできません。 複数選択カスタムフィールドを参照する追加の計算フィールドを作成して、複数選択カスタムフィールドの値を基準にレポートのグラフを表示する必要があります。
+* テキストモードのグループ化を使用するレポートのグラフを作成することはできません。 複数選択カスタムフィールドを参照する追加の計算フィールドを作成して、複数選択カスタムフィールドの値を基準にしたレポートのグラフを表示する必要があります。
 
-  詳しくは、 [複数選択できるカスタムフィールドによってレポートをグラフ化する](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  詳しくは、[複数選択できるカスタムフィールドでのレポートのグラフ化](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)を参照してください。
 * 選択したいずれかの選択肢を持つ項目は、1 回だけカウントされます。
 
   たとえば、選択肢 1 と選択肢 2 をオプションとして持つチェックボックスカスタムフィールドがあり、フォームをタスクに添付する場合、選択肢 1 と選択肢 2 の両方を選択したタスクは、選択肢 1 と選択肢 2 のみを選択したタスクとは別にグループ化されます。
@@ -44,61 +44,61 @@ Adobe Workfrontレポートの複数選択カスタムフィールドの値で�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>グループ化を変更するリクエスト </p>
-   <p>レポートを変更する計画</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>グループ化を変更するためのリクエスト </p>
+   <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートを変更します</p> <p>フィルター、ビュー、グループへのアクセスを編集してグループ化を変更します</p> <p><b>メモ</b>
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、ビュー、グループ化へのアクセス権を編集して、グループ化を変更できるようにします。</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr>  
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>レポートに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
-## 複数選択カスタムフィールドでレポートをグループ化する
+## 複数選択カスタムフィールドでのレポートのグループ化
 
 複数選択のカスタムフィールドでグループ化するには、次の前提条件が満たされている必要があります。
 
-* カスタムフォームで複数選択カスタムフィールドを作成します。\
-  カスタムフォームの作成とカスタムフィールドの追加について詳しくは、この記事を参照してください。 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* カスタムフォームに複数選択カスタムフィールドを作成します。\
+  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[カスタムフォームを作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)の記事を参照してください。
 
 * カスタムフォームをオブジェクトに添付します。
 * 複数選択カスタムフィールドに、各オブジェクトの値を入力します。 
 
-レポート内で複数選択のカスタムフィールドでグループ化するには：
+レポートで複数選択のカスタムフィールドでグループ化するには、次の手順に従います。
 
 1. 複数選択カスタムフィールドのグループ化を追加するレポートを作成するか、既存のレポートを編集します。\
-   レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。
 
-1. を選択します。 **グループ化** タブをクリックします。
-1. クリック **テキストモードに切り替え**.
+1. 「**グループ化**」タブを選択します。
+1. 「**テキストモードに切り替える**」をクリックします。
 
-1. テキストを **レポートをグループ化** 」ボックスに置き換えて、次のコードに置き換えます。
+1. 「**レポートのグループ化**」ボックスでテキストを選択して、次のコードに置き換えます。
 
    <pre>
    group.0.displayname=Multi-select Custom Field Name group.0.valueexpression={DE:Multi-select Custom Field Name} group.0.valueformat=group.0.textmode=true
    </pre>
 
-1. 「複数選択カスタムフィールド名」を、Workfrontに表示される複数選択カスタムフィールドの実際の名前に置き換えます。
-1. クリック **保存して閉じる**.
+1. 「複数選択カスタムフィールド名」を、Workfront に表示される複数選択カスタムフィールドの実際の名前に置き換えます。
+1. 「**保存して閉じる**」をクリックします。
 
    レポート内のオブジェクトは、複数選択カスタムフィールドの値でグループ化されます。
 
    ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
-   レポートのグループ化の名前は、複数選択カスタムフィールドの名前に続いて、フィールドで選択された値が表示されます。
+   レポートのグループ化の名前は、複数選択カスタムフィールドの名前に続いて、フィールドで選択された値になります。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

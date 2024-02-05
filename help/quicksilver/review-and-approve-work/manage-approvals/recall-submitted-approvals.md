@@ -7,7 +7,7 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 100%
 

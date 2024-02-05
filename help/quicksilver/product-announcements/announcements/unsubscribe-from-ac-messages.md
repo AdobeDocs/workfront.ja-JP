@@ -1,41 +1,41 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Announcement Center のメッセージの配信停止
-description: アナウンスセンターのメッセージは、Adobe WorkfrontからWorkfrontの顧客ベースに送信されるメッセージです。 Announcement Center のメッセージを配信停止にすることができます。
+title: お知らせセンターのメッセージの登録解除
+description: お知らせセンターのメッセージとは、Adobe Workfront から Workfront の顧客ベースに送信されるメッセージのことです。Announcement Center のメッセージを配信停止にすることができます。
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 96%
 
 ---
 
-# Announcement Center のメッセージの配信停止
+# お知らせセンターのメッセージの登録解除
 
-アナウンスセンターのメッセージは、Adobe WorkfrontからWorkfrontの顧客ベースに送信されるメッセージです。 次の種類のアナウンスセンターメッセージを配信停止にすることができます。
+お知らせセンターのメッセージとは、Adobe Workfront から Workfront の顧客ベースに送信されるメッセージのことです。お知らせセンターの次の種類のメッセージの配信登録を解除できます。
 
-* これらのメジャーリリース以外で、機能ごとにリリースされる機能に関するお知らせ。
+* メジャーリリースとは別に、機能ごとにリリースされる機能に関するお知らせ。
 
-  Workfrontプラットフォームで導入されたほとんどの新機能は、毎年 4 つのメジャーリリースの 1 つと共にリリースされています。 ただし、一部の機能は、これらのメジャーリリース以外で、機能ごとにリリースされています。 メジャーリリース以外で機能がリリースされるたびに、アナウンスセンターからメッセージが届きます。 ( お知らせセンターの詳細については、 [お知らせの送信](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+  Workfront プラットフォームに導入された新機能のほとんどは、毎年 4 回のメジャーリリースのいずれかと併せてリリースされています。ただし、一部の機能は、これらのメジャーリリースとは別に、機能ごとにリリースされています。メジャーリリースとは別に機能がリリースされるたびに、お知らせセンターからメッセージが届きます。（お知らせセンターについて詳しくは、[お知らせの送信](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)を参照してください。）
 
-* 今後のトレーニングのお知らせとイベント。
+* 今後のトレーニングやイベントに関するお知らせ。
 
-Announcement Center のメッセージの受信を停止するには：
+お知らせセンターのメッセージの配信登録を解除するには、次の操作を実行します。
 
-1. 番号付きアイコンをクリックします。 ![](assets/notifications-icon-jewel.jpg) をクリックして、Workfrontの右上隅に通知のリストを開きます。
-1. クリック **すべてのお知らせ** をクリックします。
+1. Workfront の右上隅にある番号付きのアイコン ![](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開きます。
+1. リストの下部にある「**すべてのお知らせ**」をクリックします。
 
-   The **お知らせ** ページが表示され、お知らせの一覧が表示されます。
+   **お知らせ**&#x200B;ページが表示され、すべてのお知らせが一覧表示されます。
 
    ![](assets/announcements-page-qs-350x210.png)
 
-1. クリック **設定** お知らせページの右上隅で、「 **新しいリリース** または **トレーニング**（今後受信しないお知らせのタイプに応じて）
+1. お知らせページの右上隅にある「**設定**」をクリックし、今後は受信しないお知らせの種類に応じて「**新しいリリース**」または「**トレーニング**」を選択します。
 
    ![](assets/announcementcenter-settings-350x187.png)
 
-1. クリック **設定を保存**.
+1. 「**設定を保存**」クリックします。
 
-   このタイプのお知らせに関する Announcement Center のメッセージは今後受け取られなくなります。
+   この種類のお知らせに関するお知らせセンターのメッセージが今後は届かなくなります。

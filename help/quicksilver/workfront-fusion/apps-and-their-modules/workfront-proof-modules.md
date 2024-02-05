@@ -5,73 +5,73 @@ product-area: workfront-integrations;documents
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Workfront Proof モジュール
-description: 内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Workfront Proof]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Workfront Proof] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。'
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
 source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
 workflow-type: tm+mt
 source-wordcount: '3099'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
 # [!DNL Workfront Proof] モジュール
 
-内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL Workfront Proof]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Workfront Proof] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。
 
-これは、現在、内での検証がサポートされていないタスクを実行する必要がある場合に役立ちます。 [!DNL Workfront] または [!DNL Workfront Proof]：特定のイベントに基づいて配達確認を更新したり、配達確認の受信者を検索したりする場合などです。
+これは、特定のイベントに基づいてプルーフを更新したり、プルーフの受信者を検索したりする場合など、[!DNL Workfront] または [!DNL Workfront Proof] 内でのプルーフが現在サポートされていないタスクを実行する必要がある場合に役立ちます。
 
-The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクティブなアプリの数に対してカウントされません。 すべてのシナリオ ( たとえ [!DNL Workfront Proof] アプリの場合、組織の合計シナリオ数に対してカウントします。
+[!DNL Workfront Proof] コネクタは、組織で使用可能なアクティブなアプリの数に対してカウントされません。すべてのシナリオは、[!DNL Workfront Proof] アプリのみを使用する場合でも、組織の合計シナリオ数に対してカウントされます。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順について詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## 接続 [!DNL Workfront Proof] から [!DNL Workfront Fusion]
+## [!DNL Workfront Proof] を [!DNL Workfront Fusion] に接続
 
-次に対する接続を作成できます： [!DNL Workfront Proof] 内部から直接アカウントを取得する [!DNL Workfront Fusion] モジュール。
+[!DNL Workfront Proof] アカウントへの接続を、[!DNL Workfront Fusion] モジュール内から直接作成できます。
 
-1. 任意の [!DNL Workfront Fusion] モジュール、クリック [!UICONTROL **追加**] の横 [!UICONTROL 接続] フィールド
+1. 任意の [!DNL Workfront Fusion] モジュールで、「[!UICONTROL 接続]」フィールドの横にある「[!UICONTROL **追加**]」をクリックします。
 
 2. 次のフィールドに入力します。
 
@@ -81,7 +81,7 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
         <tbody>
             <tr>
                 <td role="rowheader">
-                    <p role="rowheader">[!UICONTROL 接続名 ]</p>
+                    <p role="rowheader">[!UICONTROL Connection name]</p>
                 </td>
                 <td>接続の名前を入力</td>
             </tr>
@@ -98,11 +98,11 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
                 <td>ユーザー名を入力 [!DNL Workfront Proof] アカウント。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL パスワード ]</td>
+                <td  role="rowheader">[!UICONTROL Password]</td>
                 <td>のパスワードを入力します。 [!DNL Workfront Proof] アカウント。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL テナント名 ]</td>
+                <td  role="rowheader">[!UICONTROL Tenant name]</td>
                 <td><strong>注意</strong>:BYOK を使用しないお客様は、このフィールドを空白のままにする必要があります。 <p>このアカウントのテナント ID を入力します。 テナント ID の検索について不明な点がある場合は、Workfrontカスタマーサポートにお問い合わせください。</p></td>
             </tr>
             <tr>
@@ -117,13 +117,13 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
     </table>
 
 
-3. クリック [!UICONTROL **続行**] 接続を保存してモジュールに戻るには
+3. 「[!UICONTROL **続行**]」をクリックして接続を保存し、モジュールに戻ります。
 
 ## [!DNL Workfront Proof] モジュールとそのフィールド
 
-設定時に [!DNL Workfront Proof] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Workfront Proof] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL Workfront Proof] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Workfront Proof] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間の情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -133,19 +133,19 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
 
 ### トリガー
 
-* [配達確認を見る](#watch-proofs)
-* [PDF概要の監視](#watch-for-pdf-summary)
-* [[!UICONTROL 配達確認アクティビティを監視]](#watch-proof-activity)
+* [プルーフの監視](#watch-proofs)
+* [PDF 概要の監視](#watch-for-pdf-summary)
+* [[!UICONTROL プルーフアクティビティの監視]](#watch-proof-activity)
 
-#### [!UICONTROL 配達確認を見る]
+#### [!UICONTROL プルーフの監視]
 
-このスケジュール済みトリガーモジュールは、誰かが配達確認を作成または決定する際にシナリオを実行します。
+このスケジュール済みトリガーモジュールは、誰かがプルーフを作成またはプルーフでの決定する際にシナリオを実行します。
 
-このモジュールは、指定した期間に見つかったすべてのレコードのリストと、そのレコードのタイプを返します。 また、指定したフィールドの値も返されます。 モジュールで配達確認に関する決定が見つかった場合は、以前の値と現在の値の両方が個別のフィールドに含まれます。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、指定した期間に見つかったすべてのレコードのリストと、そのレコードのタイプを返します。また、指定したフィールドの値も返します。モジュールでプルーフに関する決定が見つかった場合は、以前の値と現在の値の両方が個別のフィールドに含まれます。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
-この処理は、指定した定期的なスケジュール間隔で実行されます。
+この処理は、指定した間隔で定期的に実行されます。
 
-で配達確認または配達確認にアクセスするのに十分な権限が必要です。 [!DNL Workfront Proof] この情報を取得するために。
+この情報を取得するには、[!DNL Workfront Proof] でプルーフにアクセスまたはプルーフするのに十分な権限が必要です。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -154,12 +154,12 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">レコードタイプ</td> 
-   <td>次のタイプを選択： [!DNL Workfront Proof] レコードを作成します。</td> 
+   <td>モジュールが監視する [!DNL Workfront Proof] レコードのタイプを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">出力</td> 
@@ -172,13 +172,13 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  </tbody> 
 </table>
 
-#### [!UICONTROL PDF概要の監視]
+#### [!UICONTROL PDF 概要の監視]
 
-このインスタントトリガーモジュールは、誰かが配達確認のPDF概要を作成したときにシナリオを実行します。
+このインスタントトリガーモジュールは、誰かがプルーフの PDF 概要を作成する際にシナリオを実行します。
 
-このモジュールには Webhook が必要です。
+このモジュールには web フックが必要です。
 
-このモジュールは、配達確認に関連付けられたすべての標準フィールドと、接続がアクセスするカスタムフィールドおよび値を返します。 また、PDFの概要に対する新しいイベントの購読を作成し、ペイロードで送信される「pdf_url」属性からコンテンツを出力します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、プルーフに関連付けられたすべての標準フィールドおよび接続がアクセスするカスタムフィールドおよび値を返します。また、PDF の概要に対する新しいイベントの登録を作成し、ペイロードで送信される「pdf_url」属性からコンテンツを出力します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -188,24 +188,24 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
-   <td>既存の Webhook を選択するか、新しい Webhook を作成できます。 詳しくは、 <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]</a>. </td> 
+   <td>既存の Web フックを選択するか、新規 Web フックを作成できます。詳しくは、<a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> のインスタントトリガー（Web フック）を参照してください。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 制限 ]</td> 
+   <td>[!UICONTROL Limit]</td> 
    <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 配達確認アクティビティを監視]
+#### [!UICONTROL プルーフアクティビティの監視]
 
-このトリガーモジュールは、配達確認で指定されたアクティビティが発生した場合にシナリオを実行します。
+このトリガーモジュールは、プルーフで指定されたアクティビティが発生した場合にシナリオを実行します。
 
-このモジュールは、配達確認に関連付けられたすべての標準フィールドと、接続がアクセスするカスタムフィールドおよび値を返します。 また、イベントの概要に関する新しいPDFサブスクリプションを作成し、 `pdf_url` 属性がペイロードで送信されました。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、プルーフに関連付けられたすべての標準フィールドおよび接続がアクセスするカスタムフィールドおよび値を返します。また、PDF の概要に関する新しいイベント登録を作成し、ペイロードで送信される `pdf_url` 属性からコンテンツを出力します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -215,14 +215,14 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL アクティビティタイプ ]</td> 
-   <td>新しい決定（[!UICONTROL 配達確認 ] のステータスの変更を含む）を監視するか、配達確認のステータスの全体的な変更のみを監視するかを選択します。</td> 
+   <td>[!UICONTROL Activity type]</td> 
+   <td>新しい決定（[!UICONTROL proof] のステータスの変更を含む）を監視するか、プルーフのステータスの全体的な変更のみを監視するかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 制限 ]</td> 
+   <td>[!UICONTROL Limit]</td> 
    <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
@@ -230,21 +230,21 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
 
 ### アクション
 
-* [[!UICONTROL 配達確認を作成]](#create-proof)
+* [[!UICONTROL プルーフの作成]](#create-proof)
 * [[!UICONTROL カスタム API 呼び出し]](#custom-api-call)
-* [[!UICONTROL 配達確認をダウンロード]](#download-proof)
-* [[!UICONTROL レコードを読み取る]](#read-a-record)
-* [[!UICONTROL リクエストPDFの概要]](#request-pdf-summary)
-* [[!UICONTROL 配達確認を更新]](#update-proof)
+* [[!UICONTROL プルーフのダウンロード]](#download-proof)
+* [[!UICONTROL レコードの読み取り]](#read-a-record)
+* [[!UICONTROL PDF 概要のリクエスト]](#request-pdf-summary)
+* [[!UICONTROL プルーフの更新]](#update-proof)
 * [[!UICONTROL ファイルをアップロード]](#upload-file)
 
-#### [!UICONTROL 配達確認を作成]
+#### [!UICONTROL プルーフの作成]
 
-このアクションモジュールは、で新しい配達確認または新しいバージョンの配達確認を作成します。 [!DNL Workfront Proof].
+このアクションモジュールは、[!DNL Workfront Proof] で新規プルーフまたは新しいバージョンのプルーフを作成します。
 
-新しいバージョンを作成する場合は、新しい配達確認のパラメーターと、ソースの配達確認を指定します。
+新しいバージョンを作成する場合は、新規プルーフとソースプルーフのパラメーターを指定します。
 
-モジュールは、新しい配達確認または配達確認のバージョンの ID を返します。この情報は、シナリオの後続のモジュールでマッピングできます。
+モジュールは、新規プルーフまたはプルーフのバージョンの ID を返します。この情報は、シナリオの後続モジュールでマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -254,144 +254,144 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配達確認の種類 ]</td> 
-   <td> <p>作成する配達確認に基本ワークフローと [!UICONTROL 自動ワークフロー ] のどちらを使用するかを指定します。</p> <p>次に、選択した配達確認タイプに対して表示するフィールドに入力します。 例えば、「[!UICONTROL Automated Workflow]」を選択した場合は、 <strong>[!UICONTROL ワークフローステージ ]</strong> フィールドを使用してステージを設定します。</p></td> 
+   <td>[!UICONTROL Proof Type]</td> 
+   <td> <p>作成するプルーフに対して、基本ワークフローまたは [!UICONTROL Automated Workflow] のどちらを使用するかを指定します。</p> <p>次に、選択したプルーフタイプに対して表示するフィールドに入力します。例えば、[!UICONTROL Automated Workflow] を選択した場合、<strong>[!UICONTROL Workflow Stages]</strong> フィールドを使用してステージを設定します。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 元のファイルのダウンロードを許可 ]</td> 
-   <td>配達確認の作成元となった元のファイルをダウンロードするかどうかを選択します。</td> 
+   <td>[!UICONTROL Allow original file to be downloaded]</td> 
+   <td>プルーフの作成元となった元のファイルのダウンロードを許可するかどうかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Classic 配達確認ビューア ]</td> 
-   <td>従来の配達確認ビューアを使用するかどうかを選択します。</td> 
+   <td>[!UICONTROL Classic Proof Viewer]</td> 
+   <td>クラシックプルーフビューアーを使用するかどうかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL すべてのファイルを 1 つの配達確認に結合 ]</td> 
-   <td>すべてのファイルを 1 つの複数ページの配達確認に組み合わせるには、このオプションを有効にします。</td> 
+   <td>[!UICONTROL Combine all files into single proof]</td> 
+   <td>すべてのファイルを 1 つの複数ページのプルーフに組み合わせるには、このオプションを有効にします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 新しい配達確認のバージョンを作成 ]</td> 
-   <td>モジュールで既存の配達確認の新しいバージョンを作成する場合は、このオプションを選択します。 次に、 <strong>[!UICONTROL 既存の配達確認 ID]</strong> 配達確認の一意の ID を表示、マッピングまたは入力するフィールド。</td> 
+   <td>[!UICONTROL Create a new proof version]</td> 
+   <td>モジュールで既存のプルーフの新しいバージョンを作成する場合は、このオプションを選択します。次に、表示される <strong>[!UICONTROL Existing Proof ID]</strong> フィールドに、プルーフの一意の ID をマッピングまたは入力します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL カスタムリンクラベル ]</td> 
-   <td>カスタム配達確認リンクのラベルを入力またはマッピングします。</td> 
+   <td>[!UICONTROL Custom Link Label]</td> 
+   <td>カスタムプルーフリンクのラベルを入力またはマッピングします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL カスタムリンク URL]</td> 
+   <td>[!UICONTROL Custom Link URL]</td> 
    <td>カスタムリンクの URL を入力またはマッピングします。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 購読者向けのデフォルトの電子メール通知 ]</td> 
-   <td>次のいずれかの数値を入力して、配達確認に使用する次のデフォルトの E メール通知設定を指定します。
+   <td>[!UICONTROL Default email notifications for subscribers]</td> 
+   <td>次のいずれかの数値を入力して、作成されるプルーフに使用する次のデフォルトのメール通知設定を指定します。
     <ul>
-     <li><strong>1</strong>  — すべての新しいコメントと返信</li>
-     <li><strong>2</strong>  — コメントへの返信</li>
-     <li><strong>3</strong>  — 日別概要</li>
-     <li><strong>4</strong>  — 時間別サマリ</li>
-     <li><strong>5</strong>  — 決定のみ</li>
-     <li><strong>9</strong>  — 無効</li>
+     <li><strong>1</strong> - すべての新しいコメントと返信</li>
+     <li><strong>2</strong> - 自分のコメントへの返信</li>
+     <li><strong>3</strong> - 毎日の概要</li>
+     <li><strong>4</strong> - 毎時の概要</li>
+     <li><strong>5</strong> - 決定のみ</li>
+     <li><strong>9</strong> - 無効</li>
     </ul></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Excel 概要を無効にする ]</td> 
-   <td>配達確認のコメントを Excel ファイルにダウンロードする機能を無効にするかどうかを選択します。</td> 
+   <td>[!UICONTROL Disable Excel Summary]</td> 
+   <td>プルーフのコメントを Excel ファイルにダウンロードする機能を無効にするかどうかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROLPDF概要を無効にする ]</td> 
-   <td>配達確認のコメントを配達確認ファイルにダウンロードする機能を無効にするPDFを選択します。</td> 
+   <td>[!UICONTROL Disable PDF Summary]</td> 
+   <td>プルーフのコメントを PDF ファイルにダウンロードする機能を無効にするかどうかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 配信登録メールを無効にする ]</td> 
-   <td>この配達確認の配信登録メールを無効にするかどうかを選択します。</td> 
+   <td>[!UICONTROL Disable Subscription Email]</td> 
+   <td>このプルーフの登録メールを無効にするかどうかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 埋め込みプレーヤーを有効にする ]</td> 
-   <td>この配達確認に埋め込まれたプレーヤーを有効にするかどうかを選択します。</td> 
+   <td>[!UICONTROL Enable Embed Player]</td> 
+   <td>このプルーフに埋め込まれたプレーヤーを有効にするかどうかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 購読を有効にする ]</td> 
-   <td>参加者でない人に対し、配達確認の購読を許可するかどうかを選択します。<br>このオプションを選択すると、この表で説明するように、購読者の「デフォルトの役割」も選択できます。</td> 
+   <td>[!UICONTROL Enable Subscriptions]</td> 
+   <td>参加者以外に対して、プルーフへの登録を許可するかどうかを選択します。<br>このオプションを選択すると、この表で説明するように、サブスクライバーのデフォルトの役割も選択できます。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 購読検証を有効にする ]</td> 
-   <td>サブスクリプションの電子メール検証を有効にするかどうかを選択します。 このオプションが有効な場合、購読者は配達確認にアクセスするには、E メール内のリンクをクリックする必要があります。</td> 
+   <td>[!UICONTROL Enable Subscriptions Validation]</td> 
+   <td>登録メールの検証を有効にするかどうかを選択します。このオプションが有効な場合、サブスクライバーはプルーフにアクセスするために、メール内のリンクをクリックする必要があります。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL チーム URL を有効にする ]</td> 
-   <td>作成した配達確認でチーム URL の表示と非表示を切り替えるかどうかを選択します。</td> 
+   <td>[!UICONTROL Enable Team URL]</td> 
+   <td>作成したプルーフでチーム URL を表示するか非表示にするかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ファイルハッシュ ] <span style="font-weight: normal;">または</span> [!UICONTROL ファイルハッシュ ]</td> 
-   <td>配達確認または配達確認の作成元となるファイルの ID を追加します。</td> 
+   <td>[!UICONTROL File Hash] <span style="font-weight: normal;">または</span> [!UICONTROL File Hashes]</td> 
+   <td>プルーフまたは複数のプルーフの作成元となるファイルまたは複数のファイルの ID を追加します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ファイル名 ]</td> 
-   <td>作成した配達確認のファイル名または名前を追加します。これは必須フィールドです。</td> 
+   <td>[!UICONTROL File Names]</td> 
+   <td>作成されるプルーフのファイル名または名前を追加します。これは必須フィールドです。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 必要なすべての決定がおこなわれたら配達確認をロックする ]</td> 
-   <td>作成された配達確認を、必要なすべての決定がおこなわれた後にロックするかどうかを指定します。</td> 
+   <td>[!UICONTROL Lock proof when all required decisions are made]</td> 
+   <td>作成されるプルーフを必要なすべての決定が行われた後にロックするかどうかを指定します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL この配達確認について受信者に通知します ]</td> 
-   <td>配達確認の作成時に受信者に通知するかどうかを指定するオプションを選択します。&gt;</td> 
+   <td>[!UICONTROL Notify recipients about this proof]</td> 
+   <td>プルーフの作成時に受信者に通知するかどうかを指定するオプションを選択します。&gt;</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配達確認名 ]</td> 
-   <td>作成した配達確認の名前を入力します。これは必須フィールドです。 複数の配達確認の名前を区切るには、パイプ記号 (|) を使用します。</td> 
+   <td>[!UICONTROL Proof name]</td> 
+   <td>作成されるプルーフの名前を入力します。これは必須フィールドです。複数のプルーフの名前を区切るには、パイプ記号（|）を使用します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配達確認の所有者 ID]</td> 
-   <td>配達確認の所有者の ID を入力またはマッピングします。 このフィールドを空白のままにすると、配達確認の所有者は現在のユーザーに設定されます。</td> 
+   <td>[!UICONTROL Proof owner ID]</td> 
+   <td>プルーフの所有者の ID を入力またはマッピングします。このフィールドを空白のままにすると、プルーフの所有者は現在のユーザーに設定されます。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Reference ID]</td> 
-   <td>配達確認の参照 ID を入力します。</td> 
+   <td>プルーフの参照 ID を入力します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 電子署名が必要 ]</td> 
-   <td>電子署名の送信を、配達確認に関する決定を行った人に対して要求するかどうかを選択します。</td> 
+   <td>[!UICONTROL Require electronic signature]</td> 
+   <td>電子サインの送信を、プルーフに関する決定を行ったユーザーに対して要求するかどうかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL ログインが必要です ]</td> 
-   <td> <p>作成された配達確認にログインを必要とするかどうかを指定します。 </p> <p>これは、 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL 配達確認の設定 ]( [!DNL Workfront Proof]</a></p> </td> 
+   <td>[!UICONTROL Require login]</td> 
+   <td> <p>作成されるプルーフにログインを必要とするかどうかを指定します。 </p> <p>これは、<a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!DNL Workfront Proof]</a> で [!UICONTROL Configure Proof Settings] で説明される [!UICONTROL Login Required] 設定と同じです</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 解像度 ID]</td> 
-   <td>配達確認に使用する解像度の ID を入力します。 解決 ID のリストについては、 [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API ドキュメント</a>.</td> 
+   <td>[!UICONTROL Resolution ID]</td> 
+   <td>プルーフに使用する解決策の ID を入力します。解決策の ID のリストについて詳しくは、[!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API ドキュメント</a>を参照してください。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROLSWF]</td> 
-   <td>配達確認のタイプをSWFします。</td> 
+   <td>[!UICONTROL SWF]</td> 
+   <td>SWF プルーフのタイプを入力します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 表示 ] [ 項目 ]</td> 
-   <td>各項目について、配達確認に表示するかどうかを選択します。</td> 
+   <td>[!UICONTROL Show] [item]</td> 
+   <td>各項目について、プルーフに表示するかどうかを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Workspace ID]</td> 
-   <td>配達確認を作成するワークスペースの ID を入力します。 </td> 
+   <td>プルーフを作成するワークスペースの ID を入力します。 </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 受信者 ]</td> 
-   <td>作成した配達確認に必要な受信者の E メールアドレスを追加します。</td> 
+   <td>[!UICONTROL Recipients]</td> 
+   <td>作成するプルーフに必要な受信者のメールアドレスを追加します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Deadline]</td> 
-   <td> <p>配達確認を作成する期限を指定します。 次の日付形式を使用します。</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
+   <td> <p>プルーフを作成する期限を指定します。次の日付形式を使用します。</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL カスタム API 呼び出し]
 
-このアクションモジュールを使用すると、 [!DNL Workfront Proof] API. これにより、他のユーザーが達成できないデータフローの自動化を作成できます [!DNL Workfront Proof] モジュール。
+このアクションモジュールは、[!DNL Workfront Proof] API に対して認証済みのカスタム呼び出しを実行します。これにより、他の [!DNL Workfront Proof] モジュールでは達成できないデータフローの自動化を作成できます。
 
-このモジュールは、ステータスコード、ヘッダーおよび本文を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、ステータスコード、ヘッダーおよび本文を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -401,15 +401,15 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL メソッド ]</td> 
-   <td>API 呼び出しのアクションを設定します。 使用可能なアクションについては、 <a href="https://api.proofhq.com/">配達確認 API ドキュメント</a>.</td> 
+   <td>[!UICONTROL Method]</td> 
+   <td>API 呼び出しのアクションを設定します。使用可能なアクションについて詳しくは、<a href="https://api.proofhq.com/">プルーフ API ドキュメント</a>を参照してください。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 本文 (XML)]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>注意：  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td>[!UICONTROL Body (XML)]</td> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件ステートメントを JSON で使用する場合、条件ステートメントの外側に引用符を挿入します。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -423,15 +423,15 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
 >
 >![](assets/wfp-api-module-example-350x586.png)
 
-#### [!UICONTROL 配達確認をダウンロード]
+#### [!UICONTROL プルーフのダウンロード]
 
-このアクションモジュールは、ID を使用して識別する特定の配達確認のソースファイルをダウンロードします。
+このアクションモジュールは、ID を使用して識別する特定のプルーフのソースファイルをダウンロードします。
 
-配達確認の ID を指定します。
+プルーフの ID を指定します。
 
-このモジュールは、配達確認の作成に使用するソースファイルの内容を返します。この情報は、シナリオの後続のモジュールでマッピングできます。
+このモジュールは、プルーフの作成に使用するソースファイルのコンテンツを返します。この情報は、シナリオの後続のモジュールでマッピングできます。
 
-のレコードにアクセスするのに十分な権限が必要です [!DNL Workfront Proof] この情報を取得するために。
+この情報を取得するには、[!DNL Workfront Proof] のレコードにアクセスするのに十分な権限が必要です。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -441,24 +441,24 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントに [!DNL Workfront Fusion] を接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配達確認 ID]</td> 
-   <td> <p>[!UICONTROL 配達確認の詳細 ] ページにある、配達確認の一意の ID を入力します。 詳しくは、 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">で配達確認の詳細を管理 [!DNL Workfront Proof]</a>.</p> </td> 
+   <td>[!UICONTROL Proof ID]</td> 
+   <td> <p>[!UICONTROL Proof Details] ページにある、プルーフの一意の ID を入力します。詳しくは、<a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">[!DNL Workfront Proof]</a> でのプルーフの詳細の管理を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL レコードを読み取る]
+#### [!UICONTROL レコードの読み込み]
 
-このアクションモジュールは、 [!DNL Workfront Proof].
+このアクションモジュールは、[!DNL Workfront Proof] の単一のプルーフからデータを読み込みます。
 
-配達確認の ID と、配達確認に必要な情報を指定します。
+プルーフの ID およびプルーフに必要な情報を指定します。
 
-このモジュールは、配達確認用に選択したフィールドの値とタイプを返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、プルーフ用に選択したフィールドの値およびそのタイプを返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
-のレコードにアクセスするのに十分な権限が必要です [!DNL Workfront Proof] この情報を取得するために。
+この情報を取得するには、[!DNL Workfront Proof] のレコードにアクセスするのに十分な権限が必要です。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -468,32 +468,32 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL レコードタイプ ]</td> 
-   <td>配達確認、配達確認のコメントまたは配達確認のレビュー担当者のどれを読み取るかを選択します。</td> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td>プルーフ、プルーフのコメントまたはプルーフのレビュアーを読み込むかどうかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 出力 ]</td> 
+   <td>[!UICONTROL Outputs]</td> 
    <td> <p>このモジュールの出力バンドルに含める情報を選択します。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>一意の [!DNL Workfront Proof] モジュールが読み取るレコードの ID。</td> 
+   <td>モジュールで読み取るレコードの一意の [!DNL Workfront Proof] ID を入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL リクエストPDFの概要]
+#### [!UICONTROL PDF 概要をリクエスト]
 
-このアクションモジュールは、の特定のPDFの配達確認の概要を要求します。 [!DNL Workfront Proof].
+このアクションモジュールは、[!DNL Workfront Proof] の特定のプルーフの PDF 概要をリクエストします。
 
-配達確認の ID を指定します。
+プルーフの ID を指定します。
 
-モジュールは、PDFの概要情報を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+モジュールは、PDF 概要の情報を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
-のレコードにアクセスするのに十分な権限が必要です [!DNL Workfront Proof] この情報を取得するために。
+この情報を取得するには、[!DNL Workfront Proof] のレコードにアクセスするのに十分な権限が必要です。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -503,33 +503,33 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントに [!DNL Workfront Fusion] を接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配達確認 ID]</td> 
-   <td> <p>一意の [!DNL Workfront Proof] 配達確認の概要をリクエストするPDFの ID。</p> </td> 
+   <td>[!UICONTROL Proof ID]</td> 
+   <td> <p>PDF 概要をリクエストするプルーフの一意の [!DNL Workfront Proof] ID を入力します。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL コールバック URL]</td> 
-   <td>PDFの概要を送信する URL を入力またはマッピングします。</td> 
+   <td>[!UICONTROL Callback URL]</td> 
+   <td>PDF 概要を送信する URL を入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
 
 ##### 考えられるエラー
 
-* **エラー**: &quot;[!UICONTROL この要求を実行する権限がありません。 ステージには、少なくとも 1 人の受信者が含まれている必要があります。]&quot;
-* **解決策**：自分が、ワークフローのステージに割り当てられた唯一のものではないことを確認します。 ワークフローのステージに別のユーザーを割り当てる必要があります。
+* **エラー**：「[!UICONTROL このリクエストを実行する権限がありません。ステージには少なくとも 1 人の受信者が含まれている必要があります]」
+* **解決策**：ワークフローのステージに自分だけしか割り当てられていないことを確認します。ワークフローのステージに別のユーザーを割り当てる必要があります。
 
-#### [!UICONTROL 配達確認を更新]
+#### [!UICONTROL プルーフを更新]
 
-このアクションモジュールは、 [!DNL Workfront Proof].
+このアクションモジュールは、[!DNL Workfront Proof] で既存のプルーフを更新します。
 
-配達確認の ID とレコードのタイプ、および出力に含めるフィールドを指定します。
+プルーフの ID とレコードタイプおよび出力に含めるフィールドを指定します。
 
-このモジュールは、レコードに関連付けられた標準フィールドと、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードに関連付けられた標準フィールドのほか、接続を介してアクセスされるカスタムフィールドおよび値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
-のレコードにアクセスするのに十分な権限が必要です [!DNL Workfront Proof] この情報を取得するために。
+この情報を取得するには、[!DNL Workfront Proof] のレコードにアクセスするのに十分な権限が必要です。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -539,84 +539,84 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントに [!DNL Workfront Fusion] を接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配達確認 ID]</td> 
-   <td> <p>[!UICONTROL 配達確認の詳細 ] ページにある、配達確認の一意の ID を入力します。 詳しくは、 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">で配達確認の詳細を管理 [!DNL Workfront Proof]</a>.</p> </td> 
+   <td>[!UICONTROL Proof ID]</td> 
+   <td> <p>[!UICONTROL Proof Details] ページにある、プルーフの一意の ID を入力します。詳しくは、<a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">[!DNL Workfront Proof]</a> でのプルーフの詳細の管理を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Deadline]</td> 
-   <td> <p>配達確認を作成する期限を指定します。 次の日付形式を使用します。</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
+   <td> <p>プルーフを作成する期限を指定します。次の日付形式を使用します。</p> <p><code>YYYY-MM-DD hh:mm</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 購読者向けのデフォルトの電子メール通知 ]</td> 
-   <td>配達確認で使用する、次のデフォルトの電子メール通知設定の中から、どれを選択します。
+   <td>[!UICONTROL Default email notifications for subscribers]</td> 
+   <td>作成されるプルーフで使用する、次のデフォルトのメール通知設定の中からいずれかを選択します。
     <ul>
-     <li> [!UICONTROL 新しいコメントと返信 ]</li>
-     <li>[!UICONTROL コメントに返信 ]</li>
-     <li>[!UICONTROL 日別概要 ]</li>
-     <li> [!UICONTROL 時間別概要 ]</li>
-     <li> [!UICONTROL 決定のみ ]</li>
-     <li> [!UICONTROL 無効 ]</li>
+     <li> [!UICONTROL All new comments and replies]</li>
+     <li>[!UICONTROL Replies to my comments]</li>
+     <li>[!UICONTROL Daily summary]</li>
+     <li> [!UICONTROL Hourly summary]</li>
+     <li> [!UICONTROL Decisions only]</li>
+     <li> [!UICONTROL Disabled]</li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL デフォルトの役割 ]</td> 
-   <td>配達確認のデフォルトの役割を選択します。</td> 
+   <td>[!UICONTROL Default Role]</td> 
+   <td>プルーフのデフォルトの役割を選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配信登録メールを無効にする ]</td> 
-   <td>この配達確認の配信登録メールを無効にするかどうかを選択します。</td> 
+   <td>[!UICONTROL Disable Subscription Email]</td> 
+   <td>このプルーフの登録メールを無効にするかどうかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 購読を有効にする ]</td> 
-   <td>参加者でない人に対し、配達確認の購読を許可するかどうかを選択します。<br>このオプションを選択すると、この表で説明するように、購読者に対して [!UICONTROL デフォルトの役割 ] を選択することもできます。</td> 
+   <td>[!UICONTROL Enable Subscriptions]</td> 
+   <td>参加者以外に対して、プルーフへの登録を許可するかどうかを選択します。<br>このオプションを選択すると、この表で説明するように、サブスクライバーの [!UICONTROL Default Role] も選択することもできます。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 購読検証を有効にする ]</td> 
-   <td>サブスクリプションの電子メール検証を有効にするかどうかを選択します。 このオプションが有効な場合、購読者は配達確認にアクセスするには、E メール内のリンクをクリックする必要があります。</td> 
+   <td>[!UICONTROL Enable Subscriptions Validation]</td> 
+   <td>登録メールの検証を有効にするかどうかを選択します。このオプションが有効な場合、サブスクライバーはプルーフにアクセスするために、メール内のリンクをクリックする必要があります。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL チーム URL を有効にする ]</td> 
-   <td>作成した配達確認でチーム URL の表示と非表示を切り替えるかどうかを選択します。</td> 
+   <td>[!UICONTROL Enable Team URL]</td> 
+   <td>作成したプルーフでチーム URL を表示するか非表示にするかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 必要なすべての決定がおこなわれたら配達確認をロックする ]</td> 
-   <td>作成された配達確認を、必要なすべての決定がおこなわれた後にロックするかどうかを指定します。</td> 
+   <td>[!UICONTROL Lock proof when all required decisions are made]</td> 
+   <td>作成されるプルーフを必要なすべての決定が行われた後にロックするかどうかを指定します。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Message]</td> 
-   <td>配達確認に付随するメッセージを入力またはマッピングします。</td> 
+   <td>プルーフに伴うメッセージを入力またはマッピングします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配達確認 ID] </td> 
-   <td>更新する配達確認の ID を入力またはマッピングします。</td> 
+   <td>[!UICONTROL Proof ID] </td> 
+   <td>更新するプルーフの ID を入力またはマッピングします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 配達確認名 ]</td> 
-   <td>更新する配達確認の名前を入力またはマッピングします。</td> 
+   <td>[!UICONTROL Proof Name]</td> 
+   <td>更新するプルーフの名前を入力またはマッピングします。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ログインが必要です ]</td> 
-   <td> <p>作成された配達確認にログインを必要とするかどうかを指定します。 </p> <p>これは、 <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL 配達確認の設定 ]( [!DNL Workfront Proof]</a></p> </td> 
+   <td>[!UICONTROL Require login]</td> 
+   <td> <p>作成されるプルーフにログインを必要とするかどうかを指定します。 </p> <p>これは、[!DNL Workfront Proof]</a> で <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] で説明される [!UICONTROL Login Required] 設定と同じです</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 次のようなバージョンを表示 ]</td> 
-   <td>この配達確認の他のバージョンへのリンクを表示するかどうかを選択します。</td> 
+   <td>[!UICONTROL Show Versions Like]</td> 
+   <td>このプルーフの他のバージョンへのリンクを表示するかどうかを選択します。</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 件名 ]</td> 
-   <td>配達確認の件名を入力またはマッピング</td> 
+   <td>[!UICONTROL Subject]</td> 
+   <td>プルーフの件名を入力またはマッピング</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL ファイルをアップロード]
 
-このアクションモジュールは、 [!UICONTROL 配達確認を作成] モジュール内 [!DNL Workfront Proof].
+このアクションモジュールは [!DNL Workfront Proof] の[!UICONTROL プルーフを作成]モジュールで使用するファイルをアップロードします。
 
-このモジュールは、アップロードされたファイルのハッシュ ID を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、アップロードされたファイルのハッシュ ID を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -626,11 +626,11 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL ソースファイル ]</td> 
-   <td> <p>前のモジュールからソースファイルを選択するか、ソースファイルの名前とデータをマップします。</p> </td> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -638,15 +638,15 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
 ### 検索
 
 * [[!UICONTROL 検索]](#search)
-* [[!UICONTROL ワークフローテンプレートのリスト]](#list-workflow-templates)
+* [[!UICONTROL ワークフローテンプレートをリスト]](#list-workflow-templates)
 
 #### [!UICONTROL 検索]
 
-この検索モジュールは、 [!DNL Workfront Proof] 指定した検索クエリに一致する
+この検索モジュールは、指定された検索クエリに一致するレコードを [!DNL Workfront Proof] のオブジェクト内で検索します。
 
-このモジュールは、配達確認を検索する場合に、配達確認の ID を返します。 また、受信者を検索する場合は、受信者のユーザー ID、E メール、名前、位置および E メールエイリアスを返します。この情報は、シナリオの後続のモジュールでマッピングできます。
+このモジュールは、プルーフを検索する場合に、プルーフの ID を返します。また、受信者を検索する場合は、受信者のユーザー ID、メール、名前、位置およびメールエイリアスを返します。この情報は、シナリオの後続のモジュールでマッピングできます。
 
-のレコードにアクセスするのに十分な権限が必要です [!DNL Workfront Proof] この情報を取得するために。
+この情報を取得するには、[!DNL Workfront Proof] のレコードにアクセスするのに十分な権限が必要です。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -656,26 +656,26 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>検索対象</td> 
    <td> <p>[!UICONTROL ] モジュールで検索するレコードのタイプを選択します。</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL 配達確認 ]</strong> </p> <p>検索する配達確認の「配達確認名」を入力します。</p> </li> 
-     <li> <p><strong>[!UICONTROL 受信者 ]</strong> </p> <p>検索する受信者の電子メールアドレスを入力します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Proof]</strong> </p> <p>検索するプルーフのプルーフ名を入力します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Recipient]</strong> </p> <p>検索する受信者のメールアドレスを入力します。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 結果セット ]</td> 
-   <td>モジュールが <strong>[!UICONTROL 一致するすべてのレコード ]</strong> または <strong>[!UICONTROL 最初に一致したレコード ]</strong>.</td> 
+   <td>[!UICONTROL Result Set]</td> 
+   <td>モジュールが <strong>[!UICONTROL All Matching Records]</strong> を検索または <strong>[!UICONTROL First Matching Record]</strong> のみを検索するかどうかを示します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 並べ替え基準 ]</td> 
+   <td>[!UICONTROL Sort By]</td> 
    <td>結果の並べ替えに使用するフィールドを選択します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 並べ替え方向 ]</td> 
+   <td>[!UICONTROL Sorting Direction]</td> 
    <td> <p>結果を昇順または降順に並べ替えるかどうかを選択します。</p> </td> 
   </tr> 
  </tbody> 
@@ -691,14 +691,14 @@ The [!DNL Workfront Proof] コネクタは、組織で使用可能なアクテ�
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL Workfront Proof] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">への接続の作成 [!DNL Adobe Workfront Fusion]  — 基本手順</a></p> </td> 
+   <td> <p>[!DNL Workfront Proof] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 出力 ]</td> 
+   <td>[!UICONTROL Outputs]</td> 
    <td> <p>このモジュールの出力バンドルに含める情報を選択します。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 制限 ]</td> 
+   <td>[!UICONTROL Limit]</td> 
    <td> <p>各シナリオの実行サイクル中に、モジュールが返すテンプレートの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
  </tbody> 

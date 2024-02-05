@@ -9,7 +9,7 @@ feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
 source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 100%
 

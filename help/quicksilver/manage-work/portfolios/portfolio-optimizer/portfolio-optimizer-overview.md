@@ -2,69 +2,69 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Portfolioの最適化の概要
-description: The [!UICONTROL Portfolioの最適化] は、プロジェクトの評価と比較に使用されるツールです。 ポートフォリオに割り当てられたプロジェクトのビジネスケースの値を確認および比較するプロセスは、ポートフォリオマネージャがプロジェクトに優先順位を付け、組織に最も大きな価値を生み出す方法です。
+title: ポートフォリオオプティマイザーの概要
+description: '[!UICONTROL ポートフォリオオプティマイザー]は、プロジェクトの評価と比較に使用されるツールです。ポートフォリオに割り当てられたプロジェクトのビジネスケースの価値をレビューおよび比較するプロセスは、ポートフォリオマネージャーがプロジェクトに優先順位を付け、組織に最も大きな価値を生み出すことができる方法です。'
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
 source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
 source-wordcount: '1629'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
-# [!UICONTROL Portfolioの最適化] 概要
+# [!UICONTROL ポートフォリオオプティマイザー]の概要
 
 <!-- Audited: 01/2024 -->
 
-The [!UICONTROL Portfolioの最適化] は、プロジェクトの評価と比較に使用されるツールです。 レビューと比較のプロセス [!UICONTROL ビジネス事例] ポートフォリオに割り当てられたプロジェクトの値は、ポートフォリオマネージャがプロジェクトに優先順位を付け、組織に最も多くの価値を生み出す方法です。
+[!UICONTROL ポートフォリオオプティマイザー]は、プロジェクトの評価と比較に使用されるツールです。ポートフォリオに割り当てられたプロジェクトの[!UICONTROL ビジネスケース]の価値のレビューと比較のプロセスは、ポートフォリオマネージャーがプロジェクトに優先順位を付け、組織に最も多くの価値を生み出すことができる方法です。
 
 ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
-の目的 [!UICONTROL portfolio optimizer] は、ポートフォリオマネージャ、運営委員会、または製品管理オフィスが、各プロジェクトのビジネス事例に関する概要情報を表示できるインターフェイスを提供する。 その後、プロジェクトは、戦略的な値や目標に従って、または全体的なスコアに従って優先順位付けできます。
+[!UICONTROL ポートフォリオオプティマイザー]の目的は、ポートフォリオマネージャー、運営委員会または製品管理オフィスが、各プロジェクトのビジネスケースに関する概要情報を表示できるインターフェイスを提供することです。その後、プロジェクトを戦略的な価値観や目標または全体的なスコアに従って優先順位付けできます。
 
-The [!UICONTROL Portfolioの最適化] は、次の前提条件を満たしている場合にのみ、サポートを提供します。
+[!UICONTROL ポートフォリオオプティマイザー]は、次の前提条件を満たしている場合にのみ役立ちます。
 
-* The [!UICONTROL ビジネス事例] プロジェクトが完了しました。 詳しくは、 [ビジネスケースの定義：記事インデックス](../../projects/define-a-business-case/define-business-case.md).
+* プロジェクトの[!UICONTROL ビジネスケース]が完了している。詳しくは、 [ビジネスケースの定義：記事インデックス](../../projects/define-a-business-case/define-business-case.md).
 * ポートフォリオは、レビューするプロジェクトの「プロジェクトの詳細」セクションの「プロジェクトの概要」領域で定義します。
-* レビューするプロジェクトに対して、「プロジェクト予算」と「計画特典」が指定されています。 「固定コスト」と「固定売上高」はオプションですが、値を追加します。 詳しくは、 [プロジェクトの財務分野](../../projects/project-finances/project-finances-overview-1.md).
+* レビューするプロジェクトに対して、プロジェクト予算と予定利益が指定されている。固定コストおよび固定収益はオプションですが、価値を追加します。詳しくは、[プロジェクトの財務情報フィールド](../../projects/project-finances/project-finances-overview-1.md)を参照してください。
 
-の場所の詳細については、 [!UICONTROL Portfolioの最適化]を参照してください。 [次を見つけます。 [!UICONTROL Portfolioの最適化]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
+[!UICONTROL ポートフォリオオプティマイザー]の場所について詳しくは、[[!UICONTROL ポートフォリオオプティマイザー]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)を参照してください。
 
-## 財務 [!UICONTROL Portfolioの最適化]
+## [!UICONTROL ポートフォリオオプティマイザー]の財務情報
 
-ポートフォリオの財務状態は、 [!UICONTROL Portfolioの最適化].
+ポートフォリオの財務状態は、[!UICONTROL ポートフォリオオプティマイザー]を使用する場合、プロジェクトの期間中いつでも表示できます。
 
-財政を取り扱う際には、次の点を考慮してください。 [!UICONTROL Portfolioの最適化]:
+[!UICONTROL ポートフォリオオプティマイザー]で財務情報を取り扱う際には、次の点を考慮してください。
 
-* プロジェクトには、 [!UICONTROL ビジネス事例] は、どの条件に一致するかに従って実行されます [!UICONTROL Portfolioの最適化]. 例えば、低コストや高いアライメントプロジェクトの場合は、高いスコアが割り当てられます。
+* プロジェクトは、[!UICONTROL ビジネスケース]が完了すると、[!UICONTROL ポートフォリオオプティマイザー]でどの条件に一致するかに応じてスコアで評価されます。例えば、低コストまたは整合性の高いプロジェクトの場合は、高いスコアがつけられます。
 
   プロジェクトのポートフォリオ管理者スコアの計算について詳しくは、 [の概要 [!UICONTROL Portfolioの最適化] スコア](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
-* の財務計算 [!UICONTROL Portfolioの最適化] を使用します。 [!UICONTROL 予算コスト] （内） [!UICONTROL ビジネス事例] プロジェクトの。
-* 手動で [!UICONTROL Portfolioの最適化]では、それらに関するすべての情報を考慮に入れます。 これには、財務データ、スコアカードとの整合、ROI などが含まれます。
+* [!UICONTROL ポートフォリオオプティマイザー]の財務計算では、プロジェクトの[!UICONTROL ビジネスケース]の[!UICONTROL 予算計上コスト]が使用されます。
+* [!UICONTROL ポートフォリオオプティマイザー]では、それらに関するすべての情報を考慮して、プロジェクトを手動で優先付けることができます。これには、財務データ、スコアカードとの整合、ROI などが含まれます。
 
-### の財務分野 [!UICONTROL Portfolioの最適化] {#the-financial-areas-in-the-portfolio-optimizer}
+### [!UICONTROL ポートフォリオオプティマイザー]の財務情報エリア {#the-financial-areas-in-the-portfolio-optimizer}
 
-財務情報は、 [!UICONTROL Portfolioの最適化]:
+財務情報は、[!UICONTROL ポートフォリオオプティマイザー]の次のエリアに表示できます。
 
-* **[!UICONTROL Portfolioヘッダー]**：この領域には、ポートフォリオ内のすべてのプロジェクトから収集された財務情報が表示されます。 これは、Portfolioオブジェクトの各タブに表示されます。
-* **[!UICONTROL 選択したプロジェクトのPortfolio財務]**：この領域には、 [!UICONTROL Portfolioの最適化]. この領域の情報を表示することで、プロジェクトを追加または削除し、ポートフォリオの財政に与える影響を理解できます。
-* **[!UICONTROL プロジェクト財務]**：この領域には、 [!UICONTROL Portfolioの最適化].
+* **[!UICONTROL ポートフォリオヘッダー]**：このエリアには、ポートフォリオ内のすべてのプロジェクトから収集された財務情報が表示されます。これは、ポートフォリオオブジェクトの各タブに表示されます。
+* **[!UICONTROL 選択したプロジェクトのPortfolio財務]**：この領域には、 [!UICONTROL Portfolioの最適化]. このエリアの情報を表示することで、プロジェクトを追加または削除し、ポートフォリオの財務に与える影響を理解できます。
+* **[!UICONTROL プロジェクト財務]**：このエリアには、[!UICONTROL ポートフォリオオプティマイザー]に一覧表示される各プロジェクトの財務情報が表示されます。
 
-### の財務分野 [!UICONTROL Portfolioの最適化] {#the-financial-fields-in-the-portfolio-optimizer}
+### [!UICONTROL ポートフォリオオプティマイザー]の財務情報フィールド {#the-financial-fields-in-the-portfolio-optimizer}
 
-次の財務フィールドが [!UICONTROL Portfolioの最適化]:
+次の財務情報フィールドが[!UICONTROL ポートフォリオオプティマイザー]に表示されます。
 
-* [Portfolioヘッダー](#portfolio-header)
-* [選択したプロジェクトのPortfolio財務](#portfolio-finances-for-selected-projects)
+* [ポートフォリオヘッダー](#portfolio-header)
+* [選択したプロジェクトのポートフォリオ財務情報](#portfolio-finances-for-selected-projects)
 
-#### Portfolioヘッダー {#portfolio-header}
+#### ポートフォリオヘッダー {#portfolio-header}
 
 ![](assets/portfolio-header-nwe-350x14.png)
 
-[!DNL Adobe Workfront] ポートフォリオヘッダーの財務フィールドを、次の条件にのみ一致するステータスのプロジェクトからの情報を使用して計算します。 [!UICONTROL 承認済み] または [!UICONTROL 現在].
+[!DNL Adobe Workfront] は、ポートフォリオヘッダーの財務情報フィールドを、[!UICONTROL 承認済み]または[!UICONTROL 現在]のステータスのプロジェクトからの情報を使用して計算します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,29 +77,29 @@ The [!UICONTROL Portfolioの最適化] は、次の前提条件を満たして�
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL オンタイム ]</td> 
-   <td> <p>ポートフォリオ内で [!UICONTROL オンタイム ] と見なされるプロジェクトの割合。 これは、ポートフォリオ内の任意のタブに表示されます。</p> <p>プロジェクトは、 <strong>[!UICONTROL 条件 ]</strong> 次に該当 <strong>[!UICONTROL On Target]</strong>. <br>[!UICONTROL Project Conditions] の詳細については、 <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">プロジェクト条件と条件タイプの概要</a>.</p> <p>The <strong>[!UICONTROL オンタイム ]</strong> 割合は次の式を使用して計算されます。</p> <p><em>[!UICONTROLPortfolio時の割合 ] = [!UICONTROL オンタイム ] プロジェクトの数/ [!UICONTROL 現在 ] または [!UICONTROL 承認済み ] ステータスのプロジェクトの合計数</em> </p> </td> 
+   <td>[!UICONTROL On Time]</td> 
+   <td> <p>ポートフォリオ内で [!UICONTROL オンタイム ] と見なされるプロジェクトの割合。 これは、ポートフォリオのどのタブからも確認できます。</p> <p>プロジェクトは、プロジェクト <strong>[!UICONTROL Condition]</strong> が <strong>[!UICONTROL On Target]</strong> である場合に [!UICONTROL On Time] とみなされます。<br>[!UICONTROL Project Conditions] について詳しくは、<a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">プロジェクト状況と状況タイプの概要</a>の記事を参照してください。</p> <p>The <strong>[!UICONTROL オンタイム ]</strong> 割合は次の式を使用して計算されます。</p> <p><em>[!UICONTROL On Time Portfolio Percentage] = [!UICONTROL On Time] プロジェクトの数 ÷ [!UICONTROL Current] ステータスまたは [!UICONTROL Approved] ステータスのプロジェクトの合計数</em> </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 予算 ]</td> 
-   <td> <p>ポートフォリオ内で [!UICONTROL 予算対象 ] と見なされるプロジェクトの割合。 これは、[!UICONTROL ポートフォリオ ] 内の任意のタブに表示されます。</p> <p>プロジェクトは <strong>[!UICONTROL 予算 ]</strong> 事前定義された予算を超えていない場合に発生します。 <br>プロジェクトの予算の詳細については、「 <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">[!UICONTROL 管理 ] プロジェクトの財務領域の情報</a>.</p> <p>[!UICONTROL 予算に対する ] 割合は、次の式を使用して計算されます。</p> <p><em>[!UICONTROL 予算Portfolio率 ] = [!UICONTROL 予算に基づく ] プロジェクトの数/プロジェクトの合計数 </em><em>（[!UICONTROL Current] または [!UICONTROL Approved] ステータス）</em> </p> </td> 
+   <td>[!UICONTROL On Budget]</td> 
+   <td> <p>ポートフォリオ内で [!UICONTROL 予算対象 ] と見なされるプロジェクトの割合。 これは、[!UICONTROL ポートフォリオ ] 内の任意のタブに表示されます。</p> <p>事前定義された予算を超えていないプロジェクトは、「<strong>[!UICONTROL On Budget]</strong>」となります。<br>プロジェクトの予算について詳しくは、<a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">プロジェクトの財務領域の [!UICONTROL Manage] 情報</a>の記事を参照してください。</p> <p>[!UICONTROL 予算に対する ] 割合は、次の式を使用して計算されます。</p> <p><em>[!UICONTROL On Budget Portfolio Percentage] = [!UICONTROL On Budget] プロジェクト数／<em>[!UICONTROL Current] または [!UICONTROL Approved] ステータスでの</em>プロジェクトの合計数</em> </p> </td> 
   </tr> 
   <tr> 
-   <td>ROI （ポートフォリオ用）</td> 
-   <td> <p>ポートフォリオの [!UICONTROL 投資利益率 ] (ROI) は、[!UICONTROLPortfolio] の合計 [!UICONTROL 利益 ] とプロジェクトの [!UICONTROL 予算コスト ] の合計を考慮して計算されます。 これは、ポートフォリオ内の任意のタブに表示されます。</p> <p>Portfolioの ROI の値は、次の式を使用して計算されます。</p> <p><em>PortfolioROI = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost])/ [!UICONTROL Total Cost] * 100</em> </p> <p>プロジェクトの ROI の計算方法について詳しくは、 <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">投資利益率 (ROI) の計算</a>.</p> </td> 
+   <td>ROI（ポートフォリオ用）</td> 
+   <td> <p>ポートフォリオの [!UICONTROL Return on Investment] (ROI) は、[!UICONTROL Portfolio] の合計 [!UICONTROL Benefit] とプロジェクトの [!UICONTROL Budgeted Costs] の合計を考慮して計算されます。これは、ポートフォリオのどのタブからも確認できます。</p> <p>Portfolioの ROI の値は、次の式を使用して計算されます。</p> <p><em>Portfolio ROI = ([!UICONTROL Total Benefit] - [!UICONTROL Total Budgeted Cost]) / [!UICONTROL Total Cost] * 100</em> </p> <p>プロジェクトの ROI の計算方法について詳しくは、 <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">投資利益率 (ROI) の計算</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 整列 ] または [!UICONTROL 整列スコア ] </td> 
-   <td> <p>すべての [!UICONTROL Project Alignment Score] 値の平均。プロジェクトの [!UICONTROL ビジネスケース ] で [!UICONTROL Scorecard] を完了した後に計算されます。 各プロジェクトの配置スコアは、[!UICONTROL Alignment Optimizer] の [!UICONTROL Alignment] 列に表示されます。 これは、ポートフォリオ内の任意のタブに表示されます。</p> <p>プロジェクトで線形スコアを生成する方法の詳細については、「 <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">プロジェクトにスコアカードを適用し、線形スコアを生成する</a>.</p> </td> 
+   <td>[!UICONTROL Aligned] または [!UICONTROL Alignment Score] </td> 
+   <td> <p>すべての [!UICONTROL Project Alignment Score] 値の平均。プロジェクトの [!UICONTROL ビジネスケース ] で [!UICONTROL Scorecard] を完了した後に計算されます。 各プロジェクトの配置スコアは、[!UICONTROL Portfolio Optimizer] の [!UICONTROL Alignment] 列に表示されます。これは、ポートフォリオのどのタブからも確認できます。</p> <p>プロジェクトで線形スコアを生成する方法について詳しくは、<a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">プロジェクトにスコアカードを適用し、線形スコアを生成</a>の記事を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 正味値 ]</td> 
-   <td> <p>ポートフォリオ内のすべてのプロジェクトのすべての [!UICONTROL ネット値 ] の合計。 これは、ポートフォリオ内の任意のタブに表示されます。</p> <p>プロジェクトでの [!UICONTROL 正味値 ] の計算方法について詳しくは、この記事を参照してください <a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">正味値を計算</a>.</p> </td> 
+   <td>[!UICONTROL Net Value]</td> 
+   <td> <p>ポートフォリオ内のすべてのプロジェクトのすべての [!UICONTROL Net Values] の合計。これは、ポートフォリオのどのタブからも確認できます。</p> <p>プロジェクトでの [!UICONTROL Net Value] の計算方法について詳しくは、<a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">正味価値を計算</a>の記事を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### 選択したプロジェクトのPortfolio財務 {#portfolio-finances-for-selected-projects}
+#### 選択したプロジェクトのポートフォリオ財務情報 {#portfolio-finances-for-selected-projects}
 
 ![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
@@ -114,46 +114,46 @@ The [!UICONTROL Portfolioの最適化] は、次の前提条件を満たして�
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL プロジェクト数 ]</td> 
-   <td> <p>ポートフォリオ内のアクティブなプロジェクトの合計数です。 ポートフォリオ内でアクティブと見なされるプロジェクトは、次のいずれかのステータスになります。</p> 
+   <td>[!UICONTROL Number of projects]</td> 
+   <td> <p>ポートフォリオ内のアクティブなプロジェクトの合計数。ポートフォリオ内でアクティブと見なされるプロジェクトは、次のいずれかのステータスになります。</p> 
     <ul> 
      <li>[!UICONTROL Current]</li> 
      <li>[!UICONTROL Planning]</li> 
-     <li>[!UICONTROL 承認済み ]</li> 
+     <li>[!UICONTROL Approved]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 予算 ]</td> 
-   <td>このフィールドを手動で更新して、ポートフォリオ全体の合計予算を指定できます。 この予算は、ポートフォリオ内のすべてのプロジェクトで使用されます。 </td> 
+   <td>[!UICONTROL Budget]</td> 
+   <td>このフィールドを手動で更新して、ポートフォリオ全体の合計予算を指定できます。この予算は、ポートフォリオ内のすべてのプロジェクトで使用されます。 </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 残り ]</td> 
-   <td> <p>ポートフォリオ内のすべてのプロジェクトに対する [!UICONTROL 予算コスト ] の残りの予算が、ポートフォリオの予算から差し引かれます。</p> <p>[!UICONTROL 残りのPortfolio予算 ] は、次の式を使用して計算されます。</p> <p><em>[!UICONTROL 残りのPortfolio予算 ] = [!UICONTROL 合計Portfolio予算 ] — すべてのPortfolioプロジェクトの合計 [!UICONTROL 予算コスト ]</em> </p> <p>ポートフォリオ内のすべてのプロジェクトの全体的な [!UICONTROL 予算コスト ] は、「予算」フィールドの下のインジケーターバーに表示されます。 </p> <p>プロジェクトのコストの追跡の詳細については、 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>.</p> </td> 
+   <td>[!UICONTROL Remaining]</td> 
+   <td> <p>ポートフォリオ内のすべてのプロジェクトに対するすべての [!UICONTROL Budgeted Costs] は、ポートフォリオの予算から差し引かれました。</p> <p>[!UICONTROL Remaining Portfolio Budget] は、次の式を使用して計算されます。</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - すべてのポートフォリオプロジェクトの合計 [!UICONTROL Budgeted Cost]</em> </p> <p>ポートフォリオ内のすべてのプロジェクトの全体的な [!UICONTROL Budgeted Cost] は、予算フィールドの下のインジケーターバーに表示されます。 </p> <p>プロジェクトのコストの追跡の詳細については、 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 総コスト ]</td> 
-   <td> <p>[!UICONTROL Optimizer] に表示されるすべてのプロジェクトのコストの合計。 各プロジェクトのコストは、[!UICONTROL ビジネスケースサマリー ] に表示されるプロジェクトの [!UICONTROL 予算コスト ] と同じです。 </p> <p>[!UICONTROL ビジネスケース ] のプロジェクトの財務分野の詳細については、この記事の「ビジネスケースの財務分野について」の節を参照してください <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">プロジェクトのビジネスケースの作成</a>.</p> </td> 
+   <td>[!UICONTROL Total Cost]</td> 
+   <td> <p>[!UICONTROL Portfolio Optimizer] に表示されるすべてのプロジェクトのコストの合計。各プロジェクトのコストは、[!UICONTROL Business Case Summary] に表示されるプロジェクトの [!UICONTROL Budgeted Cost] と同じです。 </p> <p>[!UICONTROL ビジネスケース ] のプロジェクトの財務分野の詳細については、この記事の「ビジネスケースの財務分野について」の節を参照してください <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">プロジェクトのビジネスケースの作成</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL リスク ] </td> 
-   <td> <p>ポートフォリオ内のすべてのプロジェクトの [!UICONTROL 潜在的なリスクコスト ] の合計。 各プロジェクトの [!UICONTROL 潜在的なリスクコスト ] は、[!UICONTROLPortfolioオプティマイザー ] の [!UICONTROL リスク ] 列に一覧表示されます。 </p> <p>プロジェクトのリスクを計算する方法の詳細については、「 <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">潜在的なリスクコストの計算</a>.</p> </td> 
+   <td>[!UICONTROL Risk] </td> 
+   <td> <p>ポートフォリオ内のすべてのプロジェクトのすべての [!UICONTROL Potential Risk Costs] の合計。各プロジェクトの [!UICONTROL Potential Risk Cost] は、[!UICONTROL Portfolio Optimizer] の [!UICONTROL Risk] 列に表示されます。 </p> <p>プロジェクトのリスクを計算する方法の詳細については、「 <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">潜在的なリスクコストの計算</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Benefit]</td> 
-   <td> <p>ポートフォリオ内のすべてのプロジェクトの [!UICONTROL Planned Benefit] 値の合計。 各プロジェクトの「計画特典」の値は、[!UICONTROL Planned Benefityr] の [!UICONTROL Benefit] 列に一覧表示されます。 </p> <p>プロジェクトの [!UICONTROL 計画的メリット ] の詳細については、この記事を参照してください <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">プロジェクト計画便益の概要</a>.</p> </td> 
+   <td> <p>ポートフォリオ内のすべてのプロジェクトのすべての [!UICONTROL Planned Benefit] 値の合計。各プロジェクトの予定利益の値は、[!UICONTROL Portfolio Optimizer] の [!UICONTROL Benefit] 列に一覧表示されます。 </p> <p>プロジェクトの [!UICONTROL Planned Benefit] について詳しくは、<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">プロジェクト予定利益の概要</a>の記事を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 純価値へのリスク ] 指標</td> 
-   <td> <p>ポートフォリオ内のすべてのプロジェクトで提供される [!UICONTROL 正味値 ] を考慮して、[!UICONTROL 潜在的なリスク ] の値を測定します。 ポートフォリオ内で最も効率を高めるには、[!UICONTROL リスク ] 指標が低く、[!UICONTROL 純値 ] 指標が高いことを確認します。 </p> <p>[!UICONTROL 純価値 ] へのリスク計算の詳細については、「 <a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">ポートフォリオ内の純価値に対するリスクを計算する</a>.</p> </td> 
+   <td>[!UICONTROL Risk to Net Value] 指標</td> 
+   <td> <p>ポートフォリオ内のすべてのプロジェクトで提供される [!UICONTROL 正味値 ] を考慮して、[!UICONTROL 潜在的なリスク ] の値を測定します。 ポートフォリオで最も効率を高めるには、[!UICONTROL Risk] 指標が低く、[!UICONTROL Net Value] 指標が高いことを確認します。 </p> <p>[!UICONTROL Net Value] に対するリスク計算について詳しくは、「<a href="../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md" class="MCXref xref">ポートフォリオの純価に対するリスクを計算する</a>の記事を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## のカスタマイズ [!UICONTROL Portfolioの最適化]
+## [!UICONTROL ポートフォリオオプティマイザー]のカスタマイズ
 
-カスタマイズできるのは、 [!UICONTROL Portfolioの最適化] リスト内の情報を変更するために設定を使用します。
+設定を使用してリストの情報を変更することで、[!UICONTROL ポートフォリオオプティマイザー]のプロジェクトのリストエリアのみをカスタマイズできます。
 
-以下のアイコンとオプションを、 [!UICONTROL Portfolioの最適化]:
+[!UICONTROL ポートフォリオオプティマイザー]では、次のアイコンとオプションを利用できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,53 +161,53 @@ The [!UICONTROL Portfolioの最適化] は、次の前提条件を満たして�
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Icon Optimizer 内のPortfolio</strong></td> 
+   <td><strong>ポートフォリオオプティマイザーのアイコン</strong></td> 
    <td><strong>名前</strong></td> 
    <td><strong>関数</strong></td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
-   <td>[!UICONTROL プロジェクトの優先度を設定 ]</td> 
+   <td>[!UICONTROL Set project priority]</td> 
    <td>優先度に基づいてプロジェクトの順序を保存する場合は、このアイコンを使用します。 </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 
-   <td>[!UICONTROL ポートフォリオを最適化 ]</td> 
-   <td>このアイコンを使用して、プロジェクトの次の財務値に基づいてポートフォリオを最適化します。
+   <td>[!UICONTROL Optimize portfolio]</td> 
+   <td>このアイコンを使用して、プロジェクトの次の財務価値に基づいてポートフォリオを最適化します。
     <ul>
-     <li>[!UICONTROL コスト ]</li>
-     <li>[!UICONTROL 整列 ]</li>
-     <li>[!UICONTROL 値 ]</li>
-     <li>[!UICONTROL メリットのリスク ]</li>
+     <li>[!UICONTROL Cost]</li>
+     <li>[!UICONTROL Alignment]</li>
+     <li>[!UICONTROL Value]</li>
+     <li>[!UICONTROL Risk to Benefit]</li>
      <li>[!UICONTROL ROI]</li>
     </ul><p>ポートフォリオの最適化について詳しくは、 <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">[!UICONTROL Optimizer] でのプロジェクトの最適化</a>.</p></td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-undo-redo-icons-optimizer.png"> </td> 
-   <td>[!UICONTROL 取り消し ]/ [!UICONTROL やり直し ] アイコン</td> 
-   <td>保存する前に [!UICONTROL Adobe Manager] に加えた変更をキャンセルまたはやり直すには、これらのPortfolioを使用します。</td> 
+   <td>[!UICONTROL Undo] アイコン／[!UICONTROL Redo] アイコン</td> 
+   <td>保存する前に [!UICONTROL Portfolio Optimizer] に加えた変更をキャンセルまたはやり直すには、これらのアイコンを使用します。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/hide-show-unselected-portfolio-optimizer-142x74.png" alt="hide_show_unselected_portfolio_optimizer.png" style="width: 142;height: 74;"> </td> 
    <td>[!UICONTROL Show]/[!UICONTROL Hide] チェックがオフのプロジェクト</td> 
-   <td>これらのアイコンを使用して、チェックを外したポートフォリオ内のプロジェクトを表示または非表示にします。</td> 
+   <td>これらのアイコンを使用して、チェックを外したポートフォリオのプロジェクトを表示または非表示にします。</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-export-optimizer-icon-350x173.png" style="width: 350;height: 173;"> </td> 
-   <td>[!UICONTROL 書き出し ] </td> 
-   <td> <p>このアイコンを使用して、[!UICONTROL Project Optimizer] の [!UICONTROL プロジェクトの優先順位付け ] 領域にデータを書き出します。 次の形式に書き出すことができます。</p> 
+   <td>[!UICONTROL Export] </td> 
+   <td> <p>このアイコンを使用して、[!UICONTROL Portfolio Optimizer] の [!UICONTROL Project Prioritization] エリアにデータを書き出します。次の形式に書き出すことができます。</p> 
     <ul> 
      <li>PDF</li> 
      <li>[!DNL Excel]</li> 
-     <li>[!UICONTROL タブ ] 区切り</li> 
+     <li>[!UICONTROL Tab] 区切り</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/preferences-portfolio-optimizer.png" alt="preferences_portfolio_optimizer.png"> </td> 
-   <td>[!UICONTROL 環境設定 ]</td> 
-   <td> <p>このアイコンを使用して、[!UICONTROL Optimizer] の列に表示されるプロジェクトフィールドを変更したり、[!UICONTROL Optimizer] に表示されるプロジェクトをそのステータスに基づいて変更したりします。 </p> <p>ヒント：  
+   <td>[!UICONTROL Preferences]</td> 
+   <td> <p>このアイコンを使用して、[!UICONTROL Portfolio Optimizer] の列に表示されるプロジェクトフィールドを変更したり、[!UICONTROL Optimizer] に表示されるプロジェクトをそのステータスに基づいて変更したりします。 </p> <p>ヒント：  
      <ul> 
-      <li> <p>すべてではない [!DNL Workfront] 標準フィールドを列に追加できます。 </p> </li> 
+      <li> <p>すべての [!DNL Workfront] 標準フィールドを列に追加できるわけではありません。 </p> </li> 
      </ul> 
      <ul> 
       <li> <p>ポートフォリオ内のプロジェクトのいずれかに、ゼロ以外の値を持つカスタムフィールドのみを追加できます。</p> </li> 

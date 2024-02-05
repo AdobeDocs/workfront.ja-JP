@@ -11,7 +11,7 @@ exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
 source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
@@ -21,18 +21,18 @@ ht-degree: 0%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次の手順を実行する必要があります。
+この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td>
    <p>新規プラン：標準</p>
    <p>または</p>
@@ -40,27 +40,27 @@ ht-degree: 0%
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス</p> <p>Workfront管理者がこのアクセス権を付与する方法について詳しくは、 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定の領域に対する管理者アクセス権をユーザーに付与する</a>.</p></td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスタイプ、アクセスレベル設定を確認するには、Workfront管理者に問い合わせてください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセスレベル設定を確認するには、Workfront 管理者にお問い合わせください。
 
 ## フォームデザイナーでカスタムフォームの名前を変更する
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
 
-1. クリック **カスタムForms** をクリックします。
+1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 
-   表示されるビューで、組織用に作成されたすべてのカスタムフォームを確認できます。 また、各フォームの作成者、対象となるオブジェクトタイプ、アクティブかどうかも確認できます。
+   表示されるビューで、組織用に作成されたすべてのカスタムフォームを確認できます。また、各フォームの作成者、対象となるオブジェクトタイプ、アクティブかどうかも確認できます。
 
-1. 名前を変更するカスタムフォームを選択し、 **編集**.
+1. 名前を変更するカスタムフォームを選択し、「**編集**」をクリックします。
 1. タイトルを変更するには、フォーム名をクリックします。
 1. 説明を変更するには、説明テキストボックスをクリックします。
 
-1. クリック **保存して閉じる**.
+1. 「**保存して閉じる**」をクリックします。
 
    >[!TIP]
    >
-   >次をクリックできます。 **適用** カスタムフォームの作成中はいつでも、変更内容を保存し、フォームを開いたままにすることができます。
+   >カスタムフォームの作成中はいつでも「**適用**」をクリックして、変更内容を保存し、フォームを開いたままにすることができます。

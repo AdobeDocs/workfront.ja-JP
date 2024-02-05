@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: 問題の優先度を更新
-description: 問題の優先度を定義して、問題の重要度を示すことができます。
+title: イシューの優先度の更新
+description: イシューの優先度を定義して、イシューの重要度を示すことができます。
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# 問題の優先度を更新
+# イシューの優先度の更新
 
-問題の優先度を定義して、問題の重要度を示すことができます。
+イシューの優先度を定義して、イシューの重要度を示すことができます。
 
-問題の優先度を変更するには、問題に対する管理権限が必要です。  [問題の優先度の更新](#update-the-priority-of-an-issue).
+イシューの優先度を変更するには、イシューに対する管理権限が必要です。 [イシューの優先度を更新](#update-the-priority-of-an-issue)。
 
 ## アクセス要件
 
@@ -28,46 +28,46 @@ ht-degree: 3%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>問題へのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>イシューへのアクセス権を編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>問題に対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>イシューに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## 問題の優先度の概要
+## イシューの優先度の概要
 
 各優先度ラベルには、変更できない番号が関連付けられています。
 
-Adobe Workfrontの管理者は、Workfront内で優先度ラベルを変更したり、新しい優先度を作成したりできます。 その結果、Workfrontインスタンスの「優先度」フィールドに対するオプションが、以下に示すオプションと異なる場合があります。
+Adobe Workfront の管理者は、Workfront 内で優先度ラベルを変更したり、新しい優先度を作成したりできます。その結果、Workfront インスタンスの優先度フィールドに対するオプションが、次に示すオプションと異なる場合があります。
 
-組織で使用される優先度の番号付け順序を理解する必要があります。\
-例えば、優先度のラベルが変更されている場合、組織は緊急のタスクを参照するために番号 1 を使用できます。
+組織で使用される優先度の番号付け順序を把握する必要があります。\
+例えば、優先度のラベルが変更されている場合、組織は緊急のタスクを参照するために数字の 1 を使用することがあります。
 
-インスタンスの優先度の名前のカスタマイズについて詳しくは、 [優先度の作成とカスタマイズ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+インスタンスの優先度の名前のカスタマイズについて詳しくは、[優先度の作成とカスタマイズ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md)を参照してください。
 
-次の表を参照して、各デフォルトの優先度ラベルと対応する数について理解してください。
+次の表を参照して、各デフォルトの優先度ラベルと対応する数について把握してください。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>優先度ラベル <br>（変更可能） </th> 
-   <th>優先度番号 <br>（変更できません） </th> 
+   <th>優先度ラベル<br>（変更可能） </th> 
+   <th>優先度番号<br>（変更不可） </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -94,19 +94,19 @@ Adobe Workfrontの管理者は、Workfront内で優先度ラベルを変更し�
  </tbody> 
 </table>
 
-## 問題の優先度の更新 {#update-the-priority-of-an-issue}
+## イシューの優先度を更新 {#update-the-priority-of-an-issue}
 
-1. 優先度を変更する問題に移動します。
-1. クリック **問題の詳細** をクリックします。
+1. 優先度を変更するイシューに移動します。
+1. 左側のパネルで&#x200B;**イシューの詳細**&#x200B;をクリックします。
 
-   The **概要** デフォルトでは、「 」セクションが表示されます。
+   **概要**&#x200B;セクションがデフォルトで表示されます。
 
-1. 次をクリック： **優先度** フィールド **基本情報** 領域。
+1. **基本情報**&#x200B;エリアの「**優先度**」フィールドをクリックします。
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. の値を選択します。 **優先度** フィールドに入力します。
+1. 「**優先度**」フィールドの値を選択します。
 
-   システムでのWorkfront管理者の優先度の設定方法に応じて、オプションは異なる場合があります。
+   Workfront 管理者がシステムの優先度をどのように設定したかに応じて、オプションは異なる場合があります。
 
 1. 「**変更を保存**」をクリックします。

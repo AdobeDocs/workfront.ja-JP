@@ -1,24 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: イベント購読リソースフィールド
-description: イベント購読リソースフィールド
+title: イベントサブスクリプションリソースフィールド
+description: イベントサブスクリプションリソースフィールド
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 10%
+source-wordcount: '711'
+ht-degree: 91%
 
 ---
 
-# イベント購読リソースフィールド
+# イベントサブスクリプションリソースフィールド
 
-イベント購読リソースフィールドは、イベント購読で設定済みのエンドポイントに送信メッセージを送信する結果として発生するイベントのトリガーを表します。 リソースフィールドが編集されると、UPDATE イベントが発生します。
+イベントサブスクリプションリソースフィールドは、イベントサブスクリプションで設定済みのエンドポイントにアウトバウンドメッセージを送信するイベントのトリガーを表します。リソースフィールドが編集されると、UPDATE イベントがトリガーされます。
 
-次の表に、イベント購読リソースで使用できるフィールドを示します。
+次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td>割り当て</td> 
-   <td>割り当て</td> 
+   <td>ASSGN</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>状態</td> 
+   <td>ステータス</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -142,7 +142,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>作業</td> 
+   <td>ワーク</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -172,7 +172,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -205,7 +205,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -252,7 +252,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>注意： LastUpdateDate は、毎日初めて更新されたときにのみイベントをトリガーします。 </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>メモ：LastUpdateDate は、毎日初めて更新されたときにのみイベントをトリガーします。 </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -262,7 +262,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -352,7 +352,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -445,7 +445,7 @@ ht-degree: 10%
    <td>userID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>DocumentVersion</span> </td> 
+   <td><span>ドキュメントバージョン</span> </td> 
    <td><span>DOCV</span> </td> 
    <td><span>accessorIDs</span> </td> 
   </tr> 
@@ -487,7 +487,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>内線</span> </td> 
+   <td><span>ext</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -517,7 +517,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>場所</span> </td> 
+   <td><span>location</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -622,7 +622,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -657,12 +657,12 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isRefurnable </td> 
+   <td> isReimbursable </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isRefurned </td> 
+   <td> isReimbursed </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -861,7 +861,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>時間</td> 
-   <td>HOUR</td> 
+   <td>時間</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -987,7 +987,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>状態</td> 
+   <td>ステータス</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1000,7 +1000,7 @@ ht-degree: 10%
    <td>timesheetID</td> 
   </tr> 
   <tr> 
-   <td>問題</td> 
+   <td>イシュー</td> 
    <td>OPTASK</td> 
    <td>accessorIDs</td> 
   </tr> 
@@ -1037,7 +1037,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1092,7 +1092,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1197,7 +1197,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>状態</td> 
+   <td>ステータス</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1396,7 +1396,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td>ポートフォリオ</td> 
-   <td>ポート</td> 
+   <td>PORT</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -1422,7 +1422,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1457,7 +1457,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1497,7 +1497,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1527,7 +1527,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1622,7 +1622,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1677,7 +1677,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1817,7 +1817,7 @@ ht-degree: 10%
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>isWaitingDecision</span> </td> 
+   <td><span>isAwaitingDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1882,7 +1882,7 @@ ht-degree: 10%
   <tr> 
    <td>レコードタイプ </td> 
    <td>RECORD_TYPE </td> 
-   <td>カラー</td> 
+   <td>色</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1997,7 +1997,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2037,7 +2037,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2142,7 +2142,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2207,7 +2207,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2272,7 +2272,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>状態</td> 
+   <td>ステータス</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2332,7 +2332,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2387,7 +2387,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2542,7 +2542,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>状態</td> 
+   <td>ステータス</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2602,7 +2602,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enteriedByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2677,7 +2677,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2717,7 +2717,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>title</td> 
+   <td>タイトル</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2727,7 +2727,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>umUserID</td> 
+   <td>uumUserID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2737,7 +2737,7 @@ ht-degree: 10%
   <tr> 
    <td>ワークスペース</td> 
    <td>WORKSPACE</td> 
-   <td>カラー</td> 
+   <td>色</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2767,7 +2767,7 @@ ht-degree: 10%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>name</td> 
+   <td>名前</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2797,4 +2797,4 @@ ht-degree: 10%
  </tbody> 
 </table>
 
-&#42;parameterValue は、様々なWorkfrontリソース（またはオブジェクト）に関連付けられたカスタムフィールド値です。 イベントサブスクリプションのアウトバウンドメッセージには、設定された parameterValues の完全なリスト（カスタムフィールド）が含まれます。
+&#42;parameterValue は、様々な Workfront リソース（またはオブジェクト）に関連付けられたカスタムフィールド値です。イベントサブスクリプションのアウトバウンドメッセージには、設定された parameterValues の完全なリスト（カスタムフィールド）が含まれます。

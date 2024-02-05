@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: f442a681-39fa-499c-8b1f-95d50424f539
 source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 100%
 

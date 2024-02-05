@@ -1,30 +1,31 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: 表示と管理 [!DNL Adobe Workfront] Adobe Creative Cloudでの通知
-description: Adobe Creative Cloudで、 [!DNL Adobe Workfront] 承認する必要のある項目、自分が与えられた割り当て、または関連付けられている項目に対するコメントや変更について。
+title: Adobe Creative Cloud で  [!DNL Adobe Workfront]  通知を表示および管理
+description: 承認が必要なアイテム、与えられた割り当て、または関連付けられているアイテムに対するコメントや変更に関する  [!DNL Adobe Workfront]  からの通知を、Adobe Creative Cloud で受け取ることができます。
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+exl-id: b07474c0-ba41-4382-8374-040f633a47ed
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
-# 表示と管理 [!DNL Adobe Workfront] 通知： [!DNL Adobe Creative Cloud]
+# [!DNL Adobe Creative Cloud] から [!DNL Adobe Workfront] 通知を表示および管理
 
-Adobe Creative Cloudで、 [!DNL Adobe Workfront] 承認する必要のある項目、自分が与えられた割り当て、または関連付けられている項目に対するコメントや変更について。
+承認が必要なアイテム、与えられた割り当て、または関連付けられているアイテムに対するコメントや変更に関する [!DNL Adobe Workfront] からの通知を、Adobe Creative Cloud で受け取ることができます。
 
-これらの通知には、 [!DNL Workfront] Adobe Creative Cloudから移動して実行しなくても実行できるアクション。
+これらの通知には、Adobe Creative Cloud から移動せずに実行できる [!DNL Workfront] アクションが含まれています。
 
-次のAdobe Creative Cloudアプリで通知を使用できます。
+通知は、次の Adobe Creative Cloud アプリで使用できます。
 
 {{cc-app-list}}
 
 ## アクセス要件
 
-&lt;You must have the following access to perform the steps in this article:
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,38 +43,36 @@ Adobe Creative Cloudで、 [!DNL Adobe Workfront] 承認する必要のある項
   </tr> -->
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
+   <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
 {{cc-install-prereq}}
 
-* でインスタント通知を有効にしています [!DNL Workfront]. インスタント通知の有効化について詳しくは、 [独自の電子メール通知を変更する](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* [!DNL Workfront] でインスタント通知を有効にしている。インスタント通知の有効化について詳しくは、 [独自の電子メール通知を変更する](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-## 表示と管理 [!DNL Workfront] Adobe Creative Cloudでの通知
+## Adobe Creative Cloud で [!DNL Workfront] 通知を表示および管理
 
-1. をクリックします。 **[!UICONTROL 通知]** アイコン ![通知アイコン](assets/cc-plugin-notifications-icon.png) プラグインパネルの上部付近にあります。 アイコンの青い点は、未読の通知があることを示します。
-1. （オプション）すべての通知を表示済みとしてマークするには、 **[!UICONTROL すべてを表示済みとしてマーク]**.
+1. プラグインパネルの上部付近にある&#x200B;**[!UICONTROL 通知]**&#x200B;アイコン ![通知アイコン](assets/cc-plugin-notifications-icon.png) をクリックします。アイコン上の青い点は、未読の通知があることを示します。
+1. （オプション）すべての通知を既読としてマークするには、「**[!UICONTROL すべてを既読とマーク]**」をクリックします。
 
-   これは、Workfrontで見られるように、通知をマークします。 表示された通知は、プラグインの通知のリストに表示されなくなりました。
+   これにより、プラグインと Workfront で、通知が既読としてマークされます。既読の通知は、プラグインの通知のリストに表示されなくなります。
 
-1. 通知に表示される作業項目に移動するには、通知をクリックします。
+1. 通知で言及されている作業項目に移動するには、通知をクリックします。
 
-## Adobe Creative Cloudプラグインで使用可能なWorkfront通知
+## Adobe Creative Cloud プラグインで使用可能な Workfront 通知
 
 プラグインでは、次の通知を使用できます。
 
 
-* ダイレクト更新で誰かがあなたを含めました
-* 誰かがあなたのチームを直接更新に含めました (@teamname)
-* ユーザープロファイルにコメントした人
-* あなたが含まれている更新に対して誰かがコメントしました
-* 誰かがあなたの作業項目またはあなたが行った何かにコメントしました
-* ドキュメントは承認済み/承認済み（変更あり） /却下済み
-
-
+* 自分が更新を受信する対象者として追加された
+* チームが更新を受信する対象者として追加された（@teamname）
+* 自分のユーザープロファイルに誰かがコメントした
+* 自分が含まれている更新に対して誰かがコメントした
+* 自分の作業項目または自分がしたことに対して誰かがコメントした
+* 自分のドキュメントが承認、変更して承認、または却下された

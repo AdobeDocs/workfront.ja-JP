@@ -3,7 +3,7 @@ content-type: faq;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
-title: Workfrontの配達確認 — よくある質問
+title: Workfront Proof - よくある質問
 description: Workfront Proof に関するよくある質問を参照してください。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -12,25 +12,25 @@ exl-id: e2bbb311-b56a-46aa-8595-420482fa4ed8
 source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
-# Workfrontの配達確認 — よくある質問
+# Workfront Proof - よくある質問
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 この節では、次の記事を扱います。
 
-* [FAQ — 配達確認とファイルの作成と共有](../../../workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
-* [FAQ — 配達確認の確認](../../../workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-* [FAQ - [!DNL Workfront Proof] アカウント](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
-* [ログインとパスワードおよび電子メールの変更 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
+* [FAQ - プルーフとファイルの作成と共有](../../../workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
+* [FAQ - プルーフのレビュー](../../../workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
+* [FAQ -  [!DNL Workfront Proof]  アカウント](../../../workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+* [ [!DNL Workfront Proof] のログインとパスワードおよびメールアドレスの変更](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md" class="MCXref xref" xrefformat="{para}">Opening a Workfront Proof basic trial account</a> </li>
   -->
 
-* [でのタイムゾーンの設定 [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
+* [ [!DNL Workfront Proof] でのタイムゾーンの設定](../../../workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)

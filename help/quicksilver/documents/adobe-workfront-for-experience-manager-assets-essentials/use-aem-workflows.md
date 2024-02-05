@@ -9,17 +9,17 @@ exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
 source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 0%
+ht-degree: 82%
 
 ---
 
-# Experience Manager Assets統合でのワークフローの使用
+# Experience Manager Assets 統合でのワークフローの使用
 
-ワークフローとは、WorkfrontをAdobe Experience Manager as a Cloud Serviceに接続する一連のアクションです。 Workfrontの管理者は、Workfrontでワークフローを設定した後、それらをプロジェクトテンプレートに割り当てることができます。 ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
+ワークフローとは、Workfront を Adobe Experience Manager as a Cloud Service に接続する一連のアクションです。Workfront 管理者は、Workfront でワークフローを設定し、プロジェクトテンプレートに割り当てることができます。ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
 
 >[!NOTE]
 >
->ワークフローは、Adobe Experience Manager as a Cloud Service統合でのみ使用できます。 これらは、Adobe Experience Manager Assets Essentialsとの統合では使用できません。
+>ワークフローを使用できるのは Adobe Experience Manager as a Cloud Service 統合のみで、Adobe Experience Manager Assets Essentials との統合では使用できません。
 
 
 ## アクセス要件
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront plan*</strong>
+   <td><strong>Adobe Workfront プラン*</strong>
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfrontライセンス*</strong>
+   <td><strong>Adobe Workfront ライセンス*</strong>
    </td>
    <td>リクエスト以上
    </td>
@@ -42,7 +42,7 @@ ht-degree: 0%
   <tr>
    <td><strong>製品</strong>
    </td>
-   <td><p>Experience Manager Assetsをas a Cloud ServiceのユーザーまたはAssets Essentialsに設定し、Admin Consoleでユーザーとして製品に追加される必要があります。</p><p>Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p>
+   <td><p>Experience Manager Assets as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されていることが必要です。</p><p>Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p>
    </td>
   </tr>
   <tr>
@@ -50,89 +50,89 @@ ht-degree: 0%
    </td>
    <td>ドキュメントへのアクセスを編集
 <p>
-<strong>注意： </strong>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <strong>カスタムアクセスレベルの作成または変更</strong>.
+<strong>メモ</strong>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<strong>カスタムアクセスレベルの作成または変更</strong>を参照してください。
    </td>
   </tr>
   <tr>
    <td><strong>オブジェクトの権限</strong>
    </td>
-   <td>プロジェクト上でアクセス権を管理する 
+   <td>プロジェクトでのアクセス権以上の管理 
 <p>
-追加のアクセス権のリクエストについて詳しくは、 <strong>オブジェクトへのアクセスのリクエスト </strong>.
+追加のアクセス権のリクエストについて詳しくは、<strong>オブジェクトへのアクセス権のリクエスト</strong>を参照してください。
    </td>
   </tr>
 </table>
 
 ## 前提条件
 
-始める前に
+開始する前に、
 
-* Workfront管理者は、Adobe Experience Manager統合でワークフローを設定する必要があります。 詳しくは、 [Experience Manager Assets as a Cloud Service統合の設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Workfront 管理者は、Adobe Experience Manager 統合でワークフローを設定する必要があります。詳しくは、[Experience Manager Assets as a Cloud Service 統合の設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional)を参照してください。
 
 ## テンプレートへのワークフローの追加
 
-プロジェクトテンプレートにワークフローを追加できます。 ワークフローは、テンプレートから作成されたすべてのプロジェクトに適用されます。
+ワークフローはプロジェクトテンプレートに追加することが可能で、。テンプレートから作成されたすべてのプロジェクトに適用されます。
 
-1. 「 」をクリックしてテンプレートを開きます。 **テンプレート** メインメニューで、リストからテンプレートを選択します。
-1. クリック **Experience Manager Assets** （左側のナビゲーションパネル）
+1. 「メインメニュー」で「**テンプレート**」をクリックしてテンプレートを開き、リストからテンプレートを選択します。
+1. 左側のナビゲーションパネルで「**Experience Manager Assets**」をクリックします。
 
    >[!NOTE]
    >
-   >左側のナビゲーションに「 Experience Manager Assets 」セクションが表示されていない場合、Workfront管理者が組織のワークフローを有効にしていません。 <!--Is this right?-->
+   >左側のナビゲーションに「Experience Manager Assets」セクションが表示されていない場合は、Workfront 管理者が組織のワークフローを有効にしていません。<!--Is this right?-->
 
-1. Adobe Analytics の **自動ワークフローフィールドの統合を選択**&#x200B;で、このテンプレートから作成されるプロジェクトに使用するワークフローとの統合を選択します。
-1. （オプション）このテンプレートから作成されるプロジェクトに適用するワークフロー値を編集します。
+1. 「**自動化されたワークフローの統合を選択**」フィールドで、このテンプレートから作成されるプロジェクトに使用するワークフローとの統合を選択します。
+1. （オプション）このテンプレートから作成されるプロジェクトに適用するワークフローを編集します。
 
    特定のワークフローの手順については、 [プロジェクト内のワークフロー値の編集](#edit-workflow-values-in-a-project) 」を参照してください。
 
-   セットアップのExperience Manager領域でアクティブ化されたワークフローのみが、テンプレートまたはプロジェクトで使用できます。
+   テンプレートまたはプロジェクトで使用できるのは、「設定」の「Experience Manager」エリアでアクティベートされたワークフローのみです。
 
-1. 変更内容は自動的に保存されます。 <!-- do they though??-->
+1. 変更内容は自動的に保存されます。<!-- do they though??-->
 
 ## プロジェクトへのワークフローの追加
 
-プロジェクトの作成時にワークフローを追加したり、既存のプロジェクトにワークフローを追加したりできます。 どちらの場合も、プロジェクトテンプレートを使用してワークフローを追加します。
+プロジェクトの作成時にワークフローを追加したり、既存のプロジェクトにワークフローを追加したりできます。どちらの場合も、プロジェクトテンプレートを使用してワークフローを追加します。
 
 ### プロジェクト作成時のワークフローの追加
 
 1. プロジェクトの作成を開始します。
 
-   手順については、 [テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   手順については、[テンプレートを使用したプロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md)を参照してください。
 
-1. プロジェクトのテンプレートを選択する場合は、このプロジェクトで使用するワークフローを含むテンプレートを選択します。
-1. （オプション）プロジェクトのワークフロー値を編集します。詳しくは、 [プロジェクト内のワークフロー値の編集](#edit-workflow-values-in-a-project).
+1. プロジェクトのテンプレートを選択する場合は、そのプロジェクトで使用するワークフローを含むテンプレートを選択します。
+1. （オプション）プロジェクトのワークフローを編集します（[プロジェクトでのワークフローの編集](#edit-workflow-values-in-a-project)を参照）。
 
-   セットアップのExperience Manager領域でアクティブ化されたワークフローのみが、テンプレートまたはプロジェクトで使用できます。
+   テンプレートまたはプロジェクトで使用できるのは、「設定」の「Experience Manager」エリアでアクティベートされたワークフローのみです。
 
 
-### 既存のプロジェクトにワークフローを追加する
+### 既存のプロジェクトへのワークフローの追加
 
 1. プロジェクトへのテンプレートの追加を開始します。
 
-   手順については、 [プロジェクトにテンプレートを添付する](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   手順については、[プロジェクトへのテンプレートの添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)を参照してください。
 
-1. プロジェクトのテンプレートを選択する場合は、このプロジェクトで使用するワークフローを含むテンプレートを選択します。
-1. （オプション）プロジェクトのワークフロー値を編集します。詳しくは、 [プロジェクト内のワークフロー値の編集](#edit-workflow-values-in-a-project).
+1. プロジェクトのテンプレートを選択する場合は、そのプロジェクトで使用するワークフローを含むテンプレートを選択します。
+1. （オプション）プロジェクトのワークフローを編集します（[プロジェクトでのワークフローの編集](#edit-workflow-values-in-a-project)を参照）。
 
-   セットアップのExperience Manager領域でアクティブ化されたワークフローのみが、テンプレートまたはプロジェクトで使用できます。
+   テンプレートまたはプロジェクトで使用できるのは、「設定」の「Experience Manager」エリアでアクティベートされたワークフローのみです。
 
 ### プロジェクト内のワークフロー値の編集
 
-プロジェクトレベルでワークフロー値を編集できます。 プロジェクトレベルのワークフロー値は、プロジェクトテンプレートで設定された値を上書きします。これは、Adobe Experience Manager Assets 統合で設定されたデフォルト値に優先します。
+プロジェクトレベルでワークフロー値を編集できます。プロジェクトレベルのワークフロー値は、プロジェクトテンプレートで設定された値を上書きします。これは、Adobe Experience Manager Assets 統合で設定されたデフォルト値に優先します。
 
 すべてのワークフロー値は、次の場所にあります。
 
-* プロジェクトを作成またはプロジェクトを編集ウィンドウの「ワークフロー」セクション。
-* 左ナビゲーションの「Adobe Experience Manager」セクション。
+* プロジェクトを作成またはプロジェクトを編集ウィンドウのワークフローセクション。
+* 左ナビゲーションの Adobe Experience Manager セクション。
 
 
   >[!NOTE]
   >
-  >これらの領域が表示されない場合、Workfront管理者は組織のワークフローを有効にしていません。
+  >これらのエリアが表示されない場合、Workfront 管理者は組織のワークフローを有効にしていません。
 
-#### リンクされたフォルダー
+#### リンクされているフォルダー
 
-リンクされたフォルダーのワークフローを編集するには：
+リンクされているフォルダーのワークフローを編集するには：
 
 1. 切り替え **[!UICONTROL リンクされたフォルダーを作成]** 必要に応じてオンまたはオフにします。
 1. （条件付き）リンクされたフォルダーを有効にする場合、すべてのリンクされたフォルダーをこの統合に関連付ける場所を示すフォルダーパスを選択します。

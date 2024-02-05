@@ -11,7 +11,7 @@ exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
 source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is the section article with links to all other articles in this section)</p>
 -->
 
-次のドキュメントを使用して、Adobe Workfrontのテキストモードインターフェイスの使用方法を理解してください。 テキストモードを使用して、Report Builder で許可されている以上のレポートをカスタマイズすることで、レポートの使用を拡張できます。
+次のドキュメントを使用して、Adobe Workfront のテキストモードインターフェイスの使用方法について学習します。テキストモードを使用して、Report Builder で許可されている以上のレポートをカスタマイズすることで、レポートの使用を拡張できます。
 
 この節では、次の記事を扱います。
 
@@ -49,11 +49,11 @@ ht-degree: 0%
   </MadCap:conditionalText>
   -->
 
-* [テキストモードでの条件付き書式の使用](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
-* [テキストモードのレポートで日付を書式設定する](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
-* [テキストモードのレポートで数値、通貨、割合の値を書式設定します](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
-* [条件付き書式でのフィールドの比較](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
+* [テキストモードでの条件付き形式の使用](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
+* [テキストモードのレポートの日付形式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
+* [テキストモードのレポートで数値、通貨、割合の値の形式](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [条件付き形式でのフィールドの比較](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
 * [レポート内のコレクションの参照](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
 * [テキストモードフィルターでの「OR」ステートメントの作成](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
-* [EXISTS 文を使用した複雑なテキストモードフィルターの作成](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* [EXISTS ステートメントを使用した複雑なテキストモードフィルターの作成](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
   <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

@@ -1,35 +1,36 @@
 ---
-title: にログインできません [!DNL Workfront Proof] モバイルアプリ
+title: ' [!DNL Workfront Proof]  モバイルアプリにログインできない'
 description: Workfront Proof モバイルアプリへのログインのトラブルシューティング。
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
-# にログインできません [!DNL Workfront Proof] モバイルアプリ
+# [!DNL Workfront Proof] モバイルアプリにログインできない
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 ## 問題
 
-にログインしようとしたとき [!DNL Workfront Proof] 次の情報を返すモバイルアプリ：
+[!DNL Workfront Proof] にログインしようとしたとき、次の情報が返されます。
 
-「ユーザ名またはパスワードが正しくありません。 再度お試しください。」
+「ユーザー名またはパスワードが無効です。再試行してください。」
 
-この問題は、 [!DNL Workfront Proof] モバイルアプリはスタンドアロンアプリにログインしようとするので、単独ではモバイルアプリにアクセスできません [!DNL Workfront Proof] システムは、Workfrontと統合されたものではありません。
+この問題は、スタンドアロンの [!DNL Workfront Proof] システムにログインしようとするため、Workfront と統合されたシステムではなく、[!DNL Workfront Proof] モバイルアプリをスタンドアロンで起動した場合に発生します。
 
-## 解決策
+## ソリューション
 
-両方を使用する場合 [!DNL Workfront] &amp; [!DNL Workfront Proof],
+[!DNL Workfront] および [!DNL Workfront Proof] の両方を使用する場合：
 
-1. 両方の [!DNL Workfront] モバイルアプリと [!DNL Workfront Proof] モバイルアプリがお使いのデバイスにインストールされています。
-1. にログインします。 [!DNL Workfront] モバイルアプリを選択し、配達確認するドキュメントに移動します。
-1. 画面の右上にある 3 ドットのアイコンをクリックし、 **[!UICONTROL 校正]**.
-The [!DNL Workfront Proof] モバイルアプリが自動的にログインを起動します。
-これで、ドキュメント内での校正作業が可能になりました。
+1. [!DNL Workfront] モバイルアプリと [!DNL Workfront Proof] モバイルアプリの両方がデバイスにインストールされていることを確認します。
+1. [!DNL Workfront] モバイルアプリにログインして選択し、プルーフの対象のドキュメントに移動します。
+1. 画面の右上にある 3 つのドットのアイコンをクリックし、「**[!UICONTROL プルーフ]**」をクリックします。
+[!DNL Workfront Proof] モバイルアプリが自動的に起動するので、ログインします。
+これで、ドキュメント内でのプルーフの作業が可能になりました。

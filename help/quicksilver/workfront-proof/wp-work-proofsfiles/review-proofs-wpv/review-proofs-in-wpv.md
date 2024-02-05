@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
-title: Web 校正ビューアで配達確認を確認する
-description: Web 校正ビューアで配達確認を確認する
+title: Web プルーフビューアーでプルーフを確認
+description: Web プルーフビューアーでプルーフを確認
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,25 +12,25 @@ exl-id: 0cfac975-a561-4e0a-8703-8173b50957ca
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Web 校正ビューアで配達確認を確認する
+# Web プルーフビューアーでプルーフを確認
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 この節では、次の記事を扱います。
 
-* [で配達確認を開く [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
-* [校正ビューアでのワークフローのレビュー](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
-* [複数のレビュー担当者と同時に配達確認を確認する](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
-* [校正ビューアで配達確認のアクティビティを表示](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
-* [複数の配達確認を校正ビューアで使用する](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
-* [校正ビューアでの配達確認の比較](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
-* [Web 校正ビューアで以前の配達確認バージョンを表示します](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
-* [校正ビューアでの配達確認のダウンロード](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [のキーボードショートカット [!DNL Workfront Proof] 校閲者](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
-* [従来の校正ビューアが削除されました](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
+* [ [!DNL Workfront Proof] でプルーフを開く](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+* [プルーフビューアーでワークフローを確認](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
+* [複数のレビュアーによるプルーフの同時レビュー](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
+* [プルーフビューアーでプルーフのアクティビティを表示](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
+* [プルーフビューアーで複数のプルーフを操作](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
+* [プルーフビューアーでプルーフを比較](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
+* [Web プルーフビューアーで以前のプルーフバージョンを表示](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
+* [プルーフビューアーでのプルーフのダウンロード](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
+* [ [!DNL Workfront Proof]  プルーフビューアーのキーボードショートカット](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [従来のプルーフビューアが削除されました](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

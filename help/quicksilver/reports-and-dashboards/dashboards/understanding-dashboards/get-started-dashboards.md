@@ -2,19 +2,19 @@
 content-type: overview
 product-area: dashboards
 navigation-topic: understand-dashboards
-title: ダッシュボードの概要
-description: ダッシュボードの目的は、情報にすばやくアクセスできるようにすることです。 レポートで情報を収集し、ダッシュボードに配置して、情報にアクセスしやすくすることができます。
+title: ダッシュボードの基本を学ぶ
+description: ダッシュボードの目的は、情報に素早くアクセスできるようにすることです。レポートで情報を収集し、ダッシュボードに配置することで、情報にアクセスしやすくすることができます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
 source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
-# ダッシュボードの概要
+# ダッシュボードの基本を学ぶ
 
 <!-- Audited: 1/2024 -->
 
@@ -31,20 +31,20 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfrontプラン</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront プラン</strong></p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfrontライセンス</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront ライセンス</strong></p> </td> 
    <td> <p>新規：寄稿者以上</p><p>または</p><p>現在：レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td><strong>アクセスレベル</strong> </td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を表示またはそれ以上に設定する</p> </td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーの表示またはそれ以上のアクセス権</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
-   <td> <p>ダッシュボードに対する権限の表示</p>  </td> 
+   <td> <p>ダッシュボードの表示権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,34 +53,34 @@ ht-degree: 0%
 
 ## ダッシュボードに追加できるオブジェクト
 
-Adobe Workfrontでは、次の項目をダッシュボードに入力できます。
+Adobe Workfront では、次の項目をダッシュボードに入力できます。
 
 * レポート\
-  レポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 * カレンダー\
-  カレンダーの作成について詳しくは、 [カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+  カレンダーの作成について詳しくは、[カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)を参照してください。
 
 * 外部ページ\
-  外部ページの作成について詳しくは、 [外部 Web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  外部ページの作成について詳しくは、[外部 web ページのダッシュボードへの埋め込み](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)を参照してください。
 
-ダッシュボードの作成について詳しくは、 [ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+ダッシュボードの作成について詳しくは、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 
 ## ダッシュボードの共有
 
 ダッシュボードは、次の方法でユーザーと共有できます。
 
-* 個人で共有。\
-  ダッシュボードの共有について詳しくは、 [レポート、ダッシュボード、カレンダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) および [ダッシュボードの共有](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+* 個人単位での共有。\
+  ダッシュボードの共有について詳しくは、[レポート、ダッシュボードおよびカレンダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)と[ダッシュボードの共有](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)を参照してください。
 
-* Workfront内の任意の領域またはオブジェクトに、カスタムセクションでダッシュボードを追加します。\
-  カスタムセクションの作成について詳しくは、 [Adobe Workfrontの左側のナビゲーション](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+* Workfront で任意のエリアまたはオブジェクトに、カスタムセクションでダッシュボードを追加します。\
+  カスタムセクションの作成について詳しくは、[Adobe Workfront の左側のナビゲーション](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
 
 * ダッシュボードをレイアウトテンプレートに配置します。このテンプレートは、ユーザーと共有できます。\
-  レイアウトテンプレートを使用したダッシュボードの共有について詳しくは、 [レイアウトテンプレートを使用して左のパネルをカスタマイズする](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  レイアウトテンプレートを使用したダッシュボードの共有について詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
 
 * ユーザーと共有するためにハードコピーを印刷します。\
-  ダッシュボードの印刷について詳しくは、 [ダッシュボードの印刷](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
+  ダッシュボードの印刷について詳しくは、[ダッシュボードの印刷](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)を参照してください。
 
 * ユーザーに電子メールでPDFを送信できるように、ファイルとして書き出します。\
   ダッシュボードファイルへのPDFの書き出しについて詳しくは、 [ダッシュボードのエクスポート](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
@@ -89,41 +89,41 @@ Adobe Workfrontでは、次の項目をダッシュボードに入力できま�
 
 >[!IMPORTANT]
 >
->ユーザーを削除すると、作成したすべてのダッシュボードにアクセスできなくなります。 詳しくは、 [ユーザーの削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>ユーザーを削除すると、そのユーザーが作成したすべてのダッシュボードにアクセスできなくなります。詳しくは、[ユーザーの削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)を参照してください。
 
-## ダッシュボードを表示
+## ダッシュボードの表示
 
 ダッシュボードは次の方法で表示できます。
 
 * ダッシュボードが配置されているカスタムセクションにアクセスします。\
-  ダッシュボードをカスタムセクションに配置する方法について詳しくは、 [Adobe Workfrontでの左ナビゲーション](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
+  ダッシュボードをカスタムセクションに配置する方法について詳しくは、[Adobe Workfront の左側のナビゲーション](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)を参照してください。
 
 * ダッシュボードを検索して手動でアクセスします。
 
 ## ダッシュボードへのアクセス
 
 1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **ダッシュボード**.
-1. 左側のサイドバーの上にマウスポインターを置いて、次のいずれかを選択します。
+1. 左側のサイドバーの上にポインタを合わせて、次のいずれかを選択します。
 
-   * **マイダッシュボード**：作成したダッシュボードがここに表示されます。
+   * **マイダッシュボード**：作成したダッシュボードがこちらに表示されます。
 
      >[!TIP]
      >
-     >アクセスレベルでレポート、ダッシュボード、カレンダーの編集アクセス権がない場合、ダッシュボードを作成できません。 この場合、マイダッシュボードリストは空です。
+     >アクセスレベルでレポート、ダッシュボードおよびカレンダーの編集アクセス権がない場合、ダッシュボードを作成できません。この場合、マイダッシュボードリストは空です。
 
-   * **共有ダッシュボード**：他のユーザーが作成し、自分と共有しているダッシュボードがここに表示されます。
+   * **共有ダッシュボード**：他のユーザーが作成し、自分と共有しているダッシュボードがこちらに表示されます。
    * **すべてのダッシュボード**：他のユーザーが共有しているダッシュボードとダッシュボードの両方がここに表示されます。
 
-   ![ダッシュボード領域](assets/dashboards-area.png)
+   ![ダッシュボードエリア](assets/dashboards-area.png)
 
 1. ダッシュボードの名前をクリックして表示します。\
-   ダッシュボードには、レポート、カレンダーまたは入力する外部ページに含まれる情報が表示されます。
-1. （オプションおよび条件付き） **リロード** アイコンを使用して、ダッシュボードの情報を更新できます。\
-   ダッシュボードに初めてアクセスしたときに、ダッシュボードの情報がリアルタイムで同期されます。 ブラウザーでしばらくダッシュボードを表示していた場合、ダッシュボードのレポート内の情報が古くなる可能性があります。 ダッシュボードが最後に更新された日時がこのアイコンの左側に表示されます。\
-   ![再読み込みアイコン](assets/dashboard-reload-icon.png)
+   ダッシュボードには、レポート、カレンダーまたは外部ページに含まれる情報が入力されて表示されます。
+1. （オプションおよび条件付き）ダッシュボードの右上にある&#x200B;**リロード**&#x200B;アイコンをクリックすると、ダッシュボードの情報を更新できます。\
+   ダッシュボードの情報は、最初にアクセスしたときにリアルタイムで同期されます。ブラウザーでしばらくダッシュボードを表示していると、ダッシュボードのレポート内の情報が古くなる可能性があります。ダッシュボードが最後に更新された日時がこのアイコンの左側に表示されます。\
+   ![リロードアイコン](assets/dashboard-reload-icon.png)
 
 ## ダッシュボードの削除
 
-Workfrontからダッシュボードを削除する場合は、削除できます。
+ダッシュボードは、Workfront から削除することができます。
 
-詳しくは、 [ダッシュボードの削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
+詳しくは、[ダッシュボードの削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)を参照してください。

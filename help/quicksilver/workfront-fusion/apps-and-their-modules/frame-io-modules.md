@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Frame.io モジュール
-description: The [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io] アカウント。
+description: ' [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io]  アカウント'
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '2338'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
 # [!DNL Frame.io] モジュール
 
-The [!DNL Adobe Workfront Fusion] [!DNL Frame.io] モジュールを使用して、 [!DNL Frame.io] アカウント。
+[!DNL Adobe Workfront Fusion] [!DNL Frame.io] モジュールでは、[!DNL Frame.io] アカウント内のアセットとコメントを監視、作成、更新、取得、削除できます。
 
 Frame.io コネクタのビデオの紹介については、以下を参照してください。
 
@@ -26,168 +26,168 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
-次を使用するには： [!DNL Frame.io] モジュールの場合は、 [!DNL Frame.io] アカウント
+[!DNL Frame.io] モジュールを使用するには、[!DNL Frame.io] アカウントが必要です。
 
-## 接続 [!DNL Frame.io] から [!UICONTROL Adobe Workfront Fusion]
+## [!DNL Frame.io] から [!UICONTROL Adobe Workfront Fusion] への接続
 
-次に接続できます： [!DNL Frame.io] API トークンを使用するか、OAuth 2.0 を使用します。
+[!DNL Frame.io] には、API トークンまたは OAuth 2.0 を使用して接続できます。
 
-[接続先 [!DNL Frame.io] API トークンの使用](#connect-to-frameio-using-an-api-token)
+[API トークンを使用した  [!DNL Frame.io]  への接続](#connect-to-frameio-using-an-api-token)
 
-[接続先 [!DNL Frame.io] OAuth 2.0 PKCE の使用](#connect-to-frameio-using-oauth-20-pkce)
+[OAuth 2.0 PKCE を使用した  [!DNL Frame.io]  への接続](#connect-to-frameio-using-oauth-20-pkce)
 
-### 接続先 [!DNL Frame.io] API トークンの使用
+### API トークンを使用した [!DNL Frame.io] への接続
 
-次の手順で [!DNL Frame.io] アカウント [!DNL Workfront Fusion] API トークンを使用して、 [!DNL Frame.io] アカウントを作成し、次の場所に挿入します。 [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL 接続の作成] ダイアログ。
+API トークンを使用して [!DNL Frame.io] アカウントを [!DNL Workfront Fusion] に接続するには、[!DNL Frame.io] アカウントで API トークンを作成して [!DNL Workfront Fusion] [!DNL Frame.io] の「[!UICONTROL 接続を作成]」ダイアログに挿入する必要があります。
 
-1. にログインします。 [!DNL Frame.io] アカウント。
-1. 次に移動： **[!UICONTROL トークン]** ページの [!DNL Frame.io] 開発者。
-1. クリック **[!UICONTROL 新規]**.
-1. トークンの名前を入力し、使用するスコープを選択して、 **[!UICONTROL 作成]**.
+1. [!DNL Frame.io] アカウントにログインします。
+1. [!DNL Frame.io] Developer の「**[!UICONTROL トークン]**」ページに移動します。
+1. 「**[!UICONTROL 新規]**」をクリックします。
+1. トークンの名前を入力して使用する範囲を選択し、「**[!UICONTROL 作成]**」をクリックします。
 1. 提供されたトークンをコピーします。
-1. に移動します。 [!DNL Workfront Fusion] をクリックし、 [!DNL Frame.io] モジュールの **[!UICONTROL 接続の作成]** ダイアログ。
-1. Adobe Analytics の **[!UICONTROL 接続タイプ]** フィールド、選択 **[!DNL Frame.io]**.
-1. 手順 5 で **[!UICONTROL お使いの [!DNL Frame.io] API キー]** フィールドとクリック **[!UICONTROL 続行]** 接続を確立するために。
+1. [!DNL Workfront Fusion] に移動して、[!DNL Frame.io] モジュールの「**[!UICONTROL 接続を作成]**」ダイアログを開きます。
+1. 「**[!UICONTROL 接続タイプ]**」フィールドで「**[!DNL Frame.io]**」を選択します。
+1. 手順 5 でコピーしたトークンを「**[!UICONTROL [!DNL Frame.io] API キー]**」フィールドに入力し、「**[!UICONTROL 続行]**」をクリックして接続を確立します。
 
-接続が確立されました。 モジュールの設定に進むことができます。
+接続が確立されました。モジュールの設定に進むことができます。
 
-### 接続先 [!DNL Frame.io] OAuth 2.0 PKCE の使用
+### OAuth 2.0 PKCE を使用した [!DNL Frame.io] への接続
 
-次への接続を作成できます： [!DNL Frame.io] オプションのクライアント ID で OAuth 2.0 PKCE を使用します。 接続にクライアント ID を含める場合は、 [!DNL Frame.io] アカウント。
+OAuth 2.0 PKCE とオプションのクライアント ID を使用して、[!DNL Frame.io] への接続を作成できます。接続にクライアント ID を含める場合は、[!DNL Frame.io] アカウントで OAuth 2.0 アプリを作成する必要があります。
 
-* [接続先 [!DNL Frame.io] OAuth 2.0 PKCE（クライアント ID なし）の使用](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
-* [接続先 [!DNL Frame.io] OAuth 2.0 PKCE（クライアント ID を使用）の使用](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
+* [OAuth 2.0 PKCE（クライアント ID なし）を使用した  [!DNL Frame.io]  への接続](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
+* [OAuth 2.0 PKCE（クライアント ID あり）を使用した  [!DNL Frame.io]  への接続](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
 
-#### 接続先 [!DNL Frame.io] OAuth 2.0 PKCE（クライアント ID なし）の使用
+#### OAuth 2.0 PKCE（クライアント ID なし）を使用した [!DNL Frame.io] への接続
 
-1. に移動します。 [!DNL Workfront Fusion] をクリックし、 [!DNL Frame.io] モジュールの **[!UICONTROL 接続の作成]** ダイアログ。
-1. Adobe Analytics の **[!UICONTROL 接続タイプ]** フィールド、選択 **[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**.
-1. 新しい接続の名前を **[!UICONTROL 接続名]** フィールドに入力します。
-1. クリック **[!UICONTROL 続行]** 接続を確立するために。
+1. [!DNL Workfront Fusion] に移動して、[!DNL Frame.io] モジュールの「**[!UICONTROL 接続を作成]**」ダイアログを開きます。
+1. 「**[!UICONTROL 接続タイプ]**」フィールドで「**[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**」を選択します。
+1. 新しい接続の名前を「**[!UICONTROL 接続名]**」フィールドに入力します。
+1. 「**[!UICONTROL 続行]**」をクリックして接続を確立します。
 
-接続が確立されました。 モジュールの設定に進むことができます。
+接続が確立されました。モジュールの設定に進むことができます。
 
-#### 接続先 [!DNL Frame.io] OAuth 2.0 PKCE（クライアント ID を使用）の使用
+#### OAuth 2.0 PKCE（クライアント ID あり）を使用した [!DNL Frame.io] への接続
 
-1. での OAuth 2.0 アプリの作成 [!DNL Frame.io]. 手順については、 [!DNL Frame.io] に関するドキュメント [!UICONTROL OAuth 2.0 コード承認フロー].
+1. [!DNL Frame.io] で OAuth 2.0 アプリを作成します。手順については、[!DNL Frame.io] ドキュメントの [!UICONTROL OAuth 2.0 コード承認フロー] を参照してください。
 
    >[!IMPORTANT]
    >
-   >OAuth 2.0 アプリを [!DNL Frame.io]:
+   >[!DNL Frame.io] で OAuth 2.0 アプリを作成する際には：
    >
    >* リダイレクト URI として次のように入力します。
    >   
-   >  南北アメリカ/APAC `https://app.workfrontfusion.com/oauth/cb/frame-io5`
+   >  南北アメリカ / APAC `https://app.workfrontfusion.com/oauth/cb/frame-io5`
    >
    >  EMEA `https://app-eu.workfrontfusion.com/oauth/cb/frame-io5`
    >
-   >* 「 PCKE 」オプションを有効にします。
+   >* 「PCKE」オプションを有効にします。
 
 
-1. 提供されたをコピーします。 `client_id`.
-1. に移動します。 [!DNL Workfront Fusion] をクリックし、 [!DNL Frame.io] モジュールの **[!UICONTROL 接続の作成]** ダイアログ。
-1. Adobe Analytics の **[!UICONTROL 接続タイプ]** フィールド、選択 **[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**.
-1. 新しい接続の名前を **[!UICONTROL 接続名]** フィールドに入力します。
-1. クリック **[!UICONTROL 詳細設定を表示]**.
-1. 次を入力します。 `client_id` 手順 2 でをにコピーしました。 **[!UICONTROL クライアント ID]** フィールドに入力します。
-1. クリック **[!UICONTROL 続行]** 接続を確立するために。
+1. 提供された `client_id` をコピーします。
+1. [!DNL Workfront Fusion] に移動して、[!DNL Frame.io] モジュールの「**[!UICONTROL 接続を作成]**」ダイアログを開きます。
+1. 「**[!UICONTROL 接続タイプ]**」フィールドで「**[!UICONTROL [!DNL Frame.io]OAuth 2.0 PKCE]**」を選択します。
+1. 新しい接続の名前を「**[!UICONTROL 接続名]**」フィールドに入力します。
+1. 「**[!UICONTROL 詳細設定を表示]**」をクリックします。
+1. 手順 2 でコピーした `client_id` を「**[!UICONTROL クライアント ID]**」フィールドに入力します。
+1. 「**[!UICONTROL 続行]**」をクリックして接続を確立します。
 
-接続が確立されました。 モジュールの設定に進むことができます。
+接続が確立されました。モジュールの設定に進むことができます。
 
 ## [!DNL Frame.io] モジュールとそのフィールド
 
-設定時に [!DNL Frame.io] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL Frame.io] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL Frame.io] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Frame.io] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でのモジュールから別のモジュールへの情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
-* [Assets](#assets)
+* [アセット](#assets)
 * [コメント](#comments)
 * [プロジェクト](#projects)
 * [その他](#other)
 
-### Assets
+### アセット
 
 * [[!UICONTROL アセットの作成]](#create-an-asset)
 * [[!UICONTROL アセットの削除]](#delete-an-asset)
 * [[!UICONTROL アセットの取得]](#get-an-asset)
-* [[!UICONTROL アセットのリスト]](#list-assets)
+* [[!UICONTROL アセットの一覧表示]](#list-assets)
 * [[!UICONTROL アセットの更新]](#update-an-asset)
-* [[!UICONTROL 削除されたアセットを監視]](#watch-asset-deleted)
-* [[!UICONTROL アセットラベルを更新済みと見る]](#watch-asset-label-updated)
-* [[!UICONTROL 新しいアセットを見る]](#watch-new-asset)
+* [[!UICONTROL 削除されたアセットの監視]](#watch-asset-deleted)
+* [[!UICONTROL 更新されたアセットラベルの監視]](#watch-asset-label-updated)
+* [[!UICONTROL 新しいアセットの監視]](#watch-new-asset)
 
 #### [!UICONTROL アセットの作成]
 
-このアクションモジュールは、新しいアセットを作成します。
+このアクションモジュールでは、新しいアセットを作成できます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
    <td> <p>アセットを作成するプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID] </td> 
-   <td> <p>アセットを作成するプロジェクトを選択するか、プロジェクトの ID をマップします。</p> </td> 
+   <td> <p>アセットを作成するプロジェクトを選択するか、プロジェクトの ID をマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
-   <td> <p>フォルダーを選択するか、アセットを作成するフォルダーの ID をマッピングします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
+   <td> <p>アセットを作成するフォルダーを選択するか、フォルダーの ID をマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL の種類 ] </td> 
+   <td role="rowheader">[!UICONTROL Type] </td> 
    <td> <p>フォルダーを作成するか、ファイルを作成するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 名前 ] </td> 
-   <td> <p>新しいファイルまたはフォルダの名前を入力します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Name] </td> 
+   <td> <p>新規ファイルまたはフォルダーの名前を入力します。</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">File Type </td> 
@@ -200,17 +200,17 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
    </tr>
   --> 
   <tr> 
-   <td role="rowheader">[!UICONTROL ソース URL] </td> 
+   <td role="rowheader">[!UICONTROL Source URL] </td> 
    <td> <p>アップロードするファイルの URL を入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 説明 ] </td> 
+   <td role="rowheader">[!UICONTROL Description] </td> 
    <td> <p>アセットの簡単な説明を入力します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL アセットの削除]
+#### [!UICONTROL アセットを削除]
 
 このアクションモジュールは、指定したアセットを削除します。
 
@@ -219,20 +219,20 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
    <td> <p>削除するアセットが含まれるプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
-   <td> <p> 削除するアセットを含むプロジェクトまたはを選択します。</p> </td> 
+   <td> <p> 削除するアセットが含まれるプロジェクトまたはプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
-   <td> <p>削除するアセットを含むフォルダーを選択します</p> </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
+   <td> <p>削除するアセットを含むフォルダーを選択</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID] </td> 
@@ -241,7 +241,7 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  </tbody> 
 </table>
 
-#### [!UICONTROL アセットの取得]
+#### [!UICONTROL アセットを取得]
 
 このアクションモジュールは、アセットの詳細を取得します。
 
@@ -250,31 +250,31 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>詳細を取得するアセットを含むプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>詳細を取得するアセットを含むプロジェクトを所有するチームを、選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
    <td> <p> 詳細を取得するアセットを含むプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
    <td> <p>詳細を取得するアセットを含むフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID] </td> 
-   <td> <p>詳細を取得するアセットを選択するか、アセットの ID をマッピングします。</p> </td> 
+   <td> <p>詳細を取得するアセットを選択するか、そのアセットの ID をマッピングします。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL アセットのリスト]
+#### [!UICONTROL アセットを一覧表示]
 
-この検索モジュールは、指定されたプロジェクトのフォルダ内のすべてのアセットを取得します。
+この検索モジュールは、指定されたプロジェクトのフォルダー内のすべてのアセットを取得します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,24 +283,24 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  </col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>アセットを取得するフォルダーを含むプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>アセットを取得するフォルダーを含む、プロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
    <td> <p> アセットを取得するフォルダーを含むプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
    <td> <p>アセットのリストを表示するフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ] </td> 
-   <td> <p>アセットの最大数の設定 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>[!DNL Workfront Fusion] が 1 回の実行サイクルで返すアセット数の上限を設定します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -314,27 +314,27 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>アセットを更新するプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>アセットを更新するプロジェクトを所有する、チームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID] </td> 
-   <td> <p>アセットを更新するプロジェクトを選択するか、プロジェクトの ID をマップします。</p> </td> 
+   <td> <p>アセットを更新するプロジェクトを選択するか、プロジェクトの ID をマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
    <td> <p>アセットを更新するフォルダーを選択するか、フォルダーの ID をマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 名前 ] </td> 
+   <td role="rowheader">[!UICONTROL Name] </td> 
    <td> <p>更新したファイルの名前を入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 説明 ] </td> 
+   <td role="rowheader">[!UICONTROL Description] </td> 
    <td> <p>更新したアセットの簡単な説明を入力します。</p> </td> 
   </tr> 
  </tbody> 
@@ -350,20 +350,20 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name]</td> 
-   <td> <p> ウェブフックの名前（例：削除済みアセット）を入力します。</p> </td> 
+   <td> <p> Web フックの名前（例：削除済みアセット）を入力します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>この Webhook を作成するチームを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>この Web フックが作成されるチームを選択します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL アセットラベルを更新済みと見る]
+#### [!UICONTROL 更新されたアセットラベルを監視]
 
 このトリガーモジュールは、アセットのステータスが設定、変更または削除されたときにシナリオを開始します。
 
@@ -373,20 +373,20 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name]</td> 
-   <td> <p> Webhook の名前を入力します（例：アセットのステータス更新）。</p> </td> 
+   <td> <p> Web フックの名前を入力します（例：更新されたアセットステータス）。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>この Webhook を作成するチームを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>この Web フックが作成されるチームを選択します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 新しいアセットを見る]
+#### [!UICONTROL 新しいアセットを見つける]
 
 このトリガーモジュールは、新しいアセットが作成される際にシナリオを開始します。
 
@@ -396,30 +396,30 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name]</td> 
-   <td> <p> Webhook の名前を入力します（例：作成されたアセット）。</p> </td> 
+   <td> <p> Web フックの名前を入力します（例：作成されたアセット）。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>この Webhook を作成するチームを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>この Web フックが作成されるチームを選択します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### コメント
 
-* [[!UICONTROL コメントの作成]](#create-a-comment)
-* [[!UICONTROL コメントの削除]](#delete-a-comment)
+* [[!UICONTROL コメントを作成]](#create-a-comment)
+* [[!UICONTROL コメントを削除]](#delete-a-comment)
 * [[!UICONTROL コメントを取得]](#get-a-comment)
 * [[!UICONTROL コメントをリスト]](#list-comments)
-* [[!UICONTROL コメントの更新]](#update-a-comment)
-* [[!UICONTROL ウォッチコメントの更新]](#watch-comment-updated)
-* [[!UICONTROL 新しいコメントを見る]](#watch-new-comment)
+* [[!UICONTROL コメントをアップデート]](#update-a-comment)
+* [[!UICONTROL 更新されたコメントを監視]](#watch-comment-updated)
+* [[!UICONTROL 新規コメントを監視]](#watch-new-comment)
 
-#### [!UICONTROL コメントの作成]
+#### [!UICONTROL コメントを作成]
 
 このアクションモジュールは、新しいコメントまたは返信をアセットに追加します。
 
@@ -428,15 +428,15 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Frame.io] を [!DNL Adobe Workfront Fusion]</a> に接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL の種類 ] </td> 
+   <td role="rowheader">[!UICONTROL Type] </td> 
    <td> <p>コメントを作成するか、コメントに返信するかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
    <td> <p>コメントを追加するアセットを含むプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
@@ -444,7 +444,7 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
    <td> <p>プロジェクトを選択するか、コメントを追加するアセットが含まれるプロジェクトの ID をマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
    <td> <p>フォルダーを選択するか、コメントを追加するアセットが含まれるフォルダーの ID をマッピングします。</p> </td> 
   </tr> 
   <tr> 
@@ -456,11 +456,11 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
    <td> <p>返信を追加するコメントを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL テキスト ]</td> 
+   <td role="rowheader">[!UICONTROL Text]</td> 
    <td> <p> コメントまたは返信のテキスト内容を入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL タイムスタンプ ] </td> 
+   <td role="rowheader">[!UICONTROL Timestamp] </td> 
    <td> <p>コメントのリンク先となるビデオのフレーム番号を入力します。</p> </td> 
   </tr> 
  </tbody> 
@@ -475,19 +475,19 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID]</td> 
+   <td role="rowheader">[!UICONTROL Team ID]</td> 
    <td> <p> コメントを削除するアセットを含むプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
-   <td> <p> コメントを削除するアセットを含むプロジェクトを選択するか、プロジェクトの ID をマップします。</p> </td> 
+   <td> <p> コメントを削除するアセットを含むプロジェクトを選択するか、プロジェクトの ID をマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID]</td> 
+   <td role="rowheader">[!UICONTROL Folder ID]</td> 
    <td> <p> コメントを削除するアセットを含むフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
@@ -510,19 +510,19 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>アセットを取得するフォルダーを含むプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>アセットを取得するフォルダーを含む、プロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID] </td> 
    <td> <p>アセットを取得するフォルダーを含むプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
    <td> <p>アセットのリストを表示するフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
@@ -545,19 +545,19 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>コメントを取得するフォルダを含むプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>コメントを取得するフォルダーを含む、プロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID] </td> 
    <td> <p>コメントを取得するフォルダーを含むプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
    <td> <p>コメントのリストを表示するアセットを含むフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
@@ -565,8 +565,8 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
    <td> <p>コメントのリストを表示するアセットを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ] </td> 
-   <td> <p>コメントの最大数を設定 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>[!DNL Workfront Fusion] が 1 回の実行サイクルで返すコメントの最大数を設定します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -580,11 +580,11 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
    <td> <p>コメントを更新するアセットを含むプロジェクトを所有するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
@@ -592,7 +592,7 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
    <td> <p>コメントを更新するアセットを含むプロジェクトを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL フォルダー ID] </td> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
    <td> <p>コメントを更新するアセットを含むフォルダーを選択します。</p> </td> 
   </tr> 
   <tr> 
@@ -604,17 +604,17 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
    <td> <p>更新するコメントを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL テキスト ]</td> 
+   <td role="rowheader">[!UICONTROL Text]</td> 
    <td> <p> コメントのテキストコンテンツを入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL タイムスタンプ ] </td> 
+   <td role="rowheader">[!UICONTROL Timestamp] </td> 
    <td> <p>コメントのリンク先となるビデオのフレーム番号を入力します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL ウォッチコメントの更新]
+#### [!UICONTROL 更新されたコメントを監視]
 
 このトリガーモジュールは、コメントが編集されたときにシナリオを開始します。
 
@@ -624,20 +624,20 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name] </td> 
-   <td> <p>Webhook の名前を入力します（例：「編集されたコメント」）。</p> </td> 
+   <td> <p>Web フックの名前（例：「編集されたコメント」）を入力します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>この Webhook を作成するチームを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>この Web フックが作成されるチームを選択します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL 新しいコメントを見る]
+#### [!UICONTROL 新規コメントを監視]
 
 このトリガーモジュールは、新しいコメントまたは返信が作成されたときにシナリオを開始します。
 
@@ -647,15 +647,15 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name] </td> 
-   <td> <p>ウェブフックの名前を入力します ( 例：新しいコメント。</p> </td> 
+   <td> <p>Web フックの名前（例：新規コメント）を入力します。</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
-   <td> <p>この Webhook を作成するチームを選択します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
+   <td> <p>この Web フックが作成されるチームを選択します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -671,23 +671,23 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> への [!DNL Frame.io] の接続を参照してください。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL チーム ID] </td> 
+   <td role="rowheader">[!UICONTROL Team ID] </td> 
    <td> <p>プロジェクトを取得するチームを選択またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ] </td> 
-   <td> <p>プロジェクトの最大数を設定 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>[!DNL Workfront Fusion] が 1 回の実行サイクルで返すコメントの最大数を設定します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### その他
 
-#### [!UICONTROL API 呼び出しを実行する]
+#### [!UICONTROL API 呼び出しの実行]
 
 このモジュールでは、カスタム API 呼び出しを実行できます。
 
@@ -696,28 +696,28 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!UICONTROL 接続 ] </td> 
-   <td>への接続を作成する手順については、 [!DNL Frame.io]を参照してください。 <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">接続 [!DNL Frame.io] から [!DNL Adobe Workfront Fusion]</a> 」を参照してください。</td> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>[!DNL Frame.io] への接続を作成する手順については、この記事にある<a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">[!DNL Frame.io] を [!DNL Adobe Workfront Fusion]</a> に接続を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>相対パスを入力 <code>https://api.frame.io</code>. 例： <code> /v2/teams</code></p> <p>注意：使用可能なエンドポイントの一覧については、 [!DNL Frame.io] API リファレンス。</p> </td> 
+   <td> <p><code>https://api.frame.io</code> からの相対パスを入力します。例： <code> /v2/teams</code></p> <p>メモ：使用可能なエンドポイントの一覧については、[!DNL Frame.io] API リファレンスを参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL メソッド ]</p> </td> 
-   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
+   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します。</p> <p>以下に例を挙げます。 <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] は、認証ヘッダーを自動的に追加します。</p> </td> 
+   <td> <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] 認証ヘッダーを自動的に追加します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL クエリ文字列 ] </td> 
-   <td> <p>リクエストクエリ文字列を入力します。 クエリ文字列に含める各パラメーターに対して、 <b>[!UICONTROL 項目を追加 ]</b> フィールドの名前と値を入力します。</p> </td> 
+   <td role="rowheader">[!UICONTROL Query String] </td> 
+   <td> <p>リクエストクエリ文字列を入力します。クエリ文字列に含める各パラメーターに対して、<b>[!UICONTROL Add item]</b> をクリックして、フィールドの名前と必要な値を入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>注意：  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件ステートメントを JSON で使用する場合は、条件ステートメントの外側に引用符を挿入します。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -725,15 +725,15 @@ Frame.io コネクタのビデオの紹介については、以下を参照し�
  </tbody> 
 </table>
 
-**例：** 次の API 呼び出しは、すべてのチームとその詳細を [!DNL Frame.io] アカウント：
+**例：** 次の API 呼び出しは、[!DNL Frame.io] アカウントのすべてのチームとその詳細を返します。
 
-URL: `/v2/teams`
+URL：`/v2/teams`
 
-メソッド： `GET`
+メソッド：`GET`
 
 ![](assets/api-call-example.png)
 
-結果は、モジュールの Output の Bundle > Body にあります。
+結果は、モジュールの出力のバンドル／本文にあります。
 
 この例では、1 チームの詳細が返されました。
 

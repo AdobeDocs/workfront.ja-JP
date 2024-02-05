@@ -1,7 +1,7 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: 新しいコメントベータ版エクスペリエンスに関する情報
+title: 新しいベータ版コメントエクスペリエンスに関する情報
 description: 新しいコメントエクスペリエンスベータプログラムは現在閉じられています。 次の記事では、新しいコメント作成機能として使用できる機能について説明します。
 author: Alina
 feature: Product Announcements
@@ -10,12 +10,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
 source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 22%
 
 ---
 
-# 新しいコメントベータ版エクスペリエンスに関する情報
+# 新しいベータ版コメントエクスペリエンスに関する情報
 
 >[!IMPORTANT]
 >
@@ -26,6 +26,6 @@ ht-degree: 0%
 
 次の記事では、新しいコメント作成機能として使用できる機能について説明します。
 
-* [新しいコメントエクスペリエンスリリースアクティビティ](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [新しいコメントエクスペリエンスのリリースアクティビティ](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * [新しいコメントエクスペリエンス](../new-commenting-experience-beta/unified-commenting-experience.md)
 * [新しいコメントエクスペリエンスの FAQ](../new-commenting-experience-beta/new-commenting-faq.md)

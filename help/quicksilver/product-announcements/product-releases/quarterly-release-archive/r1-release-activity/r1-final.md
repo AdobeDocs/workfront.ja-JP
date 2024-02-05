@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 最終
+title: R1 最終版
 description: 2018.3 リリースアクティビティ
 author: Luke
 feature: Product Announcements
@@ -10,143 +10,143 @@ exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
-# R1 最終
+# R1 最終版
 
-次の機能は、現在、プレビューまたはベータ版では使用できませんが、R1 の実稼動環境にリリースされています。
+次の機能は、現在、プレビューまたはベータ版では使用できませんが、R1 の実稼動環境にリリースされます。
 
-## 自分の作業領域 (Workfront) で配達確認の承認を決定する
+## 担当作業エリアからのプルーフの承認決定（Workfront）
 
-ユーザーが配達確認に追加し、承認者の役割またはレビュー担当者と承認者の役割 ( スタンドアロンの ProofHQ アプリケーションから、またはWorkfront内の自動ワークフローを使用 ) を許可すると、承認リクエストが「My Work」領域の「承認」タブに表示されます。 その後、配達確認を表示し、配達確認に関する承認をWorkfrontから直接決定できます。
+ユーザーからプルーフに追加され、（スタンドアロン ProofHQ アプリケーションから、または Workfront 内の自動化ワークフローを使用して）「承認者」の役割か「レビュアーと承認者」の役割のいずれかが付与されると、承認リクエストが担当作業エリアの「承認」タブに表示されるようになりました。その後、プルーフを確認し、プルーフに関する承認の決定を Workfront から直接行うことができます。
 
-自動ワークフローを使用して配達確認にユーザーを追加する方法について詳しくは、 [Adobe Workfront内での配達確認の共有](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Adobe Workfront内での配達確認の共有](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+自動化ワークフローを使用してプルーフにユーザーを追加する方法については、[Adobe Workfront 内でのプルーフの共有](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)で [Adobe Workfront 内でのプルーフの共有](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)を参照してください。
 
-「自分の作業」領域から承認に関する決定を行う方法について詳しくは、 [作業の承認](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [作業の承認](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+担当作業エリアから承認の決定を行う方法については、[作業の承認](../../../../review-and-approve-work/manage-approvals/approving-work.md)で[作業の承認](../../../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
 
-## 自分の作業領域内 (Workfront) の校正承認のレポート
+## 担当作業エリア内でのプルーフ承認に関するレポート（Workfront）
 
-「配達確認の承認」オブジェクトに基づくレポートを作成できるようになりました。 このレポートを使用すると、決定がまだおこなわれていないユーザーの自分の作業領域からの配達確認の承認に関するレポートを作成できます。
+プルーフ承認オブジェクトに基づいて、レポートを作成できるようになりました。このレポートを使用すると、まだ決定が行われていない、ユーザーの担当作業エリアからプルーフ承認に関してレポートできます。
 
-配達確認の承認レポートには、次の情報が含まれます。
+プルーフ承認レポートには、次の情報が含まれています。
 
 * 承認用に送信されたドキュメント
 * 承認者の名前
-* 配達確認のバージョン
-* プルーフ
-* 配達確認の作成日
+* プルーフのバージョン
+* プルーフ ID
+* プルーフ作成日
 
-この承認にアクセスするには、オブジェクトに基づくレポートを作成する際に、 [カスタムレポートの作成](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+オブジェクトに基づいてレポートを作成する際に、この承認にアクセスします（[カスタムレポートの作成](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照）。
 
-配達確認の承認オブジェクトレポートについて詳しくは、 [Adobe Workfrontのオブジェクトについて](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) のセクション [Adobe Workfrontのオブジェクトについて](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+プルーフ承認オブジェクトレポートについて詳しくは、[Adobe Workfront のオブジェクトについて](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)で [Adobe Workfront のオブジェクトについて](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の節を参照してください。
 
-## ドラッグ&amp;ドロップを使用してドキュメント配達確認の新しいバージョンを自動生成する (Workfront)
+## ドラッグ＆ドロップを使用したドキュメントプルーフの新しいバージョンの自動生成（Workfront）
 
-ドラッグ&amp;ドロップ操作を使用して、校正が必要な新しいバージョンの文書を追加すると、配達確認が自動的に生成されます。 配達確認には、元の配達確認または以前のバージョンと同じオプションおよびワークフローがあります。
+ドラッグ＆ドロップ手法を使用して、プルーフが必要な新しいバージョンのドキュメントを追加すると、プルーフが自動的に生成されます。プルーフには、元のプルーフまたは前のバージョンのプルーフと同じオプションおよびワークフローがあります。
 
-以前は、新しいバージョンのドキュメントを追加した場合、新しいバージョンでは配達確認が自動的に生成されず、新しいバージョンの配達確認を再生成する必要がありました。
+これまでは、新しいバージョンのドキュメントを追加した場合、新しいバージョンに対するプルーフが自動的には生成されず、新しいバージョンのプルーフを再生成する必要がありました。
 
-「ドキュメントの詳細」メニューを使用して新しいバージョンをアップロードする場合、配達確認は自動的に生成されません。
+ドキュメントのその他メニューを使用して新しいバージョンをアップロードする場合、プルーフは自動的には生成されません。
 
-詳しくは、
+詳しくは、次の節を参照してください。
 
-## すべての校正ユーザーがWorkfrontインターフェイス (Workfront) から直接 ProofHQ にアクセスできるようにします
+## すべてのプルーフユーザーが Workfront インターフェイスから ProofHQ に直接アクセスできるようにするオプションを提供（Workfront）
 
-これで、システム内のすべての校正ユーザーがWorkfrontインターフェイスから直接 ProofHQ Premium アカウントにシームレスにアクセスできるようになりました。 有効にすると、すべての校正ユーザーに対して、グローバルナビゲーションバーに ProofHQ アイコンが表示され、ProofHQ サイトに移動します。
+これで、システム内のすべてのプルーフユーザーが、Workfront インターフェイスから直接 ProofHQ プレミアムアカウントに、シームレスにアクセスできるようになりました。有効にすると、すべてのプルーフユーザーに対して、ProofHQ サイトに誘導する ProofHQ アイコンがグローバルナビゲーションバーに表示されます。
 
-このオプションは、デフォルトでは有効になっていません。 このオプションを有効にするには、Workfrontテクニカルサポートに連絡し、システムのすべての校正ユーザーにこのアクセス権を要求してください。
+このオプションは、デフォルトでは有効になっていません。このオプションを有効にするには、Workfront 技術サポートに連絡し、システムのすべてのプルーフユーザーにこのアクセス権を提供するようにリクエストしてください。
 
-詳しくは、 [Adobe WorkfrontからWorkfront Proof にアクセス](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in  [Adobe WorkfrontからWorkfront Proof にアクセス](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+詳しくは、[Adobe Workfront からの Workfront Proof へのアクセス](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)で [Adobe Workfront からの Workfront Proof へのアクセス](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)を参照してください。
 
-この変更がおこなわれる前は、Workfront管理者のみがWorkfrontインターフェイスから ProofHQ サイトに直接アクセスできます。
+この変更以前は、Workfront 管理者のみが Workfront インターフェイスから ProofHQ サイトに直接アクセスできました。
 
-## 送信メール用の TLS Secure Connection (Workfront) の新しいオプション
+## 送信メール用の新しい TLS セキュア接続オプション（Workfront）
 
-独自の電子メールサーバーを使用してWorkfront通信を管理することを選択した場合、送信メールで TLS セキュア接続を使用できるようになります。
+独自のメールサーバーを使用した Workfront 通信の管理を選択した場合、送信メールで TLS セキュア接続を使用できるようになります。
 
-この機能強化がおこなわれるまでは、SSL セキュア接続を介してのみ送信メールを有効にすることができました。
+この機能強化以前は、SSL セキュア接続を介した送信メールのみを有効にすることができました。
 
-送信メールの設定について詳しくは、を参照してください。
+送信メールの設定について詳しくは、以下を参照してください。
 
-## プレビューサンドボックス環境で E メールを管理するための新しいフィールド
+## プレビューサンドボックス環境でメールを管理するための新しいフィールド
 
-Workfrontは、プレビューサンドボックス環境とカスタム更新環境からのすべての電子メール通信を無効にするようになりました。 プレビューサンドボックスまたはカスタム更新環境から電子メール通知を受け取る場合は、ユーザー設定でこの機能を有効にする必要があります。
+Workfront では、プレビューサンドボックス環境とカスタム更新環境からのすべてのメール通信を無効にするようになりました。プレビューサンドボックス環境またはカスタム更新環境からのメール通知を受け取る場合は、この機能をユーザー設定で有効にする必要があります。
 
-詳しくは、次の情報を参照してください。
+詳しくは、以下を参照してください。
 
-* [Adobe Workfrontプレビューサンドボックス環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) in [Adobe Workfrontプレビューサンドボックス環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+* [Adobe Workfront プレビューサンドボックス環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)の [Adobe Workfront プレビューサンドボックス環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)。
 
-* カスタム更新サンドボックスからのメールの受信 [Adobe Workfront Custom Refresh Sandbox 環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* [Adobe Workfront カスタム更新サンドボックス環境](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)の「カスタム更新サンドボックスからのメールの受信」
 
-## Outlook for Office 365 (Workfront)
+## Outlook for Office 365（Workfront）
 
-Outlook 365 用Workfrontアドインが利用できるようになりました。 
+Outlook 365 用の Workfront アドインが利用できるようになりました。 
 
-アドインの使用方法の詳細については、「 [Outlook for Office 365 でのWorkfrontアドインの使用。](https://support.workfront.com/hc/en-us/sections/205046167)
+このアドインの使用について詳しくは、[Outlook for Office 365 での Workfront アドインの使用](https://support.workfront.com/hc/en-us/sections/205046167)を参照してください。
 
-## モバイルアプリ (Workfront) での検索
+## モバイルアプリでの検索（Workfront）
 
-Web アプリケーションでの検索と同様に、モバイルアプリ内でオブジェクトを検索できるようになりました。 新しい検索機能では、最初に「最近使用した項目」リストの項目と、以前にモバイルデバイスにダウンロードされたオブジェクトを検索します。 最近使用した項目の一覧は、Web アプリケーションに表示される一覧と同じです。
+Web アプリケーションで検索するのと同じように、モバイルアプリ内でオブジェクトを検索できるようになりました。新しい検索機能では最初に、最近使用した項目のリスト内の項目と、以前モバイルデバイスにダウンロードされたオブジェクトが検索されます。最近使用した項目のリストは、web アプリケーションに表示されるリストと同じです。
 
 >[!NOTE]
 >
->この機能は、2017 年 5 月の最初の週に提供されます。
+>この機能は、2017年5月の最初の週に利用可能になる予定です。
 
-モバイルアプリについて詳しくは、  
+モバイルアプリについて詳しくは、「モバイルで検索」の節を参照してください。
 
-## モバイルアプリのヘルプの改善：Tutorials(Workfront)
+## モバイルアプリのヘルプの改善：チュートリアル（Workfront）
 
-4 月のモバイルリリースから、モバイルエクスペリエンスを紹介する新しいチュートリアル画面が表示されます。 初めてモバイルアプリにログインし、機能を初めて使用する場合は、この機能の仕組みを説明する簡単なチュートリアルが表示されます。 このチュートリアルは、特定の機能を初めて使用する場合に 1 回だけ表示されます。
+4月のモバイルリリースから、モバイルエクスペリエンスを紹介する新しいチュートリアル画面が表示されます。初めてモバイルアプリにログインし、機能を初めて使用する場合は、この機能の仕組みを説明する簡単なチュートリアルが表示されます。このチュートリアルは、特定の機能を初めて使用する場合に 1 回だけ表示されます。
 
-モバイルアプリについて詳しくは、を参照してください。
+モバイルアプリについて詳しくは、次を参照してください。
 
-## PDFドキュメントで検索 (ProofHQ)
+## PDF ドキュメント内の検索（ProofHQ）
 
-PDFドキュメント、Office ドキュメント、および静的 Web ページ内で検索を実行できるようになりました。
+PDF ドキュメント、Office ドキュメントおよび静的 web ページ内で検索を実行できるようになりました。
 
-詳しくは、  [配達確認内のコンテンツを検索](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+詳しくは、[プルーフ内のコンテンツの検索](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)を参照してください。
 
-## 更新されたグローバルナビゲーションバー (ProofHQ)
+## アップデートされたグローバルナビゲーションバー（ProofHQ）
 
-Workfrontと統合された ProofHQ Premium アカウントで、ProofHQ 内のグローバルナビゲーションバーに対して次の改善が表示されるようになりました。
+Workfront と統合された ProofHQ Premium アカウントで、ProofHQ 内のグローバルナビゲーションバーに対して次の改善が行われました。
 
-* 新しいユーザープロファイル画像 
+* 新しいユーザープロファイル画像
 * ルックアンドフィールの更新
 
-## カスタムビューに追加情報を含める (ProofHQ)
+## カスタムビューにさらに情報を追加（ProofHQ）
 
 カスタムビューに次の追加情報を含めることができるようになりました。
 
 * **受信者レベルのデータ**\
-  カスタムビューを設定して、受信者レベルのデータに関連する列（役割、位置、E メールアラート、締め切り日、配達確認に追加された日付、受信者検索）を含めることができます。\
-  詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **データの校正**\
-  カスタムビューを設定して、校正データに関連する次の列を含めることができます。コメント数（すべてのバージョン）、ディスク上のサイズ、配達確認の種類、バージョンごとのファイル数、コメント添付データ（ディスク上のサイズ、ファイル名）、サブフォルダーでのフィルター。\
-  詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  カスタムビューを設定して、受信者レベルのデータに関連する列（役割、位置、メールアラート、締め切り日、プルーフに追加された日付、受信者検索）を含めることができます。\
+  詳しくは、[Workfront Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)を参照してください。
+* **データのプルーフ**\
+  カスタムビューを設定して、プルーフデータに関連するコメント数（すべてのバージョン）、ディスク上のサイズ、プルーフタイプ、バージョンごとのファイル数、コメント添付データ（ディスク上のサイズ、ファイル名）、サブフォルダーによるフィルターの列を含めることができます。\
+  詳しくは、[Workfront Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)を参照してください。
 * **自動ワークフローに関連するステージレベルのデータ**\
-  自動ワークフローの個々のステージに関連する、SOCD ステータス、ステージ期限、アクティブなステージ名、次のステージ名、ステージ名、テンプレートの各ステージに関連する列を含めるように、カスタムビューを設定できます。\
-  詳しくは、 [Workfront Proof Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  自動ワークフローの個々のステージに関連する列（SOCD ステータス、ステージ期限、アクティブなステージ名、次のステージ名、ステージ名およびテンプレート）を含めるように、カスタムビューを設定できます。\
+  詳しくは、[Workfront Proof でのカスタムビューの作成と管理](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)を参照してください。
 
-## レポート（旧称 Analytics）(ProofHQ) の校正機能の改善
+## プルーフレポート（旧称 Analytics）における改善（ProofHQ）
 
-レポート機能（旧称 Analytics）には、次の機能強化が含まれています。
+レポート機能（旧称 Analytics）には、次の改善が行われています。
 
 * 新しいデフォルトのレポートタイプ：
 
-   * 配達確認の所要時間
+   * プルーフのターンアラウンド時間
    * 遅延承認の割合
-   * 配達確認の最初のアクティビティ時間
+   * プルーフの最初のアクティビティ時間
    * コメントおよび返信の数
 
 * レポートの印刷
 * ルックアンドフィールの更新
 
-## プレビュー環境での ProofHQ 機能の表示 (ProofHQ)
+## プレビュー環境での ProofHQ 機能の確認（ProofHQ）
 
 ProofHQ にリリースされた機能は、実稼動環境にリリースする前に、プレビュー環境でテストできるようになります。
 
-実稼働前にプレビュー機能をリリースするこの新しいワークフローにより、ProofHQ 実稼働環境の今後のアップデートに備えることができます。
+実稼動環境前にプレビュー環境に機能をリリースするこの新しいワークフローにより、ProofHQ 実稼動環境の今後のアップデートにより準備を整えることができます。
 
-ProofHQ Preview 環境について詳しくは、 [サンドボックステスト環境のプレビュー — Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md).
+ProofHQ プレビュー環境について詳しくは、[プレビューサンドボックステスト環境 - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md) を参照してください。

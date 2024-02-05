@@ -12,7 +12,7 @@ exl-id: a8b70462-28bc-45cc-b19a-cb683172d528
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 4%
+ht-degree: 86%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 この節では、次の記事を扱います。
 
-* [ゲストの追加先 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-* [で連絡先を管理 [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
-* [でのユーザー、メンバー、ゲストについて [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
+* [ [!DNL Workfront Proof] にゲストを追加](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+* [ [!DNL Workfront Proof] での連絡先の管理](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+* [ [!DNL Workfront Proof] のユーザー、メンバー、ゲストについて](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)

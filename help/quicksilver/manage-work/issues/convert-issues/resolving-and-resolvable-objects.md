@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 100%
 

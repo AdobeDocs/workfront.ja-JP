@@ -8,8 +8,8 @@ git-repo: https://github.com/AdobeDocs/workfront.ja-JP
 index: true
 source-git-commit: 5a503571db40307757a8f503b0c7366238649eff
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 93%
+source-wordcount: '53'
+ht-degree: 100%
 
 ---
 

@@ -2,25 +2,25 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]
-description: 多くのサービスでは、サービスで特定の変更が発生した場合に即座に通知を受け取る Web フックが用意されています。 これらの通知を処理するには、インスタントトリガーを使用することをお勧めします。 この記事では、Adobe Workfront Fusion でのインスタントトリガーの使用と機能について説明します。
+title: ' [!DNL Adobe Workfront Fusion] のインスタントトリガー（Web フック）'
+description: 多くのサービスでは、サービスで特定の変更が発生した場合に即座に通知を受け取る Web フックが用意されています。これらの通知を処理するには、インスタントトリガーを使用することをお勧めします。この記事では、Adobe Workfront Fusion でのインスタントトリガーの使用と機能について説明します。
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
-# のインスタントトリガー（Web フック） [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] のインスタントトリガー（Web フック）
 
-多くのサービスでは、サービスで特定の変更が発生した場合に即座に通知を受け取る Web フックが用意されています。 これらの通知を処理するには、インスタントトリガーを使用することをお勧めします。 これらは、 [!DNL Adobe Workfront Fusion] タグの理由は次のとおりです。
+多くのサービスでは、サービスで特定の変更が発生した場合に即座に通知を受け取る Web フックが用意されています。これらの通知を処理するには、インスタントトリガーを使用することをお勧めします。これらは [!DNL Adobe Workfront Fusion] のタグによって簡単に認識できます。
 
 ![](assets/instant-350x256.png)
 
-Web フックが提供されない場合は、ポーリングトリガーを使用して定期的にサービスをポーリングする必要があります。
+サービスが Web フックを提供しない場合は、ポーリングトリガーを使用してサービスを定期的にポーリングする必要があります。
 
 Workfront Fusion の Web フックの紹介ビデオについては、以下を参照してください。
 
@@ -29,117 +29,117 @@ Workfront Fusion の Web フックの紹介ビデオについては、以下を�
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## ウェブフックのキューを表示する
+## Web フックのキューを表示する
 
-受信 Webhook からのメッセージはすべて、Webhook のキューに保存されます。
+受信 Web フックからのメッセージはすべて、Web フックのキューに保存されます。
 
-1. クリック **[!UICONTROL ウェブフック]** をクリックします。
+1. 左側のメニューで、「**[!UICONTROL Web フック]**」をクリックします。
 1. キューを表示する Webhook を見つけます。
-1. トラックのアイコンと受信したウェブフックの数を含むボタンをクリックします。
+1. トラックのアイコンと受信した Web フックの数を含むボタンをクリックします。
 
    ![](assets/webhooks-truck-icon.png)
 
    >[!NOTE]
    >
-   >受信する Webhook データは、オプションの設定方法に関係なく、常にキューに格納されます。 [!UICONTROL データ] は機密情報 ( [のシナリオ設定パネル [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)) をクリックします。 シナリオでデータが処理されるとすぐに、そのデータはシステムから完全に削除されます。
+   >「[!UICONTROL データ]は機密情報」オプションの設定に関係なく、受信 Web フックデータは常にキューに保存されます（[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md) のシナリオ設定パネルで説明されています）。シナリオでデータが処理されるとすぐに、そのデータはシステムから完全に削除されます。
 
-## インスタントトリガーのスケジュール
+## インスタントトリガーをスケジュールする
 
 シナリオにインスタントトリガーが含まれる場合、シナリオが直ちに実行されるようにスケジュールできます。
 
 ![](assets/schedule-setting-350x185.png)
 
-この場合、シナリオは、 [!DNL Workfront Fusion] はサービスから新しいデータを受け取ります。 シナリオの実行後、キュー内で待機中の保留中の Webhook の総数がカウントされ、シナリオは保留中の Webhook の数と同じ数のサイクルを実行し、サイクルごとに 1 つの Webhook を処理します。 詳しくは、 [のシナリオの実行、サイクル、フェーズ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+この場合、[!DNL Workfront Fusion] がサービスから新しいデータを受信すると、シナリオはすぐに実行されます。シナリオの実行後、キュー内で待機中の保留中の Web フックの総数がカウントされ、シナリオは保留中の Web フックの数と同じ数のサイクルを実行し、サイクルごとに 1 つの Web フックを処理します。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md) でのシナリオの実行、サイクル、フェーズを参照してください。
 
 >[!NOTE]
 >
->* サイクルは、シナリオ実行とは異なります。 1 回のシナリオ実行で複数のサイクルを実行できます。
+>* サイクルは、シナリオ実行とは異なります。1 回のシナリオ実行で複数のサイクルを実行できます。
 >* 即時実行がスケジュールされたインスタントトリガーでシナリオを実行する場合、次の例外が適用されます。
 >
->     * 2 回の実行間隔は、価格設定計画に従って「最小間隔」に従いません。
+>     * 2 つの実行間の間隔は、料金プランに基づく最小間隔の影響を受けません。
 >
->       例えば、シナリオの実行が完了すると、Webhook のキューが再度チェックされます。 保留中の Web フックがある場合は、シナリオが直ちに再実行され、保留中の Web フックがすべて再度処理されます。
+>       例えば、シナリオの実行が完了すると、Web フックのキューが再度チェックされます。保留中の Web フックがある場合は、シナリオが直ちに再実行され、保留中の Web フックがすべて再度処理されます。
 >   
->     * 「サイクルの最大数」のシナリオ設定は無視され、100 に設定されます。つまり、1 回のシナリオの実行中に、保留中の Web フックが 100 個以下になります（1 サイクルあたり 1 イベント）。
+>     * サイクルの最大数のシナリオ設定は無視され、100 に設定されます。つまり、1 回のシナリオの実行中に処理される保留中の Web フックが 100 個以下になります（1 サイクルあたり 1 イベントの割合で）。
 >
 
 
-他のスケジュール設定を使用する場合は、 [!UICONTROL 即時]の場合、シナリオは指定した間隔で実行されます。 間隔中に複数の Web フックをキューで収集できるので、 [[!UICONTROL サイクルの最大数]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) をデフォルトの 1 より大きい値に設定すると、1 つのシナリオで複数の Web フックが処理されます。
+[!UICONTROL 即時]以外のスケジュール設定を使用する場合、シナリオは指定した間隔で実行されます。間隔中に複数の Web フックがキューに集まる可能性があるため、1 回のシナリオ実行でより多くの Web フックを処理するには、[[!UICONTROL 最大サイクル数]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum)をデフォルトの 1 よりも大きい値に設定することをお勧めします。
 
-1. 次をクリック： [!UICONTROL シナリオ設定] アイコン ![](assets/gear-icon-settings.png) をクリックします。
-1. Adobe Analytics の **[!UICONTROL シナリオ設定]** 表示されるボックスに、 **[!UICONTROL 最大サイクル数]** ボックスに、シナリオを実行するたびに実行するキュー内の Web フック数を示します。
+1. シナリオ下部の[!UICONTROL シナリオ設定]アイコン ![](assets/gear-icon-settings.png) をクリックします。
+1. 表示される「**[!UICONTROL シナリオ設定]**」ボックスで、「**[!UICONTROL 最大サイクル数]**」ボックスに数値を入力して、シナリオを実行するたびに実行するキューからの Web フックの数を示します。
 
 ## レート制限
 
-現在のレート制限は、1 秒あたり 5 ウェブフックです。 制限を超えた場合は、429 ステータスコードが返されます。
+現在のレート制限は、1 秒あたり 5 Web フックです。制限を超えた場合は、429 ステータスコードが返されます。
 
-## 非アクティブなウェブフックの有効期限
+## 非アクティブな Web フックの有効期限
 
-120 時間以上どのシナリオにも割り当てられていない Webhook は削除されます。
+120 時間を超えてどのシナリオにも割り当てられていない Web フックは削除されます。
 
-## Webhook ペイロード
+## Web フックペイロード
 
-[!DNL Workfront Fusion] は、30 日間、webhook ペイロードを保存します。 作成後 30 日を超える Webhook ペイロードにアクセスすると、「[!UICONTROL ストレージからファイルを読み取れませんでした。]&quot;
+[!DNL Workfront Fusion] は、30 日間、Web フックペイロードを保存します。作成後 30 日を超える Web フックペイロードにアクセスすると、「[!UICONTROL ストレージからファイルを読み取れませんでした。]」というエラーが発生します。
 
 ## エラー処理
 
 インスタントトリガーでシナリオにエラーが発生した場合は、次のようになります。
 
-* 直ちに停止 — シナリオが実行されるように設定されている場合 [!UICONTROL 即時].
-* 3 回の失敗（3 回のエラー）の後に停止します。シナリオがスケジュールどおりに実行されるように設定されている場合です。
+* 即時停止 - シナリオが[!UICONTROL 即時]に実行されるように設定されている場合。
+* 3 回失敗すると停止（エラーが 3 回） - シナリオがスケジュールどおりに実行されるように設定されている場合。
 
-シナリオの実行中にエラーが発生した場合、Webhook は、インスタントトリガーのロールバックフェーズ中にキューに戻されます。 このような状況では、シナリオを修正して再実行することができます。 詳しくは、 [ロールバック](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) 記事内 [のシナリオの実行、サイクル、フェーズ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+シナリオの実行中にエラーが発生した場合、Web フックは、インスタントトリガーのロールバックフェーズ中にキューに戻されます。このような状況では、シナリオを修正して再実行することができます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md) でのシナリオの実行、サイクル、フェーズの記事の[ロールバック](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback)を参照してください。
 
-シナリオに Webhook 応答モジュールがある場合、エラーは Webhook 応答に送信されます。 Webhook の応答モジュールは、常に最後に実行されます ( [!UICONTROL 自動コミット] 」オプションが有効になっていない場合にのみ考慮されます )。 詳しくは、 [Web フックへの応答](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) 記事内 [ウェブフック](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+シナリオに Web フックの応答モジュールがある場合、エラーは Web フックの応答に送信されます。Webhook の応答モジュールは、常に最後に実行されます（シナリオ設定の「[!UICONTROL 自動コミット]」オプションが有効になっていない場合）。詳しくは、[Web フック](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)の記事の [Web フックへの応答](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi)を参照してください。
 
-## カスタムウェブフック
+## カスタム Web フック
 
-独自の Web フックを作成できます。 詳しくは、 [ウェブフック](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+独自の Web フックを作成できます。詳しくは、[Web フック](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)を参照してください。
 
 ## Webhook の無効化
 
-次のいずれかに該当する場合、Webhook は自動的に非アクティブ化されます。
+次のいずれかに該当する場合、Web フックは自動的に非アクティブ化されます。
 
-* Webhook は 5 日以上どのシナリオにも接続されていません
-* Webhook は、非アクティブなシナリオ（30 日以上非アクティブであったシナリオ）でのみ使用されます。
+* Web フックが 6 日以上どのシナリオにも接続されていない
+* Web フックが、非アクティブなシナリオ（非アクティブになってから 30 日を超えたシナリオ）でのみ使用される。
 
-非アクティブ化された Web フックは、シナリオに接続されておらず、30 日以上非アクティブ状態にある場合、自動的に削除され、登録解除されます。
+非アクティブ化された web フックは、いかなるシナリオにも接続されておらず、非アクティブ状態となって 30 日が経過した場合、自動的に削除され、登録解除されます。
 
 

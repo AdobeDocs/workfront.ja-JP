@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
-title: システムで使用可能なライセンスを管理
-description: Adobe Workfront管理者は、組織で購入されたライセンスの数や、現在使用中のライセンスの数など、Workfrontアカウントに関する情報にアクセスできます。
+title: システムで使用可能なライセンスの管理
+description: Adobe Workfront 管理者は、組織で購入したライセンスの数や現在使用しているライセンスの数など、Workfront アカウントに関する情報にアクセスできます。
 author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
@@ -11,15 +11,15 @@ exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
 source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 0%
+ht-degree: 85%
 
 ---
 
-# システムで使用可能なライセンスを管理
+# システムで使用可能なライセンスの管理
 
 <!-- Audited: 12/2023 -->
 
-Adobe Workfront管理者は、組織で購入されたライセンスの数や、現在使用中のライセンスの数など、Workfrontアカウントに関する情報にアクセスできます。
+Adobe Workfront 管理者は、組織で購入したライセンスの数や現在使用しているライセンスの数など、Workfront アカウントに関する情報にアクセスできます。
 
 ## アクセス要件
 
@@ -30,11 +30,11 @@ Adobe Workfront管理者は、組織で購入されたライセンスの数や�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td>
     <p>新規：標準</p>
     <p>または</p>
@@ -42,7 +42,7 @@ Adobe Workfront管理者は、組織で購入されたライセンスの数や�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,38 +51,38 @@ Adobe Workfront管理者は、組織で購入されたライセンスの数や�
 
 ## 組織のライセンスを表示
 
-Workfrontに追加するユーザーにアクセスレベルを割り当てると、使用中のライセンスの数が自動的に更新されます。 詳しくは、 [ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Workfrontに追加するユーザーにアクセスレベルを割り当てると、使用中のライセンスの数が自動的に更新されます。 詳しくは、[ユーザーの追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-システムのライセンス情報を表示するには、次の手順に従います。
+システムのライセンス情報を表示するには：
 
 {{step-1-to-setup}}
 
-1. 左側のパネルの下部で、 **システム** > **ライセンス**.
+1. 左側のパネルの下部で、**システム**／**ライセンス**&#x200B;をクリックします。
 
-   このページに記載されているライセンスの詳細については、 [ライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   このページに記載されているライセンスについて詳しくは、[ライセンスの概要](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)を参照してください。
 
    >[!NOTE]
    >
-   >配達確認ライセンスは、Workfrontライセンスに加えて有料Workfront Proof アドオンを購入したお客様のみが利用できます。 このアドオンについて詳しくは、 [Workfront Proof：記事インデックス](../../workfront-proof/workfront-proof.md).
+   >プルーフのライセンスは、Workfront ライセンスに加えて Workfront Proof アドオンを購入したお客様のみが利用できます。このアドオンについて詳しくは、 [Workfront Proof：記事インデックス](../../workfront-proof/workfront-proof.md).
 
-1. （条件付き）メッセージが表示された場合 **最大値を設定するには、ホームグループを追加する必要があります**&#x200B;を使用して、の節で説明されている方法で、システムにホームグループを追加します。 [[ ライセンス ] ページにホームグループを追加または削除する](#add-or-remove-a-home-group-to-the-licenses-page) 」を参照してください。
+1. （条件付き）「**最大値を設定するには、ホームグループを追加する必要があります**」というメッセージが表示された場合は、システムにホームグループを追加します。詳しくは、この記事の[ライセンスページへのホームグループの追加または削除](#add-or-remove-a-home-group-to-the-licenses-page)の節を参照してください。
 
-## Workfrontアドオンのライセンスに関する情報を表示します
+## Workfront アドオンのライセンスに関する情報の表示
 
 組織が有料Workfront Proof アドオンを持っている場合は、使用済みライセンスの数と使用可能なライセンス数が表示されます。 例： **5/10 個の配達確認ライセンス** は、現在、購入した 10 個のWorkfront Proof ライセンスのうち 5 個を使用していることを示します。
 
 ![Workfrontアドオンのライセンス](assets/updated-licenses-page.png)
 
-お客様の組織がWorkfront Goals を購入している場合は、この製品のライセンス情報もここに表示されます。 この場合、次の情報を表示できます。
+組織が Workfront Goals を購入している場合は、その製品のライセンス情報もここに表示されます。この例では、次の情報を確認できます。
 
-* 会社が購入したWorkfront Goals ライセンスの合計数
-* ユーザーに関連付けられているWorkfront Goals ライセンスの数です。 これは、少なくとも目標に対する表示アクセス権をアクセスレベルで付与するユーザーの数です。
+* 会社が購入した Workfront Goals ライセンスの合計数
+* ユーザーに関連付けられている Workfront Goals ライセンスの数です。これは、アクセスレベルで Goals に対する表示アクセス権以上を付与されているユーザーの数です。
 
-Workfront目標について詳しくは、 [Adobe Workfront目標の概要](../../workfront-goals/goal-management/wf-goals-overview.md). Workfront Goals へのアクセスについて詳しくは、 [Adobe Workfront目標へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Workfront Goals について詳しくは、[Adobe Workfront Gloals の概要](../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。Workfront Goals へのアクセスについて詳しくは、 [Adobe Workfront目標へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
->Workfrontでは、購入したWorkfront Goals ライセンスをさらに割り当てることができます。 ただし、Workfront Goals 契約で許可されている数を超えるライセンスを割り当てると、Workfrontのアカウントマネージャーから連絡があり、契約上の数を超えたことが通知されます。
+>Workfront では、購入した Workfront Goals ライセンス以上を割り当てることができます。ただし、Workfront Goals の契約で許可されている数を超えるライセンスを割り当てると、Workfront のアカウントマネージャーから連絡があり、契約上の数を超えたことが通知されます。
 >
 
 <!--
@@ -91,79 +91,79 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->管理アクセス権を持たないユーザーは、グループレポートを使用してライセンス数を表示できます。 「レポート」タブで、新しいグループレポートを作成し、次の列を追加します。
+>管理アクセス権を持たないユーザーは、グループレポートを使用してライセンス数を表示できます。「レポート」タブで、新しいグループレポートを作成し、次の列を追加します。
 >
->* ライセンスの種類制限：ワーカー制限
->* ライセンス・タイプ制限：プランナ制限
+>* ライセンスタイプ制限：作業者制限
+>* ライセンスタイプ制限：計画担当者制限
 >
->レポートの作成について詳しくは、 [カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>レポートの作成について詳しくは、[カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-## 月次配達確認とドキュメントの決定割り当てに関する情報を表示します
+## 毎月のプルーフおよびドキュメントの決定の割り当てに関する情報の表示
 
 >[!IMPORTANT]
 >
->配達確認とドキュメントの決定制限は、新しいライセンスのユーザーにのみ適用されます。 詳しくは、 [新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>プルーフとドキュメントの決定の制限は、新しいライセンスのユーザーにのみ適用されます。詳しくは、[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
 
-配達確認とドキュメントの決定は、有料Workfrontライセンスのすべてに対して制限されます。 制限は、ユーザーごとに 1 ヶ月ごとにリセットされます。
+プルーフおよびドキュメントの決定は、すべての無償 Workfront ライセンスで制限されています。制限は、毎月ユーザーごとにリセットされます。
 
-各ライセンスの決定制限は、使用するプランによって異なります。 毎月の割り当ては、[ セットアップ ] > [ ライセンス ] で確認できます。
+各ライセンスの決定制限は、使用するプランによって異なります。毎月の割り当ては、設定／ライセンスで確認できます。
 
-配達確認とドキュメントの決定制限について詳しくは、 [非有料ユーザーに対する限定的なドキュメントおよび配達確認の決定の概要](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+プルーフとドキュメントの決定の制限について詳しくは、[無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md)を参照してください。
 
 ![月次決定割り当て](assets/monthly-decision-allotment.png)
 
-## [ ライセンス ] ページにホームグループを追加または削除する {#add-or-remove-a-home-group-to-the-licenses-page}
+## ライセンスページへのホームグループの追加または削除 {#add-or-remove-a-home-group-to-the-licenses-page}
 
 <!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
-各ユーザーは 1 つのホームグループにのみ割り当てることができます。 Workfrontは、各ホームグループで割り当てられ、現在使用されているライセンス数を計算することで、グループ指向のライセンス数を提供します。
+各ユーザーは、1 つのホームグループにのみ割り当てることができます。Workfront では、各ホームグループに割り当てられ現在使用されているライセンスの数を計算することで、グループ指向のライセンス数を提供します。
 
-メッセージが表示された場合 **最大値を設定するには、ホームグループを追加する必要があります** [ ライセンス ] ページで、[ ライセンス ] ページに 1 つ以上のホームグループを追加する必要があります。
+ライセンスページに「**最大数を設定するには、ホーム グループを追加してください。**」というメッセージが表示された場合は、少なくとも 1 つのホームグループをライセンスページに追加する必要があります。
 
 >[!IMPORTANT]
 >
->* ホームグループのライセンスを効果的に管理するには、ビジネスユニットに対して特定のホームグループを設定してから、最大ライセンス数を更新することをお勧めします。 詳しくは、 [ホームグループの概要](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
->* 最上位のグループのみをホームグループとして追加でき、サブグループは追加できません。 ユーザがホームグループとして割り当てられたサブグループを持つ場合、そのライセンスはそのサブグループの上の最上位グループのライセンス数に追加されます。
+>* ホームグループでライセンスを効果的に管理するには、最大ライセンス数を更新する前に、ビジネスユニットに特定のホームグループを設定することをお勧めします。詳しくは、[ホームグループの概要](../../administration-and-setup/manage-groups/groups-overview/home-groups.md)を参照してください。
+>* ホームグループとして追加できるのは最上位のグループのみで、サブグループは対象外です。ユーザーにサブグループがホームグループとして割り当てられている場合、ユーザーのライセンスは、そのサブグループの上の最上位グループのライセンス数に追加されます。
 >
 
-[ ライセンス ] ページにホームグループを追加または削除するには、次の手順に従います。
+ホームグループをライセンスページに追加または削除するには、次の手順に従います。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルの下部で、 **システム** > **ライセンス**.
+1. 左パネルの下部で、**システム**／**ライセンス**&#x200B;をクリックします。
 
-1. クリック **グループリストを管理**.
-1. 最上位グループの名前を **ホームグループ** ボックス。
-1. グループを追加するには、表示されたらその名前をクリックします。
+1. 「**グループ リストの管理**」をクリックします。
+1. 最上位グループの名前を「**ホームグループ**」ボックスに入力していきます。
+1. グループを追加するには、その名前が表示されたらクリックします。
 
    または
 
-   グループを削除するには、名前の右にある X アイコンをクリックします。
+   グループを削除するには、名前の右にある「X」アイコンをクリックします。
 
 1. 「**保存**」をクリックします。
 
-Workfrontの管理者は、ホームグループの最大ライセンス数を設定して、ビジネスユニットが他のビジネスユニットに購入したWorkfrontライセンスを使用するのを防ぐことができます。 手順については、 [ホームグループの最大ライセンス数を設定する](#set-the-maximum-license-count-for-a-home-group) 」を参照してください。
+Workfront 管理者は、ホームグループの最大ライセンス数を設定して、あるビジネスユニットが他のビジネスユニット用に購入された Workfront ライセンスを使用するのを防止できます。その手順については、[ホームグループの最大ライセンス数の設定](#set-the-maximum-license-count-for-a-home-group)を参照してください。
 
-## ホームグループの最大ライセンス数を設定する {#set-the-maximum-license-count-for-a-home-group}
+## ホームグループの最大ライセンス数の設定 {#set-the-maximum-license-count-for-a-home-group}
 
-Workfront管理者は、システムの最上位のホームグループに対して最大ライセンス数を設定できます。 これにより、ビジネスユニットが組織内の他のビジネスユニット用に購入したWorkfrontライセンスを使用するのを防ぐことができます。
+Workfront 管理者は、システムの最上位ホームグループに対して最大ライセンス数を設定できます。これにより、あるビジネスユニットが組織内の他のビジネスユニット用に購入された Workfront ライセンスを使用するのを防止できます。
 
 デフォルトでは、最大ライセンス数は「N/A」に設定されています。これは、制限がないことを意味します。
 
-グループ管理者は、管理するホームグループで割り当てられ、使用されたライセンス数を表示できます。 詳しくは、 [割り当てられ、グループで使用されているライセンス数を表示します](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+グループ管理者は、担当するホームグループに割り当てられ使用されているライセンスの数を表示できます。詳しくは、 [割り当てられ、グループで使用されているライセンス数を表示します](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
 ホームグループの最大ライセンス数を設定するには、次の手順に従います。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルの下部で、 **システム** > **ライセンス**.
+1. 左パネルの下部で、**システム**／**ライセンス**&#x200B;をクリックします。
 
 1. リスト内でホームグループを探します。
-1. Adobe Analytics の **最大** グループの列で、最大値を設定する値をクリックします。
-1. 最大数を入力し、Enter キーを押します。
+1. グループの&#x200B;**最大**&#x200B;列で、最大値を設定する値をクリックします。
+1. 最大値を入力し、Enter キーを押します。
 
    ![](assets/updated-max.png)
 
    >[!NOTE]
    >
-   >グループの最大ライセンス値をデフォルトに戻すには、0 を入力しないでください。 代わりに、ボックス内の数字を削除します。 最大ライセンス値を 0 に設定すると、そのグループに割り当てられたライセンスがないことを示します。
+   >グループの最大ライセンス値をデフォルトに戻すには、0 を入力しないでください。代わりに、ボックス内の数値を削除します。最大ライセンス値を 0 に設定すると、そのグループに割り当てられたライセンスがないことを示します。

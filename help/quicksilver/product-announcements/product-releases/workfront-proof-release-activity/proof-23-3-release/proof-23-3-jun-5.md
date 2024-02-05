@@ -9,7 +9,7 @@ feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
 source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 

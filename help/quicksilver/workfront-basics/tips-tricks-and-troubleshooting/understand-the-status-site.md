@@ -5,7 +5,7 @@ draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
 source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 100%
 

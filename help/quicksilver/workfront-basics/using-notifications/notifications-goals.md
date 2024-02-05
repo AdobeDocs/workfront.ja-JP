@@ -1,21 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: '通知：目標'
-description: '通知：目標'
+title: 「通知：Goals」
+description: 「通知：Goals」
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 6%
+ht-degree: 97%
 
 ---
 
-# 通知：目標
+# 通知：Goals
 
-イベントに関する電子メール通知を [!DNL Adobe Workfront Goals] 」と入力します。 ユーザーが [!UICONTROL プラン] ライセンスを使用して、他のユーザーに対して有効にすることもできます。 詳しくは、 [[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md).
+プロファイルから、[!DNL Adobe Workfront Goals] で発生したイベントのメール通知を有効にすることができます。ユーザーが[!UICONTROL プラン]ライセンスを使用して、他のユーザーに対して有効にすることもできます。詳しくは、[[!DNL Adobe Workfront]  の通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
 
 ## アクセス要件
 
@@ -35,15 +35,15 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> <p>[!UICONTROL Request] 以降</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>製品</strong></td> 
-   <td>[!DNL Workfront Goals] <p>詳しくは、 [!DNL Workfront Goals]を参照してください。 <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] 概要</a>.</p> </td> 
+   <td>[!DNL Workfront Goals] <p>[!DNL Workfront Goals] について詳しくは、<a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] の概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL 表示 ] での [!DNL Goals] またはそれ以降</p> <p>注意：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者がアクセスレベルを変更できる場合は、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>[!DNL Goals] に対する[!UICONTROL View]以上のアクセス権</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront]管理者によってアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,14 +53,14 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-次の場合に [!DNL Goals] 通知は、更新される際に、次の条件を満たす必要があります。
+[!DNL Goals] の通知が更新されるユーザーは、次の条件を満たす必要があります。
 
-* 以下を含むレイアウトテンプレート： [!DNL Goals] 領域 [!UICONTROL メインメニュー].
-* 新しい [!DNL Adobe Workfront] エクスペリエンス。
+* [!UICONTROL メインメニュー]の [!DNL Goals] エリアを含むレイアウトテンプレート
+* 新しい [!DNL Adobe Workfront] エクスペリエンスに切り替える。
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -68,17 +68,17 @@ ht-degree: 6%
   </MadCap:conditionalText>
   -->
 
-## [!DNL Goals] 通知 [!UICONTROL ユーザープロファイル] 領域
+## [!UICONTROL  ユーザープロファイル ]エリアにある [!DNL Goals] の通知
 
-次の表に示す通知は、で発生しているイベントに関する警告です。 [!DNL Workfront Goals]例えば、目標、結果、アクティビティを割り当てている人や、所有する目標、結果、アクティビティを更新している人などです。 受信する通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+次のテーブルに表示される通知は、[!DNL Workfront Goals] で発生しているイベントに関する警告です。例えば、目標、結果、アクティビティを割り当てているユーザーや、所有する目標、結果、アクティビティを更新しているユーザーなどです。受信する通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
->次の即時通知： [!DNL Goals] は、デフォルトでは無効です。 毎日の通知を有効または無効にすることはできません。また、このカテゴリのイベントに関する日々のダイジェスト電子メールを受信することもできません。 以下に対する個々のインスタント通知を有効または無効にできます： [!DNL Goals] カテゴリ。
+>[!DNL Goals] のインスタント通知は、デフォルトでは無効になっています。毎日の通知を有効または無効にすることはできません。また、このカテゴリのイベントに関する日々のダイジェストメールを受信することもできません。[!DNL Goals] カテゴリのインスタント通知を個別に有効または無効にできます。
 
-関連トピック [イベント通知](../../workfront-basics/using-notifications/event-notifications.md).
+[イベント通知](../../workfront-basics/using-notifications/event-notifications.md)も参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,23 +90,23 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td><strong>誰かに成果 / アクティブを割り当てられました</strong></td> 
-   <td> <p>結果またはアクティビティを割り当てた人の名前</p> <p>結果またはアクティビティの目標の期間</p> <p>結果またはアクティビティの名前</p> <p>The <strong>[!UICONTROL Web アプリで開く ]</strong> ボタンをクリックして [!UICONTROL 目標の詳細 ] パネルを開きます。</p> <p>The <strong>[!UICONTROL 通知設定の変更 ]</strong> ボタンをクリックします。</p> </td> 
+   <td> <p>結果またはアクティビティを割り当てたユーザーの名前</p> <p>結果またはアクティビティの目標の期間</p> <p>結果またはアクティビティの名前</p> <p>[!UICONTROL Goal Details] パネルを開く <strong>[!UICONTROL Open in web app]</strong> ボタン</p> <p><strong>[!UICONTROL Change Notifications Settings]</strong> ボタンで通知を管理できます。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>誰かが自分の個人用目標を新しく作成しました</strong> </td> 
-   <td> <p>目標を割り当てた人の名前</p> <p>目標の期間</p> <p>目標の名前</p> <p>The <strong>[!UICONTROL Web アプリで開く ]</strong> ボタンをクリックして [!UICONTROL 目標の詳細 ] パネルを開きます。</p> <p>The <strong>[!UICONTROL 通知設定の変更 ]</strong> ボタンをクリックします。</p> </td> 
+   <td> <p>目標を割り当てたユーザーの名前</p> <p>目標の期間</p> <p>目標の名前</p> <p>[!UICONTROL Goal Details] パネルを開く <strong>[!UICONTROL Open in web app]</strong> ボタン</p> <p><strong>[!UICONTROL Change Notifications Settings]</strong> ボタンで通知を管理できます。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>誰かが自分の目標にコメントを残しました</strong></td> 
-   <td> <p>コメントを残した人の名前</p> <p>目標の期間 </p> <p>目標の名前</p> <p>コメントのテキスト</p> <p>The <strong>[!UICONTROL Web アプリで開く ]</strong> ボタンをクリックして [!UICONTROL 目標の詳細 ] パネルを開きます。</p> <p>The <strong>[!UICONTROL 通知設定の変更 ]</strong> ボタンをクリックします。</p> </td> 
+   <td> <p>コメントを残したユーザーの名前</p> <p>目標の期間 </p> <p>目標の名前</p> <p>コメントのテキスト</p> <p>[!UICONTROL Goal Details] パネルを開く <strong>[!UICONTROL Open in web app]</strong> ボタン</p> <p><strong>[!UICONTROL Change Notifications Settings]</strong> ボタンで通知を管理できます。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>誰かが目標に関する自分のコメントを気に入りました</strong></td> 
-   <td> <p>コメントに「いいね！」した人の名前</p> <p>目標の期間 </p> <p>目標の名前</p> <p>コメントのテキスト </p> <p>The <strong>[!UICONTROL Web アプリで開く ]</strong> ボタンをクリックして [!UICONTROL 目標の詳細 ] パネルを開きます。</p> <p>The <strong>[!UICONTROL 通知設定の変更 ]</strong> ボタンをクリックします。</p> </td> 
+   <td> <p>コメントを評価したユーザーの名前</p> <p>目標の期間 </p> <p>目標の名前</p> <p>コメントのテキスト </p> <p>[!UICONTROL Goal Details] パネルを開く <strong>[!UICONTROL Open in web app]</strong> ボタン</p> <p>通知の管理に使用する <strong>[!UICONTROL Change Notifications Settings]</strong> ボタン。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>誰かが自分の目標更新を評価しました</strong></td> 
-   <td> <p>目標に対して行ったコメントに誰かが気に入ったとき、または目標に関する結果やアクティビティの進行状況を更新したときに、電子メールが送信されます。 </p> <p>更新を「いいね！」した人の名前</p> <p>目標の期間 </p> <p>目標の名前</p> <p>The <strong>[!UICONTROL Web アプリで開く ]</strong> ボタンをクリックして [!UICONTROL 目標の詳細 ] パネルを開きます。</p> <p>The <strong>[!UICONTROL 通知設定の変更 ]</strong> ボタンをクリックします。</p> </td> 
+   <td> <p>目標に対して行ったコメントを誰かが評価したとき、または目標に関する結果やアクティビティの進行状況を更新したときに、メールが送信されます。 </p> <p>更新を評価した人の名前</p> <p>目標の期間 </p> <p>目標の名前</p> <p>[!UICONTROL Goal Details] パネルを開く <strong>[!UICONTROL Open in web app]</strong> ボタン</p> <p>通知を管理できる <strong>[!UICONTROL Change Notifications Settings]</strong> ボタン。</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 

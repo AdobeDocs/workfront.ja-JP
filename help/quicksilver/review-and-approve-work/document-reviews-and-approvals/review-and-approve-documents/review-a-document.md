@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: approvals
 title: ドキュメントのレビュー
-description: レビュー担当者は、レビュー用に自分に送信されたドキュメントをプレビューできます。
+description: レビュアーは、レビューのために送信されたドキュメントをプレビューできます。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->この記事の内容は、特定のアカウントでのみ使用できる更新済みのドキュメント承認機能を指します。 標準の承認プロセスについて詳しくは、 [作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
 
 ## アクセス要件
 
@@ -30,65 +30,65 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>承認に関連付けられたオブジェクトへの表示またはそれ以上のアクセス権</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>承認に関連付けられたオブジェクトに対する表示以上のアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>承認に関連付けられたオブジェクトに対する権限を表示するか、それ以上に設定します</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>承認に関連付けられたオブジェクトに対する表示以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
 <!--
 ## Review a document from Home
 Add once functionality is added
 -->
 
-## ドキュメントページからのドキュメントのレビュー
+## ドキュメントページからドキュメントをレビュー
 
 1. ドキュメントの名前をクリックして、ドキュメントページに移動します。
 
-1. 確認するドキュメントのバージョンをドロップダウンから選択します。 デフォルトでは、最新バージョンが選択されます。
+1. レビューするドキュメントのバージョンをドロップダウンから選択します。デフォルトでは最新バージョンが選択されます。
 
-1. 「プレビュー」ボックスでドキュメントの上にマウスポインターを置きます。 次に、次のいずれかを示します。
+1. 「プレビュー」ボックスでドキュメントの上にマウスポインタを合わせます。次のいずれかを実行します。
 
-   クリック **プレビュー** をクリックして、ドキュメントの読み取り専用バージョンを新しいウィンドウで開きます。
+   「**プレビュー**」をクリックして、ドキュメントの読み取り専用バージョンを新しいウィンドウで開きます。
 
    または
 
-   クリック **ダウンロード** をクリックして、ドキュメントのローカルコピーをデバイスにダウンロードします。
+   「**ダウンロード**」をクリックして、ドキュメントのローカルコピーをデバイスにダウンロードします。
 
-1. （オプション）ドキュメントをレビューした後は、ドキュメントの **更新** 」セクションに入力します。 コメント化について詳しくは、 [作業を更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 1. レビューの完了を記録するには、 **レビューを完了**.
 
-## 「ドキュメントの概要」ウィンドウでドキュメントを確認する
+## ドキュメントの概要パネルでドキュメントを確認
 
-1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「 」を選択します。 **ドキュメント**.
+1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、**ドキュメント**&#x200B;を選択します。
 
-1. 必要なドキュメントをクリックすると、ドキュメントの概要ウィンドウが開きます。
+1. 必要なドキュメントをクリックすると、ドキュメントの概要パネルが開きます。
 
-1. バージョンドロップダウンで、確認するドキュメントのバージョンを選択します。 デフォルトでは、最新バージョンが選択されます。
+1. バージョンのドロップダウンで、レビューするドキュメントのバージョンを選択します。デフォルトでは最新バージョンが選択されます。
 
-1. 内のドキュメントのプレビューにカーソルを合わせます。 **詳細** 「ドキュメントの概要」ウィンドウの上部にあるセクション。 次に、次のいずれかを示します。
+1. ドキュメントの概要ウィンドウの上部にある「**詳細**」セクションで、ドキュメントのプレビューにポインタを合わせます。次のいずれかを実行します。
 
-   クリック **プレビュー** をクリックして、ドキュメントの読み取り専用バージョンを新しいウィンドウで開きます。
+   「**プレビュー**」をクリックして、ドキュメントの読み取り専用バージョンを新しいウィンドウで開きます。
 
    または
 
-   クリック **ダウンロード** をクリックして、ドキュメントのローカルコピーをデバイスにダウンロードします。
+   「**ダウンロード**」をクリックして、ドキュメントのローカルコピーをデバイスにダウンロードします。
 
-1. （オプション）ドキュメントをレビューした後は、ドキュメントの **更新** 」セクションに入力します。 コメント化について詳しくは、 [作業を更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）ドキュメントの特定のバージョンをプレビューまたはダウンロードする場合は、 **バージョン** [ ドキュメントの概要 ] ウィンドウの [ その他 ] アイコンをクリックします。 ![](../assets/more-icon.png) をクリックします。 **ダウンロード** または **プレビュー**.
+1. （オプション）ドキュメントの概要パネルの「**バージョン**」セクションまで下にスクロールし、レビューするバージョンの横にある詳細アイコン ![](../assets/more-icon.png) をクリックして、**ダウンロード**&#x200B;または&#x200B;**プレビュー**&#x200B;を選択すると、ドキュメントの特定のバージョンをプレビューまたはダウンロードできます。
 1. レビューの完了を記録するには、 **レビューを完了**.

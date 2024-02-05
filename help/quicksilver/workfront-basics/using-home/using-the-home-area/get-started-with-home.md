@@ -1,19 +1,19 @@
 ---
 content-type: overview
 navigation-topic: use-the-home-area
-title: の基本を学ぶ [!UICONTROL ホーム]
-description: The [!UICONTROL ホーム] area は、割り当てられたタスク、問題、および承認を検索するためのワンストップショップです。 内で作業内容を表示する方法は 2 つあります。 [!UICONTROL ホーム] 領域 ( [!UICONTROL 作業用リスト] または [!UICONTROL カレンダー].
+title: '[!UICONTROL ホーム]の概要'
+description: '[!UICONTROL ホーム]エリアは、割り当てられたタスク、イシュー、および承認を検索するためのワンストップショップです。内で作業内容を表示する方法は 2 つあります。 [!UICONTROL ホーム] 領域 ( [!UICONTROL 作業用リスト] または [!UICONTROL カレンダー].'
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 0%
+ht-degree: 43%
 
 ---
 
-# の基本を学ぶ [!UICONTROL ホーム]
+# [!UICONTROL ホーム]の概要
 
 <!--Audited: 12/2023-->
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 割り当てられたすべての作業を、 [!UICONTROL 作業用リスト]:
 
-![[!UICONTROL 作業用リスト] パネル](assets/worklist-and-right-panel-home.png)
+![[!UICONTROL 作業リスト]パネル](assets/worklist-and-right-panel-home.png)
 
 現在の [!UICONTROL ホーム] 領域（上の画像でハイライト表示されている）
 
@@ -38,8 +38,8 @@ ht-degree: 0%
 
 詳しくは、 [!UICONTROL ホームの作業リスト]（次の記事を参照）。
 
-* [次の項目を [!UICONTROL 作業用リスト] （内） [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [から作業項目を作成する [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に項目を表示する](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+* [[!UICONTROL ホーム]エリアから作業アイテムを作成する](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
 ## [!UICONTROL カレンダー]
 
@@ -57,67 +57,67 @@ ht-degree: 0%
 
 * **D**：期限バーを使用して、自分に割り当てられている作業の期限を追跡します。
 
-ホームカレンダーの使用方法の詳細については、「 [以下を使用します。 [!UICONTROL ホームカレンダー] 表示](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+ホームのカレンダーの使用方法について詳しくは、[[!UICONTROL ホームのカレンダー]ビューを使用](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)を参照してください。
 
-## 作業の検索
+## 担当作業の検索
 
-The [!UICONTROL ホーム] area は、割り当てられたタスク、問題、および承認を検索するためのワンストップショップです。 フィルター、グループ化、並べ替えの各オプションは、作業項目を目的の方法で整理する際に役立ちます。 グループ化を使用して、項目をグループ化したり、完了する必要がある作業にフィルターを適用したり、最後に並べ替えて、項目をグループ化の昇順または降順にリスト化したりできます。
+[!UICONTROL ホーム]エリアは、割り当てられたタスク、イシュー、および承認を検索するためのワンストップショップです。フィルター、グループ化、並べ替えの各オプションは、作業項目を目的の方法で整理する際に役立ちます。 グループ化を使用して、項目をグループ化したり、完了する必要がある作業にフィルターを適用したり、最後に並べ替えて、項目をグループ化の昇順または降順にリスト化したりできます。
 
 >[!NOTE]
 >
->フィルターおよび並べ替えのオプションは、ブラウザーに保存されます。 同じコンピューターで一貫して同じブラウザーを使用している（サイトのデータをクリアしない）場合、フィルターと並べ替えは変更されませんが、ブラウザーまたはコンピューターを切り替えた場合、フィルターと並べ替えは異なります。
+>フィルターおよび並べ替えのオプションは、ブラウザーに保存されます。同じコンピューターで一貫して同じブラウザーを使用している（サイトのデータをクリアしない）場合、フィルターと並べ替えは変更されませんが、ブラウザーやコンピューターを切り替えると、フィルターと並べ替えが異なります。
 
 ### 類似した作業項目をグループ化と共にグループ化します
 
 グループ化を使用すると、ワークリストの共通ヘッダーの下に、同様の項目を表示できます。 項目を次の項目でグループ化できます。
 
-* [!UICONTROL 計画完了]
-* [!UICONTROL 計画開始]
+* [!UICONTROL 予定完了日]
+* [!UICONTROL 予定開始日]
 * [!UICONTROL コミット日]
 * [!UICONTROL プロジェクト]
-* [!UICONTROL 優先度]
+* [!UICONTROL マイ優先度]
 
-グループ化の使用方法について詳しくは、 [次の項目を [!UICONTROL 作業用リスト] （内） [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+グループ化の使用方法について詳しくは、[[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に項目を表示](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)を参照してください。
 
 ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
 
 ### フィルターでフォーカスを絞り込む
 
-The [!UICONTROL 作業用リスト] フィルターを使用すると、特定の作業項目にフォーカスを絞り込むことができます。
+[!UICONTROL 作業リスト]フィルターを使用すると、特定の作業アイテムに焦点を絞り込むことができます。
 
-次に、ホームで表示した項目をフィルタする方法の例を示します。
+次に、ホームで表示した項目をフィルタリングする方法の例を示します。
 
-* 項目のタイプと状態でフィルターします。
+* 項目のタイプと状態でフィルタリングします。
 
-  例えば、すべてのタスクを表示する場合は、 [!UICONTROL タスク] フィルター。 これより具体的に作業を開始する準備が整ったタスクのみを表示する場合は、 [!UICONTROL 開始準備完了] フィルターを [!UICONTROL タスク] フィルター。
+  例えば、すべてのタスクを表示する場合は、[!UICONTROL タスク]フィルターを選択できます。これよりも具体的に、作業を開始する準備ができているタスクのみを表示したい場合は、[!UICONTROL タスク]フィルターの下にある[!UICONTROL 開始準備完了]フィルターを選択します。
 
-* 項目タイプのみでフィルターします。
+* 項目タイプのみでフィルタリングします。
 
-  例えば、 [!UICONTROL 問題] すべての州のすべての問題を見るには ([!UICONTROL 作業中] または [!UICONTROL リクエスト済み]) または [!UICONTROL 承認] すべての作業項目、アクセス要求、タイムシート、ドキュメント、および配達確認の承認を表示するには、次の手順に従います。
+  例えば、[!UICONTROL イシュー]を選択してすべての状態のすべてのイシューを表示するか（[!UICONTROL 作業中]または[!UICONTROL リクエスト済み]）、[!UICONTROL 承認]を選択してすべての作業アイテム、アクセス権のリクエスト、タイムシート、ドキュメント、およびプルーフの承認を表示できます。
 
-フィルターの使用方法について詳しくは、 [次の項目を [!UICONTROL 作業用リスト] （内） [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+フィルターの使用方法について詳しくは、[[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に項目を表示](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)を参照してください。
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-### チームに割り当てられた作業にアクセス
+### チームに割り当てられた作業にアクセスする
 
 The [!UICONTROL ホーム] 領域に永続的なグループ化 ([!UICONTROL チームリクエスト]) をクリックして、チームに割り当てられたタスクと問題を表示します。 チームはこのセクションに表示されます。 チームの名前をクリックすると、そのチームのチームリクエストページが開きます。
 
 >[!NOTE]
 >
->フィルターおよび並べ替えオプションは、 [!UICONTROL チームリクエスト] グループ化。 このグループは、チームに作業が割り当てられている限り表示されます。
+>フィルターおよび並べ替えオプションは、 [!UICONTROL チームリクエスト] グループ化。 このグループ化は、チームに作業が割り当てられている限り表示されます。
 
-チームリクエストへのアクセスについて詳しくは、この記事を参照してください。 [[!UICONTROL 管理] での作業とチームのリクエスト [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+チームリクエストへのアクセスについて詳しくは、[[!UICONTROL [!UICONTROL ホーム]エリアで作業とチームのリクエストを管理]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)の記事を参照してください。
 
 ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
 
-### 送信した作業を監視します
+### 送信した作業を監視する
 
-直接承認用に送信した作業を次の場所から追跡する [!UICONTROL 作業用リスト]. 次の項目が永続的にグループ化されています： [!UICONTROL 送信済みの承認] 表示を選択したとき [!UICONTROL 承認] （内） [!UICONTROL 作業用リスト]. 承認が必要な作業を承認者に通知することができます。 必要に応じて、承認を取り消すこともできます。
+承認のために送信した作業を[!UICONTROL 作業リスト]から直接追跡します。次の項目が永続的にグループ化されています： [!UICONTROL 送信済みの承認] 表示を選択したとき [!UICONTROL 承認] （内） [!UICONTROL 作業用リスト]. 承認が必要な作業を承認者に通知することができます。必要に応じて、承認を取り消すこともできます。
 
 >[!NOTE]
 >
->フィルターと並べ替えは、 [!UICONTROL 送信済みの承認] グループ化。 承認待ちの作業がある限り、このグループは表示されます。
+>フィルターと並べ替えは、 [!UICONTROL 送信済みの承認] グループ化。 承認待ちの作業がある限り、このグループ化は表示されます。
 >
 >内の承認数 [!UICONTROL 承認] フィルターには、承認用に送信した項目数が表示されません。 The [!UICONTROL 承認] フィルターには、承認を待っている項目のみが表示されます。
 
@@ -129,9 +129,9 @@ The [!UICONTROL 作業用リスト] を使用すると、 [!UICONTROL 優先度]
 
 >[!NOTE]
 >
->次に追加された作業項目： [!UICONTROL 優先度] は自分にのみ表示され、自分の仕事を優先する人はいません。
+>[!UICONTROL マイ優先度]に追加された作業アイテムは自分にのみ表示され、他のユーザーが代わりに作業の優先順位を付けることはできません。
 
-の使用方法の詳細については、 [!UICONTROL 優先度]を参照してください。 [の作業を優先する [!UICONTROL ホーム] 領域](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+[!UICONTROL マイ優先度]の使用方法について詳しくは、[[!UICONTROL ホーム]エリアでの作業の優先付け](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)を参照してください。
 
 ![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x412.png)
 
@@ -139,7 +139,7 @@ The [!UICONTROL 作業用リスト] を使用すると、 [!UICONTROL 優先度]
 
 項目名をクリックした後 [!UICONTROL 作業用リスト]を使用する場合は、 [!UICONTROL ホーム] をクリックして、作業を更新し、完了します。
 
-### カスタマイズされたスペースで作業する
+### カスタマイズされたスペースでの作業
 
 お使いの [!DNL Workfront] 管理者は、最大 16 個のカスタムフィールドを [!UICONTROL 作業用リスト]必要な情報を簡単に見つけて更新できるようにします。 ほとんどのフィールドは編集可能なので、作業項目に移動する必要はありません。
 
@@ -153,7 +153,7 @@ The [!UICONTROL 作業用リスト] を使用すると、 [!UICONTROL 優先度]
 
 ### 他のユーザーを重要な情報で更新する
 
-他のユーザーと迅速かつ効率的にコミュニケーションを取る [!UICONTROL ホーム] 領域。 作業項目のコメント領域を使用すると、質問をしたり、最近の更新を他のユーザーに通知したり、 [!UICONTROL ホーム] 領域。 さらに、進行中の他のユーザーを更新するには、次の手順を実行します。
+他のユーザーと迅速かつ効率的にコミュニケーションを取る [!UICONTROL ホーム] 領域。 作業項目のコメント領域を使用すると、質問をしたり、最近の更新を他のユーザーに通知したり、 [!UICONTROL ホーム] 領域。 さらに、次の方法で進捗状況の最新情報を他のユーザーに知らせることもできます。
 
 * の更新 [!UICONTROL コミット日] コメント領域で
 
@@ -162,16 +162,16 @@ The [!UICONTROL 作業用リスト] を使用すると、 [!UICONTROL 優先度]
   >   ここでは、ホームでコミット日を更新できる唯一の場所です。
 
 * コメントを追加または [!UICONTROL 条件] 項目の
-* 割合完了バーの更新
+* 完了率バーの更新
 
-詳しくは、 [!UICONTROL ホーム] 領域、詳しくは、 [作業を更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+[!UICONTROL ホーム]エリアでのコミュニケーションについて詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ![](assets/updates-home-350x198.png)
 
-### 時刻を記録
+### 時間の記録
 
-個々の作業項目に対して行った作業時間を追跡します。 一般的な時間タイプ（例： ）を選択できます。 [!UICONTROL タスク時間]または、 [!DNL Workfront] 管理者。
+個々の作業アイテムに費やした時間を追跡します。[!UICONTROL タスク時間]などの一般的な時間タイプを選択することも、[!DNL Workfront] 管理者が設定したプロジェクト固有の時間タイプを選択することもできます。
 
-のログに時刻を記録する方法の詳細 [!UICONTROL ホーム] 領域（「セクション」を参照） [ホーム](../../../timesheets/create-and-manage-timesheets/log-time.md#home) 記事内 [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+[!UICONTROL ホーム]エリアで時間を記録する方法について詳しくは、[時間の記録](../../../timesheets/create-and-manage-timesheets/log-time.md)の記事で[ホーム](../../../timesheets/create-and-manage-timesheets/log-time.md#home)の節を参照してください。
 
 ![](assets/log-time-home-350x181.png)

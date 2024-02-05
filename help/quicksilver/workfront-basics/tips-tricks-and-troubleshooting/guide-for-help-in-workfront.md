@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Workfront] のヘルプを見つけるクイックガ
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
 source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 

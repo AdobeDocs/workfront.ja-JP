@@ -12,7 +12,7 @@ exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. Adobe Workfront内での検証について詳しくは、 [校正](../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。Adobe Workfront 内での検証について詳しくは、[プルーフ](../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-このセクションでは、以下のサブセクションについて説明します。
+このセクションには、次のサブセクションが含まれます。
 
 * [の概要 [!DNL Workfront Proof]：記事インデックス](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-* [での配達確認とファイルの操作 [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
+* [ [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md) で校正とファイルを使用する
 * [[!DNL Workfront Proof] アカウント管理](../workfront-proof/wp-acct-admin/wp-account-admin.md)
 * [[!DNL Workfront Proof] 請求設定](../workfront-proof/wp-billingsettings/wp-billing-settings.md)
-* [配達確認の通知とリマインダー](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
-* [E メールアラート](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
-* [でのユーザーと連絡先の管理 [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
+* [プルーフ通知とリマインダー](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
+* [メールアラート](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
+* [ [!DNL Workfront Proof] でのユーザーと連絡先の管理](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
 * [[!DNL Workfront Proof] 技術コーナー](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] 統合](../workfront-proof/wp-integrations/wp-integrations.md)

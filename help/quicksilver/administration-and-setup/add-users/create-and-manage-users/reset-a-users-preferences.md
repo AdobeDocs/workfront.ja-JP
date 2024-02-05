@@ -1,9 +1,9 @@
 ---
-title: ユーザーの環境設定のリセット
+title: ユーザーの環境設定をリセット
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Adobe Workfront管理者は、Workfrontシステム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。 個々のユーザーは、独自のユーザー設定をリセットすることもできます。
+description: Adobe Workfront 管理者は、Workfront システム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。個々のユーザーは、独自のユーザー環境設定をリセットすることもできます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,17 +11,17 @@ exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 2%
+ht-degree: 82%
 
 ---
 
-# ユーザーの環境設定のリセット
+# ユーザーの環境設定をリセット
 
 <!-- Audited: 12/2023 -->
 
-Adobe Workfront管理者は、Workfrontシステム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。
+Adobe Workfront 管理者は、Workfront システム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。
 
-個々のユーザーは、独自のユーザー設定をリセットすることもできます。
+個々のユーザーは、独自のユーザー環境設定をリセットすることもできます。
 
 ## アクセス要件
 
@@ -32,18 +32,18 @@ Adobe Workfront管理者は、Workfrontシステム内の任意のユーザー�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td><p>新規：標準</p>
        <p>または</p>
        <p>現在：プラン</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront管理者である。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ Adobe Workfront管理者は、Workfrontシステム内の任意のユーザー�
  <col> 
  <thead> 
   <tr> 
-   <th><strong>環境設定</strong> </th> 
+   <th><strong>設定</strong> </th> 
    <th><strong>リセット後のステータス</strong> </th> 
   </tr> 
  </thead> 
@@ -77,7 +77,7 @@ Adobe Workfront管理者は、Workfrontシステム内の任意のユーザー�
    <td> <p>システムのデフォルトに戻しました</p> <p>既存のグループは削除されません。 もう一度選択できます。</p> </td> 
   </tr> 
   <tr> 
-   <td>最近使用した項目の一覧</td> 
+   <td>最近使用した項目のリスト</td> 
    <td>クリア済み</td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Adobe Workfront管理者は、Workfrontシステム内の任意のユーザー�
   </tr> 
   <tr> 
    <td>ユーザー定義のカスタムタブ</td> 
-   <td>削除済み</td> 
+   <td>削除されました</td> 
   </tr> 
   <tr> 
    <td>ユーザー定義のグローバルナビゲーションオプション</td> 
@@ -103,20 +103,20 @@ Adobe Workfront管理者は、Workfrontシステム内の任意のユーザー�
 
 {{step-1-to-setup}}
 
-1. 選択 **ログイン名**.
+1. 「**別のユーザーとしてログイン**」を選択します。
 1. 環境設定をリセットするユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
-1. 選択  **ログイン**.
-1. Web ブラウザーの上部にある「 URL 」フィールドで、 `/resetUser` 次より後 `workfront.com`.
+1. 「**ログイン**」を選択します。
+1. Web ブラウザーの上部にある「URL」フィールドで、`workfront.com` の後に `/resetUser` を追加します。
 
    >[!NOTE]
    >
-   >大文字と小文字が区別されます。 U 文字は大文字で、残りの文字は小文字で指定する必要があります。 例：
+   >大文字と小文字が区別されます。U 文字は大文字で、残りの文字は小文字にする必要があります。例：
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. 押す **入力**.
-1. すべてのユーザー環境設定をリセットするには、「 **リセット**.
+1. **Enter** キーを押します。
+1. すべてのユーザー環境設定をリセットするには、「**リセット**」を選択します。
 
    または
 
-   カスタムタブのみをリセットするには、「 **タブをリセット**.
+   カスタムタブのみをリセットするには、「**タブのリセット**」を選択します。

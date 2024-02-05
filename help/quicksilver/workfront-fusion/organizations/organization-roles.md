@@ -3,71 +3,71 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: の組織の役割 [!DNL Adobe Workfront Fusion]
-description: この記事では、 [!DNL Adobe] Workfront Fusion.
+title: ' [!DNL Adobe Workfront Fusion] の組織の役割'
+description: この記事には、 [!DNL Adobe]  Workfront Fusion の役割のアクセスと権限に関する情報が含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
 source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 1%
+ht-degree: 99%
 
 ---
 
-# の組織とチームの役割 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] における組織とチームの役割
 
-この記事では、 [!DNL Workfront Fusion].
+この記事では、[!DNL Workfront Fusion] で様々なチームおよび組織の役割が利用できるアクセスと機能について説明します。
 
 >[!NOTE]
 >
->組織の役割は、 [!DNL Workfront Fusion]. 組織とチームの役割について詳しくは、 [組織とチーム](../organizations/organizations-and-teams.md).
+>[!DNL Workfront Fusion] では、組織の役割とチームの役割は区別されています。組織とチームの役割について詳しくは、[組織とチーム](../organizations/organizations-and-teams.md)を参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
   </tr> 
    <tr> 
     <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-    <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+    <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
    </tr>
    <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> 
-     <p>次の条件を満たす必要があります。 [!DNL Workfront Fusion] 組織の管理者。</p>
-     <p>次の条件を満たす必要があります。 [!DNL Workfront Fusion] チームの管理者。</p>
+     <p>組織の [!DNL Workfront Fusion] 管理者である必要があります。</p>
+     <p>チームの [!DNL Workfront Fusion] 管理者である必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 組織の役割
 
@@ -80,9 +80,9 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p>[!UICONTROL 所有者 ]</p> </th> 
+   <th> <p>[!UICONTROL Owner]</p> </th> 
    <th> <p>[!UICONTROL Admin]</p> </th> 
-   <th> <p>[!UICONTROL メンバー ]</p> </th> 
+   <th> <p>[!UICONTROL Member]</p> </th> 
    <th> <p>[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
@@ -95,7 +95,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>組織用アプリのインストール</p> </td> 
+   <td> <p>組織用のアプリをインストール</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -109,14 +109,14 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>組織を編集</p> </td> 
+   <td> <p>組織の編集</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>組織のユーザーを管理</p> </td> 
+   <td> <p>組織のユーザーの管理</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span></td> 
    <td> </td> 
@@ -171,21 +171,21 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">不完全な実行を管理</p> </td> 
+   <td> <p style="text-align: left;">未完了のの管理</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">不完全な実行のリスト</p> </td> 
+   <td> <p style="text-align: left;">未完了の実行のリスト</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -206,7 +206,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">シナリオを編集</p> </td> 
+   <td> <p style="text-align: left;">シナリオの編集</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -220,7 +220,7 @@ ht-degree: 1%
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">シナリオ通知を受信</p> </td> 
+   <td> <p style="text-align: left;">シナリオ通知の受信</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -234,21 +234,14 @@ ht-degree: 1%
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">リストのシナリオ</p> </td> 
+   <td> <p style="text-align: left;">シナリオをリストする</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">シナリオスケジューラを編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">シナリオを開始</p> </td> 
+   <td> <p style="text-align: left;">シナリオスケジューラーを編集</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -262,14 +255,21 @@ ht-degree: 1%
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">シナリオの手動実行</p> </td> 
+   <td> <p style="text-align: left;">シナリオを停止</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">シナリオを表示</p> </td> 
+   <td> <p style="text-align: left;">シナリオの手動で実行</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">シナリオの表示</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -290,9 +290,9 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -318,7 +318,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">接続のリスト</p> </td> 
+   <td> <p style="text-align: left;">接続をリスト表示</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -327,7 +327,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-### Webhook
+### Web フック
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,35 +339,35 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">ウェブフックを追加する</p> </td> 
+   <td> <p style="text-align: left;">Web フックを追加</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">ウェブフックを削除する</p> </td> 
+   <td> <p style="text-align: left;">Web フックを削除</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">ウェブフックの編集</p> </td> 
+   <td> <p style="text-align: left;">Web フックを編集</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">Web フックのリスト</p> </td> 
+   <td> <p style="text-align: left;">Web フックをリスト表示</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -388,9 +388,9 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -402,7 +402,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">データストアの削除</p> </td> 
+   <td> <p style="text-align: left;">データストアを削除</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -416,7 +416,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">データストアのリスト</p> </td> 
+   <td> <p style="text-align: left;">データストアをリスト表示</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -444,35 +444,35 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p style="text-align: left;">データ構造の追加</p> </td> 
+   <td> <p style="text-align: left;">データ構造を追加</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">データ構造の削除</p> </td> 
+   <td> <p style="text-align: left;">データ構造を削除</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">データ構造の編集</p> </td> 
+   <td> <p style="text-align: left;">データ構造を編集</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">リストデータ構造</p> </td> 
+   <td> <p style="text-align: left;">データ構造をリスト表示</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -493,9 +493,9 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -507,21 +507,21 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">デバイスの削除</p> </td> 
+   <td> <p style="text-align: left;">デバイスを削除</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">デバイスの編集</p> </td> 
+   <td> <p style="text-align: left;">デバイスを編集</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">デバイスのリスト</p> </td> 
+   <td> <p style="text-align: left;">デバイスをリスト表示</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -542,9 +542,9 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -570,7 +570,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">キーをリスト</p> </td> 
+   <td> <p style="text-align: left;">キーをリスト表示</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
@@ -591,9 +591,9 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -605,21 +605,21 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">テンプレートの削除</p> </td> 
+   <td> <p style="text-align: left;">テンプレートを削除</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">テンプレートの編集</p> </td> 
+   <td> <p style="text-align: left;">テンプレートを編集</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">テンプレートのリスト</p> </td> 
+   <td> <p style="text-align: left;">テンプレートをリスト表示</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
@@ -647,9 +647,9 @@ ht-degree: 1%
   <tr> 
    <th> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL メンバー ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 監視 ]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL 演算子 ]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -668,7 +668,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p style="text-align: left;">チームユーザーの追加と編集</p> </td> 
+   <td> <p style="text-align: left;">チームユーザーを追加および編集</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 

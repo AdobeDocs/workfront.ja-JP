@@ -3,75 +3,75 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: faqs-workfront-proof
-title: Workfront Proof のログインとパスワードおよび電子メールの変更
-description: Workfront Proof 管理者は、ログインページのパーソナライズされたブランディングを設定できます。 「 Workfront Proof サイトのブランド化」を参照してください。 Enterprise または Unlimited のエディションプランを使用している場合は、「 Workfront Proof サイトのブランド化 — 詳細」を参照してください。
+title: Workfront Proof へのログインとパスワードおよびメールアドレスの変更
+description: Workfront Proof 管理者は、パーソナライズしたブランディングをログインページに設定できます。「Workfront Proof サイトのブランディング」を参照してください。Enterprise または Unlimited エディションプランを使用している場合は、「Workfront Proof サイトのブランディング - 詳細」を参照してください。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 0%
+source-wordcount: '560'
+ht-degree: 99%
 
 ---
 
-# Workfront Proof のログインとパスワードおよび電子メールの変更
+# Workfront Proof へのログインとパスワードおよびメールアドレスの変更
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 ## ログイン
 
-1. に移動します。 [ログインページ](https://www.proofhq.com/login) ( または当社のウェブサイト  [www.proofhq.com](https://www.proofhq.com/)) をクリックします。
+1. [ログインページ](https://www.proofhq.com/login)（または当社の web サイト [www.proofhq.com](https://www.proofhq.com/)）に移動します。
 
-1. 次をクリック： [!UICONTROL ログイン] 」ボタンを右上にクリックします。
-1. 電子メールアドレスとパスワードを入力します。\
-   パスワードを忘れた場合は、  [パスワードを忘れた場合](#when-you-forget-your-password) この記事の後半で説明します。
+1. 右上の「[!UICONTROL ログイン]」ボタンをクリックします。
+1. メールアドレスとパスワードを入力します。\
+   パスワードを忘れた場合は、この記事で後ほど取り上げる[パスワードを忘れた場合](#when-you-forget-your-password)の節を参照してください。
 
-1. ログイン状態を維持する場合（無操作状態が 30 分間続いた後、セッションのタイムアウトを回避したい場合）は、 **[!UICONTROL ログイン状態を維持する]**.
-1. クリック **[!UICONTROL ログイン]**.
+1. （非アクティブな状態が 30 分間続いてもセッションがタイムアウトせずに）ログイン状態を維持する場合は、「**[!UICONTROL ログイン状態を維持]**」を選択します。
+1. 「**[!UICONTROL ログイン]**」をクリックします。
 
-The [!DNL Workfront Proof] 管理者は、 [!UICONTROL ログイン] ページに貼り付けます。 詳しくは、 [ブランド化 [!DNL Workfront Proof] サイト](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). または、 [!UICONTROL 大規模法人] または [!UICONTROL 無制限] エディションプラン、詳しくは、  [ブランド化 [!DNL Workfront Proof] サイト — 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+[!DNL Workfront Proof] 管理者は、パーソナライズしたブランディングを[!UICONTROL ログイン]ページに設定できます。[ [!DNL Workfront Proof] サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。[!UICONTROL Enterprise] または [!UICONTROL Unlimited] エディションプランを使用している場合は、[ [!DNL Workfront Proof] サイトのブランディング - 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。
 
-の場合 [!UICONTROL 大規模法人] および [!UICONTROL 無制限] プランでは、シングルサインオン (SSO) 機能を提供しています。この機能を使用すると、ユーザーはにログインできます。 [!DNL Workfront Proof] 組織のユーザー名とパスワードを使用する。 詳しくは、 [シングルサインオンの設定対象 [!DNL Workfront Proof] ユーザー](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md). を参照してください。
+[!UICONTROL Enterprise] および [!UICONTROL Unlimited] プランでは、シングルサインオン（SSO）機能が提供されます。この機能により、ユーザーは組織のユーザー名とパスワードを使用して [!DNL Workfront Proof] にログインできます。詳しくは、[ [!DNL Workfront Proof] ユーザーへのシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)を参照してください。
 
-## ログアウト中
+## ログアウト
 
-1. クリック **[!UICONTROL ログアウト]** Workfront Proof の右上隅にある\
-   ログアウトしたことを確認するメッセージが表示されます。 次をクリックできます。 **[!UICONTROL ログインページに戻る]** をクリックして、必要に応じて再度ログインします。\
-   The [!DNL Workfront Proof] 管理者は、このメッセージ用にパーソナライズされたブランディングを設定できます。 詳しくは、 [ブランド化 [!DNL Workfront Proof] サイト](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). または、を使用している場合は、 [!UICONTROL 大規模法人] または [!UICONTROL 無制限] エディションプラン、詳しくは、  [ブランド化 [!DNL Workfront Proof] サイト — 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+1. Workfront Proof の右上隅にある「**[!UICONTROL ログアウト]**」をクリックします。\
+   ログアウトしたことを確認するメッセージが表示されます。必要に応じて、「**[!UICONTROL ログインページに戻る]**」をクリックして再度ログインできます。\
+   [!DNL Workfront Proof] 管理者は、パーソナライズしたブランディングをこのメッセージに設定できます。[ [!DNL Workfront Proof] サイトのブランディング](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。[!UICONTROL Enterprise] または [!UICONTROL Unlimited] エディションプランを使用している場合は、[ [!DNL Workfront Proof] サイトのブランディング - 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。
 
 ## パスワードを忘れた場合 {#when-you-forget-your-password}
 
-パスワードを忘れた場合、 [!DNL Workfront Proof] 電子メールには、リセットした電子メールメッセージが送信されます。
+パスワードを忘れた場合は、[!DNL Workfront Proof] からリセット用のメールメッセージを受け取ることができます。
 
-1. に移動します。 [ログインページ](https://www.proofhq.com/login) ( または当社のウェブサイト  [www.proofhq.com](https://www.proofhq.com/)) をクリックします。
+1. [ログインページ](https://www.proofhq.com/login)（または当社の web サイト [www.proofhq.com](https://www.proofhq.com/)）に移動します。
 
-1. クリック **[!UICONTROL パスワードを忘れた場合]**
-1. 表示されるボックスに電子メールアドレスを入力し、 **[!UICONTROL リンクを取得]**.
+1. 「**[!UICONTROL パスワードをお忘れですか？]**」をクリックします。
+1. 表示されるボックスにメールアドレスを入力し、「**[!UICONTROL リンクを取得]**」をクリックします。
 
-## パスワードの変更
+## パスワードを変更
 
-1. 次の日： [!UICONTROL ダッシュボード]をクリックし、 **[!UICONTROL パスワードを変更]**.\
-   ![Change_password.png](assets/change-passowrd-350x95.png)\
-   次の場合、 [!DNL Workfront Proof] 管理者が特定のパスワード要件を設定した場合は、これらの要件が [!UICONTROL リセット] ページに貼り付けます。
+1. [!UICONTROL ダッシュボード]で、「**[!UICONTROL パスワードの変更]**」をクリックします。\
+   ![Change_passowrd.png](assets/change-passowrd-350x95.png)\
+   [!DNL Workfront Proof] 管理者が特定のパスワード要件を設定してある場合は、これらの要件が[!UICONTROL リセット]ページの上部にリストされます。
 
 ## パスワードの詳細設定について
 
-次を使用する場合、 [!UICONTROL 選択] または [!UICONTROL Premium] プラン、 [!DNL Workfront Proof] 管理者は、組織の IT およびセキュリティポリシーに準拠し、データのセキュリティを強化するために、特定のパスワード要件を設定できます。 詳しくは、この記事の「パスワードの詳細設定」を参照してください。
+[!UICONTROL Select] または [!UICONTROL Premium] プランを使用している場合、[!DNL Workfront Proof] 管理者は、組織の IT およびセキュリティポリシーに準拠し、データのセキュリティを強化するために特定のパスワード要件を設定できます。詳しくは、別の記事の「パスワードの詳細設定」を参照してください。
 
-## アカウントへの電子メールアドレスの追加
+## アカウントにメールアドレスを追加
 
-複数の電子メールアドレスを [!DNL Workfront Proof] アカウント。 主なメールアドレスは、 [!DNL Workfront Proof] 配達確認通知を送信します。 また、このツールを使用して、にログインします。 [!DNL Workfront Proof]. プライマリメールアドレスを変更できます。
+[!DNL Workfront Proof] アカウントには複数のメールアドレスを追加できます。プライマリメールアドレスには、[!DNL Workfront Proof] からプルーフ通知が届きます。このメールアドレスは、[!DNL Workfront Proof] へのログインにも使用します。プライマリメールアドレスは変更できます。
 
-1. クリック **[!UICONTROL 設定]** > **[!UICONTROL 個人設定]**.
+1. **[!UICONTROL 設定]**／**[!UICONTROL 個人用設定]**&#x200B;をクリックします。
 
-1. の下 **[!UICONTROL ユーザー E メールのエイリアス]**&#x200B;をクリックし、 **[!UICONTROL 新しい電子メールアドレス]**.
+1. **[!UICONTROL ユーザーのメールエイリアス]**&#x200B;で、「**[!UICONTROL 新規メールアドレス]**」をクリックします。
 
-1. Adobe Analytics の **[!UICONTROL E メールのエイリアス]** 表示されるボックスに、追加する電子メールアドレスを入力し、 **[!UICONTROL 入力]**.\
-   [!DNL Workfront Proof] 新しい電子メールアドレスに検証電子メールを送信します。
+1. 表示される「**[!UICONTROL メールエイリアス]**」ボックスに、追加するメールアドレスを入力し、**[!UICONTROL Enter]** キーを押します。\
+   [!DNL Workfront Proof] から新しいメールアドレスに検証メールが届きます。
 
-1. 受け取った検証 E メールで、確認リンクをクリックします。\
-   電子メールの変更は、プロファイルに保存されます。 表示中のブラウザーを更新する必要が生じる場合があります [!DNL Workfront Proof] [!UICONTROL 個人設定] ページのページを開き、エイリアス E メールとして確認されていることを確認します。
-1. （オプション）新しい電子メールアドレスをにプライマリ電子メールアドレスとして設定するには [!DNL Workfront Proof]をクリックし、 [!UICONTROL その他] （3 ドット）ボタンをクリックし、 **[!UICONTROL プライマリメールを作成]** をクリックします。
+1. 受け取った検証メールで、確認リンクをクリックします。\
+   メールの変更は、プロファイルに保存されます。[!DNL Workfront Proof] [!UICONTROL 個人設定]ページがエイリアスメールとして確定されていることを確認するには、表示中のブラウザーを更新する必要が生じる場合があります。
+1. （オプション）新しいメールアドレスを [!DNL Workfront Proof] にプライマリメールアドレスとして設定するには、アドレスの一番右端にある「[!UICONTROL その他]」（3 ドット）ボタンをクリックし、表示されたメニューから「**[!UICONTROL プライマリメールにする]**」をクリックします。

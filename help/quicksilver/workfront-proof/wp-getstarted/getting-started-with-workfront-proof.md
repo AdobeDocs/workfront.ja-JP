@@ -12,7 +12,7 @@ exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
 source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 0%
+ht-degree: 64%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-このセクションでは、以下のサブセクションについて説明します。
+このセクションには、次のサブセクションが含まれます。
 
 * [ワークフローの例](../../workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
-* [の個人設定 [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
-* [のシステム情報 [!DNL Workfront Proof]](../../workfront-proof/wp-getstarted/system-information/system-information.md)
-* [[!DNL Workfront Proof]  — よくある質問](../../workfront-proof/wp-getstarted/faqs/faqs.md)
+* [ [!DNL Workfront Proof] の個人設定](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+* [ [!DNL Workfront Proof] のシステム情報](../../workfront-proof/wp-getstarted/system-information/system-information.md)
+* [[!DNL Workfront Proof] - よくある質問](../../workfront-proof/wp-getstarted/faqs/faqs.md)

@@ -11,8 +11,8 @@ role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 1%
+source-wordcount: '171'
+ht-degree: 96%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 1%
 
 * [API を使用したファイルのアップロード](../../wf-api/api/uploading-files-api.md)
 * [JSONP のサポートの終了](../../wf-api/api/ending-support-jsonp.md)
-* [イベント購読メッセージのフィルタリング](../../wf-api/api/filter-event-sub-messages.md)
-* [イベント購読の再試行](../../wf-api/api/event-sub-retries.md)
-* [イベント購読証明書](../../wf-api/api/event-sub-certs.md)
+* [イベント登録メッセージのフィルタリング](../../wf-api/api/filter-event-sub-messages.md)
+* [イベント登録の再試行](../../wf-api/api/event-sub-retries.md)
+* [イベント登録証明書](../../wf-api/api/event-sub-certs.md)
 * [統合での API バージョンの指定](../../wf-api/api/specify-api-version-integrations.md)
 
 * [コア API の変更：ステータス検索応答](../../wf-api/api/api-changes-search.md)
@@ -32,9 +32,9 @@ ht-degree: 1%
 * [API-Internal の廃止](../../wf-api/api/deprecation-api-internal.md)
 * [API 応答のエスケープ文字](../../wf-api/api/escaped-characters-api.md)
 * [API のバージョン管理とサポートのスケジュール](../../wf-api/api/api-version-support-schedule.md)
-* [認証コードフローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](../../wf-api/api/oauth-app-code-token-flow.md)
-* [JWT フローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](../../wf-api/api/oauth-app-jwt-flow.md)
-* [PKCE フローを使用して、組織のカスタム OAuth 2 アプリケーションを設定および使用する](../../wf-api/api/oauth-app-pkce-flow.md)
+* [認証コードフローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-code-token-flow.md)
+* [JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定と使用](../../wf-api/api/oauth-app-jwt-flow.md)
+* [PKCE フローを使用した、組織のカスタム OAuth 2 アプリケーションの設定と使用](../../wf-api/api/oauth-app-pkce-flow.md)
 * [API バージョン 17 の新機能](../../wf-api/api/new-api-version-17.md)
 * [API バージョン 16 の新機能](../../wf-api/api/new-api-version-16.md)
 * [API バージョン 15 の新機能](../../wf-api/api/new-api-version-15.md)

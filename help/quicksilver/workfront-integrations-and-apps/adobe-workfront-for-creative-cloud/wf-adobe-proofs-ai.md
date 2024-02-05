@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Illustratorから配達確認をアップロード
-description: アートボードをドキュメントとしてアップロードして、すばやいレビューや承認を得たり、Adobe Workfrontに保存するだけで済みます。
+title: Illustrator からのプルーフのアップロード
+description: アートボードをドキュメントとしてアップロードすると、すばやくレビューや承認を行ったり、単に Adobe Workfront に保存したりすることができます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
 source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 0%
+source-wordcount: '654'
+ht-degree: 98%
 
 ---
 
-# 配達確認のアップロード元 [!DNL Illustrator]
+# [!DNL Illustrator] からプルーフをアップロード
 
-アートボードを配達確認としてに直接アップロードできます。 [!DNL Adobe Workfront] 徹底的なレビューと承認を行う
+アートボードをプルーフとして [!DNL Adobe Workfront] に直接アップロードすると、徹底的なレビューと承認を行うことができます。
 
 ## アクセス要件
 
@@ -26,112 +26,112 @@ ht-degree: 0%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td> 
-   <td> <p>現在のプラン： [!UICONTROL Pro] 以降</p> <p>または</p> <p>レガシープラン：[!UICONTROL Premium]</p> <p>様々なプランでのアクセス権の校正について詳しくは、を参照してください。</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td> <p>現在のプラン：[!UICONTROL Pro] 以上</p> <p>または</p> <p>従来のプラン：[!UICONTROL Premium]</p> <p>様々なプランでのプルーフのアクセス権について詳しくは、以下を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>現在のプラン： [!UICONTROL Work] または [!UICONTROL Proof]</p> <p>レガシープラン：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td> <p>現在のプラン：[!UICONTROL Work] または [!UICONTROL Proof]</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
+   <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
-   <td>[!UICONTROL Manager] 以降</td> 
+   <td>[!UICONTROL Manager] 以上</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>[!UICONTROL ドキュメント ] へのアクセスの編集</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>[!UICONTROL Documents]の編集権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、役割、または配達確認権限プロファイルを確認するには、 [!DNL Workfront] または [!DNL Workfront Proof] 管理者。
+&#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、[!DNL Workfront] または [!DNL Workfront Proof] の管理者にお問い合わせください。
 
 ## 前提条件
 
 * をインストールする必要があります [!DNL Adobe Workfront for design and video] 次の場所から配達確認をアップロードする前に： [!DNL Illustrator].
 
-  手順については、 [インストール [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  手順については、[インストール [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)を参照してください。
 
-## 基本配達確認のアップロード
+## 基本プルーフをアップロード
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 配達確認をアップロードする作業項目に移動します。
-1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
-1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にあります。
-1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
-1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス。
-1. Adobe Analytics の **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 基本]**.
+1. プルーフをアップロードする作業アイテムに移動します。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
+1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
+1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
+1. （オプション）**[!UICONTROL プルーフ名]**&#x200B;テキストボックスにプルーフ名を入力します。
+1. 「**[!UICONTROL プルーフの承認]**」セクションで、「**[!UICONTROL 基本]**」を選択します。
 1. （オプション）承認者を追加します。
-1. （オプション） **[!UICONTROL 更新]** 領域。
+1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
    ![](assets/add-comment.png)
 
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
+1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 
-1. （オプション）「 」を選択します。 **[!UICONTROL 外部ファイルを追加]** をクリックして、コンピューターからファイルを追加します。
-1. クリック **[!UICONTROL アップロード]**&#x200B;を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
+1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
 
    ![](assets/plugin-files-350x307.png)\
-   ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+   ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
 
 
-## 自動配達確認のアップロード
+## 自動プルーフをアップロード
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 配達確認をアップロードする作業項目に移動します。
-1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png) をクリックします。
+1. プルーフをアップロードする作業アイテムに移動します。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
-1. クリック **[!UICONTROL 新規ファイル]** プラグインの下部付近にあります。
-1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
-1. （オプション）配達確認の名前を **[!UICONTROL 配達確認名]** テキストボックス。
-1. Adobe Analytics の **[!UICONTROL 配達確認の承認]** セクション、選択 **[!UICONTROL 自動]**.
-1. （オプション） **[!UICONTROL ワークフローテンプレート]** 「 」ボックスに、配達確認ワークフローテンプレートの名前を入力します。
+1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
+1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
+1. （オプション）「**[!UICONTROL プルーフ名]**」テキストボックスにプルーフ名を入力します。
+1. 「**[!UICONTROL プルーフの承認]**」セクションで、「**[!UICONTROL 自動化]**」を選択します。
+1. （オプション）「**[!UICONTROL ワークフローテンプレート]**」ボックスに、プルーフワークフローテンプレートの名前を入力します。
 
 {{adjust-proof-settings}}
 
 >[!NOTE]
 >
-> ワークフローテンプレートに空白の必須フィールドがある場合は、自動配達確認設定が自動的に開き、配達確認をアップロードするには、これらのフィールドに入力する必要があります。
+> ワークフローテンプレートに空白の必須フィールドがある場合は、自動プルーフ設定が自動的に開きます。また、プルーフをアップロードするには、これらのフィールドに値を入力する必要があります。
 
 
-1. （オプション） **[!UICONTROL 更新]** 領域。
+1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
    ![](assets/add-comment-automated-approval.png)
 
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
-1. （オプション）「 」を選択します。 **[!UICONTROL 外部ファイルを追加]** をクリックして、コンピューターからファイルを追加します。
-1. クリック **[!UICONTROL アップロード]**を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
-ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
+1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
+1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
 
-## 新しい配達確認バージョンをアップロード
+## 新しいプルーフのバージョンをアップロード
 
-新しいバージョンの配達確認をアップロードできます。 このプラグインでは以前のバージョンで設定された校正ワークフローが記憶されますが、必要に応じて変更できます。
+新しいバージョンのプルーフをアップロードできます。プラグインは以前のバージョンで設定されたプルーフワークフローを記憶しますが、必要に応じてこれを変更できます。
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. ドキュメントのアップロード先の作業項目に移動します。
-1. 次をクリック： **[!UICONTROL 文書]** アイコン ![](assets/documents.png)をクリックします。
+1. ドキュメントのアップロード先の作業アイテムに移動します。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
-1. クリック **[!UICONTROL 新しいバージョン]** プラグインの下部付近にあります。
-1. を有効にします。 **[!UICONTROL 配達確認の作成]** 切り替え
+1. プラグインの下部近くにある「**[!UICONTROL 新しいバージョン]**」をクリックします。
+1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
 
-1. Adobe Analytics の *[!UICONTROL *配達確認の承認]**セクションで、「 **[!UICONTROL 基本]** または **[!UICONTROL 自動]**.
+1. 「*[!UICONTROL プルーフの承認]*」セクションで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 自動化]**」を選択します。
 
-1. 追加 **[!UICONTROL レビュー担当者]** または **[!UICONTROL ワークフローテンプレート]** 手順 7 で選択した承認タイプに基づいて
+1. 手順 7 で選択した承認タイプに基づいて、「**[!UICONTROL レビュアー]**」または「**[!UICONTROL ワークフローテンプレート]**」を追加します。
 
-1. （オプション） **[!UICONTROL 更新]** 領域。
-1. を選択します。 **[!UICONTROL アセットタイプ]** を選択します。
-1. クリック **[!UICONTROL アップロード]**を選択し、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
-ドキュメントが [!UICONTROL ドキュメント] 領域がプラグインおよびデスクトップアプリケーションに表示される問題を修正しました。
+1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
+1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
+1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
+ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: での配達確認とファイルの操作 [!DNL Workfront Proof]
+title: ' [!DNL Workfront Proof] でのプルーフとファイルの操作'
 description: での配達確認とファイルの操作 [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -12,28 +12,28 @@ exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
-# での配達確認とファイルの操作 [!DNL Workfront Proof]
+# [!DNL Workfront Proof] でのプルーフとファイルの操作
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-このセクションでは、以下のサブセクションについて説明します。
+このセクションには、次のサブセクションが含まれます。
 
-* [の自動ワークフロー [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [の基本機能 [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
-* [配達確認とファイルの作成](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
+* [ [!DNL Workfront Proof] の自動化ワークフロー](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [ [!DNL Workfront Proof] の基本機能](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [プルーフとファイルの作成](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [作業を管理](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
-* [作業を整理する](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
-* [デスクトップ校正ビューアで配達確認を確認する](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+* [作業の整理](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
+* [デスクトッププルーフビューアーでのプルーフのレビュー](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/review-proofs-in-the-lpv.md" class="MCXref xref" xrefformat="{para}">Review proofs in the Legacy Proofing Viewer</a> </li>
   -->
 
-* [Web 校正ビューアで配達確認を確認する](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [[!UICONTROL 配達確認とファイルの共有]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
+* [Web プルーフビューアーでプルーフを確認](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+* [[!UICONTROL プルーフとファイルの共有]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)

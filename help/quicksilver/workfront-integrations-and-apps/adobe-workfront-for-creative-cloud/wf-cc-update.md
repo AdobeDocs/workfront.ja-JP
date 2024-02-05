@@ -1,7 +1,7 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Adobe Photoshopでの作業内容の更新
+title: Adobe Photoshop での作業結果の更新
 description: Adobe Workfrontプラグインを使用して作業内容を更新できます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -9,13 +9,13 @@ exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 2%
+ht-degree: 95%
 
 ---
 
-# を使用して作業内容を更新する [!DNL Adobe Workfront] プラグイン
+# [!DNL Adobe Workfront] プラグインを使用した作業結果の更新
 
-次のいずれかから作業内容を更新できます [!DNL Adobe Creative Cloud] アプリケーション：
+次の [!DNL Adobe Creative Cloud] アプリケーションから作業結果を更新できます。
 
 {{cc-app-list}}
 
@@ -40,24 +40,24 @@ ht-degree: 2%
   </tr> -->
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>次が必要です： [!DNL Adobe Creative Cloud] に加えてライセンス [!DNL Workfront] ライセンス。</td> 
+   <td>[!DNL Workfront] ライセンスに加えて [!DNL Adobe Creative Cloud] ライセンスが必要です。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>[!UICONTROL 表示 ]：更新するオブジェクトへのアクセス権。 </p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>更新するオブジェクトの[!UICONTROL View]アクセス権。 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
 {{cc-install-prereq}}
 
-## 更新を投稿
+## 更新の投稿
 
-プラグインの次の領域のいずれかから、作業内容を更新できます。
+プラグインの次のエリアから作業結果を更新できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,15 +81,15 @@ ht-degree: 2%
 
 更新を投稿するには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL メニュー]** アイコンをクリックし、「 **[!UICONTROL 作業用リスト]**. メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. 次から： **[!UICONTROL 作業用リスト]**「 」で、更新の投稿先の作業項目を選択します。
-1. クリック **[!UICONTROL 更新]** をクリックします。\
+1. **[!UICONTROL 作業リスト]**&#x200B;から、更新の投稿先となる作業アイテムを選択します。
+1. ナビゲーションバーの「**[!UICONTROL 更新]**」をクリックします。\
    ![](assets/photoshop-update-350x295.png)
 
-1. クリック **[!UICONTROL 新しい更新]**.
-1. 更新を入力します。
-1. （オプション）ユーザーにタグを付けるには、@記号とユーザー名を入力し、ドロップダウンメニューから名前を選択します。
-1. クリック **[!UICONTROL 送信]**. 更新は、Adobe Workfront Web アプリケーションとリアルタイムで同期されます。
+1. 「**[!UICONTROL 新しい更新]**」をクリックします。
+1. 更新内容を入力します。
+1. （オプション）ユーザーにタグを付けるには、@ 記号とユーザー名を入力したあと、ドロップダウンメニューからユーザーの名前を選択します。
+1. 「**[!UICONTROL 送信]**」をクリックします。更新内容は、Adobe Workfront web アプリケーションとリアルタイムで同期されます。

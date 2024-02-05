@@ -9,7 +9,7 @@ exl-id: dd849f4e-aa48-4e27-80b7-af321f730708
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 * [プロジェクトに関する FAQ](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
 * [プロジェクトのステータスは、完了から現在には変更されません](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
-* [計算の例 — プロジェクトレベルでの EAC の計算](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
-* [計算の例 — EAC をタスクからのロールアップとして計算](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
+* [計算の例 - プロジェクトレベルで EAC を計算](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
+* [計算の例 - タスクからのロールアップとして EAC を計算](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/tips-tricks-and-troubleshooting/error-message-a-dependency-loop-was-detected.md" class="MCXref xref" xrefformat="{para}">Error Message: A Dependency Loop Was Detected </a> </li>

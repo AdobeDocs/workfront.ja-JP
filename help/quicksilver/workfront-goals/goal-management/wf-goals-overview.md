@@ -2,19 +2,19 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront目標の概要
-description: Workfront目標は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。
+title: Adobe Workfront Goals の概要
+description: Adobe Workfront Goals は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 source-git-commit: 2fd9b380ea3f10195bea9ce3fd76359f97b00505
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
-# Adobe Workfront目標の概要
+# Adobe Workfront Goals の概要
 
 <!-- Audited: 1/2024 -->
 
@@ -42,61 +42,61 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 >[!NOTE]
 >
->この記事で説明する機能を使用するには、以下が必要です。
+>この記事で説明している機能を使用するには、組織に以下が必要です。
 >
 >* 新規：
 >   * Ultimate、または
 >   * Workfrontライセンスに加えて、または Prime を選択し、Adobe目標ライセンスを選択します。
 >* 最新： Workfrontライセンスに加えて、Adobe目標ライセンス
 >
->Workfront Goals ライセンスについて詳しくは、Workfrontのアカウントマネージャーにお問い合わせください。
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 >
->Workfront Goals へのアクセスについて詳しくは、 [Workfront目標の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 
-Workfront目標は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。 本当に重要なことに皆さんの努力を集中させ、進捗を測定し、チームが素晴らしい成果を上げることを可能にします。 貢献が有意義な影響を及ぼすことを知って、人々は最善を尽くすことができます。
+Adobe Workfront Goals は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。真に重要なことに全員の努力を集中させ、進捗を目に見える形にして、チームが素晴らしい成果を達成できるようにすることができます。ユーザーは自分の貢献が有意義な影響を与えていると知っていれば、最高の仕事をすることができます。
 
-Workfront Goals は、主要なWorkfront Work Management プラットフォームのアドオンモジュールです。 これは、Workfrontと連携し、ユーザー、チーム、グループ、プロジェクトなど、多くの設定要素や設定エンティティを共有することを目的としています。
+Workfront Goals は、主要な Workfront 作業管理プラットフォームのアドオンモジュールです。これは、Workfrontと連携し、ユーザー、チーム、グループ、プロジェクトなど、多くの設定要素や設定エンティティを共有することを目的としています。
 
-Workfront目標の使用に関するベストプラクティスについて詳しくは、 [Adobe Workfront目標の概要](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+Workfront Goals の使用に関するベストプラクティスについて詳しくは、[Adobe Workfront Goals の基本を学ぶ](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)を参照してください。
 
 >[!IMPORTANT]
 >
->Workfront目標を使用して管理する戦略目標は、プロジェクトのビジネスケースの一部であるプロジェクトレベルの目標と混同しないでください。 プロジェクトレベルの目標について詳しくは、 [ビジネスケース目標の作成](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+>Workfront Goalsを使用して管理する戦略目標は、プロジェクトのビジネスケースの一部であるプロジェクトレベルの目標と混同しないでください。プロジェクトレベルの目標について詳しくは、[ビジネスケース目標を作成](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)を参照してください。
 
 ## Workfront Goals に含まれる機能
 
-現在、Workfront目標には次の機能が含まれています。
+現在、Workfront Goals には次の機能が含まれています。
 
-* 四半期または年別の目標を作成し、ユーザー、チーム、グループまたは組織に割り当てます。 また、目標タイムラインをカスタマイズすることもできます。
+* 四半期または年別の目標を作成し、ユーザー、チーム、グループ、または組織に割り当てます。また、目標タイムラインをカスタマイズすることもできます。
 
-  目標の作成について詳しくは、 [Adobe Workfront目標での目標の作成](../../workfront-goals/goal-management/create-goals.md).
+  目標の作成について詳しくは、[Adobe Workfront Goals で目標を作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 
-* Workfrontコアプラットフォーム内のユーザー、チーム、グループまたは組織全体の戦略目標を管理します。
+* Workfront コアプラットフォーム内のユーザー、チーム、グループ、または組織全体の戦略目標を管理します。
 * 目標の進捗を示す目標の結果とアクティビティを作成します。
 
-  結果およびアクティビティについて詳しくは、 [Adobe Workfront目標の結果とアクティビティの概要](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
+  結果およびアクティビティについて詳しくは、[Adobe Workfront Goals の結果とアクティビティの概要](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)を参照してください。
 
-* 目標を実際の作業に合わせるために、既存のプロジェクトを目標に関連付けます。 プロジェクトが進むにつれ、目標も同じようになります。
+* 目標を実際の作業に合わせるために、既存のプロジェクトを目標に関連付けます。プロジェクトが進むにつれ、目標も同じようになります。
 
-  プロジェクトと目標の関連付けについて詳しくは、 [Adobe Workfront目標の目標へのプロジェクトの追加](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  プロジェクトを目標に関連付ける方法について詳しくは、[Adobe Workfront Goals の目標にプロジェクトを追加](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
 * 目標、結果、およびアクティビティを更新し、完了に向けて目標を追跡します。
 
-  目標の進行状況の更新について詳しくは、 [Adobe Workfront目標での目標の進行状況の更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  目標の進捗状況の更新について詳しくは、[Adobe Workfront Goals で目標の進捗状況を更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
 
-* 目標を相互に合わせて調整し、組織の戦略を明確に定義し、すべての目標数を算出します。
+* 目標を相互に調整して、組織の戦略を明確に定義し、すべての目標を重要なものにします。
 
-  目標の調整について詳しくは、 [Adobe Workfront目標の目標揃えの概要](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
+  目標の整合については、[Adobe Workfront Goals で目標を整合](../../workfront-goals/goal-alignment/goal-alignment-overview.md)を参照してください。
 
-* 目標の整列フローチャートで、組織の目標階層を確認します。
+* 目標の整合性フローチャートで、組織の目標の階層をレビューします。
 
-  目標の整列グラフの詳細については、 [Adobe Workfront目標の目標の目標揃えセクションに移動します。](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+  「目標の整合性」セクションについて詳しくは、[Adobe Workfront Goals の「目標の整合性」セクションのナビゲーション](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)を参照してください。
 
-* グラフでの目標の進捗状況のトレンドを確認します。
+* グラフでの目標の進捗傾向をレビューします。
 
-  Workfront目標のグラフについて詳しくは、 [グラフを確認してAdobe Workfront目標の目標の進行状況の傾向を理解する](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+  Workfront Goals グラフについて詳しくは、[グラフをレビューして Adobe Workfront Goals の目標の進捗傾向を把握](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)を参照してください。
 
-* 目標に関連付けられたプロジェクトに関する、目標レポートを作成し、プロジェクトレポートに目標情報を表示します。 プロジェクトの目標情報の検索方法については、 [Adobe Workfront目標の目標へのプロジェクトの追加](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+* 目標に関連付けられたプロジェクトに関する、目標レポートを作成し、プロジェクトレポートに目標情報を表示します。プロジェクトの目標情報を見つける方法について詳しくは、[Adobe Workfront Goals の目標にプロジェクトを追加](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
 

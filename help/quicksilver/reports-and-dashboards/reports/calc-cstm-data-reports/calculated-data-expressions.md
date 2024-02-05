@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算データ式の概要
-description: データ式を使用して、Adobe Workfrontで計算済みのカスタムデータフィールドを定義できます。 計算式は、新しいフィールドを生成するステートメント内で、既存のWorkfrontフィールドを結び付けます。
+description: データ式を使用して、Adobe Workfront で計算済みのカスタムデータフィールドを定義できます。計算式は、新しいフィールドを生成するステートメント内で、既存のWorkfrontフィールドを結び付けます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
 source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '2166'
-ht-degree: 0%
+ht-degree: 38%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 データ式を使用して、Adobe Workfrontで計算カスタムフィールドを定義できます。 計算式は、新しいフィールドを生成するステートメント内で、既存のWorkfrontフィールドを結び付けます。
 
-計算データ式は、次の場所で使用できます。
+計算済みデータ式は、次の場所で使用できます。
 
 * カスタムフォームの計算済みカスタムフィールド
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 
 * テキストモードを使用する場合の、レポートまたはリスト内の計算済みカスタム列
 
-  レポートおよびビューでのテキストモードの使用について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  レポートおよびビューでのテキストモードの使用について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
-## 計算カスタムフィールドと計算カスタム列の構文
+## 計算済みカスタムフィールドと計算済みカスタム列の構文の比較
 
 使用する関数は同じですが、計算カスタムフィールドで式を作成するときの構文は、計算カスタム列を作成するときの構文とは異なる場合があります。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    <td>フィールド名を <p><code>valuefield </code></p>行。 <p>フィールド名を <p><code>valueexpression</code></p> 行。</p> </td> 
   </tr> 
   <tr> 
-   <td>フィールドをピリオドで区切ります</td> 
+   <td>フィールドはピリオドで区切ります。</td> 
    <td> <p>フィールドを <p><code>valuefield </code></p>行</p> <p>フィールドをピリオドで区切ります ( <p><code>valueexpression </code></p>行。 </p> </td> 
   </tr> 
  </tbody> 
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 例：
 
-* カスタムフィールドのタスクのカスタムフォームでは、次の情報を使用して、カスタムフォームが添付されているタスクの親プロジェクトの名前を生成します。
+* タスクのカスタムフォームのカスタムフィールドでは、以下を使用して、カスタムフォームが添付されているタスクの親プロジェクトの名前を生成します。
 
 
   ` {project}.{name}`
 
 
-* レポートのカスタム列では、次の手順を使用して、タスクレポートにプロジェクト名のカスタム列を追加します。
+* レポートのカスタム列では、以下を使用して、タスクレポートにプロジェクト名のカスタム列を追加します。
 
 
   `valuefield=project:name`
@@ -75,17 +75,17 @@ ht-degree: 0%
 
   >[!TIP]
   >
-  >同じ構文は、計算式が使用されるすべてのテキストモードレポート要素（ビュー、フィルタ、グループ化、プロンプト）に適用されます。
+  >同じ構文が、計算済みの式が使用されるすべてのテキストモードレポート要素（ビュー、フィルター、グループ化、プロンプト）に適用されます。
 
-計算カスタム列で使用する必要がある構文について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+計算済みカスタム列で使用する必要がある構文について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
 ## 使用できるデータ式
 
-以下のリストは、Workfrontで 3 種類の計算カスタムフィールドのいずれかを作成する際に使用できる式を定義します。
+以下のリストは、Workfront で 3 種類の計算済みカスタムフィールドのいずれかを作成する際に使用できる式を定義します。
 
 * [日付と時刻の計算されたカスタムフィールド](#date-time-calculated-custom-fields)
-* [数学計算カスタムフィールド](#mathematical-calculated-custom-fields)
-* [テキスト計算カスタムフィールド](#text-calculated-custom-fields)
+* [数学的な計算済みカスタムフィールド](#mathematical-calculated-custom-fields)
+* [テキスト計算済みカスタムフィールド](#text-calculated-custom-fields)
 
 以下に示す式を使用して、計算済みカスタム列を作成できます。 ただし、計算カスタム列の正しい構文を使用する必要があります。詳しくは、「 」の節を参照してください。  [計算カスタムフィールドと計算カスタム列の構文](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) 」を参照してください。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->時間部分を含まない日付と時間の計算を作成した場合、または$$TODAY や$$NOW の日付ワイルドカードを使用する場合、ローカルタイムゾーンではなく協定世界時 (UTC) ゾーンに従って日付が使用されます。 これは予期しない日付の結果を引き起こす可能性があります。
+>時間部分を含まない日付と時間の計算を作成した場合または $$TODAY や $$NOW の日付ワイルドカードを使用する場合、ローカルタイムゾーンではなく協定世界時（UTC）ゾーンに従って日付が使用されます。これは予期しない日付の結果を引き起こす可能性があります。
 
 次の式を使用して、日付または時間計算のカスタムフィールドを作成できます。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 <p><code>ADDDAYS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDWEEKDAYS</strong> </td> 
+   <td><strong>平日の追加</strong> </td> 
    <td> <p>日付に平日数を追加します。 この式は、整数値を切り捨てて日付に加算します。 </p> <p>式の形式は次のとおりです。</p>
 
 <p><code>ADDWEEKDAYS(date, number)</code></p> </td> 
@@ -138,7 +138,7 @@ ht-degree: 0%
 <p><code>CLEARTIME({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>日付</strong> </td> 
+   <td><strong>DATE</strong> </td> 
    <td> <p>文字列を日付に変換し、次の形式にします。</p>
 
 <p><code>DATE(string)</code></p> </td> 
@@ -151,13 +151,13 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><strong>DAYOFMONTH</strong> </td> 
-   <td> <p>日付の月の日を 1 ～ 31 の数値で返します。</p> <p>式の形式は次のとおりです。 この例では、日付は作業オブジェクトの入力日です。</p>
+   <td> <p>日付の月の日を 1 ～ 31 の数値で返します。</p> <p>式の形式は次のとおりです。この例では、日付は作業オブジェクトの入力日です。</p>
 
 <p><code>DAYOFMONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>DAYOFWEEK</strong> </td> 
-   <td> <p>日付の曜日を 1（日曜日）から 7（土曜日）の間の数値で返します。</p> <p>式の形式は次のとおりです。 この例では、日付は作業オブジェクトの入力日です。</p>
+   <td> <p>日付の曜日を 1（日曜日）から 7（土曜日）の間の数値で返します。</p> <p>式の形式は次のとおりです。この例では、日付は作業オブジェクトの入力日です。</p>
 
 <p><code>DAYOFWEEK({entryDate})</code></p> </td> 
   </tr> 
@@ -192,25 +192,25 @@ ht-degree: 0%
 <p><code>DMIN(date1, date2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>時間</strong> </td> 
-   <td> <p>日付の時間を 0 ～ 23 の数値で返します。</p> <p>式の形式は次のとおりです。 この例では、日付は作業オブジェクトの入力日です。</p>
+   <td><strong>HOUR</strong> </td> 
+   <td> <p>日付の時間を 0 ～ 23 の数値で返します。</p> <p>式の形式は次のとおりです。この例では、日付は作業オブジェクトの入力日です。</p>
 
 <p><code>HOUR({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>分</strong> </td> 
+   <td><strong>MINUTE</strong> </td> 
    <td> <p>日付の分を、0 ～ 60 の数値（次の形式）で返します。 この例では、日付は作業オブジェクトの入力日です。</p>
 
 <p><code>MINUTE({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>月</strong> </td> 
+   <td><strong>MONTH</strong> </td> 
    <td> <p>日付の月を 1 ～ 12 の数値で、次の形式で返します。 この例では、日付は作業オブジェクトの入力日です。</p>
 
 <p><code>MONTH({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>2 番目</strong> </td> 
+   <td><strong>SECOND</strong> </td> 
    <td> <p>日付の 2 番目の値を、0 ～ 60 の数値で、次の形式で返します。 この例では、日付は作業オブジェクトの入力日です。</p>
 
 <p><code>SECOND({entryDate})</code></p> </td> 
@@ -228,7 +228,7 @@ ht-degree: 0%
 <p><code>WORKMINUTESDIFF(date1, date2)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>年</strong> </td> 
+   <td><strong>YEAR</strong> </td> 
    <td> <p>日付の年を 4 桁の数値で返します（次の形式）。 この例では、日付は作業オブジェクトの入力日です。</p>
 
 <p><code>YEAR({entryDate})</code></p> </td> 
@@ -257,7 +257,7 @@ ht-degree: 0%
 <p><code>ABS({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>平均</strong> </td> 
+   <td><strong>AVERAGE</strong> </td> 
    <td>数の平均を返します。形式は次のとおりです。
 
 <p><code>AVERAGE(number1, number2, ...)</code></p></td> 
@@ -287,13 +287,13 @@ ht-degree: 0%
 <p><code>LN({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>ログ</strong> </td> 
+   <td><strong>LOG</strong> </td> 
    <td>底数 1 に対する数値 2 の対数値を返します。次のような形式になります。
 
 <p><code>LOG(number1, number2)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>MAX</strong> </td> 
+   <td><strong>最大</strong> </td> 
    <td>リスト内の最大の項目を返し、次のように書式設定されます。
 
 <p><code>MAX(item1, item2, ...)</code></p></td> 
@@ -305,7 +305,7 @@ ht-degree: 0%
 <p><code>MIN(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>数値</strong> </td> 
+   <td><strong>NUMBER</strong> </td> 
    <td>文字列を数値に変換し、次の形式に設定します。<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
@@ -321,7 +321,7 @@ ht-degree: 0%
 <p><code>PROD(number1, number2, ....)</code></p>
    <p><b>メモ</b></p>
 
-<p>時間を含むフィールドに乗算する場合は、選択したフィールドの時間を分単位、時間単位、秒単位で保存するかどうかを確認してください。 時間が分または秒単位で保存され、Workfrontインターフェイスに時間単位で表示される場合、この計算を使用して式を書き込む際に、分または秒から時間への変換を考慮する必要が生じる場合があります。 </p>
+<p>時間を含むフィールドに乗算する場合は、選択したフィールドの時間を分単位、時間単位、秒単位で保存するかどうかを確認してください。 時間が分または秒単位で保存され、Workfront インターフェイスに時間単位で表示される場合、この計算を使用して式を書き込む際に、分または秒から時間への変換を考慮する必要が生じる場合があります。 </p>
    </td> 
   </tr> 
   <tr> 
@@ -355,7 +355,7 @@ ht-degree: 0%
 <p><code>SUB(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>SUM</strong> </td> 
+   <td><strong>合計</strong> </td> 
    <td>すべての数値を追加します。形式は次のとおりです。
 
 <p><code>SUM(number1, number2, ...)</code></p></td> 
@@ -363,7 +363,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-### テキスト計算カスタムフィールド {#text-calculated-custom-fields}
+### テキスト計算済みカスタムフィールド {#text-calculated-custom-fields}
 
 次の式を使用してテキスト形式の値を表示する計算済みカスタムフィールドを作成できます。
 
@@ -384,7 +384,7 @@ ht-degree: 0%
    <p>式の形式は次のとおりです。</p>
    <p><code>CASE(indexNumber, value1, value2, ...)</code></p>
 
-<p>例えば、次の式は、集計列で曜日の名前を返します。ここで、1=日曜日、2=月曜日などです。</p>
+<p>例えば、次の式は、集計列に曜日の名前を返します。ここで、1=日曜日、2=月曜日などです。</p>
 
 <p><code>CASE(DAYOFWEEK({entryDate}),"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")</code></p>
 
@@ -392,17 +392,17 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td><strong>CONCAT</strong> </td> 
-   <td> <p>文字列を連結し、次の形式で記述します。</p><p><code>CONCAT(string1,"separator", string2)</code></p> <p>次に、含めることができる区切り文字の例を示します。</p> 
+   <td> <p>文字列を連結し、次の形式で記述します。</p><p><code>CONCAT(string1,"separator", string2)</code></p> <p>使用できる区切り文字の例を示します。</p> 
     <ul> 
-     <li>スペース： " "</li> 
-     <li>a ダッシュ："-"</li> 
+     <li>スペース：「 」</li> 
+     <li>ダッシュ：「-」</li> 
      <li>スラッシュ：「/」</li> 
-     <li>コンマ：","</li> 
+     <li>コンマ：「,」</li> 
      <li>単語：「or」、「and」</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>次を含む</strong> </td> 
+   <td><strong>CONTAINS</strong> </td> 
    <td>findText 文字列が withinText 文字列内で見つかり、次の形式である場合、true を返します。
 
 <p><code>CONTAINS(findText, withinText)</code></p></td> 
@@ -421,11 +421,11 @@ ht-degree: 0%
 
 <p><code>IF(condition, trueExpression, falseExpression)</code></p>
 
-<p>例えば、2 つの異なる日付フィールドの後に True/False の結果が続くデータ文字列を比較できます。</p>
+<p>例えば、2 つの異なる日付フィールドを比較し、True/False の結果をデータ文字列として出力することができます。</p>
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","On Track")</code></p>
 
-<p>毎日の音声で、この文は、「オブジェクトの予想完了日が、同じオブジェクトの計画完了日より大きい場合、このフィールドに「未追跡」と表示し、それ以外の場合は「追跡中」と表示します。</p>
+<p>分かりやすく言えば、こステートメントは、「オブジェクトの見込み完了日が、予定完了日より大きい場合、このフィールドに「遅延」と表示し、それ以外の場合は「順調」と表示します。</p>
 
 <p>true または false の式にラベルを付けたくない場合は、ステートメントに次のような空白のラベルを挿入する必要があります。</p>
 
@@ -434,7 +434,7 @@ ht-degree: 0%
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>「IF」文の作成について詳しくは、 <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">「IF」文の概要</a>.</p> </td> 
+<p>「IF」ステートメントの作成について詳しくは、 <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">「IF」ステートメントの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -443,9 +443,9 @@ ht-degree: 0%
 
 <p><code>IFIN(value, value1, value2,..., trueExpression, falseExpression)</code></p>
 
-<p>例えば、特定のプロジェクト所有者を検索し、プロジェクトビューで指定したタグを使用して、これらのプロジェクトにマークを付けることができます。 <br><p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","Other Teams")
+<p>例えば、特定のプロジェクト所有者を検索し、プロジェクトビューで指定したタグを使用して、該当するプロジェクトにマークを付けることができます。 <br><p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","Marketing Team","Other Teams")
    </code></p>
-    <p> 毎日のスピーチで、この文は「プロジェクト所有者が Jennifer Campbell または Rick Kuvec の場合、このプロジェクトを「マーケティングチーム」でマークし、それ以外の場合は「他のチーム」でマークします。」という意味です。</p> 
+    <p> 分かりやすく言えば、この文は「プロジェクト所有者が Jennifer Campbell または Rick Kuvec の場合、このプロジェクトを「マーケティングチーム」でマークし、それ以外の場合は「他のチーム」でマークします」という意味です。</p> 
     <p> true または false の式にラベルを付けたくない場合は、ステートメントに次のような空白のラベルを挿入する必要があります。 </p> 
     <p><code>IFIN({owner}.{name},"Jennifer Campbell","Rick Kuvec","","Other Teams")</code></p> 
     <p>または </p> 
@@ -464,7 +464,7 @@ ht-degree: 0%
 </p><p><code>ISBLANK(value)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>左</strong> </td> 
+   <td><strong>LEFT</strong> </td> 
    <td> <p>文字列の左側から指定された数の文字を返します。次のように書式設定されます。</p>
 
 <p><code>LEFT(string, length)</code></p> </td> 
@@ -482,25 +482,25 @@ ht-degree: 0%
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>置換</strong> </td> 
+   <td><strong>REPLACE</strong> </td> 
    <td> <p>string1 内での文字列 2 のすべての箇所を string3 に置き換えます。</p> <p>式の形式は次のとおりです。</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>右</strong> </td> 
+   <td><strong>RIGHT</strong> </td> 
    <td> <p>文字列の右側から指定された数の文字を返します。次のように書式設定されます。</p>
 
 <p><code>RIGHT(string, length)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>検索</strong> </td> 
+   <td><strong>SEARCH</strong> </td> 
    <td> <p>Text 内の文字列で、指定された開始位置から始まる findText の最初の値のインデックスを返します。テキストが見つからない場合は、-1 を返します。</p> <p>式の形式は次のとおりです。</p>
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>文字列</strong> </td> 
+   <td><strong>STRING</strong> </td> 
    <td> <p>数値を文字列に変換し、次の形式にします。</p>
 
 <p><code>STRING(number)</code></p> </td> 
@@ -524,7 +524,7 @@ ht-degree: 0%
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>トリミング</strong> </td> 
+   <td><strong>TRIM</strong> </td> 
    <td> <p>文字列の先頭と末尾から空白を削除し、次のように書式設定します。</p>
 
 <p><code>TRIM(string)</code></p> </td> 

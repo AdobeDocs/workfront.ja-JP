@@ -4,24 +4,24 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: データストアモジュール
-description: An [!DNL Adobe Workfront Fusion] データストアは、データベースやシンプルなテーブルと同様に、シナリオからのデータを格納し、個々のシナリオまたはシナリオの実行間でデータを転送できます。 データストアを使用すると、同期中に様々なシステムから新しいデータを保存できます。
+description: データベースやシンプルなテーブルと同様に、 [!DNL Adobe Workfront Fusion]  データストアではシナリオのデータを保存して、個々のシナリオやシナリオ実行の間でデータを転送することができます。データストアを使用すると、同期中に様々なシステムから新しいデータを保存できます。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
-# [!UICONTROL データストア] モジュール
+# [!UICONTROL データストア]モジュール
 
-An [!DNL Adobe Workfront Fusion] データストアは、データベースやシンプルなテーブルと同様に、シナリオからのデータを格納し、個々のシナリオまたはシナリオの実行間でデータを転送できます。 データストアを使用すると、同期中に様々なシステムから新しいデータを保存できます。
+データベースやシンプルなテーブルと同様に、[!DNL Adobe Workfront Fusion] データストアではシナリオのデータを保存して、個々のシナリオやシナリオ実行の間でデータを転送することができます。データストアを使用すると、同期中に様々なシステムから新しいデータを保存できます。
 
-データストアモジュールを使用して、 [!DNL Adobe Workfront Fusion] データストア。
+データストアモジュールを使用すると、[!DNL Adobe Workfront Fusion] データストアでレコードの追加、置換、更新、取得、削除、検索、カウントを行えるようになります。
 
-データストアの作成、編集、トラブルシューティングについて詳しくは、 [のデータストア [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+データストアの作成、編集、トラブルシューティングについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md) のデータストアを参照してください。
 
 Workfront Fusion のデータストアに関するビデオの紹介については、以下を参照してください。
 
@@ -29,79 +29,79 @@ Workfront Fusion のデータストアに関するビデオの紹介について
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [!UICONTROL] の [!UICONTROL] [!DNL Workfront Fusion] 自動化 (WA)</p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
-次を使用するには： [!UICONTROL データストア] モジュールの場合、最初にデータストアを作成する必要があります。
+[!UICONTROL データストア]を使用するには、まずデータストアを作成する必要があります。
 
-データストアの作成について詳しくは、 [のデータストア [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+データストアの作成について詳しくは、[[!UICONTROL Adobe Workfront Fusion のデータストア]](../../workfront-fusion/modules/data-stores.md)を参照してください。
 
-## [!UICONTROL データストア] モジュールとそのフィールド
+## [!UICONTROL データストア]モジュールとそのフィールド
 
-データストアモジュールを設定する際、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらに加えて、アプリやサービスでのアクセスレベルなどの要因に応じて、追加のデータストアフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+データストアモジュールを設定する際、[!DNL Workfront Fusion] には以下のフィールドが表示されます。これらのほか、アプリやサービスでのアクセスレベルなどの要因に応じて、追加のデータストアフィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
-すべて [!UICONTROL データストア] モジュールは、アクションタイプのモジュールです。
+すべての[!UICONTROL データストア]モジュールは、アクションタイプのモジュールです。
 
-* [レコードの追加/置換](#addreplace-a-record)
+* [レコードの追加 / 置換](#addreplace-a-record)
 * [レコードの更新](#update-a-record)
-* [レコードの取得](#get-a-record)
-* [レコードの存在の確認](#check-the-existence-of-a-record)
+* [レコードを取得](#get-a-record)
+* [レコードの有無の確認](#check-the-existence-of-a-record)
 * [レコードの削除](#delete-a-record)
-* [すべてのレコードを削除](#delete-all-records)
-* [レコードを検索](#search-records)
-* [レコードをカウント](#count-records)
+* [すべてのレコードの削除](#delete-all-records)
+* [レコードの検索](#search-records)
+* [レコードのカウント](#count-records)
 
-### [!UICONTROL レコードの追加/置換]
+### [!UICONTROL レコードを追加 / 置換]
 
 このアクションモジュールは、レコードを追加または置き換えます。
 
 データストアとレコードのキーを指定します。
 
-このモジュールは、レコードと関連するフィールドの ID と、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードの ID および関連するフィールドと共に、接続を介してアクセスされるカスタムフィールドとその値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 >[!NOTE]
 >
->モジュールは、同じ名前と [!UICONTROL 既存のレコードを上書き] オプションは無効です。
+>データストアに同じ名前で既に存在するレコードを追加しようとするとエラーが発生し、「[!UICONTROL 既存のレコードを上書き]」オプションが無効になります。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -110,20 +110,20 @@ Workfront Fusion のデータストアに関するビデオの紹介について
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データストア ]</td> 
+   <td>[!UICONTROL Data store]</td> 
    <td> <p> レコードを作成するデータストアを選択または追加します。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL キー ] </td> 
-   <td> <p>モジュールで追加または置換するレコードの一意のキーを入力します。 このキーは、後でレコードを取得するために使用できます。 このフィールドを空白のままにすると、キーが自動的に生成されます。</p> </td> 
+   <td>[!UICONTROL Key] </td> 
+   <td> <p>モジュールで追加または置換するレコードの一意のキーを入力します。このキーは、後でレコードを取得するために使用できます。このフィールドを空白のままにすると、キーが自動的に生成されます。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 既存のレコードを上書き ] </td> 
-   <td> <p>レコードを上書きするには、このオプションを有効にします。 上書きするレコードは、上の「キー」フィールドで指定する必要があります。</p> </td> 
+   <td>[!UICONTROL Overwrite an existing record] </td> 
+   <td> <p>レコードを上書きする場合は、このオプションを有効にします。上書きするレコードは、上記の「キー」フィールドで指定する必要があります。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL レコード ] </td> 
-   <td> <p>レコードのフィールドに必要な値を入力します。</p> </td> 
+   <td>[!UICONTROL Record] </td> 
+   <td> <p>レコードのフィールドに目的の値を入力します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Workfront Fusion のデータストアに関するビデオの紹介について
 
 データストアとレコードのキーを指定します。
 
-このモジュールは、レコードと関連するフィールドの ID と、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードの ID や関連するフィールドのほか、接続を介してアクセスされるカスタムフィールドおよび値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -143,20 +143,20 @@ Workfront Fusion のデータストアに関するビデオの紹介について
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データストア ]</td> 
+   <td>[!UICONTROL Data store]</td> 
    <td> <p> レコードを作成するデータストアを選択または追加します。 </p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL キー ] </td> 
+   <td>[!UICONTROL Key] </td> 
    <td> <p>モジュールで更新するレコードの一意のキーを入力します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 見つからないレコードを挿入 ] </td> 
-   <td> <p>指定したキーを持つレコードが存在しない場合に新しいレコードを作成するには、このオプションを有効にします。</p> </td> 
+   <td>[!UICONTROL Insert missing record] </td> 
+   <td> <p>このオプションを有効にすると、指定したキーを持つレコードがまだ存在しない場合、新しいレコードが作成されます。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL レコード ]</td> 
-   <td> <p> 更新するレコードのフィールドに、必要な値を入力します。</p> </td> 
+   <td>[!UICONTROL Record]</td> 
+   <td> <p> レコードの更新対象フィールドに、目的の値を入力します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -167,18 +167,18 @@ Workfront Fusion のデータストアに関するビデオの紹介について
 
 データストアとレコードのキーを指定します。
 
-このモジュールは、レコードと関連するフィールドの ID と、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードの ID および関連するフィールドと共に、接続を介してアクセスされるカスタムフィールドとその値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データストア ]</td> 
-   <td> <p> レコードの取得元のデータストアを選択します</p> </td> 
+   <td>[!UICONTROL Data store]</td> 
+   <td> <p> レコードを取得するデータストアを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL キー ] </td> 
+   <td>[!UICONTROL Key] </td> 
    <td> <p>モジュールで取得するレコードの一意のキーを入力します。</p> </td> 
   </tr> 
  </tbody> 
@@ -195,12 +195,12 @@ Workfront Fusion のデータストアに関するビデオの紹介について
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データストア ] </td> 
+   <td>[!UICONTROL Data store] </td> 
    <td> <p>レコードの存在を確認するデータストアを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL キー ] </td> 
-   <td> <p>モジュールが存在するかどうかを確認するレコードの一意のキーを入力します。</p> </td> 
+   <td>[!UICONTROL Key] </td> 
+   <td> <p>存在するかどうかをモジュールで確認するレコードの一意のキーを入力します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -211,18 +211,18 @@ Workfront Fusion のデータストアに関するビデオの紹介について
 
 データストアとレコードのキーを指定します。
 
-このモジュールは、レコードと関連するフィールドの ID と、接続がアクセスするカスタムフィールドおよび値を返します。 この情報は、シナリオの後続のモジュールにマッピングできます。
+このモジュールは、レコードの ID や関連するフィールドのほか、接続を介してアクセスされるカスタムフィールドおよび値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データストア ] </td> 
+   <td>[!UICONTROL Data store] </td> 
    <td> <p>レコードの存在を確認するデータストアを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL キー ] </td> 
+   <td>[!UICONTROL Key] </td> 
    <td> <p>モジュールで削除するレコードの一意のキーを入力します。</p> </td> 
   </tr> 
  </tbody> 
@@ -239,7 +239,7 @@ Workfront Fusion のデータストアに関するビデオの紹介について
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データストア ] </td> 
+   <td>[!UICONTROL Data store] </td> 
    <td> <p>すべてのレコードを削除するデータストアを選択します。</p> </td> 
   </tr> 
  </tbody> 
@@ -249,7 +249,7 @@ Workfront Fusion のデータストアに関するビデオの紹介について
 
 この検索モジュールは、指定した検索クエリに一致する、データストア内のオブジェクト内のレコードを検索します。
 
-この情報は、シナリオの後続のモジュールにマッピングできます。
+この情報は、シナリオ内の後続のモジュールにマッピングできます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -258,23 +258,23 @@ Workfront Fusion のデータストアに関するビデオの紹介について
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データストア ]</td> 
+   <td>[!UICONTROL Data store]</td> 
    <td> <p> 検索するデータストアを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL フィルター ]</p> </td> 
+   <td> <p>[!UICONTROL Filter]</p> </td> 
    <td> <p>検索のフィルターを設定します。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL 並べ替え ]</p> </td> 
-   <td> <p style="font-weight: normal;">並べ替えの基準となる各フィールドに対して、次のフィールドに入力します。</p> <p style="font-weight: bold;">[!UICONTROL キー ]</p> <p>結果の並べ替えに使用する列名を選択します。</p> <p style="font-weight: bold;">[!UICONTROL 順序 ]</p> <p>結果を昇順または降順に並べ替えるかどうかを選択します。</p> </td> 
+   <td> <p>[!UICONTROL Sort]</p> </td> 
+   <td> <p style="font-weight: normal;">並べ替えの基準となる各フィールドに対して、次のフィールドに入力します。</p> <p style="font-weight: bold;">[!UICONTROL Key]</p> <p>結果の並べ替えに使用する列名を選択します。</p> <p style="font-weight: bold;">[!UICONTROL Order]</p> <p>昇順または降順のどちらで結果を並べ替えるかを選択します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 制限 ]</td> 
-   <td> <p> 検索結果の最大数を設定 [!DNL Workfront Fusion] は、1 回の実行サイクルでを返します。</p> </td> 
+   <td>[!UICONTROL Limit]</td> 
+   <td> <p> 1 回の実行サイクル中に、[!DNL Workfront Fusion] が返す検索結果の最大数を設定します。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL モジュールが結果を返さない場合でも、ルートの実行を続行します ]</td> 
+   <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
    <td> <p> 有効にした場合、このモジュールが結果を返さなくても、このモジュールが処理の一部となるルートが処理を続行します。</p> </td> 
   </tr> 
  </tbody> 
@@ -293,7 +293,7 @@ Workfront Fusion のデータストアに関するビデオの紹介について
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL データストア ] </td> 
+   <td>[!UICONTROL Data store] </td> 
    <td> <p>カウントするレコードを含むデータストアを選択します。</p> </td> 
   </tr> 
  </tbody> 

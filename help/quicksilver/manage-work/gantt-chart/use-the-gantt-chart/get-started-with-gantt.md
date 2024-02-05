@@ -1,7 +1,7 @@
 ---
 content-type: overview
 navigation-topic: use-the-gantt-chart
-title: の基本を学ぶ [!UICONTROL ガント] グラフ
+title: '[!UICONTROL ガント]チャートの基本を学ぶ'
 description: Adobe Workfrontのガントチャートは、タスクまたはプロジェクトのリストのタイムラインを視覚的に表します。
 author: Alina
 feature: Work Management
@@ -9,11 +9,11 @@ exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 1%
+ht-degree: 26%
 
 ---
 
-# の基本を学ぶ [!UICONTROL ガントチャート]
+# [!UICONTROL ガントチャート]の基本を学ぶ 
 
 <!-- Audited: 01/2024 -->
 
@@ -24,7 +24,7 @@ In [!DNL Adobe Workfront]、2 つあります [!UICONTROL ガントチャート]
 * **タスクリスト [!UICONTROL ガントチャート]**：タスクとそのタイムラインに関する情報をプロジェクトレベルで表示します。 類似 [!UICONTROL ガントチャート] テンプレートレベルのテンプレートタスクに関する情報を表示します。
 * **プロジェクトリスト [!UICONTROL ガントチャート]**：プロジェクトとそのタイムラインに関する情報を表示します。
 
-見た目と感じ方は似ていますが、それぞれの機能は異なります。
+ルックアンドフィールは似ていますが、それぞれの機能は異なります。
 
 ## ガントチャートに関する考慮事項
 
@@ -34,20 +34,20 @@ In [!DNL Adobe Workfront]、2 つあります [!UICONTROL ガントチャート]
    * テンプレートタスクリスト
    * プロジェクトリスト
 * 次の項目はありません： [!UICONTROL ガントチャート] オプションを使用します。
-* 両方のタスクリストに表示する情報を設定できます [!UICONTROL ガントチャート] およびプロジェクトリスト [!UICONTROL ガントチャート].
-* 色やフォントを設定することはできません。 [!UICONTROL ガントチャート] 情報が表示されます。
+* タスクリストの[!UICONTROL ガントチャート]とプロジェクトリストの[!UICONTROL ガントチャート]の両方に表示する情報を設定できます。
+* [!UICONTROL ガントチャート]情報を表示するカラーやフォントを設定することはできません。
 * タスクから情報を更新すると、両方のタスクリストに自動的に反映されます [!UICONTROL ガントチャート] およびプロジェクトリスト [!UICONTROL ガントチャート].
 * テンプレートタスクで情報を更新すると、テンプレートタスクリストに自動的に反映されます [!UICONTROL ガントチャート].
 
-## 次にアクセス： [!UICONTROL ガントチャート]
+## [!UICONTROL ガントチャート]へのアクセス
 
 The [!UICONTROL ガント] のグラフ [!DNL Workfront]  タスクまたはプロジェクトのリストを視覚的に表現します。
 
 タスクリストを表示できます [!UICONTROL ガントチャート] を、プロジェクトのタスクリストまたはタスクレポートから直接開きます。
 
-プロジェクトリストを表示できます [!UICONTROL ガントチャート] （プロジェクトリストまたはプロジェクトレポート）。
+プロジェクトリストの[!UICONTROL ガントチャート]は、プロジェクトリストまたはプロジェクトレポートで閲覧できます。
 
-### タスクリスト [!UICONTROL ガントチャート] {#task-list-gantt-chart}
+### タスクリストの[!UICONTROL ガントチャート] {#task-list-gantt-chart}
 
 <!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
@@ -81,20 +81,20 @@ The [!UICONTROL ガント] のグラフ [!DNL Workfront]  タスクまたはプ�
    * [!UICONTROL 割り当て]
    * [!UICONTROL ベースライン]
    * [!UICONTROL コミット日]
-   * [!UICONTROL %完了]
+   * [!UICONTROL 完了率]
    * [!UICONTROL クリティカルパス]
-   * [!UICONTROL マイルストーンダイヤモンド]
-   * [!UICONTROL マイルストーン行]
+   * [!UICONTROL マイルストーンひし形]
+   * [!UICONTROL マイルストーン線]
    * [!UICONTROL 先行タスク]
    * [!UICONTROL 進捗状態]
-   * [!UICONTROL 推定日]
+   * [!UICONTROL 見込み日]
 
 1. 次の記事の説明に従って、タスクの編集を開始します。
 
-   * [ガントチャートでの情報の表示方法を設定します](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
-   * [タスクリストのガントチャートの情報を更新する](../use-the-gantt-chart/update-info-task-list-gantt.md)
+   * [ガントチャートで情報の表示方法を設定します](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
+   * [タスクリストのガントチャートにおける情報の更新](../use-the-gantt-chart/update-info-task-list-gantt.md)
 
-### プロジェクトリスト [!UICONTROL ガントチャート] {#project-list-gantt-chart}
+### プロジェクトリストの[!UICONTROL ガントチャート] {#project-list-gantt-chart}
 
 <!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
@@ -121,9 +121,9 @@ The [!UICONTROL ガント] のグラフ [!DNL Workfront]  タスクまたはプ�
 1. プロジェクトに表示する情報を設定するには [!UICONTROL ガント] グラフで、 [!UICONTROL **設定**] アイコンをクリックし、次のいずれかのオプションを有効にします。
 
    * [!UICONTROL 実際の日付]
-   * [!UICONTROL %完了]
-   * [!UICONTROL マイルストーンダイヤモンド]
-   * [!UICONTROL マイルストーン行]
+   * [!UICONTROL % 完了]
+   * [!UICONTROL マイルストーンひし形]
+   * [!UICONTROL マイルストーン線]
    * [!UICONTROL 先行タスク]
    * [!UICONTROL 進捗状態]
-   * [!UICONTROL 推定日]
+   * [!UICONTROL 見込み日]

@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: 更新に返信する
-description: 作業オブジェクトの更新に対して、誰かが追加または返信すると、その返信がそのオブジェクトの [ 更新 ] セクションの通信スレッドに表示されます。 オブジェクトに対するビューアクセス権を持っている場合は、更新に返信を追加したり、「いいね！」をクリックしたりできます。
+description: 作業オブジェクトの更新に対して、誰かが追加または返信すると、その返信がそのオブジェクトの「更新」セクションの通信スレッドに表示されます。オブジェクトに対する表示アクセス権を持っている場合は、更新に返信を追加したり、「いいね！」をクリックしたりできます。
 author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
@@ -11,7 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->現在、Adobe Workfrontでのコメント作成エクスペリエンスの再設計中です。
+>現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
 >
 >どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
 >* 新しいエクスペリエンス
@@ -41,15 +41,15 @@ ht-degree: 0%
 >新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域からオブジェクトにアクセスする場合は使用できません。
 >
 > * ホーム
-> * リスト内の概要パネル
-> * タイムシートの [ 概要 ] パネル
+> * リストの概要パネル
+> * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 
-誰かが作業オブジェクトのコメントやシステムの更新に返信すると、その返信がそのオブジェクトの [ 更新 ] セクションの通信スレッドに表示されます。
+誰かが作業オブジェクトのコメントやシステムの更新に返信すると、その返信がそのオブジェクトの「更新」セクションの通信スレッドに表示されます。
 
 >[!IMPORTANT]
 >
->新しいコメントエクスペリエンスでは、システムの更新に返信できません。 詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>新しいコメントエクスペリエンスでは、システムの更新に返信できません。 詳しくは、[新しいコメント機能エクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 
 <!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
@@ -62,31 +62,31 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>問題およびドキュメントに対する要求以上、その他のすべてのオブジェクトに対する確認以上</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td> <p>イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>問題およびドキュメントに対して要求者以上、その他すべてのオブジェクトに対してレビュー担当者以上</p> <p><b>メモ</b>
+   <td> <p>イシューおよびドキュメントに対して要求者以上、その他すべてのオブジェクトに対してレビュアー以上</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクトの権限</strong></td> 
-   <td> <p>オブジェクトへのアクセスの表示</p> <p>追加のアクセス権のリクエストについて詳しくは、 <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト </a>.</p> </td> 
+   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td> <p>オブジェクトに対する表示アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;自分のプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## Workfrontでの更新または返信に対する返信
+## Workfront での更新または返信に対する返信
 
-表示できるオブジェクトのスレッド内のコメントに返信したり、Workfrontまたはグループ管理者としてログインし、別のユーザーの代わりにコメントに返信したりできます。 詳しくは、 [別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+表示できるオブジェクトのスレッド内のコメントに返信したり、Workfront 管理者またはグループ管理者としてログインし、別のユーザーの代わりにコメントに返信したりできます。詳しくは、[別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
 
 コメントまたは返信への返信は、選択したエクスペリエンスとオブジェクトに応じて異なります。
 
@@ -95,58 +95,58 @@ ht-degree: 0%
 新しいコメント作成エクスペリエンスで使用可能な機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. 返信を追加するオブジェクトに移動します。
-1. クリック **更新**」、「 **コメント** タブをクリックし、返信先のコメントまたは返信を探します。
-1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** 返信先のコメントの右上隅にあるメニューで、 **見積もりの返信**. 前の更新のテキストが入力領域に表示され、縦の灰色の線が付きます。
-1. クリック **返信**.
+1. 「**更新**」、オブジェクトの「**コメント**」タブの順にクリックし、返信するコメントまたは返信を探します。
+1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** 返信先のコメントの右上隅にあるメニューで、 **見積もりの返信**. 以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
+1. 「**返信**」をクリックします。
 
    ![](assets/reply-to-update-empty-box.png)
 
-   会話に積極的に関与しているユーザーがの下部に表示されます。 **返信を追加…** 」ボックスに追加して、不要なものを追加したり、削除したりできます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。 さらに多くのユーザーにタグを付けて、返信に含めることもできます。  さらに多くのユーザーにタグを付けるには、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   会話に積極的に関与しているユーザーがの下部に表示されます。 **返信を追加…** 」ボックスに追加して、不要なものを追加したり、削除したりできます。 これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 
    >[!TIP]
    >
    >   既存の返信に返信を追加する場合は、 **返信を追加…** ボックスを使用するか、 **返信** 元のコメントに対して。 返信はスレッドの最後に追加されます。
 
-1. 返信の入力を開始し、リッチテキストツールバーの追加のオプションを使用します。 リッチテキストなどの更新機能の使用について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
+1. 返信の入力を開始し、リッチテキストツールバーの追加のオプションを使用します。リッチテキストなどの更新機能の使用について詳しくは、[作業を更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. クリック **送信** をクリックして返信を保存します。
+1. 「**送信**」をクリックして返信を保存します。
 
-1. （オプション） **その他** メニュー ![](assets/more-menu.png) 返信先のコメントの右上隅に、返信を管理する他のオプションが表示されます。 詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).
+1. （オプション） **その他** メニュー ![](assets/more-menu.png) 返信先のコメントの右上隅に、返信を管理する他のオプションが表示されます。 詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ### 従来の更新セクションの更新または返信に返信します
 
 1. 返信を追加するオブジェクトに移動します。
-1. 次の日： **更新** タブで、返信先の更新または返信を探します。
+1. オブジェクトの「**更新**」タブで、返信する更新または返信を探します。
 
-1. （オプション）既存の更新で画像を表示するには、次のいずれかの操作をおこないます。
+1. （オプション）既存の更新で画像を表示するには、次のいずれかの操作を実行します。
 
-   * 次をクリック： **プレビュー** アイコン ![](assets/previewimageicon-31x31.png) 画像のサムネールで、フルサイズの画像を新しいブラウザータブで開きます。
-   * 次をクリック： **ダウンロード** アイコン ![](assets/downloadimageicon.png) を画像のサムネールにドラッグして、画像をダウンロードします。
+   * 画像のサムネールで&#x200B;**プレビュー**&#x200B;アイコン ![](assets/previewimageicon-31x31.png) をクリックして、フルサイズの画像を新しいブラウザータブで開きます。
+   * 画像のサムネールで&#x200B;**ダウンロード**&#x200B;アイコン ![](assets/downloadimageicon.png) をクリックして、画像をダウンロードします。
 
-1. クリック **返信** 更新時に、表示されるボックスに返信を入力します。
+1. 更新で「**返信**」をクリックして、表示されるボックスに返信を入力します。
 
-   会話に積極的に関わっているユーザーや、各返信にタグ付けされているユーザーが、その更新スレッドの上部に表示されます。 これらのユーザーは、オブジェクトを購読しているユーザーと共に、オブジェクトに対して更新または返信がおこなわれるたびに通知を受け取ります。 さらに多くのユーザーにタグを付けて、返信に含めることもできます。  さらに多くのユーザーにタグを付けるには、 [更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   会話に積極的に参加しているユーザーや各返信にタグ付けされているユーザーが、その更新スレッドの上部に表示されます。これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 
    ![](assets/tagging-transparency-350x192.png)
 
-1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** 見積もりを行う更新または返信の横のメニューから、 **見積もりの返信**. 前の更新のテキストが入力領域に表示され、縦の灰色の線が付きます。
-1. （オプション）記事の「Workfrontの更新でのリッチテキストの使用」の節で説明されているように、書式、絵文字、リンク、画像を使用します。 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. クリック **返信** をクリックして返信を保存します。
+1. （オプション）返信に以前の更新のテキストを含めるには、引用を行う更新または返信の横にある&#x200B;**その他**&#x200B;メニュー、「**引用返信**」の順にクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
+1. （オプション）[作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)記事内「Workfront の更新でのリッチテキストの使用」の節で説明されているように、リンクまたは画像を含む書式、絵文字を使用します。
+1. 「**返信**」をクリックして、返信を保存します。
 
-## 電子メール通知から更新に返信
+## メール通知から更新に返信
 
-電子メール通知の設定によっては、アクセス権のある特定のオブジェクトに対して更新が行われた際に電子メール通知を受け取る場合があります。
+メール通知の設定によっては、アクセス権のある特定のオブジェクトに対して更新が行われた際にメール通知を受信する場合があります。
 
-電子メール通知から更新に返信する方法は次のとおりです。
+メール通知から更新に返信する方法は次のとおりです。
 
-* 受信した電子メールに返信します。 返信メールは、元のコメントに対するWorkfrontの返信として追加されます。
-* E メール内の「コメント」ボタンを使用して、Workfrontに戻り、「更新」領域の更新に返信します。
+* 受信したメールに返信します。返信メールは、元のコメントに対する Workfront の返信として追加されます。
+* メール内の「コメント」ボタンを使用して、Workfront に戻り、アップデートエリアの更新に返信します。
 
-以下は、タスクの「更新」タブでの更新の結果としてトリガーされる電子メール通知の例です。
+以下は、タスクの「更新」タブでの更新の結果としてトリガーされるメール通知の例です。
 
 ![email.png](assets/email-350x202.png)
 
-詳しくは、 [電子メール通知に返信](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
+詳しくは、[メール通知に返信](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md)を参照してください。
 
 
 

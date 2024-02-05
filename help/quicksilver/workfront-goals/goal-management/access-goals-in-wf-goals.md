@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront目標のアクセスとオープン目標
-description: この記事では、Adobe Workfrontで目標を見つけて管理する方法について説明します。
+title: Adobe Workfront Goals で目標にアクセスして開く
+description: この記事では、Adobe Workfront で目標を検索し、管理する方法について説明します。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
 source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
-# Adobe Workfront目標のアクセスとオープン目標
+# Adobe Workfront Goals で目標にアクセスして開く
 
-この記事では、Adobe Workfrontで戦略目標を見つけ、管理する方法について説明します。
+この記事では、Adobe Workfront で戦略目標を検索し、管理する方法について説明します。
 
 
 ## アクセス要件
@@ -89,32 +89,32 @@ You must have the following to perform the activities described in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>リクエスト以上</p> <p>詳しくは、 <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、 <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront目標の使用要件</a>. </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>目標へのアクセスを編集</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
+   <td> <p>Goals への編集アクセス権</p> <p><b>メモ</b><p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法について詳しくは、以下を参照してください。</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span> </p> </li> 
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権の付与</a></span> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">オブジェクトの権限</td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td> 
     <div> 
-     <p>目標に対する表示またはそれ以上の権限を表示します</p> 
-     <p>目標に対する権限を管理して編集</p> 
-     <p>目標の共有について詳しくは、 <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront目標での目標の共有</a>. </p> 
+     <p>目標の表示には表示権限以上が必要</p> 
+     <p>目標に対する編集権限を管理</p> 
+     <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p> 
     </div> </td> 
   </tr>
 
@@ -129,47 +129,47 @@ You must have the following to perform the activities described in this article:
 </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
-## Workfront目標へのアクセス
+## Workfront Goals へのアクセス
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) 右上隅で、「 **目標**.
+1. 右上隅の&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**目標**」をクリックします。
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   「目標リスト」が表示されます。
+   目標リストが表示されます。
 
 
    >[!IMPORTANT]
    >
-   >   Workfront目標に正しくアクセスできたら、デフォルトで、目標リストに自分または他のユーザーが作成した目標を表示できます。
+   >   Workfront Goals に正しくアクセスできたら、デフォルトでは、目標リストに自分または他のユーザーが作成した目標を表示できます。
 
    <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
    -->
 
-1. （オプション）目標の名前をクリックして、目標を開くか編集します。
+1. （オプション）目標の名前をクリックして、目標を開いたり編集したりします。
 
    または
 
-   クリック **新しい目標** をクリックして、新しい目標を追加します。
+   「**新規目標**」をクリックして、新しい目標を追加します。
 
-   目標の作成について詳しくは、 [Adobe Workfront目標での目標の作成](../../workfront-goals/goal-management/create-goals.md).
+   目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 
 ## 個々の目標を開いて管理
 
-個々の目標にアクセスして、目標を管理する際に次の操作を実行する必要があります。
+目標を管理するには、個々の目標にアクセスして次の操作を実行する必要があります。
 
 * 編集
-* 結果またはアクティビティを追加します
-* 結果および関連付けられたアクティビティを編集します
-* 有効化
-* 無効にする
-* 削除する
-* 別の目標に合わせる
-* 結果またはアクティビティを他の目標に変換する
-* 更新する
+* 結果またはアクティビティを追加
+* 結果および関連付けられたアクティビティを編集
+* アクティブ化
+* 非アクティブ化
+* 削除
+* 別の目標と整合性をとる
+* 結果またはアクティビティを他の目標に変換
+* 更新
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -199,15 +199,15 @@ To access an individual goal in the Production environment:
    The Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal Details panel, see [Update goals in the Goal details section in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
 -->
 
-個々の目標にアクセスするには：
+個々の目標にアクセスするには次の手順に従います。
 
-1. 次をクリック： **メインメニュー** Workfrontの右上隅にあるアイコンをクリックし、 **目標** .
-デフォルトでは「目標リスト」が表示されます。
+1. Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコンをクリックし、「**目標**」をクリックします。
+デフォルトでは、目標リストが表示されます。
    ![](assets/goal-list-unshimmed.png)
 1. リストで目標の名前をクリックします。
 目標のページが表示されます。
    ![](assets/goal-page-unshimmed.png)
-1. 次をクリック： **その他** メニュー ![](assets/more-icon.png) 目標名の右側に移動して、目標をさらに編集または共有します。
-1. クリック **目標の詳細** をクリックして、目標に関する情報を編集します。 詳しくは、 [Adobe Workfront目標の「目標の詳細」節の目標を更新する](../goal-management/update-goals-in-goal-details-panel.md).
+1. 目標名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックして、目標を編集したり共有したりします。
+1. 左側のパネルにある「**目標の詳細**」をクリックして、目標に関する情報を編集します。詳しくは、[Adobe Workfront Goals の目標の詳細セクションで目標を更新](../goal-management/update-goals-in-goal-details-panel.md)を参照してください。
 
 

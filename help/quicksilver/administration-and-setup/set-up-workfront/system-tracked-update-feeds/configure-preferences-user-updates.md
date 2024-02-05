@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: ユーザーの更新の環境設定を構成する
-description: ユーザーがオブジェクトの [!UICONTROL 更新] 領域。
+title: ユーザー更新の環境設定の指定
+description: ユーザーがオブジェクトの[!UICONTROL 更新]領域にコメントを追加する際に特定の機能にアクセスできるようにする設定を指定できます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -11,13 +11,13 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 1%
+ht-degree: 92%
 
 ---
 
-# ユーザーの更新の環境設定を構成する
+# ユーザー更新の環境設定の指定
 
-ユーザーがオブジェクトの [!UICONTROL 更新] 領域。
+ユーザーがオブジェクトの[!UICONTROL 更新]領域にコメントを追加する際に特定の機能にアクセスできるようにする環境設定を指定できます。
 
 ## アクセス要件
 
@@ -28,37 +28,37 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL プラン ]</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、[!UICONTROL システム管理者 ] のアクセスレベルが必要です。</p><p>グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>：まだアクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） を参照してください。 [!DNL Workfront] 管理者はアクセスレベルを変更できます。詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>これらの手順をシステムレベルで実行するには、[!UICONTROL System Administrator]のアクセスレベルが必要です。</p><p>グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 更新内の画像の追加をユーザーに許可
+## ユーザーが更新で画像を追加できるようにする
 
-デフォルトでは、ユーザーは更新に画像を追加できません。 この環境設定を有効にすると、ユーザは更新に画像を添付できます。 環境設定は、 [!DNL Workfront] インスタンス。
+デフォルトでは、ユーザーは更新に画像を追加できません。この環境設定を有効にすると、ユーザは更新に画像を添付できるようになります。この環境設定は、[!DNL Workfront] インスタンスのすべての領域のすべての更新に適用されます。
 
 >[!NOTE]
 >
->* 更新で保存された画像は、ドキュメントの保存制限にカウントされます。 詳しくは、 [ドキュメントのストレージ制限の確認](../../../documents/managing-documents/check-document-storage.md).
+>* 更新で保存された画像は、ドキュメントストレージ制限に考慮されます。詳しくは、[ドキュメントストレージ制限の確認ク](../../../documents/managing-documents/check-document-storage.md)を参照してください。
 >* 画像には、 [!UICONTROL 更新] タブをクリックし、 [!UICONTROL ドキュメント] 下の領域 [!UICONTROL メインメニュー].
 >
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) ～の右上隅に [!DNL Adobe Workfront]を選択し、次に **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
-1. 左のパネルで、「 」を選択します。 **[!UICONTROL インターフェイス]** > **[!UICONTROL フィードを更新]**.
-1. を選択します。 **[!UICONTROL 環境設定]** タブをクリックします。
+1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、**[!UICONTROL 設定]**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+1. 左パネルで、**[!UICONTROL インターフェイス]**／**[!UICONTROL フィードの更新]**&#x200B;を選択します。
+1. 「**[!UICONTROL 環境設定]**」タブを選択します。
 
-   ![更新フィードのユーザー環境設定](assets/updatefeeds-preferences-350x137.png)
+   ![フィードの更新のユーザー環境設定](assets/updatefeeds-preferences-350x137.png)
 
-1. を選択します。 **[!UICONTROL 更新内の画像の追加をユーザーに許可]** 」チェックボックスをオンにします。
+1. 「**[!UICONTROL ユーザーが更新で画像を追加できるようにする]**」チェックボックスを選択します。
 1. 「**[!UICONTROL 保存]**」を選択します。
 
-   この環境設定が有効な場合、いつでも無効にできます。 更新で既に投稿された画像は、 [!UICONTROL 更新] 領域を選択します。
+   この設定が有効になっている場合、いつでも無効にすることができます。更新で既に投稿された画像は、オブジェクトの[!UICONTROL 更新]領域に残ります。

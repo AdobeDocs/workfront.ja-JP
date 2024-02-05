@@ -9,21 +9,21 @@ exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 source-git-commit: a729c134ce3d9c565fac18fea80ea7c49471182b
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
 # Experience Manager Assets Essentials 統合の設定
 
-Experience Manager Assets Essentials でのコンテンツとの連携：
+Experience Manager Assets Essentials で作業とコンテンツを結び付けます。
 
-* Adobe WorkfrontからExperience Manager Assets Essentials へのアセットとメタデータのプッシュ&#x200B;
-* Experience Manager Assets Essentials からWorkfrontのプロジェクトおよびタスクへのアセットのリ&#x200B;ンク
-* Experience Manager Assets Essentials にプッシュされたアセットのバージョン管理ワークフローを容易にします
+* Adobe Workfront から Experience Manager Assets Essentials にアセットおよびメタデータをプッシュ
+* Experience Manager Assets Essentials からのアセットを Workfront のプロジェクトおよびタスクにリンク
+* Experience Manager Assets Essentials へプッシュされたアセットのバージョン管理ワークフローを促進
 
 >[!NOTE]
 >
->複数のExperience Manager Assetsリポジトリを 1 つのWorkfront環境に接続することも、複数のWorkfront環境を組織 ID をまたいで 1 つのExperience Manager Assetsリポジトリに接続することもできます。 設定する統合ごとに、この記事の設定手順に従ってください。
+>複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に接続することも、複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリに接続することもできます。設定する統合ごとに、この記事の設定手順に従ってください。
 
 ## アクセス要件
 
@@ -31,19 +31,19 @@ Experience Manager Assets Essentials でのコンテンツとの連携：
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront plan*</strong>
+   <td><strong>Adobe Workfront プラン*</strong>
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfrontライセンス*</strong>
+   <td><strong>Adobe Workfront ライセンス*</strong>
    </td>
-   <td>計画
+   <td>プラン
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager免許</strong>
+   <td><strong>Experience Manager ライセンス</strong>
    </td>
    <td>標準
    </td>
@@ -51,75 +51,75 @@ Experience Manager Assets Essentials でのコンテンツとの連携：
   <tr>
    <td><strong>製品</strong>
    </td>
-   <td>Experience Manager Assets Essentials がインストールされている、Admin Consoleのユーザーとして製品に追加されている必要があります。
+   <td>Experience Manager Assets Essentials が必要であり、Admin Console でユーザーとして製品に追加されている必要があります。
    </td>
   </tr>
   <tr>
    <td><strong>アクセスレベル設定</strong>
    </td>
-   <td>Workfront管理者である。 Workfront管理者について詳しくは、 <strong>ユーザーに完全な管理アクセス権を付与する</strong>.
+   <td>Workfront 管理者である必要があります。Workfront 管理者については、<strong>ユーザーへの完全な管理アクセス権の付与</strong>を参照してください。
    </td>
   </tr>
 </table>
 
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
 
-## 統合の設定
+## 統合を設定
 
-1. 次をクリック： **メインメニュー** Adobe Workfrontの右上隅にあるアイコンをクリックし、 **設定**.
-1. 選択  **ドキュメント** ![ドキュメントアイコン](assets/document-icon.png) 左のパネルで、「 **Experience Managerの統合**.
-1. 選択 **Experience Manager統合を追加**.
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコンをクリックし、「**設定**」をクリックします。
+1. 左側のパネルで&#x200B;**ドキュメント** ![ドキュメントアイコン](assets/document-icon.png) を選択し、続いて「**Experience Manager の統合**」を選択します。
+1. 「**Experience Manager の統合を追加**」を選択します。
 1. 以下を指定します。
 
    <table>
    <tr>
       <td><strong>名前</strong>
       </td>
-      <td>「ドキュメント」領域の「新規追加」ボタンに、ユーザーに表示する名前を入力します。
+      <td>ドキュメント領域の「新規追加」ボタンに、ユーザーに表示する名前を入力します。
       </td>
    </tr>
    <tr>
       <td><strong>ナビゲーション URL</strong>
       </td>
-      <td>ナビゲーション URL が自動的に入力されます。 この URL は、メインメニューから組織のAssets Essentialsインスタンスにリンクして、すばやくアクセスできるようにするために使用されます。
+      <td>ナビゲーション URL がシステムにより自動的に入力されます。この URL は、メインメニューから組織の Assets Essentials インスタンスにリンクし、すばやくアクセスするために使用されます。
       </td>
    </tr>
    <tr>
       <td>
-      <strong>Experience Manager Assetsリポジトリ</strong>
+      <strong>Experience Manager Assets リポジトリ</strong>
       </td>
       <td>
-      組織 ID に関連付けられたExperience Managerリポジトリが自動的に入力されます。
+      組織 ID に関連付けられた Experience Manager リポジトリが、システムにより自動的に入力されます。
       </td>
    </tr>
    </table>
 
-1. クリック **保存** または、 [メタデータの設定（オプション）](#set-up-metadata-optional) 」の節を参照してください。
+1. 「**保存**」をクリックするか、この記事の[メタデータを設定（オプション）](#set-up-metadata-optional)の節へ移動してください。
 
 
-## メタデータの設定（オプション）
+## メタデータを設定（オプション）
 
-WorkfrontオブジェクトデータをExperience Manager Assetsの Asset Media フィールドにマッピングする。 メタデータは、アセットがWorkfrontから初めてプッシュされるとマッピングされます。
+Workfront オブジェクトデータを、Experience Manager Assets のアセットメディアフィールドにマッピングします。メタデータは、アセットが最初に Workfront にプッシュされる際にマッピングされます。
 
 
 ### 前提条件
 
-始める前に、
+開始する前に、
 
-* Experience Manager Assets Essentials でのメタデータスキーマの設定 ( [Adobe WorkfrontとExperience Manager Assetsの間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-* （オプション）Workfrontでカスタムフォームフィールドを設定します。 Workfrontには、使用できる多くの組み込みカスタムフィールドがあります。 ただし、独自のカスタムフィールドを作成することもできます。 詳しくは、 [カスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* [Adobe Workfront と Experience Manager Assets 間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja)の説明に従って、Experience Manager Assets Essentials のメタデータスキーマを設定します。
+* （オプション）Workfront でカスタムフォームフィールドを設定します。Workfront には、使用できる多くの組み込みのカスタムフィールドがあります。ただし、独自のカスタムフィールドを作成することもできます。詳しくは、[カスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
 ## サポートされるWorkfrontおよびExperience Manager Assetsのフィールド
 
 ### AEMキーワード
 
-Workfront Essentials のキーワードに、サポートされている任意のフィールドをマッピングできます。
+Workfront でサポートされている任意のフィールドを、Experience Manager Assets Essentials のキーワードにマッピングできます。
 
-キーワードにフィールドをリンクするには、「 `xcm:keywords` ( メタデータマッピング領域の「 Experience Manager Assetsフィールド」ドロップダウン )。
+フィールドをキーワードにリンクするには、メタデータマッピング領域の Experience Manager Assets フィールドドロップダウンにある `xcm:keywords` を選択します。
 
-複数の 1 行テキストフィールドをキーワードにマッピングするには、メタデータマッピングのWorkfront側にキーワード値のコンマ区切りリストを入力し、 `xcm:keywords` Experience Manager Assets側の 各フィールド値は、個別のキーワードにマッピングされます。 計算フィールドを使用すると、複数のWorkfrontフィールドを組み合わせて、コンマで区切られた単一のテキストフィールドにすることができます。
+複数の 1 行のテキストフィールドをキーワードにマッピングするには、メタデータマッピングの Workfront 側にキーワード値のコンマで区切られたリストを入力し、`xcm:keywords` を Experience Manager Assets 側に入力します。それぞれのフィールド値は、個別のキーワードにマッピングされます。計算フィールドを使用すると、複数の Workfront フィールドを組み合わせて、1 つのコンマ区切りテキストフィールドにすることができます。
 
 <!--
 Look for essentials article
@@ -129,22 +129,22 @@ For more information on keywords in Experience Manager Assets, including how to 
 +++
 
 
-### Assets
+### アセット
 
-メタデータは、アセットがWorkfrontから初めてプッシュされるとマッピングされます。 組み込みフィールドまたはカスタムフィールドを持つドキュメントは、アセットをExperience Manager Assets Essentials に初めて送信する際に、指定したフィールドに自動的にマッピングされます。
+アセットが Workfront から初めてプッシュされると、メタデータがマッピングされます。組み込みフィールドまたはカスタムフィールドを持つドキュメントは、アセットを Experience Manager Assets Essentials に初めて送信する際に、指定したフィールドに自動的にマッピングされます。
 
-1. Adobe Analytics の **Workfrontフィールド** 列で、組み込みフィールドまたはカスタムWorkfrontフィールドを選択します。
+1. **Workfront のフィールド**&#x200B;列で、組み込みフィールドまたはカスタム Workfront フィールドを選択します。
    >[!NOTE]
    >
-   >1 つのWorkfrontフィールドを複数のExperience Manager Assetsフィールドにマッピングできます。 複数のWorkfrontフィールドを 1 つのExperience Manager Assetsフィールドにマッピングすることはできません。
-1. Adobe Analytics の **Experience Manager** 「 」フィールドで、「 Experience Manager Assets 」フィールドを選択します。
+   >単一の Workfront フィールドを複数の Experience Manager Assets フィールドにマッピングできます。複数の Workfront フィールドを単一の Experience Manager Assets フィールドにマッピングすることはできません。
+1. **Experience Manager** フィールドで、Experience Manager Assets フィールドを選択します。
 
-   WorkfrontフィールドをExperience Manager Assetsタグにマッピングするには、 `xcm:keywords`.
+   Workfront フィールドを Experience Manager Assets タグにマッピングするには、`xcm:keywords` を選択します。
 1. 必要に応じて、手順 1 と 2 を繰り返します。
-   ![メタデータを有効にする](assets/metadata-assets-essentials.png)
-1. クリック **保存** または、 [リンクされたフォルダーの設定（オプション）](#set-up-linked-folders-optional) 」の節を参照してください。
+   ![メタデータを有効化](assets/metadata-assets-essentials.png)
+1. 「**保存**」をクリックするか、この記事の[リンクされたフォルダーを設定（オプション）](#set-up-linked-folders-optional)の節を参照してください。
 
 
-## リンクされたフォルダーの設定（オプション）
+## リンクされたフォルダーを設定（オプション）
 
 {{setup-linked-folder}}

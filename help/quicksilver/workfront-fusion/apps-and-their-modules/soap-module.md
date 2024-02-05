@@ -11,70 +11,70 @@ feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '464'
+ht-degree: 99%
 
 ---
 
-# [!UICONTROL SOAP モジュール]
+# [!UICONTROL SOAP] モジュール
 
-以下を使用すると、 [!UICONTROL SOAP] 接続するモジュール [!UICONTROL SOAP] の API [!UICONTROL Adobe Workfront Fusion].
+[!UICONTROL SOAP]モジュールを使用して、[!UICONTROL Adobe Workfront Fusion]で[!UICONTROL SOAP]API に接続できます。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件： [!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] プラン（組織で購入する必要がある） [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。 [!DNL Workfront Fusion] は、[!UICONTROL Ultimate] に含まれています [!DNL Workfront] プラン</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：組織は購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## の使用 [!UICONTROL SOAP] モジュール
+## [!UICONTROL SOAP] モジュールの使用
 
-The [!UICONTROL SOAP] モジュールは現在ベータ版で、次の機能をサポートしていません。
+[!UICONTROL SOAP] モジュールは現在ベータ版であり、次の機能をサポートしていません。
 
 * 要素の再定義
-* 分数の桁数制限
+* 小数部桁数の制限
 * 合計桁数の制限
 * 空白の制限
-* 入出力メッセージの複数の部分。 単一パーツのメッセージのみがサポートされます
-* の助けを借りて定義されたカスタム XML スキーマ要素 [[!UICONTROL SOAP] エンコード](https://schemas.xmlsoap.org) スキーマと要素。
+* マルチパートの入出力メッセージ。シングルパートメッセージのみがサポートされています。
+* [[!UICONTROL SOAP] エンコーディング](https://schemas.xmlsoap.org)スキーマおよび要素を活用して定義されたカスタム XML スキーマ要素
 
 >[!INFO]
 >
->**例:**
+>**例：**
 >  
->次の項目は、 [!UICONTROL Workfront Fusion]:
+>以下は、[!UICONTROL Workfront Fusion] では正しく認識されません。
 >
 >```
 ><complexType name="ArrayOfFloat">
@@ -87,14 +87,14 @@ The [!UICONTROL SOAP] モジュールは現在ベータ版で、次の機能を�
 ></complexType>
 >```
 
-これには、 `soapenc:Array`, `soapenc:arrayType` および `wsdl:arrayType` 参照 ( まだ [!UICONTROL Workfront Fusion].
+これには `soapenc:Array`、`soapenc:arrayType` および `wsdl:arrayType` 参照が含まれていますが、これらは [!UICONTROL Workfront Fusion] ではまだサポートされていません。
 
 ## 回避策
 
-次の場合、 [!UICONTROL SOAP] モジュールは WSDL ファイルの処理を拒否するか、モジュールの設定で様々なエラーをスローします。ユニバーサル **[!UICONTROL HTTP] > [!UICONTROL リクエストを実行]** 代わりにモジュールを使用します。
+[!UICONTROL SOAP] モジュールが WSDL ファイルの処理を拒否するか、モジュールの設定で様々なエラーが発生する場合は、代わりに、汎用の **[!UICONTROL HTTP]／[!UICONTROL リクエストの実行]**&#x200B;モジュールを使用してみてください。
 
-1. In [!DNL Workfront Fusion]、新しいシナリオを作成します。
-1. を挿入します。 **[!UICONTROL HTTP] > [!UICONTROL リクエストを実行]** モジュールを設定します。
+1. [!DNL Workfront Fusion] で新しいシナリオを作成します。
+1. シナリオに **[!UICONTROL HTTP]／[!UICONTROL リクエストの実行]**&#x200B;モジュールを挿入します。
 1. モジュールの設定を開き、次のフィールドに入力します。
 
    <table style="table-layout:auto"> 
@@ -102,20 +102,20 @@ The [!UICONTROL SOAP] モジュールは現在ベータ版で、次の機能を�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL メソッド ]</td> 
-      <td> <p>[!UICONTROLPOST]</p> </td> 
+      <td role="rowheader">[!UICONTROL Method]</td> 
+      <td> <p>[!UICONTROL POST]</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 本文の種類 ]</td> 
+      <td role="rowheader">[!UICONTROL Body type]</td> 
       <td> <p>[!UICONTROL Raw]</p> </td> [!UICONTROL ]
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL コンテンツタイプ ]</td> 
+      <td role="rowheader">[!UICONTROL Content type]</td> 
       <td> <p>[!UICONTROL XML (application/xml)]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 応答を解析 ]</td> 
-      <td>[!UICONTROL 有効 ]</td> 
+      <td role="rowheader">[!UICONTROL Parse response]</td> 
+      <td>[!UICONTROL Enabled]</td> 
      </tr> 
     </tbody> 
    </table>
@@ -125,24 +125,24 @@ The [!UICONTROL SOAP] モジュールは現在ベータ版で、次の機能を�
 1. 新しい Web ブラウザーウィンドウまたはタブを開きます。
 1. WSDL URL を Web ブラウザーのアドレスバーに貼り付け、XML ファイルを取得します。
 
-   WSDL URL は通常、で終わります `?wsdl`必ずしもそうではない。 `http://voip.ms/api/v1/server.wsdl`.
+   通常、WSDL URL の末尾は `?wsdl` になりますが、そうでない場合もあります。例：`http://voip.ms/api/v1/server.wsdl`
 
 1. WSDL ファイルが Web ブラウザーに直接表示されない場合は、ダウンロードしたファイルをテキストエディターで開きます。
-1. を検索します。 `<service>` または `<wsdl:service>` タグ：
+1. 次の `<service>` または `<wsdl:service>` タグを探します。
 
    ![](assets/service-350x65.png)
 
-1. 見つかったら、 `location` 属性。
-1. In [!DNL Workfront Fusion]「 」で、URL を HTTP モジュールの「 URL 」フィールドに貼り付けます。
-1. を開きます。 [オンライン [!UICONTROL SOAP] クライアント](https://wsdlbrowser.com/) をクリックします。
+1. 見つかったら、`location` 属性から URL をコピーします。
+1. [!DNL Workfront Fusion] で、URL を HTTP モジュールの「URL」フィールドに貼り付けます。
+1. 新しい Web ブラウザーウィンドウまたはタブで、「[オンライン [!UICONTROL SOAP] クライアント](https://wsdlbrowser.com/)」を開きます。
 1. WSDL URL を「WSDL URL」フィールドに貼り付けます。
-1. クリック **[!UICONTROL 参照]**.
-1. 左側の関数のリストから選択します。例： `getLanguages`.
-1. 次の内容をコピー： [!UICONTROL XML をリクエスト] テキスト領域。
-1. In [!UICONTROL Workfront Fusion]」で、コピーした内容をモジュールの「 URL 」フィールドに貼り付けます。
-1. 疑問符を実際の値に置き換えて、選択したパラメーターの値を指定します。
+1. 「**[!UICONTROL 参照]**」をクリックします。
+1. 左側の機能のリストから選択します。例：`getLanguages`
+1. 「[!UICONTROL XML をリクエスト]」テキストエリアの内容をコピーします。
+1. [!UICONTROL Workfront Fusion] で、コピーした内容をモジュールの「URL」フィールドに貼り付けます。
+1. 疑問符を実際の値に置き換えることで、選択したパラメーターの値を指定します。
 
    ![](assets/request-xml-350x172.png)
 
-1. クリックしてモジュールの設定を閉じる **[!UICONTROL OK]**.
+1. 「**[!UICONTROL OK]**」をクリックしてモジュールの設定を閉じます。
 1. シナリオまたはモジュールを実行します。

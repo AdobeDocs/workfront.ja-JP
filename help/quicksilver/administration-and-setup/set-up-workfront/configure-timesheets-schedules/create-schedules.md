@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: スケジュールの作成
-description: スケジュールを使用して、ユーザーの作業週を定義できます。 スケジュールは、ユーザーまたはプロジェクトに関連付けることができます。 これにより、 [!DNL Workfront] をクリックして、タイムラインとユーザーの可用性を計算します。
+description: スケジュールを使用して、ユーザーの作業週を定義できます。 ユーザーやプロジェクトに、スケジュールを関連付けることができます。これにより、 [!DNL Workfront]  がタイムラインとユーザーの空き時間を計算します。
 author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
 source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 0%
+ht-degree: 73%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 0%
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
-As an [!DNL Adobe Workfront] 管理者は、スケジュールを使用して作業週を定義できます。 スケジュールは、ユーザーまたはプロジェクトに関連付けることができます。 これにより、 [!DNL Workfront] をクリックして、タイムラインとユーザーの可用性を計算します。
+As an [!DNL Adobe Workfront] 管理者は、スケジュールを使用して作業週を定義できます。 ユーザーやプロジェクトに、スケジュールを関連付けることができます。これにより、[!DNL Workfront] がタイムラインとユーザーの空き時間を計算できるようになります。
 
-異なるタイムゾーンで作業するユーザーがいる場合、各タイムゾーンでスケジュールを作成し、それらのユーザーに関連付けると、作業が必ず次の場所に記録されます。 [!DNL Workfront] リアルタイムで実行でき、動作するタイミングに応じて常に正確に使用できること。
+異なるタイムゾーンで作業するユーザーがいる場合、各タイムゾーンでスケジュールを作成し、それらのユーザーに関連付けると、作業が [!DNL Workfront] にリアルタイムで記録され、作業する時間帯に従って空き時間が常に正確であることが保証されます。
 
 スケジュールとユーザーおよびプロジェクトの関連付けについて詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) および [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-また、グループ管理者は、管理するグループに関連付けられたスケジュールを作成することもできます。 詳しくは、 [グループのスケジュールを作成および変更する](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
+グループ管理者は、自分が管理するグループに関連付けられているスケジュールを作成することもできます。詳しくは、[グループのスケジュールの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md)を参照してください。
 
-スケジュールを使用して、 [!DNL Workfront] タイムゾーンを超える場合： [タイムゾーンをまたいでの作業](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+スケジュールを使用してユーザーがタイムゾーンをまたいで [!DNL Workfront] で共同作業できるようにする方法については、[タイムゾーンをまたいだ作業](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)を参照してください。
 
-生産資源計画でのスケジュールの使用方法の詳細は、「 [スケジュールの概要](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) および [リソースプランナーの概要](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+リソース計画でのスケジュールの使用方法については、[スケジュールの概要](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)および[リソースプランナーの概要](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
 ## アクセス要件
 
@@ -44,7 +44,7 @@ As an [!DNL Adobe Workfront] 管理者は、スケジュールを使用して作
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ As an [!DNL Adobe Workfront] 管理者は、スケジュールを使用して作
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>次の条件を満たす必要があります。 [!DNL Workfront] 管理者。 </td> 
+   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,24 +66,24 @@ As an [!DNL Adobe Workfront] 管理者は、スケジュールを使用して作
 
 {{step-1-to-setup}}
 
-1. クリック **[!UICONTROL スケジュール]**.
-1. クリック **[!UICONTROL 新しいスケジュール]**.
+1. 「**[!UICONTROL スケジュール]**」をクリックします。
+1. 「**[!UICONTROL 新規スケジュール]**」をクリックします。
 1. スケジュールの名前を入力します。
-1. （オプション）「 」を選択します。 **[!UICONTROL デフォルトのスケジュール]** をクリックして、このスケジュールをデフォルトとして指定します。
+1. （オプション）「**[!UICONTROL デフォルトのスケジュール]**」を選択して、このスケジュールをデフォルトとして指定します。
 
-   に少なくとも 1 つのスケジュールを設定する必要があります [!DNL Workfront]. 1 つのみの場合は、デフォルトのスケジュールに指定されます。
+   少なくとも 1 つのスケジュールが [!DNL Workfront] に存在する必要があります。1 つのみの場合は、デフォルトのスケジュールに指定されます。
 
    複数のスケジュールを設定できますが、既定のスケジュールは 1 つだけにすることができます。
 
    >[!NOTE]
    >
-   >グループ管理者は、スケジュールをデフォルトのスケジュールとして指定できません。 a のみ [!DNL Workfront] 管理者は、スケジュールをシステムのデフォルトとして指定できます。
+   >グループ管理者は、スケジュールをデフォルトのスケジュールとして指定できません。スケジュールをシステムのデフォルトとして指定できるのは、[!DNL Workfront] 管理者だけです。
 
    ![新しいスケジュール](assets/new-schedule.png)
 
 1. 次の日： **[!UICONTROL スケジュール]** 「 」タブで、時間ブロック間の青いアウトラインをドラッグしてハイライト表示し、日次スケジュールを選択します。
 
-   9 時間の期間に 8 つの 1 時間ブロックを選択することをお勧めします。 昼食や休憩に対応。
+   9 時間の期間内に 1 時間ブロックを 8 つ選択することをお勧めします。これにより、昼食やその他の休憩に対応できます。
 
    ![スケジュールに基づく時間ブロック](assets/new-schedule-with-exceptions.png)
 
@@ -91,28 +91,28 @@ As an [!DNL Adobe Workfront] 管理者は、スケジュールを使用して作
 
    <table style="table-layout:auto">
     <tr>
-     <td>[!UICONTROL 管理アクセス権を持つグループ ]</td>
+     <td>[!UICONTROL Group with Administration Access]</td>
      <td><p>このスケジュールを編集する権限を持つ管理者のグループを選択します。</p>
-     <p><b>重要</b>:</p>
+     <p><b>重要</b>：</p>
       <ul>
        <li>
-       <p>スケジュールを作成するグループ管理者の場合、このフィールドは必須です。</p>
-       <p>グループ管理者は、自分が管理者として指定されているグループまたはサブグループに対して指定されている場合にのみ、スケジュールを作成できます。</p>
-       <p>1 つのグループのみを管理する場合、このフィールドではそのグループがデフォルトで選択されます。</p>
-       <p>複数のグループを管理する場合は、スケジュールを保存する前に、このフィールドでグループを選択する必要があります。</p></li>
-       <li>次の場合、 [!DNL Workfront] 管理者がスケジュールを作成する場合、このフィールドはオプションです。 スケジュールをグループに関連付けずに作成すると、そのスケジュールはシステムレベルのスケジュールとして保存され、どのグループのグループ管理者でも管理できなくなります。
-       <p>アカウントまたはプロジェクトに割り当てられたスケジュールは、これらのオブジェクトを編集できるすべてのユーザーに表示されます。 これは、システムレベルのスケジュールとグループレベルのスケジュールの両方に当てはまります。</p>
+       <p>グループ管理者がスケジュールを作成する場合、このフィールドは必須です。</p>
+       <p>グループ管理者は、自分が管理者として指定されているグループまたはサブグループにスケジュールが指定されている場合にのみ、スケジュールを作成できます。</p>
+       <p>1 つのグループのみを管理する場合、このフィールドでは、そのグループがデフォルトで選択されます。</p>
+       <p>複数のグループを管理する場合は、スケジュールを保存する前に、このフィールドで 1 つのグループを選択する必要があります。</p></li>
+       <li>[!DNL Workfront] 管理者がスケジュールを作成する場合、このフィールドはオプションです。スケジュールをグループに関連付けずに作成すると、そのスケジュールはシステムレベルのスケジュールとして保存され、どのグループのグループ管理者でも管理できなくなります。
+       <p>アカウントまたはプロジェクトに割り当てられたスケジュールは、これらのオブジェクトを編集できるすべてのユーザーに表示されます。これは、システムレベルのスケジュールとグループレベルのスケジュールの両方に当てはまります。</p>
        </li>
-       <p>スケジュールに対して管理アクセス権を持つグループを指定しても、グループ内のユーザーにスケジュールは割り当てられません。グループ内のグループ管理者だけが、スケジュールを編集、削除、コピーできます。</p>
-       <p>グループ管理者は、システムレベルのスケジュールを編集、削除、またはコピーできません。 詳しくは、 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>.
+       <p>スケジュールの管理アクセス権を持つグループを指定しても、そのスケジュールはこのグループ内のユーザーには割り当てられません。グループ内のグループ管理者だけが、スケジュールの編集、削除およびコピーを行えます。</p>
+       <p>グループ管理者は、システムレベルのスケジュールを編集、削除またはコピーできません。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>を参照してください。
      </td>
     </tr>
     <tr>
-     <td>[!UICONTROL 表示アクセス権を持つグループ ]</td>
+     <td>[!UICONTROL Groups with View Access]</td>
      <td><p>[!UICONTROL 表示 ] にアクセスし、このスケジュールを表示できるグループを選択します。</p>
-     <p>ここで指定したグループのユーザーのみが、ユーザーまたはプロジェクトに割り当てる際に、ドロップダウンメニューでスケジュールを検索できます。</p></tr>
+     <p>スケジュールがユーザーまたはプロジェクトに割り当てられたときに、ここで指定したグループのユーザーのみが、ドロップダウンメニューでそのスケジュールを見つけることができます。</p></tr>
     <tr>
-     <td>[!UICONTROL タイムゾーン ]</td>
+     <td>[!UICONTROL Time Zone]</td>
      <td><p>スケジュールのタイムゾーンを選択します。</p>
      <p>スケジュールをユーザーに関連付ける場合、スケジュールのタイムゾーンがユーザーのタイムゾーンと一致することをお勧めします。 ユーザーのタイムゾーンについて詳しくは、 <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルを編集します。
      </td>
@@ -122,13 +122,13 @@ As an [!DNL Adobe Workfront] 管理者は、スケジュールを使用して作
 
 1. 次の日： **[!UICONTROL 例外]** タブで、スケジュールに対する例外を指定します。
 
-   例外は、休日や会社のイベントなど、スケジュールから除外する必要がある完全な日数または半日数です。
+   例外は、休日や会社のイベントなど、スケジュールから除外する必要がある全日または半日の数です。
 
    >[!NOTE]
    >
-   >定期スケジュールの例外が何かが既にわかっている場合は、将来の何年間もスケジュールの例外を定義できます。
+   >繰り返しスケジュールの例外の内容が既にわかっている場合は、今後の何年にもわたってスケジュールの例外を定義できます。
 
-   全日または一部の日は、作業スケジュールから除外できます。 日付をクリックして例外として選択し、「 **[!UICONTROL 終日]** フィールドを使用して、例外が 1 日であるかどうかを指定します。
+   全日または 1 日の一部を作業スケジュールから除外できます。例外として選択する日付をクリックし、「**[!UICONTROL 一日中]**」フィールドを選択して、例外が全日であるかどうかを指定します。
 
    ![終日例外](assets/schedule-adding-an-all-day-exception.png)
 
@@ -136,12 +136,12 @@ As an [!DNL Adobe Workfront] 管理者は、スケジュールを使用して作
 
    ![日の一部例外](assets/partial-day-exception-on-schedules.png)
 
-1. クリック **[!UICONTROL 保存]**&#x200B;を選択し、次に **[!UICONTROL 保存] 変更点**.
+1. 「**[!UICONTROL 保存]**」に続いて、「**[!UICONTROL 変更を]保存**」をクリックします。
 
 1. （オプション）スケジュールをユーザーに関連付けます。
 
-   詳しくは、 [ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 1. （オプション）スケジュールをプロジェクトに関連付けます。
 
-   詳しくは、 [プロジェクトを編集](../../../manage-work/projects/manage-projects/edit-projects.md).
+   詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。

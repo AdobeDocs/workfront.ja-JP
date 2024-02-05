@@ -2,23 +2,23 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Adobe Workfront目標の通知を有効にする
-description: Adobe Workfront Goals には、お客様のアカウントで有効にできる事前定義済みのイベント通知が付属しています。 これらのイベント通知は、トリガーで定義された条件が満たされるたびに電子メールでの通信をします。
+title: Adobe Workfront Goals の通知を有効にする
+description: Adobe Workfront Goals には、使用するアカウントで有効にできる事前定義済みイベント通知が付属しています。これらのイベント通知は、イベント定義された条件が満たされるたびにメールでの通信をトリガーします。
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
-# Adobe Workfront目標の通知を有効にする
+# Adobe Workfront Goals の通知を有効にする
 
-Adobe Workfront Goals には、お使いのアカウントで有効にできる一連のイベント通知が用意されています。 これらのイベント通知は、トリガーで定義された条件が満たされるたびに電子メールでの通信をします。
+Adobe Workfront Goals には、アカウントで有効にできる一連のイベント通知が用意されています。これらのイベント通知は、イベント定義された条件が満たされるたびにメールでの通信をトリガーします。
 
-Workfront目標に対して有効にできる通知について詳しくは、 [通知：目標](../../workfront-basics/using-notifications/notifications-goals.md).
+Workfront Goals に対して有効にできる通知について詳しくは、[通知：Goals](../../workfront-basics/using-notifications/notifications-goals.md)を参照してください。
 
 Adobe Workfrontでの通知管理について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -119,8 +119,8 @@ A personal goal is a goal where you are designated as the owner.
 </div>
 -->
 
-## Workfront目標の電子メール通知の例
+## Workfront Goals のメール通知の例
 
-有効にした通知で定義されたイベントが発生すると、そのイベントを説明する電子メールを受け取ります。 以下は、新しい目標の所有者として割り当てられたことを通知する電子メールの例です。
+有効にした通知で定義されたイベントが発生すると、そのイベントを説明するメールが届きます。次は、新しい目標の所有者として割り当てられたことを通知するメールの例です。
 
 ![](assets/wf-align-notification-email-350x164.png)

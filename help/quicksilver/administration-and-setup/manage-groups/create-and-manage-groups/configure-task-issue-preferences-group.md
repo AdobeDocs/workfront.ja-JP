@@ -1,10 +1,10 @@
 ---
-title: グループのタスクと問題の環境設定を設定する
+title: グループのタスクとイシューの環境設定を行う
 user-type: administrator
 product-area: system-administration;user-management;setup
-keywords: グループ，環境設定，タスク，問題，ロック解除
+keywords: グループ、環境設定、タスク、イシュー、ロック解除
 navigation-topic: create-and-manage-groups
-description: 組織内のグループが、システムレベルでの設定方法とは別に、タスクまたはイシューの環境設定をおこなう必要がある場合、Adobe Workfrontの管理者が環境設定のロックを解除できます。 その後、グループ管理者は、グループの環境設定を構成でき、グループに関連するすべてのタスクや問題に影響を与えます。
+description: 組織内のグループが、システムレベルでの設定方法とは別に、タスクまたはイシューの環境設定を行う必要がある場合、Adobe Workfront の管理者が環境設定をロック解除できます。その後、グループ管理者はグループの環境設定を実施することができ、これはグループに関連するすべてのタスクやイシューに影響を与えます。
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -12,72 +12,72 @@ exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
 source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
 source-wordcount: '1895'
-ht-degree: 2%
+ht-degree: 99%
 
 ---
 
-# グループのタスクと問題の環境設定を設定する
+# グループのタスクとイシューの環境設定を行う
 
-組織内のグループが、システムレベルでの設定方法とは別に、タスクまたはイシューの環境設定をおこなう必要がある場合、Adobe Workfrontの管理者が環境設定のロックを解除できます。 その後、グループ管理者は、グループの環境設定を構成でき、グループに関連するすべてのタスクや問題に影響を与えます。
+組織内のグループが、システムレベルでの設定方法とは別に、タスクまたはイシューの環境設定を行う必要がある場合、Adobe Workfront の管理者が環境設定をロック解除できます。その後、グループ管理者はグループの環境設定を実施することができ、これはグループに関連するすべてのタスクやイシューに影響を与えます。
 
-管理するグループの上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。 Workfront管理者（すべてのグループ）も同様です。
+管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
 
-Workfront管理者が環境設定をロック解除する方法について詳しくは、 [システム内のすべてのグループのプロジェクト環境設定をロックまたはロック解除します](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Workfront 管理者が環境設定をロック解除する方法について詳しくは、[システム内のすべてのグループのプロジェクト環境設定をロックまたはロック解除](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)を参照してください。
 
 >[!TIP]
 >
->プロジェクトの環境設定では、グループレベルの設定も可能です。 詳しくは、 [グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>プロジェクトの環境設定では、グループレベルの設定も可能です。詳しくは、[グループのプロジェクト環境設定の実施](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)を参照してください。
 
 >[!NOTE]
 >
->* 通常、ロックが解除された環境設定は、無期限にロックが解除されたままになります。 Workfront管理者が再ロックすると、システム設定が再度有効になり、グループ管理者が行った環境設定は失われます。
->* プロジェクトに関連付けられたグループに設定された環境設定は、プロジェクトを作成するユーザーのホームグループに設定された環境設定よりも優先されます。
->* グループレベルの環境設定の中には、グループ用に作成するプロジェクトテンプレートに影響を与えるものもあります。 詳しくは、 [グループ領域で、グループのテンプレートの表示、操作、作成を行います。](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) 記事内 [グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* 通常、ロック解除された環境設定は、無期限にロック解除されたままになります。Workfront 管理者が再ロックすると、システム設定が再度有効になり、グループ管理者が行った環境設定は失われます。
+>* プロジェクトに関連付けられたグループ向けの環境設定のセットは、プロジェクトを作成するユーザーのホームグループ向けの環境設定のセットよりも優先されます。
+>* グループレベルの環境設定の中には、グループ用に作成するプロジェクトテンプレートに影響を与えるものがあります。詳しくは、[グループのプロジェクトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事内の、[グループエリアから、グループのテンプレートの表示、操作、作成を実施](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view)の節を参照してください。
 >
->* Workfrontの管理者がシステム・レベルでプリファレンスのロックを解除した後は、設定を行い、その設定をロックして、グループ内の全員とサブグループ内の全員が同じ設定を使用するようにできます。 これは、Workfront管理者がシステム内のすべてのユーザーに対して環境設定を設定およびロックする必要がある機能と同じです。 詳しくは、 [サブグループのプロジェクト、タスク、または問題の環境設定をロックまたはロック解除する](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Workfront 管理者がシステムレベルで環境設定をロック解除した後は、これを設定してからロックすると、グループおよびそのサブグループ内の全員が、同じ設定を使用できるようになります。これは、Workfront 管理者がシステム内のすべてのユーザーに対して環境設定を指定およびロックするための機能と同じです。詳しくは、[サブグループのプロジェクト、タスク、イシューの環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)を参照してください。
 >
 
 ## アクセス要件
 
-この記事の手順を実行するには、次の手順を実行する必要があります。
+この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront plan*</td> 
+   <td role="rowheader">Workfront プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>計画 </p> <p>グループのグループ管理者またはWorkfront管理者である必要があります。 詳しくは、 <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a> および <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与する</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランまたはライセンスの種類を確認する必要がある場合は、Workfront管理者にお問い合わせください。
+&#42;保有するプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
-## トップレベルグループのロックが解除されたタスクと問題の環境設定を構成する
+## トップレベルグループのロックが解除されたタスクとイシューの環境設定を指定
 
 >[!TIP]
 >
->Workfrontの管理者は、セットアップ/プロジェクトの環境設定/タスクと問題に移動して、ページの上部にあるボックスでグループの名前を検索することで、手順 1 ～ 4 をスキップできます。
+>Workfront の管理者は、設定／プロジェクトの環境設定／タスクとイシューに移動して、ページの上部にあるボックスでグループの名前を検索することにより、手順 1 から 4 をスキップできます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) Adobe Workfrontの右上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
 
-1. 左側のパネルで、 **グループ** ![](assets/groups-icon.png).
+1. 左パネルで、**グループ**&#x200B;アイコン ![](assets/groups-icon.png) をクリックします。
 
-1. ロックが解除されたタスクと問題の環境設定を設定するグループの名前をクリックします。
-1. グループに対して表示されるページの左側のパネルで、 **タスクと問題の環境設定**.
-1. 表示されるページで、次の 5 つのセクションのいずれかを続行して、[ 新しいタスクの既定 ]、[ タスクの既定値 ]、[ タスクの削除 ]、[ 実績日 ]、[ アクセス ] の各領域の設定を行い、[ ] **保存**.
+1. ロックが解除されたタスクとイシューの環境設定を実施するグループの名前をクリックします。
+1. グループに対して表示されるページの左側のパネルで、**タスクとイシューの環境設定**&#x200B;をクリックします。
+1. 表示されるページで、これらの手順の下にリストされている 5 つのセクションのいずれかに進み、新規タスクのデフォルト、イシュー、削除、実際の日付、アクセスの各エリアの設定を行い、「**保存**」をクリックします。
 
-   ロックアイコンの上にマウスポインターを置くと、 ![](assets/lock-toggle-button-dimmed.png) 設定が必要で、ロックされていることを知らせるツールヒントが表示される環境設定の場合は、Workfront管理者に問い合わせて、組織内のすべてのグループのロックを解除してもらうことができます。
+   実施する環境設定のためにロックアイコン ![](assets/lock-toggle-button-dimmed.png) の上にポインタを合わせると、ロックされていることを知らせるツールヒントが表示される場合は、Workfront 管理者に問い合わせて、組織内のすべてのグループをロック解除するように依頼できます。
 
-   ロックが解除されると、ユーザーと他のグループ管理者は、自分のグループに対して別々に設定できます。 また、自分のグループと自分のグループの下のサブグループに対してロックすることもできます。
+   ロックが解除されると、ユーザーと他のグループ管理者は、自分のグループに対してこれを別々に設定できます。また、自分のグループと自分のグループの下の任意のサブグループに対してロックすることもできます。
 
-   * [新規タスクのデフォルト](#new-task-defaults)
-   * [問題](#issues)
+   * [新規タスクの初期設定](#new-task-defaults)
+   * [イシュー](#issues)
    * [削除](#deletion)
    * [実際の日付](#actual-dates)
 
@@ -95,19 +95,19 @@ Workfront管理者が環境設定をロック解除する方法について詳�
     <tbody> 
      <tr> 
       <td role="rowheader">新規タスクの開始日</td> 
-      <td> <p>プロジェクトマネージャの新しいタスクの既定の開始日を指定します。 新規タスクの開始日は、プロジェクトの計画開始日か、タスクの作成日のどちらかです。</p> </td> 
+      <td> <p>プロジェクトマネージャーについて、新規タスクのデフォルトの開始日を決定します。新規タスクの開始日は、プロジェクトの予定開始日か、タスクの作成日のどちらかです。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>期間タイプ </p> </td> 
-      <td> <p>リソースの数（およびその割り当て率）とタスクの期間または総労力との関係を決定します。 詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">タスクの期間と期間の種類：記事のインデックス</a></p> </td> 
+      <td> <p>リソースの数（およびその割り当て率）とタスクの期間または合計作業量との関係を決定します。詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">タスクの期間と期間の種類：記事のインデックス</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">収益タイプ</td> 
-      <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。 次の場合に <strong>売上高タイプ</strong> が<strong>請求不可</strong>計画時間と記録された実際の時間では、タスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの売上高には影響しません。</p> </td> 
+      <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。<strong>収益タイプ</strong>が<strong>請求不可</strong>の場合、計画時間と記録された実際の時間では、タスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの収益には寄与しません。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">コストの種類</td> 
-      <td> <p>タスクの予定コスト見積もりと実績コスト見積もりを計算します。 に設定する場合 <strong>コストなし</strong>計画時間と記録された実績時間では、タスクの計画済みコストまたは実績コストの見積もりは生成されず、タスクの作業はプロジェクトレベルのコストには影響しません。</p> </td> 
+      <td role="rowheader">コストタイプ</td> 
+      <td> <p>タスクの計画コスト見積もりと実績コスト見積もりを計算します。「<strong>コストなし</strong>」に設定した場合、計画時間と記録された実績時間では、タスクの計画コスト見積もりや実績コストの見積もりは生成されず、タスクの作業はプロジェクトレベルのコストには寄与しません。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -119,31 +119,31 @@ Workfront管理者が環境設定をロック解除する方法について詳�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">解決オブジェクトの状態が変わると、解決可能問題の状態を自動的に更新します</td> 
-      <td> <p>誰かがイシューをプロジェクトまたはタスクに変換すると、元のイシューと変換後のプロジェクトまたはタスクの両方がオブジェクトの解決になります。 この設定では、元の問題の解決と、解決可能なオブジェクトの解決とを関連付けることができます。 オブジェクトの解決の詳細については、「 <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">オブジェクトの解決と解決の概要 </a>.</p> <p>この設定を有効にするには、 <strong>元の問題を保持し、その解決をタスクに結び付けます</strong> を選択する必要があります。</p> 
+      <td role="rowheader">解決オブジェクトの状態が変わると、解決可能なイシューの状態を自動的に更新する</td> 
+      <td> <p>誰かがあるイシューをプロジェクトまたはタスクに変換すると、元のイシューと変換後のプロジェクトまたはタスクの両方が解決オブジェクトになります。この設定を使用すると、元のイシューの解決策を解決可能なオブジェクトの解決策に関連付けることができます。オブジェクトの解決に関して詳しくは、<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解決オブジェクトと解決可能なオブジェクトの概要</a>を参照してください。</p> <p>この設定を効果的にするには、「<strong>元のイシューを保持して、その解決策をタスクに結び付け</strong>」オプションを選択する必要があります。</p> 
        <ul> 
-        <li>この設定を有効にすると、イシュー、プロジェクト、タスクの両方で同じキーを使用してカスタムステータスを作成できます。 プロジェクトまたはタスク（解決可能なオブジェクト）がカスタムステータスに変わると、変更は問題のステータスにも反映されます。 イシュー、プロジェクトまたはタスクのステータスについて、ステータスキーは同じにする必要があります。</li> 
-        <li>この設定を無効にした場合、解決するオブジェクトのステータスは、カスタムのステータスではなく、自動的にデフォルトのステータスに設定されます。 デフォルトのステータスについて詳しくは、 <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">システムの問題ステータスのリストへのアクセス</a>.</li> 
+        <li>この設定を有効にすると、イシューと、プロジェクトまたはタスクの両方で、同じキーを使用してカスタムのステータスを作成できます。プロジェクトまたはタスク（解決可能なオブジェクト）がカスタムのステータスに変わると、その変更はイシューのステータスにも反映されます。ステータスキーは、イシューとプロジェクトまたはタスクのステータスで同じにする必要があります。</li> 
+        <li>この設定を無効にすると、解決するオブジェクトのステータスは、カスタムのステータスではなく、自動的にデフォルトのステータスに設定されます。デフォルトのステータスについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">システムイシューステータスのリストへのアクセス</a>を参照してください。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">イシューをタスクに変換する場合</td> 
-      <td> <p>このセクションの設定は、問題からタスクへの変換プロセス中に何が起こるかを決定します。</p> 
+      <td role="rowheader">イシューをタスクに変換するとき</td> 
+      <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
        <ul> 
-        <li><strong>元の問題を保持し、その解決をタスクに結び付けます</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。 タスクが完了すると、イシューのステータスは自動的に「クローズ済み」に変わります。</li> 
-        <li><strong>プライマリの連絡先にタスクへのアクセスを許可</strong>：タスクをレビュー、更新し、進行状況を常に知らせるために、タスクに主要連絡先（イシュー作成者）がアクセスできるようにします</li> 
-        <li> <p><strong>変換時にこれらの設定を変更できるようにする</strong>：イシューを変換するユーザーが、イシューをタスクに変換する際に、これらのオプションを変更できます。</p> <!--
+        <li><strong>元のイシューを保持し、その解決策をタスクに関連付ける</strong>：イシューを変換する際、タスクが完了するまで、イシューはイシューとして表示され続けます。タスクが完了すると、イシューのステータスは自動的にクローズに変わります。</li> 
+        <li><strong>プライマリ連絡先にタスクへのアクセスを許す</strong>：タスクのレビュー、更新、進捗の確認ができるように、プライマリ連絡先（イシュー作成者）がタスクにアクセスできるようにします。</li> 
+        <li> <p><strong>変換中にこれらの設定を変更できるようにする</strong>：イシューをタスクに変換する際に、変換するユーザーがこれらのオプションを変更できるようにします。</p> <!--
           Screenshot when possible</p>
          --> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">イシューをプロジェクトに変換する場合</td> 
-      <td> <p>この節の設定は、問題からプロジェクトへの変換プロセス中に何が起こるかを決定します。</p> 
+      <td role="rowheader">イシューをプロジェクトに変換するとき</td> 
+      <td> <p>このセクションの設定で、イシューからプロジェクトへ変換するプロセスで起こることを定めます。</p> 
        <ul> 
-        <li><strong>元の問題を保持し、その解決をプロジェクトに結び付けます。</strong>：イシューを変換する場合、プロジェクトが完了するまで、イシューはイシューとして表示され続けます。 プロジェクトが完了すると、問題のステータスが自動的に「クローズ」に変わります。</li> 
-        <li><strong>プライマリの連絡先がプロジェクトにアクセスできるようにする</strong>：プロジェクトをレビューし、更新し、進行状況を常に知らせるために、主要連絡先（イシュー作成者）がプロジェクトにアクセスできるようにします。</li> 
-        <li><strong>変換時にこれらの設定を変更できるようにする</strong>：イシューを変換するユーザーが、イシューをプロジェクトに変換する際に、リストに表示されているオプションを変更できます。</li> 
+        <li><strong>元のイシューを保持し、その解決策をプロジェクトに関連付ける</strong>：イシューを変換する際、プロジェクトが完了するまで、イシューはイシューとして表示され続けます。プロジェクトが完了すると、イシューのステータスは自動的にクローズに変わります。</li> 
+        <li><strong>プライマリ連絡先にプロジェクトへのアクセスを許す</strong>：プロジェクトのレビュー、更新、進捗の確認ができるように、プライマリ連絡先（イシュー作成者）がプロジェクトにアクセスできるようにします。</li> 
+        <li><strong>変換中にこれらの設定を変更できるようにする</strong>：イシューをプロジェクトに変換する際に、変換するユーザーがリストに表示されているオプションを変更できるようにします。</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -156,14 +156,14 @@ Workfront管理者が環境設定をロック解除する方法について詳�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">ユーザーにログ時間のあるタスクと問題の削除を許可する</td> 
-      <td> <p> タスクの削除を許可するか、時間が記録される問題を許可するかを指定できます。 このオプションはデフォルトで選択されています。</p> 
+      <td role="rowheader">ユーザーに対して、時間が記録されたタスクとイシューの削除を許可する</td> 
+      <td> <p> 時間が記録されるタスクやイシューの削除を許可するかどうかを指定します。このオプションはデフォルトで選択されています。</p> 
        <div> 
-        <p><b>ヒント</b>：この設定は、タスクを持つプロジェクトやログオン時間に関する問題が発生したプロジェクトの削除にも適用されます。 この設定は、プロジェクトの時刻が直接記録されるプロジェクトの削除には適用されません。 </p> 
+        <p><b>ヒント</b>：この設定は、時間が記録されるタスクやイシューを持つプロジェクトの削除にも適用されます。この設定は、時間がプロジェクトに直接記録されるようなプロジェクトの削除には適用されません。 </p> 
         <p>次の点に注意してください。</p> 
         <ul> 
-         <li> <p>このオプションを選択すると、タスクまたはイシューを削除する際に、情報の警告が表示されます。 この警告は、タスクまたは問題がログに記録された時間が過ぎると、プロジェクトに移動されるか、削除されることを示します。 時間を削除するか、プロジェクトに移動するかは、セットアップの [ タイムシートと時間の基本設定 ] 領域で設定できます。 警告が表示されたことを確認すると、タスクまたはイシューは削除されます。 タイムシートと時間の基本設定の構成の詳細については、「 <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">タイムシートと時間の基本設定を構成する</a>. </p> <p>ヒント： <span>タスクと問題が記録されたプロジェクトを削除すると、記録された時間は削除されるか、[ セットアップ ] の [ タイムシートと時間の基本設定 ] 領域の設定に従って保持されます</span>. </p> </li> 
-         <li><span>このオプションを選択解除すると、タスクやログに記録された時間の問題を削除したり、タスクや問題のログに記録された時間のあるプロジェクトを削除したりした場合に、非常に多くの警告が表示されます</span> <span>.</span> 警告は、管理者がログに記録された時間に関するタスクや問題を削除できないことを示します。 タスク、問題<span>、タスクや問題に関して数時間のログが記録されたプロジェクト</span> は削除できません。 </li> 
+         <li> <p>このオプションを選択すると、タスクまたはイシューを削除する際に、警告メッセージが表示されます。この警告は、タスクまたはイシューが時間を記録していた場合、その時間はプロジェクトに移動されるか、削除されることを知らせるものです。時間を削除するか、プロジェクトに移動するかは、「設定」のタイムシートと時間の環境設定エリアで設定できます。警告が表示されたことを確認すると、タスクまたはイシューは削除されます。タイムシートと時間の環境設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">タイムシートと時間の環境設定</a>を参照してください。 </p> <p>ヒント：<span>時間を記録していたタスクとイシューを削除すると、「設定」のタイムシートと時間の環境設定エリアの設定に基づいて、記録されていた時間は削除されるか、保持されます。</span> </p> </li> 
+         <li><span>このオプションの選択を解除すると、時間が記録されたタスクやイシューを削除したり、タスクやイシューの時間が記録されたプロジェクトを削除したりした際に、禁止の警告が表示されます。</span> <span></span>この警告は、時間が記録されたタスクやイシューを削除することを管理者が禁止していることを示しています。タスク、イシュー<span>、およびタスクやイシュー</span>の時間が記録されたプロジェクトは削除できません。 </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -177,19 +177,19 @@ Workfront管理者が環境設定をロック解除する方法について詳�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">タスクまたはタスクが「新規」から「処理中」に変わったら、「実績開始日」を「次の日付」に設定します。</td> 
-      <td> <p>タスクまたは問題の発生時にWorkfrontで実際の開始日が記録される場合に、次のオプションのいずれかを選択します <strong>新規</strong> から <strong>処理中</strong>:</p> 
+      <td role="rowheader">タスクまたはイシューが新規から処理中に変わったときの、実際の開始日の設定</td> 
+      <td> <p>タスクまたはイシューが<strong>新規</strong>から<strong>処理中</strong>に変わったとき、Workfront で実際の開始日が記録されるタイミングとして、次のオプションのいずれかを選択します。</p> 
        <ul> 
-        <li><strong>今：</strong> 実際の開始日は現在の日付に設定されます。</li> 
-        <li><strong>計画開始日：</strong> [ 実績開始日 ] は、タスクまたはタスクの [ 計画開始日 ] に設定されます。</li> 
+        <li><strong>今：</strong>実際の開始日は現在の日付に設定されます。</li> 
+        <li><strong>予定開始日：</strong>実際の開始日は、タスクまたはイシューの予定開始日に設定されます。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">タスクまたはイシューが完了したら、「実際の完了日」を「</td> 
-      <td> <p>タスクまたはイシューが完了したときにWorkfrontで実際の完了日が記録される場合は、次のオプションのいずれかを選択します。</p> 
+      <td role="rowheader">タスクまたはイシューが完了したときの、実際の完了日の設定</td> 
+      <td> <p>タスクまたはイシューが完了したとき、Workfront で実際の完了日が記録されるタイミングとして、次のオプションのいずれかを選択します。</p> 
        <ul> 
-        <li><strong>今：</strong> 実際の完了日は現在の日付に設定されます。</li> 
-        <li> <p><strong>計画完了日：</strong> 実績完了日は、タスクまたは発行の計画完了日に設定されます。</p> </li> 
+        <li><strong>今：</strong>実際の完了日は現在の日付に設定されます。</li> 
+        <li> <p><strong>予定完了日：</strong>実際の完了日は、タスクまたはイシューの予定完了日に設定されます。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -229,24 +229,24 @@ Workfront管理者が環境設定をロック解除する方法について詳�
       <td role="rowheader">誰かがタスクに割り当てられたとき</td> 
       <td> 
        <ul> 
-        <li><strong>タスクへのアクセス権をユーザーに与える</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。 タスク権限の詳細については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> ユーザーへのアクセス権の付与</a>.</li> 
-        <li> <p><strong>また、ユーザーにプロジェクトへのアクセス権を付与します。</strong>：タスクが割り当てられているプロジェクトに対してユーザーが持つデフォルトの権限を定義します。 プロジェクト権限の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p> </li> 
+        <li><strong>タスクへのアクセス権を付与する</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。タスクの権限について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。</li> 
+        <li> <p><strong>プロジェクトへのアクセス権も付与する</strong>：ユーザーが割り当て先のタスクを含んだプロジェクトに対して持つデフォルトの権限を定義します。プロジェクトの権限について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境の設定</a>を参照してください。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">誰かが問題に割り当てられたとき</td> 
+      <td role="rowheader">誰かがイシューに割り当てられたとき</td> 
       <td> 
        <ul> 
-        <li><strong>タスクへのアクセス権をユーザーに与える</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。 タスク権限の詳細については、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>.</li> 
-        <li> <p><strong>また、ユーザーにプロジェクトへのアクセス権を付与します。</strong>：タスクが割り当てられているプロジェクトに対してユーザーが持つデフォルトの権限を定義します。 プロジェクト権限の詳細については、 <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>.</p> </li> 
+        <li><strong>タスクへのアクセス権を付与</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。タスクの権限について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセスを許可</a>を参照してください。</li> 
+        <li> <p><strong>プロジェクトへのアクセス権も付与</strong>：ユーザーが割り当て先のタスクを含んだプロジェクトに対して持つデフォルトの権限を定義します。プロジェクトの権限について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境を設定</a>を参照してください。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">誰かがリクエストを送信したとき</td> 
       <td> 
        <ul> 
-        <li><strong>問題に対するアクセス権をユーザーに与えます。</strong>：ユーザーが送信したリクエストに対して持つデフォルトの権限を定義します。 詳しくは、 <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>.</li> 
-        <li> <p><strong>同じ会社の担当者は、すべてのリクエストに対して同じ権限を継承します</strong>：ユーザーは、同じ会社の他のユーザーによって送信されたリクエストを表示できます。 これらのリクエストに対する権限は、独自に送信されたリクエストに対する権限と同じです。</p> </li> 
+        <li><strong>イシューに対する ... アクセス権をユーザーに付与</strong>：ユーザーが送信したリクエストに対して持つデフォルトの権限を定義します。詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</li> 
+        <li> <p><strong>同じ会社のユーザーはすべてのリクエストに対して同じ権限を継承</strong>：ユーザーは、同じ会社の他のユーザーによって送信されたリクエストを表示できます。これらのリクエストに対する権限は、独自に送信されたリクエストに対する権限と同じです。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

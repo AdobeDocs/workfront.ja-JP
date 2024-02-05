@@ -11,7 +11,7 @@ exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
 source-git-commit: 0e6ffd54fdbe968d48d27dc7e0a5501579f50f8d
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-このセクションでは、以下のサブセクションについて説明します。
+このセクションには、次のサブセクションが含まれます。
 
-* [Adobe Workfrontに新しいドキュメントを追加](../documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
-* [ドキュメントを管理](../documents/managing-documents/manage-documents.md)
-* [ドキュメントを整理](../documents/organizing-documents/organize-documents.md)
-* [Adobe Workfront内のAdobe Workfront DAM](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-* [WorkfrontとExperience Manager Assetsの統合](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Adobe Workfront への新しいドキュメントの追加](../documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+* [ドキュメントの管理](../documents/managing-documents/manage-documents.md)
+* [ドキュメントの整理](../documents/organizing-documents/organize-documents.md)
+* [Adobe Workfront 内の Adobe Workfront DAM](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* [Workfront と Experience Manager Assets の統合](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

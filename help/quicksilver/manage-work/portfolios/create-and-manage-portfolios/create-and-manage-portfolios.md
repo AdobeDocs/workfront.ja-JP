@@ -9,7 +9,7 @@ feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: eea47cc9-becb-4617-b49c-265c20753908
 source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
 

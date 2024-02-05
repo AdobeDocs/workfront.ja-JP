@@ -1,21 +1,21 @@
 ---
 filename: wf-kb
-title: Workfrontナレッジベース
+title: Workfront ナレッジベース
 recommendations: noDisplay, noCatalog
 description: 。
 source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 13%
+ht-degree: 91%
 
 ---
 
 
-# Workfrontナレッジベース
+# Workfront ナレッジベース
 
 * [管理と設定](administration-and-setup/administration-and-setup.md)
-* [Adobe Workfrontの基本](workfront-basics/workfront-basics.md)
-* [人、チーム、グループ](people-teams-and-groups/people-teams-and-groups.md)
+* [Adobe Workfront の基本](workfront-basics/workfront-basics.md)
+* [ユーザー、チーム、グループ](people-teams-and-groups/people-teams-and-groups.md)
 * [リソースの管理](resource-mgmt/manage-resources.md)
 * [アジャイル](agile/agile.md)
 * [作業を管理](manage-work/manage-work.md)
@@ -28,7 +28,7 @@ ht-degree: 13%
   -->
 
 * [タイムシート：記事インデックス](timesheets/timesheets-all.md)
-* [Adobe Workfront統合](workfront-integrations-and-apps/workfront-integrations.md)
+* [Adobe Workfront 統合](workfront-integrations-and-apps/workfront-integrations.md)
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Workfront プルーフ](workfront-proof/workfront-proof.md)
 * [製品に関するお知らせ](product-announcements/product-announcements.md)

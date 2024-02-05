@@ -9,7 +9,7 @@ feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 1ff36a4b-637a-46f2-ac1a-6a8d2c146862
 source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 100%
 

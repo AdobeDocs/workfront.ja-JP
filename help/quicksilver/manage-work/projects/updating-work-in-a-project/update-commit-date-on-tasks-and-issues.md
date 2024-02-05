@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: タスクと問題に関するコミット日の更新
-description: タスクまたは割り当て先のイシューのコミット日は手動で更新できます。 Adobe Workfrontでのコミット日の詳細については、「コミット日の概要」を参照してください。
+title: タスクやイシューのコミット日の更新
+description: 割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、「コミット日の概要」を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
-# タスクと問題に関するコミット日の更新
+# タスクやイシューのコミット日の更新
 
-タスクまたは割り当て先のイシューのコミット日は手動で更新できます。 Adobe Workfrontでのコミット日の詳細については、 [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
 ## アクセス要件
 
@@ -28,11 +28,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> 
    新しいライセンスの場合：
    <ul>
@@ -41,19 +41,19 @@ ht-degree: 0%
    </ul>
    現在のライセンスの場合：
 <ul>
-   <li><p>タスクに関する作業以上</p></li> 
-   <li><p>問題に対するリクエスト以上</p></li>
+   <li><p>タスクの場合はワーク以上</p></li> 
+   <li><p>イシューの場合はリクエスト以上</p></li>
 </ul>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスクおよび問題へのアクセスを編集</p> </td> 
+   <td> <p>タスクおよびイシューに対する編集アクセス権</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td> <p>タスクまたはイシューに対する権限の管理</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>タスクまたはイシューの管理権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,15 +62,15 @@ ht-degree: 0%
 
 ## 前提条件
 
-開始する前に、タスクまたはイシューに割り当てられている必要があります。コミット日を更新する必要があります。
+作業を開始するには、コミット日の更新対象となるタスクまたはイシューに自分が割り当てられている必要があります。
 
-## タスクと問題に関するコミット日の更新
+## タスクやイシューのコミット日の更新
 
-タスクと問題のコミット日の更新は同じです。
+コミット日の更新は、タスクとイシューで同じです。
 
 1. として割り当てられているタスクまたはタスクに移動します **所有者**.
 
-   イシューまたはタスクのタスク所有者の特定について詳しくは、「 [タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) 記事内 [タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+   タスクやイシューのタスク所有者の確認方法について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)の記事で[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)の節を参照してください。
 
 1. クリック **タスクの詳細** または **問題の詳細** をクリックします。
 1. クリック **概要** 拡張する
@@ -84,7 +84,7 @@ ht-degree: 0%
 
    * タスクまたはタスクのコミット日と計画完了日が同じではなくなりました。
 
-     代わりに、タスクまたはタスクのコミット日と予定完了日が同じになります。
+     代わりに、コミット日と、タスクまたはイシューの見込み完了日が同じになります。
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
@@ -92,4 +92,4 @@ ht-degree: 0%
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-     この変更によってトリガーされる通知と更新について詳しくは、 [コミット日の変更によってトリガーされる通知と更新](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) 記事内 [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     この変更によってトリガーされる通知と更新について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)の記事で[コミット日の変更でトリガーされる通知と更新](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica)の節を参照してください。

@@ -8,7 +8,7 @@ feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
 source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 100%
 

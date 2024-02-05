@@ -2,18 +2,18 @@
 filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: 日付の形式を変更する [!DNL Adobe Workfront]
-description: 日付の形式を変更するには、以下の手順を実行します。 [!DNL Adobe Workfront] ブラウザーの言語設定を変更する必要があります。
+title: ' [!DNL Adobe Workfront] で日付の形式を変更する'
+description: ' [!DNL Adobe Workfront]  で日付の形式を変更するには、ブラウザーの言語設定を変更する必要があります。'
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# 日付の形式を変更する [!DNL Adobe Workfront]
+# [!DNL Adobe Workfront] で日付の形式を変更する
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
@@ -31,13 +31,13 @@ Workfrontでは、表示する変更と変更を表示する場所に応じて�
    * MM/DD/YYYY
    * 月曜日 (YYY)
 
-  の言語設定を変更するには [!DNL Chrome] または他のブラウザを使用する場合は、そのブラウザの設定を変更する必要があります。 ブラウザーの設定を変更する手順は、ブラウザーによって異なります。 ブラウザーの [!UICONTROL ヘルプ], [!UICONTROL 環境設定]または [!UICONTROL 設定] 領域を参照してください。
+  [!DNL Chrome] またはその他のブラウザーで言語設定を変更するには、そのブラウザーの設定を変更する必要があります。ブラウザーの設定を変更する手順は、ブラウザーによって異なります。 ブラウザーの[!UICONTROL ヘルプ]、[!UICONTROL 環境設定]または[!UICONTROL 設定]エリアを参照し、設定の変更方法を確認してください。
 
 * レポートとビューでのみ日付の形式を変更するには、 [!UICONTROL フィールドの形式] 設定を [!UICONTROL 詳細オプション] 列の領域（レポートまたはビューの作成時） これによって、場所や言語に応じて日付の形式が変更されることはありません。 同じ場所や言語のコンテキストで日付の形式を変更します。
 
   ![](assets/field-format-in-advanced-options-of-a-view-highlighted.png)
 
-  詳しくは、 [カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  詳しくは、[カスタムレポートの作成](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 * 組織全体に対するすべての送信電子メール通知で日付の形式を変更するには、 [!UICONTROL デフォルトの電子メールロケール] 設定を [!UICONTROL 顧客情報] 領域 [!UICONTROL 設定].
 
@@ -49,7 +49,7 @@ Workfrontでは、表示する変更と変更を表示する場所に応じて�
 
   ![](assets/email-locale-for-user-profile-highlighted.png)
 
-  詳しくは、 [ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  詳しくは、[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 <!--drafted because we should not document steps for a third-party application
 

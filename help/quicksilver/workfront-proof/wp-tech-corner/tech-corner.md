@@ -12,16 +12,16 @@ exl-id: dbdaa5c8-4d09-4e12-b84f-b3a37e6b3b78
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # [!DNL Workfront Proof] 技術コーナー
 
-このセクションでは、以下のサブセクションについて説明します。
+このセクションには、次のサブセクションが含まれます。
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-* [配達確認のタイプ](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)
+* [プルーフタイプ](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)

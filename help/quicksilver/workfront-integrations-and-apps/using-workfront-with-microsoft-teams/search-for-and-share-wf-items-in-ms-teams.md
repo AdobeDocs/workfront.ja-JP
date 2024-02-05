@@ -1,28 +1,28 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: 検索と共有 [!DNL Adobe Workfront] 次の項目 [!DNL Microsoft Teams]
-description: 以下を検索できます。 [!DNL Workfront] 任意の項目 [!DNL Adobe WorkfrontWorkfront] チャネルイン [!DNL Microsoft Teams] これらの項目をチームのメンバーと共有します。
+title: ' [!DNL Microsoft Teams] での  [!DNL Adobe Workfront]  項目の検索および共有'
+description: ' [!DNL Microsoft Teams] の任意の [!DNL Adobe WorkfrontWorkfront] チャネルで [!DNL Workfront] 項目を検索し、これらの項目をチームのメンバーと共有できます。'
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
-# 検索と共有 [!DNL Adobe Workfront] 次の項目 [!DNL Microsoft Teams]
+# [!DNL Microsoft Teams] での [!DNL Adobe Workfront] 項目の検索および共有
 
 >[!NOTE]
 >
 >Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
 
-以下を検索できます。 [!DNL Workfront] 任意の項目 [!DNL Adobe Workfront] チャネルイン [!DNL Microsoft Teams] これらの項目をチームのメンバーと共有します。
+[!DNL Microsoft Teams] の任意の [!DNL Adobe Workfront] チャネルで [!DNL Workfront] 項目を検索し、これらの項目をチームのメンバーと共有できます。
 
-* [共有の前提条件 [!DNL Workfront] 次の項目 [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
-* [検索と共有 [!DNL Workfront] 次の項目 [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
+* [ [!DNL Microsoft Teams] で  [!DNL Workfront]  項目を共有するための前提条件](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [ [!DNL Microsoft Teams] での  [!DNL Workfront]  項目の検索および共有](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
 
 ## アクセス要件
 
@@ -33,7 +33,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -43,25 +43,25 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## 共有の前提条件 [!DNL Workfront] 次の項目 [!DNL Microsoft Teams] {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
+## [!DNL Microsoft Teams] で [!DNL Workfront] 項目を共有するための前提条件 {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
 
-検索して共有できます [!DNL Workfront] 次の項目 [!DNL Microsoft Teams] 次の条件が満たされた場合：
+次の条件が満たされた場合、[!DNL Microsoft Teams] で [!DNL Workfront] 項目を検索して共有できます。
 
-* チーム所有者がインストールおよび設定しました [!DNL Workfront for Microsoft Teams] チームのために。
-* ログインしています [!DNL Workfront] から [!UICONTROL Microsoft Teams].
+* チーム所有者がチームに対して [!DNL Workfront for Microsoft Teams] をインストールおよび設定している。
+* [!UICONTROL Microsoft Teams]. から [!DNL Workfront] にログインしている。
 
-インストールに関する情報 [!UICONTROL Workfront forMicrosoft Teams] にログインし、 [!UICONTROL Workfront] から [!DNL Microsoft Teams]を参照してください。 [Adobe Workfront forMicrosoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+[!UICONTROL Workfront for Microsoft Teams] のインストールと、[!DNL Microsoft Teams] から [!UICONTROL Workfront] へのログインについては、[Adobe Workfront for Microsoft Teams のインストール](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] は、サポートを終了しました [!DNL Internet Explorer]. 次の手順で [!DNL Adobe Workfront for Microsoft Teams integration]を使用する場合は、 [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] は、[!DNL Internet Explorer] のサポートを終了しました。[!DNL Adobe Workfront for Microsoft Teams integration] を使用する場合は、[!DNL Internet Explorer] 以外の web ブラウザーを使用する必要があります。
 
 
-## 検索と共有 [!DNL Workfront] 次の項目 [!DNL Microsoft Teams] {#search-for-and-share-workfront-items-in-microsoft-teams}
+## [!DNL Microsoft Teams] での [!DNL Workfront] 項目の検索および共有 {#search-for-and-share-workfront-items-in-microsoft-teams}
 
-次を検索できます。 [!DNL Workfront] からの項目 [!DNL Microsoft Teams] チャネル：
+[!DNL Microsoft Teams] チャネルから次の [!DNL Workfront] 項目を検索できます。
 
 * プロジェクト
 * タスク
@@ -72,31 +72,31 @@ ht-degree: 0%
 
 * イシュー
 
-検索した項目が見つかったら、他のユーザーと共有できます。 [!DNL Microsoft Teams].
+検索した項目が見つかったら、[!DNL Microsoft Teams] で他のユーザーと共有できます。
 
-を検索するには [!DNL Workfront] 項目： [!DNL Microsoft Teams] そして、他の人と共有します。
+[!DNL Microsoft Teams] から [!DNL Workfront] 項目を検索して他のユーザーと共有するには：
 
-1. In [!DNL Microsoft Teams]、任意のチャットチャネルに移動し、 **[!DNL Workfront]** アイコン。
-1. を検索します。 [!DNL Workfront] 次のいずれかの操作を行って、項目を選択します。
+1. [!DNL Microsoft Teams] で任意のチャットチャネルに移動し、**[!DNL Workfront]** アイコンをクリックします。
+1. 次のいずれかの操作を行って、[!DNL Workfront] 項目を検索します。
 
-   * 次をクリック： [!DNL Workfront] アイコンをクリックします。\
+   * 会話フィールドの下にある [!DNL Workfront] アイコンをクリックします。\
 
      ![ms_teams_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
-      設定によっては、このアイコンが「 **[!UICONTROL その他]** アイコンを使用します。\
+      設定によっては、このアイコンは&#x200B;**[!UICONTROL その他]**&#x200B;アイコンの下に表示されます。\
       ![more_icon.png](assets/more-icon-52x34.png)\
-      The **[!UICONTROL 検索]** ボックスがデフォルトで表示されます。
+      「**[!UICONTROL 検索]**」ボックスがデフォルトで表示されます。
 
-   * タイプ *@[!DNL Workfront]* 任意のチャネルから「 Workfront 」を選択し、「 」を選択します。 **[!UICONTROL 検索].**
+   * 任意のチャネルから「*@[!DNL Workfront]*」と入力し、Workfront を選択して、「**[!UICONTROL 検索]」を選択します。**
 
      ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
-1. Adobe Analytics の [!UICONTROL 検索] ボックスが表示されたら、プロジェクト、タスク、またはイシューの名前または参照番号を入力し、一覧に表示されたらクリックします。\
+1. 「[!UICONTROL 検索]」ボックスに、プロジェクト、タスク、またはイシューの名前または参照番号を入力し始めて、リストに表示されたらクリックします。\
    ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
-   これにより、 [!DNL Workfront] 項目を選択します。 項目の名前、親オブジェクト、ステータス、優先度、完了率など、項目に関する情報がカードに含まれます。
+   これにより、チャットフィールドに [!DNL Workfront] 項目を含むカードが追加されます。カードには、項目の名前、親オブジェクト、ステータス、優先度、完了率など、項目に関する情報が含まれます。
 
-1. （オプション） [!DNL Workfront] 「 」カードを選択し、「 **[!UICONTROL 送信]** または Enter キーを押します。\
-   これにより、次の情報を含むメッセージが送信されます [!DNL Workfront] 項目をチャネルに追加します。\
-   チャネルのすべてのメンバーが、このメッセージを表示できます。これには、 [!DNL Workfront] カード。
+1. （オプション）[!DNL Workfront] カードの下にコメントを追加し、「**[!UICONTROL 送信]**」または Enter キーを押します。\
+   これにより、[!DNL Workfront] 項目を含むメッセージがチャネルに送信されます。\
+   チャネルのすべてのメンバーが、このメッセージを表示できます。これには、[!DNL Workfront] カードの情報が含まれます。
 
-1. クリック **[!UICONTROL Workfrontで表示]** 次の場所にアイテムを表示する： [!DNL Workfront].\
-   次を持つユーザーのみ： [!DNL Workfront] ライセンスは次の項目を表示できます： [!DNL Workfront].
+1. 「**[!UICONTROL Workfrontで表示]**」をクリックすると、[!DNL Workfront] に項目が表示されます。\
+   [!DNL Workfront] ライセンスを持つユーザーのみが、[!DNL Workfront] で項目を表示できます。

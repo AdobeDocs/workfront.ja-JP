@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: add-documents-to-workfront
-title: ファイルシステムからAdobe Workfrontにドキュメントを追加する
+title: ファイルシステムから Adobe Workfront へのドキュメントの追加
 description: Adobe Workfrontの複数の領域で、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
 author: Courtney
 feature: Digital Content and Documents
@@ -9,23 +9,23 @@ exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 1%
+ht-degree: 97%
 
 ---
 
-# ファイルシステムからAdobe Workfrontにドキュメントを追加する
+# ファイルシステムから Adobe Workfront へのドキュメントの追加
 
-Adobe Workfrontの次の領域で、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
+Adobe Workfront の次のエリアで、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
 
-* 「グローバルドキュメント」領域
-* Workfrontオブジェクトの「ドキュメント」領域
+* グローバルドキュメント領域
+* Workfront オブジェクトのドキュメント領域
 * Workfrontボード上の接続済みカード
 
-また、新しいバージョンのドキュメントをアップロードし、Google Drive、Dropbox、Microsoft OneDrive など、サードパーティのクラウドベンダーからのドキュメントへのリンクを追加することもできます。 新しいバージョンのドキュメントの追加について詳しくは、 [新しいバージョンのドキュメントをアップロード](../../documents/managing-documents/upload-new-document-version.md). サードパーティのクラウドベンダーからのドキュメントの追加について詳しくは、 [外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+また、新しいバージョンのドキュメントをアップロードし、Google Drive、Dropbox、Microsoft OneDrive など、サードパーティのクラウドベンダーからのドキュメントへのリンクを追加することもできます。新しいバージョンのドキュメントの追加について詳しくは、[新しいバージョンのドキュメントのアップロード](../../documents/managing-documents/upload-new-document-version.md)を参照してください。サードパーティのクラウドベンダーからのドキュメントの追加について詳しくは、[外部アプリケーションからのドキュメントのリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)を参照してください。
 
-Workfrontにアップロードできるファイルの種類とサイズに制限はありません。 ただし、正常に完了するには、5 分以内にアップロードが完了し、十分なストレージ容量が必要です。
+Workfront にアップロードできるファイルの種類とサイズに制限はありません。ただし、正常に完了するには、5 分以内にアップロードが完了し、十分なストレージ容量があることが必要です。
 
-ドキュメントの新しいバージョンをWorkfrontにアップロードする方法について詳しくは、 [新しいバージョンのドキュメントをアップロード](../../documents/managing-documents/upload-new-document-version.md).
+ドキュメントの新しいバージョンを Workfront にアップロードする方法について詳しくは、[新しいバージョンのドキュメントのアップロード](../../documents/managing-documents/upload-new-document-version.md)を参照してください。
 
 ## アクセス要件
 
@@ -36,25 +36,25 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>注意：まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限が設定されているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## Workfrontにドキュメントを追加
+## Workfront へのドキュメントの追加
 
-新しいドキュメントは、ワークステーションのファイルシステムからWorkfrontに追加できます。 また、Google Drive やSharePointなどのサードパーティアプリケーションからドキュメントをリンクすることもできます。
+ワークステーションのファイルシステムから、新しいドキュメントを Workfront に追加できます。また、Google Drive や SharePoint などのサードパーティアプリケーションからドキュメントをリンクすることもできます。
 
 >[!NOTE]
 >
@@ -62,8 +62,8 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
 
 ドキュメントを追加するには：
 
-1. 新しいドキュメントを追加するプロジェクト、タスク、またはタスクに移動します。
-1. 次をクリック： **ドキュメント** 「 」タブで、 **新規追加** ドロップダウンメニュー。
+1. 新しいドキュメントを追加するプロジェクト、タスク、またはイシューに移動します。
+1. 「**ドキュメント**」タブをクリックし、**新規追加**&#x200B;ドロップダウンメニューをクリックします。
 
    ![](assets/add-new-doc.png)
 
@@ -74,53 +74,53 @@ Workfrontにアップロードできるファイルの種類とサイズに制�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">ワークステーションにファイルシステムからドキュメントをアップロードする</td> 
+      <td role="rowheader">ワークステーションのファイルシステムからのドキュメントのアップロード</td> 
       <td> 
        <ol> 
-        <li value="1">次から： <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>文書。</strong></li> 
+        <li value="1"><strong>新規追加</strong>ドロップダウンメニューから、<strong>ドキュメント</strong>を選択します。</li> 
         <li value="2"> <p>ワークステーション上のファイルシステムから、追加するドキュメントを参照して選択します。<br></p> <p>Shift キーを押しながら追加のファイルを選択すると、複数のドキュメントを選択できます。</p> </li> 
-        <li value="3">クリック <strong>開く</strong>.</li> 
+        <li value="3">「<strong>開く</strong>」をクリックします。</li> 
        </ol> 
-       <p><b>注意</b>：ファイルマネージャーから直接ドキュメントリストにファイルをドラッグ&amp;ドロップすることもできます。</td> 
+       <p><b>メモ</b>：ファイルマネージャーから直接ドキュメントリストにファイルをドラッグ＆ドロップすることもできます。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Google Drive やSharePointなどのサードパーティアプリケーションからドキュメントをアップロードする</td> 
+      <td role="rowheader">Google Drive や SharePoint などのサードパーティアプリケーションからのドキュメントのアップロード</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>次から： <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>送信者 &lt;name_of_third-party_application&gt;</strong>.</p> <p>例えば、Google Drive からドキュメントをアップロードするには、 <strong>Google Drive から</strong>.</p> </li> 
-        <li value="2"> <p>画面の指示に従って、サードパーティアプリケーションでドキュメントを選択します。<br></p> <p>リンクされたドキュメントの詳細については、「 <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">外部アプリケーションからドキュメントをリンク</a>.</p> </li> 
+        <li value="1"> <p><strong>新規追加</strong>ドロップダウンメニューから、<strong>From &lt;name_of_third-party_application&gt;</strong> を選択します。</p> <p>例えば、Google Drive からドキュメントをアップロードするには、<strong>From Google Drive</strong> をクリックします。</p> </li> 
+        <li value="2"> <p>プロンプトに従って、サードパーティアプリケーションでドキュメントを選択します。<br></p> <p>リンクされたドキュメントについて詳しくは、<a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">外部アプリケーションからのドキュメントのリンク</a>を参照してください。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">別のWorkfrontユーザーからのドキュメントのリクエスト</td> 
+      <td role="rowheader">別の Workfront ユーザーからのドキュメントのリクエスト</td> 
       <td> 
        <ol> 
-        <li value="1">次から： <strong>新規追加</strong> ドロップダウンメニューで、「 <strong>ドキュメントのリクエスト</strong>.</li> 
-        <li value="2">Adobe Analytics の <strong>誰からリクエストしているか</strong> ボックスに、ドキュメントを要求するユーザーの名前を入力します。</li> 
-        <li value="3">Adobe Analytics の <strong>リクエスト内容を伝える</strong> ボックスに、ドキュメントの名前を入力します。</li> 
-        <li value="4"> <p>クリック <strong>リクエストを送信</strong>.</p> <p>リクエストが「ドキュメント」タブに表示されます。</p> <p>ドキュメントのリクエストについて詳しくは、 <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">ドキュメントのリクエスト</a>.</p> </li> 
+        <li value="1"><strong>新規追加</strong>ドロップダウンメニューから、<strong>ドキュメントのリクエスト</strong>を選択します。</li> 
+        <li value="2"><strong>誰からリクエストしますか</strong>ボックスに、ドキュメントをリクエストするユーザーの名前を入力します。</li> 
+        <li value="3"><strong>リクエスト内容を伝える</strong>ボックスに、ドキュメントの名前を入力します。</li> 
+        <li value="4"> <p><strong>リクエストを送信</strong>をクリックします。</p> <p>リクエストが「ドキュメント」タブに表示されます。</p> <p>ドキュメントのリクエストについて詳しくは、<a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">ドキュメントのリクエスト</a>を参照してください。</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## Document Security
+## ドキュメントのセキュリティ
 
-Workfrontサイトは、次の方法でドキュメントを介してウイルスやその他の悪意のあるコンテンツがサイトに入るのを防ぎます。
+Workfront サイトは、ドキュメントを介してウイルスやその他の悪質なコンテンツがサイトに入るのを次の方法で防ぎます。
 
-* [Workfrontが破損したファイルを検出する方法](#how-workfront-detects-corrupted-files)
+* [Workfront が破損ファイルを検出する方法](#how-workfront-detects-corrupted-files)
 * [ファイル名の制限](#file-name-restrictions)
 
-### Workfrontが破損したファイルを検出する方法 {#how-workfront-detects-corrupted-files}
+### Workfront が破損ファイルを検出する方法 {#how-workfront-detects-corrupted-files}
 
-ドキュメントスキャンは、リクエストに応じてのみ、組織で有効になっています。
+ドキュメントスキャンは、リクエストに応じてのみ、組織に対して有効になっています。
 
-ドキュメントスキャンが有効な場合、25 MB 未満のファイルはアップロード時にスキャンされます。 25 MB を超えるファイルはスキャンされません。
+ドキュメントスキャンが有効な場合、25 MB 未満のファイルはアップロード時にスキャンされます。25 MB を超えるファイルはスキャンされません。
 
-Workfrontが破損したドキュメントを検出すると、Workfrontはアップロードプロセスを中断し、ファイルが破損していることを示すメッセージが表示されます。 また、Workfrontが悪意の可能性のあるコンテンツを検出し、ファイルの削除が予定されている場合にも、電子メール通知が送信されます。
+Workfront が破損したドキュメントを検出すると、Workfront はアップロードプロセスを中断し、ファイルが破損していることを示すメッセージが表示されます。また、Workfront が悪質な可能性のあるコンテンツを検出し、ファイルの削除が予定されている場合にも、メール通知が送信されます。
 
-破損したファイルは、手動で削除しない限り、検出後 24 時間以内に削除されます。 破損したファイルを削除した場合、Workfrontはこのアクションを更新として追跡します。 Workfrontによる削除を許可した場合、更新は記録されません。
+破損ファイルは、手動で削除しない限り、検出後 24 時間以内に削除されます。破損したファイルを削除すると、Workfront はこのアクションを更新として追跡します。Workfront による削除を許可した場合、更新は記録されません。
 
 ### ファイル名の制限 {#file-name-restrictions}
 
-Workfrontにアップロードされたファイルには、ファイル名に特定の文字を含めることはできません。 ファイル名に次の文字のいずれかが含まれている場合、ファイルのアップロード時にその文字がファイル名から削除されます。 `< > { }`.
+Workfront にアップロードされるファイルの名前には、特定の文字を含めることができません。ファイル名に `< > { }` のいずれかの文字が含まれている場合、その文字はファイルのアップロード時にファイル名から削除されます。

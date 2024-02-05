@@ -1,21 +1,22 @@
 ---
-title: のヒント、テクニックおよびトラブルシューティング [!DNL Workfront Proof] モバイルアプリ
+title: ' [!DNL Workfront Proof]  モバイルアプリのヒント、テクニックおよびトラブルシューティング'
 description: Workfront Proof Mobile のトラブルシューティングについて説明します。
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: b8384c56-345d-428a-bb86-05fa4001d3ea
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
-# のヒント、テクニックおよびトラブルシューティング [!DNL Workfront Proof] モバイルアプリ
+# [!DNL Workfront Proof] モバイルアプリのヒント、テクニックおよびトラブルシューティング
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 この節では、次の記事を扱います。
 
-* [にログインできません [!DNL Workfront Proof] モバイルアプリ](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
+* [ [!DNL Workfront Proof]  モバイルアプリにログインできません](../../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 担当業務の作成と管理
-description: As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者アクセス権を持つユーザーは、ユーザーに割り当て可能なジョブロールを作成し、組織に関係のないデフォルトのジョブロールを削除できます。
+description: ' [!DNL Adobe Workfront]  管理者、または担当業務の管理アクセス権を持つユーザーは、ユーザーに割り当て可能な担当業務を作成し、組織に関係のないデフォルトの担当業務を削除できます。'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,7 +11,7 @@ exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 source-git-commit: 32441df90b915077f57ead791116dcbd32c9557a
 workflow-type: tm+mt
 source-wordcount: '1140'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者アクセス権を持つユーザーは、ユーザーに割り当て可能なジョブロールを作成し、組織に関係のないデフォルトのジョブロールを削除できます。 での管理アクセスについて詳しくは、 [!DNL Workfront]を参照してください。 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+[!DNL Adobe Workfront] 管理者、または担当業務への管理アクセス権を持つユーザーは、ユーザーに割り当て可能な担当業務を作成し、組織に関係のないデフォルトの担当業務を削除できます。[!DNL Workfront] での管理アクセスについて詳しくは、[特定のエリアに対する管理アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
 ## アクセス要件
 
@@ -32,7 +32,7 @@ As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] 計画</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
@@ -43,21 +43,21 @@ As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ジョブロールへの管理者アクセス</p> </td> 
+   <td> <p>担当業務の管理アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## ジョブロールの作成
+## 担当業務を作成
 
 ジョブ・ロールを作成する手順は、次のとおりです。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「 」をクリックしま&#x200B;す。 **[!UICONTROL ジョブの役割].**
-1. クリック **[!UICONTROL 新しいジョブの役割].**
+1. 左側のパネルで、「**[!UICONTROL 担当業務]**」をクリックします。
+1. 「**[!UICONTROL 新規担当業務]**」をクリックします。
 1. 以下を設定します。
 
    <table style="table-layout:auto"> 
@@ -65,56 +65,56 @@ As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 名前 ]</td> 
-      <td> <p>ジョブの役割の名前を指定します。 これは、 [!DNL Workfront] [!UICONTROL ジョブロール ] フィールドが表示されます。 </p> <p>ヒント：ジョブの役割の名前は 255 文字までです。 ただし、 [!DNL Workfront]. </p> </td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td> <p>担当業務の名前を指定します。これは、[!DNL Workfront] で[!UICONTROL Job Role]フィールドが表示される場合に常に表示される名前です。 </p> <p>ヒント：担当業務の名前は 255 文字まで入力できます。ただし、名前が長い場合は、[!DNL Workfront] の一部の領域で省略される可能性があります。 </p> </td> 
      </tr>
      <tr> 
-      <td role="rowheader">[!UICONTROL 説明 ]</td> 
-      <td>ロールの一意性を示す説明を入力します。 </td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>役割の一意性を示す説明を入力します。 </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL がアクティブです ]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Is Active]</span> </td> 
       <td> 
        <ul> 
-        <li> <p>選択 <b>[!UICONTROL はい ]</b> 役割をアクティブにし、 [!DNL Workfront] ユーザー、作業項目などに関連付ける </p> </li> 
-        <li> <p>選択 <b>[!UICONTROL いいえ ]</b>を無効にし、ユーザーや作業項目などに割り当てられないようにする場合。 </p> </li> 
-       </ul> <p><span>ジョブの役割の非アクティブ化について詳しくは、</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">ジョブの役割の非アクティブ化</a>. </p> </td> 
+        <li> <p>役割を [!DNL Workfront] のあらゆる場所でアクティブにでき、ユーザー、作業アイテムなどに関連付けられるようにする場合は、「<b>[!UICONTROL Yes]</b>」を選択します。 </p> </li> 
+        <li> <p>役割を非アクティブ化し、ユーザーや作業アイテムなどに割り当てられないようにする場合は、「<b>[!UICONTROL No]</b>」を選択します。 </p> </li> 
+       </ul> <p><span>担当業務の非アクティブ化について詳しくは、</span><a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">担当業務の非アクティブ化</a>を参照してください。 </p> </td> 
      </tr>
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL 基本通貨 ]</span> </td> 
-      <td> <p><span>これは、Workfront管理者が [!UICONTROL 設定 ] 領域で設定した [!UICONTROL 基本通貨 ] です。 詳しくは、</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a> .</p> <p>ヒント： <span>[!UICONTROL 基本通貨 ] は、ジョブの役割レベルでは編集できません。 このフィールドは淡色表示になり、システムの基本通貨を確認する役割を果たします。</span> </p> </td> 
+      <td role="rowheader"><span>[!UICONTROL Base Currency]</span> </td> 
+      <td> <p><span>これは、Workfront 管理者が[!UICONTROL Setup]エリアで設定した[!UICONTROL Base Currency]です。詳しくは、</span><a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p> <p>ヒント：<span>[!UICONTROL Base Currency]は、担当業務レベルでは編集できません。このフィールドはグレー表示で、システムの基本通貨を確認できます。</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL コストレート ]</td> 
-      <td><p>これは、ジョブロールの 1 時間あたりのコスト率です。 この値は、ロールに関連するタスクとタスクの計画原価と実績原価、および最終的にはプロジェクトの計画原価と実績原価を計算します。 [!UICONTROL 基本通貨 ] を使用してレートを入力します。</p> 
-      <p>有効な日付の原価率の場合は、 <strong>[!UICONTROL 追加率 ]</strong>. その期間のコスト/時間の値を入力し、必要に応じて [!UICONTROL 開始日 ] と [!UICONTROL 終了日 ] を割り当てます。 最初のコストレートには開始日が設定されず、最後のコストレートには終了日が設定されません。</p> <p>一部の日付は自動的に追加されます。 例えば、最初のコストレートに終了日が設定されていない場合に、開始日が 2023 年 5 月 1 日の 2 番目のコストレートを追加すると、ギャップが生じないように、2023 年 4 月 30 日の終了日が最初のコストレートに追加されます。</p> <p>ヒント：既存のジョブの役割を編集する際に、「 <strong>開始日で並べ替え</strong> をクリックすると、最新の開始日がレートリストの上部に表示されます。</p></td> 
+      <td><p>これは、担当業務の 1 時間あたりのコスト率です。この値は、役割に関連するタスクとイシューの予定コストと実際のコスト、最終的にはプロジェクトの予定コストと実際のコストを計算します。[!UICONTROL Base Currency]を使用してレートを入力します。</p> 
+      <p>日付が有効なコスト率の場合は、「<strong>[!UICONTROL Add Rate]</strong>」をクリックします。その期間の 1 時間当たりのコストの値を入力し、必要に応じて[!UICONTROL Start Date]と[!UICONTROL End Date]を割り当てます。最初のコスト率には開始日が設定されず、最後のコスト率には終了日が設定されません。</p> <p>一部の日付は自動的に追加されます。例えば、最初のコスト率に終了日が設定されていない場合に、2 番目のコスト率を追加して開始日を 2023年5月1日とすると、ギャップが生じないように、最初のコスト率に終了日 2023年4月30日が追加されます。</p> <p>ヒント：既存の担当業務を編集する際に、「<strong>開始日順に並べ替える</strong>」をクリックすると、最新の開始日がレートリストの上部に表示されます。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL 請求率 ] </td> 
-      <td><p>これは、ジョブロールの 1 時間あたりの請求率です。 この値は、ロールに関連するタスクとタスクの計画収益と実際の収益、および最終的にはプロジェクトの計画収益と実際の収益を計算します。 [!UICONTROL 基本通貨 ] を使用してレートを入力します。</p> <p>有効な請求率の日付を表示するには、 <strong>[!UICONTROL 追加率 ]</strong>. その期間の請求/時間の値を入力し、必要に応じて [!UICONTROL 開始日 ] と [!UICONTROL 終了日 ] を割り当てます。 最初の請求率には開始日が設定されず、最後の請求率には終了日が設定されません。</p> <p>一部の日付は自動的に追加されます。 例えば、最初の請求率に終了日がなく、開始日が 2023 年 5 月 1 日の 2 番目の請求を追加した場合、ギャップが生じないように、2023 年 4 月 30 日の終了日が最初の請求率に追加されます。</p> <p>ヒント：既存のジョブの役割を編集する際に、「 <strong>開始日で並べ替え</strong> をクリックすると、最新の開始日がレートリストの上部に表示されます。</p> </td> 
+      <td><p>これは、担当業務の 1 時間あたりの請求レートです。この値は、役割に関連するタスクの予定収益と実収益、最終的にはプロジェクトの予定収益と実収益を計算します。[!UICONTROL Base Currency]を使用してレートを入力します。</p> <p>日付が有効な請求レートを表示するには、「<strong>[!UICONTROL Add Rate]</strong>」をクリックします。その期間の 1 時間当たりの請求レートの値を入力し、必要に応じて[!UICONTROL Start Date]と[!UICONTROL End Date]を割り当てます。最初の請求レートには開始日が設定されず、最後の請求レートには終了日が設定されません。</p> <p>一部の日付は自動的に追加されます。例えば、最初の請求レートに終了日がなく、2 番目の請求レートを追加して開始日を 2023年5月1日とすると、ギャップが生じないように、最初の請求レートに終了日 2023年4月30日が追加されます。</p> <p>ヒント：既存の担当業務を編集する際に、「<strong>開始日順に並べ替える</strong>」をクリックすると、最新の開始日がレートリストの上部に表示されます。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL 通貨の上書き ]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
       <td>
-        <p>このジョブの役割に関連付けられている通貨を選択します。 これが通貨です。 [!DNL Workfront] は、このジョブロールに関連付けられたコストと売上高の計算に使用します。 </p> 
+        <p>この担当業務に関連付けられている通貨を選択します。これは、[!DNL Workfront] でこの担当業務に関連付けられたコストと収益の計算に使用する通貨です。 </p> 
         <p><span>これは、 [!DNL Workfront] 管理者（[!UICONTROL 設定 ] 領域）で設定できます。プロジェクトに関連付けられている通貨とは異なる通貨を使用することもできます。</span> </p> 
         <p>ヒント：このフィールドは、システムの [!UICONTROL 為替レート ] 領域で使用できる通貨のみが表示されます。 設定されている通貨が 1 つだけの場合、このフィールドは表示されません。</p> 
-       <p><span>[!UICONTROL 基本通貨 ] の設定について詳しくは、 [!DNL Workfront]を参照してください。</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>.</p> <p><span>プロジェクトの通貨の変更について詳しくは、</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">プロジェクトの通貨を変更</a>.</p> </td> 
+       <p><span>[!DNL Workfront] での[!UICONTROL Base Currency]の設定について詳しくは、</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p> <p><span>プロジェクトの通貨の変更について詳しくは、</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">プロジェクトの通貨の変更</a>を参照してください。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL 通貨コストレートの上書き ]</span> </td> 
       <td>
-        <p>これは、選択した [!UICONTROL 通貨の上書き ] を使用するジョブロールの 1 時間あたりのコスト率です。 [!DNL Workfront] この値を使用して、ジョブロールに関連するタスクおよびタスクの計画コストと実際のコストを計算します。 </p> 
-        <p><span>上記の [!UICONTROL 通貨上書き ] でレートを入力します。 これにより、[!UICONTROL 基本通貨 ] を使用する際に、このジョブロールのコストレートも更新されます。</span> </p> 
-        <p>詳しくは、 [!DNL Workfront] コストの計算については、 <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>.</p> 
+        <p>これは、選択した「[!UICONTROL Override Currency]」を使用する担当業務の 1 時間あたりのコスト率です。[!DNL Workfront] はこの値を使用して、担当業務に関連するタスクおよびイシューの予定コストと実際のコストを計算します。 </p> 
+        <p><span>上記の「[!UICONTROL Override Currency]」にレートを入力します。これにより、[!UICONTROL 基本通貨 ] を使用する際に、このジョブロールのコストレートも更新されます。</span> </p> 
+        <p>[!DNL Workfront] のコストの計算について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> 
        <p>ヒント：既にコスト・レートが関連付けられている既存のジョブ・ロールを更新する場合は、次の手順に従います。 [!DNL Workfront] は、システム内のコンバージョン率に基づいて [!UICONTROL 通貨の上書き ] 率を計算します。 [!UICONTROL Override Currency Cost Rate] を更新すると、ジョブロールのコストレートも自動的に更新されます。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL 通貨の請求率の上書き ]</span> </td> 
       <td>
-        <p>これは、選択した [!UICONTROL 通貨の上書き ] を使用したジョブロールの 1 時間あたりの請求率です。 [!DNL Workfront] この値を使用して、ジョブロールに関連するタスクおよびタスクの計画収益と実際の売上高を計算します。 </p>
-        <p><span>上記の [!UICONTROL 通貨上書き ] でレートを入力します。 これにより、[!UICONTROL 基本通貨 ] を使用する際に、このジョブの役割に対する請求率も更新されます。</span> </p>
-        <p>詳しくは、 [!DNL Workfront] 売上高の計算については、 <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と売上高の概要</a>.</p>
+        <p>これは、選択した「[!UICONTROL Override Currency]」を使用した担当業務の 1 時間あたりの請求レートです。[!DNL Workfront] はこの値を使用して、担当業務に関連するタスクおよびイシューの予定収益と実収益を計算します。 </p>
+        <p><span>上記の「[!UICONTROL Override Currency]」にレートを入力します。これにより、[!UICONTROL 基本通貨 ] を使用する際に、このジョブの役割に対する請求率も更新されます。</span> </p>
+        <p>[!DNL Workfront] の収益の計算方法について詳しくは、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と収益の概要</a>を参照してください。</p>
         <p>ヒント：既に請求率が関連付けられている既存のジョブロールを更新する場合は、次の手順に従います。 [!DNL Workfront] は、システム内の換算レートに基づいて「上書き通貨」レートを計算します。 「通貨請求レートの上書き」を更新すると、ジョブ・ロールの請求レートも自動的に更新されます。 </p>
        </td>
      </tr> 
@@ -123,9 +123,9 @@ As an [!DNL Adobe Workfront] 管理者またはジョブロールへの管理者
 
    >[!TIP]
    >
-   >ジョブの役割は、リソース管理に不可欠な要素です。 生産資源計画ツールを使用するには、製造オーダー・ロールに関連付けられた原価と請求率が必要です。 詳しくは、 [リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+   >担当業務は、リソース管理に不可欠な要素です。リソース計画ツールを使用するには、担当業務に関連付けられたコストと請求レートが必要です。詳しくは、[リソース管理の概要](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
 
-1. クリック **[!UICONTROL ジョブロールを作成]**. これで、ジョブの役割をタスク、イシュー、承認に割り当てたり、レイアウトテンプレートや他のオブジェクトをタスクと共有したりできるようになりました。 でのジョブの役割のすべての使用に関する情報 [!DNL Workfront]を参照してください。 [ジョブロールの概要](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). ジョブの役割の削除について詳しくは、 [ジョブの役割を削除](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. 「**[!UICONTROL 担当業務を作成]**」をクリックします。担当業務をタスク、イシュー、承認に割り当てたり、レイアウトテンプレートや他のオブジェクトをタスクと共有したりできるようになります。[!DNL Workfront] でのすべての担当業務の使用に関する情報について詳しくは、[担当業務の概要](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md)を参照してください。担当業務の削除について詳しくは、[担当業務の削除](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

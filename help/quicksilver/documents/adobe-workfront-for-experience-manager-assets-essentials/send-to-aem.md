@@ -7,7 +7,7 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
 source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 100%
 

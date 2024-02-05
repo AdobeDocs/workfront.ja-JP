@@ -12,7 +12,7 @@ exl-id: b66b7820-bb8a-4d29-822c-0de968fa2492
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->この記事では、スタンドアロン製品の機能について説明します [!DNL Workfront Proof]. 内部での検証に関する情報 [!DNL Adobe Workfront]を参照してください。 [校正](../../../review-and-approve-work/proofing/proofing.md).
+>この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 この節では、次の記事を扱います。
 
-* [に配達確認を追加 [!DNL Basecamp Classic] プロジェクト](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
-* [統合 [!DNL Workfront Proof] 次を使用 [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
-* [での配達確認の確認 [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
+* [ [!DNL Basecamp Classic]  プロジェクトにプルーフを追加](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
+* [ [!DNL Workfront Proof]  を  [!DNL Basecamp Classic] と統合](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
+* [ [!DNL Basecamp Classic] でのプルーフのレビュー](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)

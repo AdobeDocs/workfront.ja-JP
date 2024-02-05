@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 9c7e0810-80e4-4048-a79b-cb91319e5e37
 source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 100%
 

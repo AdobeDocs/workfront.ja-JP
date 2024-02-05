@@ -2,46 +2,46 @@
 product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Adobe WorkfrontからWorkfront Proof にアクセス
+title: Adobe Workfront から Workfront Proof にアクセス
 description: Workfront Proof にログインすることなく、Adobe Workfrontインターフェイスから直接Workfront Proof アカウントにすばやくアクセスできます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 0%
+source-wordcount: '266'
+ht-degree: 92%
 
 ---
 
-# Adobe WorkfrontからWorkfront Proof にアクセス
+# Adobe Workfront から Workfront Proof にアクセス
 
-以下の条件を満たした場合、Workfront Proof にログインする必要なく、Adobe Workfrontインターフェイスから直接Workfront Proof アカウントにすばやくアクセスできます。
+次の条件が満たされている場合、Workfront Proof にログインすることなく、Adobe Workfront インターフェースから直接 Workfront Proof アカウントにすばやくアクセスできます。
 
-* Workfront環境は、Workfront Proof Premium アカウントと統合されています。 Workfront Proof Premium アカウントでのみ使用できる機能について詳しくは、を参照してください。
+* Workfront 環境は、Workfront Proof プレミアムアカウントと統合されています。Workfront Proof Premium アカウントでのみ利用できる機能について詳しくは、次を参照してください。
 
-  Workfront Proof ライセンスがある。 ( ユーザーがWorkfront Proof 管理者である必要はありません )。
+  Workfront Proof ライセンスを持っている。(ユーザーは Workfront Proof 管理者である必要はありません。)
 
-* Workfrontの管理者権限を持っており、Workfrontユーザーアカウントで校正が有効になっています。
+* Workfront の管理者権限があり、Workfront ユーザーアカウントでプルーフが有効になっている。
 
   または
 
-  お客様は、Workfrontカスタマーサポートに連絡し、権限に関係なく、システム内のすべての校正ユーザーに対してこのアクセス権を要求します。
+  Workfront カスタマーサポートに連絡し、ユーザーがどのような権限を持っているかに関係なく、システム内のすべてのプルーフユーザーに対してこのアクセス権をリクエストする。
 
-  詳しくは、 [すべての校正ユーザーがWorkfront内でWorkfront Proof にアクセスできるようにします](#enable-all-proofing-users-to-access-workfront-proof-within-workfront) 」を参照してください。
+  詳しくは、[すべてのプルーフユーザーが Workfront 内の Workfront Proof にアクセスできるようにする](#enable-all-proofing-users-to-access-workfront-proof-within-workfront)を参照してください。
 
-この節の説明に従ってWorkfront Proof にアクセスできない場合は、Workfront管理者にお問い合わせください。
+この節で説明したように Workfront Proof にアクセスできない場合は、Workfront 管理者に問い合わせてください。
 
-## WorkfrontからWorkfront Proof にアクセス {#access-workfront-proof-from-workfront}
+## Workfront から Workfront Proof にアクセス {#access-workfront-proof-from-workfront}
 
-デフォルトでは、この節で説明するように、Workfront内の管理者権限を持つユーザーのみがWorkfront配達確認にアクセスできます。 
+デフォルトでは、このセクションで説明するように、Workfront 内の管理者権限を持つユーザーのみが Workfront Proof にアクセスできます。 
 
-1. クリック校正 ![](assets/proofing-main-menu.png) （メインメニュー内） ![](assets/main-menu-icon.png).
+1. メインメニュー ![](assets/main-menu-icon.png) でプルーフ ![](assets/proofing-main-menu.png) をクリックします。
 
-   Workfront Proof Premium アカウントに自動的にログインします。
+   Workfront Proof プレミアムアカウントに自動的にログインされます。
 
-Workfront Proof Premium アカウントにログインした後で使用できる機能について詳しくは、 [Workfront Help Site](https://support.workfront.com).
+Workfront Proof プレミアムアカウントにログインした後に利用できる機能については、[Workfront ヘルプサイト](https://support.workfront.com)を参照してください。
 
-## すべての校正ユーザーがWorkfront内でWorkfront Proof にアクセスできるようにします {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
+## すべてのプルーフユーザーが Workfront 内の Workfront Proof にアクセスできるようにします {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
 
-デフォルトでは、Workfront内の管理者権限を持つユーザーのみがWorkfront配達確認にアクセスできます。詳しくは、 [WorkfrontからWorkfront Proof にアクセス](#access-workfront-proof-from-workfront)
+デフォルトでは、[Workfront から Workfront Proof にアクセス](#access-workfront-proof-from-workfront) で説明されているように、Workfront 内の管理者権限を持つユーザーのみが Workfront Proof にアクセスできます。
