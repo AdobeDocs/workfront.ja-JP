@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
+source-git-commit: 4120b44a1be1fc8cf7da26ac441c8e51fa8b48ac
 workflow-type: tm+mt
-source-wordcount: '5011'
-ht-degree: 83%
+source-wordcount: '5096'
+ht-degree: 81%
 
 ---
 
@@ -502,7 +502,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->外部参照機能は、Document オブジェクトでは使用できません。
+>外部参照機能は、Document オブジェクトまたは User オブジェクトでは使用できません。
 
 外部参照を追加する手順は、次のとおりです。
 
@@ -540,9 +540,11 @@ ht-degree: 83%
      <tr> 
       <td role="rowheader">ベース API の URL</td> 
       <td><p>API の URL を入力または貼り付けます。</p><p>API URL は、ドロップダウンに表示するオプションの JSON コンテンツを返す必要があります。 「 JSON パス」フィールドを使用して、返された JSON からドロップダウンオプションに含まれる特定の値を選択できます。</p><p>API URL を入力する際に、オプションで次の値を URL に渡すことができます。</p>
-      <ul><li>$$QUERY — エンドユーザーがフィールドに入力する検索テキストを表し、エンドユーザーに対してクエリフィルターを実装できます。 （ユーザーはドロップダウン内の値を検索します）。</li>
-      <li><p>$$HOST — 現在のWorkfrontホストを表し、Workfront API に対する/search API 呼び出しをおこなうために使用できます。 このワイルドカードを使用する場合、認証が処理され、ユーザーは認証ヘッダーを送信する必要はありません。 （例えば、ユーザーはベース URL を使用してタスクを検索できます） <code>$$HOST/attask/api/task/search</code> タスクを検索し、返されたタスクのリストから値を選択できます )。<p>
-      <p>参照している API で許可されている場合は、検索クエリに修飾子を含めて、検索の仕組みを識別することもできます。 例えば、次の API を Base URL として使用すると、特定のテキストを含む任意のWorkfrontプロジェクトをユーザーが検索できるようになります。 <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Workfrontの検索修飾子の詳細については、 <a href="/help/quicksilver/wf-api/general/api-basics.md">API の基本</a>.</p></li>
+      <ul>
+      <li>$$HOST — 現在のWorkfrontホストを表し、Workfront API に対する/search API 呼び出しをおこなうために使用できます。 このワイルドカードを使用する場合、認証が処理され、ユーザーは認証ヘッダーを送信する必要はありません。 （例えば、ユーザーはベース URL を使用してタスクを検索できます） <code>$$HOST/attask/api/task/search</code> タスクを検索し、返されたタスクのリストから値を選択できます )。</li>
+      <li><p>$$QUERY — エンドユーザーがフィールドに入力する検索テキストを表し、エンドユーザーに対してクエリフィルターを実装できます。 （ユーザーはドロップダウン内の値を検索します）。</p>
+      <p>参照している API で許可されている場合は、検索クエリに修飾子を含めて、検索の仕組みを識別することもできます。 例えば、次の API を Base URL として使用すると、特定のテキストを含む任意のWorkfrontプロジェクトをユーザーが検索できるようになります。 <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Workfrontの検索修飾子の詳細については、 <a href="/help/quicksilver/wf-api/general/api-basics.md">API の基本</a>.</p>
+      <p><strong>注意：</strong> $$QUERY を使用せず、検索ボックスにテキストを入力した場合は、既に選択項目が絞り込まれます。 ただし、$$QUERY を使用し、ユーザーが何かを入力した場合は、API への新しいネットワーク呼び出しが実行されます。 したがって、API に 2,000 個を超える値があり、API がクエリをサポートしている場合、$$QUERY を使用して、既存の 2,000 個の値から検索するだけでなく、絞り込まれたオプションを持つ元の API から検索できます。</p></li>
       <li><p>{fieldName} - fieldName は、Workfrontの任意のカスタムフィールドまたはネイティブフィールドです。 この方法では、既に選択されているフィールドの値を「外部参照」フィールドに渡してオプションをフィルターダウンする際に、カスケードドロップダウンオプションフィルターを実装できます。 （例えば、「地域」フィールドが既にフォーム上に存在し、API から特定の地域に属する国のリストに国を絞り込むとします）。</p>
       <p>他のフィールドに依存する外部参照フィールドの場合 ( {fieldName} 構文を参照 )、API から返されるオプションは、他のフィールドに入力された文字列や値と一致するオプションに制限されます。 （この機能は、リストとレポートではサポートされていません。）</p></li>
       <li>{referenceObject}.{fieldName}  — フィールドがオブジェクトの一部である場所。 この構文は、カスタム式に似ています。 ( 例：portfolioID={project}.{portfolioID})</li></ul>
