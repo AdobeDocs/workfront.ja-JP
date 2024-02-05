@@ -45,7 +45,7 @@ ProofHQ API の概要については、[PoofHQ の概要](../../proofhq-api/gene
 
    >[!NOTE]
    >
-   プルーフを作成する際に、`{}` を `advancedProofingOptions` パラメーターの値として設定します。
+   >プルーフを作成する際に、`{}` を `advancedProofingOptions` パラメーターの値として設定します。
 
 1. プルーフを作成した後、ProofHQ API を使用して任意の詳細オプションを追加します。
 
@@ -153,9 +153,9 @@ ProofHQ API の概要については、[PoofHQ の概要](../../proofhq-api/gene
 
 >[!NOTE]
 >
-advancedProofingOptions JSON に含めるフィールドの予測は難しい場合があります。Workfront で詳細プルーフを使用しながら組織のネットワークデータを調べ、組織でよく使用されるフィールドと値に基づいて JSON を設定することもできます。
+>advancedProofingOptions JSON に含めるフィールドの予測は難しい場合があります。Workfront で詳細プルーフを使用しながら組織のネットワークデータを調べ、組織でよく使用されるフィールドと値に基づいて JSON を設定することもできます。
 >
-これらのフィールドの予測は難しい場合があるので、Workfront API を使用してプルーフを作成したあと、ProofHQ API を使用してプルーフを更新することをお勧めします。詳しくは、この記事の [Workfront API と ProofHQ API を使用したプルーフの作成（推奨）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended)を参照してください。
+>これらのフィールドの予測は難しい場合があるので、Workfront API を使用してプルーフを作成したあと、ProofHQ API を使用してプルーフを更新することをお勧めします。詳しくは、この記事の [Workfront API と ProofHQ API を使用したプルーフの作成（推奨）](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended)を参照してください。
 
 ### 例
 

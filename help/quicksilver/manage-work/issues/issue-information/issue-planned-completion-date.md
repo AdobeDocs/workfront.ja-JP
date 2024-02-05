@@ -27,10 +27,10 @@ ht-degree: 100%
 >
 >* コミット日は、イシューに割り当てられたユーザーがイシューの完了を手動で推定した日付です。詳しくは、次の記事を参照してください。
 >
-* [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-* [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
+>* [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+>* [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
 >
-* 見込み完了日とは、Workfront によって計算された日付で、外部の要因を考慮して、イシューを現実的に完了できる実際の日付を決定します。詳しくは、[プロジェクト、タスクおよびイシューの見込み完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
+>* 見込み完了日とは、Workfront によって計算された日付で、外部の要因を考慮して、イシューを現実的に完了できる実際の日付を決定します。詳しくは、[プロジェクト、タスクおよびイシューの見込み完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
 >
 
 ## イシューの予定完了日を手動で設定する
@@ -75,6 +75,6 @@ Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
 
 >[!TIP]
 >
-Workfront では、予定完了日を計算する場合に、休日や週末などスケジュールの例外が考慮されます。
+>Workfront では、予定完了日を計算する場合に、休日や週末などスケジュールの例外が考慮されます。
 
  

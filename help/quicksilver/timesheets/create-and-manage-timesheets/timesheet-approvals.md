@@ -76,7 +76,7 @@ Workfront 管理者がユーザーに対するタイムシートの承認およ�
    >
    >   
    >   
-   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -85,7 +85,7 @@ Workfront 管理者がユーザーに対するタイムシートの承認およ�
 
    >[!TIP]
    >
-   承認待ちタイムシートのステータスは「[!UICONTROL 提出済み]」です。
+   >承認待ちタイムシートのステータスは「[!UICONTROL 提出済み]」です。
 
 
 1. 「**承認**」をクリックします。

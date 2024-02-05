@@ -80,7 +80,7 @@ ht-degree: 100%
    >
    >   
    >   
-   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -98,4 +98,4 @@ ht-degree: 100%
 
    >[!TIP]
    >
-   タイムシートリストの標準ビューでは、タイムシートの項目に対して記録された時間がタイムシートの時間枠の時間数を超えると、合計時間数が赤で表示されます。詳しくは、[Adobe Workfront の用語集](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)で「合計時間数」の項目を参照してください。
+   >タイムシートリストの標準ビューでは、タイムシートの項目に対して記録された時間がタイムシートの時間枠の時間数を超えると、合計時間数が赤で表示されます。詳しくは、[Adobe Workfront の用語集](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)で「合計時間数」の項目を参照してください。

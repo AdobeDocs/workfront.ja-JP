@@ -20,7 +20,7 @@ ht-degree: 100%
 
 [!DNL Adobe Workfront Fusion] [!DNL Figma] モジュールを使用して、コメント、ファイル、ファイルバージョン、またはプロジェクトの一覧を取得できます。また、コメントを投稿したり、[!DNL Figma] API を呼び出したりすることもできます。
 
-シナリオの作成手順が必要な場合は、[](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
+シナリオの作成手順が必要な場合は、[&#128279;](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
 モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
@@ -363,7 +363,7 @@ ht-degree: 100%
       <td>JSON を返す元となるファイルを選択します。</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>ノード ID</td>
+      <td role="rowheader" &lbrack;!UICONTROL>ノード ID</td>
       <td>
         <p>モジュールがレンダリングするノードを入力します。</p>
         <p>レンダリングするノードごとに、「<b>[!UICONTROL Add]</b>」をクリックしてノードのテキストを入力します。</p>

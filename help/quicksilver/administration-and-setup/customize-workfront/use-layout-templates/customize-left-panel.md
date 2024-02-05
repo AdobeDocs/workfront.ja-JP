@@ -70,6 +70,7 @@ ht-degree: 100%
    * 項目を表示するか（![](assets/add-secondary-nav-item.png) をクリック）非表示にするか（![](assets/delete-secondary-nav-item.png) をクリック）を選択します。![](assets/add-secondary-nav-item.png) や ![](assets/delete-secondary-nav-item.png) が付いていない項目は非表示にできません。
 
    * 項目の ![](assets/move-icon---dots.png) をドラッグして、左パネルでの順序を変更します。
+
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -198,10 +199,10 @@ ht-degree: 100%
    >[!NOTE]
    >
    >「**[!UICONTROL ユーザーの表示項目をカスタマイズする]**」ドロップダウンリストの最後の 3 つの項目（[!UICONTROL リスト]、[!UICONTROL ホームと概要]、および[!UICONTROL ブランディング]）は、左側のパネル以外のエリアを設定するためのものです。詳しくは、次の記事を参照してください。
->   >   
+   >   >   
 * [レイアウトテンプレートを使用したフィルター、ビュー、およびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 >* [レイアウトテンプレートを使用して、[!UICONTROL ホーム]と[!UICONTROL 概要]をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+>* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （オプション）組織のダッシュボードの 1 つにリンクする左側のパネル項目を追加する場合は、「**[!UICONTROL カスタムセクションを追加]**」をクリックし、項目の「**[!UICONTROL カスタムセクションのタイトル]**」を入力して、ダッシュボードを追加します。
@@ -210,7 +211,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   ユーザーは、カスタムダッシュボードの項目を独自の左側のパネルに追加できます。レイアウトテンプレートにカスタムダッシュボード項目を追加すると、上書きやリセットなく、自分の項目がその項目と結合されます。これは、ユーザーをカスタムのダッシュボード項目を含む新しいレイアウトテンプレートに割り当てる場合にも当てはまります。ユーザーが左側のパネルをカスタマイズする方法について詳しくは、[カスタムタブまたはセクションを作成](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
+   >ユーザーは、カスタムダッシュボードの項目を独自の左側のパネルに追加できます。レイアウトテンプレートにカスタムダッシュボード項目を追加すると、上書きやリセットなく、自分の項目がその項目と結合されます。これは、ユーザーをカスタムのダッシュボード項目を含む新しいレイアウトテンプレートに割り当てる場合にも当てはまります。ユーザーが左側のパネルをカスタマイズする方法について詳しくは、[カスタムタブまたはセクションを作成](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
 
    ダッシュボードについて詳しくは、[ダッシュボード](../../../reports-and-dashboards/dashboards/dashboards-overview.md)を参照してください。
 
@@ -222,4 +223,4 @@ ht-degree: 100%
 
    >[!TIP]
    >
-   いつでも「[!UICONTROL 保存]」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+   >いつでも「[!UICONTROL 保存]」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。

@@ -48,7 +48,7 @@ Workfront のユーザーに、プルーフライセンスを持っているか�
 詳しくは、次を参照してください。
 
 * [プルーフの役割の概要](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
-*  
+* &#x200B; 
 
 ## プルーフの電子サインの強化
 

@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!TIP]
 >
 >* 1 つのレポートに複数のフィルターを追加する場合は、すべてのフィルターを Report Builder インターフェイスを使用して追加し、他のフィルタールールをすべて追加した後で「テキストモードに切り替え」をクリックすることをお勧めします。次に、上記のように、親タスクフィルターのコードを追加できます。 
-* また、レポートを読みやすくするために、プロジェクト名のグループ化を追加することをお勧めします。レポートへのグループ化の追加について詳しくは、[Adobe Workfront でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)の記事を参照してください。
+>* また、レポートを読みやすくするために、プロジェクト名のグループ化を追加することをお勧めします。レポートへのグループ化の追加について詳しくは、[Adobe Workfront でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)の記事を参照してください。
 >
 
 ## アクセス要件

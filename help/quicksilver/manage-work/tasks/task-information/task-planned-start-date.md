@@ -92,4 +92,4 @@ Planned Start Date = Planned Completion Date - Task Duration
 >[!NOTE]
 >
 >予定時間数と期間を自動的に調整するには、プロジェクトの更新タイプを「自動・変更時」または「自動」に設定する必要があります。\
-更新タイプについて詳しくは、[プロジェクトの更新タイプの選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。
+>更新タイプについて詳しくは、[プロジェクトの更新タイプの選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)を参照してください。

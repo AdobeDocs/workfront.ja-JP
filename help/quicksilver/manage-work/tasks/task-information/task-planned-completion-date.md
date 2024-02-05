@@ -28,10 +28,10 @@ ht-degree: 100%
 >
 >* コミット日は、タスクに割り当てられたユーザーがタスクの完了を手動で見積もった日付です。詳しくは、次の記事を参照してください。
 >
-* [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-* [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
+>* [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+>* [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
 >
-* 見込み完了日とは、Workfront によって計算された日付で、タスクの遅延、タスクまたはその先行タスクのタイムライン、その他の要因を考慮して、タスクを現実的に完了できる実際の日付です。詳しくは、[プロジェクト、タスクおよびイシューの見込み完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
+>* 見込み完了日とは、Workfront によって計算された日付で、タスクの遅延、タスクまたはその先行タスクのタイムライン、その他の要因を考慮して、タスクを現実的に完了できる実際の日付です。詳しくは、[プロジェクト、タスクおよびイシューの見込み完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
 >
 
 ## タスクの予定完了日を手動で設定
@@ -106,5 +106,5 @@ Planned Completion Date = Planned Start Date + Duration
 
 >[!NOTE]
 >
-予定時間数と期間を自動的に調整するには、プロジェクトの「更新タイプ」を「自動・変更時」または「自動」に設定する必要があります。\
-更新タイプについて詳しくは、[プロジェクトの更新タイプの選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)の記事を参照してください。
+>予定時間数と期間を自動的に調整するには、プロジェクトの「更新タイプ」を「自動・変更時」または「自動」に設定する必要があります。\
+>更新タイプについて詳しくは、[プロジェクトの更新タイプの選択](../../../manage-work/projects/manage-projects/select-project-update-type.md)の記事を参照してください。

@@ -38,7 +38,7 @@ ht-degree: 100%
    <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader" [!DNL>Adobe Workfront Fusion ライセンス**</td> 
+   <td role="rowheader" &lbrack;!DNL>Adobe Workfront Fusion ライセンス**</td> 
    <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 

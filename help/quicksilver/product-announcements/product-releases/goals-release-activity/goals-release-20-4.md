@@ -57,9 +57,9 @@ Workfront Goals へのアクセス権の付与について詳しくは、「[Ado
 
 >[!NOTE]
 >
-**プレビューの可用性：** 2020年10月9日（PT）
+>**プレビューの可用性：** 2020年10月9日（PT）
 >
-**実稼動の可用性：** 20.4 リリースの場合
+>**実稼動の可用性：** 20.4 リリースの場合
 
 この機能は、Workfront One の[Workfront Goals の学習パス](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)に含まれるようになりました。
 
@@ -78,8 +78,8 @@ Workfront Goals へのアクセス権の付与について詳しくは、「[Ado
 
 >[!NOTE]
 >
-**プレビューの可用性：** 2020年9月25日（PT）
+>**プレビューの可用性：** 2020年9月25日（PT）
 >
-**実稼動の可用性：** 20.4 リリースの場合
+>**実稼動の可用性：** 20.4 リリースの場合
 
 この機能は、Workfront One の[Workfront Goals の学習パス](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)に含まれるようになりました。
