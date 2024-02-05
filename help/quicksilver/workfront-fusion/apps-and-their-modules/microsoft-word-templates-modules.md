@@ -93,14 +93,14 @@ ht-degree: 100%
 単純な値タグは、対応する値に置き換えられるだけです。タグの名前は「[!UICONTROL キー]」フィールドの値に対応し、二重の中括弧で囲まれます。例えば、
 
 
-<pre>{{name}}</pre>
+<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
 
 
 のように指定します。
 
 **例**：「こんにちは、ピーターさん。」と書かれたドキュメントを作成するには、[!DNL Microsoft Word Template]モジュールを使用して、次のテンプレートを作成します。
 
-<pre>&gt; こんにちは、{{name}}さん。</pre>
+<pre>&gt; こんにちは、&lbrace;&lbrace;name&rbrace;&rbrace;さん。</pre>
 
 それには、次のようにモジュールを設定します。
 
@@ -111,7 +111,7 @@ ht-degree: 100%
 条件タグを使用すると、特定の条件が満たされた場合にのみレンダリングされるテキストをラップするできます。テキストをラップするには、テキストを条件開始タグと条件終了タグで囲みます（例：データに電話番号が含まれているかどうかを条件とする場合の「hasPhone」）。次の例に示すように、開始タグ名の前にハッシュ記号 # が付き、終了タグ名の前にスラッシュ / が付きます。
 
 **例**：入力データに電話番号が含まれているがメールアドレスが含まれていない場合に、顧客の電話番号を含んだドキュメントを生成するには、[!DNL Microsoft Word Template]モジュールを使用し、次のテンプレートを作成します。
-<pre>&gt; {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}Email: {{email}} {{/hasEmail}}</pre>それには、次のようにモジュールを設定します。
+<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Phone: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;Email: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>それには、次のようにモジュールを設定します。
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
 **例**：顧客リスト内の各連絡先の名前と電話番号を記載したドキュメントを作成するには、[!DNL Microsoft Word Template] モジュールを作成し、次のテンプレートを作成します。
 
-<pre>&gt; {{#contact}}</pre><pre>&gt;    {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;    &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
 
 それには、次のようにモジュールを設定します。
 
