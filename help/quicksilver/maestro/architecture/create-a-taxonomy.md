@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-分類は、レコード・タイプで、Adobe・マエストロのオペレーショナル・レコード・タイプに関する属性をキャプチャします。
+分類レコードタイプは、AdobeMaestro のオペレーショナルレコードタイプに関する属性をキャプチャします。
 
 例えば、キャンペーンはオペレーショナルレコードタイプにすることができます。 Campaign レコードタイプに関する属性を取得する分類を次に示します：地域、オーディエンス、国。
 
@@ -47,13 +47,13 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -91,19 +91,14 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
 ## 分類の作成に関する考慮事項
 
-* ワークスペースで分類を作成する前に、ワークスペースを作成する必要があります。
+* ワークスペースで分類レコードタイプを作成する前に、ワークスペースを作成する必要があります。
 
   ワークスペースについて詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 * 次のいずれかの操作を行って、分類レコードタイプを作成できます。
    * テンプレートを使用してワークスペースを作成する際に、自動的に作成します。 詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
    * 最初から手動で作成します。
-   * 外部リストから情報を貼り付けて、手動で作成します。
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* 新しく作成されたすべての分類には、次のフィールドが含まれます。
+* 新しく作成された分類レコードタイプには、すべて次のフィールドが含まれます。
 
    * 名前 <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
   >[!NOTE]
   >
-  >    ワークスペーステンプレートを使用する際に作成された分類には、追加のフィールドがあります。
+  >    ワークスペーステンプレートの使用時に作成される分類レコードタイプには、追加のフィールドがあります。
 
-## 分類の作成
+## 分類レコードタイプの作成
 
-分類の作成は、最初から、またはワークスペーステンプレートから、オペレーショナルレコードタイプを作成する場合と似ています。
+分類レコードタイプの作成は、最初から、またはワークスペーステンプレートから、運用レコードタイプを作成する場合と似ています。
 
 詳しくは、この記事の「最初からレコードタイプを作成する」を参照してください。 [レコードタイプの作成](../architecture/create-record-types.md).
 

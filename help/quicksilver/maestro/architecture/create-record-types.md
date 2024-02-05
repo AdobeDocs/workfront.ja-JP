@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 0%
+source-wordcount: '1189'
+ht-degree: 3%
 
 ---
 
@@ -46,7 +46,7 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 <td>
    <p> 製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Maestro のレコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsライセンスが必要です。組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
@@ -54,13 +54,13 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -98,19 +98,19 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
 ## レコードタイプの作成に関する考慮事項
 
-* 次のいずれかの操作を行うと、ワークスペースでレコードタイプを作成できます。
+* レコードタイプは、次の方法でワークスペースに作成できます。
 
    * 自動：
       * テンプレートを使用してワークスペースを作成する場合。
 
         詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
       * Excel または CSV ファイルを使用してインポートする場合。 分類レコードタイプでは使用できません。
-      * 別のアプリケーションからオブジェクトタイプへの接続を作成する場合、レコードタイプにフィールドを追加する場合。 これにより、元のアプリケーションのオブジェクトタイプに接続された Maestro で読み取り専用のレコードタイプが作成されます。
-
-     オブジェクトタイプと Maestro レコードの接続について詳しくは、 [レコードを接続](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 手動：
 
-      * ゼロから。
+      * 最初から。
 
 ## ワークスペーステンプレートを使用してレコードタイプを作成する
 
@@ -126,9 +126,9 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
 分類の詳細については、「 [分類の作成](../architecture/create-a-taxonomy.md).
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。
+最後にアクセスしたワークスペースは、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを作成するワークスペースを選択します。
 1. クリック **レコードタイプを追加**.
@@ -138,14 +138,14 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. 次の情報を選択します。
+1. 次の情報を更新します。
 
-   * **レコード名**:「無題のオペレーショナルレコードタイプ」を、今後のレコードタイプの名前に置き換えます。 <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **レコードタイプ名**:「無題のオペレーショナルレコードタイプ」を、今後のレコードタイプの名前に置き換えます。
    * **外観**：レコードタイプに関連付けられるアイコンの色と形状を定義します。 次の操作を実行します。
       * 新しいレコードタイプを識別する色を選択します。 これは、レコードタイプアイコンの色です。 デフォルトでは「グレー」が選択されています。
       * リストからアイコンを選択するか、アイコンの名前を入力して内容を説明し、表示されたときに選択します。 これは、レコードタイプのアイコンです。 デフォルトでは、ファイルアイコンが選択されています。
 
-1. の外側をクリック **レコードタイプを追加** ボックスを使用してレコードを保存します。
+1. の外側をクリック **レコードタイプを追加** ボックスを使用してレコードタイプを保存します。
 
    レコードタイプカードが、選択したワークスペースに追加されます。
 レコードタイプに含まれるフィールドの数がカードに表示されます。
@@ -171,8 +171,11 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
    次をクリック： **その他** アイコン ![](assets/more-menu.png) をクリックして、レコードタイプ名の右に移動し、 **名前を変更** をクリックして、名前を変更します。
 
-1. （オプション）「 **+新規 &lt; レコードタイプ名 >** 選択したレコードタイプのレコードを追加します。 詳しくは、 [レコードを作成](../records/create-records.md).
-1. （オプション） **+** レコードタイプにフィールドを追加するには、テーブルの右上隅にあるアイコンを使用します。 詳しくは、 [フィールドの作成](../fields/create-fields.md).
+1. （オプション）「 **+新しいレコード** 選択したレコードタイプのレコードを追加します。 詳しくは、 [レコードを作成](../records/create-records.md).
+1. （オプション） **+** レコードタイプにフィールドを追加するには、テーブルの右上隅にあるアイコンを使用します。
+
+   フィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
+
 1. （オプション）レコードタイプ名の左側にある左向き矢印をクリックして、選択したワークスペースに戻ります。
 
    レコードタイプカードには、レコードタイプに含まれるフィールドと接続の数が表示されます。
@@ -184,7 +187,7 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
    * [レコードを作成](../records/create-records.md)
    * [レコードタイプを削除](../architecture/delete-record-types.md)
    * [レコードタイプを編集](../architecture/edit-record-types.md)
-   * [レコードビューをAdobeMaestro で管理](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [レコードビューの管理](../views/manage-record-views.md)
 
 ## Excel または CSV ファイルをインポートしてレコードタイプを作成する
 
@@ -202,9 +205,9 @@ Excel または CSV ファイルを使用してレコードタイプをインポ
 
 Excel ファイルを使用してレコードタイプをインポートするには、次の手順に従います。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅に <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> 次に、「 **マエストロ** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。
+最後にアクセスしたワークスペースは、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを作成するワークスペースを選択します。
 1. クリック **レコードタイプを追加**.
@@ -250,20 +253,21 @@ Excel ファイルを使用してレコードタイプをインポートする�
 
    Maestro にアクセスできるすべてのユーザーが、読み込まれたレコードの種類と情報を表示および編集できるようになりました。 <!--this will change with permissions-->
 
-## 別のアプリケーションのオブジェクトタイプを使用してレコードタイプを接続する
+<!--## Connect record types with object types from another application
 
-別のアプリケーションから Maestro レコードタイプとオブジェクトタイプの間の接続を作成する際に、レコードタイプを読み込むことができます。 これにより、Maestro で読み取り専用のレコードタイプが作成され、サードパーティアプリケーションのオブジェクトタイプに対応します。
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-たとえば、Maestro のレコードタイプをWorkfrontプロジェクトに接続して、レコードタイプを作成できます。 その結果、Workfrontプロジェクトオブジェクトタイプは読み取り専用のレコードタイプとして Maestro に読み込まれます。 デフォルトでは、レコードタイプの名前は「Workfront Project」です。 <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-次のアプリケーションから次のオブジェクトを読み込むことができます。
+* From Workfront:
 
-* Workfrontから：
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * プロジェクト
-   * ポートフォリオ
-   * プログラム
-   * 会社
-   * グループ
-
-詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

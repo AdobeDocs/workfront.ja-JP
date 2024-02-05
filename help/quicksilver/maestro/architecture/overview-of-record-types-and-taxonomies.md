@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 0%
+source-wordcount: '515'
+ht-degree: 4%
 
 ---
 
@@ -75,7 +75,7 @@ Maestro では、組織のニーズに合ったカスタムレコードタイプ
 | 作業関連オブジェクトに関する属性を表します。 |                         | ✓ |
 | ゼロから作成できます | ✓ | ✓ |
 | Excel または CSV ファイルをインポートして作成できます | ✓ |                      |
-| レコードタイプをサードパーティのアプリケーションからオブジェクトに接続できます | ✓ |                      |
+| 別のアプリケーションからオブジェクトにレコードタイプを接続できます | ✓ |                      |
 | 他の Maestro レコードタイプに接続できます | ✓ |                    |
 | 関連するレコードをテーブルビューで表示できます | ✓ | ✓ |
 | 関連するレコードをタイムライン表示で表示できます | ✓ | ✓ |

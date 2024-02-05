@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 16db6e7fedbea7a95e8e0356c523409db1f78199
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3725'
 ht-degree: 6%
 
 ---
@@ -68,7 +68,8 @@ ht-degree: 6%
 
 プレビュー：決定する必要があります
 
-混乱を避け、ワークフローを簡単にするために、Maestro レコードをワークスペースからサードパーティアプリケーションのオブジェクトに接続した結果作成されたレコードタイプカードを削除しました。 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+混乱を避け、ワークスペースの管理を簡単にするために、接続された非 Maestro オブジェクト用の、自動生成された既製のレコードタイプカードをワークスペースから削除しました。
+<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
 
