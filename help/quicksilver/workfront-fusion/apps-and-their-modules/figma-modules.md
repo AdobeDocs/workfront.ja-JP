@@ -363,7 +363,7 @@ ht-degree: 100%
       <td>JSON を返す元となるファイルを選択します。</td>
     </tr>
     <tr>
-      <td role="rowheader" &lbrack;!UICONTROL>ノード ID</td>
+      <td role="rowheader">ノード ID</td>
       <td>
         <p>モジュールがレンダリングするノードを入力します。</p>
         <p>レンダリングするノードごとに、「<b>[!UICONTROL Add]</b>」をクリックしてノードのテキストを入力します。</p>
