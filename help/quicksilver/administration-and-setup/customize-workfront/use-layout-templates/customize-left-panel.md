@@ -199,10 +199,10 @@ ht-degree: 100%
    >[!NOTE]
    >
    >「**[!UICONTROL ユーザーの表示項目をカスタマイズする]**」ドロップダウンリストの最後の 3 つの項目（[!UICONTROL リスト]、[!UICONTROL ホームと概要]、および[!UICONTROL ブランディング]）は、左側のパネル以外のエリアを設定するためのものです。詳しくは、次の記事を参照してください。
-   >   >   
-* [レイアウトテンプレートを使用したフィルター、ビュー、およびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [レイアウトテンプレートを使用して、[!UICONTROL ホーム]と[!UICONTROL 概要]をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
->* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >
+   >* [レイアウトテンプレートを使用したフィルター、ビュー、およびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [レイアウトテンプレートを使用して、[!UICONTROL ホーム]と[!UICONTROL 概要]をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （オプション）組織のダッシュボードの 1 つにリンクする左側のパネル項目を追加する場合は、「**[!UICONTROL カスタムセクションを追加]**」をクリックし、項目の「**[!UICONTROL カスタムセクションのタイトル]**」を入力して、ダッシュボードを追加します。
