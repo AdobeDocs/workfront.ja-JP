@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 86%
+source-wordcount: '1416'
+ht-degree: 84%
 
 ---
 
@@ -148,9 +148,9 @@ ht-degree: 86%
 
 [!DNL Workfront] 管理者がグループを会社に割り当てると、そのグループのグループ管理者は、[!UICONTROL 設定]で会社への[!UICONTROL 管理]権限を取得します。これには、[!UICONTROL 設定]の[!UICONTROL 会社]ページへのアクセスが含まれており、グループに関連付けられている会社を表示および管理できます。
 
-この[!UICONTROL 会社]ページへのアクセスにより、グループ管理者はグループを会社に割り当てることができますが、その会社は同じグループ管理者が作成した会社である必要があります。グループ管理者のアクセスレベルが会社への管理アクセスを含むように設定されていない場合、グループ管理者が会社を作成するときに「[!UICONTROL グループ]」フィールドが必要になります。太字のタイトルはこれを示しています。
+この[!UICONTROL 会社]ページへのアクセスにより、グループ管理者はグループを会社に割り当てることができますが、その会社は同じグループ管理者が作成した会社である必要があります。グループ管理者のアクセスレベルが会社への管理アクセス権を持つように設定されていない場合、 [!UICONTROL グループ化] グループ管理者が会社を作成する場合は、フィールドが必須です。太字のタイトルは次のように示します。
 
-![](assets/manage-company-group-field-req.jpg)
+![会社を編集](assets/group-admin-add-company.png)
 
 ユーザーがアクセスレベルで会社に対して管理者アクセス権を取得する方法について詳しくは、[ユーザーへの特定の領域に対する管理者アクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
