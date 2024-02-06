@@ -6,9 +6,9 @@ description: 外部ソースからAdobe Workfrontにドキュメントやフォ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 87%
 
 ---
@@ -232,6 +232,10 @@ Workfront 内で Google ドキュメントを新規作成できます。他の�
 ## ドキュメントをWorkfrontから外部クラウドプロバイダーにアップロードしてリンクする
 
 ドキュメントを Workfront から外部のクラウドプロバイダーにアップロードしてリンクできます。これにより、ドキュメントのストレージが Workfront から外部クラウドプロバイダーに移動します。外部アプリケーションでドキュメントを変更すると、Workfront でドキュメントが自動更新されます。
+
+>[!NOTE]
+>
+>アセットを外部のドキュメントプロバイダーに送信すると、アセットの新しいバージョンが作成されます。
 
 Workfront にアクセスできないユーザーでも、アプリケーションにアクセスできる場合は、外部アプリケーションでドキュメントを表示できます。
 
