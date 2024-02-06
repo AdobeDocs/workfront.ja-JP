@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 3%
+source-wordcount: '2313'
+ht-degree: 4%
 
 ---
 
@@ -55,13 +55,13 @@ Maestro ビューとその管理方法については、 [レコードビュー�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -157,7 +157,7 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
    >
    >       * 1 行テキスト
    >       * 数値
-   >       * 数式
+   >       * 式
    >
    >   * 主フィールドは常にフリーズし、移動できません。 別の位置に移動する必要がある場合は、別のフィールドを選択してプライマリフィールドを置き換えることができます。
    >
@@ -166,6 +166,8 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
    >   * テーブルビューの主フィールドを変更すると、すべてのテーブルビューに影響します。
    >
    >   * プライマリフィールドを削除したり、非表示にすることはできません。
+   >
+   >   * プライマリフィールドに表示される値は、レコードの詳細ページに常にハイパーリンクされます。
 
 1. 列の分離線をクリックしてドラッグし、目的の場所にドロップして、列の幅を広げます。
 
@@ -214,7 +216,7 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 
    テーブル表示で追加したレコードは直ちに保存され、ワークスペースに対する表示権限以上を持つすべてのユーザーに表示されます。
 
-1. （オプション）各レコードにサムネールを追加し、 **フィールド** テーブルの右上隅で、「サムネール」フィールドを切り替えて、プライマリフィールドの左側に表示します。 デフォルトでは選択されていません。
+1. （オプション）各レコードにサムネールを追加し、 **フィールド** テーブルの右上隅で、 **サムネール** 「 」フィールドを使用して、プライマリフィールドの左側に表示します。 デフォルトでは選択されていません。
 
    詳しくは、 [レコードにサムネールを追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 

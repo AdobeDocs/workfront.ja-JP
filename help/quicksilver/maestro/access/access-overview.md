@@ -1,21 +1,21 @@
 ---
-title: アクセスの概要
+title: アクセス権の概要
 description: AdobeMaestro 機能を使用するためのライセンスと共有の許可制限があります。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 0%
+source-wordcount: '418'
+ht-degree: 6%
 
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 <!--update the title and the metadata title if Maestro is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
-# アクセスの概要
+# アクセス権の概要
 
 {{maestro-important-intro}}
 
@@ -44,18 +44,24 @@ AdobeMaestro を使用するには、次の設定が必要です。
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス*</p></td>
    <td>
    <p>任意</p>
-   ワークスペースを作成するには、ユーザーは次のライセンスを持っている必要があります。 
-   <ul><li><p>新規：標準</p> </li>
-   <li><p>現在：作業者以上</p> </li></ul>
+   <p>ワークスペースを作成するには、次のライセンスが必要です。</p>
+   <ul>
+   <li>
+   新規：標準
+   </li>
+   <li>
+   現在：作業者以上
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -64,9 +70,9 @@ AdobeMaestro を使用するには、次の設定が必要です。
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>オブジェクトの権限</p></td>
+   <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
-   <p>編集、削除、共有するために作成しなかったワークスペースやビューに、権限を付与するか、それ以上の権限を付与する</p>
+   <p>作成していないワークスペースやビューに対して、編集、削除、共有、レコードの種類やレコードの作成、編集、削除を行う権限を付与します。</p>
     <p>システム管理者は、自分が作成しなかったワークスペースと表示を管理できます </p>
    <p>Maestro オブジェクトに対する権限の共有については、  
    <a href="../access/sharing-permissions-overview.md">AdobeMaestro での共有権限の概要</a> 
@@ -97,7 +103,7 @@ AdobeMaestro を使用するには、次の設定が必要です。
 
 1. Maestro にアクセスするユーザにレイアウトテンプレートを割り当てます。
 
-   詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+   詳しくは、[レイアウトテンプレートにユーザーを割り当て](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
    テンプレートに割り当てられたすべてのユーザは、メインメニューで Maestro にアクセスできるようになりました。
 
@@ -109,10 +115,16 @@ Maestro のアクセス制御はありません。
 
 任意の種類のライセンスを持つユーザは、Maestro にアクセスできます。
 
+Workfrontでのアクセス権の付与について詳しくは、 [カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## 権限の付与
 
 システム管理者以外のユーザーがアクセスできるようにするには、作成したワークスペースと表示に対して、システム管理者権限を付与する必要があります。
 
 詳しくは、 [共有権限の概要 (AdobeMaestro)](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+Adobe Workfrontのライセンスの種類は、Maestro の権限と組み合わせて使用し、Maestro オブジェクトの表示、投稿、管理を行うことができます。
+
+ライセンスの種類が Maestro オブジェクトの権限レベルに与える影響については、 [ライセンスの種類の概要 (AdobeMaestro)](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
