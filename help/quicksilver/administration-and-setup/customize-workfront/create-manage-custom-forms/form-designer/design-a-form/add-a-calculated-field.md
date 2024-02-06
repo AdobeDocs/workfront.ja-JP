@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: カスタムフォームをオブジェクトに添付する際に、既存のデータを使用して新しいデータを生成する計算済みカスタムフィールドを追加できます。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2320'
-ht-degree: 98%
+source-wordcount: '2355'
+ht-degree: 96%
 
 ---
 
@@ -157,7 +157,8 @@ ht-degree: 98%
      <tr> 
       <td role="rowheader">形式</td> 
       <td> <p>フィールドの結果を保存および表示する形式です。</p> <p>フィールドを数学計算で使用する場合は、常に<strong>数字</strong>または<strong>通貨</strong>形式を使用します。「数値」または「通貨」を選択すると、0 から始まる数値が自動的に切り捨てられます。</p> 
-      <p><b>重要</b>：形式を選択する前に、新しいフィールドに適した形式を検討してください。カスタムフォームを保存した後は、形式フィールドを編集できません。また、誤った形式を選択すると、今後の計算や集計値がレポートやリストのグループ化に影響を受ける可能性があります。</p> </td> 
+      <p><b>重要</b>：形式を選択する前に、新しいフィールドに適した形式を検討してください。カスタムフォームを保存した後は、形式フィールドを編集できません。また、誤った形式を選択すると、今後の計算や集計値がレポートやリストのグループ化に影響を受ける可能性があります。</p>
+      <p><strong>注意：</strong> 通貨形式の計算フィールドには引用符を含めないでください。 （例えば、「800.00」ではなく、800.00 を使用します）。 引用符を使用すると、通貨タイプの言語書式のニュアンスが原因で、予期しない結果が生じる場合があります。</p></td>
      </tr> 
     </tbody> 
    </table>
