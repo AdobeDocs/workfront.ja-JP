@@ -7,8 +7,8 @@ author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '580'
+workflow-type: tm+mt
+source-wordcount: '589'
 ht-degree: 100%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 100%
 >
 >* コミット日は、イシューに割り当てられたユーザーがイシューの完了を手動で推定した日付です。詳しくは、次の記事を参照してください。
 >
->* [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
->* [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
+>   * [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+>   * [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
 >
 >* 見込み完了日とは、Workfront によって計算された日付で、外部の要因を考慮して、イシューを現実的に完了できる実際の日付を決定します。詳しくは、[プロジェクト、タスクおよびイシューの見込み完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
 >
