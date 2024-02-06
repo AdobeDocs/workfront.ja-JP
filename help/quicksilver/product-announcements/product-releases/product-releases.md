@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: 8825aa9c58651a809f539576af803a582352e0b0
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 95%
@@ -34,8 +34,8 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
    <td> <p>2024年リリース</p> 
     <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024 年第 1 四半期リリースの概要</a> </p> </li>
-      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024 年第 2 四半期リリースの概要</a> </p> </li>
-   <td> <ul>    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a> </p> </li> </ul>   </td> 
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">2024 年第 2 四半期リリースの概要</a> </p> </li>
+   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a> </p> </li> </ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>2023年リリース</p> 
     <ul> 

@@ -6,10 +6,10 @@ description: グラフを追加すると、レポートの内容をより充実�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 68d93ccb8b96f802ef0a612e7e41cf168e34e863
 workflow-type: tm+mt
-source-wordcount: '2733'
-ht-degree: 91%
+source-wordcount: '2757'
+ht-degree: 90%
 
 ---
 
@@ -157,6 +157,10 @@ ht-degree: 91%
    ![](assets/qs-bar-chart-350x167.png)
 
 1. 「**保存して閉じる**」をクリックして、グラフとレポートを保存します。
+
+>[!IMPORTANT]
+>
+>23 を超える棒グラフを含む棒グラフでは、すべての棒ラベルが正しく表示されないので、棒グラフを 23 以下に制限します。
 
 ### 円グラフ {#pie-chart}
 

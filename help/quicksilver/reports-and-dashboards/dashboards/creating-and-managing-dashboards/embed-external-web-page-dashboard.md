@@ -6,10 +6,10 @@ description: 外部 web ページをダッシュボードに埋め込んで、Ad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 69%
+source-wordcount: '1014'
+ht-degree: 68%
 
 ---
 
@@ -130,6 +130,11 @@ ht-degree: 69%
         セキュリティ上の理由から、Workfront 管理者は、外部ページでのセッション情報の使用を許可しない方法で、システム環境設定を指定できます。この場合、外部ページはダッシュボードに読み込まれません。\
         システムのセキュリティ環境設定について詳しくは、[システムのセキュリティ環境設定を指定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
+
+     >[!WARNING]
+     >
+     >SessionID の使用は安全ではないので、お勧めしません。
+     >
 
    * **高さ**:0 より大きい数値を入力して、ダッシュボードで外部ページが占有するスペースを定義します。 デフォルトの高さは 500 です。
 

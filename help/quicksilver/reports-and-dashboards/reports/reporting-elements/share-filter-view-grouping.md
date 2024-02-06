@@ -6,10 +6,10 @@ description: 表示アクセス権のあるフィルター、ビューおよび�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 99%
+source-wordcount: '1211'
+ht-degree: 97%
 
 ---
 
@@ -117,14 +117,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
    「フィルターの共有」ボックスが表示されます。
 
-1. 「**システム全体を表示**」設定を有効にします。これにより、Workfront のすべてのユーザーがフィルターを表示する権限を持ちます。
-
-   >[!IMPORTANT]
-   >
-   >この設定は慎重に使用してください。すべてのユーザーに多数のフィルターを追加すると、フィルターエクスペリエンスが煩雑になり、フィルターを見つけにくくなります。
-
-   または、
-**アクセス権の付与先**&#x200B;フィールドで共有するユーザー、チーム、役割、グループや会社の名前を入力します。
+1. で共有するユーザー、チーム、役割、グループまたは会社の名前の入力を開始します **へのアクセス権を付与** フィールドに入力します。
 
    ![フィルター共有ボックス](assets/new-filters-share-filter.png)
 
