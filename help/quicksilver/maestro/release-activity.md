@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3933'
+source-wordcount: '3969'
 ht-degree: 6%
 
 ---
@@ -54,17 +54,18 @@ ht-degree: 6%
 
 Maestro でのライセンスの種類と権限の接続については、 [ライセンスの種類の概要 (AdobeMaestro)](/help/quicksilver/maestro/access/license-type-overview.md).
 
+
+### レコードフィールド用のリッチテキストツールバーの新しいルックアンドフィール
+
+実稼動： 2024 年 2 月 8 日
+
+プレビュー：決定する必要があります
+
+段落タイプのフィールドを編集する際のリッチテキストツールバーのルックアンドフィールを更新しました。
+
+詳しくは、  [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-### New look-and-feel of the Rich-Text toolbar for record fields
-
-Production: February 7, 2024 
-
-Preview: To be determined 
-
-We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
-
-For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
-
 ### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
 
 Production: February 8, 2024 

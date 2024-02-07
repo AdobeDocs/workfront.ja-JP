@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
 workflow-type: tm+mt
-source-wordcount: '3325'
-ht-degree: 2%
+source-wordcount: '3339'
+ht-degree: 3%
 
 ---
 
@@ -72,13 +72,13 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -142,8 +142,8 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
    * [パーセンテージ](#percentage)
    * [通貨](#currency)
    * [チェックボックス](#checkbox)
-   * [数式](#formula)
-   * [人物](#people)
+   * [式](#formula)
+   * [ユーザー](#people)
    * [作成者](#created-by)
    * [作成日](#created-date)
    * [最終変更者](#last-modified-by)
@@ -179,7 +179,7 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
 >
 >* 段落フィールドの内容は、1,000 文字までです。
 >
->* リッチテキスト書式を使用すると、段落フィールドがテーブルビューやレコードの詳細ページに表示される際に、その内容を拡張できます。
+>* リッチテキスト書式を使用すると、段落フィールドがテーブルビューやレコードの詳細ページに表示される際に、その内容を拡張できます。 詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
 1. 「 」セクションの説明に従って、フィールドの作成を開始します。 [最初からフィールドを作成する](#create-fields-from-scratch) この記事で、「 **段落** フィールドタイプ。
 
@@ -351,7 +351,7 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
 
    新しいチェックボックスフィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。
 
-### 数式
+### 式
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
@@ -377,7 +377,9 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
 
    >[!NOTE]
    >
-   >    数式内のリンクされたレコードからフィールドを追加することはできません。 この機能は、後日リリースされる予定です。 新しいリリースについて詳しくは、 [Adobeマエストロリリースアクティビティ](/help/quicksilver/maestro/release-activity.md).
+   > * 複数選択タイプのフィールドを数式に追加することはできません。
+   >
+   > * 数式内のリンクされたレコードからフィールドを追加することはできません。 この機能は、後日リリースされる予定です。 新しいリリースについて詳しくは、 [Adobeマエストロリリースアクティビティ](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 「**作成**」をクリックします。
@@ -385,7 +387,7 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
    新しい数式フィールドがレコードタイプに列として追加され、その値をレコードに関連付けることができます。
 
 
-### 人物
+### ユーザー
 
 「ユーザー」フィールドタイプを使用して、ユーザーを追加できます <!--, job role, or team--> をレコードに追加します。 これは先行入力フィールドです。追加できるのはユーザーのみです<!--, roles, or teams--> 既にWorkfrontに存在する
 

@@ -7,10 +7,10 @@ description: テンプレートを作成した後、テンプレートタスク�
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
-workflow-type: ht
-source-wordcount: '2503'
-ht-degree: 100%
+source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+workflow-type: tm+mt
+source-wordcount: '2384'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +19,13 @@ ht-degree: 100%
 テンプレートを作成した後、テンプレートタスクに関する情報を編集できます。テンプレートタスクで更新した情報は、テンプレートを使用してプロジェクトを作成した後、またはテンプレートをプロジェクトに添付した後、プロジェクトタスクに関連付けられます。
 
 テンプレートの作成の詳細については、[プロジェクトテンプレートを作成](../../../manage-work/projects/create-and-manage-templates/create-template.md)を参照してください。
+
+テンプレートタスクは、編集することも、一括でテンプレートタスクを編集することもできます。
+
+>[!NOTE]
+>
+>複数のテンプレートに属するテンプレートタスクは一括で編集できません。 編集できるのは、同じテンプレートに属するテンプレートタスクのみです。
+
 
 ## アクセス要件
 
@@ -29,25 +36,26 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">AdobeWorkfrontlicense*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>新規：標準 </p>
+   <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>テンプレートへの編集アクセス</p> <p>メモ：適切なアクセス権を持っているにもかかわらずテンプレートタスクを編集できない場合は、Workfront 管理者にアクセスレベルに追加の制限が設定されているかどうか問い合わせてください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>テンプレートへの編集アクセス</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクトの権限</strong> </td> 
-   <td> <p>テンプレートの権限を管理します。 </p> <p>テンプレートタスクに対する参加以上の権限。</p> <p>オブジェクトへのアクセスのリクエストについては、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスアクセスのリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクト権限 </td> 
+   <td> <p>テンプレートの権限を管理します。 </p> <p>テンプレートタスクに対する参加以上の権限。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセスを確認するには、Workfront 管理者にお問い合わせください。
+*保有するプラン、ライセンスの種類、アクセスレベルを確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
@@ -61,15 +69,15 @@ ht-degree: 100%
 
 「テンプレートタスクの編集」エリアまたは「テンプレートタスクの詳細」エリアを使用して、テンプレートタスクを編集できます。次の手順では、「テンプレートタスクの編集」ボックスでタスクを編集する方法について説明します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-templates}}
 
-1. 「**テンプレート**」をクリックします。
 1. テンプレートの名前をクリックして開きます。
 1. 左パネルの「**テンプレートタスク**」をクリックします。
 1. リスト内のテンプレートタスクの名前をクリックして、テンプレートタスクを開きます。
-1. （条件付き）テンプレートタスクに関する限られた情報を編集するには、左パネルで「**テンプレートタスクの詳細**」をクリックし、詳細セクションの領域に移動して各エリアの情報を編集します。
-1. （オプション）**すべて折りたたむ**&#x200B;アイコン ![](assets/collapse-all-icon.png) をクリックして、すべてのエリアを折りたたみます。
-1. 詳細セクションの情報を編集するには、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックし、以下のいずれかの領域を選択するか、「**すべて編集**」を選択して情報を編集します。
+1. （オプション）複数のテンプレートタスクを一括編集するには、複数のテンプレートタスクを選択して、 **編集** をクリックします。
+1. （条件付き）テンプレートタスクに関する限定的な情報を編集するには、 **テンプレートタスクの詳細** 左側のパネルで、「詳細」セクションの領域に移動して、各領域の情報を編集します。
+1. （オプション） **すべて折りたたむ** アイコン ![](assets/collapse-all-icon.png) をクリックして、すべての領域を折りたたみます。
+1. 「詳細」セクションの情報を編集するには、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックし、続いて以下のいずれかのエリアを選択するか、「**すべて編集**」をクリックしてすべてのエリアの情報を編集します。
 
    * 概要
    * カスタムフォーム
@@ -116,7 +124,7 @@ ht-degree: 100%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>名前</strong> </td> 
-      <td>テンプレートタスクの名前を指定します。</td> 
+      <td>テンプレートタスクの名前を指定します。 テンプレートタスクを一括編集する場合、このフィールドは表示されません。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>説明</strong> </td> 
@@ -132,14 +140,14 @@ ht-degree: 100%
        <ul> 
         <li> <p><strong>なし</strong> </p> </li> 
         <li> <p><strong>低</strong> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">標準</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">高</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">緊急</span> </p> </li> 
+        <li> <p> <b>標準</b></p> </li> 
+        <li> <p><b>高</b> </p> </li> 
+        <li> <p><b>緊急</b> </p> </li> 
        </ul> <p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先順位の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先順位の作成とカスタマイズ</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>期間タイプ</strong> </td> 
-      <td> <p>このテンプレートから作成される今後のタスクには、この期間タイプが設定されます。<br>期間タイプは、次の関係を識別します。</p> <p>- タスクに割り当てられたリソースの数</p> <p>- タスクを完了するために必要な総労力</p> <p>- タスクの総期間。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク期間と期間タイプの概要</a>を参照してください。</p> <p>次のオプションから選択します。</p> 
+      <td> <p>このテンプレートから作成される今後のタスクには、この期間タイプが設定されます。<br>期間タイプは、次の関係を識別します。</p> <p>- タスクに割り当てられたリソースの数</p> <p>- タスクを完了するために必要な総労力</p> <p>- タスクの総期間。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。</p> <p>次のオプションから選択します。</p> 
        <ul> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">予定割り当て時間</span> </p> </li> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">予定作業</span> </p> </li> 
@@ -149,29 +157,14 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>期間</strong> </td> 
-      <td> <p>今後のタスクの期間を分、時間、日、週または月単位で指定します。このテンプレートから作成される将来のタスクは、ここで指定した期間になります。</p> <p>デフォルトで、Workfront は期間を日数単位で測定します。タスクが完了するまで、タスクを未完了のままにしておく時間です。タスクの期間は、タスクの<strong>期間タイプ</strong>が<strong>シンプル</strong>、または<strong>タスクの制約</strong>が<strong>固定日付</strong>である場合は指定できません。</p> <p>重要：通常、期間は、テンプレートのタスクの「予定開始日」から「予定完了日」までの時間です。このため、テンプレートのタイムラインに影響を与えます。これにより、テンプレートから作成される今後のプロジェクトのタイムラインが決まります。 </p> </td> 
+      <td> <p>今後のタスクの期間を分、時間、日、週または月単位で指定します。このテンプレートから作成される将来のタスクは、ここで指定した期間になります。</p> <p>デフォルトで、Workfront は期間を日数単位で測定します。タスクが完了するまで、タスクを未完了のままにしておく時間です。タスクの期間は、タスクの<strong>期間タイプ</strong>が<strong>シンプル</strong>、または<strong>タスクの制約</strong>が<strong>固定日付</strong>である場合は指定できません。</p> <p><b>重要</b></p> <p>通常、期間は、テンプレートタスクの「計画開始日」から「計画完了日」までの時間です。このため、テンプレートのタイムラインに影響を与えます。 これにより、テンプレートから作成される今後のプロジェクトのタイムラインが決まります。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>予定時間数</strong> </td> 
-      <td> <p>このテンプレートで作成されたプロジェクトの将来のタスクの予定時間数を指定します。タスクの担当者がタスクを完了するのにかかる実際の時間です。タスクの予定時間数は、<strong>期間タイプ</strong>が<strong>予定割り当て時間</strong>である場合にだけ指定できます。 </p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">作業量 </td> 
-      <td> <p><span>タスクの完了に必要な労力の量。プロジェクトマネージャーは、タスクの完了に必要な作業量を見積もる際に、予定時間数の代わりにこのフィールドを使用することにします。このフィールドは、次の条件を満たした場合にのみ表示されます：</span> </p> 
-       <ul> 
-        <li> <p><span>テンプレートのタスクには「シンプルな期間」タイプがあります。</span> </p> <p>ヒント：<span>タスクの期間タイプを更新すると、このフィールドは非表示になります。</span> </p> </li> 
-        <li><span>プロジェクトマネージャーは、テンプレートの「作業量を使用して予定時間数を計算する」フィールドを有効にしています。</span> </li> 
-       </ul> 
-       <div> 
-        <p> 次のオプションから選択します。</p> 
-        <ul> 
-         <li>小</li> 
-         <li>中<span style="font-weight: normal;">（新しいタスクのデフォルト値です）</span></li> 
-         <li>大</li> 
-        </ul> 
-       </div> <p>予定時間数ではなく作業量を使用してタスク量を見積もる方法については、<span href="work-effort.md"><a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">作業量の概要</a></span>を参照してください。</p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>このテンプレートで作成されたプロジェクトの将来のタスクの予定時間数を指定します。タスクの担当者がタスクを完了するのにかかる実際の時間です。タスクの予定時間数は、 <strong>期間のタイプ</strong> が <strong>計算された割り当て</strong>. </p> </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>タスクの制約</strong> </td> 
       <td> <p>このテンプレートから作成されたプロジェクトのタスクには、この制約が適用されます。タスク制約は、タスクを完了する必要があるタイミングを識別します。 </p> <p>次のオプションから選択します。</p> 
        <ul> 
@@ -189,24 +182,24 @@ ht-degree: 100%
        </ul> <p>タスクの制約について詳しくは、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスクの制約の概要</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span style="font-weight: bold;">開始日</span><span style="font-weight: normal;">（オプションおよび条件付き）</span> </td> 
+      <td role="rowheader"><span style="font-weight: bold;">開始日</span><span style="font-weight: normal;"> （オプションおよび条件付き）</span> </td> 
       <td> <p> テンプレートのタスクの開始日は、タスク制約が次のいずれかの場合にのみ指定できます。</p> 
        <ul> 
         <li>指定日に開始</li> 
         <li>指定日以後に開始</li> 
         <li>指定日までに開始</li> 
         <li>固定日付</li> 
-       </ul> <p>タスクが開始される将来のプロジェクトのタイムライン内の日付に対応します。その他のすべての制約について、Workfront はタスク間の先行タスクの依存関係に基づいて開始日を計算します。 </p> </td> 
+       </ul> <p>タスクが開始される将来のプロジェクトのタイムライン内の日付に対応します。その他のすべての制約について、Workfrontはタスク間の先行タスクの依存関係に基づいて開始日を計算します。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>完了日</strong><span style="font-weight: normal;">（オプションおよび条件付き）</span> </td> 
-      <td> <p> テンプレートのタスクの完了日は、タスク制約が次のいずれかの場合にのみ指定できます。</p> 
+      <td> <p> テンプレートタスクの完了日は、タスク制約が次のいずれかの場合にのみ指定できます。</p> 
        <ul style="list-style-type: circle;"> 
         <li>指定日に終了</li> 
         <li>これよりも早く終了しない</li> 
         <li>これよりも遅く終了しない</li> 
         <li>固定日付</li> 
-       </ul> <p>これは、タスクが終了される将来のプロジェクトのタイムライン内の日付に対応します。その他のすべての制約について、Workfront は期間と先行タスクの依存関係に基づいて完了日を計算します。 </p> </td> 
+       </ul> <p>これは、タスクが終了される将来のプロジェクトのタイムライン内の日付に対応します。その他のすべての制約について、Workfrontは、期間と先行者の依存関係に基づいて完了日を計算します。 </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -248,7 +241,7 @@ ht-degree: 100%
         <li> <p style="font-weight: normal;">ユーザー (毎時)</p> </li> 
         <li> <p style="font-weight: normal;">役割（毎時）</p> </li> 
         <li> <p style="font-weight: normal;">固定 (毎時)</p> </li> 
-        <li> <p style="font-weight: normal;">ユーザー (毎時)（上限付き）</p> </li> 
+        <li> <p style="font-weight: normal;">ユーザー (毎時) (キャップ付き)</p> </li> 
         <li> <p style="font-weight: normal;">役割（毎時）（上限付き）</p> </li> 
         <li> <p style="font-weight: normal;">ユーザー（毎時）+ 固定</p> </li> 
         <li> <p style="font-weight: normal;">役割（毎時）+ 固定</p> </li> 
@@ -278,7 +271,7 @@ ht-degree: 100%
     <col> 
     <tbody> 
    <tr> 
-      <td role="rowheader"><strong><p>マイルストーン</p></strong> </td> 
+      <td role="rowheader"><p><b>マイルストーン</b></p></strong> </td> 
       <td> <p>選択したテンプレートのタスクに関連付けるマイルストーンを選択します。</p>
 
    <p><b>重要</b></p>
@@ -298,7 +291,7 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>承認プロセス</strong> </td> 
-      <td> <p>テンプレートタスクに関連付ける承認プロセスを選択します。ユーザーが承認プロセスをテンプレートタスクに関連付けるには、Workfront 管理者がシステムレベルのタスク承認プロセスを定義しておく必要があります。<span>承認プロセスへの管理者アクセス権を持つユーザーは、グループ固有の承認プロセスを作成することもできます。</span> 承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスの作成</a>を参照してください。</p> <p>承認プロセスを追加する際は、次の点を考慮してください。 </p> 
+      <td> <p>テンプレートタスクに関連付ける承認プロセスを選択します。ユーザーが承認プロセスをテンプレートタスクに関連付けるには、Workfront 管理者がシステムレベルのタスク承認プロセスを定義しておく必要があります。<span>承認プロセスへの管理者アクセス権を持つユーザーは、グループ固有の承認プロセスを作成することもできます。</span> 承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">作業アイテムの承認プロセスを作成</a>を参照してください。</p> <p>承認プロセスを追加する際は、次の点を考慮してください。 </p> 
        <ul> 
        <li>アクティブな承認プロセスのみがリストに表示されます。 </li> 
        <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。テンプレートのグループ以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p>重要：テンプレートに関連付けられているグループが変更されると、グループ固有の承認プロセスが 1 回限りの承認プロセスになります。プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。 </p> </li> 
