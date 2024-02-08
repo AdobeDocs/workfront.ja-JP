@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: カスタムフォームへのアクセスを設定して、フォームの表示、共有、編集を行えるユーザー／役割／グループ／チーム／会社を制御できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '884'
-ht-degree: 100%
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+workflow-type: tm+mt
+source-wordcount: '848'
+ht-degree: 95%
 
 ---
 
 # カスタムフォームを共有
+
+{{highlighted-preview}}
 
 カスタムフォームへのアクセスを設定して、フォームの表示、共有、編集を行えるユーザー／役割／グループ／チーム／会社を制御できます。
 
@@ -28,21 +30,24 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront の管理者がこのアクセス権を付与する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">特定のエリアに対する管理者アクセス権をユーザーに付与する</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセスレベル設定を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## カスタムフォームへのアクセス {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ ht-degree: 100%
 
 カスタムフォームをデフォルトの共有状態のままにする代わりに（この記事の[カスタムフォームへのアクセス](#access-to-custom-forms)を参照）、特定のユーザー、担当業務、グループ、チーム、会社に対して、特定のレベルのフォームアクセスを設定できます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. カスタムフォームを選択し、「**共有**」をクリックします。
+1. カスタムフォームを選択し、「 **共有** <span class="preview">または ![共有アイコン](assets/share-icon.png).</span>
 1. 表示されるボックスの下に、「**カスタムフォームに対するアクセス権の付与**」で、カスタムフォームを共有するユーザー、チーム、担当業務、グループまたは会社の名前を入力し、名前が表示されたら、**Enter** を押します。
 1. 先ほど追加したユーザー、チーム、担当業務、グループまたは会社のアクセスを調整するには、名前の右にあるドロップダウンメニューをクリックし、次の使用可能なオプションのいずれかと、その詳細設定を指定します。
 
@@ -106,10 +111,10 @@ ht-degree: 100%
 
 ## カスタムフォームへのアクセスの削除
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) 、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. カスタムフォームを選択し、「**共有**」をクリックします。
+1. カスタムフォームを選択し、「 **共有** <span class="preview">または ![共有アイコン](assets/share-icon.png).</span>
 1. 表示されるボックスで、フォームへの特別なアクセス権を持たなくなったユーザー、チーム、役割、グループまたは会社の名前の右にある「X」をクリックします。
 1. （オプション）削除する他の名前について、前の手順を繰り返します。
 1. 「**保存**」をクリックします。

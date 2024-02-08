@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 75%
+source-wordcount: '895'
+ht-degree: 74%
 
 ---
 
 # 従来のフォームビルダーを使用したカスタムフォームの作成または編集
 
 <!--Audited: 01/2024-->
+
+{{highlighted-preview}}
 
 カスタムフォームを新規作成または編集できます。両方のタスクについては、この記事で説明します。
 
@@ -34,23 +36,23 @@ ht-degree: 75%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td><p>新規：標準</p>
+   <p>または</p>
    <p>現在：プラン</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;保有しているプラン、ライセンスタイプ、アクセスレベル設定を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## カスタムフォームの作成を開始
 
@@ -110,7 +112,7 @@ ht-degree: 75%
 
    カスタムフォームはリストに表示されます。 組織で作成されたすべてのカスタムフォームおよびカスタムフィールドを確認できます。 また、各フォームの作成者、フォームに関連付けられているオブジェクト、およびフォームがアクティブかどうかも確認できます。
 
-1. 編集するカスタムフォームを選択し、「**編集**」をクリックします。
+1. 編集するカスタムフォームを選択し、 **編集** <span class="preview">または ![編集アイコン](assets/edit-icon.png).</span>
 1. （オプション）カスタムフォームのタイトルと説明を変更するには「**フォーム設定**」タブをクリックして、**フォームタイトル**&#x200B;および&#x200B;**説明**&#x200B;を入力します。
 
 1. （オプション）フォームに他のオブジェクトタイプを追加して、より多くのオブジェクトに添付できるようにする場合は、**オブジェクトタイプ**&#x200B;の後にあるプラス記号（+）をクリックし、表示されるメニューから必要なタイプを選択します。

@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: フォームデザイナーを使用して、カスタムフォームに対してオブジェクトタイプを追加または削除できます。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 98%
+source-wordcount: '478'
+ht-degree: 84%
 
 ---
 
 # フォームデザイナーを使用して既存のカスタムフォームに対してオブジェクトタイプの追加または削除を行う
+
+{{highlighted-preview}}
 
 フォームデザイナーを使用して、既存のカスタムフォームに対してオブジェクトタイプを追加または削除できます。
 
@@ -28,24 +30,24 @@ ht-degree: 98%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td>
-   <p>新規プラン：標準</p>
+   <p>新規：標準</p>
    <p>または</p>
-   <p>現在のプラン：プラン</p></td> 
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td><p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p></td> 
+   <td><p>カスタムフォームへの管理アクセス権</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセスレベル設定を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 既存のカスタムフォームにオブジェクトタイプを追加する
 
@@ -58,13 +60,13 @@ ht-degree: 98%
 >詳しくは、[複数のオブジェクトタイプがセクション区切り権限に与える影響](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions)を参照してください。
 
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 
    表示されるビューで、組織用に作成されたすべてのカスタムフォームを確認できます。また、各フォームの作成者、対象となるオブジェクトタイプ、アクティブかどうかも確認できます。
 
-1. オブジェクトタイプを追加するカスタムフォームを選択し、「**編集**」をクリックします。
+1. オブジェクトタイプを追加するカスタムフォームを選択し、「 **編集** <span class="preview">または ![編集アイコン](assets/edit-icon.png).</span>
 
 1. フォームの上部で、**オブジェクトタイプ**&#x200B;の後にあるプラス記号（+）をクリックし、表示されるメニューから必要なタイプを選択します。この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
 
@@ -88,13 +90,13 @@ ht-degree: 98%
 
 オブジェクトタイプを削除するには、以下の手順を実行します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
-1. 編集するカスタムフォームを選択し、「**編集**」をクリックします。
-1. フォームから削除する&#x200B;**オブジェクトタイプ**&#x200B;の X をクリックし、表示される警告メッセージで「**削除**」をクリックします。
+1. 編集するカスタムフォームを選択し、 **編集** <span class="preview">または ![編集アイコン](assets/edit-icon.png).</span>
+1. 任意の **オブジェクトタイプ** をフォームから削除します。
 
    ![](assets/delete-object-types.png)
 
 1. （オプション）フォームから削除する他のオブジェクトタイプについて、前の手順を繰り返します。
-1. 「**完了**」をクリックして、「**保存して閉じる**」をクリックします。
+1. クリック **完了**&#x200B;を選択し、次に **保存して閉じる**.

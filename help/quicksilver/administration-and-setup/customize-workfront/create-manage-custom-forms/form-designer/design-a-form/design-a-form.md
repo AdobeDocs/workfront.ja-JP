@@ -3,14 +3,14 @@ title: フォームデザイナーでフォームをデザイン
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: フォームデザイナーを使用してカスタムフォームをデザインできます。
-author: Courtney
+description: フォームデザイナーを使用してカスタムフォームをデザインできます。カスタムフォームを様々な Workfront オブジェクトに添付して、これらのオブジェクトに関するデータを取り込むことができます。
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
 workflow-type: tm+mt
-source-wordcount: '5096'
+source-wordcount: '5075'
 ht-degree: 81%
 
 ---
@@ -28,28 +28,28 @@ ht-degree: 81%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td>
-   <p>新規プラン：標準</p>
+   <p>新規：標準</p>
    <p>または</p>
-   <p>現在のプラン：プラン</p></td> 
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセスレベル設定を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## カスタムフォームのデザインを開始する
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 
@@ -678,7 +678,7 @@ The Workfront Mobile app -->
 
    「**保存して閉じる**」をクリックします。
 
-#### **ドキュメントエリアからカスタムフォームにビデオウィジェットを追加**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### ドキュメント領域からカスタムフォームにビデオウィジェットを追加{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >

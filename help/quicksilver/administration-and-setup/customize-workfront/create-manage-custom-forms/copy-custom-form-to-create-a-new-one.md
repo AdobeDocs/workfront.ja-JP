@@ -5,18 +5,20 @@ keywords: 作成、カスタム、フォーム、コピー、ベース、別の
 navigation-topic: create-and-manage-custom-forms
 title: カスタムフォームをコピーして、従来のビルダーで新しく作成
 description: 既存のフォームに基づく新しいカスタムフォームを作成できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 90%
 
 ---
 
 # カスタムフォームをコピーして、従来のビルダーで新しく作成
+
+{{highlighted-preview}}
 
 既存のフォームに基づく新しいカスタムフォームを作成できます。
 
@@ -29,28 +31,31 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセスレベル設定を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## カスタムフォームのコピーによる新規フォームの作成
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新しいカスタムフォームのベースとして使用するカスタムフォームを選択し、「**コピー**」をクリックします。
+1. 新しいカスタムフォームの基礎として使用するカスタムフォームを選択し、 **コピー** <span class="preview">または ![コピーアイコン](assets/copy-icon.png).</span>
 1. 表示される&#x200B;**カスタム フォーム コピー**&#x200B;ダイアログボックスで、次の情報を入力します。
 
    <table style="table-layout:auto"> 

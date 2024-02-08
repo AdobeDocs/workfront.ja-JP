@@ -1,14 +1,14 @@
 ---
 title: 特定のカスタムフィールドまたはウィジェットを使用するすべてのレポートの表示
 description: カスタムビューは、特定のカスタムフィールドまたはウィジェットを使用しているレポートを表示するカスタムフォームエリアに追加できます。フィールドやウィジェットは既に 1 つ以上のレポートに実装されている可能性があるので、これはフィールドやウィジェットを編集または削除する必要がある場合に役立ちます。これらのレポートが正しく機能し続けるために調整が必要かどうかを評価することが重要です。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '817'
-ht-degree: 100%
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 90%
 
 ---
 
@@ -27,38 +27,39 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセスレベル設定を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 特定のカスタムフィールドまたはウィジェットを使用するレポートのリストの表示
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. 「**フィールド**」タブを開くと、Workfront インスタンス内のすべてのカスタムフィールドとウィジェットをリストしたレポートが表示されます。
+1. クリック **フィールド** :Workfrontインスタンス内のすべてのカスタムフィールドとウィジェットを一覧表示するレポートを表示します。
 
-   ![](assets/fields-tab.png)
-
-1. リスト上部のヘッダーにある&#x200B;**ビュー**&#x200B;ドロップダウンメニューをクリックし、リスト内に&#x200B;**レポート**&#x200B;列（このタブのデフォルト列でなはい）を含むカスタムビューがないか確認します。
+1. 次をクリック： **表示** メニューで、リスト内のカスタムビューに **レポート** 列（このタブのデフォルトの列ではありません）。
 
    レポート列では、システム内のカスタムフォームに追加された各カスタムフィールドとウィジェットを使用しているレポートを確認できます。**レポート**&#x200B;列を含むビューが既に作成されている可能性があります。
 
 1. **レポート**&#x200B;列を含むビューが表示されない場合、それを含む新しいビューを作成します。
 
-   1. **表示**&#x200B;ドロップダウンメニューをクリックして、「**新規ビュー**」をクリックします。
+   1. 次をクリック： **表示** メニュー、次に「 **新しいビュー**.
 
    1. 表示された&#x200B;**新規ビュー**&#x200B;ページの左上隅付近のボックスで、「**新規パラメータービュー**」をビューのわかりやすい名前に変えます（例：*フィールドとウィジェット*）。
 
