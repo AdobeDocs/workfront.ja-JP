@@ -8,9 +8,9 @@ title: Adobe Authenticatorモジュール
 description: Adobe Authenticatorモジュールを使用すれば、1 回の接続で、API を使用して任意のAdobe製品に接続できます。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 07443d85e160004c273fc977629dd9f588cc23b2
+source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '882'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,7 @@ Adobe Authenticatorモジュールを使用すると、1 つの接続を使用�
 
 HTTP モジュールの利点は、専用アプリと同様に接続を作成できる点です。
 
-使用可能なAdobeAPI のリストについては、 X を参照してください。割り当て先の API のみを使用できます。
+使用可能なAdobeAPI のリストについては、 [AdobeAPI](https://developer.adobe.com/apis). 割り当て先の API のみを使用できます。
 
 ## アクセス要件
 
