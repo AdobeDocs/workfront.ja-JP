@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 50%
+source-wordcount: '299'
+ht-degree: 48%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->プレビューリリース：2023 年 11 月 1 日、すべてのお客様向けの実稼動版リリース：11 月 1 日
+>プレビューリリース：2023 年 11 月 1 日、すべてのお客様向けの実稼動リリース：2023 年 11 月 1 日
 
 ドキュメントの承認通知用の電子メールテンプレートが更新され、他のAdobe電子メールテンプレートとの適合性が向上し、明確性と操作性が向上しました。
 
@@ -31,7 +31,7 @@ ht-degree: 50%
 
 >[!NOTE]
 >
->プレビューリリース：2023 年 10 月 12 日、すべてのお客様向けの実稼動リリース：未定
+>プレビューリリース：2023 年 10 月 12 日、高速リリース用の実稼動：24.2 リリース（2024 年 2 月 15 日）、四半期リリース用の実稼動：24.4 リリース（2024 年 4 月）
 
 手動で調整した時間別割り当てに鉛筆アイコンが表示され、ワークロードバランサーでの手動調整やコンタリングに関するより明確な情報を提供します。
 
