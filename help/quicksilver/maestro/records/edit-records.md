@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1077'
 ht-degree: 3%
 
 ---
@@ -168,6 +168,8 @@ ht-degree: 3%
    * 番号付きリストを追加
 
    ![](assets/rich-text-toolbar-on-paragraph-field.png)
+
+1. （オプション）接続されたレコードフィールドをダブルクリックして、接続されたレコードまたはオブジェクトを別のレコードに追加します。 詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
 1. 押す **入力** キーボードでクリックするか、行の外側をクリックして変更を保存します。 変更内容は自動的に保存されます。 A **保存済み** インジケータは、テーブルビューの右上隅に短く表示され、変更が保存されたことを示します。
 
 1. （オプション）あるフィールドから別のフィールドに情報をコピーして貼り付けるには、次のいずれかの操作を行います。

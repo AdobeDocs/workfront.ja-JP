@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '4110'
 ht-degree: 6%
 
 ---
@@ -65,22 +65,29 @@ Maestro でのライセンスの種類と権限の接続については、 [ラ�
 
 詳しくは、  [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
-<!--
-### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+### 単一選択、複数選択、人物フィールドの編集時、および接続されたオブジェクトの追加時のエクスペリエンスが向上しました。
 
-Production: February 8, 2024 
+実稼動： 2024 年 2 月 8 日
 
-Preview: To be determined 
+プレビュー：決定する必要があります
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
- 
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+次のフィールドタイプのオプションやオブジェクトを追加するエクスペリエンスを再設計し、改善しました。
 
-The improvements are now available when updating fields in the table view of a record type.  
+* 単一選択
+* 複数選択
+* ユーザー
+* コネクテッドレコードフィールド (Maestro レコードタイプまたはWorkfrontオブジェクトを接続する場合 )
 
-For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+新しい機能強化により、より小さく、応答性の高いボックスが最初に表示されます。
 
--->
+接続されたフィールドの場合、次のいずれかの操作で追加できます。
+
+* フィールドをインライン編集しながら、テーブル表示のリストからオブジェクトを検索して選択し、接続されたフィールドにオブジェクトを追加する
+* をクリックして、大きな [ オブジェクトの接続 ] ボックスを開き、すべての項目名と、その項目に関する詳細情報を表示できます。
+
+レコードタイプのテーブル表示のフィールドを更新する際に、機能強化が利用できるようになりました。
+
+詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
 
 ## 2024年1月29日（PT）の週
 
