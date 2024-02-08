@@ -5,18 +5,20 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: キックスタートを介した Adobe Workfront からのデータの書き出し
 description: Adobe Workfront 管理者は、キックスタートのデータエクスポーターを使用して Workfront からデータを書き出すことができます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
-workflow-type: ht
-source-wordcount: '1101'
-ht-degree: 100%
+source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
+workflow-type: tm+mt
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
 # キックスタートを介した Adobe Workfront からのデータの書き出し
+
+<!-- Audited: 2/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -40,14 +42,20 @@ Adobe Workfront 管理者は、キックスタートのデータエクスポー�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
-   <td>プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   または
+   <p>現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## キックスタートを使用してデータを書き出すメリットとデメリット
 
@@ -95,11 +103,67 @@ Workfront 内でデータを書き出すには、次の 2 つの方法があり�
 
 ## キックスタートを介したデータの書き出し
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、「**設定**」をクリックします![](assets/gear-icon-settings.png)。
+{{step-1-to-setup}}
 
 1. **システム**／**キックスタート**&#x200B;をクリックして、「**データを書き出す**」をクリックします。
 
-1. 書き出すオブジェクトを選択します。
+1. 書き出すオブジェクトを選択します。 デフォルトでは、次のオブジェクトがの下に表示されます。 **含めるもの**:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><strong>オブジェクト</strong> </p> </th> 
+      <th> <p><strong>Excel ファイルの書き出されたシート</strong> </p> </th> 
+      <th> <p> <strong>書き出し形式</strong></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>ダッシュボード</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top"> <p>パラメーター<br>パラメーターオプション<br>パラメーターグループ<br>カテゴリパラメーター<br>カテゴリ<br>レポート<br>ポータルのタブセクション<br>ダッシュボード<br>環境設定</p> </td> 
+      <td scope="col" valign="top"> ZIP</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>レポート</p> <p> </p> <p> </p> </td> 
+      <td scope="col" valign="top">パラメーター<br>パラメーターオプション<br>パラメータグループ<br>カテゴリパラメーター<br>カテゴリ<br>レポート<br>環境設定</td> 
+      <td scope="col" valign="top"> ZIP </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>承認</p> </td> 
+      <td scope="col" valign="top"> <p>ステップ承認者<br>承認ステップ<br>承認<br>承認プロセス<br>環境設定</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>カスタムデータ</p> </td> 
+      <td scope="col" valign="top"> <p>パラメーター<br>パラメーターオプション<br>パラメーターグループ<br>カテゴリパラメーター<br>カテゴリ<br>環境設定</p> </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>費用タイプ</p> </td> 
+      <td valign="top"> <p>費用タイプ<br>環境設定</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>時間タイプ</p> </td> 
+      <td valign="top"> <p>時間タイプ<br>環境設定</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>チーム</p> </td> 
+      <td valign="top"> チームメンバー<br>チーム<br>環境設定 </td> 
+      <td scope="col" valign="top"> <p> Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>ユーザー</p> </td> 
+      <td valign="top"> <p>ユーザー<br>環境設定</p> </td> 
+      <td valign="top"> <p> Excel</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
 1. 「**その他のオプション**」をクリックして、オブジェクトの完全なリストを表示します。
 
    ここに示すオブジェクトはすべて、データを Workfront に読み込む際にも使用できます。
@@ -272,117 +336,7 @@ Workfront 内でデータを書き出すには、次の 2 つの方法があり�
 
    一度に複数のオブジェクトを書き出すことができます。
 
-   デフォルトでは、次のオブジェクトが「**含めるもの**」ラベル（**その他のオプション**&#x200B;をクリックする前）の下に表示されます。
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong>オブジェクト</strong> </p> </th> 
-      <th> <p><strong>Excel ファイルの書き出されたシート</strong> </p> </th> 
-      <th> <p> <strong>書き出し形式</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>ダッシュボード</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>パラメーター<br>パラメーターオプション<br>パラメーターグループ<br>カテゴリパラメーター<br>カテゴリ<br>レポート<br>ポータルのタブセクション<br>ダッシュボード<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>レポート</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">パラメーター<br>パラメーターオプション<br>パラメータグループ<br>カテゴリパラメーター<br>カテゴリ<br>レポート<br>環境設定</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>承認</p> </td> 
-      <td scope="col" valign="top"> <p>ステップ承認者<br>承認ステップ<br>承認<br>承認プロセス<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>カスタムデータ</p> </td> 
-      <td scope="col" valign="top"> <p>パラメーター<br>パラメーターオプション<br>パラメーターグループ<br>カテゴリパラメーター<br>カテゴリ<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>費用タイプ</p> </td> 
-      <td valign="top"> <p>費用タイプ<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>時間タイプ</p> </td> 
-      <td valign="top"> <p>時間タイプ<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>チーム</p> </td> 
-      <td valign="top"> チームメンバー<br>チーム<br>環境設定 </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>ユーザー</p> </td> 
-      <td valign="top"> <p>ユーザー<br>環境設定</p> </td> 
-      <td valign="top"> <p> Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong></strong> </p> </th> 
-      <th> <p><strong>Excel ファイルの書き出されたシート</strong> </p> </th> 
-      <th> <p><strong>書き出し形式</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>ダッシュボード</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top"> <p>パラメーター<br>パラメーターオプション<br>パラメーターグループ<br>カテゴリパラメーター<br>カテゴリ<br>レポート<br>ポータルのタブセクション<br>ダッシュボード<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>レポート</p> <p> </p> <p> </p> </td> 
-      <td scope="col" valign="top">パラメーター<br>パラメーターオプション<br>パラメーターグループ<br>カテゴリパラメーター<br>カテゴリ<br>レポート<br>環境設定</td> 
-      <td scope="col" valign="top"> ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>承認</p> </td> 
-      <td scope="col" valign="top"> <p>ステップ承認者<br>承認ステップ<br>承認<br>承認プロセス<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>カスタムデータ</p> </td> 
-      <td scope="col" valign="top"> <p>パラメーター<br>パラメーターオプション<br>パラメーターグループ<br>カテゴリパラメーター<br>カテゴリ<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>費用タイプ</p> </td> 
-      <td valign="top"> <p>費用タイプ<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>時間タイプ</p> </td> 
-      <td valign="top"> <p>時間タイプ<br>環境設定</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>チーム</p> </td> 
-      <td valign="top"> チームメンバー<br>チーム<br>環境設定 </td> 
-      <td scope="col" valign="top"> <p> Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>ユーザー</p> </td> 
-      <td valign="top"> <p>ユーザー<br>環境設定</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
 
 1. （推奨）書き出されたデータを分析し、表示するはずのすべての情報が書き出されたことを確認します。
 

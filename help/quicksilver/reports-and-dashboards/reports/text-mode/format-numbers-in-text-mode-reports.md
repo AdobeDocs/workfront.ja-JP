@@ -6,18 +6,20 @@ description: Adobe Workfront では、レポートやリストに様々な形式
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
-workflow-type: ht
-source-wordcount: '154'
-ht-degree: 100%
+source-git-commit: 8de9c79f6c62b74a652482ec10bf38fada8c5fc8
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 80%
 
 ---
 
 # テキストモードのレポートでの数値、通貨、割合の値の形式設定
 
+<!-- Audited: 2/2024 -->
+
 Adobe Workfront では、レポートやリストに様々な形式で表示されるように、通貨を含む数値を設定できます。
 
-数値のフォーマットを変更するには、**valueformat** 列の行を編集する必要があります。
+数値のフォーマットを変更するには、 **valueformat** 列の行。
 
 例えば、予算の列を 1000 ドルと表示する場合、値の形式行は次のようになります。
 
@@ -28,7 +30,7 @@ valuefield=budget
 
 テキストモードを使用した Workfront のレポートおよびリストでの条件付き形式の適用について詳しくは、[テキストモードでの条件付き形式の使用](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)を参照してください。
 
-次の値を `valueformat` 列の行に使用して、数値の形式を設定できます。
+数値の書式を設定するには、次の値を `valueformat` 列の行：
 
 | 例 | `valueformat=` |
 |---|---|

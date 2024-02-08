@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 8de9c79f6c62b74a652482ec10bf38fada8c5fc8
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 62%
+source-wordcount: '74'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 62%
 
 このインデックスには、ユーザー管理に関する次のサブセクションへのリンクが含まれています。
 
-* [ユーザーの作成と管理](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+* [ユーザーの作成と管理：記事インデックス](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
 * [新しいアクセスレベルの仕組み](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
 * [アクセスレベルの仕組み](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
 * [Adobe Workfront に対するアクセス権の設定](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)

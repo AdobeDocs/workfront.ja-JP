@@ -7,18 +7,18 @@ description: テキストモードの使用時に、Adobe Workfront で計算済
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
+source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
 # 計算カスタムフィールドの条件演算子
 
-テキストモードの使用時に、Adobe Workfront で計算済みのカスタムデータを作成する際に、条件演算子または修飾子を使用できます。
+<!-- Audited: 2/2024 -->
 
-Workfrontでのテキストモードの使用について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+テキストモードの使用時に、Adobe Workfrontで計算済みのカスタムデータを作成する際に、条件演算子または修飾子を使用できます。 Workfrontでのテキストモードの使用について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 条件演算子または修飾子は、ステートメント内の既存の Workfront フィールドを結合し、新しいフィールドを生成することで、条件ステートメントを作成するのに役立ちます。条件演算子の最も一般的な使用法は、「IF」ステートメントの条件を作成することです。
 

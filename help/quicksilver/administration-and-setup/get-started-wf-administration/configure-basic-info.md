@@ -4,18 +4,20 @@ product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: システムの基本情報の設定
 description: Adobe Workfront システムの設定の一環として、顧客情報ページの「基本情報」セクションで、組織に関する詳細を管理できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '897'
-ht-degree: 100%
+source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 99%
 
 ---
 
 # システムの基本情報の設定
+
+<!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>-->
 
@@ -34,11 +36,14 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
-   <td>プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   または
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +54,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
 顧客情報ページにアクセスするには：
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**システム**／**顧客情報**&#x200B;をクリックします。
 
@@ -79,7 +84,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
 顧客情報エリアで「基本情報」セクションを設定するには：
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**システム**／**顧客情報**&#x200B;をクリックします。
 

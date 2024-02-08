@@ -4,18 +4,20 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: システム全体のタスクとイシューの環境設定を指定
 description: タスクとイシューに関するシステム全体の環境設定を指定できます。これらの環境設定は、Workfront でのユーザーによるタスクおよびイシューの作成方法に影響します。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 93%
+source-wordcount: '2060'
+ht-degree: 91%
 
 ---
 
 # システム全体のタスクとイシューの環境設定を指定
+
+<!-- Audited: 2/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
@@ -24,7 +26,6 @@ Linked to Converting Issues.-->
 
 デフォルトではタスクとイシューの環境設定はロックされているので、システム全体のすべてのグループに対してロックを解除しない限り、グループ管理者はグループレベルでそれらを変更することできません。詳しくは、この記事の[グループのタスクとイシューの環境設定をロック](#lock-task-and-issue-preferences-for-groups)の節を参照してください。
 
-<!--SPLIT OUT BOTTOM SECTION TO NEW ARTICLE?-->
 
 ## アクセス要件
 
@@ -40,23 +41,26 @@ Linked to Converting Issues.-->
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>新規： [!UICONTROL Standard]</p>
+   または
+   <p>現在： [!UICONTROL プラン ]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## [!DNL Workfront] 内の全員のタスクとイシューの環境設定を行う
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL タスクとイシュー]をクリックします。**
 
-1. 表示されたページで、以下の 5 つのセクションのいずれかに進み、「[!UICONTROL 新規タスクのデフォルト]」、「[!UICONTROL イシュー]」、「[!UICONTROL 削除]」、「[!UICONTROL 実際の日付]」、「[!UICONTROL アクセス]」の設定を行います。
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 表示されたページで、次の 5 つのセクションのいずれかに進み、の設定を行います。 [!UICONTROL 新規タスクのデフォルト], [!UICONTROL 問題], [!UICONTROL 削除], [!UICONTROL 実際の日付]、および [!UICONTROL アクセス]:
 
 * [[!UICONTROL 新規タスクの初期設定]](#new-task-defaults)
 * [[!UICONTROL イシュー]](#issues)
@@ -73,72 +77,70 @@ Linked to Converting Issues.-->
 ### [!UICONTROL 新規タスクの初期設定] {#new-task-defaults}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Start Date on New Tasks]</td> 
-   <td> <p>プロジェクトマネージャーについて、新規タスクのデフォルトの開始日を決定します。新規タスクの開始日は、プロジェクトの予定開始日か、タスクの作成日のどちらかです。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
-   <td> <p>リソースの数（およびその割り当て率）とタスクの期間または合計作業量との関係を決定します。詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">タスクの期間と期間の種類：記事のインデックス</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-   <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。次の場合に <strong>[!UICONTROL 売上高タイプ ]</strong> が <strong>[!UICONTROL 請求不可 ]</strong>計画時間と記録された実際の時間では、タスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの売上高には影響しません。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Cost Type]</td> 
-   <td> <p>タスクの計画コスト見積もりと実績コスト見積もりを計算します。<strong>[!UICONTROL No Cost]</strong> に設定する場合、計画時間と記録された実績時間では、タスクの計画コスト見積もりや実績コストの見積もりは生成されず、タスクの作業はプロジェクトレベルのコストには寄与しません。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Start Date]</td> 
+    <td> <p>プロジェクトマネージャーについて、新規タスクのデフォルトの開始日を決定します。新規タスクの開始日は、プロジェクトの予定開始日か、タスクの作成日のどちらかです。</p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader"> <p>[!UICONTROL Duration Type] </p> </td> 
+    <td> <p>リソースの数（およびその割り当て率）とタスクの期間または合計作業量との関係を決定します。詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプ</a>を参照してください</p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
+    <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。次の場合に <strong>[!UICONTROL 売上高タイプ ]</strong> が <strong>[!UICONTROL 請求不可 ]</strong>計画時間と記録された実際の時間では、タスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの売上高には影響しません。</p> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Cost Type]</td> 
+    <td> <p>タスクの計画コスト見積もりと実績コスト見積もりを計算します。<strong>[!UICONTROL No Cost]</strong> に設定する場合、計画時間と記録された実績時間では、タスクの計画コスト見積もりや実績コストの見積もりは生成されず、タスクの作業はプロジェクトレベルのコストには寄与しません。</p> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
 ### イシュー {#issues}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Automatically update Resolvable Issue status when the status of the Resolving Object changes]</td> 
-   <td> <p>誰かがあるイシューをプロジェクトまたはタスクに変換すると、元のイシューと変換後のプロジェクトまたはタスクの両方が解決オブジェクトになります。この設定を使用すると、元のイシューの解決策を解決可能なオブジェクトの解決策に関連付けることができます。オブジェクトの解決に関して詳しくは、<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解決および解決可能なオブジェクトの概要</a>を参照してください。</p> <p>この設定を効果的にするには、「<strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>」オプションを選択する必要があります。</p> 
-    <ul> 
-     <li>この設定を有効にすると、イシューと、プロジェクトまたはタスクの両方で、同じキーを使用してカスタムのステータスを作成できます。プロジェクトまたはタスク（解決可能なオブジェクト）がカスタムのステータスに変わると、その変更はイシューのステータスにも反映されます。ステータスキーは、イシューとプロジェクトまたはタスクのステータスで同じにする必要があります。</li> 
-     <li>この設定を無効にすると、解決するオブジェクトのステータスは、カスタムのステータスではなく、自動的にデフォルトのステータスに設定されます。デフォルトのステータスについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">システムイシューステータスのリストへのアクセス</a>を参照してください。</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader" [!UICONTROL>イシューをタスクに変換する場合</td> 
-   <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。タスクが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。</p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 
-       <ul> 
-        <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセスの許可</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a> </p> </li> 
-       </ul> </p> </li> 
-     <li><strong>[!UICONTROLプライマリ連絡先にタスクへのアクセスを許可 ]</strong>：主要連絡先（イシューの作成者）がタスクに対する表示アクセス権を付与して、タスクをレビューし、その進行状況を常に把握し、タスクの「更新」セクションにコメントを付けます。</li> 
-     <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>：イシューを変換するユーザーが、イシューをタスクに変換する際に、これらのオプションを変更できます。</p> <!--
-       Screenshot when possible</p>
-      --> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL When converting an issue to a project]</td> 
-   <td> <p>このセクションの設定で、イシューからプロジェクトへ変換するプロセスで起こることを定めます。</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the project]</strong>：イシューを変換する場合、プロジェクトが完了するまで、イシューはイシューとして表示され続けます。プロジェクトが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。 </p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 
-       <ul> 
-        <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセスの許可</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a> </p> </li> 
-       </ul> </p> </li> 
-     <li><strong>[!UICONTROLプライマリ連絡先がプロジェクトにアクセスできるようにする ]</strong>：主要連絡先（イシュー作成者）がプロジェクトに対する表示アクセス権を付与し、プロジェクトをレビューし、進行状況を常に把握し、プロジェクトの「更新」セクションにコメントを付けます。</li> 
-     <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>：イシューをプロジェクトに変換する際に、変換するユーザーがリストに表示されているオプションを変更できるようにします。</li> 
-    </ul> </td>
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL Automatically update Resolvable Issue status when the status of the Resolving Object changes]</td> 
+    <td> <p>誰かがあるイシューをプロジェクトまたはタスクに変換すると、元のイシューと変換後のプロジェクトまたはタスクの両方が解決オブジェクトになります。この設定を使用すると、元のイシューの解決策を解決可能なオブジェクトの解決策に関連付けることができます。オブジェクトの解決に関して詳しくは、<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解決および解決可能なオブジェクトの概要</a>を参照してください。</p> <p>この設定を効果的にするには、「<strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>」オプションを選択する必要があります。</p> 
+      <ul> 
+      <li>この設定を有効にすると、イシューと、プロジェクトまたはタスクの両方で、同じキーを使用してカスタムのステータスを作成できます。プロジェクトまたはタスク（解決可能なオブジェクト）がカスタムのステータスに変わると、その変更はイシューのステータスにも反映されます。ステータスキーは、イシューとプロジェクトまたはタスクのステータスで同じにする必要があります。</li> 
+      <li>この設定を無効にすると、解決するオブジェクトのステータスは、カスタムのステータスではなく、自動的にデフォルトのステータスに設定されます。デフォルトのステータスについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">システムイシューステータスのリストへのアクセス</a>を参照してください。</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader" [!UICONTROL>イシューをタスクに変換する場合</td> 
+    <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
+      <ul> 
+      <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。タスクが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。</p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 
+        <ul> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセスの許可</a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a> </p> </li> 
+        </ul> </p> </li> 
+      <li><strong>[!UICONTROLプライマリ連絡先にタスクへのアクセスを許可 ]</strong>：主要連絡先（イシューの作成者）がタスクに対する表示アクセス権を付与して、タスクをレビューし、その進行状況を常に把握し、タスクの「更新」セクションにコメントを付けます。</li> 
+      <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>：イシューを変換するユーザーが、イシューをタスクに変換する際に、これらのオプションを変更できます。</p></li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL When converting an issue to a project]</td> 
+    <td> <p>このセクションの設定で、イシューからプロジェクトへ変換するプロセスで起こることを定めます。</p> 
+      <ul> 
+      <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the project]</strong>：イシューを変換する場合、プロジェクトが完了するまで、イシューはイシューとして表示され続けます。プロジェクトが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。 </p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 
+        <ul> 
+          <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセスの許可</a> </p> </li> 
+          <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a> </p> </li> 
+        </ul> </p> </li> 
+      <li><strong>[!UICONTROLプライマリ連絡先がプロジェクトにアクセスできるようにする ]</strong>：主要連絡先（イシュー作成者）がプロジェクトに対する表示アクセス権を付与し、プロジェクトをレビューし、進行状況を常に把握し、プロジェクトの「更新」セクションにコメントを付けます。</li> 
+      <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>：イシューをプロジェクトに変換する際に、変換するユーザーがリストに表示されているオプションを変更できるようにします。</li> 
+      </ul> </td>
+    </tr> 
+  </tbody> 
+  </table>
 
 ### [!UICONTROL 削除] {#deletion}
 
@@ -159,31 +161,31 @@ Linked to Converting Issues.-->
 ### [!UICONTROL 実際の日付] {#actual-dates}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL When a task or issue goes from "New" to "In Progress," set the Actual Start Date to]</td> 
-   <td> <p>タスクまたはイシューが <strong>[!UICONTROL New]</strong> から <strong>[!UICONTROL In Progress]</strong> に変わったとき、[!DNL Workfront] で実際の開始日が記録されるタイミングとして、次のオプションのいずれかを選択します。</p> 
-    <ul> 
-     <li><strong>[!UICONTROL Now]：</strong>実際の開始日は、現在の日付に設定されます。</li> 
-     <li><strong>[!UICONTROL The Planned Start Date]：</strong>実際の開始日は、タスクまたはイシューの予定開始日に設定されます。</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL When a task or issue is completed, set the Actual Completion Date to]</td> 
-   <td> <p>タスクまたはイシューが完了したとき、[!DNL Workfront] で実際の完了日が記録されるタイミングとして、次のオプションのいずれかを選択します。</p> 
-    <ul> 
-     <li><strong>[!UICONTROL Now]：</strong>実際の完了日は、現在の日付に設定されます。</li> 
-     <li> <p><strong>[!UICONTROL The Planned Completion Date]：</strong>実際の完了日は、タスクまたはイシューの予定完了日に設定されます。</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL When a task or issue goes from "New" to "In Progress," set the Actual Start Date to]</td> 
+    <td> <p>タスクまたはイシューが <strong>[!UICONTROL New]</strong> から <strong>[!UICONTROL In Progress]</strong> に変わったとき、[!DNL Workfront] で実際の開始日が記録されるタイミングとして、次のオプションのいずれかを選択します。</p> 
+      <ul> 
+      <li><strong>[!UICONTROL Now]：</strong>実際の開始日は、現在の日付に設定されます。</li> 
+      <li><strong>[!UICONTROL The Planned Start Date]：</strong>実際の開始日は、タスクまたはイシューの予定開始日に設定されます。</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL When a task or issue is completed, set the Actual Completion Date to]</td> 
+    <td> <p>タスクまたはイシューが完了したとき、[!DNL Workfront] で実際の完了日が記録されるタイミングとして、次のオプションのいずれかを選択します。</p> 
+      <ul> 
+      <li><strong>[!UICONTROL Now]：</strong>実際の完了日は、現在の日付に設定されます。</li> 
+      <li> <p><strong>[!UICONTROL The Planned Completion Date]：</strong>実際の完了日は、タスクまたはイシューの予定完了日に設定されます。</p> </li> 
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
 ### 委任
 
-「[!UICONTROL ユーザーが自分のタスクおよびイシューを委任するのを許可]」を有効にすると、すべてのユーザーが一時的に自分の作業を他のユーザーに委任できます。
+「**[!UICONTROL ユーザーが自分のタスクおよびイシューを委任するのを許可]**」を有効にすると、すべてのユーザーが一時的に自分の作業を他のユーザーに委任できます。
 
 この設定を有効にすると、次の情報が表示されます。
 
@@ -227,35 +229,37 @@ I have not had a chance to follow up with customers to verify if this is still a
 ### [!UICONTROL アクセス] {#access}
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL When someone is assigned to a task]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。タスクの権限について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセスを許可</a>を参照してください。</li> 
-     <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>：ユーザーが割り当て先のタスクを含んだプロジェクトに対して持つデフォルトの権限を定義します。プロジェクトの権限について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境を設定</a>を参照してください。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL When someone is assigned to an issue]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。タスクの権限について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセスを許可</a>を参照してください。</li> 
-     <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>：ユーザーが割り当て先のタスクを含んだプロジェクトに対して持つデフォルトの権限を定義します。プロジェクトの権限について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境を設定</a>を参照してください。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL When someone submits a request]</td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL Give them ... access to the issue]</strong>：ユーザーが送信したリクエストに対して持つデフォルトの権限を定義します。詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</li> 
-     <li> <p><strong>[!UICONTROL People from the same company will inherit the same permissions for all requests]</strong>：ユーザーは、同じ会社の他のユーザーによって送信されたリクエストを表示できます。これらのリクエストに対する権限は、独自に送信されたリクエストに対する権限と同じです。</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL When someone is assigned to a task]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL Give them ... access to a task]</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。タスクの権限について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセスを許可</a>を参照してください。</li> 
+      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>：ユーザーが割り当て先のタスクを含んだプロジェクトに対して持つデフォルトの権限を定義します。プロジェクトの権限について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境を設定</a>を参照してください。</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL When someone is assigned to an issue]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL Give them ... access to a task]</strong>：ユーザーが割り当て先のタスクに対して持つデフォルトの権限を定義します。タスクの権限について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセスを許可</a>を参照してください。</li> 
+      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>：ユーザーが割り当て先のタスクを含んだプロジェクトに対して持つデフォルトの権限を定義します。プロジェクトの権限について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境を設定</a>を参照してください。</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td role="rowheader">[!UICONTROL When someone submits a request]</td> 
+    <td> 
+      <ul> 
+      <li><strong>[!UICONTROL Give them ... access to the issue]</strong>：ユーザーが送信したリクエストに対して持つデフォルトの権限を定義します。詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</li> 
+      <li> <p><strong>[!UICONTROL People from the same company will inherit the same permissions for all requests]</strong>：ユーザーは、同じ会社の他のユーザーによって送信されたリクエストを表示できます。これらのリクエストに対する権限は、独自に送信されたリクエストに対する権限と同じです。</p> </li> 
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## グループのタスクとイシューの環境設定をロック {#lock-task-and-issue-preferences-for-groups}
 
@@ -267,9 +271,9 @@ I have not had a chance to follow up with customers to verify if this is still a
 >
 >[!DNL Workfront] 管理者がシステムレベルで環境設定のロックを解除すると、グループ管理者は環境設定を指定でき、そのグループとその下に属するサブグループの全員が同じ設定を使用するようにロックできます。これは、[!DNL Workfront] 管理者がシステム内のすべてのユーザーに対して環境設定を指定およびロックする操作と同じです。詳しくは、[グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)および[サブグループのプロジェクト、タスクまたはイシューの環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)を参照してください。
 
-タスクまたはイシューの環境設定をロックまたはロック解除して、グループが設定できるようにするには、次の手順に従います。
+タスクまたは問題の環境設定をグループで設定できるように、タスクまたは問題の環境設定をロックまたはロック解除するには、次の手順を実行します。
 
-1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL タスクとイシュー]**&#x200B;をクリックします。
 

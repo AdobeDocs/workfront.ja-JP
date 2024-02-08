@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
-workflow-type: ht
-source-wordcount: '2096'
-ht-degree: 100%
+source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+workflow-type: tm+mt
+source-wordcount: '2056'
+ht-degree: 94%
 
 ---
 
 # 自動ワークフローテンプレートの作成と管理
+
+<!-- Audited: 2/2024 -->
 
 組織のコンテンツレビュープロセスが頻繁に繰り返される場合や、コンテンツが同じ担当者によって頻繁にレビューされる場合、Adobe Workfront 管理者は、指定した校正ロールと通知設定を持つレビュー担当者を含む自動ワークフローテンプレートを作成できます。自動ワークフローテンプレートは、レビュー担当者が 1 人か 2 人だけの単純なものもあれば、多くの段階と依存関係を持つ複雑なものもあります。
 
@@ -40,25 +42,26 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Premium または選択</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規：任意</p><p>現在： Pro 以上</p><p>レガシー： Premium または Select</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> <p>新規：標準</p><p>現行：作業または計画</p> <p>レガシー：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プルーフ権限プロファイルで管理者を選択しておく必要があります。詳しくは、<a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">ユーザーのプルーフアクセスを設定する</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>配達確認権限プロファイルで管理者が選択されている必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 自動ワークフローテンプレートの作成
 
-1. Workfront から、メインメニュー ![](assets/main-menu-icon.png)、プルーフ ![](assets/proofing-in-main-menu.png) の順にクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
+
 1. 左側のパネルで「**ワークフロー**」をクリックします。
 1. 「**ワークフロー**」タブで、**新規**／**新しいテンプレート**&#x200B;をクリックします。
 
@@ -86,10 +89,9 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader">許可</td> 
-      <td> <p>テンプレートを使用してプルーフを作成する人が利用できるステージアクティビティを選択できます。</p> <!--
-        <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
-          <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
-         --></p>
+      <td> <p>テンプレートを使用してプルーフを作成する人が利用できるステージアクティビティを選択できます。</p> 
+      <p><b>警告</b>：「ステージを追加」および「ステージにユーザーを追加」オプションを選択しない場合、テンプレート所有者も、このテンプレートを使用するプルーフの所有者も、ステージを追加したり、プルーフを共有したりできません。 
+      </p>
       </td> 
      </tr> 
     </tbody> 
@@ -133,12 +135,8 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader">プライベートステージ</td> 
-      <td>ステージに追加されていない人や Workfront 管理者ではない人からのコメントと決定を非表示にします&lt;!--
-        FLARE でドラフトを作成：
-         スーパーバイザー以上
-
-       -->. 詳しくは、&lt;a href=&quot;../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md&quot; class=&quot;MCXref xref&quot;>自動化ワークフローの概要&lt;/a>を参照してください。&lt;/td>
-   </tr> 
+      <td>ステージに追加されていない人やWorkfront管理者でない人に対するコメントや決定を非表示にします。 詳しくは、<a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">このステージの削除を許可しない</td> 
       <td> <p>ステージを必須にします。</p> </td> 
@@ -146,7 +144,7 @@ ht-degree: 100%
     </tbody> 
    </table>
 
-1. このテンプレートを使用するプルーフが常にステージ内の同一人物に送信される場合は、プルーフを作成するたびに追加する必要がないように、ここに追加します。
+1. このテンプレートを使用する配達確認が常にステージ内の同じ人物に送信される場合は、配達確認を作成するたびに追加する必要がないように、ここに追加します。
 
    このテンプレートを使用するプルーフの各担当者の&#x200B;**役割**&#x200B;と、このテンプレートを使用するプルーフでユーザーが作業する際に受け取ってもらいたい&#x200B;**メールアラート**&#x200B;を選択します。
 
@@ -174,7 +172,8 @@ ht-degree: 100%
 
 Workfront のプルーフ管理者は、自動化ワークフローのテンプレートを変更できます。変更内容は、変更時に自動的に保存されます。
 
-1. Workfront でメインメニュー ![](assets/main-menu-icon.png) をクリックし、「プルーフ」![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
+
 1. 左側のパネルで「**ワークフロー**」をクリックします。
 1. 表示される「**ワークフローテンプレート**」リストで、変更するテンプレートをクリックします。
 1. 「**詳細**」セクションで、次の情報を指定します。
@@ -193,7 +192,7 @@ Workfront のプルーフ管理者は、自動化ワークフローのテンプ�
      </tr> 
      <tr> 
       <td role="rowheader">テンプレートグループ</td> 
-      <td> <p> 組織の自動ワークフローがグループに編成されている場合は、グループの名前を選択できます。詳しくは、この記事で後述の<a href="#create-automated-workflow-template-groups" class="MCXref xref">自動化ワークフローテンプレートグループの作成</a>を参照してください。</p> </td> 
+      <td> <p> 組織の自動ワークフローがグループに編成されている場合は、グループの名前を選択できます。詳しくは、この記事で後述する<a href="#create-automated-workflow-template-groups" class="MCXref xref">自動ワークフローテンプレートグループの作成</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">テンプレートのタイムゾーン </td> 
@@ -222,7 +221,7 @@ Workfront のプルーフ管理者は、自動化ワークフローのテンプ�
      </tr> 
      <tr> 
       <td role="rowheader">ステージをアクティブ化</td> 
-      <td> <p>ステージを自動または手動のどちらでアクティブ化するかを指定します。最初のステージの場合は、「<strong>プルーフ作成日時</strong>」、「<strong>指定日時</strong>」または「<strong>手動</strong>」を選択できます。</p> <p>それ以外のオプションは、親ステージを選択する必要があるため、2 つ目のステージを追加すると使用できるようになります。 </p> </td> 
+      <td> <p>ステージを自動または手動のどちらでアクティブ化するかを指定します。最初のステージで、「<strong>プルーフ作成日時</strong>」「<strong>指定日時</strong>」「<strong>手動</strong>」を選択できます。</p> <p>それ以外のオプションは、親ステージを選択する必要があるため、2 つ目のステージを追加すると使用できるようになります。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステージのロック</td> 
@@ -261,7 +260,8 @@ Workfront 管理者は、組織のアカウントにあるすべての自動化�
 
 自動化ワークフローテンプレートグループを作成するには、次の手順に従います。
 
-1. Workfront でメインメニュー ![](assets/main-menu-icon.png) をクリックし、続いてプルーフアイコン ![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
+
 1. 左パネルの「**ワークフロー**」をクリックします。
 1. 「**ワークフロー**」タブで、**新規**／**新規テンプレートグループ**&#x200B;をクリックします。
 1. 新規テンプレートグループのわかりやすい名前を入力し、**Enter** キーを押します。
@@ -270,7 +270,7 @@ Workfront 管理者は、組織のアカウントにあるすべての自動化�
 
 ## 自動化ワークフローテンプレートの管理
 
-1. Workfront でメインメニュー ![](assets/main-menu-icon.png) をクリックし、続いてプルーフアイコン ![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
 
 1. Workfront Proof の左パネルで、「**ワークフロー**」をクリックします。
 1. 表示される&#x200B;**ワークフロー**&#x200B;ページで、次のいずれかの操作を行います。

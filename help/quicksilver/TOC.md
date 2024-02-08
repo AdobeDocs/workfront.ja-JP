@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ce957a06275b437272cf00769783e0c8a0918e85
+source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
 workflow-type: tm+mt
-source-wordcount: '13926'
+source-wordcount: '13930'
 ht-degree: 95%
 
 ---
@@ -463,7 +463,7 @@ ht-degree: 95%
    * ユーザー管理 {#add-users}
       * [ユーザー管理：記事インデックス](administration-and-setup/add-users/add-users.md)
       * ユーザーの作成と管理 {#create-manage-users}
-         * [ユーザーの管理](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+         * [ユーザーの作成と管理：記事インデックス](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
          * [ユーザーを追加](administration-and-setup/add-users/create-and-manage-users/add-users.md)
          * [ユーザーの読み込み](administration-and-setup/add-users/create-and-manage-users/import-users.md)
          * [ユーザーのプロファイルの編集](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
