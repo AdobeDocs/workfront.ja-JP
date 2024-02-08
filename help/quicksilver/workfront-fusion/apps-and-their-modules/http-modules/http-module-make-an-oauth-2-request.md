@@ -9,10 +9,10 @@ description: OAuth 2.0 認証を必要とするサーバーに対する  [!DNL A
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '2220'
-ht-degree: 100%
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+workflow-type: tm+mt
+source-wordcount: '2236'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,12 @@ OAuth 2.0 認証を必要とするサーバーに対する [!DNL Adobe Workfront
 リソース所有者パスワード資格情報フローやクライアント資格情報フローなど、その他のフローは、このモジュールを通じて自動的にはサポートされません。
 
 OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワーク](https://tools.ietf.org/html/rfc6749)を参照してください。
+
+>[!NOTE]
+>
+>現在専用のコネクタを持たないAdobe製品に接続する場合は、Adobe Authenticatorモジュールを使用することをお勧めします。
+>
+>詳しくは、 [Adobe Authenticatorモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## アクセス要件
 
@@ -68,7 +74,7 @@ OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワー�
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
@@ -291,7 +297,7 @@ OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワー�
 
 [!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 リクエストを作成]モジュールを構成すると、[!DNL Workfront Fusion] に以下のフィールドが表示されます。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/mapping/map-information-between-modules.md) のモジュール間での情報のマッピングを参照してください。
 
 <!--
 <img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -307,7 +313,7 @@ OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワー�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Evaluate all states as errors (except for 2xx and 3xx]) </td> 
-   <td> <p>エラー処理を設定するには、このオプションを使用します。</p> <p>詳しくは、<a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref"> [!DNL Adobe Workfront Fusion]</a> でのエラー処理 を参照してください。</p> </td> 
+   <td> <p>エラー処理を設定するには、このオプションを使用します。</p> <p>詳しくは、<a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのエラー処理を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
@@ -315,7 +321,7 @@ OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワー�
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref"> [!DNL Adobe Workfront Fusion]</a> での HTTP リクエスト方法を参照してください。</p> </td> 
+   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers] </td> 
@@ -339,7 +345,7 @@ OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワー�
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data] は、ファイルとデータの送信に使用される HTTP マルチパートリクエストです。通常、ファイルをサーバーにアップロードする際に使用されます。</p> <p>リクエストで送信するフィールドを追加します。各フィールドには、キーと値のペアが含まれている必要があります。</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>リクエスト本文内で送信するキーと値を入力します。</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>キーを入力し、リクエスト本文で送信するソースファイルを指定します。</p> <p>前のモジュールからアップロードするファイルをマッピングするか（[!UICONTROL HTTP]／&lbrack;[!UICONTROL Get a File] または [!UICONTROL Google Drive]／[!UICONTROL Download a File]）、またはファイル名とファイルデータを手動で入力します。</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>キーを入力し、リクエスト本文で送信するソースファイルを指定します。</p> <p>前のモジュールからアップロードするファイルをマッピングするか（[!UICONTROL HTTP]／[!UICONTROL Get a File] または [!UICONTROL Google Drive]／[!UICONTROL Download a File]）、またはファイル名とファイルデータを手動で入力します。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -373,7 +379,7 @@ OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワー�
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Disable serialization of multiple same query string keys as arrays]</p> </td> 
-   <td> <p>デフォルトでは、[!DNL Workfront Fusion] は、同じ URL クエリ文字列パラメーターキーの複数の値を配列として処理します。例えば、<code>www.test.com?foo=bar&amp;foo=baz</code> は <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code> に変換されます。このオプションをアクティブ化すると、この機能は無効になります。 </p> </td> 
+   <td> <p>デフォルトでは、[!DNL Workfront Fusion] は、配列と同じ URL クエリ文字列パラメーターキーに対する複数の値を処理します。例えば、<code>www.test.com?foo=bar&amp;foo=baz</code> が <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code> に変換されます。このオプションをアクティブ化すると、この機能は無効になります。 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Request compressed content]</td> 
@@ -381,7 +387,7 @@ OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワー�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Use Mutual TLS]</td> 
-   <td> <p>このオプションを有効にすると、HTTP リクエストで相互 TLS を使用できます。</p> <p>相互 TLS について詳しくは、<a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">HTTP モジュールでの相互 TLS の使用：[!DNL Adobe Workfront Fusion]</a> を参照してください。</p> </td> 
+   <td> <p>このオプションを有効にすると、HTTP リクエストで相互 TLS を使用できます。</p> <p>相互 TLS について詳しくは、<a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> の HTTP モジュールで相互 TLS を使用を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>

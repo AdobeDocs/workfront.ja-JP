@@ -9,8 +9,8 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
+source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
+workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Becky: pull from main, add to TOCs, then push to merge.
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td>
       <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件がありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
@@ -60,9 +60,9 @@ Becky: pull from main, add to TOCs, then push to merge.
     <tr>
       <td role="rowheader">製品</td>
       <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織が [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は [!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明されている機能を使用するには、組織が [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td>
     </tr>
   </tbody>
@@ -71,7 +71,7 @@ Becky: pull from main, add to TOCs, then push to merge.
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
@@ -153,7 +153,7 @@ Becky: pull from main, add to TOCs, then push to merge.
 
 [!DNL Adobe Journey Optimizer] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Adobe Journey Optimizer] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でのモジュール間の情報のマッピングを参照してください。
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -177,7 +177,7 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>[!DNL Adobe Journey Optimizer] への接続を作成する手順について詳しくは、<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >[!DNL Adobe Journey Optimizer]</a> への接続の作成を参照してください。</td>
+     <td>[!DNL Adobe Journey Optimizer] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >[!DNL Adobe Journey Optimizer]</a> への接続を作成を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -469,7 +469,6 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-      <td>
    <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
       </td>
     </tr>

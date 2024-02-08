@@ -10,10 +10,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 64dc0892-4d05-410b-ab30-aa4b21f759d0
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 82%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 100%
 HTTP アプリは、Hypertext Transfer Protocol（HTTP）プロトコルで通信するための様々なモジュールを提供します。HTTP は、World Wide Web のためのデータ通信基盤です。このモジュールを使用すると、web のページやファイルをダウンロードしたり、web フックや API エンドポイントを呼び出したりできます。
 
 アクセスするリソースが使用する認証認可のメカニズムに応じて、適切なモジュールを選択する必要があります。
+
+>[!NOTE]
+>
+>現在専用のコネクタを持たないAdobe製品に接続する場合は、Adobe Authenticatorモジュールを使用することをお勧めします。
+>
+>詳しくは、 [Adobe Authenticatorモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 具体的なモジュールの手順については、次の記事を参照してください。
 

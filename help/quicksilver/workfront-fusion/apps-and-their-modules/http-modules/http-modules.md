@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  HTTP アプリは、Hypertext Tran
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 93%
 
 ---
 
@@ -32,14 +32,20 @@ ht-degree: 100%
 * クライアント証明書認証リクエストの作成：クライアントサイドの証明書を必要とする認証プロトコルを使用しているリソース向け。
 * API キー認証リクエストの作成：認証に API キーを使用しているリソース向け
 
+>[!NOTE]
+>
+>現在専用のコネクタを持たないAdobe製品に接続する場合は、Adobe Authenticatorモジュールを使用することをお勧めします。
+>
+>詳しくは、 [Adobe Authenticatorモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## リクエストモジュール
 
 特定のリクエストモジュールの手順については、次の記事を参照してください。
 
 * [[!UICONTROL HTTP]／[!UICONTROL リクエストの作成]モジュール](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
 * [[!UICONTROL HTTP]／[!UICONTROL 基本認証リクエストの作成]モジュール](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [[!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 リクエストの作成]モジュール](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP]／[!UICONTROL クライアント証明書認証リクエストの作成]モジュール](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 リクエストを実行]モジュール](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP]／[!UICONTROL クライアント証明書認証リクエストを実行]モジュール](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
 * [[!UICONTROL HTTP]／[!UICONTROL API キー認証リクエストの作成]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## その他のアクションモジュール

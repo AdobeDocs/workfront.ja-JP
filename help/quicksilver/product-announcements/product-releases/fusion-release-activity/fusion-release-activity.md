@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 765cff51ee537be459722a9a11c9621cd3b623f7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '646'
 ht-degree: 99%
 
 ---
@@ -24,11 +24,17 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 ## 2024年の Fusion リリース
 
+### 2024年2月
+
+* [Workfront Fusion リリースアクティビティ：2024年2月5日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
+
 ### 2024 年 1 月
 
 * [Workfront Fusion リリースアクティビティ：2024年1月1日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
 
 ## 2023年の Fusion リリース
+
++++**クリックして開く**
 
 ### 2023年11月
 
@@ -72,6 +78,8 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 * [Workfront Fusion リリースアクティビティ：2023年3月20日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion リリースアクティビティ：2023年3月6日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
++++
 
 ## 2022年の Fusion リリース
 
