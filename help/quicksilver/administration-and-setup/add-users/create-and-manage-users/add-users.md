@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 90%
+source-wordcount: '1229'
+ht-degree: 88%
 
 ---
 
@@ -19,15 +19,11 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->このページで説明する手順は、まだAdmin Consoleにオンボーディングされていない組織に適用されます。 組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
+>組織がAdobe Admin Consoleにオンボーディングされている場合は、Adobe Admin Consoleを通じてシステム管理者を作成する必要があります。
+>
+>Adobe Admin Consoleでシステム管理者を作成する手順については、 [Adobe Admin Consoleでのユーザー管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Adobe Admin Consoleにオンボーディングされた組織のグループ管理者は、この手順を使用して、ユーザーを作成し、管理者の承認を得るためにユーザーを送信できます。
->
->Adobe Admin Console でユーザーを追加するには、次の手順を実行します。
->
->* [Adobe Admin Console を使用した Workfront でのユーザーの作成](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)を参照してください。
->* 記事の[ユーザーの管理 | 個別管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の「ユーザーの追加」の節を参照してください。
->* Adobe Admin Console の管理者にお問い合わせください。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 

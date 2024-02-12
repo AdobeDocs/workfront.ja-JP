@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 137165deb0c0e9172224e810c82bc651bb0adfc0
-workflow-type: ht
-source-wordcount: '526'
-ht-degree: 100%
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 86%
 
 ---
 
@@ -19,12 +19,18 @@ ht-degree: 100%
 
 組織が Adobe Business Platform にオンボーディングされている場合、ユーザーは Adobe Business Platform を使用して Adobe Workfront にアクセスします。つまり、次のようになります。
 
-* ユーザー管理は主に Adobe Admin Console を通じて行われる
+* システム管理者は、 Adobe Admin Consoleを使用して作成されます
 * シングルサインオン（SSO）は、Workfront を通じてではなく、Adobe Business Platform を通じて処理される
 
-Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかで異なります。この記事では、別々の方法で処理する必要がある手順と、Workfront と Adobe Admin Console の両方の手順へのリンクを示します。
+Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかで異なります。この記事では、処理方法を説明し、WorkfrontとAdobe Admin Consoleの両方の手順へのリンクを示します。
 
 ## ユーザー
+
+
+
+>[!NOTE]
+>
+>システム管理者以外のユーザーを直接Workfrontに追加することをお勧めします。 Adobe Admin Consoleでユーザーを追加することはできますが、Workfrontでユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
 <table style="table-layout:auto"> 
  <col> 
