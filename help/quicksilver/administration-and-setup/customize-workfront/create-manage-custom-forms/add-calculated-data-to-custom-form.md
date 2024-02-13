@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '2898'
-ht-degree: 59%
+source-wordcount: '2900'
+ht-degree: 58%
 
 ---
 
@@ -331,4 +331,4 @@ ht-degree: 59%
 
   >[!NOTE]
   >
-  ><div>オブジェクトに関連付けられたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定に従ってではなく、協定世界時 (UTC) に従って計算され、保存されます。 カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて生成されます。</div>
+  >オブジェクトに関連付けられたカスタムフォームでは、計算されたカスタムフィールドの日付と時刻のステートメントは、組織のインスタンスとユーザープロファイルに設定されたタイムゾーン設定に従ってではなく、協定世界時 (UTC) に従って計算され、保存されます。 ただし、カスタムフォームの計算は、各ユーザーの個々のタイムゾーンに基づいて表示されます。

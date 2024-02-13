@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: 作業アイテムの更新および更新の表示
-description: ほとんどのオブジェクトの更新セクションを使用して、コメントや返信を追加したり、オブジェクトで行われた変更についてシステムで追跡された更新を追跡したりできます。
+title: "作業項目を更新し、更新を表示する：記事のインデックス"
+description: ほとんどのオブジェクトの「更新」セクションを使用して、コメントや返信を追加したり、オブジェクト上で行われた変更に関するシステム追跡の更新に従ったりできます。
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '110'
+ht-degree: 36%
 
 ---
 
-# 作業アイテムの更新および更新の表示
+# 作業項目を更新し、更新を表示します：記事のインデックス
 
-ほとんどのオブジェクトの更新セクションを使用して、コメントや返信を追加したり、オブジェクトで行われた変更についてシステムで追跡された更新を追跡したりできます。
+<!-- Audited: 02/2024 -->
+
+ほとんどのオブジェクトの「更新」セクションを使用して、コメントや返信を追加したり、オブジェクト上で行われた変更に関するシステム追跡の更新に従ったりできます。
 
 この節では、次の記事を扱います。
 

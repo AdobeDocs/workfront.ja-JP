@@ -6,10 +6,10 @@ description: 通常アジャイルプラクティスに伴う管理上の課題�
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 88%
+source-wordcount: '1433'
+ht-degree: 75%
 
 ---
 
@@ -77,16 +77,16 @@ ht-degree: 88%
 
 ### アジャイルビューをプロジェクトで使用する場合とイテレーションで使用する場合の違い {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [ストーリーボード上でタスクとサブタスクは異なる表示ルールに従う](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [バックログとイテレーションは使用されない](#backlogs-and-iterations-are-not-used)
+* [タスクとサブタスクは、プロジェクトのアジャイルビューと、イテレーションのストーリーボードで、様々な表示ルールに従います](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [バックログと繰り返しは、アジャイルビューでは使用されません](#backlogs-and-iterations-are-not-used)
 * [タスクの順序はアジャイルビューで維持され、並べ替えはできない](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [タスクは予定時間数でのみ測定される](#tasks-are-measured-only-in-planned-hours)
-* [アジャイルチームは使用されない](#the-agile-team-is-not-used)
+* [タスクは、プロジェクトリストの予定時間にのみ測定されます](#tasks-are-measured-only-in-planned-hours)
+* [アジャイルビューでは、アジャイルチームは使用されません](#the-agile-team-is-not-used)
 * [プロジェクトはプロジェクトのユーザーごとに異なるアジャイルビューで表示される](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### ストーリーボード上でタスクとサブタスクは異なる表示ルールに従う {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### タスクとサブタスクは、プロジェクトのアジャイルビューと、イテレーションのストーリーボードで、様々な表示ルールに従います {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* 親タスクもサブタスクもないタスクは、ストーリーボードに常に 1 つのストーリーカードとして表示されます。\
+* 親タスクもサブタスクも持たないタスクは、常にアジャイルビューのストーリーボード上に単一のストーリーカードとして表示されます。\
   例えば、これらのタスクはプロジェクトリストビューでは次のように表示されます。
 
   ![アジャイルプロジェクトリスト — 親タスクまたはサブタスクのないタスク](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ ht-degree: 88%
 
   ![プロジェクトアジャイルビュー - 親タスクやサブタスクのないタスク](assets/agile-project-singlecard-nwe.png)
 
-* サブタスクを持つ親タスクは、常にストーリーボードの&#x200B;**ストーリー**&#x200B;列に表示されます。サブタスクは、親タスクのスイムレーンに表示されます。\
+* サブタスクを持つ親タスクは、常に **ストーリー** アジャイルビューのストーリーボードの列。 サブタスクは、親タスクのスイムレーンに表示されます。\
   例えば、これらのタスクはプロジェクトリストビューでは次のように表示されます。
 
   ![アジャイルプロジェクトリスト - 親タスクとサブタスクを持つタスク](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ ht-degree: 88%
   ![アジャイルプロジェクトビュー - 親タスクとサブタスクを持つタスク](assets/agile-project-parent-nwe.png)
 
 * 第 2 レベルのサブタスク（サブタスクのサブタスク）は、直接の親タスクからぶら下がっている灰色のカードとして表示されます。
-* 第 3 レベルのサブタスク（サブタスクのサブタスクのサブタスク）はストーリーボードには表示されません。
+* 第 3 レベルのサブタスク（サブタスクのサブタスクのサブタスク）は、アジャイルビューには表示されません。
 
-#### バックログとイテレーションは使用されない {#backlogs-and-iterations-are-not-used}
+#### バックログと繰り返しは、アジャイルビューでは使用されません {#backlogs-and-iterations-are-not-used}
 
 アジャイルビューでプロジェクトを表示する場合、次のアジャイルコンポーネントは使用されません。
 
@@ -119,13 +119,13 @@ ht-degree: 88%
 
 プロジェクトをアジャイルビューで表示している場合、プロジェクトのタスクの順序を変更することはできません。タスクの順序を変更すると、依存関係がある可能性のある他のタスクに影響を与えるおそれがあるので、タスクの順序を変更するには標準ビューでプロジェクトを表示する必要があります。
 
-#### タスクは予定時間数でのみ測定される {#tasks-are-measured-only-in-planned-hours}
+#### タスクは、プロジェクトリストの予定時間にのみ測定されます {#tasks-are-measured-only-in-planned-hours}
 
 プロジェクトのタスクは常に予定時間数で測定されます。
 
 イテレーションでは、タスク（ストーリー）を時間数またはポイント単位で測定できます。
 
-#### アジャイルチームは使用されない {#the-agile-team-is-not-used}
+#### アジャイルビューでは、アジャイルチームは使用されません {#the-agile-team-is-not-used}
 
 アジャイルチームは割り当てられたイテレーションで作業を完了するので、アジャイルビューでプロジェクトを表示する場合、アジャイルチームは使用されません。
 
@@ -137,7 +137,7 @@ ht-degree: 88%
 
 アジャイルイテレーションでは、アジャイルストーリーボードで得られる情報（使用可能なステータス列など）はチームレベルで決定されます。
 
-アジャイルビューのカスタマイズ方法については、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)の[アジャイルビューの作成またはカスタマイズ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)を参照してください。
+アジャイルビューのカスタマイズ方法について詳しくは、 [アジャイルビューの作成またはカスタマイズ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Adobe Workfrontでビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## アジャイルビューでのプロジェクトの表示
 

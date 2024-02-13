@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '13940'
+source-wordcount: '13942'
 ht-degree: 95%
 
 ---
@@ -874,7 +874,7 @@ ht-degree: 95%
          * [ホームのカレンダーの表示](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [マイ更新エリアの使用](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
-      * [作業アイテムの更新および更新の表示](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+      * [作業項目を更新し、更新を表示します：記事のインデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [「更新」セクションの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [作業の更新](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [フィールドの文字数制限](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)

@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 88%
+source-wordcount: '82'
+ht-degree: 79%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 88%
 * [Adobe Workfront でサポートされている言語](../workfront-basics/supported-languages-in-workfront.md)
 * [Adobe Workfrontに移動：記事インデックス](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [ホーム](../workfront-basics/using-home/home.md)
-* [作業アイテムを更新し、更新を表示](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+* [作業項目を更新し、更新を表示します：記事のインデックス](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [カスタムフォームを使用](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
 * [通知の使用：記事インデックス](../workfront-basics/using-notifications/use-notifications.md)
 * [オブジェクトに対する権限の付与とリクエスト](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
