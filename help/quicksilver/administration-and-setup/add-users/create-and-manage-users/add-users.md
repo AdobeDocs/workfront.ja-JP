@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 88%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 88%
 >
 >組織がAdobe Admin Consoleにオンボーディングされている場合は、Adobe Admin Consoleを通じてシステム管理者を作成する必要があります。
 >
->Adobe Admin Consoleでシステム管理者を作成する手順については、 [Adobe Admin Consoleでのユーザー管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Adobe Admin Consoleでシステム管理者を作成する手順については、 [Adobe Admin Consoleでのシステム管理者の管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Adobe Admin Consoleにオンボーディングされた組織のグループ管理者は、この手順を使用して、ユーザーを作成し、管理者の承認を得るためにユーザーを送信できます。
 >

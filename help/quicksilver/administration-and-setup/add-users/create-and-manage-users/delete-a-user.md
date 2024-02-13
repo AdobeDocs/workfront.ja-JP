@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '810'
 ht-degree: 97%
 
 ---
@@ -21,15 +21,17 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->* システムからユーザを削除すると、そのユーザに関連付けられていて、今後も保持したい情報も削除されます。ユーザーを削除する代わりに非アクティブ化することをお勧めします。詳細情報については、[ユーザーのディアクティベートまたは再アクティベート](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
->* このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
+>システムからユーザを削除すると、そのユーザに関連付けられていて、今後も保持したい情報も削除されます。ユーザーを削除する代わりに非アクティブ化することをお勧めします。詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
+<!--
+>* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->[!DNL Adobe Admin Console] から削除したユーザーは [!DNL Workfront] でディアクティベートされますが、[!DNL Workfront] からは削除されません。
+>Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  Adobe Admin Console でユーザーを削除する手順については、[ユーザーの管理 | 個別管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の「ユーザーの完全な削除」のセクションを参照するか、Adobe Admin Console の管理者にお問い合わせください。
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
->  組織が Adobe Admin Console に登録されているかどうかによって手順が異なります。それら手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront、Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
+-->
 
 ## アクセス要件
 

@@ -5,10 +5,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
-workflow-type: ht
-source-wordcount: '1614'
-ht-degree: 100%
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+workflow-type: tm+mt
+source-wordcount: '1583'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,7 @@ ht-degree: 100%
 >
 >このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
 >
->Adobe Admin Console で完全な管理者アクセス権を付与する手順は、次で参照できます。
->
->* [Adobe Admin Console を使用した Workfront でのシステム管理者の作成](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create2)
->* Adobe Admin Console ドキュメントの[ユーザーの個別管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)記事の、ユーザーの詳細の編集節。
->* Adobe Admin Console の管理者にお問い合わせください。
+>Adobe Admin Consoleでの完全な管理者アクセス権の付与手順については、 [Adobe Admin Consoleでのシステム管理者の管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
@@ -54,7 +50,7 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。詳細情報については、<a href="#" class="MCXref xref selected">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。詳しくは、<a href="#" class="MCXref xref selected">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>

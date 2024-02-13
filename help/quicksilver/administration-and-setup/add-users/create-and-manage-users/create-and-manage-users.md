@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 8fa73379725029f1750b83fc67abba670f470f64
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 88%
+source-wordcount: '104'
+ht-degree: 80%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 88%
 * [監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [監査ログを表示および書き出し](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [ユーザーログイン情報を表示](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [Adobe Admin Console でのユーザー管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Adobe Admin Consoleでのシステム管理者の管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

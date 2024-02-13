@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 75%
+source-wordcount: '648'
+ht-degree: 70%
 
 ---
 
@@ -83,8 +83,8 @@ Adobe Admin Console の概要については、[Admin Console の概要](https:/
    >
    >この手順はオプションですが、他の形式の API 認証や承認が今後非推奨となるため、実行することを強くお勧めします。
 
-Adobe Admin Console と Workfront を連携させたら、Adobe Admin Console でユーザーを管理できるようになります。
+Adobe Admin ConsoleとWorkfrontの連携を設定したら、それを使用してWorkfrontシステム管理者を作成できます。
 
-詳しくは、[Adobe Admin Console でのユーザーの管理](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
+詳しくは、 [Adobe Admin Consoleでのシステム管理者の管理](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 その他のアクションは、組織が Adobe Admin Console にオンボーディングされているかどうかによって異なります。それらのアクションのリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront / Adobe Business Platform）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
