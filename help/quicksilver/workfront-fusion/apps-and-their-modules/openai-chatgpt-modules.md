@@ -8,61 +8,61 @@ title: OpenAI(ChatGPT) モジュール
 description: Adobe Workfront Fusion シナリオでは、OpenAIT(ChatGPT) を使用するワークフローを自動化し、複数のサードパーティのアプリケーションやサービスに接続することができます。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: a8bc882f393dcf17bca80da86c25c053272e27c9
+source-git-commit: aa672a81b0899c45c1c7e6abba03b6d975dc7017
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 0%
+source-wordcount: '1320'
+ht-degree: 28%
 
 ---
 
 # [!DNL OpenAI (ChatGPT & DALL-E)] モジュール
 
-内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!DNL OpenAI (ChatGPT & DALL-E)]を使用して、複数のサードパーティのアプリケーションやサービスに接続できます。
+[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL OpenAI (ChatGPT & DALL-E)] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。
 
-シナリオの作成手順については、 [でのシナリオの作成 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、 [のモジュール [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
-この記事の機能を使用するには、次のアクセス権が必要です。
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>[!UICONTROL Pro] 以降</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
-   <td> <p>[!UICONTROL プラン ]、[!UICONTROL Work]</p> </td> 
+   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] [ 作業の自動化と統合 ] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>組織で購入する必要があります [!DNL Adobe Workfront Fusion] 同様に [!DNL Adobe Workfront] を使用して、この記事で説明する機能を使用できます。</td> 
+   <td>この記事で説明されている機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
 次を使用するには： [!DNL OpenAI (ChatGPT & DALL-E)] モジュールの場合は、 [!DNL OpenAI] アカウント（API キーと組織 ID を含む）。
 
-## 接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]
+## [!DNL OpenAI (ChatGPT & DALL-E)] を [!DNL Workfront Fusion] に接続
 
-次に対する接続を作成できます： [!DNL OpenAI (ChatGPT & DALL-E)] 内部から直接アカウントを取得する [!DNL OpenAI (ChatGPT & DALL-E)] モジュール。
+[!DNL OpenAI (ChatGPT & DALL-E)] アカウントへの接続を、[!DNL OpenAI (ChatGPT & DALL-E)] モジュール内から直接作成できます。
 
-1. 任意の [!DNL OpenAI (ChatGPT & DALL-E)] モジュール、クリック **[!UICONTROL 追加]** の横 [!UICONTROL 接続] フィールドに入力します。
+1. 任意の [!DNL OpenAI (ChatGPT & DALL-E)] モジュールで、「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 次の情報を入力します。
 
    <table style="table-layout:auto"> 
@@ -70,11 +70,11 @@ ht-degree: 0%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL 接続名 ]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
       <td> <p>新しい接続の名前を入力します。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL API キー ]</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
       <td>API キーは OpenAI のユーザー設定で見つけることができます。</td> 
      </tr> 
      <tr> 
@@ -84,43 +84,51 @@ ht-degree: 0%
     </tbody> 
    </table>
 
-1. クリック **[!UICONTROL 続行]** 接続を作成し、モジュールに戻ります。
+1. 「**[!UICONTROL 続行]**」をクリックし、接続を作成して、モジュールに戻ります。
 
 
 ## [!DNL OpenAI (ChatGPT & DALL-E)] モジュールとそのフィールド
 
-設定時に [!DNL OpenAI (ChatGPT & DALL-E)] モジュール、 [!DNL Workfront Fusion] に、以下のフィールドを示します。 これらと共に、 [!DNL OpenAI (ChatGPT & DALL-E)] アプリまたはサービスのアクセスレベルなどの要因に応じて、フィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL OpenAI (ChatGPT & DALL-E)] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL OpenAI (ChatGPT & DALL-E)] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用して、そのフィールドの変数や関数を設定できます。 詳しくは、 [であるモジュールから別のモジュールに情報をマッピングします。 [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
 ### 完了の作成
 
-このアクションモジュールは、提供されたプロンプトまたはチャットの完了を作成します。
+>[!IMPORTANT]
+>
+>このモジュールは非推奨です。
+
+<!--
+
+This action module creates a completion for the provided prompt or chat.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
-   <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT & DALL-E)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT & DALL-E)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL モデル ]</td> 
-   <td> 使用するモデルの ID を入力またはマッピングします。 モデルの取得モジュールを使用して、使用可能なすべてのモデルを表示できます。 </td> 
+   <td role="rowheader">[!UICONTROL Model]</td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
-  <!--<tr> 
+ <tr> 
    <td role="rowheader">[!UICONTROL Temperature]</td> 
    <td> This value must be between 0 and 2, and determines the randomness of the output. Higher values produce output that is more random, while lower values produce more focused output. </td> 
-  </tr> -->
+  </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 詳細設定 ]</td> 
-   <td> <p>このモジュールのオプションの詳細設定について詳しくは、 <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">OpenAI API ドキュメント</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
+   <td> <p>For information about the optional advanced settings in this module, see the information about creating completions in the <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">OpenAI API documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ### モデレートの作成
 
@@ -131,11 +139,11 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Input]</td> 
    <td> 含めるテキストのサンプルごとに、 <b>項目を追加</b> テキストを入力またはマッピングします。 テキストサンプル全体を含めます。</td> 
   </tr> 
   <tr> 
@@ -154,7 +162,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -162,7 +170,7 @@ ht-degree: 0%
    <td> 使用するモデルの ID を入力またはマッピングします。 モデルの取得モジュールを使用して、使用可能なすべてのモデルを表示できます。 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 入力 ]</td> 
+   <td role="rowheader">[!UICONTROL Input]</td> 
    <td> 編集するテキストを入力またはマッピングします。 </td> 
   </tr> 
   <tr> 
@@ -185,7 +193,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -201,7 +209,7 @@ ht-degree: 0%
    <td> OpenAI が不正使用を監視および検出するのに役立つ、エンドユーザーを表す一意の識別子を入力またはマッピングします </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 制限 ]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> 各シナリオの実行サイクル中に、モジュールが操作する最大編集数を入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
@@ -216,7 +224,7 @@ ht-degree: 0%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -286,7 +294,7 @@ This action module makes edits or creates variations of existing images.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -310,11 +318,11 @@ This action module makes edits or creates variations of existing images.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL アクション ]</td> 
+   <td role="rowheader">[!UICONTROL Action]</td> 
    <td> すべてのモデルのリストを取得するか、特定のモデルを取得するかを選択します。
     <ul>
     <li><p><b>モデルのリスト </b></p><p>このアクションには、現在使用可能なモデルが一覧表示され、所有者や可用性など、各モデルに関する基本情報が提供されます。</p></li>
@@ -333,7 +341,7 @@ This action module makes edits or creates variations of existing images.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -341,20 +349,20 @@ This action module makes edits or creates variations of existing images.
    <td> <p>相対パスを入力 <code>https://api.openai.com/v1/</code> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL メソッド ]</td> 
-   <td> <p>API 呼び出しを設定する必要がある HTTP リクエストメソッドを選択します。 詳しくは、 <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">での HTTP リクエストメソッド [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します。</p> <p>以下に例を挙げます。 <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は、認証ヘッダーを自動的に追加します。</p> </td> 
+   <td> <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は、認証ヘッダーを自動的に追加します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL クエリ文字列 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しのクエリを追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> </td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>API 呼び出しのクエリを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 本文 ]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文のコンテンツを追加します。</p> <p>注意：  <p>条件ステートメント ( <code>if</code> JSON で、条件文の外側に引用符を置きます。</p> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件文を JSON で使用する場合は、条件文を引用符で囲みます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -407,15 +415,15 @@ This action modules converts audio to text.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL アクション ]</td> 
+   <td role="rowheader">[!UICONTROL Action]</td> 
    <td> 実行するアクションを選択します。 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ID]</td> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
    <td> ファイルを削除する場合、またはファイルまたはファイルの内容を取得する場合は、ファイルの ID を入力またはマッピングします。 
   </tr> 
 </tbody>
@@ -430,7 +438,7 @@ This action modules converts audio to text.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL 接続 ]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>接続方法については、 [!DNL OpenAI (ChatGPT & DALL-E)] Workfront Fusion へのアカウントについては、 <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">接続中 [!DNL OpenAI (ChatGPT & DALL-E)] から [!DNL Workfront Fusion]</a> 」を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -446,7 +454,7 @@ This action modules converts audio to text.
  </ul> 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL ファイル ID]</td> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
    <td> ファイルを削除する場合、またはファイルまたはファイルの内容を取得する場合は、ファイルの ID を入力またはマッピングします。 
   </tr> 
 </tbody>
