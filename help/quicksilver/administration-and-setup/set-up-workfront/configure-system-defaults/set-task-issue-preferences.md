@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2063'
 ht-degree: 91%
 
 ---
@@ -62,15 +62,15 @@ Linked to Converting Issues.-->
 
 1. 表示されたページで、次の 5 つのセクションのいずれかに進み、の設定を行います。 [!UICONTROL 新規タスクのデフォルト], [!UICONTROL 問題], [!UICONTROL 削除], [!UICONTROL 実際の日付]、および [!UICONTROL アクセス]:
 
-* [[!UICONTROL 新規タスクの初期設定]](#new-task-defaults)
-* [[!UICONTROL イシュー]](#issues)
-* [[!UICONTROL 削除]](#deletion)
-* [[!UICONTROL 実際の日付]](#actual-dates)
-* [[!UICONTROL 委任]](#delegation)
+   * [[!UICONTROL 新規タスクの初期設定]](#new-task-defaults)
+   * [[!UICONTROL イシュー]](#issues)
+   * [[!UICONTROL 削除]](#deletion)
+   * [[!UICONTROL 実際の日付]](#actual-dates)
+   * [[!UICONTROL 委任]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">作業する</a> </li>
+  --&gt;
 
 * [[!UICONTROL アクセス]](#access)
 
@@ -97,7 +97,7 @@ Linked to Converting Issues.-->
     <td> <p>タスクの計画コスト見積もりと実績コスト見積もりを計算します。<strong>[!UICONTROL No Cost]</strong> に設定する場合、計画時間と記録された実績時間では、タスクの計画コスト見積もりや実績コストの見積もりは生成されず、タスクの作業はプロジェクトレベルのコストには寄与しません。</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### イシュー {#issues}
 
@@ -181,7 +181,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### 委任
 
@@ -192,7 +192,7 @@ Linked to Converting Issues.-->
 * 「[!UICONTROL ホーム]」エリアの「[!UICONTROL 委任]」リンク。ここから承認、またはタスクおよびイシューの割り当てを委任できます。
 * タスクまたはイシューのヘッダー内の「[!UICONTROL 割り当てと委任]」エリアで、タスクまたはイシューが別のユーザーに委任されたことを示すメッセージ。
 
-「[!UICONTROL ユーザーが自分のタスクおよびイシューを委任するのを許可]」設定を無効にすると、現在スケジュールされている委任は停止され、委任されたユーザーは、委任が停止されたことを示すメール通知を受け取ります。
+  「[!UICONTROL ユーザーが自分のタスクおよびイシューを委任するのを許可]」設定を無効にすると、現在スケジュールされている委任は停止され、委任されたユーザーは、委任が停止されたことを示すメール通知を受け取ります。
 
 他のユーザーへの作業の委任について詳しくは、次の記事を参照してください。
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
