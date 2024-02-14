@@ -6,14 +6,16 @@ description: 通常アジャイルプラクティスに伴う管理上の課題�
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 75%
+source-wordcount: '1412'
+ht-degree: 70%
 
 ---
 
 # アジャイルビューでのプロジェクトの管理
+
+<!-- Audited: 2/2024 -->
 
 通常アジャイルプラクティスに伴う管理上の課題（チームバックログの管理やイテレーションの作成など）に煩わされずに、プロジェクトでアジャイル機能を活用できます。
 
@@ -32,7 +34,7 @@ ht-degree: 75%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td> <p>現在：レビュー以上</p> 
    <p>新規：寄稿者以上</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ ht-degree: 75%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## アジャイルプロジェクトについて
 
@@ -162,7 +164,7 @@ ht-degree: 75%
 
    そのカスタムアジャイルビューは、次に&#x200B;**アジャイル**&#x200B;アイコンをクリックしたときに使用されます。
 
-   新規アジャイルビューの作成方法については、[アジャイルビューの作成とカスタマイズ](#create-and-customize-agile-views)を参照してください。
+   新しいアジャイルビューの作成方法について詳しくは、 [アジャイルビューの作成とカスタマイズ](#create-and-customize-agile-views)、下。
 
    プロジェクトはカスタムアジャイルビューに表示されます。
 
@@ -170,7 +172,7 @@ ht-degree: 75%
 
    タスクが、アジャイルストーリーボードに表示されないステータスにある場合、タスク自体がアジャイルストーリーボードに表示されません（ただし、これらのタスクの完了率は、親タスクの完了率とプロジェクト全体の完了率に影響します）。
 
-   アジャイルビューにステータスを追加するには、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)の記事の「アジャイルビューの作成またはカスタマイズ」の節で説明されているとおりに、新規アジャイルビューを作成するか、既存のアジャイルビューをカスタマイズします。
+   アジャイルビューにステータスを追加するには、新しいアジャイルビューを作成するか、既存のアジャイルビューをカスタマイズします。詳しくは、 [アジャイルビューの作成とカスタマイズ](#create-and-customize-agile-views)、下。
 
 1. （オプション）リストビューに戻るには、**リスト**&#x200B;アイコンをクリックします。
 
@@ -180,7 +182,7 @@ ht-degree: 75%
 >
 >この節は、従来のアジャイルビューにのみ当てはまり、プロジェクトのボードビューには当てはまりません。
 
-Workfront の標準ビューの場合と同様に、既存のアジャイルビューをカスタマイズしたり、新規アジャイルビューを最初から作成したりできます。標準ビューとは異なり、既存のアジャイルビューに基づいて新規アジャイルビューを作成することはできません。
+Workfrontの標準ビューと同様に、既存のアジャイルビューをカスタマイズしたり、新しいアジャイルビューをゼロから作成したりできます。 標準ビューとは異なり、既存のアジャイルビューに基づいて新しいアジャイルビューを作成することはできません。
 
 アジャイルビューの作成とカスタマイズについて詳しくは、 [アジャイルビューの作成またはカスタマイズ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 記事のセクション [Adobe Workfrontでビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
