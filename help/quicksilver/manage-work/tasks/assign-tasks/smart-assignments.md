@@ -7,10 +7,10 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
-ht-degree: 33%
+source-wordcount: '1245'
+ht-degree: 32%
 
 ---
 
@@ -63,7 +63,11 @@ ht-degree: 33%
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* タスクまたはイシューを開いたときに [ 割り当て ] 領域の [ ホーム ] 領域に一覧表示された項目の [ 割り当て ] フィールド
+* <span class="preview">プロジェクトにタスクを追加するときの [ 新しいタスク ] ボックスの [ 割り当て ] フィールド</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* タスクまたはイシューを開いたときの [ ホーム ] 領域に一覧表示された項目の [ 割り当て ] フィールド
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ ht-degree: 33%
 
 詳しくは、 [タスクとタスクのスマート割り当て条件](#smart-assignments-criteria-for-tasks-and-issues) 」を参照してください。
 
-このフェーズで特定された割り当ては、 **結果** 「割り当て」フィールドの「 」セクションに入力します。 <!--update this to "Other assignments"-->
+このフェーズで特定された割り当ては、 **その他の割り当て** タスクの「割り当て」フィールドの「 」セクション <!--update this to "Other assignments"-->
 
 ### タスクとタスクのスマート割り当て条件
 
