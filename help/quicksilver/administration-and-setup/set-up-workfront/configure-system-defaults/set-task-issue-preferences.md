@@ -70,7 +70,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">作業する</a> </li>
-  --&gt;
+  -->
 
 * [[!UICONTROL アクセス]](#access)
 
