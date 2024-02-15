@@ -6,9 +6,9 @@ description: リソースマネージャーとして、作業をユーザーに�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 4be7592784502e44ed69c8c5cd72c2a719e3d6d7
+source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2858'
 ht-degree: 81%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 81%
 
 <!-- Audited: 01/2024 -->
 
-{{highlighted-preview}}
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリースについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 リソースマネージャーとして、作業をユーザーに割り当て、ワークロードバランサーから日、週、月単位の割り当てを管理し、使用可能なスケジュールに適合する時間数を割り当てることができます。
 
