@@ -4,10 +4,10 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 45%
+source-wordcount: '786'
+ht-degree: 39%
 
 ---
 
@@ -71,6 +71,43 @@ ht-degree: 45%
             </tbody>
         </table>
 
+### ホームの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用して新しいホームの管理者コントロールに追加された列オプション</a></p><p>管理者は、レイアウトテンプレートを使用して、特定の新しいホームウィジェットでユーザーが使用できる列をカスタマイズできるようになりました。 オプションには、デフォルトの列の非表示または表示、および新しい列としての既存のフィールドの追加が含まれます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年1月2日（PT）</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動環境：24.2 リリース（2024 年 2 月 16 日）</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### プロジェクトの強化
 
 <table>
@@ -89,6 +126,24 @@ ht-degree: 45%
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連する割り当てを新規タスクワークフローに追加しました</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>タスクをプロジェクトやプロジェクトのタスクリストに追加する際に、[ 新しいタスク ] ボックスの [ 割り当て ] フィールドに、関連性の高いスマート割り当てに対して同じ機能を追加しました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年2月13日</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動： 24.3 リリース（2024 年 3 月）あり</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p><p>Workfrontがタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てるWorkfrontの次の領域に適用されます。タスクリスト、タスクヘッダーの割り当て領域、ホームおよび概要パネル。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -97,7 +152,7 @@ ht-degree: 45%
                                 <p>プレビューリリース：2023年12月21日（PT）</p>
                             </li>
                             <li>
-                                <p>高速リリース用の実稼動環境：24.2 リリース（2024 年 2 月 16 日）</p>
+                                <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月）から</p>
                             </li>
                             <li>
                                 <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>

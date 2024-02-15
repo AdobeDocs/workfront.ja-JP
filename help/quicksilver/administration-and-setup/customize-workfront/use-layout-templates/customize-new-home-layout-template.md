@@ -7,10 +7,10 @@ description: レイアウトテンプレートを使用して、新しいホー�
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 1%
+source-wordcount: '746'
+ht-degree: 25%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 新しいホームについて詳しくは、 [新しいホームを使い始める](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-レイアウトテンプレートの作成について詳しくは、 [レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md).
+レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、 [グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
-レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。 レイアウトテンプレートのユーザーへの割り当てについて詳しくは、 [レイアウトテンプレートにユーザーを割り当てる](../use-layout-templates/assign-users-to-layout-template.md).
+レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
 
@@ -47,24 +47,24 @@ ht-degree: 1%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td>計画</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>注意</b>：まだアクセス権がない場合は、Workfront管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## レイアウトテンプレートを使用して新しいホームをカスタマイズする
 
-1. レイアウトテンプレートの使用を開始する ( [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 
 1. 下向き矢印をクリックします。 ![](assets/dropdown-arrow.png) under **ユーザーに表示する内容をカスタマイズする**&#x200B;を選択し、次に **ホームワークスペース**.
 
@@ -91,11 +91,11 @@ ht-degree: 1%
         <li>マイタスク</li>
         <li>マイ問題</li>
       </ul>
-      <p>編集するウィジェットを選択すると、使用可能なオプションが右側に表示されます。 現在、次のオプションがあります。 <b>フィルター</b> および <b>グループ</b>. 次の操作が可能です。</p>
+      <p>編集するウィジェットを選択すると、使用可能なオプションが右側に表示されます。 以下のオプションがあります。 <b>フィルター</b>, <b>列</b>、および <b>グループ</b>. 実行できる操作：</p>
       <ul>
-        <li><b>ユーザーが使用できるフィルターまたはグループを選択します。</b><p>リスト内のすべてのオプションの横にあるチェックボックスをオンにします。 オフのオプションは、ユーザーには表示されません。</li></p>
+        <li><b>ユーザーが使用できるフィルター、列またはグループを選択します。</b><p>リスト内のすべてのオプションの横にあるチェックボックスをオンにします。 オフのオプションは、ユーザーには表示されません。</li></p>
         <li><b>ウィジェットのデフォルトのフィルターまたはグループを設定します。</b><p>オプションの上にマウスポインターを置くと、そのオプションをユーザーのデフォルトとして設定できるボタンが表示されます。 現在のデフォルトでは、右側に青いデフォルトバッジが表示されます。</li></p>
-        <li><b>使用可能なオプションのリストに既存のフィルターまたはグループを追加します。</b><p>各リストの下部にあるプラス記号ボタンをクリックして、そのリストにオプションを追加します。 この方法で追加できるのは、既存のフィルターまたはグループのみです。</li></p>
+        <li><b>使用可能なオプションのリストに既存のフィルター、列、またはグループを追加します。</b><p>各リストの下部にあるプラス記号ボタンをクリックして、そのリストにオプションを追加します。 この方法で追加できるのは、既存のフィルター、フィールド（列用）、グループのみです。</li></p>
       </ul>
       </td> 
      </tr>

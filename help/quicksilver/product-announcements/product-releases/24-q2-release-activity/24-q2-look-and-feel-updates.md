@@ -4,10 +4,10 @@ description: 2024 年第 2 四半期のリリース期間中のルックアン�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '316'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,14 @@ ht-degree: 4%
 このページでは、2024 年第 2 四半期のリリース期間内におこなわれた、Adobe Workfrontアプリケーションの様々な領域のルックアンドフィールに対するマイナーアップデートについて説明します。
 
 2024 年第 2 四半期リリースで利用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 2 つの E メールテンプレートのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>すべてのお客様向けリリース： 24.2 リリース（2024 年 2 月 16 日）
+
+Adobeに承認者を追加し、ボードにユーザーを追加するための電子メールテンプレートが更新され、他の承認電子メールテンプレートとの適合性が向上し、明確性と操作性が向上しました。
 
 ## 「カスタムForms」領域のタブの新しいルックアンドフィールの更新
 

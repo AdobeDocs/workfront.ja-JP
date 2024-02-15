@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 3431d6d51caaf2b3e3a9da78500ddb3efb4e330d
 workflow-type: tm+mt
-source-wordcount: '13942'
+source-wordcount: '13946'
 ht-degree: 95%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 95%
          * [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024 年第 2 四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
          * [2024 年第 2 四半期管理者向けの機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
+         * [2024 年第 2 四半期のホームの機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [2024 年第 2 四半期リリース期間のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * 2024 年第 1 四半期リリース {#release-24-q1}
          * [2024 年第 1 四半期リリースの概要](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)

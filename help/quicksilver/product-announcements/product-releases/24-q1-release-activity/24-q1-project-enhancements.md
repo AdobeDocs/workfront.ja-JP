@@ -4,10 +4,10 @@ description: 2024 年第 1 四半期プロジェクトの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e60aae4be4161918af248b49e9320f93f0e59d3
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 0%
+source-wordcount: '259'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->高速リリース用の実稼動： 24.2 リリース（2024 年 2 月）、すべてのお客様用の実稼動： 24.4 リリース（2024 年 4 月）
+>プレビューリリース：2023 年 12 月 21 日、高速リリース用の実稼動：24.3 リリース（2024 年 3 月）、すべてのお客様用の実稼動：24.4 リリース（2024 年 4 月）
 
 Workfrontがタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てるWorkfrontの次の領域に適用されます。タスクリスト、タスクヘッダーの割り当て領域、ホームおよび概要パネル。
 
@@ -39,4 +39,4 @@ Workfrontがタスクのスマート割り当ての計算と提案に使用す�
 
 * 問題に対するスマート割り当ての計算方法に変更はありません。 イシューリストに含まれるスマート割り当てリストの名前は、「次に推奨事項を示します」です。
 
-詳しくは、 [スマート割り当ての概要](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+詳しくは、[スマート割り当ての概要](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
