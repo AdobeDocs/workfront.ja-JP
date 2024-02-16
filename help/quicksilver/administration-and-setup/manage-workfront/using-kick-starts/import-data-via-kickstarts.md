@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
-ht-degree: 71%
+source-wordcount: '2725'
+ht-degree: 70%
 
 ---
 
@@ -51,11 +51,12 @@ ht-degree: 71%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：</p> 
-   <p> まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>Workfront 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 制限事項
 
@@ -200,27 +201,9 @@ ht-degree: 71%
      </tr>
 
    <tr> 
-      <td>レガシ リソース プール</td> 
-      <td>Excel ファイルとして書き出し</td> 
-      <td> <p> レガシ リソース プール</p> <p>環境設定 </p> </td> 
-     </tr>
-
-   <tr> 
       <td>マイルストーンパス</td> 
       <td> Excel ファイルとして書き出し</td> 
       <td> <p> マイルストーン</p> <p>マイルストーンパス</p> <p>環境設定 </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>非労務資源</td> 
-      <td> Excel ファイルとして書き出し</td> 
-      <td> <p> 非労務資源</p> <p>環境設定</p></td> 
-     </tr>
-
-   <tr> 
-      <td>非労務資源カテゴリ</td> 
-      <td> Excel ファイルとして書き出し</td> 
-      <td> <p> 非労務資源カテゴリ</p> <p>環境設定</p></td> 
      </tr>
 
    <tr> 
@@ -471,7 +454,7 @@ Workfrontでは、日付の一部として時間値も受け入れます。
 
 ## スプレッドシートデータを Workfront に読み込む
 
-Excel テンプレートにデータを入力した後、そのデータを Workfront にアップロードできます。
+Excel テンプレートにデータを入力したら、そのデータをWorkfrontにアップロードできます。
 
 キックスタート読み込みでは、次のファイルタイプをサポートしています。
 
@@ -485,17 +468,17 @@ Excel テンプレートにデータを入力した後、そのデータを Work
   >* レポート
   >* ドキュメント
   >* アバター
-  >* プロパティファイルを表示、フィルタ、またはグループ化します。
+  >* プロパティファイルの表示、フィルタ、またはグループ化
   >
   >圧縮インポートファイルを使用する場合、.ZIP ファイルは.xlsx または.xls ファイルと同じ名前にする必要があり、すべてのファイルは同じ構造レベル（フォルダーなし）にする必要があります。
 
 テンプレートスプレッドシートデータを Workfront に読み込むには、以下の手順を実行します。
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. **システム**／**データを書き出し（キックスタート）**&#x200B;をクリックします。
+{{step-1-to-setup}}
+
+1. クリック **システム** > **データを読み込み（キック開始）**.
 
 1. 「**キックスタートスプレッドシートを使用してデータをアップロード**」セクションで、「**ファイルを選択**&#x200B;をクリックし、入力されたスプレッドシートを参照して選択します。
 
