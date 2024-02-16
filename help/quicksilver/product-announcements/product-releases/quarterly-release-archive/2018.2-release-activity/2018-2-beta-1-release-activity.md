@@ -74,8 +74,8 @@ ht-degree: 100%
 
 詳しくは、次の節を参照してください。
 
-*  
-*  の 
+* &nbsp;
+* &nbsp;in&nbsp;
 
 ## リソースプランナーのユーザービューの向上 {#user-view-improvements-in-the-resource-planner}
 
