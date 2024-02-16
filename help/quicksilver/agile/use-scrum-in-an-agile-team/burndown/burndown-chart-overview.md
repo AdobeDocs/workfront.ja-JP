@@ -7,8 +7,8 @@ description: バーンダウンチャートには、ストーリーがイテレ�
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: 373f2522b85196d6395f189ae6cfe03449cac61a
-workflow-type: ht
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 [!DNL Workfront] で定義されたデフォルトのスケジュールは、バーンダウンから休日（週末と休日）を除外することで、バーンダウンチャートに影響します。バーンダウンチャートでは、デフォルトのスケジュールを使用して稼働日を定義します（[スケジュールを作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)で説明)。
 
-アジャイルチームは代替スケジュールを定義することで、チーム固有の非稼働日を組み込むことができます（[バーンダウンチャートに代替のチームスケジュールを使用](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)の記事で説明）。その後、この代替スケジュールは、チームに割り当てられたイテレーションのバーンダウンチャートに反映されます。代替スケジュールは、バーンダウンチャートにのみ影響します。
+アジャイルチームは代替スケジュールを定義することで、チーム固有の非稼働日を組み込むことができます（[バーンダウンチャートに代替のチームスケジュールを使用](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)の記事で説明）。その後、この代替スケジュールは、チームに割り当てられたイテレーションのバーンダウンチャートに反映されます。代替スケジュールは、バーンダウンチャートにのみ影響します。
 
 次の場合にのみ、休日がバーンダウンチャートに反映されます。
 

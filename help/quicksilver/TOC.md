@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 95%
@@ -678,7 +678,7 @@ ht-degree: 95%
          * [API キーの管理](administration-and-setup/manage-workfront/security/manage-api-keys.md)
          * [プライバシーポリシー](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
          * [拡張認証の概要](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-         * [拡張認証を使用する際の IDP の SAML 2.0 メタデータの更新](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+         * [拡張認証を使用する際の IDP の SAML 2.0 メタデータの更新](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
       * 為替レート {#exchange-rates}
          * [為替レート](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
          * [為替レートの設定](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1049,7 +1049,7 @@ ht-degree: 95%
          * [イテレーション完了ステータスの概要](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [バーンダウンチャートのサイズ変更と折りたたみ](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
          * [バーンダウンチャートのデータを同期する](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-         * [バーンダウンチャートに代替のチームスケジュールを使用](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+         * [バーンダウンチャートに代替のチームスケジュールを使用](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
       * イテレーション {#iterations}
          * [イテレーション](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
          * [イテレーションの概要](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
@@ -1081,7 +1081,7 @@ ht-degree: 95%
 * ドキュメント {#documents}
    * [ドキュメント：記事インデックス](documents/documents-overview.md)
    * Adobe Workfront への新しいドキュメントの追加 {#add-new-documents-to-workfront}
-      * [Adobe Workfront に新規ドキュメントを追加](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+      * [Adobe Workfront に新規ドキュメントを追加](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [ファイルシステムから Adobe Workfront へのドキュメントの追加](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [外部アプリケーションからドキュメントをリンク](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [Adobe Workfront と外部ドキュメントストレージプロバイダー間のリンクを削除する](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
@@ -1113,7 +1113,7 @@ ht-degree: 95%
       * [Adobe Workfront DAM の有効化](documents/workfront-dam-within-workfront/enable-wf-dam.md)
       * [Adobe Workfront DAM によるドキュメントの管理](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
       * [Adobe Workfront ライセンスの役割タイプと Adobe Workfront DAM の役割タイプの比較](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Adobe Workfront DAM のヘルプへのアクセス](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+      * [Adobe Workfront DAM のヘルプへのアクセス](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront と Experience Manager Assets の統合 {#wf-aem-integrations}
       * [Workfront と Experience Manager Assets の統合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront for Experience Manager 拡張コネクタ {#wf-aem-enhanced-connector}
@@ -1815,11 +1815,11 @@ ht-degree: 95%
          * [プルーフの進行状況とステータスの概要](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Web プルーフビューアとデスクトッププルーフビューアの違いの概要](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * プルーフを作成 {#create-proofs}
-         * [プルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+         * [プルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [個人用プルーフのデフォルトを設定する](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [複数ページのプルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Web サイトまたはその他の web コンテンツ用のインタラクティブなプルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-         * [ZIP ファイル内のインタラクティブコンテンツのプルーフを作成](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+         * [ZIP ファイル内のインタラクティブコンテンツのプルーフを作成](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
          * [Web サイトまたはその他の web コンテンツ用の静的プルーフの作成](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
          * [ドキュメント用のプルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [基本ワークフローを使用した高度なプルーフの作成](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2091,7 +2091,7 @@ ht-degree: 95%
       * [API トークン認証を使用する web サービスに Adobe Workfront Fusion を接続](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
       * [更新されたセキュリティ対策を使用して Google Services に Adobe Workfront Fusion を接続](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
       * [カスタム OAuth クライアントを使用して Google Services に Adobe Workfront Fusion を接続](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-      * [Adobe Workfront Fusion の HTTP／OAuth 2.0 リクエストを作成モジュール経由で MS Graph REST API を呼び出す](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+      * [Adobe Workfront Fusion の HTTP／OAuth 2.0 リクエストを作成モジュール経由で MS Graph REST API を呼び出す](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
       * [Adobe Workfront Fusion のキー](workfront-fusion/connections/keys.md)
       * [Web サービスから web フックを受け取る](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
    * Adobe Workfront Fusion のエラー {#errors-in-fusion}

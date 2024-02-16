@@ -6,7 +6,7 @@ description: Workfront 拡張機能を使用すると、Adobe Illustrator およ
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 81%
@@ -285,7 +285,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
 ## Illustrator や InDesign からプルーフを生成 {#generate-a-proof-from-illustrator-or-indesign}
 
-組織が自動ワークフローテンプレートを使用している場合は、アドビのアプリケーションで作成したドキュメントのプルーフを、アプリケーションから移動せずに生成できます。プルーフの作成について詳しくは、[プルーフの作成](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)を参照してください。自動ワークフローテンプレートについて詳しくは、[自動ワークフローの概要](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)の[自動ワークフローテンプレート](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)を参照してください。
+組織が自動ワークフローテンプレートを使用している場合は、アドビのアプリケーションで作成したドキュメントのプルーフを、アプリケーションから移動せずに生成できます。プルーフの作成について詳しくは、[プルーフの作成](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)を参照してください。自動ワークフローテンプレートについて詳しくは、[自動ワークフローの概要](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)の[自動ワークフローテンプレート](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate)を参照してください。
 
 1. サポートされているアドビのアプリケーションのうちの 1 つを開きます。
 1. Workfront 拡張機能が表示されない場合は、**ウィンドウ**／**拡張機能**／Workfront をクリックします。

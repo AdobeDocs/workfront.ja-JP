@@ -6,9 +6,9 @@ description: デスクトッププルーフビューアを使用して、すべ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '382'
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+workflow-type: tm+mt
+source-wordcount: '377'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Web プルーフビューアには次の制限があります。
 
    詳しくは、[インタラクティブコンテンツのプルーフの概要](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)の [ZIP ファイル内のインタラクティブコンテンツをプルーフ用に準備する方法について](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive)を参照してください。
 
-   [ZIP ファイル内のインタラクティブコンテンツのプルーフの作成](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)も参照してください。
+   [ZIP ファイル内のインタラクティブコンテンツのプルーフの作成](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)も参照してください。
 
 1. 「**コメントを追加**」をクリックします。
 

@@ -6,7 +6,7 @@ description: インタラクティブコンテンツは、視聴者を惹きつ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 96%
@@ -70,7 +70,7 @@ ht-degree: 96%
 
 ZIP バンドルファイルを準備したら、インタラクティブなプルーフを作成します。
 
-詳しくは、[ZIP ファイルにインタラクティブコンテンツのプルーフを作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)を参照してください。
+詳しくは、[ZIP ファイルにインタラクティブコンテンツのプルーフを作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)を参照してください。
 
 また、Workfront Proof を使用している場合は、[Workfront Proof でのプルーフの生成](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)の記事の[インタラクティブコンテンツのプルーフの生成](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content)の節を参照してください。
 

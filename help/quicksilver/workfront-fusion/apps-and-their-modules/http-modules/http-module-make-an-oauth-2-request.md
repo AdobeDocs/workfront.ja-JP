@@ -9,7 +9,7 @@ description: OAuth 2.0 認証を必要とするサーバーに対する  [!DNL A
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '2236'
 ht-degree: 98%
@@ -289,7 +289,7 @@ OAuth 2.0 認証について詳しくは、[OAuth 2.0 承認フレームワー�
 
 ### [!DNL Microsoft Graph API] に [!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 リクエストを作成] モジュール経由で接続する手順
 
-[!DNL Microsoft Graph API] に関する手順については、[ [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] 経由で [!DNL MS Graph REST API] を呼び出す／[!UICONTROL OAuth 2.0 リクエストを作成]モジュール](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md)を参照してください。
+[!DNL Microsoft Graph API] に関する手順については、[ [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] 経由で [!DNL MS Graph REST API] を呼び出す／[!UICONTROL OAuth 2.0 リクエストを作成]モジュール](../../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)を参照してください。
 
 ## OAuth 2.0 リクエストモジュールの設定
 

@@ -8,9 +8,9 @@ description: プルーフとは、プルーフビューアで確認できる静�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
-workflow-type: ht
-source-wordcount: '1365'
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+workflow-type: tm+mt
+source-wordcount: '1369'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 はい。Web サイトやその他の web コンテンツからプルーフを作成できます。URL を追加してプルーフを作成する際に、静的なプルーフとインタラクティブなプルーフのどちらを作成するかを指定できます。
 
-* レビュアーはインタラクティブなプルーフで、ストリーミングビデオやオーディオを含む広告、広告内の [!DNL Flash] 要素、HTML アニメーション、インタラクティブバナーなどの、web サイトやその他の web コンテンツを通常通りにナビゲートおよび操作できます。詳しくは、[ZIP ファイル内のインタラクティブコンテンツのプルーフを作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)を参照してください。
+* レビュアーはインタラクティブなプルーフで、ストリーミングビデオやオーディオを含む広告、広告内の [!DNL Flash] 要素、HTML アニメーション、インタラクティブバナーなどの、web サイトやその他の web コンテンツを通常通りにナビゲートおよび操作できます。詳しくは、[ZIP ファイル内のインタラクティブコンテンツのプルーフを作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)を参照してください。
 * 静的プルーフの場合、[!DNL Workfront] は、指定したページとサブページの一連のスクリーンショットを取得します。ハイパーリンクがプルーフ内で有効になるので、正しい宛先に誘導されるかどうかをテストできます。詳しくは、[web サイトまたはその他の web コンテンツ用の静的プルーフを作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)を参照してください。
 
 複数の URL をスペースで区切ると、それらを一度に追加できます。結合は、[!UICONTROL Enterprise] および [!UICONTROL Unlimited] エディションプランでのみ利用可能です。

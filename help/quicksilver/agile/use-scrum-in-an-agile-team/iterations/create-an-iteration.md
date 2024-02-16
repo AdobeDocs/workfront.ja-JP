@@ -6,9 +6,9 @@ description: イテレーションは、スクラムアジャイルチームが�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
-workflow-type: ht
-source-wordcount: '1049'
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+workflow-type: tm+mt
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL End Date]</strong> </td> 
-      <td><p>イテレーションが終了する日付を指定します。[!DNL Workfront]では、終了日を開始日から 4 週間以内に設定することをお勧めします。</p><p>ヒント：終了日は必ず稼働日にしてください。バーンダウンチャートの計算に使用されるのは稼働日のみです。<br>デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用して稼働日を定義します（<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールを作成</a>で説明しています）。また、チーム固有の非稼働日を組み込むには、アジャイルチームが代替スケジュールを使用するように選択できます（<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md" class="MCXref xref">バーンダウンチャートに代替のチームスケジュールを使用</a>で説明されています）。</p></td> 
+      <td><p>イテレーションが終了する日付を指定します。[!DNL Workfront]では、終了日を開始日から 4 週間以内に設定することをお勧めします。</p><p>ヒント：終了日は必ず稼働日にしてください。バーンダウンチャートの計算に使用されるのは稼働日のみです。<br>デフォルトでは、バーンダウンチャートはデフォルトのスケジュールを使用して稼働日を定義します（<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールを作成</a>で説明しています）。また、チーム固有の非稼働日を組み込むには、アジャイルチームが代替スケジュールを使用するように選択できます（<a href="../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md" class="MCXref xref">バーンダウンチャートに代替のチームスケジュールを使用</a>で説明されています）。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Focus]</strong></td> 

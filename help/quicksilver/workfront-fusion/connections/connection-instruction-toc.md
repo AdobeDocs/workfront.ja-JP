@@ -9,9 +9,9 @@ description: 接続は、接続先のアプリまたは web サービスの API 
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
-workflow-type: ht
-source-wordcount: '567'
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+workflow-type: tm+mt
+source-wordcount: '568'
 ht-degree: 100%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront]プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td>
 
 </tbody> 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## [!DNL Adobe Workfront] を [!DNL Workfront Fusion] に接続
 
@@ -83,7 +83,7 @@ Workfront と [!DNL Workfront Fusion] は、連携するように設計されて
 
 * [!UICONTROL HTTP] モジュールを使用して[!DNL Microsoft Graph API] に接続
 
-  手順については、[ [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] 経由で [!DNL MS Graph REST API] を呼び出す／[!UICONTROL OAuth 2.0 リクエスト]モジュール](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md)を作成を参照してください。
+  手順については、[ [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] 経由で [!DNL MS Graph REST API] を呼び出す／[!UICONTROL OAuth 2.0 リクエスト]モジュール](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)を作成を参照してください。
 
 ## [!DNL Google] アプリまたは web サービスに接続
 
@@ -164,11 +164,11 @@ Workfront と [!DNL Workfront Fusion] は、連携するように設計されて
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL MariaDB]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/mariadb-modules.md" class="MCXref xref">[!DNL MariaDB] モジュール</a>で <a href="../../workfront-fusion/apps-and-their-modules/mariadb-modules.md#connect" class="MCXref xref">[!DNL MariaDB] を [!DNL Workfront Fusion]</a> に接続</td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/mariadb-modules.md#connect" class="MCXref xref"><a href="../../workfront-fusion/apps-and-their-modules/mariadb-modules.md" class="MCXref xref">[!DNL MariaDB] モジュールで [!DNL MariaDB] を </a> に接続[!DNL Workfront Fusion]</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Marketo]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/marketo-modules.md" class="MCXref xref">[!DNL Marketo] モジュール</a>で <a href="../../workfront-fusion/apps-and-their-modules/marketo-modules.md#connect" class="MCXref xref">[!DNL Marketo] を [!DNL Workfront Fusion]</a> に接続</td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/marketo-modules.md#connect" class="MCXref xref"><a href="../../workfront-fusion/apps-and-their-modules/marketo-modules.md" class="MCXref xref">[!DNL Marketo] モジュールで [!DNL Marketo] を </a> に接続[!DNL Workfront Fusion]</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL MS Dynamics]</p> </td> 
