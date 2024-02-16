@@ -2,51 +2,30 @@
 product-area: projects
 navigation-topic: manage-projects
 title: プロジェクトのステータスの変更
-description: プロジェクトのステータスは手動で変更できます。
+description: 必要に応じて、プロジェクトのステータスを手動で他のステータスに更新できます。 プロジェクトの [ 完了モード ] が [ 手動 ] に設定されている場合にのみ、プロジェクトの [ ステータス ] を [ 完了 ] に設定するステータスに手動で更新できます。
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
-workflow-type: ht
-source-wordcount: '310'
-ht-degree: 100%
+source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 61%
 
 ---
 
 # プロジェクトのステータスの変更
 
-プロジェクトのステータスは手動で変更できます。
+<!--Audited: 02/2024-->
+
+必要に応じて、プロジェクトのステータスを手動で他のステータスに更新できます。
+
+プロジェクトの [ 完了モード ] が [ 手動 ] に設定されている場合にのみ、プロジェクトの [ ステータス ] を [ 完了 ] に設定するステータスに手動で更新できます。
+
+それ以外の場合は、プロジェクトのすべてのタスクと問題が完了し、承認されると、Adobe Workfrontは自動的にプロジェクトを完了としてマークします。
+
+プロジェクトの完了モードの詳細については、 [プロジェクトを編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 ## アクセス要件
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -55,25 +34,28 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>プラン </p> </td> 
+   <td> <p>新規：標準 </p> 
+   または
+   <p>現在：プラン </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>：アクセス権がない場合は、Workfront 管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対する権限を管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 特定のステータスに更新する際の考慮事項
 
