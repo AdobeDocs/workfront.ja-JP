@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 97%
+source-wordcount: '2313'
+ht-degree: 93%
 
 ---
 
 # 従来のフォームビルダーを使用したカスタムフォームへのカスタムフィールドの追加
+
+<!-- Audited: 02/2024 -->
 
 カスタムフォームの作業を行っている場合、新規カスタムフィールドを作成してカスタムフォームに追加できます。
 
@@ -36,30 +38,33 @@ ht-degree: 97%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>カスタムフォームへの管理アクセス権 </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセスレベル設定を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## カスタムフォームへのカスタムフィールドの追加
+## カスタムフォームへのカスタムフィールドの追加 {#add-custom-field-to-custom-form}
 
 1. [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)の説明に従って、カスタムフォームの作成または編集を開始します。
-1. 「**フィールドの追加**」タブをを開きます。
+1. を選択します。 **フィールドを追加** タブをクリックします。
 
-   ![](assets/add-a-field.jpg)
+   ![フィールドタブを追加](assets/add-a-field.jpg)
 
-1. 「**新しいフィールド**」![](assets/new-field.jpg) を選択したうえで、次のいずれかのフィールドタイプを選択します。
+1. を使用 **新しいフィールド** ![新規フィールドアイコン](assets/new-field.jpg) 「 」を選択し、次のいずれかのフィールドタイプを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ ht-degree: 97%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">書式付きテキストフィールド</td> 
-      <td>フィールドに複数行のテキストを入力し、太字、斜体、下線、箇条書き、番号付きリスト、ハイパーリンクおよびブロック引用符でテキストを書式設定できます。これは、Workfront オブジェクトのホーム、更新エリア、リストおよび詳細エリアで使用できます。文字数の上限が 15,000 字なので、たくさんのテキストと書式設定を入力できます。</p> <p>API を使用したこのフィールドへのアクセスについては、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API でのリッチテキストフィールドの保存</a>を参照してください。</p> <p><b>メモ</b>：書式付きテキストフィールドは、Workfront モバイルアプリでは利用できません（今後のリリースで利用可能になる予定）。 </p> </td> 
+      <td>フィールドに複数行のテキストを入力し、太字、斜体、下線、箇条書き、番号付きリスト、ハイパーリンクおよびブロック引用符でテキストを書式設定できます。これは、Workfront オブジェクトのホーム、更新エリア、リストおよび詳細エリアで使用できます。文字数の上限が 15,000 字なので、たくさんのテキストと書式設定を入力できます。</p> <p>API を使用したこのフィールドへのアクセスについては、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API でのリッチテキストフィールドの保存</a>を参照してください。</p> <p><b>注意</b>：書式を持つテキストフィールドは、Workfrontモバイルアプリでは使用できません。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ドロップダウン</td> 
@@ -150,7 +155,7 @@ ht-degree: 97%
       <li>こうすることは可能ですが、ご自身や他のユーザーが Workfront でカスタムフォームを使用し始めた後は、この名前を変更しないことをお勧めします。変更してしまうと、Workfront の他の領域で参照される可能性のあるカスタムフィールドが認識されなくなります。 <p>例えば、カスタムフィールドをレポートに追加し、後で名前を変更した場合、Workfront はレポート内のフィールドを認識せず、新しい名前でレポートに再追加しない限り、正しく機能しなくなります。</p> </li>
       <li> <p>組み込みの Workfront フィールドに既に使用されている名前は、入力しないことをお勧めします。</p> </li>
       <li><p>Workfront の様々なエリアでフィールドを使用する際のエラーを防止するため、カスタムフィールド名にはピリオドやドット「.」を使用しないことをお勧めします。</p></li>
-      </ul> <p>それぞれのカスタムフィールド名は、組織の Workfront インスタンス内で一意である必要があります。これにより、既に作成されたものを別のカスタムフォームに再利用できます。詳しくは、<a href="#Add" class="MCXref xref">カスタムフォームにカスタムフィールドを追加</a>を参照してください。</p> </td>
+      </ul> <p>それぞれのカスタムフィールド名は、組織の Workfront インスタンス内で一意である必要があります。これにより、既に作成されたものを別のカスタムフォームに再利用できます。詳しくは、<a href="#add-a-custom-field-to-a-custom-form">カスタムフォームにカスタムフィールドを追加</a>を参照してください。</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">手順</td> 
@@ -196,7 +201,8 @@ ht-degree: 97%
         <li>自分が指定した 1 つ以上のグループに属している</li> 
         <li>自分が指定した役割または職位に関連付けられている</li> 
         <li>フィールドを使用するユーザーと同じグループに属している</li> 
-       </ul> <p>テキストモードの構文を使用して、選択したオブジェクトタイプのフィルターを定義する必要があります。テキストモードを使用したフィルターの作成に関する詳細情報は、<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">テキストモードの概要</a>の記事にある<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">フィルターでテキストモードを編集</a>の節を参照してください。 </p> <p><b>メモ</b>：   
+       </ul> <p>テキストモードの構文を使用して、選択したオブジェクトタイプのフィルターを定義する必要があります。テキストモードを使用したフィルターの作成について詳しくは、 <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">テキストモードを使用したフィルターの編集</a>.</p>
+       <p><b>メモ</b>：   
         <ul> 
          <li>既存のカスタムフォームを編集している場合、先行入力フィールドにフィルターを追加しても、ユーザーがフィールドを使用して既に追加した（フィルターの範囲外の）オブジェクトは削除されません。</li> 
          <li>このフィルターは、モバイルデバイスでは使用できません。先行入力フィールドにフィルターを使用すると、このフィールドは、フィルターの影響を受けずに、ユーザーのモバイルデバイスに表示されます。</li> 
@@ -220,15 +226,15 @@ ht-degree: 97%
       <p><b>メモ</b>：このオプションは、以下の場合は使用できません。</p> 
       <ul> 
       <li>費用、会社、イテレーション、請求記録、グループのオブジェクトタイプに関連付けられたカスタムフォーム。</li> 
-      <li>計算済み、説明テキストおよびセクション区切りのフィールドタイプ</li> 
+      <li>フィールドのタイプは、計算済み、説明テキストおよびセクション区切りです。</li> 
       </ul>
       <p><b>重要</b>：ここでオブジェクトタイプの選択または選択解除を行うと、選択したオブジェクトタイプに関連付けられ、このフィールドを含むすべてのカスタムフォームに影響します。例えば、ここでオブジェクトタイプを選択解除し、カスタムフォームを保存すると、このフィールドを含むカスタムフォームでは、そのオブジェクトタイプに対するフィールドの値の変更は追跡されなくなります。</p>
        <p>ここでフィールドのオブジェクトタイプを選択し、カスタムフォームを保存すると、このフィールドは、「設定」のフィードのアップデートエリアにある「カスタムフィールド」タブに表示されます。</p> 
        <p>逆に、「設定」のフィードのアップデートエリアでこのフィールドを削除した場合、この設定のオブジェクトタイプは、そのオブジェクトタイプに関連付けられ、このフィールドを含むすべてのカスタムフォームで選択解除されます。</p> 
-       <p>詳しくは、<a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">システムアップデートを設定</a>の記事にある <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Workfront で追跡するフィールドを追加</a>の節を参照してください。</p> </td> 
+       <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">システムアップデートを設定</a>の記事にある <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Workfront で追跡するフィールドを追加</a>の節を参照してください。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">ロジックを追加</td> 
+      <td role="rowheader">ロジックを追加</td>
       <td>ユーザーが既存のフィールドで行った選択に基づいて、フォームに表示するフィールドを指定します。詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">表示ロジックの追加とカスタムフォームへのロジックのスキップ</a>を参照してください。</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ ht-degree: 97%
    >* ラジオボタンに変更した場合、Workfront は、ユーザーがフォームの任意の部分でデータを変更して保存するまで、フィールドに入力した複数選択値を保持します。この時点で、複数選択タイプのフィールドを使用して選択された値は、選択されたラジオボタンの値に置き換えられます。
    >* 単一選択ドロップダウンに変更した場合、Workfront は、ユーザーがフィールドの値を変更して保存するまで、ユーザーがフィールドに入力した複数選択値を保持します。この時点で、複数選択タイプのフィールドを使用して選択した値は、選択したドロップダウン値に置き換えられます。
 
-1. （オプション）手順 2～6 を繰り返して、他のカスタムフィールドを追加します。
+1. （オプション）さらにカスタムフィールドを追加するには、手順 3 ～ 5 を繰り返します。
 
    または
 
-   [カスタムフォームでカスタムフィールドまたはウィジェットを再利用する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add)の説明に従って、組織用に既に作成されているフィールドを追加します。
+   [カスタムフォームでカスタムフィールドまたはウィジェットを再利用する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)の説明に従って、組織用に既に作成されているフィールドを追加します。
 
    >[!NOTE]
    >
