@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 このページでは、21.4 リリースでプレビュー環境に対して行われたすべてのプロジェクト機能強化について説明します。これらの機能強化は、2021年10月4日（PT）の週に実稼動環境で利用可能になる予定です。
 
-21.4 リリースで利用可能なすべての変更点の一覧については、[21.4 リリースの概要](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md)を参照してください。
+21.4 リリースで利用可能なすべての変更点の一覧については、[21.4 リリースの概要](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md)を参照してください。
 
 ## 更新に画像を含める
 

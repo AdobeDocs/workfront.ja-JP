@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 このページでは、実稼動環境への 20.3 のリリースで行われたプルーフのすべての機能強化について説明します。これらの機能強化は、2020年8月10日（PT）の週に実稼動環境で利用可能になりました。
 
-20.3 リリースで利用可能なすべての変更点の一覧については、[20.3 リリースの概要](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md)を参照してください。
+20.3 リリースで利用可能なすべての変更点の一覧については、[20.3 リリースの概要](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)を参照してください。
 
 ## 「更新」タブとプルーフのコメント間の表示の改善
 

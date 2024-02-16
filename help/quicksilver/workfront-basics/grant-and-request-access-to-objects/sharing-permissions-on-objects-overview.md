@@ -6,7 +6,7 @@ description: 自分が作成したオブジェクトや自分と共有された�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 88%
@@ -38,7 +38,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
 
 * **テンプレート**：詳しくは、[プロジェクトテンプレートを共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)を参照してください。
 
-* **ポートフォリオ**：詳しくは、[ポートフォリオの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)を参照してください。
+* **ポートフォリオ**：詳しくは、[ポートフォリオの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
 
 * **プログラム**：詳しくは、[プログラムの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)を参照してください。
 

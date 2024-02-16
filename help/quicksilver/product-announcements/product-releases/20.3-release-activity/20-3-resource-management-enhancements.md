@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 このページでは、実稼動環境の 20.3 リリースで行われた、すべてのリソース管理の機能強化について説明します。これらの機能強化は、2020年8月10日（PT）の週に実稼動環境で利用可能になりました。
 
-20.3 リリースで利用可能なすべての変更点の一覧については、[20.3 リリースの概要](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md)を参照してください。
+20.3 リリースで利用可能なすべての変更点の一覧については、[20.3 リリースの概要](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)を参照してください。
 
 ## ワークロードバランサーの割り当て済み作業エリアのイシューの時間数を含める
 

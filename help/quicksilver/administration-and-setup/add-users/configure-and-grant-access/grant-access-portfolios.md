@@ -8,8 +8,8 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
-workflow-type: ht
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
 ## 共有ポートフォリオへのアクセス権
 
-ポートフォリオの所有者または作成者は、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)で説明されているように、ポートフォリオに対するアクセス権を他のユーザーに付与することで、そのポートフォリオを他のユーザーと共有できます。
+ポートフォリオの所有者または作成者は、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)で説明されているように、ポートフォリオに対するアクセス権を他のユーザーに付与することで、そのポートフォリオを他のユーザーと共有できます。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -80,4 +80,4 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 * オブジェクトについて受信者に付与する権限
 * オブジェクトのタイプについての受信者のアクセスレベル設定
 
-ポートフォリオを共有する際にユーザーがポートフォリオに対して付与できる権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)を参照してください。
+ポートフォリオを共有する際にユーザーがポートフォリオに対して付与できる権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。

@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 100%
@@ -365,7 +365,7 @@ API のバージョンについて詳しくは、[API のバージョン管理�
 
 メールの配信を成功に導くために、21.1 実稼動版リリースでクラスター 1、2、3、4、5 に新しい IP アドレスを追加します。
 
-クラスターに追加する必要がある IP アドレスについて詳しくは、[21.1 リリースでの Adobe Workfront メールの新しい IP アドレス](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)を参照してください。
+クラスターに追加する必要がある IP アドレスについて詳しくは、[21.1 リリースでの Adobe Workfront メールの新しい IP アドレス](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)を参照してください。
 
 インスタンスが存在するクラスターを確認するには、設定／システム／顧客情報の順に移動します。
 

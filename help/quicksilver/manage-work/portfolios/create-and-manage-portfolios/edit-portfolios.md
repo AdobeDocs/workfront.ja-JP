@@ -6,8 +6,8 @@ description: 自分が作成したポートフォリオや、他のユーザー�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
-workflow-type: ht
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオに対する [!UICONTROL Manage] 権限</p> <p> ポートフォリオに対する権限の付与について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md" class="MCXref xref">ポートフォリオを共有 </a>を参照してください。 </p> <p>追加の権限のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトの利用申請</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオに対する [!UICONTROL Manage] 権限</p> <p> ポートフォリオに対する権限の付与について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">ポートフォリオを共有 </a>を参照してください。 </p> <p>追加の権限のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトの利用申請</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,9 +64,9 @@ ht-degree: 100%
    >
    >[!DNL Workfront] 管理者またはグループ管理者がレイアウトテンプレートを変更した方法によっては、[!UICONTROL ポートフォリオの詳細]エリアが並べ替えられたり、表示されない場合があります。詳しくは、[レイアウトテンプレートを使用した[!UICONTROL 詳細]表示のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-   [!UICONTROL 詳細]セクションで情報を編集するには、以下の操作を実行します。
+   「[!UICONTROL 詳細]」セクションの情報を編集するには、以下を行います。
 
-   1. （オプション）すべてのエリアを折りたたむには、右上隅の&#x200B;**[!UICONTROL すべて折りたたむ]**&#x200B;アイコンをクリックします。
+   1. （オプション）右上隅の&#x200B;**[!UICONTROL すべて折りたたむ]**&#x200B;アイコンをクリックして、すべてのエリアを折りたたみます。
    1. （オプションおよび条件付き）エリアが折りたたまれている場合、各エリアの横にある&#x200B;**右向き矢印** ![](assets/right-pointing-arrow.png) をクリックして、編集するエリアを展開します。
    1. [!UICONTROL ポートフォリオの詳細]セクションに表示されるフィールドについて詳しくは、次に説明するように、「[!UICONTROL ポートフォリオを編集]」ボックスでポートフォリオの編集を続けます。
    1. （オプション）ポートフォリオにカスタムフォームが添付されていない場合は、**[!UICONTROL カスタムフォームの追加]**&#x200B;フィールドに値を入力を開始し、リストに表示されたらフォームを選択して、「**[!UICONTROL 変更を保存]**」をクリックします。

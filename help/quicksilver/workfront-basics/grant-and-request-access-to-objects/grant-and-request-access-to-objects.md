@@ -8,7 +8,7 @@ author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
@@ -31,7 +31,7 @@ ht-degree: 100%
 * [テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
 * [プロジェクトテンプレートを共有](../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [オブジェクトに対する財務権限の共有](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
-* [ポートフォリオを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)
+* [ポートフォリオを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)
 * [プログラムを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md)
 * [ドキュメントを共有](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)
 * [ドキュメントフォルダーを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)

@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 98%
@@ -124,7 +124,7 @@ ht-degree: 98%
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>次の IP アドレスについて詳しくは、<a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">21.1 リリースでの Adobe Workfront メールの新規 IP アドレス</a>を参照してください。</p> 
+    </ul> <p>次の IP アドレスについて詳しくは、<a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">21.1 リリースでの Adobe Workfront メールの新規 IP アドレス</a>を参照してください。</p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -158,7 +158,7 @@ ht-degree: 98%
 * 54.220.93.204
 * 34.254.76.122
 
-次の IP アドレスについて詳しくは、[21.1 リリースでの Adobe Workfront メールの新規 IP アドレス](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)を参照してください。
+次の IP アドレスについて詳しくは、[21.1 リリースでの Adobe Workfront メールの新規 IP アドレス](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)を参照してください。
 
 * 23.251.239.98
 * 23.251.239.99

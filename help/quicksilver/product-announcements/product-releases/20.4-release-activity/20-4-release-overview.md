@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3694'
 ht-degree: 100%
@@ -290,7 +290,7 @@ ht-degree: 100%
 
 ## Workfront シナリオプランナーの機能強化
 
-20.4 リリースで Workfront シナリオプランナーの新機能のほとんどがリリースされます。プレビューで利用できる新機能について詳しくは、[Workfront シナリオプランナーの 20.4 リリース - 2020年10月14日（PT）](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md)を参照してください。
+20.4 リリースで Workfront シナリオプランナーの新機能のほとんどがリリースされます。プレビューで利用できる新機能について詳しくは、[Workfront シナリオプランナーの 20.4 リリース - 2020年10月14日（PT）](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md)を参照してください。
 
 ## Workfront Goals の強化
 
