@@ -4,9 +4,9 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '788'
 ht-degree: 39%
 
 ---
@@ -54,16 +54,19 @@ ht-degree: 39%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">スキップロジックと表示ロジックが、フォームデザイナーベータ版で使用できるようになりました。</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">スキップロジックと表示ロジックが、フォームデザイナーベータ版で使用できるようになりました。</a></p>
                         <p>これで、既存の表示を編集し、ロジックをスキップし、フォームデザイナーベータ版でカスタムフォームに新しいロジックを追加できるようになりました。 使いやすいロジックビルダーを使用すると、フォーム内の選択に基づいて、表示またはスキップするフィールドを定義できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024年2月8日<br /></p>
+                                <p>プレビューリリース：2024年2月8日</p>
                             </li>
                             <li>
-                                <p><span class="preview">すべてのお客様向け： 24.2 リリース（2024 年 2 月 16 日）</span></p>
+                                <p>高速リリース用の実稼動環境：24.2 リリース（2024 年 2 月 16 日）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様の本番環境：未定</p>
                             </li>
                         </ul>
                     </td>

@@ -7,16 +7,20 @@ description: カスタムフォームのどのセクションを表示または�
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 2d46a047db8117983978f1411095bc8c022abbe2
+source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 15%
+source-wordcount: '1358'
+ht-degree: 18%
 
 ---
 
 # フォームデザイナーでの表示ロジックの追加とロジックのスキップ
 
-{{highlighted-preview-article-level}}
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリースについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 カスタムフォームのどのセクションを表示またはスキップするかを、ユーザーが入力時に行った選択に基づいて決定できます。
 
