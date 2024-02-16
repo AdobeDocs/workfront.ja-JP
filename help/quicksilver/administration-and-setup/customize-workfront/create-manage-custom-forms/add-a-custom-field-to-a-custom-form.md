@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: 従来のフォームビルダーを使用したカスタムフォームへのカスタムフィールドの追加
 description: カスタムフォームの作業を行っている場合、新規カスタムフィールドを作成してカスタムフォームに追加できます。また、別のカスタムフォームに既に追加されているカスタムフィールドを追加することもできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 98%
+source-wordcount: '2335'
+ht-degree: 97%
 
 ---
 
@@ -164,6 +164,8 @@ ht-degree: 98%
 
    <p><strong>例：</strong>1 つ以上のオブジェクトにテキスト形式のフィールドの数値を保存し、後でその形式を数値または通貨に変更した場合、エラーは発生しません。 </p>
       <p>ただし、1 つ以上のオブジェクトで、テキスト形式のフィールドに英数字の値を保存し、その形式を数値または通貨に変更しようとすると、保存された英数字の値が数値形式や通貨形式と互換性がないため、エラーが発生します。 </p>
+
+   <p><strong>注意：</strong> 数値フィールドの文字数制限は 16 です。 また、テキストフィールドを使用して数値を入力し、制限を回避することもできます。</p>
 
    </td> 
      </tr> 

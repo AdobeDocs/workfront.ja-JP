@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Wor
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: 94ebd79a566ca946944339e3a5c1df9b3d2d2608
+source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
 ht-degree: 96%
@@ -102,7 +102,7 @@ ht-degree: 96%
                 <td>のパスワードを入力します。 [!DNL Workfront Proof] アカウント。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Tenant name]</td>
+                <td  role="rowheader">[!UICONTROL テナント ID]</td>
                 <td><strong>注意</strong>:BYOK を使用しないお客様は、このフィールドを空白のままにする必要があります。 <p>このアカウントのテナント ID を入力します。 テナント ID の検索について不明な点がある場合は、Workfrontカスタマーサポートにお問い合わせください。</p></td>
             </tr>
             <tr>
