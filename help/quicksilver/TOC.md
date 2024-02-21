@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 95%
@@ -275,12 +275,12 @@ ht-degree: 95%
             * [20.3 統合およびモバイルの機能強化](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 その他の機能強化](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * 20.2 リリース {#release-20-2}
-            * [2020.2 リリースの概要](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-            * [2020.2 モバイル機能の強化](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-            * [2020.2 のその他の機能強化](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-            * [2020.2 プロジェクトの機能強化](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-            * [2020.2 プルーフの機能強化](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-            * [2020.2 リソース管理の機能強化：ワークロードバランサー](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+            * [2020.2 リリースの概要](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [2020.2 モバイル機能の強化](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [2020.2 のその他の機能強化](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [2020.2 プロジェクトの機能強化](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [2020.2 プルーフの機能強化](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [2020.2 リソース管理の機能強化：ワークロードバランサー](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * 20.1 リリース {#release-20-1}
             * [2020.1 リリースの概要](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [2020.1 リストの機能強化](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
@@ -291,12 +291,12 @@ ht-degree: 95%
             * [2020.1 リソース管理の機能強化](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [2020.1 リリースより前に実稼動環境にリリースされたその他の Workfront Classic 機能](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
          * 2019.4 リリース {#release-19-4}
-            * [2019.4 リリースの概要](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-            * [2019.4 リストの機能強化](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-            * [2019.4 モバイルの機能強化](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-            * [2019.4 のその他の機能強化](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-            * [2019.4 リソース管理の機能強化](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-            * [2019.4 リリースより前に実稼動環境にリリースされたその他の Workfront Classic 機能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+            * [2019.4 リリースの概要](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
+            * [2019.4 リストの機能強化](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
+            * [2019.4 モバイルの機能強化](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
+            * [2019.4 のその他の機能強化](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [2019.4 リソース管理の機能強化](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
+            * [2019.4 リリースより前に実稼動環境にリリースされたその他の Workfront Classic 機能](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * 2019.3 リリース {#release-19-3}
             * [2019.3 リリースアクティビティの概要](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [2019.3 リソース計画の機能強化](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
