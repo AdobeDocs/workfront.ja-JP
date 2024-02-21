@@ -7,10 +7,10 @@ description: 企業の長期戦略を計画する際、初期段階には持っ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
-workflow-type: ht
-source-wordcount: '950'
-ht-degree: 100%
+source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   これにより、コピーされたシナリオと同じ情報を持つ新しいシナリオが作成されます。計画の 2 番目のシナリオの場合は「[!UICONTROL シナリオ 2]」、3 番目のシナリオの場合は「[!UICONTROL シナリオ 3]」という名前が自動的に付けられます。シナリオの名前を変更することはできません。
+   これにより、コピーされたシナリオと同じ情報を持つ新しいシナリオが作成されます。計画の 2 番目のシナリオの場合は「[!UICONTROL シナリオ 2]」、3 番目のシナリオの場合は「[!UICONTROL シナリオ 3]」という名前が自動的に付けられます。シナリオの名前は変更できません。 作成できるコピー数に制限はありません。
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
