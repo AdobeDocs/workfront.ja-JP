@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
+source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 95%
