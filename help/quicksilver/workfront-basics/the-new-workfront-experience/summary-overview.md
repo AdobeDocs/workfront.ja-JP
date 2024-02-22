@@ -3,11 +3,12 @@ content-type: overview
 title: 概要パネルについて
 description: 概要パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する  [!DNL Adobe Workfront]  の他のエリアから直接、作業アイテムの情報を確認および更新できます。
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
-workflow-type: ht
-source-wordcount: '896'
-ht-degree: 100%
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+workflow-type: tm+mt
+source-wordcount: '931'
+ht-degree: 96%
 
 ---
 
@@ -116,7 +117,7 @@ ht-degree: 100%
    >
    >[!UICONTROL 概要]パネルで詳細を表示するとき、選択できるタスクまたはイシューは一度に 1 つだけです。
 
-   ![概要パネル](assets/summary-panel-for-task.png)
+   ![概要パネル](assets/summary-panel-for-task-new-comments.png)
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
@@ -136,19 +137,19 @@ ht-degree: 100%
 
 [!UICONTROL 概要]の上部にある進捗バーを使用すると、選択したタスクまたはイシューの完了率を更新できます。完了率の正しい数値を入力するか、バーをドラッグします。
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![概要パネルでの完了率](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL 更新]
 
 [!UICONTROL 概要]の「[!UICONTROL 更新]」セクションを使用すると、最近の更新を表示したり、選択したタスクまたはイシューを更新したりできます。「**[!UICONTROL すべて表示]**」をクリックすると、タスクの「[!UICONTROL 更新]」タブに直接移動できます。
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![概要パネルの「更新」セクション](assets/summary-updates-section.png)
 
 ## [!UICONTROL ドキュメント]
 
 [!UICONTROL 概要]の「[!UICONTROL ドキュメント]」セクションを使用すると、選択したタスクまたはイシューに添付されているドキュメントを表示できます。サムネールをクリックすると、ドキュメントのプレビューが開きます。タスクまたはイシューの「[!UICONTROL ドキュメント]」タブに直接移動するには、「**[!UICONTROL ドキュメント]**」タイトルをクリックします。
 
-![](assets/summary-overview-documents-350x84.png)
+![概要パネルの「ドキュメント」セクション](assets/summary-documents-section.png)
 
 ## [!UICONTROL 詳細]
 
@@ -158,7 +159,7 @@ ht-degree: 100%
 >
 >このセクションに表示されるフィールドは、ホームの右パネルに表示されるフィールドと同じです。これらのフィールドはカスタマイズできます。詳しくは、[レイアウトテンプレートを使用した[!UICONTROL ホーム]と[!UICONTROL 概要]のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)を参照してください。
 
-![](assets/summary-overview-details-new-350x278.png)
+![Summary パネルの「Details」セクション](assets/summary-details-section.png)
 
 ## [!UICONTROL サブタスク]
 
@@ -166,7 +167,7 @@ ht-degree: 100%
 
 タスクにサブタスクを追加していない場合は、「**[!UICONTROL ここに追加してください。]**」をクリックして、タスクの「[!UICONTROL サブタスク]」タブに直接に移動します。
 
-![](assets/summary-overview-subtasks-350x140.png)
+![概要パネルの「サブタスク」セクション](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL 時間数]
 
@@ -176,7 +177,7 @@ ht-degree: 100%
 
 タスクやイシューに関する予定[!UICONTROL 時間数]がなく、時間をログに記録した場合は、時間数バーが赤色で表示されます。
 
-![](assets/summary-overview-hours-350x96.png)
+![概要パネルの「Hours」セクション](assets/summary-hours-section.png)
 
 ## 承認
 
@@ -184,4 +185,4 @@ ht-degree: 100%
 
 タスクまたはイシューの「[!UICONTROL 承認]」タブに直接移動するには、「**[!UICONTROL 承認]**」タイトルをクリックします。
 
-![](assets/summary-overview-approvals-350x122.png)
+![Summary パネルの「承認」セクション](assets/summary-approvals-section.png)

@@ -3,10 +3,10 @@ navigation-topic: the-new-workfront-experience
 title: ページを固定してワークスペースをカスタマイズ
 description: 可視性の向上、適切な整理、迅速なアクセスを実現するために、 [!DNL Adobe Workfront]  の最も重要な作業をピン留めすることができます。ピン留めされたページは、Workfront の任意のページの上部から常にアクセスできます。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
-workflow-type: ht
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 
