@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 95%
+source-wordcount: '517'
+ht-degree: 93%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 95%
 >[!DNL Adobe Workfront Fusion] には、[!DNL Adobe Workfront license] に加えて [!DNL Adobe Workfront Fusion] ライセンスが必要です。
 
 作業の自動化には高速な処理が必要なので、[!DNL Adobe Workfront Fusion] は高いパフォーマンスを実現するように設計されています。シナリオが長時間実行されると作業のペースが遅くなる可能性があるので、実行時間、データサイズ、その他のシナリオパラメーターを制限するパフォーマンスを維持するガードレールを備えた [!DNL Workfront Fusion] を設計しました。[!DNL Workfront Fusion] デザイナーは、これらのガードレールを認識し、デザインプラクティスに組み込む必要があります。
+
+## ブラウザー
+
+Workfront Fusion は Chrome ベースのブラウザーのみをサポートしています。
 
 ## シナリオ
 
