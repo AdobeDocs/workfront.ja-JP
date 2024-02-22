@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
+source-git-commit: e99dab2bc82dd2c2a64e177cbf0c2bb11973e4f5
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 95%
@@ -656,7 +656,7 @@ ht-degree: 95%
          * [メール](administration-and-setup/manage-workfront/emails/emails.md)
          * [電子メール通知：記事インデックス](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [イベント通知の設定](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [使用可能なイベント通知 a](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [イベント通知タイプ](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [すべてのグループのイベント通知のロック解除](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [イベント通知の件名](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [ユーザーのメール通知設定の変更](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)

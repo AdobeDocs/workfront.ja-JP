@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 88%
+source-wordcount: '573'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 通知が設定エリアで有効化され、ユーザーのプロファイルページに表示されると、それぞれのユーザーまたは Paln ライセンスのある別のユーザーは、有効化された通知をユーザープロファイルで設定することにより、特定のユーザーが受け取る通知とその通知頻度を制御することができます。詳しくは、 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-アクティブ化および非アクティブ化できるすべてのイベント通知の一覧については、[Adobe Workfront で使用可能なイベント通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
+アクティブ化および非アクティブ化できるすべてのイベント通知の一覧については、 [イベント通知タイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 グループ管理者が自分のグループに対してイベント通知を設定できるように、イベント通知のロックを解除する方法について詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)と[グループのイベント通知の表示と設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)を参照してください。
 

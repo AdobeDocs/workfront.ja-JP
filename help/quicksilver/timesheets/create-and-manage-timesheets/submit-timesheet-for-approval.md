@@ -6,10 +6,10 @@ description: 承認のためタイムシートを提出すると、マネージ�
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
-workflow-type: ht
-source-wordcount: '897'
-ht-degree: 100%
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 98%
 
 ---
 
@@ -76,24 +76,24 @@ ht-degree: 100%
 
 タイムシートを送信した後、タイムシートのステータスを表示できます。
 
-Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知を有効にする方法について詳しくは、[Adobe Workfront で利用可能なイベント通知](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
+Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知の有効化について詳しくは、 [イベント通知タイプ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 これらの通知がない場合、Workfront のタイムシートエリアで、送信したタイムシートのステータスを確認できます。
 
 タイムシートのステータスを表示するには、次の手順に従います。
 
 1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
-1. **タイムシート**&#x200B;をクリックします。デフォルトでは、**すべて**&#x200B;のフィルターが選択されています。
+1. 「**タイムシート**」をクリックします。デフォルトでは、**すべて**&#x200B;のフィルターが選択されています。
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
-   * ページの右上隅にある「**マイタイムシート承認**」を選択して、自分が承認するタイムシートのみを表示します。
+   * ページの右上隅にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示する
 
      または
 
-     「**マイタイムシート**」を選択して、自分のタイムシートのみを表示します。
+     「**マイタイムシート**」を選択して、自分のタイムシートのみを表示する。
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートリストに適用されます。
 

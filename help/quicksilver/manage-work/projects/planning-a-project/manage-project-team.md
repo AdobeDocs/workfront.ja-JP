@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
-workflow-type: ht
-source-wordcount: '684'
-ht-degree: 100%
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 97%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 プロジェクト上で何の役割も果たさないユーザーが、プロジェクトの期間中に特定の更新や変更に関する通知を受け取りたい場合は、手動でプロジェクトチームに追加できます。
 
-プロジェクトチームのユーザーに対して有効にできる通知の詳細については、[Adobe Workfront で使用可能なイベント通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
+プロジェクトチームのユーザーに対して有効にできる通知の詳細については、 [イベント通知タイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 

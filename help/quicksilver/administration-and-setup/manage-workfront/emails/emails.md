@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: 7c1115065e4d2f4732b392336aed692c055ba97c
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 97%
+source-wordcount: '261'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Workfront でユーザーがコミュニケーションを受信し表示する�
 
 * [メール通知ページ](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
 * [システムの全ユーザーに対するイベント通知の設定](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-* [Adobe Workfront で使用可能なイベント通知](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+* [イベント通知タイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [すべてのグループに対するイベント通知設定のロック解除またはロック](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [イベント通知のメールの件名のカスタマイズ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
 * [複数のユーザーの電子メール通知設定を変更する](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
