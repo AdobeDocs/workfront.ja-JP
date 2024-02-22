@@ -4,10 +4,10 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 39%
+source-wordcount: '932'
+ht-degree: 35%
 
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 39%
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
+* [ホームの機能強化](#home-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+* [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
 
@@ -52,6 +54,22 @@ ht-degree: 39%
                         </p>
                     </td>
                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">スキップロジックと表示ロジックが、フォームデザイナーベータ版で使用できるようになりました。</a></p>
@@ -66,7 +84,7 @@ ht-degree: 39%
                                 <p>高速リリース用の実稼動環境：24.2 リリース（2024 年 2 月 16 日）</p>
                             </li>
                             <li>
-                                <p>すべてのお客様の本番環境：未定</p>
+                                <p>四半期リリースの本番：未定</p>
                             </li>
                         </ul>
                     </td>
@@ -162,7 +180,7 @@ ht-degree: 39%
                             </li>
                         </ul>
                     </td>
-                    </tr>
+                 </tr>
            </tbody>
         </table>
 
@@ -180,6 +198,42 @@ ht-degree: 39%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「ストリームを更新」タブ</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>コメントとシステムアクティビティログの両方を時系列でまとめた表示にするために、すべてのオブジェクトの「更新」領域に 3 番目のタブを追加します。 「すべて」タブは、1 つのまとまったストリームで、ユーザコメントとシステムアクティビティコメントの両方を取り込みます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年2月22日</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月）から</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">概要パネルで新しいコメントストリームを利用できるようになりました。</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>タスクおよび問題リストの概要パネルに新しいコメント機能が追加されました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年2月22日</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月）から</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
