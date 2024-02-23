@@ -7,14 +7,16 @@ description: 「概要」では、ドキュメントリストから直接重要�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 9e05e0162386a2724b83051d05a53a9a2d7c7ab5
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 95%
 
 ---
 
 # ドキュメントの概要
+
+{{highlighted-preview}}
 
 「概要」では、ドキュメントリストから直接重要な情報を操作できます。
 
@@ -83,6 +85,14 @@ ht-degree: 100%
 
 「更新」セクションでは、ドキュメントまたはプルーフで行われた更新を確認できます。概要には、最初に作成された 2 つのコメントが表示されます。更新について詳しくは、 [プルーフに対するコメント](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
 
+<div class="preview">
+
+プレビュー環境での更新の例：
+![概要パネルの「更新」セクション](assets/summary-updates-section-new-comments.png)
+
+</div>
+
+実稼動環境での更新の例：
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 承認

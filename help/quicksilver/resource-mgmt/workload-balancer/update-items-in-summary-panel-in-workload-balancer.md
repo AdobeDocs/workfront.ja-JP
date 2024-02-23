@@ -6,14 +6,16 @@ description: ワークロードバランサーの要約パネルを開いて、�
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 91%
 
 ---
 
 # 概要を使用してワークロードバランサーの作業アイテムを更新
+
+{{highlighted-preview}}
 
 タスクまたはイシューの概要パネルを使用して、その項目の重要な情報を更新できます。ワークロードバランサー内
 
@@ -72,7 +74,7 @@ ht-degree: 100%
 
    または
 
-   **概要を開く**&#x200B;アイコン ![](assets/summary-panel-icon.png) をクリックし、タスクまたはイシューのバーをクリックして、概要パネルを開きます。
+   クリック **概要を開く** アイコン ![](assets/summary-panel-icon.png)をクリックし、タスクまたはイシューのバーをクリックして、サマリパネルを開きます。
 
    または
 
@@ -80,7 +82,15 @@ ht-degree: 100%
 
    右側に概要パネルが開きます。
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   プレビュー環境の Summary パネルの例：
+   ![概要パネル](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   実稼動環境の Summary パネルの例：
+   ![概要パネル](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. 作業項目の多数のフィールドを変更したり、更新を入力したり、ここから Workfront の他のエリアに移動してドキュメントや他の情報を作業項目に追加したりします。
 
