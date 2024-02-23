@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 82%
+source-wordcount: '335'
+ht-degree: 79%
 
 ---
 
@@ -86,7 +86,7 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
   </tr> 
   <tr> 
    <td>ユーザーの環境設定</td> 
-   <td> <p>システムのデフォルトに戻しました</p> <p>電子メール通知がシステムのデフォルトに戻ります。</p> </td> 
+   <td> <p>システムのデフォルトに戻しました</p> <p>電子メール通知がシステムのデフォルトに戻ります。 デフォルトの通知は、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfrontで使用可能なイベント通知</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>ユーザー定義のカスタムタブ</td> 
