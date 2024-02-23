@@ -6,10 +6,10 @@ description: '[!UICONTROL ボード]ダッシュボードから、ボードを�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
+source-git-commit: b76d9ec49e28a186286e6ac2d2df3fcc3360c2d8
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 80%
+source-wordcount: '772'
+ht-degree: 79%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 80%
 
       >[!NOTE]
       >
-      >ボードに 1,000 枚を超えるカードがある場合は、ボードのパフォーマンスが影響を受けます。
+      >ダイナミックボードのカード上限は、1,000 タスクと 1,000 問題で、合計 2,000 枚です。 ボード上のカードの数が多いと、ボードのパフォーマンスに影響を与える可能性があります。
 
    1. （オプション）「 」を選択します。 [!UICONTROL **完了したカードをアーカイブしない**] 完了したタスクと問題を、完了したカードとして「完了」列に表示されるカードとしてボードに取り込む場合。 このオプションを選択しない場合、ボード作成時に完了したカードは、アーカイブされたカードとしてボードに取り込まれます。
 
