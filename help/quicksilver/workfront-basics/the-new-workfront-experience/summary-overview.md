@@ -5,14 +5,16 @@ description: 概要パネルを使用すると、タスクやイシュー、ド�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 96%
+source-wordcount: '970'
+ht-degree: 92%
 
 ---
 
 # [!UICONTROL 概要]パネルについて
+
+{{highlighted-preview}}
 
 [!UICONTROL 概要]パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する [!DNL Adobe Workfront] の他のエリアから直接、作業アイテムの情報を確認および更新できます。
 
@@ -117,7 +119,15 @@ ht-degree: 96%
    >
    >[!UICONTROL 概要]パネルで詳細を表示するとき、選択できるタスクまたはイシューは一度に 1 つだけです。
 
+   <div class="preview">
+
+   プレビュー環境の Summary パネルの例：
    ![概要パネル](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   実稼動環境の Summary パネルの例：
+   ![概要パネル](assets/summary-panel-for-task.png)
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
@@ -143,7 +153,15 @@ ht-degree: 96%
 
 [!UICONTROL 概要]の「[!UICONTROL 更新]」セクションを使用すると、最近の更新を表示したり、選択したタスクまたはイシューを更新したりできます。「**[!UICONTROL すべて表示]**」をクリックすると、タスクの「[!UICONTROL 更新]」タブに直接移動できます。
 
+<div class="preview">
+
+プレビュー環境での更新の例：
 ![概要パネルの「更新」セクション](assets/summary-updates-section.png)
+
+</div>
+
+実稼動環境での更新の例：
+![概要パネルの「更新」セクション](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL ドキュメント]
 
