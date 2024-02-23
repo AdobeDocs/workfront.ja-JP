@@ -4,10 +4,10 @@ description: 2024 年第 2 四半期管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
+source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 16%
+source-wordcount: '294'
+ht-degree: 10%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 16%
 
 2024 年第 2 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-<!--## Attribute mapping now available for organizations that have migrated to Adobe IMS
+## Adobe IMSに移行した組織で、属性マッピングが使用できるようになりました。
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for all customers: February 22, 2024
+>プレビューリリース：2024 年 2 月 22 日、全顧客の実稼動環境：2024 年 2 月 22 日
 
-Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.
+Workfrontシステム管理者は、Adobe IMSに移行した組織のユーザー属性マッピングを設定できるようになりました。 これにより、ユーザー情報が組織の SSO（シングルサインオン）プロバイダーからWorkfrontに渡されるので、ユーザーのデータをWorkfrontと SSO プロバイダーの両方に入力する必要がなくなります。
 
-Previously, this functionality was only available to organizations that had not yet been onboarded to Adobe IMS.
+以前は、この機能はまだAdobe IMSにオンボーディングされていない組織でのみ使用できました。
 
-For instructions on configuring attribute mapping, see **Map user attributes in the Adobe unified experience** in the article [Map user attributes and auto-provision new users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).-->
+属性マッピングの設定手順については、 **Unified Experience でのAdobe属性のマッピング** 記事内 [ユーザー属性のマッピングと新しいユーザーの自動プロビジョニング](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## スキップロジックと表示ロジックが、フォームデザイナーベータ版で使用できるようになりました。
 

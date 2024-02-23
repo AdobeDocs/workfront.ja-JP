@@ -4,10 +4,10 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a8637365a09b6e426b93a99a636af9f48fdfd888
+source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 35%
+source-wordcount: '1013'
+ht-degree: 33%
 
 ---
 
@@ -54,22 +54,22 @@ ht-degree: 35%
                         </p>
                     </td>
                 </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe IMSに移行した組織で、属性マッピングが使用できるようになりました。</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfrontシステム管理者は、Adobe IMSに移行した組織のユーザー属性マッピングを設定できるようになりました。 これにより、ユーザー情報が組織の SSO（シングルサインオン）プロバイダーからWorkfrontに渡されるので、ユーザーのデータをWorkfrontと SSO プロバイダーの両方に入力する必要がなくなります。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: February 22, 2024</p>
+                                <p>プレビューリリース：2024年2月22日</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース： 2024 年 2 月 23 日</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->                
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">スキップロジックと表示ロジックが、フォームデザイナーベータ版で使用できるようになりました。</a></p>
