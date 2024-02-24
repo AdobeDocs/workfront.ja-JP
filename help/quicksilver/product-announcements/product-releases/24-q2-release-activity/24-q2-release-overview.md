@@ -4,10 +4,10 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 33%
+source-wordcount: '1026'
+ht-degree: 32%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 33%
 * [管理者機能の強化](#administrator-enhancements)
 * [ホームの機能強化](#home-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+* [ストリームと通知の機能強化の更新](#update-stream-and-notification-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
@@ -184,7 +185,7 @@ ht-degree: 33%
            </tbody>
         </table>
 
-### その他の機能強化
+### ストリームと通知の機能強化の更新
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ ht-degree: 33%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「ストリームを更新」タブ</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>コメントとシステムアクティビティログの両方を時系列でまとめた表示にするために、すべてのオブジェクトの「更新」領域に 3 番目のタブを追加します。 「すべて」タブは、1 つのまとまったストリームで、ユーザコメントとシステムアクティビティコメントの両方を取り込みます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「ストリームを更新」タブ</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>コメントとシステムアクティビティログの両方を時系列でまとめた表示にするために、すべてのオブジェクトの「更新」領域に 3 番目のタブを追加します。 「すべて」タブは、1 つのまとまったストリームで、ユーザコメントとシステムアクティビティコメントの両方を取り込みます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -220,7 +221,7 @@ ht-degree: 33%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">概要パネルで新しいコメントストリームを利用できるようになりました。</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>タスクおよび問題リストの概要パネルに新しいコメント機能が追加されました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">概要パネルで新しいコメントストリームを利用できるようになりました。</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>タスクおよび問題リストの概要パネルに新しいコメント機能が追加されました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -234,6 +235,25 @@ ht-degree: 33%
                                 <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### その他の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
