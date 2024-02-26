@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
-workflow-type: ht
-source-wordcount: '1462'
+source-git-commit: b872ae1f712aa1b5af9ef73b87c5fbd51697626e
+workflow-type: tm+mt
+source-wordcount: '1476'
 ht-degree: 100%
 
 ---
@@ -278,12 +278,7 @@ ht-degree: 100%
 ダウンロードした Workfront.xlsx ファイルを開きます。「PROJ」プロジェクトシートに移動します。
 
 ![](assets/im2-350x14.png)\
-Workfront で以前にプロジェクトを作成していなければ、空であるはずです。\
-![](assets/im3-350x37.png)
-
->[!NOTE]
->
->スプレッドシートのウィンドウ枠の固定ツールを使用するか、不要な列を非表示にしたり削除したりすると、シートが使いやすくなります。ただし、必須の列や後で使用する列を削除しないように注意してください。
+Workfront で以前にプロジェクトを作成していなければ、空であるはずです。
 
 ![](assets/im10-350x42.png)
 
@@ -353,7 +348,7 @@ setDuration フィールドにタスクの時間数、日数、週数または�
   | 時間 | H |
   | 日 | D |
   | 週 | W |
-  | 月 | T |
+  | か月 | T |
 
   分は時間単位の小数として表すこともできます（例：分 = 5 時間）
 
