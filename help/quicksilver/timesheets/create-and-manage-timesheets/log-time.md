@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
 source-wordcount: '3526'
 ht-degree: 87%
@@ -51,7 +51,7 @@ Workfront にログインできる時間の種類について詳しくは、[時
    <li>プロジェクト、タスク、またはイシューの時間を記録をするにはワーク以上</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>時間を記録する作業アイテムのタイプへのアクセスを編集 </p> <p>例えば、イシューの発生時間を記録するには、イシューに対する編集アクセス権が必要です。</p> </td> 
   </tr> 
   <tr> 

@@ -7,14 +7,16 @@ description: この記事では、Adobe Workfront のタイムシートのレイ
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 76%
+source-wordcount: '1066'
+ht-degree: 75%
 
 ---
 
 # タイムシートレイアウトの概要
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -119,6 +121,14 @@ ht-degree: 76%
 
 ## 左パネルの更新エリア
 
+<div class="preview">
+
+プレビュー環境の例：
+![左側のタイムシートパネルの更新領域](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+実稼動環境の例：
 ![左側のタイムシートパネルの更新領域](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 タイムシートにコメントを付けて、タイムシートの左側のパネルにある [ 更新 ] セクションで、タイムシートの承認者や他のユーザーと連絡を取ることができます。

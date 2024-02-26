@@ -6,14 +6,16 @@ description: Adobe Workfront Goals で表示できるすべての目標にコメ
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 72%
+source-wordcount: '1172'
+ht-degree: 68%
 
 ---
 
 # Adobe Workfront Goals での目標コメントの管理
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -99,6 +101,14 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 1. 左側のパネルの「**更新**」をクリックします。
 1. （オプション）既存のコメントを検索するには、キーワードの入力を開始します <!--or a user's name--> （内） **検索** ボックス **コメント** タブをクリックします。
 
+   <div class="preview">
+
+   プレビュー環境の例：
+   ![コメントを検索](assets/search-for-update-goals-2.png)
+
+   </div>
+
+   実稼動環境の例：
    ![](assets/search-field-in-updates-tab-goals.png)
 
    キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
@@ -107,15 +117,22 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 
    >[!NOTE]
    >
-   >   コメントまたは返信に含まれる単語を検索する必要があります。 タグ付きユーザーまたはチームは検索できません。
+   >コメントまたは返信に含まれる単語を検索する必要があります。 タグ付きユーザーまたはチームは検索できません。
 
+   詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-   詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
-
-1. 次をクリック： **x** アイコンを使用して検索結果を消去し、完了時に戻ることができます。
+1. 次をクリック： **x** アイコンを使用して検索結果を消去し、更新の完了に戻ることができます。
 1. 更新エリアの左上隅にある「**コメント**」タブをクリックします。
 1. 「**新規コメント**」ボックスにコメントを入力し始めます。
 
+   <div class="preview">
+
+   プレビュー環境の新しいコメントボックスの例：
+   ![新しいコメントボックス](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   実稼動環境の新しいコメントボックスの例：
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -140,7 +157,7 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
    >あなたが更新している同じ項目に別のユーザーがコメントを送信すると、新しいコメントを知らせる「新規」指標が付いた赤い線が表示され、画面の下部に 新しいコメントの数を示す青い通知が表示されます。
    >
    >指標は、コメントが項目に送信された後にのみ表示され、コメントの構成中には表示されません。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. （オプション）コメントを編集するには、「いいね！」アイコンの右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) 、「**編集**」の順にクリックします。
 1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除を行います。
@@ -172,4 +189,6 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 1. （オプション）**次に類似**&#x200B;アイコン ![](assets/like-icon.png) をクリックして、他のユーザー追加したコメントに「いいね！」します。アイコンは「いいね！」の数に応じて更新されます。
 
 1. （オプション）「**システムアクティビティ**」タブをクリックして、システムによって記録された更新を表示します。目標が更新されると、Workfront はその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。Workfront は、結果、アクティビティ、またはプロジェクトが目標に追加されたときや、結果が更新されたときに、システムアップデートも記録します。<!--ensure the casing on the tab has not changed-->
+
+1. <span class="preview">（オプション） **すべて** タブを使用して、ユーザーコメントとシステムアクティビティコメントの両方を 1 か所で表示できます。 「すべて」タブでコメントに返信するには、 **コメントで返信** をクリックして、「コメント」タブでコメントを開きます。 「すべて」タブでは返信できません。</span>
 
