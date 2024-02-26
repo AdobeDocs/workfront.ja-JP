@@ -6,14 +6,16 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
 workflow-type: tm+mt
-source-wordcount: '4110'
-ht-degree: 59%
+source-wordcount: '4226'
+ht-degree: 57%
 
 ---
 
 # 作業の更新
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -45,6 +47,8 @@ After the monthly releases to Production, the same features are also available i
 > * リストの概要パネル
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
+>
+><span class="preview">新しいコメントエクスペリエンスは、リスト、タイムシート、およびプレビュー環境のワークロードバランサーの [ 概要 ] パネルで使用できます。</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -234,8 +238,17 @@ After the monthly releases to Production, the same features are also available i
 1. （条件付き） **新しいコメント** オプションは無効です。クリックして有効にします。
 
    これにより、新しいコメントの操作が可能になります。 デフォルトでは、「**コメント**」タブが選択されています。
+
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
+   <div class="preview">
+
+   プレビュー環境の新しいコメントボックスの例：
+   ![新しいコメントボックス](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   実稼動環境の新しいコメントボックスの例：
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -304,11 +317,17 @@ After the monthly releases to Production, the same features are also available i
 
 1. （オプション）「**システムアクティビティ**」タブをクリックして、システムによって記録された更新を表示します。オブジェクトまたはその子のいずれかが更新されると、Workfront はその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。
 
-   詳しくは、[更新セクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
+   詳しくは、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
    >システム更新にコメントを追加することはできません。
+
+1. <span class="preview">（オプション） **すべて** タブを使用して、ユーザーコメントとシステムアクティビティコメントの両方を 1 か所で表示できます。 これは表示専用のタブです。</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">「すべて」タブでは、既存のコメント内のコメントに対して返信したり、他のユーザーにタグ付けしたりすることはできません。 「すべて」タブでコメントに返信するには、 **コメントで返信** をクリックして、「コメント」タブでコメントを開きます。</span>
 
 ## Workfront の更新にリッチテキストを使用{#use-rich-text-in-a-workfront-update}
 
@@ -422,8 +441,16 @@ After the monthly releases to Production, the same features are also available i
 
    >[!NOTE]
    >
-   >   検索できるのは、コメントまたは返信のテキストに属する単語のみです。 更新でタグ付けされたユーザーまたはチームの名前は検索できません。
+   >検索できるのは、コメントまたは返信のテキストに属する単語のみです。 更新でタグ付けされたユーザーまたはチームの名前は検索できません。
 
+   <div class="preview">
+
+   プレビュー環境での検索例：
+   ![更新を検索](assets/updates-all-tabs-with-search-field.png)
+
+   </div>
+
+   実稼動環境での検索の例：
    ![](assets/search-field-in-updates-tab.png)
 
    キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
