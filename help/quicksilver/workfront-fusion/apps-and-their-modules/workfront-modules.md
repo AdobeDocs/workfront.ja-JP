@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 4148e329c8cef32ea8564aace06a09aa6fa1771e
+source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
 workflow-type: tm+mt
-source-wordcount: '5824'
-ht-degree: 93%
+source-wordcount: '5935'
+ht-degree: 91%
 
 ---
 
@@ -72,22 +72,72 @@ ht-degree: 93%
 
 [!DNL Workfront] アカウントへの接続を、[!DNL Workfront Fusion] モジュール内から直接作成できます。
 
-1. 任意の [!DNL Workfront] モジュールで、「[!UICONTROL 接続]」ボックスの横にある「**[!UICONTROL 追加]**」をクリックします。
-1. インスタンスの名前を URL に入力します。例：`https://<your instance>.my.workfront.com`。
-1. 「**[!UICONTROL 次へ]**」をクリックします。
-1. 「**[!UICONTROL SAML ログイン]**」をクリックして接続を作成し、モジュールに戻ります。
+1. 任意のAdobe Authenticatorモジュールで、 **追加** 「接続」フィールドの横に表示されます。
+1. 次のフィールドに入力します。
 
-   または
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>新しい接続の名前を入力します。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL 環境 ]</td>
+        <td>
+          <p>実稼動環境と非実稼動環境のどちらに接続するかを選択します。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>サービスアカウントと個人アカウントのどちらに接続するかを選択します。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>[!DNL Workfront] クライアント ID を入力します。これは、Workfrontの「セットアップ」領域の「OAuth2 Applications」領域にあります。 接続先のアプリケーションを開き、クライアント ID を確認します。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>[!DNL Workfront] クライアント ID を入力します。これは、Workfrontの「セットアップ」領域の「OAuth2 Applications」領域にあります。 接続先のアプリケーションを開き、クライアント ID を確認します。</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>これはデフォルト値のままにすることもできますし、Workfrontインスタンスの URL を入力した後に <code>/integrations/oauth2</code>. <p>例： <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL ホストプレフィックス ]</td>
+        <td>ほとんどの場合、この値は <code>origin</code>.
+      </tr>
+    </tbody>
+    </table>
 
-   ユーザー名とパスワードを入力し、「**[!UICONTROL ログイン]**」をクリックして、接続を作成し、モジュールに戻ります。
+1. 「**[!UICONTROL 続行]**」をクリックして接続を保存し、モジュールに戻ります。
 
-   >[!NOTE]
-   >
-   >* SAML ログインボタンが表示されない場合、組織ではシングルサインオン（SSO）が有効になっていません。ユーザー名とパスワードを使用してログインできます。
-   >   
-   >   SSO について詳しくは、[シングルサインオンの概要 [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)を参照してください。
-   >   
-   >* [!DNL Workfront] API への OAuth 2.0 接続は API キーに依存しなくなりました。
+
+
+
+<!--1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
+1. Click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
+
+   Or
+
+   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.-->
+
+>[!NOTE]
+>
+>* SAML ログインボタンが表示されない場合、組織ではシングルサインオン（SSO）が有効になっていません。ユーザー名とパスワードを使用してログインできます。
+>   
+>   SSO について詳しくは、[シングルサインオンの概要 [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)を参照してください。
+>   
+>* [!DNL Workfront] API への OAuth 2.0 接続は API キーに依存しなくなりました。
 
 ## [!DNL Workfront] モジュールとそのフィールド
 
