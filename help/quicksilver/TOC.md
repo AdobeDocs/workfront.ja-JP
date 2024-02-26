@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
 workflow-type: tm+mt
-source-wordcount: '13955'
+source-wordcount: '13959'
 ht-degree: 95%
 
 ---
@@ -2060,6 +2060,7 @@ ht-degree: 95%
       * [タイムライン表示を管理](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
+   * [統合アクセステーブルテンプレート](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
    *  Adobe Workfront Fusion の基本を学ぶ {#get-started-with-workfront-fusion}
       * [Adobe Workfront Fusion の基本を学ぶ](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion の概要](workfront-fusion/get-started/workfront-fusion-overview.md)
