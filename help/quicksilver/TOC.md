@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
+source-git-commit: 4cf52a9a11765ba5fcd34a52c3fa105811fed1e9
 workflow-type: tm+mt
-source-wordcount: '13959'
+source-wordcount: '13967'
 ht-degree: 95%
 
 ---
@@ -940,8 +940,9 @@ ht-degree: 95%
          * [Adobe Workfront アカウントの管理](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
          * [Adobe Workfront へのログイン](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
          * [Adobe Workfront からのログアウト](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-         * [招待メールの受信と Adobe Workfront のパスワードの作成](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
          * [拡張認証を使用したユーザーのパスワードのリセット](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+         * [招待メールの受信と Adobe Workfront のパスワードの作成](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+         * [でのアカウントの作成 [!DNL Adobe Workfront] 外部ユーザーとして](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
          * [パスワードをリセット](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
    * モバイルアプリ {#mobile-apps}
       * [モバイルアプリ](workfront-basics/mobile-apps/mobile-apps.md)
