@@ -6,7 +6,7 @@ title: AI を使用したモジュールの生成
 description: テキストプロンプトを入力して、プロンプトに設定する HTTP モジュールを作成できます。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 79b5baf5a9558e07b55fb810aa2d6c772faa51cf
+source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -14,6 +14,8 @@ ht-degree: 2%
 ---
 
 # AI を使用したモジュールの生成
+
+<!--DO NOT DELETE - linked through CSH-->
 
 AI を使用して、モジュールが必要なことを説明するテキストプロンプトを入力できます。 次に、目的の API の正しいエンドポイントに接続する HTTP モジュールが生成されます。
 
