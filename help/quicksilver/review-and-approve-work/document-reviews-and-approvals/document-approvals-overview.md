@@ -6,10 +6,10 @@ description: 既に承認待ちのドキュメントに、追加の承認者ま�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 90%
 
 ---
 
@@ -51,6 +51,6 @@ ht-degree: 100%
 
 ## 新しいドキュメント承認の使用
 
-ドキュメント承認を作成または管理したいユーザーについては、[ドキュメント承認を管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)に一覧表示されている記事を参照してください。
+ドキュメント承認の作成または管理をおこなうユーザー向けに、 [ドキュメントの承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
-リクエストを受け取ったドキュメントをレビューまたは承認したいユーザーについては、[ドキュメントをレビューおよび承認](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)に一覧表示されている記事を参照してください。
+リクエストを受け取ったドキュメントを確認または承認する場合は、 [ドキュメントのレビュー：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
