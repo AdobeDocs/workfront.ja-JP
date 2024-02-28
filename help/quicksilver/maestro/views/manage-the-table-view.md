@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 4%
 
 ---
@@ -409,6 +409,8 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 * 作成した並べ替えは、移動しても保持されます。
 
 * レコードタイプのテーブルビューに表示されている数だけフィールドを並べ替えることができます。
+
+* リンクされたフィールドは、単一の値を許可する場合、または集計オプションが選択された状態で複数の値を選択できる場合（合計、平均、最大、最小）にのみ並べ替え可能です。
 
 * 並べ替え基準を削除すると、自分と同じレコードタイプにアクセスするすべてのユーザーから削除され、使用したのと同じビューが使用されます。
 
