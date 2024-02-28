@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 27833c61ce7ff0ba14cf6edb535057f56e98516e
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 * [ [!DNL Adobe Workfront Fusion] でのシナリオのスケジュール](../../workfront-fusion/scenarios/schedule-a-scenario.md)
 * [ [!DNL Adobe Workfront Fusion] でのシナリオのアクティブ化または非アクティブ化](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
 * [ [!DNL Adobe Workfront Fusion] のシナリオへのフィルターの追加](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
+* [AI を使用したモジュールの生成](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
 * [ [!DNL Adobe Workfront Fusion]  開発ツールを使用したシナリオのデバッグ](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
 * [シナリオのテンプレート](../../workfront-fusion/scenarios/templates/fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] シナリオの例：メール、[!UICONTROL テキストパーサー]、 [!DNL Google Sheets] を接続](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
