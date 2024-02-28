@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 新規ユーザーへのメール招待の管理
 description: Adobe Workfront 管理者は、招待メールを使用してユーザーを Workfront に追加し、追加されたことをユーザーに通知することができます。
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 9bcd792139f8f2f0198da943e5c63a2add32e856
-workflow-type: ht
-source-wordcount: '947'
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+workflow-type: tm+mt
+source-wordcount: '948'
 ht-degree: 100%
 
 ---

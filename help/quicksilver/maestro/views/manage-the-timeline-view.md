@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 0%
+source-wordcount: '1658'
+ht-degree: 3%
 
 ---
 
@@ -55,13 +55,13 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -207,13 +207,9 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 1. 記事の説明に従って、レコードタイプのタイムラインビューを作成します。 [レコードビューの管理](../views/manage-record-views.md).
 1. クリック **グループ化** をクリックします。
 
-   ![](assets/grouping-ui-timeline-view.png)
+   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 推奨フィールドの 1 つをクリックするか、 **別のフィールドを選択**」で別のフィールドを検索し、リストに表示されたらクリックします。
-
-   >[!TIP]
-   >
-   >リンクされたフィールドは選択できません。
 
    グループ化はタイムラインに自動的に適用され、レコードはグループ化ボックス内に表示されます。
 
@@ -247,7 +243,7 @@ this is not possible right now; if this is the same functionality as the table v
 タイムライン表示設定を更新して、ビューのタイムラインセクションに情報が表示される内容と方法を指定します。
 
 1. 記事の説明に従って、レコードタイプのタイムラインビューを作成します。 [レコードビューの管理](../views/manage-record-views.md).
-1. クリック **設定**.
+1. 「**設定**」をクリックします。
 1. クリック **日時** 左のパネルで、 **開始日** および **終了日** をクリックしてタイムラインに表示します。 デフォルトの開始日と終了日を選択するか、使用可能な任意の日付フィールドを選択できます。 レコードの開始日を表すバーは、[ 開始日 ] に指定した日付に開始し、[ 終了日 ] に対応する日付に終了します。
 
    >[!NOTE]

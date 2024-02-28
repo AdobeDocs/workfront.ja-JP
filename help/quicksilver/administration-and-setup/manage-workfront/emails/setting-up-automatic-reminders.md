@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 自動リマインダーを設定
 description: 自動リマインダーを設定
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
-workflow-type: ht
-source-wordcount: '609'
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+workflow-type: tm+mt
+source-wordcount: '611'
 ht-degree: 100%
 
 ---

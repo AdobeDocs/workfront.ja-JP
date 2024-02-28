@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: メール
 description: Adobe Workfront のメールは、通知、リマインダーおよびユーザーの招待状で構成されます。システム管理者は、メール設定の多くを担当する責任者ですが、他のユーザーは（アクセスレベルに応じて）、メール機能を使用して作業に関する独自の通信を管理するメリットを得ることができます。
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 96%

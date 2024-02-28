@@ -5,11 +5,11 @@ keywords: 変更,メール,通知,設定,一括,一括編集,設定,複数,ユ�
 navigation-topic: emails-administration
 title: 複数のユーザーの電子メール通知設定を変更する
 description: この記事では、Workfrontまたはグループ管理者が他のユーザーの電子メール通知を更新する方法について説明します。
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 82%

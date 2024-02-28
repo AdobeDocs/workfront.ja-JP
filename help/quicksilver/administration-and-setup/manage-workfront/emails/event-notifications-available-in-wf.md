@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: イベント通知タイプ
 description: イベント通知は、プロジェクト、タスク、イシューなどのオブジェクトに関する様々なタイプのイベントによってトリガーされる電子メールです。 この記事では、使用可能なイベント通知のタイプを示し、説明します。
-author: Lisa, Nolan
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '5121'
 ht-degree: 85%
