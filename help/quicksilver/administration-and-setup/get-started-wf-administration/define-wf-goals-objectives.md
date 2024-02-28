@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 73%
+source-wordcount: '658'
+ht-degree: 71%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Workfront を実装する場合、達成基準の原則を特定するこ�
 
 * サービスを配信するプロセスを開発し、Workfront を使用して日次または週次の責務に関連するタスクを管理します。
 * リソース管理ツールを使用して、リソースのタスクへの配分を表示し、生産性と配信品質の向上方法をより深く理解できるようにします。\
-  リソース計画について詳しくは、[Adobe Workfront でのリソース計画](../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。
+  リソース計画の詳細は、「 [リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## 達成基準の定義
 

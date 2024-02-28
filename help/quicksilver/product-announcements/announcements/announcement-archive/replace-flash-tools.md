@@ -5,10 +5,10 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 99%
+source-wordcount: '2701'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ Workfront のすべての Flash ベースのツールを削除する際には、
    * キャパシティプランナー
    * リソース見積り
    * リソースグリッド\
-     詳しくは、[Adobe Workfront でのリソースプランニング](../../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。
+     詳しくは、 [リソース計画：記事インデックス](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * プロジェクトのビジネスケースのレガシーリソースの予測エリア
 

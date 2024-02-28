@@ -7,9 +7,9 @@ description: リソース管理を使用すると、リソースの空き時間�
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 94%
 
 ---
@@ -36,7 +36,7 @@ Workfront には、リソースの管理に使用されるツールが数セッ�
 
    * **リソースプランナー**：リソース管理の最初のステージでリソースプランナーを使用して、予定の空き時間に応じて、リソースのプロジェクト時間を計上できます。リソースの計画段階では、リソースプール内でユーザーを編成し、複数のリソースプールをプロジェクトに割り当てることができます。
 
-     リソース計画の詳細は、「 [Adobe Workfrontでのリソース計画](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     リソース計画の詳細は、「 [リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **シナリオプランナー**：これはリソースのより高度なレベルの計画で、1 年、3 年、5 年にまたがる計画の複数のイニシアチブにわたってリソースを管理でき、複数のプロジェクトを含めることができます。最適なシナリオを使用して、空き時間と予算を最大限に活用できます。
 
@@ -118,7 +118,7 @@ Workfront でのリソース管理プロセスには、以下の段階があり�
 
   リソース計画と作業の割り当てについて詳しくは、以下の節を参照してください。
 
-   * [Adobe Workfront でのリソース計画](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront シナリオプランナー](../../scenario-planner/scenario-planning.md)
    * [ワークロードバランサー：記事インデックス](../../resource-mgmt/workload-balancer/workload-balancer.md)
 

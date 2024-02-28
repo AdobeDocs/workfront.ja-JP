@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 76%
+source-wordcount: '1396'
+ht-degree: 74%
 
 ---
 
@@ -153,5 +153,5 @@ ht-degree: 76%
    * 各タスクの予定時間数を短縮します。
    * タスクに割り当てられた時間内にタスクを完了できるよう、タスクにユーザーを追加します。
    * 他の制約を持たない使用可能なユーザーにタスクを再割り当てします。\
-     プロジェクトリソースの計画について詳しくは、[Adobe Workfront でのリソース計画](../../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。\
+     プロジェクトリソースの計画の詳細については、「 [リソース計画：記事インデックス](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      プロジェクトで作業を遂行するためのリソースのスケジュール設定について詳しくは、 [ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

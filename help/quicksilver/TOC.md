@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 42a697704cb34699c5d09bd2b710dcc33092d05a
+source-git-commit: 7348dc78f61708fce7508bdef0f4b650814ad71b
 workflow-type: tm+mt
-source-wordcount: '13972'
+source-wordcount: '13971'
 ht-degree: 95%
 
 ---
@@ -1728,7 +1728,7 @@ ht-degree: 95%
       * [リソース管理](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [リソース管理 の概要](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Adobe Workfront でのリソース計画 {#resource-planning-in-adobe-workfront}
-      * [Adobe Workfront でのリソース計画](resource-mgmt/resource-planning/resource-planning-overview.md)
+      * [リソース計画：記事インデックス](resource-mgmt/resource-planning/resource-planning-overview.md)
       * リソースプール {#resource-pools}
          * [リソースプール](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
          * [リソースプールの概要](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
