@@ -6,14 +6,16 @@ description: Workfront の既存のタスクやイシューに接続するカー
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 91%
+source-wordcount: '1447'
+ht-degree: 88%
 
 ---
 
 # ボードでの接続済みカードの使用
+
+<!-- Audited: 2/2024 -->
 
 [!DNL Workfront] の既存のタスクとイシューに接続するカードをボードに追加できます。
 
@@ -39,29 +41,33 @@ ht-degree: 91%
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td>
+   <p>新規：寄稿者以上</p>
+   <p>または</p>
+   <p>現在：リクエスト以降</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td>
-   <td><p>タスクとイシューに対する [!UICONTROL View] 以上のアクセス権</p></td>
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td>
+   <td><p>タスクおよび問題へのアクセス権を表示または高くする</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>オブジェクト権限</strong></td>
-   <td><p>Workfront タスクまたはイシューに対する [!UICONTROL View] 以上の権限</p></td>
+   <td><p>Workfrontのタスクまたは問題に対する権限を表示またはそれ以上に設定します</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 接続されているカードを追加する
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**[!UICONTROL ボード]**」をクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックして、「**[!UICONTROL ボード]**」をクリックします。
 1. ボードにアクセスします。詳しくは、[ボードを作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL カードを追加]／[!UICONTROL 接続されているカード]**&#x200B;をクリックします。
 1. プロジェクトを選択し、ボードにカードとして追加するタスクまたはイシューを選択します。
