@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion マッピングパネルでは、以下の�
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '1911'
+source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
+workflow-type: tm+mt
+source-wordcount: '1992'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -44,9 +44,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランの場合、この記事で説明する機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -157,12 +157,12 @@ ht-degree: 100%
   <tr> 
    <td>[!UICONTROL timezone] </td> 
    <td>テキスト </td> 
-   <td> <p>（オプション）変換で使用されるタイムゾーンを指定できます。 </p> <p>認識されるタイムゾーンのリストについては、Wikipedia の <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zones</a> で「TZ database name」列を参照してください。この列にリスト表示されている値のみが、関数により有効なタイムゾーンとして認識されます。その他の値は無視され、代わりにプロファイルで指定されたシナリオタイムゾーンが使用されます。詳しくは、<a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Adobe Workfront Fusion でのプロファイル設定の変更</a>の記事を参照してください。</p> <p>このパラメーターを省略した場合、プロファイル設定で指定されたシナリオタイムゾーンが適用されます。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>（オプション）変換で使用されるタイムゾーンを指定できます。 </p> <p>認識されるタイムゾーンのリストについては、Wikipedia の <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">tz データベースのタイムゾーンのリスト</a>にある「TZ database name」列を参照してください。この列にリスト表示されている値のみが、関数により有効なタイムゾーンとして認識されます。その他の値は無視され、代わりにプロファイルで指定されたシナリオタイムゾーンが使用されます。詳しくは、<a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Adobe Workfront Fusion でのプロファイル設定の変更</a>の記事を参照してください。</p> <p>このパラメーターを省略した場合、プロファイル設定で指定されたシナリオタイムゾーンが適用されます。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>Europe/Prague</code>、 <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-異なるタイプを指定した場合、型強制が適用されます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md) での強制型変換を参照してください。
+異なるタイプを指定した場合、型強制が適用されます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md) での型強制を参照してください。
 
 ### 戻り値とタイプ
 
@@ -186,7 +186,7 @@ ht-degree: 100%
 >
 >* `parseDate(1482940986;X)`
 >
->  戻り値：2016-12-28T16:03:06.000Z
+>   戻り値：2016-12-28T16:03:06.000Z
 
 ## [!UICONTROL addDays (date; number)] {#adddays-date-number}
 
@@ -448,7 +448,7 @@ Date1 から Date2 が減算されます。
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)`
 >
->    戻り値：`4`
+>    `4` を返します
 >
 >* `dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)`
 >
