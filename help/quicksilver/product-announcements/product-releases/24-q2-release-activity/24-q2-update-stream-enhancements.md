@@ -4,10 +4,10 @@ description: 2024 年第 2 四半期の更新ストリームと通知の機能�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,19 @@ ht-degree: 2%
 このページでは、2024 年第 2 四半期のリリースでプレビュー環境に対しておこなわれたすべての更新ストリームおよび通知の機能強化について説明します。 これらの機能強化は、前述のとおり、実稼動環境で利用できるようになります。
 
 2024 年第 2 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 新しいコメントエクスペリエンスで利用可能な追加のコメント入力情報
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 2 月 29 日、高速リリース用の実稼動：24.3 リリース（2024 年 3 月 14 日）、すべてのお客様向けの実稼動：24.4 リリース（2024 年 4 月）
+
+新しいコメント作成機能で、次の機能が強化されました。
+
+* コメントの名前をクリックすると、その名前、役割、および電子メールアドレスが情報ボックスに表示されます。 同じ名前のユーザーが複数存在する場合、この情報は正しいユーザーを識別するのに役立ちます。 情報ボックスでコメントの名前をクリックすると、ユーザープロファイルが開きます。
+* コメントテキストでメンションされると、タグ付けされたコメント内でユーザー名がハイライト表示されます。
+
+詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ## コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「ストリームを更新」タブ
 
