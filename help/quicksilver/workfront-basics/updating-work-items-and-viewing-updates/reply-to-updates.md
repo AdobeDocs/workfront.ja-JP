@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 71%
@@ -101,9 +101,9 @@ ht-degree: 71%
 1. 返信を追加するオブジェクトに移動します。
 1. 「**更新**」、オブジェクトの「**コメント**」タブの順にクリックし、返信するコメントまたは返信を探します。
 
->[!NOTE]
->
-><span class="preview">「すべて」タブでコメントに返信するには、 **コメントで返信** をクリックして、「コメント」タブでコメントを開きます。 「すべて」タブでは返信できません。</span>
+   >[!NOTE]
+   >
+   ><span class="preview">「すべて」タブでコメントに返信するには、 **コメントで返信** をクリックして、「コメント」タブでコメントを開きます。 「すべて」タブでは返信できません。</span>
 
 1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** 返信先のコメントの右上隅にあるメニューで、 **見積もりの返信**. 以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
 1. 「**返信**」をクリックします。

@@ -6,9 +6,9 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 19f6584b507af19b8af5bc6646602393acd41079
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '4226'
+source-wordcount: '4257'
 ht-degree: 57%
 
 ---
@@ -315,6 +315,7 @@ After the monthly releases to Production, the same features are also available i
    >
    >最初の 2 つのタグ付きエンティティの名前が、アバターの横に表示されます。 3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前と追加エンティティの数のみが表示されます。
 
+1. <span class="preview"> （オプション）コメントの名前をクリックして、情報ボックスにその名前、役割、電子メールアドレスを表示します。 情報ボックスでコメントの名前を再度クリックして、ユーザープロファイルを開きます。</span>
 1. （オプション）「**システムアクティビティ**」タブをクリックして、システムによって記録された更新を表示します。オブジェクトまたはその子のいずれかが更新されると、Workfront はその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。
 
    詳しくは、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).

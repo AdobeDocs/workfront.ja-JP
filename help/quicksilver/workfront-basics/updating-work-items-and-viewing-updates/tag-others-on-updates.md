@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクトにアップデートコメント
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 76%
+source-wordcount: '1637'
+ht-degree: 75%
 
 ---
 
@@ -160,6 +160,8 @@ ht-degree: 76%
    タグ付きエンティティの名前は、アバターの横に、最大 2 つのエンティティまで表示されます。 3 つ以上のエンティティがタグ付けされている場合、最初のエンティティの名前が表示され、さらにタグ付けされたエンティティの数も表示されます。
 
    ![](assets/members-icons-expanded-unshimmed.png)
+
+   <span class="preview">コメントテキストでタグ付けされると、それらのコメント内でユーザ名がハイライト表示されます。</span>
 
    作業項目の更新時に使用できる追加機能について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
