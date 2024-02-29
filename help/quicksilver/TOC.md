@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 4adb7fa30f9c1c921727d1a5930318f59ed8af9e
+source-git-commit: 3d4bb2d99bd2942f29bf25434f5554cee5c79553
 workflow-type: tm+mt
 source-wordcount: '13989'
 ht-degree: 94%
@@ -1797,7 +1797,7 @@ ht-degree: 94%
          * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Workfrontと Frame.io を接続](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
          * [接続されたWorkfrontプロジェクトへの Frame.io アセットの追加](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * [ドキュメントを承認]{#approve-documents}
+      * ドキュメントを承認 {#approve-documents}
          * [ドキュメントの承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
          * [ドキュメントの承認の作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [ドキュメントにレビュアーまたは承認者を追加する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
