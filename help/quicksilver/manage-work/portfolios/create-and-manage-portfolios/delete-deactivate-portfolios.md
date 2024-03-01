@@ -6,16 +6,16 @@ description: ポートフォリオとは、Adobe Workfront のプロジェクト
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 83%
+source-wordcount: '408'
+ht-degree: 86%
 
 ---
 
 # ポートフォリオを削除および非アクティブ化する
 
-<!--Audited: 01/2024-->
+<!--Audited: 2/2024-->
 
 ポートフォリオとは、[!DNL Adobe Workfront] のプロジェクトやプログラムを集めたものです。ポートフォリオがシステムに無関係な場合は、ポートフォリオを削除または非アクティブ化できます。
 
@@ -30,26 +30,26 @@ ht-degree: 83%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> <p>新規： [!UICONTROL Standard] </p>
    <p>現在： [!UICONTROL プラン ] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよびポートフォリオへのアクセスの [!UICONTROL Edit]</p> <p><b>メモ</b></p> <p> アクセス権がない場合は、 [!DNL Workfront] 管理者（アクセスレベルに追加の制限を設定している場合） [!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトおよびポートフォリオへのアクセスの [!UICONTROL Edit]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオに対する [!UICONTROL Manage] 権限 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオに対する [!UICONTROL Manage] 権限 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## ポートフォリオの削除と非アクティブ化の概要
 
@@ -71,18 +71,16 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->の方法に応じて [!DNL Workfront] または、グループ管理者がレイアウトテンプレートを設定する場合は、 [!UICONTROL Portfolio] 領域が [!UICONTROL メインメニュー]. 詳しくは、 [レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+>の方法に応じて [!DNL Workfront] または、グループ管理者がレイアウトテンプレートを設定する場合は、 [!UICONTROL Portfolio] 領域が [!UICONTROL メインメニュー]. 詳細情報については、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
-
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオの名前をクリックします。
 1. 次をクリック： **その他** メニュー ![](assets/more-icon.png) ポートフォリオ名の右にあるをクリックし、 **[!UICONTROL 非アクティブ化Portfolio]**.
 
 ## ポートフォリオの削除
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
-
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオを選択し、****[!UICONTROL 削除]アイコン ![](assets/delete.png) をクリックします。
 1. 表示されるボックスで、「**[!UICONTROL はい、削除します]**」をクリックして確定します。

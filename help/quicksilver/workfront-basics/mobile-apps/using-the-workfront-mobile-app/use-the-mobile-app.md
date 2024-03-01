@@ -7,14 +7,16 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 95%
 
 ---
 
-# [!DNL Adobe Workfront] モバイルアプリの使用
+# 以下を使用します。 [!DNL Adobe Workfront] モバイルアプリ：記事インデックス
+
+<!-- Audited: 2/2024 -->
 
 iOS または Android デバイスで使用可能な [!DNL Adobe Workfront's] モバイルアプリで、組織内のチームや個人のエンゲージメントを加速し業務を効率化できます。このアプリでは以下が可能です。
 
@@ -38,7 +40,7 @@ iOS または Android デバイスで使用可能な [!DNL Adobe Workfront's] �
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront] モバイルアプリは [!DNL Workfront Proof] アプリに代わるものです。後者は既にサポートが終了しており、10月の 23.10 リリースで完全に削除される予定です。[!DNL Workfront] ユーザーは、プルーフのレビューと承認を実施する際には、[!DNL Adobe Workfront] モバイルアプリを使用してください。
+>The [!DNL Adobe Workfront] モバイルアプリが [!DNL Workfront Proof] アプリを使用します。 [!DNL Workfront] ユーザーは、プルーフのレビューと承認を実施する際には、[!DNL Adobe Workfront] モバイルアプリを使用してください。
 
 [!DNL Adobe Workfront] モバイルアプリについて詳しくは、以下の記事を参照ください。
 

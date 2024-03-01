@@ -9,14 +9,16 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
-workflow-type: ht
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
 ---
 
 # 新しいライセンスによるオブジェクトやエリアへのアクセス
+
+<!-- Audited: 2/2024 -->
 
 次の表に、各 Adobe Workfront ライセンスで Workfront のオブジェクトとエリアに対して許可されている最高レベルのアクセス（編集または表示）を示します。
 

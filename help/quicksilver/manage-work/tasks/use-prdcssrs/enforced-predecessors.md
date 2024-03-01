@@ -6,14 +6,16 @@ description: 先行タスクとは、他のタスクの完了に依存するタ�
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '530'
-ht-degree: 100%
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 96%
 
 ---
 
 # 先行タスクを強制的に実行
+
+<!-- Audited: 2/2024 -->
 
 先行タスクとは、他のタスクの完了に依存するタスクのことです。先行タスクの関係は、タスクの開始日と完了日に影響し、最終的にはプロジェクトのタイムラインに影響を与えます。
 
@@ -42,25 +44,29 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>
+      <p>新規：標準</p> 
+      <p>または</p>
+      <p>現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクおよびプロジェクトに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td><p>タスクおよびプロジェクトに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## タスクレベルで先行タスクを強制的に実行する
 
