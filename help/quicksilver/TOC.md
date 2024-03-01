@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
+source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
 workflow-type: tm+mt
-source-wordcount: '13992'
+source-wordcount: '13996'
 ht-degree: 94%
 
 ---
@@ -2018,8 +2018,8 @@ ht-degree: 94%
       * [Adobe Workfront Goals の通知を有効にする](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobeマエストロ {#adobe-maestro}
    * [Adobeマエストロ情報](maestro/maestro-information.md)
-   * [Adobeマエストロの概要](maestro/maestro-overview.md)
-   * [Adobeマエストロリリースアクティビティ](maestro/release-activity.md)
+   * [Adobe Workfront planning capabilities の概要](maestro/maestro-overview.md)
+   * [Adobe Workfront planning 機能リリースアクティビティ](maestro/release-activity.md)
    * Adobeマエストロのアーキテクチャ {#adobe-maestro-architecture}
       * [アーキテクチャ：記事インデックス](maestro/architecture/architecture-information.md)
       * [ワークスペースの作成](maestro/architecture/create-workspaces.md)

@@ -1,7 +1,7 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2362'
 ht-degree: 67%
 
 ---
@@ -253,13 +253,13 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe Workfrontからの新しいオファーであるAdobe・マエストロを指します。
+>この記事の情報は、Adobe Workfrontの新しいオファーであるAdobe Workfrontの計画機能に関するものです。
 >
->現在、Adobe・マエストロは、限られた数の顧客に対してオープンなベータプログラムの一部です。 Maestro 機能を使用するには、Workfrontのお客様である必要があります。
+>現在、計画機能は、限られた数のお客様に対してオープンなベータプログラムの一部です。 これらの機能を使用するには、Workfrontのユーザーである必要があります。
 >
->Maestro のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
+>計画機能のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
->マエストロについて詳しくは、 [Adobeマエストロの概要](/help/quicksilver/maestro/maestro-overview.md).
+>計画機能の詳細については、「 [Adobe Workfront planning capabilities の概要](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
