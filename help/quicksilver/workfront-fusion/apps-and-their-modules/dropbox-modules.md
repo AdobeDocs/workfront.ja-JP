@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion] シナリオでは、Dropbox を使
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '3061'
-ht-degree: 100%
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
+workflow-type: tm+mt
+source-wordcount: '3080'
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについて詳しくは、[モジュール： [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)を参照してください。
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
@@ -43,7 +43,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件がありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -51,9 +51,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織が [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は [!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明されている機能を使用するには、組織が [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,11 +61,18 @@ ht-degree: 100%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
-[!DNL Dropbox] モジュールを使用するには、[!DNL Dropbox] アカウントが必要です。
+* [!DNL Dropbox] モジュールを使用するには、[!DNL Dropbox] アカウントが必要です。
+
+>[!IMPORTANT]
+>
+>Dropboxは、50 人を超えるユーザーを持つアプリを承認する必要があります。
+>
+>詳しくは、Dropbox開発者ガイドで「実稼動の承認」を検索してください。
+
 
 ## [!DNL Dropbox] モジュールとそのフィールド
 
@@ -580,7 +587,7 @@ ht-degree: 100%
 
 #### [!UICONTROL API 呼び出しを実行]
 
-このアクションモジュールは、[!DNL Dropbox] API への認証済みのカスタム呼び出しを実行します。これにより、他の [!DNL Dropbox] モジュールで達成できないデータフローの自動化を構築できます。
+このアクションモジュールでは、[!DNL Dropbox] API への認証済みのカスタム呼び出しを実行できます。これにより、他の [!DNL Dropbox] モジュールでは不可能なデータフロー自動処理を作成できます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
@@ -598,7 +605,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP リクエストメソッド：[!DNL Adobe Workfront Fusion]</a>を参照してください。</p> </td> 
+   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers] </td> 
