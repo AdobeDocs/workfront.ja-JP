@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 3d4bb2d99bd2942f29bf25434f5554cee5c79553
+source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
 workflow-type: tm+mt
-source-wordcount: '13989'
+source-wordcount: '13992'
 ht-degree: 94%
 
 ---
@@ -2187,6 +2187,7 @@ ht-degree: 94%
       * [Adobe Journey Optimizer モジュール](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [AdobeMaestro モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Adobe PDF サービスモジュール](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+      * [Adobe Photoshopモジュール](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Adobe Target モジュール](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
       * [Airtable モジュール](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Allocadia モジュール](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
