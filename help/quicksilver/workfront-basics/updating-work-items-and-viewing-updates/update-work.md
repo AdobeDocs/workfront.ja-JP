@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '4257'
-ht-degree: 57%
+source-wordcount: '4279'
+ht-degree: 56%
 
 ---
 
@@ -322,7 +322,7 @@ After the monthly releases to Production, the same features are also available i
 
    >[!TIP]
    >
-   >システム更新にコメントを追加することはできません。
+   >システム更新にコメントを追加することはできません。 <span class="preview">ただし、従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対する返信は、「システムアクティビティ」タブに読み取り専用として設定されます。</span>
 
 1. <span class="preview">（オプション） **すべて** タブを使用して、ユーザーコメントとシステムアクティビティコメントの両方を 1 か所で表示できます。 これは表示専用のタブです。</span>
 

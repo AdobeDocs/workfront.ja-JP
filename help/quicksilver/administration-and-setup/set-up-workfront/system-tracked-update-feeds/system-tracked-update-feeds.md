@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 73%
+source-wordcount: '447'
+ht-degree: 66%
 
 ---
 
 # システムで追跡される更新
+
+{{highlighted-preview}}
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -90,6 +92,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      新しいコメントエクスペリエンスについて詳しくは、[新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 
+   * <span class="preview">新しいコメントエクスペリエンスを使用する場合、ユーザーはシステム更新にコメントを追加できません。 ただし、従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対する返信は、新しいコメント作成エクスペリエンスの「システムアクティビティ」タブに読み取り専用として入力されます。</span>
    * 従来のコメントエクスペリエンスを使用する場合、システムとユーザーの更新は 1 つの連続したフィードに表示されます。
 
    * 従来のコメントエクスペリエンスを使用する場合、ユーザーはデフォルトでシステムの更新を表示したり、表示しないように選択したりできます。 新しいコメントエクスペリエンスを使用する場合、システムの更新を無効にすることはできません。

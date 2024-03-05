@@ -7,10 +7,10 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
+source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 51%
+source-wordcount: '1332'
+ht-degree: 50%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 51%
 * 「更新」セクションには、新しいコメントエクスペリエンスの次のタブに情報が表示されます。
 
    * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-   * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前、またはカスタムフィールドの変更は、システムの更新によって取り込まれます。 Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
+   * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前、またはカスタムフィールドの変更は、システムの更新によって取り込まれます。 Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。<span class="preview">従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対しておこなわれた応答は、「システムアクティビティ」タブに読み取り専用として設定されます。</span> 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**すべて（読み取り専用）**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。 これは表示専用のタブです。 「すべて」タブでは、既存のコメント内のコメントに対して返信したり、他のユーザーにタグ付けしたりすることはできません。 特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * 次のオブジェクトには「システムアクティビティ」タブがありません <span class="preview">または「すべて」タブ</span>:
