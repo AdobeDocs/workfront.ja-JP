@@ -4,9 +4,9 @@ description: 2024 年第 2 四半期の更新ストリームと通知の機能�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,16 @@ ht-degree: 2%
 * コメントテキストでメンションされると、タグ付けされたコメント内でユーザー名がハイライト表示されます。
 
 詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+
+## 新しいコメントエクスペリエンスの「システムアクティビティ」タブでは、読み取り専用のコメントがサポートされます
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 2 月 22 日、高速リリース用の実稼動：24.3 リリース（2024 年 3 月 14 日）、すべてのお客様向けの実稼動：24.4 リリース（2024 年 4 月）
+
+従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対するコメントが、新しいコメント作成エクスペリエンスの「システムアクティビティ」タブに読み取り専用として入力されるようになりました。 新しいコメントエクスペリエンスのシステムアクティビティレコードに返信できません。
+
+詳しくは、 [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「ストリームを更新」タブ
 

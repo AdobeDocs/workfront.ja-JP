@@ -4,10 +4,10 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 26%
+source-wordcount: '1454'
+ht-degree: 25%
 
 ---
 
@@ -284,6 +284,24 @@ ht-degree: 26%
                         </ul>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスの「システムアクティビティ」タブでは、読み取り専用のコメントがサポートされます</a></p><p>従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対するコメントが、新しいコメント作成エクスペリエンスの「システムアクティビティ」タブに読み取り専用として入力されるようになりました。 新しいコメントエクスペリエンスのシステムアクティビティレコードに返信できません。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年2月22日</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月）から</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「ストリームを更新」タブ</a></p><p>コメントとシステムアクティビティログの両方を時系列でまとめた表示にするために、すべてのオブジェクトの「更新」領域に 3 番目のタブを追加します。 「すべて」タブは、1 つのまとまったストリームで、ユーザコメントとシステムアクティビティコメントの両方を取り込みます。</p>
