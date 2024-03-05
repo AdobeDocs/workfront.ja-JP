@@ -4,10 +4,10 @@ description: 2024 年第 2 四半期管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 5%
+source-wordcount: '615'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 5%
 このページでは、2024 年第 2 四半期のリリースでプレビュー環境に対しておこなわれた管理者向けの機能強化について説明します。 これらの機能強化は、前述のとおり、実稼動環境で利用できるようになります。
 
 2024 年第 2 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 新しいパッケージタイプで JumpSeat 統合が利用できるようになりました。
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 2 月 26 日、高速リリース用の実稼動：24.3 リリース（2024 年 3 月 14 日）、すべてのお客様用の実稼動：24.4（2024 年 4 月）
+
+既存の JumpSeat 統合が、新しいパッケージタイプ (Select、Prime、Ultimate) の 1 つを使用してアカウントで使用できるようになりました。 統合を有効にするには、アクティブな JumpSeat サブスクリプションが必要です。
+
+JumpSeat 統合について詳しくは、 [JumpSeat 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## Workfrontのネイティブフィールドは、フォームデザイナーベータ版で使用できます。
 

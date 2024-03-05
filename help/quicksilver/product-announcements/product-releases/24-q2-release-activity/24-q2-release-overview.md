@@ -4,10 +4,10 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 28%
+source-wordcount: '1377'
+ht-degree: 26%
 
 ---
 
@@ -53,6 +53,25 @@ ht-degree: 28%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいパッケージタイプで JumpSeat 統合が利用できるようになりました。</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>既存の JumpSeat 統合が、新しいパッケージタイプ (Select、Prime、Ultimate) の 1 つを使用してアカウントで使用できるようになりました。 統合を有効にするには、アクティブな JumpSeat サブスクリプションが必要です。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年2月26日</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月 15 日）</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -220,6 +239,25 @@ ht-degree: 28%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームウィジェットのクイックアクションで新しいコメントストリームを使用できるようになりました。</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>これで、新しいコメント機能が <b>新しい更新を追加</b> 新しいホームのマイワーク、マイプロジェクト、マイタスク、マイタスクの各ウィジェットのクイックアクションボタン。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2024 年 3 月 2 日</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月 15 日）</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスで利用可能な追加のコメント入力情報</a><span style="color: #ff0000;"> プレビューの新機能</span></p><p>新しいコメント作成機能で、次の機能が強化されました。</p>
