@@ -5,28 +5,26 @@ title: Workfrontと Frame.io を接続
 description: Workfrontは、レビューと承認のプロセスで Frame.io を使用して、作業を希望する人に会います。 プロジェクトの管理と承認のプロセスはWorkfrontで管理され、レビューのプロセスは Frame.io で実行されます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f50d102eb9c44abb9780c378c41c108b124077c4
+source-git-commit: cf8501ff21dc9f3a3c66d8e98555986f18aeaa80
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 8%
+source-wordcount: '632'
+ht-degree: 7%
 
 ---
 
 
 # Workfrontと Frame.io を接続
 
-Workfrontは、レビューと承認のプロセスで Frame.io を使用して、作業を希望する人に会います。 プロジェクトの管理と承認のプロセスはWorkfrontで管理され、レビューのプロセスは Frame.io で実行されます。 統合を正しく設定するには、次の各節をすべて完了する必要があります。
+Workfrontは、レビューと承認のプロセスで Frame.io を使用して、作業を希望する人に会います。 プロジェクトの管理と承認のプロセスはWorkfrontで管理され、レビューのプロセスは Frame.io で完了します。 統合を正しく設定するには、次の各節をすべて完了する必要があります。
 
 * [Workfrontグループを Frame.io チームに接続する](#connect-a-workfront-group-to-a-frameio-team)
 * [Workfrontプロジェクトを作成し、接続されたグループを追加する](#create-a-workfront-project-and-add-a-connected-group)
 
->[!IMPORTANT]
->
->この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
+この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
 
 ## アクセス要件
 
-* この記事で説明する機能を使用するには、組織を手動でオンボーディングする必要があります。 詳しくは、 [Adobe Workfrontと Frame.io のネイティブ統合アルファ：概要](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+* この記事で説明する機能を使用するには、組織を手動でオンボーディングする必要があります。 詳しくは、 [Adobe Workfrontと Frame.io のネイティブ統合アルファ：概要](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 
 ## Workfrontグループを Frame.io チームに接続する
@@ -48,11 +46,11 @@ Workfrontは、レビューと承認のプロセスで Frame.io を使用して�
    ![](assets/connect-frame-group.png)
 1. API 開発者トークンを入力します。
 1. クリック **接続を開始**.
-1. （条件付き） Frame.io アカウントを選択します。
+1. （条件付き）複数の Frame.io アカウントの管理者の場合、使用するアカウントを選択します。
 
 ## Workfrontプロジェクトを作成し、接続されたグループを追加する
 
-Workfrontグループを Frame.io チームに接続したら、その接続したグループを持つプロジェクトを作成する必要があります。
+Workfrontグループを Frame.io チームに接続した後、その接続したグループを持つプロジェクトを作成する必要があります。
 
 ### 前提条件
 
@@ -81,7 +79,7 @@ Workfrontグループを Frame.io チームに接続したら、その接続し�
 
 >[!NOTE]
 >
->サブタスクは現在サポートされていません。
+>サブタスクは、現在、接続された Frame.io プロジェクトではサポートされていません。
 
 
 1. Frame.io に入力する必要があるタスクを作成します。
@@ -92,9 +90,10 @@ Workfrontグループを Frame.io チームに接続したら、その接続し�
 
    >[!IMPORTANT]
    >
-   >このカスタムフォームをタスクで表示するには、Frame.io connected グループを追加する必要があります。
+   >このフォームを表示するには、接続された Frame.io グループを「プロジェクトの詳細」領域に割り当てる必要があります。 詳しくは、 [Workfrontプロジェクトを作成し、接続されたグループを追加する](#create-a-workfront-project-and-add-a-connected-group) 」を参照してください。
 
-1. チェックボックスをオンにし、「 」を選択します。 **アクティブ**.
+
+1. を有効にします。 **このタスクの統合ステータス** チェックボックスをオンにして、 **アクティブ**.
    ![](assets/frame-custom-form.png)
 
 1. クリック **変更を保存**. プロジェクト名の横に Frame.io アイコンが表示されます。
@@ -111,6 +110,12 @@ Workfrontグループを Frame.io チームに接続したら、その接続し�
 
 ### Frame.io でのプロジェクトの有効化
 
-1. ステータスを次から変更： **計画** から **現在** または現在の値と等しいカスタムステータス。 これで統合が完了し、Frame.io 内のプロジェクト、タスクおよびすべてのドキュメントが生成されます。
+1. プロジェクトのステータスを次の場所から変更： **計画** から **現在** または現在の値と等しいカスタムステータス。 これで統合が完了し、Frame.io 内のプロジェクト、タスクおよびすべてのドキュメントが生成されます。
 
 プロジェクト名の横にある Frame.io アイコンは、統合が成功したときの紫色のシグナリングに変わります。 ユーザーには、Frame.io プロジェクトに招待する電子メールが送信されます。
+
+>[!IMPORTANT]
+>
+>プロジェクトが Frame.io 用に接続されると、プロジェクトグループに対して行われた変更は Frame.io には反映されません。
+
+
