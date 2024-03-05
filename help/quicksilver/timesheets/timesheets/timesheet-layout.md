@@ -7,10 +7,10 @@ description: この記事では、Adobe Workfront のタイムシートのレイ
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 75%
+source-wordcount: '1078'
+ht-degree: 74%
 
 ---
 
@@ -137,6 +137,14 @@ ht-degree: 75%
 
 ## 概要パネル
 
+<div class="preview">
+
+プレビュー環境の例：
+![概要パネル](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+実稼動環境の例：
 ![概要パネル](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 タイムシートに表示されたタスクや問題に関する [ 概要 ] パネルにアクセスできます。 ここから、タスクやイシューにコメントを付けたり、情報を更新したりできます。詳しくは、[概要について](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
