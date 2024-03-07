@@ -1,5 +1,5 @@
 ---
-source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
+source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 67%
@@ -307,7 +307,7 @@ ht-degree: 67%
 
 ## 最新の DPV バージョン {#latest-version}
 
-**最新バージョン**: 2.1.24（2023/05/15 の時点で）
+**最新バージョン**: 2.1.34（2024/03/06 の時点で）
 
 <!-- Release -->
 

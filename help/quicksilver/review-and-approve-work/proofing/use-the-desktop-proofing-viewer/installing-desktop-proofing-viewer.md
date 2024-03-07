@@ -6,7 +6,7 @@ description: デスクトッププルーフビューアは、主にインタラ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 98e2ebc214adf13d0f8b2962395504fb86e6d0c9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 95%
@@ -57,8 +57,8 @@ Adobe Workfront 管理者または Workfront Proof 管理者がワークステ�
 
 1. アプリをダウンロードするには、次のいずれかを行います。
 
-   * 実稼動環境を使用している場合は、「[デスクトッププルーフビューアの Mac 実稼動環境用ダウンロードファイル](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.32.pkg)」をクリックします。
-   * プレビュー環境を使用している場合は、「[デスクトッププルーフビューアの Mac プレビュー環境用ダウンロードファイル](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.32.pkg)」をクリックします。
+   * 実稼動環境を使用している場合は、「[デスクトッププルーフビューアの Mac 実稼動環境用ダウンロードファイル](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.34.pkg)」をクリックします。
+   * プレビュー環境を使用している場合は、「[デスクトッププルーフビューアの Mac プレビュー環境用ダウンロードファイル](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.34.pkg)」をクリックします。
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、「**続行**」をクリックし、次に「**インストール**」をクリックします。
