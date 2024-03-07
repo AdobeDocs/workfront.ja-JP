@@ -4,9 +4,9 @@ description: 2024 年第 2 四半期の更新ストリームと通知の機能�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 2 月 22 日、高速リリース用の実稼動：24.3 リリース（2024 年 3 月）、すべてのお客様用の実稼動：24.4 リリース（2024 年 4 月）
+>プレビューリリース：2024 年 2 月 22 日、高速リリース用の実稼動：24.3 リリース（2024 年 3 月 14 日）、すべてのお客様向けの実稼動：24.4 リリース（2024 年 4 月）
 
 タスクおよび問題リストの概要パネルに新しいコメント機能が追加されました。
 

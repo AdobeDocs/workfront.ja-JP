@@ -4,10 +4,10 @@ description: 2024 年第 2 四半期管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 4%
+source-wordcount: '620'
+ht-degree: 5%
 
 ---
 
@@ -43,7 +43,9 @@ Workfrontネイティブのフィールドをカスタムフォームに追加�
 
 この機能は、フォームデザイナーベータ版でのみ使用でき、レガシーフォームビルダーでは使用できません。
 
-この機能のExperience League記事は 3 月 7 日までに更新されます。
+詳しくは、 [フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Adobe IMSに移行した組織で、属性マッピングが使用できるようになりました。
 
@@ -55,7 +57,7 @@ Workfrontシステム管理者は、Adobe IMSに移行した組織のユーザ�
 
 以前は、この機能はまだAdobe IMSにオンボーディングされていない組織でのみ使用できました。
 
-属性マッピングの設定手順については、 **Unified Experience でのAdobe属性のマッピング** 記事内 [ユーザー属性のマッピングと新しいユーザーの自動プロビジョニング](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+属性マッピングの設定手順については、 [Unified Experience でのAdobe属性のマッピング](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) 記事内 **ユーザー属性のマッピングと新しいユーザーの自動プロビジョニング**.
 
 ## スキップロジックと表示ロジックが、フォームデザイナーベータ版で使用できるようになりました。
 
