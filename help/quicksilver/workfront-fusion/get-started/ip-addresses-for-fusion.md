@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: adb324323330f53108532cc7a7e68466fdb84273
+source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 90%
+source-wordcount: '178'
+ht-degree: 88%
 
 ---
 
@@ -44,7 +44,10 @@ ht-degree: 90%
     <ul> 
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
+     <li>44.241.82.96</li>
+     <li>100.20.126.137</li>
+     <li>34.223.32.4</li>
+     <li>52.39.176.220</li>
     </ul> </td> 
   </tr> 
   <tr> 
