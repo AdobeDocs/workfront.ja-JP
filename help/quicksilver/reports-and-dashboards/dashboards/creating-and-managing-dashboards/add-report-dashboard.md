@@ -6,16 +6,20 @@ description: レポートを新規または既存のダッシュボードに、�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '338'
-ht-degree: 100%
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 92%
 
 ---
 
 # ダッシュボードへのレポートを追加
 
 レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)で説明されるように、既存レポートをダッシュボードに追加できます。
+
+>[!NOTE]
+>
+>現在、カスタムフォームの外部参照フィールドは、ダッシュボードではサポートされていません。 フィールド値をインラインで編集することはできません。また、ダッシュボードに正しく表示されない場合があります。
 
 ## アクセス要件
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
-source-wordcount: '5592'
+source-wordcount: '5620'
 ht-degree: 76%
 
 ---
@@ -511,6 +511,8 @@ ht-degree: 76%
 >[!NOTE]
 >
 >外部参照機能は、Document オブジェクトまたは User オブジェクトでは使用できません。
+>
+>現在、カスタムフォームの外部参照フィールドは、ダッシュボードではサポートされていません。 フィールド値をインラインで編集することはできません。また、ダッシュボードに正しく表示されない場合があります。
 
 外部参照を追加する手順は、次のとおりです。
 
