@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 7%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 0%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -108,7 +108,7 @@ ht-degree: 0%
 * [ビューの削除](#delete-views)
   <!--* [Duplicate a view](#duplicate-views)-->
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-* [ビューの共有](#share-a-view)
+* [ビューを共有](#share-a-view)
 
 ## テーブルビューとタイムラインビューの類似点と相違点
 
@@ -141,9 +141,28 @@ ht-degree: 0%
 
 
 最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+
 1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. 次をクリック： **表示** ドロップダウンメニューで、既存の **テーブル表示** ![](assets/table-view-icon.png) または、 **ビューを作成/テーブル** テーブルビューを作成するには
 
@@ -157,15 +176,20 @@ ht-degree: 0%
    >
    >    タイムラインビューを作成するには、ビューを作成するレコードタイプに少なくとも 2 つの日付フィールドが必要です。 それ以外の場合は、「タイムライン」オプションは淡色表示になります。
 
-1. （オプション）ビューの名前を更新し、「 **作成** をクリックして保存します。
+1. （オプション）ビューの名前を更新し、「 **作成** テーブルビューを保存するには
+
+   または、 **次へ**（タイムラインを作成する場合） <!--or calendar--> 表示。
 
    既定では、Maestro はビューに&quot;Table &lt; number >&quot;または&quot;Timeline &lt; number >&quot;と名前を付けます。 数値は、自動的に生成される増分です。
 
+1. （条件付き）タイムラインに表示するレコードの開始日と終了日を選択します <!--or calendar--> を表示し、「 **作成**.
 1. （オプション）ビューの作成後に名前を変更するには、ビューのドロップダウンメニューをクリックし、 **その他** メニュー ![](assets/more-menu.png) > **名前を変更** をクリックして、ビュー名を更新します。 <!--ensure there is not another saving step here?!-->
+   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. （オプション）特定のタイプの表示を管理するには、次の記事を参照してください。
 
    * [テーブル表示の管理](../views/manage-the-table-view.md)
    * [タイムライン表示を管理](../views/manage-the-timeline-view.md)
+     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## ビューを削除
@@ -180,12 +204,13 @@ ht-degree: 0%
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. 「表示」ドロップダウンメニューをクリックし、リスト内のビューの 1 つにマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png) > **削除**.
 1. クリック **削除** をクリックして確定します。 <!--ensure there is not another saving step here?!-->
 
    ビューは、Maestro 領域にアクセスできるすべてのユーザに対して削除され、復元できません。
 
-## ビューの共有
+## ビューを共有
 
 ビューの共有について詳しくは、 [ビューの共有](/help/quicksilver/maestro/access/share-views.md).
 
