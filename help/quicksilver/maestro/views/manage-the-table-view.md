@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 4%
 
 ---
@@ -98,6 +98,11 @@ Maestro ビューとその管理方法については、 [レコードビュー�
 1. 「 」を参照して、テーブルビューを作成します。 [レコードビューの管理](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. （オプション）「 **行の高さ**&#x200B;をクリックし、次のオプションから選択して、テーブル行の高さを変更します。
+   * 低い
+   * 中
+   * 高い
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [列（またはフィールド）](#add-columns-or-fields)

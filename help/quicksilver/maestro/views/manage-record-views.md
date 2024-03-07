@@ -1,13 +1,13 @@
 ---
 title: レコードビューの管理
-description: AdobeMaestro を使用する際に、テーブルまたはタイムラインビューにレコードを表示できます。
+description: Adobe Workfrontの計画機能を使用する際に、テーブル、タイムライン、またはカレンダー表示にレコードを表示できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 7%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 7%
 
 {{maestro-important-intro}}
 
-[Adobeマエストロ ] でレコードの種類を選択した後、次のビューにその種類のすべてのレコードを表示できます。
+「Adobe Workfront計画機能」領域でレコード・タイプを選択した後、次のビューにそのタイプのすべてのレコードを表示できます。
 
 * テーブル
 
   詳しくは、 [テーブル表示の管理](../views/manage-the-table-view.md).
+
 * タイムライン
 
   詳しくは、 [タイムライン表示を管理](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## アクセス要件
 
@@ -46,7 +51,7 @@ ht-degree: 7%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ ht-degree: 7%
 
 <tr>
    <td role="rowheader">アクセスレベルの設定</td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
+   <td> <p>Workfront Planning 機能に対するアクセスレベルの制御はありません</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ ht-degree: 7%
  </tbody>
 </table>
 
-## Maestro ビューを使用する際の考慮事項
+## レコードビューを使用する際の考慮事項
 
-* マエストロのビューは、レコードのタイプに固有です。 同じビューを 2 つの異なるレコードタイプに適用することはできません。
+* 「Workfront計画機能」領域のビューは、レコードのタイプに固有です。 同じビューを 2 つの異なるレコードタイプに適用することはできません。
 * 作成したビューは、自分とそのビューを共有しているユーザーにのみ表示されます。
 * オペレーショナルレコードタイプのビューの作成は、分類レコードタイプのビューの作成と同じです。
 * ビューを変更または削除すると、そのビューに対する権限を持つすべてのユーザーに対して、ビューが変更および削除されます。
-* 次の要素は、Maestro の各ビューに固有です。
+* 次の要素は、各レコードビューに固有です。
 
    * フィルター
    * グループ化
@@ -100,7 +105,7 @@ ht-degree: 7%
 
   >[!NOTE]
   >
-  > Maestro は現在ベータ状態なので、一部のビュー要素は両方のビューで使用できない場合があります。
+  > Adobe Workfrontの計画機能は現在ベータ状態なので、一部のビュー要素が一部のビューで使用できない場合があります。
 
 この記事では、Maestro ビューに関する次の情報について説明します。
 
@@ -111,6 +116,8 @@ ht-degree: 7%
 * [ビューを共有](#share-a-view)
 
 ## テーブルビューとタイムラインビューの類似点と相違点
+
+<!-- should we include Calendar here or remove this section???-->
 
 次の表は、Maestro のテーブルビューとタイムラインビューの類似点と相違点を示しています。
 
@@ -180,7 +187,7 @@ ht-degree: 7%
 
    または、 **次へ**（タイムラインを作成する場合） <!--or calendar--> 表示。
 
-   既定では、Maestro はビューに&quot;Table &lt; number >&quot;または&quot;Timeline &lt; number >&quot;と名前を付けます。 数値は、自動的に生成される増分です。
+   デフォルトでは、Workfrontはビューに「Table &lt; number >」または「Timeline &lt; number >」という名前を付けます。 <!--or "Calendar < number >"-->. 数値は、自動的に生成される増分です。
 
 1. （条件付き）タイムラインに表示するレコードの開始日と終了日を選択します <!--or calendar--> を表示し、「 **作成**.
 1. （オプション）ビューの作成後に名前を変更するには、ビューのドロップダウンメニューをクリックし、 **その他** メニュー ![](assets/more-menu.png) > **名前を変更** をクリックして、ビュー名を更新します。 <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ ht-degree: 7%
 1. 「表示」ドロップダウンメニューをクリックし、リスト内のビューの 1 つにマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png) > **削除**.
 1. クリック **削除** をクリックして確定します。 <!--ensure there is not another saving step here?!-->
 
-   ビューは、Maestro 領域にアクセスできるすべてのユーザに対して削除され、復元できません。
+   このビューは、レコード領域にアクセスできるすべてのユーザーに対して削除され、復元できません。
 
 ## ビューを共有
 
