@@ -6,7 +6,7 @@ description: Adobe Workfrontの複数の領域で、プロジェクト、タス�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
+source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 97%
@@ -123,4 +123,4 @@ Workfront が破損したドキュメントを検出すると、Workfront はア
 
 ### ファイル名の制限 {#file-name-restrictions}
 
-Workfront にアップロードされるファイルの名前には、特定の文字を含めることができません。ファイル名に `< > { }` のいずれかの文字が含まれている場合、その文字はファイルのアップロード時にファイル名から削除されます。
+Workfront にアップロードされるファイルの名前には、特定の文字を含めることができません。ファイル名に `! # % * \ | ' " / ? < > { } [ ]` のいずれかの文字が含まれている場合、その文字はファイルのアップロード時にファイル名から削除されます。

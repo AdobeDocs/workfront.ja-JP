@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: e47f5d06d0c7d72c171583b53b69f951e4e99afe
+source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 76%
@@ -21,11 +21,11 @@ ht-degree: 76%
 
 <!-- Audited: 12/2023 -->
 
-組織で Adobe Workfront を購入した際に、一定数のライセンスが購入されました。Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 3 種類のWorkfrontライセンスのいずれかを付与します。
+組織で Adobe Workfront を購入した際に、一定数のライセンスが購入されました。Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 2 種類のWorkfrontライセンスのいずれかを割り当てます。
 
 ## 新しい Workfront ライセンスと新しいアクセスレベルを連携させる方法
 
-3 種類の新しいWorkfrontライセンスを使用すると、Workfrontに対するアクセスレベルを変更できます。 各アクセスレベルは、これらのライセンスの 1 つに付属しています。
+2 種類の新しいWorkfrontライセンスを使用すると、Workfrontに対するアクセスレベルを変更できます。 各アクセスレベルは、これらのライセンスの 1 つに付属しています。
 
 ユーザーにライセンスを割り当てる代わりに、そのライセンスに関連付けられたアクセスレベルを割り当てます。
 
