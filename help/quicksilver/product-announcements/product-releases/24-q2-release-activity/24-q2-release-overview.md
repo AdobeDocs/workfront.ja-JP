@@ -4,9 +4,9 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1449'
 ht-degree: 25%
 
 ---
@@ -381,7 +381,7 @@ ht-degree: 25%
 
 ### Workfront Fusion の機能強化
 
-このリリースでは、現時点でWorkfront Fusion のアップデートはありません。 このエリアは、アップデートが利用可能になると更新されます。
+Workfront Fusion の新機能は、2023 年第 1 四半期のリリーススケジュール以外の期間に、実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
