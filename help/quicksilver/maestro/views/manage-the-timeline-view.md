@@ -1,13 +1,13 @@
 ---
 title: タイムライン表示を管理
-description: AdobeMaestro でレコードタイプのページにアクセスする際に、タイムラインビューにレコードを表示できます。
+description: Adobe Workfrontの計画機能でレコードタイプページにアクセスする際に、タイムラインビューにレコードを表示できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-AdobeMaestro でレコードタイプのページにアクセスする際に、タイムラインビューにレコードを表示できます。
+Adobe Workfrontの計画機能でレコードタイプページにアクセスする際に、タイムラインビューにレコードを表示できます。
 
-Maestro ビューについて詳しくは、 [レコードビューをAdobeMaestro で管理](../views/manage-record-views.md).
+レコードビューの詳細については、 [レコードビューの管理](../views/manage-record-views.md).
 
 ## アクセス要件
 
@@ -51,7 +51,7 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 
 <tr>
    <td role="rowheader">アクセスレベルの設定</td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません </p>  
+   <td> <p>Adobe Workfront Planning 機能に対するアクセスレベルの制御はありません </p>  
 </td>
   </tr>
 
@@ -102,17 +102,6 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
    * 開始日と終了日に値がない場合
    * 開始日または終了日に値がない場合
    * 開始日が終了日より後の場合
-
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
 
 タイムラインビューを管理するには：
 
@@ -196,7 +185,7 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 タイムライン表示でグループ化を操作する際は、次の点に注意してください。
 
 * テーブルビューとタイムラインビューの両方でグループを適用できます。 テーブルビューのグループは、同じレコードタイプのタイムラインビューのグループとは独立しています。
-* マエストロビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
+* 1 つのビューに 3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
 * API を使用する場合、最大 4 レベルのグループ化を適用できます。
 * グループは、選択した表示に固有です。 同じレコードタイプの 2 つのタイムライン表示で、異なるグループを適用することができます。 同じタイムライン表示を見ている 2 人のユーザーには、現在適用されているのと同じグループが表示されます。
 * タイムライン表示用に作成したグループに名前を付けることはできません。
@@ -218,6 +207,8 @@ Maestro ビューについて詳しくは、 [レコードビューをAdobeMaest
 1. （オプション）上記の手順を繰り返して、最大 3 つのグループを追加します。
 
    グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

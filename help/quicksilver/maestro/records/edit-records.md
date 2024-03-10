@@ -1,13 +1,13 @@
 ---
 title: レコードを編集
-description: レコード情報は、AdobeMaestro で編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
+description: レコード情報は、Adobe Workfrontの計画機能で編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 {{maestro-important-intro}}
 
-レコードに関連付けられたフィールドの値を編集することで、Adobeマエストロ内のレコード情報を編集できます。
+レコードに関連付けられたフィールドの値を編集することで、Adobe Workfrontの計画機能でレコード情報を編集できます。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 
@@ -47,7 +47,7 @@ ht-degree: 3%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセス制御はありません </p>  
+   <td> <p>Adobe Workfront Planning 機能に対するアクセス制御はありません </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ ht-degree: 3%
 
 次の領域でレコードを編集できます。
 
-* [レコードの詳細ページから](#edit-a-record-from-the-records-details-page)
 * [レコードタイプのテーブルビューから](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### レコードの詳細ページからレコードを編集する
-
-{{step1-to-maestro}}
-
-最後にアクセスしたワークスペースが開きます。
-
-1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
-1. 次のいずれかの操作を行います。
-
-   * から **テーブル** ビューで、レコードの名前をクリックします。
-   * 次から： **テーブル** 表示し、レコード名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **表示**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * タイムラインビューで、レコードバーをクリックします。
-
-   レコード **詳細** ページが開きます。
-
-1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) をクリックし、 **編集**
-
-   または
-
-   詳細ページの編集可能なフィールド内をクリックして、情報を編集します。
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. クリック **変更を保存**. <!--logged a bug for this - this needs to be "Save"-->
+* [レコードの詳細ページから](#edit-a-record-from-the-records-details-page)
 
 ### レコードタイプのテーブルビューからレコードを編集する
 
@@ -144,7 +117,7 @@ ht-degree: 3%
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューで、 **テーブル** 表示。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+1. （条件付き） **表示** ドロップダウンメニュー <!--tab--> テーブルの右上隅で、 **テーブル** 表示。 最後にアクセスしたときに別のタイプのビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
 
    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
 1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
@@ -171,6 +144,16 @@ ht-degree: 3%
 
 1. （オプション）接続されたレコードフィールドをダブルクリックして、接続されたレコードまたはオブジェクトを別のレコードに追加します。 詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
 1. 押す **入力** キーボードでクリックするか、行の外側をクリックして変更を保存します。 変更内容は自動的に保存されます。 A **保存済み** インジケータは、テーブルビューの右上隅に短く表示され、変更が保存されたことを示します。
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. （オプション）あるフィールドから別のフィールドに情報をコピーして貼り付けるには、次のいずれかの操作を行います。
 
@@ -204,3 +187,33 @@ ht-degree: 3%
    >    複数の変更を元に戻すには、キーボードショートカットを複数回連続して使用します。
 
 1. （オプション）レコードにサムネールを追加します。 詳しくは、 [レコードにサムネールを追加する](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### レコードの詳細ページからレコードを編集する
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+最後にアクセスしたワークスペースが開きます。
+
+1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
+1. 次のいずれかの操作を行います。
+
+   * から **テーブル** ビューで、レコードの名前をクリックします。
+   * 次から： **テーブル** 表示し、レコード名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **表示**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * タイムラインビューで、レコードバーをクリックします。
+
+   レコード **詳細** ページが開きます。
+
+1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) をクリックし、 **編集**
+
+   または
+
+   詳細ページの編集可能なフィールド内をクリックして、情報を編集します。
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. クリック **変更を保存**. <!--logged a bug for this - this needs to be "Save"-->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 3%
 
 ---
@@ -253,8 +253,8 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **カレンダー表示**：少なくとも 2 つの日付タイプフィールドを持つレコードをカレンダー形式で表示します。
+     ![](assets/calendar-view-example.png)
 
 
 詳しくは、 [レコードビューの管理](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 
    1. レコードタイプの名前をクリックして、レコードのページを開きます。 デフォルトでは、レコードページがテーブルビューで開きます。
 
-   1. 次のいずれかの操作を行って、テーブルビューをカスタマイズします。
+      タイムラインまたはカレンダー表示を作成することもできます。
 
-      * レコードタイプにフィールドを追加するには、 **+** アイコンが表示されます。 ビューの列は、レコードタイプに関連付けられたフィールドです。
-      * レコードを追加するには、 **+** アイコンが表示されます。 ビューの行は、選択したレコードタイプの一意のレコードです。
-      * クリック **フィルター** を使用して、レコードタイプのページに表示する情報をフィルタリングします。
+   1. テーブルビューで、行を追加してレコードの追加を開始します
 
-   1. レコードの名前をクリックすると、レコードの [ 詳細 ] ページに詳細情報が表示されます。
+      または
 
-   1. 以下からタイムラインビューを作成する： **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
-
-   1. フィルター、グループ化または設定を更新して、タイムライン表示をカスタマイズします。
+      列を追加して、レコードフィールドの追加を開始します。
 
 ## Adobe Workfront planning 機能リリースアクティビティ
 

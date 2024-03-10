@@ -1,14 +1,14 @@
 ---
 title: レコードを作成
-description: AdobeMaestro では、レコードはレコードタイプのインスタンスです。 個々のレコードを作成する前に、レコードタイプを作成する必要があります。 分類レコードの作成は、運用レコードの作成と同じです。
+description: Adobe Workfrontの計画機能を使用する場合、レコードはレコードタイプのインスタンスです。 個々のレコードを作成する前に、レコードタイプを作成する必要があります。 分類レコードの作成は、運用レコードの作成と同じです。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 2%
+source-wordcount: '810'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-AdobeMaestro では、レコードはレコードタイプのインスタンスです。
+Adobe Workfrontの計画機能では、レコードはレコードタイプのインスタンスです。
 
 次のタイプのレコードを持つことができます。
 
@@ -27,13 +27,13 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 
 運用レコードの作成は、分類レコードの作成と同じです。
 
-次のいずれかの操作を行って、Maestro でレコードを作成できます。
+次のいずれかの操作を行って、レコードを作成できます。
 
-* Maestro レコードタイプ用に手動で作成する
-* 他のアプリケーションの Maestro レコードに接続します。
+* レコードタイプ用に手動で作成する
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * 外部リストから情報をコピー&amp;ペーストして、レコードを作成します。
 
-この記事では、Maestro レコードを作成する方法について説明します。 テーブルまたはタイムラインビューのレコードの管理について詳しくは、次の記事を参照してください。
+この記事では、レコードを作成する方法について説明します。 テーブルまたはタイムラインビューのレコードの管理について詳しくは、次の記事を参照してください。
 
 * [テーブル表示の管理](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [タイムライン表示を管理](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセス制御はありません </p>  
+   <td> <p>Adobe Workfront Planning 機能に対するアクセス制御はありません </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ AdobeMaestro では、レコードはレコードタイプのインスタンス�
 
 1. 各行の情報の追加を続行し、「 **入力** をクリックして、変更を保存します。
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. （オプション）次のキーボードショートカットを使用して、新しいレコードの追加の取り消しまたはやり直しをおこないます。
 
    * Ctrl + Z( Macの場合は⌘ + Z)：変更を元に戻します。
    * Ctrl + Shift + Z(Macの場合は⌘ + Shift + Z)：変更をやり直します。
 
-## 別のアプリケーションからレコードを接続してレコードを作成する
+<!-- this is not possible anymore: 
 
-レコードを Maestro のリンクされたレコードにリンクすることで、他のアプリケーションからレコードを読み込むことができます。 これにより、他のアプリケーションの接続オブジェクトに対して Maestro レコードタイプが作成されます。
+## Create records by connecting them from another application
 
-1. Maestro レコードタイプを作成します ( [レコードタイプの作成](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. 前の手順で作成したレコードタイプの Maestro レコードを作成します。 詳しくは、 [レコードタイプに手動でレコードを追加してレコードを作成する](#create-records-by-manually-adding-them-to-a-record-type) 」を参照してください。
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. 作成した Maestro レコードタイプ用に、別のアプリケーションからオブジェクトタイプへの接続を作成します。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. 前の手順で作成したリンク済みレコードフィールドを使用して、上で作成した Maestro レコードに別のアプリケーションのレコードを追加します。 詳しくは、 [レコードを接続](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   次のアイテムが Maestro で作成されます。
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * [ 接続されたレコード ] フィールドでリンクした他のアプリケーションのレコードの種類を参照する読み取り専用の Maestro レコードの種類です。
+    The following items are created in Maestro:
 
-     たとえば、Maestro レコードタイプをWorkfrontプロジェクトに接続すると、同じワークスペースに「Workfrontプロジェクト」という読み取り専用のレコードタイプが作成されます。 読み取り専用のWorkfrontレコードタイプには、リンク元の Maestro レコードのテーブルビューからアクセスできます。
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## 外部リストから情報をコピー&amp;ペーストしてレコードを作成する
 

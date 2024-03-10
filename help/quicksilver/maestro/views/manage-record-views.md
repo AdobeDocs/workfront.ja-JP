@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 7%
+source-wordcount: '811'
+ht-degree: 8%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 7%
 
   詳しくは、 [タイムライン表示を管理](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* カレンダー
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  詳しくは、 [カレンダー表示を管理](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## アクセス要件
 
@@ -107,7 +107,7 @@ ht-degree: 7%
   >
   > Adobe Workfrontの計画機能は現在ベータ状態なので、一部のビュー要素が一部のビューで使用できない場合があります。
 
-この記事では、Maestro ビューに関する次の情報について説明します。
+この記事では、レコードビューに関する次の情報について説明します。
 
 * [ビューの作成と編集](#create-or-edit-record-views)
 * [ビューの削除](#delete-views)
@@ -115,32 +115,32 @@ ht-degree: 7%
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [ビューを共有](#share-a-view)
 
-## テーブルビューとタイムラインビューの類似点と相違点
+## レコードビュー間の類似点と相違点
 
-<!-- should we include Calendar here or remove this section???-->
-
-次の表は、Maestro のテーブルビューとタイムラインビューの類似点と相違点を示しています。
+次の表に、テーブル、タイムライン、およびカレンダービューの類似点と相違点を示します。
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| 機能 | テーブル表示 | タイムライン表示 |
-|-----------------------------------------------------------------------|------------|---------------|
-| リストまたはテーブルにレコードを表示 | ✓ |              |
-| すべてのフィールドをテーブル内の列として表示（デフォルト） | ✓ |              |
-| フィールド（または列）の表示/非表示を切り替える | ✓ |               |
-| 各レコードのフィールド値を編集 | ✓ |               |
-| レコードを新しい行としてビューに追加 | ✓ |               |
-| ビューでフィールドを新しい列として追加 | ✓ |               |
-| 外部リストから行をコピーしてテーブルに貼り付ける | ✓ |               |
-| タイムラインでのレコードの表示 |            | ✓ |
-| レコードのフィルタリング | ✓ | ✓ |
+| 機能 | テーブル表示 | タイムライン表示 | カレンダー表示 |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| リストまたはテーブルにレコードを表示 | ✓ |              | |
+| すべてのフィールドをテーブル内の列として表示（デフォルト） | ✓ |              |    |
+| フィールド（または列）の表示/非表示を切り替える | ✓ |               |    |
+| 各レコードのフィールド値を編集 | ✓ |               |             |
+| レコードを新しい行としてビューに追加 | ✓ |               |        |
+| ビューでフィールドを新しい列として追加 | ✓ |               |         |
+| 外部リストから行をコピーしてテーブルに貼り付ける | ✓ |               |          |
+| タイムラインでのレコードの表示 |            | ✓ |             |
+| レコードのフィルタリング | ✓ | ✓ |           |
+| カレンダーにレコードを表示する |           |              | ✓ |
 | レコードをグループ化 | ✓ | ✓ |
 | レコードの並べ替え | ✓ |              |
-| カラーコードのレコード |           | ✓ |
+| カラーコードのレコード |           | ✓ | ✓ |
 | カラーコードのグループ化 |           | ✓ |
 | 特定のレコードの検索 | ✓ | ✓ |
-| 表示を共有 | ✓ | ✓ |
-| レコードの詳細ページをビューから開きます。 | ✓ | ✓ |
+| 表示を共有 | ✓ | ✓ | ✓ |
+| レコードの詳細ページをビューから開きます。 | ✓ | ✓ |    |
+
 
 ## ビューの作成または編集 {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ ht-degree: 7%
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. 次をクリック： **表示** ドロップダウンメニューで、既存の **テーブル表示** ![](assets/table-view-icon.png) または、 **ビューを作成/テーブル** テーブルビューを作成するには
 
    または
 
-   既存の **タイムライン表示** ![](assets/timeline-view-icon.png) 表示またはクリック **ビューを作成/タイムライン** をクリックして、タイムラインビューを作成します。
+   既存の **タイムライン表示** ![](assets/timeline-view-icon.png) または、 **ビューを作成/タイムライン** をクリックして、タイムラインビューを作成します。
+
+   または
+
+   既存の **カレンダー表示** ![](assets/calendar-view-icon.png) または、 **ビューを作成/カレンダー** をクリックして、カレンダービューを作成します。
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    タイムラインビューを作成するには、ビューを作成するレコードタイプに少なくとも 2 つの日付フィールドが必要です。 それ以外の場合は、「タイムライン」オプションは淡色表示になります。
+   >    タイムラインまたはカレンダービューを作成するには、ビューを作成するレコードの種類に少なくとも 2 つの日付フィールドが必要です。 それ以外の場合は、「タイムライン」または「カレンダー」オプションが淡色表示になります。
 
-1. （オプション）ビューの名前を更新し、「 **作成** テーブルビューを保存するには
+1. （条件付き）クリック **次へ**（タイムラインまたはカレンダービューを作成する場合）
 
-   または、 **次へ**（タイムラインを作成する場合） <!--or calendar--> 表示。
+   デフォルトでは、Workfrontは次のいずれかの名前をビューに付けます。
 
-   デフォルトでは、Workfrontはビューに「Table &lt; number >」または「Timeline &lt; number >」という名前を付けます。 <!--or "Calendar < number >"-->. 数値は、自動的に生成される増分です。
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. （条件付き）タイムラインに表示するレコードの開始日と終了日を選択します <!--or calendar--> を表示し、「 **作成**.
+   数値は、自動的に生成される増分です。
+
+1. （条件付き） **開始** および **終了日** タイムラインまたはカレンダー表示に表示されるレコードの
+1. 「**作成**」をクリックします。
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. （オプション）ビューの作成後に名前を変更するには、ビューのドロップダウンメニューをクリックし、 **その他** メニュー ![](assets/more-menu.png) > **名前を変更** をクリックして、ビュー名を更新します。 <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. （オプション）特定のタイプの表示を管理するには、次の記事を参照してください。
 
    * [テーブル表示の管理](../views/manage-the-table-view.md)
    * [タイムライン表示を管理](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [カレンダー表示を管理](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## ビューを削除
@@ -211,7 +224,7 @@ ht-degree: 7%
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. 「表示」ドロップダウンメニューをクリックし、リスト内のビューの 1 つにマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png) > **削除**.
 1. クリック **削除** をクリックして確定します。 <!--ensure there is not another saving step here?!-->
 

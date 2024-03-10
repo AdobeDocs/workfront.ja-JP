@@ -1,13 +1,13 @@
 ---
 title: テーブル表示の管理
-description: Maestro でレコードタイプページにアクセスする際に、テーブルビューでレコードとそのフィールドをAdobeで表示できます。
+description: Adobe Workfrontの計画機能でレコードタイプページにアクセスする際に、レコードとそのフィールドをテーブルビューで表示できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 4%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Maestro でレコードタイプページにアクセスする際に、テーブルビューでレコードとそのフィールドをAdobeで表示できます。
+Adobe Workfrontの計画機能でレコードタイプページにアクセスする際に、レコードとそのフィールドをテーブルビューで表示できます。
 
-Maestro ビューとその管理方法については、 [レコードビューの管理](../views/manage-record-views.md).
+レコードビューとその管理方法については、 [レコードビューの管理](../views/manage-record-views.md).
 
 ## アクセス要件
 
@@ -51,7 +51,7 @@ Maestro ビューとその管理方法については、 [レコードビュー�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Maestro ビューとその管理方法については、 [レコードビュー�
 
 <tr>
    <td role="rowheader">アクセスレベルの設定</td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません </p>  
+   <td> <p>Workfornt 計画機能に対するアクセス・レベル・Adobeはありません。 </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ Maestro ビューとその管理方法については、 [レコードビュー�
 
 ### 列（またはフィールド）を追加 {#add-columns}
 
-Maestro テーブルビューの列ヘッダーには、ビュー内のレコードに関連付けられたフィールドが表示されます。 テーブルビューに表示されるのと同じフィールドは、Maestro レコードの [ 詳細 ] セクションにも表示されます。 詳しくは、 [レコードを編集](../records/edit-records.md).
+テーブルビューの列ヘッダーには、ビュー内のレコードに関連付けられたフィールドが表示されます。 テーブルビューに表示されるのと同じフィールドが、レコードの「詳細」セクションにも表示されます。 詳しくは、 [レコードを編集](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
 テーブルビューでは、最大 500 個のフィールド（または列）を追加できます。
 
 1. レコードタイプのページに移動し、 **テーブル** ビューを選択します。
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 記事の説明に従って、フィールド（または列）の追加を開始します。 [フィールドの作成](../fields/create-fields.md).
 
    追加した列は、レコードタイプにアクセスするすべてのユーザーに対して表示され、選択したレコードタイプのレコードの [ 詳細 ] ページに新しいフィールドとして追加されます。
@@ -212,11 +214,13 @@ Maestro テーブルビューの列ヘッダーには、ビュー内のレコー
 
 ### 行（またはレコード）を追加 {#add-rows}
 
-Maestro テーブルビューの行には、選択したレコードタイプの個々のレコードが表示されます。
+テーブルビューの行には、選択したレコードタイプの個々のレコードが表示されます。
 
-Maestro では、1 つのレコードタイプに対して最大 10,000 個のレコード（または行）を指定できます。
+1 つのレコードタイプ S に対して、最大 50,000 個のレコード（または行）を指定できます。
 
 1. レコードタイプのページに移動し、 **テーブル** ビューを選択します。
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 記事の説明に従って、レコード（または行）の追加を開始します。 [レコードを作成](../records/create-records.md).
 
    テーブル表示で追加したレコードは直ちに保存され、ワークスペースに対する表示権限以上を持つすべてのユーザーに表示されます。
@@ -359,7 +363,7 @@ Maestro では、1 つのレコードタイプに対して最大 10,000 個の�
 次の点に注意してください。
 
 * テーブルビューとタイムラインビューの両方でグループを適用できます。 テーブルビューのグループは、同じレコードタイプのタイムラインビューのグループとは独立しています。
-* マエストロビューでは、3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
+* 1 つのビューに 3 つのレベルのグループ化を適用できます。 レコードは、選択したグループ化の順にグループ化されます。
 &lt;!—* API を使用する場合は、最大 4 レベルのグループ化を適用できます。  — 今すぐ確認中 —>
 * グループは、選択した表示に固有です。 同じレコードタイプの 2 つのテーブルビューに、異なるグループを適用することができます。 同じテーブル表示を見ている 2 人のユーザーには、現在適用されているのと同じグループが表示されます。
 * テーブルビューに対して作成したグループに名前を付けることはできません。
