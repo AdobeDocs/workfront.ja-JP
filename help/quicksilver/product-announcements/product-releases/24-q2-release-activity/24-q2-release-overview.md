@@ -4,9 +4,9 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 25%
 
 ---
@@ -167,6 +167,40 @@ ht-degree: 25%
                 </tr>
            </tbody>
         </table>
+
+### 統合の機能強化
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合における自動フォルダー作成ワークフローの強化</a></p><span style="color: #ff0000;"> プレビューの新機能</span><p>WTAdobe Experience Managerフォルダーで必要な内容をより正確に反映させるために、ネストされたフォルダーツリーをAdobe Experience Managerリンクフォルダーワークフローに追加しました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2024 年 3 月 12 日</p>
+                            </li>
+                             <li> <p><span class="preview">実稼動環境への四半期リリース： 2024 年 3 月 14 日</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### プロジェクトの強化
 
