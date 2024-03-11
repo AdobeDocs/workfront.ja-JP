@@ -6,16 +6,18 @@ description: 作業内容を [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 84%
+source-wordcount: '1763'
+ht-degree: 67%
 
 ---
 
 # [!UICONTROL Experience Manager Assets as a Cloud Service] 統合の設定
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ワークフローとは、Workfront を Adobe Experience Manager as a Cloud Service に接続する一連のアクションです。Workfront 管理者は、Workfront でワークフローを設定し、それらをプロジェクトテンプレートに割り当てることができます。ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
 
-統合で設定したデフォルトのワークフロー値は、プロジェクトテンプレートレベルとプロジェクトレベルで上書きできます。
+ワークフローは、Adobe Experience Manager全体に対して有効になり、設定されます。 これらのワークフローは、その後、プロジェクトテンプレートに適用でき、テンプレートまたはプロジェクトレベルで調整またはカスタマイズできます。
 
 Adobe Experience Managerの統合では、次のワークフローを使用できます。
 
@@ -255,6 +257,46 @@ Adobe Experience Managerの統合では、次のワークフローを使用で�
    ![リンクされたフォルダーナビゲーション](assets/select-folder-aem-integration.png)
 1. 「**[!UICONTROL ポートフォリオ名とプログラム名を追加]**」オプションを有効にすると、リンクされたフォルダー名の最後にポートフォリオ名とプログラム名が自動的に追加されます。
 1. クリック **[!UICONTROL 保存]** または、 [Adobe Experience Manager Assetsに送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 」の節を参照してください。
+
+プレビューサンドボックス環境の場合
+
+<div class="preview">
+
+1. 「**[!UICONTROL リンクされたフォルダーを作成]**」を有効にします。
+1. 作成するリンク先フォルダの名前を入力します。
+1. （条件付き） **デフォルトのフォルダーツリー** オプションを指定します。 1 つ以上のデフォルトのフォルダーを選択できます。
+1. フォルダーパスを選択して、この統合に関連付けるリンクされたすべてのフォルダーの場所を指定します。
+1. （条件付き）この統合にフォルダーツリー（ネストされたフォルダー）を追加するには、以下の手順を実行します。
+
+   1. 次をクリック： **フォルダーを追加** アイコン ![フォルダーを追加](assets/add-folder-aem.png).
+   1. Adobe Analytics の **名前のタイプ** 「 」フィールドで、フォルダーの名前を指定する方法を選択します。
+
+      * **名前**：フォルダーの名前を入力します。
+      * **オブジェクトデータ**：フォルダー名のソースを選択します（「プロジェクト名」など）。
+
+      >[!NOTE]
+      >
+      >* フォルダー名は 100 文字未満にする必要があります。
+      >* 次の文字がフォルダー名から削除されます：
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. ネストされたフォルダーをフォルダーツリーに追加するには、ネストされたフォルダーを作成するフォルダーの横にある 3 ドットメニューをクリックし、「 」を選択します。 **フォルダーを追加**. 前の手順の説明に従って、フィールドに入力します。
+   1. フォルダーをWorkfrontにリンクするには、目的のフォルダーを選択し、 **リンクフォルダーを作成**   アイコン ![フォルダーをリンク](assets/link-folder.png).
+   1. （オプション）フォルダーを編集するには、目的のフォルダーを選択し、 **フォルダーを編集** アイコン ![編集アイコン](assets/edit-icon.png).
+   1. （オプション）フォルダーを削除するには、目的のフォルダーを選択し、 **フォルダーを削除** アイコン ![フォルダーを削除](assets/delete-folder.png).
+1. （条件付き）別のフォルダーツリーを追加するには、 **+フォルダーツリーを追加** をクリックし、手順 5 の手順に従います。
+
+1. クリック **[!UICONTROL 保存]**&#x200B;または、 [Adobe Experience Manager Assetsに送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 」の節を参照してください。
+
+>[!NOTE]
+>
+>* この統合で作成されるフォルダーツリーの数に関係なく、作成されるフォルダーは 100 個以下です。 例えば、4 つのフォルダーツリーを統合すると、400 個のフォルダーではなく、最大 100 個のフォルダーを作成できます。
+>* フォルダーツリーの最初のフォルダーは、自動的にWorkfrontにリンクされているとマークされます。 このフォルダをリンクしない場合は、リンクを解除できます。
+>* フォルダーツリーを指定しない場合、ルートフォルダーはリンクされたフォルダーになります。
+
+
+</div>
 
 ### Adobe Experience Manager Assetsに送信されたアセットの公開
 

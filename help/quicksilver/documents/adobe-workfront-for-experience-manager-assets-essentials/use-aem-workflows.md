@@ -6,14 +6,16 @@ description: Experience Manager Assets Essentials 統合でのワークフロー
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 82%
+source-wordcount: '1114'
+ht-degree: 62%
 
 ---
 
 # Experience Manager Assets 統合でのワークフローの使用
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 ワークフローとは、Workfront を Adobe Experience Manager as a Cloud Service に接続する一連のアクションです。Workfront 管理者は、Workfront でワークフローを設定し、プロジェクトテンプレートに割り当てることができます。ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
 
@@ -107,6 +109,10 @@ ht-degree: 82%
 
 ### 既存のプロジェクトへのワークフローの追加
 
+>[!NOTE]
+>
+>プロジェクトの作成時に実行されるワークフロー（リンクされたフォルダーの作成など）は、テンプレートが既存のプロジェクトに添付されている場合は実行されません。 プロジェクトがテンプレートから作成された場合にのみ実行されます。
+
 1. プロジェクトへのテンプレートの追加を開始します。
 
    手順については、[プロジェクトへのテンプレートの添付](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md)を参照してください。
@@ -115,6 +121,8 @@ ht-degree: 82%
 1. （オプション）プロジェクトのワークフローを編集します（[プロジェクトでのワークフローの編集](#edit-workflow-values-in-a-project)を参照）。
 
    テンプレートまたはプロジェクトで使用できるのは、「設定」の「Experience Manager」エリアでアクティベートされたワークフローのみです。
+
+
 
 ### プロジェクト内のワークフロー値の編集
 
@@ -130,9 +138,17 @@ ht-degree: 82%
   >
   >これらのエリアが表示されない場合、Workfront 管理者は組織のワークフローを有効にしていません。
 
+
+
 #### リンクされているフォルダー
 
+>[!NOTE]
+>
+>リンクフォルダはプロジェクトの作成時に作成されるので、既存のプロジェクトでリンクフォルダのワークフローを編集しても効果がありません。 プロジェクトを作成する際にこれらの値を編集すると、期待どおりに機能します。
+
 リンクされているフォルダーのワークフローを編集するには：
+
+実稼動環境では、次の操作をおこないます。
 
 1. 切り替え **[!UICONTROL リンクされたフォルダーを作成]** 必要に応じてオンまたはオフにします。
 1. （条件付き）リンクされたフォルダーを有効にする場合、すべてのリンクされたフォルダーをこの統合に関連付ける場所を示すフォルダーパスを選択します。
@@ -142,6 +158,31 @@ ht-degree: 82%
 
    次の場合、 [!DNL Adobe Experience Manager area]を設定すると、変更内容は自動的に保存されます。 <!--Do they though?-->
 
+プレビューサンドボックス環境では、次の操作をおこないます。
+
+<div class="preview">
+
+1. 切り替え **[!UICONTROL リンクされたフォルダーを作成]** 必要に応じてオンまたはオフにします。 オンに切り替えると、リンクされたフォルダー設定を編集できます。
+
+   リンクされたフォルダーの設定について詳しくは、 [Adobe Experience Managerにリンクされたフォルダーの作成](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) 記事内 [を設定します。 [!UICONTROL Experience Manager Assetsas a Cloud Service] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. （オプション）プロジェクトに添付されたカスタムフォームに特定の値が存在する場合にのみフォルダーツリーを構築する場合は、 **フィルターを適用** そのフォルダーツリーに対して、フィールド、フィールドおよびフィールド値を含むカスタムフォームを選択します。 新しいプロジェクトに添付されたカスタムフォーム上のフィールドに選択した値が含まれている場合、フォルダーツリーが作成されます。
+1. （オプション）フォルダー名を設定する際に、次のオプションから選択できます。
+
+   * **名前**：フォルダーの名前を入力します。
+
+   * **オブジェクトデータ**：フォルダー名のソースを選択します（「プロジェクト名」など）。
+
+   * **カスタムフォームデータ**：フォルダー名として使用するカスタムフォームデータを選択します。
+
+     フォルダー名にカスタムフォームデータを使用する方法は、テンプレートレベルでのみ使用でき、統合レベルでは設定できません。
+
+     プロジェクトに添付されるカスタムデータに存在しないカスタムデータにフォルダ名が設定されている場合、フォルダ名にランダムな ID が割り当てられます。
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+</div>
+
 
 #### アセットの公開
 
@@ -149,10 +190,4 @@ ht-degree: 82%
 
 1. 切り替え **アセットを自動的に公開** 必要に応じてオンまたはオフにします。
 1. （条件付き）公開を有効にする場合、公開サービス、Brand Portal またはその両方に公開するかどうかを選択します。
-1. クリック **[!UICONTROL 保存]** を使用している場合、 [!UICONTROL プロジェクトを作成] または [!UICONTROL プロジェクトを編集] ウィンドウ
-
-   または
-
-   次の場合、 [!DNL Adobe Experience Manager area]を設定すると、変更内容は自動的に保存されます。 <!--Do they though?-->
-
-
+1. 「**[!UICONTROL 保存]**」をクリックします。

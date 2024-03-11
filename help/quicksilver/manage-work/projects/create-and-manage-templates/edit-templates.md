@@ -6,7 +6,7 @@ description: プロジェクトテンプレートを編集して、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 98%
@@ -1116,3 +1116,4 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. （オプション）テンプレートをアクティブにするには、テンプレート名の横にある&#x200B;**その他** ![](assets/qs-more-icon-on-an-object.png) メニューをクリックし、続いて「**アクティブ化**」をクリックします。
 
    これでテンプレートがアクティブになり、プロジェクトにアタッチしたり、プロジェクトの作成に使用したりできます。
+
