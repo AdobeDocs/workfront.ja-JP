@@ -7,9 +7,9 @@ description: プルーフの役割を使用すると、個々のプルーフに�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '323'
+source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+workflow-type: tm+mt
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -55,13 +55,13 @@ ht-degree: 100%
    <th> <p><strong>コメントを追加</strong> </p> </th> 
    <th> <p><strong>返信がない場合は自分のコメントを編集</strong> </p> </th> 
    <th> <p><strong>決定を下す</strong> </p> </th> 
-   <th> <p><strong>他のユーザーが行ったコメントを削除</strong> </p> </th> 
+   <th> <p><strong>他のユーザーが残したコメントを削除</strong> </p> </th> 
    <th>コメントを解決</th> 
    <th>コメントにアクションを適用</th> 
    <th> <p><strong>プルーフを編集</strong> </p> </th> 
    <th>他のユーザーとプルーフを共有</th> 
    <th>新しいバージョンを作成</th> 
-   <th> <p><strong>ホームエリアで承認リクエストを表示</strong> </p> </th> 
+   <th> <p><strong>ホームエリアでの承認リクエストの表示</strong> </p> </th> 
    <th>新しいレビュー担当者を追加</th> 
   </tr> 
  </thead> 
@@ -75,7 +75,7 @@ ht-degree: 100%
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td> </td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -91,12 +91,12 @@ ht-degree: 100%
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>承認者</strong> </p> </td> 
@@ -107,12 +107,12 @@ ht-degree: 100%
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>レビュアーと承認者</strong> </p> </td> 
@@ -123,15 +123,15 @@ ht-degree: 100%
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> </td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p> </p> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>作成者</strong> </p> </td> 
+   <td> <p><strong>作者</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -147,7 +147,7 @@ ht-degree: 100%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>進行管理者</strong> </p> </td> 
+   <td> <p><strong>調整者</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p><strong>✓</strong> </p> </td> 
