@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '422'
 ht-degree: 6%
 
 ---
@@ -125,6 +125,6 @@ Workfrontでのアクセス権の付与について詳しくは、 [カスタム
 
 Adobe Workfrontのライセンスの種類は、Maestro の権限と組み合わせて使用し、Maestro オブジェクトの表示、投稿、管理を行うことができます。
 
-ライセンスの種類が Maestro オブジェクトの権限レベルに与える影響については、 [ライセンスの種類の概要 (AdobeMaestro)](/help/quicksilver/maestro/access/license-type-overview.md).
+ライセンスの種類が Maestro オブジェクトの権限レベルに与える影響については、 [Adobe Workfrontの計画機能を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

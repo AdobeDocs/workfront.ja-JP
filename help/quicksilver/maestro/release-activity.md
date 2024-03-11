@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 5%
 
 ---
@@ -146,7 +146,7 @@ Preview: To be determined
 
 ユーザーのライセンスタイプを考慮する権限レベルを変更しました。 この機能強化以前は、ユーザーのライセンスタイプに基づくワークスペース権限に違いはありませんでした。
 
-以下の権限が、ユーザーのライセンスタイプと組み合わせて機能するようになりました。
+ユーザーのライセンスの種類に基づいて、ユーザーが受け取ることができる最高レベルの権限を次に示します。
 
 * プランライセンス（または新しいライセンスモデルの標準ライセンス）を持つユーザーは、ワークスペース、レコードの種類、およびレコードを作成および管理できます。
 
@@ -156,7 +156,7 @@ Preview: To be determined
 
 新しいライセンスモデルについて詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-計画機能のライセンスの種類と権限の間の接続については、 [ライセンスの種類の概要 (AdobeMaestro)](/help/quicksilver/maestro/access/license-type-overview.md).
+計画機能のライセンスの種類と権限の間の接続については、 [Adobe Workfrontの計画機能を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### レコードフィールド用のリッチテキストツールバーの新しいルックアンドフィール

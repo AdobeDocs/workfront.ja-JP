@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 596a1c329ec748995f6322ad9ec4ed4f9198cf53
 workflow-type: tm+mt
-source-wordcount: '14004'
+source-wordcount: '14008'
 ht-degree: 94%
 
 ---
@@ -2045,7 +2045,7 @@ ht-degree: 94%
       * [アクセス情報](maestro/access/access-information.md)
       * [アクセス権の概要](maestro/access/access-overview.md)
       * [AdobeMaestro での共有権限の概要](maestro/access/sharing-permissions-overview.md)
-      * [ライセンスの種類の概要 (AdobeMaestro)](maestro/access/license-type-overview.md)
+      * [Adobe Workfrontの計画機能を使用する際のライセンスタイプの概要](maestro/access/license-type-overview.md)
       * [ワークスペースの共有](maestro/access/share-workspaces.md)
       * [ビューの共有](maestro/access/share-views.md)
    * Adobeマエストロレコード {#adobe-maestro-records}

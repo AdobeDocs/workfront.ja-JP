@@ -6,10 +6,10 @@ description: リストに表示されるフィールドを編集することで�
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '2825'
-ht-degree: 100%
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+workflow-type: tm+mt
+source-wordcount: '2848'
+ht-degree: 99%
 
 ---
 
@@ -81,6 +81,8 @@ ht-degree: 100%
 * タスクに加えた変更を Workfront がリストに保存するタイミングを制御できます。変更は自動的に保存することも、手動で保存することもできます。
 
   タスクに加えた変更を Workfront がリストに保存するタイミングの設定について詳しくは、この記事にある[リスト内のタスクを編集する際の保存のオプションを選択](#select-a-save-option-when-editing-tasks-in-a-list)の節を参照してください。
+
+* 他のユーザーは、タスクに対して行った更新を表示する前に、ページを更新する必要があります。
 
 ## リスト内のタスクを編集する際に保存のオプションを選択 {#select-a-save-option-when-editing-tasks-in-a-list}
 

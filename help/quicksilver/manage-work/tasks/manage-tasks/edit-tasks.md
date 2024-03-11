@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
-workflow-type: ht
-source-wordcount: '3712'
-ht-degree: 100%
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+workflow-type: tm+mt
+source-wordcount: '3729'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
    <td role="rowheader">アクセスレベル*</td> 
    <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -88,6 +88,8 @@ ht-degree: 100%
    * 時間のログ記録
    * 既存の費用の編集
    * カスタムフォームの添付
+
+* 他のユーザーは、タスクに対して行った更新を表示する前に、ページを更新する必要があります。
 
 ## リスト内のタスクの編集
 
@@ -238,9 +240,9 @@ ht-degree: 100%
       <td role="rowheader">タスクの制約</td> 
       <td> <p>タスクをいつ完了する必要があるかを、タスクの制約を指定して決定します。 </p> <p>次のオプションから選択します。 </p> 
        <ul> 
-      <li> <p><span>固定日付</span> </p> <p>「<strong>予定開始日</strong>」および「<strong>予定完了日</strong>」を指定します。 </p> </li> 
-      <li> <p><span>指定日に開始</span> </p> <p>「<strong>予定開始日</strong>」を指定します。 </p> </li> 
-      <li> <p><span>指定日に終了</span> </p> <p>「<strong>予定完了日</strong>」を指定します。 </p> </li> 
+      <li> <p><span>固定日付</span> </p> <p><strong>予定開始日</strong>と<strong>予定完了日</strong>を指定します。 </p> </li> 
+      <li> <p><span>指定日に開始</span> </p> <p><strong>予定開始日</strong>を指定します。 </p> </li> 
+      <li> <p><span>指定日に終了</span> </p> <p><strong>予定完了日</strong>を指定します。 </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>できるだけ早く</span></p> </li> 
@@ -249,9 +251,9 @@ ht-degree: 100%
       <li> <p> <span>最も遅い空き時間</span></p> </li> 
       <li> <p><span>指定日までに開始</span> </p> </li> 
       <li> <p>予定開始日を指定します。</p> </li> 
-      <li> <p><span>指定日以後に開始</span> </p> <p>「<strong>予定開始日</strong>」を指定します。 </p> </li> 
-      <li> <p> <span>これよりも遅く</span>終了しない</p> <p>「<strong>予定完了日</strong>」を指定します。 </p> </li> 
-      <li> <p> <span>これよりも早く</span>終了しない</p> <p><strong>予定完了日</strong>の指定</p> </li> 
+      <li> <p><span>指定日以後に開始</span> </p> <p><strong>予定開始日</strong>を指定します。 </p> </li> 
+      <li> <p> <span>これよりも遅く終了しない</span></p> <p><strong>予定完了日</strong>を指定します。 </p> </li> 
+      <li> <p> <span>これよりも早く終了しない</span></p> <p><strong>予定完了日</strong>を指定します。</p> </li> 
        </ul> <p>タスクの制約について詳しくは、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスクの制約の概要</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
@@ -262,8 +264,8 @@ ht-degree: 100%
       <td role="rowheader">予定開始日時</td> 
       <td> <p>タスクの開始がいつに予定されているか。タスクの予定開始日が設定され、次のような様々な要因の影響を受けます。</p> 
        <ul> 
-      <li>タスクの開始予定日に関するシステム全体の環境設定に応じて、プロジェクトの新規タスクの開始日は、デフォルトで本日またはプロジェクトの開始日になります。<span>プロジェクトに関連付けられたグループのグループ管理者も、グループに対してこの環境設定を指定できます。</span>システムレベルまたはグループレベルのタスクの環境設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">システム全体のタスクとイシューの環境設定の指定</a>を参照してください。</li> 
-      <li>タスクの先行タスクに応じて、予定開始日は、先行タスクの終了後（または先行タスク関係によっては開始後）の次の設定可能な日付として Workfront によって選択されます。先行タスクの関係について詳しくは、<a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">タスクの先行タスクの概要</a>を参照してください。</li> 
+      <li>タスクの開始予定日に関するシステム全体の環境設定に応じて、プロジェクトの新規タスクの開始日は、デフォルトで本日またはプロジェクトの開始日になります。<span>プロジェクトに関連付けられたグループのグループ管理者も、グループに対してこの環境設定を行うことができます。</span>システムレベルまたはグループレベルのタスク環境設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">システム全体のタスクとイシューの環境設定の指定</a>を参照してください。</li> 
+      <li>タスクの先行タスクに応じて、予定開始日は、先行タスクの終了後（または先行タスク関係によっては開始後）の次の設定可能な日付として Workfront によって選択されます。先行タスク関係について詳しくは、<a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">タスク先行タスクの概要</a>を参照してください。</li> 
       <li>タスクの制約が「固定日付」または「指定日に開始」のいずれかである場合、プロジェクトマネージャーまたはタスク責任者は、予定開始日を手動で設定できます。タスクの制約について詳しくは、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスクの制約の概要</a>を参照してください。</li> 
        </ul> </td> 
      </tr> 
@@ -272,7 +274,7 @@ ht-degree: 100%
       <td> <p>タスクの計画時に予想される完了日。予定完了日は、次のようなさまざまな要因によって設定できます。</p> 
        <ul> 
       <li>予定完了日は、予定開始日にタスクの期間を加算することによって、予定開始日から計算されます。プロジェクトマネージャーまたは Workfront 管理者がタスクの期間を指定すると、予定完了日の更新がトリガーされます。予定日が変更される原因の多くは、タスクの期間の更新です。</li> 
-      <li>タスクの制約が「固定日付」か「指定日に終了」のいずれかである場合、プロジェクトマネージャーまたはタスク責任者は、予定完了日を手動で設定できます。タスクの制約について詳しくは、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスクの制約の概要</a>を参照してください。</li> 
+      <li>タスクの制約が「固定日付」か「指定日に終了」のいずれかである場合、プロジェクトマネージャーまたはタスク責任者は、予定完了日を手動で設定できます。タスクの制約について詳しくは、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスク制約の概要</a>を参照してください。</li> 
       <li>タスクの期間タイプが変更され、同時にタスクのリソース数が変更されると、予定完了日も変更されます。期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</li> 
        </ul> </td> 
      </tr> 
@@ -301,7 +303,7 @@ ht-degree: 100%
       <p>次のオプションから選択します。</p> 
       <ul> 
       <li>小</li> 
-      <li>中 <span style="font-weight: normal;">（これは新規タスクのデフォルト値です）</span></li> 
+      <li>中<span style="font-weight: normal;">（新しいタスクのデフォルト値）</span></li> 
       <li>大</li> 
       </ul> 
       <p><b>メモ</b>
@@ -323,7 +325,7 @@ ht-degree: 100%
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
-1. 「**ユーザー、役割、チームを検索する**」をクリックして、タスクに割り当てるユーザー、役割またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
+1. 「**ユーザー、役割、チームを検索**」をクリックして、タスクに割り当てるユーザー、役割、またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
 
    >[!NOTE]
    >
@@ -352,7 +354,7 @@ ht-degree: 100%
       <li> <p>タスクに割り当てられたリソースの数 </p> </li> 
       <li> <p>タスクの完了に必要な合計作業量 </p> </li> 
       <li> <p> タスクの合計期間。 </p> </li> 
-       </ul> <p>システムまたはグループのタスクに対する期間タイプのデフォルト設定は、Workfront 管理者 <span> またはグループ管理者 </span> が選択します。プロジェクトのデフォルトの設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
+       </ul> <p>システムまたはグループのタスクについては、Workfront 管理者<span>またはグループ管理者</span>がデフォルトの「期間タイプ」設定を選択します。プロジェクトデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
        <ul> 
       <li> <p>予定割り当て時間 </p> </li> 
       <li> <p> 予定作業 </p> </li> 
@@ -407,7 +409,7 @@ ht-degree: 100%
       <td>W</td> 
       </tr> 
       <tr> 
-      <td>月</td> 
+      <td>か月</td> 
       <td>T</td> 
       </tr> 
       <tr> 
@@ -513,7 +515,7 @@ ht-degree: 100%
         <li> <p>固定 (毎時) </p> </li> 
         <li> <p> ユーザー (毎時) </p> </li> 
         <li> <p> 役割（毎時）</p> </li> 
-       </ul> <p>コストの追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。システムまたはグループのタスクに対するデフォルトのコストタイプ設定は、Workfront 管理者またはグループ管理者が選択します。プロジェクトのデフォルトの設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定を指定</a>を参照してください。</p> </td> 
+       </ul> <p>コストの追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。システムまたはグループのタスクに対するデフォルトのコストタイプ設定は、Workfront 管理者またはグループ管理者が選択します。プロジェクトのデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定の指定</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">収益タイプ</td> 
@@ -523,7 +525,7 @@ ht-degree: 100%
       <li> <p>ユーザー (毎時) </p> </li> 
       <li> <p>役割（毎時） </p> </li> 
       <li> <p>固定 (毎時) </p> </li> 
-      <li> <p>ユーザー (毎時)（上限付き） </p> </li> 
+      <li> <p>ユーザー (毎時) (キャップ付き) </p> </li> 
       <li> <p>役割（毎時）（上限付き） </p> </li> 
       <li> <p>ユーザー（毎時）+ 固定 </p> </li> 
       <li> <p>役割（毎時）+ 固定 </p> </li> 
