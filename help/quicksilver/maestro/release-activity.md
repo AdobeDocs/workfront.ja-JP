@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 5%
 
 ---
@@ -133,6 +133,8 @@ Preview: To be determined
 プレビュー：決定する必要があります
 
 接続されたレコードやその参照フィールドで、フィルター処理、並べ替え、グループ化をおこなうことができるようになりました。 この強化により、テーブルビューとタイムラインビューの両方でデータを効率的に整理および視覚化するのに役立ちます。
+
+複数のレコードとの接続を許可する参照フィールドで、フィルター処理、並べ替え、グループ化を行うことはできません。
 
 詳しくは、 [テーブル表示の管理](/help/quicksilver/maestro/views/manage-the-table-view.md) および [タイムライン表示を管理](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Adobe Workfrontの計画機能は、プレビューおよびサンドボック�
 * 表示：ユーザーは、レコードタイプのページの表示ドロップダウンメニューから表示を選択できます。
 * 管理：ユーザーは、ビューを編集、共有、削除できます。
 
-詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md) および [AdobeMaestro での共有権限の概要](../maestro/access/sharing-permissions-overview.md).
+詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md) および [Adobe Workfrontの計画機能での共有権限の概要](../maestro/access/sharing-permissions-overview.md).
 
 ### 新しい数式フィールドのタイプ
 

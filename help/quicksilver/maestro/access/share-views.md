@@ -4,9 +4,9 @@ description: 他のユーザーとビューを共有して、Adobe Workfrontの�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 7%
 
 ---
@@ -65,7 +65,8 @@ ht-degree: 7%
 
 <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
-   <td> <p>ビューに対する権限を管理</p>  
+   <td> <p>ビューに対する権限を管理</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ ht-degree: 7%
 >
 >システム管理者は、自分で作成しなかったビューを表示または共有できません。 ユーザーは、自分と共有されているビューに対してのみアクセスまたは共有できます。
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ ht-degree: 7%
    * 表示
    * 管理
 
-     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [AdobeMaestro での共有権限の概要](../access/sharing-permissions-overview.md).
+     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [Adobe Workfrontの計画機能での共有権限の概要](../access/sharing-permissions-overview.md).
 1. クリック **リンクをコピー** をクリックして、ビューへのリンクをクリップボードにコピーします。
 1. コピーしたリンクを他のユーザーと共有します。 レコードタイプのページにアクセスして選択したビューに表示するには、リンクを受け取ったユーザーがアクティブユーザーであり、Workfrontにログインしている必要があります。
 1. 「**保存**」をクリックします。

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 3%
+source-wordcount: '1705'
+ht-degree: 2%
 
 ---
 
@@ -174,6 +174,8 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 
   詳しくは、この記事の「フィルターの追加」の節を参照してください [テーブル表示の管理](../views/manage-the-table-view.md).
 
+* 接続されたレコードフィールドまたは参照フィールドでフィルタリングできますが、複数のレコードにリンクできるフィールドに対してはフィルタリングできません。
+
 ### グループ化を追加
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 * グループは、選択した表示に固有です。 同じレコードタイプの 2 つのタイムライン表示で、異なるグループを適用することができます。 同じタイムライン表示を見ている 2 人のユーザーには、現在適用されているのと同じグループが表示されます。
 * タイムライン表示用に作成したグループに名前を付けることはできません。
 * グループを削除すると、自分と同じレコードタイプにアクセスし、自分と同じビューを表示する人から、自分が削除されます。
+* 複数のレコードへのリンクを許可するフィールドでは、接続されたレコードフィールドまたは参照フィールドでグループ化できません。
 
 タイムライン表示でグループを追加するには：
 

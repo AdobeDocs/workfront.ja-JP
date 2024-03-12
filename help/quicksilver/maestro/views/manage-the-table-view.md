@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 4%
 
 ---
@@ -109,7 +109,7 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
    * [行（またはレコード）](#add-rows-or-records)
    * [フィルター](#add-filters)
    * [グループ化](#add-groupings)
-   * [並べ替え](#sort-information)
+   * [並べ替え](#add-a-sort)
 
 
 ### 列（またはフィールド）を追加 {#add-columns}
@@ -261,6 +261,8 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 
 * テーブル表示にフィルターを追加する方法は、タイムライン表示にフィルターを追加する方法と同じです。
 
+* 接続されたレコードフィールドまたは参照フィールドでフィルタリングできますが、複数のレコードにリンクできるフィールドに対してはフィルタリングできません。
+
 テーブルビューにフィルターを追加するには、次の手順に従います。
 
 1. 記事の説明に従って、レコードタイプのページのテーブルビューを作成します。 [レコードビューの管理](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 * テーブルビューに対して作成したグループに名前を付けることはできません。
 * グループを削除すると、自分と同じレコードタイプにアクセスし、自分と同じビューを表示する人から、自分が削除されます。
 * グループ化の下にリストされたレコードを編集できます。
+* 複数のレコードへのリンクを許可するフィールドでは、接続されたレコードフィールドまたは参照フィールドでグループ化できません。
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 * リンクされたフィールドは、単一の値を許可する場合、または集計オプションが選択された状態で複数の値を選択できる場合（合計、平均、最大、最小）にのみ並べ替え可能です。
 
 * 並べ替え基準を削除すると、自分と同じレコードタイプにアクセスするすべてのユーザーから削除され、使用したのと同じビューが使用されます。
+
+* 連結されたレコードフィールドまたは参照フィールドで並べ替えることができますが、複数のレコードにリンクできるフィールドに対しては並べ替えることはできません。
 
 並べ替えるには <!--ungrouped (add this when sorting for groupings will be available--> レコードを作成するには、以下の手順を実行します。
 

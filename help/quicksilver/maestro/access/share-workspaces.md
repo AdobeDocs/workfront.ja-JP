@@ -1,14 +1,14 @@
 ---
 title: ワークスペースの共有
-description: ワークスペースを他のユーザーと共有して、Adobe Workfront Maestro で作業する際のコラボレーションを確保できます。
+description: ワークスペースを他のユーザーと共有して、Adobe Workfrontの計画機能で作業する際のコラボレーションを確保できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-ワークスペースを他のユーザーと共有して、Adobe Workfront Maestro で作業する際のコラボレーションを確保できます。
+ワークスペースを他のユーザーと共有して、Adobe Workfrontの計画機能で作業する際のコラボレーションを確保できます。
 
 >[!NOTE]
 >
@@ -45,25 +45,27 @@ ht-degree: 1%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
-   <p>任意</p> 
+   <p>新規：標準</p>
+   または
+   <p>現在：プラン </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> AdobeMaestro のアクセス制御はありません</p>  
+   <td> Adobe Workfront Planning 機能に対するアクセス制御はありません</p>  
 </td>
   </tr>
 
@@ -102,10 +104,10 @@ ht-degree: 1%
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
-   * 貢献
+   * 参加
    * 管理
 
-     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [AdobeMaestro での共有権限の概要](../access/sharing-permissions-overview.md).
+     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [Adobe Workfrontの計画機能での共有権限の概要](../access/sharing-permissions-overview.md).
 1. クリック **リンクをコピー** をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
 1. コピーしたリンクを他のユーザーと共有します。 このワークスペースにアクセスするには、リンクを受け取ったユーザーがアクティブユーザーであり、Workfrontにログインする必要があります。
 1. 「**保存**」をクリックします。

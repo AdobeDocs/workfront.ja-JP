@@ -1,13 +1,13 @@
 ---
-title: AdobeMaestro での共有権限の概要
+title: Adobe Workfrontの計画機能での共有権限の概要
 description: AdobeMaestro のワークスペースまたはビューに対する権限を共有または削除できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 13%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 13%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# AdobeMaestro での共有権限の概要
+# Adobe Workfrontの計画機能での共有権限の概要
 
 {{maestro-important-intro}}
 
-AdobeMaestro のワークスペースまたはビューに対する権限を共有または削除できます。
+Adobe Workfrontの計画機能を使用する際に、ワークスペースまたはビューに対する権限を共有または削除できます。
 
-この記事では、Maestro オブジェクトの権限レベルについて説明します。
+この記事では、計画機能オブジェクトの権限レベルについて説明します。
 
 ワークスペースまたはビューの共有方法については、次の記事を参照してください。
 
@@ -30,9 +30,9 @@ AdobeMaestro のワークスペースまたはビューに対する権限を共�
 
 * [ビューの共有](/help/quicksilver/maestro/access/share-views.md)
 
-## AdobeMaestro で共有できるオブジェクト
+## Adobe Workfrontの計画機能で共有できるオブジェクト
 
-Maestro では、以下のオブジェクトを共有できます。
+次のオブジェクトを共有できます。
 
 * ワークスペース
 
@@ -40,27 +40,27 @@ Maestro では、以下のオブジェクトを共有できます。
 
 * ビュー
 
-## Maestro でのオブジェクトの共有に関する考慮事項
+## Adobe Workfrontの計画機能でのオブジェクトの共有に関する考慮事項
 
-* Adobe Workfrontのライセンスの種類は、Maestro の権限と組み合わせて使用し、Maestro オブジェクトの表示、投稿、管理を行うことができます。
+* Adobe Workfrontのライセンスの種類は、プラン機能を使用する際に、オブジェクトの表示、投稿、管理に対するアクセス権を付与する権限と組み合わせて機能します。
 
-  ライセンスの種類が Maestro オブジェクトの権限レベルに与える影響については、 [Adobe Workfrontの計画機能を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
+  ライセンスの種類がプランニング機能オブジェクトの権限レベルに与える影響の詳細については、「 [Adobe Workfrontの計画機能を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
 * システム管理者は、他のユーザーが作成したワークスペースを管理および共有できます。
 * システム管理者でない場合は、他のユーザーが作成したワークスペース（共有している場合）に投稿できます。
 * ワークスペースを一括で共有することはできません。
-* ワークスペースを次のエンティティと共有できます。
+* ワークスペースまたはビューを次のエンティティと共有できます。
    * ユーザー
    * グループ
-* システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。
+* システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 <!--System administrators can only be given permissions to Manage a view.-->
 * ワークスペースへのリンクや、レコードタイプのページからのビューへのリンクを他のユーザーと共有できます。 リンクを受け取ったユーザーが、選択したビューに表示されるワークスペースまたはレコードタイプのページにアクセスできるようにするには、アクティブユーザーであり、Workfrontにログインする必要があります。
 
-## Maestro オブジェクトに対する権限の共有
+## Adobe Workfront Planning 機能オブジェクトに対する権限の共有
 
-次のセクションの表に、Maestro ワークスペースまたは表示を共有する際に選択できる権限のレベルと、各レベルで許可される機能を示します。
+次の節の表では、ワークスペースやビューを共有する際に選択できる権限のレベルと、各レベルで許可される機能を示します。
 
 >[!IMPORTANT]
 >
->一部のユーザーが以下に説明する権限レベルを持つことはできません。 ユーザの個々のライセンスは、Maestro オブジェクトに対して受け取る権限のレベルを決定します。
+>一部のユーザーが以下に説明する権限レベルを持つことはできません。 ユーザーの個別ライセンスは、Planning 機能オブジェクトに対して受け取る権限のレベルを決定します。
 >
 >詳しくは、 [Adobe Workfrontの計画機能を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
 
