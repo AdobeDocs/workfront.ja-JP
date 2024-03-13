@@ -4,10 +4,10 @@ description: 2024 年第 2 四半期のリリース期間中のルックアン�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 3%
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -35,13 +35,5 @@ Adobeに承認者を追加し、ボードにユーザーを追加するための
 
 詳しくは、 [フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) および [レガシーフォームビルダーを使用したカスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## ワークロードバランサーで手動で調整した割り当てのインジケーター
 
->[!NOTE]
->
->プレビューリリース：2023 年 10 月 12 日、高速リリース用の実稼動：24.2 リリース（2024 年 2 月 15 日）、四半期リリース用の実稼動：24.4 リリース（2024 年 4 月）
-
-手動で調整した時間別割り当てに鉛筆アイコンが表示され、ワークロードバランサーでの手動調整やコンタリングに関するより明確な情報を提供します。
-
-詳しくは、[ワークロードバランサーでのユーザー割り当ての管理](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)を参照してください。
 

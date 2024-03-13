@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '14023'
+source-wordcount: '14032'
 ht-degree: 94%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 94%
          * [2024 年第 2 四半期のホームの機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [2024 年第 2 四半期の統合の強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [2024 年第 2 四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [2024 年第 2 四半期のリソース管理の強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024 年第 2 四半期の更新ストリームの機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [2024 年第 2 四半期リリース期間のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * 2024 年第 1 四半期リリース {#release-24-q1}
@@ -395,6 +396,7 @@ ht-degree: 94%
    * ベータ版プログラム {#beta}
       * [Beta のプログラム](product-announcements/betas/betas.md)
       * キャンバスダッシュボードベータ版 {#canvas-dashboards-beta}
+         * [キャンバスダッシュボードベータ情報](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [レポートキャンバスベータ版の概要](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [キャンバスダッシュボードベータ版：リリースアクティビティ](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * 新しいコメントエクスペリエンスベータ版 {#new-commenting-experience-beta}

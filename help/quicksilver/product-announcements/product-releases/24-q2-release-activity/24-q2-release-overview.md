@@ -4,9 +4,9 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 25%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 25%
 * [管理者機能の強化](#administrator-enhancements)
 * [ホームの機能強化](#home-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+* [リソース管理の強化](#resource-management-enhancements)
 * [ストリームと通知の機能強化の更新](#update-stream-and-notification-enhancements)
 * [その他の機能強化](#other-enhancements)
 
@@ -186,21 +187,20 @@ ht-degree: 25%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合における自動フォルダー作成ワークフローの強化</a></p><span style="color: #ff0000;"> プレビューの新機能</span><p>WTAdobe Experience Managerフォルダーで必要な内容をより正確に反映させるために、ネストされたフォルダーツリーをAdobe Experience Managerリンクフォルダーワークフローに追加しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合における自動フォルダー作成ワークフローの強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>WTAdobe Experience Managerフォルダーで必要な内容をより正確に反映させるために、ネストされたフォルダーツリーをAdobe Experience Managerリンクフォルダーワークフローに追加しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
                                 <p>プレビューリリース： 2024 年 3 月 12 日</p>
                             </li>
-                             <li> <p><span class="preview">実稼動環境への四半期リリース： 2024 年 3 月 14 日</span></p>
+                             <li> <p><span class="preview">すべてのお客様向けの実稼動リリース： 2024 年 3 月 14 日</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### プロジェクトの強化
 
@@ -247,6 +247,43 @@ ht-degree: 25%
                             </li>
                             <li>
                                 <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月 15 日）</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### リソース管理の強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ワークロードバランサーで手動で調整した割り当てのインジケーター</a></p><p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p><p>手動で調整した時間別割り当てに鉛筆アイコンが表示され、ワークロードバランサーでの手動調整やコンタリングに関するより明確な情報を提供します。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年10月12日（PT）</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動環境：24.2 リリース（2024 年 2 月 16 日）</p>
                             </li>
                             <li>
                                 <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
