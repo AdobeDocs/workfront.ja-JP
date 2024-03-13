@@ -6,16 +6,14 @@ description: Experience Manager Assets Essentials 統合でのワークフロー
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 62%
+source-wordcount: '1042'
+ht-degree: 63%
 
 ---
 
 # Experience Manager Assets 統合でのワークフローの使用
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 ワークフローとは、Workfront を Adobe Experience Manager as a Cloud Service に接続する一連のアクションです。Workfront 管理者は、Workfront でワークフローを設定し、プロジェクトテンプレートに割り当てることができます。ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
 
@@ -130,7 +128,7 @@ ht-degree: 62%
 
 すべてのワークフロー値は、次の場所にあります。
 
-* プロジェクトを作成またはプロジェクトを編集ウィンドウのワークフローセクション。
+* プロジェクトを作成またはプロジェクトを編集ウィンドウの「ワークフロー」または「リンクされたフォルダー」セクション。
 * 左ナビゲーションの Adobe Experience Manager セクション。
 
 
@@ -148,19 +146,6 @@ ht-degree: 62%
 
 リンクされているフォルダーのワークフローを編集するには：
 
-実稼動環境では、次の操作をおこないます。
-
-1. 切り替え **[!UICONTROL リンクされたフォルダーを作成]** 必要に応じてオンまたはオフにします。
-1. （条件付き）リンクされたフォルダーを有効にする場合、すべてのリンクされたフォルダーをこの統合に関連付ける場所を示すフォルダーパスを選択します。
-1. クリック **[!UICONTROL 保存]** を使用している場合、 [!UICONTROL プロジェクトを作成] または [!UICONTROL プロジェクトを編集] ウィンドウ
-
-   または
-
-   次の場合、 [!DNL Adobe Experience Manager area]を設定すると、変更内容は自動的に保存されます。 <!--Do they though?-->
-
-プレビューサンドボックス環境では、次の操作をおこないます。
-
-<div class="preview">
 
 1. 切り替え **[!UICONTROL リンクされたフォルダーを作成]** 必要に応じてオンまたはオフにします。 オンに切り替えると、リンクされたフォルダー設定を編集できます。
 
@@ -179,10 +164,8 @@ ht-degree: 62%
 
      プロジェクトに添付されるカスタムデータに存在しないカスタムデータにフォルダ名が設定されている場合、フォルダ名にランダムな ID が割り当てられます。
 
+1. フォルダーツリーを表示するには、 **プレビュー** ![プレビューアイコン](assets/preview-icon.png) アイコン
 1. 「**[!UICONTROL 保存]**」をクリックします。
-
-</div>
-
 
 #### アセットの公開
 

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
-ht-degree: 92%
+source-wordcount: '7486'
+ht-degree: 93%
 
 ---
 
@@ -252,14 +252,13 @@ ht-degree: 92%
          <li> <p>設定領域のグループのメインページからプロジェクトを作成すると、そのグループがプロジェクトに関連付けられます。</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>メモ</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>プロジェクト、またはそのタスクや問題がグループレベルのカスタム状態に関連付けられている場合は、プロジェクトのグループを変更すると、新しいグループに合わせてプロジェクト、タスク、または問題の状態が変更されます。&lt;/p>&lt;/li>
-       &lt;li>&lt;p>グループレベルのカスタムステータスを使用して、プロジェクト、またはそのタスクまたは問題が既にグループレベルの承認プロセスに関連付けられている場合、グループを変更すると、前のグループの承認ステータスとシステムレベルの承認ステータスが競合する可能性があります。&lt;/p>
-       &lt;p>グループを更新する前に、プロジェクト上のグループレベルの承認プロセス、またはそのタスクや問題を削除することを検討してください。&lt;/p>
-       &lt;p>グループレベルの承認プロセスの作成について詳しくは、グループレベルの承認&lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>プロセスを参照してください&lt;/a>。&lt;/p>
-       &lt;p>グループレベルのカスタムステータスの作成について詳しくは、「グループステータスの作&lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>成または編集」を参照してください。&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>プロジェクト、またはそのタスクやイシューがグループレベルのカスタムステータスに関連付けられている場合は、プロジェクトのグループを変更すると、新しいグループに合わせてプロジェクト、タスク、またはイシューのステータスが変更されます。</p></li>
+         <li><p>グループレベルのカスタムステータスを使用して、プロジェクト、またはそのタスクまたはイシューが既にグループレベルの承認プロセスに関連付けられている場合、グループを変更すると、前のグループの承認ステータスとシステムレベルの承認ステータスが競合する可能性があります。</p>
+         <p>グループを更新する前に、プロジェクト、そのタスクやイシューに対するグループレベルの承認プロセスの削除を検討してください。</p>
+         <p>グループレベルの承認プロセスの作成について詳しくは、<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>を参照してください。</p>
+         <p>グループレベルのカスタムステータスの作成について詳しくは、<a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">グループステータスの作成または編集</a>を参照してください。</p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>会社</strong> </td> 
          <td> <p>プロジェクトに関連付けられている会社を指定します。会社をプロジェクトに関連付ける前に、会社を作成する必要があります。プロジェクトに関連付けることができるのは、アクティブな会社のみです。会社の作成について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">会社の作成と編集</a>を参照してください。</p> </td> 
@@ -653,6 +652,22 @@ ht-degree: 92%
    </table>
 
 1. 「**保存**」をクリックします。
+
+### リンクされているフォルダー
+
+リンクされたフォルダー機能は、自動的にAdobe Experience Manager Assetsにフォルダーを作成し、これらのフォルダーをWorkfrontに接続します。
+
+このセクションは、次のすべてに該当する場合にのみ表示されます。
+
+* 組織はAdobe Admin Consoleに移行されました
+* 組織がAdobe Experience Managerとの統合を有効にし、設定しました
+* このプロジェクトの作成に使用するテンプレートは、リンクされたフォルダーを有効にし、設定しました。
+
+リンクされたフォルダーの編集手順については、 [プロジェクト内のワークフロー値の編集](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) (「 Experience Manager Assets統合でのワークフローの使用」記事 )。
+
+>[!NOTE]
+>
+>リンクフォルダはプロジェクトの作成時に作成されるので、既存のプロジェクトでリンクフォルダのワークフローを編集しても効果がありません。 プロジェクトを作成する際にこれらの値を編集すると、期待どおりに機能します。
 
 ## プロジェクトヘッダーでのプロジェクトの編集（制限あり）
 

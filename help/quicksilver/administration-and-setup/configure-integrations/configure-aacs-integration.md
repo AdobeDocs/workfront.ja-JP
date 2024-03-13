@@ -6,9 +6,9 @@ description: 作業内容を [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1667'
 ht-degree: 67%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 67%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Adobe Experience Managerの統合では、次のワークフローを使用で�
 ### Adobe Experience Managerにリンクされたフォルダーの作成
 
 1. 「**[!UICONTROL リンクされたフォルダーを作成]**」を有効にします。
-1. フォルダーパスを選択して、この統合に関連付けるリンクされたすべてのフォルダーの場所を指定します。
-   ![リンクされたフォルダーナビゲーション](assets/select-folder-aem-integration.png)
-1. 「**[!UICONTROL ポートフォリオ名とプログラム名を追加]**」オプションを有効にすると、リンクされたフォルダー名の最後にポートフォリオ名とプログラム名が自動的に追加されます。
-1. クリック **[!UICONTROL 保存]** または、 [Adobe Experience Manager Assetsに送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 」の節を参照してください。
-
-プレビューサンドボックス環境の場合
-
-<div class="preview">
-
-1. 「**[!UICONTROL リンクされたフォルダーを作成]**」を有効にします。
 1. 作成するリンク先フォルダの名前を入力します。
 1. （条件付き） **デフォルトのフォルダーツリー** オプションを指定します。 1 つ以上のデフォルトのフォルダーを選択できます。
 1. フォルダーパスを選択して、この統合に関連付けるリンクされたすべてのフォルダーの場所を指定します。
@@ -295,8 +284,6 @@ Adobe Experience Managerの統合では、次のワークフローを使用で�
 >* フォルダーツリーの最初のフォルダーは、自動的にWorkfrontにリンクされているとマークされます。 このフォルダをリンクしない場合は、リンクを解除できます。
 >* フォルダーツリーを指定しない場合、ルートフォルダーはリンクされたフォルダーになります。
 
-
-</div>
 
 ### Adobe Experience Manager Assetsに送信されたアセットの公開
 
