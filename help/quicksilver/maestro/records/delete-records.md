@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Adobe・マエストロでは、不要になったレコードを削除できます。
+Adobe Workfrontの計画機能と関係がなくなったレコードは削除できます。
 
 ## アクセス要件
 
@@ -39,17 +39,17 @@ Adobe・マエストロでは、不要になったレコードを削除できま
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p>
    </td>
    <td>
    <p>任意</p> 
@@ -58,7 +58,7 @@ Adobe・マエストロでは、不要になったレコードを削除できま
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません </p>  
+   <td> <p>Adobe Workfront Planning 機能に対するアクセスレベルの制御はありません </p>  
 </td>
   </tr>
 
@@ -90,7 +90,6 @@ Adobe・マエストロでは、不要になったレコードを削除できま
 * 削除したレコードが他のレコードにリンクされている場合、リンクされたレコードは削除されませんが、削除したレコードの情報も削除されます。
 * レコードは一括で削除できません。 <!--this will probably change-->
 * タイムラインビューからレコードを削除することはできません。
-* 別のアプリケーションからリンクされたレコードタイプは削除できません。 例えば、Maestro レコードをWorkfrontオブジェクトにリンクする場合、WorkfrontオブジェクトレコードページからWorkfrontオブジェクトを削除することはできません。
 
 ## レコードを削除
 
@@ -132,12 +131,16 @@ Adobe・マエストロでは、不要になったレコードを削除できま
 1. レコードタイプをクリックします。
 
    レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの右上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+1. （条件付き） **表示** テーブルの左上隅にあるドロップダウンメニューから、テーブルビューを選択します。 最後にアクセスしたときにタイムラインビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
 
    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
-1. レコード行を右クリックし、 **削除**.
+1. 次のいずれかの操作を行います。
+
+   * レコード行を右クリックし、 **削除**.
+   * 次をクリック： **その他** メニュー ![](assets/more-menu.png) をクリックし、 **削除**
 
    ![](assets/contextual-menu-for-record-row.png)
+   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
 
    レコードは削除されているため、復元できません。
 

@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクトにアップデートコメント
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 75%
+source-wordcount: '1622'
+ht-degree: 76%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 75%
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 >
-><span class="preview">新しいコメントエクスペリエンスは、リスト、タイムシート、およびプレビュー環境のワークロードバランサーの [ 概要 ] パネルで使用できます。</span>
+><span class="preview">新しいコメントエクスペリエンスは、リスト、タイムシート、およびプレビュー環境のワークロードバランサーの [ 概要 ] パネルで使用できます。</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 ユーザーが従わない可能性のあるオブジェクトに注意を向けたい場合は、オブジェクトの更新時にユーザーにタグを付けることができます。
 
@@ -133,13 +133,9 @@ ht-degree: 75%
 
    <div class="preview">
 
-   プレビュー環境でのタグ付けの例：
    ![ユーザーのタグ付け](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   実稼動環境でのタグ付けの例：
-   ![](assets/tag-others-unified-commenting.png)
 
 1. （オプション）更新を非公開にするには、更新ボックスの右下隅にある「**社外秘**」を有効にします。これにより、更新が社内ユーザーのみに表示されるようになります。「**社外秘**」オプションは、Workfront プロファイルで会社が指定されている場合にのみ使用できます。
 
@@ -161,7 +157,7 @@ ht-degree: 75%
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">コメントテキストでタグ付けされると、それらのコメント内でユーザ名がハイライト表示されます。</span>
+   <span class="preview">コメントテキストでタグ付けされると、そのコメント内で名前がハイライト表示されます。</span>
 
    作業項目の更新時に使用できる追加機能について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 

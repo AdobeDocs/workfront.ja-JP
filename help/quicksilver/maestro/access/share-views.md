@@ -4,7 +4,7 @@ description: 他のユーザーとビューを共有して、Adobe Workfrontの�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 7%
@@ -107,6 +107,9 @@ ht-degree: 7%
    * 管理
 
      権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [Adobe Workfrontの計画機能での共有権限の概要](../access/sharing-permissions-overview.md).
+
+     <!--System administrators always receive Manage permissions to views shared with them.-->
+
 1. クリック **リンクをコピー** をクリックして、ビューへのリンクをクリップボードにコピーします。
 1. コピーしたリンクを他のユーザーと共有します。 レコードタイプのページにアクセスして選択したビューに表示するには、リンクを受け取ったユーザーがアクティブユーザーであり、Workfrontにログインしている必要があります。
 1. 「**保存**」をクリックします。

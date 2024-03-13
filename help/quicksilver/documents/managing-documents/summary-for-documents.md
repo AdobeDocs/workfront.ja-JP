@@ -7,16 +7,16 @@ description: 「概要」では、ドキュメントリストから直接重要�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 95%
 
 ---
 
 # ドキュメントの概要
 
-{{highlighted-preview}}
+<span class="preview">このページで強調表示されている情報は、プレビュー環境でのみ使用できます。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 「概要」では、ドキュメントリストから直接重要な情報を操作できます。
 
@@ -67,7 +67,7 @@ ht-degree: 95%
 * [概要](#overview)
 * [カスタムフォーム](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### 概要 {#overview}
 
@@ -79,7 +79,7 @@ ht-degree: 95%
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。カスタムフォームの名前を入力し、ドキュメントに追加します。詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## 更新
 
@@ -87,13 +87,10 @@ ht-degree: 95%
 
 <div class="preview">
 
-プレビュー環境での更新の例：
 ![概要パネルの「更新」セクション](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-実稼動環境での更新の例：
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## 承認
 
@@ -104,7 +101,7 @@ ht-degree: 95%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## バージョン
 
@@ -116,4 +113,4 @@ ht-degree: 95%
 * ドキュメントの詳細に移動する
 * プルーフまたはドキュメントを削除する
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 3%
 
 ---
@@ -117,9 +117,11 @@ ht-degree: 3%
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
-1. （条件付き） **表示** ドロップダウンメニュー <!--tab--> テーブルの右上隅で、 **テーブル** 表示。 最後にアクセスしたときに別のタイプのビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+1. （条件付き） **表示** テーブルの左上隅にあるドロップダウンメニューで、 **テーブル** 表示。 最後にアクセスしたときに別のタイプのビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
 
-   選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
+<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+
+    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
 1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -129,7 +131,7 @@ ht-degree: 3%
    >  次のフィールドの情報は読み取り専用で、Workfrontによって自動的に更新されるので、編集できません。
    >  
    >  * レコードタイプを接続して作成した、リンクされたフィールド。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
-   >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日
+   >  * 作成者、作成日、最終変更者、最終変更日、数式フィールドの各タイプのフィールド。
 
 1. （オプションおよび条件付き）段落タイプのフィールドを編集する場合、次の **リッチテキスト** フォーマットオプション：
 
@@ -147,12 +149,12 @@ ht-degree: 3%
 
 
    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
         >[!TIP]
         >
         >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
     1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
     -->
 
 1. （オプション）あるフィールドから別のフィールドに情報をコピーして貼り付けるには、次のいずれかの操作を行います。
@@ -168,7 +170,7 @@ ht-degree: 3%
    >* 情報のコピーと貼り付けには、次のキーボードショートカットを使用します。
    >   * コピー： CTRL + C( Macの場合は⌘ + C)
    >   * 貼り付け： Ctrl + V (Macの場合は⌘ + V)
-   >* 情報を貼り付けるフィールドと同じタイプの Maestro フィールド以外の別のソースから情報をコピーすることはできません。
+   >* 情報を貼り付けたフィールドと同じタイプのレコードフィールド以外の別のソースから情報をコピーすることはできません。
    >
    >* レコードの「詳細」領域にフィールド値をコピーして貼り付けることはできません。 この機能は、レコードタイプのテーブルビューでのみサポートされます。
    >* 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。
@@ -191,7 +193,7 @@ ht-degree: 3%
 
 ### レコードの詳細ページからレコードを編集する
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
 
 {{step1-to-maestro}}
 
@@ -212,8 +214,8 @@ ht-degree: 3%
 
    または
 
-   詳細ページの編集可能なフィールド内をクリックして、情報を編集します。
+   詳細ページの編集可能なフィールド内をクリックして、情報を編集します。 <!--Your changes are saved automatically.-->
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. クリック **変更を保存**. <!--logged a bug for this - this needs to be "Save"-->
+1. クリック **変更を保存**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->

@@ -6,10 +6,10 @@ description: ドキュメントの更新を追加したり、ドキュメント�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 69%
+source-wordcount: '385'
+ht-degree: 70%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 69%
 1. ドキュメントを含むオブジェクトに移動し、「 」を選択します。 **ドキュメント** をクリックします。
 1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
-   * リスト内のドキュメントをクリックし、 **概要を開く** アイコン ![](assets/qs-summary-in-new-toolbar-small.png) 右上隅で、「 **新しい更新を開始** または、 **返信** ：既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   * リスト内のドキュメントをクリックし、 **概要を開く** アイコン ![](assets/qs-summary-in-new-toolbar-small.png) 右上隅で、新しいコメントを追加するか、 **返信** ：既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
    * ドキュメントの上にマウスポインターを置いて、 **ドキュメントの詳細**&#x200B;を、 **更新** をクリックします。
 オブジェクトに更新を追加する方法の詳細については、「 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

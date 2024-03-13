@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 3%
 
 ---
@@ -114,6 +114,9 @@ Adobe Workfrontの計画機能では、レコードはレコードタイプの�
 
 1. （条件付き）レコードタイプのページがテーブルビューで開かない場合、 **表示** ドロップダウンメニューで、既存の **テーブル表示** ![](assets/table-view-icon.png) または、 **ビューを作成/テーブル** をクリックして、テーブルビューを作成します。
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. 新しいレコードを追加するには、 **新しいレコード** テーブルの最後の行
 
    または
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## 外部リストから情報をコピー&amp;ペーストしてレコードを作成する
 
-1. Maestro で、「 」セクションの説明に従って、テーブルビューでレコードの作成を開始します。 [レコードタイプに手動でレコードを追加してレコードを作成する](#create-records-by-manually-adding-them-to-a-record-type) 」を参照してください。
+1. 「 」セクションの説明に従って、テーブルビューでレコードの作成を開始します。 [レコードタイプに手動でレコードを追加してレコードを作成する](#create-records-by-manually-adding-them-to-a-record-type) 」を参照してください。
 
-   新しいレコード情報を入力する列（またはフィールド）が Maestro テーブルビューに含まれていることを確認します。
+   新しいレコード情報を入力する列（またはフィールド）がテーブルビューに含まれていることを確認します。
 
 1. クリック **新規 &lt; レコードタイプ名 >** をテーブルの最後の行に追加し、新しいレコードを追加する数だけ新しい行を追加します。
 
    例えば、別のアプリケーションから 10 件の新しいレコードの情報を貼り付ける場合は、10 行をテーブルビューに追加します。
 
-1. 別のアプリケーションで、Maestro にインポートするレコードのリストを作成します。
+1. 別のアプリケーションで、インポートするレコードのリストを作成します。
 
    例えば、Excel スプレッドシートを使用してリストを作成できます。
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > リストの列には、Maestro 内の既存のフィールドに関する情報を含める必要があります。
+   > リストの列には、Workfrontにある既存のフィールドに関する情報が含まれている必要があります。
    >
-   > 目的のフィールドが Maestro で既に作成され、シート内の情報が Maestro の各フィールドと一致する正しい形式で表示されていることを確認します。
+   > 目的のフィールドがWorkfrontで既に作成されていて、シート内の情報がWorkfrontの各フィールドと一致する正しい形式で表示されていることを確認します。
 
 1. 別のアプリケーションから、複数の行と列を選択し、最初の新しいレコードから始まるレコードタイプのテーブルビューに情報を貼り付けます。
 
-   次の情報が Maestro に読み込まれます。
+   次の情報が、「Workfront Planning Capabilities」領域にインポートされます。
 
    * 行に新しいレコードが含まれます
    * 列には、レコードのフィールドに関する情報が入力されます。

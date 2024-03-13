@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '4279'
-ht-degree: 56%
+source-wordcount: '4249'
+ht-degree: 57%
 
 ---
 
@@ -48,7 +48,7 @@ After the monthly releases to Production, the same features are also available i
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 >
-><span class="preview">新しいコメントエクスペリエンスは、リスト、タイムシート、およびプレビュー環境のワークロードバランサーの [ 概要 ] パネルで使用できます。</span>
+><span class="preview">新しいコメントエクスペリエンスは、リスト、タイムシート、およびプレビュー環境のワークロードバランサーの [ 概要 ] パネルで使用できます。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -243,13 +243,10 @@ After the monthly releases to Production, the same features are also available i
 
    <div class="preview">
 
-   プレビュー環境の新しいコメントボックスの例：
    ![新しいコメントボックス](assets/comment-box-all-tabs.png)
 
    </div>
 
-   実稼動環境の新しいコメントボックスの例：
-   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -446,13 +443,9 @@ After the monthly releases to Production, the same features are also available i
 
    <div class="preview">
 
-   プレビュー環境での検索例：
    ![更新を検索](assets/updates-all-tabs-with-search-field.png)
 
    </div>
-
-   実稼動環境での検索の例：
-   ![](assets/search-field-in-updates-tab.png)
 
    キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
 

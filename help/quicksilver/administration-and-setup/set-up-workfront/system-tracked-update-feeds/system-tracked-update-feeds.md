@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 66%
+source-wordcount: '463'
+ht-degree: 64%
 
 ---
 
 # システムで追跡される更新
 
-{{highlighted-preview}}
+<span class="preview">このページで強調表示されている情報は、プレビュー環境でのみ使用できます。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -88,11 +88,11 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * 新しいコメントエクスペリエンスと従来のコメントエクスペリエンスの違いを次に示します。
 
-   * 新しいコメントエクスペリエンスを使用する場合、ユーザーの更新が「コメント」タブに表示され、システムの更新が「システムアクティビティ」タブに表示されます。
+   * 新しいコメントエクスペリエンスを使用する場合、ユーザーの更新が「コメント」タブに表示され、システムの更新が「システムアクティビティ」に表示されます <span class="preview">そして全員</span> タブ。
 
      新しいコメントエクスペリエンスについて詳しくは、[新しいコメントエクスペリエンス](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 
-   * <span class="preview">新しいコメントエクスペリエンスを使用する場合、ユーザーはシステム更新にコメントを追加できません。 ただし、従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対する返信は、新しいコメント作成エクスペリエンスの「システムアクティビティ」タブに読み取り専用として入力されます。</span>
+   * <span class="preview">新しいコメント作成機能を使用する場合、システム更新にコメントを追加することはできません。 ただし、従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対する返信は、新しいコメント作成エクスペリエンスの「システムアクティビティ」タブに読み取り専用として入力されます。</span>
    * 従来のコメントエクスペリエンスを使用する場合、システムとユーザーの更新は 1 つの連続したフィードに表示されます。
 
    * 従来のコメントエクスペリエンスを使用する場合、ユーザーはデフォルトでシステムの更新を表示したり、表示しないように選択したりできます。 新しいコメントエクスペリエンスを使用する場合、システムの更新を無効にすることはできません。
