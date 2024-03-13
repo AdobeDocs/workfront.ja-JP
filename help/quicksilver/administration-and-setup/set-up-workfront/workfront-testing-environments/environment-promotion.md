@@ -12,23 +12,21 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
+source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 8%
+source-wordcount: '1894'
+ht-degree: 9%
 
 ---
 
-# 1 つからのオブジェクトの移動 [!DNL Workfront] 別の環境
+# オブジェクトの移動間隔： [!DNL Workfront] 環境の使用 [!DNL Workfront] 環境プロモーション API
 
-<!-- 
-TO DO
+環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。 この記事で説明するように、Workfront API を使用してこれらのオブジェクトを移動できます。
 
-Overview of value
-Check for any code changes
-Fix {}
-Add to tocs
--->
+Workfrontアプリケーションを使用して環境間でオブジェクトを移動する手順については、以下を参照してください。
+
+* [環境プロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [環境プロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 ## アクセス要件
 
@@ -65,66 +63,7 @@ Add to tocs
 
 環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。 トランザクションオブジェクトを移動する機能はサポートしていません（例外は制限されています）。
 
-* [作業オブジェクト](#work-objects)
-* [レポートオブジェクト](#reporting-objects)
-* [カスタムデータオブジェクト](#custom-data-objects)
-* [組織オブジェクト](#organization-objects)
-* [その他の設定オブジェクト](#other-configuration-objects)
-
-
-### 作業オブジェクト
-
-| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
-| --- | --- |
-| Project（PROJ） | プロジェクト<br>タスク<br>割り当て<br>前任者<br>会社情報<br>上書き率<br>グループ化<br>役割<br>チーム<br>承認プロセス<br>承認パス<br>承認ステップ<br>ステップ承認者<br>スケジュール<br>非稼働日<br>キューの定義<br>トピックグループをキュー<br>トピックをキュー<br>ルーティングルール<br>マイルストーンのパス<br>マイルストーン<br>時間タイプ<br>リソースプール<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック |
-| Template（TMPL） | テンプレート<br>テンプレートタスク<br>テンプレートタスクの割り当て<br>テンプレートタスクの先行タスク<br>会社情報<br>上書き率<br>グループ化<br>役割<br>チーム<br>承認プロセス<br>承認パス<br>承認ステップ<br>ステップ承認者<br>スケジュール<br>非稼働日<br>キューの定義<br>トピックグループをキュー<br>トピックをキュー<br>ルーティングルール<br>マイルストーンのパス<br>マイルストーン<br>時間タイプ<br>リソースプール<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック |
-
-### レポートオブジェクト
-
-| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
-| --- | --- |
-| レイアウトテンプレート (UITMPL) | レイアウトテンプレート<br>ダッシュボード<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>レポート<br>フィルター<br>グループ化<br>表示<br>パラメーター |
-| ダッシュボード (PTLTAB) | ダッシュボード<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>レポート<br>フィルター<br>グループ化<br>表示<br>パラメーター |
-| カレンダー (CALEND) | カレンダー<br>カレンダーセクション |
-| 外部ページ (EXTSEC) | 外部ページ |
-| レポート (PTLSEC) | レポート<br>フィルター<br>グループ化<br>表示<br>パラメーター |
-| フィルター (UIFT) | フィルター<br>パラメーター |
-| グループ化 (UIGB) | グループ化<br>パラメーター |
-| 表示 (UIVW) | 表示<br>パラメーター |
-
-### カスタムデータオブジェクト
-
-| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
-| --- | --- |
-| Category（CTGY） | カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック<br>グループ化 |
-| Parameter（PARAM） | パラメーター<br>パラメーターオプション |
-| パラメータグループ (PGRP) | パラメーターグループ |
-
-### 組織オブジェクト
-
-| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
-| --- | --- |
-| グループ（GROUP） | グループ化 <br>サブグループ（最大 5 レベル） *<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック |
-| Role（ROLE） | 役割 |
-| チーム（チーム） | チーム<br>グループ化 |
-| 会社 (CMPY) | 会社情報<br>上書き率<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーター <br>カテゴリの表示ロジック<br>グループ化 |
-| Portfolio（PORT） | Portfolio<br>プログラム<br>グループ化<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック |
-| Program（PRGM） | プログラム<br>Portfolio<br>グループ化<br>カテゴリ<br>カテゴリパラメーター<br>パラメーター<br>パラメータグループ<br>パラメーターオプション<br>カテゴリの表示ロジック |
-
-### その他の設定オブジェクト
-
-| 昇格可能なオブジェクト | 含まれるプロモート可能なサブオブジェクト |
-| --- | --- |
-| 承認プロセス (ARVPRC) | 承認プロセス<br>承認パス<br>承認ステップ<br>ステップ承認者<br>役割<br>チーム<br>グループ化 |
-| スケジュール (SCHED) | スケジュール<br>非稼働日<br>グループ化 |
-| マイルストーンパス (MPATH) | マイルストーンのパス<br>マイルストーン |
-| タイムシートプロファイル (TSPRO) | タイムシートプロファイル<br>時間タイプ |
-| 時間のタイプ (HOURT) | 時間タイプ |
-| 費用タイプ (EXPTYP) | 費用タイプ |
-| リスクタイプ (RSKTYP) | リスクタイプ |
-| リソースプール (RSPL) | リソースプール |
-
-\*現在は利用できません
+プロモート可能なオブジェクトとそれに含まれるプロモート可能なサブオブジェクトのリストについては、 [環境の昇格でサポートされるオブジェクト](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) 記事内 [Workfront環境間でのオブジェクトの移動の概要](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## 認証
 
@@ -435,38 +374,7 @@ _空_
 1. description （文字列）
 1. status （値の検証を含む文字列）
 
-ステータスのオプションは次のとおりです。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>組み立て</td> 
-   <td><p>このステータスは、オブジェクトのアセンブリ中に自動的に割り当てられます。</p><p>このステータスは、顧客が直接設定することはできません。</p></td> 
-  </tr> 
-  <tr> 
-   <td>ドラフト</td> 
-   <td><p>このステータスは、アセンブリプロセスの終了時、または空のプロモーションパッケージの作成時に割り当てられます。</p><p>顧客は、プロモーションパッケージをこのステータスに戻すことができます。</p><p>このステータスの場合、どの環境にもプロモーションパッケージをインストールすることはできません。</p></td> 
-  </tr> 
-  <tr> 
-   <td>テスト</td> 
-   <td><p>このステータスにより、任意のプレビューまたはカスタム更新サンドボックスにプロモーションパッケージをインストールできます。 このステータスの場合、パッケージを実稼動環境にインストールすることはできません。</p></td> 
-  </tr> 
-  <tr> 
-   <td>アクティブ</td> 
-   <td><p>このステータスにより、プロモーションパッケージを実稼動環境を含む任意の環境にインストールできます。</p><p>パッケージのステータスがアクティブに設定されている場合、 <code>publishedAt</code> 日付は、リクエストの現在のタイムスタンプに自動的に設定されます。</p></td> 
-  </tr> 
-  <tr> 
-   <td>無効</td> 
-   <td><p>このステータスは、以前使用したプロモーションパッケージを非表示にするために使用されます。このパッケージは、今後どの環境にもインストールされなくなります。</p><p>このステータスのパッケージは、どの環境にもインストールできません。</p><p>パッケージのステータスが DISABLED に設定されている場合、 <code>retiredAt</code> 日付は、リクエストの現在のタイムスタンプに自動的に設定されます。</p><p>このステータスの使用は、<code>DELETE /package</code> エンドポイントを設定する必要があります。このパッケージを使用して作成されたデプロイメントでは、このエンドポイントが取得可能で、インストール履歴が保持されるからです。</p></td> 
-  </tr> 
-  <tr> 
-   <td>ASSEMBLING_FAILED</td> 
-   <td><p>ASSEMBLING ステージに障害が発生すると、プロモーションパッケージは自動的にこのステータスに入ります。</p><p>パッケージを ASSEMBLING ステージに戻すには、抽出プロセスを再びトリガーする必要があります。</p></td> 
-  </tr> 
-  </tbody> 
-</table>
+使用可能なステータスについて詳しくは、 [環境の昇格ステータス](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 記事内 [Workfront環境間でのオブジェクトの移動の概要](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
