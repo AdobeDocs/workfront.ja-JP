@@ -4,17 +4,17 @@ content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: 環境プロモーションパッケージのインストール
-description: 環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。 新しい環境に環境プロモーションパッケージをインストールする方法を説明します。
+description: 環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。 ターゲット環境に環境プロモーションパッケージをインストールする方法を説明します。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d710e6dbb93cdec530ed8513bd96f5e7381f93c0
+source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 0%
+source-wordcount: '299'
+ht-degree: 11%
 
 ---
 
@@ -22,28 +22,32 @@ ht-degree: 0%
 
 このページは作成中です
 
+
+
+1. パッケージをインストールする環境に移動します。 これは、オブジェクトをコピーする環境です **から**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
+1. 選択 **システム** 左側のナビゲーションで、「 **環境の昇格**.
+1. 表示されたリストからパッケージを選択します。
+1. パッケージをインストールするには、 **インストール** をクリックします。
+1. パッケージ内の各オブジェクトを、ターゲット環境内の対応するオブジェクトにマッピングします。
+
+   詳しくは、 [マッピング](#mapping) この記事では、
+
+
+## マッピング
+
+各オブジェクトタイプは、左側のナビゲーションとカードに表示されます。 カードには、そのタイプのオブジェクトと、それらのオブジェクトがターゲット環境に存在するかどうかが表示されます。 これらのオブジェクトがターゲット環境にどのように移動するかを決定できます。
+
+* 新規作成：オブジェクトはターゲット環境にあります。
+* 既存を使用：パッケージ内のオブジェクトがインストールされておらず、ターゲット環境に既に存在するオブジェクトは変更されていません。
+* 既存のオブジェクトを上書き：ターゲット環境内の既存のオブジェクトが、パッケージ内のオブジェクトに置き換えられます。
+* 次を使用しない：
+
+デフォルト値は次のとおりです。 `Create new` オブジェクトがターゲット環境に存在しない場合、また `Use existing` （対象の環境にオブジェクトが存在する場合）。 デフォルトのマッピングに戻すには、 **デフォルトのマッピングにリセット**.
+
+[ 使用しない ] を選択すると、この選択が他のオブジェクトやフィールドに与える影響を詳細に示すエラーメッセージが表示されます。
+
 <!--
-
-## Mapping
-
-<!--How does one get to the mapping page?--
-
-<!--Also show how to tell you're installing it in the right place (note 3 on slide 3)--
-
-Each object in the package is shown in the left navigation, and as a card on the page.
-
-Each card displays the object and its <!--fields? properties? sub-objects>--. You can determine how these <!--???--s will move to the new environment. 
-
-* Create new <!--does this mean you can have multiples?--
-* Use existing
-* Overwrite existing
-* Do not use
-
-You can revert to the default mapping by clicking **Reset to default mapping**.
-
-If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
-If you select Create new, you will need to change the value <!--of what?--
-
 ## Collisions
 
 A collision occurs when <!--???--.
