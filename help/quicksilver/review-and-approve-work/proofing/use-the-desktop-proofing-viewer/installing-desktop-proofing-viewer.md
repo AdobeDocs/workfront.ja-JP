@@ -6,7 +6,7 @@ description: デスクトッププルーフビューアは、主にインタラ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 98e2ebc214adf13d0f8b2962395504fb86e6d0c9
+source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 95%
@@ -77,12 +77,12 @@ Workfront または Workfront Proof 管理者がワークステーションに�
 
 >[!TIP]
 >
->コマンドラインを使用して `Workfront Proof Setup 2.1.31.exe" /S` を実行すると、デスクトッププルーフビューアをインストールできます。
+>コマンドラインを使用して `Workfront Proof Setup 2.1.34.exe" /S` を実行すると、デスクトッププルーフビューアをインストールできます。
 
 1. アプリをダウンロードするには、次のいずれかを行います。
 
-   * 実稼動環境で、「[デスクトッププルーフビューアの Windows 実稼動環境用ダウンロードファイル](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.32.exe)」をクリックします。
-   * プレビュー環境で、「[デスクトッププルーフビューアの Windows プレビュー環境用ダウンロードファイル](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.32.exe)」をクリックします。
+   * 実稼動環境で、「[デスクトッププルーフビューアの Windows 実稼動環境用ダウンロードファイル](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.34.exe)」をクリックします。
+   * プレビュー環境で、「[デスクトッププルーフビューアの Windows プレビュー環境用ダウンロードファイル](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.34.exe)」をクリックします。
 
 1. ダウンロードしたファイルを開いて、インストールを開始します。
 1. 表示されるインストールボックスで、ダウンロードしたファイルを開いてインストールを開始します。
