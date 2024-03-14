@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
+source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ Adobe Admin ConsoleへのWorkfrontの移行が完了すると、システム管�
 
 * **Workfrontユーザーが現在 SSO でログインしている場合**&#x200B;を設定している場合、ユーザーが SSO を使用してログインを続行できるように、Adobe Admin Consoleで SSO を設定する必要があります。 Workfrontユーザーが現在 SSO を使用していないが、Adobe Admin Consoleで設定したい場合は、移行ジャーニーのこの時点で設定できます。
 * **Adobe Admin Consoleで他のAdobe製品を既に管理している場合**&#x200B;の場合、Adobeは、ユーザーを既存のコンソールに自動的に移行する同意を求める場合があります。 次をクリック： **はじめに** ボタンをクリックして同意ページに移動します。
+* **以前にリクエスト元のライセンスタイプを削除した場合**&#x200B;を探すと、システムに追加されます。 このライセンスの種類にはユーザーが割り当てられませんが、WorkfrontとAdobe Admin Consoleの間の同期に必要です。 リクエスト元のライセンスの種類に関して、お客様からのアクションは不要です。
 
 現時点では、ユーザー管理に変更はありません。 Workfront管理者はWorkfrontで引き続きユーザーを管理し、ユーザーの移行が完了するまで、Workfront ID または SSO を使用してログインし続けます。
 
