@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
+source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 11%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 11%
 
 * 新規作成：オブジェクトはターゲット環境にあります。
 * 既存を使用：パッケージ内のオブジェクトがインストールされておらず、ターゲット環境に既に存在するオブジェクトは変更されていません。
-* 既存のオブジェクトを上書き：ターゲット環境内の既存のオブジェクトが、パッケージ内のオブジェクトに置き換えられます。
+* 既存を上書き： （現在は使用できません）ターゲット環境内の既存のオブジェクトに代わる、パッケージ内のオブジェクト。
 * 使用しない：[ 使用しない ] を選択すると、この選択が他のオブジェクトやフィールドに与える影響を詳細に示すエラーメッセージが表示されます。
 
 デフォルト値は次のとおりです。 `Create new` オブジェクトがターゲット環境に存在しない場合、また `Use existing` （対象の環境にオブジェクトが存在する場合）。 デフォルトのマッピングに戻すには、 **デフォルトのマッピングにリセット**.
@@ -52,5 +52,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
