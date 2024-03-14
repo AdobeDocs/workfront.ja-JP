@@ -4,9 +4,9 @@ description: 他のユーザーとビューを共有して、Adobe Workfrontの�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 7%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 7%
 >[!NOTE]
 >
 >システム管理者は、自分で作成しなかったビューを表示または共有できません。 ユーザーは、自分と共有されているビューに対してのみアクセスまたは共有できます。
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>システム管理者は、1 つのビューに対する管理権限のみを持つことができます。
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ ht-degree: 7%
 
    レコードタイプのページが開きます。
 
-1. 「表示」ドロップダウンメニューから <!--tab-->をクリックし、共有する表示の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png) ビュー名の右に移動し、 **共有**.
+1. 「表示」タブで、共有する表示の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png) ビュー名の右に移動し、 **共有**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

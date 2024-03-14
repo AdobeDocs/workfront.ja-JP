@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -107,15 +107,13 @@ Adobe Workfrontの計画機能では、レコードはレコードタイプの�
 {#step1-to-maestro}
 
 最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+
 1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトでは、レコードタイプのページがテーブルビューで開きます。
 選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. （条件付き）レコードタイプのページがテーブルビューで開かない場合、 **表示** ドロップダウンメニューで、既存の **テーブル表示** ![](assets/table-view-icon.png) または、 **ビューを作成/テーブル** をクリックして、テーブルビューを作成します。
-
-<!--Replace the above with this when we release the tabbed views: 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+1. （条件付き）レコードタイプのページがテーブルビューで開かない場合は、テーブルビューのタブをクリックするか、 **+表示** をクリックして、テーブルビューを作成します。
 
 1. 新しいレコードを追加するには、 **新しいレコード** テーブルの最後の行
 
@@ -135,17 +133,17 @@ Adobe Workfrontの計画機能では、レコードはレコードタイプの�
 
 1. 各行の情報の追加を続行し、「 **入力** をクリックして、変更を保存します。
 
-<!--Or 
-    
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+   または
 
-      >[!TIP]
-      >
-      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+   新しいレコードの名前または **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をレコード名の左にドラッグします。 The **詳細** 」ボックスがテーブルに開きます。
 
-  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
-    -->
+   >[!TIP]
+   >
+   >[ 詳細 ] ボックスにアクセスできるのは、[ 名前 ] フィールドが主フィールドの場合のレコードの名前フィールドだけです。
+
+1. [ 詳細 ] ボックスで、レコードの情報の編集を開始します。 Workfrontは変更を自動的に保存します。
+1. （オプション） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードの **詳細** ページを新しいタブに追加します。 [ 詳細 ] ページのレコードの編集を続けます。
+
 
 1. （オプション）次のキーボードショートカットを使用して、新しいレコードの追加の取り消しまたはやり直しをおこないます。
 

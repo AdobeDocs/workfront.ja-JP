@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1982'
 ht-degree: 3%
 
 ---
@@ -65,6 +65,7 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 | レコードをリンク | ✓ |                                  |                  |
 | テーブル内のレコードの表示 | ✓ |                                  |                  |
 | タイムラインでのレコードの表示 | ✓ |                                  |                  |
+| カレンダーのレコードの表示 | ✓ |                                  |                  |
 | レコードのフィルタリング | ✓ |                                  |                  |
 | タイムラインビューでのレコードのグループ化 | ✓ |                                  |                  |
 | テーブルビューでのレコードのグループ化 | ✓ |                                 |                  |

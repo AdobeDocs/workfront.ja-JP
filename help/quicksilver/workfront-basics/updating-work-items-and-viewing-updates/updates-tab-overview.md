@@ -7,17 +7,17 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 52%
+source-wordcount: '1317'
+ht-degree: 51%
 
 ---
 
 
 # 「更新」セクションの概要
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 <!-- Audited: 1/2024 -->
 
@@ -48,7 +48,7 @@ ht-degree: 52%
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 >
-><span class="preview">新しいコメントエクスペリエンスは、リスト、タイムシート、およびプレビュー環境のワークロードバランサーの [ 概要 ] パネルで使用できます。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。</span>
 
 ## 「更新」セクションの概要
 
@@ -114,12 +114,16 @@ ht-degree: 52%
    * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前、またはカスタムフィールドの変更は、システムの更新によって取り込まれます。 Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。<span class="preview">従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対しておこなわれた応答は、「システムアクティビティ」タブに読み取り専用として設定されます。</span> 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * <span class="preview">**すべて（読み取り専用）**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。 これは表示専用のタブです。 「すべて」タブでは、既存のコメント内のコメントに対して返信したり、他のユーザーにタグ付けしたりすることはできません。 特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
-* 次のオブジェクトには「システムアクティビティ」タブがありません <span class="preview">または「すべて」タブ</span>:
+* 次のオブジェクトには「システムアクティビティ」タブがありません <span class="preview">または「すべて」タブを選択します。</span>
 
    * チーム
    * テンプレート
    * テンプレートタスク
    * アドホックカード
+
+* 次のオブジェクトには <span class="preview">すべてのタブ：</span>
+
+   * Goals
 
 
 ### 従来のアップデートの節の概要

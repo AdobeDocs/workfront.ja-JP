@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1244'
 ht-degree: 3%
 
 ---
@@ -117,11 +117,9 @@ ht-degree: 3%
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
-1. （条件付き） **表示** テーブルの左上隅にあるドロップダウンメニューで、 **テーブル** 表示。 最後にアクセスしたときに別のタイプのビューでレコードタイプを表示した場合を除き、これがデフォルトのビューになります。
+1. （条件付き）テーブルビューのタブをクリックするか、 **+表示** をクリックして、テーブルビューを作成します。 最後にアクセスしたときに別のタイプのビューでレコードタイプを表示した場合を除き、テーブルビューはデフォルトのビューにする必要があります。
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
+   選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
 1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ ht-degree: 3%
 1. （オプション）接続されたレコードフィールドをダブルクリックして、接続されたレコードまたはオブジェクトを別のレコードに追加します。 詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
 1. 押す **入力** キーボードでクリックするか、行の外側をクリックして変更を保存します。 変更内容は自動的に保存されます。 A **保存済み** インジケータは、テーブルビューの右上隅に短く表示され、変更が保存されたことを示します。
 
+1. （オプション） **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側に移動するか、レコード名をクリックします。 The **詳細** 」ボックスがテーブルに開きます。
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >次の項目を表示すると、 **詳細を開く** レコードの「名前」フィールドの左側にあるアイコンは、「名前」フィールドが主フィールドの場合にのみ表示されます。
+
+1. フィールド情報の編集を **詳細** ボックス。 Workfrontは変更を自動的に保存します。
+1. （オプション） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> の右上隅に **詳細** レコードの **詳細** ページを新しいタブに追加します。 レコードの編集を続行します。詳しくは、 [レコードの詳細ページからレコードを編集する](#edit-a-record-from-the-records-details-page) 」の節を参照してください。
+
 
 1. （オプション）あるフィールドから別のフィールドに情報をコピーして貼り付けるには、次のいずれかの操作を行います。
 
@@ -193,7 +191,9 @@ ht-degree: 3%
 
 ### レコードの詳細ページからレコードを編集する
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+レコードを編集するには、テーブルビューの [ 詳細 ] ボックス、または [ 詳細 ] ページを使用します。
+
+[ 詳細 ] ボックスでのレコードの編集について詳しくは、 [レコードタイプのテーブルビューからレコードを編集する](#edit-a-record-from-the-table-view-of-a-record-type) 」の節を参照してください。
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ ht-degree: 3%
 
    または
 
-   詳細ページの編集可能なフィールド内をクリックして、情報を編集します。 <!--Your changes are saved automatically.-->
+   詳細ページの編集可能なフィールド内をクリックして、情報を編集します。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. クリック **変更を保存**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. 「**変更を保存**」をクリックします。

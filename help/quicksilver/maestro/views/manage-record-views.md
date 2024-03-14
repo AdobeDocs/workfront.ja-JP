@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 7%
 
 ---
@@ -153,18 +153,17 @@ ht-degree: 7%
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. クリック **+表示** をクリックして新しいビューを追加します。
+1. 次のタイプのビューから選択します。
 
-    * Table
-    * Timeline
-    * Calendar
+   * テーブル
+   * タイムライン
+   * カレンダー
 
-    A new tab is created with the selected view. 
+   選択したビューで新しいタブが作成されます。
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   画面の幅に応じて、 **その他** メニュー ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ ht-degree: 7%
 >タイムラインまたはカレンダービューを作成するには、ビューを作成するレコードの種類に少なくとも 2 つの日付フィールドが必要です。 それ以外の場合は、「タイムライン」および「カレンダー」オプションが淡色表示になります。
 >
 
-1. 次をクリック： **表示** ドロップダウンメニューで、既存の **テーブル表示** ![](assets/table-view-icon.png) または、 **ビューを作成/テーブル** テーブルビューを作成するには
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   または
-
-   既存の **タイムライン表示** ![](assets/timeline-view-icon.png) または、 **ビューを作成/タイムライン** をクリックして、タイムラインビューを作成します。
-
-   または
-
-   既存の **カレンダー表示** ![](assets/calendar-view-icon.png) または、 **ビューを作成/カレンダー** をクリックして、カレンダービューを作成します。
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    タイムラインまたはカレンダービューを作成するには、ビューを作成するレコードの種類に少なくとも 2 つの日付フィールドが必要です。 それ以外の場合は、「タイムライン」または「カレンダー」オプションが淡色表示になります。
+>[!NOTE]
+>
+>    タイムラインまたはカレンダービューを作成するには、ビューを作成するレコードの種類に少なくとも 2 つの日付フィールドが必要です。 それ以外の場合は、「タイムライン」または「カレンダー」オプションが淡色表示になります。
 
 1. （条件付き）クリック **次へ**（タイムラインまたはカレンダービューを作成する場合）
 
@@ -202,12 +191,16 @@ ht-degree: 7%
 1. （条件付き） **開始** および **終了日** タイムラインまたはカレンダー表示に表示されるレコードの
 1. 「**作成**」をクリックします。
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   ビューが新しいタブとして表示されます。 ビューは、自分が作成または共有された時点から時系列で表示されます。
+1. （オプション） **その他** メニュー ![](assets/more-caret-down-icon-views.png) 選択したレコードタイプのすべてのビューを表示するには、最後のビューの横にあります。
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. （オプション）ビューの作成後に名前を変更するには、ビューのドロップダウンメニューをクリックし、 **その他** メニュー ![](assets/more-menu.png) > **名前を変更** をクリックして、ビュー名を更新します。 <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   追加のビューは、 **その他** メニューを表示します。 の隣の数 **その他** メニューには、追加のビュー数が表示されます。
+1. （オプション）ビューの作成後に名前を変更するには、ビューのドロップダウンメニューをクリックし、 **その他** メニュー ![](assets/more-menu.png) > **名前を変更** ビュー名を更新するには
+
+   または
+
+   ビュー名をダブルクリックし、新しい名前を入力します。  <!--ensure there is not another saving step here?!-->
+
 1. （オプション）特定のタイプの表示を管理するには、次の記事を参照してください。
 
    * [テーブル表示の管理](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ ht-degree: 7%
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. 「表示」タブでビューの名前の 1 つにマウスポインターを置き、「 **その他** ![](assets/more-menu.png) ビュー名の左側に移動し、 **削除**.
+最初に、 **その他** をクリックして、削除するビューを見つけます。
 
-1. 「表示」ドロップダウンメニューをクリックし、リスト内のビューの 1 つにマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png) > **削除**.
 1. クリック **削除** をクリックして確定します。 <!--ensure there is not another saving step here?!-->
 
    このビューは、レコード領域にアクセスできるすべてのユーザーに対して削除され、復元できません。

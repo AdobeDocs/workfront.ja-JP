@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 13%
+source-wordcount: '542'
+ht-degree: 12%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Workfrontの計画機能を使用する際に、ワークスペースま�
 * ワークスペースまたはビューを次のエンティティと共有できます。
    * ユーザー
    * グループ
-* システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 <!--System administrators can only be given permissions to Manage a view.-->
+* システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 システム管理者には、ビューを管理する権限のみを与えることができます。
 * ワークスペースへのリンクや、レコードタイプのページからのビューへのリンクを他のユーザーと共有できます。 リンクを受け取ったユーザーが、選択したビューに表示されるワークスペースまたはレコードタイプのページにアクセスできるようにするには、アクティブユーザーであり、Workfrontにログインする必要があります。
 
 ## Adobe Workfront Planning 機能オブジェクトに対する権限の共有

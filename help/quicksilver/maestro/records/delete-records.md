@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 8%
+source-wordcount: '492'
+ht-degree: 7%
 
 ---
 
@@ -139,8 +139,9 @@ Adobe Workfrontの計画機能と関係がなくなったレコードは削除�
    * レコード行を右クリックし、 **削除**.
    * 次をクリック： **その他** メニュー ![](assets/more-menu.png) をクリックし、 **削除**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * 次をクリック： **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をクリックして [ 詳細 ] ボックスを開き、 **その他** ![](assets/more-menu.png) をレコード名の右に追加し、 **削除**.
 
    レコードは削除されているため、復元できません。
 

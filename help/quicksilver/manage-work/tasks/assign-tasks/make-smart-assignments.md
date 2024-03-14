@@ -6,9 +6,9 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '514'
 ht-degree: 33%
 
 ---
@@ -17,9 +17,7 @@ ht-degree: 33%
 
 <!--Audited: 02/2024-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境でのみ使用できます。</span>
-
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+{{preview-and-fast-release}}
 
 スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。
 

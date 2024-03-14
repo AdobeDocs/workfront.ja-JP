@@ -7,16 +7,16 @@ description: この記事では、Adobe Workfront のタイムシートのレイ
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1049'
 ht-degree: 76%
 
 ---
 
 # タイムシートレイアウトの概要
 
-<span class="preview">ハイライト表示された情報は、プレビュー環境でのみ使用できます。</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+{{preview-and-fast-release}}
 
 <!-- Audited: 12/2023 -->
 
