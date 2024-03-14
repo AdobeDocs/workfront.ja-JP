@@ -4,9 +4,9 @@ description: 2024 年第 2 四半期管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 5%
 このページでは、2024 年第 2 四半期のリリースでプレビュー環境に対しておこなわれた管理者向けの機能強化について説明します。 これらの機能強化は、前述のとおり、実稼動環境で利用できるようになります。
 
 2024 年第 2 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 会社とユーザーが高度なカスタムフォームフィールドをサポートするようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 3 月 14 日、すべてのお客様向けの実稼動環境：24.4（2024 年 4 月）
+
+会社やユーザーにカスタムフォームを添付する際に、外部参照フィールドやWorkfrontネイティブフィールドなどの高度なカスタムフォーム機能を使用できるようになりました。 高度な機能は、会社を編集ダイアログやユーザーを編集ダイアログではなく、会社の詳細ページとユーザーの詳細ページで使用できます。 これらのフィールドタイプを活用するには、新しいフォームデザイナーでカスタムフォームを作成する必要があります。
+
+カスタムフォームフィールドについて詳しくは、 [フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## 新しいパッケージタイプで JumpSeat 統合が利用できるようになりました。
 
