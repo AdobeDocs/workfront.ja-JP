@@ -4,21 +4,21 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: Adobe Campaign Classic モジュール
-description: ' [!DNL Adobe Campaign Classic]  モジュールを使用すると、 [!DNL Adobe Campaign Classic]  アカウント内のイベントに基づいて  [!DNL Adobe Workfront Fusion]  シナリオを開始したり、契約書やその他の記録を作成、読み取り、アップデートしたり、設定した条件を使用して記録を検索したり、ドキュメントをアップロードしたりできます。'
+title: Adobe Campaign v7/v8 モジュール
+description: ' [!DNL Adobe Campaign]  モジュールを使用すると、 [!DNL Adobe Campaign]  アカウント内のイベントに基づいて  [!DNL Adobe Workfront Fusion]  シナリオを開始したり、契約書やその他の記録を作成、読み取り、アップデートしたり、設定した条件を使用して記録を検索したり、ドキュメントをアップロードしたりできます。'
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 455d439ec2a9034043cac2570851ab2f9fecc276
+source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1383'
 ht-degree: 89%
 
 ---
 
-# [!DNL Adobe Campaign Classic] モジュール
+# [!DNL Adobe Campaign] モジュール
 
-[!DNL Adobe Campaign Classic] モジュールを使用すると、[!DNL Adobe Campaign Classic] アカウント内のイベントに基づいて [!DNL Adobe Workfront Fusion] シナリオを開始したり、記録を作成、読み取り、アップデートしたり、設定した条件を使用して記録を検索したり、カスタム API 呼び出しを実行したりできます。
+[!DNL Adobe Campaign] モジュールを使用すると、[!DNL Adobe Campaign v7/v8] アカウント内のイベントに基づいて [!DNL Adobe Workfront Fusion] シナリオを開始したり、記録を作成、読み取り、アップデートしたり、設定した条件を使用して記録を検索したり、カスタム API 呼び出しを実行したりできます。
 
 ## アクセス要件
 
@@ -59,7 +59,7 @@ ht-degree: 89%
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## [!DNL Adobe Campaign Classic] を [!DNL Adobe Workfront Fusion] に接続
+## [!DNL Adobe Campaign] を [!DNL Adobe Workfront Fusion] に接続
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ ht-degree: 89%
 >
 >Campaign の新しい接続要件について詳しくは、 [Campaign の技術オペレーターのAdobe Developer Console への移行](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) （ Campaign ドキュメント内）を参照してください。
 
-1. 任意の [!DNL Adobe Campaign Classic] モジュールで、「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
+1. 任意の [!DNL Adobe Campaign] モジュールで、「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 次のフィールドに入力します。
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -89,7 +89,7 @@ ht-degree: 89%
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Base URL]</td>
-          <td>[!DNL Adobe Campaign Classic] インスタンスへの接続に使用するベース URL を入力します。</td>
+          <td>[!DNL Adobe Campaign] インスタンスへの接続に使用するベース URL を入力します。</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Username]</td>
@@ -119,9 +119,9 @@ ht-degree: 89%
     </table>
 1. 「**[!UICONTROL 続行]**」をクリックし、接続を作成して、モジュールに戻ります。
 
-## [!DNL Adobe Campaign Classic] モジュールとそのフィールド
+## [!DNL Adobe Campaign] モジュールとそのフィールド
 
-[!DNL Adobe Campaign Classic] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Adobe Campaign Classic] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL Adobe Campaign] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Adobe Campaign] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
 フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間の情報のマッピングを参照してください。
 
@@ -143,7 +143,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a> への接続を作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a> への接続を作成を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
@@ -181,7 +181,7 @@ ht-degree: 89%
 
 #### [!UICONTROL レコードを作成]
 
-このアクションモジュールは、[!DNL Adobe Campaign Classic] に新しいレコードを作成します。
+このアクションモジュールは、[!DNL Adobe Campaign] に新しいレコードを作成します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,11 +189,11 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a> への接続を作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a> への接続を作成を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>作成する [!DNL Adobe Campaign Classic] レコードのタイプを選択します。</td> 
+   <td>作成する [!DNL Adobe Campaign] レコードのタイプを選択します。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fields] </td> 
@@ -208,7 +208,7 @@ ht-degree: 89%
 
 #### [!UICONTROL カスタム API 呼び出しの実行]
 
-このモジュールは、[!DNL Adobe Campaign Classic] API に対してカスタム API 呼び出しを実行します。
+このモジュールは、[!DNL Adobe Campaign] API に対してカスタム API 呼び出しを実行します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -216,7 +216,7 @@ ht-degree: 89%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a> への接続の作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a> への接続の作成を参照してください。</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Action]</td>
@@ -244,7 +244,7 @@ ht-degree: 89%
 
 #### [!UICONTROL レコードの削除]
 
-このアクションモジュールは、[!DNL Adobe Campaign Classic] から 1 つのレコードを削除します。
+このアクションモジュールは、[!DNL Adobe Campaign] から 1 つのレコードを削除します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -252,7 +252,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a> への接続を作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a> への接続を作成を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -268,7 +268,7 @@ ht-degree: 89%
 
 #### [!UICONTROL アクションの実行]
 
-このアクションモジュールは、[!DNL Adobe Campaign Classic] API で、選択されたアクションをオブジェクトに対して実行します。
+このアクションモジュールは、[!DNL Adobe Campaign] API で、選択されたアクションをオブジェクトに対して実行します。
 
 特定のアクションとフィールドについては、[[!DNL Adobe Campaign]  API ドキュメント](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)を参照してください。
 
@@ -278,7 +278,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a> への接続の作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a> への接続の作成を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
@@ -297,7 +297,7 @@ ht-degree: 89%
 
 #### [!UICONTROL レコードの読み取り]
 
-このアクションモジュールは、[!DNL Adobe Campaign Classic] からレコードを読み取ります。
+このアクションモジュールは、[!DNL Adobe Campaign] からレコードを読み取ります。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -305,11 +305,11 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a> への接続を作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a> への接続を作成を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>読み取る [!DNL Adobe Campaign Classic] レコードのタイプを選択します。</td> 
+   <td>読み取る [!DNL Adobe Campaign] レコードのタイプを選択します。</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -337,7 +337,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a>への接続の作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a>への接続の作成を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subscribe or unsubscribe]</td> 
@@ -356,7 +356,7 @@ ht-degree: 89%
 
 #### [!UICONTROL レコードの更新]
 
-このアクションモジュールは、[!DNL Adobe Campaign Classic] 内の 1 つのレコードを更新します。
+このアクションモジュールは、[!DNL Adobe Campaign] 内の 1 つのレコードを更新します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,11 +364,11 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a> への接続を作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a> への接続を作成を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>作成する [!DNL Adobe Campaign Classic] レコードのタイプを選択します。</td> 
+   <td>作成する [!DNL Adobe Campaign] レコードのタイプを選択します。</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -397,11 +397,11 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>[!DNL Adobe Campaign Classic] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-classic-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign Classic]</a> への接続を作成を参照してください。</td> 
+   <td>[!DNL Adobe Campaign] への接続を作成する手順については、この記事の<a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >[!DNL Adobe Campaign]</a> への接続を作成を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>作成する [!DNL Adobe Campaign Classic] レコードのタイプを選択します。</td> 
+   <td>作成する [!DNL Adobe Campaign] レコードのタイプを選択します。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
