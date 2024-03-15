@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
-ht-degree: 93%
+source-wordcount: '2327'
+ht-degree: 92%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 93%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">書式付きテキストフィールド</td> 
-      <td>フィールドに複数行のテキストを入力し、太字、斜体、下線、箇条書き、番号付きリスト、ハイパーリンクおよびブロック引用符でテキストを書式設定できます。これは、Workfront オブジェクトのホーム、更新エリア、リストおよび詳細エリアで使用できます。文字数の上限が 15,000 字なので、たくさんのテキストと書式設定を入力できます。</p> <p>API を使用したこのフィールドへのアクセスについては、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API でのリッチテキストフィールドの保存</a>を参照してください。</p> <p><b>注意</b>：書式を持つテキストフィールドは、Workfrontモバイルアプリでは使用できません。 </p> </td> 
+      <td>フィールドに複数行のテキストを入力し、太字、斜体、下線、箇条書き、番号付きリスト、ハイパーリンクおよびブロック引用符でテキストを書式設定できます。これは、Workfront オブジェクトのホーム、更新エリア、リストおよび詳細エリアで使用できます。文字数の上限が 15,000 字なので、たくさんのテキストと書式設定を入力できます。</p> <p>このカスタムフィールドタイプは、リストとレポートのフィルターではサポートされていません。</p> <p>API を使用したこのフィールドへのアクセスについては、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API でのリッチテキストフィールドの保存</a>を参照してください。</p> <p><b>注意</b>：書式を持つテキストフィールドは、Workfrontモバイルアプリでは使用できません。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ドロップダウン</td> 
@@ -225,7 +225,7 @@ ht-degree: 93%
       <td><p>ドロップダウンリストをクリックし、フィールドの値の変更を自動的に追跡するオブジェクトタイプを選択します。</p> 
       <p><b>メモ</b>：このオプションは、以下の場合は使用できません。</p> 
       <ul> 
-      <li>費用、会社、イテレーション、請求記録、グループのオブジェクトタイプに関連付けられたカスタムフォーム。</li> 
+      <li>費用、会社、反復、請求レコード、ドキュメント、グループの各オブジェクトタイプに関連付けられたカスタムフォーム。</li> 
       <li>フィールドのタイプは、計算済み、説明テキストおよびセクション区切りです。</li> 
       </ul>
       <p><b>重要</b>：ここでオブジェクトタイプの選択または選択解除を行うと、選択したオブジェクトタイプに関連付けられ、このフィールドを含むすべてのカスタムフォームに影響します。例えば、ここでオブジェクトタイプを選択解除し、カスタムフォームを保存すると、このフィールドを含むカスタムフォームでは、そのオブジェクトタイプに対するフィールドの値の変更は追跡されなくなります。</p>

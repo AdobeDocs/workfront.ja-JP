@@ -6,10 +6,10 @@ description: フィルターおよび条件修飾子を使用すると、フィ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 72%
+source-wordcount: '1516'
+ht-degree: 71%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 72%
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>これが <i>大文字と小文字を区別しない</i> 選択肢 <strong>eq</strong>. 完全一致する検索された値のみが返されます。</p> <p>例えば、特定の名前のタスクを検索する場合、 <code>task name cieq test</code> 名前が次の場所にあるタスクを検索します <code>Test</code>, <code>TEST</code>または <code>Test</code>が見つかりませんが、 <code>test 123.</code></p> <p>この修飾子は、テキストモードのフィルターでのみ使用できます。フィルターのテキストモードについて詳しくは、<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">テキストモードを使用してフィルターを編集</a>を参照してください。</p> </td> 
+   <td> <p>これが <i>大文字と小文字を区別しない</i> 選択肢 <strong>eq</strong>. 完全一致する検索された値のみが返されます。</p> <p>例えば、特定の名前のタスクを検索する場合、 <code>task name cieq test</code> 名前が次の場所にあるタスクを検索します <code>Test</code>, <code>TEST</code>または <code>Test</code>が見つかりませんが、 <code>test 123.</code></p> <p>ステータスを検索する場合、 <strong>cieq</strong> 修飾子はサポートされていません。 大文字と小文字を区別する修飾子を使用してください。 <strong>eq</strong>、をクリックしてステータスを検索します。</p> <p>この修飾子は、テキストモードのフィルターでのみ使用できます。フィルターのテキストモードについて詳しくは、<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">テキストモードを使用してフィルターを編集</a>を参照してください。</p> </td>
   </tr> 
   <tr valign="top"> 
    <td> </td> 

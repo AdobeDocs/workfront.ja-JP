@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 76%
 
 ---
@@ -125,7 +125,9 @@ ht-degree: 76%
 * **段落テキストフィールド**：ユーザーがフィールドに複数行のテキストを入力できます。
 * **書式付きテキストフィールド**：フィールドに複数行のテキストを入力し、太字、斜体、下線、箇条書き、段落番号、ハイパーリンク、ブロック引用符でテキストを書式設定できます。文字数の上限が 15,000 字なので、たくさんのテキストと書式設定を入力できます。
 
-  API を使用したこのフィールドへのアクセスについて詳しくは、API のリッチテキストフィールドストレージを参照してください。
+  このカスタムフィールドタイプは、リストとレポートのフィルターではサポートされていません。
+
+  API を使用したこのフィールドへのアクセスについては、[API でのリッチテキストフィールドの保存](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)を参照してください。
 
   >[!NOTE]
   >
