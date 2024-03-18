@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
+source-git-commit: f698a49066bbb7236d52433fba2253c62744e329
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '215'
 ht-degree: 97%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 97%
 
 * [[!DNL Adobe Workfront] モジュール](../../workfront-fusion/apps-and-their-modules/workfront-modules.md)
 * [[!DNL Workfront Proof] モジュール](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+* [[!DNL Workfront Boards] モジュール](../../workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
 * [[!DNL Adobe Acrobat Sign] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
 * [Adobe Authenticatorモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
 * [[!DNL Adobe Campaign Classic] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
