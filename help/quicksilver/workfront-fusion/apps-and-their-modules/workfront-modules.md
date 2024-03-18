@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
+source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
 workflow-type: tm+mt
 source-wordcount: '5945'
 ht-degree: 91%
@@ -72,7 +72,7 @@ ht-degree: 91%
 
 [!DNL Workfront] アカウントへの接続を、[!DNL Workfront Fusion] モジュール内から直接作成できます。
 
-1. 任意のAdobe Authenticatorモジュールで、 **追加** 「接続」フィールドの横に表示されます。
+1. 任意のAdobe Workfrontモジュールで、 **追加** 「接続」フィールドの横に表示されます。
 1. 次のフィールドに入力します。
 
    <table style="table-layout:auto"> 

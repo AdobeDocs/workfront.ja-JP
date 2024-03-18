@@ -10,10 +10,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: f698a49066bbb7236d52433fba2253c62744e329
+source-git-commit: 8c970d2fe8221f4cc578d4427bd5ea250bfbcbf2
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 97%
+source-wordcount: '218'
+ht-degree: 95%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 97%
 * [[!DNL Adobe Creative Cloud Libraries] モジュール](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
 * [[!DNL Adobe Experience Manager Assets] モジュール](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+* [Adobe Lightroomモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
 * [AdobeMaestro モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Adobe PDF Services] モジュール](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Photoshop] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)

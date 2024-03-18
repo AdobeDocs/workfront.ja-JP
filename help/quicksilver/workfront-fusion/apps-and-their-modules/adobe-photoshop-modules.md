@@ -8,16 +8,16 @@ title: Adobe Photoshopモジュール
 description: Adobe Photoshopモジュールを使用すると、Adobe Photoshopアカウント内のイベントに基づいてAdobe Workfront Fusion シナリオを開始し、契約とその他のレコードを作成、読み取り、更新し、設定した条件を使用してレコードを検索し、ドキュメントをアップロードできます。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 0ea4ac4c4579d09dafeed47946ae9c7caf906cfe
+source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1549'
 ht-degree: 35%
 
 ---
 
 # [!DNL Adobe Photoshop] モジュール
 
-[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Adobe Photoshop] を使用するワークフローを自動化したり、複数のサードパーティのアプリケーションやサービスに接続したりすることができます。[!DNL Adobe Photoshop] モジュールを使用すると、レコードの作成、読み取り、更新、削除、特定のタイプのすべてのレコードのリスト作成、指定した条件に基づくレコードの検索、または [!DNL Adobe Photoshop] API.
+[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Adobe Photoshop] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。
 
 
 シナリオの作成手順が必要な場合は、[](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
