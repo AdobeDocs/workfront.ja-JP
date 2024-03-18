@@ -4,9 +4,9 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1720'
 ht-degree: 23%
 
 ---
@@ -236,7 +236,8 @@ ht-degree: 23%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連する割り当てを新規タスクワークフローに追加しました</a></p><p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連する割り当てを新規タスクワークフローに追加しました</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>タスクをプロジェクトやプロジェクトのタスクリストに追加する際に、[ 新しいタスク ] ボックスの [ 割り当て ] フィールドに、関連性の高いスマート割り当てに対して同じ機能を追加しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -246,6 +247,7 @@ ht-degree: 23%
                             </li>
                             <li>
                                 <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月 15 日）</p>
+                                <p><span style="color: #ff0000;">この機能は、2024 年 3 月 19 日に、高速リリース版のお客様向けに実稼動環境から削除されました。</span></p>
                             </li>
                             <li>
                                 <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
@@ -255,7 +257,8 @@ ht-degree: 23%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p><p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>Workfrontがタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。 新しいアルゴリズムは、タスクを割り当てるWorkfrontの次の領域に適用されます。タスクリスト、タスクヘッダーの割り当て領域、ホームおよび概要パネル。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -265,6 +268,7 @@ ht-degree: 23%
                             </li>
                             <li>
                                 <p>高速リリース用の実稼動環境： 24.3 リリース（2024 年 3 月 15 日）</p>
+                                <p><span style="color: #ff0000;">この機能は、2024 年 3 月 19 日に、高速リリース版のお客様向けに実稼動環境から削除されました。</span></p>
                             </li>
                             <li>
                                 <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>

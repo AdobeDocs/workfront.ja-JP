@@ -7,7 +7,7 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 32%
@@ -17,7 +17,9 @@ ht-degree: 32%
 # スマート割り当ての概要
 
 
-{{preview-and-fast-release}}
+<!-- {{preview-and-fast-release}} -->
+
+{{highlighted-preview}}
 
 タスクとタスクの割り当てを管理する場合、スマート割り当てを使用して、作業を完了するのに最適なリソースを特定できます。 スマート割り当てとは、ジョブに最も適したリソースを決定するアルゴリズムに基づいて作業項目をリソースに割り当てる際にAdobe Workfrontが表示する提案です。 スマート割り当ては、ユーザー、ジョブの役割、チームのいずれかになります。
 

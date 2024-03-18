@@ -6,7 +6,7 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 33%
@@ -17,7 +17,9 @@ ht-degree: 33%
 
 <!--Audited: 02/2024-->
 
-{{preview-and-fast-release}}
+<!-- {{preview-and-fast-release}} -->
+
+{{highlighted-preview}}
 
 スマート割り当てを使用して、作業を完了するのが最適なユーザーを特定できます。
 
