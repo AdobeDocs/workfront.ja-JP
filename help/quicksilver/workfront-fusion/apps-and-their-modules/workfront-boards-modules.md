@@ -8,9 +8,9 @@ title: Adobe Workfrontボードモジュール
 description: Adobe Workfrontボードコネクタを使用すると、Workfrontボード内での処理を自動化し、サードパーティのアプリやサービスに接続することができます。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2111'
 ht-degree: 21%
 
 ---
@@ -64,8 +64,8 @@ Workfrontボードの一般情報については、 [ボードの概要](/help/q
 
 この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Adobe Workfrontボードのモジュールとそのフィールド
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
 
 ## 前提条件
 
