@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '366'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 86%
 
 新しいフォームデザイナーには、フィールド、キャンバスおよびフィールド設定をすべて同時に表示できる、新しいキャンバススタイルのワークスペースが追加されました。また、フォームのデザイン中に、セクション内のフィールドをドラッグ＆ドロップすることもできます。
 
-<!-- add screenshot when field settings empty state is ready -->
+![サンプルのフォームデザイナー](assets/form-designer-example.png)
 
 ## 新しいフォームデザイナーへのアクセス方法
 
@@ -41,17 +41,7 @@ ht-degree: 86%
 
   >[!NOTE]
   >
-  >フォームがオブジェクトに添付されると、デフォルトのセクションはオブジェクト内に表示されなくなります。
-
-## 機能は近日公開予定
-
-次の項目は、現在フォームデザイナーでは使用できませんが、近日中に追加される予定です。
-
-* 先読み入力フィールドのフィルター
-
->[!IMPORTANT]
->
->新しいフォームデザイナーを使用する場合、typeahead フィルターの既存の設定は影響を受けません。
+  >フォームをオブジェクトに添付すると、オブジェクト内に「デフォルト」セクションが表示されなくなります。
 
 ## フォームデザイナーから削除された機能
 
