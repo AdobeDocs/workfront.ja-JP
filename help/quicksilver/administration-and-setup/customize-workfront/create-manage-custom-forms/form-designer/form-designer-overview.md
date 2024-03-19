@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: e34a0b3bf5e2c4dc794a7d7c85245bb4d11842be
+source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 86%
@@ -72,3 +72,4 @@ ht-degree: 86%
   >[!NOTE]
   >
   >これは、設定／インターフェイス／フィードを更新で確認できます。
+
