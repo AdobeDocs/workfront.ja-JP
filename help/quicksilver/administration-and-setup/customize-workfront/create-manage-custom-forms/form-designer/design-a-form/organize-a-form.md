@@ -4,20 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: カスタムフォームは、フォームデザイナーを使用して整理できます。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 98%
+source-wordcount: '1124'
+ht-degree: 94%
 
 ---
 
 # フォームデザイナーを使用したフォームの整理とプレビュー
 
-カスタムフォームは、フォームデザイナーを使用して整理できます。
+カスタムフォームをフォームデザイナーと共に整理し、正しく設定されていることを確認するために、カスタムフォームをプレビューすることができます。
 
 ## アクセス要件
 
@@ -170,4 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の説明に従って、カスタムフォームの作成または編集を開始し、フィールドを追加します。
 
-1. 左上隅にある「**プレビュー**」をクリックして、フォームが使用されたときにどのように表示されるかを確認するには、「**プレビューを閉じる**」をクリックして、フォームの編集に戻ります。
+1. クリック **プレビュー** フォームが使用されたときにどのように表示されるかを確認するには、右上隅で **プレビューを終了** をクリックして、フォームの編集に戻ります。
