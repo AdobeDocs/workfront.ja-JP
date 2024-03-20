@@ -4,10 +4,10 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 23%
+source-wordcount: '1820'
+ht-degree: 22%
 
 ---
 
@@ -15,7 +15,12 @@ ht-degree: 23%
 
 このページでは、2024 年第 2 四半期リリースに含まれる機能について説明します。 これらの機能強化は、四半期を通じて実稼動環境で利用できるようになる予定です。
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+リリースのウェビナーの代わりに、 [Adobe Summit登録](https://summit.adobe.com/na/) 次のWorkfrontセッションを視聴するには：
+
+[Adobe Workfrontの未来](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) 2024 年 3 月 26 日に、戦略的計画とワークフローの未来を簡単にプレビューできます。 Workfrontチームが、作業の自動化、ユーザーエクスペリエンスのシンプル化、生産性の向上を実現する AI ファーストのアプローチにより、マーケティングのライフサイクル全体にわたってビジネス機能に対処する方法を学びます。
+
+[エンドツーエンドキャンペーン計画のためのマーケティングカレンダーとツールの発表](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 2023 年 3 月 23 日に、組織がエンドツーエンドの運用ライフサイクルを管理および視覚化できるように設計された新しい製品機能について説明します。
 
 <span class="preview">オフサイクル機能（2024 年第 2 四半期のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
 

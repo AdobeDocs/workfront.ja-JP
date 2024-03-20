@@ -4,10 +4,10 @@ description: 2024 年第 2 四半期の更新ストリームと通知の機能�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 2%
+source-wordcount: '588'
+ht-degree: 3%
 
 ---
 
@@ -40,6 +40,8 @@ ht-degree: 2%
 
 詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能に関する説明は 2:47 から始まります）。
+
 ## 新しいコメントエクスペリエンスの「システムアクティビティ」タブでは、読み取り専用のコメントがサポートされます
 
 >[!NOTE]
@@ -49,6 +51,8 @@ ht-degree: 2%
 従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対するコメントが、新しいコメント作成エクスペリエンスの「システムアクティビティ」タブに読み取り専用として入力されるようになりました。 新しいコメントエクスペリエンスのシステムアクティビティレコードに返信できません。
 
 詳しくは、 [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能に関する説明は、ビデオの 2:00 から始まります。）
 
 ## コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「ストリームを更新」タブ
 
@@ -62,6 +66,8 @@ ht-degree: 2%
 
 詳しくは、 [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能については、ビデオの 0:31 から説明します）。
+
 ## 概要パネルで新しいコメントストリームを利用できるようになりました。
 
 >[!NOTE]
@@ -71,3 +77,5 @@ ht-degree: 2%
 タスクおよび問題リストの概要パネルに新しいコメント機能が追加されました。
 
 詳しくは、[概要について](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
+
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427991/){target=_blank}
