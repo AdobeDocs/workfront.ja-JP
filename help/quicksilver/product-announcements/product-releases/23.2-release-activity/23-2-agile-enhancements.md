@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 100%
+source-wordcount: '1198'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Workfront ボードで利用できるいくつかの新機能により、アジ�
 
 コレクションから、ワークストリームに名前が変更されました。ワークストリームは、様々な方法でデータを視覚化するのに役立ちます。カード上の項目をリスト、ボード、またはイテレーションで表示でき、。ワークストリーム内のカードを、複数のボードで共有することもできます。ワークストリーム内でカードやボードを使用すると、ワークフローを容易に実行できます。
 
-詳しくは、[ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)、[ワークストリームでのイテレーションの作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、[カードリストの使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)を参照してください。2 つ目の 2 つの記事は、私がブランチをパブリッシュするまで、「メイン」では使用できません。
+詳しくは、 [ワークストリームの管理](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [ワークストリームでの反復の作成](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)、および [カードリストを使用](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3417059/){target=_blank}
 

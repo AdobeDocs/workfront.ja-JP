@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: グループステータスの作成または編集
 description: グループ管理者は、管理するグループに対してカスタムステータスを作成できます。これにより、会社全体の多くのカスタムステータスを不要にし、グループの階層でより自律性を高めることができます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: 027d636e8256c6a12d552af736884f6f27886114
-workflow-type: ht
-source-wordcount: '1313'
-ht-degree: 100%
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+workflow-type: tm+mt
+source-wordcount: '1345'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 >[!NOTE]
 >
->プロジェクトをアジャイルビューで表示している場合、カスタムグループステータスはプロジェクトに表示できません。プロジェクトをアジャイルビューで表示している場合、デフォルトおよびカスタムのロックされたステータスのみが表示されます。プロジェクトのアジャイルビューのカスタマイズについて詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)の記事にある[アジャイルビューの作成またはカスタマイズ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)の節を参照してください。
+>プロジェクトをアジャイルビューで表示している場合、カスタムグループステータスはプロジェクトに表示できません。プロジェクトをアジャイルビューで表示している場合、デフォルトおよびカスタムのロックされたステータスのみが表示されます。プロジェクトのアジャイルビューのカスタマイズについては、「 [アジャイルビューの作成またはカスタマイズ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 記事内 [Adobe Workfrontでビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ステータスに関する一般的な情報について詳しくは、[ステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)を参照してください。
 
@@ -111,7 +111,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
     <tbody> 
      <tr> 
       <td role="rowheader">状態名</td> 
-      <td> <p>ステータス名を入力します。必須フィールドです。</p> <p>ステータス名を作成するときは、システム内の他の人が同じ名前のステータスを作成できることに注意してください。Workfront でステータスを選択する際に混乱が生じないように、一意の名前を使用することをお勧めします。</p> </td> 
+      <td> <p>ステータス名を入力します。必須フィールドです。</p> <p>ステータス名を作成するときは、システム内の他の人が同じ名前のステータスを作成できることに注意してください。Workfront でステータスを選択する際に混乱が生じないように、一意の名前を使用することをお勧めします。</p><p>ステータスが重複している場合は、グループ管理者が名前を更新して区別する必要があります。 システムの唯一の一意性インジケータは、ステータスキーです。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">説明</td> 
