@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '949'
 ht-degree: 7%
 
 ---
@@ -131,7 +131,7 @@ ht-degree: 7%
 | ビューでフィールドを新しい列として追加 | ✓ |               |         |
 | 外部リストから行をコピーしてテーブルに貼り付ける | ✓ |               |          |
 | タイムラインでのレコードの表示 |            | ✓ |             |
-| レコードのフィルタリング | ✓ | ✓ |           |
+| レコードのフィルタリング | ✓ | ✓ | ✓ |
 | カレンダーにレコードを表示する |           |              | ✓ |
 | レコードをグループ化 | ✓ | ✓ |
 | レコードの並べ替え | ✓ |              |

@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 88%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか、[!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront]管理者がアクセスレベルを変更する方法については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront]管理者がアクセスレベルを変更する方法については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,8 +72,8 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
 
 [!DNL Workfront] に付属する時間タイプは以下のとおりです。
 
-* **[!UICONTROL 病欠時間]**：プロジェクト、タスクやイシューの時間エントリに関連付けることができない一般的な時間タイプです。
-* **[!UICONTROL 休暇時間]**：プロジェクト、タスクやイシューの時間エントリに関連付けることができない一般的な時間タイプです。
+* **[!UICONTROL 病欠時間]**：プロジェクト、タスクまたは問題の時間エントリに関連付けることができない一般的な時間タイプです。 病欠時間は収益としてカウントできません。
+* **[!UICONTROL 休暇時間]**：プロジェクト、タスクまたは問題の時間エントリに関連付けることができない一般的な時間タイプです。 休暇時間は収益としてカウントできません。
 * **[!UICONTROL 一般オーバーヘッド]**：プロジェクト、タスクやイシューの時間エントリに関連付けることができない一般的な時間タイプです。ただし、プロジェクト計画プロセスでは収益としてカウントできます。
 * **[!UICONTROL プロジェクト時間]**：プロジェクトの時間エントリにのみ関連付けることができる一般的な時間タイプです。
 * **[!UICONTROL タスク時間]**：タスクの時間エントリにのみ関連付けることができる一般的な時間タイプです。
@@ -110,7 +110,11 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
-      <td>この時間タイプに関連付けられた時間エントリを収益の計算に反映させたい場合は、このオプションを選択します。</td> 
+      <td><p>この時間タイプに関連付けられた時間エントリを収益の計算に反映させたい場合は、このオプションを選択します。</p>
+      <p>病欠時間と休暇時間は収益としてカウントできません。</p>
+      <p><b>メモ</b></p>
+      <p>一般的な時間タイプが売上高としてカウントされる場合、時間を記録するユーザーのプロファイルに関連付けられたコストレートは、時間コストに関連付けられます。  
+      </td> 
      </tr> 
     </tbody> 
    </table>

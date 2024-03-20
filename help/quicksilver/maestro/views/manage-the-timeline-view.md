@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 2%
 
 ---
@@ -162,9 +162,11 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* タイムライン表示用に作成したフィルタは、同じレコードタイプに適用された場合、テーブル表示のフィルタとは独立して機能します。
+* タイムライン表示に対して作成したフィルターは、同じレコードタイプに適用される他の表示のフィルターとは独立して機能します。
 
-* フィルターは、選択したビューに固有です。 同じレコードタイプの 2 つのタイムラインビューに、異なるフィルターを適用することができます。 同じタイムライン表示を見ている 2 人のユーザーには、現在適用されているのと同じフィルターが表示されます。
+* フィルターは、選択したビューに固有です。 同じレコードタイプの 2 つのタイムラインビューに、異なるフィルターを適用することができます。
+
+* 同じタイムライン表示を見ている 2 人のユーザーには、現在適用されているのと同じフィルターが表示されます。
 
 * タイムライン表示用に作成したフィルターには名前を付けられません。
 

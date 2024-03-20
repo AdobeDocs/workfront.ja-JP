@@ -4,10 +4,10 @@ description: レコードとそのフィールドをカレンダービューに�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 9%
+source-wordcount: '547'
+ht-degree: 6%
 
 ---
 
@@ -116,3 +116,32 @@ Adobe Workfront Planning 機能の表示と管理方法について詳しくは�
    * 時間枠ドロップダウンメニューから次のいずれかのオプションを選択して、時間間隔を更新します。
 
       * 月
+1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
+   * [フィルター](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### フィルターを追加
+
+フィルターを使用すると、画面に表示される情報の量を減らすことができます。
+
+カレンダービューでフィルターを使用する際は、次の点に注意してください。
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* カレンダービューに対して作成したフィルタは、同じレコードタイプに適用される他のビューのフィルタとは独立して機能します。
+
+* フィルターは、選択したビューに固有です。 同じレコードタイプの 2 つのカレンダービューに、異なるフィルタを適用することができます。
+
+* 同じカレンダー表示を見ている 2 人のユーザーには、現在適用されているのと同じフィルターが表示されます。
+
+* カレンダービューに対して作成したフィルターに名前を付けることはできません。
+
+* フィルターを削除すると、自分と同じレコードタイプにアクセスし、自分と同じビューを表示する人から、自分が削除されます。
+
+* カレンダービューでのフィルターの追加方法は、テーブルビューでのフィルターの追加方法と同じです。
+
+  詳しくは、この記事の「フィルターの追加」の節を参照してください [テーブル表示の管理](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* 接続されたレコードフィールドまたは参照フィールドでフィルタリングできますが、複数のレコードにリンクできるフィールドに対してはフィルタリングできません。

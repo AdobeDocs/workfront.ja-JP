@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 5%
 
 ---
@@ -31,6 +31,36 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >以下の節で参照されるドキュメントは、機能が実稼動環境にリリースされてからしばらく後に利用できるようになります。
+
+## 2024年3月18日（PT）の週
+
+### カレンダー表示で使用可能なフィルター
+
+実稼動： 2024 年 3 月 20 日
+
+プレビュー：決定する必要があります
+
+カレンダー表示で情報をフィルタリングできるようになりました。 詳しくは、 [カレンダー表示を管理](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### タイムラインとカレンダー表示に追加された詳細ボックス
+
+実稼動： 2024 年 3 月 20 日
+
+プレビュー：決定する必要があります
+
+タイムラインビューとカレンダービューから、レコードの「詳細」ボックスにアクセスできるようになりました。 タイムラインビューとカレンダービュー内の「詳細」ボックスでレコードを編集できます。
+
+[ 詳細 ] ボックスから、レコードの [ 詳細 ] ページを開くことができます。
+
+詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+
+### Excel での読み込みを一時的に無効にする
+
+実稼動： 2024 年 3 月 21 日
+
+プレビュー：決定する必要があります
+
+Excel または CSV ファイルを使用したレコードタイプのインポートは、一時的に無効になっています。 この機能は、後日使用できるようになります。
 
 ## 2024年3月11日（PT）の週
 

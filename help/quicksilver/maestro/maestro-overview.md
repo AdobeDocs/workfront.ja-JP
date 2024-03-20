@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1994'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 | 分類の作成 | ✓ |                                  |                  |
 | 個々の名前付きレコードと分類を作成 | ✓ |                                  |                  |
 | レコードのカスタムフィールドを作成 | ✓ |                                  |                  |
-| Excel または CSV ファイルを使用してレコードの種類とフィールドをインポートする | ✓ |                                  |                  |
+| Excel または CSV ファイルを使用してレコードの種類とフィールドをインポート* | ✓ |                                  |                  |
 | レコードをリンク | ✓ |                                  |                  |
 | テーブル内のレコードの表示 | ✓ |                                  |                  |
 | タイムラインでのレコードの表示 | ✓ |                                  |                  |
@@ -275,7 +275,12 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 | レコードタイプのテーブルに貼り付けることができるファイルのサイズ | 1 MB |
 | API を使用してインポートできる、レコードタイプテーブルのファイルサイズ | 1.5 MB |
 | API リクエストを実行できる割合 | 1 分あたり 200 リクエスト |
-| テーブルにインポートできる Excel ファイルの CSV サイズ | 5MB |
+| 読み込める Excel ファイルの CSV サイズ* | 5MB |
+
+>[!IMPORTANT]
+>
+>*この機能は一時的に無効になっており、後日利用可能になります
+
 
 ## Adobe Workfrontの計画機能の検索
 

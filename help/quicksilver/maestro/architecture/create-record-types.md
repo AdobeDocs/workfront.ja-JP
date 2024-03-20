@@ -1,13 +1,13 @@
 ---
 title: オペレーショナルレコードタイプの作成
-description: レコードタイプは、AdobeMaestro のオブジェクトタイプです。 Maestro では、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
+description: レコードタイプは、Adobe Workfront計画のオブジェクトタイプです。 Workfront Planning では、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 3%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 3%
 
 {{maestro-important-intro}}
 
-レコードタイプは、AdobeMaestro のオブジェクトタイプです。 マエストロでは、組織のライフサイクルに必要な作業関連項目を示すカスタムレコードタイプを作成できます。
+レコードタイプは、Adobe Workfront計画のオブジェクトタイプです。 Workfront Planning では、組織のライフサイクルに必要な作業関連項目を示すカスタムレコードタイプを作成できます。
 
 レコードの種類は、次のいずれかになります。
 
 * **オペレーショナルレコードのタイプ**
 * **分類**
 
-Maestro のレコードタイプの詳細については、 [レコード・タイプと分類の概要](../architecture/overview-of-record-types-and-taxonomies.md).
+レコードの種類の詳細については、「 [レコード・タイプと分類の概要](../architecture/overview-of-record-types-and-taxonomies.md).
 
 オペレーショナルレコードタイプの作成は、分類レコードタイプの作成と似ています。 この記事では、オペレーショナルレコードの種類を作成する方法について説明します。
 
@@ -45,12 +45,12 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 <tr>
 <td>
    <p> 製品</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
   <tr>
    <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
-   <p>任意</p> 
+   <p>現在：プラン</p>
+   または
+   <p>新規：標準 </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
+   <td> <p>Workfront Planning には、アクセスレベルの制御はありません</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
         詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
       * Excel または CSV ファイルを使用してインポートする場合。 分類レコードタイプでは使用できません。
+
+        >[!IMPORTANT]
+        >
+        >この機能は、2024 年 3 月 21 日以降、一時的に無効になっています。 後日有効になります。
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
 ## ワークスペーステンプレートを使用してレコードタイプを作成する
 
-テンプレートを使用してワークスペースを作成する際に、レコードタイプを自動的に作成できます。 各マエストロテンプレートには、サンプルのオペレーショナルレコードタイプと分類レコードタイプが含まれています。
+Workfront計画テンプレートを使用してワークスペースを作成する際に、レコードタイプを自動的に作成できます。 各テンプレートには、サンプルのオペレーショナルレコードタイプと分類レコードタイプが含まれています。
 
 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
 ## Excel または CSV ファイルをインポートしてレコードタイプを作成する
 
+>[!IMPORTANT]
+>
+>この機能は、2024 年 3 月 21 日以降、一時的に無効になっています。 後日有効になります。
+
+
 Excel または CSV ファイルを使用してレコードタイプをインポートする際は、次の点を考慮してください。
 
-* Excel ファイルの各シートは、Maestro でレコードタイプになります。
+* Excel ファイルの各シートがレコードタイプになります。
 * 各シートの列は、各レコードタイプに関連付けられたフィールドになります。
 * フィールドは、それぞれのレコードタイプに対して一意です。
 * 各シートの各行は、それぞれのレコードタイプに関連付けられた一意のレコードになります。
 * Excel ファイルの各シートは、次のシートを超えてはなりません。
-   * 10,000 行
+   * 50,000 行
    * 500 列
 * Excel ファイルのサイズは 5 MB 以下にする必要があります。
 * 空のシートはサポートされていません。
@@ -222,7 +234,7 @@ Excel ファイルを使用してレコードタイプをインポートする�
 
    「プレビューと編集」(Preview and edit) ボックスには、次の情報が表示されます。
 
-   * 左側のパネルに、シートまたは将来のレコードタイプの名前が表示されます。 既定では、新しいレコードの種類ごとにアイコンと色が選択されます。
+   * 左側のパネルに、シートまたは将来のレコードタイプの名前が表示されます。 Workfront planning では、新しいレコードタイプごとにアイコンと色がデフォルトで選択されます。
    * 最初のシートまたはレコードの種類が選択され、それに関連するフィールドの名前が列ヘッダーとして表示されます。 各フィールドのタイプは、デフォルトで選択されています。
    * 各行は新しいレコードを表します。 「プレビューと編集」ボックスには、最初の 10 件のレコードのみが表示されます。
 
@@ -243,7 +255,7 @@ Excel ファイルを使用してレコードタイプをインポートする�
 
 1. クリック **インポート** ファイルをインポートする準備が整ったら、次の手順に従います。
 
-   次の情報は、Maestro に読み込まれます。
+   次の情報は、Workfront Planning にインポートされます。
 
    * 新しいレコードタイプ
    * 各レコードタイプに関連付けられた新しいフィールド
@@ -251,7 +263,7 @@ Excel ファイルを使用してレコードタイプをインポートする�
 
    レコードタイプページのフィールドとレコードの管理を開始できます。
 
-   Maestro にアクセスできるすべてのユーザーが、読み込まれたレコードの種類と情報を表示および編集できるようになりました。 <!--this will change with permissions-->
+   Workfront Planning にアクセスできるすべてのユーザーが、インポートしたレコードのタイプとその情報を表示および編集できるようになりました。 <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 
