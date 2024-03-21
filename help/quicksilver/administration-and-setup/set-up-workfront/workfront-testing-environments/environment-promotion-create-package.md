@@ -11,10 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b2a2a6b84edc74efa89db2aba459a40e98bfb0e5
+source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 13%
+source-wordcount: '535'
+ht-degree: 12%
 
 ---
 
@@ -46,6 +46,11 @@ ht-degree: 13%
    または
 
    クリック **保存してアセンブリ** パッケージを保存してアセンブリする。
+
+   >[!NOTE]
+   >
+   >* パッケージに 5 文字以上の名前と、少なくとも 1 つのオブジェクトが追加されている場合は、「保存」ボタンと「閉じる」ボタン、「保存」ボタン、「アセンブリ」ボタンを使用できます。
+   >* テストやアクティブなど、インストール可能なステータスのパッケージはアセンブリできません。
 
 ## 既存のパッケージの編集またはアセンブリ
 
