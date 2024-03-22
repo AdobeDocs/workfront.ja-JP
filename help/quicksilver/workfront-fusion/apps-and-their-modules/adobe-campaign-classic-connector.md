@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Campaign]  モジュールを使用すると、 [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
-source-git-commit: 33488d46a14dae070083f28f56e1347da3944ca0
+source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 89%
+source-wordcount: '1434'
+ht-degree: 86%
 
 ---
 
@@ -57,7 +57,14 @@ ht-degree: 89%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
+## 前提条件
+
+Fusion IP アドレスを次に追加する必要があります： [!DNL Adobe Campaign].
+
+* Campaign アドレスに IP アドレスを追加する手順については、次を参照してく許可リストに加えるださい。 [IP アドレスのへの許可リストに加える追加](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) (Adobe Campaignドキュメント ) を参照してください。
+* に追加する IP アドレスのリストについては、次を参照し許可リストに加えるてください： [Adobe Workfront Fusion にアクセスするための IP アドレス](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
 
 ## [!DNL Adobe Campaign] を [!DNL Adobe Workfront Fusion] に接続
 
