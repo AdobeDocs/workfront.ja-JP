@@ -4,9 +4,9 @@ description: 2024 年第 2 四半期の更新ストリームと通知の機能�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 詳しくは、 [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能に関する説明は、ビデオの 2:00 から始まります。）
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能の説明は 2:00 から始まります）。
 
 ## コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「ストリームを更新」タブ
 
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 詳しくは、 [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能については、ビデオの 0:31 から説明します）。
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427992/){target=_blank} （この特定の機能の説明は 0:31 から始まります）。
 
 ## 概要パネルで新しいコメントストリームを利用できるようになりました。
 
