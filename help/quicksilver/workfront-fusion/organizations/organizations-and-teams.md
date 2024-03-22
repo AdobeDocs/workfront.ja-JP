@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion の組織とチームの機能を使用す�
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
+source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 88%
+source-wordcount: '1239'
+ht-degree: 90%
 
 ---
 
@@ -169,19 +169,13 @@ Fusion では、複数の組織に属している場合があります。リソ�
 
 >[!NOTE]
 >
->次にアクセスする場合： [!DNL Fusion] から [!DNL Adobe Experience Cloud]の場合、通知は [!DNL Experience Cloud] 通知センター
->
->詳しくは、 [通知にアクセスする](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] 対象： [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
-
-メール通知オプションは、チームレベルで設定されます。
-
->[!NOTE]
->
 >組織が統合シェルに移動されている場合は、[Adobe通知 ] 領域から通知を受け取ります。 「通知」領域で通知を表示するには、統合シェルエクスペリエンスを使用する必要があります。Adobeの通知
 >
 >「Adobe通知」領域を含む統合シェルエクスペリエンスを使用するには、ページ上部近くにある「統合エクスペリエンスで新しい統合 UI を試す」ボタンをクリックします。 このボタンは、組織が統合シェルに移動した場合にのみ使用できます。
 >
->統合シェルでの通知の検索の詳細については、 [通知にアクセスする](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
+>詳しくは、 [通知にアクセスする](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] 対象： [!DNL Workfront Fusion].
+
+メール通知オプションは、チームレベルで設定されます。
 
 1. 左側のナビゲーションパネルで、「**[!UICONTROL チーム]**」をクリック
 1. 「**[!UICONTROL 通知オプション]**」タブを選択します。
