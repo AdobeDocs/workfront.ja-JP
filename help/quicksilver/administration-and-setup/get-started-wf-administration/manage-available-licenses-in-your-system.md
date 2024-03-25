@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 85%
+source-wordcount: '1069'
+ht-degree: 77%
 
 ---
 
@@ -65,7 +65,11 @@ Workfrontに追加するユーザーにアクセスレベルを割り当てる�
    >
    >プルーフのライセンスは、Workfront ライセンスに加えて Workfront Proof アドオンを購入したお客様のみが利用できます。このアドオンについて詳しくは、 [Workfront Proof：記事インデックス](../../workfront-proof/workfront-proof.md).
 
-1. （条件付き）「**最大値を設定するには、ホームグループを追加する必要があります**」というメッセージが表示された場合は、システムにホームグループを追加します。詳しくは、この記事の[ライセンスページへのホームグループの追加または削除](#add-or-remove-a-home-group-to-the-licenses-page)の節を参照してください。
+1. （条件付き）メッセージが表示された場合 **最大値を設定するには、ホームグループを追加する必要があります**&#x200B;を使用する場合は、の節で説明されている方法で、システムにホームグループを追加します。 [[ ライセンス ] ページにホームグループを追加または削除する](#add-or-remove-a-home-group-to-the-licenses-page) 」を参照してください。
+
+   >[!NOTE]
+   >
+   >新しいプランの場合、[ プランの選択 ] では、管理者はホームグループのライセンスを表示できません。 使用済みライセンスの総数のみが表示されます。 プライムおよび Ultimate プランは、ホームグループごとに最大ライセンス数を設定する機能を提供します。
 
 ## Workfront アドオンのライセンスに関する情報の表示
 
