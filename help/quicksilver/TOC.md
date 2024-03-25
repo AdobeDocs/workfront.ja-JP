@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '14044'
+source-wordcount: '14037'
 ht-degree: 94%
 
 ---
@@ -2025,13 +2025,13 @@ ht-degree: 94%
       * [Adobe Workfront Goals の通知を有効にする](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobeマエストロ {#adobe-maestro}
    * [Adobeマエストロ情報](maestro/maestro-information.md)
-   * [Adobe Workfront planning capabilities の概要](maestro/maestro-overview.md)
-   * [Adobe Workfront planning 機能リリースアクティビティ](maestro/release-activity.md)
+   * [Adobe Workfront Planning の概要](maestro/maestro-overview.md)
+   * [Adobe Workfront planning リリースアクティビティ](maestro/release-activity.md)
    * Adobeマエストロのアーキテクチャ {#adobe-maestro-architecture}
       * [アーキテクチャ：記事インデックス](maestro/architecture/architecture-information.md)
       * [ワークスペースの作成](maestro/architecture/create-workspaces.md)
-      * [レコード・タイプと分類の概要](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [オペレーショナルレコードタイプの作成](maestro/architecture/create-record-types.md)
+      * [レコードタイプの概要](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+      * [レコードタイプの作成](maestro/architecture/create-record-types.md)
       * [分類レコードタイプの作成](maestro/architecture/create-a-taxonomy.md)
       * [レコードタイプを接続](maestro/architecture/connect-record-types.md)
       * [レコードタイプを編集](maestro/architecture/edit-record-types.md)
@@ -2051,7 +2051,7 @@ ht-degree: 94%
       * [アクセス情報](maestro/access/access-information.md)
       * [アクセス権の概要](maestro/access/access-overview.md)
       * [Adobe Workfrontの計画機能での共有権限の概要](maestro/access/sharing-permissions-overview.md)
-      * [Adobe Workfrontの計画機能を使用する際のライセンスタイプの概要](maestro/access/license-type-overview.md)
+      * [Adobe Workfront計画を使用する際のライセンスタイプの概要](maestro/access/license-type-overview.md)
       * [ワークスペースの共有](maestro/access/share-workspaces.md)
       * [ビューの共有](maestro/access/share-views.md)
    * Adobeマエストロレコード {#adobe-maestro-records}

@@ -1,13 +1,13 @@
 ---
 title: フィールドの作成
-description: Adobeマエストロでは、オペレーショナルレコードの種類や分類ごとにカスタムフィールドを作成できます。 次に、このフィールドを Maestro レコードに関連付けることができます。
+description: Adobe Workfront計画では、レコードタイプの種類ごとにカスタムフィールドを作成できます。 その後、このフィールドをWorkfront Planning レコードに関連付けることができます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Adobe・マエストロでは、オペレーショナル・レコード・タイプまたは分類のカスタム・フィールドを作成できます。 次に、フィールドを Maestro レコードに関連付けて、レコード情報を強化できます。
+Adobe Workfront Planning では、レコードタイプ用のカスタムフィールドを作成できます。 その後、フィールドをWorkfront Planning レコードに関連付けて、レコード情報を強化できます。
 
 レコードタイプを作成してから、関連付けるフィールドを作成する必要があります。 詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセスレベル制御はありません</p>  
+   <td> <p>Workfront Planning には、アクセスレベルの制御はありません</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
 
    サポートされる式について詳しくは、 [数式フィールドの概要](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. 数式で参照するフィールド名を Maestro インターフェイスに表示されたとおりに追加します。
+1. Workfront Planning インターフェイスに表示されるフィールド名を追加し、式で参照します。
 
    >[!NOTE]
    >
    > * 複数選択タイプのフィールドを数式に追加することはできません。
    >
-   > * 数式内のリンクされたレコードからフィールドを追加することはできません。 この機能は、後日リリースされる予定です。 新しいリリースについて詳しくは、 [Adobe Workfront planning 機能リリースアクティビティ](/help/quicksilver/maestro/release-activity.md).
+   > * 数式内のリンクされたレコードからフィールドを追加することはできません。 この機能は、後日リリースされる予定です。 新しいリリースについて詳しくは、 [Adobe Workfront planning リリースアクティビティ](/help/quicksilver/maestro/release-activity.md).
 
 
 1. 「**作成**」をクリックします。
@@ -513,7 +513,7 @@ Maestro フィールドについて詳しくは、 [フィールドの概要](..
 
 2 つの Maestro レコードタイプ間の新しい接続を追加するときに、リンクされたレコードフィールドを作成できます。また、他のアプリケーションからレコードタイプとオブジェクトタイプを追加すると、リンクされたレコードフィールドを作成できます。
 
-Maestro レコードタイプの接続について詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md)
+Workfront Planning レコードタイプの接続について詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md)
 
 ## Excel および CSV ファイルを使用してレコードタイプをインポートしてフィールドを作成する
 
@@ -521,10 +521,10 @@ Maestro レコードタイプの接続について詳しくは、 [レコード�
 
 ## レコードタイプを作成してフィールドを作成する
 
-レコードタイプを作成すると、新しいレコードタイプに関連付けられた複数のフィールドもデフォルトで作成されます。 詳しくは、 [オペレーショナルレコードタイプの作成](../architecture/create-record-types.md).
+レコードタイプを作成すると、新しいレコードタイプに関連付けられた複数のフィールドもデフォルトで作成されます。 詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
 ## テンプレートからワークスペースを作成してフィールドを作成
 
-テンプレートからワークスペースを作成すると、Maestro はオペレーショナルレコードタイプと分類のフィールドを作成します。
+Adobe Workfront Planning では、テンプレートからワークスペースを作成する際に、レコードタイプ用のフィールドが作成されます。
 
-詳しくは、 [操作ワークスペースの作成](../architecture/create-workspaces.md).
+詳しくは、 [ワークスペースの作成](/help/quicksilver/maestro/architecture/create-workspaces.md).

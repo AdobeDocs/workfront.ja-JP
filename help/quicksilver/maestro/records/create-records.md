@@ -1,13 +1,13 @@
 ---
 title: レコードを作成
-description: Adobe Workfrontの計画機能を使用する場合、レコードはレコードタイプのインスタンスです。 個々のレコードを作成する前に、レコードタイプを作成する必要があります。 分類レコードの作成は、運用レコードの作成と同じです。
+description: Adobe Workfront計画を使用する場合、レコードはレコードタイプのインスタンスです。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 3%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 3%
 
 {{maestro-important-intro}}
 
-Adobe Workfrontの計画機能では、レコードはレコードタイプのインスタンスです。
-
-次のタイプのレコードを持つことができます。
-
-* **業務記録**：作業関連のオブジェクトを表します。 例えば、「キャンペーン」というオペレーショナルレコードの場合、「月刊ニュースレター」や「夏物セール」などの名前の付いたレコードを使用できます。
-* **分類レコード**：操作レコードに関連付けることができる属性を表します。 例えば、「チャネル」という分類レコードタイプの場合、「電子メール」、「ソーシャルメディア」、「広告」などの分類に名前を付けることができます。
-
-運用レコードの作成は、分類レコードの作成と同じです。
+Adobe Workfront計画では、レコードはレコードタイプのインスタンスです。
 
 次のいずれかの操作を行って、レコードを作成できます。
 
 * レコードタイプ用に手動で作成する
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * 外部リストから情報をコピー&amp;ペーストして、レコードを作成します。
 
 この記事では、レコードを作成する方法について説明します。 テーブルまたはタイムラインビューのレコードの管理について詳しくは、次の記事を参照してください。
@@ -57,7 +49,7 @@ Adobe Workfrontの計画機能では、レコードはレコードタイプの�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ Adobe Workfrontの計画機能では、レコードはレコードタイプの�
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Adobe Workfront Planning 機能に対するアクセス制御はありません </p>  
+   <td> <p>Adobe Workfront Planning のアクセス制御はありません </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ Adobe Workfrontの計画機能では、レコードはレコードタイプの�
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. 別のアプリケーションから、複数の行と列を選択し、最初の新しいレコードから始まるレコードタイプのテーブルビューに情報を貼り付けます。
 
-   次の情報が、「Workfront Planning Capabilities」領域にインポートされます。
+   次の情報がWorkfront Planning 領域にインポートされます。
 
    * 行に新しいレコードが含まれます
    * 列には、レコードのフィールドに関する情報が入力されます。

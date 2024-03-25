@@ -1,14 +1,14 @@
 ---
 title: タイムライン表示を管理
-description: Adobe Workfrontの計画機能でレコードタイプページにアクセスする際に、タイムラインビューにレコードを表示できます。
+description: Adobe Workfront Planning でレコードタイプのページにアクセスする際に、タイムラインビューにレコードを表示できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 2%
+source-wordcount: '1699'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-Adobe Workfrontの計画機能でレコードタイプページにアクセスする際に、タイムラインビューにレコードを表示できます。
+Adobe Workfront Planning でレコードタイプのページにアクセスする際に、タイムラインビューにレコードを表示できます。
 
 レコードビューの詳細については、 [レコードビューの管理](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 
 <tr>
    <td role="rowheader">アクセスレベルの設定</td>
-   <td> <p>Adobe Workfront Planning 機能に対するアクセスレベルの制御はありません </p>  
+   <td> <p>Adobe Workfront Planning には、アクセスレベルの制御はありません </p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 
 <tr>
    <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>システム管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
  </tbody>

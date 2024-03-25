@@ -1,14 +1,14 @@
 ---
 title: 分類レコードタイプの作成
-description: 分類は、Adobe Workfront Maestro のオペレーショナルレコードタイプに関する属性を取得する、再利用可能なレコードタイプの一種です。
+description: テンプレートを使用してワークスペースを作成する場合、レコード・タイプは「Operational Record Types」セクションと「Taxonomies」セクションに作成されます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 7%
+source-wordcount: '395'
+ht-degree: 9%
 
 ---
 
@@ -18,11 +18,16 @@ ht-degree: 7%
 
 {{maestro-important-intro}}
 
-分類レコードタイプは、AdobeMaestro のオペレーショナルレコードタイプに関する属性をキャプチャします。
+テンプレートを使用してワークスペースを作成する場合、次のセクションでレコードタイプが作成されます。
+
+* 運用中のレコードタイプ
+* 分類
+
+ワークスペースの「分類」セクションのレコード・タイプは、同じワークスペースの「オペレーショナル・レコード・タイプ」セクションのレコード・タイプに関する属性を取得します。
 
 例えば、キャンペーンはオペレーショナルレコードタイプにすることができます。 Campaign レコードタイプに関する属性を取得する分類を次に示します：地域、オーディエンス、国。
 
-Maestro のレコードタイプの詳細については、 [レコード・タイプと分類の概要](../architecture/overview-of-record-types-and-taxonomies.md).
+レコードの種類の詳細については、「 [レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## アクセス要件
 
@@ -39,11 +44,11 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 <td>
    <p> 製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Maestro のレコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsライセンスが必要です。組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。</p> </td>
+   <p> Adobe Workfront</p> <p>レコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsライセンスが必要です。組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -61,12 +66,12 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
+   <td> <p>Adobe Workfront Planning には、アクセスレベルの制御はありません</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -91,16 +96,20 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
 ## 分類の作成に関する考慮事項
 
-* ワークスペースで分類レコードタイプを作成する前に、ワークスペースを作成する必要があります。
+* ワークスペースの「分類」セクションでレコード・タイプを作成する前に、テンプレートを使用してワークスペースを作成する必要があります。
 
   ワークスペースについて詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
-* 次のいずれかの操作を行って、分類レコードタイプを作成できます。
+* 次のいずれかの操作を行って、ワークスペースの「分類」セクションでレコードタイプを作成できます。
    * テンプレートを使用してワークスペースを作成する際に、自動的に作成します。 詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
-   * 最初から手動で作成します。
+   * ワークスペースの「分類」セクションで、一から手動で作成します。
 
-* 新しく作成された分類レコードタイプには、すべて次のフィールドが含まれます。
+* 新しく作成されたすべての分類には、デフォルトで次のフィールドがあります。
 
-   * 名前 <!--if there won't be any more fields, consider rephrasing this-->
+   * 名前
+   * 説明
+   * 開始日
+   * 終了日
+   * ステータス
 
   さらに、分類にカスタムフィールドを追加できます。 詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
@@ -110,8 +119,6 @@ Maestro のレコードタイプの詳細については、 [レコード・タ�
 
 ## 分類レコードタイプの作成
 
-分類レコードタイプの作成は、最初から、またはワークスペーステンプレートから、運用レコードタイプを作成する場合と似ています。
+分類レコードタイプの作成は、レコードタイプの作成と似ています。
 
-詳しくは、この記事の「最初からレコードタイプを作成する」を参照してください。 [レコードタイプの作成](../architecture/create-record-types.md).
-
-テンプレートからワークスペースを作成する際の分類の自動作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).

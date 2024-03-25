@@ -1,16 +1,16 @@
 ---
 title: 履歴セクションの概要
-description: AdobeMaestro のレコードの右側のパネルで、レコードに対して行われた変更や記録を確認できます。
+description: レコードに対して行われた変更や記録は、Adobe Workfront計画のレコードの右側のパネルで、システムによってレコードに対して行われます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 4%
 
 ---
-
 
 # 履歴セクションの概要
 
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-レコードの右側のパネルにコメントや返信を追加することで、AdobeMaestro レコードで共同作業を行うことができます。 また、この領域で、記録に加えられた他の変更や記録を表示することもできます。
+レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードで共同作業できます。 また、この領域で、記録に加えられた他の変更や記録を表示することもできます。
 
 レコードの右側のパネルには、次のセクションが表示されます。
 
-* **コメント**：ユーザーがレコードに追加したコメントおよび返信を表示します。 Maestro レコードでのコメント管理の詳細については、 [レコードコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **コメント**：ユーザーがレコードに追加したコメントおよび返信を表示します。 Workfront Planning レコードでのコメント管理の詳細については、「 [レコードコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **履歴**：ユーザーがレコードフィールドに対しておこなった、システムで記録された変更を表示します。
 
 ## レコードの履歴セクションを見つける
@@ -46,11 +46,11 @@ ht-degree: 4%
 
 ## 「履歴」セクションに関する考慮事項
 
-レコードのフィールドに加えた変更は、オペレーショナルレコードまたは分類の [ 詳細 ] ページの右側のパネルにある [ 履歴 ] セクションで確認できます。
+レコードの [ 詳細 ] ページの右側のパネルにある [ 履歴 ] セクションで、レコードフィールドに加えた変更を確認できます。
 
 ![](assets/history-area-in-comments.png)
 
-* Maestro は、次の情報を History セクションに記録します。
+* Workfront planning では、「履歴」セクションに次の情報が記録されます。
 
    * フィールドの変更
 
@@ -74,18 +74,18 @@ ht-degree: 4%
 
    * 複数選択
    * リンクされたレコードフィールド
-   * 人物
+   * ユーザー
 
   変更によってフィールドに値が追加されただけの場合、古い値は表示されず、新しいフィールド値のみが表示されます。
 
 * チェックボックスタイプのフィールドでは、以前の値が取り消し線形式で表示されることはありません。 フィールドが編集された場合は、変更が行われた時点の現在の状態のみが表示されます。
 
-  Maestro フィールドについて詳しくは、 [フィールドの作成](/help/quicksilver/maestro/fields/create-fields.md).
+  「 Workfront planning 」フィールドについて詳しくは、 [フィールドの作成](/help/quicksilver/maestro/fields/create-fields.md).
 
 * 次のタイプのフィールドに対する変更は、「履歴」セクションには表示されません。
 
    * リンクされた（参照）フィールド
-   * 数式
+   * 式
    * 作成者
    * 作成日
    * 最終変更者

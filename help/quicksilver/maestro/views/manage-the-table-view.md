@@ -1,13 +1,13 @@
 ---
 title: テーブル表示の管理
-description: Adobe Workfrontの計画機能でレコードタイプページにアクセスする際に、レコードとそのフィールドをテーブルビューで表示できます。
+description: Adobe Workfront Planning でレコードタイプページにアクセスする際に、レコードとそのフィールドをテーブルビューで表示できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2395'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Workfrontの計画機能でレコードタイプページにアクセスする際に、レコードとそのフィールドをテーブルビューで表示できます。
+Adobe Workfront Planning でレコードタイプページにアクセスする際に、レコードとそのフィールドをテーブルビューで表示できます。
 
 レコードビューとその管理方法については、 [レコードビューの管理](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Adobe Workfrontの計画機能でレコードタイプページにアクセス�
 
 <tr>
    <td role="rowheader">アクセスレベルの設定</td>
-   <td> <p>Workfornt 計画機能に対するアクセス・レベル・Adobeはありません。 </p>  
+   <td> <p>Workfornt 計画に対するアクセス・レベル・コントロールはありません。Adobe・ワークフロート計画</p>  
 </td>
   </tr>
 

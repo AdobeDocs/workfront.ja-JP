@@ -1,18 +1,18 @@
 ---
-title: Adobe Workfront planning capabilities の概要
-description: Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 完全にカスタマイズ可能なワークスペースを作成して、企業の各組織単位のニーズを満たすワークフローを定義できます。
+title: Adobe Workfront Planning の概要
+description: Adobe Workfrontプランニングは、Adobe Workfrontの新しいオファーです。 完全にカスタマイズ可能なワークスペースを作成して、企業の各組織単位のニーズを満たすワークフローを定義できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1994'
-ht-degree: 3%
+source-wordcount: '1785'
+ht-degree: 4%
 
 ---
 
-# Adobe Workfront planning capabilities の概要
+# Adobe Workfront Planning の概要
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,16 +22,17 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe Workfrontの新しいオファーであるAdobe Workfrontの計画機能に関するものです。
+>この記事の情報は、Adobe Workfrontの新しい製品、Adobe Workfrontプランニングに関するものです。
 >
->現在、計画機能は、限られた数のお客様に対してオープンなベータプログラムの一部です。 これらの機能を使用するには、Workfrontのユーザーである必要があります。
+>現在、Adobe Workfrontの計画は、限られた数のお客様に対して公開されているベータプログラムの一部です。 これらの機能を使用するには、Workfrontのユーザーである必要があります。
 >
->計画機能のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
->[Adobe Workfrontの計画機能を示すビデオを視聴します。](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Workfront planning のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 
-## Adobe Workfront計画機能の概要
+<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 プランニング機能の目的は、組織の運用上の詳細を包括的に把握し、作業管理ライフサイクルの各段階で重要なビジネス上の質問に答えることです。
+## Adobe Workfront計画の概要
+
+Adobe Workfrontプランニングは、Adobe Workfrontの新しいオファーです。 Workfrontの計画の目的は、組織の運用上の詳細を包括的に把握し、作業管理ライフサイクルの各段階で重要なビジネス上の質問に答えることです。
 
 チームやリーダーシップは、次のような質問に対する明確な回答を必要とします。
 
@@ -48,18 +49,16 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 * 組織で使用するオブジェクトの種類（またはレコードの種類）を決定して、これらのオブジェクトを相互にリンクする方法を設定することで、ワークフローを完全にカスタマイズします。
 * 他のシステムのオブジェクトタイプにリンクし、すべてのプロセスに対して一貫性のあるフレームワークを作成します。
 
-## 現在利用可能なAdobe Workfront Planning 機能
+## 現在利用可能なAdobe Workfront計画機能
 
-次の表に、計画機能で使用可能な主な機能と、その使用可能なタイムラインを示します。 このリストには、すべての機能が含まれているわけではありません。
+次の表に、Workfront計画で使用できる主な機能と、その使用可能なタイムラインを示します。 このリストには、すべての機能が含まれているわけではありません。
 
-新機能とリリース日について詳しくは、 [Adobe Workfront planning 機能リリースアクティビティ](/help/quicksilver/maestro/release-activity.md).
+新機能とリリース日について詳しくは、 [Adobe Workfront planning リリースアクティビティ](/help/quicksilver/maestro/release-activity.md).
 
 | 機能 | 利用可能 | 近日中に利用可能 | 調査中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | ワークスペースの作成 | ✓ |                                  |                  |
-| オペレーショナルレコードタイプの作成 | ✓ |                                  |                  |
-| 分類の作成 | ✓ |                                  |                  |
-| 個々の名前付きレコードと分類を作成 | ✓ |                                  |                  |
+| レコードタイプの作成 | ✓ |                                  |                  |
 | レコードのカスタムフィールドを作成 | ✓ |                                  |                  |
 | Excel または CSV ファイルを使用してレコードの種類とフィールドをインポート* | ✓ |                                  |                  |
 | レコードをリンク | ✓ |                                  |                  |
@@ -74,15 +73,15 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 | テーブル表示でのグループの並べ替え |                               | ✓ |                  |
 | タイムライン表示でのグループの並べ替え |                               | ✓ |                  |
 | ワークスペースの接続 |                               | ✓ |                  |
-| プランニング機能のレコードと分類の接続 | ✓ |
 | テーブルビューでのレコードの検索 | ✓ |   |
 | タイムラインビューでのレコードの検索 | ✓ |   |
-| 計画機能レコードをWorkfrontプロジェクト、プログラム、ポートフォリオ、会社、グループに接続 | ✓ |                                 |                  |
-| 計画機能レコードのAdobe Experience Manager Assets への接続 | ✓ |                                  |                 |
+| Workfront Planning レコードをWorkfrontのプロジェクト、プログラム、ポートフォリオ、会社、グループに接続 | ✓ |                                 |                  |
+| Workfront Planning レコードのAdobe Experience Manager Assets への接続 | ✓ |                                  |                 |
 | レコードの詳細ページ | ✓ |                                  |                  |
 | レコードの詳細ページのレイアウトを更新します |                               | ✓ |                  |
 | ワークスペースの共有 | ✓ | |  |
 | ビューの共有 | ✓ | |  |
+| ビューを複製 | ✓ | |  |
 | リクエストの送信 |                               |                                  | ✓ |
 | クリエイティブの概要 |                               |                                  | ✓ |
 | レコードの色とアイコンのカスタマイズ | ✓ |                                  |                 |
@@ -90,24 +89,24 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 | レコードにサムネールを追加 | ✓ |                                  |                 |
 | レコードの変更履歴を表示 | ✓ |                                  |                 |
 | 段落フィールドのリッチテキスト書式設定 | ✓ |                                  |                 |
-| Adobe Workfront Fusion 用Adobe Workfront Planning 機能モジュール | ✓ |                                  |                 |
+| Adobe Workfront Fusion 用Adobe Workfrontプランニングモジュール | ✓ |                                  |                 |
 | あるフィールドから別のフィールドに情報をコピーして貼り付けます。 | ✓ |                                  |                 |
 
-## Workfrontインスタンスでのユーザーに対するAdobe Workfront Planning 機能の有効化
+## Workfrontインスタンスのユーザーに対してAdobe Workfront Planning を有効にする
 
-組織は、計画機能にアクセスする前に、Adobe Workfront Planning 機能クローズ済みベータ・プログラムに登録する必要があります。 ベータ版プログラムへの登録について詳しくは、アカウント担当者にお問い合わせください。
+計画機能にアクセスする前に、組織がAdobe Workfront Planning クローズ済みベータプログラムに登録する必要があります。 ベータ版プログラムへの登録について詳しくは、アカウント担当者にお問い合わせください。
 
-へのアクセス権の付与と、他のユーザーによる計画機能の使用に関する詳細は、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md).
+へのアクセス権の付与と、他のユーザーがWorkfront Planning を使用できるようにする方法について詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md).
 
-## Adobe Workfront planning cappalities の用語
+## Adobe Workfront計画の用語
 
-計画機能はWorkfrontに含まれていますが、独自の概念と用語が付属しています。 組織の計画機能の設定に着手する前に、計画機能の概念に精通していることを確認してください。
+Workfront Planning はWorkfrontに含まれていますが、独自の概念と用語が付属しています。 組織に対するWorkfront計画の設定に着手する前に、新しい概念に精通していることを確認してください。
 
-計画機能のフレームワークは完全にカスタマイズ可能です。 組織のニーズに合わせて、すべてのレコードタイプ、その属性、および関連付けられたフィールドを作成できます。
+Workfront計画のフレームワークは完全にカスタマイズ可能です。 組織のニーズに合わせて、すべてのレコードタイプ、その属性、および関連付けられたフィールドを作成できます。
 
-主な計画機能オブジェクトと概念は次のとおりです。
+主なWorkfront計画オブジェクトと概念は次のとおりです。
 
-* **Workspace**：特定の組織の運用ライフサイクルを定義するレコードタイプと分類のコレクションです。 ワークスペースは、組織単位の作業枠です。
+* **Workspace**：特定の組織の運用ライフサイクルを定義するレコードタイプのコレクションです。 ワークスペースは、組織単位の作業枠です。
 
   1 つのWorkfrontインスタンスに最大 1,000 個のワークスペースを設定できます。
 
@@ -115,64 +114,39 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 
   詳しくは、 [ワークスペースの作成](../maestro/architecture/create-workspaces.md).
 
-* **レコードタイプ**：主な計画機能のオブジェクト・タイプ。
+* **レコードタイプ**：オブジェクトタイプまたはWorkfront計画。
 
-  オブジェクト・タイプが事前に定義されているWorkfrontとは異なり、計画機能では、独自のオブジェクト・タイプを作成できます。
+  オブジェクトタイプが事前に定義されているWorkfrontとは異なり、Workfront計画では独自のオブジェクトタイプを作成できます。
 
   例えば、Workfrontでは、プログラム、Portfolio、プロジェクト、タスク、またはイシューのオブジェクトの種類が既に作成されています。
 
-  計画機能では、組織のワークフローに合う任意のレコードタイプを作成できます。 後で、レコードの種類を相互に関連付けたり、フォームの依存関係を定義したりできます。
+  Workfront計画では、組織のワークフローに合う任意のレコードタイプを作成できます。 後で、レコードの種類を相互に関連付けたり、フォームの依存関係を定義したりできます。
 
-  詳しくは、 [オペレーショナル・レコード・タイプと分類の概要](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
+  詳しくは、 [レコードタイプの概要](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  計画機能には次のレコード・タイプがあります。
-
-   * **オペレーショナルレコードの種類**：戦略計画、イニシアチブまたは実行済みの作業を表すレコードタイプ。
-
-     ![](assets/operational-record-type-blank.png)
-
-     例えば、キャンペーン、アクティビティ、プログラムは、運用レコードのタイプにすることができます。
-
-     詳しくは、 [レコードタイプの作成](../maestro/architecture/create-record-types.md).
-
-   * **分類**：操作レコードタイプに関する属性をキャプチャするレコードタイプ。
-
-     ![](assets/taxonomy-record-type-blank.png)
-
-     分類の作成は、オペレーショナル・レコード・タイプの作成と同じですが、プランニング機能では、オペレーショナル・レコード・タイプと分類レコード・タイプが区別されます。 分類の目的は、オペレーショナル・レコード・タイプを強化することです。 <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
-
-     例えば、Audience、Region、Address は、分類タイプのレコードタイプにすることができます。
-
-     詳しくは、 [分類レコードタイプの作成](../maestro/architecture/create-a-taxonomy.md).
-
-* **レコード**：計画機能レコードタイプのインスタンス。 レコードは、オペレーショナルレコードタイプまたは分類を指す場合があります。
+* **レコード**：レコードタイプのインスタンス。
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
-  ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
 
   レコードタイプをワークスペースに追加した後、そのタイプのレコードをレコードタイプのページに追加できます。
 
-  例えば、「キャンペーン」は運用レコードタイプ、「EMEA 向け夏キャンペーン」はキャンペーンレコードタイプのレコードです
-
-  または
-
-  「地域」は分類タイプのレコードタイプで、「南北アメリカおよび中南米」は分類レコードです。「EMEA — 中央ヨーロッパ」は分類レコードです。
+  例えば、「キャンペーン」をレコードタイプに、「EMEA の夏キャンペーン」をキャンペーンレコードタイプのレコードに設定できます
 
   詳しくは、 [レコードを作成](../maestro/records/create-records.md).
 
-* **Workspace テンプレート**：定義済みのテンプレートを使用して、ワークスペースを作成できます。 定義済みのレコード・タイプ、分類、およびテンプレートに含まれるフィールドを使用するか、独自のレコードを追加できます。
+* **Workspace テンプレート**：定義済みのテンプレートを使用して、ワークスペースを作成できます。 定義済みのレコードの種類とフィールドをテンプレートで使用するか、独自のレコードを追加することができます。
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfrontのプランニング機能には、セールス、マーケティング、製品管理の各ワークスペーステンプレートが付属しています。
+  Adobe Workfront Planning には、セールス、マーケティング、製品管理の各ワークスペーステンプレートが付属しています。
 
   詳しくは、 [ワークスペースの作成](../maestro/architecture/create-workspaces.md).
 
-* **フィールド**：フィールドは、レコードタイプに関する情報を含む、オペレーショナルレコードタイプまたは分類レコードタイプに追加できる属性です。 <!--check the shot below, "Connection" needs to be in lowercase-->
+* **フィールド**：フィールドは、レコードタイプに追加できる属性です。 フィールドには、レコードタイプに関する情報が含まれます。 <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  機能フィールドの計画に関する考慮事項：
+  レコードフィールドに関する考慮事項：
 
    * レコードタイプに追加したフィールドは、自動的にそのタイプのすべてのレコードに関連付けられ、それらのレコードに関するデータを取り込むために使用できます。
 
@@ -180,19 +154,17 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 
    * フィールドはレコードタイプに固有で、レコードタイプ間では転送されません。
 
-   * 計画機能フィールドは完全にカスタマイズ可能で、計画機能でのみアクセスできます。 計画機能フィールドには、Workfrontからアクセスできません。
+   * フィールドは完全にカスタマイズ可能で、Workfront計画でのみアクセスできます。 WorkfrontからWorkfront Planning フィールドにアクセスできません。
 
   詳しくは、 [フィールドの作成](../maestro/fields/create-fields.md).
 
-  新しいオペレーショナルレコードタイプは、デフォルトで次の定義済みフィールドに関連付けられます。
+  新しいレコードタイプは、デフォルトで次の定義済みフィールドに関連付けられます。
 
    * 名前
    * 説明
    * 開始日
    * 終了日
    * ステータス
-
-  新しい分類レコードタイプは、デフォルトで、「名前」フィールドに関連付けられます。
 
   次のタイプのカスタムフィールドを作成できます。
 
@@ -212,11 +184,11 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
    * 最終変更者
    * 最終変更日
 
-* **リンクされたレコードタイプ**, **リンクされたレコード**、および **リンクされたレコードフィールド**：次のエンティティ間に接続を作成できます。
+* **リンクされたレコードタイプ**, **リンクされたレコード**、および **リンクされたレコードフィールド**: Workfront Planning では、次のエンティティ間に接続を作成できます。
 
-   * 2 つの計画機能レコード・タイプ。
-   * 計画機能のレコードタイプと、Workfrontプロジェクト、プログラム、ポートフォリオ、会社、またはグループオブジェクトタイプ。
-   * 計画機能のレコードタイプとAdobe Experience Managerのアセットまたはフォルダ。
+   * 2 つのレコードタイプ。
+   * レコードタイプとWorkfrontプロジェクト、プログラム、ポートフォリオ、会社、またはグループオブジェクトタイプ。
+   * レコードタイプとAdobe Experience Managerのアセットまたはフォルダー。
 
      レコードの種類をExperience Managerオブジェクトとリンクするには、Adobe Experience Managerライセンスが必要です。
 
@@ -225,9 +197,9 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 
   レコードタイプ間の接続を確立した後で、それらのタイプの個々のレコードを相互に接続できます。 レコード間の接続は、リンクされたレコードフィールドとして表示されます。
 
-* **リンクされたフィールド** （または参照フィールド）:2 つのレコードタイプ間の接続を確立し、個々のレコードをリンクした後、接続元のレコード上のリンクされたレコードのフィールドを参照できます。
+* **リンクされたフィールド** （または参照フィールド）:2 つのレコードタイプ間の接続を確立し、個々のレコードをリンクした後、接続元のレコードでリンクされたレコードのフィールドを参照できます。
 
-  例えば、計画機能キャンペーンをWorkfrontプロジェクトに接続する場合、計画機能キャンペーンレコードに、接続されたプロジェクトの「プロジェクト所有者」フィールドを表示できます。
+  例えば、Campaign のレコードタイプをWorkfront Project のオブジェクトタイプと接続する場合、接続されたプロジェクトの「プロジェクト所有者」フィールドをキャンペーンレコードに表示できます。
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -261,14 +233,14 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 詳しくは、 [レコードビューの管理](../maestro/views/manage-record-views.md).
 
 
-## Adobe Workfront planning 機能のオブジェクト制限
+## Adobe Workfront planning オブジェクトの制限
 
-次の表に、計画機能で作成できるオブジェクトの数の制限を示します。 制限事項は、開発の次の段階に進むにつれて変化する場合があります。
+次の表に、Workfront計画で作成できるオブジェクトの数の制限を示します。 制限事項は、開発の次の段階に進むにつれて変化する場合があります。
 
-| Adobe Workfront planning capabilities オブジェクト | 制限 |
+| Adobe Workfront Planning Object | 制限 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 1 つのWorkfrontインスタンスの Workspaces の数 | 1,000 |
-| 1 つのワークスペースのレコードタイプの数 | 1,000（ワークスペースの分類、または他のアプリケーションからインポートするオブジェクトを含む） |
+| 1 つのワークスペースのレコードタイプの数 | 1,000（すべてのセクションのレコードタイプと、ワークスペーステンプレートを使用して作成されたレコードタイプが含まれます） |
 | 1 つのレコードタイプのレコード数 | 50,000 |
 | 1 つのレコードタイプまたは分類のフィールド数 | 500 |
 | テキストフィールドの文字数 | 1,000 文字 |
@@ -279,20 +251,20 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 
 >[!IMPORTANT]
 >
->*この機能は一時的に無効になっており、後日利用可能になります
+>*この機能は一時的に無効になっており、後日ご利用いただけます。
 
 
-## Adobe Workfrontの計画機能の検索
+## Adobe Workfront planning を検索
 
-組織が計画機能にアクセスでき、システムまたはグループ管理者が計画機能領域をメインメニューに追加したことを確認します。 詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md).
+組織がWorkfront Planning へのアクセス権を受け取り、システム管理者またはグループ管理者がメインメニューに Planning 領域を追加したことを確認します。 詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md).
 
-計画機能を検索する手順は、次のとおりです。
+Workfront計画を検索する手順は、次のとおりです。
 
 1. Adobe Workfrontにログインします。
 
 1. 次をクリック： **メインメニュー** ![](assets/main-menu-workfront.png) をクリックするか、 **メインメニュー** ![](assets/main-menu-shell.png) 左上隅にある場合は、
 
-1. クリック **マエストロ** ![](assets/maestro-icon.png).
+1. クリック **計画** ![](assets/maestro-icon.png).
 
    「ワークスペース」(Workspaces) 領域が開きます。
 
@@ -300,11 +272,11 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 
    1. ワークスペースをゼロから作成するか、テンプレートを使用します。
 
+   1. 新しいワークスペースにセクションを追加します。
+   1. 新しいワークスペースで既存のセクションの名前を変更します。
    1. 新しいワークスペースにレコードタイプを追加します。
 
-   1. 新しいワークスペースに分類を追加します。
-
-   1. レコードタイプの名前をクリックして、レコードのページを開きます。 デフォルトでは、レコードページがテーブルビューで開きます。
+   1. レコードタイプの名前をクリックして、レコードタイプのページを開きます。 デフォルトでは、レコードタイプのページがテーブルビューで開きます。
 
       タイムラインまたはカレンダー表示を作成することもできます。
 
@@ -314,7 +286,9 @@ Adobe Workfrontの計画機能は、Adobe Workfrontの新しい機能です。 �
 
       列を追加して、レコードフィールドの追加を開始します。
 
-## Adobe Workfront planning 機能リリースアクティビティ
+## Adobe Workfront planning リリースアクティビティ
 
-計画能力に新しい機能を定期的にリリースしています。 リリースされた機能の最新のリストについては、 [Adobe Workfront planning 機能リリースアクティビティ](../maestro/release-activity.md).
+アドビでは、Workfront計画に新機能を定期的にリリースしています。
+
+リリースされた機能の最新のリストについては、 [Adobe Workfront planning リリースアクティビティ](../maestro/release-activity.md).
 

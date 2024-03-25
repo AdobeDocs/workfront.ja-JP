@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2355'
 ht-degree: 67%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 67%
 
 ## 手順 1 - Maestro へのアクセス — {#step1-to-maestro}
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL マエストロ]**.
+1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL 計画]**.
 
 ## マエストロ重要なイントロ — {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe Workfrontの新しいオファーであるAdobe Workfrontの計画機能に関するものです。
+>この記事の情報は、Adobe Workfrontの新しい製品、Adobe Workfrontプランニングに関するものです。
 >
->現在、計画機能は、限られた数のお客様に対してオープンなベータプログラムの一部です。 これらの機能を使用するには、Workfrontのユーザーである必要があります。
+>現在、Workfrontの計画は、限られた数のお客様に対して公開されているベータプログラムの一部です。 これらの機能を使用するには、Workfrontのユーザーである必要があります。
 >
->計画機能のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
+>Workfront planning のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
->計画機能の詳細については、「 [Adobe Workfront planning capabilities の概要](/help/quicksilver/maestro/maestro-overview.md).
+>詳しくは、 [Adobe Workfront Planning の概要](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

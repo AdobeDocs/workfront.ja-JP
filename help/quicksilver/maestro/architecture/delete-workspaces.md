@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 9%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-AdobeMaestro では、ワークスペースはチームが作業を計画するための一元化された場所です。 詳しくは、 [ワークスペースの作成](../architecture/delete-workspaces.md).
+Adobe Workfront計画では、ワークスペースは、チームが作業を計画するための一元化された場所です。 詳しくは、 [ワークスペースの作成](../architecture/delete-workspaces.md).
 
 不要になったワークスペースは削除できます。
 
-削除するワークスペースに関連付けられているレコードタイプと分類の一部またはすべてを、別のワークスペースで再作成してから、削除することをお勧めします。
+削除する前に、別のワークスペースで削除するワークスペースに関連付けられているレコードの種類、レコード、フィールド、ビューの一部またはすべてを再度作成することをお勧めします。
 
 ## アクセス要件
 
@@ -43,17 +43,17 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Workfron Planning ベータプログラムにAdobeする必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス*</p></td>
    <td>
    <p>新規：標準</p>
    <p>現在：プラン</p> 
@@ -62,7 +62,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
+   <td> <p>Adobe Workfront Planning には、アクセスレベルの制御はありません</p>  
 </td>
   </tr>
 
@@ -75,7 +75,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 
@@ -84,24 +84,24 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 *アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## ワークスペースの削除に関する考慮事項
 
-* ワークスペースを削除すると、すべてのレコードタイプ、分類、レコード、およびそのフィールドも削除されます。
+* ワークスペースを削除すると、すべてのレコードタイプ、レコード、そのフィールド、ビューも削除されます。
 * 削除したワークスペースとそれらに含まれる情報は復元できません。
 
 ## ワークスペースの削除
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースが開きます。
+最後にアクセスしたワークスペースが開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、削除するワークスペースを選択します。
 1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) ワークスペース名の横にある「 」をクリックし、 **削除**.
-1. クリック **削除** をクリックして確定します。
+1. 「**削除**」をクリックして確定します。
 
-   ワークスペースは削除され、復元できません。 レコード・タイプ、分類、レコード、およびそれらに関連付けられているフィールドも削除されます。 <!--ensure this is right after closed beta-->
+   ワークスペースは削除され、復元できません。 レコードタイプ、レコード、フィールド、およびそれらに関連付けられたビューも削除されます。 <!--ensure this is right after closed beta-->

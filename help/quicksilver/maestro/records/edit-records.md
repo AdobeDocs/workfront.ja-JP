@@ -1,13 +1,13 @@
 ---
 title: レコードを編集
-description: レコード情報は、Adobe Workfrontの計画機能で編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
+description: レコード情報は、Adobe Workfront Planning で編集できます。 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 {{maestro-important-intro}}
 
-レコードに関連付けられたフィールドの値を編集することで、Adobe Workfrontの計画機能でレコード情報を編集できます。
+レコードに関連付けられたフィールドの値を編集することで、Adobe Workfront Planning でレコード情報を編集できます。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 
@@ -47,7 +47,7 @@ ht-degree: 3%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Adobe Workfront Planning 機能に対するアクセス制御はありません </p>  
+   <td> <p>Adobe Workfront Planning のアクセス制御はありません</p>  
 </td>
   </tr>
 <tr>
@@ -78,7 +78,7 @@ ht-degree: 3%
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 

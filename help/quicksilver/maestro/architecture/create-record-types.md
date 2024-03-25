@@ -1,35 +1,27 @@
 ---
-title: オペレーショナルレコードタイプの作成
+title: レコードタイプの作成
 description: レコードタイプは、Adobe Workfront計画のオブジェクトタイプです。 Workfront Planning では、組織のライフサイクルに必要な作業項目を示すカスタムレコードタイプを作成できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 3%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# オペレーショナルレコードタイプの作成
+# レコードタイプの作成
 
 {{maestro-important-intro}}
 
 レコードタイプは、Adobe Workfront計画のオブジェクトタイプです。 Workfront Planning では、組織のライフサイクルに必要な作業関連項目を示すカスタムレコードタイプを作成できます。
-
 レコードの種類は、次のいずれかになります。
 
-* **オペレーショナルレコードのタイプ**
-* **分類**
-
-レコードの種類の詳細については、「 [レコード・タイプと分類の概要](../architecture/overview-of-record-types-and-taxonomies.md).
-
-オペレーショナルレコードタイプの作成は、分類レコードタイプの作成と似ています。 この記事では、オペレーショナルレコードの種類を作成する方法について説明します。
-
-分類の作成について詳しくは、 [分類レコードタイプの作成](../architecture/create-a-taxonomy.md).
+レコードの種類の詳細については、「 [レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## アクセス要件
 
@@ -75,7 +67,7 @@ ht-degree: 3%
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ ht-degree: 3%
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ ht-degree: 3%
       * テンプレートを使用してワークスペースを作成する場合。
 
         詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
-      * Excel または CSV ファイルを使用してインポートする場合。 分類レコードタイプでは使用できません。
+
+      * Excel または CSV ファイルを使用してインポートする場合。
 
         >[!IMPORTANT]
         >
         >この機能は、2024 年 3 月 21 日以降、一時的に無効になっています。 後日有効になります。
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * 手動：
 
       * 最初から。
 
+        この記事では、最初から作成したワークスペースで、一から汎用レコードの種類を作成する方法について説明します。
+
+* レコードタイプは、セクション内で移動したり、ワークスペースのセクション間で移動したりできます。 あるワークスペースから別のワークスペースにレコードタイプを移動することはできません。
+
 ## ワークスペーステンプレートを使用してレコードタイプを作成する
 
-Workfront計画テンプレートを使用してワークスペースを作成する際に、レコードタイプを自動的に作成できます。 各テンプレートには、サンプルのオペレーショナルレコードタイプと分類レコードタイプが含まれています。
+Workfront計画テンプレートを使用してワークスペースを作成する際に、レコードタイプを自動的に作成できます。 各テンプレートには、サンプルレコードタイプが含まれています。
+
+テンプレートからワークスペースを作成する場合、レコードタイプは次のセクションにグループ化されます。
+
+* オペレーショナルレコードのタイプ
+* 分類
+
+「オペレーショナル・レコード・タイプ」セクションと「分類」セクションの両方で、レコード・タイプを手動で追加できます。
 
 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ Workfront計画テンプレートを使用してワークスペースを作成�
 
 ## レコードタイプを最初から作成する
 
-この記事では、最初からオペレーショナルレコードの種類を作成する方法について説明します。 最初からオペレーショナル・レコード・タイプを作成する方法は、分類を作成する場合と似ています。
-
-分類の詳細については、「 [分類の作成](../architecture/create-a-taxonomy.md).
+この記事では、レコードの種類を最初から作成する方法について説明します。
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ Workfront計画テンプレートを使用してワークスペースを作成�
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを作成するワークスペースを選択します。
 1. クリック **レコードタイプを追加**.
-1. （条件付き）オペレーショナルレコードタイプを作成する場合は、 **ゼロから**. このオプションは、分類を作成する場合は使用できません。
+1. （条件付き）オペレーショナルレコードタイプを作成する場合は、 **ゼロから**.
 
    「レコードタイプを追加」ボックスが開きます。
 
@@ -165,8 +167,6 @@ Workfront計画テンプレートを使用してワークスペースを作成�
    デフォルトでは、次のフィールドは、オペレーショナルレコードタイプのテーブル表示列に表示されます。
 
    * 名前
-
-     「名前」フィールドは、分類に対して自動的に作成される唯一のフィールドです。
    * 説明
    * 開始日
    * 終了日
@@ -196,6 +196,10 @@ Workfront計画テンプレートを使用してワークスペースを作成�
    * [レコードタイプを編集](../architecture/edit-record-types.md)
    * [レコードビューの管理](../views/manage-record-views.md)
 
+1. （オプション）ワークスペースから、をクリックして、目的の場所にレコードタイプをドラッグ&amp;ドロップしたり、別のセクションに移動したりします。
+
+   選択したレコードタイプカードをドロップした後、変更内容は自動的に保存されます。
+
 ## Excel または CSV ファイルをインポートしてレコードタイプを作成する
 
 >[!IMPORTANT]
@@ -223,12 +227,7 @@ Excel ファイルを使用してレコードタイプをインポートする�
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを作成するワークスペースを選択します。
 1. クリック **レコードタイプを追加**.
-1. （条件付き）オペレーショナルレコードタイプを作成する場合は、 **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    分類レコードタイプを作成する場合は、このオプションを使用できません。
-
+1. クリック **Excel/CSV**.
 1. お使いのコンピューターに以前に保存した Excel または CSV ファイルをドラッグ&amp;ドロップするか、 **CSV または Excel ファイルを選択** をクリックして 1 つを参照します。
 1. クリック **データの確認**.
 
@@ -267,9 +266,9 @@ Excel ファイルを使用してレコードタイプをインポートする�
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

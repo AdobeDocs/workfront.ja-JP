@@ -1,13 +1,13 @@
 ---
 title: "フィールド：記事インデックス"
-description: 組織のライフサイクルを反映する新しいフィールドをAdobeマエストロに追加できます。 フィールドは、レコードタイプの属性です。
+description: 組織のライフサイクルを反映した新しいフィールドをAdobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-マーケティングオペレーションリーダーは、Adobeマエストロを使用して、すべてのチームのマーケティングライフサイクル全体にわたる作業を整理できます。 Maestro では、作成するすべてのカスタムレコードタイプのカスタムフィールドを追加するなど、ワークフローのアーキテクチャを完全にカスタマイズできます。
+マーケティング運用リーダーは、Adobe Workfront Planning を使用して、すべてのチームのマーケティングライフサイクル全体で作業を整理できます。 Workfront Planning では、作成するすべてのカスタムレコードタイプのカスタムフィールドの追加を含め、ワークフローのアーキテクチャを完全にカスタマイズできます。
 
-次のセクションの記事では、Maestro フィールドの作成と設定の方法について説明します。
+次の節では、Workfront Planning フィールドの作成および設定方法について説明します。
 
 * [フィールドの概要](../fields/fields-overview.md)
 * [フィールドの作成](../fields/create-fields.md)

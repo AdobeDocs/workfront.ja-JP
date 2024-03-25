@@ -1,16 +1,16 @@
 ---
 title: 数式フィールドの概要
-description: Adobeマエストロでは、関数と既存のフィールドを使用して新しいカスタム値を計算する数式フィールドを作成できます。
+description: Adobe Workfront Planning では、関数と既存のフィールドを使用して新しいカスタム値を計算する数式フィールドを作成できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '453'
+ht-degree: 13%
 
 ---
-
 
 # 数式フィールドの概要
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-既存のフィールドを参照し、数式でAdobeすると、カスタムフィールドを作成できます。 これをおこなうには、カスタムの数式タイプフィールドを作成します。
+既存のフィールドを参照し、数式でそれらを結び付けることで、Adobe Workfront Planning でカスタムフィールドを作成できます。 これをおこなうには、カスタムの数式タイプフィールドを作成します。
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
@@ -56,17 +56,17 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -74,7 +74,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Maestro のアクセス制御はありません</p>  
+   <td> <p>Workfornt 計画に対するアクセス制御はありません</p>  
 </td>
   </tr>
 <tr>
@@ -85,7 +85,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 
@@ -102,14 +102,14 @@ recommendations: noDisplay, noCatalog
 * 数式フィールドは、同じレコードタイプに属するフィールドを参照します。 数式フィールドを作成する際に、他のレコードタイプのフィールドを参照することはできません。 <!--is this still accurate??-->
 * 数式フィールドを保存した後で、そのフィールドの種類を変更することはできません。
 * 数式フィールドを保存した後で、その計算を更新し、同じタイプのすべてのレコードに対して、計算結果を自動的に更新できます。
-* Maestro インタフェースに表示される数式で参照するフィールドを追加する必要があります。
+* Workfront Planning インターフェイスに表示される、式で参照するフィールドを追加する必要があります。
 * 式内で、リンクされたレコードタイプから参照フィールドを使用することは、後日利用できます。
 
 ## サポートされる数式
 
-マエストロ式フィールドは、Workfrontの計算フィールドのすべての式をサポートします。 詳しくは、 [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィールドからのすべての式をサポートしています。 詳しくは、 [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-また、Maestro 数式フィールドでは、次の式を使用できます。
+また、Workfront Planning 式フィールドでは、次の式を使用できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,8 +164,3 @@ recommendations: noDisplay, noCatalog
    </td></tr>
 
 </table>
-
-
-
-
-

@@ -1,13 +1,14 @@
 ---
 title: レコードにサムネールを追加
-description: AdobeMaestro でレコード情報を編集し、各レコードを個々のサムネールに関連付けて、簡単に認識できるようにすることができます。
+description: Adobe Workfront Planning でレコード情報を編集し、各レコードを個々のサムネールに関連付けて、簡単に認識できるようにすることができます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 0%
+source-wordcount: '542'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-レコードをAdobeMaestro 内の一意のサムネールに関連付けて、簡単に認識できるようにすることができます。
+レコードをAdobe Workfront計画で一意のサムネールに関連付けて、簡単に認識できるようにすることができます。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
@@ -43,17 +44,17 @@ ht-degree: 0%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -61,7 +62,7 @@ ht-degree: 0%
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセス制御はありません </p>  
+   <td> <p>Workfront Planning のアクセス制御はありません </p>  
 </td>
   </tr>
 <tr>
@@ -72,7 +73,7 @@ ht-degree: 0%
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td>  <p>Workfrontの管理者を含むすべてのユーザーには、メインメニューの Maestro 領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p>  
+   <td>  <p>Workfront管理者を含むすべてのユーザーには、メインメニューの「計画」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 

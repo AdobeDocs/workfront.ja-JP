@@ -1,13 +1,13 @@
 ---
 title: "アーキテクチャ：記事インデックス"
-description: 次の記事では、AdobeMaestro のアーキテクチャを設定する方法について説明します。 この設定の一環として、AdobeMaestro で管理するワークフローをマッピングするためのワークスペース、レコードタイプ、カスタムフィールドの作成方法を学びます。
+description: 次の記事では、Adobe Workfront計画のアーキテクチャを設定する方法について説明します。 この設定の一環として、Workfront計画で管理するワークフローをマッピングするためのワークスペース、レコードタイプ、カスタムフィールドを作成する方法を学びます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--
 ---
 title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Maestro. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Adobe Maestro. 
+description: The following articles describe how you can configure the architecture of Adobe Workfront planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -30,18 +30,18 @@ hide: yes
 
 {{maestro-important-intro}}
 
-マーケティングオペレーションリーダーは、Adobeマエストロを使用して、すべてのチームのマーケティングライフサイクル全体にわたる作業を整理できます。
+マーケティング運用リーダーは、Adobe Workfront Planning を使用して、すべてのチームのマーケティングライフサイクル全体で作業を整理できます。
 
-Maestro を使用すると、組織が使用するオブジェクトの種類（またはレコードの種類）を決定して、これらのオブジェクトを相互にリンクする方法を設定することから、ワークフローを完全にカスタマイズできます。
+Workfront Planning では、組織が使用するオブジェクトのタイプ（またはレコードのタイプ）を決定して、これらのオブジェクトを相互にリンクする方法を設定することから、ワークフローを完全にカスタマイズできます。
 
-また、Maestro は他のシステムのオブジェクトタイプにリンクし、すべてのプロセスに対して一貫性のあるフレームワークを作成できます。
+また、Workfrontの計画は、他のシステムのオブジェクトタイプにリンクし、すべてのプロセスに対して一貫性のあるフレームワークを作成できます。
 
-次のセクションの記事では、Maestro ワークスペースの設定方法、ワークスペースの構成要素であるレコードの種類の定義方法、およびその機能の使用方法について説明します。
+次の節では、Adobe Workfront Planning ワークスペースの設定方法、ワークスペースの構成要素であるレコードタイプの定義方法、およびその機能の使用方法について説明します。
 
 * [ワークスペースの作成](../architecture/create-workspaces.md)
 * [Workspace テンプレートのリスト](../architecture/workspace-templates.md)
-* [レコード・タイプと分類の概要](../architecture/overview-of-record-types-and-taxonomies.md)
-* [オペレーショナルレコードタイプの作成](../architecture/create-record-types.md)
+* [レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md)
+* [レコードタイプの作成](../architecture/create-record-types.md)
 * [分類レコードタイプの作成](../architecture/create-a-taxonomy.md)
 * [レコードタイプを編集](../architecture/edit-record-types.md)
 * [レコードタイプを接続](../architecture/connect-record-types.md)

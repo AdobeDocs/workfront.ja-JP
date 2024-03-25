@@ -1,13 +1,13 @@
 ---
 title: フィールドの概要
-description: 組織のライフサイクルを反映する新しいフィールドをAdobeマエストロに追加できます。 フィールドは、レコードタイプの属性です。
+description: 組織のライフサイクルを反映した新しいフィールドをAdobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ hide: yes
 
 {{maestro-important-intro}}
 
-組織のライフサイクルを反映する新しいフィールドをAdobeマエストロに追加できます。 フィールドは、レコードタイプの属性です。
+組織のライフサイクルを反映した新しいフィールドをAdobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
 
 
-## マエストロフィールドに関する考慮事項
+## Adobe Workfront planning フィールドに関する考慮事項
 
 * フィールドは、レコードタイプのページのテーブルビューからのみ作成できます。 フィールドは、テーブル表示で列として表示されます。 レコードの種類に関連付けられているすべてのフィールドも、その種類の各レコードの詳細ページに表示されます。
 
@@ -56,42 +56,36 @@ hide: yes
 
         この記事では、フィールドを手動で作成する方法について説明します。
 
-      * レコードタイプを接続する。 2 つの Maestro レコードタイプ間の新しい接続を追加するときに、リンクされたレコードフィールドを作成できます。また、他のアプリケーションからレコードタイプとオブジェクトタイプを追加すると、リンクされたレコードフィールドを作成できます。
+      * レコードタイプを接続する。 2 つのレコードタイプ間の新しい接続を追加するときに、リンクされたレコードフィールドを作成できます。また、他のアプリケーションからレコードタイプとオブジェクトタイプを追加すると、リンクされたレコードフィールドを作成できます。
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        Maestro レコードタイプの接続について詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
+        レコードタイプの接続の詳細については、「 [レコードタイプを接続](../architecture/connect-record-types.md).
 
       * Excel または CSV ファイルを使用してレコードタイプをインポートする。 詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
    * 自動：
 
-      * デフォルトでは、レコードタイプを作成するたびに使用されます。
+     次に、新しいレコードタイプごとにデフォルトで作成される標準フィールドを示します。
 
-        次に、新しい各操作レコードタイプに対してデフォルトで作成される標準フィールドを示します。
+      * 名前
+      * 説明
+      * 開始日
+      * 終了日
+      * ステータス。 レコードのステータスのデフォルト値は次のとおりです。
+         * 開発
+         * 予定
+         * アクティブ
+         * 完了
+         * 保留中
 
-         * 名前
-         * 説明
-         * 開始日
-         * 終了日
-         * ステータス。 レコードのステータスのデフォルト値は次のとおりです。
-            * 開発
-            * 予定
-            * アクティブ
-            * 完了
-            * 保留中
+        他の値を追加したり、既存の値の名前を変更したりできます。
 
-           他の値を追加したり、既存の値の名前を変更したりできます。
+     Workfront Planning では、テンプレートからワークスペースを作成する際に、レコードタイプ用のフィールドが作成されます。 詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 
-        以下は、新しい分類レコードタイプごとにデフォルトで作成される標準フィールドです。
+* Workfront Planning フィールドにWorkfrontからアクセスできません。
 
-         * 名前 <!--will more be added? If not, consider rephrasing this bullet-->
-
-      * テンプレートからワークスペースを作成する場合。 テンプレートからワークスペースを作成すると、Maestro はオペレーショナルレコードタイプと分類のフィールドを作成します。 詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
-
-* Maestro フィールドはWorkfrontからアクセスできません。
-
-* Workfrontのフィールドは、Maestro のレコードタイプをWorkfrontのオブジェクトタイプに接続し、Workfrontのオブジェクトからリンクされたフィールドまたはルックアップフィールドを追加した場合にのみ、Maestro からアクセスできます。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
+* WorkfrontのフィールドにWorkfront Planning からアクセスできるのは、レコードタイプをWorkfrontのオブジェクトタイプに接続し、Workfrontのオブジェクトからリンクされたフィールドや参照フィールドを追加する場合のみです。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
 
 * フィールドが属するワークスペースに対する管理権限を持っている場合は、自分または他のユーザーが作成したフィールドの設定を表示および更新できます。
 
@@ -99,4 +93,4 @@ hide: yes
 
 * フィールド名は 250 文字までです。
 
-* オペレーショナルレコードタイプ、分類、またはワークスペースを削除すると、それらに関連付けられたすべてのフィールドとフィールドの値も削除され、復元できなくなります。 <!-- this might change with a possible recycle bin solution?!-->
+* レコードタイプまたはワークスペースを削除すると、それらに関連付けられているすべてのフィールドとフィールドの値も削除され、復元できなくなります。 <!-- this might change with a possible recycle bin solution?!-->

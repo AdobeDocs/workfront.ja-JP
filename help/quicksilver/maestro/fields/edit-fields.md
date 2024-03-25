@@ -1,14 +1,14 @@
 ---
 title: フィールドを編集
-description: Adobeマエストロでは、既に作成済みのフィールドのフィールド設定を編集できます。
+description: Adobe Workfront Planning では、既に作成済みのフィールドのフィールド設定を編集できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 0%
+source-wordcount: '440'
+ht-degree: 5%
 
 ---
 
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-作成済みのフィールドのフィールド設定を編集できます。
+Adobe Workfront Planning で既に作成されているフィールドのフィールド設定を編集できます。
 
-AdobeMaestro フィールドの作成については、 [フィールドの作成](../fields/create-fields.md).
+Adobe Workfront planning フィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
-この記事では、Maestro フィールドの設定を編集する方法について説明します。 Maestro レコードのフィールド値の編集について詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+この記事では、Workfront planning フィールドの設定を編集する方法について説明します。 レコードのフィールド値の編集について詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
 ## フィールド情報の編集に関する考慮事項
 
@@ -69,17 +69,17 @@ AdobeMaestro フィールドの作成については、 [フィールドの作�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -87,7 +87,7 @@ AdobeMaestro フィールドの作成については、 [フィールドの作�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Maestro のアクセス制御はありません</p>  
+   <td> <p>Workfront Planning のアクセス制御はありません</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ AdobeMaestro フィールドの作成については、 [フィールドの作�
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ AdobeMaestro フィールドの作成については、 [フィールドの作�
 
 ## フィールドを編集
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-workfront.png) Workfrontの右上隅、または **メインメニュー** アイコン ![](assets/main-menu-shell.png)  左上隅にある場合は、「 **マエストロ** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   最後にアクセスしたワークスペースは、デフォルトで開きます。
+    最後にアクセスしたワークスペースは、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを削除するワークスペースを選択します。
 
-   ワークスペースが開き、それに関連付けられたレコードタイプと分類が表示されます。
-1. フィールドを編集するレコードタイプまたは分類のカードをクリックします。
+   ワークスペースが開き、それに関連付けられたレコードタイプが表示されます。
+1. フィールドを編集するレコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
 1. （条件付き） **テーブル表示** から **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。

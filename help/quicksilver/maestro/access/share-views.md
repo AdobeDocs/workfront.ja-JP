@@ -1,16 +1,16 @@
 ---
 title: ビューの共有
-description: 他のユーザーとビューを共有して、Adobe Workfrontの計画機能を使用する際のコラボレーションを確実におこなうことができます。
+description: 他のユーザーとビューを共有して、Adobe Workfront Planning を使用する際のコラボレーションを確実にすることができます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '502'
 ht-degree: 7%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live-->
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 {{maestro-important-intro}}
 
-他のユーザーとビューを共有して、Adobe Workfrontの計画機能でレコードを操作する際のコラボレーションを確保できます。
+他のユーザーとビューを共有して、Adobe Workfront Planning でレコードを操作する際の共同作業を確保できます。
 
 ワークスペースに権限を付与しても、レコードタイプページのビューに対する他のユーザーの権限は付与されません。 他のユーザーと共有するには、レコードタイプのページ内の個々のビューに権限を付与する必要があります。
 
@@ -41,7 +41,7 @@ ht-degree: 7%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ ht-degree: 7%
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> Adobe Workfront Planning 機能に対するアクセス制御はありません</p>  
+   <td> Adobe Workfront Planning のアクセス制御はありません </p>  
 </td>
   </tr>
 
@@ -72,7 +72,7 @@ ht-degree: 7%
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontの管理者を含むすべてのユーザーには、メインメニューの Maestro 領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューの「計画」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -106,7 +106,7 @@ ht-degree: 7%
    * 表示
    * 管理
 
-     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [Adobe Workfrontの計画機能での共有権限の概要](../access/sharing-permissions-overview.md).
+     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [Adobe Workfront Planning での共有権限の概要](../access/sharing-permissions-overview.md).
 
      <!--System administrators always receive Manage permissions to views shared with them.-->
 

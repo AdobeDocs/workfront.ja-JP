@@ -1,20 +1,20 @@
 ---
 title: レコードタイプを接続
-description: 個々のレコードの種類を相互に関連付ける方法を示すには、レコードの種類を接続します。 また、Maestro レコードタイプを他のアプリケーションのオブジェクトタイプと接続して、ユーザーのエクスペリエンスを向上させ、1 つのアプリケーションにフォーカスを合わせることもできます。
+description: 個々のレコードの種類を相互に関連付ける方法を示すには、レコードの種類を接続します。 また、Adobe Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプと接続して、ユーザーのエクスペリエンスを向上させ、1 つのアプリケーションにフォーカスし続けることもできます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2213'
 ht-degree: 2%
 
 ---
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Adobeマエストロを使用すると、組織で必要なレコードの種類を含む完全にカスタマイズ可能なワークスペースをデザインできます。 個々のレコードの種類を相互に関連付ける方法を示すには、レコードの種類を接続します。 また、Maestro レコードタイプを他のアプリケーションのオブジェクトタイプと接続して、ユーザーのエクスペリエンスを向上させ、1 つのアプリケーションにフォーカスを合わせることもできます。
+Adobe Workfront Planning を使用して、組織で必要なレコードタイプを含む完全にカスタマイズ可能なワークスペースをデザインできます。 個々のレコードの種類を相互に関連付ける方法を示すには、レコードの種類を接続します。 また、Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプと接続して、ユーザーのエクスペリエンスを向上させ、1 つのアプリケーションにフォーカスし続けることもできます。
 
-Maestro レコードタイプは、他のアプリケーションのオブジェクトタイプを使用して、別のレコードタイプに接続することができます。
+レコードの種類を相互に接続したり、他のアプリケーションのオブジェクトの種類を使用してレコードの種類を接続したりできます。
 
-これにより、別の Maestro レコード上に、リンクされたレコードまたはオブジェクトタイプのフィールドを表示できます。
+これにより、Workfront Planning レコードにリンクされたレコードまたはオブジェクトタイプのフィールドを表示できます。
 
-この記事では、2 つの Maestro レコードタイプまたは Maestro レコードタイプを別のアプリケーションのオブジェクトと接続する方法について説明します。
+この記事では、Workfront計画で 2 つのレコードタイプまたはレコードタイプを、別のアプリケーションのオブジェクトと接続する方法について説明します。
 
 レコードまたはオブジェクトタイプ間の接続を確立した後、個々のレコードを相互に接続できます。
 
-別のアプリケーションからオブジェクトに Maestro レコードを接続する方法については、 [レコードを接続](../records/connect-records.md).
+別のアプリケーションからWorkfront計画レコードをオブジェクトに接続する方法については、 [レコードを接続](../records/connect-records.md).
 
 レコードタイプを接続する例については、 [レコードタイプとレコードの接続例](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
 <td>
    <p> 製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Maestro のレコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsライセンスが必要です。組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。</p> </td>
+   <p> Adobe Workfront</p> <p>Adobe Workfront Planning のレコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assetsライセンスが必要です。組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
+   <td> <p>Adobe Workfront Planning には、アクセスレベルの制御はありません</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -100,7 +100,7 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -114,16 +114,14 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
 
 ## レコードタイプの接続に関する考慮事項
 
-* Maestro では、次のエンティティを接続できます。
+* Adobe Workfront Planning では、次のエンティティを接続できます。
 
-   * 2 種類のオペレーショナルレコード
-   * 2 つの分類
-   * オペレーショナルレコードのタイプと分類
-   * 別のアプリケーションのオペレーショナルレコードタイプまたは分類およびオブジェクトタイプ。
+   * 2 つのレコードタイプ
 
-  すべてのオペレーショナル・レコード・タイプと分類は、同じワークスペースに属している必要があります。
+     レコードタイプは、同じワークスペースに属している必要があります。
+   * 別のアプリケーションのレコードタイプとオブジェクトタイプ。
 
-* 次のオブジェクトタイプは、Maestro レコードタイプを使用して、次のアプリケーションから接続できます。
+* 次のオブジェクト・タイプは、Workfront Planning レコード・タイプを使用して、次のアプリケーションから接続できます。
 
    * ADOBE WORKFRONT:
 
@@ -140,7 +138,7 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
 
      >[!IMPORTANT]
      >
-     >Adobe Experience Manager Assetsライセンスが必要です。Maestro レコードをAdobe Experience Manager Assetsに接続するには、組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。
+     >Adobe Experience Manager Assetsライセンスが必要です。Workfront Planning レコードをAdobe Experience Manager Assetsに接続するには、組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。
      >
      >Adobe Admin Consoleのオンボーディングについて質問がある場合は、 [AdobeUnified Experience に関する FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -154,13 +152,13 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
 
    * **別のアプリケーションのオブジェクトタイプにレコードタイプを接続する場合**：接続元のレコードタイプにリンクされたレコードフィールドが作成されます。 他のアプリケーションのオブジェクトタイプでは、リンクされたレコードフィールドは自動的に作成されません。
 
-     新しい Maestro 読み取り専用レコードタイプは、実際のオブジェクトが Maestro レコードに接続されている場合にのみ、他のアプリケーションのオブジェクトに対して作成されます。
+     新しいWorkfront Planning の読み取り専用レコードタイプは、実際のオブジェクトがWorkfront Planning レコードに接続されている場合にのみ、他のアプリケーションのオブジェクトに対して作成されます。
 
      詳しくは、 [レコードを接続](../records/connect-records.md).
 
-   * **接続先のレコードまたはオブジェクトのルックアップフィールドを追加する場合**：他のアプリケーションのオブジェクトのフィールドを Maestro レコードタイプに接続できます。 これらは、リンクされたフィールドまたは参照フィールドです。 リンクされたフィールドは、レコードまたはオブジェクトを接続すると、接続されたレコードまたはオブジェクトの情報を自動的に表示します。 リンクされた参照フィールドは常に読み取り専用で、接続されたレコードまたはオブジェクトの値が自動的に設定されます。
+   * **接続先のレコードまたはオブジェクトのルックアップフィールドを追加する場合**：他のアプリケーションのオブジェクトのフィールドをWorkfront Planning レコードタイプに接続できます。 これらは、リンクされたフィールドまたは参照フィールドです。 リンクされたフィールドは、レコードまたはオブジェクトを接続すると、接続されたレコードまたはオブジェクトの情報を自動的に表示します。 リンクされた参照フィールドは常に読み取り専用で、接続されたレコードまたはオブジェクトの値が自動的に設定されます。
 
-     例えば、「Campaign」Maestro レコードタイプをWorkfrontプロジェクトに接続し、プロジェクトの「計画完了日」フィールドを Maestro レコードに取り込むと、「計画完了日（プロジェクトから）」と呼ばれるリンクフィールドがキャンペーン用に自動的に作成されます。 このリンクされたフィールドは手動で編集できません。 「計画完了日」（「プロジェクトから」）フィールドには、リンクされたプロジェクトの計画完了日が表示されます。
+     例えば、「Campaign」レコードタイプをWorkfrontプロジェクトに接続し、プロジェクトの「計画完了日」フィールドをWorkfront計画レコードに移行すると、「計画完了日（プロジェクトから） 」と呼ばれるリンクフィールドがキャンペーン用に自動的に作成されます。 このリンクされたフィールドは手動で編集できません。 「計画完了日」（「プロジェクトから」）フィールドには、リンクされたプロジェクトの計画完了日が表示されます。
 
      >[!IMPORTANT]
      >
@@ -186,11 +184,11 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
 
 1. Adobe Analytics の **レコードタイプ** フィールド、レコードタイプを検索するか、次のいずれかを選択します。
 
-   * 選択したワークスペースのセクションの別のオペレーショナルレコードタイプまたは分類
+   * 選択したワークスペースのセクションの別のレコードタイプ
 
      >[!TIP]
      >
-     >選択したワークスペースのレコードタイプと分類のみが接続できます。
+     >選択したワークスペースのレコードタイプのみが接続できます。
      > 
      >選択したワークスペースに他のレコードタイプがない場合、ワークスペースセクションは表示されません。
 
@@ -212,7 +210,7 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
    * **複数のレコードを許可**：リンクされたレコードタイプのフィールドが元のレコードに表示される場合に、ユーザーが複数のレコードを追加できるようにするには、このオプションを選択します。 これはデフォルトで選択されています。
    * **参照フィールドを選択**：選択したレコードタイプからフィールドを追加するには、このオプションを選択します。 ルックアップフィールドは、リンク先のレコードまたはオブジェクトタイプに関連付けられたフィールドです。 リンクすると、目的のレコード上のレコードまたはオブジェクトの情報が表示されます。 これはデフォルトで選択されています。
 
-1. （条件付きおよびオプション）Workfrontオブジェクトの接続を選択した場合、 **カスタムフォーム** から **これらの基準に一致するオブジェクトのみをリンク** 」セクションに入力します。 選択したカスタムフォームがアタッチされているオブジェクトのみが、選択した Maestro レコードタイプにリンクできます。 複数のフォームを選択できます。
+1. （条件付きおよびオプション）Workfrontオブジェクトの接続を選択した場合、 **カスタムフォーム** から **これらの基準に一致するオブジェクトのみをリンク** 」セクションに入力します。 選択したカスタムフォームが添付されているオブジェクトのみ、選択したレコードタイプにリンクできます。 複数のフォームを選択できます。
 
    ![](assets/workfront-project-connection-selection.png)
 
@@ -286,13 +284,13 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
 
      例えば、Campaign のレコードタイプをプログラムのレコードタイプにリンクし、「プログラム情報」フィールドに「プログラム情報」という名前を付けた場合、リンクされたフィールドの名前は自動的に「キャンペーン」のテーブルビューに表示されます `Budget (from Program information)` キャンペーンのテーブル表示。
 
-   * Maestro レコードタイプを互いにリンクすると、リンク先のレコードタイプにもリンクされたレコードフィールドが追加されます。 リンクされたレコードタイプのリンクされたレコードフィールドの名前は、リンク元のレコードタイプの名前です。
+   * レコードの種類をリンクすると、リンク先のレコードの種類にリンクされたレコードフィールドも追加されます。 リンクされたレコードタイプのリンクされたレコードフィールドの名前は、リンク元のレコードタイプの名前です。
 
      例えば、「Campaign」レコードタイプから「Product」レコードタイプをリンクし、「Linked Product」キャンペーンの接続済みフィールドに名前を付けた場合、「Campaign」リンク済みレコードタイプに対して「Campaign」リンク済みレコードフィールドが作成されます。
 
      >[!TIP]
      >
-     > 別のアプリケーションから Maestro でリンクするレコードタイプへのオブジェクトに対して、リンクされたレコードフィールドは作成されません。
+     > 別のアプリケーションのオブジェクトから、Workfront計画でリンク元のレコードタイプにリンクするオブジェクトに対して、リンクされたレコードフィールドは作成されません。
 
 1. （オプションおよび条件付き）元のレコードタイプまたはリンクされたレコードタイプのテーブルビューで、リンクされたレコードフィールドのヘッダーの下向き矢印をクリックし、次のいずれかをクリックします。
 
@@ -305,7 +303,7 @@ Maestro レコードタイプは、他のアプリケーションのオブジェ
 
    >[!NOTE]
    >
-   > リンク元の Maestro レコードタイプに属するルックアップフィールドを別のアプリケーションのオブジェクトタイプに追加することはできません。
+   > リンク元のレコードタイプに属する参照フィールドを別のアプリケーションのオブジェクトタイプに追加することはできません。
    >
    > 例えば、キャンペーンからリンク先のWorkfrontプロジェクトに「キャンペーンステータス」のルックアップフィールドを追加することはできません。
 

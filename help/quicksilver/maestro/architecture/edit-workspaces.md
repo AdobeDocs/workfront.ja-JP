@@ -4,22 +4,23 @@ description: 既存のワークスペースの情報は、名前の変更など�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 0%
+source-wordcount: '275'
+ht-degree: 9%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # ワークスペースを編集
 
 {{maestro-important-intro}}
 
-AdobeMaestro では、ワークスペースはチームが作業を計画するための一元化された場所です。
+Adobe Workfront計画では、ワークスペースは、チームが作業を計画するための一元化された場所です。
 
-ワークスペースは、チームが使用するオペレーショナルレコードタイプと分類の集まりで、チームの作業ライフサイクルを表します。 Maestro でワークスペースを完全にカスタマイズできます。
+ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 ワークスペースは、Adobe Workfront計画で完全にカスタマイズできます。
 
 ワークスペースの作成について詳しくは、 [ワークスペースの作成](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,17 +43,17 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス*</p></td>
    <td>
    <p>新規：標準</p>
    <p>現在：プラン</p> 
@@ -61,7 +62,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません</p>
+   <td> <p>Workfront Planning には、アクセスレベルの制御はありません</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>[ マエストロ ] 領域をレイアウトテンプレートに追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>「計画」領域をレイアウトテンプレートに追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 {{step1-to-maestro}}
 
-これにより、Maestro の Workspaces 領域が開きます。
+これにより、Workfront計画の「ワークスペース」領域が開きます。
 
 1. 新しいワークスペースのヘッダーにあるワークスペース名の中をクリックして名前を変更し、「 」を押します。 **入力**
 
@@ -99,11 +100,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
    詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
-1. （オプション）「 **分類を追加** ワークスペースに分類を追加するには、次の手順に従います。
-
-   詳しくは、 [分類の作成](../architecture/create-a-taxonomy.md).
-
-1. （オプション）「表示」ドロップダウンメニューをクリックして、既存の表示を編集するか、作成します。
+1. （オプション）ビュータブでビューの名前をクリックして既存のビューを編集するか、 **+表示** をクリックして、ビューを作成します。
 
    詳しくは、 [レコードビューの管理](/help/quicksilver/maestro/views/manage-record-views.md).
 

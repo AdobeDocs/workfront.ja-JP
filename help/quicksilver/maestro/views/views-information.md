@@ -1,13 +1,13 @@
 ---
 title: "ビュー：記事インデックス"
-description: AdobeMaestro レコードをテーブルまたはタイムラインビューに表示できます。 次の記事では、AdobeMaestro レコードビューを作成および管理する方法について説明します。
+description: Adobe Workfront Planning レコードは、テーブル、タイムライン、またはカレンダー表示で表示できます。 次の記事では、Adobe Workfront Planning レコードビューの作成方法と管理方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-AdobeMaestro レコードをテーブルまたはタイムラインビューに表示できます。
+Adobe Workfront Planning レコードは、テーブル、タイムライン、またはカレンダー表示で表示できます。
 
-次の記事では、AdobeMaestro でレコードビューを作成および管理する方法について説明します。
+次の記事では、Adobe Workfront Planning でレコードビューを作成および管理する方法について説明します。
 
 * [レコードビューの管理](../views/manage-record-views.md)
 * [テーブル表示の管理](../views/manage-the-table-view.md)

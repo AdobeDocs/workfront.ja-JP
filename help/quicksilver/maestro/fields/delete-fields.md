@@ -1,14 +1,14 @@
 ---
 title: フィールドを削除
-description: Adobeマエストロでは、不要になったカスタムフィールドを削除できます。
+description: Adobe Workfront計画では、不要になったカスタムフィールドを削除できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 0%
+source-wordcount: '332'
+ht-degree: 9%
 
 ---
 
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Adobeマエストロでは、レコードに関する情報を格納するカスタムフィールドを作成できます。
+Adobe Workfront計画では、カスタムフィールドを作成して、レコードに関する情報を保存できます。
 
-Maestro でのカスタムフィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
+Workfront計画でのカスタムフィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
-関連性がなくなったマエストロフィールドは削除できます。
+関連性がなくなったWorkfront Planning フィールドは削除できます。
 
-## マエストロフィールドの削除に関する考慮事項：
+## Workfront Planning フィールドの削除に関する考慮事項：
 
 * フィールドを削除できるのは、レコードタイプのテーブルビューだけです。
 * レコードの主フィールドは削除できません。
@@ -65,17 +65,17 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
   </td>
@@ -83,12 +83,12 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません</p>  
+   <td> <p>Workfront Planning には、アクセスレベルの制御はありません</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに Maestro 領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
 
 {{step1-to-maestro}}
 
-これにより、Maestro で最後にアクセスしたワークスペースが開きます。
+これにより、Workfront Planning で最後にアクセスしたワークスペースが開きます。
 1. フィールドを削除するレコードタイプのカードをクリックします。
 1. （条件付き） **テーブル表示** から **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
 1. 列ヘッダーで削除するフィールドを見つけ、列ヘッダーの上にマウスポインターを置き、フィールド名の後の下向き矢印をクリックします。
@@ -124,6 +124,6 @@ Maestro でのカスタムフィールドの作成について詳しくは、 [�
 
    <!--insert screen shot when finalized-->
 
-1. クリック **削除** をクリックして確定します。
+1. 「**削除**」をクリックして確定します。
 
    フィールドが削除され、復元できず、レコードと関連付けられなくなります。

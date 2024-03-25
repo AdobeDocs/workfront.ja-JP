@@ -1,25 +1,25 @@
 ---
 title: ワークスペースの共有
-description: ワークスペースを他のユーザーと共有して、Adobe Workfrontの計画機能で作業する際のコラボレーションを確保できます。
+description: ワークスペースを他のユーザーと共有して、Adobe Workfront Planning で作業する際のコラボレーションを確保できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '414'
 ht-degree: 8%
 
 ---
 
 
-<!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
+<!--update the metadata and description when we turn this article live; also, update title after Bob adds Planning as a product ??-->
 
 # ワークスペースの共有
 
 {{maestro-important-intro}}
 
-ワークスペースを他のユーザーと共有して、Adobe Workfrontの計画機能で作業する際のコラボレーションを確保できます。
+ワークスペースを他のユーザーと共有して、Adobe Workfront Planning で作業する際のコラボレーションを確保できます。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 8%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ ht-degree: 8%
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> Adobe Workfront Planning 機能に対するアクセス制御はありません</p>  
+   <td> Adobe Workfront Planning のアクセス制御はありません</p>  
 </td>
   </tr>
 
@@ -77,7 +77,7 @@ ht-degree: 8%
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontの管理者を含むすべてのユーザーには、メインメニューの Maestro 領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p> 
+   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューの「計画」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -107,7 +107,7 @@ ht-degree: 8%
    * 参加
    * 管理
 
-     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [Adobe Workfrontの計画機能での共有権限の概要](../access/sharing-permissions-overview.md).
+     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [Adobe Workfront Planning での共有権限の概要](../access/sharing-permissions-overview.md).
 1. クリック **リンクをコピー** をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
 1. コピーしたリンクを他のユーザーと共有します。 このワークスペースにアクセスするには、リンクを受け取ったユーザーがアクティブユーザーであり、Workfrontにログインする必要があります。
 1. 「**保存**」をクリックします。

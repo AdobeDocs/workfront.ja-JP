@@ -1,14 +1,14 @@
 ---
 title: ワークスペースの作成
-description: ワークスペースは、チームが使用するオペレーショナルレコードタイプと分類の集まりで、チームの作業ライフサイクルを表します。 Maestro でワークスペースを完全にカスタマイズできます。
+description: ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 ワークスペースは、Adobe Workfront計画で完全にカスタマイズできます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 4%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-AdobeMaestro では、ワークスペースはチームが作業を計画するための一元化された場所です。
+Adobe Workfront計画では、ワークスペースは、チームが作業を計画するための一元化された場所です。
 
-ワークスペースは、チームが使用するオペレーショナルレコードタイプと分類の集まりで、チームの作業ライフサイクルを表します。 Maestro でワークスペースを完全にカスタマイズできます。
+ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 ワークスペースは、Adobe Workfront計画で完全にカスタマイズできます。
 
 ## アクセス要件
 
@@ -41,26 +41,27 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Maestro クローズ済みベータプログラムのAdobeに登録する必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Workfornt Planning クローズ済みベータプログラムにAdobeする必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfrontプラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
 <p>任意</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td role="rowheader"><p>Adobe Workfront ライセンス*</p></td>
    <td>
    <p>新規：標準</p>
+   または
    <p>現在：プラン</p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Maestro のアクセスレベルコントロールはありません</p>
+   <td> <p>Adobe Workfront Planning には、アクセスレベルの制御はありません</p>
 </td>
   </tr>
 
@@ -72,7 +73,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>[ マエストロ ] 領域をレイアウトテンプレートに追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>「計画」領域をレイアウトテンプレートに追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
 
@@ -81,7 +82,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -95,9 +96,9 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 ## ワークスペースに関する考慮事項
 
 * 各単位の固有の動作方法に合わせて、組織内の特定の組織単位のワークスペースを作成できます。
-* ワークスペースに含まれるレコードタイプと分類は、組織単位の作業ライフサイクルを反映する必要があります。
-* ワークスペースを作成する場合、自分だけがワークスペースにアクセスし、管理する権限を持っています。 他のユーザーと同じスペースで共同作業を行うには、ユーザーと共有する必要があります。 詳しくは、 [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md).
-* 組織内には最大 1,000 個のワークスペースを持つことができます。
+* ワークスペースに含まれるレコードタイプは、組織単位の作業ライフサイクルを反映する必要があります。
+* ワークスペースを作成する場合、自分だけがワークスペースにアクセスし、管理する権限を持っています。 他のユーザーと同じスペースで共同作業を行うには、ユーザーと共有する必要があります。 詳しくは、 [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md). システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースを管理できます。
+* 組織のWorkfrontインスタンスには、最大 1,000 個のワークスペースを含めることができます。
 * ワークスペースには、各ワークスペースに固有のレコードタイプが含まれます。 <!--this might change-->
 
 ## ワークスペースの作成
@@ -110,7 +111,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   これにより、Maestro の Workspaces 領域が開きます。
+   これにより、Workfront計画の「ワークスペース」領域が開きます。
 1. （オプションおよび条件付き）「 **プレビュー** 次の事前定義済みの workspace テンプレートのいずれかに含まれます。
 
    * マーケティング管理
@@ -121,7 +122,7 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Maestro Workspace テンプレートについて詳しくは、 [Workspace テンプレートのリスト](../architecture/workspace-templates.md).
+   Workfront planning workspace テンプレートについて詳しくは、 [Workspace テンプレートのリスト](../architecture/workspace-templates.md).
 
 1. クリック **テンプレートを使用** 選択したテンプレートからワークスペースの作成を開始するには
 
@@ -131,8 +132,8 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
    次のタイプのワークスペース用の 1 つが作成されます。
 
-   * レコードタイプの手動で追加を開始できる空のワークスペース。
-   * サンプルレコードタイプが設定されたワークスペースです。このレコードタイプはさらにカスタマイズできます。
+   * 空のワークスペース。ゼロからワークスペースを作成する際に、レコードタイプの手動で追加を開始できます。
+   * サンプルレコードタイプが設定されたワークスペース。テンプレートの 1 つを使用する際に、さらにカスタマイズできます。
 
 1. 新しいワークスペースのヘッダーにあるワークスペース名の中をクリックして名前を変更し、Enter キーを押します。
 
@@ -140,10 +141,30 @@ AdobeMaestro では、ワークスペースはチームが作業を計画する�
 
    次をクリック： **その他** メニュー ![](assets/more-menu.png)をクリックし、 **名前を変更**.
 
+1. （オプションおよび条件付き）ワークスペースに既にセクションがある場合は、 **セクションを追加** をクリックして、新しいセクションをワークスペースに追加します。 1 つのセクションに複数のレコードタイプを含めることができます。
+
+1. （オプションおよび条件付き）ワークスペースをテンプレートから作成した場合、 **オペレーショナルレコードのタイプ** または **分類** セクション
+
+   または
+
+   セクションの名前にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **名前を変更** をクリックして、セクションの名前を変更します。
+
+   >[!TIP]
+   >
+   >セクションを作成した場合でも、任意のワークスペースから任意のセクションの名前を変更できます。
+
+1. （オプション）セクションの場所を変更するには、次のいずれかの操作を行います。
+
+   * セクション名の上にマウスポインターを置いて、 **つかむ** アイコン ![](assets/grab-icon.png)をクリックし、右側のスポットにドラッグ&amp;ドロップします。
+   * セクション名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **上に移動** または **下に移動**. セクションは、ワークスペース内で上下に移動します。
+
+1. （オプション）新しいセクションを追加するには、次のいずれかの操作を行います。
+
+   * クリック **セクションを追加** ワークスペースの下部に表示されます。
+   * セクション名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **上にセクションを追加** または **下にセクションを追加**.
+
 1. （オプション）「 **レコードタイプを追加** をクリックして、レコードタイプをワークスペースに追加します。
 
    詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
 
-1. （オプション）「 **分類を追加** ワークスペースに分類を追加するには、次の手順に従います。
 
-   詳しくは、 [分類の作成](../architecture/create-a-taxonomy.md).

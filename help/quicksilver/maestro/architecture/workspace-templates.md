@@ -1,13 +1,13 @@
 ---
 title: Workspace テンプレートのリスト
-description: ワークスペースは、チームが使用するオペレーショナルレコードタイプと分類の集まりで、チームの作業ライフサイクルを表します。 Maestro には、ワークスペースの作成時に基本的なレコードタイプ、分類、フィールドを使い始めるための一連のテンプレートが用意されています。
+description: ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning には、ワークスペースの作成時に基本的なレコードタイプとフィールドを使い始めるための一連のテンプレートが用意されています。
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,21 @@ role: User
 
 {{maestro-important-intro}}
 
-Adobe・マエストロでは、ワークスペースは、チームが使用する操作レコード・タイプと分類の集まりで、チームの作業ライフサイクルを表します。
+Adobe Workfront Planning では、ワークスペースは、チームが使用するレコードタイプの集まりで、チームの作業ライフサイクルを表します。
 
-Maestro には、ワークスペースの作成時に基本的なレコードタイプ、分類、フィールドを使い始めるための一連のテンプレートが用意されています。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+Workfront Planning には、ワークスペースの作成時に基本的なレコードタイプとフィールドを使い始めるための一連のテンプレートが用意されています。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 
-この記事では、Maestro で使用できる Workspace テンプレートについて説明します。
+この記事では、Adobe Workfront計画で使用できる Workspace テンプレートについて説明します。
 
-## Maestro テンプレートに関する考慮事項
+## Adobe Workfront Planning テンプレートに関する考慮事項
 
-* 各テンプレートには、一連のオペレーショナル・レコード・タイプと分類が用意されています。 詳しくは、 [レコード・タイプと分類の概要](../architecture/overview-of-record-types-and-taxonomies.md).
-* 各オペレーショナルレコードタイプと分類には、一連のフィールドが用意されています。 これらのフィールドの一部は、他の Maestro レコードタイプとの接続です。
-* 任意のテンプレートをカスタマイズできます。
+* 各テンプレートには、一連のレコードタイプが用意されています。 詳しくは、 [レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md).
+* 各テンプレートのレコードタイプは、次のセクションに整理されています。
+
+   * 運用中のレコードタイプ
+   * 分類
+* 各レコードタイプには、一連のフィールドが用意されています。 これらのフィールドの一部は、他のWorkfront Planning レコードタイプへの接続です。
+* 任意のテンプレートをカスタマイズし、既存のテンプレートにレコードの種類やフィールドを追加することができます。
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -92,9 +96,9 @@ You must have the following:
 
 -->
 
-## Maestro Workspace テンプレート
+## Workfront planning workspace テンプレート
 
-以下は、Maestro の Workspace テンプレートと、それらが含むフィールドの数です。
+Workfront計画の Workspace テンプレートと、これらに含まれるフィールドの数を次に示します。
 
 * **マーケティング管理**：このテンプレートを使用すると、すべてのマーケティングキャンペーンを管理できます。 テンプレートには次の機能が付属しています。
 

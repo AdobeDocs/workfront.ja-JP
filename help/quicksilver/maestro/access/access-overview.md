@@ -1,29 +1,29 @@
 ---
 title: アクセス権の概要
-description: Adobe Workfrontの計画機能を使用する場合、ライセンスおよび共有権限に関する制限があります。
+description: Adobe Workfront計画を使用する場合、ライセンスおよび共有権限に関する制限があります。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '437'
 ht-degree: 6%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
-<!--update the title and the metadata title if Maestro is NOT its own product - because the title is too generic for it being a Workfront capability-->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront planning. This article describes the levels of access that users could have to Adobe Workfront planning. -->
+<!--update the title and the metadata title if Workfront planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # アクセス権の概要
 
 {{maestro-important-intro}}
 
-Adobe Workfrontの計画機能を使用する場合、ライセンスおよび共有権限に関する制限があります。
+Adobe Workfront計画を使用する場合、ライセンスおよび共有権限に関する制限があります。
 
 ## アクセス要件
 
-Adobe Workfrontの計画機能を使用するには、次の設定が必要です。
+Adobe Workfront計画を使用するには、次の設定が必要です。
 
 <table style="table-layout:auto">
  <col>
@@ -40,7 +40,7 @@ Adobe Workfrontの計画機能を使用するには、次の設定が必要で�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront協定</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning 機能クローズ済みベータプログラムに登録されている必要があります。 </p>
+<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 </p>
    </td>
   </tr>
   <tr>
@@ -66,7 +66,7 @@ Adobe Workfrontの計画機能を使用するには、次の設定が必要で�
   </tr>
   <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>計画機能オブジェクトに対するアクセス・レベル・コントロールはありません。</p>  
+   <td> <p>Adobe Workfront Planning には、アクセスレベルの制御はありません</p>  
 </td>
   </tr>
 <tr>
@@ -76,12 +76,12 @@ Adobe Workfrontの計画機能を使用するには、次の設定が必要で�
     <p>システム管理者は、自分が作成しなかったワークスペースを管理できます。 </p>
     <p>システム管理者は、自分が作成しなかったビューを管理できません。 </p>
    <p>機能オブジェクトの計画に関する権限の共有の詳細は、「  
-   <a href="../access/sharing-permissions-overview.md">Adobe Workfrontの計画機能での共有権限の概要</a> 
+   <a href="../access/sharing-permissions-overview.md">Adobe Workfront Planning での共有権限の概要</a> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontの管理者を含むすべてのユーザーには、メインメニューの Maestro 領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューの「計画」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -90,31 +90,31 @@ Adobe Workfrontの計画機能を使用するには、次の設定が必要で�
 *Workfrontのアクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-## メインメニューの Maestro 領域を他のユーザと共有します。
+## メインメニューの「計画」領域を他のユーザーと共有します。
 
-<!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
+<!--First, contact your account manager to obtain access to the current Workfront planning closed beta program.-->
 
-組織がWorkfront Planning Capabilities Beta プログラムに登録されたら、レイアウトテンプレートを使用して、すべてのユーザーのメインメニューに Maestro 領域を追加できます。
+組織がWorkfront Planning ベータ・プログラムに登録されたら、レイアウト・テンプレートを使用して、すべてのユーザーのメイン・メニューに「計画」領域を追加できます。
 
 1. にログインします。 **Workfront** Workfront管理者として。
 
-1. 次を追加： **マエストロ** アイコン ![](assets/maestro-icon.png) から **メインメニュー** の使用 **レイアウトテンプレート**.
+1. 次を追加： **計画** アイコン ![](assets/maestro-icon.png) から **メインメニュー** の使用 **レイアウトテンプレート**.
 
    詳しくは、 [レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. レイアウトテンプレートを、Workfrontの計画機能にアクセスするユーザーに割り当てます。
+1. レイアウトテンプレートを、Workfront Planning へのアクセス権を持つユーザーに割り当てます。
 
    詳しくは、[レイアウトテンプレートにユーザーを割り当て](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
-   テンプレートに割り当てられたすべてのユーザは、メインメニューで Maestro にアクセスできるようになりました。
+   テンプレートに割り当てられたすべてのユーザーは、メインメニューでWorkfront Planning にアクセスできるようになりました。
 
    ユーザーは、ワークスペース、レコードタイプ、レコード、およびフィールドの作成を開始できます。
 
 ## アクセスを許可
 
-Workfrontの計画機能に対するアクセス制御はありません。
+Workfront Planning のアクセス制御はありません。
 
-任意の種類のライセンスを持つユーザーは、 Workfront Planning 機能にアクセスできます。
+任意の種類のライセンスを持つユーザーは、Workfront Planning にアクセスできます。
 
 Workfrontでのアクセス権の付与について詳しくは、 [カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -122,10 +122,10 @@ Workfrontでのアクセス権の付与について詳しくは、 [カスタム
 
 ユーザーがアクセスできるようにするには、作成したワークスペースとビューに対する権限をユーザーに与える必要があります。
 
-詳しくは、 [Adobe Workfrontの計画機能での共有権限の概要](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+詳しくは、 [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-Adobe Workfrontのライセンスの種類は、計画機能の権限と組み合わせて、計画機能のオブジェクトの表示、投稿、管理に対するアクセス権を付与します。
+Adobe Workfrontのライセンスの種類は、Workfrontの計画権限と組み合わせて、Workfrontの計画オブジェクトの表示、投稿、管理に対するアクセス権を付与します。
 
-ライセンスの種類がプランニング機能オブジェクトの権限レベルに与える影響の詳細については、「 [Adobe Workfrontの計画機能を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
+ライセンスの種類がWorkfront Planning オブジェクトの権限レベルに与える影響については、 [Adobe Workfront計画を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
