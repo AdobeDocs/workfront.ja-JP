@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront Fusion] のシナリオの詳細'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 90%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront]プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -133,6 +133,10 @@ ht-degree: 100%
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
       <td>このグラフでは、シナリオの実行中に使用されたデータ転送と操作の量を [!UICONTROL line] で表示できます。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL 処理バナー ]</p>  </td> 
+      <td>シナリオが最近実行された場合は、次の内容のバナーが表示される場合があります。<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>これは、実行の詳細がストレージに書き込まれる間に表示されます。 処理は、シナリオの実行直後に実行されます。 そして数分以内に持続する 実行の処理中に、シナリオの実行の詳細が表示されない場合があります。</td> 
      </tr> 
     </tbody> 
    </table>

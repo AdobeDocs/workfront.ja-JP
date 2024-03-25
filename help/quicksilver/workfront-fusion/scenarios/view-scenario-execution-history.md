@@ -7,10 +7,10 @@ description: あるシナリオのすべての実行に関する情報を表示�
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+workflow-type: tm+mt
+source-wordcount: '958'
+ht-degree: 89%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
   <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td>  
@@ -47,9 +47,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -73,8 +73,6 @@ ht-degree: 100%
 
    ![](assets/open-history-tab-350x202.png)
 
-   色
-
    また、クリックすると、この情報を全ページ表示で見ることができます。全ページ表示では、履歴をフィルタリングして、特定の実行を表示できます。
 
    シナリオの実行ごとに、次の詳細が表示されます。
@@ -85,6 +83,10 @@ ht-degree: 100%
    * **[!UICONTROL 操作]**&#x200B;の回数
    * **[!UICONTROL データ転送]**&#x200B;のサイズ
    * **[!UICONTROL 詳細]**&#x200B;へのリンク
+
+>[!NOTE]
+>
+>シナリオ履歴には、 **処理中** バッジが表示されます。 処理は、シナリオの実行直後に実行されます。 そして数分以内に持続する 実行の処理中に、シナリオの実行の詳細が表示されない場合があります。
 
 ### 「[!UICONTROL 履歴]」タブでのシナリオ実行履歴の表示
 
@@ -103,7 +105,9 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >[!UICONTROL 詳細]リンクは、実行に詳細が含まれる場合にのみ表示されます。
+   >* [!UICONTROL 詳細]リンクは、実行に詳細が含まれる場合にのみ表示されます。
+   >
+   >* シナリオ履歴には、 **処理履歴** バッジが表示されます。 処理は、シナリオの実行直後に実行されます。 そして数分以内に持続する 実行の処理中に、シナリオの実行の詳細が表示されない場合があります。
 
 ## シナリオ実行履歴のフィルタリング
 
