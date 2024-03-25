@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 69%
+source-wordcount: '645'
+ht-degree: 63%
 
 ---
 
@@ -26,6 +26,20 @@ ht-degree: 69%
 
 ## 最新リリース
 
+## アルファリリース 7 - 2024年3月
+
+この第 7Alphaリリースには、次の内容が含まれています。
+
+* ドキュメント承認の期限を作成する機能が追加されました。
+* 設定時間を節約するために、承認テンプレートを作成して承認に適用できるようになりました。
+* 承認ウィジェットが更新され、複数の主要業績評価指標と詳細なリストが表示されるようになり、さらに詳しく調べられるようになりました。
+
+ウォークスルービデオの一覧は以下のとおりです。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _過去のリリース_
+
 ## アルファリリース 6 - 2024年1月
 
 この第 6Alphaリリースでは、次の内容が含まれます。
@@ -37,8 +51,6 @@ ht-degree: 69%
 ウォークスルービデオの一覧は以下のとおりです。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _過去のリリース_
 
 ### Alphaリリース 5 - 2023 年 9 月
 
