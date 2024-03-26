@@ -4,7 +4,8 @@ description: このページでは、2024 年第 2 四半期リリースに含�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 22%
@@ -20,7 +21,7 @@ ht-degree: 22%
 
 [Adobe Workfrontの未来](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) 2024 年 3 月 26 日に、戦略的計画とワークフローの未来を簡単にプレビューできます。 Workfrontチームが、作業の自動化、ユーザーエクスペリエンスのシンプル化、生産性の向上を実現する AI ファーストのアプローチにより、マーケティングのライフサイクル全体にわたってビジネス機能に対処する方法を学びます。
 
-[エンドツーエンドキャンペーン計画のためのマーケティングカレンダーとツールの発表](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 2023 年 3 月 23 日に、組織がエンドツーエンドの運用ライフサイクルを管理および視覚化できるように設計された新しい製品機能について説明します。
+[エンドツーエンドキャンペーン計画のためのマーケティングカレンダーとツールの発表](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 2024 年 3 月 28 日に、組織がエンドツーエンドの運用ライフサイクルを管理および視覚化できるように設計された新しい製品機能について説明します。
 
 <span class="preview">オフサイクル機能（2024 年第 2 四半期のリリース日より前に実稼動環境にリリースされる機能）は、黄色でハイライト表示されます。</span>
 
