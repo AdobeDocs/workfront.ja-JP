@@ -6,10 +6,10 @@ description: ドキュメントの承認者として割り当てられている�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ドキュメントの承認者として割り当てられている場合は、複数の方法で承認を決定できます。
 
-新しいドキュメントの承認の作成について詳しくは、[ドキュメント承認の作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
+新しいドキュメントの承認の作成について詳しくは、 [ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >

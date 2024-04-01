@@ -5,13 +5,13 @@ title: 接続されたWorkfrontプロジェクトへの Frame.io アセットの
 description: クリエイティブは、レビューが必要なアセットを Frame.io に追加し、正式なレビューおよび承認を得るためにWorkfrontに送信できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 2c1945cdc9f923ea7fdc750f69eeba2a026571ac
+exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
+source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 16%
 
 ---
-
 
 # 接続されたWorkfrontプロジェクトへの Frame.io アセットの追加
 
@@ -83,4 +83,4 @@ ht-degree: 16%
 
 選択した場所にアセットが表示され、それに応じてタスクのステータスが更新されます。
 
-レビューと承認のプロセスは、記事で説明している手順に従って開始できます [ドキュメントの承認の作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+レビューと承認のプロセスは、記事で説明している手順に従って開始できます [ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).

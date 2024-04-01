@@ -8,10 +8,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31eb7de4-aa45-4d97-bd00-7040936e15dc
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 82%
+source-wordcount: '88'
+ht-degree: 75%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 82%
 
 この節では、次の記事を扱います。
 
-* [ドキュメントの承認の作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+* [ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 * [ドキュメントにレビュアーまたは承認者を追加する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [ドキュメントから承認者またはレビュアーを削除する](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [承認テンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

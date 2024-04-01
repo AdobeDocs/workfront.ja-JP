@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 9171a7696feaebe8efddf126200d319fe7c84d52
+source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
 workflow-type: tm+mt
-source-wordcount: '14061'
+source-wordcount: '14064'
 ht-degree: 94%
 
 ---
@@ -1807,7 +1807,7 @@ ht-degree: 94%
          * [接続されたWorkfrontプロジェクトへの Frame.io アセットの追加](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
       * ドキュメントを承認 {#approve-documents}
          * [ドキュメントの承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
-         * [ドキュメントの承認の作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [ドキュメントのレビューまたは承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [ドキュメントにレビュアーまたは承認者を追加する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [ドキュメントから承認者またはレビュアーを削除する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

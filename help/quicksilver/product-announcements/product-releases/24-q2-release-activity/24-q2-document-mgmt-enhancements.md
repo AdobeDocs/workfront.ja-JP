@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '345'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 ドキュメントの承認プロセスを作成する際に、「ドキュメント」領域から承認テンプレートを適用できます。
 
-<!-- For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md). -->
+詳しくは、 [承認テンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ## すべての承認に関する情報を一度に表示
 
