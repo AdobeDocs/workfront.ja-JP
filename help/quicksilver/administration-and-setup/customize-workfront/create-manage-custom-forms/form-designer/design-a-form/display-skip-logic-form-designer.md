@@ -7,9 +7,10 @@ description: カスタムフォームのどのセクションを表示または�
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 930a04e02d73b75a6dac957e4dfbc76a5f73246f
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
+source-git-commit: 2280019a7cc02c0730f85c010dc8cc08834535aa
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1366'
 ht-degree: 18%
 
 ---
@@ -124,7 +125,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->フォームデザイナーでフォームをプレビューする際、表示ロジックは一時的に使用できなくなります。
+><span class="preview">表示ロジックは、プレビュー環境でフォームデザイナーでフォームをプレビューする場合にのみ使用できます。</span>
 
 ## カスタムフォームにスキップロジックを追加する
 
@@ -158,4 +159,4 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->フォームデザイナーでフォームをプレビューすると、スキップロジックは一時的に使用できなくなります。
+><span class="preview">スキップロジックは、プレビュー環境のフォームデザイナーでフォームをプレビューする場合にのみ使用できます。</span>
