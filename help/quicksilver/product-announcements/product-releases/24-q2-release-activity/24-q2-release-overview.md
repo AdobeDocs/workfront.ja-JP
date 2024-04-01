@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 876991bab19d065257802a903adf432e420fcc44
+source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 21%
@@ -569,3 +569,4 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 ### トレーニングの更新
 
 各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
+
