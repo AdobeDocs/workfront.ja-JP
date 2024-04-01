@@ -8,10 +8,11 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e05c5a8889a406d3f28ba520f28c09d5ec1d1099
+exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
+source-git-commit: 142d94929cb31aee51e10373989f48347fc61740
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 16%
+ht-degree: 12%
 
 ---
 
@@ -68,4 +69,6 @@ Workfront + Frame.io 用のAlphaプログラムの開始をお知らせします
 
 ## フィードバックを送信
 
-お客様のご意見を大切にし、お客様の視点が、可能な限り最高の製品を生み出す上で非常に重要であると考えています。会社が本番環境でこのソリューションを採用するために必要な事項に関する具体的なフィードバックがあるので、に送信してください。 [etienneb@adobe.com](mailto:etienneb@adobe.com).
+お客様のご意見を大切にし、お客様の視点が、可能な限り最高の製品を生み出す上で非常に重要であると考えています。
+
+会社が本番環境でこのソリューションを採用するために必要な事項に関する具体的なフィードバックがあるので、に送信してください。 [etienneb@adobe.com](mailto:etienneb@adobe.com).
