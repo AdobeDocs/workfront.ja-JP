@@ -7,17 +7,15 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 51%
+source-wordcount: '1378'
+ht-degree: 50%
 
 ---
 
 
 # 「更新」セクションの概要
-
-{{preview-and-fast-release}}
 
 <!-- Audited: 1/2024 -->
 
@@ -28,6 +26,12 @@ ht-degree: 51%
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
 >[!IMPORTANT]
 >
 >現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
@@ -37,18 +41,33 @@ ht-degree: 51%
 >* 従来のエクスペリエンス
 >* 新しいエクスペリエンスと従来のエクスペリエンス
 >
->この記事では、更新の新しいバージョンと従来のバージョンに関する情報を説明します。
->
 >新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域からオブジェクトにアクセスする場合は使用できません。
+><Span class="preview"> レガシーのコメント作成機能は、プレビュー環境のプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
+>
+>新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
 >
 > * ホーム
 > * リストの概要パネル
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 >
-><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。</span>
+><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 「更新」セクションの概要
 

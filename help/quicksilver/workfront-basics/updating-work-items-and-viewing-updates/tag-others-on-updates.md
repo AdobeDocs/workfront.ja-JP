@@ -6,16 +6,14 @@ description: Adobe Workfront オブジェクトにアップデートコメント
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 75%
+source-wordcount: '1713'
+ht-degree: 74%
 
 ---
 
 # 更新時の他のユーザーのタグ付け
-
-{{preview-and-fast-release}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -26,6 +24,13 @@ ht-degree: 75%
 
 <span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
 -->
+
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 >[!IMPORTANT]
 >
@@ -38,14 +43,16 @@ ht-degree: 75%
 >
 >新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域からオブジェクトにアクセスする場合は使用できません。
+><Span class="preview"> レガシーのコメント作成機能は、プレビュー環境のプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
+>
+>新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
 >
 > * ホーム
 > * リストの概要パネル
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 >
-><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。</span>
+><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。 </span>
 
 ユーザーが従わない可能性のあるオブジェクトに注意を向けたい場合は、オブジェクトの更新時にユーザーにタグを付けることができます。
 

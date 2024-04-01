@@ -6,10 +6,10 @@ description: 予定完了日とコミット日の両方は、タスクを完了�
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 70%
+source-wordcount: '410'
+ht-degree: 72%
 
 ---
 
@@ -57,7 +57,7 @@ this article has mostly information that is repeated from the articles linked fr
 
 コミット日を変更した担当者は、計画完了日を自動的に変更しません。 逆も同様です。計画完了日を変更しても、コミット日は変更されません。
 
-「コミット日」が「計画完了日」より後の日付に変更されると、プロジェクト所有者は、この変更が発生したことを通知され、プロジェクト所有者が従来のコメント作成機能を使用している場合は、プロジェクトのタイムラインに影響を与えます。 この機能は、新しいコメントエクスペリエンスではサポートされていません。 詳しくは、[新しいコメントエクスペリエンス](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
+「コミット日」が「計画完了日」より後の日付に変更されると、プロジェクト所有者にこの変更が発生し、プロジェクトのタイムラインに影響を与える可能性がある旨の通知が送信されます。
 
 担当者が指定したコミット日がプロジェクト所有者によって許可された場合は、タスクまたはイシューに関する予定完了日を手動で更新する必要があります。詳しくは、次の記事を参照してください。
 

@@ -6,12 +6,13 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 59%
+source-wordcount: '418'
+ht-degree: 50%
 
 ---
+
 
 # タスクやイシューのコミット日の更新
 
@@ -88,8 +89,11 @@ ht-degree: 59%
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * 既存の [ 更新 ] 領域を使用している場合は、タスクまたは問題に対して新しいコミット日を提案したことがプロジェクト所有者に通知されます。この時点で、タスクまたは問題の計画完了日を、提案したコミット日に合わせて更新できます。 この機能は、新しいコメントエクスペリエンスではサポートされていません。 詳しくは、 [新しいコメントのエクスペリエンス](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * プロジェクト所有者には、タスクまたはイシューの新しいコミット日を提案したアプリ内通知が表示されます。
+   * プロジェクト所有者には、新しいコミット日の提案が「更新」セクションで通知されます。この時点で、タスクまたはイシューの計画完了日を、提案したコミット日に合わせて更新できます。 この機能は、新しいコメントエクスペリエンスではサポートされていません。 詳しくは、 [新しいコメントのエクスペリエンス](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
-     この変更によってトリガーされる通知と更新について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)の記事で[コミット日の変更でトリガーされる通知と更新](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica)の節を参照してください。
+     この変更によってトリガーされる通知と更新の詳細については、記事の「コミット日の変更によってトリガーされる通知と更新」の節を参照してください [コミット日の概要](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+<!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

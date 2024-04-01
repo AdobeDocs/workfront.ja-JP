@@ -6,49 +6,23 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '4291'
+source-wordcount: '4341'
 ht-degree: 56%
 
 ---
 
 # 作業の更新
 
-{{preview-and-fast-release}}
-
 <!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
-
->[!IMPORTANT]
->
->現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
->
->どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
->* 新しいエクスペリエンス
->* 従来のエクスペリエンス
->* 新しいエクスペリエンスと従来のエクスペリエンス
->
->新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
->
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
->
-> * ホーム
-> * リストの概要パネル
-> * タイムシートの概要パネル
-> * ワークロードバランサーの概要パネル
->
-><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。 高速リリースについて詳しくは、 [組織の高速リリースを有効または無効にします](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 現在のリリーススケジュールについて詳しくは、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -81,6 +55,34 @@ After the monthly releases to Production, the same features are also available i
 >
 >     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 -->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+>[!IMPORTANT]
+>
+>現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
+>
+>どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
+>* 新しいエクスペリエンス
+>* 従来のエクスペリエンス
+>* 新しいエクスペリエンスと従来のエクスペリエンス
+>
+>新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+><Span class="preview"> レガシーのコメント作成機能は、プレビュー環境のプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
+>
+>新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
+>
+> * ホーム
+> * リストの概要パネル
+> * タイムシートの概要パネル
+> * ワークロードバランサーの概要パネル
+>
+><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。 </span>
 
 ## 作業の更新に関する考慮事項
 

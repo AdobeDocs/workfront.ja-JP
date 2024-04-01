@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 69%
+source-wordcount: '1190'
+ht-degree: 66%
 
 ---
 
 # 更新に返信する
-
-{{preview-and-fast-release}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -28,6 +26,12 @@ ht-degree: 69%
 <span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
 
 -->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 >[!IMPORTANT]
 >
@@ -40,14 +44,16 @@ ht-degree: 69%
 >
 >新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域からオブジェクトにアクセスする場合は使用できません。
+><Span class="preview"> レガシーのコメント作成機能は、プレビュー環境のプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
+>
+>新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
 >
 > * ホーム
 > * リストの概要パネル
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 >
-><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。</span>
+><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。 </span>
 
 誰かが作業オブジェクトのコメントやシステムの更新に返信すると、その返信がそのオブジェクトの「更新」セクションの通信スレッドに表示されます。
 

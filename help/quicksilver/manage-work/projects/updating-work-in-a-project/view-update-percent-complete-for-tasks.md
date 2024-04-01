@@ -6,10 +6,10 @@ description: タスクの完了率を更新して、完了に向けたタスク�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 67%
+source-wordcount: '511'
+ht-degree: 62%
 
 ---
 
@@ -75,6 +75,16 @@ ht-degree: 67%
 * **タスクヘッダー内**：タスクヘッダーで、タスクの完了率を更新できます。詳しくは、[タスクを編集](../../tasks/manage-tasks/edit-tasks.md)を参照してください。
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+* **タスクの概要パネル内**：タスクの完了率は、次の領域でタスクを表示する際に、概要パネルの上部で更新できます。
+
+   * タスクリストまたはレポート
+   * タイムシート
+   * ワークロードバランサー
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  詳しくは、 [概要の概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 
 ## タスクの完了率を更新する際の考慮事項

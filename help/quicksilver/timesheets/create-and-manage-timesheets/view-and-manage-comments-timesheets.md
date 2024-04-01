@@ -6,10 +6,10 @@ description: タイムシート、タイムシートに含まれる作業項目�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 84%
+source-wordcount: '880'
+ht-degree: 79%
 
 ---
 
@@ -90,7 +90,16 @@ ht-degree: 84%
 
    コメントが [!UICONTROL 更新] [ コメント ] タブの [ タイムシート ] セクション
 
-1. （オプション） **システムアクティビティ** タブをクリックして、システムで生成された更新を確認します。
+1. （オプション） **システムアクティビティ** タブをクリックして、システム生成の更新を確認します。
+
+   または
+
+   次をクリック： **すべて** タブをクリックし、システムのアクティビティとユーザーのコメントを時系列で表示します。
+
+   >[!TIP]
+   >
+   >   「すべて」タブは読み取り専用のタブで、そこからのコメントに対して返信することはできません。
+
 
    詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
@@ -139,7 +148,7 @@ ht-degree: 84%
 1. 「[!UICONTROL **タイムシート**]」をクリックします。
 1. コメントを追加するタイムシートに移動し、左側のパネルで「[!UICONTROL **タイムシート**]」をクリックします。
 1. タスクまたはイシューの行をクリックし、「[!UICONTROL **概要を開く**]」をクリックします。
-1. 「概要」パネルの「[!UICONTROL **更新**]」エリアで更新の入力を開始して、「[!UICONTROL **更新**]」をクリックします。
+1. 更新の入力を開始するには、 [!UICONTROL **更新**] 「概要」パネルの領域で、「 [!UICONTROL **送信**].
 更新は、タスクとイシューの「更新」セクションに表示されます。
 1. （オプション）「[!UICONTROL **概要を閉じる**]」をクリックして概要パネルを閉じます。
 

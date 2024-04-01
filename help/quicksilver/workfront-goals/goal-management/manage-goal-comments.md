@@ -6,16 +6,14 @@ description: Adobe Workfront Goals で表示できるすべての目標にコメ
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 68%
+source-wordcount: '1095'
+ht-degree: 73%
 
 ---
 
 # Adobe Workfront Goals での目標コメントの管理
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -101,14 +99,6 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 1. 左側のパネルの「**更新**」をクリックします。
 1. （オプション）既存のコメントを検索するには、キーワードの入力を開始します <!--or a user's name--> （内） **検索** ボックス **コメント** タブをクリックします。
 
-   <div class="preview">
-
-   プレビュー環境の例：
-   ![コメントを検索](assets/search-for-update-goals-2.png)
-
-   </div>
-
-   実稼動環境の例：
    ![](assets/search-field-in-updates-tab-goals.png)
 
    キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
@@ -125,14 +115,6 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 1. 更新エリアの左上隅にある「**コメント**」タブをクリックします。
 1. 「**新規コメント**」ボックスにコメントを入力し始めます。
 
-   <div class="preview">
-
-   プレビュー環境の新しいコメントボックスの例：
-   ![新しいコメントボックス](assets/comment-box-all-tabs.png)
-
-   </div>
-
-   実稼動環境の新しいコメントボックスの例：
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -190,5 +172,4 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 
 1. （オプション）「**システムアクティビティ**」タブをクリックして、システムによって記録された更新を表示します。目標が更新されると、Workfront はその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。Workfront は、結果、アクティビティ、またはプロジェクトが目標に追加されたときや、結果が更新されたときに、システムアップデートも記録します。<!--ensure the casing on the tab has not changed-->
 
-1. <span class="preview">（オプション） **すべて** タブを使用して、ユーザーコメントとシステムアクティビティコメントの両方を 1 か所で表示できます。 「すべて」タブでコメントに返信するには、 **コメントで返信** をクリックして、「コメント」タブでコメントを開きます。 「すべて」タブでは返信できません。</span>
 

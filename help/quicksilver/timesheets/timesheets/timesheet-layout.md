@@ -7,18 +7,22 @@ description: この記事では、Adobe Workfront のタイムシートのレイ
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 76%
+source-wordcount: '1109'
+ht-degree: 75%
 
 ---
 
 # タイムシートレイアウトの概要
 
-{{preview-and-fast-release}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 この記事では、Adobe Workfront のタイムシートのレイアウトについて説明します。タイムシートをカスタマイズして利用し、時間を記録する方法をより深く理解できます。
 

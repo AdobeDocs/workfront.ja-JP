@@ -5,16 +5,20 @@ description: 概要パネルを使用すると、タスクやイシュー、ド�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 96%
+source-wordcount: '1001'
+ht-degree: 92%
 
 ---
 
 # [!UICONTROL 概要]パネルについて
 
-{{preview-and-fast-release}}
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 [!UICONTROL 概要]パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する [!DNL Adobe Workfront] の他のエリアから直接、作業アイテムの情報を確認および更新できます。
 
@@ -36,6 +40,9 @@ ht-degree: 96%
   <tr> 
    <td>[!UICONTROL Workload Balancer] の [!UICONTROL Unassigned] および[!UICONTROL Assigned] の作業エリアのタスク</td> 
   </tr> 
+   <tr> 
+   <td>[!UICONTROL タイムシート ] のタスク</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>イシュー</td> 
   </tr> 
@@ -53,7 +60,12 @@ ht-degree: 96%
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Requests] エリアの「[!UICONTROL Submitted]」セクションのイシュー</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>[!UICONTROL タイムシート ] の問題</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>ドキュメント</td> 
   </tr> 
   <tr data-mc-conditions=""> 

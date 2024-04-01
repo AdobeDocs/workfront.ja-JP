@@ -7,16 +7,14 @@ description: コミット日は、タスクまたはイシューに割り当て�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '763'
 ht-degree: 74%
 
 ---
 
 # コミット日の概要
-
-{{preview-and-fast-release}}
 
 コミット日は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するためにコミットする日付です。これは予定完了日とは異なり、作業を担当するユーザーが設定する、より現実的な予定完了日です。予定完了日について詳しくは、[タスクの予定完了日の概要](../../../manage-work/tasks/task-information/task-planned-completion-date.md)を参照してください。
 
@@ -55,11 +53,26 @@ ht-degree: 74%
 
 タスクまたはイシューのコミット日を設定すると、次の変更がトリガーされます。
 
-* コミット日はタスクまたはイシューの「更新ストリーム」に入力されます。
+* 「コミット日」の変更は、タスクまたはイシューの「更新」セクションの「システムアクティビティ」タブと「すべて」タブに入力されます。
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   Workfront 管理者が設定のフィードを更新エリアでこの更新を有効にした場合、コミット日の変更がタスクまたはイシューの更新エリアに表示されます。詳しくは、[システムで追跡された更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)を参照してください。
+
+  変更を受け入れたくない場合は、[ 更新 ] セクションの [ コメント ] タブを使用して新しい日付を提案するユーザにコメントを返し、[ コミット日 ] を元の予定日に戻すか、新しい日付を選択するように依頼することをお勧めします。 プロジェクト所有者が変更を受け入れた場合は、タスクまたはイシューを編集することで、アイテムに割り当てられたユーザーが提供するコミット日に合わせて、計画完了日を手動で調整できます。
+
+  タスクまたはイシューを編集するには、タスクまたはイシューを管理するアクセス権が必要です。
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * タスクまたはイシューの見込み完了日が同じ日付に設定されるのは、タスクの完了する可能性が高い時期がより正確に示されるようになったためです。
 
@@ -67,27 +80,10 @@ ht-degree: 74%
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* プロジェクト所有者が従来のコメント作成機能を使用している場合は、タスクの「更新」タブで、この変更がプロジェクトタイムラインに影響を与えるかどうかが通知され、同じ領域でタスクの計画完了日を更新する機会が与えられます。
 
-  この機能は、新しいコメントエクスペリエンスではサポートされていません。 詳しくは、 [新しいコメントエクスペリエンス](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  問題の発生日はプロジェクトのタイムラインに影響を与えないので、プロジェクト所有者は、問題の計画完了日を更新する機会を与えられません。
 
-  プロジェクト所有者が変更を受け入れたくない場合は、新しい日付を提案するユーザーにコメントを返して、コミット日を元の予定日に戻すか、新しい日付を選択するように求めることをお勧めします。プロジェクト所有者が変更を受け入れた場合は、手動で計画完了日を調整して、アイテムに割り当てられたユーザーが提供するコミット日に一致させることができます。 また、 **計画日を次の値に設定： &lt; date >** 「更新」領域で、計画完了日を新しいコミット日に合わせて自動的に設定します。
-
-  この変更を受け入れるには、タスクとプロジェクトを管理するアクセス権が必要です。
-
-  >[!NOTE]
-  >
-  >タスクの完了予定日の変更を承認して、プロジェクトのタイムラインがどのように影響を受けるかを確認する場合は、「**プロジェクトのタイムライン**」をクリックします。タスクリストが開き、日付の変更やプロジェクトタイムラインを評価できます。
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* [ 通知 ] 領域に、タスクのコミット日が変更されたことがプロジェクト所有者に通知されます。
+* [ 通知 ] 領域で、タスクまたは発行のコミット日が変更されたことがプロジェクト所有者に通知されます。
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
