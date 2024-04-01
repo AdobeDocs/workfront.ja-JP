@@ -11,10 +11,10 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 47%
+source-wordcount: '1116'
+ht-degree: 50%
 
 ---
 
@@ -93,6 +93,10 @@ ht-degree: 47%
       <td role="rowheader">[!UICONTROL Object type]</td>
       <td>レコード、レコードの種類、またはワークスペースを監視するかどうかを選択します。</td>
     </tr>
+     <tr data-mc-conditions=""> 
+      <td> <p>[!UICONTROL Events filters]</p> </td> 
+      <td> <p>選択した条件を満たすレコードのみを監視するフィルターを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子、およびフィルターに許可する値を入力します。AND ルールを追加すると、複数のフィルターを使用できます。</p> <p>メモ：既存の [!DNL Workfront] web フックのフィルターは編集できません。[!DNL Workfront] イベントのサブスクリプションに別のフィルターを設定するには、現在の web フックを削除し、新しい web フックを作成します。</p> <p>イベントフィルターについて詳しくは、 <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">のイベント購読フィルター [!DNL Workfront] &gt; [!UICONTROL イベントを監視 ] モジュール</a> ( Workfrontモジュールの記事 ) を参照してください。</p> </td> 
+     </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL 監視するオブジェクト ]</td>
       <td>新規を監視するかどうかを選択します。 レコードの更新、新規作成、更新、削除。</td>
