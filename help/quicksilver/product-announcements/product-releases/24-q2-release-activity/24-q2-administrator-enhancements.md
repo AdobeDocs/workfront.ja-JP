@@ -4,10 +4,11 @@ description: 2024 年第 2 四半期管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 5%
+source-wordcount: '802'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +17,16 @@ ht-degree: 5%
 このページでは、2024 年第 2 四半期のリリースでプレビュー環境に対しておこなわれた管理者向けの機能強化について説明します。 これらの機能強化は、前述のとおり、実稼動環境で利用できるようになります。
 
 2024 年第 2 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## フォームデザイナーのプレビューモードで、表示ロジックとスキップロジックを使用できるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 3 月 28 日、すべてのお客様向け実稼動：24.4（2024 年 4 月）
+
+ベータ版のカスタムフォームデザイナーでは、プレビューモードで表示ロジックをテストし、ロジックをスキップできるようになりました。 以前は、ロジックが適用されている場合でも、すべてのフィールドがプレビューに表示されていました。
+
+フォームデザイナーでのカスタムフォームのプレビューについて詳しくは、 [フォームデザイナーを使用したフォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## 会社とユーザーが高度なカスタムフォームフィールドをサポートするようになりました
 

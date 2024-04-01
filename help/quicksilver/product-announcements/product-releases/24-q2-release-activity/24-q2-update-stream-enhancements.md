@@ -4,9 +4,10 @@ description: 2024 年第 2 四半期の更新ストリームと通知の機能�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
+source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '657'
 ht-degree: 3%
 
 ---
@@ -16,6 +17,16 @@ ht-degree: 3%
 このページでは、2024 年第 2 四半期のリリースでプレビュー環境に対しておこなわれたすべての更新ストリームおよび通知の機能強化について説明します。 これらの機能強化は、前述のとおり、実稼動環境で利用できるようになります。
 
 2024 年第 2 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## 従来のコメント領域へのアクセスが削除されました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 4 月 1 日、すべてのお客様向け：24.4 リリース（2024 年 4 月）を使用した実稼動
+
+プロジェクト、タスク、イシュー、およびドキュメントの更新領域で、「新しいコメント」切り替えを削除しました。 新しい注釈が、これらのオブジェクトのデフォルトの唯一のオプションになりました。 この変更により、従来のコメントエクスペリエンスに戻すことができなくなりました。
+
+詳しくは、[新しいコメントエクスペリエンス](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 
 ## 新しいホームウィジェットのクイックアクションで新しいコメントストリームを使用できるようになりました。
 

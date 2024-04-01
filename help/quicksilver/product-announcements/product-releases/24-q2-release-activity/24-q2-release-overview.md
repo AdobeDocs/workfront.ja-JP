@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 876991bab19d065257802a903adf432e420fcc44
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 22%
+source-wordcount: '2020'
+ht-degree: 21%
 
 ---
 
@@ -40,6 +40,7 @@ ht-degree: 22%
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
+* [ドキュメント管理の機能強化](#document-management-enhancements)
 * [ホームの機能強化](#home-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [リソース管理の強化](#resource-management-enhancements)
@@ -64,7 +65,23 @@ ht-degree: 22%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">会社とユーザーが高度なカスタムフォームフィールドをサポートするようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">フォームデザイナーのプレビューモードで、表示ロジックとスキップロジックを使用できるようになりました</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>ベータ版のカスタムフォームデザイナーでは、プレビューモードで表示ロジックをテストし、ロジックをスキップできるようになりました。 以前は、ロジックが適用されている場合でも、すべてのフィールドがプレビューに表示されていました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2024 年 3 月 29 日</p>
+                            </li>
+                            <li>
+                                <p>お客様向け実稼動環境： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">会社とユーザーが高度なカスタムフォームフィールドをサポートするようになりました</a></p>
                         <p>会社やユーザーにカスタムフォームを添付する際に、外部参照フィールドやWorkfrontネイティブフィールドなどの高度なカスタムフォーム機能を使用できるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -154,7 +171,7 @@ ht-degree: 22%
             </tbody>
         </table>
 
-### ホームの機能強化
+### ドキュメント管理の機能強化
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ ht-degree: 22%
                         <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用して新しいホームの管理者コントロールに追加された列オプション</a></p><p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p><p>管理者は、レイアウトテンプレートを使用して、特定の新しいホームウィジェットでユーザーが使用できる列をカスタマイズできるようになりました。 オプションには、デフォルトの列の非表示または表示、および新しい列としての既存のフィールドの追加が含まれます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのレビューと承認に期限を追加する</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>ドキュメントのレビューまたは承認を割り当てられたユーザーやチームのデッドラインを指定できるようになりました。 レビュー担当者と承認者は、指定された期限の 72 時間後に 24 時間前に電子メール通知を受け取ります。 締め切りは、新しいホーム領域の承認ウィジェットにも反映されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024年1月2日（PT）</p>
+                                <p>プレビューリリース： 2024 年 3 月 29 日</p>
                             </li>
                             <li>
-                                <p>高速リリース用の実稼動環境：24.2 リリース（2024 年 2 月 16 日）</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの実稼動： 24.4 リリース（2024 年 4 月）</p>
+                                <p>お客様向け実稼動環境： 24.4 リリース（2024 年 4 月）</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### 統合の機能強化
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">機能</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">承認テンプレートの作成と使用</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>これで、「設定」領域で承認テンプレートを作成して、レビューと承認のプロセスを合理化できます。 承認テンプレートを使用すると、レビューと承認プロセスをより繰り返し可能なものにできます。
+                        <ul>
+                            <li>
+                                <p>レビュー担当者と承認者の追加</p>
+                            </li>
+                            <li>
+                                <p>期間の設定</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">リリース日</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合における自動フォルダー作成ワークフローの強化</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Experience Managerフォルダーのニーズをより正確に反映させるために、ネストされたフォルダーツリーをAdobe Experience Managerのリンクされたフォルダーワークフローに追加しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース： 2024 年 3 月 12 日</p>
+                                <p>プレビューリリース： 2024 年 3 月 29 日</p>
                             </li>
-                             <li> <p><span class="preview">すべてのお客様向けの実稼動リリース： 2024 年 3 月 14 日</span></p>
-                             </li>
+                            <li>
+                                <p>お客様向け実稼動環境： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">すべての承認に関する情報を一度に表示</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>承認リクエストを一目で管理および分析できるように、すべての承認ウィジェットに次の主要業績評価指標を追加しました。
+                        <ul>
+                            <li>
+                                <p>決定による承認</p>
+                            </li>
+                            <li>
+                                <p>平均承認時間</p>
+                            </li>
+                            <li>
+                                <p>保留中の承認</p>
+                            </li>
+                            <li>
+                                <p>期限切れの承認</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース： 2024 年 3 月 29 日</p>
+                            </li>
+                            <li>
+                                <p>お客様向け実稼動環境： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">この機能は段階的リリースの一部で、現在は特定のお客様のみが利用できます。</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ ht-degree: 22%
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">従来のコメント領域へのアクセスが削除されました</a><span style="color: #ff0000;"> プレビューの新機能</span></p>
+                        <p>プロジェクト、タスク、イシュー、およびドキュメントの更新領域で、「新しいコメント」切り替えを削除しました。 新しい注釈が、これらのオブジェクトのデフォルトの唯一のオプションになりました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年4月1日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動環境： 24.4 リリース（2024 年 4 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームウィジェットのクイックアクションで新しいコメントストリームを使用できるようになりました。</a></p><p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
