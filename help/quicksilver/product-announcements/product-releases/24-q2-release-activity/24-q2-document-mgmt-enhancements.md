@@ -4,10 +4,11 @@ description: 2024 年第 2 四半期のドキュメント管理の強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
+source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 7%
+source-wordcount: '337'
+ht-degree: 2%
 
 ---
 
@@ -16,6 +17,10 @@ ht-degree: 7%
 このページでは、2024 年第 2 四半期のリリースでプレビュー環境に対しておこなわれたドキュメント管理の機能強化について説明します。 これらの機能強化は、2024 年第 2 四半期リリースの実稼動環境で利用できるようになります。
 
 2024 年第 2 四半期のリリースサイクルで現時点で使用可能なすべての変更点のリストについては、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+>[!IMPORTANT]
+>
+>このページに記載されている機能は、段階的なリリースの一部で、特定のお客様のみが利用できます。
 
 ## ドキュメントのレビューと承認に期限を追加する
 
@@ -47,10 +52,6 @@ ht-degree: 7%
 >[!NOTE]
 >
 >プレビューリリース：2024 年 3 月 28 日、すべてのお客様向け：24.4 リリース（2024 年 4 月）を使用した実稼動
-
->[!IMPORTANT]
->
->この機能は段階的リリースの一部で、現在は特定のお客様のみが利用できます。
 
 承認リクエストを一目で管理および分析できるように、すべての承認ウィジェットに次の主要業績評価指標を追加しました。
 
