@@ -1,11 +1,11 @@
 ---
 title: レコードタイプを編集
-description: 保存後にレコードタイプを編集できます。 レコードタイプは、Adobe Workfront計画のオブジェクトタイプです。
+description: 保存後にレコードタイプを編集できます。 レコード・タイプは、Adobe Workfront Planning のオブジェクト・タイプです。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
 title: Edit record types
-description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront planning.
+description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront Planning.
 author: Alina
 role: User
 feature: Work Management 
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-レコードタイプは、Adobe Workfront計画のオブジェクトタイプです。 自分または他のユーザーが作成したレコードタイプの外観を編集できます。 Workfront Planning レコードタイプの作成の詳細は、 [レコードタイプの作成](../architecture/create-record-types.md).
+レコード・タイプは、Adobe Workfront Planning のオブジェクト・タイプです。 自分または他のユーザーが作成したレコードタイプの外観を編集できます。 Workfront Planning のレコードタイプの作成の詳細は、 [レコードタイプの作成](../architecture/create-record-types.md).
 
 ## アクセス要件
 

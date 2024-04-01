@@ -1,14 +1,14 @@
 ---
 title: レコードタイプを削除
-description: 関連性がなくなったレコードタイプは削除できます。
+description: 関連性がなくなったレコードタイプは削除できます。 また、レコードタイプを削除すると、レコード、フィールド、ビューなど、レコードタイプに関連するすべての情報も削除されます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 8%
+source-wordcount: '386'
+ht-degree: 7%
 
 ---
 
@@ -126,11 +126,11 @@ hide: yes
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを削除するワークスペースを選択します。
 
-   ワークスペースが開き、それに関連付けられたレコードタイプと分類が表示されます。
+   ワークスペースが開き、レコードタイプが表示されます。
 1. 削除するレコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
-1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) をクリックし、 **削除**.
-1. 「**削除**」をクリックして確定します。
+1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) をクリックし、 **削除**. <!--add screen shot when they finalize the UI-->
+1. タイプ **削除** 確認ボックスで、 **完全に削除**.
 
    選択したレコードタイプと、そのフィールド、関連するレコード、ビューが削除されます。

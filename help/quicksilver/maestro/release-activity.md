@@ -1,22 +1,22 @@
 ---
-title: Adobe Workfront planning リリースアクティビティ
-description: Adobe Workfront planning 機能は、現在、Workfrontの一部のお客様が利用できます。 この記事は、プランニング機能に関して最近リリースされた機能についてよくご確認ください。
+title: Adobe Workfront Planning リリースアクティビティ
+description: Adobe Workfront Planning の一部のお客様は、現在、Workfrontをご利用いただけます。 この記事は、プランニング機能に関して最近リリースされた機能についてよくご確認ください。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 5%
 
 ---
 
-# Adobe Workfront planning リリースアクティビティ
+# Adobe Workfront Planning リリースアクティビティ
 
 {{maestro-important-intro}}
 
-この記事では、2023 年 5 月 23 日に、Adobe Workfront Planning 機能がベータプログラムを終了した後にリリースされた機能を示します。
+この記事では、2023 年 5 月 23 日に、Adobe Workfront Planning 機能がベータ版プログラムを終了した後にリリースされた機能を示します。
 
 リリースされた機能は、リリースの順序で一覧表示され、最新の機能が最初に表示されます。 プラン機能のクローズベータプログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >
 >2023 年 5 月から 2023 年 12 月の間に、この記事のすべての機能がプレビュー環境と実稼動環境の両方にリリースされました。 計画機能は、2024 年 1 月以降、プレビューおよびサンドボックス環境から一時的に削除されました。 この日以降にリリースされたすべての機能は、現在、実稼動環境で使用できます。
 
-この記事では、2023 年 5 月 22 日に、Adobe Workfront Planning 機能の起動後にリリースされた機能およびパッチをリストします。
+この記事では、2023 年 5 月 22 日にAdobe Workfront Planning 機能がベータプログラムを終了した後にリリースされた機能およびパッチを示します。
 
 機能は毎週リリースされ、リリースの順番で一覧表示されます。最新の機能が最初に表示されます。 プレビューおよび実稼働環境のすべての機能にアクセスできるのは、非公開ベータプログラムの計画機能に参加しているお客様です。
 
@@ -64,13 +64,23 @@ ht-degree: 5%
 
 ### メインメニューの Maestro 領域の名前を Planning に変更しました。
 
-実稼動： 2024 年 3 月 29 日
+実稼動： 2024 年 3 月 27 日
 
 プレビュー：決定する必要があります
 
 メインメニューの Maestro 領域の名前を Planning に変更しました。
 
-Adobe Workfront計画の概要については、 [Adobe Workfront Planning の概要](/help/quicksilver/maestro/maestro-overview.md).
+Adobe Workfront Planning の概要については、 [Adobe Workfront Planning の概要](/help/quicksilver/maestro/maestro-overview.md).
+
+### レコードタイプを削除する際の新しいエクスペリエンス
+
+実稼動： 2024 年 3 月 27 日
+
+プレビュー：決定する必要があります
+
+レコードタイプを削除する際の確認ボックスのデザインを変更しました。 レコードタイプの削除は影響を受けます。また、すべてのレコード、そのフィールド、フィールド内の情報、およびレコードタイプに関連付けられた表示も削除されるからです。 削除したレコードの種類と削除した情報は復元できません。
+
+そのため、レコードタイプを削除する際にユーザーの意図が正しいことを確認したかったので、削除を確認する手順が追加されました。 詳しくは、 [レコードタイプを削除](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## 2024年3月18日（PT）の週
 
@@ -82,15 +92,15 @@ Adobe Workfront計画の概要については、 [Adobe Workfront Planning の�
 
 カレンダー表示で情報をフィルタリングできるようになりました。 詳しくは、 [カレンダー表示を管理](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### タイムラインとカレンダー表示に追加された詳細ボックス
+### タイムラインとカレンダー表示にレコードの詳細を追加したボックス
 
 実稼動： 2024 年 3 月 20 日
 
 プレビュー：決定する必要があります
 
-タイムラインビューとカレンダービューから、レコードの「詳細」ボックスにアクセスできるようになりました。 タイムラインビューとカレンダービュー内の「詳細」ボックスでレコードを編集できます。
+タイムラインとカレンダー表示のレコードの詳細を含むボックスにアクセスできるようになりました。 タイムラインビューとカレンダービュー内のレコードのボックスでレコードを編集できます。
 
-[ 詳細 ] ボックスから、レコードの [ 詳細 ] ページを開くことができます。
+レコードのボックスから、レコードページを新しいブラウザタブで開くことができます。
 
 詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ Excel または CSV ファイルを使用したレコードタイプのインポ
 
 * レコード情報を変更する機能
 
-* レコードの詳細ページを開くためのリンク
+* レコードのページを開くためのリンク
 
 詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ Excel または CSV ファイルを使用したレコードタイプのインポ
 
 新しいライセンスモデルについて詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-計画機能のライセンスの種類と権限の間の接続については、 [Adobe Workfront計画を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
+計画機能のライセンスの種類と権限の間の接続については、 [Adobe Workfront Planning を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### レコードフィールド用のリッチテキストツールバーの新しいルックアンドフィール
@@ -360,7 +370,7 @@ Excel または CSV ファイルを使用したレコードタイプのインポ
 
 プレビューとサンドボックス： 2024 年 1 月 12 日
 
-Adobe Workfrontの計画機能は、プレビューおよびサンドボックス環境から一時的に削除されました。 これらの環境には、後日追加されます。リリースアクティビティのノートでお知らせします。
+Adobe Workfront Planning 機能は、プレビューおよびサンドボックス環境から一時的に削除されました。 これらの環境には、後日追加されます。リリースアクティビティのノートでお知らせします。
 
 ### ワークスペースとビューの機能権限の計画
 
@@ -387,7 +397,7 @@ Adobe Workfrontの計画機能は、プレビューおよびサンドボック�
 * 表示：ユーザーは、レコードタイプのページの表示ドロップダウンメニューから表示を選択できます。
 * 管理：ユーザーは、ビューを編集、共有、削除できます。
 
-詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md) および [Adobe Workfrontの計画機能での共有権限の概要](../maestro/access/sharing-permissions-overview.md).
+詳しくは、 [アクセスの概要](/help/quicksilver/maestro/access/access-overview.md) および [Adobe Workfront Planning 機能での共有権限の概要](../maestro/access/sharing-permissions-overview.md).
 
 ### 新しい数式フィールドのタイプ
 
@@ -439,7 +449,7 @@ Adobe Workfrontの計画機能は、プレビューおよびサンドボック�
 
 ## 2023年12月18日（PT）の週
 
-### 詳細ページからレコードにコメントを追加する
+### レコードのページからレコードにコメントを追加する
 
 すべてのお客様向けのプレビューと実稼動：2023 年 12 月 18 日
 
@@ -455,7 +465,7 @@ Adobe Workfrontの計画機能は、プレビューおよびサンドボック�
 >
 >詳しくは、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-詳細ページでレコードを表示しながらコメントを追加したり、他のユーザーに返信したりすることで、個々のレコードで他のユーザーと共同作業できるようになりました。
+レコードのページを表示しながらコメントを追加したり、他のユーザーに返信したりすることで、個々のレコードで他のユーザーと共同作業できるようになりました。
 
 計画機能レコードのコメントエクスペリエンスは、Workfrontオブジェクトの新しいコメントエクスペリエンスと一致します。
 
@@ -467,7 +477,7 @@ Adobe Workfrontの計画機能は、プレビューおよびサンドボック�
 
 >[!IMPORTANT]
 >
->Adobe Workfront Planning 機能との連携を構築するには、Adobe Workfront Fusion を購入する必要があります。
+>Adobe Workfront Planning 機能との接続を構築するには、Adobe Workfront Fusion を購入する必要があります。
 >
 >詳しくは、 [Adobe Workfront Fusion の概要](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -608,7 +618,7 @@ Adobe Workfront Planning 機能のレコードタイプとAdobe Experience Manag
 
 プレビューおよび実稼動環境：2023年10月30日（PT）
 
-Adobe Workfrontの計画機能レコードには、次のフィールドタイプが導入されています。
+Adobe Workfront Planning 機能レコードには、次のフィールドタイプが導入されています。
 
 * 作成者
 
@@ -630,7 +640,7 @@ Adobe Workfrontの計画機能レコードには、次のフィールドタイ�
 
 * 読み取り専用のリンクされたWorkfrontオブジェクトレコードのテーブルビュー
 
-* 読み取り専用のWorkfrontオブジェクトレコードの詳細ページ
+* 読み取り専用のWorkfrontオブジェクトレコードページ
 
 詳しくは、 [レコードを接続](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ People-type フィールドを Planning 機能のレコードタイプに追加�
 
 プレビューおよび実稼動環境：2023年10月16日（PT）
 
-段落タイプのフィールドにリッチテキスト形式のコントロールを追加しました。 リッチテキストを使用して、レコードタイプのテーブルビューまたはレコードの詳細ページで、段落フィールドの書式を設定できます。 詳しくは、 [レコードを編集](../maestro/records/edit-records.md).
+段落タイプのフィールドにリッチテキスト形式のコントロールを追加しました。 レコードタイプのテーブルビューまたはレコードページで、リッチテキストを使用して段落フィールドの書式を設定できます。 詳しくは、 [レコードを編集](../maestro/records/edit-records.md).
 
 
 ### タイムラインビューの色分けの記録とグループ化
@@ -839,7 +849,7 @@ Workfrontプロジェクトへの接続を含め、レコードタイプの接�
 
 プレビューおよび実稼動環境：2023年6月28日（PT）
 
-テーブルビューまたはレコードタイプでレコードを表示する際に、レコード行の任意の場所を右クリックすると、コンテキストメニューをアクティブにすることができます。 レコードタイプのテーブルビューの任意の場所からコンテキストメニューにアクセスすると、レコードの詳細ページへのリンクをすばやく表示、削除、またはコピーできるようになりました。 この機能強化以前は、コンテキストメニューには、レコードの「名前」列の「詳細」メニューからのみアクセスできました。
+テーブルビューまたはレコードタイプでレコードを表示する際に、レコード行の任意の場所を右クリックすると、コンテキストメニューをアクティブにすることができます。 レコードタイプのテーブルビューの任意の場所からコンテキストメニューにアクセスすると、レコードのページへのリンクをすばやく表示、削除、またはコピーできるようになりました。 この機能強化以前は、コンテキストメニューには、レコードの「名前」列の「詳細」メニューからのみアクセスできました。
 
 ## 2023年6月19日の週
 

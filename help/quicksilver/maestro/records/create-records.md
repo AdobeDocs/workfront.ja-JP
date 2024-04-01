@@ -1,13 +1,13 @@
 ---
 title: レコードを作成
-description: Adobe Workfront計画を使用する場合、レコードはレコードタイプのインスタンスです。
+description: Adobe Workfront Planning を使用する場合、レコードはレコードタイプのインスタンスです。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 {{maestro-important-intro}}
 
-Adobe Workfront計画では、レコードはレコードタイプのインスタンスです。
+Adobe Workfront Planning では、レコードはレコードタイプのインスタンスです。
 
 次のいずれかの操作を行って、レコードを作成できます。
 
@@ -127,14 +127,14 @@ Adobe Workfront計画では、レコードはレコードタイプのインス�
 
    または
 
-   新しいレコードの名前または **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をレコード名の左にドラッグします。 The **詳細** 」ボックスがテーブルに開きます。
+   新しいレコードの名前または **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をレコード名の左にドラッグします。 レコードの詳細情報を含むボックスがテーブルで開きます。
 
    >[!TIP]
    >
    >[ 詳細 ] ボックスにアクセスできるのは、[ 名前 ] フィールドが主フィールドの場合のレコードの名前フィールドだけです。
 
-1. [ 詳細 ] ボックスで、レコードの情報の編集を開始します。 Workfrontは変更を自動的に保存します。
-1. （オプション） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードの **詳細** ページを新しいタブに追加します。 [ 詳細 ] ページのレコードの編集を続けます。
+1. レコードのボックス内のレコードの情報の編集を開始します。 Workfrontは変更を自動的に保存します。
+1. （オプション） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックし、レコードのページを新しいタブで開きます。 レコードページ上のレコードの編集を続けます。
 
 
 1. （オプション）次のキーボードショートカットを使用して、新しいレコードの追加の取り消しまたはやり直しをおこないます。

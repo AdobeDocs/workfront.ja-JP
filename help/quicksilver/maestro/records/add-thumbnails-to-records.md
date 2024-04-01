@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 {{maestro-important-intro}}
 
-レコードをAdobe Workfront計画で一意のサムネールに関連付けて、簡単に認識できるようにすることができます。
+レコードをAdobe Workfront Planning で一意のサムネールに関連付けて、簡単に認識できるようにすることができます。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
@@ -93,8 +93,8 @@ ht-degree: 6%
 
    * テーブルビューのレコードの主フィールド
    * タイムライン表示のレコードバー。
-* レコードの詳細ページやタイムラインビューからは、レコードのサムネールを追加できません。
-* レコードの詳細ページにサムネールは表示されません。
+* レコードのページや別の種類の表示からレコードのサムネールを追加することはできません。
+* レコードのページにサムネールは表示されません。
 
 ## レコードにサムネールを追加する
 

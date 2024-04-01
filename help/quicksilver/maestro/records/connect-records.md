@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 2%
 
 ---
@@ -42,8 +42,8 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
 
 次の項目を接続できます。
 
-* Adobe Workfront planning レコード
-* Adobe Workfront planning レコードと他のアプリケーションのオブジェクト。
+* Adobe Workfront Planning レコード
+* Adobe Workfront Planning レコードと他のアプリケーションのオブジェクト。
 
   次のアプリケーションから、以下に示すタイプのオブジェクトにレコードを接続できます。
 
@@ -129,14 +129,14 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
 
 ### レコードの接続に関する考慮事項
 
-* レコードタイプを接続すると、リンク元のレコードタイプのテーブルと、リンク元のレコードの [ 詳細 ] ページに、リンクされたレコードタイプがリンクされたレコードフィールドとして表示されます。
+* レコードタイプを接続すると、接続されているレコードタイプが、リンク元のレコードタイプとレコードのページのテーブルに、リンクされたレコードフィールドとして表示されます。
 * リンクされたレコードフィールドから、リンクされたレコードとオブジェクトの種類のレコードとオブジェクトを参照して追加できます。
 * リンク元のレコードタイプのテーブルに、リンクされたレコードタイプのフィールドを追加できます。
 * リンク元のレコードのリンクされたフィールドの値を手動で更新することはできません。
 
   リンクされたレコードのリンクされたフィールドの値は、元のレコードまたはオブジェクトから自動的にリンクされるWorkfront Planning レコードに入力されます。
 
-* Workfront Planning およびワークスペースに対する表示またはそれ以上の権限を持つすべてのユーザーは、レコード間またはレコードと他のアプリケーションのオブジェクト間でおこなった接続を表示できます。 接続先のアプリケーションでの権限に関係なく、接続されたレコードやオブジェクトを表示できます。
+* Workfront Planning およびワークスペースに対する表示またはそれ以上の権限を持つすべてのユーザーは、レコード間またはレコードと他のアプリケーションのオブジェクト間で行った接続を表示できます。 接続先のアプリケーションでの権限に関係なく、接続されたレコードやオブジェクトを表示できます。
 * 接続されたレコードが存在するワークスペースに対する管理権限を持っている場合は、他のユーザーの接続を表示および編集できます。
 * 別のアプリケーションから 1 つまたは複数のオブジェクトに 1 つのレコードを接続できます。
 * レコードを他のレコードやオブジェクトとリンクするには、次の条件を満たす必要があります。
@@ -183,7 +183,7 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
 
    >[!TIP]
    >
-   >    レコードの詳細ページを開き、リンクされたレコードフィールドを見つけて、 **+** アイコンをクリックし、接続されたレコードまたはオブジェクトタイプからレコードを追加します。
+   >    レコードのページを開き、リンクされたレコードフィールドを見つけて、 **+** アイコンをクリックし、接続されたレコードまたはオブジェクトタイプからレコードを追加します。
 
    次の情報が追加されます。
 
@@ -260,13 +260,13 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
 
    >[!TIP]
    >
-   >レコードの詳細ページを開き、リンクされたレコードフィールドを見つけて、 **+** アイコンを使用して、接続されたオブジェクトタイプからオブジェクトを追加します。
+   >レコードのページを開き、リンクされたレコードフィールドを見つけて、 **+** アイコンを使用して、接続されたオブジェクトタイプからオブジェクトを追加します。
 
    別のアプリケーションのオブジェクトにレコードの種類を接続する方法の詳細については、「 [レコードタイプを接続](../architecture/connect-record-types.md).
 
-1. （オプション）テーブルビューのリンクされたフィールド、またはWorkfront計画レコードに接続されているWorkfrontオブジェクトの名前を、 **詳細** レコードのページ。
+1. （オプション）テーブルビューのリンクされたフィールドまたはレコードページのリンクされたフィールドで、Workfront Planning レコードに接続されているWorkfrontオブジェクトの名前をクリックします。
 
-   読み取り専用のWorkfront計画が開きます **詳細** リンクされたWorkfrontオブジェクトのページ。 レコードタイプをWorkfrontオブジェクトに接続した際に、参照フィールドとして選択したフィールドは、Workfront Planning レコードの「詳細」ページに表示されます。
+   リンクされたWorkfrontオブジェクトの読み取り専用のWorkfront Planning レコードページが開きます。 レコードタイプとWorkfrontオブジェクトを接続した際に、参照フィールドとして選択したフィールドは、「Workfront Planning レコード」ページに表示されます。
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
    >
    >* リンクされたレコードフィールドは、Workfront内のリンクされたWorkfrontオブジェクトに対しては作成されません。
 
-1. （オプション）リンクされたWorkfrontオブジェクトをWorkfrontで開くには、 **ソースに移動** ( Workfrontオブジェクトの「詳細」ページの右上隅 )。
+1. （オプション）リンクされたWorkfrontオブジェクトをWorkfrontで開くには、 **ソースに移動** をクリックします。
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -297,7 +297,7 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
 
 >[!IMPORTANT]
 >
->Adobe Experience Manager Assetsのライセンスが必要です。Workfront Planning レコードをAdobe Experience Manager Assetsに接続するには、組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。
+>Adobe Experience Manager Assetsライセンスが必要です。Workfront Planning レコードをAdobe Experience Manager Assetsに接続するには、組織のWorkfrontインスタンスをAdobeビジネスプラットフォームまたはAdobe Admin Consoleにオンボーディングする必要があります。
 >
 >Adobe Admin Consoleのオンボーディングについて質問がある場合は、 [AdobeUnified Experience に関する FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
 
    >[!TIP]
    >
-   >  次を追加すると、 **+** アセットをレコードに接続するための、レコードの詳細ページにある「リンクされたオブジェクト」フィールド内のアイコン。
+   >  次を追加すると、 **+** アセットをレコードに接続するための、レコードページ内の「リンクされたオブジェクト」フィールド内のアイコン。
 
    The **アセットを選択** ボックスが表示されます。 <!--we might change this to Connect assets-->
 
@@ -331,7 +331,7 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
 
    >[!IMPORTANT]
    >
-   > 接続できるのは、アクセス権のあるアセットのみで、Experience Managerで表示できます。 連携すると、Workfront Planning のすべてのユーザーは、Experience Manager Assetsでのアクセスに関係なく、Workfront Planning でアセットを表示できます。
+   > 接続できるのは、アクセス権のあるアセットのみで、Experience Managerで表示できます。 接続すると、Workfront Planning のすべてのユーザーは、Experience Manager Assetsでのアクセスに関係なく、Workfront Planning でアセットを表示できます。
 
 1. クリック **選択**. <!-- we might change this to Connect-->
 
@@ -364,7 +364,7 @@ Adobe Workfront Planning レコードを相互に、または他のアプリケ�
    * 作成日
    * 変更日時
 
-1. （オプション）Experience Managerアセットレコードの詳細ページをExperience Managerで開くには、リンク元のレコードのレコードタイプページに移動し、リンクされたレコードフィールドのアセット名をクリックしてポップアップウィンドウを開き、 **開く** アイコン ![](assets/open-asset-icon.png) をクリックしてアセットを開きます。
+1. （オプション）Experience ManagerアセットのレコードページをExperience Managerで開くには、リンク元のレコードのレコードタイプページに移動し、リンクされたレコードフィールドのアセット名をクリックしてポップアップウィンドウを開き、 **開く** アイコン ![](assets/open-asset-icon.png) をクリックしてアセットを開きます。
 
    これにより、Adobe Experience Manager AssetsでExperience Managerアセットが開きます。
 

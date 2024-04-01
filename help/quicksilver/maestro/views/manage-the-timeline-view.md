@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 3%
+source-wordcount: '1714'
+ht-degree: 2%
 
 ---
 
@@ -64,6 +64,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
+   <p>システム管理者は、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 </p>
   </td>
   </tr>
 

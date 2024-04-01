@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 5%
 
 ---
@@ -25,22 +25,21 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # フィールドを編集
 
 {{maestro-important-intro}}
 
 Adobe Workfront Planning で既に作成されているフィールドのフィールド設定を編集できます。
 
-Adobe Workfront planning フィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
+「 Adobe Workfront Planning 」フィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
-この記事では、Workfront planning フィールドの設定を編集する方法について説明します。 レコードのフィールド値の編集について詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+この記事では、Workfront Planning フィールドの設定を編集する方法について説明します。 レコードのフィールド値の編集について詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
 ## フィールド情報の編集に関する考慮事項
 
 * フィールドが属するワークスペースに対する管理権限を持っている場合は、作成したフィールドまたは他のユーザーが作成したフィールドを編集できます。
 * レコードタイプテーブルのフィールドを編集できます。
-* レコードの詳細ページまたはタイムライン表示では、フィールドを編集できません。
+* レコードページやタイムライン表示では、フィールドを編集できません。
 * フィールドを保存した後は、フィールドタイプを編集できません。
 * 添付先のレコードに既に負の値が格納されている場合は、[ 数値 ]、[ 割合 ]、または [ 通貨 ] フィールドに対して、以前に選択した [ 負の値を許可する ] 設定の選択を解除することはできません。
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 

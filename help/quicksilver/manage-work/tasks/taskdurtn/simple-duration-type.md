@@ -7,10 +7,10 @@ description: シンプル期間タイプは、Adobe Workfront のタスクに設
 author: Alina
 feature: Work Management
 exl-id: 9bb472db-1448-467e-93ca-611453e1c00a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+source-git-commit: 1efd7c0270fe1396345cfa6e5499e8f998297d61
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 79%
 
 ---
 
@@ -30,7 +30,13 @@ Workfront 管理者またはグループ管理者は、システムまたはグ�
 
   >[!IMPORTANT]
   >
-  >最初にタスクを作成し、そのタスクにシンプル期間タイプを割り当て、期間を指定しない場合は、タスクに指定した予定時間数に基づいて、Workfront によりタスクの期間が計算されます。シンプル期間タスクの期間を手動で変更すると、Workfront は予定時間数と期間を照合しなくなります。それらをユーザー自身が手動で定義する必要があると Workfront が見なすからです。
+  >最初にタスクを作成し、そのタスクに単純期間タイプを割り当て、期間を指定しない場合、Workfrontでは、タスクに指定した計画時間数に基づいてタスクの期間が計算されます。 シンプル期間タスクの期間を手動で変更すると、Workfront は予定時間数と期間を照合しなくなります。それらをユーザー自身が手動で定義する必要があると Workfront が見なすからです。
+  >
+  >Workfrontは、次の式を使用して、期間が手動で変更されていないタスクの期間を計算します。
+  >
+  > `Task Duration = Task Planned Hours / Typical hours per work day`
+  >
+  >Workfront管理者が `Typical hours per work day` （インスタンスのセットアップの「プロジェクトの環境設定」領域）をクリックします。
 
 * 配分率は非表示になり、代わりに時間配分を編集できます。
 * 新規顧客の場合、システムレベルの期間タイプはシンプルに設定されます。

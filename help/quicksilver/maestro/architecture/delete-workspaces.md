@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 9%
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 {{maestro-important-intro}}
 
-Adobe Workfront計画では、ワークスペースは、チームが作業を計画するための一元化された場所です。 詳しくは、 [ワークスペースの作成](../architecture/delete-workspaces.md).
+Adobe Workfront Planning では、ワークスペースは、チームが作業を計画するための一元化された場所です。 詳しくは、 [ワークスペースの作成](../architecture/delete-workspaces.md).
 
 不要になったワークスペースは削除できます。
 

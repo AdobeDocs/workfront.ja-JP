@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning を使用して、組織で必要なレコードタイプを含む完全にカスタマイズ可能なワークスペースをデザインできます。 個々のレコードの種類を相互に関連付ける方法を示すには、レコードの種類を接続します。 また、Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプと接続して、ユーザーのエクスペリエンスを向上させ、1 つのアプリケーションにフォーカスし続けることもできます。
+Adobe Workfront Planning を使用すると、組織で必要なレコードタイプを含む完全にカスタマイズ可能なワークスペースを設計できます。 個々のレコードの種類を相互に関連付ける方法を示すには、レコードの種類を接続します。 また、Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプと接続して、ユーザーのエクスペリエンスを向上させ、1 つのアプリケーションにフォーカスし続けることもできます。
 
 レコードの種類を相互に接続したり、他のアプリケーションのオブジェクトの種類を使用してレコードの種類を接続したりできます。
 
 これにより、Workfront Planning レコードにリンクされたレコードまたはオブジェクトタイプのフィールドを表示できます。
 
-この記事では、Workfront計画で 2 つのレコードタイプまたはレコードタイプを、別のアプリケーションのオブジェクトと接続する方法について説明します。
+この記事では、Workfront Planning で 2 つのレコードタイプを接続する方法と、別のアプリケーションのオブジェクトを使用してレコードタイプを接続する方法について説明します。
 
 レコードまたはオブジェクトタイプ間の接続を確立した後、個々のレコードを相互に接続できます。
 
-別のアプリケーションからWorkfront計画レコードをオブジェクトに接続する方法については、 [レコードを接続](../records/connect-records.md).
+別のアプリケーションからWorkfront Planning レコードをオブジェクトに接続する方法については、 [レコードを接続](../records/connect-records.md).
 
 レコードタイプを接続する例については、 [レコードタイプとレコードの接続例](../architecture/example-connect-record-types-and-records.md).
 
@@ -152,13 +152,13 @@ Adobe Workfront Planning を使用して、組織で必要なレコードタイ�
 
    * **別のアプリケーションのオブジェクトタイプにレコードタイプを接続する場合**：接続元のレコードタイプにリンクされたレコードフィールドが作成されます。 他のアプリケーションのオブジェクトタイプでは、リンクされたレコードフィールドは自動的に作成されません。
 
-     新しいWorkfront Planning の読み取り専用レコードタイプは、実際のオブジェクトがWorkfront Planning レコードに接続されている場合にのみ、他のアプリケーションのオブジェクトに対して作成されます。
+     新しいWorkfront Planning 読み取り専用レコード・タイプは、実際のオブジェクトがWorkfront Planning レコードに接続されている場合にのみ、他のアプリケーションのオブジェクトに対して作成されます。
 
      詳しくは、 [レコードを接続](../records/connect-records.md).
 
    * **接続先のレコードまたはオブジェクトのルックアップフィールドを追加する場合**：他のアプリケーションのオブジェクトのフィールドをWorkfront Planning レコードタイプに接続できます。 これらは、リンクされたフィールドまたは参照フィールドです。 リンクされたフィールドは、レコードまたはオブジェクトを接続すると、接続されたレコードまたはオブジェクトの情報を自動的に表示します。 リンクされた参照フィールドは常に読み取り専用で、接続されたレコードまたはオブジェクトの値が自動的に設定されます。
 
-     例えば、「Campaign」レコードタイプをWorkfrontプロジェクトに接続し、プロジェクトの「計画完了日」フィールドをWorkfront計画レコードに移行すると、「計画完了日（プロジェクトから） 」と呼ばれるリンクフィールドがキャンペーン用に自動的に作成されます。 このリンクされたフィールドは手動で編集できません。 「計画完了日」（「プロジェクトから」）フィールドには、リンクされたプロジェクトの計画完了日が表示されます。
+     例えば、「Campaign」レコードタイプをWorkfrontプロジェクトに接続し、プロジェクトの「計画完了日」フィールドをWorkfront Planning レコードに取り込む場合、「計画完了日（プロジェクトから）」と呼ばれるリンクフィールドがキャンペーン用に自動的に作成されます。 このリンクされたフィールドは手動で編集できません。 「計画完了日」（「プロジェクトから」）フィールドには、リンクされたプロジェクトの計画完了日が表示されます。
 
      >[!IMPORTANT]
      >
@@ -200,7 +200,7 @@ Adobe Workfront Planning を使用して、組織で必要なレコードタイ�
 
 1. 次の情報を更新します。
 
-   * **名前**：テーブル表示または元のレコードタイプの詳細ページに表示される、接続されたフィールドの名前。 これにより、元のレコードの種類のテーブルビューまたは元のレコードのリンクされたレコードフィールドに、リンクされたレコード列が作成されます。
+   * **名前**：テーブル表示または元のレコードタイプのレコードページに表示される、接続されたフィールドの名前。 これにより、元のレコードの種類のテーブルビューまたは元のレコードのリンクされたレコードフィールドに、リンクされたレコード列が作成されます。
 
    >[!TIP]
    >
@@ -290,7 +290,7 @@ Adobe Workfront Planning を使用して、組織で必要なレコードタイ�
 
      >[!TIP]
      >
-     > 別のアプリケーションのオブジェクトから、Workfront計画でリンク元のレコードタイプにリンクするオブジェクトに対して、リンクされたレコードフィールドは作成されません。
+     > 別のアプリケーションから、Workfront Planning でリンク元のレコードタイプにリンクするオブジェクトに対して、リンクされたレコードフィールドは作成されません。
 
 1. （オプションおよび条件付き）元のレコードタイプまたはリンクされたレコードタイプのテーブルビューで、リンクされたレコードフィールドのヘッダーの下向き矢印をクリックし、次のいずれかをクリックします。
 

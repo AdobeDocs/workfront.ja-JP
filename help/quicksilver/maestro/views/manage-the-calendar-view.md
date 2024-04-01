@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '559'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 レコードタイプのページから、レコードとそのフィールドをカレンダービューに表示できます。
 
-Adobe Workfront Planning 機能の表示と管理方法について詳しくは、 [レコードビューの管理](../views/manage-record-views.md).
+Adobe Workfront Planning 機能の表示と管理方法については、 [レコードビューの管理](../views/manage-record-views.md).
 
 ## アクセス要件
 
@@ -64,6 +64,7 @@ Adobe Workfront Planning 機能の表示と管理方法について詳しくは�
    <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
+   <p>システム管理者は、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 </p>
   </td>
   </tr>
 

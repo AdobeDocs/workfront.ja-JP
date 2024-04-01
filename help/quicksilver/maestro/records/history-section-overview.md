@@ -1,13 +1,13 @@
 ---
 title: 履歴セクションの概要
-description: レコードに対して行われた変更や記録は、Adobe Workfront計画のレコードの右側のパネルで、システムによってレコードに対して行われます。
+description: レコードに対して行われた変更や記録は、Adobe Workfront Planning のレコードの右側のパネルでシステムによって確認できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 4%
 
 ---
@@ -40,17 +40,17 @@ ht-degree: 4%
 1. 次の場所からテーブルビューを選択します。 **表示** ドロップダウンメニュー。
 1. テーブルビューでレコードの名前をクリックします。
 
-   レコードの **詳細** ページが開きます。 「コメント」領域は、デフォルトでは右側のパネルに開きます。
+   レコードのページが開きます。 「コメント」領域は、デフォルトでは右側のパネルに開きます。
 1. 次をクリック： **履歴を表示** アイコン ![](assets/show-history-icon.png). レコードのフィールドに加えたすべての変更が、最新の変更から始まる右側のパネルに表示されます。
 1. （オプション） **履歴を非表示** アイコン ![](assets/hide-history-icon.png) をクリックして、右側のパネルを閉じます。
 
 ## 「履歴」セクションに関する考慮事項
 
-レコードの [ 詳細 ] ページの右側のパネルにある [ 履歴 ] セクションで、レコードフィールドに加えた変更を確認できます。
+レコードのページの右側パネルにある「履歴」セクションで、レコードのフィールドに加えた変更を確認できます。
 
 ![](assets/history-area-in-comments.png)
 
-* Workfront planning では、「履歴」セクションに次の情報が記録されます。
+* Workfront Planning では、次の情報が「履歴」セクションに記録されます。
 
    * フィールドの変更
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 * チェックボックスタイプのフィールドでは、以前の値が取り消し線形式で表示されることはありません。 フィールドが編集された場合は、変更が行われた時点の現在の状態のみが表示されます。
 
-  「 Workfront planning 」フィールドについて詳しくは、 [フィールドの作成](/help/quicksilver/maestro/fields/create-fields.md).
+  「 Workfront Planning 」フィールドについて詳しくは、 [フィールドの作成](/help/quicksilver/maestro/fields/create-fields.md).
 
 * 次のタイプのフィールドに対する変更は、「履歴」セクションには表示されません。
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-オブジェクトタイプが事前に定義されているWorkfrontとは異なり、Adobe Workfront計画では、独自のオブジェクトタイプを作成できます。 例えば、Workfrontでは、プログラム、Portfolio、プロジェクト、タスク、またはイシューのオブジェクトの種類が既に作成されています。
+オブジェクト・タイプが事前に定義されているWorkfrontとは異なり、Adobe Workfront Planning では、独自のオブジェクト・タイプを作成できます。 例えば、Workfrontでは、プログラム、Portfolio、プロジェクト、タスク、またはイシューのオブジェクトの種類が既に作成されています。
 
 Workfront Planning のオブジェクトタイプは「レコードタイプ」と呼ばれ、すべてのオブジェクトタイプを作成してカスタマイズできます。 レコードタイプは、Workfront Planning ワークスペースの構成要素です。 ワークスペースについて詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 

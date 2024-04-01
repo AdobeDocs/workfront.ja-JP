@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 9%
@@ -18,9 +18,9 @@ ht-degree: 9%
 
 {{maestro-important-intro}}
 
-Adobe Workfront計画では、ワークスペースは、チームが作業を計画するための一元化された場所です。
+Adobe Workfront Planning では、ワークスペースは、チームが作業を計画するための一元化された場所です。
 
-ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 ワークスペースは、Adobe Workfront計画で完全にカスタマイズできます。
+ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 ワークスペースは、Adobe Workfront Planning で完全にカスタマイズできます。
 
 ワークスペースの作成について詳しくは、 [ワークスペースの作成](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -88,7 +88,7 @@ Adobe Workfront計画では、ワークスペースは、チームが作業を�
 
 {{step1-to-maestro}}
 
-これにより、Workfront計画の「ワークスペース」領域が開きます。
+Workfront Planning の「ワークスペース」領域が開きます。
 
 1. 新しいワークスペースのヘッダーにあるワークスペース名の中をクリックして名前を変更し、「 」を押します。 **入力**
 

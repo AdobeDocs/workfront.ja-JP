@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 4%
 
 ---
@@ -64,6 +64,7 @@ Adobe Workfront Planning でレコードタイプページにアクセスする�
    <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
+   <p>システム管理者は、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ Adobe Workfront Planning でレコードタイプページにアクセスする�
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. 記事の説明に従って、フィールド（または列）の追加を開始します。 [フィールドの作成](../fields/create-fields.md).
 
-   追加した列は、レコードタイプにアクセスするすべてのユーザーに対して表示され、選択したレコードタイプのレコードの [ 詳細 ] ページに新しいフィールドとして追加されます。
+   追加した列は、レコードタイプにアクセスするすべてのユーザーに表示され、レコードのページに新しいフィールドとして追加されます。
 
 1. テーブルの列を並べ替えるには、次のいずれかの操作を行います。
 
@@ -174,7 +175,7 @@ Adobe Workfront Planning でレコードタイプページにアクセスする�
    >
    >   * プライマリフィールドを削除したり、非表示にすることはできません。
    >
-   >   * プライマリフィールドに表示される値は、レコードの詳細ページに常にハイパーリンクされます。
+   >   * プライマリフィールドに一覧表示される値は、レコードのページに常にハイパーリンクされます。
 
 1. 列の分離線をクリックしてドラッグし、目的の場所にドロップして、列の幅を広げます。
 

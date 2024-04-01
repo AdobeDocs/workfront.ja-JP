@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 67%
@@ -253,11 +253,11 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe Workfrontの新しい製品、Adobe Workfrontプランニングに関するものです。
+>この記事の情報は、Adobe Workfrontの新しい製品、Adobe Workfront Planning に関するものです。
 >
->現在、Workfrontの計画は、限られた数のお客様に対して公開されているベータプログラムの一部です。 これらの機能を使用するには、Workfrontのユーザーである必要があります。
+>現在、Workfront Planning は、限られた数のお客様に対してオープンなベータプログラムの一部です。 これらの機能を使用するには、Workfrontのユーザーである必要があります。
 >
->Workfront planning のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
+>Workfront Planning のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
 >
 >詳しくは、 [Adobe Workfront Planning の概要](/help/quicksilver/maestro/maestro-overview.md).
 

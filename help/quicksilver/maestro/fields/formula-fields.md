@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 13%
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-既存のフィールドを参照し、数式でそれらを結び付けることで、Adobe Workfront Planning でカスタムフィールドを作成できます。 これをおこなうには、カスタムの数式タイプフィールドを作成します。
+既存のフィールドを参照し、数式で接続することで、Adobe Workfront Planning でカスタムフィールドを作成できます。 これをおこなうには、カスタムの数式タイプフィールドを作成します。
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
@@ -102,14 +102,14 @@ recommendations: noDisplay, noCatalog
 * 数式フィールドは、同じレコードタイプに属するフィールドを参照します。 数式フィールドを作成する際に、他のレコードタイプのフィールドを参照することはできません。 <!--is this still accurate??-->
 * 数式フィールドを保存した後で、そのフィールドの種類を変更することはできません。
 * 数式フィールドを保存した後で、その計算を更新し、同じタイプのすべてのレコードに対して、計算結果を自動的に更新できます。
-* Workfront Planning インターフェイスに表示される、式で参照するフィールドを追加する必要があります。
+* Formula で参照するフィールドは、Workfront Planning インターフェイスに表示されるとおりに追加する必要があります。
 * 式内で、リンクされたレコードタイプから参照フィールドを使用することは、後日利用できます。
 
 ## サポートされる数式
 
 Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィールドからのすべての式をサポートしています。 詳しくは、 [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-また、Workfront Planning 式フィールドでは、次の式を使用できます。
+また、Workfront Planning の数式フィールドでは、次の式を使用できます。
 
 <table style="table-layout:auto"> 
  <col> 

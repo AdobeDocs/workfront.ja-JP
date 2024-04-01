@@ -6,14 +6,14 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 13%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront planning. This article describes the levels of access that users could have to Adobe Workfront planning. -->
+<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning でワークスペースやビューに対する権限を共有または削除できます。
+Adobe Workfront Planning で、ワークスペースまたはビューに対する権限を共有または削除できます。
 
 この記事では、Workfront Planning オブジェクトの権限レベルについて説明します。
 
@@ -41,11 +41,11 @@ Adobe Workfront Planning でワークスペースやビューに対する権限�
 
 * ビュー
 
-## Adobe Workfront計画でのオブジェクトの共有に関する考慮事項
+## Adobe Workfront Planning でのオブジェクトの共有に関する考慮事項
 
-* Adobe Workfrontのライセンスの種類は、Workfrontの計画権限と組み合わせて、Workfrontの計画を使用する際に、オブジェクトの表示、投稿、管理に対するアクセス権を付与します。
+* Adobe Workfrontのライセンスの種類は、Workfront Planning 権限と組み合わせて、Workfront Planning を使用する際に、オブジェクトの表示、投稿、管理に対するアクセス権を付与します。
 
-  ライセンスの種類がWorkfront計画の権限レベルに与える影響について詳しくは、 [Adobe Workfront計画を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
+  ライセンスの種類がWorkfront Planning の権限レベルに与える影響について詳しくは、 [Adobe Workfront Planning を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
 * システム管理者は、他のユーザーが作成したワークスペースを管理および共有できます。
 * システム管理者でない場合は、他のユーザーが作成したワークスペース（共有している場合）に投稿できます。
 * ワークスペースを一括で共有することはできません。
@@ -61,9 +61,9 @@ Adobe Workfront Planning でワークスペースやビューに対する権限�
 
 >[!IMPORTANT]
 >
->一部のユーザーが以下に説明する権限レベルを持つことはできません。 ユーザーの個別ライセンスは、Workfront Planning オブジェクトに対して受け取る権限のレベルを決定します。
+>一部のユーザーが以下に説明する権限レベルを持つことはできません。 ユーザーの個々のライセンスは、Workfront Planning オブジェクトに対して受け取る権限のレベルを決定します。
 >
->詳しくは、 [Adobe Workfront計画を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
+>詳しくは、 [Adobe Workfront Planning を使用する際のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Workspace 権限

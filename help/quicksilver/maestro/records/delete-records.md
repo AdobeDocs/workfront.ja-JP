@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 {{maestro-important-intro}}
 
-Adobe Workfrontの計画で関連性がなくなったレコードは削除できます。
+Adobe Workfront Planning で関連性がなくなったレコードは削除できます。
 
 ## アクセス要件
 
@@ -95,10 +95,10 @@ Adobe Workfrontの計画で関連性がなくなったレコードは削除で�
 
 次の領域からレコードを削除できます。
 
-* [レコードの詳細ページから](#delete-a-record-from-the-records-details-page)
+* [レコードのページから](#delete-a-record-from-the-records-page)
 * [レコードタイプのテーブルビューから](#delete-a-record-from-the-record-type-table-view)
 
-### レコードの詳細ページからレコードを削除する
+### レコードのページからレコードを削除します
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ Adobe Workfrontの計画で関連性がなくなったレコードは削除で�
      ![](assets/contextual-menu-for-record-row.png)
    * タイムラインビューで、レコードバーをクリックします。
 
-   レコード **詳細** ページが開きます。
+   レコードページが開きます。
 
 1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) をクリックし、 **削除**&#x200B;を、 **削除** 再び確認します。
 
@@ -141,7 +141,7 @@ Adobe Workfrontの計画で関連性がなくなったレコードは削除で�
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * 次をクリック： **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をクリックして [ 詳細 ] ボックスを開き、 **その他** ![](assets/more-menu.png) をレコード名の右に追加し、 **削除**.
+   * 次をクリック： **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコードの詳細情報を含むボックスを開き、 **その他** ![](assets/more-menu.png) をレコード名の右に追加し、 **削除**.
 
    レコードは削除されているため、復元できません。
 

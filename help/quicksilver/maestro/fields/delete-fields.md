@@ -1,11 +1,11 @@
 ---
 title: フィールドを削除
-description: Adobe Workfront計画では、不要になったカスタムフィールドを削除できます。
+description: Adobe Workfront Planning では、不要になったカスタムフィールドを削除できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -29,9 +29,9 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Adobe Workfront計画では、カスタムフィールドを作成して、レコードに関する情報を保存できます。
+Adobe Workfront Planning では、カスタムフィールドを作成して、レコードに関する情報を保存できます。
 
-Workfront計画でのカスタムフィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
+Workfront Planning でのカスタムフィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
 
 関連性がなくなったWorkfront Planning フィールドは削除できます。
 

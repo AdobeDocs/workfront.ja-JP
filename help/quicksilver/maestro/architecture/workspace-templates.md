@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが使用�
 
 Workfront Planning には、ワークスペースの作成時に基本的なレコードタイプとフィールドを使い始めるための一連のテンプレートが用意されています。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
 
-この記事では、Adobe Workfront計画で使用できる Workspace テンプレートについて説明します。
+この記事では、Adobe Workfront Planning で使用できる Workspace テンプレートについて説明します。
 
 ## Adobe Workfront Planning テンプレートに関する考慮事項
 
@@ -96,9 +96,9 @@ You must have the following:
 
 -->
 
-## Workfront planning workspace テンプレート
+## Workfront Planning Workspace テンプレート
 
-Workfront計画の Workspace テンプレートと、これらに含まれるフィールドの数を次に示します。
+Workfront Planning の Workspace テンプレートと、これらに含まれるフィールドの数を次に示します。
 
 * **マーケティング管理**：このテンプレートを使用すると、すべてのマーケティングキャンペーンを管理できます。 テンプレートには次の機能が付属しています。
 

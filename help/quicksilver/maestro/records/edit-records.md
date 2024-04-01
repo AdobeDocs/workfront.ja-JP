@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 {{maestro-important-intro}}
 
-レコードに関連付けられたフィールドの値を編集することで、Adobe Workfront Planning でレコード情報を編集できます。
+レコードに関連付けられたフィールドの値を編集すると、Adobe Workfront Planning でレコード情報を編集できます。
 
 レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
 
@@ -92,8 +92,8 @@ ht-degree: 3%
 * ワークスペースに対する権限を付与されている場合は、自分が作成したレコードや他のユーザーが作成したレコードを編集できます。
 * 次の領域でレコードフィールドを編集できます。
 
-   * レコードビューのレコードの [ 詳細 ] ボックス。
-   * レコードの詳細ページ。
+   * レコードビューのレコードのボックス
+   * レコードのページ
    * インライン、テーブル表示。
 
 * 次のタイプのフィールドは自動的に更新され、値を手動で編集することはできません。
@@ -109,7 +109,8 @@ ht-degree: 3%
 次の領域でレコードを編集できます。
 
 * [レコードタイプのテーブルビューから](#edit-a-record-from-the-table-view-of-a-record-type)
-* [レコードの詳細ページから](#edit-a-record-from-the-records-details-page)
+* [レコードのボックスをビューに表示](#edit-a-record-from-the-records-box-in-a-view)
+* [レコードのページから](#edit-a-record-from-the-records-page)
 
 ### レコードタイプのテーブルビューでレコードをインライン編集する
 
@@ -165,7 +166,7 @@ ht-degree: 3%
    >   * 貼り付け： Ctrl + V (Macの場合は⌘ + V)
    >* 情報を貼り付けたフィールドと同じタイプのレコードフィールド以外の別のソースから情報をコピーすることはできません。
    >
-   >* レコードの「詳細」領域にフィールド値をコピーして貼り付けることはできません。 この機能は、レコードタイプのテーブルビューでのみサポートされます。
+   >* レコードページにフィールド値をコピーして貼り付けることはできません。 この機能は、レコードタイプのテーブルビューでのみサポートされます。
    >* 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。
    >
    >
@@ -183,9 +184,7 @@ ht-degree: 3%
 
 1. （オプション）レコードにサムネールを追加します。 詳しくは、 [レコードにサムネールを追加する](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### レコードの詳細ボックスからレコードをビューで編集する
-
-任意のビューの「詳細」ボックスからレコードを編集できます。
+### レコードのボックスからレコードをビューで編集する
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ ht-degree: 3%
 
    または
 
-   テーブルビューで、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側に移動するか、レコード名をクリックします。 The **詳細** ボックスがビューで開きます。
+   テーブルビューで、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側に移動するか、レコード名をクリックします。 レコードのボックスがビューに開きます。
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ ht-degree: 3%
    >
    >次の項目を表示すると、 **詳細を開く** テーブルビューのレコードの [ 名前 ] フィールドの左側にあるアイコンは、[ 名前 ] フィールドが主フィールドの場合にのみ表示されます。
 
-1. フィールド情報の編集を **詳細** ボックス。 Workfrontは変更を自動的に保存します。
+1. レコードのボックスのフィールド情報の編集を開始します。 Workfrontは変更を自動的に保存します。
 
-1. （オプション） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> の右上隅に **詳細** レコードの **詳細** ページを新しいタブに追加します。 レコードの編集を続行します。詳しくは、 [レコードの詳細ページからレコードを編集する](#edit-a-record-from-the-records-details-page) 」の節を参照してください。
+1. （オプション） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> をクリックし、レコードのページを新しいタブで開きます。 レコードの編集を続行します。詳しくは、 [レコードのページからレコードを編集する](#edit-a-record-from-the-records-page) 」の節を参照してください。
 
-### レコードの詳細ページからレコードを編集する
-
-レコードは詳細ページから編集できます。
+### レコードのページからレコードを編集する
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ ht-degree: 3%
 
 1. 次のいずれかの操作を行います。
 
-   * 任意のビューから、「詳細」ボックスにアクセスします ( [レコードの詳細ボックスからレコードをビューで編集する](#edit-a-record-from-the-records-details-box-in-a-view)」の節を参照してください。 次に、 **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> の右上隅に **詳細** レコードの **詳細** ページを新しいタブに追加します。
+   * 任意のビューから、レコードのボックスにアクセスします ( [レコードのボックスからレコードをビューで編集する](#edit-a-record-from-the-records-box-in-a-view) 」の節を参照してください。 次に、 **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> をクリックし、レコードのページを新しいタブで開きます。
 
    * 次から： **テーブル** 表示し、レコード名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **表示**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     レコード **詳細** ページが開きます。
+     レコードページが開きます。
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ ht-degree: 3%
 
    または
 
-   詳細ページの編集可能なフィールド内をクリックして、情報を編集します。
+   レコードページ上の任意の編集可能フィールド内をクリックして、情報を編集します。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 

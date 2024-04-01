@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1144'
 ht-degree: 12%
 
 ---
@@ -33,23 +33,23 @@ ht-degree: 12%
 
 ## レコードにコメントする際の考慮事項
 
-* レコードの「コメント」セクションで、Workfront計画のレコードにコメントや返信を追加できます。
+* レコードの「コメント」セクションで、Workfront Planning のレコードにコメントや返信を追加できます。
 
-* リンクされたレコードに追加されたコメントは、リンク元のレコードには表示されません。 例えば、Campaign レコードにリンクされているWorkfront Planning Product レコードにコメントすると、そのコメントはWorkfront Planning の Product レコードにのみ表示され、リンク元の Campaign レコードには表示されません。
+* リンクされたレコードに追加されたコメントは、リンク元のレコードには表示されません。 例えば、Campaign レコードにリンクされているWorkfront Planning Product レコードにコメントする場合、そのコメントは、リンク元の Campaign レコードにではなく、Workfront Planning の Product レコードにのみ表示されます。
 
 * レコードと別のアプリケーションのオブジェクトとの接続の結果として作成されたWorkfront Planning レコードにコメントを追加できます。
 
-  例えば、WorkfrontプロジェクトをWorkfront planning レコードに接続した後で、Project Workfront planning レコードにコメントを付けることができます。 詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
+  例えば、WorkfrontプロジェクトをWorkfront Planning レコードに接続した後で、Project Workfront Planning レコードにコメントを付けることができます。 詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
 
-* 他のアプリケーションでリンクされたオブジェクトに追加されたコメントは、Workfront計画では表示されず、Workfront計画でリンクされたオブジェクトに追加されたコメントは、他のアプリケーションでは表示されません。
+* 他のアプリケーションでリンクされたオブジェクトに追加されたコメントはWorkfront Planning に表示されず、Workfront Planning でリンクされたオブジェクトに追加されたコメントは他のアプリケーションには表示されません。
 
-  例えば、Workfrontでプロジェクトに追加したコメントは、Workfront計画のキャンペーンにリンクされた同じプロジェクトには表示されず、プロジェクトWorkfront計画レコードに追加したコメントはWorkfrontには表示されません。
+  例えば、Workfrontでプロジェクトに追加したコメントは、Workfront Planning のキャンペーンにリンクされた同じプロジェクトには表示されず、プロジェクトWorkfront Planning レコードに追加したコメントはWorkfrontには表示されません。
 
 * ユーザーにタグを付けて、更新に注意を向けることができます。 タグ付きユーザーは、アプリ内通知や更新に関する電子メールを受け取りません。 <!--this might change??-->
 
-* レコードに更新を追加し、Workfront計画の次の領域で変更履歴を確認できます。
+* レコードに更新を追加し、Workfront Planning の次の領域で変更履歴を確認できます。
 
-   * レコードの詳細ページから。
+   * レコードページから。
 
   <!--* From the table view.-->
 
@@ -90,7 +90,7 @@ ht-degree: 12%
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront計画には、アクセスレベルの制御はありません。 </p>  
+   <td> <p>Workfront Planning には、アクセスレベルの制御はありません。 </p>  
 </td>
   </tr>
 <tr>

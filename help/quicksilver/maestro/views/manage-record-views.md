@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 {{maestro-important-intro}}
 
-Adobe Workfrontの計画領域でレコード・タイプを選択した後、次のビューにそのタイプのすべてのレコードを表示できます。
+「Adobe Workfront Planning」領域でレコード・タイプを選択した後、次のビューにそのタイプのすべてのレコードを表示できます。
 
 * テーブル
 
@@ -64,6 +64,7 @@ Adobe Workfrontの計画領域でレコード・タイプを選択した後、�
    <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
    <td>
    <p>任意</p> 
+   <p>システム管理者は、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 </p>
   </td>
   </tr>
 
@@ -89,7 +90,7 @@ Adobe Workfrontの計画領域でレコード・タイプを選択した後、�
 
 ## レコードビューを使用する際の考慮事項
 
-* Workfront計画のビューは、レコードのタイプに固有です。 同じビューを 2 つの異なるレコードタイプに適用することはできません。
+* Workfront Planning のビューは、レコードのタイプに固有です。 同じビューを 2 つの異なるレコードタイプに適用することはできません。
 * 作成したビューは、自分とそのビューを共有しているユーザーにのみ表示されます。
 * ビューを変更または削除すると、そのビューに対する権限を持つすべてのユーザーに対して、ビューが変更および削除されます。
 * 次の要素は、各レコードビューに固有です。
@@ -138,7 +139,7 @@ Adobe Workfrontの計画領域でレコード・タイプを選択した後、�
 | カラーコードのグループ化 |           | ✓ |
 | 特定のレコードの検索 | ✓ | ✓ |
 | 表示を共有 | ✓ | ✓ | ✓ |
-| レコードの詳細ページをビューから開きます。 | ✓ | ✓ |    |
+| ビューからレコードのページを開く | ✓ | ✓ |    |
 
 
 ## ビューの作成または編集 {#create-or-edit-views}
