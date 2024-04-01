@@ -6,10 +6,10 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 100%
+source-wordcount: '78'
+ht-degree: 87%
 
 ---
 
@@ -21,3 +21,4 @@ ht-degree: 100%
 * [プルーフ権限プロファイルフィールドを一括編集](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
 * [パブリック URL または埋め込みコード経由によるプルーフの共有を無効にする](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [FAQ：Adobe Workfront 内でのプルーフ - 米国から EMEA への移行](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+* [アップロード後にドキュメント名が変更され、無効な文字が含まれています](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)

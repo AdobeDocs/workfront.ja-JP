@@ -6,14 +6,16 @@ description: 新しいホームは、作業を管理するための強力な新�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 35%
+source-wordcount: '1131'
+ht-degree: 33%
 
 ---
 
 # 新しいホームの基本を学ぶ
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Adobe Workfrontの新しいホームエクスペリエンスは、現在のホ�
     保留中のすべての割り当て済みまたはデリゲートされた承認、承認をデリゲートするボタン、承認の決定をウィジェット内で直接行うボタンを表示します。
 
 * **すべての承認**\
-    組織のすべての承認を、カスタマイズ可能な列を含むテーブルに表示し、特定の承認を検索できる検索バーも表示します。
+        <span class="preview"> 平均承認時間と決定に関する情報と、保留中および期限切れの承認のリスト表示を含む 2 つのグラフが表示されます。</span> <span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span>
 
 * **承認待ち**\
     所有するプロジェクト上のドキュメントに割り当てられている承認を表示します。 ここでは、承認ステータスを表示し、不完全なレビューや承認についてユーザーに通知することができます。 <span style="color: #ff0000;">この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。</span>
