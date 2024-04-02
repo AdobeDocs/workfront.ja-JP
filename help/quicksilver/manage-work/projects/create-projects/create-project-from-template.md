@@ -6,10 +6,10 @@ description: テンプレートをフレームワークとして使用し、Adob
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 74%
+source-wordcount: '1128'
+ht-degree: 69%
 
 ---
 
@@ -105,7 +105,11 @@ ht-degree: 74%
 
 ## 「プロジェクト」エリアでのテンプレートからのプロジェクトの作成
 
-プロジェクトは、「メインメニュー」の「プロジェクト」エリアや、ポートフォリオまたはプログラムの「プロジェクト」エリアから作成できます。
+プロジェクトは、メインメニューの「プロジェクト」領域、またはポートフォリオまたはプログラムの「プロジェクト」領域から作成できます。
+
+>[!NOTE]
+>
+>システム管理者またはグループ管理者が、レイアウトテンプレートを使用してインターフェイスを変更する場合があります。 この場合、次の手順で示すセクションおよび領域の名前の一部は、Workfrontのインスタンスで異なる場合があります。
 
 1. 次のいずれかの操作を行います。
 

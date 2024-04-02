@@ -2,20 +2,20 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
-title: 反復更新を管理
+title: 反復コメントの管理
 description: 繰り返しの更新を追加して、Adobe Workfrontで他のユーザーと共同作業できます。
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
-source-git-commit: 8abff9553518d6742f7751fefe04dcb199f5880a
+exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 28%
 
 ---
 
-
-# 反復更新を管理
+# 反復コメントの管理
 
 繰り返しの更新を追加して、Adobe Workfrontで他のユーザーと共同作業できます。
 

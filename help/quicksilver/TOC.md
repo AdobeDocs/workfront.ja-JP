@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d2539f19a3c6c1e15e33c622e463b3a0875fcf2e
+source-git-commit: ca65f2720204a9616a849036834e2bf40a60150c
 workflow-type: tm+mt
 source-wordcount: '14076'
 ht-degree: 94%
@@ -1069,7 +1069,7 @@ ht-degree: 94%
          * [既存のイテレーションにストーリーを追加](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [イテレーションを表示](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [イテレーションを削除](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-         * [反復更新を管理](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
+         * [反復コメントの管理](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
       * スクラムボード {#scrum-board}
          * [スクラムボード](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [スクラムボードの概要](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)

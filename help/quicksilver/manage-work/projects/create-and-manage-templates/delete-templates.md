@@ -6,9 +6,9 @@ description: プロジェクトに関する履歴情報を長期にわたって�
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '432'
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+workflow-type: tm+mt
+source-wordcount: '426'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,9 @@ ht-degree: 100%
 
 ## テンプレートを削除
 
-1. **メインメニュー** ![](assets/main-menu-icon.png) から、「**テンプレート**」をクリックします。これにより、テンプレートのリストが開きます
+{{step1-to-templates}}
+
+これにより、テンプレートのリストが開きます
 
 1. テンプレート名の左側にあるチェックボックスをクリックして、削除するテンプレートを選択し、**「削除」／「はい、削除します」**&#x200B;をクリックして削除を確定します。
 

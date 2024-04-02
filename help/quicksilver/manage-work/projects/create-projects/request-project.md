@@ -2,20 +2,28 @@
 product-area: projects
 navigation-topic: create-projects
 title: プロジェクトのリクエスト
-description: プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。これにより、ステータスが「アイデア」のプロジェクトが作成されます。プロジェクトのビジネスケースを作成して、それを完了することで達成したい重要なポイントの概要を示し、経営陣に人件費と経費の予算を提示することをお勧めします。
+description: プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。 新しいプロジェクトのビジネスケースを作成し、完了して達成する重要なポイントの一部を把握し、管理者の人件費と予算を提示できるようにすることをお勧めします。 ビジネスケースを入力し、プロジェクトを承認用に送信すると、プロジェクトの正式なリクエストが完了します。 承認を得るためにビジネスケースを送信すると、プロジェクトのステータスが「リクエスト済み」になります。
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 47%
 
 ---
 
 # プロジェクトのリクエスト
 
-プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。これにより、ステータスが「アイデア」のプロジェクトが作成されます。プロジェクトのビジネスケースを作成して、それを完了することで達成したい重要なポイントの概要を示し、経営陣に人件費と経費の予算を提示することをお勧めします。
+<!--Audited: April 2024-->
+
+プロジェクトの作業を開始する前に、プロジェクトの承認をリクエストできます。
+
+空のプロジェクトを作成する場合、プロジェクトのステータスは「アイデア」になります。
+
+プロジェクトの正式な承認リクエストが必要な場合は、新しいプロジェクトのビジネスケースを作成し、完了して達成する重要なポイントの概要を示し、管理者の人件費予算に提示できるようにすることをお勧めします。
+
+ビジネスケースを入力し、プロジェクトを承認用に送信すると、プロジェクトの正式なリクエストが完了します。 承認を得るためにビジネスケースを送信すると、プロジェクトのステータスが「リクエスト済み」になります。
 
 Adobe Workfront の次のエリアで新しいプロジェクトを追加する際に、プロジェクトをリクエストできます。
 
@@ -26,38 +34,6 @@ Adobe Workfront の次のエリアで新しいプロジェクトを追加する�
 
 ## アクセス要件
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -65,19 +41,20 @@ Adobe Workfront の次のエリアで新しいプロジェクトを追加する�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront ライセンス*</p> </td> 
-   <td> <p>プラン </p> </td> 
+   <td> <p>新規：標準 </p>
+   または
+   <p>現在：プラン </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。プロジェクトへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>プロジェクトのリクエストを作成すると、プロジェクトに対する管理権限が自動的に付与されます。 </p> <p> プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
@@ -85,18 +62,18 @@ Adobe Workfront の次のエリアで新しいプロジェクトを追加する�
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## プロジェクトのリクエスト
 
 1. 次のいずれかの操作を行います。
 
-   * **メインメニュー** ![](assets/main-menu-icon.png)、**プロジェクト**&#x200B;の順にクリックしてから、「**新規プロジェクト**」を展開します。
-   * ポートフォリオに移動し、「**新規プロジェクト**」を展開します。
+   * 次をクリック： **メインメニュー** ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** ![](assets/lines-main-menu.png) 左上隅にある場合は、 **プロジェクト**&#x200B;を展開し、を展開します。 **新規プロジェクト**.
+   * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
-   * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
+   * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
-1. 「**プロジェクトをリクエスト**」をクリックします。
+1. クリック **プロジェクトをリクエスト**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
@@ -106,8 +83,8 @@ Adobe Workfront の次のエリアで新しいプロジェクトを追加する�
 
      ビジネスケースの定義とプロジェクトのリクエストについて詳しくは、[プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
-   * プロジェクトを最初から作成するか、テンプレートを使用して、ステータスを「**リクエスト済み**」に変更します。
+   * プロジェクトを最初から作成するか、テンプレートを使用して、ステータスを「 」に変更します。 **リクエスト済み**.
 
      プロジェクトの作成について詳しくは、[プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)または[テンプレートを使用してプロジェクトを作成](../../../manage-work/projects/create-projects/create-project-from-template.md)を参照してください。
 
-   リクエストしたプロジェクトのステータスは「**リクエスト済み**」で、ポートフォリオに関連付けている場合は、ポートフォリオの「**リクエストされたプロジェクト**」タブに表示されます。ポートフォリオマネージャーは、レビューを行い、承認または拒否できるようになりました。この場合、プロジェクトのステータスは「**承認済み**」または「**却下**」に変わります。
+   リクエストしたプロジェクトのステータスは次のとおりです。 **リクエスト済み** そして、 **リクエストされたプロジェクト** タブに表示されます (Portfolioに関連付けている場合 )。Portfolio ポートフォリオマネージャーは、レビューを行い、承認または拒否できるようになりました。この場合、プロジェクトのステータスは「**承認済み**」または「**却下**」に変わります。
