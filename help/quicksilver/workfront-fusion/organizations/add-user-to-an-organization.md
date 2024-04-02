@@ -7,10 +7,10 @@ description: Adobe Workfront Fusion で組織にユーザーを追加できま�
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 90%
 
 ---
 
@@ -105,8 +105,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >   
-><p>「[!UICONTROL Invite a new user]」ボタンが表示されない場合、組織は [!DNL Adobe Business Platform.] に登録されています。 </p>
+>次の項目が表示されない場合、 [!UICONTROL 新しいユーザーの招待] 」ボタンが表示された場合、組織は [!DNL Adobe Business Platform.]
 >
->   <p>[!DNL Adobe Business Platform] に登録されている組織にユーザーを追加する手順については、<a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">[!DNL Adobe Business Platform]</a> に登録されている組織にユーザーを追加を参照してください。</p>
+>  を参照してください。 [!DNL Adobe Business Platform]を参照してください。 [ユーザーの追加先 [!DNL Adobe Workfront Fusion] から [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
 
 ユーザーは招待メールを受け取り、招待を承諾することができます。

@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
-workflow-type: ht
-source-wordcount: '742'
-ht-degree: 100%
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 95%
 
 ---
 
@@ -49,11 +49,11 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
  <tbody> 
   <tr> 
    <td role="rowheader">許可する特定の IP アドレスおよびドメイン</td> 
-   <td> <p><a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">ファイアウォールの許可リストを設定</a>の記事には、組織が許可リストに追加する必要がある IP アドレスとドメインのリストが含まれています。 </p> <p>ネットワーク管理者が「ファイアウォールを設定」の記事にアクセスできない可能性があります。その場合は、それを提供する必要があります。ハード（紙）コピーは印刷しないことをお勧めします。デジタルコピーを使用すると、ネットワーク管理者はアドレスをコピーして貼り付けることができます。これは、ハードコピーから入力するよりも迅速かつ正確です。</p> </td> 
+   <td> <p><a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">ファイアウォールの許可リストを設定</a>の記事には、組織が許可リストに追加する必要がある IP アドレスとドメインのリストが含まれています。 </p> <p>ネットワーク管理者が、「ファイアウォールの設定」の記事にアクセスできな許可リストに加えるい可能性があります。 その場合は、それを提供する必要があります。ハード（紙）コピーは印刷しないことをお勧めします。デジタルコピーを使用すると、ネットワーク管理者はアドレスをコピーして貼り付けることができます。これは、ハードコピーから入力するよりも迅速かつ正確です。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">クラスター</td> 
-   <td>組織のクラスターを検索するには、<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターと Workfront プランを表示</a>を参照してください。</td> 
+   <td>組織のクラスターを検索するには、 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターとWorkfrontプランを表示</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront プラン</td> 
@@ -75,7 +75,7 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
    <td role="rowheader">Adobe Workfront 統合</td> 
    <td>次のいずれかを使用する場合は、ネットワーク管理者に通知します。
     <ul>
-     <li><p><p>Workfront for Jira</p></p></li>
+     <li><p>Workfront for Jira</p></li>
      <li><p>Workfront for G Suite</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
@@ -84,11 +84,10 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
   </tr> 
   <tr> 
    <td role="rowheader">その他の機能</td> 
-   <td> <p>次のいずれかを使用する場合は、ネットワーク管理者に通知します。</p> 
+   <td> <p>次の情報を使用する場合は、ネットワーク管理者に通知します。</p> 
     <ul> 
      <li> <p>Workfront 体験版</p> </li> 
-     <li> <p>Workfront Ascent</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
 
 ### 組織のクラスターと Workfront プランを表示する {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
 
 1. 左側のパネルで、「**システム**」をクリックします。
 1. クラスターを表示するには、「**顧客情報**」を選択します。

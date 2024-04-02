@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 1199551f9ffb802a5691f6986cd855064a921d08
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1578'
 ht-degree: 97%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 97%
 * [認証の強化機能を許可する IP アドレス](#ip-addresses-to-allow-for-enhanced-authentication)
 * [Workfront Fusion にアクセスするために追加する IP アドレス](#ip-addresses-to-add-for-accessing-workfront-fusion)
 * [Jira での Workfront を使用するため追加する IP アドレス](#ip-addresses-to-add-for-using-workfront-for-jira)
-* [Workfront Ascent を使用するために追加する IP アドレス](#ip-addresses-to-add-for-using-workfront-ascent)
 * [すべてのクラスターの Workfront に追加する URL](#urls-to-add-for-all-clusters-workfront)
 
 ### クラスター 1、2、3、5、7、8、9 に対して許可する IP アドレス {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -431,38 +430,6 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
      <li>35.160.0.242 </li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Workfront Ascent を使用するために追加する IP アドレス {#ip-addresses-to-add-for-using-workfront-ascent}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Workfront Ascent を使用して Workfront のトレーニングリソースにアクセス</td> 
-   <td> 
-    <ul> 
-     <li>18.223.140.34</li> 
-     <li>3.13.223.30</li> 
-     <li>3.13.19.112</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront Ascent からメール通知を受信</td> 
-   <td> 
-    <ul> 
-     <li>23.251.227.75</li> 
-     <li>23.251.227.76</li> 
-     <li>23.251.227.77</li> 
-     <li>23.251.227.78</li> 
-     <li>23.251.227.79</li> 
-     <li>23.251.227.80</li> 
-     <li>23.251.227.81</li> 
-     <li>23.251.227.82</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

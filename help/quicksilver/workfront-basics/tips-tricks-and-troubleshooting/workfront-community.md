@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Workfront]  コミュニティ'
 description: Adobe  [!DNL Workfront]  コミュニティは、10,000 を超える  [!DNL Workfront]  ユーザーのオンライングループです。コミュニティを通じて、製品リリースの最新情報を入手したり、顧客イベントについて学んだり、 [!DNL Workfront]  製品やサービスについて他のユーザーと話したりすることができます。質問に対する答えが見つかり、他の  [!DNL Workfront]  の顧客とのつながりを確立できます。
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe [!DNL Workfront] コミュニティは、10,000 を超える [!DNL Workfro
 
 ### 認証済みサポートの連絡先 {#authorized-support-contact}
 
-認証済みサポート連絡先（ASC）の場合、[!UICONTROL ヘルプデスク]、[!UICONTROL イノベーションラボ]、および [!DNL Workfront] [!UICONTROL Ascent] のログイン資格情報を持っています。同じ資格情報を使用して [!DNL Workfront] コミュニティにログインできます。この場合、サブドメインは空白のままにします。
+認証済みサポート連絡先 (ASC) の場合、 [!UICONTROL ヘルプデスク]、および [!UICONTROL イノベーションラボ]. 同じ資格情報を使用して [!DNL Workfront] コミュニティにログインできます。この場合、サブドメインは空白のままにします。
 
 ![community_4.png](assets/community-4-350x129.png)
 
@@ -43,8 +43,6 @@ Adobe [!DNL Workfront] コミュニティは、10,000 を超える [!DNL Workfro
 ### SSO ログインを使用した非認証のサポート連絡先 {#non-authorized-support-contact-with-sso-login}
 
 会社で SSO を使用している場合は、電話で [!DNL Workfront] カスタマーサポートに連絡してアカウントをリクエストする必要があります。チケットを送信したり、ライブチャットに参加したりできない場合は、認証済み [!DNL Workfront] カスタマーサポートにお問い合わせください。
-
-Ascent トレーニング内で既にアカウントが設定されている場合は、同じ資格情報を使用してコミュニティサイトにアクセスできます（この場合はサブドメインを空白のままにします）。
 
 コミュニティサイトのパスワードを覚えていない場合は、[!DNL Workfront Customer Support] に連絡すると、サポートできます。
 
