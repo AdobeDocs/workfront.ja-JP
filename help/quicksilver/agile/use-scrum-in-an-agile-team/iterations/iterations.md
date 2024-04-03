@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: イテレーション
-description: イテレーションの使用方法については、以下の記事を参照してください。
+description: 次の記事では、Scrum 環境で作業する際に繰り返しを使用する方法について説明します。
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 93%
+source-wordcount: '62'
+ht-degree: 41%
 
 ---
 
 # イテレーション
 
-この節では、次の記事を扱います。
+次の記事では、Adobe Workfrontのスクラム環境で作業する際に繰り返しを使用する方法について説明します。
 
 * [イテレーションの概要](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [イテレーションを作成](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)

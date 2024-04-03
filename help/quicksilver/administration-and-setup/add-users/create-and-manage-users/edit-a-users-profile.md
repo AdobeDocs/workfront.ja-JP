@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3334'
 ht-degree: 73%
 
 ---
@@ -114,7 +114,10 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
       <p>このオプションは、プレビューおよびサンドボックス環境でのみ使用できます。メール通知は、実稼動環境でデフォルトで有効になっています。 </p>
       </li>
 
-   <li><b>更新ステータスの完了率を表示</b>：従来のコメントエクスペリエンスを使用する場合に、このユーザーのタスクの更新領域内に完了率のバーを表示するには、このオプションを選択します。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.</li> 
+   <li><b>更新ステータスの完了率を表示</b>：従来のコメントエクスペリエンスを使用する場合に、このユーザーのタスクの更新領域内に完了率のバーを表示するには、このオプションを選択します。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.
+      <p><span class="preview">このオプションは、プレビュー環境から削除されました。</span></p>
+
+   </li> 
        <li><b>自分に割り当てた作業を [ 作業 ] タブに送信する</b>：ユーザーが割り当てたすべてのものをホーム領域の作業中リストに直接表示する場合は、このオプションを選択します。 デフォルトでは、ユーザーに割り当てられたすべての項目が、[ ホーム ] 領域の [ 開始準備完了 ] または [ 準備不可 ] リストに表示されます。</li> 
        <li><b>ドキュメントのアップロード時に配達確認を自動生成</b>：ユーザーがアップロードしたドキュメントで配達確認をすぐに生成する場合は、このオプションを選択します。 </li>
        </ul> </td> 

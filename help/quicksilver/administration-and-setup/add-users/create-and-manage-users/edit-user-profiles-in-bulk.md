@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '2285'
-ht-degree: 98%
+source-wordcount: '2294'
+ht-degree: 97%
 
 ---
 
 # ユーザープロファイルの一括編集
+
+{{highlighted-preview}}
 
 <!--
 
@@ -81,7 +83,10 @@ ht-degree: 98%
        <ul> 
         <li><b>タイムゾーン：</b>ユーザーのタイムゾーン。</li> 
         <li><b>ロケール</b>：ユーザーの優先ロケール。これは、Workfront から送信されるメールの数値や日付の形式に影響します。</li> 
-        <li><b>更新ステータスの完了率を表示</b>：従来のコメント付けエクスペリエンスを使用する場合に、すべてのユーザーのタスクの更新領域内に完了率のバーを表示するには、このオプションを選択します。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.</li> 
+        <li><b>更新ステータスの完了率を表示</b>：従来のコメント付けエクスペリエンスを使用する場合に、すべてのユーザーのタスクの更新領域内に完了率のバーを表示するには、このオプションを選択します。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.
+        <p><span class="preview">このオプションは、プレビュー環境から削除されました。</span></p>
+
+   </li> 
         <li><b>自分に割り当てた作業を「作業中」タブに送信</b>：ユーザーが自分に割り当てたすべてのものを、ユーザーの「作業中」タブに直接表示する場合は、このオプションを選択します。デフォルトでは、ユーザーに割り当てられたすべての項目が「作業リクエスト」タブに一覧表示されます。</li> 
        </ul> </td> 
      </tr> 

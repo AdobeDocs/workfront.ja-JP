@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
-ht-degree: 56%
+source-wordcount: '4261'
+ht-degree: 55%
 
 ---
 
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 <span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ After the monthly releases to Production, the same features are also available i
 
 ボードエリアのカードにコメントする方法については、[ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)を参照してください。
 
+繰り返しに関するコメントの詳細については、 [反復コメントの管理](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## アクセス要件
 
 この記事の手順を実行するには、次のアクセス権が必要です。
@@ -172,6 +176,8 @@ After the monthly releases to Production, the same features are also available i
 * Goals
 * 「ボード」領域のカード
 * イテレーション
+
+<!--info for April 11: hide the section below completely:-->
 
 ### 「レガシー更新」セクションの作業項目に更新を追加する
 
@@ -232,6 +238,8 @@ After the monthly releases to Production, the same features are also available i
    >Workfront 管理者がアクセスレベルで「ユーザーによるコメントの削除を許可しない」設定を選択した場合、コメントを取り消すことはできません。詳しくは、[カスタムアクセスレベルを作成および変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 1. アップデートに返信するには、[更新に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)を参照してください。
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### 新しいコメントエクスペリエンスを使用して作業項目に更新を追加する
 
@@ -463,6 +471,8 @@ After the monthly releases to Production, the same features are also available i
 
 更新のコピーは、使用するコメントエクスペリエンスに応じて異なります。
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### 新しいコメントエクスペリエンスに更新をコピー
 
 新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
@@ -515,9 +525,9 @@ After the monthly releases to Production, the same features are also available i
 
 1. 更新の追加を続行し、「 **送信** をクリックしてコメントを追加します。
 
-### 従来のコメントエクスペリエンスでの更新のコピー
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### 従来のコメントエクスペリエンスでの更新のコピー
 
 * [更新をコピー](#copy-the-update)
 * [スレッドリンクをコピー](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Workfront ユーザー（Workfront 管理者を含む）は、別のユーザー
 
 -->
 
-
-
-## システム更新を有効化または無効化
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->新しいコメントエクスペリエンスを使用する際は、システム更新を無効にすることはできません。
->この節の情報は、「レガシーアップデート」節で利用できる機能のみに関するものです。 &lt;! — システムからレガシーを削除する場合は、このセクションを削除します。->
->新しいコメント作成機能でのシステム更新について詳しくは、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## システム更新の確認
 
 Workfront オブジェクトの更新セクションには、以下の 2 種類の情報が表示されます。
 
-* **ユーザーの更新：** ユーザーの更新とは、自分とシステム内の他のユーザーが入力するコメントです。 <!--October 2023 - new screen shot -->
+* **ユーザーの更新：** ユーザーの更新とは、自分とシステム内の他のユーザーが入力するコメントです。 ユーザーの更新は、「更新」セクションの「コメント」および「すべて」タブに表示されます。
 
   ![](assets/user-update-cl-350x277.png)
 
-* **システムの更新：** アセットの削除、バージョンの追加または削除、承認リクエストの添付または削除、およびオブジェクト上のドキュメントに対する編集または変更が記録されます。 <!--October 2023 - new screen shot -->
+* **システムの更新：** タスクや問題の削除、ドキュメントバージョンの追加や削除、承認リクエストの添付や削除、およびオブジェクトに対する編集や変更が記録されます。 システムの更新は、「更新」セクションの「システムアクティビティ」タブと「すべて」タブに表示されます。
 
   ![](assets/system-updates-cl-350x277.png)
 
-  ご使用の Workfront ライセンスに応じて、システム更新がデフォルトで有効になっている場合があります。[システムで追跡された更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)で説明されているように、Workfront の管理者は、システム更新で何をトラックするかを決定できます。また、システムの更新やアクティビティを除外して、すべてのオブジェクトのユーザー更新のみを表示することもできます。
+  [システムで追跡された更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)で説明されているように、Workfront の管理者は、システム更新で何をトラックするかを決定できます。また、システムの更新やアクティビティを除外して、すべてのオブジェクトのユーザー更新のみを表示することもできます。
 
   次のオブジェクトには、システムで生成された更新はありません。
 
@@ -653,19 +651,6 @@ Workfront オブジェクトの更新セクションには、以下の 2 種類�
    * テンプレート
    * テンプレートタスク
 
-システム更新を有効または無効にするには：
-
-1. オブジェクトで「**更新**」タブをクリックします。
-1. 「**システムの更新を表示**」をクリックして、スイッチを左（無効）または右（有効）にスライドさせます。
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   このオプションは、Workfront 全体のすべてのオブジェクトにわたって永続的で、Workfront からログアウトした場合でも、選択した位置にとどまります。
-
-   >[!TIP]
-   >
-   >   システムの更新を記録しないオブジェクトの更新エリアには、「システムの更新を表示」オプションはありません。
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+システムの更新の詳細については、「更新」セクションの「 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

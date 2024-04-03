@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: コミット日の概要
-description: コミット日は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するためにコミットする日付です。これは予定完了日とは異なり、作業を担当するユーザーが設定する、より現実的な予定完了日です。予定完了日について詳しくは、タスクの予定完了日の概要を参照してください。
+description: コミット日は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するためにコミットする日付です。これは、作業を直接担当するユーザーが指定した完了日をより現実的に見積もるため、「計画完了日」とは異なります。
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 53%
+source-wordcount: '763'
+ht-degree: 49%
 
 ---
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1294'
 ht-degree: 3%
 
 ---
@@ -103,6 +103,8 @@ ht-degree: 3%
 * 表示したレコードが他のレコードにリンクされている場合、編集中のレコードの新しい情報は、リンクされたレコードに反映されます。
 * レコードを一括で編集することはできません。 <!--this will probably change-->
 * URL は、http://、https://、ftp://、www のいずれかで始まる場合にのみ、1 行のテキストフィールドタイプのリンクとして認識されます。.
+<!--
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). -->
 
 ## レコードを編集
 
@@ -200,7 +202,7 @@ ht-degree: 3%
 
    または
 
-   テーブルビューで、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側に移動するか、レコード名をクリックします。 レコードのボックスがビューに開きます。
+   テーブルビューで、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をレコード名の左側に追加します。 レコードのボックスがビューに開きます。
 
    ![](assets/details-box.png)
 

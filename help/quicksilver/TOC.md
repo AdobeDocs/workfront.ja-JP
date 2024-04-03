@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ca65f2720204a9616a849036834e2bf40a60150c
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '14076'
+source-wordcount: '14080'
 ht-degree: 94%
 
 ---
@@ -2070,6 +2070,7 @@ ht-degree: 94%
       * [レコードコメントの管理](maestro/records/manage-record-comments.md)
       * [履歴セクションの概要](maestro/records/history-section-overview.md)
       * [レコードにサムネールを追加](maestro/records/add-thumbnails-to-records.md)
+      * [レコードページを管理](maestro/records/manage-the-record-page.md)
    * Adobeマエストロビュー {#adobe-maestro-views}
       * [ビュー：記事インデックス](maestro/views/views-information.md)
       * [レコードビューの管理](maestro/views/manage-record-views.md)

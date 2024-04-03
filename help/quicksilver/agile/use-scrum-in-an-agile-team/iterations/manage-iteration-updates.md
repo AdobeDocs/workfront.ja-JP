@@ -3,21 +3,21 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: 反復コメントの管理
-description: 繰り返しの更新を追加して、Adobe Workfrontで他のユーザーと共同作業できます。
+description: スクラム環境で作業する際に、反復処理の更新を追加して、Adobe Workfrontで他のユーザーと共同作業することができます。
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 28%
 
 ---
 
 # 反復コメントの管理
 
-繰り返しの更新を追加して、Adobe Workfrontで他のユーザーと共同作業できます。
+スクラム環境で作業する際に、反復処理の更新を追加して、Adobe Workfrontで他のユーザーと共同作業することができます。
 
 ## 反復で更新を管理
 
