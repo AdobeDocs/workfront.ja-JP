@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 32%
 
 ---
@@ -62,7 +62,7 @@ The new commenting experience will slowly become available for all the objects w
 * システム更新に対するコメント。 過去にシステム更新に追加されたコメントは、新しい「システムアクティビティ」タブに読み取り専用のコメントとしてインポートされました。
 * タスクと問題に関するコメントを作成する際に、ステータス、条件、コミット日、および完了率を編集できます。
 
-  別の方法として、タスクと問題の概要パネルにこれらのフィールドを追加して、リスト、レポート、ホーム、Workfrontバランサー、またはタイムシートから簡単にアクセスできるようにすることをお勧めします。
+  別の方法として、タスクと問題の概要パネルにこれらのフィールドを追加して、リスト、ホーム、Workfrontバランサー、またはタイムシートから簡単にアクセスできるようにすることをお勧めします。
 * カスタムフォームを編集する機能
 * Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報が最初に削除されました。 2023 年 10 月 19 日に復帰しました。
 * ドキュメントにコメントを追加する際に担当者にタグを付ける際に「承認を求める」オプション。

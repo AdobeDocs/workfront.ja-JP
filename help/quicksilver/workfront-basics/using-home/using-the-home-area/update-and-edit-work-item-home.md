@@ -6,14 +6,16 @@ description: Adobe Workfront の [!UICONTROL ホーム]エリア内の作業ア�
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 82%
 
 ---
 
 # [!UICONTROL ホーム]エリア内の作業アイテムを更新または編集する
+
+<!--Audited: April 2024-->
 
 [!DNL Adobe Workfront] の [!UICONTROL ホーム]エリア内の作業アイテムの更新を表示して追加できます。編集アクセス権がある場合は、作業アイテムに関連する他のデータを編集することもできます。
 
@@ -28,31 +30,34 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以上</p> </td> 
+   <td> <p>新規：標準</p>
+   または
+
+<p>現在： [!UICONTROL Work] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>作業が必要なタスクやイシューに対する参加以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>作業が必要なタスクやイシューに対する参加以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*お持ちのプラン、ライセンスの種類、アクセス権を調べるには、 [!DNL Workfront] 管理者。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 作業アイテムの更新を表示する
 
 [!UICONTROL 作業リスト]内の任意の作業アイテムの更新を表示できます。
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) をクリックして、「**[!UICONTROL ホーム]**」をクリックします。
+1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** ![](assets/lines-main-menu.png) 左上隅にある場合は、「 **[!UICONTROL ホーム]**.
 1. **[!UICONTROL 作業リスト]**&#x200B;エリアで、更新を表示する項目を選択します。\
    更新は、右側のパネルに表示されます。
 
@@ -64,7 +69,7 @@ ht-degree: 100%
 
 [!UICONTROL 作業]リスト内の任意の作業アイテムの更新を提供できます。
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) をクリックして、「**[!UICONTROL ホーム]**」をクリックします。
+1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** ![](assets/lines-main-menu.png) 左上隅にある場合は、「 **[!UICONTROL ホーム]**.
 1. **[!UICONTROL 作業リスト]**&#x200B;エリアで、更新を提供する項目を選択します。
 1. 右側のパネルで、「**[!UICONTROL 更新]**」をクリックして、テキストフィールドを表示します。
 
@@ -83,7 +88,7 @@ ht-degree: 100%
 
 編集にアクセスできる任意の作業アイテムの任意のフィールドを編集できます。
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) をクリックして、「**[!UICONTROL ホーム]**」をクリックします。
+1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** ![](assets/lines-main-menu.png) 左上隅にある場合は、「 **[!UICONTROL ホーム]**.
 1. **[!UICONTROL 作業リスト]**&#x200B;エリアで、編集する項目を選択します。\
    ビューにアクセスできるすべてのフィールドが右側のパネルに表示されます。
 

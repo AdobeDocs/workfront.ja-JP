@@ -7,10 +7,10 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 50%
+source-wordcount: '1426'
+ht-degree: 49%
 
 ---
 
@@ -19,12 +19,9 @@ ht-degree: 50%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
 
@@ -33,6 +30,8 @@ ht-degree: 50%
 <span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+オブジェクトの「更新」セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更をトラックするシステム更新が表示されます。
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次のような操作が表示されます。
 
@@ -133,7 +132,7 @@ The following objects have an Updates section where you can add comments or revi
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ The following objects have an Updates section where you can add comments or revi
    * テンプレートタスク
    * アドホックカード
 
+     カードの更新について詳しくは、 [ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * 次のオブジェクトには <span class="preview">すべてのタブ：</span>
 
    * Goals
+
+     目標の更新について詳しくは、 [目標のコメントを管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -177,7 +190,7 @@ The following objects have an Updates section where you can add comments or revi
 
 ## 上位のオブジェクトにも表示される更新
 
-特定のオブジェクトに対するコメント、返信、またはシステム更新も、上位のオブジェクトの [ 更新 ] セクションに表示されます。
+特定のオブジェクトのコメント、返信、またはシステム更新も、上位のオブジェクトの「更新」セクションに表示されます。
 
 例えば、タスクを更新すると、その更新はタスクの「更新」セクションと、そのタスクを含んだプロジェクトの「更新」セクションに表示されます。
 
@@ -248,6 +261,8 @@ The following objects have an Updates section where you can add comments or revi
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >システム更新に追加された返信は、親オブジェクトにロールアップされません。子オブジェクトに対する直接応答と、既存の更新に追加された返信のみが、親オブジェクトにロールアップされます。
@@ -267,16 +282,14 @@ The following objects have an Updates section where you can add comments or revi
 
 * チームの「更新」セクションで新しいコメントを追加することはできません。
 
-* チームで表示する更新に返信を追加できます。 返信は、チームの更新セクションに表示され、返信が属するオブジェクトの更新セクションにも表示されます。
-
 * チームの「更新」セクションには、次のオブジェクトに入力された更新が入力されます。
 
    * ユーザー
-   * タイムシート*
    * ストーリー
-   * 反復*
+   * タイムシート
+   * イテレーション
 
-  *新しいコメントエクスペリエンスでは使用できません。
+* チームで表示する更新に返信を追加できます。 返信は、チームの更新セクションに表示され、返信が属するオブジェクトの更新セクションにも表示されます。
 
 * ユーザーおよびチームの「更新」セクションでは、過去 90 日間に入力された更新を表示できます。
 

@@ -6,10 +6,10 @@ description: プロジェクト間の先行タスクとは、別のプロジェ�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Workfrontを使用すると、1 つのプロジェクト内の先行タス
 1. Adobe Analytics の **タスク** フィールドに、現在のタスクの先行タスクにするタスクの名前を入力します。
 1. 先行タスクと依存タスクの間の関係を定義するには、次の情報を指定します。
 
-   * **依存関係の種類：** 先行タスクと依存タスクの関係を選択します。 デフォルトの関係は「終了 - 開始」です。これは、依存タスクを開始する前に先行タスクを終了する必要があることを意味します。様々な依存タイプについて詳しくは [タスクの依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
+   * **依存関係の種類：** 先行タスクと依存タスクの関係を選択します。 デフォルトの関係は「終了 - 開始」です。これは、依存タスクを開始する前に先行タスクを終了する必要があることを意味します。様々な依存タイプについて詳しくは、 [タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **ラグ：**&#x200B;強制的な先行タスクが完了してから、依存タスクが開始できるまでの経過時間を指定します。各種のラグの詳細については、 [ラグタイプの概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 

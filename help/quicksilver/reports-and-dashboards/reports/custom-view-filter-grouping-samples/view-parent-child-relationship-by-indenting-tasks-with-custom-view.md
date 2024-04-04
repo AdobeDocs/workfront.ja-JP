@@ -7,8 +7,8 @@ description: タスクリストにカスタムビューを追加し、リスト�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 100%
 
@@ -64,9 +64,16 @@ ht-degree: 100%
 1. テキストボックス内の任意の場所をクリックしてテキストを編集し、既存のテキストをすべて削除します。
 1. 次のテキストを貼り付けます。
 
-   ```
-   displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
+
+```
+   displayname=
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
+   valueformat=HTML
+```
 
 1. 「**保存**」をクリックします。
 1. 「**ビューを保存**」をクリックします。

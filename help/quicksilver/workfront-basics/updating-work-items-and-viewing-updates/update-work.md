@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '4261'
-ht-degree: 55%
+source-wordcount: '4288'
+ht-degree: 54%
 
 ---
 
@@ -17,44 +17,7 @@ ht-degree: 55%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
-
-<!--
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
--->
-
-<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-<!--old message, before Auhust 17: 
-
->[!NOTE]
->
->We are currently redesigning the commenting experience in Adobe Workfront.
->
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->You can access the new experience for the following objects:
-> * Issues, projects, tasks, and documents.
->
->     This is available when you enable the commenting Beta experience.
->
->     This functionality is available only for the Updates section, and it is not available for the following areas:
->
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals, cards in the Boards area
->
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
--->
+<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
 
@@ -62,7 +25,7 @@ After the monthly releases to Production, the same features are also available i
 
 <span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
-<!--info for April 11: take out the "Important" box below (or hide it)-->
+<!--info for April 11: hide the "Important" box below-->
 
 >[!IMPORTANT]
 >
@@ -86,42 +49,21 @@ After the monthly releases to Production, the same features are also available i
 >
 ><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。 </span>
 
-## 作業の更新に関する考慮事項
+Adobe Workfrontオブジェクトに更新を追加して、オブジェクトの進行状況を伝えることができます。 Workfrontで更新を追加できるオブジェクトについて詳しくは、 [更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-* 「更新」セクションでは、Adobe Workfront のほとんどのオブジェクトにコメントを追加できます。「更新」セクションが表示される Workfront オブジェクトについて詳しくは、[「更新」セクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
+この記事では、プロジェクト、タスク、問題に関する情報にコメントを付け、更新する方法について説明します。 更新を表示できるのは、オブジェクトに割り当てられているまたは登録しているユーザーです。またユーザーにタグ付けして、更新に注意を向けさせることもできます。
 
-* Workfront と統合されている他のアプリケーションや Workfront モバイルアプリから、Workfront オブジェクトにコメントを追加できます。
+他のオブジェクトにコメントを追加する方法は、プロジェクト、タスクおよびイシューを更新する方法と似ています。 カード、目標、繰り返しのコメント化について詳しくは、次の記事も参照してください。
 
-  Workfrontと統合されているすべてのアプリケーションがWorkfrontオブジェクトにコメントを追加できるわけではありません。
+* [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
-  アプリケーションから Workfront オブジェクトにアクセスする場合、Workfront のオブジェクトの「更新」セクションで使用できるすべての機能が他のアプリケーションでも使用できるわけではありません。例えば、サードパーティのアプリケーションから Workfront オブジェクトにコメントを追加する場合は、リッチテキスト機能を利用したりコメントを会社に非公開にしたりすることができない可能性があります。
+  Workfront Goals にアクセスするには、追加のライセンスが必要です。
 
-* オブジェクトにコメントを付ける際に、Workfront オブジェクト（プロジェクト、タスクまたはイシュー）の進行状況を伝えることができます。オブジェクトに割り当てられているまたは登録しているユーザーは、更新に関する通知を受け取ることができます。オブジェクトへの表示アクセス権を持つユーザーは誰でも、更新を表示できます。
+* [ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)
 
-* ユーザーにタグ付けして、更新に注意を向けさせることができます。タグ付きユーザーには、更新に関するアプリ内通知とメールが届きます。
+* [反復コメントの管理](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
 
-  >[!TIP]
-  >
-  >   新しいコメントエクスペリエンスでは、コメントの所有者は自動的にタグ付けされます。詳しくは、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
-  <!--take the "in the new commenting experience" out when this is the only experience-->
 
-* 表示可能なオブジェクトにコメントを追加したり、Workfront 管理者またはグループ管理者としてログインして、別のユーザーの代わりにコメントを追加したりできます。詳しくは、[別のユーザーとしてのログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
-
-* Workfront の次のエリアから、プロジェクト、タスクおよびイシューに更新を追加できます。
-
-   * 「更新」セクションの Workfront オブジェクトから
-   * ホームエリアから（タスクおよびイシューの場合）
-   * オブジェクトの一覧、タイムシート、またはワークロードバランサー（タスクと問題）の [ 概要 ] パネルから
-
-このページの情報では、Workfrontオブジェクトにコメントする方法と、コメントを追加する際にプロジェクト、タスクおよび問題を更新する方法について説明します。
-
-<!--take this out (below) when we remove legacy out of the application-->
-
-目標に対するコメントについては、[Adobe Workfront Goals での目標コメントの管理](../../workfront-goals/goal-management/manage-goal-comments.md)を参照してください。Workfront Goals にアクセスするには、追加のライセンスが必要です。
-
-ボードエリアのカードにコメントする方法については、[ボードへのアドホックカードの追加](../../agile/get-started-with-boards/add-card-to-board.md)を参照してください。
-
-繰り返しに関するコメントの詳細については、 [反復コメントの管理](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 ## アクセス要件
 
@@ -156,6 +98,40 @@ After the monthly releases to Production, the same features are also available i
 </table>
 
 この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## 作業の更新に関する考慮事項
+
+* 「更新」セクションでは、Adobe Workfront のほとんどのオブジェクトにコメントを追加できます。「更新」セクションが表示される Workfront オブジェクトについて詳しくは、[「更新」セクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
+
+* Workfront と統合されている他のアプリケーションや Workfront モバイルアプリから、Workfront オブジェクトにコメントを追加できます。
+
+  Workfrontと統合されているすべてのアプリケーションがWorkfrontオブジェクトにコメントを追加できるわけではありません。
+
+  アプリケーションから Workfront オブジェクトにアクセスする場合、Workfront のオブジェクトの「更新」セクションで使用できるすべての機能が他のアプリケーションでも使用できるわけではありません。例えば、サードパーティのアプリケーションから Workfront オブジェクトにコメントを追加する場合は、リッチテキスト機能を利用したりコメントを会社に非公開にしたりすることができない可能性があります。
+
+* オブジェクトにコメントを付ける際に、Workfront オブジェクト（プロジェクト、タスクまたはイシュー）の進行状況を伝えることができます。オブジェクトに割り当てられているまたは登録しているユーザーは、更新に関する通知を受け取ることができます。オブジェクトへの表示アクセス権を持つユーザーは誰でも、更新を表示できます。
+
+* ユーザーにタグ付けして、更新に注意を向けさせることができます。タグ付きユーザーには、更新に関するアプリ内通知とメールが届きます。
+
+  >[!TIP]
+  >
+  >コメントの所有者は自動的にタグ付けされます。 詳しくは、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
+
+
+* 表示可能なオブジェクトにコメントを追加したり、Workfront 管理者またはグループ管理者としてログインして、別のユーザーの代わりにコメントを追加したりできます。詳しくは、[別のユーザーとしてのログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
+
+* Workfront の次のエリアから、プロジェクト、タスクおよびイシューに更新を追加できます。
+
+   * Workfrontオブジェクトから、「更新」セクション（プロジェクト、タスクおよびイシューの場合）
+   * ホームエリアから（タスクおよびイシューの場合）
+   * 次の領域にある Summary パネルから（タスクと問題に関して）:
+
+      * オブジェクトのリスト
+      * タイムシート
+      * ホーム
+      * ワークロードバランサー
+
+<!--info for April 11: hide the section below: add an update to a work item-->
 
 ## 作業アイテムへの更新の追加
 
@@ -239,15 +215,22 @@ After the monthly releases to Production, the same features are also available i
 
 1. アップデートに返信するには、[更新に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)を参照してください。
 
-<!--info for April 11: reword the title of this section to: Add an update to a work item-->
+<!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
 ### 新しいコメントエクスペリエンスを使用して作業項目に更新を追加する
 
 1. 更新するオブジェクト（プロジェクト、タスク、またはイシュー）を探し、名前をクリックしてオブジェクトのページを開きます。
-1. 左側のパネルの「**更新**」をクリックします。
+1. クリック  **更新** をクリックします。
+デフォルトでは、「**コメント**」タブが選択されています。
+
 1. （条件付き） **新しいコメント** オプションは無効です。クリックして有効にします。
 
-   これにより、新しいコメントの操作が可能になります。 デフォルトでは、「**コメント**」タブが選択されています。
+   これにより、新しいコメントの操作が可能になります。
+
+   >[!TIP]
+   >
+   ><span class="preview">プレビュー環境で、新しいコメントオプションが削除されました。</span>
+
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
@@ -339,11 +322,6 @@ After the monthly releases to Production, the same features are also available i
 
 ## Workfront の更新にリッチテキストを使用{#use-rich-text-in-a-workfront-update}
 
-<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
-
->[!NOTE]
->
->以下では、特に指定のない限り、新しいコメントエクスペリエンスでのリッチテキストの使用について説明します。
 
 リッチテキストを使用したり、絵文字、リンク、画像などの様々な項目を追加したりして、更新内容を強化できます。
 
@@ -351,8 +329,6 @@ After the monthly releases to Production, the same features are also available i
 1. （オプション）リッチテキスト書式を更新に追加するには、 **リッチテキスト** ツールバーを使用します。
 
    ![](assets/rich-text-toolbar.png)
-
-   <!--October 2023: the individual icons in the toolbar will need replacing-->
 
    | **属性** | **ツールバーボタン** | **Mac ショートカットキー** | **Windows ショートカットキー** |
    |---|---|---|---|
@@ -436,10 +412,6 @@ After the monthly releases to Production, the same features are also available i
 
 ## 更新を検索
 
->[!NOTE]
->
->この機能は、新しいコメントエクスペリエンスの「コメント」タブでのみ使用できます。 これは、[ 更新 ] セクションの [ システムアクティビティ ] タブでは使用できません。
-
 オブジェクトの「更新」セクションで、コメントや返信を検索できます。
 
 1. 次に移動： **更新** セクションに含める必要があります。
@@ -451,11 +423,7 @@ After the monthly releases to Production, the same features are also available i
    >
    >検索できるのは、コメントまたは返信のテキストに属する単語のみです。 更新でタグ付けされたユーザーまたはチームの名前は検索できません。
 
-   <div class="preview">
-
    ![更新を検索](assets/updates-all-tabs-with-search-field.png)
-
-   </div>
 
    キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
 
@@ -476,8 +444,6 @@ After the monthly releases to Production, the same features are also available i
 ### 新しいコメントエクスペリエンスに更新をコピー
 
 新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
-
-<!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023-->
 
 次のいずれかの操作を行って、既存のコメントから情報をコピーできます。
 
@@ -525,7 +491,7 @@ After the monthly releases to Production, the same features are also available i
 
 1. 更新の追加を続行し、「 **送信** をクリックしてコメントを追加します。
 
-<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
 ### 従来のコメントエクスペリエンスでの更新のコピー
 
@@ -606,30 +572,6 @@ Workfront ユーザー（Workfront 管理者を含む）は、別のユーザー
 
    削除されたコメントは、Workfrontから直ちに削除されます。 更新セクションを使用するユーザーには、他のユーザーによるコメントの削除が、リアルタイムで表示されます。
 
-   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
-
-<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
-
-## Add an update on a Timesheet
-
-1. Go to a Timesheet on which you want to make an update.
-1. Click the Timesheet to open it.
-1. At the bottom of the Timesheet, click **Include a comment**.
-1. In the box that displays at the bottom of the Timesheet, type an update.
-
-   ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
-
-1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
-
-   Or
-
-   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
-
-   Or
-
-   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
-
--->
 
 ## システム更新の確認
 
@@ -650,7 +592,44 @@ Workfront オブジェクトの更新セクションには、以下の 2 種類�
    * チーム
    * テンプレート
    * テンプレートタスク
+   * アドホックカード
 
 システムの更新の詳細については、「更新」セクションの「 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
+<!--
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+-->
+
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
+<!--old message, before Auhust 17: 
+
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>You can access the new experience for the following objects:
+> * Issues, projects, tasks, and documents.
+>
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
+>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
+>
+> * Goals, cards in the Boards area
+>
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+-->

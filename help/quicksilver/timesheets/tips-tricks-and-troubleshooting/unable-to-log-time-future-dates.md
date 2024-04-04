@@ -7,10 +7,10 @@ description: フィールドが無効になっているため、プロジェク�
 author: Alina
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 50%
 
 ---
 
@@ -18,22 +18,24 @@ ht-degree: 100%
 
 ## 問題
 
-フィールドが無効になっているため、プロジェクト、タスクまたはイシューに関する将来の日付の時間をログに記録できません。 
+フィールドが無効になっているため、プロジェクト、タスクまたはイシューに関する将来の日付の時間をログに記録できません。
 
-システム管理者は、タイムシート内の将来の日付の時間をログに記録できるかどうかを判断できます。 
+システム管理者は、タイムシートの将来の日付の時間を記録できるかどうかを決定できます。
 
 ## ソリューション
 
 Adobe Workfront 管理者にお問い合わせください。
 
-システム管理者は、次の手順でこの設定を更新できます。
+システム管理者は設定を更新して、将来の日付の時刻をログに記録できます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+システム管理者として、次の手順を実行します。
 
-1. **タイムシートと時間**&#x200B;を展開し、「**環境設定**」をクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
 
-1. 「**一般的な環境設定**」セクションで、「**今後の日付のログ時間**」を選択します。
+1. 展開 **タイムシートと時間**&#x200B;を選択し、次に **環境設定**.
+
+1. Adobe Analytics の **一般環境設定** セクションで、 **将来の日付のログ時間**.
 
 1. 「**保存**」をクリックします。
 
-この他のタイムシートと時間に関するオプションについて詳しくは、[タイムシートと時間の環境設定を指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+この他のタイムシートや時間に関するオプションの詳細については、 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

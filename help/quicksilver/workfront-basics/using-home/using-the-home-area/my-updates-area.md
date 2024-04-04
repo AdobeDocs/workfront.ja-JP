@@ -6,10 +6,10 @@ description: '[!UICONTROL マイ更新]エリアを使用して、決定を待�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+workflow-type: tm+mt
+source-wordcount: '734'
+ht-degree: 92%
 
 ---
 
@@ -36,25 +36,27 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td> <p>新規：寄稿者以上</p>
+   または   
+   <p>現在： [!UICONTROL リクエスト ] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>会話でタグ付けされたオブジェクトまたは承認の解決が必要なオブジェクト（プロジェクト、タスク、イシュー、ドキュメント）に対する表示権限またはそれ以上の権限</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td> <p>会話でタグ付けされたオブジェクトまたは承認の解決が必要なオブジェクト（プロジェクト、タスク、イシュー、ドキュメント）に対する表示権限またはそれ以上の権限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>会話でタグ付けされたまたは承認の解決が必要なプロジェクト、タスク、イシュー、ドキュメントに対する [!UICONTROL View] 権限またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトのアクセスのリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>会話でタグ付けされたまたは承認の解決が必要なプロジェクト、タスク、イシュー、ドキュメントに対する [!UICONTROL View] 権限またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプ、またはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*お持ちのプラン、ライセンスの種類、アクセス権を調べるには、 [!DNL Workfront] 管理者。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## 前提条件
 
@@ -72,7 +74,7 @@ ht-degree: 100%
 
    [!UICONTROL マイ更新]エリアが開きます。
 
-   自分に割り当てられているアクセスの承認とリクエストは、ページの前半部の「マイ更新」の下に一覧表示されます。
+   自分に割り当てられているアクセスの承認とリクエストが、ページの前半部の、の下に表示されます。 **マイアップデート**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
@@ -128,9 +130,9 @@ ht-degree: 100%
       >決定にコメントを追加しない場合は、「**[!UICONTROL 承認]**」、「**[!UICONTROL 拒否]**」、または「**[!UICONTROL 変更]**」ボタンをクリックし、承認の決定を即座に行うことができます。
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
-
-      作業の承認について詳しくは、[作業の承認](../../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
+      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >
+      >作業の承認について詳しくは、[作業の承認](../../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
 
 1. **[!UICONTROL アクセス権の付与]**&#x200B;をクリックして、送信されたアクセスリクエストを付与
 

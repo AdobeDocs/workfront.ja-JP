@@ -5,22 +5,38 @@ description: 概要パネルを使用すると、タスクやイシュー、ド�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 92%
+source-wordcount: '992'
+ht-degree: 79%
 
 ---
 
 # [!UICONTROL 概要]パネルについて
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-[!UICONTROL 概要]パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する [!DNL Adobe Workfront] の他のエリアから直接、作業アイテムの情報を確認および更新できます。
+以下を使用すると、 [!UICONTROL 概要] タスク、問題、ドキュメント、またはの他の領域のリストから直接作業項目情報を確認し、更新するパネル [!DNL Adobe Workfront] タスクと問題を表示する
+
+Workfrontまたはグループ管理者は、Summary パネルに表示される領域とフィールドを変更できます。 概要パネルには、最大 16 個のフィールドを追加できます。
+
+>[!IMPORTANT]
+>
+>頻繁に更新する必要のあるフィールドを Summary パネルに追加することをお勧めします。これにより、オブジェクトのメインページにアクセスしなくても、簡単にフィールドにアクセスして更新できます。
+>
+>例えば、頻繁に更新される次のフィールドをタスクおよび問題の概要パネルに追加できます。
+>
+>* ステータス
+>* 完了率
+>* コミット日
+>* 予定完了日
+>* 状況
+
+
 
 [!UICONTROL 概要]パネルが配置され、使用できるエリアは、次の表のとおりです。
 
@@ -28,7 +44,7 @@ ht-degree: 92%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>タスク</td> 
+   <td><b>タスク</b></td> 
   </tr> 
   <tr> 
    <td> <p>次の中のタスクリスト</p> 
@@ -44,7 +60,7 @@ ht-degree: 92%
    <td>[!UICONTROL タイムシート ] のタスク</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>イシュー</td> 
+   <td><b>イシュー</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>次の中のイシューリスト</p> 
@@ -66,7 +82,7 @@ ht-degree: 92%
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>ドキュメント</td> 
+   <td><b>ドキュメント</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Documents] エリア</td> 
@@ -96,25 +112,27 @@ ht-degree: 92%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td> <p>新規：寄稿者以上</p>
+   または
+   <p>現在：[!UICONTROL リクエスト ] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>タスク、イシュー、ドキュメントに対する [!UICONTROL View] またはそれ以上の権限</p> <p>ドキュメントの [!UICONTROL Summary] を表示する任意のオブジェクトに対する [!UICONTROL View] またはそれ以上の権限</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td> <p>タスク、イシュー、ドキュメントに対する [!UICONTROL View] またはそれ以上の権限</p> <p>[!UICONTROL View] またはそれ以上のユーザーが、ドキュメントを表示する任意のオブジェクトにアクセスできる [!UICONTROL Summary]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>タスク、イシュー、ドキュメントに対する[!UICONTROL View] またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトのアクセスのリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>タスク、イシュー、ドキュメントに対する[!UICONTROL View] またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*お持ちのプラン、ライセンスの種類、アクセス権を調べるには、 [!DNL Workfront] 管理者。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
@@ -131,11 +149,7 @@ ht-degree: 92%
    >
    >[!UICONTROL 概要]パネルで詳細を表示するとき、選択できるタスクまたはイシューは一度に 1 つだけです。
 
-   <div class="preview">
-
    ![概要パネル](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. （オプション）[!UICONTROL 概要]パネルを閉じるには、次のいずれかの操作を行います。
 
@@ -155,17 +169,13 @@ ht-degree: 92%
 
 [!UICONTROL 概要]の上部にある進捗バーを使用すると、選択したタスクまたはイシューの完了率を更新できます。完了率の正しい数値を入力するか、バーをドラッグします。
 
-<span class="preview">![概要パネルでの完了率](assets/summary-overview-percent-complete.png)</span>
+![概要パネルでの完了率](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL 更新]
 
 [!UICONTROL 概要]の「[!UICONTROL 更新]」セクションを使用すると、最近の更新を表示したり、選択したタスクまたはイシューを更新したりできます。「**[!UICONTROL すべて表示]**」をクリックすると、タスクの「[!UICONTROL 更新]」タブに直接移動できます。
 
-<div class="preview">
-
 ![概要パネルの「更新」セクション](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL ドキュメント]
 
