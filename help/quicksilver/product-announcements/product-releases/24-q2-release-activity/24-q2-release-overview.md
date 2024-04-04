@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 87e4676e45dd174c6abb2b1edc646d34d43af169
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2108'
 ht-degree: 19%
 
 ---
@@ -265,6 +265,44 @@ ht-degree: 19%
                 </tr>
             </tbody>
 </table>
+
+### ホームの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用して新しいホームの管理者コントロールに追加された列オプション</a></p><p>[!BADGE 高速リリース用の実稼動環境 ]{type=Positive}</p>
+                        <p>管理者は、レイアウトテンプレートを使用して、特定の新しいホームウィジェットでユーザーが使用できる列をカスタマイズできるようになりました。 オプションには、デフォルトの列の非表示または表示、および新しい列としての既存のフィールドの追加が含まれます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年1月2日（PT）</p>
+                            </li>
+                            <li>
+                                <p>高速リリース用の実稼動環境：24.2 リリース（2024 年 2 月 16 日）</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼働： 24.4 リリース（2024 年 4 月 11 日）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### プロジェクトの強化
 
