@@ -4,7 +4,7 @@ description: Adobe Workfront Planning で、レコードボックスとページ
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 4%
@@ -102,7 +102,6 @@ Adobe Workfront Planning で、レコードボックスとページのレイア�
 最後にアクセスしたワークスペースが開きます。
 
 1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
-
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
