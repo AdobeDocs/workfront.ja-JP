@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 5%
 
 ---
@@ -32,31 +32,28 @@ ht-degree: 5%
 >
 >以下の節で参照されるドキュメントは、機能が実稼動環境にリリースされてからしばらく後に利用できるようになります。
 
-<!--
-## Week of April 1, 2024
+## 2024年4月1日（PT）の週
 
-### Reorder the fields on the records page
+### レコードページのフィールドの並べ替え
 
-Production: April 4, 2024 
+実稼動： 2024 年 4 月 4 日
 
-Preview: To be determined 
+プレビュー：決定する必要があります
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+ワークスペースマネージャは、レコードページまたはボックスに表示されるフィールドを並べ替えることができるようになりました。 フィールドの順序を更新すると、レコードページまたはレコードボックスを表示しているすべてのユーザーが、同じタイプのすべてのレコードのフィールドの順序が変更されます。
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+詳しくは、 [レコードページを管理](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### レコードページにカバー画像を追加
 
-Production: April 4, 2024 
+実稼動： 2024 年 4 月 4 日
 
-Preview: To be determined 
+プレビュー：決定する必要があります
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+レコードページの管理時に、レコードページやボックスの表紙画像を追加、再配置、置き換えて、レコードのプレゼンテーションや関係者のエンゲージメントを強化できます。 カバー画像は、レコードを閲覧するすべてのユーザーに表示されます。
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+詳しくは、 [レコードページを管理](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## 2024年3月25日（PT）の週
 

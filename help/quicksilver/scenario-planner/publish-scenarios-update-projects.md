@@ -7,10 +7,10 @@ description: 既存のイニシアチブからプロジェクトを作成した�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
-workflow-type: ht
-source-wordcount: '1694'
-ht-degree: 100%
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+workflow-type: tm+mt
+source-wordcount: '1722'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 <p><b>メモ</b>
 
-まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td>
+まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限</p> </td> 
@@ -71,6 +71,7 @@ ht-degree: 100%
 開始する前の確認事項。
 
 * 計画からイニシアチブを公開する前に、計画を作成して保存する必要があります。
+* 「ユーザーがテンプレートを使用せずにプロジェクトを作成できるようにする」設定は、セットアップの「プロジェクトの環境設定」領域で有効にする必要があります。 詳しくは、[システム全体のプロジェクト環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 ## プロジェクトへのイニシアチブの公開に関する考慮事項
 

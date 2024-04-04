@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 34%
+source-wordcount: '1378'
+ht-degree: 32%
 
 ---
 
@@ -60,12 +60,14 @@ The new commenting experience will slowly become available for all the objects w
 次の機能は、削除されたか、新しいエクスペリエンスで非推奨（廃止予定）になります：
 
 * システム更新に対するコメント。 過去にシステム更新に追加されたコメントは、新しい「システムアクティビティ」タブに読み取り専用のコメントとしてインポートされました。
-* タスクと問題に関するコメントを作成中に、ステータス、条件、コミット日、完了率を編集できる
+* タスクと問題に関するコメントを作成する際に、ステータス、条件、コミット日、および完了率を編集できます。
+
+  別の方法として、タスクと問題の概要パネルにこれらのフィールドを追加して、リスト、レポート、ホーム、Workfrontバランサー、またはタイムシートから簡単にアクセスできるようにすることをお勧めします。
 * カスタムフォームを編集する機能
 * Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報が最初に削除されました。 2023 年 10 月 19 日に復帰しました。
 * ドキュメントにコメントを追加する際に担当者にタグを付ける際に「承認を求める」オプション。
 * ユーザーのプロファイルボックスの編集時の「更新ステータスでパーセント完了を表示」設定は削除されます。 タスクまたはイシューの完了率を更新する機能が削除されました。
-* [ 更新 ] セクションから [ コミット日 ] が変更された場合に、プロジェクト所有者がタスクの計画完了日を変更する機能。 <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -499,6 +501,21 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>[ 更新 ] セクションから [ コミット日 ] が変更された場合に、プロジェクト所有者がタスクの計画完了日を変更する機能
+   </td>
+   <td> ✓
+   </td>
+   <td> 後日リリースされる可能性があります
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>
