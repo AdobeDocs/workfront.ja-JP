@@ -4,9 +4,10 @@ description: 2024 年第 2 四半期のホームの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: df78f09c-7855-4538-abda-421a7a4bc225
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 1 月 2 日、高速リリース用の実稼動：24.2 リリース（2024 年 2 月 16 日）、すべてのお客様向けの実稼動：24.4 リリース（2024 年 4 月）
+>プレビューリリース：2024 年 1 月 2 日、高速リリース用の実稼動：24.2 リリース（2024 年 2 月 16 日）、すべてのお客様向けの実稼動：24.4 リリース（2024 年 4 月 11 日）
 
 管理者は、レイアウトテンプレートを使用して、特定の新しいホームウィジェットでユーザーが使用できる列をカスタマイズできるようになりました。 オプションには、デフォルトの列の非表示または表示、および新しい列としての既存のフィールドの追加が含まれます。
 

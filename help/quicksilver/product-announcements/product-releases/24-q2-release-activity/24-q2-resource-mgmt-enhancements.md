@@ -4,9 +4,10 @@ description: 2024 年第 2 四半期のリソース管理の強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 7%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->プレビューリリース：2023 年 10 月 12 日、高速リリース用の実稼動：24.2 リリース（2024 年 2 月 15 日）、四半期リリース用の実稼動：24.4 リリース（2024 年 4 月）
+>プレビューリリース：2023 年 10 月 12 日、高速リリース用の実稼動：24.2 リリース（2024 年 2 月 15 日）、四半期リリース用の実稼動：24.4 リリース（2024 年 4 月 11 日）
 
 手動で調整した時間別割り当てに鉛筆アイコンが表示され、ワークロードバランサーでの手動調整やコンタリングに関するより明確な情報を提供します。
 
