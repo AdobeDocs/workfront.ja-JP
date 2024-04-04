@@ -11,17 +11,21 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 610469811a937fde70a938af829b156e69cca391
+exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 9%
+source-wordcount: '377'
+ht-degree: 8%
 
 ---
 
 # 環境プロモーションパッケージのインストール
 
+>[!NOTE]
+>
+>パッケージをインストールするには、パッケージをインストールする環境にログインする必要があります。 これは、オブジェクトをコピーする環境です。 **から**.
 
-1. パッケージをインストールする環境に移動します。 これは、オブジェクトをコピーする環境です **から**.
+1. パッケージをインストールする環境に移動します。
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
 1. 選択 **システム** 左側のナビゲーションで、「 **環境の昇格**.
 1. 表示されたリストからパッケージを選択します。
