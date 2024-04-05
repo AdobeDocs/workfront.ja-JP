@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
 workflow-type: tm+mt
-source-wordcount: '14095'
+source-wordcount: '14102'
 ht-degree: 94%
 
 ---
@@ -2698,6 +2698,7 @@ ht-degree: 94%
       * [カテゴリ](wf-api/wf-objects/category.md)
    * Adobe Workfront API に関するヒント、テクニックおよびトラブルシューティング {#tips-troubleshooting-apis}
       * [Adobe Workfront API のヒント、テクニックおよびトラブルシューティング](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+      * [Adobe Workfront API 呼び出しのドメイン形式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
       * [API エラー：「リモートサーバーによってエラーが返されました：（400）無効なリクエスト」](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
       * [ページ分割された大規模な検索で重複する結果が返される](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
       * [API でのクエリ結果の並べ替え](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
