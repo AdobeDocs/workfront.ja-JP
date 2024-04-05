@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 12%
+source-wordcount: '533'
+ht-degree: 9%
 
 ---
 
@@ -20,9 +20,21 @@ ht-degree: 12%
 
 Workfront + Frame.io 用のAlphaプログラムの開始をお知らせします。 ここでは、最新のアルファリリースに関する情報と、使い始めるための簡単なチュートリアルビデオをご覧いただけます。
 
-## 最新リリース
+## Frame.io のAlphaリリースアップデート — 2024 年 3 月
 
-## Alphaリリース — 2024 年 3 月
+このAlphaリリースには、次の内容が含まれます。
+
+### Frame.io からWorkfrontへの複数のアセットの追加
+
+一度に最大 10 個のアセットを Frame.io からWorkfrontに追加できるようになりました。 Workfrontプロジェクトドキュメントに追加するか、特定のプロジェクトタスクに追加するかを選択できます。
+
+### Frame.io アセットをWorkfrontに追加する際のエクスペリエンスの向上
+
+Workfrontにアセットを追加するためのメニュー項目が更新され、割り当てられたタスク、タスク階層、タスクのステータスを見やすくなりました。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## WorkfrontのAlphaリリースアップデート — 2024 年 3 月
 
 このAlphaリリースには、次の内容が含まれます。
 
@@ -64,7 +76,7 @@ Workfront + Frame.io 用のAlphaプログラムの開始をお知らせします
 
 新しいドキュメントバージョンがアップロードされると、以前のリビジョンをロックしたまま、次のリビジョンのラウンドを開始できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## フィードバックを送信
