@@ -9,9 +9,9 @@ description: Adobe Workfrontボードコネクタを使用すると、Workfront�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2325'
 ht-degree: 20%
 
 ---
@@ -136,6 +136,7 @@ Workfront Boards モジュールを設定する場合、 [!DNL Workfront Fusion]
 * [ボード](#boards)
 * [列](#columns)
 * [タグ](#tags)
+* [コメント](#comments)
 * [その他](#other)
 
 <!--
@@ -482,6 +483,9 @@ After the webhook is created, you can view the address of the endpoint that even
 </table>
 
 ### コメント
+
+* [コメントの作成](#create-a-comment)
+* [カードのコメントを読む](#read-card-comments)
 
 #### コメントの作成
 
