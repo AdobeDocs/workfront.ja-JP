@@ -6,7 +6,7 @@ description: Adobe Workfront API で使用するドメインを見つけます�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 8487f8d4b1651df268720806cfe07fa271a7b87d
+source-git-commit: 1f45298f6bff0b633ce2cd5f3bedd098904eba9d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 22%
@@ -33,3 +33,4 @@ Workfront API への API 呼び出しをおこなう場合は、呼び出しで�
    ドメインが画面の右側に表示されます。
 
    ![ドメイン](assets/domain.png)
+
