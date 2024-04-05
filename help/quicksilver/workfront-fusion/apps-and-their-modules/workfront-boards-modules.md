@@ -8,10 +8,11 @@ title: Adobe Workfrontボードモジュール
 description: Adobe Workfrontボードコネクタを使用すると、Workfrontボード内での処理を自動化し、サードパーティのアプリやサービスに接続することができます。
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 21%
+source-wordcount: '2318'
+ht-degree: 20%
 
 ---
 
@@ -476,6 +477,54 @@ After the webhook is created, you can view the address of the endpoint that even
   <tr> 
    <td>[!UICONTROL タグの色 ]</td> 
    <td>このタグの色を選択します。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### コメント
+
+#### コメントの作成
+
+このアクションモジュールは、指定されたカードにコメントを作成しました。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfrontボードに接続するか、特定のWorkfrontボード接続を使用することができます。 </p><p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfrontボードへの接続の作成</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>コメントを追加するカードの ID を入力またはマッピングします。<p>Workfrontでカードを表示すると、URL 内でカード ID を見つけることができます。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Comment]</td> 
+   <td>追加するコメントのテキストを入力またはマッピングします。</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### カードのコメントを読む
+
+このアクションモジュールは、指定されたカードからコメントを取得します。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfrontボードに接続するか、特定のWorkfrontボード接続を使用することができます。 </p><p>接続方法については、 [!DNL Workfront] 次にアプリ： [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfrontボードへの接続の作成</a> 」を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>コメントを取得するカードの ID を入力またはマッピングします。<p>Workfrontでカードを表示すると、URL 内でカード ID を見つけることができます。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limit]</td> 
+   <td>モジュールが 1 回の実行サイクルで返すコメントの最大数を入力します。</p></td> 
   </tr> 
  </tbody> 
 </table>
