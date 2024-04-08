@@ -7,10 +7,10 @@ description: 現在、Adobe Workfront Fusion では、次のパブリックテ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 76%
+source-wordcount: '1162'
+ht-degree: 75%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 76%
 
 このテンプレートは、イシューをプロジェクトに変換します。組織の標準に合わせて変更できます。
 
-### [!BADGE 新規：]{type=Informative}
+### Workfront — 問題/リクエストのドキュメントを、変換済みのプロジェクトまたはタスクにコピーします。
 
 この柔軟なシナリオでは、問題やリクエストから、以前に変換されたプロジェクトやタスクにドキュメントをコピーします。
 
