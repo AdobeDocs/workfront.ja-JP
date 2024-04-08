@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alphaプログラム — Workfront + Frame.io
-description: Workfront + Frame.io 用のAlphaプログラムの開始をお知らせします。 ここでは、最新のアルファリリースに関する情報と、使い始めるための簡単なチュートリアルビデオをご覧いただけます。
+title: ベータプログラム — Workfront + Frame.io
+description: Workfront + Frame.io 用のベータプログラムがリリースされました。 最新のベータ版リリースに関する情報と、使い始めるための簡単なビデオチュートリアルが表示されます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 9%
+ht-degree: 2%
 
 ---
 
-# Alphaプログラム — Workfront + Frame.io
+# ベータプログラム — Workfront + Frame.io
 
-Workfront + Frame.io 用のAlphaプログラムの開始をお知らせします。 ここでは、最新のアルファリリースに関する情報と、使い始めるための簡単なチュートリアルビデオをご覧いただけます。
+Workfront + Frame.io 用のベータプログラムがリリースされました。 最新のベータ版リリースに関する情報と、使い始めるための簡単なビデオチュートリアルが表示されます。
 
-## Frame.io のAlphaリリースアップデート — 2024 年 3 月
+## Frame.io のベータリリースアップデート — 2024 年 3 月
 
-このAlphaリリースには、次の内容が含まれます。
+このベータリリースでは、次の機能を利用できます。
 
 ### Frame.io からWorkfrontへの複数のアセットの追加
 
@@ -34,9 +34,9 @@ Workfrontにアセットを追加するためのメニュー項目が更新さ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## WorkfrontのAlphaリリースアップデート — 2024 年 3 月
+## Workfrontのベータリリースアップデート — 2024 年 3 月
 
-このAlphaリリースには、次の内容が含まれます。
+このベータリリースでは、次の機能を利用できます。
 
 ### ドキュメントのレビューと承認に期限を追加する
 
