@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
+source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
 workflow-type: tm+mt
-source-wordcount: '4361'
-ht-degree: 98%
+source-wordcount: '4386'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,10 @@ Workfront オンデマンドシステムのパフォーマンスを確保する�
 ### 免責事項
 
 API の使用は、実稼動環境で実行する前に、Workfront ベータ環境でテストする必要があります。お客様がオンデマンドのソフトウェアに負担をかけると合理的に判断する処理で API を使用している場合（当該処理が他のお客様のソフトウェアのパフォーマンスに重大な悪影響を及ぼしている場合）、Workfront は当該処理の中止をお客様に求める権利を有します。お客様がこれに応じず問題が継続する場合、Workfront は当該処理を終了させる権利を有します。
+
+## Workfront API URL
+
+Workfront API の呼び出しに使用する URL について詳しくは、 [Adobe Workfront API 呼び出しのドメイン形式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
 
 ## REST の基本
 
@@ -124,22 +128,22 @@ API は、Web UI でシステムに使用されるのと同じ Cookie ベース�
 
 >[!IMPORTANT]
 >
-Workfront では、`/login` エンドポイントまたは API キーの使用を推奨していません。代わりに、次のいずれかの認証方法を使用してください。
+>Workfront では、`/login` エンドポイントまたは API キーの使用を推奨していません。代わりに、次のいずれかの認証方法を使用してください。
 >
-* JWT を使用したサーバー認証
-* OAuth2 を使用したユーザー認証
+>* JWT を使用したサーバー認証
+>* OAuth2 を使用したユーザー認証
 >
-これらの認証方法の設定手順については、[Workfront 統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください
+>これらの認証方法の設定手順については、[Workfront 統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください
 >
-Workfront でのサーバー認証の使用手順については、[JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-jwt-flow.md)を参照してください
+>Workfront でのサーバー認証の使用手順については、[JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-jwt-flow.md)を参照してください
 >
-Workfront でのユーザー認証を使用する手順については、[認証コードフローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-code-token-flow.md)を参照してください
+>Workfront でのユーザー認証を使用する手順については、[認証コードフローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-code-token-flow.md)を参照してください
 
 >[!NOTE]
 >
-この節で説明する手順は、Adobe Business Platform にまだ登録されていない組織にのみ適用されます。組織が Adobe Business Platform にオンボーディングされている場合、Workfront API を介して Workfront にログインすることはできません。
+>この節で説明する手順は、Adobe Business Platform にまだ登録されていない組織にのみ適用されます。組織が Adobe Business Platform にオンボーディングされている場合、Workfront API を介して Workfront にログインすることはできません。
 >
-組織が Adobe Business Platform にオンボーディングされているかどうかによって手順は異なります。手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion／Adobe Business Platform）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>組織が Adobe Business Platform にオンボーディングされているかどうかによって手順は異なります。手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion／Adobe Business Platform）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
 有効なユーザー名とパスワードを使用すると、次のリクエストを使用してセッション ID を取得できます。
 
@@ -151,7 +155,7 @@ POST /attask/api/v15.0/login?username=admin&password=user
 
 >[!NOTE]
 >
-管理者でもある API ユーザーが指定されている場合、Workfront では、ログインに API キーを使用することを強くお勧めします。
+>管理者でもある API ユーザーが指定されている場合、Workfront では、ログインに API キーを使用することを強くお勧めします。
 
 **API キーの生成**
 
@@ -284,7 +288,7 @@ GET /attask/api/v15.0/task/search?percentComplete=100
 
 >[!NOTE]
 >
-検索リクエストでは、大文字と小文字が区別されます。エラーが発生した場合は、**_Mod** および **_Range** の大文字と小文字が正しいことを確認してください。
+>検索リクエストでは、大文字と小文字が区別されます。エラーが発生した場合は、**_Mod** および **_Range** の大文字と小文字が正しいことを確認してください。
 
 #### OR ステートメントの使用
 
@@ -326,7 +330,7 @@ OR ステートメントは、OR ステートメントのフィルタリング�
 
 >[!NOTE]
 >
-これらのフィールド名では、大文字と小文字が区別されます。
+>これらのフィールド名では、大文字と小文字が区別されます。
 
 使用可能なフィールド参照のリストについては、[API エクスプローラー](../../wf-api/general/api-explorer.md)を参照してください。
 
@@ -505,7 +509,7 @@ PUT に対する応答は GET と同じです。どちらの場合も、サー�
 
 >[!NOTE]
 >
-最上位レベルに対する更新は少ないものの、コレクションまたはネストされたオブジェクトに対する更新は既存のコレクションを完全に置き換えます。オブジェクトに影響を与えずにタスクに対する 1 つの割り当てを編集するには、タスクに対する PUT ではなく、割り当てに対するタスクを使用します。
+>最上位レベルに対する更新は少ないものの、コレクションまたはネストされたオブジェクトに対する更新は既存のコレクションを完全に置き換えます。オブジェクトに影響を与えずにタスクに対する 1 つの割り当てを編集するには、タスクに対する PUT ではなく、割り当てに対するタスクを使用します。
 
 次の例では、プロジェクトをパブリックヘルプデスクキューにします。既存のキューのプロパティは置き換えられます。
 <pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
@@ -546,4 +550,4 @@ DELETE はオブジェクトを削除します。いずれの場合も、URI に
 
 >[!NOTE]
 >
-アトミックバッチ操作は、「success: true」またはエラーのみを返すことができます。
+>アトミックバッチ操作は、「success: true」またはエラーのみを返すことができます。
