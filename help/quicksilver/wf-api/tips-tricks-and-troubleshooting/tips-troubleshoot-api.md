@@ -9,7 +9,7 @@ feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 93%
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 この節では、次の記事を扱います。
 
-* [Adobe Workfront API 呼び出しのドメイン形式](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+* [Adobe Workfront API 呼び出しのドメイン形式](../../wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
 * [API エラー：「リモートサーバーがエラーを返しました：(400) 無効なリクエスト」](../../wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
 * [ページ分割された大規模な検索で重複する結果が返される](../../wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
 * [API でのクエリ結果の並べ替え](../../wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

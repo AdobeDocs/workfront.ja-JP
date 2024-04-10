@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
 source-wordcount: '4386'
 ht-degree: 97%
@@ -35,9 +35,9 @@ Workfront オンデマンドシステムのパフォーマンスを確保する�
 
 API の使用は、実稼動環境で実行する前に、Workfront ベータ環境でテストする必要があります。お客様がオンデマンドのソフトウェアに負担をかけると合理的に判断する処理で API を使用している場合（当該処理が他のお客様のソフトウェアのパフォーマンスに重大な悪影響を及ぼしている場合）、Workfront は当該処理の中止をお客様に求める権利を有します。お客様がこれに応じず問題が継続する場合、Workfront は当該処理を終了させる権利を有します。
 
-## Workfront API URL
+## Workfront API の URL
 
-Workfront API の呼び出しに使用する URL について詳しくは、 [Adobe Workfront API 呼び出しのドメイン形式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
+Workfront API を呼び出すために使用する URL について詳しくは、 [Adobe Workfront API 呼び出しのドメイン形式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
 
 ## REST の基本
 
@@ -367,9 +367,9 @@ OR ステートメントは、OR ステートメントのフィルタリング�
 
 #### 使用 `Count`
 
-以下を使用できます。 `count` をクリックして、クエリに一致する結果の数を返します。 これは、結果にデータが必要ない場合に役立ちます。 カウントのみを返すことで、サーバーはリクエストをより迅速に処理し、帯域幅を節約できます。 例えば、次のリクエスト：
+次を使用できます `count` クエリに一致する結果の数を返します。 これは、結果にデータが必要ない場合に役立ちます。 カウントのみを返すことで、サーバーはリクエストをより迅速に処理し、帯域幅を節約できます。 例えば、次のリクエスト：
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>の場合、結果の数を次の形式で返します。
-<pre>{<br>    "count": 3 <br>}</pre>カウントを返す方が、完全なオブジェクトが返される場合よりも、データ転送ははるかに小さくなります。 構文は search コマンドと同じです。
+<pre>{<br>    "count": 3 <br>}</pre>カウントを返すデータ転送は、オブジェクト全体が返される場合よりも大幅に小さくなります。 構文は search コマンドと同じです。
 
 ### レポートのリクエスト
 
