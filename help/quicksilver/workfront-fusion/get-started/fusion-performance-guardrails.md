@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
+source-git-commit: 370743780e5be419eb6a8c432619e5d76acfbfce
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 93%
+source-wordcount: '545'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 ## ブラウザー
 
-Workfront Fusion は Chrome ベースのブラウザーのみをサポートしています。
+Workfront Fusion は、Chrome ベースのブラウザーのみをサポートしています。
 
 ## シナリオ
 
@@ -71,5 +71,8 @@ Workfront Fusion は Chrome ベースのブラウザーのみをサポートし�
 
 ## 実行履歴
 
-* 実行履歴ログのサイズは次の範囲に制限されます： **100 MB**. 実行履歴がこのサイズを超える場合は、最初の 100 MB のみが表示されます。
+* 実行履歴ログのサイズは次に制限されています **100 MB**. 実行履歴がこのサイズを超える場合は、最初の 100 MB のみが表示されます。
 
+## 再試行
+
+Break モジュールを使用して再試行ディレクティブを指定する場合、シナリオが 2 分以内に 10 回連続して失敗すると、シナリオは自動的に非アクティブ化されます。
