@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: ebcd2cae176d4fec2fd0bc308f00fa261621a95c
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 93%
+source-wordcount: '319'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 Adobe Workfront は、新しい API バージョンを定期的にリリースしています（通常は年に 2 回）。API バージョンは、リリース後 3 年間サポートされています。3 年より前の API バージョンはサポートされなくなりました。
 
-API バージョンの識別と使用について詳しくは、 [統合での API バージョンの指定](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
+API バージョンの識別と使用について詳しくは、を参照してください。 [統合での API バージョンの指定](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 次の表に、Workfront API のリリースおよびサポートスケジュールを示します。
 
@@ -37,8 +37,12 @@ API バージョンの識別と使用について詳しくは、 [統合での A
  </thead> 
  <tbody> 
  <tr>
+   <td>18</td> 
+   <td> <p>2023 年 4 月 8 日（Pt）</p> </td> 
+   <td> <p>**2027年中</p> <p>（27.4 リリースを使用）</p> </td> 
+  </tr>  <tr>
    <td>17</td> 
-   <td> <p>2023 年 10 月 13 日</p> </td> 
+   <td> <p>2023 年 10 月 12 日（Pt）</p> </td> 
    <td> <p>**2026年中</p> <p>（26.10 リリースを使用）</p> </td> 
   </tr> 
  <tr>
