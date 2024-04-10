@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 370743780e5be419eb6a8c432619e5d76acfbfce
+source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 89%
@@ -76,3 +76,4 @@ Workfront Fusion は、Chrome ベースのブラウザーのみをサポート�
 ## 再試行
 
 Break モジュールを使用して再試行ディレクティブを指定する場合、シナリオが 2 分以内に 10 回連続して失敗すると、シナリオは自動的に非アクティブ化されます。
+
