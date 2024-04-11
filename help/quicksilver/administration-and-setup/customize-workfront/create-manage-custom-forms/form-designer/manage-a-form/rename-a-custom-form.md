@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 93%
+source-wordcount: '202'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 93%
 
    表示されるビューで、組織用に作成されたすべてのカスタムフォームを確認できます。また、各フォームの作成者、対象となるオブジェクトタイプ、アクティブかどうかも確認できます。
 
-1. 名前を変更するカスタムフォームを選択し、またはをクリックします ![編集アイコン](assets/edit-icon2.png).
+1. 名前を変更するカスタムフォームを選択し、をクリックします ![編集アイコン](assets/edit-icon2.png).
 1. タイトルを変更するには、フォーム名をクリックします。
 1. 説明を変更するには、説明テキストボックスの内側をクリックします。
 
