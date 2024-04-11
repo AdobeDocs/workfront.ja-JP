@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5110370fd934ac53e48d5993604d541c73ffdadf
+source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
 workflow-type: tm+mt
-source-wordcount: '5945'
-ht-degree: 91%
+source-wordcount: '6207'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 91%
 
 [!DNL Workfront] アカウントへの接続を、[!DNL Workfront Fusion] モジュール内から直接作成できます。
 
-1. 任意のAdobe Workfrontモジュールで、 **追加** 「接続」フィールドの横に表示されます。
+1. 任意のAdobe Workfront モジュールで、 **追加** 「接続」フィールドの隣です。
 1. 次のフィールドに入力します。
 
    <table style="table-layout:auto"> 
@@ -88,9 +88,9 @@ ht-degree: 91%
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL 環境 ]</td>
+        <td role="rowheader">[!UICONTROL Environment]</td>
         <td>
-          <p>実稼動環境と非実稼動環境のどちらに接続するかを選択します。</p>
+          <p>本番環境と非本番環境のどちらに接続するかを選択します。</p>
         </td>
       </tr>
       <tr>
@@ -101,19 +101,19 @@ ht-degree: 91%
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>[!DNL Workfront] クライアント ID を入力します。これは、Workfrontの「セットアップ」領域の「OAuth2 Applications」領域にあります。 接続先のアプリケーションを開き、クライアント ID を確認します。</td>
+        <td>[!DNL Workfront] クライアント ID を入力します。これは、Workfront の設定エリアの OAuth2 アプリケーションエリアにあります。接続している特定のアプリケーションを開いて、クライアント ID を確認します。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>[!DNL Workfront] クライアント ID を入力します。これは、Workfrontの「セットアップ」領域の「OAuth2 Applications」領域にあります。 接続先のアプリケーションを開き、クライアント ID を確認します。</td>
+        <td>[!DNL Workfront] クライアント ID を入力します。これは、Workfront の設定エリアの OAuth2 アプリケーションエリアにあります。接続している特定のアプリケーションを開いて、クライアント ID を確認します。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Authentication URL]</td>
-        <td>これはデフォルト値のままにすることもできますし、Workfrontインスタンスの URL を入力した後に <code>/integrations/oauth2</code>. <p>例： <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+        <td>これはデフォルト値のままにすることもできますし、Workfront インスタンスの URL に続けて <code>/integrations/oauth2</code> を入力することもできます。 <p>例： <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL ホストプレフィックス ]</td>
-        <td>ほとんどの場合、この値は <code>origin</code>.
+        <td role="rowheader">[!UICONTROL Host prefix]</td>
+        <td>ほとんどの場合、この値は <code>origin</code> にしてください。
       </tr>
     </tbody>
     </table>
@@ -147,7 +147,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Workfrontモジュールに最新のフィールドが表示されない場合は、キャッシュの問題が原因である可能性があります。 1 時間待ってから、もう一度お試しください。
+>Workfront モジュールに最新のフィールドが表示されない場合は、キャッシュの問題が原因である可能性があります。1 時間待ってから、もう一度試してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -201,7 +201,7 @@ ht-degree: 91%
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Exclude events made by this connection</td> 
-      <td>このトリガーモジュールが使用するのと同じコネクターを使用して作成または更新されたイベントを除外するには、このオプションを有効にします。これにより、シナリオが自分自身をトリガーし、無限ループが繰り返されることを防ぐことができます。<p><b>注意</b>[ 割り当て ] レコードの種類には、このオプションは含まれません。</p></td> 
+      <td>このトリガーモジュールが使用するのと同じコネクターを使用して作成または更新されたイベントを除外するには、このオプションを有効にします。これにより、シナリオが自分自身をトリガーし、無限ループが繰り返されることを防ぐことができます。<p><b>メモ</b>割り当てレコード タイプには、このオプションは含まれていません。</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
@@ -214,7 +214,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
 
 詳しくは、[!DNL Workfront] ヘルプ記事[イベントサブスクリプション API](../../wf-api/general/event-subs-api.md) の[イベントペイロードの例](../../wf-api/general/event-subs-api.md#examples-of-event-payloads)の節を参照してください。
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -251,7 +251,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -294,7 +294,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -398,7 +398,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 >[!NOTE]
 >
@@ -445,7 +445,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront] オブジェクトタイプを参照してください。
 
 >[!NOTE]
 >
@@ -512,7 +512,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -549,14 +549,14 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 >[!NOTE]
 >
->非同期操作によってレコードが削除されない可能性を回避するために、次のシナリオ設定をお勧めします。
+>操作が同期されずにレコードが削除されない可能性を回避するために、次のシナリオ設定をお勧めします。
 >
 >1. レコードを同期的に削除します。
->1. レコードの削除モジュールにエラー処理を追加し、40 秒のタイムアウトによるエラーを無視します。
+>1. レコード削除モジュールにエラー処理を追加し、40 秒のタイムアウトによるエラーを無視します。
 
 
 +++
@@ -586,7 +586,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -610,7 +610,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL Record Type] と [!UICONTROL Action] に応じて、追加のフィールドに入力する必要がある場合があります。この 2 つの設定の組み合わせによっては、レコード ID しか必要ないものもあれば、追加情報（オブジェクト ID やテンプレート ID など）を必要とするもの（<strong>[!UICONTROL Record Type]</strong> のプロジェクトや <strong>[!UICONTROL Action]</strong> の [!UICONTROL Attach Template] など）もあります。</p> <p>個々のフィールドについて詳しくは、<a href="http://developer.workfront.com/">Workfront 開発者ドキュメント</a>を参照してください。 <p><strong>注意</strong>：開発者ドキュメントサイトには、API バージョン 14 を通じた情報のみが含まれていますが、API 呼び出しに関する有用な情報がまだ含まれています。 </p> 
+   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL Record Type] と [!UICONTROL Action] に応じて、追加のフィールドに入力する必要がある場合があります。この 2 つの設定の組み合わせによっては、レコード ID しか必要ないものもあれば、追加情報（オブジェクト ID やテンプレート ID など）を必要とするもの（<strong>[!UICONTROL Record Type]</strong> のプロジェクトや <strong>[!UICONTROL Action]</strong> の [!UICONTROL Attach Template] など）もあります。</p> <p>個々のフィールドについて詳しくは、<a href="http://developer.workfront.com/">Workfront 開発者ドキュメント</a>を参照してください。 <p><strong>メモ</strong>：開発者ドキュメントサイトには、API バージョン 14 を通じた情報のみが含まれていますが、今でも API 呼び出しに関する有用な情報が含まれています。 </p> 
     <ol> 
      <li value="1"> <p>[!DNL Workfront] 開発者ドキュメントページの左側のナビゲーションからレコードタイプを選択します。以下のタイプには、独自のページがあります。</p> 
       <ul> 
@@ -631,7 +631,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -681,7 +681,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront] オブジェクトタイプを参照してください。
 
 +++
 
@@ -720,7 +720,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront] オブジェクトタイプを参照してください。
 
 >[!NOTE]
 >
@@ -765,7 +765,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront] オブジェクトタイプを参照してください。
 
 +++
 
@@ -842,6 +842,58 @@ Web フックを作成した後、イベントの送信先エンドポイント�
    <td> <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL 検索条件フィールド ]</td> 
+   <td> <p>検索条件に使用するフィールドを選択します。 これらのフィールドは、検索条件ドロップダウンで使用できるようになります。</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria]</td> 
+   <td> <p>検索するフィールド、クエリで使用する演算子、およびそのフィールドで検索する値を入力します。</p> <p>メモ：検索条件に <code>username </code> を使用しないでください。[!DNL Workfront] への API クエリに <code>username </code> を含めると、そのユーザーが Workfront に記録され、検索は成功しません。</p> <p>メモ：<code>In</code> と <code>NotIn</code> は配列で動作します。入力は配列形式である必要があります。</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>このモジュールの出力に含めるフィールドを選択します。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL References]</td> 
+   <td>検索に含める参照フィールドを選択します。</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Collections]</td> 
+   <td>検索に追加するコレクションを選択します。</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL 検索（レガシー）]**
+
+この検索モジュールは、指定された検索クエリに一致するレコードを [!DNL Workfront] のオブジェクト内で検索します。
+
+この情報は、シナリオ内の後続のモジュールにマッピングできます。
+
+このモジュールを設定する際には、次のフィールドが表示されます。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する方法について詳しくは、この記事にある <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">[!DNL Workfront] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>モジュールで検索する [!DNL Workfront] レコードのタイプを選択します。</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Result Set]</td> 
+   <td>モジュールが検索条件に一致する最初の結果を取得するか、一致するすべての結果を取得するかを指定するオプションを選択します。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p> </td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Search criteria]</td> 
    <td> <p>検索するフィールド、クエリで使用する演算子、およびそのフィールドで検索する値を入力します。</p> <p>メモ：検索条件に <code>username </code> を使用しないでください。[!DNL Workfront] への API クエリに <code>username </code> を含めると、そのユーザーが Workfront に記録され、検索は成功しません。</p> <p>メモ：<code>In</code> と <code>NotIn</code> は配列で動作します。入力は配列形式である必要があります。</p></td> 
   </tr> 
@@ -860,7 +912,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-以下のリストを参照してください： [!DNL Workfront] このモジュールを [[!DNL Workfront] 各オブジェクトタイプで使用可能 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module).
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
