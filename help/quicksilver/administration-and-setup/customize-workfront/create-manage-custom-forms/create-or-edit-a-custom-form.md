@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 74%
+source-wordcount: '897'
+ht-degree: 95%
 
 ---
 
@@ -19,17 +19,11 @@ ht-degree: 74%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview">現在のリリースについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-カスタムフォームを新規作成または編集できます。両方のタスクについては、この記事で説明します。
+新しいカスタムフォームを作成したり、既存のフォームを編集したりできます。 両方のタスクについては、この記事で説明します。
 
 既存のフォームからカスタムフォームを新規作成する方法について詳しくは、[従来のフォームビルダーでカスタムフォームをコピーしてフォームを新規作成する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)を参照してください。
 
-ここでは、レガシーフォームビルダーを使用してカスタムフォームを作成する方法について説明します。 フォームデザイナーを使用したカスタムフォームの作成について詳しくは、 [フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+この記事では、従来のフォームビルダーを使用してカスタムフォームを作成する方法について説明します。フォームデザイナーを使用してカスタムフォームを作成する方法については、以下を参照してください。 [フォームデザイナーでフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## アクセス要件
 
@@ -56,7 +50,7 @@ ht-degree: 74%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## カスタムフォームの作成を開始
 
@@ -64,24 +58,24 @@ ht-degree: 74%
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 
-   カスタムフォームはリストに表示されます。 組織で作成されたすべてのカスタムフォームおよびカスタムフィールドを確認できます。 また、各フォームの作成者、フォームに関連付けられているオブジェクト、およびフォームがアクティブかどうかも確認できます。
+   カスタムフォームがリストに表示されます。組織で作成されたすべてのカスタムフォームとカスタムフィールドを確認できます。各フォームの作成者、関連付けられたオブジェクト、アクティブかどうかも確認できます。
 
 1. 「**新規カスタムフォーム**」をクリックします。
 1. カスタムフォームに関連付けるオブジェクトの種類を少なくとも 1 つ選択し、「**続行**」をクリックします。
 
    ![](assets/choose-object-type.jpg)
 
-1. 次の日： **フォーム設定** 開いたタブに、 **フォームタイトル** およびオプション **説明** カスタムフォーム用。
+1. 開いた「**フォーム設定**」タブで、カスタムフォームの&#x200B;**フォームタイトル**&#x200B;と、オプションで&#x200B;**説明**&#x200B;を入力します。
 
-1. （オプション）フォームにオブジェクトの種類を追加して、他のオブジェクトに添付できるようにする場合は、 **プラス** 次の後に署名 **オブジェクトタイプ**&#x200B;を選択し、表示されるメニューで目的のオブジェクトタイプを選択します。
+1. （オプション）フォームにさらにオブジェクトタイプを追加して他のオブジェクトにも関連付ける場合は、**オブジェクトタイプ**&#x200B;の後の&#x200B;**プラス**&#x200B;記号をクリックし、表示されるメニューで目的のオブジェクトタイプを選択します。
 
    この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
 
-1. （オプション） **X** をオンにすると、フォームから削除されます。
+1. （オプション）オブジェクトタイプの「**X**」をクリックすると、フォームから削除できます。
 
    保存済みのカスタムフォームからオブジェクトタイプを削除する方法について詳しくは、「[カスタムフォームのオブジェクトタイプの削除](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)」を参照してください。
 
-1. クリック **完了** をクリックします。
+1. 画面の左下隅の「**完了**」をクリックします。
 
    >[!TIP]
    >
@@ -114,9 +108,9 @@ ht-degree: 74%
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
 
-   カスタムフォームはリストに表示されます。 組織で作成されたすべてのカスタムフォームおよびカスタムフィールドを確認できます。 また、各フォームの作成者、フォームに関連付けられているオブジェクト、およびフォームがアクティブかどうかも確認できます。
+   カスタムフォームがリストに表示されます。組織で作成されたすべてのカスタムフォームとカスタムフィールドを確認できます。各フォームの作成者、関連付けられたオブジェクト、アクティブかどうかも確認できます。
 
-1. 編集するカスタムフォームを選択し、 **編集** <span class="preview">または ![編集アイコン](assets/edit-icon.png).</span>
+1. 編集するカスタムフォームを選択し、をクリックします ![編集アイコン](assets/edit-icon.png).
 1. （オプション）カスタムフォームのタイトルと説明を変更するには「**フォーム設定**」タブをクリックして、**フォームタイトル**&#x200B;および&#x200B;**説明**&#x200B;を入力します。
 
 1. （オプション）フォームに他のオブジェクトタイプを追加して、より多くのオブジェクトに添付できるようにする場合は、**オブジェクトタイプ**&#x200B;の後にあるプラス記号（+）をクリックし、表示されるメニューから必要なタイプを選択します。

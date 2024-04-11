@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 94%
+source-wordcount: '844'
+ht-degree: 98%
 
 ---
 
 # カスタムフォームを共有
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview">現在のリリースについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 カスタムフォームへのアクセスを設定して、フォームの表示、共有、編集を行えるユーザー／役割／グループ／チーム／会社を制御できます。
 
@@ -51,7 +45,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## カスタムフォームへのアクセス {#access-to-custom-forms}
 
@@ -69,7 +63,7 @@ ht-degree: 94%
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. カスタムフォームを選択し、「 **共有** <span class="preview">または ![共有アイコン](assets/share-icon.png).</span>
+1. カスタムフォームを選択し、 ![共有アイコン](assets/share-icon.png).
 1. 表示されるボックスの下に、「**カスタムフォームに対するアクセス権の付与**」で、カスタムフォームを共有するユーザー、チーム、担当業務、グループまたは会社の名前を入力し、名前が表示されたら、**Enter** を押します。
 1. 先ほど追加したユーザー、チーム、担当業務、グループまたは会社のアクセスを調整するには、名前の右にあるドロップダウンメニューをクリックし、次の使用可能なオプションのいずれかと、その詳細設定を指定します。
 
@@ -118,7 +112,7 @@ ht-degree: 94%
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. カスタムフォームを選択し、「 **共有** <span class="preview">または ![共有アイコン](assets/share-icon.png).</span>
+1. カスタムフォームを選択し、 ![共有アイコン](assets/share-icon.png).
 1. 表示されるボックスで、フォームへの特別なアクセス権を持たなくなったユーザー、チーム、役割、グループまたは会社の名前の右にある「X」をクリックします。
 1. （オプション）削除する他の名前について、前の手順を繰り返します。
 1. 「**保存**」をクリックします。

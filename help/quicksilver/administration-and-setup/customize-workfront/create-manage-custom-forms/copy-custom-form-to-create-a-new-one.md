@@ -9,20 +9,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 89%
+source-wordcount: '429'
+ht-degree: 95%
 
 ---
 
 # カスタムフォームをコピーして、従来のビルダーで新しく作成
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview">現在のリリースについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 既存のフォームに基づく新しいカスタムフォームを作成できます。
 
@@ -52,14 +46,14 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## カスタムフォームのコピーによる新規フォームの作成
 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新しいカスタムフォームの基礎として使用するカスタムフォームを選択し、 **コピー** <span class="preview">または ![コピーアイコン](assets/copy-icon.png).</span>
+1. 新しいカスタムフォームの基礎として使用するカスタムフォームを選択し、をクリックします ![コピーアイコン](assets/copy-icon.png).
 1. 表示される&#x200B;**カスタム フォーム コピー**&#x200B;ダイアログボックスで、次の情報を入力します。
 
    <table style="table-layout:auto"> 
@@ -73,14 +67,14 @@ ht-degree: 89%
      <tr> 
       <td role="rowheader"> <p role="rowheader">フォームタイプ </p> </td> 
       <td> <p>「<b>フォームタイプ</b>」フィールドで、カスタムフォームで扱うオブジェクトタイプを選択し、削除するタイプの横にある「X」アイコンをクリックします。既にフォームに関連付けられているタイプは、リストで無効になっています。</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>フォームは、少なくとも 1 つのオブジェクトタイプに関連付ける必要があります。</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 「**フォームをコピー**」をクリックします。
+1. 「**コピー**」をクリックします。
 
    元のフォームで、新しいフォームに追加するオブジェクトタイプと互換性のないフィールドを計算フィールドで参照している場合は、それらのフィールドの計算を変更するように求めるメッセージが表示されます。
 

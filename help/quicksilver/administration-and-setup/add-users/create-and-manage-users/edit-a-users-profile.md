@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '3334'
-ht-degree: 73%
+ht-degree: 98%
 
 ---
 
 # ユーザーのプロファイルの編集
-
-{{highlighted-preview}}
 
 <!--
 
@@ -30,7 +28,7 @@ ht-degree: 73%
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
 
-Adobe Workfront管理者は、ユーザーを作成し、既存のユーザーのプロファイルを管理できます。 ユーザーの作成については、[ユーザーの追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
+Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーのプロファイルを管理できます。ユーザーの作成については、[ユーザーの追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
 ## アクセス要件
 
@@ -55,10 +53,10 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
    <td> <p>次のいずれかが必要です。</p> 
     <ul> 
      <li> <p>システム管理者のアクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。 </p> </li> 
-     <li> <p>The <b>ユーザー</b> に設定されたアクセスレベルの <b>編集</b> アクセス、 <b>作成</b> そして次の 2 つのうち少なくとも 1 つは <b>ユーザー管理者</b> 以下で有効になるオプション <b>設定を微調整する</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+     <li> <p>アクセスレベルで<b>編集</b>アクセス権のある<b>ユーザー</b>オブジェクト。ただし、<b>設定の微調整</b> <img src="assets/gear-icon-in-access-levels.png"> で、「<b>作成</b>」オプションと、以下の 2 つの「<b>ユーザー管理</b>」オプションのうち少なくとも 1 つが有効になっている必要があります。 </p> 
      <ul><li> ユーザー管理者（すべてのユーザー）</li>
      <li>ユーザー管理者（グループユーザー）</li></ul>
-     <p>次の場合  <b>ユーザー管理者（グループユーザー）</b> が有効になっている場合、ユーザーを編集するには、そのユーザーがメンバーであるグループのグループ管理者である必要があります。</p> 
+     <p>「<b>ユーザー管理者 (グループ ユーザー)</b>」が有効になっている場合、ユーザーを編集するには、そのユーザーがメンバーとして含まれているグループのグループ管理者である必要があります。</p> 
      <p>アクセスレベルでの<b>ユーザー</b>設定について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセスを許可</a>を参照してください。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -70,11 +68,11 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
 
 {{step-1-to-users}}
 
-1. ユーザーを選択し、 **編集** アイコン ![](assets/edit-icon.png).
+1. ユーザーを選択し、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
 
-   「ユーザーを編集」ボックスが表示されます。
+   ユーザーの編集ボックスが表示されます。
 
-1. Adobe Analytics の **ユーザーを編集** ボックスで、次の情報を変更し、 **変更を保存** いつでも
+1. **ユーザーの編集**&#x200B;ボックスで次の情報のいずれかを変更し、必ず「**変更を保存**」をクリックします。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -86,19 +84,19 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
        <ul> 
         <li><p><b>名</b></p></li>
         <li><p><b>姓</b></p></li> 
-        <li> <p><b>メールアドレス：</b>ユーザーのメールアドレスは、Workfront でのユーザー名でもあります。このフィールドでは大文字と小文字が区別され、一意である必要があります。ユーザーが、一意でないメールアドレスを 10 分以内に 3 回追加しようとすると、reCAPTCHA 応答が表示されます。</p> <p> を選択します。 <b>私はロボットではありません</b> を設定してから続行します。</p><p>メール許可リストを使用していて、リストにないメールドメインを入力した場合、ユーザーにはメール通知が届きません。許可リストに関して詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">メール許可リストの設定</a>を参照してください。</p> </li> 
-        <li> <p><b>パスワードのリセット</b>：このリンクをクリックすると、ユーザーのパスワードをリセットできます。別のユーザーのパスワードをリセットする前に、自分のパスワードを入力する必要があります。</p> <p>別のユーザーのパスワードをリセットするには、Workfront 管理者またはグループ管理者である必要があります。</p> <p><b>メモ</b>:  
+        <li> <p><b>メールアドレス：</b>ユーザーのメールアドレスは、Workfront でのユーザー名でもあります。このフィールドでは大文字と小文字が区別され、一意である必要があります。ユーザーが、一意でないメールアドレスを 10 分以内に 3 回追加しようとすると、reCAPTCHA 応答が表示されます。</p> <p> 「<b>私はロボットではありません</b>」設定を選択してから続行します。</p><p>メール許可リストを使用していて、リストにないメールドメインを入力した場合、ユーザーにはメール通知が届きません。許可リストに関して詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">メール許可リストの設定</a>を参照してください。</p> </li> 
+        <li> <p><b>パスワードのリセット</b>：このリンクをクリックすると、ユーザーのパスワードをリセットできます。別のユーザーのパスワードをリセットするには、まず自分のパスワード入力する必要があります。</p> <p>別のユーザーのパスワードをリセットするには、Workfront 管理者またはグループ管理者である必要があります。</p> <p><b>メモ</b>:  
           <ul> 
-           <li> <p>グループ管理者の場合は、管理者として指定されたグループ内のユーザーに対してのみ、パスワードをリセットできます。 また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。</p> <p> <img src="assets/group-admin-user.png" > </p> <p>この設定は、デフォルトで無効になっています。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </li> 
+           <li> <p>グループ管理者の場合は、自分が担当するグループ内のユーザーのパスワードのみをリセットできます。また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。</p> <p> <img src="assets/group-admin-user.png" > </p> <p>この設定は、デフォルトで無効になっています。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </li> 
            <li> <p>Workfront 管理者のパスワードはリセットできません。</p> </li> 
           </ul> </p> </li> 
         <li><b>&lt;SSO Configuration&gt; ユーザー名</b>：Workfront 管理者が Workfrontとの SSO 統合を有効にしてある場合は、このフィールドに SSO ユーザー名が表示されます。Workfront インスタンスに対して有効になっている SSO 設定のタイプが、このフィールドに表示されます。 </li> 
         <li> <p><b>&lt;SSO Configuration&gt; 認証のみを許可</b>：Workfront 管理者が Workfront との SSO 統合を有効にし、SSO に対応するようにすべてのユーザーを更新してある場合、このフィールドはデフォルトで選択されています。Workfront インスタンスに対して有効になっている SSO 設定のタイプが、このフィールドに表示されます。</p> <p>このフィールドを選択した場合、ユーザーは SSO 資格情報を使用して Workfront にログインする必要があります。これをオフにすると、ユーザーは Workfront の資格情報で Workfront にログインできます。</p> <p>SSO ソリューションでの Workfront の設定について詳しくは、<a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Adobe Workfront でのシングルサインオンの概要</a>を参照してください。</p> <p>SSO のユーザーのアップデートについて詳しくは、<a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">シングルサインオンのユーザーをアップデート</a>を参照してください。</p> 
         <p><b>メモ</b>：</p> 
-        <p> グループ管理者は、 &lt;sso configuration=""&gt; フィールドは、自分が指定されたグループ内のユーザーに対してのみ使用できます。 また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。
+        <p> グループ管理者の場合は、担当するグループのユーザーの &lt;SSO Configuration&gt; フィールドのみを編集できます。また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。
         <p>グループ管理者で、ユーザー管理者（すべてのユーザー）権限をアクセスレベルで有効にしている場合は、すべてのユーザーの &lt;SSO Configuration&gt; フィールドを編集できます。</p> </li> 
-        <li><b>ジョブ情報：</b> 役職 ( <b>タイトル</b> フィールド ) と、ユーザーが担当する ( <b>次について私にお問い合わせください：</b> フィールド ) に書き込まれます。</li> 
-        <li><p><b>連絡先情報</b>：ユーザーの電話番号 ( <b>電話番号、内線</b>、および <b>モバイル番号</b> フィールド ) と住所 ( <b>住所、市区町村、都道府県、郵便番号、国</b> フィールド ) を参照してください。</p>
+        <li><b>業務内容：</b>役職（「<b>タイトル</b>」フィールド）やユーザーが担当する専門分野（「<b>業務内容</b>」フィールド）などの業務に関する情報。</li> 
+        <li><p><b>連絡情報</b>：ユーザーの電話番号（<b>電話番号、内線</b>、<b>携帯電話番号</b>の各フィールド）と住所（<b>住所、市区町村、都道府県、郵便番号、国</b>の各フィールド）。</p>
         <p>ユーザーが統合ユーザー管理（UUM）またはAdobe Identity Management システム（IMS）に対して有効になっている場合、「連絡先情報」セクションの「<b>国</b>」フィールドでは、国コードの値（US、GB、IN など）のみを使用できます。</p></li>
        </ul> </td> 
      </tr> 
@@ -107,19 +105,19 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
       <td> 
        <ul> 
       <li> <p><b>タイムゾーン：</b>ユーザーのタイムゾーン。</p> <p>ユーザーが Workfront でタイムゾーンをまたいで共同作業できるようにスケジュールを使用する方法について詳しくは、<a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">タイムゾーンをまたいだ作業</a>を参照してください。</p> </li> 
-       <li><b>メールのロケール</b>：ユーザーが希望するメールのロケール。これは、Workfrontからこのユーザーに送信される E メールの数値や日付の形式に影響します。</li>
+       <li><b>メールのロケール</b>：ユーザーが希望するメールのロケール。これは、Workfront からこのユーザーに送信されるメール内の数値と日付の形式に影響します。</li>
 
    <li><b>このテスト環境からメールを受信</b>：現在ログインしている環境からメール通知を受け取る場合は、このオプションを選択します。
       <p><b>メモ</b></p>
       <p>このオプションは、プレビューおよびサンドボックス環境でのみ使用できます。メール通知は、実稼動環境でデフォルトで有効になっています。 </p>
       </li>
 
-   <li><b>更新ステータスの完了率を表示</b>：従来のコメントエクスペリエンスを使用する場合に、このユーザーのタスクの更新領域内に完了率のバーを表示するには、このオプションを選択します。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.
+   <li><b>完成率を更新状態に表示する</b>：従来のコメントエクスペリエンスを使用している場合、このユーザーのタスクの更新エリア内に完了率のバーを表示するには、このオプションをオンにします。詳しくは、<a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>を参照してください。
       <p><span class="preview">このオプションは、プレビュー環境から削除されました。</span></p>
 
    </li> 
-       <li><b>自分に割り当てた作業を [ 作業 ] タブに送信する</b>：ユーザーが割り当てたすべてのものをホーム領域の作業中リストに直接表示する場合は、このオプションを選択します。 デフォルトでは、ユーザーに割り当てられたすべての項目が、[ ホーム ] 領域の [ 開始準備完了 ] または [ 準備不可 ] リストに表示されます。</li> 
-       <li><b>ドキュメントのアップロード時に配達確認を自動生成</b>：ユーザーがアップロードしたドキュメントで配達確認をすぐに生成する場合は、このオプションを選択します。 </li>
+       <li><b>自分に割り当てた作業を自分の [作業割り当て] タブに送る</b>：ユーザーが自分に割り当てたすべてのアイテムをホームエリアの「作業割り当て」リストに直接表示する場合は、このオプションをオンにします。デフォルトでは、ユーザーに割り当てられたすべてのアイテムが、ホームエリアの「開始準備完了」または「準備未完了」リストに表示されます。</li> 
+       <li><b>ドキュメントのアップロード中に自動的にプルーフを作成する</b>：ユーザーがアップロードしたドキュメントでプルーフをすぐに生成する場合は、このオプションをオンにします。 </li>
        </ul> </td> 
      </tr> 
      <tr> 
@@ -130,15 +128,15 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
       <td role="rowheader">アクセス</td> 
       <td> 
        <ul> 
-      <li><b>アクティブ：</b>このボックスを選択して、ユーザーがアクティブであることを示します。アクティブなユーザーは Workfront のライセンスを使用しています。このボックスをクリアすると、ユーザーが非アクティブ化され、Workfrontにログインできなくなります。</li> 
+      <li><b>アクティブ：</b>このボックスを選択して、ユーザーがアクティブであることを示します。アクティブなユーザーは Workfront のライセンスを使用しています。このボックスをクリアすると、ユーザーが非アクティブ化され、Workfront にログインできなくなります。</li> 
        <li> <p><b>アクセスレベル：</b>これらのユーザーに割り当てるアクセスレベルを選択します。</p> 
-       <p>ユーザーにアクセスレベルを割り当てる際に、自分のアクセスレベルと等しいかそれ以下のレベルを割り当てることができます。</p>
-       <p>たとえば、アクセス・レベルが「計画」の場合は、管理者アクセス・レベルを割り当てることはできません。 ただし、Workfront管理者がアクセスレベルでデフォルト以外の権限を有効にしていて、独自のアクセスレベルでも無効になっている場合は、デフォルトで自分のアクセスレベルより低いアクセスレベルを割り当てることはできません。 </p>
-       <p>たとえば、タスクを削除するアクセス権を持たない Plan ライセンスを持っている場合、Work ライセンスは Plan ライセンスよりも低いのに、削除タスクへのアクセス権を持つ Work ライセンスを割り当てることはできません。 詳しくは、  <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>. </p> 
+       <p>ユーザーにアクセスレベルを割り当てる際は、自分のアクセスレベル以下のレベルを割り当てることができます。</p>
+       <p>例えば、アクセスレベルが「プラン」の場合は、管理者のアクセスレベルを割り当てることはできません。ただし、Workfront 管理者が自分のアクセスレベルでも有効になっていないアクセスレベルで、デフォルト以外の権限を有効にしてある場合は、デフォルトで自分のアクセスレベルよりも低いアクセスレベルを割り当てることはできません。 </p>
+       <p>例えば、タスクを削除するアクセス権がないプランライセンスを持っている場合、ワークライセンスはプランライセンスよりもアクセスレベルが低いにもかかわらず、タスクを削除するアクセス権を持つワークライセンスをユーザーに割り当てることはできません。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> 
        <p>アクセスレベルについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfront へのアクセスの設定</a>を参照してください。</p>
-       <p> <b>注意：</b></p> 
-       <p> 組織で新しいアクセスモデル（標準/ライト/コントリビューター）を使用している場合、そのユーザーが月の決定制限に達している場合、標準またはライトユーザーをコントリビューターアクセスレベルに再割り当てすることはできません。 </p><p>新しいアクセスモデルについて詳しくは、<a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">新しいアクセスレベルの概要</a>を参照してください。 </p><p>決定制限について詳しくは、<a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要</a>を参照してください。</p></li> 
-       <li> <p><b>レイアウトテンプレート</b>：ユーザー用のレイアウトテンプレートを選択します。このレイアウトテンプレートは、ユーザのホームグループ、ホームチーム、またはプライマリロールに割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当て優先度について詳しくは、<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>を参照してください。</p> <p><b>メモ</b>：  <p>次のリストでは、このフィールドで使用できるテンプレートのリストが、アクセス権に応じてどのように異なるかを説明します。</p> 
+       <p> <b>メモ：</b></p> 
+       <p> 組織で新しいアクセスモデル（標準／ライト／コントリビューター）を使用している場合、そのユーザーが当月の決定制限に達している場合、標準またはライトユーザーをコントリビューターアクセスレベルに再割り当てすることはできません。 </p><p>新しいアクセスモデルについて詳しくは、<a href="../how-access-levels-work/access-level-overview.md" class="MCXref xref">新しいアクセスレベルの概要</a>を参照してください。 </p><p>決定制限について詳しくは、<a href="/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md" class="MCXref xref">無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要</a>を参照してください。</p></li> 
+       <li> <p><b>レイアウトテンプレート</b>：ユーザー用のレイアウトテンプレートを選択します。このレイアウトテンプレートは、ユーザーのホームグループ、ホームチームまたは主要役割に割り当てられたレイアウトテンプレートよりも優先されます。レイアウトテンプレートの割り当て優先度について詳しくは、<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">レイアウトテンプレートの作成と管理</a>を参照してください。</p> <p><b>メモ</b>：  <p>このフィールドで使用できるテンプレートのリストがアクセス権によってどう異なるかを次のリストで示します。</p> 
        <ul> 
        <li>Workfront 管理者は、システムレベルおよびグループレベルのすべてのレイアウトテンプレートを表示できます。</li> 
        <li>グループ管理者は、システムレベルのレイアウトテンプレートと、管理するグループに関連付けられているレイアウトテンプレートを表示できます。</li> 
@@ -151,17 +149,17 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
       <td> 
        <ul> 
       <li><b>会社</b>：ユーザーの会社。ユーザーは、1 つの会社にのみ関連付けることができます。会社をユーザーに関連付ける前に、会社を作成する必要があります。アクティブな会社のみがリストに表示されます。会社の作成について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">会社の作成と編集</a>を参照してください。</li> 
-      <li><b>レポート先：</b>ユーザーの会社を指定した場合は、このフィールドでユーザーの直属のマネージャーも指定できます。1 人のユーザーが管理者を 1 つだけ持つことができます。 ユーザーが最初に会社に関連付けられていない場合、このフィールドは表示されません。 </li> 
-      <li><b>直属の部下：</b>ユーザーに会社を指定した場合は、そのユーザーの直属の部下も指定できます。1 人のユーザーが複数のダイレクトレポートを持つことができます。 ユーザーが最初に会社に関連付けられていない場合、このフィールドは表示されません。</li> 
-      <li><b>ホームチーム</b>：ユーザーのホームチームを指定します。ホームチームは 1 つのみです。 ホームチームは、レイアウトテンプレートを割り当てる場合や、ユーザーに割り当てられたタスクや問題に対して「IT で作業」ボタンを定義する場合に重要です。 </li> 
-      <li><b>その他のチーム</b>：ユーザーは複数のチームに属することができます。 ユーザーは、ホーム領域の任意のチームに割り当てられた作業項目を表示できます。 </li> 
-      <li> <p><b>ホームグループ：</b>適切なグループを選択してユーザーを割り当てます。これにより、ユーザーはグループと共有されているオブジェクトにアクセスできます。 また、レイアウトテンプレートをユーザーのホームグループと共有することもできます。</p> <p>必須フィールドです。すべてのユーザーは、ホームグループに関連付ける必要があります。選択しない場合、グループは新しいユーザーのホームグループとして割り当てられます。</p> <p><b>メモ</b>：</p> 
-      <p> 次のいずれかに該当する場合にのみ、グループをユーザーに割り当てることができます。</p>
-      <ul><li>Workfront管理者である</li>
-      <li>グループの管理者です</li>
-      <li>グループはパブリックです。</li></ul> 
+      <li><b>レポート先：</b>ユーザーの会社を指定した場合は、このフィールドでユーザーの直属のマネージャーも指定できます。1 人のユーザーに設定できるマネージャーは 1 人だけです。先にユーザーが会社に関連付けられていないと、このフィールドは表示されません。 </li> 
+      <li><b>直属の部下：</b>ユーザーに会社を指定した場合は、そのユーザーの直属の部下も指定できます。1 人のユーザーは複数の部下を持つことができます。先にユーザーが会社に関連付けられていないと、このフィールドは表示されません。</li> 
+      <li><b>ホームチーム</b>：ユーザーのホームチームを指定します。ユーザーが持つことができるホームチームは 1 つだけです。ホームチームは、レイアウトテンプレートを割り当てる場合や、ユーザーに割り当てられたタスクやイシューに対して「作業」ボタンを定義する場合に重要になります。 </li> 
+      <li><b>他のチーム</b>：ユーザーは複数のチームに属することができます。ユーザーは、ホームエリア内のチームのいずれかに割り当てられた作業アイテムを表示できます。 </li> 
+      <li> <p><b>ホームグループ：</b>適切なグループを選択してユーザーを割り当てます。その結果、ユーザーはグループと共有されているオブジェクトにアクセスできるようになります。また、レイアウトテンプレートをユーザーのホームグループと共有することもできます。</p> <p>必須フィールドです。すべてのユーザーは、ホームグループに関連付ける必要があります。選択しない場合、グループは新しいユーザーのホームグループとして割り当てられます。</p> <p><b>メモ</b>：</p> 
+      <p> 次のいずれかに該当する場合にのみ、ユーザーにグループを割り当てることができます。</p>
+      <ul><li>Workfront 管理者である</li>
+      <li>グループの管理者である</li>
+      <li>グループがパブリックである</li></ul> 
       <li> <p><b>その他のグループ</b>：ユーザーは複数のグループに属することができます。ユーザーにグループを割り当てることができるのは、Workfront管理者、グループの管理者、またはグループが公開されている場合のみです。</p> <p><b>重要</b>：</p> 
-      <p>100 を超えるグループにユーザーを追加すると、Workfrontのどの領域でも、グループのリストを読み込む際にパフォーマンスの問題が発生する場合があります。</p> <p>公開グループについて詳しくは、<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">グループの作成</a>を参照してください。</p> <p>グループについて詳しくは、<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">グループの概要</a>を参照してください。</p> </li> 
+      <p>100 を超えるグループにユーザーを追加すると、グループのリストを読み込む Workfront のエリアで、パフォーマンスの問題が発生する場合があります。</p> <p>公開グループについて詳しくは、<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">グループの作成</a>を参照してください。</p> <p>グループについて詳しくは、<a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">グループの概要</a>を参照してください。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -177,16 +175,16 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
 
    Workfront でスケジュールを作成する方法について詳しくは、<a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">スケジュールの作成</a>を参照してください。
 
-   スケジュールの例外とタイムオフも、ユーザーの処理能力に影響を与える可能性があります。
+   スケジュール例外と休暇も、ユーザーのキャパシティに影響を与える可能性があります。
 
    Workfront では、設定エリアのリソース管理環境設定に応じて、ユーザーの空き時間を計算します。詳しくは、<a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">リソース管理環境設定の指定</a>を参照してください。
 
    <b>説明</b>
 
-   [ 作業時間 ] の値を 1 に設定して、プロジェクト関連の作業でユーザーがフルタイムの同等の作業全体で使用できるようにします。
+   「作業時間」の値を 1 に設定すると、ユーザーがフルタイム当量の時間をプロジェクト関連の作業に使用できることを示します。
    </li> 
-      <li> <b>無効化をスケジュール</b>：このユーザーを特定の日に特定の時間に非アクティブ化するようにスケジュールする場合は、このチェックボックスをオンにします。 </li> 
-       <li><b>予定されている非アクティブ化日</b>：ユーザーが非アクティブ化された日時。 アクティブ化を解除するためのユーザーのスケジュール設定について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">ユーザーのスケジュールの非アクティブ化</a>を参照してください。</li> 
+      <li> <b>アクティブ化解除をスケジュール</b>：このユーザーが特定の日時に非アクティブになるようにスケジュールする場合は、このチェックボックスをオンにします。 </li> 
+       <li><b>スケジュール済みアクティブ化解除日</b>：この日時にユーザーのアクティブ化が解除されます。アクティブ化を解除するためのユーザーのスケジュール設定について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">ユーザーのスケジュールの非アクティブ化</a>を参照してください。</li> 
        <li> <p><b>プライマリの役割</b>：ユーザーが Workfront で果たすことができる主要担当業務です。ユーザーが割り当てられているタスクとイシューも、このジョブの役割に割り当てられます。リソース管理には、担当業務が不可欠です。このフィールドは、管理者ユーザーアクセス権があるプランライセンスのユーザー、または Workfront 管理者のみが更新できます。管理ユーザーアクセス権を持つユーザーの設定について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。</p> <p>リストには、アクティブな担当業務のみが表示されます。 </p> </li> 
        <li><b>プライマリの役割</b>を選択した場合、「<b>FTE 空き時間の割合</b>」フィールドが表示されます。この担当業務に割り当てるユーザーのスケジュールの時間の割合を指定します。主要役割における FTEの可用性の割合のデフォルト値は 100%です。 </li> 
        <li> <p><b>その他の役割</b>：ユーザーは Workfront で複数の担当業務を持つことができます。リソース管理には、担当業務が不可欠です。ユーザーが実行できる担当業務の数に制限はありません。ただし、リソース管理が複雑になりすぎる可能性があるため、1 人のユーザーにあまり多くの担当業務を割り当てないことをお勧めします。<p>リストには、アクティブな担当業務のみが表示されます。担当業務について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">担当業務の作成と管理</a>を参照してください。</p> <p>このフィールドは、管理者ユーザーアクセス権があるプランライセンスのユーザー、または Workfront 管理者のみが更新できます。<br>管理ユーザーアクセス権を持つユーザーの設定について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。</p> </li> 
@@ -234,7 +232,7 @@ Adobe Workfront管理者は、ユーザーを作成し、既存のユーザー�
      </tr> 
      <tr> 
       <td role="rowheader">カスタムフォーム</td> 
-      <td><p>既存のユーザーカスタムフォームをこのユーザーに関連付けます。カスタムフォームをユーザーに関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。編集するアクセス権がないフィールドは、個々のカスタムフォームには表示されません。</p> <p><span class="preview"><strong>注意：</strong> 「外部参照」フィールドやWorkfrontのネイティブフィールドなどの高度なカスタムフォーム機能は、ユーザーの編集ダイアログではなく、詳細ページでユーザーレコードを開いたときにのみ使用できます。 （ユーザーのリストで、ユーザー名をクリックして詳細を開きます）。</span></p> <p>カスタムフォームの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p></td> 
+      <td><p>既存のユーザーカスタムフォームをこのユーザーに関連付けます。カスタムフォームをユーザーに関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。編集するアクセス権がないフィールドは、個々のカスタムフォームには表示されません。</p> <p><strong>注意：</strong> 外部検索フィールドやWorkfront ネイティブフィールドなどの高度なカスタムフォーム機能は、ユーザーを編集ダイアログではなく、詳細ページでユーザーレコードを開いた場合にのみ使用できます。 （ユーザーのリストでユーザー名をクリックして詳細を開きます。）</p> <p>カスタムフォームの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">コメント</td> 

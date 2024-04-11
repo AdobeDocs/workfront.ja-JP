@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 82%
+source-wordcount: '170'
+ht-degree: 95%
 
 ---
 
 # カスタムフォームの削除
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview">現在のリリースについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 カスタムフォームをシステムから削除できます。
 
@@ -55,12 +49,12 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## カスタムフォームの削除
 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. カスタムフォームを選択し、「 **削除** <span class="preview">または ![削除アイコン](assets/delete-icon.png).</span>
+1. カスタムフォームを選択し、 ![アイコンを削除](assets/delete-icon.png).
 1. カスタムフォームと、そのカスタムフォームが添付されたオブジェクト上のすべての関連データを完全に削除する場合は、「**はい、削除します**」をクリックします。
