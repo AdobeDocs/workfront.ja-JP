@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 32%
+source-wordcount: '1101'
+ht-degree: 34%
 
 ---
 
@@ -18,23 +18,21 @@ ht-degree: 32%
 
 <!--take out legacy, preview, prod references from below-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境でのみ使用できます。  </span>
-
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 <!--
 
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+-->
 
 >[!IMPORTANT]
 >
->この記事の情報は、新しいコメント作成機能にリリースされた機能を指します。
+>この記事の情報では、新しいコメントエクスペリエンスにリリースされた機能について説明しています。
 >
->新しいコメンティングエクスペリエンスのベータプログラムは 2023 年 4 月に開始され、2023 年 10 月に終了しました。 新しいコメント作成エクスペリエンスのベータ版プログラムは、2023 年 10 月のリリースで終了しました。
+>新しいコメント機能のベータ版プログラムは 2023 年 4 月に開始し、2023 年 10 月に終了しました。 新しいコメント機能のベータ版プログラムは、2023 年 10 月リリースで終了しました。
 >
->2023 年 10 月から、新しいコメント作成機能の新機能がすべてのお客様にリリースされます。 詳しくは、各リリースの現在のリリースの概要ページを参照してください。
+>2023 年 10 月以降、新しいコメント機能のすべての新機能が、すべてのお客様にリリースされます。 詳しくは、各リリースの最新のリリースの概要ページを参照してください。
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -48,7 +46,7 @@ The new commenting experience will slowly become available for all the objects w
 
 ## 機能
 
-新しいコメントエクスペリエンスには、Adobe Workfrontオブジェクトの「更新」セクションの改善と変更が含まれています。
+新しいコメント機能には、Adobe Workfront オブジェクトの「更新」セクションに対する改善点と変更点が含まれています。
 
 新しいコメントエクスペリエンスの改善点には以下が含まれます。
 
@@ -57,16 +55,16 @@ The new commenting experience will slowly become available for all the objects w
 * オブジェクトに新しいコメントが追加されたときのリアルタイムインジケーター
 * コメントの送信後の編集
 
-次の機能は、削除されたか、新しいエクスペリエンスで非推奨（廃止予定）になります：
+次の機能は削除されたか、新しいエクスペリエンスから非推奨（廃止予定）になります。
 
-* システム更新に対するコメント。 過去にシステム更新に追加されたコメントは、新しい「システムアクティビティ」タブに読み取り専用のコメントとしてインポートされました。
-* タスクと問題に関するコメントを作成する際に、ステータス、条件、コミット日、および完了率を編集できます。
+* システム更新に関するコメント。 過去にシステム更新に追加されたコメントが、新しい「システムアクティビティ」タブに読み取り専用コメントとして読み込まれました。
+* タスクや問題にコメントしながらステータス、条件、コミット日、完了率を編集できる機能。
 
-  別の方法として、タスクと問題の概要パネルにこれらのフィールドを追加して、リスト、ホーム、Workfrontバランサー、またはタイムシートから簡単にアクセスできるようにすることをお勧めします。
+  別の方法として、タスクと問題の概要パネルにこれらのフィールドを追加し、リスト、ホーム、Workfront バランサー、またはタイムシートから簡単にアクセスすることをお勧めします。
 * カスタムフォームを編集する機能
-* Workfrontまたはグループ管理者が別のユーザーとしてログインし、自分に代わってコメントを追加したときの「&lt; ユーザー名 > の代理」情報が最初に削除されました。 2023 年 10 月 19 日に復帰しました。
-* ドキュメントにコメントを追加する際に担当者にタグを付ける際に「承認を求める」オプション。
-* ユーザーのプロファイルボックスの編集時の「更新ステータスでパーセント完了を表示」設定は削除されます。 タスクまたはイシューの完了率を更新する機能が削除されました。
+* Workfrontまたはグループ管理者が別のユーザーとしてログインし、そのユーザーに代わってコメントを追加した場合、「そのユーザーの代理 &lt; ユーザー名 >」の情報は最初に削除されました。 2023 年 10 月 19 日（PT）に復元されました。
+* ドキュメントにコメントを追加する際にユーザーにタグを付ける場合の「承認を依頼」オプション。
+* ユーザーのプロファイルボックスを編集する際の「更新状態の完了率を表示」設定が削除されます。 タスクまたは問題の完了率を更新する機能が削除されました。
 
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
@@ -411,14 +409,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>2024 年第 1 四半期 
+   <td>Q1、2024 
    </td>
    <td> 
    </td>
   </tr>
 
 <tr>
-   <td>コメント内の画像をコピーして貼り付ける
+   <td>画像をコピーしてコメントにペーストする
    </td>
    <td> 
    </td>
@@ -426,14 +424,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>2024 年第 1 四半期 
+   <td>Q1、2024 
    </td>
    <td> 
    </td>
   </tr>
 
 <tr>
-   <td>コメント内の画像をドラッグ&amp;ドロップ
+   <td>コメントへの画像のドラッグ&amp;ドロップ
    </td>
    <td> ✓
    </td>
@@ -441,7 +439,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td>2024 年第 1 四半期 
+   <td>Q1、2024 
    </td>
    <td> 
    </td>
@@ -462,7 +460,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
   </tr>
   <tr>
-   <td>コメント中にステータス、条件、コミット日を編集可能 
+   <td>コメント時にステータス、条件、コミット日を編集できる機能 
    </td>
    <td>✓ 
    </td>
@@ -505,7 +503,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   </tr>
 
 <tr>
-   <td>[ 更新 ] セクションから [ コミット日 ] が変更された場合に、プロジェクト所有者がタスクの計画完了日を変更する機能
+   <td>「更新」セクションでコミット日が変更された場合に、プロジェクト所有者がタスクの予定完了日を変更できる機能
    </td>
    <td> ✓
    </td>
@@ -524,97 +522,99 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 >[!IMPORTANT]
 >
->新しいコメント作成機能にリリースされた機能について詳しくは、 [新しいコメントベータ版エクスペリエンスリリースアクティビティ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+>ベータ版期間中に新しいコメント機能にリリースされた機能については、を参照してください。 [新しいコメント機能のベータ版エクスペリエンスリリースアクティビティ](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 >
 >Workfront オブジェクトの更新の管理について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 
-新しいコメントエクスペリエンスを実稼動環境にリリースする予定のタイムラインを、主要なマイルストーンとともに以下に示します。以下のマイルストーンに加えて、より小さな機能強化でコメント作成のエクスペリエンスも引き続き向上します。
+新しいコメントエクスペリエンスを実稼動環境にリリースする予定のタイムラインを、主要なマイルストーンとともに以下に示します。以下のマイルストーンに加えて、より小さな機能強化により、コメント体験を引き続き改善していきます。
 
-ベータ版が終了した後に新しいコメント作成機能としてリリースされた機能について詳しくは、現在のリリースの概要ページを参照してください。
+ベータ版期間終了後に新しいコメントエクスペリエンス用にリリースされた機能については、現在のリリースの概要ページを参照してください。
 
-次に、新しいコメント作成エクスペリエンスのリリースに向けた計画的なタイムラインを示します。
+以下は、新しいコメントエクスペリエンスのリリースに関する予定タイムラインです。
 
 * 23.2 リリース（2023年4月6日（PT））：
-   * 問題については、Commenting Experience Beta を起動してください。
-   * 目標に向けて新しいコメントエクスペリエンスをリリース（唯一のエクスペリエンスとして）
+   * イシューに対するコメント機能のエクスペリエンスベータ版の起動
+   * 目標に対する新しいコメント機能のエクスペリエンス（唯一のエクスペリエンスとして）をリリースする
 * 23.3 リリース（2023年7月20日（PT））：
-   * プロジェクト、タスク、ドキュメントの Commenting Experience Beta を起動します。
-   * （唯一のエクスペリエンスとして）ボード領域のカード用の新しいコメントエクスペリエンスをリリースします。
-* 2023 年第 4 四半期リリース（限定リリース。高速リリースを選択したお客様のみが利用できます）:
-   * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートに関する新しいコメント作成機能をリリースします（唯一のエクスペリエンスとして）。
-   * プロジェクト、タスク、問題、ドキュメントに関するコメント作成エクスペリエンスベータ版を更新し、デフォルトのオプションにします。 「Beta」ラベルが削除されました。
-* 2023 年第 4 四半期 (23.10) リリース（2023 年 10 月 27 日）
-   * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートに関する新しいコメント作成機能を、すべての顧客に（唯一のエクスペリエンスとして）リリースします。
-   * プロジェクト、タスク、イシュー、ドキュメントに対する新しいコメント作成機能をデフォルトのオプションにします。
+   * プロジェクト、タスク、ドキュメントへのコメント機能のベータ版を起動します。
+   * ボードエリアのカードの新しいコメント機能を（唯一のエクスペリエンスとして）リリースする
+* 2023 年第 4 四半期リリース（限定リリース。迅速リリースを選択したお客様のみが利用できます）:
+   * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザーおよびタイムシートの新しいコメント機能エクスペリエンス（唯一のエクスペリエンスとして）をリリースします
+   * プロジェクト、タスク、イシューおよびドキュメントのコメント機能ベータ版を更新して、デフォルトのオプションにします。 「ベータ版」ラベルは削除されました。
+* 2023 年第 4 四半期（23.10）のリリース（2023 年 10 月 26 日（PT））
+   * すべての顧客に（唯一のエクスペリエンスとして）テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザーおよびタイムシートの新しいコメント機能をリリースします。
+   * プロジェクト、タスク、イシュー、ドキュメントの新しいコメント機能をデフォルトオプションにする。
 
   >[!IMPORTANT]
   >
-  >    これにより、新しいコメント作成エクスペリエンスのベータ段階が終了します。
+  >    これにより、新しいコメントエクスペリエンスのベータ版ステージが終了します。
 
-   * 新しいコメントエクスペリエンス用にリリースされたすべての機能は、現在の通常の月次および四半期リリースのこの日付の部分から始まります。
+   * 現在の通常の月次および四半期リリースのこの日付部分から、新しいコメントエクスペリエンスでリリースされたすべての機能を有効にします。
 * 2023年末：
-   * プロジェクト、タスク、問題、ドキュメントの各オブジェクトのセカンダリオプションとして、従来のコメントエクスペリエンスを保持します。 新しいコメントエクスペリエンスは、これらのオブジェクトのすべてのユーザーのデフォルトオプションです。
-   * 新しいコメントエクスペリエンスを他のすべてのオブジェクトの唯一のエクスペリエンスにします。
+   * プロジェクト、タスク、イシュー、ドキュメントなどのオブジェクトに対して、従来のコメント機能を補助的なオプションとして維持します。 新しいコメント機能は、これらのオブジェクトを使用するすべてのユーザーにとって、デフォルトのオプションとなります。
+   * 新しいコメント機能を、他のすべてのオブジェクトで唯一のエクスペリエンスにします。
 
   >[!NOTE]
   >
-  >    繰り返し処理では、従来のコメント操作が引き続きおこなわれます。 新しいコメントエクスペリエンスは、繰り返しでは使用できません。
+  >    イテレーションでは、従来のコメント機能が引き続き使用されます。 新しいコメントエクスペリエンスは、イテレーションでは使用できません。
 
-* 2024 年第 2 四半期リリース（2024 年 4 月 12 日）:
+* 2024 年第 2 四半期（2024 年 4 月 11 日（PT））のリリースでは、次のようになります。
 
-   * 「繰り返し」を除き、旧式のコメントストリームに切り替え、新しいコメントストリームをすべてのオブジェクトで唯一のエクスペリエンスにします。
+   * 従来のコメントストリームに戻すオプションを削除し、新しいコメントストリームを、反復を除くすべてのオブジェクトの唯一のエクスペリエンスにします。
 
 ## 新しいコメントエクスペリエンスを検索
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
 
 >[!IMPORTANT]
 >
->The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>新しいコメント機能は、イテレーションを除くすべてのオブジェクトに対するすべてのWorkfront環境で使用できます。
 >
->The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+>プロジェクト、タスク、イシュー、ドキュメントのすべての環境から、従来のコメント機能が削除されました。
 
-For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+Workfront オブジェクトの更新セクションへのアクセスについて詳しくは、以下を参照してください [更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+<!--
+
+The new commenting experience is currently available for all customers and for all environments.
+
+Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+
+* Both the new and legacy commenting experience for the following objects: 
+
+    * Project
+    * Task (this includes Stories)
+    * Issue
+    * Document
+
+      >[!NOTE]
+      >
+      ><span class="preview">The legacy commenting experience has been removed from the Preview environment since April 1, 2024. </span>
+
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
+
+    * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
+
+* Only the legacy commenting experience for the following objects:
+
+  * Iterations
+    
+    There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
 
 -->
-
-現在、すべてのお客様およびすべての環境で、新しいコメント作成機能を利用できます。
-
-どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
-
-* 次のオブジェクトの新しいコメントエクスペリエンスと従来のコメントエクスペリエンスの両方：
-
-   * プロジェクト
-   * タスク（ストーリーを含む）
-   * イシュー
-   * ドキュメント
-
-     >[!NOTE]
-     >
-     ><span class="preview">2024 年 4 月 1 日以降、従来のコメント作成エクスペリエンスはプレビュー環境から削除されました。 </span>
-
-* 以下に示すオブジェクトの新しいコメントエクスペリエンスのみ。 これらのオブジェクトに対して従来のコメント作成機能を有効にするオプションはありません。
-
-   * 目標
-
-  >[!NOTE]
-  >
-  >Workfront のこのエリアにアクセスするには、Adobe Workfront Goals に対する追加のライセンスが必要です。詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
-   * ボード上のカード
-   * チーム
-   * テンプレート
-   * テンプレートタスク
-   * タイムシート
-   * プログラム
-   * ポートフォリオ
-   * ユーザー
-
-* 次のオブジェクトに対する従来のコメントエクスペリエンスのみ：
-
-   * イテレーション
-
-     繰り返しの新しいコメントエクスペリエンスを有効にするオプションはありません。 繰り返しに使用できるのは、従来のコメントエクスペリエンスのみです。
 
 
 <!--before August 17: 
@@ -644,19 +644,22 @@ The new commenting experience is currently supported for the following objects:
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>
 -->
 
-プロジェクト、タスク、問題およびドキュメントに対して Commenting Experience オプションを有効にするには：
+<!--
 
-1. （条件付き）実稼動環境で、新しいコメントエクスペリエンスをアクティブ化するオブジェクトに移動し、 **更新** をクリックします。
-1. （条件付き）無効になっている場合、 **新しいコメント** 」オプションを使用して、この機能を有効にします。 これは、デフォルトで有効になっている必要があります。
-   <span class="preview">プレビュー環境から「新しいコメント」オプションが削除されました。</span>
+To enable the commenting experience option for projects, tasks, issues, and documents: 
 
-   ![](assets/new-commenting-toggle-off-highlighted.png)
+1. (Conditional) In the Production environment, go to an object that you want to activate the new commenting experience for, then click **Updates** in the left panel.
+1. (Conditional) If it is disabled, enable the **New commenting** option in the upper-right corner of the Updates area to enable it. This should be enabled by default. 
+<span class="preview">The New commenting option has been removed from the Preview environment.</span> 
 
-1. 「**コメント**」タブで、アップデートを入力します。「コメント」タブは、新しいエクスペリエンスを開いたときのデフォルトのタブです
+    ![](assets/new-commenting-toggle-off-highlighted.png)
 
-   または
+1. Start typing an update in the **Comments** tab. The Comments tab is the default tab when the new experience opens
 
-   「**システムアクティビティ**」タブをクリックして、Workfront で生成されたアクティビティのアップデートを表示します。
+    Or
 
-1. （オプション）新しいコメントエクスペリエンスを無効にして従来のコメントに戻るには、「 **新しいコメント** オプション。
+    Click the  **System Activity** tab to view the activity updates generated by Workfront. 
 
+1. (Optional) To disable the new commenting experience and return to legacy commenting, deselect the **New commenting** option. 
+
+-->

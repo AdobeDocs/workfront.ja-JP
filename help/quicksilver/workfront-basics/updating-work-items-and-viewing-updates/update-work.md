@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '4288'
-ht-degree: 54%
+source-wordcount: '2974'
+ht-degree: 86%
 
 ---
 
@@ -19,43 +19,47 @@ ht-degree: 54%
 
 <!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: hide the "Important" box below-->
 
+<!--
 >[!IMPORTANT]
 >
->現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
->* 新しいエクスペリエンス
->* 従来のエクスペリエンス
->* 新しいエクスペリエンスと従来のエクスペリエンス
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> レガシーのコメント作成機能は、プレビュー環境のプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * ホーム
-> * リストの概要パネル
-> * タイムシートの概要パネル
-> * ワークロードバランサーの概要パネル
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。 </span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+-->
 
-Adobe Workfrontオブジェクトに更新を追加して、オブジェクトの進行状況を伝えることができます。 Workfrontで更新を追加できるオブジェクトについて詳しくは、 [更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Adobe Workfront オブジェクトに更新を追加して、オブジェクトの進行状況を伝えることができます。 Workfrontで更新を追加できるオブジェクトについて詳しくは、以下を参照してください。 [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-この記事では、プロジェクト、タスク、問題に関する情報にコメントを付け、更新する方法について説明します。 更新を表示できるのは、オブジェクトに割り当てられているまたは登録しているユーザーです。またユーザーにタグ付けして、更新に注意を向けさせることもできます。
+この記事の情報では、プロジェクト、タスクおよび問題の情報をコメントして更新する方法について説明します。 更新を表示できるのは、オブジェクトに割り当てられているまたは登録しているユーザーです。またユーザーにタグ付けして、更新に注意を向けさせることもできます。
 
-他のオブジェクトにコメントを追加する方法は、プロジェクト、タスクおよびイシューを更新する方法と似ています。 カード、目標、繰り返しのコメント化について詳しくは、次の記事も参照してください。
+他のオブジェクトにコメントを追加することは、プロジェクト、タスク、イシューの更新と似ています。 カード、目標、イテレーションに対するコメントについて詳しくは、次の記事も参照してください。
 
-* [Adobe Workfront目標で目標コメントを管理](../../workfront-goals/goal-management/manage-goal-comments.md).
+* [Adobe Workfront Goals での目標コメントの管理](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   Workfront Goals にアクセスするには、追加のライセンスが必要です。
 
@@ -82,8 +86,8 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront ライセンス</strong></td> 
    <td> 
-   <p>現在：問題およびドキュメントに対する要求以上、その他のすべてのオブジェクトに対する確認以上</p>
-   <p>新規： Contributor 以降（問題およびドキュメントの場合）：他のすべてのオブジェクトの場合は Light 以上</p> 
+   <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p>
+   <p>新規：イシューとドキュメントについてはコントリビューター以上、その他のすべてのオブジェクトについてはライト以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -97,7 +101,7 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 作業の更新に関する考慮事項
 
@@ -105,7 +109,7 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
 
 * Workfront と統合されている他のアプリケーションや Workfront モバイルアプリから、Workfront オブジェクトにコメントを追加できます。
 
-  Workfrontと統合されているすべてのアプリケーションがWorkfrontオブジェクトにコメントを追加できるわけではありません。
+  Workfront と統合されているすべてのアプリケーションに、Workfront オブジェクトへのコメント追加機能があるわけではありません。
 
   アプリケーションから Workfront オブジェクトにアクセスする場合、Workfront のオブジェクトの「更新」セクションで使用できるすべての機能が他のアプリケーションでも使用できるわけではありません。例えば、サードパーティのアプリケーションから Workfront オブジェクトにコメントを追加する場合は、リッチテキスト機能を利用したりコメントを会社に非公開にしたりすることができない可能性があります。
 
@@ -122,9 +126,9 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
 
 * Workfront の次のエリアから、プロジェクト、タスクおよびイシューに更新を追加できます。
 
-   * Workfrontオブジェクトから、「更新」セクション（プロジェクト、タスクおよびイシューの場合）
+   * Workfront オブジェクトから、「更新」セクションで（プロジェクト、タスク、および問題用）
    * ホームエリアから（タスクおよびイシューの場合）
-   * 次の領域にある Summary パネルから（タスクと問題に関して）:
+   * 次の領域の概要パネルから（タスクおよび問題に対して）:
 
       * オブジェクトのリスト
       * タイムシート
@@ -133,113 +137,113 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
-## 作業アイテムへの更新の追加
+<!--
+## Add an update to a work item
 
-作業項目に更新を追加する方法は、使用する「更新」セクションのバージョンに応じて異なります。
+Adding an update to a work item differs depending on what version of the Updates section you use.
 
-次のオブジェクトに更新を追加できます。
+You can add updates to the following objects: 
 
-* プロジェクト
-* タスク
-* イシュー
-* プログラム
-* ポートフォリオ
-* テンプレート
-* テンプレートタスク
-* ユーザー
-* タイムシート
-* チーム
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
 * Goals
-* 「ボード」領域のカード
-* イテレーション
+* Cards in the Boards area
+* Iterations
+-->
 
 <!--info for April 11: hide the section below completely:-->
 
-### 「レガシー更新」セクションの作業項目に更新を追加する
+<!--
+### Add an update to a work item in the legacy Updates section
 
 >[!IMPORTANT]
 >
->このページの情報では、プロジェクト、タスクおよび問題を更新する方法について説明します。
+>The information on this page describes how you update projects, tasks, and issues.
 
-1. 更新対象の作業アイテム（プロジェクト、タスク、イシューなど）に移動します。
-1. 「**更新**」セクションをクリックします。
-1. （条件付き）有効な場合、 **新しいコメント** オプションを使用して、従来のコメント作成機能を有効にすることができます。
-1. 「**新しい更新を開始**」をクリックしたあと、更新内容を入力します。
-1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字、リンク、画像を更新に追加し、コンテンツを拡張できます。 詳しくは、[Workfront における更新へのリッチテキストの使用](#use-rich-text-in-a-workfront-update)の節を参照してください。
-1. （オプション）作業アイテムに関する次の情報を任意に更新します。
+1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
+1. Click the **Updates** section.
+1. (Conditional) If it is enabled, click the **New commenting** option in the upper-right corner of the Updates section to disable it and enable the legacy commenting experience.
+1. Click **Start a new update,** then type your update.  
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>通知</strong></td> 
-      <td>更新の通知が必要なユーザーを特定します。オブジェクトに割り当てられているまたは登録しているユーザーは、更新が行われると、自動的に通知を受け取ります。<br><p>更新時に他のユーザーを含める方法については、<a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">更新時の他のユーザーへのタグ付け</a>を参照してください。</p></td> 
+      <td role="rowheader"><strong>Notify</strong></td> 
+      <td>Identify users who must be notified of the update. Users assigned or subscribed to the object automatically receive notification when an update is made.<br><p>For information about how to include others on an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>コミット日</strong></td> 
-      <td>日付選択で、作業アイテムの完了を約束する日付を選択します。コミット日に関しては、<a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">コミット日の概要</a>を参照してください。</td> 
+      <td role="rowheader"><strong>Commit Date</strong></td> 
+      <td>In the date picker, select the date that you commit to complete the work item. For information about Commit Date, see <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>状況</strong></td> 
-      <td>タスクまたはイシューの新しい状況を選択します。状況の選択について詳しくは、<a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">タスクおよびイシューの状況の更新</a>を参照してください。</td> 
+      <td role="rowheader"><strong>Condition</strong></td> 
+      <td>Select a new condition for the task or issue. For information about selecting a condition, see <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>ステータス</strong></td> 
-      <td>現在のステータスの横にある矢印をクリックし、ドロップダウンメニューから目的のステータスを選択します。ステータスの設定については、<a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">タスクステータスの更新</a>を参照してください。<p>作業アイテムのステータスをアップデートしても、プロジェクトのステータスは自動的には変更されません。プロジェクトの設定に応じて、プロジェクトステータスを個別に更新する場合があります。プロジェクトの様々な更新タイプについて詳しくは、<a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">プロジェクト更新タイプの選択</a>を参照してください。</p><p><b>メモ</b>
-
-   作業アイテムのステータスが「承認保留中」の場合は、ステータスを変更できません。</p></td>
-   </tr> 
-     <tr> 
-      <td role="rowheader"><strong>完了バー</strong></td> 
-      <td>（タスクでのみ使用可能）進捗バーを目的のパーセンテージにスライドして、作業の完了率を指定します。完了バーをダブルクリックして、完了率を入力することもできます。</td> 
+      <td role="rowheader"><strong>Status</strong></td> 
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
+      
+      You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>社外秘</strong></td> 
-      <td> <p>社外のユーザーにこの更新が表示されないようにするには、このオプションを有効にします。</p> 
-      <p><b>メモ</b></p>
-      <p>このオプションは、ユーザーが会社に関連付けられている場合にのみ表示されます。</p>
-      <p>このオプションは、更新を追加できるすべての領域で使用できるわけではありません。 例えば、から更新を追加できるサードパーティアプリケーションでは使用できません。 </p>
+      <td role="rowheader"><strong>Completion Bar</strong></td> 
+      <td>(Only available on tasks) Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Private to my company</strong></td> 
+      <td> <p>Disable this option to prevent users outside your company from having access to view this update.</p> 
+      <p><b>NOTE</b></p>
+      <p>This option displays only when the user is associated with a Company.</p>
+      <p>This option is not available in all areas where you can add updates from. For example, this is not available in third-party applications where you can add updates from. </p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 「**更新**」をクリックして、Workfront オブジェクトに更新を追加します。
+1. Click **Update** to add the update to the Workfront object.
 
    >[!NOTE]
    >
-   >「**更新**」をクリックすると、小さなポップアップウィンドウが 7 秒間表示されます。このポップアップウィンドウを使用すると、更新が投稿される前に更新を取り消して編集ペインに戻ることができます。取り消しポップアップを閉じたり、ポップアップが表示されなくなるのを待ったり、ページから移動したりすると、更新が投稿されます。
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update is posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
    >
-   >Workfront 管理者がアクセスレベルで「ユーザーによるコメントの削除を許可しない」設定を選択した場合、コメントを取り消すことはできません。詳しくは、[カスタムアクセスレベルを作成および変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+   >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-1. アップデートに返信するには、[更新に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)を参照してください。
+1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+-->
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-### 新しいコメントエクスペリエンスを使用して作業項目に更新を追加する
+## 作業項目に更新を追加 <!--using the new commenting experience-->
 
-1. 更新するオブジェクト（プロジェクト、タスク、またはイシュー）を探し、名前をクリックしてオブジェクトのページを開きます。
-1. クリック  **更新** をクリックします。
+1. 更新するオブジェクト（プロジェクト、タスク、イシュー）を見つけ、その名前をクリックしてそのオブジェクトのページを開きます。
+1. クリック  **更新** 左側のパネルで次の操作を行います。
 デフォルトでは、「**コメント**」タブが選択されています。
 
-1. （条件付き） **新しいコメント** オプションは無効です。クリックして有効にします。
+<!--
+1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   これにより、新しいコメントの操作が可能になります。
+   This enables the new commenting experience. 
 
-   >[!TIP]
-   >
-   ><span class="preview">プレビュー環境で、新しいコメントオプションが削除されました。</span>
-
+      >[!TIP]
+      >
+      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+-->
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
-   <div class="preview">
-
-   ![新しいコメントボックス](assets/comment-box-all-tabs.png)
-
-   </div>
-
+   ![「新しいコメント」ボックス](assets/comment-box-all-tabs.png)
 
    >[!TIP]
    >
@@ -248,12 +252,13 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
    * Ctrl + Z（Mac の場合は ⌘+z）で、変更を元に戻します
    * Ctrl + Y（Mac の場合は ⌘+y）で、変更をやり直します
+
 1. （オプション）**担当者またはチームのタグ付け**&#x200B;エリアで、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
-1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字、リンク、画像を更新に追加し、コンテンツを拡張できます。 詳しくは、[Workfront の更新でリッチテキストを使用](#use-rich-text-in-a-workfront-update)の節を参照してください。
+1. （オプション）リッチテキストツールバーのオプションを使用すると、テキストの書式設定や、更新への絵文字、リンクまたは画像の追加を行って、コンテンツを拡充できます。詳しくは、[Workfront の更新でリッチテキストを使用](#use-rich-text-in-a-workfront-update)の節を参照してください。
 
    >[!TIP]
    >
-   >別のユーザーが、更新しようとしている同じ項目にコメントを送信した場合、赤い線に「新規」インジケータが表示され、新しいコメントが通知されます。
+   >更新中のアイテムに別のユーザーがコメントを送信した場合、「新規」インジケーターと赤い線が表示され、新しいコメントが通知されます。
    >
    >インジケーターは、コメントが項目に送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
    >
@@ -261,18 +266,17 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. 「**送信**」をクリックして、Workfront オブジェクトに更新を追加します。
-1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png) コメントの右上隅で、 **編集**.
+1. （オプション）コメントを編集するには、コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックして、「**編集**」をクリックします。
 
    >[!IMPORTANT]
    >
-   >コメントは送信後 15 分以内にのみ編集できます。
+   >コメントは送信後の 15 分間のみ編集できます。
 
-1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。 コメントの入力時に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
+1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除を行います。コメントの入力時に表示される日付スタンプの左側に、「編集済み」インジケーターが追加されます。
 
    >[!TIP]
    >
-   >現在の年からのコメントでは、日付スタンプに年は表示されません。 タイムスタンプの上にマウスポインターを置くと、年を含む完全な日付が表示されます。
-
+   >当年からのコメントでは、日付スタンプに年は表示されません。タイムスタンプにポインタを合わせると、年を含む完全な日付が表示されます。
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
@@ -280,53 +284,50 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
    >
    >* 元の更新を送信した場合にのみ、ユーザーに更新を通知するメールが生成されます。更新を編集した後は、メールは生成されません。
    >* コメントの横の日付スタンプは、最後の編集の日付ではなく、元のコメントの日付です。
-   >* 別のユーザーの代わりにコメントを追加する場合 (Workfrontまたはグループ管理者として別のユーザーとしてログインする場合 )、他のユーザーとしてログインしている場合はコメントを編集できません。 コメントは、ユーザーとしてログアウトし、自分で再度ログインした後にのみ編集できます。
+   >* 別のユーザーの代わりにコメントを追加する際（Workfront またはグループ管理者が別のユーザーとしてログインしている場合）、他のユーザーとしてログインしている場合は、コメントを編集できません。コメントを編集するには、そのユーザーとしてログアウトし、自分自身として再度ログインする必要があります。
 
+1. （任意）クリック **返信** または、でコメントの入力を開始します **返信を追加…** 既存のコメントに返信するには、上記の手順 3～7 に従います。 <!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、[更新に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)を参照してください。
 
-1. （オプション）「 **返信** または、 **返信を追加…** 「 」領域に移動し、既存のコメントに返信する場合は、上記の手順 4～8 に従います。 <!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、[更新に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)を参照してください。
-
-1. （条件付きおよびオプション）コメントの追加中に、「更新」セクションの表示領域の外側に表示されるコメントを他のユーザーが追加した場合は、「 **表示** 青の中に **新しいコメントバナー** をクリックして、これらのコメントを表示します。
+1. （条件付きおよびオプション）コメントを追加している間に、「更新」セクションの表示エリアの外側に表示されるコメントを他のユーザーが追加した場合は、画面下部の青い&#x200B;**新しいコメントバナー**&#x200B;内の「**表示**」をクリックして、これらのコメントを表示します。
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    追加のコメントが画面の下部に表示されます。
-
 
    >[!NOTE]
    >
    >   「新しいコメント」インジケーターと「表示」ボタンは、新しい更新を入力したユーザーと、現在「更新」セクションを表示しているユーザーの両方が新しいコメント機能のエクスペリエンスを使用している場合にのみ表示されます。
 
 1. （オプション）**いいね！**&#x200B;アイコン ![](assets/like-icon.png) をクリックします。アイコンは「いいね！」の数に応じて更新されます。
-1. （条件付きおよびオプション）コメントに追加の担当者を含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているエンティティのリストを表示します。
+1. （条件付きおよびオプション）コメントに追加のユーザーを含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているエンティティのリストを表示します。
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
-   >最初の 2 つのタグ付きエンティティの名前が、アバターの横に表示されます。 3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前と追加エンティティの数のみが表示されます。
+   >最初の 2 つのタグ付きエンティティの名前が、アバターの横に表示されます。3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前と追加エンティティの数のみが表示されます。
 
-1. <span class="preview"> （オプション）コメントの名前をクリックして、情報ボックスにその名前、役割、電子メールアドレスを表示します。 情報ボックスでコメントの名前を再度クリックして、ユーザープロファイルを開きます。</span>
+1. （オプション）コミュニケーターの名前をクリックして、名前、役割、メールアドレスを情報ボックスに表示します。 情報ボックスでコミュニケーターの名前を再度クリックして、ユーザープロファイルを開きます。
 1. （オプション）「**システムアクティビティ**」タブをクリックして、システムによって記録された更新を表示します。オブジェクトまたはその子のいずれかが更新されると、Workfront はその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。
 
-   詳しくは、 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   詳しくは、[「更新」セクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
    >[!TIP]
    >
-   >システム更新にコメントを追加することはできません。 <span class="preview">ただし、従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対する返信は、「システムアクティビティ」タブに読み取り専用として設定されます。</span>
+   >システムの更新にコメントを追加することはできません。 ただし、従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。
 
-1. <span class="preview">（オプション） **すべて** タブを使用して、ユーザーコメントとシステムアクティビティコメントの両方を 1 か所で表示できます。 これは表示専用のタブです。</span>
+1. （任意） **すべて** tab キーを押すと、ユーザーコメントとシステムアクティビティコメントの両方が 1 か所で表示されます。 これは表示のみのタブです。
 
    >[!TIP]
    >
-   ><span class="preview">「すべて」タブでは、既存のコメント内のコメントに対して返信したり、他のユーザーにタグ付けしたりすることはできません。 「すべて」タブでコメントに返信するには、 **コメントで返信** をクリックして、「コメント」タブでコメントを開きます。</span>
+   >「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。「すべて」タブでコメントに返信するには、 **コメントで返信** をクリックして、「コメント」タブでコメントを開きます。
 
 ## Workfront の更新にリッチテキストを使用{#use-rich-text-in-a-workfront-update}
-
 
 リッチテキストを使用したり、絵文字、リンク、画像などの様々な項目を追加したりして、更新内容を強化できます。
 
 1. Workfront オブジェクトの&#x200B;**更新**&#x200B;エリアに移動し、コメントの入力を開始します。
-1. （オプション）リッチテキスト書式を更新に追加するには、 **リッチテキスト** ツールバーを使用します。
+1. （オプション）リッチテキスト書式を更新に追加するには、入力時に&#x200B;**リッチテキスト**&#x200B;ツールバーの属性を使用します。
 
    ![](assets/rich-text-toolbar.png)
 
@@ -335,10 +336,10 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
    | 太字 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>リンクを追加ボックスを開くには、⌘+K を押します。</br> <br>選択したテキストにリンクを貼り付けるには、⌘+V を使用します。</br> | <br>「リンクを追加」ボックスを開くには、Ctrl+K を押します。</br> <br>選択したテキストにリンクを貼り付けるには、Ctrl+V を押します。</br> |
+   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを追加」ボックスを開くには、⌘ + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、⌘ + V を使用します</br> | <br>「リンクを追加」ボックスを開くには、Ctrl + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、Ctrl + V を使用します</br> |
    | 箇条書き | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 番号付きリスト | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
-   | ブロック引用 | ![](assets/block-quote-icon-large.png) | ⌘+Shift+9 | <br>Ctrl+Shift+9</br> <br>これは、新しいコメントエクスペリエンスでは使用できません。 </br> |
+   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->
 
@@ -354,13 +355,13 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
    >* 組織が Internet Explorer でWorkfront を使用している場合、更新に貼り付けた書式設定済のテキストからはリッチテキストの書式が失われ、プレーンテキストとして表示されます。リッチテキストツールバーの属性を使用して、テキストの書式を変更できます。
    >* リッチテキストの書式設定は、レポートで表示されるタイムシートエリアで行われた更新や、メモおよび最終状況オブジェクトの更新には使用できません。
 
-1. （オプションおよび条件付き）以前の更新のテキストや他のソースのテキストを含め、独自の更新と区別する場合は、ブロック引用としてマークできます。 「**ブロック引用**」アイコン![](assets/block-quote-small.png)をクリックし、引用するテキストを入力します。引用されたテキストは、垂直の灰色の線でマークされて表示されます。次をクリック： **ブロック見積もり** 通常の書式に戻るにはアイコンを再度使用します。 これは、新しいコメントエクスペリエンスでは使用できません。
+<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-   <!--remove this picture below and the bullet above when we remove legacy-->
+<!--remove this picture below and the bullet above when we remove legacy-->
 
-   ![](assets/block-quote-marked-350x144.png)</span>
+<!--![](assets/block-quote-marked-350x144.png)-->
 
-1. （オプション） **絵文字** アイコン ![](assets/emoji-icon.png) をクリックして、更新に絵文字を追加します。
+1. （オプション）**絵文字**&#x200B;アイコン ![](assets/emoji-icon.png) をクリックして、更新に絵文字を追加します。
 
    >[!NOTE]
    >
@@ -381,24 +382,21 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
    1. **表示するテキスト**&#x200B;で、リンクテキストを入力またはペーストします。
    1. 「**保存**」をクリックします。
 
-1. （オプション）更新に画像を添付するには、次のいずれかの操作を行います。
+1. （オプション）更新に画像を添付するには、次のいずれかの操作を実行します。
 
-   * コンピューター上に画像を保存し、新しいコメント領域にドラッグ&amp;ドロップします。
-   * コンピューターからスクリーンショットをコピーし、コメントに貼り付けます。 これは、従来のコメントエクスペリエンスでは使用できません。
-   * 次をクリック： **画像を追加** アイコン ![](assets/add-image-mountain-with-plus-icon.png) お使いのコンピューター上の画像を参照します。
+   * コンピューター上に画像を保存し、新しいコメントエリアにドラッグ＆ドロップします。
+   * コンピューターからスクリーンショットをコピーし、コメントに貼り付けます。<!-- This is not available in the legacy commenting experience.-->
+   * **画像を追加**&#x200B;アイコン ![](assets/add-image-mountain-with-plus-icon.png) をクリックし、お使いのコンピューター上で画像を参照します。
 
 
    >[!NOTE]
    >
    >* 画像アイコンや、添付ファイルを追加アイコンを表示するには、Workfront 管理者が、画像の追加を Workfront インターフェイスエリアの「フィードの環境設定を更新」セクションで有効にする必要があります。詳しくは、[ユーザーの更新用に環境設定を指定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)を参照してください。
    >* 画像ファイルの最大サイズは 7 MB です。サポートされる画像ファイルタイプは、.jpg、.gif および .png です。
-   >* 画像は、オブジェクトの「更新」セクションからアクセスでき、メインメニューの「ドキュメント」領域でも使用できます。
-   >* 画像を貼り付けるには、新しいコメントを右クリックするか、Windows の場合は Ctrl + V(Macの場合は⌘ + V) を押します。
+   >* 画像はオブジェクトの「更新」セクションのほか、メインメニューのドキュメントエリアからもアクセスできます。
+   >* 画像を貼り付けるには、新しいコメントを右クリックするか、Windows の場合は Ctrl + V（Mac の場合は ⌘ + V）キーを押します。
    >* 画像は含むがテキストを含まないアップデートを送信できます。
-   >* 画像を含むコメントを削除する場合、選択したエクスペリエンスに応じて、以下のシナリオが存在します。
-   >
-   >     * 従来のコメントエクスペリエンスでは、画像は「ドキュメント」領域に残りますが、「更新」セクションには表示されません。
-   >     * 新しいコメントエクスペリエンスでは、画像はアップデートセクションおよびドキュメントエリアから削除されます。コメントを編集して画像を削除すると、その画像もドキュメントエリアから削除されます。
+   >* 画像を含むコメントを削除すると、その画像は「更新」セクションと「ドキュメント」領域から削除されます。 コメントを編集して画像を削除すると、その画像もドキュメントエリアから削除されます。
    >* コメントに添付された画像をドキュメントエリアから削除すると、その画像はコメントからも削除されます。
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
@@ -408,28 +406,28 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
    * 画像のサムネールで&#x200B;**プレビュー**&#x200B;アイコン ![](assets/previewimageicon-31x31.png) をクリックして、フルサイズの画像を新しいブラウザータブで開きます。
    * 画像のサムネールで&#x200B;**ダウンロード**&#x200B;アイコン ![](assets/downloadimageicon.png) をクリックして、画像をダウンロードします。
 
-1. クリック **送信** コメントを追加します。
+1. 「**送信**」をクリックして、コメントを追加します。
 
-## 更新を検索
+## 更新の検索
 
 オブジェクトの「更新」セクションで、コメントや返信を検索できます。
 
-1. 次に移動： **更新** セクションに含める必要があります。
-1. キーワードの入力を開始する <!--or a user's name --> （内） **検索** ボックス **コメント** タブをクリックします。
+1. オブジェクトの「**更新**」セクションに移動します。
+1. 「**コメント**」タブの右上隅にある&#x200B;**検索**&#x200B;ボックスにキーワード<!--or a user's name -->を入力していきます。
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    >[!NOTE]
    >
-   >検索できるのは、コメントまたは返信のテキストに属する単語のみです。 更新でタグ付けされたユーザーまたはチームの名前は検索できません。
+   >検索できるのは、コメントまたは返信のテキストに含まれている単語のみです。更新でタグ付けされたユーザーやチームの名前は検索できません。
 
-   ![更新を検索](assets/updates-all-tabs-with-search-field.png)
+   ![更新での検索](assets/updates-all-tabs-with-search-field.png)
 
-   キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
+   検索したキーワード<!--or user-->がハイライト表示され、その語を含んだコメントが「更新」セクションの上部に表示されます。
 
-   Workfrontは、画面に表示されるコメントの外側にある、オブジェクトの更新ストリーム全体を検索します。
+   Workfront は、画面に表示されるコメントの外側にある、オブジェクトの更新ストリーム全体を検索します。
 
-1. 次をクリック： **x** 検索フィールド内のアイコンを使用して、検索結果を消去し、すべてのコメントに戻ります。
+1. 検索フィールドの「**x**」アイコンをクリックすると、検索結果を消去してすべてのコメントに戻ります。
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
@@ -437,117 +435,119 @@ Adobe Workfrontオブジェクトに更新を追加して、オブジェクト�
 
 更新をコピーする方法はいくつかあります。リンクをコピーした後、他のユーザーとリンクを共有して、ユーザーを更新に誘導することができます。
 
-更新のコピーは、使用するコメントエクスペリエンスに応じて異なります。
+<!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### 新しいコメントエクスペリエンスに更新をコピー
+### 更新をコピー <!--in the new commenting experience-->
 
-新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
+<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
-次のいずれかの操作を行って、既存のコメントから情報をコピーできます。
+次のいずれかの操作を行うと、既存のコメントから情報をコピーできます。
 
 * [リンクをコピー](#copy-link)
 * [本文をコピー](#copy-body-text)
-* [見積もりの返信](#quote-reply-1)
+* [引用返信](#quote-reply-1)
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
 #### リンクをコピー
 
-「リンクをコピー」オプションを選択すると、コメントまたはスレッドのリンクがクリップボードにコピーされ、他のユーザーとコメントまたはスレッド全体を共有できます。
+「リンクをコピー」オプションでは、コメントやスレッドリンクがクリップボードにコピーされて、コメントや完全なスレッドを他のユーザーと共有できるようになります。
 
 1. リンクをコピーする更新に移動します。
 
 1. **その他**&#x200B;メニュー、「**リンクをコピー**」の順にクリックします。
 
-1. 前の手順でコピーしたリンクを電子メールまたは他のアプリケーションに貼り付けて、他のユーザーと共有します。 リンクを共有したコメントが共有リンクによって開きます。
+1. 前の手順でコピーしたリンクをメールまたは他のアプリケーションに貼り付けて、他の人と共有します。共有リンクをクリックすると、リンク元のコメントが開きます。
 
    >[!TIP]
    >
-   >上位のオブジェクトから子オブジェクト上の会話のリンクを共有すると、そのリンクは上位のオブジェクトの [ 更新 ] 領域でスレッドを開きます。
+   >上位オブジェクトから子オブジェクト上の会話のリンクを共有すると、上位オブジェクトの更新エリアでスレッドが開きます。
    >
-   >例えば、タスクコメントのリンクをプロジェクトの更新領域からコピーすると、コメントはプロジェクトページを開きます。
+   >例えば、タスクのコメントのリンクをプロジェクトの更新エリアからコピーすると、プロジェクトページが開きます。
 
 #### 本文をコピー
 
-「本文テキストをコピー」オプションは、特定の更新内容からクリップボードにテキストをコピーします。
+「本文をコピー」オプションは、特定の更新からのテキストをクリップボードにコピーします。
 
 1. コピーする更新に移動、あるいは返信します。
 1. **その他**&#x200B;メニュー、「**本文テキストをコピー**」の順にクリックします。
 
-#### 見積もりの返信
+#### 引用返信
 
-「Quote reply」オプションは、元のコメントを新しい返信にブロック引用としてコピーします。
+「引用返信」オプションは、元のコメントを新しい返信にブロック引用としてコピーします。
 
 1. コピーする更新に移動、あるいは返信します。
-1. 次をクリック： **その他** メニュー、次に「 **見積もりの返信**.
+1. **その他**&#x200B;メニューをクリックし、「**引用返信**」をクリックします。
 
-   新しいコメントボックスが開き、引用の返信が新しいコメントに含まれ、ブロック引用符としてマークされます。
+   新しいコメントボックスが開き、引用された返信が新しいコメント内に含まれ、ブロック引用としてマークされます。
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
-1. 更新の追加を続行し、「 **送信** をクリックしてコメントを追加します。
+1. 更新の追加を続行し、「**送信**」をクリックしてコメントを追加します。
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
-### 従来のコメントエクスペリエンスでの更新のコピー
+<!--
+### Copy an update in the legacy commenting experience
 
-* [更新をコピー](#copy-the-update)
-* [スレッドリンクをコピー](#copy-the-thread-link)
-* [更新リンクをコピー](#copy-the-update-link)
-* [引用返信](#quote-reply)
+* [Copy the update](#copy-the-update) 
+* [Copy the thread link](#copy-the-thread-link) 
+* [Copy the update link](#copy-the-update-link)
+* [Quote Reply](#quote-reply)
 
-  >[!TIP]
-  >
-  >上位のオブジェクトから子オブジェクト上の会話のリンクをコピーして共有すると、そのリンクは子オブジェクトの [ 更新 ] 領域でスレッドを開きます。
-  >
-  >例えば、プロジェクトの更新領域からタスクコメントのリンクをコピーすると、そのコメントはタスクページを開きます。
+   >[!TIP]
+   >
+   >When you copy and share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the child object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the task page.
 
-#### 更新をコピー {#copy-the-update}
+#### Copy the update {#copy-the-update}
 
-このオプションは、テキストを特定の更新からクリップボードにコピーします。
+This option copies the text from a specific update to the clipboard.
 
-1. コピーする更新に移動、あるいは返信します。
-1. **その他**&#x200B;メニュー、「**本文テキストをコピー**」の順にクリックします。
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### スレッドリンクをコピー {#copy-the-thread-link}
-
-このオプションは、完全なスレッドリンクをクリップボードにコピーして、スレッドを他のユーザーと共有できるようにします。
-
-1. コピーするアップデートスレッドに移動します。
-
-1. **その他**&#x200B;メニュー、「**スレッドリンクをコピー**」の順にクリックします。
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 前の手順でコピーしたリンクを電子メールまたは他のアプリケーションに貼り付けて、他のユーザーと共有します。 リンクを共有したコメントが共有リンクによって開きます。
+#### Copy the thread link {#copy-the-thread-link}
 
-#### 更新リンクをコピー {#copy-the-update-link}
+This option copies the full thread link to the clipboard so you can share the thread with other users.
 
-このオプションは、特定のアップデートリンクをクリップボードにコピーします。更新リンクを共有すると、リンクをたどるユーザーには、更新の周囲に境界線が表示されます。
+1. Go to the update thread you want to copy.
 
-1. コピーする更新に移動、あるいは返信します。
-1. 個々の更新の横にある&#x200B;**その他**&#x200B;メニューをクリックし、次に「**更新リンクをコピー**」をクリックします。
+1. Click the **More** menu, then click **Copy thread link**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Copy the update link {#copy-the-update-link}
+
+This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/copy-update-link-old-ui.png)
 
-1. 前の手順でコピーしたリンクを電子メールまたは他のアプリケーションに貼り付けて、他のユーザーと共有します。 リンクを共有したコメントが共有リンクによって開きます。
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
-#### 引用返信
+#### Quote Reply  
 
-「Quote Reply」オプションは、元のコメントを新しい返信にブロック引用としてコピーします。
+The Quote Reply option copies the original comment to a new reply as a block quote. 
 
-1. コピーする更新に移動、あるいは返信します。
-1. 次をクリック： **その他** メニュー、次に「 **見積もりの返信**.
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Quote Reply**.
 
-   新しいコメントボックスが開き、引用の返信が新しいコメントに含まれ、ブロック引用符としてマークされます。
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
 
-1. 更新の追加を続行し、「 **返信** をクリックしてコメントを追加します。
+1. Continue adding your update and click **Reply** to add the comment.
+-->
 
 ## 更新または返信を削除
 
@@ -556,11 +556,11 @@ Workfront 管理者がユーザーに提供するアクセス権によっては�
 Workfront ユーザー（Workfront 管理者を含む）は、別のユーザーが行った更新を削除できません。ただし、あるユーザーが自身の更新を削除できるアクセスレベルを有している場合、Workfront 管理者はそのユーザーとしてログインして、ユーザーが行った更新を削除できます。詳しくは、[カスタムアクセスレベルを作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)および[別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
 
 1. 削除する更新または返信に移動します。
-1. 次をクリック： **その他** 削除する更新または返信の横のメニューから、 **削除**. <!--October 2023 - replace screen shot here-->
+1. 削除する更新または返信の横にある&#x200B;**その他**&#x200B;メニューをクリックしてから、「**削除**」を選択します。<!--October 2023 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. 表示されるメッセージで、 **削除**.
+1. 表示されるメッセージで、「**削除**」をクリックします。
 
    >[!NOTE]
    >
@@ -570,18 +570,18 @@ Workfront ユーザー（Workfront 管理者を含む）は、別のユーザー
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
-   削除されたコメントは、Workfrontから直ちに削除されます。 更新セクションを使用するユーザーには、他のユーザーによるコメントの削除が、リアルタイムで表示されます。
+   削除したコメントは、Workfront から直ちに消去されます。更新セクションを使用するユーザーには、他のユーザーによるコメントの削除が、リアルタイムで表示されます。
 
 
 ## システム更新の確認
 
 Workfront オブジェクトの更新セクションには、以下の 2 種類の情報が表示されます。
 
-* **ユーザーの更新：** ユーザーの更新とは、自分とシステム内の他のユーザーが入力するコメントです。 ユーザーの更新は、「更新」セクションの「コメント」および「すべて」タブに表示されます。
+* **ユーザーの更新：** ユーザーの更新は、自分およびシステム内の他のユーザーが入力するコメントです。 ユーザーの更新は、「更新」セクションの「コメント」タブと「すべて」タブに表示されます。
 
   ![](assets/user-update-cl-350x277.png)
 
-* **システムの更新：** タスクや問題の削除、ドキュメントバージョンの追加や削除、承認リクエストの添付や削除、およびオブジェクトに対する編集や変更が記録されます。 システムの更新は、「更新」セクションの「システムアクティビティ」タブと「すべて」タブに表示されます。
+* **システムの更新：** システムは、タスクまたは問題の削除、ドキュメントのバージョンの追加または削除、承認リクエストの添付または削除、およびオブジェクトに対して行われた編集や変更を記録に更新します。 システムの更新は、「システムアクティビティ」と「更新」セクションの「すべて」タブに表示されます。
 
   ![](assets/system-updates-cl-350x277.png)
 
@@ -594,7 +594,7 @@ Workfront オブジェクトの更新セクションには、以下の 2 種類�
    * テンプレートタスク
    * アドホックカード
 
-システムの更新の詳細については、「更新」セクションの「 [アップデートセクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+「更新」セクションのシステム更新の詳細については、を参照してください [更新セクションの概要](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 <!--

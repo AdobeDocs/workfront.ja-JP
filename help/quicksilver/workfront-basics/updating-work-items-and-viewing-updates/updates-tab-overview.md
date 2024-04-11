@@ -7,10 +7,10 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
+source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 49%
+source-wordcount: '912'
+ht-degree: 82%
 
 ---
 
@@ -23,174 +23,176 @@ ht-degree: 49%
 
 <!--info for April 11: hide the disclaimer for preview below-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: take out the Important box-->
 
 オブジェクトの「更新」セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更をトラックするシステム更新が表示されます。
 
+<!--
 >[!IMPORTANT]
 >
->現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
->* 新しいエクスペリエンス
->* 従来のエクスペリエンス
->* 新しいエクスペリエンスと従来のエクスペリエンス
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
-><Span class="preview"> レガシーのコメント作成機能は、プレビュー環境のプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
 >
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
-> * ホーム
-> * リストの概要パネル
-> * タイムシートの概要パネル
-> * ワークロードバランサーの概要パネル
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 >
-><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.
+-->
 
 ## 「更新」セクションの概要
 
-オブジェクトの「更新」セクションには、システムの更新と、過去 90 日以内にユーザーが行った最新の更新のうち、最大 200 個が表示されます。
-
-<div class="preview">
+オブジェクトの「更新」セクションには、システムの更新と、ユーザーが過去 90 日以内に行った最新の更新のうち最大 200 件が表示されます。
 
 ![「更新」セクション](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
-</div>
+<!--Info for April 11: Add the following right under the screen shot above:-->
 
-<!--Info for April 11: Add the following right under the screen shot above:
+次のオブジェクトには、コメントを追加したり、システムの更新を確認したりできる「更新」セクションがあります。
 
-The following objects have an Updates section where you can add comments or review system updates: 
-
-* Projects
-* Tasks
-* Issues
-* Programs
-* Portfolios
-* Templates
-* Template tasks
-* Users
-* Timesheets
-* Teams
+* プロジェクト
+* タスク
+* イシュー
+* プログラム
+* ポートフォリオ
+* テンプレート
+* テンプレートタスク
+* ユーザー
+* タイムシート
+* チーム
 * Goals
-* Cards in the Boards area
-* Iterations
--->
+* ボードエリアのカード
+* イテレーション
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
-どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次のような操作が表示されます。
+<!--
+Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
-* 次のオブジェクトの新しいコメントエクスペリエンスと従来のコメントエクスペリエンスの両方：
+* Both the new and legacy commenting experience for the following objects: 
 
-   * プロジェクト
-   * タスク（ストーリーを含む）
-   * イシュー
-   * ドキュメント
+  * Project
+  * Task (this includes Stories)
+  * Issue
+  * Document
 
-     >[!TIP]
-     >
-     >「新しいコメント」オプションを使用して、新しいコメントエクスペリエンス（有効にした場合）または従来のコメントエクスペリエンス（無効にした場合）を表示します。 新しいコメントエクスペリエンスがデフォルトです。 詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
+    >[!TIP]
+    >
+    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
-* 以下に示すオブジェクトの新しいコメントエクスペリエンスのみ。 これらのオブジェクトに対して従来のコメント作成機能を有効にするオプションはありません。
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
-   * 目標
+  * Goal
 
-     >[!NOTE]
-     >
-     >Workfront のこのエリアにアクセスするには、Adobe Workfront Goals に対する追加のライセンスが必要です。詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 
-   * ボード上のカード
-   * チーム
-   * テンプレート
-   * テンプレートタスク
-   * タイムシート
-   * プログラム
-   * ポートフォリオ
-   * ユーザー
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
 
-* 次のオブジェクトに対する従来のコメントエクスペリエンスのみ：
+* Only the legacy commenting experience for the following objects:
 
-   * イテレーション
+  * Iterations
 
-     繰り返しの新しいコメントエクスペリエンスを有効にするオプションはありません。 詳しくは、 [反復コメントの管理](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+    There is no option to enable the new commenting experience for iterations. For more information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+-->
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 新しいコメントエクスペリエンスの更新の節の概要
-
-<div class="preview">
+### 「更新」セクションの概要 <!--in the new commenting experience-->
 
 ![「更新」セクション](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-</div>
-
 <!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
+<!--
 >[!NOTE]
 >
->新しいコメントエクスペリエンスは、繰り返しでは使用できません。
+>The new commenting experience is not available for iterations.
+-->
 
-* 「更新」セクションには、新しいコメントエクスペリエンスの次のタブに情報が表示されます。
+* 「更新」セクションには、次のタブに情報が表示されます<!-- in the new commenting experience-->:
 
-   * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-   * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前、またはカスタムフィールドの変更は、システムの更新によって取り込まれます。 Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。<span class="preview">従来のコメント作成エクスペリエンスのシステムアクティビティレコードに対しておこなわれた応答は、「システムアクティビティ」タブに読み取り専用として設定されます。</span> 詳しくは、 [システム更新の構成](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * <span class="preview">**すべて（読み取り専用）**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。 これは表示専用のタブです。 「すべて」タブでは、既存のコメント内のコメントに対して返信したり、他のユーザーにタグ付けしたりすることはできません。 特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。 新しいコメントエクスペリエンスでのオブジェクトの更新について詳しくは、 [作業を更新](../updating-work-items-and-viewing-updates/update-work.md).</span>
+   * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。オブジェクトの更新について<!-- in the new commenting experience-->を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
+   * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込まれます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
+   * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。これは表示専用のタブです。「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。オブジェクトの更新について<!-- in the new commenting experience-->を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
 
-* 次のオブジェクトには「システムアクティビティ」タブがありません <span class="preview">または「すべて」タブを選択します。</span>
+* 次のオブジェクトには、「システムアクティビティ」タブや「すべて」タブはありません。
 
    * チーム
    * テンプレート
    * テンプレートタスク
    * アドホックカード
+   * イテレーション
 
-     カードの更新について詳しくは、 [ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+     カードの更新の詳細については、を参照してください。 [ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* 次のオブジェクトには <span class="preview">すべてのタブ：</span>
+     イテレーションの更新について詳しくは、を参照してください [反復コメントの管理](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
+* 次のオブジェクトには、「すべて」タブはありません。
 
    * Goals
 
-     目標の更新について詳しくは、 [目標のコメントを管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     目標の更新について詳しくは、を参照してください [目標コメントの管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!--info for April 11: make the text below live - remove the commented out brackets: 
+NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
 
 * The following objects don't have a System Activity or an All tab: 
 
   * Iterations
 
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
-
--->
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 
-### 従来のアップデートの節の概要
+<!--
+### Overview of the legacy Updates section 
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
-「従来の更新」セクションには、次の情報が表示されます。
+The legacy Updates section shows the following information:
 
-* **ユーザーの更新**：ユーザーがおこなったコメント、およびそれらのコメントに対する返信。
-* **システムの更新**：オブジェクトに特定のイベントを記録するためにWorkfrontが作成する情報メッセージ。 例えば、システム更新を含むステータス、名前、またはカスタムフィールドの変更を取り込むことができます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
+* **User updates**: Comments made by users and replies to those comments. 
+* **System updates**: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-次のオブジェクトでは、システム更新は記録されません。
+The following objects don't record system updates:
 
-* チーム
-* テンプレート
-* テンプレートタスク
-* イテレーション
-
+* Team
+* Template
+* Template Task
+* Iterations
+-->
 
 ## 上位のオブジェクトにも表示される更新
 
-特定のオブジェクトのコメント、返信、またはシステム更新も、上位のオブジェクトの「更新」セクションに表示されます。
+特定のオブジェクトに関するコメント、返信、システムの更新も、上位のオブジェクトの「更新」セクションに表示されます。
 
 例えば、タスクを更新すると、その更新はタスクの「更新」セクションと、そのタスクを含んだプロジェクトの「更新」セクションに表示されます。
 
@@ -202,7 +204,7 @@ The following objects have an Updates section where you can add comments or revi
  <thead> 
   <tr> 
    <th><strong>元の更新が追加されたオブジェクト</strong> </th> 
-   <th> <p><strong>元の更新も表示される上位のオブジェクト</strong> </p> </th> 
+   <th> <p><strong>元の更新が表示される上位のオブジェクト</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -234,7 +236,7 @@ The following objects have an Updates section where you can add comments or revi
    <td>タイムシート</td> 
    <td><p>ユーザー、チーム</p>
    <p><b>メモ</b></p>
-   <p>タイムシートのコメントは、コメントを作成したユーザーの [ 更新 ] セクションと、ホームチームの [ 更新 ] セクションに表示されます。</p>
+   <p>タイムシートのコメントは、コメントを作成したユーザーの「更新」セクションと、ユーザーのホームチームの更新セクションに表示されます。</p>
    </td> 
   </tr> 
   <tr> 
@@ -263,13 +265,15 @@ The following objects have an Updates section where you can add comments or revi
 
 <!--info for April 11: hide the note below-->
 
+<!--
 >[!NOTE]
 >
->システム更新に追加された返信は、親オブジェクトにロールアップされません。子オブジェクトに対する直接応答と、既存の更新に追加された返信のみが、親オブジェクトにロールアップされます。
+>Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
 >
->Adobe Workfront でのオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
+>For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> 新しいコメントエクスペリエンスでは、システムの更新に返信できません。 詳しくは、[新しいコメント機能のエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
+> It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+-->
 
 
 ## 「更新」セクションの概要
@@ -289,7 +293,7 @@ The following objects have an Updates section where you can add comments or revi
    * タイムシート
    * イテレーション
 
-* チームで表示する更新に返信を追加できます。 返信は、チームの更新セクションに表示され、返信が属するオブジェクトの更新セクションにも表示されます。
+* チームで表示する更新に返信を追加できます。返信は、チームの「更新」セクションとそのチームが属するオブジェクトの「更新」セクションにも表示されます。
 
 * ユーザーおよびチームの「更新」セクションでは、過去 90 日間に入力された更新を表示できます。
 
@@ -301,13 +305,13 @@ Adobe Workfront 管理者とグループ管理者は、他のユーザーとし�
 
 詳しくは、[別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
 
-別のユーザーとしてログインし、コメントを追加する際は、次の点を考慮してください。
+別のユーザーとしてログインしコメントを追加する際は、次の点を考慮してください。
 
 * 別のユーザーに代わって行われたコメントは、コメントに示されます。
 
 * グループ管理者は、別のユーザーの代わりにコメントを作成できますが、そのコメントは削除できません。別のユーザーに代わって作成したコメントを削除できるのは、Adobe Workfront 管理者のみです。
 
-* Workfrontまたはグループ管理者は、別のユーザーとしてログアウトし、自分自身として再度ログインした場合にのみ、自分が追加したコメントを編集できます。 別のユーザーに代わってコメントを削除することはできません。
+* Workfront 管理者またはグループ管理者は、ユーザーとしてログアウトし、自分自身として再度ログインした場合にのみ、別のユーザーに代わって追加したコメントを編集できます。別のユーザーに代わってコメントを削除することはできません。
 
 ## ジャーナルエントリレポートを使用した作業アイテムのシステム更新の表示
 
