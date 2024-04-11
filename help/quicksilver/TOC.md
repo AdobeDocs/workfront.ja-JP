@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
 workflow-type: tm+mt
-source-wordcount: '14108'
-ht-degree: 94%
+source-wordcount: '14151'
+ht-degree: 93%
 
 ---
 
@@ -412,6 +412,8 @@ ht-degree: 94%
       * Workfrontと Frame.io の統合アルファ版 {#frame-io-wf-integration-alpha}
          * [Adobe Workfrontと Frame.io のネイティブ統合アルファ：概要](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Adobe Workfrontと Frame.io のネイティブ統合アルファ：機能](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Workfront data lake ベータ版 {#data-lake-beta}
+         * [Workfront data lake ベータ版に関する情報](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理と設定 {#administration-and-setup}
    * [管理と設定：記事インデックス](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
@@ -1735,6 +1737,12 @@ ht-degree: 94%
       * [拡張分析でチームごとのアクティビティのビジュアライゼーションを表示する](enhanced-analytics/activity-by-team-overview.md)
       * [拡張分析でのリソース容量ビジュアライゼーションを表示する](enhanced-analytics/resource-capacity-overview.md)
       * [拡張分析でのチームのキャパシティビジュアライゼーションの表示](enhanced-analytics/team-capacity-overview.md)
+   * Workfront データレイク {#data-lake}
+      * [Workfront Data Lake の概要](reports-and-dashboards/data-lake/data-lake-overview.md)
+      * [リーダーアカウントの作成](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Workfront Data Lake のデータディクショナリ](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [基本的なWorkfront Data Lake のクエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [ビジネスインテリジェンスツールおよび外部データウェアハウスとのデータレイクデータの共有](reports-and-dashboards/data-lake/share-data-externally.md)
 * リソースの管理 {#manage-resources}
    * [リソースの管理](resource-mgmt/manage-resources.md)
    * リソース管理 {#resource-management}
