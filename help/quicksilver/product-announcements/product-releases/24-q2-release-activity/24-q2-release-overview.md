@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
+source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
 workflow-type: tm+mt
-source-wordcount: '2172'
-ht-degree: 50%
+source-wordcount: '2168'
+ht-degree: 51%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 50%
                                 <p>実稼動版（迅速リリース用）：24.2 リリース（2024年2月15日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリース用の実稼動：未定</p>
+                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -371,7 +371,7 @@ ht-degree: 50%
                                 <p><span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span></p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動：未定</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ ht-degree: 50%
                                 <p><span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span></p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動：未定</p>
                             </li>
                         </ul>
                     </td>
