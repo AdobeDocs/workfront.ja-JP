@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 904a7610a7c6996f9c31cb5141f7baa72fb23739
+source-git-commit: 8a8a36732800d0f48026b616cc16e4ff30e0ad41
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 96%
+source-wordcount: '1598'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->組織の許可リストの構成方法は、各組織によって異なります。 IT チームと協力して組織の手順を特定し、追加を実装します。
+>組織が許可リストを設定する方法は、各組織に一意です。IT チームと協力して、組織の手順を特定し、これらの追加を実装してください。
 
 ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをその許可リストに追加する必要があります。これにより、環境と Adobe Workfront サーバー間の通信が開始され、次のプロセスが可能になります。
 
@@ -390,6 +390,10 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] Microsoft Azure クラスター上</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>
