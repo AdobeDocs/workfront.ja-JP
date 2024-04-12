@@ -8,7 +8,7 @@ exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 85%
 
 まず、すべてのユーザーに届けたい通知を、Workfront インスタンスの設定エリアで指定する必要があります。設定エリアで通知を有効にすると、有効になった通知が各ユーザーのプロファイルページに表示されます。
 
-通知が設定エリアで有効化され、ユーザーのプロファイルページに表示されると、それぞれのユーザーまたは Paln ライセンスのある別のユーザーは、有効化された通知をユーザープロファイルで設定することにより、特定のユーザーが受け取る通知とその通知頻度を制御することができます。詳しくは、 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+通知が設定エリアで有効化され、ユーザーのプロファイルページに表示されると、それぞれのユーザーまたは Paln ライセンスのある別のユーザーは、有効化された通知をユーザープロファイルで設定することにより、特定のユーザーが受け取る通知とその通知頻度を制御することができます。詳しくは、[独自のメール通知の変更](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
-アクティブ化および非アクティブ化できるすべてのイベント通知の一覧については、 [イベント通知タイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+アクティブ化および非アクティブ化できるすべてのイベント通知の一覧について詳しくは、[イベント通知のタイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 
 グループ管理者が自分のグループに対してイベント通知を設定できるように、イベント通知のロックを解除する方法について詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)と[グループのイベント通知の表示と設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)を参照してください。
 
@@ -58,11 +58,11 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## すべてのユーザーへのイベント通知の設定
 
-ユーザーが個々のプロファイルで通知を有効または無効にする前に、Workfrontの「セットアップ」領域で通知を有効にする必要があります。
+ユーザーが自分のプロファイルで通知を有効または無効にするには、まず Workfront の設定エリアで通知を有効にする必要があります。
 
 >[!TIP]
 >
@@ -76,7 +76,7 @@ ht-degree: 85%
 
 
 1. 「**イベント通知**」タブが開くことを確認します。
-1. イベント名の左側にあるスイッチをオンまたはオフに切り替えます。
+1. イベント名の左側にあるスイッチを切り替えて、オンまたはオフにします。
 
    イベントのデフォルトの通知ステータスを確認するには、[イベント通知](../../../workfront-basics/using-notifications/event-notifications.md)を参照してください。
 

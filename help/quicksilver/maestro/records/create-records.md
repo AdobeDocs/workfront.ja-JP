@@ -1,5 +1,5 @@
 ---
-title: レコードを作成
+title: レコードの作成
 description: Adobe Workfront Planning を使用する場合、レコードはレコードタイプのインスタンスです。
 hidefromtoc: true
 hide: true
@@ -8,13 +8,13 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 3%
+ht-degree: 59%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# レコードを作成
+# レコードの作成
 
 {{maestro-important-intro}}
 
@@ -23,12 +23,12 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 次のいずれかの操作を行って、レコードを作成できます。
 
 * レコードタイプ用に手動で作成する
-* 外部リストから情報をコピー&amp;ペーストして、レコードを作成します。
+* 外部リストから情報をコピー＆ペーストして、レコードを作成します。
 
-この記事では、レコードを作成する方法について説明します。 テーブルまたはタイムラインビューのレコードの管理について詳しくは、次の記事を参照してください。
+この記事では、レコードの作成方法について説明します。 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
 
-* [テーブル表示の管理](/help/quicksilver/maestro/views/manage-the-table-view.md)
-* [タイムライン表示を管理](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
+* [テーブルビューの管理](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [タイムラインビューの管理](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## アクセス要件
 
@@ -47,9 +47,9 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront協定</p></td>
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -67,18 +67,18 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Adobe Workfront Planning のアクセス制御はありません </p>  
+   <td> <p>Adobe Workfront Planning にはアクセス制御はありません </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに権限を付与する（またはそれ以上の場合）</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
+   <td> <p>ワークスペースに対する参加以上の権限</a> </p>  
+   <p>システム管理者は、自身が作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -90,28 +90,28 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## レコードタイプに手動でレコードを追加してレコードを作成する <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## レコードタイプにレコードを手動で追加してレコードを作成 <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 レコードタイプのページのテーブルビューでレコードを作成できます。
 
-レコード情報の編集について詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+レコード情報の編集については、[レコードの編集](/help/quicksilver/maestro/records/edit-records.md)を参照してください。
 
 {#step1-to-maestro}
 
-最後にアクセスしたワークスペースは、デフォルトで開きます。 ワークスペースの作成について詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+最後にアクセスしたワークスペースがデフォルトで開きます。ワークスペースの作成については、[ワークスペースの作成](../architecture/create-workspaces.md)を参照してください。
 
-1. レコードタイプのカードをクリックします。 レコードタイプの作成について詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
+1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](../architecture/create-record-types.md)を参照してください。
 
-   最後にアクセスしたビューで、レコードタイプのページが開きます。 デフォルトでは、レコードタイプのページがテーブルビューで開きます。
+   最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
 選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. （条件付き）レコードタイプのページがテーブルビューで開かない場合は、テーブルビューのタブをクリックするか、 **+表示** をクリックして、テーブルビューを作成します。
+1. （条件付き）レコードタイプページがテーブルビューで開かない場合は、テーブルビューのタブをクリックするか、をクリックします **+表示** テーブル表示を作成します。
 
-1. 新しいレコードを追加するには、 **新しいレコード** テーブルの最後の行
+1. 新しいレコードを追加するには、テーブルの最後の行の「**新しいレコード**」をクリックします。
 
    または
 
-   クリック **Shift + Enter** キーボードで、テーブルの任意の列または行を選択します。 この場合は、空の行が表示されます。
+   テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。この場合は、空の行が追加されます。
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -119,28 +119,28 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。 ただし、レコードを相互にリンクする際にレコードを識別するのに役立つので、レコードには名前を追加することをお勧めします。
+   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクする際にレコードを識別するのに役立つので、レコードには名前を追加することをお勧めします。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
-1. 各行の情報の追加を続行し、「 **入力** をクリックして、変更を保存します。
+1. 各行の情報の追加を続行し、キーボードの **Enter** キーをクリックして、変更を保存します。
 
    または
 
-   新しいレコードの名前または **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をレコード名の左にドラッグします。 レコードの詳細情報を含むボックスがテーブルで開きます。
+   新しいレコードの名前または **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。 レコードの詳細情報を含むボックスがテーブルで開きます。
 
    >[!TIP]
    >
-   >[ 詳細 ] ボックスにアクセスできるのは、[ 名前 ] フィールドが主フィールドの場合のレコードの名前フィールドだけです。
+   >「詳細」ボックスにアクセスできるのは、レコードの名前フィールドから、名前フィールドがプライマリフィールドの場合のみです。
 
-1. レコードのボックス内のレコードの情報の編集を開始します。 Workfrontは変更を自動的に保存します。
-1. （オプション） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックし、レコードのページを新しいタブで開きます。 レコードページ上のレコードの編集を続けます。
+1. レコードのボックスでレコードの情報の編集を開始します。 Workfrontによって変更内容が自動保存されます。
+1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) レコードのページを新しいタブで開くには、レコードのボックスの右上隅にあります。 レコードページでレコードの編集を続行します。
 
 
-1. （オプション）次のキーボードショートカットを使用して、新しいレコードの追加の取り消しまたはやり直しをおこないます。
+1. （オプション）新規レコードの追加を取り消すまたはやり直すには、次のキーボードショートカットを使用できます。
 
-   * Ctrl + Z( Macの場合は⌘ + Z)：変更を元に戻します。
-   * Ctrl + Shift + Z(Macの場合は⌘ + Shift + Z)：変更をやり直します。
+   * Ctrl + Z（Mac の場合は ⌘ + z）で、変更を取り消します
+   * Ctrl + Shift + Z（Mac の場合は ⌘ + Shift + Z）で、変更を元に戻します
 
 <!-- this is not possible anymore: 
 
@@ -164,13 +164,13 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## 外部リストから情報をコピー&amp;ペーストしてレコードを作成する
+## 外部リストから情報をコピー＆ペーストしてレコードを作成する
 
-1. 「 」セクションの説明に従って、テーブルビューでレコードの作成を開始します。 [レコードタイプに手動でレコードを追加してレコードを作成する](#create-records-by-manually-adding-them-to-a-record-type) 」を参照してください。
+1. 「」セクションの説明に従って、テーブルビューでレコードの作成を開始します [レコードタイプに手動で追加してレコードを作成](#create-records-by-manually-adding-them-to-a-record-type) この記事の内容です。
 
-   新しいレコード情報を入力する列（またはフィールド）がテーブルビューに含まれていることを確認します。
+   新しいレコード情報を入力する列（またはフィールド）がテーブルビューにあることを確認します。
 
-1. クリック **新規 &lt; レコードタイプ名 >** をテーブルの最後の行に追加し、新しいレコードを追加する数だけ新しい行を追加します。
+1. テーブルの最後の行の&#x200B;**新規 &lt; レコードタイプ名 >**&#x200B;をクリックして、新しいレコードを追加する数だけ新しい行をテーブルに追加します。
 
    例えば、別のアプリケーションから 10 件の新しいレコードの情報を貼り付ける場合は、10 行をテーブルビューに追加します。
 
@@ -182,13 +182,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > リストの列には、Workfrontにある既存のフィールドに関する情報が含まれている必要があります。
+   > リストの列には、Workfront内の既存のフィールドに関する情報が含まれている必要があります。
    >
-   > 目的のフィールドがWorkfrontで既に作成されていて、シート内の情報がWorkfrontの各フィールドと一致する正しい形式で表示されていることを確認します。
+   > 目的のフィールドがWorkfrontに作成済みであること、およびシート内の情報がWorkfrontの各フィールドと一致する正しいフォーマットで表示されていることを確認します。
 
 1. 別のアプリケーションから、複数の行と列を選択し、最初の新しいレコードから始まるレコードタイプのテーブルビューに情報を貼り付けます。
 
-   次の情報がWorkfront Planning 領域にインポートされます。
+   Workfrontの計画エリアに、次の情報が読み込まれます。
 
-   * 行に新しいレコードが含まれます
+   * 行には新しいレコードが含まれています
    * 列には、レコードのフィールドに関する情報が入力されます。

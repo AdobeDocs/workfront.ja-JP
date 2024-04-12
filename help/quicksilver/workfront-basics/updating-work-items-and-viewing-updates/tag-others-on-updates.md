@@ -9,7 +9,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
 source-wordcount: '1713'
-ht-degree: 74%
+ht-degree: 94%
 
 ---
 
@@ -26,41 +26,41 @@ ht-degree: 74%
 -->
 
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーの場合はプレビュー環境で、迅速なリリースを有効にしているユーザーの場合は実稼動環境でのみ使用できます。 </span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">現在のリリーススケジュールについて詳しくは、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。</span>
 
 >[!IMPORTANT]
 >
 >現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
 >
->どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
+>コメントエクスペリエンスにアクセスする目的のオブジェクトに応じて、「更新」セクションに次の機能が表示される場合があります。
 >* 新しいエクスペリエンス
 >* 従来のエクスペリエンス
 >* 新しいエクスペリエンスと従来のエクスペリエンス
 >
->新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>新しいコメントエクスペリエンスとその可用性について詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 >
-><Span class="preview"> レガシーのコメント作成機能は、プレビュー環境のプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
+><Span class="preview"> プレビュー環境で、従来のコメント機能がプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
 >
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
+>新しいコメントエクスペリエンスは、Workfront オブジェクトの「更新」セクションでのみ使用できます。次のエリアから更新にアクセスする場合は使用できません。
 >
 > * ホーム
 > * リストの概要パネル
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 >
-><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。 </span>
+><span class="preview">迅速なリリースプロセスを選択した顧客の場合、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネルと実稼動環境に新しいコメントエクスペリエンスが表示されます。 </span>
 
-ユーザーが従わない可能性のあるオブジェクトに注意を向けたい場合は、オブジェクトの更新時にユーザーにタグを付けることができます。
+ユーザーがフォローしない可能性のあるオブジェクトにユーザーの注意を引きたい場合は、オブジェクトを更新する際にユーザーにタグを付けることができます。
 
 オブジェクトにユーザー割り当てたり、登録させたりしてオブジェクトに含める代わりに、アップデート時にタグ付けすれば、オブジェクトを共有することができます。タグ付けられたユーザーは、アップデートに関する通知を受け取ります。
 
 ## 更新でのユーザーのタグ付けに関する考慮事項
 
-* 更新のタグ付けされたユーザーが電子メール通知を受け取るには、プロファイルで個人通知を有効にする必要があります。 詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* 更新にタグ付けされたユーザーがメール通知を受信するには、プロファイルで個人通知を有効にしている必要があります。詳しくは、[自分のメール通知を変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
   アップデートを Workfront オブジェクトに追加する方法について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
@@ -104,15 +104,15 @@ ht-degree: 74%
 
 アップデートで他のユーザーにタグ付けする方法は、選択するエクスペリエンスとオブジェクトに応じて異なります。
 
-### 新しいコメントエクスペリエンスの更新時に他のユーザーにタグ付けする
+### 新しいコメントエクスペリエンスで更新時に他のユーザーをタグ付け
 
 新しいコメントエクスペリエンスの更新では、次の方法で他のユーザーにタグ付けできます。
 
-* **自動**：ユーザーがスレッドを開始したり、コメントを追加したり、返信を追加したりすると、自動的にタグ付けされ、コメントボックスの「ユーザーにタグ付け」領域または「チームに追加」領域に追加されます。 <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+* **自動**：ユーザーがスレッドを開始するか、コメントを追加するか、返信を追加すると、自動的にタグ付けされ、コメントボックスの、人物またはチームにタグ付けエリアに追加されます。<!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
 
   >[!TIP]
   >
-  >従来のコメント作成エクスペリエンスでスレッドが開始した場合、スレッド参加者は自動的にタグ付けされません。
+  >従来のコメントエクスペリエンスでスレッドを開始すると、スレッド参加者は自動的にタグ付けされません。
 
 * **手動**：ユーザーを手動でコメントボックスの「人物またはチームにタグ付け」エリアに追加します。
 
@@ -140,7 +140,7 @@ ht-degree: 74%
 
    <div class="preview">
 
-   ![ユーザーのタグ付け](assets/tag-others-unified-commenting-with-all-tab.png)
+   ![ユーザーをタグ付け](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
 
@@ -155,29 +155,29 @@ ht-degree: 74%
 
    >[!NOTE]
    >
-   >「人物またはチームにタグ付け」フィールドに一覧表示されるすべてのユーザーとチームメンバーは、更新のアプリ内通知を受け取り、メール通知設定に応じてはメールを受け取る場合があります。コメントや返信で自分にタグ付けしたユーザーは、そのコメントや返信に関する通知を受け取り、スレッドの残りについてはそのスレッドのメンバーとしてリストに名前が表示されますが、自分にタグ付けし直さない限り、別の通知を受け取りません。詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) および [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >「人物またはチームにタグ付け」フィールドに一覧表示されるすべてのユーザーとチームメンバーは、更新のアプリ内通知を受け取り、メール通知設定に応じてはメールを受け取る場合があります。コメントや返信で自分にタグ付けしたユーザーは、そのコメントや返信に関する通知を受け取り、スレッドの残りについてはそのスレッドのメンバーとしてリストに名前が表示されますが、自分にタグ付けし直さない限り、別の通知を受け取りません。詳しくは、[自分のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)や[システムのユーザー全員に対するイベント通知の設定](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
 
 1. 「**送信**」をクリックします。\
    更新に含まれるユーザーには、オブジェクトに対する表示権限が自動的に付与され、オブジェクトに対する更新の表示と応答が可能になります。
 
-   タグ付きエンティティの名前は、アバターの横に、最大 2 つのエンティティまで表示されます。 3 つ以上のエンティティがタグ付けされている場合、最初のエンティティの名前が表示され、さらにタグ付けされたエンティティの数も表示されます。
+   タグ付きエンティティの名前が、アバターの横に最大 2 つのエンティティまで表示されます。3 つ以上のエンティティがタグ付けされている場合は、最初のエンティティの名前に加えて、タグ付けされている追加のエンティティの数が表示されます。
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">コメントテキストでタグ付けされると、そのコメント内で名前がハイライト表示されます。</span>
+   <span class="preview">コメントテキストでタグ付けされている場合、そのコメント内で自分の名前がハイライト表示されます。</span>
 
    作業項目の更新時に使用できる追加機能について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション） **その他** メニュー ![](assets/more-menu.png) コメントの右上隅で、 **編集**. タグ付きユーザーを削除し、続いて「**送信**」をクリックします。コメントは入力後 15 分以内にのみ編集できます。編集できるのは、自分が追加したコメントだけです。
+1. （オプション）コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックしたあと、「**編集**」をクリックします。タグ付きユーザーを削除し、続いて「**送信**」をクリックします。コメントは入力後 15 分以内にのみ編集できます。編集できるのは、自分が追加したコメントだけです。
 
    >[!TIP]
    >
-   >従来のコメント作成機能を使用してコメントや返信を追加する場合、特にタグ付けされていないコメントの所有者は、新しいコメント作成機能を使用するユーザーによって手動で削除することはできません。
+   >従来のコメント作成機能を使用してコメントや返信を追加する場合、個別にタグ付けされていないコメントの所有者は、新しいコメント作成機能を使用するユーザーによって手動で削除することはできません。
 
 
-### 「従来の更新」セクションの更新に関する他のユーザーのタグ付け
+### 従来の「更新」セクションにおける更新時に他のユーザーをタグ付け
 
-「従来の更新」セクションでは、ユーザーに手動でタグ付けできます。
+従来の「更新」セクションで、ユーザーを手動でタグ付けできます。
 
 1. [作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)の説明に従って、作業項目の更新を開始します。
 1. **通知**&#x200B;フィールドに含めるユーザーまたはチームの名前を入力し、名前がドロップダウンリストに表示されたらクリックします。
@@ -206,7 +206,7 @@ ht-degree: 74%
 
    >[!NOTE]
    >
-   >「通知」フィールドに一覧表示されるすべてのユーザーとチームメンバーは、更新のアプリ内通知を受け取り、メール通知設定に応じてはメールを受け取る場合があります。コメントや返信で自分にタグ付けしたユーザーは、そのコメントや返信に関する通知を受け取り、スレッドの残りについては「通知」フィールドに自分の名前が表示されますが、自分自身にタグ付けし直さない限り、通知を再度受け取ることはありません。詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) および [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >「通知」フィールドに一覧表示されるすべてのユーザーとチームメンバーは、更新のアプリ内通知を受け取り、メール通知設定に応じてはメールを受け取る場合があります。コメントや返信で自分にタグ付けしたユーザーは、そのコメントや返信に関する通知を受け取り、スレッドの残りについては「通知」フィールドに自分の名前が表示されますが、自分自身にタグ付けし直さない限り、通知を再度受け取ることはありません。詳しくは、[自分のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)や[システムのユーザー全員に対するイベント通知の設定](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
 
 1. 「**更新**」をクリックします。\
    更新に含まれるユーザーには、オブジェクトに対する表示権限が自動的に付与され、オブジェクトに対する更新の表示と応答が可能になります。

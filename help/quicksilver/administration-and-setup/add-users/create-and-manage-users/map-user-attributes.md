@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: ユーザー属性を割り当て
-description: シングルサインオン (SSO) を使用して、ID プロバイダーの Active Directory からAdobe Workfrontユーザーに属性を渡すことができます。
+description: シングルサインオン（SSO）を使用して、ID プロバイダーの Active Directory から Adobe Workfront ユーザーに属性を渡すことができます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -12,7 +12,7 @@ exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
 source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 38%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 38%
 
 <!--Audited 2/2024-->
 
-シングルサインオン (SSO) を使用して、ID プロバイダーの Active Directory からAdobe Workfrontユーザーに属性を渡すことができます。
+シングルサインオン（SSO）を使用して、ID プロバイダーの Active Directory から Adobe Workfront ユーザーに属性を渡すことができます。
 
 ## アクセス要件
 
@@ -45,7 +45,7 @@ ht-degree: 38%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 属性のマッピングに関するヒント
 
@@ -55,23 +55,23 @@ ht-degree: 38%
 * 管理者アカウントと非管理者アカウントの両方でテストして、属性が正しくマッピングされていることを確認します。
 * マッピングされた属性は、ユーザーがシングルサインオンでログインするたびに適用されます。
 
-  例： 「姓」をマッピングし、ID プロバイダーの値を更新せずにWorkfrontで名前を更新する場合、ユーザーが次回サインインしたときに、ID プロバイダーの値に一致するように姓が上書きされます。
+  例：「姓」をマッピングし、ID プロバイダーの値を更新せずに Workfront で名前を更新すると、次回ユーザーがサインインしたときに、ID プロバイダー内の値と一致するように姓が上書きされます。
 
 ## 組織のユーザー属性のマッピング
 
-属性のマッピング手順は、組織が統合エクスペリエンスに関係しているかどうかに応じてAdobeが異なります。
+属性をマッピングする手順は、組織が Adobe Unified Experience を使用しているかどうかによって異なります。
 
-組織がAdobe統合エクスペリエンス上にあるかどうかを判断するには、Workfrontにアクセスするために使用する URL を調べます。
+組織が Adobe Unified Experience を使用しているかどうかを判断するには、Workfront へのアクセスに使用する URL を調べます。
 
-| URL | Adobe体験 |
+| URL | Adobe Experience |
 |---|---|
 | (CompanyName).my.workfront.com | 従来のエクスペリエンス |
-| experience.adobe.com | Adobe統合エクスペリエンス |
+| experience.adobe.com | Adobe Unified Experience |
 
-* [従来のエクスペリエンスでのユーザー属性のマッピング](#map-user-attributes-in-the-classic-experience)
-* [Unified Experience でのAdobe属性のマッピング](#map-user-attributes-in-the-adobe-unified-experience)
+* [従来のエクスペリエンスでユーザー属性をマッピング](#map-user-attributes-in-the-classic-experience)
+* [Adobe Unified Experience でユーザー属性をマッピング](#map-user-attributes-in-the-adobe-unified-experience)
 
-### 従来のエクスペリエンスでのユーザー属性のマッピング
+### 従来のエクスペリエンスでユーザー属性をマッピング
 
 1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
 
@@ -126,46 +126,46 @@ ht-degree: 38%
 1. （オプション）さらにユーザー属性をマッピングするには、「**マッピングを追加**」をクリックして、手順 6～7 を繰り返します。
 1. 「**保存**」をクリックします。
 
-### Unified Experience でのAdobe属性のマッピング
+### Adobe Unified Experience でユーザー属性をマッピング
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-left.png) Adobe Workfrontの左上隅で、 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の左上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-left.png) をクリックし、続いて&#x200B;**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
 
 1. **システム**／**シングルサインオン(SSO)** をクリックします。
 
-1. を選択します。 **Adobe** タブをクリックします。
+1. 「**アドビ**」タブを選択します。
 
-1. （オプションおよび条件付き）組織で従来のエクスペリエンスで設定された属性マッピングがあり、その属性マッピングをAdobeの統合エクスペリエンスにコピーする場合は、 **マッピングを移行**. その後、これらのマッピングを破棄、削除または編集できます。
-
-   >[!NOTE]
-   >
-   >マッピングの統合エクスペリエンスで初めてマッピングを設定する際には、Adobeを移行することをお勧めします。 後で再度移行する際に害はありませんが、複数回移行する必要はありません。
-
-1. 新しい属性マッピングを作成するには、 **マッピングを追加**.
-
-1. Workfrontフィールド名の横の矢印をクリックし、 [!DNL Workfront] マップ先のフィールド。
-
-1. （オプション）特定のフィールドに複数のルールを作成する場合は、 **常に** をクリックし、ルールで使用する演算子を選択します。
-
-1. （条件付き）「常に」以外の演算子を選択した場合、その演算子を適用するWorkfrontフィールドおよび値を選択します。
+1. （オプションおよび条件付き）組織の属性マッピングが従来のエクスペリエンスで設定されており、その属性マッピングを Adobe Unified Experience にコピーする場合は、「**マッピングを移行**」をクリックします。これらのマッピングは後で、破棄、削除または編集することができます。
 
    >[!NOTE]
    >
-   >演算子 `Is Truthy` および `Is Falsy` 値は不要です。
+   >Adobe Unified Experience でマッピングを初めて設定する場合は、マッピングを移行することをお勧めします。後で再度移行しても害はありませんが、複数回移行する必要はありません。
 
-1. ID マネージャの属性の値をWorkfrontフィールドに適用するか、特定の定数値を適用するかを選択します。
+1. 新しい属性マッピングを作成するには、「**マッピングを追加**」をクリックします。
 
-1. 適用するアイデンティティ・マネージャ・フィールドの名前を入力するか、適用する定数値のテキストを入力します。
+1. Workfront フィールド名の横にある矢印をクリックし、マッピング先の [!DNL Workfront] フィールドを選択します。
 
-1. （オプション）同じWorkfrontフィールドに他のルールを追加するには、 **新規ルールの追加**、および手順 4～9 に従います。
+1. （オプション）特定のフィールドに複数のルールを作成する場合は、「**常に**」の横にある矢印をクリックし、ルールで使用する演算子を選択します。
+
+1. （条件付き）「常に」以外の演算子を選択した場合、その演算子を適用する Workfront フィールドと値を選択します。
+
+   >[!NOTE]
+   >
+   >演算子 `Is Truthy` および `Is Falsy` には、値は不要です。
+
+1. ID マネージャーの属性の値を Workfront フィールドに適用するか、特定の定数値を適用するかを選択します。
+
+1. 適用する ID マネージャーフィールドの名前を入力するか、適用する定数値のテキストを入力します。
+
+1. （オプション）同じ Workfront フィールドにさらにルールを追加するには、「**新規ルールを追加**」をクリックし、手順 4～9 に従います。
 
    >[!IMPORTANT]
    >
-   > * 「常に」のルールより下のルールは無視されます。 「常に」のルールがある場合は、そのルールをルールのリストの一番下に移動する必要があります。 ルールの右側の 3 ドットメニューをクリックし、ルールを上下に移動すると、リスト内でルールを移動できます。
-   > * リストの中央にルールを作成するには、新しいルールの上または下に表示するルールの横にある 3 ドットメニューをクリックし、 **上にルールを追加** または **下にルールを追加**.
+   > * 「常に」ルールより下のルールは無視されます。「常に」ルールがある場合は、そのルールをルールのリストの一番下に移動する必要があります。ルールの右側の 3 点メニューをクリックすると、リスト内でルールを上下に移動できます。
+   > * リストの中央にルールを作成するには、新しいルールの上または下に配置するルールの横にある 3 点メニューをクリックし、「**上にルールを追加**」または「**下にルールを追加**」を選択します。
 
-1. ルールを削除するには、削除するルールの横にある 3 ドットメニューをクリックし、「 」を選択します。 **削除**.
-1. マッピングを削除するには、 **削除** そのマッピングのカード上にあるアイコン。
+1. ルールを削除するには、削除するルールの横にある 3 点メニューをクリックし、「**削除**」を選択します。
+1. マッピングを削除するには、そのマッピングのカード上にある&#x200B;**削除**&#x200B;アイコンをクリックします。
 
-1. 保存するには、ページの上部までスクロールし、 **保存**.
+1. 保存するには、ページの上部までスクロールし、「**保存**」をクリックします。
 
 

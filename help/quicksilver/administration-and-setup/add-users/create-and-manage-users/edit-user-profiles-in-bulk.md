@@ -11,7 +11,7 @@ exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
 source-wordcount: '2294'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 97%
        <ul> 
         <li><b>タイムゾーン：</b>ユーザーのタイムゾーン。</li> 
         <li><b>ロケール</b>：ユーザーの優先ロケール。これは、Workfront から送信されるメールの数値や日付の形式に影響します。</li> 
-        <li><b>更新ステータスの完了率を表示</b>：従来のコメント付けエクスペリエンスを使用する場合に、すべてのユーザーのタスクの更新領域内に完了率のバーを表示するには、このオプションを選択します。 詳しくは、 <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>.
+        <li><b>完成率を更新状態に表示する</b>：従来のコメントエクスペリエンスを使用している場合、すべてのユーザーのタスクの更新エリアに完了率バーを表示するには、このオプションをオンにします。詳しくは、<a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>を参照してください。
         <p><span class="preview">このオプションは、プレビュー環境から削除されました。</span></p>
 
    </li> 

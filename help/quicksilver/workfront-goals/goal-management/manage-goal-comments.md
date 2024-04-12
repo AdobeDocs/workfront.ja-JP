@@ -9,7 +9,7 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -52,26 +52,26 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
  <tr>
  <td role="rowheader">Adobe Workfront ライセンス*</td>
  <td>
- <p>新しいライセンス：寄稿者以上</p>
+ <p>新規ライセンス：コントリビューター以上</p>
  または
  <p>現在のライセンス：リクエスト以上</p> </td>
  </tr>
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新しい製品要件： Adobe Workfront Select または Prime のプランをお持ちの場合は、Adobe Workfront Goals ライセンスも追加で購入する必要があります。 Workfront目標は、Ultimate Workfrontプランに含まれます。</p>
+ <p> 新製品の要件：Adobe Workfront の Select または Prime のプランをお持ちの場合は、Adobe Workfront Goals ライセンスも追加で購入する必要があります。Workfront Goals は、Ultimate Workfront プランに含まれています。</p>
  または
- <p>現在の製品要件：この記事で説明する機能にアクセスするには、 Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+ <p>現在の製品の要件：この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">アクセスレベルの設定</td>
- <td> <p>Goals に対する表示以上のアクセス権</p> <p><b>メモ</b><p>アクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 詳しくは、 <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront目標へのアクセス権の付与</a></span></td>
+ <td> <p>Goals に対する表示以上のアクセス権</p> <p><b>メモ</b><p>アクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。詳しくは、<span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権を付与</a></span>を参照してください。</td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">オブジェクト権限</td>
  <td>
   <div>
-  <p>目標に対する権限を表示またはそれ以上設定します</p>
+  <p>目標の表示権限またはそれ以上</p>
   <p>デフォルトでは、ユーザーは目標にアクセスできません </p>
  <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
   </div> </td>
@@ -79,7 +79,7 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 </tbody>
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
@@ -87,31 +87,31 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 
 * メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 
-## 目標のコメントを管理
+## 目標コメントを管理
 
 目標に対するコメントは、目標のページの「更新」セクションで追加できます。
 
 このエリアに追加したコメントに対して、自分または他のユーザーが返信したり、「いいね！」をしたりできます。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/lines-main-menu.png) 左上隅にある場合は、「 **目標**.
+1. 右上隅の&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/lines-main-menu.png) をクリックし、「**目標**」を選択します。
 これにより、目標リストが開きます。
 1. コメントを追加する目標を探し、その名前をクリックして目標ページを開きます。
 1. 左側のパネルの「**更新**」をクリックします。
-1. （オプション）既存のコメントを検索するには、キーワードの入力を開始します <!--or a user's name--> （内） **検索** ボックス **コメント** タブをクリックします。
+1. （オプション）既存のコメントを見つけるには、「**コメント**」タブの右上隅にある&#x200B;**検索**&#x200B;ボックスにキーワード <!--or a user's name--> を入力します。
 
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   キーワード <!--or user--> 検索した項目がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
+   検索したキーワード <!--or user--> がハイライト表示され、その語を含むコメントが「更新」セクションの上部に表示されます。
 
    <!--change the NOTE below when functionality changes-->
 
    >[!NOTE]
    >
-   >コメントまたは返信に含まれる単語を検索する必要があります。 タグ付きユーザーまたはチームは検索できません。
+   >コメントや返信に含まれる単語を検索する必要があります。タグ付けされたユーザーやチームは検索できません。
 
    詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. 次をクリック： **x** アイコンを使用して検索結果を消去し、更新の完了に戻ることができます。
+1. 検索フィールドの **x** アイコンをクリックすると、検索結果がクリアされ、完全な更新に戻ります。
 1. 更新エリアの左上隅にある「**コメント**」タブをクリックします。
 1. 「**新規コメント**」ボックスにコメントを入力し始めます。
 
@@ -153,11 +153,11 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
    >
    > * 日付スタンプは、最新の更新日ではなく、元のコメントの日付です。
 
-1. （オプション） **その他** メニュー ![](assets/more-icon.png)次に、次のいずれかのオプションをクリックして、コメントからクリップボードに情報をコピーするか、新しい返信に情報をコピーします。
+1. （オプション）**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックして、次のオプションのいずれかを選択し、コメントからクリップボードまたは新規返信に情報をコピーします。
 
    * **リンクをコピー**：返信を含めずに、更新のリンクをコピーします。
    * **本文をコピー**：更新のテキストをコピーします。
-   * **見積もりの返信** ：新しいコメントボックスを開き、元のコメントが新しい返信で引用され、ブロック引用符としてマークされます。
+   * **引用返信**&#x200B;では、新しいコメントボックスが開き、ボックス内で元のコメントが新しい返信で引用され、ブロック引用としてマークされます。
 
      詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 

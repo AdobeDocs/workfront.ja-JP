@@ -3,7 +3,7 @@ title: ドキュメント統合の設定
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Adobe Workfrontの管理者は、Workfrontでドキュメントを管理するためのドキュメント統合を設定できます。
+description: Adobe Workfront 管理者は、ドキュメント統合を設定して、Workfront でドキュメントを管理できます。
 author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
@@ -11,7 +11,7 @@ exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 84%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規： [!UICONTROL Standard]</p>
+   <td><p>新規：[!UICONTROL Standard]</p>
        <p>または</p>
-       <p>現在： [!UICONTROL プラン ]</p></td>
+       <p>現在：[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -54,7 +54,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## サポートされている統合
 
@@ -70,7 +70,7 @@ ht-degree: 84%
 
 * [!DNL Workfront Proof]
 
-  [!DNL Workfront Proof] からプルーフをリンクすると、最初に [!DNL Workfront Proof] 内で作成されたプルーフを、[!DNL Workfront] 内で使用可能にすることができます。現在のプランの場合、 [!UICONTROL Pro] [!DNL Workfront] この機能を使用するには、プラン以降が必要です。 新しいプランでは、この機能はすべてのプランで使用できます。 利用可能な様々なプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
+  [!DNL Workfront Proof] からプルーフをリンクすると、最初に [!DNL Workfront Proof] 内で作成されたプルーフを、[!DNL Workfront] 内で使用可能にすることができます。この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
 
 * [!DNL Microsoft SharePoint]
 
@@ -94,7 +94,7 @@ ht-degree: 84%
 
 * その他のドキュメントプロバイダー（カスタムドキュメント統合を通じて）。
 
-  現在のプランの場合、 [!UICONTROL Pro] [!DNL Workfront] この機能を使用するには、プラン以降が必要です。 新しいプランでは、この機能はすべてのプランで使用できます。 利用可能な様々なプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
+  この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
 
 さらに、[!DNL Workfront] ドキュメントのエクスペリエンスを、ネイティブのデジタルアセット管理（DAM）システムまたはサードパーティの DAM 統合で強化することもできます。ユーザーがサービスを自分の [!DNL Workfront] アカウントにリンクするために、管理者がこれらの機能を有効にする必要があります。Workfront DAM について詳しくは、[ [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md) を使用したドキュメントの管理を参照してください。
 
@@ -125,7 +125,7 @@ ht-degree: 84%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、 **[!UICONTROL ドキュメント]** > **[!UICONTROL カスタム統合]**.
+1. 左パネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL カスタム統合]**&#x200B;の順にクリックします。
 
 1. 「**[!UICONTROL カスタム統合を追加]**」をクリックします。
 1. 統合を設定するには、次の情報を入力します。
@@ -153,7 +153,7 @@ ht-degree: 84%
     </tbody> 
    </table>
 
-1. （条件付き）選択した場合、 **[!UICONTROL OAuth]** 認証 **[!UICONTROL 認証タイプ]**、次の情報を入力します。
+1. （条件付き）**[!UICONTROL 認証タイプ]**&#x200B;に **[!UICONTROL OAuth]** 認証を選択した場合は、次の情報を入力します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -177,7 +177,7 @@ ht-degree: 84%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Parameters]</td> 
-      <td> <p>すべての API 呼び出しのクエリ文字列に追加するオプションの値を入力します。 例えば、access_type=offline など。</p> <p>複数のリクエストパラメーターを追加するには、「<strong>+ リクエストパラメーターを追加</strong>」をクリックします。</p> </td> 
+      <td> <p>すべての API 呼び出しのクエリ文字列に追加するオプションの値を入力します。例えば、access_type=offline など。</p> <p>複数のリクエストパラメーターを追加するには、「<strong>+ リクエストパラメーターを追加</strong>」をクリックします。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -186,7 +186,7 @@ ht-degree: 84%
    >
    >[!UICONTROL カスタム統合]ページの下部に表示される [!DNL Workfront] リダイレクト URIに、この統合を外部のドキュメントプロバイダーに登録するのに使用される URI が表示されます。
 
-1. （条件付き）選択した場合、 **[!UICONTROL ApiKey]** 認証 **[!UICONTROL 認証タイプ]**、カスタムドキュメントプロバイダーによって発行された API キーを入力します。
+1. （条件付き）**[!UICONTROL 認証タイプ]**&#x200B;に **[!UICONTROL ApiKey]** 認証を選択した場合は、カスタムドキュメントプロバイダーが発行した API キーを入力します。
 
    [!DNL Workfront] はこの API キーを使用して、ドキュメントプロバイダーに対する認証済みの API 呼び出しを行います。
 
@@ -216,7 +216,7 @@ ht-degree: 84%
 
 マッピングは、任意のユーザーが [!DNL Workfront] から [!UICONTROL Workfront] DAM にアップロードしたすべてのドキュメントに影響します。
 
-As a [!DNL Workfront] 管理者、有効にする必要があります [!DNL Workfront DAM] Workfrontで、メタデータマッピングプロセスのフィールドをマッピングする前に行ってください。
+[!DNL Workfront] 管理者は、メタデータマッピングプロセスのフィールドをマッピングする前に、Workfront で [!DNL Workfront DAM] を有効にする必要があります。
 
 メタデータを [!DNL Workfront DAM] に送信するように [!DNL Workfront] を設定するには、次の手順を実行します。
 

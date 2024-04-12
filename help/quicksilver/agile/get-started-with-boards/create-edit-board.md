@@ -9,7 +9,7 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -33,21 +33,21 @@ ht-degree: 79%
   </tr> 
     <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：寄稿者以上 </p>
+   <td> <p>新規：コントリビューター以上 </p>
  <p>または</p> 
-<p>現在： [!UICONTROL リクエスト ] 以降 </p> 
+<p>現在：[!UICONTROL Request] 以上 </p> 
 </td> 
   </tr>
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## ボードを新規作成
 
 {{step1-to-boards}}
 
-1. クリック **[!UICONTROL ボードを追加]**.
+1. 「**[!UICONTROL ボードを追加]**」をクリックします。
 
 1. ボードのテンプレートを選択します。
 
@@ -60,7 +60,7 @@ ht-degree: 79%
 
 1. 動的なボードの場合のみ、セットアップウィザードの手順に従います。
 
-   1. ボードの名前を入力し、 [!UICONTROL **次へ**].
+   1. ボードの名前を入力して「[!UICONTROL **次へ**]」をクリックします。
    1. [!DNL Workfront] [!UICONTROL **プロジェクト**]&#x200B;を検索して選択し、タスクとイシューをボードに取り込みます。
    1. [!UICONTROL **割り当て**]&#x200B;を検索として選択し、タスクとイシューをボードに取り込みます。
 
@@ -70,13 +70,13 @@ ht-degree: 79%
 
       >[!NOTE]
       >
-      >ダイナミックボードのカード上限は 700 タスク、700 問題、合計 1,400 枚です。 ボード上のカードの数が多いと、ボードのパフォーマンスに影響を与える可能性があります。
+      >ダイナミックボードのカード上限は、700 件のタスクと 700 件のイシューで、合計 1,400 枚のカードです。ボード上にカードの数が多いと、ボードのパフォーマンスに影響を与える可能性があります。
 
-   1. （オプション）「 」を選択します。 [!UICONTROL **完了したカードをアーカイブしない**] 完了したタスクと問題を、完了したカードとして「完了」列に表示されるカードとしてボードに取り込む場合。 このオプションを選択しない場合、ボード作成時に完了したカードは、アーカイブされたカードとしてボードに取り込まれます。
+   1. （オプション）「[!UICONTROL **完了したカードをアーカイブしない**]」を選択すると、ボード上に完了したタスクとイシューが「完了」列にカードとして表示されます。このオプションを選択しない場合、ボード作成時に完了したカードは、アーカイブされたカードとしてボードに取り込まれます。
 
       >[!NOTE]
       >
-      >デフォルトでは、アーカイブされたカードはボードに表示されません。 アーカイブされたカードを表示するには、構成設定をオンにしてから、ボードをフィルターしてアーカイブされたカードを表示する必要があります。 詳しくは、 [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) および [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >デフォルトでは、アーカイブされたカードはボード上に表示されません。アーカイブされたカードを表示するには、構成設定をオンにしてから、ボードをフィルタリングして、アーカイブされたカードを表示する必要があります。詳しくは、[カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)と[ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
    1. （オプション）「[!UICONTROL **詳細フィルターの使用**]」をクリックして、追加のフィルターオプションを表示します。
 

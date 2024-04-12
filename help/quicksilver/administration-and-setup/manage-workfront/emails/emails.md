@@ -13,7 +13,7 @@ exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
 source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Workfront でユーザーがコミュニケーションを受信し表示する�
 * [イベント通知タイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
 * [すべてのグループに対するイベント通知設定のロック解除またはロック](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [イベント通知のメールの件名のカスタマイズ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
-* [複数のユーザーの電子メール通知設定を変更する](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
+* [複数ユーザーのメール通知設定の変更](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
 * [リマインダー通知の設定](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [オブジェクトへのリマインダー通知の添付](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
 * [自動リマインダーの設定](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)

@@ -11,7 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
 source-wordcount: '1190'
-ht-degree: 66%
+ht-degree: 90%
 
 ---
 
@@ -27,39 +27,39 @@ ht-degree: 66%
 
 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境で、または高速リリースを有効にした顧客の実稼動環境でのみ使用できます。 </span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーの場合はプレビュー環境で、迅速なリリースを有効にしているユーザーの場合は実稼動環境でのみ使用できます。 </span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、 [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">現在のリリーススケジュールについて詳しくは、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。</span>
 
 >[!IMPORTANT]
 >
 >現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
 >
->どのオブジェクトに対してコメント作成機能にアクセスするかに応じて、「更新」セクションに次の機能が表示されます。
+>コメントエクスペリエンスにアクセスする目的のオブジェクトに応じて、「更新」セクションに次の機能が表示される場合があります。
 >* 新しいエクスペリエンス
 >* 従来のエクスペリエンス
 >* 新しいエクスペリエンスと従来のエクスペリエンス
 >
->新しいコメントエクスペリエンスとその可用性について詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>新しいコメントエクスペリエンスとその可用性について詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 >
-><Span class="preview"> レガシーのコメント作成機能は、プレビュー環境のプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
+><Span class="preview"> プレビュー環境で、従来のコメント機能がプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
 >
->新しいコメントエクスペリエンスは、Workfrontオブジェクトの「更新」セクションでのみ使用でき、次の領域から更新にアクセスする場合は使用できません。
+>新しいコメントエクスペリエンスは、Workfront オブジェクトの「更新」セクションでのみ使用できます。次のエリアから更新にアクセスする場合は使用できません。
 >
 > * ホーム
 > * リストの概要パネル
 > * タイムシートの概要パネル
 > * ワークロードバランサーの概要パネル
 >
-><span class="preview">新しいコメントエクスペリエンスは、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネル、および高速リリースプロセスを選択した顧客の実稼動環境で使用できます。 </span>
+><span class="preview">迅速なリリースプロセスを選択した顧客の場合、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネルと実稼動環境に新しいコメントエクスペリエンスが表示されます。 </span>
 
 誰かが作業オブジェクトのコメントやシステムの更新に返信すると、その返信がそのオブジェクトの「更新」セクションの通信スレッドに表示されます。
 
 >[!IMPORTANT]
 >
->新しいコメントエクスペリエンスでは、システムの更新に返信できません。 詳しくは、[新しいコメント機能エクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
+>新しいコメントエクスペリエンスでは、システム更新に返信できません。詳しくは、[新しいコメント機能エクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 
 <!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
@@ -100,35 +100,35 @@ ht-degree: 66%
 
 コメントまたは返信への返信は、選択したエクスペリエンスとオブジェクトに応じて異なります。
 
-### 新しいコメントエクスペリエンスを使用する際にコメントに返信
+### 新しいコメントエクスペリエンスを使用する際のコメントへの返信
 
-新しいコメント作成エクスペリエンスで使用可能な機能とオブジェクトについて詳しくは、 [新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 
 1. 返信を追加するオブジェクトに移動します。
-1. クリック **更新**」、「 **コメント** タブをクリックし、返信先のコメントまたは返信を検索します。
+1. クリック **更新**&#x200B;を選択し、 **コメント** オブジェクトの Tab キーを押して、返信先のコメントまたは返信を検索します
 
    または
 
-   <span class="preview">次をクリック： **すべて** 「 」タブで、「 」をクリックします。 **コメントで返信** をクリックして「コメント」タブでコメントを開き、そのコメントに返信します。 「すべて」タブでは返信できません。</span>
+   <span class="preview">「」をクリックします **すべて** tab キーを押してから、 **コメントで返信** 「コメント」タブでコメントを開いて返信します。 「すべて」タブでは返信できません。</span>
 
-1. （オプション）返信に以前の更新のテキストを含めるには、 **その他** 返信先のコメントの右上隅にあるメニューで、 **見積もりの返信**. 以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
+1. （オプション）以前の更新のテキストを返信に含めるには、返信するコメントの右上隅にある&#x200B;**その他**&#x200B;メニューをクリックし、「**引用返信**」をクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
 1. 「**返信**」をクリックします。
 
    ![](assets/reply-to-update-empty-box.png)
 
-   会話に積極的に関与しているユーザーがの下部に表示されます。 **返信を追加…** 」ボックスに追加して、不要なものを追加したり、削除したりできます。 これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
+   会話に積極的に参加しているユーザーが「**返信を追加...**」ボックスの下部に表示されます。さらにユーザーを追加したり、関係なくなったユーザーを削除したりできます。これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 
    >[!TIP]
    >
-   >   既存の返信に返信を追加する場合は、 **返信を追加…** ボックスを使用するか、 **返信** 元のコメントに対して。 返信はスレッドの最後に追加されます。
+   >   既存の返信にさらに返信を追加するには、「**返信を追加...**」ボックスに入力するか、元のコメントで「**返信**」をクリックします。返信はスレッドの最後に追加されます。
 
 1. 返信の入力を開始し、リッチテキストツールバーの追加のオプションを使用します。リッチテキストなどの更新機能の使用について詳しくは、[作業を更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 1. 「**送信**」をクリックして返信を保存します。
 
-1. （オプション） **その他** メニュー ![](assets/more-menu.png) 返信先のコメントの右上隅に、返信を管理する他のオプションが表示されます。 詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+1. （オプション）返信するコメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックすると、返信を管理するオプションがさらに表示されます。詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-### 従来の更新セクションの更新または返信に返信します
+### 従来の「更新」セクションでの更新または返信に対する返信
 
 1. 返信を追加するオブジェクトに移動します。
 1. オブジェクトの「**更新**」タブで、返信する更新または返信を探します。
