@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: d0ed2869c42230e9d82c553505253e3a3131fa39
+source-git-commit: 4c87f33a29f07cc1b5aa2873b1e4fdade82dc41b
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -101,7 +101,7 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
 
 >[!NOTE]
 >
->現在、上書きは次のオブジェクトで使用できます。
+>以下のオブジェクトに対してアクション（無視、既存のアクションの選択、新規作成）を実行できます。
 >
 >* 役割
 >* チーム
