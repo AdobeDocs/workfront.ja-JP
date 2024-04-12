@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
-workflow-type: ht
-source-wordcount: '1374'
-ht-degree: 100%
+source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
+workflow-type: tm+mt
+source-wordcount: '1386'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Workfront API を活用するアプリケーションの例を次に示します
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,12 +100,12 @@ Workfront 管理者以外の役割を持つユーザーの API キーを生成�
 
    1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
 
-   1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。\
+   1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
+   1. が含まれる **タイプ** フィールドで、組織が使用する SSO のタイプを選択します。
+   1. タイプを選択した状態で、下にスクロールして **Enable （有効）** チェックボックス。
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+   1. 「**保存**」をクリックします。
 
-   1. SSO 認証が必要なチェックボックスを無効にします。
-
-      例えば、組織が SAML 2.0 を使用している場合は、「**SAML 2.0 認証のみを許可**」を無効にします。
 
 1. ブラウザーのアドレスバーに、次の API 呼び出しを入力します。
 
@@ -207,6 +207,6 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 
 X.509 証明書を必要とするようにWorkfrontのインスタンスを設定する前に、有効なユーザー名とパスワードのパラメーターを使用して、`/login` エンドポイントへの API リクエストを実行します。sessionID を含む 200 件の応答を受け取ります。
 
-Workfront のインスタンスの顧客情報ページで X.509 証明書を要件とした後、再度ログインを試みます。今回は、次のメッセージを含む 500 エラー応答を受け取ります。「信頼できないリクエストです。システム管理者に連絡して、証明書を添付してください。」
+Workfront のインスタンスの顧客情報ページで X.509 証明書を要件とした後、再度ログインを試みます。今回は、「信頼できないリクエスト」というメッセージを含んだ 500 エラー応答が届きます。 システム管理者に連絡して、証明書を添付してください。」
 
 X.509 証明書が必須であることを確認したら、証明書の値に apiCertificate の追加パラメーターを設定して、同じログインリクエストを実行します。この操作が正しく実行された場合は、有効な sessionID を含む 200 件の応答を受け取ります。
