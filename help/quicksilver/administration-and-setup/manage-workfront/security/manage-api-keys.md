@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: f504013e202c57245a2edc3dff2b71d19bcfdbee
+source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
 workflow-type: tm+mt
 source-wordcount: '1386'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -82,7 +82,7 @@ Workfront 管理者には一意の API キーが割り当てられています�
    API キーを生成するには、「**API キーを設定**」セクションで、「**API キーを生成**」をクリックします。
 
    または\
-   API キーをリセットするには、「**API キーの設定**」セクションで、「**リセット**」をクリックし、「**リセット**&#x200B;をクリックします。
+   API キーをリセットするには： **API キーの設定** セクションで、をクリック **Reset**、次に **リセット。**
 
    または
 
