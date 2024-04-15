@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '3334'
+source-wordcount: '3287'
 ht-degree: 98%
 
 ---
@@ -113,9 +113,6 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
       <p><b>メモ</b></p>
       <p>このオプションは、プレビューおよびサンドボックス環境でのみ使用できます。メール通知は、実稼動環境でデフォルトで有効になっています。 </p>
       </li>
-
-   <li><b>完成率を更新状態に表示する</b>：従来のコメントエクスペリエンスを使用している場合、このユーザーのタスクの更新エリア内に完了率のバーを表示するには、このオプションをオンにします。詳しくは、<a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">新しいコメントエクスペリエンス</a>を参照してください。
-      <p><span class="preview">このオプションは、プレビュー環境から削除されました。</span></p>
 
    </li> 
        <li><b>自分に割り当てた作業を自分の [作業割り当て] タブに送る</b>：ユーザーが自分に割り当てたすべてのアイテムをホームエリアの「作業割り当て」リストに直接表示する場合は、このオプションをオンにします。デフォルトでは、ユーザーに割り当てられたすべてのアイテムが、ホームエリアの「開始準備完了」または「準備未完了」リストに表示されます。</li> 

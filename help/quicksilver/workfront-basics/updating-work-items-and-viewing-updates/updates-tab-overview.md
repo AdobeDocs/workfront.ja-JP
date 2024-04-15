@@ -7,10 +7,10 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 82%
+source-wordcount: '985'
+ht-degree: 77%
 
 ---
 
@@ -19,9 +19,6 @@ ht-degree: 82%
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
-
-<!--info for April 11: hide the disclaimer for preview below-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -30,8 +27,6 @@ ht-degree: 82%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
-
-<!--info for April 11: take out the Important box-->
 
 オブジェクトの「更新」セクションには、オブジェクトに対してユーザーが行ったコメント、またはオブジェクトの変更をトラックするシステム更新が表示されます。
 
@@ -125,50 +120,45 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 「更新」セクションの概要 <!--in the new commenting experience-->
+### 「更新」セクションの概要
 
 ![「更新」セクション](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
+* 「更新」セクションの次のタブに情報が表示されます。
 
-<!--
->[!NOTE]
->
->The new commenting experience is not available for iterations.
--->
-
-* 「更新」セクションには、次のタブに情報が表示されます<!-- in the new commenting experience-->:
-
-   * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。オブジェクトの更新について<!-- in the new commenting experience-->を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
+   * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。オブジェクトの更新については、を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
    * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込まれます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
-   * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。これは表示専用のタブです。「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。オブジェクトの更新について<!-- in the new commenting experience-->を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
+   * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。これは表示専用のタブです。「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。オブジェクトの更新については、を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
 
-* 次のオブジェクトには、「システムアクティビティ」タブや「すべて」タブはありません。
+* 次のオブジェクトは、「更新」セクションの 3 つのタブすべてで同様のエクスペリエンスを持っています。
+
+   * プロジェクト
+   * タスク
+   * イシュー
+   * プログラム
+   * ポートフォリオ
+   * ユーザー
+   * タイムシート
+
+* 次のオブジェクトには「システムアクティビティ」タブや「すべて」タブがなく、「コメント」タブのエクスペリエンスがその他のすべてのオブジェクトと一致します。
 
    * チーム
    * テンプレート
    * テンプレートタスク
+
+* 次のオブジェクトには「システムアクティビティ」タブや「すべて」タブがなく、「コメント」タブのエクスペリエンスが他のすべてのオブジェクトとは異なります。
    * アドホックカード
-   * イテレーション
 
      カードの更新の詳細については、を参照してください。 [ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+   * イテレーション
 
      イテレーションの更新について詳しくは、を参照してください [反復コメントの管理](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-* 次のオブジェクトには、「すべて」タブはありません。
+* 次のオブジェクトには「すべて」のタブがなく、「コメント」タブのエクスペリエンスはほとんどのオブジェクトと一致します。
 
    * Goals
 
      目標の更新について詳しくは、を参照してください [目標コメントの管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-<!--info for April 11: make the text below live - remove the commented out brackets: 
-NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
-
-* The following objects don't have a System Activity or an All tab: 
-
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 

@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '3526'
-ht-degree: 87%
+source-wordcount: '3577'
+ht-degree: 95%
 
 ---
 
@@ -45,8 +45,12 @@ Workfront にログインできる時間の種類について詳しくは、[時
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
-   <td> <p>新規：明るいかそれ以上</p>
-   <p>現在： 
+   <td> <p>新規： 
+   <ul><li>タイムシートに一般的な時間を記録するには Light 以上</li>
+   <li>標準 – プロジェクト、タスク、または問題の時間を記録します</li></ul>
+
+
+<p>現在： 
    <ul><li>タイムシートの一般的な時間数を記録するには、確認またはそれ以上</li>
    <li>プロジェクト、タスク、またはイシューの時間を記録をするにはワーク以上</li></ul> </td> 
   </tr> 
@@ -56,12 +60,12 @@ Workfront にログインできる時間の種類について詳しくは、[時
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ログ時間に対する権限を含む、時刻を記録する作業項目に対する権限を提供するか、それ以上の権限を付与する</p> </td> 
+   <td> <p>時間を記録する作業アイテムにおけるコントリビューター以上の権限（時間を記録する権限を含む）。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
 ## Workfront で時間を記録する際の考慮事項
@@ -76,7 +80,7 @@ Workfront にログインできる時間の種類について詳しくは、[時
 * タイムシートには、すべてのログに記録された日付の合計時間が含まれます。タイムラインの計算で除外するように設定されている場合でも、（[システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)で説明されているように）週末を常に含みます。
 * タイムシートに表示される項目の最大数は 45 です。タイムシートの時間枠に一致する日付を持つ 45 項目を超える場合は、最も新しく更新された項目のみが表示されます。
 * 請求済み請求記録に含まれる時間エントリは灰色表示になり、タイムシートで編集できません。詳しくは、[請求記録の作成](../../manage-work/projects/project-finances/create-billing-records.md)を参照してください。
-* 既定では、個人のタスクはタイムシートに表示されません。 個人のタスクは、タイムシートに時間が記録された場合にのみ表示されます。 個人のタスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。 詳しくは、 [ホーム領域から作業項目を作成する](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* デフォルトでは、個人タスクはタイムシートに表示されません。個人タスクは、タイムシートに時間が記録された場合にのみ表示されます。個人タスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。詳しくは、[ホームエリアからの作業アイテムの作成](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)を参照してください。
 
 ## 時間を記録 {#log-time-section}
 
@@ -93,23 +97,23 @@ Workfront の次の領域で時間を記録できます。
 
 #### タイムシートへの時間の記録 {#log-time-on-a-timesheet}
 
-タイムシート内の次の項目に時間を記録できます。
+タイムシートの次のアイテムに時間を記録できます。
 
-* Workfront管理者がタイムシートの基本設定を設定した方法に基づいて、自動的に表示される事前入力されたタスク、問題、およびプロジェクト。 タイムシートの事前入力方法については、 [タイムシートと時間の基本設定を構成する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Workfront 管理者が行ったタイムシートの基本設定に基づいて、事前に入力されたタスク、イシューおよびプロジェクトが自動的に表示されます。タイムシートの事前入力方法について詳しくは、[タイムシートおよび時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
-  自分に割り当てられたタスクと問題のみがタイムシートに事前入力されます。 チームまたはジョブの役割に割り当てられたタスクと問題は、タイムシートに自動的に入力されません。
+  自分に割り当てられたタスクとイシューのみがタイムシートに事前入力されます。チームまたは担当業務に割り当てられたタスクとイシューは、タイムシートに自動的に入力されません。
 
   チームに割り当てられた項目で「作業をする」クリックすると、項目が自分に割り当てられ、項目がタイムシートに表示されます。
 
-* 手動で追加したタスク、イシュー、またはプロジェクト。
-* 既にWorkfrontのどこかでログに記録しているタスク、イシュー、またはプロジェクト。
+* 手動で追加したタスク、イシュー、プロジェクト。
+* Workfront のどこかで既に時間を記録しているタスク、イシュー、プロジェクト。
 * 一般時間（休暇、トレーニング、オーバーヘッド時間）。
 
 >[!NOTE]
 >
 >タイムシートプロファイルに割り当てられたレビューユーザーは、タイムシート領域を表示し、一般的な時間数を記録できます。ただし、タイムシートに表示され、割り当てられたタスクやイシューに関する時間は記録できません。
 
-タイムシートの時間を記録するには、次の手順に従います。
+タイムシートに時間を記録するには：
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
 
@@ -127,13 +131,13 @@ Workfront の次の領域で時間を記録できます。
 
    <!--drafted for full screen mode for add projects story - align it with the rest of the steps when you enable this:: 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the list of objects in full-screen mode.-->
 
-1. （オプション）検索アイコン ![項目の検索](assets/search-icon.png) を使用して、タイムシートに追加するキーワードを使用して特定の項目を検索します。
+1. （オプション）検索アイコン ![アイテムを検索](assets/search-icon.png) をクリックすると、キーワードを使用して特定のアイテムを検索し、タイムシートに追加できます。
 
 1. （オプション）フィルター、表示またはグループ化のドロップダウンメニューを展開して適用またはカスタマイズし、必要な項目情報を表示します。
 
 1. リスト内の 1 つまたは複数の項目を選択し、「**追加**」をクリックします。
 
-   一度に 50 個未満の項目を追加した場合、その項目はタイムシートに追加されます。 タスクとイシューは、プロジェクトの名前の下に表示されます。
+   一度に追加したアイテムが 50 個未満の場合、それらはタイムシートに追加されます。タスクとイシューは、プロジェクトの名前の下に表示されます。
 
    >[!NOTE]
    >
@@ -279,7 +283,7 @@ Workfront の次の領域で時間を記録できます。
 
    ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
-1. （オプション） **タイムシート** タイムシートを閉じるか送信する領域。
+1. （オプション）**タイムシート**&#x200B;エリアに戻って、タイムシートを閉じるか送信します。
 
    * **閉じる**：タイムシートの更新が完了したら、タイムシートを閉じます。このオプションは、タイムシートが承認者に関連付けられていない場合にのみ使用できます。
 
@@ -304,7 +308,7 @@ Workfront の次の領域で時間を記録できます。
 
 タイムシートから時間エントリを削除するには、次の手順に従います。
 
-1. タイムシートに移動し、削除する時間の入力を見つけます。
+1. タイムシートに移動し、削除する時間エントリを見つけます。
 1. 入力した時間を 0 に置き換えるか、
 または
 時間を削除して 0 に置き換え、Enter キーを押します。
@@ -331,27 +335,29 @@ Workfront の次の領域で時間を記録できます。
 
 ホームでは、プロジェクト固有の時間を記録できます。
 
-ホーム領域の使用に関する一般情報については、次の節を参照してください。
+ホームエリアの使用に関する一般的な情報については、次の節を参照してください。
 
-* 従来のホーム領域の使用については、 [ホーム領域を使用する](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* 新しいホーム領域の使用方法については、 [新しいホームを使い始める](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* 従来のホームエリアの使用について詳しくは、[ホームエリアの使用](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)を参照してください。
+* 新しいホームエリアの使用について詳しくは、[新しいホームの基本を学ぶ](../../workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 
-#### 新しいホーム領域から作業項目に対する時間を記録する
+#### 新しいホームエリアから作業アイテムの時間を記録
 
-Summary パネルを使用すると、任意のウィジェット内の任意のオブジェクトに時間を記録できます。 詳しくは、 [概要パネル](#summary-panel) 」の節を参照してください。
+ホーム領域の概要パネルを使用して、任意のウィジェットのタスクや問題に時間を記録できます。 詳しくは、この記事の[概要パネル](#summary-panel)の節を参照してください。
 
-さらに、マイワークウィジェットの項目の時刻を記録するには、次の手順を実行します。
+さらに、自分の作業ウィジェットでアイテムの時間を記録するには、次の手順に従います。
 
-1. にアクセス **ホーム** 領域。
-1. 次を追加： **自分の仕事** ウィジェットをホームに送信します。
-1. タスク、イシュー、またはリスト内のリクエストを選択し、 **作業する**
-1. ログに記録するタスクまたは問題の上にマウスポインターを置き、 **ログ時間** アイコン ![](assets/log-time-icon-in-new-home.png) をタスク情報の右側に追加します。
+1. **ホーム**&#x200B;エリアにアクセスします。
+1. **自分の作業**&#x200B;ウィジェットを自分のホームに追加します。
+1. タスク、イシューまたはリスト内のリクエストを選択し、「**作業をする**」をクリックします。
+1. 時間を記録するタスクまたはイシューにポインタを合わせ、タスク情報の右にある&#x200B;**時間を記録**&#x200B;アイコン ![](assets/log-time-icon-in-new-home.png) をクリックします。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
-1. クリック **ログ時間**.
+1. 「**時間を記録**」をクリックします。
 
-#### 従来のホーム領域から作業項目に対する時間を記録する
+   ログ時間は、オブジェクトの「時間」セクションと、タイムシートに表示されます。
+
+#### 従来のホームエリアから作業アイテムの時間を記録
 
 1. **作業リスト**&#x200B;エリアで、時間を記録するアイテムを選択します。
 1. 右パネルで、「**時間を記録**」をクリックします。
@@ -362,6 +368,8 @@ Summary パネルを使用すると、任意のウィジェット内の任意の
    時間タイプは、システムレベル、プロジェクトレベルおよびユーザーレベルで定義された内容に応じて使用できます。詳しくは、[タイムシートの時間タイプと空き時間の定義](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)を参照してください。
 1. （条件付き）Workfront 管理者またはグループ管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にしている場合は、ドロップダウンメニューから担当業務を選択します。作業アイテムに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 1. 記録する時間を指定し、「**時間を記録**」をクリックします。
+
+   ログ時間は、オブジェクトの「時間」セクションと、タイムシートに表示されます。
 
 ### プロジェクト、タスクまたはイシュー {#project-task-or-issue}
 
@@ -374,11 +382,9 @@ Summary パネルを使用すると、任意のウィジェット内の任意の
 
 プロジェクト、タスク、またはイシューの「更新」セクションで時間を記録するには、以下が必要です。
 
-* ワークまたはプランライセンス。
-* プロジェクト、タスクまたはイシューへの「参加」またはそれ以上の権限と「時間の記録」へのアクセス権。\
-  プロジェクトに関する権限の付与について詳しくは、[Adobe Workfront でのプロジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
+* の説明に従って、正しいアクセス権と権限 [アクセス要件](#access-requirements) この記事のセクションです。
 
-* 時間を直接プロジェクトに記録する場合は、[!UICONTROL **タイムシートと時間**]／[!UICONTROL **環境設定**]&#x200B;で、時間を直接プロジェクトで記録する設定を Workfront 管理者が有効にする必要があります。
+* Workfront管理者は、の下にある「プロジェクトに時間を直接記録」設定を有効にする必要があります [!UICONTROL **タイムシートと時間**]> [!UICONTROL **環境設定**] システム領域で、プロジェクトに直接時間を記録する場合。
 
   時間数をユーザーが直接プロジェクトに記録できるようにする方法について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
@@ -388,7 +394,7 @@ Summary パネルを使用すると、任意のウィジェット内の任意の
 1. 左パネルで「**更新**」を選択します。
 1. 「**時間を記録**」をクリックします。<!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   [ ログの時刻 ] ダイアログボックスが表示されます。
+   時間を記録ダイアログボックスが表示されます。
 
    >[!TIP]
    >
@@ -408,7 +414,9 @@ Summary パネルを使用すると、任意のウィジェット内の任意の
 
    * **時間数**：プロジェクト、タスクまたはイシューの時間数を入力します。
 
-1. クリック **ログ時間**.
+1. 「**時間を記録**」をクリックします。
+
+   ログ時間は、オブジェクトの「時間」セクションと、タイムシートに表示されます。
 
 #### 「時間」セクション{#hours-section}
 
@@ -420,7 +428,7 @@ Summary パネルを使用すると、任意のウィジェット内の任意の
 
 * 「タイムシートと時間」への管理アクセス権が付属しているプランライセンス。「タイムシートと時間」への管理アクセス権の付与について詳しくは、[ユーザーへの特定エリアに対する管理アクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 * プロジェクトへの「参加」またはそれ以上の権限と「時間の記録」へのアクセス権。プロジェクトに関する権限の付与について詳しくは、[Adobe Workfront でのプロジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
-* 時間を直接プロジェクトに記録する場合は、タイムシートと時間／環境設定で、時間を直接プロジェクトで記録する設定を Workfront 管理者が有効にする必要があります。時間数をユーザーが直接プロジェクトに記録できるようにする方法について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+* Workfront管理者は、で「プロジェクトに時間を直接記録」設定を有効にする必要があります **タイムシートと時間 > 環境設定** プロジェクトに直接時間を記録する場合は、設定エリアの「」セクション。 時間数をユーザーが直接プロジェクトに記録できるようにする方法について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
 プロジェクト、タスクまたはイシューの「時間」セクションで時間を記録するには、次の手順に従います。
 

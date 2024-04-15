@@ -6,18 +6,16 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '2974'
-ht-degree: 86%
+source-wordcount: '2971'
+ht-degree: 84%
 
 ---
 
 # 作業の更新
 
 <!-- Audited: 1/2024 -->
-
-<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -53,7 +51,7 @@ ht-degree: 86%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Adobe Workfront オブジェクトに更新を追加して、オブジェクトの進行状況を伝えることができます。 Workfrontで更新を追加できるオブジェクトについて詳しくは、以下を参照してください。 [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Adobe Workfront オブジェクトに更新を追加して、オブジェクトの進行状況を他のユーザーに伝えることができます。 Workfrontで更新を追加できるオブジェクトについて詳しくは、以下を参照してください。 [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 この記事の情報では、プロジェクト、タスクおよび問題の情報をコメントして更新する方法について説明します。 更新を表示できるのは、オブジェクトに割り当てられているまたは登録しているユーザーです。またユーザーにタグ付けして、更新に注意を向けさせることもできます。
 
@@ -128,7 +126,7 @@ Adobe Workfront オブジェクトに更新を追加して、オブジェクト�
 
    * Workfront オブジェクトから、「更新」セクションで（プロジェクト、タスク、および問題用）
    * ホームエリアから（タスクおよびイシューの場合）
-   * 次の領域の概要パネルから（タスクおよび問題に対して）:
+   * 次の領域の概要パネルから（タスク、イシュー、ドキュメントの場合）:
 
       * オブジェクトのリスト
       * タイムシート
@@ -225,21 +223,23 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## 作業項目に更新を追加 <!--using the new commenting experience-->
+## 作業アイテムへの更新の追加
 
-1. 更新するオブジェクト（プロジェクト、タスク、イシュー）を見つけ、その名前をクリックしてそのオブジェクトのページを開きます。
+この記事では、プロジェクト、タスク、イシューを更新する方法について説明します。 他のほとんどのオブジェクトの更新も同様です。
+
+1. 更新するオブジェクトを確認し、その名前をクリックして、そのオブジェクトのページを開きます。
 1. クリック  **更新** 左側のパネルで次の操作を行います。
 デフォルトでは、「**コメント**」タブが選択されています。
 
-<!--
-1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
+   <!--
+   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   This enables the new commenting experience. 
+      This enables the new commenting experience. 
 
-      >[!TIP]
-      >
-      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
--->
+         >[!TIP]
+         >
+         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+   -->
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
@@ -294,10 +294,6 @@ You can add updates to the following objects:
 
    追加のコメントが画面の下部に表示されます。
 
-   >[!NOTE]
-   >
-   >   「新しいコメント」インジケーターと「表示」ボタンは、新しい更新を入力したユーザーと、現在「更新」セクションを表示しているユーザーの両方が新しいコメント機能のエクスペリエンスを使用している場合にのみ表示されます。
-
 1. （オプション）**いいね！**&#x200B;アイコン ![](assets/like-icon.png) をクリックします。アイコンは「いいね！」の数に応じて更新されます。
 1. （条件付きおよびオプション）コメントに追加のユーザーを含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているエンティティのリストを表示します。
 
@@ -314,7 +310,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >システムの更新にコメントを追加することはできません。 ただし、従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。
+   >システムの更新にコメントを追加することはできません。 ただし、従来のコメント機能エクスペリエンスでシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに追加されました。 2024 年 4 月 11 日（PT）に、従来のコメント機能がWorkfrontから削除されました。
 
 1. （任意） **すべて** tab キーを押すと、ユーザーコメントとシステムアクティビティコメントの両方が 1 か所で表示されます。 これは表示のみのタブです。
 
@@ -355,11 +351,11 @@ You can add updates to the following objects:
    >* 組織が Internet Explorer でWorkfront を使用している場合、更新に貼り付けた書式設定済のテキストからはリッチテキストの書式が失われ、プレーンテキストとして表示されます。リッチテキストツールバーの属性を使用して、テキストの書式を変更できます。
    >* リッチテキストの書式設定は、レポートで表示されるタイムシートエリアで行われた更新や、メモおよび最終状況オブジェクトの更新には使用できません。
 
-<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-<!--remove this picture below and the bullet above when we remove legacy-->
+   <!--remove this picture below and the bullet above when we remove legacy-->
 
-<!--![](assets/block-quote-marked-350x144.png)-->
+   <!--![](assets/block-quote-marked-350x144.png)-->
 
 1. （オプション）**絵文字**&#x200B;アイコン ![](assets/emoji-icon.png) をクリックして、更新に絵文字を追加します。
 
@@ -431,9 +427,11 @@ You can add updates to the following objects:
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## 更新情報をコピー
+## 更新をコピー
 
-更新をコピーする方法はいくつかあります。リンクをコピーした後、他のユーザーとリンクを共有して、ユーザーを更新に誘導することができます。
+更新をコピーする方法はいくつかあります。
+
+更新にリンクをコピーするか、更新の内容をコピーして新しい更新で使用できます。
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
@@ -447,7 +445,7 @@ You can add updates to the following objects:
 
 * [リンクをコピー](#copy-link)
 * [本文をコピー](#copy-body-text)
-* [引用返信](#quote-reply-1)
+* [引用返信](#quote-reply)
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
@@ -485,7 +483,6 @@ You can add updates to the following objects:
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
-   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. 更新の追加を続行し、「**送信**」をクリックしてコメントを追加します。
 
@@ -556,7 +553,7 @@ Workfront 管理者がユーザーに提供するアクセス権によっては�
 Workfront ユーザー（Workfront 管理者を含む）は、別のユーザーが行った更新を削除できません。ただし、あるユーザーが自身の更新を削除できるアクセスレベルを有している場合、Workfront 管理者はそのユーザーとしてログインして、ユーザーが行った更新を削除できます。詳しくは、[カスタムアクセスレベルを作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch)および[別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
 
 1. 削除する更新または返信に移動します。
-1. 削除する更新または返信の横にある&#x200B;**その他**&#x200B;メニューをクリックしてから、「**削除**」を選択します。<!--October 2023 - replace screen shot here-->
+1. 削除したい更新または返信の横にある&#x200B;**その他**&#x200B;メニュー、「**削除**」の順にクリックします。
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 

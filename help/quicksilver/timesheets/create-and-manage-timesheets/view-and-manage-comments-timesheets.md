@@ -6,14 +6,16 @@ description: タイムシート、タイムシートに含まれる作業項目�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 79%
+source-wordcount: '847'
+ht-degree: 78%
 
 ---
 
 # タイムシートのコメントの表示および管理
+
+<!-- Audited: April, 2024-->
 
 タイムシート内の次の項目にコメントを付けることができます。
 
@@ -30,25 +32,26 @@ ht-degree: 79%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>レビュー </p> </td> 
+   <td> <p>新規：ライト以上 </p>
+   <p>現在：レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクとイシューへの閲覧またはそれ以上のアクセス権</p> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベルの設定</td> 
+   <td> <p>タスクとイシューへの閲覧またはそれ以上のアクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクとイシューに対する表示またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>タスクとイシューに対する表示またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## タイムシートの時間エントリコメントを表示 {#view-hour-entry-comments-on-a-timesheet}
 
@@ -76,29 +79,29 @@ ht-degree: 79%
 
 ### タイムシート全体に対するコメント {#comment-on-the-overall-timesheet}
 
-タイムシートに関する一般的なコメントを作成できます。 タイムシート全体に対するコメントは、他のオブジェクトに対するコメントと似ています。
+タイムシートに対して一般的なコメントを付けることができます。 タイムシート全体に対してコメントすることは、他のオブジェクトに対してコメントすることと似ています。
 
-1. 次をクリック： **メインメニュー** アイコン ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** アイコン ![](assets/lines-main-menu.png) ( 左上隅またはWorkfront（使用可能な場合）)
+1. 「」をクリックします **メインメニュー** アイコン ![](assets/main-menu-icon.png) 右上隅、または **メインメニュー** アイコン ![](assets/lines-main-menu.png) 左上隅またはWorkfront（使用可能な場合）
 
 1. 「**タイムシート**」をクリックします。
 1. コメントを追加するタイムシートに移動します。
-1. クリック **更新** 左のパネルで、 **コメント** タブをクリックします。
-1. 新しいコメントの追加や既存のコメントへの返信を開始します。詳しくは、 [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. （オプション） **担当者またはチームのタグ付け** フィールドを使用して、他の項目を更新に含めます。 詳しくは、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
-1. （オプション） **私の会社に対してプライベート** 会社の担当者のみに更新を表示する場合は、オプションを使用します。
-1. コメントを入力し、「 **送信**.
+1. クリック **更新** 左側のパネルで、 **コメント** タブ。
+1. の説明に従って、新しいコメントの追加を開始するか、既存のコメントに返信します [作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （任意）にユーザーやチームを追加する **人物またはチームにタグ付け** フィールドを更新し、その他を含めます。 詳しくは、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
+1. （オプション）「」を選択します **社外秘** 会社のユーザーのみに更新を表示する場合は、「」オプションを選択します。
+1. コメントを入力し、クリックします **Submit**.
 
-   コメントが [!UICONTROL 更新] [ コメント ] タブの [ タイムシート ] セクション
+   コメントがに表示されます [!UICONTROL 更新] タイムシートの「コメント」タブ
 
-1. （オプション） **システムアクティビティ** タブをクリックして、システム生成の更新を確認します。
+1. （任意） **システムアクティビティ** システムで生成された更新を確認するタブ
 
    または
 
-   次をクリック： **すべて** タブをクリックし、システムのアクティビティとユーザーのコメントを時系列で表示します。
+   「」をクリックします **すべて** tab キーを押すと、システムアクティビティとユーザーコメントが時系列で表示されます。
 
    >[!TIP]
    >
-   >   「すべて」タブは読み取り専用のタブで、そこからのコメントに対して返信することはできません。
+   >   「すべて」タブは読み取り専用タブで、ここからコメントに返信することはできません。
 
 
    詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
@@ -148,7 +151,7 @@ ht-degree: 79%
 1. 「[!UICONTROL **タイムシート**]」をクリックします。
 1. コメントを追加するタイムシートに移動し、左側のパネルで「[!UICONTROL **タイムシート**]」をクリックします。
 1. タスクまたはイシューの行をクリックし、「[!UICONTROL **概要を開く**]」をクリックします。
-1. 更新の入力を開始するには、 [!UICONTROL **更新**] 「概要」パネルの領域で、「 [!UICONTROL **送信**].
+1. で更新の入力を開始 [!UICONTROL **更新**] 概要パネルの領域で、 [!UICONTROL **Submit**].
 更新は、タスクとイシューの「更新」セクションに表示されます。
 1. （オプション）「[!UICONTROL **概要を閉じる**]」をクリックして概要パネルを閉じます。
 

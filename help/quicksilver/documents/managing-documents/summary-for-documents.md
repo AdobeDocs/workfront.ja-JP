@@ -7,18 +7,18 @@ description: 「概要」では、ドキュメントリストから直接重要�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 98%
+source-wordcount: '394'
+ht-degree: 94%
 
 ---
 
 # ドキュメントの概要
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-「概要」では、ドキュメントリストから直接重要な情報を操作できます。
+概要パネルを使用して、ドキュメントリストから直接重要な情報にアクセスし、更新できます。
 
 ## アクセス要件
 
@@ -31,25 +31,27 @@ ht-degree: 98%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td> <p>新規：コントリビューター以上</p> 
+   <p>現在：リクエスト以上</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントに関連付けられたオブジェクトへのアクセスの表示</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ドキュメントに関連付けられたオブジェクトへのアクセスの表示</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 「概要」ビューを開く
 
@@ -67,7 +69,7 @@ ht-degree: 98%
 * [概要](#overview)
 * [カスタムフォーム](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### 概要 {#overview}
 
@@ -79,18 +81,13 @@ ht-degree: 98%
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。カスタムフォームの名前を入力し、ドキュメントに追加します。詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 更新
 
 「更新」セクションでは、ドキュメントまたはプルーフで行われた更新を確認できます。概要には、最初に作成された 2 つのコメントが表示されます。更新について詳しくは、 [プルーフに対するコメント](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)を参照してください。
 
-<div class="preview">
-
 ![概要パネルの「更新」セクション](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## 承認
 
@@ -101,7 +98,7 @@ ht-degree: 98%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## バージョン
 
@@ -113,4 +110,4 @@ ht-degree: 98%
 * ドキュメントの詳細に移動する
 * プルーフまたはドキュメントを削除する
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

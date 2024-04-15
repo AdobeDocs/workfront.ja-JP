@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 81%
+source-wordcount: '345'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 2 月 13 日（PT）、高速リリースの実稼動：24.3 リリースの実稼動（2024 年 3 月 14 日（PT））、すべてのお客様向けの実稼動：24.4 リリースの実稼動（2024 年 4 月 11 日（PT））。
+>プレビューリリース：2024 年 2 月 13 日（PT）、高速リリースの実稼動：24.3 リリース（2024 年 3 月 14 日（PT））で、すべてのお客様の実稼動：未定。
 
 <span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span>
 
@@ -39,7 +39,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->プレビューリリース：2023 年 12 月 21 日（PT）、高速リリースの実稼動：24.3 リリースの実稼動（2024 年 3 月 14 日（PT））、すべてのお客様向けの実稼動：24.4 リリースの実稼動（2024 年 4 月 11 日（PT））。
+>プレビューリリース：2023 年 12 月 21 日（PT）、高速リリースの実稼動：24.3 リリース（2024 年 3 月 14 日（PT））で、すべてのお客様の実稼動：未定。
 
 <span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span>
 

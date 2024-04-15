@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 34%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 34%
 >
 >この記事の情報では、新しいコメントエクスペリエンスにリリースされた機能について説明しています。
 >
->新しいコメント機能のベータ版プログラムは 2023 年 4 月に開始し、2023 年 10 月に終了しました。 新しいコメント機能のベータ版プログラムは、2023 年 10 月リリースで終了しました。
+>新しいコメント機能のベータ版プログラムは 2023 年 4 月に開始し、2023 年 10 月に終了して、2023 年 10 月リリースを迎えました。
 >
->2023 年 10 月以降、新しいコメント機能のすべての新機能が、すべてのお客様にリリースされます。 詳しくは、各リリースの最新のリリースの概要ページを参照してください。
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>2024 年 4 月 11 日（PT）以降、新しいコメント機能は、すべてのお客様の実稼動環境で利用できるようになりました。
 
 ## 機能
 
@@ -561,19 +551,20 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 * 2024 年第 2 四半期（2024 年 4 月 11 日（PT））のリリースでは、次のようになります。
 
-   * 従来のコメントストリームに戻すオプションを削除し、新しいコメントストリームを、反復を除くすべてのオブジェクトの唯一のエクスペリエンスにします。
+  従来のコメントストリームに戻すオプションを削除し、新しいコメントストリームを、反復を除くすべてのオブジェクトの唯一のエクスペリエンスにします。
 
 ## 新しいコメントエクスペリエンスを検索
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+Workfrontの次の領域で、新しいコメント機能を使用できます。
 
->[!IMPORTANT]
->
->新しいコメント機能は、イテレーションを除くすべてのオブジェクトに対するすべてのWorkfront環境で使用できます。
->
->プロジェクト、タスク、イシュー、ドキュメントのすべての環境から、従来のコメント機能が削除されました。
+* すべてのオブジェクトの更新セクション（反復を除く）
 
-Workfront オブジェクトの更新セクションへのアクセスについて詳しくは、以下を参照してください [更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Workfront オブジェクトの更新セクションへのアクセスについて詳しくは、以下を参照してください [更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* これが使用可能なすべての領域（リスト、タイムシート、ワークロードバランサー、ホーム）のタスク、問題、ドキュメントの概要パネルに表示されます。
+* タスクおよび問題のホーム エリア。
+
+
 
 <!--
 

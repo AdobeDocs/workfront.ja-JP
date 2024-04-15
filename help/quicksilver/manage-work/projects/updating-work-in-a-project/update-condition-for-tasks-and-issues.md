@@ -6,10 +6,10 @@ description: タスクまたはイシューの状況は、進行状況を示す�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 76%
+source-wordcount: '756'
+ht-degree: 74%
 
 ---
 
@@ -39,12 +39,12 @@ Adobe Workfront 管理者は、環境のカスタムの状況を作成できま�
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td>
 
-新しいライセンスの場合：
+新規ライセンスの場合：
 <ul><li><p>タスクの標準</p></li>
-   <li><p>問題の寄稿者以上</p></li></ul>
+   <li><p>問題のコントリビューター以上</p></li></ul>
 
 
-現在のライセンスの場合：
+現在のライセンス：
 <ul><li><p>タスクの場合はワーク以上</p></li>
    <li><p>イシューの場合はリクエスト以上</p></li></ul>
     </td> 
@@ -62,13 +62,13 @@ Adobe Workfront 管理者は、環境のカスタムの状況を作成できま�
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## タスクおよびイシューの状況を見つける
 
 状況は、タスクまたはイシューに関連付けられたフラグとして表示されます。また、ラベルの代わりにレポートに表示できる数値に関連付けることもできます。状況と数値の関連付けについて詳しくは、[カスタム状況の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
 
-レポートとリストで [ タスクの条件 ] と [ タスクと問題の条件 ] を見つけるには、[ 表示 ] または [ グループ化 ] の [ 条件 ] フィールドを表示します。
+ビューまたはグループ化の [ 条件 ] フィールドを表示すると、レポートおよびリストでタスクと問題の条件を見つけることができます。
 
 >[!NOTE]
 >
@@ -90,7 +90,16 @@ Adobe Workfront 管理者は、環境のカスタムの状況を作成できま�
 
 状況を設定するには、タスクまたはイシューに割り当てられているか、タスクまたはイシューに対する管理権限を持っている必要があります。
 
-ビューに「条件」フィールドを表示するときに、タスクまたはタスクまたはイシューのタスクまたはイシューの条件を手動で更新することができます。
+ビューに [ 条件 ] フィールドを表示すると、タスクまたは問題の報告書またはリストのタスクまたは問題の条件を手動で更新できます。
+
+>[!NOTE]
+>
+>システム管理者またはグループ管理者に依頼して、概要パネルに条件フィールドを追加してもらい、Workfrontの様々な領域で更新しやすくすることができます。
+>
+>詳しくは、次の記事を参照してください。
+>
+>* [概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 
@@ -99,11 +108,11 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-タスクまたはイシューの条件を手動で更新するには、次の手順に従います。
+タスクまたは問題の条件を手動で更新するには：
 
-1. 管理権限を持つタスクまたは問題の一覧に移動します。 次を確認します。 **条件** フィールドがリストの表示に表示されます。
+1. 管理権限のあるタスクまたは問題の一覧に移動します。 を確実に **条件** フィールドはリストのビューに表示されます。
 
-1. を更新します。 **条件** イシューまたはタスクをインラインで表示する場合は、既存の条件をダブルクリックし、ドロップダウンメニューから新しい値を選択します。
+1. を更新 **条件** イシューまたはタスクをインラインでダブルクリックし、既存の条件をダブルクリックして、ドロップダウンメニューから新しい値を選択する。
 
    ![](assets/condition-drop-down-values-in-task-list.png)
 
@@ -112,7 +121,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
    >状況は環境に合わせてカスタマイズできるので、お使いの環境で状況の選択肢が 4 つ以上ある場合もあります。状況の名前は、上記の名前とは異なる場合があります。Workfront での状況のカスタマイズについては、[カスタム状況の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
 
 
-1. 押す **入力** キーボードでクリックするか、[ 条件 ] フィールドの外側をクリックして、新しいタスクまたは問題の条件を保存します。
+1. 押す **Enter** キーボードで、「条件」フィールドの外側をクリックして新しいタスクまたは問題の条件を保存します。
 
    <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   

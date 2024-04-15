@@ -4,19 +4,20 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Adobe Workfront の管理者は、別のユーザーの代わりに Workfront にアクセスする必要が生じる場合があります。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 100%
+source-wordcount: '814'
+ht-degree: 95%
 
 ---
 
 # 別のユーザーとしてのログイン
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -64,8 +65,9 @@ Some users, such as executives, need to be able to control which administrators 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td> <p>新規：標準</p>
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -75,6 +77,8 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
  </tbody> 
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## ログインし、別のユーザーとしてアクションを実行する
 
@@ -146,7 +150,7 @@ Workfront は、管理者が別のユーザーとしてログインしている�
 
 別のユーザーとして Workfront にログインしてアクションを実行すると、Workfront ではログインしているユーザーの代理としてアクションを実行したことが明示されます。
 
-例えば、別のユーザーとしてログインした項目に対してコメントを作成した場合、そのユーザーの代わりに自分がコメントを作成したことを示すステートメントが表示されます。
+例えば、別のユーザーとしてログインしている際に項目にコメントを付けると、オブジェクトの「更新」セクションを表示したときに、コメントがユーザーに代わってあなたが行ったことを示すステートメントが表示されます。
 
 ### 監査情報の表示 {#view-audit-information}
 

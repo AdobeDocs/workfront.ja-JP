@@ -8,58 +8,46 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 90%
+source-wordcount: '697'
+ht-degree: 79%
 
 ---
 
 # 更新に返信する
 
-<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
+<!-- Audited: April 2024-->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
+>[!IMPORTANT]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
+>
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
+>
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
+>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーの場合はプレビュー環境で、迅速なリリースを有効にしているユーザーの場合は実稼動環境でのみ使用できます。 </span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview">現在のリリーススケジュールについて詳しくは、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。</span>
+作業オブジェクトに関するコメントまたはシステム更新に返信した場合、その返信は、オブジェクトの「更新」セクションの「コメントと全員」タブのコミュニケーションスレッドに表示されます。
 
 >[!IMPORTANT]
 >
->現在アドビでは、Adobe Workfront のコメントエクスペリエンスを再設計しているところです。
->
->コメントエクスペリエンスにアクセスする目的のオブジェクトに応じて、「更新」セクションに次の機能が表示される場合があります。
->* 新しいエクスペリエンス
->* 従来のエクスペリエンス
->* 新しいエクスペリエンスと従来のエクスペリエンス
->
->新しいコメントエクスペリエンスとその可用性について詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
->
-><Span class="preview"> プレビュー環境で、従来のコメント機能がプロジェクト、タスク、イシュー、ドキュメントから削除されました。 </span>
->
->新しいコメントエクスペリエンスは、Workfront オブジェクトの「更新」セクションでのみ使用できます。次のエリアから更新にアクセスする場合は使用できません。
->
-> * ホーム
-> * リストの概要パネル
-> * タイムシートの概要パネル
-> * ワークロードバランサーの概要パネル
->
-><span class="preview">迅速なリリースプロセスを選択した顧客の場合、プレビュー環境のリスト、タイムシート、ワークロードバランサーの概要パネルと実稼動環境に新しいコメントエクスペリエンスが表示されます。 </span>
-
-誰かが作業オブジェクトのコメントやシステムの更新に返信すると、その返信がそのオブジェクトの「更新」セクションの通信スレッドに表示されます。
-
->[!IMPORTANT]
->
->新しいコメントエクスペリエンスでは、システム更新に返信できません。詳しくは、[新しいコメント機能エクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
+>「システムアクティビティ」タブでシステムの更新に返信することはできません。 2024 年 4 月 11 日（PT）より前の従来のコメントエクスペリエンスで行われたシステム更新への返信は、読み取り専用として表示されます。
 
 <!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
@@ -72,27 +60,26 @@ ht-degree: 90%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
-   <td> <p>イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p> </td> 
+   <td> <p>新規：イシューとドキュメントにはコントリビューター以上、その他のすべてのオブジェクトにはライト以上</p> 
+   <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>イシューおよびドキュメントに対して要求者以上、その他すべてのオブジェクトに対してレビュアー以上</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td> <p>更新先のオブジェクトに対する表示または編集アクセス権</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>オブジェクトに対する表示アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>オブジェクトに対する表示アクセス権</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;自分のプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、を参照してください [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Workfront での更新または返信に対する返信
 
@@ -100,16 +87,14 @@ ht-degree: 90%
 
 コメントまたは返信への返信は、選択したエクスペリエンスとオブジェクトに応じて異なります。
 
-### 新しいコメントエクスペリエンスを使用する際のコメントへの返信
-
-新しいコメントエクスペリエンスで使用できる機能とオブジェクトについて詳しくは、[新しいコメントエクスペリエンス](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
+### コメントに返信する
 
 1. 返信を追加するオブジェクトに移動します。
 1. クリック **更新**&#x200B;を選択し、 **コメント** オブジェクトの Tab キーを押して、返信先のコメントまたは返信を検索します
 
    または
 
-   <span class="preview">「」をクリックします **すべて** tab キーを押してから、 **コメントで返信** 「コメント」タブでコメントを開いて返信します。 「すべて」タブでは返信できません。</span>
+   「」をクリックします **すべて** tab キーを押してから、 **コメントで返信** 「コメント」タブでコメントを開いて返信します。 「すべて」タブでは返信できません。
 
 1. （オプション）以前の更新のテキストを返信に含めるには、返信するコメントの右上隅にある&#x200B;**その他**&#x200B;メニューをクリックし、「**引用返信**」をクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
 1. 「**返信**」をクリックします。
@@ -128,25 +113,28 @@ ht-degree: 90%
 
 1. （オプション）返信するコメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックすると、返信を管理するオプションがさらに表示されます。詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-### 従来の「更新」セクションでの更新または返信に対する返信
+<!--
+### Reply to an update or reply in the legacy Updates section
 
-1. 返信を追加するオブジェクトに移動します。
-1. オブジェクトの「**更新**」タブで、返信する更新または返信を探します。
+1. Go to the object to which you want to add a reply.
+1. On the **Updates** tab for the object, find the update or reply to which you want to reply.
 
-1. （オプション）既存の更新で画像を表示するには、次のいずれかの操作を実行します。
+1. (Optional) To view an image in the existing update do one of the following:
 
-   * 画像のサムネールで&#x200B;**プレビュー**&#x200B;アイコン ![](assets/previewimageicon-31x31.png) をクリックして、フルサイズの画像を新しいブラウザータブで開きます。
-   * 画像のサムネールで&#x200B;**ダウンロード**&#x200B;アイコン ![](assets/downloadimageicon.png) をクリックして、画像をダウンロードします。
+   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
 
-1. 更新で「**返信**」をクリックして、表示されるボックスに返信を入力します。
+1. Click **Reply** on the update, then type a reply in the box that appears.
 
-   会話に積極的に参加しているユーザーや各返信にタグ付けされているユーザーが、その更新スレッドの上部に表示されます。これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
+   You can see the users who are actively engaged in the conversation or tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
+   
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
+1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Reply** to save the reply.
 
-1. （オプション）返信に以前の更新のテキストを含めるには、引用を行う更新または返信の横にある&#x200B;**その他**&#x200B;メニュー、「**引用返信**」の順にクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
-1. （オプション）[作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)記事内「Workfront の更新でのリッチテキストの使用」の節で説明されているように、リンクまたは画像を含む書式、絵文字を使用します。
-1. 「**返信**」をクリックして、返信を保存します。
+-->
 
 ## メール通知から更新に返信
 
