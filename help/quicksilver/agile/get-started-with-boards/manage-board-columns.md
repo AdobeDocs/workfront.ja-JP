@@ -6,10 +6,10 @@ description: 新しいボードには、デフォルトで 3 つの列が含ま�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 94%
+source-wordcount: '1000'
+ht-degree: 90%
 
 ---
 
@@ -106,6 +106,8 @@ ht-degree: 94%
 >[!NOTE]
 >
 >動的ボードは、列ポリシーが有効か無効かに関係なく、常にステータスが一致する列にカードを配置します。 カードは、ボードを更新すると、割り当てられた列に戻ります。
+> 
+>また、すべてのボードタイプについて、ある列から同じステータスの別の列にカードを移動した場合、ボードを更新すると、カードは元の列に戻ります。
 
 1. ボードにアクセスします。
 1. 列上の&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-icon-spectrum.png) をクリックしてから、「**[!UICONTROL 編集]**」を選択します。
