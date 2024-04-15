@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 79%
+source-wordcount: '725'
+ht-degree: 74%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 79%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-作業オブジェクトに関するコメントまたはシステム更新に返信した場合、その返信は、オブジェクトの「更新」セクションの「コメントと全員」タブのコミュニケーションスレッドに表示されます。
+作業オブジェクトに関するコメントまたはシステム更新に対してユーザーが返信すると、その返信が通信スレッドのオブジェクトの「コメント」セクションと「すべての」タブに表示されます。
 
 >[!IMPORTANT]
 >
 >「システムアクティビティ」タブでシステムの更新に返信することはできません。 2024 年 4 月 11 日（PT）より前の従来のコメントエクスペリエンスで行われたシステム更新への返信は、読み取り専用として表示されます。
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+この記事では、Workfront内のほとんどのオブジェクトからのコメントに返信する方法を説明します。 様々なオブジェクトの更新セクションの違いについては、を参照してください [更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## アクセス要件
 
@@ -85,9 +85,9 @@ ht-degree: 79%
 
 表示できるオブジェクトのスレッド内のコメントに返信したり、Workfront 管理者またはグループ管理者としてログインし、別のユーザーの代わりにコメントに返信したりできます。詳しくは、[別のユーザーとしてログイン](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)を参照してください。
 
-コメントまたは返信への返信は、選択したエクスペリエンスとオブジェクトに応じて異なります。
-
 ### コメントに返信する
+
+オブジェクトの「更新」セクションのコメントへの返信は、Workfrontのほとんどのオブジェクトで同様です。
 
 1. 返信を追加するオブジェクトに移動します。
 1. クリック **更新**&#x200B;を選択し、 **コメント** オブジェクトの Tab キーを押して、返信先のコメントまたは返信を検索します

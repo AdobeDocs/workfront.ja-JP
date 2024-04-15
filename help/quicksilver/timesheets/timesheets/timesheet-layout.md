@@ -7,10 +7,10 @@ description: この記事では、Adobe Workfront のタイムシートのレイ
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 97%
+source-wordcount: '1049'
+ht-degree: 99%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 97%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーの場合はプレビュー環境で、迅速なリリースを有効にしているユーザーの場合は実稼動環境でのみ使用できます。 </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">現在のリリーススケジュールについて詳しくは、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 この記事では、Adobe Workfront のタイムシートのレイアウトについて説明します。タイムシートをカスタマイズして利用し、時間を記録する方法をより深く理解できます。
 
@@ -125,11 +125,7 @@ ht-degree: 97%
 
 ## 左パネルの更新エリア
 
-<div class="preview">
-
 ![左側のタイムシートパネルの「更新」領域](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 タイムシートの左パネルの「更新」セクションでタイムシートにコメントを付けると、タイムシートの承認者やその他のユーザーとコミュニケーションを取ることができます。
 
@@ -137,11 +133,7 @@ ht-degree: 97%
 
 ## 概要パネル
 
-<div class="preview">
-
 ![概要パネル](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 タイムシートに表示されたタスクやイシューの概要パネルにアクセスできます。ここから、タスクやイシューにコメントを付けたり、情報を更新したりできます。詳しくは、[概要について](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3577'
+source-wordcount: '3578'
 ht-degree: 95%
 
 ---
@@ -348,7 +348,7 @@ Workfront の次の領域で時間を記録できます。
 
 1. **ホーム**&#x200B;エリアにアクセスします。
 1. **自分の作業**&#x200B;ウィジェットを自分のホームに追加します。
-1. タスク、イシューまたはリスト内のリクエストを選択し、「**作業をする**」をクリックします。
+1. （オプション）リストでタスク、イシューまたはリクエストを選択し、 **作業をする**
 1. 時間を記録するタスクまたはイシューにポインタを合わせ、タスク情報の右にある&#x200B;**時間を記録**&#x200B;アイコン ![](assets/log-time-icon-in-new-home.png) をクリックします。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

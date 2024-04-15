@@ -6,10 +6,10 @@ description: '[!UICONTROL マイ更新]エリアを使用して、決定を待�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 92%
+source-wordcount: '767'
+ht-degree: 87%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>新規：寄稿者以上</p>
+   <td> <p>新規：コントリビューター以上</p>
    または   
-   <p>現在： [!UICONTROL リクエスト ] 以降</p> </td> 
+   <p>現在：[!UICONTROL Request] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
@@ -56,7 +56,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-*お持ちのプラン、ライセンスの種類、アクセス権を調べるには、 [!DNL Workfront] 管理者。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスの種類、アクセス権については、お客様にお問い合わせください [!DNL Workfront] 管理者。 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
@@ -74,7 +74,7 @@ ht-degree: 92%
 
    [!UICONTROL マイ更新]エリアが開きます。
 
-   自分に割り当てられているアクセスの承認とリクエストが、ページの前半部の、の下に表示されます。 **マイアップデート**.
+   自分に割り当てられているアクセスの承認および要求が、ページの前半の次の場所に一覧表示されます **マイ更新**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
@@ -153,8 +153,12 @@ ht-degree: 92%
    >最初の 50 件のメンションがデフォルトで表示されます。
 
 1. （オプション）「**[!UICONTROL 更新をさらに表示]**」をクリックして、さらに多くのメンションを表示します。
-1. （オプション）「**[!UICONTROL 返信]**」をクリックし、コメントに返信し、回答を入力して、再び「**[!UICONTROL 返信]**」をクリックします。
+1. （任意）クリック **[!UICONTROL 返信]** コメントに返信し、次のいずれかの操作をおこないます。
+   * 返信を入力してください
+   * リッチテキストツールバーを使用すると、テキストの書式設定や、リンク、リスト、絵文字、引用符、画像をメッセージに追加できます
+   * ユーザーまたはチームを追加して、返信を通知します。
 
-   アイテムの更新について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+     返信の追加が完了したら、 **[!UICONTROL 返信]** また。
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. （オプション）「**[!UICONTROL 現在のページをピン留め]**」をクリックして、[!UICONTROL マイ更新]エリアを上部ナビゲーションにピン留めします。
