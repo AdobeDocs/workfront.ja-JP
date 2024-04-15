@@ -6,10 +6,10 @@ description: 新しいボードには、デフォルトで 3 つの列が含ま�
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 97%
+source-wordcount: '967'
+ht-degree: 94%
 
 ---
 
@@ -103,6 +103,10 @@ ht-degree: 97%
 
 ## 列設定とポリシーの定義
 
+>[!NOTE]
+>
+>動的ボードは、列ポリシーが有効か無効かに関係なく、常にステータスが一致する列にカードを配置します。 カードは、ボードを更新すると、割り当てられた列に戻ります。
+
 1. ボードにアクセスします。
 1. 列上の&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-icon-spectrum.png) をクリックしてから、「**[!UICONTROL 編集]**」を選択します。
 
@@ -136,7 +140,7 @@ ht-degree: 97%
       * **[!UICONTROL 割り当て先に追加]：**&#x200B;カードをこの列に移動したときに、選択した割り当て先が、カード上の既存の割り当て先リストに追加されます。
       * **[!UICONTROL 割り当て先を上書き]：**&#x200B;カードをこの列に移動したときに、選択した割り当て先が他のすべての割り当て先を上書きし、カード上の唯一の割り当て先になります。
 
-   1. クリック [!UICONTROL **割り当てを追加**] ユーザーを検索します。 検索結果から担当者を選択します。 すべてのWorkfrontユーザーおよびチームは、から選択できます。
+   1. クリック [!UICONTROL **割り当ての追加**] でユーザーを検索します。 検索結果から担当者を選択します。 すべてのWorkfront ユーザーとチームは、次の中から選択できます。
 
       ![列の割り当て先](assets/boards-column-assignees.png)
 

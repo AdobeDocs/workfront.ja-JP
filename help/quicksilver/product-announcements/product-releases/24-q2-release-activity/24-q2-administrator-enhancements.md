@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 37%
+source-wordcount: '797'
+ht-degree: 35%
 
 ---
 
@@ -84,7 +84,7 @@ Workfront システム管理者が、Adobe IMS に移行した組織のユーザ
 
 >[!NOTE]
 >
->プレビューリリース：2024年2月8日、本番への迅速リリース：24.2 リリース（2024年2月15日）、本番へのすべてのお客様向け：未定
+>プレビューリリース：2024 年 2 月 8 日（PT）、高速リリースの実稼動：24.2 リリースの場合（2024 年 2 月 15 日（PT））、すべてのお客様の実稼動：24.4 （2024 年 4 月 11 日（PT））
 
 フォームデザイナーベータ版で、既存の表示とスキップロジックを編集し、カスタムフォームに新しいロジックを追加できるようになりました。使いやすいロジックビルダーを使用すると、フォーム内の選択に基づいて、表示またはスキップするフィールドを定義できます。
 
