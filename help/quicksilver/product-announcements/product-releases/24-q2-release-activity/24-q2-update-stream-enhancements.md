@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 35%
+source-wordcount: '710'
+ht-degree: 33%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 35%
 このページでは、プレビュー環境への 2024年第 2 四半期リリースで行われた、すべての更新ストリームと通知の機能強化について説明します。これらの機能強化は、前述のように本番環境で利用できるようになります。
 
 2024年第 2 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。
+
+## イテレーションに新しいコメントエクスペリエンスが追加されました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 4 月 11 日（PT）、すべてのお客様向けの実稼動環境：24.4 リリースの場合（2024 年 4 月 11 日（PT））
+
+アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 詳しくは、を参照してください [アップデートセクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## 従来のコメント領域へのアクセスが削除されました
 
