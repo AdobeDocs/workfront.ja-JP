@@ -7,10 +7,10 @@ description: この記事では、Adobe Workfront Fusion で統合シナリオ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
-workflow-type: ht
-source-wordcount: '2142'
-ht-degree: 100%
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+workflow-type: tm+mt
+source-wordcount: '2139'
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -55,21 +55,21 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select]または[!UICONTROL Prime]の [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入してください。[!DNL Workfront Fusion] は [!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入してください。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 練習シナリオを作成
 
-[!DNL Adobe Workfront Fusion] の役割は、プロセスを自動処理することで、ユーザーが同じタスクを何度も繰り返すのではなく、新しいタスクに集中できるようにすることです。これは、アプリ内やサービス内、およびそれらの間でアクションをリンクし、データを自動的に転送および変換するシナリオを作成することで機能します。作成するシナリオは、アプリまたはサービス内のデータを監視し、そのデータを処理して必要な結果を提供します。
+[!DNL Adobe Workfront Fusion] の役割は、プロセスを自動処理することにより、ユーザーが同じタスクを何度も繰り返すのではなく、新しいタスクに集中できるようにすることです。これは、アプリ内やサービス内、およびそれらの間でアクションをリンクし、データを自動的に転送および変換するシナリオを作成することで機能します。作成するシナリオは、アプリまたはサービス内のデータを監視し、そのデータを処理して必要な結果を提供します。
 
 シナリオは、アプリ内でのデータの変換方法や、アプリと web サービスの間でのデータの転送方法を示す、一連のモジュールで構成されます。
 
@@ -125,8 +125,8 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
 
 新しいシナリオの作成を開始する場合は、まずシナリオの名前を作成するのがよいでしょう。
 
-1. 左上隅の「**[!UICONTROL 新しいシナリオ]**」プレースホルダー名を選択し、「Practice scenario 1」などの名前を入力します。
-1. 続けて、以下の[最初のモジュールを追加して設定](#add-and-configure-the-first-module)を行います。
+1. 左上隅にある「**[!UICONTROL 新規シナリオ]**」プレースホルダー名を選択し、「練習用シナリオ 1」などの名前を入力します。
+1. 続いて、以下の[最初のモジュールを追加して設定](#add-and-configure-the-first-module)を行います。
 
 ## 最初のモジュールを追加して設定
 
@@ -142,7 +142,7 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
 
    ![](assets/pre-loaded-apps-350x139.png)
 
-1. クリック **[!DNL Google Sheets]**.
+1. **[!DNL Google Sheets]** をクリックします。
 
    リストが変わり、トリガーモジュールとして使用できるすべての [!DNL Google Sheets] モジュールが表示されます。
 
@@ -153,7 +153,7 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
 1. **[!DNL Google Sheets]** ボックスの「**[!UICONTROL 接続]**」で「**[!UICONTROL 追加]**」をクリックし、「Olivia&#39;s Google account」など、接続の名前を入力したら、「**[!UICONTROL 続行]**」をクリックします。
 1. 表示されるウィンドウで接続を認証します。
 
-   接続を認証するプロセスは、アプリ間で少し異なる場合があります。アプリへのログインが必要になる場合があります。通常は、「**[!UICONTROL 許可]**」ボタンをクリックする必要があります。ヘルプが必要な場合は、[アプリまたはサービスへの  [!DNL Adobe Workfront Fusion]  の接続について](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)を参照してください。
+   接続を認証するプロセスは、アプリ間で少し異なる場合があります。アプリへのログインが必要になる場合があります。通常は、「**[!UICONTROL 許可]**」ボタンをクリックする必要があります。ヘルプが必要な場合は、 [接続の概要](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## 最初のモジュールを設定
 
@@ -183,11 +183,11 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
 1. 「**[!UICONTROL 手動で選択]**」をクリックし、表示されるリストの先頭のオプションを選択して、「**[!UICONTROL OK]**」をクリックします。
 1. モジュールを右クリックし、「**[!UICONTROL 名前を変更]**」をクリックして、モジュールで実行する処理を説明する名前（「プロジェクトリストを監視」など）を入力したら、「**[!UICONTROL OK]**」をクリックします。
 
-   名前はモジュールのすぐ下に表示されます。その下の [!DNL Workfront Fusion] には、モジュールで実行されるアクションのタイプに関する簡単な説明が含まれます。
+   名前はモジュールのすぐ下に表示されます。その下に [!DNL Workfront Fusion] には、モジュールで実行されるアクションのタイプに関する簡単な説明が含まれます。
 
    ![](assets/module-renamed-350x388.png)
 
-1. 続けて、[2 つ目のモジュールを追加して設定](#add-and-configure-the-second-module)を行います。
+1. [2 つ目のモジュールを追加して設定](#add-and-configure-the-second-module)に進みます。
 
 ## 2 つ目のモジュールを追加して設定
 
@@ -263,7 +263,7 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
 
    シナリオ実行情報の読み取り方法について詳しくは、次の記事を参照してください。
 
-   * 一般情報については、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md) でのシナリオ実行フローを参照してください。
+   * 詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md) でのシナリオ実行フローを参照してください。
    * 処理されたバンドルについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md) でのシナリオの実行、サイクル、フェーズを参照してください。
 
 1. [!DNL Workfront] に移動して「soho downtown loft」を検索し、このシナリオで作成されたプロジェクトを確認します。これは、スプレッドシートの最後の行でした。
@@ -307,9 +307,9 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
 >
 >1. **[!UICONTROL メモ]**&#x200B;エリアを閉じます。
 >
->    シナリオにメモを追加すると、シナリオエディターの下部の&#x200B;**[!UICONTROL メモ]**&#x200B;アイコン![](assets/notes-icon-w-dot.png)にオレンジ色の点が表示されます。
+>    シナリオにメモを追加すると、シナリオエディターの下部の&#x200B;**[!UICONTROL メモ]**&#x200B;アイコン ![](assets/notes-icon-w-dot.png) にオレンジ色の点が表示されます。
 >
->1. **[!UICONTROL メモ]**&#x200B;アイコン![](assets/notes-icon-w-dot.png)をクリックして、メモを表示します。
+>1. **[!UICONTROL メモ]**&#x200B;アイコン ![](assets/notes-icon-w-dot.png) をクリックして、メモを表示します。
 >
 
 

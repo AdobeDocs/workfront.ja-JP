@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '14157'
+source-wordcount: '14149'
 ht-degree: 98%
 
 ---
@@ -2115,7 +2115,7 @@ ht-degree: 98%
       * [プラットフォームベースの管理上の違い（Adobe Workfront Fusion／Adobe Business Platform）](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
    * Adobe Workfront Fusion での接続 {#connections-in-fusion}
       * [Adobe Workfront Fusion での接続](workfront-fusion/connections/connections.md)
-      * [アプリまたはサービスへの Adobe Workfront Fusion の接続について](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+      * [接続の概要](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
       * [Adobe Workfront Fusion で接続を作成](workfront-fusion/connections/connection-instruction-toc.md)
       * [接続メタデータ](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
       * [Adobe Workfront Fusion への接続を作成 - 基本手順](workfront-fusion/connections/connect-to-fusion-general.md)

@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>シナリオにアプリまたはサービスを追加する場合、選択したデータを取得または送信するために、まず [!DNL Workfront Fusion] とアプリまたはサービスの間に接続を作成する必要があります。詳しくは、<a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">アプリまたはサービスへの [!DNL Adobe Workfront Fusion] の接続について</a>を参照してください。</p> </td> 
+   <td> <p>シナリオにアプリまたはサービスを追加する場合、選択したデータを取得または送信するために、まず [!DNL Workfront Fusion] とアプリまたはサービスの間に接続を作成する必要があります。詳しくは、を参照してください <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">接続の概要</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>サイクル</p> </td> 

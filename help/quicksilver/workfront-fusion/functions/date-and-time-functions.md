@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion マッピングパネルでは、以下の�
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
+source-git-commit: 6374a1a0ca49507872c71eaebd5227e88e3225b7
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 100%
+source-wordcount: '1958'
+ht-degree: 98%
 
 ---
 
@@ -19,44 +19,288 @@ ht-degree: 100%
 
 ## アクセス要件
 
+
+
 この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
+
+
+<table style="table-layout:auto"> 
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td>  
+   <td> <p>任意</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td>  
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td>  
+   <td> 
+   <p>現在：いいえ [!DNL Workfront Fusion] ライセンス要件</p> 
+   <p>または</p> 
+   <p>レガシー：任意 </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">製品</td>  
+   <td> 
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul> 
+   <p>または</p> 
+   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
-   <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">製品</td> 
-   <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
-   <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## [!UICONTROL formatDate（date; format; [timezone]）]
+## 変数
+
+### now
+
+### timestamp
+
+## 関数
+
+### [!UICONTROL addSeconds（date; number）]
+
+指定された秒数を日付に追加した結果として、新しい日付を返します。秒数を減算するには、負の数を入力します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;2)`
+>
+>   2016-12-08T15:55:59.536Z を返します。
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
+>
+>   2016-12-08T15:55:55.536Z を返します。
+
+### [!UICONTROL addMinutes（date; number）] {#addminutes-date-number}
+
+指定された分数を日付に追加した結果として、新しい日付を返します。分数を減算するには、負の数を入力します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;2)`
+>
+>    2016-12-08T15:57:57.536Z を返します。
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
+>
+>    2016-12-08T15:53:57.536Z を返します。
+
+### [!UICONTROL addHours（date; number）] {#addhours-date-number}
+
+指定した時間数を日付に追加した結果として、新しい日付を返します。時間数を減算するには、負の数を入力します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `addHours(2016-12-08T15:55:57.536Z; 2)`
+>
+>    2016-12-08T17:55:57.536Z を返します。
+>
+>* `addHours(2016-12-08T15:55:57.536Z;-2)`
+>
+>    2016-12-08T13:55:57.536Z を返します。
+
+### [!UICONTROL addDays (date; number)] {#adddays-date-number}
+
+指定した日数を日付に加算した結果を新しい日付として返します。日数を減算するには、負の数を入力します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `addDays(2016-12-08T15:55:57.536Z;2)`
+>
+>    戻り値：2016-12-10T15:55:57.536Z
+>
+>* `addDays(2016-12-08T15:55:57.536Z;-2)`
+>
+>    戻り値：2016-12-6T15:55:57.536Z
+
+### [!UICONTROL addMonths（date, number）]
+
+指定された月数を日付に追加した結果として、新しい日付を返します。月数を減算するには、負の数を入力します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;2)`
+>
+>    2016-10-08T15:55:57.536Z を返します。
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;-2)`
+>
+>    2016-06-08T15:55:57.536Z を返します。
+
+### [!UICONTROL addYears（date; number）]
+
+指定された年数を日付に追加した結果として、新しい日付を返します。年数を減算するには、負の数を入力します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `addYears(2016-08-08T15:55:57.536Z;2)`
+>
+>    2018-08-08T15:55:57.536Z を返します。
+>
+>* `addYears(2016-12-08T15:55:57.536Z; -2)`
+>
+>    2014-08-08T15:55:57.536Z を返します。
+
+### [!UICONTROL setSecond（date; number）]
+
+この関数は、パラメーターで指定された秒数を持つ新しい日付を返します。
+
+0 ～ 59 の数値を指定します。数値がその範囲外にある場合、この関数は、前の分（負の数の場合）または後続の分（正の数の場合）からの秒数を返します。
+
+範囲外の数値を指定する必要がある場合は、上記の [addSeconds（date; number）](#addseconds-date-number)の節の説明に従って、[!UICONTROL addSeconds] を使用することをお勧めします。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `setSecond(2015-10-07T11:36:39.138Z;10)`
+>
+>    2015-10-07T11:36:10.138Z を返します。
+>
+>* `setSecond(2015-10-07T11:36:39.138Z; 6)`
+>
+>    2015-10-07T11:37:01.138Z を返します。
+
+### [!UICONTROL setMinute（date; number）]
+
+この関数は、パラメーターで指定された分数を持つ新しい日付を返します。
+
+0 ～ 59 の数値を指定します。数値がその範囲外にある場合、この関数は、前の時間（負の数の場合）または後続の時間（正の数の場合）の分数を返します。
+
+範囲外の数値を指定する必要がある場合は、上記の [addMinutes（date; number）](#addminutes-date-number)の説明に従って、addMinutes を使用することをお勧めします。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;10)`
+>
+>    2015-10-07T11:10:39.138Z を返します。
+>
+>* `setMinute(2015-10-07T11:36:39.138Z;61)`
+>
+>    2015-10-07T12:01:39.138Z を返します。
+
+### [!UICONTROL setHour（date; number）]
+
+この関数は、パラメーターで指定された時間数を持つ新しい日付を返します。
+
+0 ～ 23 の数値を指定します。数値がこの範囲外にある場合、この関数は、前日（負の数の場合）または翌日（正の数の場合）の時間数を返します。
+
+範囲外の数値を指定する必要がある場合は、上記の [addHours（date; number）](#addhours-date-number)の説明に従って、addHours を使用することをお勧めします。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `setHour(2015-08-07T11:36:39.138Z;6)`
+>
+>   戻り値：2015-08-07T06:36:39.138Z
+>
+>* `setHour(2015-08-07T11:36:39.138;-6)`
+>
+>    戻り値：2015-08-06T18:36:39.138Z
+
+### [!UICONTROL setDay (date; number/name of the day in English)]
+
+この関数は、パラメーターで指定された日の新しい日付を返します。
+
+この関数を使用して曜日を設定できます。日曜日は 1、土曜日は 7 と指定します。1～7 の数値を指定した場合、結果の日付は現在の（日曜日から土曜日）週の範囲内になります。この数値がその範囲外の場合、前の週（負の数の場合）または次の週（正の数の場合）の日を返します。
+
+範囲外の数値を指定する必要がある場合は、前述の addDays を使用することをお勧めします（[addDays (date; number)](#adddays-date-number) を参照）。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `setDay(2018-06-27T11:36:39.138Z;Monday)`
+>
+>   戻り値：2018-06-25T11:36:39.138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;1)`
+>
+>   戻り値：2018-06-24T11:36:39.138Z
+>
+>* `setDay(2018-06-27T11:36:39.138Z;7)`
+>
+>   戻り値：2018-06-30T11:36:39.138Z
+
+### [!UICONTROL setDate (date; number)]
+
+この関数は、パラメーターで指定された月日の新しい日付を返します。
+
+1～31 の数値を指定します。この範囲外の数値の場合、前の月（負の数の場合）または次の月（正の数の場合）の日を返します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `setDate(2015-08-07T11:36:39.138Z;5)`
+>
+>   戻り値：2015-08-05T11:36:39.138Z
+>
+>* `setDate(2015-08-07T11:36:39.138Z;32)`
+>
+>   戻り値：2015-09-01T11:36:39.138Z
+
+### [!UICONTROL setMonth (date; number/name of the month in English)]
+
+この関数は、パラメーターで指定された月の新しい日付を返します。
+
+1～12 の数値を指定します。この範囲外の数値の場合、前の年（負の数の場合）または次の年（正の数の場合）の月を返します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;5)`
+>
+>   戻り値：2015-05-07T11:36:39.138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;17)`
+>
+>   戻り値：2016-05-07T11:36:39.138Z
+>
+>* `setMonth(2015-08-07T11:36:39.138Z;january)`
+>
+>   戻り値：2015-01-07T12:36:39.138Z
+
+### [!UICONTROL setYear (date; number)]
+
+パラメーターで指定された年の新しい日付を返します。
+
+>[!INFO]
+>
+>**例：**
+>
+>* `setYear(2015-08-07T11:36:39.138Z;2017)`
+>
+>   戻り値：2017-08-07T11:36:39.138Z
+
+### [!UICONTROL formatDate（date; format; [timezone]）]
 
 この関数は、`12-10-2021 20:30` などの日付値を `Dec 10, 2021 8:30 PM` などのテキスト値として書式設定する場合に使用します。
 
@@ -64,7 +308,7 @@ ht-degree: 100%
 
 詳しくは、[Adobe Workfront Fusion の項目データタイプ](../../workfront-fusion/mapping/item-data-types.md)の記事にある[日付](../../workfront-fusion/mapping/item-data-types.md#date)および[テキスト](../../workfront-fusion/mapping/item-data-types.md#text)を参照してください。
 
-### パラメーター
+#### パラメーター
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +342,7 @@ ht-degree: 100%
 
 異なるタイプを指定した場合、型強制が適用されます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md) での型強制を参照してください。
 
-### 戻り値とタイプ
+#### 戻り値とタイプ
 
 `formatDate` 関数は、指定された形式とタイムゾーンに従って、指定された日付値のテキスト表現を返します。データタイプはテキストです。
 
@@ -124,11 +368,11 @@ ht-degree: 100%
 >
 >    戻り値：19.03.2019 15:30
 
-## [!UICONTROL parseDate（テキスト、フォーマット、[タイムゾーン]）]
+### [!UICONTROL parseDate（テキスト、フォーマット、[タイムゾーン]）]
 
 日付を表すテキスト値（`12-10-2019 20:30` または `Aug 18, 2019 10:00 AM`）の場合、この関数を使用して、日付値（バイナリマシンが読み取り可能な表現）に変換（解析）する必要があります。詳しくは、[[!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md) の項目データタイプの記事の[日付](../../workfront-fusion/mapping/item-data-types.md#date)および[テキスト](../../workfront-fusion/mapping/item-data-types.md#text)を参照してください。
 
-### パラメーター
+#### パラメーター
 
 2 番目の列は、期待されるタイプを示します。異なるタイプを指定した場合、型強制が適用されます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md) での型強制を参照してください。
 
@@ -164,7 +408,7 @@ ht-degree: 100%
 
 異なるタイプを指定した場合、型強制が適用されます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md) での型強制を参照してください。
 
-### 戻り値とタイプ
+#### 戻り値とタイプ
 
 この関数は、指定した形式とタイムゾーンに従って、テキスト文字列を日付に変換します。値のデータタイプは日付です。
 
@@ -188,239 +432,7 @@ ht-degree: 100%
 >
 >   戻り値：2016-12-28T16:03:06.000Z
 
-## [!UICONTROL addDays (date; number)] {#adddays-date-number}
-
-指定した日数を日付に加算した結果を新しい日付として返します。日数を減算するには、負の数を入力します。
-
->[!INFO]
->
->**例：**
->
->* `addDays(2016-12-08T15:55:57.536Z;2)`
->
->    戻り値：2016-12-10T15:55:57.536Z
->
->* `addDays(2016-12-08T15:55:57.536Z;-2)`
->
->    戻り値：2016-12-6T15:55:57.536Z
-
-## [!UICONTROL addHours（date; number）] {#addhours-date-number}
-
-指定した時間数を日付に追加した結果として、新しい日付を返します。時間数を減算するには、負の数を入力します。
-
->[!INFO]
->
->**例：**
->
->* `addHours(2016-12-08T15:55:57.536Z; 2)`
->
->    2016-12-08T17:55:57.536Z を返します。
->
->* `addHours(2016-12-08T15:55:57.536Z;-2)`
->
->    2016-12-08T13:55:57.536Z を返します。
-
-## [!UICONTROL addMinutes（date; number）] {#addminutes-date-number}
-
-指定された分数を日付に追加した結果として、新しい日付を返します。分数を減算するには、負の数を入力します。
-
->[!INFO]
->
->**例：**
->
->* `addMinutes(2016-12-08T15:55:57.536Z;2)`
->
->    2016-12-08T15:57:57.536Z を返します。
->
->* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
->
->    2016-12-08T15:53:57.536Z を返します。
-
-## [!UICONTROL addMonths（date, number）] {#addseconds-date-number}
-
-指定された月数を日付に追加した結果として、新しい日付を返します。月数を減算するには、負の数を入力します。
-
->[!INFO]
->
->**例：**
->
->* `addMonths(2016-08-08T15:55:57.536Z;2)`
->
->    2016-10-08T15:55:57.536Z を返します。
->
->* `addMonths(2016-08-08T15:55:57.536Z;-2)`
->
->    2016-06-08T15:55:57.536Z を返します。
-
-## [!UICONTROL addSeconds（date; number）]
-
-指定された秒数を日付に追加した結果として、新しい日付を返します。秒数を減算するには、負の数を入力します。
-
->[!INFO]
->
->**例：**
->
->* `addSeconds(2016-12-08T15:55:57.536Z;2)`
->
->   2016-12-08T15:55:59.536Z を返します。
->
->* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
->
->   2016-12-08T15:55:55.536Z を返します。
-
-## [!UICONTROL addYears（date; number）]
-
-指定された年数を日付に追加した結果として、新しい日付を返します。年数を減算するには、負の数を入力します。
-
->[!INFO]
->
->**例：**
->
->* `addYears(2016-08-08T15:55:57.536Z;2)`
->
->    2018-08-08T15:55:57.536Z を返します。
->
->* `addYears(2016-12-08T15:55:57.536Z; -2)`
->
->    2014-08-08T15:55:57.536Z を返します。
-
-## [!UICONTROL setSecond（date; number）]
-
-この関数は、パラメーターで指定された秒数を持つ新しい日付を返します。
-
-0 ～ 59 の数値を指定します。数値がその範囲外にある場合、この関数は、前の分（負の数の場合）または後続の分（正の数の場合）からの秒数を返します。
-
-範囲外の数値を指定する必要がある場合は、上記の [addSeconds（date; number）](#addseconds-date-number)の節の説明に従って、[!UICONTROL addSeconds] を使用することをお勧めします。
-
->[!INFO]
->
->**例：**
->
->* `setSecond(2015-10-07T11:36:39.138Z;10)`
->
->    2015-10-07T11:36:10.138Z を返します。
->
->* `setSecond(2015-10-07T11:36:39.138Z; 6)`
->
->    2015-10-07T11:37:01.138Z を返します。
-
-## [!UICONTROL setMinute（date; number）]
-
-この関数は、パラメーターで指定された分数を持つ新しい日付を返します。
-
-0 ～ 59 の数値を指定します。数値がその範囲外にある場合、この関数は、前の時間（負の数の場合）または後続の時間（正の数の場合）の分数を返します。
-
-範囲外の数値を指定する必要がある場合は、上記の [addMinutes（date; number）](#addminutes-date-number)の説明に従って、addMinutes を使用することをお勧めします。
-
->[!INFO]
->
->**例：**
->
->* `setMinute(2015-10-07T11:36:39.138Z;10)`
->
->    2015-10-07T11:10:39.138Z を返します。
->
->* `setMinute(2015-10-07T11:36:39.138Z;61)`
->
->    2015-10-07T12:01:39.138Z を返します。
-
-## [!UICONTROL setHour（date; number）]
-
-この関数は、パラメーターで指定された時間数を持つ新しい日付を返します。
-
-0 ～ 23 の数値を指定します。数値がこの範囲外にある場合、この関数は、前日（負の数の場合）または翌日（正の数の場合）の時間数を返します。
-
-範囲外の数値を指定する必要がある場合は、上記の [addHours（date; number）](#addhours-date-number)の説明に従って、addHours を使用することをお勧めします。
-
->[!INFO]
->
->**例：**
->
->* `setHour(2015-08-07T11:36:39.138Z;6)`
->
->   戻り値：2015-08-07T06:36:39.138Z
->
->* `setHour(2015-08-07T11:36:39.138;-6)`
->
->    戻り値：2015-08-06T18:36:39.138Z
-
-## [!UICONTROL setDay (date; number/name of the day in English)]
-
-この関数は、パラメーターで指定された日の新しい日付を返します。
-
-この関数を使用して曜日を設定できます。日曜日は 1、土曜日は 7 と指定します。1～7 の数値を指定した場合、結果の日付は現在の（日曜日から土曜日）週の範囲内になります。この数値がその範囲外の場合、前の週（負の数の場合）または次の週（正の数の場合）の日を返します。
-
-範囲外の数値を指定する必要がある場合は、前述の addDays を使用することをお勧めします（[addDays (date; number)](#adddays-date-number) を参照）。
-
->[!INFO]
->
->**例：**
->
->* `setDay(2018-06-27T11:36:39.138Z;Monday)`
->
->   戻り値：2018-06-25T11:36:39.138Z
->
->* `setDay(2018-06-27T11:36:39.138Z;1)`
->
->   戻り値：2018-06-24T11:36:39.138Z
->
->* `setDay(2018-06-27T11:36:39.138Z;7)`
->
->   戻り値：2018-06-30T11:36:39.138Z
-
-## [!UICONTROL setDate (date; number)]
-
-この関数は、パラメーターで指定された月日の新しい日付を返します。
-
-1～31 の数値を指定します。この範囲外の数値の場合、前の月（負の数の場合）または次の月（正の数の場合）の日を返します。
-
->[!INFO]
->
->**例：**
->
->* `setDate(2015-08-07T11:36:39.138Z;5)`
->
->   戻り値：2015-08-05T11:36:39.138Z
->
->* `setDate(2015-08-07T11:36:39.138Z;32)`
->
->   戻り値：2015-09-01T11:36:39.138Z
-
-## [!UICONTROL setMonth (date; number/name of the month in English)]
-
-この関数は、パラメーターで指定された月の新しい日付を返します。
-
-1～12 の数値を指定します。この範囲外の数値の場合、前の年（負の数の場合）または次の年（正の数の場合）の月を返します。
-
->[!INFO]
->
->**例：**
->
->* `setMonth(2015-08-07T11:36:39.138Z;5)`
->
->   戻り値：2015-05-07T11:36:39.138Z
->
->* `setMonth(2015-08-07T11:36:39.138Z;17)`
->
->   戻り値：2016-05-07T11:36:39.138Z
->
->* `setMonth(2015-08-07T11:36:39.138Z;january)`
->
->   戻り値：2015-01-07T12:36:39.138Z
-
-## [!UICONTROL setYear (date; number)]
-
-パラメーターで指定された年の新しい日付を返します。
-
->[!INFO]
->
->**例：**
->
->* `setYear(2015-08-07T11:36:39.138Z;2017)`
->
->   戻り値：2017-08-07T11:36:39.138Z
-
-## [!UICONTROL dateDifference (Date1; Date2; Unit)]
+### [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
 2 つの日付の差を表す数値を、指定された単位で返します。
 
@@ -454,9 +466,9 @@ Date1 から Date2 が減算されます。
 >
 >    戻り値：`1`
 
-## その他の例
+### その他の例
 
-### 月の n 番目の曜日の計算方法
+#### 月の n 番目の曜日の計算方法
 
 [!DNL Exceljet] の web ページから [!DNL Workfront Fusion] 向けに調整されたこの節では、月の n 番目の曜日を取得する方法を説明します。
 
@@ -511,12 +523,12 @@ Date1 から Date2 が減算されます。
 
 ![](assets/nth-day-variable-value-350x33.png)
 
-### 説明：
+#### 説明：
 
 * `setDate(now;1)` は、現在の月の最初の曜日を返します
 * `formatDate(....;E)` は、曜日を返します（1、2、...6）
 
-## 日付間の日数の計算方法
+### 日付間の日数の計算方法
 
 例えば、次の式を使用できます。
 
@@ -532,7 +544,7 @@ Date1 から Date2 が減算されます。
 >
 >* `round()` 関数は、いずれかの日付がサマータイム期間内に該当し、その他の日付がサマータイム期間外の場合に使用されます。この場合、時間の差は 1 時間少ないか多いかです。整数以外の結果を得るには、24 で割ります。サマータイムで 1 時間失います。百分率が発生しないように、数値を丸めて平均化します。
 
-### 月の最終日／ミリ秒の計算方法
+#### 月の最終日／ミリ秒の計算方法
 
 日付範囲を指定する場合、例えば、検索モジュールで、範囲が前月の全体にわたりクローズした間隔（両方の制限ポイントを含む間隔）の場合、月の最終日を計算する必要があります。
 

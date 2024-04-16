@@ -10,10 +10,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: d4f6f5d4919120e37fb94a23ac834a3896019584
+source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 97%
+source-wordcount: '224'
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 97%
 この節では、次の記事を扱います。
 
 * [[!DNL Adobe Workfront] モジュール](../../workfront-fusion/apps-and-their-modules/workfront-modules.md)
+* [Adobe Workfront Planning モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Workfront Proof] モジュール](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
 * [[!DNL Workfront Boards] モジュール](../../workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
 * [[!DNL Adobe Acrobat Sign] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
@@ -42,7 +43,7 @@ ht-degree: 97%
 * [[!DNL Adobe Experience Manager Assets] モジュール](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-* [Adobe Maestro モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobeプランニング・モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] モジュール](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Photoshop] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
 * [[!DNL Adobe Target] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)

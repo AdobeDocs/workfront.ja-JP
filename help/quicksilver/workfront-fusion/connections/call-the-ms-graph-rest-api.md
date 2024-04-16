@@ -2,56 +2,57 @@
 title: ' [!DNL Adobe Workfront Fusion] HTTP／OAuth 2.0 リクエストを実行モジュールを使用して、MS Graph REST API を呼び出します。'
 description: ' [!DNL Adobe Workfront Fusion] HTTP／OAuth 2.0 リクエストを実行モジュールを使用して、MS Graph REST API を呼び出します。'
 author: Becky
-draft: Probably
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '571'
+ht-degree: 80%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 リクエストを実行]モジュールを使用して、[!UICONTROL MS Graph REST API] を呼び出します。
 
-多くの [!DNL Microsoft] web サービスは、[!DNL Microsoft Graph API] を通じてアクセスされます。この記事では、[!DNL Workfront Fusion] [!DNL HTTP]／[!UICONTROL OAuth 2.0 リクエストを実行]モジュールを使用して、その API への接続を作成する方法について説明します。
+<!-- Audited: 3/2024-->
+
+多くの [!DNL Microsoft] web サービスは、[!DNL Microsoft Graph API] を通じてアクセスされます。への接続を作成できます [!DNL Microsoft Graph API]を使用する [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL OAuth 2.0 リクエストの作成] モジュール。
 
 ## アクセス要件
 
 この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!UICONTROL Pro] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
+   <p>現在：いいえ [!DNL Workfront Fusion] ライセンス要件</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>レガシー：任意 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
+   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 [!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
@@ -107,7 +108,7 @@ ht-degree: 100%
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
         <li> <p>統合に必要なその他の権限（例：<code>User.Read</code>）</p> </li> 
-       </ul> <p>重要：[!DNL Workfront Fusion] で接続を設定するには、選択した権限が必要になります。</p> </td> 
+       </ul> <p><b>重要</b>：で接続を設定するには、選択した権限が必要です [!DNL Workfront Fusion].</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -116,9 +117,9 @@ ht-degree: 100%
 
 ## [!DNL Workfront Fusion] での [!DNL MS Graph API] 接続の設定
 
-[ [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal) での [!DNL Workfront Fusion] の登録での説明に従って [!DNL Workfront Fusion] を登録したら、[!UICONTROL HTTP]／[!UICONTROL Oauth 2.0 リクエストを実行]モジュールで接続を設定できます。
+登録後 [!DNL Workfront Fusion] ～で議論されているように [登録 [!DNL Workfront Fusion] が含まれる [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)：接続の設定は [!UICONTROL HTTP] > [!UICONTROL Oauth 2.0 の作成] リクエストモジュール。
 
-1. [!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 呼び出しを実行]モジュールをシナリオに追加します。
+1. を追加 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 呼び出しを行う] モジュールをシナリオに追加します。
 1. 「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 接続フィールドを次のように設定します。
 
@@ -156,7 +157,7 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client Secret]</td> 
-      <td><a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">[!DNL Microsoft Application Registration Portal]</a> に [!DNL Workfront Fusion] を登録する手順 2 で生成した [!UICONTROL Application Secret] を入力します。</td> 
+      <td>の手順 3 で生成した [!UICONTROL アプリケーション秘密鍵 ] を入力します <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">登録 [!DNL Workfront Fusion] が含まれる [!DNL Microsoft Application Registration Portal]</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authorize parameters]</td> 

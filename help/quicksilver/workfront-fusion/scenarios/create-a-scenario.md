@@ -7,10 +7,10 @@ description: 次のタスクでは、 [!DNL Adobe Workfront Fusion]  シナリ�
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
-workflow-type: ht
-source-wordcount: '1422'
-ht-degree: 100%
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+workflow-type: tm+mt
+source-wordcount: '1417'
+ht-degree: 99%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織が [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は [!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明されている機能を使用するには、組織が [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 シナリオでアプリの接続を選択または作成すると、後のモジュールを設定するときに別の接続を選択しない限り、そのアプリの他のモジュールは自動的に同じ接続を使用します。
 
-詳しくは、[アプリまたはサービスへの接続について [!DNL Adobe Workfront Fusion] ](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)を参照してください。
+詳しくは、を参照してください [接続の概要](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ![](assets/connection-field-350x169.png)
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 追加]**」をクリックして、**[!UICONTROL 接続を作成]**&#x200B;ボックスを開きます。
 1. （オプション）デフォルトの&#x200B;**[!UICONTROL 接続名]**&#x200B;を変更
-1. （条件付き）アプリで ID、キー、[!UICONTROL シークレット]などの詳細な接続設定が必要な場合は、その情報を入力します。
+1. （条件付き）アプリで ID、キー、[!UICONTROL シークレット] などの詳細な接続設定が必要な場合は、その情報を入力します。
 
    この種の情報を入力できるフィールドを表示するには、**[!UICONTROL 詳細設定を表示]**&#x200B;をクリックする必要がある場合があります。
 
