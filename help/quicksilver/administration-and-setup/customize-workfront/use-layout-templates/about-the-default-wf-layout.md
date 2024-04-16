@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 98%
 
 ---
 
@@ -58,7 +58,7 @@ Workfront 管理者がユーザーにレイアウトテンプレートを割り�
    <td rowspan="2"><strong>プロジェクト</strong> </td> 
    <td><strong>プロジェクト</strong> </td> 
    <td>✔<br>（デフォルトのランディング領域）</td> 
-   <td><span style="font-weight: 400;">✔</span><br>（デフォルトのランディング領域）</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br>（デフォルトのランディングエリア）</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
