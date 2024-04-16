@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2242'
 ht-degree: 49%
 
 ---
@@ -458,7 +458,7 @@ ht-degree: 49%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">イテレーションに新しいコメントエクスペリエンスが追加されました</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 詳しくは、[ 更新内容の概要 ] （/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md）を参照してください。</p>
+                        <p>アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
