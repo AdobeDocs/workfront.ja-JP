@@ -6,19 +6,18 @@ title: Workfront Data Lake の概要
 description: Workfront Data Lake 機能の概要
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Workfront Data Lake の概要
 
-Workfront Data Lake は、Workfront データへの前例のないアクセスを実現し、ビジネスに不可欠な質問に回答し、プロセスの価値を測定できるようにします。 この機能を使用すると、大規模法人のお客様は、Workfront データレイクから直接データビジュアライゼーションツールを使用してデータを調査したり、Workfront データを所有するデータウェアハウスに書き出したりできます。
+Workfront データレイクは、Snowflakeテクノロジーを使用してWorkfront データにこれまでにない方法でアクセスできるようにします。これにより、ビジネスに不可欠な質問に回答し、プロセスの価値を測定できます。 この機能を使用すると、大規模法人のお客様は、Workfront データレイクから直接データビジュアライゼーションツールを使用してデータを調査したり、Workfront データを所有するデータウェアハウスに書き出したりできます。
 
 購読者は、任意のビジネスインテリジェンスツール（Tableau、Power BI、Domo、Looker など）を連携させることができます。 Workfront データレイクに移動して、次のタイプのデータでデータビジュアライゼーションを作成します。
 

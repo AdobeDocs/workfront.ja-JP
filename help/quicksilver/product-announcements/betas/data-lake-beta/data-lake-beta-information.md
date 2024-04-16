@@ -4,10 +4,9 @@ title: Workfront data lake ベータ版に関する情報
 description: Workfront Data Lake ベータ版に関する一般情報
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: a1eb393a929ff7246056bb53b3e28b9da240c252
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
+source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 13%
@@ -104,4 +103,3 @@ Workfront Data Lake の使用について詳しくは、を参照してくださ
 
 * リーダーアカウントのセットアップ中に使用できるオブジェクトを制限します。
 * Workfront内の特定のグループにリーダーアカウントを関連付けて、レコードの表示をグループメンバーのみに制限します。
-

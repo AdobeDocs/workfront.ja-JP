@@ -6,13 +6,12 @@ title: Snowflake用のリーダー（サービス） アカウントを作成し
 description: Workfront Data Lake のデータにアクセスするには、まずSnowflake用のリーダーアカウントを作成する必要があります。
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d24659833f0ac0ceeecb245358f2ade8bd08a17
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 5%
+source-wordcount: '564'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +29,7 @@ Workfront Data Lake データにアクセスするには、まずSnowflake用の
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>Ultimate</td> 
+   <td>未定</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -43,7 +42,7 @@ Workfront Data Lake データにアクセスするには、まずSnowflake用の
  </tbody> 
 </table>
 
-このテーブルの情報の詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## リーダーアカウントの作成
 
@@ -67,7 +66,7 @@ Workfront Data Lake データにアクセスするには、まずSnowflake用の
 
    ![Snowflakeパスワードをリセット](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. これで、ユーザー名と新しいパスワードを使用して、SnowflakeでWorkfront Data Lake にアクセスできるようになりました。
+1. これで、ユーザー名と新しいパスワードを使用して、Snowflakeまたは選択したビジネスビジュアライゼーションツールでWorkfront Data Lake にアクセスできるようになりました。
 
 ## 許可リストに IP を追加
 
@@ -77,9 +76,9 @@ Workfront Data Lake データにアクセスするには、まずSnowflake用の
 
 1. 「」をクリック **許可された IP** タブをクリックしてから、 **許可リストに IP アドレスを追加** ボタン。
 
-   ![IP アドレスを追加](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
 1. IP アドレスの名前を **IP アドレスの説明** で使用するツールの IP アドレスを入力します **IP アドレス**&#x200B;を選択し、 **許可リストに IP を追加**.
+
+   ![IP アドレスを追加](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## リーダーアカウントを失効させるか、許可リストから IP アドレスを削除します
 

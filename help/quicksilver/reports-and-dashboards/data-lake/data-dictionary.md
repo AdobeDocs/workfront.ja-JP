@@ -6,12 +6,11 @@ title: Data Lake データディクショナリ
 description: このページでは、Workfront Data Lake のデータの構造と内容について説明します。
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 9%
 
 ---
@@ -42,7 +41,7 @@ ht-degree: 9%
 
 <!-- Custom table -->
 
-## エンティティ関係テーブル
+## 用語テーブル
 
 次の表は、Workfrontのオブジェクト名（およびインターフェイスと API のオブジェクト名）と、データレイクの同等の名前を関連付けたものです。
 
