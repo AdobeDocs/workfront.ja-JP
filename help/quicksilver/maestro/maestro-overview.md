@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 49%
@@ -237,6 +237,8 @@ Workfront Planning の主なオブジェクトと概念を次に示します。
 
 次の表に、Workfront Planning で作成できるオブジェクト数の制限を示します。 開発の次の段階に進むにつれて、制限は変更される可能性があります。
 
+<!--consider making the table view a stand-alone article when we go to GA-->
+
 | Adobe Workfront Planning オブジェクト | 制限 |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | 1 つの Workfront インスタンスのワークスペースの数 | 1,000 |
@@ -249,6 +251,8 @@ Workfront Planning の主なオブジェクトと概念を次に示します。
 | レコードタイプテーブルの API を通じて読み込めるファイルのサイズ | 1.5 MB |
 | API リクエストを実行できるレート | 1 分あたり 200 件のリクエスト |
 | 読み込み可能な Excel ファイルの CSV サイズ* | 5 MB |
+
+<!--add to the table above: Maximum number of views created by one use 100 -->
 
 >[!IMPORTANT]
 >

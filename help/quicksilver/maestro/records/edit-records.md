@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 62%
+source-wordcount: '1336'
+ht-degree: 63%
 
 ---
 
@@ -166,7 +166,6 @@ ht-degree: 62%
    >* 次のキーボードショートカットを使用して、情報をコピー＆ペーストします。
    >   * コピー：CTRL + C（Macの場合は⌘ + C）
    >   * ペースト：Ctrl + V（Macの場合は⌘ + V）
-   >* 情報を貼り付けたフィールドと同じ種類のレコード フィールド以外の別のソースから情報をコピーすることはできません。
    >
    >* レコードページ内のフィールド値をコピーして貼り付けることはできません。 この機能は、レコードタイプのテーブルビューでのみサポートされます。
    >* 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。

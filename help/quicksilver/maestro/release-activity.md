@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '5486'
-ht-degree: 56%
+source-wordcount: '5562'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,35 @@ ht-degree: 56%
 >[!IMPORTANT]
 >
 >以下の節で参照するドキュメントは、機能が本番にリリースされてからしばらく後に利用できるようになります。
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## 2024年4月8日（PT）の週
+
+### 1 つのセルの内容をコピーして、選択した複数のセルに貼り付けます
+
+実稼動：2024 年 4 月 10 日（PT）
+
+プレビュー：未決定
+
+テーブルビューの 1 つのセルの内容をコピーして、選択した複数のセルに貼り付けることができるようになりました。 また、外部ソースから情報をコピーして、テーブル ビューのセルに貼り付けることもできます。
+
+この機能は、計算フィールドを除くすべてのフィールドタイプでサポートされます。
+
+詳しくは、[レコードの編集](/help/quicksilver/maestro/records/edit-records.md)を参照してください。
 
 ## 2024年4月1日（PT）の週
 
