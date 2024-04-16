@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクトにアップデートコメント
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 82%
+source-wordcount: '997'
+ht-degree: 85%
 
 ---
 
@@ -88,13 +88,6 @@ ht-degree: 82%
 次の方法で、更新で他のユーザーにタグ付けできます。
 
 * **自動**：ユーザーがスレッドを開始したり、コメントを追加したり、返信を追加したりすると、ユーザーは自動的にタグ付けされ、コメントボックスのユーザーまたはチームにタグ付けされます。
-
-  >[!TIP]
-  >
-  >   反復にコメントを追加する場合、ユーザーを自動的にタグ付けすることはできません。  詳しくは、を参照してください [反復コメントの管理](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
-  >他のアプリケーションからコメントを追加する場合、ユーザーを自動的にタグ付けすることはできません。
-
-
 * **手動**：ユーザーを手動でコメントボックスの「人物またはチームにタグ付け」エリアに追加します。
 
 また、コメントの編集時やコメントへの返信時に誤ってタグ付けされたユーザーを削除することもできます。

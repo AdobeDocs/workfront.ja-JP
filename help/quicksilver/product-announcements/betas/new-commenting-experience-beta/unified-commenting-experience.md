@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1092'
 ht-degree: 34%
 
 ---
@@ -551,13 +551,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 
 * 2024 年第 2 四半期（2024 年 4 月 11 日（PT））のリリースでは、次のようになります。
 
-  従来のコメントストリームに戻すオプションを削除し、新しいコメントストリームを、反復を除くすべてのオブジェクトの唯一のエクスペリエンスにします。
+  オプションを削除して、従来のコメントストリームに戻り、新しいコメントストリームをすべてのオブジェクトで唯一のエクスペリエンスにします。
 
 ## 新しいコメントエクスペリエンスを検索
 
 Workfrontの次の領域で、新しいコメント機能を使用できます。
 
-* すべてのオブジェクトの更新セクション（反復を除く）
+* すべてのオブジェクトの「更新」セクションで以下を行います。
 
   Workfront オブジェクトの更新セクションへのアクセスについて詳しくは、以下を参照してください [更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
