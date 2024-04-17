@@ -5,14 +5,14 @@ keywords: 管理, グループ化, 編集,
 navigation-topic: create-and-manage-groups
 title: グループの管理
 description: グループ管理者は、「設定」の「グループ」エリアで、管理対象のグループを管理できます。管理するグループ上にグループがある場合は、その管理者がグループに対してこの操作を行うこともできます。Workfront 管理者（すべてのグループ）も同様です。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
-workflow-type: ht
-source-wordcount: '1321'
-ht-degree: 100%
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+workflow-type: tm+mt
+source-wordcount: '1319'
+ht-degree: 98%
 
 ---
 
@@ -69,25 +69,9 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 ## グループの編集、コピー、削除
 
-表示しているグループのメインページから離れずに、グループをすばやく編集、コピー、削除できます
+表示しているグループのメインページを離れることなく、グループをすばやく編集、コピー、または削除できます。
 
-<!--
-DRAFTED IN FLARE:
-or deactivate
-
--->
-
-。
-
-<!--
-DRAFTED IN FLARE:
-Make this change when they add the </span>
-<b>Is active</b>
- option to the Details page!</span>
-
--->
-
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
 
 1. 「**グループ**」をクリックします。
 

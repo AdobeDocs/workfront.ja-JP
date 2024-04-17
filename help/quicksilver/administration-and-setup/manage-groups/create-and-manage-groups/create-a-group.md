@@ -5,14 +5,14 @@ keywords: 作成,グループ,サブグループ,新規
 navigation-topic: create-and-manage-groups
 title: グループの作成
 description: Adobe Workfront 管理者は、ユーザーやプロジェクトを整理し、Workfront 内でアクセス権を割り当てるためのグループを作成できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
-workflow-type: ht
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Workfront 管理者は、ユーザーやプロジェクトを整理し、W
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>と<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
+   <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,15 +82,15 @@ Adobe Workfront 管理者は、ユーザーやプロジェクトを整理し、W
      </tr> 
      <tr> 
       <td role="rowheader">アクティブ</td> 
-      <td> <p>（デフォルトで有効）Workfront インスタンスでグループをアクティブ化します。</p> <p>下図のような先行入力フィールドでは、オブジェクトの関連付けやオブジェクトの共有のために、標準ユーザーがグループを検索しようとすると、アクティブなグループのみがリストに表示されます。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>これをユーザーが効率的に利用できるようにするには、現在使用していないグループの「アクティブ」オプションを無効にします。</p> <p>このフィールドを使用すると、ステータスがアクティブか非アクティブかに基づいて、グループリストを簡単に表示、フィルタリング、グループ化できます。リストでのビュー、フィルターまたはグループ化の使用について詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">レポート要素：フィルター、ビューおよびグループ化</a>を参照してください。</p> </td> 
+      <td> <p>（デフォルトで有効）Workfront インスタンスでグループをアクティブ化します。</p> <p>下図のような先行入力フィールドでは、オブジェクトの関連付けやオブジェクトの共有のために、標準ユーザーがグループを検索しようとすると、アクティブなグループのみがリストに表示されます。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>これをユーザーが効率的に利用できるようにするには、現在使用していないグループの「アクティブ」オプションを無効にします。</p> <p>このフィールドを使用すると、ステータスがアクティブか非アクティブかに基づいて、グループリストを簡単に表示、フィルタリング、グループ化できます。リストでのビュー、フィルターおよびグループ化の使用については、<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">レポート要素：フィルター、ビューおよびグループ化</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">このグループとそのサブグループを公開</td> 
-      <td> <p>（サブグループではなく、トップレベルグループの詳細を表示している場合にのみ使用可能です）。このオプションを有効にすると、編集ユーザーのアクセス権を持つグループ内のユーザー（グループ管理者ではないユーザー）が、このグループとそのサブグループを他のユーザーのユーザープロファイルに追加できます。</p> <p>パブリックグループの場合、編集ユーザー権限のあるユーザー（グループの内外を問わない）は、他のユーザーのプロファイルにグループを追加できます。これは、プライベートグループに対しては実行できません。</p> <p>このオプションは、複数のレベルを持つグループの最上位階層の親グループでのみ編集できます。すべてのサブグループは親グループの設定を継承します。</p> <p><b>メモ</b>：  
+      <td> <p>（サブグループではなく、トップレベルグループの詳細を表示している場合にのみ使用可能です）。このオプションを有効にすると、編集ユーザーのアクセス権を持つグループ内のユーザー（グループ管理者ではないユーザー）が、このグループとそのサブグループを他のユーザーのユーザープロファイルに追加できます。</p> <p>パブリックグループの場合、編集ユーザー権限のあるユーザー（グループの内外を問わない）は、他のユーザーのプロファイルにグループを追加できます。これは、プライベートグループに対しては実行できません。</p> <p>このオプションは、複数のレベルを持つグループの最上位階層の親グループでのみ編集できます。すべてのサブグループは親グループの設定を継承します。</p> <p><b>メモ</b>:  
         <ul> 
-         <li>サブグループを単独での公開はできませんが、トップレベルの親グループを公開することは可能で、これにより親のサブグループもすべて公開できます。</li> 
+         <li>サブグループ自体を公開することはできませんが、最上位の親グループを公開することはできます。これにより、親のすべてのサブグループも公開されます。</li> 
          <li>パブリックグループに属するサブグループは、デフォルトで公開になっているので、編集ユーザーアクセス権を持つユーザーは、そのサブグループを他のユーザーにも追加できます。</li> 
-        </ul> </p> <p>ユーザーの編集に必要なアクセスに関する情報が必要な場合は、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーにアクセス権を付与</a>を参照してください。ユーザーの編集について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</p> </td> 
+        </ul> </p> <p>ユーザーの編集に必要なアクセスに関する情報が必要な場合は、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。ユーザーの編集について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ビジネスリーダー </td> 
@@ -102,12 +102,10 @@ Adobe Workfront 管理者は、ユーザーやプロジェクトを整理し、W
      </tr> 
      <tr> 
       <td role="rowheader">グループのメンバーおよびグループ管理者</td> 
-      <td> 
-       <ul> 
+      <td>
         <p>グループメンバーを追加するには、追加する既存のユーザーまたはグループの名前を入力し、表示されたら名前を選択します。</p> 
         <p>追加したユーザーとグループは、そのグループと共有されるすべてのオブジェクトにアクセスできます。</p>
-        <p>最上位のグループには、1 人以上のグループ管理者が必要です。 </p> 
-       </ul> </td> 
+        <p>最上位のグループには、1 人以上のグループ管理者が必要です。 </p>
      </tr> 
      <tr> 
       <td role="rowheader">リスト内でユーザーとグループを検索する</td> 
@@ -154,19 +152,19 @@ Workfront 管理者は、既存のグループまたはサブグループをコ�
      </tr> 
      <tr> 
       <td role="rowheader">アクティブ</td> 
-      <td> <p>（デフォルトで有効）Workfront インスタンスでグループをアクティブ化します。</p> <p>下図のような先行入力フィールドでは、オブジェクトの関連付けやオブジェクトの共有のために、標準ユーザーがグループを検索しようとすると、アクティブなグループのみがリストに表示されます。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>これをユーザーが効率的に利用できるようにするには、現在使用していないグループの「アクティブ」オプションを無効にします。</p> <p>このフィールドを使用すると、ステータスがアクティブか非アクティブかに基づいて、グループリストを簡単に表示、フィルタリング、グループ化できます。リストでの表示、フィルター、グループ化の使用について詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">レポート要素：フィルター、表示およびグループ化</a>を参照してください。</p>  </td> 
+      <td> <p>（デフォルトで有効）Workfront インスタンスでグループをアクティブ化します。</p> <p>下図のような先行入力フィールドでは、オブジェクトの関連付けやオブジェクトの共有のために、標準ユーザーがグループを検索しようとすると、アクティブなグループのみがリストに表示されます。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>これをユーザーが効率的に利用できるようにするには、現在使用していないグループの「アクティブ」オプションを無効にします。</p> <p>このフィールドを使用すると、ステータスがアクティブか非アクティブかに基づいて、グループリストを簡単に表示、フィルタリング、グループ化できます。リストでのビュー、フィルターおよびグループ化の使用については、<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">レポート要素：フィルター、ビューおよびグループ化</a>を参照してください。</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">このグループとそのサブグループを公開</td> 
-      <td> <p>（サブグループではなく、トップレベルグループの詳細を表示している場合にのみ使用可能です）。このオプションを有効にすると、編集ユーザーのアクセス権を持つグループ内のユーザー（グループ管理者ではないユーザー）が、このグループとそのサブグループを他のユーザーのユーザープロファイルに追加できます。</p> <p>パブリックグループの場合、編集ユーザー権限のあるユーザー（グループの内外を問わない）は、他のユーザーのプロファイルにグループを追加できます。これは、プライベートグループに対しては実行できません。</p> <p>このオプションは、複数のレベルを持つグループの最上位階層の親グループでのみ編集できます。すべてのサブグループは親グループの設定を継承します。</p> <p><b>メモ</b>：  
+      <td> <p>（サブグループではなく、トップレベルグループの詳細を表示している場合にのみ使用可能です）。このオプションを有効にすると、編集ユーザーのアクセス権を持つグループ内のユーザー（グループ管理者ではないユーザー）が、このグループとそのサブグループを他のユーザーのユーザープロファイルに追加できます。</p> <p>パブリックグループの場合、編集ユーザー権限のあるユーザー（グループの内外を問わない）は、他のユーザーのプロファイルにグループを追加できます。これは、プライベートグループに対しては実行できません。</p> <p>このオプションは、複数のレベルを持つグループの最上位階層の親グループでのみ編集できます。すべてのサブグループは親グループの設定を継承します。</p> <p><b>メモ</b>:  
         <ul> 
          <li>サブグループを単独での公開はできませんが、トップレベルの親グループを公開することは可能で、これにより親のサブグループもすべて公開できます。</li> 
          <li>パブリックグループに属するサブグループは、デフォルトで公開になっているので、編集ユーザーアクセス権を持つユーザーは、そのサブグループを他のユーザーにも追加できます。</li> 
-        </ul> </p> <p>ユーザーの編集に必要なアクセスに関する情報が必要な場合は、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">ユーザーにアクセス権を付与</a>を参照してください。ユーザーの編集について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">ユーザーのプロファイルの編集</a>を参照してください。</p> </td> 
+        </ul> </p> <p>ユーザーの編集に必要なアクセスに関する情報が必要な場合は、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">ユーザーへのアクセス権の付与</a>を参照してください。ユーザーの編集について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">ユーザーのプロファイルの編集</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ビジネスリーダー </td> 
-      <td> <p>管理するグループに対して、1 人のユーザーをビジネスリーダーに割り当てることができます。ビジネスリーダーとは、グループのビジネス上の決定を行う人物のことです。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">ビジネスリーダーの概要</a><span>を参照してください。</span></p> <p>ユーザーがまだグループのメンバーでない場合は、このフィールドに名前を追加すると、そのユーザーもグループに追加されます。</p> <p><b>メモ</b>：  
+      <td> <p>管理するグループに対して、1 人のユーザーをビジネスリーダーに割り当てることができます。ビジネスリーダーとは、グループのビジネス上の決定を行う人物のことです。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">ビジネスリーダーの概要</a>を参照してください<span>。</span></p> <p>ユーザーがまだグループのメンバーでない場合は、このフィールドに名前を追加すると、そのユーザーもグループに追加されます。</p> <p><b>メモ</b>：  
         <ul> 
          <li>グループからビジネスリーダーを削除する前に、「ビジネスリーダー」フィールドから名前を削除する必要があります。</li> 
          <li>ビジネスリーダーフィールドから名前を削除した場合、そのユーザーはグループから削除されない限り、グループのメンバーのままでいます。グループからユーザーを削除する手順については、<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">グループの管理</a>の記事にある<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">グループのメンバーシップの管理</a>の節を参照してください。</li> 
@@ -177,7 +175,7 @@ Workfront 管理者は、既存のグループまたはサブグループをコ�
       <td> 
        <ul> 
         <li> <p>グループメンバー：グループにユーザーとグループを追加するには、追加する既存のユーザーまたはグループの名前を入力し、表示されたら名前を選択します。</p> <p>追加したユーザーとグループは、そのグループと共有されるすべてのオブジェクトにアクセスできます。</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.copied groups">グループ管理者：元のグループのグループ管理者は、コピーしたグループのグループ管理者にも指定されます。ユーザー名の右にあるドロップダウンメニューを使用して、グループメンバーをグループの管理者として割り当てることができます。</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">トップレベルのグループには、1 人以上のグループ管理者が必要です。</p> </li> 
+        <li> <p>グループ管理者：元のグループのグループ管理者は、コピーしたグループのグループ管理者にも指定されます。ユーザー名の右にあるドロップダウンメニューを使用して、グループメンバーをグループの管理者として割り当てることができます。</p> <p>最上位のグループには、1 人以上のグループ管理者が必要です。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -189,7 +187,7 @@ Workfront 管理者は、既存のグループまたはサブグループをコ�
 
    >[!NOTE]
    >
-   >* 元のグループにサブグループが含まれている場合、サブグループは新しいグループに追加され、その名前はデフォルトで「元のサブグループ名（コピー）」になります。
+   >* 元のグループにサブグループがある場合、サブグループは新しいグループに追加され、サブグループの名前はデフォルトで「元のサブグループ名（コピー）」になります。
    >* ユーザーまたはサブグループの名前の右側にある X をクリックすると、元のグループからユーザーまたはサブグループを削除できます。
 
 1. 「**グループを作成**」をクリックします。
