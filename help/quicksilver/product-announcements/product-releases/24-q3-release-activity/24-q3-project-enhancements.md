@@ -1,22 +1,21 @@
 ---
-title: 2024年第 2 四半期プロジェクトの機能強化
-description: 2024年第 2 四半期プロジェクトの機能強化
+title: 2024 年第 3 四半期プロジェクトの強化
+description: 2024 年第 3 四半期プロジェクトの強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
 source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 78%
+ht-degree: 63%
 
 ---
 
-# 2024年第 2 四半期プロジェクトの機能強化
+# 2024 年第 3 四半期プロジェクトの強化
 
-このページでは、2024年第 2 四半期リリースでプレビュー環境に対して行われたすべてのプロジェクトの機能強化について説明します。これらの機能強化は、前述のように本番環境で利用できるようになります。
+このページでは、2024 年第 3 四半期リリースでプレビュー環境に加えられたすべてのプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように本番環境で利用できるようになります。
 
-2024年第 2 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## より関連性の高い割り当てが、新規タスクワークフローに追加されました。

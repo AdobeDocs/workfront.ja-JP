@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
+source-git-commit: 77fa441ab01407142efa4ac3afe9f8f35406023c
 workflow-type: tm+mt
-source-wordcount: '14149'
+source-wordcount: '14158'
 ht-degree: 98%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 98%
       * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
       * 2024 年第 3 四半期リリース {#release-24-q3}
          * [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+         * [2024 年第 3 四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [2024 年第 3 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * 2024年第 2 四半期リリース {#release-24-q2}
          * [2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -1121,6 +1122,7 @@ ht-degree: 98%
       * [ドキュメントのストレージ制限のチェック](documents/managing-documents/check-document-storage.md)
       * [ドキュメントの削除](documents/managing-documents/delete-documents.md)
       * [クリップボードから画像を貼り付けます。](documents/managing-documents/paste-image-clipboard.md)
+      * [Workfront ドキュメントの詳細内の AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * ドキュメントの整理 {#organize-documents}
       * [ドキュメントの整理](documents/organizing-documents/organize-documents.md)
       * [ドキュメントフォルダーを作成](documents/organizing-documents/create-documents-folder.md)

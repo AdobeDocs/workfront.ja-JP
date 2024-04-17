@@ -1,20 +1,20 @@
 ---
 title: 2024 年第 3 四半期リリースの概要
-description: このページでは、2024 年第 3 四半期リリースに含まれる機能について説明します。 これらの機能強化は、四半期全体を通じて実稼動環境で利用できるようにする予定です。
+description: このページでは、2024 年第 3 四半期リリースに含まれる機能について説明します。 これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: c50e59af57a6ba962c57f095350a75cfd5a7a996
+source-git-commit: 90817ecaee73ea357790a690ff6cdb792f36a533
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 51%
+source-wordcount: '660'
+ht-degree: 69%
 
 ---
 
 # 2024 年第 3 四半期リリースの概要
 
-このページでは、2024 年第 3 四半期リリースに含まれる機能について説明します。 これらの機能強化は、四半期全体を通じて実稼動環境で利用できるようにする予定です。
+このページでは、2024 年第 3 四半期リリースに含まれる機能について説明します。 これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 
@@ -22,9 +22,9 @@ ht-degree: 51%
 
 >[!IMPORTANT]
 >
->23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfrontでは、毎月と四半期ごとのリリーストラックの両方を考慮して、リリースの番号付けスキームを変更しました。 最初の数値は年を示し、2 番目の数値はリリースの月を示します。 例：2024 年 4 月のリリースは 24.4 と読み取られます。
+>23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront ではリリースのナンバリング方式を変更し、月ごとのリリーストラックと四半期ごとのリリーストラックの両方を考慮するようにしました。最初の数字は年、2 番目の数字はリリースの月を表します。例：2024年4月のリリースは 24.4 となります。
 >
->月次および四半期ごとのリリースは、特に指定のない限り、月の 2 週目の木曜日に利用できる予定です。
+>月次リリースと四半期リリースは、特に指定がない限り、毎月第 2 週の木曜日に公開される予定です。
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
@@ -35,6 +35,68 @@ ht-degree: 51%
 ## Adobe Workfront の機能強化
 
 * [その他の機能強化](#other-enhancements)
+* [プロジェクトの強化](#project-enhancements)
+
+### プロジェクトの強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新規タスク ワークフローにより関連性の高い割り当てが追加されました</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>プロジェクトやプロジェクトのタスクリストにタスクを追加する際に、関連性の高いスマート割り当てを行うための同じ機能が、「新規タスク」ボックスの「割り当て」フィールドに追加されました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年2月13日</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p><span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span></p>
+                            </li>
+                            <li>
+                                <p>四半期リリース用の実稼動：未定</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスク（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）を割り当てる Workfront のエリアに適用されます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2023年12月21日（PT）</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p><span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span></p>
+                            </li>
+                            <li>
+                                <p>四半期リリース用の実稼動：未定</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### その他の機能強化
 
@@ -72,6 +134,8 @@ ht-degree: 51%
         </table>   
            </tbody>
         </table>
+
+
 
 ## お知らせ
 
