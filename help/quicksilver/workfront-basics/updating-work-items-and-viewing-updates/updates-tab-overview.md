@@ -7,10 +7,10 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 78%
+source-wordcount: '995'
+ht-degree: 76%
 
 ---
 
@@ -129,6 +129,11 @@ Depending on what objects you access the commenting experience for, you might fi
    * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。オブジェクトの更新については、を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
    * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込まれます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
    * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。これは表示専用のタブです。「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。オブジェクトの更新については、を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
+
+     >[!NOTE]
+     >
+     >「コメント」タブと「システムアクティビティ」タブがリアルタイムで更新されます。 最新の更新を表示するには、[ すべて ] タブを更新する必要があります。
+
 
 * 次のオブジェクトは、「更新」セクションの 3 つのタブすべてで同様のエクスペリエンスを持っています。
 

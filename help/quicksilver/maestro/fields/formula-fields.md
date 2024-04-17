@@ -1,14 +1,14 @@
 ---
 title: 数式フィールドの概要
-description: Adobe Workfront Planning では、関数と既存のフィールドを使用して新しいカスタム値を計算する数式フィールドを作成できます。
+description: Adobe Workfront Planning では、関数と既存のフィールドを使用して新しいカスタム値を計算する式フィールドを作成できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 13%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
 
@@ -31,11 +31,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-既存のフィールドを参照し、数式で接続することで、Adobe Workfront Planning でカスタムフィールドを作成できます。 これをおこなうには、カスタムの数式タイプフィールドを作成します。
+Adobe Workfront Planning では、既存のフィールドを参照し、式でそれらを結び付けることで、カスタムフィールドを作成できます。 これを行うには、カスタムの式タイプフィールドを作成します。
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-詳しくは、 [フィールドの作成](../fields/create-fields.md).
+詳しくは、[フィールドの作成](../fields/create-fields.md)を参照してください。
 
 ## アクセス要件
 
@@ -54,9 +54,9 @@ recommendations: noDisplay, noCatalog
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront協定</p></td>
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -74,18 +74,18 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfornt 計画に対するアクセス制御はありません</p>  
+   <td> <p>Workfront の計画用のアクセス制御はありません</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する権限の管理</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
+   <td> <p>ワークスペースに対する権限を管理</a> </p>  
+   <p>システム管理者は、自身が作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -97,19 +97,18 @@ recommendations: noDisplay, noCatalog
 <p>Legacy plan: Enterprise</p>-->
 
 
-## 数式フィールドに関する考慮事項
+## 式フィールドに関する考慮事項
 
-* 数式フィールドは、同じレコードタイプに属するフィールドを参照します。 数式フィールドを作成する際に、他のレコードタイプのフィールドを参照することはできません。 <!--is this still accurate??-->
-* 数式フィールドを保存した後で、そのフィールドの種類を変更することはできません。
-* 数式フィールドを保存した後で、その計算を更新し、同じタイプのすべてのレコードに対して、計算結果を自動的に更新できます。
-* Formula で参照するフィールドは、Workfront Planning インターフェイスに表示されるとおりに追加する必要があります。
-* 式内で、リンクされたレコードタイプから参照フィールドを使用することは、後日利用できます。
+* 式フィールドは、同じレコードタイプに属するフィールドを参照します。 式フィールドを作成するときに、他のレコードタイプのフィールドを参照することはできません。 <!--is this still accurate??-->
+* 数式フィールドを保存した後に、そのフィールドの種類を変更することはできません。
+* 式フィールドを保存した後に計算を更新すると、同じタイプのすべてのレコードに対する計算結果が自動的に更新されます。
+* Workfront Planning インタフェースに表示される式で参照するフィールドを追加する必要があります。
 
-## サポートされる数式
+## サポートされる式
 
-Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィールドからのすべての式をサポートしています。 詳しくは、 [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning の式フィールドでは、Workfrontの計算フィールドからのすべての式をサポートしています。 詳しくは、を参照してください [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-また、Workfront Planning の数式フィールドでは、次の式を使用できます。
+さらに、Workfront Planning 式フィールドでは、次の式をサポートしています：
 
 <table style="table-layout:auto"> 
  <col> 
@@ -124,9 +123,9 @@ Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィ�
 
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
-   <td> <p>区切り文字で連結された文字列を返します。</p> <p>式の形式は次のとおりです。
+   <td> <p>区切り文字によって連結された文字列を返します。</p> <p>式の形式は次のとおりです。
 
-<code>ARRAYJOIN(delimiter,array)</code>
+<code>ARRAYJOIN （delimiter,array）</code>
 </p>
    </td></tr>
 
@@ -134,12 +133,12 @@ Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィ�
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>一意の値を持つ配列を返します。</p> <p>式の形式は次のとおりです。
 
-<code>ARRAYUNIQUE（配列）</code>
+<code>ARRAYUNIQUE （array）</code>
 </p>
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>レコードの ID を返します。 各レコードには一意の ID が割り当てられます。</p> <p>式の形式は次のとおりです。
+   <td> <p>レコードの ID を返します。 各レコードには一意の ID があります。</p> <p>式の形式は次のとおりです。
 
 <code>{ID}</code>
 </p>
@@ -147,19 +146,19 @@ Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィ�
 
 <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
-   <td> <p>日付と時刻のタイムゾーンを特定のタイムゾーンに設定します。</p> <p>式の形式は次のとおりです。
+   <td> <p>日時のタイムゾーンを特定のタイムゾーンに設定します。</p> <p>式の形式は次のとおりです。
 
-<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
+<code>SETTIMEZONE （date,&#39;アメリカ/ロサンゼルス&#39;）</code>
 </p>
    </td></tr>
 
 <tr> 
-   <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>1 年の週の数を返します。必要に応じて、週の開始日を指定できます（日曜日は 1、月曜日は 2）。 省略した場合、週はデフォルトで日曜日に開始します。</p> <p>式の形式は次のとおりです。
+   <td><strong>平年</strong> </td> 
+   <td> <p>年の週番号を返します。オプションで、週の開始日を指定することもできます（日曜日の場合は 1、月曜日の場合は 2 を使用します）。 省略した場合、週はデフォルトで日曜日に始まります。</p> <p>式の形式は次のとおりです。
 
-<code>WEEKOFYEAR(date,2)</code>
+<code>WEEKOFYEAR （date,2）</code>
 または
-<code>WEEKOFYEAR(date)</code>
+<code>WEEKOFYEAR （date）</code>
 </p>
    </td></tr>
 
