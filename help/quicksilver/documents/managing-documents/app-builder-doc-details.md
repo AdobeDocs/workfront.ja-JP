@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dcc9eb57eedd0517d484ece1445917f7c275a0b4
+source-git-commit: 0d9212f0719535f191e61d27a73b8f5b2ef5fb30
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -348,7 +348,9 @@ Workfrontにゲストアプリケーションを読み込むには、アプリ�
 
 ## その他のヘルプ
 
-Adobeには、AppBuilder 用のアプリの構築を開始し、デプロイする方法に関する優れたドキュメントがあります。 次に、役立つリンクを示します。
+Adobeには、AppBuilder 用のアプリの構築を開始し、デプロイする方法に関する優れたドキュメントがあります。
+
+次に、役立つリンクを示します。
 
 * [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
 
