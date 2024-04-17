@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion] シナリオ内で、 [!DNL Adobe T
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
 workflow-type: tm+mt
-source-wordcount: '2665'
-ht-degree: 100%
+source-wordcount: '2119'
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,16 @@ ht-degree: 100%
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>実稼動環境と非実稼動環境のどちらに接続するかを選択します。
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>サービスアカウントと個人アカウントのどちらに接続するかを選択します。
+        </td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
         <td>[!DNL Adobe] クライアント ID を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
       </tr>
@@ -105,12 +115,12 @@ ht-degree: 100%
         <td>[!DNL Adobe] クライアントの秘密鍵を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>[!DNL Adobe] 組織 ID を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
-      </tr>
-      <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
         <td>[!DNL Adobe] テクニカルアカウント ID を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>[!DNL Adobe] 組織 ID を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Tenant]</td>
@@ -191,25 +201,46 @@ ht-degree: 100%
     <td>[!DNL Adobe Target] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-target" class="MCXref xref" >[!DNL Adobe Target]</a> への接続を作成を参照してください。</td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Record type]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[!UICONTROL Record type]</td>
+    <td>
       <p>作成するレコードのタイプを選択します。</p>
       <ul>
         <li>
-          <p>[!UICONTROL AB Activity]</p>
-          <p><a href="#ab-activity-fields" class="MCXref xref" >AB アクティビティフィールド</a>に進みます。</p>
+        <b>プロパティ</b><p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">プロパティの作成</a> （Adobe Target API ドキュメント）。</p>
         </li>
         <li>
-          <p>[!UICONTROL XT Activity]</p>
-          <p><a href="#xt-activity-fields" class="MCXref xref" >XT アクティビティフィールド</a>に進みます。</p>
+        <b>オファーの推奨事項</b><p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">新しい recs オファーを作成</a> （Adobe Target API ドキュメント）。</p>
         </li>
         <li>
-          <p>[!UICONTROL Offer]</p>
+          <b>[!UICONTROL オファー JSON]</b>
           <p><a href="#offer-fields" class="MCXref xref" >オファーフィールド</a>に進みます。</p>
         </li>
         <li>
-          <p>[!UICONTROL Audience]</p>
-          <p><a href="#audience-fields" class="MCXref xref" >オーディエンスフィールド</a>に進みます。</p>
+          <b>[!UICONTROL オファーコンテンツ ]</b>
+          <p><a href="#offer-fields" class="MCXref xref" >オファーフィールド</a>に進みます。</p>
+        </li>
+        <li>
+        <b>0.5511122</b><p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment">環境を作成</a> （Adobe Target API ドキュメント）。</p>
+        </li>
+        <li>
+          <b>[!UICONTROL オーディエンス ]</b>
+          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">オーディエンスを作成</a> （Adobe Target API ドキュメント）。</p>
+        </li>
+        <li>
+          <b>[!UICONTROL AB アクティビティ ]</b>
+          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">AB アクティビティを作成</a> （Adobe Target API ドキュメント）。</p>
+        </li>
+        <li>
+          <b>[!UICONTROL XT アクティビティ ]</b>
+          <p><a href="#xt-activity-fields" class="MCXref xref" >XT アクティビティフィールド</a>に進みます。</p>
+        </li>
+        <li>
+          <b>[!UICONTROL AP アクティビティ ]</b>
+          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">AP アクティビティの作成</a> （Adobe Target API ドキュメント）。</p>
+        </li>
+        <li>
+          <b>[!UICONTROL 応答トークン ]</b>
+          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">応答トークンの作成</a> （Adobe Target API ドキュメント）。</p>
         </li>
       </ul>
     </td>
@@ -217,7 +248,9 @@ ht-degree: 100%
 </tbody>
 </table>
 
-##### AB アクティビティフィールド
+<!--
+
+##### AB Activity fields
 
 <table style="table-layout:auto"> 
   <col/>
@@ -225,51 +258,78 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>このアクティビティの名前を入力またはマッピングします。名前は 250 文字以下にする必要があります。</td>
+      <td>Enter or map a name for this activity. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Options]</td>
       <td>
-        <p>アクティビティに追加する各オプションで、<b>[!UICONTROL Add item]</b> をクリックして、次のフィールドに入力します。</p>
+        <p>For each option that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p><b>[!UICONTROL Option local ID]</b>
             </p>
-            <p>API リクエストをまたいでオプションを追跡するために使用する文字列を入力またはマッピングします。</p>
+            <p>Enter or map a string to be used to track the option across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>オプションの名前を入力またはマッピングします。名前は 250 文字以下にする必要があります。</p>
+            <p>Enter or map a name for the option. The name must be no more than 250 characters.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Offer ID]</b>
             </p>
           </li>
           <li>
-            <p>オプションに関連付けられたオファーを選択またはマッピングします。</p>
+            <p>Select or map the Offer associated with the option.</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Locations]</td>
+      <td role="rowheader">[!UICONTROL Mboxes]</td>
       <td>
-        <p>アクティビティに追加する mbox ごとに、<b>[!UICONTROL Add item]</b> をクリックして、次のフィールドに入力します。</p>
+        <p>For each Mbox that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p>[!UICONTROL Audience IDs]</p>
-            <p>mbox に追加するオーディエンスごとに、<b>[!UICONTROL Add item]</b> をクリックして、「オーディエンス ID 」を選択します。</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Location local ID]</b>
             </p>
-            <p>API リクエスト全体で場所を追跡するために使用する文字列を入力またはマッピングします。</p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>場所の名前を入力またはマッピングします。名前は 250 文字以下にする必要があります。</p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Selectors]</td>
+      <td>
+        <p>For each selector that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Audience IDs]</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Location local ID]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Selector]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Name]</b>
+            </p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
           </li>
         </ul>
       </td>
@@ -277,56 +337,54 @@ ht-degree: 100%
     <tr>
       <td role="rowheader">[!UICONTROL Experiences]</td>
       <td>
-        <p>コンテンツオファーが提供されるページ上の場所のリスト。場所には次の情報が含まれます。
+        <p>A list of locations on the page where the content offer is served. A location contains the following:
 </p>
         <ul>
           <li>
-            <p><b>[!UICONTROL Experience Local ID]</b>
+            <p><b>[!UICONTROL Experience local ID]</b>
             </p>
-            <p>エクスペリエンスの ID の入力またはマッピング</p>
+            <p>Enter or map the ID of the experience</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>エクスペリエンスの名前を入力またはマッピング
-
+            <p>Enter or map the name of the experience
 </p>
           </li>
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>エクスペリエンスを表示するオーディエンスごとに、<b>[!UICONTROL Add item]</b> をクリックして、オーディエンス ID を入力します。
-
+            <p>For each audience that you want to see the experience, click <b>[!UICONTROL Add item]</b> and enter the Audience ID.
 </p>
           </li>
           <li>
             <p><b>[!UICONTROL Visitor Percentage]</b>
             </p>
-            <p>エクスペリエンスに割り当てられる訪問者の割合を入力またはマッピングします</p>
+            <p>Enter or map the percentage of visitors that is allocated to the experience</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Metrics]</td>
-      <td> </td>
+      <td><p>For details on metrics, see <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">Create AB activity</a> in the Adobe Target API documentation.</p> </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Third Party ID]</td>
-      <td>このアクティビティを識別する ID を入力またはマッピングします。この ID を選択できます。この ID は、他のアクティビティと同じにすることはできません。また、250 文字以下にする必要があります。</td>
+      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID must not be the same as another activity, and can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Starts at]</td>
-      <td>アクティビティを開始する日付と時刻を <code>YYYY-MM-DD hh:mm:ss.z</code> 形式で入力またはマッピングします。</td>
+      <td>Enter or map the date and time to start the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ends at]</td>
-      <td>アクティビティを終了する日付と時刻を <code>YYYY-MM-DD hh:mm:ss.z</code> 形式で入力またはマッピングします。</td>
+      <td>Enter or map the date and time to end the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL State]</td>
       <td>
-        <p>アクティビティの状態を入力またはマッピングします。</p>
+        <p>Enter or map the state of the activity.</p>
         <ul>
           <li>
             <p>[!UICONTROL Approved]</p>
@@ -348,48 +406,50 @@ ht-degree: 100%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Priority]</td>
-      <td>アクティビティの優先度を定義する数値を入力します。数値が大きいほど、優先度が高くなります。この値は 0 ～ 999 の範囲で設定する必要があります。デフォルト値は 5 です。</td>
+      <td>Enter a number that defines the priority of the activity. Higher numbers have higher priority. This value must be between 0 and 999. The default value is 5.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Auto-allocate traffic]</td>
       <td>
-        <p>トラフィックを自動配分するには、このオプションを有効にします。自動配分により、より多くのトラフィックがより効果の高いエクスペリエンスに送信されます。</p>
-        <p>どのエクスペリエンスがより効果が高いかを判断するための評価基準を選択またはマッピングします。</p>
+        <p>Enable this option to auto-allocate traffic. Auto-allocating sends more traffic to the more successful experience.</p>
+        <p>Select or map the evaluation criteria by which to judge which experience is more successful.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
-      <td>アクティビティが関連付けられているワークスペースを入力またはマッピングします</td>
+      <td>Enter or map the workspace that the activity is associated with</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Property IDs] </td>
-      <td>アクティビティに追加する各プロパティで、「<b>[!UICONTROL Add item]</b>」をクリックして、プロパティの ID を選択またはマッピングします。</td>
+      <td>For each property that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and select or map the property's ID.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Reporting audiences]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>アクティビティに追加するレポートオーディエンスごとに、「[!UICONTROL Add item]」をクリックし、次の情報を入力します。</p>
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
+      <td>
+        <p>For each reporting audience that you want to add to the activity, click [!UICONTROL Add item] and enter the following information:</p>
         <ul>
           <li>
             <p><b>[!UICONTROL Reporting Audience local ID]</b>
             </p>
-            <p>API リクエスト全体でレポートオーディエンスを追跡するために使用する文字列を入力またはマッピングします。</p>
+            <p>Enter or map a string to be used to track the Reporting Audience across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Audience ID]</b>
             </p>
-            <p>レポートで使用するセグメントを入力またはマッピングします</p>
+            <p>Enter or map the Segment to be used in reporting</p>
           </li>
           <li>
             <p><b>[!UICONTROL Metric local ID]</b>
             </p>
-            <p>API リクエスト全体で指標を追跡するために使用する文字列を入力またはマッピングします。</p>
+            <p>Enter or map a string to be used to track the metric across API requests.</p>
           </li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 ##### XT アクティビティフィールド
 
@@ -540,8 +600,8 @@ ht-degree: 100%
       <td>アクティビティに追加する各プロパティで、「<b>[!UICONTROL Add item]</b>」をクリックして、プロパティの ID を選択またはマッピングします。</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Reporting audiences]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
+      <td>
         <p>アクティビティに追加するレポートオーディエンスごとに、「[!UICONTROL Add item]」をクリックし、次の情報を入力します。</p>
         <ul>
           <li>
@@ -587,10 +647,22 @@ ht-degree: 100%
         <p>オファーに関連付けられているワークスペースの ID を入力またはマッピングします。空白の場合、オファーはアカウントのデフォルトのワークスペースに関連付けられます。この機能は、[!DNL Target] Premium アカウントのみに適用します。</p>
       </td>
     </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>このオファーが変更された日時を入力またはマッピングします。</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
-##### オーディエンスフィールド
+<!--
+
+##### Audience fields
+
+>[!NOTE]
+>
+>Audiences created through Workfront Fusion can only be edit in Fusion or through the API. They cannot be edited from within Target.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -598,21 +670,27 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>このオーディエンスの名前を入力またはマッピングします。名前は 250 文字以下にする必要があります。</td>
+      <td>Enter or map a name for this audience. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Content]</td>
+      <td role="rowheader">[!UICONTROL Description]</td>
       <td>
-        <p>このオーディエンスの説明を入力またはマッピングします。</p>
+        <p>Enter or map a description of this audience.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Origin]</td>
+      <td>
+        <p>Select whether this audience's origin is from Target or from the cloud.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Target Rule]</td>
       <td>
-        <p>切替スイッチを有効にしてルールを AND にすることで、すべてのルールが適用されるようにする必要があります。</p>
-        <p>オーディエンスに適用する各ルールで、「<b>[!UICONTROL Add item]</b>」をクリックして、適用するルールの JSON を入力します。 </p>
-        <div class="example"><span class="autonumber"><span><b>例：</b></span></span>
-          <p>例：</p>
+        <p>Enable the toggle to make rules AND, that is, all rules must be applied.</p>
+        <p>For each rule that you want to apply to the audience, click <b>[!UICONTROL Add item]</b> and enter the JSON of the rule you want to apply. </p>
+        <div class="example"><span class="autonumber"><span><b>Example: </b></span></span>
+          <p>Example 1:</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -624,6 +702,7 @@ ht-degree: 100%
                     </p>
                     <p ><code>            &rbrace;,</code>
                     </p>
+                    <p>Example 2</p>
                     <p ><code>            &lbrace;</code>
                     </p>
                     <p><code>                "geo": "region",</code>
@@ -639,15 +718,17 @@ ht-degree: 100%
       </td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Workspace]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>オーディエンスに関連付けられたワークスペースの ID を入力またはマッピングします。空白の場合、オファーはアカウントのデフォルトのワークスペースに関連付けられます。この機能は、[!DNL Target Premium] アカウントのみに適用します。</p>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>Enter or map the ID of the workspace associated with the audience. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to [!DNL Target Premium] accounts.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL カスタム API 呼び出しを行う]
+-->
+
+#### [!UICONTROL カスタム API 呼び出しを実行]
 
 このモジュールは、[!DNL Adobe Target] API に対してカスタム API 呼び出しを実行します。
 
@@ -748,7 +829,7 @@ ht-degree: 100%
 
 #### [!UICONTROL レコードの更新]
 
-このアクションモジュールは、アクティビティ、オファーまたはオーディエンスを更新します。
+このアクションモジュールは、Target のレコードを更新します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -762,38 +843,13 @@ ht-degree: 100%
       <td role="rowheader">[!UICONTROL Record type]</td>
       <td>
         <p>更新するレコードのタイプを選択します。</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL AB Activity]</b>
-            </p>
-            <p>詳しくは、<a href="#create-a-record" class="MCXref xref" >レコードの作成</a>の <a href="#ab-activity-fields" class="MCXref xref" >AB アクティビティフィールド</a>のフィールド説明を参照してください。</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL XT Activity]</b>
-            </p>
-            <p>詳しくは、<a href="#create-a-record" class="MCXref xref" >レコードの作成</a>の <a href="#xt-activity-fields" class="MCXref xref" >XT アクティビティフィールド</a>のフィールド説明を参照してください。</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Other Activity]</b>
-            </p>
-            <p>値を更新するフィールドを選択し、そのフィールドに新しい値を入力します。</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Offer]</b>
-            </p>
-            <p>詳しくは、<a href="#create-a-record" class="MCXref xref" >レコードの作成</a>の<a href="#offer-fields" class="MCXref xref" >オファーフィールド</a>のフィールド説明を参照してください。</p>
-          </li>
-          <li>
-            <p><b>[!DNL Audience]</b>
-            </p>
-            <p>詳しくは、<a href="#create-a-record" class="MCXref xref" >レコードの作成</a>の<a href="#audience-fields" class="MCXref xref" >オーディエンスフィールド</a>のフィールド説明を参照してください。</p>
-          </li>
-        </ul>
-      </td>
+       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Record ID]</td>
-      <td>更新するレコードの ID を入力またはマッピングします。</td>
+      <td role="rowheader">[!UICONTROL フィールド名 ]</td>
+      <td>更新するフィールドを選択します。 フィールドが下に表示されます。
+          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API ドキュメント</a>.</p>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -874,8 +930,8 @@ ht-degree: 100%
     </td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Maximum number of returned results]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[!UICONTROL Limit]</td>
+    <td>
       <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。このフィールドを [!UICONTROL Offset] フィールドと組み合わせて使用し、応答をページ番号付けします。</p>
       <p>例えば、応答の 3 ページ目を表示する際、各ページに 10 件の応答がある場合、[!UICONTROL Offset] を 20 に、[!UICONTROL Maximum number of returned] の結果を 10 に設定します。</p>
     </td>
