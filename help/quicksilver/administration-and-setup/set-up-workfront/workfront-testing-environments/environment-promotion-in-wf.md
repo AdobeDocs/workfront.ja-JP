@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 3%
 
 ---
@@ -122,6 +122,10 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>未組み</td> 
+   <td><p>このステータスは自動的に割り当てられ、保存されたが、まだ組み立てられていないパッケージを表します。 </p><p>このステータスは、顧客が直接設定することはできません。</p></td> 
+  </tr> 
   <tr> 
    <td>組立</td> 
    <td><p>このステータスは、オブジェクトのアセンブリ中に自動的に割り当てられます。 </p><p>アセンブリとは、パッケージに含めるオブジェクトとサブオブジェクトを識別し、それらのオブジェクトとそのデータをパッケージに追加する自動プロセスを指します。</p><p>このステータスは、顧客が直接設定することはできません。</p></td> 

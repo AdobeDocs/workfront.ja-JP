@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: f65fbe7ceab19cee75aa0346c389907707c47c8b
+source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 8%
+source-wordcount: '557'
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 ## 衝突
 
-競合は、インストールパッケージに含まれるオブジェクトがターゲット環境に既に存在する場合に発生します。 これが発生すると、コリジョンの解決方法を選択できます。 衝突はオブジェクト レベルで解決されます。
+競合は、インストールパッケージの一部であるオブジェクトが、ターゲット環境に既に存在するオブジェクトと同じ名前を持つ場合に発生します。 これが発生すると、コリジョンの解決方法を選択できます。 衝突はオブジェクト レベルで解決されます。
 
 各オブジェクトタイプの横にあるドロップダウンをクリックすると、衝突を表示できます。 コリジョンはコリジョン カラムに表示されます。
 
@@ -47,23 +47,31 @@ ht-degree: 8%
 * **新しい名前で作成**：ターゲット環境で新しいオブジェクトを作成します。 オブジェクトがターゲット環境に存在する場合は、新しい名前で新しいオブジェクトを作成できます。 ターゲット環境にオブジェクトが存在しない場合は、新しい名前、またはオブジェクトのパッケージ内にある名前でオブジェクトを作成できます。
 * **既存のものを使用**：パッケージ内のオブジェクトはインストールされておらず、ターゲット環境に既に存在しているオブジェクトは変更されません。
 * **上書き**：パッケージ内のオブジェクトは、ターゲット環境の既存のオブジェクトを置き換えます。
+
+  衝突が検出されない場合でも、上書きするオブジェクトを選択することもできます。
+
+  上書きが親オブジェクトと子オブジェクトに与える影響については、を参照してください。
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
 デフォルト値： `Create new` オブジェクトがターゲット環境に存在しない場合、および `Use existing` オブジェクトがターゲット環境に存在する場合。 をクリックすると、デフォルトのマッピングに戻すことができます。 **デフォルトのマッピングにリセット**.
 
+## 親オブジェクトと子オブジェクトの上書き
 
+プロモーションパッケージ内の一部のオブジェクトには、子オブジェクトが含まれている場合があります。 例えば、プロジェクト（親）にはタスク（子）があります。 親オブジェクトを上書きする場合、子オブジェクトは次のように処理されます。
 
-<!--
-## Collisions
+* パッケージとターゲットの両方に存在する子オブジェクトは、パッケージに一致するようにターゲットで更新されます。
+* パッケージに存在するがターゲットには存在しない子オブジェクトが作成されます。
+* ターゲットに存在するがパッケージには存在しない子オブジェクトは、変更されずに残ります。
 
-A collision occurs when <!--???--.
+この機能は、次の親オブジェクトと子オブジェクトに影響します。
 
-In Workfront, a potential collision is marked with a blue dot. You can select 
+| 親オブジェクト | 子オブジェクト |
+|---|---|
+| プロジェクト | タスク<br>QueueDef （キュー定義）<br>RoutingRule |
+| テンプレート | TemplateTask<br>QueueDef （キュー定義）<br>RoutingRule |
+| パラメーター（カスタムフォームフィールド） | ParameterOption （カスタムフォームフィールドオプション） |
+| CalendarInfo | CalendarSection |
+| QueueDef （キュー定義） | QueueTopicGroup<br>QueueTopic |
 
-You can select whether to show all package contents, or collisions only.
-
-## Comparison tool
-
--->
