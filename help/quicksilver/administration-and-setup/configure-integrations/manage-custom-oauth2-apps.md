@@ -7,10 +7,10 @@ description: Adobe Workfront 管理者は、Workfront のインスタンス用�
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
-workflow-type: ht
-source-wordcount: '702'
-ht-degree: 100%
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+>* OAuth2 のコンテキストで「Oauth2 アプリケーション」とは、アプリと [!DNL Workfront] などのサーバー間のこの種のアクセスリンクを指します。詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
+>* 一度に最大 10 個の OAuth2 アプリケーションを持つことができます。
 
 * カスタム OAuth2 アプリケーションの作成について詳しくは、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 * ユーザーの資格情報を使用して OAuth2 アプリケーションを設定および使用する手順（認証コードフロー）については、[認証コードフローを使用した、組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-code-token-flow.md)を参照してください。
@@ -118,7 +119,7 @@ ht-degree: 100%
 
 1. [!DNL Adobe Workfront] の右上隅で&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) の順にクリックします。
 
-1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」、「**[!UICONTROL OAuth アプリケーション]**」の順に選択します。
+1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」をクリックして「**[!UICONTROL OAuth アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
 1. アプリケーションにポインタを合わせて、右端に表示される&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 1. メモを追加または編集するクライアントシークレットを見つけます。
@@ -136,7 +137,7 @@ ht-degree: 100%
 
 1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
 
-1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」、「**[!UICONTROL OAuth アプリケーション]**」を選択します。
+1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」をクリックして「**[!UICONTROL OAuth アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
 1. アプリケーションにポインタを合わせて、右端に表示される&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 1. 削除するクライアントシークレットを見つけます。

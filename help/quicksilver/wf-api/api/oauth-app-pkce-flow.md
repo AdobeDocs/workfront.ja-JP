@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '811'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,10 @@ PKCE フローには、以下の手順が含まれます。この節の手順は
 認証を実装する前に、Workfront からアプリの統合を作成して、アプリを OAuth2 に登録する必要があります。
 
 OAuth2 アプリケーションの作成手順については、[Workfront 統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)にある、[PKCE を使用した OAuth2 単一ページ web アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce)を参照してください。
+
+>[!NOTE]
+>
+>一度に最大 10 個の OAuth2 アプリケーションを持つことができます。
 
 
 ## コード交換用のプルーフキーの作成

@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ Workfront と統合し、クライアントアプリがユーザーの代わり�
 ## OAuth2 アプリケーションを作成
 
 OAuth2 アプリケーションの作成手順については、[Workfront 統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)の[サーバー認証（JWT フロー）を使用した OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2)を参照してください。
+
+>[!NOTE]
+>
+>一度に最大 10 個の OAuth2 アプリケーションを持つことができます。
 
 ## 公開鍵証明書の作成
 
