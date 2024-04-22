@@ -9,83 +9,87 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
+hide: true
+hidefromtoc: true
+source-git-commit: ec23659dc85b77c61ef5575e3605d0cf396c4e1a
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 100%
+source-wordcount: '30'
+ht-degree: 83%
 
 ---
 
 # [!DNL Adobe Journey Optimizer] モジュール
 
+>[!IMPORTANT]
+>
+>このコネクタは非推奨（廃止予定）です。
+
 <!--
-Becky: pull from main, add to TOCs, then push to merge.
--->
 
-[!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Adobe Journey Optimizer] を使用するワークフローを自動化したり、複数のサードパーティのアプリケーションやサービスに接続したりすることができます。[!DNL Adobe Journey Optimizer] モジュールを使用すると、レコードの作成、読み取り、更新、削除をしたり、[!DNL Adobe Journey Optimizer] API へのカスタム API 呼び出しを行ったりできます。
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
 
 
-シナリオの作成手順が必要な場合は、[](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
+If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-モジュールについては、[モジュール： [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)を参照してください。
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## アクセス要件
+## Access requirements
 
-この記事で説明している機能を使用するには、次のアクセス権が必要です。
+You must have the following access to use the functionality in this article:
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
-        <p>[!UICONTROL Pro] 以降</p>
+        <p>[!UICONTROL Pro] or higher</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] license*</td>
       <td>
-        <p>[!UICONTROL Plan]、[!UICONTROL Work]</p>
+        <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td>
+      <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
-   <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
-      <td role="rowheader">製品</td>
+      <td role="rowheader">Product</td>
       <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
-   <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## 前提条件
+## Prerequisites
 
-[!DNL Adobe Journey Optimizer] コネクタを使用する前に、次の前提条件が満たされていることを確認する必要があります。
+Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure that the following prerequisites are met:
 
-* アクティブな [!DNL Adobe Journey Optimizer] アカウントが必要です。
+* You must have an active [!DNL Adobe Journey Optimizer] account.
 
-## [!DNL Adobe Journey Optimizer] への接続の作成
+## Create a connection to [!DNL Adobe Journey Optimizer]
 
-[!DNL Adobe Journey Optimizer] モジュールへの接続を作成するには、以下を実行します。
+To create a connection for your [!DNL Adobe Journey Optimizer] modules:
 
-1. 任意の [!DNL Adobe Journey Optimizer] モジュールで、「接続」ボックスの横にある「**[!UICONTROL 追加]**」をクリックします。
+1. In any [!DNL Adobe Journey Optimizer] module, click **[!UICONTROL Add]** next to the Connection box.
 
-1. 次のフィールドに入力します。
+1. Fill in the following fields:
 
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -96,80 +100,80 @@ Becky: pull from main, add to TOCs, then push to merge.
         <tr>
           <td role="rowheader">[!UICONTROL Connection name]</td>
           <td>
-            <p>この接続の名前を入力します。</p>
+            <p>Enter a name for this connection.</p>
           </td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>[!DNL Adobe] [!UICONTROL Client ID] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technical account ID]</td>
-          <td>[!DNL Adobe] [!UICONTROL Technical account ID] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
+          <td>Enter your [!DNL Adobe] [!UICONTROL Technical account ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID]</td>
-          <td>[!DNL Adobe] [!UICONTROL Organization ID] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
+          <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta scopes]</td>
           <td>
-            接続に必要なメタスコープを入力します。
+            Enter any meta scopes needed for the connection.
           </td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Private key]</td>
           <td>
-            <p>[!DNL Adobe Developer Console] で資格情報が作成された際に生成された秘密鍵を入力します。 </p>
-            <p>秘密鍵または証明書を抽出するには：</p>
+            <p>Enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
+            <p>To extract your private key or certificate:</p>
             <ol>
               <li value="1">
-                <p><b>[!UICONTROL Extract]</b> をクリックします。</p>
+                <p>Click <b>[!UICONTROL Extract]</b>.</p>
               </li>
               <li value="2">
-                <p>抽出するファイルのタイプを選択します。</p>
+                <p>Select the type of file you are extracting.</p>
               </li>
               <li value="3">
-                <p>秘密鍵または証明書を含むファイルを選択します。</p>
+                <p>Select the file that contains the private key or certificate.</p>
               </li>
               <li value="4">
-                <p>ファイルのパスワードを入力します。</p>
+                <p>Enter the password for the file.</p>
               </li>
               <li value="5">
-                <p><b>[!UICONTROL Save]</b> をクリックしてファイルを抽出し、接続設定に戻ります。</p>
+                <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
               </li>
             </ol>
           </td>
         </tr>
       </tbody>
     </table>
-1. 「**[!UICONTROL 続行]**」をクリックして接続を保存し、モジュールに戻ります。
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
-## [!DNL Adobe Journey Optimizer] モジュールとそのフィールド
+## [!DNL Adobe Journey Optimizer] modules and their fields
 
-[!DNL Adobe Journey Optimizer] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Adobe Journey Optimizer] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
+When you configure [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Journey Optimizer] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [アクション](#actions)
-* [検索](#searches)
+* [Actions](#actions)
+* [Searches](#searches)
 
-### アクション
+### Actions
 
-* [[!UICONTROL レコードを作成]](#create-a-record)
-* [[!UICONTROL カスタム API 呼び出しを実行]](#make-a-custom-api-call)
-* [[!UICONTROL レコードを削除]](#delete-a-record)
-* [[!UICONTROL レコードを更新]](#update-a-record)
+* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
+* [[!UICONTROL Delete a record]](#delete-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
 
-#### [!UICONTROL レコードを作成]
+#### [!UICONTROL Create a record]
 
-このアクションモジュールは、配置、決定ルール、タグ、パーソナライズされたオファー、コレクションまたはフォールバックオファーを作成します。
+This action module creates a placement, decision rule, tag, personalized offer, collection, or fallback offer.
 
 <table>
   <col/>
@@ -177,29 +181,29 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>[!DNL Adobe Journey Optimizer] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >[!DNL Adobe Journey Optimizer]</a> への接続を作成を参照してください。</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record type]
       </td>
       <td>
-        作成するレコードのタイプを選択
+        Select the type of record that you want to create
         <ul>
-        <li><b>[!UICONTROL Placement]</b>：<a href="#placement-fields" >「[!UICONTROL Placement]」フィールド</a>に進みます。</li>
-        <li><b>[!UICONTROL Decision rule]</b>：<a href="#decision-rule-fields" >「[!UICONTROL Decision rule]」フィールド</a>に進みます。</li>
-        <li><b>[!UICONTROL Decision]</b>：<a href="#decision-fields" >「[!UICONTROL Decision]」フィールド</a>に進みます。</li>
-        <li><b>[!UICONTROL Tag]</b>：<a href="#tag-fields" >「[!UICONTROL Tag]」フィールド</a>に進みます。</li>
-        <li><b>[!UICONTROL Collection]</b>：<a href="#collection-fields" >「[!UICONTROL Collection]」フィールド</a>に進みます。</li>
-        <li><b>[!UICONTROL Fallback offer]</b>：<a href="#fallback-offer-fields" >「[!UICONTROL Fallback offer]」フィールド</a>に進みます。</li>
-        <li><b>[!UICONTROL Personalized offer]</b>：<a href="#personalized-offer-fields" >「[!UICONTROL Personalized offer]」フィールド</a>に進みます。</li>
+        <li><b>[!UICONTROL Placement]</b>: Continue to <a href="#placement-fields" >[!UICONTROL Placement] fields</a>.</li>
+        <li><b>[!UICONTROL Decision rule]</b>: Continue to <a href="#decision-rule-fields" >[!UICONTROL Decision rule] fields</a>.</li>
+        <li><b>[!UICONTROL Decision]</b>: Continue to <a href="#decision-fields" >[!UICONTROL Decision] fields</a>.</li>
+        <li><b>[!UICONTROL Tag]</b>: Continue to <a href="#tag-fields" >[!UICONTROL Tag] fields</a>.</li>
+        <li><b>[!UICONTROL Collection]</b>: Continue to <a href="#collection-fields" >[!UICONTROL Collection] fields</a>.</li>
+        <li><b>[!UICONTROL Fallback offer]</b>: Continue to <a href="#fallback-offer-fields" >[!UICONTROL Fallback offer] fields</a>.</li>
+        <li><b>[!UICONTROL Personalized offer]</b>: Continue to <a href="#personalized-offer-fields" >[!UICONTROL Personalized offer] fields</a>.</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-##### 「[!UICONTROL 配置]」フィールド
+##### [!UICONTROL Placement] fields
 
 <table>
   <col/>
@@ -207,20 +211,20 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>配置の名前を入力またはマッピングします。</td>
+     <td>Enter or map a name for the placement.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Description]
       </td>
-      <td>配置の説明を入力またはマッピングします。
+      <td>Enter or map a description for the placement.
       </td>
     </tr>
   </tbody>
 </table>
 
 
-##### 「[!UICONTROL 決定ルール]」フィールド
+##### [!UICONTROL Decision rule] fields
 
 <table>
   <col/>
@@ -228,26 +232,26 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>説明ルールの名前を入力またはマッピングします。</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Description]
       </td>
-      <td>決定ルールの説明を入力またはマッピングします。
+      <td>Enter or map a description for the decision rule.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Condition]
       </td>
-      <td>決定ルールの条件を入力またはマッピングします。
+      <td>Enter or map the condition the decision rule.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### 「[!UICONTROL 決定]」フィールド
+##### [!UICONTROL Decision] fields
 
 <table>
   <col/>
@@ -255,42 +259,42 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>説明ルールの名前を入力またはマッピングします。</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Status]</td>
-      <td>決定のステータスを選択します。
+      <td>Select the status for the decision.
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Start date]</td>
-      <td><p>決定の開始日を入力またはマッピングします。</p><p>サポートされる日付形式のリストについては、<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での型強制を参照してください。</p>
+      <td><p>Enter or map the start date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL End date]</td>
-      <td><p>決定の終了日を入力またはマッピングします。</p><p>サポートされる日付形式のリストについては、<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での型強制を参照してください。</p>
+      <td><p>Enter or map the end date for the decision.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Placements]</td>
-      <td>この決定に追加する配置を選択
+      <td>Select the placements to add to this decision
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Collection]</td>
-      <td>この決定で考慮されるオファーを含むオファーコレクションを選択します。
+      <td>Select the offer collection that contains the offers that this decision will consider.
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Fallback offer]</td>
-      <td>この決定のルールに一致しない顧客に提示されるフォールバックオファーを選択します。
+      <td>Select the fallback offer that will be presented to customers that do not match the rules for this decision.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### 「[!UICONTROL タグ]」フィールド
+##### [!UICONTROL Tag] fields
 
 <table>
   <col/>
@@ -298,12 +302,12 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>タグの名前を入力またはマッピングします。</td>
+     <td>Enter or map a name for the tag.</td>
     </tr>
   </tbody>
 </table>
 
-##### 「[!UICONTROL コレクション]」フィールド
+##### [!UICONTROL Collection] fields
 
 <table>
   <col/>
@@ -311,7 +315,7 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>コレクションの名前を入力またはマッピングします。</td>
+     <td>Enter or map a name for the collection.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -324,13 +328,13 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">
         [!UICONTROL Elements]
       </td>
-      <td>コレクションに含めるタグを選択します。
+      <td>Select the tags to include in the colelction.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### 「[!UICONTROL フォールバックオファー]」フィールド
+##### [!UICONTROL Fallback offer] fields
 
 <table>
   <col/>
@@ -338,26 +342,26 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>フォールバックオファーの名前を入力またはマッピングします。</td>
+     <td>Enter or map a name for the fallback offer.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Status]
       </td>
-      <td> フォールバックオファーのステータスを選択します。
+      <td> Select the status of the fallback offer.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Placement]
       </td>
-      <td>フォールバックオファーの配置を入力またはマッピングします。
+      <td>Enter or map the placement for the fallback offer.
       </td>
     </tr>
   </tbody>
 </table>
 
-##### 「[!UICONTROL パーソナライズされたオファー]」フィールド
+##### [!UICONTROL Personalized offer] fields
 
 <table>
   <col/>
@@ -365,49 +369,49 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-     <td>説明ルールの名前を入力またはマッピングします。</td>
+     <td>Enter or map a name for the description rule.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Status]</td>
-      <td>決定のステータスを選択します。
+      <td>Select the status for the decision.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">プレースメント</td>
-      <td>パーソナライズされたオファーの配置を選択します。
+      <td role="rowheader">Placement</td>
+      <td>Select the placement for the personalized offer.
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Start date]</td>
-      <td><p>パーソナライズされたオファーの開始日を入力またはマッピングします。</p><p>サポートされる日付形式のリストについては、<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での型強制を参照してください。</p>
+      <td><p>Enter or map the start date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL End date]</td>
-      <td><p>パーソナライズされたオファーの終了日を入力またはマッピングします。</p><p>サポートされる日付形式のリストについては、<a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での型強制を参照してください。</p>
+      <td><p>Enter or map the end date for the personalized offer.</p><p>For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Decision rules]</td>
-      <td>このパーソナライズされたオファーに追加する決定ルールを選択します。
+      <td>Select the decision rules to add to this personalized offer.
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Priority]</td>
-      <td>このオファーの優先度を選択します。優先度は、このオファーが別のオファーと比較して提示されるかどうかに影響します。
+      <td>Select the priority of this offer. Priority affects whether this offer will be presented rather than another offer.
       </td>
     </tr>
    <tr>
       <td role="rowheader">[!UICONTROL Capping constraint]</td>
-      <td>このオファーの表示回数を入力またはマッピングします。
+      <td>Enter or map the number of times this offer will be presented.
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL レコードを削除]
+#### [!UICONTROL Delete a record]
 
-このアクションモジュールは、[!DNL Adobe Journey Optimizer] 内のレコードを 1 つ削除します。
+This action module deletes a single record in [!DNL Adobe Journey Optimizer].
 
 <table>
   <col/>
@@ -415,14 +419,14 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>[!DNL Adobe Journey Optimizer] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >[!DNL Adobe Journey Optimizer]</a> への接続を作成を参照してください。</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record type]
       </td>
       <td>
-        削除するレコードのタイプを選択
+        Select the type of record that you want to delete
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL Decision rule]</li>
@@ -438,16 +442,16 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        削除するレコードを選択します。
+        Select the record that you want to delete.
       </td>
     </tr>
 
 </tbody>
 </table>
 
-#### [!UICONTROL カスタム API 呼び出しを実行]
+#### [!UICONTROL Make a custom API call]
 
-このモジュールは、[!DNL Adobe Journey Optimizer] API に対してカスタム API 呼び出しを実行します。
+This module makes a custom API call to the [!DNL Adobe Journey Optimizer] API
 
 <table>
   <col/>
@@ -455,55 +459,55 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>[!DNL Adobe Journey Optimizer] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >[!DNL Adobe Journey Optimizer]</a> への接続を作成を参照してください。</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>次で始まる {baseURL} に対する相対パスを入力<code>/</code></p>
+        <p>Enter a path relative to {baseURL} starting with<code>/</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
-        <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p>
-        <p>例： <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion は、認証ヘッダーと x-api-key ヘッダーを自動的に追加します。</p>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
-        <p>リクエストクエリ文字列を入力します。</p>
+        <p>Enter the request query string.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件ステートメントを JSON で使用する場合は、条件ステートメントの外側に引用符を挿入します。</p> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>モジュールが 1 回の実行サイクルで返す結果の最大数を入力します。</p>
+        <p>Enter the maximum number of results that you want the module to return in one execution cycle.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL レコードを削除]
+#### [!UICONTROL Delete a Record]
 
-このアクションモジュールは、[!DNL Adobe Journey Optimizer] 内のレコードを 1 つ削除します。
+This action module deletes a single record in [!DNL Adobe Journey Optimizer].
 
 <table>
   <col/>
@@ -511,14 +515,14 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>[!DNL Adobe Journey Optimizer] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >[!DNL Adobe Journey Optimizer]</a> への接続を作成を参照してください。</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record Type]
       </td>
       <td>
-        削除するレコードのタイプを選択
+        Select the type of record that you want to delete
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL Decision rule]</li>
@@ -534,16 +538,16 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        削除するレコードを選択します。
+        Select the record that you want to delete.
       </td>
     </tr>
 
 </tbody>
 </table>
 
-#### [!UICONTROL レコードを更新]
+#### [!UICONTROL Update a record]
 
-このアクションモジュールは、配置、決定、決定ルール、タグ、パーソナライズされたオファー、コレクションまたはフォールバックオファーを作成します。
+This action module creates a placement, decision, decision rule, tag, personalized offer, collection, or fallback offer.
 
 <table>
   <col/>
@@ -551,14 +555,14 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>[!DNL Adobe Journey Optimizer] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >[!DNL Adobe Journey Optimizer]</a> への接続を作成を参照してください。</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Record type]
       </td>
       <td>
-        更新するレコードのタイプを選択
+        Select the type of record that you want to update
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL Decision rule]</li>
@@ -574,19 +578,19 @@ Becky: pull from main, add to TOCs, then push to merge.
       <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
       </td>
       <td>
-        更新するレコードを選択します。
+        Select the record that you want to update.
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         [!UICONTROL Fields]
       </td>
-      <td>更新する各フィールドに対して、次の操作を実行します。
+      <td>For each field that you want to update:
       <ol>
-      <li>「<b>[!UICONTROL Add]</b>」をクリックします。</li>
-      <li>値の追加、置換、削除のどれを行うかを選択します。</li>
-      <li>更新するフィールドを入力します。</li>
-      <li>フィールドの新しい値を入力します。</li>
+      <li>Click <b>[!UICONTROL Add]</b>.</li>
+      <li>Select whether you want to add, replace, or remove values.</li>
+      <li>Enter the field that you want to update.</li>
+      <li>Enter the new value for the field.</li>
       </td>
     </tr>
 
@@ -594,11 +598,11 @@ Becky: pull from main, add to TOCs, then push to merge.
 </table>
 
 
-### 検索
+### Searches
 
-#### [!UICONTROL レコードをリスト]
+#### [!UICONTROL List records]
 
-この検索モジュールは、選択したタイプのレコードをリストし、指定した条件に基づいて結果を返します。
+This search module lists records of the selected type, returning results based on criteria you specify.
 
 <table>
   <col/>
@@ -606,14 +610,14 @@ Becky: pull from main, add to TOCs, then push to merge.
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>[!DNL Adobe Journey Optimizer] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >[!DNL Adobe Journey Optimizer]</a> への接続を作成を参照してください。</td>
+     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Record type]</p>
       </td>
       <td>
-        <p>リストに表示するレコードのタイプを選択します。</p>
+        <p>Select the type of record that you want to list.</p>
         <ul>
         <li>[!UICONTROL Placement]</li>
         <li>[!UICONTROL Decision rule]</li>
@@ -630,23 +634,25 @@ Becky: pull from main, add to TOCs, then push to merge.
         <p>[!UICONTROL Query operator]</p>
       </td>
       <td>
-        <p>クエリ内のパラメーターに適用する演算子を選択する</p>
+        <p>Select an operator to apply to parameters in the query</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Fields]</td>
-      <td><p>検索を特定のフィールドに限定する場合は、フィールドを入力します。検索範囲を制限する各フィールドに対して、「[!UICONTROL Add item]」をクリックし、フィールド名を入力します。</p><p>パス式は、<code>_instance.xdm:name</code> などのドットで区切られたパスの形式です。</p>
+      <td><p>If you want to limit the search to specific fields, enter the fields. For each field that you want to limit the search to, click [!UICONTROL Add item] and enter the name of the field.</p><p>Path expressions are in the form of dot separated paths such as <code>_instance.xdm:name</code>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Order by] </td>
-      <td>結果を並べ替えるプロパティを入力またはマッピングします。
+      <td>Enter or map the property by which you want to order results.
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Order direction]</td>
-   <td>昇順または降順のどちらで結果を並べ替えるかを選択します。
+   <td>Select whether you want to order results by ascending or descending direction.
     </td>
      </tr>
   </tbody>
 </table>
+
+-->
