@@ -9,7 +9,7 @@ description: Adobe Workfront Fusion HTTP モジュールで相互 TLS を使用�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: 355d060d67685a98bfc9e7c37073024f3a82c5c9
+source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%
@@ -94,7 +94,7 @@ HTTP リクエストを使用して web サービスに接続する場合、通�
 
 >[!IMPORTANT]
 >
->* これらの [!DNL Workfront Fusion] 公開証明書の有効期限は 2024年6月9日（PT）です。有効期限が切れたら、新しい証明書を web サービスにアップロードする必要があります。次の操作をお勧めします。
+>* これらの [!DNL Workfront Fusion] 公開証明書の有効期限は 2025年5月7日（PT）です。有効期限が切れたら、新しい証明書を web サービスにアップロードする必要があります。次の操作をお勧めします。
 >
 >   * 有効期限をメモしておき、自分で証明書を web サービスにアップロードするようにリマインダーを設定します。
 >   * 新しい証明書を簡単に見つけるには、このページをブックマークします。
