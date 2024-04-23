@@ -8,10 +8,10 @@ description: データストアは、データベースやシンプルなテー�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
+source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 98%
+source-wordcount: '1312'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 データストアモジュールの使用については、[[!UICONTROL データストア]モジュール](../../workfront-fusion/apps-and-their-modules/data-store-modules.md)を参照してください。
 
-Workfront Fusion のデータストアに関するビデオの紹介については、以下を参照してください。
+Workfront Fusion のデータストアに関するビデオについては、以下を参照してください。
 
 * [データストア](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
@@ -44,35 +44,56 @@ Workfront Fusion のデータストアに関するビデオの紹介について
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
+   <p>現在：いいえ [!DNL Workfront Fusion] ライセンス要件</p>
    <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>レガシー：任意 </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
+   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
+## 使用可能なデータ容量
+
+組織が新しいWorkfront プランモデル（Select、Prime および Ultimate パッケージ）を使用している場合、組織のプランは Fusion インスタンスで使用可能なデータストアのサイズと数に影響します。
+
+### 究極のプラン
+
+Ultimate パッケージ上の Fusion インスタンスは、次を受け取ります。
+
+* 500 MB の容量
+* 50 個のデータストア
+
+### プランとプライムプランを選択
+
+選択またはプライムパッケージの Fusion インスタンスは、次を受け取ります。
+
+* 最初の 500,000 件の処理には 100 MB。
+
+* 10 万回の追加操作ごとに 10 MB。
+
+例えば、600,000 件の操作を行う組織は 110 MB を受け取ります。
 
 ## [!DNL Workfront Fusion] でのデータストアの作成
 
