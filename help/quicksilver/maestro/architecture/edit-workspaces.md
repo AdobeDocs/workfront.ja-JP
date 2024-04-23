@@ -1,28 +1,30 @@
 ---
-title: ワークスペースを編集
-description: 既存のワークスペースの情報は、名前の変更などに編集できます。
+title: ワークスペースの編集
+description: 名前の変更など、既存のワークスペースの情報を編集できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 9%
+source-wordcount: '561'
+ht-degree: 14%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# ワークスペースを編集
+# ワークスペースの編集
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning では、ワークスペースは、チームが作業を計画するための一元化された場所です。
+Adobe Workfront Planning では、ワークスペースは、チームが作業を計画するための一元的な場所です。
 
-ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 ワークスペースは、Adobe Workfront Planning で完全にカスタマイズできます。
+ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
-ワークスペースの作成について詳しくは、 [ワークスペースの作成](/help/quicksilver/maestro/architecture/create-workspaces.md).
+ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/maestro/architecture/create-workspaces.md)を参照してください。
+
+ワークスペースに加えたすべての変更は、そのワークスペースに対して少なくとも表示権限を持つすべてのユーザーに表示されます。
 
 ## アクセス要件
 
@@ -41,9 +43,9 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront協定</p></td>
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Adobe Workfront Planning クローズドベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +64,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning には、アクセスレベルの制御はありません</p>
+   <td> <p>Workfront Planning には、アクセス レベルの制御はありません</p>
 </td>
   </tr>
 
@@ -74,36 +76,68 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>「計画」領域をレイアウトテンプレートに追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>計画エリアをレイアウトテンプレートに追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
 ## ワークスペースの編集
 
 {{step1-to-maestro}}
 
-Workfront Planning の「ワークスペース」領域が開きます。
+これにより、Workfront Planning の「ワークスペース」領域が開きます。
 
-1. 新しいワークスペースのヘッダーにあるワークスペース名の中をクリックして名前を変更し、「 」を押します。 **入力**
+1. 新しいワークスペースのヘッダーでワークスペースの名前内をクリックして名前を変更し、を押します **Enter**.
+1. 「」をクリックします **詳細** メニュー ![](assets/more-menu.png)ヘッダーのワークスペース名の右側にある「」をクリックします。 **編集**.
 
-   または
+   ![](assets/edit-workspace-box.png)
 
-   次をクリック： **その他** メニュー ![](assets/more-menu.png)をクリックし、 **名前を変更**.
+   次の情報を更新： **ワークスペースを編集** ボックス：
 
-1. （オプション）「 **レコードタイプを追加** をクリックして、レコードタイプをワークスペースに追加します。
+   * ワークスペースの名前を追加します。 <!--did they add a label for this field?-->
+   * **説明**：ワークスペースに関する情報を追加します。
+   * ワークスペースに関連付けるアイコンを選択します。
 
-   詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
+1. クリック **保存** をクリックして「ワークスペースを編集」ボックスを閉じ、変更を適用します。
 
-1. （オプション）ビュータブでビューの名前をクリックして既存のビューを編集するか、 **+表示** をクリックして、ビューを作成します。
+1. （オプション）新しいワークスペースセクションを追加するには、次のいずれかの操作を行います。
 
-   詳しくは、 [レコードビューの管理](/help/quicksilver/maestro/views/manage-record-views.md).
+   * クリック **セクションを追加** ワークスペースの下部
+   * セクション名の上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **セクションを上に追加** または **セクションを下に追加**.
 
-1. （オプション）「 **共有** ワークスペースを他のユーザーと共有する場合。
+1. （オプション）セクションの場所を変更するには、次のいずれかの操作を行います。
 
-   詳しくは、 [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md).
+   * セクション名の上にマウスポインターを置き、 **グラブ** アイコン ![](assets/grab-icon.png)次に、適切な場所にドラッグ&amp;ドロップします。
+   * セクション名の上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **上に移動** または **下に移動**. セクションは、ワークスペース内を上下に移動します。
+
+1. （オプション）ワークスペースセクションを削除するには、次の手順を実行します。
+
+   1. セクション名の上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **削除**. <!--add screen shot when UI is final?-->
+   1. すべてのレコードタイプを移動する新しいセクションを選択し、をクリックします **削除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      すべてのレコードタイプが選択セクションに移動され、セクションが削除されます。
+
+1. （任意）クリック **レコードタイプを追加** ワークスペースにレコードタイプを追加します。
+
+   詳しくは、[リクエストタイプの作成](../architecture/create-record-types.md)を参照してください。
+
+1. （任意）レコードタイプのカードの上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png) 右上隅のをクリックします。 **編集** レコードタイプの外観を変更する
+
+   詳しくは、を参照してください [レコードタイプを編集](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+1. （任意）レコードタイプのカードの上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png) 右上隅のをクリックします。 **削除** をクリックしてレコードタイプを削除します。
+
+   詳しくは、を参照してください [レコードタイプを削除](/help/quicksilver/maestro/architecture/delete-record-types.md).
+
+1. （オプション）ビュータブでビューの名前をクリックして既存のビューを編集するか、をクリックします **+表示** でビューを作成します。
+
+   詳しくは、を参照してください [レコードビューの管理](/help/quicksilver/maestro/views/manage-record-views.md).
+
+1. （任意）クリック **共有** をクリックし、他のユーザーとワークスペースを共有します。
+
+   詳しくは、を参照してください [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md).

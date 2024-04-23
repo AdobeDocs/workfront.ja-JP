@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
-ht-degree: 55%
+source-wordcount: '5636'
+ht-degree: 54%
 
 ---
 
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## 2024年4月22日（PT）の週
+
+### ワークスペースまたはレコードタイプを編集する際のワークフローを更新しました
+
+実稼動：2024 年 4 月 23 日（PT）
+
+プレビュー：未決定
+
+「ワークスペースを編集」ボックスと「レコードタイプを編集」ボックスのルックアンドフィールが更新されました。
+
+ワークスペースまたはレコードタイプを編集する際に、名前や説明を定義したり、それらにカラーやアイコンを割り当てたりできるようになりました。
+
+詳しくは、次の記事を参照してください。
+
+* [ワークスペースを編集](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [レコードタイプを編集](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## 2024年4月8日（PT）の週
 
@@ -373,7 +391,7 @@ Excel または CSV ファイルを使用したレコードタイプの読み込
 
 各レコードに個々のサムネールを追加して、ビュー内で区別できるようにしました。テーブルビューでは、コンピューターに保存済みの画像ファイルをサムネールとして追加できます。サムネールは各レコードに固有で、レコードタイプページのテーブルビューとタイムラインビューの両方に表示できます。
 
-詳しくは、[レコードへのサムネールの追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)を参照してください。
+詳しくは、を参照してください [レコードへのサムネールの追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 ### 接続済みレコードタイプカードの削除
 

@@ -1,26 +1,26 @@
 ---
-title: ワークスペースの作成
-description: ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 ワークスペースは、Adobe Workfront Planning で完全にカスタマイズできます。 レコードタイプは、ワークスペース内のセクション別に整理されます。
+title: ワークスペースを作成
+description: ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。 レコードタイプは、ワークスペースのセクション別に整理されます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 3%
+source-wordcount: '649'
+ht-degree: 12%
 
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# ワークスペースの作成
+# ワークスペースを作成
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning では、ワークスペースは、チームが作業を計画するための一元化された場所です。
+Adobe Workfront Planning では、ワークスペースは、チームが作業を計画するための一元的な場所です。
 
-ワークスペースは、チームが使用するレコードの種類の集まりで、チームの作業ライフサイクルを表します。 ワークスペースは、Adobe Workfront Planning で完全にカスタマイズできます。
+ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
 ## アクセス要件
 
@@ -39,9 +39,9 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront協定</p></td>
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Workfornt Planning クローズ済みベータプログラムにAdobeする必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>AdobeWorkfront のクローズ済ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Adobe Workfront Planning には、アクセスレベルの制御はありません</p>
+   <td> <p>Adobe Workfront Planning には、アクセス レベルの制御はありません</p>
 </td>
   </tr>
 
@@ -73,14 +73,14 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>「計画」領域をレイアウトテンプレートに追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>計画エリアをレイアウトテンプレートに追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -93,85 +93,74 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## ワークスペースに関する考慮事項
+## ワークスペースについての考慮事項
 
-* 各単位の固有の動作方法に合わせて、組織内の特定の組織単位のワークスペースを作成できます。
+* 組織内の特定の組織単位に対して、各単位の一意の動作方法に一致するワークスペースを作成できます。
 * ワークスペースに含まれるレコードタイプは、組織単位の作業ライフサイクルを反映する必要があります。
-* ワークスペースを作成する場合、自分だけがワークスペースにアクセスし、管理する権限を持っています。 他のユーザーと同じスペースで共同作業を行うには、ユーザーと共有する必要があります。 詳しくは、 [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md). システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースを管理できます。
-* 次のことができます。
+* ワークスペースを作成した場合、ワークスペースにアクセスして管理する権限を持っているのはユーザーのみです。 同じスペースで他のユーザーと共同作業するには、そのユーザーと共有する必要があります。 詳しくは、を参照してください [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md). システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースを管理できます。
+* 以下を設定できます。
 
-   * 1 つのワークスペースで最大 50 個のセクション。
-   * 1 つのワークスペース内のすべてのセクションから最大 1,000 個のレコードタイプを取得できます。 すべてのレコードタイプは、各ワークスペースに固有です。 <!--this might change-->
-   * 組織のWorkfrontインスタンス内のワークスペースの数は最大 1,000 個です。
+   * 1 つのワークスペースに最大 50 個のセクションを含めることができます。
+   * 1 つのワークスペース内のすべてのセクションから合計で最大 1,000 個のレコードタイプ。 すべてのレコードタイプは、各ワークスペースに固有です。 <!--this might change-->
+   * 組織のWorkfront インスタンス内の最大 1,000 個のワークスペース。
 
 
 ## ワークスペースの作成
 
+ワークスペースを作成し、それにレコードタイプを追加して、Workfront Planning でオブジェクトを整理できます。 ワークスペースの編集の詳細については、を参照してください。 [ワークスペースを編集](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
 
-1. （条件付き）環境にワークスペースがない場合、 **ワークスペースを作成**
+これにより、Workfront Planning の「ワークスペース」領域が開きます。
 
-   または、既存のワークスペースから、ワークスペース名の右側を下向きでクリックし、 **ワークスペースを作成**.
+1. （条件付き）環境内にワークスペースがない場合は、 **ワークスペースを作成**
+
+   または、既存のワークスペースから、ワークスペース名の右側にある下向き矢印をクリックし、 **ワークスペースを作成**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Workfront Planning の「ワークスペース」領域が開きます。
-1. （オプションおよび条件付き）「 **プレビュー** 次の事前定義済みの workspace テンプレートのいずれかに含まれます。
+
+1. （オプションおよび条件付き）クリック **プレビュー** 次の事前定義済みのワークスペーステンプレート内：
 
    * マーケティング管理
-   * セールス管理
+   * 営業管理
    * 製品管理
 
-   オペレーショナル・レコードのタイプ、分類、および各テンプレートに関連付けられているフィールドの数を示します。
+   どの運用中のレコードタイプ、分類、および各テンプレートに関連付けられているフィールド数が示されます。
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Workfront Planning Workspace テンプレートについて詳しくは、 [Workspace テンプレートのリスト](../architecture/workspace-templates.md).
+   Workfront Planning Workspace のテンプレートについては、を参照してください。 [ワークスペーステンプレートのリスト](../architecture/workspace-templates.md).
 
-1. クリック **テンプレートを使用** 選択したテンプレートからワークスペースの作成を開始するには
-
-   または
-
-   クリック **ワークスペースを作成** をクリックして、ワークスペースをゼロから作成します。
-
-   次のタイプのワークスペース用の 1 つが作成されます。
-
-   * 空のワークスペース。ゼロからワークスペースを作成する際に、レコードタイプの手動で追加を開始できます。
-   * サンプルレコードタイプが設定されたワークスペース。テンプレートの 1 つを使用する際に、さらにカスタマイズできます。
-
-1. 新しいワークスペースのヘッダーにあるワークスペース名の中をクリックして名前を変更し、Enter キーを押します。
+1. クリック **テンプレートを使用** 選択したテンプレートからのワークスペースの作成を開始するには
 
    または
 
-   次をクリック： **その他** メニュー ![](assets/more-menu.png)をクリックし、 **名前を変更**.
+   クリック **ワークスペースを作成** ワークスペースを最初から作成する。
 
-1. （オプションおよび条件付き）ワークスペースをテンプレートから作成した場合、 **オペレーショナルレコードのタイプ** または **分類** セクション
+   次のタイプのワークスペースが 1 つ作成されます。
+
+   * という空のワークスペース **無題のワークスペース** ワークスペースを最初から作成する際に、レコードタイプの手動での追加を開始できます。
+   * サンプルレコードタイプが入力される、選択したテンプレートにちなんで名前が付けられたワークスペース。 レコードタイプとワークスペースをさらにカスタマイズできます。
+
+1. 新しいワークスペースのヘッダーでワークスペースの名前の内側をクリックして名前を変更し、Enter キーを押します。
+
+1. （オプションおよび条件付き）ワークスペースをテンプレートから作成した場合は、の名前内をクリックします **運用中のレコードタイプ** または **分類** セクション
 
    または
 
-   セクションの名前にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **名前を変更** をクリックして、セクションの名前を変更します。
+   セクションの名前にポインタを合わせ、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **名前を変更** セクションの名前を変更します。
 
    >[!TIP]
    >
-   >セクションを作成した場合でも、任意のワークスペースから任意のセクションの名前を変更できます。
+   >セクションを作成していない場合でも、任意のワークスペースから任意のセクションの名前を変更できます。
 
-1. （オプション）セクションの場所を変更するには、次のいずれかの操作を行います。
+   ワークスペース セクションの編集など、ワークスペースの編集の詳細については、を参照してください。 [ワークスペースを編集](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   * セクション名の上にマウスポインターを置いて、 **つかむ** アイコン ![](assets/grab-icon.png)をクリックし、右側のスポットにドラッグ&amp;ドロップします。
-   * セクション名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **上に移動** または **下に移動**. セクションは、ワークスペース内で上下に移動します。
+1. （任意）クリック **レコードタイプを追加** をクリックして、任意のセクションのワークスペースにレコードタイプを追加します。
 
-1. （オプション）新しいセクションを追加するには、次のいずれかの操作を行います。
+   詳しくは、[リクエストタイプの作成](../architecture/create-record-types.md)を参照してください。
 
-   * クリック **セクションを追加** ワークスペースの下部に表示されます。
-   * セクション名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **上にセクションを追加** または **下にセクションを追加**.
+   ワークスペースでのレコードタイプの編集および削除について詳しくは、を参照してください。 [ワークスペースを編集](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-1. （オプション）「 **レコードタイプを追加** をクリックして、任意のセクションのワークスペースにレコードタイプを追加します。
 
-   詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
-
-1. （オプション）セクションを削除するには、次の手順を実行します。
-
-   1. セクション名の上にマウスポインターを置いて、 **その他** メニュー ![](assets/more-menu.png)を選択し、次に **削除**. <!--add screen shot when UI is final?-->
-   1. 新しいセクションを選択して、すべてのレコードの種類を移動し、 **削除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
-
-      すべてのレコードタイプが選択セクションに移動し、セクションが削除されます。

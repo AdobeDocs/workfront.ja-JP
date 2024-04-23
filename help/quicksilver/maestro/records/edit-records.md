@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 63%
+source-wordcount: '1495'
+ht-degree: 60%
 
 ---
 
@@ -103,6 +103,7 @@ ht-degree: 63%
 * 表示しているレコードが他のレコードにリンクされている場合、編集中のレコードの新しい情報がリンクされたレコードに反映されます。
 * レコードを一括で編集することはできません。<!--this will probably change-->
 * URL は、http://、https://、ftp://、www のいずれかで始まる場合にのみ、1 行テキストフィールドタイプのリンクとして認識されます。
+* 各レコードにカバー画像を追加できます。 画像はレコードごとに一意であり、同じ時間のすべてのレコードには適用されません。
 * レコードページのフィールドの順序を編集し、レコードの表紙画像を追加できます。 詳しくは、を参照してください [レコードページの管理](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## レコードの編集
@@ -130,7 +131,7 @@ ht-degree: 63%
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  次のフィールドは読み取り専用で、Workfront によって自動的に更新されるので、情報を編集できません。
    >  
@@ -209,7 +210,18 @@ ht-degree: 63%
    >
    >を表示できます **詳細を開く** テーブル ビューで、[ 名前 ] フィールドがプライマリ フィールドの場合のみ、[ 名前 ] フィールドの左側にあるアイコンです。
 
-1. レコードのボックスのフィールド情報の編集を開始します。 Workfrontによって変更内容が自動保存されます。
+1. レコードのボックスのフィールド情報の編集を開始します。
+
+   >[!TIP]
+   >
+   >  次のフィールドは読み取り専用で、Workfront によって自動的に更新されるので、情報を編集できません。
+   >  
+   >  * レコードタイプを接続して作成されるリンクフィールド。詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。
+   >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド
+
+1. （任意）クリック **カバーを追加** レコードにカバー画像を追加する。 詳しくは、を参照してください [レコードへのカバー画像の追加](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfrontによって変更内容が自動保存されます。
 
 1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコードのページを新しいタブで開くには、レコードのボックスの右上隅にあります。 の説明に従って、レコードの編集を続けます [レコードのページからのレコードの編集](#edit-a-record-from-the-records-page) この記事のセクションです。
 
@@ -227,7 +239,7 @@ ht-degree: 63%
 
 1. 次のいずれかの操作を行います。
 
-   * の説明に従って、どのビューからでもレコードのボックスにアクセスします [ビューのレコード ボックスからレコードを編集する](#edit-a-record-from-the-records-box-in-a-view) この記事のセクションです。 次に、 **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコード ボックスの右上隅で、レコードのページを新しいタブで開きます。
+   * の説明に従って、どのビューからでもレコードのボックスにアクセスします [ビューのレコード ボックスからレコードを編集する](#edit-a-record-from-the-records-box-in-a-view) この記事のセクションで、 **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコード ボックスの右上隅で、レコードのページを新しいタブで開きます。
 
    * **テーブル**&#x200B;ビューで、レコードの名前にポインタを合わせ、**詳細**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、更に「**表示**」をクリックします。
 
@@ -237,12 +249,16 @@ ht-degree: 63%
 
      ![](assets/details-page.png)
 
-1. プロジェクト名の右側にある&#x200B;**詳細**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、続いて「**編集**」をクリックします。
+1. レコードページの編集可能なフィールドをクリックして編集します。
 
-   または
+   >[!TIP]
+   >
+   >  次のフィールドは読み取り専用で、Workfront によって自動的に更新されるので、情報を編集できません。
+   >  
+   >  * レコードタイプを接続して作成されるリンクフィールド。詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。
+   >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド
 
-   レコードページの編集可能なフィールド内をクリックして、情報を編集します。
+1. （任意）クリック **カバーを追加** レコードにカバー画像を追加する。 詳しくは、を参照してください [レコードへのカバー画像の追加](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfrontによって変更内容が自動保存されます。
 
-1. 「**変更を保存**」をクリックします。

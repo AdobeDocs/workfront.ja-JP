@@ -1,14 +1,14 @@
 ---
-title: "レコード：記事インデックス"
-description: Adobe Workfront Planning でレコードタイプを作成した後、それらのタイプの個々のレコードを作成できます。 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
+title: 「レコード：記事インデックス」
+description: Adobe Workfront Planning でレコード・タイプを作成した後、これらのタイプの個々のレコードを作成できます。 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '109'
+ht-degree: 14%
 
 ---
 
@@ -28,16 +28,17 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning でレコードタイプを作成した後、それらのタイプの個々のレコードを作成できます。
+Adobe Workfront Planning でレコード・タイプを作成した後、これらのタイプの個々のレコードを作成できます。
 
 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
 
-* [レコードを作成](/help/quicksilver/maestro/records/create-records.md)
-* [レコードを編集](/help/quicksilver/maestro/records/edit-records.md)
-* [レコードを削除](/help/quicksilver/maestro/records/delete-records.md)
+* [レコードの作成](/help/quicksilver/maestro/records/create-records.md)
+* [レコードの編集](/help/quicksilver/maestro/records/edit-records.md)
+* [レコードの削除](/help/quicksilver/maestro/records/delete-records.md)
 * [レコードの共有](/help/quicksilver/maestro/records/share-records.md)
 * [レコードを接続](/help/quicksilver/maestro/records/connect-records.md)
-* [レコードコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [レコードのコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md)
-* [レコードにサムネールを追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
-* [レコードページを管理](/help/quicksilver/maestro/records/manage-the-record-page.md)
+* [レコードへのサムネールの追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [レコードへのカバー画像の追加](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
+* [レコードページの管理](/help/quicksilver/maestro/records/manage-the-record-page.md)

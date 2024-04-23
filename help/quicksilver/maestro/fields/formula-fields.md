@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 31%
+source-wordcount: '442'
+ht-degree: 29%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Workfront Planning では、既存のフィールドを参照し、式で�
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-詳しくは、[フィールドの作成](../fields/create-fields.md)を参照してください。
+詳しくは、記事の「式」の節を参照してください [フィールドの作成](../fields/create-fields.md).
 
 ## アクセス要件
 
