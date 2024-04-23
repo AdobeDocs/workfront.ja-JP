@@ -7,10 +7,10 @@ description: オプションで、タスクとイシューが Workfront に追�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 89%
+source-wordcount: '1048'
+ht-degree: 85%
 
 ---
 
@@ -33,6 +33,10 @@ ht-degree: 89%
 
 * プライマリの順序：プロジェクト名
 * セカンダリの順序：参照番号
+
+>[!IMPORTANT]
+>
+>複数のユーザーがボードで同時に作業している場合は、ボードを頻繁に更新することをお勧めします。 ページを更新すると、ボード上の視覚的な変更を最新の状態に保つことができ、重複カードが取り込み列からボードに移動されるなどの問題を防ぐことができます。
 
 列について詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。接続されたカードについて詳しくは、[ボードで接続済みカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
@@ -114,13 +118,13 @@ ht-degree: 89%
 
    ![フィルタービルダー](assets/intake-filter-dialog6.png)
 
-   次の例は、特定のプロジェクトのタスクのフィルターを示しています。このフィルターは、「 [!UICONTROL 新規] または [!UICONTROL 処理中].
+   次の例では、特定のプロジェクトのタスクのうち、 [!UICONTROL 新規] または [!UICONTROL 処理中].
 
    >[!NOTE]
    >
-   >ボードフィルターでは、「Me」（ログインユーザー）ワイルドカードを使用しないことをお勧めします。これは、常にログインユーザーのタスクや問題を表示する保証がないからです。 適切なタスクと問題を含むボードを設定した後、ボードをフィルタリングして、特定の担当者の項目を表示できます。 詳しくは、[フィルタリングおよびボード内で検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
+   >ボードフィルターでは「Me」（ログインしたユーザー）ワイルドカードを使用しないことをお勧めします。ログインしたユーザーに対してタスクや問題が常に表示されるとは限らないからです。 ボードに正しいタスクと問題が設定されたら、ボードをフィルタリングして、特定の担当者の項目を表示できます。 詳しくは、[フィルタリングおよびボード内で検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
-   フィルターの作成の詳細については、この記事の「標準ビルダーでのフィルターの作成または編集」の節を参照してください [でフィルターを作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   フィルターの作成について詳しくは、記事の「標準ビルダーでのフィルターの作成または編集」を参照してください [でのフィルターの作成または編集 [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. フィルターに名前を付け、「**[!UICONTROL 保存]**」をクリックします。
 

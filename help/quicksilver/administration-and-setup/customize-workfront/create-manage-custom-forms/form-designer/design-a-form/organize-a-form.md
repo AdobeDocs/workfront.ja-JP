@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 94%
+source-wordcount: '1220'
+ht-degree: 88%
 
 ---
 
 # フォームデザイナーを使用したフォームの整理とプレビュー
 
-カスタムフォームをフォームデザイナーと共に整理し、正しく設定されていることを確認するために、カスタムフォームをプレビューすることができます。
+フォームデザイナーでカスタムフォームを整理し、プレビューして、正しく設定されていることを確認できます。
 
 ## アクセス要件
 
@@ -88,7 +88,7 @@ ht-degree: 94%
       <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。 
        <p>次の権限は、「<b>オブジェクトに対してこのアクセス権を持つユーザーは、次のフィールド値を表示できます :</b>」で利用できます。</p> 
          <ul>
-          <li><strong>表示</strong>：オブジェクトに対する権限の表示</li>
+          <li><strong>表示</strong>: オブジェクトに対する権限の表示</li>
           <li><p><b>制限付き編集</b>：（オブジェクトがプロジェクト、タスク、イシュー、またはユーザーの場合にのみ使用できます）。</p> 
           <p>プロジェクト、タスク、またはイシューの場合、ユーザーがオブジェクトに投稿できるようにします。</p>
           <p>ユーザーがプロファイルを編集したり、オブジェクト（ユーザーの場合）に対するプロファイル権限を所有したりできます。</p></li> 
@@ -110,6 +110,10 @@ ht-degree: 94%
        <li> <p>ここで指定した権限を持たないユーザーは、セクションのカスタムフィールドとウィジェットを表示できません。 </p> <p>これは、フィールドの値をレポートに表示する場合や、テキストモードのレポートの計算フィールドで使用する場合にも当てはまります。</p> </li> 
        <li> <p>複数のオブジェクトタイプをフォームに関連付けると、これらの手順で使用できる表示および編集権限が変更される場合があります。詳しくは、<a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">複数のオブジェクトタイプが、カスタムフォームのセクション区切り権限に与える影響</a>を参照してください。</p> </li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><p>ロジックを追加</p></td> 
+      <td><p>表示ロジックを使用して、フォームの入力時に複数選択のカスタムフィールドでユーザーが行った選択に基づいて、フォームにセクションを表示するかどうかを指定します。</p><p><strong>注意：</strong> セクション区切りの下の個々のフィールドのすべてに表示ロジックが適用されており、それらがすべてロジックの結果として非表示になっている場合、セクション全体がカスタムフォームで非表示になります。 この問題は、表示ロジックがセクション区切りに適用されていない場合でも発生します。</p><p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">フォームデザイナーを使用した表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -170,4 +174,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の説明に従って、カスタムフォームの作成または編集を開始し、フィールドを追加します。
 
-1. クリック **プレビュー** フォームが使用されたときにどのように表示されるかを確認するには、右上隅で **プレビューを終了** をクリックして、フォームの編集に戻ります。
+1. クリック **プレビュー** 右上隅のをクリックして、使用時のフォームの表示を確認し、 **プレビューを終了** に戻ってフォームの編集に戻ります。

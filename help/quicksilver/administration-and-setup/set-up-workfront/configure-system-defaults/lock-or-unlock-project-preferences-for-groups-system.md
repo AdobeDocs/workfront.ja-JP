@@ -4,14 +4,14 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: システム内のすべてのグループに対するプロジェクト環境設定をロックまたはロック解除
 description: 組織内の各グループでは、一意のワークフローに合わせて、それぞれのプロジェクト環境設定が必要になる場合があります。組織全体のすべてのグループの環境設定をロック解除すると、各グループで独自に設定できるようになります。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 94%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ユーザーは [!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：アクセスできない場合は、[!DNL Workfront] 管理者にアクセスレベルに追加の制限が設定されていないかお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,11 +50,13 @@ ht-degree: 100%
 
 反対に、プロジェクト、タスク、またはイシューの環境設定をロック解除すると、グループ管理者は、それらの項目を使用してグループがどのように機能するかを柔軟に管理できます。プリファレンスをロック解除すると、グループ管理者はそのプリファレンスをグループ用に再設定できます。
 
+フィールドにロック/ロック解除の切り替えスイッチがない場合、グループ管理者がグループレベルで設定を指定するためにロックを解除することはできません。 設定は、システムレベルでのみ使用できます。
+
 システムレベルのプロジェクト、タスク、またはイシューの環境設定をロックまたはロック解除する手順については、[システム全体のタスクとイシューの環境設定を行う](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 >[!NOTE]
 >
->[!DNL Workfront] 管理者がシステムレベルで環境設定のロックを解除した後、グループ管理者なら誰でもその設定を行い、自身のグループおよび下位のサブグループのメンバー全員が同じ設定を使用するようにロックできます。これは、[!DNL Workfront] 管理者がシステム内のすべてのユーザーの環境設定を指定してロックする必要がある機能と同じです。詳しくは、[グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)および[サブグループのプロジェクト、タスクまたはイシューの環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)を参照してください。
+>[!DNL Workfront] 管理者がシステムレベルで環境設定のロックを解除した後、グループ管理者なら誰でもその設定を行い、自身のグループおよび下位のサブグループのメンバー全員が同じ設定を使用するようにロックできます。これは、[!DNL Workfront] 管理者がシステム内のすべてのユーザーに対して環境設定を指定およびロックする操作と同じです。詳しくは、[グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)および[サブグループのプロジェクト、タスクまたはイシューの環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)を参照してください。
 
 ## プロジェクトの環境設定をロック解除して、グループで設定できるようにする
 
@@ -64,7 +66,7 @@ ht-degree: 100%
 
 1. 次のいずれかの操作を行います。
 
-   * グループ管理者がグループの環境設定を指定できるようにするには、グループのロックを解除します ![](assets/unlock-toggle-button.png)。
+   * グループ管理者がグループの環境設定を指定できるようにするには、環境設定のロックを解除します![](assets/unlock-toggle-button.png)。
    * すべてのグループで環境設定を使用する場合は、環境設定がロックされていることを確認します（これがデフォルトの設定です）。
 
      >[!IMPORTANT]
