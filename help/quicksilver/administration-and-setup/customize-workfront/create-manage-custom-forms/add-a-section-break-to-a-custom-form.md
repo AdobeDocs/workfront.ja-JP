@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 87%
@@ -223,3 +223,4 @@ You can click
 >ポートフォリオオブジェクトタイプをフォームに追加すると、フォーム内のセクション区切りに対して「制限付き編集」権限オプションを使用できなくなります。
 >
 >画面上のメッセージで、編集権限に切り替えるように指示が表示されます。この権限は、プロジェクトオブジェクトタイプとポートフォリオオブジェクトタイプの両方に対応する、制限付き編集に最も類似する権限です。
+
