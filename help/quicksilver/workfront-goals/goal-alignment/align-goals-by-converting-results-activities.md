@@ -6,9 +6,9 @@ description: 2 つの目標を手動で連携させたり、既存の目標の�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '652'
 ht-degree: 86%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 86%
 
 開始するには、まず以下が必要です。
 
-* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 * 既存の結果とアクティビティを含む既存の目標。
 
   目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。

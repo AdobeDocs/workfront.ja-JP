@@ -6,10 +6,10 @@ description: 個人的な目標を持つ個人コントリビューターの場�
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 89%
+source-wordcount: '775'
+ht-degree: 88%
 
 ---
 
@@ -90,12 +90,6 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-## 前提条件
-
-開始するには、まず以下が必要です。
-
-* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 
 ## 目標を相互に関連付けて整合させる方法
 

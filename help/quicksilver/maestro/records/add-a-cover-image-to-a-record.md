@@ -1,15 +1,17 @@
 ---
 title: レコードへのカバー画像の追加
-description: Adobe Workfront計画でレコード情報を編集し、各レコードを表紙画像に関連付けて、レコードのページをパーソナライズできます。
+description: レコードの編集時に、Adobe Workfront Planning のレコード・ページに表紙を追加することで、レコードをパーソナライズできます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 20%
+source-wordcount: '563'
+ht-degree: 22%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 20%
 
 {{maestro-important-intro}}
 
-Adobe Workfront計画でレコード情報を編集し、各レコードを表紙画像に関連付けて、レコードのページをパーソナライズできます。
+レコードの編集時に、Adobe Workfront Planning のレコード・ページに表紙を追加することで、レコードをパーソナライズできます。
 
-レコードの作成と編集を開始するには、レコードタイプを作成する必要があります。
+レコードの編集方法については、を参照してください [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+
+レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
+
 詳しくは、[リクエストタイプの作成](../architecture/create-record-types.md)を参照してください。
 
 ## アクセス要件
@@ -81,14 +86,15 @@ Adobe Workfront計画でレコード情報を編集し、各レコードを表�
 
 ## レコードページの表紙画像に関する考慮事項
 
-表紙画像を追加して、レコードのページをパーソナライズできます。 画像は各レコードに固有で、同じタイプのすべてのレコードには適用されません。
+表紙画像を追加して、レコードのページをパーソナライズできます。
 
 次の点に注意してください。
 
+* カバー画像は、1 つのレコードに固有で、同じタイプのすべてのレコードには適用されません。
 * カバー画像として追加できるのは画像ファイルのみです。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * カバー画像は、任意のビューのレコード ボックスまたはレコード ページから個々のレコードに追加できます。
-* テーブル表示からカバー画像をインラインで追加することはできません。
+* どのレコードビューからもカバー画像をインラインで追加することはできません。
 
 ## レコードへのカバー画像の追加
 
