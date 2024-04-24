@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
+source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 6%
 
   衝突が検出されない場合でも、上書きするオブジェクトを選択することもできます。
 
-  上書きが親オブジェクトと子オブジェクトに与える影響については、を参照してください。
+  上書きが親オブジェクトと子オブジェクトに与える影響について詳しくは、を参照してください。 [親オブジェクトと子オブジェクトの上書き](#overwriting-parent-and-child-objects) この記事の内容です。
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
