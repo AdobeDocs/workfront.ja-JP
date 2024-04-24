@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 88%
+source-wordcount: '1285'
+ht-degree: 84%
 
 ---
 
@@ -108,6 +108,7 @@ ht-degree: 88%
        <p><b>メモ</b>：  
        <ul> 
        <li> <p>ここで指定した権限を持たないユーザーは、セクションのカスタムフィールドとウィジェットを表示できません。 </p> <p>これは、フィールドの値をレポートに表示する場合や、テキストモードのレポートの計算フィールドで使用する場合にも当てはまります。</p> </li> 
+       <li><p>リクエスト/発行のカスタムフォームの場合：セクション区切りのフィールドを表示するために表示アクセスが必要でも、フィールドを編集するために管理者アクセスが必要な場合、フォームを入力する際、セクションとそのすべてのフィールドは管理者以外のユーザーには表示されません。 リクエストが作成されると、表示アクセス権を持つユーザーは、セクションのフィールドを表示できます。</p></li>
        <li> <p>複数のオブジェクトタイプをフォームに関連付けると、これらの手順で使用できる表示および編集権限が変更される場合があります。詳しくは、<a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">複数のオブジェクトタイプが、カスタムフォームのセクション区切り権限に与える影響</a>を参照してください。</p> </li> 
         </ul> </p> </td> 
      </tr> 

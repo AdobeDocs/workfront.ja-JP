@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 56e1ceac4f37d9789f4a3a37ee0e6a7774133bfb
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 91%
+source-wordcount: '1238'
+ht-degree: 87%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## カスタムフォームのセクションにアクセス権を作成および設定する
 
@@ -87,14 +87,14 @@ ht-degree: 91%
      </tr> 
      <tr> 
       <td role="rowheader"><p>ロジックを追加</p></td> 
-      <td><p>表示ロジックを使用して、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定します。</p><p><strong>注意：</strong> セクション区切りの下の個々のフィールドに適用された表示ロジックがすべて適用され、ロジックの結果としてすべて非表示になった場合、セクション全体がカスタムフォームで非表示になります。 これは、表示ロジックが断面分割に適用されていない場合でも発生します。</p><p>詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">カスタムフォームへの表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
+      <td><p>表示ロジックを使用して、フォームの入力時に複数選択のカスタムフィールドでユーザーが行った選択に基づいて、フォームにセクションを表示するかどうかを指定します。</p><p><strong>注意：</strong> セクション区切りの下の個々のフィールドのすべてに表示ロジックが適用されており、それらがすべてロジックの結果として非表示になっている場合、セクション全体がカスタムフォームで非表示になります。 この問題は、表示ロジックがセクション区切りに適用されていない場合でも発生します。</p><p>詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">カスタムフォームへの表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>アクセスを許可</p> </td> 
       <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。
        <p>次の権限は、「<b>オブジェクトに対してこのアクセス権を持つユーザーは、次のフィールド値を表示できます :</b>」で利用できます。</p> 
          <ul>
-          <li><strong>表示</strong>：オブジェクトに対する権限の表示</li>
+          <li><strong>表示</strong>: オブジェクトに対する権限の表示</li>
           <li><p><b>制限付き編集</b>：（オブジェクトがプロジェクト、タスク、イシュー、またはユーザーの場合にのみ使用できます）。</p> 
           <p>プロジェクト、タスク、またはイシューの場合、ユーザーがオブジェクトに投稿できるようにします。</p>
           <p>ユーザーがプロファイルを編集したり、オブジェクト（ユーザーの場合）に対するプロファイル権限を所有したりできます。</p></li> 
@@ -113,7 +113,8 @@ ht-degree: 91%
        <p>オブジェクトに対する権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">オブジェクトに対する共有権限の概要</a>を参照してください。</p> 
        <p><b>メモ</b>：  
        <ul> 
-       <li> <p>ここで指定した権限を持たないユーザーは、セクションのカスタムフィールドとウィジェットを表示できません。 </p> <p>これは、フィールドの値をレポートに表示する場合や、テキストモードのレポートの計算フィールドで使用する場合にも当てはまります。</p> </li> 
+       <li> <p>ここで指定した権限を持たないユーザーは、セクションのカスタムフィールドとウィジェットを表示できません。 </p> <p>これは、フィールドの値をレポートに表示する場合や、テキストモードのレポートの計算フィールドで使用する場合にも当てはまります。</p> </li>
+       <li><p>リクエスト/発行のカスタムフォームの場合：セクション区切りのフィールドを表示するために表示アクセスが必要でも、フィールドを編集するために管理者アクセスが必要な場合、フォームを入力する際、セクションとそのすべてのフィールドは管理者以外のユーザーには表示されません。 リクエストが作成されると、表示アクセス権を持つユーザーは、セクションのフィールドを表示できます。</p></li>
        <li> <p>複数のオブジェクトタイプをフォームに関連付けると、これらの手順で使用できる表示および編集権限が変更される場合があります。詳しくは、この記事内の<a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">複数のオブジェクトタイプが、カスタムフォームのセクション区切り権限に与える影響</a>を参照してください。</p> </li> 
         </ul> </p> </td> 
      </tr> 
