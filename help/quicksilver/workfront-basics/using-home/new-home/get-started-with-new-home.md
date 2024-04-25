@@ -6,10 +6,10 @@ description: 新しいホームは、作業を管理するための強力な新�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 33%
+source-wordcount: '1135'
+ht-degree: 31%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Workfrontの新しいホームエクスペリエンスは、現在のホ�
 
   >[!NOTE]
   >
-  >To-Do ウィジェットで To-Do を作成するには、タスクを作成する権限が必要です。
+  >To Do ウィジェットで To Do を作成するには、タスクを作成する権限が必要です。現在のユーザーが入力した個人タスクのみがウィジェットに表示されます。
 
 デフォルトでは、ホームページには、ライセンスの種類に基づいて、いくつかの特定のウィジェットが入力されます。次の表は、各ライセンスタイプのユーザーが最初に新しいホームに移動したときに表示されるウィジェットの概要を示しています。
 

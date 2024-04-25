@@ -8,16 +8,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 8%
+source-wordcount: '469'
+ht-degree: 10%
 
 ---
 
 # Snowflake用のリーダー（サービス） アカウントを作成します
 
-Workfront Data Lake データにアクセスするには、まずSnowflake用のリーダーアカウントを作成する必要があります。 さらに、データへの接続を計画している外部ツールの場合は、許可リストに IP を追加する必要があります。
+Workfront Data Lake のデータにアクセスするには、新しい接続ごとにSnowflakeリーダー（またはサービス）アカウントを作成する必要があります。 接続を作成したら、関連する URL とユーザー名を **データアクセス** ページ （**メインメニュー** > **設定** > **システム** > **データアクセス**）を選択します。 **既存の接続** タブ。
+
+新しく作成した外部製品との接続の使用については、を参照してください。 [Workfront Data Lake への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## アクセス要件
 
@@ -68,28 +70,12 @@ Workfront Data Lake データにアクセスするには、まずSnowflake用の
 
 1. これで、ユーザー名と新しいパスワードを使用して、Snowflakeまたは選択したビジネスビジュアライゼーションツールでWorkfront Data Lake にアクセスできるようになりました。
 
-## 許可リストに IP を追加
-
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **設定**.
-
-1. 左側のパネルで、 **システム** > **データアクセス**.
-
-1. 「」をクリック **許可された IP** タブをクリックしてから、 **許可リストに IP アドレスを追加** ボタン。
-
-1. IP アドレスの名前を **IP アドレスの説明** で使用するツールの IP アドレスを入力します **IP アドレス**&#x200B;を選択し、 **許可リストに IP を追加**.
-
-   ![IP アドレスを追加](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
-## リーダーアカウントを失効させるか、許可リストから IP アドレスを削除します
+## リーダーアカウントの取り消し
 
 1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **設定**.
 
 1. 左側のパネルで、 **システム** > **データアクセス**.
 
 1. ごみ箱アイコンをクリック ![アイコンを削除](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) 取り消すアカウントの右側に表示されます。
-
-   または
-
-   「」をクリック **許可された IP** タブをクリックしてから、ごみ箱アイコンをクリックします ![アイコンを削除](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) 削除する IP アドレスの右側に表示されます。
 
 1. 表示されるウィンドウで、チェックボックスをオンにして確認し、 **削除**.
