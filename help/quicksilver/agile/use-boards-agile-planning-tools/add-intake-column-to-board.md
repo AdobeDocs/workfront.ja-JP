@@ -7,7 +7,7 @@ description: オプションで、タスクとイシューが Workfront に追�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 81%
@@ -162,3 +162,4 @@ ht-degree: 81%
    カード上の&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー ![詳細メニュー](assets/more-icon-spectrum.png) をクリックしてから、「**[!UICONTROL 移動]**」を選択します。次に、「**[!UICONTROL 項目の移動]**」ボックスで、別の列を選択し、「**[!UICONTROL 移動]**」を選択します。
 
 1. （オプション）取り込み列を削除するには、**[!UICONTROL その他]**&#x200B;メニュー ![その他のメニューアイコン](assets/more-icon-spectrum.png) を選択し、「**[!UICONTROL 削除]**」を選択します。
+
