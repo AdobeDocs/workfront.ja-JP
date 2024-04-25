@@ -5,7 +5,7 @@ title: Workfront Fusion を使用して、Adobe Experience Manager ワークフ�
 description: Workfront Fusion でプロジェクトを作成していて、そのプロジェクトにAdobe Experience Manager ワークフローを含める場合は、ここで説明するように、特定の Fusion モジュール設定を使用する必要があります。
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: df8f99da107f50eb1302188aa544f45b7b451966
+source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 17%
@@ -156,4 +156,7 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 このクライアント ID とクライアントシークレットは、Fusion でモジュールの接続を設定する際に使用します。
 
 接続の作成手順については、を参照してください。 [接続 [!DNL Workfront] 対象： [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) 記事のWorkfront モジュール。
+
+
+
 
