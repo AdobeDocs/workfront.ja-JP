@@ -6,10 +6,10 @@ description: Adobe Workfront Goals で表示できるすべての目標にコメ
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 98%
 
 ---
 
@@ -50,11 +50,9 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront ライセンス*</td>
+ <td role="rowheader">Adobe Workfront ライセンス</td>
  <td>
- <p>新規ライセンス：コントリビューター以上</p>
- または
- <p>現在のライセンス：リクエスト以上</p> </td>
+ <p>任意</td>
  </tr>
  <tr>
  <td role="rowheader">製品*</td>
@@ -65,7 +63,7 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
  </tr>
  <tr>
  <td role="rowheader">アクセスレベルの設定</td>
- <td> <p>Goals に対する表示以上のアクセス権</p> <p><b>メモ</b><p>アクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。詳しくは、<span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Adobe Workfront Goals へのアクセス権を付与</a></span>を参照してください。</td>
+ <td> <p>Goals に対する表示以上のアクセス権</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">オブジェクト権限</td>
@@ -76,10 +74,15 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
  <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 

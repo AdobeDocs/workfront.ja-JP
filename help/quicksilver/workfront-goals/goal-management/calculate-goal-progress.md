@@ -6,9 +6,9 @@ description: 目標の進捗は、アクティビティ、結果、子目標な�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: ht
-source-wordcount: '821'
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+workflow-type: tm+mt
+source-wordcount: '820'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Adobe Workfront は、進捗状況インジケーターの進捗に基づいて�
 
 開始するには、まず以下が必要です。
 
-* メインメニューの目標エリアを含むレイアウトテンプレート。
+* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 
 ## 目標の進捗としきい値の概要
 
