@@ -6,10 +6,10 @@ description: '[!UICONTROL ボード]ダッシュボードから、ボードを�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 100%
+source-wordcount: '802'
+ht-degree: 96%
 
 ---
 
@@ -81,6 +81,8 @@ ht-degree: 100%
    1. （オプション）「[!UICONTROL **詳細フィルターの使用**]」をクリックして、追加のフィルターオプションを表示します。
 
       これは、取り込み列にフィルターを作成するのと同じ手順です。詳しくは、[ボードに取り込み列を追加する](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)を参照してください。
+
+      動的ボードを作成した後に動的ボードのフィルターを更新すると、Workfrontのタスクまたはイシューに含まれていないカード設定（タグなど）はリセットされます。
 
    1. フィルターを追加したら、[!UICONTROL **ボードを作成**]&#x200B;を参照してください。
 

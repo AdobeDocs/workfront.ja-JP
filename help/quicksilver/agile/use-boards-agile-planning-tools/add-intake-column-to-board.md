@@ -7,10 +7,10 @@ description: オプションで、タスクとイシューが Workfront に追�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: d593d288546abb4a674646519c6245563673b938
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 85%
+source-wordcount: '1090'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 1 つのボード上で許可される取り込み列は 1 つだけで、常に一番左の列として表示されます。
 
-取り込み列は動的なボード上では使用できません。
+取り込み列は、動的ボードでは使用できません。 ただし、動的なボードに取り込むカードを定義するフィルターを更新できます。 動的ボードでこれらのフィルターを変更すると、Workfrontのタスクやイシューに含まれていないカード設定（タグなど）はリセットされます。
 
 取り込み列は、300 タスクと 300 イシューに制限されます。取り込み列の項目のデフォルトの順序は次のとおりです。
 
