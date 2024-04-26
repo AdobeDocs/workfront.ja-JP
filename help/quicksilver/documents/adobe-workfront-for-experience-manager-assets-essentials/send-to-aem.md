@@ -6,16 +6,18 @@ description: Workfront から Experience Manager Assets または Assets Essenti
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '878'
+ht-degree: 98%
 
 ---
 
 # Experience Manager Assets または Assets Essentials へのドキュメントの送信
 
 Workfront から Experience Manager Assets または Assets Essentials にドキュメントを送信できます。Workfront から Assets Essentials にアップロードおよび送信されたドキュメントは、引き続きドキュメントストレージ全体に対してカウントされます。Assets Essentials からリンクされたアセットは、全体のストレージにはカウントされません。
+
+この統合を通じてExperience Managerに送信されるアセットのサイズ制限は、です。 **5 GB**.
 
 Workfront から Experience Manager Assets または Assets Essentials にアセットを送信する際、メタデータフィールドが最初にマッピングされます。親オブジェクトに対してマッピングするように設定されたメタデータも送信されます。メタデータマッピングの設定について詳しくは、[Experience Manager Assets as a Cloud Service 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)を参照してください。
 
