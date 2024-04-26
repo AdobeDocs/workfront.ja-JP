@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 29%
+source-wordcount: '433'
+ht-degree: 38%
 
 ---
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning では、既存のフィールドを参照し、式でそれらを結び付けることで、カスタムフィールドを作成できます。 これを行うには、カスタムの式タイプフィールドを作成します。
+既存のフィールドを参照し、式タイプのフィールドで接続することで、Adobe Workfront Planning でカスタムフィールドを作成できます。
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
@@ -100,7 +100,7 @@ Adobe Workfront Planning では、既存のフィールドを参照し、式で�
 ## 式フィールドに関する考慮事項
 
 * 式フィールドは、同じレコードタイプに属するフィールドを参照します。 式フィールドを作成するときに、他のレコードタイプのフィールドを参照することはできません。 <!--is this still accurate??-->
-* 数式フィールドを保存した後に、そのフィールドの種類を変更することはできません。
+* 式フィールドを保存した後で、そのフィールド タイプを変更することはできません。
 * 式フィールドを保存した後に計算を更新すると、同じタイプのすべてのレコードに対する計算結果が自動的に更新されます。
 * Workfront Planning インタフェースに表示される式で参照するフィールドを追加する必要があります。
 
@@ -154,7 +154,7 @@ Adobe Workfront Planning の式フィールドでは、Workfrontの計算フィ�
 
 <tr> 
    <td><strong>平年</strong> </td> 
-   <td> <p>年の週番号を返します。オプションで、週の開始日を指定することもできます（日曜日の場合は 1、月曜日の場合は 2 を使用します）。 省略した場合、週はデフォルトで日曜日に始まります。</p> <p>式の形式は次のとおりです。
+   <td> <p>年の週数を返します。必要に応じて、週の開始日を指定できます (日曜日の場合は 1、月曜日の場合は 2 を使用)。省略した場合、デフォルトでは週は日曜日に開始します。</p> <p>式の形式は次のとおりです。
 
 <code>WEEKOFYEAR （date,2）</code>
 または

@@ -6,10 +6,10 @@ description: イシューのプライマリ連絡先が、フィールド（カ�
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '222'
-ht-degree: 100%
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 79%
 
 ---
 
@@ -28,6 +28,12 @@ ht-degree: 100%
    * 「詳細設定」で「**ステータスを変更**」を選択
 
   ![キューの詳細で「アクセスに参加」と「ステータスを変更」を選択。](assets/queuedetails-contributeaccess-changestatus.png)
+
+  >[!IMPORTANT]
+  >
+  >  リクエストキューを設定する際に、送信されるイシューに対するプライマリ連絡先のアクセスを定義できます。
+  >
+  >リクエストキューの設定時に「ステータスの変更」設定を選択解除すると、リクエストキュー設定で「ステータスの変更」オプションが選択解除されていても、システム管理者は常にイシューのステータスを変更するアクセス権を持つことに注意してください。
 
   キューの詳細について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
