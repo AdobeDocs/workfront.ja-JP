@@ -6,9 +6,9 @@ description: Workfront Fusion でプロジェクトを作成していて、そ�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
+source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '883'
 ht-degree: 17%
 
 ---
@@ -54,14 +54,14 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
   <b>Workfront Fusion</b>:<p>新規：</p>
    <ul>
    <li>
-   <p>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</p>
+   <p>Workfront プランを選択または購入：Adobe Workfront Fusion は、お客様の組織で購入する必要があります。</p>
    </li>
    <li> 
-   <p>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</p>
+   <p>Ultimate Workfront プラン：Workfront Fusion が含まれています。</p>
    </li>
    </ul>
    <p>または</p>
-   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p>
+   <p>現在：Adobe Workfront Fusion を購入する必要があります。</p>
    </td>
   </tr>
   <tr>
