@@ -5,7 +5,8 @@ title: Workfront Fusion を使用して、Adobe Experience Manager ワークフ�
 description: Workfront Fusion でプロジェクトを作成していて、そのプロジェクトにAdobe Experience Manager ワークフローを含める場合は、ここで説明するように、特定の Fusion モジュール設定を使用する必要があります。
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
+exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
+source-git-commit: 13f689c4ee404c07be6b9cf9c526bef8dca878ff
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 17%
@@ -41,8 +42,25 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
   <tr>
    <td><strong>製品</strong>
    </td>
-   <td><b>Adobe Experience Manager<b>:<ul><li><p>Experience Manager Assets as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されていることが必要です。</p></li><li><p>Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p></li></ul>
-  <b>Workfront Fusion</b>:<p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul>   <p>または</p>
+   <td><b>Adobe Experience Manager<b>:
+   <ul>
+   <li>
+   <p>Experience Manager Assets as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されていることが必要です。</p>
+   </li
+   ><li>
+   <p>Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p>
+   </li>
+   </ul>
+  <b>Workfront Fusion</b>:<p>新規：</p>
+   <ul>
+   <li>
+   <p>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</p>
+   </li>
+   <li> 
+   <p>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</p>
+   </li>
+   </ul>
+   <p>または</p>
    <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p>
    </td>
   </tr>
@@ -156,7 +174,4 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 このクライアント ID とクライアントシークレットは、Fusion でモジュールの接続を設定する際に使用します。
 
 接続の作成手順については、を参照してください。 [接続 [!DNL Workfront] 対象： [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) 記事のWorkfront モジュール。
-
-
-
 
