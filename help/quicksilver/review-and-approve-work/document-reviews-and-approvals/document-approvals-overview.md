@@ -6,7 +6,7 @@ description: 既に承認待ちのドキュメントに、追加の承認者ま�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 85%
@@ -51,13 +51,15 @@ ht-degree: 85%
 
 ## 新しいドキュメント承認の使用
 
-ドキュメント承認の作成または管理をおこなうユーザー向けに、 [ドキュメントの承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+ドキュメントの承認の作成や管理を行う場合は、にリストされている記事を参照してください。 [ドキュメントの承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
-リクエストを受け取ったドキュメントを確認または承認する場合は、 [ドキュメントのレビュー：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+リクエストを受け取ったドキュメントをレビューまたは承認しようとするユーザーについては、にリストされている記事を参照してください。 [ドキュメントを確認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-現在のレポートツールでは、新しいドキュメント承認はサポートされていません。 新しいホームおよびキャンバスダッシュボードで使用可能なすべての承認ウィジェットには、新しいドキュメント承認に関する次の詳細が表示されます。
-
-* 決定による承認
-* 平均承認時間
-* 保留中の承認
-* 期限切れの承認
+>[!IMPORTANT]
+>
+>新規ドキュメント承認は、現在のレポートツールではサポートされていません。 新しいホームおよびキャンバスダッシュボードで使用できるすべての承認ウィジェットには、新しいドキュメントの承認に関する次の詳細が表示されます。
+>
+>* 決定による承認
+>* 平均承認時間
+>* 保留中の承認
+>* 期限切れの承認

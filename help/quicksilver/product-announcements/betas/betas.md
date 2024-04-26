@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: a9e48df359b849cfca7f69d6f344fb76e61f484a
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 100%
+source-wordcount: '65'
+ht-degree: 93%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 100%
 * [キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [新しいコメント機能のベータ版エクスペリエンス](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [フォームデザイナーの概要](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+* [Workfrontと Frame.io の統合](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
 
 <!--
