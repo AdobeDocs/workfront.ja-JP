@@ -6,7 +6,7 @@ description: Workfront Fusion でプロジェクトを作成していて、そ�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
+source-git-commit: 605065896263ebbb761883689668be181b5012e3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 17%
@@ -51,7 +51,7 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
    <p>Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>:<p>新規：</p>
+   <b>Workfront Fusion</b>:<p>新規：</p>
    <ul>
    <li>
    <p>Workfront プランを選択または購入：Adobe Workfront Fusion は、お客様の組織で購入する必要があります。</p>
@@ -68,8 +68,8 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
    <td><strong>アクセスレベル設定*</strong>
    </td>
    <td>ドキュメントへのアクセスを編集
-<p>
-<strong>メモ</strong>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<strong>カスタムアクセスレベルの作成または変更</strong>を参照してください。
+   <p>
+   <strong>メモ</strong>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<strong>カスタムアクセスレベルの作成または変更</strong>を参照してください。
    </td>
   </tr>
 </table>
@@ -174,4 +174,3 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 このクライアント ID とクライアントシークレットは、Fusion でモジュールの接続を設定する際に使用します。
 
 接続の作成手順については、を参照してください。 [接続 [!DNL Workfront] 対象： [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) 記事のWorkfront モジュール。
-
