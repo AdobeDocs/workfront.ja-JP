@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
+source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 89%
+source-wordcount: '570'
+ht-degree: 85%
 
 ---
 
@@ -72,6 +72,10 @@ Workfront Fusion は、Chrome ベースのブラウザーのみをサポート�
 ## 実行履歴
 
 * 実行履歴ログのサイズは次に制限されています **100 MB**. 実行履歴がこのサイズを超える場合は、最初の 100 MB のみが表示されます。
+
+## 不完全な実行
+
+不完全な実行は、の合計サイズに制限されます **500 MB**. 500 MB の制限に達した場合、それ以上不完全な実行は保存されません。
 
 ## 再試行
 
