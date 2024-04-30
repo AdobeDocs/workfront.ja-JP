@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Workfront Data Lake のデータを外部の商品と結び付けるには、の
 
 1. 「」をクリック **許可された IP** タブをクリックしてから、 **許可リストに IP アドレスを追加** ボタン。
 
-1. IP アドレスの名前を **IP アドレスの説明** で使用するツールの IP アドレスを入力します **IP アドレス**&#x200B;を選択し、 **許可リストに IP を追加**.
+1. IP アドレスの名前を **IP アドレスの説明** で使用するツールの IP アドレス（または CIDR ブロック）を入力します **IP アドレス**&#x200B;を選択し、 **許可リストに IP を追加**.
 
    ![IP アドレスを追加](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
