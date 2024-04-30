@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 85%
@@ -25,7 +25,7 @@ ht-degree: 85%
 
 ## ブラウザー
 
-Workfront Fusion は、Chrome ベースのブラウザーのみをサポートしています。
+* Workfront Fusion は、Chrome ベースのブラウザーのみをサポートしています。
 
 ## シナリオ
 
@@ -75,9 +75,9 @@ Workfront Fusion は、Chrome ベースのブラウザーのみをサポート�
 
 ## 不完全な実行
 
-不完全な実行は、の合計サイズに制限されます **500 MB**. 500 MB の制限に達した場合、それ以上不完全な実行は保存されません。
+* 不完全な実行は、の合計サイズに制限されます **500 MB**. 500 MB の制限に達した場合、それ以上不完全な実行は保存されません。
 
 ## 再試行
 
-Break モジュールを使用して再試行ディレクティブを指定する場合、シナリオが 2 分以内に 10 回連続して失敗すると、シナリオは自動的に非アクティブ化されます。
+* Break モジュールを使用して再試行ディレクティブを指定する場合、シナリオが 2 分以内に 10 回連続して失敗すると、シナリオは自動的に非アクティブ化されます。
 
