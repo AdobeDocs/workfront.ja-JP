@@ -7,48 +7,31 @@ description: 目標をアクティブ化するには、結果、アクティビ�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
+workflow-type: tm+mt
+source-wordcount: '859'
+ht-degree: 95%
 
 ---
 
 # Adobe Workfront Goals の結果とアクティビティについての基本を学ぶ
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
+この記事で説明している機能を使用するには、組織に以下が必要です。
 
->[!NOTE]
->
->この記事で説明している機能を使用するには、組織に以下が必要です。
->
->* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
->* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
->
->  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
->
->Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+* 新しいプランとライセンス構造の場合：
 
+   * 究極の計画
+
+     または
+
+     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、を参照してください [Adobe Workfrontプラン](https://www.workfront.com/plans).
+
+* 現在のプランおよびライセンス構造の場合：
+
+   * プロまたはそれ以上
+   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+
+Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 
 目標を作成すると、その目標のステータスは「ドラフト」になります。目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 

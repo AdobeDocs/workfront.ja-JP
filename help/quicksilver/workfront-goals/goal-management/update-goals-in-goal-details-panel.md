@@ -6,10 +6,10 @@ description: 目標の詳細パネルにアクセスして、個別の目標の�
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 89%
+source-wordcount: '654'
+ht-degree: 84%
 
 ---
 
@@ -37,12 +37,18 @@ ht-degree: 89%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront プラン</td>
- <td>
- <p>任意</p> 
- </td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+   <p>新しいプランとライセンス構造の場合：
+  <ul><li>究極の計画 </li>
+  または
+  <li>Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 </li></ul> </p>
+<p>現在のプランおよびライセンス構造の場合： 
+<ul><li> プロまたはそれ以上 </li>
+  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront ライセンス*</td>
  <td>

@@ -6,10 +6,10 @@ description: 進捗が「トラブル発生中」と表示された目標は達�
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 91%
+source-wordcount: '834'
+ht-degree: 87%
 
 ---
 
@@ -31,13 +31,18 @@ ht-degree: 91%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront プラン</td>
- <td>
- <p>任意</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+   <p>新しいプランとライセンス構造の場合：
+  <ul><li>究極の計画 </li>
+  または
+  <li>Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 </li></ul> </p>
+<p>現在のプランおよびライセンス構造の場合： 
+<ul><li> プロまたはそれ以上 </li>
+  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront ライセンス*</td>
  <td>

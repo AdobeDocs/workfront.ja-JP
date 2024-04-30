@@ -6,10 +6,10 @@ description: 目標の全体的な正常性とその進捗の経時的な傾向�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 93%
+source-wordcount: '992'
+ht-degree: 89%
 
 ---
 
@@ -33,13 +33,18 @@ ht-degree: 93%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront プラン</td>
- <td>
- <p>任意</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+   <p>新しいプランとライセンス構造の場合：
+  <ul><li>究極の計画 </li>
+  または
+  <li>Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 </li></ul> </p>
+<p>現在のプランおよびライセンス構造の場合： 
+<ul><li> プロまたはそれ以上 </li>
+  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront ライセンス*</td>
  <td>

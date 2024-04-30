@@ -6,10 +6,10 @@ description: 目標に取り組み始めた後で、組織との関連性がな�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 89%
+source-wordcount: '684'
+ht-degree: 85%
 
 ---
 
@@ -27,13 +27,18 @@ ht-degree: 89%
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront プラン</td>
- <td>
- <p>任意</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+   <p>新しいプランとライセンス構造の場合：
+  <ul><li>究極の計画 </li>
+  または
+  <li>Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 </li></ul> </p>
+<p>現在のプランおよびライセンス構造の場合： 
+<ul><li> プロまたはそれ以上 </li>
+  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront ライセンス*</td>
  <td>

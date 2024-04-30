@@ -6,10 +6,10 @@ description: CEO、マネージャー、または個人の投稿者であって�
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 90%
+source-wordcount: '727'
+ht-degree: 86%
 
 ---
 
@@ -27,14 +27,19 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront プラン</td>
- <td>
- <p>任意</p>
-
-</td>
- </tr>
- <tr>
+<tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+   <p>新しいプランとライセンス構造の場合：
+  <ul><li>究極の計画 </li>
+  または
+  <li>Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 </li></ul> </p>
+<p>現在のプランおよびライセンス構造の場合： 
+<ul><li> プロまたはそれ以上 </li>
+  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+   </td> 
+  </tr>
+  <tr>
  <td role="rowheader">Adobe Workfront ライセンス*</td>
  <td>
  <p>新規ライセンス：コントリビューター以上</p>
@@ -52,7 +57,7 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
 <tr>
-<td role="rowheader">アクセスレベル*</td>
+<td role="rowheader">アクセスレベル</td>
 <td> <p>Goals への編集アクセス権</p> </td>
 </tr>
 <tr data-mc-conditions="">

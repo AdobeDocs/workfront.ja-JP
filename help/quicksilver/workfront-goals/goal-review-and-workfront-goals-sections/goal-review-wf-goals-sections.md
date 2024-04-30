@@ -7,48 +7,31 @@ description: 次の記事では、目標のレビューと、Adobe Workfront で
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 73%
 
 ---
 
 # 目標のレビューと Adobe Workfront Goals セクション
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+この記事で説明している機能を使用するには、組織に以下が必要です。
 
-Your organization must have the following to use the functionality described in this article:
+* 新しいプランとライセンス構造の場合：
 
-* For the legacy plan and license structure: 
+   * 究極の計画
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     または
 
-* For the current plan and license structure:
+     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、を参照してください [Adobe Workfrontプラン](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* 現在のプランおよびライセンス構造の場合：
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * プロまたはそれ以上
+   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->この記事で説明している機能を使用するには、組織に以下が必要です。
->
->* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
->* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
->
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
->
->Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
-
+Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 
 この節では、次の記事を扱います。
 

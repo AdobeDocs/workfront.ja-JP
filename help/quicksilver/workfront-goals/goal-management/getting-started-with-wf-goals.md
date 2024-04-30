@@ -5,47 +5,34 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: ht
-source-wordcount: '1355'
-ht-degree: 100%
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+workflow-type: tm+mt
+source-wordcount: '1395'
+ht-degree: 96%
 
 ---
 
 # Adobe Workfront Goals の基本を学ぶ
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+この記事で説明している機能を使用するには、組織に以下が必要です。
 
-Your organization must have the following to use the functionality described in this article:
+* 新しいプランとライセンス構造の場合：
 
-* For the legacy plan and license structure: 
+   * 究極の計画
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     または
 
-* For the current plan and license structure:
+     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、を参照してください [Adobe Workfrontプラン](https://www.workfront.com/plans).
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+* 現在のプランおよびライセンス構造の場合：
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+   * プロまたはそれ以上
+   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
 
->[!NOTE]
->
->この記事で説明している機能を使用するには、組織に以下が必要です。
->
->* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
->* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
->
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 
-Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 すべての組織は、チームの生産性、集中力、エンゲージメントを維持するために、明確な目標を設定し、伝達する必要があります。作業が戦略にどれくらい合っているかを真に知ることが成功の鍵です。しかし、戦略と目標を組織内の作業と結び付ける記録システムがなければ、整合させることは非常に難しくなります。
 

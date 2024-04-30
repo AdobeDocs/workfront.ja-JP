@@ -7,56 +7,36 @@ description: Adobe Workfront Goals は、戦略を作業の実行と配信に結
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 2fd9b380ea3f10195bea9ce3fd76359f97b00505
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 86%
+source-wordcount: '521'
+ht-degree: 84%
 
 ---
 
 # Adobe Workfront Goals の概要
 
-<!-- Audited: 1/2024 -->
+この記事で説明している機能を使用するには、組織に以下が必要です。
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+* 新しいプランとライセンス構造の場合：
 
-Your organization must have the following to use the functionality described in this article:
+   * 究極の計画
 
-* For the legacy plan and license structure: 
+     または
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、を参照してください [Adobe Workfrontプラン](https://www.workfront.com/plans).
 
-* For the current plan and license structure:
+* 現在のプランおよびライセンス構造の場合：
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+   * プロまたはそれ以上
+   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
->[!NOTE]
->
->この記事で説明している機能を使用するには、組織に以下が必要です。
->
->* 新規：
->   * Ultimate、または
->   * Workfrontライセンスに加えて、または Prime を選択し、Adobe目標ライセンスを選択します。
->* 最新： Workfrontライセンスに加えて、Adobe目標ライセンス
->
->Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
->
->Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 
 
 Adobe Workfront Goals は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。真に重要なことに全員の努力を集中させ、進捗を目に見える形にして、チームが素晴らしい成果を達成できるようにすることができます。ユーザーは自分の貢献が有意義な影響を与えていると知っていれば、最高の仕事をすることができます。
 
-Workfront Goals は、主要な Workfront 作業管理プラットフォームのアドオンモジュールです。これは、Workfrontと連携し、ユーザー、チーム、グループ、プロジェクトなど、多くの設定要素や設定エンティティを共有することを目的としています。
+Workfront Goals は、主要な Workfront 作業管理プラットフォームのアドオンモジュールです。これはWorkfrontと連携することを目的としています。アドビは、ユーザー、チーム、グループ、プロジェクトなど、多くの設定要素および設定エンティティを共有します。
 
 Workfront Goals の使用に関するベストプラクティスについて詳しくは、[Adobe Workfront Goals の基本を学ぶ](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)を参照してください。
 
@@ -81,7 +61,7 @@ Workfront Goals の使用に関するベストプラクティスについて詳�
 
   プロジェクトを目標に関連付ける方法について詳しくは、[Adobe Workfront Goals の目標にプロジェクトを追加](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
-* 目標、結果、およびアクティビティを更新し、完了に向けて目標を追跡します。
+* 目標、結果、アクティビティを更新して、完了に向けて目標を順調に進めます。
 
   目標の進捗状況の更新について詳しくは、[Adobe Workfront Goals で目標の進捗状況を更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
 

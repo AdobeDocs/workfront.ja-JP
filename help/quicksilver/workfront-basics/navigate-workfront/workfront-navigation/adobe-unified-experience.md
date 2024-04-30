@@ -3,19 +3,26 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: ' [!DNL Workfront] の Adobe Unified Experience'
 description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセスすると、すべての Adobe アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 95%
 
 ---
 
 # [!DNL Workfront] 向け [!DNL Adobe Unified Experience]
 
 [!DNL Adobe Experience Cloud] を介して [!DNL Workfront] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
+
+組織がAdobeの統合エクスペリエンス上にいるかどうかを判断するには、Workfrontへのアクセスに使用する URL を調べます。
+
+| URL | Adobe Experience |
+|------------|------------|
+| (CompanyName).my.workfront.com | Workfrontエクスペリエンス |
+| experience.adobe.com | Adobeの統合エクスペリエンス |
 
 ## アクセス要件
 

@@ -6,43 +6,31 @@ draft: Probably
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 71%
 
 ---
 
 # Adobe Workfront Goals
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
-
-Your organization must have the following to use the functionality described in this article:
-
-* For the legacy plan and license structure: 
-
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-* For the current plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
 この記事で説明している機能を使用するには、組織に以下が必要です。
 
-* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
-* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+* 新しいプランとライセンス構造の場合：
 
-  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+   * 究極の計画
+
+     または
+
+     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、を参照してください [Adobe Workfrontプラン](https://www.workfront.com/plans).
+
+* 現在のプランおよびライセンス構造の場合：
+
+   * プロまたはそれ以上
+   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+
+Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 
 Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 

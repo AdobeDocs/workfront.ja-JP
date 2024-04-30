@@ -6,45 +6,35 @@ description: Workfront またはグループの管理者は、組織の用語に
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 87%
 
 ---
 
 # Adobe Workfront Goals の用語のカスタマイズ
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
-
-Your organization must have the following to use the functionality described in this article:
-
-* For the legacy plan and license structure: 
-
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-* For the current plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
-
 この記事で説明している機能を使用するには、組織に以下が必要です。
 
-* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
-* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+* 現在のプランおよびライセンス構造の場合：
 
-  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+   * Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
+   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 
-Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+* 新しいプランとライセンス構造の場合：
+
+   * 究極の計画
+
+     または
+
+     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。
+
+Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+
+Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 Workfront またはグループの管理者は、組織の用語に合わせて Workfront Goals のオブジェクトの名前をカスタマイズできます。
 

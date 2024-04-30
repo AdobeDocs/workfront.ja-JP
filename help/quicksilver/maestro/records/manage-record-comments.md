@@ -1,18 +1,18 @@
 ---
-title: レコードコメントの管理
-description: レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードで共同作業できます。 また、この領域で、記録に加えられた他の変更や記録を表示することもできます。
+title: レコードのコメントの管理
+description: レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更や、システムによってこの領域に記録された変更も表示できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 12%
+source-wordcount: '1153'
+ht-degree: 29%
 
 ---
 
-# レコードコメントの管理
+# レコードのコメントの管理
 
 {{maestro-important-intro}}
 
@@ -24,34 +24,44 @@ ht-degree: 12%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードで共同作業できます。 また、この領域で、記録に加えられた他の変更や記録を表示することもできます。
+レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。 また、レコードに加えられた他の変更や、システムによってこの領域に記録された変更も表示できます。
 
 レコードの右側のパネルには、次のセクションが表示されます。
 
-* **コメント**：ユーザーがレコードに追加したコメントおよび返信を表示します。
-* **履歴**：ユーザーがレコードフィールドに対しておこなった、システムで記録された変更を表示します。 詳しくは、 [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md).
+* **コメント**：ユーザーがレコードに追加したコメントと返信を表示します。
+* **履歴**：レコードフィールドに対してユーザーがおこなったシステム記録の変更を表示します。 詳しくは、[「履歴」セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md)を参照してください。
 
-## レコードにコメントする際の考慮事項
+## レコードに対するコメントに関する考慮事項
 
-* レコードの「コメント」セクションで、Workfront Planning のレコードにコメントや返信を追加できます。
+* Workfront Planning のレコードのコメントと返信は、レコードの「コメント」セクションに追加できます。
 
-* リンクされたレコードに追加されたコメントは、リンク元のレコードには表示されません。 例えば、Campaign レコードにリンクされているWorkfront Planning Product レコードにコメントする場合、そのコメントは、リンク元の Campaign レコードにではなく、Workfront Planning の Product レコードにのみ表示されます。
+* リンク元のレコードには、リンクされたレコードに追加されたコメントは表示されません。 例えば、キャンペーンレコードにリンクされたWorkfront Planning の商品レコードにコメントを付けると、コメントはWorkfront Planning の商品レコードにのみ表示され、リンク元のキャンペーンレコードには表示されません。
 
-* レコードと別のアプリケーションのオブジェクトとの接続の結果として作成されたWorkfront Planning レコードにコメントを追加できます。
+* レコードと他のアプリケーションのオブジェクトとの関連付けの結果として作成されたWorkfront Planning レコードにコメントを追加できます。
 
-  例えば、WorkfrontプロジェクトをWorkfront Planning レコードに接続した後で、Project Workfront Planning レコードにコメントを付けることができます。 詳しくは、 [レコードを接続](/help/quicksilver/maestro/records/connect-records.md).
+  例えば、Workfront プロジェクトをWorkfront計画レコードと結び付けた後で、プロジェクト Workfront計画レコードにコメントできます。 詳しくは、[レコードの接続](/help/quicksilver/maestro/records/connect-records.md)を参照してください。
 
-* 他のアプリケーションでリンクされたオブジェクトに追加されたコメントはWorkfront Planning に表示されず、Workfront Planning でリンクされたオブジェクトに追加されたコメントは他のアプリケーションには表示されません。
+* 他のアプリケーションでリンク・オブジェクトに追加されたコメントはWorkfront Planning に表示されず、Workfront Planning でリンク・オブジェクトに追加されたコメントは他のアプリケーションでは表示されません。
 
-  例えば、Workfrontでプロジェクトに追加したコメントは、Workfront Planning のキャンペーンにリンクされた同じプロジェクトには表示されず、プロジェクトWorkfront Planning レコードに追加したコメントはWorkfrontには表示されません。
+  例えば、Workfrontのプロジェクトに追加されたコメントは、Workfront計画のキャンペーンにリンクされた同じプロジェクトには表示されず、プロジェクトのWorkfront計画レコードに追加されたコメントはWorkfrontには表示されません。
 
-* ユーザーにタグを付けて、更新に注意を向けることができます。 タグ付きユーザーは、アプリ内通知や更新に関する電子メールを受け取りません。 <!--this might change??-->
+* ユーザーにタグを付けて、最新情報をユーザーに伝えることができます。 タグ付けされたユーザーには、アプリ内通知や更新に関するメールは届きません。 <!--this might change??-->
 
-* レコードに更新を追加し、Workfront Planning の次の領域で変更履歴を確認できます。
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
 
-   * レコードページから。
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
 
-  <!--* From the table view.-->
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/maestro/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
+* レコードに更新を追加し、Workfront Planning の次の領域から変更履歴を確認できます。
+
+   * レコードの詳細ページから。
+   * ビューの「レコードの詳細」ボックスに移動します。
 
 ## アクセス要件
 
@@ -70,9 +80,9 @@ ht-degree: 12%
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront協定</p></td>
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -90,19 +100,19 @@ ht-degree: 12%
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning には、アクセスレベルの制御はありません。 </p>  
+   <td> <p>Workfront Planning には、アクセス レベルのコントロールはありません。 </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する表示権限以上の権限</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
+   <td> <p>ワークスペースに対する表示以上の権限</a> </p>  
+   <p>システム管理者は、自身が作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
  </tbody>
@@ -113,12 +123,12 @@ ht-degree: 12%
 {{step1-to-maestro}}
 
 最後にアクセスしたワークスペースは、デフォルトで開きます。
-1. 次の場所からテーブルビューを選択します。 **表示** ドロップダウンメニュー。
-1. テーブルビューでレコードの名前をクリックします。
+1. 「」からのテーブルビューの選択 **表示** ドロップダウンメニュー。
+1. テーブル表示でレコードの名前をクリックします。
 
-   レコードの **詳細** ページが開きます。 「コメント」領域は、デフォルトでは右側のパネルに開きます。
+   レコードの **詳細** ページが開きます。 コメント領域は、デフォルトでは右側のパネルに開きます。
 
-1. （条件付き）デフォルトで右側のパネルが開かない場合は、 **コメントを表示** ![](assets/show-comments-icon.png) アイコンを使用して、「コメント」セクションを開きます。
+1. （条件付き）デフォルトで右側のパネルが開かない場合は、 **コメントを表示** ![](assets/show-comments-icon.png) 右上隅のアイコンで「コメント」セクションを開きます。
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
@@ -126,61 +136,64 @@ ht-degree: 12%
 
    >[!TIP]
    >
-   >コメントを入力して送信する前に「コメント」セクションから移動すると、ログオフしてログオンし直した後でも、ページ上のコメントはドラフトモードのままになります。 コメントに追加された画像も下書きに保存されます。ドラフトは 7 日間保存され、その後は破棄され、復元できません。下書きのコメントは、入力したユーザーのみに表示されます。
+   >入力を完了してコメントを送信する前に「コメント」セクションから移動すると、ログオフしてログオンし直した後も、コメントがドラフトモードでページに保持されます。 コメントに追加された画像も下書きに保存されます。ドラフトは 7 日間保存され、その後は破棄され、復元できません。下書きのコメントは、入力したユーザーのみに表示されます。
 
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
    * Ctrl + Z（Mac の場合は ⌘+z）で、変更を元に戻します
    * Ctrl + Y（Mac の場合は ⌘+y）で、変更をやり直します
-1. （オプション） **@** 更新時に、誰かにタグを付けるユーザーの名前が続きます。
-1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字、リンク、画像を更新に追加し、コンテンツを拡張できます。 詳しくは、この記事の「Workfrontの更新でのリッチテキストの使用」の節を参照してください [作業を更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. （任意）追加 **@** に続き、更新内のユーザーをタグ付けするユーザーの名前。
+
+   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+
+1. （オプション）リッチテキストツールバーのオプションを使用すると、テキストの書式設定や、更新への絵文字、リンクまたは画像の追加を行って、コンテンツを拡充できます。詳しくは、「Workfrontの更新でのリッチテキストの使用」の節を参照してください [作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]
    >
-   >別のユーザーが、更新しようとしている同じ項目にコメントを送信した場合、赤い線に「新規」インジケータが表示され、新しいコメントが通知されます。
+   >更新中のアイテムに別のユーザーがコメントを送信した場合、「新規」インジケーターと赤い線が表示され、新しいコメントが通知されます。
    >
    >インジケーターは、コメントが項目に送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. クリック **送信** をクリックして、レコードに更新を追加します。
-1. （オプション）コメントを編集するには、 **その他** メニュー ![](assets/more-menu.png) コメントの右上隅で、 **編集**.
+1. クリック **Submit** をクリックして、レコードに更新を追加します。
+1. （オプション）コメントを編集するには、コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックして、「**編集**」をクリックします。
 
    >[!IMPORTANT]
    >
-   >コメントは送信後 15 分以内にのみ編集できます。
+   >コメントは送信後の 15 分間のみ編集できます。
 
-1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除をおこないます。 コメントの左側に「編集済み」のインジケーターが追加されます。
+1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除を行います。コメントの左側に「編集済み」インジケーターが追加されます。
 
    >[!TIP]
    >
-   >現在の年からのコメントでは、日付スタンプに年は表示されません。 タイムスタンプの上にマウスポインターを置くと、年を含む完全な日付が表示されます。
+   >当年からのコメントでは、日付スタンプに年は表示されません。タイムスタンプにポインタを合わせると、年を含む完全な日付が表示されます。
 
-1. （オプションおよび条件付き）既存のコメントを検索するには、まず、 **コメント** 領域。
+1. （オプションおよび条件付き）既存のコメントを検索するには、の右上隅にある検索ボックスにキーワードを入力します **コメント** 領域。
 
    ![](assets/search-box-for-comments-area.png)
 
-1. （オプション）「 **返信** または、 **返信を追加…** 領域に移動し、既存のコメントに返信するには、上記の手順 4～8 に従います。 <!--(**************accurate??***********)-->
+1. （任意）クリック **返信** または、でコメントの入力を開始します **返信を追加…** 既存のコメントに返信するには、上記の手順 4～8 に従います。 <!--(**************accurate??***********)-->
 
-1. （条件付きおよびオプション）コメントの追加中に「コメント」セクションの表示領域の外側に表示されるコメントを他のユーザーが追加した場合は、「 **表示** 内側 **新しいコメントバナー** をクリックして、これらのコメントを表示します。
+1. （条件付きおよびオプション）他のユーザーがコメントを追加している場合に、コメントを追加する際に [ コメント ] セクションの表示エリア外に表示されるコメントを追加するには、をクリックします **表示** 内 **新しいコメントバナー** これらのコメントを画面の下部に表示します。
 
    ![](assets/new-comments-banner-on-record.png)
 
    追加のコメントが画面の下部に表示されます。
 
-1. （オプション） **次に類似** アイコンをクリックして、更新を「いいね！」にしたり、自分が読んだことを確認したりします。 アイコンは「いいね！」の数に応じて更新されます。
-1. （条件付きおよびオプション）コメントに追加の人を含める場合は、更新に含まれるユーザーのアバターをクリックして、コメントの共有先ユーザーのリストを表示します。
-1. （オプション） **その他** アイコン ![](assets/more-menu.png) コメントの右上隅で、次のいずれかのオプションをクリックして、コメントから情報をコピーします。
+1. （任意） **類似** 更新を気に入るか、読んだことを確認するアイコン。 アイコンは「いいね！」の数に応じて更新されます。
+1. （条件付きおよびオプション）コメントに追加の人物を含めた場合、更新に含まれるユーザーのアバターをクリックして、コメントが共有されるユーザーのリストを表示します。
+1. （任意） **詳細** アイコン ![](assets/more-menu.png) コメントの右上隅にある次のいずれかのオプションをクリックして、コメントから情報をコピーします。
 
    * **リンクをコピー**：コメントへのリンクをクリップボードにコピーします。
    * **本文をコピー**：コメントのテキストをクリップボードにコピーします。
-   * **見積もりの返信**：コメントの内容を新しい返信にコピーします。 コピーされた返信に画像は含まれません。
+   * **見積の返信**：コメントの内容を新しい返信にコピーします。 コピーした返信には画像は含まれません。
 
    詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-1. （オプション） **その他** アイコン ![](assets/more-menu.png) コメントの右上隅で、 **削除** をクリックしてコメントを削除します。
-1. （オプション） **注釈を非表示** アイコン ![](assets/hide-comments-icon.png) をクリックして、右側のパネルを閉じます。
+1. （任意） **詳細** アイコン ![](assets/more-menu.png) コメントの右上隅のをクリックし、 **削除** コメントを削除します。
+1. （任意） **コメントを非表示** アイコン ![](assets/hide-comments-icon.png) をクリックして、右パネルを閉じます。
 
 ## 履歴セクションの概要
 
-レコードに加えた変更は、レコードの右側のパネルの「履歴」セクションで確認できます。
+レコードに加えられた変更は、レコードの右側のパネルの「履歴」セクションで確認できます。
 
-詳しくは、 [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md).
+詳しくは、[「履歴」セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md)を参照してください。
