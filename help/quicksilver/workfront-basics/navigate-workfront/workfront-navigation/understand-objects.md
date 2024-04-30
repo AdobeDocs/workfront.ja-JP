@@ -1,19 +1,21 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: '"[!DNL Adobe Workfront] オブジェクトの概要'
-description: 「表示する情報 [!DNL Adobe Workfront] は、 [!DNL Workfront] データベース。 オブジェクトは、情報を駆動する要素です。 [!DNL Workfront]. これらのオブジェクトの詳細については、この記事を参照してください。」
+title: “[!DNL Adobe Workfront] オブジェクトの概要"
+description: 「に表示する情報 [!DNL Adobe Workfront] は、に保存されたオブジェクトで表されます。 [!DNL Workfront] データベース。 オブジェクトは、の情報を駆動するものです [!DNL Workfront]. これらのオブジェクトについて詳しくは、この記事を参照してください。
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 86%
+source-wordcount: '2400'
+ht-degree: 84%
 
 ---
 
 # [!DNL Adobe Workfront] オブジェクトの概要
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 <!--Audited: 12/2023-->
 
@@ -25,7 +27,7 @@ ht-degree: 86%
 
 [!DNL Workfront] でのオブジェクトの定義方法に関する理解は、組織で必要なニーズに合わせて正しいオブジェクトを使用できるようにするために重要です。
 
-例えば、大量の作業を計画する場合、[!UICONTROL プロジェクト]オブジェクトを使用して、その作業を定義する必要があります。この作業をより少ない計画増分に分割するには、[!UICONTROL タスク]オブジェクトを使用できます。予定されていない作業量や予期せぬ作業量が少ない場合は、イシューオブジェクトを使用できます。プロジェクトのグループの進捗状況、予算やタイムラインへの準拠を追跡する場合は、[!UICONTROL ポートフォリオ]および[!UICONTROL プログラム]で整理できます。作業を解決する他の要素を定義するには、に保存されている他のオブジェクトを使用します。 [!UICONTROL プロジェクト], [!UICONTROL タスク], [!UICONTROL 問題]または [!UICONTROL Portfolio]，次に類似 [!UICONTROL ドキュメント], [!UICONTROL 更新], [!UICONTROL 時間], [!UICONTROL ユーザー]または [!UICONTROL ジョブの役割].
+例えば、大量の作業を計画する場合、[!UICONTROL プロジェクト]オブジェクトを使用して、その作業を定義する必要があります。この作業をより少ない計画増分に分割するには、[!UICONTROL タスク]オブジェクトを使用できます。予定されていない作業量や予期せぬ作業量が少ない場合は、イシューオブジェクトを使用できます。プロジェクトのグループの進捗状況、予算やタイムラインへの準拠を追跡する場合は、[!UICONTROL ポートフォリオ]および[!UICONTROL プログラム]で整理できます。作業の解決に役立つ他の要素を定義するには、に保存されている他のオブジェクトを使用します。 [!UICONTROL プロジェクト], [!UICONTROL タスク], [!UICONTROL 問題]、または [!UICONTROL Portfolio]、など [!UICONTROL ドキュメント], [!UICONTROL 更新], [!UICONTROL 時間], [!UICONTROL ユーザー]、または [!UICONTROL 担当業務].
 
 すべてのユーザーが簡単にアクセスできるようにするために、[!UICONTROL レポート]および[!UICONTROL ダッシュボード]は、[!DNL Workfront] のデータ量を視覚的に整理するのに役立つオブジェクトのもう 1 つの例です。
 
@@ -63,7 +65,7 @@ ht-degree: 86%
 
 ## オブジェクト名のカスタマイズ
 
-As a [!DNL Workfront] 管理者は、 [!DNL Workfront] を使用して [!UICONTROL レイアウトテンプレート].
+As a [!DNL Workfront] 管理者。でオブジェクト名をカスタマイズできます。 [!DNL Workfront] を使用する [!UICONTROL レイアウトテンプレート].
 
 [!UICONTROL レイアウトテンプレート]を使用してオブジェクト名をカスタマイズする方法について詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -142,7 +144,7 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 
 * システム表示で、スタイルや文法上の誤りが発生する場合があります。例えば、「[!UICONTROL イシュー]」から「リクエスト」に名前を変更した場合、システム内で「リクエスト」というフレーズが表示されますが、これは意図したとおりに機能しており、バグと見なされません。
 * オブジェクトのカスタム名は翻訳できません。[!DNL Workfront] デフォルトの名前のみは、サポートされている言語で翻訳できます。[!DNL Workfront] でサポートされる言語について詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md) でサポートされている言語を参照してください。カスタムオブジェクト名フィールドは外部文字をサポートしているので、任意の言語で用語を入力できます。
-* を使用してオブジェクト名をカスタマイズする場合  [!UICONTROL レイアウトテンプレート]を割り当てる場合は、  [!UICONTROL レイアウトテンプレート] ビジネスユニット（チームまたはグループ）に基づいて\
+* を使用してオブジェクト名をカスタマイズするとき  [!UICONTROL レイアウトテンプレート]を割り当てることをお勧めします  [!UICONTROL レイアウトテンプレート] ビジネスユニット（チームまたはグループ）によって異なります。\
    混乱を避けるために、これらのビジネスユニットのユーザーが明確に理解できる名前を使用することをお勧めします。
 * メール通知と配信されたレポートには、メールを生成したユーザーの[!UICONTROL レイアウトテンプレート]で定義されたオブジェクト名が常に含まれます。ユーザーは、他のチームやグループのユーザーからメール通知を受信した場合、自分のグループやチームに関係のないオブジェクト名がメールに表示されることを覚悟しておく必要があります。\
    [!DNL Workfront] 管理者として、各オブジェクトに関連付けられているアイコンに注意するようにユーザーにアドバイスしてください。アイコンは、さまざまなオブジェクト名間で一貫性を保ち、データベースに表示されるデフォルトオブジェクトと一貫性を保ちます。オブジェクトに関連付けられたすべての [!DNL Workfront] アイコンのリストについては、[オブジェクトアイコン](#object-icons)を参照してください。
@@ -202,9 +204,21 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 | [!UICONTROL プログラム] | ✓ | ✓ |
 | [!UICONTROL ダッシュボード] | ✓ | ✓ |
 | [!UICONTROL 会社] | ✓ | ✓ |
-| [!UICONTROL メモ] ( または [!UICONTROL 更新]) | ✓ |  |
+| [!UICONTROL 備考] （または [!UICONTROL 更新]） | ✓ |  |
 
 [!DNL Workfront] での基本検索と高度な検索の実行の詳細については、[検索 [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)を参照してください。
+
+
+## オブジェクトへの制限付きアクセス
+
+<span class="preview">
+ユーザーがオブジェクトへのアクセス権を持っていない場合、Workfrontでは、そのオブジェクト名が表示されるすべての場所に「アクセスなし」と表示されます。
+
+オブジェクトへのアクセスは、アクセスレベルまたは特定のオブジェクトの権限で制限できます。
+
+にリストされているすべてのオブジェクトと子オブジェクトに適用されます。 [オブジェクトの相互依存関係と階層](#interdependency-and-hierarchy-of-objects) この記事のセクションです。 これは、チームオブジェクトとユーザーオブジェクトには適用されません。
+
+</span>
 
 ## オブジェクトに関するレポート
 
@@ -218,15 +232,15 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 
 >[!NOTE]
 >
-> * レイアウトテンプレートを使用してオブジェクトの名前をカスタマイズした場合は、レポートビルダー内のオブジェクトの名前もカスタマイズされます。どのオブジェクトがカスタマイズされているかを確認し、レポートビルダーでカスタマイズされた名前を探してください。でカスタマイズされた名前を持つオブジェクトの詳細については、 [!DNL Workfront]を参照してください。 [を使用してカスタマイズ可能なオブジェクト名  [!UICONTROL レイアウトテンプレート]](#object-names-that-can-be-customized-using-a-layout-template) 」を参照してください。
+> * レイアウトテンプレートを使用してオブジェクトの名前をカスタマイズした場合は、レポートビルダー内のオブジェクトの名前もカスタマイズされます。どのオブジェクトがカスタマイズされているかを確認し、レポートビルダーでカスタマイズされた名前を探してください。で名前をカスタマイズできるオブジェクトの詳細については、 [!DNL Workfront]を参照してください [を使用してカスタマイズできるオブジェクト名  [!UICONTROL レイアウトテンプレート]](#object-names-that-can-be-customized-using-a-layout-template) この記事の内容です。
 > * レポートでテキストモードを使用する場合、テキストモード式内のオブジェクト名は、カスタマイズされたオブジェクト名ではなく、[!DNL Workfront] の標準名です。レポートでのテキストモードの使用について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
 レポートの作成に関して詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。\
 API の詳細については、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
 
-### レポートで使用できるオブジェクト
+### レポートに使用できるオブジェクト
 
-Report Builder を使用する際に、 [!DNL Workfront] web アプリケーション。 インデントされた箇条書きは、オブジェクトに関する詳細情報を提供し、追加のオブジェクトを表すものではありません。
+で Report Builder を使用する場合、次のオブジェクトについてレポートできます [!DNL Workfront] web アプリケーション。 インデントされた箇条書きは、オブジェクトに関する詳細情報を提供し、追加のオブジェクトを表すものではありません。
 
 * [!UICONTROL プロジェクト]
 * [!UICONTROL タスク]
@@ -251,7 +265,7 @@ Report Builder を使用する際に、 [!DNL Workfront] web アプリケーシ�
 * [!UICONTROL ドキュメント]
 * [!UICONTROL ドキュメントの承認]
 * [!UICONTROL ドキュメントバージョン]
-   * ドキュメントのバージョン、バージョンが関連付けられているドキュメント、バージョンの作成者、およびドキュメントのバージョンに対して配達確認を作成したユーザー（存在する場合）に関する情報を表示できます。
+   * ドキュメントのバージョン、そのバージョンが関連付けられているドキュメント、そのバージョンを作成したユーザー、そのドキュメントのバージョンにプルーフを作成したユーザー（プルーフ作成者）に関する情報を表示できます。
 * [!UICONTROL メールテンプレート]
 * [!UICONTROL 費用]
 * [!UICONTROL 費用タイプ]
@@ -259,8 +273,8 @@ Report Builder を使用する際に、 [!DNL Workfront] web アプリケーシ�
 * [!UICONTROL お気に入り]
 * [!UICONTROL フィルター]
 * [!UICONTROL 目標]
-   * 戦略的目標のレポートを作成したり、プロジェクトが目標アクティビティとして目標に関連付けられている場合は、プロジェクトレポートに目標関連情報を表示したりできます。組織が [!DNL Workfront Goals] ライセンスを購入している場合にのみ、戦略的目標を作成し、プロジェクトに結び付けることができます。[!DNL Workfront Goals] について詳しくは、[[!DNL Workfront Goals]  の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。プロジェクトを戦略目標に接続する方法については、 [Adobe Workfront目標の目標へのプロジェクトの追加](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-* [!UICONTROL ビジネス事例]. プロジェクトの目標と戦略的目標の詳細については、[ [!DNL Adobe Workfront]  用語の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
+   * 戦略的目標のレポートを作成したり、プロジェクトが目標アクティビティとして目標に関連付けられている場合は、プロジェクトレポートに目標関連情報を表示したりできます。組織が [!DNL Workfront Goals] ライセンスを購入している場合にのみ、戦略的目標を作成し、プロジェクトに結び付けることができます。[!DNL Workfront Goals] について詳しくは、[[!DNL Workfront Goals]  の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。プロジェクトを戦略的目標に結び付ける方法については、を参照してください。 [Adobe Workfront Goals で目標にプロジェクトを追加](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+*に関連付けられているプロジェクト目標については、レポートできません [!UICONTROL ビジネス ケース]. プロジェクトの目標と戦略的目標の詳細については、[ [!DNL Adobe Workfront]  用語の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
 * [!UICONTROL グループ]
 * [!UICONTROL グループ化]
@@ -274,7 +288,7 @@ Report Builder を使用する際に、 [!DNL Workfront] web アプリケーシ�
 * [!UICONTROL イテレーション]
 * [!UICONTROL 担当業務]
 * [!UICONTROL ジャーナルエントリ]
-   * タスク、プロジェクト、イシューなどのオブジェクトの「[!UICONTROL アップデート]」エリアで、追跡されたシステムアップデートについてレポートできます。詳しくは、 [レポート [!UICONTROL 更新] 領域](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * タスク、プロジェクト、イシューなどのオブジェクトの「[!UICONTROL アップデート]」エリアで、追跡されたシステムアップデートについてレポートできます。詳しくは、を参照してください [に関するレポート [!UICONTROL 更新] 面グラフ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL レイアウトテンプレート]
 * [!UICONTROL マイルストーン]
@@ -294,7 +308,7 @@ Report Builder を使用する際に、 [!DNL Workfront] web アプリケーシ�
 
 * [!UICONTROL プルーフの承認]
    * 承認のために送信されたプルーフ、[!UICONTROL 承認者] に関する情報、リクエスターに関する情報（リクエスターがライセンスを取得した [!DNL Workfront] ユーザーの場合）バージョン情報、プルーフ ID、プルーフの作成日など、プルーフの承認に関するさまざまな情報を表示できます。\
-      [!UICONTROL 配達確認の承認] レポートには、ユーザーの自分の作業領域で、まだ決定が下されていない配達確認のみが含まれます。\
+      [!UICONTROL 配達確認の承認] レポートには、まだ決定が下されていないユーザーのマイ作業エリアで利用可能なプルーフのみが含まれます。\
    * [ [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) でのプルーフを共有の[プルーフへのユーザーを追加](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)で説明されているように、プルーフの承認は [!DNL Workfront] で割り当てられます。
 
 * [!UICONTROL キュー]
@@ -323,7 +337,7 @@ Report Builder を使用する際に、 [!DNL Workfront] web アプリケーシ�
 
 * [!UICONTROL ユーザーの決定]
 
-   * 今月にユーザーが配達確認およびドキュメントに対しておこなった決定の数をレポートできます。
+   * 当月にユーザーがプルーフとドキュメントに対して行った決定の数をレポートできます。
 
 * [!UICONTROL 表示]
-* [!UICONTROL 作業項目] （これにより、タスクと問題に関するレポートが生成されます）
+* [!UICONTROL 作業アイテム] （タスクおよび問題に関するレポートが生成されます）
