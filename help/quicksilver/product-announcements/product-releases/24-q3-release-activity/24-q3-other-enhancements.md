@@ -4,7 +4,7 @@ description: 2024 年第 3 四半期のリリース期間中のその他の機�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 781dcf0fa2d5f3a3387e5e5e1e56f44669318195
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 7%
@@ -24,3 +24,5 @@ ht-degree: 7%
 この変更には、チームとユーザーは含まれません。 ユーザーは、引き続きチーム名とユーザー名を表示できます。
 
 詳しくは、セクションを参照してください [オブジェクトへの制限付きアクセス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) が含まれる [!DNL Adobe Workfront] オブジェクトの概要に関する記事
+
+
