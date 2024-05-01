@@ -6,7 +6,7 @@ description: Workfront Fusion でプロジェクトを作成していて、そ�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 17%
@@ -28,48 +28,46 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront プラン*</strong>
-   </td>
-   <td>任意
-   </td>
+    <td><strong>Adobe Workfront プラン*</strong></td>
+    <td>任意</td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront ライセンス*</strong>
-   </td>
-   <td>リクエスト以上
-   </td>
+   <td><strong>Adobe Workfront ライセンス*</strong></td>
+   <td>リクエスト以上</td>
   </tr>
   <tr>
-   <td><strong>製品</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>Experience Manager Assets as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されていることが必要です。</p>
-   </li
-   ><li>
-   <p>Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>新規：</p>
-   <ul>
-   <li>
-   <p>Workfront プランを選択または購入：Adobe Workfront Fusion は、お客様の組織で購入する必要があります。</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront プラン：Workfront Fusion が含まれています。</p>
-   </li>
-   </ul>
-   <p>または</p>
-   <p>現在：Adobe Workfront Fusion を購入する必要があります。</p>
+   <td><strong>製品</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager:</b></p>
+     <ul>
+       <li>
+         <p>Experience Manager Assets as a Cloud Service または Assets Essentials を使用するには、Admin Console に製品にユーザーとして追加されていることが必要です。</p>
+       </li>
+       <li>
+        <p>Adobe Experience Managerのリポジトリへの書き込みアクセス権が必要です。</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion:</b></p>
+     <p>新規：</p>
+     <ul>
+       <li>
+         <p>Workfront プランを選択または購入：Adobe Workfront Fusion は、お客様の組織で購入する必要があります。</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront プラン：Workfront Fusion が含まれています。</p>
+       </li>
+     </ul>
+     <p>または</p>
+     <p>現在：Adobe Workfront Fusion を購入する必要があります。</p>
    </td>
   </tr>
   <tr>
    <td><strong>アクセスレベル設定*</strong>
    </td>
    <td>ドキュメントへのアクセスを編集
-   <p>
-   <strong>メモ</strong>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<strong>カスタムアクセスレベルの作成または変更</strong>を参照してください。
+     <p>
+       <strong>メモ</strong>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<strong>カスタムアクセスレベルの作成または変更</strong>を参照してください。
+     </p>
    </td>
   </tr>
 </table>
