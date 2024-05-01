@@ -6,14 +6,16 @@ description: 配分率は、割り当てられたリソースが 1 日に 1 回�
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 98%
 
 ---
 
 # タスクに対するユーザーまたは役割の配分率の管理
+
+{{highlighted-preview}}
 
 配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
 
@@ -85,6 +87,10 @@ ht-degree: 100%
 
    タスクに割り当てられたチームの配分率は変更できません。
 
+   実稼動環境のサンプル画像：
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+
+   <span class="preview">プレビュー環境のサンプル画像：</span>
+   ![配賦率の変更](assets/advanced-assignments-allocation-percentage.png)
 
 1. 「**保存**」をクリックします。

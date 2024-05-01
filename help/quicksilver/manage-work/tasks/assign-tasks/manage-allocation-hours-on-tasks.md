@@ -6,14 +6,16 @@ description: タスクにユーザーまたはロールを割り当てると、�
 author: Alina
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
+workflow-type: tm+mt
+source-wordcount: '594'
+ht-degree: 98%
 
 ---
 
 # タスクに関するユーザーと役割の割り当て時間の管理
+
+{{highlighted-preview}}
 
 タスクにユーザーまたはロールを割り当てると、タスクを完了するために一定時間作業するように割り当てられます。タスク期間のタイプが「シンプル」の場合、各ユーザーまたは担当業務がタスクに割り当てられた際に割り当てられる時間数を、手動で変更できます。
 
@@ -76,6 +78,10 @@ ht-degree: 100%
 1. タスクの&#x200B;**期間タイプ**&#x200B;が&#x200B;**シンプル**&#x200B;であることを確認します。
 1. タスクの担当者ごとに&#x200B;**配分**&#x200B;を変更します。これは、タスクの期間全体に対する、このタスクへの各割り当ての全体的な配分です。これにより、タスクの全体的な予定時間数が更新される場合もあります。
 
+   実稼動環境のサンプル画像：
    ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+
+   <span class="preview">プレビュー環境のサンプル画像：</span>
+   ![割り当てを変更](assets/advanced-assignments-duration-type-allocations.png)
 
 1. 「**保存**」をクリックします。

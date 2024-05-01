@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 100%
+source-wordcount: '1966'
+ht-degree: 99%
 
 ---
 
@@ -170,7 +170,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    タスクまたはイシューが既に割り当てられている場合は、割り当ての名前をクリックします。
 
+   実稼動環境のサンプル画像：
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">プレビュー環境のサンプル画像：</span>
+   ![割り当て](assets/assignments-box-in-task-header.png)
 
 1. 次のいずれかの操作を行います。
 

@@ -7,16 +7,18 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 98%
+source-wordcount: '1490'
+ht-degree: 96%
 
 ---
 
 # イシューの割り当て
 
-ユーザー、役割、およびチームにイシューを割り当てて、イシューの完了担当者を指定できます。問題の割り当てに関する一般的な情報については、 [問題の割り当ての変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+{{highlighted-preview}}
+
+ユーザー、役割、およびチームにイシューを割り当てて、イシューの完了担当者を指定できます。問題の割り当てに関する一般的な情報については、を参照してください [イシューの割り当て変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -29,7 +31,7 @@ ht-degree: 98%
 
 イシューの割り当てに関して詳しくは、この記事に加え、以下の記事を読むことをお勧めします。
 
-* [問題の割り当ての変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [イシューの割り当て変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [イシューを編集](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [リスト内の複数のイシューに対するユーザー割り当てを変更](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -112,13 +114,17 @@ ht-degree: 98%
 
    イシューが既に割り当てられている場合は、現在の割り当ての名前をクリックします。
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![割り当て先ボタン](assets/assign-to-button-in-header.png)
 
 1. 次のいずれかの操作を行います。
 
    * 割り当てるユーザー、役割、またはチームの名前を入力し、リストに表示されたらクリックします。
 
+     実稼動環境のサンプル画像：
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">プレビュー環境のサンプル画像：</span>
+     ![割り当て検索](assets/assignments-expanded-in-task-issue-header.png)
 
    * （条件付き）**提案された割り当て**&#x200B;リスト内の名前の 1 つをクリックします。
    * クリック **自分に割り当て** 自分に割り当てる
@@ -161,7 +167,11 @@ ht-degree: 98%
 
    * 「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、またはアクティブなチームの名前の入力を開始し、リストに表示されたらクリックします。
 
+     実稼動環境のサンプル画像：
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">プレビュー環境のサンプル画像：</span>
+     ![割り当てフィールド](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
-workflow-type: ht
-source-wordcount: '1335'
-ht-degree: 100%
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * 各担当者に配分される時間数を調整および再配分。
 * タスクまたはイシューの所有者またはプライマリ担当者に指定するユーザーを決定。
 * タスクまたはイシューで作業する際に各ユーザーが果たす役割を指定。
-* <span class="preview">担当業務の請求料率を上書き。</span>
+  <!--* <span class="preview">Override the billing rate for a job role.</span>-->
 
 >[!NOTE]
 >
@@ -95,7 +95,11 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 1. 「**詳細**」をクリックします。
 
+   実稼動環境のサンプル画像：
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">プレビュー環境のサンプル画像：</span>
+   ![「詳細」をクリックします](assets/assignments-box-in-task-header.png)
 
 1. **ユーザー、役割、チームを検索**&#x200B;フィールドに、ユーザー、役割、またはチームの名前を入力し、ドロップダウンリストに表示された名前をクリックします。
 
@@ -115,15 +119,15 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
    >
    >
-   >* <span class="preview">担当業務の割り当てを追加する際に、担当業務や場所を検索できます。割り当てに対してデフォルトの請求料率を使用する場合は「システム / デフォルトの担当業務」を選択し、割り当てレベルで料率を上書きする場合は「評価カードの担当業務」を選択します。評価カードについて詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。</span>
-   >
-   >
    >* 非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
    >   
    >   * 作業アイテムをアクティブなリソースに再割り当てする。
    >   * 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
-   >   
    >
+
+   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
+    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+    -->
 
 1. 「**担当者**」列で、ユーザーごとに次の情報を指定します。
 
@@ -153,15 +157,19 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「割り当て先の役割」ボックスをクリックして、別の役割を選択します。最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
 
+     実稼動環境のサンプル画像：
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-   <div class="preview">
+     <span class="preview">プレビュー環境のサンプル画像：</span>
+     ![割り当て先の役割](assets/advanced-assignments-select-role.png)
 
-   * **場所**：プロジェクトに添付されている評価カードで担当業務のある場所が使用されている場合、場所は評価カードから取得されます。場所は変更できません。
+   <!--<div class="preview">
 
-   * **請求料率**：ユーザーの請求料率は、ユーザーまたはユーザーに関連付けられた担当業務のシステム料率から取得されます。担当業務の請求料率は、システム料率または評価カード（評価カードがプロジェクトに添付されている場合）から取得されます。既存の請求料率は、このフィールドには表示されません。この特定のタスク割り当ての請求料率を変更するには、このフィールド内をクリックします。
+   * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
-   </div>
+   * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
+
+   </div>-->
 
    * **期間タイプ**：これは、タスクでのみ使用できます。期間タイプの名前をクリックし、ドロップダウンメニューから期間タイプを選択します。期間タイプについては、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
@@ -172,14 +180,12 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    * **予定時間数**：期間タイプが「予定割り当て時間」または「シンプル」の場合は、予定時間数の数値を更新します。その結果、それぞれのリソースの配分率または時間数が均等に配分されます。Workfront では、期間タイプが「予定作業」または「残存作業時間の優先」の場合は、予定時間数を計算します。詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
      実稼動環境のサンプル画像：
-
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
      <div class="preview">
 
      プレビュー環境のサンプル画像：
-
-     ![高度な割り当て](assets/advanced-assignments-location-billing-rates.png)
+     ![高度な割り当て](assets/advanced-assignments-duration-type-allocations.png)
 
      </div>
 
