@@ -1,24 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: アセットのレビューと承認の概要
-description: Workfrontの正式なレビューおよび承認プロセスについて説明します。
+title: アセットのレビューと承認の基本を学ぶ
+description: Workfrontと Frame.io を使用した正式なレビューおよび承認プロセスについて説明します。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
+source-git-commit: cc00cfcaf9e3abac018384e42568f635b5f70b54
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 1%
+source-wordcount: '1187'
+ht-degree: 0%
 
 ---
 
-# アセットのレビューと承認の概要
+# アセットのレビューと承認の基本を学ぶ
 
-新しいアセットのレビューと承認のワークフローは、Workfrontと Frame.io の緊密な統合に基づいて構築されています。 この統合では、各製品が提供する機能を最大限に活用し、それを組み合わせてエクスペリエンスを作成します。コンテンツの作成に関与するすべてのペルソナが、選択したツールで作業しながら、コメント、ファイル、ステータス更新にアクセスできます。両方のシステムでリアルタイムに同期されます。
+新しいアセットのレビューと承認のワークフローは、Workfrontと Frame.io の緊密な統合に基づいて構築されています。 この統合では、各製品の機能を最大限に活用し、それらを組み合わせてエクスペリエンスを作成します。これにより、コンテンツの作成に関与しているすべてのユーザーが選択したツールを使用しながら、コメント、ファイル、ステータスの更新にアクセスできるようになります。これらはすべて、両方のシステム間でリアルタイムに同期されます。
 
 Frame.io の詳細については、を参照してください [Frame.io の基本を学ぶ](https://support.frame.io/en/collections/49298-getting-started).
 
@@ -26,17 +26,26 @@ Frame.io の詳細については、を参照してください [Frame.io の基
 
 Workfront管理者は、設定エリアでデフォルトの Frame.io アカウントを設定し、Workfrontで Frame.io ユーザーを指定することで、Workfrontと Frame.io の統合を有効にします。 これにより、コーディネーターはWorkfront プロジェクトと正式なレビューおよび承認ワークフローを使用して、作業を計画および開始できます。
 
-### デフォルトの Frame.io アカウントの設定
+### デフォルトの Frame.io アカウントの設定 [!BADGE 準備中]{type=Informative}
+
+>[!IMPORTANT]
+>
+>この機能は、近日公開予定です。 現時点では、Workfront チームが Frame.io アカウントを手動で追加します。 Adobeアカウント担当者にお問い合わせください。
+
 
 Workfront管理者は、Workfrontの設定領域にデフォルトの Frame.io アカウントを追加することで、Workfrontと Frame.io の統合を開始します。 デフォルトの Frame.io アカウントが設定されると、Workfrontで作成されたプロジェクトには、Frame.io で作成されたミラープロジェクトが含まれます。
 
-詳しくは、[] を参照してください。
+<!--For more information, see [].
 
-<!-- in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
+ in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
 
-### Frame.io ユーザーの有効化
+### Frame.io ユーザーの有効化が利用可能になりました
 
 Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユーザーとしてマークされる必要があります。 Workfront管理者は、Workfront ユーザープロファイルで Frame.io ユーザーを指定できます。
+
+>[!TIP]
+>
+>クリエイティブツールで定期的に作業し、Frame.io ユーザーとしてレビューおよび承認用のアセットをアップロードするユーザーを有効にすることをお勧めします。
 
 Workfrontでユーザーが Frame.io ユーザーとしてマークされ、プロジェクトに追加されると、
 
@@ -44,9 +53,7 @@ Workfrontでユーザーが Frame.io ユーザーとしてマークされ、プ�
 * 正式なレビューと承認のために、Frame.io からWorkfrontにアセットを送信できます
 * Workfrontから一方向の同期フォルダーの情報を表示できます
 
->[!TIP]
->
->クリエイティブツールで定期的に作業し、Frame.io ユーザーとしてレビューおよび承認用のアセットをアップロードするユーザーを有効にすることをお勧めします。
+
 
 詳しくは、[] を参照してください。
 
@@ -57,10 +64,10 @@ Workfrontでユーザーが Frame.io ユーザーとしてマークされ、プ�
 
 デフォルトの Frame.io アカウントが追加され、Frame.io ユーザーが指定されると、プロジェクトコーディネーターは Frame.io に接続されたWorkfront プロジェクトを作成できます。 接続プロジェクトを作成すると、次の操作を実行できます
 
-* **Frame.io ユーザーのタスクへの割り当て**:Frame.io が有効なユーザーは、タスクに割り当てられるとメールで通知され、完了する作業があることを示します。
-* **Frame.io ユーザーとのプロジェクトの共有**:Frame.io 対応のユーザーと共有されたプロジェクトは、Frame.io 内のプロジェクトへのアクセス権をユーザーに付与します。
-* **Frame.io とのクリエイティブマテリアルの共有**：一方向同期プロジェクトフォルダーを使用して、Workfrontから Frame.io のクリエイティブユーザーに指示や資料を直接送信できます。
-* **タスクの進捗の追跡**: クリエイティブ担当者は、Frame.io を離れることなく、完成したアセットを送信し、タスクに完了のマークを付けることができます。
+* **Frame.io ユーザーのタスクへの割り当て**:Frame.io が有効なユーザーは、Workfront タスクが割り当てられるとメールで通知され、完了する作業があることを示します。
+* **Frame.io ユーザーとのプロジェクトの共有**：プロジェクトが Frame.io 対応のユーザーと共有されると、Workfrontと Frame.io の両方内のプロジェクトにアクセスできます。
+* **Frame.io とのクリエイティブマテリアルの共有**：プロジェクトコーディネーターは、一方向同期プロジェクトフォルダーを使用して、Workfrontから Frame.io のクリエイティブユーザーに直接、指示や資料を送ることができます。 [!BADGE 準備中]{type=Informative}
+* **タスクの進捗の追跡**：クリエイティブ担当者は、完成したアセットを送信し、タスクを完了としてマークすることができます。これらはすべて、Frame.io を離れることなく行えます。
 
 詳しくは、[] を参照してください。
 
@@ -71,85 +78,86 @@ Workfrontでユーザーが Frame.io ユーザーとしてマークされ、プ�
 
 クリエイティブ担当者は、選択したツールを使用し続けることで、Frame.io 内で自由にピアレビューを作成、反復、実施することができます。
 
-クリエイティブが接続されたプロジェクトに追加された場合、Frame.io を離れることなく、次の操作を行うことができます。
+クリエイティブを接続されたプロジェクトに追加すると、Frame.io で次の操作を実行できます。
 
-* プロジェクトコーディネーターから手順へのアクセス
+<!--* Access instructions from the project coordinator -->
 * 非公式なピアレビューの実施
 * 完成したアセットをWorkfrontに送信して、正式にレビューおよび承認する
 * タスクの状態の変更または完了のマーク
-<!-- * Notification of decision
-* Upload new versions of connected assets marked as needs more work < will automatically connect>-->
+* 新しいバージョンをアップロードしてから、承認のために再送信してください <!--do they have to send to frame.io again?-->
 
-Frame.io でのアセットの確認について詳しくは、
+Frame.io でのアセットの確認について詳しくは、 [].
 
 ## アセットのレビューと承認
 
 クリエイティブが完成したアセットを Frame.io からWorkfrontに送信すると、プロジェクトコーディネーターはWorkfrontで正式なレビューと承認のプロセスを開始できます。
 
-承認が作成されると、ユーザーは Frame.io に戻ってアセットにコメントし、マークアップします。 また、Frame.io ビューアで承認の決定を行うこともできます。
+承認ワークフローが作成されると、レビュー担当者と承認者は Frame.io に戻ってコメントを追加し、アセットをマークアップします。 また、Frame.io ビューアで承認の決定を行うこともできます。
 
 ### Workfrontでの正式なレビューと承認の開始
 
-プロジェクトコーディネーターは、Workfrontの設定エリアで、1 回限りのレビューと承認、または再利用可能な承認テンプレートを作成できます。 Frame.io で行われたレビューと承認のアクティビティはすべてWorkfrontにも記録されます。
+プロジェクトコーディネーターは、1 回限りのレビューと承認、または再利用可能な承認テンプレートを作成できます。 Frame.io におけるすべてのレビューと承認のアクティビティもWorkfrontに記録されます。
 
 #### レビュー担当者と承認者の追加
 
 プロジェクトコーディネーターは、レビュー担当者、承認者、またはその両方を割り当てるオプションがあります。
 
-* **Reviewers** アセットにコメントしたり、アセットをマークアップしたりできます。 完了したら、レビューを完了としてマークできます。 <!--example of when to add reviewers-->
-* **承認者** アセットにコメントしたり、アセットをマークアップしたりできます。 承認プロセスを進めるための決定を行う必要があります。
+* **Reviewers** コメントを追加したり、アセットをマークアップしたりできます。 完了したら、レビューを完了としてマークできます。 アセットを承認プロセスで先に進めるために、レビューを完了とマークする必要はありません。<!--example of when to add reviewers-->
+* **承認者** コメントを追加したり、アセットをマークアップしたりできます。 承認プロセスを進めるための決定を行う必要があります。
 
 
 #### レビューおよび承認ワークフローの作成
 
-レビュー担当者と承認者は、1 回限りの承認ワークフローまたは承認テンプレートに追加できます。
+レビュー担当者と承認者は、1 回限りの承認ワークフローまたは再利用可能な承認テンプレートに追加できます。
 
-<!--can also assign teams and set deadline-->
-メール – 期限のメール 72、24、および期限に。
+* **1 回限りの承認**：プロジェクトコーディネーターは、アセットが存在するプロジェクトまたはタスクでレビュー担当者と承認者を割り当て、完了期限を設定できます。 レビュー担当者と承認者には、期限の 72 時間前と 24 時間前に、および期限自体にメールで通知が送信されます。
 
-* **1 回限りの承認**：承認期限の設定
-
-* **承認テンプレート**
-Workfrontの「設定」領域で、Standard ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。 ユーザーはテンプレート内で期間を指定し、レビュー担当者と承認者を追加できます。 <!--do we want to mention any upcoming plans here? -->
+* **承認テンプレート**:Workfrontの設定領域で、プロジェクトコーディネーターは適切な承認テンプレートを作成できます。 ユーザーはテンプレート内で、レビュー担当者と承認者を追加し、完了期間を指定できます。 承認テンプレートがアセットに適用されると、期限が指定された期間から計算されます。
 
   作成したテンプレートは、Frame.io から送信されるアセットに適用され、Workfrontでの正式なレビューおよび承認プロセスを開始できます。
   ![](assets/assign-template.png)
 
-<!-- can set timreframe which calculates deadline once approval is started. >
+  詳しくは、を参照してください [承認テンプレートの作成と管理]
+  <!--add link.-->
 
-    For more information, see [Create and manage Approval Templates](/)<!--don't forget link-->
-
-* Workfrontからアセットをアップロードし、レビューおよび承認用にフレームに送信 – 近日公開しますか？
+* Workfrontからアセットをアップロードしフレームに送信してレビューおよび承認を受ける <!-- delayed? -Need more info on this workflow -->
 
 ### Frame.io でのアセットの承認
 
 関係者は、Frame.io ビューアを使用して、接続されたアセットを確認および承認できます。
 
+Frame.io でのアセットの確認について詳しくは、 <!-- get link from frame team?-->
+
 #### Frame.io ビューアへのアクセス
 
 ユーザーは、次の方法で Frame.io ビューアにアクセスできます。
 
+* Workfrontのメール通知
 * 新しいWorkfrontのホームエリアの「承認待ち」ウィジェット
-* Workfrontのメール通知。
+  ![](assets/awaiting-my-approval.png)
 
-社外の Workfront ユーザーは、アセットをレビューおよび承認するために、Frame.io ログインを作成するよう求められます。
 
-#### アセットに対するコメントとマークアップ
+>[!NOTE]
+>
+>Workfrontの社外ユーザーにはメールで通知され、アセットをレビューおよび承認するために Frame.io ログインを作成するよう求められます。
+<!-- is this right?-->
 
-Frame.io ビューアで作成されたすべてのコメントは、「Workfrontの更新」タブにも記録されます。 Workfrontで行われた返信は、Frame.io には表示されません。 「チームのみ」とマークされたコメントは、「Workfrontの更新」タブには表示されません。
+
+#### コメントの追加とアセットのマークアップ
+
+Frame.io ビューアで作成されたすべてのコメントは、「Workfrontの更新」タブにも記録されます。 Workfrontで行われた返信は、Frame.io には表示されません。 コメントが Frame.io ビューアで「チームのみ」とマークされている場合、「Workfrontの更新」タブには表示されません。
 
 #### 決定を下す
 
-承認者は、次のいずれかの決定を行う必要があります。
+すべてのレビューアクティビティが完了したら、承認者は次のいずれかの決定を行う必要があります。
 
-* 承認：これ
-* 変更して承認
-* 作業が必要
+* 承認：アセットは変更する必要がなく、使用する準備が整っています。
+* 変更を承認：アセットには変更が必要です。変更が行われると使用できるようになります。 追加の承認は必要ありません。
+* 作業が必要：アセットに変更が必要ですが、使用する準備ができていません。 指定した変更を行ったら、アセットを新しいバージョンとしてアップロードし、別の承認を行う必要があります。 <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
-レビュー担当者は、Frame.io ビューア内でレビューを完了としてマークできます。
+レビュー担当者は、Frame.io ビューア内でレビューを完了とマークできますが、アセットが承認プロセスを進めるためにレビューを完了する必要はありません。 <!--check if this is accurate -->
 
-<!-- include screenshot from frame.io-->
-
+![](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -160,17 +168,21 @@ Reviewer/approver needs to go through email to get to frame vier
 
 ### レビューおよび承認指標の追跡
 
-ホームの承認速度レポートのウィジェット
+プロジェクトコーディネーターは、次のウィジェットを使用して、Workfrontのホームエリアにあるすべての進行中の承認の進行状況を監視できます。
 
-<!--
-### Published approved assets to Adobe Experience Manager Assets
+* **すべての承認**：平均承認時間と決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリストビューを表示します。
+  ![](assets/all-approvals.png)
 
-Use the native integration to send approved assets to AEM.
--->
 
+### Adobe Experience Manager Assetsへの承認済みアセットの送信
+
+<!-- deprioritized?-->
+ネイティブ統合を使用して、承認済みアセットをAdobe Experience Manager Assetsに送信します。
+
+^詳細情報が必要
 
 ## キャンペーンアセット承認ワークフローの例
 
-導入部の段落
+<!-- do we still want something like this?-->
 
-![](assets/example-workflow.png) <!-- probbly need a different version of this but add something similar rather than typing all out?-->
+![](assets/example-workflow.png)  – これの別のバージョンや、ビデオチュートリアルが必要になる場合があります
