@@ -1,0 +1,52 @@
+---
+product-area: Canvas Dashboards
+navigation-topic: report-types
+title: キャンバスダッシュボードへの承認待ちレポートの追加
+description: 保留中および過去の承認決定に関するデータを含む承認待ちレポートをキャンバスダッシュボードに追加できます。
+author: Nolan
+feature: Reports and Dashboards
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 25%
+
+---
+
+# キャンバスダッシュボードへの承認待ちレポートの追加
+
+保留中および過去の承認決定に関するデータを含む承認待ちレポートをキャンバスダッシュボードに追加できます。
+
+キャンバスダッシュボードでのレポートの追加および並べ替えに関する一般的な情報については、を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+
+## アクセス要件
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td>新規：標準
+   <p>または</p>
+   <p>現在：プラン</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ダッシュボードの編集アクセス権が必要です。</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+## キャンバスダッシュボードへの承認待ちレポートの追加
+
+>[!IMPORTANT]
+>
+>この記事はまだ仕上がっていない。 キャンバスダッシュボードにレポートを追加するための一般的な手順については、記事を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).

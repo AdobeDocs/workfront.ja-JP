@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
 workflow-type: tm+mt
-source-wordcount: '14191'
+source-wordcount: '14154'
 ht-degree: 97%
 
 ---
@@ -1512,29 +1512,20 @@ ht-degree: 97%
       * [ユーザー名は既に使用されています](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * レポート {#reporting}
    * [報告書とダッシュボード：記事インデックス](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * レポートキャンバス {#reporting-canvas}
-      * [レポートキャンバス](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * レポートの管理 {#manage-reports}
-         * [レポートの管理の概要](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-         * [レポートキャンバスでのレポートの作成](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-         * [レポートキャンバスでのレポートの書き出し](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-      * テーブルブロック {#table-blocks}
-         * [テーブルブロック](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-         * [レポートキャンバスへのテーブルブロックの追加または編集](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-         * [レポートキャンバスでのテーブル列を設定する](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-         * [レポートキャンバスで式フィールドを作成](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-         * [レポートキャンバスのテーブル行をグループ化する](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-         * [レポートキャンバスでテーブルをフィルタリング](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-      * ビジュアライゼーションブロック {#visualization-blocks}
-         * [ビジュアライゼーションブロック](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-         * [レポートキャンバスでビジュアライゼーションブロックを追加または編集する](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-         * [レポートキャンバスでバービジュアライゼーションを設定する](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-         * [レポートキャンバスでの列の可視化を設定](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-         * [レポートキャンバスでの円グラフビジュアライゼーションの設定](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-         * [レポートキャンバスでの KPI のビジュアライゼーションの設定](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-      * その他のブロック {#other-blocks}
-         * [その他のブロック](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-         * [レポートキャンバスでの web コンテンツブロックの追加または編集](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+   * キャンバスダッシュボード {#canvas-dashboards}
+      * [キャンバスダッシュボード](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * キャンバスダッシュボードの管理 {#manage-canvas-dashboards}
+         * [キャンバスダッシュボードの管理](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [キャンバスダッシュボードの基本を学ぶ](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+         * [キャンバスダッシュボードでのレポートの追加、削除、配置](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+         * [キャンバスダッシュボードの共有](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+      * キャンバスダッシュボードのレポートタイプ {#report-types}
+         * [キャンバスダッシュボードのレポートタイプの概要](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+         * [キャンバスダッシュボードへの既存のレポートの追加](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+         * [キャンバスダッシュボードでの KPI レポートの作成](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [キャンバスダッシュボードでのグラフレポートの作成](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [キャンバスダッシュボードでのテーブルレポートの作成](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [キャンバスダッシュボードへの承認待ちレポートの追加](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
    * レポート {#reports}
       * [レポート](reports-and-dashboards/reports/reports-overview.md)
       * レポートの基本 {#report-basics}
