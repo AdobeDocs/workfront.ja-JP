@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion HTTP モジュールで相互 TLS を使用�
 author: Becky
 feature: Workfront Fusion
 exl-id: ace9c404-34de-4bc5-bc77-2e53df36dbd9
-source-git-commit: a340a082e1490c46d3ab5c9591e2e30eee266fcf
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ HTTP リクエストを使用して web サービスに接続する場合、通�
 
 次のリンクを使用して、Workfront Fusion の公開証明書をダウンロードできます。
 
-### 2023年5月25日（PT）～2024年6月9日（PT）の証明書
+### 2023 年 4 月 23 日（PT）から 2024 年 5 月 7 日（PT）の証明書
 
 >[!IMPORTANT]
 >

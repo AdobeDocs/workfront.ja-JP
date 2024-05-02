@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 27833c61ce7ff0ba14cf6edb535057f56e98516e
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 96%
+source-wordcount: '144'
+ht-degree: 89%
 
 ---
 
@@ -44,4 +44,5 @@ ht-degree: 96%
 * [[!DNL Adobe Workfront Fusion] シナリオの例：メール、[!UICONTROL テキストパーサー]、 [!DNL Google Sheets] を接続](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [ [!DNL Adobe Workfront Fusion] でのシナリオバージョンの復元](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [ [!DNL Adobe Workfront Fusion] へのモジュールまたはシナリオのコピー](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+* [モジュールの新しいバージョンへの更新 [!DNL Adobe Workfront Fusion] シナリオ](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [ [!DNL Adobe Workfront Fusion] でのロックされたシナリオの表示と管理](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)

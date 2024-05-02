@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: c3c3c2b7f7cf867ed98c2bbbb54d5a50980a78a0
+source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
 workflow-type: tm+mt
-source-wordcount: '14154'
+source-wordcount: '14164'
 ht-degree: 97%
 
 ---
@@ -2180,6 +2180,7 @@ ht-degree: 97%
       * [Adobe Workfront Fusion でのシナリオの実行履歴の表示](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Adobe Workfront Fusion での未完了の実行の表示と解決](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [ [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md) でロックされたシナリオの表示および管理
+      * [モジュールの新しいバージョンへの更新 [!DNL Adobe Workfront Fusion] シナリオ](workfront-fusion/scenarios/update-module-to-new-version.md)
       * [Adobe Workfront Fusion でのシナリオのスケジュール](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Adobe Workfront Fusion でのシナリオのアクティベートまたはディアクティベート](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adobe Workfront Fusion のシナリオへのフィルターの追加](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
