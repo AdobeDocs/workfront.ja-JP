@@ -6,7 +6,7 @@ title: モジュールの新しいバージョンへの更新 [!DNL Adobe Workfr
 description: Workfront Fusion が接続するアプリケーションは新しいバージョンをアップデートまたはリリースする可能性があるので、Fusion がそれらのアプリケーションのアップデートされたモジュールをリリースする必要が生じる場合があります。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ Workfront Fusion が接続するアプリケーションは新しいバージョ
 1. 既存のモジュールと同じ設定でモジュールを設定します。
 1. 既存のモジュールと同じ場所にあるシナリオに新しいモジュールを接続します。
 1. 古いモジュールを削除します。
+
+
+
 
 
 
