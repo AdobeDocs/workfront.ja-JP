@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '721'
 ht-degree: 65%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 65%
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>24.5 （2024 年 5 月）</li><li>24.6 （2024 年 6 月）</li><li>24.7 （2024 年 7 月）</li></ul> | <ul><li>24.7 （2024 年 7 月）</li></ul> |
+>| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6 （2024 年 6 月）</li><li>24.7 （2024 年 7 月）</li></ul> | <ul><li>24.7 （2024 年 7 月）</li></ul> |
 >
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
@@ -136,7 +136,7 @@ ht-degree: 65%
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr>
+                <tr>
                     <td>
                         <p><span class="bold">機能</span>
                         </p>
@@ -145,8 +145,8 @@ ht-degree: 65%
                         <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">オブジェクトアクセスが制限されたユーザーの UI エクスペリエンスが向上しました</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -164,26 +164,6 @@ ht-degree: 65%
                                 <p>四半期リリース用の実稼動版：24.7 リリースに併せて </p>
                             </li>
                         </ul>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">機能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">リリース日</span>
-                        </p>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">機能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">リリース日</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
