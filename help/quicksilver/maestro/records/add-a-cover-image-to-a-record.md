@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 22%
@@ -93,12 +93,12 @@ ht-degree: 22%
 * カバー画像は、1 つのレコードに固有で、同じタイプのすべてのレコードには適用されません。
 * カバー画像として追加できるのは画像ファイルのみです。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* カバー画像は、任意のビューのレコード ボックスまたはレコード ページから個々のレコードに追加できます。
+* 任意のビューのレコードプレビューまたはレコードページから、カバー画像を個々のレコードに追加できます。
 * どのレコードビューからもカバー画像をインラインで追加することはできません。
 
 ## レコードへのカバー画像の追加
 
-レコードをパーソナライズするには、レコードボックスまたはページの上部にカバー画像を追加します。
+レコードのプレビューまたはページの上部にカバー画像を追加して、レコードをパーソナライズできます。
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ ht-degree: 22%
 
    テーブル テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。
 
-   レコードのボックスがビューで開きます。
+   レコードのプレビューがビューで開きます。
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ ht-degree: 22%
    >
    >を表示できます **詳細を開く** テーブル ビューで、[ 名前 ] フィールドがプライマリ フィールドの場合のみ、[ 名前 ] フィールドの左側にあるアイコンです。
 
-1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコード ボックスの右上隅で、レコードのページを新しいタブで開きます。
+1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。
 
    レコードページが開きます。
 
    ![](assets/details-page.png)
 
-1. レコード ボックスまたはレコード ページで、 **カバーを追加**. <!--check the casing here; I logged a bug for this-->
+1. レコードのプレビューまたはページで、 **カバーを追加**. <!--check the casing here; I logged a bug for this-->
 この **レコードカバー** ボックスが開きます。
 
 1. クリック **選択してアップロード** コンピュータ上の画像を参照して選択し、追加してから、 **画像を使用**.
 
-   画像はレコードボックスまたはページの上部にアップロードされ、変更は自動的に保存されます。
+   画像はレコードのプレビューまたはページの上部にアップロードされ、変更は自動的に保存されます。
 
    ![](assets/record-page-with-cover-image.png)
 

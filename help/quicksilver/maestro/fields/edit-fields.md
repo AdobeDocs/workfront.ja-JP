@@ -1,18 +1,18 @@
 ---
-title: フィールドを編集
-description: Adobe Workfront Planning では、既に作成済みのフィールドのフィールド設定を編集できます。
+title: フィールドの編集
+description: Adobe Workfront Planning では、作成済みのフィールドのフィールド設定を編集できます。 ここでは、Workfront計画フィールドの設定を編集する方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 5%
+source-wordcount: '469'
+ht-degree: 23%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
 title: Edit foelds
@@ -25,28 +25,36 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# フィールドを編集
+# フィールドの編集
 
 {{maestro-important-intro}}
 
 Adobe Workfront Planning で既に作成されているフィールドのフィールド設定を編集できます。
 
-「 Adobe Workfront Planning 」フィールドの作成について詳しくは、 [フィールドの作成](../fields/create-fields.md).
+Adobe Workfront Planning フィールドの作成の詳細は、次を参照してください： [フィールドの作成](../fields/create-fields.md).
 
-この記事では、Workfront Planning フィールドの設定を編集する方法について説明します。 レコードのフィールド値の編集について詳しくは、 [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+ここでは、Workfront計画フィールドの設定を編集する方法について説明します。 レコードのフィールド値の編集については、を参照してください [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
-## フィールド情報の編集に関する考慮事項
+## フィールド設定の編集に関する考慮事項
 
-* フィールドが属するワークスペースに対する管理権限を持っている場合は、作成したフィールドまたは他のユーザーが作成したフィールドを編集できます。
-* レコードタイプテーブルのフィールドを編集できます。
-* レコードページやタイムライン表示では、フィールドを編集できません。
-* フィールドを保存した後は、フィールドタイプを編集できません。
-* 添付先のレコードに既に負の値が格納されている場合は、[ 数値 ]、[ 割合 ]、または [ 通貨 ] フィールドに対して、以前に選択した [ 負の値を許可する ] 設定の選択を解除することはできません。
-<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
-* You cannot edit the options, or the special format of the following fields, after they are saved:
+フィールドの設定を変更する前に、次の点を考慮する必要があります。
 
-    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+* フィールドが属するワークスペースへの管理権限がある場合は、自分が作成したフィールドや、他のユーザーが作成したフィールドを編集できます。
+* レコードタイプ テーブルのフィールドを編集できます。
+* レコード ページまたはテーブル ビュー以外の他のビューでフィールドを編集することはできません。
+* フィールドの保存後にフィールドタイプを編集することはできません。
+* 「数値」、「パーセント」または「通貨」フィールドで、添付対象のレコードにマイナスの値が格納されている場合は、以前に選択した「マイナスの値を許可」設定を選択解除できません。
+
+<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+
+* You can edit the configuration of the following fields, after they are saved:
+
+    * The Name or the Description of any field
     * The Options of a Single-select or a Multi-select field.
+    * The expression of a Formula field.-->
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
 ## アクセス要件
@@ -66,9 +74,9 @@ Adobe Workfront Planning で既に作成されているフィールドのフィ�
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront協定</p></td>
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織がAdobe Workfront Planning ベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -86,19 +94,19 @@ Adobe Workfront Planning で既に作成されているフィールドのフィ�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning のアクセス制御はありません</p>  
+   <td> <p>Workfront Planning にはアクセス制御はありません</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する権限の管理</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
+   <td> <p>ワークスペースに対する権限を管理</a> </p>  
+   <p>システム管理者は、自身が作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -110,7 +118,7 @@ Adobe Workfront Planning で既に作成されているフィールドのフィ�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## フィールドを編集
+## フィールド設定を編集
 
 {{step1-to-maestro}}
 
@@ -119,11 +127,11 @@ Adobe Workfront Planning で既に作成されているフィールドのフィ�
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを削除するワークスペースを選択します。
 
    ワークスペースが開き、それに関連付けられたレコードタイプが表示されます。
-1. フィールドを編集するレコードタイプのカードをクリックします。
+1. 編集するフィールドを持つレコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
-1. （条件付き） **テーブル表示** から **表示** レコードタイプページの右上隅にあるドロップダウンメニュー。
-1. 編集するフィールドの列見出しの上にマウスポインターを置き、フィールド名の後の下向き矢印をクリックして、 **フィールドを編集**
+1. （条件付き）のタブをクリック **テーブル表示**.
+1. 編集するフィールドの列見出しにポインタを合わせ、フィールド名の後の下向き矢印をクリックして、クリックします **フィールドを編集**
 
    または
 
@@ -131,7 +139,7 @@ Adobe Workfront Planning で既に作成されているフィールドのフィ�
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. フィールドに関する情報を更新し、 **保存**.
+1. フィールドに関する情報を更新し、をクリックします **保存**.
 
    <!--insert screen shot when finalized-->
 
@@ -139,7 +147,18 @@ Adobe Workfront Planning で既に作成されているフィールドのフィ�
    >
    >フィールドを保存した後は、フィールドタイプを更新できません。
 
+   フィールド情報は、ワークスペースを表示するアクセス権を持つすべてのユーザーに対して更新されます。
 
-1. （条件付き）リンクされたレコードフィールドの場合、 **参照フィールドの編集** リンクされたレコードタイプに対して、任意のフィールドを追加または削除します。
+   <!--After the release of the RTBE for field configurations, replace the tip with this:
 
-   詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
+    >[!TIP]
+    >
+    >* You cannot update the field type after the field is saved.
+    >
+    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. 
+    -->
+
+
+1. （条件付き）リンクされたレコードフィールドで、 **参照フィールドを編集** また、リンクされたレコードタイプにフィールドを追加したり、いずれかのフィールドをリンクされたレコードタイプから削除したりできます。
+
+   詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。

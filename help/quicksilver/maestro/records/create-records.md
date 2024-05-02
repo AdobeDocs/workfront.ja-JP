@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 59%
 
 ---
@@ -127,14 +127,14 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    または
 
-   新しいレコードの名前または **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。 レコードの詳細情報を含むボックスがテーブルで開きます。
+   新しいレコードの名前または **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。 レコードの詳細情報を含むプレビューがテーブルに表示されます。
 
    >[!TIP]
    >
-   >「詳細」ボックスにアクセスできるのは、レコードの名前フィールドから、名前フィールドがプライマリフィールドの場合のみです。
+   >にアクセスできます **詳細を開く** 名前フィールドがプライマリフィールドの場合に、レコードの名前フィールドからのみ表示されるアイコン。
 
-1. レコードのボックスでレコードの情報の編集を開始します。 Workfrontによって変更内容が自動保存されます。
-1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) レコードのページを新しいタブで開くには、レコードのボックスの右上隅にあります。 レコードページでレコードの編集を続行します。
+1. レコードのプレビューでレコードの情報の編集を開始します。 Workfrontによって変更内容が自動保存されます。
+1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。 レコードページでレコードの編集を続行します。
 
 
 1. （オプション）新規レコードの追加を取り消すまたはやり直すには、次のキーボードショートカットを使用できます。

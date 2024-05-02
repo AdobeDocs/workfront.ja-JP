@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 60%
+source-wordcount: '1520'
+ht-degree: 59%
 
 ---
 
@@ -92,11 +92,11 @@ ht-degree: 60%
 * ワークスペースへの権限がある場合は、自分が作成したレコードや他のユーザーが作成したレコードを編集できます。
 * 次の領域からレコードフィールドを編集できます。
 
-   * レコード ビューのレコード ボックス
+   * レコード ビューでのレコードのプレビュー
    * レコードのページ
    * テーブル表示でのインライン。
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* ユーザーがビューでレコードを編集すると、変更はすべてのビューで直ちに表示され、レコードページは他のすべてのユーザーに表示されます。
 
 * 次のタイプのフィールドは自動的に更新され、手動で値を編集することはできません。
    * 他のレコードからリンクされたフィールド
@@ -113,7 +113,7 @@ ht-degree: 60%
 次のエリアからレコードを編集できます。
 
 * [レコードタイプのテーブルビューから](#edit-a-record-from-the-table-view-of-a-record-type)
-* [ビューのレコードのボックスから](#edit-a-record-from-the-records-box-in-a-view)
+* [ビュー内のレコードのプレビューから](#edit-a-record-from-the-records-box-in-a-view)
 * [レコードのページから](#edit-a-record-from-the-records-page)
 
 ### レコードタイプのテーブル表示でのレコードのインライン編集
@@ -188,7 +188,7 @@ ht-degree: 60%
 
 1. （オプション）レコードにサムネールを追加します。詳しくは、[レコードへのサムネールの追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)を参照してください。
 
-### ビューのレコード ボックスからレコードを編集する
+### ビューでのレコードのプレビューからのレコードの編集
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ ht-degree: 60%
 
    または
 
-   テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。 レコードのボックスがビューで開きます。
+   テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。 レコードのプレビューがビューで開きます。
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ ht-degree: 60%
    >
    >を表示できます **詳細を開く** テーブル ビューで、[ 名前 ] フィールドがプライマリ フィールドの場合のみ、[ 名前 ] フィールドの左側にあるアイコンです。
 
-1. レコードのボックスのフィールド情報の編集を開始します。
+1. レコードのプレビューのフィールド情報の編集を開始します。
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ ht-degree: 60%
 
    Workfrontによって変更内容が自動保存されます。
 
-1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコードのページを新しいタブで開くには、レコードのボックスの右上隅にあります。 の説明に従って、レコードの編集を続けます [レコードのページからのレコードの編集](#edit-a-record-from-the-records-page) この記事のセクションです。
+1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。 の説明に従って、レコードの編集を続けます [レコードのページからのレコードの編集](#edit-a-record-from-the-records-page) この記事のセクションです。
 
 ### レコードのページからのレコードの編集
 
@@ -241,7 +241,7 @@ ht-degree: 60%
 
 1. 次のいずれかの操作を行います。
 
-   * の説明に従って、どのビューからでもレコードのボックスにアクセスします [ビューのレコード ボックスからレコードを編集する](#edit-a-record-from-the-records-box-in-a-view) この記事のセクションで、 **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコード ボックスの右上隅で、レコードのページを新しいタブで開きます。
+   * の説明に従って、任意の表示からレコードのプレビューにアクセスします [ビューでのレコードのプレビューからのレコードの編集](#edit-a-record-from-the-records-preview-in-a-view) この記事のセクションで、 **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。
 
    * **テーブル**&#x200B;ビューで、レコードの名前にポインタを合わせ、**詳細**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、更に「**表示**」をクリックします。
 

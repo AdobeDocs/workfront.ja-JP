@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 54%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## 2029年4月29日（PT）の週
+
+### テーブルビューでレコードを編集した後の、レコードの詳細ボックスとページのリアルタイム更新
+
+実稼動版：2024年5月2日（PT）
+
+プレビュー：未決定
+
+ユーザーがテーブルビューでレコードに関する情報を更新すると、他のユーザーは更新された情報をレコードの詳細ボックス（ビュー内）またはページでリアルタイムに表示できます。 これにより、すべてのユーザーが、変更が行われたタイミングと同期して、更新された情報を同時に表示できるようになります。
+
+レコードの編集方法については、を参照してください [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ For information, see [Adobe Workfront Planning notifications: Article index](/he
 
 プレビュー：未決定
 
-ワークスペースマネージャーは、レコードページまたはボックスにリストされたフィールドを並べ替えることができるようになりました。 フィールドの順序を更新すると、レコードページまたはレコードボックスを表示しているすべてのユーザーについて、同じタイプのすべてのレコードのフィールドの順序が変更されます。
+ワークスペースマネージャーは、レコードページまたはプレビューにリストされているフィールドを並べ替えることができるようになりました。 フィールドの順序を更新すると、レコードページまたはレコードのプレビューを表示しているすべてのユーザーについて、同じタイプのすべてのレコードのフィールドの順序が変更されます。
 
 詳しくは、を参照してください [レコードページの管理](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ For information, see [Adobe Workfront Planning notifications: Article index](/he
 
 プレビュー：未決定
 
-レコードページを管理する際に、レコードページまたはボックス上のカバーイメージの追加、再配置および置換を行って、レコードのプレゼンテーションと関係者のエンゲージメントを強化できるようになりました。 カバー画像は、レコードを表示するすべてのユーザーに表示されます。
+レコードページを管理する際に、レコードページまたはプレビューで表紙の追加、再配置および置き換えを行って、レコードのプレゼンテーションと関係者のエンゲージメントを強化できるようになりました。 カバー画像は、レコードを表示するすべてのユーザーに表示されます。
 
 詳しくは、を参照してください [レコードページの管理](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ Adobe Workfrontの計画の概要については、を参照してください�
 
 カレンダー表示で情報をフィルタリングできるようになりました。 詳しくは、を参照してください [カレンダー表示の管理](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### レコードの詳細がタイムラインビューとカレンダービューに追加されたボックス
+### レコードの詳細をタイムライン表示およびカレンダー表示に追加したプレビュー
 
 実稼動：2024 年 3 月 19 日（PT）
 
 プレビュー：未決定
 
-タイムラインビューとカレンダービューから、レコードの詳細を含むボックスにアクセスできるようになりました。 タイムラインビューとカレンダービュー内のレコードのボックスでレコードを編集できます。
+タイムラインビューとカレンダービューからレコードの詳細を使用してプレビューにアクセスできるようになりました。 タイムラインビューとカレンダービュー内のレコードのプレビューボックスでレコードを編集できます。
 
-レコードのボックスから、新しいブラウザータブでレコードページを開くことができます。
+レコードのプレビューから、新しいブラウザータブでレコードページを開くことができます。
 
 詳しくは、[レコードの編集](/help/quicksilver/maestro/records/edit-records.md)を参照してください。
 
@@ -247,7 +248,7 @@ Excel または CSV ファイルを使用したレコードタイプの読み込
 
 プレビュー：未決定
 
-テーブル ビューを使用するときにレコードに関する追加情報を簡単に表示できるように、レコードの詳細のクイック ビューを表示する新しい [ 詳細 ] ボックスが導入されました。 このボックスに含まれる情報の一部を次に示します。
+テーブル表示を使用する際にレコードに関する追加情報を簡単に表示できるように、レコードの詳細のクイックビューを表示する新しい詳細プレビューが導入されました。 レコードのプレビューに含まれる情報の一部を次に示します。
 
 * 関連するレコードの詳細の概要
 
