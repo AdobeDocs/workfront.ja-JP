@@ -8,10 +8,10 @@ description: この記事には、 [!DNL Adobe]  Workfront Fusion の役割の�
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
+source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 99%
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
 
@@ -89,66 +89,52 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>すべてのチームにアクセス</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>組織用のアプリをインストール</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>組織を削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>組織の編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>組織のユーザーの管理</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span></td> 
+   <td>✓ </td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>組織を表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Process payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>List payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> 
   <tr> 
    <td> <p>チームを追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr>
@@ -179,101 +165,101 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">未完了のの管理</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">未完了の実行のリスト</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオを追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオの削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオの編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオ実行履歴を参照</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオ通知の受信</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">統計をリセット</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオをリストする</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオスケジューラーを編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオを停止</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオを停止</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオの手動で実行</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">シナリオの表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    </tr> 
  </tbody> 
 </table>
@@ -298,31 +284,31 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">接続を追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">接続を削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">接続を編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">接続をリスト表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -347,31 +333,31 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Web フックを追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Web フックを削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Web フックを編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Web フックをリスト表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -396,38 +382,38 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">データストアを追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">データストアを削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">データストアを編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">データストアをリスト表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">データストアを参照</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,80 +438,31 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">データ構造を追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">データ構造を削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">データ構造を編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">データ構造をリスト表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### デバイス
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p style="text-align: left;">デバイスを追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">デバイスを削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">デバイスを編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">デバイスをリスト表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -550,31 +487,31 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">キーを追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">キーを削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">キーを編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">キーをリスト表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -599,38 +536,38 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">テンプレートを追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">テンプレートを削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">テンプレートを編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">テンプレートをリスト表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">テンプレートを表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -655,31 +592,31 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">チームを追加</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">チームを削除</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">チームユーザーを追加および編集</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">チームを表示</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
