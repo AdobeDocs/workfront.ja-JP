@@ -9,8 +9,8 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
-workflow-type: ht
+source-git-commit: 477f65efb09e8566dd0af88adfbe88135d6c6ae9
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # エラー：自動プロビジョニングされたユーザーがログインできません
 
 自動プロビジョニングされたユーザーが初めてログインしようとすると、次のエラーが表示されます。
+
+`Expect one user but found 0. ${subdomain} ${lane} ${email}`
 
 ## 問題
 
@@ -44,7 +46,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ユーザーは [!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,3 +63,5 @@ ht-degree: 100%
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
 リクエストライセンスを持つアクセスレベルを作成したら、ユーザーに SSO 資格情報を使用してログインしてもらいます。
+
+
