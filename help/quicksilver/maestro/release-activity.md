@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
-ht-degree: 54%
+source-wordcount: '5784'
+ht-degree: 53%
 
 ---
 
@@ -58,6 +58,14 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 ユーザーがテーブルビューでレコードに関する情報を更新すると、他のユーザーは更新された情報をレコードの詳細ボックス（ビュー内）またはページでリアルタイムに表示できます。 これにより、すべてのユーザーが、変更が行われたタイミングと同期して、更新された情報を同時に表示できるようになります。
 
 レコードの編集方法については、を参照してください [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+
+### レコード編集後のカレンダー表示のリアルタイム更新
+
+実稼動版：2024年5月3日（PT）
+
+プレビュー：未定。
+
+ユーザーがレコードの情報を更新すると、他のユーザーは更新された情報をレコードのカレンダー表示にリアルタイムで表示できます。 これにより、すべてのユーザーが、変更が行われたタイミングと同期して、更新された情報を同時に表示できるようになります。
 
 <!--
 
