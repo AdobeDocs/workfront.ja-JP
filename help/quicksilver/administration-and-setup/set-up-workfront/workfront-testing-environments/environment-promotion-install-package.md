@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 6%
+source-wordcount: '717'
+ht-degree: 5%
 
 ---
 
@@ -29,9 +29,26 @@ ht-degree: 6%
 
 手順については、を参照してください [環境プロモーションパッケージを作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## インストールのパッケージステータス
+
+実稼動環境にインストールするには、パッケージのステータスがアクティブである必要があります。
+
+パッケージをテスト ステータスに移動し、別のサンドボックスにインストールしてパッケージをテストすることをお勧めします。  このテストが成功し、エラーが発生していない場合は、パッケージをアクティブに移動して、実稼動環境にインストールします。
+
+パッケージのステータスを編集するには：
+
+1. の説明に従って、パッケージを選択します  [既存のパッケージの編集またはアセンブリ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) 環境プロモーションパッケージの作成と編集の記事で説明します。
+1. クリック **パッケージを編集**.
+1. クリック **ステータス**.
+1. ドロップダウンリストから目的のステータスを選択します。
+
+ステータスについて詳しくは、以下を参照してください [環境のプロモーションステータス](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) （Workfront環境間でのオブジェクトの移動の概要）の記事で説明します。
+
+## パッケージのインストール
+
 >[!NOTE]
 >
->パッケージをインストールするには、パッケージをインストールする環境にログインする必要があります。 これは、オブジェクトをコピーする環境です **対象：**.
+>* パッケージをインストールするには、パッケージをインストールする環境にログインする必要があります。 これは、オブジェクトをコピーする環境です **対象：**.
 
 1. パッケージをインストールする環境に移動します。
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
