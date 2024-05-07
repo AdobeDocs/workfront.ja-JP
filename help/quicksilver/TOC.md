@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
+source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
 workflow-type: tm+mt
-source-wordcount: '14164'
+source-wordcount: '14212'
 ht-degree: 97%
 
 ---
@@ -2092,6 +2092,13 @@ ht-degree: 97%
       * [Adobe Workfront Fusion の基本を学ぶ](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion の概要](workfront-fusion/get-started/workfront-fusion-overview.md)
       * [Adobe Workfront Fusion の基本用語](workfront-fusion/get-started/basic-terms.md)
+      * 練習シナリオの作成 {#practice-scenarios-in-workfront-fusion}
+         * [練習シナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+         * [基本的なシナリオの作成： [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+         * [の基本的なシナリオへのトリガーモジュールの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+         * [関数を使用した、の簡単なシナリオでのプロジェクトの更新 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+         * [の基本的なシナリオへのフィルターの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [の基本的なシナリオへの Webhook の追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Adobe Workfront Fusion で練習用自動化シナリオを作成](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Adobe Workfront Fusion で練習用統合シナリオを作成](workfront-fusion/get-started/create-a-practice-scenario.md)
       * [Adobe Workfront Fusion パフォーマンスガードレール](workfront-fusion/get-started/fusion-performance-guardrails.md)
