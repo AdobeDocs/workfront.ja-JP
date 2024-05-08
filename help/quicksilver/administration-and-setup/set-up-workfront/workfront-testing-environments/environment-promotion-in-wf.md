@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a8608aa0db6a482570b02b8b22cac0c02f6d8a07
+source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 3%
@@ -58,10 +58,10 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
 
 | Promotable オブジェクト | 含まれるプロモーション可能なリンクオブジェクト |
 | --- | --- |
-| レイアウトテンプレート（UITMPL） | レイアウトテンプレート<br>Dashboard<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
-| ダッシュボード（PTLTAB） | Dashboard<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
-| カレンダー（カレンダー） | カレンダー<br>カレンダーセクション |
-| 外部ページ （EXTSEC） | 外部ページ |
+| レイアウトテンプレート（UITMPL） | レイアウトテンプレート<br>Dashboard<br>カレンダー*<br>カレンダーセクション*<br>外部ページ*<br>報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
+| ダッシュボード（PTLTAB） | Dashboard<br>カレンダー*<br>カレンダーセクション*<br>外部ページ*<br>報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
+| カレンダー* （CALEND） | カレンダー*<br>カレンダーセクション* |
+| 外部ページ*（EXTSEC） | 外部ページ* |
 | レポート （PTLSEC） | 報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
 | フィルター（UIFT） | フィルター<br>パラメーター |
 | グループ化（UIGB） | グループ化<br>パラメーター |
