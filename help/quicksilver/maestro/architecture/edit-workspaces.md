@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 14%
@@ -134,9 +134,9 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
    詳しくは、を参照してください [レコードタイプを削除](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. （オプション）ビュータブでビューの名前をクリックして既存のビューを編集するか、をクリックします **+表示** でビューを作成します。
+1. （オプション）レコードタイプカードをクリックしてドラッグし、新しい場所にドロップします。 レコードタイプは、ワークスペースセクション間でドラッグ&amp;ドロップできます。
 
-   詳しくは、を参照してください [レコードビューの管理](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. （任意）クリック **共有** をクリックし、他のユーザーとワークスペースを共有します。
 

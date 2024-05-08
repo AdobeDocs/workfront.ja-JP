@@ -4,10 +4,10 @@ description: レコードのコメントでタグが付けられると、その�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '293'
+ht-degree: 21%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 23%
 {{maestro-important-intro}}
 
 レコードのコメントでタグが付けられると、そのタグに関するアプリ内通知が届く場合があります。
+
+>[!IMPORTANT]
+>
+>Workfront Planning から通知を受け取るには、会社がAdobeの Unified Experience の顧客である必要があります。
+>
+>詳しくは、を参照してください [WorkfrontのAdobe統合エクスペリエンス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 レコードコメント内の他のタグ付けについて詳しくは、を参照してください [レコードのコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ ht-degree: 23%
 <td>
    <p> 製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Workfront Planning から通知を受け取るには、組織のWorkfront インスタンスをAdobeの Unified Experience にオンボーディングする必要があります。 詳しくは、を参照してください <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
@@ -76,12 +83,6 @@ ht-degree: 23%
 </table>
 
 
-## 前提条件
-
-レコードのコメントでタグが付けられたときにアプリ内通知を受け取るには、会社がAdobeの Unified Experience Workfront顧客である必要があります。
-
-ユーザーがAdobeの統合エクスペリエンスユーザーかどうかを判断するには、を参照してください。 [WorkfrontのAdobe統合エクスペリエンス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## アプリ内通知の管理
 
 1. （条件付き）レコードに対するコメントで誰かがタグを付けた後、アプリ内に移動します **通知** アイコン ![](assets/experience-cloud-notifications-icon.png) Adobe Experience Cloudで。
@@ -90,7 +91,7 @@ ht-degree: 23%
 
 1. 通知をクリックします。
 
-   レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
+   Workfront Planning に「レコードの詳細」ページが開きます。 レコードを更新したり、コメントに返信したりできます。
 
-1. （任意）クリック **すべて既読としてマーク** すべての通知を読み取ったことを示します。
+1. （任意）クリック **すべて既読としてマーク** これにより、すべての通知を読み取ったことを示します。
 1. （任意）クリック **すべて表示** に移動します **通知** Adobe Experience Cloudのページ。

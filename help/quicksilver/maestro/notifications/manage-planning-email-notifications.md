@@ -4,10 +4,10 @@ description: レコードのコメントでタグが付けられると、その�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 27%
+source-wordcount: '301'
+ht-degree: 21%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 27%
 {{maestro-important-intro}}
 
 レコードのコメントでタグが付けられると、そのタグに関するメール通知が届きます。
+
+>[!IMPORTANT]
+>
+>Workfront Planning から通知を受け取るには、会社がAdobeの Unified Experience の顧客である必要があります。
+>
+>詳しくは、を参照してください [WorkfrontのAdobe統合エクスペリエンス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 レコードコメント内の他のタグ付けについて詳しくは、を参照してください [レコードのコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ ht-degree: 27%
 <td>
    <p> 製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Workfront Planning から通知を受け取り、通知設定を管理するには、組織のWorkfront インスタンスをAdobeの Unified Experience にオンボーディングする必要があります。 詳しくは、を参照してください <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
@@ -78,7 +85,7 @@ ht-degree: 27%
 
 ## メール通知の管理
 
-1. （条件付き）誰かがレコードのコメントでタグを付けた後、タグとコメントを通知するメール通知に移動します。
+1. （条件付き）誰かがレコードのコメントでタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ ht-degree: 27%
    レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
 
 1. （条件付き）使用可能な場合は、 **すべての通知を表示**. <!--check with Lilit - do non-IMS users have this button??-->
-通知ページがAdobe Experience Cloudで開きます。
+この **通知** Adobe Experience Cloudでページが開きます。

@@ -4,10 +4,10 @@ description: Adobe Workfront Planning の通知設定を管理できる場合が
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 19%
 
 ---
 
@@ -16,18 +16,96 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-レコードページのコメントにユーザーが追加されると、アプリ内だけでなく、コメントに関するメール通知も届く場合があります。
+レコードページのコメントに他のユーザーが追加すると、アプリ内と、コメントに関するメール通知が届きます。
 
-次のシナリオが存在します。
+>[!IMPORTANT]
+>
+>Workfront Planning から通知を受け取るには、会社がAdobeの Unified Experience の顧客である必要があります。
+>
+>詳しくは、を参照してください [WorkfrontのAdobe統合エクスペリエンス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-* Adobeの Unified Experience のお客様は、アプリ内通知とメール通知の両方を受け取ります。 これらのユーザーは、Workfront製品のAdobe Experience Cloud プロファイルの「環境設定」領域でアプリ内通知およびメール通知の環境設定を管理できます。
+## アクセス要件
 
-  詳しくは、を参照してください [アカウントの環境設定と通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+この記事の手順を実行するには、次のアクセス権が必要です。
 
-* Adobeの統合エクスペリエンスを利用していないお客様には、メール通知のみが届きます。 メール通知の環境設定を管理することはできず、Workfront Planning のレコードに対するコメントにユーザーが追加すると、常にメールが届きます。
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> 製品</p> </td>
+   <td>
+   <p> Adobe Workfront</p> 
+   <p>Workfront Planning からアプリ内通知を受け取り、通知環境設定を管理するには、Adobeの Unified Experience に組織のWorkfront インスタンスをオンボーディングする必要があります。 詳しくは、を参照してください <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス</a>.</p>
+   </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
+   <td>
+<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td>
+<p>任意</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
+   <td>
+   <p>任意</p> 
+  </td>
+  </tr>
 
-次の記事も参照してください。
+<tr>
+   <td role="rowheader"><p>アクセスレベルの設定</p></td>
+   <td> <p>Workfront Planning には、アクセス レベルのコントロールはありません。 </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>権限</p></td>
+   <td> <p>ワークスペースに対する表示以上の権限</a> </p>  
+   <p>システム管理者は、自身が作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+## 通知設定の管理
+
+1. Adobe Experience Cloudの資格情報を使用してWorkfrontにログインします。
+1. 「」をクリックします **アカウントメニュー** アイコン ![](assets/account-menu-icon-on-experience-cloud.png) 画面の右上にあるをクリックします。 **環境設定**.
+1. の下 **通知** セクションで、をクリック **Workfront**を開き、次の記事の手順に従ってWorkfront Planning の通知設定を管理します。
+   [アカウントの環境設定と通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+
+Workfrontの計画通知の詳細については、次の記事も参照してください。
 
 * レコードのコメントについては、を参照してください [レコードのコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md).
 * Workfront Planning からのアプリ内通知については、次を参照してください： [Adobe Workfront Planning のアプリ内通知の管理](/help/quicksilver/maestro/notifications/manage-planning-in-app-notifications.md).
 * Workfront Planning からの電子メール通知の詳細は、 [Adobe Workfront Planning のメール通知の管理](/help/quicksilver/maestro/notifications/manage-planning-email-notifications.md).
+
+
+
+<!--replace the first section of this article with this; also remove the IMPORTANT at the top to require Unified Experience - below - when BOTH IMS and non-IMS customers will receive notifications: 
+
+When someone adds you to a comment in the record page, you may receive an in-app as well as an email notification about the comment. 
+
+The following scenarios exist:   
+
+* Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
+
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+
+* Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
+
+-->

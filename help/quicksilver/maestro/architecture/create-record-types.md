@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 58%
+source-wordcount: '1269'
+ht-degree: 57%
 
 ---
 
@@ -146,7 +146,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
 1. 次の情報を更新します。
 
-   * 「名称未設定の操作レコードタイプ」を、今後のレコードタイプの名前に置き換えます。 <!--did they bring back the field label here and did they rename it to "Name"-->
+   * 「名称未設定のレコードタイプ」を、今後のレコードタイプの名前に置き換えます。 <!--did they bring back the field label here and did they rename it to "Name"-->
    * **説明**：レコードタイプに関する詳細情報を追加します。
    * レコードタイプに関連付けられたアイコンの色と形状を選択します。 次の操作を実行します。
       * 新しいレコードタイプを識別する色を選択します。これがレコードタイプアイコンの色になります。デフォルトでは、灰色が選択されています。
@@ -155,8 +155,11 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 1. 「**作成**」をクリックします。
 
    レコードタイプカードが、選択したセクションとワークスペースに追加されます。
-レコードタイプに含まれているフィールドの数が、カードに表示されます。
-1. （任意）レコードタイプカードにポインタを合わせ、 **詳細** アイコン ![](assets/more-menu.png) 右上隅のをクリックします。 **編集** レコードタイプに関する情報を編集します。
+レコードタイプの説明がカードに表示されます。
+
+   ![](assets/record-type-card-with-description.png)
+
+1. （任意）レコードタイプカードにポインタを合わせ、 **詳細** アイコン ![](assets/more-menu.png) 右上隅のをクリックします。 **編集** レコードタイプに関する情報を変更します。
 1. （オプション）レコードタイプカードをクリックして、レコードタイプページを開きます。
 
    ![](assets/operational-record-type-blank.png)
@@ -188,9 +191,9 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
 1. （オプション）レコードタイプ名の左側にあるヘッダーの左向き矢印をクリックして、選択したワークスペースに戻ります。
 
-   レコードタイプカードには、レコードタイプに含まれているフィールドと接続の数が表示されます。
+1. （オプション）ワークスペースから、レコードタイプカードをクリックして保持し、目的の場所でレコードタイプをドラッグ&amp;ドロップするか、別のセクションに移動します。
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   変更内容は自動的に保存されます。
 
    レコードの追加、レコードタイプの削除または編集、レコードタイプページのビューの更新について詳しくは、次の記事を参照してください。
 
@@ -198,10 +201,6 @@ Workfront Planning テンプレートを使用してワークスペースを作�
    * [レコードタイプの削除](../architecture/delete-record-types.md)
    * [レコードタイプの編集](../architecture/edit-record-types.md)
    * [レコードビューの管理](../views/manage-record-views.md)
-
-1. （オプション）ワークスペースから、レコードタイプカードをクリックして保持し、目的の場所でレコードタイプをドラッグ&amp;ドロップするか、別のセクションに移動します。
-
-   変更内容は自動的に保存されます。
 
 ## Excel または CSV ファイルをインポートしてレコードタイプを作成
 

@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
+source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
 workflow-type: tm+mt
-source-wordcount: '14212'
-ht-degree: 97%
+source-wordcount: '14239'
+ht-degree: 96%
 
 ---
 
@@ -2085,6 +2085,11 @@ ht-degree: 97%
       * [テーブルビューの管理](maestro/views/manage-the-table-view.md)
       * [タイムラインビューの管理](maestro/views/manage-the-timeline-view.md)
       * [カレンダー表示の管理](maestro/views/manage-the-calendar-view.md)
+   * AdobeMaestro の通知 {#adobe-maestro-notifications}
+      * [Adobe Workfront Planning の通知：記事索引](maestro/notifications/notifications-information.md)
+      * [Adobe Workfront Planning 通知設定の管理](maestro/notifications/manage-notification-preferences.md)
+      * [Adobe Workfront Planning のメール通知の管理](maestro/notifications/manage-planning-email-notifications.md)
+      * [Adobe Workfront Planning のアプリ内通知の管理](maestro/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Fusion アクセステーブルテンプレート](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
