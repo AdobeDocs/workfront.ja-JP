@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 14d9c862bee9f367d20b851254c8e55a8d08907f
+source-git-commit: 4564bc136576a92ddacec7116ca18ef9fb15a5bc
 workflow-type: tm+mt
-source-wordcount: '14239'
+source-wordcount: '14226'
 ht-degree: 96%
 
 ---
@@ -413,9 +413,8 @@ ht-degree: 96%
          * [新しいコメントエクスペリエンス](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新しいコメントエクスペリエンスのリリースアクティビティ](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新しいコメントエクスペリエンスに関する FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront と Frame.io の統合（アルファ版） {#frame-io-wf-integration-alpha}
-         * [Adobe Workfront と Frame.io のネイティブ統合（アルファ版）：概要](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
-         * [Adobe Workfront と Frame.io のネイティブ統合（アルファ版）：機能](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Workfrontと Frame.io の統合ベータ版 {#frame-io-wf-integration-beta}
+         * [Adobe Workfrontと Frame.io のネイティブ統合ベータ版](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront data lake ベータ版 {#data-lake-beta}
          * [Workfront data lake ベータ版に関する情報](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理と設定 {#administration-and-setup}
@@ -1792,7 +1791,6 @@ ht-degree: 96%
 * 作業のレビューと承認 {#review-and-approve-work}
    * [作業のレビューと承認](review-and-approve-work/review-and-approve-work.md)
    * [アルファプログラム - ドキュメントの承認](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [ベータ版プログラム - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要](review-and-approve-work/proof-doc-decision-limits.md)
    * 作業承認 {#work-approvals}
       * [作業承認](review-and-approve-work/manage-approvals/manage-approvals.md)
