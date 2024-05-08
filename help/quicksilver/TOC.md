@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 3cd55b35f870314f8694149151733eb1d3aad914
+source-git-commit: f843dca1190a0b55d00280e83b5bf28edfa5c8af
 workflow-type: tm+mt
 source-wordcount: '14212'
 ht-degree: 97%
@@ -2097,7 +2097,7 @@ ht-degree: 97%
          * [基本的なシナリオの作成： [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
          * [の基本的なシナリオへのトリガーモジュールの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
          * [関数を使用した、の簡単なシナリオでのプロジェクトの更新 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [の基本的なシナリオへのフィルターの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+         * [の基本的なシナリオへのフィルターの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
          * [の基本的なシナリオへの Webhook の追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Adobe Workfront Fusion で練習用自動化シナリオを作成](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Adobe Workfront Fusion で練習用統合シナリオを作成](workfront-fusion/get-started/create-a-practice-scenario.md)
