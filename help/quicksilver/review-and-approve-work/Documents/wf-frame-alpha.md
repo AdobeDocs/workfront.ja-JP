@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2ea9316e8cbe4474f22028f85204f9351182ba06
+source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 1%
@@ -89,7 +89,7 @@ Workfrontにアセットを追加するためのメニュー項目が更新さ�
 
 ベータ版プログラムの新機能を簡単にテストできるように、新しいテスト Frame.io アカウントを作成し、という新しいグループに接続しました。 `Frame.io testing` （既存のWorkfront プレビューまたはサンドボックス環境で）
 
-+++展開して血管テストの手順を表示します
++++展開すると、基本的なテスト手順が表示されます
 
 機能をテストするには、Workfrontのプレビューまたはサンドボックスのインスタンスにログインし、次の手順を実行します。
 
