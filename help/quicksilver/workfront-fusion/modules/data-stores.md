@@ -8,10 +8,10 @@ description: データストアは、データベースやシンプルなテー�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 90%
+source-wordcount: '1299'
+ht-degree: 91%
 
 ---
 
@@ -76,24 +76,28 @@ Workfront Fusion のデータストアに関するビデオについては、以
 
 ## 使用可能なデータ容量
 
-組織が新しいWorkfront プランモデル（Select、Prime および Ultimate パッケージ）を使用している場合、組織のプランは Fusion インスタンスで使用可能なデータストアのサイズと数に影響します。
+新しいWorkfront プランモデル（Select、Prime および Ultimate パッケージ）を使用している場合、データストアの合計サイズは次のようになります。
 
-### 究極のプラン
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-Ultimate パッケージ上の Fusion インスタンスは、次を受け取ります。
+### Ultimate plan
 
-* 500 MB の容量
-* 50 個のデータストア
+Fusion instances on the Ultimate package receive:
 
-### プランとプライムプランを選択
+* 500 MB of space
+* 50 data stores 
 
-選択またはプライムパッケージの Fusion インスタンスは、次を受け取ります。
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 最初の 500,000 件の処理には 100 MB。
 
 * 10 万回の追加操作ごとに 10 MB。
 
-例えば、600,000 件の操作を行う組織は 110 MB を受け取ります。
+  例えば、600,000 件の操作を行う組織は 110 MB を受け取ります。
+
+組織は、最大 50 個のデータストアを持つことができます。 これらのデータストアの合計サイズは、組織のデータストアの合計サイズを超えることはできません。
 
 ## [!DNL Workfront Fusion] でのデータストアの作成
 
