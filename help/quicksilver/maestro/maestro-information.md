@@ -1,18 +1,18 @@
 ---
-title: "Adobe Workfront Planning information: article index"
-description: マーケティング運用リーダーは、Adobe Workfront Planning を使用して、すべてのチームのマーケティングライフサイクル全体で作業を整理できます。 この節の記事では、計画機能を設定する方法と、キャンペーン管理操作の一環として使用を開始する方法について説明します。
+title: 「Adobe Workfront計画情報 – 記事索引」
+description: マーケティングオペレーションリーダーは、Adobe Workfront Planning を使用することで、すべてのチームのマーケティングライフサイクル全体で作業を整理できます。 この節の記事では、計画機能を設定する方法と、計画機能をキャンペーン管理操作の一部として使用する方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 0%
+source-wordcount: '343'
+ht-degree: 5%
 
 ---
 
-# Adobe Workfront Planning：記事インデックス
+# Adobe Workfront計画：記事索引
 
 <!--
 title: Adobe Maestro 
@@ -30,36 +30,36 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-マーケティング運用リーダーは、Adobe Workfront Planning を使用して、すべてのチームのマーケティングライフサイクル全体で作業を整理できます。
-
 {{maestro-important-intro}}
 
-このページは、Adobe Workfront Planning に関連するすべてのドキュメントの出発点として使用できます。
+このページを、Adobe Workfrontの計画に関連するすべてのドキュメントの出発点として使用できます。
 
-以下の節では、Workfront Planning を設定し、使用を開始する方法について説明します。
+以下に示す節の記事では、Workfront Planning を設定し、その使用を開始する方法について説明します。
 
 >[!IMPORTANT]
 >
->以下の節で参照されるドキュメントは、機能が実稼動環境にリリースされてからしばらく後に利用できるようになります。
+>以下の節で参照するドキュメントは、機能が本番にリリースされてからしばらく後に利用できるようになります。
 
-## Adobe Workfront Planning の概要
+## Adobe Workfrontの計画の概要
 
-新しいWorkfront Planning の概要については、次の記事にアクセスしてください。
+新しいWorkfront計画の概要については、次の記事を参照してください。
 
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-* [Adobe Workfront Planning の概要](maestro-overview.md)：このソリューションに特有の用語と概念を含む、Adobe Workfront Planning の概要です。 ここでは、Workfront Planning を使用してジャーニーを開始することをお勧めします。
-* [Adobe Workfront Planning リリースアクティビティ](../maestro/release-activity.md): 2023 年 5 月 23 日のAdobe Workfront Planning クローズベータプログラムの開始以降にリリースされたすべての機能のリスト（リリース日と各機能の概要が短縮）。
-* [Workfront Fusion 用AdobeMaestro モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+* [Adobe Workfront計画の概要](maestro-overview.md)：このソリューションに固有の用語や概念など、Adobe Workfront Planning の概要です。 ジャーニーをWorkfrontの計画から始めることをお勧めします。
+* [Adobe Workfront計画リリースアクティビティ](/help/quicksilver/maestro/release-activity.md):2023 年 5 月 22 日（PT）にAdobe Workfront Planning のクローズドベータプログラムのローンチ以降にリリースされたすべての機能のリスト。正確なリリース日と各機能の概要が記載されています。
+* [Workfront Fusion 用の Maestro モジュールのAdobe](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront Planning のアーキテクチャと機能
 
-次の節では、Workfront Planning で現在利用可能な機能の詳細を説明する記事を示します。
+以下の節では、現在Workfront Planning で使用できる機能について詳しく説明する記事を紹介します。
 
-* [Adobe Workfront Planning アクセス情報：記事インデックス](../maestro/access/access-information.md):Workfront Planning の使用に必要なアクセスおよび権限に関する情報。
-* [アーキテクチャ：記事インデックス](../maestro/architecture/architecture-information.md):Workfront Planning のアーキテクチャに関する詳細な情報。ワークスペースおよびレコードタイプの作成および管理方法に関する詳しい手順が記載されています。
-* [フィールド：記事インデックス](../maestro/fields/fields-information.md)：レコードタイプ用のカスタムフィールドの作成手順と詳細情報。
-* [レコード：記事インデックス](../maestro/records/records-information.md)：レコードの作成および管理方法に関する詳細情報と詳しい手順。
-* [ビュー：記事インデックス](../maestro/views/views-information.md)：レコードタイプのページを表示する際のレコードビューとそれらの管理方法に関する詳細情報。
+* [Adobe Workfront Planning のアクセス情報：記事索引](/help/quicksilver/maestro/access/access-information.md):Workfront Planning の使用に必要なアクセス権と権限に関する情報です。
+* [アーキテクチャ：記事インデックス](/help/quicksilver/maestro/architecture/architecture-information.md):Workfront Planning のアーキテクチャに関する詳細で、ワークスペースとレコードタイプを作成および管理する方法に関する手順を説明します。
+* [フィールド：記事インデックス](/help/quicksilver/maestro/fields/fields-information.md)：レコードタイプのカスタムフィールドを作成するための詳細と手順
+* [レコード：記事インデックス](/help/quicksilver/maestro/records/records-information.md)：レコードの作成と管理の方法に関する詳細と手順
+* [表示：記事インデックス](/help/quicksilver/maestro/views/views-information.md)：レコードビューと、レコードタイプのページを表示する際にレコードビューを管理する方法に関する詳細です。
+* [Adobe Workfront Planning の通知：記事索引](/help/quicksilver/maestro/notifications/notifications-information.md):Workfront Planning のイベントによって生成されるメール通知およびアプリ内通知に関する情報です。
+
