@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: 外部アプリケーションからドキュメントをリンク
-description: 外部ソースからAdobe Workfrontにドキュメントやフォルダーをリンクできます。
+description: 外部のソースから、ドキュメントとフォルダーを Adobe Workfront にリンクできます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 87%
+source-wordcount: '2596'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Workfront Proof で最初に作成したプルーフを Workfront で使用できます。現在のライセンスでこの機能を使用するには、Pro Workfront Plan 以降が必要です。 新しいライセンスの場合、すべてのプランにこの機能が含まれます。 利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</td> 
+   <td>Workfront Proof で最初に作成したプルーフを Workfront で使用できます。現在のライセンスでこの機能を使用するには、Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -50,7 +50,7 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">その他のドキュメントプロバイダー（カスタムドキュメントの統合を経由）</td> 
-   <td> <p class="workfront_plans">現在のライセンスでこの機能を使用するには、Pro Workfront Plan 以降が必要です。 新しいライセンスの場合、すべてのプランにこの機能が含まれます。 利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</p> </td>
+   <td> <p class="workfront_plans">現在のライセンスでこの機能を使用するには、Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -73,9 +73,9 @@ Workfront に直接アップロードされたドキュメントを使用する�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td>
-   <td><p>新規：寄稿者以上</p>
+   <td><p>新規：コントリビューター以上</p>
     <p>または</p>
-    <p>現在：リクエスト以降</p> </td>
+    <p>現在：リクエスト以上</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -84,7 +84,7 @@ Workfront に直接アップロードされたドキュメントを使用する�
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## ドキュメントの保存
 
@@ -143,7 +143,8 @@ Google や Microsoft OneDrive などの外部アプリケーションから、Wo
 
    >[!NOTE]
    >
-   >Box にリンクされているドキュメントの場合、Box 内のドキュメントへのリンクは、ページを更新するまで表示されません。
+   >* ドキュメントのリンクに使用されるダウンロード URL が 2048 文字を超える場合、ファイルをリンクすることはできません。
+   >* Box にリンクされているドキュメントの場合、Box 内のドキュメントへのリンクは、ページを更新するまで表示されません。
 
 ### リンクされたドキュメントの新しいバージョンを追加 {#add-a-new-version-of-a-linked-document}
 
@@ -166,7 +167,7 @@ Google や Microsoft OneDrive などの外部アプリケーションから、Wo
 
    これは一度のみ実行する必要があります。
 
-1. ( **外部ファイルとフォルダのリンク** 表示されるボックスに、検索する項目の名前を入力し、 **入力** を使用すると、外部アプリケーションの保存先フォルダーに関係なく、外部アプリケーションからのすべての結果を表示できます。
+1. 表示される&#x200B;**外部ファイルとフォルダーをリンク**&#x200B;ボックスの検索ボックスに、検索する項目の名前を入力し、**Enter** キーを押すと、どのフォルダーに格納されているかにかかわらず、外部アプリケーションからのすべての結果を表示できます。
 
    または
 
@@ -188,7 +189,7 @@ Google や Microsoft OneDrive などの外部アプリケーションから、Wo
    >
    >Box にリンクされているドキュメントの場合、Box 内のドキュメントへのリンクは、ページを更新するまで表示されません。
 
-ファイルシステムからWorkfrontにアップロードしたドキュメントの新しいバージョンを追加する方法については、 [Adobe Workfrontにドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [ファイルシステムからAdobe Workfrontにドキュメントを追加する](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+ファイルシステムから Workfront にアップロードしたドキュメントの新しいバージョンを追加する方法について詳しくは、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)の [Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)を参照してください。
 
 ### Workfront Proof ドキュメントをリンク {#link-workfront-proof-documents}
 
@@ -203,7 +204,7 @@ Workfront Proof で表示アクセス権を持つプルーフのみをリンク�
    >
    >このメニューのオプションは、環境で設定されているサードパーティプロバイダーによって異なる場合があります。
 
-1. Adobe Analytics の **Workfrontの配達確認から配達確認をリンク** ボックスが表示されたら、Workfrontで使用可能にする配達確認の名前を入力します。
+1. 表示される **Workfront Proof からのプルーフをリンクする**&#x200B;ボックスに、Workfront で使用できるようにするプルーフ名の入力を開始します。
 
    入力すると、リストがフィルターされます。
 
@@ -221,21 +222,21 @@ Workfront 内で Google ドキュメントを新規作成できます。他の�
 
 1. Workfront でドキュメントを挿入する&#x200B;**ドキュメント**&#x200B;エリアに移動します。
 1. **新規追加**／**Google ファイル**&#x200B;をクリックして、作成する Google ドキュメントの種類を選択します。
-1. 次の場合、 **Google Drive アカウントを追加** ボックスが表示され、 **Google Drive を認証**.
+1. **Google Drive アカウントを追加**&#x200B;ボックスが表示されたら、**Google ドライブを承認**&#x200B;をクリックします。
 
-   Googleドキュメントが **ドキュメント** タブをクリックします。
+   「**ドキュメント**」タブに Google ドキュメントが追加されます。
 
    >[!NOTE]
    >
    > 「マイドライブ」と「自分と共有」に、2 つの異なる結果が表示されます。マイドライブにファイルが見つからない場合は、自分と共有フォルダーを確認してください。
 
-## ドキュメントをWorkfrontから外部クラウドプロバイダーにアップロードしてリンクする
+## Workfront のドキュメントを外部クラウドプロバイダーにアップロードおよびリンク
 
 ドキュメントを Workfront から外部のクラウドプロバイダーにアップロードしてリンクできます。これにより、ドキュメントのストレージが Workfront から外部クラウドプロバイダーに移動します。外部アプリケーションでドキュメントを変更すると、Workfront でドキュメントが自動更新されます。
 
 >[!NOTE]
 >
->アセットを外部のドキュメントプロバイダーに送信すると、アセットの新しいバージョンが作成されます。
+>アセットを外部のドキュメントプロバイダーに送信すると、新しいバージョンのアセットが作成されます。
 
 Workfront にアクセスできないユーザーでも、アプリケーションにアクセスできる場合は、外部アプリケーションでドキュメントを表示できます。
 
@@ -256,7 +257,7 @@ Workfront にアクセスできないユーザーでも、アプリケーショ�
 
 ## フォルダーのリンク
 
-Workfront と外部のクラウドプロバイダーの間でフォルダーをリンクすると、フォルダーとそのすべての内容がリンクされます。Workfrontアクセス権を持たないユーザーが外部ドキュメントアプリケーションからファイルを追加、削除、変更すると、変更内容がWorkfrontに同期されます。
+Workfront と外部のクラウドプロバイダーの間でフォルダーをリンクすると、フォルダーとそのすべての内容がリンクされます。Workfront アクセス権を持たないユーザーが、外部ドキュメントアプリケーションからファイルを追加、削除および変更すると、変更点が Workfront に同期されます。
 
 ### フォルダーのアクセス権 {#folder-access-rights}
 
@@ -336,9 +337,9 @@ Workfront を使用してリンクされたフォルダーにドキュメント�
 >
 > * ドキュメントの移動中は、ドキュメントオプションは使用できません。
 >
-> * ドキュメントをExperience Manager Assetsに移動すると、はWorkfrontのドキュメントリストに表示されなくなります。
+> * ドキュメントは、Experience Manager Assets に移動すると、Workfront のドキュメントリストには表示されなくなります。
 >
-> * ドキュメントの移動中にドキュメントに対しておこなったアクションや編集は、Experience Manager Assetsのドキュメントには表示されないので、失われます。
+> * ドキュメントの移動中にドキュメントに対して行ったアクションや編集は、Experience Manager Assets 内のドキュメントには表示されないため、失われます。
 
 ## リンクされたドキュメントまたはフォルダーを削除
 
@@ -357,4 +358,4 @@ Workfront と外部アプリケーションで名前を一致させる場合は�
 
 >[!IMPORTANT]
 >
->Dropbox にリンクされている Workfront 内のドキュメントの名前を変更しないでください。変更すると、Workfront でそのファイルにアクセスできなくなります。代わりに、ファイルの名前をDropboxで変更し、ファイルを再同期します。
+>Dropbox にリンクされている Workfront 内のドキュメントの名前を変更しないでください。変更すると、Workfront でそのファイルにアクセスできなくなります。代わりに、Dropbox でファイルの名前を変更してから、ファイルを再同期します。
