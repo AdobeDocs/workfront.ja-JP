@@ -8,10 +8,10 @@ description: データストアは、データベースやシンプルなテー�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
+source-git-commit: 00a969175626d27b70d516921097725fdf818799
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 91%
+source-wordcount: '1336'
+ht-degree: 88%
 
 ---
 
@@ -76,20 +76,20 @@ Workfront Fusion のデータストアに関するビデオについては、以
 
 ## 使用可能なデータ容量
 
-新しいWorkfront プランモデル（Select、Prime および Ultimate パッケージ）を使用している場合、データストアの合計サイズは次のようになります。
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
+組織が新しいWorkfront プランモデル（Select、Prime および Ultimate パッケージ）を使用している場合、組織のプランは Fusion インスタンスで使用可能なデータストアのサイズと数に影響します。
 
-### Ultimate plan
+### 究極のプラン
 
-Fusion instances on the Ultimate package receive:
+Ultimate パッケージ上の Fusion インスタンスは、次を受け取ります。
 
-* 500 MB of space
-* 50 data stores 
+* 100 MB の容量
+* 50 個のデータストア
 
-### Select and Prime plans
+### プランとプライムプランを選択
 
-Fusion instances on the Select or Prime packages receive:-->
+Select パッケージまたは Prime パッケージの Fusion インスタンスは、以下を受け取ります。—>
 
 * 最初の 500,000 件の処理には 100 MB。
 
