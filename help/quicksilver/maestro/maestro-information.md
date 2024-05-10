@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '339'
 ht-degree: 5%
 
 ---
@@ -56,10 +56,10 @@ hide: yes
 
 以下の節では、現在Workfront Planning で使用できる機能について詳しく説明する記事を紹介します。
 
-* [Adobe Workfront Planning のアクセス情報：記事索引](/help/quicksilver/maestro/access/access-information.md):Workfront Planning の使用に必要なアクセス権と権限に関する情報です。
+* [アクセス情報と権限情報：記事インデックス](/help/quicksilver/maestro/access/access-information.md):Workfront Planning の使用に必要なアクセス権と権限に関する情報です。
 * [アーキテクチャ：記事インデックス](/help/quicksilver/maestro/architecture/architecture-information.md):Workfront Planning のアーキテクチャに関する詳細で、ワークスペースとレコードタイプを作成および管理する方法に関する手順を説明します。
 * [フィールド：記事インデックス](/help/quicksilver/maestro/fields/fields-information.md)：レコードタイプのカスタムフィールドを作成するための詳細と手順
 * [レコード：記事インデックス](/help/quicksilver/maestro/records/records-information.md)：レコードの作成と管理の方法に関する詳細と手順
 * [表示：記事インデックス](/help/quicksilver/maestro/views/views-information.md)：レコードビューと、レコードタイプのページを表示する際にレコードビューを管理する方法に関する詳細です。
-* [Adobe Workfront Planning の通知：記事索引](/help/quicksilver/maestro/notifications/notifications-information.md):Workfront Planning のイベントによって生成されるメール通知およびアプリ内通知に関する情報です。
+* [通知：記事インデックス](/help/quicksilver/maestro/notifications/notifications-information.md):Workfront Planning のイベントによって生成されるメール通知およびアプリ内通知に関する情報です。
 

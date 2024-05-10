@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 24%
+source-wordcount: '571'
+ht-degree: 23%
 
 ---
 
@@ -22,7 +22,9 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 レコードのプレビューは、レコードタイプのビューに表示される、レコードページの小さいビューです。
 
-レコードのプレビューとページのレイアウトを変更すると、同じ種類のすべてのレコードのボックスとページに変更が反映されます。
+レコードのプレビューおよびページのレイアウトを変更すると、同じ種類のすべてのレコードのプレビューボックスおよび詳細ページに変更が反映されます。
+
+ここでは、レコードのプレビューボックスまたはレコード ページのレイアウトと外観を変更する方法について説明します。 レコードの編集方法については、を参照してください [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
 
 レコードページの編集を開始する前に、レコードタイプとレコードを作成する必要があります。
 
