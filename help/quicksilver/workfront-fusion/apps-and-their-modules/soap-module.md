@@ -9,10 +9,10 @@ description: SOAP モジュールを使用して、Adobe Workfront Fusion で SO
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 99%
+source-wordcount: '490'
+ht-degree: 88%
 
 ---
 
@@ -57,9 +57,13 @@ ht-degree: 99%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## [!UICONTROL SOAP] モジュールの使用
+## の制限 [!UICONTROL SOAP] モジュール
+
+>[!NOTE]
+>
+>WDSL 読み込み中は、リダイレクトは無効になります。 これはセキュリティ機能ですが、モジュールの実行時に未検証のリダイレクトがブロックされる可能性があります。
 
 [!UICONTROL SOAP] モジュールは現在ベータ版であり、次の機能をサポートしていません。
 
@@ -86,8 +90,8 @@ ht-degree: 99%
 >     </complexContent>
 ></complexType>
 >```
-
-これには `soapenc:Array`、`soapenc:arrayType` および `wsdl:arrayType` 参照が含まれていますが、これらは [!UICONTROL Workfront Fusion] ではまだサポートされていません。
+>
+>この例には、 `soapenc:Array`, `soapenc:arrayType` および `wsdl:arrayType` でサポートされていない参照 [!UICONTROL Workfront Fusion].
 
 ## 回避策
 
