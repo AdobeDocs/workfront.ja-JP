@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: b562383febd3865bc318dfaaceef88a003d9239e
 workflow-type: tm+mt
-source-wordcount: '14226'
+source-wordcount: '14236'
 ht-degree: 96%
 
 ---
@@ -159,6 +159,7 @@ ht-degree: 96%
          * [21.1 モバイル機能の強化](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
+         * [Workfront Fusion リリースアクティビティ：2024年5月6日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
          * [Workfront Fusion リリースアクティビティ：2024年4月8日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
          * [Workfront Fusion リリースアクティビティ：2024年3月11日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
          * [Workfront Fusion リリースアクティビティ：2024年2月26日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
@@ -2220,6 +2221,7 @@ ht-degree: 96%
       * [Adobe Campaign Classic モジュール](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets モジュール](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms モジュール](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
+      * [Adobe Fireflyモジュール](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
       * [Adobe Journey Optimizer モジュール](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Lightroom モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Adobe PDF サービスモジュール](workfront-fusion/apps-and-their-modules/pdf-modules.md)
