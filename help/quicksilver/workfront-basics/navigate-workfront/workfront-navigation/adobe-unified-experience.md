@@ -6,10 +6,10 @@ description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセス
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 95%
+source-wordcount: '539'
+ht-degree: 91%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 95%
 
 ## プロファイルと環境設定にアクセスする
 
-上部のナビゲーションエリアのプロフィール画像をクリックすると、プロフィールおよび環境設定オプションにアクセスできます。
+上部のナビゲーション領域にあるAdobeアカウントメニュー（プロフィール画像）をクリックすると、プロファイルと環境設定のオプションにアクセスできます。
 
 ![プロファイルメニュー](assets/aec-profile-picture-menu.png)
 
