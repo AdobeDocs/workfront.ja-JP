@@ -4,13 +4,13 @@ description: レコードのコメントでタグが付けられると、その�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 21%
+source-wordcount: '294'
+ht-degree: 36%
 
 ---
-
 
 # Adobe Workfront Planning のアプリ内通知の管理
 
@@ -46,7 +46,7 @@ ht-degree: 21%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +64,7 @@ ht-degree: 21%
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning には、アクセス レベルのコントロールはありません。 </p>  
+   <td> <p>Workfront Planning では、アクセスレベルの制御はありません。 </p>  
 </td>
   </tr>
 <tr>
@@ -76,7 +76,7 @@ ht-degree: 21%
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
  </tbody>
@@ -85,7 +85,7 @@ ht-degree: 21%
 
 ## アプリ内通知の管理
 
-1. （条件付き）レコードに対するコメントで誰かがタグを付けた後、アプリ内に移動します **通知** アイコン ![](assets/experience-cloud-notifications-icon.png) Adobe Experience Cloudで。
+1. （条件付き）誰かがレコードのコメントでタグを付けた後、アプリ内に移動します **通知** アイコン ![](assets/experience-cloud-notifications-icon.png) Adobe Experience Cloudで。
 
    ![](assets/in-app-notification-example.png)
 

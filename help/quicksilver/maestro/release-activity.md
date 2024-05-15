@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '6045'
-ht-degree: 89%
+source-wordcount: '6243'
+ht-degree: 86%
 
 ---
 
@@ -84,17 +84,27 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
-### New warning about object visibility when connecting records 
+###  New Planning section added to the left panel of a Workfront project, portfolio, and program
 
-Production: <date>
+Production: <date> 
 
 Preview: To be determined
 
-When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+We have added a new Planning section in the left panel of Workfront projects, portfolios, and programs. The new Planning section displays the Workfront Planning records connected to the Workfront object.  
 
-For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+The following actions are available from the Planning section in Workfront: 
 
-For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+* View connected Planning records 
+
+* Connect more records to the Workfront object 
+
+* Disconnect records  
+
+* Display more information about the connected records in the preview box 
+
+* Open records in the Planning area 
+
+For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
 
 -->
 
@@ -117,6 +127,29 @@ For more information, see [Connect record types](/help/quicksilver/maestro/archi
 レコードタイプページのヘッダーに「新規レコード」ボタンを追加しました。 任意のビューからレコードを作成できるようになりました。 この機能強化の前は、テーブルビューからのみレコードを作成できていました。
 
 詳しくは、[レコードを作成](/help/quicksilver/maestro/records/create-records.md)を参照してください。
+
+
+### レコードを接続する際のオブジェクトの表示に関する新しい警告
+
+実稼動版：2024年5月15日（PT）
+
+プレビュー：未決定
+
+Workfront Planning 以外のオブジェクト・タイプへの接続を作成すると、現在の作業領域で作業しているユーザーには、他のアプリケーションの権限およびアクセス・レベルに関係なく、すべてのリンク・オブジェクトとその参照フィールドを表示できることが通知されます。
+
+例えば、Workfront Planning キャンペーンからプロジェクトにリンクすると、キャンペーンの表示にアクセスできる全員が、リンクされたプロジェクトと参照フィールドの情報を表示するアクセス権を持ちます。これは、リンクされたプロジェクトに対する権限や、一般的なプロジェクトへのアクセス権を持っていない場合でも同様です。 ワークスペースに対する権限を受け取ると、Planning レコードへのアクセス権を取得します。
+
+詳しくは、[レコードタイプの接続](/help/quicksilver/maestro/architecture/connect-record-types.md)を参照してください。
+
+## レコードのプレビューおよび詳細ページへのセクションの追加
+
+実稼動版：2024年5月15日（PT）
+
+プレビュー：未決定
+
+レコードのページ上の情報をより効率的に整理して、読みやすさとナビゲーションを向上させるために、レコードページにセクションを導入しました。 セクションのタイトルは、フィールドを別個のカテゴリに整理するヘッダーとして機能します。 セクションは完全にカスタマイズ可能で、必要に応じて展開したり折りたたんだりできます。
+
+詳しくは、を参照してください [レコードページの管理](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## 2024年5月6日（PT）の週
 

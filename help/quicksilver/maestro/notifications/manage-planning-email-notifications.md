@@ -4,13 +4,13 @@ description: レコードのコメントでタグが付けられると、その�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 21%
+source-wordcount: '310'
+ht-degree: 34%
 
 ---
-
 
 # Adobe Workfront Planning のメール通知の管理
 
@@ -46,7 +46,7 @@ ht-degree: 21%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +64,7 @@ ht-degree: 21%
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning には、アクセス レベルのコントロールはありません。 </p>  
+   <td> <p>Workfront Planning では、アクセスレベルの制御はありません。 </p>  
 </td>
   </tr>
 <tr>
@@ -76,7 +76,7 @@ ht-degree: 21%
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
  </tbody>
@@ -94,4 +94,4 @@ ht-degree: 21%
    レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
 
 1. （条件付き）使用可能な場合は、 **すべての通知を表示**. <!--check with Lilit - do non-IMS users have this button??-->
-この **通知** Adobe Experience Cloudでページが開きます。
+この **通知** Adobe Experience Cloudでページが開きます。 すべてのAdobe Experience Cloud アプリケーションからのすべての通知が表示されます。
