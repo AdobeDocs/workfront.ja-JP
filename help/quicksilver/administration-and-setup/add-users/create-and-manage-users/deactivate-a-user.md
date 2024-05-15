@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
+source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 89%
+source-wordcount: '1170'
+ht-degree: 96%
 
 ---
 
@@ -83,8 +83,8 @@ Workfront 管理者、スタンダードライセンスユーザーやプラン�
 ユーザーをディアクティベートする際は、次の点に注意してください。
 
 * ユーザーはシステムにアクセスできません。
-* ユーザーは Frame.io レビューリンク、アセット、プロジェクト、アカウントから削除されます。
-   * ユーザーを再アクティブ化しても、自動的に Frame.io 項目に戻りません。 Frame.io の共同作業が必要なWorkfront プロジェクト、タスクおよびアセットに、手動でユーザーを再割り当てする必要があります。
+<!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
 * ユーザーに関連付けられたすべてのデータは保持されます。
 * 非アクティブ化されたユーザーのライセンスを別のユーザーに割り当てることができます。
 
@@ -136,10 +136,10 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 1. ユーザーを選択し、その他アイコン ![](assets/more-icon.png)、**アクティブ化**&#x200B;の順にクリックします。
 
 1. ドロップダウンメニューで新しい&#x200B;**アクセスレベル**&#x200B;を割り当て、「**再アクティブ化**」をクリックします。
+<!--
+### Asset review and approval impact when you reactivate a user
 
-### ユーザーを再アクティブ化すると、アセットのレビューと承認に影響が生じる
-
-ディアクティベートされたユーザーは、割り当てられた Frame.io アカウント、割り当てられたプロジェクト、アセット、レビューリンクへのアクセス権を失います。 ユーザーを再アクティブ化する場合は、Frame.io コラボレーションが必要なプロジェクト、タスク、アセットに手動でユーザーを再割り当てする必要があります。
+Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
 ### ユーザーを再度アクティブ化した際のプルーフへの影響
 
