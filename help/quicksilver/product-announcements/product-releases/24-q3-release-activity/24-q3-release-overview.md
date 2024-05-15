@@ -1,24 +1,24 @@
 ---
-title: 2024 年第 3 四半期リリースの概要
-description: このページでは、2024 年第 3 四半期リリースに含まれる機能について説明します。 これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
+title: 2024年第 3 四半期リリースの概要
+description: このページでは、2024年第 3 四半期リリースに含まれている機能について説明します。これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 65%
+source-wordcount: '697'
+ht-degree: 89%
 
 ---
 
-# 2024 年第 3 四半期リリースの概要
+# 2024年第 3 四半期リリースの概要
 
-このページでは、2024 年第 3 四半期リリースに含まれる機能について説明します。 これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
+このページでは、2024年第 3 四半期リリースに含まれている機能について説明します。これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 
-<span class="preview">オフサイクル機能（2024 年第 3 四半期のリリース日より前に実稼動環境にリリースされた機能）は、黄色でハイライト表示されます。</span>
+<span class="preview">オフサイクル機能（2024年第 3 四半期のリリース日より前に実稼動にリリースされるもの）は、黄色でハイライト表示されています。</span>
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ ht-degree: 65%
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6 （2024 年 6 月）</li><li>24.7 （2024 年 7 月）</li></ul> | <ul><li>24.7 （2024 年 7 月）</li></ul> |
+>| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6（2024年6月）</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
 >
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
@@ -87,7 +87,7 @@ ht-degree: 65%
             <tbody>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新規タスク ワークフローにより関連性の高い割り当てが追加されました</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">より関連性の高い割り当てを、新規タスクワークフローに追加</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>プロジェクトやプロジェクトのタスクリストにタスクを追加する際に、関連性の高いスマート割り当てを行うための同じ機能が、「新規タスク」ボックスの「割り当て」フィールドに追加されました。</p>
                     </td>
@@ -97,8 +97,7 @@ ht-degree: 65%
                                 <p>プレビューリリース：2024年2月13日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
-                                <p><span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span></p>
+                                <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
                                 <p>四半期リリース用の実稼動：未定</p>
@@ -118,8 +117,7 @@ ht-degree: 65%
                                 <p>プレビューリリース：2023年12月21日（PT）</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
-                                <p><span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span></p>
+                                <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
                                 <p>四半期リリース用の実稼動：未定</p>
@@ -155,7 +153,7 @@ ht-degree: 65%
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年 3 月 27 日（Pt）</p>
+                                <p>プレビューリリース：2024年3月27日（PT）</p>
                             </li>
                             <li>
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
@@ -168,13 +166,13 @@ ht-degree: 65%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024 年第 3 四半期中のルックアンドフィールの更新</a></p>
-                        <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対する小規模な更新が、2024 年第 3 四半期内に行われています。 特定のリリース日については、個々のリリースノートを確認してください。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024年第 3 四半期の期間におけるルックアンドフィールのアップデート</a></p>
+                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模なアップデートが、2024年第 3 四半期の期間内に行われます。特定のリリース日については、個々のリリースノートを確認してください。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年第 3 四半期のリリース期間中</p>
+                                <p>プレビューリリース：2024年第 3 四半期のリリース期間中</p>
                             </li>
                             <li>
                                 <p><span class="preview">実稼動版リリース：リリースノートで日付を確認してください。</span></p>
@@ -193,7 +191,7 @@ ht-degree: 65%
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、2024 年第 3 四半期のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+Workfront Fusion の新機能は、2024年第 3 四半期のリリーススケジュールから外れた頻度で、実稼動において利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
@@ -217,7 +215,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2024 年第 3 四半期リリースで行われたメンテナンス更新について詳しくは、を参照してください。 [Workfrontのメンテナンス更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+2024年第 3 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
 
 ### トレーニングの更新
 

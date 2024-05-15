@@ -7,14 +7,14 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '274'
 ht-degree: 95%
 
 ---
 
-# 以下を使用します。 [!DNL Adobe Workfront] モバイルアプリ：記事インデックス
+# [!DNL Adobe Workfront] モバイルアプリの使用：記事インデックス
 
 <!-- Audited: 2/2024 -->
 
@@ -38,9 +38,13 @@ iOS または Android デバイスで使用可能な [!DNL Adobe Workfront's] �
 * Workfront リクエストの作成と処理
 * タイムシートへの時間の記録
 
+>[!IMPORTANT]
+>
+>[!DNL Workfront Proof] アプリは [!DNL Adobe Workfront] モバイルアプリに置き換わりました。[!DNL Workfront] ユーザーは、プルーフのレビューと承認を実施する際には、[!DNL Adobe Workfront] モバイルアプリを使用してください。
+
 >[!NOTE]
 >
->The [!DNL Adobe Workfront] モバイルアプリが [!DNL Workfront Proof] アプリを使用します。 [!DNL Workfront] ユーザーは、プルーフのレビューと承認を実施する際には、[!DNL Adobe Workfront] モバイルアプリを使用してください。
+>Workfront モバイルアプリでは、テキストフィールド内のハイパーリンクはサポートされていません。
 
 [!DNL Adobe Workfront] モバイルアプリについて詳しくは、以下の記事を参照ください。
 

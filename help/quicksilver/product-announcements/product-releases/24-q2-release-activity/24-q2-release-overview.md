@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 49%
+source-wordcount: '2218'
+ht-degree: 96%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 49%
 このページでは、2024年第 2 四半期リリースに含まれる機能について説明します。これらの機能強化は、2024 年 4 月 10 日および 11 日（PT）の 24.4 リリースで、すべてのお客様の実稼動環境で利用できるようになりました。
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-リリースウェビナーの代わりに、次の操作をお勧めします [Adobe Summitの登録](https://summit.adobe.com/na/) 次のWorkfront セッションを視聴するには：
+リリースウェビナーの代わりに、次の Workfront セッションを視聴するには、[Adobe Summit の登録](https://summit.adobe.com/na/)をします。
 
-[Adobe Workfrontの未来](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) 2024 年 3 月 26 日（PT）に、戦略的計画とワークフローの将来について説明します。 Workfront チームが、マーケティングライフサイクル全体を通じてビジネス能力に対処する計画を立てる方法を説明します。これらはすべて、作業を自動化し、ユーザーエクスペリエンスを簡素化し、生産性を高めるための AI ファーストのアプローチで行われます。
+2024年3月26日（PT）の [Adobe Workfront の今後](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302)では、戦略的計画立案とワークフローの将来をプレビューします。Workfront チームが、作業を自動化し、ユーザーエクスペリエンスを簡素化し、生産性を向上させるための AI ファーストのアプローチをすべて使用して、マーケティングライフサイクル全体にわたるビジネス機能にどのように対処することを計画しているかについて説明します。
 
-[エンドツーエンドのキャンペーン計画用のマーケティングカレンダーとツールを公開](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) 2024 年 3 月 28 日（PT）に、組織がエンドツーエンドの運用ライフサイクルを管理および視覚化できるように設計された新製品機能について説明します。
+2024年3月28日（PT）の[エンドツーエンドのキャンペーン計画用のマーケティングカレンダーとツールを公開](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304)では、組織がエンドツーエンドの運用ライフサイクルを管理および視覚化できるように設計された新しい製品機能について説明します。
 
 以下の手順でも可能です [PDFファイルの表示](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} 24.4 リリースのハイライトを含みます。
 
@@ -67,40 +67,40 @@ ht-degree: 49%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">表示ロジックとスキップロジックが、フォームデザイナーのプレビューモードで使用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>ベータ版のカスタムフォームデザイナーを使用すると、プレビューモードで表示ロジックをテストし、ロジックをスキップできるようになりました。 これまで、ロジックが適用されている場合でも、すべてのフィールドがプレビューに表示されていました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">フォームデザイナーのプレビューモードで表示ロジックとスキップロジックを利用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>ベータ版のカスタムフォームデザイナーでは、プレビューモードで、表示ロジックをテストし、ロジックをスキップできるようになりました。以前は、ロジックが適用されている場合でも、すべてのフィールドがプレビューに表示されていました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年 3 月 28 日（PT）</p>
+                                <p>プレビューリリース：2024年3月28日（PT）</p>
                             </li>
                             <li>
-                                <p>お客様向けの実稼動環境：24.4 リリースの場合（2024 年 4 月 11 日（PT））</p>
+                                <p>すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">会社とユーザーは、高度なカスタムフォームフィールドをサポートするようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>外部検索フィールドやWorkfront ネイティブフィールドなどの高度なカスタムフォーム機能が、カスタムフォームを会社またはユーザーに添付する際に使用できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">会社とユーザーによる高度なカスタムフォームフィールドのサポート</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>カスタムフォームを会社またはユーザーに添付すると、外部参照フィールドや Workfront ネイティブフィールドなどの高度なカスタムフォーム機能が使用できるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年 3 月 14 日（Pt）</p>
+                                <p>プレビューリリース：2024年3月14日（PT）</p>
                             </li>
                             <li>
-                                <p>お客様向けの実稼動環境：24.4 リリースの場合（2024 年 4 月 11 日（PT））</p>
+                                <p>すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいパッケージタイプで JumpSeat 統合を使用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>既存の JumpSeat 統合は、新しいパッケージタイプ（Select、Prime、Ultimate など）のいずれかを使用しているアカウントで使用できるようになりました。 統合を有効にするには、アクティブな JumpSeat サブスクリプションがまだ必要です。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat 統合が、新しいパッケージタイプで使用可能</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>既存の JumpSeat 統合は、新しいパッケージタイプ（Select、Prime、Ultimate など）のいずれかを使用するアカウントで使用できるようになりました。統合を有効にするには、アクティブな JumpSeat サブスクリプションが引き続き必要です。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -108,18 +108,18 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年2月26日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p>迅速リリース用の実稼動版：24.3 リリース（2024年3月14日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontのネイティブフィールドは、フォームデザイナーのベータ版で使用できます</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>Workfront固有のフィールドをカスタムフォームに追加できるようになりました。 この新しいフィールドタイプを使用すると、カスタムフィールドで既存のデータを再作成しなくても、論理的な方法でデータを整理してユーザーに表示できます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront ネイティブフィールドが、フォームデザイナーのベータ版で使用可能</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>Workfront にネイティブなフィールドをカスタムフォームに追加できるようになりました。この新しいフィールドタイプを使用すると、カスタムフィールドで既存のデータを再作成することなく、論理的な方法でデータを整理してユーザーに表示できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -127,10 +127,10 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年2月29日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p>迅速リリース用の実稼動版：24.3 リリース（2024年3月14日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -165,7 +165,7 @@ ht-degree: 49%
                                 <p>実稼動版（迅速リリース用）：24.2 リリース（2024年2月15日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -177,7 +177,7 @@ ht-degree: 49%
 
 >[!IMPORTANT]
 >
->にリストされている機能 **ドキュメント管理の機能強化** は段階的リリースの一部であり、特定の顧客のみが使用できます。
+>**ドキュメント管理の機能強化**&#x200B;に記載されている機能は段階的リリースの一部で、特定の顧客のみが利用できます。
 
 <table>
             <col style="width: 50%;" />
@@ -195,16 +195,16 @@ ht-degree: 49%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのレビューと承認に期限を追加する</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>ドキュメントのレビューまたは承認に割り当てられるユーザーまたはチームの期限を指定できるようになりました。 レビュー担当者と承認者は、指定した期限の 72 時間前とその 24 時間前にメール通知を受け取ります。 期限は、新しいホームエリアの承認ウィジェットにも反映されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのレビューと承認への期限の追加</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>ドキュメントのレビューまたは承認を割り当てるユーザーまたはチームに期限を指定できるようになりました。レビュアーと承認者は、指定した期限の 72 時間前と 24 時間前にメール通知を受信します。期限は、新しいホームエリアの承認ウィジェットにも反映されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年 3 月 28 日（PT）</p>
+                                <p>プレビューリリース：2024年3月28日（PT）</p>
                             </li>
                             <li>
-                                <p>お客様向けの実稼動環境：24.4 リリースの場合（2024 年 4 月 11 日（PT））</p>
+                                <p>すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -212,10 +212,10 @@ ht-degree: 49%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">承認テンプレートの作成と使用</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>設定エリアで承認テンプレートを作成して、レビューと承認のプロセスを効率化できるようになりました。 承認テンプレートを使用すると、レビューと承認のプロセスを、次の方法でより繰り返し可能にすることができます
+                        <p>設定エリアで承認テンプレートを作成して、レビューと承認のプロセスを効率化できるようになりました。承認テンプレートを使用すると、レビューと承認のプロセスを、次の方法でより繰り返し可能にすることができます
                         <ul>
                             <li>
-                                <p>レビュー担当者と承認者の追加</p>
+                                <p>レビュアーと承認者の追加</p>
                             </li>
                             <li>
                                 <p>期間の設定</p>
@@ -226,17 +226,17 @@ ht-degree: 49%
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年 3 月 28 日（PT）</p>
+                                <p>プレビューリリース：2024年3月28日（PT）</p>
                             </li>
                             <li>
-                                <p>お客様向けの実稼動環境：24.4 リリースの場合（2024 年 4 月 11 日（PT））</p>
+                                <p>すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">すべての承認に関する情報を 1 か所で表示する</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">すべての承認に関する情報を 1 か所で表示</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>承認リクエストを一目で管理および分析できるように、すべての承認ウィジェットに次の主要業績評価指標を追加しました。
                         <ul>
                             <li>
@@ -257,10 +257,10 @@ ht-degree: 49%
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年 3 月 28 日（PT）</p>
+                                <p>プレビューリリース：2024年3月28日（PT）</p>
                             </li>
                             <li>
-                                <p>お客様向けの実稼動環境：24.4 リリースの場合（2024 年 4 月 11 日（PT））</p>
+                                <p>すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -298,7 +298,7 @@ ht-degree: 49%
                                 <p>実稼動版（迅速リリース用）：24.2 リリース（2024年2月15日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -324,13 +324,13 @@ ht-degree: 49%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager統合における自動フォルダー作成ワークフローの機能強化</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 統合における自動フォルダー作成ワークフローの機能強化</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Adobe Experience Manager フォルダーがニーズをより正確に反映できるように、Adobe Experience Managerにリンクされたフォルダーのワークフローを更新しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年 3 月 11 日（Pt）</p>
+                                <p>プレビューリリース：2024年3月11日（PT）</p>
                             </li>
                             <li>
                                 <p>実稼動（すべてのお客様向け）：2024年3月14日（PT)</p>
@@ -359,7 +359,7 @@ ht-degree: 49%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">新規タスク ワークフローにより関連性の高い割り当てが追加されました</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">より関連性の高い割り当てを、新規タスクワークフローに追加</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>プロジェクトやプロジェクトのタスクリストにタスクを追加する際に、関連性の高いスマート割り当てを行うための同じ機能が、「新規タスク」ボックスの「割り当て」フィールドに追加されました。</p>
                     </td>
@@ -369,8 +369,7 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年2月13日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
-                                <p><span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span></p>
+                                <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
                                 <p>四半期リリース用の実稼動：未定</p>
@@ -390,8 +389,7 @@ ht-degree: 49%
                                 <p>プレビューリリース：2023年12月21日（PT）</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
-                                <p><span style="color: #ff0000;">この機能は、2024 年 3 月 18 日（PT）に迅速リリースのお客様向けに実稼動環境から削除されました。</span></p>
+                                <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
                                 <p>四半期リリース用の実稼動：未定</p>
@@ -431,7 +429,7 @@ ht-degree: 49%
                                 <p>実稼動版（迅速リリース用）：24.2 リリース（2024年2月15日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -466,7 +464,7 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年4月11日（PT）</p>
                             </li>
                             <li>
-                                <p>すべてのお客様の実稼動環境：24.4 リリースの場合（2024 年 4 月 11 日（PT））</p>
+                                <p>すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -483,8 +481,8 @@ ht-degree: 49%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">従来のコメント領域へのアクセスが削除されました</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>プロジェクト、タスク、イシュー、ドキュメントの更新領域の「新規コメント」切替スイッチを削除しました。 新しいコメント機能がデフォルトになり、これらのオブジェクトに使用できる唯一のオプションになりました。 この変更により、従来のコメントエクスペリエンスに戻すことはできなくなります。 さらに、ユーザーのプロファイルにある「更新状態の完了率を表示」設定も削除しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">従来のコメントエリアへのアクセス権限を削除</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>プロジェクト、タスク、イシューおよびドキュメントの更新エリアにある「新規コメント」切替スイッチを削除しました。新しいコメント機能がデフォルトになり、これらのオブジェクトに使用できる唯一のオプションになりました。この変更により、従来のコメントエクスペリエンスに戻すことはできなくなりました。また、ユーザーのプロファイルにある「更新ステータスの完了率を表示」設定も削除しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -492,40 +490,40 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年4月1日（PT）</p>
                             </li>
                             <li>
-                                <p>すべてのお客様の実稼動環境：24.4 リリースの場合（2024 年 4 月 11 日（PT））</p>
+                                <p>すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームウィジェットのクイックアクションで新しいコメントストリームを使用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>新しいホームのマイ作業、マイプロジェクト、マイタスク、マイ問題ウィジェットの「新しい更新を追加」クイックアクションボタンに、新しいコメント機能が追加されました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームウィジェットのクイックアクションで、新しいコメントストリームが利用可能に</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>新しいホームの担当作業、マイプロジェクト、マイタスク、マイイシューウィジェットの「新しい更新を追加」クイックアクションボタンに新しいコメント機能を追加しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年 3 月 1 日（Pt）</p>
+                                <p>プレビューリリース：2024年3月1日（PT）</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p>迅速リリース用の実稼動版：24.3 リリース（2024年3月14日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスで利用できる追加のコメントセンター情報</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>新しいコメント機能のエクスペリエンスが次のように強化されました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスで、コメントした人に関する追加の情報が利用可能</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>新しいコメントエクスペリエンスで次の機能強化を行いました。</p>
                         <ul>
                             <li>
-                                <p>コメンテーターの名前をクリックすると、そのコメンテーターの名前、役割、メールアドレスが情報ボックスに表示されます。 この情報は、同じ名前のユーザーが複数ある場合に、正しいユーザーを識別するのに役立ちます。 情報ボックスでコメンテーターの名前をクリックすると、そのコメンテーターのユーザープロファイルが開きます。</p>
+                                <p>コメントした人の名前をクリックすると、情報ボックスにコメントした人の名前、役割、メールアドレスが表示されます。この情報は、同じ名前のユーザーが複数いる場合に、正しいユーザーを識別するのに役立ちます。情報ボックス内のコメントした人の名前をクリックすると、そのユーザーのプロファイルが開きます。</p>
                             </li>
                             <li>
-                                <p>コメントテキストでメンションを受けると、タグ付けされたコメント内でユーザー名がハイライト表示されます。</p>
+                                <p>コメントテキスト内で自分が言及されている場合、自分がタグ付けされたコメント内で自分のユーザー名がハイライト表示されます。</p>
                             </li>
                         </ul>
                     </td>
@@ -535,18 +533,18 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年2月29日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p>迅速リリース用の実稼動版：24.3 リリース（2024年3月14日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスの「システムアクティビティ」タブが、読み取り専用のコメントをサポートするようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>従来のコメント機能でシステムアクティビティレコードに追加されたコメントが、新しいコメント機能の「システムアクティビティ」タブに読み取り専用として入力されるようになりました。 新しいコメントエクスペリエンス内のシステムアクティビティレコードに返信することはできません。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">読み取り専用のコメントをサポートする新しいコメントエクスペリエンスの「システムアクティビティ」タブ</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>従来のコメントエクスペリエンスでシステムアクティビティレコードに対して作成されたコメントは、新しいコメントエクスペリエンスの「システムアクティビティ」タブに読み取り専用として入力されるようになりました。新しいコメントエクスペリエンスでは、システムアクティビティレコードに返信できません。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -554,17 +552,17 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年2月22日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p>迅速リリース用の実稼動版：24.3 リリース（2024年3月14日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">コメントとシステムアクティビティエントリの両方を取得する新しい「ストリームを更新」タブ</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「更新ストリーム」タブ</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>コメントとシステムアクティビティログの両方を時系列でまとめた表示にするために、すべてのオブジェクトの更新エリアに 3 番目のタブを導入します。「すべて」タブは、1 つのまとまったストリームで、ユーザコメントとシステムアクティビティコメントの両方を取り込みます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -573,17 +571,17 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年2月22日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p>迅速リリース用の実稼動版：24.3 リリース（2024年3月14日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">概要パネルで新しいコメントストリームを使用できるようになりました。</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">概要パネルで新しいコメントストリームが利用可能に</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>タスクおよびイシューリストの概要パネルに新しいコメント機能が追加されました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -592,10 +590,10 @@ ht-degree: 49%
                                 <p>プレビューリリース：2024年2月22日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.3 リリースの場合（2024 年 3 月 14 日（PT））</p>
+                                <p>迅速リリース用の実稼動版：24.3 リリース（2024年3月14日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリースの制作：24.4 リリースと共に（2024 年 4 月 11 日（PT））</p>
+                                <p>四半期リリース用の実稼動版：24.1 リリース（2024年4月11日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -644,7 +642,7 @@ ht-degree: 49%
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、2024 年第 2 四半期のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+Workfront Fusion の新機能は、2024年第 2 四半期のリリーススケジュールから外れた頻度で、実稼動において利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
@@ -668,7 +666,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2024 年第 2 四半期リリースで行われたメンテナンス更新について詳しくは、を参照してください。 [Workfrontのメンテナンス更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja).
+2024年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
 
 ### トレーニングの更新
 
