@@ -4,13 +4,13 @@ description: Adobe Workfront Planning の通知設定を管理できる場合が
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
+source-git-commit: 0c3192599130d110572a6c1a5e93ffa47d437ac3
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 19%
+ht-degree: 31%
 
 ---
-
 
 # Adobe Workfront Planning 通知設定の管理
 
@@ -45,7 +45,7 @@ ht-degree: 19%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -63,7 +63,7 @@ ht-degree: 19%
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning には、アクセス レベルのコントロールはありません。 </p>  
+   <td> <p>Workfront Planning では、アクセスレベルの制御はありません。 </p>  
 </td>
   </tr>
 <tr>
@@ -75,7 +75,7 @@ ht-degree: 19%
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
  </tbody>

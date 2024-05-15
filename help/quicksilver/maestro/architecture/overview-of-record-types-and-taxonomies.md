@@ -1,14 +1,14 @@
 ---
 title: レコードタイプの概要
-description: レコードタイプは、Adobe Workfront Planning のワークスペースの構築ブロックです。
+description: レコードタイプは、Adobe Workfront Planning ワークスペースの構成要素です。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ ht-degree: 30%
 
 {{maestro-important-intro}}
 
-オブジェクト型が事前定義されているWorkfrontとは異なり、Adobe Workfront Planning では独自のオブジェクト型を作成できます。 例えば、Workfront では、プログラム、ポートフォリオ、プロジェクト、タスクやイシューのオブジェクトタイプがあらかじめ作成されています。
+オブジェクトタイプが事前に定義されている Workfront とは異なり、Adobe Workfront Planning では独自のオブジェクトタイプを作成できます。例えば、Workfront では、プログラム、ポートフォリオ、プロジェクト、タスクやイシューのオブジェクトタイプがあらかじめ作成されています。
 
-Workfront Planning のオブジェクト・タイプは「レコード・タイプ」と呼ばれ、すべてを作成してカスタマイズできます。 レコードタイプは、Workfront Planning のワークスペースの構築ブロックです。 ワークスペースについて詳しくは、[ワークスペースを作成](../architecture/create-workspaces.md)を参照してください。
+Workfront Planning のオブジェクトタイプは「レコードタイプ」と呼ばれ、すべてを作成およびカスタマイズできます。レコードタイプは、Workfront Planning ワークスペースの構成要素です。ワークスペースについて詳しくは、[ワークスペースを作成](../architecture/create-workspaces.md)を参照してください。
 
 ## レコードタイプの概要
 
-Workfront Planning では、組織のニーズを満たすカスタムレコードタイプを作成できます。
+Workfront Planning では、組織のニーズに合ったカスタムレコードタイプを作成できます。
 
-* テンプレートからワークスペースを作成する場合、レコードタイプは次のワークスペースセクションで作成されます。
+* テンプレートからワークスペースを作成する際、次のワークスペースセクションにレコードタイプが作成されます。
 
-   * [運用中のレコードタイプ](#operational-record-type)：戦略的計画、イニシアチブ、または予定作業を表すレコードタイプ。 例えば、キャンペーン、アクティビティ、戦術、機会は、運用レコードタイプに含めることができます。
-   * [分類](#taxonomy)：操作レコードタイプに関する属性をキャプチャするレコードタイプ。 例えば、地域、住所、オーディエンスは、分類に含めることができます。
+   * [運用レコードタイプ](#operational-record-type)：戦略計画、イニシアチブまたは予定作業を表すレコードタイプ。例えば、キャンペーン、アクティビティ、戦術、機会は、運用レコードタイプに含めることができます。
+   * [分類](#taxonomy)：運用レコードタイプに関する属性を取り込むレコードタイプ。例えば、地域、住所、オーディエンスは、分類に含めることができます。
 
-* 最初から作成したワークスペースでレコードタイプを作成する場合、ワークスペースで作成した任意のセクションにレコードタイプを配置できます。
+* 最初から作成したワークスペースにレコードタイプを作成する際、ワークスペース内に作成した任意のセクションにレコードタイプを配置できます。
 * レコードタイプの作成時、自分自身と、ワークスペースへのアクセス権を付与したユーザーのみが、このレコードタイプを表示できます。
 * ワークスペースのレコードタイプを作成するには、まずワークスペースを作成する必要があります。
-* ワークスペースのセクション数に関係なく、1 つのワークスペースに合計 1,000 個のレコードタイプを含めることができます。 これには、最初から作成するレコードタイプや、テンプレートの使用時に作成されるレコードタイプが含まれます。
+* ワークスペースに含まれるセクションの数に関係なく、1 つのワークスペースに合計 1,000 のレコードタイプを含めることができます。この合計には、最初から作成したレコードタイプや、テンプレートの使用時に作成されたレコードタイプが含まれます。
 
 
 <!--
@@ -43,15 +43,14 @@ Workfront Planning では、組織のニーズを満たすカスタムレコー�
 
 An operational record type is a Maestro record type that represents work-related objects.  
 
-![](assets/operational-record-type-blank.png)
-
+(***********insert screen shot**************)
 For more information about operational record types including how to create them, see [Create record types](../architecture/create-record-types.md). 
 
 ### Taxonomy{#taxonomy}
 
 A taxonomy is a record type that captures attributes about an operational record type. 
 
-![](assets/taxonomy-record-type-blank.png)
+(**********add screen shot**********)
 
 For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
