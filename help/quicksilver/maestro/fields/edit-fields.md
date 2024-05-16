@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 23%
+source-wordcount: '574'
+ht-degree: 66%
 
 ---
 
@@ -29,29 +29,34 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning で既に作成されているフィールドのフィールド設定を編集できます。
+Adobe Workfront Planning では、作成済みフィールドのフィールド設定を編集できます。
 
-Adobe Workfront Planning フィールドの作成の詳細は、次を参照してください： [フィールドの作成](../fields/create-fields.md).
+Adobe Workfront Planning フィールドの作成については、[フィールドの作成](../fields/create-fields.md)を参照してください。
 
-ここでは、Workfront計画フィールドの設定を編集する方法について説明します。 レコードのフィールド値の編集については、を参照してください [レコードを編集](/help/quicksilver/maestro/records/edit-records.md).
+この記事では、Workfront Planning フィールドの設定を編集する方法について説明します。レコードのフィールド値の編集については、[レコードの編集](/help/quicksilver/maestro/records/edit-records.md)を参照してください。
 
 ## フィールド設定の編集に関する考慮事項
 
 フィールドの設定を変更する前に、次の点を考慮する必要があります。
 
-* フィールドが属するワークスペースへの管理権限がある場合は、自分が作成したフィールドや、他のユーザーが作成したフィールドを編集できます。
-* レコードタイプ テーブルのフィールドを編集できます。
+* フィールドが属するワークスペースへの管理権限がある場合は、自分が作成したフィールドや他のユーザーが作成したフィールドを編集できます。
+* レコードタイプテーブルのフィールドを編集できます。
 * レコード ページまたはテーブル ビュー以外の他のビューでフィールドを編集することはできません。
-* フィールドの保存後にフィールドタイプを編集することはできません。
-* 「数値」、「パーセント」または「通貨」フィールドで、添付対象のレコードにマイナスの値が格納されている場合は、以前に選択した「マイナスの値を許可」設定を選択解除できません。
+* フィールドを保存した後は、フィールドタイプを編集できません。
+* 数値、パーセンテージ、通貨のいずれかのフィールドについて、そのフィールドが添付されているレコードに既に負の値が格納されている場合は、選択済みの「負の数を許可」設定の選択を解除することはできません。
+* フィールドを保存した後で、次のフィールド要素の設定を編集できます。
 
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+   * フィールドの名前または説明
+   * 単一選択または複数選択フィールドのオプション。
+   * 数式フィールドの式を指定します。
 
-* You can edit the configuration of the following fields, after they are saved:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+  >[!WARNING]
+  >
+  >数式が変更されたり、選択タイプ フィールドにオプションが追加または削除されたりすると、設定が変更されたフィールドに既に情報が保存されているレコードのデータが失われます。
+  >
+  >フィールドの設定を変更した場合、このデータ損失が発生する可能性があることを示す警告や表示はありません。
+  >
+  >フィールドの設定が変更されたという通知は他のユーザーには送信されません。
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -76,7 +81,7 @@ Adobe Workfront Planning フィールドの作成の詳細は、次を参照し�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -94,7 +99,7 @@ Adobe Workfront Planning フィールドの作成の詳細は、次を参照し�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning にはアクセス制御はありません</p>  
+   <td> <p>Workfront Planning に対するアクセス制御はありません</p>  
 </td>
   </tr>
 
@@ -106,7 +111,7 @@ Adobe Workfront Planning フィールドの作成の詳細は、次を参照し�
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -122,24 +127,24 @@ Adobe Workfront Planning フィールドの作成の詳細は、次を参照し�
 
 {{step1-to-maestro}}
 
-    最後にアクセスしたワークスペースは、デフォルトで開きます。
+    最後にアクセスしたワークスペースが、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを削除するワークスペースを選択します。
 
    ワークスペースが開き、それに関連付けられたレコードタイプが表示されます。
-1. 編集するフィールドを持つレコードタイプのカードをクリックします。
+1. フィールドを編集するレコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
 1. （条件付き）のタブをクリック **テーブル表示**.
-1. 編集するフィールドの列見出しにポインタを合わせ、フィールド名の後の下向き矢印をクリックして、クリックします **フィールドを編集**
+1. 編集するフィールドの列ヘッダーにポインタを合わせ、フィールド名の後の下向き矢印をクリックして「**フィールドを編集**」をクリックします。
 
    または
 
-   フィールドの列見出しをダブルクリックします。
+   フィールドの列ヘッダーをダブルクリックします。
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. フィールドに関する情報を更新し、をクリックします **保存**.
+1. フィールドに関する情報を更新し、「**保存**」をクリックします。
 
    <!--insert screen shot when finalized-->
 
@@ -159,6 +164,6 @@ Adobe Workfront Planning フィールドの作成の詳細は、次を参照し�
     -->
 
 
-1. （条件付き）リンクされたレコードフィールドで、 **参照フィールドを編集** また、リンクされたレコードタイプにフィールドを追加したり、いずれかのフィールドをリンクされたレコードタイプから削除したりできます。
+1. （条件付き）リンクされたレコードのフィールドについては、「**ルックアップフィールドを編集**」をクリックし、リンクされたレコードタイプから任意のフィールドを追加または削除します。
 
    詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。

@@ -4,7 +4,7 @@ description: 左側のパネルでは、Adobe Workfront オブジェクトの「
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 17%
@@ -142,11 +142,11 @@ Workfront Planning にオブジェクトのページが開きます。
    * 計画レコードに接続されているWorkfront フィールドの値も削除されます。
 1. クリック **接続** より多くのレコードを接続します。
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   「接続」ボタンは、管理権限を持つワークスペースに対してのみ表示されます。
+   >   「接続」ボタンは、投稿権限を持つワークスペースに対してのみ表示されます。
 
 1. 接続するレコードをクリックします。 次のことが発生します。
 

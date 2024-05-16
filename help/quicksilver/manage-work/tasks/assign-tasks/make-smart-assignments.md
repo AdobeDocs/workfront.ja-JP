@@ -6,20 +6,20 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 90%
 
 ---
 
 # スマート割り当ての実行
 
-<!--Audited: 02/2024-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-{{highlighted-preview}}
+<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 スマート割り当てを使用して、作業の完了に最適なユーザーを特定できます。
 
@@ -87,8 +87,8 @@ ht-degree: 100%
 
    タスクについては、割り当てが特定されたアルゴリズムの計算のフェーズに応じて、スマート割り当てが次のセクションに表示されます。
 
-   * **提案された割り当て**：タスクスマート割り当てのアルゴリズム計算の第 1 フェーズで特定された割り当て。
-   * <span class="preview">**その他の割り当て**：タスクスマート割り当てのアルゴリズム計算の 第 2 フェーズで特定された割り当て。このセクションは、イシューには使用できません。</span> <!--replace this with the new UI: "Other assignments"-->
+   * **提案された割り当て**：タスクスマート割り当てのアルゴリズム計算の最初のフェーズで特定された割り当て。 <span class="preview">このセクションは、問題に対しては使用できません。</span>
+   * <span class="preview">**その他の割り当て** （または **ユーザーとチーム**、または **担当業務**）：タスクスマート割り当てのアルゴリズム計算の第 2 段階で識別された割り当て。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
 

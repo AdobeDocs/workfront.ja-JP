@@ -7,19 +7,20 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 100%
+source-wordcount: '1278'
+ht-degree: 95%
 
 ---
 
 # スマート割り当ての概要
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-{{highlighted-preview}}
+<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 タスクと問題の割り当てを管理する場合、スマート割り当てを使用すると、作業を完了するのに最適なリソースを特定できます。スマート割り当ては、作業アイテムをリソースに割り当てる際に、そのジョブに最も適したリソースを決定するアルゴリズムに基づいて Adobe Workfront が示す提案です。スマート割り当てでは、ユーザー、担当業務、チームを指定できます。
 
@@ -121,7 +122,7 @@ ht-degree: 100%
 
   例えば、Rick が今日早くに類似のタスクに割り当てられ、Jennifer が 2 日前に類似のタスクに割り当てられた場合、Rick が最初に表示されます。
 
-* このフェーズで特定された割り当ては、割り当てフィールドの「**推奨された割り当て**」セクションに入力されます。
+* このフェーズで特定された割り当ては、    **提案された割り当て**  「割り当て」フィールドの「」セクション
 
 * この計算を使用して一致するものがない場合、スマート割り当ての第 2 フェーズが開始され、別のアルゴリズムを使用して計算が行われます。
 
@@ -131,7 +132,7 @@ ht-degree: 100%
 
 詳しくは、この記事の[タスクと問題のスマート割り当て条件](#smart-assignments-criteria-for-tasks-and-issues)を参照してください。
 
-このフェーズで特定された割り当ては、タスクの割り当てフィールドの「**その他の割り当て**」セクションに入力されます。<!--update this to "Other assignments"-->
+このフェーズで特定された割り当ては、   **その他の割り当て** タスクの「割り当て」フィールドの「（またはユーザーとチーム、または担当業務の割り当て）」セクション
 
 ### タスクとイシューのスマート割り当て条件
 

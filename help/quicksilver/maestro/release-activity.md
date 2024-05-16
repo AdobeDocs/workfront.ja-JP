@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '6243'
-ht-degree: 86%
+source-wordcount: '6367'
+ht-degree: 84%
 
 ---
 
@@ -55,24 +55,6 @@ Preview: To be determined
 To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
-### Real-time updates for field configuration changes 
-
-Production: <date> 
-
-Preview: To be determined 
-
-If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
-
->[!WARNING]
->
->When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
->
->There is no warning or indication that this data loss could happen when you change the configuration of fields. 
->
->There is no notification to other users that the field configuration has changed.  
-
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -141,7 +123,7 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 
 詳しくは、[レコードタイプの接続](/help/quicksilver/maestro/architecture/connect-record-types.md)を参照してください。
 
-## レコードのプレビューおよび詳細ページへのセクションの追加
+### レコードのプレビューおよび詳細ページへのセクションの追加
 
 実稼動版：2024年5月15日（PT）
 
@@ -150,6 +132,24 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 レコードのページ上の情報をより効率的に整理して、読みやすさとナビゲーションを向上させるために、レコードページにセクションを導入しました。 セクションのタイトルは、フィールドを別個のカテゴリに整理するヘッダーとして機能します。 セクションは完全にカスタマイズ可能で、必要に応じて展開したり折りたたんだりできます。
 
 詳しくは、を参照してください [レコードページの管理](/help/quicksilver/maestro/records/manage-the-record-page.md).
+
+### フィールド設定の変更に対するリアルタイム更新
+
+実稼動版：2024年5月16日（PT）
+
+プレビュー：未決定
+
+ユーザーがレコードタイプのフィールド設定（名前、説明、オプションのリストなど）を変更すると、他のユーザーはその変更をリアルタイムで表示します。 これにより、全員が正しいフィールドと情報を同時に表示できるようになります。
+
+>[!WARNING]
+>
+>数式が変更されたり、選択タイプ フィールドにオプションが追加または削除されたりすると、設定が変更されたフィールドに既に情報が保存されているレコードのデータが失われます。
+>
+>フィールドの設定を変更した場合、このデータ損失が発生する可能性があることを示す警告や表示はありません。
+>
+>フィールドの設定が変更されたという通知は他のユーザーには送信されません。
+
+詳しくは、を参照してください [フィールドを編集](/help/quicksilver/maestro/fields/edit-fields.md).
 
 ## 2024年5月6日（PT）の週
 
