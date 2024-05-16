@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 89%
+source-wordcount: '788'
+ht-degree: 81%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 89%
 ## Adobe Workfront の機能強化
 
 <!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Financial Management の機能強化](#financial-management-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
 
@@ -79,13 +80,65 @@ ht-degree: 89%
         </table>
 -->
 
+### Financial Management の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">プロジェクトおよびタスクに使用できる請求可能および請求不可の費用フィールド</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
+                        <p>費用タイプをより簡単に確認できるように、費用は、プロジェクトとタスクの請求可能な費用と請求不可な費用に分割されています。 ビューとレポートに追加できるフィールドは以下のとおりです。</p>
+                        <ul>
+                            <li><p>予定請求可能費用コスト</p></li>
+                            <li><p>請求不可の予定費用コスト</p></li>
+                            <li><p>実際の請求不可の費用コスト</p></li>
+                            <li><p>実際の請求不可の費用コスト</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024 年 5 月 10 日（PT）</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動（すべてのお客様向け）：2024年5月10日（PT)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### プロジェクトの強化
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                 <tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">より関連性の高い割り当てを、新規タスクワークフローに追加</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -97,10 +150,7 @@ ht-degree: 89%
                                 <p>プレビューリリース：2024年2月13日</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
-                            </li>
-                            <li>
-                                <p>四半期リリース用の実稼動：未定</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
                             </li>
                         </ul>
                     </td>
@@ -117,10 +167,7 @@ ht-degree: 89%
                                 <p>プレビューリリース：2023年12月21日（PT）</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
-                            </li>
-                            <li>
-                                <p>四半期リリース用の実稼動：未定</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
                             </li>
                         </ul>
                     </td>
@@ -147,7 +194,7 @@ ht-degree: 89%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">オブジェクトアクセスが制限されたユーザーの UI エクスペリエンスが向上しました</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>ユーザーがオブジェクトへのアクセス権を持っていない場合、Workfrontでは、そのオブジェクト名が表示されるすべての場所に「アクセスなし」と表示されます。 この改善されたエクスペリエンスは、Workfront API にも当てはまります。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -181,11 +228,7 @@ ht-degree: 89%
                     </td>
                 </tr>                
            </tbody>
-        </table>   
-           </tbody>
         </table>
-
-
 
 ## お知らせ
 
