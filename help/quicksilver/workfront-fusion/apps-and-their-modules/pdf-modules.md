@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: b43ea012d7c649c94011f72f010ae24895e6ef4b
-workflow-type: ht
-source-wordcount: '3590'
-ht-degree: 100%
+source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
+workflow-type: tm+mt
+source-wordcount: '3719'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ OAuth サーバー間 API を作成するには、Adobe Developers Console に A
 
 [!DNL Adobe PDF Services] モジュールへの接続を作成するには、以下を実行します。
 
-1. 任意の [!DNL Adobe PDF Services] モジュールで、接続ボックスの横にある「**[!UICONTROL 追加]**」をクリックします。
+1. 任意の [!DNL Adobe PDF Services] モジュールで、「接続」ボックスの横にある「**[!UICONTROL 追加]**」をクリックします。
 
 1. 次のフィールドに入力します。
 
@@ -264,7 +264,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する方法について詳しくは、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -326,7 +326,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する方法については、この記事内の <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -426,7 +426,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順について詳しくは、本記事で <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -532,7 +532,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続を作成するを参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -615,7 +615,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続を作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -656,7 +656,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続を作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -690,7 +690,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続を作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -711,7 +711,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続を作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -761,7 +761,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、本記事の <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続を作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -786,7 +786,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、本記事の <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -801,6 +801,44 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
    <li><p><b>ファイル数</b></p><p>ドキュメントを分割する均等サイズのファイルの数を入力します。</p></li>
    </ul>
    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## カスタム API 呼び出しを実行
+
+これは、PDFサービス API へのカスタム HTTP リクエストをモジュール化します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td> 相対パスまたは URL を入力します。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は、認証ヘッダーを自動的に追加します。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>API 呼び出しのクエリを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fields]</td> 
+   <td> <p>API 呼び出しに追加するフィールドごとに、をクリックします <b>項目を追加</b> とフィールドのキーとオプションの値を入力します。</p> <p>メモ：  <p><code>if</code> などの条件文を JSON で使用する場合は、条件文を引用符で囲みます。</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
   </tr> 
  </tbody> 
 </table>
