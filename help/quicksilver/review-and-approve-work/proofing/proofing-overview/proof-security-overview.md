@@ -7,10 +7,10 @@ description: プルーフにセキュリティ対策をさらに追加できま�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
-source-git-commit: 75c42c9145e754cf95f809744a01ab95a41f743a
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 >[!TIP]
 >
 >ログインプロセスを効率化するために、Workfront および Workfront Proof で SSO を設定することをお勧めします。SSO の有効化について詳しくは、次を参照してください。
->* [Adobe Workfront でのシングルサインオン](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Workfrontでのシングルサインオン：記事インデックス](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Workfront Proof ユーザーに対するシングルサインオンの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 

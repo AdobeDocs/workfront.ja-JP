@@ -3,21 +3,25 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-title: Adobe Workfront でのシングルサインオン
+title: 「Workfrontのシングルサインオン：記事インデックス」
 description: Workfront を既存の会社の SSO ソリューションと統合できます。この設定は、簡単に設定および管理でき、OnDemand と OnPremise の両方のエンタープライズユーザーが利用できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 79%
 
 ---
 
-# Adobe Workfront でのシングルサインオン
+# Workfrontでのシングルサインオン：記事インデックス
+
+<!-- Audited: 05/2024 -->
+
+Workfrontを既存の企業のシングルサインオン（SSO）ソリューションと統合できます。 この設定は、簡単に設定および管理でき、OnDemand と OnPremise の両方のエンタープライズユーザーが利用できます。
 
 この節では、次の記事を扱います。
 

@@ -1,13 +1,13 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: '「移動する [!DNL Adobe Workfront]: article index"'
-description: Adobe Workfrontに移動する方法とWorkfrontの用語について理解するには、これらの記事を確認してください。
+title: "移動する [!DNL Adobe Workfront]：記事インデックス"
+description: これらの記事を確認して、Adobe Workfrontの操作方法やWorkfrontの用語を学ぶ方法を理解します。
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 64%
@@ -18,7 +18,7 @@ ht-degree: 64%
 
 <!-- Audited: 12/2023 -->
 
-Adobe Workfrontに移動する方法とWorkfrontの用語について理解するには、これらの記事を確認してください。
+これらの記事を確認して、Adobe Workfrontの操作方法やWorkfrontの用語を学ぶ方法を理解します。
 
 この節では、以下のサブセクションおよび記事について説明します。
 
@@ -37,6 +37,6 @@ Adobe Workfrontに移動する方法とWorkfrontの用語について理解す�
 * [ [!DNL Adobe Workfront] のリスト](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [カスタムセクションの作成](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [ [!DNL Adobe Workfront]  ヘルプへのアクセス](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-* [ [!DNL Adobe Workfront] のプロジェクト、タスクおよびイシューの日付の概要](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+* [ [!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [[!UICONTROL ワーク]ライセンスを持つユーザーのナビゲーションについて](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [[!UICONTROL レビュー]ライセンスを持つユーザーのナビゲーションについて](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

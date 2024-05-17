@@ -2,18 +2,20 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: ボードの列の管理
-description: 新しいボードには、デフォルトで 3 つの列が含まれています。列の追加、列の順序の変更、列の名前の変更、不要な列の削除を行うことができます。
+description: 新しいボードには、デフォルトで 3 つの列が含まれています。さらに列を追加したり、列の順序を変更したり、列の名前を変更したり、不要な列を削除したりできます。 列ポリシーを定義することもできます。
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '1149'
-ht-degree: 79%
+ht-degree: 76%
 
 ---
 
 # ボードの列の管理
+
+<!-- Audited: 05/2024 -->
 
 新しいボードには、デフォルトで 3 つの列が含まれています。列の追加、列の順序の変更、列の名前の変更、不要な列の削除を行うことができます。
 
@@ -32,21 +34,24 @@ ht-degree: 79%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：コントリビューター以上 </p>
+        <p>または</p> 
+        <p>現在：[!UICONTROL Request] 以上 </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## ボードに列を追加
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL ボード]**」をクリックします。
+{{step1-to-boards}}
+
 1. ボードにアクセスします。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. 存在する列の右側にある「**[!UICONTROL 列を追加]**」をクリックします。
 1. 新しい列に名前を入力し、「**[!UICONTROL 列を追加]**」をクリックします。
