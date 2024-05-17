@@ -6,10 +6,10 @@ description: 「に表示する情報 [!DNL Adobe Workfront] は、に保存さ�
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 84%
+source-wordcount: '2441'
+ht-degree: 82%
 
 ---
 
@@ -300,11 +300,12 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL パラメーターグループ]（または[!UICONTROL セクション区切り]）
 * [!UICONTROL ポートフォリオ]
 * [!UICONTROL プログラム]
-* [!UICONTROL プロジェクト]（[!UICONTROL 財務データ]）
+* [!UICONTROL プロジェクト （財務データ）]
+   * 財務情報の入力先 [!UICONTROL プロジェクト （財務データ）] に関連付けられているデータが 5 歳未満の場合にのみレポートします。 例えば、担当業務が 2015年1月（PT）にタスクに割り当てられ、今日が 2021年9月（PT）である場合、その担当業務の [!UICONTROL 配分日] のような財務ファイルは [!UICONTROL  プロジェクト（財務データ）]レポートに入力されません。
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >[!UICONTROL プロジェクト]（[!UICONTROL 財務データ]）レポートに財務情報が入力されるのは、関連付けられたデータが 5 年未満である場合のみです。例えば、担当業務が 2015年1月（PT）にタスクに割り当てられ、今日が 2021年9月（PT）である場合、その担当業務の [!UICONTROL 配分日] のような財務ファイルは [!UICONTROL  プロジェクト（財務データ）]レポートに入力されません。
+  >プロジェクト（財務データ）レポートを実行すると、財務データの再計算が行われます。これにより、以前の財務データが上書きされる可能性があり、かなりの時間がかかる場合があります。 財務データの再計算の結果について詳しくは、次を参照してください [プロジェクトの財務の再計算](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL プルーフの承認]
    * 承認のために送信されたプルーフ、[!UICONTROL 承認者] に関する情報、リクエスターに関する情報（リクエスターがライセンスを取得した [!DNL Workfront] ユーザーの場合）バージョン情報、プルーフ ID、プルーフの作成日など、プルーフの承認に関するさまざまな情報を表示できます。\

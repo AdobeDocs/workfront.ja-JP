@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '14262'
+source-wordcount: '14246'
 ht-degree: 98%
 
 ---
@@ -1735,8 +1735,6 @@ ht-degree: 98%
       * [拡張分析でプロジェクトアクティビティビジュアライゼーションを表示](enhanced-analytics/project-activity-overview.md)
       * [強化機能分析でプロジェクトツリーマップビジュアライゼーションを表示](enhanced-analytics/project-treemap-overview.md)
       * [拡張分析でチームごとのアクティビティのビジュアライゼーションを表示する](enhanced-analytics/activity-by-team-overview.md)
-      * [拡張分析でのリソース容量ビジュアライゼーションを表示する](enhanced-analytics/resource-capacity-overview.md)
-      * [拡張分析でのチームのキャパシティビジュアライゼーションの表示](enhanced-analytics/team-capacity-overview.md)
    * Workfront Data Lake {#data-lake}
       * [Workfront Data Lake の概要](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [リーダーアカウントの作成](reports-and-dashboards/data-lake/create-a-reader-account.md)

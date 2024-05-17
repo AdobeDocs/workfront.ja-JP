@@ -7,10 +7,10 @@ description: 拡張分析は、事前に構築されたビジュアライゼー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
-workflow-type: ht
-source-wordcount: '1351'
-ht-degree: 100%
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+workflow-type: tm+mt
+source-wordcount: '1203'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 * 予定完了日
 * プロジェクトの実際の開始日
 * プロジェクトの実際の完了日
-* プロジェクト期間 時間
+* プロジェクト期間（時間）
 * プロジェクトの実際の時間数
 * タスクステータス（これには、タスクに「完了済み」のマークを付けることが含まれます。）
 * タスク名
@@ -178,13 +178,14 @@ ht-degree: 100%
    <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">拡張分析でチームごとのアクティビティのビジュアライゼーションを表示</a> </td> 
    <td> <p><b>チームごとのアクティビティ</b>ビジュアライゼーションには、ホームチームのユーザーが Workfront にログインし、タスクのステータスを変更し、タスクを完了したときのヒートマップが表示されます。ビジュアライゼーションを操作すると、個々のユーザーに関するこれらの詳細を表示できます。また、これらのアクションの特定の日付や、各アクションが完了した回数を確認することもできます。</p> </td> 
   </tr> 
+  <!-- Features permanently removed from Workfront
   <tr> 
-   <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">拡張分析でリソースのキャパシティのビジュアライゼーションを表示</a> </td> 
-   <td> <p><b>リソース容量</b>ビジュアライゼーションは、どのホームチームがより多くの作業を引き受ける能力を持っているか、およびどのホームチームに完了できる以上の作業が割り当てられているかを示します。ビジュアライゼーションを操作すると、完了した作業や、その他の作業に利用可能な時間数に関する詳細を確認できます。チームを選択すると、チームの能力ビジュアライゼーションが開きます。</p> </td> 
+   <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">View the Resource capacity visualization in Enhanced analytics</a> </td> 
+   <td> <p>The <b>Resource capacity</b> visualization shows you which home teams have the capacity to take on more work and which home teams have more work assigned to them than they can complete. Interacting with the visualization allows you to see more details about work completed and available hours for more work.&nbsp;Selecting a team opens the Team capacity visualization.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">拡張分析でチームのキャパシティのビジュアライゼーションを表示</a> </td> 
-   <td> <p><b>チームのキャパシティ</b>ビジュアライゼーションは、割り当てられた作業量のうち、ホームチームが完了した作業量の割合を示します。ビジュアライゼーションを操作すると、特定の日付のスケジュール済み時間と予定時間数、キャパシティ率、およびホームチームがその日のキャパシティを超えたか、下回ったか、フルキャパシティかを確認できます。</p> </td> 
-  </tr> 
+   <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">View the Team capacity visualization in Enhanced analytics</a> </td> 
+   <td> <p>The <b>Team capacity</b> visualization shows you a percentage of the amount of work a home team has completed out of the amount of work assigned to them. Interacting with the visualization allows you to see scheduled hours and planned hours for a specific date, as well as the capacity percentage and whether the home team was over, under, or at capacity on that day.</p> </td> 
+  </tr>--> 
  </tbody> 
 </table>

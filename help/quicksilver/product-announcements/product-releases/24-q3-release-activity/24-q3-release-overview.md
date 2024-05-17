@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 81%
+source-wordcount: '822'
+ht-degree: 77%
 
 ---
 
@@ -141,13 +141,16 @@ ht-degree: 81%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">より関連性の高い割り当てを、新規タスクワークフローに追加</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>プロジェクトやプロジェクトのタスクリストにタスクを追加する際に、関連性の高いスマート割り当てを行うための同じ機能が、「新規タスク」ボックスの「割り当て」フィールドに追加されました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
                                 <p>プレビューリリース：2024年2月13日</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
                                 <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
@@ -158,13 +161,16 @@ ht-degree: 81%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
                         <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスク（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）を割り当てる Workfront のエリアに適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
                                 <p>プレビューリリース：2023年12月21日（PT）</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
                                 <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>

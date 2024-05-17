@@ -7,10 +7,10 @@ description: ' [!DNL JumpSeat] を [!DNL Workfront] と統合して、カスタ�
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 2f840ea68c9efb78acb4c24346c6775671ed0334
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p> [!DNL Workfront] 管理者である必要があります。[!DNL Workfront] 管理者については、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
+   <td> <p> [!DNL Workfront] の管理者である必要があります。[!DNL Workfront] 管理者については、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、「**[!UICONTROL 設定]**」をクリックします。
 1. 左パネルで、**[!UICONTROL システム]**／**[!UICONTROL [!DNL JumpSeat]統合]**&#x200B;をクリックします。
-1. **[!UICONTROL [!DNL JumpSeat]URL]**&#x200B;を入力します。
+1. を入力 **[!UICONTROL [!DNL JumpSeat]URL]**。拡張機能のアイコンの [!DNL JumpSeat].
 
    **例：** [!DNL https]://{mycompanyname}.jumpseat.io
 
@@ -83,3 +83,7 @@ ht-degree: 100%
    ![JumpSeat 統合ページ](assets/jumpseat-integration-page.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+>[!TIP]
+>
+>の設定について詳しくは、 [!DNL JumpSeat] 統合、詳しくは [!DNL JumpSeat] ドキュメント： [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).
