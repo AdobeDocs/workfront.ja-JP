@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
-workflow-type: ht
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
+グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
 レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
@@ -63,7 +63,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 ## オブジェクトヘッダーをカスタマイズ
 
 1. [レイアウトテンプレートの作成と管理](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. **ユーザーの表示項目をカスタマイズする**&#x200B;ドロップダウンメニューで、「**プロジェクト**」、「**タスク**」または「**イシュー**」を選択します。
+1. が含まれる **ユーザーの表示項目をカスタマイズする** ドロップダウンメニューから選択 **プロジェクト**, **タスク**、または **問題**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 

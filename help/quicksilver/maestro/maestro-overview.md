@@ -5,16 +5,18 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1838'
 ht-degree: 96%
 
 ---
 
 # Adobe Workfront Planning の概要
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -255,6 +257,7 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | レコードタイプテーブルの API を通じて読み込めるファイルのサイズ | 1.5 MB |
 | API リクエストを実行できるレート | 1 分あたり 200 件のリクエスト |
 | テーブルに読み込める Excel ファイルの CSV サイズ | 5 MB |
+| 1 人のユーザーが 1 つのレコードタイプで作成できるビューの数 | 100 |
 
 <!--add to the table above: Maximum number of views created by one use 100 -->
 
