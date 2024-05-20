@@ -8,9 +8,9 @@ description: PiW 用にこの記事をより適切に機能させます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d879b1c6-e862-4653-aa93-90ad92170951
-source-git-commit: 0c40e2b4e691d63832842736eaf09eeb67127498
-workflow-type: ht
-source-wordcount: '812'
+source-git-commit: 1030d4110fd5dabb3b5751387585cc66968c2326
+workflow-type: tm+mt
+source-wordcount: '800'
 ht-degree: 100%
 
 ---
@@ -43,9 +43,6 @@ ht-degree: 100%
 
    * プルーフ名
    * バージョン番号
-
-     詳細情報は、以下を参照してください。
-
    * レビュアーとプルーフの進行状況のリスト
    * 他のユーザーとプルーフを共有するためのリンク
 

@@ -6,10 +6,10 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: 8dd5e13b479bb46c982b58321d6838d7c0e64410
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 87%
+source-wordcount: '85'
+ht-degree: 91%
 
 ---
 
@@ -22,3 +22,4 @@ ht-degree: 87%
 * [パブリック URL または埋め込みコード経由によるプルーフの共有を無効にする](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [FAQ：Adobe Workfront 内でのプルーフ - 米国から EMEA への移行](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [アップロード後にドキュメント名が変更され、無効な文字が含まれています](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
+* [埋め込みビデオを使用した PowerPoint の校正](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
