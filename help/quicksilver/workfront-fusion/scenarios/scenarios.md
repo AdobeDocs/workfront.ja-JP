@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
+source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 89%
 * [ [!DNL Adobe Workfront Fusion] のシナリオへのフィルターの追加](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
 * [AI を使用したモジュールの生成](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
 * [ [!DNL Adobe Workfront Fusion]  開発ツールを使用したシナリオのデバッグ](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
-* [シナリオのテンプレート](../../workfront-fusion/scenarios/templates/fusion-templates.md)
+* [シナリオのテンプレート](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] シナリオの例：メール、[!UICONTROL テキストパーサー]、 [!DNL Google Sheets] を接続](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [ [!DNL Adobe Workfront Fusion] でのシナリオバージョンの復元](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [ [!DNL Adobe Workfront Fusion] へのモジュールまたはシナリオのコピー](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)

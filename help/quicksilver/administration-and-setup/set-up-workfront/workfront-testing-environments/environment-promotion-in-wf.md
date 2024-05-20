@@ -4,7 +4,7 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Workfront内でのオブジェクトの環境間での移動
-description: 環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。 トランザクションオブジェクト（例外は限定的）を移動する機能はサポートしていません。
+description: 環境のプロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。トランザクションオブジェクトを移動する機能はサポートしていません（限定的な例外はあります）。
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: b3d356f514675688f8ef77343c53fef8601398ad
+source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -29,12 +29,12 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
 
 * Workfrontでこのプロセスを実行する具体的な手順については、以下を参照してください。
 
-   * [環境プロモーションパッケージを作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-   * [環境プロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+   * [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+   * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 * Workfront API を使用してこのプロセスを実行する手順については、を参照してください。 [間でオブジェクトを移動 [!DNL Workfront] を使用した環境 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
-## 環境プロモーションでサポートされているオブジェクト
+## 環境のプロモーションでサポートされているオブジェクト
 
 環境プロモーション機能の目的は、設定関連オブジェクトを環境間で移動する機能を提供することです。 プロジェクト、チーム、カスタムフォームなど、設定できるオブジェクトです。
 
@@ -58,10 +58,10 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
 
 | Promotable オブジェクト | 含まれるプロモーション可能なリンクオブジェクト |
 | --- | --- |
-| レイアウトテンプレート（UITMPL） | レイアウトテンプレート<br>Dashboard<br>カレンダー*<br>カレンダーセクション*<br>外部ページ*<br>報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
-| ダッシュボード（PTLTAB） | Dashboard<br>カレンダー*<br>カレンダーセクション*<br>外部ページ*<br>報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
-| カレンダー* （CALEND） | カレンダー*<br>カレンダーセクション* |
-| 外部ページ*（EXTSEC） | 外部ページ* |
+| レイアウトテンプレート（UITMPL） | レイアウトテンプレート<br>Dashboard<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
+| ダッシュボード（PTLTAB） | Dashboard<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
+| カレンダー（カレンダー） | カレンダー<br>カレンダーセクション |
+| 外部ページ （EXTSEC） | 外部ページ |
 | レポート （PTLSEC） | 報告書<br>フィルター<br>グループ化<br>表示<br>パラメーター |
 | フィルター（UIFT） | フィルター<br>パラメーター |
 | グループ化（UIGB） | グループ化<br>パラメーター |
