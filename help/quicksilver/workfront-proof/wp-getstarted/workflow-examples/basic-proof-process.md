@@ -8,9 +8,9 @@ description: この例では、デザイナーまたはプロジェクトマネ�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
-workflow-type: ht
-source-wordcount: '197'
+source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
+workflow-type: tm+mt
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 この例では、デザイナーまたはプロジェクトマネージャーと、1 人以上のレビュアー（クライアントなど）との間の基本的なワークフローについて説明します。
 
-![basic_workflow.png](assets/basic-workflow-350x67.png)
+![basic_workflow.png](assets/basic_workflow.png)
 
 * **新しいプルーフを作成** - デザイナーまたはプロジェクトマネージャーが [!DNL Workfront Proof] に新しいプルーフを作成し、クライアントとプルーフを共有します。（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) のプルーフの生成を参照してください。）
 

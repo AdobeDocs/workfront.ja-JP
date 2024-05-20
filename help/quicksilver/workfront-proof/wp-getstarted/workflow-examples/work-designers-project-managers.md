@@ -8,10 +8,10 @@ description: 以下に説明する 2 つの方法で、プロジェクトマネ�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 582cdb22-fd7f-4872-b173-910471b8e745
-source-git-commit: e5ba9528cef5e0f195726c143cecadcbdc71e4cf
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 100%
 
 ## デザイナーがコメントや決定事項を確認する必要がある場合
 
-プルーフに対するコメントや決定事項をデザイナーが確認する必要がある場合は、デザイナーがプルーフプロセスを開始し、プロセスが完了したら再度プルーフを受け取ることができます。その後、デザイナーはプロセスを再開できます。![designers_managers_-_option_A.png](assets/designers-managers---option-a-350x100.png)
+プルーフに対するコメントや決定事項をデザイナーが確認する必要がある場合は、デザイナーがプルーフプロセスを開始し、プロセスが完了したら再度プルーフを受け取ることができます。その後、デザイナーはプロセスを再開できます。
+
+![designers_managers_-_option_A.png](assets/designers_managers_-_option_A.png)
 
 1. デザイナーは新しいプルーフを作成し、プロジェクトマネージャーをプロジェクトの所有者として割り当てます（詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成を確認してください）。プルーフの作成者であるデザイナーは、次の操作を実行できます。
 
@@ -44,7 +46,8 @@ ht-degree: 100%
 
 デザイナーが [!DNL Workfront Proof] のレビュープロセスに関与する必要がない場合は、プロジェクトマネージャーがプルーフを作成し、レビュアーを追加できます。
 
-![designers_managers_-_option_B.png](assets/designers-managers---option-b-350x100.png)
+![designers_managers_-_option_B.png](assets/designers_managers_-_option_B.png)
+
 
 1. デザイナーがファイルをアップロードし、プロジェクトマネージャーと共有します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロードおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) でのファイルの共有を参照してください。
 

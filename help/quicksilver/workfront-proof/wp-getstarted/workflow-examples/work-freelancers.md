@@ -8,9 +8,9 @@ description: 組織がフリーランサーと連携している場合は、 [!D
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
-workflow-type: ht
-source-wordcount: '915'
+source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
+workflow-type: tm+mt
+source-wordcount: '886'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 また、フリーランサーがレビュープロセス中にプルーフの新しいバージョンを作成する必要がある場合、そのフリーランサーを[!UICONTROL 作成者]としてプルーフに明示的に追加できるため、必要に応じてレビュープロセスに参加したり、新しいバージョンを作成したりできるようになります。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割の管理を参照してください。
 
-![freelancers_-_option_B.png](assets/freelancers---option-b-350x98.png)
+![freelancers_-_option_B.png](assets/freelancers_-_option_B.png)
 
 1. フリーランサーは、フリーランサー用のサテライトアカウントにログインします。
 1. フリーランサーは、ファイルをアップロードし、あなたと共有します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルと web コンテンツのアップロードおよび [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) でのファイルの共有を参照してください。
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 このオプションは、クライアントとフリーランサーが [!DNL Workfront Proof] で表示されることを希望しない場合に便利です。フリーランサーに[!UICONTROL ドロップゾーン]へのアクセス権を付与できます（[!UICONTROL エンタープライズ]プランおよび[!UICONTROL 制限なし]プランでのみ利用可能）。詳しくは、[[!UICONTROL ドロップゾーン]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)を参照してください。
 
-![freelancers_-_option_C_-_dropzone.png](assets/freelancers---option-c---dropzone-350x98.png)
+![freelancers_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. フリーランサーは公開[!UICONTROL ドロップゾーン]ページに移動します。
 1. [!UICONTROL ドロップゾーン]を使用して、アカウントに新しいプルーフを作成します。

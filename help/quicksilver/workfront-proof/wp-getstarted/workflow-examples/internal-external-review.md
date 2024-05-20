@@ -4,11 +4,11 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: ' [!DNL Workfront Proof] の内部レビューと外部レビュー'
-description: 組織外のレビューでWorkfront Proof を使用する方法を説明します。
+description: 社外でのレビューにWorkfront Proofを使用する方法を説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 97%
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 デザイナーが最初に、プロジェクトマネージャー（および他の同僚）とプルーフを共有します。同僚はプルーフをレビューし、承認した場合は、共有機能を使用してプルーフをクライアントと共有できます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) でのプルーフの共有を参照してください。
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **新しいプルーフを作成** - デザイナーが [!DNL Workfront Proof] で新しいプルーフを作成し、社内のレビュアーに共有します。デザイナーは、プロジェクトマネージャーをプルーフの所有者にします。
 1. **内部レビュー** - プロジェクトマネージャーやその他の同僚が、プルーフをレビューします。
@@ -49,7 +49,7 @@ ht-degree: 97%
 
 このオプションでは、新しいバージョンを作成し（必要に応じて）、そのプルーフをクライアントと共有するプロジェクトマネージャーが、プルーフのプロセスを管理するワークフローを示します。デザイナーはレビュープロセスに関与する必要はありません。
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **新しいプルーフを作成** - デザイナーが [!DNL Workfront Proof] で新しいプルーフを作成し、社内のレビュアーと共有します。デザイナーがプロジェクトマネージャーをプルーフの所有者に割り当てるか、またはそのプルーフで[!UICONTROL 作成者]の役割を割り当てます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割を管理を参照してください）。
 
