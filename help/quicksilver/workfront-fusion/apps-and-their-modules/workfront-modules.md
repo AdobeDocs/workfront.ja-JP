@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: ceec745097d14d30a06ec347d836b701766a4f08
+source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
 workflow-type: tm+mt
-source-wordcount: '6207'
+source-wordcount: '6260'
 ht-degree: 99%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 99%
 
 [!DNL Workfront] アカウントへの接続を、[!DNL Workfront Fusion] モジュール内から直接作成できます。
 
-1. 任意のAdobe Workfront モジュールで、 **追加** 「接続」フィールドの隣です。
+1. 任意の Adobe Workfront モジュールで、「接続」フィールドの横にある「**追加**」をクリックします。
 1. 次のフィールドに入力します。
 
    <table style="table-layout:auto"> 
@@ -201,7 +201,7 @@ ht-degree: 99%
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Exclude events made by this connection</td> 
-      <td>このトリガーモジュールが使用するのと同じコネクターを使用して作成または更新されたイベントを除外するには、このオプションを有効にします。これにより、シナリオが自分自身をトリガーし、無限ループが繰り返されることを防ぐことができます。<p><b>メモ</b>割り当てレコード タイプには、このオプションは含まれていません。</p></td> 
+      <td>このトリガーモジュールが使用するのと同じコネクターを使用して作成または更新されたイベントを除外するには、このオプションを有効にします。これにより、シナリオが自分自身をトリガーし、無限ループが繰り返されることを防ぐことができます。<p><b>メモ</b>：割り当てレコードタイプには、このオプションは含まれていません。</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
@@ -353,6 +353,14 @@ Web フックを作成した後、イベントの送信先エンドポイント�
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Options]</td> 
    <td> <p>オブジェクトの変換時に必要なオプションを有効にします。変換先または変換元のオブジェクトに応じて、オプションを使用できます。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL ネイティブ フィールドのコピー ]</td> 
+   <td> <p>このオプションを有効にすると、元のオブジェクトから新しいオブジェクトにネイティブフィールドがコピーされます。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL カスタム フォームのコピー ]</td> 
+   <td> <p>このオプションを有効にすると、元のオブジェクトから新しいオブジェクトにネイティブフィールドがコピーされます。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -842,8 +850,8 @@ Web フックを作成した後、イベントの送信先エンドポイント�
    <td> <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL 検索条件フィールド ]</td> 
-   <td> <p>検索条件に使用するフィールドを選択します。 これらのフィールドは、検索条件ドロップダウンで使用できるようになります。</p></td> 
+   <td>[!UICONTROL Search criteria fields]</td> 
+   <td> <p>検索条件に使用するフィールドを選択します。これらのフィールドは、検索条件ドロップダウンで使用できるようになります。</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 
@@ -1238,6 +1246,16 @@ Web フックを作成した後、イベントの送信先エンドポイント�
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>ベースライン</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>請求記録</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1298,6 +1316,16 @@ Web フックを作成した後、イベントの送信先エンドポイント�
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>為替レート</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>費用</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1316,6 +1344,16 @@ Web フックを作成した後、イベントの送信先エンドポイント�
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>外部ドキュメント</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>グループ</td> 
@@ -1522,7 +1560,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
