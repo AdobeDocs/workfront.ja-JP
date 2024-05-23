@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 922e5e1924416955e8b154f226c503526d22129f
+source-git-commit: 7c205d13ec12614ddae19f3a1a286fe88d80ebac
 workflow-type: tm+mt
-source-wordcount: '14263'
+source-wordcount: '14265'
 ht-degree: 97%
 
 ---
@@ -2203,6 +2203,7 @@ ht-degree: 97%
       * [AI を使用したモジュールの生成](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Adobe Workfront Fusion のシナリオテンプレート {#fusion-scenario-templates}
          * [シナリオのテンプレート](workfront-fusion/scenarios/templates/fusion-templates.md)
+         * [[!DNL Fusion] テンプレートの概要](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Adobe Workfront Fusion での新しいテンプレートの作成](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
          * [Adobe Workfront Fusion テンプレートの公開および共有](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Adobe Workfront Fusion テンプレートを使用したシナリオの作成](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
