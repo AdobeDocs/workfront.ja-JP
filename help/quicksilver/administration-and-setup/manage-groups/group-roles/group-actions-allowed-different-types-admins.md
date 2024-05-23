@@ -4,14 +4,14 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: 様々なタイプの管理者に許可されるアクション
 description: この表は、Workfront システムを管理する Adobe Workfront 管理者、上位のグループを管理するグループ管理者、サブグループを管理するグループ管理者が使用できる管理アクティビティを比較しています。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 71979b32684a0c52cb5951d74dc1aa9a5b1d83ef
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+workflow-type: tm+mt
+source-wordcount: '539'
+ht-degree: 71%
 
 ---
 
@@ -52,37 +52,43 @@ ht-degree: 100%
   <tr> 
    <td> <p>サブグループの作成と管理</p> </td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>プロジェクト、タスク、イシューの環境設定をロックまたはロック解除する</p> </td> 
+   <td> <p>システムレベルでプロジェクト、タスク、イシューの環境設定を行う</p> </td> 
    <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>プロジェクト、タスク、イシューの環境設定を指定する</p> </td> 
+   <td> <p>グループとサブグループのプロジェクト、タスク、イシューの環境設定のアクティベートとアクティベート解除</p> </td> 
+   <td>✓***</td> 
+   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
+  </tr> 
+  <tr> 
+   <td> <p>システムレベルでタイムシートおよび時間環境設定を設定する</p> </td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>タイムシートと時間の基本設定をロックまたはロック解除する</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p>グループとサブグループのタイムシートおよび時間設定を有効化および無効化します</p> </td> 
+   <td>✓***</td> 
+   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>タイムシートおよび時間の環境設定の指定</p> </td> 
+   <td>システムレベルでのイベント通知メールの設定</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td>イベント通知メールを設定する</td> 
-   <td>✓ </td> 
-   <td>✓</td> 
+   <td>グループおよびサブグループのイベント通知 E メールの有効化と無効化</td> 
+   <td>✓*** </td> 
+   <td>✓***</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -98,10 +104,10 @@ ht-degree: 100%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>承認プロセスを作成および管理する</p> </td> 
-   <td>✓ </td> 
-   <td> <p>✓</p> </td> 
-   <td>✓</td> 
+   <td> <p>グループの承認プロセスの作成と管理</p> </td> 
+   <td>✓*** </td> 
+   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
   </tr> 
   <tr> 
    <td> <p>チームの作成と管理</p> </td> 
@@ -148,8 +154,8 @@ ht-degree: 100%
   <tr> 
    <td>単一使用のタイムシートを作成する</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td>✓**</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td>担当業務の作成と管理</td> 
@@ -201,7 +207,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td>最大ライセンス数を割り当てる</td> 
-   <td>✓ </td> 
+   <td>✓*** </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -224,10 +230,12 @@ ht-degree: 100%
 
 &#42;&#42;グループ管理者のアクセスレベルで、このアクションへのアクセスを有効にする必要があります。詳しくは、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
-以下のアクティビティは、組織が Prime または Ultimate プランに属している場合にのみ、グループおよびサブグループ管理者が使用できます。これらの特定のアクティビティは、「高度なエンタープライズ制御」とも呼ばれます。プランについて詳しくは、[Adobe Workfront の価格とパッケージのページ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。（レガシープランを使用する組織では、上の表に、グループ管理者とサブグループ管理者のアクティビティを示します。）
+&#42;&#42;&#42; 次のアクティビティはアドバンスト・エンタープライズ・コントロールの一部であり、Select プランでは使用できません。 Prime または Ultimate プランを購入した組織のみがこれらの機能にアクセスできます。  プランについて詳しくは、[Adobe Workfront の価格とパッケージのページ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。（レガシープランを使用する組織では、上の表に、グループ管理者とサブグループ管理者のアクティビティを示します。）
 
-* プロジェクト、タスク、イシューの環境設定を指定する
-* タイムシートおよび時間の環境設定の指定
-* イベント通知メールを設定する
-* 承認プロセスを作成および管理する
-* サブグループの作成と管理
+* グループレベルでプロジェクト、タスク、イシューの環境設定を行う
+* グループレベルでタイムシートおよび時間環境設定を設定する
+* グループレベルでのイベント通知メールの設定
+* グループ固有の承認プロセスの作成と管理
+* ライセンスの上限の割り当てとその使用率をホーム グループ別に表示します
+* サブグループへのグループ管理者の割り当て
+* グループ管理者にサブグループの作成を許可
