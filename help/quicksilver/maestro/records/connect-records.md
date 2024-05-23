@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 96%
+source-wordcount: '2463'
+ht-degree: 92%
 
 ---
 
@@ -125,9 +125,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## レコードを接続
-
-### レコードの接続に関する考慮事項
+## レコードの接続に関する考慮事項
 
 * レコードタイプを接続すると、接続されたレコードタイプが、リンク元のレコードタイプのテーブルおよびレコードのページにリンクされたレコードフィールドとして表示されます。
 * リンクされたレコードフィールドから、リンクされたレコードのレコードとオブジェクト、およびオブジェクトタイプを参照して追加できます。
@@ -150,6 +148,11 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
       * [レコードの作成](../records/create-records.md)
 
    * レコードタイプ間の接続、またはレコードタイプと他のアプリケーションのオブジェクト間の接続。詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。
+* 次の領域で、WorkfrontからWorkfrontの計画レコードにオブジェクトを関連付けることができます。
+   * Workfront Planning の計画レコードから。
+   * Workfront オブジェクトの「計画」セクションから。
+
+## Workfront Planning からレコードを接続
 
 ### Adobe Workfront Planning レコードの接続
 
@@ -379,3 +382,13 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    **選択されたフィールド**&#x200B;エリアから、Workfront オブジェクトフィールドを削除します。
 
    これにより、リンクされたフィールドがレコードに追加または削除されます。削除されたフィールドに関連付けられた情報は、Adobe Experience Assets に残ります。
+
+## Workfront オブジェクトからのレコードの接続
+
+Workfront オブジェクトからWorkfront計画レコードを接続するには、次のものが必要です。
+
+* レコードタイプと Workfront オブジェクトタイプ間の接続。
+* レコードとWorkfront オブジェクト間の少なくとも 1 つの接続。
+* Workfront管理者またはグループ管理者は、Planning レコードタイプに接続できるWorkfront オブジェクトタイプに Planning セクションを追加する必要があります。
+
+詳しくは、を参照してください [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).

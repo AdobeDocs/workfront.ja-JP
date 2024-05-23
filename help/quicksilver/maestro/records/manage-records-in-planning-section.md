@@ -4,18 +4,19 @@ description: 左側のパネルでは、Adobe Workfront オブジェクトの「
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 17%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # Adobe Workfront オブジェクトの計画セクションでのレコードの管理
@@ -101,7 +102,8 @@ ht-degree: 17%
    * [レコードタイプを接続](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [レコードを接続](/help/quicksilver/maestro/records/connect-records.md)
 * Workfront オブジェクトにはレコードが関連付けられていない場合でも、Workfront オブジェクトの「プランニング」セクションを表示できます。
-* 「計画」セクションでは、計画レコードをWorkfrontのWorkfront オブジェクトと関連付けることができます。
+* 1 つ以上のレコードがWorkfront オブジェクトに接続されている場合は、「計画」セクションのWorkfrontのWorkfront オブジェクトに計画レコードを関連付けることができます。
+* Workfront オブジェクトからレコードを接続するには、ワークスペースに対する投稿以上の権限が必要です。
 
 ## 計画セクションのレコードの管理
 
@@ -132,17 +134,15 @@ Workfront Planning にオブジェクトのページが開きます。
 
    ![](assets/planning-section-on-project.png)
 
-1. レコードカードをクリックすると、レコードに関する詳細情報が表示されます。 レコードのプレビューボックスが表示されます。
-1. （オプション）レコードのプレビューボックスのフィールドの変更を開始します。 変更内容は自動的に保存されます。
-1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) プレビューボックスの右上隅でをクリックして、レコードの詳細ページを開きます。
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. レコードカードの上にマウスポインターを置き、レコードを切断アイコンをクリックします **-**&#x200B;を選択し、 **連携解除**.
 次のことが発生します。
    * レコードがWorkfront オブジェクトに接続されなくなりました。
    * Workfront オブジェクトも、Workfront Planning からレコードの接続されたフィールドから削除されます。
-   * 計画レコードに接続されているWorkfront フィールドの値も削除されます。
+   * 計画レコードに接続されているWorkfront参照フィールドの値も削除されます。
 1. クリック **接続** より多くのレコードを接続します。
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Workfront Planning にオブジェクトのページが開きます。
 
    * レコードは直ちにWorkfront オブジェクトに接続され、計画セクションに表示されます。
    * Workfront オブジェクトが、Workfront計画レコードの接続されたフィールドに追加されます。
-   * 計画レコードに接続されているWorkfront フィールドの値は、Workfront Planning に入力されます。
+   * 計画レコードに接続されたWorkfront参照フィールドの値は、Workfront Planning に入力されます。
 
 <!--add more steps here for what happens after clicking Connect-->
 

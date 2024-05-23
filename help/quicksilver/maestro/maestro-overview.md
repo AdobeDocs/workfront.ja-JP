@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: 7ab92af92fe39ae3342190ffb74a08fecbdd88ec
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1845'
 ht-degree: 96%
 
 ---
@@ -97,6 +97,7 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 | 段落フィールドのリッチテキスト書式設定 | ✓ |                                  |                 |
 | Adobe Workfront Fusion 用 Adobe Workfront Planning モジュール | ✓ |                                  |                 |
 | フィールドから別のフィールドに情報をコピー＆ペースト | ✓ |                                  |                 |
+| Workfrontオブジェクトからの Planning レコードへのアクセス | ✓ |                                  |                 |
 
 ## Workfront インスタンスのユーザーに対して Adobe Workfront Planning を有効にする
 

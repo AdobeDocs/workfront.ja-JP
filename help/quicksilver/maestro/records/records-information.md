@@ -1,14 +1,14 @@
 ---
 title: 「レコード：記事インデックス」
-description: Adobe Workfront Planning でレコード・タイプを作成した後、これらのタイプの個々のレコードを作成できます。 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
+description: Adobe Workfront Planning でレコードタイプを作成した後、それらのタイプの各レコードを作成できます。次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 14%
+source-wordcount: '119'
+ht-degree: 85%
 
 ---
 
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning でレコード・タイプを作成した後、これらのタイプの個々のレコードを作成できます。
+Adobe Workfront Planning でレコードタイプを作成した後、それらのタイプの各レコードを作成できます。
 
 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
 
@@ -39,6 +39,7 @@ Adobe Workfront Planning でレコード・タイプを作成した後、これ�
 * [レコードを接続](/help/quicksilver/maestro/records/connect-records.md)
 * [レコードのコメントの管理](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [履歴セクションの概要](/help/quicksilver/maestro/records/history-section-overview.md)
-* [レコードへのサムネールの追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [レコードにサムネールを追加](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
 * [レコードへのカバー画像の追加](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [レコードページの管理](/help/quicksilver/maestro/records/manage-the-record-page.md)
+* [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](/help/quicksilver/maestro/records/manage-records-in-planning-section.md)
