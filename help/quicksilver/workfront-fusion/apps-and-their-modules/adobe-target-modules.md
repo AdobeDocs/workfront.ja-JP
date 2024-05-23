@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion] シナリオ内で、 [!DNL Adobe T
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 91%
+source-wordcount: '2235'
+ht-degree: 86%
 
 ---
 
@@ -78,6 +78,13 @@ ht-degree: 91%
 
 ## [!DNL Adobe Target] への接続の作成
 
+>[!IMPORTANT]
+>
+>2024 年 6 月 3 日（PT）以降に作成された接続では、Adobe Target サーバー間接続が必要になります。
+>
+>* 既存のサービスアカウント接続は、2025 年 1 月まで引き続き機能します。 サービスアカウント接続は、2024 年 1 月までにAdobe Target サーバー間接続に置き換える必要があります。
+>* Adobe Target サーバー間接続を作成するには、組織の開発者である必要があります。 デベロッパーの役割は、Adobe Admin Consoleで設定されます。
+
 [!DNL Adobe Target] モジュールの接続を作成するには、次の手順に従います。
 
 1. 「接続」ボックスの横に表示される「**[!UICONTROL 追加]**」をクリックします。
@@ -94,6 +101,11 @@ ht-degree: 91%
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>この接続の名前を入力します。</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>サービスアカウント接続を作成するか、Adobe Target サーバー間接続を作成するかを選択します。<p><b>重要</b>:2024 年 6 月 3 日（PT）以降に作成された接続では、Adobe Target サーバー間接続が必要になります。 既存のサービスアカウント接続は、2025 年 1 月まで引き続き機能します。 サービスアカウント接続は、2024 年 1 月までにAdobe Target サーバー間接続に置き換える必要があります。
         </td>
       </tr>
       <tr>
