@@ -6,10 +6,10 @@ description: Workfront の既存のタスクやイシューに接続するカー
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 88%
+source-wordcount: '1507'
+ht-degree: 96%
 
 ---
 
@@ -41,29 +41,30 @@ ht-degree: 88%
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td>
-   <p>新規：寄稿者以上</p>
+   <p>新規：コントリビューター以上</p>
    <p>または</p>
-   <p>現在：リクエスト以降</p>
+   <p>現在：リクエスト以上</p>
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td>
-   <td><p>タスクおよび問題へのアクセス権を表示または高くする</p></td>
+   <td role="rowheader">アクセスレベル設定</td>
+   <td><p>タスクとイシューに対する表示またはそれ以上のアクセス権限</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>オブジェクト権限</strong></td>
-   <td><p>Workfrontのタスクまたは問題に対する権限を表示またはそれ以上に設定します</p></td>
+   <td role="rowheader">オブジェクト権限</td>
+   <td><p>Workfront タスクまたはイシューに対する表示またはそれ以上の権限</p>
+   <p><strong>注意：</strong> タスクまたは問題に対する表示権限を持つユーザーは、そのタスクまたは問題に接続されたカードに対してアクションを実行できません（カードをボード上の別の列に移動するなど）。 表示ユーザーは、カードを開いてそのプロパティを表示し、接続されたタスクまたはイシューを開くことのみ可能です。 追加のアクセス権をリクエストするには、タスクまたはイシューを開き、アクセス権をリクエストします。</td>
   </tr>
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 接続されているカードを追加する
 
@@ -126,7 +127,7 @@ ht-degree: 88%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignments]</strong></td>
-      <td><p>カードに他の人やチームを割り当てるには、 <strong>[!UICONTROL 割り当てを追加 ]</strong> 検索フィールドに名前を入力し始めます。 次に、結果のリストに表示される場合に選択します。 個人とチームの両方を追加できます。1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
+      <td><p>カードにさらにユーザーやチームを割り当てるには、「<strong>[!UICONTROL Add Assignment]</strong>」をクリックし、検索フィールドに名前を入力します。そして、結果のリストに表示されたら選択します。個人とチームの両方を追加できます。1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
       <p>選択した割り当て先は、[!DNL Workfront] でのタスクまたはイシューにも割り当てられます。</p></td>
      </tr>
      <tr>
@@ -142,18 +143,18 @@ ht-degree: 88%
      <tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Subtask]</strong></td>
-      <td><p>タスクの既存のサブタスクは、このセクションに表示されます。 クリック <strong>[!UICONTROL サブタスクの追加 ]</strong> をクリックして、新しいサブタスクを追加します。</p>
-      <p>セクションの上部にあるカウンターは、完了したサブタスクの数とサブタスクの合計数を示します。</p>
-      <p>サブタスクの詳細については、 <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">ボードでのサブタスクの管理</a>.</p></td>
+      <td><p>タスクの既存のサブタスクは、このセクションに表示されます。新規サブタスクを追加するには、「<strong>[!UICONTROL Add Subtask]</strong>」をクリックします。</p>
+      <p>このセクションの上部にあるカウンターは、完了したサブタスクの数と合計サブタスク数を示します。</p>
+      <p>サブタスクについて詳しくは、<a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">ボードでのサブタスクの管理</a>を参照してください。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL チェックリスト ]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong></td>
       <td><p>「<strong>[!UICONTROL Add checklist item]</strong>」をクリックします。次に、項目のタイトルを入力し、Enter キーを押します。別の項目が自動的に追加されます。引き続きタイトルを入力して、さらに項目を追加します。</p>
       <p>チェックリストの上部にあるカウンターは、完了した項目の数と合計項目数を示します。</p> <p>チェックリスト項目について詳しくは、<a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">カードのチェックリスト項目の管理</a>を参照してください。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Documents]</strong></td>
-      <td>既存のドキュメントの場合は、ドキュメントのサムネールの上にマウスポインターを置いて、 <strong>プレビュー</strong> ファイルをブラウザーに表示するには、または <strong>ダウンロード</strong> をクリックして、ファイルをコンピューターにダウンロードします。 新しいドキュメントについては、 <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">カードへのドキュメントの追加</a>.</td>
+      <td>既存ドキュメントの場合は、ドキュメントのサムネールにポインタを合わせ、「<strong>プレビュー</strong>」をクリックしてブラウザーにファイルを表示するか、「<strong>ダウンロード</strong>」をクリックしてファイルを自分のコンピューターにダウンロードします。新規ドキュメントの場合は、<a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">カードでのドキュメントの追加</a>を参照してください。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
