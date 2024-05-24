@@ -4,10 +4,10 @@ description: 左側のパネルでは、Adobe Workfront オブジェクトの「
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 17%
+source-wordcount: '683'
+ht-degree: 16%
 
 ---
 
@@ -134,9 +134,9 @@ Workfront Planning にオブジェクトのページが開きます。
 
    ![](assets/planning-section-on-project.png)
 
-<!--1. Click a record card to display more information about the record. The record preview box displays.
-1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
+1. レコードカードをクリックすると、レコードに関する詳細情報が表示されます。 レコードのプレビューボックスが表示されます。
+1. （オプション）レコードのプレビューボックスのフィールドの変更を開始します。 変更内容は自動的に保存されます。
+1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) プレビューボックスの右上隅でをクリックして、レコードの詳細ページを開きます。
 1. レコードカードの上にマウスポインターを置き、レコードを切断アイコンをクリックします **-**&#x200B;を選択し、 **連携解除**.
 次のことが発生します。
    * レコードがWorkfront オブジェクトに接続されなくなりました。

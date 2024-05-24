@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
 workflow-type: tm+mt
-source-wordcount: '6456'
+source-wordcount: '6471'
 ht-degree: 83%
 
 ---
@@ -68,6 +68,8 @@ Workfrontの「計画」セクションでは、次のアクションを使用�
 * Workfront Planning レコードのWorkfront オブジェクトへの接続
 
 * レコードの切断
+
+* 接続されたレコードに関する詳細を表示するには、詳細プレビューボックスまたはページを開きます
 
 詳しくは、を参照してください [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
 
