@@ -6,9 +6,9 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '580'
+source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
+workflow-type: tm+mt
+source-wordcount: '537'
 ht-degree: 100%
 
 ---
@@ -22,16 +22,6 @@ ht-degree: 100%
 Adobe Workfront では、ユーザーとパスワードのシステム管理が変更されます。これらの変更は、**拡張認証**&#x200B;エクスペリエンスと呼ばれる段階的リリースで公開されます。拡張認証により、すべての Workfront 製品およびサービスで、一貫性と安全性の高いログインエクスペリエンスをユーザーに提供します。
 
 次の表に、現在および将来の機能の詳細を示します。
-
->[!IMPORTANT]
->
->ほとんどの顧客は現在レガシー認証を使用していますが、拡張認証 1.0 を使用している顧客も一部存在します。
-> 
->現在使用している認証の種類を確認するには、*your_domain*.my.workfront.com/login に移動します。ここで /auth/login にリダイレクトされる場合は、拡張認証 1.0 を使用しています。
-> 
->https://login-a-xx.workfront.com/ にリダイレクトされる場合は、拡張認証 2.0 を使用しています。なお、「xx」には、お使いの場所やプラットフォームに応じて US（米国）、EU（ヨーロッパ）、GCP（Google Cloud Platform）のいずれかが入ります。
->
->すべてのお客様は、2021年末までに拡張認証 2.0 に移行します。
 
 <table style="table-layout:auto"> 
  <col> 
