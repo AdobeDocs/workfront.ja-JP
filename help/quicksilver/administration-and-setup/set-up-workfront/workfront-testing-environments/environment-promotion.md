@@ -3,8 +3,8 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: ある環境から別の環境へのオブジェクトの移動
-description: 環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。 トランザクションオブジェクトを移動する機能はサポートしていません（例外は制限されています）。
+title: ある環境から別の環境にオブジェクトを移動する
+description: 環境のプロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。トランザクションオブジェクトを移動する機能はサポートしていません（限定的な例外はあります）。
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -12,64 +12,40 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
+source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 9%
+source-wordcount: '1829'
+ht-degree: 100%
 
 ---
 
-# オブジェクトの移動間隔： [!DNL Workfront] 環境の使用 [!DNL Workfront] 環境プロモーション API
+# [!DNL Workfront] Environment Promotion API を使用して [!DNL Workfront] 環境間でオブジェクトを移動する
 
-環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。 この記事で説明するように、Workfront API を使用してこれらのオブジェクトを移動できます。
+環境のプロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。この記事の説明に従って、Workfront API を使用してこれらのオブジェクトを移動できます。
 
-Workfrontアプリケーションを使用して環境間でオブジェクトを移動する手順については、以下を参照してください。
+Workfront アプリケーションを使用して環境間でオブジェクトを移動する手順については、以下を参照してください。
 
-* [環境プロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-* [環境プロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+* [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## アクセス要件
 
-以下が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] プラン</td> 
-   <td> <p>Enterprise、Prime または Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] ライセンス</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>[!DNL Workfront] の管理者になる必要があります。[!DNL Workfront] 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">オブジェクト権限</p> </td> 
-   <td> <p>すべて</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">サポートパッケージ</td> 
-   <td> <p>[!UICONTROL Plus]、[!UICONTROL Preferred]、または [!UICONTROL Enterprise]</p> <p>標準サポートパッケージは、カスタム更新サンドボックスにアクセスできませんが、プレビューサンドボックスにアクセスできます。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## 前提条件
 
-プロモーションパッケージを作成エンドポイントは、既にソース環境が設定されていることを前提としています。 この API 呼び出しでは、 [!DNL Workfront] objCodes とオブジェクトの GUID。 このマップの具体的な構造を以下に示します。
+プロモーションパッケージを作成するエンドポイントは、既にソース環境が設定されていることを前提としています。この API 呼び出しでは、手動で [!DNL Workfront] objCodes のオブジェクトマップとオブジェクトの GUID を作成します。このマップの具体的な構造を以下に示します。
 
-## 環境の昇格でサポートされるオブジェクト
+## 環境のプロモーションでサポートされているオブジェクト
 
-環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。 トランザクションオブジェクトを移動する機能はサポートしていません（例外は制限されています）。
+環境のプロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。トランザクションオブジェクトを移動する機能はサポートしていません（限定的な例外はあります）。
 
-プロモート可能なオブジェクトとそれに含まれるプロモート可能なサブオブジェクトのリストについては、 [環境の昇格でサポートされるオブジェクト](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) 記事内 [Workfront環境間でのオブジェクトの移動の概要](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+プロモーション可能なオブジェクトとこれに含まれるプロモーション可能なサブオブジェクトのリストについては、[Workfront 環境間でのオブジェクトの移動の概要](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)の記事の[環境のプロモーションでサポートされているオブジェクト](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)を参照してください。
 
 ## 認証
 
 API はリクエストごとに認証を行い、リクエストされたオブジェクトを表示または変更するためのアクセス権をクライアントが持っていることを確認します。
 
-認証は、セッション ID または API キーを渡すことで実行されます。このキーは、次の方法で指定できます。
+認証は、次の方法で指定できるセッション ID または API キーを渡すことで実行されます。
 
 ### リクエストヘッダー認証
 
@@ -84,17 +60,17 @@ SessionID: abc1234
 
 ## API エンドポイント
 
-* [パッケージの作成](#create-a-package)
-* [パッケージのリストの取得](#get-a-list-of-packages)
-* [ID によるパッケージの取得](#get-a-package-by-id)
-* [パッケージの特定のプロパティを更新する](#update-specific-properties-of-a-package)
-* [パッケージの削除](#delete-a-package)
-* [事前実行の実行](#execute-a-pre-run)
-* [インストールの実行](#execute-an-installation)
-* [特定のパッケージのインストールのリストを取得する](#get-a-list-of-installations-for-a-specific-package)
-* [インストールの詳細を取得する](#get-the-installation-details-for-an-installation)
+* [パッケージを作成](#create-a-package)
+* [パッケージのリストを取得](#get-a-list-of-packages)
+* [ID でパッケージを取得](#get-a-package-by-id)
+* [パッケージの特定のプロパティを更新](#update-specific-properties-of-a-package)
+* [パッケージを削除](#delete-a-package)
+* [事前実行を実行](#execute-a-pre-run)
+* [インストールを実行](#execute-an-installation)
+* [特定のパッケージのインストールのリストを取得](#get-a-list-of-installations-for-a-specific-package)
+* [インストールのインストール詳細を取得](#get-the-installation-details-for-an-installation)
 
-### パッケージの作成
+### パッケージを作成
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,22 +81,22 @@ SessionID: abc1234
   </tbody> 
 </table>
 
-この呼び出しは、複数手順のプロセスを実行します。
+この呼び出しでは、複数ステップのプロセスが実行されます。
 
-最初のステップでは、「ASSEMBLING」ステータスで空のプロモーションパッケージが作成されます。
+最初のステップでは、「ASSEMBLING」ステータスの空のプロモーションパッケージが作成されます。
 
-2 つ目の手順では、 `objectCollections` Workfrontから要求されたレコードをPOSTするためにアセンブリ本文で提供される配列。 リクエストされたレコードの数とWorkfrontの設定によっては、この手順の完了に数分かかる場合があります。 このプロセスの最後に、空のプロモーションパッケージが `packageEntities` ステータスは自動的に「ドラフト」に設定されます。
+2 番目のステップでは、POST 本文で指定された `objectCollections` 配列を使用して、Workfront に要求されたレコードを組み立てます。要求されたレコードの数と Workfront の設定によっては、このステップが完了するまでに数分かかる場合があります。このプロセスの終わりに、空のプロモーションパッケージに `packageEntities` が反映され、ステータスが自動的に「ドラフト」に設定されます。
 
 
 >[!NOTE]
 >
->の構造をメモしておきます。 `objectCollections`  配列。
+>`objectCollections` 配列の構造をメモしておきます。
 >
->配列内の各項目には、 `objCode` Workfront API Explorer で記述されたオブジェクトコードに対応するキー。
+>配列内の各項目には、Workfront API エクスプローラーに記載されているオブジェクトコードに対応する `objCode` キーが含まれます。
 >
->各項目には、 `entities` コレクション。 これは、 `ID` フィールドに入力します。 オプションの `name` 何を知りやすくするための属性 `ID` は、を表します。
+>各項目には `entities` コレクションも含まれています。これは、`ID` フィールドを想定しています。また、`ID` が何を示しているかを分かりやすくするため、オプションで `name` 属性を指定することもできます。
 >
->リクエストできるオブジェクトコードのリスト ( `objectCollections` リスト、「 [環境の昇格でサポートされるオブジェクト](#supported-objects-for-environment-promotion) 」の節を参照してください。
+>`objectCollections` リストで要求できるオブジェクトコードのリストについては、この記事の[環境のプロモーションでサポートされているオブジェクト](#supported-objects-for-environment-promotion)の節を参照してください。
 
 #### URL
 
@@ -212,7 +188,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 }
 ```
 
-### パッケージのリストの取得
+### パッケージのリストを取得
 
 <table style="table-layout:auto"> 
  <col> 
@@ -223,9 +199,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
   </tbody> 
 </table>
 
-この呼び出しは、顧客に属するプロモーションパッケージのフィルターされていないリストを返します。
+この呼び出しでは、顧客に属するプロモーションパッケージのフィルタリングされていないリストを返します。
 
-応答には、お客様のサンドボックス、プレビューまたはWorkfrontの実稼動インスタンスのいずれかから作成されたすべてのパッケージが含まれます。
+応答には、顧客の Workfront のサンドボックス、プレビューインスタンス、実稼動インスタンスのいずれかから作成されたすべてのパッケージが含まれます。
 
 #### URL
 
@@ -275,9 +251,9 @@ _空_
 }
 ```
 
-&lt;! — 上記の「ステータス」を確認します。 — 追加されたのですか？—>
+&lt;!-- 前述の「ステータス」を確認 - 追加しましたか？-->
 
-### ID によるパッケージの取得
+### ID でパッケージを取得
 
 <table style="table-layout:auto"> 
  <col> 
@@ -288,9 +264,9 @@ _空_
   </tbody> 
 </table>
 
-この呼び出しは、リクエストされたプロモーションパッケージの詳細を返します。
+この呼び出しでは、要求されたプロモーションパッケージの詳細を返します。
 
-リクエストは、プロモーションパッケージの元のソースに関係なく、任意の環境を通じておこなうことができます。
+リクエストは、プロモーションパッケージの元のソースに関係なく、任意の環境を通じて行うことができます。
 
 #### URL
 
@@ -355,7 +331,7 @@ _空_
 }
 ```
 
-### パッケージの特定のプロパティを更新する
+### パッケージの特定のプロパティを更新
 
 <table style="table-layout:auto"> 
  <col> 
@@ -366,15 +342,15 @@ _空_
   </tbody> 
 </table>
 
-この呼び出しは、PATCH本文に提供されているプロモーションパッケージのコンテンツをすべて更新します。
+この呼び出しでは、PATCH 本体で提供されるプロモーションパッケージのコンテンツが更新されます。
 
 編集可能な属性は次のとおりです。
 
 1. name（文字列）
-1. description （文字列）
-1. status （値の検証を含む文字列）
+1. description（文字列）
+1. status（値の検証を含む文字列）
 
-使用可能なステータスについて詳しくは、 [環境の昇格ステータス](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) 記事内 [Workfront環境間でのオブジェクトの移動の概要](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+利用可能なステータスについて詳しくは、[Workfront 環境間でのオブジェクトの移動の概要](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)の記事の[環境のプロモーションでサポートされているオブジェクト](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses)を参照してください。
 
 
 #### URL
@@ -445,7 +421,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 }
 ```
 
-### パッケージの削除
+### パッケージを削除
 
 <table style="table-layout:auto"> 
  <col> 
@@ -456,11 +432,11 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
   </tbody> 
 </table>
 
-この呼び出しにより、プロモーションパッケージレコードが削除されます。 この操作は元に戻せません。
+この呼び出しでは、プロモーションパッケージレコードが削除されます。このアクションは元に戻せません。
 
 >[!NOTE]
 >
->プロモーションパッケージを削除する場合とは異なり、パッケージのステータスを「無効」に変更することをお勧めします。 これにより、パッケージを取得し、パッケージがデプロイされた場所のインストール履歴を保持できます。
+>プロモーションパッケージを削除するのではなく、パッケージのステータスを DISABLED に変更することをお勧めします。これにより、パッケージを取得できるようになり、デプロイされた場所のインストール履歴が保持されます。
 
 #### URL
 
@@ -498,11 +474,11 @@ _空_
 Deleted
 ```
 
-### 事前実行の実行
+### 事前実行を実行
 
 >[!IMPORTANT]
 >
->インストールを実行する前に、このプリランを実行する必要があります。 インストールの実行時に、この呼び出しから生成された ID を使用します。
+>インストールを実行する前に、この事前実行を実行する必要があります。インストールを実行する際に、この呼び出しから生成された ID を使用します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -513,11 +489,11 @@ Deleted
   </tbody> 
 </table>
 
-この呼び出しは、URL で識別されるターゲット環境とパッケージ定義の比較を実行します。
+この呼び出しでは、URL で識別されたパッケージ定義とターゲット環境の間の比較が行われます。
 
-結果は、ターゲット環境でプロモーションオブジェクトが見つかったかどうかを識別する JSON 本文になります。
+結果は、ターゲット環境でプロモーションオブジェクトが見つかったかどうかを識別する JSON 本文です。
 
-各プロモーションオブジェクトに対して、次のいずれかを実行します。 `actions`  が設定されます。
+プロモーションオブジェクトごとに、次の `actions` のいずれかが設定されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -525,24 +501,24 @@ Deleted
  <tbody> 
   <tr> 
    <td>作成</td> 
-   <td><p>対応するレコードがターゲット環境で見つからない場合、アクションは CREATE に設定されます。</p><p>このアクションが <code>translationmap</code> が <code>/install</code> endpoint。インストールサービスはレコードを作成します。</p></td> 
+   <td><p>対応するレコードがターゲット環境で見つからない場合、アクションは CREATE に設定されます。</p><p>このアクションが <code>/install</code> エンドポイントに指定される <code>translationmap</code> に設定されている場合、インストールサービスではレコードを作成します。</p></td> 
   </tr> 
   <tr> 
-   <td>既存を使用</td> 
-   <td><p>対応するレコードがターゲット環境で見つかった場合、アクションは USEEXISTING に設定され、 <code>targetId</code> は、 <code>translationmap</code>.</p><p>このアクションが <code>translationmap</code> が <code>/install</code> エンドポイントの場合、インストールサービスはレコードを作成しません。 ただし、 <code>targetId</code> このレコードへの参照を持つ他のオブジェクトのマップエントリに含まれます。</p><p>例えば、パッケージのデプロイ先のターゲット環境に「デフォルトグループ」が存在する場合があります。 2 つの「Default Group」レコードを持つことはできないので、インストールサービスは、プロジェクト、フォーム、このグループに関連する他のエンティティなど、「Default Group」への参照を含む他のオブジェクト作成アクションで、既存のグループの GUID を使用します。</p><p><b>注意：</b> <ul><li><p>USEEXISTING アクションが割り当てられると、ターゲット環境の既存のレコードは変更されません。 </p><p>例えば、パッケージの構築元のサンドボックスで「デフォルトグループ」の説明が変更され、ターゲット環境で説明の値が異なる場合、このを使用したインストール後も、値は変更されません <code>translationmap</code>.</li></ul></td> 
+   <td>USEEXISTING</td> 
+   <td><p>対応するレコードがターゲット環境で見つかると、アクションが USEEXISTING に設定され、<code>targetId</code> も <code>translationmap</code> にキャプチャされます。</p><p>このアクションが <code>/install</code> エンドポイントに指定される <code>translationmap</code> に設定されている場合、インストールサービスではレコードを作成しません。ただし、このレコードへの参照を持つ可能性のある他のオブジェクトのマップエントリに含まれる <code>targetId</code> が使用されます。</p><p>例えば、パッケージをデプロイするターゲット環境で「デフォルトグループ」が見つかる場合があります。「デフォルトグループ」レコードを 2 つ持つことはできません。そのため、インストールサービスでは、このグループに関連するプロジェクト、フォームまたはその他のエンティティなど、「デフォルトグループ」への参照を含む他のオブジェクト作成アクションで既存のグループの GUID を使用します。</p><p><b>メモ：</b> <ul><li><p>USEEXISTING アクションを割り当てる場合、ターゲット環境内の既存のレコードは変更されません。 </p><p>例えば、パッケージの作成元のサンドボックスで「デフォルトグループ」の説明を変更し、ターゲット環境で説明の値が異なる場合、この <code>translationmap</code> をインストールした後も値は変更されません。</li></ul></td> 
   </tr> 
   <tr> 
-   <td>上書き</td> 
-   <td><p>このアクションは自動的には設定されません。</p><p>このアクションを使用すると、ターゲット環境に存在するオブジェクトを更新できます。 割り当てられた CREATE または USEEXISTING アクションを手動で上書きしてから、 <code>/install</code> を呼び出します。<ul><li>ユーザーは、テスト環境でオブジェクトを更新し、OVERWRITING アクションを使用して、ターゲット環境でそのオブジェクトを更新できます。</p></li><li><p>ユーザーが最初に 1 つのプロモーションパッケージをインストールし、将来新しい（または更新された）パッケージに初期パッケージ内のオブジェクトの変更が含まれる場合、OVERWRITING を使用して、以前にインストールしたオブジェクトを置き換え（上書き）できます。 </p></li><ul></td> 
+   <td>OVERWRITING</td> 
+   <td><p>このアクションは自動的に設定されません。</p><p>このアクションにより、ターゲット環境に存在するオブジェクトを更新できます。<code>/install</code> 呼び出しを実行する前に、割り当てられた CREATE または USEEXISTING アクションを手動で上書きする機能を提供します。<ul><li>ユーザーは、テスト環境でオブジェクトを更新し、OVERWRITING アクションを使用してターゲット環境でそのオブジェクトを更新できます。</p></li><li><p>ユーザーが最初に 1 つのプロモーションパッケージをインストールし、将来の新しい（または更新された）パッケージに初期パッケージ内のオブジェクトへの変更が含まれる場合、ユーザーは OVERWRITING を使用して、以前にインストールされたオブジェクトを置き換える（上書きする）ことができます。 </p></li><ul></td> 
   </tr> 
   <tr> 
-   <td>無視</td> 
-   <td><p>このアクションは自動的には設定されません。</p><p>割り当てられた CREATE または USEEXISTING アクションを手動で上書きしてから、 <code>/install</code> を呼び出します。</p><p><b>メモ： </b><ul><li><p>最初に CREATE に設定されたレコードが IGNORE に設定されている場合は、すべての子レコードも IGNORE に設定する必要があります。</p><p>例えば、テンプレートレコードが CREATE アクションにマッピングされ、インストールユーザーがそのレコードをデプロイメントから除外する場合、テンプレートのアクションを IGNORE に設定できます。</p><p>この場合、インストールユーザーがテンプレートタスク、テンプレートタスクの割り当て、テンプレートタスクの先行タスク、キュー定義、キュートピック、ルーティングルールなどを IGNORE に設定しないと、展開は失敗します。</p></li><li><p>最初に USEEXISTING に設定されたレコードが IGNORE に設定されている場合は、インストールプロセス中に何らかの悪影響が出る場合があります。</p><p>たとえば、グループレコードが USEEXISTING アクションにマッピングされ、インストールユーザーがグループを必要とするオブジェクト（グループが割り当てられていないプロジェクトは存在できない）のアクションを IGNORE に変更した場合、システムの既定のグループがそのプロジェクトに割り当てられます。</p></li><li><p>元々 USEEXISTING に設定されていたレコードが CREATE に設定されている場合、Workfrontエンティティの多くは一意の名前の制約を持つので、インストールプロセス中に悪影響が出る場合があります。</p><p>例えば、「Default Group」レコードが USEEXISTING アクションにマッピングされ、インストールユーザーがアクションを CREATE に変更した場合、「Default Group」が既に存在するので、インストールはすべての手順を完了できません。 グループ名は一意である必要があります。</p><p>一部のエンティティには、一意の名前の制約がありません。 これらのオブジェクトの場合、この変更を行うと、同じ名前の 2 つのレコードが作成されます。 例えば、テンプレート、プロジェクト、ビュー、フィルター、グループ、レポート、ダッシュボードには、一意の名前制約は必要ありません。 これらのレコードに一意の名前を付けることをお勧めしますが、適用されません。</p></li></ul></p></td> 
+   <td>IGNORE</td> 
+   <td><p>このアクションは自動的に設定されません。</p><p><code>/install</code> 呼び出しを実行する前に、割り当てられた CREATE または USEEXISTING アクションを手動で上書きする機能を提供します。</p><p><b>メモ： </b><ul><li><p>最初に CREATE に設定したレコードが IGNORE に設定されている場合は、子レコードも IGNORE に設定する必要があります。</p><p>例えば、テンプレートレコードが CREATE アクションでマッピングされ、インストールユーザーがデプロイメントから除外する場合、テンプレートのアクションを IGNORE に設定できます。</p><p>この場合、インストールユーザーがテンプレートタスク、テンプレートタスク割り当て、テンプレートタスク先行タスク、キュー定義、キュートピック、ルーティングルールなども IGNORE に設定しない場合、デプロイメントはインストール試行に失敗します。</p></li><li><p>最初に USEEXISTING に設定したレコードが IGNORE に設定されている場合は、インストールプロセス中に何らかの悪影響が生じる場合があります。</p><p>例えば、グループレコードが USEEXISTING アクションでマッピングされ、インストールユーザーがグループを必要とするオブジェクトのアクションを IGNORE に変更した場合（例：グループが割り当てられていないとプロジェクトは存在できません）、システムのデフォルトグループがそのプロジェクトに割り当てられます。</p></li><li><p>最初に USEEXISTING に設定したレコードが CREATE に設定された場合は、多くの Workfront エンティティには一意の名前制約があるので、インストールプロセス中に何らかの悪影響が生じる場合があります。</p><p>例えば、「デフォルトグループ」レコードが USEEXISTING アクションでマッピングされ、インストールユーザーがアクションを CREATE に変更した場合、「デフォルトグループ」が既に存在するので、インストール試行ではすべてのステップを完了できません。グループ名は一意にする必要があります。</p><p>一部のエンティティには、一意の名前制約がありません。これらのオブジェクトの場合、この変更を行うと、同じ名前の 2 つのレコードが作成されます。例えば、テンプレート、プロジェクト、ビュー、フィルター、グループ化、レポートおよびダッシュボードには、一意の名前制約は必要ありません。これらのレコードに対して、一意の名前を付けることがベストプラクティスですが、強制ではありません。</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-現在、UPDATE はサポートされていません。 `action` （このサービスのアルファ機能）。 更新を許可するオプション `action` 我々が研究しているものです
+現在、このサービスのアルファ版機能では、UPDATE `action` はサポートされていません。UPDATE `action` を許可するオプションについては、現在調査中です。
 
 #### URL
 
@@ -672,17 +648,17 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 >[!NOTE]
 >
->インストールを実行する必要がある ID は、 `id` フィールドに入力します。 この例では、 `id` フィールドの先頭が 3 番目で、 `c0bc79bd`.
+>インストールを実行するために必要な ID は、`id` フィールドです。この例では、`id` フィールドは上から 3 番目にあり、`c0bc79bd` で始まる値を持ちます。
 
-### インストールの実行
+### インストールを実行
 
 >[!IMPORTANT]
 >
->インストールを実行する前に、事前に実行する必要があります。 インストールの実行時に、事前実行から生成された ID を使用します。
+>インストールを実行する前に、事前実行を実行する必要があります。インストールを実行する際は、事前実行で生成された ID を使用します。
 >
->事前実行の実行後に、宛先環境（パッケージのデプロイ先となる環境）に変更が加えられている場合は、再度事前実行を実行することをお勧めします。 再度プリランを実行しない場合は、実行が正しく完了しないか、インストールが失敗する可能性があります。
+>事前実行の実行後に宛先環境（パッケージのデプロイ先の環境）に変更を加えた場合は、再度事前実行を実行することをお勧めします。事前実行を再度実行しない場合、実行が正確に完了しないか、インストールが失敗する場合があります。
 >
->事前実行の実行手順については、 [事前実行の実行](#execute-a-pre-run).
+>事前実行の実行手順について詳しくは、[事前実行の実行](#execute-a-pre-run)を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -693,7 +669,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
   </tbody> 
 </table>
 
-この呼び出しにより、POSTURL で識別されるターゲット環境へのプロモーションパッケージのインストールが開始されます。
+この呼び出しでは、POST URL で識別されたターゲット環境へのプロモーションパッケージのインストール試行が開始されます。
 
 #### URL
 
@@ -737,7 +713,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 {}
 ```
 
-### 特定のパッケージのインストールのリストを取得する
+### 特定のパッケージのインストールのリストを取得
 
 <table style="table-layout:auto"> 
  <col> 
@@ -749,7 +725,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
   </tbody> 
 </table>
 
-結果には、パッケージがデプロイされたすべての環境のインストールイベントが含まれます。 リクエストがおこなわれる環境のインストールに限定されるわけではありません。 これにより、このパッケージを受け取った環境を識別できます。
+結果には、パッケージがデプロイされた、すべての環境のインストールイベントが含まれます。ここに含まれるイベントはリクエストが行われた環境へのインストールに限定されないので、このパッケージを受け取った環境を識別できます。
 
 #### URL
 
@@ -827,7 +803,7 @@ _空_
 ]
 ```
 
-### インストールの詳細を取得する
+### インストールのインストール詳細を取得
 
 <table style="table-layout:auto"> 
  <col> 
@@ -838,15 +814,15 @@ _空_
   </tbody> 
 </table>
 
-この呼び出しは、 `translationMap` 特定のインストール用にインストールサービスによって生成されます。
+この呼び出しは、特定のインストール用にインストールサービスで生成された最終的な `translationMap` を返します。
 
-各レコードには、所定の `action` そしてその行動が成功したかどうかだった
+各レコードは、設定された `action` は何か、およびそのアクションが成功したかどうかを示します。
 
-CREATE を含むレコードの場合 `action` の `targetId` フィールドは、ターゲットシステムで新しく作成されたレコードの値で設定されます。 また、 `installationStatus` フィールドが INSTALLED に設定されます。
+CREATE `action` を含むレコードの場合、`targetId` フィールドは、ターゲットシステムで新しく作成されたレコードの値で設定されます。また、`installationStatus` フィールドが「インストール済み」に設定されます。
 
-USEEXISTING を含むレコードの場合 `action` の `targetId` フィールドも設定され、 `installationStatus` フィールドが REGISTERED に設定されます。 これは、マッピングプロセスが完了し、インストールサービスがレコードを評価し、何も操作しないことを確認していることを示します。
+USEEXISTING `action` を含むレコードの場合、`targetId` フィールドも設定され、`installationStatus` フィールドが「登録済み」に設定されます。これは、マッピングプロセスが完了しており、レコードが評価済みで対応が不要であるインストールサービスが確認していることを表します。
 
-レコードに CREATE `action` しかし、レコードを正常に作成できず、 `installationStatus` が「失敗」に設定され、失敗の理由も示されます。
+レコードに CREATE `action` があるにもかかわらず、レコードが正常に作成されなかった場合、`installationStatus` は「失敗」に設定され、失敗の理由も提示されます。
 
 #### URL
 
