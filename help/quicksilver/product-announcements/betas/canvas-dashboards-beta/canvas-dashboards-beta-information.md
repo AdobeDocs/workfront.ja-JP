@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
-title: キャンバスダッシュボードのベータ版情報
+title: キャンバスダッシュボードベータ版の情報
 description: キャンバスダッシュボードベータ版に関する一般情報
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 2%
+source-wordcount: '426'
+ht-degree: 20%
 
 ---
 
-# キャンバスダッシュボードのベータ版情報
+# キャンバスダッシュボードベータ版の情報
 
 キャンバスダッシュボードは、カスタマイズ可能なキャンバス上に様々なレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できる、現在開発中の機能です。 ベータ版テストへの参加には感謝しますが、一部の機能が完全に動作しない、または意図したとおりに動作しない場合があることに注意してください。 の手順に従って、エクスペリエンスに関するフィードバックを送信してください [フィードバックを提供](#provide-feedback) セクションを下にします。
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 **ベータ版スケジュール：**
 
-* クローズドベータ開始日 – 2024 年 5 月 2 日（PT）
+* クローズドベータ開始日 – TBA
 * オープンベータ開始日 – TBA
 * 予定リリース日 – TBA
 
@@ -33,9 +33,13 @@ ht-degree: 2%
 
 ベータ版に登録するには：
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **ダッシュボード**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、「**ダッシュボード**」をクリックします。
 
 1. 「」をクリックします **キャンバスダッシュボード（ベータ版）への参加** ページの右上隅にある「ベータ版」ボタン
+
+   >[!NOTE]
+   >
+   >このボタンは、組織がクローズドベータ版に受け入れられた場合にのみ使用できます。 オープンベータ版が開始されると、これはすべての組織で利用できるようになります。
 
 1. 用語を読み、 **承諾**. 現在ベータ版に登録されています。ただし、Workfront データが Canvas ダッシュボードで完全にアクセスできるようになるまで数分かかります。
 
@@ -43,7 +47,7 @@ ht-degree: 2%
 
 ベータ版の期間中にこのツールを開発する際には、フィードバックをお寄せください。 以下の手順に従って、体験を共有してください。
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **ダッシュボード**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、「**ダッシュボード**」をクリックします。
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
@@ -63,12 +67,13 @@ ht-degree: 2%
 
 ### 開発の機能
 
-* マトリックス テーブル レポート
+* フィルター用の日付およびユーザーベースのワイルドカード
+* Workfront計画レポート
+* その他のWorkfront オブジェクトタイプ
+* 掲示板レポート
+* その他のユーザビリティの強化
 * ワークシート
 * 埋め込み web コンテンツ
-* 掲示板レポート
-* ダッシュボードフィルター
-* フィルター用の日付およびユーザーベースのワイルドカード
 
 ### 今後のロードマップの機能
 
