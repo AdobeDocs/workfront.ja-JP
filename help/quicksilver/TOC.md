@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 3d9f6da7f4790015d4423bd8c83d751ec44249be
+source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
 workflow-type: tm+mt
-source-wordcount: '14275'
+source-wordcount: '14300'
 ht-degree: 97%
 
 ---
@@ -897,6 +897,12 @@ ht-degree: 97%
          * [ホームカレンダービューの使用](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
          * [ホームのカレンダーの表示](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [マイ更新エリアの使用](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+   * AI アシスタント {#ai-assistant}
+      * [AI アシスタント](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [AI アシスタントを使用して要約する](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+      * [AI アシスタントからヘルプを入手](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [AI アシスタントで計算フィールドの数式を修正する](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [AI アシスタントを有効または無効にする](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
       * [作業アイテムの更新および更新の表示：記事インデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [「更新」セクションの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
