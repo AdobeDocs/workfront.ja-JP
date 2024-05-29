@@ -6,15 +6,17 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 58%
+source-wordcount: '442'
+ht-degree: 73%
 
 ---
 
 
 # タスクやイシューのコミット日の更新
+
+{{highlighted-preview}}
 
 割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
@@ -29,18 +31,18 @@ ht-degree: 58%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td> 
-   新規ライセンスの場合：
+   新しいライセンスの場合：
    <ul>
-   <li><p>タスクの標準</p> </li>
-   <li><p>問題のコントリビューター以上</p></li>
+   <li><p>タスクの場合は標準</p> </li>
+   <li><p>イシューの場合はコントリビューター以上</p></li>
    </ul>
-   現在のライセンス：
+   現在のライセンスの場合：
 <ul>
    <li><p>タスクの場合はワーク以上</p></li> 
    <li><p>イシューの場合はリクエスト以上</p></li>
@@ -63,9 +65,18 @@ ht-degree: 58%
 
 ## 前提条件
 
-作業を開始するには、コミット日の更新対象となるタスクまたはイシューに自分が割り当てられている必要があります。
+タスクまたは問題のコミット日を編集する前に、コミット日を更新する必要があるタスクまたは問題に割り当てる必要があります。
 
 ## タスクやイシューのコミット日の更新
+
+
+Workfrontの次の領域で、タスクまたはイシューのコミット日を更新できます。
+
+* タスクまたは問題の「詳細」セクション
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 コミット日の更新は、タスクとイシューで同じです。
 
@@ -79,21 +90,25 @@ ht-degree: 58%
 >* [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
-1. として割り当てられているタスクまたは問題に移動します **所有者**.
+1. 自分が&#x200B;**所有者**&#x200B;として割り当てられているタスクまたはイシューに移動します。
 
    タスクやイシューのタスク所有者の確認方法について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)の記事で[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)の節を参照してください。
 
-1. クリック **タスクの詳細** または **問題の詳細** 左側のパネルで次の操作を行います。
-1. クリック **概要** をクリックして展開します。
-1. を更新 **コミット日** フィールド。
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
+
+1. 左側のパネルで「**タスクの詳細**」または「**イシューの詳細**」をクリックします。
+1. 「**概要**」をクリックして展開します。
+1. 「**コミット日**」フィールドを更新します。
 
    ![](assets/task-commit-date-edit-highlighted-details-page.png)
 
 1. 「**変更を保存**」をクリックします。
 
-   この変更を行った後、次の処理が行われます。 
+   この変更を行うと、次のようになります。
 
-   * タスクまたは問題のコミット日と予定完了日が同じではなくなりました。
+   * タスクまたはイシューのコミット日と予定完了日が同じになります。
 
      代わりに、コミット日と、タスクまたはイシューの見込み完了日が同じになります。
 
@@ -104,6 +119,6 @@ ht-degree: 58%
 
    <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-   この変更によってトリガーされる通知と更新の詳細については、記事の「コミット日の変更によってトリガーされる通知と更新」の節を参照してください [コミット日の概要](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   この変更によってトリガーされる通知と更新について詳しくは、[コミット日の概要](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)の記事で「コミット日の変更でトリガーされる通知と更新」の節を参照してください。
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

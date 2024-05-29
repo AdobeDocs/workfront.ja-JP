@@ -1,14 +1,14 @@
 ---
 title: ビューを共有
-description: Adobe Workfront Planning を使用する場合は、ビューを他のユーザーと共有して共同作業を行うことができます。
+description: Adobe Workfront Planning を使用する際に、他のユーザーとビューを共有して、共同作業を確実に行えます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 11%
+ht-degree: 72%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 11%
 
 {{maestro-important-intro}}
 
-他のユーザーとビューを共有すると、Adobe Workfront Planning でレコードを操作する際に共同作業を確実に行うことができます。
+Adobe Workfront Planning でレコードを操作する際に、他のユーザーとビューを共有して、共同作業を確実に行えます。
 
-ワークスペースに対する権限を付与しても、レコードタイプページのビューに対する権限は他のユーザーには付与されません。 レコードタイプページの個々のビューを他のユーザーと共有するには、権限を付与する必要があります。
+他のユーザーにワークスペースの権限を付与しても、レコードタイプページのビューに対する権限は付与されません。他のユーザーと共有するには、レコードタイプのページ内の個々のビューに権限を付与する必要があります。
 
 ビューを共有すると、そのビューのすべての要素にアクセスする権限が他のユーザーに与えられます。 例えば、ビューに管理権限を付与すると、グループ化、フィルター、並べ替え、バーの外観を変更できます。
 
@@ -51,7 +51,7 @@ You can share a view with the following entities:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning クローズドベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ You can share a view with the following entities:
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> Adobe Workfront Planning にはアクセス制御はありません </p>  
+   <td> Adobe Workfront Planning に対するアクセス制御はありません </p>  
 </td>
   </tr>
 
@@ -82,7 +82,7 @@ You can share a view with the following entities:
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに計画エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/maestro/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/maestro/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
  </tbody>
@@ -94,36 +94,43 @@ You can share a view with the following entities:
 
 >[!NOTE]
 >
->システム管理者は、自分で作成していないビューを表示または共有することはできません。 共有されているビューにのみアクセスまたは共有できます。
+>システム管理者は、自分で作成しなかったビューは表示または共有できません。自分と共有されたビューのみにアクセスしたり、ビューのみを共有したりできます。
 >
 >システム管理者は、ビューに対する管理権限のみを持つことができます。
 
 {{step1-to-maestro}}
 
-1. ビューを共有するワークスペースを開き、レコードタイプ カードをクリックします。
+1. 共有するビューのワークスペースを開き、レコードタイプカードをクリックします。
 
-   これにより、レコードタイプ ページが開きます。
+   レコードタイプページが開きます。
 
-1. 「表示」タブから、共有する表示にポインタを合わせて、 **詳細** メニュー ![](assets/more-menu.png) ビュー名の右側で、 **共有**.
+1. ビュータブで、共有するビューにポインタを合わせ、ビュー名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックしたあと、「**共有**」をクリックします。
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
    <!--The Internal sharing tab should be selected by default.-->
 
-1. が含まれる **表示アクセス権の付与先** フィールドに、ユーザーまたはグループの名前の入力を開始し、リストに表示されたらクリックします。  <!--replace screen shot below-->
+<!--   
+1. (Optional) Select from the following options to share the view: 
+
+* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
+* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+
+
+1. が含まれる **表示アクセス権の付与先** フィールドに、ユーザーまたはグループの名前の入力を開始し、リストに表示されたらクリックします。  <!--***********replace screen shot below when global sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
-1. ドロップダウンメニューから次のいずれかの権限レベルを選択します。
+1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
    * 管理
 
-     権限レベルと、各レベルでユーザが実行できるアクションについては、を参照してください。 [Adobe Workfront Planning での共有権限の概要](../access/sharing-permissions-overview.md).
+     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、[Adobe Workfront Planning での共有権限の概要](../access/sharing-permissions-overview.md)を参照してください。
 
      システム管理者は、共有されたビューに対する管理権限を常に受け取ります。
 
-1. クリック **リンクをコピー** で、ビューへのリンクをクリップボードにコピーします。
-1. コピーしたリンクを他のユーザーと共有します。 リンクを受け取るユーザーは、アクティブユーザーで、レコードタイプページにアクセスして選択したビューに表示できるようにするには、Workfrontにログインする必要があります。
+1. 「**リンクをコピー**」をクリックして、ビューへのリンクをクリップボードにコピーします。
+1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーが、レコードタイプのページにアクセスして、選択したビューで表示するには、ユーザーがアクティブユーザーであり、Workfront にログインしている必要があります。
 1. 「**保存**」をクリックします。
 
 <!--
@@ -166,15 +173,15 @@ To share a view publicly in Workfront Planning:
 -->
 
 
-## ビューに対する権限の削除
+## ビューに対する権限を削除
 
 {{step1-to-maestro}}
 
-1. 共有を停止するビューのワークスペースを開き、レコードタイプのカードをクリックします。 これにより、レコードタイプ ページが開きます。
+1. 共有を停止するビューのワークスペースを開き、レコードタイプのカードをクリックします。 レコードタイプページが開きます。
 1. 共有を削除するビューのタブ名にポインタを合わせ、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **共有**.
-1. 削除するユーザーまたはグループを見つけ、 **削除** ユーザーまたはグループの名前の右側にある権限ドロップダウンメニューで。
-1. クリック **保存**.
-削除されたユーザーまたはグループに属するユーザーは、表示にアクセスできなくなります。 ビューへのアクセスから削除されたユーザーに対しては、アクセス権が失われたという通知はありません。
+1. 削除するユーザーまたはグループを見つけて、ユーザー名またはグループ名の右側にある権限ドロップダウンメニューで「**削除**」をクリックします。
+1. 「**保存**」をクリックします。
+削除されたグループに属するユーザーは、ビューにアクセスできなくなります。ビューへのアクセスから削除されたユーザーに対しては、アクセス権が失われたという通知はありません。
 
 <!--Replace the above instructions with the following when public sharing is released: 
 

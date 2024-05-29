@@ -3,22 +3,24 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: コミット日の概要
-description: コミット日は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するためにコミットする日付です。これは、作業を直接担当するユーザーが与える完了日をより現実的に見積もるため、予定完了日とは異なります。
+description: コミット日は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するためにコミットする日付です。これは予定完了日とは異なり、作業を直接担当するユーザーが設定する、より現実的な予定完了日です。
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 46%
+source-wordcount: '868'
+ht-degree: 82%
 
 ---
 
 # コミット日の概要
 
-コミット日は、タスクまたは問題に割り当てられたユーザーがタスクまたは問題を完了するとコミットする日付です。
+<!--{{highlighted-preview}}-->
 
-これは、タスクまたは問題の予定完了日とは異なります。これは、作業を担当するユーザーのみが指定する完了日をより現実的に見積もるためです。
+コミット日は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するのにコミットする日付です。
+
+これはタスクやイシューの予定完了日とは異なり、作業を担当するユーザーが設定する、より現実的な予定完了日です。
 
 予定完了日について詳しくは、[タスクの予定完了日の概要](../../../manage-work/tasks/task-information/task-planned-completion-date.md)を参照してください。
 
@@ -32,8 +34,8 @@ ht-degree: 46%
 * タスクまたはイシューに割り当てられている場合は、次のいずれかの操作を行ってコミット日を設定できます。
 
    * Workfront は、タスクまたはイシューの「作業」、「問題の取り組みを開始」、または「タスクを開始」をクリックして、タスクまたはイシューの既存の予定完了日に一致するようにコミット日を設定します。「作業をする」ボタンを「開始」ボタンに置き換える方法については、[「作業をする」ボタンの「開始」ボタンへの置き換え](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)を参照してください。
-   * タスクまたはイシューが完了したと思われるタイミングに応じて、自分でコミット日を手動で設定します。これは、特定の日までにタスクまたは問題を完了するという、プロジェクト管理者への担当者としての推定とコミットメントです。
-詳しくは、を参照してください [タスクおよび問題のコミット日の更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+   * タスクまたはイシューが完了したと思われるタイミングに応じて、自分でコミット日を手動で設定します。これは、タスクまたはイシューを特定の日までに完了させる、担当者としてのプロジェクトマネージャーに対する見込みとコミットメントです。
+詳しくは、[タスクやイシューのコミット日の更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)を参照してください。
 
 >[!NOTE]
 >
@@ -46,19 +48,28 @@ ht-degree: 46%
 >* タスクのその他の担当者
 >* タスクに対する権限を持つその他のユーザー。
 >
->タスク所有者の詳細については、を参照してください。 [タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>タスク責任者について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
+
+## タスクおよび問題のコミット日を見つける
+
+Workfrontの次の領域で、タスクと問題のコミット日を確認できます。
+
+* 詳細ページ
+* Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは、を参照してください [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## コミット日の変更によってトリガーされる通知と更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-タスクまたは問題の担当者がコミット日をプロジェクト所有者が設定した予定完了日とは異なる日に手動で変更した場合、プロジェクト所有者やその他のユーザーに対してこの変更を通知する通知および更新が多数あります。
+タスクまたはイシューの担当者がコミット日をプロジェクト所有者が設定した予定完了日とは異なる日付に手動で変更すると、プロジェクト所有者や他のユーザーにこの変更について警告する通知や更新が多数行われます。
 
 >[!NOTE]
 >
 >コミット日を変更しても、計画日は自動的に変更されず、計画日に加えた変更でも、コミット日は自動的に変更されません。
 
-タスクまたはイシュートリガーのコミット日を手動で設定すると、次のように変更されます。
+タスクまたはイシューのコミット日を手動で設定すると、次の変更がトリガーされます。
 
-* コミット日の変更は、タスクまたは問題の「システム」アクティビティと「更新」セクションの「すべて」タブに入力されます。
+* コミット日の変更は、タスクまたはイシューの「更新」セクションの「システムアクティビティ」タブと「すべて」タブに入力されます。
 
   ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
@@ -66,9 +77,9 @@ ht-degree: 46%
 
   プロジェクト所有者が変更を受け入れない場合は、「更新」セクションの「コメント」タブを使用して、新しい日付を提案しているユーザーにコメントバックし、コミット日を元の予定日に戻すか、新しい日付を選択することをお勧めします。
 
-  プロジェクト所有者が変更を受け入れる場合は、タスクまたは問題を編集して、項目に割り当てられたユーザーが提供するコミット日に一致するように、手動で予定完了日を調整できます。
+  プロジェクト所有者が変更を承認する場合は、タスクまたはイシューを編集することで、手動で予定完了日を調整して、項目に割り当てられたユーザーが指定したコミット日に一致させることができます。
 
-  編集するには、タスクまたはイシューを管理するためのアクセス権が必要です。
+  タスクまたはイシューを編集するには、これらを管理するアクセス権が必要です。
 
   >[!TIP]
   >
@@ -96,7 +107,7 @@ ht-degree: 46%
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* プロジェクト所有者には、「通知」領域で、タスクまたは問題のコミット日が変更されたことを通知されます。
+* プロジェクト所有者に、「通知」エリアでタスクまたはイシューのコミット日が変更されたことが通知されます。
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 
@@ -106,9 +117,9 @@ ht-degree: 46%
 
   >[!TIP]
   >
-  >コミット日が変更されたという通知は、Workfront管理者が「設定」の「更新フィード」領域でコミット日を表示できる場合にのみ、プロジェクト所有者に送信されます。 詳しくは、を参照してください [システムが追跡する更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+  >コミット日の変更通知は、Workfront 管理者が設定の更新フィードエリアでコミット日を表示できるようにした場合にのみ、プロジェクト所有者に送信されます。詳しくは、[システムで追跡される更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)を参照してください。
 
-作業項目の更新時に使用できる追加機能について詳しくは、を参照してください。  [作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+作業アイテムの更新時に使用できるその他の機能について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 タスクとイシューのコミット日の更新について詳しくは、[タスクとイシューに関するコミット日の更新](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)を参照してください。
 

@@ -5,17 +5,17 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '6471'
-ht-degree: 83%
+source-wordcount: '6571'
+ht-degree: 82%
 
 ---
 
 
 # Adobe Workfront Planning リリースアクティビティ
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 {{maestro-important-intro}}
 
@@ -49,7 +49,45 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New process for deleting a workspace 
+
+Production: May 30, 2024 
+
+Preview: To be determined 
+
+Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
+
+### Share views with all members of a workspace by default
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
+
+For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).  
+
 -->
+
+## 2024年5月27日（PT）の週
+
+### ルックアップフィールドに対する UNIQUE ロールアップ演算子の導入
+
+実稼動版：2024年5月27日（PT）
+
+プレビュー：未決定
+
+ルックアップフィールド値を集計する際の UNIQUE 演算子を追加しました。
+
+UNIQUE 演算子は、参照フィールドの値から重複を削除し、一意の値のみを表示します。 例えば、複数の接続されたレコードを追加し、複数のレコードでルックアップフィールドの値が同じである場合、Workfrontでは元のレコードのルックアップフィールドの値の 1 つのみが表示されます。
+
+UNIQUE 演算子は、次のフィールド以外のすべてのタイプで使用できます。
+
+* 段落
+* ユーザー
+* チェックボックスフィールド
+
+詳しくは、[レコードタイプの接続](/help/quicksilver/maestro/architecture/connect-record-types.md)を参照してください。
 
 ## 2024年5月20日（PT）の週
 

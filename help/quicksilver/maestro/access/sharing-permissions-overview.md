@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 49%
+ht-degree: 86%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 49%
 
 Adobe Workfront Planning のワークスペースまたはビューに対する権限を共有または削除できます。
 
-ここでは、Workfront Planning オブジェクトのアクセス許可レベルについて説明します。
+この記事では、Workfront Planning オブジェクトの権限レベルについて説明します。
 
 ワークスペースまたはビューを共有する方法については、次の記事を参照してください。
 
@@ -33,7 +33,7 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
 ## Adobe Workfront Planning で共有できるオブジェクト
 
-次のオブジェクトを共有できます。
+以下のオブジェクトを共有できます。
 
 * ワークスペース
 
@@ -43,28 +43,28 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
 ## Adobe Workfront Planning でのオブジェクトの共有に関する考慮事項
 
-* お使いのAdobe Workfrontのライセンスタイプは、Workfront Planning の権限と組み合わせて機能し、Workfront Planning を使用する際にオブジェクトの表示、投稿、管理にアクセスできるようにします。
+* Adobe Workfront ライセンスタイプは Workfront Planning の権限と連動して機能し、Workfront Planning の使用時にオブジェクトの表示、投稿、管理を行うアクセス権を付与します。
 
-  ライセンスの種類がWorkfront Planning のアクセス許可レベルに与える影響については、を参照してください。 [Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
+  ライセンスタイプが Workfront Planning の権限レベルに与える影響については、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md)を参照してください。
 * システム管理者は、他のユーザーが作成したワークスペースを管理および共有できます。
 * システム管理者でない場合は、他のユーザーが作成したワークスペースに参加できます（ワークスペースが共有されている場合）。
 * ワークスペースやビューを一括で共有することはできません。
-* 以下のエンティティでワークスペースまたはビューを共有できます。
+* ワークスペースまたはビューは次のエンティティと共有できます。
    * ユーザー
    * グループ
      <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-* システム管理者を含む他のユーザーは、自分が作成したビューまたは共有されているビューにのみアクセスできます。 システム管理者には、ビューの管理権限のみを付与できます。
+* システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。システム管理者には、ビューの管理権限のみを付与できます。
 * ワークスペースへのリンクや、レコードタイプのページからのビューへのリンクを他のユーザーと共有できます。リンクを受け取ったユーザーが、選択したビューに表示されるワークスペースまたはレコードタイプのページにアクセスするには、そのユーザーがアクティブユーザーであり、Workfront にログインする必要があります。
 
-## Adobe Workfront Planning オブジェクトのアクセス許可の共有
+## Adobe Workfront Planning オブジェクトに対する権限の共有
 
-以下のセクションの表では、ワークスペースまたはビューを共有するときに選択できる権限のレベルと、各レベルで許可される機能について説明します。
+次の節の表に、ワークスペースまたはビューを共有する際に選択できる権限のレベルと、各レベルで許可される機能を示します。
 
 >[!IMPORTANT]
 >
->以下に示された権限のレベルは、すべてのユーザーに付与できるわけではありません。ユーザーの個々のライセンスによって、Workfront Planning オブジェクトに対してユーザーが受け取ることができるアクセス許可のレベルが決まります。
+>以下に示された権限のレベルは、すべてのユーザーに付与できるわけではありません。Workfront Planning オブジェクトに対して持つことができる権限のレベルは、ユーザーの個々のライセンスによって決まります。
 >
->詳しくは、を参照してください [Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md).
+>詳しくは、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/maestro/access/license-type-overview.md)を参照してください。
 
 
 ### ワークスペース権限
@@ -75,6 +75,9 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 * レコードタイプ
 * レコード
 * フィールド
+<!--* Views*
+    
+    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
 
 ワークスペースの権限のレベルは次のとおりです。
 
@@ -151,6 +154,18 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 | 共有 | ✓ |       |
 | 表示 | ✓ | ✓ |
 | 適用 | ✓ | ✓ |
+
+<!--Replace the above with this when global sharing is released: 
+
+|        | Manage | View  |View permissions to a workspace*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Apply  | ✓      | ✓     | ✓                          |
+
+*Users must have View or higher permissions on a workspace to gain this view access.-->
 
 <!--Replace the table above with the following when public sharing releases: 
 

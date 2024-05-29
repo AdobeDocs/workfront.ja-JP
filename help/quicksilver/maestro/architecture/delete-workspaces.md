@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 9%
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning では、ワークスペースは、チームが作業を計画するための一元化された場所です。 詳しくは、 [ワークスペースの作成](../architecture/delete-workspaces.md).
+Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。詳しくは、[ワークスペースの作成](../architecture/delete-workspaces.md)を参照してください。
 
 不要になったワークスペースは削除できます。
 
-削除する前に、別のワークスペースで削除するワークスペースに関連付けられているレコードの種類、レコード、フィールド、ビューの一部またはすべてを再度作成することをお勧めします。
+ワークスペースを削除する前に、そのワークスペースに関連付けられているレコードタイプ、レコード、フィールド、ビューの一部またはすべてを、別のワークスペースで再作成することをお勧めします。
 
 ## アクセス要件
 
@@ -41,9 +41,9 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront協定</p></td>
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Workfron Planning ベータプログラムにAdobeする必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning のベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -62,27 +62,27 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Adobe Workfront Planning には、アクセスレベルの制御はありません</p>  
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する権限の管理</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています</p>
+   <td> <p>ワークスペースに対する権限を管理</a> </p>  
+   <p>システム管理者は、自身が作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
 
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontまたはグループ管理者は、レイアウトテンプレートに計画領域を追加する必要があります。 詳しくは、 <a href="../access/access-overview.md">アクセスの概要</a>. </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-*アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -91,7 +91,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 ## ワークスペースの削除に関する考慮事項
 
-* ワークスペースを削除すると、すべてのレコードタイプ、レコード、そのフィールド、ビューも削除されます。
+* ワークスペースを削除すると、すべてのレコードタイプ、レコード、そのフィールドおよびビューも削除されます。
 * 削除したワークスペースとそれらに含まれる情報は復元できません。
 
 ## ワークスペースの削除
@@ -101,7 +101,9 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 最後にアクセスしたワークスペースが開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、削除するワークスペースを選択します。
-1. 次をクリック： **その他** メニュー ![](assets/more-menu.png) ワークスペース名の横にある「 」をクリックし、 **削除**.
+1. ワークスペース名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし「**削除**」をクリックします。
+   <!--1. Type "**delete**" in the space provided, then click **Permanently delete**. **********AND DELETE THE STEP BELPW EXCEPT FOR THE LAST SENTENCE***********-->
+
 1. 「**削除**」をクリックして確定します。
 
-   ワークスペースは削除され、復元できません。 レコードタイプ、レコード、フィールド、およびそれらに関連付けられたビューも削除されます。 <!--ensure this is right after closed beta-->
+   ワークスペースは削除され、復元できません。レコードタイプ、レコード、フィールドおよびそれらに関連付けられているビューも削除されます。<!--ensure this is right after closed beta-->
