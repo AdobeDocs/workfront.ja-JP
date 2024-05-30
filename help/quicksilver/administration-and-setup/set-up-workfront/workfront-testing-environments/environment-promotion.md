@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 96ff148ff9a05242d9ce900047d5e7d1de3f0388
+source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 100%
+source-wordcount: '2059'
+ht-degree: 89%
 
 ---
 
@@ -509,7 +509,7 @@ Deleted
   </tr> 
   <tr> 
    <td>OVERWRITING</td> 
-   <td><p>このアクションは自動的に設定されません。</p><p>このアクションにより、ターゲット環境に存在するオブジェクトを更新できます。<code>/install</code> 呼び出しを実行する前に、割り当てられた CREATE または USEEXISTING アクションを手動で上書きする機能を提供します。<ul><li>ユーザーは、テスト環境でオブジェクトを更新し、OVERWRITING アクションを使用してターゲット環境でそのオブジェクトを更新できます。</p></li><li><p>ユーザーが最初に 1 つのプロモーションパッケージをインストールし、将来の新しい（または更新された）パッケージに初期パッケージ内のオブジェクトへの変更が含まれる場合、ユーザーは OVERWRITING を使用して、以前にインストールされたオブジェクトを置き換える（上書きする）ことができます。 </p></li><ul></td> 
+   <td><p>このアクションは自動的に設定されません。</p><p>このアクションにより、ターゲット環境に存在するオブジェクトを更新できます。<code>/install</code> 呼び出しを実行する前に、割り当てられた CREATE または USEEXISTING アクションを手動で上書きする機能を提供します。<ul><li>ユーザーは、テスト環境でオブジェクトを更新し、OVERWRITING アクションを使用してターゲット環境でそのオブジェクトを更新できます。</p></li><li><p>ユーザーが最初に 1 つのプロモーションパッケージをインストールし、将来の新しい（または更新された）パッケージに初期パッケージ内のオブジェクトへの変更が含まれる場合、ユーザーは OVERWRITING を使用して、以前にインストールされたオブジェクトを置き換える（上書きする）ことができます。 </p><p>上書きの詳細については、この記事の [ 上書き ] （#overwriting）を参照してください。</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
@@ -891,7 +891,209 @@ _空_
 }
 ```
 
+## 上書き
 
+これは 3 段階のプロセスです。
+
+1. 翻訳マップを作成します（「インストールの準備」フェーズに類似しています）。
+1. 生成された翻訳マップの編集、の設定 `action` および `targetId` 上書きする任意のオブジェクトのフィールド。 アクションは次のとおりです `OVERWRITING`、および `targetId` は、上書きするオブジェクトの uuid である必要があります
+1. インストールを実行します。
+
+* [手順 1 – 翻訳マップの作成](#step-1---create-a-translation-map)
+* [手順 2 – 翻訳マップの変更](#step-2---modify-the-translation-map)
+* [手順 3 - インストール](#step-3---install)
+
+### **手順 1 – 翻訳マップの作成**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### 本文
+
+なし
+
+#### 応答
+
+翻訳マップ（ `202 - OK` ステータス
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### 例
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### 手順 2 – 翻訳マップの変更
+
+この手順にはエンドポイントがありません。
+
+1. に返される翻訳マップ [手順 1 – 翻訳マップの作成](#step-1---create-a-translation-map)をクリックし、インストールするオブジェクトのリストを検査します。
+1. 各オブジェクトのアクションフィールドを目的のインストールアクションに更新します。
+1. を検証 `targetId` 各オブジェクト。 設定アクションが `USEEXISTING` または `OVERWRITING`, `targetId` は、宛先環境のターゲットオブジェクトの UUID に設定する必要があります。 その他のアクションの場合は、targetId を空の文字列にする必要があります。
+
+   >[!NOTE]
+   >
+   >この `targetId` 衝突が検出された場合、は既に入力されています。
+
+### **手順 3 - インストール**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### 本文
+
+これは、単一のフィールドを持つオブジェクトです `translationMap`。これは、変更された翻訳マップと等しくなる必要があります。 [手順 2 – 翻訳マップの変更](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### 例
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### 応答
+
+応答には次が含まれます `{uuid of the created installation}` および `202 - ACCEPTED` ステータス。
+
+例：`b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
