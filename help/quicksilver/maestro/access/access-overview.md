@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 95%
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 # アクセス権の概要
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning を使用するには、ライセンスと共有権限の制約があります。
 
@@ -40,7 +40,7 @@ Adobe Workfront Planning を使用するには、次の設定が必要です。
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>
@@ -94,11 +94,11 @@ Adobe Workfront Planning を使用するには、次の設定が必要です。
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.-->
 
-組織が Workfront Planning ベータプログラムに登録された後、レイアウトテンプレートを使用して、すべてのユーザーのメインメニューに Planning エリアを追加できます。
+Workfront Planning プログラムに登録した後、レイアウト・テンプレートを使用して、すべてのユーザーのメイン・メニューに Planning エリアを追加できます。
 
 1. Workfront 管理者として **Workfront** にログインします。
 
-1. **レイアウトテンプレート**&#x200B;を使用して、**Planning** アイコン ![](assets/maestro-icon.png) を&#x200B;**メインメニュー**&#x200B;に追加します。
+1. **レイアウトテンプレート**&#x200B;を使用して、**Planning** アイコン ![](assets/planning-icon.png) を&#x200B;**メインメニュー**&#x200B;に追加します。
 
    詳しくは、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 

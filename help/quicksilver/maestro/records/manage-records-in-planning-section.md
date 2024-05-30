@@ -4,10 +4,10 @@ description: 左側のパネルでは、Adobe Workfront オブジェクトの「
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 16%
+source-wordcount: '674'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 # Adobe Workfront オブジェクトの計画セクションでのレコードの管理
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 左側のパネルでは、Adobe Workfront オブジェクトの「計画」セクションで、Workfront オブジェクトに接続されているレコードを表示できます。
 
@@ -52,7 +52,7 @@ ht-degree: 16%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>

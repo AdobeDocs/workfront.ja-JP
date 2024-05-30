@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 99%
+source-wordcount: '1707'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning でレコードタイプのページにアクセスする際、レコードをタイムラインビューで表示できます。
 
@@ -51,7 +51,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>

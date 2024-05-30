@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '3283'
-ht-degree: 88%
+source-wordcount: '3274'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +33,7 @@ recommendations: noDisplay, noCatalog
 
 # フィールドの作成
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning では、レコードタイプのカスタムフィールドを作成できます。そしてフィールドを Workfront Planning レコードに関連付けて、レコードの情報を強化できます。
 
@@ -68,7 +68,7 @@ Maestro フィールドについて詳しくは、を参照してください。
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>

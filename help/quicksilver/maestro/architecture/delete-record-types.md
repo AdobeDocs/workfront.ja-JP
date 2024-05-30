@@ -1,14 +1,14 @@
 ---
 title: レコードタイプの削除
-description: 関係がなくなったレコードタイプは削除できます。 レコードタイプを削除すると、レコード、フィールド、ビューなど、レコードタイプに関連付けられているすべての情報も削除されます。
+description: 関係がなくなったレコードタイプは削除できます。レコードタイプを削除すると、レコード、フィールド、ビューなど、レコードタイプに関連付けられているすべての情報も削除されます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 36%
+source-wordcount: '377'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ hide: yes
 
 # レコードタイプの削除
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 関係がなくなったレコードタイプは削除できます。
 
-ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。 詳しくは、 [レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types) この記事のセクションです。
+ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
-レコードタイプについて詳しくは、を参照してください [レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md).
+レコードタイプについては、[レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md)を参照してください。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -56,7 +56,7 @@ hide: yes
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Adobe Workfront Planning には、アクセス レベルの制御はありません</p>  
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
 </td>
   </tr>
 
@@ -86,7 +86,7 @@ hide: yes
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -108,15 +108,15 @@ hide: yes
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* 管理権限を持つワークスペースからは、レコードタイプのみを削除できます。
-* レコードタイプを削除すると、それに関連付けられた次の情報が削除されます。
+* 自分が管理権限を持つワークスペースからは、レコードタイプのみを削除できます。
+* レコードタイプを削除すると、それに関連付けられている次の情報が削除されます。
 
    * そのタイプのすべてのレコード。
-   * レコードタイプに関連付けられているすべてのフィールド。
-   * レコードタイプのすべての表示（フィルター、グループ化、並べ替え条件を含む）。
+   * そのレコードタイプに関連付けられているすべてのフィールド。
+   * そのレコードタイプのすべてのビュー（フィルター、グループ化、並べ替え条件を含む）。
 * そのレコードタイプは、ワークスペースにアクセスするすべてのユーザーから削除されます。
 * 削除したレコードタイプやその情報は復元できません。
-* 別のレコードタイプで削除するフィールドと、レコードタイプに関連付けられたレコードを、削除する前に再作成することをお勧めします。
+* 削除するレコードタイプに関連付けられているフィールドとレコードを別のレコードタイプで再作成してから削除することをお勧めします。
 
 ## レコードタイプの削除
 
@@ -130,7 +130,7 @@ hide: yes
 1. 削除するレコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
-1. 「」をクリックします **詳細** メニュー ![](assets/more-menu.png) レコードタイプ名の右側にある「」をクリックします。 **削除**. <!--add screen shot when they finalize the UI-->
-1. タイプ **削除** 確認ボックスで、 **完全に削除**.
+1. レコードタイプ名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**削除**」をクリックします。<!--add screen shot when they finalize the UI-->
+1. 確認ボックスで「**削除**」を入力したあと、「**完全に削除**」をクリックします。
 
-   選択したレコードタイプは、フィールド、関連レコード、ビューと共に削除されます。
+   選択したレコードタイプが、そのフィールド、関連するレコードおよびビューと共に削除されます。

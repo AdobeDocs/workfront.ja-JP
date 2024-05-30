@@ -1,14 +1,14 @@
 ---
 title: 分類レコードタイプの作成
-description: テンプレートを使用してワークスペースを作成すると、運用中のレコードタイプおよび分類セクションでレコードタイプが作成されます。
+description: テンプレートを使用してワークスペースを作成すると、「運用中のレコードタイプ」セクションと「分類」セクションでレコードタイプが作成されます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 44%
+source-wordcount: '385'
+ht-degree: 96%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 44%
 
 # 分類レコードタイプの作成
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-テンプレートを使用してワークスペースを作成する場合、レコードタイプは次のセクションで作成されます。
+テンプレートを使用してワークスペースを作成すると、次のセクションでレコードタイプが作成されます。
 
 * 運用中のレコードタイプ
 * 分類
 
-ワークスペースの「分類」セクションのレコードタイプは、同じワークスペースの「運用中のレコードタイプ」セクションにあるレコードタイプに関する属性を取り込みます。
+ワークスペースの「分類」セクションのレコードタイプは、同じワークスペースの「運用中のレコードタイプ」セクションのレコードタイプに関する属性を取り込みます。
 
 例えば、キャンペーンを運用中のレコードタイプにすることができます。以下は、キャンペーンレコードタイプに関する属性をキャプチャする分類です：地域、オーディエンス、国。
 
-レコードタイプについて詳しくは、を参照してください。 [レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md).
+レコードタイプについて詳しくは、[レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md)を参照してください。
 
 ## アクセス要件
 
@@ -44,11 +44,11 @@ ht-degree: 44%
 <td>
    <p> 製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>レコードタイプをExperience Manager Assetsと連携するには、Adobe Experience Manager Assets ライセンスが必要で、組織のWorkfront インスタンスがAdobeの Business Platform またはAdobe Admin Consoleにオンボーディングされている必要があります。</p> </td>
+   <p> Adobe Workfront</p> <p>レコードタイプを Experience Manager Assets に接続するには、Adobe Experience Manager Assets ライセンスが必要です。組織の Workfront インスタンスが Adobe Business Platform または Adobe Admin Console にオンボーディングされている必要があります。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning クローズドベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>
@@ -66,12 +66,12 @@ ht-degree: 44%
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Adobe Workfront Planning には、アクセス レベルの制御はありません</p>  
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 <tr>
@@ -96,12 +96,12 @@ ht-degree: 44%
 
 ## 分類の作成に関する考慮事項
 
-* ワークスペースの分類セクションでレコードタイプを作成するには、テンプレートを使用してワークスペースを作成する必要があります。
+* ワークスペースの「分類」セクションでレコードタイプを作成するには、テンプレートを使用してワークスペースを作成する必要があります。
 
   ワークスペースについて詳しくは、[ワークスペースの作成](../architecture/create-workspaces.md)を参照してください。
-* 次のいずれかの操作を行うことで、ワークスペースの分類セクションにレコードタイプを作成できます。
+* 次のいずれかを行うと、ワークスペースの「分類」セクションにレコードタイプを作成できます。
    * テンプレートを使用してワークスペースを作成する際に、自動的に作成します。詳しくは、[ワークスペースの作成](../architecture/create-workspaces.md)を参照してください。
-   * ワークスペースの「分類」セクションで、ゼロから手動で分類を作成します。
+   * ワークスペースの「分類」セクションで、最初から手動で作成します。
 
 * 新しく作成された分類には、デフォルトで次のフィールドがあります。
 

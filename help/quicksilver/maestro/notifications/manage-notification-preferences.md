@@ -5,16 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 0c3192599130d110572a6c1a5e93ffa47d437ac3
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 31%
+source-wordcount: '324'
+ht-degree: 25%
 
 ---
 
 # Adobe Workfront Planning 通知設定の管理
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 レコードページのコメントに他のユーザーが追加すると、アプリ内と、コメントに関するメール通知が届きます。
 
@@ -45,7 +45,7 @@ ht-degree: 31%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>

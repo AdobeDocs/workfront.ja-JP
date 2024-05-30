@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 66%
+source-wordcount: '565'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ recommendations: noDisplay, noCatalog
 
 # フィールドの編集
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning では、作成済みフィールドのフィールド設定を編集できます。
 
@@ -81,7 +81,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>

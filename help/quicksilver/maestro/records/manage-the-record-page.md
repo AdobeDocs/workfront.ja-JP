@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 26%
+source-wordcount: '1144'
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 # レコードページの管理
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning でレコードのプレビューとページのレイアウトを編集できます。
 
@@ -53,7 +53,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>

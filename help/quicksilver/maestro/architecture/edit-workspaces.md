@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 59%
+source-wordcount: '551'
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 59%
 
 # ワークスペースの編集
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。
 
@@ -45,7 +45,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>

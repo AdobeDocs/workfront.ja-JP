@@ -1,29 +1,29 @@
 ---
-title: ワークスペースの共有
-description: ワークスペースを他のユーザーと共有して、Adobe Workfront Planning で作業する際のコラボレーションを確保できます。
+title: ワークスペースを共有
+description: Adobe Workfront Planning で作業する際、ワークスペースを他のユーザーと共有して共同作業を確実に行うことができます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 8%
+source-wordcount: '404'
+ht-degree: 96%
 
 ---
 
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Planning as a product ??-->
 
-# ワークスペースの共有
+# ワークスペースを共有
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-ワークスペースを他のユーザーと共有して、Adobe Workfront Planning で作業する際のコラボレーションを確保できます。
+Adobe Workfront Planning で作業する際、ワークスペースを他のユーザーと共有して共同作業を確実に行うことができます。
 
 >[!NOTE]
 >
->ワークスペースに権限を付与しても、レコードタイプページのビューに対する他のユーザーの権限は付与されません。 他のユーザーと共有するには、レコードタイプのページ内の個々のビューに権限を付与する必要があります。 詳しくは、 [ビューの共有](/help/quicksilver/maestro/access/share-views.md).
+>他のユーザーにワークスペースの権限を付与しても、レコードタイプページのビューに対する権限は付与されません。他のユーザーと共有するには、レコードタイプのページ内の個々のビューに権限を付与する必要があります。詳しくは、[ビューの共有](/help/quicksilver/maestro/access/share-views.md)を参照してください。
 
 
 ## アクセス要件
@@ -43,9 +43,9 @@ ht-degree: 8%
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront協定</p></td>
+ <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning クローズ済みベータプログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ ht-degree: 8%
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> Adobe Workfront Planning のアクセス制御はありません</p>  
+   <td> Adobe Workfront Planning に対するアクセス制御はありません</p>  
 </td>
   </tr>
 
@@ -77,7 +77,7 @@ ht-degree: 8%
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューの「計画」領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、 <a href="/help/quicksilver/maestro/access/access-overview.md">アクセスの概要</a>. </p> 
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/maestro/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p> 
 </td>
   </tr>
  </tbody>
@@ -87,18 +87,18 @@ ht-degree: 8%
 
 以下のユーザーは、ワークスペースを他のユーザーと共有できます。
 
-* システム管理者は、作成しなかったワークスペースを含め、すべてのワークスペースを共有できます。
+* システム管理者は、自分が作成していないワークスペースを含め、すべてのワークスペースを共有できます。
 * 他のすべてのユーザーは、管理権限を持つワークスペースのみを共有できます。
 
 ワークスペースを他のユーザーと共有するには：
 
 {{step1-to-maestro}}
 
-1. 共有するワークスペースを開き、「 **共有** をクリックします。
+1. 共有するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. Adobe Analytics の **ワークスペースへのアクセス権の付与** フィールドにユーザーまたはグループの名前を入力し、リストに表示されたらクリックします。
+1. 「**ワークスペースへのアクセス権を付与**」フィールドにユーザーまたはグループの名前を入力し始め、リストに表示されたらクリックします。
 
    ![](assets/sharing-ui-with-groups.png)
 
@@ -107,9 +107,9 @@ ht-degree: 8%
    * 参加
    * 管理
 
-     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、 [Adobe Workfront Planning での共有権限の概要](../access/sharing-permissions-overview.md).
-1. クリック **リンクをコピー** をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
-1. コピーしたリンクを他のユーザーと共有します。 このワークスペースにアクセスするには、リンクを受け取ったユーザーがアクティブユーザーであり、Workfrontにログインする必要があります。
+     権限レベルと各レベルでユーザーが実行できるアクションについて詳しくは、[Adobe Workfront Planning での共有権限の概要](../access/sharing-permissions-overview.md)を参照してください。
+1. 「**リンクをコピー**」をクリックして、ワークスペースへのリンクをクリップボードにコピーします。
+1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
 1. 「**保存**」をクリックします。
 
 
@@ -118,8 +118,8 @@ ht-degree: 8%
 
 {{step1-to-maestro}}
 
-1. 権限を削除するワークスペースを開き、「 **共有** をクリックします。
-1. ユーザー名またはグループ名の右にあるドロップダウンメニューをクリックし、 **削除**.
+1. 権限を削除するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。
+1. ユーザー名またはグループ名の右にあるドロップダウンメニューをクリックし「**削除**」を選択します。
 1. 「**保存**」をクリックします。
 
-   削除されたユーザーまたはグループに属するユーザーは、ワークスペースまたはそのオブジェクトにアクセスできなくなりました。
+   削除されたユーザーまたは削除されたグループに属するユーザーは、ワークスペースやそのオブジェクトにアクセスできなくなります。

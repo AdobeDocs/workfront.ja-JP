@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 22%
+source-wordcount: '554'
+ht-degree: 36%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 # レコードへのカバー画像の追加
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 レコードの編集時に、Adobe Workfront Planning のレコード・ページに表紙を追加することで、レコードをパーソナライズできます。
 
@@ -48,7 +48,7 @@ ht-degree: 22%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>
@@ -66,18 +66,18 @@ ht-degree: 22%
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Workfront Planning にはアクセス制御はありません </p>  
+   <td> <p>Workfront Planning に対するアクセス制御はありません </p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースへの投稿以上の権限 </p>  
+   <td> <p>ワークスペースに対する参加以上の権限 </p>  
    <p>システム管理者は、自身が作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td>  <p>Workfront管理者を含むすべてのユーザーには、メインメニューに計画エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/maestro/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td>  <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/maestro/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -110,7 +110,7 @@ ht-degree: 22%
 
    レコードタイプのページが開きます。
 
-1. 任意の種類のビューで、レコードの名前をクリックします
+1. 任意のタイプのビューで、レコードの名前をクリックします
 
    または
 
@@ -122,7 +122,7 @@ ht-degree: 22%
 
    >[!TIP]
    >
-   >を表示できます **詳細を開く** テーブル ビューで、[ 名前 ] フィールドがプライマリ フィールドの場合のみ、[ 名前 ] フィールドの左側にあるアイコンです。
+   >「名前」フィールドがプライマリフィールドである場合にのみ、テーブルビューでレコードの「名前」フィールドの左側に&#x200B;**詳細を開く**&#x200B;アイコンを表示できます。
 
 1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。
 
@@ -145,4 +145,4 @@ ht-degree: 22%
    * クリック **再配置**&#x200B;を使用する必要があります **再配置** ツール ![](assets/reposition-tool-icon.png) カバー画像を中央に配置するには、をクリックします **保存** 完了した場合。
    * クリック **削除** カバー画像を取り外します。
 
-   Workfrontによって変更内容が自動保存されます。
+   Workfront では、変更を自動的に保存します。

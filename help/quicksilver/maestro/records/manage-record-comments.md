@@ -5,16 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 98%
+source-wordcount: '1144'
+ht-degree: 97%
 
 ---
 
 # レコードのコメントの管理
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -82,7 +82,7 @@ ht-degree: 98%
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>

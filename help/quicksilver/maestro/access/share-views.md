@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 72%
+source-wordcount: '607'
+ht-degree: 62%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 # ビューを共有
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning でレコードを操作する際に、他のユーザーとビューを共有して、共同作業を確実に行えます。
 
@@ -24,12 +24,12 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 ビューを共有すると、そのビューのすべての要素にアクセスする権限が他のユーザーに与えられます。 例えば、ビューに管理権限を付与すると、グループ化、フィルター、並べ替え、バーの外観を変更できます。
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+次のエンティティでビューを共有できます。
+
+* Workfront ユーザー
+* Workfront グループ
+<!--* Publicly, with users outside Workfront
 -->
 
 ## アクセス要件
@@ -51,7 +51,7 @@ You can share a view with the following entities:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>
@@ -110,14 +110,12 @@ You can share a view with the following entities:
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. （オプション）次のオプションから選択して、ビューを共有します。
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザーまたはグループを指定する必要があります。 これはデフォルトのオプションです。
+   * **ワークスペースの全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーがビューにアクセスできます。
 
-
-1. が含まれる **表示アクセス権の付与先** フィールドに、ユーザーまたはグループの名前の入力を開始し、リストに表示されたらクリックします。  <!--***********replace screen shot below when global sharing is released***********-->
+1. が含まれる **表示アクセス権の付与先** フィールドに、ユーザーまたはグループの名前の入力を開始し、リストに表示されたらクリックします。  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 73%
+source-wordcount: '821'
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 73%
 
 # レコードの作成
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Adobe Workfront Planning では、レコードはレコードタイプのインスタンスです。
 
@@ -49,7 +49,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
   </tr>
   <tr>
