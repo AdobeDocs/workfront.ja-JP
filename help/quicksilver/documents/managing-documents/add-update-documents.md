@@ -9,7 +9,7 @@ exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 67%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 67%
 
 <!--Audited: April, 2024-->
 
-ドキュメントの更新を追加したり、ドキュメントに返信したりして、共同作業者とやり取りし、監査証跡を作成できます。作業項目に更新を追加する方法については、を参照してください。 [作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+ドキュメントの更新を追加したり、ドキュメントに返信したりして、共同作業者とやり取りし、監査証跡を作成できます。作業アイテムへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ## アクセス要件
 
@@ -53,14 +53,14 @@ ht-degree: 67%
 
 ## ドキュメントの更新を追加または返信
 
-1. ドキュメントを含むオブジェクトに移動し、選択します **ドキュメント** 左側のパネルで次の操作を行います。
-1. 必要なドキュメントを探して、次のいずれかの操作を行います。
+1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
+1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
-   * リスト内のドキュメントをクリックし、 **概要を開く** アイコン ![](assets/qs-summary-in-new-toolbar-small.png) 右上隅にある「新規コメントを追加」をクリックするか、 **返信** 既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
-   * ドキュメントにポインタを合わせて、 **ドキュメントの詳細**、次に **更新** 左側のパネルで次の操作を行います。
-オブジェクトに更新を追加する方法については、を参照してください。 [作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * リスト内のドキュメントをクリックし、右上隅にある&#x200B;**概要を開く**&#x200B;アイコン ![](assets/qs-summary-in-new-toolbar-small.png) をクリックし、新しいコメントを追加するか、「**返信**」をクリックして既存のコメントに返信を追加します。概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   * ドキュメントの上にポインタを合わせて、「**ドキュメントの詳細**」をクリックし、左パネルの「**更新**」をクリックします。
+オブジェクトへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-   更新と返信がドキュメントと上位オブジェクトに追加されます。 詳しくは、を参照してください [アップデートセクションの概要](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   更新と返信は、ドキュメントに追加され、上位のオブジェクトにも追加されます。詳しくは、[セクションの更新の概要](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。
 
 
 ## ドキュメントのプルーフコメントへの返信を追加する

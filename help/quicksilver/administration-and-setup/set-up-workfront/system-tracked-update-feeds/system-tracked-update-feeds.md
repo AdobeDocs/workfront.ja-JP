@@ -12,7 +12,7 @@ exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 52%
+ht-degree: 58%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 52%
 
 ## システムで追跡された更新に関する考慮事項
 
-システムが追跡する更新は、「更新」領域を持つすべてのオブジェクトに対して使用できるわけではありません。
+システムで追跡された更新は、更新エリアを持つすべてのオブジェクトで利用できるわけではありません。
 
 * [!UICONTROL 更新]エリアは、次のオブジェクトで使用できます。
 
@@ -80,7 +80,7 @@ ht-degree: 52%
 
      カードの更新について詳しくは、[ボードでの接続されたカードの使用](../../../agile/get-started-with-boards/connected-cards.md)を参照してください。
 
-* [!DNL Workfront] では、次のオブジェクトのシステム更新は追跡されません。
+* [!DNL Workfront] は、次のオブジェクトに関するシステム更新を追跡しません。
 
    * [!UICONTROL チーム]
    * [!UICONTROL テンプレート]

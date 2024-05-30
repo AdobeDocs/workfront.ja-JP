@@ -11,7 +11,7 @@ exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 84%
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
    <td>
-   <p>新規プラン：標準</p>
+   <p>新プラン：標準</p>
    <p>または</p>
    <p>現在のプラン：プラン</p></td> 
   </tr> 
@@ -88,7 +88,7 @@ ht-degree: 84%
       <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。 
        <p>次の権限は、「<b>オブジェクトに対してこのアクセス権を持つユーザーは、次のフィールド値を表示できます :</b>」で利用できます。</p> 
          <ul>
-          <li><strong>表示</strong>: オブジェクトに対する権限の表示</li>
+          <li><strong>表示</strong>：オブジェクトに対する表示権限</li>
           <li><p><b>制限付き編集</b>：（オブジェクトがプロジェクト、タスク、イシュー、またはユーザーの場合にのみ使用できます）。</p> 
           <p>プロジェクト、タスク、またはイシューの場合、ユーザーがオブジェクトに投稿できるようにします。</p>
           <p>ユーザーがプロファイルを編集したり、オブジェクト（ユーザーの場合）に対するプロファイル権限を所有したりできます。</p></li> 
@@ -175,5 +175,5 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の説明に従って、カスタムフォームの作成または編集を開始し、フィールドを追加します。
 
-1. クリック **プレビュー** 右上隅のをクリックして、使用時のフォームの表示を確認し、 **プレビューを終了** に戻ってフォームの編集に戻ります。
+1. 左上隅にある「**プレビュー**」をクリックして、フォームが使用されたときにどのように表示されるかを確認するには、「**プレビューを閉じる**」をクリックして、フォームの編集に戻ります。
 

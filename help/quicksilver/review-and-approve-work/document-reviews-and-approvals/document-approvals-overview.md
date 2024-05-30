@@ -9,7 +9,7 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -51,13 +51,13 @@ ht-degree: 85%
 
 ## 新しいドキュメント承認の使用
 
-ドキュメントの承認の作成や管理を行う場合は、にリストされている記事を参照してください。 [ドキュメントの承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+ドキュメント承認の作成または管理を検討しているユーザーについては、[ドキュメントの承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)にリストされている記事を参照してください。
 
-リクエストを受け取ったドキュメントをレビューまたは承認しようとするユーザーについては、にリストされている記事を参照してください。 [ドキュメントを確認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+リクエストを受け取ったドキュメントのレビューまたは承認を検討しているユーザーについては、[ドキュメントのレビュー：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)にリストされている記事を参照してください。
 
 >[!IMPORTANT]
 >
->新規ドキュメント承認は、現在のレポートツールではサポートされていません。 新しいホームおよびキャンバスダッシュボードで使用できるすべての承認ウィジェットには、新しいドキュメントの承認に関する次の詳細が表示されます。
+>新しいドキュメント承認は、現在のレポートツールではサポートされていません。新しいホームおよびキャンバスダッシュボードで使用できるすべての承認ウィジェットには、新しいドキュメントの承認に関する次の詳細が表示されます。
 >
 >* 決定による承認
 >* 平均承認時間

@@ -1,6 +1,6 @@
 ---
 title: レコードタイプの編集
-description: レコードタイプは、保存後に編集できます。 レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。
+description: 保存後にレコードタイプを編集できます。レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 32%
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。 自分または他のユーザーが作成したレコードタイプの外観を編集できます。 Workfront Planning レコード・タイプの作成の詳細は、次を参照してください。 [レコードタイプの作成](../architecture/create-record-types.md).
+レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。自分または他のユーザーが作成したレコードタイプの外観を編集できます。Workfront Planning レコードタイプの作成について詳しくは、[レコードタイプの作成](../architecture/create-record-types.md)を参照してください。
 
 ## アクセス要件
 
@@ -47,11 +47,11 @@ hide: yes
 <td>
    <p> 製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Adobe Workfront Planning レコードタイプをExperience Manager Assetsに接続するには、Adobe Experience Manager Assets ライセンスが必要で、組織のWorkfront インスタンスがAdobeの Business Platform またはAdobe Admin Consoleにオンボーディングされている必要があります。</p> </td>
+   <p> Adobe Workfront</p> <p>Adobe Workfront Planning のレコードタイプを Experience Manager Assets に接続するには、Adobe Experience Manager Assets ライセンスが必要です。組織の Workfront インスタンスが Adobe Business Platform または Adobe Admin Console にオンボーディングされている必要があります。</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning クローズドベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ hide: yes
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Workfront Planning には、アクセス レベルの制御はありません</p>  
+   <td> <p>Workfront Planning に対するアクセスレベルのコントロールはありません</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ hide: yes
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ hide: yes
 
 最後にアクセスしたワークスペースが、デフォルトで開きます。
 
-1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードの種類を編集するワークスペースを選択します。
+1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを編集するワークスペースを選択します。
 1. レコードタイプのカードにポインタを合わせて、 **詳細** メニュー ![](assets/more-menu.png) レコードタイプカードの右上隅のをクリックします **編集**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
@@ -109,13 +109,13 @@ hide: yes
    * 必要に応じて、レコードタイプ名を編集します。 <!--did they add a field label for this? -->
    * **説明**：レコードタイプの説明を編集または追加し、その詳細を設定します。
    * レコードタイプに関連付けられたアイコンの色と形状を編集します。 次の操作を実行します。
-      * レコードタイプを識別するためのカラーを選択します。 これがレコードタイプアイコンの色になります。デフォルトでは、灰色が選択されています。
+      * レコードタイプを識別する色を選択します。これがレコードタイプアイコンの色になります。デフォルトでは、灰色が選択されています。
       * リストからアイコンを選択するか、何を表しているかを示すアイコン名を入力していき、目的のアイコンが表示されたら選択します。これがレコードタイプのアイコンになります。デフォルトでは、ファイルアイコンが選択されています。
 
      ![](assets/update-record-type-box.png)
 
 1. 「**保存**」をクリックします。
-1. （オプション）ワークスペース領域からレコードタイプカードをクリックして、レコードタイプのページを開きます。
+1. （オプション）ワークスペースエリアでレコードタイプカードをクリックして、レコードタイプのページを開きます。
 1. 「」をクリックします **詳細** レコードタイプ名の右側にあるメニューをクリックし、 **編集** レコードタイプに関する情報を更新します。
 
    >[!TIP]
@@ -126,4 +126,4 @@ hide: yes
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. （省略可能） レコードの種類の名前の右側にある下向き矢印を展開し、編集する別のレコードの種類を選択します。
+1. （オプション）レコードタイプ名の右側にある下向き矢印を展開し、別のレコードタイプを選択して編集します。

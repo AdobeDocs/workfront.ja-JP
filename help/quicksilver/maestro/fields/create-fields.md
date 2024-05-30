@@ -1,6 +1,6 @@
 ---
 title: フィールドの作成
-description: Adobe Workfront Planning では、レコードタイプごとにカスタムフィールドを作成できます。 その後、フィールドをWorkfront計画レコードに関連付けることができます。
+description: Adobe Workfront Planning では、レコードタイプの種類ごとにカスタムフィールドを作成できます。そしてフィールドを Workfront Planning レコードに関連付けることができます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
 source-wordcount: '3283'
-ht-degree: 79%
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning では、レコードタイプのカスタムフィールドを作成できます。 その後、フィールドをWorkfront Planning レコードに関連付けて、レコード情報を強化できます。
+Adobe Workfront Planning では、レコードタイプのカスタムフィールドを作成できます。そしてフィールドを Workfront Planning レコードに関連付けて、レコードの情報を強化できます。
 
 レコードタイプに関連付けるフィールドを作成するには、まずレコードタイプを作成する必要があります。詳しくは、[リクエストタイプの作成](../architecture/create-record-types.md)を参照してください。
 
@@ -68,7 +68,7 @@ Maestro フィールドについて詳しくは、を参照してください。
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Workfront Planning にはアクセス レベルの制御はありません</p>  
+   <td> <p>Workfront Planning には、アクセスレベルの制御はありません。</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Maestro フィールドについて詳しくは、を参照してください。
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **日付形式**：このフィールドに表示する日付形式のタイプ。<!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ Maestro フィールドについて詳しくは、を参照してください。
    ![](assets/number-field-type.png)
 1. 次の情報を「**新しいフィールド**」タブに追加します。
 
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **精度**：フィールドに記録する小数点以下の桁数。 6 桁まで表示できます。
    * **負の数を許可**：このフィールドで負の数を許可する場合は、このオプションを選択します。このオプションは、デフォルトでは選択されていません。
@@ -300,7 +300,7 @@ Maestro フィールドについて詳しくは、を参照してください。
    ![](assets/percentage-field-type.png)
 
 1. 次の情報を「**新しいフィールド**」タブに追加します。
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **精度**：フィールドに記録する小数点以下の桁数。 6 桁まで表示できます。
    * **負の数を許可**：このフィールドで負のパーセンテージの値を許可する場合は、このオプションを選択します。このオプションは、デフォルトでは選択されていません。
@@ -322,7 +322,7 @@ Maestro フィールドについて詳しくは、を参照してください。
    ![](assets/currency-field-type.png)
 
 1. 次の情報を「**新しいフィールド**」タブに追加します。
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **通貨**：このフィールドに表示する通貨のタイプ。これは、国際標準化機構（ISO）に基づく通貨のリストです。
    * **精度**：フィールドに記録する小数点以下の桁数。 6 桁まで表示できます。
@@ -345,7 +345,7 @@ Maestro フィールドについて詳しくは、を参照してください。
    ![](assets/checkbox-field-type.png)
 
 1. 次の情報を「**新しいフィールド**」タブに追加します。
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。 <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
 1. 「**作成**」をクリックします。
 
@@ -395,7 +395,7 @@ Maestro フィールドについて詳しくは、を参照してください。
    ![](assets/people-field-type.png)
 
 1. 次の情報を「**新しいフィールド**」タブに追加します。
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **複数の値を許可**：ユーザーがこのフィールドに複数のユーザーを追加できるようにする場合は、このオプションを選択します。このオプションは、デフォルトでは選択されていません。
 
@@ -417,7 +417,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 
 1. 次の情報を「**新しいフィールド**」タブに追加します。
 
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。 <!--this might change and they might prepopulate it with "Created by"-->
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created by"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
 
 1. 「**作成**」をクリックします。
@@ -437,7 +437,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 
 1. 次の情報を「**新しいフィールド**」タブに追加します。
 
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。 <!--this might change and they might prepopulate it with "Created date"-->
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created date"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **日付形式**：次の形式から選択します。
 
@@ -468,7 +468,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 
 1. 次の情報を「**新しいフィールド**」タブに追加します。
 
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。 <!--this might change and they might prepopulate it with "Created by"-->
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created by"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
 
 1. 「**作成**」をクリックします。
@@ -488,7 +488,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 
 1. 次の情報を「**新しいフィールド**」タブに追加します。
 
-   * **名前**：テーブルまたはレコードページに表示されるフィールドタイプの名前。 <!--this might change and they might prepopulate it with "Created date"-->
+   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created date"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **日付形式**：次の形式から選択します。
 
@@ -512,7 +512,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 
 2 つの Maestro レコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされたレコードフィールドを作成できます。
 
-Workfront Planning レコード・タイプの接続の詳細は、次を参照してください。 [レコードタイプの接続](../architecture/connect-record-types.md)
+Workfront Planning レコードタイプの接続について詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。
 
 ## Excel または CSV ファイルを使用してレコードタイプを読み込むことによるフィールドの作成
 
@@ -524,6 +524,6 @@ Workfront Planning レコード・タイプの接続の詳細は、次を参照�
 
 ## テンプレートからワークスペースを作成することでフィールドを作成
 
-Adobe Workfront Planning では、ワークスペースをテンプレートから作成する場合、レコード・タイプのフィールドが作成されます。
+テンプレートからワークスペースを作成する際に、Adobe Workfront Planning はレコードタイプ用のフィールドを作成します。
 
 詳しくは、[ワークスペースの作成](/help/quicksilver/maestro/architecture/create-workspaces.md)を参照してください。

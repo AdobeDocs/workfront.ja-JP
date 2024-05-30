@@ -10,7 +10,7 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 99%
 
 ## 左パネルの更新エリア
 
-![左側のタイムシートパネルの「更新」領域](assets/timesheet-updates-with-all-tab.png)
+![左側のタイムシートパネルの更新エリア](assets/timesheet-updates-with-all-tab.png)
 
 タイムシートの左パネルの「更新」セクションでタイムシートにコメントを付けると、タイムシートの承認者やその他のユーザーとコミュニケーションを取ることができます。
 

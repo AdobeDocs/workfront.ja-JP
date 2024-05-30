@@ -11,7 +11,7 @@ exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
 source-git-commit: 033a9f4aa1f191e5e3cabd0c0f232128fa6bce5d
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 88%
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td>  
-   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td>  
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td>  
@@ -205,7 +205,7 @@ ht-degree: 88%
 >
 >**例：**
 >
->コレクションが指定されている
+>コレクションがあるとします
 >
 >`{ key1: "value1", key2: "value2:}`
 >

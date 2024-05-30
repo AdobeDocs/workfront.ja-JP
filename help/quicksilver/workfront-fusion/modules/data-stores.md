@@ -11,7 +11,7 @@ exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
 source-git-commit: 00a969175626d27b70d516921097725fdf818799
 workflow-type: tm+mt
 source-wordcount: '1336'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 
 データストアモジュールの使用については、[[!UICONTROL データストア]モジュール](../../workfront-fusion/apps-and-their-modules/data-store-modules.md)を参照してください。
 
-Workfront Fusion のデータストアに関するビデオについては、以下を参照してください。
+Workfront Fusion のデータストアの紹介ビデオについては、以下を参照してください。
 
 * [データストア](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
@@ -49,7 +49,7 @@ Workfront Fusion のデータストアに関するビデオについては、以
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 

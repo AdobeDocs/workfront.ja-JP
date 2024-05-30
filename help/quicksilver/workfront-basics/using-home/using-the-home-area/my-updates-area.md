@@ -9,7 +9,7 @@ exl-id: 809605a0-8c24-4873-b98f-504a158be022
 source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスの種類、アクセス権については、お客様にお問い合わせください [!DNL Workfront] 管理者。 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*ご利用のプラン、ライセンスタイプまたはアクセス権について詳しくは、[!DNL Workfront] 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
@@ -74,7 +74,7 @@ ht-degree: 87%
 
    [!UICONTROL マイ更新]エリアが開きます。
 
-   自分に割り当てられているアクセスの承認および要求が、ページの前半の次の場所に一覧表示されます **マイ更新**.
+   自分に割り当てられているアクセスの承認とリクエストは、ページの前半部の「**マイ更新**」の下に一覧表示されます。
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 

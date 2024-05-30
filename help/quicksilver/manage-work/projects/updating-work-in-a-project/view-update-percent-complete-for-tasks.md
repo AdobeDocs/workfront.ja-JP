@@ -9,7 +9,7 @@ exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
 source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 57%
+ht-degree: 88%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 57%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新規ライセンス：Standard</p> 
+   <td> <p>新規のライセンス：標準</p> 
    または
-   <p>現在のライセンス：仕事以上</p>
+   <p>現在のライセンス：ワーク以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ ht-degree: 57%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
 ## タスクの完了率を更新できるエリア
@@ -76,7 +76,7 @@ ht-degree: 57%
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-* **タスクの概要パネル内**：次の領域でタスクを表示する際に、概要パネルの上部にあるタスクの完了率を更新できます。
+* **タスクの概要パネル内**：次のエリアでタスクを表示する際に、概要パネルの上部でタスクの完了率を更新できます。
 
    * タスクリストまたはレポート
    * タイムシート
@@ -84,18 +84,18 @@ ht-degree: 57%
 
   ![](assets/update-percent-complete-in-task-summary-highlighted.png)
 
-  詳しくは、を参照してください [概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  詳しくは、[概要について](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください
 
 * **ホーム**：ホーム領域の概要パネルまたはマイ作業ウィジェットから、タスクまたは問題の完了率を更新できます。
 
 詳しくは、を参照してください  [新しいホームの概要](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## タスクの完了率の更新に関する考慮事項
+## タスクの完了率を更新する際の考慮事項
 
-* タスクを 100% 完了としてマークすると、そのタスクの状態は [ 完了 ] に更新されます。
-* 親タスクには次のシナリオが存在します：
-   * プロジェクトの概要完了モードが「自動」に設定され、サブタスクが完了していない場合、親タスクの完了率を 100% に更新することはできません。
-   * プロジェクトの概要完了モードが「手動」に設定され、サブタスクが完了または未完了の場合は、親タスクの完了率を 100% に更新できます。
+* タスクを「100% 完了」とマークすると、タスクのステータスが「完了」に更新されます。
+* 親タスクには、次のシナリオが存在します。
+   * プロジェクトの「概要完了モード」が「自動」に設定され、サブタスクが完了していない場合、親タスクの完了率を 100％に更新できません。
+   * プロジェクトの「概要完了モード」が「手動」に設定され、サブタスクが完了または未完了の場合、親タスクの完了率を 100％に更新できます。
 
   詳しくは、[プロジェクトの編集](../manage-projects/edit-projects.md)を参照してください。
 
@@ -117,7 +117,7 @@ ht-degree: 57%
 
    または
 
-   をクリックしてドラッグします **完了率** 可能な場合は、完了したタスクの量を示すために、必要な番号にバー。
+   タスクがどの程度完了しているかを表示するには、「**完了率**」バーをクリックして必要な数までドラッグします。
 
    >[!NOTE]
    >

@@ -11,13 +11,13 @@ exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
 source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # イテレーション
 
-次の記事では、Adobe Workfrontでスクラム環境を使用する際にイテレーションを使用する方法について説明します。
+次の記事では、Adobe Workfront のスクラム環境で作業する際にイテレーションを使用する方法について説明します。
 
 * [イテレーションの概要](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
 * [イテレーションを作成](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)

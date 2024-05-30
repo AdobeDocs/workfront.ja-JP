@@ -8,7 +8,7 @@ exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 14%
+ht-degree: 59%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 14%
 
 {{maestro-important-intro}}
 
-Adobe Workfront Planning では、ワークスペースは、チームが作業を計画するための一元的な場所です。
+Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。
 
-ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
+ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
 ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/maestro/architecture/create-workspaces.md)を参照してください。
 
@@ -45,7 +45,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning クローズドベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -64,19 +64,19 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning には、アクセス レベルの制御はありません</p>
+   <td> <p>Workfront Planning に対するアクセスレベルのコントロールはありません</p>
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する権限の管理 </p>  
+   <td> <p>ワークスペースに対する管理権限 </p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>計画エリアをレイアウトテンプレートに追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Planning エリアをレイアウトテンプレートに追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -90,7 +90,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 {{step1-to-maestro}}
 
-これにより、Workfront Planning の「ワークスペース」領域が開きます。
+Workfront Planning のワークスペースエリアが開きます。
 
 1. 新しいワークスペースのヘッダーでワークスペースの名前内をクリックして名前を変更し、を押します **Enter**.
 1. 「」をクリックします **詳細** メニュー ![](assets/more-menu.png)ヘッダーのワークスペース名の右側にある「」をクリックします。 **編集**.
@@ -107,22 +107,22 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 1. （オプション）新しいワークスペースセクションを追加するには、次のいずれかの操作を行います。
 
-   * クリック **セクションを追加** ワークスペースの下部
-   * セクション名の上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **セクションを上に追加** または **セクションを下に追加**.
+   * ワークスペースの下部にある「**セクションを追加**」をクリックします。
+   * セクションの名前にポインタを合わせ、**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**上にセクションを追加**」または「**下にセクションを追加**」をクリックします。
 
 1. （オプション）セクションの場所を変更するには、次のいずれかの操作を行います。
 
-   * セクション名の上にマウスポインターを置き、 **グラブ** アイコン ![](assets/grab-icon.png)次に、適切な場所にドラッグ&amp;ドロップします。
-   * セクション名の上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **上に移動** または **下に移動**. セクションは、ワークスペース内を上下に移動します。
+   * セクションの名前にポインタを合わせ、**つかむ** アイコン ![](assets/grab-icon.png) をクリックし、適切な場所にドラッグ＆ドロップします。
+   * セクションの名前にポインタを合わせ、**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**上に移動**」または「**下に移動**」をクリックします。セクションは、ワークスペース内で上下に移動します。
 
 1. （オプション）ワークスペースセクションを削除するには、次の手順を実行します。
 
-   1. セクション名の上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **削除**. <!--add screen shot when UI is final?-->
-   1. すべてのレコードタイプを移動する新しいセクションを選択し、をクリックします **削除**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+   1. セクションの名前にポインタを合わせ、**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**削除**」をクリックします。<!--add screen shot when UI is final?-->
+   1. 新しいセクションを選択し、すべてのレコードタイプをそのセクションに移動して、「**削除**」をクリックします。<!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       すべてのレコードタイプが選択セクションに移動され、セクションが削除されます。
 
-1. （任意）クリック **レコードタイプを追加** ワークスペースにレコードタイプを追加します。
+1. （オプション）「**レコードタイプを追加**」をクリックして、ワークスペースにレコードタイプを追加します。
 
    詳しくは、[リクエストタイプの作成](../architecture/create-record-types.md)を参照してください。
 
@@ -140,4 +140,4 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 1. （任意）クリック **共有** をクリックし、他のユーザーとワークスペースを共有します。
 
-   詳しくは、を参照してください [ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md).
+   詳しくは、[ワークスペースの共有](/help/quicksilver/maestro/access/share-workspaces.md)を参照してください。

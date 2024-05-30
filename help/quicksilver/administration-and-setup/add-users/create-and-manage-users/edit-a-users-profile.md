@@ -11,7 +11,7 @@ exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
 source-wordcount: '3287'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -231,7 +231,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
      </tr> 
      <tr> 
       <td role="rowheader">カスタムフォーム</td> 
-      <td><p>既存のユーザーカスタムフォームをこのユーザーに関連付けます。カスタムフォームをユーザーに関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。編集するアクセス権がないフィールドは、個々のカスタムフォームには表示されません。</p> <p><strong>注意：</strong> 外部検索フィールドやWorkfront ネイティブフィールドなどの高度なカスタムフォーム機能は、ユーザーを編集ダイアログではなく、詳細ページでユーザーレコードを開いた場合にのみ使用できます。 （ユーザーのリストでユーザー名をクリックして詳細を開きます。）</p> <p>カスタムフォームの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p></td> 
+      <td><p>既存のユーザーカスタムフォームをこのユーザーに関連付けます。カスタムフォームをユーザーに関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。編集するアクセス権がないフィールドは、個々のカスタムフォームには表示されません。</p> <p><strong>メモ：</strong>外部ルックアップフィールドや Workfront ネイティブフィールドなどの高度なカスタムフォーム機能は、ユーザーを編集ダイアログではなく、詳細ページでユーザーレコードを開いた場合にのみ使用できます（ユーザーのリストで、ユーザー名をクリックすると詳細が開きます）。</p> <p>カスタムフォームの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">コメント</td> 

@@ -1,6 +1,6 @@
 ---
 title: 数式フィールドの概要
-description: Adobe Workfront Planning では、関数と既存のフィールドを使用して新しいカスタム値を計算する式フィールドを作成できます。
+description: Adobe Workfront Planning では、関数と既存のフィールドを使用して新しいカスタム値を計算する数式フィールドを作成できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 38%
+ht-degree: 89%
 
 ---
 
@@ -56,7 +56,7 @@ recommendations: noDisplay, noCatalog
   </tr>  
  <td role="rowheader"><p>Adobe Workfront の契約</p></td>
    <td>
-<p>Adobe Workfront Planning ベータ版プログラムに登録されている必要があります。 この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
+<p>組織は、Adobe Workfront Planning の限定ベータ版プログラムに登録する必要があります。この新しいオファーについては、アカウント担当者にお問い合わせください。 </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ recommendations: noDisplay, noCatalog
 
 <tr>
    <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront の計画用のアクセス制御はありません</p>  
+   <td> <p>Workfornt Planining に対するアクセス制御はありません</p>  
 </td>
   </tr>
 <tr>
@@ -85,7 +85,7 @@ recommendations: noDisplay, noCatalog
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、レイアウトテンプレートにプランニング エリアを追加する必要があります。 詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="../access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
 </td>
   </tr>
 
@@ -97,18 +97,18 @@ recommendations: noDisplay, noCatalog
 <p>Legacy plan: Enterprise</p>-->
 
 
-## 式フィールドに関する考慮事項
+## 数式フィールドに関する考慮事項
 
-* 式フィールドは、同じレコードタイプに属するフィールドを参照します。 式フィールドを作成するときに、他のレコードタイプのフィールドを参照することはできません。 <!--is this still accurate??-->
+* 数式フィールドは、同じレコードタイプに属するフィールドを参照します。数式フィールドを作成する際に、他のレコードタイプのフィールドを参照することはできません。<!--is this still accurate??-->
 * 式フィールドを保存した後で、そのフィールド タイプを変更することはできません。
-* 式フィールドを保存した後に計算を更新すると、同じタイプのすべてのレコードに対する計算結果が自動的に更新されます。
-* Workfront Planning インタフェースに表示される式で参照するフィールドを追加する必要があります。
+* 数式フィールドを保存した後でその計算を更新すると、同じタイプのすべてのレコードに対して、計算結果を自動的に更新できます。
+* Workfront Planning インターフェイスに表示される数式で参照するフィールドを追加する必要があります。
 
-## サポートされる式
+## サポートされる数式
 
-Adobe Workfront Planning の式フィールドでは、Workfrontの計算フィールドからのすべての式をサポートしています。 詳しくは、を参照してください [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning の数式フィールドは、Workfront の計算フィールドのすべての式をサポートします。詳しくは、[計算データ数式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
 
-さらに、Workfront Planning 式フィールドでは、次の式をサポートしています：
+また、Workfront Planning 数式フィールドでは、次の式も使用できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -123,22 +123,22 @@ Adobe Workfront Planning の式フィールドでは、Workfrontの計算フィ�
 
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
-   <td> <p>区切り文字によって連結された文字列を返します。</p> <p>式の形式は次のとおりです。
+   <td> <p>区切り文字で連結された文字列を返します</p> <p>式の形式は次のとおりです。
 
-<code>ARRAYJOIN （delimiter,array）</code>
+<code>ARRAYJOIN(区切り文字,配列)</code>
 </p>
    </td></tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
-   <td> <p>一意の値を持つ配列を返します。</p> <p>式の形式は次のとおりです。
+   <td> <p>一意の値を含む配列を返します</p> <p>式の形式は次のとおりです。
 
-<code>ARRAYUNIQUE （array）</code>
+<code>ARRAYUNIQUE(配列)</code>
 </p>
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>レコードの ID を返します。 各レコードには一意の ID があります。</p> <p>式の形式は次のとおりです。
+   <td> <p>レコードの ID を返します。各レコードには一意の ID が割り当てられています。</p> <p>式の形式は次のとおりです。
 
 <code>{ID}</code>
 </p>
@@ -146,19 +146,19 @@ Adobe Workfront Planning の式フィールドでは、Workfrontの計算フィ�
 
 <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
-   <td> <p>日時のタイムゾーンを特定のタイムゾーンに設定します。</p> <p>式の形式は次のとおりです。
+   <td> <p>日付と時刻のタイムゾーンを指定されたタイムゾーンに設定します。</p> <p>式の形式は次のとおりです。
 
-<code>SETTIMEZONE （date,&#39;アメリカ/ロサンゼルス&#39;）</code>
+<code>SETTIMEZONE(日付, &#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
 <tr> 
-   <td><strong>平年</strong> </td> 
+   <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>年の週数を返します。必要に応じて、週の開始日を指定できます (日曜日の場合は 1、月曜日の場合は 2 を使用)。省略した場合、デフォルトでは週は日曜日に開始します。</p> <p>式の形式は次のとおりです。
 
-<code>WEEKOFYEAR （date,2）</code>
+<code>WEEKOFYEAR(日付、2)</code>
 または
-<code>WEEKOFYEAR （date）</code>
+<code>WEEKOFYEAR(日付)</code>
 </p>
    </td></tr>
 

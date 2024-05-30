@@ -10,7 +10,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 76%
+ht-degree: 86%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 76%
 
 <!--Info for April 11: Add the following right under the screen shot above:-->
 
-次のオブジェクトには、コメントを追加したり、システムの更新を確認したりできる「更新」セクションがあります。
+次のオブジェクトには、コメントを追加したりシステムの更新を確認したりできる「更新」セクションがあります。
 
 * プロジェクト
 * タスク
@@ -127,7 +127,7 @@ Depending on what objects you access the commenting experience for, you might fi
 * 「更新」セクションの次のタブに情報が表示されます。
 
    * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。オブジェクトの更新については、を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
-   * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込まれます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
+   * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込まれます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、「システムアクティビティ」タブに読み取り専用として入力されます。詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
    * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。これは表示専用のタブです。「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。オブジェクトの更新については、を参照してください [作業の更新](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
@@ -155,13 +155,13 @@ Depending on what objects you access the commenting experience for, you might fi
    * イテレーション
    * アドホックカード
 
-     カードの更新の詳細については、を参照してください。 [ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+     カードの更新について詳しくは、[ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)を参照してください。
 
 * 次のオブジェクトには「すべて」のタブがなく、「コメント」タブのエクスペリエンスはほとんどのオブジェクトと一致します。
 
    * Goals
 
-     目標の更新について詳しくは、を参照してください [目標コメントの管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     目標の更新について詳しくは、[目標のコメントの管理](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md)を参照してください。
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -185,7 +185,7 @@ The following objects don't record system updates:
 
 ## 上位のオブジェクトにも表示される更新
 
-特定のオブジェクトに関するコメント、返信、システムの更新も、上位のオブジェクトの「更新」セクションに表示されます。
+特定のオブジェクトに対するコメント、返信まはたシステム更新は、上位のオブジェクトの「更新」セクションにも表示されます。
 
 例えば、タスクを更新すると、その更新はタスクの「更新」セクションと、そのタスクを含んだプロジェクトの「更新」セクションに表示されます。
 
@@ -197,7 +197,7 @@ The following objects don't record system updates:
  <thead> 
   <tr> 
    <th><strong>元の更新が追加されたオブジェクト</strong> </th> 
-   <th> <p><strong>元の更新が表示される上位のオブジェクト</strong> </p> </th> 
+   <th> <p><strong>元の更新も表示される上位のオブジェクト</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

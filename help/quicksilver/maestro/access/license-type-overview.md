@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfront Planning 使用時のライセンスタイプの概要
-description: Adobe Workfront Planning へのアクセス権は、オブジェクトへの権限だけでなく、ライセンスの種類にも依存します。
+description: Adobe Workfront Planning へのアクセスは、オブジェクトに対する権限に加え、ライセンスタイプに応じて異なります。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 22%
+ht-degree: 51%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 22%
 
 {{maestro-important-intro}}
 
-Adobe Workfrontのライセンスタイプは、Adobe Workfront Planning の権限と組み合わせて機能し、ワークスペースの表示、投稿または管理へのアクセス権を付与します。 <!--add more objects here when we can grant other object-specific permissions-->
+Adobe Workfront ライセンスタイプは Adobe Workfront Planning の権限と連携して機能し、ワークスペースの表示、投稿、管理へのアクセス権を付与します。<!--add more objects here when we can grant other object-specific permissions-->
 
 すべてのライセンスタイプを持つユーザーは、Workfront Planning ビューを表示、作成、編集または管理できます。
 
@@ -38,16 +38,16 @@ Workfront Planning の機能を使用する場合、下位レベルのライセ�
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-Workfront Planning のオブジェクトへのアクセス権については、次を参照してください。 [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Workfront Planning のオブジェクトに対する権限について詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/maestro/access/sharing-permissions-overview.md)を参照してください。
 
-## Workfront ライセンスタイプとWorkfront Planning 権限の関係
+## Workfront のライセンスタイプと Workfront Planning の権限の関係
 
 次の表に、Adobe Workfrontのユーザーのライセンスタイプと、ユーザーに付与できる、そのライセンスに基づくAdobe Workfront Planning オブジェクトへの権限レベルとの関係を示します。
 
 ワークスペースにユーザー権限を付与すると、レコードタイプ、レコード、フィールドへの権限も付与されます。
 
 
-| Adobe Workfront ライセンスタイプ* | Adobe Workfront Planning で許可されている権限 |
+| Adobe Workfront ライセンスタイプ* | Adobe Workfront Planning で許可される権限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 新規：標準 <br> または <br>現在：プラン | ユーザーは、ワークスペース、レコードタイプ、レコードを作成および管理できます。<br> システム管理者には、未作成のワークスペースを含むすべてのワークスペースに対する管理権限があります。 |
 | 新規：ライト <br> または <br>現在：ワーク | ユーザーは、共有ワークスペースに加え、そのワークスペースのレコードタイプとレコードを投稿および表示できます。 <br> ユーザーは、投稿権限を持つワークスペース内のレコードを作成、編集、削除できます。 |
