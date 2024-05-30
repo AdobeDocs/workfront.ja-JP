@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 79%
 
 ---
@@ -100,6 +100,18 @@ UNIQUE 演算子は、次のフィールド以外のすべてのタイプで使�
 早期アクセス段階も、Workfrontのお客様の一部に制限されています。
 
 アーリーアクセス段階に参加する資格がある場合は、アカウント担当者からお知らせします。
+
+### ワークスペースを削除するための新しいプロセス
+
+実稼動版：2024年5月30日（PT）
+
+プレビュー：未決定
+
+ワークスペースの削除に伴う影響は大きくなる可能性があるので、削除の確認に関する追加の手順を追加します。 ユーザーは、ワークスペースの永続的な削除を完了する前に、「削除」と入力する必要があります。
+
+削除されたワークスペースとその情報は復元できません。
+
+詳しくは、を参照してください [ワークスペースの削除](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## 2024年5月20日（PT）の週
 
