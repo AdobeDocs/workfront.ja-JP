@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 69%
+source-wordcount: '410'
+ht-degree: 44%
 
 ---
 
@@ -19,19 +19,20 @@ ht-degree: 69%
 2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## より関連性の高い割り当てが、新規タスクワークフローに追加されました。
+## ヘッダーまたは「詳細」セクションで、タスクと問題のコミット日と条件を編集します
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 2 月 13 日（PT）、実稼動環境での迅速リリース：24.5 リリース（2024 年 5 月 16 日（PT））、すべてのお客様向けの実稼動リリース：24.7 リリース（2024 年 7 月）の場合。
+>プレビューリリース：2024 年 5 月 30 日（PT）、実稼動環境での迅速リリース：24.6 リリース（2024 年 6 月 13 日（PT））、すべてのお客様向けの実稼動リリース：24.7 リリース（2024 年 7 月）で。
 
-より関連性の高いスマート割り当てを行うための同じ機能を、次のエリアの割り当てフィールドに追加しました。
+タスクとイシューを簡単に更新できるように、レイアウトテンプレートのタスクとイシューのヘッダーと詳細セクションに追加するオプションとして、「コミット日」フィールドと「条件」フィールドが追加されるようになりました。 ユーザーは、変更されたレイアウトテンプレートに割り当てられたときに、ページのヘッダーまたは詳細セクションからこれらのフィールドを更新できるようになりました。 この機能強化が行われるまで、ヘッダーをカスタマイズする際に、タスクおよび問題の条件およびコミット日を追加することはできませんでした。
 
-* プロジェクトにタスクを追加する場合の「新規タスク」ボックス
+コミット日と sCondition の更新について詳しくは、次の記事を参照してください。
 
-* プロジェクトタスクリスト内
+* [タスクおよび問題の状態を更新する](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [タスクおよび問題のコミット日の更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-詳しくは、[スマート割り当ての概要](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## より関連性の高いスマート割り当て
 
