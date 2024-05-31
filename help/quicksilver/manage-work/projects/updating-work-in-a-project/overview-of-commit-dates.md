@@ -7,16 +7,16 @@ description: コミット日は、タスクまたはイシューに割り当て�
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 82%
+source-wordcount: '895'
+ht-degree: 81%
 
 ---
 
 # コミット日の概要
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 コミット日は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するのにコミットする日付です。
 
@@ -56,8 +56,7 @@ Workfrontの次の領域で、タスクと問題のコミット日を確認で�
 
 * 詳細ページ
 * Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは、を参照してください [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の、タスクまたはイシューのヘッダー。 詳しくは、を参照してください [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## コミット日の変更によってトリガーされる通知と更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -71,7 +70,7 @@ Workfrontの次の領域で、タスクと問題のコミット日を確認で�
 
 * コミット日の変更は、タスクまたはイシューの「更新」セクションの「システムアクティビティ」タブと「すべて」タブに入力されます。
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
   Workfront 管理者が設定のフィードを更新エリアでこの更新を有効にした場合、コミット日の変更がタスクまたはイシューの更新エリアに表示されます。詳しくは、[システムで追跡された更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)を参照してください。
 
@@ -83,12 +82,13 @@ Workfrontの次の領域で、タスクと問題のコミット日を確認で�
 
   >[!TIP]
   >
-  >概要パネルにコミット日フィールドを追加するようにシステム管理者またはグループ管理者に依頼すると、概要パネルが表示されるWorkfrontの様々な領域でコミット日フィールドを簡単に更新できます。
+  >システム管理者またはグループ管理者に依頼して、「コミット日」フィールドを概要パネルまたはヘッダーに追加して、更新を容易にすることができます。
   >
   >詳しくは、次の記事を参照してください。
   >
   >* [概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

@@ -1,14 +1,14 @@
 ---
 title: フィールドの概要
-description: 組織のライフサイクルを反映した新しいフィールドをAdobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
+description: 組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。フィールドは、レコードタイプの属性です。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -26,69 +26,69 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-組織のライフサイクルを反映した新しいフィールドをAdobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
+組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。フィールドは、レコードタイプの属性です。
 
 
-## Adobe Workfront Planning フィールドに関する考慮事項
+## Adobe Workfront の計画フィールドに関する考慮事項
 
-* フィールドは、レコードタイプのページのテーブルビューからのみ作成できます。 フィールドは、テーブル表示で列として表示されます。 レコードタイプに関連付けられているすべてのフィールドも、レコードページに表示されます。
+* レコードを作成できるのは、レコードタイプのページのテーブルビューのみです。フィールドは、テーブルビューで列として表示されます。レコードタイプに関連付けられているすべてのフィールドは、レコードページにも表示されます。
 
-  テーブルの列（またはレコードのフィールド）の管理については、 [テーブル表示の管理](../views/manage-the-table-view.md).
+  テーブルの列（またはレコードフィールド）の管理については、[テーブルビューの管理](../views/manage-the-table-view.md)を参照してください。
 
-  フィールドの管理の詳細については、次の記事も参照してください。
+  フィールドの管理について詳しくは、次の記事も参照してください。
 
-   * [フィールドを編集](../fields/edit-fields.md)
-   * [フィールドを削除](../fields/delete-fields.md)
+   * [フィールドの編集](../fields/edit-fields.md)
+   * [フィールドの削除](../fields/delete-fields.md)
 
-* レコードタイプに関連付けられたフィールドは、そのタイプのすべてのレコードに関連付けることができます。 <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
+* レコードタイプに関連付けられているフィールドを、そのタイプのすべてのレコードに関連付けることができます。<!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
-* レコードタイプに関連付けられたフィールドを別のレコードタイプに追加することはできません。 <!-- this will change when they open the Field library tab when creating a field-->
+* レコードタイプに関連付けられたフィールドを別のレコードタイプに追加することはできません。<!-- this will change when they open the Field library tab when creating a field-->
 
-* 次の方法で、手動または自動でフィールドを作成できます。
+* 以下の方法で、フィールドを手動で、または自動的に作成できます。
 
    * 手動：
 
-      * レコードタイプのページのテーブルビューに列を追加する。 テーブルの列は、レコードタイプに関連付けられたフィールドです。 これらは、レコードのページに表示されるフィールドと同じです。
+      * レコードタイプのページのテーブルビューで列を追加する。テーブルの列は、レコードタイプに関連付けられるフィールドです。これらは、レコードのページに表示されるフィールドと同じです。
 
-        レコードのページからフィールドを作成することはできません。
+        フィールドは、レコードのページから作成することはできません。
 
-      * レコードタイプを接続する。 2 つのレコードタイプ間の新しい接続を追加するときに、リンクされたレコードフィールドを作成できます。また、他のアプリケーションからレコードタイプとオブジェクトタイプを追加すると、リンクされたレコードフィールドを作成できます。
+      * レコードタイプを接続する。2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
 
         <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-        レコードタイプの接続の詳細については、「 [レコードタイプを接続](../architecture/connect-record-types.md).
+        レコードタイプの接続について詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。
 
-      * Excel または CSV ファイルを使用してレコードタイプをインポートする。 詳しくは、 [レコードタイプの作成](../architecture/create-record-types.md).
+      * Excel ファイルまたは CSV ファイルを使用してレコードタイプを読み込む。詳しくは、[レコードタイプの作成](../architecture/create-record-types.md)を参照してください。
 
    * 自動：
 
-     次に、新しいレコードタイプごとにデフォルトで作成される標準フィールドを示します。
+     新規のレコードタイプごとにデフォルトで作成される標準フィールドを次に示します。
 
       * 名前
       * 説明
       * 開始日
       * 終了日
-      * ステータス。 レコードのステータスのデフォルト値は次のとおりです。
+      * ステータスレコードステータスのデフォルト値は次のとおりです。
          * 開発
          * 予定
          * アクティブ
          * 完了
          * 保留中
 
-        他の値を追加したり、既存の値の名前を変更したりできます。
+        値をさらに追加したり、既存の値の名前を変更したりできます。
 
-     Workfront Planning では、テンプレートからワークスペースを作成する際に、レコードタイプ用のフィールドが作成されます。 詳しくは、 [ワークスペースの作成](../architecture/create-workspaces.md).
+     Workfront Planning では、ワークスペースをテンプレートから作成する際にレコードタイプのフィールドが作成されます。詳しくは、[ワークスペースの作成](../architecture/create-workspaces.md)を参照してください。
 
-* Workfront Planning フィールドにWorkfrontからアクセスできません。
+* Workfront Planning フィールドには Workfront からアクセスできません。
 
-* WorkfrontのフィールドにWorkfront Planning からアクセスできるのは、レコードタイプをWorkfrontのオブジェクトタイプに接続し、Workfrontのオブジェクトからリンクされたフィールドや参照フィールドを追加する場合のみです。 詳しくは、 [レコードタイプを接続](../architecture/connect-record-types.md).
+* レコードタイプを Workfront オブジェクトタイプと関連付け、Workfront オブジェクトからリンクされたフィールドまたは参照フィールドを追加した場合にのみ、Workfront Planning から Workfront フィールドにアクセスできます。詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。
 
-* フィールドが属するワークスペースに対する管理権限を持っている場合は、自分または他のユーザーが作成したフィールドの設定を表示および更新できます。
+* ご自分または他のユーザーが作成したフィールドの設定を表示および更新できます（フィールドが属するワークスペースに対する管理権限がある場合）。
 
-* 1 つのレコードタイプに対して最大 500 個のフィールドを指定できます。
+* 1 つのレコードタイプに対して最大 500 個のフィールドを持つことができます。
 
-* フィールド名は 250 文字までです。
+* フィールド名は最大 250 文字まで指定できます。
 
-* レコードタイプまたはワークスペースを削除すると、それらに関連付けられているすべてのフィールドとフィールドの値も削除され、復元できなくなります。 <!-- this might change with a possible recycle bin solution?!-->
+* レコードタイプまたはワークスペースを削除すると、それらに関連付けられたすべてのフィールドとフィールドの値も削除され、復元できなくなります。<!-- this might change with a possible recycle bin solution?!-->

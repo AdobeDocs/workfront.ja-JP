@@ -6,24 +6,22 @@ description: タスクまたはイシューの状況は、進行状況を示す�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 83%
+source-wordcount: '1032'
+ht-degree: 67%
 
 ---
 
 # タスクおよびイシューの条件の更新
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 タスクまたはイシューの状況は、進行状況を示すために配置されたフラグです。これは、作業項目の現在の開発段階を示す作業項目のステータスとは異なります。
 
 タスクまたはイシューの状況は、自動または手動で設定できます。
 
 この記事で参照する条件値は、デフォルトでWorkfrontで使用できます。 の説明に従って、Adobe Workfront管理者は環境のカスタム条件を作成することができます。 [カスタム条件の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
-
-<!--You can manually update the Condition of a task or issue if you are assigned to it or if you have permissions to it, as described in the [Access requirements](#access-requirements) section of this article.-->
 
 ## アクセス要件 {#access-requirements}
 
@@ -74,12 +72,11 @@ ht-degree: 83%
 
 状況は、タスクまたはイシューに関連付けられたフラグとして表示されます。また、ラベルの代わりにレポートに表示できる数値に関連付けることもできます。状況と数値の関連付けについて詳しくは、[カスタム状況の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)を参照してください。
 
-タスクとイシューの状態は、Workfront の次の領域で確認できます。
+タスクとイシューの条件は、Workfrontの次の領域で見つけることができます。
 
-<!--* <span class="preview">The Details page, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Details view using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>-->
+* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の「詳細」ページ。 詳しくは、を参照してください [レイアウトテンプレートを使用した詳細ビューのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
 
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の、タスクまたはイシューのヘッダー。 詳しくは、を参照してください [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 * Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは、を参照してください [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -123,7 +120,31 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-タスクまたはイシューの条件を手動で更新するには、次の手順に従います。
+タスクまたは問題の条件を手動で更新するには、次のいずれかを行います。
+
+<div class="preview">
+
+1. タスクまたは問題ヘッダーでタスクまたは問題の条件を更新するには：
+
+   1. （条件付き）Workfrontまたはグループ管理者がレイアウトテンプレートのタスクまたはイシューのヘッダーに「条件」フィールドを追加した場合は、 **条件** フィールドをクリックし、次のいずれかのオプションを選択します。
+      * 順調
+      * やや心配
+      * 深刻な障害
+
+      ![](assets/condition-in-task-header.png)
+   1. 「Enter」をクリックして、条件を保存します。
+
+1. 「タスクまたは問題の詳細」セクションでタスクまたは問題の条件を更新するには：
+
+   1. （条件付き）Workfrontまたはグループ管理者が、レイアウトテンプレートのタスクまたはイシューの「詳細」セクションに「条件」フィールドを追加した場合は、 **詳細** 左側のパネルで、 **条件** フィールドに入力し、次のオプションから選択します。
+      * 順調
+      * やや心配
+      * 深刻な障害
+1. 「**変更を保存**」をクリックします。タスクまたは問題の条件が更新されます。
+
+</div>
+
+レポートまたはリスト内のタスクまたは問題の条件を更新するには：
 
 1. 管理権限のあるタスクまたはイシューのリストに移動します。「**条件**」フィールドがリストのビューに表示されていることを確認します。
 
@@ -138,50 +159,8 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. キーボードの **Enter** キーを押すか、「条件」フィールドの外側をクリックして、新しいタスクまたはイシューの条件を保存します。
 
-
-<!--
-Replace the above with the following when we release Condition to headers and Details page:
-
-To manually update the Condition of a task or an issue do one of the following:
-
-<div class="preview">
-
-1. To update the Condition of a task or issue in the task or issue header:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the task or issue header of your layout template, click the **Condition** field in the header and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
-
-          ![](assets/condition-in-task-header.png)
-     1. Click Enter to save the Condition. 
-
-1. To update the Condition of a task or issue in the task or issue Details section:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click the **Condition** field and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
-1. Click **Save Changes**. The Condition of the task or issue is updated. 
-
-</div>
-
-To update the Condition of a task or issue in a report or list: 
-
-1. Go to a list of tasks or issues that you have Manage permissions to. Ensure the **Condition** field is visible in the list's view. 
-
-1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
-
-    ![](assets/condition-drop-down-values-in-task-list.png)
-
-     >[!NOTE]
-     >
-     >Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
-
-
-1. Press **Enter** on your keyboard, or click outside the Condition field to save the new task or issue Condition. 
-
--->
 <!--   
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
      -->
+
+

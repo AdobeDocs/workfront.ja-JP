@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1845'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -26,9 +26,11 @@ ht-degree: 96%
 >
 >この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
 >
->現在 Adobe Workfront Planning は、限定された数のお客様に対して公開されているベータプログラムの一部です。これらの機能を使用するには、Workfront の顧客である必要があります。
+>現在、Workfrontプランニングは、限られた数のお客様に提供される早期アクセス段階にあります。
 >
->Workfront Planning のベータプログラムへの参加について詳しくは、アカウント担当者にお問い合わせください。
+>これらの機能を使用するには、Workfront の顧客である必要があります。
+>
+>この段階に属している場合は、アカウント担当者から通知されています。
 >
 >Workfrontの計画を説明するすべての節と記事の完全なリストについては、以下を参照してください。 [Adobe Workfront計画：記事索引](/help/quicksilver/maestro/maestro-information.md).
 
@@ -101,7 +103,7 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 
 ## Workfront インスタンスのユーザーに対して Adobe Workfront Planning を有効にする
 
-Planning 機能にアクセスするには、Adobe Workfront Planning 限定ベータ版プログラムに組織を登録する必要があります。ベータ版プログラムへの登録について詳しくは、アカウント担当者にお問い合わせください。
+計画機能にアクセスするには、組織がAdobe Workfront計画プログラムに登録する必要があります。 条件を満たす場合、アカウント担当者からこのプログラムへの登録に関する情報が提供されています。
 
 他のユーザーが Workfront Planning を使用できるようにアクセス権を付与して有効にする方法について詳しくは、[アクセス権の概要](/help/quicksilver/maestro/access/access-overview.md)を参照してください。
 
@@ -277,7 +279,7 @@ Workfront Planning を検索するには、次の手順に従います。
 
 1. 右上隅の&#x200B;**メインメニュー** ![](assets/main-menu-workfront.png) をクリックするか、左上隅の&#x200B;**メインメニュー** ![](assets/main-menu-shell.png) をクリックします（利用可能な場合）。
 
-1. **Planning** ![](assets/maestro-icon.png) をクリックします。
+1. **Planning** ![](assets/planning-icon.png) をクリックします。
 
    ワークスペースエリアが開きます。
 

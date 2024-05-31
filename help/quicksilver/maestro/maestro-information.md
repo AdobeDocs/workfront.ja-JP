@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 88%
+source-wordcount: '338'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 このページは、Adobe Workfront Planning に関連するすべてのドキュメントの出発点として使用できます。
 
@@ -49,7 +49,7 @@ hide: yes
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning の概要](maestro-overview.md)：このソリューションに特有の用語や概念を含む、Adobe Workfront Planning の概要です。ここから Workfront Planning のジャーニーを開始することをお勧めします。
-* [Adobe Workfront Planning リリースアクティビティ](/help/quicksilver/maestro/release-activity.md)：2023年5月22日（PT）に Adobe Workfront Planning のクローズドベータ版プログラムの開始以降にリリースされたすべての機能のリストです。正確なリリース日と各機能の概要を示します。
+* [Adobe Workfront計画リリースアクティビティ](/help/quicksilver/maestro/release-activity.md):2023 年 5 月 22 日（PT）のAdobe Workfront計画プログラムのローンチ以降にリリースされたすべての機能のリスト。正確なリリース日と各機能の概要が記載されています。
 * [Workfront Fusion 用のAdobe Workfront計画モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront Planning のアーキテクチャと機能

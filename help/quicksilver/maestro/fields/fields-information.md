@@ -1,14 +1,14 @@
 ---
-title: "フィールド：記事インデックス"
-description: 組織のライフサイクルを反映した新しいフィールドをAdobe Workfront Planning に追加できます。 フィールドは、レコードタイプの属性です。
+title: 「フィールド：記事インデックス」
+description: 組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。フィールドは、レコードタイプの属性です。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-マーケティング運用リーダーは、Adobe Workfront Planning を使用して、すべてのチームのマーケティングライフサイクル全体で作業を整理できます。 Workfront Planning では、作成するすべてのカスタムレコードタイプのカスタムフィールドの追加を含め、ワークフローのアーキテクチャを完全にカスタマイズできます。
+マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。Workfront Planning では、作成するすべてのカスタムレコードタイプのカスタムフィールドを追加するなど、ワークフローのアーキテクチャを完全にカスタマイズできます。
 
-次の節の記事では、Workfront Planning フィールドの作成および設定方法について説明します。
+以下の節の記事では、Workfront Planning フィールドを作成および設定する方法について説明します。
 
 * [フィールドの概要](../fields/fields-overview.md)
 * [フィールドの作成](../fields/create-fields.md)
-* [フィールドを編集](../fields/edit-fields.md)
-* [フィールドを削除](../fields/delete-fields.md)
+* [フィールドの編集](../fields/edit-fields.md)
+* [フィールドの削除](../fields/delete-fields.md)
 * [数式フィールド](../fields/formula-fields.md)

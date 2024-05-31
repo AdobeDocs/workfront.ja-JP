@@ -1,14 +1,14 @@
 ---
-title: "ビュー：記事インデックス"
-description: Adobe Workfront Planning レコードは、テーブル、タイムライン、またはカレンダー表示で表示できます。 次の記事では、Adobe Workfront Planning レコードビューの作成方法と管理方法について説明します。
+title: 「ビュー：記事インデックス」
+description: テーブルビュー、タイムラインビューまたはカレンダービューに Adobe Workfront Planning レコードを表示できます。次の記事では、Adobe Workfront Planning レコードビューを作成および管理する方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ hide: yes
 
 # ビュー：記事インデックス
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-Adobe Workfront Planning レコードは、テーブル、タイムライン、またはカレンダー表示で表示できます。
+テーブルビュー、タイムラインビューまたはカレンダービューに Adobe Workfront Planning レコードを表示できます。
 
 次の記事では、Adobe Workfront Planning でレコードビューを作成および管理する方法について説明します。
 
 * [レコードビューの管理](../views/manage-record-views.md)
-* [テーブル表示の管理](../views/manage-the-table-view.md)
-* [タイムライン表示を管理](../views/manage-the-timeline-view.md)
-* [カレンダー表示を管理](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
+* [テーブルビューの管理](../views/manage-the-table-view.md)
+* [タイムラインビューの管理](../views/manage-the-timeline-view.md)
+* [カレンダービューの管理](/help/quicksilver/maestro/views/manage-the-calendar-view.md)

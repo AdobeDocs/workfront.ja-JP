@@ -1,14 +1,14 @@
 ---
-title: "アーキテクチャ：記事インデックス"
-description: 次の記事では、Adobe Workfront Planning のアーキテクチャを設定する方法について説明します。 この設定の一環として、Workfront Planning で管理するワークフローをマッピングするためのワークスペース、レコードタイプ、カスタムフィールドの作成方法を学びます。
+title: 「アーキテクチャ：記事インデックス」
+description: 次の記事では、Adobe Workfront Planning のアーキテクチャを設定する方法について説明します。この設定の一環として、Workfront Planning で管理するワークフローをマッピングするワークスペース、レコードタイプおよびカスタムフィールドの作成方法について説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -28,25 +28,25 @@ hide: yes
 
 # アーキテクチャ：記事インデックス
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
-マーケティング運用リーダーは、Adobe Workfront Planning を使用して、すべてのチームのマーケティングライフサイクル全体で作業を整理できます。
+マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。
 
-Workfront Planning では、組織が使用するオブジェクトタイプ（またはレコードタイプ）を決定して、これらのオブジェクトを相互にリンクする方法を設定することから、ワークフローを完全にカスタマイズできます。
+Workfront Planning を使用すると、組織が使用するオブジェクトタイプ（またはレコードタイプ）を決定することから、それらのオブジェクトを相互にリンクする方法を設定することまで、ワークフローを完全にカスタマイズできます。
 
-また、Workfront Planning は他のシステムのオブジェクトタイプにリンクし、すべてのプロセスに対して一貫したフレームワークを作成できます。
+また、Workfront Planning は他のシステムのオブジェクトタイプにリンクすることもでき、すべてのプロセスに対して一貫性のあるフレームワークを作成できます。
 
-次の節では、Adobe Workfront Planning のワークスペースの設定方法、ワークスペースの構成要素であるレコードタイプの定義方法、およびその機能の使用方法について説明します。
+次の節の記事では、Adobe Workfront Planning ワークスペースの設定方法、ワークスペースの構成要素であるレコードタイプの定義方法およびその機能の使用開始方法について説明します。
 
-* [ワークスペースの作成](../architecture/create-workspaces.md)
-* [Workspace テンプレートのリスト](../architecture/workspace-templates.md)
+* [ワークスペースを作成](../architecture/create-workspaces.md)
+* [ワークスペーステンプレートのリスト](../architecture/workspace-templates.md)
 * [レコードタイプの概要](../architecture/overview-of-record-types-and-taxonomies.md)
 * [レコードタイプの作成](../architecture/create-record-types.md)
 * [分類レコードタイプの作成](../architecture/create-a-taxonomy.md)
-* [レコードタイプを編集](../architecture/edit-record-types.md)
+* [レコードタイプの編集](../architecture/edit-record-types.md)
 * [レコードタイプを接続](../architecture/connect-record-types.md)
 * [レコードタイプとレコードの接続例](../architecture/example-connect-record-types-and-records.md)
 * [ワークスペースの削除](../architecture/delete-workspaces.md)
-* [ワークスペースを編集](/help/quicksilver/maestro/architecture/edit-workspaces.md)
-* [レコードタイプを削除](../architecture/delete-record-types.md)
+* [ワークスペースの編集](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+* [レコードタイプの削除](../architecture/delete-record-types.md)
 

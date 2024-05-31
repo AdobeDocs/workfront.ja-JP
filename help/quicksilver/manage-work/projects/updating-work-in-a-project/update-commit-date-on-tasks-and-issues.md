@@ -6,10 +6,10 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 73%
+source-wordcount: '574'
+ht-degree: 55%
 
 ---
 
@@ -73,10 +73,10 @@ ht-degree: 73%
 Workfrontの次の領域で、タスクまたはイシューのコミット日を更新できます。
 
 * タスクまたは問題の「詳細」セクション
-<!--
-* <span class="preview">The task or issue header
-   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
-   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
+* <span class="preview">タスクまたは問題のヘッダー</span>
+
+  <span class="preview">Workfront管理者またはグループ管理者は、レイアウトテンプレートのタスクまたはイシューヘッダーにコミット日を追加して、タスクまたはイシューページから表示する必要があります。
+詳しくは、を参照してください [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 コミット日の更新は、タスクとイシューで同じです。
 
@@ -94,9 +94,9 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 
    タスクやイシューのタスク所有者の確認方法について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)の記事で[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)の節を参照してください。
 
-<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+1. <span class="preview">（条件付きおよびオプション）Workfrontまたはグループ管理者がコミット日をタスクまたはイシューのヘッダーに追加した場合は、 **コミット日** ヘッダーのフィールドで、カレンダーから日付を選択します。 コミット日がヘッダーにない場合は、次の手順に進みます。 </span>
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
+   <span class="preview">![](assets/commit-date-task-header.png)</span>
 
 1. 左側のパネルで「**タスクの詳細**」または「**イシューの詳細**」をクリックします。
 1. 「**概要**」をクリックして展開します。
@@ -106,7 +106,7 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 
 1. 「**変更を保存**」をクリックします。
 
-   この変更を行うと、次のようになります。
+   この変更を行った後、次の処理が行われます。
 
    * タスクまたはイシューのコミット日と予定完了日が同じになります。
 
@@ -115,10 +115,13 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
    * プロジェクト所有者には、タスクまたは問題の新しいコミット日を提案したことがWorkfrontのアプリ内通知で通知されます。
-   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
+   * 「更新」セクションでは、新しいコミット日が提案されたことがプロジェクト所有者に通知されます。この時点で、プロジェクト所有者はタスクまたは問題の予定完了日を提案したコミット日に一致するように更新できます。
 
-   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
 
-   この変更によってトリガーされる通知と更新について詳しくは、[コミット日の概要](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)の記事で「コミット日の変更でトリガーされる通知と更新」の節を参照してください。
+
+     <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
+
+     この変更によってトリガーされる通知と更新について詳しくは、[コミット日の概要](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)の記事で「コミット日の変更でトリガーされる通知と更新」の節を参照してください。
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

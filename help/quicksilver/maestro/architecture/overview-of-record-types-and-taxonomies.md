@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # レコードタイプの概要
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 オブジェクトタイプが事前に定義されている Workfront とは異なり、Adobe Workfront Planning では独自のオブジェクトタイプを作成できます。例えば、Workfront では、プログラム、ポートフォリオ、プロジェクト、タスクやイシューのオブジェクトタイプがあらかじめ作成されています。
 

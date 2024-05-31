@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1797'
 ht-degree: 98%
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 # レコードタイプとレコードの接続例
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 この記事では、次の例を説明します。
 
