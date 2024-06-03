@@ -7,10 +7,10 @@ description: Adobe Workfront Goals にアクセスする前に、Adobe Workfront
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 96%
+source-wordcount: '740'
+ht-degree: 73%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* 組織は、Workfront Goals の正規のライセンスを購入する必要があります。詳しくは、この記事の [Workfront Goals への組織のアクセス権の取得](#obtain-workfront-goals-organization-access)の節を参照してください。
+* 組織は、Workfront Goals の正規のライセンスを購入する必要があります。詳しくは、セクションを参照してください [Workfront Goals 組織のアクセス権の取得](#obtain-workfront-goals-organization-access) この記事の内容です。
 
 * 適切なタイプの Workfront ライセンスが割り当てられます。ライセンスタイプとアクセスレベルの割り当てについては、[ライセンスタイプとアクセスレベルの設定を更新](#update-license-types-and-access-level-settings)の節を参照してください。
 
@@ -35,7 +35,7 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
   >[!NOTE]
   >
-  >Workfront管理者を含むすべてのユーザーに、メインメニューの目標領域を含むレイアウトテンプレートを割り当てる必要があります。
+  >Workfront管理者を含むすべてのユーザーには、メインメニューに目標エリアを含むレイアウトテンプレートを割り当てる必要があります。
 
   詳しくは、この記事の [Workfron Goals レイアウトテンプレートに追加](#add-workfront-goals-to-a-layout-template)の節を参照してください。
 
@@ -45,37 +45,36 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
 ## Workfront Goals への組織のアクセス権の取得 {#obtain-workfront-goals-organization-access}
 
-<!--drafted for P&P release: 
 
-If your company has a current Workfront plan, you must have one of the following:
+会社が現在利用しているWorkfront プランに応じて、次のようなシナリオが考えられます。
 
-* An Ultimate Workfront plan. Workfront Goals are included in this plan. 
-* A Select or higher Workfront plan and a separate Workfront Goals license. -->
+* 会社が新しいWorkfront プランを持っている場合、次のいずれかがある必要があります。
 
-<!-- drafted for P&P - add this to the sentence below at release: 
+   * 究極のWorkfrontプラン。 このプランにはWorkfrontの目標が含まれています。
+   * Select 以上のWorkfront プランと個別のWorkfront Goals ライセンス。
 
-If your company has a legacy Workfront plan, -->
+* 会社が現在のWorkfront プランを持っている場合、ユーザーがWorkfront Goals にアクセスできるようにするには、Workfront ライセンスに加えて、追加のライセンスを購入する必要があります。
 
-ユーザーが Workfront Goals にアクセスできるようにするには、Workfront ライセンスに加えて、追加のライセンスを購入する必要があります。組織が追加のライセンスを購入すると、Workfront をお使いのアカウントで Workfront Goals が有効になります。Workfront Goals のライセンスの購入について詳しくは、Workfront のアカウントマネージャーにお問い合わせください。
+  組織が追加のライセンスを購入すると、Workfront をお使いのアカウントで Workfront Goals が有効になります。Workfront Goals のライセンスの購入について詳しくは、Workfront のアカウントマネージャーにお問い合わせください。
+
+Workfrontのアクセス要件について詳しくは、以下を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## ライセンスタイプとアクセスレベルの設定の更新  {#update-license-types-and-access-level-settings}
 
-<!--drafted for P&P release: 
-If your company has the current access level model, your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
+会社が現在利用しているWorkfront プランに応じて、次のようなシナリオが考えられます。
 
-* Contributor
-* Light
-* Standard-->
+* 会社が新しいアクセスレベルモデルを使用する場合、Workfrontの管理者は、Workfront Goals にアクセスするために次のWorkfront ライセンスタイプのいずれかを付与する必要があります。
 
-<!--drafted for P&P release: add this to the first sentence: 
-If your company has the legacy access level model, -->
+   * コントリビューター
+   * ライト
+   * 標準
 
-Workfront Goals にアクセスするためには、次のいずれかの Workfront ライセンスタイプを、Workfront の管理者が付与する必要があります。
+* 会社が現在のアクセスレベルモデルを持っている場合、Workfrontの管理者は、Workfront Goals にアクセスするために次のWorkfront ライセンスタイプのいずれかを付与する必要があります。
 
-* プラン
-* ワーク
-* レビュー
-* リクエスト
+   * プラン
+   * ワーク
+   * レビュー
+   * リクエスト
 
 Workfront 管理者がこれらのライセンスタイプの 1 つを付与したら、Goals に対するアクセスレベルでのアクセス権も付与する必要があります。Goals へのアクセスについて詳しくは、[Adobe Workfront Goals へのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)を参照してください。
 

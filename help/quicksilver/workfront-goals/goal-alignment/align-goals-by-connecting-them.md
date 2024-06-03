@@ -6,10 +6,10 @@ description: 個人的な目標を持つ個人コントリビューターの場�
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -51,9 +51,9 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
  <tr>
  <td role="rowheader">Adobe Workfront ライセンス*</td>
  <td>
- <p>現在のライセンス：コントリビューター以上</p>
+ <p>新規ライセンス：コントリビューター以上</p>
  または
- <p>レガシーライセンス：リクエストまたはそれ以上</p> </td>
+ <p>現在のライセンス：リクエスト以上</p> </td>
  </tr>
  <tr>
  <td role="rowheader">製品*</td>

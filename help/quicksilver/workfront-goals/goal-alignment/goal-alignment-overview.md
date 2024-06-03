@@ -7,10 +7,10 @@ description: 目標を関連付けることにより、各自の目標を互い�
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 94%
 
 ---
 
@@ -19,32 +19,25 @@ ht-degree: 100%
 >[!NOTE]
 >
 >この記事で説明している機能を使用するには、組織に以下が必要です。
->* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
->* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
->
->Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+> 
+>* 新しいプランとライセンス構造の場合：
+>    
+>   * 究極の計画
+>        
+>     または
+>        
+>   * Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。
+>       詳しくは、を参照してください [Adobe Workfrontの価格設定とパッケージ](https://www.workfront.com/plans).
+>      
+>* 現在のプランおよびライセンス構造の場合：
+>    
+>   * プロまたはそれ以上 [Adobe Workfrontプラン]
+>   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>    
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+> 
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
-    
-Your organization must have the following to use the functionality described in this article:    
-    
-* For the legacy plan and license structure:     
-    
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
-  * An Adobe Workfront Goals license in addition to a Workfront license.    
-    
-* For the current plan and license structure:    
-    
-  * An Ultimate plan     
-        
-    Or    
-        
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
-    
-Contact your Workfront account manager to learn about a Workfront Goals license.    
-    
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
--->
 
 目標の関連付けは、目標管理の重要な部分です。各自の目標をお互いに、またチームやグループ、会社の組織的な目標と連携させることで、戦略を前進させるために何が必要かについて、組織の全員が同じ考えを持っていることを確認できます。
 

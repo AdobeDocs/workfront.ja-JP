@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '3274'
 ht-degree: 87%
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -39,7 +39,7 @@ Adobe Workfront Planning では、レコードタイプのカスタムフィー�
 
 レコードタイプに関連付けるフィールドを作成するには、まずレコードタイプを作成する必要があります。詳しくは、[リクエストタイプの作成](../architecture/create-record-types.md)を参照してください。
 
-Maestro では、次の方法でフィールドを作成できます。
+Workfront Planning では、次の方法でフィールドを作成できます。
 
 * 最初から
 * レコードタイプを接続する方法
@@ -47,7 +47,7 @@ Maestro では、次の方法でフィールドを作成できます。
 * レコードタイプを作成する方法
 * テンプレートからのワークスペースを作成する方法
 
-Maestro フィールドについて詳しくは、を参照してください。 [フィールドの概要](/help/quicksilver/maestro/fields/fields-overview.md).
+レコード フィールドの詳細については、を参照してください。 [フィールドの概要](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## アクセス要件
 
@@ -106,7 +106,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -510,7 +510,7 @@ Maestro フィールドについて詳しくは、を参照してください。
 
 ## レコードタイプを接続してフィールドを作成
 
-2 つの Maestro レコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされたレコードフィールドを作成できます。
+2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
 
 Workfront Planning レコードタイプの接続について詳しくは、[レコードタイプの接続](../architecture/connect-record-types.md)を参照してください。
 

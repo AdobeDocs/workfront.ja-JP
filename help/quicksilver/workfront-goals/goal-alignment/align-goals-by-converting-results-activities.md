@@ -6,10 +6,10 @@ description: 2 つの目標を手動で連携させたり、既存の目標の�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 88%
  <tr>
  <td role="rowheader">Adobe Workfront ライセンス*</td>
  <td>
- <p>現在のライセンス：コントリビューター以上</p>
+ <p>新規ライセンス：コントリビューター以上</p>
  または
- <p>レガシーライセンス：リクエストまたはそれ以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td>
+ <p>現在のライセンス：リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">製品*</td>
