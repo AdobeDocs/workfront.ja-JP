@@ -1,46 +1,46 @@
 ---
-title: Adobe Admin Consoleでユーザー用のプラグイン専用パッケージを作成する
+title: Adobe Admin Console でのユーザー用のプラグイン専用パッケージの作成
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Adobe Admin Consoleの管理者は、軽量のプラグイン専用パッケージを作成できます。 これらの事前設定済みパッケージを配布すると、管理者は、ユーザー自身に依存せずに、ユーザーがこれらのプラグインを使用していることを確認できます。 これらの軽量プラグインを使用して、組織内のユーザーにCreative Cloudプラグイン用のAdobe Workfrontを配布することをお勧めします。
+description: Adobe Admin Console 管理者は、軽量のプラグイン専用パッケージを作成できます。この事前設定済みパッケージを配布すると、ユーザーは管理者にプラグインを見つけてもらわなくても、自身でプラグインを入手できるようになります。この軽量プラグインを使用して、Creative Cloud 用 Adobe Workfront プラグインを組織内のユーザーに配布することをお勧めします。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
-workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 3%
+exl-id: 99c40201-815e-447d-b791-dd026af55ec1
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+workflow-type: ht
+source-wordcount: '205'
+ht-degree: 100%
 
 ---
 
-# 作成 [!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] ユーザー向けのパッケージを [!DNL Adobe Admin Console]
+# [!DNL Adobe Admin Console] でのユーザー用の [!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] パッケージの作成
 
-An [!DNL Adobe Admin Console] 管理者は、軽量のプラグイン専用パッケージを作成できます。 これらの事前設定済みパッケージを配布すると、管理者は、ユーザー自身に依存せずに、ユーザーがこれらのプラグインを使用していることを確認できます。 これらの軽量プラグインを使用して、 [!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] プラグインを組織内のユーザーに割り当てます。
+[!DNL Adobe Admin Console] 管理者は、軽量のプラグイン専用パッケージを作成できます。この事前設定済みパッケージを配布すると、ユーザーは管理者にプラグインを見つけてもらわなくても、自身でプラグインを入手できるようになります。この軽量プラグインを使用して、[!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインを組織内のユーザーに配布することをお勧めします。
 
-次の [!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] プラグインは次の場所にあります。
+次の [!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインを使用できます。
 
-* [!DNL Adobe Workfront] Photoshop
-* [!DNL Adobe Workfront] (XDの )
-* [!DNL Adobe Workfront] （デザインとビデオ）
+* Photoshop 用 [!DNL Adobe Workfront]
+* XD 用 [!DNL Adobe Workfront]
+* デザインおよびビデオ用 [!DNL Adobe Workfront]
 
    * InDesign
    * Illustrator
    * Premiere Pro
    * After Effects
 
-ユーザーが [!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] プラグイン：
+ユーザーは、[!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインを使用して、次の操作を実行できます。
 
-* 時間のログ記録
-* レビューと承認プロセスの開始
-* ファイルをアップロード
-* プロジェクトとタスクの表示
+* 時間を記録
+* レビュープロセスと承認プロセスの開始
+* ファイルのアップロード
+* プロジェクトやタスクの表示
 * その他
 
-詳しくは、 [!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] プラグイン， 「 [[!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] アプリ](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+[!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインについて詳しくは、 [!DNL Creative Cloud]  アプリ用 [[!DNL Adobe Workfront]  プラグイン](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)を参照してください。
 
-## 用のパッケージを作成 [!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] plugins
+## [!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインのパッケージの作成
 
-パッケージは、 [!DNL Adobe Admin Console].
+パッケージは、[!DNL Adobe Admin Console] を通じて作成されます。
 
-これらのパッケージの作成手順については、 [管理パッケージ](https://helpx.adobe.com/enterprise/using/create-nul-packages.html#managed-packages) (Adobe Admin Consoleドキュメント ) を参照してください。
-
+このパッケージの作成手順については、Adobe Admin Console ドキュメントの[マネージドパッケージ](https://helpx.adobe.com/jp/enterprise/using/create-nul-packages.html#managed-packages)を参照してください。
