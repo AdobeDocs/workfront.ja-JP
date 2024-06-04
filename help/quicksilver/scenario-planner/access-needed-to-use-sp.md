@@ -7,7 +7,7 @@ description: シナリオプランナーには、Adobe Workfront ライセンス
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 79%
@@ -43,7 +43,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    新しいWorkfrontプランと現在の Workfront プランのどちらを使用するかに応じて、組織には次のいずれかが必要です。
 
-   * 現在の計画の場合、組織には次のいずれかが必要です。
+   * 新しいプランの場合、組織には次のいずれかが必要です。
 
       * この [!UICONTROL 究極の] [!DNL Workfront] 計画。 シナリオプランナーは Ultimate 計画に含まれています。
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 94%
+source-wordcount: '1124'
+ht-degree: 92%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront の契約</p></td>
+ <td role="rowheader"><p>Adobe Workfront 契約</p></td>
    <td>
 <p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
    </td>
@@ -69,7 +69,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront ライセンス</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
    <td>
    <p>任意</p> 
    <p>システム管理者は、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 </p>
@@ -84,7 +84,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ビューに対する権限の管理</p>  
+   <td> <p>ビューに対する権限を管理</p>  
 </td>
   </tr>
 
@@ -134,7 +134,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 | ビューにフィールドを新しい列として追加 | ✓ |               |         |
 | 外部リストから行をコピーしてテーブルに貼り付ける | ✓ |               |          |
 | タイムラインでレコードを表示 |            | ✓ |             |
-| レコードをフィルタリング | ✓ | ✓ | ✓ |
+| レコードのフィルタリング | ✓ | ✓ | ✓ |
 | カレンダーにレコードを表示 |           |              | ✓ |
 | レコードをグループ化 | ✓ | ✓ |
 | レコードの並べ替え | ✓ |              |
@@ -150,7 +150,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 {{step1-to-maestro}}
 
 
-最後にアクセスしたワークスペースがデフォルトで開きます。ワークスペースの作成については、[ワークスペースの作成](../architecture/create-workspaces.md)を参照してください。
+デフォルトで、最後にアクセスしたワークスペースが開きます。ワークスペースの作成については、[ワークスペースの作成](../architecture/create-workspaces.md)を参照してください。
 
 1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](../architecture/create-record-types.md)を参照してください。
 
@@ -192,6 +192,11 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
    この数字は自動的に 1 ずつ増えて生成されます。
 
 1. （条件付き）タイムラインビューまたはカレンダービューに表示されるレコードの場合は、「**開始日**」と「**終了日**」を選択します。
+
+   >[!TIP]
+   >
+   >    レコードの日付フィールドから選択することも、接続されたレコードやオブジェクトから日付フィールドを参照することもできます。
+
 1. 「**作成**」をクリックします。
 
    ビューは新しいタブとして表示されます。ビューは、作成時または共有時からの時間順で表示されます。
@@ -215,11 +220,11 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 {{step1-to-maestro}}
 
-最後にアクセスしたワークスペースがデフォルトで開きます。ワークスペースの作成については、[ワークスペースの作成](../architecture/create-workspaces.md)を参照してください。
+デフォルトで、最後にアクセスしたワークスペースが開きます。ワークスペースの作成について詳しくは、[ワークスペースの作成](../architecture/create-workspaces.md)を参照してください。
 
 1. レコードタイプのカードをクリックします。
 
-   レコードタイプの作成については、[レコードタイプの作成](../architecture/create-record-types.md)を参照してください。
+   レコードタイプの作成について詳しくは、[レコードタイプの作成](../architecture/create-record-types.md)を参照してください。
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
