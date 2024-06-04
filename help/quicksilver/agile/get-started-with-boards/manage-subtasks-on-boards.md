@@ -7,17 +7,17 @@ author: Lisa
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # ボードでのサブタスクの管理
 
-カードでサブタスクを使用すると、タスク間で親子関係を確立し、作業の階層を作成できます。 Workfrontボード上のカードに追加するサブタスクも、Workfrontプロジェクトのタスクに追加されます。 プロジェクトレベルでのサブタスクとタスクの詳細については、 [サブタスクを作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+カードでサブタスクを使用すると、タスク間で親子関係を確立し、作業の階層を作成できます。Workfront ボード上のカードに追加するサブタスクも、Workfront プロジェクトのタスクに追加されます。プロジェクトレベルでのサブタスクとタスクについて詳しくは、[サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)を参照してください。
 
-サブタスクは、接続されたカードでのみ使用でき、問題が発生した場合は使用できません。 接続されたカードについて詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+サブタスクは、接続されたカードでのみ使用でき、イシューでは使用できません。接続されたカードについて詳しくは、[ボードで接続済みカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
 ## アクセス要件
 
@@ -30,46 +30,46 @@ ht-degree: 0%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] 計画*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL リクエスト ] 以降</p> </td> 
+   <td> <p>[!UICONTROL Request] 以降</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、 [!DNL Workfront] 管理者。
+&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## カードへのサブタスクの追加
+## カードにサブタスクを追加
 
 {{step1-to-boards}}
 
-1. ボードにアクセスします。 詳しくは、 [ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md).
-1. カードをクリックして、 [!UICONTROL カードの詳細] ボックス。
+1. ボードにアクセスします。詳しくは、[ボードを作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. カードをクリックして、[!UICONTROL カードの詳細]ボックスを開きます。
 
    または
 
-   次をクリック： **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL 編集]**.
+   カード上の&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![その他メニュー](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 編集]**」を選択します。
 
-   このタスクの既存のサブタスクは、「サブタスク」セクションのカードのチェックリスト項目の上に表示されます。 次をクリック： [!UICONTROL **検索**] アイコンをクリックしてサブタスクを検索します。
+   このタスクの既存のサブタスクは、「サブタスク」セクションのカードのチェックリスト項目の上部に表示されます。[!UICONTROL **検索**]&#x200B;アイコンをクリックしてサブタスクを検索します。
 
-1. 新しいサブタスクを追加するには、 [!UICONTROL **サブタスクを追加**]. 次に、サブタスクのタイトルを入力し、Enter キーを押します。
+1. 新しいサブタスクを追加するには、「[!UICONTROL **サブタスクを追加**]」をクリックします。次に、サブタスクのタイトルを入力し、Enter キーを押します。
 
-   リストの上部にあるカウンターは、完了したサブタスクの数とサブタスクの合計数を示します。
+   リストの上部にあるカウンターには、完了したサブタスクの数とサブタスクの合計数が表示されます。
 
-1. クリック ![詳細アイコン](assets/checklist-chevron.png) をクリックして、サブタスクの詳細ボックスを開きます。 上部にサブタスクの名前が表示されます。
+1. ![詳細アイコン](assets/checklist-chevron.png)をクリックしてサブタスクの詳細ボックスを開きます。上部にサブタスクの名前が表示されます。
 1. （オプション）サブタスクの詳細を追加します。
 
-   この情報は、 [!DNL Workfront] プロジェクト。
+   この情報は、[!DNL Workfront] プロジェクトのサブタスクにも追加されます。
 
-   接続されたカードのすべてのフィールドは、追加のサブタスクを含むサブタスクの詳細で使用できます。 これらのフィールドについて詳しくは、 [ボードでの接続済みカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   接続されているカードのすべてのフィールドは、追加のサブタスクを含むサブタスクの詳細で使用できます。これらのフィールドについて詳しくは、[ボードで接続されているカードの使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
-1. クリック **[!UICONTROL 閉じる]** をクリックして、カードの詳細とサブタスクの完全なリストに戻ります。
+1. 「**[!UICONTROL 閉じる]**」をクリックして、カードの詳細とサブタスクの完全なリストに戻ります。
 
    サブタスクの詳細の上部にあるパンくずリストを使用して、階層内を移動することもできます。
 
    割り当て先と期限がリストのサブタスクに表示されます。
 
-1. サブタスクをコピーするには、 **[!UICONTROL その他]** メニュー ![その他のメニュー](assets/more-icon-spectrum.png) を選択し、 **[!UICONTROL コピー]**.
+1. サブタスクをコピーするには、その項目の&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![その他メニュー](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL コピー]**」を選択します。
