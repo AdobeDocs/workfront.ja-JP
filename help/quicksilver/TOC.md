@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
 workflow-type: tm+mt
-source-wordcount: '14314'
+source-wordcount: '14329'
 ht-degree: 97%
 
 ---
@@ -2046,61 +2046,62 @@ ht-degree: 97%
       * [Adobe Workfront Goals の用語のカスタマイズ](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Workfront Goals での目標の共有](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront Goals の通知を有効にする](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Maestro{#adobe-maestro}
-   * [Adobe Maestro 情報](maestro/maestro-information.md)
-   * [Adobe Workfront Planning の概要](maestro/maestro-overview.md)
-   * [Adobe Workfront Planning リリースアクティビティ](maestro/release-activity.md)
-   * Adobe Maestro アーキテクチャ{#adobe-maestro-architecture}
-      * [アーキテクチャ：記事インデックス](maestro/architecture/architecture-information.md)
-      * [ワークスペースの作成](maestro/architecture/create-workspaces.md)
-      * [レコードタイプの概要](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [レコードタイプの作成](maestro/architecture/create-record-types.md)
-      * [分類レコードタイプの作成](maestro/architecture/create-a-taxonomy.md)
-      * [レコードタイプの接続](maestro/architecture/connect-record-types.md)
-      * [レコードタイプの編集](maestro/architecture/edit-record-types.md)
-      * [ワークスペースの削除](maestro/architecture/delete-workspaces.md)
-      * [ワークスペースの編集](maestro/architecture/edit-workspaces.md)
-      * [レコードタイプの削除](maestro/architecture/delete-record-types.md)
-      * [レコードタイプとレコードの接続例](maestro/architecture/example-connect-record-types-and-records.md)
-      * [ワークスペーステンプレートのリスト](maestro/architecture/workspace-templates.md)
-   * Adobe Maestro フィールド{#adobe-maestro-fields}
-      * [フィールド：記事インデックス](maestro/fields/fields-information.md)
-      * [フィールドの概要](maestro/fields/fields-overview.md)
-      * [フィールドの作成](maestro/fields/create-fields.md)
-      * [フィールドの編集](maestro/fields/edit-fields.md)
-      * [フィールドの削除](maestro/fields/delete-fields.md)
-      * [数式フィールドの概要](maestro/fields/formula-fields.md)
-   * Adobe Maestro アクセス{#adobe-maestro-access}
-      * [Adobe Workfront Planning のアクセス情報：記事索引](maestro/access/access-information.md)
-      * [アクセス権の概要](maestro/access/access-overview.md)
-      * [Adobe Workfront Planning 機能での共有権限の概要](maestro/access/sharing-permissions-overview.md)
-      * [Adobe Workfront Planning 使用時のライセンスタイプの概要](maestro/access/license-type-overview.md)
-      * [ワークスペースの共有](maestro/access/share-workspaces.md)
-      * [ビューの共有](maestro/access/share-views.md)
-   * Adobe Maestro レコード{#adobe-maestro-records}
-      * [レコード：記事インデックス](maestro/records/records-information.md)
-      * [レコードの作成](maestro/records/create-records.md)
-      * [レコードの接続](maestro/records/connect-records.md)
-      * [レコードの編集](maestro/records/edit-records.md)
-      * [レコードの削除](maestro/records/delete-records.md)
-      * [レコードの共有](maestro/records/share-records.md)
-      * [レコードのコメントの管理](maestro/records/manage-record-comments.md)
-      * [履歴セクションの概要](maestro/records/history-section-overview.md)
-      * [レコードにサムネールを追加する](maestro/records/add-thumbnails-to-records.md)
-      * [レコードへのカバー画像の追加](maestro/records/add-a-cover-image-to-a-record.md)
-      * [レコードページの管理](maestro/records/manage-the-record-page.md)
-      * [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](maestro/records/manage-records-in-planning-section.md)
-   * Adobe Maestro ビュー{#adobe-maestro-views}
-      * [ビュー：記事インデックス](maestro/views/views-information.md)
-      * [レコードビューの管理](maestro/views/manage-record-views.md)
-      * [テーブルビューの管理](maestro/views/manage-the-table-view.md)
-      * [タイムラインビューの管理](maestro/views/manage-the-timeline-view.md)
-      * [カレンダービューの管理](maestro/views/manage-the-calendar-view.md)
-   * AdobeMaestro の通知 {#adobe-maestro-notifications}
-      * [Adobe Workfront Planning の通知：記事索引](maestro/notifications/notifications-information.md)
-      * [Adobe Workfront Planning 通知設定の管理](maestro/notifications/manage-notification-preferences.md)
-      * [Adobe Workfront Planning のメール通知の管理](maestro/notifications/manage-planning-email-notifications.md)
-      * [Adobe Workfront Planning のアプリ内通知の管理](maestro/notifications/manage-planning-in-app-notifications.md)
+* Adobe Workfrontの計画 {#adobe-workfront-planning}
+   * [Adobe Workfront Planning：記事インデックス](planning/planning-information.md)
+   * Adobe Workfront計画一般情報 {#adobe-workfront-planning-general-information}
+      * [Adobe Workfront計画一般情報：記事索引](planning/general/planning-general-article-index.md)
+      * [Adobe Workfront Planning の概要](planning/general/planning-overview.md)
+      * [Adobe Workfront Planning リリースアクティビティ](planning/general/release-activity.md)
+   * Adobe Workfront Planning のアーキテクチャ {#adobe-workfront-planning-architecture}
+      * [アーキテクチャ：記事インデックス](planning/architecture/architecture-information.md)
+      * [ワークスペースの作成](planning/architecture/create-workspaces.md)
+      * [レコードタイプの概要](planning/architecture/overview-of-record-types.md)
+      * [レコードタイプの作成](planning/architecture/create-record-types.md)
+      * [レコードタイプの接続](planning/architecture/connect-record-types.md)
+      * [レコードタイプの編集](planning/architecture/edit-record-types.md)
+      * [ワークスペースの削除](planning/architecture/delete-workspaces.md)
+      * [ワークスペースの編集](planning/architecture/edit-workspaces.md)
+      * [レコードタイプの削除](planning/architecture/delete-record-types.md)
+      * [レコードタイプとレコードの接続例](planning/architecture/example-connect-record-types-and-records.md)
+      * [ワークスペーステンプレートのリスト](planning/architecture/workspace-templates.md)
+   * Adobe Workfront計画フィールド {#adobe-workfront-planning-fields}
+      * [フィールド：記事インデックス](planning/fields/fields-information.md)
+      * [フィールドの概要](planning/fields/fields-overview.md)
+      * [フィールドの作成](planning/fields/create-fields.md)
+      * [フィールドの編集](planning/fields/edit-fields.md)
+      * [フィールドの削除](planning/fields/delete-fields.md)
+      * [数式フィールドの概要](planning/fields/formula-fields.md)
+   * Adobe Workfront Planning へのアクセス {#adobe-workfront-planning-access}
+      * [Adobe Workfront Planning のアクセス情報：記事索引](planning/access/access-information.md)
+      * [アクセス権の概要](planning/access/access-overview.md)
+      * [Adobe Workfront Planning での共有権限の概要](planning/access/sharing-permissions-overview.md)
+      * [Adobe Workfront Planning 使用時のライセンスタイプの概要](planning/access/license-type-overview.md)
+      * [ワークスペースの共有](planning/access/share-workspaces.md)
+      * [ビューの共有](planning/access/share-views.md)
+   * Adobe Workfront計画レコード {#adobe-workfront-planning-records}
+      * [レコード：記事インデックス](planning/records/records-information.md)
+      * [レコードの作成](planning/records/create-records.md)
+      * [レコードの接続](planning/records/connect-records.md)
+      * [レコードの編集](planning/records/edit-records.md)
+      * [レコードの削除](planning/records/delete-records.md)
+      * [レコードの共有](planning/records/share-records.md)
+      * [レコードのコメントの管理](planning/records/manage-record-comments.md)
+      * [履歴セクションの概要](planning/records/history-section-overview.md)
+      * [レコードにサムネールを追加する](planning/records/add-thumbnails-to-records.md)
+      * [レコードへのカバー画像の追加](planning/records/add-a-cover-image-to-a-record.md)
+      * [レコードページの管理](planning/records/manage-the-record-page.md)
+      * [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](planning/records/manage-records-in-planning-section.md)
+   * Adobe Workfront計画ビュー {#adobe-workfront-planning-views}
+      * [ビュー：記事インデックス](planning/views/views-information.md)
+      * [レコードビューの管理](planning/views/manage-record-views.md)
+      * [テーブルビューの管理](planning/views/manage-the-table-view.md)
+      * [タイムラインビューの管理](planning/views/manage-the-timeline-view.md)
+      * [カレンダービューの管理](planning/views/manage-the-calendar-view.md)
+   * Adobe Workfront Planning の通知 {#adobe-workfront-planning-notifications}
+      * [Adobe Workfront Planning の通知：記事索引](planning/notifications/notifications-information.md)
+      * [Adobe Workfront Planning 通知設定の管理](planning/notifications/manage-notification-preferences.md)
+      * [Adobe Workfront Planning のメール通知の管理](planning/notifications/manage-planning-email-notifications.md)
+      * [Adobe Workfront Planning のアプリ内通知の管理](planning/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Fusion アクセステーブルテンプレート](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
