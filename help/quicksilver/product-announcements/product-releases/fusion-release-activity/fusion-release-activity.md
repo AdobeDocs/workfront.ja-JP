@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: e4a265400b2ce4e6338d09477463a6a6c7cded84
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '703'
 ht-degree: 99%
 
 ---
@@ -24,11 +24,16 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 ## 2024年の Fusion リリース
 
+### 2024年6月
+
+* [Workfront Fusion リリースアクティビティ：2024年6月3日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
+
+
 ### 2024 年 5 月
 
-* [Workfront Fusion リリースアクティビティ：2024年5月20日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
-* [Workfront Fusion リリースアクティビティ：2024年5月13日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
-* [Workfront Fusion リリースアクティビティ：2024年5月6日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
+* [Workfront Fusion リリースアクティビティ：2024年5月20日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
+* [Workfront Fusion リリースアクティビティ：2024年5月13日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
+* [Workfront Fusion リリースアクティビティ：2024年5月6日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
 
 ### 2024年4月
 
@@ -46,7 +51,7 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 ### 2024年1月
 
-* [Workfront Fusion リリースアクティビティ：2024年1月1日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
+* [Workfront Fusion リリースアクティビティ：2024年1月1日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
 
 ## 2023年の Fusion リリース
 
@@ -60,7 +65,7 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 ### 2023年10月
 
-* [Workfront Fusion リリースアクティビティ：2023年10月30日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
+* [Workfront Fusion リリースアクティビティ：2023年10月30日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
 
 ### 2023年9月
 
@@ -150,12 +155,12 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 * [Workfront Fusion リリースアクティビティ：2022年2月28日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-28-22.md)
 * [Workfront Fusion リリースアクティビティ：2022年2月21日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-21-22.md)
-* [Workfront Fusion リリースアクティビティ：2022年2月14日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
-* [Workfront Fusion リリースアクティビティ：2022年2月7日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
+* [Workfront Fusion リリースアクティビティ：2022年2月14日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
+* [Workfront Fusion リリースアクティビティ：2022年2月7日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
 
 ### 2022年1月
 
-* [Workfront Fusion リリースアクティビティ：2022年1月3日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+* [Workfront Fusion リリースアクティビティ：2022年1月3日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
 
 +++
 
@@ -165,61 +170,61 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 ### 2021年11月
 
-* [Workfront Fusion リリースアクティビティ：2021年11月29日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
-* [Workfront Fusion リリースアクティビティ：2021年11月15日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
-* [Workfront Fusion リリースアクティビティ：2021年11月8日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
+* [Workfront Fusion リリースアクティビティ：2021年11月29日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
+* [Workfront Fusion リリースアクティビティ：2021年11月15日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
+* [Workfront Fusion リリースアクティビティ：2021年11月8日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
 
 ### 2021年10月
 
-* [Workfront Fusion リリースアクティビティ：2021年10月4日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-oct-4-21.md)
+* [Workfront Fusion リリースアクティビティ：2021年10月4日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-oct-4-21.md)
 
 ### 2021年9月
 
-* [Workfront Fusion リリースアクティビティ：2021年9月13日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-13-21.md)
+* [Workfront Fusion リリースアクティビティ：2021年9月13日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-13-21.md)
 
 ### 2021年8月
 
-* [Workfront Fusion リリースアクティビティ：2021年8月30日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
-* [Workfront Fusion リリースアクティビティ：2021年8月23日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
-* [Workfront Fusion リリースアクティビティ：2021年8月2日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
+* [Workfront Fusion リリースアクティビティ：2021年8月30日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
+* [Workfront Fusion リリースアクティビティ：2021年8月23日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
+* [Workfront Fusion リリースアクティビティ：2021年8月2日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
 
 ### 2021年7月
 
-* [Workfront Fusion リリースアクティビティ：2021年7月26日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jul-26.md)
+* [Workfront Fusion リリースアクティビティ：2021年7月26日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jul-26.md)
 
 ### 2021年6月
 
-* [Workfront Fusion リリースアクティビティ：2021年6月28日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-28.md)
+* [Workfront Fusion リリースアクティビティ：2021年6月28日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-28.md)
 
-* [Workfront Fusion リリースアクティビティ：2021年6月21日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-21.md)
+* [Workfront Fusion リリースアクティビティ：2021年6月21日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-21.md)
 
 ### 2021年5月
 
-* [Workfront Fusion リリースアクティビティ：2021年5月17日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
-* [Workfront Fusion リリースアクティビティ：2021年5月10日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
-* [Workfront Fusion リリースアクティビティ：2021年5月3日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
+* [Workfront Fusion リリースアクティビティ：2021年5月17日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
+* [Workfront Fusion リリースアクティビティ：2021年5月10日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
+* [Workfront Fusion リリースアクティビティ：2021年5月3日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
 
 ### 2021年4月
 
-* [Workfront Fusion リリースアクティビティ：2021年4月26日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
-* [Workfront Fusion リリースアクティビティ：2021年4月19日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
+* [Workfront Fusion リリースアクティビティ：2021年4月26日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
+* [Workfront Fusion リリースアクティビティ：2021年4月19日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
   <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### 2021年3月
 
-* [Workfront Fusion リリースアクティビティ：2021年3月8日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-mar-8.md)
+* [Workfront Fusion リリースアクティビティ：2021年3月8日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-mar-8.md)
 
 ### 2021年2月
 
-* [Workfront Fusion リリースアクティビティ：2021年2月15日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-15.md)
+* [Workfront Fusion リリースアクティビティ：2021年2月15日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-15.md)
 
 ### 2021年1月
 
-* [Workfront Fusion リリースアクティビティ：2021年2月1日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
-* [Workfront Fusion リリースアクティビティ：2021年1月25日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
-* [Workfront Fusion リリースアクティビティ：2021年1月18日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
-* [Workfront Fusion リリースアクティビティ：2021年1月11日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
-* [Workfront Fusion リリースアクティビティ：2021年1月4日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
+* [Workfront Fusion リリースアクティビティ：2021年2月1日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
+* [Workfront Fusion リリースアクティビティ：2021年1月25日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
+* [Workfront Fusion リリースアクティビティ：2021年1月18日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
+* [Workfront Fusion リリースアクティビティ：2021年1月11日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
+* [Workfront Fusion リリースアクティビティ：2021年1月4日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
 +++
 
@@ -229,21 +234,21 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 ### 2020年12月
 
-* [Workfront Fusion リリースアクティビティ：2020年12月7日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
+* [Workfront Fusion リリースアクティビティ：2020年12月7日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
 
 ### 2020年11月
 
-* [Workfront Fusion リリースアクティビティ：2020年11月30日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
-* [Workfront Fusion リリースアクティビティ：2020年11月16日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
-* [Workfront Fusion リリースアクティビティ：2020年11月2日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
+* [Workfront Fusion リリースアクティビティ：2020年11月30日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
+* [Workfront Fusion リリースアクティビティ：2020年11月16日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
+* [Workfront Fusion リリースアクティビティ：2020年11月2日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
 
 ### 2020年9月
 
-* [Workfront Fusion リリースアクティビティ：2020年9月21日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+* [Workfront Fusion リリースアクティビティ：2020年9月21日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
 
 ### 2020年8月
 
-* [Workfront Fusion リリースアクティビティ：2020年8月24日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
-* [Workfront Fusion リリースアクティビティ：2020年8月17日の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+* [Workfront Fusion リリースアクティビティ：2020年8月24日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
+* [Workfront Fusion リリースアクティビティ：2020年8月17日（PT）の週](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
 
 +++

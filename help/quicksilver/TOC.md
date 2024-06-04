@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '14300'
+source-wordcount: '14314'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 97%
          * [2024 年第 3 四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
          * [2024 年第 3 四半期のリリース期間中のその他の機能強化](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [2024年第 3 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
-      * 2024年第 2 四半期リリース {#release-24-q2}
+      * 2024年第 2 四半期リリース{#release-24-q2}
          * [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024年第 2 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [2024年第 2 四半期のドキュメント管理の機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
@@ -161,17 +161,18 @@ ht-degree: 97%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-         * [Workfront Fusion リリースアクティビティ：2024年5月20日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
-         * [Workfront Fusion リリースアクティビティ：2024年5月13日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
-         * [Workfront Fusion リリースアクティビティ：2024年5月6日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
+         * [Workfront Fusion リリースアクティビティ：2024年6月3日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
+         * [Workfront Fusion リリースアクティビティ：2024年5月20日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
+         * [Workfront Fusion リリースアクティビティ：2024年5月13日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
+         * [Workfront Fusion リリースアクティビティ：2024年5月6日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
          * [Workfront Fusion リリースアクティビティ：2024年4月8日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
          * [Workfront Fusion リリースアクティビティ：2024年3月11日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
          * [Workfront Fusion リリースアクティビティ：2024年2月26日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
          * [Workfront Fusion リリースアクティビティ：2024年2月5日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
-         * [Workfront Fusion リリースアクティビティ：2024年1月1日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
+         * [Workfront Fusion リリースアクティビティ：2024年1月1日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
          * [Workfront Fusion リリースアクティビティ：2023年11月27日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
          * [Workfront Fusion リリースアクティビティ：2023年11月13日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
-         * [Workfront Fusion リリースアクティビティ：2023年10月30日の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
+         * [Workfront Fusion リリースアクティビティ：2023年10月30日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
          * [Workfront Fusion リリースアクティビティ：2023年9月1日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
          * [Workfront Fusion リリースアクティビティ：2023年8月21日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
          * [Workfront Fusion リリースアクティビティ：2023年8月7日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
@@ -201,38 +202,38 @@ ht-degree: 97%
          * [Workfront Fusion リリースアクティビティ：2022年2月28日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-feb-28-22.md)
          * [Workfront Fusion リリースアクティビティ：2022年2月21日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-feb-21-22.md)
          * [Workfront Fusion リリースアクティビティ：2022年2月14日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
-         * [Workfront Fusion リリースアクティビティ：2022年2月7日の週](product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
-         * [Workfront Fusion リリースアクティビティ：2022年1月3日の週](product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+         * [Workfront Fusion リリースアクティビティ：2022年2月7日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
+         * [Workfront Fusion リリースアクティビティ：2022年1月3日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
          * [Workfront Fusion リリースアクティビティ：2021年11月29日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
          * [Workfront Fusion リリースアクティビティ：2021年11月15日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
-         * [Workfront Fusion リリースアクティビティ：2021年11月8日の週](product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
-         * [Workfront Fusion リリースアクティビティ：2021年10月4日の週](product-announcements/product-releases/fusion-release-activity/fusion-oct-4-21.md)
-         * [Workfront Fusion リリースアクティビティ：2021年9月13日の週](product-announcements/product-releases/fusion-release-activity/fusion-sept-13-21.md)
+         * [Workfront Fusion リリースアクティビティ：2021年11月8日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
+         * [Workfront Fusion リリースアクティビティ：2021年10月4日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-oct-4-21.md)
+         * [Workfront Fusion リリースアクティビティ：2021年9月13日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-sept-13-21.md)
          * [Workfront Fusion リリースアクティビティ：2021年8月30日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
          * [Workfront Fusion リリースアクティビティ：2021年8月23日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
-         * [Workfront Fusion リリースアクティビティ：2021年8月2日の週](product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
-         * [Workfront Fusion リリースアクティビティ：2021年7月26日の週](product-announcements/product-releases/fusion-release-activity/fusion-jul-26.md)
-         * [Workfront Fusion リリースアクティビティ：2021年6月28日の週](product-announcements/product-releases/fusion-release-activity/fusion-jun-28.md)
-         * [Workfront Fusion リリースアクティビティ：2021年6月21日の週](product-announcements/product-releases/fusion-release-activity/fusion-jun-21.md)
+         * [Workfront Fusion リリースアクティビティ：2021年8月2日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
+         * [Workfront Fusion リリースアクティビティ：2021年7月26日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-jul-26.md)
+         * [Workfront Fusion リリースアクティビティ：2021年6月28日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-jun-28.md)
+         * [Workfront Fusion リリースアクティビティ：2021年6月21日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-jun-21.md)
          * [Workfront Fusion リリースアクティビティ：2021年5月17日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
          * [Workfront Fusion リリースアクティビティ：2021年5月10日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
-         * [Workfront Fusion リリースアクティビティ：2021年5月3日の週](product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
+         * [Workfront Fusion リリースアクティビティ：2021年5月3日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
          * [Workfront Fusion リリースアクティビティ：2021年4月26日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
          * [Workfront Fusion リリースアクティビティ：2021年4月19日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
-         * [Workfront Fusion リリースアクティビティ：2021年3月8日の週](product-announcements/product-releases/fusion-release-activity/fusion-mar-8.md)
-         * [Workfront Fusion リリースアクティビティ：2021年2月15日の週](product-announcements/product-releases/fusion-release-activity/fusion-feb-15.md)
+         * [Workfront Fusion リリースアクティビティ：2021年3月8日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-mar-8.md)
+         * [Workfront Fusion リリースアクティビティ：2021年2月15日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-feb-15.md)
          * [Workfront Fusion リリースアクティビティ：2021年2月1日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
          * [Workfront Fusion リリースアクティビティ：2021年1月25日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
          * [Workfront Fusion リリースアクティビティ：2021年1月18日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
          * [Workfront Fusion リリースアクティビティ：2021年1月11日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
-         * [Workfront Fusion リリースアクティビティ：2021年1月4日の週](product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
-         * [Workfront Fusion リリースアクティビティ：2020年8月17日の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+         * [Workfront Fusion リリースアクティビティ：2021年1月4日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
+         * [Workfront Fusion リリースアクティビティ：2020年8月17日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
          * [Workfront Fusion リリースアクティビティ：2020年8月24日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
-         * [Workfront Fusion リリースアクティビティ：2020年12月7日の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
-         * [Workfront Fusion リリースアクティビティ：2020年11月2日の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
+         * [Workfront Fusion リリースアクティビティ：2020年12月7日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
+         * [Workfront Fusion リリースアクティビティ：2020年11月2日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
          * [Workfront Fusion リリースアクティビティ：2020年11月16日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
          * [Workfront Fusion リリースアクティビティ：2020年11月30日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
-         * [Workfront Fusion リリースアクティビティ：2020年9月21日の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+         * [Workfront Fusion リリースアクティビティ：2020年9月21日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
       * Adobe Workfront シナリオプランナーのリリースアクティビティ {#scenario-planner-release}
          * [Adobe Workfront シナリオプランナーのリリースアクティビティ](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [21.3 リリースに伴う Adobe Workfront シナリオプランナー](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -425,7 +426,7 @@ ht-degree: 97%
    * [管理と設定：記事インデックス](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
       * [管理の基本を学ぶ：記事インデックス](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-      * [Adobe Workfront 実装の目標の定義の概要](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+      * [Adobe Workfront 実装における目標定義の概要](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [システムで使用可能なライセンスの管理](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [基本の設定](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [ファイアウォールの概要](administration-and-setup/get-started-wf-administration/firewall-overview.md)
@@ -483,7 +484,7 @@ ht-degree: 97%
          * [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [API を使用した環境のプロモーション](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-   * ユーザー管理 {#add-users}
+   * ユーザー管理{#add-users}
       * [ユーザー管理：記事インデックス](administration-and-setup/add-users/add-users.md)
       * ユーザーの作成と管理 {#create-manage-users}
          * [ユーザーの作成と管理：記事インデックス](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
@@ -519,7 +520,7 @@ ht-degree: 97%
          * [オブジェクトやエリアへのアクセス権（ライセンスタイプ別）](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [各オブジェクトタイプの機能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
          * [各オブジェクトタイプへの設定可能なアクセス権](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [組み込みアクセスレベル](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [組み込みのアクセスレベル](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
          * [ユーザーのアクセスレベルとライセンスの一覧表示](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Workfront へのアクセスの設定 {#configure-access}
          * [アクセス権の設定](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
@@ -794,7 +795,7 @@ ht-degree: 97%
       * [ドキュメント統合の無効化](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [SharePoint 統合の設定](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
       * [メタデータマッピングの設定](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-      * [Adobe Admin Console におけるユーザー用の Adobe Workfront Creative Cloud パッケージの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+      * [Adobe Admin Console でのユーザー用の Adobe Workfront Creative Cloud パッケージの作成](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Workfront 統合用の OAuth2 アプリケーションの作成](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [カスタム OAuth2 アプリケーションの表示と管理](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [JumpSeat 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
@@ -845,7 +846,7 @@ ht-degree: 97%
    * [Adobe Workfront ブラウザー要件](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront でサポートされている言語](workfront-basics/supported-languages-in-workfront.md)
    * Adobe Workfront に移動 {#navigate}
-      * [Adobe Workfront の操作：記事インデックス](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * [Adobe Workfront でのナビゲーション：記事インデックス](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront の検索 {#search}
          * [Adobe Workfront の検索](workfront-basics/navigate-workfront/search/search.md)
          * [Adobe Workfront を検索](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -871,7 +872,7 @@ ht-degree: 97%
       * [ページを固定してワークスペースをカスタマイズ](workfront-basics/the-new-workfront-experience/pin-pages.md)
       * [カスタムセクションの作成](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
       * [Adobe Workfront ヘルプへのアクセス](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-      * [[!DNL Adobe Workfront] オブジェクトの概要](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+      * [[!DNL Adobe Workfront] オブジェクト概要](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [ワークライセンスユーザー向けのナビゲーションについて](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [レビューライセンスを持つユーザーのナビゲーションについて](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Workfrontのプロジェクト、タスク、問題の日付の概要](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
@@ -922,7 +923,7 @@ ht-degree: 97%
    * 通知の使用 {#use-notifications}
       * [通知の使用：記事インデックス](workfront-basics/using-notifications/use-notifications.md)
       * [通知の概要](workfront-basics/using-notifications/wf-notifications.md)
-      * [独自のメール通知の変更](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+      * [自身のメール通知の変更](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Adobe Workfront の項目を購読](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
       * [アプリ内通知の概要](workfront-basics/using-notifications/in-app-notifications-overview.md)
       * [アプリ内通知の表示と管理](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
@@ -993,7 +994,7 @@ ht-degree: 97%
          * [Adobe Workfront モバイルアプリでの承認](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Adobe Workfront ビューの使用 {#use-workfront-view}
          * [Adobe Workfront ビューの使用](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
-         * [ Adobe Workfront ビューの開始](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
+         * [Adobe Workfront ビューの開始](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
          * [Adobe Workfront View でプロジェクトを表示](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
          * [Adobe Workfront ビューでのプロジェクトリストのフィルタリング](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
          * [プロジェクトの詳細ビューでのウィジェットの更新](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
@@ -1032,7 +1033,7 @@ ht-degree: 97%
       * [カードの管理](agile/get-started-with-boards/move-board-items.md)
       * [ボードでのサブタスクの管理](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
       * [カードのチェックリスト項目を管理する](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
-      * [カードでのドキュメントの追加](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
+      * [カードへのドキュメントの追加](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [ボードからカードを削除またはアーカイブする](agile/get-started-with-boards/delete-board-items.md)
       * [ボード内でのフィルターと検索](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1164,7 +1165,7 @@ ht-degree: 97%
          * [Experience Manager Assets または Assets Essentials へのドキュメントの送信](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Experience Manager Assets または Assets Essentials のリンク済みアセットのプルーフ](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Experience Manager Assets または Assets Essentials にリンクされたフォルダーの作成](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
-         * [Experience Manager Assets または Assets Essentials からのアセットおよびフォルダーのリンク解除または削除](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
+         * [Experience Manager Assets または Assets Essentials からアセットおよびフォルダーのリンク解除または削除](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion を使用して、Workfront イシューをAdobe Experience Manager ワークフローを含むプロジェクトに変換する](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Adobe Experience Manager 統合のトラブルシューティング](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
@@ -1220,7 +1221,7 @@ ht-degree: 97%
          * [タスクおよびイシューの条件の更新](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
          * [プロジェクトの状況の更新](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
       * プロジェクトの管理 {#manage-projects}
-         * [プロジェクトの管理：記事インデックス](manage-work/projects/manage-projects/manage-projects-overview.md)
+         * [プロジェクト管理：記事インデックス](manage-work/projects/manage-projects/manage-projects-overview.md)
          * [プロジェクトの編集](manage-work/projects/manage-projects/edit-projects.md)
          * [プロジェクトをコピー](manage-work/projects/manage-projects/copy-project.md)
          * [プロジェクトをテンプレートとして保存](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1376,7 +1377,7 @@ ht-degree: 97%
          * [タスク制約の概要：できるだけ遅く](manage-work/tasks/task-constraints/as-late-as-possible.md)
          * [タスクのタスク制約の更新](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
       * タスクの期間と期間のタイプ {#task-duration-and-duration-types}
-         * [タスク期間と期間のタイプ：記事インデックス](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+         * [タスク期間と期間タイプ：記事インデックス](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
          * [タスクの期間と期間のタイプの概要](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
          * [期間タイプの概要：算出した割り当て](manage-work/tasks/taskdurtn/calculated-assignment.md)
          * [期間タイプの概要：作業優先](manage-work/tasks/taskdurtn/effort-driven.md)
@@ -1427,7 +1428,7 @@ ht-degree: 97%
          * [イシューのコピー](manage-work/issues/manage-issues/copy-issues.md)
          * [イシューを移動](manage-work/issues/manage-issues/move-issues.md)
          * [イシューを削除](manage-work/issues/manage-issues/delete-issues.md)
-         * [イシューの割り当て変更の概要](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+         * [イシュー割当て変更の概要](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
          * [リスト内の複数のイシューに対するユーザー割り当ての変更](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
          * [フィードバック待ちから進行中へイシューステータスを自動的に更新する](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
    * ガントチャート {#the-gantt-chart}
@@ -1522,7 +1523,7 @@ ht-degree: 97%
       * [チームとグループに関するヒント、テクニックおよびトラブルシューティング](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [ユーザー名は既に使用されています](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * レポート {#reporting}
-   * [報告書とダッシュボード：記事インデックス](reports-and-dashboards/reports-and-dashboards-overview.md)
+   * [レポートとダッシュボード：記事インデックス](reports-and-dashboards/reports-and-dashboards-overview.md)
    * キャンバスダッシュボード {#canvas-dashboards}
       * [キャンバスダッシュボード](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
       * キャンバスダッシュボードの管理 {#manage-canvas-dashboards}
@@ -1953,7 +1954,7 @@ ht-degree: 97%
       * [タイムシートの詳細：記事インデックス](timesheets/timesheets/timesheets.md)
       * [タイムシートの概要](timesheets/timesheets/timesheets-overview.md)
       * [タイムシートレイアウトの概要](timesheets/timesheets/timesheet-layout.md)
-   * タイムシートの作成と管理 {#create-and-manage-timesheets-in-adobe-workfront}
+   * タイムシートの作成と管理{#create-and-manage-timesheets-in-adobe-workfront}
       * [タイムシートの作成と管理：記事インデックス](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [タイムシートプロファイルの作成、編集および割り当て](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [タイムシートの時間タイプと空き時間の定義](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
@@ -2045,51 +2046,51 @@ ht-degree: 97%
       * [Adobe Workfront Goals の用語のカスタマイズ](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Workfront Goals での目標の共有](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront Goals の通知を有効にする](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Maestro {#adobe-maestro}
+* Adobe Maestro{#adobe-maestro}
    * [Adobe Maestro 情報](maestro/maestro-information.md)
    * [Adobe Workfront Planning の概要](maestro/maestro-overview.md)
    * [Adobe Workfront Planning リリースアクティビティ](maestro/release-activity.md)
-   * Adobe Maestro アーキテクチャ {#adobe-maestro-architecture}
+   * Adobe Maestro アーキテクチャ{#adobe-maestro-architecture}
       * [アーキテクチャ：記事インデックス](maestro/architecture/architecture-information.md)
-      * [ワークスペースを作成](maestro/architecture/create-workspaces.md)
+      * [ワークスペースの作成](maestro/architecture/create-workspaces.md)
       * [レコードタイプの概要](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [レコードタイプの作成](maestro/architecture/create-record-types.md)
       * [分類レコードタイプの作成](maestro/architecture/create-a-taxonomy.md)
-      * [レコードタイプを接続](maestro/architecture/connect-record-types.md)
+      * [レコードタイプの接続](maestro/architecture/connect-record-types.md)
       * [レコードタイプの編集](maestro/architecture/edit-record-types.md)
       * [ワークスペースの削除](maestro/architecture/delete-workspaces.md)
       * [ワークスペースの編集](maestro/architecture/edit-workspaces.md)
       * [レコードタイプの削除](maestro/architecture/delete-record-types.md)
       * [レコードタイプとレコードの接続例](maestro/architecture/example-connect-record-types-and-records.md)
       * [ワークスペーステンプレートのリスト](maestro/architecture/workspace-templates.md)
-   * Adobe Maestro フィールド {#adobe-maestro-fields}
+   * Adobe Maestro フィールド{#adobe-maestro-fields}
       * [フィールド：記事インデックス](maestro/fields/fields-information.md)
       * [フィールドの概要](maestro/fields/fields-overview.md)
       * [フィールドの作成](maestro/fields/create-fields.md)
       * [フィールドの編集](maestro/fields/edit-fields.md)
       * [フィールドの削除](maestro/fields/delete-fields.md)
       * [数式フィールドの概要](maestro/fields/formula-fields.md)
-   * Adobe Maestro アクセス {#adobe-maestro-access}
+   * Adobe Maestro アクセス{#adobe-maestro-access}
       * [Adobe Workfront Planning のアクセス情報：記事索引](maestro/access/access-information.md)
       * [アクセス権の概要](maestro/access/access-overview.md)
       * [Adobe Workfront Planning 機能での共有権限の概要](maestro/access/sharing-permissions-overview.md)
       * [Adobe Workfront Planning 使用時のライセンスタイプの概要](maestro/access/license-type-overview.md)
-      * [ワークスペースを共有](maestro/access/share-workspaces.md)
-      * [ビューを共有](maestro/access/share-views.md)
-   * Adobe Maestro レコード {#adobe-maestro-records}
+      * [ワークスペースの共有](maestro/access/share-workspaces.md)
+      * [ビューの共有](maestro/access/share-views.md)
+   * Adobe Maestro レコード{#adobe-maestro-records}
       * [レコード：記事インデックス](maestro/records/records-information.md)
       * [レコードの作成](maestro/records/create-records.md)
-      * [レコードを接続](maestro/records/connect-records.md)
+      * [レコードの接続](maestro/records/connect-records.md)
       * [レコードの編集](maestro/records/edit-records.md)
       * [レコードの削除](maestro/records/delete-records.md)
       * [レコードの共有](maestro/records/share-records.md)
       * [レコードのコメントの管理](maestro/records/manage-record-comments.md)
       * [履歴セクションの概要](maestro/records/history-section-overview.md)
-      * [レコードにサムネールを追加](maestro/records/add-thumbnails-to-records.md)
+      * [レコードにサムネールを追加する](maestro/records/add-thumbnails-to-records.md)
       * [レコードへのカバー画像の追加](maestro/records/add-a-cover-image-to-a-record.md)
       * [レコードページの管理](maestro/records/manage-the-record-page.md)
       * [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](maestro/records/manage-records-in-planning-section.md)
-   * Adobe Maestro ビュー {#adobe-maestro-views}
+   * Adobe Maestro ビュー{#adobe-maestro-views}
       * [ビュー：記事インデックス](maestro/views/views-information.md)
       * [レコードビューの管理](maestro/views/manage-record-views.md)
       * [テーブルビューの管理](maestro/views/manage-the-table-view.md)
@@ -2103,9 +2104,10 @@ ht-degree: 97%
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Fusion アクセステーブルテンプレート](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
-   *  Adobe Workfront Fusion の基本を学ぶ {#get-started-with-workfront-fusion}
+   * Adobe Workfront Fusion の基本を学ぶ {#get-started-with-workfront-fusion}
       * [Adobe Workfront Fusion の基本を学ぶ](workfront-fusion/get-started/get-started.md)
       * [Adobe Workfront Fusion の概要](workfront-fusion/get-started/workfront-fusion-overview.md)
+      * [Workfront Fusion の新しいエクスペリエンスへの移動](workfront-fusion/get-started/new-fusion-ui.md)
       * [Adobe Workfront Fusion の基本用語](workfront-fusion/get-started/basic-terms.md)
       * 練習シナリオの作成 {#practice-scenarios-in-workfront-fusion}
          * [練習シナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
@@ -2120,7 +2122,7 @@ ht-degree: 97%
       * [Adobe Workfront Fusion アクセス用の IP アドレス](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion ライセンス](workfront-fusion/get-started/license-automation-vs-integration.md)
       * [ [!DNL Adobe Workfront Fusion] での操作](workfront-fusion/get-started/operations-in-workfront-fusion.md)
-      * [Adobe Workfront Fusion のビデオの概要](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
+      * [Adobe Workfront Fusion のビデオ概要](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
    * Adobe Workfront Fusion の基本 {#workfront-fusion-basics}
       * [Adobe Workfront Fusion の基本](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
       * [Adobe Workfront Fusion でプロファイル設定を変更](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)

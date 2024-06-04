@@ -7,10 +7,10 @@ description: Adobe Experience Cloud 経由で Workfront Fusion にアクセス�
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 90%
+source-wordcount: '572'
+ht-degree: 96%
 
 ---
 
@@ -41,9 +41,7 @@ ht-degree: 90%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
-   <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> 
+   <p>任意</p> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
@@ -86,7 +84,7 @@ Workfront Fusion の組織のインスタンスは、[!DNL Adobe Business Platfo
 
 [!DNL Adobe] ナビゲーションバーの左側にある[!UICONTROL メインメニュー]アイコン ![](assets/main-menu-icon-left-nav.png) を使用して、[!UICONTROL 組織]メニューと[!UICONTROL チーム]メニューを開きます。[!DNL Workfront Fusion] 管理者の場合、[!UICONTROL 管理]メニューもここに表示されます。
 
-チームを切り替えるには、ページ上部のチーム名をクリックし、チームを選択します。これは、シナリオビルダーや[!UICONTROL 接続]ページなど、チームに固有のページでのみ表示されます。
+チームを切り替えるには、ページ上部のチーム名をクリックし、チームを選択します。チームセレクターは、シナリオビルダーや [!UICONTROL 接続] ページ。
 
 組織を切り替えるには、画面の右上にある組織名をクリックし、組織を選択します。
 
@@ -106,14 +104,14 @@ Workfront Fusion の組織のインスタンスは、[!DNL Adobe Business Platfo
 
 ## 通知にアクセスする
 
-通知とお知らせは、統合シェルの [ 通知 ] 領域で確認できます。
+通知とお知らせは、Unified Shell の通知エリアにあります。
 
 通知を表示するには、画面の右上隅近くにある通知アイコン ![通知アイコン](assets/notifications-icon.png) をクリックします。通知アイコンの赤い点は、未読の通知またはお知らせがあることを示します。
 
-Adobe Experience Cloudで通知を設定する手順については、 [通知設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) (Adobeドキュメント )
+Adobe Experience Cloud で通知を設定する手順については、アドビドキュメントの[通知設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=ja#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.)を参照してください。
 
-を設定する際には、次の点に注意してください。
+設定する際には、次の点に注意してください。
 
-* **アラート** 動作しないシナリオを参照してください。
-* **コンテンツの更新** シナリオの実行時のエラーと警告を参照してください。
+* **アラート**&#x200B;は、行き詰ったシナリオを指します。
+* **コンテンツに関する更新**&#x200B;は、シナリオ実行時のエラーと警告を指します。
 

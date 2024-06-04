@@ -2,30 +2,30 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Adobe Workfront Fusion Devtool でのシナリオのデバッグ
-description: Adobe Workfront Fusion Devtool を使用すると、シナリオを理解し、トラブルシューティングできます。 開発ツールは、Chrome Developer Tools にパネルを追加します。 このデバッガーパネルを使用すると、シナリオのすべての手動実行を確認し、実行されたすべての操作を確認し、実行されたすべての API 呼び出しの詳細を表示できます。エラーが発生したモジュール、操作または単一の応答を確認し、その知識を使用してシナリオを改良できます。
+title: Adobe Workfront Fusion 開発ツールでシナリオをデバッグ
+description: Adobe Workfront Fusion 開発ツールを使用すると、シナリオを理解し、トラブルシューティングできます。開発ツールは、Chrome デベロッパーツールにさらにパネルを追加します。このデバッガーパネルを使用すると、シナリオのすべての手動実行を確認し、実行されたすべての操作を確認し、実行されたすべての API 呼び出しの詳細を表示できます。エラーが発生したモジュール、操作または単一の応答を確認し、その知識を使用してシナリオを改良できます。
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 76%
+source-wordcount: '1858'
+ht-degree: 97%
 
 ---
 
-# でのシナリオのデバッグ [!DNL Adobe Workfront Fusion] 開発者ツール
+# [!DNL Adobe Workfront Fusion] 開発ツールでシナリオをデバッグ
 
-The [!DNL Adobe Workfront Fusion] 開発者ツールを使用すると、シナリオを理解し、トラブルシューティングできます。 開発ツールは、 [!DNL Chrome Developer Tools]. このデバッガーパネルを使用すると、シナリオのすべての手動実行を確認し、実行されたすべての操作を確認し、実行されたすべての API 呼び出しの詳細を表示できます。エラーが発生したモジュール、操作または単一の応答を確認し、その知識を使用してシナリオを改良できます。
+[!DNL Adobe Workfront Fusion] 開発ツールを使用すると、シナリオを理解し、トラブルシューティングできます。開発ツールは、[!DNL Chrome Developer Tools] にさらにパネルを追加します。このデバッガーパネルを使用すると、シナリオのすべての手動実行を確認し、実行されたすべての操作を確認し、実行されたすべての API 呼び出しの詳細を表示できます。エラーが発生したモジュール、操作または単一の応答を確認し、その知識を使用してシナリオを改良できます。
 
 >[!NOTE]
 >
->デバッガーパネルでのログ記録は、機密のシナリオ、自動実行、正常な操作に対して制限されるか、使用できなくなります。
+>デバッガーパネルへのログインは、機密シナリオ、自動実行、正常な操作に対して制限されるか、利用できなくなります。
 
-Fusion Devtool のビデオの紹介と説明については、
+Fusion 開発ツールの概要ビデオとチュートリアルについては、
 
-* [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [開発ツールのチュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [Fusion 開発ツール](https://video.tv.adobe.com/v/3427031/){target=_blank}
+* [開発ツールのチュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=ja)
 
 ## アクセス要件
 
@@ -66,45 +66,49 @@ Fusion Devtool のビデオの紹介と説明については、
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## Workfront Fusion Devtool へのアクセス
+## Workfront Fusion 開発ツールへのアクセス
 
-Devtool へのアクセスは、Fusion を [!DNL Adobe Unified Experience].
+開発ツールへのアクセスは、[!DNL Adobe Unified Experience] で Fusion を使用しているかどうかにより異なります。
 
-* [の開発ツールにアクセスします。 [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
-* [クラシックの開発ツールにアクセスする [!DNL Fusion] エクスペリエンス](#access-the-devtool-in-the-classic-fusion-experience)
+* [ [!DNL Adobe Unified Experience] で開発ツールにアクセス](#access-the-devtool-in-the-adobe-unified-experience)
+* [クラシック  [!DNL Fusion]  エクスペリエンスで開発ツールにアクセス](#access-the-devtool-in-the-classic-fusion-experience)
 
-### の開発ツールにアクセスします。 [!DNL Adobe Unified Experience]
+### で開発ツールにアクセスします [!DNL Adobe Unified Experience] または新しい Fusion エクスペリエンス
 
-統合シェルAdobeで Fusion を使用する場合は、シナリオエディタから開発ツールにアクセスできます。
+Adobe統合シェルで Fusion を使用している場合、または新しい Fusion エクスペリエンスに更新した場合は、シナリオエディターから開発ツールにアクセスできます。
+
+1. 「」をクリックします **ヘルパーツール** ![ヘルパーツール](assets/debugger-icon.png) アイコンが画面の下部付近に表示されます。
+
+または：
 
 1. デバッグするシナリオのシナリオエディターに移動します。
 
-   シナリオエディタを見つけるには、 [シナリオエディター](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+   シナリオエディターを組み込むには、[シナリオエディター](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md)を参照してください。
 
-1. ページの空の領域（モジュール上ではなく）を右クリックします。
-1. 選択 **開発者ツールを開く**.
+1. ページの何もないエリア（モジュール上以外）を右クリックします。
+1. 「**開発者ツールを開く**」を選択します。
 
-### クラシックの開発ツールにアクセスする [!DNL Fusion] エクスペリエンス
+### クラシック [!DNL Fusion] エクスペリエンスで開発ツールにアクセス
 
-クラシックの開発ツールを使用するには [!DNL Fusion] エクスペリエンスの場合は、 [!DNL Chrome] 拡張子。 その後、この拡張機能は、 [!DNL Chrome] 開発者ツール。
+クラシック [!DNL Fusion] エクスペリエンスで開発ツールを使用するには、[!DNL Chrome] 拡張機能をインストールする必要があります。そうすると、[!DNL Chrome] 開発者ツールからこの拡張機能を使用できます。
 
-* [インストール [!DNL Chrome] Devtool 拡張機能](#install-the-chrome-devtool-extension)
-* [次を見つけます。 [!DNL Workfront Fusion] 開発者ツール](#locate-the-workfront-fusion-devtool)
+* [ [!DNL Chrome]  デベロッパーツール拡張機能をインストール](#install-the-chrome-devtool-extension)
+* [ [!DNL Workfront Fusion]  開発ツールを組み込む](#locate-the-workfront-fusion-devtool)
 
-#### をインストールします。 [!DNL Chrome] Devtool 拡張機能
+#### [!DNL Chrome] デベロッパーツール拡張機能をインストール
 
-次の項目を追加できます。 [!DNL Workfront Fusion] 開発ツール [!DNL Chrome] から [!UICONTROL [!DNL Chrome] Web ストア].
+[!DNL Workfront Fusion] 開発ツールは [!UICONTROL [!DNL Chrome] web ストア]を介して [!DNL Chrome] に追加できます。
 
-1. クリック [このリンク](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) に行く [!DNL Workfront Fusion] の開発ツール [!UICONTROL [!DNL Chrome] Web ストア].
+1. [こちらのリンク](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn)をクリックして、[!UICONTROL [!DNL Chrome] web ストア]の [!DNL Workfront Fusion] 開発ツールに移動します。
 1. 「**[!UICONTROL [!DNL Chrome]]** に追加」をクリックします。
 1. 開いたウィンドウで、権限を確認します。権限に同意する場合は、「**[!UICONTROL 拡張機能を追加]**」をクリックします。
 
-The [!DNL Workfront Fusion] Devtool 拡張機能が [!DNL Chrome] 拡張機能。
+[!DNL Workfront Fusion] 開発ツール拡張機能が [!DNL Chrome] 拡張機能に追加されました。
 
 
-#### 次を見つけます。 [!DNL Workfront Fusion] 開発者ツール
+#### [!DNL Workfront Fusion] 開発ツールを見つけます。
 
-次の手順で [!DNL Workfront Fusion] 開発者ツール、 [!DNL Workfront Fusion] Devtool 拡張機能を [!DNL Chrome] ブラウザ、 [Chrome Devtool 拡張機能のインストール](#install-the-chrome-Devtool-extension).
+[!DNL Workfront Fusion] 開発ツールを使用するには、[Chrome 開発ツール拡張機能をインストールする](#install-the-chrome-Devtool-extension)の説明に従って、[!DNL Workfront Fusion] 開発ツール拡張機能を [!DNL Chrome] ブラウザーに追加する必要があります。
 
 1. [!DNL Workfront Fusion] シナリオを開きます。
 1. [!DNL Chrome Developer Tools] を開く：
@@ -130,9 +134,9 @@ The [!DNL Workfront Fusion] Devtool 拡張機能が [!DNL Chrome] 拡張機能�
 
 1. [!DNL Chrome Dev Tools] で「**[!DNL Workfront Fusion]**」タブをクリックします。
 
-## 以下を使用します。 [!DNL Workfront Fusion] 開発者ツール
+## [!DNL Workfront Fusion] 開発ツールの使用
 
-Workfront Fusion Devtool は、3 つの主なセクションに分かれています。 これらは、Devtool ウィンドウの左側のパネルにあります。
+Workfront Fusion 開発ツールは、3 つの主なセクションに分かれています。これらは、開発ツールウィンドウの左パネルにあります。
 
 * [ライブストリーム](#live-stream)
 * [シナリオデバッガー](#scenario-debugger)
@@ -163,26 +167,26 @@ Workfront Fusion Devtool は、3 つの主なセクションに分かれてい�
         <li> <p>リクエスト本文</p> </li> 
         <li> <p>応答ヘッダー</p> </li> 
         <li> <p>応答本文</p> </li> 
-       </ul> <p>この情報を表示するには、 [!DNL Workfront Fusion] 開発者ツール。</p> </td> 
+       </ul> <p>この情報を表示するには、[!DNL Workfront Fusion] 開発ツールの右パネルにある適切なタブをクリックします。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>リクエストと応答を検索</p> </td> 
-      <td> <p>検索語句を、 [!DNL Workfront Fusion] 検索語を含むリクエストのみを表示する開発ツール。</p> </td> 
+      <td> <p>[!DNL Workfront Fusion] 開発ツールの左パネルにある検索フィールドに検索語を入力すると、その検索語を含むリクエストのみが表示されます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>リクエストのリストを削除 </p> </td> 
-      <td> <p>開発者ツールの左パネルの右上隅にあるごみ箱アイコンをクリックして、 [!DNL Workfront Fusion] 開発者ツール。 </p> </td> 
+      <td> <p>開発ツールの左パネルの右上隅にあるごみ箱アイコンをクリックして、[!DNL Workfront Fusion] 開発ツールで記録されたリクエストのリストをクリアします。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>コンソールログを有効化</p> </td> 
-      <td> <p>コンピューターのアイコンをクリックします。 <img src="assets/console-computer-icon.png"> は、開発者ツールの左パネルの右上隅にあります。</p> <p>コンピューターアイコンが緑の場合、コンソールでのログは有効になっています。</p> </td> 
+      <td> <p>開発ツールの左パネルの右上隅にあるコンピューターアイコン <img src="assets/console-computer-icon.png"> をクリックします。</p> <p>コンピューターアイコンが緑の場合、コンソールでのログは有効になっています。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Raw JSON 形式または cURL でリクエストを取得</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>Raw JSON</strong> </p> <p>クリック <strong>[!UICONTROL RAW をコピー ]</strong> をクリックします。</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>クリック <strong>[!UICONTROL cURL をコピー ]</strong> をクリックします。</p> </li> 
+        <li> <p><strong>Raw JSON</strong> </p> <p>開発ツールの右パネルの右上隅にある <strong>[!UICONTROL Copy RAW]</strong> をクリックします。</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>開発ツールの右パネルの右上隅にある <strong>[!UICONTROL Copy cURL]</strong> をクリックします。</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -193,13 +197,13 @@ Workfront Fusion Devtool は、3 つの主なセクションに分かれてい�
 シナリオデバッガーは、より複雑なシナリオで役に立ちます。シナリオ実行の履歴が表示され、名前または ID でモジュールを検索できます。
 
 1. **[!UICONTROL シナリオデバッガー]**&#x200B;アイコン ![](assets/scenario-debugger-icon.png) をクリックして、シナリオデバッガーを開きます。
-1. （オプション）検索語句（名前またはモジュール ID）を、 [!DNL Workfront Fusion] の開発ツール [!UICONTROL シナリオデバッガー] 」セクションに入力します。
+1. （オプション）「[!UICONTROL シナリオデバッガー]」セクションで [!DNL Workfront Fusion] 開発ツールの左パネルにある検索フィールドに検索語（名前またはモジュール ID）を入力します。
 1. モジュールの名前をダブルクリックして、そのモジュールの設定をシナリオエディターで開きます。
 1. 目的の操作をクリックして、リクエストの詳細を表示します。
 
 ### ツール
 
-The [!DNL Workfront Fusion] 開発ツールには、シナリオの設定を容易にするツールが備わっています。
+[!DNL Workfront Fusion] 開発ツールには、シナリオを設定しやすくするツールが備わっています。
 
 1. **[!UICONTROL ツール]**&#x200B;アイコン ![](assets/console-tools-icon.png) をクリックして、ツールを開きます。
 1. 使用するツールを選択します。
