@@ -5,9 +5,10 @@ title: Adobe Experience Manager 統合のトラブルシューティング
 description: 「問題：アセットが Adobe Experience Manager に保存されない」
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a73ebfe8c735eb9e103b01a201a8f71d6ab7bda2
+exl-id: f7e31e20-01e3-462d-9020-005e155f0259
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: ht
-source-wordcount: '241'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
@@ -28,5 +29,3 @@ Workfront の IP アドレスを Adobe Cloud Manager の許可リストに追加
 
 * Adobe Cloud Manager に IP アドレスを追加する手順については、Adobe Experience Manager ドキュメントの [IP 許可リストの概要](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction.html?lang=ja)を参照してください。
 * 許可リストに追加する Workfront の IP アドレスのリストについては、[ファイアウォールを設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
-
-
