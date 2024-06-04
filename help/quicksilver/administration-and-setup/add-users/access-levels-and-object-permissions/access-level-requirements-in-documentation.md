@@ -1,100 +1,100 @@
 ---
-title: Workfrontドキュメントのアクセス要件
+title: Workfront ドキュメントのアクセス要件
 content-type: reference
 product-area: system-administration
-keywords: アクセス，レベル，システム，管理者，プランナー，ワーカー，レビュー担当者，要求者，外部，ユーザー
+keywords: アクセス, レベル, システム, 管理者, 計画担当者, 作業者, レビュアー, 要求者, 外部, ユーザー
 navigation-topic: access-levels
-description: Workfrontドキュメントのハウツー記事には、その手順に必要なアクセスと権限の説明を記載した表が含まれています。 この記事では、アクセス要件の表の詳細を説明し、詳細情報のリンクを含んでいます。
+description: Workfront ドキュメントの操作手順記事には、その手順に必要なアクセス権と権限を説明した表が含まれています。この記事では、アクセス要件の表を詳しく説明するほか、詳細情報のリンクも示してあります。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '924'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Workfrontドキュメントのアクセス要件
+# Workfront ドキュメントのアクセス要件
 
-Workfrontドキュメントのハウツー記事には、その手順に必要なアクセス要件と権限要件を説明した表が含まれています。 このアクセス要件の表では、Workfrontで特定のアクションを実行できるかどうか、または実行できない理由を把握できます。 この記事では、アクセス要件テーブルの各要素について説明し、トラブルシューティングのヒントと、より詳細な情報へのリンクを示します。
+Workfront ドキュメントの操作手順記事には、その手順に必要なアクセス権と権限を説明した表が含まれています。アクセス要件の表では、Workfront で特定のアクションを実行できるかどうかや、実行できない場合の理由を理解できます。この記事では、アクセス要件表の各要素について説明し、トラブルシューティングのヒントや、より詳細な情報へのリンクを示します。
 
-特定の記事の「アクセス要件」テーブルに行がない場合、そのアクションに対してそのタイプの要件はありません。
+その記事のアクセス要件表に行がない場合、そのアクションに対するそのタイプの要件はありません。
 
-一部の行には、「新規」と「現在」というラベルの付いた情報が含まれています。 これは、Workfrontが新しい価格とパッケージのモデルに移行し、一部の組織が新しいモデルで運用され、他の組織が現在のモデルを引き続き使用しているためです。 組織で使用しているモデルを確認するには、Workfront管理者に問い合わせてください。 詳細および情報へのリンクは、 [アクセス要件テーブル](#the-access-requirements-table) 」の節を参照してください。
+一部の行には、「新規」と「現在」というラベルの付いた情報が含まれています。これは、Workfront が新しい価格設定のパッケージモデルに移行中であり、新規モデルの下で運用している組織もあれば、現行モデルを引き続き使用している組織もあるからです。自分の組織で使用しているモデルを確認するには、Workfront 管理者にお問い合わせください。詳細と情報へのリンクについては、この記事の[アクセス要件表](#the-access-requirements-table)の節を参照してください。
 
 >[!NOTE]
 >
->このテーブルのフィールドのいずれかが自分にどのように適用されるかについて質問がある場合は、Workfront管理者にお問い合わせください。
+>この表のフィールドのどれに該当するかについてご質問がある場合は、Workfront 管理者にお問い合わせください。
 
-## アクセス要件テーブル
+## アクセス要件表
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontプラン</td> 
-   <td> Adobe Workfrontプランとは、組織が購入した一連の機能を指します。 Workfrontのほとんどの機能は、いくつかの例外を除き、すべてのプランで使用できます。主に戦略的な計画およびエンタープライズ管理に関連しています。 
-   <ul><li>組織が新しいパッケージモデルか現在のパッケージモデルかなど、Adobe Workfrontで組織が使用するプランを確認するには、Workfront管理者に問い合わせてください。</li>
-   <li>Workfront管理者が組織のWorkfrontプランを見つける方法については、 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターとWorkfrontプランを表示</a>.</li></ul> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> Adobe Workfront プランとは、組織が購入した機能のセットを指します。Workfront のほとんどの機能は、いくつかの例外を除き、すべてのプランで使用できます。例外は、主に戦略的計画立案やエンタープライズ管理に関連しています。 
+   <ul><li>新規パッケージモデルと既存パッケージモデルのどちらを使用しているかなど、ご自分の組織が使用している Adobe Workfront プランを確認するには、Workfront 管理者にお問い合わせください。</li>
+   <li>Workfront 管理者が組織の Workfront プランを確認する方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターと Workfront プランの表示</a>を参照してください。</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
-   <td> Adobe Workfrontライセンスとは、割り当てられているライセンスに含まれるWorkfront機能のセットを指します。 例えば、あるユーザーが、作業項目の完了とログ記録時間を含むライセンスを持っている一方、別のユーザーがアセットの承認または要求の送信のみを許可するライセンスを持っているとします。 <p> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td> Adobe Workfront ライセンスとは、割り当てられたライセンスに含まれている Workfront 機能のセットを指します。例えば、作業アイテムを完了とマークする機能と時間を記録する機能を含むライセンスを持っているユーザーもいれば、アセットの承認またはリクエストの送信のみが可能なライセンスを持っているユーザーもいます。 <p> 
    <ul>
-   <li>割り当てられているライセンスを確認するには、Workfront管理者に問い合わせてください。</li>
-   <li>Adobe Workfrontは、新しい価格とパッケージのモデルに移行しつつあります。 ライセンスの詳細については、以下を参照してください。
+   <li>割り当てられているライセンスを確認するには、Workfront 管理者にお問い合わせください。</li>
+   <li>Adobe Workfront は、新しい価格設定のパッケージモデルに移行しつつあります。ライセンスについては、以下を参照してください。
    <ul>
-   <li>新規： <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新しいライセンスの概要</a></li>
-   <li>現在： <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">ライセンスの概要</a></li></ul></li>
-   <li>正しいアクセスレベルを持っていて、まだアクセス権がない場合は、Workfront管理者にアクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.
+   <li>新規：<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">新しいライセンスの概要</a></li>
+   <li>現在：<a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">ライセンスの概要</a></li></ul></li>
+   <li>正しいアクセスレベルがあるにも関わらずアクセスできない場合は、アクセスレベルにその他の制限が設定されていないか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。
    </ul>
       </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
-   <td>Workfrontでは、Workfrontに加えて、いくつかの製品を購入できます。
-   <p>これらの追加製品内で実行される手順を説明する記事は、必要な製品をここにリストします。</p>
+   <td>Workfront では、Workfront に追加していくつかの製品を購入できます。
+   <p>それらの追加製品内で実行される手順を説明した記事には、必要な製品がリストされています。</p>
    <ul>
-   <li>Adobe Experience Manager AssetsまたはAssets Essentials </li>
+   <li>Adobe Experience Manager Assets または Assets Essentials </li>
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
-   <li>Workfront Scenario Planner</li>
+   <li>Workfront のシナリオプランナー</li>
    </ul>
-   <p>これらの追加製品の 1 つを購入したかどうかを確認するには、Workfront管理者に問い合わせてください。</p></td> 
+   <p>これらの追加製品のいずれかを所属組織が購入済みかどうかを確認するには、Workfront 管理者にお問い合わせください。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> アクセスレベルは、Workfrontで実行できるアクションに対する一連の権限で、Workfront管理者が設定します。 <p>WorkfrontにはWorkfrontライセンスに対応する組み込みのアクセスレベルがありますが、Workfront管理者は、組織で必要な権限セットをより正確に反映するために、より多くのアクセスレベルを作成できます。</p>
+   <td> アクセスレベルは、Workfront で実行できるアクションに対する一連の権限であり、Workfront 管理者により設定されます。 <p>Workfront には Workfront ライセンスに対応する組み込みのアクセスレベルがありますが、Workfront 管理者は、組織で必要な権限セットをより正確に反映するために、さらにアクセスレベルを作成できます。</p>
    <ul>
-    <li>Adobe Workfrontは、新しい価格とパッケージのモデルに移行しつつあります。 各モデルのアクセス・レベルの詳細は、次を参照してください。
+    <li>Adobe Workfront は、新しい価格設定のパッケージモデルに移行しつつあります。各モデルのアクセスレベルについては、以下を参照してください。
    <ul>
-   <li>新規： <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新しいアクセスレベルの概要</a></li>
-   <li>現在： <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">アクセスレベルの概要</a></li></ul></li>
-    <li>アクセスレベルの詳細を確認するには、Workfront管理者に問い合わせてください</li>
-    <li>Workfront管理者の場合は、 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfrontへのアクセスの設定</a> を参照して、アクセスレベルで特定のオブジェクトに対するアクセス権を付与する方法の詳細を確認してください。</li>  
-   <li>正しいアクセスレベルを持っていて、まだアクセス権がない場合は、Workfront管理者にアクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront管理者がアクセスレベルを変更する方法について詳しくは、 <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>.</li>
+   <li>新規：<a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">新しいアクセスレベルの概要</a></li>
+   <li>現在：<a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">アクセスレベルの概要</a></li></ul></li>
+    <li>ご利用のアクセスレベルの詳細を確認するには、Workfront 管理者にお問い合わせください</li>
+    <li>Workfront 管理者の場合、アクセスレベルで特定のオブジェクトへのアクセス権がどのように付与されるかについて詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Adobe Workfront へのアクセス権の設定</a>を参照してください。</li>  
+   <li>正しいアクセスレベルがあるにも関わらずアクセスできない場合は、アクセスレベルにその他の制限が設定されていないか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</li>
     </td>
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクトの権限</td> 
-   <td><p>オブジェクト権限とは、個々のWorkfrontオブジェクトの作成時または共有時にそのオブジェクトに対して持つアクセス権を指します。 例えば、アクセスレベルでプロジェクトを表示できる場合でも、プロジェクトを表示するには、特定のプロジェクトに対する表示アクセス権が必要です。 「アクセス要件」テーブルのこのセクションでは、この記事でアクションを実行するために必要な特定のオブジェクト権限について説明します。</p>
-   <p>オブジェクトへの追加アクセス権のリクエストについては、 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセスのリクエスト</a>.</p><p>オブジェクトの共有について詳しくは、 <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">オブジェクトの共有</a>.</p></td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td><p>オブジェクト権限とは、個別の Workfront オブジェクトの作成時または共有時に、そのオブジェクトに対してユーザーが持っているアクセス権を指します。例えば、アクセスレベルでプロジェクトを表示できる場合でも、プロジェクトを表示するには、特定のプロジェクトに対する表示アクセス権が必要です。「アクセス要件」テーブルのこのセクションでは、この記事でアクションを実行するために必要な特定のオブジェクト権限について説明します。</p>
+   <p>プロジェクトへの追加アクセス権のリクエストについて詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトの利用申請</a>を参照してください。</p><p>オブジェクトの共有について詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">オブジェクトの共有</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">レイアウトテンプレート</td> 
-   <td><p>レイアウトテンプレートは、メインメニューに表示される内容を制御し、Workfront管理者が設定します。 この行には、アクションを実行するためにメインメニューに含める必要があるWorkfrontの特定の領域が記載されます。</p><p>一般に、メインメニューの領域をクリックするように記事が指示し、その領域がメインメニューに表示されない場合は、Workfront管理者に問い合わせて、その領域を使用可能にできるかどうかを確認してください。</p><p>
-   Workfront管理者がメインメニューを設定する方法について詳しくは、 <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">レイアウトテンプレートを使用したメインメニューのカスタマイズ</a>.</p>
+   <td><p>レイアウトテンプレートは、メインメニューに表示される内容を制御し、Workfront 管理者が設定します。この行には、アクションを実行するためにメインメニューに含める必要がある Workfront の特定のエリアが記載されます。</p><p>一般的に、メインメニューのエリアをクリックするように記事内に指示があります。そのエリアがメインメニューに表示されない場合は、Workfront 管理者に問い合わせて、そのエリアを使用できるかどうかを確認してください。</p><p>
+   Workfront 管理者がメインメニューを設定する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">レイアウトテンプレートを使用したメインメニューのカスタマイズ</a>を参照してください。</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion ライセンス</td> 
-   <td>Adobe Workfront Fusion には、Workfrontとは別のライセンスモデルがあります。 
-   <ul><li>現在：現在のライセンスモデルは、実行された操作の数に基づいており、組織が実行できる操作に制限はありません。 </li>
-   <li>レガシー：従来のライセンスは、シナリオがサードパーティのアプリケーションに接続できるかどうか、またはシナリオがWorkfront自動化にのみ使用されるかどうかに基づきます。 </li>
+   <td>Adobe Workfront Fusion には、Workfront とは別のライセンスモデルがあります。 
+   <ul><li>現在：現在のライセンスモデルは、実行された操作の数に基づいており、組織が実行できるアクションに制限はありません。 </li>
+   <li>レガシ：従来のライセンスは、シナリオがサードパーティのアプリケーションに接続できるかどうか、またはシナリオが Workfront 自動処理にのみ使用されるかどうかに基づきます。 </li>
    </ul>
-   Fusion ライセンスについて詳しくは、 <a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Workfront Fusion ライセンス</a>.
+   Fusion ライセンスについて詳しくは、<a href="/help/quicksilver/workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
    </td> 
   </tr> 
  </tbody> 
