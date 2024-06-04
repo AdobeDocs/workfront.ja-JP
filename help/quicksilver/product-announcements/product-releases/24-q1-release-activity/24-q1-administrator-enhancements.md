@@ -1,26 +1,26 @@
 ---
-title: 2024 年第 1 四半期管理者の機能強化
-description: 2024 年第 1 四半期管理者の機能強化
+title: 2024年第 1 四半期の管理者の機能強化
+description: 2024年第 1 四半期の管理者の機能強化
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 2024 年第 1 四半期管理者の機能強化
+# 2024年第 1 四半期の管理者の機能強化
 
-このページでは、2024 年第 1 四半期のリリースでプレビュー環境に対しておこなわれた管理者向けの機能強化について説明します。 これらの機能強化は、2024 年第 1 四半期リリースの実稼動環境で利用できるようになります。
+このページでは、2024年第 1 四半期にプレビュー環境にリリースされた管理者の機能強化について説明します。この機能強化は、2024年第 1 四半期のリリースにおいて実稼動環境で利用できるようになります。
 
-2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+2024年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2024年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)を参照してください。
 
-## 配達確認/ドキュメントの決定を過去 12 か月間使用可能に
+## プルーフまたはドキュメントの決定を過去 12 か月間表示可能に
 
-新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 ヶ月の決定数が表示されるようになりました。
+新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 か月の決定件数が表示されるようになりました。
 
-以前は、今月の決定のみが表示されていました。
+以前は、当月の決定のみが表示されていました。
 
-詳しくは、 [すべてのユーザーに対する配達確認およびドキュメントの決定数を表示します](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+詳しくは、[すべてのユーザーに対するプルーフおよびドキュメントの決定の数を表示](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)を参照してください。
