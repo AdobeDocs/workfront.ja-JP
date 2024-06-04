@@ -1,53 +1,53 @@
 ---
-title: 2024 年第 1 四半期のドキュメント管理の強化
-description: 2024 年第 1 四半期のドキュメント管理の強化
+title: 2024年第 1 四半期のドキュメント管理の機能強化
+description: 2024年第 1 四半期のドキュメント管理の機能強化
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 2024 年第 1 四半期のドキュメント管理の強化
+# 2024年第 1 四半期のドキュメント管理の機能強化
 
-このページでは、2024 年第 1 四半期のリリースでプレビュー環境に対しておこなわれたドキュメント管理の機能強化について説明します。 これらの機能強化は、2024 年第 1 四半期リリースの実稼動環境で利用できるようになります。
+このページでは、2024年第 1 四半期にプレビュー環境にリリースされた、すべてのドキュメントの管理の機能強化について説明します。この機能強化は、2024年第 1 四半期のリリースにおいて実稼動環境で利用できるようになります。
 
-2024 年第 1 四半期のリリースサイクルで現時点で使用可能なすべての変更のリストについては、 [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+2024年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2024年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)を参照してください。
 
 ## ドキュメント承認用に更新されたステータス
 
 >[!NOTE]
 >
->この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。
+>この機能は段階的リリースの一部で、現在は特定のお客様のみが利用できます。
 
-ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。 これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。
+ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。
 
-使用可能な特定のステータスについて詳しくは、 [ドキュメントの承認ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+使用可能な特定のステータスについて詳しくは、[ドキュメントの承認ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
 
-## ドキュメントのヘッダーにドキュメントのレビューと承認のステータスが表示されます
+## ドキュメントのレビューと承認のステータスは、ドキュメントのヘッダーに表示されます。
 
 >[!NOTE]
 >
->この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。
+>この機能は段階的リリースの一部で、現在は特定のお客様のみが利用できます。
 
-レビューと承認のプロセスをより透明にするために、ドキュメントの詳細ページのヘッダーにステータスを追加しました。 これで、ドキュメントに対して行われた承認の決定や、ドキュメントがまだレビュー中かどうかを一目で確認できます。
+レビューと承認のプロセスをより透明化するために、ドキュメントの詳細ページのヘッダーにステータスを追加しました。これで、ドキュメントに対する承認が決定済みかまだレビュー中かを一目で確認できます。
 
-特定のステータスについて詳しくは、 [ドキュメントの承認ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+特定のステータスについて詳しくは、[ドキュメントの承認ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)を参照してください。
 
 ## レビューの完了
 
 >[!NOTE]
 >
->この機能は段階的リリースの一部で、現在、特定のお客様のみが利用できます。
+>この機能は段階的リリースの一部で、現在は特定のお客様のみが利用できます。
 
-ドキュメントがレビューされ、次の承認ステージに進む準備が整ったときに、より明確にするために、新しい **レビューを完了** 」ボタンをクリックします。 レビュー担当者として設定されたユーザーがドキュメントをレビューした場合に、 **レビューを完了** ボタンを使用して、レビューの完了をWorkfrontに記録します。
+ドキュメントがレビューされ、次の承認ステージに進む準備が整ったことをより明確にするために、新しく「**レビューを完了**」ボタンを作成しました。レビュアーとして設定されたユーザーがドキュメントをレビューしたときに「**レビューを完了**」ボタンをクリックすると、レビューの完了が Workfront に記録されます。
 
-ユーザーは承認者ではなくレビュー担当者なので、承認または却下のドキュメントではありません。
+ユーザーは承認者ではなくレビュアーなので、ドキュメントが承認または却下されるわけではありません。
 
-以前は、ユーザーはアセットがレビューされたが、完了とマークされていないコメントを作成できました。
+以前は、レビュアーはアセットがレビューされたとコメントを作成できましたが、完了したとマークすることはできませんでした。
 
-詳しくは、 [ドキュメントのレビュー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md).
+詳しくは、[ドキュメントのレビュー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)を参照してください。
