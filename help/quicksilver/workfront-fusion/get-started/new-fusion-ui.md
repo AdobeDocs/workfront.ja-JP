@@ -6,16 +6,17 @@ title: Workfront Fusion の新しい UI への移動
 description: Workfront Fusion は、Adobe Experience Cloudから Fusion にアクセスしないユーザー向けに UI を更新しました。 現在は、Adobe Experience Cloud上の Fusion に比べて、彼らの経験はより密接に一致しています。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+exl-id: 2887a0e2-039e-4e29-823d-82809f217045
+source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 53%
+source-wordcount: '384'
+ht-degree: 51%
 
 ---
 
 # Workfront Fusion の新しいエクスペリエンスへの移動
 
-Workfront Fusion は、Adobe Experience Cloudから Fusion にアクセスしないユーザー向けに更新されました。 新しい Fusion UI は、他のAdobe製品とよりシームレスなエクスペリエンスを提供します。
+Workfront Fusion は、Adobe Experience Cloudから Fusion にアクセスしないユーザー向けに更新されました。 新しい Fusion UI は、他のAdobe製品とのよりシームレスなエクスペリエンスを提供し、ユーザーのAdobe Experience Cloudへの移行をスムーズにします。
 
 >[!IMPORTANT]
 >
