@@ -3,7 +3,7 @@ user-type: administrator
 content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: 環境プロモーションパッケージを作成または編集
+title: 環境のプロモーションパッケージの作成または編集
 description: 環境プロモーション機能の目的は、設定関連オブジェクトを環境間で移動する機能を提供することです。 環境プロモーションパッケージを作成して、別の環境にインストールする方法を説明します。
 author: Becky
 feature: System Setup and Administration
@@ -12,14 +12,20 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 12%
+source-wordcount: '629'
+ht-degree: 13%
 
 ---
 
-# 環境プロモーションパッケージを作成または編集
+# 環境のプロモーションパッケージの作成または編集
+
+オブジェクトをコピーする環境にパッケージを作成する必要があります **から**. 例えば、カスタム更新サンドボックス環境でプロジェクトを設定し、実稼動環境に昇格する場合は、カスタム更新サンドボックス環境でパッケージを作成する必要があります。
+
+>[!IMPORTANT]
+>
+>環境の昇格のためにオブジェクトを設定している間にカスタム更新サンドボックスが更新されると、その設定は更新時に失われます。 未処理の環境プロモーションオブジェクトおよびパッケージがすべて正常に昇格されない限り、カスタム更新サンドボックスを更新しないことをお勧めします。
 
 ## パッケージを作成
 

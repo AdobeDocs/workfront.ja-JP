@@ -3,7 +3,7 @@ user-type: administrator
 content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: 環境プロモーションパッケージのインストール
+title: 環境のプロモーションパッケージのインストール
 description: 環境プロモーション機能の目的は、設定関連オブジェクトを環境間で移動する機能を提供することです。 環境プロモーションパッケージをターゲット環境にインストールする方法を説明します。
 author: Becky
 feature: System Setup and Administration
@@ -12,16 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '808'
 ht-degree: 5%
 
 ---
 
-# 環境プロモーションパッケージのインストール
+# 環境のプロモーションパッケージのインストール
 
 パッケージを作成したら、別の環境にインストールできます。
+
+オブジェクトをコピーする環境にパッケージをインストールする必要があります **対象：**. 例えば、カスタム更新サンドボックス環境でプロジェクトを設定し、実稼動環境に昇格する場合は、パッケージを実稼動環境にインストールする必要があります。
+
+>[!IMPORTANT]
+>
+>環境の昇格のためにオブジェクトを設定している間にカスタム更新サンドボックスが更新されると、その設定は更新時に失われます。 未処理の環境プロモーションオブジェクトおよびパッケージがすべて正常に昇格されない限り、カスタム更新サンドボックスを更新しないことをお勧めします。
 
 ## 前提条件
 
