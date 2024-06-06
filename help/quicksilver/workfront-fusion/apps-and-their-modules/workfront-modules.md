@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 5803d21b0f606ad5beb138869a50d355d3273d4a
+source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
 workflow-type: tm+mt
-source-wordcount: '6260'
+source-wordcount: '6259'
 ht-degree: 99%
 
 ---
@@ -214,7 +214,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
 
 詳しくは、[!DNL Workfront] ヘルプ記事[イベントサブスクリプション API](../../wf-api/general/event-subs-api.md) の[イベントペイロードの例](../../wf-api/general/event-subs-api.md#examples-of-event-payloads)の節を参照してください。
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -251,7 +251,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -294,7 +294,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -453,7 +453,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront] オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプをご覧ください。
 
 >[!NOTE]
 >
@@ -618,7 +618,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL Record Type] と [!UICONTROL Action] に応じて、追加のフィールドに入力する必要がある場合があります。この 2 つの設定の組み合わせによっては、レコード ID しか必要ないものもあれば、追加情報（オブジェクト ID やテンプレート ID など）を必要とするもの（<strong>[!UICONTROL Record Type]</strong> のプロジェクトや <strong>[!UICONTROL Action]</strong> の [!UICONTROL Attach Template] など）もあります。</p> <p>個々のフィールドについて詳しくは、<a href="http://developer.workfront.com/">Workfront 開発者ドキュメント</a>を参照してください。 <p><strong>メモ</strong>：開発者ドキュメントサイトには、API バージョン 14 を通じた情報のみが含まれていますが、今でも API 呼び出しに関する有用な情報が含まれています。 </p> 
+   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL Record Type] と [!UICONTROL Action] に応じて、追加のフィールドに入力する必要がある場合があります。この 2 つの設定の組み合わせによっては、レコード ID しか必要ないものもあれば、追加情報（オブジェクト ID やテンプレート ID など）を必要とするもの（<strong>[!UICONTROL Record Type]</strong> のプロジェクトや <strong>[!UICONTROL Action]</strong> の [!UICONTROL Attach Template] など）もあります。</p> <p>個々のフィールドについて詳しくは、<a href="http://developer.workfront.com/">Workfront 開発者ドキュメント</a>を参照してください。 <p><strong>メモ</strong>：開発者ドキュメントサイトには、API バージョン 14 を通じた情報のみが含まれていますが、API 呼び出しに関する有用な情報がまだ含まれています。 </p> 
     <ol> 
      <li value="1"> <p>[!DNL Workfront] 開発者ドキュメントページの左側のナビゲーションからレコードタイプを選択します。以下のタイプには、独自のページがあります。</p> 
       <ul> 
@@ -639,7 +639,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -689,7 +689,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront] オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -728,7 +728,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront] オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプをご覧ください。
 
 >[!NOTE]
 >
@@ -773,7 +773,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストについては、各 [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront] オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -920,7 +920,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
  </tbody> 
 </table>
 
-このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、それぞれの [!DNL Workfront] モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
 
 +++
 
@@ -1309,7 +1309,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
    <td>ドキュメントのバージョン</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
