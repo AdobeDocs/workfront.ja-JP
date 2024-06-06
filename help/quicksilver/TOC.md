@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
+source-git-commit: 2eb27afe73a7f46bade832b122159d3f93f7fb37
 workflow-type: tm+mt
-source-wordcount: '14329'
+source-wordcount: '14340'
 ht-degree: 97%
 
 ---
@@ -615,6 +615,7 @@ ht-degree: 97%
                * [フォームの管理](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
                * [フォームデザイナーを使用して既存のカスタムフォームに対してオブジェクトタイプの追加または削除を行う](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
                * [フォームデザイナーでカスタムフォームの名前を変更する](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+               * [フォームデザイナーを使用したカスタムフィールドおよびウィジェットの共有の設定](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
          * カスタムフォームの管理 {#manage-custom-forms}
             * [カスタムフォームとカスタムフィールドの管理](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
             * [カスタムフォームを共有](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
