@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b15e5a75-1675-48d2-9c88-e7def24ac550
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 * [カスタムフィールドまたはウィジェットを使用するレポートの表示](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
 * [カスタムフィールドまたはウィジェットを使用するカスタムフォームの表示](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
 * [オブジェクトの変換時におけるカスタムフォームデータの転送](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-* [カスタムフィールド、セクション区切り、ウィジェットのプロパティの編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+* [カスタムフィールド、セクション区切りまたはウィジェットを追加または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
 * [システムからカスタムフィールドまたはウィジェットを削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 * [カスタムフォームの削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 * [API のリッチテキストフィールドストレージ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)

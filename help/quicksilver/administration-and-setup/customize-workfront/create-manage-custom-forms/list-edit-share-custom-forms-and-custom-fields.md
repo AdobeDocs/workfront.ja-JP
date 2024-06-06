@@ -4,10 +4,10 @@ description: 組織のカスタムフォームと、それらに追加された�
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
    リスト内の項目を選択した場合に実行できる操作について詳しくは、次の記事を参照してください。
 
-   * [カスタムフォーム内のカスタムフィールド、セクション区切り、またはウィジェットのプロパティを編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [カスタムフィールド、セクション区切りまたはウィジェットを追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [カスタムフィールドとウィジェットの共有を設定](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [システムからカスタムフィールドまたはウィジェットを削除](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 

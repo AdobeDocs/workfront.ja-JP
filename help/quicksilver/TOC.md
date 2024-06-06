@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
 workflow-type: tm+mt
 source-wordcount: '14329'
 ht-degree: 97%
@@ -624,7 +624,7 @@ ht-degree: 97%
             * [カスタムフィールドまたはウィジェットを使用するレポートの表示](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [カスタムフィールドまたはウィジェットを使用するカスタムフォームの表示](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [オブジェクトの変換時におけるカスタムフォームデータの転送](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [カスタムフィールド、セクション区切り、ウィジェットのプロパティの編集](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [カスタムフィールド、セクション区切りまたはウィジェットを追加または編集](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [システムからカスタムフィールドまたはウィジェットを削除](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [カスタムフォームの削除](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [API のリッチテキストフィールドストレージ](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
