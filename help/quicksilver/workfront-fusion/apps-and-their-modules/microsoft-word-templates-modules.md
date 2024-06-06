@@ -10,10 +10,10 @@ description: Adobe Workfront Fusion のシナリオでは、Microsoft Word テ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '1286'
-ht-degree: 100%
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+workflow-type: tm+mt
+source-wordcount: '1401'
+ht-degree: 93%
 
 ---
 
@@ -68,6 +68,18 @@ ht-degree: 100%
 
 [!DNL Miscrosoft Word Templates]を [!DNL Adobe Workfront Fusion] で使用するには、[!DNL Office 365] アカウントが必要です。アカウントは www.office.com で作成できます。
 
+
+
+## [!DNL Office] サービスを [!DNL Workfront Fusion] に接続
+
+[!DNL Office] アカウントを [!UICONTROL Workfront Fusion] に接続する方法については、[[!UICONTROL Adobe Workfront Fusion] への接続の作成 - 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)を参照してください。
+
+>[!NOTE]
+>
+>一部のMicrosoft アプリは、同じ接続を使用し、これは個々のユーザー権限に関連付けられています。 そのため、接続を作成すると、権限同意画面に、現在のアプリケーションに必要な新しい権限に加え、このユーザーの接続に以前に付与された権限が表示されます。
+>
+>例えば、ユーザーが Excel コネクタを使用して「テーブルの読み取り」権限を付与され、Outlook コネクタにメールを読み取るための接続を作成した場合、権限の同意画面には、既に付与されている「テーブルの読み取り」権限と、新しく必要な「メールの書き込み」権限の両方が表示されます。
+
 ## [!DNL Microsoft Word Templates]モジュールの使用
 
 [!DNL Microsoft Word Template]モジュールを使用して、複数の web サービスのデータを [!DNL Microsoft Word] ドキュメントに結合できます。
@@ -93,14 +105,14 @@ ht-degree: 100%
 単純な値タグは、対応する値に置き換えられるだけです。タグの名前は「[!UICONTROL キー]」フィールドの値に対応し、二重の中括弧で囲まれます。例えば、
 
 
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
+<pre>{{name}}</pre>
 
 
 のように指定します。
 
 **例**：「こんにちは、ピーターさん。」と書かれたドキュメントを作成するには、[!DNL Microsoft Word Template]モジュールを使用して、次のテンプレートを作成します。
 
-<pre>&gt; こんにちは、&lbrace;&lbrace;name&rbrace;&rbrace;さん。</pre>
+<pre>&gt; こんにちは、{{name}}さん。</pre>
 
 それには、次のようにモジュールを設定します。
 
@@ -111,7 +123,7 @@ ht-degree: 100%
 条件タグを使用すると、特定の条件が満たされた場合にのみレンダリングされるテキストをラップするできます。テキストをラップするには、テキストを条件開始タグと条件終了タグで囲みます（例：データに電話番号が含まれているかどうかを条件とする場合の「hasPhone」）。次の例に示すように、開始タグ名の前にハッシュ記号 # が付き、終了タグ名の前にスラッシュ / が付きます。
 
 **例**：入力データに電話番号が含まれているがメールアドレスが含まれていない場合に、顧客の電話番号を含んだドキュメントを生成するには、[!DNL Microsoft Word Template]モジュールを使用し、次のテンプレートを作成します。
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Phone: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;Email: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>それには、次のようにモジュールを設定します。
+<pre>&gt; {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}Email: {{email}} {{/hasEmail}}</pre>それには、次のようにモジュールを設定します。
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ ht-degree: 100%
 
 **例**：顧客リスト内の各連絡先の名前と電話番号を記載したドキュメントを作成するには、[!DNL Microsoft Word Template] モジュールを作成し、次のテンプレートを作成します。
 
-<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;    &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;    {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 それには、次のようにモジュールを設定します。
 

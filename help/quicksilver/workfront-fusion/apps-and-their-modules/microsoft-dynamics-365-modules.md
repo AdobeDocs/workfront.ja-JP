@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion] シナリオでは、Microsoft Dyna
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 94%
+source-wordcount: '1724'
+ht-degree: 89%
 
 ---
 
@@ -74,6 +74,12 @@ ht-degree: 94%
 ## Workfront Fusion への Microsoft Dynamics 365 の接続
 
 [!DNL Microsoft Dynamics 365] アカウントへの接続を、[!DNL Microsoft Dynamics 365] モジュール内から直接作成できます。
+
+>[!NOTE]
+>
+>一部のMicrosoft アプリは、同じ接続を使用し、これは個々のユーザー権限に関連付けられています。 そのため、接続を作成すると、権限同意画面に、現在のアプリケーションに必要な新しい権限に加え、このユーザーの接続に以前に付与された権限が表示されます。
+>
+>例えば、ユーザーが Excel コネクタを使用して「テーブルの読み取り」権限を付与され、Outlook コネクタにメールを読み取るための接続を作成した場合、権限の同意画面には、既に付与されている「テーブルの読み取り」権限と、新しく必要な「メールの書き込み」権限の両方が表示されます。
 
 1. 任意の [!DNL Microsoft Dynamics 365] モジュールで、「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 接続に名前を入力します。

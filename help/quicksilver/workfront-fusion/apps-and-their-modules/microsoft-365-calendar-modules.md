@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion] シナリオ内では、Microsoft O
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 99%
+source-wordcount: '1999'
+ht-degree: 95%
 
 ---
 
@@ -68,6 +68,16 @@ Office 365 アカウントを [!DNL Workfront Fusion] に接続する手順に�
 ## 前提条件
 
 [!DNL Microsoft Office 365 Calendar] モジュールを使用するには、[!DNL Microsoft Office 365 Calendar] アカウントが必要です。
+
+## [!DNL Office 365 Calendar] サービスを [!DNL Workfront Fusion] に接続
+
+[!DNL Office 365 Calendar] アカウントを [!UICONTROL Workfront Fusion] に接続する方法については、[[!UICONTROL Adobe Workfront Fusion] への接続の作成 - 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)を参照してください。
+
+>[!NOTE]
+>
+>一部のMicrosoft アプリは、同じ接続を使用し、これは個々のユーザー権限に関連付けられています。 そのため、接続を作成すると、権限同意画面に、現在のアプリケーションに必要な新しい権限に加え、このユーザーの接続に以前に付与された権限が表示されます。
+>
+>例えば、ユーザーが Excel コネクタを使用して「テーブルの読み取り」権限を付与され、Outlook コネクタにメールを読み取るための接続を作成した場合、権限の同意画面には、既に付与されている「テーブルの読み取り」権限と、新しく必要な「メールの書き込み」権限の両方が表示されます。
 
 ## [!DNL Microsoft Office 365 Calendar] モジュールとそのフィールド
 
