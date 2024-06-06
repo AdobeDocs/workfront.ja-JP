@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '2432'
 ht-degree: 91%
 
 ---
@@ -158,8 +158,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 {{step1-to-planning}}
 
-最後にアクセスしたワークスペースが、デフォルトで開きます。
-
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードを接続するワークスペースを選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. レコードタイプのページの右上隅にある&#x200B;**ビュー**&#x200B;ドロップダウンメニューから&#x200B;**テーブル**&#x200B;ビューを選択します。
@@ -224,8 +222,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 
 {{step1-to-planning}}
-
-最後にアクセスしたワークスペースが、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードを接続するワークスペースを選択します。
 1. レコードタイプのカードをクリックして、レコードタイプページを開きます。
@@ -309,8 +305,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 レコードタイプと Adobe Experience Manager Assets 間の接続を作成した後、個別のレコードを Experience Manager Assets に接続できます。接続の作成時に Experience Manager Assets から接続したアセットフィールドは、リンク元のレコードタイプで自動的に入力されます。
 
 {{step1-to-planning}}
-
-最後にアクセスしたワークスペースが、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードを接続するワークスペースを選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。

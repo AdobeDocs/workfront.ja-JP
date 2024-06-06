@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 62%
+source-wordcount: '558'
+ht-degree: 61%
 
 ---
 
@@ -126,8 +126,6 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 ## フィールド設定を編集
 
 {{step1-to-planning}}
-
-最後にアクセスしたワークスペースが、デフォルトで開きます。
 
 1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを削除するワークスペースを選択します。
 

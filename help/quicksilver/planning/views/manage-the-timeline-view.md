@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b3e4b056961543ea95c67c00f93d1fe13b280985
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1707'
-ht-degree: 98%
+source-wordcount: '1724'
+ht-degree: 97%
 
 ---
 
@@ -98,6 +98,8 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 次の点に注意してください。
 
 * タイムラインビューを作成できるのは、レコードタイプに関連付けられた日付フィールドが 2 つ以上ある場合のみです。レコードタイプに関連付けられた日付フィールドが 1 つのみ、またはまったくない場合は、タイムライン表示のオプションは淡色表示になります。
+
+  レコードの日付フィールドから選択することも、接続されたレコードまたはオブジェクトタイプから日付フィールドを参照することもできます。
 * 以下のシナリオのように、レコードに関連付けられた日付によっては、一部のレコードがタイムラインビューに表示されないことがあります。
 
    * 開始日と終了日に値がない場合

@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: オブジェクトへのリマインダ通知の添付
-description: リマインダー通知は、プロジェクト、タスク、イシュー、タイムシート、テンプレート、テンプレートタスクおよび定期タイムシートプロファイルのオブジェクトタイプに関連付けることができます。
+description: 「リマインダー通知は、プロジェクト、タスク、問題、タイムシート、テンプレート、テンプレートタスク、定期タイムシートプロファイルといった、複数のオブジェクトタイプに関連付けることができます。」
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
-workflow-type: ht
-source-wordcount: '285'
-ht-degree: 100%
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 85%
 
 ---
 
 # オブジェクトへのリマインダ通知の添付
 
-リマインダー通知は、以下の複数の異なるオブジェクトタイプに関連付けることができます。プロジェクト、タスク、イシュー、タイムシート、テンプレート、テンプレートタスクおよび定期タイムシートプロファイル
+リマインダー通知は、プロジェクト、タスク、問題、タイムシート、テンプレート、テンプレートタスク、定期タイムシートプロファイルといった、複数のオブジェクトタイプに関連付けることができます。
 
 オブジェクトにリマインダー通知を添付する前に、[リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)で説明したように、[!DNL Adobe Workfront] 管理者は通知を作成する必要があります。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：アクセス権がない場合は、アクセスレベルに追加の制限が設定されているかどうかを [!DNL Workfront] 管理者に確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '631'
 ht-degree: 73%
 
 ---
@@ -111,7 +111,12 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 {{step1-to-planning}}
 
-Workfront Planning のワークスペースエリアが開きます。
+<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Optional) Click the **My workspaces** tab to view workspaces you created
+    Or
+    Click the **Other workspaces** tab to view workspaces shared with you. 
+    -->
 
 1. （条件付き）利用する環境にワークスペースがない場合、「**ワークスペースを作成**」をクリックします。
 

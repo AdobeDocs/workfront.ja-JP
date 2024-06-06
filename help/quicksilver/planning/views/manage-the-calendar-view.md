@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 38%
+source-wordcount: '567'
+ht-degree: 37%
 
 ---
 
@@ -96,6 +96,8 @@ Adobe Workfront Planning 機能のビューとその管理方法については�
 次の点に注意してください。
 
 * カレンダー表示を作成できるのは、1 つのレコードタイプに 2 つ以上の日付フィールドが関連付けられている場合のみです。 レコードタイプに日付フィールドが関連付けられている場合は、「カレンダー」表示オプションがグレー表示になります。
+
+  レコードの日付フィールドから選択することも、接続されたレコードまたはオブジェクトタイプから日付フィールドを参照することもできます。
 * 次のシナリオが存在します。
 
    * 開始日と終了日の両方に値がない場合、レコードはカレンダーに表示されません
