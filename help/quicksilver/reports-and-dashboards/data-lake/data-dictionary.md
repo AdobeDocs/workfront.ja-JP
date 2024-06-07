@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 9%
+source-wordcount: '725'
+ht-degree: 6%
 
 ---
 
@@ -50,6 +50,15 @@ Workfrontのオブジェクト（およびデータレイク内のオブジェ�
 >[!IMPORTANT]
 >
 >エンティティ関係ダイアグラムは処理中です。そのため、参照用にのみ使用され、変更される可能性があります。
+
+## 日付タイプ
+
+特定のイベントが発生するタイミングに関する情報を提供する日付オブジェクトが多数あります。
+
+* `DL_LOAD_TIMESTAMP`：この日付は内部参照に使用され、データが現在、イベントまたは毎日の履歴テーブルに読み込まれた日時を反映します。 この日付は、データ分析には使用せず、Workfront Data Lake のベータ段階で削除される予定です。
+* `CALENDAR_DATE`：この日付は、毎日の履歴テーブルにのみ表示されます。 この表は、で指定された各日付の、UTC で 11:59 のデータがどのように見えたかを示します。 `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴と日別履歴の両方のテーブルに存在し、レコードが変更されたタイミングを正確に記録します _対象：_ 現在の行に含まれる値。
+* `END_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴と日別履歴の両方のテーブルに存在し、レコードが変更されたタイミングを正確に記録します _から_ 現在の行の値から別の行の値。 でクエリ間を許可するには `BEGIN_EFFECTIVE_TIMESTAMP` および `END_EFFECTIVE_TIMESTAMP` これは、新しい値がない場合でも、null にならない値です。 レコードがまだ有効な場合（つまり、値が変更されていない場合）、 `END_EFFECTIVE_TIMESTAMP` は、2300-01-01 の値を持ちます。
 
 ## 用語テーブル
 

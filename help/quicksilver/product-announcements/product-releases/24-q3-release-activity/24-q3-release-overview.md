@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 69%
+source-wordcount: '1378'
+ht-degree: 51%
 
 ---
 
@@ -22,25 +22,25 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront ではリリースのナンバリング方式を変更し、月ごとのリリーストラックと四半期ごとのリリーストラックの両方を考慮するようにしました。最初の数字は年、2 番目の数字はリリースの月を表します。例：2024年4月のリリースは 24.4 となります。
+>23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースのナンバリング方式を変更しています。最初の数字は年、2 番目の数字はリリースの月を表します。例：2024年4月のリリースは 24.4 となります。
 >
 >月次リリースと四半期リリースは、特に指定がない限り、毎月第 2 週の木曜日に公開される予定です。
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6（2024年6月）</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
+>| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6 （2024 年 6 月 20 日（PT））</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
 >
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
 ## Adobe Workfront の機能強化
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [管理者機能の強化](#administrator-enhancements)
 * [Financial Management の機能強化](#financial-management-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+* [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
 
-<!--
-### Administrator enhancements
+### 管理者機能の強化
 
 <table>
             <col style="width: 50%;" />
@@ -48,37 +48,83 @@ ht-degree: 69%
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">機能</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">リリース日</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
-                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">環境の昇格によるWorkfront環境間でのオブジェクトの移動</a></p>
+                        <p>環境のプロモーションにより、サンドボックス環境から実稼動環境など、あるWorkfront環境から別の環境にオブジェクトを移動できます。 組織のデータやレコードにリスクを与えることなく、オブジェクトを設定およびテストできます。 その後、これらのオブジェクトを再構成することなく実稼動環境に移動できるため、時間と労力を節約できます。</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: April 18, 2024</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 24.5 release (May 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.6 リリースでは（2024 年 6 月 20 日（PT））</p>
                             </li>
                         </ul>
                     </td>
-                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">カスタムフォームデザイナーでのカスタムフォームとカスタムフィールドの共有</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>新しいフォームデザイナー内で、カスタムフォームとカスタムフィールドの両方を共有できるようになりました。 これにより、カスタムフォームのユーザー間の共同作業が促進されます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年6月6日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：未定</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">「フィールド」領域から新しいカスタムフィールドを追加</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>カスタムフォームを開いてフィールドを作成することなく、Workfrontの「フィールド」領域から直接新しいカスタムフィールドまたはウィジェットを追加できるようになりました。 これにより、再利用可能なカスタムフィールドをすばやく作成できます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年6月6日（PT）</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼動：24.6 リリースの場合（2024 年 6 月 20 日（PT））</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.7 リリースと共に（2024 年 7 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">フォームデザイナーで使用できる複数選択ドロップダウンフィールドタイプ</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>ドロップダウンフィールドをより簡単に定義できるように、複数選択ドロップダウンフィールドをカスタムフォームデザイナーに追加しました。 このフィールドタイプを使用すると、ユーザーはドロップダウンリストから複数のオプションを選択できます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年6月4日（PT）</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版（すべてのお客様向け）：2024年6月4日（PT）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
--->
 
 ### Financial Management の機能強化
 
@@ -114,7 +160,7 @@ ht-degree: 69%
                                 <p>プレビューリリース：2024 年 5 月 10 日（PT）</p>
                             </li>
                             <li>
-                                <p><span class="preview">実稼動（すべてのお客様向け）：2024年5月10日（PT)</span></p>
+                                <p><span class="preview">実稼動版（すべてのお客様向け）：2024年5月10日（PT）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -141,7 +187,6 @@ ht-degree: 69%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">ヘッダーまたは「詳細」セクションで、タスクと問題のコミット日と条件を編集します</a></p>
-                        <p><span style="color: #ff0000;"> プレビューの新機能</span></p>
                         <p>タスクとイシューを簡単に更新できるように、レイアウトテンプレートのタスクとイシューのヘッダーと詳細セクションに追加するオプションとして、「コミット日」フィールドと「条件」フィールドが追加されるようになりました。 ユーザーは、変更されたレイアウトテンプレートに割り当てられたときに、ページのヘッダーまたは詳細セクションからこれらのフィールドを更新できるようになりました。   </p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -182,7 +227,7 @@ ht-degree: 69%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
                         <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスク（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）を割り当てる Workfront のエリアに適用されます。</p>
+                        <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -201,6 +246,45 @@ ht-degree: 69%
            </tbody>
         </table>
 
+### リソース管理の強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">ワークロードバランサーに反映された休暇</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>タスクのプライマリ担当者が休暇をスケジュールした場合に作業をシームレスに調整するために、プロジェクトタイムラインが再計算される際に、ワークロードバランサーがプライマリユーザーとセカンダリユーザーの両方に時間を再割り当てするようになりました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年6月6日（PT）</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼動：24.6 リリースの場合（2024 年 6 月 20 日（PT））</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.7 リリースと共に（2024 年 7 月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### その他の機能強化
 
 <table>
@@ -215,6 +299,26 @@ ht-degree: 69%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">メインナビゲーションバーから「ヘルプ」ボタンが削除されました</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>統合シェル以外のユーザーのエクスペリエンスを統一するために、メインナビゲーションバーの「ヘルプ」ボタンが削除されました。 このボタンはWorkfrontのドキュメントにリンクされており、統合シェルのユーザーには表示されず、メインメニューのすべてのユーザーが利用できる同様のヘルプボタンと重複していました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年6月6日（PT）</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼動：24.6 リリースの場合（2024 年 6 月 20 日（PT））</p>
+                            </li>
+                            <li>
+                                <p>四半期リリースの実稼動：24.7 リリースと共に（2024 年 7 月）</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
