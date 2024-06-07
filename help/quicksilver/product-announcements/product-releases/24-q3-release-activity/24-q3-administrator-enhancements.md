@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 7%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 6 月 6 日（PT）、高速リリースの実稼動：24.6 リリースを含む（2024 年 6 月 20 日（PT））、四半期リリースの実稼動：24.7 リリースを含む（2024 年 7 月）
+>プレビューリリース：2024 年 6 月 6 日（PT）。すべてのお客様向けの実稼動リリース：24.7 リリースで（2024 年 7 月）
 
 カスタムフォームを開いてフィールドを作成することなく、Workfrontの「フィールド」領域から直接新しいカスタムフィールドまたはウィジェットを追加できるようになりました。 これにより、再利用可能なカスタムフィールドをすばやく作成できます。
 

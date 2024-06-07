@@ -4,10 +4,10 @@ description: 2024 年第 3 四半期のリソース管理の強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 3a56518ecbcb85b443284402d0e273d6a8485fb2
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 5%
+source-wordcount: '182'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 6 月 6 日（PT）、高速リリースの実稼動：24.6 リリースを含む（2024 年 6 月 20 日（PT））、四半期リリースの実稼動：24.7 リリースを含む（2024 年 7 月）
+>プレビューリリース：2024 年 6 月 6 日（PT）。すべてのお客様向けの実稼動リリース：24.7 リリースで（2024 年 7 月）
 
 タスクのプライマリ担当者が休暇をスケジュールした場合に作業をシームレスに調整するために、プロジェクトタイムラインが再計算される際に、ワークロードバランサーがプライマリユーザーとセカンダリユーザーの両方に時間を再割り当てするようになりました。 （この機能は、Workfront管理者が設定エリアでユーザーの休暇を設定し、ユーザーの休暇を考慮している場合にのみ使用できます）。
 

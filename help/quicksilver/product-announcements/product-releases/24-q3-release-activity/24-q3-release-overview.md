@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 51%
 
 ---
@@ -98,10 +98,7 @@ ht-degree: 51%
                                 <p>プレビューリリース：2024年6月6日（PT）</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動：24.6 リリースの場合（2024 年 6 月 20 日（PT））</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの実稼動：24.7 リリースと共に（2024 年 7 月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ ht-degree: 51%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">ワークロードバランサーに反映された休暇</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">ワークロードバランサーに反映された休暇</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>タスクのプライマリ担当者が休暇をスケジュールした場合に作業をシームレスに調整するために、プロジェクトタイムラインが再計算される際に、ワークロードバランサーがプライマリユーザーとセカンダリユーザーの両方に時間を再割り当てするようになりました。</p>
                     </td>
@@ -274,10 +271,7 @@ ht-degree: 51%
                                 <p>プレビューリリース：2024年6月6日（PT）</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動：24.6 リリースの場合（2024 年 6 月 20 日（PT））</p>
-                            </li>
-                            <li>
-                                <p>四半期リリースの実稼動：24.7 リリースと共に（2024 年 7 月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
                             </li>
                         </ul>
                     </td>
