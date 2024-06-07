@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '472'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,12 @@ ht-degree: 100%
 
 {{step1-to-planning}}
 
-最後にアクセスしたワークスペースがデフォルトで開きます。
+1. ワークスペースのカードをクリックします。
+
+   ワークスペースが開き、カードにレコードタイプが表示されます。
+
+1. レコードタイプのカードをクリックします。
+レコードタイプのページが開き、そのタイプのすべてのレコードが表示されます。
 
 1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。
 1. テーブルビューでレコードの名前をクリックします。

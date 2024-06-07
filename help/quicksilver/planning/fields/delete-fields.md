@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 95%
+source-wordcount: '341'
+ht-degree: 86%
 
 ---
 
@@ -107,15 +107,22 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## フィールドの削除
+## フィールドを削除
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
 {{step1-to-planning}}
 
-これにより、Workfront Planning で最後にアクセスしたワークスペースが開きます。
-1. フィールドを削除するレコードタイプのカードをクリックします。
-1. （条件付き）レコードタイプページの右上隅にある&#x200B;**表示**&#x200B;ドロップダウンメニューから「**テーブルビュー**」を選択します。
+1. レコード フィールドを削除するワークスペースをクリックします。
+
+   ワークスペースが開き、レコードタイプが表示されます。
+
+1. レコードタイプのカードをクリックします。
+
+1. （条件付き）選択していない場合は、のタブをクリックします **テーブル表示** レコードタイプページで上書きできます。
+
+   そのレコードタイプに関連付けられている既存のすべてのレコードが、テーブルビューの行に表示されます。
+
 1. 削除するフィールドを列ヘッダーで見つけてその上にポインタを合わせ、フィールド名の後の下向き矢印をクリックします。
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 13%
+source-wordcount: '683'
+ht-degree: 12%
 
 ---
 
@@ -109,7 +109,9 @@ ht-degree: 13%
 
 {{step1-to-planning}}
 
-最後にアクセスしたワークスペースがデフォルトで開きます。
+1. ワークスペースのカードをクリックします。
+
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
 
 1. Workfront プロジェクト、ポートフォリオ、またはプログラムに接続されているレコードタイプのカードをクリックします。
 1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。

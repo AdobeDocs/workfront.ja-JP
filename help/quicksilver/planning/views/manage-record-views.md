@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 89%
+source-wordcount: '1065'
+ht-degree: 84%
 
 ---
 
@@ -150,9 +150,13 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 {{step1-to-planning}}
 
 
-デフォルトで、最後にアクセスしたワークスペースが開きます。ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+1. ワークスペースのカードをクリックします。
 
-1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
+
+1. レコードタイプのカードをクリックします。
+
+   レコードタイプのページが開きます。
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
@@ -218,11 +222,13 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 {{step1-to-planning}}
 
-デフォルトで、最後にアクセスしたワークスペースが開きます。ワークスペースの作成について詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+1. ワークスペースのカードをクリックします。
+
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
 
 1. レコードタイプのカードをクリックします。
 
-   レコードタイプの作成について詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+   レコードタイプのページが開きます。
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
@@ -247,13 +253,14 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 {{step1-to-planning}}
 
-最後にアクセスしたワークスペースがデフォルトで開きます。
+1. ワークスペースのカードをクリックします。
 
-ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
 
-1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+1. レコードタイプのカードをクリックします。
 
-   デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
+   レコードタイプ ページが開きます。
+デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
 1. 複製するビューのタブにポインタを合わせて、ビュー名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックして、「**複製**」をクリックします。
 

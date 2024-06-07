@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 99%
+source-wordcount: '2021'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 99%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## 単一のタスクを割り当て
 
 1. 割り当てるタスクに移動します。
-1. タスクまたはイシューのヘッダーの&#x200B;**割当て**&#x200B;フィールドにある&#x200B;**割り当て先**&#x200B;をクリックします。
+1. クリック **割り当て先** が含まれる **割り当て** タスクのヘッダーのフィールド
 
    または
 
    タスクまたはイシューが既に割り当てられている場合は、割り当ての名前をクリックします。
 
-   実稼動環境のサンプル画像：
+   実稼動環境では、次の操作を行います。
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">プレビュー環境のサンプル画像：</span>
+   <span class="preview">プレビュー環境で、以下を行います。</span>
    ![割り当て](assets/assignments-box-in-task-header.png)
 
 1. 次のいずれかの操作を行います。

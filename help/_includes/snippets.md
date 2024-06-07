@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2362'
-ht-degree: 98%
+source-wordcount: '2412'
+ht-degree: 96%
 
 ---
 # スニペット
@@ -249,20 +249,14 @@ ht-degree: 98%
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、「**[!UICONTROL Planning]**」をクリックします。
 
-   Workfront Planning のワークスペースエリアが開きます。
+   Workfront計画のランディングページが開きます。
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. （オプションおよび条件付き）Workfrontの管理者は、次のタブをクリックします。
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **マイワークスペース**：作成したワークスペースが表示されます。
+   * **その他のワークスペース**：共有されているワークスペースを含む、Workfront Planning 内のすべてのワークスペースが表示されます。
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   その他のすべてのユーザーについては、ユーザーが作成または共有したすべてのワークスペースがに表示されます。 **ワークスペース** 領域。
 
 ## Workfront計画の重要な概要 –  {#planning-important-intro}
 

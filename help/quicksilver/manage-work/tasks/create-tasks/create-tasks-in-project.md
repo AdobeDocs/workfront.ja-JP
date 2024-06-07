@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 88%
 
 <!-- Audited: 1/2024 -->
 
-プロジェクト内でタスクを作成できるのは、プロジェクトを作成した後だけです。
+プロジェクトを作成した後でのみ、プロジェクト内でタスクを作成できます。
 
 例えば、プロジェクトを作成した後に、タスクを追加して変更し、プロジェクト計画を整理することができます。プロジェクトの作成について詳しくは、[プロジェクトの作成](../../../manage-work/projects/create-projects/create-project.md)を参照してください。
 
-プロジェクトに含まれていない個人用タスクの作成について詳しくは、 [個人用タスクの作成](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) 記事のセクション [ホーム領域から作業項目を作成する](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+プロジェクトに含まれていない個人タスクの作成については、[ホームエリアからの作業アイテムの作成](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)の記事にある[個人タスクの作成](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task)の節を参照してください。
 
 この記事では、タスクを一から作成する方法について説明します。次の方法でタスクを作成することもできます。
 
@@ -40,8 +40,8 @@ ht-degree: 88%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront ライセンス</p> </td> 
-   <td><p>現在：作業以上</p> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront プラン</p> </td> 
+   <td><p>現在：ワーク以上</p> 
    または
    <p>新規：標準</p> </td> 
   </tr> 
@@ -56,7 +56,7 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## プロジェクトでのタスクの作成
 
@@ -73,8 +73,8 @@ ht-degree: 88%
 
 1. 次のいずれかの操作を行って、新しいタスクを作成します。
 
-   * クリック **新規タスク** をタスクリストの最上部に表示します。
-   * クリック **タスクをさらに追加** をタスクリストの下部に表示します。
+   * タスクリストの最上部の「**新規タスク**」をクリックします。
+   * タスクリストの下部にある「**さらにタスクを追加**」をクリックします。
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
@@ -120,7 +120,7 @@ ht-degree: 88%
 
    特に、複数のタスクをリストに追加する場合は、このオプションを使用することをお勧めします。
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. （条件付き）次のいずれかを行います。
 
@@ -141,7 +141,7 @@ ht-degree: 88%
 
          これにより、新しいタスクが子タスク、または前のタスクのサブタスクになります。
 
-         子タスクの詳細については、[タスクの概要](../../../manage-work/tasks/task-information/tasks-overview.md)を参照してください。
+         子タスクの詳細については、を参照してください。 [サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. （条件付き）「**さらにタスクを追加**」を押した後に「**自動保存**」オプションを無効にした場合は、次の操作を行うことができます。
 

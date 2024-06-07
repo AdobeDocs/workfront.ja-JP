@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 73%
+source-wordcount: '448'
+ht-degree: 66%
 
 ---
 
@@ -97,7 +97,13 @@ hide: yes
 
 {{step1-to-planning}}
 
-1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを編集するワークスペースを選択します。
+1. レコードタイプを編集するワークスペースをクリックします。
+
+   または
+
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、レコードの種類を編集するワークスペースを選択します。
+
+   ワークスペースが開き、レコードタイプが表示されます。
 1. レコードタイプのカードにポインタを合わせて、 **詳細** メニュー ![](assets/more-menu.png) レコードタイプカードの右上隅のをクリックします **編集**.
 
    ![](assets/more-menu-options-from-record-type-card.png)

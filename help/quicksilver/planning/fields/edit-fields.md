@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 61%
+source-wordcount: '613'
+ht-degree: 50%
 
 ---
 
@@ -127,13 +127,17 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 
 {{step1-to-planning}}
 
-1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、レコードタイプを削除するワークスペースを選択します。
+1. レコード フィールドを編集するワークスペースをクリックします。
 
-   ワークスペースが開き、それに関連付けられたレコードタイプが表示されます。
-1. フィールドを編集するレコードタイプのカードをクリックします。
+   ワークスペースが開き、ワークスペース内のすべてのレコードタイプがカードに表示されます。
+
+1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
+
 1. （条件付き）のタブをクリック **テーブル表示**.
+
+   そのレコードタイプに関連付けられている既存のすべてのレコードが、テーブルビューの行に表示されます。
 1. 編集するフィールドの列ヘッダーにポインタを合わせ、フィールド名の後の下向き矢印をクリックして「**フィールドを編集**」をクリックします。
 
    または
@@ -146,7 +150,9 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 
    >[!TIP]
    >
-   >フィールドを保存した後は、フィールドタイプを更新できません。
+   >* フィールドを保存した後は、フィールドタイプを更新できません。
+   >
+   >* フィールド設定（フィールドのオプションや数式）を変更すると、変更されたフィールドに既に情報が含まれているレコードの値は、リアルタイムで更新されます。 フィールド設定の変更によってトリガーされる値の変更に関する警告や監査ログはありません。 フィールドを表示するすべてのユーザーには、変更を加えた新しい値が直ちに表示されます。
 
    フィールド情報は、ワークスペースを表示するアクセス権を持つすべてのユーザーに対して更新されます。
 
@@ -154,9 +160,3 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 
    詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

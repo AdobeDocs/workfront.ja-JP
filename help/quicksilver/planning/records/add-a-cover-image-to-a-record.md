@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 36%
+source-wordcount: '568'
+ht-degree: 32%
 
 ---
 
@@ -102,9 +102,13 @@ ht-degree: 36%
 
 {{step1-to-planning}}
 
-最後にアクセスしたワークスペースが開きます。
+1. レコードをパーソナライズするワークスペースをクリックします。
 
-1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
+   または
+
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、レコードをパーソナライズするワークスペースを選択します。
+
+   ワークスペースが開き、レコードタイプが表示されます。
 
 1. レコードタイプのカードをクリックします。
 

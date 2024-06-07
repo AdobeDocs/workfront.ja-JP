@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 71%
+source-wordcount: '824'
+ht-degree: 69%
 
 ---
 
@@ -98,7 +98,9 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 {{step1-to-planning}}
 
-デフォルトで、最後にアクセスしたワークスペースが開きます。ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+1. レコードを追加するワークスペースをクリックします。
+
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
 
 1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 

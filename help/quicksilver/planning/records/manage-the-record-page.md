@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 25%
+source-wordcount: '1118'
+ht-degree: 20%
 
 ---
 
@@ -123,9 +123,10 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 {{step1-to-planning}}
 
-最後にアクセスしたワークスペースが開きます。
+1. ワークスペースのカードをクリックします。
 
-1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
+
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。
@@ -187,9 +188,10 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 {{step1-to-planning}}
 
-最後にアクセスしたワークスペースが開きます。
+1. ワークスペースのカードをクリックします。
 
-1. （オプション）ワークスペース名の右側にある下向き矢印をクリックして、レコードを更新するワークスペースを選択します。
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
+
 1. レコードタイプのカードをクリックします。
 
    レコードタイプのページが開きます。

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 55%
 
 ---
@@ -90,6 +90,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 {{step1-to-planning}}
 
+1. ワークスペースカードをクリックして、ワークスペースを開きます。
 1. 新しいワークスペースのヘッダーでワークスペースの名前内をクリックして名前を変更し、を押します **Enter**.
 1. 「」をクリックします **詳細** メニュー ![](assets/more-menu.png)ヘッダーのワークスペース名の右側にある「」をクリックします。 **編集**.
 
@@ -130,7 +131,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 1. （任意）レコードタイプのカードの上にマウスポインターを置き、 **詳細** メニュー ![](assets/more-menu.png) 右上隅のをクリックします。 **削除** をクリックしてレコードタイプを削除します。
 
-   詳しくは、を参照してください [レコードタイプを削除](/help/quicksilver/planning/architecture/delete-record-types.md)）に設定します。
+   詳しくは、を参照してください [レコードタイプを削除](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. （オプション）レコードタイプカードをクリックしてドラッグし、新しい場所にドロップします。 レコードタイプは、ワークスペースセクション間でドラッグ&amp;ドロップできます。
 

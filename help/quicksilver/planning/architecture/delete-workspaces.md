@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 91%
+source-wordcount: '274'
+ht-degree: 85%
 
 ---
 
@@ -98,13 +98,14 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 {{step1-to-planning}}
 
-最後にアクセスしたワークスペースが開きます。
+1. 削除するワークスペースをクリックします。
 
-1. （オプション）既存のワークスペース名の右側にある下向き矢印を展開し、削除するワークスペースを選択します。
+   ワークスペース ページが表示されます。
+
 1. ワークスペース名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし「**削除**」を選択します。
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. 型&#39;&#39;**削除**」を選択し、をクリックします。 **完全に削除**.
+1. 型&#39;&#39;**削除**」を選択し、をクリックします。 **完全に削除**. これは、大文字と小文字を区別しません。
 
    ワークスペースは削除され、復元できません。レコードタイプ、レコード、フィールドおよびそれらに関連付けられているビューも削除されます。<!--ensure this is right at or before GA-->

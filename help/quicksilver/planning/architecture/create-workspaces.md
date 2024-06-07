@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 73%
+source-wordcount: '635'
+ht-degree: 67%
 
 ---
 
@@ -111,19 +111,9 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. クリック **ワークスペースを作成**
 
-1. （条件付き）利用する環境にワークスペースがない場合、「**ワークスペースを作成**」をクリックします。
-
-   または、既存のワークスペースから、ワークスペース名の右側にある下向き矢印をクリックし、 **ワークスペースを作成**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   ワークスペースを作成ボックスが表示されます。 ワークスペースは、最初から作成することも、使用可能なテンプレートの 1 つを使用して作成することもできます。
 
 1. （オプションおよび条件付き）次の事前定義済みのワークスペーステンプレートのいずれかで「**プレビュー**」をクリックします。
 
@@ -131,17 +121,19 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
    * セールス管理
    * 製品管理
 
+   テンプレートのプレビューボックスが開きます。
+
    運用中のレコードタイプ、分類および各テンプレートに関連付けられているフィールドの数が示されます。
 
    ![](assets/previewing-a-workspace-template.png)
 
    Workfront Planning ワークスペーステンプレートについて詳しくは、[ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
 
-1. 「**テンプレートを使用**」をクリックして、選択したテンプレートからワークスペースの作成を開始します。
+1. テンプレートのプレビューボックスで、をクリックします **テンプレートを使用** 選択したテンプレートからのワークスペースの作成を開始するには
 
    または
 
-   「**ワークスペースを作成**」をクリックして、ワークスペースを最初から作成します。
+   クリック **戻る**&#x200B;を選択し、 **ワークスペースを作成** ワークスペースを最初から作成する。
 
    次のタイプのワークスペースの 1 つが作成されます。
 

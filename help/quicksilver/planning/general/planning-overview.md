@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 89%
+source-wordcount: '1932'
+ht-degree: 86%
 
 ---
 
@@ -281,14 +281,15 @@ Workfront Planning を検索するには、次の手順に従います。
 
 1. **Planning** ![](assets/planning-icon.png) をクリックします。
 
-   ワークスペースエリアが開きます。
+   Workfront計画のランディングページが開きます。
 
-   <!--replace above with: The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
-    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-    * **Other workspaces**: Displays all workspaces in the system.
-    Otherwise, all workspaces display in the **Workspaces** area.-->
+   ![](assets/planning-landing-page-admin.png)
+
+   1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
+   * **マイワークスペース**：作成したワークスペースが表示されます。
+   * **その他のワークスペース**：共有されているワークスペースを含む、システム内のその他すべてのワークスペースが表示されます。
+
+   その他のすべてのユーザーについては、ユーザーが作成または共有したすべてのワークスペースがに表示されます。 **ワークスペース** 領域。
 
 1. （オプションおよび推奨）次のいくつかの操作を続行して、作業構造を構築します。
 
