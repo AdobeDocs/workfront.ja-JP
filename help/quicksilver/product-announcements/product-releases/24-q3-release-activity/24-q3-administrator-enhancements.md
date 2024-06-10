@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 7%
+source-wordcount: '432'
+ht-degree: 9%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 7%
 以前は、オブジェクトは、サンドボックス環境やプレビュー環境とは別に、実稼動環境で設定する必要がありました。
 
 24.6 リリースで環境のプロモーションが開始されると、環境のプロモーションに関する詳細と手順が利用できるようになります。
+
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## カスタムフォームデザイナーでのカスタムフォームとカスタムフィールドの共有
 
