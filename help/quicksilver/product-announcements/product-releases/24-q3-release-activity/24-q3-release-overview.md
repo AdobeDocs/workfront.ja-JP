@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 51%
+source-wordcount: '1443'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 51%
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6 （2024 年 6 月 20 日（PT））</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
+>| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6 （2024 年 6 月 13 日（PT））</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
 >
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
@@ -64,7 +64,7 @@ ht-degree: 51%
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.6 リリースでは（2024 年 6 月 20 日（PT））</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.6 リリースでは（2024 年 6 月 13 日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -297,6 +297,24 @@ ht-degree: 51%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">より多くのWorkfront組織でAdobeの統合エクスペリエンスを利用できるようになりました</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Adobeの統合エクスペリエンスのメリットに企業がアクセスできるように、既存のWorkfrontのお客様が利用できるようにする準備を始めました。 </p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年6月13日（PT）</p>
+                            </li>
+                            <li>
+                                <p>特定のお客様の実稼働環境：24.7 リリースの場合（2024 年 7 月）</p>
+                            </li>
+                         </ul>
+                         <span style="color: #ff0000;">Adobe統合シェルは、段階的なロールアウトで使用可能になります。 その他の組織は、24.10 および 25.1 リリースでAdobe統合シェルにオンボーディングされます。 </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">メインナビゲーションバーから「ヘルプ」ボタンが削除されました</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>統合シェル以外のユーザーのエクスペリエンスを統一するために、メインナビゲーションバーの「ヘルプ」ボタンが削除されました。 このボタンはWorkfrontのドキュメントにリンクされており、統合シェルのユーザーには表示されず、メインメニューのすべてのユーザーが利用できる同様のヘルプボタンと重複していました。</p>
@@ -307,7 +325,7 @@ ht-degree: 51%
                                 <p>プレビューリリース：2024年6月6日（PT）</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼動：24.6 リリースの場合（2024 年 6 月 20 日（PT））</p>
+                                <p>迅速リリースの実稼動：24.6 リリースの場合（2024 年 6 月 13 日（PT））</p>
                             </li>
                             <li>
                                 <p>四半期リリースの実稼動：24.7 リリースと共に（2024 年 7 月）</p>

@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->24.6 リリース（2024 年 6 月 20 日（PT））では、環境プロモーションがサンドボックス、プレビューおよび実稼動環境で利用できるようになります。
+>24.6 リリース（2024 年 6 月 13 日（PT））では、環境プロモーションがサンドボックス、プレビューおよび実稼動環境で利用できるようになります。
 
 環境のプロモーションにより、サンドボックス環境から実稼動環境など、あるWorkfront環境から別の環境にオブジェクトを移動できます。 組織のデータやレコードにリスクを与えることなく、オブジェクトを設定およびテストできます。 その後、これらのオブジェクトを再構成することなく実稼動環境に移動できるため、時間と労力を節約できます。
 
