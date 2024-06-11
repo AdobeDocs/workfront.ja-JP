@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 17%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 16%
 このページでは、2024 年第 3 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
-
-既にメッセージを送信しています – NOLAN は無視できます
 
 ## より多くのWorkfront組織でAdobeの統合エクスペリエンスを利用できるようになりました
 
@@ -47,7 +45,7 @@ Adobe Unified Experience には次の内容が含まれます。
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 6 月 6 日（PT）、高速リリースの実稼動：24.6 リリースを含む（2024 年 6 月 13 日（PT））、四半期リリースの実稼動：24.7 リリースを含む（2024 年 7 月）
+>プレビューリリース：2024 年 6 月 6 日（PT）、すべてのお客様向けの実稼動：24.7 リリースで（2024 年 7 月）
 
 統合シェル以外のユーザーのエクスペリエンスを統一するために、メインナビゲーションバーの「ヘルプ」ボタンが削除されました。 このボタンはWorkfrontのドキュメントにリンクされており、統合シェルのユーザーには表示されず、メインメニューのすべてのユーザーが利用できる同様のヘルプボタンと重複していました。
 
