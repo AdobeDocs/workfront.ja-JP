@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1008'
 ht-degree: 51%
 
 ---
@@ -31,6 +31,8 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
    * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 * Workfront API を使用してこのプロセスを実行する手順については、を参照してください。 [間でオブジェクトを移動 [!DNL Workfront] を使用した環境 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## 環境のプロモーションでサポートされるオブジェクト
 

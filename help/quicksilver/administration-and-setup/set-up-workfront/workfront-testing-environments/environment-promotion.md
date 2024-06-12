@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2095'
 ht-degree: 88%
 
 ---
@@ -35,7 +35,7 @@ Workfront アプリケーションを使用して環境間でオブジェクト�
   <tr>
    <td><strong>[!DNL Adobe Workfront] プラン</strong>
    </td>
-   <td> 組織が新しい価格モデルを採用し、Prime または Ultimate プランを保有している必要があります。
+   <td> Prime または Ultimate （新規プランのみ）
    </td>
   </tr>
   <tr>
