@@ -8,14 +8,12 @@ description: 環境プロモーション機能の目的は、設定関連オブ�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 5%
+source-wordcount: '859'
+ht-degree: 9%
 
 ---
 
@@ -29,9 +27,36 @@ ht-degree: 5%
 >
 >環境の昇格のためにオブジェクトを設定している間にカスタム更新サンドボックスが更新されると、その設定は更新時に失われます。 未処理の環境プロモーションオブジェクトおよびパッケージがすべて正常に昇格されない限り、カスタム更新サンドボックスを更新しないことをお勧めします。
 
+## アクセス要件
+
+以下が必要です。
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] プラン</strong>
+   </td>
+   <td> 組織が新しい価格モデルを採用し、Prime または Ultimate プランを保有している必要があります。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>アクセスレベル設定
+   </td>
+   <td>[!DNL Workfront] 管理者である必要があります。
+   </td>
+  </tr>
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
 ## 前提条件
 
-パッケージをインストールするには、事前にパッケージを作成しておく必要があります。
+環境プロモーションパッケージは、インストールする前に作成する必要があります。
 
 手順については、を参照してください [環境プロモーションパッケージを作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 

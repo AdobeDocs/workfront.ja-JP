@@ -4,24 +4,22 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: ある環境から別の環境にオブジェクトを移動する
-description: 環境のプロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。トランザクションオブジェクトを移動する機能はサポートしていません（限定的な例外はあります）。
+description: 環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。トランザクションオブジェクトを移動する機能はサポートしていません（限定的な例外はあります）。
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 89%
+source-wordcount: '2105'
+ht-degree: 88%
 
 ---
 
 # [!DNL Workfront] Environment Promotion API を使用して [!DNL Workfront] 環境間でオブジェクトを移動する
 
-環境のプロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。この記事の説明に従って、Workfront API を使用してこれらのオブジェクトを移動できます。
+環境プロモーション機能を使用すると、設定関連のオブジェクトを環境間で移動できます。 この記事の説明に従って、Workfront API を使用してこれらのオブジェクトを移動できます。
 
 Workfront アプリケーションを使用して環境間でオブジェクトを移動する手順については、以下を参照してください。
 
@@ -29,15 +27,40 @@ Workfront アプリケーションを使用して環境間でオブジェクト�
 * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## アクセス要件
+
+以下が必要です。
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] プラン</strong>
+   </td>
+   <td> 組織が新しい価格モデルを採用し、Prime または Ultimate プランを保有している必要があります。
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>アクセスレベル設定
+   </td>
+   <td>[!DNL Workfront] 管理者である必要があります。
+   </td>
+  </tr>
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
 プロモーションパッケージを作成するエンドポイントは、既にソース環境が設定されていることを前提としています。この API 呼び出しでは、手動で [!DNL Workfront] objCodes のオブジェクトマップとオブジェクトの GUID を作成します。このマップの具体的な構造を以下に示します。
 
-## 環境のプロモーションでサポートされているオブジェクト
+## 環境のプロモーションでサポートされるオブジェクト
 
-環境のプロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。トランザクションオブジェクトを移動する機能はサポートしていません（限定的な例外はあります）。
+環境プロモーション機能は、設定関連のオブジェクトを環境間で移動する機能を提供することを目的としています。トランザクションオブジェクトを移動する機能はサポートしていません（限定的な例外はあります）。
 
 プロモーション可能なオブジェクトとこれに含まれるプロモーション可能なサブオブジェクトのリストについては、[Workfront 環境間でのオブジェクトの移動の概要](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)の記事の[環境のプロモーションでサポートされているオブジェクト](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)を参照してください。
 
@@ -49,7 +72,7 @@ API はリクエストごとに認証を行い、リクエストされたオブ�
 
 ### リクエストヘッダー認証
 
-推奨される認証方法は、セッショントークンを含む SessionID という名前のリクエストヘッダーを渡すことです。[クロスサイトリクエストフォージェリー（CSRF）](https://en.wikipedia.org/wiki/Cross-site_request_forgery)攻撃に対して安全で、キャッシュ目的で URI に干渉することがありません。
+推奨される認証方法は、セッショントークンを含む SessionID という名前のリクエストヘッダーを渡すことです。[クロスサイトリクエストフォージェリー（CSRF）](https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%AA)攻撃に対して安全で、キャッシュ目的で URI に干渉することがありません。
 
 リクエストヘッダーの例を次に示します。
 
@@ -85,7 +108,7 @@ SessionID: abc1234
 
 最初のステップでは、「ASSEMBLING」ステータスの空のプロモーションパッケージが作成されます。
 
-2 番目のステップでは、POST 本文で指定された `objectCollections` 配列を使用して、Workfront に要求されたレコードを組み立てます。要求されたレコードの数と Workfront の設定によっては、このステップが完了するまでに数分かかる場合があります。このプロセスの終わりに、空のプロモーションパッケージに `packageEntities` が反映され、ステータスが自動的に「ドラフト」に設定されます。
+2 番目のステップでは、POST 本文で指定された `objectCollections` 配列を使用して、Workfront に要求されたレコードを組み立てます。要求されたレコードの数と Workfront の設定によっては、このステップが完了するまでに数分かかる場合があります。このプロセスの終わりに、空のプロモーションパッケージに `packageEntities` が反映され、ステータスが自動的に「DRAFT」に設定されます。
 
 
 >[!NOTE]
@@ -94,9 +117,9 @@ SessionID: abc1234
 >
 >配列内の各項目には、Workfront API エクスプローラーに記載されているオブジェクトコードに対応する `objCode` キーが含まれます。
 >
->各項目には `entities` コレクションも含まれています。これは、`ID` フィールドを想定しています。また、`ID` が何を示しているかを分かりやすくするため、オプションで `name` 属性を指定することもできます。
+>また、各項目には `entities` コレクションも含まれています。これは、`ID` フィールドを想定しています。また、`ID` で表されている内容がわかりやすくなるように、オプションの `name` 属性を指定することもできます。
 >
->`objectCollections` リストで要求できるオブジェクトコードのリストについては、この記事の[環境のプロモーションでサポートされているオブジェクト](#supported-objects-for-environment-promotion)の節を参照してください。
+>`objectCollections` リストで要求できるオブジェクトコードのリストについては、この記事の[環境プロモーションでサポートされているオブジェクト](#supported-objects-for-environment-promotion)の節を参照してください。
 
 #### URL
 
@@ -251,7 +274,7 @@ _空_
 }
 ```
 
-&lt;!-- 前述の「ステータス」を確認 - 追加しましたか？-->
+&lt;!-- 前述の「ステータス」を確認します--追加しましたか？-->
 
 ### ID でパッケージを取得
 
@@ -654,9 +677,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 >[!IMPORTANT]
 >
->インストールを実行する前に、事前実行を実行する必要があります。インストールを実行する際は、事前実行で生成された ID を使用します。
+>インストールを実行する前に、事前実行を実行する必要があります。インストールを実行する際に、事前実行で生成された ID を使用します。
 >
->事前実行の実行後に宛先環境（パッケージのデプロイ先の環境）に変更を加えた場合は、再度事前実行を実行することをお勧めします。事前実行を再度実行しない場合、実行が正確に完了しないか、インストールが失敗する場合があります。
+>事前実行の実行後に、宛先環境（パッケージのデプロイ先の環境）に変更を行った場合は、再度事前実行を実行することをお勧めします。事前実行を再度実行しない場合、実行が正確に完了しないか、インストールが失敗する場合があります。
 >
 >事前実行の実行手順について詳しくは、[事前実行の実行](#execute-a-pre-run)を参照してください。
 
@@ -725,7 +748,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
   </tbody> 
 </table>
 
-結果には、パッケージがデプロイされた、すべての環境のインストールイベントが含まれます。ここに含まれるイベントはリクエストが行われた環境へのインストールに限定されないので、このパッケージを受け取った環境を識別できます。
+結果には、パッケージがデプロイされた、すべての環境のインストールイベントが含まれます。リクエストされた環境へのインストールに限定されません。これにより、このパッケージを受け取った環境を識別できます。
 
 #### URL
 
@@ -816,13 +839,13 @@ _空_
 
 この呼び出しは、特定のインストール用にインストールサービスで生成された最終的な `translationMap` を返します。
 
-各レコードは、設定された `action` は何か、およびそのアクションが成功したかどうかを示します。
+各レコードは、設定された `action` について、そして、そのアクションがが成功したかどうかを示します。
 
-CREATE `action` を含むレコードの場合、`targetId` フィールドは、ターゲットシステムで新しく作成されたレコードの値で設定されます。また、`installationStatus` フィールドが「インストール済み」に設定されます。
+CREATE `action` を含むレコードの場合、`targetId` フィールドは、ターゲットシステムで新しく作成されたレコードの値で設定されます。また、`installationStatus` フィールドが INSTALLED に設定されます。
 
-USEEXISTING `action` を含むレコードの場合、`targetId` フィールドも設定され、`installationStatus` フィールドが「登録済み」に設定されます。これは、マッピングプロセスが完了しており、レコードが評価済みで対応が不要であるインストールサービスが確認していることを表します。
+USEEXISTING `action` を含むレコードの場合、`targetId` フィールドも設定され、`installationStatus` フィールドが REGISTERED に設定されます。これは、マッピングプロセスが完了し、インストールサービスがレコードを評価して、何も操作が必要ないことを確認します。
 
-レコードに CREATE `action` があるにもかかわらず、レコードが正常に作成されなかった場合、`installationStatus` は「失敗」に設定され、失敗の理由も提示されます。
+レコードに CREATE `action` があるにもかかわらず、レコードが正常に作成されなかった場合、`installationStatus` は FAILED に設定され、失敗の理由も提示されます。
 
 #### URL
 
