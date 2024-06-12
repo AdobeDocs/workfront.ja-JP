@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '3287'
-ht-degree: 85%
+source-wordcount: '3360'
+ht-degree: 83%
 
 ---
 
@@ -382,9 +382,9 @@ Workfront Planning のフィールドの詳細については、を参照して�
 
    >[!NOTE]
    >
-   > 複数選択タイプのフィールドは、式に追加できません。
-
-
+   >* 複数選択タイプのフィールドは、式に追加できません。
+   >
+   >* 現在のレコードタイプから最大 4 レベル離れたフィールドを参照できます。 例えば、アクティビティレコードタイプの数式フィールドを作成し、アクティビティが、Workfront プロジェクトに接続されたキャンペーンレコードタイプに接続された製品レコードタイプに接続されている場合、アクティビティレコードタイプに作成している数式でプロジェクト所有者を参照できます。
 
 1. 「**作成**」をクリックします。
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 84%
@@ -117,6 +117,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
   >[!NOTE]
   >
   > 一部のビュー要素は、すべてのビューで使用できるわけではありません。
+
 
 ## レコードビューの類似点と相違点
 
