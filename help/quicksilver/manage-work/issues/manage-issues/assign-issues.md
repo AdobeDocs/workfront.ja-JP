@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '1551'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 <span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
-ユーザー、役割、およびチームにイシューを割り当てて、イシューの完了担当者を指定できます。問題の割り当てに関する一般的な情報については、を参照してください [イシューの割り当て変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+ユーザー、役割、およびチームにイシューを割り当てて、イシューの完了担当者を指定できます。イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
 
 >[!TIP]
 >
@@ -36,7 +36,7 @@ ht-degree: 96%
 イシューの割り当てに関して詳しくは、この記事に加え、以下の記事を読むことをお勧めします。
 
 * [イシューの割り当て変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
-* [イシューを編集](../../../manage-work/issues/manage-issues/edit-issues.md)
+* [イシューの編集](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [リスト内の複数のイシューに対するユーザー割り当てを変更](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [スマート割り当てを実行](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
@@ -62,7 +62,7 @@ ht-degree: 96%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -128,10 +128,10 @@ ht-degree: 96%
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
      <span class="preview">プレビュー環境のサンプル画像：</span>
-     ![割り当て検索](assets/assignments-expanded-in-task-issue-header.png)
+     <span class="preview">![割り当て検索](assets/smart-assignments-issue-header.png)</span>
 
    * （条件付き）**提案された割り当て**&#x200B;リスト内の名前の 1 つをクリックします。
-   * クリック **自分に割り当て** 自分に割り当てる
+   * 「**自分に割り当て**」をクリックして、自分に割り当てる
    * 「**詳細**」をクリックします。
 
      高度な割り当ての作成は、タスクやイシューに似ています。高度な割り当てを行う方法について詳しくは、[高度な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。

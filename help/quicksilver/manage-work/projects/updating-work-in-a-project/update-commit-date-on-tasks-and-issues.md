@@ -6,17 +6,21 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 55%
+source-wordcount: '635'
+ht-degree: 57%
 
 ---
 
 
 # タスクやイシューのコミット日の更新
 
-{{highlighted-preview}}
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
@@ -35,12 +39,12 @@ ht-degree: 55%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    新しいライセンスの場合：
    <ul>
-   <li><p>タスクの場合は標準</p> </li>
-   <li><p>イシューの場合はコントリビューター以上</p></li>
+   <li><p>タスクの標準</p> </li>
+   <li><p>イシューの場合は Contributor 以上</p></li>
    </ul>
    現在のライセンスの場合：
 <ul>
@@ -61,7 +65,7 @@ ht-degree: 55%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 

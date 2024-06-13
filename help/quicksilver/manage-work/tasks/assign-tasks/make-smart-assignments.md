@@ -6,10 +6,10 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 90%
+source-wordcount: '603'
+ht-degree: 81%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 90%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準</p>
       または
       <p>現在：ワーク以上</p> </td> 
@@ -75,22 +75,29 @@ ht-degree: 90%
 
 1. 「割り当て」フィールドにポインタを合わせ、2 秒間待ちます。
 
-   <span class="preview">**提案された割り当て**&#x200B;リストが表示されます。</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   スマート割り当て候補が表示された次のセクションの 1 つまたは複数が表示されます。
 
-   >[!TIP]
-   >
-   >   リストのヘッダーには、イシューリストの&#x200B;**提案された割り当て**&#x200B;の代わりに&#x200B;**レコメンデーション**&#x200B;が表示されます。
+   * **提案された割り当て**：タスクに関する表示。
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   リストヘッダーが表示されます **推奨事項を次に示します** の代わりに **提案された割り当て** 実稼動環境で上書きできます。
+     >
+   * **その他の割り当て**：タスクおよび問題に関する表示です。
+   * **ユーザーとチーム**：タスクおよび問題に関する表示です。
+   * **担当業務**：タスクおよび問題に対して表示します。
+   </div>
 
-   イシューについては、**提案された割り当て**&#x200B;エリアにスマート割り当ての提案が表示されます。
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    タスクについては、割り当てが特定されたアルゴリズムの計算のフェーズに応じて、スマート割り当てが次のセクションに表示されます。
 
    * **提案された割り当て**：タスクスマート割り当てのアルゴリズム計算の最初のフェーズで特定された割り当て。 <span class="preview">このセクションは、問題に対しては使用できません。</span>
-   * <span class="preview">**その他の割り当て** （または **ユーザーとチーム**、または **担当業務**）：タスクスマート割り当てのアルゴリズム計算の第 2 段階で識別された割り当て。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**その他の割り当て**, **ユーザーとチーム**、または **担当業務**：タスクスマート割り当てのアルゴリズム計算の第 2 段階で特定された割り当て。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 

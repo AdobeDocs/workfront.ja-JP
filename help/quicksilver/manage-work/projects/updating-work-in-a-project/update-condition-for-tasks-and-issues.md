@@ -6,16 +6,20 @@ description: タスクまたはイシューの状況は、進行状況を示す�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 67%
 
 ---
 
 # タスクおよびイシューの条件の更新
 
-{{highlighted-preview}}
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 タスクまたはイシューの状況は、進行状況を示すために配置されたフラグです。これは、作業項目の現在の開発段階を示す作業項目のステータスとは異なります。
 
@@ -36,12 +40,12 @@ ht-degree: 67%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>
 
 新しいライセンスの場合：
-<ul><li><p>タスクの場合は標準</p></li>
-   <li><p>イシューの場合はコントリビューター以上</p></li></ul>
+<ul><li><p>タスクの標準</p></li>
+   <li><p>イシューの場合は Contributor 以上</p></li></ul>
 
 
 現在のライセンスの場合：
@@ -62,7 +66,7 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
@@ -136,7 +140,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 「タスクまたは問題の詳細」セクションでタスクまたは問題の条件を更新するには：
 
-   1. （条件付き）Workfrontまたはグループ管理者が、レイアウトテンプレートのタスクまたはイシューの「詳細」セクションに「条件」フィールドを追加した場合は、 **詳細** 左側のパネルで、 **条件** フィールドに入力し、次のオプションから選択します。
+   1. （条件付き）Workfrontまたはグループ管理者が、レイアウトテンプレートのタスクまたはイシューの「詳細」セクションに「条件」フィールドを追加した場合は、 **詳細** 左側のパネルで、 **タスクの条件** または **問題の条件** 次のいずれかのオプションを選択します。
       * 順調
       * やや心配
       * 深刻な障害
