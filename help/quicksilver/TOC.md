@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14351'
 ht-degree: 97%
 
 ---
@@ -2744,6 +2744,7 @@ ht-degree: 97%
       * [OPTASK copyIssue のオプション設定](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [通貨が null（割り当てられていない）の場合に、プロジェクトの通貨情報を取得する](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [API を使用したリンクされたフォルダーの追加がサポートされていない](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [ドキュメントの moveToFolder アクションが機能しない](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * ProofHQ API {#proofhqpapi}
    * [ProofHQ API](proofhq-api/proofhq-api.md)
    * 一般 {#general}

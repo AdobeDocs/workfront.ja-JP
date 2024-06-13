@@ -6,9 +6,11 @@ description: この記事では、新しいコメント作成エクスペリエ�
 author: Alina
 feature: Product Announcements
 role: User, Admin
+hide: true
+hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
-workflow-type: ht
+source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
