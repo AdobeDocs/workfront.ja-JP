@@ -3,7 +3,7 @@ title: 「[!DNL Adobe Workfront] ドキュメント」
 description: ' [!DNL Adobe Workfront] のドキュメント。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 16188f45a52397eb769d2dc32c3d62b291217349
+source-git-commit: 4608c16faa94293735360d426c6056e5f4efb2a3
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 16%
@@ -48,9 +48,9 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 <table>
 
 <tr tr style="border: 0;">
-    <td style="text-align: center;"><img src="assets/admin.svg" style="width: 300px; height: 300px;"><p><b>管理者</b></p></td>
-    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 300px; height: 300px;"><p><b>ユーザー</b></p></td>
-    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 300px; height: 300px;"><p><b>開発者</b></p></td>
+    <td style="text-align: center;"><img src="assets/admin.svg" style="width: 80px; height: 80px;"><p><b>管理者</b></p></td>
+    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 75px; height: 75px;"><p><b>ユーザー</b></p></td>
+    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 80px; height: 80px;"><p><b>開発者</b></p></td>
   </tr>
   <tr tr style="border: 0;">
     <td>
