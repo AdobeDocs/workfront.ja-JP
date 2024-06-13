@@ -3,108 +3,100 @@ title: 「[!DNL Adobe Workfront] ドキュメント」
 description: ' [!DNL Adobe Workfront] のドキュメント。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 02566b4ab08873fd45afb902ece3fedcecbaa9ee
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 60%
+source-wordcount: '335'
+ht-degree: 16%
 
 ---
 
 # [!DNL Workfront] ドキュメント
 
-Adobe Workfront 製品および技術ドキュメントのホームページへようこそ。Adobe Workfrontは、作業のライフサイクル全体を 1 か所で管理するのに役立つ作業管理アプリケーションです。
+Adobe Workfront 製品および技術ドキュメントのホームページへようこそ。Adobe Workfrontを実装し、組織内で効果的に使用する方法については、次のAdobe Workfront リンク、ヘルプ記事、その他のリソースを参照してください。
 
-組織でAdobe Workfrontを実装し効果的に使用する方法を学ぶには、次のAdobe Workfrontのヘルプ記事とその他のリソースを使用します。
+## 最新情報
 
-次の節では、一般的な職務に基づいて対象オーディエンスごとに整理された、このガイド内の役立つリンクを示します。
+>[!BEGINTABS]
 
-## 管理者
+>[!TAB 最新リリース]
 
-### Workfront 管理者の基本を学ぶ
+* [2024年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
-Adobe Workfront 管理の学習を開始します。
+>[!TAB 2024 年リリース]
 
-[Adobe Workfront 管理の基本を学ぶ](/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)を参照してください。
+* [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+* [2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+* [2024年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
-### Adobe Workfront Fusion
+>[!TAB ベタス]
 
-Workfront Fusion は、アプリと web サービスをシームレスに接続しているので、同じタスクを何度も繰り返すことなく新しいタスクに集中できます。
+* [キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Workfrontと Frame.io の統合](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
-[Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/workfront-fusion-2.md) を参照してください。
+>[!TAB 既知の問題]
 
-## エンドユーザー
-
-### ユーザーの基本
-
-基本を習得して、Workfront を使い始めます。
-
-詳しくは、[Adobe Workfrontの基本](/help/quicksilver/workfront-basics/workfront-basics.md)を参照してください。
-
-### 作業管理
-
-Workfrontの強力な作業管理プロセスとツールを設定して使用する方法について説明します。
-
-詳しくは、 [作業を管理](/help/quicksilver/manage-work/manage-work.md)
+* [既知の問題](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
-### Workfront でのアジャイル
+>[!ENDTABS]
 
-Workfront のアジャイル機能により、チームは管理可能な少量の作業を一定のペースで完了できます。
 
-詳しくは、[アジャイルの概要](/help/quicksilver/agile/agile-overview.md)を参照してください。
+## ドキュメントを参照
 
-### ドキュメントの操作
+<table>
 
-ワークフローにドキュメントを追加して、エクスペリエンスを強化します。
+<tr tr style="border: 0;">
+    <td style="text-align: center;"><img src="assets/admin.svg" style="width: 100px; height: 100px;"><p><b>管理者</b></p></td>
+    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>ユーザー</b></p></td>
+    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 100px; height: 100px;"><p><b>開発者</b></p></td>
+  </tr>
+  <tr tr style="border: 0;">
+    <td>
+    <ul>
+    <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Workfront管理の基本を学ぶ</a></li>
+    <li><a href="/help/quicksilver/workfront-fusion/get-started/get-started.md">Workfront Fusion の基本を学ぶ</li>
+    </ul>
+ </td>
+    <td>
+        <ul>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Workfrontの概要</a></li>
+        <li><a href="/help/quicksilver/manage-work/manage-work.md">作業管理の基本を学ぶ</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">レポートとダッシュボードの基本を学ぶ</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">テキストモードの基本を学ぶ</a></li>
+        </ul>
+    </td>
+    <td><ul>
+        <li><a href="/help/quicksilver/agile/agile-overview.md">アジャイルの基本を学ぶ</a></li>
+        <li><a href="/help/quicksilver/documents/documents-overview.md">ドキュメントの基本を学ぶ</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">ワークロードバランサーの基本を学ぶ</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">レビューと承認の基本を学ぶ</a></li>
+        </ul></td>
+    <td><ul>
+        <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API の基本</a></li>
+        <li><a href="https://developer.adobe.com/workfront/api-explorer/">API エクスプローラー</a></li>
+        <li><a href="/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md">Workfront統合</a></li>
+        </ul></td>
+  </tr>
+</table>
 
-詳しくは、 [ドキュメント](/help/quicksilver/documents/documents-overview.md).
+## Experience League内のコンテンツを見つけるためのヒント
 
-### レポート
+いくつかの戦略的アプローチを使用すると、ドキュメントの検索をより効率的に行うことができます。 必要な情報を効果的に見つけるために役立つヒントを以下に示します。
 
-既存の情報を読みやすい形式で表示し、すべての関係者と共有するには、レポートとダッシュボードを使用します。
+### 目次と検索バーの使用
 
-詳しくは、 [レポートとダッシュボード：記事インデックス](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+* **目次**：目次から始めて、使用可能なトピックの概要を取得し、セクションを展開して特定のトピックに絞り込みます。
+* **検索バー**：検索バーを使用してドキュメントを検索します。 イシューまたはトピックに関連する特定の用語を入力します。 「プロジェクト管理」などの一般的な用語の代わりに、「プロジェクトタイムラインの設定」や「タスクの依存関係」を使用します。
 
-#### テキストモードのレポート
+![](assets/exl-site-nav.png)
 
-Workfront で必要なレポートの作成方法がわからない場合は、テキストモードを使用して探しているソリューションが見つかる可能性があります。
+### ラーニングとトレーニングのセクションを検索
 
-詳しくは、 [テキストモードのリソース：記事のインデックス](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+* **トレーニング資料**：に移動します。 [Workfront トレーニング](https://experienceleague.adobe.com/en/browse/workfront) Workfrontの機能と設定をより深く理解できるように設計されたトレーニングビデオと記事のライブラリのページ。 また、次の URL から有料トレーニング資料にアクセスできます。 [learning.adobe.com](http://learning.adobe.com/).
+* **コース**：検索 [構造化された学習コース](https://experienceleague.adobe.com/home?Solution=Workfront#courses) このガイドに従って、様々なWorkfront機能を論理的な順序で使用できます。
 
-### ワークロードバランサー
+### コミュニティフォーラムで回答を検索
 
-Workfront でリソースをスケジュールする代わりに、ワークロードバランサーを使用します。
-
-詳しくは、 [ワークロードバランサー：記事インデックス](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
-
-### Adobe Workfront Goals
-
-戦略を作業に合わせて調整し、AdobeWorkfront 目標を使用して連携を図り、成功を収めます。
-
-詳しくは、 [Adobe Workfront目標](/help/quicksilver/workfront-goals/workfront-goals.md).
-
-## 開発者
-
-### API の基本
-
-Workfront API の基本について説明します。
-
-詳しくは、[API の基本](/help/quicksilver/wf-api/general/api-basics.md)を参照してください。
-
-### API エクスプローラー
-
-Adobe Workfront API を通じて利用可能なすべてのオブジェクトを API エクスプローラーに表示できます。
-
-[developer.adobe.com の Workfront API Explorer](https://developer.adobe.com/workfront/api-explorer/) を参照してください。
-
-### Workfront統合
-
-Workfrontを他のシステムと統合することで、すべてのアプリケーションに 1 か所でアクセスできます。
-
-詳しくは、 [Adobe Workfront統合](/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md).
-
-## Workfront リリース情報
-
-Workfront の新機能に関する詳細をご覧ください。
-
-詳しくは、[Workfront 製品リリース](/help/quicksilver/product-announcements/product-releases/product-releases.md)を参照してください。
+* **質問する**：ドキュメントが質問に答えない場合は、に投稿してみてください [Workfront コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) 他のユーザーや専門家が支援を提供できる場所。
