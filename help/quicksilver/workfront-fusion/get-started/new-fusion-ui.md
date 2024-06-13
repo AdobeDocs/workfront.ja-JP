@@ -7,10 +7,10 @@ description: Workfront Fusion は、Adobe Experience Cloudから Fusion にア�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 51%
+source-wordcount: '409'
+ht-degree: 48%
 
 ---
 
@@ -20,7 +20,8 @@ Workfront Fusion は、Adobe Experience Cloudから Fusion にアクセスしな
 
 >[!IMPORTANT]
 >
->従来の Fusion エクスペリエンスは、2024 年 8 月 15 日（PT）に廃止されます。
+>* 従来の Fusion エクスペリエンスは、2024 年 8 月 15 日（PT）に廃止されます。
+>* 初めて読み込む場合、新しい Fusion エクスペリエンスの読み込みに時間がかかる場合があります（30～60 秒）。 初回の後、Fusion はより迅速に読み込まれます。
 
 ## アクセス要件
 
