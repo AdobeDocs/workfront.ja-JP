@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 77%
@@ -16,8 +16,6 @@ ht-degree: 77%
 ---
 
 # カスタムフォームを共有
-
-{{highlighted-preview}}
 
 カスタムフォームへのアクセスを設定して、フォームの表示、共有、編集を行えるユーザー／役割／グループ／チーム／会社を制御できます。
 
@@ -109,8 +107,6 @@ ht-degree: 77%
 
 1. 「**保存**」をクリックします。
 
-<div class="preview">
-
 ## フォームデザイナーからのカスタムフォームの共有
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ ht-degree: 77%
    >特定のオブジェクトに添付されたときにユーザーが機密データを入力する場合があるカスタムフォームを使用する場合、これらの&#x200B;*オブジェクト*&#x200B;の共有を制限する方がフォーム自体へのアクセスを制限するよりも効果的な場合があります。
 
 1. 「**保存**」をクリックします。
-
-</div>
 
 ## フォームのリストからカスタムフォームへのアクセス権を削除する
 
