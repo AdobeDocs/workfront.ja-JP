@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 9%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -28,15 +28,20 @@ ht-degree: 9%
 
 以前は、オブジェクトは、サンドボックス環境やプレビュー環境とは別に、実稼動環境で設定する必要がありました。
 
-24.6 リリースで環境のプロモーションが開始されると、環境のプロモーションに関する詳細と手順が利用できるようになります。
+環境のプロモーションについて詳しくは、を参照してください。 [Workfront環境間でのオブジェクトの移動の概要（環境のプロモーション）](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>環境プロモーションは、新しい Prime または Ultimate プランの組織のみが利用できます。
+>
 
 ## カスタムフォームデザイナーでのカスタムフォームとカスタムフィールドの共有
 
 >[!NOTE]
 >
->プレビューリリース：2024年6月6日（PT）、実稼動版リリース（すべてのお客様向け）：未定
+>プレビューリリース：2024 年 6 月 6 日（PT）、すべてのお客様向けの実稼動リリース：6 月 13 日（PT）
 
 新しいフォームデザイナー内で、カスタムフォームとカスタムフィールドの両方を共有できるようになりました。 これにより、カスタムフォームのユーザー間の共同作業が促進されます。
 
