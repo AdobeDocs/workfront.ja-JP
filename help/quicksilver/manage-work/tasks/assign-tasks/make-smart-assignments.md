@@ -6,14 +6,16 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 81%
+source-wordcount: '620'
+ht-degree: 75%
 
 ---
 
 # スマート割り当ての実行
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
@@ -25,7 +27,7 @@ ht-degree: 81%
 
 スマート割り当ては、作業アイテムをリソースに割り当てる際に Adobe Workfront に表示される、ユーザー、役割またはチームに関する提案です。Workfront は、業務に最も適したリソースを決定するアルゴリズムに基づいて提案します。
 
-<span class="preview">Workfront には、タスク用とイシュー用に 2 つの異なるアルゴリズムがあります。</span>
+<span class="preview">Workfrontには、タスクとイシューに異なる機能を持つスマート割り当てを計算する 2 つの異なるアルゴリズムがあります。 </span>
 
 スマート割り当ての決定に使用される基準について詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
@@ -73,20 +75,20 @@ ht-degree: 81%
    * ホームエリアにリストされた項目の「割り当て」フィールド
    * ワークロードバランサーのタスクまたはイシュー
 
-1. 「割り当て」フィールドにポインタを合わせ、2 秒間待ちます。
+1. 「割り当て」フィールドにカーソルを置き、2 秒間待ちます。
 
    <div class="preview">
    スマート割り当て候補が表示された次のセクションの 1 つまたは複数が表示されます。
 
-   * **提案された割り当て**：タスクに関する表示。
+   * **提案された割り当て**：タスクに関する表示。 <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
      >   リストヘッダーが表示されます **推奨事項を次に示します** の代わりに **提案された割り当て** 実稼動環境で上書きできます。
      >
-   * **その他の割り当て**：タスクおよび問題に関する表示です。
    * **ユーザーとチーム**：タスクおよび問題に関する表示です。
    * **担当業務**：タスクおよび問題に対して表示します。
+   * **評価カードの担当業務**：タスクに関する表示。 詳しくは、を参照してください [評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -95,7 +97,7 @@ ht-degree: 81%
    タスクについては、割り当てが特定されたアルゴリズムの計算のフェーズに応じて、スマート割り当てが次のセクションに表示されます。
 
    * **提案された割り当て**：タスクスマート割り当てのアルゴリズム計算の最初のフェーズで特定された割り当て。 <span class="preview">このセクションは、問題に対しては使用できません。</span>
-   * <span class="preview">**その他の割り当て**, **ユーザーとチーム**、または **担当業務**：タスクスマート割り当てのアルゴリズム計算の第 2 段階で特定された割り当て。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**ユーザーとチーム**, **担当業務**、または **評価カードの担当業務**：タスクスマート割り当てのアルゴリズム計算の第 2 段階で特定された割り当て。 <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 

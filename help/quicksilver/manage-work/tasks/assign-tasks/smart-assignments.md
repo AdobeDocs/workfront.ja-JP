@@ -7,14 +7,16 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 95%
 
 ---
 
 # スマート割り当ての概要
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
@@ -122,7 +124,7 @@ ht-degree: 95%
 
   例えば、Rick が今日早くに類似のタスクに割り当てられ、Jennifer が 2 日前に類似のタスクに割り当てられた場合、Rick が最初に表示されます。
 
-* このフェーズで特定された割り当ては、    **提案された割り当て**  タスクの「割り当て」フィールドのセクション。
+* このフェーズで特定された割り当ては、    **提案された割り当て**  タスクの「割り当て」フィールドのセクション
 
 * この計算を使用して一致がない場合、スマート割り当ての第 2 フェーズが開始し、別のアルゴリズムを使用して計算されます。
 
@@ -132,7 +134,7 @@ ht-degree: 95%
 
 詳しくは、この記事の[タスクとイシューのスマート割り当て条件](#smart-assignments-criteria-for-tasks-and-issues)を参照してください。
 
-このフェーズで特定された割り当ては、   **その他の割り当て**, **ユーザーとチーム**、または **担当業務の割り当て**  タスクの「割り当て」フィールドのセクション。
+このフェーズで特定された割り当ては、 **ユーザーとチーム**, **担当業務の割り当て**、および **評価カードの役割**  「割り当て」フィールドのセクション 評価カードについて詳しくは、を参照してください。 [評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### タスクとイシューのスマート割り当て条件
 

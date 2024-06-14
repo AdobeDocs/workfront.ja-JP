@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 98%
+source-wordcount: '1553'
+ht-degree: 95%
 
 ---
 
 # イシューの割り当て
+
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
@@ -130,7 +132,7 @@ ht-degree: 98%
      <span class="preview">プレビュー環境のサンプル画像：</span>
      <span class="preview">![割り当て検索](assets/smart-assignments-issue-header.png)</span>
 
-   * （条件付き）**提案された割り当て**&#x200B;リスト内の名前の 1 つをクリックします。
+   * （条件付き）使用可能なリストの名前、役割、チームのいずれかをクリックします
    * 「**自分に割り当て**」をクリックして、自分に割り当てる
    * 「**詳細**」をクリックします。
 
@@ -143,10 +145,14 @@ ht-degree: 98%
      >ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。
      >
      >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
+     >
+
+     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. 「**保存**」をクリックして、イシューの割り当てを完了します。
-1. （オプション）イシューのヘッダーにある割り当てエリアで割り当て名の横にある「**X アイコン**」をクリックして、割り当てを削除します。
+1. （任意） **X アイコン** イシューのヘッダーにある「割り当て」領域の割り当て名の横に表示される、割り当てを削除するアイコン。
 
 ## リスト内のイシューを割り当てる
 

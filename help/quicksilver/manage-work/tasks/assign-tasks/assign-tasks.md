@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
 workflow-type: tm+mt
-source-wordcount: '2021'
-ht-degree: 98%
+source-wordcount: '2070'
+ht-degree: 93%
 
 ---
 
 # タスクを割り当て
+
+<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
@@ -51,6 +53,8 @@ ht-degree: 98%
 * [ワークロードバランサーでの作業割り当ての概要](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <!--drafted for P&P - replace table below with this:
 
@@ -112,6 +116,8 @@ ht-degree: 98%
 </table>
 
 *保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## 担当業務、チーム、ユーザーに対する複数の割り当てに関する考慮事項
 
@@ -191,10 +197,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
      >
-     ><span class="preview">担当業務の割り当てを追加する際に、担当業務や場所を検索することができます。割り当てにデフォルトの請求レートを使用する場合は、システム／デフォルトの担当業務を選択し、料金カードから請求レートを使用する場合は、料金カードの担当業務を選択します。料金カードに関して詳しくは、[料金カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。</span>
+     ><span class="preview">担当業務の割り当てを追加する際に、担当業務や場所を検索できます。担当業務リストから役割を選択して割り当てのデフォルトの請求レートを使用するか、レートカード担当業務を選択してレートカードの請求レートを使用します。 評価カードについて詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。</span>
 
 
-   * （条件付き）**提案された割り当て**&#x200B;リストが表示される場合は、このリスト中の名前のいずれかをクリックします。詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+   * （条件付き）内の名前のいずれかをクリックします <span class="preview">**提案された割り当て**, **ユーザーとチーム**、または **担当業務**、または **評価カードの役割**</span> リストが表示されます。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+
+     タスクに割り当てるユーザー、チーム、担当業務の名前の入力を開始し、リストに表示されたら選択できます。
 
    * 「**詳細**」をクリックします。
 
