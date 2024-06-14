@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: ファイルシステムから Adobe Workfront へのドキュメントの追加
-description: Adobe Workfrontの複数の領域で、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
+description: Adobe Workfront の複数のエリアで、プロジェクト、タスクまたはイシューにドキュメントを追加できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
+source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 97%
+source-wordcount: '766'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Workfront の次のエリアで、プロジェクト、タスクまたは�
 
 * グローバルドキュメント領域
 * Workfront オブジェクトのドキュメント領域
-* Workfrontボード上の接続済みカード
+* Workfront ボード上の接続されているカード
 
 また、新しいバージョンのドキュメントをアップロードし、Google Drive、Dropbox、Microsoft OneDrive など、サードパーティのクラウドベンダーからのドキュメントへのリンクを追加することもできます。新しいバージョンのドキュメントの追加について詳しくは、[新しいバージョンのドキュメントのアップロード](../../documents/managing-documents/upload-new-document-version.md)を参照してください。サードパーティのクラウドベンダーからのドキュメントの追加について詳しくは、[外部アプリケーションからのドキュメントのリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)を参照してください。
 
@@ -28,6 +28,8 @@ Workfront にアップロードできるファイルの種類とサイズに制�
 ドキュメントの新しいバージョンを Workfront にアップロードする方法について詳しくは、[新しいバージョンのドキュメントのアップロード](../../documents/managing-documents/upload-new-document-version.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -50,15 +52,19 @@ Workfront にアップロードできるファイルの種類とサイズに制�
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## Workfront へのドキュメントの追加
 
 ワークステーションのファイルシステムから、新しいドキュメントを Workfront に追加できます。また、Google Drive や SharePoint などのサードパーティアプリケーションからドキュメントをリンクすることもできます。
 
->[!NOTE]
+>[!IMPORTANT]
 >
->ドキュメントのアップロードではサイズ制限はありませんが、ドキュメントのダウンロードは 4 GB に制限されます。
+>* 一度に最大 150 個のドキュメントをアップロードできます。
+>* ファイルサイズに制限はありません。
+>* ドキュメントのダウンロードは 4 GB に制限されています。
 
 ドキュメントを追加するには：
 
