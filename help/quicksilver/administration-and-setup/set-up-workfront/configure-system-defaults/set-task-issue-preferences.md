@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 91%
+source-wordcount: '2074'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,8 @@ Linked to Converting Issues.-->
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -36,14 +38,14 @@ Linked to Converting Issues.-->
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規： [!UICONTROL Standard]</p>
+   <td><p>新規：[!UICONTROL Standard]</p>
    または
-   <p>現在： [!UICONTROL プラン ]</p></td> 
+   <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -52,7 +54,9 @@ Linked to Converting Issues.-->
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Workfront] 内の全員のタスクとイシューの環境設定を行う
 
@@ -60,7 +64,7 @@ Linked to Converting Issues.-->
 
 1. 左側のパネルで、**[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL タスクとイシュー]をクリックします。**
 
-1. 表示されたページで、次の 5 つのセクションのいずれかに進み、の設定を行います。 [!UICONTROL 新規タスクのデフォルト], [!UICONTROL 問題], [!UICONTROL 削除], [!UICONTROL 実際の日付]、および [!UICONTROL アクセス]:
+1. 表示されたページで、以下の 5 つのセクションのいずれかに進み、[!UICONTROL 新規タスクの初期設定]、[!UICONTROL イシュー]、[!UICONTROL 削除]、[!UICONTROL 実際の日付]、[!UICONTROL アクセス]の設定を行います。
 
    * [[!UICONTROL 新規タスクの初期設定]](#new-task-defaults)
    * [[!UICONTROL イシュー]](#issues)
@@ -70,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">作業する</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL アクセス]](#access)
 
@@ -90,7 +94,7 @@ Linked to Converting Issues.-->
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。次の場合に <strong>[!UICONTROL 売上高タイプ ]</strong> が <strong>[!UICONTROL 請求不可 ]</strong>計画時間と記録された実際の時間では、タスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの売上高には影響しません。</p> </td> 
+    <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。<strong>[!UICONTROL Revenue Type]</strong> が <strong>[!UICONTROL Not Billable]</strong> に設定されている場合、予定時間数と記録された実際の時間数ではタスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの収益には寄与しません。</p> </td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
@@ -114,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL イシューをタスクに変換する場合</td> 
+    <td role="rowheader" [!UICONTROL>イシューをタスクに変換する場合]</td> 
     <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。タスクが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。</p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 
@@ -122,7 +126,7 @@ Linked to Converting Issues.-->
           <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセスの許可</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a> </p> </li> 
         </ul> </p> </li> 
-      <li><strong>[!UICONTROLプライマリ連絡先にタスクへのアクセスを許可 ]</strong>：主要連絡先（イシューの作成者）がタスクに対する表示アクセス権を付与して、タスクをレビューし、その進行状況を常に把握し、タスクの「更新」セクションにコメントを付けます。</li> 
+      <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>：タスクを確認したり、その進捗を常に把握したり、タスクの「更新」セクションにコメントを付けたりできるように、プライマリ連絡先（イシュー作成者）にタスクに対する表示アクセス権を付与します。</li> 
       <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>：イシューを変換するユーザーが、イシューをタスクに変換する際に、これらのオプションを変更できます。</p></li> 
       </ul> </td> 
     </tr> 
@@ -135,7 +139,7 @@ Linked to Converting Issues.-->
           <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセスの許可</a> </p> </li> 
           <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a> </p> </li> 
         </ul> </p> </li> 
-      <li><strong>[!UICONTROLプライマリ連絡先がプロジェクトにアクセスできるようにする ]</strong>：主要連絡先（イシュー作成者）がプロジェクトに対する表示アクセス権を付与し、プロジェクトをレビューし、進行状況を常に把握し、プロジェクトの「更新」セクションにコメントを付けます。</li> 
+      <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>：プロジェクトを確認したり、進捗を常に把握したり、プロジェクトの「更新」セクションにコメントを付けたりできるように、プライマリ連絡先（イシュー作成者）にプロジェクトに対する表示アクセス権を付与します。</li> 
       <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>：イシューをプロジェクトに変換する際に、変換するユーザーがリストに表示されているオプションを変更できるようにします。</li> 
       </ul> </td>
     </tr> 
@@ -271,7 +275,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 >
 >[!DNL Workfront] 管理者がシステムレベルで環境設定のロックを解除すると、グループ管理者は環境設定を指定でき、そのグループとその下に属するサブグループの全員が同じ設定を使用するようにロックできます。これは、[!DNL Workfront] 管理者がシステム内のすべてのユーザーに対して環境設定を指定およびロックする操作と同じです。詳しくは、[グループのプロジェクト環境設定の指定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)および[サブグループのプロジェクト、タスクまたはイシューの環境設定をロックまたはロック解除](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md)を参照してください。
 
-タスクまたは問題の環境設定をグループで設定できるように、タスクまたは問題の環境設定をロックまたはロック解除するには、次の手順を実行します。
+タスクやイシューの設定をロックまたはロック解除して、グループが設定できるようにするには、次の手順に従います。
 
 {{step-1-to-setup}}
 

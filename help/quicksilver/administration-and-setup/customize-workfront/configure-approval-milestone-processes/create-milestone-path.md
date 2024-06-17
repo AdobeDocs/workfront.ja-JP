@@ -8,10 +8,10 @@ author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -36,15 +38,17 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## マイルストーンとマイルストーンパス
 

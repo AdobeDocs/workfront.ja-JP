@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
-ht-degree: 98%
+source-wordcount: '2338'
+ht-degree: 99%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 98%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -42,7 +44,7 @@ ht-degree: 98%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -56,6 +58,8 @@ ht-degree: 98%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## カスタムフォームへのカスタムフィールドの追加 {#add-custom-field-to-custom-form}
 
@@ -82,7 +86,7 @@ ht-degree: 98%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">書式付きテキストフィールド</td> 
-      <td>フィールドに複数行のテキストを入力し、太字、斜体、下線、箇条書き、番号付きリスト、ハイパーリンクおよびブロック引用符でテキストを書式設定できます。これは、Workfront オブジェクトのホーム、更新エリア、リストおよび詳細エリアで使用できます。文字数の上限が 15,000 字なので、たくさんのテキストと書式設定を入力できます。</p> <p>このカスタム フィールド タイプは、リストおよび報告書のフィルターではサポートされていません。</p> <p>API を使用したこのフィールドへのアクセスについては、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API でのリッチテキストフィールドの保存</a>を参照してください。</p> <p><b>メモ</b>：書式付きテキストフィールドは、Workfront モバイルアプリでは使用できません。 </p> </td> 
+      <td>フィールドに複数行のテキストを入力し、太字、斜体、下線、箇条書き、番号付きリスト、ハイパーリンクおよびブロック引用符でテキストを書式設定できます。これは、Workfront オブジェクトのホーム、更新エリア、リストおよび詳細エリアで使用できます。文字数の上限が 15,000 字なので、たくさんのテキストと書式設定を入力できます。</p> <p>このカスタムフィールドタイプは、リストとレポートのフィルターではサポートされていません。</p> <p>API を使用したこのフィールドへのアクセスについては、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">API でのリッチテキストフィールドの保存</a>を参照してください。</p> <p><b>メモ</b>：書式付きテキストフィールドは、Workfront モバイルアプリでは使用できません。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ドロップダウン</td> 
@@ -133,7 +137,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >チェックボックスやドロップダウンなど、複数の選択が可能なフィールドは、レポートでのグラフ化やグループ化が困難です。レポートでのグラフ化とグループ化を容易にするために、各選択肢に対して個別のフィールド（1 行テキストフィールドなど）を作成できます。
+   >チェックボックスやドロップダウンなど、複数の選択が可能なフィールドは、レポートでのグラフ化やグループ化が困難です。レポートでのグラフ化とグループ化を容易にするために、各選択肢に対して個別のフィールド（1 行のテキストフィールドなど）を作成できます。
 
 1. 「**フィールド設定**」タブで、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 

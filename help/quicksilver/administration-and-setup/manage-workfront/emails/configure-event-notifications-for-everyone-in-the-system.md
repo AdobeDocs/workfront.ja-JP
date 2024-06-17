@@ -5,10 +5,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -45,7 +47,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準</p>
  <p>または</p> 
 <p>現在：プラン</p> 
@@ -60,9 +62,11 @@ ht-degree: 100%
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
+
 ## すべてのユーザーへのイベント通知の設定
 
-ユーザーが自分のプロファイルで通知を有効または無効にするには、まず Workfront の設定エリアで通知を有効にする必要があります。
+ユーザーが自分のプロファイルで通知を有効または無効にするには、まず管理者が Workfront の設定エリアで通知を有効にする必要があります。
 
 >[!TIP]
 >

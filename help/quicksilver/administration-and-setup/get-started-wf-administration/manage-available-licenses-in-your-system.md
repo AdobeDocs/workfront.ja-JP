@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 90%
+source-wordcount: '1198'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 90%
 Adobe Workfront 管理者は、組織で購入したライセンスの数や現在使用しているライセンスの数など、Workfront アカウントに関する情報にアクセスできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -34,7 +36,7 @@ Adobe Workfront 管理者は、組織で購入したライセンスの数や現�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
     <p>新規：標準</p>
     <p>または</p>
@@ -65,6 +67,8 @@ Adobe Workfront 管理者は、組織で購入したライセンスの数や現�
 >2. グループ管理者は、「ライセンス」ページにアクセスし、システム管理者によって「ライセンス」ページに追加されたライセンスを自分が管理するグループ内のライセンスの使用状況を表示できます。
 >3. グループ管理者は、他のホーム グループの情報を表示したり、最大値を追加したりできません。
 
++++
+
 ## 組織のライセンスを表示
 
 使用中のライセンス数は、Workfront に追加するユーザーにアクセスレベルを割り当てると、自動的に更新されます。詳しくは、[ユーザーの追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
@@ -89,7 +93,7 @@ Adobe Workfront 管理者は、組織で購入したライセンスの数や現�
 
 ## Workfront アドオンのライセンスに関する情報の表示
 
-組織で有料の Workfront Proof アドオンを使用している場合、使用中のライセンス数と使用可能なライセンス数が表示されます。例：**5/10 Proof ライセンス**&#x200B;は、組織が購入した 10 個の Workfront Proof ライセンスのうち 5 個を現在使用していることを示します。
+組織で有料の Workfront Proof アドオンを使用している場合、使用中のライセンス数と使用可能なライセンス数が表示されます。例： **5/10 プルーフライセンス**&#x200B;は、組織が購入した 10 個の Workfront Proof ライセンスのうち 5 個を現在使用していることを示します。
 
 ![Workfront アドオンのライセンス](assets/updated-licenses-page.png)
 

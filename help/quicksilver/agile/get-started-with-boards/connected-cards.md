@@ -6,10 +6,10 @@ description: Workfront の既存のタスクやイシューに接続するカー
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 96%
+source-wordcount: '1518'
+ht-degree: 95%
 
 ---
 
@@ -36,20 +36,22 @@ ht-degree: 96%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td>
-   <p>新規：コントリビューター以上</p>
+   <p>新規：Contributor 以上</p>
    <p>または</p>
-   <p>現在：リクエスト以上</p>
+   <p>現在：Request 以上</p>
  </td> 
   </tr> 
   <tr>
@@ -65,6 +67,8 @@ ht-degree: 96%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 接続されているカードを追加する
 
@@ -127,7 +131,7 @@ ht-degree: 96%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignments]</strong></td>
-      <td><p>カードにさらにユーザーやチームを割り当てるには、「<strong>[!UICONTROL Add Assignment]</strong>」をクリックし、検索フィールドに名前を入力します。そして、結果のリストに表示されたら選択します。個人とチームの両方を追加できます。1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
+      <td><p>カードに複数のユーザーやチームを割り当てるには、「<strong>[!UICONTROL Add Assignment]</strong>」をクリックし、検索フィールドに名前を入力し始めます。そして、結果のリストに表示されたら選択します。個人とチームの両方を追加できます。1 つの接続されたカードでは、1 つのチーム割り当てのみが許可されます。</p>
       <p>選択した割り当て先は、[!DNL Workfront] でのタスクまたはイシューにも割り当てられます。</p></td>
      </tr>
      <tr>

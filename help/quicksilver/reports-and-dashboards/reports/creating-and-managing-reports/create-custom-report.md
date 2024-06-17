@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: カスタムレポートの作成
-description: レポートを作成することで、Adobe Workfront内で組織が必要とする情報にアクセスできるようにすることができます。 Workfrontで利用可能な組み込みレポートを使用することも、カスタムレポートを一から作成することもできます。
+description: レポートを作成することで、Adobe Workfront 内で組織が必要とする情報へのアクセス権を付与できます。Workfront で利用可能なビルトインレポートを使用することも、カスタムレポートを最初から作成することもできます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 82%
+source-wordcount: '1828'
+ht-degree: 99%
 
 ---
 
@@ -18,15 +18,17 @@ ht-degree: 82%
 
 <!--Audited: 12/2023-->
 
-レポートを作成して、組織がAdobe Workfrontで必要とする情報へのアクセス権を付与できます。 Workfrontで利用可能な組み込みレポートを使用することも、カスタムレポートを一から作成することもできます。
+レポートを作成することで、Adobe Workfront 内で組織が必要とする情報へのアクセス権を付与できます。Workfront で利用可能なビルトインレポートを使用することも、カスタムレポートを最初から作成することもできます。
 
 ビルトインレポートについて詳しくは、[Adobe Workfront ビルトインレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)を参照してください。
 
-レポートをコピーして作成する方法について詳しくは、 [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+レポートをコピーして作成する方法について詳しくは、[レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 
-クラス、ビデオ、チュートリアルなどのレポートの作成と管理の詳細については、Adobe Experience Leagueサイトの「学習」セクションを参照してください。
+クラス、ビデオ、チュートリアルなどのレポートの作成と管理について詳しくは、Adobe Experience League サイトの「学習」セクションを参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -39,7 +41,7 @@ ht-degree: 82%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準 </p>
    または
    <p>現在：プラン </p> </td> 
@@ -57,6 +59,8 @@ ht-degree: 82%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## レポートの作成 {#create-a-report}
 
@@ -112,17 +116,17 @@ ht-degree: 82%
 
 1. この記事の[レポートの作成](#create-a-report)の節の説明に従って、レポートの作成を開始します。
 1. Report Builder で、「**カラム（表示）**」タブを使用して、レポートに表示する列を指定します。
-1. （オプション）「 **既存のビューの適用** をクリックし、ドロップダウンメニューでビューの名前をクリックして、既存のビューを使用します。
+1. （オプション）「**既存のビューを適用**」をクリックし、ドロップダウンメニューでビューの名前を選択して、既存のビューを使用します。
 
-   ビューの作成について詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   ビューの作成について詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-1. （オプション）既存の列を削除するには、削除する列をクリックし、 **x** 列ヘッダーの現在の名前の横に表示されます。
+1. （オプション）既存の列を削除するには、削除する列を選択し、列ヘッダーの現在の名前の横にある「**x**」をクリックします。
 
 1. 新しい列を追加するには、「**列を追加**」をクリックします。
 
    または
 
-   既存の列を変更するには、列をクリックし、 **削除** アイコン ![](assets/x-icon-circled.png) を **この列フィールドに表示** 」ボックスをクリックし、新しいフィールドを入力して、リストに表示されたらクリックします。
+   既存の列を変更するには、列をクリックし、レポートビルダーの左上隅にある「**この列フィールドに表示**」ボックスの現在のフィールドの左側にある「**削除**」アイコン ![](assets/x-icon-circled.png) をクリックして、新しいフィールドの入力を開始し、リストに表示されたらそれをクリックします。
 
    列に表示されるフィールドについて詳しくは、[Adobe Workfront の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
@@ -153,7 +157,7 @@ ht-degree: 82%
    >
    >グループ化における次のフィールドの値を集計する場合、親オブジェクト（親タスクなど）には次の例外が適用されます。
    >
-   >* 「実績時間」以外のすべての数値および通貨フィールド（「計画または実績労務費」、「計画費」または「実績費用」、「計画原価」または「実績原価」、「計画時間」など）は、子タスクとスタンドアロンタスクの値のみを集計します。 親タスクまたは親の親の値は集計されません。
+   >* 実際の時間数（「予定または実際の労力コスト」、「予定または実際の費用コスト」、「予定または実際のコスト」、「予定時間数」など）を除くすべての数値フィールドと通貨フィールドでは、子タスクとスタンドアロンタスクの値のみを集計します。親タスクまたは親の親の値は集計されません。
    >* 実際の時間数は、メインの親タスクとスタンドアロンタスクの値を集計します。親タスクの親や子タスクの数値は集計されません。
    >* 数値および通貨の値のカスタムデータフィールドは、すべてのタスク（親、子、親の親、スタンドアロンタスク）を集計します。
 
@@ -196,7 +200,7 @@ ht-degree: 82%
 
    または
 
-   選択 **既存のグループの適用** をクリックして、既存のグループを選択します（リストに表示される場合）。
+   「**既存のグループ化を適用**」を選択して、リストに表示される既存のグループを選択します。
 
    ![](assets/nwe-add-grouping-350x230.png)
 
@@ -214,7 +218,7 @@ ht-degree: 82%
    >* リストを表示しているときにグループ化を手動で調整すると、ログアウトするまで Workfront に手動の設定が記憶されます。再度ログインすると、この設定に従ってリストが表示されます。
    >* グループ化の結果は、グラフ要素からアクセスした後で常に展開表示されます。
 
-1. （オプション）「 **マトリックスグループ化に切り替え**&#x200B;をクリックし、マトリックスのグループ化を作成して、結果をグリッド形式で表示します。
+1. （オプション）「**マトリックスグループ化に切り替え**」をクリックし、マトリックスグループ化を作成して、結果をグリッド形式で表示します。
 
    マトリックスレポートの作成について詳しくは、[マトリックスレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 
@@ -235,7 +239,7 @@ ht-degree: 82%
 1. 「**フィルタールールを追加**」をクリックした場合は、フィルターとして追加するフィールドの入力を開始します。フィールドが使用可能な場合は、関連付けることが可能な各オブジェクトに対してが設定されます。フィールドの名前をクリックして、そのフィルターに追加します。\
    フィルター修飾子を使用して、フィルターを作成します。フィルター修飾子について詳しくは、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
 
-   新しいフィルターの作成について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   新しいフィルターの作成について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 1. （オプション）テキストモードでフィルターを作成するには、「**テキストモードに切り替え**」をクリックします。
 

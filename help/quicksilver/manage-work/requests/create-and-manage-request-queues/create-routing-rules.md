@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 88%
+source-wordcount: '522'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 88%
 ルーティングルールは、送信されたイシューまたはリクエストを解決するのに最適な特定のユーザーまたは担当業務にイシューを送信します。ルーティングルールは通常、キュートピックに関連付けられており、イシューまたはリクエストにどのルーティングルールを適用するかを制御するために使用されます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <!--drafted - replace the table at P&P:
 
@@ -66,7 +68,7 @@ ht-degree: 88%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
     <p>新規：標準</p>
     <p>または</p>
@@ -83,14 +85,16 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ルーティングルールを作成
 
 1. リクエストのルーティングルールを追加するプロジェクトに移動します。
 1. 左側のパネルで「**ルーティングルール**」をクリックします。場合によっては、「**さらに表示**」をクリックして、「**ルーティングルール**」をクリックする必要があります。
-1. クリック **新しいルーティングルール** 」をクリックして新しいルールを追加します。
-1. ルーティング・ルールに次の情報を入力します。
+1. 「**新規ルーティングルール**」をクリックして、新しいルールを追加します。
+1. ルーティングルールに次の情報を入力します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -116,7 +120,7 @@ ht-degree: 88%
 
    <p><b>メモ</b></p>
 
-   イシューの送信後、イシューの割り当てを編集し、他のユーザー、役割またはチームを割り当てることができます。詳しくは、  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">問題の割り当て</a>.
+   イシューの送信後、イシューの割り当てを編集し、他のユーザー、役割またはチームを割り当てることができます。詳しくは、<a href="../../../manage-work/issues/manage-issues/assign-issues.md">イシューの割り当て</a>を参照してください。
 
    </td> 
      </tr> 
@@ -133,7 +137,7 @@ ht-degree: 88%
 
    プロジェクトにイシューをルーティングすると、そのイシューに対する権限を持つユーザーは、そのプロジェクトに設定された権限を受け取ります。プロジェクトでの権限の設定について詳しくは、[Adobe Workfront でのプロジェクトの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 
-   ![[ 新しいルーティング規則 ] ボックス](assets/new-routing-rule-box.png)
+   ![新規ルーティングルールボックス](assets/new-routing-rule-box.png)
 
 1. 「**保存**」をクリックします。
 

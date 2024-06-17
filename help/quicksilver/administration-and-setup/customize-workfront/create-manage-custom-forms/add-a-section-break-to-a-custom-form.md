@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1249'
+ht-degree: 93%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 87%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -46,7 +48,7 @@ ht-degree: 87%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>現在：プラン</p></td> 
@@ -59,6 +61,8 @@ ht-degree: 87%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## カスタムフォームのセクションにアクセス権を作成および設定する
 
@@ -87,14 +91,14 @@ ht-degree: 87%
      </tr> 
      <tr> 
       <td role="rowheader"><p>ロジックを追加</p></td> 
-      <td><p>表示ロジックを使用して、フォームの入力時に複数選択のカスタムフィールドでユーザーが行った選択に基づいて、フォームにセクションを表示するかどうかを指定します。</p><p><strong>注意：</strong> セクション区切りの下の個々のフィールドのすべてに表示ロジックが適用されており、それらがすべてロジックの結果として非表示になっている場合、セクション全体がカスタムフォームで非表示になります。 この問題は、表示ロジックがセクション区切りに適用されていない場合でも発生します。</p><p>詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">カスタムフォームへの表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
+      <td><p>表示ロジックを使用すると、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定できます。</p><p><strong>メモ：</strong>セクション区切りの下にあるすべての個々のフィールドに表示ロジックが適用され、そのロジックの結果としてフィールドがすべて非表示になっている場合、セクション全体がカスタムフォーム上で非表示になります。セクション区切りに表示ロジックが適用されていない場合でも、このようになります。</p><p>詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">カスタムフォームへの表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>アクセスを許可</p> </td> 
       <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。
        <p>次の権限は、「<b>オブジェクトに対してこのアクセス権を持つユーザーは、次のフィールド値を表示できます :</b>」で利用できます。</p> 
          <ul>
-          <li><strong>表示</strong>: オブジェクトに対する権限の表示</li>
+          <li><strong>表示</strong>：オブジェクトに対する表示権限</li>
           <li><p><b>制限付き編集</b>：（オブジェクトがプロジェクト、タスク、イシュー、またはユーザーの場合にのみ使用できます）。</p> 
           <p>プロジェクト、タスク、またはイシューの場合、ユーザーがオブジェクトに投稿できるようにします。</p>
           <p>ユーザーがプロファイルを編集したり、オブジェクト（ユーザーの場合）に対するプロファイル権限を所有したりできます。</p></li> 

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 96%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Workfront 管理者は、キックスタートのデータエクスポー�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -41,7 +43,7 @@ Adobe Workfront 管理者は、キックスタートのデータエクスポー�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    または
@@ -55,7 +57,9 @@ Adobe Workfront 管理者は、キックスタートのデータエクスポー�
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## キックスタートを使用してデータを書き出すメリットとデメリット
 
@@ -107,7 +111,7 @@ Workfront 内でデータを書き出すには、次の 2 つの方法があり�
 
 1. **システム**／**キックスタート**&#x200B;をクリックして、「**データを書き出す**」をクリックします。
 
-1. 書き出すオブジェクトを選択します。 デフォルトでは、次のオブジェクトがの下に表示されます。 **含めるもの**:
+1. 書き出すオブジェクトを選択します。デフォルトでは、次のオブジェクトが&#x200B;**含める内容**&#x200B;に表示されます。
 
    <table style="table-layout:auto"> 
     <col> 

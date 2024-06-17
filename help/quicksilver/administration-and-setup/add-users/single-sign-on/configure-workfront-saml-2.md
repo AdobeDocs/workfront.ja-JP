@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 75%
+source-wordcount: '1011'
+ht-degree: 98%
 
 ---
 
@@ -27,9 +27,11 @@ ht-degree: 75%
 
 Adobe Workfront 管理者は、シングルサインオン（SSO）用の Security Assertion Markup Language（SAML）2.0 ソリューションと連携するように Workfront web アプリケーションおよびモバイルアプリケーションを設定できます。
 
-Workfrontで SAML 2.0 を設定したら、次の節で説明するように、設定を維持できます ( [ID プロバイダーの SAML 2.0 メタデータの更新](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+次の節の説明に従って、Workfront に SAML 2.0 を設定した後、[ID プロバイダーの SAML 2.0 メタデータの更新](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)の説明に従って設定を維持できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -42,7 +44,7 @@ Workfrontで SAML 2.0 を設定したら、次の節で説明するように、�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準 </p>
        <p>または</p> 
        <p>現在：プラン </p>
@@ -55,7 +57,9 @@ Workfrontで SAML 2.0 を設定したら、次の節で説明するように、�
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## SAML 2.0 と連携する Workfront に対する認証の有効化
 
@@ -63,13 +67,13 @@ Workfrontで SAML 2.0 を設定したら、次の節で説明するように、�
 
 1. **システム**／**シングルサインオン(SSO)** をクリックします。
 
-1. Adobe Analytics の **タイプ** ドロップダウンリストで、「 **SAML 2.0。**
+1. **タイプ**&#x200B;のドロップダウンリストで、「**SAML 2.0.**」を選択します。
 
 1. 表示されるオプションの上部付近にある「**SAML 2.0 メタデータのダウンロード**」をクリックして、お使いのコンピューターにファイルをダウンロードします。
 
-   SAML 2.0 ID プロバイダーを利用するには、Workfront インスタンスで生成された情報を含んだ XML ファイルが必要です。ファイルをダウンロードした後、SAML 2.0 ID プロバイダーサーバーにアクセスし、そこにWorkfront SAML 2.0 メタデータ XML ファイルをアップロードする必要があります。
+   SAML 2.0 ID プロバイダーを利用するには、Workfront インスタンスで生成された情報を含んだ XML ファイルが必要です。ファイルをダウンロードした後、SAML 2.0 ID プロバイダーのサーバーにアクセスし、そこに Workfront SAML 2.0 メタデータ XML ファイルをアップロードする必要があります。
 
-1. Workfrontで次の情報を指定します。
+1. Workfront で次の情報を指定します。
 
    <table style="table-layout:auto">
     <col>
@@ -93,15 +97,15 @@ Workfrontで SAML 2.0 を設定したら、次の節で説明するように、�
      </tr> 
      <tr> 
       <td role="rowheader">ログイン ポータル URL</span> </td> 
-      <td>組織の共通のログインポータルを入力します。 これは、SAML 2.0 と統合されている Workfront アプリケーションおよびその他すべてのアプリケーションにアクセスするためにユーザーがログインする URL です。</td> 
+      <td>組織の共通のログインポータルを入力します。これは、SAML 2.0 と統合されている Workfront アプリケーションおよびその他すべてのアプリケーションにアクセスするためにユーザーがログインする URL です。</td> 
      </tr>
      <tr>
       <td role="rowheader">サインアウト URL</span> </td> 
-      <td> <p>IDP サーバーのログアウト URL を入力します。 Workfront からログアウトする前に、Workfrontは この URL に HTTP リクエストを送信します。これにより、Workfront セッションが閉じると、リモートサーバー上のユーザーのセッションが閉じられます。</p> <p><b>注意</b>：サインアウト URL にリダイレクトされるのは、オプションがある場合のみです。 <strong>SAML 2.0 認証のみを許可</strong> が有効になっていることを確認します。</p> </td>
+      <td> <p>IDP サーバーのログアウト URL を入力します。Workfront からログアウトする前に、Workfrontは この URL に HTTP リクエストを送信します。これにより、Workfront セッションが閉じると、リモートサーバー上のユーザーのセッションが閉じられます。</p> <p><b>メモ</b>：ユーザープロファイルで「<strong>SAML 2.0 認証のみを許可</strong>」オプションが有効になっている場合にのみ、ログアウト URL にリダイレクトされます。</p> </td>
      </tr>
      <tr>
       <td role="rowheader">パスワードの変更 URL </td> 
-      <td> <p> パスワードを変更するためにユーザーがリダイレクトされる URL を指定します。 </p> <p>Workfrontへのアクセスには SAML 2.0 資格情報が使用されるので、Workfrontを通じてこのアクティビティを完了する代わりに、SAML 2.0 パスワードを変更できるページにユーザーがリダイレクトされる必要があります。</p> </td> 
+      <td> <p> パスワードを変更するためにユーザーがリダイレクトされる URL を指定します。 </p> <p>Workfront へのアクセスに SAML 2.0 資格情報が使用されるので、Workfront を通じてこのアクティビティを完了する代わりに、SAML 2.0 のパスワードを変更できるページにユーザーがリダイレクトされる必要があります。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">セキュア ハッシュ アルゴリズム </td> 
@@ -113,7 +117,7 @@ Workfrontで SAML 2.0 を設定したら、次の節で説明するように、�
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーを自動設定する</span> </td> 
-      <td> <p>このオプションを選択すると、ディレクトリのユーザー名とパスワードを持つ新しいユーザーが初めてWorkfrontにログインしようとすると、システムに自動的にユーザーが作成されます。</p> <p>Workfrontでユーザーを作成するには、Workfrontデータ属性をディレクトリプロバイダー内の次のユーザーデータ属性とマッピングする必要があります。</p> 
+      <td> <p>このオプションにより、新規ユーザーがディレクトリのユーザー名とパスワードを使用して初めて Workfront にログインしようとすると、システムにユーザーが自動的に作成されます。</p> <p>Workfront にユーザーを作成するには、Workfront データ属性をディレクトリプロバイダーの次のユーザーデータ属性とマッピングする必要があります。</p> 
        <ul> 
        <li>名</li> 
        <li>姓</li> 
@@ -124,7 +128,7 @@ Workfrontで SAML 2.0 を設定したら、次の節で説明するように、�
        <p>マッピングする Workfront ユーザー属性をドロップダウンリストから選択し、ユーザーディレクトリにおける対応するディレクトリ属性を指定します。</p> 
        <p>「<strong>ディレクトリ属性</strong>」フィールドには、SAML 2.0 設定のテストに成功したときに保存したユーザー属性テーブルのディレクトリ属性名を指定する必要があります。</p> 
        <p>「<strong>デフォルト値</strong>」フィールドには、Workfront のデフォルト値を入力します。また、SAML 2.0 ID プロバイダーの値に基づいて、ルールを設定することもできます。</p> 
-       <p><b>警告</b>：Workfront では、ユーザーがシステムにログインするたびに、以下に示す属性のマッピングを試みます。このため、アクセスレベルをマッピングすることはお勧めしません。属性が正しくマッピングされない場合は、管理アクセス権を容易に削除できます。クリック <strong>マッピングを追加</strong> をクリックして、ルールを追加します。
+       <p><b>警告</b>：Workfront では、ユーザーがシステムにログインするたびに、以下に示す属性のマッピングを試みます。このため、アクセスレベルをマッピングすることはお勧めしません。属性が正しくマッピングされない場合は、管理アクセス権を容易に削除できます。「<strong>マッピングを追加</strong>」をクリックして、ルールを追加します。
        </p> 
        <p>次の Workfront 属性をマッピングできます。</p> 
       <ul> 
@@ -173,7 +177,7 @@ Workfrontで SAML 2.0 を設定したら、次の節で説明するように、�
       <td> 
       <p>「<strong>接続をテスト</strong>」をクリックして、Workfront と SAML 2.0 ID プロバイダーが互いに通信できることを確認します。この接続は、XML ファイルを交換した場合にのみ成功します。
       </p> 
-      <p>SAML 2.0 ID プロバイダーとWorkfrontの間のリンクを正常にテストすると、次の画像のような画面が表示されます。</p>
+      <p>SAML 2.0 ID プロバイダーと Workfront 間のリンクのテストが成功すると、以下のような画面が表示されます。</p>
       <p><b>メモ</b>：この画面はブラウザーのポップアップに表示されるので、ブラウザーでポップアップブロッカーを無効にします。</p>
       <p>表に示される情報を保存して、後で使用できるようにします。</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 

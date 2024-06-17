@@ -6,10 +6,10 @@ description: ポートフォリオとは、Adobe Workfront のプロジェクト
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 86%
+source-wordcount: '419'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 86%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -30,13 +32,13 @@ ht-degree: 86%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規： [!UICONTROL Standard] </p>
-   <p>現在： [!UICONTROL プラン ] </p> </td> 
+   <td> <p>新規：[!UICONTROL Standard] </p>
+   <p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -49,7 +51,9 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ポートフォリオの削除と非アクティブ化の概要
 
@@ -71,12 +75,12 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->の方法に応じて [!DNL Workfront] または、グループ管理者がレイアウトテンプレートを設定する場合は、 [!UICONTROL Portfolio] 領域が [!UICONTROL メインメニュー]. 詳細情報については、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+>[!DNL Workfront] 管理者またはグループ管理者によるレイアウトテンプレートの設定によっては、[!UICONTROL ポートフォリオ]エリアが[!UICONTROL メインメニュー]に表示されない場合があります。詳細情報については、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオの名前をクリックします。
-1. 次をクリック： **その他** メニュー ![](assets/more-icon.png) ポートフォリオ名の右にあるをクリックし、 **[!UICONTROL 非アクティブ化Portfolio]**.
+1. ポートフォリオ名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**[!UICONTROL ポートフォリオのアクティブ化を解除]**」をクリックします。
 
 ## ポートフォリオの削除
 

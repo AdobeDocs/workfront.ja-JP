@@ -7,9 +7,9 @@ description: ワークストリームは、作業時の共同作業用に設定�
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '926'
 ht-degree: 98%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 98%
 ワークストリームは、アクセスできる、ワークストリームの一部ではない個々のボードとともにダッシュボードに表示されます。ボードダッシュボードについて詳しくは、[ボードダッシュボードを使用](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md)を参照してください。ダッシュボード上の任意のボード名をクリックして開くことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -46,6 +48,8 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## ワークストリームを作成する
 

@@ -6,10 +6,10 @@ description: 先行タスクとは、他のタスクの完了に依存するタ�
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 96%
+source-wordcount: '494'
+ht-degree: 97%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 96%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -48,7 +50,7 @@ ht-degree: 96%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
       <p>新規：標準</p> 
       <p>または</p>
@@ -66,7 +68,9 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## タスクレベルで先行タスクを強制的に実行する
 

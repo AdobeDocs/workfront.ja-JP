@@ -6,10 +6,10 @@ description: Workfront 拡張機能を使用すると、Adobe Illustrator およ
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '3076'
-ht-degree: 81%
+source-wordcount: '3087'
+ht-degree: 99%
 
 ---
 
@@ -35,6 +35,8 @@ Workfront 拡張機能は、Adobe Creative Cloud 2017 以降の以下のアプ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -43,13 +45,13 @@ Workfront 拡張機能は、Adobe Creative Cloud 2017 以降の以下のアプ�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>現在： Pro 以上</p>
+   <td> <p>現在：Pro 以上</p>
    または
    <p>新規：任意のプラン</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>現在：作業以上</p>
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>現在：ワーク以上</p>
    または
    <p>新規：標準</p> </td> 
   </tr> 
@@ -64,7 +66,9 @@ Workfront 拡張機能は、Adobe Creative Cloud 2017 以降の以下のアプ�
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## Illustrator または InDesign から Workfront 拡張機能にログイン {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 
@@ -82,7 +86,7 @@ Workfront 拡張機能は、Adobe Creative Cloud 2017 以降の以下のアプ�
    >[!NOTE]
    >
    >* Workfront は OAuth 2.0 を使用して Adobe Creative Cloud に接続します。OAuth 2.0 ほとんどの web ベースの統合で、ユーザーの認証と承認に使用される安全な標準です。
-   >* 次の項目を入力するよう求められた場合、 [ドメインまたはホスト] Workfrontアカウントに次の形式で入力します。`yourCompany'sDomain.my.workfront.com`. 会社のドメインは通常、会社の名前です。
+   >* Workfront アカウントの[ドメインまたはホスト]を入力するように求められた場合、この `yourCompany'sDomain.my.workfront.com` 形式で入力します。会社のドメインは通常、会社の名前です。
 
    プロジェクトが現在のステータスの場合は、割り当てられた作業アイテムのリストが表示されます。リストが表示されない場合は、Workfront にログインします。
 
@@ -99,7 +103,7 @@ Adobe Creative Cloud からファイルをアップロードまたは書き出�
 * ファイルは、選択した Workfront オブジェクトのドキュメントエリアにアップロードされます。
 * Adobe Creative Cloud アプリケーションからメインメニュー ![](assets/main-menu-icon.png) のドキュメントエリアにドキュメントを書き出すことはできません。
 
-以下の節では、以下について説明します。
+次の節では、以下について説明します。
 
 * [ファイルをアップロード](#upload-a-file)
 * [現在開いているファイルを Illustrator または InDesign で書き出す](#export-a-file-currently-open-in-illustrator-or-indesign)
@@ -109,9 +113,9 @@ Adobe Creative Cloud からファイルをアップロードまたは書き出�
 
 Adobe Creative Cloud アプリケーションを離れることなく、プロジェクト、タスクまたはイシューにファイルをアップロードできます。
 
-1. Adobe Creative Cloudアプリケーションを開いたときにWorkfront拡張機能が表示されない場合は、 **ウィンドウ** > **拡張機能** > **Workfront**.
+1. Adobe Creative Cloud アプリケーションを開いたときに Workfront 拡張機能が表示されない場合は、**ウィンドウ**／**拡張機能**／**Workfront** をクリックします。
 
-   プロジェクトが現在のステータスの場合は、割り当てられた作業項目のリストが表示されます。 リストが表示されない場合は、Workfront にログインします。
+   プロジェクトが進行中のステータスの場合は、割り当てられた作業アイテムのリストが表示されます。リストが表示されない場合は、Workfront にログインします。
 
    個人用タスクは、「**プロジェクトなし**」の下に表示されます。
 
@@ -119,15 +123,15 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
 
    これを検索するには、「**検索**」ボックスに名前を入力し、「**検索**」ボックスの右側にあるドロップダウンメニューから「**プロジェクト**」、「**タスク**」または「**イシュー**」を選択します。作業アイテムの名前が一覧に表示されない場合は、**Enter** キーを押して、表示アクセス権のあるすべての Workfront 項目を検索します。
 
-1. クリック **選択** Workfront拡張機能の右下隅。
+1. Workfront 拡張機能の右下隅にある「**選択**」をクリックします。
 1. 「**クリックして形式を選択**」ドロップダウンメニューで、Workfront でファイルを保存する形式をクリックします。
 
    それぞれのサポートされているアプリケーションでサポートされている形式のリストについては、この記事にある[サポートされている書き出しファイルの形式](#supported-exported-file-formats)を参照してください。
 
-1. （条件付き）ファイルをアップロードする作業項目にドキュメントフォルダが含まれている場合、 **クリックしてドキュメントフォルダを選択** 「 」フィールドで「 」をクリックし、 **選択**.
+1. （条件付き）ファイルをアップロードする作業アイテムにドキュメントフォルダーが含まれている場合、「**クリックしてドキュメントフォルダーを選択**」フィールドでドキュメントフォルダーを選択し、「**選択**」をクリックします。
 
 1. 「**ローカルファイルをアップロード**」をクリックします。
-1. Adobe Analytics の **ファイルを開く** 」ボックスで、ファイルシステム内のファイルを探し、 **開く**.
+1. 「**ファイルを開く**」ボックスで、ファイルシステム内のファイルを探し、「**開く**」をクリックします。
 
 1. （オプション）ファイルの新しい名前を入力します。
 
@@ -135,7 +139,7 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
 
 1. 「**アップロード**」をクリックします。
 
-   Workfrontで、選択したプロジェクト、タスクまたはイシューのドキュメント領域にドキュメントが表示されます。
+   Workfront で、指定したプロジェクト、タスクまたはイシューのドキュメントエリアにドキュメントが一覧表示されます。
 
 1. （オプション）ドキュメントの名前をクリックすると、そのドキュメントの詳細ページが Workfront で開きます。
 
@@ -144,9 +148,9 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
 ### Illustrator または InDesign で現在開いているファイルを書き出し {#export-a-file-currently-open-in-illustrator-or-indesign}
 
 1. サポートされている Adobe Creative Cloud アプリケーションで、Workfront に書き出すファイルを開きます。
-1. Workfront拡張機能が表示されない場合は、「 **ウィンドウ** > **拡張機能** > **Workfront**.
+1. Workfront 拡張機能が表示されない場合は、**ウィンドウ**／**拡張機能**／**Workfront** をクリックします。
 
-   プロジェクトが現在のステータスの場合は、割り当てられた作業項目のリストが表示されます。 リストが表示されない場合は、Workfront にログインします。
+   プロジェクトが進行中のステータスの場合は、割り当てられた作業アイテムのリストが表示されます。リストが表示されない場合は、Workfront にログインします。
 
    個人タスクは、**プロジェクトなし**&#x200B;の下に一覧表示されます。
 
@@ -178,9 +182,9 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
 ### Illustrator または InDesign から新しいバージョンのファイルをアップロード {#upload-a-new-version-of-a-file-from-illustrator-or-indesign}
 
 1. サポートされているアドビアプリケーションで作業中のファイルを、新しいバージョンのファイルとして Workfront に書き出す場合は、そのファイルをそのアドビアプリケーションで開きます。
-1. Workfront拡張機能が表示されない場合は、「 **ウィンドウ** > **拡張機能** > **Workfront**.
+1. Workfront 拡張機能が表示されない場合は、**ウィンドウ**／**拡張機能**／**Workfront** をクリックします。
 
-   プロジェクトが現在のステータスの場合は、割り当てられた作業項目のリストが表示されます。 リストが表示されない場合は、Workfront にログインします。
+   プロジェクトが現在のステータスの場合は、割り当てられた作業アイテムのリストが表示されます。リストが表示されない場合は、Workfront にログインします。
 
    個人用タスクは、「**プロジェクトなし**」の下に表示されます。
 
@@ -209,14 +213,14 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
    >
    >![](assets/doc-name-cant-be-changed.png)
 
-## IllustratorまたはInDesignからのWorkfrontドキュメントに対するコメント {#comment-on-a-workfront-document-from-illustrator-or-indesign}
+## Illustrator または InDesign からの Workfront ドキュメントに対するコメント {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
 Adobe アプリケーション内の Workfront ドキュメントに直接コメントを追加できます。Workfront では、コメントは、ドキュメントの更新エリアと、ドキュメントが保存されている Workfront 項目の更新エリアに表示されます。
 
 1. サポートされているアドビのアプリケーションのうちの 1 つを開きます。
-1. Workfront拡張機能が表示されない場合は、「 **ウィンドウ** > **拡張機能** > **Workfront**.
+1. Workfront 拡張機能が表示されない場合は、**ウィンドウ**／**拡張機能**／**Workfront** をクリックします。
 
-   プロジェクトが現在のステータスの場合は、割り当てられた作業項目のリストが表示されます。 リストが表示されない場合は、Workfront にログインします。
+   プロジェクトが現在のステータスの場合は、割り当てられた作業アイテムのリストが表示されます。リストが表示されない場合は、Workfront にログインします。
 
    個人用タスクは、**プロジェクトなし**&#x200B;の下に表示されます。
 
@@ -224,16 +228,16 @@ Adobe アプリケーション内の Workfront ドキュメントに直接コメ
 
    これを検索するには、「**検索**」ボックスに名前を入力して、「**検索**」ボックスの右側にあるドロップダウンメニューから、**プロジェクト**、**タスク**、または&#x200B;**イシュー**&#x200B;を選択します。作業アイテムの名前が一覧に表示されない場合は、**Enter** キーを押して、表示アクセス権のあるすべての Workfront 項目を検索します。
 
-1. 既存のドキュメントの名前をクリックし、 **選択** Workfront拡張機能の右下隅。
-1. 次をクリック： **コメント** 」タブで、更新をボックスに入力します。
+1. 既存のドキュメントの名前をクリックし、Workfront 拡張機能の右下隅にある「**選択**」をクリックします。
+1. 「**コメント**」タブをクリックして、ボックスに更新を入力します。
 
 1. （オプション）他の Workfront ユーザーまたはチームをコメントに含めるには、「**担当者またはチームに通知**」ボックス内にユーザーまたはチームの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
-1. （オプション）ドキュメントの承認をリクエストするには、 **承認リクエストを実行**.
+1. （オプション）ドキュメントの承認をリクエストするには、「**承認リクエストを実行**」を選択します。
 1. 「**更新**」をクリックします。
 
-   ドキュメントの「更新」タブにアップデートが投稿されます。コメントに含めたWorkfrontユーザーにはアプリ内通知が送信されます。また、Workfrontの設定によっては、が電子メール通知を受け取る場合もあります。
+   ドキュメントの「更新」タブにアップデートが投稿されます。コメントに含めた Workfront ユーザーにはアプリ内通知が送信されます。また、Workfront の設定によっては、Workfront ユーザーがメール通知を受信する場合もあります。
 
-   Workfront内での通知について詳しくは、 [アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+   Workfront の通知について詳しくは、[アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)を参照してください。
 
    メール通知の受信について詳しくは、[Adobe Workfront 通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
 
@@ -249,16 +253,16 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 以下の方法で、Adobe アプリケーションからドキュメントの承認をリクエストできます。
 
 * 承認者をドキュメントに添付します。
-* ドキュメントにコメントを付け、コメントを作成する際にその人に通知し、ドキュメントに承認者として添付することで、
+* ドキュメントにコメントし、コメントを作成した際にユーザーに通知し、そのユーザーを承認者としてドキュメントに添付します。
 
-  ドキュメントにコメントを作成する際の承認リクエストについて詳しくは、 [IllustratorまたはInDesignからのWorkfrontドキュメントに対するコメント](#comment-on-a-workfront-document-from-illustrator-or-indesign) 」を参照してください。
+  ドキュメントにコメントする際の承認リクエストについて詳しくは、この記事の [Illustrator または InDesign からの Workfront ドキュメントに対するコメント](#comment-on-a-workfront-document-from-illustrator-or-indesign)の節を参照してください。
 
 アドビアプリケーションからドキュメントの承認をリクエストするには、以下の操作を実行します。
 
 1. サポートされているアドビのアプリケーションのうちの 1 つを開きます。
-1. Workfront拡張機能が表示されない場合は、「 **ウィンドウ** > **拡張機能** > **Workfront**.
+1. Workfront 拡張機能が表示されない場合は、**ウィンドウ**／**拡張機能**／**Workfront** をクリックします。
 
-   プロジェクトが現在のステータスの場合は、割り当てられた作業項目のリストが表示されます。 リストが表示されない場合は、Workfront にログインします。
+   プロジェクトが現在のステータスの場合は、割り当てられた作業アイテムのリストが表示されます。リストが表示されない場合は、Workfront にログインします。
 
    個人用タスクは、「**プロジェクトなし**」の下に表示されます。
 
@@ -278,7 +282,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
 1. 「**承認をリクエスト**」をクリックします。
 
-   コメントに含めるか承認者として追加したWorkfrontユーザーは、アプリ内通知を受け取り、Workfrontの設定に応じて、電子メール通知も受け取る場合があります。\
+   コメントに含めるか、承認者として追加した Workfront ユーザーは、アプリ内通知を受け取り、Workfront の設定に応じて、メール通知も受け取る場合があります。\
    外部ユーザーはメール通知を受け取り、そのメールから承認について決定を下すことができます。
 
    Workfront の通知について詳しくは、[アプリ内通知の表示および管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)を参照してください。メール通知の受信について詳しくは、[Adobe Workfront の通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
@@ -290,7 +294,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 1. サポートされているアドビのアプリケーションのうちの 1 つを開きます。
 1. Workfront 拡張機能が表示されない場合は、**ウィンドウ**／**拡張機能**／Workfront をクリックします。
 
-   プロジェクトが現在のステータスの場合は、割り当てられた作業項目のリストが表示されます。 リストが表示されない場合は、Workfront にログインします。
+   プロジェクトが現在のステータスの場合は、割り当てられた作業アイテムのリストが表示されます。リストが表示されない場合は、Workfront にログインします。
 
    個人用タスクは、**プロジェクトなし**&#x200B;の下に表示されます。
 
@@ -307,7 +311,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 1. 「**新規プルーフとしてアップロード**」をクリックして有効にします。
 1. ユーザーがドキュメントをレビューするときに使用する&#x200B;**ワークフローテンプレート**&#x200B;を選択します。
 
-   Workfrontの管理者が、自動ワークフローテンプレートを設定します。詳しくは、 [自動ワークフローテンプレートの作成と管理](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). 質問がある場合は、管理者にお問い合わせください。
+   Workfront 管理者が、自動ワークフローテンプレートを設定します。詳しくは、[自動ワークフローテンプレートの作成と管理](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)を参照してください。質問がある場合は、管理者にお問い合わせください。
 
    1. ワークフローテンプレートの各ステージに、少なくとも 1 人の&#x200B;**新規受信者**&#x200B;を追加します。
 
@@ -315,7 +319,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
    1. 追加する受信者ごとに、**プルーフの役割**&#x200B;と&#x200B;**メールアラート**&#x200B;の頻度を指定します。
 
-   1. （オプション） **電子メール通知** 「 」セクションで、追加したすべての配達確認受信者に対して、配達確認に関するオプションのカスタムメッセージを含む e メール通知を送信するかどうかを選択します。
+   1. （オプション）「**メール通知**」セクションで、追加したすべてのプルーフ受信者に対して、プルーフに関するオプションのカスタムメッセージを含むメール通知を送信するかどうかを選択します。
 
 1. 「**プルーフを作成**」をクリックします。
 
@@ -329,14 +333,14 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
    別のテンプレートを選択しない場合、以前のバージョン用に選択されたテンプレートは有効なままになります。また、以前のバージョンのテンプレートを変更した場合、その変更内容は新しいバージョンに対して有効になります。
 
-   Workfrontの管理者が、自動ワークフローテンプレートを設定します。詳しくは、 [自動ワークフローテンプレートの作成と管理](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). 質問がある場合は、管理者にお問い合わせください。
+   Workfront 管理者が、自動ワークフローテンプレートを設定します。詳しくは、[自動ワークフローテンプレートの作成と管理](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)を参照してください。質問がある場合は、管理者にお問い合わせください。
 
    1. ワークフローテンプレートの各ステージに、少なくとも 1 人の&#x200B;**新規受信者**&#x200B;を追加します。
 
       名前を入力し、表示されるドロップダウンリストに表示されたら、その名前を選択します。
 
    1. 追加する受信者ごとに、**プルーフの役割**&#x200B;と&#x200B;**メールアラート**&#x200B;の頻度を指定します。
-   1. （オプション） **電子メール通知** 「 」セクションで、追加したすべての配達確認受信者に対して、配達確認に関するオプションのカスタムメッセージを含む e メール通知を送信するかどうかを選択します。
+   1. （オプション）「**メール通知**」セクションで、追加したすべてのプルーフ受信者に対して、プルーフに関するオプションのカスタムメッセージを含むメール通知を送信するかどうかを選択します。
 
 1. 「**新しいプルーフバージョンを作成**」をクリックします。
 
@@ -344,11 +348,11 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
 ## Workfront Extension からログアウトします。
 
-1. Adobe・アプリケーションで、 **ウィンドウ** > **拡張機能** > **Workfront**.
+1. Adobe アプリケーションで、**ウィンドウ**／**拡張機能**／**Workfront** の順にクリックします。
 
 1. 右側のパネルの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックします。
 
-1. （オプション）「 **フィードバック** 簡単な調査を開き、Workfront for Adobe Creative Cloudに関するフィードバックを送信します。
+1. （オプション）「**フィードバック**」をクリックして簡単な調査を開き、Workfront for Adobe Creative Cloud に関するフィードバックを Workfront に送信します。
 1. 「**ログアウト**」をクリックします。\
    ログイン画面が表示されます。ログインについて詳しくは、[Illustrator または InDesign から Workfront Extension にログイン](#log-in-to-workfront-extension-from-illustrator-or-indesign)を参照してください。
 

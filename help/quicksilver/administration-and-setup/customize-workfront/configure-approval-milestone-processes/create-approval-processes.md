@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 95%
+source-wordcount: '2174'
+ht-degree: 99%
 
 ---
 
@@ -42,6 +42,8 @@ ht-degree: 95%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 以下が必要です。
 
 <table style="table-layout:auto"> 
@@ -53,10 +55,10 @@ ht-degree: 95%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規プラン：標準 </p>
  <p>または</p> 
-<p>現在のプラン：プラン </p> 
+<p>現在の計画：プラン </p> 
 </td> 
   </tr> 
   <tr> 
@@ -67,7 +69,9 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 作業アイテムのシステムレベルまたはグループレベルのグローバル承認プロセスを作成する
 
@@ -83,7 +87,7 @@ ht-degree: 95%
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. 次のいずれかを選択します。 **プロジェクト承認**, **タスクの承認**&#x200B;または **問題の承認** タブをクリックします。
+1. 「**プロジェクトの承認**」、「**タスクの承認**」または 「**問題の承認**」タブのいずれかを選択します。
 
 1. 「**新規承認プロセス**」をクリックします。
 1. 表示されるボックスで、次の情報を指定します。
@@ -164,8 +168,8 @@ ht-degree: 95%
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>このプロセスを繰り返して、複数の承認者をステージに追加できます。1 つのステージには、ユーザー、チーム、および承認者としての担当業務の組み合わせを含めることができます。ステージに追加できる承認者の数に制限はありません。</p> <p><b>重要</b>：  <p>担当業務を承認者として割り当てると、その担当業務に関連付けられ、プロジェクトチームにも属するすべてのユーザーが承認を決定できます。 </p> <p>チームを承認者として割り当てると、そのチーム内のすべてのユーザーが承認を決定できます。 </p> <p>プロジェクトチームについて詳しくは、<a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">プロジェクトチームの概要</a>を参照してください。作業の承認について詳しくは、<a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">作業の承認</a>を参照してください。</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">1 つの決定のみが必要です <br> <br>（ステージに複数の承認者を追加した場合にのみ表示されます） </td> 
-      <td> <p>ステージ上の任意の承認者が、このステージで作業項目を承認または拒否できる場合は、このオプションを選択します。 このアクションによって、作業項目のステージからの移動が許可されます。 </p> <p>このオプションを選択しない場合、項目がステージから移動する前に、指定されたすべての承認者が（任意の順序で）ステージを承認または拒否する必要があります。承認者のいずれか 1 人がステージを却下した場合、プロセスは中断し、必要な変更を行うためにやり直します。その後、承認者はステージを再び承認または却下できます。</p> <p>チームが承認者として指定されると、チームのメンバーは誰でもステージを許可または却下できます。</p> </td> 
+      <td role="rowheader">1 つの決定のみが必要です<br><br>（ステージに複数の承認者を追加した場合にのみ表示されます） </td> 
+      <td> <p>このステージで、ステージ上のいずれか 1 人の承認者が作業アイテムを承認または却下できる場合は、このオプションを選択します。このアクションによって、作業項目のステージからの移動が許可されます。 </p> <p>このオプションを選択しない場合、項目がステージから移動する前に、指定されたすべての承認者が（任意の順序で）ステージを承認または拒否する必要があります。承認者のいずれか 1 人がステージを却下した場合、プロセスは中断し、必要な変更を行うためにやり直します。その後、承認者はステージを再び承認または却下できます。</p> <p>チームが承認者として指定されると、チームのメンバーは誰でもステージを許可または却下できます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">ステージを追加</p> </td> 
@@ -202,11 +206,11 @@ ht-degree: 95%
 
 ## 作業アイテムへの承認プロセスの関連付け
 
-作業項目（プロジェクト、タスク、またはタスク）の承認プロセスを作成する場合は、次の手順を実行します。
+作業アイテム（プロジェクト、タスク、イシュー）の承認プロセスを作成する場合は、次の手順を実行します。
 
 1. 最初に承認プロセスを作成
-1. 作業項目の作成
-1. 承認プロセスと作業項目の関連付け
+1. 作業アイテムを作成
+1. 承認プロセスと作業アイテムを関連付け
 
 承認プロセスと作業アイテムの関連付けの手順について詳しくは、[新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)を参照してください。
 

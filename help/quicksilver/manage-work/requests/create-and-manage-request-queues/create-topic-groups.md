@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 95%
+source-wordcount: '438'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 95%
 トピックグループはリクエストキューに関連付けられています。リクエストの性質に応じて、リクエストキューを複数のカテゴリにレイヤー化できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -34,7 +36,7 @@ ht-degree: 95%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront ライセンス</p> </td> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront プラン</p> </td> 
    <td>   
       <p>新規：標準</p>
       <p>または</p> 
@@ -52,7 +54,9 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## トピックグループの概要
 

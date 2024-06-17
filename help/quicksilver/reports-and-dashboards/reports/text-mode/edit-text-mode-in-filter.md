@@ -6,10 +6,10 @@ description: テキストモードを使用してリストまたはレポート�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 69%
+source-wordcount: '1008'
+ht-degree: 98%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 69%
 
 テキストモードを使用してリストまたはレポートのフィルターを編集し、標準インターフェースで使用できないフィールドにアクセスして、より複雑なフィルターを作成できます。
 
-フィルターを作成する際のその他のテキストモードの例については、「 [カスタムフィルターのサンプル](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) 記事内 [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+フィルター作成時のその他のテキストモード例については、[カスタムビュー、フィルターおよびグループ化の例：記事インデックス](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)の記事にある[カスタムフィルターの例](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters)の節も参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -38,14 +40,14 @@ ht-degree: 69%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p>
     <p>または</p>
     <p>現在：プラン</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>フィルター、ビュー、グループ化の編集アクセス権</p> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集して、レポートのレポート要素を編集します</p></td> 
+   <td> <p>フィルター、ビュー、グループ化の編集アクセス権</p> <p>レポートのレポート要素を編集するための、レポート、ダッシュボード、カレンダーへの編集アクセス権</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -54,17 +56,19 @@ ht-degree: 69%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
-レポートまたはリストでテキストモードの使用を開始する前に、必ずWorkfrontテキストモードの構文に関する十分な知識を持っておく必要があります。
+レポートまたはリストでのテキストモードの使用を開始する前に、必ず Workfront のテキストモード構文を熟知してください。
 
 詳しくは、以下を参照してください。
 
 * [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [カスタムビュー、フィルター、グループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## フィルターでのテキストモード編集
 
@@ -74,18 +78,18 @@ ht-degree: 69%
 >
 >標準モードでできるだけ多くのフィルターを作成し、そのフィルターをテキストモードに変換して編集することをお勧めします。
 
-フィルターの作成について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+フィルターの作成について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 1. 次のいずれかの操作を行います。
 
    1. レポートからフィルターにアクセスするには、レポートに移動して、**レポートアクション**／**編集**／**フィルター**&#x200B;タブをクリックします。
-   1. リストからフィルターにアクセスするには、リストに移動し、 **フィルター** メニューで、変更するフィルターの上にマウスポインターを置いて、 **編集** アイコン ![](assets/edit-icon.png).
+   1. リストからフィルターにアクセスするには、リストに移動し、**フィルター**&#x200B;メニューから、変更するフィルターの上にポインタを合わせて、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
 
       フィルタービルダーが開きます。
 
-1. クリック **フィルタールールを追加する** フィルターの条件の追加を開始するには、「 **テキストモード** または **テキストモードに切り替え** をクリックします。
+1. 「**フィルター規則の追加**」をクリックしてフィルター条件を追加していき、ビルダーの右側にある「**テキストモード**」または「**テキストモードに切り替える**」をクリックします。
 1. テキストモードを使用してフィルターステートメントを追加します。各フィルターステートメントには、次の行と追加情報を含めることができます。
 
    <table style="table-layout:auto"> 
@@ -97,13 +101,13 @@ ht-degree: 69%
       <td><b>例</b></td> 
      </tr> 
      <tr> 
-      <td> <p>フィールド名と、Workfrontデータベースに表示される値。</p> <p>この行は必須です。</p> <p> データベースでのオブジェクトおよびフィールドの表示について詳しくは、<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラー</a>を参照してください。</p> </td> 
+      <td> <p>フィールド名および Workfront データベースに表示されるものと等しい値。</p> <p>この行は必須です。</p> <p> データベースでのオブジェクトおよびフィールドの表示について詳しくは、<a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API エクスプローラー</a>を参照してください。</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>ステータスが処理中のタスクをフィルタリングするには、次の行を使用します。</p> <p><code>status=INP</code> </p> <p><b>ヒント</b>
 
    ステータスをフィルタリングする場合、名前ではなく、3 文字のコードを使用する必要があります。</p> </td>
    </tr> 
      <tr> 
-      <td> <p>フィールド名修飾子と修飾子が等しいもの。 これは、フィルタリングに使用するフィールドが満たす必要がある条件を示します。</p> <p>この行は必須です。</p> </td> 
+      <td> <p>フィールド名修飾子およびその修飾子に相当するもの。これは、フィルタリングに使用するフィールドが満たす必要がある条件を示します。</p> <p>この行は必須です。</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>フィルタリング対象タスクのステータスが「処理中」である必要があると示すには、上記に加えて、次の行も使用します。</p> <p><code>status_Mod=in</code> </p> <p>修飾子が範囲の場合、修飾子を示す 2 行があります。</p> 
        <div> <span class="autonumber"><span><b>例 </b></span></span> 
         <p>処理中のタスクを検索し、現在の月内に予定完了日が設定され、特定の GUID を持つユーザーに割り当てられるテキストモードフィルターです。</p> 
@@ -133,7 +137,7 @@ ht-degree: 69%
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>ワイルドカード。フィルター内の情報を一般化し、現在の時刻やログインしているユーザーを参照できます。</p> <p>ワイルドカードはオプションです。</p> <p>ヒント：   <p>可能な限りワイルドカードを使用して、フィルターをより動的にし、各ユーザーや類似の時間枠で同じフィルターを重複させないようにすることをお勧めします。</p> <p>ワイルドカードのフィルタの詳細については、「 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数の概要</a>.</p> </p> </td> 
+      <td> <p>ワイルドカードは、フィルターの情報を一般化し、現在の時刻やログインしているユーザーを参照できるようにします。</p> <p>ワイルドカードはオプションです。</p> <p>ヒント：   <p>可能な限りワイルドカードを使用して、フィルターをより動的にし、各ユーザーや類似の時間枠で同じフィルターを重複させないようにすることをお勧めします。</p> <p>ワイルドカードのフィルタリングについて詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数の概要</a>を参照してください。</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>例</b></span></span> 
         <p>現在ログインしているユーザーに割り当てられているタスクをフィルタリングするには、以下のものを使用します。</p> 
@@ -146,7 +150,7 @@ ht-degree: 69%
 
 1. 「OR」演算子で接続されたフィルターステートメントを追加するには、以下のように行います。
 
-   1. 新しいコード行を追加し、OR と入力します。:1: フィルタリングするオブジェクトまたは属性と、その比較対象の値が続きます。 新規以外のステータスのタスクを参照するには、次の行を使用します。
+   1. 新しいコード行を追加し、OR:1: と入力します。続けて、フィルタリングするオブジェクトまたは属性と、それを比較する値を入力します。新規以外のステータスのタスクを参照するには、次の行を使用します。
 
       `OR:1:status=NEW`
 
@@ -160,7 +164,7 @@ ht-degree: 69%
 
       >[!NOTE]
       >
-      >同じフィルター内に複数の「OR」ステートメントを含めることができます。 新しい「OR」ステートメントを作成するたびに、「OR:」の後の数値が増加します。
+      >同じフィルター内に複数の「OR」ステートメントを含めることができます。新しい「OR」ステートメントを作成するたびに、「OR:」の後の数値が増加します。
       >
       >ステータスが「処理中」のタスク、ログインしているユーザーに割り当てられているタスク、または予定完了日が今日のタスクをフィルタリングするには、以下を使用します。
       >
@@ -171,7 +175,7 @@ ht-degree: 69%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. クリック **テキストモードを終了** または **完了** テキストモードの変更を保存し、レポートまたはフィルターの編集を続行します。
+1. 「**テキストモードを終了**」または「**完了**」をクリックしてテキストモードの変更を保存し、レポートまたはフィルターの編集を続行します。
 1. 「**保存して閉じる**」をクリックしてレポートを保存するか、「**フィルターを保存**」をクリックして、リストにフィルターを保存します。
 
 

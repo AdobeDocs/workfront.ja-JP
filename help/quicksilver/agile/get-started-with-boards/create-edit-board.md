@@ -6,10 +6,10 @@ description: '[!UICONTROL ボード]ダッシュボードから、ボードを�
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 96%
+source-wordcount: '813'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 96%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -28,12 +30,12 @@ ht-degree: 96%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：コントリビューター以上 </p>
+   <td> <p>新規：Contributor 以上 </p>
  <p>または</p> 
 <p>現在：[!UICONTROL Request] 以上 </p> 
 </td> 
@@ -42,6 +44,8 @@ ht-degree: 96%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ボードを新規作成
 
@@ -76,7 +80,7 @@ ht-degree: 96%
 
       >[!NOTE]
       >
-      >デフォルトでは、アーカイブされたカードはボード上に表示されません。アーカイブされたカードを表示するには、構成設定をオンにしてから、ボードをフィルタリングして、アーカイブされたカードを表示する必要があります。詳しくは、[カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)と[ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
+      >デフォルトでは、アーカイブされたカードは、ボード上に表示されません。アーカイブされたカードを表示するには、構成設定をオンにしてから、ボードをフィルタリングして、アーカイブされたカードを表示する必要があります。詳しくは、[カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)と[ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
    1. （オプション）「[!UICONTROL **詳細フィルターの使用**]」をクリックして、追加のフィルターオプションを表示します。
 

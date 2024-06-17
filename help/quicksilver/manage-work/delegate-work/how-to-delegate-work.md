@@ -6,10 +6,10 @@ description: 不在時に割り当てられた作業を、一時的にデリゲ�
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 88%
+source-wordcount: '1460'
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,13 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 不在時に割り当てられた作業を、一時的にデリゲートできます。
 
-タスクや問題の割り当てを委任したり、承認を委任したりできます。 この記事では、タスクとイシューの割り当てをデリゲートする方法について説明します。
+タスクとイシューの割り当てや承認をデリゲートできます。この記事では、タスクとイシューの割り当てをデリゲートする方法について説明します。
 
 作業のデリゲートに関する一般情報について詳しくは、[作業のデリゲートの概要](../../manage-work/delegate-work/delegate-work-overview.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 >[!IMPORTANT]
 >
@@ -38,10 +40,10 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 >* 権限は、アクセスレベル内で機能する必要があり、デリゲートされたユーザーのアクセスレベルが、デリゲートを依頼するユーザーのアクセスレベルより低い場合もあります。
 >
 >   
->   例えば、デリゲートされるユーザーがアクセスレベルでタスクに対する表示アクセス権のみを持ち、デリゲートを依頼するユーザーがデリゲートするタスクに対して管理権限を持っている場合、デリゲートされるユーザーには、デリゲートされるタスクに対して管理権限が付与されます。ただし、ユーザーはデリゲートされたタスクに対して、デリゲートを依頼したユーザーと同じアクションを実行することはできません。 不在中にタスクを更新できるようにするには、システム管理者に Edit access to Tasks を要求する必要があります。
+>   例えば、デリゲートされるユーザーがアクセスレベルでタスクに対する表示アクセス権のみを持ち、デリゲートを依頼するユーザーがデリゲートするタスクに対して管理権限を持っている場合、デリゲートされるユーザーには、デリゲートされるタスクに対して管理権限が付与されます。ただし、ユーザーはデリゲートされたタスクに対して、デリゲートを依頼したユーザーと同じアクションを実行することはできません。不在時にタスクを更新できるようにするには、システム管理者にタスクに対する編集アクセス権をリクエストする必要があります。
 >
 >   
->   システム管理者がアクセスレベルを変更する方法について詳しくは、 [カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   システム管理者がアクセスレベルを変更する方法については、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 >
 >* デリゲーションが既に開始した後に割り当てられた項目の場合、[!DNL Workfront] が新しく割り当てられた項目を委任者と共有するまで、項目が割り当てられてから最大 1 時間かかる場合があります。
 
@@ -53,16 +55,16 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：寄稿者以上</p><p>または</p><p>現在：レビュー以上</p>
+   <td> <p>新規：Contributor 以上</p><p>または</p><p>現在：Review 以上</p>
 
 >[!NOTE]
 >
->リクエストライセンスを持っている場合は、作業に割り当てられることができますが、他のユーザーに対して作業をデリゲートすることはできません。[!DNL Workfront] では、レビュー、リクエスト、または投稿者のユーザに作業を割り当てることは推奨していません。
+>リクエストライセンスを持っている場合は、作業に割り当てられることができますが、他のユーザーに対して作業をデリゲートすることはできません。[!DNL Workfront] では、作業をレビュー、リクエスト、コントリビューターの各ユーザーに割り当てることはお勧めしません。
 
 </tr> 
   <tr> 
@@ -78,7 +80,9 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -106,9 +110,9 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 1. 「[!UICONTROL **タスクおよびイシューをデリゲート**]」タブで、次の内容を更新します。
 
-   * [!UICONTROL **タスクおよびイシューのデリゲート先**]：タスクおよびイシューをデリゲートするユーザーの名前を入力し、リストに表示されたら選択します。1 人のユーザーのみを選択できます。
+   * [!UICONTROL **タスクおよびイシューのデリゲート先**]：タスクおよびイシューをデリゲートするユーザーの名前を入力し、リストに表示されたら選択します。選択できるユーザーは 1 名のみです。
 
-     委任者として選択したユーザーは、タスクに対する権限と同じ権限を受け取り、委任した問題を受け取ります。
+     委任者として選択したユーザーには、デリゲートしたタスクやイシューに対する権限と同じ権限が付与されます。
 
    * [!UICONTROL **開始日**]：作業項目のデリゲーションを開始する日付をカレンダーから選択します。
 
@@ -122,7 +126,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
      >[!TIP]
      >
-     >「終了日」フィールドを空のままにし、「終了日なし」オプションが選択されていない場合、デリゲーションは現在の日に対してのみ設定されます。
+     >「終了日」フィールドを空のままにし、「終了日なし」オプションを選択していない場合、デリゲーションは現在の日に対してのみ設定されます。
 
      ![](assets/delegate-box-expanded-in-home.png)
 
@@ -139,7 +143,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
    * 画面の右上隅に、別のユーザーへの作業のデリゲーションを有効にしたことを確認するメッセージが表示されます。デリゲートされたユーザーの名前が確認メッセージに表示されます。
 
-   * [!DNL Workfront] で割り当てが表示できるほとんどの領域で、タスクとイシューが他のユーザーにデリゲートされたことを示すメッセージが表示されます。代理オブジェクトの名前が含まれていない領域の詳細については、を参照してください。 [作業の委任の概要](delegate-work-overview.md).
+   * [!DNL Workfront] で割り当てが表示できるほとんどの領域で、タスクとイシューが他のユーザーにデリゲートされたことを示すメッセージが表示されます。委任者の名前が含まれていないエリアについて詳しくは、[作業のデリゲートの概要](delegate-work-overview.md)を参照してください。
 
    * [!UICONTROL ホーム]領域の「[!UICONTROL **デリゲート**]」ボタンが「[!UICONTROL **デリゲーションを編集**]」に変更されます。これは、デリゲーションが実行されていることを示します。
    <!--
@@ -154,7 +158,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
    * イベント通知が有効になっている場合、委任者として選択したユーザーには、デリゲーションに関するメールが届きます。
 
-     個人の電子メール通知を有効にする方法について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     個人のメール通知を有効にする方法について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 ## デリゲーションを編集または停止
 

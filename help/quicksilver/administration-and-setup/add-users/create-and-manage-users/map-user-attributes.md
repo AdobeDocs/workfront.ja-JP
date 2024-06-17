@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '963'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 100%
 シングルサインオン（SSO）を使用して、ID プロバイダーの Active Directory から Adobe Workfront ユーザーに属性を渡すことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -35,7 +37,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p><p>または</p><p>現在：プラン</p></td> 
   </tr> 
   <tr> 
@@ -46,6 +48,8 @@ ht-degree: 100%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 属性のマッピングに関するヒント
 

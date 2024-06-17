@@ -5,10 +5,10 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 89%
+source-wordcount: '2776'
+ht-degree: 99%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 89%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -42,7 +44,7 @@ ht-degree: 89%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準 </p><p>または </p><p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +58,9 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -68,7 +72,7 @@ ht-degree: 89%
 
 * レポートの対象となるすべてのカスタムフィールドで「**更新フィードにフィールド変更を表示**」の設定が有効になっていること。
 
-  カスタムフィールドに対してこの設定を有効にする方法については、 [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
+  カスタムフィールドでこの設定を有効にする方法については、[カスタムフォームの作成と編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#)を参照してください。
 
 ## ジャーナルエントリレポートの概要
 
@@ -127,7 +131,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
  </tbody> 
 </table>
 
-このレポートの情報を整理するには、プロジェクトと呼ばれる組み込みのグループを使用します。 プロジェクトのグループ化では、プロジェクト名がプライマリ、エントリ日がセカンダリにグループ化されます。この既存のグループ化は、レポートの作成時に適用することも、レポートの表示時に適用することもできます。
+このレポートの情報を整理するには、ビルトインのグループ化である「プロジェクト」を使用できます。プロジェクトのグループ化では、プロジェクト名がプライマリ、エントリ日がセカンダリにグループ化されます。この既存のグループ化は、レポートの作成時に適用することも、レポートの表示時に適用することもできます。
 
 レポートの表示、フィルター、グループを設定する方法については、次の関連する節を参照してください。
 
@@ -167,7 +171,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 >条件の変更間の日数の差を比較する場合は、拡張分析を使用できます。\
 >拡張分析について詳しくは、[拡張分析の概要](../../../enhanced-analytics/enhanced-analytics-overview.md)を参照してください。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **レポート**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅のにある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -250,7 +254,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
    >
    >条件の変更に関するレポートを作成する場合は、代わりにフィルタールール「**フィールド名**／**次と等しい**／**条件**」を追加できます。
 
-   フィルターの追加について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 1. （オプション）レポートの焦点を絞り、読み込み時間を短縮するには、プロンプトを追加します。
 
@@ -281,7 +285,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 タスクやイシューがいつ削除されたかを確認するには、以下のように行います。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **レポート**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +329,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    列の追加について詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-1. Adobe Analytics の **フィルター** タブ、クリック **フィルタールールを追加**&#x200B;次のフィルターを追加します。
+1. 「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、以下を追加します。
 
    * **変更の種類**／**が次に等しい**／**削除**
    * **プロジェクト ID**／**が次に等しい**／**`<project>`**
@@ -333,7 +337,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
-   フィルターの追加について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 1. （オプション）レポートの焦点を絞り、読み込み時間を短縮するには、プロンプトを追加します。
 
@@ -365,7 +369,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 プロジェクトのライフサイクルの過程でカスタムフィールドがどのように変化したかを確認するには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **レポート**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +433,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    列の追加について詳しくは、[Adobe Workfront の概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-1. Adobe Analytics の **フィルター** タブ、クリック **フィルタールールを追加**&#x200B;次のフィルターを追加します。
+1. 「**フィルター**」タブで「**フィルタールールを追加**」をクリックし、次のフィルターを追加します。
 
    * **ジャーナルエントリフィールド名**／**次を含む**／**DE**
 
@@ -441,7 +445,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
-   フィルターの追加について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 1. （オプション）レポートの焦点を絞り、読み込み時間を短縮するには、プロンプトを追加します。
 
@@ -467,7 +471,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 ジャーナルエントリレポートを設定して、プロジェクトの存続エントリ予定完了日が変更される頻度を表示できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **レポート**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -542,7 +546,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   フィルターの追加について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 1. （オプション）レポートの焦点を絞り、読み込み時間を短縮するには、プロンプトを追加します。
 
@@ -568,7 +572,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 ジャーナルエントリレポートを設定して、プロジェクトの存続期間中にプロジェクト所有者（またはプロジェクトマネージャー）が何回変更されたかを表示できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **レポート**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、利用可能であれば左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして&#x200B;**レポート**&#x200B;をクリックします。
 1. 「**新規レポート**」をクリックしてから、「**ジャーナルエントリ**」を選択します。
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -631,7 +635,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
-   フィルターの追加について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 1. （オプション）レポートの焦点を絞り、読み込み時間を短縮するには、プロンプトを追加します。
 

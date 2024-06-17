@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 92%
+source-wordcount: '252'
+ht-degree: 95%
 
 ---
 
@@ -33,6 +33,8 @@ ADFS ログアウト URL（https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1
 問題が解決しない場合は、このサイトの管理者に問い合わせ、次の参照番号を入力して問題を特定してください。**57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -57,7 +59,9 @@ ADFS ログアウト URL（https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ソリューション
 

@@ -6,10 +6,10 @@ description: グラフを追加すると、レポートの内容をより充実�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 68d93ccb8b96f802ef0a612e7e41cf168e34e863
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 90%
+source-wordcount: '2768'
+ht-degree: 99%
 
 ---
 
@@ -19,19 +19,21 @@ ht-degree: 90%
 
 グラフを追加すると、レポートの内容をより充実させることができます。グラフは、既存のレポートまたは新たに作成するレポートに追加できます。
 
-レポートにグラフを追加する前に、レポートのビューとグループを作成する必要があります。
+レポートにグラフを追加する前に、レポートのビューとグループ化を作成する必要があります。
 
-最初にレポート内の情報をグループ化しない限り、ほとんどのレポートにグラフを追加できません。 グループ化せずに追加できるのは、ゲージグラフのみです。
+最初にレポート内の情報をグループ化しなければ、ほとんどのレポートにはグラフを追加できません。グループ化せずに追加できるのは、ゲージグラフのみです。
 
-ビューについて詳しくは、 [Adobe Workfrontの概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+ビューについて詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
 グループ化についての詳細情報は、[Adobe Workfront でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)を参照してください。
 
 レポートに表示される項目が多すぎると、グラフは作成されません。この場合、レポートにフィルターを適用して、レポートの結果数を減らす必要があります。
 
-フィルターについて詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+フィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,13 +46,13 @@ ht-degree: 90%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在：プラン </p>
    または
    <p>新規：標準</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベルの設定</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
@@ -60,16 +62,19 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者に問い合わせてください。アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
 
 ## レポートにグラフを追加
 
 1. 既存のレポートに移動するか、新しいレポートを作成します。新しいレポートの作成についての詳細情報は、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 1. （条件付き）既存のレポートに移動した場合は、**報告書アクション**／**編集**&#x200B;をクリックします。
 
-1. 次の点を確認します。 **列（表示）** 」タブが更新され、レポートに表示する情報が変更されました。
+1. 「**カラム（表示）**」タブが更新されて、レポートにグラフ化する情報が表示されていることを確認します。
 
-   レポートのビューを作成または変更する方法について詳しくは、 [Adobe Workfrontでビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+   レポートのビューを作成または変更する方法について詳しくは、[Adobe Workfront でのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)を参照してください。
 
 1. 「**グループ化**」タブをクリックし、グループを追加します。
 
@@ -77,9 +82,9 @@ ht-degree: 90%
    >
    >* レポートの結果がグループ化されている場合は、グラフをレポートに追加することのみ可能です。
    >* グラフでは、テキストモードのグループ化はサポートされていません。テキストモードのグループ化の詳細情報については、[グループ化でのテキストモードの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)を参照してください。
-   >* 1 つの指標を表す 1 つのグループ化を追加した場合、円グラフを除くすべてのグラフで、グループ化の結果が同じ色で表示されます。
+   >* 1 つの指標を表す 1 つのグループ化を追加した場合は、円グラフを除くすべてのグラフでグループが同じ色で表示されます。
 
-   グループ化の作成について詳しくは、 [Adobe Workfrontでのグループ化の作成](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+   グループ化の作成について詳しくは、[Adobe Workfront でのグループ化の作成](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)を参照してください。
 
 1. 「**グラフ**」タブを選択します。
 1. グラフのタイプをクリックして選択します。\
@@ -112,11 +117,11 @@ ht-degree: 90%
 
    * 次のいずれかのオプションをクリックして、グループ化された列の表示方法を選択します。
 
-      * **並べて表示**
+      * **並列**
       * **積み重ね**
-      * **100%に積み重ね**
+      * **100% まで積み重ね**
 
-   * グラフに含めるグループを **データのグループ化基準** ドロップダウンメニュー。
+   * グラフに含めるグループ化を&#x200B;**データのグループ化基準**&#x200B;ドロップダウンメニューから選択します。
    * （オプション）「**カスタム色**」を選択して、縦棒のカラーをカスタマイズします。\
      グラフのカラーのカスタマイズについて詳しくは、[グラフのカラーのカスタマイズ](#customize-chart-colors)を参照してください。
 
@@ -140,16 +145,16 @@ ht-degree: 90%
    グラフのカラーのカスタマイズについて詳しくは、[グラフのカラーのカスタマイズ](#customize-chart-colors)を参照してください。
 
 1. （オプション）「**3D で表示**」を選択して、グラフを 3D ビューで表示します。
-1. （オプション）「 」を選択します。 **グループバー** を使用して、バーのグループ化方法を定義します。\
+1. （オプション）「**棒グラフをグループ化する**」を選択すると、棒をグループ化する方法を定義できます。\
    次のオプションから選択します。
 
    * 次のいずれかのオプションをクリックして、グループ化された棒の表示方法を選択します。
 
-      * **並べて表示**
+      * **並列**
       * **積み重ね**
-      * **100%に積み重ね**
+      * **100% まで積み重ね**
 
-   * グラフ内の情報をグループ化する方法を、 **データのグループ化基準** ドロップダウンメニュー。
+   * グラフ内の情報をグループ化する方法を&#x200B;**データのグループ化基準**&#x200B;ドロップダウンメニューから選択します。
    * （オプション）「**カスタム色**」を選択して、棒のカラーをカスタマイズします。\
      グラフのカラーのカスタマイズについて詳しくは、[グラフのカラーのカスタマイズ](#customize-chart-colors)を参照してください。
 
@@ -160,7 +165,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->23 を超える棒グラフを含む棒グラフでは、すべての棒ラベルが正しく表示されないので、棒グラフを 23 以下に制限します。
+>23 を超える棒グラフが含まれる棒グラフでは、すべての棒ラベルが正しく表示されないので、棒グラフを 23 以下に制限します。
 
 ### 円グラフ {#pie-chart}
 
@@ -225,7 +230,7 @@ ht-degree: 90%
 
 ### バブルグラフ {#bubble-chart}
 
- **バブル** グラフでは、1 つのオブジェクトに最大 3 つのフィールドを 1 つに表示できます。つまり、バブルチャートには最大 4 つのデータポイントを表示できます。3 つのフィールドが関連付けられた各エンティティは、X 軸と Y 軸内の位置にある 2 つのフィールドを表す円として表示されます。3 番目のフィールドは、円のサイズで表されます。
+**バブル** グラフでは、1 つのオブジェクトに最大 3 つのフィールドを 1 つに表示できます。つまり、バブルチャートには最大 4 つのデータポイントを表示できます。3 つのフィールドが関連付けられた各エンティティは、X 軸と Y 軸内の位置にある 2 つのフィールドを表す円として表示されます。3 番目のフィールドは、円のサイズで表されます。
 
 レポートに&#x200B;**バブル**&#x200B;チャートを追加するには、以下を実行します。
 

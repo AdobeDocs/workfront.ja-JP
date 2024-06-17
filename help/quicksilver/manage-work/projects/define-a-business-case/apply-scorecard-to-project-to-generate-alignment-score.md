@@ -5,10 +5,10 @@ description: スコアカードを使用して、プロジェクトが以前に�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 90%
+source-wordcount: '1240'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 90%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -33,7 +35,7 @@ ht-degree: 90%
    <td>
    <p>新規：Prime 以上</p>
    <p>または</p>
-   <p>現在：ビジネス以上</p> </td>
+   <p>現在：Business 以上</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -53,7 +55,9 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## プロジェクトのスコアカード {#project-scorecards}
 
@@ -64,11 +68,11 @@ ht-degree: 90%
 
 通常、プロジェクトマネージャーがスコアカード情報をすべて入力し、プロジェクトの整合性の値を 0～100 で生成します。この生成された値は、後でポートフォリオマネージャーがポートフォリオオプティマイザー内のプロジェクトをレビューして比較する際に使用されます。
 
-ポートフォリオの最適化について詳しくは、 [Portfolioの最適化の概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+ポートフォリオの最適化について詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)を参照してください。
 
 ### プロジェクトへのスコアカードの適用
 
-標準またはプランのライセンスを持ち、プロジェクトに対する管理権限を持つユーザーは、スコアカードをプロジェクトに添付できます。
+標準ライセンスまたはプランライセンスとプロジェクトに対する管理権限を持つユーザーは、プロジェクトにスコアカードを添付できます。
 
 プロジェクト権限について詳しくは、[Adobe Workfront でプロジェクトを共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
 
@@ -89,9 +93,9 @@ ht-degree: 90%
 
 1. ドロップダウンメニューから「スコアカード」を選択します。
 
-   ![新しいスコアカード](assets/new-scorecard.png)
+   ![新規スコアカード](assets/new-scorecard.png)
 
-1. スコアカード内のすべての質問に対する回答を入力します。
+1. スコアカードのすべての質問に対する回答を入力します。
 
    Workfront は、回答した各質問にスコアを適用し、全質問の個々のスコアに基づいてプロジェクト全体のスコアを計算します。
 
@@ -162,7 +166,7 @@ ht-degree: 90%
 
    整合性スコアは、ビジネスケース概要の「**整合済み**」の値にあります。
 
-   ![プロジェクトの配置スコア](assets/alignment-score-on-a-project.png)
+   ![プロジェクトの整合性スコア](assets/alignment-score-on-a-project.png)
 
 ### ポートフォリオオプティマイザーでプロジェクトやポートフォリオの整合性スコアを確認
 
@@ -173,14 +177,14 @@ ht-degree: 90%
 * [ポートフォリオオプティマイザーでプロジェクトの整合性スコアを見つける](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [ポートフォリオオプティマイザーでポートフォリオの整合性スコアを見つける](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Adobe Optimizer での配列スコアのPortfolio](assets/alignment-score-in-portfolio-optimizer.png)
+  ![ポートフォリオオプティマイザーの整合性スコア](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### ポートフォリオオプティマイザーでプロジェクトの整合性スコアを見つける {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. ポートフォリオの名前をクリックします。
-1. 左側のパネルで「**ポートフォリオ最適化**」をクリックします。
+1. 左側のパネルで「**ポートフォリオの最適化**」をクリックします。
 
    ポートフォリオオプティマイザーが表示されます。
 
@@ -194,7 +198,7 @@ ht-degree: 90%
 
 1. ポートフォリオの名前をクリックします。
 1. 左側のパネルで「**ポートフォリオの最適化**」をクリックします。
-1. Portfolio・オプティマイザの上部で、 **整列** 値、および **整列** gage：ポートフォリオの線形スコアを示します。
+1. ポートフォリオオプティマイザーの上部には、ポートフォリオの整合性スコアを示す&#x200B;**整合済み**&#x200B;の値と&#x200B;**整合性**&#x200B;ゲージが表示されます。
 
    これは、ポートフォリオの整合性スコアです。
 

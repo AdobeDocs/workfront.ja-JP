@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
-workflow-type: ht
-source-wordcount: '1368'
-ht-degree: 100%
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+workflow-type: tm+mt
+source-wordcount: '1379'
+ht-degree: 99%
 
 ---
 
@@ -38,6 +38,8 @@ Workfront 管理者がタイムシートおよび時間環境設定のロック�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -49,13 +51,15 @@ Workfront 管理者がタイムシートおよび時間環境設定のロック�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
+
++++
 
 ## グループのタイムシートおよび時間環境設定
 
@@ -102,7 +106,7 @@ Workfront 管理者がタイムシートおよび時間環境設定のロック�
        <li>一般的な時間としてのタイムシート</li>
        </ul> 
        <p>これは、ユーザーがオフィスを離れる予定があり、事前にその時間を記録したい場合に便利です。</p> 
-       <p><b>メモ</b>：終了もしくはキャンセルされたタスクやイシューに関する時間をユーザーに記録させないようにすることはできません。可能なのは、完了もしくは停止したプロジェクトに関する時間をユーザーに記録させないようにすることだけです。タスクおよびイシューのリストでフィルターを使用して、完了またはキャンセルした項目をユーザーに表示しないようにすることをお勧めします。</p> </td> 
+       <p><b>メモ</b>：終了した、またはキャンセルされたタスクやイシューの時間をユーザーが記録することを防ぐことはできません。可能なのは、完了もしくは停止したプロジェクトに関する時間をユーザーに記録させないようにすることだけです。タスクおよびイシューのリストでフィルターを使用して、完了またはキャンセルした項目をユーザーに表示しないようにすることをお勧めします。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">タイムシートから費用を追加</td> 

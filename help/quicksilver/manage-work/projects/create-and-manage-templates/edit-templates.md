@@ -6,10 +6,10 @@ description: プロジェクトテンプレートを編集して、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '4710'
-ht-degree: 98%
+source-wordcount: '4721'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 98%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -34,7 +36,7 @@ ht-degree: 98%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontライセンス</td> 
+   <td role="rowheader">Adobe Workfront ライセンス</td> 
    <td>
       <p>新規：標準</p>
       <p>または</p>
@@ -56,7 +58,9 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## テンプレートを編集 {#edit-a-template}
 
@@ -681,7 +685,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li>テンプレートに対する管理権限が自動的に付与されます。 </li> 
          <li>このユーザーは、プロジェクトチームに追加され、テンプレートから作成されたプロジェクトに対する管理権限が自動的に付与されます。 </li> 
          <li>プロジェクトをこのテンプレートから作成すると、このユーザーはプロジェクト所有者になります。 </li> 
-         <li> テンプレート所有者として指定されたユーザーが、自分のアクセスレベルからテンプレートまたはプロジェクトに対する制限付きアクセス権を持っている場合、テンプレートおよびプロジェクトに対する管理権限は制限されます。 例えば、テンプレートまたはプロジェクトの表示アクセス権のみを持つユーザーは、テンプレート所有者に指定されると、テンプレートおよびプロジェクトに対する表示権限を自動的に受け取ります。</li>
+         <li> テンプレート所有者として指定されたユーザーが、自分のアクセスレベルではテンプレートやプロジェクトへのアクセス権限が制限されている場合、テンプレートやプロジェクトに対する管理権限も制限されます。例えば、テンプレートやプロジェクトを表示できるアクセス権限のみを持つユーザーは、テンプレート所有者に指定されると、テンプレートやプロジェクトに対する表示権限を自動的に受け取ります。</li>
          </ul></td> 
        </tr> 
        <tr> 

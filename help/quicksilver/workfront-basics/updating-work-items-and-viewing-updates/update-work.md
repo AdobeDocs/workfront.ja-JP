@@ -6,9 +6,9 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2978'
 ht-degree: 95%
 
 ---
@@ -65,6 +65,8 @@ Adobe Workfront オブジェクトに更新を追加して、オブジェクト�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -78,10 +80,10 @@ Adobe Workfront オブジェクトに更新を追加して、オブジェクト�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
    <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p>
-   <p>新規：イシューとドキュメントについてはコントリビューター以上、その他のすべてのオブジェクトについてはライト以上</p> 
+   <p>新規：イシューとドキュメントについては Contributor 以上、その他のすべてのオブジェクトについては Light 以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -95,7 +97,9 @@ Adobe Workfront オブジェクトに更新を追加して、オブジェクト�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報の詳細については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 作業の更新に関する考慮事項
 
@@ -250,11 +254,11 @@ You can add updates to the following objects:
    * Ctrl + Y（Mac の場合は ⌘+y）で、変更をやり直します
 
 1. （オプション）**担当者またはチームのタグ付け**&#x200B;エリアで、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
-1. （オプション）リッチテキストツールバーのオプションを使用すると、テキストの書式設定や、更新への絵文字、リンクまたは画像の追加を行って、コンテンツを拡充できます。詳しくは、[Workfront の更新でリッチテキストを使用](#use-rich-text-in-a-workfront-update)の節を参照してください。
+1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字、リンク、画像を更新に追加して、コンテンツを拡充できます。詳しくは、[Workfront の更新でリッチテキストを使用](#use-rich-text-in-a-workfront-update)の節を参照してください。
 
    >[!TIP]
    >
-   >更新中のアイテムに別のユーザーがコメントを送信した場合、「新規」インジケーターと赤い線が表示され、新しいコメントが通知されます。
+   >別のユーザーが、更新しようとしている同じ項目にコメントを送信すると、赤い線に「新規」インジケーターが表示され、新しいコメントが通知されます。
    >
    >インジケーターは、コメントが項目に送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
    >
@@ -262,13 +266,13 @@ You can add updates to the following objects:
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. 「**送信**」をクリックして、Workfront オブジェクトに更新を追加します。
-1. （オプション）コメントを編集するには、コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックして、「**編集**」をクリックします。
+1. （オプション）コメントを編集するには、コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー![](assets/more-menu.png)、「**編集**」の順にクリックします。
 
    >[!IMPORTANT]
    >
    >コメントは送信後の 15 分間のみ編集できます。
 
-1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除を行います。コメントの入力時に表示される日付スタンプの左側に、「編集済み」インジケーターが追加されます。
+1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除を行います。コメントが入力された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
 
    >[!TIP]
    >
@@ -280,7 +284,7 @@ You can add updates to the following objects:
    >
    >* 元の更新を送信した場合にのみ、ユーザーに更新を通知するメールが生成されます。更新を編集した後は、メールは生成されません。
    >* コメントの横の日付スタンプは、最後の編集の日付ではなく、元のコメントの日付です。
-   >* 別のユーザーの代わりにコメントを追加する際（Workfront またはグループ管理者が別のユーザーとしてログインしている場合）、他のユーザーとしてログインしている場合は、コメントを編集できません。コメントを編集するには、そのユーザーとしてログアウトし、自分自身として再度ログインする必要があります。
+   >* 別のユーザーの代わりにコメントを追加する場合（Workfront またはグループ管理者が別のユーザーとしてログインしている場合）、他のユーザーとしてログインしている場合は、コメントを編集できません。コメントは、そのユーザーでログアウトし、自分自身で再度ログインした後にのみ編集できます。
 
 1. （オプション）既存のコメントに返信するには、「**返信**」をクリックするか、**返信を追加...**&#x200B;エリアにコメントの入力を開始して、上記の手順 3～7 に従います。<!--(**************insure this stays accurate***********)--> 更新への返信について詳しくは、[更新に返信](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)を参照してください。
 
@@ -328,7 +332,7 @@ You can add updates to the following objects:
    | 太字 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
    | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを追加」ボックスを開くには、⌘ + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、⌘ + V を使用します</br> | <br>「リンクを追加」ボックスを開くには、Ctrl + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、Ctrl + V を使用します</br> |
+   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを追加」ボックスを開くには、⌘ + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、⌘ + V を使用します</br> | <br>「リンクを追加」ボックスを開くには、Ctrl + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、Ctrl + V を押します。</br> |
    | 箇条書き | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
    | 番号付きリスト | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
@@ -376,7 +380,7 @@ You can add updates to the following objects:
 
 1. （オプション）更新に画像を添付するには、次のいずれかの操作を実行します。
 
-   * コンピューター上に画像を保存し、新しいコメントエリアにドラッグ＆ドロップします。
+   * コンピューター上に画像を保存し、新しいコメントエリアにドラッグアンドドロップします。
    * お使いのコンピューターからスクリーンショットをコピーし、コメントに貼り付けます。<!-- This is not available in the legacy commenting experience.-->
    * **画像を追加**&#x200B;アイコン ![](assets/add-image-mountain-with-plus-icon.png) をクリックし、お使いのコンピューター上で画像を参照します。
 
@@ -385,7 +389,7 @@ You can add updates to the following objects:
    >
    >* 画像アイコンや、添付ファイルを追加アイコンを表示するには、Workfront 管理者が、画像の追加を Workfront インターフェイスエリアの「フィードの環境設定を更新」セクションで有効にする必要があります。詳しくは、[ユーザーの更新用に環境設定を指定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)を参照してください。
    >* 画像ファイルの最大サイズは 7 MB です。サポートされる画像ファイルタイプは、.jpg、.gif および .png です。
-   >* 画像はオブジェクトの「更新」セクションのほか、メインメニューのドキュメントエリアからもアクセスできます。
+   >* 画像はオブジェクトの「更新」セクション、およびメインメニューの「ドキュメント」エリアからアクセスできます。
    >* 画像を貼り付けるには、新しいコメントを右クリックするか、Windows の場合は Ctrl + V（Mac の場合は ⌘ + V）キーを押します。
    >* 画像は含むがテキストを含まないアップデートを送信できます。
    >* 画像を含むコメントを削除すると、その画像は「更新」セクションおよびドキュメントエリアから削除されます。コメントを編集して画像を削除すると、その画像もドキュメントエリアから削除されます。
@@ -398,28 +402,28 @@ You can add updates to the following objects:
    * 画像のサムネールで&#x200B;**プレビュー**&#x200B;アイコン ![](assets/previewimageicon-31x31.png) をクリックして、フルサイズの画像を新しいブラウザータブで開きます。
    * 画像のサムネールで&#x200B;**ダウンロード**&#x200B;アイコン ![](assets/downloadimageicon.png) をクリックして、画像をダウンロードします。
 
-1. 「**送信**」をクリックして、コメントを追加します。
+1. 「**送信**」をクリックしてコメントを追加します。
 
-## 更新の検索
+## 更新を検索
 
 オブジェクトの「更新」セクションで、コメントや返信を検索できます。
 
-1. オブジェクトの「**更新**」セクションに移動します。
-1. 「**コメント**」タブの右上隅にある&#x200B;**検索**&#x200B;ボックスにキーワード<!--or a user's name -->を入力していきます。
+1. オブジェクトの「**更新**」セクションにに移動します。
+1. **コメント**&#x200B;タブの右上隅にある&#x200B;**検索**&#x200B;ボックスにキーワード <!--or a user's name --> を入力し始めます。
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
    >[!NOTE]
    >
-   >検索できるのは、コメントまたは返信のテキストに含まれている単語のみです。更新でタグ付けされたユーザーやチームの名前は検索できません。
+   >検索できるのは、コメントまたは返信のテキストに含まれている単語のみです。更新でタグ付けされたユーザーまたはチームの名前は検索できません。
 
    ![更新での検索](assets/updates-all-tabs-with-search-field.png)
 
-   検索したキーワード<!--or user-->がハイライト表示され、その語を含んだコメントが「更新」セクションの上部に表示されます。
+   検索したキーワード <!--or user--> がハイライト表示され、その語を含むコメントが「更新」セクションの上部に表示されます。
 
    Workfront は、画面に表示されるコメントの外側にある、オブジェクトの更新ストリーム全体を検索します。
 
-1. 検索フィールドの「**x**」アイコンをクリックすると、検索結果を消去してすべてのコメントに戻ります。
+1. 検索フィールドの **x** アイコンをクリックすると、検索結果を消去してすべてのコメントに戻ります。
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
@@ -447,19 +451,19 @@ You can add updates to the following objects:
 
 #### リンクをコピー
 
-「リンクをコピー」オプションでは、コメントやスレッドリンクがクリップボードにコピーされて、コメントや完全なスレッドを他のユーザーと共有できるようになります。
+「リンクをコピー」オプションは、コメントやスレッドリンクをクリップボードにコピーして、スレッドや完全なスレッドを他のユーザーと共有できるようにします。
 
 1. リンクをコピーする更新に移動します。
 
 1. **その他**&#x200B;メニュー、「**リンクをコピー**」の順にクリックします。
 
-1. 前の手順でコピーしたリンクをメールまたは他のアプリケーションに貼り付けて、他の人と共有します。共有リンクをクリックすると、リンク元のコメントが開きます。
+1. 前の手順でコピーしたリンクをメールまたは他のアプリケーションに貼り付けて、他の人と共有します。共有したリンク元のコメントが共有リンクによって開きます。
 
    >[!TIP]
    >
-   >上位オブジェクトから子オブジェクト上の会話のリンクを共有すると、上位オブジェクトの更新エリアでスレッドが開きます。
+   >上位のオブジェクトから子オブジェクト上の会話のリンクを共有すると、上位のオブジェクトの更新エリアでスレッドが開かれます。
    >
-   >例えば、タスクのコメントのリンクをプロジェクトの更新エリアからコピーすると、プロジェクトページが開きます。
+   >例えば、タスクのコメントのリンクをプロジェクトの更新エリアからコピーすると、プロジェクトページが開かれます。
 
 #### 本文をコピー
 

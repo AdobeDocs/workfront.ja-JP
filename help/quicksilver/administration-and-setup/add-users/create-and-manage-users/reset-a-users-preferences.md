@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 79%
+source-wordcount: '346'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -36,7 +38,7 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p>
        <p>または</p>
        <p>現在：プラン</p></td>
@@ -48,7 +50,9 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 影響を受ける設定について
 
@@ -66,15 +70,15 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
  <tbody> 
   <tr> 
    <td>ビュー</td> 
-   <td> <p> システムのデフォルトに戻しました</p> <p>既存のビューは削除されません。 もう一度選択できます。</p> </td> 
+   <td> <p> システムのデフォルトに戻しました</p> <p>既存のビューは削除されません。もう一度選択できます。</p> </td> 
   </tr> 
   <tr> 
    <td>フィルター</td> 
-   <td> <p>システムのデフォルトに戻しました</p> <p>既存のフィルターは削除されません。 もう一度選択できます。</p> </td> 
+   <td> <p>システムのデフォルトに戻しました</p> <p>既存のフィルターは削除されません。もう一度選択できます。</p> </td> 
   </tr> 
   <tr> 
    <td>グループ化</td> 
-   <td> <p>システムのデフォルトに戻しました</p> <p>既存のグループは削除されません。 もう一度選択できます。</p> </td> 
+   <td> <p>システムのデフォルトに戻しました</p> <p>既存のグループは削除されません。もう一度選択できます。</p> </td> 
   </tr> 
   <tr> 
    <td>最近使用した項目のリスト</td> 
@@ -86,7 +90,7 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
   </tr> 
   <tr> 
    <td>ユーザーの環境設定</td> 
-   <td> <p>システムのデフォルトに戻しました</p> <p>電子メール通知がシステムのデフォルトに戻ります。 デフォルトの通知は、 <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfrontで使用可能なイベント通知</a>.</p> </td> 
+   <td> <p>システムのデフォルトに戻しました</p> <p>メール通知がシステムのデフォルトに戻ります。デフォルトの通知については、<a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Adobe Workfront で使用可能なイベント通知</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>ユーザー定義のカスタムタブ</td> 
@@ -94,7 +98,7 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
   </tr> 
   <tr> 
    <td>ユーザー定義のグローバルナビゲーションオプション</td> 
-   <td>レイアウトテンプレート定義に戻すか、レイアウトテンプレートが割り当てられていない場合はシステムの既定に戻します。</td> 
+   <td>レイアウトテンプレートが割り当てられていない場合は、レイアウトテンプレート定義に戻すか、システムのデフォルトに戻します。</td> 
   </tr> 
  </tbody> 
 </table>

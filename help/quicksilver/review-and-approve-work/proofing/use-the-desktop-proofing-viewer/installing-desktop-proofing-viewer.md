@@ -6,10 +6,10 @@ description: デスクトッププルーフビューアは、主にインタラ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 95%
+source-wordcount: '569'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,11 @@ ht-degree: 95%
 * Windows 7 以降（32 ビットおよび 64 ビット）
 * Mac OS X 10.9 以降（64 ビット）
 
+{{latest-version}}
+
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -36,18 +40,20 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：任意</p> <p>または</p> <p>現在： Pro 以上</p> </td> 
+   <td> <p>新規：任意</p> <p>または</p> <p>現在：Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-{{latest-version}}
++++
+
+
 
 ## Mac へのデスクトッププルーフビューアーのインストール
 

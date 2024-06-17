@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f84611ef1c6ba1e5b2ec55375c4eb222bcf1cf5e
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 94%
+source-wordcount: '1463'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、ユーザーに付与できます。アクセスレベルを設定する場合は、ユーザーがオブジェクトを共有する際に付与するオブジェクト権限と連携する方法を理解することが重要です。アクセス・レベルの詳細は、次を参照してください。
+Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、ユーザーに付与できます。アクセスレベルを設定する場合は、ユーザーがオブジェクトを共有する際に付与するオブジェクト権限と連携する方法を理解することが重要です。アクセスレベルについて詳しくは、次を参照してください。
 
 * [新規アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 * [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
@@ -31,6 +31,8 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 >ユーザーを設定した後で参照できるように、組み込みのアクセスレベルを変更しないことを強くお勧めします。アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、そのコピーを変更します。これは、システム管理者と外部ユーザーを除くすべてのアクセスレベルで実行できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,7 +45,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>新規：標準
    <p>または</p>
    <p>現在：プラン</p></td> 
@@ -55,7 +57,9 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## カスタムアクセスレベルの作成または編集
 
@@ -172,7 +176,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーが含まれている会話の更新のみを表示する</td> 
-      <td> ユーザーが自分の名前またはチームの名前が含まれるコメントのみを表示できるようにします。 <p> <p><b>メモ</b>：これにより、ユーザーが Workfront で項目を登録できなくなります。項目の購読について詳しくは、 <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Adobe Workfrontの項目を購読</a>.</p> </p> </td> 
+      <td> ユーザーが自分の名前またはチームの名前が含まれるコメントのみを表示できるようにします。 <p> <p><b>メモ</b>：これにより、ユーザーが Workfront で項目を登録できなくなります。項目の登録について詳しくは、<a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Adobe Workfront での項目の登録</a>を参照してください。</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">絶対にユーザーによるコメントの削除を許可しない </td> 
@@ -180,7 +184,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーが所属する会社、グループおよびチームのみを表示する</td> 
-      <td>ユーザーが、所属する会社、グループおよびチームとのみ項目を表示、共有できるようにします。<p><strong>注意</strong>：要求者ライセンスを持つユーザーは、このオプションが選択されている場合でも、その要求者が属さない会社を表示できません。</td> 
+      <td>ユーザーが、所属する会社、グループおよびチームとのみ項目を表示、共有できるようにします。<p><strong>メモ</strong>：依頼者ライセンスを持つユーザーは、このオプションが選択されている場合でも、その依頼者が属さない会社は表示できません。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定時間数または実際の時間数の表示を許可しない</td> 
@@ -195,7 +199,7 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 
 1. （条件付きおよびオプション）Workfront システムが複数の会社に属するユーザーに対して設定されている場合は、「**他の会社のユーザーに表示するユーザーの限定**」のセクションで、所属する会社に基づいて他のユーザーに対する表示を制限します。
 
-   ユーザーに対して、自分の会社のユーザーや、プライマリ会社として指定した会社のユーザーのみを表示するように制限できます。通常、プライマリ会社は、ほとんどのユーザーが作業するWorkfrontアカウントを表します。 プライマリ会社について詳しくは、[会社の作成および編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)を参照してください。
+   ユーザーに対して、自分の会社のユーザーや、プライマリ会社として指定した会社のユーザーのみを表示するように制限できます。通常、プライマリ会社は、ほとんどのユーザーが作業する Workfront アカウントを表します。プライマリ会社について詳しくは、[会社の作成および編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)を参照してください。
 
    >[!NOTE]
    >

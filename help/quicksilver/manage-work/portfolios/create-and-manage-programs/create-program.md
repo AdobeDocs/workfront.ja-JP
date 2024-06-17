@@ -6,10 +6,10 @@ description: プログラムとは、プロジェクトの境界を越えて共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 82%
+source-wordcount: '1038'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 82%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -28,13 +30,13 @@ ht-degree: 82%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
 
-<td> <p>新規：任意</p><p>または</p><p>現在： [!UICONTROL Business] 以降</p> </td> 
+<td> <p>新規：任意</p><p>または</p><p>現在：[!UICONTROL Business] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規： [!UICONTROL Standard] </p><p>または </p><p>現在： [!UICONTROL プラン ] </p> </td> 
+   <td> <p>新規：[!UICONTROL Standard] </p><p>または </p><p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -47,8 +49,9 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
 
 ## プログラムを作成
 
@@ -65,12 +68,12 @@ ht-degree: 82%
       1. 「**[!UICONTROL 保存]**」をクリックします。
    * 「[!UICONTROL ポートフォリオ]」領域からプログラムを作成します。
 
-      1. クリック **[!UICONTROL Portfolio]** （内） [!UICONTROL メインメニュー]をクリックし、ポートフォリオを開きます。
+      1. [!UICONTROL メインメニュー]で「**[!UICONTROL ポートフォリオ]**」をクリックして、ポートフォリオを開きます。
       1. 左側のパネルで「**[!UICONTROL プログラム]**」をクリックします。
       1. 「**[!UICONTROL 新規プログラム]**」ドロップダウンメニューをクリックしてから、「**[!UICONTROL 新規プログラム]**」をクリックします。
 
 
-1. （条件付き）ポートフォリオからプログラムを作成した場合は、 **[!UICONTROL 名称未設定プログラム]** フィールドに入力します。
+1. （条件付き）ポートフォリオからプログラムを作成してある場合は、そのプログラムの名前を「**[!UICONTROL 名称未設定のプログラム]**」フィールドに指定します。
 
    名前は 255 文字まで入力できます。
 
@@ -119,7 +122,7 @@ ht-degree: 82%
    >
    >プログラムカスタムフォームをプログラムに添付するには、まず、プログラムカスタムフォームが既に作成されている必要があります。
 
-1. （オプションおよび条件付き）カスタムフォームを追加する場合、カスタムフォーム上の任意のフィールドをクリックして、そのフィールドの情報を更新します。
+1. （オプションおよび条件付き）カスタムフォームを追加する場合、カスタムフォームの任意のフィールドをクリックして、そのフィールドの情報を更新します。
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 1. 左パネルの「**[!UICONTROL プロジェクト]**」をクリックしたあと、「**[!UICONTROL プロジェクトの追加]**」をクリックして、プログラムにプロジェクトを追加します。
 
@@ -132,7 +135,7 @@ ht-degree: 82%
 
 ## プログラムヘッダーの概要
 
-プログラムのヘッダーには、プログラムに関する情報が表示されます。
+プログラムのヘッダーには、プログラムに関する何らかの情報が表示されます。
 
 プログラムのヘッダーに表示される情報は、次のとおりです。
 
@@ -154,7 +157,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクトタイプの名前とアクティブ化のステータス</td> 
-   <td>「プログラム」という単語は、プログラムを表示する際にオレンジ色のアイコン付きで表示されます。 プログラムが「[!UICONTROL Active]」としてマークされていない場合は、プログラムの横に「[!UICONTROL Deactivated]」という単語が灰色の輪郭で表示されます。 </td> 
+   <td>プログラムを表示すると、「プログラム」という単語がオレンジ色のアイコンで表示されます。プログラムが「[!UICONTROL Active]」としてマークされていない場合は、プログラムの横に「[!UICONTROL Deactivated]」という単語が灰色の輪郭で表示されます。 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プログラムのアクションエリア </td> 
@@ -172,7 +175,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
-   <td> <p>ヘッダーのプログラムの [!UICONTROL Percent CompletePercent Complete] は編集できません。この情報は、プログラムのプロジェクトから更新されます。デフォルトでは、プログラムの完了率は、[!UICONTROL 現在 ] または [!UICONTROL 承認済み ] ステータスのプロジェクトの完了率の値の平均です。</p> </td> 
+   <td> <p>ヘッダーのプログラムの [!UICONTROL Percent CompletePercent Complete] は編集できません。この情報は、プログラムのプロジェクトから更新されます。デフォルトでは、プログラムの完了率は、そのプログラムに属する「[!UICONTROL Current]」または「[!UICONTROL Approved]」ステータスのプロジェクトの完了率の値の平均です。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -180,7 +183,7 @@ ht-degree: 82%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td>ヘッダーのプログラムの計画完了日は編集できません。 この情報は、プログラムのプロジェクトから更新されます。プログラムの最新プロジェクトの計画完了日が、プログラムの計画完了日になります。  </td> 
+   <td>ヘッダーに示されているプログラムの予定完了日は編集できません。この情報は、プログラムのプロジェクトから更新されます。プログラムの最新プロジェクトの予定完了日が、プログラムの予定完了日になります。  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 93%
+source-wordcount: '917'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 93%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -35,9 +37,9 @@ ht-degree: 93%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準</p> 
-   <p>現在：作業以上</p> </td> 
+   <p>現在：ワーク以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -52,7 +54,9 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 繰り返しタスクの作成
 
@@ -67,7 +71,7 @@ ht-degree: 93%
 
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
-1. クリック **その他のオプション** 次に、 **タスク名** フィールドに入力します。
+1. 「**その他のオプション**」をクリックして、「**タスク名**」フィールドにタスクの名前を入力します。
 1. 新しいタスクを追加した場合と同じ方法で、タスクの更新を続行します。新しいタスクの追加について詳しくは、[プロジェクトでタスクを作成](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)を参照してください。
 
    >[!TIP]
@@ -127,7 +131,7 @@ ht-degree: 93%
 
 1. 「**タスクを作成**」をクリックします。
 
-   タスクリストが表示されます。定期タスクは親として作成され、繰り返しはすべてその子として作成されます。Workfront は、親に入力した名前の後に数字を付けて、子タスクの名前を自動生成しました。繰り返しタスクは、タスクリストの最後に配置されます。
+   タスクリストが表示されます。定期タスクは親として作成され、繰り返しはすべてその子として作成されます。Workfront は、親に入力した名前の後に数字を付けて、子タスクの名前を自動生成しました。定期タスクは、タスクリストの最後に配置されます。
 
    親の定期タスクから自動入力されるフィールドについて詳しくは、[定期タスクの概要](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)を参照してください。
 

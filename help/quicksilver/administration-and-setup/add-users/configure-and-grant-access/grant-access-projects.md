@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 93%
+source-wordcount: '641'
+ht-degree: 98%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 93%
 
 <!-- Audited: 12/2023 -->
 
-Adobe Workfront管理者は、次の記事で説明するように、アクセスレベルを使用して、ユーザーのプロジェクトへのアクセスを定義できます。
+Adobe Workfront 管理者は、アクセスレベルを使用して、プロジェクトに対するユーザーのアクセス権を定義できます。詳しくは、次の記事を参照してください。
 * [アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [新規アクセスレベルの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 
 カスタムアクセスレベルを使用して、Workfront の他のオブジェクトタイプへのユーザーのアクセスを管理する方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -38,7 +40,7 @@ Adobe Workfront管理者は、次の記事で説明するように、アクセ�
    <td>任意</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準 </p>
  <p>または</p> 
 <p>現在：プラン </p> 
@@ -52,7 +54,9 @@ Adobe Workfront管理者は、次の記事で説明するように、アクセ�
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## カスタムアクセスレベルを使用してプロジェクトへのユーザーのアクセス権を設定
 

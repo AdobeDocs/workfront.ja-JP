@@ -1,30 +1,30 @@
 ---
 product-area: setup
 navigation-topic: notifications
-keywords: 変更、電子メール、通知、設定
-title: 独自の電子メール通知を変更する
-description: この記事では、ユーザープロファイルで電子メール通知を管理する方法について説明します。
+keywords: 変更,メール,通知,設定
+title: 自身のメール通知の変更
+description: この記事では、ユーザープロファイルでメール通知を管理する方法について説明します。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 78%
+source-wordcount: '620'
+ht-degree: 98%
 
 ---
 
-# 独自の電子メール通知を変更する
+# 自身のメール通知の変更
 
 <!-- Audited: 1/2024 -->
 
-Adobe [!DNL Workfront] 管理者は、Workfrontでイベントが発生したときにユーザーが受け取る電子メール通知を設定します ( [[!UICONTROL イベントの設定] システム内の全員に対する通知](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)) をクリックします。
+Adobe [!DNL Workfront] 管理者は、Workfront でイベントが発生したときにユーザーが受信するメール通知を設定します。詳しくは、[[!UICONTROL システムの全ユーザーに対するイベント]通知の設定](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
 
-また、グループ管理者は、自分や、 [!UICONTROL ホームグループ]. 次の場合、 [!UICONTROL ホームグループ] がサブグループの場合、グループの上の最上位グループに対してアクティブ化された通知を受け取ります。
+また、グループ管理者も、自分や自分の[!UICONTROL ホームグループ]のユーザーに対して有効化するイベント通知を設定できます。[!UICONTROL ホームグループ]がサブグループの場合、自分のグループの上にある最上位グループに対してアクティブ化されたイベント通知も受け取ります。
 
 受信する通知を設定することで、この設定をさらにカスタマイズできます。イベントの発生時に通知を受け取るか、1 日に 1 件のダイジェストメールで通知を受け取るかを選択することもできます。
 
-電子メール通知について詳しくは、 [[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md).
+メール通知について詳しくは、[[!DNL Adobe Workfront] 通知](../../workfront-basics/using-notifications/wf-notifications.md)を参照してください。
 
 >[!NOTE]
 >
@@ -33,6 +33,8 @@ Adobe [!DNL Workfront] 管理者は、Workfrontでイベントが発生したと
 >
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,21 +51,23 @@ Adobe [!DNL Workfront] 管理者は、Workfrontでイベントが発生したと
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
    <td>  <p>新規：</p> 
-   <ul><li>寄稿者以上</li></ul>
+   <ul><li>コントリビューター以上</li></ul>
    <p>現在：</p>
-   <ul><li>Request 以上</li></ul>
+   <ul><li>リクエスト以上</li></ul>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## メール通知設定を表示および変更
 
 {{step1-click-profile-pic}}
 
-1. 次をクリック： **[!UICONTROL その他]** アイコン ![](assets/more-icon.png) 名前の横にある「 」をクリックし、 **[!UICONTROL 編集]**.
+1. 自分の名前の横にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**[!UICONTROL 編集]**」をクリックします。
 
 1. 表示される&#x200B;**[!UICONTROL ユーザーの編集]**&#x200B;ボックスで、「**[!UICONTROL 通知]**」セクションに移動します。
 

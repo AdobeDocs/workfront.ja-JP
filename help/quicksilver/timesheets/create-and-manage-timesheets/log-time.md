@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '3578'
-ht-degree: 95%
+source-wordcount: '3589'
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,8 @@ Workfront にログインできる時間の種類について詳しくは、[時
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行し、プロジェクト固有の時間を記録するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -44,7 +46,7 @@ Workfront にログインできる時間の種類について詳しくは、[時
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規： 
    <ul><li>タイムシートに一般的な時間を記録するには Light 以上</li>
    <li>標準 – プロジェクト、タスク、または問題の時間を記録します</li></ul>
@@ -60,13 +62,14 @@ Workfront にログインできる時間の種類について詳しくは、[時
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>時間を記録する作業アイテムにおけるコントリビューター以上の権限（時間を記録する権限を含む）。</p> </td> 
+   <td> <p>時間を記録する作業アイテムにおける Contributer 以上の権限（時間を記録する権限を含む）。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
 
 ## Workfront で時間を記録する際の考慮事項
 
@@ -97,16 +100,16 @@ Workfront の次の領域で時間を記録できます。
 
 #### タイムシートへの時間の記録 {#log-time-on-a-timesheet}
 
-タイムシートの次のアイテムに時間を記録できます。
+タイムシートの次の項目に時間を記録できます。
 
-* Workfront 管理者が行ったタイムシートの基本設定に基づいて、事前に入力されたタスク、イシューおよびプロジェクトが自動的に表示されます。タイムシートの事前入力方法について詳しくは、[タイムシートおよび時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+* Workfront 管理者によるタイムシートの基本設定に基づいて、事前に入力されたタスク、イシューおよびプロジェクトが自動的に表示されます。タイムシートの事前入力方法について詳しくは、[タイムシートおよび時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
-  自分に割り当てられたタスクとイシューのみがタイムシートに事前入力されます。チームまたは担当業務に割り当てられたタスクとイシューは、タイムシートに自動的に入力されません。
+  自分に割り当てられたタスクと問題のみがタイムシートに事前入力されます。チームまたは担当業務に割り当てられたタスクとイシューは、タイムシートに自動的に入力されません。
 
   チームに割り当てられた項目で「作業をする」クリックすると、項目が自分に割り当てられ、項目がタイムシートに表示されます。
 
-* 手動で追加したタスク、イシュー、プロジェクト。
-* Workfront のどこかで既に時間を記録しているタスク、イシュー、プロジェクト。
+* 手動で追加するタスク、イシュー、プロジェクト。
+* Workfront のどこかで既に時間を記録しているタスク、イシュー、またはプロジェクト。
 * 一般時間（休暇、トレーニング、オーバーヘッド時間）。
 
 >[!NOTE]
@@ -131,7 +134,7 @@ Workfront の次の領域で時間を記録できます。
 
    <!--drafted for full screen mode for add projects story - align it with the rest of the steps when you enable this:: 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the list of objects in full-screen mode.-->
 
-1. （オプション）検索アイコン ![アイテムを検索](assets/search-icon.png) をクリックすると、キーワードを使用して特定のアイテムを検索し、タイムシートに追加できます。
+1. （オプション）検索アイコン ![アイテムを検索](assets/search-icon.png) をクリックして、キーワードを使用して特定のアイテムを検索し、タイムシートに追加します。
 
 1. （オプション）フィルター、表示またはグループ化のドロップダウンメニューを展開して適用またはカスタマイズし、必要な項目情報を表示します。
 
@@ -340,7 +343,7 @@ Workfront の次の領域で時間を記録できます。
 * 従来のホームエリアの使用について詳しくは、[ホームエリアの使用](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)を参照してください。
 * 新しいホームエリアの使用について詳しくは、[新しいホームの基本を学ぶ](../../workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 
-#### 新しいホームエリアから作業アイテムの時間を記録
+#### 新しいホームエリアからの作業アイテムの時間の記録
 
 ホーム領域の概要パネルを使用して、任意のウィジェットのタスクや問題に時間を記録できます。 詳しくは、この記事の[概要パネル](#summary-panel)の節を参照してください。
 
@@ -353,11 +356,11 @@ Workfront の次の領域で時間を記録できます。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
-1. 「**時間を記録**」をクリックします。
+1. 「**時刻を記録**」をクリックします。
 
    ログ時間は、オブジェクトの「時間」セクションと、タイムシートに表示されます。
 
-#### 従来のホームエリアから作業アイテムの時間を記録
+#### 従来のホームエリアからの作業アイテムの時間の記録
 
 1. **作業リスト**&#x200B;エリアで、時間を記録するアイテムを選択します。
 1. 右パネルで、「**時間を記録**」をクリックします。
@@ -394,7 +397,7 @@ Workfront の次の領域で時間を記録できます。
 1. 左パネルで「**更新**」を選択します。
 1. 「**時間を記録**」をクリックします。<!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   時間を記録ダイアログボックスが表示されます。
+   「時間を記録」ダイアログボックスが表示されます。
 
    >[!TIP]
    >
@@ -414,7 +417,7 @@ Workfront の次の領域で時間を記録できます。
 
    * **時間数**：プロジェクト、タスクまたはイシューの時間数を入力します。
 
-1. 「**時間を記録**」をクリックします。
+1. 「**時刻を記録**」をクリックします。
 
    ログ時間は、オブジェクトの「時間」セクションと、タイムシートに表示されます。
 

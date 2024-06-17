@@ -6,10 +6,10 @@ description: Adobe Workfront を使用すると、アジャイルチームが漸
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 88%
+source-wordcount: '1012'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 88%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -43,15 +45,17 @@ ht-degree: 88%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>新規：標準</p>
+   <td> <p>新規：Standard</p>
    現在： 
-   <ul><li><p>[!UICONTROL プラン ] を使用して新しいアジャイルチームを作成</p></li> 
-   <li><p>[!UICONTROL Work] 以降：チームをアジャイルチームに変換する場合</p></li></ul> </td> 
+   <ul><li><p>[!UICONTROL Plan]：新しいアジャイルチームを作成する場合</p></li> 
+   <li><p>[!UICONTROL Work] 以上：チームをアジャイルチームに変換する場合</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプランやライセンスのタイプを確認するには、[!DNL Workfront] 管理者に連絡してください。
+ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+
++++
 
 ## アジャイル方法論の決定
 
@@ -92,11 +96,11 @@ ht-degree: 88%
 
 {{step1-to-team}}
 
-1. 次をクリック： **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)を選択し、次に **[!UICONTROL 新しいチームを作成]**.
+1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) を選択し、「**[!UICONTROL 新規チームを作成]**」をクリックします。
 
    ![「新規チームを作成」を選択します。](assets/create-new-team-350x198.png)
 
-   [ 新しいチーム ] ボックスが表示されます。
+   「新規チーム」ボックスが表示されます。
 
 1. 次の情報を指定します。
 
@@ -115,13 +119,13 @@ ht-degree: 88%
 
    <tr> 
       <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
-      <td>このチームを有効化するには、このオプションを選択します。 非アクティブなチームは、他のユーザーが作業に割り当てる際には表示されません。 </td> 
+      <td>このチームを有効化するには、このオプションを選択します。非アクティブなチームは、他のユーザーが作業に割り当てる際には表示されません。 </td> 
      </tr>
 
 
    <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>チームに追加するグループの名前を入力し、ドロップダウンリストに表示されたら、名前を選択します。</p> <p><b>メモ</b></p> <p> チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならずにチームを管理できます。 管理するグループに割り当てられているすべてのチームのリストを表示するには、グループ管理者は、[!UICONTROL Main Menu] から [!UICONTROL Teams] 領域に移動し、[!UICONTROL Switch Teams] 矢印 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> をクリックできます。</p> </td> 
+      <td> <p>チームに追加するグループの名前を入力し、ドロップダウンリストに表示されたら、名前を選択します。</p> <p><b>メモ</b></p> <p> チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、そのチームのメンバーにならなくてもチームを管理できます。管理するグループに割り当てられているすべてのチームのリストを表示するには、グループ管理者は、[!UICONTROL Main Menu] から [!UICONTROL Teams] 領域に移動し、[!UICONTROL Switch Teams] 矢印 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> をクリックできます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Team Members]</strong> </td> 
@@ -160,7 +164,7 @@ ht-degree: 88%
 
 1. 「**変更を保存**」をクリックします。
 
-   チームはアジャイルチームとして保存されます。 チームの編集時に、新しいチームをスクラムまたはかんばんチームとして設定できます。
+   チームはアジャイルチームとして保存されます。チームの編集時に、新しいチームをスクラムまたはかんばんチームとして設定できます。
 
    詳しくは、次の記事を参照してください。
 

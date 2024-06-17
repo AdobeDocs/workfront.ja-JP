@@ -3,15 +3,15 @@ title: ' [!DNL SharePoint]  統合を設定します。'
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: ' [!DNL Workfront]  を  [!DNL SharePoint]  オンラインと統合して、ユーザーが Workfront 内で  [!DNL SharePoint]  ドキュメントに移動し、リンクし、追加できるようにします。提供される機能は他の機能と似ています [!DNL Workfront] ドキュメントの統合。'
+description: ' [!DNL Workfront]  を  [!DNL SharePoint]  オンラインと統合して、ユーザーが Workfront 内で  [!DNL SharePoint]  ドキュメントに移動し、リンクし、追加できるようにします。提供される機能は、他の  [!DNL Workfront]  ドキュメント統合の機能と似ています。'
 author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 42e20743b98d9a7cf1f6b37f007823c035e1b636
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 74%
+source-wordcount: '1696'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 74%
 >
 >新しい [!DNL SharePoint] 統合は、22.3 リリース（2022年7月）で実稼動環境にリリースされました。ユーザーは引き続き、従来の [!DNL SharePoint] 統合を通じてリンクされたドキュメントにアクセスできますが、SharePoint からドキュメントをリンクするには、新しい [!DNL SharePoint] 統合を使用する必要があります。
 >
->* 新しいSharePoint統合は、管理者が設定する必要がない場合があり、個々のユーザーが設定することもできます。 ただし、新しい SharePoint 統合にスムーズに移行できるように、Workfront 管理者は、Workfront の設定領域で設定を小規模に変更する必要があります。
+>* 新しい SharePoint 統合は管理者による設定を必要せず、個々のユーザーで設定できる場合があります。ただし、新しい SharePoint 統合にスムーズに移行できるように、Workfront 管理者は、Workfront の設定領域で設定を小規模に変更する必要があります。
 >
 >    詳細と手順については、本記事の[ドキュメントに引き続きアクセスするための従来の SharePoint 統合の設定](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents)を参照してください。
 >    
@@ -41,6 +41,8 @@ ht-degree: 74%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -48,7 +50,7 @@ ht-degree: 74%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -62,17 +64,19 @@ ht-degree: 74%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
-で必要なアクセス権または権限を持っている。 [!DNL SharePoint] を変更または設定するには、以下を実行します。 [!DNL SharePoint] 統合とも呼ばれます。
+[!DNL SharePoint] の統合を変更または設定するには、[!DNL SharePoint] でのアクセス権または権限が必要です。
 
 ## 新しい SharePoint 統合によるドキュメントのリンク
 
 個々のユーザーは、新しい [!DNL SharePoint] 統合を通してドキュメントをリンクできます。統合には管理者設定は必要ありません。代わりに、ユーザーはドキュメントをリンクするときに [!DNL Microsoft] アカウントにログインします。これにより、統合はユーザーの [!DNL SharePoint] で利用可能なドキュメントにアクセスできるようになります。
 
-ユーザーが最初に [!DNL Workfront] [!DNL SharePoint] 統合と [!DNL SharePoint] アカウントを使用する場合は、 [!DNL Workfront] は、 [!UICONTROL SharePoint] アカウントを作成するか、Microsoft管理者に権限をリクエストできます。 読み取り権限により、[!DNL Workfront] は [!DNL SharePoint] 上のファイルの表示とアクセスを行えるようになり、書き込み権限により、ユーザーは [!DNL SharePoint] にファイルをアップロードできるようになります。
+ユーザーが [!DNL Workfront] [!DNL SharePoint] 統合を自分の [!DNL SharePoint] アカウントに初めて接続すると、[!DNL Workfront] が自分の [!UICONTROL SharePoint] アカウントとやり取りをするときに使用するすべての権限が表示され、それに同意するか、Microsoft 管理者にアクセス許可を要求できるようになります。読み取り権限により、[!DNL Workfront] は [!DNL SharePoint] 上のファイルの表示とアクセスを行えるようになり、書き込み権限により、ユーザーは [!DNL SharePoint] にファイルをアップロードできるようになります。
 
 ![SharePoint の権限](assets/sharepoint-permissions.png)
 
@@ -80,34 +84,34 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->* 組織のMicrosoft設定に応じて、ユーザーには、「権限がリクエストされました」ページではなく、「承認が必要」ページが表示される場合があります。 この場合、ユーザーはこのページを使用して、組織のMicrosoft管理者に SharePoint 統合に対する権限の付与を要求できます。
+>* 組織の Microsoft 設定によっては、「権限が必要」なページではなく、「承認が必要」なページがユーザーに表示される場合があります。その場合、ユーザーはこのページを使用して、組織の Microsoft 管理者に SharePoint 統合に対する権限の付与を要求できます。
 >
 >* [!DNL SharePoint] 統合は、単一の [!DNL SharePoint] インスタンスに接続できます。したがって、ユーザーは 1 つの [!DNL SharePoint] に対して統合を設定できますが、2 番目の [!DNL SharePoint] に対する権限とドキュメントがある場合でも、2 番目の [!DNL SharePoint] への統合を設定することはできません。
 >
 >* ユーザーは、[!DNL Workfront] [!DNL SharePoint] の統合を通じて、[!DNL SharePoint] アカウントと同じサイト、コレクション、フォルダー、サブフォルダー、ファイルにアクセスできます。
 
-### SharePointからドキュメントをリンク
+### SharePoint からのドキュメントのリンク
 
-SharePointから新しい [!DNL SharePoint] 統合については、 [外部ドキュメントを次にリンク： [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
+新しい [!DNL SharePoint] 統合を通して SharePoint からドキュメントをリンクする手順について詳しくは、[外部ドキュメントの  [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront) へのリンクを参照してください。
 
-### ドキュメントをSharePointに送信
+### SharePoint へのドキュメントの送信
 
-ドキュメントをSharePointに送信するには：
+ドキュメントを SharePoint に送信するには、次の手順に従います。
 
-1. 次をクリック： **送信先** アイコン ![送信先](assets/send-to-icon.png) 「 SharePoint (Graph API) 」を選択します。
-1. （オプション）検索バーで、ドキュメントを送信するサイトまたはフォルダーを検索します。
-1. リストからサイトまたはフォルダを選択します。
+1. **送信**&#x200B;アイコン ![送信](assets/send-to-icon.png) をクリックし、「SharePoint（Graph API）」を選択します。
+1. （オプション）検索バーで、ドキュメントを送信する先のサイトまたはフォルダーを検索します。
+1. リストからサイトまたはフォルダーを選択します。
 
-   * サイトは ![サイトアイコン](assets/site-icon.png).
+   * サイトは![サイトアイコン](assets/site-icon.png)が付きます。
 
-   * フォルダには、 ![フォルダーアイコン](assets/folder-icon.png).
+   * フォルダーには、![フォルダーアイコン](assets/folder-icon.png)が付きます。
 
-   * ファイルにはアイコンは表示されません。
+   * ファイルにアイコンは付きません。
 
 1. 「**保存**」をクリックします。
 
 
-##  [!DNL SharePoint] 統合のセキュリティ、アクセス、および認証情報
+## [!DNL SharePoint] 統合のセキュリティ、アクセス、および認証情報
 
 ### 認証と承認
 
@@ -115,19 +119,19 @@ SharePointから新しい [!DNL SharePoint] 統合については、 [外部ド�
 
 ### アクセスと権限
 
-ユーザーが初めてドキュメントを [!DNL Workfront] から [!DNL SharePoint]の場合は、要求された権限のページに移動し、SharePoint統合に対する権限を付与できます。
+[!DNL SharePoint] から [!DNL Workfront] にユーザーが初めてドキュメントを追加した場合は、権限を要求するページに移動し、SharePoint 統合に対する権限を付与できます。
 
 >[!NOTE]
 >
->組織のMicrosoft設定に応じて、ユーザーには、「権限がリクエストされました」ページではなく、「承認が必要」ページが表示される場合があります。 この場合、ユーザーはこのページを使用して、組織のMicrosoft管理者に SharePoint 統合に対する権限の付与を要求できます。
+>組織の Microsoft 設定によっては、「権限が必要」なページではなく、「承認が必要」なページがユーザーに表示される場合があります。その場合、ユーザーはこのページを使用して、組織の Microsoft 管理者に SharePoint 統合に対する権限の付与を要求できます。
 
-次の権限がリクエストされます。
+次の権限が要求されます。
 
 | アクセス | 理由 |
 |---|---|
-| ファイルへのフルアクセス権を持っている | 許可 [!DNL Workfront] をクリックして、アセットをリンクするユーザーのファイルにアクセスします。 ドキュメントが [!DNL Workfront] から [!DNL SharePoint] に送信される場合、[!DNL Workfront] はアセットを作成するためのアクセス権を必要とします。 |
+| ファイルへのフルアクセス権を持っている | ユーザーのファイルに [!DNL Workfront] がアクセスすることを許可し、アセットをリンクできるようにします。ドキュメントが [!DNL Workfront] から [!DNL SharePoint] に送信される場合、[!DNL Workfront] はアセットを作成するためのアクセス権を必要とします。 |
 | すべてのサイトコレクションの項目を読み取る | [!DNL Workfront] がアセットを読み取ってユーザーナビゲーションを可能にすることを許可します。 |
-| すべてのサイトコレクションの項目を編集または削除する | 許可 [!DNL Workfront] サイトおよびサイトコレクションにアセットを作成する場合。 「削除」は、リンクの試行に失敗した後にクリーンアップする場合にのみ使用します。 |
+| すべてのサイトコレクションの項目を編集または削除する | サイトおよびサイトコレクションで [!DNL Workfront] がアセットを作成できるようにします。「削除」は、リンクの試行に失敗した後にクリーンアップする場合にのみ使用します。 |
 | アクセス権を付与したデータへのアクセスを維持する | [!DNL Workfront] に更新トークンの生成を許可します。 |
 | ログインとユーザープロファイルの読み取り | [!DNL Workfront] が OAuth2 ログインフローを通じて、アクセストークンを使用して、ユーザーの代理として振る舞えるようにします。 |
 
@@ -155,7 +159,7 @@ SharePointから新しい [!DNL SharePoint] 統合については、 [外部ド�
 
 ### 従来の [!DNL SharePoint] 統合へのアクセス権を再設定
 
-レガシーの再設定 [!DNL SharePoint] 統合により、レガシー [!DNL SharePoint] 統合と統合します。また、ユーザーがその統合を通じて新しいドキュメントをリンクできないようにする必要があります。
+従来の [!DNL SharePoint] 統合を再設定することで、ユーザーが従来の [!DNL SharePoint] 統合からリンクされたドキュメントにアクセスできるようにする一方で、その統合から新しいドキュメントをリンクできないようにする必要があります。
 
 >[!NOTE]
 >
@@ -163,10 +167,10 @@ SharePointから新しい [!DNL SharePoint] 統合については、 [外部ド�
 > * 新しい [!DNL SharePoint] 統合には「[!UICONTROL [!DNL SharePoint] (Graph API)]」というラベルが付きます。
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
-1. 左側のナビゲーションで「**[!UICONTROL ドキュメント]**」を選択したあと、「**[!UICONTROL クラウド プロバイダー]**」を選択します。
-1. 「**[!DNL SharePoint]**」オプションと「**[!UICONTROL [!DNL SharePoint](Graph API)]**」オプションが両方とも有効になっていることを確認します。
-1. 「**[!UICONTROL 保存]**」をクリックします。
-1. 左側のナビゲーションで「**[!UICONTROL ドキュメント]**」を選択したあと、「**[!UICONTROL [!DNL SharePoint]統合]**」を選択します。
+1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL クラウド プロバイダー]**&#x200B;を選択します。
+1. **[!DNL SharePoint]**&#x200B;オプションと&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;オプションが両方とも有効になっていることを確認します。
+1. **[!UICONTROL 保存]**&#x200B;をクリックします。
+1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL [!DNL SharePoint]統合]**&#x200B;を選択します。
 1. 既存のすべての統合のリストの左側にあるチェックマークを選択したあと、「**[!UICONTROL 無効にする]**」を選択します。
    ![](assets/disable-old-sharepoint.png)
 
@@ -183,14 +187,14 @@ SharePointから新しい [!DNL SharePoint] 統合については、 [外部ド�
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. 新しいクライアント秘密鍵を生成します。詳しくは、 [の期限が切れるクライアントの秘密鍵を置き換える [!DNL SharePoint] アドイン](https://docs.microsoft.com/ja-jp/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
+1. [ [!DNL SharePoint]  アドインで期限が切れたクライアントシークレットの置換](https://docs.microsoft.com/ja-jp/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)の説明に従って、新しいクライアントシークレットを生成します。
 1. このクライアントシークレットを安全な場所にコピーします。
 1. [!DNL Workfront] に管理者としてログインします。
-1. Workfrontで、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **[!UICONTROL 設定]** ![設定アイコン](/help/_includes/assets/gear-icon-setup.png).
+1. Workfront で、Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png) をクリックするか、（利用可能であれば）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、**[!UICONTROL セットアップ]** ![セットアップ](/help/_includes/assets/gear-icon-setup.png) をクリックします。
 1. 左パネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL [!DNL SharePoint]統合]**&#x200B;をクリックします。
 1. 更新する [!DNL SharePoint] 統合をクリックしたあと、「**[!UICONTROL 編集]**」をクリックします。
-1. 次を見つけます。 **接続情報** 」セクションに移動し、新しいクライアント秘密鍵を **[!UICONTROL SharePoint Client Secret]** フィールドに入力します。
-1. 「**[!UICONTROL 保存]**」をクリックします。
+1. 編集中のウィンドウの「**接続情報**」セクションに移動し、新しいクライアントシークレットを「**[!UICONTROL SharePoint クライアント機密]**」フィールドに入力します。
+1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 
 <!--
 
@@ -475,7 +479,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 
 * ユーザーは、[!DNL SharePoint] のサイトコレクションに対するビューアクセス権を持っている必要があります。
 
-  次の手順でこれを検証します。 [!DNL SharePoint]、SharePointでサイトコレクションの権限を確認します。
+  [!DNL SharePoint] でこれを検証するには、SharePoint でサイトコレクションの権限を確認します。
 
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 

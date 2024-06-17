@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: ff24fcc65791b6c18668a0dd3c58e033772a2def
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 87%
+source-wordcount: '1956'
+ht-degree: 99%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 87%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -43,9 +45,9 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td><p>新規： [!UICONTROL Standard]</p>
+   <td><p>新規：[!UICONTROL Standard]</p>
    または
-   <p>現在：[!UICONTROL プラン ]</p></td> 
+   <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -56,9 +58,11 @@ ht-degree: 87%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
++++
+
 ## OAuth2 の概要
 
-アプリケーションが、次から特定の情報を取り込む必要があると仮定します。 [!DNL Workfront]. 情報を要求するアプリケーションは、クライアントと呼ばれます。この例では、クライアント名は ClientApp です。ClientApp は特定のユーザーの情報にアクセスできる必要があるので、アクセスする必要があります [!DNL Workfront] を設定します。 ユーザーが ClientApp にユーザー名とパスワードを付与した場合、ClientApp はユーザーがアクセスできるすべてのデータにアクセスできます。ClientApp は少数の特定の情報セットのみを必要とするため、これはセキュリティ上のリスクとなります。
+アプリケーションが [!DNL Workfront] から特定の情報を取得する必要があるとします。情報を要求するアプリケーションは、クライアントと呼ばれます。この例では、クライアント名は ClientApp です。ClientApp は特定のユーザーの情報にアクセスする必要があるため、そのユーザーとして [!DNL Workfront] にアクセスする必要があります。ユーザーが ClientApp にユーザー名とパスワードを付与した場合、ClientApp はユーザーがアクセスできるすべてのデータにアクセスできます。ClientApp は少数の特定の情報セットのみを必要とするため、これはセキュリティ上のリスクとなります。
 
 ClientApp 用の OAuth2 アプリを作成すると、基本的に、ClientApp が [!DNL Workfront] にアクセスできることを [!DNL Workfront] に伝えることになりますが、これは ClientApp がアクセスしているアカウントのユーザーがアクセス許可を与えた場合に限ります。
 
@@ -125,10 +129,10 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 
 {{step-1-to-setup}}
 
-1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth2 アプリケーション]**.
-1. クリック **[!UICONTROL アプリ統合の作成]**.
-The **新しい OAuth2 アプリケーション** ボックスが表示されます。
-1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL 機械 — 機械アプリケーション]**.
+1. 左側のナビゲーションパネルで「**[!UICONTROL システム]**」をクリックし、「**[!UICONTROL OAuth2 アプリケーション]**」を選択します。
+1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
+「**新規 OAuth2 アプリケーション**」ボックスが表示されます。
+1. 「**新規 OAuth2 アプリケーション**」ボックスで「**[!UICONTROL マシンツーマシンアプリケーション]**」を選択します。
 1. 「[!DNL Workfront] for ClientApp」などの、新しいアプリケーションの名前を入力します。
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. 新しいアプリのフィールドに入力します。
@@ -143,7 +147,7 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>このフィールドは自動的に生成されます</p> <p><b>重要</b>：  <p>このページを閉じる前に、このフィールドの内容を別の安全なファイルにコピーしてください。この秘密鍵は再び表示されなくなります。</p> <p>このキーが失われた場合は、そのキーを削除し、クライアントシークレットを作成します。</p> 
+      <td> <p>このフィールドは自動的に生成されます</p> <p><b>重要</b>：  <p>このページを閉じる前に、このフィールドの内容を別の安全なファイルにコピーしてください。この秘密鍵は再び表示されなくなります。</p> <p>この鍵が失われた場合は、その鍵を削除してクライアントシークレットを作成します。</p> 
         <ol> 
          <li value="1"> <p><b>[!UICONTROL Delete]</b> アイコン <img src="assets/delete.png"> をクリックして、現在のクライアントシークレットを削除します。</p> </li> 
          <li value="2"> <p>「<b>[!UICONTROL Add client secret]</b>」をクリックして、新しいクライアントシークレットを生成します。</p> </li> 
@@ -176,11 +180,11 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
 
 {{step-1-to-setup}}
 
-1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth2 アプリケーション]**.
+1. 左側のナビゲーションパネルで「**[!UICONTROL システム]**」をクリックし、「**[!UICONTROL OAuth2 アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
 
-   The **新しい OAuth2 アプリケーション** が表示されます。
-1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL Web アプリケーション]**.
+   「**新規 OAuth2 アプリケーション**」が表示されます。
+1. 「**新規 OAuth2 アプリケーション**」ボックスで「**[!UICONTROL Web アプリケーション]**」を選択します。
 1. 「[!DNL Workfront] for ClientApp」などの、新しい OAuth2 アプリケーションの名前を入力します。
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. 新しいアプリのフィールドに入力します。
@@ -195,7 +199,7 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>このフィールドは自動的に生成されます</p> <p><b>重要</b>：  <p>このページを閉じる前に、このフィールドの内容を別の安全なファイルにコピーしてください。この秘密鍵は再び表示されなくなります。</p> <p>このキーが失われた場合は、そのキーを削除し、クライアントシークレットを作成します。</p> 
+      <td> <p>このフィールドは自動的に生成されます</p> <p><b>重要</b>：  <p>このページを閉じる前に、このフィールドの内容を別の安全なファイルにコピーしてください。この秘密鍵は再び表示されなくなります。</p> <p>この鍵が失われた場合は、その鍵を削除してクライアントシークレットを作成します。</p> 
         <ol> 
          <li value="1"> <p><b>[!UICONTROL Delete]</b> アイコン <img src="assets/delete.png"> をクリックして、現在のクライアントシークレットを削除します。</p> </li> 
          <li value="2"> <p>「<b>[!UICONTROL Add client secret]</b>」をクリックして、新しいクライアントシークレットを生成します。</p> </li> 
@@ -211,7 +215,7 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute refresh token expiration]</td> 
-      <td> <p>更新トークンの有効期限が切れるまでの期間を選択します。 有効期限が切れたら、ユーザーは統合に再度ログインする必要があります。更新トークンの有効期限を設定しない場合は、「[!UICONTROL No expiration]」を選択します。</p> </td> 
+      <td> <p>更新トークンの有効期限が切れるまでの期間を選択します。有効期限が切れたら、ユーザーは統合に再度ログインする必要があります。更新トークンの有効期限を設定しない場合は、「[!UICONTROL No expiration]」を選択します。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">非アクティブ更新トークンの有効期限</td> 
@@ -244,11 +248,11 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
 
 {{step-1-to-setup}}
 
-1. 左側のナビゲーションパネルで、 **[!UICONTROL システム]**&#x200B;を選択し、「 **[!UICONTROL OAuth2 アプリケーション]**.
+1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」をクリックし、「**[!UICONTROL OAuth2 アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
 
-   The **新しい OAuth2 アプリケーション** ボックスが表示されます。
-1. Adobe Analytics の **新しい OAuth2 アプリケーション** ボックス、選択 **[!UICONTROL 単一ページ Web アプリケーション]**.
+   **新規 OAuth2 アプリケーション**&#x200B;ボックスが表示されます。
+1. **新規 OAuth2 アプリケーション**&#x200B;ボックスで、「**[!UICONTROL シングルページ web アプリケーション]**」を選択します。
 1. 「[!DNL Workfront] for ClientApp」など、[!UICONTROL OAuth2] アプリケーションの新しい名前を入力します。
 1. 「**[!UICONTROL 作成]**」をクリックします。
 1. 新しいアプリのフィールドに入力します。
@@ -266,15 +270,15 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
       <td>Workfront で認証されたユーザーは、このパスにリダイレクトされます。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 更新トークンを使用するたびに回転 ]</td> 
+      <td role="rowheader">[!UICONTROL Rotate refresh token every time it is used]</td> 
       <td>このオプションを有効にすると、更新トークンが使用されるたびに新しい更新トークンが発行されます。アプリケーションは、更新のたびに新しい更新トークンを格納する必要があります。</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 絶対的な有効期限 ]</td> 
+      <td role="rowheader">[!UICONTROL Absolute expiration]</td> 
       <td> <p>更新トークンの有効期限が切れるまでの期間を選択します。有効期限が切れたら、ユーザーは統合に再度ログインする必要があります。更新トークンの有効期限を設定しない場合は、「[!UICONTROL No expiration]」を選択します。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL 無操作状態の有効期限 ]</td> 
+      <td role="rowheader">[!UICONTROL Inactivity expiration]</td> 
       <td> <p>ユーザーがシステム内でアクティブでない場合に、その更新トークンの有効期限を設定します。 </p> <p>例えば、非アクティブ更新トークンの有効期限が 6 か月で、ユーザーが 6 か月間ログインしなかった場合、絶対期限が 6 か月より長く設定されていても、更新トークンは期限切れとなります。</p> </td> 
      </tr> 
      <tr> 
@@ -290,15 +294,15 @@ The **新しい OAuth2 アプリケーション** ボックスが表示されま
       <td>統合の説明を入力します。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 開発者名 ]</td> 
+      <td role="rowheader">[!UICONTROL Developer name]</td> 
       <td>これは、OAuth2 アプリケーションを設定する開発者の名前です。</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL 開発者用電子メールアドレス ]</td> 
-      <td>OAuth2 アプリケーションを設定している開発者の電子メールアドレスです。</td> 
+      <td role="rowheader">[!UICONTROL Developer email address]</td> 
+      <td>これは、OAuth2 アプリケーションを設定する開発者のメールアドレスです。</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL プライバシーポリシー URL]</td> 
+      <td role="rowheader">[!UICONTROL Privacy policy URL]</td> 
       <td>これは、組織がプライバシーポリシーを保存する場所へのリンクです。</td> 
      </tr>
 

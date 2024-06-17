@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 55%
+source-wordcount: '833'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 55%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfrontインスタンスでシングルサインオン (SSO) が有効になっている場合、ユーザーは SSO 資格情報を使用してWorkfrontにログインできます。
+Adobe Workfront インスタンスでシングルサインオン（SSO）が有効になっている場合は、ユーザーは SSO 資格情報を使用して Workfront にログインできます。
 
 既に SSO 資格情報に関連付けられたユーザーが設定されている既存のシステムがある場合は、コンマ区切り値（CSV）ファイルを Workfront に読み込むことで、Workfront にユーザーの ID を読み込むことができます。
 
@@ -29,6 +29,8 @@ Workfront と SSO システムの統合について詳しくは、[](../../../ad
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -41,7 +43,7 @@ Workfront と SSO システムの統合について詳しくは、[](../../../ad
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p><p>または</p><p>現在：プラン</p></td> 
   </tr> 
   <tr> 
@@ -51,7 +53,9 @@ Workfront と SSO システムの統合について詳しくは、[](../../../ad
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## SSO ユーザー名
 
@@ -61,14 +65,14 @@ Workfront と SSO システムの統合について詳しくは、[](../../../ad
 * フェデレーション ID
 * フェデレーションユーザー名
 
-SSO 環境で呼び出されるユーザー名に関係なく、フィールドの値は User オブジェクトの「SSO Username」フィールドに格納されます。
+SSO 環境で呼ばれるユーザー名に関係なく、フィールドの値はユーザーオブジェクトの「SSO ユーザー名」フィールドに格納されます。
 
 ユーザーが SSO 資格情報を使用して Workfront にログインできるようにするには、ユーザーのプロファイルを更新して、Workfront ユーザー名に加えて SSO ユーザー名を含める必要があります。
 
-Workfront管理者は、Workfrontユーザーの SSO Username フィールドを一括で更新できます。そのためには、ユーザー名のリストをWorkfrontに読み込みます。 このリストは、次の条件を満たす必要があります。
+Workfront 管理者は、ユーザー名のリストを Workfront に読み込むことで、Workfront ユーザーの「SSO ユーザー名」フィールドを一括で更新できます。このリストは、次の条件を満たす必要があります。
 
-* Workfrontユーザー ID(GUID) と、各ユーザーに対応する SSO ユーザー名を含めます
-* CSV または TSV ファイルとして保存します。
+* Workfront ユーザー ID（GUID）と、各ユーザーに対応する SSO ユーザー名を含める
+* CSV または TSV ファイルとして保存
 
 このプロセスは、Workfront の既存の SSO ユーザー名を更新するか、ユーザー名が見つからない場合は新しい SSO ユーザー名を追加します。
 
@@ -86,27 +90,27 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    |---|---|
    | 名前 | Workfront ユーザーのフルネーム。 |
    | ID | ID は Workfront の英数字の GUID です。 |
-   | SSO ユーザー名 | 「SSO ユーザー名」フィールドを追加して、インポートで上書きするユーザー名がないようにします。 ユーザーが SSO 用にまだ更新されていない場合、このフィールドはすべてのユーザーに対して空白です。 |
+   | SSO ユーザー名 | 「SSO ユーザー名」フィールドを追加して、読み込みで上書きされるユーザー名がないことを確認します。ユーザーが SSO 用にまだ更新されていない場合、このフィールドはすべてのユーザーに対して空白です。 |
 
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. レポートを保存します。
 1. リストの上部にある「**書き出し**」をクリックして、Excel にレポートを書き出します。
-1. エクスポートした Excel ファイルを開き、「SSO ユーザー名」列のレポートで各ユーザーの SSO ユーザー名を追加します。
+1. 書き出した Excel ファイルを開き、レポート内の各ユーザーの SSO ユーザー名を「SSO ユーザー名」列に追加します。
 
    >[!IMPORTANT]
    >
    >SSO ユーザー名では大文字と小文字が区別されます。
 
-1. Excel ファイル内の、「 **ID** そして **SSO ユーザー名** 列。
+1. Excel ファイル内の「**ID**」列と「**SSO ユーザー名**」列を除くすべての列を削除します。
 
 1. 列ヘッダーを削除し、レポートの上部に空白の行がないことを確認します。
 
-   SSO ユーザー名でWorkfrontユーザーを更新するために使用するファイル **必須** 次の順序で、列が 2 つだけ含まれます。
+   SSO ユーザー名で Workfront ユーザーを更新するために使用するファイルには、次の順序で 2 列のみを含める&#x200B;**必要があります**。
 
-   * 最初の列には、Workfrontユーザー ID(Workfrontで見つかったユーザー GUID) を表示する必要があります。
+   * 最初の列には、Workfront ユーザー ID（Workfront にあるユーザー GUID）が表示される必要があります。
    * 2 番目の列には、SSO システムに表示される SSO ユーザー名を含める必要があります。
-   * 列にはヘッダーを含めず、名前のリストの先頭に空の行を含めることはできません。
+   * 列にはヘッダーを含めないようにし、また名前のリストの先頭に空の行を含めないようにします。
 
      ![](assets/update-users-for-sso-csv-file-for-import.png)
 
@@ -116,21 +120,21 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
 
 SSO 向けにユーザーを更新するプロセスでは、SSO ユーザー名フィールドが存在しない場合は Workfront ユーザーに追加し、既にユーザーに関連付けられている値がある場合はそのフィールドの値を更新します。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **設定** ![](assets/gear-icon-settings.png).
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、「**設定**」![](assets/gear-icon-settings.png)を選択します。
 
-1. クリックして、 **システム** 次に、 **SSO のユーザーを更新**.
+1. 「**システム**」をクリックし、「**SSO ユーザーの更新**」を選択します。
 
 1. 「**ファイルを選択**」をクリックして、準備したファイルを選択します。
 
    このファイルの準備方法の詳細については、[読み込みファイルの準備](#prepare-the-import-file)を参照してください。
 
-1. ファイルの保存先となるコンピューターを選択し、「 **開く**.
+1. コンピューターに保存されているファイルを選択し、「**開く**」をクリックします。
 
-   これにより、SSO 資格情報がWorkfrontに挿入され、すべてのユーザーが SSO 資格情報を使用してWorkfrontにログインできるようになります。
+   これにより、SSO 資格情報が Workfront に挿入され、すべてのユーザーが SSO 資格情報を使用して Workfront にログインできるようになります。
 
-   The **許可するのみ `<SSO Configuration>` 認証** の設定は、CSV に含まれるすべてのユーザーに対して有効になります。 これにより、ユーザーは SSO を使用してログインする必要があります。
+   CSV に含まれるすべてのユーザーに対して、「**`<SSO Configuration>` 認証のみを許可**」設定が有効になります。これにより、ユーザーは SSO を使用してログインする必要があります。
 
-## ユーザーのWorkfrontユーザー名に対する SSO の検証
+## ユーザーの Workfront ユーザー名に対する SSO の検証
 
 SSO ユーザー名情報を含むユーザーレポートの作成手順については、[読み込みファイルの準備](#prepare-the-import-file)を参照してください。
 

@@ -6,10 +6,10 @@ description: '[!UICONTROL ボード]ダッシュボードには、自分が作�
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 95%
+source-wordcount: '829'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 95%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -48,15 +50,17 @@ ht-degree: 95%
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
    <td> 
-   <p>新規： [!UICONTROL Contributor] 以降</p> 
+   <p>新規：[!UICONTROL Contributor]以上</p> 
    <p>または</p>
-   <p>現在： [!UICONTROL リクエスト ] 以降</p>
+   <p>現在：[!UICONTROL Request] 以上</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 
 ## ボードとワークストリームをフィルタリングする {#filter-boards}

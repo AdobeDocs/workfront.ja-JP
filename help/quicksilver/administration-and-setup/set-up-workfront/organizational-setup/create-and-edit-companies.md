@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 94%
+source-wordcount: '1472'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 94%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 [!DNL Workfront] で会社を管理するには、次が必要です。
 
 <table style="table-layout:auto"> 
@@ -32,7 +34,7 @@ ht-degree: 94%
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] プラン</p> </td> 
+   <td role="rowheader"> <p>[!DNL Workfront] プラン*</p> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -43,7 +45,7 @@ ht-degree: 94%
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベルの設定</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次のうちのいずれか：</p> 
     <ul> 
      <li> <p>システム内の任意の会社を編集できる、[!UICONTROL System Administrator]のアクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
@@ -54,7 +56,7 @@ ht-degree: 94%
       <li> <p>[!DNL Workfront] システムでのユーザーの追加および削除を行うには、次のいずれかが必要です。</p> 
        <ul> 
         <li> <p>[!UICONTROL System Administrator] アクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
-        <li> <p>アクセスレベルの [!UICONTROL Users] 設定で、[!UICONTROL Edit] が選択されている必要があります。また、[!UICONTROL Users] 設定の場合は、[!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">で [!UICONTROL Create] オプションと、2 つの [!UICONTROL User Admin] オプションの 1 つ以上を有効にする必要があります。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>[!UICONTROL User Admin (Group Users)] オプションを使用している場合は、ユーザーがメンバーとなっているグループのグループ管理者である必要があります。</p> </li> 
+        <li> <p>アクセスレベルの [!UICONTROL Users] 設定で、[!UICONTROL Edit] が選択されている必要があります。また、[!UICONTROL Users] 設定の場合は、[!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> 下の [!UICONTROL Create] オプションと、2 つの [!UICONTROL User Admin] オプションのうち少なくとも 1 つを有効にする必要があります。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>[!UICONTROL User Admin (Group Users)] オプションを使用している場合は、ユーザーがメンバーとなっているグループのグループ管理者である必要があります。</p> </li> 
        </ul> <p>アクセスレベルでのユーザー設定について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。</p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -62,6 +64,8 @@ ht-degree: 94%
 </table>
 
 &#42;ご利用のプラン、ライセンスタイプ、アクセスレベルの設定を確認するには、[!DNL Workfront] 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ユーザーを会社に追加するメリット {#benefits-of-adding-users-to-a-company}
 
@@ -117,12 +121,12 @@ ht-degree: 94%
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] セクション</td> 
-      <td> <p>会社に追加するフィールドで、で利用できないものがある場合 [!DNL Workfront]カスタムフォームを作成して会社に関連付けることができます。 </p> <p>このフォームは、ドロップダウンメニューから選択して会社に添付できます。アクティブなカスタムフォームのみがメニューに表示されます。</p> <p><strong>注意：</strong> 外部検索フィールドやWorkfront ネイティブフィールドなどの高度なカスタムフォーム機能は、会社を編集ダイアログではなく、詳細ページで会社レコードを開いた場合にのみ使用できます。 （会社のリストで、会社名をクリックして詳細を開きます。）</p> <p> カスタムフォームの作成については、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。 </p> </td>
+      <td> <p>会社に追加するフィールドが [!DNL Workfront] にない場合、カスタムフォームを作成して会社に関連付けることができます。 </p> <p>このフォームは、ドロップダウンメニューから選択して会社に添付できます。アクティブなカスタムフォームのみが、メニューに表示されます。</p> <p><strong>メモ：</strong>外部ルックアップフィールドや Workfront ネイティブフィールドなどの高度なカスタムフォーム機能は、会社を編集ダイアログではなく、詳細ページで会社レコードを開いた場合にのみ使用できます（会社のリストで、会社名をクリックすると詳細が開きます）。</p> <p> カスタムフォームの作成については、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。 </p> </td>
      </tr> 
     </tbody> 
    </table>
 
-1. （条件付き）会社を作成する場合は、「**[!UICONTROL 会社を作成]**」をクリックします。
+1. （条件付き）新しい会社を作成する場合は、「**[!UICONTROL 会社を作成]**」をクリックします。
 
    または
 
@@ -136,7 +140,7 @@ ht-degree: 94%
 
 会社レベルでの請求レートの上書きのについては、[会社レベルでの担当業務請求レートの上書き](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)を参照してください。
 
-## 会社とのオブジェクト共有の概要
+## 会社とのオブジェクトの共有の概要
 
 会社に関連付けられているユーザーは、特定の権限を使用できます（[ユーザーを会社に追加するメリット](#benefits-of-adding-users-to-a-company)の節を参照）。これらの権限に加えて、オブジェクトを会社と共有することで、[!DNL Workfront] 内のオブジェクトを表示、投稿、または編集する権限をユーザーに許可できます。
 

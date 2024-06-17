@@ -6,10 +6,10 @@ description: タスクとイシューは、チームが使用しているアジ�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 90%
+source-wordcount: '1371'
+ht-degree: 99%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 90%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -37,16 +39,16 @@ ht-degree: 90%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
-   <td> <p>新規： [!UICONTROL Standard]</p><p>または</p><p>現在： [!UICONTROL Work] 以降</p> </td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>新規： [!UICONTROL Standard]</p><p>または</p><p>現在： [!UICONTROL Worker] 以降</p> </td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Worker] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
@@ -55,12 +57,14 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## バックログでのストーリーの作成と管理
 
 * [ストーリーの並べ替え](#reorder-stories)
-* [[!UICONTROL 分類] ストーリー](#break-down-stories)
+* [ストーリーの[!UICONTROL 分類]](#break-down-stories)
 * [ストーリーの編集](#edit-stories)
 
 ### ストーリーの並べ替え {#reorder-stories}
@@ -102,7 +106,7 @@ ht-degree: 90%
 
 ### ストーリーの編集 {#edit-stories}
 
-ストーリーは、 [!UICONTROL ストーリー] または [!UICONTROL 問題] プロジェクト内のタスクや問題を一括編集する場合と同様に、「バックログ」タブが表示されます。詳しくは、 [タスクを一括編集](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [タスクを編集](../../manage-work/tasks/manage-tasks/edit-tasks.md)、および [問題の編集](../../manage-work/issues/manage-issues/edit-issues.md).
+プロジェクト内のタスクや課題を一括で編集するのと同じように、「バックログ」の「[!UICONTROL ストーリー]」タブまたは「[!UICONTROL イシュー]」タブからストーリーを直接編集できます。詳しくは、[タスクの編集](../../manage-work/tasks/manage-tasks/edit-tasks.md)の[タスクの一括編集](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk)と、[イシューの編集](../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
 
 ## バックログでの新しいストーリーの作成 {#create-new-stories-on-the-backlog}
 
@@ -119,14 +123,14 @@ ht-degree: 90%
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、「**[!UICONTROL チーム]**」をクリックします。
 
-1. （オプション） **[!UICONTROL チームの切り替え]** アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索して、表示されたら選択します。
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索し、表示されたら選択します。
 
 1. 左パネルから「**[!UICONTROL バックログ]**」を選択します。
 1. タスクを作成するかイシューを作成するかに応じて、次のいずれかの操作を実行します。
 
    * **タスクを作成するには：**「**[!UICONTROL ストーリー]**」をクリックします。
 
-   * **イシューを作成するには：** クリック **[!UICONTROL 問題]**.
+   * **イシューを作成するには：**[!UICONTROL 「]**イシュー**」をクリックします。
 
 1. 「**[!UICONTROL 新規ストーリー]**」または「**[!UICONTROL 新規イシュー]**」をクリックします。
 
@@ -175,7 +179,7 @@ ht-degree: 90%
 
 アジャイルチームにタスクまたはイシューを割り当てるには、次の手順に従います。
 
-1. 割り当てるタスクが含まれているプロジェクトに移動します。
+1. 割り当てるタスクを含むプロジェクトに移動します。
 1. リストからタスクまたはイシューを選択します。
 1. 「**[!UICONTROL 編集]**」をクリックします。
 1. 「**[!UICONTROL 割り当て]**」をクリックします。
@@ -185,7 +189,7 @@ ht-degree: 90%
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。\
    タスクまたはイシューがチームのバックログで利用できるようになりました。
 
-## バックログへのストーリーの移動またはバックログからのストーリーの移動
+## バックログへの、またはバックログからのストーリーの移動
 
 {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 

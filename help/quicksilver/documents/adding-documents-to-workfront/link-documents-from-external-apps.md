@@ -6,10 +6,10 @@ description: 外部のソースから、ドキュメントとフォルダーを 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2596'
-ht-degree: 99%
+source-wordcount: '2607'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Workfront Proof で最初に作成したプルーフを Workfront で使用できます。現在のライセンスでこの機能を使用するには、Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</td> 
+   <td>Workfront Proof で最初に作成したプルーフを Workfront で使用できます。現在のライセンスでは、この機能を使用するには Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -50,7 +50,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td role="rowheader">その他のドキュメントプロバイダー（カスタムドキュメントの統合を経由）</td> 
-   <td> <p class="workfront_plans">現在のライセンスでこの機能を使用するには、Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</p> </td>
+   <td> <p class="workfront_plans">現在のライセンスでは、この機能を使用するには Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,6 +60,8 @@ ht-degree: 99%
 Workfront に直接アップロードされたドキュメントを使用する場合と同じ方法で、外部クラウドプロバイダーにリンクされたドキュメントの配達確認や承認を行うことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -72,10 +74,10 @@ Workfront に直接アップロードされたドキュメントを使用する�
    <td> <p> 任意</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td>
-   <td><p>新規：コントリビューター以上</p>
+   <td role="rowheader">Adobe Workfront プラン</td>
+   <td><p>新規：Contributor 以上</p>
     <p>または</p>
-    <p>現在：リクエスト以上</p> </td>
+    <p>現在：Request 以上</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -85,6 +87,8 @@ Workfront に直接アップロードされたドキュメントを使用する�
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ドキュメントの保存
 
@@ -189,7 +193,7 @@ Google や Microsoft OneDrive などの外部アプリケーションから、Wo
    >
    >Box にリンクされているドキュメントの場合、Box 内のドキュメントへのリンクは、ページを更新するまで表示されません。
 
-ファイルシステムから Workfront にアップロードしたドキュメントの新しいバージョンを追加する方法について詳しくは、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)の [Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)を参照してください。
+ファイルシステムから Workfront にアップロードしたドキュメントの新しいバージョンを追加する方法について詳しくは、[ファイルシステムからの Adobe Workfront へのドキュメントの追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)の[Adobe Workfront へのドキュメントの追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront)を参照してください。
 
 ### Workfront Proof ドキュメントをリンク {#link-workfront-proof-documents}
 
@@ -204,7 +208,7 @@ Workfront Proof で表示アクセス権を持つプルーフのみをリンク�
    >
    >このメニューのオプションは、環境で設定されているサードパーティプロバイダーによって異なる場合があります。
 
-1. 表示される **Workfront Proof からのプルーフをリンクする**&#x200B;ボックスに、Workfront で使用できるようにするプルーフ名の入力を開始します。
+1. 表示される **Workfront Proof からのプルーフをリンク**&#x200B;ボックスに、Workfront で使用できるようにするプルーフの名前を入力します。
 
    入力すると、リストがフィルターされます。
 
@@ -222,7 +226,7 @@ Workfront 内で Google ドキュメントを新規作成できます。他の�
 
 1. Workfront でドキュメントを挿入する&#x200B;**ドキュメント**&#x200B;エリアに移動します。
 1. **新規追加**／**Google ファイル**&#x200B;をクリックして、作成する Google ドキュメントの種類を選択します。
-1. **Google Drive アカウントを追加**&#x200B;ボックスが表示されたら、**Google ドライブを承認**&#x200B;をクリックします。
+1. **Google Drive アカウントを追加**&#x200B;ボックスが表示されたら、**Google ドライブを認証**&#x200B;をクリックします。
 
    「**ドキュメント**」タブに Google ドキュメントが追加されます。
 
@@ -257,7 +261,7 @@ Workfront にアクセスできないユーザーでも、アプリケーショ�
 
 ## フォルダーのリンク
 
-Workfront と外部のクラウドプロバイダーの間でフォルダーをリンクすると、フォルダーとそのすべての内容がリンクされます。Workfront アクセス権を持たないユーザーが、外部ドキュメントアプリケーションからファイルを追加、削除および変更すると、変更点が Workfront に同期されます。
+Workfront と外部のクラウドプロバイダーの間でフォルダーをリンクすると、フォルダーとそのすべての内容がリンクされます。Workfront アクセス権を持たないユーザーが、外部ドキュメントアプリケーションからファイルを追加、削除および変更すると、変更内容が Workfront に同期されます。
 
 ### フォルダーのアクセス権 {#folder-access-rights}
 
@@ -339,7 +343,7 @@ Workfront を使用してリンクされたフォルダーにドキュメント�
 >
 > * ドキュメントは、Experience Manager Assets に移動すると、Workfront のドキュメントリストには表示されなくなります。
 >
-> * ドキュメントの移動中にドキュメントに対して行ったアクションや編集は、Experience Manager Assets 内のドキュメントには表示されないため、失われます。
+> * ドキュメントの移動中にドキュメントに対して行ったアクションや編集は、Experience Manager Assets 内のドキュメントには反映されず、失われます。
 
 ## リンクされたドキュメントまたはフォルダーを削除
 
@@ -358,4 +362,4 @@ Workfront と外部アプリケーションで名前を一致させる場合は�
 
 >[!IMPORTANT]
 >
->Dropbox にリンクされている Workfront 内のドキュメントの名前を変更しないでください。変更すると、Workfront でそのファイルにアクセスできなくなります。代わりに、Dropbox でファイルの名前を変更してから、ファイルを再同期します。
+>Dropbox にリンクされている Workfront 内のドキュメントの名前を変更しないでください。変更すると、Workfront でそのファイルにアクセスできなくなります。代わりに、Dropbox のファイル名を変更し、ファイルを再同期します。

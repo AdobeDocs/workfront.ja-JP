@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「表示：時間と日付の差異の計算」
-description: 時間と日付の違いの計算について説明します。
+description: 時間と日付の差異の計算について説明します。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 91%
+source-wordcount: '621'
+ht-degree: 98%
 
 ---
 
@@ -25,13 +25,15 @@ ht-degree: 91%
 以下の項目の間の差を計算できます。
 
 * 同じオブジェクト上の 2 つの日付フィールド間の時間と日付の差
-* オブジェクト上のフィールドと親オブジェクト上の別のフィールドの間の時間と日付の差
+* オブジェクト上のフィールドと親オブジェクト上の別のフィールドとの時間と日付の差
 
 >[!TIP]
 >
 >これらの計算では、2 つの日付の間の日数が表示されます。結果は日数で表示されます。日付フィールドのタイムスタンプも考慮され、タイムスタンプが一致しない場合は、日数の後に小数が続く場合があります。タスクが遅れて完了した場合は、日数が負の値で表示されます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,9 +46,9 @@ ht-degree: 91%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
-   <td> <p>新規： </p><ul><li><p>ビューを変更する寄稿者 </p></li><li>
-   <p>レポートを変更するための標準</p></li></ul><p>または</p><p>現在：</p><ul><li><p>表示の変更をリクエスト </p></li><li>
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規： </p><ul><li><p>ビューを変更する場合は Contributor </p></li><li>
+   <p>レポートを変更する場合は Standard</p></li></ul><p>または</p><p>現在：</p><ul><li><p>表示の変更をリクエスト </p></li><li>
    <p>レポートを変更するためのプラン</p> </li><ul></td> 
   </tr> 
   <tr> 
@@ -60,7 +62,9 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 同じオブジェクト上の 2 つの日付フィールド間の時間と日付の差の計算
 

@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2056'
-ht-degree: 94%
+source-wordcount: '2075'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,9 @@ ht-degree: 94%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,20 +45,22 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：任意</p><p>現在： Pro 以上</p><p>レガシー： Premium または Select</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td> <p>新規：任意</p><p>現在：Pro 以上</p><p>従来：Premium または Select</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
-   <td> <p>新規：標準</p><p>現行：作業または計画</p> <p>レガシー：任意（ユーザーの校正が有効になっている必要があります）</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規：標準</p><p>現在：ワークまたはプラン</p> <p>従来：任意（ユーザーのプルーフが有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>配達確認権限プロファイルで管理者が選択されている必要があります。 </td> 
+   <td> <p>プルーフ権限プロファイルで管理者を選択しておく必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 自動ワークフローテンプレートの作成
 
@@ -135,7 +139,7 @@ ht-degree: 94%
      </tr> 
      <tr> 
       <td role="rowheader">プライベートステージ</td> 
-      <td>ステージに追加されていない人やWorkfront管理者でない人に対するコメントや決定を非表示にします。 詳しくは、<a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</td> 
+      <td>ステージに追加されていない人や Workfront 管理者ではない人からのコメントと決定を非表示にします。詳しくは、<a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">自動ワークフローの概要</a>を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">このステージの削除を許可しない</td> 
@@ -144,7 +148,7 @@ ht-degree: 94%
     </tbody> 
    </table>
 
-1. このテンプレートを使用する配達確認が常にステージ内の同じ人物に送信される場合は、配達確認を作成するたびに追加する必要がないように、ここに追加します。
+1. このテンプレートを使用するプルーフが常にステージ内の同じユーザーに送信される場合は、ユーザーがプルーフを作成するたびに追加する必要がないように、プルーフをここに追加します。
 
    このテンプレートを使用するプルーフの各担当者の&#x200B;**役割**&#x200B;と、このテンプレートを使用するプルーフでユーザーが作業する際に受け取ってもらいたい&#x200B;**メールアラート**&#x200B;を選択します。
 

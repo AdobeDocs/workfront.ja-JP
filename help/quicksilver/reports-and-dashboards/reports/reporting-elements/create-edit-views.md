@@ -6,9 +6,9 @@ description: ビューを使用して、画面に表示する情報のタイプ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1788'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 99%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -32,7 +34,7 @@ ht-degree: 99%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
@@ -47,6 +49,8 @@ ht-degree: 99%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## ビューの作成またはカスタマイズ
 

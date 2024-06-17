@@ -6,10 +6,10 @@ description: Workfront ボットチャネルまたは他のチームチャネル
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 86%
+source-wordcount: '466'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+>Adobe Workfront と Microsoft Teams の統合は、現在、Microsoft Teams のクラシックエクスペリエンスでのみサポートされています。
 
 [!DNL Workfront] ボットチャネルまたはその他のチームチャネルにいずれかにコマンドを入力することで、[!DNL Microsoft Teams] から [!DNL Adobe Workfront] にアクセスして、[!DNL Workfront] で複数のアクションを実行できます。
 
@@ -38,6 +38,8 @@ ht-degree: 86%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -50,15 +52,17 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>新規： [!UICONTROL Standard]</p>
-   <p>現在： [!UICONTROL 作業 ]、[!UICONTROL プラン ]</p> </td> 
+   <td> <p>新規：[!UICONTROL Standard]</p>
+   <p>現在：[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 *ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-*Workfrontのアクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件の概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントでのアクセス要件の概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -69,7 +73,7 @@ ht-degree: 86%
 
 ## [!DNL Workfront] ボットチャットチャネルから [!DNL Workfront] にアクセス
 
-Workfrontにログインする必要があります。
+Workfront にログインしている必要があります。
 
 1. **[!DNL Workfront]** ボットチャットチャネルを開きます。
 1. テキストフィールドの下の **[!DNL Workfront]** アイコンをクリックして、検索ボックスを表示します。
@@ -96,7 +100,7 @@ Workfrontにログインする必要があります。
 
 ## チームチャネルから [!DNL Workfront] にアクセス
 
-Workfrontにログインする必要があります。
+Workfront にログインしている必要があります。
 
 1. チームチャネルを開き、**@[!DNL Workfront]** を入力して、**[!DNL Workfront]を選択します。**
 
@@ -111,7 +115,7 @@ Workfrontにログインする必要があります。
    * **[!DNL Log out]** で Workfront からログアウトする
    * **[!DNL New task]** で新しい個人の仕事を作成する
 
-     タスクの作成元の情報 [!DNL Microsoft Teams]を参照してください。 [作成 [!DNL Adobe Workfront] タスクから [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     [!DNL Microsoft Teams] からのタスクの作成について詳しくは、[ [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md) から  [!DNL Adobe Workfront]  タスクを作成を参照してください。
 
    * **[!UICONTROL ヘルプ]**&#x200B;で使用できるすべてのコマンドのリストを表示します。
 

@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: ' [!DNL Workfront Proof] でのメール通知設定の指定'
-description: Workfrontの配達確認から生成される電子メール通知は、コメント、返信、決定など、配達確認に関する最近のアクティビティを共同作業者に通知します。
+description: Workfront Proof から生成されたメール通知は、コメント、返信、決定など、プルーフに関する最近のアクティビティを共同作業者に通知します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
-ht-degree: 89%
+source-wordcount: '2049'
+ht-degree: 99%
 
 ---
 
@@ -22,26 +22,15 @@ ht-degree: 89%
 >
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-電子メール通知は、コメント、返信、決定など、配達確認に関する最近のアクティビティを共同作業者に通知します。
+メール通知は、コメント、返信、決定など、プルーフに関する最近のアクティビティを共同作業者に通知します。
 
-以下の領域で、レビュー担当者向けの電子メール通知を設定できます。
-
-## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">製品</td> 
-   <td>Workfront Proof Standalone</td> 
-  </tr> 
-</table>
+次のエリアで、レビュアーに対するメール通知を設定できます。
 
 レビュアーへのメール通知は、新しいプルーフページ、[!UICONTROL 新しいバージョン]ページで設定され、[!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクションで管理できます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
-* 新しい配達確認ページ
-* The [!UICONTROL 新しいバージョン] ページ
-* The [!UICONTROL ワークフロー] のセクション [!UICONTROL 配達確認の詳細] ページに貼り付けます。
+* 新規プルーフページ
+* [!UICONTROL 新しいバージョン]ページ
+* [!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクション。
 
 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
@@ -51,9 +40,9 @@ ht-degree: 89%
 * [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を管理します。
 
 
-また、各ユーザーは、共同作業者が自分の環境設定を持っている場合、またはアカウント管理者がアラートの頻度に関するレコメンデーションを持っている場合に、配達確認を共有したときに自動的に適用される独自の E メールアラート設定を設定できます。 これは、ユーザーの詳細ページで、プルーフのデフォルトとして設定できます。
+すべてのユーザーは、共同作業者に独自の環境設がある場合、またはアカウント管理者がアラートの頻度に関して推奨している場合に、プルーフが共有されたときに自動的に適用される独自のメールアラート設定を行うこともできます。これは、ユーザーの詳細ページで、プルーフのデフォルトとして設定できます。
 
-また、各ユーザーは、配達確認が共有されたときに自動的に適用される、独自の E メールアラート設定を設定することもできます。 <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
+すべてのユーザーは、プルーフが共有されたときに自動的に適用される独自のメールアラート設定を行うこともできます。<!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 
 >[!NOTE]
 >
@@ -63,9 +52,20 @@ ht-degree: 89%
 
 プロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
-* [個人設定でプルーフのデフォルトを設定する（[!DNL Workfront Proof] ユーザーのみ）](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [受信者向けのメールアラートを変更](#change-email-alerts-for-a-recipient)
-* [ユーザーにプルーフのデフォルトを設定](#configure-proof-defaults-for-a-user)
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">製品</td> 
+   <td>Workfront Proof スタンドアロン</td> 
+  </tr> 
+</table>
+
++++
 
 ## 個人設定でプルーフのデフォルトを設定する（[!DNL Workfront Proof] ユーザーのみ）
 
@@ -132,16 +132,16 @@ ht-degree: 89%
       <td>プルーフの作成時に [!UICONTROL Proof made] メールを受け取るかどうかを指定します。詳しくは、<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">[!UICONTROL Proof Made] メール</a>を参照してください。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 自分に送信される電子メールの形式 ] </td> 
+      <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
       <td> <p>HTML スタイルのメールとプレーンテキストのメールのどちらかを選択します。 </p> <p><b>メモ</b></p>
-      <p>校正の既定の設定は、配達確認レベルの設定で上書きされます。 ただし、[!UICONTROL Account] 設定でアカウント全体のプルーフメール通知が無効になっている場合は、プルーフで [!UICONTROL Disabled email alert] が選択されていない場合でも、メールアラートが共同作業者に送信されません。<br></p> </td> 
+      <p>プルーフのデフォルト設定はプルーフレベルの設定で上書きされます。ただし、[!UICONTROL Account] 設定でアカウント全体のプルーフメール通知が無効になっている場合は、プルーフで [!UICONTROL Disabled email alert] が選択されていない場合でも、メールアラートが共同作業者に送信されません。<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. **[!UICONTROL メッセージ設定]**&#x200B;で、次のいずれかを変更します。
 
-   | 配達確認テンプレート | 説明 |
+   | プルーフテンプレート | 説明 |
    |---|---|
    | **[!UICONTROL プルーフ件名テンプレート]** | 新しいプルーフページ、新しいバージョンページ、メッセージページおよび通知ページに表示されます。送信前に編集できます。 |
    | **[!UICONTROL プルーフメッセージテンプレート]** | 新しいプルーフページ、新しいバージョンページ、メッセージページおよび通知ページに表示されます。送信前に編集できます。 |
@@ -151,7 +151,7 @@ ht-degree: 89%
 バッチアクションで特定の受信者向けのメールアラートを変更できます。
 
 1. 左側のナビゲーションパネルで「**[!UICONTROL 連絡先]**」をクリックします。
-1. 次をクリック： **[!UICONTROL その他]** メニュー ![](assets/more-button-small.png) 受信者に対して、「 **[!UICONTROL メンバーの詳細を表示]** 」と入力します。
+1. 受信者の&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![](assets/more-button-small.png) をクリックし、ドロップダウンメニューで「**[!UICONTROL メンバーの詳細を表示]**」を選択します。
 
 1. 「**[!UICONTROL 共有項目]**」セクションを開きます。
 1. メールアラートを変更する各項目の左側でチェックボックスを選択します。
@@ -166,7 +166,7 @@ ht-degree: 89%
 1. **[!UICONTROL 設定]**／**[!UICONTROL アカウント設定]**&#x200B;をクリックします。
 
 1. 「**[!UICONTROL ユーザー]**」タブを開きます。
-1. を開きます。 **[!UICONTROL その他]** メニュー ![More_button_small.png](assets/more-button-small.png) を使用して、ユーザー名の右側に表示されます。
+1. ユーザー名の右側にある&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![More_button_small.png](assets/more-button-small.png) を開きます。
 
 1. ドロップダウンメニューで「**[!UICONTROL ユーザーの詳細を表示]**」をクリックします。
 1. **[!UICONTROL 設定]**&#x200B;で、「**[!UICONTROL デフォルトのメールアラート設定]**」をクリックして展開します。
@@ -226,8 +226,8 @@ ht-degree: 89%
       <td>プルーフの作成時に [!UICONTROL Proof made] メールを受け取るかどうかを指定します。詳しくは、<a href="https://support.workfront.com/hc/en-us/article">[!UICONTROL Proof Made] メール</a>を参照してください。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 自分に送信される電子メールの形式 ] </td> 
-      <td> <p>HTML スタイルのメールとプレーンテキストのメールのどちらかを選択します。 </p> <p><b>メモ</b></p> <p>校正の既定の設定は、配達確認レベルの設定で上書きされます。 ただし、[!UICONTROL Account] 設定でアカウント全体のプルーフメール通知が無効になっている場合は、プルーフで [!UICONTROL Disabled email alert] が選択されていない場合でも、メールアラートが共同作業者に送信されません。<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
+      <td> <p>HTML スタイルのメールとプレーンテキストのメールのどちらかを選択します。 </p> <p><b>メモ</b></p> <p>プルーフのデフォルト設定はプルーフレベルの設定で上書きされます。ただし、[!UICONTROL Account] 設定でアカウント全体のプルーフメール通知が無効になっている場合は、プルーフで [!UICONTROL Disabled email alert] が選択されていない場合でも、メールアラートが共同作業者に送信されません。<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

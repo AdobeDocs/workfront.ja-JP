@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: ドキュメント用のプルーフを作成する
-description: ドキュメントをWorkfrontにアップロードする際に、そのドキュメントの配達確認を生成できます。 Adobe Workfront に既にアップロードされているドキュメントのプルーフや、既に Workfrontにある新しいバージョンのプルーフを生成することもできます。
+description: ドキュメントを Workfront にアップロードする際に、そのドキュメントのプルーフを生成できます。Adobe Workfront に既にアップロードされているドキュメントのプルーフや、既に Workfrontにある新しいバージョンのプルーフを生成することもできます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 89%
+source-wordcount: '667'
+ht-degree: 98%
 
 ---
 
@@ -27,6 +27,8 @@ If a proof fails to generate after following the steps described in the followin
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -37,13 +39,13 @@ If a proof fails to generate after following the steps described in the followin
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>新規：任意 </p>
-   <p>現在： Pro 以上</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <p>現在：Pro 以上</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>新規：標準</p>
-   <p>現在：作業またはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+   <p>現在：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -56,14 +58,16 @@ If a proof fails to generate after following the steps described in the followin
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ドキュメントのアップロードとプルーフの作成
 
 1. 新しいプルーフを作成するプロジェクト、タスクまたはイシューに移動します。
-1. 次をクリック： **ドキュメント** タブをクリックします。
+1. 「**ドキュメント**」タブをクリックします。
 1. 左側のパネルでドキュメント ![](assets/document-icon.png) をクリックします。
-1. クリック **新規追加**&#x200B;を選択し、次に **配達確認** をクリックします。
+1. 「**新規追加**」をクリックし、表示されるメニューで「**プルーフ**」をクリックします。
 
    >[!TIP]
    >
@@ -77,9 +81,9 @@ If a proof fails to generate after following the steps described in the followin
 ## ドキュメントのアップロードとプルーフの新しいバージョンの作成
 
 1. 既存のプルーフの新しいバージョンを作成するプロジェクト、タスクまたはイシューを開きます。
-1. 次をクリック： **ドキュメント** タブをクリックします。
+1. 「**ドキュメント**」タブをクリックします。
 1. 新しいバージョンを追加するドキュメントを選択します。
-1. クリック **新規追加** > **バージョン** > **配達確認**.
+1. **新規追加**／**バージョン**／**プルーフ**&#x200B;の順にクリックします。
 1. 表示される&#x200B;**新規プルーフバージョン**&#x200B;ページで、以下の操作を実行できます。
 
    * [基本ワークフローを使用した詳細なプルーフの作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -96,7 +100,7 @@ If a proof fails to generate after following the steps described in the followin
 ドラッグ&amp;ドロップを使用して新しいプルーフまたは新しいプルーフバージョンを生成するには：
 
 1. 説明に従って、プルーフが自動的に生成されるように設定されていることを確認します。
-1.  [ファイルシステムからAdobe Workfrontにドキュメントを追加する](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)に進みます。これは、ドキュメントをドラッグ&amp;ドロップで追加する方法を説明します。
+1. [ファイルシステムからAdobe Workfrontにドキュメントを追加する](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)に進みます。これは、ドキュメントをドラッグ&amp;ドロップで追加する方法を説明します。
 
 ## 既存ドキュメントのプルーフの作成
 

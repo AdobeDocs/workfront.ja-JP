@@ -6,10 +6,10 @@ description: 追加の介入なしに、ユーザーに対して定期タイム�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 93%
+source-wordcount: '1472'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 93%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -36,7 +38,7 @@ ht-degree: 93%
    <td> <p>任意</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準 </p>
  <p>または</p> 
 <p>現在：プラン </p> 
@@ -49,7 +51,9 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## タイムシートプロファイルを作成または編集
 
@@ -97,7 +101,7 @@ ht-degree: 93%
      <ul> 
       <li> <p>管理しているグループのタイムシートプロファイルを作成する場合は、ここでグループを指定します。</p> <p>この操作を実行しても、グループ内のユーザーにタイムシートプロファイルは割り当てられません。グループの管理者がタイムシートプロファイルを変更できるだけです。手順 6 で、プロファイルをユーザーに割り当てます。</p>
 
-   <p><b>注意</b>：グループ外のユーザーがタイムシートプロファイルを他のユーザーに添付すると、このタイムシートプロファイルを表示または添付できなくなります。</p> </li> 
+   <p><b>メモ</b>：グループ外のユーザーが他のユーザーにタイムシートプロファイルを添付しようとしても、このタイムシートプロファイルを表示したり添付したりすることはできません。</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -106,7 +110,7 @@ ht-degree: 93%
       <p>週ごとのタイムシートは、タイムシートの生成日に開始します。例えば、毎週木曜日に週次のタイムシートを作成する場合、タイムシートの週の最初の曜日は木曜日になります。</p>
 
 
-   <p><b>注意</b>:Workfrontは常に 2 つのタイムシートを一度に作成します。最初のタイムシートには常に現在の日付が含まれ、2 番目のタイムシートは最初のタイムシートの期間が終わるときに開始します。</p> </p> </td> 
+   <p><b>メモ</b>：Workfront は常に 2 つのタイムシートを一度に作成します。最初のタイムシートには常に現在の日付が含まれ、2 番目のタイムシートは最初のタイムシートの時間枠が終わった時点で開始されます。</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>承認者</strong></p> </td> 
@@ -137,7 +141,7 @@ ht-degree: 93%
 
    <p>
 
-   <b>注意</b>：タイムシートを承認用に送信すると、時間を編集できなくなります。 提出されたタイムシートを編集可能な状態に戻すには、タイムシートを取り消すか、承認者にタイムシートを却下させます。詳しくは、<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">承認に向けたタイムシートの送信</a>および<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">タイムシートの承認</a>を参照してください。</p> </p> </td>
+   <b>メモ</b>：承認を受けるためにタイムシートを送信した後に、時間を編集することはできません。提出されたタイムシートを編集可能な状態に戻すには、タイムシートを取り消すか、承認者にタイムシートを却下させます。詳しくは、<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">承認に向けたタイムシートの送信</a>および<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">タイムシートの承認</a>を参照してください。</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>使用できる時間タイプ</strong> </td> 

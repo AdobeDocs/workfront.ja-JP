@@ -7,10 +7,10 @@ description: 複数の異なる列に表示される情報を結合し、1 つ�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 94%
+source-wordcount: '1014'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 94%
 複数の異なる列に表示される情報を結合し、1 つの共有列に表示できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -33,7 +35,7 @@ ht-degree: 94%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p> 現在： 
    <ul>
    <li>表示の変更をリクエスト</li> 
@@ -42,8 +44,8 @@ ht-degree: 94%
      </p>
      <p> 新規： 
    <ul>
-   <li>ビューを変更する寄稿者</li> 
-   <li>レポートを変更するための標準</li>
+   <li>ビューを変更する場合は Contributor</li> 
+   <li>レポートを変更する場合は Standard</li>
    </ul>
      </p>
     </td> 
@@ -59,7 +61,9 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 列を共有または結合する際の考慮事項
 
@@ -88,7 +92,7 @@ ht-degree: 94%
 >
 >同じレコードに値を同時に表示できない 2 列を結合する場合は、この方法をお勧めします。例えば、作業アイテムレポートでは、改行なしでイシュー名列およびタスク名列を結合できます。これは、作業アイテムはイシュー名とタスク名を同時に持つことができないためです。作業アイテムは、Workfront でイシューまたはタスクにすることができます。
 
-改行のない 2 つの列のデータを結合するには、次の手順を実行します。
+改行なしで 2 列のデータを結合するには：
 
 1. ビューのテキストモードを使用して、結合する最初の列に次のテキストを追加します。
 
@@ -144,7 +148,7 @@ ht-degree: 94%
    `sharecol=true`
 
 
-1. 最初の列をクリックし、 **テキストモードに切り替え**&#x200B;次に、列に次のテキストを追加します。
+1. 最初の列をクリックし、「**テキストモードに切り替える**」を選択し、列に次のテキストを追加します。
 
    `sharecol=true`
 

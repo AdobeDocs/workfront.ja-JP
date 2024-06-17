@@ -6,10 +6,10 @@ description: Adobe Workfront for Photoshop プラグインは、Adobe Marketplac
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 94%
+source-wordcount: '516'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 [!DNL Adobe Workfront for Photoshop] プラグインは [!DNL Adobe Marketplace] からインストールできます。このプラグインでは、次の言語をサポートしています。
 
-* 英語
+* Japanese
 * フランス語
 * ドイツ語
 * イタリア語
@@ -29,6 +29,8 @@ ht-degree: 94%
 * 韓国語
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -51,19 +53,21 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+
++++
 
 ## 前提条件
 
 * [!DNL Workfront] プラグインをインストールするには、まず [!DNL Adobe Photoshop] アプリをインストールする必要があります。
 
-## をインストールします。 [!DNL Adobe Workfront for Photoshop] 組織のプラグイン
+## 組織用の [!DNL Adobe Workfront for Photoshop] プラグインのインストール
 
 [!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
 [こちらからビデオチュートリアルをご覧いただけます](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成することもできます。 詳しくは、 [[!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] ユーザー向けのパッケージを [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
 ## [!DNL Adobe Workfront for Photoshop] プラグインの個別インストール
 
@@ -78,7 +82,7 @@ ht-degree: 94%
 
 ## [!DNL Adobe Workfront for Photoshop] プラグインを開きます。
 
-1. 開く [!DNL Photoshop].
+1. [!DNL Photoshop] を開きます。.
 
 1. 新規ファイルを作成するか、既存のファイルを開きます。
 

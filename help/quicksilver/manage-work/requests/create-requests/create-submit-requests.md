@@ -6,10 +6,10 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '2327'
-ht-degree: 83%
+source-wordcount: '2338'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 83%
 </div>
 -->
 
-予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予期しない作業が要求の形でいつでも発生する可能性がある環境で作業する場合もあります。 Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
+予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が要求という形で突然舞い込んでくる環境で働いているかもしれません。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
 
 リクエストキューにリクエストを作成したら、担当者に割り当てて完了させるか、タスクまたはプロジェクトに変換することができます。\
 タスクまたはプロジェクトにイシューを変換する方法について詳しくは、[Adobe Workfront におけるイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
@@ -38,6 +38,8 @@ ht-degree: 83%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -49,10 +51,10 @@ ht-degree: 83%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新規：寄稿者以上</p>
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：Contributor 以上</p>
    または
-   <p>現在：リクエスト以降</p>
+   <p>現在：Request 以上</p>
     </td> 
   </tr> 
   <tr> 
@@ -62,18 +64,19 @@ ht-degree: 83%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
 
 ## リクエストキューの使用上の前提条件
 
-Workfront管理者は、この機能を使用する前に、リクエストキューを作成して、ユーザーが使用できるようにする必要があります。 プランナーライセンスを持ち、プロジェクトへの編集アクセス権と特定のプロジェクトの管理権限を持つユーザーも、リクエストキューを作成できます。
+この機能を使用するには、まず Workfront 管理者がリクエストキューを作成して、ユーザーが使用できるようにする必要があります。プランナーライセンスを持ち、プロジェクトへの編集アクセス権と特定のプロジェクトの管理権限を持つユーザーも、リクエストキューを作成できます。
 
 リクエストキューの作成方法については、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
-Workfrontの管理者は、リクエストキューの次のコンポーネントを作成する必要があります。
+Workfront 管理者は、リクエストキューの次のコンポーネントを作成する必要があります。
 
-* 現在のステータスのプロジェクトで、ヘルプリクエストキューとして公開されます。
+* ステータスが「進行中」のプロジェクト。ヘルプリクエストキューとして公開されます。
 * キュートピック\
   詳しくは、[キュートピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
@@ -105,7 +108,7 @@ Workfront web アプリでリクエストを作成すると、Workfront はリ�
 
 既存のドラフトからのリクエストの作成について詳しくは、[ドラフトからリクエストを作成](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)を参照してください。リクエストドラフトの削除について詳しくは、[リクエストドラフトを削除](../../../manage-work/requests/create-requests/delete-request-draft.md)を参照してください。
 
-Workfront Web アプリでリクエストを作成するには：
+Workfront web アプリでリクエストを作成するには：
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
 
@@ -134,7 +137,7 @@ Workfront Web アプリでリクエストを作成するには：
    * 「**リクエストキュー**」セクションで、リクエストキューを選択します。
    * 以前にアクセスしたパスに属するキーワードを入力して、リクエストキューを検索します。
 
-     例えば、「Location」という名前のトピックグループと「Remote」という名前のキュートピックを持つ「Help Desk」という名前のリクエストキューがある場合、「remote」と入力し、パス表示の任意の要素に「remote」を含むすべてのリクエストキューを入力できます。
+     例えば、「Location」という名前のトピックグループと「Remote」という名前のキューのトピックを含む「Help Desk」という名前のリクエストキューがある場合、「remote」と入力すると、パスの要素に「remote」を含むすべてのリクエストキューが表示されます。
 
      >[!TIP]
      >
@@ -163,11 +166,11 @@ Workfront Web アプリでリクエストを作成するには：
 
    >[!TIP]
    >
-   >* 最初の 200 個のリクエストキューは、デフォルトで、アルファベット順に表示されます。
+   >* デフォルトでは、最初の 200 件のリクエストキューがアルファベット順に表示されます。
    >* リクエストキューの名前は、ヘルプリクエストキューとして公開されたプロジェクトの名前です。
    >* 選択したリクエストキューとして設定されたプロジェクトの説明が、リクエストキュー名の右側に表示されます。
    >   
-   >プロジェクトをヘルプリクエストキューとして公開する方法の詳細については、この記事を参照してください。 [リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >プロジェクトをヘルプリクエストキューとして公開する方法について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)の記事を参照してください。
 
 1. **新しいリクエスト**&#x200B;フォームで、次のいずれかの操作を行います。
 
@@ -183,24 +186,24 @@ Workfront Web アプリでリクエストを作成するには：
 
      新しいリクエストの情報の入力を開始し、「件名」フィールドにリクエストに名前を付けると、新しいドラフトが「ドラフト」セクションに自動的に保存されます。
 
-1. （オプション）リクエストキューにトピックグループが含まれる場合、最初のドロップダウンフィールドでトピックグループの名前を選択します。それ以外の場合は、Queue Topic を選択します。
+1. （オプション）リクエストキューにトピックグループが含まれる場合、最初のドロップダウンフィールドでトピックグループの名前を選択します。それ以外の場合は、キュートピックを選択します。
 
    >[!TIP]
    >
-   >トピックグループまたはキュートピックの上にマウスポインターを置くと、右側に「説明」フィールドが表示されます。 トピックグループまたはキューのトピックに関する追加情報が含まれます。
+   >トピックグループまたはキュートピックの上にポインタを合わせると、右側に「説明」フィールドが表示されます。トピックグループまたはキューのトピックに関する追加情報が含まれます。
    >
    >
    >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
    >
 
-   リクエストキューには、最大 10 層のトピックグループを組み込むことができます。\
+   リクエストキューには、最大 10 個のトピックグループを組み込むことができます。\
    トピックグループの作成方法について詳しくは、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)の記事を参照してください。キュートピックの作成について詳しくは、[キューのトピックを作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
    >[!TIP]
    >
    >ドラフトまたは前のパスを選択した場合、トピックグループとキューのトピックは既に選択されています。必要に応じて、別のものを選択できます。
 
-1. Workfront管理者が **新しい問題フィールド** のセクション **キューの詳細** プロジェクトの「 」サブタブで、新しい要求を送信すると、次のフィールドのいずれかが表示される場合があります。
+1. Workfront 管理者がプロジェクトの「**キューの詳細**」サブタブの「**新規問題フィールド**」セクションで有効にしたフィールドに応じて、新しいリクエストを送信すると、次のフィールドのいずれかが表示されることがあります。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -308,11 +311,11 @@ Workfront Web アプリでリクエストを作成するには：
 
 ## Workfront 以外からのリクエストを作成する
 
-新しいリクエストを送信する際に、リクエストキューへの直接リンクを共有し、他のアプリケーションに埋め込むことができます。 Web または他のアプリケーションからこのリンクにアクセスするユーザーも、このキューにアクセスしてリクエストを送信できるように、アクティブな Workfront アカウントでログインする必要があります。詳しくは、[リクエストキューへのリンクの共有](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)を参照してください。
+新しいリクエストを送信し、他のアプリケーションに組み込む際に、リクエストキューへの直接リンクを共有できます。Web または他のアプリケーションからこのリンクにアクセスするユーザーも、このキューにアクセスしてリクエストを送信できるように、アクティブな Workfront アカウントでログインする必要があります。詳しくは、[リクエストキューへのリンクの共有](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)を参照してください。
 
-## Workfrontに電子メールで要求を作成
+## Workfront にメールでリクエストを作成する
 
-リクエストキューが電子メールでリクエストを受け取るように設定されている場合、リクエストキューに関連付けられた電子メールアドレスに直接リクエストを電子メールで送信できます。
+リクエストキューでメールによるリクエストを受け取ることを有効にしている場合、リクエストキューに関連付けられたメールにリクエストを直接メールで送信できます。
 
 メールの本文テキストがリクエストの説明として追加されます。
 
@@ -322,7 +325,7 @@ Workfront Web アプリでリクエストを作成するには：
 
 リクエストキューがメールでリクエストを受け取れるようにする方法について詳しくは、[ユーザーがイシューをリクエストキュープロジェクトにメールで送信できるようにする](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)を参照してください。
 
-## Outlook クライアントを使用して要求を作成する
+## Outlook クライアントを使用してリクエストを作成する
 
 Outlook クライアントを使用してリクエストを送信できます。新しいリクエストを作成するか、メールをリクエストに変換することができます。
 
@@ -330,16 +333,16 @@ Outlook クライアントを使用してリクエストを送信する方法に
 
 ## Workfront モバイルアプリを使用してリクエストを作成する
 
-スマートフォンのモバイルアプリを使用してリクエストを送信できます。新しいリクエストを作成し、Web アプリケーションで表示するためのアクセス権を持つリクエストキューに送信できます。
+スマートフォンのモバイルアプリを使用してリクエストを送信できます。新しいリクエストを作成し、web アプリケーションで表示するためのアクセス権があるリクエストキューに送信できます。
 
-モバイルアプリを使用してリクエストを送信する方法について詳しくは、次の記事のリクエストの節を参照してください。
+モバイルアプリを使用してリクエストを送信する方法について詳しくは、この記事のリクエストの節を参照してください。
 
 * [Android 用 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests)
 * [iOS 用 Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md#requests)
 
 ## 他のアプリケーションからリクエストを作成する
 
-Workfrontと統合されている任意のアプリケーションを使用して、要求を送信できます。
+Workfront と統合されている任意のアプリケーションを使用して、リクエストを送信できます。
 
 * Workfront と別のアプリケーションとの間のカスタム統合を構築し、他のアプリケーションから Workfront にリクエストを送信できます。\
   カスタム Workfront の統合について詳しくは、[Adobe Workfront 統合](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md)を参照してください。

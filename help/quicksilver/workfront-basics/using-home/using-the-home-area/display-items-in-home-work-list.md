@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: ホームエリアの[!UICONTROL 作業リスト]に項目を表示
-description: '[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]には、自分に割り当てられているすべての作業項目が表示されます。表示する項目を [!UICONTROL 作業用リスト]、フィルターを使用し、作業項目をグループ化および並べ替える方法。'
+description: '[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]には、自分に割り当てられているすべての作業項目が表示されます。フィルターを使用したり、作業アイテムをグループ化および並べ替えたりすることで、[!UICONTROL 作業]リストに表示する項目を制御できます。'
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 81%
+source-wordcount: '1837'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 81%
 <!-- Audited: 1/2024 -->
 
 
-[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]には、自分に割り当てられているすべての作業項目が表示されます。表示する項目を [!UICONTROL 作業用リスト]、フィルターを使用し、作業項目をグループ化および並べ替える方法。
+[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]には、自分に割り当てられているすべての作業項目が表示されます。フィルターを使用したり、作業アイテムをグループ化および並べ替えたりすることで、[!UICONTROL 作業]リストに表示する項目を制御できます。
 
 >[!NOTE]
 >
@@ -28,6 +28,8 @@ ht-degree: 81%
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,7 +45,7 @@ ht-degree: 81%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
-   <td> <p>新規：</p><ul><li>[!UICONTROL Contributor] ：承認のみ</li> <li>[!UICONTROL Standard] 以降（他のすべてのオブジェクト用）</li> <p>または</p> 
+   <td> <p>新規：</p><ul><li>[!UICONTROL Contributor]（承認のみ）</li> <li>[!UICONTROL Standard] 以上（他のすべてのオブジェクト）</li> <p>または</p> 
   </ul><p>現在：</p><ul><li>[!UICONTROL Review]（承認のみ）</li> <li>[!UICONTROL Work] 以上（他のすべてのオブジェクト）</li> </td> 
   </tr> </ul>
   <tr> 
@@ -57,7 +59,9 @@ ht-degree: 81%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!UICONTROL 作業リスト]のフィルタリング
 
@@ -65,10 +69,10 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->フィルターオプションは、ブラウザーに保存されます。同じコンピューター上で一貫して同じブラウザーを使用している（かつ、サイトのデータをクリアしない）場合、選択したフィルターは変更されません。ブラウザーまたはコンピューターを切り替えると、フィルターがデフォルトのオプションに戻り、すべてのフィルターが選択解除されます。
+>フィルターオプションは、ブラウザーに保存されます。同じコンピューター上で一貫して同じブラウザーを使用している（かつ、サイトのデータをクリアしない）場合、選択したフィルターは変更されません。ブラウザーまたはコンピューターを切り替えると、フィルターはデフォルトのオプションに戻り、すべてのフィルターが選択解除されます。
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
-1. 次をクリック： **[!UICONTROL フィルター]** ![](assets/filter-nwepng.png) ドロップダウンメニュー。 フィルターを選択している場合は、アイコンの代わりに、選択したフィルターの数が表示されます。
+1. **[!UICONTROL フィルター]** ![](assets/filter-nwepng.png) ドロップダウンメニューをクリックします。フィルターを選択している場合は、アイコンの代わりに選択したフィルターの数が表示されます。
 1. 以下のフィルターオプションから選択して、表示する項目のタイプを指定します。
 
    <table style="table-layout:auto"> 
@@ -80,11 +84,11 @@ ht-degree: 81%
       <td>すべての項目を表示および選択します。これには、タスク、イシュー、承認、個人タスクおよび完了したタスクとイシューが含まれます。 </td>
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL タスク：操作 ]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks: Working On]</strong></td> 
       <td> <p>作業中のタスクのみを表示します。これらは、「[!UICONTROL Work On It]」ボタンをクリックして自分に割り当てられたタスクです。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL タスク：開始準備完了 ]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks: Ready to Start]</strong></td> 
       <td> 
        <div> 
         <p>開始する準備が整ったタスクのみを表示します。以下の条件の両方が成り立つ必要があります。</p> 
@@ -95,7 +99,7 @@ ht-degree: 81%
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL タスク：準備ができていません ]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks: Not Ready]</strong></td> 
       <td> 
        <div> 
         <p>まだ開始する準備ができていないタスクのみを表示します。以下の条件のいずれか 1 つが成り立つ必要があります。</p> 
@@ -106,11 +110,11 @@ ht-degree: 81%
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL の問題：操作 ]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues: Working On]</strong></td> 
       <td> <p>現在作業中のイシューのみを表示します。このタスクは、「[!UICONTROL Work On It]」ボタンをクリックして自分に割り当てられたイシューです。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL の問題：リクエスト済み ]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues: Requested]</strong></td> 
       <td>割り当てられているが [!UICONTROL Work On It] ボタンをクリックしていないイシューのみが表示されます。</td> 
      </tr> 
      <tr> 
@@ -132,18 +136,18 @@ ht-degree: 81%
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 委任：自分が委任しました ]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Delegated: Delegated by me]</strong></td> 
       <td> 
        <div> 
-        <p>別のユーザーに委任した作業項目のみを表示します。</p> 
-        <p>タスクの委任について詳しくは、 <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">タスクと問題を別のユーザーに委任する</a>.
+        <p>別のユーザーに委任した作業アイテムのみを表示します。</p> 
+        <p>タスクの委任について詳しくは、<a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">別のユーザーへのタスクとイシューの委任</a>を参照してください。
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 委任：自分に委任済み ]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Delegated: Delegated to me]</strong></td> 
       <td> 
        <div> 
-        <p>別のユーザーによって一時的に委任された作業項目のみを表示します。</p> 
+        <p>別のユーザーによって一時的に委任された作業アイテムのみが表示されます。</p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -160,8 +164,8 @@ ht-degree: 81%
    >* フィルターオプションは、オブジェクト（タスク、イシュー、承認、個人用タスク）に基づきます。
    >* タスクとイシューは、作業の準備状態と関連してさらにフィルタリングされます（[!UICONTROL 作業中]、[!UICONTROL 開始準備完了]、タスクの[!UICONTROL 準備未完了]およびイシューの[!UICONTROL 作業中]と[!UICONTROL 要求済み]）。特定のステートのタスクまたはイシューを表示することを選択するか、「タスク」または「イシュー」をクリックしてすべてのステートを選択して表示できます。
    >* 完了した項目に対しては別のフィルターがあり、タスクとイシューの両方が含まれます。これには承認は含まれません。[!UICONTROL 完了]フィルターには、個人用のタスクが含まれます。
-   >* 一度に 1 つの状態のみを表示するよう選択できます。 例えば、 [!UICONTROL 作業中] タスクとのみ [!UICONTROL リクエスト済み] 問題。 また、一度に複数の状態を選択することもできます。
-   >* チームの 1 つに割り当てられた項目に対してフィルタを適用することはできません。また、チームの割り当ては、直接割り当てられた項目には含まれません。
+   >* 一度に 1 つの状態のみを表示するように選択できます。例えば、[!UICONTROL 作業中]のタスクのみを表示することと、[!UICONTROL 要求済み]のイシューのみを表示することができます。また、一度に複数の状態を選択することもできます。
+   >* チームの 1 つに割り当てられた項目に対してフィルターを適用することはできません。また、チームの割り当ては、直接割り当てられた項目には含まれません。
 
 
 1. （オプション）さらに[!UICONTROL 作業リスト]を整理するには、この記事の[日付、プロジェクト、優先度でグループ化して並べ替え](#group-and-sort-by-date-project-and-priority)の節を参照してください。
@@ -171,7 +175,7 @@ ht-degree: 81%
 [!UICONTROL 予定完了日]、[!UICONTROL コミット日]、[!UICONTROL プロジェクト]または[!UICONTROL マイ優先度]により、[!UICONTROL 作業用リスト]をグループ化して並べ替えることができます。選択するオプションにより、[!UICONTROL 作業リスト]の項目をグループ化する方法が決まります。
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
-1. 次をクリック： **[!UICONTROL グループ化の基準]** ![グループ化の基準](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/grouping-28x19.png) ドロップダウンメニュー。
+1. **[!UICONTROL グループ化]** ![グループ化](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/grouping-28x19.png) ドロップダウンメニューをクリックします。
 
    <!--
    ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
@@ -226,7 +230,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->デフォルトの並べ替えは昇順です。 並べ替えを降順に変更すると、選択した並べ替えオプションがブラウザーに保存されます。 同じコンピューター上で同じブラウザーを一貫して使用し、サイトのデータをクリアしない場合、並べ替えは変更されませんが、ブラウザーまたはコンピューターを切り替えた場合、並べ替えはデフォルトの並べ替えに変更されます。
+>デフォルトの並べ替えは昇順です。並べ替えを降順に変更すると、選択した並べ替えオプションがブラウザーに保存されます。同じコンピューター上で同じブラウザーを一貫して使用し、サイトのデータをクリアしない場合、並べ替えは変更されませんが、ブラウザーまたはコンピューターを切り替えた場合、並べ替えはデフォルトの並べ替えに変更されます。
 
 ## 遅れた項目を表示する
 
@@ -243,16 +247,16 @@ ht-degree: 81%
 
 [!UICONTROL 作業リスト]を検索する場合、割り当てられた項目は検索で返されます（現在画面に読み込まれていない項目も検索で返されます）。[!UICONTROL 完了済みを表示]オプションが選択されている場合は、過去 2 週間以内に完了としてマークした項目も返されます。
 
-また、作業項目の名前のみが検索されます（作業項目内の情報は検索されず、作業項目が存在するプロジェクトの名前も検索されません）。
+また、作業アイテムの名前のみが検索されます（作業アイテム内の情報や、作業アイテムが存在するプロジェクトの名前は検索されません）。
 
 [!UICONTROL 作業リスト]を検索するには、以下を実行します。
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
-1. （オプション） [!UICONTROL 作業用リスト]を参照してください。 [フィルター [!UICONTROL 作業用リスト]](#filter-the-work-list) および [日付、プロジェクト、優先度でグループ化および並べ替え](#group-and-sort-by-date-project-and-priority).
+1. （オプション）[[!UICONTROL 作業リストのフィルタリング]](#filter-the-work-list)と[日付、プロジェクト、優先度によるグループ化と並べ替え](#group-and-sort-by-date-project-and-priority)で説明されているように、[!UICONTROL 作業リスト]をフィルタリングおよびグループ化します。
 
 1. （オプション）既に完了している作業アイテムを検索する場合は、検索する前に、完了した項目を表示するように[!UICONTROL 作業リスト]を設定する必要があります。
 
-1. 検索アイコンをクリックします。 ![検索](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/search-icon.png).
+1. 検索アイコン ![検索](/help/quicksilver/workfront-basics/using-home/using-the-home-area/assets/search-icon.png) をクリックします。
 1. 検索する項目名の入力を開始します。\
    [!UICONTROL 作業リスト]は、一致する名前を持つ項目を含むように自動的にフィルタリングされます。
 

@@ -6,9 +6,9 @@ description: レポート内のコレクションの参照
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,8 @@ Workfront でのレポートの作成について詳しくは、[カスタムレ
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -32,7 +34,7 @@ Workfront でのレポートの作成について詳しくは、[カスタムレ
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -47,6 +49,8 @@ Workfront でのレポートの作成について詳しくは、[カスタムレ
 </table>
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## コレクションについて
 
@@ -171,7 +175,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
    ビューでカスタム式を作成する場合は、**valuefield** を **valueexpression** に置き換えることができます。
 
-   計算されたカスタム式について詳しくは、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   計算済みカスタム式について詳しくは、[計算済みデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
 
    例えば、タスクのリストをプロジェクトレポートに表示する場合です。このコレクションでは、タスクの名前を参照するために `valuefield` 行を使用します。
 
@@ -419,7 +423,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
    >[!NOTE]
    >
-   コレクションオブジェクト名に&#x200B;**イシュー**&#x200B;を使用する必要があることに注意してください。現時点で、API エクスプローラーにイシューのコレクションオブジェクト名は用意されていません。
+   >コレクションオブジェクト名に&#x200B;**イシュー**&#x200B;を使用する必要があることに注意してください。現時点で、API エクスプローラーにイシューのコレクションオブジェクト名は用意されていません。
 
 1. 「**完了**」をクリックします。
 1. （オプション）レポートの編集を続けます。

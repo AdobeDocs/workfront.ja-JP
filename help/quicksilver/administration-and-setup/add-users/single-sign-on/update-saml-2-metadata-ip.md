@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 96f1d50024605328713ca2019f3b726e27dc569c
-workflow-type: ht
-source-wordcount: '961'
-ht-degree: 100%
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+workflow-type: tm+mt
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 次の節では、Active Directory フェデレーションサービス（ADFS）を ID プロバイダーとして使用する場合に、Security Assertion Markup Language（SAML）2.0 メタデータを更新する方法について説明します。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -34,15 +36,17 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## ID プロバイダーとして ADFS を使用
 
@@ -69,14 +73,14 @@ ADFS メタデータを自動的に更新するように設定するには、こ
    1. **システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
 
    1. 「**設定の編集**」をクリックします。
-   1. 「**設定を編集**」をクリックし、****&#x200B;ドロップダウンリストを入力内で「**SAML 2.0**」を選択します。
+   1. 「**設定を編集**」をクリックし、**タイプ**&#x200B;ドロップダウンリストから「**SAML 2.0**」を選択します。
 
-   1. 次にような&#x200B;**メタデータ URL**&#x200B;をコピーします。
+   1. 次のような&#x200B;**メタデータ URL** をコピーします。
 
       `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
 
-   1. ADFS サーバーで、以前に設定した証明書利用者の信頼を右クリックし、「**プロパティ**」をクリックします。
-   1. 「**監視**」タブをクリックし、Workfront からコピーした URL を&#x200B;**証明書利用者のフェデレーションメタデータ URL**&#x200B;フィールドにペーストします。
+   1. ADFS サーバーで、事前に設定した証明書利用者の信頼を右クリックし、「**プロパティ**」をクリックします。
+   1. 「**監視**」タブをクリックし、Workfront からコピーした URL を「**証明書利用者のフェデレーションメタデータ URL**」フィールドにペーストします。
 
    1. 「**証明書利用者の監視**」および「**証明書利用者を自動的に更新**」のオプションをオンにします。
 

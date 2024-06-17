@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 32441df90b915077f57ead791116dcbd32c9557a
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 81%
+source-wordcount: '1151'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 81%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 以下が必要です。
 
 <table style="table-layout:auto"> 
@@ -32,14 +34,14 @@ ht-degree: 81%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td>
    <p>新規：標準</p>
-   <p>現在： [!UICONTROL プラン ]</p></td> 
+   <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -50,9 +52,11 @@ ht-degree: 81%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
++++
+
 ## 担当業務を作成
 
-ジョブ・ロールを作成する手順は、次のとおりです。
+担当業務を作成するには：
 
 {{step-1-to-setup}}
 
@@ -85,37 +89,37 @@ ht-degree: 81%
       <td> <p><span>これは、Workfront 管理者が[!UICONTROL Setup]エリアで設定した[!UICONTROL Base Currency]です。詳しくは、</span><a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p> <p>ヒント：<span>[!UICONTROL Base Currency]は、担当業務レベルでは編集できません。このフィールドはグレー表示で、システムの基本通貨を確認できます。</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL コストレート ]</td> 
+      <td role="rowheader">[!UICONTROL Cost Rate]</td> 
       <td><p>これは、担当業務の 1 時間あたりのコスト率です。この値は、役割に関連するタスクとイシューの予定コストと実際のコスト、最終的にはプロジェクトの予定コストと実際のコストを計算します。[!UICONTROL Base Currency]を使用してレートを入力します。</p> 
       <p>日付が有効なコスト率の場合は、「<strong>[!UICONTROL Add Rate]</strong>」をクリックします。その期間の 1 時間当たりのコストの値を入力し、必要に応じて[!UICONTROL Start Date]と[!UICONTROL End Date]を割り当てます。最初のコスト率には開始日が設定されず、最後のコスト率には終了日が設定されません。</p> <p>一部の日付は自動的に追加されます。例えば、最初のコスト率に終了日が設定されていない場合に、2 番目のコスト率を追加して開始日を 2023年5月1日とすると、ギャップが生じないように、最初のコスト率に終了日 2023年4月30日が追加されます。</p> <p>ヒント：既存の担当業務を編集する際に、「<strong>開始日順に並べ替える</strong>」をクリックすると、最新の開始日がレートリストの上部に表示されます。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL 請求率 ] </td> 
+      <td role="rowheader">[!UICONTROL Billing Rate] </td> 
       <td><p>これは、担当業務の 1 時間あたりの請求レートです。この値は、役割に関連するタスクの予定収益と実収益、最終的にはプロジェクトの予定収益と実収益を計算します。[!UICONTROL Base Currency]を使用してレートを入力します。</p> <p>日付が有効な請求レートを表示するには、「<strong>[!UICONTROL Add Rate]</strong>」をクリックします。その期間の 1 時間当たりの請求レートの値を入力し、必要に応じて[!UICONTROL Start Date]と[!UICONTROL End Date]を割り当てます。最初の請求レートには開始日が設定されず、最後の請求レートには終了日が設定されません。</p> <p>一部の日付は自動的に追加されます。例えば、最初の請求レートに終了日がなく、2 番目の請求レートを追加して開始日を 2023年5月1日とすると、ギャップが生じないように、最初の請求レートに終了日 2023年4月30日が追加されます。</p> <p>ヒント：既存の担当業務を編集する際に、「<strong>開始日順に並べ替える</strong>」をクリックすると、最新の開始日がレートリストの上部に表示されます。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
       <td>
         <p>この担当業務に関連付けられている通貨を選択します。これは、[!DNL Workfront] でこの担当業務に関連付けられたコストと収益の計算に使用する通貨です。 </p> 
-        <p><span>これは、 [!DNL Workfront] 管理者（[!UICONTROL 設定 ] 領域）で設定できます。プロジェクトに関連付けられている通貨とは異なる通貨を使用することもできます。</span> </p> 
-        <p>ヒント：このフィールドは、システムの [!UICONTROL 為替レート ] 領域で使用できる通貨のみが表示されます。 設定されている通貨が 1 つだけの場合、このフィールドは表示されません。</p> 
+        <p><span>これは、[!DNL Workfront] 管理者が[!UICONTROL Setup]エリアで設定する[!UICONTROL Base Currency]設定とは異なり、プロジェクトに関連付けられている通貨とは異なる通貨を使用することもできます。</span> </p> 
+        <p>ヒント：このフィールドには、システムの[!UICONTROL Exchange Rates]エリアで使用できる通貨のみを設定できます。設定されている通貨が 1 つだけの場合、このフィールドは表示されません。</p> 
        <p><span>[!DNL Workfront] での[!UICONTROL Base Currency]の設定について詳しくは、</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p> <p><span>プロジェクトの通貨の変更について詳しくは、</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">プロジェクトの通貨の変更</a>を参照してください。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL 通貨コストレートの上書き ]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Cost Rate]</span> </td> 
       <td>
         <p>これは、選択した「[!UICONTROL Override Currency]」を使用する担当業務の 1 時間あたりのコスト率です。[!DNL Workfront] はこの値を使用して、担当業務に関連するタスクおよびイシューの予定コストと実際のコストを計算します。 </p> 
-        <p><span>上記の「[!UICONTROL Override Currency]」にレートを入力します。これにより、[!UICONTROL 基本通貨 ] を使用する際に、このジョブロールのコストレートも更新されます。</span> </p> 
+        <p><span>上記の「[!UICONTROL Override Currency]」にレートを入力します。これにより、[!UICONTROL Base Currency]を使用する際に、この担当業務のコストレートも更新されます。</span> </p> 
         <p>[!DNL Workfront] のコストの計算について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> 
-       <p>ヒント：既にコスト・レートが関連付けられている既存のジョブ・ロールを更新する場合は、次の手順に従います。 [!DNL Workfront] は、システム内のコンバージョン率に基づいて [!UICONTROL 通貨の上書き ] 率を計算します。 [!UICONTROL Override Currency Cost Rate] を更新すると、ジョブロールのコストレートも自動的に更新されます。</p> </td> 
+       <p>ヒント：既にコストレートが関連付けられている既存の担当業務を更新する場合、[!DNL Workfront] は、システム内のコンバージョン率に基づいて「[!UICONTROL Override Currency]」レートを計算します。[!UICONTROL Override Currency Cost Rate]を更新すると、担当業務のコストレートも自動的に更新されます。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL 通貨の請求率の上書き ]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Override Currency Billing Rate]</span> </td> 
       <td>
         <p>これは、選択した「[!UICONTROL Override Currency]」を使用した担当業務の 1 時間あたりの請求レートです。[!DNL Workfront] はこの値を使用して、担当業務に関連するタスクおよびイシューの予定収益と実収益を計算します。 </p>
-        <p><span>上記の「[!UICONTROL Override Currency]」にレートを入力します。これにより、[!UICONTROL 基本通貨 ] を使用する際に、このジョブの役割に対する請求率も更新されます。</span> </p>
+        <p><span>上記の「[!UICONTROL Override Currency]」にレートを入力します。これにより、[!UICONTROL Base Currency]を使用する際に、この担当業務の請求レートも更新されます。</span> </p>
         <p>[!DNL Workfront] の収益の計算方法について詳しくは、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と収益の概要</a>を参照してください。</p>
-        <p>ヒント：既に請求率が関連付けられている既存のジョブロールを更新する場合は、次の手順に従います。 [!DNL Workfront] は、システム内の換算レートに基づいて「上書き通貨」レートを計算します。 「通貨請求レートの上書き」を更新すると、ジョブ・ロールの請求レートも自動的に更新されます。 </p>
+        <p>ヒント：既に請求レートが関連付けられている既存の担当業務を更新する場合、[!DNL Workfront] は、システム内のコンバージョン率に基づいて「通貨を上書き」レートを計算します。「通貨を上書き」請求レートを更新すると、担当業務の請求レートも自動的に更新されます。 </p>
        </td>
      </tr> 
     </tbody> 

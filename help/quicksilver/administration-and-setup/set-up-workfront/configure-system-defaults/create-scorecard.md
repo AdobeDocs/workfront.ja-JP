@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 90%
+source-wordcount: '601'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 90%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -37,26 +39,28 @@ ht-degree: 90%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>現在： [!UICONTROL Business] 以降</p> 
+   <td> <p>現在：[!UICONTROL Business] 以上</p> 
    または
-   <p>新規： [!UICONTROL Prime] 以降</p>
+   <p>新規： [!UICONTROL Prime] 以上</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td><p>現在： [!UICONTROL プラン ]</p>
+   <td><p>現在：[!UICONTROL Plan]</p>
    または
-   <p>新規： [!UICONTROL Standard]</p>
+   <p>新規：[!UICONTROL Standard]</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
++++
+
 ## スコアカードを作成
 
 {{step-1-to-setup}}
 
-1. クリック **[!UICONTROL スコアカード]**&#x200B;を選択し、次に **[!UICONTROL 新しいスコアカード]** スコアカードビルダーを起動してスコアカードを作成するには
+1. 「**[!UICONTROL スコアカード]**」、「**[!UICONTROL 新しいスコアカード]**」の順にクリックし、スコアカードビルダーを起動してスコアカードを作成します。
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
@@ -94,9 +98,9 @@ ht-degree: 90%
    >
    >スコアカード内の質問を正しい順序でドラッグ＆ドロップすることで並べ替えることができます。
 
-1. クリック **[!UICONTROL 保存]** すべての情報の入力が完了したら、
+1. すべての情報を入力し終えたら「**[!UICONTROL 保存]**」をクリックします。
 
-   これにより、スコアカードが作成され、プロジェクトマネージャが自分のプロジェクトビジネスケースにスコアカードを添付できるようになります。
+   これによりスコアカードが作成され、プロジェクトマネージャーが自分のプロジェクトビジネスケースにスコアカードを添付できるようになります。
 
 ## プロジェクトへのスコアカードの適用
 

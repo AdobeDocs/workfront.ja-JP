@@ -6,9 +6,9 @@ description: 基本的なワークフローでは、複数のレビュー担当�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 99%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -32,13 +34,13 @@ ht-degree: 99%
    <td>
    <p>新規：任意</p>
     <p>現在のプラン：Pro 以上</p>
-   <p>従来のプラン：選択以上</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <p>従来のプラン：Select 以上</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
-    <p>現行：作業または計画</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
+    <p>現在：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">プルーフ権限プロファイル </td> 
@@ -52,6 +54,8 @@ ht-degree: 99%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## 基本ワークフローを使用した高度なプルーフの作成
 
@@ -135,7 +139,7 @@ ht-degree: 99%
       <td>✓</td> 
       <td> </td> 
       <td> </td> 
-      <td> </td> 
+      <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>承認者</strong> </p> </td> 
@@ -151,7 +155,7 @@ ht-degree: 99%
       <td>✓</td> 
       <td> </td> 
       <td> <p>✓</p> </td> 
-      <td> </td> 
+      <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>レビュアーと承認者</strong> </p> </td> 
@@ -167,7 +171,7 @@ ht-degree: 99%
       <td>✓</td> 
       <td> </td> 
       <td> <p>✓</p> </td> 
-      <td> </td> 
+      <td> </td> 
      </tr> 
      <tr> 
       <td> <p><strong>作者</strong> </p> </td> 

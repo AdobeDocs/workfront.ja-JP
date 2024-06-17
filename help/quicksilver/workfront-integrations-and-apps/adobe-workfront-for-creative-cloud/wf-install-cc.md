@@ -2,26 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: ' [!DNL Adobe Workfront for design and video] をインストールして開く'
-description: 次をインストールできます。 [!DNL Adobe Workfront for design and video] AdobeMarketplace から。
+description: ' [!DNL Adobe Workfront for design and video]  は、Adobe Marketplace からインストールできます。'
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 73%
+source-wordcount: '536'
+ht-degree: 97%
 
 ---
 
 # [!DNL Adobe Workfront for design and video] をインストールして開く
 
-次をインストールできます。 [!DNL Adobe Workfront for design and video] から [!DNL Adobe Marketplace]. このプラグインは、次の Creative Cloud アプリケーションをサポートしています。
+[!DNL Adobe Workfront for design and video] は、[!DNL Adobe Marketplace] からインストールできます。このプラグインは、次の Creative Cloud アプリケーションをサポートしています。
 
 {{cc-plugin-app-list}}
 
 [!DNL Adobe Workfront for design and video] は、次の言語をサポートしています。
 
-* 英語
+* Japanese
 * フランス語
 * ドイツ語
 * イタリア語
@@ -34,10 +34,12 @@ ht-degree: 73%
 
 >[!NOTE]
 >
-> [!DNL Photoshop] および [!DNL XD] については別のインストール手順があります。詳しくは、[ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) のインストールと[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
+>[!DNL Photoshop] および [!DNL XD] については別のインストール手順があります。詳しくは、[ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) のインストールと[インストール [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)を参照してください。
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -60,33 +62,35 @@ ht-degree: 73%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+
++++
 
 ## 前提条件
 
-* 次をインストールする必要があります： [!DNL Creative Cloud] アプリのWorkfrontプラグインをインストールする前に使用するアプリです。
+* Workfront プラグインをアプリにインストールする前に、使用する [!DNL Creative Cloud] アプリをインストールする必要があります。
 
-## インストール [!DNL Workfront for design and video] （組織の）
+## [!DNL Workfront for design and video] を組織にインストール
 
-次の場合、 [!DNL Adobe Admin Console] 管理者、 [!DNL Adobe Workfront for design and video] in [!DNL Creative Cloud] デプロイメントパッケージ。 詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
+[!DNL Adobe Admin Console] 管理者は、[!DNL Creative Cloud] 展開パッケージに [!DNL Adobe Workfront for design and video] を含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
 [こちらからビデオチュートリアルをご覧いただけます](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成することもできます。 詳しくは、 [[!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] ユーザー向けのパッケージを [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
-## インストール [!DNL Workfront for design and video] 個別に
+## [!DNL Workfront for design and video] を個別にインストール
 
-次をインストールできます。 [!DNL Adobe Workfront for design and video] 自分は [!DNL Adobe Exchange].
+[!DNL Adobe Exchange] から [!DNL Adobe Workfront for design and video] を自分でインストールできます。
 
 1. Adobe Exchange の [Adobe Workfront for Design and Video のインストールページ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share)に移動します。
 1. 表示されるダイアログで、「**[!DNL Adobe Creative Cloud] デスクトップアプリを開く**」をクリックします。
 1. [!DNL Adobe Creative Cloud] プラグインマネージャーを開いたら、「**[!UICONTROL インストール]**」をクリックします。
 1. ダイアログボックスの情報を読み、「**[!UICONTROL OK]**」をクリックします。
-1. 1 回 [!DNL Workfront for design and video] インストール済みで、 [!DNL Creative Cloud] 必要なアプリを選択し、 [!DNL Workfront] プラグインを使用してプラグインを取得できます。
+1. [!DNL Workfront for design and video] がインストールされたら、必要な [!DNL Creative Cloud] アプリを開き、プラグインパネルで [!DNL Workfront] プラグインを見つけます。
 
-1. を開く方法については、次の節を参照してください。 [!DNL Workfront for design and video].
+1. [!DNL Workfront for design and video] を開く方法については、次のセクションに進みます。
 
-## 開く [!DNL Adobe Workfront for design and video]
+## [!DNL Adobe Workfront for design and video] を開く
 
 1. 使用する Creative Cloud プラグインを開きます。
 
@@ -103,9 +107,9 @@ ht-degree: 73%
 
    >[!TIP]
    >
-   >表示されない場合 [!DNL Adobe Workfront for design and video] 拡張機能メニューから開いた後は、拡張機能アプリケーションの後ろにCreative Cloudされている可能性があります。 アプリを最小化してプラグインを見つけてください。
+   >拡張機能メニューから [!DNL Adobe Workfront for design and video] を開いた後に表示されない場合は、Creative Cloud アプリの背後にある可能性があります。アプリを最小化してプラグインを見つけてください。
 
-1. にログインする方法については、次の節を参照してください。 [!DNL Adobe Workfront for design and video].
+1. [!DNL Adobe Workfront for design and video] にログインする方法については、次のセクションに進みます。
 
 
 ## [!DNL Adobe Workfront for design and video] へのログイン

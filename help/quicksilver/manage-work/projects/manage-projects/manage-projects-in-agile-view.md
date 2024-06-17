@@ -6,10 +6,10 @@ description: 通常アジャイルプラクティスに伴う管理上の課題�
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 70%
+source-wordcount: '1423'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 70%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -34,12 +36,12 @@ ht-degree: 70%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>現在：レビュー以上</p> 
-   <p>新規：寄稿者以上</p> </td> 
+   <p>新規：Contributor 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベルの設定</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次のエリアへの編集アクセス権：</p> 
     <ul> 
      <li> <p>プロジェクト</p> </li> 
@@ -54,7 +56,9 @@ ht-degree: 70%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## アジャイルプロジェクトについて
 
@@ -79,25 +83,25 @@ ht-degree: 70%
 
 ### アジャイルビューをプロジェクトで使用する場合とイテレーションで使用する場合の違い {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [タスクとサブタスクは、プロジェクトのアジャイルビューと、イテレーションのストーリーボードで、様々な表示ルールに従います](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [バックログと繰り返しは、アジャイルビューでは使用されません](#backlogs-and-iterations-are-not-used)
+* [タスクとサブタスクは、プロジェクトのアジャイルビューと、イテレーションのストーリーボードで、異なる表示ルールに従う](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [バックログと繰り返しは、アジャイルビューでは使用されない](#backlogs-and-iterations-are-not-used)
 * [タスクの順序はアジャイルビューで維持され、並べ替えはできない](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [タスクは、プロジェクトリストの予定時間にのみ測定されます](#tasks-are-measured-only-in-planned-hours)
-* [アジャイルビューでは、アジャイルチームは使用されません](#the-agile-team-is-not-used)
+* [タスクは、プロジェクトリストの予定時間数でのみ測定される](#tasks-are-measured-only-in-planned-hours)
+* [アジャイルビューでは、アジャイルチームは使用されない](#the-agile-team-is-not-used)
 * [プロジェクトはプロジェクトのユーザーごとに異なるアジャイルビューで表示される](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### タスクとサブタスクは、プロジェクトのアジャイルビューと、イテレーションのストーリーボードで、様々な表示ルールに従います {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### タスクとサブタスクは、プロジェクトのアジャイルビューと、イテレーションのストーリーボードで、異なる表示ルールに従う {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* 親タスクもサブタスクも持たないタスクは、常にアジャイルビューのストーリーボード上に単一のストーリーカードとして表示されます。\
+* 親タスクもサブタスクもないタスクは、ストーリーボード上で常に 1 つのストーリーカードとして表示されます。\
   例えば、これらのタスクはプロジェクトリストビューでは次のように表示されます。
 
-  ![アジャイルプロジェクトリスト — 親タスクまたはサブタスクのないタスク](assets/agile-project-single-list-nwe.png)
+  ![アジャイルプロジェクトリスト - 親タスクやサブタスクのないタスク](assets/agile-project-single-list-nwe.png)
 
   これらのタスクは、プロジェクトアジャイルビューでは次のように表示されます。
 
   ![プロジェクトアジャイルビュー - 親タスクやサブタスクのないタスク](assets/agile-project-singlecard-nwe.png)
 
-* サブタスクを持つ親タスクは、常に **ストーリー** アジャイルビューのストーリーボードの列。 サブタスクは、親タスクのスイムレーンに表示されます。\
+* サブタスクを持つ親タスクは、常にアジャイルビューのストーリーボードの&#x200B;**ストーリー**&#x200B;列に表示されます。サブタスクは、親タスクのスイムレーンに表示されます。\
   例えば、これらのタスクはプロジェクトリストビューでは次のように表示されます。
 
   ![アジャイルプロジェクトリスト - 親タスクとサブタスクを持つタスク](assets/agile-project-parent-list-nwe.png)\
@@ -106,9 +110,9 @@ ht-degree: 70%
   ![アジャイルプロジェクトビュー - 親タスクとサブタスクを持つタスク](assets/agile-project-parent-nwe.png)
 
 * 第 2 レベルのサブタスク（サブタスクのサブタスク）は、直接の親タスクからぶら下がっている灰色のカードとして表示されます。
-* 第 3 レベルのサブタスク（サブタスクのサブタスクのサブタスク）は、アジャイルビューには表示されません。
+* 第 3 レベルのサブタスク（サブタスクのサブタスクのサブタスク）はストーリーボードには表示されません。
 
-#### バックログと繰り返しは、アジャイルビューでは使用されません {#backlogs-and-iterations-are-not-used}
+#### バックログとイテレーションは、アジャイルビューでは使用されません {#backlogs-and-iterations-are-not-used}
 
 アジャイルビューでプロジェクトを表示する場合、次のアジャイルコンポーネントは使用されません。
 
@@ -121,7 +125,7 @@ ht-degree: 70%
 
 プロジェクトをアジャイルビューで表示している場合、プロジェクトのタスクの順序を変更することはできません。タスクの順序を変更すると、依存関係がある可能性のある他のタスクに影響を与えるおそれがあるので、タスクの順序を変更するには標準ビューでプロジェクトを表示する必要があります。
 
-#### タスクは、プロジェクトリストの予定時間にのみ測定されます {#tasks-are-measured-only-in-planned-hours}
+#### タスクは、プロジェクトリストの予定時間数でのみ測定されます {#tasks-are-measured-only-in-planned-hours}
 
 プロジェクトのタスクは常に予定時間数で測定されます。
 
@@ -139,12 +143,12 @@ ht-degree: 70%
 
 アジャイルイテレーションでは、アジャイルストーリーボードで得られる情報（使用可能なステータス列など）はチームレベルで決定されます。
 
-アジャイルビューのカスタマイズ方法について詳しくは、 [アジャイルビューの作成またはカスタマイズ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Adobe Workfrontでビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+アジャイルビューのカスタマイズ方法については、[Adobe Workfront でビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)の[アジャイルビューを作成またはカスタマイズ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)を参照してください。
 
 ## アジャイルビューでのプロジェクトの表示
 
-1. タスクリストまたはイシューリストのアジャイルビューで表示するプロジェクトに移動します。
-1. 次をクリック： **ボード表示** アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png).
+1. アジャイルビューでタスクリストまたはイシューリストに表示するプロジェクトに移動します。
+1. **ボードビュー**&#x200B;アイコン ![ボードアイコン](assets/board-icon-for-agile-view.png) をクリックします。
 
    プロジェクトのボードビューがデフォルトで表示されます。
 
@@ -164,7 +168,7 @@ ht-degree: 70%
 
    そのカスタムアジャイルビューは、次に&#x200B;**アジャイル**&#x200B;アイコンをクリックしたときに使用されます。
 
-   新しいアジャイルビューの作成方法について詳しくは、 [アジャイルビューの作成とカスタマイズ](#create-and-customize-agile-views)、下。
+   新規アジャイルビューの作成方法について詳しくは、下記の[アジャイルビューを作成およびカスタマイズ](#create-and-customize-agile-views)を参照してください。
 
    プロジェクトはカスタムアジャイルビューに表示されます。
 
@@ -172,7 +176,7 @@ ht-degree: 70%
 
    タスクが、アジャイルストーリーボードに表示されないステータスにある場合、タスク自体がアジャイルストーリーボードに表示されません（ただし、これらのタスクの完了率は、親タスクの完了率とプロジェクト全体の完了率に影響します）。
 
-   アジャイルビューにステータスを追加するには、新しいアジャイルビューを作成するか、既存のアジャイルビューをカスタマイズします。詳しくは、 [アジャイルビューの作成とカスタマイズ](#create-and-customize-agile-views)、下。
+   アジャイルビューにステータスを追加するには、以下の[アジャイルビューを作成およびカスタマイズ](#create-and-customize-agile-views)で説明されているように、アジャイルビューを新規作成するか、既存のアジャイルビューをカスタマイズします。
 
 1. （オプション）リストビューに戻るには、**リスト**&#x200B;アイコンをクリックします。
 
@@ -182,9 +186,9 @@ ht-degree: 70%
 >
 >この節は、従来のアジャイルビューにのみ当てはまり、プロジェクトのボードビューには当てはまりません。
 
-Workfrontの標準ビューと同様に、既存のアジャイルビューをカスタマイズしたり、新しいアジャイルビューをゼロから作成したりできます。 標準ビューとは異なり、既存のアジャイルビューに基づいて新しいアジャイルビューを作成することはできません。
+Workfront の標準ビューの場合と同様に、既存のアジャイルビューをカスタマイズしたり、新規アジャイルビューを最初から作成したりできます。標準ビューとは異なり、既存のアジャイルビューに基づいて新規アジャイルビューを作成することはできません。
 
-アジャイルビューの作成とカスタマイズについて詳しくは、 [アジャイルビューの作成またはカスタマイズ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) 記事のセクション [Adobe Workfrontでビューを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+アジャイルビューの作成とカスタマイズについて詳しくは、[Adobe Workfront のビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)の記事の[アジャイルビューを作成またはカスタマイズ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view)の節を参照してください。
 
 ## 既存のアジャイルビューの共有
 
@@ -192,7 +196,7 @@ Workfrontの標準ビューと同様に、既存のアジャイルビューを�
 >
 >この節は、従来のアジャイルビューにのみ当てはまり、プロジェクトのボードビューには当てはまりません。
 
-自分で作成したアジャイルビューを共有したり、他のビューを共有するのと同じ方法で権限を持つことができます。また、フィルターやグループ化も可能です。
+作成したアジャイルビューを共有することや、他のビュー、フィルター、グループ化を共有するのと同じ方法で権限を持つことができます。
 
 詳しくは、[フィルター、ビュー、グループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)を参照してください。
 
@@ -202,6 +206,6 @@ Workfrontの標準ビューと同様に、既存のアジャイルビューを�
 >
 >この節は、従来のアジャイルビューにのみ当てはまり、プロジェクトのボードビューには当てはまりません。
 
-他のビューを削除するのと同じ方法で、アジャイルビューを削除したり、フィルターまたはグループ化を実行したりできます。
+アジャイルビューは、他のビューやフィルター、グループ化を削除するのと同じ方法で削除できます。
 
-詳しくは、 [フィルター、ビュー、およびグループを削除する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+詳しくは、[フィルター、ビューおよびグループ化の削除](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)を参照してください。

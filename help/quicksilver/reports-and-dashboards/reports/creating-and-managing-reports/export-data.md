@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: データの書き出し
-description: 様々なリスト、レポート、ダッシュボード、検索からAdobe Workfrontのデータを書き出すことができます。
+description: Adobe Workfront データは、様々なリスト、レポート、ダッシュボードおよび検索から書き出すことができます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '2153'
-ht-degree: 81%
+source-wordcount: '2164'
+ht-degree: 99%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 81%
 
 <!-- Audited: 12/2023 -->
 
-様々なリスト、レポート、ダッシュボード、検索からAdobe Workfrontのデータを書き出すことができます。
+Adobe Workfront データは、様々なリスト、レポート、ダッシュボードおよび検索から書き出すことができます。
 
 データを書き出す理由には次のようなものがあります。
 
 * データのハードコピーを Workfront の外部の誰かに提供する場合。
 * レポートの結果を添付ファイルとして外部ユーザーに送信する場合。
 * Workfront データの外部バックアップを作成する場合。
-* Workfront web アプリケーション内の 1 ページに表示できる結果は 2,000 件のみという制限があります。レポートの生成量が 2,000 を超える場合は、使用可能な任意の形式にレポートをエクスポートし、レポートのすべての結果を 1 つのリストに表示できます。
+* Workfront web アプリケーション内の 1 ページに表示できる結果は 2,000 件のみという制限があります。レポートで 2,000 件を超える結果が生成される場合、レポートを利用可能な形式に書き出し、レポート内のすべての結果を 1 つのリストで表示できます。
 
 Workfront インターフェイスからレポートを手動で書き出すことも、レポートの配信をスケジュールして、そのレポートを後で送信するようにもできます。配信レポートのスケジュール設定の詳細については、[レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)を参照してください。
 
@@ -44,6 +44,8 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -57,15 +59,15 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-    <p>新規：明るいかそれ以上</p>
+    <p>新規：ライト以上</p>
     <p>または</p>
     <p>現在：レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>レポート、ダッシュボード、およびレポートを書き出すためのカレンダーへのアクセス権を表示または高くします</p> <p>リストを書き出すためにリスト内で表示するオブジェクトへの表示以上のアクセス権</p> </td> 
+   <td> <p>レポートを書き出すためのレポート、ダッシュボードおよびカレンダーへの表示以上のアクセス権</p> <p>リストを書き出すためにリスト内で表示するオブジェクトへの表示以上のアクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -74,13 +76,15 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
 データを書き出す前に、レポートを作成する必要があります。
 
-レポートの作成について詳しくは、 [カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) または [レポートのコピーの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+レポートの作成について詳しくは、[カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)または[レポートのコピーの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 
 ## 書き出し形式と制限
 
@@ -105,12 +109,12 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Workfront でのレポートの表示方法、および手動で書き出し、配信されたレポート、または API を介してレポートを書き出す方法には、いくつかの制限があります。
 
-* **50,000 セル：** Excel ファイルのレポートエクスポートで許可されるセルの最大数。
+* **50,000 セル：** Excel ファイルのレポート書き出しで許可されるセルの最大数。
 * **50,000 行：**.pdf およびタブ区切りファイルのレポートの書き出しで許可されるデータの行数。
 
    * Excel .xls ファイルの場合、この制限は **65,000 行**&#x200B;です。
    * Excel .xlsx ファイルの場合、この制限は **100,000 行**&#x200B;です。
-   * これらの制限には、レポート内のグループ化の行だけでなく、列見出しも除外されます。例えば、1 つのレポートに 6 つのグループが含まれ、50,000 行のデータが含まれる場合、エクスポートされるファイルの行数は 50,000 行になります。
+   * これらの制限には、レポート内のグループ化の行だけでなく、列見出しも除外されます。例えば、レポート内に 6 つのグループがあり、データが 50,000 行ある場合、書き出されたファイルには 50,000 行が含まれます。
 
   >[!IMPORTANT]
   >
@@ -123,7 +127,7 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
 
   レポートに 50,000／65,000／100,000 行を超える行があり、すべてのデータを書き出す場合は、フィルターまたはプロンプトを使用して少量のデータを取得し、複数の書き出しを実行することをお勧めします。
 
-  フィルターの使用について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  フィルターの使用について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
   プロンプトの使用について詳しくは、[レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)を参照してください。
 
@@ -134,7 +138,7 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
    * API 統合を経由した書き出し。
    * キックスタートを経由して書き出されたデータ。
 
-     キックスタートを使用したデータのエクスポートについて詳しくは、 [「キックスタート」を使用してAdobe Workfrontからデータを書き出す](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     キックスタートを経由したデータの書き出しについて詳しくは、[キックスタートを介した Adobe Workfront からのデータの書き出し](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)を参照してください。
 
      >[!NOTE]
      >
@@ -179,7 +183,7 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
 
    または
 
-   次をクリック： **書き出し** アイコン ![書き出しアイコン](assets/export-icon-nwe.png)をクリックし、形式を選択します。
+   **書き出し**&#x200B;アイコン ![書き出しアイコン](assets/export-icon-nwe.png) をクリックし、形式を選択します。
 
    PDF の書き出しに使用できるオプションは、Workfront ユーザー設定のロケール設定によって異なります。
 
@@ -223,12 +227,12 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
 
 イシューまたはタスクのリストを書き出す場合、**ファイル名**&#x200B;は次のいずれかになります。
 
-* プロジェクト内のタスクリストとタスクリストをエクスポートする場合：
+* プロジェクト内のタスクとイシューのリストを書き出す場合：
 
    * *The_project_name_Exported_Tasks*（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
    * *The_project_name_Exported_Issues*（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
 
-* タスク（サブタスク）内のタスクとタスクリストをエクスポートする場合：
+* タスク（サブタスク）内のタスクおよびイシューリストを書き出す場合：
 
    * **The_project_name_the_task_name_Exported_Tasks**（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
    * **The_project_name_the_task_name_Exported_Issues**（*PDF、Excel、Excel（.xlsx）またはタブ区切り形式）*
@@ -247,16 +251,16 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
 
 ### タイトル {#titles}
 
-オブジェクトのリストを書き出す場合、タイトルを持つのは PDF 形式のファイルだけです。リストまたはレポートを Excel、Excel(.xlsx) またはタブ区切り形式で書き出す場合、ファイルにはタイトルが含まれません。
+オブジェクトのリストを書き出す場合、タイトルを持つのは PDF 形式のファイルだけです。リストまたはレポートを Excel、Excel（.xlsx）またはタブ区切り形式で書き出す場合、ファイルにはタイトルがありません。
 
 #### 書き出したリストのタイトル {#titles-for-exported-lists}
 
-プロジェクト内のタスクとタスクリストをPDFファイルに書き出す場合、書き出されるドキュメントのタイトルは次のいずれかになります。
+プロジェクト内のタスクとイシューのリストを PDF ファイルに書き出す場合、書き出したドキュメントのタイトルは次のいずれかになります。
 
 * *プロジェクト名 - 書き出したタスク*
 * *プロジェクト名 - 書き出したイシュー*
 
-タスク内のタスクとタスクリストをPDFファイルにエクスポートする場合、エクスポートされるドキュメントのタイルは次のいずれかになります。
+タスク内のタスクとイシューのリストを PDF ファイルに書き出す場合、書き出したドキュメントのタイルは次のいずれかになります。
 
 * *プロジェクト名 - タスク名 - 書き出したタスク*
 * *プロジェクト名 - タスク名 - 書き出したイシュー*
@@ -269,11 +273,11 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
 
 #### 書き出したレポートのタイトル {#titles-for-exported-reports}
 
-PDFファイルにエクスポートされるレポートには、タイトルが付きます。
+PDF ファイルに書き出したレポートには、タイトルが付きます。
 
-レポートを Excel、Excel(.xlsx)、タブ区切り形式のいずれかにエクスポートした場合、エクスポートしたレポートにはタイトルが付きません。 書き出したファイルのタイトルは、Workfront web アプリケーションに表示されるレポートの名前です。
+レポートを Excel、Exce（.xlsx）、タブ区切り形式で書き出す場合、書き出したレポートにはタイトルがありません。書き出したファイルのタイトルは、Workfront web アプリケーションに表示されるレポートの名前です。
 
-レポートに説明が含まれる場合は、エクスポートされたファイルに含まれます。
+レポートに説明がある場合は、説明は書き出したファイルに含まれます。
 
 ### タイムスタンプ {#timestamps}
 
@@ -296,7 +300,7 @@ PDFファイルにエクスポートされるレポートには、タイトル�
 
 レポートに特別な表示がない限り、レポートの送信または配信スケジュールを行うときには、常にレポートのデフォルトタブが表示されます。
 
-Web アプリケーションでレポートに特別な書式が設定されている場合、.pdf および Excel ファイルの場合のみ、「詳細」タブと「マトリックス」タブが配信されるときに、レポートが特別な書式で配信される必要があります。
+Web アプリケーションでレポートに特別な書式が設定されている場合、「詳細」タブと「マトリックス」タブが .pdf および Excel ファイル用にのみ配信される場合は、レポートに特別な書式を設定して配信する必要があります。
 
 >[!NOTE]
 >
@@ -323,12 +327,12 @@ Excel 形式に書き出す場合、書き出されるファイルには Workfro
 
 >[!IMPORTANT]
 >
->ブランディングは、まだAdobe Experience Cloudにオンボーディングされていない組織にのみ適用されます。
+>ブランディングは、Adobe Experience Cloud にまだオンボーディングされていない組織にのみ適用されます。
 >
->組織がAdobe Experience Cloudにオンボーディングされている場合、ブランディングは使用できません。
+>組織が Adobe Experience Cloud にオンボーディング済みの場合、ブランディングは利用できません。
 
 Workfront 管理者がグローバルナビゲーションバー用に Workfront インスタンスにカスタマイズしたブランディングを追加した場合は、書き出した .pdf ファイルにパーソナライズされたロゴも含まれます。
 
-その他の形式で書き出されたデータは、ロゴでパーソナライズできません。
+その他の形式で書き出したデータは、ロゴを使用してパーソナライズできません。
 
 Workfront インスタンスとグローバルナビゲーションバーのブランディングについて詳しくは、[Adobe Workfront インスタンスのブランディング](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)を参照してください。

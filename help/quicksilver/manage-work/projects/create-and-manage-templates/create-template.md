@@ -2,14 +2,14 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトテンプレートの作成
-description: テンプレートエリアからテンプレートを作成および削除できます。新しいテンプレートを作成する際に、すべてのタスクと将来のプロジェクト設定に関する情報を入力できます。 この情報は、その後、テンプレートから作成したすべてのプロジェクトに転送されます。
+description: テンプレートエリアからテンプレートを作成および削除できます。新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。この情報は、テンプレートから作成するプロジェクトに転送されます。
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 69%
+source-wordcount: '572'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 69%
 
 <!-- Audited: 1/2024 -->
 
-テンプレートエリアからテンプレートを作成および削除できます。新しいテンプレートを作成する際に、すべてのタスクと将来のプロジェクト設定に関する情報を入力できます。 この情報は、その後、テンプレートから作成したすべてのプロジェクトに転送されます。
+テンプレートエリアからテンプレートを作成および削除できます。新しいテンプレートを作成するときは、すべてのタスクと、将来のプロジェクト設定についての情報を入力できます。この情報は、テンプレートから作成するプロジェクトに転送されます。
 
 >[!NOTE]
 >
@@ -35,9 +35,11 @@ ht-degree: 69%
 
   既存のテンプレートのコピーについて詳しくは、[プロジェクトテンプレートをコピー](../../../manage-work/projects/create-and-manage-templates/copy-template.md)を参照してください。
 
-* ブループリントを読み込む。 ブループリントを読み込むには、Workfrontの管理者である必要があります。 詳しくは、[ブループリントの設定](../../../administration-and-setup/blueprints/configure-template-package.md)を参照してください。
+* ブループリントを読み込む。ブループリントを読み込むには、Workfront の管理者である必要があります。詳しくは、[ブループリントの設定](../../../administration-and-setup/blueprints/configure-template-package.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -50,7 +52,7 @@ ht-degree: 69%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準 </p><p>または </p><p>現在：プラン </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">ブループリントからテンプレートを読み込むには、システム管理者である必要があります</p> </td> 
   </tr> 
   <tr> 
@@ -64,11 +66,13 @@ ht-degree: 69%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## テンプレートの作成
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅で、「 **テンプレート**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックし、**テンプレート**&#x200B;をクリックします。
 
 1. 「**新規テンプレート**」をクリックします。
 
@@ -78,7 +82,7 @@ ht-degree: 69%
 
 1. テンプレートヘッダーで新しいテンプレートの名前を指定し、**Enter** キーを押します。
 1. 左側のパネルで「**テンプレートタスク**」セクションをクリックします。
-1. クリック **テンプレートタスクの追加を開始**.
+1. 「**テンプレートタスクの追加を開始**」をクリックします。
 
    または
 
@@ -107,4 +111,4 @@ ht-degree: 69%
 
 ## グループの関連性によって決定されるテンプレート設定
 
-プロジェクトテンプレートとグループの関連付け（またはグループの欠如）は、プロジェクト、タスク、問題の環境設定がテンプレート内の特定の設定を決定する方法に影響します。 詳しくは、[グループのプロジェクトテンプレートの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の[グループのプロジェクトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates)のセクションを参照してください。
+プロジェクトテンプレートとグループの関連付け（またはグループの欠如）は、プロジェクト、タスク、イシューの環境設定がテンプレート内の特定の設定をどのように決定するかに影響します。詳しくは、[グループのプロジェクトテンプレートの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)の記事の[グループのプロジェクトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#create-and-modify-a-groups-project-templates)のセクションを参照してください。

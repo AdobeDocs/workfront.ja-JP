@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 69c1b92526d3607b8ed21ce29c118de08c33a0ee
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 92%
+source-wordcount: '988'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,15 @@ ht-degree: 92%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-Adobe Workfront の管理者は、プロジェクト、タスクおよびイシューのカスタムステータスを作成できます。これらは、Workfrontシステム全体のユーザーに対して、または特定のグループやサブグループに対して使用できます。 ステータスについて詳しくは、[ステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)を参照してください。
+Adobe Workfront の管理者は、プロジェクト、タスクおよびイシューのカスタムステータスを作成できます。これらは、Workfront システム全体のユーザーに対して、または特定のグループやサブグループに対して可能です。ステータスについて詳しくは、[ステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)を参照してください。
 
 >[!NOTE]
 >
 >グループ管理者も、自分のグループだけで使用するために、独自のグループステータスを作成できます。詳しくは、[グループステータスの作成または編集](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -40,7 +42,7 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
      <p>新規：標準</p>
      <p>または</p>
@@ -54,7 +56,9 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## カスタムステータスの作成または編集
 
@@ -114,7 +118,7 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
      </tr> 
      <tr> 
       <td role="rowheader">ステータスを非表示にする</td> 
-      <td> <p>（プロジェクトおよびタスクのステータスのみ）</p> <p>ユーザーにステータスを表示しない場合は、このオプションを有効にします。このオプションを無効にした場合（デフォルト設定）、システム内のすべてのユーザーがステータスを使用できます。</p> <p>4 つの問題タイプ（バグレポート、変更管理、問題、リクエスト）すべてでこのオプションを無効にすると、問題ステータスを非表示にできます。</p> </td> 
+      <td> <p>（プロジェクトおよびタスクのステータスのみ）</p> <p>ユーザーにステータスを表示しない場合は、このオプションを有効にします。このオプションを無効にした場合（デフォルト設定）、システム内のすべてのユーザーがそのステータスを使用できます。</p> <p>4 つのイシュータイプ（バグレポート、変更依頼、イシュー、リクエスト）すべてに対してこのオプションを無効にすることで、イシューのステータスを非表示にできます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">すべてのグループについてロック</td> 

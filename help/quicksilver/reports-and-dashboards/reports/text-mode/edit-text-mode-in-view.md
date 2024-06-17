@@ -6,10 +6,10 @@ description: 「メモ：この記事に節を追加します： /Content/Report
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 93%
+source-wordcount: '477'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 93%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -36,7 +38,7 @@ ht-degree: 93%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準 </p>
    <p>現在：プラン </p> </td> 
   </tr> 
@@ -52,7 +54,9 @@ ht-degree: 93%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
-アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+アクセス要件について詳しくは、[Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -62,7 +66,7 @@ ht-degree: 93%
 
 * [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [カスタムビュー、フィルター、グループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## テキストモードでビューを編集
 
@@ -197,7 +201,7 @@ ht-degree: 93%
        </div>
 
    <div>
-      The <code>aggregator. </code>行には <code>valuefield </code>または <code>valueexpression</code>.
+      <code>aggregator. </code> 行は <code>valuefield </code> または <code>valueexpression</code> を含む場合があります。
        </div> </td> 
      </tr> 
     </tbody> 

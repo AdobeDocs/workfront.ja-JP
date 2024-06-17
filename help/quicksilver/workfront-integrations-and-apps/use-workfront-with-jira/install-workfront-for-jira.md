@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] for [!DNL Jira] を使用すると、お�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: b98a7fa48e60f1f2c2ea938b14b88e0c5a2ee418
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 91%
+source-wordcount: '511'
+ht-degree: 97%
 
 ---
 
@@ -23,9 +23,11 @@ ht-degree: 91%
 
 このアドオンは、[!DNL Jira] ソフトウェアの[!UICONTROL サーバー]バージョンと[!UICONTROL オンデマンド]（または[!UICONTROL クラウド]）バージョンで利用できます。このアドオンは、[!DNL Jira] ソフトウェアの [!DNL Data Center] バージョンでは利用できません。
 
-のリスト [!DNL Jira] のバージョン [!DNL Workfront for Jira] は現在、をサポートしています。 [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) アトラシア市場で
+[!DNL Workfront for Jira] で現在サポートされている [!DNL Jira] バージョンのリストについては、Atlassian Marketplace の [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -34,16 +36,16 @@ ht-degree: 91%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> 
    <p>新規：任意</p>
-   <p>現在： [!UICONTROL Pro] 以降</p> </td> 
+   <p>現在：[!UICONTROL Pro] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] ライセンスの概要</td> 
    <td> 
    <p>新規：標準</p>
-   <p>現在： [!UICONTROL プラン ]</p></td> 
+   <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] アクセス</td> 
@@ -56,7 +58,9 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Workfront] for [!DNL Jira] のインストール
 

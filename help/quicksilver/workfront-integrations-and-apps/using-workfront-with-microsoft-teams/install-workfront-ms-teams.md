@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams]  アプリを使用す
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 95%
+source-wordcount: '820'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+>Adobe Workfront と Microsoft Teams の統合は、現在、Microsoft Teams のクラシックエクスペリエンスでのみサポートされています。
 
 
 [!DNL Adobe Workfront for Microsoft Teams] アプリを使用すると、[!DNL Microsoft Teams] チャットチャネルから移動しなくても [!DNL Workfront] で基本的な操作を実行できます。
@@ -31,6 +31,8 @@ ht-degree: 95%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -38,18 +40,20 @@ ht-degree: 95%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td><p>新規：標準</p>
-    <p>現在： [!UICONTROL 作業 ]、[!UICONTROL プラン ]</p> </td> 
+    <p>現在：[!UICONTROL Work]、[!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報の詳細については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 

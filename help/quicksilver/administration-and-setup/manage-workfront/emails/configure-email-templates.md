@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 70%
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,8 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -37,31 +39,33 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td><p>現在：プラン</p>
    または
    <p>新規：標準</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベルの設定</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>システム管理者</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-## E メールテンプレートの作成 {#create-an-email-template}
++++
+
+## メールテンプレートの作成 {#create-an-email-template}
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、 **電子メール** > **通知**> **メールテンプレート**.
+1. 左側のパネルで、**メール**／**通知**／**メールテンプレート**&#x200B;をクリックします。
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. **新規メールテンプレート**&#x200B;をクリックします。
 
-1. Adobe Analytics の **新規メールテンプレート** ボックスで、次の情報を指定します。
+1. 「**新規メールテンプレート**」ボックスで、次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -69,31 +73,31 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
     <tbody> 
      <tr> 
       <td role="rowheader">名前</td> 
-      <td>電子メールテンプレートのタイトルを追加します。 必須フィールドです。</td> 
+      <td>メールテンプレートのタイトルを追加します。必須フィールドです。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">オブジェクトタイプ</td> 
-      <td>テンプレートを関連付けるオブジェクトタイプを指定します。 次のオブジェクトから選択します。
+      <td>テンプレートを関連付けるオブジェクトタイプを指定します。次のオブジェクトから選択します。
       <ul>
       <li>プロジェクト</li>
       <li>タスク</li>
       <li>イシュー</li>
       <li>タイムシート</li> </ul>
 
-   これは必須フィールドで、デフォルトでは「プロジェクト」に設定されています。</td>
+   これは必須フィールドで、デフォルトではプロジェクトに設定されています。</td>
    </tr>
      <tr> 
       <td role="rowheader">説明</td> 
-      <td>電子メールテンプレート、目的および対象オーディエンスに関する詳細情報を追加します。</td> 
+      <td>メールテンプレート、目的、対象オーディエンスに関する詳細情報を追加します。</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">件名 </td> 
-      <td>テンプレートで生成された電子メールメッセージが送信される際に、電子メールの件名行に表示するテキストを追加します。 必須フィールドです。</td> 
+      <td>テンプレートで生成したメールメッセージを送信する際に、メールの件名に表示するテキストを追加します。必須フィールドです。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">本文 </td> 
-      <td> <p>E メールメッセージのコンテンツ用のテキストを追加します。</p> <p>E メールコンテンツにHTMLの書式を使用できます。詳しくは、 <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">E メールHTMLにテンプレートの書式を追加する</a> 」を参照してください。</p> </td> 
+      <td> <p>メールメッセージのコンテンツのテキストを追加します。</p> <p>この記事の<a href="#add-html-formatting-to-an-email-template" class="MCXref xref">メールテンプレートに HTML 書式を追加</a>の節で説明されているように、メールコンテンツに HTML 書式を使用できます。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -139,15 +143,15 @@ Workfront フィールドへのリンクは、`$$` ワイルドカードを使�
 
 オブジェクトの「ワイルドカード」値を取得するには、次のいずれかの操作を行います。
 
-* API エクスプローラーを参照し、任意のオブジェクトの「フィールド」タブからオブジェクトの名前を選択します。 API エクスプローラーについて詳しくは、 [API エクスプローラ](/help/quicksilver/wf-api/general/api-explorer.md).
+* API エクスプローラーを参照し、任意のオブジェクトの「フィールド」タブからオブジェクトの名前を選択します。API エクスプローラーについて詳しくは、[API エクスプローラー](/help/quicksilver/wf-api/general/api-explorer.md)を参照してください。
 
-* 以下を使用します。 `valuefield` 値は、レポートのテキストモード表示内にあります。 テキストモードの値について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
+* レポートのテキストモードビュー内にある `valuefield` 値を使用します。テキストモードの値について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
-The `heading` の値には、電子メール本文に表示するオブジェクトの名前を指定できます。
+`heading` 値は、メール本文に表示するオブジェクトの名前にすることができます。
 
 ### HTML を使用したカスタムフィールドへのリンク {#link-to-custom-fields-with-html}
 
-ユーザーおよびカスタムフィールドへのリンクを含めるには、 `$$` ワイルドカードを使用して、e メールジェネレーターに対し、オブジェクトに関連付けられたデータベースから値を探すように指示します。 データベース属性参照のどちら側にも存在する必要があります。
+ワイルドカード `$$` を使用して、オブジェクトに関連付けられたデータベースから値を探すようにメールジェネレーターに指示することで、ユーザーおよびカスタムフィールドへのリンクを含めることができます。データベース属性参照のどちら側にも存在する必要があります。
 
 例えば、次のテキストを HTML として追加すると、割り当てられたユーザーのファーストネームがタスクに関連付けられたリマインダー通知に追加されます。
 

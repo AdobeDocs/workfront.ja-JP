@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 98%
+source-wordcount: '1533'
+ht-degree: 99%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 98%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -48,7 +50,7 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プロジェクトまたはタスクにイシューを追加するレビュー権限またはそれ以上の権限</p> <p>リクエストキューを使用し、リクエストとしてイシューを追加するリクエスト以上の権限。</p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +64,9 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
@@ -154,9 +158,9 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 1. （オプション）タスクのイシューをログに記録する場合は、**タスク**&#x200B;エリアに移動し、タスクの名前をクリックします。
 1. 「**イシュー**」セクションをクリックします。
 
-   プロジェクトの問題のリストが表示されます
+   プロジェクトのイシューのリストが表示されます。
 
-1. クリック **新しい問題** をクリックします。
+1. イシューのリストの上部にある「**新しいイシュー**」をクリックします。
 「新規イシュー」ボックスが表示されます。
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,7 +223,7 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 1. イシューを作成するプロジェクトに移動します。
 1. （オプション）タスクのイシューをログに記録する場合は、「**タスク**」セクションに移動し、タスクの名前をクリックします。
 1. 左側のパネルで、「**イシュー**」セクションをクリックします。
-1. クリック **問題をさらに追加** をクリックします。
+1. イシューのリストの下部にある「**さらにイシューを追加**」をクリックします。
 
    「問題」セクションのイシューリストに新しい行が作成されます。
 

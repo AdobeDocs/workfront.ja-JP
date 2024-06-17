@@ -2,14 +2,14 @@
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: ダッシュボードの作成
-description: ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。 レポート、カレンダー、外部ページをダッシュボードに追加して、他のユーザーと共有し、最適なコラボレーションを実現できます。
+description: ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。レポート、カレンダー、外部ページをダッシュボードに追加して他の人たちと共有し、最適なコラボレーションを実現できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 53%
+source-wordcount: '486'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +17,13 @@ ht-degree: 53%
 
 <!--Audited: 01/2024-->
 
-ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。 レポート、カレンダー、外部ページをダッシュボードに追加して、他のユーザーと共有し、最適なコラボレーションを実現できます。
+ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。レポート、カレンダー、外部ページをダッシュボードに追加して他の人たちと共有し、最適なコラボレーションを実現できます。
 
 ダッシュボードについて詳しくは、[ダッシュボードの基本を学ぶ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -36,7 +38,7 @@ ht-degree: 53%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront ライセンス*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront プラン*</strong></p> </td> 
    <td> <p>現在：プラン </p>
    または
    <p>新規：標準 </p> </td> 
@@ -47,12 +49,14 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td> <p><strong>オブジェクト権限</strong> </p> </td> 
-   <td> <p>作成したダッシュボードに対する管理権限が取得されます</p> </td> 
+   <td> <p>作成したダッシュボードに対する管理権限を取得します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -62,7 +66,7 @@ ht-degree: 53%
 
 * **カレンダー**：カレンダーの作成については、[カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)を参照してください。
 
-既存の外部ページをダッシュボードに追加することも、新しいダッシュボードから外部ページを作成することもできます。 外部ページの作成について詳しくは、 [外部 Web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+既存の外部ページをダッシュボードに追加することも、新しいダッシュボードからページを作成することもできます。外部ページの作成について詳しくは、[外部 web ページをダッシュボードに埋め込む](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)を参照してください。
 
 ## ダッシュボードの作成
 
@@ -88,7 +92,7 @@ ht-degree: 53%
     </tbody>
    </table>
 
-1. レイアウトを選択するには、レイアウトの上部にある、レイアウトの横にあるラジオボタンをクリックします。 **レイアウト/レポートを追加/カレンダーを追加を選択します。** 」セクションに入力します。 これは、レポート、カレンダーまたは外部ページがダッシュボードに表示されるレイアウトです。
+1. レイアウトを選択するには、**レイアウトを選択／レポートを追加／カレンダーを追加**&#x200B;セクションの上部にある、対応するラジオボタンをクリックします。これは、レポート、カレンダー、外部ページがダッシュボードに表示されるレイアウトです。
 
    1 列レイアウトがデフォルトになります。
 
@@ -98,7 +102,7 @@ ht-degree: 53%
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. でのレポート、カレンダーまたは外部ページの検索 **名前またはタイプで検索…** フィールドをドラッグし、リストに表示されたら、レイアウトウィンドウにドラッグします。
+1. 既存のレポート、カレンダー、外部ページを追加するには、「**名前またはタイプで検索...**」フィールドで検索したあと、リストに表示されたら、レイアウトパネルにドラッグします。
 
    >[!NOTE]
    >
@@ -106,10 +110,10 @@ ht-degree: 53%
 
    ![レポートの検索](assets/qs-new-dashboard-ui-0722.png)
 
-1. （オプション）「 **外部ページを追加** をクリックして、新しい外部ページをダッシュボードに追加します。
+1. （オプション）「**外部ページを追加**」をクリックして、ダッシュボードに外部ページを追加します。
 
    外部ページの作成とダッシュボードへの埋め込みについて詳しくは、[ダッシュボードへの外部 web ページの埋め込み](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)を参照してください。
 
 1. 「**保存して閉じる**」をクリックします。
 
-   ダッシュボードの右上隅にタイムスタンプが表示されます。 このタイムスタンプには、ダッシュボードが最後に更新された日付、時刻およびタイムゾーンが含まれています。
+   ダッシュボードの右上隅にタイムスタンプが表示されます。このタイムスタンプには、ダッシュボードが最後に更新された日付、時刻およびタイムゾーンが含まれています。

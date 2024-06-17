@@ -6,10 +6,10 @@ description: テキストモードでの条件付き書式の使用
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 86%
+source-wordcount: '1699'
+ht-degree: 99%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 86%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -39,7 +41,7 @@ ht-degree: 86%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準 </p> 
    <p>または</p>
    <p>現在：プラン</p> 
@@ -56,7 +58,9 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 
 ## テキストモードでの条件付き書式
@@ -114,7 +118,7 @@ ht-degree: 86%
 
 #### 日付の書式設定 {#format-dates}
 
-日付は様々な形式で表示するように設定できます。
+日付は、様々な形式で表示されるように設定できます。
 
 詳しくは、[テキストモードのレポートでの日付の書式設定](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)を参照してください。
 
@@ -274,11 +278,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->The `styledef.case.0.comparison.icon` 行は、アイコンを操作しない限り常に false です。
+>`styledef.case.0.comparison.icon` の行は、アイコンを操作しない限り常に false です。
 >
->The `styledef.case.0.comparison.truetext` 行は、上書きするテキストを処理するまで常に空白のままです。
+>`styledef.case.0.comparison.truetext` の行は、上書きするテキストを処理するまで常に空白のままです。
 >
->The `styledef.case.0.comparison.righttext` 行は、修飾子が空白でない場合は空白です。
+>`styledef.case.0.comparison.righttext` の行は、修飾子が空白でない場合は空白です。
 
 例えば、プロジェクトレポートに会社名を緑色のテキストで表示する場合、次のコードを使用できます。
 
@@ -312,7 +316,7 @@ styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
 ```
 
-次の表を使用して、修正する必要のある行と、列の形式スタイルを定義するために指定する必要のある値を特定します。
+次の表を使用して、変更する必要のある行と、列の形式スタイルを定義するために指定する必要のある値を特定します。
 
 | **テキストの色** | **行：textcolor=** |
 |---|---|
@@ -404,7 +408,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->`case.0.` で始まるステートメントでは、テキストの使用を識別するために大文字と小文字の比較を使用します。次で始まる行： `styledef.case.0.` は、 `truetext` 式。 `truetext` を空白のままにするのではなく、必ず値を設定してください。
+>`case.0.` で始まるステートメントでは、テキストの使用を識別するために大文字と小文字の比較を使用します。`styledef.case.0.` で始まる行は初期の条件付き形式ステートメントであり、`truetext` 式を通じてテキストの使用を識別します。`truetext` を空白のままにするのではなく、必ず値を設定してください。
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -500,7 +504,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 ### `valueexpression` の条件付き書式設定 {#conditionally-format-a-valueexpression}
 
-計算された値を列に表示するには、列のコードの `valuefield` 行を `valueexpression` に置き換えます。計算値を使用すると、同じオブジェクト上の 2 つの既存のフィールド間の計算に基づいて、オブジェクトの新しい値を表示できます。
+計算された値を列に表示するには、列のコードの `valuefield` 行を `valueexpression` に置き換えます。計算値を使用すると、同じオブジェクトの 2 つの既存フィールド間の計算に基づいて、オブジェクトの新しい値を表示できます。
 
 `valueexpression line` 行を書式設定する方法の詳細については、[テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)を参照してください。
 
@@ -528,12 +532,12 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
   valueformat=compound
 ```
 
-ビューのグループ化ですべての行の値を集計する場合、次のコードを追加して集計値を追加できます。
+ビューのグループ化ですべての行の値を集計する場合は、次のコードを追加して集計値を追加できます。
 
-`aggregator.valuefield=workRequired` ( `aggregator.valuefield` 行は、 `valuefield` （列を説明する）
+`aggregator.valuefield=workRequired`（`aggregator.valuefield` の行は、列を記述する `valuefield` と同じにする必要があります）
 
-`aggregator.valueformat=compound` ( `aggregator.valueformat` 行は、 `valueformat` （列を説明する）
+`aggregator.valueformat=compound`（`aggregator.valueformat` 行は、列を記述する `valueformat` と同じ値にする必要があります）
 
-`aggregator.function=SUM` （これは、列を集計する方法を示す必須行です。この場合、個々の計画時間をグループ化行の 1 つの数値に追加します）
+`aggregator.function=SUM`（これは、列を集計する方法を示す必須の行です。この例では、個々の予定時間数をグループ化行の 1 つの数値に加算します）
 
-`aggregator.displayformat=minutesAsHoursString` ( 時間はWorkfrontに分単位で格納されるので、 `displayformat` 分単位で格納される時間 )
+`aggregator.displayformat=minutesAsHoursString`（Workfront では時間数は分単位で格納されるので、分単位で格納される場合は時間を `displayformat` と表示します）

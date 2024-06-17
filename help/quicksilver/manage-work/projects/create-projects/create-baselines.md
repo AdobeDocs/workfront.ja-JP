@@ -6,10 +6,10 @@ description: ベースラインとは、プロジェクトの初期計画に含�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 90%
+source-wordcount: '770'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 90%
 ベースラインを使用して、現在の計画の情報を、元の計画やその他の任意の時点の情報の断片と比較し、問題のタスク、範囲クリープ、その他の経時的なトレンドを特定できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <!--
 drafted for P&P:
@@ -66,7 +68,7 @@ drafted for P&P:
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
     <td><p>新規：標準</p>
         <p>または</p>
         <p>現在：プラン </p> </td> 
@@ -82,7 +84,9 @@ drafted for P&P:
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ベースラインを使用する際の考慮事項
 
@@ -118,7 +122,7 @@ drafted for P&P:
 
    **さらに表示**&#x200B;をクリックし、次に&#x200B;**ベースライン**&#x200B;をクリックします。
 
-   ![プロジェクトのベースラインセクション](assets/baselines-section-on-project-with-header.png)
+   ![プロジェクトの「ベースライン」セクション](assets/baselines-section-on-project-with-header.png)
 
 1. **新しいベースライン**&#x200B;をクリックします。
 1. ベースラインの名前を指定します。
@@ -139,7 +143,7 @@ drafted for P&P:
      >
      >同じビューまたはレポートで、2 つのベースラインの情報を同時に表示することはできません。同じレポート内で表示できるのは、特定のベースラインとデフォルトのベースラインの情報のみです。プロジェクトの期間中、どのベースラインをデフォルトのベースラインにするかをいつでも変更できます。
 
-1. （オプション） **表示** ボタンをクリックし、新しいビューを作成するか、現在のビューを編集して、ビューにフィールドを追加し、ベースライン間で追加情報を比較します。 詳しくは、[Adobe Workfront でのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)を参照してください。
+1. （オプション）「**表示**」ボタンをクリックして、新規ビューを作成するか、現在のビューを編集してビューにフィールドを追加して、ベースライン間で追加情報を比較します。詳しくは、[Adobe Workfront でのビューの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md)を参照してください。
 
 ## ベースラインのレポートやベースラインのタスクレポートを作成
 
@@ -151,6 +155,6 @@ drafted for P&P:
 
 レポートの作成について詳しくは、[カスタムレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-読みやすくするために、プロジェクト名のグループをベースラインレポートまたはベースラインタスクレポートに追加することをお勧めします。
+読みやすくするために、プロジェクト名のグループ化をベースラインまたはベースラインタスクのレポートに追加することをお勧めします。
 
 グループ化の作成について詳しくは、[Adobe Workfront でグループ化を作成](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)を参照してください。

@@ -6,10 +6,10 @@ description: マイルストーンビューは、プロジェクトのリスト�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 98%
+source-wordcount: '1302'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 98%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -38,10 +40,10 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
    <p>新規：標準</p>
-   <p>現在：作業以上 </p> </td> 
+   <p>現在：ワーク以上 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
@@ -54,7 +56,9 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## マイルストーンビューへの切り替え {#switch-to-the-milestone-view}
 

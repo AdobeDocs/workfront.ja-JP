@@ -2,14 +2,14 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: テンプレートを使用したプロジェクトの作成
-description: テンプレートをフレームワークとして使用し、Adobe Workfrontでプロジェクトを作成できます。 頻繁に繰り返されるプロジェクトがある場合、新しいプロジェクトのテンプレートを使用すると、同じプロジェクトを繰り返し作成する必要がなくなります。
+description: テンプレートをフレームワークとして使用して、Adobe Workfront でプロジェクトを作成できます。頻繁に繰り返されるプロジェクトがある場合、新しいプロジェクトでテンプレートを使用すると、同じプロジェクトを繰り返し作成する必要がなくなります。
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 67%
+source-wordcount: '1135'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 67%
 
 <!-- Audited: 01/2024 -->
 
-テンプレートをフレームワークとして使用し、Adobe Workfrontでプロジェクトを作成できます。 頻繁に繰り返されるプロジェクトがある場合、新しいプロジェクトの一般タイムラインでテンプレートを使用すると、同じプロジェクトを繰り返し作成する必要がなくなります。
+テンプレートをフレームワークとして使用して、Adobe Workfront でプロジェクトを作成できます。頻繁に繰り返されるプロジェクトがある場合、新しいプロジェクトの一般タイムラインでテンプレートを使用すると、同じプロジェクトを繰り返し作成する必要がなくなります。
 
 テンプレートを使用すると、繰り返し可能なプロセス、情報、およびプロジェクトに関連する設定を取り込むことができます。テンプレートに関連付けられた情報は、プロジェクトに転送されます。これには、タスク、割り当て、期間、ドキュメント、財務の詳細、リスク、およびカスタムフォームが含まれます。
 
@@ -25,11 +25,11 @@ ht-degree: 67%
 >
 >Workfront では、新しいプロジェクトのグループとステータスが次のように定義されます。
 >
->* テンプレートから作成される新しいプロジェクトのデフォルトのステータスは、主な「プロジェクトの環境設定」領域でWorkfront管理者が定義したステータス、またはグループの「プロジェクトの環境設定」領域でグループ管理者 ( またはWorkfront管理者 ) が定義したステータスに対応します。 プロジェクトの環境設定について詳しくは、[システム全体でのプロジェクトの環境設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)または[グループのプロジェクトの環境設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)を参照してください。
+>* テンプレートから作成された新規プロジェクトのデフォルトステータスは、メインのプロジェクト環境設定エリアで Workfront 管理者が定義したステータス、またはグループのプロジェクト環境設定エリアでグループ管理者（または Workfront 管理者）が定義したステータスに対応します。プロジェクトの環境設定について詳しくは、[システム全体でのプロジェクトの環境設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)または[グループのプロジェクトの環境設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)を参照してください。
 >
 >* 新しいプロジェクトのグループは、テンプレートのグループです。テンプレートがグループに関連付けられていない場合、プロジェクトのグループは、プロジェクトを作成したユーザーのホームグループになります。
 >
->* 新しいプロジェクトで使用できるステータスは、プロジェクトのグループのステータス（テンプレートのグループ、またはプロジェクトを作成するユーザーのホームグループ）に一致します。
+>* 新規プロジェクトで使用できるステータスは、プロジェクトのグループ（テンプレートのグループ、またはプロジェクトを作成するユーザーのホームグループ）のステータスと一致します。
 
 テンプレートからプロジェクトを作成する場合は、次のオプションがあります。
 
@@ -42,6 +42,8 @@ ht-degree: 67%
 * 「グループ」エリアでのテンプレートからのプロジェクトの作成
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <!--drafted for P&P:
 
@@ -85,7 +87,7 @@ ht-degree: 67%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfrontライセンス</td> 
+   <td role="rowheader">Workfront ライセンス</td> 
    <td> <p>新規：標準</p>
         <p>または</p>
         <p>現在：プラン </p> </td> 
@@ -101,19 +103,21 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 「プロジェクト」エリアでのテンプレートからのプロジェクトの作成
 
-プロジェクトは、メインメニューの「プロジェクト」領域、またはポートフォリオまたはプログラムの「プロジェクト」領域から作成できます。
+プロジェクトは、「メインメニュー」の「プロジェクト」エリアや、ポートフォリオまたはプログラムの「プロジェクト」エリアから作成できます。
 
 >[!NOTE]
 >
->システム管理者またはグループ管理者が、レイアウトテンプレートを使用してインターフェイスを変更する場合があります。 この場合、次の手順で示すセクションおよび領域の名前の一部は、Workfrontのインスタンスで異なる場合があります。
+>システム管理者またはグループ管理者は、レイアウトテンプレートを使用してインターフェイスを変更する場合があります。この場合、次の手順で参照されるセクションとエリアの名前の一部が、Workfront のインスタンスでは異なる可能性があります。
 
 1. 次のいずれかの操作を行います。
 
-   * 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅にある、または（使用可能な場合）、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックします。 クリック **プロジェクト**&#x200B;を展開し、を展開します。 **新規プロジェクト**.
+   * Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)（利用可能な場合）、または左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックします。「**プロジェクト**」をクリックして、**新規プロジェクト**&#x200B;を展開します。
    * ポートフォリオに移動し、「**新規プロジェクト**」を展開します。
 
      >[!TIP]
@@ -136,9 +140,9 @@ ht-degree: 67%
    <p>(this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
    -->
 
-   ![新しいプロジェクトオプション](assets/new-project-dropdown.png)
+   ![新規プロジェクトのオプション](assets/new-project-dropdown.png)
 
-1. テンプレートの名前をクリックします。 **お気に入りのテンプレート** リスト。
+1. **お気に入りのテンプレート**&#x200B;リストでテンプレート名をクリックします。
 
    ![お気に入りのテンプレートを選択](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
@@ -154,11 +158,11 @@ ht-degree: 67%
 
       * テンプレートの期間
       * テンプレート所有者
-      * 上位 3 つのタスクの名前を含む最上位タスクの数
+      * 上位 3 つのタスク名を含む上位レベルのタスクの数
       * テンプレート内のすべてのタスクの数
       * テンプレートのカスタムフォームの名前
 
-   1. （オプション）左側のウィンドウでテンプレート名の上にマウスポインターを置き、 **お気に入力** **アイコン** ![](assets/favorites-icon-small.png) 将来の使用のお気に入りとしてマークする
+   1. （オプション）左画面でテンプレート名の名前にポインタを合わせて、**お気に入り****アイコン** ![](assets/favorites-icon-small.png) をクリックして、今後使用できるようにお気に入りとしてマークします。
 
       または
 
@@ -177,7 +181,7 @@ ht-degree: 67%
       >プロジェクトのリストにマイルストーンビューを適用している場合は、「**テンプレートから新規作成**」セクションでテンプレートの名前をクリックします。
       >
       >
-      >![テンプレートからプロジェクトを作成するためのマイルストーン表示](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![テンプレートからプロジェクトを作成する際のマイルストーン表示](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
 
    **新規プロジェクト**&#x200B;ボックスが開きます。
@@ -196,11 +200,11 @@ ht-degree: 67%
 {{step1-to-templates}}
 
 1. 使用するテンプレートの名前をクリックします。
-1. 次をクリック： **その他** メニュー ![](assets/more-icon.png)を選択し、次に **プロジェクトを作成**.
+1. **その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックして、「**プロジェクトを作成**」をクリックします。
 
    ![テンプレートからプロジェクトを作成](assets/project-sharing-on-template.png)
 
-    **新規プロジェクト** ボックスが開きます。
+   **新規プロジェクト** ボックスが開きます。
 
 1. プロジェクトの名前を入力し、各セクションを確認して必要な変更を行います。
 

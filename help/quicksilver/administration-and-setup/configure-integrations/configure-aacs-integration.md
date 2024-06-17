@@ -2,14 +2,14 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: '[!UICONTROL Experience Manager Assets as a Cloud Service] 統合の設定'
-description: 作業内容を [!DNL Experience Manager Assets].
+description: 自分の作業と  [!DNL Experience Manager Assets] のコンテンツを結び付けることができます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 67%
+source-wordcount: '1678'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->この機能は、 [!DNL Adobe Admin Console].
+>この機能は、[!DNL Adobe Admin Console] に登録されている組織のみが利用できます。
 
 [!DNL Experience Manager Assets] のコンテンツと作業内容を連携できます。
 
@@ -33,9 +33,11 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->複数の [!DNL Experience Manager Assets] リポジトリを 1 つに [!UICONTROL Workfront] 環境、または複数 [!DNL Workfront] 環境を 1 つに [!DNL Experience Manager Assets] リポジトリを作成できます。 設定する統合ごとに、この記事の設定手順に従ってください。
+>複数の [!DNL Experience Manager Assets] リポジトリを 1 つの [!UICONTROL Workfront] 環境に接続するか、または複数の [!DNL Workfront] 環境を組織 ID をまたいで 1 つの [!DNL Experience Manager Assets] リポジトリに接続できます。設定する統合ごとに、この記事の設定手順に従ってください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -49,8 +51,8 @@ ht-degree: 67%
   <tr>
    <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
    </td>
-   <td>現在： [!UICONTROL プラン ] <br>
-   新規： [!UICONTROL Standard]
+   <td>現在：[!UICONTROL Plan] <br>
+ 新規：[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -73,14 +75,16 @@ ht-degree: 67%
   </tr>
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 
 ## 前提条件
 
 開始する前に、
 
-* 必要な機能は次のとおりです。 [!DNL Workfront] および [!DNL Adobe Experience Manager Assets] を [!DNL Adobe Admin Console]. 詳しくは、 [プラットフォームベースの管理上の違い ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* [!DNL Adobe Admin Console] の組織 ID に [!DNL Workfront] と [!DNL Adobe Experience Manager Assets] が関連付けられている必要があります。詳しくは、[プラットフォームベースの管理の違い（[!DNL Adobe Workfront]／[!DNL Adobe Business Platform]）](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
 
 ## 統合情報の設定
@@ -198,7 +202,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 1. [!DNL Experience Manager Assets] フィールドで、事前入力されたカテゴリを検索するか、検索フィールドに 2 文字以上入力して、追加のカテゴリにアクセスします。
 1. 必要に応じて、手順 2 および 3 を繰り返します。
    ![メタデータフィールド](assets/metadata-no-asset-toggle.png)
-1. クリック [!UICONTROL 保存] または、 [ワークフローの設定](#set-up-workflows-optional) 」の節を参照してください。
+1. 「[!UICONTROL 保存]」をクリックするか、この記事の[ワークフローの設定](#set-up-workflows-optional)の節に進みます。
 
 <!--
 
@@ -242,54 +246,54 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ワークフローとは、Workfront を Adobe Experience Manager as a Cloud Service に接続する一連のアクションです。Workfront 管理者は、Workfront でワークフローを設定し、それらをプロジェクトテンプレートに割り当てることができます。ワークフローが割り当てられているプロジェクトテンプレートを使用してプロジェクトを作成すると、ワークフローで定義されたアクションがトリガーされます。
 
-ワークフローは、Adobe Experience Manager全体に対して有効になり、設定されます。 これらのワークフローは、その後、プロジェクトテンプレートに適用でき、テンプレートまたはプロジェクトレベルで調整またはカスタマイズできます。
+ワークフローが Adobe Experience Manager 全体に対して有効になり、設定されます。これらのワークフローは、プロジェクトテンプレートに適用し、テンプレートレベルまたはプロジェクトレベルで調整またはカスタマイズできます。
 
-Adobe Experience Managerの統合では、次のワークフローを使用できます。
+Adobe Experience Manager 統合では、次のワークフローを使用できます。
 
-* [Adobe Experience Managerにリンクされたフォルダーの作成](#create-adobe-experience-manager-linked-folders)
-* [Adobe Experience Manager Assetsに送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Adobe Experience Manager にリンクされたフォルダーの作成](#create-adobe-experience-manager-linked-folders)
+* [Adobe Experience Manager Assets に送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
-### Adobe Experience Managerにリンクされたフォルダーの作成
+### Adobe Experience Manager にリンクされたフォルダーの作成
 
 1. 「**[!UICONTROL リンクされたフォルダーを作成]**」を有効にします。
-1. 作成するリンク先フォルダの名前を入力します。
-1. （条件付き） **デフォルトのフォルダーツリー** オプションを指定します。 1 つ以上のデフォルトのフォルダーを選択できます。
+1. 作成するリンクされたフォルダーの名前を入力します。
+1. （条件付き）このリンクされたフォルダーを、この統合を使用するテンプレートで作成されたプロジェクトのデフォルトのフォルダーにする場合は、「**デフォルトのフォルダーツリー**」オプションを有効にします。1 つ以上のデフォルトのフォルダーを選択できます。
 1. フォルダーパスを選択して、この統合に関連付けるリンクされたすべてのフォルダーの場所を指定します。
-1. （条件付き）この統合にフォルダーツリー（ネストされたフォルダー）を追加するには、以下の手順を実行します。
+1. （条件付き）この統合にフォルダーツリー（ネストされたフォルダー）を追加するには、次の手順を実行します。
 
-   1. 次をクリック： **フォルダーを追加** アイコン ![フォルダーを追加](assets/add-folder-aem.png).
-   1. Adobe Analytics の **名前のタイプ** 「 」フィールドで、フォルダーの名前を指定する方法を選択します。
+   1. **フォルダーを追加**&#x200B;アイコン ![フォルダーを追加](assets/add-folder-aem.png) をクリックします。
+   1. 「**名前タイプ**」フィールドで、フォルダーに名前を付ける方法を選択します。
 
       * **名前**：フォルダーの名前を入力します。
-      * **オブジェクトデータ**：フォルダー名のソースを選択します（「プロジェクト名」など）。
+      * **オブジェクトデータ**：プロジェクト名などのフォルダー名のソースを選択します。
 
       >[!NOTE]
       >
       >* フォルダー名は 100 文字未満にする必要があります。
-      >* 次の文字がフォルダー名から削除されます：
+      >* 次の文字はフォルダー名から削除されます。
       >
-      >   `/`, `:`, `[`, `]`, `|`, `*`
+      >   `/`、`:`、`[`、`]`、`|`、`*`
 
-   1. ネストされたフォルダーをフォルダーツリーに追加するには、ネストされたフォルダーを作成するフォルダーの横にある 3 ドットメニューをクリックし、「 」を選択します。 **フォルダーを追加**. 前の手順の説明に従って、フィールドに入力します。
-   1. フォルダーをWorkfrontにリンクするには、目的のフォルダーを選択し、 **リンクフォルダーを作成**   アイコン ![フォルダーをリンク](assets/link-folder.png).
-   1. （オプション）フォルダーを編集するには、目的のフォルダーを選択し、 **フォルダーを編集** アイコン ![編集アイコン](assets/edit-icon.png).
-   1. （オプション）フォルダーを削除するには、目的のフォルダーを選択し、 **フォルダーを削除** アイコン ![フォルダーを削除](assets/delete-folder.png).
-1. （条件付き）別のフォルダーツリーを追加するには、 **+フォルダーツリーを追加** をクリックし、手順 5 の手順に従います。
+   1. ネストされたフォルダーをフォルダーツリーに追加するには、ネストされたフォルダーを作成するフォルダーの横にある 3 点メニューをクリックし、「**フォルダーを追加**」を選択します。前の手順の説明に従って、フィールドに入力します。
+   1. フォルダーを Workfront にリンクするには、フォルダーを選択し、**リンクされたフォルダーを作成**&#x200B;アイコン ![フォルダーをリンク](assets/link-folder.png) をクリックします。
+   1. （オプション）フォルダーを編集するには、フォルダーを選択し、**フォルダーを編集**&#x200B;アイコン ![編集アイコン](assets/edit-icon.png) をクリックします。
+   1. （オプション）フォルダーを削除するには、フォルダーを選択し、**フォルダーを削除**&#x200B;アイコン ![フォルダーを削除](assets/delete-folder.png) をクリックします。
+1. （条件付き）別のフォルダーツリーを追加するには、「**+ フォルダーツリーを追加**」をクリックし、手順 5 の手順に従います。
 
-1. クリック **[!UICONTROL 保存]**&#x200B;または、 [Adobe Experience Manager Assetsに送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) 」の節を参照してください。
+1. 「**[!UICONTROL 保存]**」をクリックするか、この記事の [Adobe Experience Manager Assets に送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)の節に進みます。
 
 >[!NOTE]
 >
->* この統合で作成されるフォルダーツリーの数に関係なく、作成されるフォルダーは 100 個以下です。 例えば、4 つのフォルダーツリーを統合すると、400 個のフォルダーではなく、最大 100 個のフォルダーを作成できます。
->* フォルダーツリーの最初のフォルダーは、自動的にWorkfrontにリンクされているとマークされます。 このフォルダをリンクしない場合は、リンクを解除できます。
->* フォルダーツリーを指定しない場合、ルートフォルダーはリンクされたフォルダーになります。
+>* この統合では、作成されるフォルダーツリーの数に関係なく、作成されるフォルダーは 100 個までです。例えば、4 つのフォルダーツリーとの統合では、400 個のフォルダーではなく、最大 100 個のフォルダーを作成できます。
+>* フォルダーツリーの最初のフォルダーは、Workfront にリンクされているものとして自動的にマークされます。このフォルダーをリンクしない場合は、リンクを解除できます。
+>* フォルダーツリーを指定しない場合、ルートフォルダーがリンクされたフォルダーになります。
 
 
-### Adobe Experience Manager Assetsに送信されたアセットの公開
+### Adobe Experience Manager Assets に送信されたアセットの公開
 
-1. オンに切り替え **[!UICONTROL アセットを自動的に公開]**.
-1. Adobe Experience Manager Assets に送信するアセットを公開する場所の横にあるチェックボックスをオンにします。 どちらかまたは両方のオプションを有効にできます。
-1. （条件付き） Brand Portalオプションを有効にしている場合、アセットを公開するBrand Portalを選択します。
+1. 「**[!UICONTROL アセットを自動的に公開]**」に切り替えます。
+1. Adobe Experience Manager Assets に送信されたアセットを公開する場所の横にあるチェックボックスをオンにします。どちらかまたは両方のオプションを有効にできます。
+1. （条件付き）「Brand Portal」オプションを有効にしている場合、アセットを公開する Brand Portal を選択します。
 1. 「**[!UICONTROL 保存]**」をクリックするか、[リンクされたフォルダーの設定（オプション）](#set-up-linked-folders-optional)の節を参照してください。
 
 ## リンクされたフォルダーを設定（オプション）

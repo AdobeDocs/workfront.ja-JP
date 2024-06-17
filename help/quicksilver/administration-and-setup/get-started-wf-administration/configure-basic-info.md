@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 99%
+source-wordcount: '832'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> <col> 
@@ -35,7 +37,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    または
@@ -47,6 +49,8 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 顧客情報にアクセス
 

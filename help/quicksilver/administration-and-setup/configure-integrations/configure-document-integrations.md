@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 100%
+source-wordcount: '1117'
+ht-degree: 99%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -38,7 +40,7 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -54,7 +56,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## サポートされている統合
 
@@ -216,7 +220,7 @@ ht-degree: 100%
 
 マッピングは、任意のユーザーが [!DNL Workfront] から [!UICONTROL Workfront] DAM にアップロードしたすべてのドキュメントに影響します。
 
-[!DNL Workfront] 管理者は、メタデータマッピングプロセスのフィールドをマッピングする前に、Workfront で [!DNL Workfront DAM] を有効にする必要があります。
+メタデータマッピングプロセスのフィールドをマッピングするには、[!DNL Workfront] 管理者が、Workfront で [!DNL Workfront DAM] を有効にする必要があります。
 
 メタデータを [!DNL Workfront DAM] に送信するように [!DNL Workfront] を設定するには、次の手順を実行します。
 

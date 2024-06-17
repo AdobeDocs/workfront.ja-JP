@@ -6,10 +6,10 @@ description: Workfront では、タスクに親子関係を設定できます。
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 91%
+source-wordcount: '543'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 91%
 Workfront では、タスクに親子関係を設定できます。子タスクはサブタスクと呼ばれます。メインタスクをサブタスクにすることで、タスクリストにサブタスクを作成できます。サブタスクをメインタスクにすることもできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -32,10 +34,10 @@ Workfront では、タスクに親子関係を設定できます。子タスク�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> 
    <p>新規：標準</p>
-   <p>現在：作業以上</p> </td> 
+   <p>現在：ワーク以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -43,16 +45,18 @@ Workfront では、タスクに親子関係を設定できます。子タスク�
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクの追加以上の機能を備えたプロジェクトおよび親タスクに、参加権限を付与</p> <p>タスクの作成後、タスクに対する「管理」権限が自動的に付与されます。</p>  </td> 
+   <td> <p>タスクの追加以上の機能を備えたプロジェクトおよび親タスクに、参加権限を付与</p> <p>タスクを作成すると、タスクに対する管理権限が自動的に付与されます。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## サブタスクを作成
 
-サブタスクは、タスクリストまたはタスクのサブタスクセクションから作成できます。
+タスクリストまたはタスクの「サブタスク」セクションからサブタスクを作成できます。
 
 ### タスクリストからサブタスクを作成 {#create-subtasks-from-the-task-list}
 

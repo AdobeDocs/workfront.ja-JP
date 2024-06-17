@@ -6,10 +6,10 @@ description: 自動ワークフローを使用すると、プロセスが複雑�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 98%
+source-wordcount: '1831'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 98%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -29,10 +31,10 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：任意</p><p>現在のプラン：Pro 以上</p><p>従来のプラン：選択以上</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
+   <td> <p>新規：任意</p><p>現在のプラン：Pro 以上</p><p>従来のプラン：Select 以上</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準</p><p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +48,9 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 自動ワークフローを使用した高度なプルーフの作成
 

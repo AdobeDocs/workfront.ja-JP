@@ -6,10 +6,10 @@ description: 外部 web ページをダッシュボードに埋め込んで、Ad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 68%
+source-wordcount: '1025'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 68%
 
 <!--Audited: 01/2024-->
 
-外部 Web ページをダッシュボードに埋め込んで、他のシステムやAdobe Workfront内から関連情報にアクセスできます。
+外部 we ページをダッシュボードに埋め込んで、他のシステムまたは Adobe Workfront 内から関連情報にアクセスできるようにします。
 
 例えば、URL を通じて定期的にアクセスされるプロジェクト情報を含む web ベースのドキュメントリポジトリ、wiki、その他のコンテンツ管理システムが組織にある場合、ダッシュボードに外部ページを作成することで、その情報を Workfront に表示できます。
 
@@ -40,7 +40,7 @@ ht-degree: 68%
 >     * /template/:ID/content-dashboard__:dashboardID
 >     * /templatetask/:ID/content-dashboard__:dashboardID
 >     * /resourcemanagement/:ID/
->     * content-dashboard__:dashboardID &#x200B;
+>     * content-dashboard__:dashboardID
 >     * /team/:ID/content-dashboard__:dashboardID
 >     * /iteration/:ID/content-dashboard__:dashboardID
 >     * /requests/:ID/content-dashboard__:dashboardID
@@ -50,6 +50,8 @@ ht-degree: 68%
 >[ダッシュボードへのレポートの追加](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)で説明されているように、別の解決策として、ダッシュボードにリストレポートを含めることを検討します。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -62,7 +64,7 @@ ht-degree: 68%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>現在：プラン </p>
    または
    <p>新規：標準 </p> </td> 
@@ -78,7 +80,9 @@ ht-degree: 68%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -100,22 +104,22 @@ ht-degree: 68%
 
 {{step1-to-dashboards}}
 
-1. 既存のダッシュボードを編集するには、Web サイトページを埋め込むダッシュボードを選択し、 **ダッシュボードのアクション**&#x200B;を選択し、次に **編集**
-または\
+1. 既存のダッシュボードを編集するには、web サイトページを埋め込むダッシュボードを選択して、「**ダッシュボードの操作**」をクリックし、メニューから「**編集**」を選択するか、
+\
    新しいダッシュボードを作成するには、「**新規ダッシュボード**」をクリックします。\
    ダッシュボードの作成について詳しくは、[ダッシュボードを作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 
-1. クリック **外部ページを追加** の下に **レイアウト/レポートを追加/カレンダーを追加を選択します。** 領域。
+1. **レイアウト／レポートを追加／カレンダーを追加**&#x200B;のエリアの下にある&#x200B;**外部ページを追加**&#x200B;をクリックします。
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   The **外部ページを追加** ボックスが表示されます。
+   **外部ページを追加**&#x200B;ボックスが表示されます。
 
 1. 外部ページに関する次の情報を指定します。
 
    * **名前**：ダッシュボードに名前を追加します。
-   * **説明**：ダッシュボードに関する詳細情報を追加して、そこに含まれる情報を識別します。 説明は、保存後に、表示するアクセス権を持つすべてのユーザーに対してダッシュボードに表示されます。
-   * **URL**：コピーした URL をこのフィールドに貼り付けます。
+   * **説明**：ダッシュボードに関する詳細情報を追加して、含まれる情報を識別します。説明は、保存後に、表示するアクセス権を持つすべてのユーザーに対してダッシュボードに表示されます。
+   * **URL**：このフィールドにコピーした URL を貼り付けます。
 
      次のタイプの URL を指定できます。
 
@@ -136,13 +140,13 @@ ht-degree: 68%
      >SessionID の使用は安全ではないので、お勧めしません。
      >
 
-   * **高さ**:0 より大きい数値を入力して、ダッシュボードで外部ページが占有するスペースを定義します。 デフォルトの高さは 500 です。
+   * **高さ**：0 より大きい数値を入力して、外部ページがダッシュボードで占有するスペースを定義します。デフォルトの高さは 500 です。
 
 1. 「**保存**」をクリックします。
 
    ページがダッシュボードに自動的に追加されます。
 
-   追加のダッシュボードを作成する場合、この外部ページを見つけて他のダッシュボードに追加できます。 ダッシュボードの作成または編集時に、使用可能なレポートとカレンダーのリストに既存のすべての外部ページが表示されます。
+   追加のダッシュボードを作成する場合、この外部ページを見つけて他のダッシュボードに追加できます。ダッシュボードの作成または編集時に、利用可能なレポートとカレンダーのリストに既存のすべての外部ページが表示されます。
 
    <!--
     *** This is linked to: Creating Dashboards, and Editing Dashboards.
@@ -154,15 +158,15 @@ ht-degree: 68%
 
 {{step1-to-dashboards}}
 
-1. 更新するダッシュボードの名前をクリックして開き、「 」をクリックします。 **ダッシュボードのアクション**&#x200B;を、 **編集**.
+1. 更新するダッシュボードの名前をクリックして開き、「**ダッシュボードの操作**」をクリックして、「**編集**」を選択します。
 
-   The **ダッシュボードの詳細** ボックスが開きます。
+   「**ダッシュボード詳細**」ボックスが開きます。
 
-1. Adobe Analytics の **レイアウト/レポートを追加/カレンダーを追加を選択します。** 領域 **ダッシュボードの詳細** 」ボックスで、更新する外部ページを探し、その上にマウスポインターを置いて、 **編集** アイコン。\
+1. 「**ダッシュボード詳細**」ボックスの&#x200B;**ここにレポート / カレンダーをドラッグしてダッシュボードを調整**&#x200B;エリアで、更新する外部ページを見つけて、その上にポインタを合わせて、**編集**&#x200B;アイコンをクリックします。\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. Adobe Analytics の **外部ページを編集** ボックスで、変更するフィールドを更新し、 **保存**.
-1. （オプション） **削除** アイコン ![](assets/delete.png) をクリックして、ダッシュボードから外部ページを削除します。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
+1. 「**外部ページの編集**」ボックスで、変更するフィールドを更新し、「**保存**」をクリックします。
+1. （オプション）**削除**&#x200B;アイコン ![](assets/delete.png) をクリックして、ダッシュボードから外部ページを削除します。詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
 1. 「**保存して閉じる**」をクリックします。
 
 ## レポートで外部ページを表示する

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 71%
+source-wordcount: '585'
+ht-degree: 98%
 
 ---
 
@@ -35,6 +35,8 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -46,13 +48,13 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td><p>現在：プラン</p>
    または
    <p>新規：標準</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
     <p>グループに対して実行するには、そのグループの管理者である必要があります。</p> 
      </td> 
@@ -60,19 +62,21 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
  </tbody> 
 </table>
 
-*アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## メインメニューをカスタマイズ
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. クリック **メインメニューの設定** をクリックします。
+1. テンプレートの右上隅の「**メインメニューをセット**」をクリックします。
 
-   「メインメニュー」(Main Menu) ボックスが開き、テンプレートの「メインメニュー」(Main Menu) に現在表示されている領域と、追加可能な項目が表示されます。 次に、追加できるすべての項目を示します。
+   「メインメニュー」ボックスが開き、テンプレートのメインメニューで現在表示されているエリアと、追加できる項目を確認できます。次に、追加できるすべての項目を示します。
    * ホーム
 
      >[!TIP]
      >
-     >既定では、メインメニューの [ 更新 ] 領域と [ ホーム ] 領域を含むレイアウトテンプレートがプロファイルに関連付けられている場合を除き、[ メインメニュー ] の [ ホーム ] アイコンには、[ レビューライセンスユーザ ] の [ 更新 ] 領域が表示されます。
+     >デフォルトでは、メインメニューのホームアイコンには、レビューライセンスユーザー（現在のライセンスプラン内）に対してマイ更新エリアが表示されます。ただし、レイアウトテンプレートがホームエリアに加えて、メインメニューのマイ更新エリアを含むプロファイルに関連付けられている場合は除きます。
 
    * ポートフォリオ
    * プログラム
@@ -92,7 +96,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
      >[!NOTE]
      >
-     >（現在のライセンスモデルの）Plan ライセンスを持つユーザ、または（新しいライセンスモデルの）Standard ライセンスを持つユーザのみが、[ ユーザ ] 領域を表示できます ![](assets/users-icon-in-main-menu.png) 」をクリックします。
+     >（現在のライセンスモデルで）プランライセンスを持つユーザー、または（新しいライセンスモデルで）標準ライセンスを持つユーザーのみが、メインメニューのユーザーエリア ![](assets/users-icon-in-main-menu.png) を表示できます。
 
    * リクエスト
    * タイムシート
