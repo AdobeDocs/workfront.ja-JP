@@ -1,20 +1,20 @@
 ---
-title: レコードページの管理
+title: レコードページレイアウトの管理
 description: Adobe Workfront Planning でレコードのプレビューとページのレイアウトを編集できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 20%
+source-wordcount: '1066'
+ht-degree: 15%
 
 ---
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# レコードページの管理
+# レコードページレイアウトの管理
 
 {{planning-important-intro}}
 
@@ -108,7 +108,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 * レコードのプレビューで行った表示の変更は、レコードの詳細ページにすぐに表示されます。 レコードページで加えた変更は、レコードプレビューボックスにも表示されます。
 
-* レコードにカバー画像を追加することが、レコードのプレビューまたはページの全体的なレイアウトの一部ではない。 各レコードに一意のカバー画像を追加できます。 詳しくは、を参照してください [レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* レコードにカバー画像またはサムネールを追加することが、レコードのプレビューまたはページの全体的なレイアウトの一部ではない。 各レコードに一意のカバー画像またはサムネールを追加できます。 詳しくは、を参照してください [レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) および [レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## レコードのプレビューまたはページへのセクションの追加
 
@@ -135,15 +135,11 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    または
 
-   テーブル テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。
+   テーブル テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) 最初の列
 
    レコードのプレビューがビューで開きます。
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >「名前」フィールドがプライマリフィールドである場合にのみ、テーブルビューでレコードの「名前」フィールドの左側に&#x200B;**詳細を開く**&#x200B;アイコンを表示できます。
 
 1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。
 
@@ -200,15 +196,11 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    または
 
-   テーブル テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。
+   テーブル テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) 最初の列
 
    レコードのプレビューがビューで開きます。
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >「名前」フィールドがプライマリフィールドである場合にのみ、テーブルビューでレコードの「名前」フィールドの左側に&#x200B;**詳細を開く**&#x200B;アイコンを表示できます。
 
 1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。
 

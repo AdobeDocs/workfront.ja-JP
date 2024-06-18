@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 86%
+source-wordcount: '1965'
+ht-degree: 84%
 
 ---
 
@@ -100,6 +100,7 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 | Adobe Workfront Fusion 用 Adobe Workfront Planning モジュール | ✓ |                                  |                 |
 | あるフィールドから別のフィールドへの情報のコピーと貼り付け | ✓ |                                  |                 |
 | Workfrontオブジェクトからの Planning レコードへのアクセス | ✓ |                                  |                 |
+| Workfront オブジェクトから Planning レコードを接続する | ✓ |                                  |                 |
 
 ## Workfront インスタンスのユーザーに対して Adobe Workfront Planning を有効にする
 
@@ -208,9 +209,18 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **リンクされたフィールド**（またはルックアップフィールド）：2 つのレコードタイプ間の接続を確立し、個別のレコードをリンクすると、接続元のレコード上で、リンクされたレコードのフィールドを参照できます。
 
-  例えば、キャンペーンレコードタイプを Workfront プロジェクトオブジェクトタイプと接続する場合、接続されたプロジェクトのプロジェクト所有者フィールドをキャンペーンレコードに表示できます。
+  例えば、キャンペーンレコードタイプをWorkfront プロジェクト オブジェクトタイプに関連付けると、キャンペーンレコードで、接続されたプロジェクトの「予算」フィールドを表示できます。
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > 次のフィールドタイプを参照フィールドとして追加することはできません。
+  >
+  >    * ユーザー
+  >    * 作成者
+  >    * 最終変更者
+  >    * Workfrontの先行入力フィールド（「プロジェクト所有者」や「プロジェクトスポンサー」などのフィールドを含む）
 
   レコードタイプのリンク、レコード、リンクされたフィールドの作成については、次の記事を参照してください。
 
@@ -285,7 +295,7 @@ Workfront Planning を検索するには、次の手順に従います。
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
+1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
    * **マイワークスペース**：作成したワークスペースが表示されます。
    * **その他のワークスペース**：共有されているワークスペースを含む、システム内のその他すべてのワークスペースが表示されます。
 

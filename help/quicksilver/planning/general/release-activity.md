@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 71%
 
 ---
@@ -97,7 +97,7 @@ Workfront Planning のワークスペーステンプレートカードのルッ�
 
 詳細ページからレコードにサムネールまたはカバー画像を追加するエクスペリエンスを更新しました。 改善点には、次の更新が含まれます。
 
-* サムネール画像は、レコードを作成するとランダムに割り当てられます。 後でこの画像を編集できます。
+* サムネイル画像およびカバー画像は、作成時にレコードにランダムに割り当てられる。 これらの画像は、後で編集できます。
 
 * サムネールは詳細ページから追加できます。 この機能強化の前は、テーブル表示からのみサムネールを追加できました。
 
@@ -129,7 +129,7 @@ Workfront Planning のワークスペーステンプレートカードのルッ�
 
 プレビュー：未決定
 
-2 行を超えて表示されるレコードがある場合、接続されたレコードフィールドに「詳細を表示/非表示」リンクを追加しました。
+レコードの詳細ページに 3 行以上で表示されるレコードがある場合、接続されたレコードフィールドに「詳細を表示/非表示」リンクを追加しました。
 
 詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
@@ -324,7 +324,7 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 
 レコードのページ上の情報をより効率的に整理して、読みやすさとナビゲーションを向上させるために、レコードページにセクションを導入しました。 セクションのタイトルは、フィールドを別個のカテゴリに整理するヘッダーとして機能します。 セクションは完全にカスタマイズ可能で、必要に応じて展開したり折りたたんだりできます。
 
-詳しくは、を参照してください [レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md).
+詳しくは、を参照してください [レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### フィールド設定の変更に対するリアルタイム更新
 
@@ -433,7 +433,7 @@ Workfrontの計画通知について詳しくは、 [Adobe Workfront Planning �
 
 ワークスペースマネージャーは、レコードページまたはプレビューにリストされているフィールドを並べ替えることができるようになりました。 フィールドの順序を更新すると、レコードページまたはレコードのプレビューを表示しているすべてのユーザーについて、同じタイプのすべてのレコードのフィールドの順序が変更されます。
 
-詳しくは、[レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、を参照してください [レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### レコードページへのカバー画像の追加
@@ -444,7 +444,7 @@ Workfrontの計画通知について詳しくは、 [Adobe Workfront Planning �
 
 レコードページを管理する際に、レコードページまたはプレビューで表紙の追加、再配置および置き換えを行って、レコードのプレゼンテーションと関係者のエンゲージメントを強化できるようになりました。 カバー画像は、レコードを表示するすべてのユーザーに表示されます。
 
-詳しくは、[レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+詳しくは、を参照してください [レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## 2024年3月25日（PT）の週
 

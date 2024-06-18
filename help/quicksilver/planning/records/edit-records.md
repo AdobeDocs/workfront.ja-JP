@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 74%
+source-wordcount: '1626'
+ht-degree: 65%
 
 ---
 
@@ -106,14 +106,14 @@ ht-degree: 74%
 * レコードを一括で編集することはできません。<!--this will probably change-->
 * URL は、http://、https://、ftp:// または www で始まる場合にのみ、1 行テキストフィールドタイプのリンクとして認識されます。
 * 各レコードにカバー画像を追加できます。 画像はレコードごとに一意であり、同じ時間のすべてのレコードには適用されません。
-* レコードページのフィールドの順序を編集し、レコードのカバー画像を追加できます。詳しくは、[レコードページの管理](/help/quicksilver/planning/records/manage-the-record-page.md)を参照してください。
+* レコードページのフィールドの順序を編集し、レコードのカバー画像を追加できます。詳しくは、を参照してください [レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## レコードの編集
 
 次のエリアからレコードを編集できます。
 
-* [レコードタイプのテーブルビューから](#edit-a-record-from-the-table-view-of-a-record-type)
-* [ビュー内のレコードのプレビューから](#edit-a-record-from-the-records-box-in-a-view)
+* [レコードタイプのテーブルビューから](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [ビュー内のレコードのプレビューから](#edit-a-record-from-the-records-preview-in-a-view)
 * [レコードのページから](#edit-a-record-from-the-records-page)
 
 ### レコードタイプのテーブルビューでレコードをインラインで編集
@@ -200,17 +200,17 @@ ht-degree: 74%
 
    レコードタイプのページが開きます。
 
-1. 任意のタイプのビューで、レコードの名前をクリックします
+1. 任意のタイプのビューで、レコードをクリックします
 
    または
 
-   テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) レコード名の左側。 レコードのプレビューがビューで開きます。
+   テーブル表示で、 **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) 最初の列 レコードのプレビューがビューで開きます。
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >「名前」フィールドがプライマリフィールドである場合にのみ、テーブルビューでレコードの「名前」フィールドの左側に&#x200B;**詳細を開く**&#x200B;アイコンを表示できます。
+1. （任意） **詳細** レコードのタイトルの右側にあるメニューをクリックしてから、 **名前を変更**. これにより、レコードのタイトルとして表示されるフィールドが更新されます。
+
+   レコードのタイトルは、テーブル表示で表示された場合、レコードのプライマリフィールドになります。 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
 1. レコードのプレビューのフィールド情報の編集を開始します。
 
@@ -218,10 +218,12 @@ ht-degree: 74%
    >
    >  次のフィールドは読み取り専用で、Workfront によって自動的に更新されるので、情報を編集できません。
    >  
-   >  * レコードタイプを接続して作成されるリンクフィールド。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+   >  * レコードタイプを接続して作成された他のレコードのルックアップフィールド。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
 1. （任意）クリック **カバーを追加** レコードにカバー画像を追加する。 詳しくは、を参照してください [レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. （オプション）サムネールアイコンの上にマウスポインターを置き、クリックします **詳細** ![](assets/more-menu.png) > **サムネールを編集** サムネール画像を追加します。 詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
    Workfront では、変更を自動的に保存します。
 
@@ -251,6 +253,10 @@ ht-degree: 74%
 
      ![](assets/details-page.png)
 
+1. （任意） **詳細** レコードのタイトルの右側にあるメニューをクリックしてから、 **名前を変更**. これにより、レコードのタイトルとして表示されるフィールドが更新されます。
+
+   レコードのタイトルは、テーブル表示で表示された場合、レコードのプライマリフィールドになります。 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+
 1. レコードページの編集可能なフィールドをクリックして編集します。
 
    >[!TIP]
@@ -260,7 +266,17 @@ ht-degree: 74%
    >  * レコードタイプを接続して作成されるリンクフィールド。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
    >  * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日、数式フィールド。
 
-1. （任意）クリック **カバーを追加** レコードにカバー画像を追加する。 詳しくは、を参照してください [レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. （任意）クリック **カバーを追加** レコードにカバー画像を追加するには
+
+   または
+
+   既存のカバー画像にポインタを合わせ、 **詳細** メニュー ![](assets/more-menu.png) > **Upload** レコードに新しいカバー画像を追加します。
+
+   詳しくは、を参照してください [レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. （任意）既存のサムネールまたは **サムネールアイコン** ![](assets/record-thumbnail-icon-on-details-page.png)を選択し、 **詳細** メニュー ![](assets/more-menu.png) > **サムネールを編集** レコードのサムネールを追加します。
+
+   詳しくは、を参照してください [レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront では、変更を自動的に保存します。
 

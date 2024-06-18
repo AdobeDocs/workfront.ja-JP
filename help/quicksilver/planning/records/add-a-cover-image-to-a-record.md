@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 32%
+source-wordcount: '622'
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 32%
 
 ## アクセス要件
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -58,9 +58,10 @@ ht-degree: 32%
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>任意</p> 
+   <p>現在：ワーク以上</p>
+   <p>新規：標準</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ ht-degree: 32%
   </tr>
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する参加以上の権限 </p>  
+   <td> <p>ワークスペースに対する権限の管理 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ ht-degree: 32%
 </tbody>
 </table>
 
+*詳細については、を参照してください [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## レコードページの表紙画像に関する考慮事項
 
 表紙画像を追加して、レコードのページをパーソナライズできます。
@@ -94,7 +97,8 @@ ht-degree: 32%
 * カバー画像として追加できるのは画像ファイルのみです。
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * 任意のビューのレコードプレビューまたはレコードページから、カバー画像を個々のレコードに追加できます。
-* どのレコードビューからもカバー画像をインラインで追加することはできません。
+* レコード ビューからカバー画像を追加することはできません。
+* Workfrontは、レコードを作成するたびに、カバー画像を自動的にアップロードします。 この画像は後で変更できます。
 
 ## レコードへのカバー画像の追加
 
@@ -114,7 +118,7 @@ ht-degree: 32%
 
    レコードタイプのページが開きます。
 
-1. 任意のタイプのビューで、レコードの名前をクリックします
+1. 任意の種類のビューから、レコードをクリックします
 
    または
 
@@ -124,20 +128,31 @@ ht-degree: 32%
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >「名前」フィールドがプライマリフィールドである場合にのみ、テーブルビューでレコードの「名前」フィールドの左側に&#x200B;**詳細を開く**&#x200B;アイコンを表示できます。
-
 1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。
 
    レコードページが開きます。
 
    ![](assets/details-page.png)
 
-1. レコードのプレビューまたはページで、 **カバーを追加**. <!--check the casing here; I logged a bug for this-->
-この **レコードカバー** ボックスが開きます。
+1. レコードのプレビューまたはページで、 **カバーを追加**
 
-1. クリック **選択してアップロード** コンピュータ上の画像を参照して選択し、追加してから、 **画像を使用**.
+
+   または
+
+   既存のカバー画像にポインタを合わせ、 **詳細** メニュー ![](assets/more-menu.png) を選択し、 **Upload**. <!--check the casing here; I logged a bug for this-->
+この **レコードカバー** でボックスが開きます **Upload** タブ。
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. クリック **画像の参照** コンピュータ上の画像を参照して選択し、追加します。
+
+1. （オプション）画像を保存する前に削除するには、 **新しい画像をアップロード** アイコン ![](assets/upload-new-image-icon.png) をクリックし、新しい画像をアップロードします。
+
+1. （任意） **ギャラリー** タブをクリックしてから、画像ギャラリー内の画像をクリックします。 画像ギャラリーは変更できません。
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. クリック **画像を使用**.
 
    画像はレコードのプレビューまたはページの上部にアップロードされ、変更は自動的に保存されます。
 

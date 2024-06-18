@@ -5,16 +5,16 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 98%
 
 ---
 
 # プロジェクトに関する FAQ
 
-プロジェクトに関するよくある質問を次に示します。
+次に、プロジェクトに関するよくある質問を示します。
 
 ## タスクリスト内のタスクを右クリックしたときに、「タスクを上に挿入」と「タスクを下に挿入」が表示されないのはなぜですか。
 

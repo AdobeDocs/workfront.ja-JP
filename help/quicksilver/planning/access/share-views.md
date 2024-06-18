@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 62%
+source-wordcount: '627'
+ht-degree: 60%
 
 ---
 
@@ -129,6 +129,11 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 1. 「**リンクをコピー**」をクリックして、ビューへのリンクをクリップボードにコピーします。
 1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーが、レコードタイプのページにアクセスして、選択したビューで表示するには、ユーザーがアクティブユーザーであり、Workfront にログインしている必要があります。
+
+   >[!TIP]
+   >
+   >   共有ビューには人物アイコンが付いています ![](assets/view-shared-with-others-people-icon.png) 表示アイコンの横。 人物アイコンのないビューは、作成したビューです。
+
 1. 「**保存**」をクリックします。
 
 <!--

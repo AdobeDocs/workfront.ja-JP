@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 67%
+source-wordcount: '642'
+ht-degree: 66%
 
 ---
 
@@ -117,7 +117,9 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 1. （オプションおよび条件付き）次の事前定義済みのワークスペーステンプレートのいずれかで「**プレビュー**」をクリックします。
 
-   * マーケティング管理
+   * 基本：マーケティング管理
+   * 詳細：マーケティング管理
+   * エンタープライズ：マーケティング管理
    * セールス管理
    * 製品管理
 
@@ -133,7 +135,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
    または
 
-   クリック **戻る**&#x200B;を選択し、 **ワークスペースを作成** ワークスペースを最初から作成する。
+   クリック **戻る**&#x200B;を選択し、 **新しいワークスペース** ワークスペースを最初から作成する。
 
    次のタイプのワークスペースの 1 つが作成されます。
 
