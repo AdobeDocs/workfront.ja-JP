@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2276'
-ht-degree: 91%
+source-wordcount: '2404'
+ht-degree: 85%
 
 ---
 
@@ -151,11 +151,16 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
      例えば、「キャンペーン」レコードタイプを「製品」レコードタイプに接続すると、「リンクされた製品」という名前のリンクされたレコードフィールドがキャンペーンレコードタイプに作成され、「キャンペーン」という名前のリンクされたレコードタイプが製品レコードタイプに自動的に作成されます。
 
-   * **別のアプリケーションのオブジェクトタイプにレコードタイプを接続する場合**：接続元のレコードタイプに、リンクされたレコードフィールドが作成されます。他のアプリケーションのオブジェクトタイプには、リンクされたレコードフィールドが自動的に作成されません。
+   * **別のアプリケーションからレコード型をオブジェクト型に接続した場合**:
 
-     他のアプリケーションのオブジェクトに対して新しい Workfront Planning 読み取り専用レコードタイプが作成されるのは、実際のオブジェクトが Workfront Planning レコードに接続されている場合のみです。
+      * リンクされたレコードフィールドは、接続元のレコードタイプで作成されます。 他のアプリケーションのオブジェクトタイプには、リンクされたレコードフィールドが自動的に作成されません。
 
-     詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+      * 他のアプリケーションのオブジェクトに対して新しい Workfront Planning 読み取り専用レコードタイプが作成されるのは、実際のオブジェクトが Workfront Planning レコードに接続されている場合のみです。
+
+        詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+
+      * 計画レコードまたはそのフィールドには、Workfrontからアクセスできません。
+      * Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、を参照してください [Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピング設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja).
 
    * **接続先のレコードまたはオブジェクトのルックアップフィールドを追加する場合**：他のアプリケーションのオブジェクトのフィールドを Workfront Planning レコードタイプに接続できます。これらは、リンクされたフィールドまたはルックアップフィールドです。レコードまたはオブジェクトを接続すると、リンクされたフィールドに、接続されたレコードまたはオブジェクトの情報が自動的に表示されます。リンクされたルックアップフィールドは常に読み取り専用で、接続されたレコードまたはオブジェクトの値が自動的に設定されます。
 
@@ -167,9 +172,10 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
 * リンクされたレコードフィールドの前には関係アイコン ![](assets/relationship-field-icon.png) が付きます。
 
-  リンクされたフィールドの前には、フィールドタイプを識別するアイコンが付きます。例えば、フィールドが数値、段落、日付であることを示すアイコンなどです。
+  リンクされたフィールドの前には、フィールドタイプを識別するアイコンが付きます。例えば、リンクされた（または参照）フィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが付きます。
 
-## レコードタイプを接続
+
+## レコードタイプの接続
 
 <!--when changes here, also update the article for "Connect records"-->
 
@@ -236,6 +242,21 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
    ![](assets/aem-assets-connection-selection.png)
 
+   >[!NOTE]
+   >
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、を参照してください [Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピング設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja).
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
+
 1. 「**作成**」をクリックします。
 
 1. （条件付き）**ルックアップフィールドを選択**&#x200B;設定を選択した場合、「**ルックアップフィールドを追加**」ボックスが開きます。
@@ -258,6 +279,11 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 1. （オプション）「**スキップ**」をクリックして、リンクされたレコードやオブジェクトからフィールドを追加しないようにします。リンクされたレコードの&#x200B;**名前**&#x200B;は、元のレコードのテーブルビューに唯一表示されるフィールドです。
 
 1. （オプションおよび条件付き）数値、通貨、パーセンテージまたは日付タイプのフィールドをリンクすることを選択する場合は、アグリゲータ値も選択します。ユーザーがリンクされたレコードフィールドで複数のリンクされたレコードを選択した場合、リンクされたフィールドの値は、コンマで区切られるか、選択したアグリゲータに従って集計された値として表示されます。
+
+   >[!IMPORTANT]
+   >
+   >    日付フィールドをタイムライン表示とカレンダー表示の開始日および終了日として追加できるようにする場合、日付フィールドを追加する際にアグリゲータ値を選択する必要があります。
+
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 

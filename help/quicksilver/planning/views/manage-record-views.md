@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 84%
+source-wordcount: '1097'
+ht-degree: 82%
 
 ---
 
@@ -198,7 +198,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
    >[!TIP]
    >
-   >    レコードの日付フィールドから選択することも、接続されたレコードまたはオブジェクトタイプから日付フィールドを参照することもできます。
+   >    レコードの日付フィールドから選択することも、接続されたレコードまたはオブジェクトタイプから日付フィールドを参照することもできます。 タイムライン表示およびカレンダー表示の開始日および終了日として参照フィールドを選択する場合、日付フィールド （MAXまたは最小）にアグリゲータを使用する必要があります。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 1. 「**作成**」をクリックします。
 

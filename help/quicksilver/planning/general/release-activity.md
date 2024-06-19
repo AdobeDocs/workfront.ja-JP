@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
 source-wordcount: '7510'
 ht-degree: 71%
@@ -97,7 +97,7 @@ Workfront Planning のワークスペーステンプレートカードのルッ�
 
 詳細ページからレコードにサムネールまたはカバー画像を追加するエクスペリエンスを更新しました。 改善点には、次の更新が含まれます。
 
-* サムネイル画像およびカバー画像は、作成時にレコードにランダムに割り当てられる。 これらの画像は、後で編集できます。
+* サムネイル画像とカバー画像は、作成時に自動的にレコードに割り当てられる。 これらの画像は、後で編集できます。
 
 * サムネールは詳細ページから追加できます。 この機能強化の前は、テーブル表示からのみサムネールを追加できました。
 

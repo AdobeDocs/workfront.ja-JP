@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2411'
 ht-degree: 96%
 
 ---
@@ -256,7 +256,7 @@ ht-degree: 96%
    * **マイワークスペース**：作成したワークスペースが表示されます。
    * **その他のワークスペース**：共有されているワークスペースを含む、Workfront Planning 内のすべてのワークスペースが表示されます。
 
-   その他のすべてのユーザーについては、ユーザーが作成または共有したすべてのワークスペースがに表示されます。 **ワークスペース** 領域。
+   他のすべてのユーザーについては、作成または共有したすべてのワークスペースがに表示されます。 **ワークスペース** 領域。
 
 ## Workfront計画の重要な概要 –  {#planning-important-intro}
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2428'
-ht-degree: 89%
+source-wordcount: '2573'
+ht-degree: 80%
 
 ---
 
@@ -106,7 +106,8 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 <tr>
    <td role="rowheader"><p>権限</p></td>
    <td> <p>レコードを接続するワークスペースへの権限を管理 </p>  
-   <p>他のアプリケーションでのアクセス権に関係なく、他のアプリケーションからのオブジェクトおよびフィールドへのすべての接続を表示するには、ワークスペースに対する表示以上の権限が必要です。 </p>
+   <p>ワークスペースに対する表示以上の権限。他のアプリケーションでのアクセス権に関係なく、他のアプリケーションからのオブジェクトおよびフィールドに対するすべての接続を表示します。 </p>
+   <p>WorkfrontまたはExperience Manager Assetsからリンクするオブジェクトに対する表示以上の権限。 </p>
    <p>システム管理者は、自分が作成したものでないものも含めて、すべてのワークスペースに対する権限を持っています。</p>
 </td>
   </tr>
@@ -128,29 +129,42 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 ## レコードの接続に関する考慮事項
 
 * レコードタイプを接続すると、接続されたレコードタイプが、リンク元のレコードタイプのテーブルおよびレコードのページにリンクされたレコードフィールドとして表示されます。
-* リンクされたレコードフィールドから、リンクされたレコードのレコードとオブジェクト、およびオブジェクトタイプを参照して追加できます。
-* リンクされたレコードタイプのフィールドを、リンク元のレコードタイプのテーブルに追加できます。
-* リンク元のレコードのリンクされたフィールドの値を、手動では更新できません。
+* リンクされたレコードフィールドから、リンクされたレコードタイプやオブジェクトタイプのレコードやオブジェクトを参照し、追加することができます。
+* リンク元のレコードタイプのテーブルに、リンクされたレコードタイプのフィールド（参照フィールド）を追加できます。
 
-  リンクされたレコードのリンクされたフィールドの値は、リンク元の Workfront Planning レコードに、元のレコードやオブジェクトから自動的に入力されます。
+  リンク元のレコードタイプのフィールド（ルックアップフィールド）を、リンク先のレコードタイプのテーブルに追加できます。
+
+  例えば、キャンペーンのレコードタイプから製品のレコードタイプにリンクする場合、キャンペーンの製品フィールドと製品のキャンペーンフィールドを表示できます。
+* リンク元のレコードの参照フィールドの値を手動で更新することはできません。
+
+  リンクされたレコードの参照フィールドの値は、元のレコードまたはオブジェクトから自動的にリンクしようとしているWorkfront Planning レコードに入力されます。
 
 * Workfront Planning へのアクセス権と、ワークスペースへの表示以上の権限を持つユーザーは誰でも、レコード間に、またはレコードと他のアプリケーションのオブジェクトの間に作成する接続を表示できます。そのようなユーザーは、接続先のアプリケーションの権限に関係なく、接続されたレコードとオブジェクトを表示できます。
 * 接続されているレコードが存在するワークスペースに対する管理権限を持っている場合は、他のすべてのユーザーの接続を表示および編集できます。
 * 1 つのレコードを、別のアプリケーションの 1 つまたは複数のオブジェクトに接続できます。
-* レコードを他のレコードやオブジェクトにリンクするには、次のものが必要です。
 
-   * 少なくとも 1 つのワークスペース、レコードタイプおよびレコード。
-
-     詳しくは、次の記事を参照してください。
-
-      * [ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
-
-   * レコードタイプ間の接続や、レコードタイプと他のアプリケーションからのオブジェクト間の接続。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * 次の領域で、WorkfrontからWorkfrontの計画レコードにオブジェクトを関連付けることができます。
    * Workfront Planning の計画レコードから。
    * Workfront オブジェクトの「計画」セクションから。
+
+* 次の領域で、Workfrontの計画レコードをExperience Manager Assetsに接続できます。
+
+   * Workfront Planning の計画レコードから
+
+
+## レコードをリンクするための前提条件
+
+レコードを他のレコードやオブジェクトにリンクするには、次のものが必要です。
+
+* 少なくとも 1 つのワークスペース、レコードタイプおよびレコード。
+
+  詳しくは、次の記事を参照してください。
+
+   * [ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
+   * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)
+   * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
+
+* レコードタイプ間の接続や、レコードタイプと他のアプリケーションからのオブジェクト間の接続。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 ## Workfront Planning からレコードを接続
 
@@ -307,6 +321,11 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 >Adobe Admin Console のオンボーディングについて質問がある場合は、[Adobe Unified Experience の FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md) を参照してください。
 
 レコードタイプと Adobe Experience Manager Assets 間の接続を作成した後、個別のレコードを Experience Manager Assets に接続できます。接続の作成時に Experience Manager Assets から接続したアセットフィールドは、リンク元のレコードタイプで自動的に入力されます。
+
+>[!NOTE]
+>
+>Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、を参照してください [Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピング設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja).
+
 
 {{step1-to-planning}}
 

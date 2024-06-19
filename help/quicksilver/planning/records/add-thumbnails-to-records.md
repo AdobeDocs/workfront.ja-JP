@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 39%
@@ -166,7 +166,7 @@ ht-degree: 39%
 1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) 右上隅
 
    レコードの詳細ページが開きます。
-1. サムネール画像またはアイコンにポインタを合わせる ![](assets/record-thumbnail-icon-on-details-page.png)を選択し、 **詳細** メニュー > **サムネールを編集**.
+1. サムネール画像またはアイコンにポインタを合わせる ![](assets/record-thumbnail-icon-on-details-page.png)を選択し、 **詳細** メニュー ![](assets/more-menu.png) > **サムネールを編集**.
 
    この **Upload** デフォルトでは、タブは次で開きます **サムネールを記録** ボックス。
 

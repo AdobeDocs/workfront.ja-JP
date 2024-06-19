@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 84%
@@ -217,10 +217,10 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
   >
   > 次のフィールドタイプを参照フィールドとして追加することはできません。
   >
-  >    * ユーザー
-  >    * 作成者
-  >    * 最終変更者
-  >    * Workfrontの先行入力フィールド（「プロジェクト所有者」や「プロジェクトスポンサー」などのフィールドを含む）
+  >* ユーザー
+  >* 作成者
+  >* 最終変更者
+  >* Workfrontの先行入力フィールド（「プロジェクト所有者」や「プロジェクトスポンサー」などのフィールドを含む）
 
   レコードタイプのリンク、レコード、リンクされたフィールドの作成については、次の記事を参照してください。
 
