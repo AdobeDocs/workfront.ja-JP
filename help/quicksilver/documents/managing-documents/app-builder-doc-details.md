@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
+source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -83,9 +83,9 @@ AppBuilder が正しく設定されている場合は、新しいプロジェク
    >この手順でワークスペースを追加するオプションがあります。 開発者向けにワークスペースを作成してはどうかと提案されました。 これにより、開発者の作業に合わせて、シークレットとデプロイメントを相互に分離することができます。 ワークスペースには、使用する開発者の名前を付ける必要があります。 AIO CLI には、ワークスペースを切り替えるためのオプションがあります。これについては後ほど説明します。
 
 
-1. 移動 **ランタイムを含める** を選択しました。 理由は分からないわ、本当に、でも変えないで！
+1. 移動 **ランタイムを含める** を選択しました。
 
-1. 「**保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。
 
 ## AdobeI/O （aio） CLI
 
@@ -127,7 +127,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
    1. インクルードパスを次から調整 `src/aem-cf-editor-1/ext.config.yaml` 対象： `src/workfront-doc-details-1/ext.config.yaml`.
 
 1. 拡張機能登録コンポーネントの編集
-   1. 開く `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
+   1. `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js` を開きます。.
    1. 「メソッド」セクションで、関数を追加します `secondaryNav` 非同期関数を含む `getButtons`.
    1. `getButtons` は、次の構造を持つオブジェクトを受け取る必要があります。
 
@@ -217,7 +217,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
 ## 既存の AIO プロジェクトの設定
 
 1. 設定ファイルを更新
-   1. 開く `app.config.yaml`.
+   1. `app.config.yaml` を開きます。.
    1. からの参照を更新して、設定を変更します。 `aem/cf-editor/1` 対象： `workfront/doc-details/1`. この調整により、ファイル パスが現在のプロジェクト構造に位置合わせされます。
 
 1. 拡張機能登録コンポーネントの変更
