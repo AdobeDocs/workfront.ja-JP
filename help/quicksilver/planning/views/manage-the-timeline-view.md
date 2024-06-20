@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 94%
+source-wordcount: '1764'
+ht-degree: 93%
 
 ---
 
@@ -251,7 +251,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 左パネルで「**バーのスタイル**」をクリックし、レコードバーに表示するフィールドを指定します。
 
-   デフォルトでは、名前フィールドが選択されています。<!--adjust this when the primary field is released??-->
+   レコードのテーブルビューで定義されたレコードのプライマリフィールド（またはタイトル）は、デフォルトで選択されています。 <!--adjust this when the primary field is released??-->
 
 1. （オプションおよび条件付き）レコードにサムネールを追加した場合、「サムネール」オプションを選択すると、レコードに関連付けられた画像がレコードバーに表示されます。
 

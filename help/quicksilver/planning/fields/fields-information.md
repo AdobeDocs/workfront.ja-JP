@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: f51dc8bf403d0784ea908d2f6e23f59f86d09273
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '101'
+ht-degree: 97%
 
 ---
 
@@ -37,3 +37,4 @@ hide: yes
 * [フィールドの編集](/help/quicksilver/planning/fields/edit-fields.md)
 * [フィールドを削除](/help/quicksilver/planning/fields/delete-fields.md)
 * [数式フィールド](/help/quicksilver/planning/fields/formula-fields.md)
+* [プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md)

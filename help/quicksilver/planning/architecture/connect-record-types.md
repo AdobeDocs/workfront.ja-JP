@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2404'
-ht-degree: 85%
+source-wordcount: '2486'
+ht-degree: 66%
 
 ---
 
@@ -30,19 +30,18 @@ author: Alina
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning を使用すると、組織で必要なレコードタイプを含んだ完全にカスタマイズ可能なワークスペースをデザインできます。個々のレコードタイプが互いにどのように関連しているかは、レコードタイプを接続するとよくわかります。また、Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプに接続して、ユーザーのエクスペリエンスを向上させ、ユーザーが 1 つのアプリケーションに集中できるようにすることもできます。
+<!--
+You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
 レコードタイプは、別のレコードタイプや、他のアプリケーションのオブジェクトタイプを持つレコードタイプに接続できます。
 
-これにより、リンクされたレコードまたはオブジェクトタイプのフィールドを別の Workfront Planning レコードに表示できます。
+ここでは、2 つのWorkfront Planning レコードタイプをWorkfront Planning レコードタイプと別のアプリケーションのオブジェクトに関連付ける方法について説明します。
 
-この記事では、Workfront Planningの 2 つのレコードタイプを接続する方法と、レコードタイプを別のアプリケーションのオブジェクトに接続する方法について説明します。
-
-レコードまたはオブジェクトタイプ間の接続を確立した後で、個々のレコードを相互に接続できます。
+レコード間またはオブジェクト タイプ間の関連付けを確立した後、個々のレコードを相互に関連付けて、Workfront Planning レコードにリンクされたレコードまたはオブジェクト タイプのフィールドを表示することができます。
 
 Workfront Planning レコードを別のアプリケーションのオブジェクトに接続する方法については、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
-レコードタイプを連結する例については、[レコードタイプとレコードの連結例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)を参照してください。
+レコードタイプとレコードの接続例については、を参照してください。 [レコードタイプとレコードの接続の例](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -75,9 +74,10 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>任意</p> 
+   <p>新規：標準</p> 
+   <p>現在：プラン</p>
   </td>
   </tr>
 
@@ -100,6 +100,7 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
  </tbody>
 </table>
 
+*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -113,7 +114,7 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 
-## レコードタイプの接続に関する考慮事項
+## レコードタイプの連結に関する考慮事項
 
 * Workfront Planning では、次のエンティティを接続できます。
 
@@ -122,7 +123,7 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
      レコードタイプは、同じワークスペースに属している必要があります。
    * 1 つのレコードタイプと、別のアプリケーションの 1 つのオブジェクトタイプ
 
-* 以下のアプリケーションの下記オブジェクトタイプを Workfront Planning レコードタイプに接続できます。
+* Workfrontの計画レコードタイプを次のアプリケーションの次のオブジェクトタイプと結び付けることができます。
 
    * Adobe Workfront:
 
@@ -159,10 +160,10 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
         詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
-      * 計画レコードまたはそのフィールドには、Workfrontからアクセスできません。
-      * Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、を参照してください [Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピング設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja).
+      * 計画レコードフィールドには、Workfront オブジェクトからアクセスできません。
+      * Workfront管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Experience Managerのアセットから計画レコードフィールドにアクセスできます。 詳しくは、を参照してください [Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピング設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja).
 
-   * **接続先のレコードまたはオブジェクトのルックアップフィールドを追加する場合**：他のアプリケーションのオブジェクトのフィールドを Workfront Planning レコードタイプに接続できます。これらは、リンクされたフィールドまたはルックアップフィールドです。レコードまたはオブジェクトを接続すると、リンクされたフィールドに、接続されたレコードまたはオブジェクトの情報が自動的に表示されます。リンクされたルックアップフィールドは常に読み取り専用で、接続されたレコードまたはオブジェクトの値が自動的に設定されます。
+   * **リンク先のレコードまたはオブジェクトのリンク済み（またはルックアップ）フィールドを追加したとき**：他のアプリケーションのオブジェクトのフィールドをWorkfront Planning のレコードタイプに接続できます。 リンクされたフィールドは読み取り専用で、レコードまたはオブジェクトを接続すると、接続されたレコードまたはオブジェクトの情報が自動的に表示されます。
 
      例えば、「キャンペーン」レコードタイプを Workfront プロジェクトに接続し、プロジェクトの「予定完了日」フィールドを Workfront Planning レコードに取り込むと、キャンペーンに対して（プロジェクトからの）「予定完了日」という名前のリンクされたフィールドが自動的に作成されます。このリンクされたフィールドを手動で編集することはできません。（プロジェクトからの）「予定完了日」フィールドには、リンクされたプロジェクトの予定完了日が表示されます。
 
@@ -195,6 +196,8 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
    * 選択したワークスペースのセクションにある別のレコードタイプ
 
+     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
+
      >[!TIP]
      >
      >選択したワークスペースのレコードタイプのみに接続できます。
@@ -202,18 +205,20 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
      >選択したワークスペースに他のレコードタイプがない場合、ワークスペースセクションは表示されません。
 
    * 「**Workfront オブジェクトタイプ**」セクションの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
+
+     ![](assets/workfront-project-connection-selection.png)
+
    * 「**Adobe アプリケーション**」セクションからの **Experience Manager Assets**。
 
-   ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     ![](assets/aem-assets-connection-selection.png)
 
 1. 次の情報を更新します。
 
-   * **名前**：テーブルビューまたは元のレコードタイプのレコードページに表示される、接続されたフィールドの名前。これにより、元のレコードタイプのテーブルビューまたは元のレコードのリンクされたレコードフィールドに、リンクされたレコード列が作成されます。
+   * **名前**：テーブルビューまたは元のレコードタイプのレコードページに表示される、接続されたフィールドの名前。これにより、元のレコードタイプのテーブル ビュー、または元のレコードのリンクされたレコードフィールドに、リンクされたレコード列が作成されます。 デフォルトでは、フィールド名は接続先のレコードまたはオブジェクトの名前です。
 
    >[!TIP]
    >
-   >新しいフィールドがどのレコードタイプから取得されているかを把握するために、接続されたレコードフィールドの名前にリンク先のレコードの名前を含めることをお勧めします。リンクされたレコード名は、新しくリンクされたレコードフィールドまたはリンクされたフィールドには表示されません。
+   >同じレコードまたはオブジェクトタイプへの複数の接続を持つことができます。 連結フィールド名を編集しない場合、Workfrontでは、連結されたレコードの名前の後に数字が追加され、連結されたレコードの種類の数が同じ名前で示されます。
 
    * **説明**：接続されたレコードのフィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **複数のレコードを許可**：リンクされたレコードタイプのフィールドが元のレコードに表示される場合に、ユーザーが複数のレコードを追加できるようにするには、このオプションを選択します。これはデフォルトで選択されています。
@@ -230,32 +235,23 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
 1. （条件付きおよびオプション）Workfront オブジェクトの接続を選択した場合、「**これらの条件に一致するオブジェクトのみをリンク**」セクションから「**カスタムフォーム**」を選択します。選択したカスタムフォームがアタッチされているオブジェクトのみを、選択したレコードタイプにリンクできます。複数のフォームを選択できます。
 
-   ![](assets/workfront-project-connection-selection.png)
-
    >[!NOTE]
    >
    > このリストに表示される前に、選択したオブジェクトのカスタムフォームを Workfront で作成する必要があります。
 
 1. （条件付き）Experience Manager Assets への接続を選択した場合、「**次のリポジトリからアセットをリンク**」セクションの **Experience Manager リポジトリ**&#x200B;ドロップダウンメニューからリポジトリを選択します。必須フィールドです。このフィールドには、Experience Manager Assets でアクセス権のあるリポジトリのみが表示されます。
 
-   <!--replace the screen shot below when they fix the permissions info icon bug-->
-
-   ![](assets/aem-assets-connection-selection.png)
-
    >[!NOTE]
    >
    >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、を参照してください [Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピング設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja).
 
-<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプへの接続を選択した場合、 **タイトル** での切り替え **レコードの外観** リンクされたレコードやアセットのタイトルを「リンク」フィールドに表示したくない場合は、「」領域を選択します。 無効にすると、リンクされたフィールドにレコードのサムネールのみが表示されます。 サムネール画像のないレコードには、代わりに画像アイコンが表示されます。 この切替スイッチはデフォルトで有効になっています。 接続されたレコードの表示方法の例は、にあります **レコードの外観** 領域。
 
-1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
-
-    >[!TIP]
-    >
-    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
-    >
-    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
--->
+   >[!TIP]
+   >
+   >    複数のレコードをリンクできるようにすると、サムネールのみを表示して、レコードビューなどの小さな領域のスペースを節約できる場合があります。
+   >
+   >レコードのタイトルは、レコードのプライマリフィールドです。 詳しくは、を参照してください [プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. 「**作成**」をクリックします。
 
@@ -276,14 +272,13 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
    >    ワークスペースに対する表示権限以上の権限を持つユーザーは、リンクされたオブジェクトタイプのアプリケーションでの権限やアクセスレベルに関係なく、リンクされたフィールドの情報を表示できます。
 
 
-1. （オプション）「**スキップ**」をクリックして、リンクされたレコードやオブジェクトからフィールドを追加しないようにします。リンクされたレコードの&#x200B;**名前**&#x200B;は、元のレコードのテーブルビューに唯一表示されるフィールドです。
+1. （任意）クリック **スキップ** リンクされたレコードまたはオブジェクトタイプからのフィールドの追加をスキップする。 この **名前** または **タイトル** のリンクされたレコードは、接続先のレコードタイプのテーブル表示に表示されるフィールドです。
 
 1. （オプションおよび条件付き）数値、通貨、パーセンテージまたは日付タイプのフィールドをリンクすることを選択する場合は、アグリゲータ値も選択します。ユーザーがリンクされたレコードフィールドで複数のリンクされたレコードを選択した場合、リンクされたフィールドの値は、コンマで区切られるか、選択したアグリゲータに従って集計された値として表示されます。
 
    >[!IMPORTANT]
    >
-   >    日付フィールドをタイムライン表示とカレンダー表示の開始日および終了日として追加できるようにする場合、日付フィールドを追加する際にアグリゲータ値を選択する必要があります。
-
+   >    参照日フィールドをタイムライン ビューとカレンダービューの開始日および終了日として追加できるようにする場合は、フィールドを追加するときにアグリゲータ値を選択する必要があります。 例えば、参照日フィールドには、MAXまたは MIN アグリゲータを選択できます。
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 
@@ -321,9 +316,9 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
    次のアイテムが追加されます。
 
-   * リンク元のレコードタイプ上のリンクされたレコードフィールド。リンクされたレコードタイプの個別のレコードが手動で追加された後、リンクされたレコードフィールドに表示されます。レコードの追加について詳しくは、[レコードを接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。リンクされたレコードフィールドの名前は、手順 6 で選択した名前です。<!--accurate-->
+   * リンク元のレコードタイプ上のリンクされたレコードフィールド。リンクされたレコードタイプの個別のレコードが手動で追加された後、リンクされたレコードフィールドに表示されます。レコードの追加について詳しくは、[レコードを接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。リンクされたレコードフィールドの名前は、手順 7 で選択した名前です。<!--accurate-->
 
-   * リンクされたレコードフィールドに手動でレコードまたはオブジェクトを追加した後に、リンクされたレコードまたはオブジェクトタイプのフィールドの情報を表示する、リンクされたフィールド（複数可）。リンクされたフィールドは、接続の作成時に&#x200B;**ルックアップフィールドを選択**&#x200B;設定が選択されている場合にのみ作成されます。リンクされたフィールドは、次のパターンに従って自動的に名前が付けられます。
+   * リンク レコード フィールドにレコードまたはオブジェクトを手動で追加した後、リンク レコードまたはオブジェクト タイプに関する情報を表示するリンク （またはルックアップ） フィールド。 参照フィールドは、 **参照フィールドを選択** 設定は、接続の作成時に選択します。 参照フィールドには、次のパターンに従って自動的に名前が付けられます。
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
@@ -339,7 +334,7 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
 1. （オプションおよび条件付き）元のレコードタイプまたはリンクされたレコードタイプのテーブルビューで、リンクされたレコードフィールドのヘッダーにある下向き矢印をクリックし、次のいずれかをクリックします。
 
-   * **フィールドを編集**：更新できるのは、フィールドの&#x200B;**名前**&#x200B;と&#x200B;**説明**&#x200B;情報のみです。
+   * **フィールドを編集**：更新できます **名前** および **説明** フィールドの情報。
    * **ルックアップフィールドを編集**：任意のリンクされたレコードのフィールドを追加または削除します。
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 12%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 12%
    * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 * Workfront オブジェクトにはレコードが関連付けられていない場合でも、Workfront オブジェクトの「プランニング」セクションを表示できます。
 * 1 つ以上のレコードがWorkfront オブジェクトに接続されている場合は、「計画」セクションのWorkfrontのWorkfront オブジェクトに計画レコードを関連付けることができます。
-* Workfront オブジェクトからレコードを接続するには、ワークスペースに対する投稿以上の権限が必要です。
+* Workfront オブジェクトからレコードを接続するには、ワークスペースに対する管理権限が必要です。
 
 ## 計画セクションのレコードの管理
 
@@ -138,7 +138,7 @@ Workfront Planning にオブジェクトのページが開きます。
 
 1. レコードカードをクリックすると、レコードに関する詳細情報が表示されます。 レコードのプレビューボックスが表示されます。
 1. （オプション）レコードのプレビューボックスのフィールドの変更を開始します。 変更内容は自動的に保存されます。
-1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) プレビューボックスの右上隅でをクリックして、レコードの詳細ページを開きます。
+1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) プレビューボックスの右上隅でをクリックして、レコードの詳細ページを開きます。 Workfront Planning にレコードの詳細ページが開きます。
 1. レコードカードの上にマウスポインターを置き、レコードを切断アイコンをクリックします **-**&#x200B;を選択し、 **連携解除**.
 次のことが発生します。
    * レコードがWorkfront オブジェクトに接続されなくなりました。
@@ -148,7 +148,7 @@ Workfront Planning にオブジェクトのページが開きます。
 
    >[!NOTE]
    >
-   >   「接続」ボタンは、投稿権限を持つワークスペースに対してのみ表示されます。
+   >   「接続」ボタンは、投稿権限を持つワークスペースに対してのみ表示されます。 <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 接続するレコードをクリックします。 次のことが発生します。
 

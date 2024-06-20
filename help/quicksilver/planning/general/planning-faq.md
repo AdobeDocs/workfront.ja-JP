@@ -4,7 +4,7 @@ description: マーケティング業務のリーダーとして、Adobe Workfro
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
 workflow-type: tm+mt
 source-wordcount: '1630'
 ht-degree: 1%
@@ -13,6 +13,8 @@ ht-degree: 1%
 
 
 # Adobe Workfrontの計画に関するよくある質問
+
+{{planning-important-intro}}
 
 <!-- add to TOC and mini TOC-->
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '877'
 ht-degree: 66%
 
 ---
@@ -130,7 +130,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドの詳細については、を参照してください。 [テーブル表示の管理](/help/quicksilver/planning/views/manage-the-table-view.md).
+   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドの詳細については、を参照してください。 [テーブル表示の管理](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 

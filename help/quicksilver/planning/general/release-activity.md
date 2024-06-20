@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '7510'
-ht-degree: 71%
+source-wordcount: '7684'
+ht-degree: 70%
 
 ---
 
@@ -132,6 +132,30 @@ Workfront Planning のワークスペーステンプレートカードのルッ�
 レコードの詳細ページに 3 行以上で表示されるレコードがある場合、接続されたレコードフィールドに「詳細を表示/非表示」リンクを追加しました。
 
 詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+
+### レコードタイプを接続する際に、「名前」フィールドにレコード名を自動入力する
+
+実稼動：2024年6月20日（PT）
+
+プレビュー：未決定
+
+2 つのレコード間、または別のアプリケーションのレコードとオブジェクト間に接続を作成すると、接続フィールドの名前が、接続されたレコードの名前で自動的に設定されます。 この機能強化の前は、接続フィールドの名前を手動で追加する必要がありました。
+
+詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+### 接続されたフィールドでの接続されたレコードの表示方法の定義
+
+実稼動：2024年6月20日（PT）
+
+プレビュー：未決定
+
+接続されたフィールドでの接続されたレコードの表示方法を決定できるようになりました。 レコードタイプへの新しい接続を追加する際に、接続されたレコードのタイトルとサムネール、またはサムネールのみを表示するオプションが追加されました。
+
+レコードのタイトルは、レコードの名前か、レコードタイプのテーブルビューでプライマリフィールドとして設定されているフィールドです。
+
+この機能強化は、Workfront Planning から接続されたレコードと、Adobe Experience Managerから接続されたアセットで利用できます。
+
+詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 ## 2024年6月10日（PT）の週
 
@@ -564,6 +588,7 @@ Excel または CSV ファイルを使用したレコードタイプの読み込
 レコードタイプページのビューのルックアンドフィールを更新しました。新しいビューは動的にレスポンシブで、画面のサイズに合わせてすばやく調整されます。ツールバーを使いやすくするために、ツールバーオプションのラベルは小さい画面では非表示になっています。
 
 詳しくは、次の記事を参照してください。
+
 * [テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 

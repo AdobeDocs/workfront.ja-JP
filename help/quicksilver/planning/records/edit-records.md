@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 65%
+source-wordcount: '1678'
+ht-degree: 63%
 
 ---
 
@@ -115,6 +115,7 @@ ht-degree: 65%
 * [レコードタイプのテーブルビューから](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [ビュー内のレコードのプレビューから](#edit-a-record-from-the-records-preview-in-a-view)
 * [レコードのページから](#edit-a-record-from-the-records-page)
+* [「計画」セクションのWorkfrontオブジェクトから](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### レコードタイプのテーブルビューでレコードをインラインで編集
 
@@ -210,7 +211,7 @@ ht-degree: 65%
 
 1. （任意） **詳細** レコードのタイトルの右側にあるメニューをクリックしてから、 **名前を変更**. これにより、レコードのタイトルとして表示されるフィールドが更新されます。
 
-   レコードのタイトルは、テーブル表示で表示された場合、レコードのプライマリフィールドになります。 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+   レコードのタイトルは、テーブル表示で表示された場合、レコードのプライマリフィールドになります。 詳しくは、を参照してください [プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. レコードのプレビューのフィールド情報の編集を開始します。
 
@@ -280,3 +281,8 @@ ht-degree: 65%
 
    Workfront では、変更を自動的に保存します。
 
+## 計画セクションのWorkfrontオブジェクトからレコードを編集する
+
+レコードをWorkfront オブジェクトに関連付けた後、オブジェクトの「計画」セクションから、Workfront内のWorkfront計画レコードを編集できます。
+
+詳しくは、を参照してください [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
