@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 0411db95c2c4b85fdc09ec11ca90dec60deacbb7
+source-git-commit: a48f51de4de911605b84055cf115e649d5750ca4
 workflow-type: tm+mt
 source-wordcount: '14367'
 ht-degree: 97%
@@ -2239,9 +2239,9 @@ ht-degree: 97%
       * [Adobe Creative Cloud ライブラリモジュール](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic モジュール](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets モジュール](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-      * [Adobe I/Oイベントモジュール](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Adobe Experience Manager Forms モジュール](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Fireflyモジュール](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
+      * [Adobe I/Oイベントモジュール](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Adobe Journey Optimizer モジュール](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Lightroom モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Adobe PDF サービスモジュール](workfront-fusion/apps-and-their-modules/pdf-modules.md)
