@@ -8,10 +8,11 @@ title: Adobe Fireflyモジュール
 description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Adobe Firefly] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 37%
+source-wordcount: '1274'
+ht-degree: 35%
 
 ---
 
@@ -32,12 +33,12 @@ ht-degree: 37%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
@@ -117,7 +118,7 @@ ht-degree: 37%
 
 ![](assets/map-toggle-350x74.png)
 
-### カスタム API 呼び出しを実行
+### カスタム API 呼び出しの実行
 
 このアクションモジュールは、FireflyAPI へのカスタム呼び出しを行います。
 
@@ -177,6 +178,10 @@ ht-degree: 37%
    <td>画像を展開するコンテンツのプロンプトを入力またはマップします。 プロンプトが指定されない場合、画像は元の画像に一致するコンテンツで展開されます。</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL バリエーション数 ]</td> 
+   <td>1 ～ 4 の数字を入力してください。 モジュールは、この数の展開された画像バリエーションを生成します。</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL 拡張画像形式 ]</td> 
    <td>展開したイメージの保存先となるファイル形式を選択します。</td> 
   </tr> 
@@ -212,6 +217,10 @@ ht-degree: 37%
   <tr> 
    <td role="rowheader">[!UICONTROL プロンプト ]</td> 
    <td>イメージを埋めるコンテンツの入力を求めるプロンプトを入力またはマップします。 プロンプトが指定されない場合、画像には元の画像と一致するコンテンツが入力されます。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL バリエーション数 ]</td> 
+   <td>1 ～ 4 の数字を入力してください。 このモジュールは、この数の入力画像のバリエーションを生成します。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 塗り潰し画像形式 ]</td> 
@@ -253,6 +262,10 @@ ht-degree: 37%
   <tr> 
    <td role="rowheader">[!UICONTROL プロンプト ]</td> 
    <td>作成するイメージのプロンプトを入力またはマップします。 プロンプトの詳細を使用すると、画像に表示されるものを詳細に制御できます。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL バリエーション数 ]</td> 
+   <td>1 ～ 4 の数字を入力してください。 モジュールは、この数の画像バリエーションを生成します。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL で生成されたイメージ形式 ]</td> 
@@ -297,5 +310,3 @@ ht-degree: 37%
   </tr> 
  </tbody> 
 </table>
-
-
