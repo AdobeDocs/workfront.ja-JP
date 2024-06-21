@@ -6,16 +6,42 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 4ab71bfa3d93da8250748ba5aaa90f01dda9d8e3
+exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
+source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 21%
+source-wordcount: '207'
+ht-degree: 34%
 
 ---
 
 # AI アシスタントを有効または無効にする
 
 Workfront管理者は、組織内で AI アシスタントを有効にしているユーザーを制御できます。 これはアクセスレベルで管理します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+## Workfrontでの AI アシスタントの有効化または無効化
 
 AI アシスタントはデフォルトで有効になっています。
 
@@ -26,5 +52,5 @@ AI アシスタントはデフォルトで有効になっています。
 1. AI アシスタントを無効にする対象のアクセスレベルを選択します。
 1. アクセスレベルを編集ウィンドウで、ウィンドウの下部までスクロールし、をクリックします **追加の制限を設定…**.
 1. 「追加の制限を設定」領域で、オプションを有効にします **Workfront AI アシスタントの無効化**.
-1. 「**保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。
 1. AI アシスタントを無効にするアクセスレベルごとに、手順 3 ～ 6 を繰り返します。
