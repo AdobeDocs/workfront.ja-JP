@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1301'
 ht-degree: 35%
 
 ---
@@ -242,7 +242,7 @@ ht-degree: 35%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL シード ]</td> 
-   <td>整数を入力またはマッピングします。 この同じシードを別の画像を展開モジュールで使用して、異なるスタイルの類似した画像を生成することができます。 </td> 
+   <td>モジュールが生成する各画像に対して、をクリックします <b>項目を追加<b> 整数を入力またはマッピングします。 この同じシードを別の画像を展開モジュールで使用して、異なるスタイルの類似した画像を生成することができます。 追加するシードの数は、「バリエーション数」フィールドと同じ数にする必要があります。</td> 
   </tr> 
  </tbody> 
 </table>
