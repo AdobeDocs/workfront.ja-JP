@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
-ht-degree: 97%
+source-wordcount: '4384'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ API の使用は、実稼動環境で実行する前に、Workfront ベータ環
 
 ## Workfront API の URL
 
-Workfront API を呼び出すために使用する URL について詳しくは、 [Adobe Workfront API 呼び出しのドメイン形式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
+Workfront API を呼び出すために使用する URL について詳しくは、[Adobe Workfront API 呼び出しのドメイン形式](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)を参照してください。
 
 ## REST の基本
 
@@ -99,7 +99,7 @@ API はリクエストごとに認証を行い、リクエストされたオブ�
 
 #### リクエストヘッダー認証
 
-推奨される認証方法は、セッショントークンを含む SessionID という名前のリクエストヘッダーを渡すことです。[クロスサイトリクエストフォージェリー（CSRF）](https://en.wikipedia.org/wiki/Cross-site_request_forgery)攻撃に対して安全で、キャッシュ目的で URI に干渉することがありません。
+推奨される認証方法は、セッショントークンを含む SessionID という名前のリクエストヘッダーを渡すことです。[クロスサイトリクエストフォージェリー（CSRF）](https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%B5%E3%82%A4%E3%83%88%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%AA)攻撃に対して安全で、キャッシュ目的で URI に干渉することがありません。
 
 リクエストヘッダーの例を次に示します。
 
@@ -363,13 +363,13 @@ OR ステートメントは、OR ステートメントのフィルタリング�
 #### 名前付きクエリの使用
 
 一部のオブジェクトタイプには、一般的に実行される名前付き検索があり、クエリの名前をオブジェクトタイプ URI の末尾に追加することで使用できます。例えば、次のリクエストでは、ユーザーに現在割り当てられている作業アイテム（タスクとイシュー）を取得します。
-<pre>/attask/api/v15.0/work/myWork</pre>名前付きクエリは、フィールドパラメーターに対する追加のフィールド取得のリクエストをサポートしています。名前付きクエリの中には、追加のフィルターを受け入れるものもあります。オブジェクトで使用可能な名前付きクエリのリストについては、[API Explorer]（../../wf-api/general/api-explorer.md）のオブジェクトで「アクション」タブを参照してください。
+<pre>/attask/api/v15.0/work/myWork</pre>名前付きクエリは、フィールドパラメーターに対する追加のフィールド取得のリクエストをサポートしています。名前付きクエリの中には、追加のフィルターを受け入れるものもあります。オブジェクトで使用可能な名前付きクエリのリストについては、[API Explorer] （https://developer.adobe.com/workfront/api-explorer/）でオブジェクトの「アクション」タブを参照してください。
 
-#### 使用 `Count`
+#### `Count` の使用
 
-次を使用できます `count` クエリに一致する結果の数を返します。 これは、結果にデータが必要ない場合に役立ちます。 カウントのみを返すことで、サーバーはリクエストをより迅速に処理し、帯域幅を節約できます。 例えば、次のリクエスト：
+`count` を使用して、クエリに一致する結果の数を返します。これは、結果にデータが必要ない場合に役立ちます。カウントのみを返すことで、サーバーはリクエストをより迅速に処理し、帯域幅を節約できます。例えば、次のリクエスト：
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>の場合、結果の数を次の形式で返します。
-<pre>{<br>    "count": 3 <br>}</pre>カウントを返すデータ転送は、オブジェクト全体が返される場合よりも大幅に小さくなります。 構文は search コマンドと同じです。
+<pre>{<br>    "count": 3 <br>}</pre>カウントを返す方が、完全なオブジェクトが返される場合よりも、データ転送は大幅に少なくなります。構文は search コマンドと同じです。
 
 ### レポートのリクエスト
 
