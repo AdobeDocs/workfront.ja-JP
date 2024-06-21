@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1060'
 ht-degree: 15%
 
 ---
@@ -65,9 +65,9 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
   <tr>
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>新規：ライト以上</p>
+   <p>新規：標準</p>
    または
-   <p>現在：ワーク以上</p> 
+   <p>現在：プラン</p> 
   </td>
   </tr>
 
@@ -78,7 +78,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
   </tr>
 <tr>
    <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する管理以上の権限</a> </p>  
+   <td> <p>ワークスペースへの権限の管理</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
 </td>
   </tr>

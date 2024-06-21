@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
-ht-degree: 70%
+source-wordcount: '7781'
+ht-degree: 69%
 
 ---
 
@@ -156,6 +156,16 @@ Workfront Planning のワークスペーステンプレートカードのルッ�
 この機能強化は、Workfront Planning から接続されたレコードと、Adobe Experience Managerから接続されたアセットで利用できます。
 
 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+### ワークスペース（タイトル）に対する管理権限を持つことができるのは、標準ライセンスまたはプランライセンスのユーザーのみです
+
+実稼動：2024年6月21日（PT）
+
+プレビュー：未決定
+
+ワークスペースへのフルアクセス権を持つユーザーのタイプを変更しました。 現在は、標準ライセンスまたはプランライセンスのユーザーのみが、ワークスペースに対する管理権限を持つことができます。 レコードタイプ、レコードおよびフィールドへのアクセスは、ワークスペースから継承されます。 その他のすべてのユーザーは、ワークスペースとそのオブジェクトタイプに対して表示のみのアクセス権を持ちます。 このアップデート以前は、Light および Worker ライセンスのユーザーは、ワークスペースに対するContribute権限を受け取っていました。
+
+詳しくは、を参照してください [Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## 2024年6月10日（PT）の週
 
@@ -366,7 +376,7 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 >
 >フィールドの設定が変更されたという通知は他のユーザーには送信されません。
 
-詳しくは、を参照してください [フィールドを編集](/help/quicksilver/planning/fields/edit-fields.md).
+詳しくは、を参照してください [フィールド設定を編集](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## 2024年5月6日（PT）の週
 

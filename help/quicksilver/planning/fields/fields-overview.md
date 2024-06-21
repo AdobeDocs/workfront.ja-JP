@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ hide: yes
 
   フィールドの管理については、以下の記事も参照してください。
 
-   * [フィールドの編集](/help/quicksilver/planning/fields/edit-fields.md)
+   * [フィールド設定を編集](/help/quicksilver/planning/fields/edit-fields.md)
    * [フィールドを削除](/help/quicksilver/planning/fields/delete-fields.md)
 
 * レコードタイプに関連付けられたフィールドは、そのタイプのすべてのレコードに関連付けることができます。<!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->

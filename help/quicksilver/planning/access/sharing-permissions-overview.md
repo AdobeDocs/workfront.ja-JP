@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 77%
+source-wordcount: '663'
+ht-degree: 67%
 
 ---
 
@@ -41,20 +41,25 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
 * ビュー
 
+  ワークスペースへのアクセス権限とは別に、ビューへのアクセス権限をユーザー（システム管理者を含む）に付与する必要があります。 詳しくは、を参照してください [ビューの共有](/help/quicksilver/planning/access/share-views.md).
+
+ワークスペースまたはビューは次のエンティティと共有できます。
+
+* ユーザー
+* グループ
+
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## Adobe Workfront Planning でのオブジェクトの共有に関する考慮事項
 
-* Adobe Workfront ライセンスタイプは Workfront Planning の権限と連動して機能し、Workfront Planning の使用時にオブジェクトの表示、投稿、管理を行うアクセス権を付与します。
+* Adobe Workfrontのライセンスタイプは、Workfront Planning の権限と組み合わせて機能し、ワークスペースとそのオブジェクトの表示、投稿、管理に対するアクセス権を付与します。
 
   ライセンスタイプが Workfront Planning の権限レベルに与える影響については、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
-* システム管理者は、他のユーザーが作成したワークスペースを管理および共有できます。
-* システム管理者でない場合は、他のユーザーが作成したワークスペースに参加できます（ワークスペースが共有されている場合）。
-* ワークスペースやビューを一括で共有することはできません。
-* ワークスペースまたはビューは次のエンティティと共有できます。
-   * ユーザー
-   * グループ
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+* システム管理者は、未作成のワークスペースを含め、システム内のすべてのワークスペースを管理できます。
 * システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。システム管理者には、ビューの管理権限のみを付与できます。
-* ワークスペースへのリンクや、レコードタイプのページからのビューへのリンクを他のユーザーと共有できます。リンクを受け取ったユーザーが、選択したビューに表示されるワークスペースまたはレコードタイプのページにアクセスできるようにするには、そのユーザーはアクティブユーザーであり、Workfront にログインする必要があります。
+* ワークスペースまたはビューへのリンクを他のユーザーと共有できます。
+
+  リンクを受け取ったユーザーが、選択したビューに表示されるワークスペースまたはレコードタイプのページにアクセスできるようにするには、そのユーザーはアクティブユーザーであり、Workfront にログインする必要があります。
 
 ## Adobe Workfront Planning オブジェクトに対する権限の共有
 
@@ -63,6 +68,8 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 >[!IMPORTANT]
 >
 >以下に示された権限のレベルは、すべてのユーザーに付与できるわけではありません。Workfront Planning オブジェクトに対して持つことができる権限のレベルは、ユーザーの個々のライセンスによって決まります。
+>
+>ワークスペースに対するContribute権限または管理権限を持つことができるのは、標準（またはプラン）ライセンスのユーザーのみです。
 >
 >詳しくは、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
 
@@ -75,9 +82,6 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 * レコードタイプ
 * レコード
 * フィールド
-* ビュー*
-
-  *ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ワークスペースのビューにもアクセスできるようにすることができます。 これは、ビューを共有する際に有効にする必要がある追加の権限です。 詳しくは、を参照してください [ビューの共有](/help/quicksilver/planning/access/share-views.md).
 
 ワークスペースの権限のレベルは次のとおりです。
 

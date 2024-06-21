@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a48f51de4de911605b84055cf115e649d5750ca4
+source-git-commit: 1b6d807e3ec560974632bb6667e576efc13a0827
 workflow-type: tm+mt
-source-wordcount: '14367'
+source-wordcount: '14368'
 ht-degree: 97%
 
 ---
@@ -2071,7 +2071,7 @@ ht-degree: 97%
       * [フィールド：記事インデックス](planning/fields/fields-information.md)
       * [フィールドの概要](planning/fields/fields-overview.md)
       * [フィールドの作成](planning/fields/create-fields.md)
-      * [フィールドの編集](planning/fields/edit-fields.md)
+      * [フィールド設定を編集](planning/fields/edit-fields.md)
       * [フィールドの削除](planning/fields/delete-fields.md)
       * [数式フィールドの概要](planning/fields/formula-fields.md)
       * [プライマリフィールドの概要](planning/fields/primary-field-overview.md)

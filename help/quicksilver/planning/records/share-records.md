@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 96%
+source-wordcount: '419'
+ht-degree: 90%
 
 ---
 
@@ -135,4 +135,8 @@ ht-degree: 96%
 
 ## ワークスペースを共有することで、ワークスペース内のすべてのレコードを共有します。
 
-ワークスペースを他のユーザーと共有する際に、ワークスペース内のすべてのレコードを共有できます。詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
+ワークスペースを他のユーザーと共有する場合は、ワークスペース内のすべてのレコードを共有できます。
+
+ワークスペースに対する管理権限を持つユーザーのみが、そのワークスペースを他のユーザーと共有できます。
+
+詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。

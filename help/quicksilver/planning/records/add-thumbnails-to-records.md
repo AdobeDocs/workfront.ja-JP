@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '777'
 ht-degree: 39%
 
 ---
@@ -56,9 +56,10 @@ ht-degree: 39%
   <tr>
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>現在：ワーク以上</p>
-   <p>新規：標準</p>  
-  </td>
+   <p>新規：標準</p> 
+   <p>現在：プラン</p>
+
+</td>
   </tr>
 
 <tr>

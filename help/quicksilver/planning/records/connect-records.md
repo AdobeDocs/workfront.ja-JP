@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2585'
 ht-degree: 80%
 
 ---
@@ -92,14 +92,15 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>任意</p> 
+   <p>新規：標準</p>
+   <p>現在：プラン</p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>アクセスレベル設定</p></td>
+   <td role="rowheader"><p>アクセスレベルの設定</p></td>
    <td> <p>Workfront Planning に対するアクセスレベルのコントロールはありません</p>  
 </td>
   </tr>
@@ -120,6 +121,8 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 </tbody>
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
