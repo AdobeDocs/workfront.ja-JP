@@ -4,14 +4,15 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: 「Adobe I/O・イベント・モジュール」
-description: 「Adobe I/Oイベントモジュールを使用すると、Adobeアプリケーションのイベントに基づいてAdobe Workfront Fusion シナリオを開始できます」。
+title: Adobe I/Oイベントモジュール
+description: Adobe I/Oイベントモジュールを使用すると、Adobeアプリケーションのイベントに基づいてAdobe Workfront Fusion シナリオを開始できます。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 508f21b6860f13a9cf2a5b19713ed70aaba638c3
+exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
+source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 43%
+source-wordcount: '912'
+ht-degree: 42%
 
 ---
 
@@ -113,7 +114,7 @@ Adobe I/Oイベントモジュールの接続を作成するには：
       </tr>
       <tr>
         <td role="rowheader">ワークスペース ID</td>
-        <td>ワークスペース ID を入力します。 </td>
+        <td>プロジェクトの Workspace ID を表示するには、Adobe Developer コンソールのプロジェクトの概要ページからプロジェクトの詳細をダウンロードします。 </td>
       </tr>
     </tbody>
     </table>
@@ -341,4 +342,3 @@ This trigger module starts a scenario when an event occurs in the chosen Adobe p
 </table>
 
 -->
-
