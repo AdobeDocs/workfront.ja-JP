@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2524'
-ht-degree: 99%
+source-wordcount: '2561'
+ht-degree: 96%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>プロジェクトまたは親タスクの完了率は、タスクの全体的な進捗状況に基づきます。この情報は、プロジェクトのタスクの期間または予定時間数に基づいて計算できます。</p> <p>「[!UICONTROL Duration]」を選択した場合、プロジェクト内の各タスクの期間でプロジェクトの全体的な完了率が決まり、各サブタスクの期間で親タスクの全体的な完了率が決まります。</p> <p>「[!UICONTROL Duration]」を選択した場合は、「[!UICONTROL Timelines]」セクションで「[!UICONTROL Typical hours per work day]」と「[!UICONTROL Typical work days per week]」を必ず指定してください。[!DNL Workfront] では、期間に基づいてタスクの完了率を計算する際にこの情報を使用します。 </p> <p>「[!UICONTROL Planned Hours]」を選択する場合、各プロジェクトのすべてのタスクに「[!UICONTROL Planned Hours]」の数値が定義されており、その数値がゼロでないことを確認します。</p> </td> 
+   <td> <p>Workfrontは、プロジェクト内の各タスクの完了率と、各タスクの期間または予定時間を使用して、プロジェクトまたは親タスクの完了率を計算します。</p><p>各タスクの完了率は、タスクの担当者が手動で設定します。</p><p>ここで、Workfrontでタスクの期間または予定時間数を使用してプロジェクトの完了率を計算するかどうかを選択できます。</p> <p>「[!UICONTROL Duration]」を選択した場合、プロジェクト内の各タスクの期間でプロジェクトの全体的な完了率が決まり、各サブタスクの期間で親タスクの全体的な完了率が決まります。</p> <p>「[!UICONTROL Duration]」を選択した場合は、「[!UICONTROL Timelines]」セクションで「[!UICONTROL Typical hours per work day]」と「[!UICONTROL Typical work days per week]」を必ず指定してください。[!DNL Workfront] では、期間に基づいてタスクの完了率を計算する際にこの情報を使用します。 </p> <p>「[!UICONTROL Planned Hours]」を選択する場合、各プロジェクトのすべてのタスクに「[!UICONTROL Planned Hours]」の数値が定義されており、その数値がゼロでないことを確認します。</p><p>詳しくは、を参照してください <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">プロジェクト完了率の概要</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
