@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1b6d807e3ec560974632bb6667e576efc13a0827
+source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
 workflow-type: tm+mt
-source-wordcount: '14368'
-ht-degree: 97%
+source-wordcount: '14373'
+ht-degree: 96%
 
 ---
 
@@ -454,6 +454,7 @@ ht-degree: 97%
          * [プロジェクトタイムラインの再計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [プロジェクトのカスタム四半期](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [組織の高速リリースを有効化または無効化](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+         * [ビジネス・ルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [場所を設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [評価カードを管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * スケジュールとタイムシートの環境設定の指定 {#configure-timesheets-schedules}
