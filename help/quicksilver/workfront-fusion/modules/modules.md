@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '65'
 ht-degree: 100%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 100%
 * [モジュールのタイプ](../../workfront-fusion/modules/module-types.md)
 * [ [!DNL Adobe Workfront Fusion] でのモジュールの設定](../../workfront-fusion/modules/configure-a-modules-settings.md)
 * [ [!DNL Adobe Workfront Fusion] でのトリガーモジュールの起動場所の選択](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
+* [ [!DNL Adobe Workfront Fusion] のインスタントトリガー（Web フック）](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)
 * [ [!DNL Adobe Workfront Fusion] のデータストア](../../workfront-fusion/modules/data-stores.md)
 * [ [!DNL Adobe Workfront Fusion] のデータ構造](../../workfront-fusion/modules/data-structures.md)
 * [ [!DNL Adobe Workfront Fusion] のアグリゲータモジュール](../../workfront-fusion/modules/aggregator-module.md)

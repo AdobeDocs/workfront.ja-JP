@@ -3,97 +3,99 @@ user-type: Admin
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
-title: Adobe Admin ConsoleへのWorkfrontの移行について
-description: Workfront製品およびAdobe Admin Consoleへのユーザーの移行について
+title: Adobe Admin Console への Workfront の移行について
+description: この記事では、一般的な用語で組織をAdobe Admin Consoleに移行するプロセスを説明します。これにより、Workfront管理者は移行の見通しを把握できます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 0a638b143d2de4b8ff2948e701ee90acbd1ab857
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 0%
+source-wordcount: '1114'
+ht-degree: 94%
 
 ---
 
-# Adobe Admin ConsoleへのWorkfrontの移行について
+# Adobe Admin Console への Workfront の移行について
 
-Adobeは、Adobe Workfrontユーザーの管理方法を変え、ユーザーや組織の生産性を高めています。 この変更の一環として、Adobeは、WorkfrontインスタンスとユーザーをAdobe Admin Consoleに移行中です。 これは移行が必要で、レポート、承認パス、コンテンツ、アセットには影響しません。 ユーザーアクセスの管理方法やユーザーのログイン方法に影響を与えます。
+アドビは、Adobe Workfront ユーザーの管理方法を変更し、ユーザーや組織の生産性を高めます。この変更の一環として、アドビは、Workfront のインスタンスとユーザーを Adobe Admin Console に移行中です。これは必要な移行であり、レポート、承認パス、コンテンツ、アセットには影響しません。ユーザーアクセスの管理方法やユーザーのログイン方法に影響を与えます。
 
-Adobe Admin Consoleを使用して組織全体のAdobe使用権限を管理する方法については、 [Adobe Admin Consoleでのユーザー管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+この記事では、一般的な用語で組織をAdobe Admin Consoleに移行するプロセスを説明します。これにより、Workfront管理者は移行の見通しを把握できます。
 
-## 変更点
+Adobe Admin Console を使用して組織全体の Adobe 使用権限を管理する方法については、[Adobe Admin Console でのユーザー管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
 
-移行の一環として、ユーザー管理は、次の管理者の役割を持つWorkfrontアプリケーション内からAdobe Admin Consoleに移行します。
+## 変わること
 
-* **システム管理者** は、すべての管理者の権限を持つスーパーユーザーです。 すべての管理者ロールを割り当て、すべての製品に対して組織全体のユーザーを管理します。
+移行の一環として、ユーザー管理が Workfront アプリケーション内から Adobe Admin Console に移行し、次の管理者の役割を持つようになります。
 
-* **製品プロファイル管理者 (Workfrontシステム管理者 )** 組織内のどのユーザーがWorkfrontにアクセスできるかを管理します。
+* **システム管理者**&#x200B;は、すべての管理権限を持つスーパーユーザーです。すべての管理者の役割を割り当て、すべての製品に対する組織全体のユーザーを管理します。
 
-* **ユーザーはAdobeID でログインします。** Adobeが既存のAdobeをAdobe Admin Consoleに移行すると、ユーザーは新しいユーザー ID(Adobe IDまたはAdobeFederated ID(SSO)) を使用してWorkfrontインスタンスにログインします。
+* **製品プロファイル管理者（Workfront システム管理者）**&#x200B;は、組織内のどのユーザーが Workfront にアクセスできるかを管理します。
 
-* **その他のすべての機能の管理方法に変更はありません** 機能、ユーザーの役割、ワークスペース、機能および動作の管理を含め、Workfrontアプリケーション自体内で使用できます。
+* **ユーザーは Adobe ID でログインします。** アドビが既存のユーザーを Adobe Admin Console に移行すると、ユーザーは新しいユーザー ID（Adobe ID または Adobe Federated ID（SSO））を使用して Workfront インスタンスにログインします。
+
+* 機能、ユーザーの役割、ワークスペース、機能、動作の管理を含む、Workfront アプリケーション自体の&#x200B;**他のすべての機能の管理方法に変更はありません**。
 
 ## 移行ジャーニーのタイムライン
 
-Adobeは、最初にWorkfrontインスタンスをAdobe Admin Consoleに移行してから、検証済みの電子メールアドレスを持つ既存のすべてのユーザーを移行します。 システム管理者またはWorkfront製品プロファイル管理者 (Workfront System 管理者 ) の場合、移行プロセスをガイドする電子メールが届きます。 以下に、期待できるタイムラインを示します。
+アドビは、最初に Workfront インスタンスを Adobe Admin Console に移行してから、検証済みのメールアドレスを持つ既存のユーザーをすべて移行します。システム管理者または Workfront 製品プロファイル管理者（Workfront システム管理者）には、移行プロセスを案内するメールが届きます。以下はそのタイムラインです。
 
-### WorkfrontからAdobe Admin Consoleへの移行の完了
+### Workfront から Adobe Admin Console への移行の完了
 
-Adobe Admin ConsoleへのWorkfrontの移行が完了すると、システム管理者に電子メールが送信されます。 現時点では、システム管理者が必要な手順をいくつか実行する必要がある場合があります。 **ユーザー移行の開始前**&#x200B;を使用して、Workfrontユーザーへの影響を最小限に抑えます。
+Workfront から Adobe Admin Console への移行が完了すると、システム管理者にメールが届きます。この時点で、**ユーザー移行を開始する前に**、システム管理者はいくつかの必要な手順を実施して、Workfront ユーザーへの影響を最小限に抑える必要があります。
 
-* **Workfrontユーザーが現在 SSO でログインしている場合**&#x200B;を設定している場合、ユーザーが SSO を使用してログインを続行できるように、Adobe Admin Consoleで SSO を設定する必要があります。 Workfrontユーザーが現在 SSO を使用していないが、Adobe Admin Consoleで設定したい場合は、移行ジャーニーのこの時点で設定できます。
-* **Adobe Admin Consoleで他のAdobe製品を既に管理している場合**&#x200B;の場合、Adobeは、ユーザーを既存のコンソールに自動的に移行する同意を求める場合があります。 次をクリック： **はじめに** ボタンをクリックして同意ページに移動します。
-* **以前にリクエスト元のライセンスタイプを削除した場合**&#x200B;を探すと、システムに追加されます。 このライセンスの種類にはユーザーが割り当てられませんが、WorkfrontとAdobe Admin Consoleの間の同期に必要です。 リクエスト元のライセンスの種類に関して、お客様からのアクションは不要です。
+* **現在 Workfront ユーザーが SSO でログインしている場合**、Adobe Admin Consoleで SSO を設定して、ユーザーが引き続き SSO でログインできるようにする必要があります。現在 Workfront ユーザーは SSO を使用していないが、Adobe Admin Consoleでは SSO を設定する場合は、移行ジャーニーのこの時点で設定できます。
+* **Adobe Admin Console で他のアドビ製品を既に管理している場合**、アドビはユーザーを既存の Console に自動的に移行する同意を求める場合があります。同意ページには、メールにある「**開始**」ボタンをクリックすると移動できます。
+* **以前に依頼者ライセンスタイプを削除したことがある場合**&#x200B;は、システムに追加されます。このライセンスタイプに割り当てられるユーザーはいませんが、Workfron tと Adobe Admin Console の間の同期に必要となります。依頼者ライセンスタイプについては、ユーザーによるアクションは不要です。
 
-現時点では、ユーザー管理に変更はありません。 Workfront管理者はWorkfrontで引き続きユーザーを管理し、ユーザーの移行が完了するまで、Workfront ID または SSO を使用してログインし続けます。
+現時点ではユーザー管理に変更はありません。Workfront 管理者は Workfront で引き続きユーザーを管理し、ユーザーは移行が完了するまで、Workfront ID または SSO を使用してログインし続けます。
 
-### ユーザー移行のスケジュール設定
+### ユーザー移行スケジュール
 
-前の節で説明した前提条件をAdobeが完了すると、システムは、前述の前提条件が完了してから 30 日間、自動的にユーザー移行のスケジュールを設定し、Workfront製品プロファイル管理者 (Workfrontシステム管理者 ) に連絡して管理します。
+前の節で説明した前提条件をシステム管理者が完了すると、アドビはこれらの前提条件が完了してから 30 日後にユーザー移行を自動的にスケジュールし、Workfront 製品プロファイル管理者（Workfront システム管理者）とやり取りしてユーザー移行を管理します。
 
-Workfront製品プロファイル管理者 (Workfrontシステム管理者 ) は、次の操作をおこないます。
+Workfront 製品プロファイル管理者（Workfront システム管理者）は：
 
-* スケジュールされたユーザー移行開始日（前提条件が完了してから約 30 日後）と共に電子メールを受信します
-* 指定されたWorkfront管理者コンソールにアクセスし、移行日を変更することができます。
+* メールでユーザー移行開始日（前提条件が完了してから約 30 日後）のスケジュールを受信します。
+* 指定された Workfront 管理者コンソールにアクセスし、移行日を変更することができます。
 
   >[!NOTE]
   >
-  >移行が複雑なので、日付の変更はスケジュールされた日付から 30 日以内に制限されます。 後日が必要な場合は、サポートにお問い合わせください。
+  >移行が複雑なので、日付の変更はスケジュールされた日付から 30 日以内に制限されます。さらに先の日程に変更する必要がある場合は、サポートにお問い合わせください。
 
-* ユーザー移行開始日の 1 日前にリマインダーの電子メールを受け取る
+* ユーザー移行開始日の 1 日前にリマインダーのメールを受け取ります。
 
-### 移行日のユーザー準備
+### 移行日に向けたユーザーの準備
 
-Workfront製品プロファイル管理者 (Workfront System Administrator) は、すべてのユーザーが移行に関する準備を 1 日おこなうように責任を負います。
+Workfront 製品プロファイル管理者（Workfront システム管理者）は、すべてのユーザーが移行に備えられるようにする必要があります。
 
-* AdobeID への今後の移行に備えて、以下の情報をユーザーに通知します。
+* 次の情報を共有することで、Adobe ID への今後の移行に対する準備を整えます。
 
-   * ユーザーが移行すると、Workfrontへのログイン方法の変更をAdobeから通知する電子メールが送信されます。 AdobeID を使用したログインの招待を受け入れるよう、既存のAdobe IDでサインインするか、同じ電子メールアドレスを使用して新しいログインを設定して、初めて招待されます。
+   * ユーザーが移行すると、Workfront へのログイン方法の変更を通知するメールが届きます。ユーザーは、既存の Adobe ID でログインするか、同じメールアドレスを使用して新しい Adobe ID を設定することで、初めて Adobe ID を使用してログインするための招待を受け入れるように求められます。
 
 ### 移行日に期待される事項
 
-* **ユーザーの移行は、お客様がホストするWorkfront Datacenter の午前 0 時に開始されます。**
+* **ユーザー移行は、お客様がホスディングしている Workfront データセンターの午前 0 時に開始されます。**
 
-* **Adobeは、最初にWorkfront管理者を自動的に移行します。** Workfront管理者がAdobeID に移行されると、Adobe製品プロファイル管理者 (Workfrontシステム管理者 ) の役割が割り当てられます。 移行前にユーザーが持っていた既存の役割には影響しません。
+* **アドビは、最初に Workfront 管理者を自動的に移行します。** Workfront 管理者は Adobe ID に移行されると、Adobe 製品プロファイル管理者（Workfront システム管理者）の役割が割り当てられます。移行前にユーザーが持っていた既存の役割には影響しません。
 
   >[!NOTE]
   >
-  >ユーザーの移行中に、製品へのアクセス権が失われることはありません。 ユーザーの移行中にログインした場合、影響はありません。 ただし、次回ログインする際には、AdobeID を使用する必要があります。
+  >ユーザーの移行中に、製品へのアクセス権が失われることはありません。ユーザー移行中にユーザーがログインしている場合も、影響はありません。ただし、次回ログインする際には、Adobe ID を使用する必要があります。
 
 
 
-* **ユーザーが移行されると、Workfrontへのログイン方法の変更をAdobeに通知する電子メールがユーザーに届きます。** AdobeID を使用したログインの招待を受け入れるよう、既存のAdobe IDでサインインするか、同じ電子メールアドレスを使用して新しいAdobe IDを設定して、初めて招待されます。
+* **ユーザーが移行されると、Workfront へのログイン方法の変更を通知するメールがアドビからユーザーに届きます。**&#x200B;ユーザーは、既存の Adobe ID でサインインするか、同じメールアドレスを使用して新しい Adobe ID を設定することで、初めて Adobe ID を使用してサインインするための招待を受け入れるように求められます。
 
-  Adobe IDを使用してWorkfrontにログインする方法について詳しくは、 [Adobe Experience Cloudにログイン](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
+  Adobe ID で Workfront にログインする方法について詳しくは、[Adobe Experience Cloud にログイン](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud)を参照してください。
 
 ### ユーザー移行完了
 
-Adobeは、すべての管理者とユーザーが移行された後、電子メールですべてのシステム管理者と製品プロファイル管理者 (Workfrontシステム管理者 ) に通知します。 現時点では、そのインスタンスのすべてのWorkfrontユーザーは、AdobeID を使用してWorkfrontにログインします。 Workfrontシステム管理者と製品プロファイル管理者 (Workfrontシステム管理者 ) は、Adobe Admin Console内でユーザーアクセスを管理できます。 管理者コンソール内でディレクトリ同期の形式を使用していない場合、Workfrontアプリケーション内で引き続きWorkfrontへのアクセスを管理できます。
+アドビは、すべての管理者とユーザーが移行された後、すべてのシステム管理者と製品プロファイル管理者（Workfront システム管理者）にメールで通知します。この時点では、そのインスタンスのすべての Workfront ユーザーは、Adobe ID を使用して Workfront にログインしています。Workfront システム管理者と製品プロファイル管理者（Workfront システム管理者）は、Adobe Admin Console でユーザーアクセスを管理できます。管理者コンソール内でディレクトリ同期の形式を使用していない場合、Workfront アプリケーション内で引き続き Workfront へのアクセスを管理できます。
 
 ## サポートを受ける
 
-質問や懸念事項については、記事に記載されている手順に従ってください。 [カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+ご質問やご不明な点は、[カスタマーサポートに連絡](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)の記事に記載されている手順に従ってください。
 
 
 
