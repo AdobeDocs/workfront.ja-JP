@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 96%
+source-wordcount: '2510'
+ht-degree: 92%
 
 ---
 # スニペット
@@ -61,6 +61,15 @@ ht-degree: 96%
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
 
+## フォームデザイナーから GA へ {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>7 月 15 日の週の今後のリリース（24.7 リリース）では、フォームデザイナーが一般入手可能になり、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスとなる予定です。 従来のフォームビルダーは使用できなくなります。 今すぐフォームデザイナーに切り替えて、その機能を利用することをお勧めします。
+>
+>詳しくは、を参照してください [フォームデザイナーでフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>従来のフォームビルダーは、2024 年 6 月 19 日（PT）にプレビュー環境から削除され、7 月に 24.7 リリースで実稼動環境から削除されます。
 
 ## 適切なグループをチームに関連付ける {#right-group-team}
 
