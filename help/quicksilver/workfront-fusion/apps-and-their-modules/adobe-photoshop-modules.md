@@ -4,14 +4,15 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: Adobe Photoshopモジュール
-description: Adobe Photoshopモジュールを使用すると、Adobe Photoshopアカウント内のイベントに基づいてAdobe Workfront Fusion シナリオを開始し、契約とその他のレコードを作成、読み取り、更新し、設定した条件を使用してレコードを検索し、ドキュメントをアップロードできます。
+title: Adobe Photoshop モジュール
+description: Adobe Photoshop モジュールを使用すると、Adobe Photoshop アカウント内のイベントに基づくAdobe Workfront Fusion シナリオの開始、契約書やその他のレコードの作成、読み取りまたは更新、設定した条件を使用したレコードの検索、ドキュメントのアップロードを行うことができます。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
+exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
+source-git-commit: 6bcf404432129a812b5e4d840b59e72f036ec723
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 35%
+source-wordcount: '1547'
+ht-degree: 36%
 
 ---
 
@@ -61,7 +62,7 @@ ht-degree: 35%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42;詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;について [!DNL Adobe Workfront Fusion] ライセンス，「参照」 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## 前提条件
 
@@ -91,19 +92,19 @@ ht-degree: 35%
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>[!UICONTROLAdobe] [!UICONTROL クライアント ID] を入力します。 これは、 [!DNL Adobe Developer Console]</td>
+        <td>[!UICONTROL Adobe] [!UICONTROL クライアント ID] を入力します。 これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、 [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>[!DNL Adobe] [!UICONTROL Technical account ID] を入力します。これは、 [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL Technical account ID] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>[!DNL Adobe] [!UICONTROL Organization ID] を入力します。これは、 [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL Organization ID] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>
@@ -124,7 +125,7 @@ ht-degree: 35%
               <p>ファイルのパスワードを入力します。</p>
             </li>
             <li value="5">
-              <p>クリック <b>保存</b> ファイルを抽出して [!UICONTROL ]e 接続設定に戻る</p>
+              <p>クリック <b>保存</b> ファイルを抽出して [!UICONTROL ]e 接続設定に戻ります。</p>
             </li>
           </ol>
         </td>
@@ -145,23 +146,23 @@ ht-degree: 35%
 
 ### アクション
 
-* [新しいPSD](#create-a-new-psd)
-* [テキストレイヤーの編集](#edit-text-layers)
-* [深さブラーを実行](#execute-depth-blur)
-* [Photoshopアクションを実行](#execute-photoshop-actions)
-* [製品切り抜きを実行](#execute-product-crop)
-* [画層情報を取得する](#get-layer-info)
-* [カスタム API 呼び出しを実行](#make-a-custom-api-call)
+* [新しいPSDの作成](#create-a-new-psd)
+* [テキストレイヤーを編集](#edit-text-layers)
+* [深度ブラーを実行](#execute-depth-blur)
+* [Photoshop アクションの実行](#execute-photoshop-actions)
+* [製品の切り抜きを実行](#execute-product-crop)
+* [レイヤー情報を取得](#get-layer-info)
+* [カスタム API 呼び出しの実行](#make-a-custom-api-call)
 
-#### 新しいPSD
+#### 新しいPSDの作成
 
 このアクションモジュールは、オプションのレイヤーを持つ新しいPSDを作成し、レンディションを生成したり、PSDとして保存したりします。
 
-このモジュールに関連するフィールドについては、 [新しいPSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) (Adobe Photoshopドキュメント内 ) を参照してください。
+このモジュールに関連するフィールドについては、を参照してください。 [新しいPSDの作成](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) Adobe Photoshopのドキュメントで説明しています。
 
-#### テキストレイヤーの編集
+#### テキストレイヤーを編集
 
-このアクションモジュールは、Photoshopファイル上のテキストレイヤーを編集します。
+Photoshop ファイルのテキストレイヤーを編集します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -172,34 +173,34 @@ ht-degree: 35%
       <td>[!DNL Adobe Photoshop] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a> への接続を作成を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 入力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 入力ファイルの保存場所 ]</td>
       <td>
-        <p>編集するファイルが保存されているファイルサービスを選択します。</p>
+        <p>編集するファイルが格納されているファイルサービスを選択します。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 入力ファイル URL]</p>
       </td>
-   <td> 編集するファイルの URL またはパスを入力またはマッピングします。 </td> 
+   <td> 編集するファイルの URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 見つからないフォントを管理 ]</td>
+      <td role="rowheader">[!UICONTROL 不足フォントの管理 ]</td>
       <td>
-        <p>ドキュメントに 1 つ以上の見つからないフォントがある場合に実行するアクションを選択します。 フォントを指定しない場合、モジュールはデフォルトのフォントを使用します。</p>
+        <p>ドキュメントに 1 つ以上の不足しているフォントがある場合に実行するアクションを選択します。 フォントが指定されていない場合、モジュールはデフォルトのフォントを使用します。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL デフォルトフォント ]  </td>
+      <td role="rowheader">[!UICONTROL 既定のフォント ]  </td>
       <td>
-        <p>ドキュメントのグローバルデフォルトとして使用するフォントの完全な PostScript 名を入力します。 このフォントは、見つからないフォントを持つテキストレイヤーに対して使用され、そのレイヤーに対して特に指定されたフォントはありません。 このフォントが見つからない場合は、「見つからないフォントを管理」で指定したオプションが有効になります。</p>
+        <p>ドキュメントのグローバルデフォルトとして使用するフォントの完全な Postscript 名を入力します。 このフォントは、フォントが見つからないテキストレイヤーに使用され、そのレイヤーに特別に提供された他のフォントはありません。 このフォントが見つからない場合は、見つからないフォントの管理で指定したオプションが有効になります。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レイヤー ]</td>
-   <td> <p>画層オプションの詳細については、を参照してください。 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">テキストレイヤーを編集</a> (Adobe Photoshopドキュメント ) を参照してください。</p>  </td>     </tr>
+   <td> <p>レイヤ オプションの詳細については、を参照してください。 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">テキストレイヤーを編集</a> Adobe Photoshopのドキュメントで説明しています。</p>  </td>     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 出力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 出力ファイルの保存場所 ]</td>
       <td>
         <p>編集したファイルを保存するファイルサービスを選択します。</p>
       </td>
@@ -208,18 +209,18 @@ ht-degree: 35%
       <td role="rowheader">
         <p>[!UICONTROL 出力ファイル URL]</p>
       </td>
-   <td> 編集したファイルを保存する URL またはパスを入力またはマッピングします。 </td> 
+   <td> 編集したファイルを保存する場所の URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 出力ファイルタイプ ]</p>
+        <p>[!UICONTROL 出力ファイルの種類 ]</p>
       </td>
-   <td> 編集したファイルのファイルタイプを選択します。 </td> 
+   <td> 編集するファイルのファイル タイプを選択します。 </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
-        <p>新しく編集したファイルで、既に存在する出力ファイルを上書きするかどうかを選択します。</p>
+        <p>既に存在する出力ファイルを新しく編集したファイルで上書きするかどうかを選択します。</p>
       </td>
     </tr>
     <tr>
@@ -231,9 +232,9 @@ ht-degree: 35%
   </tbody>
 </table>
 
-#### 深さブラーを実行
+#### 深度ブラーを実行
 
-このアクションモジュールは、選択したファイルに対して [ 深さのぼかし ] を実行します。
+このアクション モジュールは、選択したファイルに対して深度ブラーを実行します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -244,19 +245,19 @@ ht-degree: 35%
       <td>[!DNL Adobe Photoshop] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a> への接続を作成を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 入力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 入力ファイルの保存場所 ]</td>
       <td>
-        <p>編集するファイルが保存されているファイルサービスを選択します。</p>
+        <p>編集するファイルが格納されているファイルサービスを選択します。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 入力ファイル URL]</p>
       </td>
-   <td> 編集するファイルの URL またはパスを入力またはマッピングします。 </td> 
+   <td> 編集するファイルの URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 出力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 出力ファイルの保存場所 ]</td>
       <td>
         <p>編集したファイルを保存するファイルサービスを選択します。</p>
       </td>
@@ -265,24 +266,24 @@ ht-degree: 35%
       <td role="rowheader">
         <p>[!UICONTROL 出力ファイル URL]</p>
       </td>
-   <td> 編集したファイルを保存する URL またはパスを入力またはマッピングします。 </td> 
+   <td> 編集したファイルを保存する場所の URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 出力ファイルタイプ ]</p>
+        <p>[!UICONTROL 出力ファイルの種類 ]</p>
       </td>
-   <td> 編集したファイルのファイルタイプを選択します。 </td> 
+   <td> 編集するファイルのファイル タイプを選択します。 </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Other fields]</td>
       <td>
-        <p>その他の深さブラーオプションについて詳しくは、 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">深さブラーを実行 </a>( Adobe Photoshop API ドキュメント ) を参照してください。</p>
+        <p>その他のデプス ブラーオプションについては、を参照してください。 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">深度ブラーを実行 </a>（Adobe Photoshop API ドキュメント）。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
-        <p>新しく編集したファイルで、既に存在する出力ファイルを上書きするかどうかを選択します。</p>
+        <p>既に存在する出力ファイルを新しく編集したファイルで上書きするかどうかを選択します。</p>
       </td>
     </tr>
     <tr>
@@ -294,9 +295,9 @@ ht-degree: 35%
   </tbody>
 </table>
 
-#### Photoshop Actions を実行
+#### Photoshop アクションの実行
 
-このアクションモジュールは、選択した画像に対してPhotoshopアクションを実行します。
+このアクションモジュールは、選択された画像に対してPhotoshopアクションを実行します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -307,26 +308,26 @@ ht-degree: 35%
       <td>[!DNL Adobe Photoshop] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a> への接続を作成を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 入力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 入力ファイルの保存場所 ]</td>
       <td>
-        <p>編集するファイルが保存されているファイルサービスを選択します。</p>
+        <p>編集するファイルが格納されているファイルサービスを選択します。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 入力ファイル URL]</p>
       </td>
-   <td> 編集するファイルの URL またはパスを入力またはマッピングします。 </td> 
+   <td> 編集するファイルの URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL アクションファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL アクション ファイルの保存場所 ]</td>
       <td>
-        <p>アクションファイルを保存するファイルサービスを選択します。</p>
+        <p>アクションファイルが格納されるファイルサービスを選択します。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL アクションファイル URL]</p>
+        <p>[!UICONTROL アクション ファイルの URL]</p>
       </td>
    <td> アクションファイルの URL またはパスを入力またはマッピングします。 </td> 
     </tr>
@@ -339,17 +340,17 @@ ht-degree: 35%
     <tr>
       <td role="rowheader">[!UICONTROL フォント/パターン/ブラシストレージ ]</td>
       <td>
-        <p>使用するファイルが保存されているファイルサービスを選択します。</p>
+        <p>使用するファイルが格納されているファイルサービスを選択します。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
+        <p>[!UICONTROL フォント / パターン / ブラシ ファイルの URL]</p>
       </td>
-   <td> 使用するファイルの URL またはパスを入力またはマッピングします。 </td> 
+   <td> 使用するファイルの URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 出力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 出力ファイルの保存場所 ]</td>
       <td>
         <p>編集したファイルを保存するファイルサービスを選択します。</p>
       </td>
@@ -358,18 +359,18 @@ ht-degree: 35%
       <td role="rowheader">
         <p>[!UICONTROL 出力ファイル URL]</p>
       </td>
-   <td> 編集したファイルを保存する URL またはパスを入力またはマッピングします。 </td> 
+   <td> 編集したファイルを保存する場所の URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 出力ファイルタイプ ]</p>
+        <p>[!UICONTROL 出力ファイルの種類 ]</p>
       </td>
-   <td> 編集したファイルのファイルタイプを選択します。 </td> 
+   <td> 編集するファイルのファイル タイプを選択します。 </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
-        <p>新しく編集したファイルで、既に存在する出力ファイルを上書きするかどうかを選択します。</p>
+        <p>既に存在する出力ファイルを新しく編集したファイルで上書きするかどうかを選択します。</p>
       </td>
     </tr>
     <tr>
@@ -381,9 +382,9 @@ ht-degree: 35%
   </tbody>
 </table>
 
-#### 製品切り抜きを実行
+#### 製品の切り抜きを実行
 
-このアクションモジュールは、選択した画像に対して製品切り抜きを実行します。
+このアクションモジュールは、選択した画像に対して製品の切り抜きを実行します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -394,9 +395,9 @@ ht-degree: 35%
       <td>[!DNL Adobe Photoshop] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a> への接続を作成を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 入力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 入力ファイルの保存場所 ]</td>
       <td>
-        <p>切り抜くファイルを保存するファイルサービスを選択します。</p>
+        <p>切り抜くファイルを格納するファイルサービスを選択します。</p>
       </td>
     </tr>
     <tr>
@@ -407,24 +408,24 @@ ht-degree: 35%
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 単位 ]</p>
+        <p>[!UICONTROL ユニット ]</p>
       </td>
-   <td> 高さと幅の調整をピクセル単位で表すか、パーセント単位で表すかを選択します。 </td> 
+   <td> 高さと幅の調整をピクセル単位またはパーセント単位のどちらで記述するかを選択します。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Width]</p>
       </td>
-   <td> 追加する幅のパディングの量を入力またはマップします。 </td> 
+   <td> 追加する幅のパディングの量を入力またはマッピングします。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Height]</p>
       </td>
-   <td> 追加する高さのパディングの量を入力またはマップします。 </td> 
+   <td> 追加する高さのパディングの量を入力またはマッピングします。 </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 出力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 出力ファイルの保存場所 ]</td>
       <td>
         <p>編集したファイルを保存するファイルサービスを選択します。</p>
       </td>
@@ -433,18 +434,18 @@ ht-degree: 35%
       <td role="rowheader">
         <p>[!UICONTROL 出力ファイル URL]</p>
       </td>
-   <td> 編集したファイルを保存する URL またはパスを入力またはマッピングします。 </td> 
+   <td> 編集したファイルを保存する場所の URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL 出力ファイルタイプ ]</p>
+        <p>[!UICONTROL 出力ファイルの種類 ]</p>
       </td>
-   <td> 編集したファイルのファイルタイプを選択します。 </td> 
+   <td> 編集するファイルのファイル タイプを選択します。 </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
-        <p>新しく編集したファイルで、既に存在する出力ファイルを上書きするかどうかを選択します。</p>
+        <p>既に存在する出力ファイルを新しく編集したファイルで上書きするかどうかを選択します。</p>
       </td>
     </tr>
     <tr>
@@ -456,9 +457,9 @@ ht-degree: 35%
   </tbody>
 </table>
 
-#### 画層情報を取得する
+#### レイヤー情報を取得
 
-このアクションモジュールは、指定されたアクションファイルからレイヤPSDを取得します。
+指定したPSDファイルから画層の情報を取得します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -469,16 +470,16 @@ ht-degree: 35%
       <td>[!DNL Adobe Photoshop] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a> への接続を作成を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 入力ファイルストレージ ]</td>
+      <td role="rowheader">[!UICONTROL 入力ファイルの保存場所 ]</td>
       <td>
-        <p>画層情報の取得元のファイルが保存されているファイルサービスを選択します。</p>
+        <p>画層情報を取得するファイルが格納されているファイル サービスを選択します。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL 入力ファイル URL]</p>
       </td>
-   <td> レイヤー情報を取得するファイルの URL またはパスを入力またはマッピングします。 </td> 
+   <td> 画層情報を取得するファイルの URL またはパスを入力またはマップします。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -489,9 +490,9 @@ ht-degree: 35%
   </tbody>
 </table>
 
-#### カスタム API 呼び出しを実行
+#### カスタム API 呼び出しの実行
 
-このアクションモジュールは、Photoshop API へのカスタム呼び出しをおこないます。
+このアクションモジュールは、Photoshop API へのカスタム呼び出しを行います。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -535,4 +536,3 @@ ht-degree: 35%
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-
