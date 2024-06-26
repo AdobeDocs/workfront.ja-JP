@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 17%
@@ -23,7 +23,7 @@ ht-degree: 17%
 >[!NOTE]
 >
 >* Adobe統合シェルは、段階的なロールアウトで使用可能になります。 その他の組織は、24.10 および 25.1 リリースでAdobe統合シェルにオンボーディングされます。
->* プレビューリリース：2024 年 6 月 11 日（PT）。指定されたお客様向けの実稼動リリース：24.7 リリースの場合（2024 年 7 月）
+>* プレビューリリース：2024 年 6 月 20 日（PT）、指定されたお客様向けの実稼動リリース：24.7 リリースの場合（2024 年 7 月）
 
 Adobeの統合エクスペリエンスのメリットに企業がアクセスできるように、既存のWorkfrontのお客様が利用できるようにする準備を始めました。
 

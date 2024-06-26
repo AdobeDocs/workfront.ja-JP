@@ -1,14 +1,14 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe Unified Experience の FAQ
+title: AdobeUnified Experience に関する FAQ
 description: ' [!DNL Workfront]  および Adobe Experience Cloud の間にはいくつかの機能には違いがあり、 [!DNL Workfront]  インスタンスは統合エクスペリエンスに移行されるため、お客様の疑問をお答えします。'
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 74%
 
 ---
