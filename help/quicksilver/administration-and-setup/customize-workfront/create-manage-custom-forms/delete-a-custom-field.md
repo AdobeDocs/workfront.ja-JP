@@ -11,7 +11,7 @@ exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
 source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 95%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -53,14 +53,14 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## システムからカスタムフィールドまたはウィジェットを削除
 
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. クリック **フィールド** をクリックして、「フィールド」領域を開きます。
+1. 「**フィールド**」をクリックして、フィールドエリアを開きます。
 1. カスタムフィールドまたはウィジェットを選択し、「**削除**」をクリックします。
 1. アイテムを完全に削除し、（カスタムフィールドの場合は）そのアイテムが添付されたオブジェクトに関連するすべてのデータを削除する場合は、「**はい、削除します**」をクリックします。
 

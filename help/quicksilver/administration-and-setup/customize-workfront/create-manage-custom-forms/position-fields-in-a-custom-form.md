@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: レガシーフォームビルダーを使用してカスタムフォームにカスタムフィールドおよびウィジェットを配置する
 description: カスタムフォーム内のカスタムフィールドとウィジェットの位置を変更できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
 
 ---
 
 # レガシーフォームビルダーを使用してカスタムフォームにカスタムフィールドおよびウィジェットを配置する
+
+{{form-designer-default}}
 
 カスタムフォーム内のカスタムフィールドとウィジェットの位置を変更できます。
 
@@ -34,7 +36,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr data-mc-conditions=""> 

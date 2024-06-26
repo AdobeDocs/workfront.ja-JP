@@ -11,7 +11,7 @@ exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
 source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -56,5 +56,5 @@ ht-degree: 95%
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. カスタムフォームを選択し、 ![アイコンを削除](assets/delete-icon.png).
+1. カスタムフォームを選択し、![削除アイコン](assets/delete-icon.png) をクリックします。
 1. カスタムフォームと、そのカスタムフォームが添付されたオブジェクト上のすべての関連データを完全に削除する場合は、「**はい、削除します**」をクリックします。

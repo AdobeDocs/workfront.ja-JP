@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # レガシーフォームビルダーでカスタムフィールドとウィジェットの共有を設定する
+
+{{form-designer-default}}
 
 デフォルトでは、新しいカスタムフィールドまたはウィジェットをカスタムフォームに追加すると、カスタムフォームにアクセスできるシステム内の誰でも、その項目のラベルや名前などのプロパティを編集できます。これを変更するには、共有相手を制御します。
 
@@ -34,7 +36,7 @@ ht-degree: 96%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -57,11 +59,11 @@ ht-degree: 96%
 1. 組織の Workfront インスタンスのカスタムフィールドまたはウィジェットの共有を設定する場合は、以下の手順を実行します。
 
    1. 「**フィールド**」をクリックしてフィールドエリアを開きます。
-   1. 共有を設定する項目を選択し、 ![共有アイコン](assets/share-icon.png).
+   1. 共有を設定する項目を選択し、![共有アイコン](assets/share-icon.png) をクリックします。
 
    または、既存のカスタムフォームのカスタムフィールドまたはウィジェットの共有を設定する場合は、次の手順を実行します。
 
-   1. カスタムフォームを選択し、 ![編集アイコン](assets/edit-icon.png).
+   1. カスタムフォームを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
    1. 右側のフォーム編集エリアで、共有を設定する項目を選択します。
    1. 左側のパネルで、「**フィールドを共有**」を選択します。
 
@@ -125,7 +127,7 @@ ht-degree: 96%
 1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) 、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. クリック **フィールド**&#x200B;を選択してから、フィールド、画像またはアクセス ウィジェットを選択します。
+1. 「**フィールド**」をクリックし、フィールド、画像またはアクセスウィジェットを選択します。
 1. 表示されるボックスで、「**継承した権限**」をクリックし、表示される名前を確認します。
 1. 「**キャンセル**」をクリックします。
 

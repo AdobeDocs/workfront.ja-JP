@@ -11,7 +11,7 @@ exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
 source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '404'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -59,7 +59,7 @@ ht-degree: 97%
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 必要なフォームを見つけて、クリックします ![編集アイコン](assets/edit-icon.png).
+1. 必要なフォームを見つけて、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. フォームの上部に、タスクまたはイシューを変換する予定のオブジェクトを追加します。
 
    >[!INFO]

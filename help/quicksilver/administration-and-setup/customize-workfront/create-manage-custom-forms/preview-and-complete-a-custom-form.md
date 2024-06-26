@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させる
 description: カスタムフォームの作成または編集が完了したら、カスタムフォームをプレビューしてユーザーに対する表示を確認し、それから保存して閉じることができます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
 ---
 
 # レガシーフォームビルダーを使用してカスタムフォームをプレビューし、完成させる
+
+{{form-designer-default}}
 
 カスタムフォームの作成または編集が完了したら、カスタムフォームをプレビューしてユーザーに対する表示を確認し、それから保存して閉じることができます。
 
@@ -32,7 +34,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr data-mc-conditions=""> 

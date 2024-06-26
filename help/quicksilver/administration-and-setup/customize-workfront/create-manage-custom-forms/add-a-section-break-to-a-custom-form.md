@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 93%
@@ -16,6 +16,8 @@ ht-degree: 93%
 ---
 
 # レガシーフォームビルダーを使用したカスタムフォームへのセクション区切りの追加
+
+{{form-designer-default}}
 
 カスタムフォームのカスタムフィールドとウィジェットを、見出し付きのセクションにグループ化できます。これは、フォームに入力するユーザーに、整理されたエクスペリエンスを提示する場合に役立ちます。また、特定のカスタムフィールドとウィジェットへのアクセスを特定のユーザーに制限する必要がある場合は、それらをセクションに配置し、そのセクションへのアクセス権をそれらのユーザーにのみ付与することができます。
 

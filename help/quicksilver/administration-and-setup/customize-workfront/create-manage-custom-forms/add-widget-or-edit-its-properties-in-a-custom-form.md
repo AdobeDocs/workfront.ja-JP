@@ -1,18 +1,20 @@
 ---
 title: 従来のフォームビルダーを使用した、カスタムフォームでの画像などのアセットウィジェットの追加または編集
 description: カスタムフォームで、画像、ビデオ、PDF ファイル、Adobe XD ファイルなどのアセットウィジェットのプロパティを追加または編集できます。これは、アプリをデザインする際、ブランディング画像、説明ビデオ、インタラクティブプロトタイプなどのビジュアルコンテンツを含める必要がある場合に役立ちます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '1344'
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+workflow-type: tm+mt
+source-wordcount: '1345'
 ht-degree: 100%
 
 ---
 
 # 従来のフォームビルダーを使用した、カスタムフォームでの画像などのアセットウィジェットの追加または編集
+
+{{form-designer-default}}
 
 カスタムフォームで次のアセットウィジェットのプロパティを追加または編集できます。
 
@@ -49,7 +51,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -98,7 +100,7 @@ ht-degree: 100%
       <li> <p>YouTube または Vimeo リンク</p> </li> 
       <li> <p>Google Drive ビデオリンク</p> </li> 
       <li> <p>MP4 および MOV 拡張子を持つビデオへのリンク</p> </li> 
-      <li> <p>Workfront インスタンスのドキュメントエリアに既にアップロードされているビデオへのリンク。手順については、この記事の<a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">ドキュメントエリアからのカスタムフォームへのビデオウィジェットの追加</a>を参照してください。</p> 
+      <li> <p>Workfront インスタンスのドキュメントエリアに既にアップロードされているビデオへのリンク。手順については、<a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">ドキュメントエリアからカスタムフォームにビデオウィジェットを追加</a>を参照してください。</p> 
       </li> 
       </ul> 
        </td> 
@@ -142,7 +144,7 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader">名前</td> 
-      <td> <p>（必須）この名前は、システムによるウィジェットの識別方法です。</p> <p>初めてウィジェットを設定してラベルを入力すると、それに一致するように、名前フィールドが自動的に入力されます。ただし、ラベルフィールドと名前フィールドは同期されません。これにより、システムで表示される名前を変更することなく、ユーザーに表示されるラベルを自由に変更できます。</p> <p><b>重要</b>：変更することは可能ですが、ご自身や他のユーザーがウィジェットでカスタムフォームを使用し始めた後は、この名前を変更しないことをお勧めします。変更してしまうと、Workfront の他のエリアで参照される可能性のあるウィジェットが認識されなくなります。 </p> <p>それぞれのウィジェット名は、組織の Workfront インスタンス内で一意である必要があります。これにより、既に作成されたものを別のカスタムフォームに再利用できます。 </p> </td> 
+      <td> <p>（必須）この名前は、システムによるウィジェットの識別方法です。</p> <p>初めてウィジェットを設定してラベルを入力すると、それに一致するように、名前フィールドが自動的に入力されます。ただし、ラベルフィールドと名前フィールドは同期されません。これにより、システムで表示される名前を変更することなく、ユーザーに表示されるラベルを自由に変更できます。</p> <p><b>重要</b>：こうすることは可能ですが、ご自身や他のユーザーがウィジェットでカスタムフォームを使用し始めた後は、この名前を変更しないことをお勧めします。変更してしまうと、Workfront の他のエリアで参照される可能性のあるウィジェットが認識されなくなります。 </p> <p>それぞれのウィジェット名は、組織の Workfront インスタンス内で一意である必要があります。これにより、既に作成されたものを別のカスタムフォームに再利用できます。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -168,7 +170,7 @@ ht-degree: 100%
    * [カスタムフォームでのカスタムフィールドまたはウィジェットの再利用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
    * [カスタムフォームへの計算データの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
    * [カスタムフォームでの既存の計算カスタムフィールドの再利用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-   * [カスタムフォームへの表示ロジックとスキップロジックの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [表示ロジックの追加とカスタムフォームへのロジックのスキップ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
    * [カスタムフォームのプレビューと完了](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## ドキュメント領域からカスタムフォームにビデオウィジェットを追加 {#add-a-video-widget-to-a-custom-form-from-the-documents-area}
@@ -177,7 +179,7 @@ ht-degree: 100%
 >
 >この方法でビデオをカスタムフォームに追加する場合、ユーザーがオブジェクトのフォームにアクセスするときは、カスタムフォームに設定された権限のみがビデオに適用され、ドキュメントエリアのビデオに設定された権限は適用されません。
 
-1. [Web サイトまたはその他の Web コンテンツ用のインタラクティブなプルーフを作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)の説明にあるように、ドキュメント領域のビデオに移動し、そのプルーフを生成します。
+1. [Web サイトまたはその他の web コンテンツ用のインタラクティブなプルーフの作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)の説明にあるように、ドキュメントエリアのビデオに移動し、そのプルーフを生成します。
 1. プルーフを開きます。
 1. ビデオの任意の場所を右クリックし、「**ビデオアドレスをコピー**」を選択します。
 1. ビデオウィジェットを追加するカスタムフォームで、コピーしたアドレスを **URL** ボックスにペーストします。

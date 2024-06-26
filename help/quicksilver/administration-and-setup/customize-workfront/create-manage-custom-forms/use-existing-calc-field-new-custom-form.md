@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: レガシーフォームビルダーを使用して、カスタムフォーム内の既存の計算カスタムフィールドを再利用
 description: 異なるオブジェクトに属するカスタムフォームでも、同じ計算済みカスタムフィールドを使用できます。例えば、プロジェクトカスタムフォーム用に作成した利益計算フィールドを、タスクカスタムフォームで使用できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 24482fca-94e4-406d-9d62-3db9f51481e6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
 ---
 
 # レガシーフォームビルダーを使用して、カスタムフォーム内の既存の計算カスタムフィールドを再利用
+
+{{form-designer-default}}
 
 異なるオブジェクトに属するカスタムフォームでも、同じ計算済みカスタムフィールドを使用できます。例えば、プロジェクトカスタムフォーム用に作成した利益計算フィールドを、タスクカスタムフォームで使用できます。
 
@@ -33,7 +35,7 @@ ht-degree: 100%
 >
 >計算済みカスタムフィールドは、時間の経過と共に古くなる場合があります。これらのフィールドで常に最新の計算を表示するには、以下の操作のいずれかを行います。
 >
->* 添付されたカスタムフォームでデータを編集したオブジェクトを保存したら、オブジェクトのメインページで、その他アイコン ![](assets/more-icon.png)、「カスタム式を再計算」の順にクリックします。
+>* 添付されたカスタムフォームでデータを編集したオブジェクトを保存したら、オブジェクトのメインページでその他アイコン ![](assets/more-icon.png) をクリックし、「カスタム式を再計算」をクリックします。
 >* オブジェクトを一括編集する際に、「カスタム式を再計算」オプションを選択します。
 >* カスタムフォームで計算カスタムフィールドを編集する場合は、「以前の計算を更新」オプションを選択します。
 >

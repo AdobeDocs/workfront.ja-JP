@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # カスタムフォームのオブジェクトタイプの削除
+
+{{form-designer-default}}
 
 既存のカスタムフォームで、フォームに関連付けられているオブジェクトタイプを削除できます。この操作を行うと、ユーザーはそのタイプのオブジェクトにフォームを添付できなくなります。
 
@@ -32,7 +34,7 @@ ht-degree: 96%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -62,7 +64,7 @@ ht-degree: 96%
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**カスタムフォーム**」をクリックします。
-1. 編集するカスタムフォームを選択し、をクリックします ![編集アイコン](assets/edit-icon.png).
+1. 編集するカスタムフォームを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. フォームから削除する&#x200B;**オブジェクトタイプ**&#x200B;の X をクリックし、表示される警告メッセージで「**削除**」をクリックします。
 
    ![](assets/click-x-object-types.jpg)

@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # カスタムフォームをコピーして、従来のビルダーで新しく作成
+
+{{form-designer-default}}
 
 既存のフォームに基づく新しいカスタムフォームを作成できます。
 
@@ -33,7 +35,7 @@ ht-degree: 95%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -53,7 +55,7 @@ ht-degree: 95%
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新しいカスタムフォームの基礎として使用するカスタムフォームを選択し、をクリックします ![コピーアイコン](assets/copy-icon.png).
+1. 新しいカスタムフォームのベースとして使用するカスタムフォームを選択し、![コピーアイコン](assets/copy-icon.png) をクリックします。
 1. 表示される&#x200B;**カスタム フォーム コピー**&#x200B;ダイアログボックスで、次の情報を入力します。
 
    <table style="table-layout:auto"> 
