@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 98%
+source-wordcount: '445'
+ht-degree: 97%
 
 ---
 
@@ -57,9 +57,9 @@ Workfront モバイルアプリの新しいクイックタスクオプション�
 
 モバイルアプリでは、次の言葉を発して、仮想アシスタントにサポートを求めることができます。
 
-* 「何ができる？」
-* 「命令を助けてくれ」
+* 「どうすればよいでしょうか？」
+* 「コマンドでサポートが必要です」
 
 これらのコマンドは、アシスタントに尋ねることのできる様々な項目のリストを表示します。
 
-既存のコマンドの一覧については、[Adobe Workfront モバイルアプリ仮想アシスタント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)を参照してください。
+**メモ：モバイル仮想アシスタントは 2024 年 4 月から非推奨（廃止予定）になりました。**

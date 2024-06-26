@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront]  アプリを使用すると、任意の A
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: ht
-source-wordcount: '614'
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+workflow-type: tm+mt
+source-wordcount: '543'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 ![ボードエリア](assets/mobile-all-boards-displayed.png)
 
-詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL Boards] ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ## [!UICONTROL プロジェクト]
 
@@ -192,21 +192,3 @@ ht-degree: 100%
 * ログアウト
 
 ![設定エリア](assets/android-configuration-area.png)
-
-## [!UICONTROL 仮想アシスタント]
-
-仮想アシスタントでは、音声コマンドを使用して次のタスクを実行できます。
-
-* [!UICONTROL 表示してください]
-* [!UICONTROL 削除]
-* [!UICONTROL 検索対象]
-* [!UICONTROL コマンドで手伝ってください]
-
-仮想アシスタントについて詳しくは、[Adobe  [!DNL Workfront]  モバイルアプリ仮想アシスタント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)を参照してください。
-
-## [!UICONTROL ピン留め]
-
-[!UICONTROL ピン]エリアを使用すると、web ブラウザーから保存した仮想アシスタントのコマンドとピンにアクセスできます。
-![固定してクエリを保存](assets/pin-and-save-query-adobe-350x285.png)
-
-仮想アシスタントについて詳しくは、[Adobe  [!DNL Workfront]  モバイルアプリ仮想アシスタント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)を参照してください。

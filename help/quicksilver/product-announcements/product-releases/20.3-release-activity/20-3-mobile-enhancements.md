@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 96%
 
 ---
 
@@ -52,5 +52,5 @@ Android と iOS の両方で、新しい Workfront モバイルアプリ仮想�
 
 ピン機能を使用して、保存されたバーチャルアシスタントコマンドや web ブラウザーからピンにアクセスできます。
 
-これらの両方の機能について詳しくは、[Adobe Workfront モバイルアプリバーチャルアシスタント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)を参照してください。
+**メモ：モバイル仮想アシスタントは 2024 年 4 月から非推奨（廃止予定）になりました。**
 

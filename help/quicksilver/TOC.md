@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
+source-git-commit: c4ee5b01750d28b2715c35594123ebe8619c2508
 workflow-type: tm+mt
-source-wordcount: '14373'
+source-wordcount: '14367'
 ht-degree: 96%
 
 ---
@@ -994,7 +994,6 @@ ht-degree: 96%
          * [iOS でのプルーフに関するコメント](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront for Mobile Device Management（MDM）](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Adobe Workfront for MobileIron の設定](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Adobe Workfront モバイルアプリバーチャルアシスタント](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Adobe Workfront モバイルアプリでの承認](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Adobe Workfront ビューの使用 {#use-workfront-view}
          * [Adobe Workfront ビューの使用](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)

@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront]  アプリを使用すると、任意の i
 author: Nolan
 feature: Get Started with Workfront
 exl-id: dcf52fc5-8029-49e0-bf6a-0733df334dc2
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: ht
-source-wordcount: '641'
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+workflow-type: tm+mt
+source-wordcount: '570'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-詳しくは、モバイルアプリの[[!UICONTROL ホーム]エリアウィジェット](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)および[[!UICONTROL 担当作業]の節](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)を参照してください。
+詳しくは、モバイルアプリの[[!UICONTROL ホーム]エリアウィジェット](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)および[[!UICONTROL 自分の作業]セクション](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)を参照してください。
 
 ![ホームエリア](assets/mobile-home-area.png)
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 ![ボードエリア](assets/mobile-all-boards-displayed.png)
 
-詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL Boards]  ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
+詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。
 
 ## [!UICONTROL プロジェクト]
 
@@ -113,9 +113,9 @@ ht-degree: 100%
  </tbody>
 </table>
 
-承認について詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリの承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)を参照してください。
+承認について詳しくは、[ [!DNL Adobe Workfront]  モバイルアプリ内の承認](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)を参照してください。
 
-プルーフのレビューと承認について詳しくは、[ [!DNL Adobe Workfront]  バイルアプリでのプルーフのレビューと承認に関する判断](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)を参照してください。
+プルーフのレビューと承認について詳しくは、[ [!DNL Adobe Workfront] モバイルアプリ](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)でプルーフをレビューして決定を参照してください。
 
 ![モバイルアプリの承認リスト](assets/mobile-approvals-adobe-350x574.png)
 
@@ -180,7 +180,7 @@ ht-degree: 100%
 
 ![連絡先エリア](assets/mobile-contacts-area.png)
 
-## [!UICONTROL 設定]
+## [!UICONTROL 構成]
 
 [!UICONTROL 設定]エリアでは、次の操作を実行できます。
 
@@ -192,21 +192,3 @@ ht-degree: 100%
 * ログアウト
 
 ![設定エリア](assets/ios-configuration-area.png)
-
-## 仮想アシスタント
-
-仮想アシスタントでは、音声コマンドを使用して次のタスクを実行できます。
-
-* [!UICONTROL 表示してください]
-* [!UICONTROL 削除]
-* [!UICONTROL 検索対象]
-* [!UICONTROL コマンドで手伝ってください]
-
-仮想アシスタントについて詳しくは、[[!DNL Adobe Workfront] モバイルアプリ仮想アシスタント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)を参照してください。
-
-## [!UICONTROL ピン]
-
-[!UICONTROL ピン]エリアを使用すると、保存した仮想アシスタントのコマンドとピンに web ブラウザーからアクセスできます。
-![クエリをピン留めして保存](assets/pin-and-save-query-adobe-350x285.png)
-
-仮想アシスタントについて詳しくは、[Adobe Workfront モバイルアプリ仮想アシスタント](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)を参照してください。
