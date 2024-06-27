@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 12%
+source-wordcount: '676'
+ht-degree: 11%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 12%
 <tr>
    <td role="rowheader"><p>権限</p></td>
    <td> <p>Workfrontで、プロジェクト、ポートフォリオまたはプログラムに対する表示以上の権限</a> </p> 
-   <p>Workfront Planning で、作業領域に対する表示以上の権限</a> </p>  
+   <p>Workfront Planning で、Contribute以上の作業領域への権限</a> </p>  
    <p>システム管理者には、未作成のワークスペースを含むすべてのWorkfront Planning ワークスペースに対する権限があります</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ ht-degree: 12%
    * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 * Workfront オブジェクトにはレコードが関連付けられていない場合でも、Workfront オブジェクトの「プランニング」セクションを表示できます。
 * 1 つ以上のレコードがWorkfront オブジェクトに接続されている場合は、「計画」セクションのWorkfrontのWorkfront オブジェクトに計画レコードを関連付けることができます。
-* Workfront オブジェクトからレコードを接続するには、ワークスペースに対する管理権限が必要です。
 
 ## 計画セクションのレコードの管理
 
@@ -114,8 +113,8 @@ ht-degree: 12%
    ワークスペースが開き、レコードタイプがカードとして表示されます。
 
 1. Workfront プロジェクト、ポートフォリオ、またはプログラムに接続されているレコードタイプのカードをクリックします。
-1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。
-1. （条件付き）テーブルの「接続済みレコード」フィールドに移動し、Workfront オブジェクトを追加して、フィールドのWorkfront オブジェクトの名前をクリックします。 詳しくは、を参照してください [レコードを接続](/help/quicksilver/planning/records/connect-records.md).
+1. テーブル ビューまたはレコードの詳細ページから、Workfront オブジェクトに接続されている [ 接続済みレコード ] フィールドに移動します。 詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+1. 「接続されたレコード」フィールドでWorkfront オブジェクトの名前をクリックします。
 Workfront Planning にオブジェクトのページが開きます。
 1. クリック **ソースに移動**&#x200B;をクリックします。
 
@@ -148,7 +147,7 @@ Workfront Planning にオブジェクトのページが開きます。
 
    >[!NOTE]
    >
-   >   「接続」ボタンは、投稿権限を持つワークスペースに対してのみ表示されます。 <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   「接続」ボタンは、Contributeの権限を持つワークスペースに対してのみ表示されます。 <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. 接続するレコードをクリックします。 次のことが発生します。
 

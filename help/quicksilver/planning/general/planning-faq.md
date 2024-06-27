@@ -1,13 +1,13 @@
 ---
 title: 『Adobe Workfront計画 FAQ 』
-description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。Workfront Planning に関するよくある質問です。
+description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。この記事では、Workfrontの計画に関するよくある質問のいくつかについて説明します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 406cd3f929d3955d196f883bf1830fd0fffe9251
+source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 1%
+source-wordcount: '1674'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 この記事では、Adobe Workfrontの計画に関してよく寄せられる質問のリストを示します。
 
-Workfrontの計画の詳細については、を参照してください。 [Adobe Workfront計画の概要](/help/quicksilver/planning/general/planning-overview.md).
+Workfrontの計画について詳しくは、を参照してください。 [Adobe Workfront計画の概要](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Workfrontの計画
 
@@ -30,146 +30,171 @@ Workfrontの計画の詳細については、を参照してください。 [Ado
 
 Workfront計画モジュールは、レコードのマーケティングシステムを構築する、連携しているが独特な 3 つのWorkfront機能の 1 つです。 次の 3 つの機能があります。
 
-* 計画：Workfront Planning に含まれる新しい高度な機能です。
+* **計画**:Workfront Planning に含まれる新しい高度な機能。
 
-* ワークフロー：現在Workfrontで使用している共同作業の管理機能（プロジェクト管理、リソース管理など）。
+* **ワークフロー**:Workfrontで現在使用している共同作業管理機能（プロジェクト管理、リソース管理など）
 
-* 自動化と統合：Workfront Fusion を活用した包括的な統合および自動化機能。
+* **自動化と統合**:Workfront Fusion を活用した包括的な統合および自動化機能。
 
 ## Workfront Planning はいつリリースされますか？
 
-一般向けに計画されているWorkfrontの最新リリースは 2024 年 8 月 28 日（PT）です。 現在リリースされている機能の最新情報については、を参照してください。 [Adobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md).
+最新のWorkfront計画リリースの一般公開は 2024 年 8 月 28 日（PT）に予定されています。 現在リリースされている機能の最新情報については、を参照してください。 [Adobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md).
 
-<!-- To verify this: are we even saying "Beta"? - What happens after the beta program concludes? 
+## Workfront Planning の初期段階が終了した後はどうなりますか？
 
-Beta participants that want to leverage Planning in production will be able to purchase it at the GA date. We encourage you to reach out to your sales rep to discuss further details. The environment used for the beta program is not in production and will not be migrated. The data stored in the beta environment will be available until December 2024. -->
+Workfront Planning のベータ版および初期段階フェーズに参加したお客様は、2024 年 8 月 28 日からWorkfront Planning を購入できます。 詳細については、担当のアカウントマネージャーにお問い合わせください。
 
+## 簡単な作成プロセス（様々なドキュメントを取り込んで動的に簡単な作成を行う AI の使用）。 それはベータ版の一部ですか。
 
+この機能は間もなく利用できるようになります。
 
-お客様のご質問 – SESSION #1 6/13
+## IMS に移行する必要がありますか？
 
+はい。Workfront Planning を購入するお客様は、Adobeの統合エクスペリエンス/Adobeビジネスプラットフォームに移行する必要があります。 詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
+## 異なるワークスペースの例を提供できますか？
 
-ブリーフ作成のプロセス（AI を使用して様々なドキュメントを取り込み、ブリーフを動的に作成する）。 それはベータ版の一部ですか。
+組織の様々なレベルでワークスペースを作成できます。 システムは柔軟なので、様々なレベルのワークスペースを持つと、チームまたは個人レベルで複数の目的に対応できます。 組織内のチーム、部門またはグループ用にワークスペースを作成できます。 ユーザーは、個人のタスクを追跡できる独自のワークスペースを作成することもできます。
 
-この機能はテストできると考えられます。
+ワークスペースの主なユースケースは、組織がより大きな一元的なスペースを利用する場合です。
 
-IMS に移行する必要がありますか？
+ワークスペースは、グループまたは個々のユーザーと共有できます。
 
-はい、Planning を購入するお客様は、ABP に移行する必要があります。
+<!--## Can workspaces share funding accounts? -->
 
-異なるワークスペースの例を提供できますか？
+## ワークスペースは相互に通信できますか？ または、情報を各ワークスペースに入力する必要がありますか？
 
-様々なレベルのワークスペースを持つことができます。また、システムの柔軟性により、チームや個人レベルで実際に複数の目的を果たすことができます。 プライマリのユースケースは、組織にとって大規模で一元化されたワークスペースです。 ワークスペースの具体的な例を次に示します。
+2024 年 6 月現在、Workspaces は相互に接続できません。 ただし、この機能は今後のリリースで提供される予定です。
 
-ワークスペースは資金調達勘定を共有できますか？
+## 1 つの組織で許可されるワークスペースの数にソフトリミットまたはハードリミットはありますか？
 
-ワークスペースは相互に通信できますか？ または、情報を各ワークスペースに入力する必要がありますか？
+組織のWorkfront インスタンスには、最大 1,000 個のワークスペースを含めることができます。 制限の詳細については、を参照してください [Adobe Workfront計画の概要](/help/quicksilver/planning/general/planning-overview.md).
 
-現在の状態では、設定可能なワークスペースの数にソフトリミットがあります（ この時点でパフォーマンスが低下しますか）。 設定可能なワークスペースの数に関するハードリミット（ システムでは、この番号を超えることはできません）。
+## Workfrontシステム内の現在のオブジェクトを Planning で使用できますか。それとも、手動で構築する必要がありますか。
 
-組織のWorkfront インスタンス内の最大 1,000 個のワークスペース。 ドキュメントへのリンク：https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/create-workspaces
+計画レコードタイプとWorkfront ポートフォリオ、プログラム、プロジェクト、グループおよび会社との関連付けを作成できます。
 
-システム内の現在のオブジェクトをプラグインすることはできますか。それとも、すべて手動で構築する必要がありますか。
+Workfront プロジェクトなどで接続を確立したら、Planning のレコードをWorkfront プロジェクトで接続できます。
 
-WF ポートフォリオ、プログラム、プロジェクト、グループ、および会社を含む計画レコードタイプ間の接続を作成できます。 WF プロジェクトなどで接続を確立すると、WF プロジェクトを使用して計画テーブル内のレコードにリンクできます。 つまり、WF オブジェクトは引き続きWorkfrontで作成および管理されますが、計画記録に合わせることができます。 以下のドキュメントがあります。https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-typesそして、Connections に関するフィードバックセッションも予定しています。
+つまり、Workfrontでは引き続きWorkfront プロジェクトの作成と管理を行う必要がありますが、Workfront Planning では、キャンペーンなどの Planning レコードと連携させることができます。
 
-テストから、多くのレコードを追加すると、テーブル表示でなければお互いを区別するのが難しくなることに気がつきました。 レコードを異なる色にする方法はありますか？ タイムライン表示とカレンダー表示で互いに目立つように、カラーで設定可能にするとよいでしょう。
+レコードタイプとWorkfront オブジェクトタイプの関連付け、およびレコードとWorkfront オブジェクトの関連付けについて詳しくは、以下の記事を参照してください。
 
-人物はWorkfront人物ですか、IMS 人物ですか？
+* [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 
-Workfront インスタンス
+また、連携に関するフィードバックセッションも予定しています。
 
-これらのリストを複数のワークスペースにリンクすることはできますか？
+## 多数のレコードを追加すると、テーブル表示でなくてもレコードを区別できなくなります。 レコードを異なる色で表示する方法はありますか？
 
-Workspaces 間でレコードタイプをリンクする予定です。 まだ準備ができていません。
+2024 年 6 月の時点で、使用可能ないずれかのビュー（テーブル、タイムライン、カレンダーの各ビュー）でレコードをカラーで設定することはできません。 ただし、各レコードにサムネール画像を追加すると、レコードをより簡単に識別するのに役立ちます。
 
-追加したカスタムフィールドは、作成元のレコードタイプに対してロックされていますか？
+## Planning のユーザーはWorkfrontのユーザーですか、Adobe Admin Console（IMS）のユーザーですか。
 
-デフォルトの「開始日」フィールドや「終了日」フィールドとの接続が許可されていない。 既に存在するフィールドに接続する場合は、新しいフィールドを追加する必要がありますか？
+Workfront Planning ユーザーはWorkfrontユーザーです。
 
-Planning のフィールド・タイプとして真の外部検索スタイル・フィールドを使用する計画はありますか？
+## 各レコードタイプのリストを複数のワークスペースのレコードタイプ間でリンクできますか？
 
-レコードのデフォルトでフィールドを「作成済み」、「作成者」、「変更済み」、「変更済み」にするだけの計画があれば、レコードを追跡する場合にフィールドに追加する必要がある消費と思われますか？
+異なるワークスペース間でレコードタイプを接続する場合は、後日行われます。
 
-モジュールは WF 内のライブオブジェクトにリンクしているので、それらは Planning ベータ版のアクティビティの影響を受けますか？
+## 追加したカスタムフィールドは、作成元のレコードタイプに対してロックされていますか？
 
-Fusion に加えられる変更のアップデートを入手しますか？それとも、別々に管理されるものですか？
+現時点では、レコードフィールドは、作成に使用したレコードに固有です。 レコードタイプを接続するときに、他のレコードのフィールドを参照できます。 同じワークスペース内にある場合でも、別のレコードタイプでレコードタイプに対して作成した同じフィールドを使用することはできません。 現時点では、異なるワークスペースのレコードタイプを接続できないため、同じワークスペースにないレコードのフィールドを参照することはできません。
 
-キャンバスダッシュボードとの統合は予定されていますか？ データのレポート方法
+<!--## It isn't allowing me to make a connection with the Start/End Date fields that are default. Should I add a new one if I want to connect to a field that already exists? -->
 
-近日公開予定ダッシュボードキャンバスで計画データを視覚化できるようになります
+<!--## Any plans for true external lookup style fields as a field type in Planning? -->
 
-ワークスペーステンプレートを作成できますか？
+<!-- ## Any plans to just have the fields "Created" "Created by" "Modified" and "Modified by" by default in records - seems like a consumption for fields to have to add it if we want to track records? -->
 
-この分類/レコード構造は、Planning を購入した場合にのみ使用できますか？  分類構造は、標準のWorkfront ユーザーにもメリットがあります
+<!--## Since the module links through to live objects in WF, will they be affected by the Planning beta's activities? -->
 
-管理者は独自のテンプレートを作成できますか？
+<!--## Are we going to be getting updates for the changes putting into Fusion or is that something that is managed separately? -->
 
-ベータ版ではできません。
+## キャンバスダッシュボードとの統合は予定されていますか？ Workfrontのプランニングデータに関する他のレポート方法
 
-すべての ERD は文書化されており、計画モデルとレコードタイプで共有できますか？ 現時点では ERD ではありませんが、レコードタイプの作成と接続のプロセスをガイドする詳細なヘルプ記事があります。https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/overview-of-record-types https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types
+キャンバスダッシュボードを使用して Planning データをすぐに視覚化できるようにする予定です。
 
-1 回の利用（年間価格設定）で PLANNING を利用できます。その上、必要な数のユーザーを追加できますか。 または、ユーザーごとに請求されますか？
+<!--## Will we be able to create workspace templates? -->
 
-Planning は、目標 GA 日が 8 月 28 日で、Planning を実稼動環境で楽しむために購入する必要がある有料オファーです。 詳細については、担当営業にお問い合わせください。
+<!--## Is this Taxonomy / Record structure ONLY available if you purchase Planning?  A taxonomy structure would be beneficial for standard Workfront users too -->
 
-AI イネーブルメントは、WF システム管理者のみが使用できますか？それとも、特定のアクセスレベルで有効にできますか？それとも、特定のユーザー（1 または 2）に対してのみ有効にできますか？
+## Workfront管理者は独自のテンプレートを作成できますか？
 
-最初は、プライマリシステム管理者のみがアクセス権を持っているので、組織内のユーザーがアクセス権を取得するアクセスレベルを通じて設定できます。 6 月 21 日（PT）以降、組織の残りの部分に対して AI を有効にし、システム管理者が定義した設定に応じて、AI にアクセスできるようにするかどうかを指定します。
+早期アクセス段階ではできません。
 
-ここで作成されたフィールドのライブ 他のオブジェクト用に作成したフィールドから既存のフィールドを取り込むことはできますか？ 作成された他のフィールドとは別のものですか？
+## Planning モデルとレコード・タイプで ERD を文書化して共有できますか。
 
-現在、フィールドは、作成されたレコードタイプ内に存在しますが、H2 &#39;24 では、Planning フィールドとWorkfront フィールドを一元化されたフィールドライブラリに統合するために、優先度の高いイニシアチブを取っています。
+現時点では ERD はありませんが、Workfrontの計画に関するすべての詳細を説明する詳細なドキュメントが用意されています。 詳しくは、を参照してください [Adobe Workfront計画：記事索引](/help/quicksilver/planning/planning-information.md).
 
-計画で作成したレコード/フィールドに基づいてレポートを作成できますか？
+## Workfront Planning の価格はどのように構成されますか。1 回限りの年会費ですか。 それとも、ユーザーごとに課金されますか？
 
-はい！ ダッシュボードキャンバスを使用した近日公開
+Planning は、Workfront ライセンスに加えて有料のサービスです。 プランは 2024 年 8 月 28 日に購入できるようになります。 その際、実稼動環境で引き続き使用するには、Planning を購入する必要があります。 詳しくは、担当のアカウントマネージャーにお問い合わせください。
 
-API を使用してこのデータを取り込むこともできますか？
+## AI アシスタントはWorkfront システム管理者のみが使用できますか。それとも、特定のアクセスレベルに対して有効にすることも、特定のユーザーに対してのみ有効にすることもできますか。
 
-はい！ API と Fusion コネクタは既に使用可能です。
+AI アシスタントは現在ベータ版で利用でき、アカウントマネージャーに特別なリクエストをおこなう際に、環境に対して有効にすることができます。 リクエストが承認され、環境で AI アシスタント（ベータ版）が有効になると、環境内の全員が、計画を含むWorkfrontのすべての領域で AI アシスタントを使用できます。 Workfront管理者はすべてのユーザーのレイアウトテンプレートに Planning を追加する必要があり、ユーザーの AI アシスタントもアクセスレベルで無効にできます。
 
-マーケティングワークスペースから – グローバルマーケティングチームに使用するマスターワークスペースを 1 つ用意することをお勧めしますが、ビジネスライン、国、ブランドなど、それぞれに個別のワークスペースを用意することをお勧めします。 最大 1,000 個の Workspaces を持つことができ、Workspaces を接続できる可能性があることがわかりました。 ワークスペース間でレコードをリンクできますか？ ユースケースは – 各製品に独自のワークスペースを許可しますが、レコードタイプは共有します。 次に、すべてを組み合わせた共有ビューを表示します。
+## ここで作成されたフィールドのライブ 他のオブジェクト用に作成した既存のフィールドを取り込むことはできますか？ 他の場所で作成された他のフィールドとは別のものですか？
 
-Portfolioやプログラムをキャンペーンに取り込むことはできますか？ それが今度はプロジェクトを呼び込むのか？
+現在、フィールドは、作成元のレコードタイプに存在します。 他のレコードタイプやWorkfront オブジェクトには使用できません。 Workfrontのフィールドも Planning では使用できません。 アドビでは、プランニングとWorkfrontのフィールドを一元化されたフィールドライブラリに統合するロードマップに関するイニシアチブを取っています。
 
-プロジェクトをリンクするためにワークスペースに移動しなくても、プロジェクトの作成時にワークスペース内のレコードにプロジェクトをリンクできますか。
+## Planning で作成したレコードとフィールドに基づいてレポートを作成できますか？
 
-現在、プロジェクト内に「計画」セクションがあり、計画レコードタイプの接続レコードが表示されています。 これらの接続からレコードを追加または削除できます。 また、その接続に現在リンクされているレコードがない場合でも、すぐに他の Planning レコードタイプのレコードにリンクする機能を追加します。
+はい。近日中に、キャンバスダッシュボードを使用して計画情報をレポートできるようになります。
 
-結局、社外の人から情報やデータを取り込めるようになるだろうと思っています。 この機能はいつベータ版で使用できるようになりますか。
+## API を使用して計画データを取り込むこともできますか？
 
-ワークスペースをキャンペーン全体の担当業務別のリソースおよびキャパシティの計画に使用できますか？
+はい。既に利用可能な Planning API と Fusion コネクタがあります。 詳しくは、を参照してください [Adobe Workfront Planning モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Workfront Planning API のドキュメントは、近日中に利用できるようになります。
 
-ワークスペースレコードをリンクしてリクエストを開始できますか？
+<!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
-OFFICE HOURS 6/18
+## Portfolioやプログラムをキャンペーンに取り込むことはできますか？ それが今度はプロジェクトを呼び込むのか？
 
-接続されたWorkfront データに日付をリンクする機能。 これは、現在、すべてのレベル（プロジェクト、ポートフォリオ、プログラムなど）でアクティブですか？
+はい、Workfront Planning キャンペーンをWorkfrontのポートフォリオおよびプログラムと結び付けることができます。 ただし、ポートフォリオとプログラムを接続する場合、プロジェクトは追加されません。 レコードタイプは、ポートフォリオ、プログラム、プロジェクトに別々のオブジェクトとして接続する必要があります。
 
-はい、参照フィールドを使用してプロジェクトを接続できます。
+## プロジェクトをリンクするためにワークスペースに移動しなくても、プロジェクトの作成時にワークスペース内のレコードにプロジェクトをリンクできますか。
 
-公開表示が表示できていることを確認するにはどうすればよいですか？
+現在、プロジェクト内に「計画」セクションがあり、プロジェクトオブジェクトに接続された「計画」レコードタイプの接続されたレコードがすべて表示されます。 「計画」セクションから追加のレコードを追加または削除できます。 間もなく、その接続にリンクされたレコードがない場合でも、他の Planning レコードタイプのレコードにリンクする機能も追加します。 ただし、実際のレコードをWorkfrontのプロジェクトに関連付けるには、レコードタイプをWorkfront オブジェクトタイプ（プロジェクト）にリンクする必要があります。
 
-共有されているパブリック ビューは表示されます
+<!--I'm understanding eventually we will be able to intake information/data from someone outside our organization. When will this feature be made available in beta? 
 
-社内でどのようにビューを共有していますか？
+Can the workspace be used for resource and capacity planning by job role across a campaign? 
 
-新しいワークスペースを作成するたびに、ビューを再共有する必要がありますか？
+We will be able to link a Workspace record to start a request? -->
 
-はい、新しいワークスペースを作成するたびに、新しいレコードタイプになります。 ビューはレコードタイプに固有なので、再共有する必要があります。
+## 接続されたWorkfront データから日付をリンクできますか？ これは、現在、すべてのレベル（プロジェクト、ポートフォリオ、プログラム）でアクティブですか？
 
-コンテンツからサムネールを抽出することはできますか？ つまり、サムネールを.pdf またはビデオに設定します。 クリエイティブな人と協力して、選択可能なサムネール表示を用意することは、チームがコンテンツマップについて話し合うより高レベルの会議に参加し続けるための優れた方法です。コンテンツに直接リンクすることもできます。
+はい。ルックアップフィールドを使用して、プロジェクト、プログラム、ポートフォリオの日付を接続できます。
 
-ベースの権限以外にも権限をカスタマイズできますか？ 現在、他のWorkfront オブジェクトを使用すると、投稿、管理、ビューアクセスの機能をカスタマイズできます。
+<!-- ******************not sure about the answer here: 
 
-現在、ワークスペースおよび表示レベルの権限のみが付与されていますが、レコードタイプや個々のレコードレベルの権限は付与されていません。
+## How do I know there are public view ready to view? 
 
-サムネールのカスタマイズ方法と同様に、ワークスペースアイコンをカスタマイズできますか？
+Public views that are shared are visible  -->
 
-Adobeの DAM ではなく独自の DAM を使用するためのカスタマイズ可能な API はありますか？
+## 社内でどのようにビューを共有していますか？
 
-ここでは、計画用のパブリック API を構築し、Fusion コネクタも用意しています。 API ドキュメントが公開されるので、これを使用して接続を構築できます。
+ビューの共有について詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
-Planning （Airtable を使用する従業員）に価値があると思います。 今まで私たちは… x の後の奇妙なバックエンド接続で、午前 10.47 時頃に戻る
+## ワークスペースを作成するたびに、ビューを再共有する必要がありますか？
+
+はい、ワークスペースを作成するたびに、レコードタイプも作成します。 ビューはレコードタイプに固有なので、ビューを再共有する必要があります。
+
+ビューは、ワークスペースとは別に共有されます。 ユーザーがレコードタイプにアクセスできるようにワークスペースを共有し、ユーザーがレコードのフィールドにアクセスできるようにビューを共有する必要があります。
+
+<!--Can thumbnails be from the content? i.e. Set the thumbnail to the .pdf or video. We work with creative people and to have a thumbnail view that is selectable would be a great way to keep teams engaged in those higher-level meetings where they will discuss our Content Map – a link to the content directly would be great too. -->
+
+## ベースの権限以外にも権限をカスタマイズできますか？ 現在、他のWorkfront オブジェクトを使用すると、Contribute/管理/表示権限で実行できる操作をカスタマイズできます。
+
+現時点ではできません。 各権限の権限について詳しくは、を参照してください。 [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+現在、ワークスペースおよび表示レベルの権限のみを持っていますが、レコードタイプまたは個々のレコードレベルの権限は持っていません。 レコードタイプとレコードは、属するワークスペースから権限を継承します。
+
+## サムネールのカスタマイズ方法と同様に、Workspaceのアイコンをカスタマイズできますか？
+
+いいえ。
+
+## Adobeの DAM ではなく独自の DAM を使用するためのカスタマイズ可能な API はありますか？
+
+既に利用可能な Planning API と Fusion コネクタがあります。 詳しくは、を参照してください [Adobe Workfront Planning モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Workfront Planning API のドキュメントは、近日中に利用できるようになります。 API を使用してカスタム統合を作成できます。
