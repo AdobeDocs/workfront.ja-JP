@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 50%
+source-wordcount: '1616'
+ht-degree: 45%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 50%
 
 このページでは、2024年第 3 四半期リリースに含まれている機能について説明します。これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
 
-24.7 リリースのウェビナーは、2024 年 6 月 27 日（PT）に開催されます。 [ここからウェビナーに登録できます](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview)。
+ライブ 24.7 リリースウェビナーはキャンセルされましたが、引き続き使用できます [ここで 24.7 の機能のビデオデモをご覧ください](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">オフサイクル機能（2024年第 3 四半期のリリース日より前に実稼動にリリースされるもの）は、黄色でハイライト表示されています。</span>
 
@@ -28,7 +28,7 @@ ht-degree: 50%
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6 （2024 年 6 月 13 日（PT））</li><li>24.7（2024年7月）</li></ul> | <ul><li>24.7（2024年7月）</li></ul> |
+>| <ul><li>24.5 （2024 年 5 月 16 日（PT））</li><li>24.6 （2024 年 6 月 13 日（PT））</li><li>24.7 （2024 年 7 月 18 日（PT））</li></ul> | <ul><li>24.7 （2024 年 7 月 18 日（PT））</li></ul> |
 >
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
@@ -36,6 +36,7 @@ ht-degree: 50%
 
 * [管理者機能の強化](#administrator-enhancements)
 * [Financial Management の機能強化](#financial-management-enhancements)
+* [統合の機能強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
@@ -54,6 +55,23 @@ ht-degree: 50%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Adobe Workfrontで一般入手可能なカスタムフォームデザイナー</a></p>
+                        <p>24.7 リリースでは、フォームデザイナーが一般入手可能になり、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスになります。 新しいカスタムフォームを作成する場合、または既存のフォームを開く場合、フォームデザイナーのキャンバスタイルワークスペースが表示されます。</p>
+                        <p>このリリース以降、従来のフォームビルダーに戻すオプションはなくなります。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年6月19日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +116,7 @@ ht-degree: 50%
                                 <p>プレビューリリース：2024年6月6日（PT）</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -165,6 +183,46 @@ ht-degree: 50%
            </tbody>
         </table>
 
+### 統合の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager AssetsとAssets Essentialsの機能強化</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Experience Manager AssetsとAssets EssentialsのWorkfront統合に関して、次の点が改善されました。</p>
+                        <ul>
+                            <li><p>この統合では、クラウドサービスプロバイダーとしての GCP がサポートされるようになりました。 以前は、AWSと Azure がサポートされていました。</p></li>
+                            <li><p>統合を通じてExperience Managerに送信されるファイルのサイズ制限は 30 GB に増えました。 以前は、上限は 5 GB でした。</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年6月27日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様の実稼動環境：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### プロジェクトの強化
 
 <table>
@@ -196,7 +254,7 @@ ht-degree: 50%
                                 <p>迅速リリースの実稼動：24.6 リリースの場合（2024 年 6 月 13 日（PT））</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -216,7 +274,7 @@ ht-degree: 50%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +294,7 @@ ht-degree: 50%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -271,7 +329,7 @@ ht-degree: 50%
                                 <p>プレビューリリース：2024年6月6日（PT）</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -306,7 +364,7 @@ ht-degree: 50%
                                 <p>プレビューリリース：2024年6月20日（PT）</p>
                             </li>
                             <li>
-                                <p>特定のお客様の実稼働環境：24.7 リリースの場合（2024 年 7 月）</p>
+                                <p>特定のお客様の実稼働環境：24.7 リリースの場合（2024 年 7 月 18 日（PT））</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">Adobe統合シェルは、段階的なロールアウトで使用可能になります。 その他の組織は、24.10 および 25.1 リリースでAdobe統合シェルにオンボーディングされます。 </p>
@@ -323,7 +381,7 @@ ht-degree: 50%
                                 <p>プレビューリリース：2024年6月6日（PT）</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
                     </td>
@@ -343,7 +401,7 @@ ht-degree: 50%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
-                                <p>四半期リリース用の実稼動版：24.7 リリースに併せて </p>
+                                <p>四半期リリースの制作：24.7 リリースと（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
                     </td>
