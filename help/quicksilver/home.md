@@ -3,7 +3,7 @@ title: 「[!DNL Adobe Workfront] ドキュメント」
 description: ' [!DNL Adobe Workfront] のドキュメント。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
+source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 16%
@@ -94,7 +94,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 ### ラーニングとトレーニングのセクションを検索
 
-* **トレーニング資料**：に移動します。 [Workfront トレーニング](https://experienceleague.adobe.com/en/browse/workfront) Workfrontの機能と設定をより深く理解できるように設計されたトレーニングビデオと記事のライブラリのページ。 また、次の URL から有料トレーニング資料にアクセスできます。 [learning.adobe.com](http://learning.adobe.com/).
+* **トレーニング資料**：に移動します。 [Workfront トレーニング](https://experienceleague.adobe.com/en/browse/workfront) Workfrontの機能と設定をより深く理解できるように設計されたトレーニングビデオと記事のライブラリのページ。 また、次の URL から有料トレーニング資料にアクセスできます。 [learning.adobe.com](https://learning.adobe.com/).
 * **コース**：検索 [構造化された学習コース](https://experienceleague.adobe.com/home?Solution=Workfront#courses) このガイドに従って、様々なWorkfront機能を論理的な順序で使用できます。
 
 ### コミュニティフォーラムで回答を検索

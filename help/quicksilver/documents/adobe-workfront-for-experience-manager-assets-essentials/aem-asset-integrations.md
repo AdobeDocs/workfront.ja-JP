@@ -1,23 +1,25 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Adobe Experience Manager Assets統合の概要
+title: Adobe Experience Manager Assets 統合の概要
 description: Workfront と Experience Manager Assets、または Assets Essentials の統合により、組織は作業とデジタルアセット管理を本質的に結び付けることで、コンテンツの速度と市場投入までの時間を改善できます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 70%
+source-wordcount: '301'
+ht-degree: 95%
 
 ---
 
-# Adobe Experience Manager Assets統合の概要
+# Adobe Experience Manager Assets 統合の概要
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 <!-- Audited: 12/2023 -->
 
-WorkfrontとExperience Manager Assets、またはAssets Essentialsの統合により、組織は作業とデジタルアセット管理を本質的に結び付けることで、コンテンツの速度と市場投入までの時間を改善できます。
+Workfront と Experience Manager Assets、または Assets Essentials の統合により、組織は作業とデジタルアセット管理を本質的に結び付けて、コンテンツの速度を改善し、市場投入までの時間を短縮できます。
 
 >[!IMPORTANT]
 >
@@ -31,7 +33,7 @@ WorkfrontとExperience Manager Assets、またはAssets Essentialsの統合に�
 * 自動的に作成された Workfront と Experience Manager の間にリンクされたフォルダー
 * 既存のリンクされたアセットのメタデータを簡単に同期
 * ポートフォリオが Workfront で変更されたときに、ポートフォリオ、プログラム、プロジェクト、タスク、イシュー、ドキュメントのメタデータを自動的に更新
-* 複数のExperience Manager Assetsリポジトリを 1 つのWorkfront環境にスムーズに接続するか、複数のWorkfront環境を組織 ID をまたいで 1 つのExperience Manager Assetsリポジトリにスムーズに接続します
+* 複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に、または複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリにスムーズに接続できます。
 
 
 ## 前提条件
@@ -45,6 +47,12 @@ WorkfrontとExperience Manager Assets、またはAssets Essentialsの統合に�
 * Adobe Experience Manager Assets as a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
+## サポートされるクラウドサービスプロバイダー
+
+* AWS（Amazon Web Services）
+* Azure
+* <span class="preview">GCP （Google Cloud Platform）</span>
+
 
 ## 基本を学ぶ
 
@@ -53,4 +61,4 @@ WorkfrontとExperience Manager Assets、またはAssets Essentialsの統合に�
    1. [Experience Manager Assets as a Cloud Service 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 または
    1. [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. 統合の使用：アセットの送信、リンクされたフォルダーの作成、メタデータのマッピングなどを行います。詳しくは、 [Adobe Workfront for Experience Manager AssetsとAssets Essentials：記事インデックス](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) を参照してください。
+1. 統合の使用：アセットの送信、リンクされたフォルダーの作成、メタデータのマッピングなどを行います。詳しくは、[Adobe Workfront for Experience Manager Assets と Assets Essentials：記事インデックス](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)を参照してください。
