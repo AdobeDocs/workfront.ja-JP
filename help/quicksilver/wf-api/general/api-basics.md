@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
+source-git-commit: cf84efd2b1e38e497eb0ac73ce76ed7366901251
 workflow-type: tm+mt
-source-wordcount: '4384'
-ht-degree: 99%
+source-wordcount: '4395'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Workfront スキーマに精通していれば、統合のために Workfront �
 
 ## 制限とガイドライン
 
-Workfront オンデマンドシステムのパフォーマンスを確保するため、各お客様が同時に実行できる API スレッドは 10 個に制限されています。サンドボックス環境にも同じ制限があるので、お客様とパートナーは、コードを実稼動環境にリリースする前に API 呼び出しを正確にテストできます。
+Workfrontのオンデマンドシステムパフォーマンスで一貫したパフォーマンスを確保するために、Workfront API では同時 API スレッドを制限しています。 このガードレールは、不正な API 呼び出しに起因するシステムの問題を防ぎます。 サンドボックス環境には、同じ同時 API スレッド制限が設定されているので、お客様とパートナーがコードを実稼動環境にリリースする前に API 呼び出しを正確にテストできます。
 
 実稼動、プレビューおよび体験版の環境では、エンドユーザーのリクエストは Workfront CDN（Akamai）を介してルーティングされるので、URI の最大長は 8892 バイトとなります。この制限は、CDN 経由でルーティングされる URI にのみ適用されます。
 
