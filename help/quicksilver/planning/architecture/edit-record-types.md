@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 66%
+source-wordcount: '462'
+ht-degree: 60%
 
 ---
 
@@ -101,7 +101,7 @@ hide: yes
 
    または
 
-   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、レコードの種類を編集するワークスペースを選択します。
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
 
    ワークスペースが開き、レコードタイプが表示されます。
 1. レコードタイプのカードにポインタを合わせて、 **詳細** メニュー ![](assets/more-menu.png) レコードタイプカードの右上隅のをクリックします **編集**.
@@ -130,4 +130,4 @@ hide: yes
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. （オプション）レコードタイプ名の右側にある下向き矢印を展開し、別のレコードタイプを選択して編集します。
+1. （オプション）別のレコードの種類を編集するには、レコードの種類名の右側にある下向き矢印を展開し、レコードの種類を検索してから、一覧に表示されたら選択します。

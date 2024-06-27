@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '2486'
+source-wordcount: '2487'
 ht-degree: 66%
 
 ---
@@ -186,7 +186,7 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
    または
 
-   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開し、レコードの種類を接続するワークスペースを選択します。
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブを選択します。
 

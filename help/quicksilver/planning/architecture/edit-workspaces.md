@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 55%
@@ -92,7 +92,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 1. ワークスペースカードをクリックして、ワークスペースを開きます。
 1. 新しいワークスペースのヘッダーでワークスペースの名前内をクリックして名前を変更し、を押します **Enter**.
-1. 「」をクリックします **詳細** メニュー ![](assets/more-menu.png)ヘッダーのワークスペース名の右側にある「」をクリックします。 **編集**.
+1. 「」をクリックします **詳細** メニュー ![](assets/more-menu.png) ヘッダーのワークスペース名の右側にある「」をクリックします。 **編集**.
 
    ![](assets/edit-workspace-box.png)
 
