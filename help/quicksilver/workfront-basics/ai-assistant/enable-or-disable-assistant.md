@@ -7,14 +7,23 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d698a0a4f262bb0b4008c18875473b63997de6ef
+source-git-commit: fdee3747716f22e291234a2e0ad626eb5a27feda
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 34%
+source-wordcount: '244'
+ht-degree: 29%
 
 ---
 
 # AI アシスタントを有効または無効にする
+
+>[!IMPORTANT]
+>
+>現在、AI アシスタントを利用できるWorkfrontおよびWorkfront Planning のお客様の数は限られています。
+>
+>* Workfront:AI アシスタントベータ版
+>* Workfrontの計画：早期アクセス
+>
+>これらのグループのいずれかに属している場合は、アカウント担当者から通知されます。
 
 Workfront管理者は、組織内で AI アシスタントを有効にしているユーザーを制御できます。 これはアクセスレベルで管理します。
 
