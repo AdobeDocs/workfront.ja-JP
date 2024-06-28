@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
+source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 45%
+source-wordcount: '1666'
+ht-degree: 44%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 45%
 * [Financial Management の機能強化](#financial-management-enhancements)
 * [統合の機能強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+* [プルーフ機能の強化](#proofing-enhancements)
 * [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
 
@@ -299,6 +300,41 @@ ht-degree: 45%
                         </ul>
                     </td>
                  </tr>
+           </tbody>
+        </table>
+
+### プルーフ機能の強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">デスクトッププルーフビューアのセキュリティアップデート</a></p>
+                        <p>Workfront Proof デスクトッププルーフビューア 2.1.35 セキュリティアップデートは、以前のリリースで特定された脆弱性のセキュリティバグ修正を提供します。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024 年 7 月</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版（すべてのお客様向け）：2024年7月4日（PT）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
            </tbody>
         </table>
 
