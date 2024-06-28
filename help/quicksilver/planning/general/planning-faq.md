@@ -4,9 +4,9 @@ description: マーケティング業務のリーダーとして、Adobe Workfro
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Workfront計画モジュールは、レコードのマーケティングシス�
 
 ## Workfront Planning はいつリリースされますか？
 
-最新のWorkfront計画リリースの一般公開は 2024 年 8 月 28 日（PT）に予定されています。 現在リリースされている機能の最新情報については、を参照してください。 [Adobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md).
+最新のWorkfront計画リリースの一般公開は 2024 年 8 月 28 日（PT）に予定されています。 現在リリースされている機能の最新情報については、を参照してください。 [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md).
 
 ## Workfront Planning の初期段階が終了した後はどうなりますか？
 

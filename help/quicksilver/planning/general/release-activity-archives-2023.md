@@ -1,12 +1,12 @@
 ---
-title: 2023 年のAdobe Workfront計画リリースアクティビティ
+title: 2023 年のAdobe Workfront計画リリースアクティビティアーカイブ
 description: Adobe Workfront Planning は現在、Workfront の一部のお客様にご利用いただけます。Planning 機能用に最近リリースされた機能について詳しくは、この記事を頻繁に確認してください。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2989'
 ht-degree: 94%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 この記事では、2023 年 5 月 22 日（PT）にAdobe Workfront計画プログラムのローンチ後、2023 年に向けてリリースされた機能の一覧を示します。
 
-2024 年にリリースされた機能について詳しくは、 [Adobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md).
+2024 年にリリースされた機能について詳しくは、 [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md).
 
 リリースされた機能は、リリースされた順序で一覧表示され、最新の機能が最初に表示されます。Workfront計画プログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
 

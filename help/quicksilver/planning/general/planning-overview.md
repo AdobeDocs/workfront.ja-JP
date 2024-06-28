@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
-ht-degree: 84%
+source-wordcount: '1967'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 
 Workfront Planning で使用可能な主な機能と、その使用可能なタイムラインを次の表に示します。このリストには、すべての機能が含まれているわけではありません。
 
-新機能とそのリリース日時について詳しくは、[Adobe Workfront Planning リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md)を参照してください。
+新機能とそのリリース時期について詳しくは、を参照してください。 [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md).
 
 | 機能 | 現在利用可能 | 近日中に利用可能 | 調査中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -328,5 +328,5 @@ Workfront Planning を検索するには、次の手順に従います。
 
 アドビでは、定期的に Workfront Planning の新機能をリリースしています。
 
-リリースされた機能の最新のリストについては、を参照してください。 [Adobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md)
+リリースされた機能の最新のリストについては、を参照してください。 [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md)
 

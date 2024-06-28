@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 77%
+source-wordcount: '445'
+ht-degree: 58%
 
 ---
 
@@ -49,8 +49,12 @@ hide: yes
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning の概要](/help/quicksilver/planning/general/planning-overview.md)：このソリューションに特有の用語や概念を含む、Adobe Workfront Planning の概要です。ここから Workfront Planning のジャーニーを開始することをお勧めします。
-* [Adobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md):2023 年 5 月 22 日（PT）のAdobe Workfront計画プログラムのローンチ以降にリリースされたすべての機能のリスト。正確なリリース日と各機能の概要が記載されています。
-* [Workfront Fusion 用のAdobe Workfront計画モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+* [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md):2023 年 5 月 22 日（PT）のAdobe Workfront計画プログラムのローンチ以降にリリースされたすべての機能のリスト。正確なリリース日と各機能の概要が記載されています。
+* [Adobe Workfront計画 AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md):Workfront AI Assistant for Planning を使用すると、コマンドを使用してアシスタントに作業を任せることで、レコードを検索したり、レコードを作成、更新、削除したりできます。
+
+  Workfront AI アシスタントは現在、ベータ版の一部のお客様が利用できます。 この新しいサービスを試す資格があるかどうかを確認するには、アカウント担当者にお問い合わせください。
+
+* [Workfront Fusion 用のAdobe Workfront計画モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Adobe Workfront Planning モジュールを使用すると、Workfront Planning でイベントが発生した場合にシナリオのトリガーを設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
 
 ## Workfront Planning のアーキテクチャと機能
 

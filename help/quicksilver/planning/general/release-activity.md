@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront Planning リリースアクティビティ
+title: Adobe Workfrontの現在のリリースアクティビティの計画
 description: Adobe Workfront Planning は現在、Workfront の一部のお客様にご利用いただけます。Planning 機能用に最近リリースされた機能について詳しくは、この記事を頻繁に確認してください。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '5143'
-ht-degree: 51%
+source-wordcount: '5234'
+ht-degree: 50%
 
 ---
 
 
-# Adobe Workfront Planning リリースアクティビティ
+# Adobe Workfrontの現在のリリースアクティビティの計画
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -33,7 +33,7 @@ ht-degree: 51%
 
 ここでは、2024 年にWorkfront Planing にリリースされた機能の一覧を示します。
 
-Workfront計画プログラムは、2023 年 5 月 22 日（PT）から開始されました。 2023 年にリリースされたすべての機能のリストについては、を参照してください。 [2023 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Workfront計画プログラムは、2023 年 5 月 22 日（PT）から開始されました。 2023 年にリリースされたすべての機能のリストについては、を参照してください。 [2023 年のAdobe Workfront計画リリースアクティビティアーカイブ](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 リリースされた機能は、リリースされた順序で一覧表示され、最新の機能が最初に表示されます。Workfront計画プログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
 
@@ -54,6 +54,16 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
 ## 2024年6月24日（PT）の週
+
+### Workfront Planning でWorkfront AI アシスタント（ベータ版）を利用できるようになりました
+
+Workfront Planning で AI アシスタント（ベータ版）が利用できるようになりました。
+
+AI アシスタントは、選択したページのコンテキストと、アクセス権および権限レベルで機能し、レコードの生成、更新、削除、復元のアクションを実行します。
+
+AI アシスタントは現在ベータ段階にあり、一部のお客様が利用できます。 このフェーズに参加する資格があるかどうかを確認するには、アカウント担当者にお問い合わせください。
+
+詳しくは、を参照してください [Adobe Workfront計画 AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### ワークスペースまたはレコードタイプを選択する際の新しい検索ボックス
 
