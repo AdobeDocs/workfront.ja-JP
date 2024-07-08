@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: approvals
 title: 承認テンプレートの作成
-description: 承認テンプレートを作成して、承認プロセスを合理化できます。
+description: 承認テンプレートを作成すると、承認プロセスを効率化できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
+source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 37%
+source-wordcount: '228'
+ht-degree: 100%
 
 ---
-
 
 # 承認テンプレートの作成
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
-「Workfrontの設定」領域で、標準ライセンスを持つユーザーは、結果として得られる承認テンプレートを作成できます。 作成後、承認テンプレートは、プロジェクト、タスクまたはイシューのドキュメント領域にあるアセットに適用できます。
+Workfront の設定エリアで、標準ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。作成した承認テンプレートは、プロジェクト、タスクまたはイシューのドキュメントエリアにあるアセットに適用できます。
 
 >[!IMPORTANT]
 >
@@ -36,26 +36,29 @@ ht-degree: 37%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>標準</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：標準</p> 
+   <p>または</p>
+   <p>現在：プラン</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 承認テンプレートの作成
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、 **レビューと承認** > **承認テンプレート**.
-1. クリック **新規テンプレート** をクリックします。
+1. 左パネルで&#x200B;**レビューと承認**／**承認テンプレート**&#x200B;をクリックします。
+1. ページの右側で「**新規テンプレート**」をクリックします。
 1. 次の情報を指定します。
 
-   | テンプレート名 | このテンプレートの名前を入力し始めます。 |
+   | テンプレート名 | このテンプレートの名前を入力していきます。 |
    |----------------------------|---|
-   | **（オプション）期間** | 期間を日数で入力します。 テンプレートがアセットに適用されると、承認期限はこのフィールドから計算されます。 |
-   | **承認者またはレビュー担当者を追加** | ユーザーまたはチームの名前を入力し、レビュー担当者または承認者として指定します。 |
+   | **（オプション）期間** | 期間を日数で入力します。テンプレートがアセットに適用されると、承認期限がこのフィールドから計算されます。 |
+   | **承認者またはレビュアーの追加** | ユーザーまたはチームの名前を入力していき、それらをレビュアーまたは承認者として指定します。 |
 1. 「**保存**」をクリックします。
 
 
@@ -65,4 +68,3 @@ ht-degree: 37%
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)-->
-
