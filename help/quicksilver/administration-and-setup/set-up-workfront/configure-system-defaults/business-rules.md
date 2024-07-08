@@ -7,17 +7,16 @@ description: 新しい Workfront 機能を毎月受け取るか、四半期ご�
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 6%
 
 ---
 
 # ビジネス・ルールの作成と編集
+
+{{highlighted-preview-article-level}}
 
 ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ビジネスルールは、データの整合性を損なう可能性のあるアクションを防ぐことで、データ品質と運用効率の向上に役立ちます。
 
@@ -25,7 +24,7 @@ ht-degree: 6%
 
 ユーザーがオブジェクトを操作する場合、アクセスレベルとオブジェクト共有は、ビジネスルールよりも優先されます。 例えば、ユーザーがプロジェクトの編集を許可しないアクセスレベルまたは権限を持っている場合、それらは、特定の条件下でプロジェクトの編集を許可するビジネスルールよりも優先されます。
 
-また、1 つのオブジェクトに複数のビジネス・ルールが適用される場合にも階層が存在します。 たとえば、2 つのビジネス・ルールがあるとします。 1 つは、2 月の費用の作成を制限します。 2 番目は、プロジェクトのステータスが「完了」の場合に、プロジェクトを編集できないようにします。 6 月に完了したプロジェクトにユーザーが費用を追加しようとすると、2 番目のルールがトリガーされたので、費用を追加できません。
+複数のビジネス・ルールがオブジェクトに適用される場合、ルールはすべて従いますが、特定の順序では適用されません。 たとえば、2 つのビジネス・ルールがあるとします。 1 つは、2 月の費用の作成を制限します。 2 番目は、プロジェクトのステータスが「完了」の場合に、プロジェクトを編集できないようにします。 6 月に完了したプロジェクトにユーザーが費用を追加しようとすると、2 番目のルールがトリガーされたので、費用を追加できません。
 
 ビジネスルールは、API とWorkfront インターフェイスを使用したオブジェクトの作成、編集、削除に適用されます。
 
@@ -64,18 +63,36 @@ ht-degree: 6%
 
 ## ビジネス・ルールのシナリオ
 
-簡単なビジネス・ルールのシナリオには、次のものがあります。
+ビジネス・ルールのフォーマットは、「定義した条件が満たされると、ユーザーはオブジェクトに対するアクションを実行できなくなり、メッセージが表示されます。」です。
 
-* ユーザーが 2 月の最後の週に新しい費用を追加することはできません。 この式は次のように表すことができます。 `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* ユーザーは、「完了」ステータスのプロジェクトを編集できません。 この式は次のように表すことができます。 `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-ビジネスルールを作成する構文は、カスタムフォームで計算フィールドを作成する構文と同じです。 構文について詳しくは、を参照してください。 [計算フィールドをフォームデザイナーで追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+ビジネス ルールのプロパティやその他の関数の構文は、カスタム フォームの計算フィールドの構文と同じです。 構文について詳しくは、を参照してください。 [計算フィールドをフォームデザイナーで追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 IF ステートメントの詳細については、を参照してください [「IF」ステートメントの概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) および [計算されたカスタムフィールドの条件演算子](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 ユーザーベースのワイルドカードについては、を参照してください。 [ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 日付ベースのワイルドカードについては、を参照してください。 [日付ベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+API ワイルドカードは、ビジネス・ルールでも使用できます。 次を使用できます `$$ISAPI` UI または API でのみルールをトリガーします。
+
+簡単なビジネス・ルールのシナリオには、次のものがあります。
+
+* ユーザーが 2 月の最後の週に新しい費用を追加することはできません。 この式は次のように表すことができます。 `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* ユーザーは、「完了」ステータスのプロジェクトを編集できません。 この式は次のように表すことができます。 `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+ネストされた IF ステートメントを含むシナリオは次のとおりです。
+
+ユーザーが、完了したプロジェクトを編集したり、3 月の予定完了日を持つプロジェクトを編集したりできない。 この式は次のように表すことができます。
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## 新規ビジネス・ルールの追加
 

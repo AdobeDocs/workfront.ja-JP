@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 5%
+source-wordcount: '685'
+ht-degree: 4%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 5%
 このページでは、2024 年第 3 四半期リリースで行われた、プレビュー環境に対するすべての管理者向けの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## これで、ビジネスルールを使用できるようになります
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 7 月 4 日（PT）。すべてのお客様向けの実稼動リリース：24.7 リリースの場合（2024 年 7 月 18 日（PT））。
+
+管理者は、Workfrontの設定エリアでビジネスルールを追加できるようになりました。
+
+ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ルールは、カスタムフォームの計算フィールドに類似した式を使用して作成されます。
+
+詳しくは、を参照してください [ビジネス・ルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>ビジネスルールは、新しい Ultimate プランの組織でのみ使用できます。
 
 ## Adobe Workfrontで一般入手可能なカスタムフォームデザイナー
 
