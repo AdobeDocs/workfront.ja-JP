@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
+source-git-commit: cd84a3b448de41c795cc962e4756db0946bae0fd
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1746'
 ht-degree: 43%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 43%
                                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">これで、ビジネスルールを使用できるようになります</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
                         <p>管理者は、Workfrontの設定エリアでビジネスルールを追加できるようになりました。</p>
                         <p>ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ルールは、カスタムフォームの計算フィールドに類似した式を使用して作成されます。</p>
                     </td>
