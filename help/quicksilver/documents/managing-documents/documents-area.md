@@ -7,10 +7,10 @@ description: ドキュメントエリアでは、Adobe Workfront にアップロ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '368'
-ht-degree: 100%
+source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 86%
 
 ---
 
@@ -22,11 +22,19 @@ ht-degree: 100%
 
 ドキュメントエリアには 2 つのタイプがあります。特徴と機能は両方とも同じです。
 
-* **プロジェクト、タスク、またはイシューのドキュメントエリア：** 特定のプロジェクト、タスク、またはイシューに関してアクセスできるすべてのドキュメントをリストします。このエリアにアクセスするには、プロジェクト、タスク、またはイシューを表示しているときに、左側のパネルで&#x200B;**ドキュメント** ![](assets/document-icon-12x14.png) をクリックします。
+* **プログラム、ポートフォリオ、プロジェクト、タスク、または問題のドキュメント エリア：** 特定のプロジェクト、タスク、イシューに対してアクセス権を持つすべてのドキュメントのリストが表示されます。 このエリアにアクセスするには、プロジェクト、タスク、またはイシューを表示しているときに、左側のパネルで&#x200B;**ドキュメント** ![](assets/document-icon-12x14.png) をクリックします。
 
 * **グローバルドキュメントエリア：** Workfront でアクセスできるすべてのドキュメントをリストします。この領域にアクセスするには、メインメニュー ![](assets/main-menu-icon.png) の&#x200B;**ドキュメント**![](assets/document-icon.png) をクリックします。
 
 Workfront へのドキュメントのアップロードについては、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)を参照してください。
+
+
+「ドキュメント」領域には、次の項目の数が記録されます。
+
+* Workfront フォルダー
+* ファイルシステムからアップロードされたファイル
+* 統合からWorkfrontに追加されたファイル
+* リンクされたExperience Manager Assets
 
 ## 概要パネル
 
