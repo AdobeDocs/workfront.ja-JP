@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
 workflow-type: tm+mt
 source-wordcount: '2355'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 96%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -158,7 +158,7 @@ ht-degree: 96%
       <td role="rowheader">形式</td> 
       <td> <p>フィールドの結果を保存および表示する形式です。</p> <p>フィールドを数学計算で使用する場合は、常に<strong>数字</strong>または<strong>通貨</strong>形式を使用します。「数値」または「通貨」を選択すると、0 から始まる数値が自動的に切り捨てられます。</p> 
       <p><b>重要</b>：形式を選択する前に、新しいフィールドに適した形式を検討してください。カスタムフォームを保存した後は、形式フィールドを編集できません。また、誤った形式を選択すると、今後の計算や集計値がレポートやリストのグループ化に影響を受ける可能性があります。</p>
-      <p><strong>注意：</strong> 通貨形式の計算フィールドには引用符を含めないでください。 （例えば、「800.00」ではなく、800.00 を使用します）。 引用符を使用すると、通貨タイプの言語書式のニュアンスが原因で、予期しない結果が生じる場合があります。</p></td>
+      <p><strong>メモ：</strong> 通貨形式の計算フィールドには引用符を含めないでください。例えば、"800.00" ではなく、800.00 を使用してください。引用符を使用すると、通貨タイプの言語形式の微妙な違いにより、予期しない結果が生じる可能性があります。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -255,7 +255,7 @@ ht-degree: 96%
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        次のような変数について詳しくは、 `$$OBJCODE,` 参照 [ワイルドカードフィルター変数の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        `$$OBJCODE,` のような変数について詳しくは、[ワイルドカードフィルター変数の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
         **計算カスタムフィールドの自動更新**
 
@@ -278,11 +278,12 @@ ht-degree: 96%
       開き丸括弧を入力すると、閉じ丸括弧が自動的に追加されます。
 
 +++ **展開して役に立つヒントを確認**
+
       >[!TIP]
       >
       >次のいずれかの操作を実行して、計算に関するヘルプを確認することができます。
       > 
-      >* 計算式の上にマウスポインターを置くと、説明、使用方法を示す例、記事の詳細情報への「詳細」リンクが表示されます [計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* 計算の式にカーソルを合わせると、説明、その式の使用方法を示す例、および記事[計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)の詳細情報への「詳細情報」リンクが表示されます。
       >  ![](assets/hover-expression-help-text.jpg)
       >* 追加したコンポーネントを識別するには、色分けを使用します。式は青色で表示され、フィールドは緑色で表示されます。
       >  ![](assets/colors-fields-expressions.jpg)
