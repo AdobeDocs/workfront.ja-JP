@@ -6,10 +6,10 @@ description: アドホックカードをボードにすばやく追加して、�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 91%
+source-wordcount: '878'
+ht-degree: 99%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 91%
 1. ボードにアクセスします。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL カードを追加]／[!UICONTROL 新規カード]**&#x200B;をクリックします。
 
-   The [!UICONTROL カードの詳細] 」ボックスが表示されます。
+   [!UICONTROL カードの詳細]ボックスが表示されます。
 
    >[!NOTE]
    >
-   >「名前」フィールドの外側をクリックすると、アドホックカードは自動的に左端の列の下部に「名称未設定」として保存されます。 カードを保存せずに終了するには、 [!UICONTROL **キャンセル**] 内の他の場所をクリックせずに [!UICONTROL カードの詳細] ボックス。
+   >「名前」フィールドの外側をクリックすると、アドホックカードが左端の列の下部に「名称未設定」として自動的に保存されます。カードを保存せずに終了するには、[!UICONTROL カードの詳細]ボックス内の他の場所をクリックせずに「[!UICONTROL **キャンセル**]」をクリックします。
 
 1. **[!UICONTROL カードの詳細]**&#x200B;ボックスに、以下の情報を追加します。
 
@@ -89,8 +89,8 @@ ht-degree: 91%
       <td>カードが完了するまでの推定時間数を入力します。これは手動のエントリのみです。</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL 割り当て ]</strong> </td> 
-      <td>カードを割り当てるには、 <strong>[!UICONTROL 割り当てを追加 ]</strong> 検索フィールドに名前を入力し始めます。 次に、結果のリストに表示される場合に選択します。 個人とチームの両方を追加し、1 つのカードに複数のユーザーまたはチームを割り当てることができます。</td>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong> </td> 
+      <td>カードを割り当てるには、「<strong>[!UICONTROL Add Assignment]</strong>」をクリックし、検索フィールドに名前を入力していきます。そして、結果のリストに表示されたら選択します。個人とチームの両方を追加し、1 つのカードに複数のユーザーまたはチームを割り当てることができます。</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
@@ -106,9 +106,9 @@ ht-degree: 91%
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用してテキストの書式を設定し、<strong>添付ファイルを追加</strong>アイコン <img src="assets/attachment-icon.png" alt="添付ファイルアイコン"> をクリックして、コメントにファイルを添付します。ユーザーまたはチームにタグ付けするには、コメントエリアの下部にある検索ボックスを使用します。ユーザーは、ボード上のメンバーである必要はありません。</p><p><strong>メモ：</strong> 現時点では、アドホックカードのコメントでタグ付けされたユーザーにはメール通知は送信されません。
+      <td><p>「<strong>[!UICONTROL New comment]</strong>」フィールド内をクリックして、コメントを入力します。書式設定ツールを使用して、テキストの書式を設定します。 ユーザーまたはチームにタグ付けするには、コメントエリアの下部にある検索ボックスを使用します。ユーザーは、ボード上のメンバーである必要はありません。</p><p><strong>メモ：</strong> 現時点では、アドホックカードのコメントでタグ付けされたユーザーにはメール通知は送信されません。
       </p><p>「<strong>[!UICONTROL Submit]</strong>」をクリックして、コメントをカードに追加します。</p>
-      <p><strong>メモ：</strong> カードのコメントエリアでは、Adobe Workfront の新しいコメント機能が使用されます。詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業の更新</a>を参照してください。</p></td>
+      <p>コメント機能について詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">作業の更新</a>を参照してください。</p></td>
      </tr>
     </tbody> 
    </table>
