@@ -6,16 +6,14 @@ description: Workfront と Experience Manager Assets、または Assets Essentia
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 63bcf5391dc982b53634dccd7150205a7d09f308
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '279'
 ht-degree: 95%
 
 ---
 
 # Adobe Experience Manager Assets 統合の概要
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 <!-- Audited: 12/2023 -->
 
@@ -51,7 +49,7 @@ Workfront と Experience Manager Assets、または Assets Essentials の統合�
 
 * AWS（Amazon Web Services）
 * Azure
-* <span class="preview">GCP （Google Cloud Platform）</span>
+* GCP （Google Cloud Platform）
 
 
 ## 基本を学ぶ
