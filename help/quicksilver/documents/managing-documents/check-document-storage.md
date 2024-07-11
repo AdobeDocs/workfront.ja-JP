@@ -6,10 +6,10 @@ description: ユーザーが Workfront インスタンスにアップロード�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
-workflow-type: ht
-source-wordcount: '251'
-ht-degree: 100%
+source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 84%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 100%
 1. 左側のパネルで、**システム**／**顧客情報**&#x200B;をクリックします。
 1. 「**基本情報**」セクションで「**ストレージ割当**」を探します。ここで、現在使用しているストレージの量と、利用中の Workfront プランに含まれているストレージの合計量を確認できます。
 
-   >[!NOTE]
-   >
-   >この制限は、他のサードパーティのサービスプロバイダー（SharePoint、Google Drive、Webdam、Box、Dropbox、その他のドキュメントアセット管理プロバイダー）から Workfront にリンクするドキュメントには適用されません。
+ストレージ割り当ては毎日更新され、最新の数が表示されます。
+
+>[!NOTE]
+>
+>この制限は、他のサードパーティのサービスプロバイダー（SharePoint、Google ドライブ、WebDAM、Box、Dropbox、その他のドキュメントアセット管理プロバイダー）からWorkfrontにリンクするドキュメントには適用されません。
