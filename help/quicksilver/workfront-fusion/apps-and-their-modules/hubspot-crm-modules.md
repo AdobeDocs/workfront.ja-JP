@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] HubSpot CRM モジュールを使�
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2615'
 ht-degree: 98%
 
 ---
@@ -61,6 +61,10 @@ ht-degree: 98%
 ## [!DNL Adobe Workfront Fusion] を [!DNL HubSpot CRM] に接続
 
 [!DNL HubSpot CRM] アカウントを [!DNL Workfront Fusion] に接続する手順については、[ [!DNL Adobe Workfront Fusion]  への接続の作成 - 基本手順](../../workfront-fusion/connections/connect-to-fusion-general.md)を参照してください。
+
+>[!NOTE]
+>
+>接続を設定する場合、 **HubSpot CRM** 接続タイプ。 HubSpot CRM （非推奨）タイプは既存の接続をサポートしていますが、新しい接続を作成するためにこのタイプを使用することはお勧めしません。
 
 ## [!DNL HubSpot CRM] モジュールとそのフィールド
 
@@ -733,16 +737,16 @@ ID を指定して既存のチケットを削除します。
 
 >[!NOTE]
 >
->次のエンドポイントは、2023 年 8 月 31 日に HubSpot API で廃止されたので、Fusion モジュールでは使用できなくなりました。
+>次のエンドポイントは、2023年8月31日に HubSpot API で廃止されたので、Fusion モジュールでは使用できなくなりました。
 >
 >* コンテンツイベントのリスト
 >* ソーシャルイベントのリスト
 >* カレンダータスクイベントのリスト
 >* すべてのカレンダーイベントのリスト
->* カレンダータスクを作成
+>* カレンダータスクの作成
 >* ID 別のカレンダータスクの取得
->* カレンダータスクを更新
->* カレンダータスクの削除
+>* カレンダータスクの更新
+>* 単一タスクの削除
 
 <table style="table-layout:auto"> 
  <col> 
