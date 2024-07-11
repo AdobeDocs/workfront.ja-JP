@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 11%
+source-wordcount: '658'
+ht-degree: 12%
 
 ---
 
@@ -115,10 +115,8 @@ ht-degree: 11%
 1. Workfront プロジェクト、ポートフォリオ、またはプログラムに接続されているレコードタイプのカードをクリックします。
 1. テーブル ビューまたはレコードの詳細ページから、Workfront オブジェクトに接続されている [ 接続済みレコード ] フィールドに移動します。 詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 1. 「接続されたレコード」フィールドでWorkfront オブジェクトの名前をクリックします。
-Workfront Planning にオブジェクトのページが開きます。
-1. クリック **ソースに移動**&#x200B;をクリックします。
+Workfrontにオブジェクトのページが開きます。
 
-   Workfrontでオブジェクトのページが開きます。
 1. クリック **計画** 左側のパネルで次の操作を行います。
 
    >[!NOTE]

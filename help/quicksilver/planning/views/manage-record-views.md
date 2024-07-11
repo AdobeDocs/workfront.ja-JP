@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 82%
+source-wordcount: '1113'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,8 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -69,32 +71,37 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>任意</p> 
-   <p>システム管理者は、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 </p>
+   <p>新規：標準</p>
+   または
+   <p>現在：プラン </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">アクセスレベルの設定</td>
-   <td> <p>Workfront Planning に対するアクセスレベルのコントロールはありません</p>  
+   <td role="rowheader"><p>アクセスレベル設定</p></td>
+   <td> Adobe Workfront Planning に対するアクセス制御はありません</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>権限</p></td>
    <td> <p>ビューに対する権限を管理</p>  
+   <p>ビュー設定を一時的に変更するためのビューへのアクセス許可を表示します</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者がレイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## レコードビューを使用する際の考慮事項
 

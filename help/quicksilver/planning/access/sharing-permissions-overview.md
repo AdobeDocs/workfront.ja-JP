@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 67%
+source-wordcount: '692'
+ht-degree: 65%
 
 ---
 
@@ -69,7 +69,9 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 >
 >以下に示された権限のレベルは、すべてのユーザーに付与できるわけではありません。Workfront Planning オブジェクトに対して持つことができる権限のレベルは、ユーザーの個々のライセンスによって決まります。
 >
->ワークスペースに対するContribute権限または管理権限を持つことができるのは、標準（またはプラン）ライセンスのユーザーのみです。
+>標準（またはプラン）ライセンスのユーザーのみが、Contributeまたはワークスペースに対する管理権限、およびビューに対する管理権限を持つことができます。
+> 
+>他のすべてのライセンスタイプを持つユーザーは、ワークスペースおよびビューに対する表示権限を持つことができます。
 >
 >詳しくは、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
 
@@ -157,7 +159,8 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 | 削除 | ✓ |       |                            |
 | 共有 | ✓ |       |                           |
 | 表示 | ✓ | ✓ | ✓ |
-| 適用 | ✓ | ✓ | ✓ |
+| ビューへのアクセス | ✓ | ✓ | ✓ |
+| 一時的なフィルター、グループ化、並べ替えの適用 | ✓ | ✓ | ✓ |
 
 *この表示アクセス権を取得するには、ユーザーはワークスペースに対する表示以上の権限を持っている必要があります。
 

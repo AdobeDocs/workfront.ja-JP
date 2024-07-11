@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 93%
+source-wordcount: '1880'
+ht-degree: 85%
 
 ---
 
@@ -36,6 +36,8 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>任意</p> 
-   <p>システム管理者は、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。 </p>
+   <p>新規：標準</p>
+   または
+   <p>現在：プラン </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">アクセスレベルの設定</td>
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。 </p>  
+   <td role="rowheader"><p>アクセスレベル設定</p></td>
+   <td> Adobe Workfront Planning に対するアクセス制御はありません</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>権限</p></td>
    <td> <p>ビューに対する権限を管理</p>  
+   <p>ビュー設定を一時的に変更するためのビューへのアクセス許可を表示します</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">レイアウトテンプレート</td>
-   <td> <p>システム管理者がレイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## タイムラインビューの管理 {#manage-a-timeline-view}
@@ -179,7 +185,9 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
   詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)の記事の「フィルターの追加」の節を参照してください。
 
-* 接続されたレコードフィールドまたはルックアップフィールドでフィルタリングできますが、複数のレコードへのリンクを許可するフィールドではフィルタリングできません。
+* 接続されたレコードフィールドまたはルックアップフィールドでフィルタリングできます。
+* 複数の値を表示する参照フィールドでフィルタリングできます。
+
 
 ### グループ化を追加
 
@@ -193,13 +201,18 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 * テーブルビューとタイムラインビューの両方でグループ化を適用できます。テーブルビューのグループ化は、同じレコードタイプのタイムラインビューのグループ化とは独立しています。
 * ビューでは、3 つのレベルのグループ化を適用できます。レコードは、選択したグループ化の順にグループ化されます。
-* API を使用する場合、最大 4 レベルのグループ化を適用できます。
-* グループは、選択したビューに固有です。同じレコードタイプの 2 つのタイムラインビューで、異なるグループ化を適用することができます。同じタイムラインビューを表示している 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
-* タイムラインビュー用に作成したグループ化に名前を付けることはできません。
-* グループ化を削除すると、自分と同じレコードタイプにアクセスするユーザーおよび自分と同じビューを表示するユーザーに対して、グループ化が削除されます。
-* 接続されたレコードフィールドまたはルックアップフィールドでグループ化できますが、複数のレコードへのリンクを許可するフィールドではできません。
+&lt;!--* API を使用すると、最大 4 レベルのグループ化を適用できます。--現在これを確認中-->
+* グループは、選択したビューに固有です。同じレコードタイプの 2 つのテーブルビューに、異なるグループ化を適用することができます。同じテーブルビューを見ている 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
+* テーブルビュー用に作成したグループ化に名前を付けることはできません。
+* グループ化を削除すると、自分と同じレコードタイプにアクセスし、同じビューを表示している人から、グループ化が削除されます。
+* グループ化の下に一覧表示されたレコードは編集できます。
+* 接続されているレコードフィールドまたはルックアップフィールドでグループ化できます。
+* アグリゲータによって集計されていない複数の値を持つルックアップ フィールドでグループ化する場合、レコードはフィールド値の一意の組み合わせごとにグループ化されます。
+* 現在のレコードタイプから最大 4 レベル離れたフィールドを参照できます。 例えば、アクティビティレコードタイプのグループを作成し、そのアクティビティが、Workfront プロジェクトに接続されたキャンペーンレコードタイプに接続された製品レコードタイプに接続されている場合、アクティビティレコードタイプに作成しているグループでプロジェクトのステータスを参照できます。
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-タイムラインビューでグループ化を追加するには、次の手順に従います。
+タイムラインビューでグループ化を追加するには：
 
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 1. タイムラインビューの右上隅にある&#x200B;**グループ化**&#x200B;をクリックします。

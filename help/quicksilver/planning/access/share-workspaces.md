@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 96%
+source-wordcount: '412'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Workfront Planning で作業する際、ワークスペースを他のユ�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
    <p>新規：標準</p>
    または
@@ -82,6 +82,8 @@ Adobe Workfront Planning で作業する際、ワークスペースを他のユ�
   </tr>
  </tbody>
 </table>
+
+*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## ワークスペースに対する権限の共有
 

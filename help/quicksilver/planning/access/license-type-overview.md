@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 32%
+source-wordcount: '428'
+ht-degree: 18%
 
 ---
 
@@ -19,26 +19,10 @@ ht-degree: 32%
 
 {{planning-important-intro}}
 
-Adobe Workfront ライセンスタイプは Adobe Workfront Planning の権限と連携して機能し、ワークスペースの表示、投稿、管理へのアクセス権を付与します。<!--add more objects here when we can grant other object-specific permissions-->
+お使いのAdobe Workfrontのライセンスタイプは、Adobe Workfront Planning の権限と組み合わせて、次のアクセス権を付与します。
 
-Workfront ビューを記録する権限は、Workfrontのライセンスタイプとは無関係です。
-
-すべてのライセンスタイプを持つユーザーは、Workfront Planning ビューを表示、作成、編集または管理できます。
-
-ここでは、Workfrontで必要なライセンスの種類と、各ライセンスの種類に基づいてWorkfront Planning のワークスペースに付与される権限について説明します。
-
-Workfront Planning の機能を使用する場合、下位レベルのライセンス・タイプを持つユーザーは作業領域へのアクセス権が制限されています。
-
->[!INFO]
->
->**例：**
->
->リクエスター（または新しいライセンスモデルによるコラボレータ）は、ワークスペースとそのオブジェクトに投稿または管理できません。
->
->共有ボックスには、下位レベルのライセンスを保持しているユーザーに対して、ワークスペースへの投稿またはワークスペースの管理を行う権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
->
->![](assets/permissions-grayed-out-for-requestor-user.png)
-
+* ワークスペースの表示、投稿、または管理
+* ビューの表示または管理
 
 Workfront Planning のオブジェクトに対する権限について詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 
@@ -55,3 +39,52 @@ Workfront Planning のオブジェクトに対する権限について詳しく�
 | 新規：軽い、コントリビューター <br> または <br>現在：作業、リクエスター、レビュアー | ユーザーは、共有されているワークスペースに加え、それらのワークスペースのレコードタイプ、レコード、フィールドを表示できます。 <br> ユーザーは、ワークスペース、レコードタイプ、レコード、フィールドを作成、編集、削除できません。 |
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+### ライセンスタイプとワークスペース権限
+
+Standard （または Plan）ライセンスを持つユーザーのみが、ワークスペースに対するContribute権限または管理権限を持つことができます。 他のすべてのライセンスタイプを持つユーザーは、自分と共有されているワークスペースに対する表示権限を持つことができます。
+
+システム管理者は、システム内のすべてのワークスペース（作成しなかったワークスペースを含む）を表示できます。
+
+>[!INFO]
+>
+>**例：**
+>
+>リクエスター（または新しいライセンスモデルによるコラボレータ）は、ワークスペースとそのオブジェクトに投稿または管理できません。
+>
+>共有ボックスには、下位レベルのライセンスを保持しているユーザーに対して、ワークスペースへの投稿またはワークスペースの管理を行う権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
+>
+>![](assets/permissions-grayed-out-for-requestor-user.png)
+
+### ライセンスタイプと表示権限
+
+標準（またはプラン）ライセンスを持つユーザーのみが、ビューに対する管理権限を持つことができます。 他のすべてのライセンスタイプを持つユーザーは、自分と共有されたビューに対する表示権限を持つことができます。
+
+>[!INFO]
+>
+>**例：**
+>
+>共同作業者（または依頼者とレビュー担当者）は、ビューを管理できません。 アクセス可能なビューに一時的なフィルター、並べ替え、グループ化を適用できます。
+>
+>共有ボックスには、下位レベルのライセンスを持つユーザーにビューを管理する権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
+>
+>![](assets/permissions-grayed-out-for-reviewer-user-on-a-view.png)
+
+
+<!--Replace all of the above with this:
+
+The table below describes the relationship between the license type of a user in Adobe Workfront and the level of permissions you can grant to them to Adobe Workfront Planning objects based on that license. 
+
+Granting a user permissions to a workspace also grants them permissions to record types, records, and fields. 
+
+You must grant view permissions separately from workspace permissions. 
+
+
+| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|New: Standard <br> or <br>Current: Plan                    | <ul><li>Users can contribute to or manage workspaces and they can manage views. They can create, edit, or delete workspaces, record types, records, fields, and views.</li> <li> System administrators have Manage permissions to all workspaces, including the ones they did not create.</li> <li> System administrators can only access views they created.</li></ul>                                                                                                                     |
+|New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | <ul><li>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</li> <li>Users can access views shared with them and apply temporary filters, sorts, or groupings, but they cannot modify the views. </li><li> Users cannot create, edit, or delete workspaces, record types, records, fields, or views.</li></ul>|
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+-->

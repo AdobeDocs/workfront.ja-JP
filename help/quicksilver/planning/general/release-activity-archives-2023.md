@@ -4,9 +4,9 @@ description: Adobe Workfront Planning は現在、Workfront の一部のお客�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2988'
 ht-degree: 94%
 
 ---
@@ -236,7 +236,7 @@ Adobe Workfront Planning 機能レコードに次のフィールドタイプが�
 
 プレビューおよび実稼動環境：2023年10月31日（PT）
 
-Planning 機能の次のエリアから Workfront オブジェクトのページを開くことができるようになりました。
+Workfront Planning の次の領域からWorkfront オブジェクト ページを開くことができるようになりました。
 
 * 読み取り専用でリンクされた Workfront オブジェクトレコードのテーブルビュー
 

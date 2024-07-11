@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 85%
 
 ---
@@ -205,10 +205,7 @@ ht-degree: 85%
 
 1. 接続されたレコードフィールドでプロジェクトの名前をクリックします。
 
-   これにより、読み取り専用のWorkfront Planning プロジェクトのページが開きます。
-プロジェクトに関する情報をレビューします。レコードのページには、選択したプロジェクトフィールドのみが表示されます。
-
-1. 少なくともプロジェクトに対する表示権限がある場合は、画面の右上隅にある「**ソースに移動**」をクリックして、Workfront でプロジェクトを開きます。
+   プロジェクトに対する表示権限がある場合は、Workfrontでプロジェクトが開きます。
 1. （オプション）権限がある場合は、Workfront でプロジェクトに関する情報を更新します。
 
 1. （オプション）キャンペーンテーブルビューで、**プロジェクト情報**&#x200B;フィールドヘッダーの上にポインタを合わせ、下向きの矢印をクリックしてから、「**ルックアップフィールドを編集**」を選択します。

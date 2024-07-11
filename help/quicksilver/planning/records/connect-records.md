@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
-ht-degree: 80%
+source-wordcount: '2512'
+ht-degree: 77%
 
 ---
 
@@ -288,19 +288,13 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 1. （オプション）テーブルビューのリンクされたフィールド、またはレコードページのリンクされたフィールドで、Workfront Planning レコードに接続されている Workfront オブジェクトの名前をクリックします。
 
-   これにより、リンクされた Workfront オブジェクトの読み取り専用 Workfront Planning レコードページが開きます。レコードタイプを Workfront オブジェクトに接続した際にルックアップフィールドとして選択したフィールドは、Workfront Planning レコードページに表示されます。
+   少なくともオブジェクトに対する表示権限がある場合、これによりWorkfrontにWorkfront オブジェクトが開きます。
 
    >[!TIP]
    >
    >* 「複数のレコードを許可」する設定を有効にすると、ルックアップフィールドの値がカンマで区切られて表示されるか、選択したアグリゲータに従って集計されます。
    >
    >* Workfront のリンクされた Workfront オブジェクトに対して、リンクされたレコードフィールドは作成されません。
-
-1. （オプション）リンクされた Workfront オブジェクトを Workfront で開くには、Workfront オブジェクトのレコードページの右上隅にある「**ソースに移動**」をクリックします。
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   少なくともオブジェクトを表示する表示権限がある場合は、これにより Workfront オブジェクトページが開きます。編集権限がある場合は、Workfront オブジェクトに関する情報を編集できます。
 
 1. （オプション）レコードタイプのテーブルビューで、リンクされた Workfront オブジェクトの列ヘッダーにポインタを合わせ、ドロップダウンメニューをクリックして、「**ルックアップフィールドを編集**」をクリックします。
 
@@ -391,7 +385,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    * 作成日
    * 変更日時
 
-1. （オプション）Experience Manager で Experience Manager Assets レコードページを開くには、リンク元のレコードのレコードタイプページに移動し、リンクされたレコードフィールドでアセットの名前をクリックしてポップアップウィンドウを開きます。次に、**開く**&#x200B;アイコン ![](assets/open-asset-icon.png) をクリックして、アセットを開きます。
+1. （オプション）Experience ManagerアセットレコードページをExperience Managerで開くには、リンク元のレコードのレコードタイプページに移動し、「リンクされたレコード」フィールドでアセットの名前をクリックしてポップアップウィンドウを開き、 **AEMで開く** アイコン ![](assets/open-asset-icon.png) をクリックしてアセットを開きます。
 
    これにより、Adobe Experience Manager Assets で Experience Manager のアセットが開きます。
 

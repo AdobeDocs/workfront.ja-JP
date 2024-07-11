@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '640'
 ht-degree: 60%
 
 ---
@@ -36,6 +36,8 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,37 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>任意</p> 
+   <p>新規：標準</p>
+   または
+   <p>現在：プラン </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> Adobe Workfront Planning に対するアクセス制御はありません </p>  
+   <td> Adobe Workfront Planning に対するアクセス制御はありません</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>オブジェクト権限</p></td>
-   <td> <p>ビューに対する権限を管理</p>
-
+   <td role="rowheader"><p>権限</p></td>
+   <td> <p>ビューに対する権限を管理</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## ビューに対する権限の共有 <!--internally-->
 

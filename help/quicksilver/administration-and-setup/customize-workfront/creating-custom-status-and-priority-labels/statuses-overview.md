@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 84%
+source-wordcount: '321'
+ht-degree: 74%
 
 ---
 
@@ -26,9 +26,20 @@ ht-degree: 84%
 
 ![サンプルプロジェクトのステータス](assets/statuses-overview.png)
 
+ステータスを表示するには、プロジェクト、タスクまたはイシューに対する次のアクセス権と権限が必要です。
+
+* プロジェクト、タスク、および問題に対する、アクセス レベルでの表示以上のアクセス
+* オブジェクトに対する表示以上の権限
+
+ステータスを手動で変更するには、プロジェクト、タスクまたはイシューに対する次のアクセス権と権限が必要です。
+
+* プロジェクト、タスク、問題へのアクセス レベルでアクセス権限を編集する
+* タスクまたは問題に対するContribute以上の権限
+* プロジェクトに対する権限の管理。
+
 プロジェクト、タスクまたはイシューのステータスの変更は通常、手動で行います。ただし、システム内で発生する他の要因によっては、イシューのステータスが自動的に変更される場合があります。
 
-Adobe Workfrontには、9 つのプロジェクトステータス、3 つのタスクステータス、10 件のタスクステータスがあります。 これらについて詳しくは、次の記事を参照してください。
+Adobe Workfront には、9 つのプロジェクトのステータス、3 つのタスクスのステータスおよび 10 個のイシューのステータスがあらかじめ用意されています。これらについて詳しくは、次の記事を参照してください。
 
 * [システムプロジェクトステータスのリストへのアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [システムタスクステータスのリストにアクセス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
@@ -36,7 +47,7 @@ Adobe Workfrontには、9 つのプロジェクトステータス、3 つのタ�
 
 ## カスタムステータス
 
-Workfront 管理者は組織のニーズに合わせて、Workfront にあらかじめ用意されているデフォルトのステータスに加えて、カスタムのプロジェクト、タスクおよびイシューのステータスを追加できます。Workfrontインスタンスの全員が使用するシステムレベルのステータスや、特定のグループのみで使用するグループレベルのステータスを作成できます。 詳しくは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
+Workfront 管理者は組織のニーズに合わせて、Workfront にあらかじめ用意されているデフォルトのステータスに加えて、カスタムのプロジェクト、タスクおよびイシューのステータスを追加できます。Workfront インスタンス内のすべてのユーザーが使用するシステムレベルのステータスや、特定のグループのみが使用するグループレベルのステータスを作成することができます。詳しくは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
 
 ## グループステータス
 
