@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 新しいドキュメント承認の概要
+title: 新規ドキュメント承認の概要
 description: 既に承認待ちのドキュメントに、追加の承認者またはレビュアーを追加できます。
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
+source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 91%
+source-wordcount: '486'
+ht-degree: 75%
 
 ---
 
-# 新しいドキュメント承認の概要
+# 新規ドキュメント承認の概要
 
-新しいドキュメント承認は、現在 Adobe Workfront 向けに開発中の既存の承認プロセスの完全な再設計です。現在、これは限定リリースで利用可能で、包括的な関係者のエンゲージメントとバージョン固有のドキュメント承認を必要とするビジネスにとって、実用的で効果的なソリューションとなるように設計されています。その思慮に富んだ設計と目的に基づく新機能により、承認プロセスでのコラボレーション、役割の明確性、バージョン管理が容易になり、効率性と説明責任が向上します。
+新しいドキュメントの承認は、現在Adobe Workfrontで開発中の既存の承認プロセスを総合的に再設計したものです。 現在、これは限定リリースで利用可能で、包括的な関係者のエンゲージメントとバージョン固有のドキュメント承認を必要とするビジネスにとって、実用的で効果的なソリューションとなるように設計されています。その思慮に富んだ設計と目的に基づく新機能により、承認プロセスでのコラボレーション、役割の明確性、バージョン管理が容易になり、効率性と説明責任が向上します。
 
 新しいドキュメント承認に関する予定済みの機能とリリースについて詳しくは、以下を引き続きお読みください。
 
@@ -47,9 +47,9 @@ ht-degree: 91%
 
 ## 新しいドキュメント承認の使用
 
-ドキュメント承認の作成または管理を検討しているユーザーについては、[ドキュメントの承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)にリストされている記事を参照してください。
+ドキュメントの承認の作成や管理を行う場合は、にリストされている記事を参照してください。 [アセットおよびドキュメント承認の設定と管理：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-リクエストを受け取ったドキュメントのレビューまたは承認を検討しているユーザーについては、[ドキュメントのレビュー：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)にリストされている記事を参照してください。
+リクエストを受け取ったドキュメントをレビューまたは承認しようとするユーザーについては、にリストされている記事を参照してください。 [ドキュメントの承認とレビュー：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

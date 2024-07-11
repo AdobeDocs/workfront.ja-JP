@@ -1,25 +1,25 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: 接続されたWorkfrontプロジェクトへの Frame.io アセットの追加
-description: クリエイティブは、レビューが必要なアセットを Frame.io に追加し、正式なレビューおよび承認を得るためにWorkfrontに送信できます。
+title: 接続された Workfront プロジェクトへの Frame.io アセットの追加
+description: クリエイティブ作成者は、レビューが必要なアセットを Frame.io に追加し、Workfront に送信して正式なレビューと承認を受けることができます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
+source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 16%
+source-wordcount: '298'
+ht-degree: 93%
 
 ---
 
-# 接続されたWorkfrontプロジェクトへの Frame.io アセットの追加
+# 接続された Workfront プロジェクトへの Frame.io アセットの追加
 
 >[!IMPORTANT]
 >
 >この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
 
-クリエイティブは、レビューが必要なアセットを Frame.io に追加し、正式なレビューおよび承認を得るためにWorkfrontに送信できます。
+クリエイティブ作成者は、レビューが必要なアセットを Frame.io に追加し、Workfront に送信して正式なレビューと承認を受けることができます。
 
 ## アクセス要件
 
@@ -39,8 +39,8 @@ ht-degree: 16%
   </tr> -->
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Frame.io のプロジェクト共同作業者である必要があります。 詳しくは、 <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">プロジェクトでのコラボレーションに招待されました</a>
- Frame.io ヘルプサイトの</p> </td> 
+   <td> <p>Frame.io のプロジェクト共同作業者である必要があります。詳しくは、Frame.io ヘルプサイトの<a href="https://support.frame.io/ja/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">プロジェクトでのコラボレーションに招待されました</a>
+を参照してください。</p> </td> 
   </tr> 
    <tr>
    <td>製品
@@ -51,36 +51,32 @@ ht-degree: 16%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
-* Workfrontグループが Frame.io チームと連携している必要があります。
-* Workfrontプロジェクトを Frame.io プロジェクトに接続し、Frame.io に対して有効なWorkfrontタスクにユーザーとして追加する必要があります。
+* Workfrontと Frame.io の統合を設定する必要があります。 詳しくは、を参照してください [Workfrontと Frame.io の統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
-詳しくは、 [Workfrontと Frame.io を接続します。](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
+## 接続された Workfront プロジェクトへの Frame.io アセットの追加
 
+1. Frame.io で、Workfront に接続されたプロジェクトを見つけます。接続されたプロジェクトには、Workfront Lion アイコンが表示されます。
 
-## 接続されたWorkfrontプロジェクトへの Frame.io アセットの追加
-
-1. Frame.io で、Workfrontに接続されているプロジェクトを見つけます。 接続されたプロジェクトには、Workfront Lion アイコンが表示されます。
-
-1. Frame.ioCreative Cloudプラグインを使用するか、Frame.io 内で直接、接続されたプロジェクトにアセットをアップロードします。
+1. Frame.io Creative Cloud プラグインを使用するか、Frame.io で直接、接続されたプロジェクトにアセットをアップロードします。
 
 1. Frame.io 内でピアレビューを開始します。
 
    >[!NOTE]
    >
-   >Frame.io で確認するには、チームメンバーのライセンスが必要です。
+   >Frame.io でレビューするには、チームメンバーライセンスが必要です。
 
-1. アセットの 3 ドットメニューをクリックし、 **Workfrontに追加**.
+1. アセット上の 3 点メニューをクリックし、「**Workfront に追加**」をクリックします。
 
-1. 接続されたWorkfrontプロジェクト内のアセットのアップロード先を選択します。
+1. 接続された Workfront プロジェクト内のアセットをアップロードする場所を選択します。
 
 1. （オプション）タスクのステータスを設定します。
 
 1. 「**送信**」をクリックします。
 
-選択した場所にアセットが表示され、それに応じてタスクのステータスが更新されます。
+アセットは選択した場所に表示され、それに応じてタスクのステータスが更新されます。
 
-レビューと承認のプロセスは、記事で説明している手順に従って開始できます [ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+レビューと承認のプロセスは、[ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)の記事で説明される手順に従って開始できます。

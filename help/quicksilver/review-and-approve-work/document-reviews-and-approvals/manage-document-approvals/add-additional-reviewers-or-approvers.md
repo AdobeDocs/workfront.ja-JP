@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: ドキュメントに追加の承認者またはレビュアーを追加
+title: アセットまたはドキュメントへの承認者またはレビュー担当者の追加
 description: 既に承認待ちのドキュメントに、追加の承認者またはレビュアーを追加できます。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 88%
 
 ---
 
-# ドキュメントに追加の承認者またはレビュアーを追加
+# アセットまたはドキュメントへの承認者またはレビュー担当者の追加
 
-既に承認待ちのドキュメントに、追加の承認者またはレビュアーを追加できます。
+既に承認待ちになっているアセットやドキュメントに、追加の承認者やレビュー担当者を追加できます。
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## ドキュメントページから追加の承認者またはレビュアーを追加
+## ドキュメントの詳細ページからの追加の承認者またはレビュー担当者の追加
 
 1. ドキュメントの名前をクリックしてドキュメントページに移動し、バージョンのドロップダウンで、承認者またはレビュアーを追加するドキュメントのバージョンを選択します。デフォルトでは最新バージョンが選択されます。
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
 1. 以前の手順を繰り返して、承認者またはレビュアーを追加します。
 
-## ドキュメントの概要パネルから、追加の承認者またはレビュアーを追加
+## ドキュメントの概要から承認者またはレビュー担当者を追加します
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、**ドキュメント**&#x200B;を選択します。
 

@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: ドキュメントを承認
+title: Workfrontでのドキュメントの承認
 description: ドキュメントの承認者として割り当てられている場合は、複数の方法で承認を決定できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 98%
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
-# ドキュメントを承認
+# Workfrontでのドキュメントの承認
 
 ドキュメントの承認者として割り当てられている場合は、複数の方法で承認を決定できます。
 
-新しいドキュメントの承認の作成について詳しくは、 [ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+新しいドキュメントの承認の作成について詳しくは、[ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -36,7 +36,7 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 

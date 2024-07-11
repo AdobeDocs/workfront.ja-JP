@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Frame.io の詳細については、を参照してください [プロジェク
 
 * **1 回限りの承認**：プロジェクトコーディネーターは、アセットが存在するプロジェクトまたはタスクでレビュー担当者と承認者を割り当て、完了期限を設定できます。 レビュー担当者と承認者には、期限の 72 時間前と 24 時間前に、および期限自体にメールで通知が送信されます。
 
-  詳しくは、を参照してください [ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  詳しくは、*を参照してください。 [Frame.io アセットのレビューリクエストまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **承認テンプレート**:Workfrontの設定領域で、プロジェクトコーディネーターは適切な承認テンプレートを作成できます。 ユーザーはテンプレート内で、レビュー担当者と承認者を追加し、完了期間を指定できます。 承認テンプレートがアセットに適用されると、期限が指定された期間から計算されます。
 

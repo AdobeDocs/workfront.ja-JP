@@ -6,16 +6,16 @@ description: Adobe Workfront のドキュメントに対して、他のユーザ
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
+source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 90%
+ht-degree: 84%
 
 ---
 
 # ドキュメントのレビューおよび承認リクエストの作成
 
-Adobe Workfront のドキュメントに対して、他のユーザーやチームの承認をリクエストしたり、ドキュメントを承認する必要なく、ドキュメントのレビューをリクエストしたりできます。
+Adobe Workfrontのドキュメントに対して、他のユーザーやチームに承認をリクエストしたり、承認する必要なくドキュメントをレビューしてもらうことができます。
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td>  
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 

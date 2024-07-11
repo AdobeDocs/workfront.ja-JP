@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: ドキュメントから承認者またはレビュアーを削除する
+title: アセットまたはドキュメントからの承認者またはレビュー担当者の削除
 description: ドキュメントから個々の承認者またはレビュアーを削除できます。
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 89%
 
 ---
 
-# ドキュメントから承認者またはレビュアーを削除する
+# アセットまたはドキュメントからの承認者またはレビュー担当者の削除
 
-割り当てられた後で、ドキュメントから個々の承認者またはレビュアーを削除できます。
+アセットまたはドキュメントを割り当てた後に、個々の承認者またはレビュー担当者をアセットまたはドキュメントから削除できます。
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-## ドキュメントページからの承認者またはレビュアーを削除
+## ドキュメントの詳細ページからの承認者またはレビュー担当者の削除
 
 1. ドキュメントの名前をクリックしてドキュメントページに移動し、バージョンドロップダウンで承認を削除したいドキュメントのバージョンを選択します。デフォルトでは最新バージョンが選択されます。
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 1. 上記の手順を繰り返して、その他の承認者またはレビュアーを削除します。
 
-## ドキュメントの概要パネルから承認者またはレビュアーを削除
+## ドキュメントの概要から承認者またはレビュー担当者を削除する
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 

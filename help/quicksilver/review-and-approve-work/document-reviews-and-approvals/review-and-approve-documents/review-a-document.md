@@ -1,21 +1,21 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: ドキュメントのレビュー
+title: Workfront でのドキュメントのレビュー
 description: レビュアーは、レビューのために送信されたドキュメントをプレビューできます。
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 89%
+source-wordcount: '514'
+ht-degree: 100%
 
 ---
 
-# ドキュメントのレビュー
+# Workfront でのドキュメントのレビュー
 
-レビュー担当者は、レビュー用に自分に送信されたドキュメントを表示できます。 承認とは異なり、決定はおこないません。 代わりに、アセットをレビューしたことを確認します。
+レビュアーは、レビューのために送信されたドキュメントをプレビューできます。承認とは異なり、決定は行いません。代わりに、そのアセットをレビューしたことを確認します。
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ ht-degree: 89%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ Add once functionality is added
    「**ダウンロード**」をクリックして、ドキュメントのローカルコピーをデバイスにダウンロードします。
 
 1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-1. レビューの完了を記録するには、 **レビューを完了**.
+1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
 
 ## ドキュメントの概要パネルでドキュメントを確認
 
@@ -91,4 +91,4 @@ Add once functionality is added
 1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 1. （オプション）ドキュメントの概要パネルの「**バージョン**」セクションまで下にスクロールし、レビューするバージョンの横にある詳細アイコン ![](../assets/more-icon.png) をクリックして、**ダウンロード**&#x200B;または&#x200B;**プレビュー**&#x200B;を選択すると、ドキュメントの特定のバージョンをプレビューまたはダウンロードできます。
-1. レビューの完了を記録するには、 **レビューを完了**.
+1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
