@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
+source-git-commit: 496f5e6dcaab225ce48cecd291a0cf79f1dc1868
 workflow-type: tm+mt
 source-wordcount: '14434'
 ht-degree: 96%
@@ -547,7 +547,7 @@ ht-degree: 96%
          * [シナリオプランナーへのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [リソース管理に対するアクセスの許可](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Workfront Goals へのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Workfrontでのシングルサインオン {#sso}
+      * Workfront {#sso} でのシングルサインオン
          * [シングルサインオン：記事インデックス](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [シングルサインオンの概要](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [シングルサインオンに対応するためのユーザーの更新](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
@@ -791,7 +791,7 @@ ht-degree: 96%
    * 統合の設定 {#configure-integrations}
       * [統合の設定](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 統合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [の設定 [!DNL Workfront] および [!DNL Frame.io] 統合](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
+      * [ [!DNL Workfront] and [!DNL Frame.io]  統合の設定](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Experience Manager Assets as a Cloud Service 統合の設定](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Experience Manager Assets Essentials 統合の設定](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Adobe Experience Manager レガシーコネクターを使った Workfront の設定](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -1529,7 +1529,7 @@ ht-degree: 96%
       * [ユーザー名は既に使用されています](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * レポート {#reporting}
    * [レポートとダッシュボード：記事インデックス](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * キャンバスダッシュボード {#canvas-dashboards}
+   * Canvas Dashboard {#canvas-dashboards}
       * [キャンバスダッシュボード](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
       * キャンバスダッシュボードの管理 {#manage-canvas-dashboards}
          * [キャンバスダッシュボードの管理](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
@@ -1825,7 +1825,7 @@ ht-degree: 96%
       * [ドキュメントの承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Frame.io を使用したアセットのレビューと承認の概要](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * [アセットとドキュメントの承認の設定と管理]{#manage-asset-review-and-approval}
+      * でのアセットとドキュメントの承認の設定 {#manage-asset-review-and-approval} 管理
          * [アセットおよびドキュメント承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Frame.io アセットのレビューリクエストまたは承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
@@ -1833,7 +1833,7 @@ ht-degree: 96%
          * [アセットまたはドキュメントからの承認者またはレビュー担当者の削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [アセットおよびドキュメント用の承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [接続された Workfront プロジェクトへの Frame.io アセットの追加](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * アセットとドキュメントの承認とレビュー {#review-and-approve-documents}
+      * でのアセットとドキュメントの承認 {#review-and-approve-documents} レビュー
          * [ドキュメントの承認とレビュー：記事インデックス](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [ドキュメントを承認](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
@@ -2051,7 +2051,7 @@ ht-degree: 96%
       * [Adobe Workfront Goals の用語のカスタマイズ](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Workfront Goals での目標の共有](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront Goals の通知を有効にする](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfrontの計画 {#adobe-workfront-planning}
+* Adobe Workfront計画 {#adobe-workfront-planning}
    * [Adobe Workfront Planning：記事インデックス](planning/planning-information.md)
    * Adobe Workfront計画一般情報 {#adobe-workfront-planning-general-information}
       * [Adobe Workfront計画一般情報：記事索引](planning/general/planning-general-article-index.md)
@@ -2080,7 +2080,7 @@ ht-degree: 96%
       * [フィールドの削除](planning/fields/delete-fields.md)
       * [数式フィールドの概要](planning/fields/formula-fields.md)
       * [プライマリフィールドの概要](planning/fields/primary-field-overview.md)
-   * Adobe Workfront Planning へのアクセス {#adobe-workfront-planning-access}
+   * Adobe Workfront Planning のアクセス {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning のアクセス情報：記事索引](planning/access/access-information.md)
       * [アクセス権の概要](planning/access/access-overview.md)
       * [Adobe Workfront Planning での共有権限の概要](planning/access/sharing-permissions-overview.md)
@@ -2119,13 +2119,13 @@ ht-degree: 96%
       * [Adobe Workfront Fusion の概要](workfront-fusion/get-started/workfront-fusion-overview.md)
       * [Workfront Fusion の新しいエクスペリエンスへの移動](workfront-fusion/get-started/new-fusion-ui.md)
       * [Adobe Workfront Fusion の基本用語](workfront-fusion/get-started/basic-terms.md)
-      * 練習シナリオの作成 {#practice-scenarios-in-workfront-fusion}
+      * {#practice-scenarios-in-workfront-fusion} での練習シナリオの作成
          * [練習シナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
-         * [基本的なシナリオの作成： [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-         * [の基本的なシナリオへのトリガーモジュールの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-         * [関数を使用した、の簡単なシナリオでのプロジェクトの更新 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-         * [の基本的なシナリオへのフィルターの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-         * [の基本的なシナリオへの Webhook の追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+         * [ [!DNL Adobe Workfront Fusion] の場所に基本的なシナリオを作成します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+         * [ [!DNL Adobe Workfront Fusion] の基本シナリオにトリガーモジュールを追加します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+         * [関数を使用すると、 [!DNL Adobe Workfront Fusion] の簡単なシナリオでプロジェクトを更新できます。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+         * [ [!DNL Adobe Workfront Fusion] の基本シナリオにフィルターを追加します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+         * [ [!DNL Adobe Workfront Fusion] の基本シナリオに Webhook を追加します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Adobe Workfront Fusion で練習用自動化シナリオを作成](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Adobe Workfront Fusion で練習用統合シナリオを作成](workfront-fusion/get-started/create-a-practice-scenario.md)
       * [Adobe Workfront Fusion パフォーマンスガードレール](workfront-fusion/get-started/fusion-performance-guardrails.md)
@@ -2214,7 +2214,7 @@ ht-degree: 96%
       * [Adobe Workfront Fusion でのシナリオの実行履歴の表示](workfront-fusion/scenarios/view-scenario-execution-history.md)
       * [Adobe Workfront Fusion での未完了の実行の表示と解決](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
       * [ [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md) でロックされたシナリオの表示および管理
-      * [モジュールの新しいバージョンへの更新 [!DNL Adobe Workfront Fusion] シナリオ](workfront-fusion/scenarios/update-module-to-new-version.md)
+      * [ シナリオ内の新しいバージョンへのモジュール  [!DNL Adobe Workfront Fusion]  更新 ](workfront-fusion/scenarios/update-module-to-new-version.md)
       * [Adobe Workfront Fusion でのシナリオのスケジュール](workfront-fusion/scenarios/schedule-a-scenario.md)
       * [Adobe Workfront Fusion でのシナリオのアクティベートまたはディアクティベート](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adobe Workfront Fusion のシナリオへのフィルターの追加](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
