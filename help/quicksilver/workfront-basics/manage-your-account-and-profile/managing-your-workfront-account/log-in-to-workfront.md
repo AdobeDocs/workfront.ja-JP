@@ -6,10 +6,10 @@ description: この記事を読んで、Workfront へのログイン方法を学
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+source-git-commit: e493140eb4978ffb6ad1a0a874d118b66ef6847e
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 76%
 
 ---
 
@@ -96,9 +96,11 @@ ht-degree: 100%
 
 1. ログインを完了します。
 
-## [!DNL Workfront] モバイルアプリへのログイン
+## 会社ドメインを使用して、[!DNL Workfront] モバイルアプリにログインします
 
-1. [!DNL Workfront] モバイルアプリを起動して、組織のドメインを入力します。
+1. [!DNL Workfront] モバイルアプリを起動し、「**会社のドメインでログイン**」をクリックします。
+
+1. 組織のドメインを入力します。
 
    組織が SSO を使用している場合は、これは、SAML ドメインです。
 
@@ -106,27 +108,47 @@ ht-degree: 100%
    >
    >これは通常、会社名です。不明な場合は、[!DNL Workfront] 管理者にお問い合わせください。
 
-1. 会社の [!DNL Workfront] URL または SAML 認証ポータルへのリンクを指定します。
+<!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
-   [!DNL Workfront] URL は、次の形式で表示されます。
+   The [!DNL Workfront] URL should display in the following format:
    **`yourDomain.my.workfront.com`**
 
-   例：
+   For example:
 
    **`swains.my.workfront.com`**
 
-1. SAML 資格情報を使用してログインする場合は、SAML 認証ポータルのログイン手順に従います。
+1. If you are logging in with you SAML credentials, follow the login steps from your SAML authentication portal.
 
-   SAML 資格情報を使用してログインするには、[!DNL Workfront] 管理者が [!DNL Workfront] web アプリケーションで SAML 2.0 認証を有効にする必要があります。SAML 2.0 を有効にする方法については、[ [!DNL Adobe Workfront] と SAML 2.0 の連携の設定](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)の記事で [ [!DNL Adobe Workfront] と SAML 2.0 の連携の設定](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#saml-with-workfront-web-app)の節を参照してください。この節の説明どおりにログインできない場合は、Workfront 管理者にお問い合わせください。
+   Your [!DNL Workfront] administrator must enable SAML 2.0 authentication with the [!DNL Workfront] web application in order to log in with your SAML credentials. For information about how to enable SAML 2.0, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#saml-with-workfront-web-app) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md). If you cannot log in as described in this section, contact your Workfront administrator.
 
-1. 「**[!UICONTROL ブラウザーで続行]**」をタップします。
-1. [!DNL Workfront] アカウントまたは SAML ユーザーの「**[!UICONTROL ユーザー名]**」を指定します。
-1. [!DNL Workfront] アカウントまたは SAML ユーザーの「**[!UICONTROL パスワード]**」を指定します。
-1. （オプション）目のアイコンをタップして、パスワードの表示と非表示を切り替えます。
-1. 「**[!UICONTROL ログイン]**」をタップします。
+1. Tap **[!UICONTROL Continue in browser]**.
+1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
+1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
 
-   サインインが行われます。
+1. （条件付き）初めてログインする場合、[!DNL Workfront] モバイルアプリがアカウントにアクセスするための権限を要求するページが表示されます。 「**アクセスを許可**」をクリックして続行します。
+
+1. デスクトップ サイトと同じようにログインできる Web ページにリダイレクトされます。 このプロセスは組織のWorkfrontの設定によって異なります。詳しくは、上記の [SSO を使用せずに  [!DNL Workfront]  ログイン ](#log-in-to-workfront-without-sso) または [SSO を使用して  [!DNL Workfront]  ログイン ](#log-in-to-workfront-with-sso) を参照してください。
+
+   完了すると、によってモバイルアプリにリダイレクトされ、ログインします。
 
 1. 「**[!UICONTROL 了解しました]**」または「**[!UICONTROL はじめに]**」をタップして、表示されたチュートリアル内を移動します。
+
+   これらのチュートリアルは、アプリに初めてアクセスしたときにのみ表示されます。[!DNL Workfront] モバイルアプリをアンインストールし再インストールした場合、または別のユーザーとしてログインした場合にのみ再度表示されます。チュートリアルを閉じた後に表示されるエリアは、表示するように選択したエリアです。
+
+## [!DNL Adobe] ID を使用して、[!DNL Workfront] モバイルアプリにログインします
+
+1. [!DNL Workfront] モバイルアプリを起動し、「**[!DNL Adobe] ID でログイン**」をクリックします。
+
+>[!NOTE]
+>
+>IMS のiOS ユーザーの場合は、「**会社のドメインでログイン** を選択し、[!DNL Workfront] 管理者から提供されたドメインを使用して、[!DNL Adobe] ID を使用してログインできます。
+
+1. メールを入力し、「**続行**」をクリックします。
+
+1. （条件付き）ログインに使用するアカウントを選択します。 [!DNL Adobe] ID が組織に関連付けられている場合、通常、これは **会社または学校アカウント** になります。
+
+1. （条件付き）アカウントが複数の組織に関連付けられている場合に使用するプロファイルを選択します。
+
+1. サインインしました。 「**[!UICONTROL 了解しました]**」または「**[!UICONTROL はじめに]**」をタップして、表示されたチュートリアル内を移動します。
 
    これらのチュートリアルは、アプリに初めてアクセスしたときにのみ表示されます。[!DNL Workfront] モバイルアプリをアンインストールし再インストールした場合、または別のユーザーとしてログインした場合にのみ再度表示されます。チュートリアルを閉じた後に表示されるエリアは、表示するように選択したエリアです。
